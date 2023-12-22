@@ -5,7 +5,7 @@ second_title: Aspose.OCR .NET API
 description: Unlock OCR magic with Aspose.OCR for .NET effortlessly extract text from images. Explore the tutorial for seamless integration.
 type: docs
 weight: 14
-url: /net/ocr-configuration/perform-ocr-on-image/
+url: /net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
 ## Introduction
 
