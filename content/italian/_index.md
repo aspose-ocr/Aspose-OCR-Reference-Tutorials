@@ -18,12 +18,12 @@ Sblocca tutto il potenziale del riconoscimento delle immagini OCR con Aspose.OCR
 
 Questi sono i link ad alcune risorse utili:
  
-- [Esecuzione dell'OCR su BufferedImage in Aspose.OCR per Java](./net/perform-ocr-buffered-image/)
-- [Esecuzione dell'OCR sull'immagine dall'URL in Aspose.OCR per Java](./net/perform-ocr-image-from-url/)
-- [Esecuzione dell'OCR su una pagina specifica in Aspose.OCR](./net/perform-ocr-on-page/)
-- [Preparazione dei rettangoli per l'OCR in Aspose.OCR](./net/prepare-rectangles-for-ocr/)
-- [Riconoscimento delle linee in Aspose.OCR per Java](./net/recognize-lines/)
-- [Specifica dei caratteri consentiti in Aspose.OCR](./net/specify-allowed-characters/)
+- [Calcolo dell'angolo di inclinazione](./net/calcolo-angolo-di-inclinazione/)
+- [Riconoscimento di immagini e disegni](./net/image-and-drawing-recognition/)
+- [Riconoscimento del testo](./net/text-recognition/)
+- [Configurazione OCR](./net/ocr-configuration/)
+- [Ottimizzazione OCR](./net/ocr-optimization/)
+- [Impostazioni OCR](./net/ocr-settings/)
 
 
 ## Aspose.OCR per tutorial Java

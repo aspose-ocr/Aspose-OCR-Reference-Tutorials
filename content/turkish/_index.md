@@ -18,12 +18,12 @@ Aspose.OCR for .NET ile OCR görüntü tanımanın tüm potansiyelini ortaya ç�
 
 Bunlar bazı yararlı kaynaklara bağlantılar:
  
-- [Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme](./net/perform-ocr-buffered-image/)
-- [Aspose.OCR for Java'da URL'den Resim üzerinde OCR gerçekleştirme](./net/perform-ocr-image-from-url/)
-- [Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme](./net/perform-ocr-on-page/)
-- [Aspose.OCR'da OCR için Dikdörtgenler Hazırlama](./net/prepare-rectangles-for-ocr/)
-- [Aspose.OCR for Java'da Çizgileri Tanıma](./net/recognize-lines/)
-- [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./net/specify-allowed-characters/)
+- [Eğrilik Açısı Hesaplaması](./net/skew-angle-calculation/)
+- [Görüntü ve Çizim Tanıma](./net/image-and-drawing-recognition/)
+- [Metin Tanıma](./net/text-recognition/)
+- [OCR Yapılandırması](./net/ocr-configuration/)
+- [OCR Optimizasyonu](./net/ocr-optimization/)
+- [OCR Ayarları](./net/ocr-settings/)
 
 
 ## Java Eğitimleri için Aspose.OCR
