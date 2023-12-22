@@ -15,7 +15,7 @@ In the fast-paced world of technology, extracting text from images has become a 
 
 Before delving into the tutorial, ensure you have the following prerequisites in place:
 
-- Java Development Kit (JDK): Aspose.OCR for Java requires a Java environment. Download and install the latest JDK from the official Oracle website.
+- Java Development Kit (JDK): Aspose.OCR for Java requires a Java environment. Download and install the latest JDK from the Oracle website.
 
 - Aspose.OCR for Java Library: Acquire the Aspose.OCR for Java library from the download link [here](https://releases.aspose.com/ocr/java/). Follow the installation instructions provided in the documentation [here](https://reference.aspose.com/ocr/java/).
 
