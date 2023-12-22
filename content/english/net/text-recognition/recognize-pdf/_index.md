@@ -76,7 +76,7 @@ foreach (var result in results)
 
 Loop through the recognition results and print the extracted text for each page.
 
-## Step 5: Conclusion
+## Conclusion
 
 Congratulations! You've successfully integrated Aspose.OCR for .NET to recognize text in a PDF document. This powerful library opens up a world of possibilities for automating text extraction in your applications.
 
