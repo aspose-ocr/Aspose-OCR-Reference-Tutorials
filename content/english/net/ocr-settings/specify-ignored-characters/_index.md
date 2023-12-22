@@ -75,12 +75,6 @@ RecognitionResult result = api.RecognizeImage(dataDir + "SpanishOCR.bmp", new Re
 Console.WriteLine(result.RecognitionText);
 ```
 
-### Step 5: Conclusion
-
-Congratulations! You have successfully implemented OCR image recognition with specified ignored characters using Aspose.OCR for .NET.
-
-In your real-world applications, you can customize the list of ignored characters based on your specific requirements, providing a tailored OCR experience.
-
 ## Conclusion
 
 Aspose.OCR for .NET empowers developers with advanced OCR capabilities, streamlining the process of converting images into editable and searchable text. By following this step-by-step guide, you've scratched the surface of its potential. Explore the [documentation](https://reference.aspose.com/ocr/net/) for more in-depth insights and discover how Aspose.OCR can elevate your OCR projects.

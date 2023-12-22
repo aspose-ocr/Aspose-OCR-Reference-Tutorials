@@ -75,10 +75,6 @@ Console.WriteLine(result);
 
 Print the recognized text to the console or store it for further processing as needed.
 
-## Step 5: Conclusion
-
-Congratulations! You've successfully ventured into the realm of multilingual OCR image recognition with Aspose.OCR for .NET. This powerful tool opens up a world of possibilities for developers seeking to extract text from images in various languages seamlessly.
-
 ## Conclusion
 
 In this tutorial, we delved into the fascinating landscape of working with different languages in OCR image recognition using Aspose.OCR for .NET. Armed with the right knowledge and tools, you can now embark on OCR projects that span across linguistic boundaries, unlocking a new dimension of text extraction capabilities.

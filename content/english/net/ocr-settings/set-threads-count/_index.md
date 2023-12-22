@@ -64,7 +64,7 @@ After recognition, display the recognized text:
 Console.WriteLine(result.RecognitionText);
 ```
 
-## Step 4: Conclusion
+## Conclusion
 
 In conclusion, setting the Threads Count in OCR Image Recognition using Aspose.OCR for .NET is a straightforward process that significantly enhances performance. Experiment with different thread counts to find the optimal setting for your application.
 
