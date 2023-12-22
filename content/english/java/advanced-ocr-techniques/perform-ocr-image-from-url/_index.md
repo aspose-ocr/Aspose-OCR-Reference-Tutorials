@@ -120,7 +120,7 @@ A3: Yes, ensure compliance with Aspose.OCR licensing terms for commercial use. R
 
 ### Q4: How can I get support for Aspose.OCR-related issues?
 
-A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions. For premium support, consider acquiring a temporary license from [purchase.aspose.com/temporary-license](https://purchase.aspose.com/temporary-license/).
+A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions. For premium support, consider acquiring a temporary license from [Temporary License](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Is there a free trial available for Aspose.OCR for Java?
 
