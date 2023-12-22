@@ -94,10 +94,6 @@ for (int i = 0; i < result.Length; i++)
 // ExEnd:6
 ```
 
-## Step 6: Conclusion
-
-Congratulations! You've successfully executed OCR operations with archive images using Aspose.OCR for .NET. The power of extracting text from images is now at your fingertips.
-
 ## Conclusion
 
 In this tutorial, we explored the seamless integration of Aspose.OCR for .NET to perform OCR operations on archive images. From setting up your project to extracting text, you now have the knowledge to enhance your applications with powerful OCR capabilities.
