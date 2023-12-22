@@ -81,10 +81,6 @@ Display the recognition results, including text, skew, paragraphs, areas, lines,
 PrintRecognitionResult(result);
 ```
 
-## Step 7: Conclusion
-
-Congratulations! You've successfully executed the `GetRecognitionResult` code, unlocking the potential of text recognition with Aspose.OCR for .NET.
-
 ## Conclusion
 
 In this tutorial, we explored the process of extracting text from images using Aspose.OCR for .NET. This powerful library simplifies OCR integration, making it a valuable asset for developers seeking efficient text recognition solutions.
