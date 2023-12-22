@@ -18,12 +18,12 @@ is_root: true
 
 Это ссылки на некоторые полезные ресурсы:
  
-- [Выполнение OCR для BufferedImage в Aspose.OCR для Java](./net/perform-ocr-buffered-image/)
-- [Выполнение оптического распознавания изображения по URL-адресу в Aspose.OCR для Java](./net/perform-ocr-image-from-url/)
-- [Выполнение OCR на определенной странице в Aspose.OCR](./net/perform-ocr-on-page/)
-- [Подготовка прямоугольников для распознавания в Aspose.OCR](./net/prepare-rectangles-for-ocr/)
-- [Распознавание строк в Aspose.OCR для Java](./net/recognize-lines/)
-- [Указание разрешенных символов в Aspose.OCR](./net/specify-allowed-characters/)
+- [Расчет угла наклона](./net/skew-angle-calculation/)
+- [Распознавание изображений и рисунков](./net/image-and-drawing-recognition/)
+- [Распознавание текста](./net/text-recognition/)
+- [Конфигурация OCR](./net/ocr-configuration/)
+- [Оптимизация OCR](./net/ocr-optimization/)
+- [Настройки OCR](./net/ocr-settings/)
 
 
 ## Учебные пособия по Aspose.OCR для Java

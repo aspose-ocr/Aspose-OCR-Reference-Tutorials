@@ -18,12 +18,12 @@ is_root: true
 
 وهذه روابط لبعض الموارد المفيدة:
  
-- [تنفيذ التعرف الضوئي على الحروف (OCR) على BufferedImage في Aspose.OCR لـ Java](./net/perform-ocr-buffered-image/)
-- [تنفيذ التعرف الضوئي على الحروف (OCR) على الصورة من عنوان URL في Aspose.OCR لـ Java](./net/perform-ocr-image-from-url/)
-- [تنفيذ التعرف الضوئي على الحروف (OCR) على صفحة معينة في Aspose.OCR](./net/perform-ocr-on-page/)
-- [تحضير المستطيلات للتعرف الضوئي على الحروف في Aspose.OCR](./net/prepare-rectangles-for-ocr/)
-- [التعرف على الخطوط في Aspose.OCR لجافا](./net/recognize-lines/)
-- [تحديد الأحرف المسموح بها في Aspose.OCR](./net/specify-allowed-characters/)
+- [حساب زاوية الانحراف](./net/skew-angle-calculation/)
+- [التعرف على الصور والرسم](./net/image-and-drawing-recognition/)
+- [التعرف على النص](./net/text-recognition/)
+- [تكوين التعرف الضوئي على الحروف](./net/ocr-configuration/)
+- [تحسين التعرف الضوئي على الحروف](./net/ocr-optimization/)
+- [إعدادات التعرف الضوئي على الحروف](./net/ocr-settings/)
 
 
 ## Aspose.OCR لدروس جافا

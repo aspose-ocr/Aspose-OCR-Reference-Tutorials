@@ -18,12 +18,12 @@ Aspose.OCR 的教程页面对于寻求利用 Aspose.OCR（强大的光学字符�
 
 这些是一些有用资源的链接：
  
-- [在 Aspose.OCR for Java 中对 BufferedImage 执行 OCR](./net/perform-ocr-buffered-image/)
-- [在 Aspose.OCR for Java 中对来自 URL 的图像执行 OCR](./net/perform-ocr-image-from-url/)
-- [在Aspose.OCR中对特定页面执行OCR](./net/perform-ocr-on-page/)
-- [在 Aspose.OCR 中为 OCR 准备矩形](./net/prepare-rectangles-for-ocr/)
-- [在 Aspose.OCR for Java 中识别线条](./net/recognize-lines/)
-- [在 Aspose.OCR 中指定允许的字符](./net/specify-allowed-characters/)
+- [倾斜角度计算](./net/skew-angle-calculation/)
+- [图像和绘图识别](./net/image-and-drawing-recognition/)
+- [文本识别](./net/text-recognition/)
+- [OCR 配置](./net/ocr-configuration/)
+- [OCR优化](./net/ocr-optimization/)
+- [OCR 设置](./net/ocr-settings/)
 
 
 ## Aspose.OCR Java 教程

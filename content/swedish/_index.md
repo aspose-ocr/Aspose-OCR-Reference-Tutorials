@@ -18,12 +18,12 @@ Lås upp den fulla potentialen för OCR-bildigenkänning med Aspose.OCR för .NE
 
 Det här är länkar till några användbara resurser:
  
-- [Utför OCR på BufferedImage i Aspose.OCR för Java](./net/perform-ocr-buffered-image/)
-- [Utför OCR på bild från URL i Aspose.OCR för Java](./net/perform-ocr-image-from-url/)
-- [Utför OCR på specifik sida i Aspose.OCR](./net/perform-ocr-on-page/)
-- [Förbereda rektanglar för OCR i Aspose.OCR](./net/prepare-rectangles-for-ocr/)
-- [Identifiera linjer i Aspose.OCR för Java](./net/recognize-lines/)
-- [Ange tillåtna tecken i Aspose.OCR](./net/specify-allowed-characters/)
+- [Skew Angle Calculation](./net/skew-angle-calculation/)
+- [Image and Drawing Recognition](./net/image-and-drawing-recognition/)
+- [Textigenkänning](./net/textigenkänning/)
+- [OCR-konfiguration](./net/ocr-configuration/)
+- [OCR-optimering](./net/ocr-optimization/)
+- [OCR-inställningar](./net/ocr-settings/)
 
 
 ## Aspose.OCR för Java Tutorials

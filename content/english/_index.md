@@ -18,12 +18,12 @@ Unlock the full potential of OCR image recognition with Aspose.OCR for .NET. Fro
 
 These are links to some useful resources:
  
-- [Performing OCR on BufferedImage in Aspose.OCR for Java](./net/perform-ocr-buffered-image/)
-- [Performing OCR on Image from URL in Aspose.OCR for Java](./net/perform-ocr-image-from-url/)
-- [Performing OCR on Specific Page in Aspose.OCR](./net/perform-ocr-on-page/)
-- [Preparing Rectangles for OCR in Aspose.OCR](./net/prepare-rectangles-for-ocr/)
-- [Recognizing Lines in Aspose.OCR for Java](./net/recognize-lines/)
-- [Specifying Allowed Characters in Aspose.OCR](./net/specify-allowed-characters/)
+- [Skew Angle Calculation](./net/skew-angle-calculation/)
+- [Image and Drawing Recognition](./net/image-and-drawing-recognition/)
+- [Text Recognition](./net/text-recognition/)
+- [OCR Configuration](./net/ocr-configuration/)
+- [OCR Optimization](./net/ocr-optimization/)
+- [OCR Settings](./net/ocr-settings/)
 
 
 ## Aspose.OCR for Java Tutorials
