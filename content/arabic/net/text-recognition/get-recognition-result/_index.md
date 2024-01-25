@@ -81,10 +81,6 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 PrintRecognitionResult(result);
 ```
 
-## الخطوة 7: الاستنتاج
-
- تهانينا! لقد قمت بتنفيذ الأمر بنجاح`GetRecognitionResult` الكود، مما يفتح إمكانية التعرف على النص باستخدام Aspose.OCR لـ .NET.
-
 ## خاتمة
 
 في هذا البرنامج التعليمي، استكشفنا عملية استخراج النص من الصور باستخدام Aspose.OCR لـ .NET. تعمل هذه المكتبة القوية على تبسيط تكامل التعرف الضوئي على الحروف، مما يجعلها رصيدًا قيمًا للمطورين الذين يبحثون عن حلول فعالة للتعرف على النص.
@@ -109,4 +105,4 @@ PrintRecognitionResult(result);
 
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.OCR؟
 
-ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).

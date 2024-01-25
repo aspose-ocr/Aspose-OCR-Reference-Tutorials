@@ -135,4 +135,4 @@ A1: نعم، يدعم Aspose.OCR لغات متعددة. اضبط إعدادات 
 
 ### س5: أين يمكنني طلب الدعم لـ Aspose.OCR؟
 
- ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) لدعم وتوجيه المجتمع.
+ ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) لدعم المجتمع وتوجيهه.

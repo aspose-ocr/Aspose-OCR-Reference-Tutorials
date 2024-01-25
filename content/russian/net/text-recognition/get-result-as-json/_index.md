@@ -46,7 +46,7 @@ AsposeOcr api = new AsposeOcr();
 
 ## Шаг 3: Распознайте изображение
 
-Используйте механизм OCR для распознавания текста на изображении:
+Используйте механизм OCR для распознавания текста внутри изображения:
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });

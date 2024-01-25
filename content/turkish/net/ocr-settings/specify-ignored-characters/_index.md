@@ -77,7 +77,7 @@ Console.WriteLine(result.RecognitionText);
 
 ## Çözüm
 
- Aspose.OCR for .NET, geliştiricilere gelişmiş OCR yetenekleri sağlayarak görüntüleri düzenlenebilir ve aranabilir metne dönüştürme sürecini kolaylaştırıyor. Bu adım adım kılavuzu takip ederek potansiyelinin yüzeyini çizmiş oldunuz. Keşfedin[dokümantasyon](https://reference.aspose.com/ocr/net/) daha derinlemesine bilgiler için Aspose.OCR'ın OCR projelerinizi nasıl geliştirebileceğini keşfedin.
+ Aspose.OCR for .NET, geliştiricilere gelişmiş OCR yetenekleri vererek görüntüleri düzenlenebilir ve aranabilir metne dönüştürme sürecini kolaylaştırıyor. Bu adım adım kılavuzu takip ederek potansiyelinin yüzeyini çizmiş oldunuz. Keşfedin[dokümantasyon](https://reference.aspose.com/ocr/net/) daha derinlemesine bilgiler için Aspose.OCR'ın OCR projelerinizi nasıl geliştirebileceğini keşfedin.
 
 ## SSS'ler
 

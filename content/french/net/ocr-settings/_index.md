@@ -10,7 +10,7 @@ url: /fr/net/ocr-settings/
 
 ## Introduction
 
-À mesure que la technologie évolue, la demande de solutions efficaces de reconnaissance optique de caractères (OCR) continue d’augmenter. Dans cet article, nous aborderons les didacticiels clés sur les paramètres OCR à l'aide d'Aspose.OCR pour .NET, vous fournissant les outils nécessaires pour libérer tout le potentiel de ce cadre robuste.
+À mesure que la technologie évolue, la demande de solutions efficaces de reconnaissance optique de caractères (OCR) continue d'augmenter. Dans cet article, nous aborderons les didacticiels clés sur les paramètres OCR à l'aide d'Aspose.OCR pour .NET, vous fournissant les outils nécessaires pour libérer tout le potentiel de ce cadre robuste.
 
 ## Enregistrer le résultat en tant que document dans la reconnaissance d'image OCR
 

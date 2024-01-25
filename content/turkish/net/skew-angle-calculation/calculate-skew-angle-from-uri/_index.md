@@ -9,7 +9,7 @@ url: /tr/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
 ## giriiş
 
-.NET için Aspose.OCR dünyasına hoş geldiniz! Bu kapsamlı eğitimde, OCR görüntü tanımada bir URI'den eğrilik açısını hesaplamak için Aspose.OCR for .NET'i kullanmanın inceliklerini inceleyeceğiz. Bu güçlü araç, optik karakter tanımada yeni olanaklar açarak süreci daha sorunsuz ve verimli hale getiriyor.
+.NET için Aspose.OCR dünyasına hoş geldiniz! Bu kapsamlı eğitimde, OCR görüntü tanımada bir URI'den eğim açısını hesaplamak için Aspose.OCR for .NET'i kullanmanın inceliklerini inceleyeceğiz. Bu güçlü araç, optik karakter tanımada yeni olanaklar açarak süreci daha sorunsuz ve verimli hale getiriyor.
 
 ## Önkoşullar
 

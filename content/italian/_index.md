@@ -18,12 +18,12 @@ Sblocca tutto il potenziale del riconoscimento delle immagini OCR con Aspose.OCR
 
 Questi sono i link ad alcune risorse utili:
  
-- [Calcolo dell'angolo di inclinazione](./net/calcolo-angolo-di-inclinazione/)
+- [Calcolo dell'angolo di inclinazione](./net/skew-angle-calculation/)
 - [Riconoscimento di immagini e disegni](./net/image-and-drawing-recognition/)
 - [Riconoscimento del testo](./net/text-recognition/)
-- [Configurazione OCR](./net/ocr-configuration/)
-- [Ottimizzazione OCR](./net/ocr-optimization/)
-- [Impostazioni OCR](./net/ocr-settings/)
+- [Configurazione dell'OCR](./net/ocr-configuration/)
+- [Ottimizzazione dell'OCR](./net/ocr-optimization/)
+- [Impostazioni dell'OCR](./net/ocr-settings/)
 
 
 ## Aspose.OCR per tutorial Java

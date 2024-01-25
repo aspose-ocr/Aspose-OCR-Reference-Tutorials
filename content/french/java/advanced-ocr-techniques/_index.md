@@ -37,7 +37,7 @@ Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte
 
 ## [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
 
-Extrayez sans effort le texte des images en spécifiant les caractères autorisés avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace, garantissant une expérience de reconnaissance de texte fluide. Améliorez vos applications Java avec les fonctionnalités Aspose.OCR.
+Extrayez sans effort le texte des images en spécifiant les caractères autorisés avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace, garantissant une expérience de reconnaissance de texte transparente. Améliorez vos applications Java avec les fonctionnalités Aspose.OCR.
 
 ## Conclusion
 

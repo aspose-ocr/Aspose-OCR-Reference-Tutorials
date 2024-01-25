@@ -9,7 +9,7 @@ url: /tr/net/ocr-settings/specify-allowed-characters/
 ---
 ## giriiş
 
-Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerdeki metni anlamasını sağlayan dönüştürücü bir araç olarak ortaya çıktı. Aspose.OCR for .NET, .NET uygulamalarında güçlü OCR yetenekleri arayan geliştiricilere kusursuz entegrasyon sağlayan güçlü bir çözüm olarak öne çıkıyor.
+Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerdeki metni anlamasını sağlayan dönüştürücü bir araç olarak ortaya çıktı. Aspose.OCR for .NET, .NET uygulamalarında güçlü OCR özellikleri arayan geliştiricilere kusursuz entegrasyon sağlayan güçlü bir çözüm olarak öne çıkıyor.
 
 ## Önkoşullar
 

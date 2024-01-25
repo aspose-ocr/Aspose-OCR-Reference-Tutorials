@@ -9,7 +9,7 @@ url: /tr/net/text-recognition/get-result-as-json/
 ---
 ## giriiş
 
-Sürekli gelişen teknoloji ortamında Optik Karakter Tanıma (OCR), makinelerin görüntülerden bilgi çıkarmasına ve yorumlamasına olanak tanıyan çok önemli bir araç olarak duruyor. Aspose.OCR for .NET, geliştiricilerin OCR yeteneklerini uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanır. Bu eğitim, Aspose.OCR for .NET'i kullanarak JSON formatında OCR sonuçlarını elde etme sürecinde size rehberlik edecektir.
+Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerden bilgi çıkarmasına ve yorumlamasına olanak tanıyan çok önemli bir araç olarak duruyor. Aspose.OCR for .NET, geliştiricilerin OCR yeteneklerini uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanır. Bu eğitim, Aspose.OCR for .NET'i kullanarak JSON formatında OCR sonuçlarını elde etme sürecinde size rehberlik edecektir.
 
 ## Önkoşullar
 

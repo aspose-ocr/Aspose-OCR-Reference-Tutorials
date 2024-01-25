@@ -18,7 +18,7 @@ Maximera OCR-noggrannheten med Aspose.OCR för .NET-tutorials. Utför OCR på bi
 
 ## Förbered rektanglar i OCR-bildigenkänning
 
- Är du redo att frigöra den fulla potentialen hos Aspose.OCR för .NET? Vår guide på[förbereda rektanglar](./prepare-rectangles/) för bildigenkänning är din nyckel till framgång. Lär dig steg-för-steg hur du optimerar bildigenkänning genom att strategiskt placera rektanglar. Lyft dina .NET-applikationer med denna oumbärliga kunskap.
+ Är du redo att frigöra den fulla potentialen hos Aspose.OCR för .NET? Vår guide på[förbereda rektanglar](./prepare-rectangles/) för bildigenkänning är din nyckel till framgång. Lär dig steg för steg hur du optimerar bildigenkänning genom att strategiskt placera rektanglar. Lyft dina .NET-applikationer med denna oumbärliga kunskap.
 
 ## Förbearbetning av filter för bild i OCR-bildigenkänning
 

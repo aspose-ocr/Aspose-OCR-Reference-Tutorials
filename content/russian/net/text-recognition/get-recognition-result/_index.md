@@ -81,10 +81,6 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 PrintRecognitionResult(result);
 ```
 
-## Шаг 7: Заключение
-
- Поздравляем! Вы успешно выполнили`GetRecognitionResult` кода, раскрывая потенциал распознавания текста с помощью Aspose.OCR для .NET.
-
 ## Заключение
 
 В этом уроке мы рассмотрели процесс извлечения текста из изображений с помощью Aspose.OCR для .NET. Эта мощная библиотека упрощает интеграцию OCR, что делает ее ценным активом для разработчиков, ищущих эффективные решения для распознавания текста.
@@ -109,4 +105,4 @@ PrintRecognitionResult(result);
 
 ### Вопрос 5: Могу ли я получить временную лицензию на Aspose.OCR?
 
-О5: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+ О5: Да, вы можете приобрести временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).

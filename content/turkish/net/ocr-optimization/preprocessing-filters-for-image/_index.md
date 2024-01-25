@@ -65,7 +65,7 @@ using (FileStream fs = new FileStream(dataDir + "preprocessed.png", FileMode.Ope
 img.Dispose();
 ```
 
-### Özel Ön İşleme ile Görüntüyü Tanıyın
+### Özel Ön İşleme ile Görüntüyü Tanıma
 
 ```csharp
 // Özel ön işleme ile görüntüyü tanıma

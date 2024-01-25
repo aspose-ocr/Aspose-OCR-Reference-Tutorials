@@ -16,22 +16,22 @@ La page de didacticiels d'Aspose.OCR constitue une ressource inestimable pour le
 Libérez tout le potentiel de la reconnaissance d’images OCR avec Aspose.OCR pour .NET. Du calcul précis de l'angle d'inclinaison à la reconnaissance et à l'optimisation de texte, nos didacticiels complets fournissent des conseils étape par étape. Améliorez la précision et l'efficacité de vos projets sans effort, en garantissant une intégration transparente des capacités OCR de pointe. Plongez dans le monde d'Aspose.OCR pour .NET et révolutionnez votre parcours d'extraction de texte.
 {{% /alert %}}
 
-Voici des liens vers quelques ressources utiles:
+Voici des liens vers quelques ressources utiles :
  
 - [Calcul de l'angle d'inclinaison](./net/skew-angle-calculation/)
 - [Reconnaissance d'images et de dessins](./net/image-and-drawing-recognition/)
 - [Reconnaissance de texte](./net/text-recognition/)
-- [Configuration OCR](./net/ocr-configuration/)
-- [Optimisation OCR](./net/ocr-optimization/)
-- [Paramètres OCR](./net/ocr-settings/)
+- [Configuration de la ROC](./net/ocr-configuration/)
+- [Optimisation de la ROC](./net/ocr-optimization/)
+- [Paramètres ROC](./net/ocr-settings/)
 
 
 ## Aspose.OCR pour les didacticiels Java
 {{% alert color="primary" %}}
-Libérez la puissance de l'extraction de texte dans les applications Java avec Aspose.OCR! Notre page de didacticiels Java est votre passerelle pour maîtriser les fonctionnalités OCR sans effort. Plongez dans des guides complets couvrant la reconnaissance de texte, la configuration et l'optimisation. Élevez vos projets Java en libérant la précision et l’efficacité d’Aspose.OCR, garantissant une intégration transparente et des résultats précis. Explorez les didacticiels dès aujourd'hui et dotez vos applications Java d'une technologie OCR de pointe.
+Libérez la puissance de l'extraction de texte dans les applications Java avec Aspose.OCR ! Notre page de didacticiels Java est votre passerelle pour maîtriser les fonctionnalités OCR sans effort. Plongez dans des guides complets couvrant la reconnaissance de texte, la configuration et l'optimisation. Élevez vos projets Java en libérant la précision et l’efficacité d’Aspose.OCR, garantissant une intégration transparente et des résultats précis. Explorez les didacticiels dès aujourd'hui et dotez vos applications Java d'une technologie OCR de pointe.
 {{% /alert %}}
 
-Voici des liens vers quelques ressources utiles:
+Voici des liens vers quelques ressources utiles :
  
 - [Bases de la ROC](./java/ocr-basics/)
 - [Opérations ROC](./java/ocr-operations/)

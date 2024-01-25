@@ -48,7 +48,7 @@ string dataDir = "Your Document Directory";
 
  Убедитесь, что переменная`dataDir` указывает на каталог, в котором хранятся ваши изображения OCR.
 
-## Шаг 2. Инициализируйте AsposeOcr
+## Шаг 2: Инициализируйте AsposeOcr
 
 ```csharp
 // Инициализировать экземпляр AsposeOcr

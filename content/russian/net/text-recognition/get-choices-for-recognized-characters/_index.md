@@ -66,7 +66,7 @@ RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 
 ## Шаг 4. Получите выбор для узнаваемых персонажей
 
-Получить варианты выбора для распознанных персонажей:
+Получить варианты выбора для распознанных символов:
 
 ```csharp
 List<char[]> resultWithChoices = result.RecognitionCharactersList;

@@ -61,7 +61,7 @@ using (FileStream file = new FileStream(dataDir + "sample.png", FileMode.Open, F
 }
 ```
 
-Bu adım, görüntü dosyasını belirtilen yoldan açmayı, onu MemoryStream'e dönüştürmeyi ve ardından metni tanımak için AsposeOcr örneğini kullanmayı içerir.
+Bu adım, görüntü dosyasını belirtilen yoldan açmayı, onu bir MemoryStream'e dönüştürmeyi ve ardından metni tanımak için AsposeOcr örneğini kullanmayı içerir.
 
 ## Adım 4: Tanınan Metni Görüntüleyin
 

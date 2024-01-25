@@ -19,7 +19,7 @@ Bevor Sie sich mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden
 
 2.  Aspose.OCR für Java-Paket: Laden Sie das Aspose.OCR für Java-Paket von herunter und installieren Sie es[Download-Link](https://releases.aspose.com/ocr/java/).
 
-3. Gültige Lizenz: Erwerben Sie eine gültige Lizenz für Aspose.OCR. Wenn Sie noch keine haben, können Sie bei uns eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+3. Gültige Lizenz: Erwerben Sie eine gültige Lizenz für Aspose.OCR. Wenn Sie noch keine haben, können Sie bei uns eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 
 ## Pakete importieren
 

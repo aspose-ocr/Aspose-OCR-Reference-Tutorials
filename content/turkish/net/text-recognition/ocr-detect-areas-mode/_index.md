@@ -68,7 +68,7 @@ Console.WriteLine("OCRDetectAreasMode executed successfully");
 
 ## Çözüm
 
-Aspose.OCR for .NET, çok yönlü ve etkili bir çözüm sunarak OCR görüntü tanımayı basitleştirir. Geliştiriciler, OCR Tespit Alanları Modunu keşfederek, OCR işlemlerini belirli ihtiyaçlara göre uyarlayabilir ve görüntülerden doğru ve hızlı metin çıkarılmasını sağlayabilir.
+Aspose.OCR for .NET, çok yönlü ve etkili bir çözüm sunarak OCR görüntü tanımayı basitleştirir. Geliştiriciler, OCR Tespit Alanları Modunu keşfederek, OCR işlemlerini belirli ihtiyaçlara göre uyarlayabilir ve görüntülerden doğru ve hızlı metin çıkarımı sağlayabilir.
 
 ## SSS'ler
 

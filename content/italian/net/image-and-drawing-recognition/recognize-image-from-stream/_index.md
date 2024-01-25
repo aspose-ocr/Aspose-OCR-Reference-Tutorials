@@ -49,7 +49,7 @@ AsposeOcr api = new AsposeOcr();
 
 Crea un'istanza della classe AsposeOcr per sfruttare la funzionalità OCR.
 
-## Passaggio 3: riconoscere l'immagine dallo streaming
+## Passaggio 3: riconoscere l'immagine dallo stream
 
 ```csharp
 // Riconoscere l'immagine

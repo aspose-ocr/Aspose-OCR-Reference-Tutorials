@@ -103,7 +103,7 @@ A1: Sì, Aspose.OCR è progettato per essere versatile e può essere utilizzato 
 
 ### Q3: Come posso ottenere supporto per Aspose.OCR?
 
-R3: Per qualsiasi domanda o problema, visitare il[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) cercare assistenza da parte della comunità e Aspose supporto.
+R3: Per qualsiasi domanda o problema, visitare il[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) cercare assistenza da parte della comunità e Aspose sostegno.
 
 ### Q4: Quali formati di immagine supporta Aspose.OCR?
 

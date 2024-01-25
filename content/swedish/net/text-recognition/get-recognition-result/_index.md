@@ -81,10 +81,6 @@ Visa igenkänningsresultaten, inklusive text, skevhet, stycken, områden, linjer
 PrintRecognitionResult(result);
 ```
 
-## Steg 7: Slutsats
-
- Grattis! Du har framgångsrikt utfört`GetRecognitionResult` kod, och låser upp potentialen för textigenkänning med Aspose.OCR för .NET.
-
 ## Slutsats
 
 I den här handledningen utforskade vi processen att extrahera text från bilder med Aspose.OCR för .NET. Detta kraftfulla bibliotek förenklar OCR-integrering, vilket gör det till en värdefull tillgång för utvecklare som söker effektiva textigenkänningslösningar.
@@ -109,4 +105,4 @@ S1: Ja, Aspose.OCR stöder flerspråkig textigenkänning, vilket ger mångsidigh
 
 ### F5: Kan jag få en tillfällig licens för Aspose.OCR?
 
-S5: Ja, du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S5: Ja, du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).

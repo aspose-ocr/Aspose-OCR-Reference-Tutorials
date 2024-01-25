@@ -2,7 +2,7 @@
 title: 在 Aspose.OCR for Java 中识别线条
 linktitle: 在 Aspose.OCR for Java 中识别线条
 second_title: Aspose.OCR Java API
-description: 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别能力。集成方便，精度高。
+description: 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别功能。集成方便，精度高。
 type: docs
 weight: 14
 url: /zh/java/advanced-ocr-techniques/recognize-lines/
