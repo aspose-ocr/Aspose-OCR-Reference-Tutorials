@@ -18,7 +18,7 @@ Aspose.OCR for .NET eğitimleriyle OCR doğruluğunu en üst düzeye çıkarın.
 
 ## OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
 
- Aspose.OCR for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? hakkındaki rehberimiz[dikdörtgenler hazırlama](./prepare-rectangles/) çünkü görüntü tanıma başarının anahtarıdır. Dikdörtgenleri stratejik olarak yerleştirerek görüntü tanımayı nasıl optimize edeceğinizi adım adım öğrenin. .NET uygulamalarınızı bu vazgeçilmez bilgiyle yükseltin.
+ Aspose.OCR for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? hakkındaki rehberimiz[dikdörtgenler hazırlanıyor](./prepare-rectangles/) çünkü görüntü tanıma başarının anahtarıdır. Dikdörtgenleri stratejik olarak yerleştirerek görüntü tanımayı nasıl optimize edeceğinizi adım adım öğrenin. .NET uygulamalarınızı bu vazgeçilmez bilgiyle yükseltin.
 
 ## OCR Görüntü Tanıma'da Görüntü için Ön İşleme Filtreleri
 

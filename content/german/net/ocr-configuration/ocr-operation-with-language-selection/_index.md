@@ -17,7 +17,7 @@ Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden 
 
 -  Aspose.OCR für .NET: Stellen Sie sicher, dass die Aspose.OCR-Bibliothek installiert ist. Sie können es hier herunterladen[Aspose.OCR für .NET-Downloadseite](https://releases.aspose.com/ocr/net/).
 
-- Entwicklungsumgebung: Richten Sie eine Arbeitsumgebung mit einer .NET-Anwendung ein. Wenn Sie dies noch nicht getan haben, lesen Sie die[Dokumentation](https://reference.aspose.com/ocr/net/) für detaillierte Anweisungen.
+- Entwicklungsumgebung: Richten Sie eine Arbeitsumgebung mit einer .NET-Anwendung ein. Wenn Sie dies noch nicht getan haben, lesen Sie bitte die[Dokumentation](https://reference.aspose.com/ocr/net/) für detaillierte Anweisungen.
 
 ## Namespaces importieren
 

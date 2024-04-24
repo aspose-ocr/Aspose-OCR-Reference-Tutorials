@@ -81,10 +81,6 @@ Metin, eğrilik, paragraflar, alanlar, çizgiler, seçimler, JSON gösterimi ve 
 PrintRecognitionResult(result);
 ```
 
-## Adım 7: Sonuç
-
- Tebrikler! başarıyla yürüttünüz`GetRecognitionResult` Aspose.OCR for .NET ile metin tanıma potansiyelini açığa çıkarın.
-
 ## Çözüm
 
 Bu eğitimde Aspose.OCR for .NET kullanarak görüntülerden metin çıkarma sürecini inceledik. Bu güçlü kitaplık, OCR entegrasyonunu basitleştirerek onu etkili metin tanıma çözümleri arayan geliştiriciler için değerli bir varlık haline getirir.
@@ -109,4 +105,4 @@ Cevap1: Evet, Aspose.OCR çok dilli metin tanımayı destekleyerek çok çeşitl
 
 ### S5: Aspose.OCR için geçici bir lisans alabilir miyim?
 
-Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).

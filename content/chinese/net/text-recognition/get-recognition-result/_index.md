@@ -81,10 +81,6 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 PrintRecognitionResult(result);
 ```
 
-## 第7步：结论
-
-恭喜！您已经成功执行了`GetRecognitionResult`代码，利用 Aspose.OCR for .NET 释放文本识别的潜力。
-
 ## 结论
 
 在本教程中，我们探索了使用 Aspose.OCR for .NET 从图像中提取文本的过程。这个强大的库简化了 OCR 集成，使其成为寻求高效文本识别解决方案的开发人员的宝贵资产。
@@ -109,4 +105,4 @@ A1：是的，Aspose.OCR 支持多语言文本识别，为广泛的应用提供�
 
 ### Q5：我可以获得 Aspose.OCR 的临时许可证吗？
 
-A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+ A5：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).

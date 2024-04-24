@@ -89,7 +89,7 @@ for (RecognitionResult r : result) {
 
 Tanıma sonuçlarını yineleyin ve çıkarılan metni, paragrafları, satırları, karakterleri, uyarıları, JSON'u ve yazım denetimi düzeltilmiş metni yazdırın.
 
-##  Adım 7: Uygulamayı uygulayın`printResult` Method
+##  7. Adım: Uygulamayı uygulayın`printResult` Method
 
 ```java
 static void printResult(RecognitionResult result) {

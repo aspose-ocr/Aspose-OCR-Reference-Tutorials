@@ -59,7 +59,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new Recogni
 });
 ```
 
-在这里，我们使用`RecognizeImage`方法对指定图像执行OCR。根据您的要求调整设置。
+在这里，我们使用`RecognizeImage`方法对指定图像进行OCR。根据您的要求调整设置。
 
 ## 第三步：显示识别的文本
 

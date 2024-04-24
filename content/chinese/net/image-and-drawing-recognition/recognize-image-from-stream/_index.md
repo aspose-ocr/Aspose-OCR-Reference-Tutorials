@@ -88,7 +88,7 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 
 ### Q1：Aspose.OCR可以处理多种语言吗？
 
-A1：是的，Aspose.OCR 支持多种语言，使其能够满足不同的 OCR 要求。
+A1：是的，Aspose.OCR 支持多种语言，使其能够满足不同的 OCR 需求。
 
 ### Q2：有试用版吗？
 

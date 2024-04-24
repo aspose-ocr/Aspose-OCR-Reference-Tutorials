@@ -21,9 +21,9 @@ Estos son enlaces a algunos recursos útiles:
 - [Cálculo del ángulo de inclinación](./net/skew-angle-calculation/)
 - [Reconocimiento de imágenes y dibujos](./net/image-and-drawing-recognition/)
 - [Reconocimiento de texto](./net/text-recognition/)
-- [Configuración OCR](./net/ocr-configuration/)
+- [Configuración de OCR](./net/ocr-configuration/)
 - [Optimización de OCR](./net/ocr-optimization/)
-- [Configuración de OCR] (./net/ocr-settings/)
+- [Configuración de OCR](./net/ocr-settings/)
 
 
 ## Tutoriales de Aspose.OCR para Java

@@ -1,5 +1,5 @@
 ---
-title: Optik Karakter Tanıma Konusunda Uzmanlaşma - Aspose.OCR Eğitimleri
+title: Optik Karakter Tanıma Konusunda Uzmanlaşma - Aspose.OCR Dersleri
 linktitle: Aspose.OCR Eğitimleri
 additionalTitle: API Referanslarını Aspose Edin
 description: Aspose.OCR Dersleri - Çeşitli dillerde net talimatlar ve pratik örneklerle optik karakter tanıma konusunda uzmanlaşmak için başvurulacak kaynağınız.
@@ -18,7 +18,7 @@ Aspose.OCR for .NET ile OCR görüntü tanımanın tüm potansiyelini ortaya ç�
 
 Bunlar bazı yararlı kaynaklara bağlantılar:
  
-- [Eğrilik Açısı Hesaplaması](./net/skew-angle-calculation/)
+- [Eğrilik Açısı Hesabı](./net/skew-angle-calculation/)
 - [Görüntü ve Çizim Tanıma](./net/image-and-drawing-recognition/)
 - [Metin Tanıma](./net/text-recognition/)
 - [OCR Yapılandırması](./net/ocr-configuration/)

@@ -81,10 +81,6 @@ Affichez les résultats de la reconnaissance, notamment le texte, l'inclinaison,
 PrintRecognitionResult(result);
 ```
 
-## Étape 7 : Conclusion
-
- Toutes nos félicitations! Vous avez exécuté avec succès le`GetRecognitionResult` code, libérant le potentiel de la reconnaissance de texte avec Aspose.OCR pour .NET.
-
 ## Conclusion
 
 Dans ce didacticiel, nous avons exploré le processus d'extraction de texte à partir d'images à l'aide d'Aspose.OCR pour .NET. Cette puissante bibliothèque simplifie l'intégration OCR, ce qui en fait un atout précieux pour les développeurs à la recherche de solutions efficaces de reconnaissance de texte.
@@ -109,4 +105,4 @@ A1 : Oui, Aspose.OCR prend en charge la reconnaissance de texte multilingue, off
 
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.OCR ?
 
-A5 : Oui, vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ A5 : Oui, vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).

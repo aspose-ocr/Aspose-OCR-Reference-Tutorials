@@ -78,7 +78,7 @@ Tebrikler! Aspose.OCR for .NET'i kullanarak bir akıştaki eğim açısını hes
 
 ## Çözüm
 
-Sonuç olarak Aspose.OCR for .NET, .NET uygulamalarında OCR görüntü tanıma için kusursuz ve etkili bir çözüm sunuyor. Bu adım adım kılavuzu takip ederek, bir akıştaki eğrilik açılarını hesaplama sürecini ortaya çıkardınız ve çarpık görüntüleri zahmetsizce işleme yeteneğinizi geliştirdiniz.
+Sonuç olarak Aspose.OCR for .NET, .NET uygulamalarında OCR görüntü tanıma için kusursuz ve etkili bir çözüm sunuyor. Bu adım adım kılavuzu takip ederek, bir akıştaki eğrilik açılarını hesaplama işlemini ortaya çıkardınız ve çarpık görüntüleri zahmetsizce işleme yeteneğinizi geliştirdiniz.
 
  Aspose.OCR for .NET tarafından sunulan daha fazla özellik ve işlevi keşfetmekten çekinmeyin.[dokümantasyon](https://reference.aspose.com/ocr/net/).
 

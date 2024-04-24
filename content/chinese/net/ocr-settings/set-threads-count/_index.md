@@ -57,7 +57,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 
 ## 第 3 步：显示识别的文本
 
-识别完成后，显示识别出的文字：
+识别后，显示识别到的文字：
 
 ```csharp
 //显示识别的文本
@@ -66,7 +66,7 @@ Console.WriteLine(result.RecognitionText);
 
 ## 结论
 
-总之，使用 Aspose.OCR for .NET 设置 OCR 图像识别中的线程数是一个简单的过程，可以显着提高性能。尝试不同的线程数，找到适合您的应用程序的最佳设置。
+总之，使用 Aspose.OCR for .NET 设置 OCR 图像识别中的线程计数是一个简单的过程，可以显着提高性能。尝试不同的线程数，找到适合您的应用程序的最佳设置。
 
 ## 常见问题解答
 
@@ -80,7 +80,7 @@ Console.WriteLine(result.RecognitionText);
 
 ### 问题 3：在哪里可以找到 Aspose.OCR for .NET 的综合文档？
 
- A3：请参阅[文档](https://reference.aspose.com/ocr/net/)有关 Aspose.OCR 的详细指南。
+ A3：请参阅[文档](https://reference.aspose.com/ocr/net/)有关 Aspose.OCR 的详细指导。
 
 ### 问题 4：Aspose.OCR for .NET 是否有免费试用版？
 

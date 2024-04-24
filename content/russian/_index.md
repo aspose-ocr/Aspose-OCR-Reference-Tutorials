@@ -18,12 +18,12 @@ is_root: true
 
 Это ссылки на некоторые полезные ресурсы:
  
-- [Расчет угла наклона](./net/skew-angle-calculation/)
+- [Расчет угла перекоса](./net/skew-angle-calculation/)
 - [Распознавание изображений и рисунков](./net/image-and-drawing-recognition/)
 - [Распознавание текста](./net/text-recognition/)
-- [Конфигурация OCR](./net/ocr-configuration/)
-- [Оптимизация OCR](./net/ocr-optimization/)
-- [Настройки OCR](./net/ocr-settings/)
+- [Конфигурация оптического распознавания символов](./net/ocr-configuration/)
+- [Оптимизация оптического распознавания символов](./net/ocr-optimization/)
+- [Настройки оптического распознавания символов](./net/ocr-settings/)
 
 
 ## Учебные пособия по Aspose.OCR для Java

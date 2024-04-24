@@ -39,7 +39,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Maintenant que nous avons préparé le terrain, décomposons l’exemple en plusieurs étapes.
+Maintenant que nous avons préparé le terrain, décomposons l'exemple en plusieurs étapes.
 
 ## Étape 1 : initialiser Aspose.OCR
 

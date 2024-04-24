@@ -9,7 +9,7 @@ url: /sv/net/ocr-settings/specify-allowed-characters/
 ---
 ## Introduktion
 
-det ständigt föränderliga teknologiska landskapet har Optical Character Recognition (OCR) dykt upp som ett transformativt verktyg som gör det möjligt för maskiner att förstå text från bilder. Aspose.OCR för .NET framstår som en kraftfull lösning som ger sömlös integration för utvecklare som söker robusta OCR-funktioner i sina .NET-applikationer.
+det ständigt föränderliga tekniklandskapet har Optical Character Recognition (OCR) dykt upp som ett transformativt verktyg som gör det möjligt för maskiner att förstå text från bilder. Aspose.OCR för .NET framstår som en kraftfull lösning som ger sömlös integration för utvecklare som söker robusta OCR-funktioner i sina .NET-applikationer.
 
 ## Förutsättningar
 

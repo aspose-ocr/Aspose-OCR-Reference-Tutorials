@@ -2,7 +2,7 @@
 title: Распознавание изображения без обнаружения текстовой области в распознавании изображений OCR
 linktitle: Распознавание изображения без обнаружения текстовой области в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
-description: Раскройте потенциал распознавания текста с помощью Aspose.OCR для .NET. Распознавайте текст на изображениях без особых усилий.
+description: Раскройте потенциал распознавания текста с помощью Aspose.OCR для .NET. Распознавайте текст с изображений без особых усилий.
 type: docs
 weight: 13
 url: /ru/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/

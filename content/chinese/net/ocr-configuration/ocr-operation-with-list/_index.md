@@ -48,7 +48,7 @@ AsposeOcr api = new AsposeOcr();
 
 ## 第2步：指定图像路径
 
-在识别之前，先定义好要处理的图像的路径。例如：
+在识别之前，定义要处理的图像的路径。例如：
 
 ```csharp
 List<string> imagePaths = new List<string>

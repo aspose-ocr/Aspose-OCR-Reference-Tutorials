@@ -73,7 +73,7 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 ## الأسئلة الشائعة
 
-### س١: هل يمكنني استخدام Aspose.OCR لـ .NET مع لغات البرمجة الأخرى؟
+### س١: هل يمكنني استخدام Aspose.OCR لـ .NET مع لغات برمجة أخرى؟
 
 A1: يدعم Aspose.OCR بشكل أساسي لغات .NET، ولكن يمكنك استكشاف المغلفات للغات الأخرى.
 

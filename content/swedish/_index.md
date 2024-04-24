@@ -18,9 +18,9 @@ Lås upp den fulla potentialen för OCR-bildigenkänning med Aspose.OCR för .NE
 
 Det här är länkar till några användbara resurser:
  
-- [Skew Angle Calculation](./net/skew-angle-calculation/)
-- [Image and Drawing Recognition](./net/image-and-drawing-recognition/)
-- [Textigenkänning](./net/textigenkänning/)
+- [Beräkning av sned vinkel](./net/skew-angle-calculation/)
+- [Bild- och ritigenkänning](./net/image-and-drawing-recognition/)
+- [Textigenkänning](./net/text-recognition/)
 - [OCR-konfiguration](./net/ocr-configuration/)
 - [OCR-optimering](./net/ocr-optimization/)
 - [OCR-inställningar](./net/ocr-settings/)

@@ -32,7 +32,7 @@ OCR görüntü tanıma oyununuzu yükseltmeye hazır mısınız? Aspose.OCR for 
  Geliştiriciler, sevinin![Çizgiyi Tanı](./recognize-line/)Aspose.OCR for .NET ile OCR görüntü tanımada. Bu eğitim, Aspose.OCR for .NET'in çizgi tanıma potansiyelini açığa çıkarmanız için rehberiniz olarak hizmet vermektedir. Sağlanan geliştirici kılavuzunu izleyerek resimlerden metni sorunsuz bir şekilde çıkarın.
 
 ## OCR Görüntü Tanıma'da Görüntü üzerinde OCR gerçekleştirin
-Aspose.OCR for .NET ile görüntülerden zahmetsizce metin çıkarırken OCR'nin büyüsünü açığa çıkarın. Bu eğitim, kusursuz entegrasyona geçiş kapısı görevi görerek görüntüler üzerinde OCR gerçekleştirmeye yönelik bilgiler sağlar ve uygulamanızın metin çıkarma yeteneklerini en üst düzeye çıkarır.
+Aspose.OCR for .NET ile görüntülerden zahmetsizce metin çıkarırken OCR'nin büyüsünü açığa çıkarın. Bu eğitim, kusursuz entegrasyona geçiş kapısı görevi görür, görüntüler üzerinde OCR gerçekleştirmeye ilişkin bilgiler sağlar ve uygulamanızın metin çıkarma yeteneklerini en üst düzeye çıkarır.
 
 Sonuç olarak Aspose.OCR for .NET Eğitimleri, OCR görüntü tanıma konusunda uzmanlaşmak isteyen geliştiriciler için kapsamlı bir liste sunuyor. İster satırlar, paragraflar, ister tüm akışlar olsun, hassas metin çıkarma konusunda geliştirici dostu bir yolculuk için bu eğitimleri keşfedin. Şimdi keşfetmeye başlayın!
 ## Görüntü ve Çizim Tanıma Eğitimleri

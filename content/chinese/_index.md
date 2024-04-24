@@ -18,12 +18,12 @@ Aspose.OCR 的教程页面对于寻求利用 Aspose.OCR（强大的光学字符�
 
 这些是一些有用资源的链接：
  
-- [倾斜角度计算](./net/skew-angle-calculation/)
+- [倾斜角计算](./net/skew-angle-calculation/)
 - [图像和绘图识别](./net/image-and-drawing-recognition/)
-- [文本识别](./net/text-recognition/)
-- [OCR 配置](./net/ocr-configuration/)
+- [文字识别](./net/text-recognition/)
+- [OCR配置](./net/ocr-configuration/)
 - [OCR优化](./net/ocr-optimization/)
-- [OCR 设置](./net/ocr-settings/)
+- [光学字符识别设置](./net/ocr-settings/)
 
 
 ## Aspose.OCR Java 教程

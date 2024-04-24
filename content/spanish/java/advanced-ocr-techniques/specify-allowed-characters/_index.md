@@ -104,4 +104,4 @@ R:4 Aspose.OCR permanece actualizado para garantizar la compatibilidad con los �
 
 ### P5: ¿Hay funciones de OCR adicionales en Aspose.OCR?
 
-R5: Explore las funciones y opciones completas disponibles en la documentación.
+R5: Explore las funciones y opciones integrales disponibles en la documentación.

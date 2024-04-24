@@ -18,7 +18,7 @@ Nutzen Sie das volle Potenzial der OCR-Bilderkennung mit Aspose.OCR für .NET. V
 
 Dies sind Links zu einigen nützlichen Ressourcen:
  
-- [Schrägwinkelberechnung](./net/skew-angle-calculation/)
+- [Berechnung des Schrägwinkels](./net/skew-angle-calculation/)
 - [Bild- und Zeichnungserkennung](./net/image-and-drawing-recognition/)
 - [Texterkennung](./net/text-recognition/)
 - [OCR-Konfiguration](./net/ocr-configuration/)
