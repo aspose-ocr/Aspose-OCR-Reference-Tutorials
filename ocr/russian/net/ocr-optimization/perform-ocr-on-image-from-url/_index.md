@@ -3,10 +3,16 @@ title: Выполните распознавание изображения по
 linktitle: Выполните распознавание изображения по URL-адресу в распознавании изображений OCR.
 second_title: Aspose.OCR .NET API
 description: Изучите бесшовную интеграцию OCR с Aspose.OCR для .NET. Точно распознавайте текст на изображениях.
-type: docs
 weight: 10
 url: /ru/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выполните распознавание изображения по URL-адресу в распознавании изображений OCR.
+
 ## Введение
 
 В области оптического распознавания символов (OCR) Aspose.OCR для .NET выделяется как мощный инструмент, который позволяет разработчикам точно извлекать текстовый контент из изображений. Если вы хотите интегрировать возможности оптического распознавания текста в свое .NET-приложение и без труда выполнять распознавание текста, это пошаговое руководство проведет вас через процесс оптического распознавания изображений по URL-адресу.
@@ -120,3 +126,9 @@ Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 ### Вопрос 5: Где я могу найти поддержку или обсуждения в сообществе, связанные с Aspose.OCR?
 
  A5: Посетите[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) за поддержку и взаимодействие с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

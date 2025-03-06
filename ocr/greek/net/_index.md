@@ -1,12 +1,17 @@
 ---
 title: Περιεκτικά σεμινάρια και παραδείγματα Aspose.OCR για .NET
 linktitle: Aspose.OCR για .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Ξεκλειδώστε την ακρίβεια στην αναγνώριση εικόνας OCR με το Aspose.OCR για .NET. Εξερευνήστε μαθήματα σχετικά με τον υπολογισμό γωνίας λοξής, την αναγνώριση κειμένου, τη διαμόρφωση OCR και τη βελτιστοποίηση.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιεκτικά σεμινάρια και παραδείγματα Aspose.OCR για .NET
+
 
 ## Εισαγωγή
 
@@ -51,3 +56,9 @@ is_root: true
 Μεγιστοποιήστε την ακρίβεια OCR με το Aspose.OCR για μαθήματα .NET. Εκτελέστε OCR σε εικόνες, προετοιμάστε ορθογώνια, εφαρμόστε φίλτρα προεπεξεργασίας, διορθώστε τα αποτελέσματα με ορθογραφικό έλεγχο και αποθηκεύστε τα αποτελέσματα πολλών σελίδων χωρίς κόπο.
 ### [Ρυθμίσεις OCR](./ocr-settings/)
 Ξεκλειδώστε τη δύναμη του Aspose.OCR για .NET με τα εκπαιδευτικά προγράμματα ρυθμίσεων OCR. Μάθετε να βελτιώνετε την ακρίβεια, την ταχύτητα και την προσαρμογή για την αναγνώριση κειμένου στις εικόνες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

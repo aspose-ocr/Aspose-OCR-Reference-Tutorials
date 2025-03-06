@@ -3,10 +3,16 @@ title: Melakukan OCR dengan Mode Deteksi Area di Aspose.OCR
 linktitle: Melakukan OCR dengan Mode Deteksi Area di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kekuatan ekstraksi teks dari gambar dengan Aspose.OCR untuk Java. Tutorial komprehensif tentang OCR dengan Mode Deteksi Area.
-type: docs
 weight: 10
 url: /id/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melakukan OCR dengan Mode Deteksi Area di Aspose.OCR
+
 ## Perkenalan
 
 Dalam dunia teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengekstraksi informasi berharga dari gambar. Aspose.OCR untuk Java memberikan solusi canggih untuk OCR, memungkinkan pengembang memanfaatkan potensi pengenalan teks dengan lancar. Tutorial ini akan memandu Anda melalui proses melakukan OCR dengan Mode Deteksi Area menggunakan Aspose.OCR untuk Java.
@@ -108,3 +114,9 @@ A4: Ya, seperti yang ditunjukkan dalam tutorial ini, Aspose.OCR menawarkan teks 
 ### Q5: Apakah ada forum komunitas untuk dukungan Aspose.OCR?
 
  A5: Ya, Anda dapat memperoleh dukungan dan terlibat dengan komunitas di[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

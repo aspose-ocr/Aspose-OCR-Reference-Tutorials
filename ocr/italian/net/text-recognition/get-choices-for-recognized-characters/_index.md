@@ -3,10 +3,16 @@ title: Ottieni scelte per i caratteri riconosciuti nel riconoscimento delle imma
 linktitle: Ottieni scelte per i caratteri riconosciuti nel riconoscimento delle immagini OCR
 second_title: API Aspose.OCR .NET
 description: Migliora le tue applicazioni .NET con Aspose.OCR per un riconoscimento accurato dei caratteri. Segui la nostra guida passo passo per recuperare le scelte per i caratteri riconosciuti nel riconoscimento delle immagini.
-type: docs
 weight: 10
 url: /it/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni scelte per i caratteri riconosciuti nel riconoscimento delle immagini OCR
+
 ## introduzione
 
 Sbloccare la potenza del riconoscimento ottico dei caratteri (OCR) è fondamentale nell'era digitale di oggi e Aspose.OCR per .NET si distingue come una soluzione solida per il riconoscimento accurato dei caratteri. In questo tutorial approfondiremo una funzionalità specifica: ottenere scelte per i personaggi riconosciuti. Al termine di questa guida integrerai perfettamente questa funzionalità nelle tue applicazioni .NET.
@@ -112,3 +118,9 @@ A2: Sì, puoi integrare Aspose.OCR per .NET in applicazioni web, rendendolo vers
 ### Q5: È disponibile una prova gratuita per Aspose.OCR per .NET?
 
  R5: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/) per sperimentare le funzionalità di Aspose.OCR per .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

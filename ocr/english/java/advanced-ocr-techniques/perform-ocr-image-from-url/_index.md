@@ -3,10 +3,16 @@ title: Performing OCR on Image from URL in Aspose.OCR for Java
 linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
 second_title: Aspose.OCR Java API
 description: Unlock seamless image text extraction in Java with Aspose.OCR. High accuracy OCR with easy integration.
-type: docs
 weight: 11
 url: /java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Performing OCR on Image from URL in Aspose.OCR for Java
+
 ## Introduction
 
 Welcome to our step-by-step guide on performing Optical Character Recognition (OCR) on an image from a URL using Aspose.OCR for Java. This tutorial is designed to help you seamlessly integrate Aspose.OCR into your Java applications, allowing you to extract text from images with ease. Aspose.OCR is a powerful OCR library that supports various image formats, making it a valuable tool for applications requiring text extraction.
@@ -126,3 +132,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for communit
 
 A5: Yes, explore the features of Aspose.OCR with the free trial available at [releases.aspose.com](https://releases.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

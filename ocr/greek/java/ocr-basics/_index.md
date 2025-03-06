@@ -3,10 +3,16 @@ title: Βασικά στοιχεία OCR
 linktitle: Βασικά στοιχεία OCR
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR στην Java! Οδηγός βήμα προς βήμα για να ρυθμίσετε την άδειά σας και να ενισχύσετε τις δυνατότητες OCR. Υπολογίστε τις λοξές γωνίες και εξάγετε κείμενο απρόσκοπτα.
-type: docs
 weight: 20
 url: /el/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βασικά στοιχεία OCR
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να αναβαθμίσετε το παιχνίδι OCR με το Aspose.OCR για Java; Αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει σε βασικά σεμινάρια, διασφαλίζοντας ότι θα αξιοποιήσετε στο έπακρο αυτό το ισχυρό εργαλείο. Ας βουτήξουμε!
@@ -35,3 +41,9 @@ url: /el/java/ocr-basics/
 Βελτιώστε την ακρίβεια OCR με το Aspose.OCR για Java. Μάθετε να υπολογίζετε τις λοξές γωνίες βήμα προς βήμα. Βελτιώστε την επεξεργασία εγγράφων χωρίς κόπο.
 ### [Λήψη ορθογωνίων με περιοχές κειμένου στο Aspose.OCR](./get-rectangles-with-text-areas/)
 Ξεκλειδώστε τη δύναμη του Aspose.OCR για Java. Μάθετε πώς να εξάγετε κείμενο από εικόνες απρόσκοπτα σε αυτόν τον οδηγό βήμα προς βήμα. Κάντε λήψη τώρα για αποτελεσματική αναγνώριση κειμένου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

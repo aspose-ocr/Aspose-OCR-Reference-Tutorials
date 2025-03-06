@@ -3,10 +3,16 @@ title: Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
 linktitle: Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar dengan lancar dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
-type: docs
 weight: 12
 url: /id/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
+
 ## Perkenalan
 
 Apakah Anda ingin mengintegrasikan kemampuan pengenalan karakter optik (OCR) yang kuat ke dalam aplikasi Java Anda? Aspose.OCR untuk Java adalah solusi tepat Anda untuk ekstraksi teks dari gambar secara akurat dan efisien. Tutorial ini akan memandu Anda melalui proses mendapatkan persegi panjang dengan area teks menggunakan Aspose.OCR, membantu Anda memanfaatkan potensi penuh dari perpustakaan Java OCR ini.
@@ -105,3 +111,10 @@ A1: Ya, Aspose.OCR kompatibel dengan Java 11 dan versi yang lebih baru.
 ### Q5: Apakah Aspose.OCR mendukung multithreading?
 
 A5: Ya, Aspose.OCR mendukung multithreading untuk meningkatkan kinerja di lingkungan bersamaan.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

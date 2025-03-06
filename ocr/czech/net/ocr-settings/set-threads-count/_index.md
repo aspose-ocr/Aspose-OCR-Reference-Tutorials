@@ -3,10 +3,16 @@ title: Nastavte počet vláken v OCR rozpoznávání obrazu
 linktitle: Nastavte počet vláken v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte efektivitu OCR v .NET. Nastavte počet vláken bez námahy pomocí Aspose.OCR. Zvyšte přesnost a rychlost.
-type: docs
 weight: 11
 url: /cs/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte počet vláken v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve světě Aspose.OCR for .NET, kde se špičková technologie optického rozpoznávání znaků (OCR) snoubí s bezproblémovou integrací do vašich aplikací .NET. V tomto tutoriálu se ponoříme do konkrétního aspektu: nastavení počtu vláken v rozpoznávání obrazu OCR. Tato výkonná funkce optimalizuje výkon vašich úloh OCR a zajišťuje efektivitu a přesnost.
@@ -89,3 +95,9 @@ Na závěr lze říci, že nastavení počtu vláken v rozpoznávání obrazu OC
 ### Q5: Potřebujete pomoc nebo se chcete spojit s komunitou?
 
  A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu a interakci s komunitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

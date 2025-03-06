@@ -3,10 +3,16 @@ title: 画像と図面の認識
 linktitle: 画像と図面の認識
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET を使用して OCR 画像認識の精度を解放します。行、段落、ストリーム全体など、画像からテキストを簡単に抽出します。
-type: docs
 weight: 22
 url: /ja/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像と図面の認識
+
 ## 導入
 
 OCR 画像認識ゲームを向上させる準備はできていますか? Aspose.OCR for .NET は、画像からのテキスト抽出の精度を高める鍵となります。この包括的なガイドでは、Aspose.OCR for .NET を使用した画像および図面認識のさまざまな側面を詳しく説明するさまざまなチュートリアルを学習します。シームレスなテキスト抽出の能力を最大限に活用してみましょう。
@@ -48,3 +54,9 @@ Aspose.OCR for .NET でテキスト認識の可能性を解き放ちます。画
 OCR 画像認識における線の認識において、Aspose.OCR for .NET の可能性を解き放ちます。画像からシームレスにテキストを抽出するための開発者向けガイド。
 ### [OCR画像認識で画像に対してOCRを実行する](./perform-ocr-on-image/)
 Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合についてはチュートリアルをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

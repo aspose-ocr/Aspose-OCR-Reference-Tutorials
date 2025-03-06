@@ -3,10 +3,16 @@ title: التعرف على الخطوط في Aspose.OCR لجافا
 linktitle: التعرف على الخطوط في Aspose.OCR لجافا
 second_title: Aspose.OCR جافا API
 description: قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
-type: docs
 weight: 14
 url: /ar/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الخطوط في Aspose.OCR لجافا
+
 ## مقدمة
 
 هل تتطلع إلى تحسين تطبيق Java الخاص بك من خلال إمكانيات التعرف الضوئي على الأحرف (OCR) القوية؟ لا مزيد من البحث! Aspose.OCR for Java هي مكتبة OCR متطورة تسمح لك بدمج وظائف OCR بسلاسة في تطبيقات Java الخاصة بك. في هذا البرنامج التعليمي، سنركز على التعرف على الخطوط في الصور باستخدام Aspose.OCR لـ Java.
@@ -111,3 +117,9 @@ System.out.println("Result line: " + result.recognitionText);
 ### س5: هل هناك نسخة تجريبية متاحة لـ Aspose.OCR؟
 
  ج5: نعم، يمكنك استكشاف إمكانيات Aspose.OCR من خلال النسخة التجريبية المجانية. يزور[هنا](https://releases.aspose.com/) للمزيد من المعلومات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

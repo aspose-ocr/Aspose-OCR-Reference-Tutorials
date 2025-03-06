@@ -3,10 +3,16 @@ title: Nhận kết quả dưới dạng JSON trong Nhận dạng hình ảnh OC
 linktitle: Nhận kết quả dưới dạng JSON trong Nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Giải phóng sức mạnh của Aspose.OCR cho .NET. Tìm hiểu cách thu được kết quả OCR ở định dạng JSON một cách dễ dàng. Nâng cao khả năng nhận dạng hình ảnh của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/net/text-recognition/get-result-as-json/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận kết quả dưới dạng JSON trong Nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) là một công cụ then chốt, cho phép máy móc diễn giải và trích xuất thông tin từ hình ảnh. Aspose.OCR cho .NET trao quyền cho các nhà phát triển tích hợp liền mạch các khả năng OCR vào ứng dụng của họ. Hướng dẫn này sẽ hướng dẫn bạn quy trình lấy kết quả OCR ở định dạng JSON bằng Aspose.OCR cho .NET.
@@ -93,3 +99,9 @@ Aspose.OCR cho .NET hợp lý hóa việc tích hợp các khả năng OCR vào 
 ### Câu hỏi 5: Tôi có thể mua giấy phép Aspose.OCR cho .NET không?
 
  A5: Có, bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

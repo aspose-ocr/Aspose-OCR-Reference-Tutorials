@@ -3,10 +3,16 @@ title: Állítsa be a szálak számát az OCR képfelismerésben
 linktitle: Állítsa be a szálak számát az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fokozza az OCR hatékonyságát a .NET-ben. Az Aspose.OCR segítségével könnyedén beállíthatja a szálak számát. Növelje a pontosságot és a sebességet.
-type: docs
 weight: 11
 url: /hu/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a szálak számát az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.OCR for .NET világában, ahol az élvonalbeli optikai karakterfelismerő (OCR) technológia találkozik a .NET-alkalmazásokba való zökkenőmentes integrációval. Ebben az oktatóanyagban egy konkrét szempontot vizsgálunk meg: a szálak számának beállítását az OCR képfelismerésben. Ez a hatékony funkció optimalizálja az OCR-feladatok teljesítményét, biztosítva a hatékonyságot és a pontosságot.
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### 5. kérdés: Segítségre van szüksége, vagy szeretne kapcsolatba lépni a közösséggel?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) támogatásért és közösségi interakcióért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

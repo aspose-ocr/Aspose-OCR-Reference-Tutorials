@@ -3,10 +3,16 @@ title: OCRoperation med språkval i OCR-bildigenkänning
 linktitle: OCRoperation med språkval i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp kraftfulla OCR-funktioner med Aspose.OCR för .NET. Extrahera text från bilder sömlöst.
-type: docs
 weight: 12
 url: /sv/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRoperation med språkval i OCR-bildigenkänning
+
 ## Introduktion
 
 I en värld av bildigenkänning och optisk teckenigenkänning (OCR) framstår Aspose.OCR för .NET som ett kraftfullt verktyg för utvecklare som söker korrekt och effektiv textextraktion från bilder. Denna steg-för-steg-guide kommer att leda dig genom processen för OCR-bildigenkänning med Aspose.OCR för .NET, med fokus på operationen med språkval.
@@ -109,3 +115,10 @@ A2: Absolut! Justera parametrar som snedvinkel, linjeigenkänning och områdesde
 ### F5: Hur kan jag köpa Aspose.OCR för .NET?
 
  A5: För att köpa, besök[köpsidan](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

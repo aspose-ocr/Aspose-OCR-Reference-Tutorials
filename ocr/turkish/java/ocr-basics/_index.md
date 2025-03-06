@@ -3,10 +3,16 @@ title: OCR Temelleri
 linktitle: OCR Temelleri
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR'ın Java'daki potansiyelini ortaya çıkarın! Lisansınızı ayarlamak ve OCR yeteneklerini artırmak için adım adım kılavuz. Eğim açılarını hesaplayın ve metni sorunsuz bir şekilde çıkarın.
-type: docs
 weight: 20
 url: /tr/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Temelleri
+
 ## giriiş
 
 Aspose.OCR for Java ile OCR oyununuzu bir üst seviyeye taşımaya hazır mısınız? Bu kapsamlı kılavuz, bu güçlü araçtan en iyi şekilde yararlanmanızı sağlayacak temel eğitimlerde size yol gösterecektir. Hadi dalalım!
@@ -35,3 +41,9 @@ Bu adım adım kılavuzla Aspose.OCR for Java'nın potansiyelini ortaya çıkar�
 Aspose.OCR for Java ile OCR doğruluğunu artırın. Eğim açılarını adım adım hesaplamayı öğrenin. Belge işlemeyi zahmetsizce geliştirin.
 ### [Aspose.OCR'da Metin Alanlarıyla Dikdörtgenler Alma](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java'nın gücünün kilidini açın. Bu adım adım kılavuzda resimlerden metni sorunsuz bir şekilde nasıl çıkaracağınızı öğrenin. Etkili metin tanıma için hemen indirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

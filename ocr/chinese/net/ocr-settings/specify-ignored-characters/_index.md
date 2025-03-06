@@ -3,10 +3,16 @@ title: 指定 OCR 图像识别中忽略的字符
 linktitle: 指定 OCR 图像识别中忽略的字符
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 探索高级 OCR 功能。高效、准确且对开发人员友好。
-type: docs
 weight: 14
 url: /zh/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 指定 OCR 图像识别中忽略的字符
+
 ## 介绍
 
 在不断发展的数字化转型领域，光学字符识别 (OCR) 已成为一项关键技术，弥合了物理内容和数字内容之间的差距。随着企业日益数字化运营，对准确、高效且多功能的 OCR 解决方案的需求变得至关重要。 Aspose.OCR for .NET 作为一个强大的 OCR 库脱颖而出，为在 .NET 环境中工作的开发人员提供高级功能。
@@ -100,3 +106,9 @@ A4：Aspose.OCR 支持多种语言，使其成为 OCR 任务的多功能选择�
 ### Q5：我可以购买 Aspose.OCR 的临时许可证吗？
 
  A5: 是的，如果您需要临时许可证，您可以获得它[这里](https://purchase.aspose.com/temporary-license/)供短期使用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

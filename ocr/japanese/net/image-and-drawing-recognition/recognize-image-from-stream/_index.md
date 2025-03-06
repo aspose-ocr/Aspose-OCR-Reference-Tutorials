@@ -3,10 +3,16 @@ title: OCR画像認識でストリームから画像を認識する
 linktitle: OCR画像認識でストリームから画像を認識する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET で OCR の魔法を解き放ちます。画像からテキストを簡単に抽出します。チュートリアルで段階的なガイダンスを確認してください。
-type: docs
 weight: 12
 url: /ja/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識でストリームから画像を認識する
+
 ## 導入
 
 Aspose.OCR for .NET を使用した光学式文字認識 (OCR) のエキサイティングな領域へようこそ!あなたが経験豊富な開発者であっても、OCR の世界に初めて足を踏み入れたばかりであっても、このステップバイステップのガイドでは、ストリームから画像を簡単に認識する方法を説明します。 Aspose.OCR for .NET は、.NET アプリケーションへの OCR 機能のシームレスな統合を可能にし、画像からのテキスト抽出を簡単にする堅牢なツールです。
@@ -105,3 +111,9 @@ A1: はい、Aspose.OCR は幅広い言語をサポートしているため、�
 ### Q5: Aspose.OCR for .NET はどこで購入できますか?
 
  A5: Aspose.OCR をツールキットの永続的な部分にするには、次のサイトにアクセスしてください。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

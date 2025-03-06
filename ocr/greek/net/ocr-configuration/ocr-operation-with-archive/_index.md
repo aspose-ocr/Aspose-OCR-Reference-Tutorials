@@ -3,10 +3,16 @@ title: OCROΛειτουργία με Αρχείο στην Αναγνώριση 
 linktitle: OCROΛειτουργία με Αρχείο στην Αναγνώριση Εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τις δυνατότητες του OCR σε εφαρμογές .NET με το Aspose.OCR. Μάθετε να εξάγετε κείμενο από εικόνες αρχειοθέτησης βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROΛειτουργία με Αρχείο στην Αναγνώριση Εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο της Οπτικής Αναγνώρισης Χαρακτήρων (OCR) που έγινε απρόσκοπτη και αποτελεσματική με το Aspose.OCR για .NET. Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στη διαδικασία εκτέλεσης λειτουργιών OCR σε εικόνες αρχειοθέτησης χρησιμοποιώντας τη βιβλιοθήκη Aspose.OCR. Είτε είστε έμπειρος προγραμματιστής είτε είστε περίεργοι αρχάριοι, αυτό το σεμινάριο θα σας εξοπλίσει με τη γνώση για να αξιοποιήσετε πλήρως τις δυνατότητες του OCR στις εφαρμογές σας .NET.
@@ -119,3 +125,9 @@ A1: Ναι, μπορείτε να εξερευνήσετε τη βιβλιοθή
 ### Ε5: Πόσο συχνά ενημερώνεται το Aspose.OCR για .NET;
 
  A5: Μείνετε ενημερωμένοι με τις πιο πρόσφατες δυνατότητες και βελτιώσεις ελέγχοντας το[τεκμηρίωση](https://reference.aspose.com/ocr/net/) τακτικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

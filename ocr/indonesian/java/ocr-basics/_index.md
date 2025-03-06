@@ -3,10 +3,16 @@ title: Dasar-dasar OCR
 linktitle: Dasar-dasar OCR
 second_title: Aspose.OCR Java API
 description: Buka potensi Aspose.OCR di Java! Panduan langkah demi langkah untuk menyiapkan lisensi Anda dan meningkatkan kemampuan OCR. Hitung sudut kemiringan dan ekstrak teks dengan mulus.
-type: docs
 weight: 20
 url: /id/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dasar-dasar OCR
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan permainan OCR Anda dengan Aspose.OCR untuk Java? Panduan komprehensif ini akan memandu Anda melalui tutorial penting, memastikan Anda memanfaatkan alat canggih ini semaksimal mungkin. Ayo selami!
@@ -35,3 +41,9 @@ Buka potensi Aspose.OCR untuk Java dengan panduan langkah demi langkah ini. Siap
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk Java. Belajar menghitung sudut kemiringan selangkah demi selangkah. Tingkatkan pemrosesan dokumen dengan mudah.
 ### [Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR](./get-rectangles-with-text-areas/)
 Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar dengan lancar dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

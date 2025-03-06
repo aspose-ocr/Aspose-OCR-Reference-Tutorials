@@ -3,10 +3,16 @@ title: Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
 linktitle: Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Resimlerdeki metni kolayca tanıyın ve sonuçları çeşitli belge formatlarında kaydedin.
-type: docs
 weight: 10
 url: /tr/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
+
 ## giriiş
 
 Aspose.OCR for .NET ile optik karakter tanımanın (OCR) heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde, resimlerdeki metni tanımak için Aspose.OCR kullanmanın inceliklerini inceleyeceğiz ve sonuçların çeşitli belge formatlarında nasıl kaydedileceğini göstereceğiz.
@@ -99,3 +105,9 @@ A2: Kesinlikle! Aspose.OCR, OCR sürecine özel gereksinimlerinize göre ince ay
 ### S5: Nereden yardım isteyebilirim veya toplulukla bağlantı kurabilirim?
 
  Cevap5: Aspose.OCR topluluğuna şu adresten katılın:[Aspose Forumu](https://forum.aspose.com/c/ocr/16) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Get Recognition Result in OCR Image Recognition
 linktitle: Get Recognition Result in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Explore Aspose.OCR for .NET, a powerful OCR solution for seamless text recognition in images.
-type: docs
 weight: 11
 url: /net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Recognition Result in OCR Image Recognition
+
 ## Introduction
 
 In the dynamic world of programming, efficient text recognition is a game-changer, and Aspose.OCR for .NET emerges as a robust solution. This tutorial delves into the nuances of utilizing Aspose.OCR to harness the potential of image recognition seamlessly.
@@ -106,3 +112,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to seek assi
 ### Q5: Can I obtain a temporary license for Aspose.OCR?
 
 A5: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

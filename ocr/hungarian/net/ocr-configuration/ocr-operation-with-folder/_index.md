@@ -3,10 +3,16 @@ title: OCR művelet mappával az OCR képfelismerésben
 linktitle: OCR művelet mappával az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Az Aspose.OCR segítségével felszabadíthatja az OCR képfelismerés erejét a .NET-ben. Könnyedén kivonhatja a szöveget a képekből.
-type: docs
 weight: 11
 url: /hu/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR művelet mappával az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az optikai karakterfelismerés (OCR) világában az Aspose.OCR for .NET használatával! Ha .NET-alkalmazásaiban zökkenőmentesen szeretne szöveget kivonni a képekből, akkor jó helyen jár. Ez az oktatóanyag végigvezeti az OCR-képfelismerés folyamatán mappákkal, kihasználva az Aspose.OCR hatékony képességeit.
@@ -118,3 +124,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan valósítsa meg az OCR képfelismeré
 ### 5. kérdés: Támogatásra van szüksége, vagy kérdései vannak?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

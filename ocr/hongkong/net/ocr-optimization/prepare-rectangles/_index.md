@@ -3,10 +3,16 @@ title: 在 OCR 影像辨識中準備矩形
 linktitle: 在 OCR 影像辨識中準備矩形
 second_title: Aspose.OCR .NET API
 description: 透過我們的綜合指南釋放 Aspose.OCR for .NET 的潛力。逐步學習如何準備用於影像辨識的矩形。透過無縫 OCR 整合提升您的 .NET 應用程式。
-type: docs
 weight: 11
 url: /zh-hant/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 影像辨識中準備矩形
+
 ## 介紹
 
 在不斷發展的技術領域，光學字元辨識 (OCR) 在將影像轉換為機器可讀文字方面發揮關鍵作用。對於尋求將 OCR 功能無縫整合到 .NET 應用程式中的開發人員來說，Aspose.OCR for .NET 是一個強大的解決方案。在本綜合指南中，我們將探索使用 Aspose.OCR for .NET 在 OCR 影像辨識中準備矩形的過程。
@@ -120,3 +126,9 @@ A1：是的，Aspose.OCR for .NET 與各種.NET 框架相容。
 ### Q5：在哪裡可以找到 Aspose.OCR for .NET 的文件？
 
  A5：文件可用[這裡](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

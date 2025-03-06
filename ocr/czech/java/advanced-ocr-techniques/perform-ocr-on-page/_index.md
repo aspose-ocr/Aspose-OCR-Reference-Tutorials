@@ -3,10 +3,16 @@ title: Provádění OCR na konkrétní stránce v Aspose.OCR
 linktitle: Provádění OCR na konkrétní stránce v Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Odemkněte sílu Aspose.OCR for Java pomocí našeho podrobného průvodce prováděním OCR na konkrétních stránkách. Extrahujte text bez námahy z obrázků a vylepšete své projekty Java.
-type: docs
 weight: 12
 url: /cs/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Provádění OCR na konkrétní stránce v Aspose.OCR
+
 ## Úvod
 
 Vítejte v našem komplexním průvodci prováděním optického rozpoznávání znaků (OCR) na konkrétní stránce pomocí Aspose.OCR pro Java. V tomto tutoriálu vás provedeme procesem nastavení, importu potřebných balíčků a spuštění kódu pro snadné extrahování textu z obrázku.
@@ -92,3 +98,9 @@ Odpověď 1: Ano, Aspose.OCR podporuje širokou škálu obrazových formátů, c
 ### Q5: Nabízí Aspose.OCR bezplatnou zkušební verzi?
 
  A5: Ano, prozkoumejte funkce pomocí[zkušební verze zdarma](https://releases.aspose.com/) před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

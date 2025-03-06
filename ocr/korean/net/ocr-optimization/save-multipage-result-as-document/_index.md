@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장
 linktitle: OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이 포괄적인 단계별 가이드를 사용하여 여러 페이지의 OCR 결과를 문서로 쉽게 저장할 수 있습니다.
-type: docs
 weight: 14
 url: /ko/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하여 광학 문자 인식(OCR)의 매혹적인 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 Aspose.OCR의 기능을 활용하여 여러 페이지의 OCR 결과를 문서로 저장하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 OCR을 시작하는 개발자이든 이 가이드는 각 단계를 안내하여 이 강력한 도구를 최대한 활용할 수 있도록 도와줍니다.
@@ -104,3 +110,9 @@ A4: 오류 처리 모범 사례에 대한 설명서를 참조하거나 지원 �
 ### Q5: Aspose.OCR은 영어 이외의 언어를 지원합니까?
 
 A5: 예, Aspose.OCR은 여러 언어를 지원합니다. 언어 지원 세부정보는 설명서를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

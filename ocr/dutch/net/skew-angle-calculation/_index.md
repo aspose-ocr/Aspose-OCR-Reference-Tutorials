@@ -3,10 +3,16 @@ title: Berekening van de schuine hoek
 linktitle: Berekening van de schuine hoek
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel de geheimen van nauwkeurige scheefhoekberekening in OCR-beeldherkenning met Aspose.OCR voor .NET. Verbeter moeiteloos de precisie en efficiëntie in uw projecten.
-type: docs
 weight: 20
 url: /nl/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berekening van de schuine hoek
+
 ## Invoering
 
 Streeft u naar onberispelijke tekstherkenning in uw C#-applicaties? Zoek niet verder! Onze tutorials voor het berekenen van scheefhoeken, mogelijk gemaakt door Aspose.OCR voor .NET, begeleiden u met finesse door het ingewikkelde proces.
@@ -34,3 +40,9 @@ Ontdek Aspose.OCR voor .NET, een krachtige OCR-oplossing voor nauwkeurige teksth
 Ontketen de kracht van Aspose.OCR voor .NET, een robuuste oplossing voor beeldherkenning. Leer hoe u moeiteloos schuine hoeken kunt berekenen.
 ### [Bereken de scheefhoek op basis van de URI in OCR-beeldherkenning](./calculate-skew-angle-from-uri/)
 Ontdek Aspose.OCR voor .NET om moeiteloos schuine hoeken te berekenen bij OCR-beeldherkenning. Verbeter uw projecten met precisie en efficiëntie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

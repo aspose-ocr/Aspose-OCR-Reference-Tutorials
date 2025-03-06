@@ -3,10 +3,16 @@ title: Beräkning av sned vinkel
 linktitle: Beräkning av sned vinkel
 second_title: Aspose.OCR .NET API
 description: Lås upp hemligheterna bakom exakt snedvinkelberäkning i OCR-bildigenkänning med Aspose.OCR för .NET. Förbättra precisionen och effektiviteten utan ansträngning i dina projekt.
-type: docs
 weight: 20
 url: /sv/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beräkning av sned vinkel
+
 ## Introduktion
 
 Strävar du efter oklanderlig textigenkänning i dina C#-applikationer? Kolla inte vidare! Våra guider för beräkning av skevvinkel, som drivs av Aspose.OCR för .NET, guidar dig genom den intrikata processen med finess.
@@ -34,3 +40,9 @@ Utforska Aspose.OCR för .NET, en kraftfull OCR-lösning för korrekt textigenk�
 Släpp lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkänning. Lär dig hur du beräknar snedvinklar utan ansträngning.
 ### [Beräkna skevningsvinkel från URI i OCR-bildigenkänning](./calculate-skew-angle-from-uri/)
 Utforska Aspose.OCR för .NET för att enkelt beräkna snedvinklar i OCR-bildigenkänning. Förbättra dina projekt med precision och effektivitet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Připravte obdélníky v rozpoznávání obrazu OCR
 linktitle: Připravte obdélníky v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce. Naučte se krok za krokem připravit obdélníky pro rozpoznávání obrázků. Vylepšete své aplikace .NET pomocí bezproblémové integrace OCR.
-type: docs
 weight: 11
 url: /cs/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Připravte obdélníky v rozpoznávání obrazu OCR
+
 ## Úvod
 
 V neustále se vyvíjejícím prostředí technologií hraje optické rozpoznávání znaků (OCR) klíčovou roli při transformaci obrázků na strojově čitelný text. Aspose.OCR for .NET vyniká jako robustní řešení pro vývojáře, kteří hledají bezproblémovou integraci funkcí OCR do svých aplikací .NET. V tomto komplexním průvodci prozkoumáme proces přípravy obdélníků v rozpoznávání obrázků OCR pomocí Aspose.OCR for .NET.
@@ -120,3 +126,9 @@ Odpověď 1: Ano, Aspose.OCR for .NET je kompatibilní s různými frameworky .N
 ### Q5: Kde najdu dokumentaci pro Aspose.OCR pro .NET?
 
  A5: Dokumentace je k dispozici[tady](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: तिरछा कोण गणना
 linktitle: तिरछा कोण गणना
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR के साथ OCR छवि पहचान में सटीक तिरछा कोण गणना के रहस्यों को अनलॉक करें। अपनी परियोजनाओं में सहजता से सटीकता और दक्षता बढ़ाएँ।
-type: docs
 weight: 20
 url: /hi/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# तिरछा कोण गणना
+
 ## परिचय
 
 क्या आप अपने C# अनुप्रयोगों में त्रुटिहीन पाठ पहचान के लिए प्रयास कर रहे हैं? आगे कोई तलाश नहीं करें! .NET के लिए Aspose.OCR द्वारा संचालित हमारे स्क्यू एंगल कैलकुलेशन ट्यूटोरियल, आपको जटिल प्रक्रिया में कुशलता के साथ मार्गदर्शन करेंगे।
@@ -34,3 +40,9 @@ url: /hi/net/skew-angle-calculation/
 .NET के लिए Aspose.OCR की शक्ति को उजागर करें, जो छवि पहचान के लिए एक मजबूत समाधान है। आसानी से तिरछे कोणों की गणना करना सीखें।
 ### [ओसीआर छवि पहचान में यूआरआई से तिरछा कोण की गणना करें](./calculate-skew-angle-from-uri/)
 OCR छवि पहचान में तिरछे कोणों की आसानी से गणना करने के लिए .NET के लिए Aspose.OCR का अन्वेषण करें। अपनी परियोजनाओं को सटीकता और दक्षता के साथ बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

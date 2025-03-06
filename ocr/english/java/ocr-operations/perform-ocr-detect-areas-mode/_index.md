@@ -3,10 +3,16 @@ title: Performing OCR with Detect Areas Mode in Aspose.OCR
 linktitle: Performing OCR with Detect Areas Mode in Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
-type: docs
 weight: 10
 url: /java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Performing OCR with Detect Areas Mode in Aspose.OCR
+
 ## Introduction
 
 In the ever-evolving world of technology, Optical Character Recognition (OCR) plays a pivotal role in extracting valuable information from images. Aspose.OCR for Java provides a powerful solution for OCR, enabling developers to harness the potential of text recognition seamlessly. This tutorial will guide you through the process of performing OCR with Detect Areas Mode using Aspose.OCR for Java.
@@ -108,3 +114,10 @@ A4: Yes, as demonstrated in this tutorial, Aspose.OCR offers spell-check correct
 ### Q5: Is there a community forum for Aspose.OCR support?
 
 A5: Yes, you can find support and engage with the community on the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

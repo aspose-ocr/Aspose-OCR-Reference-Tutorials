@@ -3,10 +3,16 @@ title: Obliczanie kąta skosu w Aspose.OCR dla Java
 linktitle: Obliczanie kąta skosu w Aspose.OCR dla Java
 second_title: Aspose.OCR API Java
 description: Zwiększ dokładność OCR dzięki Aspose.OCR dla Java. Naucz się obliczać kąty skośne krok po kroku. Usprawnij przetwarzanie dokumentów bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obliczanie kąta skosu w Aspose.OCR dla Java
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat obliczania kątów skośnych w Aspose.OCR dla Java! Kąty pochylenia odgrywają kluczową rolę w przetwarzaniu dokumentów, szczególnie w przypadku zeskanowanych obrazów. Aspose.OCR dla Java zapewnia potężne rozwiązanie do dokładnego określania i korygowania kątów skosu, poprawiając ogólną jakość wyników OCR (optycznego rozpoznawania znaków).
@@ -94,3 +100,9 @@ O3: Aspose.OCR obsługuje różne formaty obrazów, w tym PNG, JPEG i TIFF. Aby 
 ### P5: Gdzie mogę szukać pomocy lub omówić kwestie związane z Aspose.OCR?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) nawiązać kontakt ze społecznością i uzyskać wsparcie od ekspertów Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.OCR for Java 中的 OCR 识别 PDF 文档
 linktitle: Aspose.OCR for Java 中的 OCR 识别 PDF 文档
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR 释放 Java 中 OCR 的强大功能。轻松识别 PDF 文档中的文本。提高您的应用程序的精度和速度。
-type: docs
 weight: 12
 url: /zh/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for Java 中的 OCR 识别 PDF 文档
+
 ## 介绍
 
 在不断发展的技术领域，光学字符识别 (OCR) 在将打印或手写文本转换为机器编码文本方面发挥着关键作用。 Aspose.OCR for Java 成为将 OCR 无缝集成到 Java 应用程序中的强大工具。在本教程中，我们将探索使用 Aspose.OCR for Java 识别 PDF 文档的过程。
@@ -130,3 +136,9 @@ A4：如需支持和讨论，请访问[Aspose.OCR 论坛](https://forum.aspose.c
 ### Q5：Aspose.OCR 有免费试用版吗？
 
  A5：是的，您可以通过获取免费试用版来探索 Aspose.OCR[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

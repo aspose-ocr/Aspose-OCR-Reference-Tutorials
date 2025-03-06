@@ -3,10 +3,16 @@ title: Conceptos básicos de OCR
 linktitle: Conceptos básicos de OCR
 second_title: API de Java Aspose.OCR
 description: ¡Desbloquee el potencial de Aspose.OCR en Java! Guía paso a paso para configurar su licencia y mejorar las capacidades de OCR. Calcule ángulos de inclinación y extraiga texto sin problemas.
-type: docs
 weight: 20
 url: /es/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conceptos básicos de OCR
+
 ## Introducción
 
 ¿Estás listo para mejorar tu juego de OCR con Aspose.OCR para Java? Esta guía completa lo guiará a través de tutoriales esenciales, asegurándole que aproveche al máximo esta poderosa herramienta. ¡Vamos a sumergirnos!
@@ -35,3 +41,9 @@ Libere el potencial de Aspose.OCR para Java con esta guía paso a paso. Configur
 Mejore la precisión del OCR con Aspose.OCR para Java. Aprenda a calcular los ángulos de inclinación paso a paso. Mejore el procesamiento de documentos sin esfuerzo.
 ### [Obtener rectángulos con áreas de texto en Aspose.OCR](./get-rectangles-with-text-areas/)
 Desbloquee el poder de Aspose.OCR para Java. Aprenda cómo extraer texto de imágenes sin problemas en esta guía paso a paso. Descárguelo ahora para un reconocimiento de texto eficiente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

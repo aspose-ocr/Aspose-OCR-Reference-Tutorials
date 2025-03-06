@@ -3,10 +3,16 @@ title: OCR画像認識で長方形を準備する
 linktitle: OCR画像認識で長方形を準備する
 second_title: Aspose.OCR .NET API
 description: 包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。画像認識用に長方形を準備する方法を段階的に学習します。シームレスな OCR 統合により、.NET アプリケーションを強化します。
-type: docs
 weight: 11
 url: /ja/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で長方形を準備する
+
 ## 導入
 
 進化し続けるテクノロジーの状況において、光学式文字認識 (OCR) は、画像を機械可読テキストに変換する上で極めて重要な役割を果たしています。 Aspose.OCR for .NET は、.NET アプリケーションへの OCR 機能のシームレスな統合を求める開発者にとって、堅牢なソリューションとして際立っています。この包括的なガイドでは、Aspose.OCR for .NET を使用して OCR 画像認識で四角形を準備するプロセスについて説明します。
@@ -120,3 +126,9 @@ A1: はい、Aspose.OCR for .NET はさまざまな .NET フレームワーク�
 ### Q5: Aspose.OCR for .NET のドキュメントはどこで見つけられますか?
 
  A5: ドキュメントは入手可能です[ここ](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

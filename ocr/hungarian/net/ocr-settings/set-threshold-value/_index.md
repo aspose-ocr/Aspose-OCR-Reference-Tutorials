@@ -3,10 +3,16 @@ title: Állítsa be a küszöbértéket az OCR képfelismerésben
 linktitle: Állítsa be a küszöbértéket az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az Aspose.OCR for .NET-et egy robusztus OCR-megoldás. Egyszerűen állítson be egyéni küszöbértékeket. Javítsa a szövegfelismerést alkalmazásaiban.
-type: docs
 weight: 12
 url: /hu/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a küszöbértéket az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.OCR for .NET izgalmas világában! Ebben az oktatóanyagban mélyen elmerülünk az Aspose.OCR képességeiben, egy hatékony eszközben, amelyet arra terveztek, hogy az optikai karakterfelismerést gyerekjátékká tegye a .NET-alkalmazásokban. Akár tapasztalt fejlesztő, akár csak most kezd, ez az útmutató végigvezeti az OCR-képfelismerés küszöbértékének beállításán az Aspose.OCR for .NET használatával.
@@ -99,3 +105,9 @@ A1: Abszolút! Az Aspose.OCR for .NET sokoldalú, és zökkenőmentesen integrá
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.OCR teljes verzióját .NET-hez?
 
  5. válasz: Az összes funkció feloldásához keresse fel a vásárlási oldalt[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recognize Image without Text Area Detection in OCR Image Recognition
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Unlock the potential of text recognition with Aspose.OCR for .NET. Recognize text from images effortlessly.
-type: docs
 weight: 13
 url: /net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recognize Image without Text Area Detection in OCR Image Recognition
+
 ## Introduction
 
 In the fast-evolving landscape of technology, Optical Character Recognition (OCR) has become a pivotal tool, enabling machines to comprehend text within images. Aspose.OCR for .NET stands out as a robust solution, providing developers with a seamless way to integrate OCR capabilities into their .NET applications. In this tutorial, we will explore how to recognize text from an image without text area detection, using clear and concise steps with Aspose.OCR for .NET.
@@ -100,3 +106,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to seek assi
 ### Q5: Are temporary licenses available for Aspose.OCR?
 
 A5: Yes, you can obtain temporary licenses [here](https://purchase.aspose.com/temporary-license/) for short-term usage.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

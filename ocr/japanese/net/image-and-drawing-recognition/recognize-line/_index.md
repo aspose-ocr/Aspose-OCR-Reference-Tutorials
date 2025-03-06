@@ -3,10 +3,16 @@ title: OCR画像認識で線を認識
 linktitle: OCR画像認識で線を認識
 second_title: Aspose.OCR .NET API
 description: OCR 画像認識における線の認識において、Aspose.OCR for .NET の可能性を解き放ちます。画像からシームレスにテキストを抽出するための開発者向けガイド。
-type: docs
 weight: 14
 url: /ja/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で線を認識
+
 ## 導入
 
 進化し続けるテクノロジーの状況において、光学式文字認識 (OCR) は、画像を編集可能で検索可能なテキストにシームレスに変換する極めて重要なツールとなっています。 Aspose.OCR for .NET は、このドメインのフロントランナーとして浮上し、開発者に堅牢な機能を提供します。この包括的なガイドでは、Aspose.OCR for .NET を利用して OCR 画像認識で線を認識する複雑な仕組みについて詳しく説明します。
@@ -98,3 +104,9 @@ A4: はい、Aspose.OCR の機能を評価するために一時ライセンス�
 ### Q5: Aspose.OCR for .NET のシステム要件は何ですか?
 
  A5: を参照してください。[ドキュメンテーション](https://reference.aspose.com/ocr/net/)包括的なシステム要件については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

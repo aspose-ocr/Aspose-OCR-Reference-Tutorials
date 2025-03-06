@@ -3,10 +3,16 @@ title: Java için Aspose.OCR'da Eğrilik Açısını Hesaplama
 linktitle: Java için Aspose.OCR'da Eğrilik Açısını Hesaplama
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java ile OCR doğruluğunu artırın. Eğim açılarını adım adım hesaplamayı öğrenin. Belge işlemeyi zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java için Aspose.OCR'da Eğrilik Açısını Hesaplama
+
 ## giriiş
 
 Aspose.OCR for Java'da eğrilik açılarının hesaplanmasına ilişkin kapsamlı kılavuzumuza hoş geldiniz! Eğik açılar, özellikle taranan görüntülerle uğraşırken belge işlemede çok önemli bir rol oynar. Aspose.OCR for Java, eğrilik açılarını doğru bir şekilde belirlemek ve düzeltmek için güçlü bir çözüm sunarak OCR (Optik Karakter Tanıma) sonuçlarınızın genel kalitesini artırır.
@@ -94,3 +100,9 @@ Cevap3: Aspose.OCR PNG, JPEG ve TIFF dahil olmak üzere çeşitli görüntü for
 ### S5: Aspose.OCR ile ilgili nereden yardım alabilirim veya sorunları tartışabilirim?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) toplulukla etkileşime geçmek ve Aspose uzmanlarından destek almak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

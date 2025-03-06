@@ -3,10 +3,16 @@ title: Konfigurace OCR
 linktitle: Konfigurace OCR
 second_title: Aspose.OCR .NET API
 description: Vylepšete své .NET aplikace bez námahy pomocí Aspose.OCR. Prozkoumejte výukové programy konfigurace OCR, včetně operací s archivem, složkou, výběrem jazyka a seznamem.
-type: docs
 weight: 24
 url: /cs/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurace OCR
+
 ## Úvod
 
 Vydejte se na cestu k využití plného potenciálu optického rozpoznávání znaků (OCR) v aplikacích .NET s Aspose.OCR. Ať už jste zkušený vývojář nebo nováček v OCR, tyto výukové programy vás provedou různými operacemi OCR a zajistí, že bez námahy odemknete sílu extrakce textu.
@@ -33,3 +39,9 @@ Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte t
 Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
 ### [OCROoperace se seznamem v OCR rozpoznávání obrazu](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Bez námahy provádějte rozpoznávání obrázků OCR pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

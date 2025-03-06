@@ -3,10 +3,16 @@ title: Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherke
 linktitle: Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla OCR-resultaten van meerdere pagina's moeiteloos op als documenten met deze uitgebreide stapsgewijze handleiding.
-type: docs
 weight: 14
 url: /nl/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de fascinerende wereld van optische tekenherkenning (OCR) met Aspose.OCR voor .NET! In deze zelfstudie onderzoeken we hoe u de mogelijkheden van Aspose.OCR kunt benutten om OCR-resultaten van meerdere pagina's op te slaan als documenten. Of u nu een doorgewinterde ontwikkelaar bent of net begint met OCR, deze gids begeleidt u bij elke stap, zodat u het meeste uit deze krachtige tool haalt.
@@ -104,3 +110,9 @@ A4: Raadpleeg de documentatie voor best practices voor foutafhandeling of zoek h
 ### V5: Ondersteunt Aspose.OCR andere talen dan Engels?
 
 A5: Ja, Aspose.OCR ondersteunt meerdere talen. Bekijk de documentatie voor details over taalondersteuning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

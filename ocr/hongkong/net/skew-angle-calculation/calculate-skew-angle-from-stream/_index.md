@@ -3,10 +3,16 @@ title: 在 OCR 影像辨識中計算流的傾斜角度
 linktitle: 在 OCR 影像辨識中計算流的傾斜角度
 second_title: Aspose.OCR .NET API
 description: 釋放 Aspose.OCR for .NET 的強大功能，這是一個強大的影像辨識解決方案。了解如何輕鬆計算傾斜角度。
-type: docs
 weight: 11
 url: /zh-hant/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 影像辨識中計算流的傾斜角度
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的令人興奮的世界，這是一個強大的工具，為您在 .NET 應用程式中實現高效圖像識別打開了大門。在本綜合指南中，我們將引導您完成使用 Aspose.OCR 在 OCR 影像辨識中計算流傾斜角度的過程。無論您是經驗豐富的開發人員還是剛開始編碼之旅，本教學都將為您提供充分利用 Aspose.OCR for .NET 潛力的知識。
@@ -103,3 +109,9 @@ A3：是的，您可以透過免費試用探索 Aspose.OCR[這裡](https://relea
 ### Q5：需要支援或有具體問題？
 
  A5：參觀 Aspose.OCR 社區[論壇](https://forum.aspose.com/c/ocr/16)尋求專家和開發人員的協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OCR 图像识别中获取线条的矩形
 linktitle: 在 OCR 图像识别中获取线条的矩形
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET 是精确 OCR 图像识别的关键。轻松释放文本提取的力量。
-type: docs
 weight: 10
 url: /zh/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 图像识别中获取线条的矩形
+
 ## 介绍
 
 欢迎来到 Aspose.OCR for .NET 的世界，这是一个功能强大的工具，可让您在 .NET 应用程序中发挥光学字符识别 (OCR) 的潜力。无论您是经验丰富的开发人员还是好奇的爱好者，本指南都将引导您完成使用 Aspose.OCR 在 OCR 图像识别中获取线条矩形的过程。
@@ -110,3 +116,9 @@ A2：Aspose.OCR利用先进的算法实现高精度，适合各种文本识别�
 ### Q5：需要帮助或有具体问题吗？
 
  A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

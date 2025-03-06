@@ -3,10 +3,16 @@ title: Nastavte prahovou hodnotu v OCR rozpoznávání obrazu
 linktitle: Nastavte prahovou hodnotu v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Prozkoumejte Aspose.OCR for .NET, robustní řešení OCR. Nastavte si vlastní prahové hodnoty bez námahy. Vylepšete rozpoznávání textu ve svých aplikacích.
-type: docs
 weight: 12
 url: /cs/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte prahovou hodnotu v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě Aspose.OCR pro .NET! V tomto tutoriálu se ponoříme hluboko do možností Aspose.OCR, mocného nástroje navrženého k tomu, aby bylo optické rozpoznávání znaků hračkou v aplikacích .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede procesem nastavení prahové hodnoty při rozpoznávání obrazu OCR pomocí Aspose.OCR for .NET.
@@ -99,3 +105,9 @@ A1: Rozhodně! Aspose.OCR for .NET je univerzální a lze jej bez problémů int
 ### Q5: Jak si mohu zakoupit plnou verzi Aspose.OCR pro .NET?
 
  A5: Chcete-li odemknout všechny funkce, navštivte stránku nákupu[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

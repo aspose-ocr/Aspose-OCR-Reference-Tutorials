@@ -3,10 +3,16 @@ title: OCR画像認識でのテーブルの認識
 linktitle: OCR画像認識でのテーブルの認識
 second_title: Aspose.OCR .NET API
 description: OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
-type: docs
 weight: 15
 url: /ja/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識でのテーブルの認識
+
 ## 導入
 
 Aspose.OCR for .NET の魅力的な世界へようこそ!強力な OCR (光学式文字認識) 機能を使用して .NET アプリケーションを強化したい場合は、ここが最適な場所です。このステップバイステップのガイドでは、Aspose.OCR for .NET を使用して OCR 画像認識でテーブルを認識するプロセスについて説明します。
@@ -95,3 +101,9 @@ A3: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-licen
 ### Q5: Aspose.OCR に利用できる無料トライアルはありますか?
 
  A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/)購入する前に機能を調べてください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Számítsa ki a ferde szöget az OCR képfelismerésben
 linktitle: Számítsa ki a ferde szöget az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a pontos szövegfelismeréshez C#-alkalmazásaiban.
-type: docs
 weight: 10
 url: /hu/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Számítsa ki a ferde szöget az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.OCR for .NET világában. Ez egy hatékony eszköz, amellyel a fejlesztők zökkenőmentesen integrálhatják az optikai karakterfelismerő (OCR) képességeket .NET-alkalmazásaikba. Ebben az átfogó útmutatóban egy konkrét használati esettel foglalkozunk: a ferdeségi szög kiszámításával az OCR képfelismerésben. Ez az oktatóanyag kezdő és tapasztalt fejlesztők számára készült, és lépésről lépésre végigvezeti az Aspose.OCR lehetőségeinek teljes kihasználását.
@@ -105,3 +111,9 @@ A2: Abszolút! Az Aspose.OCR nyelvek széles skáláját támogatja, így sokold
 ### 5. kérdés: Elérhető az Aspose.OCR ingyenes próbaverziója?
 
 A5: Természetesen! Fedezze fel a funkciókat a[ingyenes próbaverzió](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

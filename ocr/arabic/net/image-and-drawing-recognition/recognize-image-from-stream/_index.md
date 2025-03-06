@@ -3,10 +3,16 @@ title: التعرف على الصورة من الدفق في التعرف على
 linktitle: التعرف على الصورة من الدفق في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لسحر التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسهولة. استكشف البرنامج التعليمي للحصول على إرشادات خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الصورة من الدفق في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم التعرف البصري على الأحرف (OCR) المثير باستخدام Aspose.OCR لـ .NET! سواء كنت مطورًا متمرسًا أو كنت تغوص في عالم التعرف الضوئي على الحروف (OCR)، فإن هذا الدليل المفصّل خطوة بخطوة سيرشدك خلال عملية التعرف على الصور من التدفقات دون عناء. Aspose.OCR for .NET هي أداة قوية تتيح التكامل السلس لوظائف OCR في تطبيقات .NET الخاصة بك، مما يجعل استخراج النص من الصور أمرًا سهلاً.
@@ -105,3 +111,9 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 ### س5: أين يمكنني شراء Aspose.OCR لـ .NET؟
 
  ج5: لجعل Aspose.OCR جزءًا دائمًا من مجموعة الأدوات الخاصة بك، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

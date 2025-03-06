@@ -3,10 +3,16 @@ title: 在 Aspose.OCR 中指定允許的字符
 linktitle: 在 Aspose.OCR 中指定允許的字符
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
-type: docs
 weight: 15
 url: /zh-hant/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR 中指定允許的字符
+
 ## 介紹
 
 在不斷發展的技術領域，光學字元辨識 (OCR) 已成為尋求從影像中提取有意義資訊的企業和開發人員的重要組成部分。 Aspose.OCR for Java 是一款功能強大的工具，提供無縫整合且高效的文字辨識功能。本綜合指南將引導您完成利用 Aspose.OCR for Java 潛力的過程，確保從安裝到實際實施的順利進行。
@@ -105,3 +111,9 @@ A3: 是的，您可以自訂字元辨識。有關詳細信息，請參閱文件�
 ### Q5：Aspose.OCR 中還有其他 OCR 功能嗎？
 
 A5：探索文件中提供的全面功能和選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

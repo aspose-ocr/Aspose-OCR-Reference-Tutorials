@@ -3,10 +3,16 @@ title: Распознать PDF в распознавании изображен
 linktitle: Распознать PDF в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте потенциал оптического распознавания символов в .NET с помощью Aspose.OCR. Извлекайте текст из PDF-файлов без особых усилий. Загрузите сейчас и получите беспрепятственную интеграцию.
-type: docs
 weight: 14
 url: /ru/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознать PDF в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в мир оптического распознавания символов (OCR) с помощью Aspose.OCR для .NET! Если вы хотите использовать возможности OCR в своих приложениях .NET, вы попали по адресу. В этом пошаговом руководстве мы рассмотрим, как распознавать текст в PDF-файле с помощью библиотеки Aspose.OCR. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете, это руководство проведет вас через весь процесс, гарантируя, что вы сможете легко интегрировать функцию OCR в свои проекты.
@@ -101,3 +107,9 @@ foreach (var result in results)
 ### Вопрос 5: Где я могу приобрести Aspose.OCR для .NET?
 
  A5: Вы можете купить товар у[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozpoznávání textu
 linktitle: Rozpoznávání textu
 second_title: Aspose.OCR .NET API
 description: Vylepšete své aplikace .NET pomocí Aspose.OCR pro přesné rozpoznávání znaků. Objevte výukové programy pro získávání možností, výsledků a formátů JSON v rozpoznávání obrazu OCR.
-type: docs
 weight: 21
 url: /cs/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznávání textu
+
 ## Úvod
 
 Jste připraveni posunout své .NET aplikace na další úroveň? Ponořte se do světa rozpoznávání textu s Aspose.OCR a vylepšete své projekty přesným rozpoznáváním znaků a bezproblémovým zpracováním obrazu.
@@ -49,3 +55,9 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

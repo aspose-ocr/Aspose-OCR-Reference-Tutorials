@@ -3,10 +3,16 @@ title: Подготовьте прямоугольники в распознав
 linktitle: Подготовьте прямоугольники в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства. Узнайте шаг за шагом, как подготовить прямоугольники для распознавания изображений. Повысьте качество своих .NET-приложений благодаря плавной интеграции OCR.
-type: docs
 weight: 11
 url: /ru/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Подготовьте прямоугольники в распознавании изображений OCR
+
 ## Введение
 
 В постоянно развивающемся мире технологий оптическое распознавание символов (OCR) играет ключевую роль в преобразовании изображений в машиночитаемый текст. Aspose.OCR для .NET представляет собой надежное решение для разработчиков, стремящихся к плавной интеграции возможностей OCR в свои .NET-приложения. В этом подробном руководстве мы рассмотрим процесс подготовки прямоугольников для распознавания изображений OCR с использованием Aspose.OCR для .NET.
@@ -120,3 +126,9 @@ foreach (string s in result.RecognitionAreasText)
 ### Вопрос 5: Где я могу найти документацию по Aspose.OCR для .NET?
 
  A5: документация доступна.[здесь](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

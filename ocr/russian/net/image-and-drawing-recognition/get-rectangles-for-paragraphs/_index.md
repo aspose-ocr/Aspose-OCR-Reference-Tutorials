@@ -3,10 +3,16 @@ title: Получите прямоугольники для абзацев в р
 linktitle: Получите прямоугольники для абзацев в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Разблокируйте расширенные возможности распознавания с помощью Aspose.OCR для .NET. Извлекайте прямоугольники абзацев без особых усилий.
-type: docs
 weight: 11
 url: /ru/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получите прямоугольники для абзацев в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию Aspose.OCR для .NET для извлечения прямоугольников абзацев при распознавании изображений OCR. Если вы хотите расширить возможности обработки документов и использовать возможности оптического распознавания символов (OCR) в своих .NET-приложениях, вы попали по адресу.
@@ -101,3 +107,9 @@ rectangles.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} heig
 ### Вопрос 5: Где я могу найти дополнительную поддержку и обсуждения, связанные с Aspose.OCR?
 
  A5: Отправляйтесь в[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

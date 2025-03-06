@@ -3,10 +3,16 @@ title: Thực hiện OCR trên hình ảnh từ URL trong Nhận dạng hình �
 linktitle: Thực hiện OCR trên hình ảnh từ URL trong Nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá tích hợp OCR liền mạch với Aspose.OCR cho .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
-type: docs
 weight: 10
 url: /vi/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR trên hình ảnh từ URL trong Nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong lĩnh vực Nhận dạng ký tự quang học (OCR), Aspose.OCR cho .NET nổi bật như một công cụ mạnh mẽ cho phép các nhà phát triển trích xuất nội dung văn bản từ hình ảnh một cách chính xác. Nếu bạn đang tìm cách tích hợp các khả năng OCR vào ứng dụng .NET của mình và thực hiện nhận dạng văn bản một cách dễ dàng thì hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình thực hiện OCR trên hình ảnh từ một URL.
@@ -120,3 +126,9 @@ A2: Chắc chắn rồi! Aspose.OCR cung cấp tính linh hoạt để nhận d�
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ hoặc thảo luận cộng đồng liên quan đến Aspose.OCR ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và gắn kết với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCROperation mit Ordner in der OCR-Bilderkennung
 linktitle: OCROperation mit Ordner in der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Nutzen Sie mit Aspose.OCR die Leistungsfähigkeit der OCR-Bilderkennung in .NET. Extrahieren Sie mühelos Text aus Bildern.
-type: docs
 weight: 11
 url: /de/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROperation mit Ordner in der OCR-Bilderkennung
+
 ## Einführung
 
 Willkommen in der Welt der optischen Zeichenerkennung (OCR) mit Aspose.OCR für .NET! Wenn Sie Text aus Bildern nahtlos in Ihren .NET-Anwendungen extrahieren möchten, sind Sie hier richtig. Dieses Tutorial führt Sie durch den Prozess der OCR-Bilderkennung mit Ordnern und nutzt dabei die leistungsstarken Funktionen von Aspose.OCR.
@@ -118,3 +124,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie die OCR-Bilderkennung mit O
 ### F5: Benötigen Sie Unterstützung oder haben Sie Fragen?
 
  A5: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für die Unterstützung der Gemeinschaft.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

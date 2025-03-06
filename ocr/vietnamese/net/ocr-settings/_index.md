@@ -3,10 +3,16 @@ title: Cài đặt OCR
 linktitle: Cài đặt OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá sức mạnh của Aspose.OCR cho .NET bằng Hướng dẫn cài đặt OCR của chúng tôi. Tìm hiểu cách nâng cao độ chính xác, tốc độ và khả năng tùy chỉnh để nhận dạng văn bản trong hình ảnh.
-type: docs
 weight: 26
 url: /vi/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cài đặt OCR
+
 
 ## Giới thiệu
 
@@ -50,3 +56,9 @@ Mở khóa OCR chính xác trong .NET bằng Aspose.OCR. Nhận dạng văn bả
 Khám phá các khả năng OCR nâng cao với Aspose.OCR cho .NET. Hiệu quả, chính xác và thân thiện với nhà phát triển.
 ### [Làm việc với các ngôn ngữ khác nhau trong nhận dạng hình ảnh OCR](./working-with-different-languages/)
 Khám phá sự kỳ diệu của OCR đa ngôn ngữ với Aspose.OCR cho .NET. Trích xuất văn bản dễ dàng bằng nhiều ngôn ngữ khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

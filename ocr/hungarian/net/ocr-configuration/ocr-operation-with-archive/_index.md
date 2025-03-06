@@ -3,10 +3,16 @@ title: OCR-művelet archívumával az OCR képfelismerésben
 linktitle: OCR-művelet archívumával az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Az Aspose.OCR segítségével felszabadíthatja az OCR-ben rejlő lehetőségeket a .NET-alkalmazásokban. Tanuljon meg lépésről lépésre szöveget kivonni az archív képekből.
-type: docs
 weight: 10
 url: /hu/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-művelet archívumával az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Optical Character Recognition (OCR) világában, amelyet az Aspose.OCR for .NET segítségével zökkenőmentesen és hatékonyan alakítottak ki. Ebben az átfogó útmutatóban végigvezetjük az OCR-műveletek végrehajtásán az archív képeken az Aspose.OCR könyvtár használatával. Akár tapasztalt fejlesztő, akár kíváncsi kezdő, ez az oktatóanyag felvértezi azokat a tudást, amelyek segítségével kiaknázhatja az OCR-ben rejlő lehetőségeket .NET-alkalmazásaiban.
@@ -119,3 +125,9 @@ A4: Abszolút! Az Aspose.OCR for .NET rugalmasságot biztosít a felismerési be
 ### 5. kérdés: Milyen gyakran frissül az Aspose.OCR for .NET?
 
  5. válasz: Maradjon naprakész a legújabb funkciókkal és fejlesztésekkel kapcsolatban, ha megnézi a[dokumentáció](https://reference.aspose.com/ocr/net/) rendszeresen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

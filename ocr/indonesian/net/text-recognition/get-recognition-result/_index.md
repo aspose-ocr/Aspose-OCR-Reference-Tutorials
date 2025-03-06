@@ -3,10 +3,16 @@ title: Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR
 linktitle: Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks tanpa hambatan dalam gambar.
-type: docs
 weight: 11
 url: /id/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam dunia pemrograman yang dinamis, pengenalan teks yang efisien merupakan terobosan baru, dan Aspose.OCR untuk .NET muncul sebagai solusi yang tangguh. Tutorial ini mempelajari nuansa penggunaan Aspose.OCR untuk memanfaatkan potensi pengenalan gambar dengan lancar.
@@ -106,3 +112,9 @@ A1: Ya, Aspose.OCR mendukung pengenalan teks multibahasa, memberikan fleksibilit
 ### Q5: Bisakah saya mendapatkan lisensi sementara untuk Aspose.OCR?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

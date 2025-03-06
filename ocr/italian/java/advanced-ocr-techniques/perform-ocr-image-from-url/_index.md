@@ -3,10 +3,16 @@ title: Esecuzione dell'OCR sull'immagine dall'URL in Aspose.OCR per Java
 linktitle: Esecuzione dell'OCR sull'immagine dall'URL in Aspose.OCR per Java
 second_title: API Java Aspose.OCR
 description: Sblocca l'estrazione perfetta del testo dell'immagine in Java con Aspose.OCR. OCR ad alta precisione con facile integrazione.
-type: docs
 weight: 11
 url: /it/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esecuzione dell'OCR sull'immagine dall'URL in Aspose.OCR per Java
+
 ## introduzione
 
 Benvenuti nella nostra guida passo passo sull'esecuzione del riconoscimento ottico dei caratteri (OCR) su un'immagine da un URL utilizzando Aspose.OCR per Java. Questo tutorial è progettato per aiutarti a integrare perfettamente Aspose.OCR nelle tue applicazioni Java, permettendoti di estrarre facilmente il testo dalle immagini. Aspose.OCR è una potente libreria OCR che supporta vari formati di immagine, rendendolo uno strumento prezioso per le applicazioni che richiedono l'estrazione di testo.
@@ -125,3 +131,10 @@ A3: Sì, garantire la conformità ai termini di licenza Aspose.OCR per uso comme
 ### Q5: È disponibile una prova gratuita per Aspose.OCR per Java?
 
  A5: Sì, esplora le funzionalità di Aspose.OCR con la prova gratuita disponibile su[releases.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR影像辨識中將結果儲存為文檔
 linktitle: OCR影像辨識中將結果儲存為文檔
 second_title: Aspose.OCR .NET API
 description: 釋放 Aspose.OCR for .NET 的潛能。輕鬆識別圖像中的文字並將結果儲存為各種文件格式。
-type: docs
 weight: 10
 url: /zh-hant/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR影像辨識中將結果儲存為文檔
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 令人興奮的光學字元辨識 (OCR) 世界！在這個綜合教程中，我們將深入研究使用 Aspose.OCR 識別圖像中文字的複雜性，並示範如何將結果儲存為各種文件格式。
@@ -99,3 +105,9 @@ A2：當然！ Aspose.OCR 提供識別設置，可根據您的特定要求微調
 ### Q5：我可以在哪裡尋求協助或與社區聯繫？
 
  A5：加入 Aspose.OCR 社群：[Aspose論壇](https://forum.aspose.com/c/ocr/16)以尋求支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

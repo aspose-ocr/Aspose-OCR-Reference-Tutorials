@@ -3,10 +3,16 @@ title: OCR 이미지 인식의 이미지 전처리 필터
 linktitle: OCR 이미지 인식의 이미지 전처리 필터
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 살펴보세요. 전처리 필터로 OCR 정확도를 높입니다. 원활한 통합을 위해 지금 다운로드하세요.
-type: docs
 weight: 12
 url: /ko/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식의 이미지 전처리 필터
+
 ## 소개
 
 Aspose.OCR을 사용하여 .NET 애플리케이션에서 광학 문자 인식(OCR)의 잠재력을 최대한 활용하세요. 이 강력한 라이브러리를 통해 개발자는 OCR 기능을 원활하게 통합하여 이미지를 편집 가능한 텍스트로 변환할 수 있습니다. 이 단계별 가이드에서는 OCR 이미지 인식에 대한 최적의 결과를 보장하는 이미지 향상을 위한 전처리 필터를 자세히 살펴보겠습니다.
@@ -112,3 +118,9 @@ A4: Aspose.OCR은 PNG, JPEG, GIF, BMP 및 TIFF를 포함한 광범위한 이미�
 ### Q5: Aspose.OCR을 기존 .NET 프로젝트에 통합할 수 있나요?
 
 A5: 물론이죠! 튜토리얼에 설명된 단계를 따르면 OCR 이미지 인식을 위해 Aspose.OCR을 .NET 프로젝트에 원활하게 통합할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Καθορίστε τους αγνοούμενους χαρακτήρες
 linktitle: Καθορίστε τους αγνοούμενους χαρακτήρες στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Εξερευνήστε προηγμένες δυνατότητες OCR με το Aspose.OCR για .NET. Αποτελεσματικό, ακριβές και φιλικό προς τους προγραμματιστές.
-type: docs
 weight: 14
 url: /el/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τους αγνοούμενους χαρακτήρες στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο του ψηφιακού μετασχηματισμού, η Οπτική Αναγνώριση Χαρακτήρων (OCR) έχει αναδειχθεί ως βασική τεχνολογία, γεφυρώνοντας το χάσμα μεταξύ φυσικού και ψηφιακού περιεχομένου. Καθώς οι επιχειρήσεις ψηφιοποιούν όλο και περισσότερο τις δραστηριότητές τους, η ανάγκη για ακριβείς, αποτελεσματικές και ευέλικτες λύσεις OCR γίνεται ύψιστη. Το Aspose.OCR for .NET ξεχωρίζει ως μια ισχυρή βιβλιοθήκη OCR, που προσφέρει προηγμένες δυνατότητες σε προγραμματιστές που εργάζονται στο περιβάλλον .NET.
@@ -100,3 +106,9 @@ A4: Το Aspose.OCR υποστηρίζει ένα ευρύ φάσμα γλωσσ
 ### Ε5: Μπορώ να αγοράσω μια προσωρινή άδεια για το Aspose.OCR;
 
  A5: Ναι, εάν χρειάζεστε μια προσωρινή άδεια, μπορείτε να την αποκτήσετε[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμη χρήση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

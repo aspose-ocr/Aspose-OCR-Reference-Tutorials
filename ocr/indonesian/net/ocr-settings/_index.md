@@ -3,10 +3,16 @@ title: Pengaturan OCR
 linktitle: Pengaturan OCR
 second_title: Aspose.OCR .NET API
 description: Buka kekuatan Aspose.OCR untuk .NET dengan Tutorial Pengaturan OCR kami. Pelajari cara meningkatkan akurasi, kecepatan, dan penyesuaian untuk pengenalan teks dalam gambar.
-type: docs
 weight: 26
 url: /id/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengaturan OCR
+
 
 ## Perkenalan
 
@@ -50,3 +56,9 @@ Buka kunci OCR yang tepat di .NET dengan Aspose.OCR. Kenali teks dari gambar den
 Jelajahi kemampuan OCR tingkat lanjut dengan Aspose.OCR untuk .NET. Efisien, akurat, dan ramah pengembang.
 ### [Bekerja dengan Bahasa Berbeda dalam Pengenalan Gambar OCR](./working-with-different-languages/)
 Buka keajaiban OCR multibahasa dengan Aspose.OCR untuk .NET. Ekstrak teks dengan mudah dalam berbagai bahasa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

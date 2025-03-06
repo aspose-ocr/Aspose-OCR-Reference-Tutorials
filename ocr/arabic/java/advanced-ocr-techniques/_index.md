@@ -3,10 +3,16 @@ title: تقنيات التعرف الضوئي على الحروف المتقدم
 linktitle: تقنيات التعرف الضوئي على الحروف المتقدمة
 second_title: Aspose.OCR جافا API
 description: قم بإجراء التعرف الضوئي على الحروف (OCR) على الصور بسهولة باستخدام Aspose.OCR لـ Java. استخراج النص بسلاسة وبدقة عالية. قم بتحسين مشاريع Java الخاصة بك من خلال التعرف على النص متعدد الاستخدامات.
-type: docs
 weight: 22
 url: /ar/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقنيات التعرف الضوئي على الحروف المتقدمة
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بمشاريع Java الخاصة بك إلى المستوى التالي؟ انغمس في عالم تقنيات التعرف الضوئي على الحروف المتقدمة باستخدام Aspose.OCR لـ Java. في هذا الدليل الشامل، سنستكشف العديد من البرامج التعليمية لتمكينك من استخراج النص من الصور دون عناء.
@@ -55,3 +61,9 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

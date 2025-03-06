@@ -3,10 +3,16 @@ title: ओसीआर इमेज रिकॉग्निशन में ट
 linktitle: ओसीआर इमेज रिकॉग्निशन में टेक्स्ट एरिया डिटेक्शन के बिना इमेज को पहचानें
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR के साथ टेक्स्ट पहचान की क्षमता को अनलॉक करें। छवियों से पाठ को सहजता से पहचानें।
-type: docs
 weight: 13
 url: /hi/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर इमेज रिकॉग्निशन में टेक्स्ट एरिया डिटेक्शन के बिना इमेज को पहचानें
+
 ## परिचय
 
 प्रौद्योगिकी के तेजी से विकसित हो रहे परिदृश्य में, ऑप्टिकल कैरेक्टर रिकॉग्निशन (ओसीआर) एक महत्वपूर्ण उपकरण बन गया है, जो मशीनों को छवियों के भीतर पाठ को समझने में सक्षम बनाता है। .NET के लिए Aspose.OCR एक मजबूत समाधान के रूप में सामने आता है, जो डेवलपर्स को अपने .NET अनुप्रयोगों में OCR क्षमताओं को एकीकृत करने का एक सहज तरीका प्रदान करता है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि .NET के लिए Aspose.OCR के साथ स्पष्ट और संक्षिप्त चरणों का उपयोग करके, टेक्स्ट क्षेत्र का पता लगाए बिना किसी छवि से टेक्स्ट को कैसे पहचाना जाए।
@@ -100,3 +106,9 @@ A2: हां, .NET के लिए Aspose.OCR बहुमुखी है औ
 ### Q5: क्या Aspose.OCR के लिए अस्थायी लाइसेंस उपलब्ध हैं?
 
  A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) अल्पकालिक उपयोग के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

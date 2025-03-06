@@ -3,10 +3,16 @@ title: Advanced OCR Techniques
 linktitle: Advanced OCR Techniques
 second_title: Aspose.OCR Java API
 description: Effortlessly perform OCR on images using Aspose.OCR for Java. Extract text seamlessly with high accuracy. Enhance your Java projects with versatile text recognition.
-type: docs
 weight: 22
 url: /java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced OCR Techniques
+
 ## Introduction
 
 Are you ready to take your Java projects to the next level? Dive into the world of advanced OCR techniques with Aspose.OCR for Java. In this comprehensive guide, we'll explore various tutorials to empower you in extracting text from images effortlessly.
@@ -55,3 +61,9 @@ Unlock the power of text recognition with Aspose.OCR for Java. Follow our step-b
 Empower your Java applications with Aspose.OCR for precise text recognition. Easy integration, high accuracy.
 ### [Specifying Allowed Characters in Aspose.OCR](./specify-allowed-characters/)
 Unlock text extraction from images seamlessly with Aspose.OCR for Java. Follow our step-by-step guide for efficient integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

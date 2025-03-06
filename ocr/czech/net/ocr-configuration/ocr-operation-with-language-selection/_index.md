@@ -3,10 +3,16 @@ title: Operace OCRO s výběrem jazyka v rozpoznávání obrazu OCR
 linktitle: Operace OCRO s výběrem jazyka v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
-type: docs
 weight: 12
 url: /cs/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operace OCRO s výběrem jazyka v rozpoznávání obrazu OCR
+
 ## Úvod
 
 Ve světě rozpoznávání obrázků a optického rozpoznávání znaků (OCR) vyniká Aspose.OCR for .NET jako výkonný nástroj pro vývojáře, kteří hledají přesnou a efektivní extrakci textu z obrázků. Tento podrobný průvodce vás provede procesem rozpoznávání obrazu OCR pomocí Aspose.OCR for .NET se zaměřením na operaci s výběrem jazyka.
@@ -109,3 +115,10 @@ A2: Rozhodně! Upravte parametry, jako je úhel zkosení, rozpoznání čar a de
 ### Q5: Jak mohu zakoupit Aspose.OCR pro .NET?
 
  A5: Chcete-li zakoupit, navštivte[nákupní stránku](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

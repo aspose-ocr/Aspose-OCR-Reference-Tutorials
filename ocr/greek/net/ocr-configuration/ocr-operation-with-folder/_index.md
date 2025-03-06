@@ -3,10 +3,16 @@ title: OCROΛειτουργία με Φάκελο στην Αναγνώριση 
 linktitle: OCROΛειτουργία με Φάκελο στην Αναγνώριση Εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τη δύναμη της αναγνώρισης εικόνας OCR στο .NET με το Aspose.OCR. Εξάγετε κείμενο χωρίς κόπο από εικόνες.
-type: docs
 weight: 11
 url: /el/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROΛειτουργία με Φάκελο στην Αναγνώριση Εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο της Οπτικής Αναγνώρισης Χαρακτήρων (OCR) χρησιμοποιώντας το Aspose.OCR για .NET! Αν θέλετε να εξαγάγετε κείμενο από εικόνες χωρίς προβλήματα στις εφαρμογές σας .NET, βρίσκεστε στο σωστό μέρος. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία αναγνώρισης εικόνων OCR με φακέλους, αξιοποιώντας τις ισχυρές δυνατότητες του Aspose.OCR.
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### Ε5: Χρειάζεστε υποστήριξη ή έχετε ερωτήσεις;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

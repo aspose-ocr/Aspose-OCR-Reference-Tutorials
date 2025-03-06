@@ -3,10 +3,16 @@ title: Получите прямоугольники для линий в рас
 linktitle: Получите прямоугольники для линий в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Изучите Aspose.OCR для .NET — ваш ключ к точному распознаванию изображений OCR. Раскройте возможности извлечения текста без особых усилий.
-type: docs
 weight: 10
 url: /ru/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получите прямоугольники для линий в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в мир Aspose.OCR для .NET, мощного инструмента, который позволяет вам использовать потенциал оптического распознавания символов (OCR) в ваших .NET-приложениях. Независимо от того, являетесь ли вы опытным разработчиком или любопытным энтузиастом, это руководство проведет вас через процесс получения прямоугольников для линий в распознавании изображений OCR с помощью Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR использует передовые алгоритмы для
 ### В5: Нужна помощь или есть конкретные вопросы?
 
  A5: Посетите[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

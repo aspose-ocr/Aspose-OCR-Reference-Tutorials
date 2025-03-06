@@ -1,12 +1,17 @@
 ---
 title: Kapsamlı Eğitimler ve Java için Aspose.OCR Örnekleri
 linktitle: Java Eğitimleri için Aspose.OCR
-type: docs
 weight: 10
 url: /tr/java/
 description: Aspose.OCR for Java'nın gücünü ortaya çıkarın! OCR'nin temellerini, işlemlerini ve gelişmiş tekniklerini öğrenin. Lisansınızı ayarlayın, alanları tespit edin ve metin tanımayı zahmetsizce geliştirin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kapsamlı Eğitimler ve Java için Aspose.OCR Örnekleri
+
 
 ## giriiş
 
@@ -32,3 +37,9 @@ Aspose.OCR'ın Java'daki potansiyelini ortaya çıkarın! Lisansınızı ayarlam
 Kapsamlı OCR eğitimlerimiz ile Aspose.OCR for Java'nın potansiyelini ortaya çıkarın. Yalnızca birkaç adımda Alanları Algılama Modunu, Dil Seçimini, PDF ve TIFF tanımayı öğrenin!
 ### [Gelişmiş OCR Teknikleri](./advanced-ocr-techniques/)
 Aspose.OCR for Java'yı kullanarak görüntüler üzerinde zahmetsizce OCR gerçekleştirin. Metni yüksek doğrulukla sorunsuz bir şekilde çıkarın. Çok yönlü metin tanıma özelliğiyle Java projelerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

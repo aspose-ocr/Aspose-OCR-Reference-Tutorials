@@ -3,10 +3,16 @@ title: حدد الأحرف المسموح بها في التعرف على الص
 linktitle: حدد الأحرف المسموح بها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: افتح تقنية التعرف الضوئي على الحروف (OCR) بدقة في .NET باستخدام Aspose.OCR. التعرف على النص من الصور دون عناء. قم بالتنزيل الآن للحصول على تجربة تطوير تحويلية.
-type: docs
 weight: 13
 url: /ar/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد الأحرف المسموح بها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 في مشهد التكنولوجيا المتطور باستمرار، برز التعرف الضوئي على الحروف (OCR) كأداة تحويلية، تمكن الآلات من فهم النص من الصور. يبرز Aspose.OCR for .NET كحل قوي، حيث يوفر تكاملًا سلسًا للمطورين الذين يبحثون عن إمكانات OCR قوية في تطبيقات .NET الخاصة بهم.
@@ -119,3 +125,9 @@ Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع المجتمع للحصول على الدعم؟
 
  ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للتواصل مع المجتمع والحصول على مساعدة الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

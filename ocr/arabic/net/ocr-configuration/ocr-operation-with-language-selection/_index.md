@@ -3,10 +3,16 @@ title: عملية OCRO مع اختيار اللغة في التعرف على ا�
 linktitle: عملية OCRO مع اختيار اللغة في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عملية OCRO مع اختيار اللغة في التعرف على الصور OCR
+
 ## مقدمة
 
 في عالم التعرف على الصور والتعرف البصري على الأحرف (OCR)، يبرز Aspose.OCR for .NET كأداة قوية للمطورين الذين يبحثون عن استخراج نص دقيق وفعال من الصور. سيرشدك هذا الدليل التفصيلي خطوة بخطوة خلال عملية التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ .NET، مع التركيز على العملية مع اختيار اللغة.
@@ -109,3 +115,10 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 ### س5: كيف يمكنني شراء Aspose.OCR لـ .NET؟
 
  ج5: للشراء، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

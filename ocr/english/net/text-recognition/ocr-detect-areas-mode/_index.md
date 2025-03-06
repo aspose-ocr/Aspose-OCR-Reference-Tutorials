@@ -3,10 +3,16 @@ title: OCR Detect Areas Mode in OCR Image Recognition
 linktitle: OCR Detect Areas Mode in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
-type: docs
 weight: 13
 url: /net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Detect Areas Mode in OCR Image Recognition
+
 ## Introduction
 
 In the fast-paced world of information technology, Optical Character Recognition (OCR) plays a pivotal role in transforming images into editable and searchable text. Aspose.OCR for .NET empowers developers to integrate robust OCR functionality into their applications effortlessly. In this tutorial, we will delve into the OCR Detect Areas Mode, a powerful feature that enhances image recognition.
@@ -91,3 +97,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to seek tech
 ### Q5: Is there a free trial available for Aspose.OCR for .NET?
 
 A5: Yes, you can explore the capabilities of Aspose.OCR for .NET by obtaining a [free trial license](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

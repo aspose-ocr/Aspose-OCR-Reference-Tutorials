@@ -3,10 +3,16 @@ title: حساب زاوية الانحراف من الدفق في التعرف ع
 linktitle: حساب زاوية الانحراف من الدفق في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لقوة Aspose.OCR لـ .NET، وهو حل قوي للتعرف على الصور. تعلم كيفية حساب زوايا الانحراف دون عناء.
-type: docs
 weight: 11
 url: /ar/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب زاوية الانحراف من الدفق في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR المثير لـ .NET، وهي أداة قوية تفتح الأبواب أمام التعرف الفعال على الصور في تطبيقات .NET الخاصة بك. في هذا الدليل الشامل، سنرشدك خلال عملية حساب زوايا الانحراف من الدفق في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR. سواء كنت مطورًا متمرسًا أو بدأت للتو في رحلة البرمجة الخاصة بك، فإن هذا البرنامج التعليمي سيزودك بالمعرفة اللازمة لتسخير الإمكانات الكاملة لـ Aspose.OCR لـ .NET.
@@ -103,3 +109,9 @@ Console.WriteLine(angle);
 ### س5: هل تحتاج إلى دعم أو لديك أسئلة محددة؟
 
  ج5: قم بزيارة مجتمع Aspose.OCR[المنتدى](https://forum.aspose.com/c/ocr/16) للحصول على المساعدة من الخبراء وزملائه المطورين.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

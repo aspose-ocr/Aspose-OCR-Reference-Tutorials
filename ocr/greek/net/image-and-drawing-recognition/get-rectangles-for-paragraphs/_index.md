@@ -3,10 +3,16 @@ title: Αποκτήστε ορθογώνια για παραγράφους στ�
 linktitle: Αποκτήστε ορθογώνια για παραγράφους στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε προηγμένες δυνατότητες OCR με το Aspose.OCR για .NET. Εξάγετε ορθογώνια παραγράφου χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποκτήστε ορθογώνια για παραγράφους στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη μόχλευση του Aspose.OCR για .NET για την εξαγωγή ορθογωνίων παραγράφων στην αναγνώριση εικόνας OCR. Αν θέλετε να βελτιώσετε τις δυνατότητες επεξεργασίας εγγράφων σας και να αξιοποιήσετε τη δύναμη της Οπτικής Αναγνώρισης Χαρακτήρων (OCR) στις εφαρμογές σας .NET, βρίσκεστε στο σωστό μέρος.
@@ -101,3 +107,9 @@ A1: Ναι, το Aspose.OCR υποστηρίζει διάφορες μορφές
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη και συζητήσεις σχετικά με το Aspose.OCR;
 
  Α5: Κατευθυνθείτε προς το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

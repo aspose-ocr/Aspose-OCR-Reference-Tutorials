@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Liste ile OCR İşlemi
 linktitle: OCR Görüntü Tanıma'da Liste ile OCR İşlemi
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımayı zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarmayı artırın.
-type: docs
 weight: 13
 url: /tr/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Liste ile OCR İşlemi
+
 ## giriiş
 
 Listelerle OCR görüntü tanıma gerçekleştirmek için Aspose.OCR for .NET'in gücünden yararlanmaya yönelik ayrıntılı eğitimimize hoş geldiniz. Optik Karakter Tanıma (OCR), taranmış kağıt belgeler, PDF'ler veya görüntüler gibi farklı türdeki belgeleri düzenlenebilir ve aranabilir verilere dönüştüren önemli bir teknolojidir.
@@ -105,3 +111,10 @@ A2: Kesinlikle. Aspose.OCR çok çeşitli görüntü formatlarını destekleyere
 ### S5: Uygulama sırasında sorunlarla karşılaşırsam veya belirli sorularım olursa ne olur?
 
  A5: Bu konuda yardım istemekten çekinmeyin[Aspose.OCR Forumu](https://forum.aspose.com/c/ocr/16) Topluluktan ve uzmanlardan hızlı destek için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

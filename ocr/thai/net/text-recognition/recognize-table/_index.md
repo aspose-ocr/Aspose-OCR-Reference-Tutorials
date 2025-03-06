@@ -3,10 +3,16 @@ title: จดจำตารางในการจดจำรูปภาพ 
 linktitle: จดจำตารางในการจดจำรูปภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
-type: docs
 weight: 15
 url: /th/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จดจำตารางในการจดจำรูปภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกอันน่าทึ่งของ Aspose.OCR สำหรับ .NET! หากคุณต้องการปรับปรุงแอปพลิเคชัน .NET ของคุณด้วยความสามารถ OCR (Optical Character Recognition) อันทรงพลัง แสดงว่าคุณมาถูกที่แล้ว คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการจดจำตารางในการจดจำรูปภาพ OCR โดยใช้ Aspose.OCR สำหรับ .NET
@@ -95,3 +101,9 @@ Console.WriteLine(result.RecognitionText);
 ### คำถามที่ 5: Aspose.OCR มีรุ่นทดลองใช้ฟรีหรือไม่
 
  A5: ได้ คุณสามารถเข้าถึงรุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติก่อนตัดสินใจซื้อ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

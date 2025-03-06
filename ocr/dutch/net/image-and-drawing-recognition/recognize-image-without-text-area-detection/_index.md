@@ -3,10 +3,16 @@ title: Herken afbeeldingen zonder tekstgebieddetectie in OCR-beeldherkenning
 linktitle: Herken afbeeldingen zonder tekstgebieddetectie in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van tekstherkenning met Aspose.OCR voor .NET. Herken moeiteloos tekst uit afbeeldingen.
-type: docs
 weight: 13
 url: /nl/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herken afbeeldingen zonder tekstgebieddetectie in OCR-beeldherkenning
+
 ## Invoering
 
 In het snel evoluerende technologische landschap is Optical Character Recognition (OCR) een cruciaal hulpmiddel geworden, waarmee machines tekst in afbeeldingen kunnen begrijpen. Aspose.OCR voor .NET onderscheidt zich als een robuuste oplossing die ontwikkelaars een naadloze manier biedt om OCR-mogelijkheden in hun .NET-applicaties te integreren. In deze zelfstudie onderzoeken we hoe u tekst uit een afbeelding kunt herkennen zonder tekstgebieddetectie, met behulp van duidelijke en beknopte stappen met Aspose.OCR voor .NET.
@@ -100,3 +106,9 @@ A2: Ja, Aspose.OCR voor .NET is veelzijdig en kan worden gebruikt in zowel deskt
 ### V5: Zijn er tijdelijke licenties beschikbaar voor Aspose.OCR?
 
  A5: Ja, u kunt tijdelijke licenties verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

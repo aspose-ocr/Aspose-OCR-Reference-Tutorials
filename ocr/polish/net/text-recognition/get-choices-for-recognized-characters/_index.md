@@ -3,10 +3,16 @@ title: Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR
 linktitle: Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby uzyskać dokładne rozpoznawanie znaków. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wyszukać opcje rozpoznawania znaków w procesie rozpoznawania obrazu.
-type: docs
 weight: 10
 url: /pl/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 Uwolnienie mocy optycznego rozpoznawania znaków (OCR) ma kluczowe znaczenie w dzisiejszej erze cyfrowej, a Aspose.OCR dla .NET wyróżnia się jako solidne rozwiązanie do dokładnego rozpoznawania znaków. W tym samouczku zajmiemy się konkretną funkcją: uzyskiwaniem wyborów dla rozpoznanych postaci. Pod koniec tego przewodnika bezproblemowo zintegrujesz tę funkcjonalność z aplikacjami .NET.
@@ -112,3 +118,9 @@ Odpowiedź 2: Tak, możesz zintegrować Aspose.OCR dla .NET z aplikacjami intern
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR dla .NET?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby poznać możliwości Aspose.OCR dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

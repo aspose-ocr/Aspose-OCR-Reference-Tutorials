@@ -3,10 +3,16 @@ title: Beräkna skevningsvinkel från Stream i OCR-bildigenkänning
 linktitle: Beräkna skevningsvinkel från Stream i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Släpp lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkänning. Lär dig hur du beräknar snedvinklar utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beräkna skevningsvinkel från Stream i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till den spännande världen av Aspose.OCR för .NET, ett kraftfullt verktyg som öppnar dörrarna till effektiv bildigenkänning i dina .NET-applikationer. I den här omfattande guiden kommer vi att leda dig genom processen att beräkna snedvinklar från en ström i OCR-bildigenkänning med Aspose.OCR. Oavsett om du är en erfaren utvecklare eller precis har börjat på din kodningsresa, kommer den här handledningen att utrusta dig med kunskapen för att utnyttja den fulla potentialen hos Aspose.OCR för .NET.
@@ -103,3 +109,9 @@ S1: Aspose.OCR stöder ett brett utbud av .NET-ramverk, vilket säkerställer ko
 ### F5: Behöver du support eller har specifika frågor?
 
  S5: Besök Aspose.OCR-communityt[forum](https://forum.aspose.com/c/ocr/16) för hjälp från experter och andra utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

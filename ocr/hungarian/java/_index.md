@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.OCR-re Java-hoz
 linktitle: Aspose.OCR for Java oktatóanyagok
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel az Aspose.OCR for Java erejét! Tanulja meg az OCR alapjait, műveleteit és fejlett technikáit. Állítsa be licencét, észlelje a területeket és javítsa a szövegfelismerést könnyedén.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.OCR-re Java-hoz
+
 
 ## Bevezetés
 
@@ -32,3 +37,9 @@ Fedezze fel az Aspose.OCR-ben rejlő lehetőségeket a Java nyelven! Lépésről
 Fedezze fel az Aspose.OCR for Java lehetőségeit átfogó OCR-oktatóanyagaink segítségével. Tanulja meg a Területészlelés módot, a nyelvválasztást, a PDF- és TIFF-felismerést néhány lépésben!
 ### [Fejlett OCR technikák](./advanced-ocr-techniques/)
 Könnyedén végezzen OCR-t a képeken az Aspose.OCR for Java segítségével. Szöveg zökkenőmentes kibontása nagy pontossággal. Javítsa Java-projektjeit sokoldalú szövegfelismeréssel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

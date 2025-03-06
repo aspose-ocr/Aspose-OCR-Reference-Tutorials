@@ -3,10 +3,16 @@ title: Αναγνώριση κειμένου
 linktitle: Αναγνώριση κειμένου
 second_title: Aspose.OCR .NET API
 description: Ανυψώστε τις εφαρμογές σας .NET με το Aspose.OCR για ακριβή αναγνώριση χαρακτήρων. Ανακαλύψτε μαθήματα για τη λήψη επιλογών, αποτελεσμάτων και μορφών JSON στην αναγνώριση εικόνας OCR.
-type: docs
 weight: 21
 url: /el/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αναγνώριση κειμένου
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να μεταφέρετε τις εφαρμογές σας .NET στο επόμενο επίπεδο; Βουτήξτε στον κόσμο της Αναγνώρισης Κειμένου με το Aspose.OCR και βελτιώστε τα έργα σας με ακριβή αναγνώριση χαρακτήρων και απρόσκοπτη επεξεργασία εικόνας.
@@ -49,3 +55,9 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Farklı Dillerle Çalışmak
 linktitle: OCR Görüntü Tanıma'da Farklı Dillerle Çalışmak
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile çok dilli OCR'nin büyüsünün kilidini açın. Çeşitli dillerdeki metinleri zahmetsizce çıkarın.
-type: docs
 weight: 15
 url: /tr/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Farklı Dillerle Çalışmak
+
 ## giriiş
 
 Optik Karakter Tanıma'nın (OCR) gücünün çok dilli desteğin çok yönlülüğüyle buluştuğu Aspose.OCR for .NET dünyasına hoş geldiniz. Bu eğitimde Aspose.OCR for .NET'in çeşitli dillerdeki metinleri zahmetsizce tanıyabilme özelliklerinden nasıl yararlanacağımızı keşfedeceğiz. Farklı diller için OCR görüntü tanımanın ardındaki sihri merak ettiyseniz doğru yerdesiniz.
@@ -100,3 +106,9 @@ A2: Kesinlikle! Aspose.OCR çok çeşitli dilleri destekler, bu da onu çok dill
 ### S5: Dokümantasyona nasıl erişebilirim?
 
  Cevap5: Aspose.OCR for .NET'in belgeleri mevcut[Burada](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

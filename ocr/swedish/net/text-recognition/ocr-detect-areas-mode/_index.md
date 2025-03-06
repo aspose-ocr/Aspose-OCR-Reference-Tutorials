@@ -3,10 +3,16 @@ title: OCR Detektera områden-läge i OCR-bildigenkänning
 linktitle: OCR Detektera områden-läge i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
-type: docs
 weight: 13
 url: /sv/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Detektera områden-läge i OCR-bildigenkänning
+
 ## Introduktion
 
 I informationsteknologins snabba värld spelar Optical Character Recognition (OCR) en avgörande roll för att omvandla bilder till redigerbar och sökbar text. Aspose.OCR för .NET ger utvecklare möjlighet att integrera robust OCR-funktionalitet i sina applikationer utan ansträngning. I den här handledningen kommer vi att fördjupa oss i läget OCR Detektera områden, en kraftfull funktion som förbättrar bildigenkänningen.
@@ -91,3 +97,9 @@ S3: Aspose.OCR för .NET stöder populära bildformat som PNG, JPEG och BMP.
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.OCR för .NET?
 
  S5: Ja, du kan utforska funktionerna i Aspose.OCR för .NET genom att skaffa en[gratis testlicens](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

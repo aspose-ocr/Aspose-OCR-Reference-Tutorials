@@ -3,10 +3,16 @@ title: 在 OCR 图像识别中对图像执行 OCR
 linktitle: 在 OCR 图像识别中对图像执行 OCR
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 解锁 OCR 魔力，轻松从图像中提取文本。探索无缝集成教程。
-type: docs
 weight: 14
 url: /zh/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 图像识别中对图像执行 OCR
+
 ## 介绍
 
 在当今技术驱动的世界中，光学字符识别 (OCR) 在从图像中提取有价值的信息方面发挥着关键作用。 Aspose.OCR for .NET 为开发人员提供了强大的工具集，将 OCR 功能无缝集成到他们的应用程序中。本分步指南将引导您完成使用 Aspose.OCR for .NET 对图像执行 OCR 的过程，将图像转换为可搜索和可编辑的文本。
@@ -98,3 +104,9 @@ A2：是的，您可以获得 Aspose.OCR 的临时许可证，以在测试阶段
 ### Q5：我可以在购买前免费试用 Aspose.OCR for .NET 吗？
 
  A5：当然，您可以通过[免费试用](https://releases.aspose.com/)Aspose.OCR for .NET。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR Detect Areas Mode v OCR Image Recognition
 linktitle: OCR Detect Areas Mode v OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
-type: docs
 weight: 13
 url: /cs/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Detect Areas Mode v OCR Image Recognition
+
 ## Úvod
 
 V rychle se rozvíjejícím světě informačních technologií hraje optické rozpoznávání znaků (OCR) klíčovou roli při transformaci obrázků na upravitelný a prohledávatelný text. Aspose.OCR for .NET umožňuje vývojářům bez námahy integrovat robustní funkce OCR do svých aplikací. V tomto tutoriálu se ponoříme do režimu OCR Detect Areas Mode, což je výkonná funkce, která zlepšuje rozpoznávání obrazu.
@@ -91,3 +97,9 @@ Odpověď 3: Aspose.OCR for .NET podporuje oblíbené formáty obrázků, jako j
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.OCR pro .NET?
 
  A5: Ano, můžete prozkoumat možnosti Aspose.OCR pro .NET získáním a[zkušební licence zdarma](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

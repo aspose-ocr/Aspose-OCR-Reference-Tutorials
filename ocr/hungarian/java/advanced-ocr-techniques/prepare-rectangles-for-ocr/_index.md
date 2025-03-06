@@ -3,10 +3,16 @@ title: Téglalapok előkészítése OCR-hez az Aspose.OCR-ben
 linktitle: Téglalapok előkészítése OCR-hez az Aspose.OCR-ben
 second_title: Aspose.OCR Java API
 description: Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Bővítse Java-alkalmazásait hatékony OCR-képességekkel.
-type: docs
 weight: 13
 url: /hu/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalapok előkészítése OCR-hez az Aspose.OCR-ben
+
 ## Bevezetés
 
 A technológia felgyorsult világában a szövegek képekből való kinyerése döntő feladattá vált, amely számtalan lehetőség előtt nyit ajtót. Az Aspose.OCR for Java hatékony eszköz, amely leegyszerűsíti az optikai karakterfelismerés (OCR) bonyolult folyamatát. Ebben az átfogó útmutatóban végigvezetjük az Aspose.OCR for Java-ban rejlő lehetőségek kiaknázásának alapvető lépésein, amely lehetővé teszi a szövegfelismerés zökkenőmentes integrálását Java-alkalmazásaiba.
@@ -112,3 +118,9 @@ A2: Igen, megteheti. Meglátogatni a[vásárlási oldal](https://purchase.aspose
 ### 5. kérdés: Segítségre van szüksége, vagy kérdései vannak?
 
  5. válasz: Látogassa meg az Aspose.OCR közösséget[fórum](https://forum.aspose.com/c/ocr/16) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Filtros de preprocesamiento para imágenes en reconocimiento de imágenes
 linktitle: Filtros de preprocesamiento para imágenes en reconocimiento de imágenes OCR
 second_title: API Aspose.OCR .NET
 description: Explore Aspose.OCR para .NET. Aumente la precisión del OCR con filtros de preprocesamiento. Descárguelo ahora para una integración perfecta.
-type: docs
 weight: 12
 url: /es/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filtros de preprocesamiento para imágenes en reconocimiento de imágenes OCR
+
 ## Introducción
 
 Libere todo el potencial del reconocimiento óptico de caracteres (OCR) en sus aplicaciones .NET con Aspose.OCR. Esta poderosa biblioteca permite a los desarrolladores integrar perfectamente la funcionalidad OCR, convirtiendo imágenes en texto editable. En esta guía paso a paso, profundizaremos en los filtros de preprocesamiento para mejorar la imagen, garantizando resultados óptimos para el reconocimiento de imágenes OCR.
@@ -112,3 +118,9 @@ R4: Aspose.OCR admite una amplia gama de formatos de imagen, incluidos PNG, JPEG
 ### P5: ¿Puedo integrar Aspose.OCR en mi proyecto .NET existente?
 
 R5: ¡Por supuesto! Siga los pasos descritos en el tutorial e integrará perfectamente Aspose.OCR en su proyecto .NET para el reconocimiento de imágenes OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

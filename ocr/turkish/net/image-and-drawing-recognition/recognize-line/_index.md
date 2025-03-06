@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Çizgiyi Tanıma
 linktitle: OCR Görüntü Tanıma'da Çizgiyi Tanıma
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'in OCR görüntü tanımadaki çizgileri tanıma potansiyelini ortaya çıkarın. Resimlerden kusursuz metin çıkarma konusunda geliştirici kılavuzu.
-type: docs
 weight: 14
 url: /tr/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Çizgiyi Tanıma
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, optik karakter tanıma (OCR), görüntüleri sorunsuz bir şekilde düzenlenebilir ve aranabilir metne dönüştüren çok önemli bir araç haline geldi. Aspose.OCR for .NET, geliştiricilere güçlü özellikler sunarak bu alanda öncü olarak ortaya çıkıyor. Bu kapsamlı kılavuzda, OCR görüntü tanımadaki çizgileri tanımak için Aspose.OCR for .NET'i kullanmanın inceliklerini inceleyeceğiz.
@@ -98,3 +104,9 @@ Cevap4: Evet, Aspose.OCR'nin özelliklerini değerlendirmek için geçici lisans
 ### S5: Aspose.OCR for .NET'in sistem gereksinimleri nelerdir?
 
  A5: Bkz.[dokümantasyon](https://reference.aspose.com/ocr/net/) kapsamlı sistem gereksinimleri için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

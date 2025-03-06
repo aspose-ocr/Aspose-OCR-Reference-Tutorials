@@ -3,10 +3,16 @@ title: Geef genegeerde tekens op in OCR-beeldherkenning
 linktitle: Geef genegeerde tekens op in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek geavanceerde OCR-mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaarsvriendelijk.
-type: docs
 weight: 14
 url: /nl/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef genegeerde tekens op in OCR-beeldherkenning
+
 ## Invoering
 
 In het steeds evoluerende landschap van digitale transformatie is Optical Character Recognition (OCR) naar voren gekomen als een cruciale technologie, die de kloof tussen fysieke en digitale inhoud overbrugt. Nu bedrijven hun activiteiten steeds meer digitaliseren, wordt de behoefte aan nauwkeurige, efficiënte en veelzijdige OCR-oplossingen van cruciaal belang. Aspose.OCR voor .NET onderscheidt zich als een robuuste OCR-bibliotheek, die geavanceerde mogelijkheden biedt aan ontwikkelaars die in de .NET-omgeving werken.
@@ -100,3 +106,9 @@ A4: Aspose.OCR ondersteunt een breed scala aan talen, waardoor het een veelzijdi
 ### V5: Kan ik een tijdelijke licentie kopen voor Aspose.OCR?
 
  A5: Ja, als u een tijdelijke licentie nodig heeft, kunt u deze verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

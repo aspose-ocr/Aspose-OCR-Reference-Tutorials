@@ -3,10 +3,16 @@ title: OCROОперация со списком в распознавании и
 linktitle: OCROОперация со списком в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте потенциал Aspose.OCR для .NET. Легко выполняйте распознавание изображений OCR с помощью списков. Повысьте производительность и извлечение данных в ваших приложениях.
-type: docs
 weight: 13
 url: /ru/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROОперация со списком в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по использованию возможностей Aspose.OCR для .NET для распознавания изображений OCR со списками. Оптическое распознавание символов (OCR) — это важнейшая технология, которая преобразует различные типы документов, например отсканированные бумажные документы, PDF-файлы или изображения, в данные, доступные для редактирования и поиска.
@@ -105,3 +111,10 @@ for (int i = 0; i < result.Length; i++)
 ### Вопрос 5. Что делать, если во время внедрения я столкнусь с проблемами или у меня возникнут конкретные вопросы?
 
  A5: Не стесняйтесь обращаться за помощью по[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) за оперативную поддержку сообщества и экспертов.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

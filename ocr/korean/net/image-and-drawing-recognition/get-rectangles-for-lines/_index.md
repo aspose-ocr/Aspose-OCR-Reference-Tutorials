@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 선의 직사각형 가져오기
 linktitle: OCR 이미지 인식에서 선의 직사각형 가져오기
 second_title: Aspose.OCR .NET API
 description: 정확한 OCR 이미지 인식의 핵심인 .NET용 Aspose.OCR을 살펴보세요. 텍스트 추출의 힘을 손쉽게 활용해 보세요.
-type: docs
 weight: 10
 url: /ko/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 선의 직사각형 가져오기
+
 ## 소개
 
 .NET 애플리케이션에서 광학 문자 인식(OCR)의 잠재력을 활용할 수 있는 강력한 도구인 .NET용 Aspose.OCR의 세계에 오신 것을 환영합니다. 당신이 노련한 개발자이든 호기심 많은 매니아이든 이 가이드는 Aspose.OCR을 사용하여 OCR 이미지 인식에서 선에 대한 직사각형을 얻는 과정을 안내합니다.
@@ -110,3 +116,9 @@ A2: Aspose.OCR은 높은 정확도를 위해 고급 알고리즘을 활용하므
 ### Q5: 도움이 필요하거나 구체적인 질문이 있습니까?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

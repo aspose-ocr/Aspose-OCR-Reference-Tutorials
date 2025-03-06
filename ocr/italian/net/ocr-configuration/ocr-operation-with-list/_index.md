@@ -3,10 +3,16 @@ title: Operazione OCR con elenco nel riconoscimento immagini OCR
 linktitle: Operazione OCR con elenco nel riconoscimento immagini OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscimento delle immagini OCR con gli elenchi. Aumenta la produttività e l'estrazione dei dati nelle tue applicazioni.
-type: docs
 weight: 13
 url: /it/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operazione OCR con elenco nel riconoscimento immagini OCR
+
 ## introduzione
 
 Benvenuti nel nostro tutorial approfondito su come sfruttare la potenza di Aspose.OCR per .NET per eseguire il riconoscimento delle immagini OCR con elenchi. Il riconoscimento ottico dei caratteri (OCR) è una tecnologia cruciale che converte diversi tipi di documenti, come documenti cartacei scansionati, PDF o immagini, in dati modificabili e ricercabili.
@@ -105,3 +111,10 @@ A2: Assolutamente. Aspose.OCR supporta un'ampia gamma di formati di immagine, ga
 ### Q5: Cosa succede se riscontro problemi o ho domande specifiche durante l'implementazione?
 
  A5: Sentiti libero di chiedere assistenza su[Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) per il tempestivo supporto da parte della comunità e degli esperti.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

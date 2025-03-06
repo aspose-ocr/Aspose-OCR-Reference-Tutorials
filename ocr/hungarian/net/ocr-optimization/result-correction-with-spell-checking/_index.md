@@ -3,10 +3,16 @@ title: Eredményjavítás helyesírás-ellenőrzéssel az OCR képfelismerésben
 linktitle: Eredményjavítás helyesírás-ellenőrzéssel az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Helyesírások javítása, szótárak testreszabása és hibamentes szövegfelismerés problémamentesen.
-type: docs
 weight: 13
 url: /hu/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eredményjavítás helyesírás-ellenőrzéssel az OCR képfelismerésben
+
 ## Bevezetés
 
 Az optikai karakterfelismerés (OCR) területén a pontos eredmények elérése kulcsfontosságú ahhoz, hogy értelmes információkat nyerjünk ki a képekből. Az egyik gyakori kihívás a hibásan írt szavak kezelése a felismerési folyamat során. Szerencsére az Aspose.OCR for .NET hatékony megoldást kínál az OCR-eredmények javítására a helyesírás-ellenőrzés révén.
@@ -136,3 +142,9 @@ A4: Abszolút! Az oktatóanyag bemutatja, hogyan lehet javítani a javítást a 
 ### 5. kérdés: Hol kérhetek támogatást az Aspose.OCR-hez?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségi támogatásért és útmutatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

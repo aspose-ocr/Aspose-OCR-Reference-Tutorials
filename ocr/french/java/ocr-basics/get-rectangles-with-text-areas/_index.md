@@ -3,10 +3,16 @@ title: Obtenir des rectangles avec des zones de texte dans Aspose.OCR
 linktitle: Obtenir des rectangles avec des zones de texte dans Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Libérez la puissance d’Aspose.OCR pour Java. Découvrez comment extraire du texte à partir d'images de manière transparente dans ce guide étape par étape. Téléchargez-le maintenant pour une reconnaissance de texte efficace.
-type: docs
 weight: 12
 url: /fr/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir des rectangles avec des zones de texte dans Aspose.OCR
+
 ## Introduction
 
 Souhaitez-vous intégrer de puissantes fonctionnalités de reconnaissance optique de caractères (OCR) dans votre application Java ? Aspose.OCR pour Java est votre solution incontournable pour une extraction de texte précise et efficace à partir d'images. Ce didacticiel vous guidera tout au long du processus d'obtention de rectangles avec des zones de texte à l'aide d'Aspose.OCR, vous aidant ainsi à exploiter tout le potentiel de cette bibliothèque Java OCR.
@@ -105,3 +111,10 @@ A1 : Oui, Aspose.OCR est compatible avec Java 11 et les versions ultérieures.
 ### Q5 : Aspose.OCR prend-il en charge le multithreading ?
 
 A5 : Oui, Aspose.OCR prend en charge le multithreading pour des performances améliorées dans les environnements simultanés.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

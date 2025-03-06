@@ -3,10 +3,16 @@ title: Kép felismerése a Streamből az OCR képfelismerésben
 linktitle: Kép felismerése a Streamből az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Oldja fel az OCR varázslatot az Aspose.OCR for .NET segítségével. Könnyedén kivonhatja a szöveget a képekből. Fedezze fel az oktatóanyagot a lépésről lépésre történő útmutatásért.
-type: docs
 weight: 12
 url: /hu/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép felismerése a Streamből az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az optikai karakterfelismerés (OCR) izgalmas birodalmában az Aspose.OCR for .NET használatával! Akár tapasztalt fejlesztő, akár csak az OCR világába merül, ez a lépésről lépésre végigvezeti Önt a streamekből származó képek könnyű felismerésén. Az Aspose.OCR for .NET egy robusztus eszköz, amely lehetővé teszi az OCR-funkciók zökkenőmentes integrációját a .NET-alkalmazásokba, így a szövegek kinyerése a képekből gyerekjáték.
@@ -105,3 +111,9 @@ Gratulálunk! Sikeresen kihasználta az Aspose.OCR for .NET erejét, hogy felism
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.OCR-t .NET-hez?
 
  5. válasz: Ha az Aspose.OCR-t az eszköztár állandó részévé szeretné tenni, látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

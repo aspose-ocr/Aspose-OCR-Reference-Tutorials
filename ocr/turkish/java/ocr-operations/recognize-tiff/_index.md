@@ -3,10 +3,16 @@ title: OCR Aspose.OCR for Java'daki TIFF Görüntülerini Tanıma
 linktitle: OCR Aspose.OCR for Java'daki TIFF Görüntülerini Tanıma
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR ile Java'da güçlü metin tanımanın kilidini açın. TIFF görüntülerindeki metni zahmetsizce tanıyın. Sorunsuz bir OCR deneyimi için hemen indirin.
-type: docs
 weight: 13
 url: /tr/java/ocr-operations/recognize-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Aspose.OCR for Java'daki TIFF Görüntülerini Tanıma
+
 ## giriiş
 
 Aspose.OCR for Java'yı kullanarak Optik Karakter Tanıma (OCR) ile ilgili nihai kılavuza hoş geldiniz! İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu eğitim size TIFF görüntülerindeki metni verimli bir şekilde tanıma sürecinde yol gösterecektir. Aspose.OCR for Java, doğru ve güvenilir metin tanıma yetenekleri sağlayan güçlü bir OCR kütüphanesidir.
@@ -126,3 +132,9 @@ Cevap4: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://rele
 ### S5: Aspose.OCR'da ek destek veya topluluk tartışmalarını nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

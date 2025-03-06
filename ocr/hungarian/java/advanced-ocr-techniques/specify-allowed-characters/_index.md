@@ -3,10 +3,16 @@ title: Engedélyezett karakterek megadása az Aspose.OCR-ben
 linktitle: Engedélyezett karakterek megadása az Aspose.OCR-ben
 second_title: Aspose.OCR Java API
 description: Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésenkénti útmutatónkat a hatékony integráció érdekében.
-type: docs
 weight: 15
 url: /hu/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Engedélyezett karakterek megadása az Aspose.OCR-ben
+
 ## Bevezetés
 
 technológia folyamatosan fejlődő világában az Optical Character Recognition (OCR) kulcsfontosságú elemévé vált azon vállalkozások és fejlesztők számára, akik értelmes információkat kívánnak kinyerni a képekből. Az Aspose.OCR for Java hatékony eszközként tűnik ki, zökkenőmentes integrációt és hatékony szövegfelismerési képességeket kínál. Ez az átfogó útmutató végigvezeti az Aspose.OCR for Java-ban rejlő lehetőségek kiaknázásának folyamatán, biztosítva a zökkenőmentes utat a telepítéstől a gyakorlati megvalósításig.
@@ -105,3 +111,9 @@ V:4 Az Aspose.OCR folyamatosan frissül, hogy biztosítsa a kompatibilitást a l
 ### 5. kérdés: Vannak további OCR-szolgáltatások az Aspose.OCR-ben?
 
 5. válasz: Fedezze fel a dokumentációban elérhető átfogó szolgáltatásokat és opciókat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

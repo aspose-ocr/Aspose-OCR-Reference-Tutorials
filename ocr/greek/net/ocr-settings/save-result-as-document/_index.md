@@ -3,10 +3,16 @@ title: Αποθήκευση αποτελέσματος ως έγγραφο στ�
 linktitle: Αποθήκευση αποτελέσματος ως έγγραφο στο OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Αναγνωρίστε εύκολα κείμενο σε εικόνες και αποθηκεύστε αποτελέσματα σε διάφορες μορφές εγγράφων.
-type: docs
 weight: 10
 url: /el/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση αποτελέσματος ως έγγραφο στο OCR Image Recognition
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο της οπτικής αναγνώρισης χαρακτήρων (OCR) με το Aspose.OCR για .NET! Σε αυτό το περιεκτικό σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της χρήσης του Aspose.OCR για την αναγνώριση κειμένου σε εικόνες και για να δείξουμε πώς να αποθηκεύσετε τα αποτελέσματα σε διάφορες μορφές εγγράφων.
@@ -99,3 +105,9 @@ A1: Ναι, το Aspose.OCR υποστηρίζει ένα ευρύ φάσμα μ
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα;
 
  A5: Εγγραφείτε στην κοινότητα Aspose.OCR στο[Aspose Forum](https://forum.aspose.com/c/ocr/16) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

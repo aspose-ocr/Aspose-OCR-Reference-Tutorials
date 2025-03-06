@@ -3,10 +3,16 @@ title: OCR-bewerking met lijst in OCR-beeldherkenning
 linktitle: OCR-bewerking met lijst in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer moeiteloos OCR-beeldherkenning uit met lijsten. Verhoog de productiviteit en gegevensextractie in uw applicaties.
-type: docs
 weight: 13
 url: /nl/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-bewerking met lijst in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom bij onze uitgebreide tutorial over het benutten van de kracht van Aspose.OCR voor .NET om OCR-beeldherkenning met lijsten uit te voeren. Optical Character Recognition (OCR) is een cruciale technologie die verschillende soorten documenten, zoals gescande papieren documenten, PDF's of afbeeldingen, omzet in bewerkbare en doorzoekbare gegevens.
@@ -105,3 +111,10 @@ A2: Absoluut. Aspose.OCR ondersteunt een breed scala aan afbeeldingsformaten, wa
 ### Vraag 5: Wat moet ik doen als ik problemen tegenkom of specifieke vragen heb tijdens de implementatie?
 
  A5: Voel je vrij om hulp te zoeken op de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor snelle ondersteuning van de gemeenschap en experts.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

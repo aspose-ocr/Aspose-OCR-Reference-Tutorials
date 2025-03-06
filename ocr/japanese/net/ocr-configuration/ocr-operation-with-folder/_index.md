@@ -3,10 +3,16 @@ title: OCR画像認識におけるフォルダーのOCRO操作
 linktitle: OCR画像認識におけるフォルダーのOCRO操作
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR を使用して、.NET での OCR 画像認識の能力を解放します。画像からテキストを簡単に抽出します。
-type: docs
 weight: 11
 url: /ja/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識におけるフォルダーのOCRO操作
+
 ## 導入
 
 Aspose.OCR for .NET を使用した光学式文字認識 (OCR) の世界へようこそ! .NET アプリケーション内で画像からテキストをシームレスに抽出したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.OCR の強力な機能を活用して、フォルダーを使用した OCR 画像認識のプロセスを説明します。
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### Q5: サポートが必要ですか? 質問がありますか?
 
  A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

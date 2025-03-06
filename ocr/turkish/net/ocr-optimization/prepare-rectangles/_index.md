@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
 linktitle: OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
 second_title: Aspose.OCR .NET API'si
 description: Kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Görüntü tanıma için dikdörtgenlerin nasıl hazırlanacağını adım adım öğrenin. Sorunsuz OCR entegrasyonuyla .NET uygulamalarınızı yükseltin.
-type: docs
 weight: 11
 url: /tr/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), görüntüleri makine tarafından okunabilir metne dönüştürmede çok önemli bir rol oynamaktadır. Aspose.OCR for .NET, OCR yeteneklerinin .NET uygulamalarına kusursuz entegrasyonunu arayan geliştiriciler için güçlü bir çözüm olarak öne çıkıyor. Bu kapsamlı kılavuzda Aspose.OCR for .NET kullanarak OCR görüntü tanımada dikdörtgen hazırlama sürecini inceleyeceğiz.
@@ -120,3 +126,9 @@ Cevap1: Evet, Aspose.OCR for .NET çeşitli .NET çerçeveleriyle uyumludur.
 ### S5: Aspose.OCR for .NET belgelerini nerede bulabilirim?
 
  A5: Belgeler mevcut[Burada](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

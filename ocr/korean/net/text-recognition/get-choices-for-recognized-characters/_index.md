@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 인식된 문자에 대한 선택 가져오기
 linktitle: OCR 이미지 인식에서 인식된 문자에 대한 선택 가져오기
 second_title: Aspose.OCR .NET API
 description: 정확한 문자 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 강화하세요. 이미지 인식에서 인식된 문자에 대한 선택 항목을 검색하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 인식된 문자에 대한 선택 가져오기
+
 ## 소개
 
 OCR(광학 문자 인식)의 성능을 활용하는 것은 오늘날의 디지털 시대에 매우 중요하며 .NET용 Aspose.OCR은 정확한 문자 인식을 위한 강력한 솔루션으로 돋보입니다. 이 튜토리얼에서는 인식된 문자에 대한 선택 항목 가져오기라는 특정 기능을 자세히 살펴보겠습니다. 이 가이드가 끝나면 이 기능을 .NET 애플리케이션에 원활하게 통합하게 됩니다.
@@ -112,3 +118,9 @@ A2: 예, .NET용 Aspose.OCR을 웹 애플리케이션에 통합하여 다양한 
 ### Q5: .NET용 Aspose.OCR에 대한 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/) .NET용 Aspose.OCR의 기능을 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

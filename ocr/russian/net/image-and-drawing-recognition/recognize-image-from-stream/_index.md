@@ -3,10 +3,16 @@ title: Распознать изображение из потока в расп
 linktitle: Распознать изображение из потока в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Разблокируйте магию OCR с помощью Aspose.OCR для .NET. Легко извлекайте текст из изображений. Изучите руководство, чтобы получить пошаговые инструкции.
-type: docs
 weight: 12
 url: /ru/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознать изображение из потока в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в захватывающую область оптического распознавания символов (OCR) с использованием Aspose.OCR для .NET! Независимо от того, являетесь ли вы опытным разработчиком или просто погружаетесь в мир оптического распознавания символов, это пошаговое руководство поможет вам легко распознавать изображения из потоков. Aspose.OCR for .NET — это надежный инструмент, который обеспечивает плавную интеграцию функций OCR в ваши .NET-приложения, упрощая извлечение текста из изображений.
@@ -105,3 +111,9 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 ### Вопрос 5: Где я могу приобрести Aspose.OCR для .NET?
 
  О5: Чтобы сделать Aspose.OCR постоянной частью вашего набора инструментов, посетите[страница покупки](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

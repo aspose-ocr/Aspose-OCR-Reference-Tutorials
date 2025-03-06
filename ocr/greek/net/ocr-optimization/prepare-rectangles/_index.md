@@ -3,10 +3,16 @@ title: Προετοιμάστε ορθογώνια στο OCR Image Recognition
 linktitle: Προετοιμάστε ορθογώνια στο OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας. Μάθετε βήμα προς βήμα πώς να προετοιμάζετε ορθογώνια για αναγνώριση εικόνας. Αναβαθμίστε τις εφαρμογές σας .NET με απρόσκοπτη ενσωμάτωση OCR.
-type: docs
 weight: 11
 url: /el/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προετοιμάστε ορθογώνια στο OCR Image Recognition
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο της τεχνολογίας, η οπτική αναγνώριση χαρακτήρων (OCR) παίζει καθοριστικό ρόλο στη μετατροπή των εικόνων σε κείμενο αναγνώσιμο από μηχανή. Το Aspose.OCR για .NET ξεχωρίζει ως μια ισχυρή λύση για προγραμματιστές που αναζητούν απρόσκοπτη ενσωμάτωση των δυνατοτήτων OCR στις εφαρμογές τους .NET. Σε αυτόν τον περιεκτικό οδηγό, θα εξερευνήσουμε τη διαδικασία προετοιμασίας ορθογωνίων στην αναγνώριση εικόνας OCR χρησιμοποιώντας το Aspose.OCR για .NET.
@@ -120,3 +126,9 @@ A1: Ναι, το Aspose.OCR για .NET είναι συμβατό με διάφ�
 ### Ε5: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.OCR για .NET;
 
  A5: Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

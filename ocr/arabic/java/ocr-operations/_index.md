@@ -3,10 +3,16 @@ title: عمليات التعرف الضوئي على الحروف
 linktitle: عمليات التعرف الضوئي على الحروف
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لإمكانات Aspose.OCR لـ Java من خلال دروسنا الشاملة للتعرف الضوئي على الحروف. تعرف على وضع مناطق الكشف واختيار اللغة وPDF والتعرف على TIFF في بضع خطوات فقط!
-type: docs
 weight: 21
 url: /ar/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عمليات التعرف الضوئي على الحروف
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة استخراج النص لديك؟ يوفر لك Aspose.OCR for Java عالمًا من الإمكانيات بفضل إمكانات التعرف الضوئي على الحروف القوية. في هذا الدليل، سنرشدك خلال عمليات التعرف الضوئي على الحروف الأساسية، ونوفر لك رؤى حول كل وضع للحصول على تجربة سلسة.
@@ -53,3 +59,9 @@ url: /ar/java/ocr-operations/
 أطلق العنان لقوة التعرف الضوئي على الحروف في Java باستخدام Aspose.OCR. التعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بدقة وسرعة.
 ### [التعرف الضوئي على الحروف (OCR) يتعرف على صور TIFF في Aspose.OCR لـ Java](./recognize-tiff/)
 أطلق العنان للتعرف على النص القوي في Java باستخدام Aspose.OCR. التعرف بسهولة على النص في صور TIFF. قم بالتنزيل الآن للحصول على تجربة OCR سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

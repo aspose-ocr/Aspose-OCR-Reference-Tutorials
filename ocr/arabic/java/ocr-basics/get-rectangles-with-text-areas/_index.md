@@ -3,10 +3,16 @@ title: الحصول على مستطيلات ذات مناطق نصية في Aspo
 linktitle: الحصول على مستطيلات ذات مناطق نصية في Aspose.OCR
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لقوة Aspose.OCR لـ Java. تعرف على كيفية استخراج النص من الصور بسلاسة في هذا الدليل التفصيلي خطوة بخطوة. قم بالتنزيل الآن للتعرف على النص بكفاءة.
-type: docs
 weight: 12
 url: /ar/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على مستطيلات ذات مناطق نصية في Aspose.OCR
+
 ## مقدمة
 
 هل تتطلع إلى دمج إمكانات التعرف البصري على الأحرف (OCR) القوية في تطبيق Java الخاص بك؟ Aspose.OCR for Java هو الحل الأمثل لاستخراج النص بشكل دقيق وفعال من الصور. سيرشدك هذا البرنامج التعليمي خلال عملية الحصول على مستطيلات ذات مناطق نصية باستخدام Aspose.OCR، مما يساعدك على الاستفادة من الإمكانات الكاملة لمكتبة Java OCR هذه.
@@ -105,3 +111,10 @@ for (Rectangle r : rectResult) {
 ### س5: هل يدعم Aspose.OCR تعدد العمليات؟
 
 ج5: نعم، يدعم Aspose.OCR تعدد العمليات لتحسين الأداء في البيئات المتزامنة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

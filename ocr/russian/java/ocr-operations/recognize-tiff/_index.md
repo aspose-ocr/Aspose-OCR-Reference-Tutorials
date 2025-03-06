@@ -3,10 +3,16 @@ title: Распознавание изображений TIFF в Aspose.OCR дл
 linktitle: Распознавание изображений TIFF в Aspose.OCR для Java
 second_title: API Aspose.OCR Java
 description: Откройте для себя мощное распознавание текста на Java с помощью Aspose.OCR. Легко распознавайте текст в изображениях TIFF. Загрузите сейчас и получите беспроблемное распознавание текста.
-type: docs
 weight: 13
 url: /ru/java/ocr-operations/recognize-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распознавание изображений TIFF в Aspose.OCR для Java
+
 ## Введение
 
 Добро пожаловать в полное руководство по оптическому распознаванию символов (OCR) с использованием Aspose.OCR для Java! Независимо от того, являетесь ли вы опытным разработчиком или любопытным новичком, это руководство проведет вас через процесс эффективного распознавания текста в изображениях TIFF. Aspose.OCR для Java — это мощная библиотека OCR, обеспечивающая точные и надежные возможности распознавания текста.
@@ -126,3 +132,9 @@ static void printResult(RecognitionResult result) {
 ### Вопрос 5: Где я могу найти дополнительную поддержку или обсуждения сообщества по Aspose.OCR?
 
  A5: Посетите[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

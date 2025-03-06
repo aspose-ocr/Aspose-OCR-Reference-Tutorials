@@ -3,10 +3,16 @@ title: Obtenha retângulos para linhas no reconhecimento de imagem OCR
 linktitle: Obtenha retângulos para linhas no reconhecimento de imagem OCR
 second_title: API Aspose.OCR .NET
 description: Explore Aspose.OCR for .NET, sua chave para o reconhecimento preciso de imagens OCR. Liberte o poder da extração de texto sem esforço.
-type: docs
 weight: 10
 url: /pt/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha retângulos para linhas no reconhecimento de imagem OCR
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.OCR for .NET, uma ferramenta poderosa que permite aproveitar o potencial do reconhecimento óptico de caracteres (OCR) em seus aplicativos .NET. Quer você seja um desenvolvedor experiente ou um entusiasta curioso, este guia irá orientá-lo no processo de obtenção de retângulos para linhas no reconhecimento de imagem OCR usando Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR aproveita algoritmos avançados para alta precisão, tornando-o a
 ### P5: Precisa de ajuda ou tem dúvidas específicas?
 
  A5: Visite o[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

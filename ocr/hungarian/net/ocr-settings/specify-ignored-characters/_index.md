@@ -3,10 +3,16 @@ title: Adja meg a figyelmen kívül hagyott karaktereket az OCR képfelismerésb
 linktitle: Adja meg a figyelmen kívül hagyott karaktereket az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel a fejlett OCR-képességeket az Aspose.OCR for .NET segítségével. Hatékony, pontos és fejlesztőbarát.
-type: docs
 weight: 14
 url: /hu/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg a figyelmen kívül hagyott karaktereket az OCR képfelismerésben
+
 ## Bevezetés
 
 digitális átalakulás folyamatosan fejlődő vidékén az Optical Character Recognition (OCR) kulcsfontosságú technológiaként jelent meg, amely áthidalja a szakadékot a fizikai és a digitális tartalom között. Ahogy a vállalkozások egyre inkább digitalizálják működésüket, a pontos, hatékony és sokoldalú OCR-megoldások iránti igény válik kiemelkedővé. Az Aspose.OCR for .NET robusztus OCR-könyvtárként tűnik ki, amely fejlett képességeket kínál a .NET-környezetben dolgozó fejlesztőknek.
@@ -100,3 +106,9 @@ Console.WriteLine(result.RecognitionText);
 ### 5. kérdés: Vásárolhatok ideiglenes licencet az Aspose.OCR számára?
 
  5. válasz: Igen, ha ideiglenes engedélyre van szüksége, beszerezheti[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 OCR 影像辨識中取得已辨識字元的選擇
 linktitle: 在 OCR 影像辨識中取得已辨識字元的選擇
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
-type: docs
 weight: 10
 url: /zh-hant/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 影像辨識中取得已辨識字元的選擇
+
 ## 介紹
 
 在當今的數位時代，釋放光學字元辨識 (OCR) 的力量至關重要，而 Aspose.OCR for .NET 是準確字元辨識的強大解決方案。在本教程中，我們將深入研究一個特定功能：取得已識別字元的選擇。在本指南結束時，您將將此功能無縫整合到您的 .NET 應用程式中。
@@ -112,3 +118,9 @@ A2：是的，您可以將 Aspose.OCR for .NET 整合到 Web 應用程式中，�
 ### Q5：Aspose.OCR for .NET 有免費試用版嗎？
 
  A5：是的，您可以免費試用[這裡](https://releases.aspose.com/)體驗 Aspose.OCR for .NET 的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

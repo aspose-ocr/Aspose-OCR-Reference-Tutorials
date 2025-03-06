@@ -3,10 +3,16 @@ title: OCR-detectiegebiedenmodus in OCR-beeldherkenning
 linktitle: OCR-detectiegebiedenmodus in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenning. Ontdek de OCR-modus voor detectiegebieden voor nauwkeurige resultaten.
-type: docs
 weight: 13
 url: /nl/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-detectiegebiedenmodus in OCR-beeldherkenning
+
 ## Invoering
 
 In de snel veranderende wereld van de informatietechnologie speelt Optical Character Recognition (OCR) een cruciale rol bij het omzetten van afbeeldingen in bewerkbare en doorzoekbare tekst. Aspose.OCR voor .NET stelt ontwikkelaars in staat om moeiteloos robuuste OCR-functionaliteit in hun applicaties te integreren. In deze tutorial gaan we dieper in op de OCR Detect Areas-modus, een krachtige functie die de beeldherkenning verbetert.
@@ -91,3 +97,9 @@ A3: Aspose.OCR voor .NET ondersteunt populaire afbeeldingsformaten zoals PNG, JP
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.OCR voor .NET?
 
  A5: Ja, u kunt de mogelijkheden van Aspose.OCR voor .NET verkennen door een[gratis proeflicentie](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

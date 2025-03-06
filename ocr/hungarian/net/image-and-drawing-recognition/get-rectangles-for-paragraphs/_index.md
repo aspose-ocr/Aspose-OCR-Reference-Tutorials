@@ -3,10 +3,16 @@ title: Szerezzen be téglalapokat a bekezdésekhez az OCR képfelismerésben
 linktitle: Szerezzen be téglalapokat a bekezdésekhez az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel a fejlett OCR-képességeket az Aspose.OCR for .NET segítségével. Könnyedén kivonhatja a bekezdés téglalapjait.
-type: docs
 weight: 11
 url: /hu/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen be téglalapokat a bekezdésekhez az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük átfogó útmutatónkban az Aspose.OCR for .NET kihasználásáról a bekezdés-téglalapok OCR képfelismerésben történő kinyeréséhez. Ha fejleszteni szeretné dokumentumfeldolgozási képességeit, és ki szeretné használni az optikai karakterfelismerés (OCR) erejét .NET-alkalmazásaiban, akkor jó helyen jár.
@@ -101,3 +107,9 @@ A2: Abszolút! Az Aspose.OCR megkönnyíti a kötegelt feldolgozást több kép 
 ### 5. kérdés: Hol találhatok további támogatást és megbeszéléseket az Aspose.OCR-rel kapcsolatban?
 
  A5: Menjen át a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

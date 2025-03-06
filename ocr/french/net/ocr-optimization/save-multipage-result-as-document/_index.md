@@ -3,10 +3,16 @@ title: Enregistrer le résultat multipage en tant que document dans la reconnais
 linktitle: Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR
 second_title: API Aspose.OCR .NET
 description: Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
-type: docs
 weight: 14
 url: /fr/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR
+
 ## Introduction
 
 Bienvenue dans le monde fascinant de la reconnaissance optique de caractères (OCR) utilisant Aspose.OCR pour .NET ! Dans ce didacticiel, nous explorerons comment exploiter les capacités d'Aspose.OCR pour enregistrer les résultats OCR multipages sous forme de documents. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec l'OCR, ce guide vous guidera à travers chaque étape, vous assurant de tirer le meilleur parti de cet outil puissant.
@@ -104,3 +110,9 @@ A4 : Reportez-vous à la documentation pour connaître les meilleures pratiques
 ### Q5 : Aspose.OCR prend-il en charge des langues autres que l’anglais ?
 
 A5 : Oui, Aspose.OCR prend en charge plusieurs langues. Explorez la documentation pour plus de détails sur la prise en charge linguistique.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

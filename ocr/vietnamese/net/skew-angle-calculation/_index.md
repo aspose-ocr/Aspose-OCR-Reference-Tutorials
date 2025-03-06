@@ -3,10 +3,16 @@ title: Tính góc nghiêng
 linktitle: Tính góc nghiêng
 second_title: API Aspose.OCR .NET
 description: Mở khóa bí mật tính toán góc nghiêng chính xác trong nhận dạng hình ảnh OCR với Aspose.OCR cho .NET. Nâng cao độ chính xác và hiệu quả một cách dễ dàng trong các dự án của bạn.
-type: docs
 weight: 20
 url: /vi/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính góc nghiêng
+
 ## Giới thiệu
 
 Bạn có đang phấn đấu để có được khả năng nhận dạng văn bản hoàn hảo trong các ứng dụng C# của mình không? Đừng tìm đâu xa! Hướng dẫn tính toán góc nghiêng của chúng tôi, được cung cấp bởi Aspose.OCR cho .NET, sẽ hướng dẫn bạn thực hiện quy trình phức tạp một cách tinh tế.
@@ -34,3 +40,9 @@ Khám phá Aspose.OCR cho .NET, một giải pháp OCR mạnh mẽ để nhận 
 Giải phóng sức mạnh của Aspose.OCR cho .NET, một giải pháp mạnh mẽ để nhận dạng hình ảnh. Tìm hiểu cách tính góc nghiêng một cách dễ dàng.
 ### [Tính toán góc nghiêng từ URI trong nhận dạng hình ảnh OCR](./calculate-skew-angle-from-uri/)
 Khám phá Aspose.OCR cho .NET để dễ dàng tính toán các góc nghiêng trong nhận dạng hình ảnh OCR. Nâng cao dự án của bạn với độ chính xác và hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

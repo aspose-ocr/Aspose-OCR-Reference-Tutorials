@@ -3,10 +3,16 @@ title: Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
 linktitle: Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Mở khóa khả năng trích xuất văn bản chính xác từ hình ảnh bằng Aspose.OCR cho Java. Làm theo hướng dẫn từng bước của chúng tôi để có OCR chính xác với lựa chọn ngôn ngữ.
-type: docs
 weight: 11
 url: /vi/java/ocr-operations/perform-ocr-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc trích xuất thông tin có ý nghĩa từ hình ảnh. Aspose.OCR cho Java nổi bật là một công cụ mạnh mẽ cho phép các nhà phát triển tích hợp các khả năng OCR một cách liền mạch vào các ứng dụng Java của họ. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện OCR với lựa chọn ngôn ngữ bằng Aspose.OCR, mở khóa tiềm năng xử lý nội dung đa dạng một cách chính xác.
@@ -144,3 +150,9 @@ A4: Chắc chắn rồi. Sử dụng tính năng Khu vực nhận dạng để x
 ### Câu hỏi 5: Aspose.OCR có phù hợp cho cả dự án cá nhân và thương mại không?
 
 Câu trả lời 5: Có, Aspose.OCR cung cấp các tùy chọn cấp phép linh hoạt, giúp nó phù hợp cho cả mục đích sử dụng cá nhân và thương mại.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

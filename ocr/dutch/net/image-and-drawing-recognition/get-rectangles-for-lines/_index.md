@@ -3,10 +3,16 @@ title: Krijg rechthoeken voor lijnen in OCR-beeldherkenning
 linktitle: Krijg rechthoeken voor lijnen in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek Aspose.OCR voor .NET, uw sleutel tot nauwkeurige OCR-beeldherkenning. Ontketen moeiteloos de kracht van tekstextractie.
-type: docs
 weight: 10
 url: /nl/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Krijg rechthoeken voor lijnen in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de wereld van Aspose.OCR voor .NET, een krachtig hulpmiddel waarmee u het potentieel van Optical Character Recognition (OCR) in uw .NET-toepassingen kunt benutten. Of u nu een doorgewinterde ontwikkelaar of een nieuwsgierige liefhebber bent, deze gids leidt u door het proces van het verkrijgen van rechthoeken voor lijnen bij OCR-beeldherkenning met behulp van Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR maakt gebruik van geavanceerde algoritmen voor hoge nauwkeurighei
 ### Vraag 5: Heeft u hulp nodig of heeft u specifieke vragen?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

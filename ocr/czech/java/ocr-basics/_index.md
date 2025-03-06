@@ -3,10 +3,16 @@ title: Základy OCR
 linktitle: Základy OCR
 second_title: Aspose.OCR Java API
 description: Odemkněte potenciál Aspose.OCR v Javě! Podrobný průvodce nastavením licence a rozšířením možností OCR. Vypočítejte úhly zkosení a bezproblémově extrahujte text.
-type: docs
 weight: 20
 url: /cs/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Základy OCR
+
 ## Úvod
 
 Jste připraveni pozvednout svou OCR hru pomocí Aspose.OCR pro Javu? Tento komplexní průvodce vás provede základními výukovými programy a zajistí, že tento mocný nástroj využijete na maximum. Pojďme se ponořit!
@@ -35,3 +41,9 @@ Odemkněte potenciál Aspose.OCR pro Javu pomocí tohoto podrobného průvodce. 
 Vylepšete přesnost OCR pomocí Aspose.OCR pro Java. Naučte se vypočítat úhly zkosení krok za krokem. Zlepšete zpracování dokumentů bez námahy.
 ### [Získání obdélníků s textovými oblastmi v Aspose.OCR](./get-rectangles-with-text-areas/)
 Odemkněte sílu Aspose.OCR pro Javu. V tomto podrobném průvodci se dozvíte, jak bez problémů extrahovat text z obrázků. Stáhněte si nyní pro efektivní rozpoznávání textu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعرف على النص
 linktitle: التعرف على النص
 second_title: Aspose.OCR .NET API
 description: ارفع مستوى تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على الأحرف. اكتشف البرامج التعليمية للحصول على الاختيارات والنتائج وتنسيقات JSON في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
-type: docs
 weight: 21
 url: /ar/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على النص
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بتطبيقات .NET الخاصة بك إلى المستوى التالي؟ انغمس في عالم التعرف على النص باستخدام Aspose.OCR وعزز مشاريعك من خلال التعرف الدقيق على الأحرف ومعالجة الصور بسلاسة.
@@ -49,3 +55,9 @@ url: /ar/net/text-recognition/
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

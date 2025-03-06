@@ -3,10 +3,16 @@ title: OCROΛειτουργία με λίστα στην Αναγνώριση ε
 linktitle: OCROΛειτουργία με λίστα στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Εκτελέστε χωρίς κόπο αναγνώριση εικόνας OCR με λίστες. Ενισχύστε την παραγωγικότητα και την εξαγωγή δεδομένων στις εφαρμογές σας.
-type: docs
 weight: 13
 url: /el/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROΛειτουργία με λίστα στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στο σε βάθος σεμινάριο μας σχετικά με την αξιοποίηση της ισχύος του Aspose.OCR για .NET για την εκτέλεση αναγνώρισης εικόνων OCR με λίστες. Η Οπτική Αναγνώριση Χαρακτήρων (OCR) είναι μια κρίσιμη τεχνολογία που μετατρέπει διαφορετικούς τύπους εγγράφων —όπως σαρωμένα έγγραφα σε χαρτί, αρχεία PDF ή εικόνες— σε επεξεργάσιμα και αναζητήσιμα δεδομένα.
@@ -105,3 +111,10 @@ for (int i = 0; i < result.Length; i++)
 ### Ε5: Τι γίνεται αν αντιμετωπίσω προβλήματα ή έχω συγκεκριμένες ερωτήσεις κατά την υλοποίηση;
 
  A5: Μη διστάσετε να αναζητήσετε βοήθεια για το[Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) για άμεση υποστήριξη από την κοινότητα και τους ειδικούς.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

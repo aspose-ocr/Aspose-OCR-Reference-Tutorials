@@ -3,10 +3,16 @@ title: OCR 影像辨識中從流中辨識影像
 linktitle: OCR 影像辨識中從流中辨識影像
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 解鎖 OCR 魔力。輕鬆從圖像中提取文字。探索教程以獲取逐步指導。
-type: docs
 weight: 12
 url: /zh-hant/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中從流中辨識影像
+
 ## 介紹
 
 歡迎來到使用 Aspose.OCR for .NET 進行光學字元辨識 (OCR) 的令人興奮的領域！無論您是經驗豐富的開發人員還是剛進入 OCR 世界，本逐步指南都將引導您輕鬆識別流中的影像。 Aspose.OCR for .NET 是一款強大的工具，可以將 OCR 功能無縫整合到您的 .NET 應用程式中，使從圖像中提取文字變得輕而易舉。
@@ -105,3 +111,9 @@ A1：是的，Aspose.OCR 支援多種語言，使其能夠滿足不同的 OCR �
 ### Q5：哪裡可以購買 Aspose.OCR for .NET？
 
  A5：要使 Aspose.OCR 成為您工具包的永久組成部分，請訪問[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

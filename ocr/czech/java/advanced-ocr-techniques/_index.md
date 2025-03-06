@@ -3,10 +3,16 @@ title: Pokročilé techniky OCR
 linktitle: Pokročilé techniky OCR
 second_title: Aspose.OCR Java API
 description: Bez námahy provádějte OCR na obrázcích pomocí Aspose.OCR for Java. Extrahujte text bez problémů s vysokou přesností. Vylepšete své projekty Java pomocí všestranného rozpoznávání textu.
-type: docs
 weight: 22
 url: /cs/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pokročilé techniky OCR
+
 ## Úvod
 
 Jste připraveni posunout své Java projekty na další úroveň? Ponořte se do světa pokročilých technik OCR s Aspose.OCR pro Java. V tomto komplexním průvodci prozkoumáme různé výukové programy, které vám pomohou snadno extrahovat text z obrázků.
@@ -55,3 +61,9 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

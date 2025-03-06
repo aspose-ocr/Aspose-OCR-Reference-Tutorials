@@ -3,10 +3,16 @@ title: Filter Pra-pemrosesan untuk Gambar dalam Pengenalan Gambar OCR
 linktitle: Filter Pra-pemrosesan untuk Gambar dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter pra-pemrosesan. Unduh sekarang untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filter Pra-pemrosesan untuk Gambar dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Buka potensi penuh Pengenalan Karakter Optik (OCR) di aplikasi .NET Anda dengan Aspose.OCR. Pustaka canggih ini memungkinkan pengembang mengintegrasikan fungsionalitas OCR dengan lancar, mengubah gambar menjadi teks yang dapat diedit. Dalam panduan langkah demi langkah ini, kita akan mempelajari filter pra-pemrosesan untuk penyempurnaan gambar, memastikan hasil optimal untuk pengenalan gambar OCR.
@@ -112,3 +118,9 @@ A4: Aspose.OCR mendukung berbagai format gambar, termasuk PNG, JPEG, GIF, BMP, d
 ### Q5: Dapatkah saya mengintegrasikan Aspose.OCR ke dalam proyek .NET saya yang sudah ada?
 
 A5: Tentu saja! Ikuti langkah-langkah yang dijelaskan dalam tutorial, dan Anda akan mengintegrasikan Aspose.OCR dengan lancar ke dalam proyek .NET Anda untuk pengenalan gambar OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

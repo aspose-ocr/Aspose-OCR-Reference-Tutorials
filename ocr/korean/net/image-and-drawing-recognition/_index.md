@@ -3,10 +3,16 @@ title: 이미지 및 도면 인식
 linktitle: 이미지 및 도면 인식
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 사용하여 OCR 이미지 인식의 정확성을 높이세요. 줄, 단락, 전체 스트림 등 이미지에서 텍스트를 쉽게 추출할 수 있습니다.
-type: docs
 weight: 22
 url: /ko/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 및 도면 인식
+
 ## 소개
 
 OCR 이미지 인식 능력을 향상시킬 준비가 되셨나요? .NET용 Aspose.OCR은 이미지에서 텍스트 추출의 정확성을 높이는 열쇠입니다. 이 포괄적인 가이드에서는 .NET용 Aspose.OCR을 사용하여 이미지 및 그림 인식의 다양한 측면을 탐구하는 다양한 튜토리얼을 살펴보겠습니다. 원활한 텍스트 추출의 힘을 살펴보고 활용해 보겠습니다.
@@ -48,3 +54,9 @@ OCR 이미지 인식 능력을 향상시킬 준비가 되셨나요? .NET용 Aspo
 OCR 이미지 인식에서 라인 인식에 있어 .NET용 Aspose.OCR의 잠재력을 최대한 활용해 보세요. 이미지에서 원활한 텍스트 추출을 위한 개발자 가이드입니다.
 ### [OCR 이미지 인식에서 이미지에 대해 OCR 수행](./perform-ocr-on-image/)
 .NET용 Aspose.OCR을 사용하여 OCR 마법을 잠금 해제하세요. 이미지에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합을 위한 튜토리얼을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

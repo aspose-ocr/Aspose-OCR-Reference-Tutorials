@@ -3,10 +3,16 @@ title: وضع اكتشاف المناطق بتقنية التعرف الضوئي
 linktitle: وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
-type: docs
 weight: 13
 url: /ar/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 في عالم تكنولوجيا المعلومات سريع الخطى، يلعب التعرف الضوئي على الحروف (OCR) دورًا محوريًا في تحويل الصور إلى نص قابل للتحرير والبحث. يعمل Aspose.OCR for .NET على تمكين المطورين من دمج وظائف التعرف الضوئي على الحروف القوية في تطبيقاتهم دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في وضع مناطق اكتشاف OCR، وهي ميزة قوية تعمل على تحسين التعرف على الصور.
@@ -91,3 +97,9 @@ A2: يركز Aspose.OCR لـ .NET بشكل أساسي على التعرف على
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.OCR لـ .NET؟
 
  ج5: نعم، يمكنك استكشاف إمكانيات Aspose.OCR لـ .NET عن طريق الحصول على[رخصة تجريبية مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

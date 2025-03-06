@@ -3,10 +3,16 @@ title: OCR 影像辨識中的 OCROperation 與列表
 linktitle: OCR 影像辨識中的 OCROperation 與列表
 second_title: Aspose.OCR .NET API
 description: 釋放 Aspose.OCR for .NET 的潛能。使用清單輕鬆執行 OCR 影像辨識。提高應用程式的生產力和資料提取。
-type: docs
 weight: 13
 url: /zh-hant/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中的 OCROperation 與列表
+
 ## 介紹
 
 歡迎來到我們的深入教學課程，了解如何利用 Aspose.OCR for .NET 的強大功能透過清單執行 OCR 影像辨識。光學字元辨識 (OCR) 是一項關鍵技術，可將不同類型的文件（例如掃描的紙本文件、PDF 或影像）轉換為可編輯和可搜尋的資料。
@@ -105,3 +111,10 @@ A2：當然。 Aspose.OCR支援多種影像格式，確保處理不同文件的�
 ### Q5：如果我在實施過程中遇到問題或有具體疑問怎麼辦？
 
  A5：請隨時尋求協助[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區和專家的及時支持。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

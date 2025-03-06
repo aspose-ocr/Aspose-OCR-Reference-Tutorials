@@ -3,10 +3,16 @@ title: Imposta il conteggio dei thread nel riconoscimento delle immagini OCR
 linktitle: Imposta il conteggio dei thread nel riconoscimento delle immagini OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca l'efficienza dell'OCR in .NET. Imposta il conteggio dei thread senza sforzo con Aspose.OCR. Aumenta la precisione e la velocità.
-type: docs
 weight: 11
 url: /it/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta il conteggio dei thread nel riconoscimento delle immagini OCR
+
 ## introduzione
 
 Benvenuti nel mondo di Aspose.OCR per .NET, dove la tecnologia all'avanguardia di riconoscimento ottico dei caratteri (OCR) incontra una perfetta integrazione nelle vostre applicazioni .NET. In questo tutorial approfondiremo un aspetto specifico: l'impostazione del conteggio dei thread nel riconoscimento delle immagini OCR. Questa potente funzionalità ottimizza le prestazioni delle tue attività OCR, garantendo efficienza e precisione.
@@ -89,3 +95,9 @@ In conclusione, impostare il conteggio dei thread nel riconoscimento delle immag
 ### Q5: Hai bisogno di assistenza o vuoi connetterti con la community?
 
  A5: Visita il[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per il supporto e l'interazione con la comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lijnen herkennen in Aspose.OCR voor Java
 linktitle: Lijnen herkennen in Aspose.OCR voor Java
 second_title: Aspose.OCR Java-API
 description: Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
-type: docs
 weight: 14
 url: /nl/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lijnen herkennen in Aspose.OCR voor Java
+
 ## Invoering
 
 Wilt u uw Java-applicatie uitbreiden met krachtige Optical Character Recognition (OCR)-mogelijkheden? Zoek niet verder! Aspose.OCR voor Java is een geavanceerde OCR-bibliotheek waarmee u OCR-functionaliteit naadloos kunt integreren in uw Java-toepassingen. In deze zelfstudie concentreren we ons op het herkennen van lijnen in afbeeldingen met behulp van Aspose.OCR voor Java.
@@ -111,3 +117,9 @@ A4: Zeker! Aspose.OCR is ontworpen voor naadloze integratie in zowel desktop- al
 ### V5: Is er een proefversie beschikbaar voor Aspose.OCR?
 
  A5: Ja, u kunt de mogelijkheden van Aspose.OCR verkennen met een gratis proefperiode. Bezoek[hier](https://releases.aspose.com/) voor meer informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

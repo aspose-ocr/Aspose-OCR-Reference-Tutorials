@@ -3,10 +3,16 @@ title: Oprava výsledku s kontrolou pravopisu v rozpoznávání obrazu OCR
 linktitle: Oprava výsledku s kontrolou pravopisu v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Vylepšete přesnost OCR pomocí Aspose.OCR pro .NET. Opravte pravopis, přizpůsobte slovníky a dosáhněte bezproblémového rozpoznávání textu bez námahy.
-type: docs
 weight: 13
 url: /cs/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oprava výsledku s kontrolou pravopisu v rozpoznávání obrazu OCR
+
 ## Úvod
 
 oblasti optického rozpoznávání znaků (OCR) je dosažení přesných výsledků zásadní pro extrakci smysluplných informací z obrázků. Jedním z běžných problémů je řešení chybně napsaných slov v procesu rozpoznávání. Naštěstí Aspose.OCR for .NET poskytuje výkonné řešení pro vylepšení výsledků OCR pomocí kontroly pravopisu.
@@ -136,3 +142,9 @@ A4: Rozhodně! Výukový program ukazuje, jak zlepšit opravu pomocí slovníku 
 ### Q5: Kde mohu hledat podporu pro Aspose.OCR?
 
  A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu a vedení komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

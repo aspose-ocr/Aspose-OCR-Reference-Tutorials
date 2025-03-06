@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Metin Alanı Algılama Olmadan Görüntüyü Ta
 linktitle: OCR Görüntü Tanıma'da Metin Alanı Algılama Olmadan Görüntüyü Tanıma
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile metin tanımanın potansiyelini ortaya çıkarın. Resimlerdeki metni zahmetsizce tanıyın.
-type: docs
 weight: 13
 url: /tr/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Metin Alanı Algılama Olmadan Görüntüyü Tanıma
+
 ## giriiş
 
 Hızla gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görsellerin içindeki metni anlamasını sağlayan çok önemli bir araç haline geldi. Aspose.OCR for .NET, geliştiricilere OCR yeteneklerini .NET uygulamalarına entegre etmeleri için kusursuz bir yol sağlayan güçlü bir çözüm olarak öne çıkıyor. Bu eğitimde, Aspose.OCR for .NET ile net ve kısa adımlar kullanarak, metin alanı algılama olmadan bir görüntüdeki metni nasıl tanıyacağımızı keşfedeceğiz.
@@ -100,3 +106,9 @@ C2: Evet, Aspose.OCR for .NET çok yönlüdür ve hem masaüstü hem de web taba
 ### S5: Aspose.OCR için geçici lisanslar mevcut mu?
 
  Cevap5: Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

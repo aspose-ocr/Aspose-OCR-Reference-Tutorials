@@ -3,10 +3,16 @@ title: 指定 OCR 图像识别中允许的字符
 linktitle: 指定 OCR 图像识别中允许的字符
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 在 .NET 中解锁精确的 OCR。轻松识别图像中的文本。立即下载以获得变革性的开发体验。
-type: docs
 weight: 13
 url: /zh/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 指定 OCR 图像识别中允许的字符
+
 ## 介绍
 
 在不断发展的技术领域，光学字符识别 (OCR) 已成为一种变革性工具，使机器能够理解图像中的文本。 Aspose.OCR for .NET 是一款功能强大的解决方案，为在 .NET 应用程序中寻求强大 OCR 功能的开发人员提供无缝集成。
@@ -119,3 +125,9 @@ A4：是的，您可以通过下载来探索 Aspose.OCR 的功能[免费试用](
 ### 问题 5：我可以在哪里寻求帮助或联系社区以获得支持？
 
  A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)与社区互动并获得专家帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

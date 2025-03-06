@@ -3,10 +3,16 @@ title: Ottimizzazione dell'OCR
 linktitle: Ottimizzazione dell'OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca la potenza di Aspose.OCR per .NET con i nostri tutorial completi. Che tu sia uno sviluppatore esperto o un principiante, queste guide miglioreranno il tuo gioco OCR.
-type: docs
 weight: 25
 url: /it/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottimizzazione dell'OCR
+
 ## introduzione
 
 Massimizza la precisione dell'OCR con Aspose.OCR per tutorial .NET. Esegui l'OCR sulle immagini, prepara rettangoli, applica filtri di preelaborazione, correggi i risultati con il controllo ortografico e salva facilmente i risultati di più pagine.
@@ -44,3 +50,9 @@ Esplora Aspose.OCR per .NET. Aumenta la precisione dell'OCR con i filtri di pree
 Migliora la precisione dell'OCR con Aspose.OCR per .NET. Correggi l'ortografia, personalizza i dizionari e ottieni facilmente un riconoscimento del testo senza errori.
 ### [Salva risultato multipagina come documento nel riconoscimento immagine OCR](./save-multipage-result-as-document/)
 Sblocca il potenziale di Aspose.OCR per .NET. Salva facilmente i risultati OCR di più pagine come documenti con questa guida passo passo completa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

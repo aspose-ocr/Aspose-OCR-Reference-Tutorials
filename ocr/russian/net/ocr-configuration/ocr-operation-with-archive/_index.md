@@ -3,10 +3,16 @@ title: OCROОперация с архивом в распознавании из
 linktitle: OCROОперация с архивом в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте потенциал оптического распознавания символов в приложениях .NET с помощью Aspose.OCR. Научитесь шаг за шагом извлекать текст из архивных изображений.
-type: docs
 weight: 10
 url: /ru/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROОперация с архивом в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в мир оптического распознавания символов (OCR), который стал простым и эффективным с помощью Aspose.OCR для .NET. В этом подробном руководстве мы познакомим вас с процессом выполнения операций OCR над архивными изображениями с использованием библиотеки Aspose.OCR. Независимо от того, являетесь ли вы опытным разработчиком или любопытным новичком, это руководство даст вам знания, позволяющие использовать весь потенциал оптического распознавания символов в ваших .NET-приложениях.
@@ -119,3 +125,9 @@ for (int i = 0; i < result.Length; i++)
 ### Вопрос 5: Как часто обновляется Aspose.OCR для .NET?
 
  О5. Будьте в курсе последних функций и улучшений, проверяя[документация](https://reference.aspose.com/ocr/net/) регулярно.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

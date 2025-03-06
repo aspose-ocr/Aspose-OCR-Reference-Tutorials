@@ -3,10 +3,16 @@ title: Chỉ định các ký tự được phép trong nhận dạng hình ản
 linktitle: Chỉ định các ký tự được phép trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa OCR chính xác trong .NET bằng Aspose.OCR. Nhận dạng văn bản từ hình ảnh một cách dễ dàng. Tải xuống ngay để có trải nghiệm phát triển mang tính thay đổi.
-type: docs
 weight: 13
 url: /vi/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định các ký tự được phép trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đã nổi lên như một công cụ biến đổi, cho phép máy móc hiểu được văn bản từ hình ảnh. Aspose.OCR cho .NET nổi bật như một giải pháp mạnh mẽ, cung cấp khả năng tích hợp liền mạch cho các nhà phát triển đang tìm kiếm khả năng OCR mạnh mẽ trong các ứng dụng .NET của họ.
@@ -119,3 +125,9 @@ Câu trả lời 2: Có, Aspose.OCR hỗ trợ nhận dạng bằng nhiều ngô
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng để được hỗ trợ ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để tham gia với cộng đồng và nhận được sự trợ giúp của chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Αποκτήστε ορθογώνια για γραμμές στην Αν
 linktitle: Αποκτήστε ορθογώνια για γραμμές στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Εξερευνήστε το Aspose.OCR για .NET το κλειδί σας για ακριβή αναγνώριση εικόνας OCR. Απελευθερώστε τη δύναμη της εξαγωγής κειμένου χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποκτήστε ορθογώνια για γραμμές στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο του Aspose.OCR για .NET, ένα ισχυρό εργαλείο που σας επιτρέπει να αξιοποιήσετε τις δυνατότητες της Οπτικής Αναγνώρισης Χαρακτήρων (OCR) στις εφαρμογές σας .NET. Είτε είστε έμπειρος προγραμματιστής είτε είστε περίεργοι λάτρεις, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία λήψης ορθογωνίων για γραμμές στην αναγνώριση εικόνας OCR χρησιμοποιώντας το Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Το Aspose.OCR αξιοποιεί προηγμένους αλγόριθμο
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε συγκεκριμένες ερωτήσεις;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

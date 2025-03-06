@@ -3,10 +3,16 @@ title: Adja meg az engedélyezett karaktereket az OCR képfelismerésben
 linktitle: Adja meg az engedélyezett karaktereket az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Oldja fel a precíz OCR-t a .NET-ben az Aspose.OCR segítségével. Könnyedén felismerheti a szöveget a képekről. Töltse le most az átalakuló fejlesztési élményért.
-type: docs
 weight: 13
 url: /hu/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg az engedélyezett karaktereket az OCR képfelismerésben
+
 ## Bevezetés
 
 technológia folyamatosan fejlődő világában az Optical Character Recognition (OCR) átalakuló eszközként jelent meg, amely lehetővé teszi a gépek számára, hogy szöveget képekből megértsenek. Az Aspose.OCR for .NET hatékony megoldásként tűnik ki, és zökkenőmentes integrációt biztosít azon fejlesztők számára, akik robusztus OCR-képességeket keresnek .NET-alkalmazásaikban.
@@ -119,3 +125,9 @@ A1: Abszolút! Az Aspose.OCR for .NET minden készségszintű fejlesztőt kíná
 ### 5. kérdés: Hol kérhetek segítséget, vagy csatlakozhatok a közösséghez támogatásért?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) kapcsolatba lépni a közösséggel és szakértői segítséget kérni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCROperation with List in OCR Image Recognition
 linktitle: OCROperation with List in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
-type: docs
 weight: 13
 url: /net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROperation with List in OCR Image Recognition
+
 ## Introduction
 
 Welcome to our in-depth tutorial on leveraging the power of Aspose.OCR for .NET to perform OCR image recognition with lists. Optical Character Recognition (OCR) is a crucial technology that converts different types of documents—such as scanned paper documents, PDFs, or images—into editable and searchable data.
@@ -106,3 +112,10 @@ A4: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for comp
 
 A5: Feel free to seek assistance on the [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) for prompt support from the community and experts.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

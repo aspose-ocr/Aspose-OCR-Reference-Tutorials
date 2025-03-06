@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn và ví dụ toàn diện về Aspose.OCR cho Java
 linktitle: Aspose.OCR cho các hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Khai phá sức mạnh của Aspose.OCR cho Java! Tìm hiểu các khái niệm cơ bản, hoạt động và kỹ thuật nâng cao của OCR. Thiết lập giấy phép của bạn, phát hiện các khu vực và nâng cao khả năng nhận dạng văn bản một cách dễ dàng.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn và ví dụ toàn diện về Aspose.OCR cho Java
+
 
 ## Giới thiệu
 
@@ -32,3 +37,9 @@ Khai phá tiềm năng của Aspose.OCR trong Java! Hướng dẫn từng bướ
 Khai phá tiềm năng của Aspose.OCR cho Java bằng các hướng dẫn OCR toàn diện của chúng tôi. Tìm hiểu Chế độ phát hiện khu vực, lựa chọn ngôn ngữ, nhận dạng PDF và TIFF chỉ trong vài bước!
 ### [Kỹ thuật OCR nâng cao](./advanced-ocr-techniques/)
 Dễ dàng thực hiện OCR trên hình ảnh bằng Aspose.OCR cho Java. Trích xuất văn bản liền mạch với độ chính xác cao. Nâng cao các dự án Java của bạn bằng tính năng nhận dạng văn bản linh hoạt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

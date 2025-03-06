@@ -3,10 +3,16 @@ title: OCR 구성
 linktitle: OCR 구성
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR을 사용하여 .NET 애플리케이션을 손쉽게 향상하세요. 아카이브, 폴더, 언어 선택 및 목록 작업을 포함한 OCR 구성 튜토리얼을 살펴보세요.
-type: docs
 weight: 24
 url: /ko/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 구성
+
 ## 소개
 
 Aspose.OCR을 사용하여 .NET 애플리케이션에서 광학 문자 인식(OCR)의 잠재력을 최대한 활용하는 여정을 시작하세요. 숙련된 개발자이든 OCR을 처음 접하는 사람이든 이 튜토리얼은 다양한 OCR 작업을 안내하여 텍스트 추출 기능을 쉽게 활용할 수 있도록 해줍니다.
@@ -33,3 +39,9 @@ Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하�
 .NET용 Aspose.OCR로 강력한 OCR 기능을 잠금 해제하세요. 이미지에서 텍스트를 원활하게 추출합니다.
 ### [OCR 이미지 인식에서 목록을 사용한 OCOperation](./ocr-operation-with-list/)
 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 목록을 사용하여 OCR 이미지 인식을 손쉽게 수행하세요. 애플리케이션의 생산성과 데이터 추출을 향상하십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

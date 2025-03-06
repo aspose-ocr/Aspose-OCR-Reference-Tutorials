@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.OCR voor Java
 linktitle: Aspose.OCR voor Java-zelfstudies
-type: docs
 weight: 10
 url: /nl/java/
 description: Ontgrendel de kracht van Aspose.OCR voor Java! Leer de basisprincipes, bewerkingen en geavanceerde technieken van OCR. Stel moeiteloos uw licentie in, detecteer gebieden en verbeter tekstherkenning.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.OCR voor Java
+
 
 ## Invoering
 
@@ -32,3 +37,9 @@ Ontgrendel het potentieel van Aspose.OCR in Java! Stapsgewijze handleiding om uw
 Ontgrendel het potentieel van Aspose.OCR voor Java met onze uitgebreide OCR-tutorials. Leer de detectiegebiedmodus, taalselectie, PDF- en TIFF-herkenning in slechts een paar stappen!
 ### [Geavanceerde OCR-technieken](./advanced-ocr-techniques/)
 Voer moeiteloos OCR uit op afbeeldingen met Aspose.OCR voor Java. Extraheer tekst naadloos met hoge nauwkeurigheid. Verbeter uw Java-projecten met veelzijdige tekstherkenning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

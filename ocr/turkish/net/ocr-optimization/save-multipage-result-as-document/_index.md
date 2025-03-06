@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
 linktitle: OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Bu kapsamlı, adım adım kılavuzla çok sayfalı OCR sonuçlarını zahmetsizce belge olarak kaydedin.
-type: docs
 weight: 14
 url: /tr/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
+
 ## giriiş
 
 Aspose.OCR for .NET kullanarak optik karakter tanımanın (OCR) büyüleyici dünyasına hoş geldiniz! Bu eğitimde, çok sayfalı OCR sonuçlarını belge olarak kaydetmek için Aspose.OCR'ın özelliklerinden nasıl yararlanacağımızı keşfedeceğiz. İster deneyimli bir geliştirici olun ister OCR'a yeni başlıyor olun, bu kılavuz size her adımda yol gösterecek ve bu güçlü araçtan en iyi şekilde yararlanmanızı sağlayacaktır.
@@ -104,3 +110,9 @@ Cevap 4: Hata gidermeye yönelik en iyi uygulamalar için belgelere bakın veya 
 ### S5: Aspose.OCR İngilizce dışındaki dilleri destekliyor mu?
 
 Cevap5: Evet, Aspose.OCR birden fazla dili destekler. Dil desteği ayrıntıları için belgeleri inceleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

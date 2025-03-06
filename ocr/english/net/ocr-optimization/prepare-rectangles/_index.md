@@ -3,10 +3,16 @@ title: Prepare Rectangles in OCR Image Recognition
 linktitle: Prepare Rectangles in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn step-by-step how to prepare rectangles for image recognition. Elevate your .NET applications with seamless OCR integration.
-type: docs
 weight: 11
 url: /net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prepare Rectangles in OCR Image Recognition
+
 ## Introduction
 
 In the ever-evolving landscape of technology, Optical Character Recognition (OCR) plays a pivotal role in transforming images into machine-readable text. Aspose.OCR for .NET stands out as a robust solution for developers seeking seamless integration of OCR capabilities into their .NET applications. In this comprehensive guide, we will explore the process of preparing rectangles in OCR image recognition using Aspose.OCR for .NET.
@@ -120,3 +126,10 @@ A4: Yes, you can acquire a temporary license [here](https://purchase.aspose.com/
 ### Q5: Where can I find the documentation for Aspose.OCR for .NET?
 
 A5: The documentation is available [here](https://reference.aspose.com/ocr/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

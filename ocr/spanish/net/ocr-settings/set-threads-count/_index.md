@@ -3,10 +3,16 @@ title: Establecer el número de subprocesos en el reconocimiento de imágenes OC
 linktitle: Establecer el número de subprocesos en el reconocimiento de imágenes OCR
 second_title: API Aspose.OCR .NET
 description: Desbloquee la eficiencia del OCR en .NET. Establezca el número de hilos sin esfuerzo con Aspose.OCR. Aumente la precisión y la velocidad.
-type: docs
 weight: 11
 url: /es/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer el número de subprocesos en el reconocimiento de imágenes OCR
+
 ## Introducción
 
 Bienvenido al mundo de Aspose.OCR para .NET, donde la tecnología de reconocimiento óptico de caracteres (OCR) de vanguardia se integra perfectamente en sus aplicaciones .NET. En este tutorial, profundizaremos en un aspecto específico: configurar el recuento de subprocesos en el reconocimiento de imágenes OCR. Esta potente característica optimiza el rendimiento de sus tareas de OCR, garantizando eficiencia y precisión.
@@ -89,3 +95,9 @@ En conclusión, configurar el número de subprocesos en el reconocimiento de im�
 ### P5: ¿Necesita ayuda o desea conectarse con la comunidad?
 
  A5: Visita el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoyo e interacción comunitaria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

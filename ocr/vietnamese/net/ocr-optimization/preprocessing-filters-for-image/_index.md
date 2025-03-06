@@ -3,10 +3,16 @@ title: Bộ lọc tiền xử lý cho hình ảnh trong nhận dạng hình ản
 linktitle: Bộ lọc tiền xử lý cho hình ảnh trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá Aspose.OCR cho .NET. Tăng độ chính xác của OCR bằng các bộ lọc tiền xử lý. Tải xuống ngay để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bộ lọc tiền xử lý cho hình ảnh trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Khai thác toàn bộ tiềm năng của Nhận dạng ký tự quang học (OCR) trong các ứng dụng .NET của bạn với Aspose.OCR. Thư viện mạnh mẽ này cho phép các nhà phát triển tích hợp liền mạch chức năng OCR, chuyển đổi hình ảnh thành văn bản có thể chỉnh sửa. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào các bộ lọc tiền xử lý để nâng cao hình ảnh, đảm bảo kết quả tối ưu cho nhận dạng hình ảnh OCR.
@@ -112,3 +118,9 @@ Câu trả lời 4: Aspose.OCR hỗ trợ nhiều định dạng hình ảnh, ba
 ### Câu hỏi 5: Tôi có thể tích hợp Aspose.OCR vào dự án .NET hiện tại của mình không?
 
 A5: Chắc chắn rồi! Hãy làm theo các bước được nêu trong hướng dẫn và bạn sẽ tích hợp liền mạch Aspose.OCR vào dự án .NET của mình để nhận dạng hình ảnh OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

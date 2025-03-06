@@ -3,10 +3,16 @@ title: OCR-configuratie
 linktitle: OCR-configuratie
 second_title: Aspose.OCR .NET-API
 description: Verbeter uw .NET-applicaties moeiteloos met Aspose.OCR. Ontdek OCR-configuratietutorials, inclusief archief-, map-, taalselectie- en lijstbewerkingen.
-type: docs
 weight: 24
 url: /nl/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-configuratie
+
 ## Invoering
 
 Ga op reis om het volledige potentieel van Optical Character Recognition (OCR) in .NET-toepassingen te benutten met Aspose.OCR. Of u nu een doorgewinterde ontwikkelaar bent of een nieuwkomer op het gebied van OCR, deze tutorials leiden u door verschillende OCR-bewerkingen, zodat u moeiteloos de kracht van tekstextractie kunt ontsluiten.
@@ -33,3 +39,9 @@ Ontgrendel de kracht van OCR-beeldherkenning in .NET met Aspose.OCR. Extraheer t
 Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
 ### [OCR-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer moeiteloos OCR-beeldherkenning uit met lijsten. Verhoog de productiviteit en gegevensextractie in uw applicaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

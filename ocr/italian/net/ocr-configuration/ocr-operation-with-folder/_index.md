@@ -3,10 +3,16 @@ title: Operazione OCR con cartella in riconoscimento immagine OCR
 linktitle: Operazione OCR con cartella in riconoscimento immagine OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca la potenza del riconoscimento delle immagini OCR in .NET con Aspose.OCR. Estrai testo senza sforzo dalle immagini.
-type: docs
 weight: 11
 url: /it/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operazione OCR con cartella in riconoscimento immagine OCR
+
 ## introduzione
 
 Benvenuti nel mondo del riconoscimento ottico dei caratteri (OCR) utilizzando Aspose.OCR per .NET! Se stai cercando di estrarre testo dalle immagini senza problemi nelle tue applicazioni .NET, sei nel posto giusto. Questo tutorial ti guiderà attraverso il processo di riconoscimento delle immagini OCR con cartelle, sfruttando le potenti funzionalità di Aspose.OCR.
@@ -118,3 +124,9 @@ Congratulazioni! Hai imparato con successo come implementare il riconoscimento d
 ### Q5: Hai bisogno di supporto o hai domande?
 
  A5: Visita il[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per il sostegno della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

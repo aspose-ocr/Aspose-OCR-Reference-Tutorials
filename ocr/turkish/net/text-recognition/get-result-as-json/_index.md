@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Sonucu JSON Olarak Al
 linktitle: OCR Görüntü Tanıma'da Sonucu JSON Olarak Al
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'in gücünü açığa çıkarın. OCR sonuçlarını JSON formatında zahmetsizce almayı öğrenin. Bu adım adım kılavuzla görüntü tanıma yeteneğinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/net/text-recognition/get-result-as-json/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Sonucu JSON Olarak Al
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerden bilgi çıkarmasına ve yorumlamasına olanak tanıyan çok önemli bir araç olarak duruyor. Aspose.OCR for .NET, geliştiricilerin OCR yeteneklerini uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanır. Bu eğitim, Aspose.OCR for .NET'i kullanarak JSON formatında OCR sonuçlarını elde etme sürecinde size rehberlik edecektir.
@@ -93,3 +99,9 @@ Aspose.OCR for .NET, OCR özelliklerinin uygulamalarınıza entegrasyonunu kolay
 ### S5: Aspose.OCR for .NET lisansını satın alabilir miyim?
 
  A5: Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

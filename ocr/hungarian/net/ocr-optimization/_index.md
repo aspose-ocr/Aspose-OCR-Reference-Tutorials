@@ -3,10 +3,16 @@ title: OCR optimalizálás
 linktitle: OCR optimalizálás
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az Aspose.OCR for .NET erejét átfogó oktatóanyagainkkal. Akár tapasztalt fejlesztő, akár kezdő vagy, ezek az útmutatók feldobják az OCR-játékodat.
-type: docs
 weight: 25
 url: /hu/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR optimalizálás
+
 ## Bevezetés
 
 Maximalizálja az OCR pontosságát az Aspose.OCR for .NET oktatóanyaggal. Végezzen OCR-t a képeken, készítsen téglalapokat, alkalmazzon előfeldolgozó szűrőket, javítsa ki az eredményeket a helyesírás-ellenőrzéssel, és könnyedén mentse el a többoldalas eredményeket.
@@ -44,3 +50,9 @@ Fedezze fel az Aspose.OCR-t .NET-hez. Növelje az OCR pontosságát előfeldolgo
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Helyesírások javítása, szótárak testreszabása és hibamentes szövegfelismerés problémamentesen.
 ### [Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben](./save-multipage-result-as-document/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Ezzel az átfogó, lépésenkénti útmutatóval könnyedén mentheti a többoldalas OCR-eredményeket dokumentumként.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

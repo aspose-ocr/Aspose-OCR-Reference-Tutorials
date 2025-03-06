@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 무시된 문자 지정
 linktitle: OCR 이미지 인식에서 무시된 문자 지정
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR로 고급 OCR 기능을 살펴보세요. 효율적이고 정확하며 개발자 친화적입니다.
-type: docs
 weight: 14
 url: /ko/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 무시된 문자 지정
+
 ## 소개
 
 끊임없이 진화하는 디지털 혁신 환경에서 광학 문자 인식(OCR)은 물리적 콘텐츠와 디지털 콘텐츠 간의 격차를 해소하는 중추적인 기술로 부상했습니다. 기업이 점차 운영을 디지털화함에 따라 정확하고 효율적이며 다양한 OCR 솔루션의 필요성이 중요해지고 있습니다. .NET용 Aspose.OCR은 .NET 환경에서 작업하는 개발자에게 고급 기능을 제공하는 강력한 OCR 라이브러리로 돋보입니다.
@@ -100,3 +106,9 @@ A4: Aspose.OCR은 광범위한 언어를 지원하므로 OCR 작업에 다양한
 ### Q5: Aspose.OCR의 임시 라이선스를 구입할 수 있나요?
 
  A5: 예, 임시 라이센스가 필요하면 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 단기 사용을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

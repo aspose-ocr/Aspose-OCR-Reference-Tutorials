@@ -3,10 +3,16 @@ title: OCRoperation med mapp i OCR-bildigenkänning
 linktitle: OCRoperation med mapp i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp kraften med OCR-bildigenkänning i .NET med Aspose.OCR. Extrahera text enkelt från bilder.
-type: docs
 weight: 11
 url: /sv/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRoperation med mapp i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till världen av Optical Character Recognition (OCR) med Aspose.OCR för .NET! Om du vill extrahera text från bilder sömlöst i dina .NET-applikationer är du på rätt plats. Denna handledning guidar dig genom processen för OCR-bildigenkänning med mappar, och utnyttjar de kraftfulla funktionerna i Aspose.OCR.
@@ -118,3 +124,9 @@ Grattis! Du har framgångsrikt lärt dig hur du implementerar OCR-bildigenkänni
 ### F5: Behöver du support eller har frågor?
 
  A5: Besök[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) för samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

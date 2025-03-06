@@ -3,10 +3,16 @@ title: Utför OCR med läget Detektera områden i Aspose.OCR
 linktitle: Utför OCR med läget Detektera områden i Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Lås upp kraften i textextraktion från bilder med Aspose.OCR för Java. En omfattande handledning om OCR med läget Identifiera områden.
-type: docs
 weight: 10
 url: /sv/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utför OCR med läget Detektera områden i Aspose.OCR
+
 ## Introduktion
 
 I den ständigt föränderliga teknikvärlden spelar Optical Character Recognition (OCR) en avgörande roll för att extrahera värdefull information från bilder. Aspose.OCR för Java tillhandahåller en kraftfull lösning för OCR, som gör det möjligt för utvecklare att sömlöst utnyttja potentialen för textigenkänning. Den här handledningen guidar dig genom processen att utföra OCR med läget Detektera områden med Aspose.OCR för Java.
@@ -108,3 +114,9 @@ S4: Ja, som visas i denna handledning erbjuder Aspose.OCR korrigerad text med st
 ### F5: Finns det ett communityforum för Aspose.OCR-stöd?
 
  S5: Ja, du kan hitta stöd och engagera dig i samhället på[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

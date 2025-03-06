@@ -1,12 +1,17 @@
 ---
 title: Aspose.OCR for .NET 的综合教程和示例
 linktitle: Aspose.OCR for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 使用 Aspose.OCR for .NET 解锁 OCR 图像识别的精度。探索有关倾斜角度计算、文本识别、OCR 配置和优化的教程。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for .NET 的综合教程和示例
+
 
 ## 介绍
 
@@ -51,3 +56,9 @@ is_root: true
 使用 Aspose.OCR for .NET 教程最大限度地提高 OCR 准确性。对图像执行 OCR、准备矩形、应用预处理滤镜、通过拼写检查纠正结果，并轻松保存多页结果。
 ### [光学字符识别设置](./ocr-settings/)
 通过我们的 OCR 设置教程解锁 Aspose.OCR for .NET 的强大功能。了解如何提高图像中文本识别的准确性、速度和定制性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: छवि और ड्राइंग पहचान
 linktitle: छवि और ड्राइंग पहचान
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR के साथ OCR छवि पहचान की सटीकता को अनलॉक करें। छवियों से आसानी से टेक्स्ट निकालें, चाहे वह पंक्तियाँ, पैराग्राफ या संपूर्ण स्ट्रीम हों।
-type: docs
 weight: 22
 url: /hi/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि और ड्राइंग पहचान
+
 ## परिचय
 
 क्या आप अपने ओसीआर छवि पहचान गेम को उन्नत करने के लिए तैयार हैं? .NET के लिए Aspose.OCR छवियों से पाठ निष्कर्षण की सटीकता को अनलॉक करने की आपकी कुंजी है। इस व्यापक गाइड में, हम विभिन्न ट्यूटोरियल्स का पता लगाएंगे जो .NET के लिए Aspose.OCR का उपयोग करके छवि और ड्राइंग पहचान के विभिन्न पहलुओं पर प्रकाश डालते हैं। आइए इसमें गोता लगाएँ और निर्बाध पाठ निष्कर्षण की शक्ति को उजागर करें।
@@ -48,3 +54,9 @@ url: /hi/net/image-and-drawing-recognition/
 OCR छवि पहचान में लाइनों को पहचानने में .NET के लिए Aspose.OCR की क्षमता को उजागर करें। छवियों से निर्बाध पाठ निष्कर्षण के लिए एक डेवलपर की मार्गदर्शिका।
 ### [ओसीआर छवि पहचान में छवि पर ओसीआर निष्पादित करें](./perform-ocr-on-image/)
 .NET के लिए Aspose.OCR के साथ OCR जादू को अनलॉक करें, आसानी से छवियों से टेक्स्ट निकालें। निर्बाध एकीकरण के लिए ट्यूटोरियल का अन्वेषण करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR画像認識で線分の四角形を取得する
 linktitle: OCR画像認識で線分の四角形を取得する
 second_title: Aspose.OCR .NET API
 description: 正確な OCR 画像認識の鍵となる Aspose.OCR for .NET を調べてください。テキスト抽出の力を簡単に解放します。
-type: docs
 weight: 10
 url: /ja/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で線分の四角形を取得する
+
 ## 導入
 
 Aspose.OCR for .NET の世界へようこそ。これは、.NET アプリケーションで光学式文字認識 (OCR) の可能性を活用できる強力なツールです。経験豊富な開発者であっても、好奇心旺盛な愛好家であっても、このガイドでは、Aspose.OCR を使用して OCR 画像認識で線の四角形を取得するプロセスを説明します。
@@ -110,3 +116,9 @@ A2: Aspose.OCR は高度なアルゴリズムを活用して高精度を実現�
 ### Q5: サポートが必要ですか、それとも具体的な質問がありますか?
 
  A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

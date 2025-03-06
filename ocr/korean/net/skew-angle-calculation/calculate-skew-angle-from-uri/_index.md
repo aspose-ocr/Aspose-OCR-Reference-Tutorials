@@ -3,10 +3,16 @@ title: OCR 이미지 인식의 URI에서 기울기 각도 계산
 linktitle: OCR 이미지 인식의 URI에서 기울기 각도 계산
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 탐색하여 OCR 이미지 인식의 기울어짐 각도를 쉽게 계산하세요. 정확성과 효율성으로 프로젝트를 향상시키세요.
-type: docs
 weight: 12
 url: /ko/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식의 URI에서 기울기 각도 계산
+
 ## 소개
 
 .NET용 Aspose.OCR의 세계에 오신 것을 환영합니다! 이 포괄적인 튜토리얼에서는 OCR 이미지 인식에서 URI의 기울어짐 각도를 계산하기 위해 .NET용 Aspose.OCR을 활용하는 복잡한 과정을 자세히 살펴보겠습니다. 이 강력한 도구는 광학 문자 인식에 새로운 가능성을 열어 프로세스를 더욱 원활하고 효율적으로 만듭니다.
@@ -92,3 +98,9 @@ A4: 튜토리얼에 설명된 대로 필수 네임스페이스를 프로젝트�
 ### Q5: .NET용 Aspose.OCR에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
  A5: 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/ocr/net/) 자세한 정보를 보려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

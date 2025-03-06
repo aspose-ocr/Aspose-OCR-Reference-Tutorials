@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
 linktitle: OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazımları düzeltin, sözlükleri özelleştirin ve hatasız metin tanıma işlemini zahmetsizce gerçekleştirin.
-type: docs
 weight: 13
 url: /tr/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
+
 ## giriiş
 
 Optik Karakter Tanıma (OCR) alanında, görüntülerden anlamlı bilgiler çıkarmak için doğru sonuçlara ulaşmak çok önemlidir. Yaygın zorluklardan biri, tanıma sürecinde yanlış yazılan kelimelerle uğraşmaktır. Neyse ki Aspose.OCR for .NET, yazım denetimi yoluyla OCR sonuçlarını iyileştirmek için güçlü bir çözüm sunuyor.
@@ -136,3 +142,9 @@ Cevap4: Kesinlikle! Eğitimde, kullanıcı tarafından sağlanan bir sözlük ku
 ### S5: Aspose.OCR için nereden destek alabilirim?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve rehberlik için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

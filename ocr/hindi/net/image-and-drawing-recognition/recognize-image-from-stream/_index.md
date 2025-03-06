@@ -3,10 +3,16 @@ title: ओसीआर छवि पहचान में स्ट्रीम
 linktitle: ओसीआर छवि पहचान में स्ट्रीम से छवि को पहचानें
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR के साथ OCR मैजिक को अनलॉक करें। छवियों से आसानी से टेक्स्ट निकालें। चरण-दर-चरण मार्गदर्शन के लिए ट्यूटोरियल देखें।
-type: docs
 weight: 12
 url: /hi/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर छवि पहचान में स्ट्रीम से छवि को पहचानें
+
 ## परिचय
 
 .NET के लिए Aspose.OCR का उपयोग करके ऑप्टिकल कैरेक्टर रिकग्निशन (OCR) के रोमांचक क्षेत्र में आपका स्वागत है! चाहे आप एक अनुभवी डेवलपर हों या ओसीआर की दुनिया में गोता लगा रहे हों, यह चरण-दर-चरण मार्गदर्शिका आपको स्ट्रीम से छवियों को आसानी से पहचानने में मदद करेगी। .NET के लिए Aspose.OCR एक मजबूत उपकरण है जो आपके .NET अनुप्रयोगों में OCR कार्यक्षमता के निर्बाध एकीकरण को सक्षम बनाता है, जिससे छवियों से पाठ निकालना आसान हो जाता है।
@@ -105,3 +111,9 @@ A1: हां, Aspose.OCR भाषाओं की एक विस्तृत
 ### Q5: मैं .NET के लिए Aspose.OCR कहां से खरीद सकता हूं?
 
  A5: Aspose.OCR को अपने टूलकिट का स्थायी हिस्सा बनाने के लिए, पर जाएँ[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

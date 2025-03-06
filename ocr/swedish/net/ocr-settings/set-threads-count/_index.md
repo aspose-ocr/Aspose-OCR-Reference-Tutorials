@@ -3,10 +3,16 @@ title: Ställ in antal trådar i OCR-bildigenkänning
 linktitle: Ställ in antal trådar i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp OCR-effektivitet i .NET. Ställ in trådantalet utan ansträngning med Aspose.OCR. Öka noggrannheten och hastigheten.
-type: docs
 weight: 11
 url: /sv/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in antal trådar i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till Aspose.OCR-världen för .NET, där den senaste OCR-tekniken (Optical Character Recognition) möter sömlös integrering i dina .NET-applikationer. I den här handledningen kommer vi att fördjupa oss i en specifik aspekt: ställa in antalet trådar i OCR-bildigenkänning. Denna kraftfulla funktion optimerar prestandan för dina OCR-uppgifter, vilket säkerställer effektivitet och noggrannhet.
@@ -89,3 +95,9 @@ Sammanfattningsvis, att ställa in antalet trådar i OCR-bildigenkänning med As
 ### F5: Behöver du hjälp eller vill få kontakt med samhället?
 
  A5: Besök[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) för stöd och gemenskapsinteraktion.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προηγμένες τεχνικές OCR
 linktitle: Προηγμένες τεχνικές OCR
 second_title: Aspose.OCR Java API
 description: Εκτελέστε χωρίς κόπο OCR σε εικόνες χρησιμοποιώντας το Aspose.OCR για Java. Εξαγωγή κειμένου απρόσκοπτα με υψηλή ακρίβεια. Βελτιώστε τα έργα σας Java με ευέλικτη αναγνώριση κειμένου.
-type: docs
 weight: 22
 url: /el/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προηγμένες τεχνικές OCR
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να μεταφέρετε τα έργα σας Java στο επόμενο επίπεδο; Βουτήξτε στον κόσμο των προηγμένων τεχνικών OCR με το Aspose.OCR για Java. Σε αυτόν τον περιεκτικό οδηγό, θα εξερευνήσουμε διάφορα μαθήματα που θα σας βοηθήσουν να εξάγετε κείμενο από εικόνες χωρίς κόπο.
@@ -55,3 +61,9 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Εύκολη ενσωμάτωση, υψηλή ακρίβεια.
 ### [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

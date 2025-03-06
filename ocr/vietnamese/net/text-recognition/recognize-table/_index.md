@@ -3,10 +3,16 @@ title: Nhận dạng bảng trong nhận dạng hình ảnh OCR
 linktitle: Nhận dạng bảng trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
-type: docs
 weight: 15
 url: /vi/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng bảng trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới hấp dẫn của Aspose.OCR dành cho .NET! Nếu bạn đang tìm cách nâng cao các ứng dụng .NET của mình bằng khả năng OCR (Nhận dạng ký tự quang học) mạnh mẽ thì bạn đã đến đúng nơi. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình nhận dạng bảng trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET.
@@ -95,3 +101,9 @@ Tóm lại, Aspose.OCR cho .NET trao quyền cho các nhà phát triển tích h
 ### Câu hỏi 5: Aspose.OCR có bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá các tính năng trước khi mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

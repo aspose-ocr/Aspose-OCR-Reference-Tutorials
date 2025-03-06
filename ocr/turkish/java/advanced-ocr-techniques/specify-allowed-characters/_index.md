@@ -3,10 +3,16 @@ title: Aspose.OCR'da İzin Verilen Karakterleri Belirleme
 linktitle: Aspose.OCR'da İzin Verilen Karakterleri Belirleme
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 15
 url: /tr/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da İzin Verilen Karakterleri Belirleme
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında Optik Karakter Tanıma (OCR), görüntülerden anlamlı bilgiler elde etmek isteyen işletmeler ve geliştiriciler için çok önemli bir bileşen haline geldi. Aspose.OCR for Java, kusursuz entegrasyon ve verimli metin tanıma yetenekleri sunan güçlü bir araç olarak öne çıkıyor. Bu kapsamlı kılavuz, Aspose.OCR for Java'nın potansiyelinden yararlanma sürecinde size yol göstererek kurulumdan pratik uygulamaya kadar sorunsuz bir yolculuk sağlayacaktır.
@@ -105,3 +111,9 @@ C:4 Aspose.OCR, en son Java Geliştirme Kitleriyle uyumluluğun sağlanması iç
 ### S5: Aspose.OCR'da ek OCR özellikleri var mı?
 
 Cevap5: Belgelerde bulunan kapsamlı özellikleri ve seçenekleri keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

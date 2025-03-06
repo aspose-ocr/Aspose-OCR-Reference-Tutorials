@@ -3,10 +3,16 @@ title: Operação OCR com pasta no reconhecimento de imagem OCR
 linktitle: Operação OCR com pasta no reconhecimento de imagem OCR
 second_title: API Aspose.OCR .NET
 description: Desbloqueie o poder do reconhecimento de imagem OCR em .NET com Aspose.OCR. Extraia texto de imagens sem esforço.
-type: docs
 weight: 11
 url: /pt/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operação OCR com pasta no reconhecimento de imagem OCR
+
 ## Introdução
 
 Bem-vindo ao mundo do reconhecimento óptico de caracteres (OCR) usando Aspose.OCR para .NET! Se você deseja extrair texto de imagens perfeitamente em seus aplicativos .NET, você está no lugar certo. Este tutorial irá guiá-lo através do processo de reconhecimento de imagem OCR com pastas, aproveitando os poderosos recursos do Aspose.OCR.
@@ -118,3 +124,9 @@ Parabéns! Você aprendeu com sucesso como implementar o reconhecimento de image
 ### Q5: Precisa de suporte ou tem dúvidas?
 
  A5: Visite o[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoio comunitário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

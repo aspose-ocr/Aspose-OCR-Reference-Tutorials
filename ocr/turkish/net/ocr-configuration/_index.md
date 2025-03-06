@@ -3,10 +3,16 @@ title: OCR Yapılandırması
 linktitle: OCR Yapılandırması
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR ile .NET uygulamalarınızı zahmetsizce geliştirin. Arşiv, klasör, dil seçimi ve liste işlemlerini içeren OCR yapılandırma eğitimlerini keşfedin.
-type: docs
 weight: 24
 url: /tr/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Yapılandırması
+
 ## giriiş
 
 Aspose.OCR ile .NET uygulamalarında Optik Karakter Tanıma'nın (OCR) tüm potansiyelinden yararlanmak için bir yolculuğa çıkın. İster deneyimli bir geliştirici olun ister OCR'a yeni başlayan biri olun, bu eğitimler çeşitli OCR işlemleri boyunca size rehberlik edecek ve metin çıkarmanın gücünü zahmetsizce ortaya çıkarmanızı sağlayacaktır.
@@ -33,3 +39,9 @@ Aspose.OCR ile .NET'te OCR görüntü tanımanın gücünün kilidini açın. G�
 Aspose.OCR for .NET ile güçlü OCR özelliklerinin kilidini açın. Görüntülerden metni sorunsuz bir şekilde çıkarın.
 ### [OCR Görüntü Tanıma'da Liste ile OCR İşlemi](./ocr-operation-with-list/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımayı zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarmayı artırın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

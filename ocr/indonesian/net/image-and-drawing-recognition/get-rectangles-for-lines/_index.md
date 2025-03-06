@@ -3,10 +3,16 @@ title: Dapatkan Persegi Panjang untuk Garis dalam Pengenalan Gambar OCR
 linktitle: Dapatkan Persegi Panjang untuk Garis dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi Aspose.OCR untuk .NET kunci Anda untuk pengenalan gambar OCR yang tepat. Bebaskan kekuatan ekstraksi teks dengan mudah.
-type: docs
 weight: 10
 url: /id/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Persegi Panjang untuk Garis dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET, alat canggih yang memungkinkan Anda memanfaatkan potensi Pengenalan Karakter Optik (OCR) dalam aplikasi .NET Anda. Baik Anda seorang pengembang berpengalaman atau penggemar yang penasaran, panduan ini akan memandu Anda melalui proses mendapatkan persegi panjang untuk garis dalam pengenalan gambar OCR menggunakan Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR memanfaatkan algoritme canggih untuk akurasi tinggi, sehingga coc
 ### Q5: Butuh bantuan atau punya pertanyaan spesifik?
 
  A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

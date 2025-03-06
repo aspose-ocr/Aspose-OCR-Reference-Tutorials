@@ -3,10 +3,16 @@ title: Příprava obdélníků pro OCR v Aspose.OCR
 linktitle: Příprava obdélníků pro OCR v Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Vylepšete své aplikace Java o efektivní funkce OCR.
-type: docs
 weight: 13
 url: /cs/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Příprava obdélníků pro OCR v Aspose.OCR
+
 ## Úvod
 
 V rychle se měnícím světě technologií se extrahování textu z obrázků stalo zásadním úkolem, který otevírá dveře nesčetným možnostem. Aspose.OCR for Java vyniká jako výkonný nástroj, který zjednodušuje složitý proces optického rozpoznávání znaků (OCR). V tomto komplexním průvodci vás provedeme základními kroky k využití potenciálu Aspose.OCR pro Java, což vám umožní bezproblémově integrovat rozpoznávání textu do vašich aplikací Java.
@@ -112,3 +118,9 @@ A2: Ano, můžete. Navštivte[nákupní stránku](https://purchase.aspose.com/bu
 ### Q5: Potřebujete pomoc nebo máte otázky?
 
  A5: Navštivte komunitu Aspose.OCR[Fórum](https://forum.aspose.com/c/ocr/16) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

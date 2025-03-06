@@ -3,10 +3,16 @@ title: Aspose.OCR for Java での行の認識
 linktitle: Aspose.OCR for Java での行の認識
 second_title: Aspose.OCR Java API
 description: Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
-type: docs
 weight: 14
 url: /ja/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for Java での行の認識
+
 ## 導入
 
 強力な光学式文字認識 (OCR) 機能を使用して Java アプリケーションを強化したいと考えていますか?これ以上探さない！ Aspose.OCR for Java は、OCR 機能を Java アプリケーションにシームレスに統合できる最先端の OCR ライブラリです。このチュートリアルでは、Aspose.OCR for Java を使用して画像内の線を認識することに焦点を当てます。
@@ -111,3 +117,9 @@ A4：確かに！ Aspose.OCR は、デスクトップ アプリケーション�
 ### Q5: Aspose.OCR の試用版はありますか?
 
  A5: はい、無料トライアルで Aspose.OCR の機能を試すことができます。訪問[ここ](https://releases.aspose.com/)詳細については。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

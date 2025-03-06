@@ -3,10 +3,16 @@ title: Kenali Garis dalam Pengenalan Gambar OCR
 linktitle: Kenali Garis dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Melepaskan potensi Aspose.OCR untuk .NET dalam mengenali garis dalam pengenalan gambar OCR. Panduan pengembang untuk ekstraksi teks tanpa hambatan dari gambar.
-type: docs
 weight: 14
 url: /id/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kenali Garis dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, pengenalan karakter optik (OCR) telah menjadi alat penting yang secara mulus mengubah gambar menjadi teks yang dapat diedit dan dicari. Aspose.OCR untuk .NET muncul sebagai yang terdepan dalam domain ini, menawarkan kemampuan yang kuat bagi pengembang. Dalam panduan komprehensif ini, kami akan mempelajari seluk-beluk penggunaan Aspose.OCR untuk .NET guna mengenali garis dalam pengenalan gambar OCR.
@@ -98,3 +104,9 @@ A4: Ya, Anda dapat memperoleh lisensi sementara Aspose.OCR untuk mengevaluasi fi
 ### Q5: Apa saja persyaratan sistem Aspose.OCR untuk .NET?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/ocr/net/) untuk persyaratan sistem yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

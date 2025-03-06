@@ -3,10 +3,16 @@ title: Melakukan OCR pada Halaman Tertentu di Aspose.OCR
 linktitle: Melakukan OCR pada Halaman Tertentu di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kecanggihan Aspose.OCR untuk Java dengan panduan langkah demi langkah kami dalam melakukan OCR pada halaman tertentu. Ekstrak teks dengan mudah dari gambar dan tingkatkan proyek Java Anda.
-type: docs
 weight: 12
 url: /id/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melakukan OCR pada Halaman Tertentu di Aspose.OCR
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang cara melakukan Pengenalan Karakter Optik (OCR) pada halaman tertentu menggunakan Aspose.OCR untuk Java. Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan, mengimpor paket yang diperlukan, dan mengeksekusi kode untuk mengekstrak teks dari gambar dengan mudah.
@@ -92,3 +98,9 @@ A1: Ya, Aspose.OCR mendukung berbagai format gambar, memastikan fleksibilitas da
 ### Q5: Apakah Aspose.OCR menawarkan uji coba gratis?
 
  A5: Ya, jelajahi fitur-fiturnya dengan[versi percobaan gratis](https://releases.aspose.com/) sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

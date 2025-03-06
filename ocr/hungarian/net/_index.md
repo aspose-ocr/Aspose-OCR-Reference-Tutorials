@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.OCR-re .NET-hez
 linktitle: Aspose.OCR for .NET Tutorials
-type: docs
 weight: 10
 url: /hu/net/
 description: Az Aspose.OCR for .NET segítségével precíziós OCR képfelismerés érhető el. Fedezze fel az oktatóanyagokat a ferdeszög-számításról, a szövegfelismerésről, az OCR-konfigurációról és az optimalizálásról.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.OCR-re .NET-hez
+
 
 ## Bevezetés
 
@@ -51,3 +56,9 @@ Az Aspose.OCR segítségével feloldhatja az OCR-képességeket a .NET-alkalmaz�
 Maximalizálja az OCR pontosságát az Aspose.OCR for .NET oktatóanyaggal. Végezzen OCR-t a képeken, készítsen téglalapokat, alkalmazzon előfeldolgozó szűrőket, javítsa ki az eredményeket a helyesírás-ellenőrzéssel, és könnyedén mentse el a többoldalas eredményeket.
 ### [OCR beállítások](./ocr-settings/)
 Fedezze fel az Aspose.OCR for .NET erejét az OCR-beállítások oktatóanyagával. Ismerje meg, hogyan javíthatja a pontosságot, a sebességet és testreszabhatja a képek szövegfelismerését.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

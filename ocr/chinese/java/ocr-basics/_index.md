@@ -3,10 +3,16 @@ title: OCR 基础知识
 linktitle: OCR 基础知识
 second_title: Aspose.OCR Java API
 description: 释放 Aspose.OCR 在 Java 中的潜力！设置许可证和增强 OCR 功能的分步指南。计算倾斜角度并无缝提取文本。
-type: docs
 weight: 20
 url: /zh/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 基础知识
+
 ## 介绍
 
 您准备好使用 Aspose.OCR for Java 提升您的 OCR 游戏了吗？这份综合指南将引导您完成基本教程，确保您充分利用这个强大的工具。让我们深入了解吧！
@@ -35,3 +41,9 @@ url: /zh/java/ocr-basics/
 使用 Aspose.OCR for Java 提高 OCR 准确性。学习逐步计算倾斜角度。轻松改进文档处理。
 ### [在 Aspose.OCR 中获取带有文本区域的矩形](./get-rectangles-with-text-areas/)
 释放 Aspose.OCR for Java 的强大功能。在本分步指南中了解如何从图像中无缝提取文本。立即下载以进行高效的文本识别。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

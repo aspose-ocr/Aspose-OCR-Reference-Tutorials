@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
 linktitle: OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Verimli, doğru ve geliştirici dostu.
-type: docs
 weight: 14
 url: /tr/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
+
 ## giriiş
 
 Sürekli gelişen dijital dönüşüm ortamında, Optik Karakter Tanıma (OCR), fiziksel ve dijital içerik arasındaki boşluğu dolduran çok önemli bir teknoloji olarak ortaya çıktı. İşletmeler operasyonlarını giderek dijital hale getirdikçe doğru, verimli ve çok yönlü OCR çözümlerine olan ihtiyaç daha da önem kazanıyor. Aspose.OCR for .NET, .NET ortamında çalışan geliştiricilere gelişmiş özellikler sunan güçlü bir OCR kitaplığı olarak öne çıkıyor.
@@ -100,3 +106,9 @@ Cevap4: Aspose.OCR çok çeşitli dilleri destekler, bu da onu OCR görevleri i�
 ### S5: Aspose.OCR için geçici bir lisans satın alabilir miyim?
 
  Cevap5: Evet, geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

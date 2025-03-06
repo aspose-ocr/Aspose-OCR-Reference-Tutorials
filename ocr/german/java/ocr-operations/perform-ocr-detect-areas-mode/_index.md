@@ -3,10 +3,16 @@ title: Durchführen von OCR mit dem Modus „Bereiche erkennen“ in Aspose.OCR
 linktitle: Durchführen von OCR mit dem Modus „Bereiche erkennen“ in Aspose.OCR
 second_title: Aspose.OCR Java-API
 description: Nutzen Sie die Leistungsfähigkeit der Textextraktion aus Bildern mit Aspose.OCR für Java. Ein umfassendes Tutorial zur OCR mit dem Modus „Bereiche erkennen“.
-type: docs
 weight: 10
 url: /de/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Durchführen von OCR mit dem Modus „Bereiche erkennen“ in Aspose.OCR
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Welt der Technologie spielt die optische Zeichenerkennung (OCR) eine entscheidende Rolle bei der Extraktion wertvoller Informationen aus Bildern. Aspose.OCR für Java bietet eine leistungsstarke Lösung für OCR, die es Entwicklern ermöglicht, das Potenzial der Texterkennung nahtlos zu nutzen. Dieses Tutorial führt Sie durch den Prozess der Durchführung von OCR im Modus „Bereiche erkennen“ mit Aspose.OCR für Java.
@@ -108,3 +114,9 @@ A4: Ja, wie in diesem Tutorial gezeigt, bietet Aspose.OCR als Teil der OCR-Ergeb
 ### F5: Gibt es ein Community-Forum für Aspose.OCR-Unterstützung?
 
  A5: Ja, Sie können auf der Website Unterstützung finden und sich mit der Community austauschen[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

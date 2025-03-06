@@ -3,10 +3,16 @@ title: حفظ النتيجة كمستند في التعرف على الصور OC
 linktitle: حفظ النتيجة كمستند في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات Aspose.OCR لـ .NET. يمكنك التعرف بسهولة على النص الموجود في الصور وحفظ النتائج بتنسيقات المستندات المختلفة.
-type: docs
 weight: 10
 url: /ar/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حفظ النتيجة كمستند في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم التعرف البصري على الأحرف (OCR) المثير باستخدام Aspose.OCR لـ .NET! في هذا البرنامج التعليمي الشامل، سوف نتعمق في تعقيدات استخدام Aspose.OCR للتعرف على النص في الصور وإظهار كيفية حفظ النتائج بتنسيقات مستندات مختلفة.
@@ -99,3 +105,9 @@ Console.WriteLine("SaveResultAsDocument executed successfully");
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع المجتمع؟
 
  ج5: انضم إلى مجتمع Aspose.OCR على[منتدى أسبوز](https://forum.aspose.com/c/ocr/16) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

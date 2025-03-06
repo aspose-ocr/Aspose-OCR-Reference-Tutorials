@@ -3,10 +3,16 @@ title: Thực hiện OCR trên hình ảnh từ URL trong Aspose.OCR cho Java
 linktitle: Thực hiện OCR trên hình ảnh từ URL trong Aspose.OCR cho Java
 second_title: API Java Aspose.OCR
 description: Mở khóa tính năng trích xuất văn bản hình ảnh liền mạch trong Java bằng Aspose.OCR. OCR có độ chính xác cao với khả năng tích hợp dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR trên hình ảnh từ URL trong Aspose.OCR cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thực hiện Nhận dạng ký tự quang học (OCR) trên hình ảnh từ URL bằng Aspose.OCR cho Java. Hướng dẫn này được thiết kế để giúp bạn tích hợp liền mạch Aspose.OCR vào các ứng dụng Java của bạn, cho phép bạn trích xuất văn bản từ hình ảnh một cách dễ dàng. Aspose.OCR là thư viện OCR mạnh mẽ hỗ trợ nhiều định dạng hình ảnh khác nhau, khiến nó trở thành công cụ có giá trị cho các ứng dụng yêu cầu trích xuất văn bản.
@@ -125,3 +131,10 @@ Câu trả lời 3: Có, đảm bảo tuân thủ các điều khoản cấp ph�
 ### Câu hỏi 5: Có bản dùng thử miễn phí cho Aspose.OCR cho Java không?
 
  Câu trả lời 5: Có, hãy khám phá các tính năng của Aspose.OCR với bản dùng thử miễn phí tại[phát hành.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

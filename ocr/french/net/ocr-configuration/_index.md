@@ -3,10 +3,16 @@ title: Configuration de la ROC
 linktitle: Configuration de la ROC
 second_title: API Aspose.OCR .NET
 description: Améliorez sans effort vos applications .NET avec Aspose.OCR. Explorez les didacticiels de configuration OCR, y compris les opérations d'archivage, de dossier, de sélection de langue et de liste.
-type: docs
 weight: 24
 url: /fr/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuration de la ROC
+
 ## Introduction
 
 Embarquez pour un voyage pour exploiter tout le potentiel de la reconnaissance optique de caractères (OCR) dans les applications .NET avec Aspose.OCR. Que vous soyez un développeur chevronné ou un nouveau venu dans l'OCR, ces didacticiels vous guideront à travers diverses opérations OCR, vous garantissant ainsi de libérer la puissance de l'extraction de texte sans effort.
@@ -33,3 +39,9 @@ Libérez la puissance de la reconnaissance d’images OCR dans .NET avec Aspose.
 Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
 ### [OCROOpération avec liste dans la reconnaissance d'images OCR](./ocr-operation-with-list/)
 Libérez le potentiel d’Aspose.OCR pour .NET. Effectuez sans effort la reconnaissance d’images OCR avec des listes. Boostez la productivité et l’extraction de données dans vos applications.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

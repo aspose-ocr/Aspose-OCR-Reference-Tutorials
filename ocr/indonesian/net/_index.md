@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.OCR untuk .NET
 linktitle: Aspose.OCR untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Buka presisi dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Jelajahi tutorial tentang penghitungan sudut kemiringan, pengenalan teks, konfigurasi OCR, dan pengoptimalan.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.OCR untuk .NET
+
 
 ## Perkenalan
 
@@ -51,3 +56,9 @@ Buka kemampuan OCR di aplikasi .NET dengan Aspose.OCR. Jelajahi tutorial untuk a
 Maksimalkan akurasi OCR dengan Aspose.OCR untuk tutorial .NET. Lakukan OCR pada gambar, siapkan persegi panjang, terapkan filter prapemrosesan, koreksi hasil dengan pemeriksaan ejaan, dan simpan hasil multihalaman dengan mudah.
 ### [Pengaturan OCR](./ocr-settings/)
 Buka kekuatan Aspose.OCR untuk .NET dengan Tutorial Pengaturan OCR kami. Pelajari cara meningkatkan akurasi, kecepatan, dan penyesuaian untuk pengenalan teks dalam gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

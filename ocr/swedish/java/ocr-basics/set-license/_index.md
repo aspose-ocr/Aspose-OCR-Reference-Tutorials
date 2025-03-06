@@ -3,10 +3,16 @@ title: Hur man ställer in licens för Aspose.OCR i Java
 linktitle: Hur man ställer in licens för Aspose.OCR i Java
 second_title: Aspose.OCR Java API
 description: Lås upp potentialen hos Aspose.OCR för Java med denna steg-för-steg-guide. Konfigurera din licens utan ansträngning och förbättra dina OCR-funktioner.
-type: docs
 weight: 10
 url: /sv/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hur man ställer in licens för Aspose.OCR i Java
+
 ## Introduktion
 
 I det ständigt föränderliga tekniklandskapet har Optical Character Recognition (OCR) blivit ett centralt verktyg för att extrahera textinformation från bilder. Aspose.OCR för Java framstår som en robust OCR-lösning, som ger utvecklare möjlighet att sömlöst integrera OCR-funktioner i sina Java-applikationer. Den här steg-för-steg-guiden leder dig genom processen med att konfigurera Aspose.OCR-licensen i Java, vilket säkerställer att du utnyttjar den fulla potentialen i detta kraftfulla verktyg.
@@ -78,3 +84,9 @@ S4: Ja, Aspose.OCR kan användas för både personliga och kommersiella projekt,
 ### F5: Var kan jag hitta ytterligare stöd för Aspose.OCR för Java?
 
  A5: Besök[Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

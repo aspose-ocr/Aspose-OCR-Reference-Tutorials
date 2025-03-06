@@ -3,10 +3,16 @@ title: OCROoperace s Archivem v OCR rozpoznávání obrazu
 linktitle: OCROoperace s Archivem v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte potenciál OCR v aplikacích .NET s Aspose.OCR. Naučte se extrahovat text z archivních obrázků krok za krokem.
-type: docs
 weight: 10
 url: /cs/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROoperace s Archivem v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve světě optického rozpoznávání znaků (OCR), který je bezproblémový a efektivní s Aspose.OCR pro .NET. V tomto komplexním průvodci vás provedeme procesem provádění operací OCR na archivních snímcích pomocí knihovny Aspose.OCR. Ať už jste zkušený vývojář nebo zvědavý začátečník, tento tutoriál vás vybaví znalostmi, abyste mohli využít plný potenciál OCR ve vašich aplikacích .NET.
@@ -119,3 +125,9 @@ A4: Rozhodně! Aspose.OCR for .NET poskytuje flexibilitu v přizpůsobení nasta
 ### Q5: Jak často je Aspose.OCR pro .NET aktualizován?
 
  Odpověď 5: Sledujte nejnovější funkce a vylepšení[dokumentace](https://reference.aspose.com/ocr/net/) pravidelně.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

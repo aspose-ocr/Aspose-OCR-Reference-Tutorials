@@ -3,10 +3,16 @@ title: Ορίστε τον αριθμό νημάτων στην Αναγνώρι
 linktitle: Ορίστε τον αριθμό νημάτων στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε την αποτελεσματικότητα OCR στο .NET. Ρυθμίστε τον αριθμό νημάτων χωρίς κόπο με το Aspose.OCR. Ενισχύστε την ακρίβεια και την ταχύτητα.
-type: docs
 weight: 11
 url: /el/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε τον αριθμό νημάτων στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλωσορίσατε στον κόσμο του Aspose.OCR για .NET, όπου η τεχνολογία αιχμής Οπτικής Αναγνώρισης Χαρακτήρων (OCR) συναντά την απρόσκοπτη ενσωμάτωση στις εφαρμογές σας .NET. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε μια συγκεκριμένη πτυχή: ορίζοντας τον αριθμό νημάτων στην Αναγνώριση εικόνας OCR. Αυτή η ισχυρή λειτουργία βελτιστοποιεί την απόδοση των εργασιών OCR σας, διασφαλίζοντας αποτελεσματικότητα και ακρίβεια.
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### Ε5: Χρειάζεστε βοήθεια ή θέλετε να συνδεθείτε με την κοινότητα;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) για υποστήριξη και αλληλεπίδραση με την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR图像识别中的识别线
 linktitle: OCR图像识别中的识别线
 second_title: Aspose.OCR .NET API
 description: 释放 Aspose.OCR for .NET 在 OCR 图像识别中识别线条的潜力。从图像中无缝提取文本的开发人员指南。
-type: docs
 weight: 14
 url: /zh/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR图像识别中的识别线
+
 ## 介绍
 
 在不断发展的技术领域，光学字符识别 (OCR) 已成为一种关键工具，可将图像无缝转换为可编辑和可搜索的文本。 Aspose.OCR for .NET 成为该领域的领跑者，为开发人员提供了强大的功能。在本综合指南中，我们将深入探讨利用 Aspose.OCR for .NET 来识别 OCR 图像识别中的线条的复杂性。
@@ -98,3 +104,9 @@ A4：是的，您可以获得 Aspose.OCR 的临时许可证来评估其功能。
 ### Q5：Aspose.OCR for .NET 有哪些系统要求？
 
  A5：请参阅[文档](https://reference.aspose.com/ocr/net/)满足全面的系统要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

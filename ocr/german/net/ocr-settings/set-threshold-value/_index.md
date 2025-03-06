@@ -3,10 +3,16 @@ title: Legen Sie den Schwellenwert für die OCR-Bilderkennung fest
 linktitle: Legen Sie den Schwellenwert für die OCR-Bilderkennung fest
 second_title: Aspose.OCR .NET API
 description: Entdecken Sie Aspose.OCR für .NET, eine robuste OCR-Lösung. Legen Sie mühelos benutzerdefinierte Schwellenwerte fest. Verbessern Sie die Texterkennung in Ihren Anwendungen.
-type: docs
 weight: 12
 url: /de/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie den Schwellenwert für die OCR-Bilderkennung fest
+
 ## Einführung
 
 Willkommen in der aufregenden Welt von Aspose.OCR für .NET! In diesem Tutorial tauchen wir tief in die Funktionen von Aspose.OCR ein, einem leistungsstarken Tool, das die optische Zeichenerkennung in .NET-Anwendungen zum Kinderspiel macht. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, führt Sie dieser Leitfaden durch den Prozess der Festlegung des Schwellenwerts bei der OCR-Bilderkennung mit Aspose.OCR für .NET.
@@ -99,3 +105,9 @@ A1: Auf jeden Fall! Aspose.OCR für .NET ist vielseitig und lässt sich nahtlos 
 ### F5: Wie kann ich die Vollversion von Aspose.OCR für .NET erwerben?
 
  A5: Um alle Funktionen freizuschalten, besuchen Sie die Kaufseite[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

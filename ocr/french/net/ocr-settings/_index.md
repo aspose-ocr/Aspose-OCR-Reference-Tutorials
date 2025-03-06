@@ -3,10 +3,16 @@ title: Paramètres ROC
 linktitle: Paramètres ROC
 second_title: API Aspose.OCR .NET
 description: Libérez la puissance d'Aspose.OCR pour .NET avec nos didacticiels sur les paramètres OCR. Apprenez à améliorer la précision, la vitesse et la personnalisation de la reconnaissance de texte dans les images.
-type: docs
 weight: 26
 url: /fr/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Paramètres ROC
+
 
 ## Introduction
 
@@ -50,3 +56,9 @@ Débloquez un OCR précis dans .NET avec Aspose.OCR. Reconnaissez le texte des i
 Explorez les fonctionnalités OCR avancées avec Aspose.OCR pour .NET. Efficace, précis et convivial pour les développeurs.
 ### [Travailler avec différentes langues dans la reconnaissance d'images OCR](./working-with-different-languages/)
 Débloquez la magie de l'OCR multilingue avec Aspose.OCR pour .NET. Extrayez du texte sans effort dans différentes langues.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Uzyskaj prostokąty dla linii w rozpoznawaniu obrazu OCR
 linktitle: Uzyskaj prostokąty dla linii w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Poznaj Aspose.OCR dla .NET, Twój klucz do precyzyjnego rozpoznawania obrazów OCR. Uwolnij moc ekstrakcji tekstu bez wysiłku.
-type: docs
 weight: 10
 url: /pl/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj prostokąty dla linii w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w świecie Aspose.OCR dla .NET, potężnego narzędzia, które pozwala wykorzystać potencjał optycznego rozpoznawania znaków (OCR) w aplikacjach .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy ciekawskim entuzjastą, ten przewodnik przeprowadzi Cię przez proces uzyskiwania prostokątów dla linii w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR.
@@ -110,3 +116,9 @@ Odpowiedź 2: Aspose.OCR wykorzystuje zaawansowane algorytmy zapewniające wysok
 ### P5: Potrzebujesz pomocy lub masz konkretne pytania?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

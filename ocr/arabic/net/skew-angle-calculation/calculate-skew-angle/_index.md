@@ -3,10 +3,16 @@ title: حساب زاوية الانحراف في التعرف على الصور 
 linktitle: حساب زاوية الانحراف في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: استكشف Aspose.OCR for .NET، وهو حل قوي للتعرف الضوئي على الحروف للتعرف الدقيق على النص في تطبيقات C# الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب زاوية الانحراف في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR لـ .NET، وهي أداة قوية تمكّن المطورين من دمج إمكانات التعرف البصري على الأحرف (OCR) بسلاسة في تطبيقات .NET الخاصة بهم. في هذا الدليل الشامل، سنتعمق في حالة استخدام محددة: حساب زاوية الانحراف في التعرف الضوئي على الحروف (OCR). تم تصميم هذا البرنامج التعليمي لكل من المطورين المبتدئين وذوي الخبرة، حيث يوفر إرشادات خطوة بخطوة لضمان الاستفادة من الإمكانات الكاملة لـ Aspose.OCR.
@@ -105,3 +111,9 @@ Console.WriteLine("CalculateSkewAngle executed successfully");
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.OCR؟
 
 ج5: بالتأكيد! اكتشف الميزات مع[نسخة تجريبية مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

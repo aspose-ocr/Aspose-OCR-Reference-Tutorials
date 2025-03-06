@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.OCR dla Java
 linktitle: Aspose.OCR dla samouczków Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Odblokuj moc Aspose.OCR dla Java! Poznaj podstawy, operacje i zaawansowane techniki OCR. Skonfiguruj licencję, wykrywaj obszary i ulepszaj rozpoznawanie tekstu bez wysiłku.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.OCR dla Java
+
 
 ## Wstęp
 
@@ -32,3 +37,9 @@ Odblokuj potencjał Aspose.OCR w Javie! Przewodnik krok po kroku dotyczący konf
 Odblokuj potencjał Aspose.OCR dla Java dzięki naszym obszernym samouczkom OCR. Naucz się trybu wykrywania obszarów, wyboru języka, rozpoznawania plików PDF i TIFF w zaledwie kilku krokach!
 ### [Zaawansowane techniki OCR](./advanced-ocr-techniques/)
 Bez wysiłku wykonuj OCR na obrazach za pomocą Aspose.OCR dla Java. Wyodrębniaj tekst płynnie i z dużą dokładnością. Ulepsz swoje projekty Java dzięki wszechstronnemu rozpoznawaniu tekstu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

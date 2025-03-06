@@ -3,10 +3,16 @@ title: 在 OCR 图像识别中获取段落的矩形
 linktitle: 在 OCR 图像识别中获取段落的矩形
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 解锁高级 OCR 功能。轻松提取段落矩形。
-type: docs
 weight: 11
 url: /zh/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 图像识别中获取段落的矩形
+
 ## 介绍
 
 欢迎阅读我们关于利用 Aspose.OCR for .NET 在 OCR 图像识别中提取段落矩形的综合指南。如果您希望增强文档处理能力并在 .NET 应用程序中利用光学字符识别 (OCR) 的强大功能，那么您来对地方了。
@@ -101,3 +107,9 @@ A4：您可以获得临时许可证[这里](https://purchase.aspose.com/temporar
 ### Q5：在哪里可以找到与 Aspose.OCR 相关的其他支持和讨论？
 
  A5：前往[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

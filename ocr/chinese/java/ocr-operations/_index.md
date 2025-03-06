@@ -3,10 +3,16 @@ title: OCR操作
 linktitle: OCR操作
 second_title: Aspose.OCR Java API
 description: 通过我们全面的 OCR 教程释放 Aspose.OCR for Java 的潜力。只需几个步骤即可学习检测区域模式、语言选择、PDF 和 TIFF 识别！
-type: docs
 weight: 21
 url: /zh/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR操作
+
 ## 介绍
 
 您准备好提升您的文本提取游戏了吗？ Aspose.OCR for Java 以其强大的 OCR 功能为您带来了一个充满可能性的世界。在本指南中，我们将引导您完成基本的 OCR 操作，深入了解每种模式以实现无缝体验。
@@ -53,3 +59,9 @@ url: /zh/java/ocr-operations/
 使用 Aspose.OCR 释放 Java 中 OCR 的强大功能。轻松识别 PDF 文档中的文本。提高您的应用程序的精度和速度。
 ### [在 Aspose.OCR for Java 中 OCR 识别 TIFF 图像](./recognize-tiff/)
 使用 Aspose.OCR 解锁 Java 中强大的文本识别功能。轻松识别 TIFF 图像中的文本。立即下载以获得无缝 OCR 体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

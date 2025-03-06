@@ -3,10 +3,16 @@ title: Rozpoznat obraz bez detekce textové oblasti v OCR rozpoznávání obrazu
 linktitle: Rozpoznat obraz bez detekce textové oblasti v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte potenciál rozpoznávání textu s Aspose.OCR pro .NET. Rozpoznejte text od obrázků bez námahy.
-type: docs
 weight: 13
 url: /cs/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznat obraz bez detekce textové oblasti v OCR rozpoznávání obrazu
+
 ## Úvod
 
 rychle se vyvíjejícím prostředí technologií se optické rozpoznávání znaků (OCR) stalo klíčovým nástrojem, který umožňuje strojům porozumět textu v obrázcích. Aspose.OCR for .NET vyniká jako robustní řešení, které poskytuje vývojářům bezproblémový způsob integrace funkcí OCR do jejich aplikací .NET. V tomto tutoriálu prozkoumáme, jak rozpoznat text z obrázku bez detekce textové oblasti, pomocí jasných a stručných kroků s Aspose.OCR pro .NET.
@@ -100,3 +106,9 @@ Odpověď 2: Ano, Aspose.OCR for .NET je univerzální a lze jej použít v desk
 ### Q5: Jsou k dispozici dočasné licence pro Aspose.OCR?
 
  A5: Ano, můžete získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

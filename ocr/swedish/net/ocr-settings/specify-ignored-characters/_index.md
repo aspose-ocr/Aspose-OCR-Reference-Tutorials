@@ -3,10 +3,16 @@ title: Ange ignorerade tecken i OCR-bildigenkänning
 linktitle: Ange ignorerade tecken i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Utforska avancerade OCR-funktioner med Aspose.OCR för .NET. Effektiv, exakt och utvecklarvänlig.
-type: docs
 weight: 14
 url: /sv/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange ignorerade tecken i OCR-bildigenkänning
+
 ## Introduktion
 
 det ständigt föränderliga landskapet av digital transformation har Optical Character Recognition (OCR) vuxit fram som en avgörande teknik, som överbryggar klyftan mellan fysiskt och digitalt innehåll. I takt med att företag i allt högre grad digitaliserar sin verksamhet blir behovet av korrekta, effektiva och mångsidiga OCR-lösningar avgörande. Aspose.OCR för .NET utmärker sig som ett robust OCR-bibliotek, som erbjuder avancerade funktioner för utvecklare som arbetar i .NET-miljön.
@@ -100,3 +106,9 @@ S4: Aspose.OCR stöder ett brett utbud av språk, vilket gör det till ett mång
 ### F5: Kan jag köpa en tillfällig licens för Aspose.OCR?
 
  A5: Ja, om du behöver en tillfällig licens kan du få den[här](https://purchase.aspose.com/temporary-license/) för kortvarig användning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

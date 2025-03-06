@@ -3,10 +3,16 @@ title: Exécution de l'OCR avec le mode Détecter les zones dans Aspose.OCR
 linktitle: Exécution de l'OCR avec le mode Détecter les zones dans Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Libérez la puissance de l’extraction de texte à partir d’images avec Aspose.OCR pour Java. Un didacticiel complet sur l'OCR avec le mode Détecter les zones.
-type: docs
 weight: 10
 url: /fr/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exécution de l'OCR avec le mode Détecter les zones dans Aspose.OCR
+
 ## Introduction
 
 Dans un monde technologique en constante évolution, la reconnaissance optique de caractères (OCR) joue un rôle central dans l’extraction d’informations précieuses à partir des images. Aspose.OCR for Java fournit une solution puissante pour l'OCR, permettant aux développeurs d'exploiter le potentiel de la reconnaissance de texte de manière transparente. Ce didacticiel vous guidera tout au long du processus d'exécution de l'OCR avec le mode Détecter les zones à l'aide d'Aspose.OCR pour Java.
@@ -108,3 +114,9 @@ A4 : Oui, comme démontré dans ce didacticiel, Aspose.OCR propose un texte corr
 ### Q5 : Existe-t-il un forum communautaire pour le support d'Aspose.OCR ?
 
  A5 : Oui, vous pouvez trouver du soutien et vous engager auprès de la communauté sur le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

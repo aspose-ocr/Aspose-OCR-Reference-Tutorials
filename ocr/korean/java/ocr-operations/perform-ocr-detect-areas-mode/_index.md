@@ -3,10 +3,16 @@ title: Aspose.OCR에서 영역 감지 모드로 OCR 수행
 linktitle: Aspose.OCR에서 영역 감지 모드로 OCR 수행
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출 기능을 활용하세요. 영역 감지 모드를 사용한 OCR에 대한 포괄적인 튜토리얼입니다.
-type: docs
 weight: 10
 url: /ko/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR에서 영역 감지 모드로 OCR 수행
+
 ## 소개
 
 끊임없이 진화하는 기술 세계에서 광학 문자 인식(OCR)은 이미지에서 귀중한 정보를 추출하는 데 중추적인 역할을 합니다. Java용 Aspose.OCR은 OCR을 위한 강력한 솔루션을 제공하여 개발자가 텍스트 인식의 잠재력을 원활하게 활용할 수 있도록 합니다. 이 튜토리얼은 Java용 Aspose.OCR을 사용하여 영역 감지 모드로 OCR을 수행하는 과정을 안내합니다.
@@ -108,3 +114,9 @@ A4: 예, 이 튜토리얼에서 설명한 것처럼 Aspose.OCR은 OCR 결과의 
 ### Q5: Aspose.OCR 지원을 위한 커뮤니티 포럼이 있습니까?
 
  답변 5: 예, 다음 사이트에서 지원을 찾고 커뮤니티에 참여할 수 있습니다.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

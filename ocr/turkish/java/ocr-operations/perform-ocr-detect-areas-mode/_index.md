@@ -3,10 +3,16 @@ title: Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
 linktitle: Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java ile görüntülerden metin çıkarmanın gücünün kilidini açın. Alanları Algılama Moduyla OCR hakkında kapsamlı bir eğitim.
-type: docs
 weight: 10
 url: /tr/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
+
 ## giriiş
 
 Sürekli gelişen teknoloji dünyasında, Optik Karakter Tanıma (OCR), görüntülerden değerli bilgilerin çıkarılmasında çok önemli bir rol oynamaktadır. Aspose.OCR for Java, OCR için güçlü bir çözüm sağlayarak geliştiricilerin metin tanıma potansiyelinden sorunsuz bir şekilde yararlanmasını sağlar. Bu eğitim, Aspose.OCR for Java'yı kullanarak Alanları Algılama Moduyla OCR gerçekleştirme sürecinde size rehberlik edecektir.
@@ -108,3 +114,9 @@ Cevap4: Evet, bu eğitimde gösterildiği gibi Aspose.OCR, OCR sonuçlarının b
 ### S5: Aspose.OCR desteği için bir topluluk forumu var mı?
 
  C5: Evet, destek bulabilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

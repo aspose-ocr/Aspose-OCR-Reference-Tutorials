@@ -1,12 +1,17 @@
 ---
 title: Πλήρη σεμινάρια & παραδείγματα Aspose.OCR για Java
 linktitle: Aspose.OCR για Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Ξεκλειδώστε τη δύναμη του Aspose.OCR για Java! Μάθετε τα βασικά, τις λειτουργίες και τις προηγμένες τεχνικές OCR. Ρυθμίστε την άδειά σας, εντοπίστε περιοχές και βελτιώστε την αναγνώριση κειμένου χωρίς κόπο.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πλήρη σεμινάρια & παραδείγματα Aspose.OCR για Java
+
 
 ## Εισαγωγή
 
@@ -32,3 +37,9 @@ is_root: true
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για Java με τα περιεκτικά μας σεμινάρια OCR. Μάθετε τη λειτουργία ανίχνευσης περιοχών, την επιλογή γλώσσας, την αναγνώριση PDF και TIFF σε λίγα μόλις βήματα!
 ### [Προηγμένες τεχνικές OCR](./advanced-ocr-techniques/)
 Εκτελέστε χωρίς κόπο OCR σε εικόνες χρησιμοποιώντας το Aspose.OCR για Java. Εξαγωγή κειμένου απρόσκοπτα με υψηλή ακρίβεια. Βελτιώστε τα έργα σας Java με ευέλικτη αναγνώριση κειμένου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

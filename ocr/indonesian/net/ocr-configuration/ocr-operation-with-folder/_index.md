@@ -3,10 +3,16 @@ title: Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
 linktitle: Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks dengan mudah dari gambar.
-type: docs
 weight: 11
 url: /id/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Pengenalan Karakter Optik (OCR) menggunakan Aspose.OCR untuk .NET! Jika Anda ingin mengekstrak teks dari gambar dengan lancar dalam aplikasi .NET, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui proses pengenalan gambar OCR dengan folder, memanfaatkan kemampuan Aspose.OCR yang canggih.
@@ -118,3 +124,9 @@ Selamat! Anda telah berhasil mempelajari cara menerapkan pengenalan gambar OCR d
 ### Q5: Butuh dukungan atau punya pertanyaan?
 
  A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

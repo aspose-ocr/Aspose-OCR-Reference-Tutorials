@@ -3,10 +3,16 @@ title: Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR
 linktitle: Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa phép thuật OCR bằng Aspose.OCR cho .NET dễ dàng trích xuất văn bản từ hình ảnh. Khám phá hướng dẫn để tích hợp liền mạch.
-type: docs
 weight: 14
 url: /vi/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong thế giới định hướng công nghệ ngày nay, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc trích xuất thông tin có giá trị từ hình ảnh. Aspose.OCR cho .NET trao quyền cho các nhà phát triển một bộ công cụ mạnh mẽ để tích hợp liền mạch các khả năng OCR vào ứng dụng của họ. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thực hiện OCR trên hình ảnh bằng Aspose.OCR cho .NET, biến hình ảnh thành văn bản có thể tìm kiếm và chỉnh sửa.
@@ -98,3 +104,9 @@ Câu trả lời 2: Có, bạn có thể xin giấy phép tạm thời để Asp
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.OCR miễn phí cho .NET trước khi mua không?
 
  Câu trả lời 5: Hoàn toàn có thể, bạn có thể khám phá các tính năng bằng[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.OCR cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

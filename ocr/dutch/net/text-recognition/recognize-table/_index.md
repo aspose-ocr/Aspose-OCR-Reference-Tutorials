@@ -3,10 +3,16 @@ title: Herken tabel in OCR-beeldherkenning
 linktitle: Herken tabel in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
-type: docs
 weight: 15
 url: /nl/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herken tabel in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de fascinerende wereld van Aspose.OCR voor .NET! Als u uw .NET-applicaties wilt uitbreiden met krachtige OCR-mogelijkheden (Optical Character Recognition), bent u hier aan het juiste adres. Deze stapsgewijze handleiding leidt u door het proces van het herkennen van tabellen in OCR-beeldherkenning met behulp van Aspose.OCR voor .NET.
@@ -95,3 +101,9 @@ Concluderend stelt Aspose.OCR voor .NET ontwikkelaars in staat om OCR-mogelijkhe
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.OCR?
 
  A5: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/) om de functies te verkennen voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

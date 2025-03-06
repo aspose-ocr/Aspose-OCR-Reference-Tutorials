@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 PDF 인식
 linktitle: OCR 이미지 인식에서 PDF 인식
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 14
 url: /ko/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 PDF 인식
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하는 광학 문자 인식(OCR)의 세계에 오신 것을 환영합니다! .NET 애플리케이션에서 OCR 기능을 활용하고 싶다면 잘 찾아오셨습니다. 이 단계별 가이드에서는 Aspose.OCR 라이브러리를 사용하여 PDF에서 텍스트를 인식하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 튜토리얼은 OCR 기능을 프로젝트에 쉽게 통합할 수 있도록 프로세스를 안내합니다.
@@ -101,3 +107,9 @@ A2: 물론이죠! Aspose.OCR은 .NET을 사용하여 개발된 웹 및 데스크
 ### Q5: .NET용 Aspose.OCR을 어디서 구입할 수 있나요?
 
  A5: 당신은에서 제품을 구입할 수 있습니다[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

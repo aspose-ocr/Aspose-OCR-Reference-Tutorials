@@ -3,10 +3,16 @@ title: Calcul de l'angle d'inclinaison dans Aspose.OCR pour Java
 linktitle: Calcul de l'angle d'inclinaison dans Aspose.OCR pour Java
 second_title: API Java Aspose.OCR
 description: Améliorez la précision de l'OCR avec Aspose.OCR pour Java. Apprenez à calculer les angles d'inclinaison étape par étape. Améliorez le traitement des documents sans effort.
-type: docs
 weight: 11
 url: /fr/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcul de l'angle d'inclinaison dans Aspose.OCR pour Java
+
 ## Introduction
 
 Bienvenue dans notre guide complet sur le calcul des angles d'inclinaison dans Aspose.OCR pour Java ! Les angles d'inclinaison jouent un rôle crucial dans le traitement des documents, en particulier lorsqu'il s'agit d'images numérisées. Aspose.OCR pour Java fournit une solution puissante pour déterminer et corriger avec précision les angles d'inclinaison, améliorant ainsi la qualité globale de vos résultats OCR (Optical Character Recognition).
@@ -94,3 +100,9 @@ A3 : Aspose.OCR prend en charge divers formats d'image, notamment PNG, JPEG et T
 ### Q5 : Où puis-je demander de l'aide ou discuter des problèmes liés à Aspose.OCR ?
 
  A5 : Visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour interagir avec la communauté et obtenir le soutien des experts Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

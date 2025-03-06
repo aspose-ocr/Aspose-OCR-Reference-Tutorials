@@ -3,10 +3,16 @@ title: OCR影像辨識中無需文字區域偵測即可辨識影像
 linktitle: OCR影像辨識中無需文字區域偵測即可辨識影像
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 釋放文字辨識的潛力。輕鬆辨識圖像中的文字。
-type: docs
 weight: 13
 url: /zh-hant/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR影像辨識中無需文字區域偵測即可辨識影像
+
 ## 介紹
 
 在快速發展的技術領域，光學字元辨識 (OCR) 已成為一種關鍵工具，使機器能夠理解圖像中的文字。 Aspose.OCR for .NET 作為一個強大的解決方案脫穎而出，為開發人員提供了將 OCR 功能整合到其 .NET 應用程式中的無縫方式。在本教程中，我們將探索如何在不檢測文本區域的情況下從圖像中識別文本，使用 Aspose.OCR for .NET 使用清晰簡潔的步驟。
@@ -100,3 +106,9 @@ A2：是的，Aspose.OCR for .NET 用途廣泛，可用於桌面和基於 Web �
 ### Q5：Aspose.OCR 是否有臨時許可證？
 
  A5：是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)供短期使用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

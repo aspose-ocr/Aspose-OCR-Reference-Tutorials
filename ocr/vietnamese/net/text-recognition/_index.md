@@ -3,10 +3,16 @@ title: Nhận dạng văn bản
 linktitle: Nhận dạng văn bản
 second_title: API Aspose.OCR .NET
 description: Nâng cao ứng dụng .NET của bạn bằng Aspose.OCR để nhận dạng ký tự chính xác. Khám phá các hướng dẫn để có được các lựa chọn, kết quả và định dạng JSON trong nhận dạng hình ảnh OCR.
-type: docs
 weight: 21
 url: /vi/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng văn bản
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đưa ứng dụng .NET của mình lên một tầm cao mới chưa? Đi sâu vào thế giới Nhận dạng văn bản với Aspose.OCR và nâng cao dự án của bạn bằng tính năng nhận dạng ký tự chính xác và xử lý hình ảnh liền mạch.
@@ -49,3 +55,9 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

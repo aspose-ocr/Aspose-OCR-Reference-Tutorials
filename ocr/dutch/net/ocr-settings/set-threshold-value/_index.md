@@ -3,10 +3,16 @@ title: Stel de drempelwaarde in voor OCR-beeldherkenning
 linktitle: Stel de drempelwaarde in voor OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek Aspose.OCR voor .NET, een robuuste OCR-oplossing. Stel moeiteloos aangepaste drempelwaarden in. Verbeter de tekstherkenning in uw toepassingen.
-type: docs
 weight: 12
 url: /nl/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de drempelwaarde in voor OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de opwindende wereld van Aspose.OCR voor .NET! In deze zelfstudie duiken we diep in de mogelijkheden van Aspose.OCR, een krachtig hulpmiddel dat is ontworpen om optische tekenherkenning in .NET-toepassingen een fluitje van een cent te maken. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze handleiding leidt u door het proces van het instellen van de drempelwaarde voor OCR-beeldherkenning met behulp van Aspose.OCR voor .NET.
@@ -99,3 +105,9 @@ A1: Absoluut! Aspose.OCR voor .NET is veelzijdig en kan naadloos worden geïnteg
 ### V5: Hoe kan ik de volledige versie van Aspose.OCR voor .NET kopen?
 
  A5: Bezoek de aankooppagina om alle functies te ontgrendelen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

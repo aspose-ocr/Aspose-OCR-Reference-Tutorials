@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Görüntü için Ön İşleme Filtreleri
 linktitle: OCR Görüntü Tanıma'da Görüntü için Ön İşleme Filtreleri
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET'i keşfedin. Ön işleme filtreleriyle OCR doğruluğunu artırın. Kusursuz entegrasyon için hemen indirin.
-type: docs
 weight: 12
 url: /tr/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Görüntü için Ön İşleme Filtreleri
+
 ## giriiş
 
 Aspose.OCR ile .NET uygulamalarınızda Optik Karakter Tanıma'nın (OCR) tüm potansiyelini ortaya çıkarın. Bu güçlü kitaplık, geliştiricilerin OCR işlevini sorunsuz bir şekilde entegre etmesine ve görüntüleri düzenlenebilir metne dönüştürmesine olanak tanır. Bu adım adım kılavuzda, OCR görüntü tanıma için en iyi sonuçları sağlayacak şekilde görüntü iyileştirmeye yönelik ön işleme filtrelerini derinlemesine inceleyeceğiz.
@@ -112,3 +118,9 @@ Cevap4: Aspose.OCR PNG, JPEG, GIF, BMP ve TIFF dahil çok çeşitli görüntü f
 ### S5: Aspose.OCR'ı mevcut .NET projeme entegre edebilir miyim?
 
 A5: Kesinlikle! Eğitimde özetlenen adımları takip ettiğinizde Aspose.OCR'ı, OCR görüntü tanıma için .NET projenize sorunsuz bir şekilde entegre edeceksiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

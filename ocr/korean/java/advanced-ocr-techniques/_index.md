@@ -3,10 +3,16 @@ title: 고급 OCR 기술
 linktitle: 고급 OCR 기술
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR을 사용하여 이미지에 대해 손쉽게 OCR을 수행합니다. 높은 정확도로 원활하게 텍스트를 추출합니다. 다양한 텍스트 인식으로 Java 프로젝트를 향상하세요.
-type: docs
 weight: 22
 url: /ko/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고급 OCR 기술
+
 ## 소개
 
 Java 프로젝트를 한 단계 더 발전시킬 준비가 되셨나요? Java용 Aspose.OCR을 사용하여 고급 OCR 기술의 세계에 빠져보세요. 이 포괄적인 가이드에서는 이미지에서 텍스트를 쉽게 추출할 수 있는 다양한 튜토리얼을 살펴보겠습니다.
@@ -55,3 +61,9 @@ Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. �
 정확한 텍스트 인식을 위해 Aspose.OCR로 Java 애플리케이션을 강화하세요. 통합이 쉽고 정확도가 높습니다.
 ### [Aspose.OCR에서 허용되는 문자 지정](./specify-allowed-characters/)
 Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

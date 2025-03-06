@@ -3,10 +3,16 @@ title: Uložit výsledek jako dokument v OCR rozpoznávání obrazu
 linktitle: Uložit výsledek jako dokument v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte potenciál Aspose.OCR pro .NET. Snadno rozpoznávejte text v obrázcích a ukládejte výsledky v různých formátech dokumentů.
-type: docs
 weight: 10
 url: /cs/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit výsledek jako dokument v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve vzrušujícím světě optického rozpoznávání znaků (OCR) s Aspose.OCR pro .NET! V tomto komplexním tutoriálu se ponoříme do složitosti používání Aspose.OCR k rozpoznání textu v obrázcích a předvedeme, jak uložit výsledky jako různé formáty dokumentů.
@@ -99,3 +105,9 @@ A2: Rozhodně! Aspose.OCR poskytuje nastavení rozpoznávání pro doladění pr
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou?
 
  A5: Připojte se ke komunitě Aspose.OCR na adrese[Fórum Aspose](https://forum.aspose.com/c/ocr/16) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

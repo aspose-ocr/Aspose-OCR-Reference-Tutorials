@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Çizgiler için Dikdörtgenler Alma
 linktitle: OCR Görüntü Tanıma'da Çizgiler için Dikdörtgenler Alma
 second_title: Aspose.OCR .NET API'si
 description: Hassas OCR görüntü tanıma anahtarınız olan Aspose.OCR for .NET'i keşfedin. Metin çıkarmanın gücünü zahmetsizce ortaya çıkarın.
-type: docs
 weight: 10
 url: /tr/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Çizgiler için Dikdörtgenler Alma
+
 ## giriiş
 
 .NET uygulamalarınızda Optik Karakter Tanıma'nın (OCR) potansiyelinden yararlanmanıza olanak tanıyan güçlü bir araç olan Aspose.OCR for .NET dünyasına hoş geldiniz. İster deneyimli bir geliştirici olun ister meraklı bir meraklı olun, bu kılavuz Aspose.OCR kullanarak OCR görüntü tanımada çizgiler için dikdörtgenler alma sürecinde size yol gösterecektir.
@@ -110,3 +116,9 @@ Cevap2: Aspose.OCR, yüksek doğruluk için gelişmiş algoritmalardan yararlan�
 ### S5: Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

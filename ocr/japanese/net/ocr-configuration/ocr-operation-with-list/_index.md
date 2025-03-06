@@ -3,10 +3,16 @@ title: OCR画像認識におけるリストによるOCRO操作
 linktitle: OCR画像認識におけるリストによるOCRO操作
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET の可能性を解き放ちます。リストを使用して OCR 画像認識を簡単に実行します。アプリケーションの生産性とデータ抽出を向上させます。
-type: docs
 weight: 13
 url: /ja/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識におけるリストによるOCRO操作
+
 ## 導入
 
 Aspose.OCR for .NET の機能を活用してリストによる OCR 画像認識を実行する詳細なチュートリアルへようこそ。光学式文字認識 (OCR) は、スキャンした紙文書、PDF、画像などのさまざまな種類の文書を編集可能および検索可能なデータに変換する重要なテクノロジーです。
@@ -105,3 +111,10 @@ A2: もちろんです。 Aspose.OCR は幅広い画像形式をサポートし�
 ### Q5: 導入中に問題が発生したり、具体的な質問がある場合はどうすればよいですか?
 
  A5: お気軽にご相談ください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティや専門家からの迅速なサポートが必要です。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

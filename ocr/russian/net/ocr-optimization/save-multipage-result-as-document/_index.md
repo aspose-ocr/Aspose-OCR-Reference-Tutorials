@@ -3,10 +3,16 @@ title: Сохранить многостраничный результат ка
 linktitle: Сохранить многостраничный результат как документ в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте потенциал Aspose.OCR для .NET. С легкостью сохраняйте многостраничные результаты оптического распознавания текста в виде документов с помощью этого подробного пошагового руководства.
-type: docs
 weight: 14
 url: /ru/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Сохранить многостраничный результат как документ в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в увлекательный мир оптического распознавания символов (OCR) с использованием Aspose.OCR для .NET! В этом уроке мы рассмотрим, как использовать возможности Aspose.OCR для сохранения многостраничных результатов OCR в виде документов. Независимо от того, являетесь ли вы опытным разработчиком или только начинаете использовать OCR, это руководство проведет вас через каждый шаг, гарантируя, что вы максимально эффективно используете этот мощный инструмент.
@@ -104,3 +110,9 @@ AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", Sa
 ### Вопрос 5: Поддерживает ли Aspose.OCR другие языки, кроме английского?
 
 О5: Да, Aspose.OCR поддерживает несколько языков. Подробную информацию о языковой поддержке можно найти в документации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

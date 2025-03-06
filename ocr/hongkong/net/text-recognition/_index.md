@@ -3,10 +3,16 @@ title: 文字識別
 linktitle: 文字識別
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 提升您的 .NET 應用程式以實現精確的字元辨識。了解有關在 OCR 影像辨識中取得選擇、結果和 JSON 格式的教學。
-type: docs
 weight: 21
 url: /zh-hant/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文字識別
+
 ## 介紹
 
 您準備好將您的 .NET 應用程式提升到一個新的水平嗎？使用 Aspose.OCR 深入了解文字辨識的世界，並透過準確的字元辨識和無縫影像處理來增強您的專案。
@@ -49,3 +55,9 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

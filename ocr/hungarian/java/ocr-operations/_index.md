@@ -3,10 +3,16 @@ title: OCR műveletek
 linktitle: OCR műveletek
 second_title: Aspose.OCR Java API
 description: Fedezze fel az Aspose.OCR for Java lehetőségeit átfogó OCR-oktatóanyagaink segítségével. Tanulja meg a Területészlelés módot, a nyelvválasztást, a PDF- és TIFF-felismerést néhány lépésben!
-type: docs
 weight: 21
 url: /hu/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR műveletek
+
 ## Bevezetés
 
 Készen állsz a szövegkivonási játék emelésére? Az Aspose.OCR for Java a lehetőségek világát kínálja hatékony OCR-képességeivel. Ebben az útmutatóban végigvezetjük az alapvető OCR műveleteken, betekintést nyújtva az egyes módokba a zökkenőmentes élmény érdekében.
@@ -53,3 +59,9 @@ Oldja fel a képekből a precíz szövegkivonást az Aspose.OCR for Java segíts
 Az Aspose.OCR segítségével felszabadíthatja az OCR erejét a Java nyelven. Könnyedén felismerheti a PDF-dokumentumok szövegét. Növelje alkalmazásait pontossággal és sebességgel.
 ### [OCR TIFF-képek felismerése az Aspose.OCR for Java programban](./recognize-tiff/)
 Oldja fel a hatékony szövegfelismerést a Java nyelven az Aspose.OCR segítségével. Könnyedén felismerheti a szöveget a TIFF-képeken. Töltse le most a zökkenőmentes OCR élményért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

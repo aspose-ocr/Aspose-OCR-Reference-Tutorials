@@ -3,10 +3,16 @@ title: A ferde szög kiszámítása az Aspose.OCR for Java-ban
 linktitle: A ferde szög kiszámítása az Aspose.OCR for Java-ban
 second_title: Aspose.OCR Java API
 description: Növelje az OCR pontosságát az Aspose.OCR for Java segítségével. Ismerje meg a ferde szögek kiszámítását lépésről lépésre. Javítsa a dokumentumfeldolgozást könnyedén.
-type: docs
 weight: 11
 url: /hu/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A ferde szög kiszámítása az Aspose.OCR for Java-ban
+
 ## Bevezetés
 
 Üdvözöljük átfogó útmutatónkban az Aspose.OCR for Java ferdeszögeinek kiszámításáról! A ferde szögek döntő szerepet játszanak a dokumentumfeldolgozásban, különösen a szkennelt képek kezelésekor. Az Aspose.OCR for Java hatékony megoldást kínál a ferde szögek pontos meghatározására és korrigálására, javítva az OCR (optikai karakterfelismerés) eredményeinek általános minőségét.
@@ -94,3 +100,9 @@ Gratulálunk! Sikeresen megtanulta a ferdeségi szögek kiszámítását az Aspo
 ### 5. kérdés: Hol kérhetek segítséget, vagy vitathatom meg az Aspose.OCR-rel kapcsolatos kérdéseket?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) kapcsolatba lépni a közösséggel, és támogatást kérni az Aspose szakértőitől.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

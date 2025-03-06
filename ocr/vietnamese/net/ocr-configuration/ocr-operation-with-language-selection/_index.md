@@ -3,10 +3,16 @@ title: OCRHoạt động với lựa chọn ngôn ngữ trong nhận dạng hìn
 linktitle: OCRHoạt động với lựa chọn ngôn ngữ trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
-type: docs
 weight: 12
 url: /vi/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRHoạt động với lựa chọn ngôn ngữ trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong thế giới nhận dạng hình ảnh và nhận dạng ký tự quang học (OCR), Aspose.OCR cho .NET nổi bật như một công cụ mạnh mẽ dành cho các nhà phát triển đang tìm cách trích xuất văn bản chính xác và hiệu quả từ hình ảnh. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET, tập trung vào thao tác chọn ngôn ngữ.
@@ -109,3 +115,10 @@ A2: Chắc chắn rồi! Điều chỉnh các tham số như góc nghiêng, nh�
 ### Câu hỏi 5: Làm cách nào tôi có thể mua Aspose.OCR cho .NET?
 
  A5: Để mua hàng, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

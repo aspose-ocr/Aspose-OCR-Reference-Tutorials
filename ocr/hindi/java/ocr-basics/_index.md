@@ -3,10 +3,16 @@ title: ओसीआर मूल बातें
 linktitle: ओसीआर मूल बातें
 second_title: Aspose.OCR जावा एपीआई
 description: जावा में Aspose.OCR की क्षमता को अनलॉक करें! अपना लाइसेंस स्थापित करने और ओसीआर क्षमताओं को बढ़ावा देने के लिए चरण-दर-चरण मार्गदर्शिका। तिरछे कोणों की गणना करें और पाठ को निर्बाध रूप से निकालें।
-type: docs
 weight: 20
 url: /hi/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर मूल बातें
+
 ## परिचय
 
 क्या आप जावा के लिए Aspose.OCR के साथ अपने OCR गेम को उन्नत करने के लिए तैयार हैं? यह व्यापक मार्गदर्शिका आपको आवश्यक ट्यूटोरियल के माध्यम से ले जाएगी, यह सुनिश्चित करते हुए कि आप इस शक्तिशाली टूल का अधिकतम लाभ उठा सकें। आइए गोता लगाएँ!
@@ -35,3 +41,9 @@ url: /hi/java/ocr-basics/
 जावा के लिए Aspose.OCR के साथ OCR सटीकता बढ़ाएँ। चरण-दर-चरण तिरछा कोणों की गणना करना सीखें। दस्तावेज़ प्रसंस्करण को सहजता से सुधारें।
 ### [Aspose.OCR में पाठ क्षेत्रों के साथ आयत प्राप्त करना](./get-rectangles-with-text-areas/)
 जावा के लिए Aspose.OCR की शक्ति को अनलॉक करें। इस चरण-दर-चरण मार्गदर्शिका में जानें कि छवियों से पाठ को सहजता से कैसे निकाला जाए। कुशल पाठ पहचान के लिए अभी डाउनलोड करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozpoznawanie tekstu
 linktitle: Rozpoznawanie tekstu
 second_title: Aspose.OCR .NET API
 description: Ulepsz swoje aplikacje .NET dzięki Aspose.OCR w celu precyzyjnego rozpoznawania znaków. Odkryj samouczki dotyczące uzyskiwania wyborów, wyników i formatów JSON w rozpoznawaniu obrazów OCR.
-type: docs
 weight: 21
 url: /pl/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznawanie tekstu
+
 ## Wstęp
 
 Czy jesteś gotowy, aby przenieść swoje aplikacje .NET na wyższy poziom? Zanurz się w świat rozpoznawania tekstu za pomocą Aspose.OCR i ulepsz swoje projekty dzięki dokładnemu rozpoznawaniu znaków i płynnemu przetwarzaniu obrazu.
@@ -49,3 +55,9 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

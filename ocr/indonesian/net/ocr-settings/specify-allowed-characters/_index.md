@@ -3,10 +3,16 @@ title: Tentukan Karakter yang Diizinkan dalam Pengenalan Gambar OCR
 linktitle: Tentukan Karakter yang Diizinkan dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka kunci OCR yang tepat di .NET dengan Aspose.OCR. Kenali teks dari gambar dengan mudah. Unduh sekarang untuk pengalaman pengembangan yang transformatif.
-type: docs
 weight: 13
 url: /id/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Karakter yang Diizinkan dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) telah muncul sebagai alat transformatif yang memungkinkan mesin memahami teks dari gambar. Aspose.OCR untuk .NET menonjol sebagai solusi yang kuat, memberikan integrasi tanpa batas bagi pengembang yang mencari kemampuan OCR yang kuat dalam aplikasi .NET mereka.
@@ -119,3 +125,9 @@ A2: Ya, Aspose.OCR mendukung pengenalan dalam berbagai bahasa, menjadikannya ser
 ### Q5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas untuk mendapatkan dukungan?
 
  A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk terlibat dengan masyarakat dan mendapatkan bantuan ahli.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

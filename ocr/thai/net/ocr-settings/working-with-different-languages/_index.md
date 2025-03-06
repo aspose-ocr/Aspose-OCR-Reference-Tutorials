@@ -3,10 +3,16 @@ title: การทำงานกับภาษาต่างๆ ในกา
 linktitle: การทำงานกับภาษาต่างๆ ในการจดจำภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกความมหัศจรรย์ของ OCR หลายภาษาด้วย Aspose.OCR สำหรับ .NET แยกข้อความในภาษาต่างๆ ได้อย่างง่ายดาย
-type: docs
 weight: 15
 url: /th/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การทำงานกับภาษาต่างๆ ในการจดจำภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.OCR สำหรับ .NET ที่ซึ่งประสิทธิภาพของ Optical Character Recognition (OCR) ตรงตามความสามารถรอบด้านของการสนับสนุนหลายภาษา ในบทช่วยสอนนี้ เราจะสำรวจวิธีควบคุมความสามารถของ Aspose.OCR สำหรับ .NET เพื่อจดจำข้อความในภาษาต่างๆ ได้อย่างง่ายดาย หากคุณเคยสงสัยเกี่ยวกับความมหัศจรรย์เบื้องหลังการจดจำภาพ OCR สำหรับภาษาต่างๆ คุณมาถูกที่แล้ว
@@ -100,3 +106,9 @@ A2: แน่นอน! Aspose.OCR รองรับภาษาที่หล
 ### คำถามที่ 5: ฉันจะเข้าถึงเอกสารประกอบได้อย่างไร
 
  A5: เอกสารประกอบสำหรับ Aspose.OCR สำหรับ .NET จะพร้อมใช้งาน[ที่นี่](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

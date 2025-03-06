@@ -3,10 +3,16 @@ title: Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
 linktitle: Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
-type: docs
 weight: 14
 url: /id/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia pengenalan karakter optik (OCR) yang menakjubkan menggunakan Aspose.OCR untuk .NET! Dalam tutorial ini, kita akan mempelajari cara memanfaatkan kemampuan Aspose.OCR untuk menyimpan hasil OCR multihalaman sebagai dokumen. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan OCR, panduan ini akan memandu Anda melalui setiap langkah, memastikan Anda memanfaatkan alat canggih ini semaksimal mungkin.
@@ -104,3 +110,9 @@ A4: Lihat dokumentasi untuk praktik terbaik penanganan kesalahan atau cari bantu
 ### Q5: Apakah Aspose.OCR mendukung bahasa selain bahasa Inggris?
 
 A5: Ya, Aspose.OCR mendukung banyak bahasa. Jelajahi dokumentasi untuk detail dukungan bahasa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

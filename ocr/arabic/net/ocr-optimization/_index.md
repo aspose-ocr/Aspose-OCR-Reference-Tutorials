@@ -3,10 +3,16 @@ title: تحسين التعرف الضوئي على الحروف
 linktitle: تحسين التعرف الضوئي على الحروف
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لقوة Aspose.OCR لـ .NET من خلال برامجنا التعليمية الشاملة. سواء كنت مطورًا متمرسًا أو مبتدئًا، ستعمل هذه الأدلة على الارتقاء بلعبة التعرف الضوئي على الحروف لديك.
-type: docs
 weight: 25
 url: /ar/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحسين التعرف الضوئي على الحروف
+
 ## مقدمة
 
 قم بزيادة دقة التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لبرامج .NET التعليمية. قم بإجراء التعرف الضوئي على الحروف (OCR) على الصور، وإعداد المستطيلات، وتطبيق مرشحات المعالجة المسبقة، وتصحيح النتائج من خلال التدقيق الإملائي، وحفظ نتائج متعددة الصفحات دون عناء.
@@ -44,3 +50,9 @@ url: /ar/net/ocr-optimization/
 تعزيز دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ .NET. قم بتصحيح التهجئة وتخصيص القواميس وتحقيق التعرف على النص الخالي من الأخطاء دون عناء.
 ### [حفظ نتيجة الصفحات المتعددة كمستند في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./save-multipage-result-as-document/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. احفظ نتائج التعرف الضوئي على الحروف (OCR) متعددة الصفحات بسهولة كمستندات باستخدام هذا الدليل الشامل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

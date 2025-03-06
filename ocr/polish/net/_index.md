@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.OCR dla .NET
 linktitle: Aspose.OCR dla samouczków .NET
-type: docs
 weight: 10
 url: /pl/net/
 description: Odblokuj precyzję rozpoznawania obrazów OCR za pomocą Aspose.OCR dla .NET. Zapoznaj się z samouczkami dotyczącymi obliczania kąta skosu, rozpoznawania tekstu, konfiguracji OCR i optymalizacji.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.OCR dla .NET
+
 
 ## Wstęp
 
@@ -51,3 +56,9 @@ Odblokuj możliwości OCR w aplikacjach .NET dzięki Aspose.OCR. Zapoznaj się z
 Zmaksymalizuj dokładność OCR dzięki samouczkom Aspose.OCR dla .NET. Wykonuj OCR na obrazach, przygotowuj prostokąty, stosuj filtry przetwarzania wstępnego, poprawiaj wyniki za pomocą sprawdzania pisowni i bez problemu zapisuj wyniki wielostronicowe.
 ### [Ustawienia OCR](./ocr-settings/)
 Odblokuj moc Aspose.OCR dla .NET dzięki naszym samouczkom dotyczącym ustawień OCR. Dowiedz się, jak zwiększyć dokładność, szybkość i dostosowywanie rozpoznawania tekstu w obrazach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

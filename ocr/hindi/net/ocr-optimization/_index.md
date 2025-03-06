@@ -3,10 +3,16 @@ title: ओसीआर अनुकूलन
 linktitle: ओसीआर अनुकूलन
 second_title: Aspose.OCR .NET एपीआई
 description: हमारे व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.OCR की शक्ति को अनलॉक करें। चाहे आप एक अनुभवी डेवलपर हों या नौसिखिया, ये मार्गदर्शिकाएँ आपके OCR गेम को उन्नत करेंगी।
-type: docs
 weight: 25
 url: /hi/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर अनुकूलन
+
 ## परिचय
 
 .NET ट्यूटोरियल के लिए Aspose.OCR के साथ OCR सटीकता को अधिकतम करें। छवियों पर ओसीआर निष्पादित करें, आयत तैयार करें, प्रीप्रोसेसिंग फ़िल्टर लागू करें, वर्तनी जांच के साथ परिणामों को सही करें, और बहुपृष्ठ परिणामों को आसानी से सहेजें।
@@ -44,3 +50,9 @@ url: /hi/net/ocr-optimization/
 .NET के लिए Aspose.OCR के साथ OCR सटीकता बढ़ाएँ। वर्तनी को सही करें, शब्दकोशों को अनुकूलित करें और त्रुटि रहित पाठ पहचान को सहजता से प्राप्त करें।
 ### [मल्टीपेज परिणाम को ओसीआर छवि पहचान में दस्तावेज़ के रूप में सहेजें](./save-multipage-result-as-document/)
 .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें। इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ बहुपृष्ठ OCR परिणामों को दस्तावेज़ के रूप में सहजता से सहेजें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

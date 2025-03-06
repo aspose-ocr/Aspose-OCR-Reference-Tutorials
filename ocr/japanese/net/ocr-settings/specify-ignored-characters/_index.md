@@ -3,10 +3,16 @@ title: OCR画像認識で無視する文字を指定する
 linktitle: OCR画像認識で無視する文字を指定する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET を使用して高度な OCR 機能を探索してください。効率的かつ正確で、開発者にとって使いやすい。
-type: docs
 weight: 14
 url: /ja/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で無視する文字を指定する
+
 ## 導入
 
 進化し続けるデジタル変革の中で、光学式文字認識 (OCR) は、物理コンテンツとデジタル コンテンツの間のギャップを埋める極めて重要なテクノロジーとして浮上しています。企業の業務のデジタル化が進むにつれ、正確かつ効率的で多用途な OCR ソリューションの必要性が最も重要になっています。 Aspose.OCR for .NET は堅牢な OCR ライブラリとして際立っており、.NET 環境で作業する開発者に高度な機能を提供します。
@@ -100,3 +106,9 @@ A4: Aspose.OCR は幅広い言語をサポートしているため、OCR タス�
 ### Q5: Aspose.OCR の一時ライセンスを購入できますか?
 
  A5: はい、一時ライセンスが必要な場合は取得できます。[ここ](https://purchase.aspose.com/temporary-license/)短期間の使用に。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

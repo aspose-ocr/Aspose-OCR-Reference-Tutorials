@@ -3,10 +3,16 @@ title: OCR設定
 linktitle: OCR設定
 second_title: Aspose.OCR .NET API
 description: OCR 設定チュートリアルを使用して、Aspose.OCR for .NET の機能を最大限に活用してください。画像内のテキスト認識の精度、速度、カスタマイズを強化する方法を学びます。
-type: docs
 weight: 26
 url: /ja/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR設定
+
 
 ## 導入
 
@@ -50,3 +56,9 @@ Aspose.OCR を使用して、.NET で正確な OCR をロック解除します�
 Aspose.OCR for .NET を使用して高度な OCR 機能を探索してください。効率的かつ正確で、開発者にとって使いやすい。
 ### [OCR 画像認識でのさまざまな言語の使用](./working-with-different-languages/)
 Aspose.OCR for .NET を使用して、多言語 OCR の魔法を解き放ちます。さまざまな言語でテキストを簡単に抽出します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

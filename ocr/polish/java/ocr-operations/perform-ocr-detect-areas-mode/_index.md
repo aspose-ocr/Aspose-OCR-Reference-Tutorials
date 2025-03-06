@@ -3,10 +3,16 @@ title: Wykonywanie OCR w trybie wykrywania obszarów w Aspose.OCR
 linktitle: Wykonywanie OCR w trybie wykrywania obszarów w Aspose.OCR
 second_title: Aspose.OCR API Java
 description: Odblokuj moc wyodrębniania tekstu z obrazów za pomocą Aspose.OCR dla Java. Obszerny samouczek na temat OCR w trybie wykrywania obszarów.
-type: docs
 weight: 10
 url: /pl/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykonywanie OCR w trybie wykrywania obszarów w Aspose.OCR
+
 ## Wstęp
 
 W stale rozwijającym się świecie technologii optyczne rozpoznawanie znaków (OCR) odgrywa kluczową rolę w wydobywaniu cennych informacji z obrazów. Aspose.OCR dla Java zapewnia potężne rozwiązanie OCR, umożliwiające programistom płynne wykorzystanie potencjału rozpoznawania tekstu. Ten samouczek poprowadzi Cię przez proces wykonywania OCR w trybie wykrywania obszarów przy użyciu Aspose.OCR dla Java.
@@ -108,3 +114,9 @@ O4: Tak, jak pokazano w tym samouczku, Aspose.OCR oferuje poprawiony tekst spraw
 ### P5: Czy istnieje forum społecznościowe umożliwiające wsparcie Aspose.OCR?
 
  Odpowiedź 5: Tak, możesz znaleźć wsparcie i nawiązać kontakt ze społecznością na stronie[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR 최적화
 linktitle: OCR 최적화
 second_title: Aspose.OCR .NET API
 description: 포괄적인 튜토리얼을 통해 .NET용 Aspose.OCR의 강력한 기능을 활용해 보세요. 숙련된 개발자이든 초보자이든 이 가이드는 OCR 게임의 수준을 높여줄 것입니다.
-type: docs
 weight: 25
 url: /ko/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 최적화
+
 ## 소개
 
 .NET 튜토리얼용 Aspose.OCR을 사용하여 OCR 정확도를 극대화하세요. 이미지에 대해 OCR을 수행하고, 직사각형을 준비하고, 전처리 필터를 적용하고, 맞춤법 검사를 통해 결과를 수정하고, 여러 페이지로 된 결과를 손쉽게 저장하세요.
@@ -44,3 +50,9 @@ url: /ko/net/ocr-optimization/
 .NET용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 철자를 수정하고, 사전을 사용자 정의하고, 오류 없는 텍스트 인식을 쉽게 달성할 수 있습니다.
 ### [OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장](./save-multipage-result-as-document/)
 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이 포괄적인 단계별 가이드를 사용하여 여러 페이지의 OCR 결과를 문서로 쉽게 저장할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
 linktitle: OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nhận dạng hình ảnh OCR bằng danh sách. Tăng năng suất và trích xuất dữ liệu trong các ứng dụng của bạn.
-type: docs
 weight: 13
 url: /vi/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách tận dụng sức mạnh của Aspose.OCR cho .NET để thực hiện nhận dạng hình ảnh OCR với danh sách. Nhận dạng ký tự quang học (OCR) là một công nghệ quan trọng giúp chuyển đổi các loại tài liệu khác nhau—chẳng hạn như tài liệu giấy được quét, PDF hoặc hình ảnh—thành dữ liệu có thể chỉnh sửa và tìm kiếm được.
@@ -105,3 +111,10 @@ A2: Chắc chắn rồi. Aspose.OCR hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Nếu tôi gặp sự cố hoặc có thắc mắc cụ thể trong quá trình triển khai thì sao?
 
  Câu trả lời 5: Vui lòng tìm kiếm sự trợ giúp về[Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận được sự hỗ trợ kịp thời từ cộng đồng và các chuyên gia.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

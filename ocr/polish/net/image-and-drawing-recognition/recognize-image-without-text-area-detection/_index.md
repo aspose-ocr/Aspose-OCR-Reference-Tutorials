@@ -3,10 +3,16 @@ title: Rozpoznaj obraz bez wykrywania obszaru tekstowego w trybie rozpoznawania 
 linktitle: Rozpoznaj obraz bez wykrywania obszaru tekstowego w trybie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potencjał rozpoznawania tekstu za pomocą Aspose.OCR dla .NET. Rozpoznawaj tekst z obrazów bez wysiłku.
-type: docs
 weight: 13
 url: /pl/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznaj obraz bez wykrywania obszaru tekstowego w trybie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 szybko rozwijającym się środowisku technologicznym optyczne rozpoznawanie znaków (OCR) stało się kluczowym narzędziem umożliwiającym maszynom rozumienie tekstu zawartego w obrazach. Aspose.OCR dla .NET wyróżnia się jako solidne rozwiązanie, zapewniające programistom bezproblemową integrację możliwości OCR z ich aplikacjami .NET. W tym samouczku przyjrzymy się, jak rozpoznać tekst z obrazu bez wykrywania obszaru tekstowego, wykonując jasne i zwięzłe kroki z Aspose.OCR dla .NET.
@@ -100,3 +106,9 @@ Odpowiedź 2: Tak, Aspose.OCR dla .NET jest wszechstronny i może być stosowany
 ### P5: Czy dostępne są tymczasowe licencje dla Aspose.OCR?
 
  Odpowiedź 5: Tak, możesz uzyskać licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/) do krótkotrwałego użytkowania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

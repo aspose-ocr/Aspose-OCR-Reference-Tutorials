@@ -3,10 +3,16 @@ title: Toegestane tekens opgeven in Aspose.OCR
 linktitle: Toegestane tekens opgeven in Aspose.OCR
 second_title: Aspose.OCR Java-API
 description: Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
-type: docs
 weight: 15
 url: /nl/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Toegestane tekens opgeven in Aspose.OCR
+
 ## Invoering
 
 In het steeds evoluerende technologische landschap is Optical Character Recognition (OCR) een cruciaal onderdeel geworden voor bedrijven en ontwikkelaars die betekenisvolle informatie uit afbeeldingen willen halen. Aspose.OCR voor Java onderscheidt zich als een krachtig hulpmiddel dat naadloze integratie en efficiënte tekstherkenningsmogelijkheden biedt. Deze uitgebreide gids leidt u door het proces van het benutten van de mogelijkheden van Aspose.OCR voor Java en zorgt voor een soepel traject van installatie tot praktische implementatie.
@@ -105,3 +111,9 @@ A:4 Aspose.OCR blijft bijgewerkt om compatibiliteit met de nieuwste Java Develop
 ### V5: Zijn er aanvullende OCR-functies in Aspose.OCR?
 
 A5: Ontdek de uitgebreide functies en opties die beschikbaar zijn in de documentatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

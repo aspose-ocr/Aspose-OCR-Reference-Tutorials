@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
 linktitle: OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile gelişmiş OCR özelliklerinin kilidini açın. Paragraf dikdörtgenlerini zahmetsizce çıkarın.
-type: docs
 weight: 11
 url: /tr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
+
 ## giriiş
 
 OCR görüntü tanımada paragraf dikdörtgenlerini çıkarmak için Aspose.OCR for .NET'ten yararlanmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Belge işleme yeteneklerinizi geliştirmek ve .NET uygulamalarınızda Optik Karakter Tanıma'nın (OCR) gücünden yararlanmak istiyorsanız doğru yerdesiniz.
@@ -101,3 +107,9 @@ A2: Kesinlikle! Aspose.OCR, birden fazla görüntüyü sorunsuz bir şekilde iş
 ### S5: Aspose.OCR ile ilgili ek destek ve tartışmaları nerede bulabilirim?
 
  A5: Şuraya gidin:[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

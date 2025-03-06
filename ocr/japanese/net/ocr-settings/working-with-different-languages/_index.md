@@ -3,10 +3,16 @@ title: OCR 画像認識でのさまざまな言語の使用
 linktitle: OCR 画像認識でのさまざまな言語の使用
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET を使用して、多言語 OCR の魔法を解き放ちます。さまざまな言語でテキストを簡単に抽出します。
-type: docs
 weight: 15
 url: /ja/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 画像認識でのさまざまな言語の使用
+
 ## 導入
 
 Aspose.OCR for .NET の世界へようこそ。ここでは、光学式文字認識 (OCR) の能力と多言語サポートの多用途性が融合しています。このチュートリアルでは、Aspose.OCR for .NET の機能を利用して、さまざまな言語のテキストを簡単に認識する方法を検討します。さまざまな言語の OCR 画像認識の背後にある魔法について疑問に思ったことがあるなら、あなたは正しい場所にいます。
@@ -100,3 +106,9 @@ A2：もちろんです！ Aspose.OCR は幅広い言語をサポートしてい
 ### Q5: ドキュメントにアクセスするにはどうすればよいですか?
 
  A5: Aspose.OCR for .NET のドキュメントが入手可能です。[ここ](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

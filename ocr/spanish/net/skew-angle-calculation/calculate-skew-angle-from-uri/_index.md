@@ -3,10 +3,16 @@ title: Calcule el ángulo de inclinación a partir de URI en el reconocimiento d
 linktitle: Calcule el ángulo de inclinación a partir de URI en el reconocimiento de imágenes OCR
 second_title: API Aspose.OCR .NET
 description: Explore Aspose.OCR para .NET para calcular sin esfuerzo ángulos de inclinación en el reconocimiento de imágenes OCR. Mejore sus proyectos con precisión y eficiencia.
-type: docs
 weight: 12
 url: /es/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcule el ángulo de inclinación a partir de URI en el reconocimiento de imágenes OCR
+
 ## Introducción
 
 ¡Bienvenido al mundo de Aspose.OCR para .NET! En este completo tutorial, profundizaremos en las complejidades de utilizar Aspose.OCR para .NET para calcular el ángulo de inclinación desde un URI en el reconocimiento de imágenes OCR. Esta poderosa herramienta abre nuevas posibilidades en el reconocimiento óptico de caracteres, haciendo que el proceso sea más fluido y eficiente.
@@ -92,3 +98,9 @@ R4: Asegúrese de haber importado los espacios de nombres necesarios a su proyec
 ### P5: ¿Dónde puedo encontrar documentación completa sobre Aspose.OCR para .NET?
 
  R5: Consulte el[documentación](https://reference.aspose.com/ocr/net/) para obtener información detallada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

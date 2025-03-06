@@ -1,12 +1,17 @@
 ---
 title: Aspose.OCR for Java 综合教程和示例
 linktitle: Aspose.OCR Java 教程
-type: docs
 weight: 10
 url: /zh/java/
 description: 释放 Aspose.OCR for Java 的强大功能！学习 OCR 基础知识、操作和高级技术。轻松设置许可证、检测区域并增强文本识别。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for Java 综合教程和示例
+
 
 ## 介绍
 
@@ -32,3 +37,9 @@ is_root: true
 通过我们全面的 OCR 教程释放 Aspose.OCR for Java 的潜力。只需几个步骤即可学习检测区域模式、语言选择、PDF 和 TIFF 识别！
 ### [先进的 OCR 技术](./advanced-ocr-techniques/)
 使用 Aspose.OCR for Java 轻松对图像执行 OCR。高精度无缝提取文本。通过多功能文本识别增强您的 Java 项目。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

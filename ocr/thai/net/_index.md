@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.OCR สำหรับ .NET
 linktitle: Aspose.OCR สำหรับบทช่วยสอน .NET
-type: docs
 weight: 10
 url: /th/net/
 description: ปลดล็อกความแม่นยำในการจดจำภาพ OCR ด้วย Aspose.OCR สำหรับ .NET สำรวจบทช่วยสอนเกี่ยวกับการคำนวณมุมเอียง การจดจำข้อความ การกำหนดค่า OCR และการเพิ่มประสิทธิภาพ
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.OCR สำหรับ .NET
+
 
 ## การแนะนำ
 
@@ -51,3 +56,9 @@ is_root: true
 เพิ่มความแม่นยำของ OCR ให้สูงสุดด้วย Aspose.OCR สำหรับบทช่วยสอน .NET ทำ OCR บนรูปภาพ เตรียมสี่เหลี่ยม ใช้ตัวกรองที่ประมวลผลล่วงหน้า แก้ไขผลลัพธ์ด้วยการตรวจตัวสะกด และบันทึกผลลัพธ์หลายหน้าได้อย่างง่ายดาย
 ### [การตั้งค่าโอซีอาร์](./ocr-settings/)
 ปลดล็อกพลังของ Aspose.OCR สำหรับ .NET ด้วยบทช่วยสอนการตั้งค่า OCR ของเรา เรียนรู้เพื่อเพิ่มความแม่นยำ ความเร็ว และการปรับแต่งสำหรับการจดจำข้อความในรูปภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

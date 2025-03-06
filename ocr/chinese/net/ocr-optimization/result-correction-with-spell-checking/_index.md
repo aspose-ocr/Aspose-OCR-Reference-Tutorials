@@ -3,10 +3,16 @@ title: OCR 图像识别中的拼写检查结果校正
 linktitle: OCR 图像识别中的拼写检查结果校正
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 提高 OCR 准确性。轻松纠正拼写、自定义词典并实现无差错的文本识别。
-type: docs
 weight: 13
 url: /zh/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 图像识别中的拼写检查结果校正
+
 ## 介绍
 
 在光学字符识别 (OCR) 领域，获得准确的结果对于从图像中提取有意义的信息至关重要。一项常见的挑战是在识别过程中处理拼写错误的单词。幸运的是，Aspose.OCR for .NET 提供了一个强大的解决方案，可以通过拼写检查来增强 OCR 结果。
@@ -136,3 +142,9 @@ A4：当然！本教程演示了如何使用用户提供的词典来增强更正
 ### Q5：我在哪里可以寻求Aspose.OCR的支持？
 
  A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)以获得社区的支持和指导。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

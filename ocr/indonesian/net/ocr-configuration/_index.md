@@ -3,10 +3,16 @@ title: Konfigurasi OCR
 linktitle: Konfigurasi OCR
 second_title: Aspose.OCR .NET API
 description: Sempurnakan aplikasi .NET Anda dengan mudah dengan Aspose.OCR. Jelajahi tutorial konfigurasi OCR, termasuk arsip, folder, pemilihan bahasa, dan operasi daftar.
-type: docs
 weight: 24
 url: /id/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konfigurasi OCR
+
 ## Perkenalan
 
 Mulailah perjalanan untuk memanfaatkan potensi penuh Pengenalan Karakter Optik (OCR) dalam aplikasi .NET dengan Aspose.OCR. Baik Anda seorang pengembang berpengalaman atau pendatang baru di OCR, tutorial ini akan memandu Anda melalui berbagai operasi OCR, memastikan Anda membuka kekuatan ekstraksi teks dengan mudah.
@@ -33,3 +39,9 @@ Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks deng
 Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mulus.
 ### [Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR](./ocr-operation-with-list/)
 Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan mudah menggunakan daftar. Tingkatkan produktivitas dan ekstraksi data dalam aplikasi Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

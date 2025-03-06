@@ -3,10 +3,16 @@ title: Aspose.OCR에서 OCR을 위한 직사각형 준비
 linktitle: Aspose.OCR에서 OCR을 위한 직사각형 준비
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 효율적인 OCR 기능으로 Java 애플리케이션을 강화하세요.
-type: docs
 weight: 13
 url: /ko/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR에서 OCR을 위한 직사각형 준비
+
 ## 소개
 
 빠르게 변화하는 기술 세계에서 이미지에서 텍스트를 추출하는 것은 중요한 작업이 되어 수많은 가능성의 문을 열어줍니다. Java용 Aspose.OCR은 복잡한 광학 문자 인식(OCR) 프로세스를 단순화하는 강력한 도구입니다. 이 포괄적인 가이드에서는 Java용 Aspose.OCR의 잠재력을 활용하여 텍스트 인식을 Java 애플리케이션에 원활하게 통합할 수 있는 필수 단계를 안내합니다.
@@ -112,3 +118,9 @@ A2: 네, 가능합니다. 방문하다[구매 페이지](https://purchase.aspose
 ### Q5: 도움이 필요하거나 질문이 있나요?
 
  A5: Aspose.OCR 커뮤니티를 방문하세요.[법정](https://forum.aspose.com/c/ocr/16) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

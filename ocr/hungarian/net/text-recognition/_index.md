@@ -3,10 +3,16 @@ title: Szövegfelismerés
 linktitle: Szövegfelismerés
 second_title: Aspose.OCR .NET API
 description: Emelje fel .NET-alkalmazásait az Aspose.OCR segítségével a pontos karakterfelismerés érdekében. Fedezze fel az oktatóanyagokat a választási lehetőségek, az eredmények és a JSON-formátumok megszerzéséhez az OCR képfelismerésben.
-type: docs
 weight: 21
 url: /hu/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegfelismerés
+
 ## Bevezetés
 
 Készen áll arra, hogy .NET alkalmazásait a következő szintre emelje? Merüljön el a szövegfelismerés világában az Aspose.OCR segítségével, és tökéletesítse projektjeit pontos karakterfelismeréssel és zökkenőmentes képfeldolgozással.
@@ -49,3 +55,9 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

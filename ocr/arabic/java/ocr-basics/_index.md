@@ -3,10 +3,16 @@ title: أساسيات التعرف الضوئي على الحروف
 linktitle: أساسيات التعرف الضوئي على الحروف
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لإمكانات Aspose.OCR في Java! دليل خطوة بخطوة لإعداد الترخيص الخاص بك وتعزيز قدرات التعرف الضوئي على الحروف. حساب زوايا الانحراف واستخراج النص بسلاسة.
-type: docs
 weight: 20
 url: /ar/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أساسيات التعرف الضوئي على الحروف
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ Java؟ سيرشدك هذا الدليل الشامل عبر البرامج التعليمية الأساسية، مما يضمن تحقيق أقصى استفادة من هذه الأداة القوية. دعونا الغوص في!
@@ -35,3 +41,9 @@ url: /ar/java/ocr-basics/
 تعزيز دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ Java. تعلم كيفية حساب زوايا الانحراف خطوة بخطوة. تحسين معالجة المستندات دون عناء.
 ### [الحصول على مستطيلات ذات مناطق نصية في Aspose.OCR](./get-rectangles-with-text-areas/)
 أطلق العنان لقوة Aspose.OCR لـ Java. تعرف على كيفية استخراج النص من الصور بسلاسة في هذا الدليل التفصيلي خطوة بخطوة. قم بالتنزيل الآن للتعرف على النص بكفاءة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

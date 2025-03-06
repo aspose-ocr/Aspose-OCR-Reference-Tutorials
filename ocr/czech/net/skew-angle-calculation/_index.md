@@ -3,10 +3,16 @@ title: Výpočet úhlu zkosení
 linktitle: Výpočet úhlu zkosení
 second_title: Aspose.OCR .NET API
 description: Odhalte tajemství přesného výpočtu úhlu zkosení v rozpoznávání obrazu OCR s Aspose.OCR pro .NET. Zvyšte přesnost a efektivitu ve svých projektech bez námahy.
-type: docs
 weight: 20
 url: /cs/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Výpočet úhlu zkosení
+
 ## Úvod
 
 Usilujete o dokonalé rozpoznávání textu ve svých aplikacích C#? Už nehledejte! Naše výukové programy pro výpočet úhlu zkosení, založené na Aspose.OCR pro .NET, vás provedou složitým procesem s jemností.
@@ -34,3 +40,9 @@ Prozkoumejte Aspose.OCR for .NET, výkonné řešení OCR pro přesné rozpozná
 Uvolněte sílu Aspose.OCR pro .NET, robustního řešení pro rozpoznávání obrázků. Naučte se bez námahy vypočítat úhly zkosení.
 ### [Vypočítat úhel zkosení z URI v rozpoznávání obrazu OCR](./calculate-skew-angle-from-uri/)
 Prozkoumejte Aspose.OCR for .NET, abyste mohli snadno vypočítat úhly zkosení při rozpoznávání obrazu OCR. Vylepšete své projekty s přesností a efektivitou.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

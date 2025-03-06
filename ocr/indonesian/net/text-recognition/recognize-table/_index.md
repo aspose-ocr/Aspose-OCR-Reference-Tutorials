@@ -3,10 +3,16 @@ title: Kenali Tabel dalam Pengenalan Gambar OCR
 linktitle: Kenali Tabel dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
-type: docs
 weight: 15
 url: /id/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kenali Tabel dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET yang menakjubkan! Jika Anda ingin menyempurnakan aplikasi .NET Anda dengan kemampuan OCR (Optical Character Recognition) yang canggih, Anda berada di tempat yang tepat. Panduan langkah demi langkah ini akan memandu Anda melalui proses pengenalan tabel dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
@@ -95,3 +101,9 @@ Kesimpulannya, Aspose.OCR untuk .NET memberdayakan pengembang untuk mengintegras
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.OCR?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR-Grundlagen
 linktitle: OCR-Grundlagen
 second_title: Aspose.OCR Java-API
 description: Nutzen Sie das Potenzial von Aspose.OCR in Java! Schritt-für-Schritt-Anleitung zum Einrichten Ihrer Lizenz und zum Erweitern der OCR-Funktionen. Berechnen Sie Schräglaufwinkel und extrahieren Sie Text nahtlos.
-type: docs
 weight: 20
 url: /de/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-Grundlagen
+
 ## Einführung
 
 Sind Sie bereit, Ihr OCR-Spiel mit Aspose.OCR für Java zu verbessern? Dieser umfassende Leitfaden führt Sie durch die wichtigsten Tutorials und stellt sicher, dass Sie dieses leistungsstarke Tool optimal nutzen. Lass uns eintauchen!
@@ -35,3 +41,9 @@ Nutzen Sie mit dieser Schritt-für-Schritt-Anleitung das Potenzial von Aspose.OC
 Verbessern Sie die OCR-Genauigkeit mit Aspose.OCR für Java. Erfahren Sie Schritt für Schritt, wie Sie Schräglaufwinkel berechnen. Verbessern Sie mühelos die Dokumentenverarbeitung.
 ### [Erhalten von Rechtecken mit Textbereichen in Aspose.OCR](./get-rectangles-with-text-areas/)
 Nutzen Sie die Leistungsfähigkeit von Aspose.OCR für Java. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie nahtlos Text aus Bildern extrahieren. Jetzt herunterladen für eine effiziente Texterkennung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCRHoạt động với Lưu trữ trong Nhận dạng hình ảnh OCR
 linktitle: OCRHoạt động với Lưu trữ trong Nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Tìm hiểu cách trích xuất văn bản từ hình ảnh lưu trữ theo từng bước.
-type: docs
 weight: 10
 url: /vi/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRHoạt động với Lưu trữ trong Nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới Nhận dạng ký tự quang học (OCR) được thực hiện liền mạch và hiệu quả với Aspose.OCR cho .NET. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình thực hiện các thao tác OCR trên lưu trữ hình ảnh bằng thư viện Aspose.OCR. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, hướng dẫn này sẽ trang bị cho bạn kiến thức để khai thác toàn bộ tiềm năng của OCR trong các ứng dụng .NET của bạn.
@@ -119,3 +125,9 @@ A4: Chắc chắn rồi! Aspose.OCR cho .NET cung cấp tính linh hoạt trong 
 ### Câu hỏi 5: Aspose.OCR cho .NET được cập nhật bao lâu một lần?
 
  Câu trả lời 5: Luôn cập nhật các tính năng và cải tiến mới nhất bằng cách kiểm tra[tài liệu](https://reference.aspose.com/ocr/net/) thường xuyên.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

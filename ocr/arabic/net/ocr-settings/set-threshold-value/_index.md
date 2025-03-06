@@ -3,10 +3,16 @@ title: قم بتعيين قيمة العتبة في التعرف على الصو
 linktitle: قم بتعيين قيمة العتبة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: استكشف Aspose.OCR for .NET، وهو حل قوي للتعرف الضوئي على الحروف. قم بتعيين قيم العتبة المخصصة دون عناء. تعزيز التعرف على النص في التطبيقات الخاصة بك.
-type: docs
 weight: 12
 url: /ar/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين قيمة العتبة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR المثير لـ .NET! في هذا البرنامج التعليمي، سوف نتعمق في إمكانيات Aspose.OCR، وهي أداة قوية مصممة لتسهيل التعرف البصري على الأحرف في تطبيقات .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال عملية تعيين قيمة الحد في التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ .NET.
@@ -99,3 +105,9 @@ Console.WriteLine("SetThresholdValue executed successfully");
 ### س5: كيف يمكنني شراء الإصدار الكامل من Aspose.OCR لـ .NET؟
 
  ج5: لفتح كافة الميزات، قم بزيارة صفحة الشراء[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

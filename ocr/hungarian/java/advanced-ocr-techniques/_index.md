@@ -3,10 +3,16 @@ title: Fejlett OCR technikák
 linktitle: Fejlett OCR technikák
 second_title: Aspose.OCR Java API
 description: Könnyedén végezzen OCR-t a képeken az Aspose.OCR for Java segítségével. Szöveg zökkenőmentes kibontása nagy pontossággal. Javítsa Java-projektjeit sokoldalú szövegfelismeréssel.
-type: docs
 weight: 22
 url: /hu/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fejlett OCR technikák
+
 ## Bevezetés
 
 Készen áll arra, hogy Java projektjeit a következő szintre emelje? Merüljön el a fejlett OCR-technikák világában az Aspose.OCR for Java segítségével. Ebben az átfogó útmutatóban különféle oktatóanyagokat fedezünk fel, amelyek segítségével könnyedén kinyerhet szöveget a képekből.
@@ -55,3 +61,9 @@ Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével.
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
 Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésenkénti útmutatónkat a hatékony integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

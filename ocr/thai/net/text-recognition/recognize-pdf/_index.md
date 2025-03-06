@@ -3,10 +3,16 @@ title: รับรู้ PDF ในการรับรู้ภาพ OCR
 linktitle: รับรู้ PDF ในการรับรู้ภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
-type: docs
 weight: 14
 url: /th/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับรู้ PDF ในการรับรู้ภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกแห่งการรู้จำอักขระด้วยแสง (OCR) ด้วย Aspose.OCR สำหรับ .NET! หากคุณกระตือรือร้นที่จะควบคุมความสามารถของ OCR ในแอปพลิเคชัน .NET ของคุณ แสดงว่าคุณมาถูกที่แล้ว ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจวิธีจดจำข้อความใน PDF โดยใช้ไลบรารี Aspose.OCR ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการ เพื่อให้มั่นใจว่าคุณสามารถรวมฟังก์ชัน OCR เข้ากับโปรเจ็กต์ของคุณได้อย่างง่ายดาย
@@ -101,3 +107,9 @@ A2: แน่นอน! Aspose.OCR ผสานรวมเข้ากับแ
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.OCR สำหรับ .NET ได้ที่ไหน
 
  A5: คุณสามารถซื้อผลิตภัณฑ์ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

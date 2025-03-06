@@ -3,10 +3,16 @@ title: ओसीआर छवि पहचान में पुरालेख
 linktitle: ओसीआर छवि पहचान में पुरालेख के साथ ओसीआरऑपरेशन
 second_title: Aspose.OCR .NET एपीआई
 description: Aspose.OCR के साथ .NET अनुप्रयोगों में OCR की क्षमता को अनलॉक करें। संग्रहित छवियों से चरण-दर-चरण पाठ निकालना सीखें।
-type: docs
 weight: 10
 url: /hi/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर छवि पहचान में पुरालेख के साथ ओसीआरऑपरेशन
+
 ## परिचय
 
 .NET के लिए Aspose.OCR के साथ सहज और कुशल बनाई गई ऑप्टिकल कैरेक्टर रिकॉग्निशन (OCR) की दुनिया में आपका स्वागत है। इस व्यापक गाइड में, हम आपको Aspose.OCR लाइब्रेरी का उपयोग करके संग्रहित छवियों पर OCR संचालन करने की प्रक्रिया के बारे में बताएंगे। चाहे आप एक अनुभवी डेवलपर हों या जिज्ञासु शुरुआती, यह ट्यूटोरियल आपको अपने .NET अनुप्रयोगों में OCR की पूरी क्षमता का उपयोग करने के ज्ञान से लैस करेगा।
@@ -119,3 +125,9 @@ for (int i = 0; i < result.Length; i++)
 ### Q5: .NET के लिए Aspose.OCR को कितनी बार अपडेट किया जाता है?
 
  A5: जाँच करके नवीनतम सुविधाओं और सुधारों से अपडेट रहें[प्रलेखन](https://reference.aspose.com/ocr/net/) नियमित रूप से।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

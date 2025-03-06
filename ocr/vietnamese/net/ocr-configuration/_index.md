@@ -3,10 +3,16 @@ title: Cấu hình OCR
 linktitle: Cấu hình OCR
 second_title: API Aspose.OCR .NET
 description: Dễ dàng nâng cao các ứng dụng .NET của bạn với Aspose.OCR. Khám phá các hướng dẫn cấu hình OCR, bao gồm các thao tác lưu trữ, thư mục, lựa chọn ngôn ngữ và danh sách.
-type: docs
 weight: 24
 url: /vi/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cấu hình OCR
+
 ## Giới thiệu
 
 Bắt tay vào hành trình khai thác toàn bộ tiềm năng của Nhận dạng ký tự quang học (OCR) trong các ứng dụng .NET với Aspose.OCR. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới làm quen với OCR, những hướng dẫn này sẽ hướng dẫn bạn qua nhiều thao tác OCR khác nhau, đảm bảo bạn khai thác được sức mạnh của việc trích xuất văn bản một cách dễ dàng.
@@ -33,3 +39,9 @@ Khai phá sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspo
 Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
 ### [OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR](./ocr-operation-with-list/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nhận dạng hình ảnh OCR bằng danh sách. Tăng năng suất và trích xuất dữ liệu trong các ứng dụng của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

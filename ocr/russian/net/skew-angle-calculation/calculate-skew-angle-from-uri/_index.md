@@ -3,10 +3,16 @@ title: Вычислить угол наклона по URI в распознав
 linktitle: Вычислить угол наклона по URI в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Изучите Aspose.OCR для .NET, чтобы легко вычислять углы перекоса при распознавании изображений OCR. Усовершенствуйте свои проекты с точностью и эффективностью.
-type: docs
 weight: 12
 url: /ru/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вычислить угол наклона по URI в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в мир Aspose.OCR для .NET! В этом подробном руководстве мы углубимся в тонкости использования Aspose.OCR для .NET для расчета угла наклона по URI при распознавании изображений OCR. Этот мощный инструмент открывает новые возможности оптического распознавания символов, делая процесс более плавным и эффективным.
@@ -92,3 +98,9 @@ A4. Убедитесь, что в ваш проект импортированы
 ### Вопрос 5: Где я могу найти подробную документацию по Aspose.OCR для .NET?
 
  A5: См.[документация](https://reference.aspose.com/ocr/net/) для получения подробной информации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thực hiện OCR với Chế độ phát hiện khu vực trong Aspose.O
 linktitle: Thực hiện OCR với Chế độ phát hiện khu vực trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Khai phá sức mạnh của việc trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho Java. Hướng dẫn toàn diện về OCR với Chế độ phát hiện khu vực.
-type: docs
 weight: 10
 url: /vi/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR với Chế độ phát hiện khu vực trong Aspose.OCR
+
 ## Giới thiệu
 
 Trong thế giới công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc trích xuất thông tin có giá trị từ hình ảnh. Aspose.OCR cho Java cung cấp một giải pháp mạnh mẽ cho OCR, cho phép các nhà phát triển khai thác tiềm năng nhận dạng văn bản một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình thực hiện OCR với Chế độ phát hiện khu vực bằng Aspose.OCR cho Java.
@@ -108,3 +114,9 @@ Câu trả lời 4: Có, như được minh họa trong hướng dẫn này, Asp
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào hỗ trợ Aspose.OCR không?
 
  Câu trả lời 5: Có, bạn có thể tìm thấy sự hỗ trợ và tương tác với cộng đồng trên[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

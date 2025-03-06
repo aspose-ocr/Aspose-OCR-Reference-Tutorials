@@ -3,10 +3,16 @@ title: Wykonaj OCR obrazu w trybie rozpoznawania obrazu OCR
 linktitle: Wykonaj OCR obrazu w trybie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj magię OCR za pomocą Aspose.OCR dla .NET, bez wysiłku wyodrębniając tekst z obrazów. Zapoznaj się z samouczkiem dotyczącym bezproblemowej integracji.
-type: docs
 weight: 14
 url: /pl/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykonaj OCR obrazu w trybie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 dzisiejszym świecie napędzanym technologią optyczne rozpoznawanie znaków (OCR) odgrywa kluczową rolę w wydobywaniu cennych informacji z obrazów. Aspose.OCR dla .NET zapewnia programistom solidny zestaw narzędzi do bezproblemowej integracji funkcji OCR z ich aplikacjami. Ten przewodnik krok po kroku przeprowadzi Cię przez proces wykonywania OCR na obrazie przy użyciu Aspose.OCR dla .NET, zamieniając obrazy w tekst, który można przeszukiwać i edytować.
@@ -98,3 +104,9 @@ Odpowiedź 2: Tak, możesz uzyskać tymczasową licencję na Aspose.OCR, aby mó
 ### P5: Czy przed zakupem mogę bezpłatnie wypróbować Aspose.OCR dla .NET?
 
  Odpowiedź 5: Oczywiście, możesz eksplorować funkcje za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/) Aspose.OCR dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

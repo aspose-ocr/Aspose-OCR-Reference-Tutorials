@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.OCR для .NET
 linktitle: Учебные пособия по Aspose.OCR для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Откройте для себя точность распознавания изображений OCR с помощью Aspose.OCR для .NET. Изучите учебные пособия по расчету угла перекоса, распознаванию текста, настройке оптического распознавания символов и оптимизации.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.OCR для .NET
+
 
 ## Введение
 
@@ -51,3 +56,9 @@ is_root: true
 Максимизируйте точность распознавания с помощью учебных пособий Aspose.OCR для .NET. Выполняйте распознавание изображений, подготавливайте прямоугольники, применяйте фильтры предварительной обработки, исправляйте результаты с помощью проверки орфографии и легко сохраняйте многостраничные результаты.
 ### [Настройки оптического распознавания символов](./ocr-settings/)
 Раскройте возможности Aspose.OCR для .NET с помощью наших руководств по настройке OCR. Узнайте, как повысить точность, скорость и настройку распознавания текста на изображениях.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

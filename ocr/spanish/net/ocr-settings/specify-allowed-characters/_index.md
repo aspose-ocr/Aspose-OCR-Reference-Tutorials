@@ -3,10 +3,16 @@ title: Especificar caracteres permitidos en el reconocimiento de imágenes OCR
 linktitle: Especificar caracteres permitidos en el reconocimiento de imágenes OCR
 second_title: API Aspose.OCR .NET
 description: Desbloquee OCR preciso en .NET con Aspose.OCR. Reconoce texto de imágenes sin esfuerzo. Descárguelo ahora para vivir una experiencia de desarrollo transformadora.
-type: docs
 weight: 13
 url: /es/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificar caracteres permitidos en el reconocimiento de imágenes OCR
+
 ## Introducción
 
 En el panorama tecnológico en constante evolución, el reconocimiento óptico de caracteres (OCR) se ha convertido en una herramienta transformadora que permite a las máquinas comprender texto a partir de imágenes. Aspose.OCR para .NET se destaca como una solución poderosa que brinda una integración perfecta para los desarrolladores que buscan capacidades sólidas de OCR en sus aplicaciones .NET.
@@ -119,3 +125,9 @@ R2: Sí, Aspose.OCR admite el reconocimiento en varios idiomas, lo que lo hace v
 ### P5: ¿Dónde puedo buscar ayuda o conectarme con la comunidad para obtener apoyo?
 
  A5: Visita el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para interactuar con la comunidad y obtener asistencia de expertos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

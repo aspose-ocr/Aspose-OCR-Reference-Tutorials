@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Klasörle OCR İşlemi
 linktitle: OCR Görüntü Tanıma'da Klasörle OCR İşlemi
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR ile .NET'te OCR görüntü tanımanın gücünün kilidini açın. Görüntülerden metni zahmetsizce çıkarın.
-type: docs
 weight: 11
 url: /tr/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Klasörle OCR İşlemi
+
 ## giriiş
 
 Aspose.OCR for .NET kullanarak Optik Karakter Tanıma (OCR) dünyasına hoş geldiniz! .NET uygulamalarınızda görsellerden sorunsuz bir şekilde metin çıkarmak istiyorsanız doğru yerdesiniz. Bu eğitim, Aspose.OCR'ın güçlü özelliklerinden yararlanarak, klasörlerle OCR görüntü tanıma sürecinde size rehberlik edecektir.
@@ -118,3 +124,9 @@ Tebrikler! Aspose.OCR for .NET kullanarak OCR görüntü tanımayı klasörlere 
 ### S5: Desteğe mi ihtiyacınız var veya sorularınız mı var?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

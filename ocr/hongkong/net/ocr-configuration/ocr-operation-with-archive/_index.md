@@ -3,10 +3,16 @@ title: OCR 影像辨識中的 OCROperation 與 Archive
 linktitle: OCR 影像辨識中的 OCROperation 與 Archive
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 釋放 .NET 應用程式中 OCR 的潛力。學習逐步從存檔圖像中提取文字。
-type: docs
 weight: 10
 url: /zh-hant/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中的 OCROperation 與 Archive
+
 ## 介紹
 
 歡迎來到使用 Aspose.OCR for .NET 實現無縫、高效的光學字元辨識 (OCR) 世界。在本綜合指南中，我們將引導您完成使用 Aspose.OCR 庫對存檔影像執行 OCR 操作的過程。無論您是經驗豐富的開發人員還是好奇的初學者，本教學都將為您提供在 .NET 應用程式中充分利用 OCR 潛力的知識。
@@ -119,3 +125,9 @@ A4：當然！ Aspose.OCR for .NET 提供了自訂識別設定的彈性。
 ### Q5：Aspose.OCR for .NET 多久更新一次？
 
  A5：透過檢查來了解最新的功能和改進[文件](https://reference.aspose.com/ocr/net/)經常。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

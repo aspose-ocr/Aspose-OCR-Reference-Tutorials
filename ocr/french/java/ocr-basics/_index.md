@@ -3,10 +3,16 @@ title: Bases de la ROC
 linktitle: Bases de la ROC
 second_title: API Java Aspose.OCR
 description: Libérez le potentiel d’Aspose.OCR en Java ! Guide étape par étape pour configurer votre licence et améliorer les capacités OCR. Calculez les angles d'inclinaison et extrayez le texte de manière transparente.
-type: docs
 weight: 20
 url: /fr/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bases de la ROC
+
 ## Introduction
 
 Êtes-vous prêt à améliorer votre jeu OCR avec Aspose.OCR pour Java ? Ce guide complet vous guidera à travers des didacticiels essentiels, vous assurant de tirer le meilleur parti de cet outil puissant. Allons-y !
@@ -35,3 +41,9 @@ Libérez le potentiel d'Aspose.OCR pour Java avec ce guide étape par étape. Co
 Améliorez la précision de l'OCR avec Aspose.OCR pour Java. Apprenez à calculer les angles d'inclinaison étape par étape. Améliorez le traitement des documents sans effort.
 ### [Obtenir des rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
 Libérez la puissance d’Aspose.OCR pour Java. Découvrez comment extraire du texte à partir d'images de manière transparente dans ce guide étape par étape. Téléchargez-le maintenant pour une reconnaissance de texte efficace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

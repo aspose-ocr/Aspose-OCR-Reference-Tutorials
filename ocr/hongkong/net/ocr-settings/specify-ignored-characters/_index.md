@@ -3,10 +3,16 @@ title: 指定 OCR 影像辨識中忽略的字符
 linktitle: 指定 OCR 影像辨識中忽略的字符
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 探索進階 OCR 功能。高效、準確且對開發人員友好。
-type: docs
 weight: 14
 url: /zh-hant/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 指定 OCR 影像辨識中忽略的字符
+
 ## 介紹
 
 在不斷發展的數位轉型領域，光學字元辨識 (OCR) 已成為一項關鍵技術，彌合了實體內容和數位內容之間的差距。隨著企業日益數位化運營，對準確、高效且多功能的 OCR 解決方案的需求變得至關重要。 Aspose.OCR for .NET 作為一個強大的 OCR 庫脫穎而出，為在 .NET 環境中工作的開發人員提供高級功能。
@@ -100,3 +106,9 @@ A4：Aspose.OCR 支援多種語言，使其成為 OCR 任務的多功能選擇�
 ### Q5：我可以購買 Aspose.OCR 的臨時許可證嗎？
 
  A5: 是的，如果您需要臨時許可證，您可以獲得它[這裡](https://purchase.aspose.com/temporary-license/)供短期使用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

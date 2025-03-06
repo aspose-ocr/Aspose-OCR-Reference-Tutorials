@@ -3,10 +3,16 @@ title: Calculate Skew Angle in OCR Image Recognition
 linktitle: Calculate Skew Angle in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Explore Aspose.OCR for .NET, a powerful OCR solution for accurate text recognition in your C# applications.
-type: docs
 weight: 10
 url: /net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculate Skew Angle in OCR Image Recognition
+
 ## Introduction
 
 Welcome to the world of Aspose.OCR for .NET, a powerful tool that empowers developers to seamlessly integrate optical character recognition (OCR) capabilities into their .NET applications. In this comprehensive guide, we'll delve into a specific use case: calculating the skew angle in OCR image recognition. This tutorial is designed for both novice and experienced developers, providing a step-by-step walkthrough to ensure you harness the full potential of Aspose.OCR.
@@ -105,3 +111,10 @@ A4: For any queries or discussions, head over to the [Aspose.OCR forums](https:/
 ### Q5: Is there a free trial available for Aspose.OCR?
 
 A5: Certainly! Explore the features with the [free trial version](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

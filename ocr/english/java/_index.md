@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials & Examples of Aspose.OCR for Java
 linktitle: Aspose.OCR for Java Tutorials
-type: docs
 weight: 10
 url: /java/
 description: Unlock the power of Aspose.OCR for Java! Learn OCR basics, operations, and advanced techniques. Set up your license, detect areas, and enhance text recognition effortlessly.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials & Examples of Aspose.OCR for Java
+
 
 ## Introduction
 
@@ -32,3 +37,9 @@ Unlock Aspose.OCR's potential in Java! Step-by-step guide to set up your license
 Unlock the potential of Aspose.OCR for Java with our comprehensive OCR tutorials. Learn Detect Areas Mode, Language Selection, PDF, and TIFF recognition in just a few steps!
 ### [Advanced OCR Techniques](./advanced-ocr-techniques/)
 Effortlessly perform OCR on images using Aspose.OCR for Java. Extract text seamlessly with high accuracy. Enhance your Java projects with versatile text recognition.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

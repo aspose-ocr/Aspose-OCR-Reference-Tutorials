@@ -3,10 +3,16 @@ title: التعرف على الصورة دون اكتشاف منطقة النص 
 linktitle: التعرف على الصورة دون اكتشاف منطقة النص في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات التعرف على النص باستخدام Aspose.OCR لـ .NET. التعرف على النص من الصور دون عناء.
-type: docs
 weight: 13
 url: /ar/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الصورة دون اكتشاف منطقة النص في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 في عالم التكنولوجيا سريع التطور، أصبح التعرف الضوئي على الحروف (OCR) أداة محورية، تمكن الآلات من فهم النص داخل الصور. يبرز Aspose.OCR for .NET كحل قوي، حيث يوفر للمطورين طريقة سلسة لدمج إمكانات OCR في تطبيقات .NET الخاصة بهم. في هذا البرنامج التعليمي، سوف نستكشف كيفية التعرف على النص من صورة دون الكشف عن منطقة النص، وذلك باستخدام خطوات واضحة وموجزة مع Aspose.OCR لـ .NET.
@@ -100,3 +106,9 @@ Console.WriteLine("RecognizeImageWithoutTextAreaDetection executed successfully"
 ### س5: هل التراخيص المؤقتة متاحة لـ Aspose.OCR؟
 
  ج5: نعم، يمكنك الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/) للاستخدام على المدى القصير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

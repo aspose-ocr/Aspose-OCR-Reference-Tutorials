@@ -3,10 +3,16 @@ title: OCR 기본
 linktitle: OCR 기본
 second_title: Aspose.OCR 자바 API
 description: Java에서 Aspose.OCR의 잠재력을 잠금 해제하세요! 라이센스를 설정하고 OCR 기능을 강화하기 위한 단계별 가이드입니다. 기울어짐 각도를 계산하고 텍스트를 원활하게 추출합니다.
-type: docs
 weight: 20
 url: /ko/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 기본
+
 ## 소개
 
 Java용 Aspose.OCR로 OCR 게임을 향상시킬 준비가 되셨습니까? 이 포괄적인 가이드는 필수 튜토리얼을 안내하여 이 강력한 도구를 최대한 활용할 수 있도록 도와줍니다. 뛰어들어보자!
@@ -35,3 +41,9 @@ Java용 Aspose.OCR을 사용하여 이미지에서 텍스트를 원활하게 추
 Java용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 경사각을 계산하는 방법을 단계별로 알아보세요. 손쉽게 문서 처리를 개선하세요.
 ### [Aspose.OCR에서 텍스트 영역으로 직사각형 얻기](./get-rectangles-with-text-areas/)
 Java용 Aspose.OCR의 강력한 기능을 활용해 보세요. 이 단계별 가이드를 통해 이미지에서 텍스트를 원활하게 추출하는 방법을 알아보세요. 효율적인 텍스트 인식을 위해 지금 다운로드하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Végezze el az OCR-t a képen az OCR képfelismerésben
 linktitle: Végezze el az OCR-t a képen az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Oldja fel az OCR varázslatot az Aspose.OCR for .NET segítségével könnyedén kivonhatja a szöveget a képekből. Fedezze fel az oktatóanyagot a zökkenőmentes integráció érdekében.
-type: docs
 weight: 14
 url: /hu/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Végezze el az OCR-t a képen az OCR képfelismerésben
+
 ## Bevezetés
 
 mai technológiavezérelt világban az optikai karakterfelismerés (OCR) kulcsszerepet játszik az értékes információk kinyerésében a képekből. Az Aspose.OCR for .NET robusztus eszközkészlettel teszi lehetővé a fejlesztők számára az OCR képességek zökkenőmentes integrálását alkalmazásaikba. Ez a részletes útmutató végigvezeti a képen az OCR végrehajtásának folyamatán az Aspose.OCR for .NET használatával, így a képeket kereshető és szerkeszthető szöveggé alakítja.
@@ -98,3 +104,9 @@ Ha követi ezeket az egyszerű lépéseket, kihasználhatja az Aspose.OCR for .N
 ### 5. kérdés: Kipróbálhatom ingyenesen az Aspose.OCR for .NET programot vásárlás előtt?
 
  V5: Feltétlenül felfedezheti a funkciókat a[ingyenes próbaverzió](https://releases.aspose.com/) Aspose.OCR .NET-hez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

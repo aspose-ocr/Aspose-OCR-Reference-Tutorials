@@ -3,10 +3,16 @@ title: Calculate Skew Angle from Stream in OCR Image Recognition
 linktitle: Calculate Skew Angle from Stream in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Unleash the power of Aspose.OCR for .NET, a robust solution for image recognition. Learn how to calculate skew angles effortlessly.
-type: docs
 weight: 11
 url: /net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculate Skew Angle from Stream in OCR Image Recognition
+
 ## Introduction
 
 Welcome to the exciting world of Aspose.OCR for .NET, a powerful tool that opens the doors to efficient image recognition in your .NET applications. In this comprehensive guide, we will walk you through the process of calculating skew angles from a stream in OCR image recognition using Aspose.OCR. Whether you're a seasoned developer or just starting on your coding journey, this tutorial will equip you with the knowledge to harness the full potential of Aspose.OCR for .NET.
@@ -103,3 +109,10 @@ A4: Obtain temporary licenses for testing from [this link](https://purchase.aspo
 ### Q5: Need support or have specific questions?
 
 A5: Visit the Aspose.OCR community [forum](https://forum.aspose.com/c/ocr/16) for assistance from experts and fellow developers.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

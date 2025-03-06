@@ -3,10 +3,16 @@ title: Nhận hình chữ nhật cho đoạn văn trong nhận dạng hình ản
 linktitle: Nhận hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa các khả năng OCR nâng cao với Aspose.OCR cho .NET. Trích xuất các đoạn hình chữ nhật một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tận dụng Aspose.OCR cho .NET để trích xuất hình chữ nhật đoạn văn trong nhận dạng hình ảnh OCR. Nếu bạn đang tìm cách nâng cao khả năng xử lý tài liệu và khai thác sức mạnh của Nhận dạng ký tự quang học (OCR) trong các ứng dụng .NET của mình thì bạn đã đến đúng nơi.
@@ -101,3 +107,9 @@ A2: Chắc chắn rồi! Aspose.OCR tạo điều kiện xử lý hàng loạt �
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và thảo luận liên quan đến Aspose.OCR ở đâu?
 
  A5: Đi tới[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

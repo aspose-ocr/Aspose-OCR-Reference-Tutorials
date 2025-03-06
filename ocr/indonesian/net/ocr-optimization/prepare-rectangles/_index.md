@@ -3,10 +3,16 @@ title: Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 linktitle: Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami. Pelajari langkah demi langkah cara mempersiapkan persegi panjang untuk pengenalan gambar. Tingkatkan aplikasi .NET Anda dengan integrasi OCR yang lancar.
-type: docs
 weight: 11
 url: /id/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengubah gambar menjadi teks yang dapat dibaca mesin. Aspose.OCR untuk .NET menonjol sebagai solusi tangguh bagi pengembang yang mencari integrasi kemampuan OCR ke dalam aplikasi .NET mereka. Dalam panduan komprehensif ini, kita akan menjelajahi proses menyiapkan persegi panjang dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
@@ -120,3 +126,9 @@ A1: Ya, Aspose.OCR untuk .NET kompatibel dengan berbagai kerangka .NET.
 ### Q5: Di mana saya dapat menemukan dokumentasi Aspose.OCR untuk .NET?
 
  A5: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ओसीआर छवि पहचान में मान्यता
 linktitle: ओसीआर छवि पहचान में मान्यता परिणाम प्राप्त करें
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR का अन्वेषण करें, जो छवियों में निर्बाध पाठ पहचान के लिए एक शक्तिशाली OCR समाधान है।
-type: docs
 weight: 11
 url: /hi/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर छवि पहचान में मान्यता परिणाम प्राप्त करें
+
 ## परिचय
 
 प्रोग्रामिंग की गतिशील दुनिया में, कुशल पाठ पहचान एक गेम-चेंजर है, और .NET के लिए Aspose.OCR एक मजबूत समाधान के रूप में उभरता है। यह ट्यूटोरियल छवि पहचान की क्षमता का निर्बाध रूप से दोहन करने के लिए Aspose.OCR का उपयोग करने की बारीकियों पर प्रकाश डालता है।
@@ -106,3 +112,9 @@ A1: हाँ, Aspose.OCR बहुभाषी पाठ पहचान का
 ### Q5: क्या मैं Aspose.OCR के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
 
  A5: हाँ, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

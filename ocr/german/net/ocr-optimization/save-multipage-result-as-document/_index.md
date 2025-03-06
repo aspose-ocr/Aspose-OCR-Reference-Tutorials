@@ -3,10 +3,16 @@ title: Mehrseitiges Ergebnis als Dokument in der OCR-Bilderkennung speichern
 linktitle: Mehrseitiges Ergebnis als Dokument in der OCR-Bilderkennung speichern
 second_title: Aspose.OCR .NET API
 description: Nutzen Sie das Potenzial von Aspose.OCR für .NET. Mit dieser umfassenden Schritt-für-Schritt-Anleitung können Sie mehrseitige OCR-Ergebnisse mühelos als Dokumente speichern.
-type: docs
 weight: 14
 url: /de/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mehrseitiges Ergebnis als Dokument in der OCR-Bilderkennung speichern
+
 ## Einführung
 
 Willkommen in der faszinierenden Welt der optischen Zeichenerkennung (OCR) mit Aspose.OCR für .NET! In diesem Tutorial erfahren Sie, wie Sie die Funktionen von Aspose.OCR nutzen, um mehrseitige OCR-Ergebnisse als Dokumente zu speichern. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit OCR beginnen, dieser Leitfaden führt Sie durch jeden Schritt und stellt sicher, dass Sie dieses leistungsstarke Tool optimal nutzen.
@@ -104,3 +110,9 @@ A4: Informationen zu Best Practices für die Fehlerbehandlung finden Sie in der 
 ### F5: Unterstützt Aspose.OCR andere Sprachen als Englisch?
 
 A5: Ja, Aspose.OCR unterstützt mehrere Sprachen. Weitere Informationen zur Sprachunterstützung finden Sie in der Dokumentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

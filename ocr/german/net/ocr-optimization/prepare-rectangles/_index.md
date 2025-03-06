@@ -3,10 +3,16 @@ title: Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
 linktitle: Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
 second_title: Aspose.OCR .NET API
 description: Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden. Erfahren Sie Schritt für Schritt, wie Sie Rechtecke für die Bilderkennung vorbereiten. Erweitern Sie Ihre .NET-Anwendungen durch nahtlose OCR-Integration.
-type: docs
 weight: 11
 url: /de/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Technologielandschaft spielt die optische Zeichenerkennung (OCR) eine zentrale Rolle bei der Umwandlung von Bildern in maschinenlesbaren Text. Aspose.OCR für .NET zeichnet sich als robuste Lösung für Entwickler aus, die eine nahtlose Integration von OCR-Funktionen in ihre .NET-Anwendungen suchen. In diesem umfassenden Leitfaden untersuchen wir den Prozess der Vorbereitung von Rechtecken bei der OCR-Bilderkennung mit Aspose.OCR für .NET.
@@ -120,3 +126,9 @@ A1: Ja, Aspose.OCR für .NET ist mit verschiedenen .NET-Frameworks kompatibel.
 ### F5: Wo finde ich die Dokumentation für Aspose.OCR für .NET?
 
  A5: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

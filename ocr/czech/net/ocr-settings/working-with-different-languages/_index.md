@@ -3,10 +3,16 @@ title: Práce s různými jazyky v OCR rozpoznávání obrazu
 linktitle: Práce s různými jazyky v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte kouzlo vícejazyčného OCR s Aspose.OCR pro .NET. Extrahujte text bez námahy v různých jazycích.
-type: docs
 weight: 15
 url: /cs/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Práce s různými jazyky v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve světě Aspose.OCR for .NET, kde se síla optického rozpoznávání znaků (OCR) snoubí s všestranností vícejazyčné podpory. V tomto tutoriálu prozkoumáme, jak využít možnosti Aspose.OCR pro .NET k snadnému rozpoznání textu v různých jazycích. Pokud jste někdy přemýšleli o kouzlu rozpoznávání obrazu OCR pro různé jazyky, jste na správném místě.
@@ -100,3 +106,9 @@ A2: Rozhodně! Aspose.OCR podporuje širokou škálu jazyků, což z něj činí
 ### Q5: Jak mohu získat přístup k dokumentaci?
 
  A5: Dokumentace pro Aspose.OCR pro .NET je k dispozici[tady](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

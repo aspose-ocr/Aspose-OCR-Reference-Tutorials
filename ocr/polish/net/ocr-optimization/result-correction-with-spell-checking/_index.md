@@ -3,10 +3,16 @@ title: Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 linktitle: Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Zwiększ dokładność OCR dzięki Aspose.OCR dla .NET. Poprawiaj pisownię, dostosowuj słowniki i bezproblemowo rozpoznawaj tekst bez błędów.
-type: docs
 weight: 13
 url: /pl/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 dziedzinie optycznego rozpoznawania znaków (OCR) uzyskanie dokładnych wyników ma kluczowe znaczenie dla wydobycia znaczących informacji z obrazów. Częstym wyzwaniem jest radzenie sobie z błędnie napisanymi słowami w procesie rozpoznawania. Na szczęście Aspose.OCR dla .NET zapewnia potężne rozwiązanie poprawiające wyniki OCR poprzez sprawdzanie pisowni.
@@ -136,3 +142,9 @@ A4: Absolutnie! W samouczku pokazano, jak ulepszyć korektę za pomocą słownik
 ### P5: Gdzie mogę szukać wsparcia dla Aspose.OCR?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) o wsparcie i wskazówki społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

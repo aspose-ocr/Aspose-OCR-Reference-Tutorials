@@ -3,10 +3,16 @@ title: Calculer l'angle d'inclinaison dans la reconnaissance d'images OCR
 linktitle: Calculer l'angle d'inclinaison dans la reconnaissance d'images OCR
 second_title: API Aspose.OCR .NET
 description: Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance de texte précise dans vos applications C#.
-type: docs
 weight: 10
 url: /fr/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculer l'angle d'inclinaison dans la reconnaissance d'images OCR
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.OCR pour .NET, un outil puissant qui permet aux développeurs d'intégrer de manière transparente les fonctionnalités de reconnaissance optique de caractères (OCR) dans leurs applications .NET. Dans ce guide complet, nous aborderons un cas d'utilisation spécifique : le calcul de l'angle d'inclinaison dans la reconnaissance d'images OCR. Ce didacticiel est conçu pour les développeurs novices et expérimentés, fournissant une procédure pas à pas pour vous assurer d'exploiter tout le potentiel d'Aspose.OCR.
@@ -105,3 +111,9 @@ A2 : Absolument ! Aspose.OCR prend en charge un large éventail de langages, ce 
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.OCR ?
 
 A5 : Certainement ! Explorez les fonctionnalités avec le[version d'essai gratuite](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

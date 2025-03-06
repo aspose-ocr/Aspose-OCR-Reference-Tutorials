@@ -3,10 +3,16 @@ title: OCR影像辨識中計算傾斜角度
 linktitle: OCR影像辨識中計算傾斜角度
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET，這是一個功能強大的 OCR 解決方案，可在 C# 應用程式中準確識別文字。
-type: docs
 weight: 10
 url: /zh-hant/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR影像辨識中計算傾斜角度
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的世界，這是一個功能強大的工具，使開發人員能夠將光學字元辨識 (OCR) 功能無縫整合到他們的 .NET 應用程式中。在本綜合指南中，我們將深入研究一個特定的用例：計算 OCR 影像辨識中的傾斜角度。本教學專為新手和經驗豐富的開發人員設計，提供逐步演練，以確保您充分利用 Aspose.OCR 的潛力。
@@ -105,3 +111,9 @@ A2：當然！ Aspose.OCR 支援多種語言，使其適用於全球應用程式
 ### Q5：Aspose.OCR 有免費試用版嗎？
 
 A5：當然！探索功能[免費試用版](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

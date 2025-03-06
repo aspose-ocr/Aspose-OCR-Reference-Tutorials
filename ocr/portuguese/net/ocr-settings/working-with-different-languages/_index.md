@@ -3,10 +3,16 @@ title: Trabalhando com diferentes idiomas no reconhecimento de imagens OCR
 linktitle: Trabalhando com diferentes idiomas no reconhecimento de imagens OCR
 second_title: API Aspose.OCR .NET
 description: Desbloqueie a magia do OCR multilíngue com Aspose.OCR para .NET. Extraia texto sem esforço em vários idiomas.
-type: docs
 weight: 15
 url: /pt/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trabalhando com diferentes idiomas no reconhecimento de imagens OCR
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.OCR para .NET, onde o poder do reconhecimento óptico de caracteres (OCR) encontra a versatilidade do suporte multilíngue. Neste tutorial, exploraremos como aproveitar os recursos do Aspose.OCR for .NET para reconhecer texto em vários idiomas sem esforço. Se você já se perguntou sobre a magia por trás do reconhecimento de imagens OCR para diferentes idiomas, você está no lugar certo.
@@ -100,3 +106,9 @@ A2: Com certeza! Aspose.OCR oferece suporte a uma ampla variedade de idiomas, to
 ### Q5: Como posso acessar a documentação?
 
  A5: A documentação do Aspose.OCR para .NET está disponível[aqui](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

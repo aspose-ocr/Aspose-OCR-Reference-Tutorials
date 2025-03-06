@@ -3,10 +3,16 @@ title: كيفية تعيين ترخيص Aspose.OCR في Java
 linktitle: كيفية تعيين ترخيص Aspose.OCR في Java
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لإمكانات Aspose.OCR لـ Java باستخدام هذا الدليل المفصّل خطوة بخطوة. قم بإعداد الترخيص الخاص بك بسهولة وعزز قدرات التعرف الضوئي على الحروف لديك.
-type: docs
 weight: 10
 url: /ar/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كيفية تعيين ترخيص Aspose.OCR في Java
+
 ## مقدمة
 
 في عالم التكنولوجيا المتطور باستمرار، أصبح التعرف الضوئي على الحروف (OCR) أداة محورية لاستخراج المعلومات النصية من الصور. يبرز Aspose.OCR for Java كحل قوي للتعرف الضوئي على الحروف، مما يمكّن المطورين من دمج إمكانات التعرف الضوئي على الحروف بسلاسة في تطبيقات Java الخاصة بهم. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إعداد ترخيص Aspose.OCR في Java، مما يضمن لك الاستفادة من الإمكانات الكاملة لهذه الأداة القوية.
@@ -78,3 +84,9 @@ System.out.println("License is set: " + resLicense);
 ### س5: أين يمكنني العثور على دعم إضافي لـ Aspose.OCR لـ Java؟
 
  ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

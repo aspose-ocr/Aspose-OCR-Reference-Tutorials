@@ -3,10 +3,16 @@ title: Nhận hình chữ nhật cho các đường trong nhận dạng hình �
 linktitle: Nhận hình chữ nhật cho các đường trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá Aspose.OCR cho .NET chìa khóa của bạn để nhận dạng hình ảnh OCR chính xác. Giải phóng sức mạnh của việc trích xuất văn bản một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận hình chữ nhật cho các đường trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.OCR cho .NET, một công cụ mạnh mẽ cho phép bạn khai thác tiềm năng của Nhận dạng ký tự quang học (OCR) trong các ứng dụng .NET của bạn. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người đam mê tò mò, hướng dẫn này sẽ hướng dẫn bạn quy trình lấy hình chữ nhật cho các đường trong nhận dạng hình ảnh OCR bằng Aspose.OCR.
@@ -110,3 +116,9 @@ Câu trả lời 2: Aspose.OCR tận dụng các thuật toán nâng cao để c
 ### Câu 5: Cần hỗ trợ hoặc có câu hỏi cụ thể?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

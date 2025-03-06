@@ -3,10 +3,16 @@ title: Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
 linktitle: Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
-type: docs
 weight: 13
 url: /id/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam bidang Pengenalan Karakter Optik (OCR), mencapai hasil yang akurat sangat penting untuk mengekstraksi informasi bermakna dari gambar. Salah satu tantangan umum adalah menangani kata-kata yang salah eja dalam proses pengenalan. Untungnya, Aspose.OCR untuk .NET memberikan solusi ampuh untuk meningkatkan hasil OCR melalui pemeriksaan ejaan.
@@ -136,3 +142,9 @@ A4: Tentu saja! Tutorial ini menunjukkan cara meningkatkan koreksi menggunakan k
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.OCR?
 
  A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan bimbingan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

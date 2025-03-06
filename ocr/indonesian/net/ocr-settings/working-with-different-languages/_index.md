@@ -3,10 +3,16 @@ title: Bekerja dengan Bahasa Berbeda dalam Pengenalan Gambar OCR
 linktitle: Bekerja dengan Bahasa Berbeda dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka keajaiban OCR multibahasa dengan Aspose.OCR untuk .NET. Ekstrak teks dengan mudah dalam berbagai bahasa.
-type: docs
 weight: 15
 url: /id/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekerja dengan Bahasa Berbeda dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET, tempat kekuatan Pengenalan Karakter Optik (OCR) berpadu dengan keserbagunaan dukungan multibahasa. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan kemampuan Aspose.OCR untuk .NET untuk mengenali teks dalam berbagai bahasa dengan mudah. Jika Anda pernah bertanya-tanya tentang keajaiban di balik pengenalan gambar OCR untuk berbagai bahasa, Anda berada di tempat yang tepat.
@@ -100,3 +106,9 @@ A2: Tentu saja! Aspose.OCR mendukung berbagai bahasa, menjadikannya solusi serba
 ### Q5: Bagaimana cara mengakses dokumentasi?
 
  A5: Dokumentasi untuk Aspose.OCR untuk .NET tersedia[Di Sini](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

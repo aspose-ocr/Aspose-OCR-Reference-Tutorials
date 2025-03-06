@@ -3,10 +3,16 @@ title: ข้อมูลเบื้องต้นเกี่ยวกับ 
 linktitle: ข้อมูลเบื้องต้นเกี่ยวกับ OCR
 second_title: Aspose.OCR Java API
 description: ปลดล็อกศักยภาพของ Aspose.OCR ใน Java! คำแนะนำทีละขั้นตอนในการตั้งค่าใบอนุญาตของคุณและเพิ่มความสามารถ OCR คำนวณมุมเอียงและแยกข้อความได้อย่างลงตัว
-type: docs
 weight: 20
 url: /th/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ข้อมูลเบื้องต้นเกี่ยวกับ OCR
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับเกม OCR ของคุณด้วย Aspose.OCR สำหรับ Java แล้วหรือยัง? คู่มือที่ครอบคลุมนี้จะแนะนำบทช่วยสอนที่จำเป็นเพื่อให้คุณมั่นใจได้ว่าคุณจะใช้เครื่องมืออันทรงพลังนี้ให้เกิดประโยชน์สูงสุด มาดำน้ำกันเถอะ!
@@ -35,3 +41,9 @@ url: /th/java/ocr-basics/
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ Java เรียนรู้การคำนวณมุมเอียงทีละขั้นตอน ปรับปรุงการประมวลผลเอกสารได้อย่างง่ายดาย
 ### [รับสี่เหลี่ยมพร้อมพื้นที่ข้อความใน Aspose.OCR](./get-rectangles-with-text-areas/)
 ปลดล็อกพลังของ Aspose.OCR สำหรับ Java เรียนรู้วิธีแยกข้อความจากรูปภาพได้อย่างราบรื่นในคำแนะนำทีละขั้นตอนนี้ ดาวน์โหลดเดี๋ยวนี้เพื่อการรู้จำข้อความที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

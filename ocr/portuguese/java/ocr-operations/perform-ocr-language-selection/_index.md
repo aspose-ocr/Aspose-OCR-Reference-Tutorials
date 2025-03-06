@@ -3,10 +3,16 @@ title: Executando OCR com seleção de idioma em Aspose.OCR
 linktitle: Executando OCR com seleção de idioma em Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Desbloqueie a extração precisa de texto de imagens com Aspose.OCR para Java. Siga nosso guia passo a passo para obter OCR preciso com seleção de idioma.
-type: docs
 weight: 11
 url: /pt/java/ocr-operations/perform-ocr-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Executando OCR com seleção de idioma em Aspose.OCR
+
 ## Introdução
 
 No cenário em constante evolução da tecnologia, o reconhecimento óptico de caracteres (OCR) desempenha um papel fundamental na extração de informações significativas das imagens. Aspose.OCR for Java se destaca como uma ferramenta poderosa que permite aos desenvolvedores integrar recursos de OCR perfeitamente em seus aplicativos Java. Neste guia passo a passo, exploraremos como realizar OCR com seleção de idioma usando Aspose.OCR, liberando o potencial para processar diversos conteúdos com precisão.
@@ -144,3 +150,9 @@ A4: Absolutamente. Utilize o recurso RecognitionAreas para definir retângulos e
 ### Q5: O Aspose.OCR é adequado para projetos pessoais e comerciais?
 
 R5: Sim, o Aspose.OCR oferece opções de licenciamento flexíveis, tornando-o adequado para uso pessoal e comercial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

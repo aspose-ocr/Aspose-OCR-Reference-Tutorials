@@ -3,10 +3,16 @@ title: Aspose.OCR의 특정 페이지에서 OCR 수행
 linktitle: Aspose.OCR의 특정 페이지에서 OCR 수행
 second_title: Aspose.OCR 자바 API
 description: 특정 페이지에서 OCR을 수행하는 방법에 대한 단계별 가이드를 통해 Java용 Aspose.OCR의 강력한 기능을 활용하세요. 이미지에서 쉽게 텍스트를 추출하고 Java 프로젝트를 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR의 특정 페이지에서 OCR 수행
+
 ## 소개
 
 Java용 Aspose.OCR을 사용하여 특정 페이지에서 광학 문자 인식(OCR)을 수행하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 설정, 필요한 패키지 가져오기, 이미지에서 텍스트를 쉽게 추출하는 코드 실행 과정을 안내합니다.
@@ -92,3 +98,9 @@ A1: 예, Aspose.OCR은 다양한 이미지 형식을 지원하여 OCR 작업의 
 ### Q5: Aspose.OCR은 무료 평가판을 제공합니까?
 
  A5: 예.[무료 평가판](https://releases.aspose.com/) 구매하기 전에.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

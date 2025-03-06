@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 직사각형 준비
 linktitle: OCR 이미지 인식에서 직사각형 준비
 second_title: Aspose.OCR .NET API
 description: 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이미지 인식을 위해 직사각형을 준비하는 방법을 단계별로 알아보세요. 원활한 OCR 통합으로 .NET 애플리케이션을 향상시키세요.
-type: docs
 weight: 11
 url: /ko/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 직사각형 준비
+
 ## 소개
 
 끊임없이 진화하는 기술 환경에서 광학 문자 인식(OCR)은 이미지를 기계가 읽을 수 있는 텍스트로 변환하는 데 중추적인 역할을 합니다. Aspose.OCR for .NET은 OCR 기능을 .NET 애플리케이션에 완벽하게 통합하려는 개발자를 위한 강력한 솔루션으로 돋보입니다. 이 종합 가이드에서는 .NET용 Aspose.OCR을 사용하여 OCR 이미지 인식에서 직사각형을 준비하는 과정을 살펴보겠습니다.
@@ -120,3 +126,9 @@ A1: 예, .NET용 Aspose.OCR은 다양한 .NET 프레임워크와 호환됩니다
 ### Q5: .NET용 Aspose.OCR 설명서는 어디서 찾을 수 있나요?
 
  A5: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

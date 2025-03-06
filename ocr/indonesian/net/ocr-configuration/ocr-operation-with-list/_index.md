@@ -3,10 +3,16 @@ title: Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR
 linktitle: Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan mudah menggunakan daftar. Tingkatkan produktivitas dan ekstraksi data dalam aplikasi Anda.
-type: docs
 weight: 13
 url: /id/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di tutorial mendalam kami tentang memanfaatkan kekuatan Aspose.OCR untuk .NET untuk melakukan pengenalan gambar OCR dengan daftar. Pengenalan Karakter Optik (OCR) adalah teknologi penting yang mengubah berbagai jenis dokumen—seperti dokumen kertas yang dipindai, PDF, atau gambar—menjadi data yang dapat diedit dan dicari.
@@ -105,3 +111,10 @@ A2: Tentu saja. Aspose.OCR mendukung berbagai format gambar, memastikan fleksibi
 ### Q5: Bagaimana jika saya menemui masalah atau memiliki pertanyaan spesifik selama penerapan?
 
  A5: Jangan ragu untuk mencari bantuan di[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan segera dari komunitas dan para ahli.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ορίστε την τιμή κατωφλίου στην Αναγνώρι
 linktitle: Ορίστε την τιμή κατωφλίου στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Εξερευνήστε το Aspose.OCR για .NET μια ισχυρή λύση OCR. Ορίστε τις προσαρμοσμένες τιμές κατωφλίου χωρίς κόπο. Βελτιώστε την αναγνώριση κειμένου στις εφαρμογές σας.
-type: docs
 weight: 12
 url: /el/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε την τιμή κατωφλίου στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο του Aspose.OCR για .NET! Σε αυτό το σεμινάριο, θα βουτήξουμε βαθιά στις δυνατότητες του Aspose.OCR, ενός ισχυρού εργαλείου που έχει σχεδιαστεί για να κάνει την οπτική αναγνώριση χαρακτήρων παιχνιδάκι στις εφαρμογές .NET. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία ορισμού της τιμής κατωφλίου στην αναγνώριση εικόνας OCR χρησιμοποιώντας το Aspose.OCR για .NET.
@@ -99,3 +105,9 @@ Console.WriteLine("SetThresholdValue executed successfully");
 ### Ε5: Πώς μπορώ να αγοράσω την πλήρη έκδοση του Aspose.OCR για .NET;
 
  A5: Για να ξεκλειδώσετε όλες τις λειτουργίες, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Aspose.OCR 中取得帶有文字區域的矩形
 linktitle: 在 Aspose.OCR 中取得帶有文字區域的矩形
 second_title: Aspose.OCR Java API
 description: 釋放 Aspose.OCR for Java 的強大功能。在本逐步指南中了解如何從圖像中無縫提取文字。立即下載以進行高效率的文字辨識。
-type: docs
 weight: 12
 url: /zh-hant/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR 中取得帶有文字區域的矩形
+
 ## 介紹
 
 您是否希望將強大的光學字元辨識 (OCR) 功能整合到您的 Java 應用程式中？ Aspose.OCR for Java 是您從圖像中準確且有效率地提取文字的首選解決方案。本教學將引導您完成使用 Aspose.OCR 取得帶有文字區域的矩形的過程，幫助您充分利用這個 Java OCR 庫的潛力。
@@ -105,3 +111,10 @@ A4：如需支持與討論，請訪問[Aspose.OCR 論壇](https://forum.aspose.c
 ### Q5：Aspose.OCR支援多執行緒嗎？
 
 A5：是的，Aspose.OCR 支援多線程，以提高並發環境中的效能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

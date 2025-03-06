@@ -3,10 +3,16 @@ title: Geavanceerde OCR-technieken
 linktitle: Geavanceerde OCR-technieken
 second_title: Aspose.OCR Java-API
 description: Voer moeiteloos OCR uit op afbeeldingen met Aspose.OCR voor Java. Extraheer tekst naadloos met hoge nauwkeurigheid. Verbeter uw Java-projecten met veelzijdige tekstherkenning.
-type: docs
 weight: 22
 url: /nl/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geavanceerde OCR-technieken
+
 ## Invoering
 
 Bent u klaar om uw Java-projecten naar een hoger niveau te tillen? Duik in de wereld van geavanceerde OCR-technieken met Aspose.OCR voor Java. In deze uitgebreide handleiding verkennen we verschillende tutorials waarmee u moeiteloos tekst uit afbeeldingen kunt extraheren.
@@ -55,3 +61,9 @@ Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze sta
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
 ### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
 Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

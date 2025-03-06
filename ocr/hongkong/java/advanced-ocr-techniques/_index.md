@@ -3,10 +3,16 @@ title: 先進的 OCR 技術
 linktitle: 先進的 OCR 技術
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR for Java 輕鬆對影像執行 OCR。高精度無縫提取文字。透過多功能文字辨識增強您的 Java 專案。
-type: docs
 weight: 22
 url: /zh-hant/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 先進的 OCR 技術
+
 ## 介紹
 
 您準備好將您的 Java 專案提升到一個新的水平嗎？使用 Aspose.OCR for Java 深入了解進階 OCR 技術的世界。在這份綜合指南中，我們將探索各種教程，使您能夠輕鬆地從圖像中提取文字。
@@ -55,3 +61,9 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR 為您的 Java 應用程式提供精確的文字辨識功能。集成方便，精度高。
 ### [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

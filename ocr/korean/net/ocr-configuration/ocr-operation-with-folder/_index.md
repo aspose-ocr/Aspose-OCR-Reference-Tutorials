@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 폴더를 사용한 OCR 작동
 linktitle: OCR 이미지 인식에서 폴더를 사용한 OCR 작동
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하세요. 이미지에서 텍스트를 손쉽게 추출해 보세요.
-type: docs
 weight: 11
 url: /ko/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 폴더를 사용한 OCR 작동
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하는 광학 문자 인식(OCR)의 세계에 오신 것을 환영합니다! .NET 애플리케이션 내에서 이미지에서 텍스트를 원활하게 추출하려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼은 Aspose.OCR의 강력한 기능을 활용하여 폴더를 사용한 OCR 이미지 인식 프로세스를 안내합니다.
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### Q5: 지원이 필요하거나 질문이 있나요?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

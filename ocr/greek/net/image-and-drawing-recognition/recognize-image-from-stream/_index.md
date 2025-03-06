@@ -3,10 +3,16 @@ title: Αναγνώριση εικόνας από τη ροή στο OCR Image R
 linktitle: Αναγνώριση εικόνας από τη ροή στο OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε το μαγικό OCR με το Aspose.OCR για .NET. Εξάγετε κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το σεμινάριο για καθοδήγηση βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αναγνώριση εικόνας από τη ροή στο OCR Image Recognition
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στη συναρπαστική σφαίρα της οπτικής αναγνώρισης χαρακτήρων (OCR) χρησιμοποιώντας το Aspose.OCR για .NET! Είτε είστε έμπειρος προγραμματιστής είτε απλώς καταδύεστε στον κόσμο του OCR, αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στην αναγνώριση εικόνων από ροές χωρίς κόπο. Το Aspose.OCR για .NET είναι ένα ισχυρό εργαλείο που επιτρέπει την απρόσκοπτη ενσωμάτωση της λειτουργικότητας OCR στις εφαρμογές σας .NET, κάνοντας την εξαγωγή κειμένου από εικόνες παιχνιδάκι.
@@ -105,3 +111,9 @@ A1: Ναι, το Aspose.OCR υποστηρίζει ένα ευρύ φάσμα γ
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.OCR για .NET;
 
  A5: Για να κάνετε το Aspose.OCR μόνιμο μέρος της εργαλειοθήκης σας, επισκεφτείτε το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

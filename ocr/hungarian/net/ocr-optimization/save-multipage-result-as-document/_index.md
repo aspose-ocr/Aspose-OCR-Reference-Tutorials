@@ -3,10 +3,16 @@ title: Mentse el a többoldalas eredményt dokumentumként az OCR képfelismeré
 linktitle: Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Ezzel az átfogó, lépésenkénti útmutatóval könnyedén mentheti a többoldalas OCR-eredményeket dokumentumként.
-type: docs
 weight: 14
 url: /hu/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az optikai karakterfelismerés (OCR) lenyűgöző világában az Aspose.OCR for .NET használatával! Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kihasználni az Aspose.OCR képességeit a többoldalas OCR-eredmények dokumentumként történő mentéséhez. Akár tapasztalt fejlesztő, akár csak most kezdi az OCR-t, ez az útmutató végigvezeti Önt minden lépésen, és biztosítja, hogy a legtöbbet hozza ki ebből a hatékony eszközből.
@@ -104,3 +110,9 @@ A2: Abszolút! Az Aspose.OCR különféle képformátumokat támogat, így bizto
 ### 5. kérdés: Az Aspose.OCR támogatja az angoltól eltérő nyelveket?
 
 5. válasz: Igen, az Aspose.OCR több nyelvet is támogat. Tekintse meg a dokumentációt a nyelvi támogatás részleteiért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

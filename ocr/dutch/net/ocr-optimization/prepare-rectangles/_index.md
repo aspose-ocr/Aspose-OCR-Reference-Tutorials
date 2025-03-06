@@ -3,10 +3,16 @@ title: Bereid rechthoeken voor in OCR-beeldherkenning
 linktitle: Bereid rechthoeken voor in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide handleiding. Leer stap voor stap hoe u rechthoeken voorbereidt voor beeldherkenning. Verbeter uw .NET-applicaties met naadloze OCR-integratie.
-type: docs
 weight: 11
 url: /nl/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bereid rechthoeken voor in OCR-beeldherkenning
+
 ## Invoering
 
 In het steeds evoluerende technologische landschap speelt Optical Character Recognition (OCR) een cruciale rol bij het transformeren van afbeeldingen in machinaal leesbare tekst. Aspose.OCR voor .NET onderscheidt zich als een robuuste oplossing voor ontwikkelaars die op zoek zijn naar een naadloze integratie van OCR-mogelijkheden in hun .NET-applicaties. In deze uitgebreide handleiding onderzoeken we het proces van het voorbereiden van rechthoeken in OCR-beeldherkenning met behulp van Aspose.OCR voor .NET.
@@ -120,3 +126,9 @@ A1: Ja, Aspose.OCR voor .NET is compatibel met verschillende .NET-frameworks.
 ### V5: Waar kan ik de documentatie voor Aspose.OCR voor .NET vinden?
 
  A5: De documentatie is beschikbaar[hier](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

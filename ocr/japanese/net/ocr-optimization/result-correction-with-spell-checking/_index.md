@@ -3,10 +3,16 @@ title: OCR画像認識におけるスペルチェックによる結果修正
 linktitle: OCR画像認識におけるスペルチェックによる結果修正
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET を使用して OCR の精度を向上させます。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
-type: docs
 weight: 13
 url: /ja/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識におけるスペルチェックによる結果修正
+
 ## 導入
 
 光学式文字認識 (OCR) の分野では、画像から意味のある情報を抽出するには、正確な結果を達成することが重要です。よくある課題の 1 つは、認識プロセスでのスペルミスのある単語への対処です。幸いなことに、Aspose.OCR for .NET は、スペル チェックを通じて OCR 結果を強化する強力なソリューションを提供します。
@@ -136,3 +142,9 @@ A4：もちろんです！このチュートリアルでは、ユーザーが提
 ### Q5: Aspose.OCR のサポートはどこに問い合わせればよいですか?
 
  A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティのサポートと指導のために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

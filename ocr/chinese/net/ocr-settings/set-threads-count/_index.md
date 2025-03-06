@@ -3,10 +3,16 @@ title: 设置 OCR 图像识别中的线程数
 linktitle: 设置 OCR 图像识别中的线程数
 second_title: Aspose.OCR .NET API
 description: 解锁 .NET 中的 OCR 效率。使用 Aspose.OCR 轻松设置线程数。提高准确性和速度。
-type: docs
 weight: 11
 url: /zh/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 设置 OCR 图像识别中的线程数
+
 ## 介绍
 
 欢迎来到 Aspose.OCR for .NET 的世界，在这里，尖端的光学字符识别 (OCR) 技术可以无缝集成到您的 .NET 应用程序中。在本教程中，我们将深入研究一个特定方面：设置 OCR 图像识别中的线程数。这一强大的功能可优化 OCR 任务的性能，确保效率和准确性。
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### Q5：需要帮助或想与社区建立联系？
 
  A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)支持和社区互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

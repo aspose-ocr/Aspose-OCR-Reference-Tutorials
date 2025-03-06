@@ -3,10 +3,16 @@ title: Result Correction with Spell Checking in OCR Image Recognition
 linktitle: Result Correction with Spell Checking in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
-type: docs
 weight: 13
 url: /net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Result Correction with Spell Checking in OCR Image Recognition
+
 ## Introduction
 
 In the realm of Optical Character Recognition (OCR), achieving accurate results is crucial for extracting meaningful information from images. One common challenge is dealing with misspelled words in the recognition process. Fortunately, Aspose.OCR for .NET provides a powerful solution to enhance OCR results through spell checking.
@@ -136,3 +142,10 @@ A4: Absolutely! The tutorial demonstrates how to enhance correction using a user
 ### Q5: Where can I seek support for Aspose.OCR?
 
 A5: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and guidance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

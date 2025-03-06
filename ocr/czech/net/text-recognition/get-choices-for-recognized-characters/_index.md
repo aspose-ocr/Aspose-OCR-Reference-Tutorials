@@ -3,10 +3,16 @@ title: Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu O
 linktitle: Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Vylepšete své .NET aplikace pomocí Aspose.OCR pro přesné rozpoznávání znaků. Postupujte podle našeho podrobného průvodce a načtěte volby pro rozpoznané znaky při rozpoznávání obrázků.
-type: docs
 weight: 10
 url: /cs/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR
+
 ## Úvod
 
 Odemknutí výkonu optického rozpoznávání znaků (OCR) je v dnešní digitální době zásadní a Aspose.OCR for .NET vyniká jako robustní řešení pro přesné rozpoznávání znaků. V tomto tutoriálu se ponoříme do specifické funkce: získávání možností pro rozpoznané postavy. Na konci této příručky tuto funkci hladce začleníte do svých aplikací .NET.
@@ -112,3 +118,9 @@ Odpověď 2: Ano, Aspose.OCR for .NET můžete integrovat do webových aplikací
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.OCR pro .NET?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) vyzkoušet možnosti Aspose.OCR pro .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kỹ thuật OCR nâng cao
 linktitle: Kỹ thuật OCR nâng cao
 second_title: API Java Aspose.OCR
 description: Dễ dàng thực hiện OCR trên hình ảnh bằng Aspose.OCR cho Java. Trích xuất văn bản liền mạch với độ chính xác cao. Nâng cao các dự án Java của bạn bằng tính năng nhận dạng văn bản linh hoạt.
-type: docs
 weight: 22
 url: /vi/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kỹ thuật OCR nâng cao
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đưa các dự án Java của mình lên một tầm cao mới chưa? Đi sâu vào thế giới kỹ thuật OCR tiên tiến với Aspose.OCR cho Java. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá nhiều hướng dẫn khác nhau để hỗ trợ bạn trích xuất văn bản từ hình ảnh một cách dễ dàng.
@@ -55,3 +61,9 @@ Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java.
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
 ### [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

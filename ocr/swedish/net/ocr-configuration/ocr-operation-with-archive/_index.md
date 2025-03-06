@@ -3,10 +3,16 @@ title: OCRoperation med Arkiv i OCR-bildigenkänning
 linktitle: OCRoperation med Arkiv i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp potentialen för OCR i .NET-applikationer med Aspose.OCR. Lär dig att extrahera text från arkivbilder steg för steg.
-type: docs
 weight: 10
 url: /sv/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRoperation med Arkiv i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till en värld av Optical Character Recognition (OCR) som är sömlös och effektiv med Aspose.OCR för .NET. I den här omfattande guiden går vi igenom processen att utföra OCR-operationer på arkivbilder med hjälp av Aspose.OCR-biblioteket. Oavsett om du är en erfaren utvecklare eller en nyfiken nybörjare, kommer denna handledning att utrusta dig med kunskapen för att utnyttja OCRs fulla potential i dina .NET-applikationer.
@@ -119,3 +125,9 @@ A4: Absolut! Aspose.OCR för .NET ger flexibilitet vid anpassning av igenkännin
 ### F5: Hur ofta uppdateras Aspose.OCR för .NET?
 
  S5: Håll dig uppdaterad med de senaste funktionerna och förbättringarna genom att kontrollera[dokumentation](https://reference.aspose.com/ocr/net/) regelbundet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

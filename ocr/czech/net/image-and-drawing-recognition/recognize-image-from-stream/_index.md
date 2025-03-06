@@ -3,10 +3,16 @@ title: Rozpoznat obraz ze streamu v OCR rozpoznávání obrazu
 linktitle: Rozpoznat obraz ze streamu v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte OCR magii s Aspose.OCR pro .NET. Bez námahy extrahujte text z obrázků. Prozkoumejte tutoriál, kde najdete pokyny krok za krokem.
-type: docs
 weight: 12
 url: /cs/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznat obraz ze streamu v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve vzrušující oblasti optického rozpoznávání znaků (OCR) pomocí Aspose.OCR pro .NET! Ať už jste zkušený vývojář, nebo se jen ponoříte do světa OCR, tento podrobný průvodce vás bez námahy provede rozpoznáním obrázků ze streamů. Aspose.OCR for .NET je robustní nástroj, který umožňuje bezproblémovou integraci funkcí OCR do vašich aplikací .NET, díky čemuž je extrakce textu z obrázků hračkou.
@@ -105,3 +111,9 @@ Odpověď 1: Ano, Aspose.OCR podporuje širokou škálu jazyků, takže je unive
 ### Q5: Kde mohu zakoupit Aspose.OCR pro .NET?
 
  A5: Chcete-li, aby se Aspose.OCR stal trvalou součástí vaší sady nástrojů, navštivte stránku[nákupní stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hoạt động OCR
 linktitle: Hoạt động OCR
 second_title: API Java Aspose.OCR
 description: Khai phá tiềm năng của Aspose.OCR cho Java bằng các hướng dẫn OCR toàn diện của chúng tôi. Tìm hiểu Chế độ phát hiện khu vực, lựa chọn ngôn ngữ, nhận dạng PDF và TIFF chỉ trong vài bước!
-type: docs
 weight: 21
 url: /vi/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt động OCR
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm trò chơi trích xuất văn bản của mình chưa? Aspose.OCR dành cho Java mang đến cho bạn vô số khả năng với khả năng OCR mạnh mẽ. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các thao tác OCR cần thiết, cung cấp thông tin chi tiết về từng chế độ để có trải nghiệm liền mạch.
@@ -53,3 +59,9 @@ Mở khóa khả năng trích xuất văn bản chính xác từ hình ảnh b�
 Khai phá sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng văn bản trong tài liệu PDF một cách dễ dàng. Tăng cường ứng dụng của bạn với độ chính xác và tốc độ.
 ### [OCR Nhận dạng hình ảnh TIFF trong Aspose.OCR cho Java](./recognize-tiff/)
 Mở khóa tính năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Dễ dàng nhận dạng văn bản trong hình ảnh TIFF. Tải xuống ngay để có trải nghiệm OCR liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

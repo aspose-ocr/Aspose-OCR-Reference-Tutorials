@@ -3,10 +3,16 @@ title: OCR画像認識で段落の四角形を取得する
 linktitle: OCR画像認識で段落の四角形を取得する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET を使用して高度な OCR 機能を利用しましょう。段落の四角形を簡単に抽出します。
-type: docs
 weight: 11
 url: /ja/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で段落の四角形を取得する
+
 ## 導入
 
 Aspose.OCR for .NET を活用して OCR 画像認識で段落四角形を抽出するための包括的なガイドへようこそ。ドキュメント処理機能を強化し、.NET アプリケーションで光学式文字認識 (OCR) の能力を活用したいと考えている場合は、ここが最適な場所です。
@@ -101,3 +107,9 @@ A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/tempor
 ### Q5: Aspose.OCR に関連する追加のサポートやディスカッションはどこで見つけられますか?
 
  A5: に向かってください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

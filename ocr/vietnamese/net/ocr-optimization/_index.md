@@ -3,10 +3,16 @@ title: Tối ưu hóa OCR
 linktitle: Tối ưu hóa OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá sức mạnh của Aspose.OCR cho .NET bằng các hướng dẫn toàn diện của chúng tôi. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu, những hướng dẫn này sẽ nâng cao trò chơi OCR của bạn.
-type: docs
 weight: 25
 url: /vi/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tối ưu hóa OCR
+
 ## Giới thiệu
 
 Tối đa hóa độ chính xác OCR với hướng dẫn Aspose.OCR cho .NET. Thực hiện OCR trên hình ảnh, chuẩn bị hình chữ nhật, áp dụng các bộ lọc tiền xử lý, sửa kết quả bằng tính năng kiểm tra chính tả và lưu kết quả nhiều trang một cách dễ dàng.
@@ -44,3 +50,9 @@ Khám phá Aspose.OCR cho .NET. Tăng độ chính xác của OCR bằng các b�
 Nâng cao độ chính xác của OCR với Aspose.OCR cho .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và nhận dạng văn bản không có lỗi một cách dễ dàng.
 ### [Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng lưu kết quả OCR nhiều trang dưới dạng tài liệu với hướng dẫn từng bước toàn diện này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

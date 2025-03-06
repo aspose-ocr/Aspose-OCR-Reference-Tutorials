@@ -3,10 +3,16 @@ title: Görüntü ve Çizim Tanıma
 linktitle: Görüntü ve Çizim Tanıma
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile OCR görüntü tanıma hassasiyetinin kilidini açın. İster satır, ister paragraf, ister tüm akış olsun, görüntülerden zahmetsizce metin çıkarın.
-type: docs
 weight: 22
 url: /tr/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü ve Çizim Tanıma
+
 ## giriiş
 
 OCR görüntü tanıma oyununuzu yükseltmeye hazır mısınız? Aspose.OCR for .NET, görüntülerden metin çıkarmanın hassasiyetini ortaya çıkarmanın anahtarıdır. Bu kapsamlı kılavuzda Aspose.OCR for .NET kullanarak görüntü ve çizim tanımanın farklı yönlerini inceleyen çeşitli eğitimleri inceleyeceğiz. Haydi hemen dalalım ve kesintisiz metin çıkarmanın gücünü açığa çıkaralım.
@@ -48,3 +54,9 @@ Aspose.OCR for .NET ile metin tanımanın potansiyelini ortaya çıkarın. Resim
 Aspose.OCR for .NET'in OCR görüntü tanımadaki çizgileri tanıma potansiyelini ortaya çıkarın. Resimlerden kusursuz metin çıkarma konusunda geliştirici kılavuzu.
 ### [OCR Görüntü Tanıma'da Görüntü üzerinde OCR gerçekleştirin](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünün kilidini açın, görüntülerden zahmetsizce metin çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

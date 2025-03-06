@@ -3,10 +3,16 @@ title: Расчет угла наклона в Aspose.OCR для Java
 linktitle: Расчет угла наклона в Aspose.OCR для Java
 second_title: API Aspose.OCR Java
 description: Повысьте точность распознавания с помощью Aspose.OCR для Java. Научитесь рассчитывать углы перекоса шаг за шагом. Улучшите обработку документов без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расчет угла наклона в Aspose.OCR для Java
+
 ## Введение
 
 Добро пожаловать в наше подробное руководство по вычислению углов перекоса в Aspose.OCR для Java! Углы наклона играют решающую роль при обработке документов, особенно при работе со сканированными изображениями. Aspose.OCR для Java предоставляет мощное решение для точного определения и исправления углов перекоса, повышая общее качество результатов OCR (оптического распознавания символов).
@@ -94,3 +100,9 @@ A3: Aspose.OCR поддерживает различные форматы изо
 ### Вопрос 5: Где я могу обратиться за помощью или обсудить вопросы, связанные с Aspose.OCR?
 
  A5: Посетите[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) взаимодействовать с сообществом и получать поддержку от экспертов Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szövegterületekkel rendelkező téglalapok beszerzése az Aspose.OCR-be
 linktitle: Szövegterületekkel rendelkező téglalapok beszerzése az Aspose.OCR-ben
 second_title: Aspose.OCR Java API
 description: Fedezze fel az Aspose.OCR for Java erejét. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan lehet zökkenőmentesen kivonni szöveget a képekből. Töltse le most a hatékony szövegfelismeréshez.
-type: docs
 weight: 12
 url: /hu/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegterületekkel rendelkező téglalapok beszerzése az Aspose.OCR-ben
+
 ## Bevezetés
 
 Hatékony optikai karakterfelismerő (OCR) képességeket szeretne integrálni Java-alkalmazásába? Az Aspose.OCR for Java a legjobb megoldás a szövegek pontos és hatékony kinyerésére a képekből. Ez az oktatóanyag végigvezeti Önt a szövegterületekkel rendelkező téglalapok létrehozásának folyamatán az Aspose.OCR segítségével, segítve ezzel a Java OCR-könyvtárban rejlő lehetőségek teljes kihasználását.
@@ -105,3 +111,10 @@ Ebben az oktatóanyagban megtanulta, hogyan integrálhatja az Aspose.OCR for Jav
 ### 5. kérdés: Az Aspose.OCR támogatja a többszálú feldolgozást?
 
 5. válasz: Igen, az Aspose.OCR támogatja a többszálú feldolgozást a jobb teljesítmény érdekében párhuzamos környezetekben.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

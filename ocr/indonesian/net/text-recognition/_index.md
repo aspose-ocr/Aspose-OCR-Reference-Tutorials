@@ -3,10 +3,16 @@ title: Pengenalan Teks
 linktitle: Pengenalan Teks
 second_title: Aspose.OCR .NET API
 description: Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang tepat. Temukan tutorial untuk mendapatkan pilihan, hasil, dan format JSON dalam pengenalan gambar OCR.
-type: docs
 weight: 21
 url: /id/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengenalan Teks
+
 ## Perkenalan
 
 Apakah Anda siap membawa aplikasi .NET Anda ke level selanjutnya? Selami dunia Pengenalan Teks dengan Aspose.OCR dan tingkatkan proyek Anda dengan pengenalan karakter yang akurat dan pemrosesan gambar yang lancar.
@@ -49,3 +55,9 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

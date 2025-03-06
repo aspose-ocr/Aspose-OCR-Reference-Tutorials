@@ -3,10 +3,16 @@ title: Optimalizace OCR
 linktitle: Optimalizace OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte sílu Aspose.OCR pro .NET pomocí našich komplexních výukových programů. Ať už jste ostřílený vývojář nebo začátečník, tyto příručky vaši OCR hru pozvednou.
-type: docs
 weight: 25
 url: /cs/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimalizace OCR
+
 ## Úvod
 
 Maximalizujte přesnost OCR pomocí výukových programů Aspose.OCR for .NET. Provádějte OCR na obrázcích, připravujte obdélníky, aplikujte filtry pro předběžné zpracování, opravujte výsledky pomocí kontroly pravopisu a bez námahy ukládejte vícestránkové výsledky.
@@ -44,3 +50,9 @@ Prozkoumejte Aspose.OCR pro .NET. Zvyšte přesnost OCR pomocí filtrů předbě
 Vylepšete přesnost OCR pomocí Aspose.OCR pro .NET. Opravte pravopis, přizpůsobte slovníky a dosáhněte bezproblémového rozpoznávání textu bez námahy.
 ### [Uložit vícestránkový výsledek jako dokument v rozpoznávání obrazu OCR](./save-multipage-result-as-document/)
 Odemkněte potenciál Aspose.OCR pro .NET. Pomocí tohoto komplexního podrobného průvodce snadno ukládejte vícestránkové výsledky OCR jako dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Resultaat opslaan als document in OCR-beeldherkenning
 linktitle: Resultaat opslaan als document in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van Aspose.OCR voor .NET. Herken eenvoudig tekst in afbeeldingen en sla resultaten op in verschillende documentformaten.
-type: docs
 weight: 10
 url: /nl/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resultaat opslaan als document in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de opwindende wereld van optische tekenherkenning (OCR) met Aspose.OCR voor .NET! In deze uitgebreide zelfstudie verdiepen we ons in de fijne kneepjes van het gebruik van Aspose.OCR om tekst in afbeeldingen te herkennen en laten we zien hoe u de resultaten in verschillende documentformaten kunt opslaan.
@@ -99,3 +105,9 @@ A2: Absoluut! Aspose.OCR biedt herkenningsinstellingen om het OCR-proces te verf
 ### Vraag 5: Waar kan ik hulp zoeken of contact maken met de gemeenschap?
 
  A5: Sluit u aan bij de Aspose.OCR-gemeenschap op[Aspose-forum](https://forum.aspose.com/c/ocr/16) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ओसीआर कॉन्फ़िगरेशन
 linktitle: ओसीआर कॉन्फ़िगरेशन
 second_title: Aspose.OCR .NET एपीआई
 description: Aspose.OCR के साथ अपने .NET अनुप्रयोगों को सहजता से बढ़ाएं। संग्रह, फ़ोल्डर, भाषा चयन और सूची संचालन सहित ओसीआर कॉन्फ़िगरेशन ट्यूटोरियल का अन्वेषण करें।
-type: docs
 weight: 24
 url: /hi/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर कॉन्फ़िगरेशन
+
 ## परिचय
 
 Aspose.OCR के साथ .NET अनुप्रयोगों में ऑप्टिकल कैरेक्टर रिकॉग्निशन (OCR) की पूरी क्षमता का दोहन करने की यात्रा पर निकलें। चाहे आप एक अनुभवी डेवलपर हों या ओसीआर में नए हों, ये ट्यूटोरियल आपको विभिन्न ओसीआर परिचालनों के माध्यम से मार्गदर्शन करेंगे, यह सुनिश्चित करते हुए कि आप पाठ निष्कर्षण की शक्ति को आसानी से अनलॉक कर देंगे।
@@ -33,3 +39,9 @@ Aspose.OCR के साथ .NET में OCR छवि पहचान की 
 .NET के लिए Aspose.OCR के साथ शक्तिशाली OCR क्षमताओं को अनलॉक करें। छवियों से पाठ को निर्बाध रूप से निकालें।
 ### [ओसीआर छवि पहचान में सूची के साथ ओसीआरऑपरेशन](./ocr-operation-with-list/)
 .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें। सूचियों के साथ OCR छवि पहचान सहजता से निष्पादित करें। अपने अनुप्रयोगों में उत्पादकता और डेटा निष्कर्षण को बढ़ावा दें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

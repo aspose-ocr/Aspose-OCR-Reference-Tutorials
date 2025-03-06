@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.OCR cho .NET
 linktitle: Hướng dẫn Aspose.OCR cho .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Mở khóa độ chính xác trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET. Khám phá các hướng dẫn về tính toán góc nghiêng, nhận dạng văn bản, cấu hình OCR và tối ưu hóa.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.OCR cho .NET
+
 
 ## Giới thiệu
 
@@ -51,3 +56,9 @@ Mở khóa khả năng OCR trong ứng dụng .NET bằng Aspose.OCR. Khám phá
 Tối đa hóa độ chính xác OCR với hướng dẫn Aspose.OCR cho .NET. Thực hiện OCR trên hình ảnh, chuẩn bị hình chữ nhật, áp dụng các bộ lọc tiền xử lý, sửa kết quả bằng tính năng kiểm tra chính tả và lưu kết quả nhiều trang một cách dễ dàng.
 ### [Cài đặt OCR](./ocr-settings/)
 Khai phá sức mạnh của Aspose.OCR cho .NET bằng Hướng dẫn cài đặt OCR của chúng tôi. Tìm hiểu cách nâng cao độ chính xác, tốc độ và khả năng tùy chỉnh để nhận dạng văn bản trong hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

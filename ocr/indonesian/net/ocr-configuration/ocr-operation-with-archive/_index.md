@@ -3,10 +3,16 @@ title: Operasi OCRO dengan Arsip dalam Pengenalan Gambar OCR
 linktitle: Operasi OCRO dengan Arsip dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari arsip gambar langkah demi langkah.
-type: docs
 weight: 10
 url: /id/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi OCRO dengan Arsip dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Pengenalan Karakter Optik (OCR) yang mulus dan efisien dengan Aspose.OCR untuk .NET. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses melakukan operasi OCR pada arsip gambar menggunakan perpustakaan Aspose.OCR. Baik Anda seorang pengembang berpengalaman atau pemula yang penasaran, tutorial ini akan membekali Anda dengan pengetahuan untuk memanfaatkan potensi penuh OCR dalam aplikasi .NET Anda.
@@ -119,3 +125,9 @@ A4: Tentu saja! Aspose.OCR untuk .NET memberikan fleksibilitas dalam menyesuaika
 ### Q5: Seberapa sering Aspose.OCR untuk .NET diperbarui?
 
  A5: Tetap up-to-date dengan fitur dan peningkatan terbaru dengan memeriksa[dokumentasi](https://reference.aspose.com/ocr/net/) secara teratur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

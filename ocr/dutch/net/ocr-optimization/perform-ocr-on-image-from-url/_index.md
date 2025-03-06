@@ -3,10 +3,16 @@ title: Voer OCR uit op afbeelding vanaf URL in OCR-beeldherkenning
 linktitle: Voer OCR uit op afbeelding vanaf URL in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek naadloze OCR-integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
-type: docs
 weight: 10
 url: /nl/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voer OCR uit op afbeelding vanaf URL in OCR-beeldherkenning
+
 ## Invoering
 
 Op het gebied van Optical Character Recognition (OCR) onderscheidt Aspose.OCR voor .NET zich als een krachtig hulpmiddel waarmee ontwikkelaars tekstinhoud met precisie uit afbeeldingen kunnen extraheren. Als u OCR-mogelijkheden in uw .NET-toepassing wilt integreren en tekstherkenning moeiteloos wilt uitvoeren, leidt deze stapsgewijze handleiding u door het proces van het uitvoeren van OCR op een afbeelding vanaf een URL.
@@ -120,3 +126,9 @@ A2: Absoluut! Aspose.OCR biedt flexibiliteit voor het herkennen van zowel enkelr
 ### V5: Waar kan ik ondersteuning of communitydiscussies vinden met betrekking tot Aspose.OCR?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor ondersteuning en betrokkenheid bij de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

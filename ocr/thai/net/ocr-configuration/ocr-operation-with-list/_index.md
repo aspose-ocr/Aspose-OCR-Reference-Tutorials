@@ -3,10 +3,16 @@ title: OCROperation พร้อมรายการในการจดจำ
 linktitle: OCROperation พร้อมรายการในการจดจำรูปภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ดำเนินการจดจำรูปภาพ OCR พร้อมรายการได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานและการดึงข้อมูลในแอปพลิเคชันของคุณ
-type: docs
 weight: 13
 url: /th/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROperation พร้อมรายการในการจดจำรูปภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนเชิงลึกของเราเกี่ยวกับการใช้ประโยชน์จากพลังของ Aspose.OCR สำหรับ .NET เพื่อดำเนินการจดจำรูปภาพ OCR พร้อมรายการต่างๆ Optical Character Recognition (OCR) เป็นเทคโนโลยีสำคัญที่จะแปลงเอกสารประเภทต่างๆ เช่น เอกสารกระดาษที่สแกน PDF หรือรูปภาพ ให้เป็นข้อมูลที่แก้ไขและค้นหาได้
@@ -105,3 +111,10 @@ A2: แน่นอน. Aspose.OCR รองรับรูปแบบภาพ
 ### คำถามที่ 5: จะเกิดอะไรขึ้นหากฉันประสบปัญหาหรือมีคำถามเฉพาะระหว่างการใช้งาน
 
  A5: คุณสามารถขอความช่วยเหลือได้ที่[ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16) เพื่อรับการสนับสนุนจากชุมชนและผู้เชี่ยวชาญทันที
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

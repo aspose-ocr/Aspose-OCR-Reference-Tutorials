@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
 linktitle: OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
 second_title: Aspose.OCR .NET API'si
 description: Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
-type: docs
 weight: 13
 url: /tr/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
+
 ## giriiş
 
 Bilgi teknolojisinin hızlı dünyasında, Optik Karakter Tanıma (OCR), görüntüleri düzenlenebilir ve aranabilir metne dönüştürmede çok önemli bir rol oynar. Aspose.OCR for .NET, geliştiricilerin güçlü OCR işlevselliğini uygulamalarına zahmetsizce entegre etmelerine olanak tanır. Bu eğitimde, görüntü tanımayı geliştiren güçlü bir özellik olan OCR Alanları Algılama Modu'nu inceleyeceğiz.
@@ -91,3 +97,9 @@ Cevap3: Aspose.OCR for .NET PNG, JPEG ve BMP gibi popüler görüntü formatlar�
 ### S5: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, Aspose.OCR for .NET'in özelliklerini aşağıdaki sertifikayı edinerek keşfedebilirsiniz:[ücretsiz deneme lisansı](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

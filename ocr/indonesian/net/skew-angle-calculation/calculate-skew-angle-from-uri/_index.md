@@ -3,10 +3,16 @@ title: Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR
 linktitle: Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi Aspose.OCR untuk .NET untuk menghitung sudut kemiringan dengan mudah dalam pengenalan gambar OCR. Tingkatkan proyek Anda dengan presisi dan efisiensi.
-type: docs
 weight: 12
 url: /id/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET! Dalam tutorial komprehensif ini, kita akan mempelajari seluk-beluk penggunaan Aspose.OCR untuk .NET untuk menghitung sudut kemiringan dari URI dalam pengenalan gambar OCR. Alat canggih ini membuka kemungkinan baru dalam pengenalan karakter optik, menjadikan prosesnya lebih lancar dan efisien.
@@ -92,3 +98,9 @@ A4: Pastikan Anda telah mengimpor namespace yang diperlukan ke proyek Anda, sepe
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.OCR untuk .NET?
 
  A5: Lihat[dokumentasi](https://reference.aspose.com/ocr/net/) untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

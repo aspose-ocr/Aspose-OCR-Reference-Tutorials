@@ -1,12 +1,17 @@
 ---
 title: Tutoriels complets et exemples d'Aspose.OCR pour .NET
 linktitle: Aspose.OCR pour les didacticiels .NET
-type: docs
 weight: 10
 url: /fr/net/
 description: Bénéficiez de la précision de la reconnaissance d’images OCR avec Aspose.OCR pour .NET. Explorez des didacticiels sur le calcul de l'angle d'inclinaison, la reconnaissance de texte, la configuration OCR et l'optimisation.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriels complets et exemples d'Aspose.OCR pour .NET
+
 
 ## Introduction
 
@@ -51,3 +56,9 @@ Débloquez les fonctionnalités OCR dans les applications .NET avec Aspose.OCR. 
 Maximisez la précision de l'OCR avec les didacticiels Aspose.OCR pour .NET. Effectuez une OCR sur les images, préparez des rectangles, appliquez des filtres de prétraitement, corrigez les résultats avec la vérification orthographique et enregistrez les résultats sur plusieurs pages sans effort.
 ### [Paramètres ROC](./ocr-settings/)
 Libérez la puissance d'Aspose.OCR pour .NET avec nos didacticiels sur les paramètres OCR. Apprenez à améliorer la précision, la vitesse et la personnalisation de la reconnaissance de texte dans les images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

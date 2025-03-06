@@ -3,10 +3,16 @@ title: Ställ in tröskelvärde i OCR-bildigenkänning
 linktitle: Ställ in tröskelvärde i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Utforska Aspose.OCR för .NET, en robust OCR-lösning. Ställ in anpassade tröskelvärden utan ansträngning. Förbättra textigenkänning i dina applikationer.
-type: docs
 weight: 12
 url: /sv/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in tröskelvärde i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till den spännande världen av Aspose.OCR för .NET! I den här handledningen kommer vi att dyka djupt in i funktionerna i Aspose.OCR, ett kraftfullt verktyg designat för att göra optisk teckenigenkänning till en lek i .NET-applikationer. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här guiden att leda dig genom processen att ställa in tröskelvärdet för OCR-bildigenkänning med Aspose.OCR för .NET.
@@ -99,3 +105,9 @@ A1: Absolut! Aspose.OCR för .NET är mångsidig och kan sömlöst integreras i 
 ### F5: Hur kan jag köpa den fullständiga versionen av Aspose.OCR för .NET?
 
  S5: För att låsa upp alla funktioner, besök köpsidan[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

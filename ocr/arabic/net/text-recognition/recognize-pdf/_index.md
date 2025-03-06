@@ -3,10 +3,16 @@ title: التعرف على PDF في التعرف على الصور OCR
 linktitle: التعرف على PDF في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
-type: docs
 weight: 14
 url: /ar/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على PDF في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم التعرف البصري على الأحرف (OCR) باستخدام Aspose.OCR لـ .NET! إذا كنت حريصًا على الاستفادة من إمكانات التعرف الضوئي على الحروف (OCR) في تطبيقات .NET الخاصة بك، فأنت في المكان الصحيح. في هذا الدليل التفصيلي، سنستكشف كيفية التعرف على النص في ملف PDF باستخدام مكتبة Aspose.OCR. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا البرنامج التعليمي خلال العملية، مما يضمن أنه يمكنك بسهولة دمج وظيفة التعرف الضوئي على الحروف في مشاريعك.
@@ -101,3 +107,9 @@ foreach (var result in results)
 ### س5: أين يمكنني شراء Aspose.OCR لـ .NET؟
 
  ج5: يمكنك شراء المنتج من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

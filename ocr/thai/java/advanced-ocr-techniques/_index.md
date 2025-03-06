@@ -3,10 +3,16 @@ title: เทคนิค OCR ขั้นสูง
 linktitle: เทคนิค OCR ขั้นสูง
 second_title: Aspose.OCR Java API
 description: ทำ OCR บนรูปภาพได้อย่างง่ายดายโดยใช้ Aspose.OCR สำหรับ Java แยกข้อความได้อย่างราบรื่นด้วยความแม่นยำสูง ปรับปรุงโปรเจ็กต์ Java ของคุณด้วยการจดจำข้อความที่หลากหลาย
-type: docs
 weight: 22
 url: /th/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เทคนิค OCR ขั้นสูง
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับโปรเจ็กต์ Java ของคุณไปอีกระดับแล้วหรือยัง? ดำดิ่งสู่โลกแห่งเทคนิค OCR ขั้นสูงด้วย Aspose.OCR สำหรับ Java ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจบทช่วยสอนต่างๆ เพื่อช่วยให้คุณแยกข้อความออกจากรูปภาพได้อย่างง่ายดาย
@@ -55,3 +61,9 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เสริมศักยภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความที่แม่นยำ บูรณาการได้ง่าย มีความแม่นยำสูง
 ### [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
 ปลดล็อกการแยกข้อความจากรูปภาพได้อย่างราบรื่นด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

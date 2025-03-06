@@ -1,12 +1,17 @@
 ---
 title: Omfattande handledningar och exempel på Aspose.OCR för .NET
 linktitle: Aspose.OCR för .NET Tutorials
-type: docs
 weight: 10
 url: /sv/net/
 description: Lås upp precision i OCR-bildigenkänning med Aspose.OCR för .NET. Utforska handledningar om beräkning av sned vinkel, textigenkänning, OCR-konfiguration och optimering.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omfattande handledningar och exempel på Aspose.OCR för .NET
+
 
 ## Introduktion
 
@@ -51,3 +56,9 @@ Lås upp OCR-funktioner i .NET-appar med Aspose.OCR. Utforska självstudier för
 Maximera OCR-noggrannheten med Aspose.OCR för .NET-tutorials. Utför OCR på bilder, förbered rektanglar, använd förbehandlingsfilter, korrigera resultat med stavningskontroll och spara flersidiga resultat utan ansträngning.
 ### [OCR-inställningar](./ocr-settings/)
 Lås upp kraften i Aspose.OCR för .NET med våra handledningar för OCR-inställningar. Lär dig att förbättra noggrannhet, hastighet och anpassning för textigenkänning i bilder.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

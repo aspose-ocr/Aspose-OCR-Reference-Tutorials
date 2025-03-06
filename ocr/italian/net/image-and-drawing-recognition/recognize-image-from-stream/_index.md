@@ -3,10 +3,16 @@ title: Riconosci l'immagine dal flusso nel riconoscimento immagini OCR
 linktitle: Riconosci l'immagine dal flusso nel riconoscimento immagini OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca la magia dell'OCR con Aspose.OCR per .NET. Estrai facilmente testo dalle immagini. Esplora il tutorial per avere una guida passo passo.
-type: docs
 weight: 12
 url: /it/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Riconosci l'immagine dal flusso nel riconoscimento immagini OCR
+
 ## introduzione
 
 Benvenuti nell'entusiasmante regno del riconoscimento ottico dei caratteri (OCR) utilizzando Aspose.OCR per .NET! Che tu sia uno sviluppatore esperto o che tu stia semplicemente immergendoti nel mondo dell'OCR, questa guida passo passo ti guiderà nel riconoscere facilmente le immagini dai flussi. Aspose.OCR per .NET è uno strumento robusto che consente la perfetta integrazione della funzionalità OCR nelle applicazioni .NET, rendendo l'estrazione del testo dalle immagini un gioco da ragazzi.
@@ -105,3 +111,9 @@ A1: Sì, Aspose.OCR supporta un'ampia gamma di lingue, rendendolo versatile per 
 ### Q5: Dove posso acquistare Aspose.OCR per .NET?
 
  A5: Per rendere Aspose.OCR una parte permanente del tuo toolkit, visita il[pagina di acquisto](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Bereken de scheefhoek van de stroom in OCR-beeldherkenning
 linktitle: Bereken de scheefhoek van de stroom in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontketen de kracht van Aspose.OCR voor .NET, een robuuste oplossing voor beeldherkenning. Leer hoe u moeiteloos schuine hoeken kunt berekenen.
-type: docs
 weight: 11
 url: /nl/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bereken de scheefhoek van de stroom in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de opwindende wereld van Aspose.OCR voor .NET, een krachtig hulpmiddel dat de deuren opent naar efficiënte beeldherkenning in uw .NET-toepassingen. In deze uitgebreide handleiding leiden we u door het proces van het berekenen van schuine hoeken vanuit een stream in OCR-beeldherkenning met behulp van Aspose.OCR. Of u nu een doorgewinterde ontwikkelaar bent of net begint aan uw codeerreis, deze tutorial zal u voorzien van de kennis om het volledige potentieel van Aspose.OCR voor .NET te benutten.
@@ -103,3 +109,9 @@ A1: Aspose.OCR ondersteunt een breed scala aan .NET-frameworks, waardoor compati
 ### Q5: Heeft u ondersteuning nodig of heeft u specifieke vragen?
 
  A5: Bezoek de Aspose.OCR-gemeenschap[forum](https://forum.aspose.com/c/ocr/16) voor hulp van experts en collega-ontwikkelaars.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

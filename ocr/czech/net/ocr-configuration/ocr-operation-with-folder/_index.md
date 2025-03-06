@@ -3,10 +3,16 @@ title: OCROoperace se složkou v OCR rozpoznávání obrazu
 linktitle: OCROoperace se složkou v OCR rozpoznávání obrazu
 second_title: Aspose.OCR .NET API
 description: Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte text z obrázků bez námahy.
-type: docs
 weight: 11
 url: /cs/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROoperace se složkou v OCR rozpoznávání obrazu
+
 ## Úvod
 
 Vítejte ve světě optického rozpoznávání znaků (OCR) pomocí Aspose.OCR pro .NET! Pokud hledáte bezproblémové extrahování textu z obrázků v rámci vašich aplikací .NET, jste na správném místě. Tento výukový program vás provede procesem rozpoznávání obrazu OCR pomocí složek a využije výkonné možnosti Aspose.OCR.
@@ -118,3 +124,9 @@ Gratulujeme! Úspěšně jste se naučili, jak implementovat rozpoznávání obr
 ### Q5: Potřebujete podporu nebo máte otázky?
 
  A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

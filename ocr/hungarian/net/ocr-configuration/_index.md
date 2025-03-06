@@ -3,10 +3,16 @@ title: OCR konfiguráció
 linktitle: OCR konfiguráció
 second_title: Aspose.OCR .NET API
 description: Könnyedén javíthatja .NET-alkalmazásait az Aspose.OCR segítségével. Fedezze fel az OCR konfigurációs oktatóanyagokat, beleértve az archívumot, mappát, nyelvválasztást és listaműveleteket.
-type: docs
 weight: 24
 url: /hu/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR konfiguráció
+
 ## Bevezetés
 
 Induljon el egy utazásra, hogy az Aspose.OCR segítségével kihasználja az optikai karakterfelismerésben (OCR) a .NET alkalmazásokban rejlő lehetőségeket. Akár tapasztalt fejlesztő, akár újonc az OCR-ben, ezek az oktatóanyagok végigvezetik Önt a különféle OCR-műveleteken, biztosítva, hogy könnyedén felszabadítsa a szövegkivonás hatalmát.
@@ -33,3 +39,9 @@ Az Aspose.OCR segítségével felszabadíthatja az OCR képfelismerés erejét a
 Fedezze fel a hatékony OCR-képességeket az Aspose.OCR for .NET segítségével. Zökkenőmentesen vonja ki a szöveget a képekből.
 ### [OCROművelet listával az OCR képfelismerésben](./ocr-operation-with-list/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

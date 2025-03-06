@@ -3,10 +3,16 @@ title: Utför OCR på bild i OCR-bildigenkänning
 linktitle: Utför OCR på bild i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp OCR-magi med Aspose.OCR för .NET extrahera text från bilder utan ansträngning. Utforska handledningen för sömlös integration.
-type: docs
 weight: 14
 url: /sv/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utför OCR på bild i OCR-bildigenkänning
+
 ## Introduktion
 
 dagens teknikdrivna värld spelar Optical Character Recognition (OCR) en avgörande roll för att extrahera värdefull information från bilder. Aspose.OCR för .NET ger utvecklare en robust verktygsuppsättning för att sömlöst integrera OCR-funktioner i sina applikationer. Den här steg-för-steg-guiden leder dig genom processen att utföra OCR på en bild med Aspose.OCR för .NET, förvandla bilder till sökbar och redigerbar text.
@@ -98,3 +104,9 @@ S2: Ja, du kan få en tillfällig licens för Aspose.OCR för att utforska dess 
 ### F5: Kan jag prova Aspose.OCR för .NET gratis innan jag köper?
 
  A5: Absolut, du kan utforska funktionerna med en[gratis provperiod](https://releases.aspose.com/) av Aspose.OCR för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 스큐 각도 계산
 linktitle: 스큐 각도 계산
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 사용하여 OCR 이미지 인식에서 정확한 경사각 계산의 비밀을 알아보세요. 프로젝트의 정확성과 효율성을 손쉽게 향상시키세요.
-type: docs
 weight: 20
 url: /ko/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 스큐 각도 계산
+
 ## 소개
 
 C# 애플리케이션에서 완벽한 텍스트 인식을 위해 노력하고 있습니까? 더 이상 보지 마십시오! .NET용 Aspose.OCR로 제공되는 경사각 계산 튜토리얼은 복잡한 프로세스를 정교하게 안내합니다.
@@ -34,3 +40,9 @@ C# 애플리케이션에서 정확한 텍스트 인식을 위한 강력한 OCR �
 이미지 인식을 위한 강력한 솔루션인 .NET용 Aspose.OCR의 강력한 기능을 활용해 보세요. 경사각을 쉽게 계산하는 방법을 알아보세요.
 ### [OCR 이미지 인식의 URI에서 기울기 각도 계산](./calculate-skew-angle-from-uri/)
 .NET용 Aspose.OCR을 탐색하여 OCR 이미지 인식의 기울어짐 각도를 쉽게 계산하세요. 정확성과 효율성으로 프로젝트를 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

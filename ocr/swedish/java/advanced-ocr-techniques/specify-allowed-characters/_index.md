@@ -3,10 +3,16 @@ title: Ange tillåtna tecken i Aspose.OCR
 linktitle: Ange tillåtna tecken i Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Lås upp textextraktion från bilder sömlöst med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration.
-type: docs
 weight: 15
 url: /sv/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange tillåtna tecken i Aspose.OCR
+
 ## Introduktion
 
 det ständigt föränderliga tekniklandskapet har Optical Character Recognition (OCR) blivit en avgörande komponent för företag och utvecklare som vill extrahera meningsfull information från bilder. Aspose.OCR för Java framstår som ett kraftfullt verktyg som erbjuder sömlös integration och effektiva textigenkänningsfunktioner. Denna omfattande guide kommer att leda dig genom processen att utnyttja potentialen i Aspose.OCR för Java, vilket säkerställer en smidig resa från installation till praktisk implementering.
@@ -105,3 +111,9 @@ A:4 Aspose.OCR förblir uppdaterad för att säkerställa kompatibilitet med de 
 ### F5: Finns det några ytterligare OCR-funktioner i Aspose.OCR?
 
 S5: Utforska de omfattande funktionerna och alternativen som finns i dokumentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

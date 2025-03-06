@@ -3,10 +3,16 @@ title: OCR 图像识别中的 OCROperation 与文件夹
 linktitle: OCR 图像识别中的 OCROperation 与文件夹
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 释放 .NET 中 OCR 图像识别的强大功能。轻松从图像中提取文本。
-type: docs
 weight: 11
 url: /zh/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 图像识别中的 OCROperation 与文件夹
+
 ## 介绍
 
 欢迎来到使用 Aspose.OCR for .NET 的光学字符识别 (OCR) 世界！如果您希望在 .NET 应用程序中无缝地从图像中提取文本，那么您来对地方了。本教程将指导您利用 Aspose.OCR 的强大功能完成文件夹的 OCR 图像识别过程。
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### Q5：需要支持或有疑问吗？
 
  A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)以获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

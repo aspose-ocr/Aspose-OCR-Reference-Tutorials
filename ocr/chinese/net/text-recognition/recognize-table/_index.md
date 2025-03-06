@@ -3,10 +3,16 @@ title: OCR图像识别中的识别表
 linktitle: OCR图像识别中的识别表
 second_title: Aspose.OCR .NET API
 description: 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
-type: docs
 weight: 15
 url: /zh/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR图像识别中的识别表
+
 ## 介绍
 
 欢迎来到 Aspose.OCR for .NET 的迷人世界！如果您希望通过强大的 OCR（光学字符识别）功能来增强 .NET 应用程序，那么您来对地方了。本分步指南将引导您完成使用 Aspose.OCR for .NET 在 OCR 图像识别中识别表格的过程。
@@ -95,3 +101,9 @@ A3：获得临时许可证[这里](https://purchase.aspose.com/temporary-license
 ### Q5：Aspose.OCR 有免费试用版吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/)在购买前探索功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

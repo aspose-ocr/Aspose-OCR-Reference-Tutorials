@@ -3,10 +3,16 @@ title: Eredmény lekérése JSON-ként az OCR képfelismerésben
 linktitle: Eredmény lekérése JSON-ként az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről-lépésre szóló útmutatóval.
-type: docs
 weight: 12
 url: /hu/net/text-recognition/get-result-as-json/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eredmény lekérése JSON-ként az OCR képfelismerésben
+
 ## Bevezetés
 
 A technológia folyamatosan fejlődő világában az Optical Character Recognition (OCR) kulcsfontosságú eszköz, amely lehetővé teszi a gépek számára, hogy információkat értelmezzenek és kinyerjenek a képekből. Az Aspose.OCR for .NET lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen integrálják az OCR képességeket alkalmazásaikba. Ez az oktatóanyag végigvezeti az OCR-eredmények JSON-formátumban történő megszerzésének folyamatán az Aspose.OCR for .NET használatával.
@@ -93,3 +99,9 @@ Az Aspose.OCR for .NET leegyszerűsíti az OCR-képességek integrálását az a
 ### 5. kérdés: Vásárolhatok licencet az Aspose.OCR for .NET számára?
 
  V5: Igen, vásárolhat licencet[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

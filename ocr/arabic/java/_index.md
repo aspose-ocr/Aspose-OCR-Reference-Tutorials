@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.OCR لـ Java
 linktitle: Aspose.OCR لدروس جافا
-type: docs
 weight: 10
 url: /ar/java/
 description: أطلق العنان لقوة Aspose.OCR لجافا! تعلم أساسيات التعرف الضوئي على الحروف والعمليات والتقنيات المتقدمة. قم بإعداد الترخيص الخاص بك، واكتشف المناطق، وحسّن التعرف على النص دون عناء.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.OCR لـ Java
+
 
 ## مقدمة
 
@@ -32,3 +37,9 @@ is_root: true
 أطلق العنان لإمكانات Aspose.OCR لـ Java من خلال دروسنا الشاملة للتعرف الضوئي على الحروف. تعرف على وضع مناطق الكشف واختيار اللغة وPDF والتعرف على TIFF في بضع خطوات فقط!
 ### [تقنيات التعرف الضوئي على الحروف المتقدمة](./advanced-ocr-techniques/)
 قم بإجراء التعرف الضوئي على الحروف (OCR) على الصور بسهولة باستخدام Aspose.OCR لـ Java. استخراج النص بسلاسة وبدقة عالية. قم بتحسين مشاريع Java الخاصة بك من خلال التعرف على النص متعدد الاستخدامات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nhận dạng hình ảnh từ luồng trong Nhận dạng hình ảnh OC
 linktitle: Nhận dạng hình ảnh từ luồng trong Nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa phép thuật OCR bằng Aspose.OCR cho .NET. Dễ dàng trích xuất văn bản từ hình ảnh. Khám phá hướng dẫn để được hướng dẫn từng bước.
-type: docs
 weight: 12
 url: /vi/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng hình ảnh từ luồng trong Nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của nhận dạng ký tự quang học (OCR) bằng Aspose.OCR cho .NET! Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bước chân vào thế giới OCR, hướng dẫn từng bước này sẽ hướng dẫn bạn cách nhận dạng hình ảnh từ các luồng một cách dễ dàng. Aspose.OCR cho .NET là một công cụ mạnh mẽ cho phép tích hợp liền mạch chức năng OCR vào các ứng dụng .NET của bạn, giúp việc trích xuất văn bản từ hình ảnh trở nên dễ dàng.
@@ -105,3 +111,9 @@ Câu trả lời 1: Có, Aspose.OCR hỗ trợ nhiều ngôn ngữ, khiến ngô
 ### Câu hỏi 5: Tôi có thể mua Aspose.OCR cho .NET ở đâu?
 
  Câu trả lời 5: Để biến Aspose.OCR thành một phần cố định trong bộ công cụ của bạn, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

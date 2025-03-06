@@ -3,10 +3,16 @@ title: Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
 linktitle: Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potężne możliwości OCR dzięki Aspose.OCR dla .NET. Płynnie wyodrębniaj tekst z obrazów.
-type: docs
 weight: 12
 url: /pl/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 W świecie rozpoznawania obrazów i optycznego rozpoznawania znaków (OCR) Aspose.OCR dla .NET wyróżnia się jako potężne narzędzie dla programistów poszukujących dokładnego i wydajnego wyodrębniania tekstu z obrazów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces rozpoznawania obrazu OCR przy użyciu Aspose.OCR dla .NET, koncentrując się na operacji z wyborem języka.
@@ -109,3 +115,10 @@ A2: Absolutnie! Dostosuj parametry, takie jak kąt pochylenia, rozpoznawanie lin
 ### P5: Jak mogę kupić Aspose.OCR dla .NET?
 
  O5: Aby dokonać zakupu, odwiedź stronę[strona zakupu](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

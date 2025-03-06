@@ -3,10 +3,16 @@ title: Εκτέλεση OCR με λειτουργία ανίχνευσης πε�
 linktitle: Εκτέλεση OCR με λειτουργία ανίχνευσης περιοχών στο Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τη δύναμη της εξαγωγής κειμένου από εικόνες με το Aspose.OCR για Java. Ένα ολοκληρωμένο σεμινάριο σχετικά με το OCR με τη λειτουργία εντοπισμού περιοχών.
-type: docs
 weight: 10
 url: /el/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτέλεση OCR με λειτουργία ανίχνευσης περιοχών στο Aspose.OCR
+
 ## Εισαγωγή
 
 Στον συνεχώς εξελισσόμενο κόσμο της τεχνολογίας, η οπτική αναγνώριση χαρακτήρων (OCR) παίζει καθοριστικό ρόλο στην εξαγωγή πολύτιμων πληροφοριών από εικόνες. Το Aspose.OCR για Java παρέχει μια ισχυρή λύση για το OCR, επιτρέποντας στους προγραμματιστές να εκμεταλλευτούν τις δυνατότητες της αναγνώρισης κειμένου απρόσκοπτα. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία εκτέλεσης OCR με τη λειτουργία εντοπισμού περιοχών χρησιμοποιώντας το Aspose.OCR για Java.
@@ -108,3 +114,9 @@ A4: Ναι, όπως αποδεικνύεται σε αυτό το σεμινά�
 ### Ε5: Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.OCR;
 
  A5: Ναι, μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στο[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

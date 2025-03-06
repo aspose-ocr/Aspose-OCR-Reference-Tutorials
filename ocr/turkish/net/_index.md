@@ -1,12 +1,17 @@
 ---
 title: Aspose.OCR for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
 linktitle: .NET Eğitimleri için Aspose.OCR
-type: docs
 weight: 10
 url: /tr/net/
 description: Aspose.OCR for .NET ile OCR görüntü tanımada hassasiyetin kilidini açın. Eğim açısı hesaplaması, metin tanıma, OCR yapılandırması ve optimizasyonu hakkındaki eğitimleri keşfedin.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for .NET ile ilgili Kapsamlı Eğitimler ve Örnekler
+
 
 ## giriiş
 
@@ -51,3 +56,9 @@ Aspose.OCR ile .NET uygulamalarındaki OCR yeteneklerinin kilidini açın. Arşi
 Aspose.OCR for .NET eğitimleriyle OCR doğruluğunu en üst düzeye çıkarın. Görüntüler üzerinde OCR gerçekleştirin, dikdörtgenler hazırlayın, ön işleme filtreleri uygulayın, yazım denetimiyle sonuçları düzeltin ve çok sayfalı sonuçları zahmetsizce kaydedin.
 ### [OCR Ayarları](./ocr-settings/)
 OCR Ayarları Eğitimlerimizle Aspose.OCR for .NET'in gücünün kilidini açın. Görüntülerdeki metin tanıma için doğruluğu, hızı ve özelleştirmeyi geliştirmeyi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

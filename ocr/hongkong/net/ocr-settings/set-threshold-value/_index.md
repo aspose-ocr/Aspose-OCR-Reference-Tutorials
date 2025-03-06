@@ -3,10 +3,16 @@ title: 設定OCR影像辨識的閾值
 linktitle: 設定OCR影像辨識的閾值
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET 強大的 OCR 解決方案。輕鬆設定自訂閾值。增強應用程式中的文字辨識。
-type: docs
 weight: 12
 url: /zh-hant/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 設定OCR影像辨識的閾值
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的令人興奮的世界！在本教程中，我們將深入探討 Aspose.OCR 的功能，這是一個強大的工具，旨在使 .NET 應用程式中的光學字元辨識變得輕而易舉。無論您是經驗豐富的開發人員還是新手，本指南都將引導您完成使用 Aspose.OCR for .NET 設定 OCR 影像辨識閾值的過程。
@@ -99,3 +105,9 @@ A1：當然！ Aspose.OCR for .NET 用途廣泛，可無縫整合到 Web 和桌�
 ### Q5：如何購買完整版的 Aspose.OCR for .NET？
 
  A5：要解鎖所有功能，請造訪購買頁面[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR-optimering
 linktitle: OCR-optimering
 second_title: Aspose.OCR .NET API
 description: Lås upp kraften i Aspose.OCR för .NET med våra omfattande handledningar. Oavsett om du är en erfaren utvecklare eller nybörjare, kommer dessa guider att höja ditt OCR-spel.
-type: docs
 weight: 25
 url: /sv/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-optimering
+
 ## Introduktion
 
 Maximera OCR-noggrannheten med Aspose.OCR för .NET-tutorials. Utför OCR på bilder, förbered rektanglar, använd förbehandlingsfilter, korrigera resultat med stavningskontroll och spara flersidiga resultat utan ansträngning.
@@ -44,3 +50,9 @@ Utforska Aspose.OCR för .NET. Öka OCR-noggrannheten med förbehandlingsfilter.
 Förbättra OCR-noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR-bildigenkänning](./save-multipage-result-as-document/)
 Lås upp potentialen hos Aspose.OCR för .NET. Spara enkelt flersidiga OCR-resultat som dokument med denna omfattande steg-för-steg-guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

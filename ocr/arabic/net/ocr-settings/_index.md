@@ -3,10 +3,16 @@ title: إعدادات التعرف الضوئي على الحروف
 linktitle: إعدادات التعرف الضوئي على الحروف
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لقوة Aspose.OCR لـ .NET من خلال البرامج التعليمية الخاصة بإعدادات OCR. تعلم كيفية تحسين الدقة والسرعة والتخصيص للتعرف على النص في الصور.
-type: docs
 weight: 26
 url: /ar/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إعدادات التعرف الضوئي على الحروف
+
 
 ## مقدمة
 
@@ -50,3 +56,9 @@ url: /ar/net/ocr-settings/
 اكتشف إمكانات التعرف الضوئي على الحروف (OCR) المتقدمة باستخدام Aspose.OCR لـ .NET. فعالة ودقيقة وصديقة للمطورين.
 ### [العمل مع لغات مختلفة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./working-with-different-languages/)
 أطلق العنان لسحر التعرف الضوئي على الحروف (OCR) متعدد اللغات باستخدام Aspose.OCR لـ .NET. استخراج النص بسهولة في مختلف اللغات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

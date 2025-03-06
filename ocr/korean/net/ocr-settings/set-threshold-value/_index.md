@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 임계값 설정
 linktitle: OCR 이미지 인식에서 임계값 설정
 second_title: Aspose.OCR .NET API
 description: 강력한 OCR 솔루션인 .NET용 Aspose.OCR을 살펴보세요. 사용자 정의 임계값을 손쉽게 설정하세요. 귀하의 애플리케이션에서 텍스트 인식을 향상시키십시오.
-type: docs
 weight: 12
 url: /ko/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 임계값 설정
+
 ## 소개
 
 .NET용 Aspose.OCR의 흥미진진한 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 .NET 애플리케이션에서 광학 문자 인식을 쉽게 할 수 있도록 설계된 강력한 도구인 Aspose.OCR의 기능에 대해 자세히 알아봅니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 .NET용 Aspose.OCR을 사용하여 OCR 이미지 인식의 임계값을 설정하는 과정을 안내합니다.
@@ -99,3 +105,9 @@ A1: 물론이죠! .NET용 Aspose.OCR은 다목적이며 웹 및 데스크톱 애
 ### Q5: .NET용 Aspose.OCR 정식 버전을 어떻게 구입할 수 있나요?
 
  A5: 모든 기능을 잠금 해제하려면 구매 페이지를 방문하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

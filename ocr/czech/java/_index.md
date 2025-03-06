@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.OCR pro Javu
 linktitle: Aspose.OCR for Java Tutoriály
-type: docs
 weight: 10
 url: /cs/java/
 description: Odemkněte sílu Aspose.OCR pro Javu! Naučte se základy OCR, operace a pokročilé techniky. Nastavte si licenci, zjistěte oblasti a vylepšete rozpoznávání textu bez námahy.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.OCR pro Javu
+
 
 ## Úvod
 
@@ -32,3 +37,9 @@ Odemkněte potenciál Aspose.OCR v Javě! Podrobný průvodce nastavením licenc
 Odemkněte potenciál Aspose.OCR pro Javu pomocí našich komplexních výukových programů OCR. Naučte se režim detekce oblastí, výběr jazyka, rozpoznávání PDF a TIFF v několika krocích!
 ### [Pokročilé techniky OCR](./advanced-ocr-techniques/)
 Bez námahy provádějte OCR na obrázcích pomocí Aspose.OCR for Java. Extrahujte text bez problémů s vysokou přesností. Vylepšete své projekty Java pomocí všestranného rozpoznávání textu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

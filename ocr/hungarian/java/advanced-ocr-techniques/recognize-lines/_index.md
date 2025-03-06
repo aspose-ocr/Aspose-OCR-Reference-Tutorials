@@ -3,10 +3,16 @@ title: Vonalak felismerése az Aspose.OCR for Java-ban
 linktitle: Vonalak felismerése az Aspose.OCR for Java-ban
 second_title: Aspose.OCR Java API
 description: Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
-type: docs
 weight: 14
 url: /hu/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vonalak felismerése az Aspose.OCR for Java-ban
+
 ## Bevezetés
 
 Hatékony optikai karakterfelismerő (OCR) képességekkel szeretné továbbfejleszteni Java-alkalmazását? Ne keressen tovább! Az Aspose.OCR for Java egy élvonalbeli OCR-könyvtár, amely lehetővé teszi az OCR-funkciók zökkenőmentes integrálását Java-alkalmazásaiba. Ebben az oktatóanyagban a képek vonalainak felismerésére fogunk összpontosítani az Aspose.OCR for Java használatával.
@@ -111,3 +117,9 @@ A4: Természetesen! Az Aspose.OCR az asztali és webes alkalmazásokba való zö
 ### 5. kérdés: Elérhető az Aspose.OCR próbaverziója?
 
  5. válasz: Igen, egy ingyenes próbaverzióval felfedezheti az Aspose.OCR képességeit. Látogatás[itt](https://releases.aspose.com/) további információért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

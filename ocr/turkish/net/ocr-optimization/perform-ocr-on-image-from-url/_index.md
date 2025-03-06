@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştir
 linktitle: OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştirin
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile kusursuz OCR entegrasyonunu keşfedin. Görüntülerdeki metinleri hassasiyetle tanıyın.
-type: docs
 weight: 10
 url: /tr/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştirin
+
 ## giriiş
 
 Optik Karakter Tanıma (OCR) alanında Aspose.OCR for .NET, geliştiricilerin görüntülerden metin içeriğini hassas bir şekilde ayıklamasına olanak tanıyan güçlü bir araç olarak öne çıkıyor. OCR özelliklerini .NET uygulamanıza entegre etmek ve metin tanımayı zahmetsizce gerçekleştirmek istiyorsanız, bu adım adım kılavuz, bir URL'deki görüntü üzerinde OCR gerçekleştirme sürecinde size yol gösterecektir.
@@ -120,3 +126,9 @@ A2: Kesinlikle! Aspose.OCR, özel kullanım durumunuza uyum sağlayarak hem tek 
 ### S5: Aspose.OCR ile ilgili desteği veya topluluk tartışmalarını nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) destek ve toplulukla etkileşim için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

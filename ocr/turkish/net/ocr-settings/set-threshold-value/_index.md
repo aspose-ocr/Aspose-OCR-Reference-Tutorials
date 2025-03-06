@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Eşik Değerini Ayarlama
 linktitle: OCR Görüntü Tanıma'da Eşik Değerini Ayarlama
 second_title: Aspose.OCR .NET API'si
 description: Güçlü bir OCR çözümü olan Aspose.OCR for .NET'i keşfedin. Özel eşik değerlerini zahmetsizce ayarlayın. Uygulamalarınızda metin tanımayı geliştirin.
-type: docs
 weight: 12
 url: /tr/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Eşik Değerini Ayarlama
+
 ## giriiş
 
 Aspose.OCR for .NET'in heyecan verici dünyasına hoş geldiniz! Bu eğitimde, .NET uygulamalarında optik karakter tanımayı kolaylaştırmak için tasarlanmış güçlü bir araç olan Aspose.OCR'ın yeteneklerini derinlemesine inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz Aspose.OCR for .NET kullanarak OCR görüntü tanımada eşik değerini ayarlama sürecinde size yol gösterecektir.
@@ -99,3 +105,9 @@ A1: Kesinlikle! Aspose.OCR for .NET çok yönlüdür ve hem web hem de masaüst�
 ### S5: Aspose.OCR for .NET'in tam sürümünü nasıl satın alabilirim?
 
  Cevap5: Tüm özelliklerin kilidini açmak için satın alma sayfasını ziyaret edin[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

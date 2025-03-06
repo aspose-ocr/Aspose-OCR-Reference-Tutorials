@@ -3,10 +3,16 @@ title: Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
 linktitle: Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi Aspose.OCR untuk .NET. Kenali teks dalam gambar dengan mudah dan simpan hasilnya dalam berbagai format dokumen.
-type: docs
 weight: 10
 url: /id/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia pengenalan karakter optik (OCR) yang menarik dengan Aspose.OCR untuk .NET! Dalam tutorial komprehensif ini, kita akan mempelajari seluk-beluk penggunaan Aspose.OCR untuk mengenali teks dalam gambar dan mendemonstrasikan cara menyimpan hasilnya dalam berbagai format dokumen.
@@ -99,3 +105,9 @@ A2: Tentu saja! Aspose.OCR menyediakan pengaturan pengenalan untuk menyempurnaka
 ### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas?
 
  A5: Bergabunglah dengan komunitas Aspose.OCR di[Asumsikan Forum](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

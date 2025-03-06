@@ -3,10 +3,16 @@ title: Tryb wykrywania obszarów OCR w trybie rozpoznawania obrazu OCR
 linktitle: Tryb wykrywania obszarów OCR w trybie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać tekst obrazu. Poznaj tryb wykrywania obszarów OCR, aby uzyskać dokładne wyniki.
-type: docs
 weight: 13
 url: /pl/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tryb wykrywania obszarów OCR w trybie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 W szybko zmieniającym się świecie technologii informatycznych optyczne rozpoznawanie znaków (OCR) odgrywa kluczową rolę w przekształcaniu obrazów w tekst, który można edytować i przeszukiwać. Aspose.OCR dla .NET umożliwia programistom bezproblemową integrację solidnej funkcjonalności OCR ze swoimi aplikacjami. W tym samouczku zagłębimy się w tryb wykrywania obszarów OCR, zaawansowaną funkcję poprawiającą rozpoznawanie obrazów.
@@ -91,3 +97,9 @@ O3: Aspose.OCR dla .NET obsługuje popularne formaty obrazów, takie jak PNG, JP
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR dla .NET?
 
  O5: Tak, możesz poznać możliwości Aspose.OCR dla .NET, uzyskując plik[bezpłatna licencja próbna](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

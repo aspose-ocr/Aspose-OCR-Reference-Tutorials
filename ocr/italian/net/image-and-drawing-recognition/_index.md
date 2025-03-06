@@ -3,10 +3,16 @@ title: Riconoscimento di immagini e disegni
 linktitle: Riconoscimento di immagini e disegni
 second_title: API Aspose.OCR .NET
 description: Sblocca la precisione del riconoscimento delle immagini OCR con Aspose.OCR per .NET. Estrai senza sforzo il testo dalle immagini, che si tratti di righe, paragrafi o interi flussi.
-type: docs
 weight: 22
 url: /it/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Riconoscimento di immagini e disegni
+
 ## introduzione
 
 Sei pronto a migliorare il tuo gioco di riconoscimento delle immagini OCR? Aspose.OCR per .NET è la chiave per sbloccare la precisione dell'estrazione del testo dalle immagini. In questa guida completa, esploreremo vari tutorial che approfondiscono diversi aspetti del riconoscimento di immagini e disegni utilizzando Aspose.OCR per .NET. Immergiamoci e scateniamo la potenza dell'estrazione del testo senza soluzione di continuità.
@@ -48,3 +54,9 @@ Sblocca il potenziale del riconoscimento del testo con Aspose.OCR per .NET. Rico
 Scatena il potenziale di Aspose.OCR per .NET nel riconoscere le linee nel riconoscimento delle immagini OCR. Una guida per sviluppatori per l'estrazione semplice del testo dalle immagini.
 ### [Eseguire l'OCR sull'immagine in Riconoscimento immagine OCR](./perform-ocr-on-image/)
 Sblocca la magia dell'OCR con Aspose.OCR per .NET estrai facilmente il testo dalle immagini. Esplora il tutorial per un'integrazione perfetta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

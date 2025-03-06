@@ -3,10 +3,16 @@ title: Určení povolených znaků v Aspose.OCR
 linktitle: Určení povolených znaků v Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 15
 url: /cs/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Určení povolených znaků v Aspose.OCR
+
 ## Úvod
 
 neustále se vyvíjejícím prostředí technologií se optické rozpoznávání znaků (OCR) stalo klíčovou součástí pro podniky a vývojáře, kteří chtějí z obrázků extrahovat smysluplné informace. Aspose.OCR for Java vyniká jako výkonný nástroj, který nabízí bezproblémovou integraci a efektivní rozpoznávání textu. Tento komplexní průvodce vás provede procesem využití potenciálu Aspose.OCR pro Java a zajistí hladkou cestu od instalace k praktické implementaci.
@@ -105,3 +111,9 @@ A:4 Aspose.OCR zůstává aktualizován, aby byla zajištěna kompatibilita s ne
 ### Q5: Existují nějaké další funkce OCR v Aspose.OCR?
 
 Odpověď 5: Prozkoumejte komplexní funkce a možnosti dostupné v dokumentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

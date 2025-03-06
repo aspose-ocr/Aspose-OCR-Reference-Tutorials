@@ -3,10 +3,16 @@ title: Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản 
 linktitle: Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá tiềm năng nhận dạng văn bản với Aspose.OCR cho .NET. Nhận dạng văn bản từ hình ảnh một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ phát triển nhanh chóng, Nhận dạng ký tự quang học (OCR) đã trở thành một công cụ then chốt, cho phép máy móc hiểu được văn bản trong hình ảnh. Aspose.OCR cho .NET nổi bật như một giải pháp mạnh mẽ, cung cấp cho các nhà phát triển một cách liền mạch để tích hợp các khả năng OCR vào các ứng dụng .NET của họ. Trong hướng dẫn này, chúng ta sẽ khám phá cách nhận dạng văn bản từ hình ảnh mà không cần phát hiện vùng văn bản, sử dụng các bước rõ ràng và ngắn gọn với Aspose.OCR cho .NET.
@@ -100,3 +106,9 @@ Câu trả lời 2: Có, Aspose.OCR cho .NET rất linh hoạt và có thể đ�
 ### Câu hỏi 5: Aspose.OCR có giấy phép tạm thời không?
 
  Câu trả lời 5: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

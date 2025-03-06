@@ -3,10 +3,16 @@ title: 設定 OCR 影像辨識中的線程數
 linktitle: 設定 OCR 影像辨識中的線程數
 second_title: Aspose.OCR .NET API
 description: 解鎖 .NET 中的 OCR 效率。使用 Aspose.OCR 輕鬆設定線程數。提高準確性和速度。
-type: docs
 weight: 11
 url: /zh-hant/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 設定 OCR 影像辨識中的線程數
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的世界，在這裡，尖端的光學字元辨識 (OCR) 技術可以無縫整合到您的 .NET 應用程式中。在本教程中，我們將深入研究一個特定方面：設定 OCR 圖像識別中的線程數。這項強大的功能可優化 OCR 任務的效能，確保效率和準確性。
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### Q5：需要協助或想與社區建立聯繫？
 
  A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)支持和社區互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

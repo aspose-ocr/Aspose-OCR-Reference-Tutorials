@@ -3,10 +3,16 @@ title: Berechnen des Skew-Winkels in Aspose.OCR für Java
 linktitle: Berechnen des Skew-Winkels in Aspose.OCR für Java
 second_title: Aspose.OCR Java-API
 description: Verbessern Sie die OCR-Genauigkeit mit Aspose.OCR für Java. Erfahren Sie Schritt für Schritt, wie Sie Schräglaufwinkel berechnen. Verbessern Sie mühelos die Dokumentenverarbeitung.
-type: docs
 weight: 11
 url: /de/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berechnen des Skew-Winkels in Aspose.OCR für Java
+
 ## Einführung
 
 Willkommen zu unserem umfassenden Leitfaden zur Berechnung von Schräglaufwinkeln in Aspose.OCR für Java! Schrägwinkel spielen bei der Dokumentenverarbeitung eine entscheidende Rolle, insbesondere beim Umgang mit gescannten Bildern. Aspose.OCR für Java bietet eine leistungsstarke Lösung zur genauen Bestimmung und Korrektur von Schräglaufwinkeln und verbessert so die Gesamtqualität Ihrer OCR-Ergebnisse (Optical Character Recognition).
@@ -94,3 +100,9 @@ A3: Aspose.OCR unterstützt verschiedene Bildformate, darunter PNG, JPEG und TIF
 ### F5: Wo kann ich Hilfe suchen oder Probleme im Zusammenhang mit Aspose.OCR besprechen?
 
  A5: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) um mit der Community in Kontakt zu treten und Unterstützung von Aspose-Experten zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

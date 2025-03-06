@@ -3,10 +3,16 @@ title: Définir la valeur seuil dans la reconnaissance d'image OCR
 linktitle: Définir la valeur seuil dans la reconnaissance d'image OCR
 second_title: API Aspose.OCR .NET
 description: Découvrez Aspose.OCR pour .NET, une solution OCR robuste. Définissez facilement des valeurs de seuil personnalisées. Améliorez la reconnaissance de texte dans vos applications.
-type: docs
 weight: 12
 url: /fr/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir la valeur seuil dans la reconnaissance d'image OCR
+
 ## Introduction
 
 Bienvenue dans le monde passionnant d'Aspose.OCR pour .NET ! Dans ce didacticiel, nous approfondirons les capacités d'Aspose.OCR, un outil puissant conçu pour faciliter la reconnaissance optique de caractères dans les applications .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide vous guidera tout au long du processus de définition de la valeur seuil de la reconnaissance d'images OCR à l'aide d'Aspose.OCR pour .NET.
@@ -99,3 +105,9 @@ A1 : Absolument ! Aspose.OCR pour .NET est polyvalent et peut être intégré de
 ### Q5 : Comment puis-je acheter la version complète d'Aspose.OCR pour .NET ?
 
  A5 : Pour débloquer toutes les fonctionnalités, visitez la page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

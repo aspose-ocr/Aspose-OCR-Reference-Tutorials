@@ -3,10 +3,16 @@ title: مرشحات المعالجة المسبقة للصورة في التعر
 linktitle: مرشحات المعالجة المسبقة للصورة في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: استكشف Aspose.OCR لـ .NET. تعزيز دقة التعرف الضوئي على الحروف (OCR) باستخدام مرشحات المعالجة المسبقة. قم بالتنزيل الآن للتكامل السلس.
-type: docs
 weight: 12
 url: /ar/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مرشحات المعالجة المسبقة للصورة في التعرف على الصور OCR
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة للتعرف البصري على الأحرف (OCR) في تطبيقات .NET الخاصة بك باستخدام Aspose.OCR. تسمح هذه المكتبة القوية للمطورين بدمج وظائف التعرف الضوئي على الحروف (OCR) بسلاسة، وتحويل الصور إلى نص قابل للتحرير. في هذا الدليل المفصّل خطوة بخطوة، سنتعمق في مرشحات المعالجة المسبقة لتحسين الصورة، مما يضمن الحصول على أفضل النتائج للتعرف على الصور باستخدام تقنية التعرف الضوئي على الحروف (OCR).
@@ -112,3 +118,9 @@ Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 ### س5: هل يمكنني دمج Aspose.OCR في مشروع .NET الحالي الخاص بي؟
 
 ج5: بالتأكيد! اتبع الخطوات الموضحة في البرنامج التعليمي، وسوف تقوم بدمج Aspose.OCR بسلاسة في مشروع .NET الخاص بك للتعرف على الصور باستخدام OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

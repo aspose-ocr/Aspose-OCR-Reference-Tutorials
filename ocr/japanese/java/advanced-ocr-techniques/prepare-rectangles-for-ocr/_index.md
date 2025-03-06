@@ -3,10 +3,16 @@ title: Aspose.OCR で OCR 用の長方形を準備する
 linktitle: Aspose.OCR で OCR 用の長方形を準備する
 second_title: Aspose.OCR Java API
 description: Aspose.OCR for Java でテキスト認識の能力を解放します。シームレスな統合については、ステップバイステップのガイドに従ってください。効率的な OCR 機能で Java アプリケーションを強化します。
-type: docs
 weight: 13
 url: /ja/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR で OCR 用の長方形を準備する
+
 ## 導入
 
 ペースの速いテクノロジーの世界では、画像からテキストを抽出することが重要なタスクとなり、無数の可能性への扉が開かれています。 Aspose.OCR for Java は、光学式文字認識 (OCR) の複雑なプロセスを簡素化する強力なツールとして際立っています。この包括的なガイドでは、Aspose.OCR for Java の可能性を活用し、テキスト認識を Java アプリケーションにシームレスに統合するための重要な手順を説明します。
@@ -112,3 +118,9 @@ A2: はい、可能です。訪問[購入ページ](https://purchase.aspose.com/
 ### Q5: サポートが必要ですか、それとも質問がありますか?
 
  A5: Aspose.OCR コミュニティにアクセスしてください。[フォーラム](https://forum.aspose.com/c/ocr/16)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

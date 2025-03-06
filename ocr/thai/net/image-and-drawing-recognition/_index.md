@@ -3,10 +3,16 @@ title: การรับรู้ภาพและการวาดภาพ
 linktitle: การรับรู้ภาพและการวาดภาพ
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกความแม่นยำของการจดจำภาพ OCR ด้วย Aspose.OCR สำหรับ .NET แยกข้อความจากรูปภาพได้อย่างง่ายดาย ไม่ว่าจะเป็นบรรทัด ย่อหน้า หรือสตรีมทั้งหมด
-type: docs
 weight: 22
 url: /th/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรับรู้ภาพและการวาดภาพ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับเกมการจดจำภาพ OCR ของคุณแล้วหรือยัง? Aspose.OCR สำหรับ .NET คือกุญแจสำคัญในการปลดล็อกความแม่นยำในการแยกข้อความจากรูปภาพ ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจบทช่วยสอนต่างๆ ที่เจาะลึกแง่มุมต่างๆ ของการจดจำรูปภาพและภาพวาดโดยใช้ Aspose.OCR สำหรับ .NET มาดำดิ่งและปลดปล่อยพลังของการแยกข้อความที่ไร้รอยต่อกัน
@@ -48,3 +54,9 @@ url: /th/net/image-and-drawing-recognition/
 ปลดปล่อยศักยภาพของ Aspose.OCR สำหรับ .NET ในการจดจำเส้นในการจดจำรูปภาพ OCR คู่มือนักพัฒนาซอฟต์แวร์ในการแยกข้อความจากรูปภาพอย่างราบรื่น
 ### [ดำเนินการ OCR บนรูปภาพในการจดจำรูปภาพ OCR](./perform-ocr-on-image/)
 ปลดล็อกเวทย์มนตร์ OCR ด้วย Aspose.OCR สำหรับ .NET แยกข้อความจากรูปภาพได้อย่างง่ายดาย สำรวจบทช่วยสอนสำหรับการบูรณาการอย่างราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

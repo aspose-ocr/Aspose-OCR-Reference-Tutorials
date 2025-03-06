@@ -3,10 +3,16 @@ title: Kép- és rajzfelismerés
 linktitle: Kép- és rajzfelismerés
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az OCR képfelismerés pontosságát az Aspose.OCR for .NET segítségével. Könnyedén kinyerhet szöveget a képekből, legyen szó sorokról, bekezdésekről vagy teljes adatfolyamokról.
-type: docs
 weight: 22
 url: /hu/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép- és rajzfelismerés
+
 ## Bevezetés
 
 Készen állsz az OCR képfelismerő játék fejlesztésére? Az Aspose.OCR for .NET a kulcsa a képekből történő szövegkivonás pontosságának feloldásához. Ebben az átfogó útmutatóban különféle oktatóanyagokat fedezünk fel, amelyek az Aspose.OCR for .NET használatával történő kép- és rajzfelismerés különböző aspektusaival foglalkoznak. Merüljünk el, és engedjük szabadjára a zökkenőmentes szövegkivonás erejét.
@@ -48,3 +54,9 @@ Használja ki a szövegfelismerésben rejlő lehetőségeket az Aspose.OCR for .
 Engedje szabadjára az Aspose.OCR-ben rejlő lehetőségeket .NET-hez az OCR-képfelismerés vonalainak felismerésében. Fejlesztői útmutató a képek zökkenőmentes szövegkivonásához.
 ### [Végezze el az OCR-t a képen az OCR képfelismerésben](./perform-ocr-on-image/)
 Oldja fel az OCR varázslatot az Aspose.OCR for .NET segítségével könnyedén kivonhatja a szöveget a képekből. Fedezze fel az oktatóanyagot a zökkenőmentes integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

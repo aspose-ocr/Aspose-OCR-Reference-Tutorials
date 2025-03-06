@@ -3,10 +3,16 @@ title: Különböző nyelvek használata az OCR képfelismerésben
 linktitle: Különböző nyelvek használata az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel a többnyelvű OCR varázsát az Aspose.OCR for .NET segítségével. Könnyedén bontsa ki a szöveget különböző nyelveken.
-type: docs
 weight: 15
 url: /hu/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Különböző nyelvek használata az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.OCR for .NET világában, ahol az optikai karakterfelismerés (OCR) ereje találkozik a többnyelvű támogatás sokoldalúságával. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kihasználni az Aspose.OCR for .NET képességeit a különböző nyelvű szövegek könnyű felismerésére. Ha valaha is elgondolkozott már a különböző nyelvek OCR-képfelismerésének varázslatán, akkor jó helyen jár.
@@ -100,3 +106,9 @@ A2: Abszolút! Az Aspose.OCR a nyelvek széles skáláját támogatja, így soko
 ### 5. kérdés: Hogyan férhetek hozzá a dokumentációhoz?
 
  5. válasz: Az Aspose.OCR for .NET dokumentációja elérhető[itt](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

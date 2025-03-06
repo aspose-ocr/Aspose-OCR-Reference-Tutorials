@@ -3,10 +3,16 @@ title: Aspose.OCR에서 텍스트 영역으로 직사각형 얻기
 linktitle: Aspose.OCR에서 텍스트 영역으로 직사각형 얻기
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR의 강력한 기능을 활용해 보세요. 이 단계별 가이드를 통해 이미지에서 텍스트를 원활하게 추출하는 방법을 알아보세요. 효율적인 텍스트 인식을 위해 지금 다운로드하세요.
-type: docs
 weight: 12
 url: /ko/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR에서 텍스트 영역으로 직사각형 얻기
+
 ## 소개
 
 강력한 OCR(광학 문자 인식) 기능을 Java 애플리케이션에 통합하려고 하시나요? Aspose.OCR for Java는 이미지에서 정확하고 효율적인 텍스트 추출을 위한 솔루션입니다. 이 튜토리얼은 Aspose.OCR을 사용하여 텍스트 영역이 있는 직사각형을 얻는 과정을 안내하여 이 Java OCR 라이브러리의 잠재력을 최대한 활용할 수 있도록 도와줍니다.
@@ -105,3 +111,10 @@ A1: 예, Aspose.OCR은 Java 11 이상 버전과 호환됩니다.
 ### Q5: Aspose.OCR은 멀티스레딩을 지원합니까?
 
 A5: 예, Aspose.OCR은 동시 환경에서 성능 향상을 위해 멀티스레딩을 지원합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

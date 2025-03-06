@@ -3,10 +3,16 @@ title: Mode Deteksi Area OCR dalam Pengenalan Gambar OCR
 linktitle: Mode Deteksi Area OCR dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
-type: docs
 weight: 13
 url: /id/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mode Deteksi Area OCR dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Di dunia teknologi informasi yang serba cepat, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengubah gambar menjadi teks yang dapat diedit dan dicari. Aspose.OCR untuk .NET memberdayakan pengembang untuk mengintegrasikan fungsionalitas OCR yang kuat ke dalam aplikasi mereka dengan mudah. Dalam tutorial ini, kita akan mempelajari Mode Deteksi Area OCR, sebuah fitur canggih yang meningkatkan pengenalan gambar.
@@ -91,3 +97,9 @@ A3: Aspose.OCR untuk .NET mendukung format gambar populer seperti PNG, JPEG, dan
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.OCR untuk .NET?
 
  A5: Ya, Anda dapat menjelajahi kemampuan Aspose.OCR untuk .NET dengan memperoleh a[lisensi uji coba gratis](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

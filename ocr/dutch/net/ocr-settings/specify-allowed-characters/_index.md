@@ -3,10 +3,16 @@ title: Geef toegestane tekens op in OCR-beeldherkenning
 linktitle: Geef toegestane tekens op in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel nauwkeurige OCR in .NET met Aspose.OCR. Herken moeiteloos tekst uit afbeeldingen. Download nu voor een transformatieve ontwikkelingservaring.
-type: docs
 weight: 13
 url: /nl/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef toegestane tekens op in OCR-beeldherkenning
+
 ## Invoering
 
 In het steeds evoluerende technologische landschap is Optical Character Recognition (OCR) uitgegroeid tot een transformerend hulpmiddel, waarmee machines tekst uit afbeeldingen kunnen begrijpen. Aspose.OCR voor .NET onderscheidt zich als een krachtige oplossing die naadloze integratie biedt voor ontwikkelaars die op zoek zijn naar robuuste OCR-mogelijkheden in hun .NET-applicaties.
@@ -119,3 +125,9 @@ A2: Ja, Aspose.OCR ondersteunt herkenning in verschillende talen, waardoor het v
 ### Vraag 5: Waar kan ik hulp zoeken of contact opnemen met de gemeenschap voor ondersteuning?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) om met de gemeenschap in contact te komen en deskundige hulp te krijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

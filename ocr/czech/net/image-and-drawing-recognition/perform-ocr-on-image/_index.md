@@ -3,10 +3,16 @@ title: Proveďte OCR na obrázku v OCR rozpoznávání obrázku
 linktitle: Proveďte OCR na obrázku v OCR rozpoznávání obrázku
 second_title: Aspose.OCR .NET API
 description: Odemkněte kouzlo OCR s Aspose.OCR for .NET snadno extrahujte text z obrázků. Prozkoumejte výukový program pro bezproblémovou integraci.
-type: docs
 weight: 14
 url: /cs/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proveďte OCR na obrázku v OCR rozpoznávání obrázku
+
 ## Úvod
 
 dnešním světě řízeném technologiemi hraje optické rozpoznávání znaků (OCR) klíčovou roli při získávání cenných informací z obrázků. Aspose.OCR for .NET umožňuje vývojářům robustní sadu nástrojů k bezproblémové integraci funkcí OCR do jejich aplikací. Tento podrobný průvodce vás provede procesem provádění OCR na obrázku pomocí Aspose.OCR for .NET a přemění obrázky na prohledávatelný a upravitelný text.
@@ -98,3 +104,9 @@ Odpověď 2: Ano, můžete získat dočasnou licenci pro Aspose.OCR, abyste mohl
 ### Q5: Mohu si Aspose.OCR for .NET vyzkoušet zdarma před nákupem?
 
  A5: Rozhodně můžete prozkoumat funkce pomocí a[zkušební verze zdarma](https://releases.aspose.com/) Aspose.OCR pro .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

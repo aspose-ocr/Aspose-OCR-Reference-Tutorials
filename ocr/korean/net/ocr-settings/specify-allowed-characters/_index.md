@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 허용되는 문자 지정
 linktitle: OCR 이미지 인식에서 허용되는 문자 지정
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR을 사용하여 .NET에서 정확한 OCR을 잠금 해제하세요. 이미지에서 텍스트를 쉽게 인식할 수 있습니다. 혁신적인 개발 경험을 위해 지금 다운로드하세요.
-type: docs
 weight: 13
 url: /ko/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 허용되는 문자 지정
+
 ## 소개
 
 끊임없이 진화하는 기술 환경에서 광학 문자 인식(OCR)은 기계가 이미지의 텍스트를 이해할 수 있도록 하는 혁신적인 도구로 등장했습니다. .NET용 Aspose.OCR은 .NET 애플리케이션에서 강력한 OCR 기능을 원하는 개발자에게 완벽한 통합을 제공하는 강력한 솔루션으로 돋보입니다.
@@ -119,3 +125,9 @@ A2: 네, Aspose.OCR은 다양한 언어 인식을 지원하므로 다양한 애�
 ### Q5: 어디에서 도움을 구하거나 지원을 위해 커뮤니티에 연결할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 지역사회에 참여하고 전문가의 도움을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

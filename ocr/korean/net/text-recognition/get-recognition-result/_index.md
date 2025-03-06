@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 인식 결과 얻기
 linktitle: OCR 이미지 인식에서 인식 결과 얻기
 second_title: Aspose.OCR .NET API
 description: 이미지의 원활한 텍스트 인식을 위한 강력한 OCR 솔루션인 .NET용 Aspose.OCR을 살펴보세요.
-type: docs
 weight: 11
 url: /ko/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 인식 결과 얻기
+
 ## 소개
 
 역동적인 프로그래밍 세계에서 효율적인 텍스트 인식은 판도를 바꾸는 요소이며 .NET용 Aspose.OCR은 강력한 솔루션으로 등장합니다. 이 튜토리얼에서는 Aspose.OCR을 활용하여 이미지 인식의 잠재력을 원활하게 활용하는 방법에 대해 자세히 설명합니다.
@@ -106,3 +112,9 @@ A1: 예, Aspose.OCR은 다국어 텍스트 인식을 지원하여 광범위한 �
 ### Q5: Aspose.OCR에 대한 임시 라이선스를 얻을 수 있나요?
 
  A5: 예, 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR 影像辨識中的 OCROperation 與語言選擇
 linktitle: OCR 影像辨識中的 OCROperation 與語言選擇
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 解鎖強大的 OCR 功能。將文字無縫地從圖像中提取。
-type: docs
 weight: 12
 url: /zh-hant/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中的 OCROperation 與語言選擇
+
 ## 介紹
 
 在影像辨識和光學字元辨識 (OCR) 領域，Aspose.OCR for .NET 是尋求從影像中準確高效提取文字的開發人員的強大工具。本逐步指南將引導您完成使用 Aspose.OCR for .NET 進行 OCR 影像辨識的過程，並專注於語言選擇的操作。
@@ -109,3 +115,10 @@ A2：當然！調整傾斜角度、線條辨識和區域偵測等參數，以針
 ### Q5: 如何購買 Aspose.OCR for .NET？
 
  A5：要購買，請訪問[購買頁面](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

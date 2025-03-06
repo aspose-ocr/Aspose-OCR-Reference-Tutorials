@@ -3,10 +3,16 @@ title: OCR-optimalisatie
 linktitle: OCR-optimalisatie
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel de kracht van Aspose.OCR voor .NET met onze uitgebreide tutorials. Of u nu een doorgewinterde ontwikkelaar of een beginner bent, deze handleidingen zullen uw OCR-spel naar een hoger niveau tillen.
-type: docs
 weight: 25
 url: /nl/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-optimalisatie
+
 ## Invoering
 
 Maximaliseer de OCR-nauwkeurigheid met Aspose.OCR voor .NET-tutorials. Voer OCR uit op afbeeldingen, bereid rechthoeken voor, pas voorverwerkingsfilters toe, corrigeer resultaten met spellingcontrole en sla resultaten van meerdere pagina's moeiteloos op.
@@ -44,3 +50,9 @@ Ontdek Aspose.OCR voor .NET. Verbeter de OCR-nauwkeurigheid met voorverwerkingsf
 Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze tekstherkenning.
 ### [Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla OCR-resultaten van meerdere pagina's moeiteloos op als documenten met deze uitgebreide stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

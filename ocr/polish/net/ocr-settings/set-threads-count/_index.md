@@ -3,10 +3,16 @@ title: Ustaw liczbę wątków w rozpoznawaniu obrazu OCR
 linktitle: Ustaw liczbę wątków w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj efektywność OCR w .NET. Ustaw liczbę wątków bez wysiłku dzięki Aspose.OCR. Zwiększ dokładność i szybkość.
-type: docs
 weight: 11
 url: /pl/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw liczbę wątków w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w świecie Aspose.OCR dla .NET, gdzie najnowocześniejsza technologia optycznego rozpoznawania znaków (OCR) łączy się z bezproblemową integracją z aplikacjami .NET. W tym samouczku zajmiemy się konkretnym aspektem: ustawianiem liczby wątków w rozpoznawaniu obrazu OCR. Ta zaawansowana funkcja optymalizuje wydajność zadań OCR, zapewniając wydajność i dokładność.
@@ -89,3 +95,9 @@ Podsumowując, ustawienie liczby wątków w rozpoznawaniu obrazu OCR przy użyci
 ### P5: Potrzebujesz pomocy lub chcesz nawiązać kontakt ze społecznością?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie i interakcję społeczną.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

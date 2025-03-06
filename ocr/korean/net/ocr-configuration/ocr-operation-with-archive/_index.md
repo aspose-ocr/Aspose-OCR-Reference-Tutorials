@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 아카이브를 사용한 OCOperation
 linktitle: OCR 이미지 인식에서 아카이브를 사용한 OCOperation
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR을 사용하여 .NET 애플리케이션에서 OCR의 잠재력을 활용하세요. 아카이브 이미지에서 텍스트를 추출하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 아카이브를 사용한 OCOperation
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하여 원활하고 효율적으로 만들어진 광학 문자 인식(OCR)의 세계에 오신 것을 환영합니다. 이 종합 가이드에서는 Aspose.OCR 라이브러리를 사용하여 아카이브 이미지에 대해 OCR 작업을 수행하는 과정을 안내합니다. 노련한 개발자이든 호기심이 많은 초보자이든 관계없이 이 튜토리얼을 통해 .NET 애플리케이션에서 OCR의 잠재력을 최대한 활용할 수 있는 지식을 얻을 수 있습니다.
@@ -119,3 +125,9 @@ A4: 물론이죠! .NET용 Aspose.OCR은 인식 설정을 사용자 정의하는 
 ### Q5: .NET용 Aspose.OCR은 얼마나 자주 업데이트됩니까?
 
  A5: 다음을 확인하여 최신 기능과 개선 사항을 확인하세요.[선적 서류 비치](https://reference.aspose.com/ocr/net/) 정기적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
 linktitle: OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
 second_title: Aspose.OCR .NET API'si
 description: Görüntülerdeki kusursuz metin tanımaya yönelik güçlü bir OCR çözümü olan Aspose.OCR for .NET'i keşfedin.
-type: docs
 weight: 11
 url: /tr/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+
 ## giriiş
 
 Programlamanın dinamik dünyasında etkili metin tanıma oyunun kurallarını değiştiriyor ve Aspose.OCR for .NET güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, görüntü tanıma potansiyelinden sorunsuz bir şekilde yararlanmak için Aspose.OCR'ı kullanmanın incelikleri ele alınıyor.
@@ -106,3 +112,9 @@ Cevap1: Evet, Aspose.OCR çok dilli metin tanımayı destekleyerek çok çeşitl
 ### S5: Aspose.OCR için geçici bir lisans alabilir miyim?
 
  Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

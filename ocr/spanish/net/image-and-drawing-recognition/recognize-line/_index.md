@@ -3,10 +3,16 @@ title: Reconocer línea en reconocimiento de imágenes OCR
 linktitle: Reconocer línea en reconocimiento de imágenes OCR
 second_title: API Aspose.OCR .NET
 description: Libere el potencial de Aspose.OCR para .NET en el reconocimiento de líneas en el reconocimiento de imágenes OCR. Una guía para desarrolladores para la extracción fluida de texto a partir de imágenes.
-type: docs
 weight: 14
 url: /es/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reconocer línea en reconocimiento de imágenes OCR
+
 ## Introducción
 
 En el panorama tecnológico en constante evolución, el reconocimiento óptico de caracteres (OCR) se ha convertido en una herramienta fundamental, que convierte sin problemas imágenes en texto editable y con capacidad de búsqueda. Aspose.OCR para .NET emerge como pionero en este dominio y ofrece capacidades sólidas a los desarrolladores. En esta guía completa, profundizaremos en las complejidades de utilizar Aspose.OCR para .NET para reconocer líneas en el reconocimiento de imágenes OCR.
@@ -98,3 +104,9 @@ R4: Sí, puede obtener licencias temporales para Aspose.OCR para evaluar sus fun
 ### P5: ¿Cuáles son los requisitos del sistema para Aspose.OCR para .NET?
 
  R5: Consulte el[documentación](https://reference.aspose.com/ocr/net/) para requisitos completos del sistema.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

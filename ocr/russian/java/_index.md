@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.OCR для Java
 linktitle: Учебные пособия по Aspose.OCR для Java
-type: docs
 weight: 10
 url: /ru/java/
 description: Раскройте возможности Aspose.OCR для Java! Изучите основы, операции и передовые методы оптического распознавания символов. Настройте свою лицензию, определите области и улучшите распознавание текста без особых усилий.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.OCR для Java
+
 
 ## Введение
 
@@ -32,3 +37,9 @@ is_root: true
 Раскройте потенциал Aspose.OCR для Java с помощью наших подробных руководств по распознаванию текста. Изучите режим обнаружения областей, выбор языка, распознавание PDF и TIFF всего за несколько шагов!
 ### [Расширенные методы оптического распознавания символов](./advanced-ocr-techniques/)
 Легко выполняйте распознавание изображений с помощью Aspose.OCR для Java. Извлекайте текст легко и с высокой точностью. Улучшите свои проекты Java с помощью универсального распознавания текста.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

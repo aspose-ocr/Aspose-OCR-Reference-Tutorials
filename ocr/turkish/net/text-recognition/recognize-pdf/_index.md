@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da PDF'yi tanıma
 linktitle: OCR Görüntü Tanıma'da PDF'yi tanıma
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
-type: docs
 weight: 14
 url: /tr/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da PDF'yi tanıma
+
 ## giriiş
 
 Aspose.OCR for .NET ile Optik Karakter Tanıma (OCR) dünyasına hoş geldiniz! .NET uygulamalarınızda OCR'nin yeteneklerinden yararlanmak istiyorsanız doğru yerdesiniz. Bu adım adım kılavuzda Aspose.OCR kitaplığını kullanarak PDF'deki metni nasıl tanıyacağımızı keşfedeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size süreç boyunca yol gösterecek ve OCR işlevselliğini projelerinize kolayca entegre edebilmenizi sağlayacaktır.
@@ -101,3 +107,9 @@ A2: Kesinlikle! Aspose.OCR, .NET kullanılarak geliştirilen hem web hem de masa
 ### S5: Aspose.OCR for .NET'i nereden satın alabilirim?
 
  A5: Ürünü şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

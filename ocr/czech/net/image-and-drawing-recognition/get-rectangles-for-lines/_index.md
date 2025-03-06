@@ -3,10 +3,16 @@ title: Získejte obdélníky pro čáry v rozpoznávání obrazu OCR
 linktitle: Získejte obdélníky pro čáry v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Prozkoumejte Aspose.OCR for .NET váš klíč k přesnému rozpoznání obrazu OCR. Uvolněte sílu extrakce textu bez námahy.
-type: docs
 weight: 10
 url: /cs/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte obdélníky pro čáry v rozpoznávání obrazu OCR
+
 ## Úvod
 
 Vítejte ve světě Aspose.OCR for .NET, mocného nástroje, který vám umožní využít potenciál optického rozpoznávání znaků (OCR) ve vašich aplikacích .NET. Ať už jste zkušený vývojář nebo zvědavý nadšenec, tento průvodce vás provede procesem získávání obdélníků pro čáry v rozpoznávání obrazu OCR pomocí Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR využívá pokročilé algoritmy pro vysokou přesnost, takže je
 ### Q5: Potřebujete pomoc nebo máte konkrétní otázky?
 
  A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

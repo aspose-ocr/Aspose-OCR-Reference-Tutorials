@@ -3,10 +3,16 @@ title: 在 OCR 影像辨識中對 URL 中的影像執行 OCR
 linktitle: 在 OCR 影像辨識中對 URL 中的影像執行 OCR
 second_title: Aspose.OCR .NET API
 description: 探索與 Aspose.OCR for .NET 的無縫 OCR 整合。精確辨識圖像中的文字。
-type: docs
 weight: 10
 url: /zh-hant/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 影像辨識中對 URL 中的影像執行 OCR
+
 ## 介紹
 
 在光學字元辨識 (OCR) 領域，Aspose.OCR for .NET 是一款功能強大的工具，可讓開發人員從影像中精確地提取文字內容。如果您希望將 OCR 功能整合到 .NET 應用程式中並輕鬆執行文字識別，本逐步指南將引導您完成對來自 URL 的圖像執行 OCR 的過程。
@@ -120,3 +126,9 @@ A2：當然！ Aspose.OCR 提供了識別單行和多行文字的靈活性，適
 ### Q5：在哪裡可以找到與 Aspose.OCR 相關的支援或社區討論？
 
  A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以尋求社區的支持和參與。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

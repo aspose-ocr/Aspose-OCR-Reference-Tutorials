@@ -3,10 +3,16 @@ title: Lưu kết quả dưới dạng tài liệu trong nhận dạng hình ả
 linktitle: Lưu kết quả dưới dạng tài liệu trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng nhận dạng văn bản trong hình ảnh và lưu kết quả ở nhiều định dạng tài liệu khác nhau.
-type: docs
 weight: 10
 url: /vi/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu kết quả dưới dạng tài liệu trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của nhận dạng ký tự quang học (OCR) với Aspose.OCR cho .NET! Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào sự phức tạp của việc sử dụng Aspose.OCR để nhận dạng văn bản trong hình ảnh và trình bày cách lưu kết quả dưới dạng các định dạng tài liệu khác nhau.
@@ -99,3 +105,9 @@ A2: Chắc chắn rồi! Aspose.OCR cung cấp cài đặt nhận dạng để t
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc kết nối với cộng đồng ở đâu?
 
  A5: Tham gia cộng đồng Aspose.OCR tại[Diễn đàn Aspose](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

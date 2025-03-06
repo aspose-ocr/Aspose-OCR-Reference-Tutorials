@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 결과를 문서로 저장
 linktitle: OCR 이미지 인식에서 결과를 문서로 저장
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이미지 속 텍스트를 쉽게 인식하고 결과를 다양한 문서 형식으로 저장합니다.
-type: docs
 weight: 10
 url: /ko/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 결과를 문서로 저장
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하여 광학 문자 인식(OCR)의 흥미진진한 세계에 오신 것을 환영합니다! 이 포괄적인 튜토리얼에서는 Aspose.OCR을 사용하여 이미지의 텍스트를 인식하고 결과를 다양한 문서 형식으로 저장하는 방법을 보여주는 복잡한 과정을 살펴보겠습니다.
@@ -99,3 +105,9 @@ A2: 물론이죠! Aspose.OCR은 특정 요구 사항에 따라 OCR 프로세스�
 ### 질문 5: 어디에서 도움을 구하거나 커뮤니티와 연결할 수 있나요?
 
  A5: Aspose.OCR 커뮤니티에 가입하세요.[Aspose 포럼](https://forum.aspose.com/c/ocr/16) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

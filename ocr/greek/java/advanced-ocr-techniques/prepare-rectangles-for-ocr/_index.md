@@ -3,10 +3,16 @@ title: Προετοιμασία ορθογωνίων για OCR στο Aspose.OC
 linktitle: Προετοιμασία ορθογωνίων για OCR στο Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τη δύναμη της αναγνώρισης κειμένου με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση. Βελτιώστε τις εφαρμογές σας Java με αποτελεσματικές δυνατότητες OCR.
-type: docs
 weight: 13
 url: /el/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προετοιμασία ορθογωνίων για OCR στο Aspose.OCR
+
 ## Εισαγωγή
 
 Στον γρήγορο κόσμο της τεχνολογίας, η εξαγωγή κειμένου από εικόνες έχει γίνει μια κρίσιμη εργασία, ανοίγοντας πόρτες σε αμέτρητες δυνατότητες. Το Aspose.OCR για Java ξεχωρίζει ως ένα ισχυρό εργαλείο, που απλοποιεί την περίπλοκη διαδικασία της οπτικής αναγνώρισης χαρακτήρων (OCR). Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στα βασικά βήματα για να αξιοποιήσετε τις δυνατότητες του Aspose.OCR για Java, επιτρέποντάς σας να ενσωματώνετε απρόσκοπτα την αναγνώριση κειμένου στις εφαρμογές σας Java.
@@ -112,3 +118,9 @@ A1: Το Aspose.OCR υποστηρίζει διάφορες γλώσσες πρ�
 ### Ε5: Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;
 
  A5: Επισκεφθείτε την κοινότητα Aspose.OCR[δικαστήριο](https://forum.aspose.com/c/ocr/16) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

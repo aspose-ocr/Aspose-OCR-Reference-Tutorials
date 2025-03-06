@@ -3,10 +3,16 @@ title: 在 OCR 图像识别中将多页结果保存为文档
 linktitle: 在 OCR 图像识别中将多页结果保存为文档
 second_title: Aspose.OCR .NET API
 description: 释放 Aspose.OCR for .NET 的潜力。借助这份全面的分步指南，轻松将多页 OCR 结果保存为文档。
-type: docs
 weight: 14
 url: /zh/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 图像识别中将多页结果保存为文档
+
 ## 介绍
 
 欢迎来到使用 Aspose.OCR for .NET 进行光学字符识别 (OCR) 的迷人世界！在本教程中，我们将探讨如何利用 Aspose.OCR 的功能将多页 OCR 结果保存为文档。无论您是经验丰富的开发人员还是刚刚开始使用 OCR，本指南都将引导您完成每个步骤，确保您充分利用这个强大的工具。
@@ -104,3 +110,9 @@ A4：请参阅错误处理最佳实践的文档或在支持论坛中寻求帮助
 ### Q5：Aspose.OCR支持英语以外的语言吗？
 
 A5：是的，Aspose.OCR 支持多种语言。浏览文档以了解语言支持详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

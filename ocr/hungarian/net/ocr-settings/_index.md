@@ -3,10 +3,16 @@ title: OCR beállítások
 linktitle: OCR beállítások
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az Aspose.OCR for .NET erejét az OCR-beállítások oktatóanyagával. Ismerje meg, hogyan javíthatja a pontosságot, a sebességet és testreszabhatja a képek szövegfelismerését.
-type: docs
 weight: 26
 url: /hu/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR beállítások
+
 
 ## Bevezetés
 
@@ -50,3 +56,9 @@ Oldja fel a precíz OCR-t a .NET-ben az Aspose.OCR segítségével. Könnyedén 
 Fedezze fel a fejlett OCR-képességeket az Aspose.OCR for .NET segítségével. Hatékony, pontos és fejlesztőbarát.
 ### [Különböző nyelvek használata az OCR képfelismerésben](./working-with-different-languages/)
 Fedezze fel a többnyelvű OCR varázsát az Aspose.OCR for .NET segítségével. Könnyedén bontsa ki a szöveget különböző nyelveken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

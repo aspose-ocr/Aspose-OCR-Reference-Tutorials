@@ -3,10 +3,16 @@ title: Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
 linktitle: Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Nutzen Sie erweiterte OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie Absatzrechtecke mühelos.
-type: docs
 weight: 11
 url: /de/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
+
 ## Einführung
 
 Willkommen zu unserem umfassenden Leitfaden zur Nutzung von Aspose.OCR für .NET zum Extrahieren von Absatzrechtecken in der OCR-Bilderkennung. Wenn Sie Ihre Dokumentverarbeitungsfähigkeiten verbessern und die Leistungsfähigkeit der optischen Zeichenerkennung (OCR) in Ihren .NET-Anwendungen nutzen möchten, sind Sie hier richtig.
@@ -101,3 +107,9 @@ A2: Auf jeden Fall! Aspose.OCR erleichtert die Stapelverarbeitung, um mehrere Bi
 ### F5: Wo finde ich zusätzliche Unterstützung und Diskussionen zu Aspose.OCR?
 
  A5: Gehen Sie rüber zum[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

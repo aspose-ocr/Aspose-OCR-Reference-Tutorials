@@ -3,10 +3,16 @@ title: عملية OCRO مع الأرشيف في التعرف على الصور O
 linktitle: عملية OCRO مع الأرشيف في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات التعرف الضوئي على الحروف (OCR) في تطبيقات .NET باستخدام Aspose.OCR. تعلم كيفية استخراج النص من الصور الأرشيفية خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عملية OCRO مع الأرشيف في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم التعرف البصري على الأحرف (OCR) الذي أصبح سلسًا وفعالاً باستخدام Aspose.OCR لـ .NET. في هذا الدليل الشامل، سنرشدك خلال عملية تنفيذ عمليات التعرف الضوئي على الحروف (OCR) على الصور الأرشيفية باستخدام مكتبة Aspose.OCR. سواء كنت مطورًا متمرسًا أو مبتدئًا فضوليًا، فإن هذا البرنامج التعليمي سيزودك بالمعرفة اللازمة لتسخير الإمكانات الكاملة للتعرف الضوئي على الحروف (OCR) في تطبيقات .NET الخاصة بك.
@@ -119,3 +125,9 @@ for (int i = 0; i < result.Length; i++)
 ### س5: كم مرة يتم تحديث Aspose.OCR لـ .NET؟
 
  ج5: ابق على اطلاع بأحدث الميزات والتحسينات عن طريق التحقق من[توثيق](https://reference.aspose.com/ocr/net/) بانتظام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

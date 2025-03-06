@@ -3,10 +3,16 @@ title: Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
 linktitle: Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
 second_title: Aspose.OCR Java API'si
 description: Bu adım adım kılavuzla Aspose.OCR for Java'nın potansiyelini ortaya çıkarın. Lisansınızı zahmetsizce kurun ve OCR yeteneklerinizi geliştirin.
-type: docs
 weight: 10
 url: /tr/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), görüntülerden metin bilgisi çıkarmak için çok önemli bir araç haline geldi. Aspose.OCR for Java, geliştiricilerin OCR yeteneklerini Java uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanıyan güçlü bir OCR çözümü olarak öne çıkıyor. Bu adım adım kılavuz, Java'da Aspose.OCR lisansını kurma sürecinde size yol gösterecek ve bu güçlü aracın tüm potansiyelinden yararlanmanızı sağlayacaktır.
@@ -78,3 +84,9 @@ C4: Evet, Aspose.OCR, lisans şartlarına uyduğunuz sürece hem kişisel hem de
 ### S5: Aspose.OCR for Java için ek desteği nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.OCR Forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

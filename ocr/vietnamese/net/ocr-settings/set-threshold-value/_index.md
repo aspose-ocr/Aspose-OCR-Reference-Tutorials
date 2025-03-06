@@ -3,10 +3,16 @@ title: Đặt giá trị ngưỡng trong nhận dạng hình ảnh OCR
 linktitle: Đặt giá trị ngưỡng trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá Aspose.OCR cho .NET một giải pháp OCR mạnh mẽ. Đặt giá trị ngưỡng tùy chỉnh dễ dàng. Tăng cường nhận dạng văn bản trong ứng dụng của bạn.
-type: docs
 weight: 12
 url: /vi/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt giá trị ngưỡng trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới thú vị của Aspose.OCR dành cho .NET! Trong hướng dẫn này, chúng ta sẽ đi sâu vào các khả năng của Aspose.OCR, một công cụ mạnh mẽ được thiết kế để giúp nhận dạng ký tự quang học trở nên dễ dàng trong các ứng dụng .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn quy trình đặt giá trị ngưỡng trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET.
@@ -99,3 +105,9 @@ A1: Chắc chắn rồi! Aspose.OCR cho .NET rất linh hoạt và có thể đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể mua phiên bản đầy đủ của Aspose.OCR cho .NET?
 
  A5: Để mở khóa tất cả các tính năng, hãy truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

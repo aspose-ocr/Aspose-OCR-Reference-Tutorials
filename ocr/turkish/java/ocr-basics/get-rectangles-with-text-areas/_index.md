@@ -3,10 +3,16 @@ title: Aspose.OCR'da Metin Alanlarıyla Dikdörtgenler Alma
 linktitle: Aspose.OCR'da Metin Alanlarıyla Dikdörtgenler Alma
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java'nın gücünün kilidini açın. Bu adım adım kılavuzda resimlerden metni sorunsuz bir şekilde nasıl çıkaracağınızı öğrenin. Etkili metin tanıma için hemen indirin.
-type: docs
 weight: 12
 url: /tr/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da Metin Alanlarıyla Dikdörtgenler Alma
+
 ## giriiş
 
 Güçlü optik karakter tanıma (OCR) yeteneklerini Java uygulamanıza entegre etmek mi istiyorsunuz? Aspose.OCR for Java, görüntülerden doğru ve etkili metin çıkarımı için başvuracağınız çözümdür. Bu eğitim, Aspose.OCR kullanarak metin alanlarına sahip dikdörtgenler elde etme sürecinde size rehberlik edecek ve bu Java OCR kütüphanesinin tüm potansiyelinden yararlanmanıza yardımcı olacaktır.
@@ -105,3 +111,10 @@ Cevap1: Evet, Aspose.OCR, Java 11 ve sonraki sürümlerle uyumludur.
 ### S5: Aspose.OCR çoklu iş parçacığını destekliyor mu?
 
 Cevap5: Evet, Aspose.OCR eşzamanlı ortamlarda gelişmiş performans için çoklu iş parçacığını destekler.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

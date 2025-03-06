@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 단락의 직사각형 가져오기
 linktitle: OCR 이미지 인식에서 단락의 직사각형 가져오기
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR로 고급 OCR 기능을 잠금 해제하세요. 단락 직사각형을 손쉽게 추출합니다.
-type: docs
 weight: 11
 url: /ko/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 단락의 직사각형 가져오기
+
 ## 소개
 
 .NET용 Aspose.OCR을 활용하여 OCR 이미지 인식에서 단락 직사각형을 추출하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 문서 처리 기능을 강화하고 .NET 애플리케이션에서 OCR(광학 문자 인식) 기능을 활용하려는 경우 올바른 위치에 오셨습니다.
@@ -101,3 +107,9 @@ A2: 물론이죠! Aspose.OCR은 여러 이미지를 원활하게 처리하기 �
 ### Q5: Aspose.OCR과 관련된 추가 지원 및 토론은 어디에서 찾을 수 있습니까?
 
  A5: 다음으로 가세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

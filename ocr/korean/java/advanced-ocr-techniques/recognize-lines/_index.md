@@ -3,10 +3,16 @@ title: Java용 Aspose.OCR에서 줄 인식
 linktitle: Java용 Aspose.OCR에서 줄 인식
 second_title: Aspose.OCR 자바 API
 description: 정확한 텍스트 인식을 위해 Aspose.OCR로 Java 애플리케이션을 강화하세요. 통합이 쉽고 정확도가 높습니다.
-type: docs
 weight: 14
 url: /ko/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.OCR에서 줄 인식
+
 ## 소개
 
 강력한 OCR(광학 문자 인식) 기능으로 Java 애플리케이션을 향상시키고 싶으십니까? 더 이상 보지 마십시오! Aspose.OCR for Java는 OCR 기능을 Java 애플리케이션에 원활하게 통합할 수 있는 최첨단 OCR 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.OCR을 사용하여 이미지의 선을 인식하는 데 중점을 둘 것입니다.
@@ -111,3 +117,9 @@ A4: 물론이죠! Aspose.OCR은 데스크탑과 웹 애플리케이션 모두에
 ### Q5: Aspose.OCR에 사용할 수 있는 평가판이 있습니까?
 
  A5: 예, 무료 평가판을 통해 Aspose.OCR의 기능을 탐색할 수 있습니다. 방문하다[여기](https://releases.aspose.com/) 자세한 내용은.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Określanie dozwolonych znaków w Aspose.OCR
 linktitle: Określanie dozwolonych znaków w Aspose.OCR
 second_title: Aspose.OCR API Java
 description: Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
-type: docs
 weight: 15
 url: /pl/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określanie dozwolonych znaków w Aspose.OCR
+
 ## Wstęp
 
 stale zmieniającym się środowisku technologicznym optyczne rozpoznawanie znaków (OCR) stało się kluczowym elementem dla firm i programistów pragnących wydobyć istotne informacje z obrazów. Aspose.OCR dla Java wyróżnia się jako potężne narzędzie, oferujące bezproblemową integrację i wydajne możliwości rozpoznawania tekstu. Ten kompleksowy przewodnik przeprowadzi Cię przez proces wykorzystania potencjału Aspose.OCR dla Java, zapewniając płynną podróż od instalacji do praktycznego wdrożenia.
@@ -105,3 +111,9 @@ O:4 Aspose.OCR jest stale aktualizowany, aby zapewnić kompatybilność z najnow
 ### P5: Czy w Aspose.OCR są jakieś dodatkowe funkcje OCR?
 
 Odpowiedź 5: Zapoznaj się z kompleksowymi funkcjami i opcjami dostępnymi w dokumentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

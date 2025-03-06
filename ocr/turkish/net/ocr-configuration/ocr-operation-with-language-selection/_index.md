@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
 linktitle: OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile güçlü OCR özelliklerinin kilidini açın. Görüntülerden metni sorunsuz bir şekilde çıkarın.
-type: docs
 weight: 12
 url: /tr/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
+
 ## giriiş
 
 Görüntü tanıma ve optik karakter tanıma (OCR) dünyasında, Aspose.OCR for .NET, görüntülerden doğru ve etkili metin çıkarma arayışında olan geliştiriciler için güçlü bir araç olarak öne çıkıyor. Bu adım adım kılavuz, Aspose.OCR for .NET kullanarak OCR görüntü tanıma sürecinde dil seçimiyle işleme odaklanarak size yol gösterecektir.
@@ -109,3 +115,10 @@ A2: Kesinlikle! OCR'yi farklı senaryolara göre optimize etmek için eğrilik a
 ### S5: Aspose.OCR for .NET'i nasıl satın alabilirim?
 
  A5: Satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

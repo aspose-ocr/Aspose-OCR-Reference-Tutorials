@@ -3,10 +3,16 @@ title: Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR
 linktitle: Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang akurat. Ikuti panduan langkah demi langkah kami untuk mengambil pilihan karakter yang dikenali dalam pengenalan gambar.
-type: docs
 weight: 10
 url: /id/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Membuka kekuatan Pengenalan Karakter Optik (OCR) sangat penting di era digital saat ini, dan Aspose.OCR untuk .NET menonjol sebagai solusi tangguh untuk pengenalan karakter yang akurat. Dalam tutorial ini, kita akan mempelajari fitur spesifik: mendapatkan pilihan untuk karakter yang dikenali. Di akhir panduan ini, Anda akan mengintegrasikan fungsi ini dengan lancar ke dalam aplikasi .NET Anda.
@@ -112,3 +118,9 @@ A2: Ya, Anda dapat mengintegrasikan Aspose.OCR untuk .NET ke dalam aplikasi web,
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.OCR untuk .NET?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.OCR untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

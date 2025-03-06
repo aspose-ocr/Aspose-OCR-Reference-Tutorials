@@ -3,10 +3,16 @@ title: Förbered rektanglar i OCR-bildigenkänning
 linktitle: Förbered rektanglar i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide. Lär dig steg-för-steg hur du förbereder rektanglar för bildigenkänning. Förhöj dina .NET-applikationer med sömlös OCR-integration.
-type: docs
 weight: 11
 url: /sv/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Förbered rektanglar i OCR-bildigenkänning
+
 ## Introduktion
 
 I det ständigt föränderliga tekniklandskapet spelar Optical Character Recognition (OCR) en avgörande roll för att omvandla bilder till maskinläsbar text. Aspose.OCR för .NET framstår som en robust lösning för utvecklare som söker sömlös integrering av OCR-funktioner i sina .NET-applikationer. I den här omfattande guiden kommer vi att utforska processen att förbereda rektanglar i OCR-bildigenkänning med Aspose.OCR för .NET.
@@ -120,3 +126,9 @@ S1: Ja, Aspose.OCR för .NET är kompatibelt med olika .NET-ramverk.
 ### F5: Var kan jag hitta dokumentationen för Aspose.OCR för .NET?
 
  S5: Dokumentationen finns tillgänglig[här](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

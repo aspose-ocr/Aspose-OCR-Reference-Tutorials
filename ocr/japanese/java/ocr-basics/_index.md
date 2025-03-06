@@ -3,10 +3,16 @@ title: OCRの基本
 linktitle: OCRの基本
 second_title: Aspose.OCR Java API
 description: Java で Aspose.OCR の可能性を解き放ちましょう!ライセンスを設定し、OCR 機能を強化するためのステップバイステップのガイド。スキュー角度を計算し、テキストをシームレスに抽出します。
-type: docs
 weight: 20
 url: /ja/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRの基本
+
 ## 導入
 
 Aspose.OCR for Java を使用して OCR ゲームを向上させる準備はできていますか?この包括的なガイドでは、重要なチュートリアルを順を追って説明し、この強力なツールを最大限に活用できるようにします。飛び込んでみましょう！
@@ -35,3 +41,9 @@ Aspose.OCR for Java を使用して画像からテキストをシームレスに
 Aspose.OCR for Java を使用して OCR の精度を向上させます。スキュー角度の計算方法を段階的に学習します。ドキュメント処理を簡単に改善します。
 ### [Aspose.OCR でテキスト領域を含む四角形を取得する](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java の機能を解放します。このステップバイステップのガイドで、画像からテキストをシームレスに抽出する方法を学びましょう。効率的なテキスト認識のために今すぐダウンロードしてください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

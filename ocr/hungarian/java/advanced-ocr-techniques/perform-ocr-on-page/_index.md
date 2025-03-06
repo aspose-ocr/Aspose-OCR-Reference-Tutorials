@@ -3,10 +3,16 @@ title: OCR végrehajtása adott oldalon az Aspose.OCR-ben
 linktitle: OCR végrehajtása adott oldalon az Aspose.OCR-ben
 second_title: Aspose.OCR Java API
 description: Fedezze fel az Aspose.OCR for Java erejét lépésenkénti útmutatónkkal az OCR végrehajtásáról bizonyos oldalakon. Könnyedén kivonhatja a szöveget a képekből, és javíthatja Java-projektjeit.
-type: docs
 weight: 12
 url: /hu/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR végrehajtása adott oldalon az Aspose.OCR-ben
+
 ## Bevezetés
 
 Üdvözöljük átfogó útmutatónkban az optikai karakterfelismerés (OCR) végrehajtásáról egy adott oldalon az Aspose.OCR for Java használatával. Ebben az oktatóanyagban végigvezetjük a beállítási folyamaton, a szükséges csomagok importálásán és a kód végrehajtásán, hogy könnyedén kinyerhessen szöveget a képből.
@@ -92,3 +98,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan hajthat végre OCR-t egy adott oldalo
 ### 5. kérdés: Az Aspose.OCR kínál ingyenes próbaverziót?
 
  V5: Igen, fedezze fel a funkciókat a[ingyenes próbaverzió](https://releases.aspose.com/) vásárlás előtt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

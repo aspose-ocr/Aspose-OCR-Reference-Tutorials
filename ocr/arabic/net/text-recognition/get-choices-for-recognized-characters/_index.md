@@ -3,10 +3,16 @@ title: احصل على خيارات للأحرف التي تم التعرف عل
 linktitle: احصل على خيارات للأحرف التي تم التعرف عليها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على الأحرف. اتبع دليلنا خطوة بخطوة لاسترداد اختيارات الأحرف التي تم التعرف عليها في التعرف على الصور.
-type: docs
 weight: 10
 url: /ar/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على خيارات للأحرف التي تم التعرف عليها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 يعد إطلاق العنان لقوة التعرف الضوئي على الأحرف (OCR) أمرًا بالغ الأهمية في العصر الرقمي الحالي، ويبرز Aspose.OCR for .NET كحل قوي للتعرف الدقيق على الأحرف. في هذا البرنامج التعليمي، سوف نتعمق في ميزة محددة: الحصول على اختيارات للشخصيات التي تم التعرف عليها. وبنهاية هذا الدليل، ستتمكن من دمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بك.
@@ -112,3 +118,9 @@ Console.WriteLine("GetChoiceForRecognizedCharacters executed successfully");
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.OCR لـ .NET؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) لتجربة إمكانيات Aspose.OCR لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lấy hình chữ nhật với vùng văn bản trong Aspose.OCR
 linktitle: Lấy hình chữ nhật với vùng văn bản trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Khai phá sức mạnh của Aspose.OCR cho Java. Tìm hiểu cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn từng bước này. Tải xuống ngay để nhận dạng văn bản hiệu quả.
-type: docs
 weight: 12
 url: /vi/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lấy hình chữ nhật với vùng văn bản trong Aspose.OCR
+
 ## Giới thiệu
 
 Bạn đang muốn tích hợp các khả năng nhận dạng ký tự quang học (OCR) mạnh mẽ vào ứng dụng Java của mình? Aspose.OCR cho Java là giải pháp phù hợp để bạn trích xuất văn bản từ hình ảnh một cách chính xác và hiệu quả. Hướng dẫn này sẽ hướng dẫn bạn quy trình lấy hình chữ nhật có vùng văn bản bằng Aspose.OCR, giúp bạn khai thác toàn bộ tiềm năng của thư viện Java OCR này.
@@ -105,3 +111,10 @@ Câu trả lời 1: Có, Aspose.OCR tương thích với Java 11 và các phiên
 ### Câu hỏi 5: Aspose.OCR có hỗ trợ đa luồng không?
 
 Câu trả lời 5: Có, Aspose.OCR hỗ trợ đa luồng để cải thiện hiệu suất trong môi trường đồng thời.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

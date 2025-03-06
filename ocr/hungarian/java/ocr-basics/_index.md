@@ -3,10 +3,16 @@ title: OCR alapok
 linktitle: OCR alapok
 second_title: Aspose.OCR Java API
 description: Fedezze fel az Aspose.OCR-ben rejlő lehetőségeket a Java nyelven! Lépésről lépésre szóló útmutató a licenc beállításához és az OCR-képességek fokozásához. Számítsa ki a ferde szögeket, és zökkenőmentesen vonja ki a szöveget.
-type: docs
 weight: 20
 url: /hu/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR alapok
+
 ## Bevezetés
 
 Készen áll, hogy javítsa OCR-játékát az Aspose.OCR for Java segítségével? Ez az átfogó útmutató végigvezeti az alapvető oktatóanyagokon, és biztosítja, hogy a legtöbbet hozza ki ebből a hatékony eszközből. Merüljünk el!
@@ -35,3 +41,9 @@ Ezzel a lépésenkénti útmutatóval felszabadítja az Aspose.OCR for Java lehe
 Növelje az OCR pontosságát az Aspose.OCR for Java segítségével. Ismerje meg a ferde szögek kiszámítását lépésről lépésre. Javítsa a dokumentumfeldolgozást könnyedén.
 ### [Szövegterületekkel rendelkező téglalapok beszerzése az Aspose.OCR-ben](./get-rectangles-with-text-areas/)
 Fedezze fel az Aspose.OCR for Java erejét. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan lehet zökkenőmentesen kivonni szöveget a képekből. Töltse le most a hatékony szövegfelismeréshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

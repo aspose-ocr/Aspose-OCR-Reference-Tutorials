@@ -3,10 +3,16 @@ title: Nastavení OCR
 linktitle: Nastavení OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte sílu Aspose.OCR pro .NET pomocí našich výukových programů nastavení OCR. Naučte se zlepšit přesnost, rychlost a přizpůsobení pro rozpoznávání textu v obrázcích.
-type: docs
 weight: 26
 url: /cs/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení OCR
+
 
 ## Úvod
 
@@ -50,3 +56,9 @@ Odemkněte přesné OCR v .NET pomocí Aspose.OCR. Rozpoznejte text od obrázků
 Prozkoumejte pokročilé možnosti OCR s Aspose.OCR pro .NET. Efektivní, přesné a přátelské pro vývojáře.
 ### [Práce s různými jazyky v OCR rozpoznávání obrazu](./working-with-different-languages/)
 Odemkněte kouzlo vícejazyčného OCR s Aspose.OCR pro .NET. Extrahujte text bez námahy v různých jazycích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

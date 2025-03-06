@@ -3,10 +3,16 @@ title: Tekstherkenning
 linktitle: Tekstherkenning
 second_title: Aspose.OCR .NET-API
 description: Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Ontdek tutorials voor het verkrijgen van keuzes, resultaten en JSON-formaten in OCR-beeldherkenning.
-type: docs
 weight: 21
 url: /nl/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tekstherkenning
+
 ## Invoering
 
 Bent u klaar om uw .NET-applicaties naar een hoger niveau te tillen? Duik in de wereld van tekstherkenning met Aspose.OCR en verbeter uw projecten met nauwkeurige tekenherkenning en naadloze beeldverwerking.
@@ -49,3 +55,9 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

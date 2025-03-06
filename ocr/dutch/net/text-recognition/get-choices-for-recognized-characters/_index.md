@@ -3,10 +3,16 @@ title: Krijg keuzes voor herkende tekens in OCR-beeldherkenning
 linktitle: Krijg keuzes voor herkende tekens in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Volg onze stapsgewijze handleiding om keuzes voor herkende karakters in beeldherkenning op te halen.
-type: docs
 weight: 10
 url: /nl/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Krijg keuzes voor herkende tekens in OCR-beeldherkenning
+
 ## Invoering
 
 Het ontsluiten van de kracht van Optical Character Recognition (OCR) is cruciaal in het huidige digitale tijdperk, en Aspose.OCR voor .NET onderscheidt zich als een robuuste oplossing voor nauwkeurige karakterherkenning. In deze tutorial gaan we dieper in op een specifieke functie: het verkrijgen van keuzes voor herkende karakters. Aan het einde van deze handleiding integreert u deze functionaliteit naadloos in uw .NET-toepassingen.
@@ -112,3 +118,9 @@ A2: Ja, u kunt Aspose.OCR voor .NET integreren in webapplicaties, waardoor het v
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.OCR voor .NET?
 
  A5: Ja, u heeft toegang tot een gratis proefperiode[hier](https://releases.aspose.com/) om de mogelijkheden van Aspose.OCR voor .NET te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

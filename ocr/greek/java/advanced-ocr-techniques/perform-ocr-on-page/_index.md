@@ -3,10 +3,16 @@ title: Εκτέλεση OCR σε συγκεκριμένη σελίδα στο As
 linktitle: Εκτέλεση OCR σε συγκεκριμένη σελίδα στο Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.OCR για Java με τον βήμα προς βήμα οδηγό μας για την εκτέλεση OCR σε συγκεκριμένες σελίδες. Εξάγετε κείμενο χωρίς κόπο από εικόνες και βελτιώστε τα έργα σας Java.
-type: docs
 weight: 12
 url: /el/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκτέλεση OCR σε συγκεκριμένη σελίδα στο Aspose.OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό σχετικά με την εκτέλεση οπτικής αναγνώρισης χαρακτήρων (OCR) σε μια συγκεκριμένη σελίδα χρησιμοποιώντας το Aspose.OCR για Java. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης, εισαγωγής απαραίτητων πακέτων και εκτέλεσης του κώδικα για την εξαγωγή κειμένου από μια εικόνα με ευκολία.
@@ -92,3 +98,9 @@ A1: Ναι, το Aspose.OCR υποστηρίζει ένα ευρύ φάσμα μ
 ### Ε5: Το Aspose.OCR προσφέρει δωρεάν δοκιμή;
 
  A5: Ναι, εξερευνήστε τις δυνατότητες με το[δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/) πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

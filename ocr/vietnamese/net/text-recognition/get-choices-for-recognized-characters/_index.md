@@ -3,10 +3,16 @@ title: Nhận lựa chọn cho các ký tự được nhận dạng trong nhận
 linktitle: Nhận lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng ký tự chính xác. Làm theo hướng dẫn từng bước của chúng tôi để truy xuất các lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh.
-type: docs
 weight: 10
 url: /vi/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Khai thác sức mạnh của Nhận dạng ký tự quang học (OCR) là rất quan trọng trong thời đại kỹ thuật số ngày nay và Aspose.OCR cho .NET nổi bật như một giải pháp mạnh mẽ để nhận dạng ký tự chính xác. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một tính năng cụ thể: lấy các lựa chọn cho các ký tự được nhận dạng. Đến cuối hướng dẫn này, bạn sẽ tích hợp liền mạch chức năng này vào các ứng dụng .NET của mình.
@@ -112,3 +118,9 @@ Câu trả lời 2: Có, bạn có thể tích hợp Aspose.OCR cho .NET vào c�
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.OCR cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/) để trải nghiệm các khả năng của Aspose.OCR cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

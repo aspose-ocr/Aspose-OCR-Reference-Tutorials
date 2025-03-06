@@ -3,10 +3,16 @@ title: OCR PDF-dokumentumok felismerése az Aspose.OCR for Java-ban
 linktitle: OCR PDF-dokumentumok felismerése az Aspose.OCR for Java-ban
 second_title: Aspose.OCR Java API
 description: Az Aspose.OCR segítségével felszabadíthatja az OCR erejét a Java nyelven. Könnyedén felismerheti a PDF-dokumentumok szövegét. Növelje alkalmazásait pontossággal és sebességgel.
-type: docs
 weight: 12
 url: /hu/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR PDF-dokumentumok felismerése az Aspose.OCR for Java-ban
+
 ## Bevezetés
 
 technológia folyamatosan fejlődő világában az Optical Character Recognition (OCR) kulcsszerepet játszik a nyomtatott vagy kézzel írt szövegek gépi kódolású szöveggé alakításában. Az Aspose.OCR for Java hatékony eszköz a Java alkalmazásokba való zökkenőmentes OCR-integrációhoz. Ebben az oktatóanyagban megvizsgáljuk a PDF-dokumentumok felismerésének folyamatát az Aspose.OCR for Java használatával.
@@ -130,3 +136,9 @@ static void printResult(RecognitionResult result) {
 ### 5. kérdés: Elérhető az Aspose.OCR ingyenes próbaverziója?
 
  5. válasz: Igen, felfedezheti az Aspose.OCR-t, ha ingyenes próbaverziót szerez a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

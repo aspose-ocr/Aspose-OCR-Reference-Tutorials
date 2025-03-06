@@ -3,10 +3,16 @@ title: Nhận dạng các dòng trong Aspose.OCR cho Java
 linktitle: Nhận dạng các dòng trong Aspose.OCR cho Java
 second_title: API Java Aspose.OCR
 description: Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
-type: docs
 weight: 14
 url: /vi/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng các dòng trong Aspose.OCR cho Java
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao ứng dụng Java của mình bằng khả năng Nhận dạng ký tự quang học (OCR) mạnh mẽ? Đừng tìm đâu xa! Aspose.OCR cho Java là thư viện OCR tiên tiến cho phép bạn tích hợp liền mạch chức năng OCR vào các ứng dụng Java của mình. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc nhận dạng các dòng trong hình ảnh bằng Aspose.OCR cho Java.
@@ -111,3 +117,9 @@ A4: Chắc chắn rồi! Aspose.OCR được thiết kế để tích hợp li�
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.OCR không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các khả năng của Aspose.OCR bằng bản dùng thử miễn phí. Thăm nom[đây](https://releases.aspose.com/) để biết thêm thông tin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

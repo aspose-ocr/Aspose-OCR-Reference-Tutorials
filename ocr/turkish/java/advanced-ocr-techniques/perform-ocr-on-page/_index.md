@@ -3,10 +3,16 @@ title: Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme
 linktitle: Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme
 second_title: Aspose.OCR Java API'si
 description: Belirli sayfalarda OCR gerçekleştirmeye yönelik adım adım kılavuzumuzla Aspose.OCR for Java'nın gücünün kilidini açın. Görüntülerden metni zahmetsizce çıkarın ve Java projelerinizi geliştirin.
-type: docs
 weight: 12
 url: /tr/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme
+
 ## giriiş
 
 Aspose.OCR for Java kullanarak belirli bir sayfada Optik Karakter Tanıma (OCR) gerçekleştirmeye yönelik kapsamlı kılavuzumuza hoş geldiniz. Bu eğitimde, bir görüntüden kolaylıkla metin çıkarmak için gerekli paketleri kurma, içe aktarma ve kodu çalıştırma sürecinde size yol göstereceğiz.
@@ -92,3 +98,9 @@ Cevap1: Evet, Aspose.OCR çok çeşitli görüntü formatlarını destekleyerek 
 ### S5: Aspose.OCR ücretsiz deneme sunuyor mu?
 
  A5: Evet, özellikleri keşfedin[ücretsiz deneme sürümü](https://releases.aspose.com/) bir satın alma işlemi yapmadan önce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

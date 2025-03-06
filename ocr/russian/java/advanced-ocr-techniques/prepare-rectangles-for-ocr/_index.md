@@ -3,10 +3,16 @@ title: Подготовка прямоугольников для распозн
 linktitle: Подготовка прямоугольников для распознавания в Aspose.OCR
 second_title: API Aspose.OCR Java
 description: Раскройте возможности распознавания текста с помощью Aspose.OCR для Java. Следуйте нашему пошаговому руководству для бесшовной интеграции. Усовершенствуйте свои Java-приложения с помощью эффективных возможностей оптического распознавания символов.
-type: docs
 weight: 13
 url: /ru/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Подготовка прямоугольников для распознавания в Aspose.OCR
+
 ## Введение
 
 В быстро развивающемся мире технологий извлечение текста из изображений стало важнейшей задачей, открывающей двери для бесчисленных возможностей. Aspose.OCR для Java выделяется как мощный инструмент, упрощающий сложный процесс оптического распознавания символов (OCR). В этом подробном руководстве мы покажем вам основные шаги по использованию потенциала Aspose.OCR для Java, что позволит вам легко интегрировать распознавание текста в ваши приложения Java.
@@ -112,3 +118,9 @@ A1: Aspose.OCR поддерживает различные языки прогр
 ### В5: Нужна помощь или есть вопросы?
 
  A5: Посетите сообщество Aspose.OCR.[Форум](https://forum.aspose.com/c/ocr/16) за поддержку и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

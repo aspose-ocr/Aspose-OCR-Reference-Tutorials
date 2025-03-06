@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.OCR의 포괄적인 튜토리얼 및 예
 linktitle: .NET 튜토리얼용 Aspose.OCR
-type: docs
 weight: 10
 url: /ko/net/
 description: .NET용 Aspose.OCR을 사용하여 OCR 이미지 인식의 정밀도를 잠금 해제하세요. 경사각 계산, 텍스트 인식, OCR 구성 및 최적화에 대한 튜토리얼을 살펴보세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.OCR의 포괄적인 튜토리얼 및 예
+
 
 ## 소개
 
@@ -51,3 +56,9 @@ Aspose.OCR을 사용하여 .NET 앱에서 OCR 기능을 잠금 해제하세요. 
 .NET 튜토리얼용 Aspose.OCR을 사용하여 OCR 정확도를 극대화하세요. 이미지에 대해 OCR을 수행하고, 직사각형을 준비하고, 전처리 필터를 적용하고, 맞춤법 검사를 통해 결과를 수정하고, 여러 페이지로 된 결과를 손쉽게 저장하세요.
 ### [OCR 설정](./ocr-settings/)
 OCR 설정 튜토리얼을 통해 .NET용 Aspose.OCR의 강력한 기능을 활용해 보세요. 이미지의 텍스트 인식에 대한 정확성, 속도 및 사용자 정의를 향상시키는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

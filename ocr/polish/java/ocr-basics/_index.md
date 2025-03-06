@@ -3,10 +3,16 @@ title: Podstawy OCR
 linktitle: Podstawy OCR
 second_title: Aspose.OCR API Java
 description: Odblokuj potencjał Aspose.OCR w Javie! Przewodnik krok po kroku dotyczący konfiguracji licencji i zwiększenia możliwości OCR. Oblicz kąty pochylenia i płynnie wyodrębnij tekst.
-type: docs
 weight: 20
 url: /pl/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podstawy OCR
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść poziom swojej gry OCR dzięki Aspose.OCR dla Java? Ten obszerny przewodnik przeprowadzi Cię przez niezbędne samouczki, dzięki czemu w pełni wykorzystasz to potężne narzędzie. Zanurzmy się!
@@ -35,3 +41,9 @@ Odblokuj potencjał Aspose.OCR dla Java, korzystając z tego przewodnika krok po
 Zwiększ dokładność OCR dzięki Aspose.OCR dla Java. Naucz się obliczać kąty skośne krok po kroku. Usprawnij przetwarzanie dokumentów bez wysiłku.
 ### [Uzyskiwanie prostokątów z obszarami tekstowymi w Aspose.OCR](./get-rectangles-with-text-areas/)
 Odblokuj moc Aspose.OCR dla Java. Z tego przewodnika krok po kroku dowiesz się, jak płynnie wyodrębniać tekst z obrazów. Pobierz teraz, aby efektywnie rozpoznawać tekst.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

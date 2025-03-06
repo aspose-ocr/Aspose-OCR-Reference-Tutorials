@@ -3,10 +3,16 @@ title: 设置OCR图像识别的阈值
 linktitle: 设置OCR图像识别的阈值
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET 强大的 OCR 解决方案。轻松设置自定义阈值。增强应用程序中的文本识别。
-type: docs
 weight: 12
 url: /zh/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 设置OCR图像识别的阈值
+
 ## 介绍
 
 欢迎来到 Aspose.OCR for .NET 的激动人心的世界！在本教程中，我们将深入探讨 Aspose.OCR 的功能，这是一个强大的工具，旨在使 .NET 应用程序中的光学字符识别变得轻而易举。无论您是经验丰富的开发人员还是新手，本指南都将引导您完成使用 Aspose.OCR for .NET 设置 OCR 图像识别阈值的过程。
@@ -99,3 +105,9 @@ A1：当然！ Aspose.OCR for .NET 用途广泛，可以无缝集成到 Web 和�
 ### Q5：如何购买完整版的 Aspose.OCR for .NET？
 
  A5：要解锁所有功能，请访问购买页面[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在Aspose.OCR中對特定頁面執行OCR
 linktitle: 在Aspose.OCR中對特定頁面執行OCR
 second_title: Aspose.OCR Java API
 description: 透過我們在特定頁面上執行 OCR 的逐步指南來釋放 Aspose.OCR for Java 的強大功能。輕鬆從圖像中提取文字並增強您的 Java 專案。
-type: docs
 weight: 12
 url: /zh-hant/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在Aspose.OCR中對特定頁面執行OCR
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.OCR for Java 在特定頁面上執行光學字元辨識 (OCR) 的綜合指南。在本教程中，我們將引導您完成設定、匯入必要的套件以及執行程式碼以輕鬆從圖像中提取文字的過程。
@@ -92,3 +98,9 @@ A1：是的，Aspose.OCR 支援多種圖像格式，確保您 OCR 任務的靈�
 ### Q5：Aspose.OCR 提供免費試用嗎？
 
  A5：是的，探索功能[免費試用版](https://releases.aspose.com/)在購買之前。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

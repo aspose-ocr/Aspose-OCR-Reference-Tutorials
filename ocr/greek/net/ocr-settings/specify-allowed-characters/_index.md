@@ -3,10 +3,16 @@ title: Καθορίστε τους επιτρεπόμενους χαρακτήρ
 linktitle: Καθορίστε τους επιτρεπόμενους χαρακτήρες στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε το ακριβές OCR στο .NET με το Aspose.OCR. Αναγνωρίστε κείμενο από εικόνες χωρίς κόπο. Κάντε λήψη τώρα για μια μεταμορφωτική εμπειρία ανάπτυξης.
-type: docs
 weight: 13
 url: /el/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε τους επιτρεπόμενους χαρακτήρες στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο της τεχνολογίας, η Οπτική Αναγνώριση Χαρακτήρων (OCR) έχει αναδειχθεί ως ένα μετασχηματιστικό εργαλείο, που επιτρέπει στις μηχανές να κατανοούν κείμενο από εικόνες. Το Aspose.OCR για .NET ξεχωρίζει ως μια ισχυρή λύση, παρέχοντας απρόσκοπτη ενοποίηση για προγραμματιστές που αναζητούν ισχυρές δυνατότητες OCR στις εφαρμογές τους .NET.
@@ -119,3 +125,9 @@ A2: Ναι, το Aspose.OCR υποστηρίζει αναγνώριση σε δ�
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα για υποστήριξη;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) να συνεργαστείτε με την κοινότητα και να λάβετε βοήθεια από ειδικούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

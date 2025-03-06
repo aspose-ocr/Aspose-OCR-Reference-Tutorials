@@ -3,10 +3,16 @@ title: Java용 Aspose.OCR에서 기울기 각도 계산
 linktitle: Java용 Aspose.OCR에서 기울기 각도 계산
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 경사각을 계산하는 방법을 단계별로 알아보세요. 손쉽게 문서 처리를 개선하세요.
-type: docs
 weight: 11
 url: /ko/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.OCR에서 기울기 각도 계산
+
 ## 소개
 
 Java용 Aspose.OCR의 기울기 각도 계산에 대한 종합 가이드에 오신 것을 환영합니다! 기울어짐 각도는 문서 처리, 특히 스캔한 이미지를 처리할 때 중요한 역할을 합니다. Aspose.OCR for Java는 기울어짐 각도를 정확하게 결정하고 수정하여 OCR(광학 문자 인식) 결과의 전반적인 품질을 향상시키는 강력한 솔루션을 제공합니다.
@@ -94,3 +100,9 @@ A3: Aspose.OCR은 PNG, JPEG, TIFF를 포함한 다양한 이미지 형식을 지
 ### Q5: Aspose.OCR과 관련된 문제에 대해 도움을 구하거나 논의할 수 있는 곳은 어디입니까?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 커뮤니티에 참여하고 Aspose 전문가의 지원을 받으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

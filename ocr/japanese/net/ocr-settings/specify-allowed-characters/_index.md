@@ -3,10 +3,16 @@ title: OCR画像認識で使用できる文字を指定する
 linktitle: OCR画像認識で使用できる文字を指定する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR を使用して、.NET で正確な OCR をロック解除します。画像からテキストを簡単に認識します。今すぐダウンロードして、革新的な開発エクスペリエンスを体験してください。
-type: docs
 weight: 13
 url: /ja/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で使用できる文字を指定する
+
 ## 導入
 
 テクノロジーが進化し続ける中で、光学式文字認識 (OCR) が革新的なツールとして台頭し、機械が画像からテキストを理解できるようになりました。 Aspose.OCR for .NET は強力なソリューションとして際立っており、.NET アプリケーションで堅牢な OCR 機能を求める開発者にシームレスな統合を提供します。
@@ -119,3 +125,9 @@ A4: はい、Aspose.OCR をダウンロードすると、その機能を調べ�
 ### Q5: どこで支援を求めたり、コミュニティに連絡してサポートを求めたりできますか?
 
  A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティに参加し、専門家の支援を受けることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

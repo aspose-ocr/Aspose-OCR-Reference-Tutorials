@@ -3,10 +3,16 @@ title: Nhận dạng dòng trong nhận dạng hình ảnh OCR
 linktitle: Nhận dạng dòng trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng các dòng trong nhận dạng hình ảnh OCR. Hướng dẫn dành cho nhà phát triển cách trích xuất văn bản liền mạch từ hình ảnh.
-type: docs
 weight: 14
 url: /vi/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng dòng trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, nhận dạng ký tự quang học (OCR) đã trở thành một công cụ quan trọng, chuyển đổi liền mạch hình ảnh thành văn bản có thể chỉnh sửa và tìm kiếm được. Aspose.OCR cho .NET nổi lên như người đi đầu trong lĩnh vực này, cung cấp những khả năng mạnh mẽ cho các nhà phát triển. Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào sự phức tạp của việc sử dụng Aspose.OCR cho .NET để nhận dạng các dòng trong nhận dạng hình ảnh OCR.
@@ -98,3 +104,9 @@ Câu trả lời 4: Có, bạn có thể lấy giấy phép tạm thời cho Asp
 ### Câu hỏi 5: Yêu cầu hệ thống đối với Aspose.OCR dành cho .NET là gì?
 
  A5: Hãy tham khảo[tài liệu](https://reference.aspose.com/ocr/net/) cho các yêu cầu hệ thống toàn diện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

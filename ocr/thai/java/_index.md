@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.OCR สำหรับ Java
 linktitle: Aspose.OCR สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ปลดล็อกพลังของ Aspose.OCR สำหรับ Java! เรียนรู้พื้นฐาน OCR การดำเนินการ และเทคนิคขั้นสูง ตั้งค่าใบอนุญาตของคุณ ตรวจจับพื้นที่ และปรับปรุงการจดจำข้อความได้อย่างง่ายดาย
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.OCR สำหรับ Java
+
 
 ## การแนะนำ
 
@@ -32,3 +37,9 @@ is_root: true
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ Java ด้วยบทช่วยสอน OCR ที่ครอบคลุมของเรา เรียนรู้โหมดการตรวจจับพื้นที่ การเลือกภาษา PDF และการจดจำ TIFF ในไม่กี่ขั้นตอน!
 ### [เทคนิค OCR ขั้นสูง](./advanced-ocr-techniques/)
 ทำ OCR บนรูปภาพได้อย่างง่ายดายโดยใช้ Aspose.OCR สำหรับ Java แยกข้อความได้อย่างราบรื่นด้วยความแม่นยำสูง ปรับปรุงโปรเจ็กต์ Java ของคุณด้วยการจดจำข้อความที่หลากหลาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

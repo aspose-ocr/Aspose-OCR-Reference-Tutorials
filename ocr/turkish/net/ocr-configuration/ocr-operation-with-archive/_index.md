@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Arşiv ile OCR İşlemi
 linktitle: OCR Görüntü Tanıma'da Arşiv ile OCR İşlemi
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR ile .NET uygulamalarındaki OCR'nin potansiyelini ortaya çıkarın. Arşiv görüntülerinden metni adım adım çıkarmayı öğrenin.
-type: docs
 weight: 10
 url: /tr/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Arşiv ile OCR İşlemi
+
 ## giriiş
 
 Aspose.OCR for .NET ile sorunsuz ve verimli hale getirilen Optik Karakter Tanıma (OCR) dünyasına hoş geldiniz. Bu kapsamlı kılavuzda, Aspose.OCR kitaplığını kullanarak arşiv görüntüleri üzerinde OCR işlemleri gerçekleştirme sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister meraklı bir başlangıç seviyesinde olun, bu eğitim sizi .NET uygulamalarınızda OCR'nin tüm potansiyelinden yararlanmanız için gerekli bilgilerle donatacaktır.
@@ -119,3 +125,9 @@ Cevap4: Kesinlikle! Aspose.OCR for .NET, tanıma ayarlarının özelleştirilmes
 ### S5: Aspose.OCR for .NET ne sıklıkta güncellenir?
 
  Cevap5: En son özellikler ve iyileştirmelerden haberdar olmak için aşağıdakileri kontrol edin:[dokümantasyon](https://reference.aspose.com/ocr/net/) düzenli olarak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

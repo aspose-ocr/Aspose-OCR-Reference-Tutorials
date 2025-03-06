@@ -3,10 +3,16 @@ title: OCR-bewerking met archief in OCR-beeldherkenning
 linktitle: OCR-bewerking met archief in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van OCR in .NET-applicaties met Aspose.OCR. Leer stap voor stap tekst uit archiefafbeeldingen halen.
-type: docs
 weight: 10
 url: /nl/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-bewerking met archief in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de wereld van Optical Character Recognition (OCR), naadloos en efficiënt met Aspose.OCR voor .NET. In deze uitgebreide handleiding leiden we u door het proces van het uitvoeren van OCR-bewerkingen op archiefafbeeldingen met behulp van de Aspose.OCR-bibliotheek. Of u nu een doorgewinterde ontwikkelaar of een nieuwsgierige beginner bent, deze tutorial geeft u de kennis om het volledige potentieel van OCR in uw .NET-toepassingen te benutten.
@@ -119,3 +125,9 @@ A4: Absoluut! Aspose.OCR voor .NET biedt flexibiliteit bij het aanpassen van her
 ### V5: Hoe vaak wordt Aspose.OCR voor .NET bijgewerkt?
 
  A5: Blijf op de hoogte van de nieuwste functies en verbeteringen door de[documentatie](https://reference.aspose.com/ocr/net/) regelmatig.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

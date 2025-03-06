@@ -3,10 +3,16 @@ title: Mempersiapkan Persegi Panjang untuk OCR di Aspose.OCR
 linktitle: Mempersiapkan Persegi Panjang untuk OCR di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan OCR yang efisien.
-type: docs
 weight: 13
 url: /id/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mempersiapkan Persegi Panjang untuk OCR di Aspose.OCR
+
 ## Perkenalan
 
 Di dunia teknologi yang serba cepat, mengekstraksi teks dari gambar telah menjadi tugas penting, membuka pintu terhadap berbagai kemungkinan yang tak terhitung jumlahnya. Aspose.OCR untuk Java menonjol sebagai alat yang ampuh, menyederhanakan proses rumit Pengenalan Karakter Optik (OCR). Dalam panduan komprehensif ini, kami akan memandu Anda melalui langkah-langkah penting untuk memanfaatkan potensi Aspose.OCR untuk Java, memungkinkan Anda mengintegrasikan pengenalan teks ke dalam aplikasi Java Anda dengan lancar.
@@ -112,3 +118,9 @@ A2: Ya, Anda bisa. Mengunjungi[halaman pembelian](https://purchase.aspose.com/bu
 ### Q5: Butuh bantuan atau punya pertanyaan?
 
  A5: Kunjungi komunitas Aspose.OCR[forum](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

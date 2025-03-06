@@ -3,10 +3,16 @@ title: Modus „OCR-Erkennungsbereiche“ in der OCR-Bilderkennung
 linktitle: Modus „OCR-Erkennungsbereiche“ in der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtexterkennung. Entdecken Sie den OCR-Erkennungsmodus für präzise Ergebnisse.
-type: docs
 weight: 13
 url: /de/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modus „OCR-Erkennungsbereiche“ in der OCR-Bilderkennung
+
 ## Einführung
 
 In der schnelllebigen Welt der Informationstechnologie spielt die optische Zeichenerkennung (OCR) eine entscheidende Rolle bei der Umwandlung von Bildern in bearbeitbaren und durchsuchbaren Text. Aspose.OCR für .NET ermöglicht Entwicklern die mühelose Integration robuster OCR-Funktionalität in ihre Anwendungen. In diesem Tutorial befassen wir uns mit dem OCR-Erkennungsmodus, einer leistungsstarken Funktion, die die Bilderkennung verbessert.
@@ -91,3 +97,9 @@ A3: Aspose.OCR für .NET unterstützt gängige Bildformate wie PNG, JPEG und BMP
 ### F5: Gibt es eine kostenlose Testversion für Aspose.OCR für .NET?
 
  A5: Ja, Sie können die Funktionen von Aspose.OCR für .NET erkunden, indem Sie a erwerben[kostenlose Testlizenz](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

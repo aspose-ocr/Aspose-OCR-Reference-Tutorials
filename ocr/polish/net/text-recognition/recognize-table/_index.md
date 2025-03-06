@@ -3,10 +3,16 @@ title: Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
 linktitle: Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
-type: docs
 weight: 15
 url: /pl/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w fascynującym świecie Aspose.OCR dla .NET! Jeśli chcesz ulepszyć swoje aplikacje .NET za pomocą potężnych możliwości OCR (optycznego rozpoznawania znaków), jesteś we właściwym miejscu. Ten przewodnik krok po kroku przeprowadzi Cię przez proces rozpoznawania tabel w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR dla .NET.
@@ -95,3 +101,9 @@ Podsumowując, Aspose.OCR dla .NET umożliwia programistom bezproblemową integr
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR?
 
  Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

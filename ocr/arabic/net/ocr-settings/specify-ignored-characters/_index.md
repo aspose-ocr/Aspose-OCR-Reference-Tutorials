@@ -3,10 +3,16 @@ title: حدد الأحرف التي تم تجاهلها في التعرف على
 linktitle: حدد الأحرف التي تم تجاهلها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: اكتشف إمكانات التعرف الضوئي على الحروف (OCR) المتقدمة باستخدام Aspose.OCR لـ .NET. فعالة ودقيقة وصديقة للمطورين.
-type: docs
 weight: 14
 url: /ar/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حدد الأحرف التي تم تجاهلها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 في مشهد التحول الرقمي دائم التطور، برز التعرف الضوئي على الحروف (OCR) كتقنية محورية تعمل على سد الفجوة بين المحتوى المادي والرقمي. مع قيام الشركات برقمنة عملياتها بشكل متزايد، أصبحت الحاجة إلى حلول التعرف الضوئي على الحروف الدقيقة والفعالة والمتعددة الاستخدامات أمرًا بالغ الأهمية. تتميز Aspose.OCR for .NET بأنها مكتبة قوية للتعرف الضوئي على الحروف، حيث توفر إمكانات متقدمة للمطورين الذين يعملون في بيئة .NET.
@@ -100,3 +106,9 @@ Console.WriteLine(result.RecognitionText);
 ### س5: هل يمكنني شراء ترخيص مؤقت لـ Aspose.OCR؟
 
  ج5: نعم، إذا كنت بحاجة إلى ترخيص مؤقت، يمكنك الحصول عليه[هنا](https://purchase.aspose.com/temporary-license/) للاستخدام على المدى القصير.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Metin Tanıma
 linktitle: Metin Tanıma
 second_title: Aspose.OCR .NET API'si
 description: Hassas karakter tanıma için .NET uygulamalarınızı Aspose.OCR ile yükseltin. OCR görüntü tanımada seçenekleri, sonuçları ve JSON formatlarını elde etmeye yönelik eğitimleri keşfedin.
-type: docs
 weight: 21
 url: /tr/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metin Tanıma
+
 ## giriiş
 
 .NET uygulamalarınızı bir sonraki seviyeye taşımaya hazır mısınız? Aspose.OCR ile Metin Tanıma dünyasına dalın ve projelerinizi doğru karakter tanıma ve kusursuz görüntü işleme ile geliştirin.
@@ -49,3 +55,9 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

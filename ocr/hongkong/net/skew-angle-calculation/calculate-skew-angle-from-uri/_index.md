@@ -3,10 +3,16 @@ title: OCR 影像辨識中根據 URI 計算傾斜角度
 linktitle: OCR 影像辨識中根據 URI 計算傾斜角度
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET，輕鬆計算 OCR 影像辨識中的傾斜角度。精準有效率地增強您的專案。
-type: docs
 weight: 12
 url: /zh-hant/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中根據 URI 計算傾斜角度
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的世界！在這個綜合教程中，我們將深入研究在 OCR 影像辨識中利用 Aspose.OCR for .NET 根據 URI 計算傾斜角度的複雜性。這個強大的工具為光學字元辨識開闢了新的可能性，使過程更加順暢和有效率。
@@ -92,3 +98,9 @@ A4：確保您已將所需的命名空間匯入到專案中，如教學中所述
 ### 問題 5：在哪裡可以找到 Aspose.OCR for .NET 的綜合文件？
 
  A5：請參閱[文件](https://reference.aspose.com/ocr/net/)獲取詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

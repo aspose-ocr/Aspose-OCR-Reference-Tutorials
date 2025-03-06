@@ -3,10 +3,16 @@ title: การดำเนินงานโอซีอาร์
 linktitle: การดำเนินงานโอซีอาร์
 second_title: Aspose.OCR Java API
 description: ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ Java ด้วยบทช่วยสอน OCR ที่ครอบคลุมของเรา เรียนรู้โหมดการตรวจจับพื้นที่ การเลือกภาษา PDF และการจดจำ TIFF ในไม่กี่ขั้นตอน!
-type: docs
 weight: 21
 url: /th/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การดำเนินงานโอซีอาร์
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับเกมการแยกข้อความของคุณแล้วหรือยัง? Aspose.OCR สำหรับ Java นำเสนอโลกแห่งความเป็นไปได้ด้วยความสามารถ OCR อันทรงพลัง ในคู่มือนี้ เราจะแนะนำคุณเกี่ยวกับการดำเนินการ OCR ที่จำเป็น โดยให้ข้อมูลเชิงลึกเกี่ยวกับแต่ละโหมดเพื่อประสบการณ์ที่ราบรื่น
@@ -53,3 +59,9 @@ url: /th/java/ocr-operations/
 ปลดล็อกพลังของ OCR ใน Java ด้วย Aspose.OCR จดจำข้อความในเอกสาร PDF ได้อย่างง่ายดาย เพิ่มประสิทธิภาพการใช้งานของคุณด้วยความแม่นยำและรวดเร็ว
 ### [OCR การรับรู้ภาพ TIFF ใน Aspose.OCR สำหรับ Java](./recognize-tiff/)
 ปลดล็อกการรู้จำข้อความอันทรงพลังใน Java ด้วย Aspose.OCR จดจำข้อความในภาพ TIFF ได้อย่างง่ายดาย ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์ OCR ที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

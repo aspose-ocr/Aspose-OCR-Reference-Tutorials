@@ -3,10 +3,16 @@ title: Operações de OCR
 linktitle: Operações de OCR
 second_title: API Java Aspose.OCR
 description: Desbloqueie o potencial do Aspose.OCR para Java com nossos tutoriais abrangentes de OCR. Aprenda o modo de detecção de áreas, seleção de idioma, reconhecimento de PDF e TIFF em apenas algumas etapas!
-type: docs
 weight: 21
 url: /pt/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operações de OCR
+
 ## Introdução
 
 Você está pronto para elevar seu jogo de extração de texto? Aspose.OCR for Java oferece um mundo de possibilidades com seus poderosos recursos de OCR. Neste guia, orientaremos você nas operações essenciais de OCR, fornecendo informações sobre cada modo para uma experiência perfeita.
@@ -53,3 +59,9 @@ Desbloqueie a extração precisa de texto de imagens com Aspose.OCR para Java. S
 Desbloqueie o poder do OCR em Java com Aspose.OCR. Reconheça texto em documentos PDF sem esforço. Aumente suas aplicações com precisão e velocidade.
 ### [OCR reconhecendo imagens TIFF em Aspose.OCR para Java](./recognize-tiff/)
 Desbloqueie o poderoso reconhecimento de texto em Java com Aspose.OCR. Reconheça facilmente texto em imagens TIFF. Baixe agora para uma experiência de OCR perfeita.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

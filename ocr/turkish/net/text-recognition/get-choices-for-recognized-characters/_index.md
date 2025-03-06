@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
 linktitle: OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
 second_title: Aspose.OCR .NET API'si
 description: Doğru karakter tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Görüntü tanımada tanınan karakterlere ilişkin seçeneklere ulaşmak için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
+
 ## giriiş
 
 Optik Karakter Tanıma'nın (OCR) gücünün kilidini açmak günümüzün dijital çağında çok önemlidir ve Aspose.OCR for .NET, doğru karakter tanıma için güçlü bir çözüm olarak öne çıkıyor. Bu eğitimde belirli bir özelliği inceleyeceğiz: tanınan karakterler için seçenekler elde etme. Bu kılavuzun sonunda bu işlevselliği .NET uygulamalarınıza sorunsuz bir şekilde entegre edeceksiniz.
@@ -112,3 +118,9 @@ Cevap2: Evet, Aspose.OCR for .NET'i web uygulamalarına entegre ederek çeşitli
 ### S5: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Aspose.OCR for .NET'in yeteneklerini deneyimlemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

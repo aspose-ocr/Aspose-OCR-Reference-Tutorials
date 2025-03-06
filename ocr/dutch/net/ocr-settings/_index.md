@@ -3,10 +3,16 @@ title: OCR-instellingen
 linktitle: OCR-instellingen
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel de kracht van Aspose.OCR voor .NET met onze OCR-instellingen-tutorials. Leer hoe u de nauwkeurigheid, snelheid en aanpassing van tekstherkenning in afbeeldingen kunt verbeteren.
-type: docs
 weight: 26
 url: /nl/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-instellingen
+
 
 ## Invoering
 
@@ -50,3 +56,9 @@ Ontgrendel nauwkeurige OCR in .NET met Aspose.OCR. Herken moeiteloos tekst uit a
 Ontdek geavanceerde OCR-mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaarsvriendelijk.
 ### [Werken met verschillende talen bij OCR-beeldherkenning](./working-with-different-languages/)
 Ontgrendel de magie van meertalige OCR met Aspose.OCR voor .NET. Extraheer tekst moeiteloos in verschillende talen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dapatkan Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR
 linktitle: Dapatkan Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka kemampuan OCR tingkat lanjut dengan Aspose.OCR untuk .NET. Ekstrak paragraf persegi panjang dengan mudah.
-type: docs
 weight: 11
 url: /id/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif kami tentang memanfaatkan Aspose.OCR untuk .NET untuk mengekstrak paragraf persegi panjang dalam pengenalan gambar OCR. Jika Anda ingin meningkatkan kemampuan pemrosesan dokumen dan memanfaatkan kekuatan Pengenalan Karakter Optik (OCR) dalam aplikasi .NET, Anda berada di tempat yang tepat.
@@ -101,3 +107,9 @@ A2: Tentu saja! Aspose.OCR memfasilitasi pemrosesan batch untuk menangani banyak
 ### Q5: Di mana saya dapat menemukan dukungan dan diskusi tambahan terkait Aspose.OCR?
 
  A5: Pergilah ke[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

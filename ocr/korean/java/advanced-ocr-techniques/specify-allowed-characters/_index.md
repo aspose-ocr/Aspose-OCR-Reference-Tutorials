@@ -3,10 +3,16 @@ title: Aspose.OCR에서 허용되는 문자 지정
 linktitle: Aspose.OCR에서 허용되는 문자 지정
 second_title: Aspose.OCR 자바 API
 description: Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR에서 허용되는 문자 지정
+
 ## 소개
 
 끊임없이 진화하는 기술 환경에서 광학 문자 인식(OCR)은 이미지에서 의미 있는 정보를 추출하려는 기업과 개발자에게 중요한 구성 요소가 되었습니다. Java용 Aspose.OCR은 원활한 통합과 효율적인 텍스트 인식 기능을 제공하는 강력한 도구로 돋보입니다. 이 포괄적인 가이드는 Java용 Aspose.OCR의 잠재력을 활용하는 과정을 안내하여 설치부터 실제 구현까지 원활한 여정을 보장합니다.
@@ -105,3 +111,9 @@ A:4 Aspose.OCR은 최신 Java 개발 키트와의 호환성을 보장하기 위�
 ### Q5: Aspose.OCR에 추가 OCR 기능이 있습니까?
 
 A5: 설명서에서 사용할 수 있는 포괄적인 기능과 옵션을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

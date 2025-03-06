@@ -3,10 +3,16 @@ title: OCROperation พร้อมไฟล์เก็บถาวรในก
 linktitle: OCROperation พร้อมไฟล์เก็บถาวรในการจดจำรูปภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้การแยกข้อความจากรูปภาพที่เก็บถาวรทีละขั้นตอน
-type: docs
 weight: 10
 url: /th/net/ocr-configuration/ocr-operation-with-archive/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROperation พร้อมไฟล์เก็บถาวรในการจดจำรูปภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกแห่ง Optical Character Recognition (OCR) ที่ทำให้ราบรื่นและมีประสิทธิภาพด้วย Aspose.OCR สำหรับ .NET ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดขั้นตอนการดำเนินการ OCR กับอิมเมจที่เก็บถาวรโดยใช้ไลบรารี Aspose.OCR ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ที่อยากรู้อยากเห็น บทช่วยสอนนี้จะช่วยให้คุณมีความรู้ในการควบคุมศักยภาพสูงสุดของ OCR ในแอปพลิเคชัน .NET ของคุณ
@@ -119,3 +125,9 @@ A4: แน่นอน! Aspose.OCR สำหรับ .NET ให้ความ
 ### คำถามที่ 5: Aspose.OCR สำหรับ .NET อัปเดตบ่อยแค่ไหน
 
  A5: ติดตามข่าวสารล่าสุดด้วยคุณสมบัติและการปรับปรุงล่าสุดโดยการตรวจสอบ[เอกสารประกอบ](https://reference.aspose.com/ocr/net/) เป็นประจำ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

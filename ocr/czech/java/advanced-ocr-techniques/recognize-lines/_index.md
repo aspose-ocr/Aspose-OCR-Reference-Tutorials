@@ -3,10 +3,16 @@ title: Rozpoznávání čar v Aspose.OCR pro Javu
 linktitle: Rozpoznávání čar v Aspose.OCR pro Javu
 second_title: Aspose.OCR Java API
 description: Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
-type: docs
 weight: 14
 url: /cs/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznávání čar v Aspose.OCR pro Javu
+
 ## Úvod
 
 Chcete vylepšit svou aplikaci Java o výkonné funkce optického rozpoznávání znaků (OCR)? Už nehledejte! Aspose.OCR for Java je špičková knihovna OCR, která vám umožňuje bezproblémově integrovat funkce OCR do vašich aplikací Java. V tomto tutoriálu se zaměříme na rozpoznávání čar v obrázcích pomocí Aspose.OCR pro Javu.
@@ -111,3 +117,9 @@ A4: Určitě! Aspose.OCR je navržen pro bezproblémovou integraci do desktopov�
 ### Q5: Je k dispozici zkušební verze pro Aspose.OCR?
 
  A5: Ano, můžete prozkoumat možnosti Aspose.OCR pomocí bezplatné zkušební verze. Návštěva[tady](https://releases.aspose.com/) Pro více informací.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR影像辨識中辨識PDF
 linktitle: OCR影像辨識中辨識PDF
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
-type: docs
 weight: 14
 url: /zh-hant/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR影像辨識中辨識PDF
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的光學字元辨識 (OCR) 世界！如果您渴望在 .NET 應用程式中利用 OCR 功能，那麼您來對地方了。在本逐步指南中，我們將探索如何使用 Aspose.OCR 庫識別 PDF 中的文字。無論您是經驗豐富的開發人員還是剛剛入門，本教學都將引導您完成整個過程，確保您可以輕鬆地將 OCR 功能整合到您的專案中。
@@ -101,3 +107,9 @@ A2：當然！ Aspose.OCR 無縫整合到使用 .NET 開發的 Web 和桌面應�
 ### Q5：哪裡可以購買 Aspose.OCR for .NET？
 
  A5：您可以從以下網站購買產品：[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Získání obdélníků s textovými oblastmi v Aspose.OCR
 linktitle: Získání obdélníků s textovými oblastmi v Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Odemkněte sílu Aspose.OCR pro Javu. V tomto podrobném průvodci se dozvíte, jak bez problémů extrahovat text z obrázků. Stáhněte si nyní pro efektivní rozpoznávání textu.
-type: docs
 weight: 12
 url: /cs/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získání obdélníků s textovými oblastmi v Aspose.OCR
+
 ## Úvod
 
 Chcete do své Java aplikace integrovat výkonné funkce optického rozpoznávání znaků (OCR)? Aspose.OCR for Java je vaším oblíbeným řešením pro přesnou a efektivní extrakci textu z obrázků. Tento tutoriál vás provede procesem získávání obdélníků s textovými oblastmi pomocí Aspose.OCR a pomůže vám využít plný potenciál této knihovny Java OCR.
@@ -105,3 +111,10 @@ Odpověď 1: Ano, Aspose.OCR je kompatibilní s Java 11 a novějšími verzemi.
 ### Q5: Podporuje Aspose.OCR multithreading?
 
 A5: Ano, Aspose.OCR podporuje multithreading pro lepší výkon v souběžných prostředích.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

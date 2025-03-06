@@ -3,10 +3,16 @@ title: Eredmény mentése dokumentumként az OCR képfelismerésben
 linktitle: Eredmény mentése dokumentumként az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyen felismerheti a képek szövegét, és mentheti az eredményeket különböző dokumentumformátumokba.
-type: docs
 weight: 10
 url: /hu/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Eredmény mentése dokumentumként az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az optikai karakterfelismerés (OCR) izgalmas világában az Aspose.OCR for .NET segítségével! Ebben az átfogó oktatóanyagban elmélyülünk az Aspose.OCR használatának fortélyaiban a képek szövegének felismerésére, és bemutatjuk, hogyan mentheti el az eredményeket különböző dokumentumformátumokba.
@@ -99,3 +105,9 @@ A2: Abszolút! Az Aspose.OCR felismerési beállításokat biztosít az OCR foly
 ### 5. kérdés: Hol kérhetek segítséget vagy csatlakozhatok a közösséghez?
 
  5. válasz: Csatlakozzon az Aspose.OCR közösséghez a címen[Aspose fórum](https://forum.aspose.com/c/ocr/16) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

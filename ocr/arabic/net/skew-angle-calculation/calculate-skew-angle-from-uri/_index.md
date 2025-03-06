@@ -3,10 +3,16 @@ title: حساب زاوية الانحراف من URI في التعرف على ا
 linktitle: حساب زاوية الانحراف من URI في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: استكشف Aspose.OCR لـ .NET لحساب زوايا الانحراف بسهولة في التعرف على الصور باستخدام OCR. عزز مشاريعك بالدقة والكفاءة.
-type: docs
 weight: 12
 url: /ar/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب زاوية الانحراف من URI في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR لـ .NET! في هذا البرنامج التعليمي الشامل، سوف نتعمق في تعقيدات استخدام Aspose.OCR لـ .NET لحساب زاوية الانحراف من URI في التعرف على الصور OCR. تفتح هذه الأداة القوية إمكانيات جديدة في التعرف البصري على الأحرف، مما يجعل العملية أكثر سلاسة وكفاءة.
@@ -92,3 +98,9 @@ A1: يدعم Aspose.OCR بشكل أساسي لغات .NET، ولكن يمكنك 
 ### س5: أين يمكنني العثور على وثائق شاملة لـ Aspose.OCR لـ .NET؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/ocr/net/) للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

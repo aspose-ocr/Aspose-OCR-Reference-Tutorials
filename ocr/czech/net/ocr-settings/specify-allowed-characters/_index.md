@@ -3,10 +3,16 @@ title: Zadejte povolené znaky v rozpoznávání obrazu OCR
 linktitle: Zadejte povolené znaky v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte přesné OCR v .NET pomocí Aspose.OCR. Rozpoznejte text od obrázků bez námahy. Stáhněte si nyní pro transformativní vývojový zážitek.
-type: docs
 weight: 13
 url: /cs/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zadejte povolené znaky v rozpoznávání obrazu OCR
+
 ## Úvod
 
 neustále se vyvíjejícím prostředí technologií se optické rozpoznávání znaků (OCR) ukázalo jako transformační nástroj, který umožňuje strojům porozumět textu z obrázků. Aspose.OCR for .NET vyniká jako výkonné řešení, které poskytuje bezproblémovou integraci pro vývojáře, kteří hledají robustní možnosti OCR ve svých aplikacích .NET.
@@ -119,3 +125,9 @@ Odpověď 2: Ano, Aspose.OCR podporuje rozpoznávání v různých jazycích, ta
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou pro podporu?
 
  A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) zapojit se do komunity a získat odbornou pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

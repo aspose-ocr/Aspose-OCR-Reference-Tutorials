@@ -3,10 +3,16 @@ title: Uložit vícestránkový výsledek jako dokument v rozpoznávání obrazu
 linktitle: Uložit vícestránkový výsledek jako dokument v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte potenciál Aspose.OCR pro .NET. Pomocí tohoto komplexního podrobného průvodce snadno ukládejte vícestránkové výsledky OCR jako dokumenty.
-type: docs
 weight: 14
 url: /cs/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uložit vícestránkový výsledek jako dokument v rozpoznávání obrazu OCR
+
 ## Úvod
 
 Vítejte ve fascinujícím světě optického rozpoznávání znaků (OCR) pomocí Aspose.OCR pro .NET! V tomto tutoriálu prozkoumáme, jak využít možnosti Aspose.OCR k uložení vícestránkových výsledků OCR jako dokumentů. Ať už jste zkušený vývojář nebo s OCR teprve začínáte, tento průvodce vás provede každým krokem a zajistí, že tento mocný nástroj využijete na maximum.
@@ -104,3 +110,9 @@ Odpověď 4: Doporučené postupy pro řešení chyb naleznete v dokumentaci neb
 ### Q5: Podporuje Aspose.OCR jiné jazyky než angličtinu?
 
 A5: Ano, Aspose.OCR podporuje více jazyků. Podrobnosti o jazykové podpoře najdete v dokumentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

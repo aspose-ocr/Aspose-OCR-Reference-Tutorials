@@ -3,10 +3,16 @@ title: حساب زاوية الانحراف في Aspose.OCR لجافا
 linktitle: حساب زاوية الانحراف في Aspose.OCR لجافا
 second_title: Aspose.OCR جافا API
 description: تعزيز دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ Java. تعلم كيفية حساب زوايا الانحراف خطوة بخطوة. تحسين معالجة المستندات دون عناء.
-type: docs
 weight: 11
 url: /ar/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# حساب زاوية الانحراف في Aspose.OCR لجافا
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول حساب زوايا الانحراف في Aspose.OCR لـ Java! تلعب زوايا الانحراف دورًا حاسمًا في معالجة المستندات، خاصة عند التعامل مع الصور الممسوحة ضوئيًا. يوفر Aspose.OCR for Java حلاً قويًا لتحديد زوايا الانحراف وتصحيحها بدقة، مما يعزز الجودة الإجمالية لنتائج التعرف الضوئي على الحروف (OCR).
@@ -94,3 +100,9 @@ A3: يدعم Aspose.OCR تنسيقات الصور المختلفة، بما في
 ### س5: أين يمكنني طلب المساعدة أو مناقشة المشكلات المتعلقة بـ Aspose.OCR؟
 
  ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للتفاعل مع المجتمع والحصول على الدعم من خبراء Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

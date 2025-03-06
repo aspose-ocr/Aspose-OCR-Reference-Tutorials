@@ -3,10 +3,16 @@ title: OCR 이미지 인식의 OCR 영역 감지 모드
 linktitle: OCR 이미지 인식의 OCR 영역 감지 모드
 second_title: Aspose.OCR .NET API
 description: 효율적인 이미지 텍스트 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 향상하세요. 정확한 결과를 얻으려면 OCR 감지 영역 모드를 살펴보세요.
-type: docs
 weight: 13
 url: /ko/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식의 OCR 영역 감지 모드
+
 ## 소개
 
 빠르게 변화하는 정보 기술 세계에서 광학 문자 인식(OCR)은 이미지를 편집 및 검색 가능한 텍스트로 변환하는 데 중추적인 역할을 합니다. .NET용 Aspose.OCR은 개발자가 강력한 OCR 기능을 애플리케이션에 쉽게 통합할 수 있도록 지원합니다. 이 튜토리얼에서는 이미지 인식을 향상시키는 강력한 기능인 OCR 영역 감지 모드를 자세히 살펴보겠습니다.
@@ -91,3 +97,9 @@ A3: .NET용 Aspose.OCR은 PNG, JPEG, BMP 등 널리 사용되는 이미지 형�
 ### Q5: .NET용 Aspose.OCR에 대한 무료 평가판이 있습니까?
 
  A5: 예, Aspose.OCR for .NET의 기능을 탐색하려면[무료 평가판 라이센스](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

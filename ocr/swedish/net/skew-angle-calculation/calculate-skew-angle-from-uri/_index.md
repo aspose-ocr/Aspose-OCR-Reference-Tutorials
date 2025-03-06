@@ -3,10 +3,16 @@ title: Beräkna skevningsvinkel från URI i OCR-bildigenkänning
 linktitle: Beräkna skevningsvinkel från URI i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Utforska Aspose.OCR för .NET för att enkelt beräkna snedvinklar i OCR-bildigenkänning. Förbättra dina projekt med precision och effektivitet.
-type: docs
 weight: 12
 url: /sv/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beräkna skevningsvinkel från URI i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till Aspose.OCRs värld för .NET! I denna omfattande handledning kommer vi att fördjupa oss i krångligheterna med att använda Aspose.OCR för .NET för att beräkna snedställningsvinkeln från en URI i OCR-bildigenkänning. Detta kraftfulla verktyg öppnar upp nya möjligheter inom optisk teckenigenkänning, vilket gör processen smidigare och effektivare.
@@ -92,3 +98,9 @@ S4: Se till att du har de nödvändiga namnrymden importerade till ditt projekt,
 ### F5: Var kan jag hitta omfattande dokumentation för Aspose.OCR för .NET?
 
  A5: Se[dokumentation](https://reference.aspose.com/ocr/net/) för detaljerad information.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

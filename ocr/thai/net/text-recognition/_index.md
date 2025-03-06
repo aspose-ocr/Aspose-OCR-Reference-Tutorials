@@ -3,10 +3,16 @@ title: การรับรู้ข้อความ
 linktitle: การรับรู้ข้อความ
 second_title: Aspose.OCR .NET API
 description: ยกระดับแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการรู้จำอักขระที่แม่นยำ ค้นพบบทช่วยสอนในการรับตัวเลือก ผลลัพธ์ และรูปแบบ JSON ในการจดจำรูปภาพ OCR
-type: docs
 weight: 21
 url: /th/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรับรู้ข้อความ
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับแอปพลิเคชัน .NET ของคุณไปอีกระดับแล้วหรือยัง? ดำดิ่งสู่โลกแห่งการรู้จำข้อความด้วย Aspose.OCR และปรับปรุงโครงการของคุณด้วยการรู้จำอักขระที่แม่นยำและการประมวลผลภาพที่ราบรื่น
@@ -49,3 +55,9 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

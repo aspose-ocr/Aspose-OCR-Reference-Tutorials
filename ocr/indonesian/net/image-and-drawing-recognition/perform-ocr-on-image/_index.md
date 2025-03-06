@@ -3,10 +3,16 @@ title: Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR
 linktitle: Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka keajaiban OCR dengan Aspose.OCR untuk .NET dengan mudah mengekstrak teks dari gambar. Jelajahi tutorial untuk integrasi yang lancar.
-type: docs
 weight: 14
 url: /id/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Di dunia yang didorong oleh teknologi saat ini, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengekstraksi informasi berharga dari gambar. Aspose.OCR untuk .NET memberdayakan pengembang dengan seperangkat alat yang kuat untuk mengintegrasikan kemampuan OCR ke dalam aplikasi mereka dengan lancar. Panduan langkah demi langkah ini akan memandu Anda melalui proses melakukan OCR pada gambar menggunakan Aspose.OCR untuk .NET, mengubah gambar menjadi teks yang dapat dicari dan diedit.
@@ -98,3 +104,9 @@ A2: Ya, Anda bisa mendapatkan lisensi sementara untuk Aspose.OCR untuk menjelaja
 ### Q5: Bisakah saya mencoba Aspose.OCR untuk .NET secara gratis sebelum membeli?
 
  A5: Tentu saja, Anda dapat menjelajahi fitur-fiturnya dengan a[uji coba gratis](https://releases.aspose.com/) dari Aspose.OCR untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: التعرف على الخط في التعرف على الصور OCR
 linktitle: التعرف على الخط في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات Aspose.OCR لـ .NET في التعرف على الخطوط في التعرف على الصور OCR. دليل المطور لاستخراج النص بسلاسة من الصور.
-type: docs
 weight: 14
 url: /ar/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الخط في التعرف على الصور OCR
+
 ## مقدمة
 
 في مشهد التكنولوجيا المتطور باستمرار، أصبح التعرف الضوئي على الحروف (OCR) أداة محورية تعمل على تحويل الصور بسلاسة إلى نص قابل للتحرير وقابل للبحث. يظهر Aspose.OCR for .NET باعتباره المرشح الأوفر حظًا في هذا المجال، حيث يوفر إمكانات قوية للمطورين. في هذا الدليل الشامل، سوف نتعمق في تعقيدات استخدام Aspose.OCR لـ .NET للتعرف على الخطوط في التعرف الضوئي على الصور (OCR).
@@ -98,3 +104,9 @@ Console.WriteLine("RecognizeLine executed successfully");
 ### س5: ما هي متطلبات النظام لـ Aspose.OCR لـ .NET؟
 
  ج5: راجع[توثيق](https://reference.aspose.com/ocr/net/) لمتطلبات النظام الشاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

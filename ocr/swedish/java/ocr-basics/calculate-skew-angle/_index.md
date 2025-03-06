@@ -3,10 +3,16 @@ title: Beräkna skevvinkel i Aspose.OCR för Java
 linktitle: Beräkna skevvinkel i Aspose.OCR för Java
 second_title: Aspose.OCR Java API
 description: Förbättra OCR-noggrannheten med Aspose.OCR för Java. Lär dig att beräkna snedvinklar steg för steg. Förbättra dokumentbehandlingen utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beräkna skevvinkel i Aspose.OCR för Java
+
 ## Introduktion
 
 Välkommen till vår omfattande guide om beräkning av snedvinklar i Aspose.OCR för Java! Skevvinklar spelar en avgörande roll vid dokumentbearbetning, särskilt när man hanterar skannade bilder. Aspose.OCR för Java tillhandahåller en kraftfull lösning för att noggrant bestämma och korrigera snedställningsvinklar, vilket förbättrar den övergripande kvaliteten på dina OCR-resultat (Optical Character Recognition).
@@ -94,3 +100,9 @@ S3: Aspose.OCR stöder olika bildformat, inklusive PNG, JPEG och TIFF. Se till a
 ### F5: Var kan jag söka hjälp eller diskutera frågor relaterade till Aspose.OCR?
 
  A5: Besök[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) att engagera sig i samhället och få stöd från Aspose-experter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

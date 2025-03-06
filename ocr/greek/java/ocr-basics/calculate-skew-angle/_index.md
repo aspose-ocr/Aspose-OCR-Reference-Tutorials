@@ -3,10 +3,16 @@ title: Υπολογισμός γωνίας λοξής στο Aspose.OCR για J
 linktitle: Υπολογισμός γωνίας λοξής στο Aspose.OCR για Java
 second_title: Aspose.OCR Java API
 description: Βελτιώστε την ακρίβεια OCR με το Aspose.OCR για Java. Μάθετε να υπολογίζετε τις λοξές γωνίες βήμα προς βήμα. Βελτιώστε την επεξεργασία εγγράφων χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπολογισμός γωνίας λοξής στο Aspose.OCR για Java
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τον υπολογισμό γωνιών λοξής στο Aspose.OCR για Java! Οι λοξές γωνίες παίζουν καθοριστικό ρόλο στην επεξεργασία εγγράφων, ειδικά όταν πρόκειται για σαρωμένες εικόνες. Το Aspose.OCR για Java παρέχει μια ισχυρή λύση για τον ακριβή προσδιορισμό και τη διόρθωση των γωνιών κλίσης, βελτιώνοντας τη συνολική ποιότητα των αποτελεσμάτων σας OCR (οπτική αναγνώριση χαρακτήρων).
@@ -94,3 +100,9 @@ A3: Το Aspose.OCR υποστηρίζει διάφορες μορφές εικ�
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συζητήσω ζητήματα που σχετίζονται με το Aspose.OCR;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) να συνεργαστείτε με την κοινότητα και να λάβετε υποστήριξη από ειδικούς της Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

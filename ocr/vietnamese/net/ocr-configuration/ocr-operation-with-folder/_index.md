@@ -3,10 +3,16 @@ title: OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
 linktitle: OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspose.OCR. Trích xuất văn bản dễ dàng từ hình ảnh.
-type: docs
 weight: 11
 url: /vi/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới Nhận dạng ký tự quang học (OCR) bằng Aspose.OCR cho .NET! Nếu bạn đang tìm cách trích xuất văn bản từ hình ảnh một cách liền mạch trong các ứng dụng .NET của mình thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn quy trình nhận dạng hình ảnh OCR với các thư mục, tận dụng các khả năng mạnh mẽ của Aspose.OCR.
@@ -118,3 +124,9 @@ Chúc mừng! Bạn đã học thành công cách triển khai nhận dạng hì
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

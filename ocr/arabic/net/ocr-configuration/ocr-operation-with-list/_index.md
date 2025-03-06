@@ -3,10 +3,16 @@ title: عملية OCRO مع القائمة في التعرف على الصور O
 linktitle: عملية OCRO مع القائمة في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات Aspose.OCR لـ .NET. قم بإجراء التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) بسهولة باستخدام القوائم. تعزيز الإنتاجية واستخراج البيانات في تطبيقاتك.
-type: docs
 weight: 13
 url: /ar/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عملية OCRO مع القائمة في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في برنامجنا التعليمي المتعمق حول الاستفادة من قوة Aspose.OCR لـ .NET لإجراء التعرف على الصور بواسطة التعرف الضوئي على الحروف (OCR) باستخدام القوائم. يعد التعرف الضوئي على الحروف (OCR) تقنية بالغة الأهمية تعمل على تحويل أنواع مختلفة من المستندات - مثل المستندات الورقية الممسوحة ضوئيًا أو ملفات PDF أو الصور - إلى بيانات قابلة للتحرير وقابلة للبحث.
@@ -105,3 +111,10 @@ for (int i = 0; i < result.Length; i++)
 ### س5: ماذا لو واجهت مشكلات أو كانت لدي أسئلة محددة أثناء التنفيذ؟
 
  ج5: لا تتردد في طلب المساعدة بشأن[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للحصول على الدعم الفوري من المجتمع والخبراء.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

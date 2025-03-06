@@ -3,10 +3,16 @@ title: Aspose.OCR'da OCR için Dikdörtgenler Hazırlama
 linktitle: Aspose.OCR'da OCR için Dikdörtgenler Hazırlama
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin. Verimli OCR özellikleriyle Java uygulamalarınızı geliştirin.
-type: docs
 weight: 13
 url: /tr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da OCR için Dikdörtgenler Hazırlama
+
 ## giriiş
 
 Teknolojinin hızlı dünyasında görüntülerden metin çıkarmak çok önemli bir görev haline geldi ve sayısız olasılığa kapı açıldı. Aspose.OCR for Java, Optik Karakter Tanıma'nın (OCR) karmaşık sürecini basitleştiren güçlü bir araç olarak öne çıkıyor. Bu kapsamlı kılavuzda, Aspose.OCR for Java'nın potansiyelinden yararlanmanız ve metin tanımayı Java uygulamalarınıza sorunsuz bir şekilde entegre edebilmeniz için gerekli adımlarda size yol göstereceğiz.
@@ -112,3 +118,9 @@ A2: Evet, yapabilirsin. Ziyaret edin[satın alma sayfası](https://purchase.aspo
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var?
 
  Cevap5: Aspose.OCR topluluğunu ziyaret edin[forum](https://forum.aspose.com/c/ocr/16) Destek ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

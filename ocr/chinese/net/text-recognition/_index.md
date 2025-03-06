@@ -3,10 +3,16 @@ title: 文字识别
 linktitle: 文字识别
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 提升您的 .NET 应用程序以实现精确的字符识别。了解有关在 OCR 图像识别中获取选择、结果和 JSON 格式的教程。
-type: docs
 weight: 21
 url: /zh/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文字识别
+
 ## 介绍
 
 您准备好将您的 .NET 应用程序提升到一个新的水平吗？使用 Aspose.OCR 深入了解文本识别的世界，并通过准确的字符识别和无缝图像处理增强您的项目。
@@ -49,3 +55,9 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

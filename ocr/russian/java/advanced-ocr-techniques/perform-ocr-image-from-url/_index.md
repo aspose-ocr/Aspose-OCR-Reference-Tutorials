@@ -3,10 +3,16 @@ title: Выполнение оптического распознавания и
 linktitle: Выполнение оптического распознавания изображения по URL-адресу в Aspose.OCR для Java
 second_title: API Aspose.OCR Java
 description: Разблокируйте бесшовное извлечение текста изображения в Java с помощью Aspose.OCR. Высокоточное распознавание текста с простой интеграцией.
-type: docs
 weight: 11
 url: /ru/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выполнение оптического распознавания изображения по URL-адресу в Aspose.OCR для Java
+
 ## Введение
 
 Добро пожаловать в наше пошаговое руководство по выполнению оптического распознавания символов (OCR) изображения из URL-адреса с использованием Aspose.OCR для Java. Это руководство разработано, чтобы помочь вам легко интегрировать Aspose.OCR в ваши приложения Java, что позволит вам легко извлекать текст из изображений. Aspose.OCR — это мощная библиотека оптического распознавания символов, которая поддерживает различные форматы изображений, что делает ее ценным инструментом для приложений, требующих извлечения текста.
@@ -125,3 +131,10 @@ A1: Aspose.OCR обеспечивает высокую точность расп
 ### Вопрос 5: Существует ли бесплатная пробная версия Aspose.OCR для Java?
 
  О5: Да, изучите возможности Aspose.OCR с помощью бесплатной пробной версии, доступной по адресу[Releases.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

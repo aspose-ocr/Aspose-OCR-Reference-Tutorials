@@ -3,10 +3,16 @@ title: Teknik OCR Tingkat Lanjut
 linktitle: Teknik OCR Tingkat Lanjut
 second_title: Aspose.OCR Java API
 description: Lakukan OCR pada gambar dengan mudah menggunakan Aspose.OCR untuk Java. Ekstrak teks secara mulus dengan akurasi tinggi. Sempurnakan proyek Java Anda dengan pengenalan teks serbaguna.
-type: docs
 weight: 22
 url: /id/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teknik OCR Tingkat Lanjut
+
 ## Perkenalan
 
 Apakah Anda siap untuk membawa proyek Java Anda ke level berikutnya? Selami dunia teknik OCR tingkat lanjut dengan Aspose.OCR untuk Java. Dalam panduan komprehensif ini, kami akan menjelajahi berbagai tutorial untuk memberdayakan Anda dalam mengekstraksi teks dari gambar dengan mudah.
@@ -55,3 +61,9 @@ Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langka
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
 ### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

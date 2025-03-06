@@ -3,10 +3,16 @@ title: OCR végrehajtása az URL-ből származó képen az Aspose.OCR for Java-b
 linktitle: OCR végrehajtása az URL-ből származó képen az Aspose.OCR for Java-ban
 second_title: Aspose.OCR Java API
 description: Oldja fel a zökkenőmentes képszöveg-kivonást Java nyelven az Aspose.OCR segítségével. Nagy pontosságú OCR egyszerű integrációval.
-type: docs
 weight: 11
 url: /hu/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR végrehajtása az URL-ből származó képen az Aspose.OCR for Java-ban
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban az optikai karakterfelismerés (OCR) végrehajtásáról egy URL-ről származó képen az Aspose.OCR for Java használatával. Ennek az oktatóanyagnak az a célja, hogy segítse az Aspose.OCR zökkenőmentes integrálását a Java-alkalmazásokba, lehetővé téve a szövegek könnyű kinyerését a képekből. Az Aspose.OCR egy hatékony OCR-könyvtár, amely különféle képformátumokat támogat, így értékes eszköz a szövegkivonást igénylő alkalmazások számára.
@@ -125,3 +131,10 @@ Ismételje meg ezeket a lépéseket az Aspose.OCR Java-alkalmazásba való integ
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.OCR for Java számára?
 
  5. válasz: Igen, fedezze fel az Aspose.OCR szolgáltatásait a címen elérhető ingyenes próbaverzióval[releases.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

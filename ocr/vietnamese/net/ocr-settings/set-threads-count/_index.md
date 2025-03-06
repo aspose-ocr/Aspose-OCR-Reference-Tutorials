@@ -3,10 +3,16 @@ title: Đặt số lượng chủ đề trong nhận dạng hình ảnh OCR
 linktitle: Đặt số lượng chủ đề trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá hiệu quả OCR trong .NET. Đặt số lượng luồng dễ dàng với Aspose.OCR. Tăng cường độ chính xác và tốc độ.
-type: docs
 weight: 11
 url: /vi/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt số lượng chủ đề trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.OCR dành cho .NET, nơi công nghệ Nhận dạng Ký tự Quang học (OCR) tiên tiến đáp ứng khả năng tích hợp liền mạch vào các ứng dụng .NET của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào một khía cạnh cụ thể: thiết lập Số lượng luồng trong Nhận dạng hình ảnh OCR. Tính năng mạnh mẽ này tối ưu hóa hiệu suất của các tác vụ OCR của bạn, đảm bảo hiệu quả và độ chính xác.
@@ -89,3 +95,9 @@ Tóm lại, việc thiết lập Số lượng luồng trong Nhận dạng hình
 ### Q5: Cần hỗ trợ hoặc muốn kết nối với cộng đồng?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và tương tác với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

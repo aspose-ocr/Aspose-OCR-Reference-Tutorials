@@ -3,10 +3,16 @@ title: 在 Aspose.OCR for Java 中识别线条
 linktitle: 在 Aspose.OCR for Java 中识别线条
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别功能。集成方便，精度高。
-type: docs
 weight: 14
 url: /zh/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR for Java 中识别线条
+
 ## 介绍
 
 您是否希望通过强大的光学字符识别 (OCR) 功能来增强您的 Java 应用程序？别再犹豫了！ Aspose.OCR for Java 是一个尖端的 OCR 库，可让您将 OCR 功能无缝集成到您的 Java 应用程序中。在本教程中，我们将重点关注使用 Aspose.OCR for Java 识别图像中的线条。
@@ -111,3 +117,9 @@ A4：当然！ Aspose.OCR 旨在无缝集成到桌面和 Web 应用程序中。
 ### Q5：Aspose.OCR 有试用版吗？
 
  A5：是的，您可以通过免费试用来探索 Aspose.OCR 的功能。访问[这里](https://releases.aspose.com/)了解更多信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

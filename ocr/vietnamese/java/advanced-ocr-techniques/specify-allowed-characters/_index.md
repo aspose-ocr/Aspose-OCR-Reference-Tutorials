@@ -3,10 +3,16 @@ title: Chỉ định các ký tự được phép trong Aspose.OCR
 linktitle: Chỉ định các ký tự được phép trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
-type: docs
 weight: 15
 url: /vi/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định các ký tự được phép trong Aspose.OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đã trở thành một thành phần quan trọng đối với các doanh nghiệp và nhà phát triển đang tìm cách trích xuất thông tin có ý nghĩa từ hình ảnh. Aspose.OCR cho Java nổi bật như một công cụ mạnh mẽ, cung cấp khả năng tích hợp liền mạch và nhận dạng văn bản hiệu quả. Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình khai thác tiềm năng của Aspose.OCR cho Java, đảm bảo hành trình suôn sẻ từ cài đặt đến triển khai thực tế.
@@ -105,3 +111,9 @@ Trả lời:4 Aspose.OCR luôn được cập nhật để đảm bảo khả n�
 ### Câu hỏi 5: Có bất kỳ tính năng OCR bổ sung nào trong Aspose.OCR không?
 
 Câu trả lời 5: Khám phá các tính năng và tùy chọn toàn diện có sẵn trong tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

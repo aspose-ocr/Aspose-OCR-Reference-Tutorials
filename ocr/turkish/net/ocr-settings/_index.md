@@ -3,10 +3,16 @@ title: OCR Ayarları
 linktitle: OCR Ayarları
 second_title: Aspose.OCR .NET API'si
 description: OCR Ayarları Eğitimlerimizle Aspose.OCR for .NET'in gücünün kilidini açın. Görüntülerdeki metin tanıma için doğruluğu, hızı ve özelleştirmeyi geliştirmeyi öğrenin.
-type: docs
 weight: 26
 url: /tr/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Ayarları
+
 
 ## giriiş
 
@@ -50,3 +56,9 @@ Aspose.OCR ile .NET'te kusursuz OCR'nin kilidini açın. Resimlerdeki metni zahm
 Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Verimli, doğru ve geliştirici dostu.
 ### [OCR Görüntü Tanıma'da Farklı Dillerle Çalışmak](./working-with-different-languages/)
 Aspose.OCR for .NET ile çok dilli OCR'nin büyüsünün kilidini açın. Çeşitli dillerdeki metinleri zahmetsizce çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

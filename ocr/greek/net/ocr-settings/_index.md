@@ -3,10 +3,16 @@ title: Ρυθμίσεις OCR
 linktitle: Ρυθμίσεις OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τη δύναμη του Aspose.OCR για .NET με τα εκπαιδευτικά προγράμματα ρυθμίσεων OCR. Μάθετε να βελτιώνετε την ακρίβεια, την ταχύτητα και την προσαρμογή για την αναγνώριση κειμένου στις εικόνες.
-type: docs
 weight: 26
 url: /el/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ρυθμίσεις OCR
+
 
 ## Εισαγωγή
 
@@ -50,3 +56,9 @@ url: /el/net/ocr-settings/
 Εξερευνήστε προηγμένες δυνατότητες OCR με το Aspose.OCR για .NET. Αποτελεσματικό, ακριβές και φιλικό προς τους προγραμματιστές.
 ### [Εργασία με διαφορετικές γλώσσες στην αναγνώριση εικόνας OCR](./working-with-different-languages/)
 Ξεκλειδώστε τη μαγεία του πολύγλωσσου OCR με το Aspose.OCR για .NET. Εξαγωγή κειμένου χωρίς κόπο σε διάφορες γλώσσες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

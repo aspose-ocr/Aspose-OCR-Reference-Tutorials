@@ -3,10 +3,16 @@ title: Πώς να ορίσετε άδεια χρήσης για το Aspose.OCR
 linktitle: Πώς να ορίσετε άδεια χρήσης για το Aspose.OCR σε Java
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για Java με αυτόν τον οδηγό βήμα προς βήμα. Ρυθμίστε την άδειά σας χωρίς κόπο και βελτιώστε τις δυνατότητές σας OCR.
-type: docs
 weight: 10
 url: /el/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πώς να ορίσετε άδεια χρήσης για το Aspose.OCR σε Java
+
 ## Εισαγωγή
 
 Στο συνεχώς εξελισσόμενο τοπίο της τεχνολογίας, η Οπτική Αναγνώριση Χαρακτήρων (OCR) έχει γίνει ένα βασικό εργαλείο για την εξαγωγή πληροφοριών κειμένου από εικόνες. Το Aspose.OCR για Java ξεχωρίζει ως μια ισχυρή λύση OCR, δίνοντας τη δυνατότητα στους προγραμματιστές να ενσωματώνουν απρόσκοπτα τις δυνατότητες OCR στις εφαρμογές Java τους. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία ρύθμισης της άδειας χρήσης Aspose.OCR σε Java, διασφαλίζοντας ότι αξιοποιείτε πλήρως τις δυνατότητες αυτού του ισχυρού εργαλείου.
@@ -78,3 +84,9 @@ A4: Ναι, το Aspose.OCR μπορεί να χρησιμοποιηθεί τό�
 ### Ε5: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.OCR για Java;
 
  A5: Επισκεφθείτε το[Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

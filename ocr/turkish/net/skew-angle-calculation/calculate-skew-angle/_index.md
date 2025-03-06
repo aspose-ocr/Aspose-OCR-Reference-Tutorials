@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Eğim Açısını Hesaplama
 linktitle: OCR Görüntü Tanıma'da Eğim Açısını Hesaplama
 second_title: Aspose.OCR .NET API'si
 description: C# uygulamalarınızda doğru metin tanıma için güçlü bir OCR çözümü olan Aspose.OCR for .NET'i keşfedin.
-type: docs
 weight: 10
 url: /tr/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Eğim Açısını Hesaplama
+
 ## giriiş
 
 Geliştiricilerin optik karakter tanıma (OCR) yeteneklerini .NET uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanıyan güçlü bir araç olan Aspose.OCR for .NET dünyasına hoş geldiniz. Bu kapsamlı kılavuzda belirli bir kullanım durumunu ele alacağız: OCR görüntü tanımada eğrilik açısının hesaplanması. Bu eğitim hem acemi hem de deneyimli geliştiriciler için tasarlanmış olup, Aspose.OCR'ın tüm potansiyelinden yararlanmanızı sağlamak için adım adım yol gösterici bilgiler sunmaktadır.
@@ -105,3 +111,9 @@ A2: Kesinlikle! Aspose.OCR geniş bir dil yelpazesini destekleyerek küresel uyg
 ### S5: Aspose.OCR için ücretsiz deneme sürümü mevcut mu?
 
 A5: Kesinlikle! Özellikleri ile keşfedin[ücretsiz deneme sürümü](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

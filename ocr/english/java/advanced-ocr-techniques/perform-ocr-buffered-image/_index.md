@@ -3,10 +3,16 @@ title: Performing OCR on BufferedImage in Aspose.OCR for Java
 linktitle: Performing OCR on BufferedImage in Aspose.OCR for Java
 second_title: Aspose.OCR Java API
 description: Perform OCR on BufferedImage effortlessly with Aspose.OCR for Java. Extract text from images seamlessly. Download now for a versatile text recognition experience.
-type: docs
 weight: 10
 url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Performing OCR on BufferedImage in Aspose.OCR for Java
+
 ## Introduction
 
 Welcome to our comprehensive guide on performing Optical Character Recognition (OCR) on BufferedImage using Aspose.OCR for Java. Aspose.OCR is a powerful Java library that allows developers to seamlessly integrate OCR capabilities into their applications, making text extraction from images a breeze.
@@ -106,3 +112,10 @@ A4: Yes, you can explore a free trial version [here](https://releases.aspose.com
 ### Q5: Where can I get community support for Aspose.OCR?
 
 A5: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

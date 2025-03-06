@@ -3,10 +3,16 @@ title: OCR-művelet nyelvválasztással az OCR képfelismerésben
 linktitle: OCR-művelet nyelvválasztással az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel a hatékony OCR-képességeket az Aspose.OCR for .NET segítségével. Zökkenőmentesen vonja ki a szöveget a képekből.
-type: docs
 weight: 12
 url: /hu/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-művelet nyelvválasztással az OCR képfelismerésben
+
 ## Bevezetés
 
 A képfelismerés és az optikai karakterfelismerés (OCR) világában az Aspose.OCR for .NET hatékony eszköz a fejlesztők számára, akik pontos és hatékony szövegkivonást keresnek a képekből. Ez a részletes útmutató végigvezeti az OCR képfelismerés folyamatán az Aspose.OCR for .NET használatával, a nyelvválasztási műveletre összpontosítva.
@@ -109,3 +115,10 @@ A2: Abszolút! Állítsa be az olyan paramétereket, mint a ferde szög, vonalfe
 ### 5. kérdés: Hogyan vásárolhatom meg az Aspose.OCR-t .NET-hez?
 
  A5: A vásárláshoz keresse fel a[vásárlási oldal](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Perhitungan Sudut Kemiringan
 linktitle: Perhitungan Sudut Kemiringan
 second_title: Aspose.OCR .NET API
 description: Buka rahasia penghitungan sudut kemiringan yang akurat dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Tingkatkan presisi dan efisiensi dengan mudah dalam proyek Anda.
-type: docs
 weight: 20
 url: /id/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Perhitungan Sudut Kemiringan
+
 ## Perkenalan
 
 Apakah Anda mengupayakan pengenalan teks yang sempurna dalam aplikasi C# Anda? Tidak perlu mencari lagi! Tutorial Perhitungan Sudut Kemiringan kami, yang didukung oleh Aspose.OCR untuk .NET, akan memandu Anda melalui proses rumit dengan kemahiran.
@@ -34,3 +40,9 @@ Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks akurat 
 Bebaskan kecanggihan Aspose.OCR untuk .NET, solusi tangguh untuk pengenalan gambar. Pelajari cara menghitung sudut kemiringan dengan mudah.
 ### [Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR](./calculate-skew-angle-from-uri/)
 Jelajahi Aspose.OCR untuk .NET untuk menghitung sudut kemiringan dengan mudah dalam pengenalan gambar OCR. Tingkatkan proyek Anda dengan presisi dan efisiensi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

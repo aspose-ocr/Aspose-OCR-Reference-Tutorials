@@ -3,10 +3,16 @@ title: التعرف على الصور والرسم
 linktitle: التعرف على الصور والرسم
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لدقة التعرف على الصور باستخدام تقنية التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ .NET. يمكنك استخراج النص من الصور بسهولة، سواء كان ذلك سطورًا أو فقرات أو تدفقات كاملة.
-type: docs
 weight: 22
 url: /ar/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الصور والرسم
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بلعبة التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR)؟ Aspose.OCR for .NET هو مفتاحك لفتح دقة استخراج النص من الصور. في هذا الدليل الشامل، سنستكشف العديد من البرامج التعليمية التي تتعمق في جوانب مختلفة للتعرف على الصور والرسم باستخدام Aspose.OCR for .NET. دعونا نتعمق ونطلق العنان لقوة استخراج النص بسلاسة.
@@ -48,3 +54,9 @@ url: /ar/net/image-and-drawing-recognition/
 أطلق العنان لإمكانات Aspose.OCR لـ .NET في التعرف على الخطوط في التعرف على الصور OCR. دليل المطور لاستخراج النص بسلاسة من الصور.
 ### [قم بإجراء التعرف الضوئي على الحروف (OCR) على الصورة في التعرف الضوئي على الصور (OCR).](./perform-ocr-on-image/)
 أطلق العنان لسحر التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ .NET واستخرج النص من الصور دون عناء. استكشف البرنامج التعليمي للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

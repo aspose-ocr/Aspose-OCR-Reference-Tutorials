@@ -1,12 +1,17 @@
 ---
 title: जावा के लिए Aspose.OCR के व्यापक ट्यूटोरियल और उदाहरण
 linktitle: जावा ट्यूटोरियल के लिए Aspose.OCR
-type: docs
 weight: 10
 url: /hi/java/
 description: जावा के लिए Aspose.OCR की शक्ति अनलॉक करें! ओसीआर की मूल बातें, संचालन और उन्नत तकनीकें सीखें। अपना लाइसेंस सेट करें, क्षेत्रों का पता लगाएं और पाठ पहचान को सहजता से बढ़ाएं।
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.OCR के व्यापक ट्यूटोरियल और उदाहरण
+
 
 ## परिचय
 
@@ -32,3 +37,9 @@ is_root: true
 हमारे व्यापक ओसीआर ट्यूटोरियल के साथ जावा के लिए Aspose.OCR की क्षमता को अनलॉक करें। बस कुछ ही चरणों में डिटेक्ट एरिया मोड, भाषा चयन, पीडीएफ और टीआईएफएफ पहचान सीखें!
 ### [उन्नत ओसीआर तकनीकें](./advanced-ocr-techniques/)
 Java के लिए Aspose.OCR का उपयोग करके छवियों पर सहजता से OCR निष्पादित करें। उच्च सटीकता के साथ पाठ को निर्बाध रूप से निकालें। बहुमुखी पाठ पहचान के साथ अपने जावा प्रोजेक्ट्स को बेहतर बनाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

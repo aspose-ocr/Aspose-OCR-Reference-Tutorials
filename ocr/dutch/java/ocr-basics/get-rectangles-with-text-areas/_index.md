@@ -3,10 +3,16 @@ title: Rechthoeken verkrijgen met tekstgebieden in Aspose.OCR
 linktitle: Rechthoeken verkrijgen met tekstgebieden in Aspose.OCR
 second_title: Aspose.OCR Java-API
 description: Ontgrendel de kracht van Aspose.OCR voor Java. Leer hoe u naadloos tekst uit afbeeldingen kunt extraheren in deze stapsgewijze handleiding. Download nu voor efficiënte tekstherkenning.
-type: docs
 weight: 12
 url: /nl/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechthoeken verkrijgen met tekstgebieden in Aspose.OCR
+
 ## Invoering
 
 Wilt u krachtige mogelijkheden voor optische tekenherkenning (OCR) integreren in uw Java-toepassing? Aspose.OCR voor Java is uw ideale oplossing voor nauwkeurige en efficiënte tekstextractie uit afbeeldingen. Deze tutorial leidt u door het proces van het verkrijgen van rechthoeken met tekstgebieden met behulp van Aspose.OCR, zodat u het volledige potentieel van deze Java OCR-bibliotheek kunt benutten.
@@ -105,3 +111,10 @@ A1: Ja, Aspose.OCR is compatibel met Java 11 en latere versies.
 ### V5: Ondersteunt Aspose.OCR multithreading?
 
 A5: Ja, Aspose.OCR ondersteunt multithreading voor betere prestaties in gelijktijdige omgevingen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR画像認識で認識された文字の選択肢を取得する
 linktitle: OCR画像認識で認識された文字の選択肢を取得する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR を使用して .NET アプリケーションを強化し、正確な文字認識を実現します。ステップバイステップのガイドに従って、画像認識で認識された文字の選択肢を取得します。
-type: docs
 weight: 10
 url: /ja/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識で認識された文字の選択肢を取得する
+
 ## 導入
 
 今日のデジタル時代では光学式文字認識 (OCR) の能力を活用することが非常に重要であり、Aspose.OCR for .NET は正確な文字認識のための堅牢なソリューションとして際立っています。このチュートリアルでは、認識された文字の選択肢を取得するという特定の機能について詳しく説明します。このガイドを終えるまでに、この機能を .NET アプリケーションにシームレスに統合できるようになります。
@@ -112,3 +118,9 @@ A2: はい、Aspose.OCR for .NET を Web アプリケーションに統合でき
 ### Q5: Aspose.OCR for .NET の無料トライアルはありますか?
 
  A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/) Aspose.OCR for .NET の機能を体験します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

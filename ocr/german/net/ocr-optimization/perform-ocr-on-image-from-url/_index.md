@@ -3,10 +3,16 @@ title: Führen Sie in der OCR-Bilderkennung eine OCR für Bilder von einer URL d
 linktitle: Führen Sie in der OCR-Bilderkennung eine OCR für Bilder von einer URL durch
 second_title: Aspose.OCR .NET API
 description: Entdecken Sie die nahtlose OCR-Integration mit Aspose.OCR für .NET. Erkennen Sie Text präzise aus Bildern.
-type: docs
 weight: 10
 url: /de/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Führen Sie in der OCR-Bilderkennung eine OCR für Bilder von einer URL durch
+
 ## Einführung
 
 Im Bereich der optischen Zeichenerkennung (OCR) zeichnet sich Aspose.OCR für .NET als leistungsstarkes Tool aus, mit dem Entwickler Textinhalte präzise aus Bildern extrahieren können. Wenn Sie OCR-Funktionen in Ihre .NET-Anwendung integrieren und mühelos Texterkennung durchführen möchten, führt Sie diese Schritt-für-Schritt-Anleitung durch den Prozess der Durchführung von OCR für ein Bild von einer URL.
@@ -120,3 +126,9 @@ A2: Auf jeden Fall! Aspose.OCR bietet Flexibilität bei der Erkennung von einzei
 ### F5: Wo finde ich Support oder Community-Diskussionen zu Aspose.OCR?
 
  A5: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für die Unterstützung und das Engagement in der Gemeinschaft.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

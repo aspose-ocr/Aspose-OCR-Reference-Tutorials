@@ -3,10 +3,16 @@ title: Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR
 linktitle: Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá Aspose.OCR cho .NET, một giải pháp OCR mạnh mẽ để nhận dạng văn bản liền mạch trong hình ảnh.
-type: docs
 weight: 11
 url: /vi/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong thế giới lập trình năng động, nhận dạng văn bản hiệu quả là yếu tố thay đổi cuộc chơi và Aspose.OCR cho .NET nổi lên như một giải pháp mạnh mẽ. Hướng dẫn này đi sâu vào các sắc thái của việc sử dụng Aspose.OCR để khai thác tiềm năng nhận dạng hình ảnh một cách liền mạch.
@@ -106,3 +112,9 @@ Câu trả lời 1: Có, Aspose.OCR hỗ trợ nhận dạng văn bản đa ngô
 ### Câu hỏi 5: Tôi có thể xin giấy phép tạm thời cho Aspose.OCR không?
 
  Câu trả lời 5: Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

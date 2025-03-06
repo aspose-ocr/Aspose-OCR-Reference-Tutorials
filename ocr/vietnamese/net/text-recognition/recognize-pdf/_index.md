@@ -3,10 +3,16 @@ title: Nhận dạng PDF trong Nhận dạng hình ảnh OCR
 linktitle: Nhận dạng PDF trong Nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
-type: docs
 weight: 14
 url: /vi/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng PDF trong Nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới Nhận dạng ký tự quang học (OCR) với Aspose.OCR cho .NET! Nếu bạn mong muốn khai thác các khả năng của OCR trong các ứng dụng .NET của mình thì bạn đã đến đúng nơi. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách nhận dạng văn bản trong PDF bằng thư viện Aspose.OCR. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn qua quy trình, đảm bảo rằng bạn có thể dễ dàng tích hợp chức năng OCR vào dự án của mình.
@@ -101,3 +107,9 @@ A2: Chắc chắn rồi! Aspose.OCR tích hợp liền mạch vào cả ứng d�
 ### Câu hỏi 5: Tôi có thể mua Aspose.OCR cho .NET ở đâu?
 
  A5: Bạn có thể mua sản phẩm từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

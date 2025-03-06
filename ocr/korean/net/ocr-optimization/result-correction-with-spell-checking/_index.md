@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정
 linktitle: OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 철자를 수정하고, 사전을 사용자 정의하고, 오류 없는 텍스트 인식을 쉽게 달성할 수 있습니다.
-type: docs
 weight: 13
 url: /ko/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정
+
 ## 소개
 
 OCR(광학 문자 인식) 영역에서는 이미지에서 의미 있는 정보를 추출하려면 정확한 결과를 얻는 것이 중요합니다. 일반적인 과제 중 하나는 인식 프로세스에서 철자가 틀린 단어를 처리하는 것입니다. 다행히 .NET용 Aspose.OCR은 맞춤법 검사를 통해 OCR 결과를 향상시키는 강력한 솔루션을 제공합니다.
@@ -136,3 +142,9 @@ A4: 물론이죠! 이 튜토리얼에서는 사용자가 제공한 사전을 사
 ### Q5: Aspose.OCR에 대한 지원은 어디서 구할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 지역 사회의 지원과 지도를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

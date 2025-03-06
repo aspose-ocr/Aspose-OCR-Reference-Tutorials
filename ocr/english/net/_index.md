@@ -1,12 +1,17 @@
 ---
 title: Comprehensive Tutorials and Examples of Aspose.OCR for .NET 
 linktitle: Aspose.OCR for .NET Tutorials
-type: docs
 weight: 10
 url: /net/
 description: Unlock precision in OCR image recognition with Aspose.OCR for .NET. Explore tutorials on skew angle calculation, text recognition, OCR configuration, and optimization.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comprehensive Tutorials and Examples of Aspose.OCR for .NET
+
 
 ## Introduction
 
@@ -51,3 +56,9 @@ Unlock OCR capabilities in .NET apps with Aspose.OCR. Explore tutorials for arch
 Maximize OCR accuracy with Aspose.OCR for .NET tutorials. Perform OCR on images, prepare rectangles, apply preprocessing filters, correct results with spell checking, and save multipage results effortlessly.
 ### [OCR Settings](./ocr-settings/)
 Unlock the power of Aspose.OCR for .NET with our OCR Settings Tutorials. Learn to enhance accuracy, speed, and customization for text recognition in images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

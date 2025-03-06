@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
 linktitle: OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR ile .NET'te kusursuz OCR'nin kilidini açın. Resimlerdeki metni zahmetsizce tanıyın. Dönüştürücü bir geliştirme deneyimi için hemen indirin.
-type: docs
 weight: 13
 url: /tr/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerdeki metni anlamasını sağlayan dönüştürücü bir araç olarak ortaya çıktı. Aspose.OCR for .NET, .NET uygulamalarında güçlü OCR özellikleri arayan geliştiricilere kusursuz entegrasyon sağlayan güçlü bir çözüm olarak öne çıkıyor.
@@ -119,3 +125,9 @@ C2: Evet, Aspose.OCR çeşitli dillerde tanımayı destekleyerek çeşitli uygul
 ### S5: Nereden yardım alabilirim veya destek için toplulukla bağlantı kurabilirim?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) toplulukla etkileşime geçmek ve uzman yardımı almak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

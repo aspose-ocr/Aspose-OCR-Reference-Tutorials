@@ -3,10 +3,16 @@ title: Aspose.OCR for Java'da Çizgileri Tanıma
 linktitle: Aspose.OCR for Java'da Çizgileri Tanıma
 second_title: Aspose.OCR Java API'si
 description: Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
-type: docs
 weight: 14
 url: /tr/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for Java'da Çizgileri Tanıma
+
 ## giriiş
 
 Java uygulamanızı güçlü Optik Karakter Tanıma (OCR) özellikleriyle geliştirmek mi istiyorsunuz? Başka yerde arama! Aspose.OCR for Java, OCR işlevselliğini Java uygulamalarınıza sorunsuz bir şekilde entegre etmenize olanak tanıyan son teknoloji ürünü bir OCR kitaplığıdır. Bu derste Aspose.OCR for Java kullanarak görüntülerdeki çizgileri tanımaya odaklanacağız.
@@ -111,3 +117,9 @@ A4: Kesinlikle! Aspose.OCR, hem masaüstü hem de web uygulamalarına kusursuz e
 ### S5: Aspose.OCR'ın deneme sürümü mevcut mu?
 
  Cevap5: Evet, Aspose.OCR'ın yeteneklerini ücretsiz denemeyle keşfedebilirsiniz. Ziyaret etmek[Burada](https://releases.aspose.com/) daha fazla bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

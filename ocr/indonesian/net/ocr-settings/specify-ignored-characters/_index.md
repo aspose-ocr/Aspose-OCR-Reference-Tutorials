@@ -3,10 +3,16 @@ title: Tentukan Karakter yang Diabaikan dalam Pengenalan Gambar OCR
 linktitle: Tentukan Karakter yang Diabaikan dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi kemampuan OCR tingkat lanjut dengan Aspose.OCR untuk .NET. Efisien, akurat, dan ramah pengembang.
-type: docs
 weight: 14
 url: /id/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tentukan Karakter yang Diabaikan dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam lanskap transformasi digital yang terus berkembang, Pengenalan Karakter Optik (OCR) telah muncul sebagai teknologi penting yang menjembatani kesenjangan antara konten fisik dan digital. Ketika bisnis semakin mendigitalkan operasi mereka, kebutuhan akan solusi OCR yang akurat, efisien, dan serbaguna menjadi hal yang sangat penting. Aspose.OCR untuk .NET menonjol sebagai pustaka OCR yang tangguh, menawarkan kemampuan tingkat lanjut bagi pengembang yang bekerja di lingkungan .NET.
@@ -100,3 +106,9 @@ A4: Aspose.OCR mendukung berbagai bahasa, menjadikannya pilihan serbaguna untuk 
 ### Q5: Dapatkah saya membeli lisensi sementara untuk Aspose.OCR?
 
  A5: Ya, jika Anda memerlukan izin sementara, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

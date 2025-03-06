@@ -3,10 +3,16 @@ title: Αναγνώριση πίνακα στην Αναγνώριση εικό�
 linktitle: Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
-type: docs
 weight: 15
 url: /el/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον συναρπαστικό κόσμο του Aspose.OCR για .NET! Αν θέλετε να βελτιώσετε τις εφαρμογές σας .NET με ισχυρές δυνατότητες OCR (Optical Character Recognition), βρίσκεστε στο σωστό μέρος. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία αναγνώρισης πινάκων στην αναγνώριση εικόνας OCR χρησιμοποιώντας το Aspose.OCR για .NET.
@@ -95,3 +101,9 @@ Console.WriteLine(result.RecognitionText);
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.OCR;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/) για να εξερευνήσετε τις δυνατότητες πριν κάνετε μια αγορά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

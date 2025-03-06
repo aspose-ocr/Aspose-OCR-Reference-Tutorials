@@ -3,10 +3,16 @@ title: Λάβετε επιλογές για αναγνωρισμένους χα�
 linktitle: Λάβετε επιλογές για αναγνωρισμένους χαρακτήρες στο OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Βελτιώστε τις εφαρμογές σας .NET με το Aspose.OCR για ακριβή αναγνώριση χαρακτήρων. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να ανακτήσετε επιλογές για αναγνωρισμένους χαρακτήρες στην αναγνώριση εικόνας.
-type: docs
 weight: 10
 url: /el/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε επιλογές για αναγνωρισμένους χαρακτήρες στο OCR Image Recognition
+
 ## Εισαγωγή
 
 Το ξεκλείδωμα της δύναμης της οπτικής αναγνώρισης χαρακτήρων (OCR) είναι ζωτικής σημασίας στη σημερινή ψηφιακή εποχή και το Aspose.OCR για .NET ξεχωρίζει ως μια ισχυρή λύση για ακριβή αναγνώριση χαρακτήρων. Σε αυτό το σεμινάριο, θα εμβαθύνουμε σε ένα συγκεκριμένο χαρακτηριστικό: τη λήψη επιλογών για αναγνωρισμένους χαρακτήρες. Μέχρι το τέλος αυτού του οδηγού, θα ενσωματώσετε απρόσκοπτα αυτή τη λειτουργία στις εφαρμογές σας .NET.
@@ -112,3 +118,9 @@ A2: Ναι, μπορείτε να ενσωματώσετε το Aspose.OCR γι�
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.OCR για .NET;
 
  A5: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/) για να γνωρίσετε τις δυνατότητες του Aspose.OCR για .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rozpoznávání obrázků a kreseb
 linktitle: Rozpoznávání obrázků a kreseb
 second_title: Aspose.OCR .NET API
 description: Odemkněte přesnost rozpoznávání obrázků OCR s Aspose.OCR pro .NET. Bez námahy extrahujte text z obrázků, ať už jde o řádky, odstavce nebo celé streamy.
-type: docs
 weight: 22
 url: /cs/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznávání obrázků a kreseb
+
 ## Úvod
 
 Jste připraveni vylepšit svou hru na rozpoznávání obrazu OCR? Aspose.OCR for .NET je váš klíč k odemknutí přesnosti extrakce textu z obrázků. V tomto komplexním průvodci prozkoumáme různé výukové programy, které se ponoří do různých aspektů rozpoznávání obrázků a kreseb pomocí Aspose.OCR pro .NET. Pojďme se ponořit a uvolnit sílu bezproblémové extrakce textu.
@@ -48,3 +54,9 @@ Odemkněte potenciál rozpoznávání textu s Aspose.OCR pro .NET. Rozpoznejte t
 Uvolněte potenciál Aspose.OCR pro .NET při rozpoznávání čar při rozpoznávání obrázků OCR. Vývojářský průvodce bezproblémovou extrakcí textu z obrázků.
 ### [Proveďte OCR na obrázku v OCR rozpoznávání obrázku](./perform-ocr-on-image/)
 Odemkněte kouzlo OCR s Aspose.OCR for .NET snadno extrahujte text z obrázků. Prozkoumejte výukový program pro bezproblémovou integraci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 如何在 Java 中設定 Aspose.OCR 的許可證
 linktitle: 如何在 Java 中設定 Aspose.OCR 的許可證
 second_title: Aspose.OCR Java API
 description: 透過本逐步指南釋放 Aspose.OCR for Java 的潛力。輕鬆設定您的許可證並增強您的 OCR 功能。
-type: docs
 weight: 10
 url: /zh-hant/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Java 中設定 Aspose.OCR 的許可證
+
 ## 介紹
 
 在不斷發展的技術領域，光學字元辨識 (OCR) 已成為從影像中提取文字資訊的關鍵工具。 Aspose.OCR for Java 作為強大的 OCR 解決方案脫穎而出，使開發人員能夠將 OCR 功能無縫整合到他們的 Java 應用程式中。本逐步指南將引導您完成在 Java 中設定 Aspose.OCR 授權的過程，確保您充分利用這個強大工具的潛力。
@@ -78,3 +84,9 @@ A4：是的，Aspose.OCR 可用於個人和商業項目，只要您遵守許可�
 ### 問題 5：在哪裡可以找到 Aspose.OCR for Java 的其他支援？
 
  A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

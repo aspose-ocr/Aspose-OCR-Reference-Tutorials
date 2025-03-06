@@ -3,10 +3,16 @@ title: Spara resultat som dokument i OCR-bildigenkänning
 linktitle: Spara resultat som dokument i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp potentialen hos Aspose.OCR för .NET. Känn enkelt igen text i bilder och spara resultat i olika dokumentformat.
-type: docs
 weight: 10
 url: /sv/net/ocr-settings/save-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spara resultat som dokument i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till den spännande världen av optisk teckenigenkänning (OCR) med Aspose.OCR för .NET! I denna omfattande handledning kommer vi att fördjupa oss i krångligheterna med att använda Aspose.OCR för att känna igen text i bilder och visa hur man sparar resultaten i olika dokumentformat.
@@ -99,3 +105,9 @@ A2: Absolut! Aspose.OCR tillhandahåller igenkänningsinställningar för att fi
 ### F5: Var kan jag söka hjälp eller få kontakt med samhället?
 
  S5: Gå med i Aspose.OCR-communityt på[Aspose Forum](https://forum.aspose.com/c/ocr/16) för stöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

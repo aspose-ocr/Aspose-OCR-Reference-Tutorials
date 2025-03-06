@@ -3,10 +3,16 @@ title: OCR Mengenali Dokumen PDF di Aspose.OCR untuk Java
 linktitle: OCR Mengenali Dokumen PDF di Aspose.OCR untuk Java
 second_title: Aspose.OCR Java API
 description: Buka kekuatan OCR di Java dengan Aspose.OCR. Kenali teks dalam dokumen PDF dengan mudah. Tingkatkan aplikasi Anda dengan presisi dan kecepatan.
-type: docs
 weight: 12
 url: /id/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Mengenali Dokumen PDF di Aspose.OCR untuk Java
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengubah teks cetak atau tulisan tangan menjadi teks yang dikodekan mesin. Aspose.OCR untuk Java muncul sebagai alat yang ampuh untuk integrasi OCR yang lancar ke dalam aplikasi Java. Dalam tutorial ini, kita akan menjelajahi proses mengenali dokumen PDF menggunakan Aspose.OCR untuk Java.
@@ -130,3 +136,9 @@ A3: Meskipun Aspose.OCR sangat berguna, keakuratannya mungkin berbeda-beda berda
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.OCR?
 
  A5: Ya, Anda dapat menjelajahi Aspose.OCR dengan mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beeld- en tekeningherkenning
 linktitle: Beeld- en tekeningherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel de precisie van OCR-beeldherkenning met Aspose.OCR voor .NET. Haal moeiteloos tekst uit afbeeldingen, of het nu gaat om regels, alinea's of hele streams.
-type: docs
 weight: 22
 url: /nl/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beeld- en tekeningherkenning
+
 ## Invoering
 
 Bent u klaar om uw OCR-beeldherkenningsspel naar een hoger niveau te tillen? Aspose.OCR voor .NET is uw sleutel tot het ontsluiten van de precisie van tekstextractie uit afbeeldingen. In deze uitgebreide handleiding verkennen we verschillende tutorials die dieper ingaan op verschillende aspecten van beeld- en tekeningherkenning met behulp van Aspose.OCR voor .NET. Laten we erin duiken en de kracht van naadloze tekstextractie ontketenen.
@@ -48,3 +54,9 @@ Ontgrendel het potentieel van tekstherkenning met Aspose.OCR voor .NET. Herken m
 Ontketen het potentieel van Aspose.OCR voor .NET bij het herkennen van lijnen in OCR-beeldherkenning. Een handleiding voor ontwikkelaars voor het naadloos extraheren van tekst uit afbeeldingen.
 ### [Voer OCR uit op afbeelding in OCR-beeldherkenning](./perform-ocr-on-image/)
 Ontgrendel OCR-magie met Aspose.OCR voor .NET en extraheer moeiteloos tekst uit afbeeldingen. Ontdek de tutorial voor naadloze integratie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

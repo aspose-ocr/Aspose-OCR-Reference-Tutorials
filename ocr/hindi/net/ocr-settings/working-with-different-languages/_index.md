@@ -3,10 +3,16 @@ title: ओसीआर छवि पहचान में विभिन्न
 linktitle: ओसीआर छवि पहचान में विभिन्न भाषाओं के साथ कार्य करना
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR के साथ बहुभाषी OCR के जादू को अनलॉक करें। विभिन्न भाषाओं में सहजता से पाठ निकालें।
-type: docs
 weight: 15
 url: /hi/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर छवि पहचान में विभिन्न भाषाओं के साथ कार्य करना
+
 ## परिचय
 
 .NET के लिए Aspose.OCR की दुनिया में आपका स्वागत है, जहां ऑप्टिकल कैरेक्टर रिकॉग्निशन (OCR) की शक्ति बहुभाषी समर्थन की बहुमुखी प्रतिभा को पूरा करती है। इस ट्यूटोरियल में, हम यह पता लगाएंगे कि विभिन्न भाषाओं में टेक्स्ट को आसानी से पहचानने के लिए .NET के लिए Aspose.OCR की क्षमताओं का उपयोग कैसे किया जाए। यदि आपने कभी विभिन्न भाषाओं के लिए ओसीआर छवि पहचान के पीछे के जादू के बारे में सोचा है, तो आप सही जगह पर हैं।
@@ -100,3 +106,9 @@ Console.WriteLine(result);
 ### Q5: मैं दस्तावेज़ तक कैसे पहुंच सकता हूं?
 
  A5: .NET के लिए Aspose.OCR का दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

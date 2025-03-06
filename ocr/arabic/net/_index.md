@@ -1,12 +1,17 @@
 ---
 title: برامج تعليمية شاملة وأمثلة على Aspose.OCR لـ .NET
 linktitle: Aspose.OCR لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: أطلق العنان للدقة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ .NET. استكشف البرامج التعليمية حول حساب زاوية الانحراف والتعرف على النص وتكوين التعرف الضوئي على الحروف والتحسين.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برامج تعليمية شاملة وأمثلة على Aspose.OCR لـ .NET
+
 
 ## مقدمة
 
@@ -51,3 +56,9 @@ is_root: true
 قم بزيادة دقة التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لبرامج .NET التعليمية. قم بإجراء التعرف الضوئي على الحروف (OCR) على الصور، وإعداد المستطيلات، وتطبيق مرشحات المعالجة المسبقة، وتصحيح النتائج من خلال التدقيق الإملائي، وحفظ نتائج متعددة الصفحات دون عناء.
 ### [إعدادات التعرف الضوئي على الحروف](./ocr-settings/)
 أطلق العنان لقوة Aspose.OCR لـ .NET من خلال البرامج التعليمية الخاصة بإعدادات OCR. تعلم كيفية تحسين الدقة والسرعة والتخصيص للتعرف على النص في الصور.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

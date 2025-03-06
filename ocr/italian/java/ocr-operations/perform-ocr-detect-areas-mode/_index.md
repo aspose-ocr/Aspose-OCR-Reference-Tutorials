@@ -3,10 +3,16 @@ title: Esecuzione dell'OCR con la modalità Rileva aree in Aspose.OCR
 linktitle: Esecuzione dell'OCR con la modalità Rileva aree in Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Sblocca la potenza dell'estrazione del testo dalle immagini con Aspose.OCR per Java. Un tutorial completo sull'OCR con la modalità Rileva aree.
-type: docs
 weight: 10
 url: /it/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Esecuzione dell'OCR con la modalità Rileva aree in Aspose.OCR
+
 ## introduzione
 
 Nel mondo della tecnologia in continua evoluzione, il riconoscimento ottico dei caratteri (OCR) svolge un ruolo fondamentale nell'estrazione di informazioni preziose dalle immagini. Aspose.OCR per Java fornisce una potente soluzione per l'OCR, consentendo agli sviluppatori di sfruttare il potenziale del riconoscimento del testo senza problemi. Questo tutorial ti guiderà attraverso il processo di esecuzione dell'OCR con la modalità Rileva aree utilizzando Aspose.OCR per Java.
@@ -108,3 +114,9 @@ A4: Sì, come dimostrato in questo tutorial, Aspose.OCR offre testo corretto dal
 ### Q5: esiste un forum della community per il supporto Aspose.OCR?
 
  R5: Sì, puoi trovare supporto e interagire con la community su[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

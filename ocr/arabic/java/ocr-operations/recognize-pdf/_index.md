@@ -3,10 +3,16 @@ title: التعرف الضوئي على الحروف (OCR) على مستندات
 linktitle: التعرف الضوئي على الحروف (OCR) على مستندات PDF في Aspose.OCR لـ Java
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لقوة التعرف الضوئي على الحروف في Java باستخدام Aspose.OCR. التعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بدقة وسرعة.
-type: docs
 weight: 12
 url: /ar/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف الضوئي على الحروف (OCR) على مستندات PDF في Aspose.OCR لـ Java
+
 ## مقدمة
 
 في عالم التكنولوجيا دائم التطور، يلعب التعرف الضوئي على الحروف (OCR) دورًا محوريًا في تحويل النص المطبوع أو المكتوب بخط اليد إلى نص مشفر آليًا. يظهر Aspose.OCR for Java كأداة قوية لتكامل التعرف الضوئي على الحروف بسلاسة في تطبيقات Java. في هذا البرنامج التعليمي، سنستكشف عملية التعرف على مستندات PDF باستخدام Aspose.OCR لـ Java.
@@ -130,3 +136,9 @@ static void printResult(RecognitionResult result) {
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.OCR؟
 
  ج5: نعم، يمكنك استكشاف Aspose.OCR من خلال الحصول على نسخة تجريبية مجانية منه[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

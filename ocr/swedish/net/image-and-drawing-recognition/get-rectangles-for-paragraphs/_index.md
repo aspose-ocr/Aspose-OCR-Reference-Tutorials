@@ -3,10 +3,16 @@ title: Få rektanglar för stycken i OCR-bildigenkänning
 linktitle: Få rektanglar för stycken i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp avancerade OCR-funktioner med Aspose.OCR för .NET. Extrahera styckerektanglar utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få rektanglar för stycken i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till vår omfattande guide om hur du använder Aspose.OCR för .NET för att extrahera styckerektanglar i OCR-bildigenkänning. Om du vill förbättra dina dokumentbearbetningsmöjligheter och utnyttja kraften i Optical Character Recognition (OCR) i dina .NET-applikationer, är du på rätt plats.
@@ -101,3 +107,9 @@ A2: Absolut! Aspose.OCR underlättar batchbehandling för att hantera flera bild
 ### F5: Var kan jag hitta ytterligare stöd och diskussioner relaterade till Aspose.OCR?
 
  A5: Gå över till[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

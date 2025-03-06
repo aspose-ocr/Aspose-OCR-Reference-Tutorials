@@ -3,10 +3,16 @@ title: الحصول على نتيجة التعرف في التعرف على ال
 linktitle: الحصول على نتيجة التعرف في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: استكشف Aspose.OCR for .NET، وهو حل قوي للتعرف الضوئي على الحروف للتعرف السلس على النص في الصور.
-type: docs
 weight: 11
 url: /ar/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الحصول على نتيجة التعرف في التعرف على الصور OCR
+
 ## مقدمة
 
 في عالم البرمجة الديناميكي، يعد التعرف الفعال على النص بمثابة تغيير جذري لقواعد اللعبة، ويظهر Aspose.OCR for .NET كحل قوي. يتعمق هذا البرنامج التعليمي في الفروق الدقيقة في استخدام Aspose.OCR لتسخير إمكانات التعرف على الصور بسلاسة.
@@ -106,3 +112,9 @@ PrintRecognitionResult(result);
 ### س5: هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.OCR؟
 
  ج5: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

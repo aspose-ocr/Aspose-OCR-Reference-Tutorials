@@ -3,10 +3,16 @@ title: Bereken de scheefhoek in OCR-beeldherkenning
 linktitle: Bereken de scheefhoek in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek Aspose.OCR voor .NET, een krachtige OCR-oplossing voor nauwkeurige tekstherkenning in uw C#-applicaties.
-type: docs
 weight: 10
 url: /nl/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bereken de scheefhoek in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de wereld van Aspose.OCR voor .NET, een krachtige tool waarmee ontwikkelaars de mogelijkheden van optische tekenherkenning (OCR) naadloos kunnen integreren in hun .NET-toepassingen. In deze uitgebreide handleiding gaan we dieper in op een specifiek gebruiksscenario: het berekenen van de schuine hoek bij OCR-beeldherkenning. Deze tutorial is bedoeld voor zowel beginnende als ervaren ontwikkelaars en biedt een stapsgewijze uitleg om ervoor te zorgen dat u het volledige potentieel van Aspose.OCR benut.
@@ -105,3 +111,9 @@ A2: Absoluut! Aspose.OCR ondersteunt een breed scala aan talen, waardoor het vee
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.OCR?
 
 A5: Zeker! Ontdek de functies met de[gratis proefversie](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

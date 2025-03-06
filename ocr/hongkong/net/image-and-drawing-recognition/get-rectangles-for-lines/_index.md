@@ -3,10 +3,16 @@ title: 在 OCR 影像辨識中取得線條的矩形
 linktitle: 在 OCR 影像辨識中取得線條的矩形
 second_title: Aspose.OCR .NET API
 description: 探索 Aspose.OCR for .NET 是精確 OCR 影像辨識的關鍵。輕鬆釋放文字擷取的力量。
-type: docs
 weight: 10
 url: /zh-hant/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 OCR 影像辨識中取得線條的矩形
+
 ## 介紹
 
 歡迎來到 Aspose.OCR for .NET 的世界，這是一個功能強大的工具，可讓您在 .NET 應用程式中發揮光學字元辨識 (OCR) 的潛力。無論您是經驗豐富的開發人員還是好奇的愛好者，本指南都將引導您完成使用 Aspose.OCR 在 OCR 圖像識別中獲取線條矩形的過程。
@@ -110,3 +116,9 @@ A2：Aspose.OCR利用先進的演算法實現高精度，適合各種文字辨�
 ### Q5：需要幫助或有具體問題嗎？
 
  A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

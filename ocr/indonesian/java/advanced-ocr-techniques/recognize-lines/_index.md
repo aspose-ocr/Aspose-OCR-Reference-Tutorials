@@ -3,10 +3,16 @@ title: Mengenali Garis di Aspose.OCR untuk Java
 linktitle: Mengenali Garis di Aspose.OCR untuk Java
 second_title: Aspose.OCR Java API
 description: Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
-type: docs
 weight: 14
 url: /id/java/advanced-ocr-techniques/recognize-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengenali Garis di Aspose.OCR untuk Java
+
 ## Perkenalan
 
 Apakah Anda ingin menyempurnakan aplikasi Java Anda dengan kemampuan Optical Character Recognition (OCR) yang canggih? Tidak perlu mencari lagi! Aspose.OCR untuk Java adalah pustaka OCR mutakhir yang memungkinkan Anda mengintegrasikan fungsionalitas OCR dengan lancar ke dalam aplikasi Java Anda. Dalam tutorial ini, kita akan fokus mengenali garis pada gambar menggunakan Aspose.OCR untuk Java.
@@ -111,3 +117,9 @@ A4: Tentu saja! Aspose.OCR dirancang untuk integrasi yang mulus ke dalam aplikas
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.OCR?
 
  A5: Ya, Anda dapat mengeksplorasi kemampuan Aspose.OCR dengan uji coba gratis. Mengunjungi[Di Sini](https://releases.aspose.com/) untuk informasi lebih lanjut.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

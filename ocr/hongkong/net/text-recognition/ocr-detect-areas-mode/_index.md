@@ -3,10 +3,16 @@ title: OCR影像辨識中的OCR偵測區域模式
 linktitle: OCR影像辨識中的OCR偵測區域模式
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現高效的圖像文字識別。探索 OCR 偵測區域模式以獲得精確結果。
-type: docs
 weight: 13
 url: /zh-hant/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR影像辨識中的OCR偵測區域模式
+
 ## 介紹
 
 在快節奏的資訊科技世界中，光學字元辨識 (OCR) 在將影像轉換為可編輯和可搜尋的文字方面發揮關鍵作用。 Aspose.OCR for .NET 讓開發人員能夠輕鬆地將強大的 OCR 功能整合到他們的應用程式中。在本教程中，我們將深入研究 OCR 偵測區域模式，這是一項增強影像辨識的強大功能。
@@ -91,3 +97,9 @@ A3：Aspose.OCR for .NET 支援流行的圖片格式，例如 PNG、JPEG 和 BMP
 ### Q5：Aspose.OCR for .NET 有免費試用版嗎？
 
  A5：是的，您可以透過取得 Aspose.OCR for .NET 來探索 Aspose.OCR for .NET 的功能[免費試用許可證](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

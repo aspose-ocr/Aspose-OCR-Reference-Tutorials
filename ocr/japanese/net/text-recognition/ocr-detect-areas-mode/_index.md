@@ -3,10 +3,16 @@ title: OCR画像認識のOCR検出領域モード
 linktitle: OCR画像認識のOCR検出領域モード
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR を使用して .NET アプリケーションを強化し、画像テキストを効率的に認識します。正確な結果を得るには、OCR 領域検出モードを調べてください。
-type: docs
 weight: 13
 url: /ja/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識のOCR検出領域モード
+
 ## 導入
 
 ペースの速い情報技術の世界では、光学式文字認識 (OCR) が画像を編集可能で検索可能なテキストに変換する上で極めて重要な役割を果たしています。 Aspose.OCR for .NET を使用すると、開発者は堅牢な OCR 機能をアプリケーションに簡単に統合できます。このチュートリアルでは、画像認識を強化する強力な機能である OCR 領域検出モードについて詳しく説明します。
@@ -91,3 +97,9 @@ A3: Aspose.OCR for .NET は、PNG、JPEG、BMP などの一般的な画像形式
 ### Q5: Aspose.OCR for .NET の無料トライアルはありますか?
 
  A5: はい、Aspose.OCR for .NET の機能を調べるには、[無料トライアルライセンス](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

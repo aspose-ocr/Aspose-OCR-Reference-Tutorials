@@ -3,10 +3,16 @@ title: OCR Basics
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 description: Unlock Aspose.OCR's potential in Java! Step-by-step guide to set up your license and boost OCR capabilities. Calculate skew angles and extract text seamlessly.
-type: docs
 weight: 20
 url: /java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Basics
+
 ## Introduction
 
 Are you ready to elevate your OCR game with Aspose.OCR for Java? This comprehensive guide will walk you through essential tutorials, ensuring you make the most of this powerful tool. Let's dive in!
@@ -35,3 +41,9 @@ Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Unlock the power of Aspose.OCR for Java. Learn how to extract text from images seamlessly in this step-by-step guide. Download now for efficient text recognition.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

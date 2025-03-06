@@ -3,10 +3,16 @@ title: Készítsen téglalapokat az OCR képfelismerésben
 linktitle: Készítsen téglalapokat az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Kibontakoztatja az Aspose.OCR-ben rejlő lehetőségeket .NET-hez átfogó útmutatónkkal. Ismerje meg lépésről lépésre, hogyan készítsen elő téglalapokat a képfelismeréshez. Emelje fel .NET-alkalmazásait a zökkenőmentes OCR-integrációval.
-type: docs
 weight: 11
 url: /hu/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Készítsen téglalapokat az OCR képfelismerésben
+
 ## Bevezetés
 
 A technológia folyamatosan fejlődő világában az Optical Character Recognition (OCR) kulcsszerepet játszik a képek géppel olvasható szöveggé alakításában. Az Aspose.OCR for .NET robusztus megoldás a fejlesztők számára, akik az OCR-képességeket .NET-alkalmazásaikba zökkenőmentesen integrálják. Ebben az átfogó útmutatóban megvizsgáljuk a téglalapok OCR-képfelismerésben az Aspose.OCR for .NET használatával történő elkészítésének folyamatát.
@@ -120,3 +126,9 @@ Gratulálunk! Sikeresen navigált a téglalapok előkészítési folyamatában a
 ### 5. kérdés: Hol találom az Aspose.OCR for .NET dokumentációját?
 
  V5: A dokumentáció elérhető[itt](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

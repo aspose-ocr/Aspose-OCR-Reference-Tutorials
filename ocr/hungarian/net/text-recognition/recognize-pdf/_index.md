@@ -3,10 +3,16 @@ title: A PDF felismerése az OCR képfelismerésben
 linktitle: A PDF felismerése az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
-type: docs
 weight: 14
 url: /hu/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A PDF felismerése az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az optikai karakterfelismerés (OCR) világában az Aspose.OCR for .NET segítségével! Ha szeretné kihasználni az OCR képességeit .NET-alkalmazásaiban, akkor jó helyen jár. Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan ismerhet fel szöveget PDF-ben az Aspose.OCR könyvtár használatával. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az oktatóanyag végigvezeti a folyamaton, biztosítva, hogy az OCR-funkciókat könnyedén integrálhassa projektjeibe.
@@ -101,3 +107,9 @@ A2: Abszolút! Az Aspose.OCR zökkenőmentesen integrálódik a .NET használat�
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.OCR-t .NET-hez?
 
  A5: Megvásárolhatja a terméket a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kenali Gambar dari Aliran dalam Pengenalan Gambar OCR
 linktitle: Kenali Gambar dari Aliran dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka kunci keajaiban OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk panduan langkah demi langkah.
-type: docs
 weight: 12
 url: /id/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kenali Gambar dari Aliran dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia pengenalan karakter optik (OCR) yang menarik menggunakan Aspose.OCR untuk .NET! Baik Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia OCR, panduan langkah demi langkah ini akan memandu Anda dalam mengenali gambar dari aliran dengan mudah. Aspose.OCR untuk .NET adalah alat tangguh yang memungkinkan integrasi fungsionalitas OCR ke dalam aplikasi .NET Anda, sehingga ekstraksi teks dari gambar menjadi mudah.
@@ -105,3 +111,9 @@ A1: Ya, Aspose.OCR mendukung berbagai bahasa, menjadikannya serbaguna untuk bera
 ### Q5: Di mana saya dapat membeli Aspose.OCR untuk .NET?
 
  A5: Untuk menjadikan Aspose.OCR sebagai bagian permanen dari perangkat Anda, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

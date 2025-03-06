@@ -3,10 +3,16 @@ title: मल्टीपेज परिणाम को ओसीआर छव
 linktitle: मल्टीपेज परिणाम को ओसीआर छवि पहचान में दस्तावेज़ के रूप में सहेजें
 second_title: Aspose.OCR .NET एपीआई
 description: .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें। इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ बहुपृष्ठ OCR परिणामों को दस्तावेज़ के रूप में सहजता से सहेजें।
-type: docs
 weight: 14
 url: /hi/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# मल्टीपेज परिणाम को ओसीआर छवि पहचान में दस्तावेज़ के रूप में सहेजें
+
 ## परिचय
 
 .NET के लिए Aspose.OCR का उपयोग करके ऑप्टिकल कैरेक्टर रिकग्निशन (OCR) की आकर्षक दुनिया में आपका स्वागत है! इस ट्यूटोरियल में, हम यह पता लगाएंगे कि बहुपृष्ठ OCR परिणामों को दस्तावेज़ों के रूप में सहेजने के लिए Aspose.OCR की क्षमताओं का उपयोग कैसे किया जाए। चाहे आप एक अनुभवी डेवलपर हों या सिर्फ ओसीआर से शुरुआत कर रहे हों, यह मार्गदर्शिका आपको प्रत्येक चरण में ले जाएगी, यह सुनिश्चित करते हुए कि आप इस शक्तिशाली टूल से अधिकतम लाभ उठा सकें।
@@ -104,3 +110,9 @@ A4: त्रुटि प्रबंधन की सर्वोत्तम 
 ### Q5: क्या Aspose.OCR अंग्रेजी के अलावा अन्य भाषाओं का समर्थन करता है?
 
 A5: हां, Aspose.OCR कई भाषाओं का समर्थन करता है। भाषा समर्थन विवरण के लिए दस्तावेज़ देखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
 linktitle: OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
 second_title: Aspose.OCR .NET API'si
 description: .NET'te OCR verimliliğinin kilidini açın. Aspose.OCR ile iplik sayısını zahmetsizce ayarlayın. Doğruluğu ve hızı artırın.
-type: docs
 weight: 11
 url: /tr/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
+
 ## giriiş
 
 En son Optik Karakter Tanıma (OCR) teknolojisinin .NET uygulamalarınıza kusursuz entegrasyonla buluştuğu Aspose.OCR for .NET dünyasına hoş geldiniz. Bu eğitimde belirli bir konuya değineceğiz: OCR Görüntü Tanıma'da İş Parçacığı Sayısını ayarlama. Bu güçlü özellik, OCR görevlerinizin performansını optimize ederek verimlilik ve doğruluk sağlar.
@@ -89,3 +95,9 @@ Sonuç olarak, Aspose.OCR for .NET kullanarak OCR Görüntü Tanıma'da İş Par
 ### S5: Yardıma mı ihtiyacınız var veya toplulukla bağlantı kurmak mı istiyorsunuz?
 
  A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) destek ve topluluk etkileşimi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

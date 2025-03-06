@@ -3,10 +3,16 @@ title: Identifiera linje i OCR-bildigenkänning
 linktitle: Identifiera linje i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Släpp loss potentialen hos Aspose.OCR för .NET när det gäller att känna igen linjer i OCR-bildigenkänning. En utvecklarguide för sömlös textextraktion från bilder.
-type: docs
 weight: 14
 url: /sv/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifiera linje i OCR-bildigenkänning
+
 ## Introduktion
 
 det ständigt föränderliga tekniklandskapet har optisk teckenigenkänning (OCR) blivit ett centralt verktyg som sömlöst omvandlar bilder till redigerbar och sökbar text. Aspose.OCR för .NET framstår som en föregångare inom denna domän, och erbjuder robusta möjligheter till utvecklare. I den här omfattande guiden kommer vi att fördjupa oss i krångligheterna med att använda Aspose.OCR för .NET för att känna igen linjer i OCR-bildigenkänning.
@@ -98,3 +104,9 @@ S4: Ja, du kan få tillfälliga licenser för Aspose.OCR för att utvärdera des
 ### F5: Vilka är systemkraven för Aspose.OCR för .NET?
 
  A5: Se[dokumentation](https://reference.aspose.com/ocr/net/) för omfattande systemkrav.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

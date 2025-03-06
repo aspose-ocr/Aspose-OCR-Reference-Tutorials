@@ -3,10 +3,16 @@ title: تكوين التعرف الضوئي على الحروف
 linktitle: تكوين التعرف الضوئي على الحروف
 second_title: Aspose.OCR .NET API
 description: قم بتحسين تطبيقات .NET الخاصة بك بسهولة باستخدام Aspose.OCR. استكشف البرامج التعليمية لتكوين التعرف الضوئي على الحروف، بما في ذلك عمليات الأرشيف والمجلد واختيار اللغة والقائمة.
-type: docs
 weight: 24
 url: /ar/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكوين التعرف الضوئي على الحروف
+
 ## مقدمة
 
 انطلق في رحلة لتسخير الإمكانات الكاملة للتعرف البصري على الأحرف (OCR) في تطبيقات .NET باستخدام Aspose.OCR. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى تقنية التعرف الضوئي على الحروف (OCR)، سترشدك هذه البرامج التعليمية خلال عمليات التعرف الضوئي على الحروف المختلفة، مما يضمن لك إطلاق العنان لقوة استخراج النص دون عناء.
@@ -33,3 +39,9 @@ url: /ar/net/ocr-configuration/
 أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
 ### [عملية OCRO مع القائمة في التعرف على الصور OCR](./ocr-operation-with-list/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. قم بإجراء التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) بسهولة باستخدام القوائم. تعزيز الإنتاجية واستخراج البيانات في تطبيقاتك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

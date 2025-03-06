@@ -3,10 +3,16 @@ title: OCR-bewerking met taalselectie in OCR-beeldherkenning
 linktitle: OCR-bewerking met taalselectie in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
-type: docs
 weight: 12
 url: /nl/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-bewerking met taalselectie in OCR-beeldherkenning
+
 ## Invoering
 
 In de wereld van beeldherkenning en optische tekenherkenning (OCR) onderscheidt Aspose.OCR voor .NET zich als een krachtig hulpmiddel voor ontwikkelaars die op zoek zijn naar nauwkeurige en efficiënte tekstextractie uit afbeeldingen. Deze stapsgewijze handleiding leidt u door het proces van OCR-beeldherkenning met Aspose.OCR voor .NET, waarbij de nadruk ligt op de bediening met taalselectie.
@@ -109,3 +115,10 @@ A2: Absoluut! Pas parameters zoals schuine hoek, lijnherkenning en gebiedsdetect
 ### V5: Hoe kan ik Aspose.OCR voor .NET kopen?
 
  A5: Ga om te kopen naar de[aankooppagina](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

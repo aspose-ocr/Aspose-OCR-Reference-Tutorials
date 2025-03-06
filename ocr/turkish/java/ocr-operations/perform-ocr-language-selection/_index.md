@@ -3,10 +3,16 @@ title: Aspose.OCR'da Dil Seçimi ile OCR Gerçekleştirme
 linktitle: Aspose.OCR'da Dil Seçimi ile OCR Gerçekleştirme
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java ile görsellerden hassas metin çıkarmanın kilidini açın. Dil seçimiyle doğru OCR için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/ocr-operations/perform-ocr-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR'da Dil Seçimi ile OCR Gerçekleştirme
+
 ## giriiş
 
 Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), görüntülerden anlamlı bilgilerin çıkarılmasında önemli bir rol oynamaktadır. Aspose.OCR for Java, geliştiricilerin OCR özelliklerini Java uygulamalarına sorunsuz bir şekilde entegre etmelerini sağlayan güçlü bir araç olarak öne çıkıyor. Bu adım adım kılavuzda, Aspose.OCR kullanarak dil seçimiyle OCR'nin nasıl gerçekleştirileceğini keşfederek çeşitli içerikleri hassasiyetle işleme potansiyelini ortaya çıkaracağız.
@@ -144,3 +150,9 @@ A4: Kesinlikle. Hedefli tanıma amacıyla görüntü içinde belirli dikdörtgen
 ### S5: Aspose.OCR hem kişisel hem de ticari projeler için uygun mudur?
 
 Cevap5: Evet, Aspose.OCR esnek lisanslama seçenekleri sunarak hem kişisel hem de ticari kullanıma uygun hale getiriyor.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

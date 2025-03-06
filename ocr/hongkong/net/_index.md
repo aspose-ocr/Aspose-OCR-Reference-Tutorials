@@ -1,12 +1,17 @@
 ---
 title: Aspose.OCR for .NET 的綜合教學與範例
 linktitle: Aspose.OCR for .NET 教學課程
-type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 Aspose.OCR for .NET 解鎖 OCR 影像辨識的精確度。探索有關傾斜角度計算、文字辨識、OCR 配置和最佳化的教學課程。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR for .NET 的綜合教學與範例
+
 
 ## 介紹
 
@@ -51,3 +56,9 @@ is_root: true
 使用 Aspose.OCR for .NET 教學最大限度地提高 OCR 準確性。對影像執行 OCR、準備矩形、套用預處理濾鏡、透過拼字檢查修正結果，並輕鬆儲存多頁結果。
 ### [光學字元辨識設定](./ocr-settings/)
 透過我們的 OCR 設定教學解鎖 Aspose.OCR for .NET 的強大功能。了解如何提高圖像中文字辨識的準確性、速度和客製化。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

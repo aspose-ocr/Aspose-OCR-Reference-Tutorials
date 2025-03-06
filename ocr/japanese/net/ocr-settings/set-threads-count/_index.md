@@ -3,10 +3,16 @@ title: OCR画像認識のスレッド数を設定する
 linktitle: OCR画像認識のスレッド数を設定する
 second_title: Aspose.OCR .NET API
 description: .NET で OCR の効率を高めます。 Aspose.OCR を使用してスレッド数を簡単に設定します。精度と速度を向上させます。
-type: docs
 weight: 11
 url: /ja/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識のスレッド数を設定する
+
 ## 導入
 
 Aspose.OCR for .NET の世界へようこそ。ここでは、最先端の光学式文字認識 (OCR) テクノロジが .NET アプリケーションへのシームレスな統合を実現します。このチュートリアルでは、OCR 画像認識におけるスレッド数の設定という特定の側面について詳しく説明します。この強力な機能により、OCR タスクのパフォーマンスが最適化され、効率と精度が保証されます。
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### Q5: サポートが必要ですか、それともコミュニティとつながりたいですか?
 
  A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)サポートとコミュニティ交流のために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

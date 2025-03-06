@@ -3,10 +3,16 @@ title: ओसीआर छवि पहचान में थ्रेड्स
 linktitle: ओसीआर छवि पहचान में थ्रेड्स गणना सेट करें
 second_title: Aspose.OCR .NET एपीआई
 description: .NET में OCR दक्षता अनलॉक करें। Aspose.OCR के साथ आसानी से थ्रेड गिनती सेट करें। सटीकता और गति बढ़ाएँ।
-type: docs
 weight: 11
 url: /hi/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर छवि पहचान में थ्रेड्स गणना सेट करें
+
 ## परिचय
 
 .NET के लिए Aspose.OCR की दुनिया में आपका स्वागत है, जहां अत्याधुनिक ऑप्टिकल कैरेक्टर रिकॉग्निशन (OCR) तकनीक आपके .NET अनुप्रयोगों में निर्बाध एकीकरण को पूरा करती है। इस ट्यूटोरियल में, हम एक विशिष्ट पहलू पर गौर करेंगे: ओसीआर इमेज रिकॉग्निशन में थ्रेड्स काउंट सेट करना। यह शक्तिशाली सुविधा दक्षता और सटीकता सुनिश्चित करते हुए आपके OCR कार्यों के प्रदर्शन को अनुकूलित करती है।
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### Q5: सहायता की आवश्यकता है या समुदाय से जुड़ना चाहते हैं?
 
  A5: पर जाएँ[Aspose.OCR फोरम](https://forum.aspose.com/c/ocr/16) समर्थन और सामुदायिक सहभागिता के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

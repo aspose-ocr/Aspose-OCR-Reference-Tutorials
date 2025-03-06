@@ -3,10 +3,16 @@ title: 在 Aspose.OCR for Java 中對來自 URL 的映像執行 OCR
 linktitle: 在 Aspose.OCR for Java 中對來自 URL 的映像執行 OCR
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR 在 Java 中解鎖無縫圖像文字擷取。高精度 OCR，易於整合。
-type: docs
 weight: 11
 url: /zh-hant/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR for Java 中對來自 URL 的映像執行 OCR
+
 ## 介紹
 
 歡迎閱讀我們關於使用 Aspose.OCR for Java 對 URL 中的圖像執行光學字元辨識 (OCR) 的逐步指南。本教學旨在幫助您將 Aspose.OCR 無縫整合到您的 Java 應用程式中，讓您輕鬆從圖像中提取文字。 Aspose.OCR 是一個功能強大的 OCR 庫，支援各種圖像格式，使其成為需要文字擷取的應用程式的寶貴工具。
@@ -125,3 +131,10 @@ A3：是的，確保遵守商業用途的 Aspose.OCR 授權條款。參考[購�
 ### Q5：Aspose.OCR for Java 有免費試用版嗎？
 
  A5：是的，透過以下網址的免費試用版探索 Aspose.OCR 的功能：[發布.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

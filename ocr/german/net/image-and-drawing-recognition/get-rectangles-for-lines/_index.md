@@ -3,10 +3,16 @@ title: Erhalten Sie Rechtecke für Linien in der OCR-Bilderkennung
 linktitle: Erhalten Sie Rechtecke für Linien in der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Entdecken Sie Aspose.OCR für .NET, Ihren Schlüssel zur präzisen OCR-Bilderkennung. Nutzen Sie mühelos die Kraft der Textextraktion.
-type: docs
 weight: 10
 url: /de/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erhalten Sie Rechtecke für Linien in der OCR-Bilderkennung
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.OCR für .NET, einem leistungsstarken Tool, mit dem Sie das Potenzial der optischen Zeichenerkennung (OCR) in Ihren .NET-Anwendungen nutzen können. Egal, ob Sie ein erfahrener Entwickler oder ein neugieriger Enthusiast sind, dieser Leitfaden führt Sie durch den Prozess, Rechtecke für Linien bei der OCR-Bilderkennung mit Aspose.OCR zu erhalten.
@@ -110,3 +116,9 @@ A2: Aspose.OCR nutzt fortschrittliche Algorithmen für hohe Genauigkeit und eign
 ### F5: Benötigen Sie Hilfe oder haben Sie spezielle Fragen?
 
  A5: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

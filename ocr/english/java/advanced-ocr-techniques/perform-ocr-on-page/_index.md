@@ -3,10 +3,16 @@ title: Performing OCR on Specific Page in Aspose.OCR
 linktitle: Performing OCR on Specific Page in Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Unlock the power of Aspose.OCR for Java with our step-by-step guide on performing OCR on specific pages. Extract text effortlessly from images and enhance your Java projects.
-type: docs
 weight: 12
 url: /java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Performing OCR on Specific Page in Aspose.OCR
+
 ## Introduction
 
 Welcome to our comprehensive guide on performing Optical Character Recognition (OCR) on a specific page using Aspose.OCR for Java. In this tutorial, we will walk you through the process of setting up, importing necessary packages, and executing the code to extract text from an image with ease.
@@ -92,3 +98,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for communit
 ### Q5: Does Aspose.OCR offer a free trial?
 
 A5: Yes, explore the features with the [free trial version](https://releases.aspose.com/) before making a purchase.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pengenalan Gambar dan Gambar
 linktitle: Pengenalan Gambar dan Gambar
 second_title: Aspose.OCR .NET API
 description: Buka kunci presisi pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah, baik itu baris, paragraf, atau keseluruhan aliran.
-type: docs
 weight: 22
 url: /id/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengenalan Gambar dan Gambar
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan permainan pengenalan gambar OCR Anda? Aspose.OCR untuk .NET adalah kunci Anda untuk membuka keakuratan ekstraksi teks dari gambar. Dalam panduan komprehensif ini, kita akan menjelajahi berbagai tutorial yang mempelajari berbagai aspek pengenalan gambar dan gambar menggunakan Aspose.OCR untuk .NET. Mari selami dan manfaatkan kekuatan ekstraksi teks yang lancar.
@@ -48,3 +54,9 @@ Buka potensi pengenalan teks dengan Aspose.OCR untuk .NET. Kenali teks dari gamb
 Melepaskan potensi Aspose.OCR untuk .NET dalam mengenali garis dalam pengenalan gambar OCR. Panduan pengembang untuk ekstraksi teks tanpa hambatan dari gambar.
 ### [Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR](./perform-ocr-on-image/)
 Buka keajaiban OCR dengan Aspose.OCR untuk .NET dengan mudah mengekstrak teks dari gambar. Jelajahi tutorial untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

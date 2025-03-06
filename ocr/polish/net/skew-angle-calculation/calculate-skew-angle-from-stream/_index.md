@@ -3,10 +3,16 @@ title: Oblicz kąt pochylenia ze strumienia w trybie rozpoznawania obrazu OCR
 linktitle: Oblicz kąt pochylenia ze strumienia w trybie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Uwolnij moc Aspose.OCR dla .NET, solidnego rozwiązania do rozpoznawania obrazów. Dowiedz się, jak bez wysiłku obliczać kąty skośne.
-type: docs
 weight: 11
 url: /pl/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oblicz kąt pochylenia ze strumienia w trybie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 Witamy w ekscytującym świecie Aspose.OCR dla .NET, potężnego narzędzia, które otwiera drzwi do wydajnego rozpoznawania obrazów w aplikacjach .NET. W tym obszernym przewodniku przeprowadzimy Cię przez proces obliczania kątów skosu ze strumienia w rozpoznawaniu obrazu OCR przy użyciu Aspose.OCR. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz swoją przygodę z kodowaniem, ten samouczek wyposaży Cię w wiedzę pozwalającą wykorzystać pełny potencjał Aspose.OCR dla .NET.
@@ -103,3 +109,9 @@ Odpowiedź 1: Aspose.OCR obsługuje szeroką gamę frameworków .NET, zapewniaj�
 ### P5: Potrzebujesz wsparcia lub masz konkretne pytania?
 
  A5: Odwiedź społeczność Aspose.OCR[forum](https://forum.aspose.com/c/ocr/16) o pomoc ekspertów i innych programistów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

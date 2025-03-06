@@ -3,10 +3,16 @@ title: Rozpoznawanie obrazu i rysunku
 linktitle: Rozpoznawanie obrazu i rysunku
 second_title: Aspose.OCR .NET API
 description: Odblokuj precyzję rozpoznawania obrazów OCR za pomocą Aspose.OCR dla .NET. Bez wysiłku wyodrębniaj tekst z obrazów, niezależnie od tego, czy są to linie, akapity, czy całe strumienie.
-type: docs
 weight: 22
 url: /pl/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozpoznawanie obrazu i rysunku
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść poziom swojej gry w rozpoznawanie obrazów OCR? Aspose.OCR dla .NET to klucz do odblokowania precyzji wyodrębniania tekstu z obrazów. W tym obszernym przewodniku omówimy różne samouczki, które zagłębiają się w różne aspekty rozpoznawania obrazów i rysunków przy użyciu Aspose.OCR dla .NET. Zagłębmy się w szczegóły i uwolnijmy moc płynnego wyodrębniania tekstu.
@@ -48,3 +54,9 @@ Odblokuj potencjał rozpoznawania tekstu za pomocą Aspose.OCR dla .NET. Rozpozn
 Uwolnij potencjał Aspose.OCR dla .NET w rozpoznawaniu linii w rozpoznawaniu obrazów OCR. Przewodnik programisty dotyczący płynnego wyodrębniania tekstu z obrazów.
 ### [Wykonaj OCR obrazu w trybie rozpoznawania obrazu OCR](./perform-ocr-on-image/)
 Odblokuj magię OCR za pomocą Aspose.OCR dla .NET, bez wysiłku wyodrębniając tekst z obrazów. Zapoznaj się z samouczkiem dotyczącym bezproblemowej integracji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

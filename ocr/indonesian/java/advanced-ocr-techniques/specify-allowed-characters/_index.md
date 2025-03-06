@@ -3,10 +3,16 @@ title: Menentukan Karakter yang Diizinkan di Aspose.OCR
 linktitle: Menentukan Karakter yang Diizinkan di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
-type: docs
 weight: 15
 url: /id/java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menentukan Karakter yang Diizinkan di Aspose.OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) telah menjadi komponen penting bagi bisnis dan pengembang yang ingin mengekstrak informasi bermakna dari gambar. Aspose.OCR untuk Java menonjol sebagai alat yang ampuh, menawarkan integrasi tanpa batas dan kemampuan pengenalan teks yang efisien. Panduan komprehensif ini akan memandu Anda melalui proses memanfaatkan potensi Aspose.OCR untuk Java, memastikan kelancaran perjalanan mulai dari instalasi hingga implementasi praktis.
@@ -105,3 +111,9 @@ A:4 Aspose.OCR terus diperbarui untuk memastikan kompatibilitas dengan Java Deve
 ### Q5: Apakah ada fitur OCR tambahan di Aspose.OCR?
 
 A5: Jelajahi fitur dan opsi komprehensif yang tersedia dalam dokumentasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

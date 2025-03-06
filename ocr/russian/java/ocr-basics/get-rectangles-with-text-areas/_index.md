@@ -3,10 +3,16 @@ title: Получение прямоугольников с текстовыми
 linktitle: Получение прямоугольников с текстовыми областями в Aspose.OCR
 second_title: API Aspose.OCR Java
 description: Раскройте возможности Aspose.OCR для Java. Узнайте, как легко извлекать текст из изображений, в этом пошаговом руководстве. Загрузите сейчас для эффективного распознавания текста.
-type: docs
 weight: 12
 url: /ru/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получение прямоугольников с текстовыми областями в Aspose.OCR
+
 ## Введение
 
 Вы хотите интегрировать мощные возможности оптического распознавания символов (OCR) в свое Java-приложение? Aspose.OCR для Java — это идеальное решение для точного и эффективного извлечения текста из изображений. Это руководство проведет вас через процесс получения прямоугольников с текстовыми областями с помощью Aspose.OCR, помогая вам использовать весь потенциал этой библиотеки Java OCR.
@@ -105,3 +111,10 @@ for (Rectangle r : rectResult) {
 ### Вопрос 5: Поддерживает ли Aspose.OCR многопоточность?
 
 О5: Да, Aspose.OCR поддерживает многопоточность для повышения производительности в параллельных средах.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

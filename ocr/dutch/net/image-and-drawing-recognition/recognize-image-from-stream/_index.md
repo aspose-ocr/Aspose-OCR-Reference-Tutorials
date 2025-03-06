@@ -3,10 +3,16 @@ title: Herken afbeelding uit stream in OCR-beeldherkenning
 linktitle: Herken afbeelding uit stream in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel OCR-magie met Aspose.OCR voor .NET. Haal moeiteloos tekst uit afbeeldingen. Bekijk de tutorial voor stapsgewijze begeleiding.
-type: docs
 weight: 12
 url: /nl/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herken afbeelding uit stream in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de opwindende wereld van optische tekenherkenning (OCR) met behulp van Aspose.OCR voor .NET! Of u nu een doorgewinterde ontwikkelaar bent of gewoon in de wereld van OCR duikt, deze stapsgewijze handleiding begeleidt u moeiteloos bij het herkennen van afbeeldingen uit streams. Aspose.OCR voor .NET is een robuust hulpmiddel dat een naadloze integratie van de OCR-functionaliteit in uw .NET-toepassingen mogelijk maakt, waardoor tekstextractie uit afbeeldingen een fluitje van een cent wordt.
@@ -105,3 +111,9 @@ A1: Ja, Aspose.OCR ondersteunt een breed scala aan talen, waardoor het veelzijdi
 ### V5: Waar kan ik Aspose.OCR voor .NET kopen?
 
  A5: Om Aspose.OCR een permanent onderdeel van uw toolkit te maken, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

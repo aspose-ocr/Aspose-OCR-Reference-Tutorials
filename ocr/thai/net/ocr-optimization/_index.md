@@ -3,10 +3,16 @@ title: การเพิ่มประสิทธิภาพ OCR
 linktitle: การเพิ่มประสิทธิภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกพลังของ Aspose.OCR สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมของเรา ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือมือใหม่ คำแนะนำเหล่านี้จะยกระดับเกม OCR ของคุณ
-type: docs
 weight: 25
 url: /th/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเพิ่มประสิทธิภาพ OCR
+
 ## การแนะนำ
 
 เพิ่มความแม่นยำของ OCR ให้สูงสุดด้วย Aspose.OCR สำหรับบทช่วยสอน .NET ทำ OCR บนรูปภาพ เตรียมสี่เหลี่ยม ใช้ตัวกรองที่ประมวลผลล่วงหน้า แก้ไขผลลัพธ์ด้วยการตรวจตัวสะกด และบันทึกผลลัพธ์หลายหน้าได้อย่างง่ายดาย
@@ -44,3 +50,9 @@ url: /th/net/ocr-optimization/
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ .NET แก้ไขการสะกด ปรับแต่งพจนานุกรม และรับรู้ข้อความที่ปราศจากข้อผิดพลาดได้อย่างง่ายดาย
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารในการจดจำรูปภาพ OCR](./save-multipage-result-as-document/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET บันทึกผลลัพธ์ OCR หลายหน้าเป็นเอกสารได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

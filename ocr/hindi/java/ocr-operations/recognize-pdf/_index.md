@@ -3,10 +3,16 @@ title: ओसीआर जावा के लिए Aspose.OCR में पी
 linktitle: ओसीआर जावा के लिए Aspose.OCR में पीडीएफ दस्तावेज़ों को पहचान रहा है
 second_title: Aspose.OCR जावा एपीआई
 description: Aspose.OCR के साथ जावा में OCR की शक्ति को अनलॉक करें। पीडीएफ दस्तावेज़ों में टेक्स्ट को आसानी से पहचानें। अपने एप्लिकेशन को सटीकता और गति के साथ बढ़ाएं।
-type: docs
 weight: 12
 url: /hi/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ओसीआर जावा के लिए Aspose.OCR में पीडीएफ दस्तावेज़ों को पहचान रहा है
+
 ## परिचय
 
 प्रौद्योगिकी के लगातार विकसित हो रहे परिदृश्य में, ऑप्टिकल कैरेक्टर रिकॉग्निशन (ओसीआर) मुद्रित या हस्तलिखित पाठ को मशीन-एनकोडेड पाठ में बदलने में महत्वपूर्ण भूमिका निभाता है। जावा के लिए Aspose.OCR जावा अनुप्रयोगों में निर्बाध OCR एकीकरण के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.OCR का उपयोग करके पीडीएफ दस्तावेज़ों को पहचानने की प्रक्रिया का पता लगाएंगे।
@@ -130,3 +136,9 @@ A3: जबकि Aspose.OCR शक्तिशाली है, इनपुट 
 ### Q5: क्या Aspose.OCR के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 
  A5: हां, आप नि:शुल्क परीक्षण प्राप्त करके Aspose.OCR का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

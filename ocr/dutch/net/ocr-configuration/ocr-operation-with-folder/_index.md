@@ -3,10 +3,16 @@ title: OCR-bewerking met map in OCR-beeldherkenning
 linktitle: OCR-bewerking met map in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel de kracht van OCR-beeldherkenning in .NET met Aspose.OCR. Extraheer tekst moeiteloos uit afbeeldingen.
-type: docs
 weight: 11
 url: /nl/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-bewerking met map in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de wereld van Optical Character Recognition (OCR) met Aspose.OCR voor .NET! Als u naadloos tekst uit afbeeldingen wilt extraheren binnen uw .NET-toepassingen, bent u hier aan het juiste adres. Deze tutorial leidt u door het proces van OCR-beeldherkenning met mappen, waarbij gebruik wordt gemaakt van de krachtige mogelijkheden van Aspose.OCR.
@@ -118,3 +124,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u OCR-beeldherkenning kunt implemen
 ### Q5: Ondersteuning nodig of vragen?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

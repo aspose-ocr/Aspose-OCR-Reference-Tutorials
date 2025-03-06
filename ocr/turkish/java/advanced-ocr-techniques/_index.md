@@ -3,10 +3,16 @@ title: Gelişmiş OCR Teknikleri
 linktitle: Gelişmiş OCR Teknikleri
 second_title: Aspose.OCR Java API'si
 description: Aspose.OCR for Java'yı kullanarak görüntüler üzerinde zahmetsizce OCR gerçekleştirin. Metni yüksek doğrulukla sorunsuz bir şekilde çıkarın. Çok yönlü metin tanıma özelliğiyle Java projelerinizi geliştirin.
-type: docs
 weight: 22
 url: /tr/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gelişmiş OCR Teknikleri
+
 ## giriiş
 
 Java projelerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.OCR for Java ile gelişmiş OCR teknikleri dünyasına dalın. Bu kapsamlı kılavuzda, resimlerden zahmetsizce metin çıkarmanızı sağlayacak çeşitli eğitimleri inceleyeceğiz.
@@ -55,3 +61,9 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

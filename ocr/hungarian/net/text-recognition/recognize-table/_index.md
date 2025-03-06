@@ -3,10 +3,16 @@ title: Táblázat felismerése az OCR képfelismerésben
 linktitle: Táblázat felismerése az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
-type: docs
 weight: 15
 url: /hu/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Táblázat felismerése az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük a .NET Aspose.OCR lenyűgöző világában! Ha .NET-alkalmazásait hatékony OCR (optikai karakterfelismerő) képességekkel szeretné továbbfejleszteni, akkor jó helyen jár. Ez a részletes útmutató végigvezeti a táblázatok felismerésének folyamatán az OCR képfelismerésben az Aspose.OCR for .NET használatával.
@@ -95,3 +101,9 @@ Nyomtassa ki a felismert szöveget a konzolra, vagy tárolja el további feldolg
 ### 5. kérdés: Elérhető az Aspose.OCR ingyenes próbaverziója?
 
  5. válasz: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) hogy vásárlás előtt fedezze fel a funkciókat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

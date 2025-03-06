@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 목록을 사용한 OCOperation
 linktitle: OCR 이미지 인식에서 목록을 사용한 OCOperation
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 목록을 사용하여 OCR 이미지 인식을 손쉽게 수행하세요. 애플리케이션의 생산성과 데이터 추출을 향상하십시오.
-type: docs
 weight: 13
 url: /ko/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 목록을 사용한 OCOperation
+
 ## 소개
 
 .NET용 Aspose.OCR의 기능을 활용하여 목록으로 OCR 이미지 인식을 수행하는 방법에 대한 심층 튜토리얼에 오신 것을 환영합니다. 광학 문자 인식(OCR)은 스캔한 종이 문서, PDF, 이미지 등 다양한 유형의 문서를 편집 및 검색 가능한 데이터로 변환하는 중요한 기술입니다.
@@ -105,3 +111,10 @@ A2: 물론이죠. Aspose.OCR은 다양한 이미지 형식을 지원하여 다�
 ### Q5: 구현 중에 문제가 발생하거나 특정 질문이 있으면 어떻게 합니까?
 
  A5: 부담 없이 도움을 요청하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 커뮤니티와 전문가의 신속한 지원을 위해.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

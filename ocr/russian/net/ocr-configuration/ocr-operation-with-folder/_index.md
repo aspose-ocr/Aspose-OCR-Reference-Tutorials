@@ -3,10 +3,16 @@ title: OCROОперация с папкой в распознавании изо
 linktitle: OCROОперация с папкой в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Раскройте возможности распознавания изображений OCR в .NET с помощью Aspose.OCR. Легко извлекайте текст из изображений.
-type: docs
 weight: 11
 url: /ru/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROОперация с папкой в распознавании изображений OCR
+
 ## Введение
 
 Добро пожаловать в мир оптического распознавания символов (OCR) с использованием Aspose.OCR для .NET! Если вы хотите легко извлекать текст из изображений в своих приложениях .NET, вы попали по адресу. Это руководство проведет вас через процесс распознавания изображений OCR с помощью папок, используя мощные возможности Aspose.OCR.
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### В5: Нужна поддержка или есть вопросы?
 
  A5: Посетите[Форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
 linktitle: Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng OCR hiệu quả.
-type: docs
 weight: 13
 url: /vi/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
+
 ## Giới thiệu
 
 Trong thế giới công nghệ phát triển nhanh chóng, việc trích xuất văn bản từ hình ảnh đã trở thành một nhiệm vụ quan trọng, mở ra cánh cửa cho vô số khả năng. Aspose.OCR cho Java nổi bật như một công cụ mạnh mẽ, đơn giản hóa quy trình phức tạp của Nhận dạng ký tự quang học (OCR). Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết để khai thác tiềm năng của Aspose.OCR cho Java, cho phép bạn tích hợp liền mạch nhận dạng văn bản vào các ứng dụng Java của mình.
@@ -112,3 +118,9 @@ A2: Có, bạn có thể. Tham quan[trang mua hàng](https://purchase.aspose.com
 ### Câu 5: Cần trợ giúp hoặc có thắc mắc?
 
  Câu trả lời 5: Truy cập cộng đồng Aspose.OCR[diễn đàn](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

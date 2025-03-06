@@ -3,10 +3,16 @@ title: Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
 linktitle: Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mulus.
-type: docs
 weight: 12
 url: /id/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam dunia pengenalan gambar dan pengenalan karakter optik (OCR), Aspose.OCR untuk .NET menonjol sebagai alat canggih bagi pengembang yang mencari ekstraksi teks dari gambar secara akurat dan efisien. Panduan langkah demi langkah ini akan memandu Anda melalui proses pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET, dengan fokus pada pengoperasian pemilihan bahasa.
@@ -109,3 +115,10 @@ A2: Tentu saja! Sesuaikan parameter seperti sudut kemiringan, pengenalan garis, 
 ### Q5: Bagaimana cara membeli Aspose.OCR untuk .NET?
 
  A5: Untuk membeli, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

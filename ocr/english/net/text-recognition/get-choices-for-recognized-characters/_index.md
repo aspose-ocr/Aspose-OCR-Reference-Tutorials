@@ -3,10 +3,16 @@ title: Get Choices for Recognized Characters in OCR Image Recognition
 linktitle: Get Choices for Recognized Characters in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Enhance your .NET applications with Aspose.OCR for accurate character recognition. Follow our step-by-step guide to retrieve choices for recognized characters in image recognition.
-type: docs
 weight: 10
 url: /net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Choices for Recognized Characters in OCR Image Recognition
+
 ## Introduction
 
 Unlocking the power of Optical Character Recognition (OCR) is crucial in today's digital age, and Aspose.OCR for .NET stands out as a robust solution for accurate character recognition. In this tutorial, we'll delve into a specific feature: obtaining choices for recognized characters. By the end of this guide, you'll seamlessly integrate this functionality into your .NET applications.
@@ -112,3 +118,10 @@ A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to get suppo
 ### Q5: Is there a free trial available for Aspose.OCR for .NET?
 
 A5: Yes, you can access a free trial [here](https://releases.aspose.com/) to experience the capabilities of Aspose.OCR for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

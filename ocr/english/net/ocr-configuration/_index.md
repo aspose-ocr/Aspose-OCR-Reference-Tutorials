@@ -3,10 +3,16 @@ title: OCR Configuration
 linktitle: OCR Configuration
 second_title: Aspose.OCR .NET API
 description: Effortlessly enhance your .NET applications with Aspose.OCR. Explore OCR configuration tutorials, including archive, folder, language selection and list operations.
-type: docs
 weight: 24
 url: /net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Configuration
+
 ## Introduction
 
 Embark on a journey to harness the full potential of Optical Character Recognition (OCR) in .NET applications with Aspose.OCR. Whether you're a seasoned developer or a newcomer to OCR, these tutorials will guide you through various OCR operations, ensuring you unlock the power of text extraction effortlessly.
@@ -33,3 +39,10 @@ Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text 
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: รับรู้เส้นในการจดจำภาพ OCR
 linktitle: รับรู้เส้นในการจดจำภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดปล่อยศักยภาพของ Aspose.OCR สำหรับ .NET ในการจดจำเส้นในการจดจำรูปภาพ OCR คู่มือนักพัฒนาซอฟต์แวร์ในการแยกข้อความจากรูปภาพอย่างราบรื่น
-type: docs
 weight: 14
 url: /th/net/image-and-drawing-recognition/recognize-line/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับรู้เส้นในการจดจำภาพ OCR
+
 ## การแนะนำ
 
 ในภูมิทัศน์ของเทคโนโลยีที่เปลี่ยนแปลงตลอดเวลา การรู้จำอักขระด้วยแสง (OCR) ได้กลายเป็นเครื่องมือสำคัญในการแปลงรูปภาพให้เป็นข้อความที่แก้ไขและค้นหาได้ได้อย่างราบรื่น Aspose.OCR สำหรับ .NET กลายเป็นผู้นำในโดเมนนี้ โดยนำเสนอความสามารถที่แข็งแกร่งแก่นักพัฒนา ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกถึงความซับซ้อนของการใช้ Aspose.OCR สำหรับ .NET เพื่อจดจำเส้นในการจดจำรูปภาพ OCR
@@ -98,3 +104,9 @@ A4: ได้ คุณสามารถขอรับใบอนุญาต
 ### คำถามที่ 5: ข้อกำหนดของระบบสำหรับ Aspose.OCR สำหรับ .NET คืออะไร
 
  A5: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/ocr/net/) เพื่อความต้องการของระบบที่ครอบคลุม
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

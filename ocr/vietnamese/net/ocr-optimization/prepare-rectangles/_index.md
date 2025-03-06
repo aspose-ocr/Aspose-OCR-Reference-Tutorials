@@ -3,10 +3,16 @@ title: Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
 linktitle: Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu từng bước cách chuẩn bị hình chữ nhật để nhận dạng hình ảnh. Nâng cao ứng dụng .NET của bạn bằng tích hợp OCR liền mạch.
-type: docs
 weight: 11
 url: /vi/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc chuyển đổi hình ảnh thành văn bản có thể đọc được bằng máy. Aspose.OCR cho .NET nổi bật như một giải pháp mạnh mẽ dành cho các nhà phát triển đang tìm kiếm sự tích hợp liền mạch các khả năng OCR vào các ứng dụng .NET của họ. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá quy trình chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET.
@@ -120,3 +126,9 @@ Câu trả lời 1: Có, Aspose.OCR cho .NET tương thích với nhiều khung 
 ### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.OCR cho .NET ở đâu?
 
  A5: Tài liệu có sẵn[đây](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCR-basisprincipes
 linktitle: OCR-basisprincipes
 second_title: Aspose.OCR Java-API
 description: Ontgrendel het potentieel van Aspose.OCR in Java! Stapsgewijze handleiding om uw licentie in te stellen en de OCR-mogelijkheden te vergroten. Bereken schuine hoeken en extraheer tekst naadloos.
-type: docs
 weight: 20
 url: /nl/java/ocr-basics/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-basisprincipes
+
 ## Invoering
 
 Bent u klaar om uw OCR-spel naar een hoger niveau te tillen met Aspose.OCR voor Java? Deze uitgebreide gids leidt u door essentiële tutorials, zodat u het meeste uit deze krachtige tool kunt halen. Laten we erin duiken!
@@ -35,3 +41,9 @@ Ontgrendel het potentieel van Aspose.OCR voor Java met deze stapsgewijze handlei
 Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor Java. Leer stap voor stap schuine hoeken berekenen. Verbeter moeiteloos de documentverwerking.
 ### [Rechthoeken verkrijgen met tekstgebieden in Aspose.OCR](./get-rectangles-with-text-areas/)
 Ontgrendel de kracht van Aspose.OCR voor Java. Leer hoe u naadloos tekst uit afbeeldingen kunt extraheren in deze stapsgewijze handleiding. Download nu voor efficiënte tekstherkenning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

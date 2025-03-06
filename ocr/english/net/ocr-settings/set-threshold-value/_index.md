@@ -3,10 +3,16 @@ title: Set Threshold Value in OCR Image Recognition
 linktitle: Set Threshold Value in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Explore Aspose.OCR for .NET a robust OCR solution. Set custom threshold values effortlessly. Enhance text recognition in your applications.
-type: docs
 weight: 12
 url: /net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Threshold Value in OCR Image Recognition
+
 ## Introduction
 
 Welcome to the exciting world of Aspose.OCR for .NET! In this tutorial, we'll dive deep into the capabilities of Aspose.OCR, a powerful tool designed to make optical character recognition a breeze in .NET applications. Whether you're a seasoned developer or just starting, this guide will walk you through the process of setting the threshold value in OCR image recognition using Aspose.OCR for .NET.
@@ -99,3 +105,10 @@ A4: Join the community at the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/
 ### Q5: How can I purchase the full version of Aspose.OCR for .NET?
 
 A5: To unlock all features, visit the purchase page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

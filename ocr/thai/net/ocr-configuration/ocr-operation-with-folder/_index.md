@@ -3,10 +3,16 @@ title: OCROperation กับโฟลเดอร์ในการจดจำ
 linktitle: OCROperation กับโฟลเดอร์ในการจดจำภาพ OCR
 second_title: Aspose.OCR .NET API
 description: ปลดล็อกพลังของการจดจำรูปภาพ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความออกจากรูปภาพได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROperation กับโฟลเดอร์ในการจดจำภาพ OCR
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกแห่งการรู้จำอักขระด้วยแสง (OCR) โดยใช้ Aspose.OCR สำหรับ .NET! หากคุณต้องการแยกข้อความจากรูปภาพภายในแอปพลิเคชัน .NET ของคุณได้อย่างราบรื่น แสดงว่าคุณมาถูกที่แล้ว บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการจดจำรูปภาพ OCR ด้วยโฟลเดอร์ โดยใช้ประโยชน์จากความสามารถอันทรงพลังของ Aspose.OCR
@@ -118,3 +124,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 ### Q5: ต้องการความช่วยเหลือหรือมีคำถาม?
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16) เพื่อสนับสนุนชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Specifying Allowed Characters in Aspose.OCR
 linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Unlock text extraction from images seamlessly with Aspose.OCR for Java. Follow our step-by-step guide for efficient integration.
-type: docs
 weight: 15
 url: /java/advanced-ocr-techniques/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specifying Allowed Characters in Aspose.OCR
+
 ## Introduction
 
 In the ever-evolving landscape of technology, Optical Character Recognition (OCR) has become a crucial component for businesses and developers seeking to extract meaningful information from images. Aspose.OCR for Java stands out as a powerful tool, offering seamless integration and efficient text recognition capabilities. This comprehensive guide will walk you through the process of harnessing the potential of Aspose.OCR for Java, ensuring a smooth journey from installation to practical implementation.
@@ -105,3 +111,10 @@ A:4 Aspose.OCR stays updated to ensure compatibility with the latest Java Develo
 ### Q5: Are there any additional OCR features in Aspose.OCR?
 
 A5: Explore the comprehensive features and options available in the documentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

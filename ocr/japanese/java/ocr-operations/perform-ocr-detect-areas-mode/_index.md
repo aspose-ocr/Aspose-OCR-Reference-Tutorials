@@ -3,10 +3,16 @@ title: Aspose.OCR の領域検出モードで OCR を実行する
 linktitle: Aspose.OCR の領域検出モードで OCR を実行する
 second_title: Aspose.OCR Java API
 description: Aspose.OCR for Java を使用して、画像からのテキスト抽出の機能を解放します。領域検出モードを使用した OCR に関する包括的なチュートリアル。
-type: docs
 weight: 10
 url: /ja/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR の領域検出モードで OCR を実行する
+
 ## 導入
 
 進化し続けるテクノロジーの世界では、光学式文字認識 (OCR) が画像から貴重な情報を抽出する上で極めて重要な役割を果たしています。 Aspose.OCR for Java は OCR の強力なソリューションを提供し、開発者がテキスト認識の可能性をシームレスに活用できるようにします。このチュートリアルでは、Aspose.OCR for Java を使用して領域検出モードで OCR を実行するプロセスについて説明します。
@@ -108,3 +114,9 @@ A4: はい、このチュートリアルで説明したように、Aspose.OCR �
 ### Q5: Aspose.OCR サポートのためのコミュニティ フォーラムはありますか?
 
  A5: はい、サポートを見つけたり、コミュニティに参加したりできます。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

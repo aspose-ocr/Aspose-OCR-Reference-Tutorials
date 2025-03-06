@@ -3,10 +3,16 @@ title: 在 Aspose.OCR 中为 OCR 准备矩形
 linktitle: 在 Aspose.OCR 中为 OCR 准备矩形
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR for Java 释放文本识别的强大功能。请按照我们的分步指南进行无缝集成。通过高效的 OCR 功能增强您的 Java 应用程序。
-type: docs
 weight: 13
 url: /zh/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR 中为 OCR 准备矩形
+
 ## 介绍
 
 在快节奏的技术世界中，从图像中提取文本已成为一项至关重要的任务，为无数可能性打开了大门。 Aspose.OCR for Java 是一款功能强大的工具，它简化了光学字符识别 (OCR) 的复杂过程。在这份综合指南中，我们将引导您完成利用 Aspose.OCR for Java 潜力的基本步骤，从而使您能够将文本识别无缝集成到您的 Java 应用程序中。
@@ -112,3 +118,9 @@ A2: 是的，可以。参观[购买页面](https://purchase.aspose.com/buy)探�
 ### Q5: 需要帮助或有疑问吗？
 
  A5：访问 Aspose.OCR 社区[论坛](https://forum.aspose.com/c/ocr/16)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

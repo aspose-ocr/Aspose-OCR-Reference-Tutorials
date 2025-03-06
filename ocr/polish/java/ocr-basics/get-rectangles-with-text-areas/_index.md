@@ -3,10 +3,16 @@ title: Uzyskiwanie prostokątów z obszarami tekstowymi w Aspose.OCR
 linktitle: Uzyskiwanie prostokątów z obszarami tekstowymi w Aspose.OCR
 second_title: Aspose.OCR API Java
 description: Odblokuj moc Aspose.OCR dla Java. Z tego przewodnika krok po kroku dowiesz się, jak płynnie wyodrębniać tekst z obrazów. Pobierz teraz, aby efektywnie rozpoznawać tekst.
-type: docs
 weight: 12
 url: /pl/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskiwanie prostokątów z obszarami tekstowymi w Aspose.OCR
+
 ## Wstęp
 
 Czy chcesz zintegrować zaawansowane funkcje optycznego rozpoznawania znaków (OCR) ze swoją aplikacją Java? Aspose.OCR dla Java to idealne rozwiązanie do dokładnego i wydajnego wyodrębniania tekstu z obrazów. Ten samouczek poprowadzi Cię przez proces uzyskiwania prostokątów z obszarami tekstowymi przy użyciu Aspose.OCR, pomagając w wykorzystaniu pełnego potencjału tej biblioteki Java OCR.
@@ -105,3 +111,10 @@ O1: Tak, Aspose.OCR jest kompatybilny z Java 11 i nowszymi wersjami.
 ### P5: Czy Aspose.OCR obsługuje wielowątkowość?
 
 O5: Tak, Aspose.OCR obsługuje wielowątkowość w celu poprawy wydajności w równoczesnych środowiskach.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

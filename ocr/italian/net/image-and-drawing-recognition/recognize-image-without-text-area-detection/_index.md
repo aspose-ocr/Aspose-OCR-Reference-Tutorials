@@ -3,10 +3,16 @@ title: Riconoscimento dell'immagine senza rilevamento dell'area di testo nel ric
 linktitle: Riconoscimento dell'immagine senza rilevamento dell'area di testo nel riconoscimento delle immagini OCR
 second_title: API Aspose.OCR .NET
 description: Sblocca il potenziale del riconoscimento del testo con Aspose.OCR per .NET. Riconoscere facilmente il testo dalle immagini.
-type: docs
 weight: 13
 url: /it/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Riconoscimento dell'immagine senza rilevamento dell'area di testo nel riconoscimento delle immagini OCR
+
 ## introduzione
 
 Nel panorama tecnologico in rapida evoluzione, il riconoscimento ottico dei caratteri (OCR) è diventato uno strumento fondamentale, consentendo alle macchine di comprendere il testo all'interno delle immagini. Aspose.OCR per .NET si distingue come una soluzione solida, fornendo agli sviluppatori un modo semplice per integrare le funzionalità OCR nelle loro applicazioni .NET. In questo tutorial esploreremo come riconoscere il testo da un'immagine senza rilevamento dell'area di testo, utilizzando passaggi chiari e concisi con Aspose.OCR per .NET.
@@ -100,3 +106,9 @@ A2: Sì, Aspose.OCR per .NET è versatile e può essere utilizzato sia in applic
 ### Q5: Sono disponibili licenze temporanee per Aspose.OCR?
 
  R5: Sì, puoi ottenere licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/) per un utilizzo a breve termine.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Obliczanie kąta pochylenia
 linktitle: Obliczanie kąta pochylenia
 second_title: Aspose.OCR .NET API
 description: Odblokuj sekrety dokładnego obliczania kąta skosu w rozpoznawaniu obrazu OCR za pomocą Aspose.OCR dla .NET. Bez wysiłku zwiększ precyzję i wydajność swoich projektów.
-type: docs
 weight: 20
 url: /pl/net/skew-angle-calculation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obliczanie kąta pochylenia
+
 ## Wstęp
 
 Czy zależy Ci na nienagannym rozpoznawaniu tekstu w aplikacjach C#? Nie szukaj dalej! Nasze samouczki dotyczące obliczania kąta pochylenia, obsługiwane przez Aspose.OCR dla .NET, poprowadzą Cię przez skomplikowany proces z finezją.
@@ -34,3 +40,9 @@ Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do dokładnego rozpoznawa
 Uwolnij moc Aspose.OCR dla .NET, solidnego rozwiązania do rozpoznawania obrazów. Dowiedz się, jak bez wysiłku obliczać kąty skośne.
 ### [Oblicz kąt pochylenia z URI w rozpoznawaniu obrazu OCR](./calculate-skew-angle-from-uri/)
 Przeglądaj Aspose.OCR dla .NET, aby bez wysiłku obliczyć kąty skosu w rozpoznawaniu obrazów OCR. Ulepsz swoje projekty z precyzją i wydajnością.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

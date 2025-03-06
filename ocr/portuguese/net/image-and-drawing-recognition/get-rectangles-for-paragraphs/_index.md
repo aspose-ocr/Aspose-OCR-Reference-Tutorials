@@ -3,10 +3,16 @@ title: Obtenha retângulos para parágrafos no reconhecimento de imagem OCR
 linktitle: Obtenha retângulos para parágrafos no reconhecimento de imagem OCR
 second_title: API Aspose.OCR .NET
 description: Desbloqueie recursos avançados de OCR com Aspose.OCR para .NET. Extraia retângulos de parágrafos sem esforço.
-type: docs
 weight: 11
 url: /pt/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha retângulos para parágrafos no reconhecimento de imagem OCR
+
 ## Introdução
 
 Bem-vindo ao nosso guia completo sobre como aproveitar o Aspose.OCR for .NET para extrair retângulos de parágrafo no reconhecimento de imagem OCR. Se você deseja aprimorar seus recursos de processamento de documentos e aproveitar o poder do reconhecimento óptico de caracteres (OCR) em seus aplicativos .NET, você está no lugar certo.
@@ -101,3 +107,9 @@ A2: Com certeza! Aspose.OCR facilita o processamento em lote para lidar com vár
 ### P5: Onde posso encontrar suporte e discussões adicionais relacionadas ao Aspose.OCR?
 
  A5: Vá para o[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

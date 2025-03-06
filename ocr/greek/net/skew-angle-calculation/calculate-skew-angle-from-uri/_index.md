@@ -3,10 +3,16 @@ title: Υπολογίστε τη γωνία κλίσης από το URI στη�
 linktitle: Υπολογίστε τη γωνία κλίσης από το URI στην Αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Εξερευνήστε το Aspose.OCR για .NET για να υπολογίσετε εύκολα τις γωνίες λοξής στην αναγνώριση εικόνας OCR. Βελτιώστε τα έργα σας με ακρίβεια και αποτελεσματικότητα.
-type: docs
 weight: 12
 url: /el/net/skew-angle-calculation/calculate-skew-angle-from-uri/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπολογίστε τη γωνία κλίσης από το URI στην Αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον κόσμο του Aspose.OCR για .NET! Σε αυτό το περιεκτικό σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της χρήσης του Aspose.OCR για .NET για τον υπολογισμό της γωνίας λοξής από ένα URI στην αναγνώριση εικόνας OCR. Αυτό το ισχυρό εργαλείο ανοίγει νέες δυνατότητες στην οπτική αναγνώριση χαρακτήρων, καθιστώντας τη διαδικασία πιο ομαλή και αποτελεσματική.
@@ -92,3 +98,9 @@ A4: Βεβαιωθείτε ότι έχετε εισαγάγει τους απα�
 ### Ε5: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.OCR για .NET;
 
  A5: Ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/ocr/net/) για αναλυτικές πληροφορίες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

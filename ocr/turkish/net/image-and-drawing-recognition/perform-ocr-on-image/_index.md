@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Görüntü üzerinde OCR gerçekleştirin
 linktitle: OCR Görüntü Tanıma'da Görüntü üzerinde OCR gerçekleştirin
 second_title: Aspose.OCR .NET API'si
 description: Aspose.OCR for .NET ile OCR büyüsünün kilidini açın, görüntülerden zahmetsizce metin çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
-type: docs
 weight: 14
 url: /tr/net/image-and-drawing-recognition/perform-ocr-on-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Görüntü üzerinde OCR gerçekleştirin
+
 ## giriiş
 
 Günümüzün teknoloji odaklı dünyasında, Optik Karakter Tanıma (OCR), görüntülerden değerli bilgilerin çıkarılmasında çok önemli bir rol oynamaktadır. Aspose.OCR for .NET, geliştiricilerin OCR özelliklerini uygulamalarına sorunsuz bir şekilde entegre edebilmeleri için güçlü bir araç seti sağlar. Bu adım adım kılavuz, Aspose.OCR for .NET kullanarak bir görüntü üzerinde OCR gerçekleştirme sürecinde size yol göstererek görüntüleri aranabilir ve düzenlenebilir metne dönüştürecektir.
@@ -98,3 +104,9 @@ Cevap2: Evet, Aspose.OCR'ın özelliklerini test aşamasında keşfetmek için g
 ### S5: Satın almadan önce Aspose.OCR for .NET'i ücretsiz deneyebilir miyim?
 
  A5: Kesinlikle, özellikleri bir[ücretsiz deneme](https://releases.aspose.com/) Aspose.OCR for .NET'in.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

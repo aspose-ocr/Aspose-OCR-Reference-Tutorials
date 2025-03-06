@@ -3,10 +3,16 @@ title: Stel het aantal threads in OCR-beeldherkenning in
 linktitle: Stel het aantal threads in OCR-beeldherkenning in
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel OCR-efficiëntie in .NET. Stel moeiteloos het aantal threads in met Aspose.OCR. Verbeter de nauwkeurigheid en snelheid.
-type: docs
 weight: 11
 url: /nl/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel het aantal threads in OCR-beeldherkenning in
+
 ## Invoering
 
 Welkom in de wereld van Aspose.OCR voor .NET, waar geavanceerde Optical Character Recognition (OCR)-technologie samenkomt met naadloze integratie in uw .NET-toepassingen. In deze zelfstudie gaan we in op een specifiek aspect: het instellen van het aantal threads in OCR-beeldherkenning. Deze krachtige functie optimaliseert de prestaties van uw OCR-taken en zorgt voor efficiëntie en nauwkeurigheid.
@@ -89,3 +95,9 @@ Concluderend: het instellen van het aantal threads in OCR-beeldherkenning met be
 ### Vraag 5: Heeft u hulp nodig of wilt u verbinding maken met de gemeenschap?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor ondersteuning en gemeenschapsinteractie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

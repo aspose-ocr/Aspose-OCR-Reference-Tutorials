@@ -3,10 +3,16 @@ title: OCR 影像辨識中影像的預處理濾鏡
 linktitle: OCR 影像辨識中影像的預處理濾鏡
 second_title: Aspose.OCR .NET API
 description: 探索適用於 .NET 的 Aspose.OCR。使用預處理過濾器提高 OCR 準確性。立即下載以實現無縫整合。
-type: docs
 weight: 12
 url: /zh-hant/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 影像辨識中影像的預處理濾鏡
+
 ## 介紹
 
 使用 Aspose.OCR 釋放 .NET 應用程式中光學字元辨識 (OCR) 的全部潛力。這個強大的程式庫允許開發人員無縫整合 OCR 功能，將圖像轉換為可編輯文字。在本逐步指南中，我們將深入研究用於影像增強的預處理濾鏡，以確保 OCR 影像辨識的最佳結果。
@@ -112,3 +118,9 @@ A4：Aspose.OCR 支援多種影像格式，包括 PNG、JPEG、GIF、BMP 和 TIF
 ### Q5：我可以將 Aspose.OCR 整合到我現有的 .NET 專案中嗎？
 
 A5：當然！按照教程中概述的步驟操作，您將無縫地將 Aspose.OCR 整合到您的 .NET 專案中以進行 OCR 影像識別。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: العمل مع لغات مختلفة في التعرف على الصور
 linktitle: العمل مع لغات مختلفة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لسحر التعرف الضوئي على الحروف (OCR) متعدد اللغات باستخدام Aspose.OCR لـ .NET. استخراج النص بسهولة في مختلف اللغات.
-type: docs
 weight: 15
 url: /ar/net/ocr-settings/working-with-different-languages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العمل مع لغات مختلفة في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR لـ .NET، حيث تجتمع قوة التعرف البصري على الأحرف (OCR) مع تعدد استخدامات الدعم متعدد اللغات. في هذا البرنامج التعليمي، سوف نستكشف كيفية تسخير إمكانات Aspose.OCR لـ .NET للتعرف على النص بمختلف اللغات دون عناء. إذا كنت قد تساءلت يومًا عن السحر الكامن وراء التعرف الضوئي على الحروف (OCR) للغات المختلفة، فأنت في المكان الصحيح.
@@ -100,3 +106,9 @@ Console.WriteLine(result);
 ### س5: كيف يمكنني الوصول إلى الوثائق؟
 
  A5: تتوفر وثائق Aspose.OCR لـ .NET[هنا](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

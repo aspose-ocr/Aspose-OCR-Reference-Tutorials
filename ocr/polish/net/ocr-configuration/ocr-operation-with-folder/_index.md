@@ -3,10 +3,16 @@ title: OCR Operacja z folderem w trybie rozpoznawania obrazu OCR
 linktitle: OCR Operacja z folderem w trybie rozpoznawania obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj moc rozpoznawania obrazów OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z obrazów bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Operacja z folderem w trybie rozpoznawania obrazu OCR
+
 ## Wstęp
 
 Witamy w świecie optycznego rozpoznawania znaków (OCR) przy użyciu Aspose.OCR dla .NET! Jeśli chcesz płynnie wyodrębniać tekst z obrazów w aplikacjach .NET, jesteś we właściwym miejscu. Ten samouczek poprowadzi Cię przez proces rozpoznawania obrazów OCR z folderami, wykorzystując potężne możliwości Aspose.OCR.
@@ -118,3 +124,9 @@ Gratulacje! Pomyślnie nauczyłeś się, jak wdrożyć rozpoznawanie obrazów OC
 ### P5: Potrzebujesz wsparcia lub masz pytania?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

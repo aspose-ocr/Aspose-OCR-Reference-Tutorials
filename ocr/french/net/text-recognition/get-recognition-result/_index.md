@@ -3,10 +3,16 @@ title: Obtenir le résultat de la reconnaissance dans la reconnaissance d'image 
 linktitle: Obtenir le résultat de la reconnaissance dans la reconnaissance d'image OCR
 second_title: API Aspose.OCR .NET
 description: Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance transparente du texte dans les images.
-type: docs
 weight: 11
 url: /fr/net/text-recognition/get-recognition-result/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir le résultat de la reconnaissance dans la reconnaissance d'image OCR
+
 ## Introduction
 
 Dans le monde dynamique de la programmation, une reconnaissance de texte efficace change la donne, et Aspose.OCR pour .NET apparaît comme une solution robuste. Ce didacticiel explore les nuances de l'utilisation d'Aspose.OCR pour exploiter le potentiel de la reconnaissance d'images de manière transparente.
@@ -106,3 +112,9 @@ A1 : Oui, Aspose.OCR prend en charge la reconnaissance de texte multilingue, off
 ### Q5 : Puis-je obtenir une licence temporaire pour Aspose.OCR ?
 
  A5 : Oui, vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

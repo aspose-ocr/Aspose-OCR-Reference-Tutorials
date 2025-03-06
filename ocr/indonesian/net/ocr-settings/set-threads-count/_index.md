@@ -3,10 +3,16 @@ title: Atur Jumlah Thread dalam Pengenalan Gambar OCR
 linktitle: Atur Jumlah Thread dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka efisiensi OCR di .NET. Atur jumlah thread dengan mudah menggunakan Aspose.OCR. Meningkatkan akurasi dan kecepatan.
-type: docs
 weight: 11
 url: /id/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Jumlah Thread dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET, tempat teknologi Pengenalan Karakter Optik (OCR) mutakhir memenuhi integrasi tanpa batas ke dalam aplikasi .NET Anda. Dalam tutorial ini, kita akan mempelajari aspek spesifik: mengatur Jumlah Thread di Pengenalan Gambar OCR. Fitur canggih ini mengoptimalkan kinerja tugas OCR Anda, memastikan efisiensi dan akurasi.
@@ -89,3 +95,9 @@ Kesimpulannya, mengatur Jumlah Thread dalam Pengenalan Gambar OCR menggunakan As
 ### Q5: Butuh bantuan atau ingin terhubung dengan komunitas?
 
  A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan interaksi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

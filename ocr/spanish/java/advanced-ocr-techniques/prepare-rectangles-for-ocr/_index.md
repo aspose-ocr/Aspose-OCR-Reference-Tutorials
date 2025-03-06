@@ -3,10 +3,16 @@ title: Preparando rectángulos para OCR en Aspose.OCR
 linktitle: Preparando rectángulos para OCR en Aspose.OCR
 second_title: API de Java Aspose.OCR
 description: Desbloquee el poder del reconocimiento de texto con Aspose.OCR para Java. Siga nuestra guía paso a paso para una integración perfecta. Mejore sus aplicaciones Java con capacidades de OCR eficientes.
-type: docs
 weight: 13
 url: /es/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Preparando rectángulos para OCR en Aspose.OCR
+
 ## Introducción
 
 En el vertiginoso mundo de la tecnología, extraer texto de imágenes se ha convertido en una tarea crucial, abriendo puertas a innumerables posibilidades. Aspose.OCR para Java se destaca como una herramienta poderosa que simplifica el complejo proceso de reconocimiento óptico de caracteres (OCR). En esta guía completa, lo guiaremos a través de los pasos esenciales para aprovechar el potencial de Aspose.OCR para Java, permitiéndole integrar perfectamente el reconocimiento de texto en sus aplicaciones Java.
@@ -112,3 +118,9 @@ R2: Sí, puedes. Visita el[pagina de compra](https://purchase.aspose.com/buy) pa
 ### P5: ¿Necesita ayuda o tiene preguntas?
 
  A5: Visite la comunidad Aspose.OCR[foro](https://forum.aspose.com/c/ocr/16) para apoyo y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

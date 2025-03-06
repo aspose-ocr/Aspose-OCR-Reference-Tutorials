@@ -3,10 +3,16 @@ title: Uzyskaj prostokąty dla akapitów w rozpoznawaniu obrazu OCR
 linktitle: Uzyskaj prostokąty dla akapitów w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj zaawansowane możliwości OCR dzięki Aspose.OCR dla .NET. Wyodrębnij prostokąty akapitów bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj prostokąty dla akapitów w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w naszym obszernym przewodniku na temat wykorzystania Aspose.OCR dla .NET do wyodrębniania prostokątów akapitów w rozpoznawaniu obrazów OCR. Jeśli chcesz zwiększyć możliwości przetwarzania dokumentów i wykorzystać możliwości optycznego rozpoznawania znaków (OCR) w aplikacjach .NET, jesteś we właściwym miejscu.
@@ -101,3 +107,9 @@ A2: Absolutnie! Aspose.OCR ułatwia przetwarzanie wsadowe, aby płynnie obsługi
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie i dyskusje związane z Aspose.OCR?
 
  A5: Udaj się do[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

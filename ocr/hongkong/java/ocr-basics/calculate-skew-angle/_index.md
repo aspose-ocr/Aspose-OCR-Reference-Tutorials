@@ -3,10 +3,16 @@ title: 在 Aspose.OCR for Java 中計算傾斜角度
 linktitle: 在 Aspose.OCR for Java 中計算傾斜角度
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR for Java 提高 OCR 準確性。學習逐步計算傾斜角度。輕鬆改進文件處理。
-type: docs
 weight: 11
 url: /zh-hant/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR for Java 中計算傾斜角度
+
 ## 介紹
 
 歡迎來到我們關於在 Aspose.OCR for Java 中計算傾斜角度的綜合指南！傾斜角度在文件處理中起著至關重要的作用，尤其是在處理掃描影像時。 Aspose.OCR for Java 提供了一個強大的解決方案來準確確定和糾正傾斜角度，從而提高 OCR（光學字元辨識）結果的整體品質。
@@ -94,3 +100,9 @@ A3：Aspose.OCR支援多種影像格式，包括PNG、JPEG和TIFF。確保您的
 ### Q5：我可以在哪裡尋求協助或討論與 Aspose.OCR 相關的問題？
 
  A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)參與社區並獲得 Aspose 專家的支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

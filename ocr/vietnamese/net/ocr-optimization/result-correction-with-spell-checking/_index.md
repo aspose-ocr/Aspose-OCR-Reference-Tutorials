@@ -3,10 +3,16 @@ title: Sửa kết quả bằng tính năng kiểm tra chính tả trong nhận 
 linktitle: Sửa kết quả bằng tính năng kiểm tra chính tả trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Nâng cao độ chính xác của OCR với Aspose.OCR cho .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và nhận dạng văn bản không có lỗi một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa kết quả bằng tính năng kiểm tra chính tả trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong lĩnh vực Nhận dạng ký tự quang học (OCR), việc đạt được kết quả chính xác là rất quan trọng để trích xuất thông tin có ý nghĩa từ hình ảnh. Một thách thức phổ biến là xử lý các từ sai chính tả trong quá trình nhận dạng. May mắn thay, Aspose.OCR cho .NET cung cấp một giải pháp mạnh mẽ để nâng cao kết quả OCR thông qua việc kiểm tra chính tả.
@@ -136,3 +142,9 @@ A4: Chắc chắn rồi! Hướng dẫn này trình bày cách nâng cao khả n
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.OCR ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ và hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

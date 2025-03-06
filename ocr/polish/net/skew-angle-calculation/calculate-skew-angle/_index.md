@@ -3,10 +3,16 @@ title: Oblicz kąt skosu w rozpoznawaniu obrazu OCR
 linktitle: Oblicz kąt skosu w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do dokładnego rozpoznawania tekstu w aplikacjach C#.
-type: docs
 weight: 10
 url: /pl/net/skew-angle-calculation/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oblicz kąt skosu w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w świecie Aspose.OCR dla .NET, potężnego narzędzia, które umożliwia programistom bezproblemową integrację funkcji optycznego rozpoznawania znaków (OCR) z aplikacjami .NET. W tym obszernym przewodniku zagłębimy się w konkretny przypadek użycia: obliczanie kąta skosu w rozpoznawaniu obrazu OCR. Ten samouczek jest przeznaczony zarówno dla początkujących, jak i doświadczonych programistów, zapewniając krok po kroku przewodnik, który pozwoli Ci wykorzystać pełny potencjał Aspose.OCR.
@@ -105,3 +111,9 @@ A2: Absolutnie! Aspose.OCR obsługuje szeroką gamę języków, dzięki czemu je
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR?
 
 A5: Oczywiście! Poznaj funkcje za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

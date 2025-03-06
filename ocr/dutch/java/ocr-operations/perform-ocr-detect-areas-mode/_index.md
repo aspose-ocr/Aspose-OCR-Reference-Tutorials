@@ -3,10 +3,16 @@ title: OCR uitvoeren met de modus Gebieden detecteren in Aspose.OCR
 linktitle: OCR uitvoeren met de modus Gebieden detecteren in Aspose.OCR
 second_title: Aspose.OCR Java-API
 description: Ontgrendel de kracht van tekstextractie uit afbeeldingen met Aspose.OCR voor Java. Een uitgebreide tutorial over OCR met de modus Gebieden detecteren.
-type: docs
 weight: 10
 url: /nl/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR uitvoeren met de modus Gebieden detecteren in Aspose.OCR
+
 ## Invoering
 
 In de steeds evoluerende wereld van de technologie speelt Optical Character Recognition (OCR) een cruciale rol bij het extraheren van waardevolle informatie uit afbeeldingen. Aspose.OCR voor Java biedt een krachtige oplossing voor OCR, waardoor ontwikkelaars de mogelijkheden van tekstherkenning naadloos kunnen benutten. Deze tutorial leidt u door het proces van het uitvoeren van OCR met de modus Detect Areas met behulp van Aspose.OCR voor Java.
@@ -108,3 +114,9 @@ A4: Ja, zoals in deze tutorial wordt gedemonstreerd, biedt Aspose.OCR gecorrigee
 ### V5: Is er een communityforum voor Aspose.OCR-ondersteuning?
 
  A5: Ja, u kunt ondersteuning vinden en in contact komen met de gemeenschap op de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

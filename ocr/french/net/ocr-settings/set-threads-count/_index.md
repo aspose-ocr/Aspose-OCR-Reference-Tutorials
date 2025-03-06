@@ -3,10 +3,16 @@ title: Définir le nombre de threads dans la reconnaissance d'images OCR
 linktitle: Définir le nombre de threads dans la reconnaissance d'images OCR
 second_title: API Aspose.OCR .NET
 description: Libérez l’efficacité de l’OCR dans .NET. Réglez le nombre de threads sans effort avec Aspose.OCR. Augmentez la précision et la vitesse.
-type: docs
 weight: 11
 url: /fr/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le nombre de threads dans la reconnaissance d'images OCR
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.OCR pour .NET, où la technologie de reconnaissance optique de caractères (OCR) de pointe rencontre une intégration transparente dans vos applications .NET. Dans ce didacticiel, nous aborderons un aspect spécifique : la définition du nombre de threads dans la reconnaissance d'images OCR. Cette fonctionnalité puissante optimise les performances de vos tâches OCR, garantissant efficacité et précision.
@@ -89,3 +95,9 @@ En conclusion, la définition du nombre de threads dans la reconnaissance d'imag
 ### Q5 : Besoin d'aide ou souhaitez-vous vous connecter avec la communauté ?
 
  A5 : Visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour le soutien et l’interaction communautaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

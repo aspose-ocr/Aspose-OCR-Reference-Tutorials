@@ -3,10 +3,16 @@ title: ضبط عدد المواضيع في التعرف على الصور OCR
 linktitle: ضبط عدد المواضيع في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: فتح كفاءة التعرف الضوئي على الحروف في .NET. اضبط عدد الخيوط بسهولة باستخدام Aspose.OCR. تعزيز الدقة والسرعة.
-type: docs
 weight: 11
 url: /ar/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ضبط عدد المواضيع في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR لـ .NET، حيث تلتقي تقنية التعرف الضوئي على الحروف (OCR) المتطورة مع التكامل السلس في تطبيقات .NET الخاصة بك. في هذا البرنامج التعليمي، سوف نتعمق في جانب محدد: تعيين عدد الخيوط في التعرف الضوئي على الحروف (OCR). تعمل هذه الميزة القوية على تحسين أداء مهام التعرف الضوئي على الحروف (OCR)، مما يضمن الكفاءة والدقة.
@@ -89,3 +95,9 @@ Console.WriteLine(result.RecognitionText);
 ### س5: هل تحتاج إلى مساعدة أو تريد التواصل مع المجتمع؟
 
  ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للدعم والتفاعل المجتمعي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

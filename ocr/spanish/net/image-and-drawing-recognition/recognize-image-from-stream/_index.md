@@ -3,10 +3,16 @@ title: Reconocer imagen de secuencia en reconocimiento de imagen OCR
 linktitle: Reconocer imagen de secuencia en reconocimiento de imagen OCR
 second_title: API Aspose.OCR .NET
 description: Desbloquee la magia del OCR con Aspose.OCR para .NET. Extraiga texto de imágenes sin esfuerzo. Explore el tutorial para obtener orientación paso a paso.
-type: docs
 weight: 12
 url: /es/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Reconocer imagen de secuencia en reconocimiento de imagen OCR
+
 ## Introducción
 
 ¡Bienvenido al apasionante ámbito del reconocimiento óptico de caracteres (OCR) utilizando Aspose.OCR para .NET! Ya sea que sea un desarrollador experimentado o simplemente se esté sumergiendo en el mundo del OCR, esta guía paso a paso lo guiará para reconocer imágenes de transmisiones sin esfuerzo. Aspose.OCR para .NET es una herramienta sólida que permite una integración perfecta de la funcionalidad OCR en sus aplicaciones .NET, lo que facilita la extracción de texto de imágenes.
@@ -105,3 +111,9 @@ R1: Sí, Aspose.OCR admite una amplia gama de idiomas, lo que lo hace versátil 
 ### P5: ¿Dónde puedo comprar Aspose.OCR para .NET?
 
  R5: Para hacer de Aspose.OCR una parte permanente de su kit de herramientas, visite el[pagina de compra](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διόρθωση αποτελεσμάτων με ορθογραφικό �
 linktitle: Διόρθωση αποτελεσμάτων με ορθογραφικό έλεγχο στην αναγνώριση εικόνας OCR
 second_title: Aspose.OCR .NET API
 description: Βελτιώστε την ακρίβεια OCR με το Aspose.OCR για .NET. Διορθώστε την ορθογραφία, προσαρμόστε τα λεξικά και επιτύχετε την αναγνώριση κειμένου χωρίς σφάλματα χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διόρθωση αποτελεσμάτων με ορθογραφικό έλεγχο στην αναγνώριση εικόνας OCR
+
 ## Εισαγωγή
 
 Στον τομέα της οπτικής αναγνώρισης χαρακτήρων (OCR), η επίτευξη ακριβών αποτελεσμάτων είναι ζωτικής σημασίας για την εξαγωγή ουσιαστικών πληροφοριών από εικόνες. Μια κοινή πρόκληση είναι η αντιμετώπιση των λανθασμένων λέξεων στη διαδικασία αναγνώρισης. Ευτυχώς, το Aspose.OCR για .NET παρέχει μια ισχυρή λύση για τη βελτίωση των αποτελεσμάτων OCR μέσω ορθογραφικού ελέγχου.
@@ -136,3 +142,9 @@ A1: Ναι, το Aspose.OCR υποστηρίζει πολλές γλώσσες. 
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη για το Aspose.OCR;
 
  A5: Επισκεφθείτε το[Aspose.OCR φόρουμ](https://forum.aspose.com/c/ocr/16) για κοινοτική υποστήριξη και καθοδήγηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

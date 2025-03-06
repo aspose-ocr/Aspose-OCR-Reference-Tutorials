@@ -3,10 +3,16 @@ title: 图像和绘图识别
 linktitle: 图像和绘图识别
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR for .NET 解锁 OCR 图像识别的精度。轻松从图像中提取文本，无论是行、段落还是整个流。
-type: docs
 weight: 22
 url: /zh/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 图像和绘图识别
+
 ## 介绍
 
 您准备好提升您的 OCR 图像识别能力了吗？ Aspose.OCR for .NET 是解锁图像文本提取精度的关键。在本综合指南中，我们将探索各种教程，深入探讨使用 Aspose.OCR for .NET 进行图像和绘图识别的不同方面。让我们深入研究并释放无缝文本提取的力量。
@@ -48,3 +54,9 @@ url: /zh/net/image-and-drawing-recognition/
 释放 Aspose.OCR for .NET 在 OCR 图像识别中识别线条的潜力。从图像中无缝提取文本的开发人员指南。
 ### [在 OCR 图像识别中对图像执行 OCR](./perform-ocr-on-image/)
 使用 Aspose.OCR for .NET 解锁 OCR 魔力，轻松从图像中提取文本。探索无缝集成教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kenali PDF dalam Pengenalan Gambar OCR
 linktitle: Kenali PDF dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
-type: docs
 weight: 14
 url: /id/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kenali PDF dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Pengenalan Karakter Optik (OCR) dengan Aspose.OCR untuk .NET! Jika Anda ingin memanfaatkan kemampuan OCR dalam aplikasi .NET, Anda berada di tempat yang tepat. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara mengenali teks dalam PDF menggunakan perpustakaan Aspose.OCR. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memandu Anda melalui prosesnya, memastikan bahwa Anda dapat dengan mudah mengintegrasikan fungsionalitas OCR ke dalam proyek Anda.
@@ -101,3 +107,9 @@ A2: Tentu saja! Aspose.OCR terintegrasi dengan mulus ke dalam aplikasi web dan d
 ### Q5: Di mana saya dapat membeli Aspose.OCR untuk .NET?
 
  A5: Anda dapat membeli produk dari[halaman pembelian](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

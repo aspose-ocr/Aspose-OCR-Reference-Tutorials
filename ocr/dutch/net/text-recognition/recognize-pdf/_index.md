@@ -3,10 +3,16 @@ title: Herken PDF in OCR-beeldherkenning
 linktitle: Herken PDF in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
-type: docs
 weight: 14
 url: /nl/net/text-recognition/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Herken PDF in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom in de wereld van Optical Character Recognition (OCR) met Aspose.OCR voor .NET! Als u graag de mogelijkheden van OCR in uw .NET-toepassingen wilt benutten, bent u hier op de juiste plek. In deze stapsgewijze handleiding onderzoeken we hoe u tekst in een PDF kunt herkennen met behulp van de Aspose.OCR-bibliotheek. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial leidt u door het proces en zorgt ervoor dat u de OCR-functionaliteit eenvoudig in uw projecten kunt integreren.
@@ -101,3 +107,9 @@ A2: Absoluut! Aspose.OCR kan naadloos worden geïntegreerd in zowel web- als des
 ### V5: Waar kan ik Aspose.OCR voor .NET kopen?
 
  A5: U kunt het product kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

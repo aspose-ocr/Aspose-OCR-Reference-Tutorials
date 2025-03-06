@@ -3,10 +3,16 @@ title: Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
 linktitle: Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Jelajahi Aspose.OCR untuk .NET solusi OCR yang tangguh. Tetapkan nilai ambang batas khusus dengan mudah. Tingkatkan pengenalan teks di aplikasi Anda.
-type: docs
 weight: 12
 url: /id/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.OCR untuk .NET yang menarik! Dalam tutorial ini, kita akan mendalami kemampuan Aspose.OCR, alat canggih yang dirancang untuk memudahkan pengenalan karakter optik dalam aplikasi .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui proses pengaturan nilai ambang batas dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
@@ -99,3 +105,9 @@ A1: Tentu saja! Aspose.OCR untuk .NET serbaguna dan dapat diintegrasikan dengan 
 ### Q5: Bagaimana cara membeli versi lengkap Aspose.OCR untuk .NET?
 
  A5: Untuk membuka kunci semua fitur, kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

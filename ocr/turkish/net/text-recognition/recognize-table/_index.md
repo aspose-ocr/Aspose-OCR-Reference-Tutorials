@@ -3,10 +3,16 @@ title: OCR Görüntü Tanıma'da Tabloyu Tanıma
 linktitle: OCR Görüntü Tanıma'da Tabloyu Tanıma
 second_title: Aspose.OCR .NET API'si
 description: OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
-type: docs
 weight: 15
 url: /tr/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Görüntü Tanıma'da Tabloyu Tanıma
+
 ## giriiş
 
 Aspose.OCR for .NET'in büyüleyici dünyasına hoş geldiniz! .NET uygulamalarınızı güçlü OCR (Optik Karakter Tanıma) özellikleriyle geliştirmek istiyorsanız doğru yerdesiniz. Bu adım adım kılavuz, Aspose.OCR for .NET kullanarak OCR görüntü tanımada tabloları tanıma sürecinde size yol gösterecektir.
@@ -95,3 +101,9 @@ Sonuç olarak Aspose.OCR for .NET, geliştiricilerin OCR yeteneklerini uygulamal
 ### S5: Aspose.OCR için ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

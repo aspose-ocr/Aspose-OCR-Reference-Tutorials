@@ -3,10 +3,16 @@ title: Cách đặt giấy phép cho Aspose.OCR trong Java
 linktitle: Cách đặt giấy phép cho Aspose.OCR trong Java
 second_title: API Java Aspose.OCR
 description: Khai phá tiềm năng của Aspose.OCR cho Java bằng hướng dẫn từng bước này. Thiết lập giấy phép của bạn một cách dễ dàng và nâng cao khả năng OCR của bạn.
-type: docs
 weight: 10
 url: /vi/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách đặt giấy phép cho Aspose.OCR trong Java
+
 ## Giới thiệu
 
 Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đã trở thành một công cụ then chốt để trích xuất thông tin văn bản từ hình ảnh. Aspose.OCR cho Java nổi bật như một giải pháp OCR mạnh mẽ, trao quyền cho các nhà phát triển tích hợp liền mạch các khả năng OCR vào các ứng dụng Java của họ. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thiết lập giấy phép Aspose.OCR trong Java, đảm bảo bạn khai thác toàn bộ tiềm năng của công cụ mạnh mẽ này.
@@ -78,3 +84,9 @@ Câu trả lời 4: Có, Aspose.OCR có thể được sử dụng cho cả dự
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ bổ sung cho Aspose.OCR cho Java ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

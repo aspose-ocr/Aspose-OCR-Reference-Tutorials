@@ -3,10 +3,16 @@ title: Få val för igenkända karaktärer i OCR-bildigenkänning
 linktitle: Få val för igenkända karaktärer i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Förbättra dina .NET-applikationer med Aspose.OCR för korrekt teckenigenkänning. Följ vår steg-för-steg-guide för att hämta val för igenkända karaktärer i bildigenkänning.
-type: docs
 weight: 10
 url: /sv/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få val för igenkända karaktärer i OCR-bildigenkänning
+
 ## Introduktion
 
 Att låsa upp kraften hos Optical Character Recognition (OCR) är avgörande i dagens digitala tidsålder, och Aspose.OCR för .NET utmärker sig som en robust lösning för korrekt teckenigenkänning. I den här handledningen kommer vi att fördjupa oss i en specifik funktion: att få valmöjligheter för igenkända karaktärer. I slutet av den här guiden kommer du sömlöst att integrera den här funktionen i dina .NET-applikationer.
@@ -112,3 +118,9 @@ S2: Ja, du kan integrera Aspose.OCR för .NET i webbapplikationer, vilket gör d
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.OCR för .NET?
 
  A5: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/) för att uppleva funktionerna i Aspose.OCR för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: OCROoperacja z listą w rozpoznawaniu obrazu OCR
 linktitle: OCROoperacja z listą w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potencjał Aspose.OCR dla .NET. Bez wysiłku rozpoznaj obrazy OCR za pomocą list. Zwiększ produktywność i ekstrakcję danych w swoich aplikacjach.
-type: docs
 weight: 13
 url: /pl/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROoperacja z listą w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w naszym szczegółowym samouczku na temat wykorzystania mocy Aspose.OCR dla .NET do rozpoznawania obrazów OCR za pomocą list. Optyczne rozpoznawanie znaków (OCR) to kluczowa technologia, która przekształca różne typy dokumentów — takie jak zeskanowane dokumenty papierowe, pliki PDF lub obrazy — w dane, które można edytować i przeszukiwać.
@@ -105,3 +111,10 @@ A2: Absolutnie. Aspose.OCR obsługuje szeroką gamę formatów obrazów, zapewni
 ### P5: Co się stanie, jeśli podczas wdrażania napotkam problemy lub będę mieć konkretne pytania?
 
  Odpowiedź 5: Możesz poprosić o pomoc w sprawie[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za szybkie wsparcie ze strony społeczności i ekspertów.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

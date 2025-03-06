@@ -3,10 +3,16 @@ title: Optimasi OCR
 linktitle: Optimasi OCR
 second_title: Aspose.OCR .NET API
 description: Buka kekuatan Aspose.OCR untuk .NET dengan tutorial komprehensif kami. Baik Anda seorang pengembang berpengalaman atau pemula, panduan ini akan meningkatkan permainan OCR Anda.
-type: docs
 weight: 25
 url: /id/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Optimasi OCR
+
 ## Perkenalan
 
 Maksimalkan akurasi OCR dengan Aspose.OCR untuk tutorial .NET. Lakukan OCR pada gambar, siapkan persegi panjang, terapkan filter prapemrosesan, koreksi hasil dengan pemeriksaan ejaan, dan simpan hasil multihalaman dengan mudah.
@@ -44,3 +50,9 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter pra-pemrose
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

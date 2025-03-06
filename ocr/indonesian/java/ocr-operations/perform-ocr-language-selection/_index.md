@@ -3,10 +3,16 @@ title: Melakukan OCR dengan Pemilihan Bahasa di Aspose.OCR
 linktitle: Melakukan OCR dengan Pemilihan Bahasa di Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Buka kunci ekstraksi teks yang tepat dari gambar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk OCR yang akurat dengan pemilihan bahasa.
-type: docs
 weight: 11
 url: /id/java/ocr-operations/perform-ocr-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Melakukan OCR dengan Pemilihan Bahasa di Aspose.OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) memainkan peran penting dalam mengekstraksi informasi bermakna dari gambar. Aspose.OCR untuk Java menonjol sebagai alat canggih yang memungkinkan pengembang mengintegrasikan kemampuan OCR secara mulus ke dalam aplikasi Java mereka. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara melakukan OCR dengan pemilihan bahasa menggunakan Aspose.OCR, sehingga membuka potensi untuk memproses beragam konten dengan presisi.
@@ -144,3 +150,9 @@ A4: Tentu saja. Manfaatkan fitur RecognitionAreas untuk menentukan persegi panja
 ### Q5: Apakah Aspose.OCR cocok untuk proyek pribadi dan komersial?
 
 A5: Ya, Aspose.OCR menawarkan opsi lisensi yang fleksibel, sehingga cocok untuk penggunaan pribadi dan komersial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

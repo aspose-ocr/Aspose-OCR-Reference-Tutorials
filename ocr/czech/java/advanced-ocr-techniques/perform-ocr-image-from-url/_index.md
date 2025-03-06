@@ -3,10 +3,16 @@ title: Provádění OCR na obrázku z URL v Aspose.OCR pro Java
 linktitle: Provádění OCR na obrázku z URL v Aspose.OCR pro Java
 second_title: Aspose.OCR Java API
 description: Odemkněte bezproblémovou extrakci textu obrázku v Javě pomocí Aspose.OCR. Vysoce přesné OCR se snadnou integrací.
-type: docs
 weight: 11
 url: /cs/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Provádění OCR na obrázku z URL v Aspose.OCR pro Java
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci prováděním optického rozpoznávání znaků (OCR) na obrázku z adresy URL pomocí Aspose.OCR for Java. Tento tutoriál je navržen tak, aby vám pomohl bezproblémově integrovat Aspose.OCR do vašich aplikací Java, což vám umožní snadno extrahovat text z obrázků. Aspose.OCR je výkonná OCR knihovna, která podporuje různé obrazové formáty, díky čemuž je cenným nástrojem pro aplikace vyžadující extrakci textu.
@@ -125,3 +131,10 @@ Odpověď 3: Ano, zajistěte soulad s licenčními podmínkami Aspose.OCR pro ko
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.OCR pro Java?
 
  Odpověď 5: Ano, prozkoumejte funkce Aspose.OCR s bezplatnou zkušební verzí dostupnou na[releases.aspose.com](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

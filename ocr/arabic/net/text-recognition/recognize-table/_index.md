@@ -3,10 +3,16 @@ title: التعرف على الجدول في التعرف على الصور OCR
 linktitle: التعرف على الجدول في التعرف على الصور OCR
 second_title: Aspose.OCR .NET API
 description: أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
-type: docs
 weight: 15
 url: /ar/net/text-recognition/recognize-table/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعرف على الجدول في التعرف على الصور OCR
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.OCR الرائع لـ .NET! إذا كنت تتطلع إلى تحسين تطبيقات .NET الخاصة بك باستخدام إمكانات التعرف الضوئي على الحروف (OCR) القوية، فأنت في المكان الصحيح. سيرشدك هذا الدليل خطوة بخطوة خلال عملية التعرف على الجداول في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) باستخدام Aspose.OCR لـ .NET.
@@ -95,3 +101,9 @@ Console.WriteLine(result.RecognitionText);
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.OCR؟
 
  ج5: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) لاستكشاف الميزات قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

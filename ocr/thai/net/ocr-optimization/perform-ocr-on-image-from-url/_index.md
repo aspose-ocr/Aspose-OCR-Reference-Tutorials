@@ -3,10 +3,16 @@ title: ดำเนินการ OCR กับรูปภาพจาก URL 
 linktitle: ดำเนินการ OCR กับรูปภาพจาก URL ใน OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: สำรวจการบูรณาการ OCR อย่างราบรื่นกับ Aspose.OCR สำหรับ .NET จดจำข้อความจากรูปภาพได้อย่างแม่นยำ
-type: docs
 weight: 10
 url: /th/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ดำเนินการ OCR กับรูปภาพจาก URL ใน OCR Image Recognition
+
 ## การแนะนำ
 
 ในขอบเขตของการรู้จำอักขระด้วยแสง (OCR) Aspose.OCR สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถแยกเนื้อหาข้อความจากรูปภาพได้อย่างแม่นยำ หากคุณต้องการรวมความสามารถ OCR เข้ากับแอปพลิเคชัน .NET ของคุณและดำเนินการจดจำข้อความได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการดำเนินการ OCR บนรูปภาพจาก URL
@@ -120,3 +126,9 @@ A2: แน่นอน! Aspose.OCR ให้ความยืดหยุ่น
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนหรือการสนทนาในชุมชนที่เกี่ยวข้องกับ Aspose.OCR ได้ที่ไหน
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16) เพื่อการสนับสนุนและการมีส่วนร่วมกับชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

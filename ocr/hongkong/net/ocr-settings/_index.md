@@ -3,10 +3,16 @@ title: 光學字元辨識設定
 linktitle: 光學字元辨識設定
 second_title: Aspose.OCR .NET API
 description: 透過我們的 OCR 設定教學解鎖 Aspose.OCR for .NET 的強大功能。了解如何提高圖像中文字辨識的準確性、速度和客製化。
-type: docs
 weight: 26
 url: /zh-hant/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 光學字元辨識設定
+
 
 ## 介紹
 
@@ -50,3 +56,9 @@ Aspose.OCR for .NET 引入了先進的 OCR 功能，不僅高效，而且對開�
 使用 Aspose.OCR for .NET 探索進階 OCR 功能。高效、準確且對開發人員友好。
 ### [在 OCR 影像辨識中使用不同語言](./working-with-different-languages/)
 使用 Aspose.OCR for .NET 解鎖多語言 OCR 的魔力。輕鬆擷取各種語言的文字。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

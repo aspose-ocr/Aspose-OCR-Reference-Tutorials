@@ -3,10 +3,16 @@ title: Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
 linktitle: Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze tekstherkenning.
-type: docs
 weight: 13
 url: /nl/net/ocr-optimization/result-correction-with-spell-checking/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
+
 ## Invoering
 
 Op het gebied van Optical Character Recognition (OCR) is het behalen van nauwkeurige resultaten cruciaal voor het extraheren van betekenisvolle informatie uit afbeeldingen. Een veel voorkomende uitdaging is het omgaan met verkeerd gespelde woorden tijdens het herkenningsproces. Gelukkig biedt Aspose.OCR voor .NET een krachtige oplossing om de OCR-resultaten te verbeteren door middel van spellingcontrole.
@@ -136,3 +142,9 @@ A4: Absoluut! De tutorial laat zien hoe u de correctie kunt verbeteren met behul
 ### V5: Waar kan ik ondersteuning zoeken voor Aspose.OCR?
 
  A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapsondersteuning en begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

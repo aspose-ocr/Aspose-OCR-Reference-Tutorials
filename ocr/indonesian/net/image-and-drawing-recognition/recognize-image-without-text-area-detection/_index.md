@@ -3,10 +3,16 @@ title: Kenali Gambar tanpa Deteksi Area Teks dalam Pengenalan Gambar OCR
 linktitle: Kenali Gambar tanpa Deteksi Area Teks dalam Pengenalan Gambar OCR
 second_title: Aspose.OCR .NET API
 description: Buka potensi pengenalan teks dengan Aspose.OCR untuk .NET. Kenali teks dari gambar dengan mudah.
-type: docs
 weight: 13
 url: /id/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kenali Gambar tanpa Deteksi Area Teks dalam Pengenalan Gambar OCR
+
 ## Perkenalan
 
 Dalam lanskap teknologi yang berkembang pesat, Pengenalan Karakter Optik (OCR) telah menjadi alat penting yang memungkinkan mesin memahami teks dalam gambar. Aspose.OCR untuk .NET menonjol sebagai solusi tangguh, memberikan pengembang cara mudah untuk mengintegrasikan kemampuan OCR ke dalam aplikasi .NET mereka. Dalam tutorial ini, kita akan mempelajari cara mengenali teks dari gambar tanpa deteksi area teks, menggunakan langkah-langkah yang jelas dan ringkas dengan Aspose.OCR untuk .NET.
@@ -100,3 +106,9 @@ A2: Ya, Aspose.OCR untuk .NET serbaguna dan dapat digunakan di aplikasi .NET des
 ### Q5: Apakah lisensi sementara tersedia untuk Aspose.OCR?
 
  A5: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

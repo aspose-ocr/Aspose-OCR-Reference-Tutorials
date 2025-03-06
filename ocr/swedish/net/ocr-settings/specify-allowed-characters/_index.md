@@ -3,10 +3,16 @@ title: Ange tillåtna tecken i OCR-bildigenkänning
 linktitle: Ange tillåtna tecken i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp exakt OCR i .NET med Aspose.OCR. Känn igen text från bilder utan ansträngning. Ladda ner nu för en transformativ utvecklingsupplevelse.
-type: docs
 weight: 13
 url: /sv/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ange tillåtna tecken i OCR-bildigenkänning
+
 ## Introduktion
 
 det ständigt föränderliga tekniklandskapet har Optical Character Recognition (OCR) dykt upp som ett transformativt verktyg som gör det möjligt för maskiner att förstå text från bilder. Aspose.OCR för .NET framstår som en kraftfull lösning som ger sömlös integration för utvecklare som söker robusta OCR-funktioner i sina .NET-applikationer.
@@ -119,3 +125,9 @@ S2: Ja, Aspose.OCR stöder igenkänning på olika språk, vilket gör den mångs
 ### F5: Var kan jag söka hjälp eller få kontakt med samhället för stöd?
 
  A5: Besök[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) att engagera sig i samhället och få experthjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kép felismerése szövegterület-felismerés nélkül az OCR képfelisme
 linktitle: Kép felismerése szövegterület-felismerés nélkül az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Használja ki a szövegfelismerésben rejlő lehetőségeket az Aspose.OCR for .NET segítségével. Könnyedén felismerheti a szöveget a képekről.
-type: docs
 weight: 13
 url: /hu/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép felismerése szövegterület-felismerés nélkül az OCR képfelismerésben
+
 ## Bevezetés
 
 technológia gyorsan fejlődő világában az Optical Character Recognition (OCR) kulcsfontosságú eszközzé vált, amely lehetővé teszi a gépek számára a képek szövegének megértését. Az Aspose.OCR for .NET robusztus megoldásként tűnik ki, és a fejlesztők számára zökkenőmentesen integrálhatja az OCR képességeket .NET-alkalmazásaikba. Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan lehet szöveget felismerni egy képről szövegterület-felismerés nélkül, az Aspose.OCR for .NET segítségével világos és tömör lépésekkel.
@@ -100,3 +106,9 @@ Az Aspose.OCR for .NET lehetővé teszi a fejlesztők számára, hogy az OCR-ké
 ### 5. kérdés: Rendelkezésre állnak-e ideiglenes licencek az Aspose.OCR számára?
 
  V5: Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Λήψη ορθογωνίων με περιοχές κειμένου στ
 linktitle: Λήψη ορθογωνίων με περιοχές κειμένου στο Aspose.OCR
 second_title: Aspose.OCR Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.OCR για Java. Μάθετε πώς να εξάγετε κείμενο από εικόνες απρόσκοπτα σε αυτόν τον οδηγό βήμα προς βήμα. Κάντε λήψη τώρα για αποτελεσματική αναγνώριση κειμένου.
-type: docs
 weight: 12
 url: /el/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λήψη ορθογωνίων με περιοχές κειμένου στο Aspose.OCR
+
 ## Εισαγωγή
 
 Ψάχνετε να ενσωματώσετε ισχυρές δυνατότητες οπτικής αναγνώρισης χαρακτήρων (OCR) στην εφαρμογή σας Java; Το Aspose.OCR για Java είναι η ιδανική λύση για ακριβή και αποτελεσματική εξαγωγή κειμένου από εικόνες. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία λήψης ορθογωνίων με περιοχές κειμένου χρησιμοποιώντας το Aspose.OCR, βοηθώντας σας να αξιοποιήσετε πλήρως τις δυνατότητες αυτής της βιβλιοθήκης Java OCR.
@@ -105,3 +111,10 @@ A1: Ναι, το Aspose.OCR είναι συμβατό με Java 11 και νεό
 ### Ε5: Υποστηρίζει το Aspose.OCR multithreading;
 
 A5: Ναι, το Aspose.OCR υποστηρίζει multithreading για βελτιωμένη απόδοση σε ταυτόχρονα περιβάλλοντα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

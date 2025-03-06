@@ -3,10 +3,16 @@ title: Set Threads Count in OCR Image Recognition
 linktitle: Set Threads Count in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Unlock OCR efficiency in .NET. Set thread count effortlessly with Aspose.OCR. Boost accuracy and speed.
-type: docs
 weight: 11
 url: /net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Threads Count in OCR Image Recognition
+
 ## Introduction
 
 Welcome to the world of Aspose.OCR for .NET, where cutting-edge Optical Character Recognition (OCR) technology meets seamless integration into your .NET applications. In this tutorial, we'll delve into a specific aspect: setting the Threads Count in OCR Image Recognition. This powerful feature optimizes the performance of your OCR tasks, ensuring efficiency and accuracy.
@@ -89,3 +95,10 @@ A4: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### Q5: Need assistance or want to connect with the community?
 
 A5: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for support and community interaction.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

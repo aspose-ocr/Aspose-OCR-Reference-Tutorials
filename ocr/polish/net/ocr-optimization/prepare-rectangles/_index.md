@@ -3,10 +3,16 @@ title: Przygotuj prostokąty w rozpoznawaniu obrazu OCR
 linktitle: Przygotuj prostokąty w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi. Dowiedz się krok po kroku jak przygotować prostokąty do rozpoznawania obrazu. Ulepsz swoje aplikacje .NET dzięki płynnej integracji OCR.
-type: docs
 weight: 11
 url: /pl/net/ocr-optimization/prepare-rectangles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przygotuj prostokąty w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 W stale rozwijającym się środowisku technologicznym optyczne rozpoznawanie znaków (OCR) odgrywa kluczową rolę w przekształcaniu obrazów w tekst nadający się do odczytu maszynowego. Aspose.OCR dla .NET wyróżnia się jako solidne rozwiązanie dla programistów poszukujących bezproblemowej integracji możliwości OCR z aplikacjami .NET. W tym obszernym przewodniku omówimy proces przygotowywania prostokątów w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR dla .NET.
@@ -120,3 +126,9 @@ O1: Tak, Aspose.OCR dla .NET jest kompatybilny z różnymi frameworkami .NET.
 ### P5: Gdzie mogę znaleźć dokumentację Aspose.OCR dla .NET?
 
  Odpowiedź 5: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/ocr/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

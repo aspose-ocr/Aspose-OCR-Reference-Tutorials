@@ -3,10 +3,16 @@ title: Get Rectangles for Lines in OCR Image Recognition
 linktitle: Get Rectangles for Lines in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Explore Aspose.OCR for .NET your key to precise OCR image recognition. Unleash the power of text extraction effortlessly.
-type: docs
 weight: 10
 url: /net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Rectangles for Lines in OCR Image Recognition
+
 ## Introduction
 
 Welcome to the world of Aspose.OCR for .NET, a powerful tool that allows you to harness the potential of Optical Character Recognition (OCR) in your .NET applications. Whether you're a seasoned developer or a curious enthusiast, this guide will walk you through the process of getting rectangles for lines in OCR image recognition using Aspose.OCR.
@@ -110,3 +116,10 @@ A4: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for deta
 ### Q5: Need assistance or have specific questions?
 
 A5: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

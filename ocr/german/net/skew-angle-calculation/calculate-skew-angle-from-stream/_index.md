@@ -3,10 +3,16 @@ title: Berechnen Sie den Schrägwinkel aus dem Stream in der OCR-Bilderkennung
 linktitle: Berechnen Sie den Schrägwinkel aus dem Stream in der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Nutzen Sie die Leistungsfähigkeit von Aspose.OCR für .NET, einer robusten Lösung für die Bilderkennung. Erfahren Sie, wie Sie Schräglaufwinkel mühelos berechnen.
-type: docs
 weight: 11
 url: /de/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Berechnen Sie den Schrägwinkel aus dem Stream in der OCR-Bilderkennung
+
 ## Einführung
 
 Willkommen in der aufregenden Welt von Aspose.OCR für .NET, einem leistungsstarken Tool, das die Türen zu einer effizienten Bilderkennung in Ihren .NET-Anwendungen öffnet. In dieser umfassenden Anleitung führen wir Sie durch den Prozess der Berechnung von Schräglaufwinkeln aus einem Stream bei der OCR-Bilderkennung mit Aspose.OCR. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst mit dem Codieren beginnen, dieses Tutorial vermittelt Ihnen das Wissen, um das volle Potenzial von Aspose.OCR für .NET auszuschöpfen.
@@ -103,3 +109,9 @@ A1: Aspose.OCR unterstützt eine Vielzahl von .NET-Frameworks und gewährleistet
 ### F5: Benötigen Sie Unterstützung oder haben Sie spezielle Fragen?
 
  A5: Besuchen Sie die Aspose.OCR-Community[Forum](https://forum.aspose.com/c/ocr/16) für die Unterstützung von Experten und anderen Entwicklern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

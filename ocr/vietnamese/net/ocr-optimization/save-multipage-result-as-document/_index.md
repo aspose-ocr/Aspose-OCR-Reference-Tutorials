@@ -3,10 +3,16 @@ title: Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận d�
 linktitle: Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng lưu kết quả OCR nhiều trang dưới dạng tài liệu với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 14
 url: /vi/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới hấp dẫn của nhận dạng ký tự quang học (OCR) bằng Aspose.OCR cho .NET! Trong hướng dẫn này, chúng ta sẽ khám phá cách khai thác các khả năng của Aspose.OCR để lưu kết quả OCR nhiều trang dưới dạng tài liệu. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với OCR, hướng dẫn này sẽ hướng dẫn bạn từng bước, đảm bảo bạn tận dụng tối đa công cụ mạnh mẽ này.
@@ -104,3 +110,9 @@ Câu trả lời 4: Tham khảo tài liệu về cách xử lý lỗi tốt nh�
 ### Câu hỏi 5: Aspose.OCR có hỗ trợ các ngôn ngữ khác ngoài tiếng Anh không?
 
 Câu trả lời 5: Có, Aspose.OCR hỗ trợ nhiều ngôn ngữ. Khám phá tài liệu để biết chi tiết hỗ trợ ngôn ngữ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

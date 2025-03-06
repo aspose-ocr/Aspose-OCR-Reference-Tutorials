@@ -3,10 +3,16 @@ title: Aspose.OCR でテキスト領域を含む四角形を取得する
 linktitle: Aspose.OCR でテキスト領域を含む四角形を取得する
 second_title: Aspose.OCR Java API
 description: Aspose.OCR for Java の機能を解放します。このステップバイステップのガイドで、画像からテキストをシームレスに抽出する方法を学びましょう。効率的なテキスト認識のために今すぐダウンロードしてください。
-type: docs
 weight: 12
 url: /ja/java/ocr-basics/get-rectangles-with-text-areas/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.OCR でテキスト領域を含む四角形を取得する
+
 ## 導入
 
 強力な光学式文字認識 (OCR) 機能を Java アプリケーションに統合したいと考えていますか? Aspose.OCR for Java は、画像から正確かつ効率的にテキストを抽出するための頼りになるソリューションです。このチュートリアルでは、Aspose.OCR を使用してテキスト領域を含む四角形を取得するプロセスを説明し、この Java OCR ライブラリの可能性を最大限に活用するのに役立ちます。
@@ -105,3 +111,10 @@ A1: はい、Aspose.OCR は Java 11 以降のバージョンと互換性があ�
 ### Q5: Aspose.OCR はマルチスレッドをサポートしていますか?
 
 A5: はい、Aspose.OCR は同時環境でのパフォーマンスを向上させるためにマルチスレッドをサポートしています。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

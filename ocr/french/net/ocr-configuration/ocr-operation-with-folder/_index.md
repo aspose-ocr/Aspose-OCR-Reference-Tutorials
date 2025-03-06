@@ -3,10 +3,16 @@ title: OCROOpération avec dossier dans la reconnaissance d'image OCR
 linktitle: OCROOpération avec dossier dans la reconnaissance d'image OCR
 second_title: API Aspose.OCR .NET
 description: Libérez la puissance de la reconnaissance d’images OCR dans .NET avec Aspose.OCR. Extrayez facilement le texte des images.
-type: docs
 weight: 11
 url: /fr/net/ocr-configuration/ocr-operation-with-folder/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROOpération avec dossier dans la reconnaissance d'image OCR
+
 ## Introduction
 
 Bienvenue dans le monde de la reconnaissance optique de caractères (OCR) utilisant Aspose.OCR pour .NET ! Si vous souhaitez extraire du texte d'images de manière transparente dans vos applications .NET, vous êtes au bon endroit. Ce didacticiel vous guidera tout au long du processus de reconnaissance d'images OCR avec des dossiers, en tirant parti des puissantes capacités d'Aspose.OCR.
@@ -118,3 +124,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment implémenter la
 ### Q5 : Besoin d'aide ou avez-vous des questions ?
 
  A5 : Visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

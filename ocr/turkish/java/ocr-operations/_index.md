@@ -3,10 +3,16 @@ title: OCR İşlemleri
 linktitle: OCR İşlemleri
 second_title: Aspose.OCR Java API'si
 description: Kapsamlı OCR eğitimlerimiz ile Aspose.OCR for Java'nın potansiyelini ortaya çıkarın. Yalnızca birkaç adımda Alanları Algılama Modunu, Dil Seçimini, PDF ve TIFF tanımayı öğrenin!
-type: docs
 weight: 21
 url: /tr/java/ocr-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR İşlemleri
+
 ## giriiş
 
 Metin çıkarma oyununuzu geliştirmeye hazır mısınız? Aspose.OCR for Java, güçlü OCR yetenekleriyle size olasılıklar dünyası sunuyor. Bu kılavuzda, kusursuz bir deneyim için her moda ilişkin bilgiler sunarak temel OCR işlemleri konusunda size yol göstereceğiz.
@@ -53,3 +59,9 @@ Aspose.OCR for Java ile görsellerden hassas metin çıkarmanın kilidini açın
 Aspose.OCR ile Java'da OCR'nin gücünün kilidini açın. PDF belgelerindeki metni zahmetsizce tanıyın. Uygulamalarınızı hassasiyet ve hızla güçlendirin.
 ### [OCR Aspose.OCR for Java'daki TIFF Görüntülerini Tanıma](./recognize-tiff/)
 Aspose.OCR ile Java'da güçlü metin tanımanın kilidini açın. TIFF görüntülerindeki metni zahmetsizce tanıyın. Sorunsuz bir OCR deneyimi için hemen indirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
 linktitle: Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj potencjał Aspose.OCR dla .NET. Z łatwością zapisuj wielostronicowe wyniki OCR jako dokumenty, korzystając z tego obszernego przewodnika krok po kroku.
-type: docs
 weight: 14
 url: /pl/net/ocr-optimization/save-multipage-result-as-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w fascynującym świecie optycznego rozpoznawania znaków (OCR) przy użyciu Aspose.OCR dla .NET! W tym samouczku odkryjemy, jak wykorzystać możliwości Aspose.OCR do zapisywania wielostronicowych wyników OCR jako dokumentów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z OCR, ten przewodnik przeprowadzi Cię przez każdy krok, zapewniając maksymalne wykorzystanie tego potężnego narzędzia.
@@ -104,3 +110,9 @@ Odpowiedź 4: Zapoznaj się z dokumentacją dotyczącą najlepszych praktyk w za
 ### P5: Czy Aspose.OCR obsługuje języki inne niż angielski?
 
 O5: Tak, Aspose.OCR obsługuje wiele języków. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe informacje na temat obsługi języków.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

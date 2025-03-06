@@ -3,10 +3,16 @@ title: OCR 이미지 인식에서 URL의 이미지에 대해 OCR 수행
 linktitle: OCR 이미지 인식에서 URL의 이미지에 대해 OCR 수행
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR과의 완벽한 OCR 통합을 살펴보세요. 이미지에서 텍스트를 정확하게 인식합니다.
-type: docs
 weight: 10
 url: /ko/net/ocr-optimization/perform-ocr-on-image-from-url/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식에서 URL의 이미지에 대해 OCR 수행
+
 ## 소개
 
 OCR(광학 문자 인식) 영역에서 .NET용 Aspose.OCR은 개발자가 이미지에서 텍스트 콘텐츠를 정밀하게 추출할 수 있도록 지원하는 강력한 도구로 돋보입니다. OCR 기능을 .NET 애플리케이션에 통합하고 쉽게 텍스트 인식을 수행하려는 경우, 이 단계별 가이드는 URL의 이미지에 대해 OCR을 수행하는 과정을 안내합니다.
@@ -120,3 +126,9 @@ A2: 물론이죠! Aspose.OCR은 특정 사용 사례에 맞춰 한 줄 텍스트
 ### Q5: Aspose.OCR과 관련된 지원이나 커뮤니티 토론은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 지역사회에 대한 지원과 참여를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

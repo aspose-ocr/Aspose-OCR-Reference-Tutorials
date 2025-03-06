@@ -3,10 +3,16 @@ title: पाठ पहचान
 linktitle: पाठ पहचान
 second_title: Aspose.OCR .NET एपीआई
 description: सटीक चरित्र पहचान के लिए Aspose.OCR के साथ अपने .NET अनुप्रयोगों को उन्नत करें। OCR छवि पहचान में विकल्प, परिणाम और JSON प्रारूप प्राप्त करने के लिए ट्यूटोरियल खोजें।
-type: docs
 weight: 21
 url: /hi/net/text-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पाठ पहचान
+
 ## परिचय
 
 क्या आप अपने .NET एप्लिकेशन को अगले स्तर पर ले जाने के लिए तैयार हैं? Aspose.OCR के साथ टेक्स्ट रिकग्निशन की दुनिया में उतरें और सटीक कैरेक्टर रिकग्निशन और निर्बाध छवि प्रसंस्करण के साथ अपनी परियोजनाओं को बढ़ाएं।
@@ -49,3 +55,9 @@ Aspose.OCR के साथ .NET में OCR की क्षमता को 
 Aspose.OCR के साथ .NET में OCR की क्षमता को अनलॉक करें। पीडीएफ़ से आसानी से टेक्स्ट निकालें। सहज एकीकरण अनुभव के लिए अभी डाउनलोड करें।
 ### [ओसीआर छवि पहचान में तालिका को पहचानें](./recognize-table/)
 OCR छवि पहचान में तालिकाओं को पहचानने पर हमारे व्यापक गाइड के साथ .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

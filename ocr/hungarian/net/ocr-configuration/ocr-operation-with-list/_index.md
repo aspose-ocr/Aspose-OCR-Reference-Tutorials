@@ -3,10 +3,16 @@ title: OCROművelet listával az OCR képfelismerésben
 linktitle: OCROművelet listával az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
-type: docs
 weight: 13
 url: /hu/net/ocr-configuration/ocr-operation-with-list/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROművelet listával az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük részletes oktatóanyagunkban, amely az Aspose.OCR for .NET erejének kiaknázásával foglalkozik az OCR-képfelismerés listákkal történő végrehajtásához. Az optikai karakterfelismerés (OCR) egy kulcsfontosságú technológia, amely a különböző típusú dokumentumokat – például beolvasott papíralapú dokumentumokat, PDF-fájlokat vagy képeket – szerkeszthető és kereshető adatokká alakítja.
@@ -105,3 +111,10 @@ A2: Abszolút. Az Aspose.OCR a képformátumok széles skáláját támogatja, r
 ### 5. kérdés: Mi a teendő, ha problémákba ütközöm, vagy konkrét kérdéseim vannak a megvalósítás során?
 
  V5: Nyugodtan kérjen segítséget a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) a közösség és a szakértők azonnali támogatásáért.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

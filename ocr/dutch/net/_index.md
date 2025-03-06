@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.OCR voor .NET
 linktitle: Aspose.OCR voor .NET-zelfstudies
-type: docs
 weight: 10
 url: /nl/net/
 description: Ontgrendel precisie in OCR-beeldherkenning met Aspose.OCR voor .NET. Bekijk tutorials over het berekenen van schuine hoeken, tekstherkenning, OCR-configuratie en optimalisatie.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.OCR voor .NET
+
 
 ## Invoering
 
@@ -51,3 +56,9 @@ Ontgrendel OCR-mogelijkheden in .NET-apps met Aspose.OCR. Ontdek tutorials voor 
 Maximaliseer de OCR-nauwkeurigheid met Aspose.OCR voor .NET-tutorials. Voer OCR uit op afbeeldingen, bereid rechthoeken voor, pas voorverwerkingsfilters toe, corrigeer resultaten met spellingcontrole en sla resultaten van meerdere pagina's moeiteloos op.
 ### [OCR-instellingen](./ocr-settings/)
 Ontgrendel de kracht van Aspose.OCR voor .NET met onze OCR-instellingen-tutorials. Leer hoe u de nauwkeurigheid, snelheid en aanpassing van tekstherkenning in afbeeldingen kunt verbeteren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

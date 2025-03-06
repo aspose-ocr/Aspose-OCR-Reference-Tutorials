@@ -3,10 +3,16 @@ title: Modalità Rileva aree OCR in Riconoscimento immagini OCR
 linktitle: Modalità Rileva aree OCR in Riconoscimento immagini OCR
 second_title: API Aspose.OCR .NET
 description: Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconoscimento del testo delle immagini. Esplora la modalità Rileva aree OCR per risultati precisi.
-type: docs
 weight: 13
 url: /it/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modalità Rileva aree OCR in Riconoscimento immagini OCR
+
 ## introduzione
 
 Nel frenetico mondo della tecnologia informatica, il riconoscimento ottico dei caratteri (OCR) svolge un ruolo fondamentale nel trasformare le immagini in testo modificabile e ricercabile. Aspose.OCR per .NET consente agli sviluppatori di integrare facilmente funzionalità OCR robuste nelle loro applicazioni. In questo tutorial approfondiremo la modalità Rileva aree OCR, una potente funzionalità che migliora il riconoscimento delle immagini.
@@ -91,3 +97,9 @@ A3: Aspose.OCR per .NET supporta i formati di immagine più diffusi come PNG, JP
 ### Q5: È disponibile una prova gratuita per Aspose.OCR per .NET?
 
  A5: Sì, puoi esplorare le funzionalità di Aspose.OCR per .NET ottenendo a[licenza di prova gratuita](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chế độ khu vực phát hiện OCR trong nhận dạng hình ảnh OC
 linktitle: Chế độ khu vực phát hiện OCR trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản hình ảnh hiệu quả. Khám phá Chế độ khu vực phát hiện OCR để có kết quả chính xác.
-type: docs
 weight: 13
 url: /vi/net/text-recognition/ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chế độ khu vực phát hiện OCR trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong thế giới công nghệ thông tin phát triển nhanh chóng, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc chuyển đổi hình ảnh thành văn bản có thể chỉnh sửa và tìm kiếm được. Aspose.OCR cho .NET trao quyền cho các nhà phát triển tích hợp chức năng OCR mạnh mẽ vào ứng dụng của họ một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào Chế độ phát hiện khu vực OCR, một tính năng mạnh mẽ giúp nâng cao khả năng nhận dạng hình ảnh.
@@ -91,3 +97,9 @@ Câu trả lời 3: Aspose.OCR cho .NET hỗ trợ các định dạng hình ả
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.OCR cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các khả năng của Aspose.OCR cho .NET bằng cách lấy[giấy phép dùng thử miễn phí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Chỉ định các ký tự bị bỏ qua trong nhận dạng hình ảnh
 linktitle: Chỉ định các ký tự bị bỏ qua trong nhận dạng hình ảnh OCR
 second_title: API Aspose.OCR .NET
 description: Khám phá các khả năng OCR nâng cao với Aspose.OCR cho .NET. Hiệu quả, chính xác và thân thiện với nhà phát triển.
-type: docs
 weight: 14
 url: /vi/net/ocr-settings/specify-ignored-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định các ký tự bị bỏ qua trong nhận dạng hình ảnh OCR
+
 ## Giới thiệu
 
 Trong bối cảnh chuyển đổi kỹ thuật số ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đã nổi lên như một công nghệ then chốt, thu hẹp khoảng cách giữa nội dung vật lý và kỹ thuật số. Khi các doanh nghiệp ngày càng số hóa hoạt động của mình, nhu cầu về các giải pháp OCR chính xác, hiệu quả và linh hoạt trở nên tối quan trọng. Aspose.OCR cho .NET nổi bật là một thư viện OCR mạnh mẽ, cung cấp các khả năng nâng cao cho các nhà phát triển làm việc trong môi trường .NET.
@@ -100,3 +106,9 @@ Câu trả lời 4: Aspose.OCR hỗ trợ nhiều ngôn ngữ, khiến nó trở
 ### Câu hỏi 5: Tôi có thể mua giấy phép tạm thời cho Aspose.OCR không?
 
  Câu trả lời 5: Có, nếu bạn cần giấy phép tạm thời, bạn có thể lấy nó[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

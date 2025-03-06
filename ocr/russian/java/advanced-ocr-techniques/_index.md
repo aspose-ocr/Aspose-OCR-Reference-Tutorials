@@ -3,10 +3,16 @@ title: Расширенные методы оптического распозн
 linktitle: Расширенные методы оптического распознавания символов
 second_title: API Aspose.OCR Java
 description: Легко выполняйте распознавание изображений с помощью Aspose.OCR для Java. Извлекайте текст легко и с высокой точностью. Улучшите свои проекты Java с помощью универсального распознавания текста.
-type: docs
 weight: 22
 url: /ru/java/advanced-ocr-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Расширенные методы оптического распознавания символов
+
 ## Введение
 
 Готовы ли вы вывести свои Java-проекты на новый уровень? Погрузитесь в мир передовых методов оптического распознавания символов с помощью Aspose.OCR для Java. В этом подробном руководстве мы рассмотрим различные учебные пособия, которые помогут вам легко извлекать текст из изображений.
@@ -55,3 +61,9 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Расширьте возможности своих Java-приложений с помощью Aspose.OCR для точного распознавания текста. Простая интеграция, высокая точность.
 ### [Указание разрешенных символов в Aspose.OCR](./specify-allowed-characters/)
 Легко разблокируйте извлечение текста из изображений с помощью Aspose.OCR для Java. Следуйте нашему пошаговому руководству для эффективной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

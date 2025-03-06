@@ -3,10 +3,16 @@ title: تنفيذ التعرف الضوئي على الحروف (OCR) باستخ
 linktitle: تنفيذ التعرف الضوئي على الحروف (OCR) باستخدام وضع كشف المناطق في Aspose.OCR
 second_title: Aspose.OCR جافا API
 description: أطلق العنان لقوة استخراج النص من الصور باستخدام Aspose.OCR لـ Java. برنامج تعليمي شامل حول التعرف الضوئي على الحروف (OCR) باستخدام وضع كشف المناطق.
-type: docs
 weight: 10
 url: /ar/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ التعرف الضوئي على الحروف (OCR) باستخدام وضع كشف المناطق في Aspose.OCR
+
 ## مقدمة
 
 في عالم التكنولوجيا دائم التطور، يلعب التعرف الضوئي على الحروف (OCR) دورًا محوريًا في استخراج المعلومات القيمة من الصور. يوفر Aspose.OCR for Java حلاً قويًا للتعرف الضوئي على الحروف، مما يتيح للمطورين الاستفادة من إمكانات التعرف على النص بسلاسة. سيرشدك هذا البرنامج التعليمي خلال عملية إجراء التعرف الضوئي على الحروف باستخدام وضع كشف المناطق باستخدام Aspose.OCR لـ Java.
@@ -108,3 +114,9 @@ printResult(result);
 ### س5: هل يوجد منتدى مجتمعي لدعم Aspose.OCR؟
 
  ج5: نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع على الموقع[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

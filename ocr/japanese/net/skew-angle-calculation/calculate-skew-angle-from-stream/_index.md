@@ -3,10 +3,16 @@ title: OCR画像認識におけるストリームからのスキュー角の計�
 linktitle: OCR画像認識におけるストリームからのスキュー角の計算
 second_title: Aspose.OCR .NET API
 description: 画像認識のための堅牢なソリューションである Aspose.OCR for .NET のパワーを解き放ちます。スキュー角度を簡単に計算する方法を学びましょう。
-type: docs
 weight: 11
 url: /ja/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識におけるストリームからのスキュー角の計算
+
 ## 導入
 
 Aspose.OCR for .NET のエキサイティングな世界へようこそ。これは、.NET アプリケーションで効率的な画像認識への扉を開く強力なツールです。この包括的なガイドでは、Aspose.OCR を使用して OCR 画像認識のストリームからスキュー角度を計算するプロセスについて説明します。経験豊富な開発者であっても、コーディングの取り組みを始めたばかりであっても、このチュートリアルでは、Aspose.OCR for .NET の可能性を最大限に活用するための知識を身につけることができます。
@@ -103,3 +109,9 @@ A1: Aspose.OCR は幅広い .NET フレームワークをサポートし、さ�
 ### Q5: サポートが必要ですか、それとも具体的な質問がありますか?
 
  A5: Aspose.OCR コミュニティにアクセスしてください。[フォーラム](https://forum.aspose.com/c/ocr/16)専門家や開発者仲間からの支援が必要です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การกำหนดค่า OCR
 linktitle: การกำหนดค่า OCR
 second_title: Aspose.OCR .NET API
 description: ปรับปรุงแอปพลิเคชัน .NET ของคุณอย่างง่ายดายด้วย Aspose.OCR สำรวจบทช่วยสอนการกำหนดค่า OCR รวมถึงการเก็บถาวร โฟลเดอร์ การเลือกภาษา และการดำเนินการรายการ
-type: docs
 weight: 24
 url: /th/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การกำหนดค่า OCR
+
 ## การแนะนำ
 
 เริ่มต้นการเดินทางเพื่อใช้ประโยชน์จากศักยภาพสูงสุดของ Optical Character Recognition (OCR) ในแอปพลิเคชัน .NET ด้วย Aspose.OCR ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มใช้ OCR บทช่วยสอนเหล่านี้จะแนะนำคุณตลอดการดำเนินการ OCR ต่างๆ เพื่อให้คุณปลดล็อกพลังของการแยกข้อความได้อย่างง่ายดาย
@@ -33,3 +39,9 @@ url: /th/net/ocr-configuration/
 ปลดล็อกความสามารถ OCR อันทรงพลังด้วย Aspose.OCR สำหรับ .NET แยกข้อความจากรูปภาพได้อย่างลงตัว
 ### [OCROperation พร้อมรายการในการจดจำรูปภาพ OCR](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ดำเนินการจดจำรูปภาพ OCR พร้อมรายการได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานและการดึงข้อมูลในแอปพลิเคชันของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

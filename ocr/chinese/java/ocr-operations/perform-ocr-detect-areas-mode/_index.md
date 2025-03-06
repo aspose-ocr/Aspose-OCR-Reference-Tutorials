@@ -3,10 +3,16 @@ title: 在 Aspose.OCR 中使用检测区域模式执行 OCR
 linktitle: 在 Aspose.OCR 中使用检测区域模式执行 OCR
 second_title: Aspose.OCR Java API
 description: 使用 Aspose.OCR for Java 解锁图像中文本提取的功能。关于使用检测区域模式进行 OCR 的综合教程。
-type: docs
 weight: 10
 url: /zh/java/ocr-operations/perform-ocr-detect-areas-mode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.OCR 中使用检测区域模式执行 OCR
+
 ## 介绍
 
 在不断发展的技术世界中，光学字符识别 (OCR) 在从图像中提取有价值的信息方面发挥着关键作用。 Aspose.OCR for Java 提供了强大的 OCR 解决方案，使开发人员能够无缝地利用文本识别的潜力。本教程将指导您完成使用 Aspose.OCR for Java 通过检测区域模式执行 OCR 的过程。
@@ -108,3 +114,9 @@ A4：是的，如本教程所示，Aspose.OCR 提供拼写检查更正文本作�
 ### Q5：有 Aspose.OCR 支持的社区论坛吗？
 
  A5：是的，您可以在以下位置找到支持并与社区互动：[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

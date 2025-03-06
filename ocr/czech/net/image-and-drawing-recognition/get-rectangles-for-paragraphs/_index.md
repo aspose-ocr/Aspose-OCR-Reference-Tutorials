@@ -3,10 +3,16 @@ title: Získejte obdélníky pro odstavce v rozpoznávání obrazu OCR
 linktitle: Získejte obdélníky pro odstavce v rozpoznávání obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odemkněte pokročilé možnosti OCR s Aspose.OCR pro .NET. Extrahujte obdélníky odstavců bez námahy.
-type: docs
 weight: 11
 url: /cs/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte obdélníky pro odstavce v rozpoznávání obrazu OCR
+
 ## Úvod
 
 Vítejte v našem komplexním průvodci o využití Aspose.OCR pro .NET k extrahování obdélníků odstavců při rozpoznávání obrázků OCR. Pokud chcete zlepšit své možnosti zpracování dokumentů a využít sílu optického rozpoznávání znaků (OCR) ve svých aplikacích .NET, jste na správném místě.
@@ -101,3 +107,9 @@ A2: Rozhodně! Aspose.OCR usnadňuje dávkové zpracování pro bezproblémové 
 ### Q5: Kde najdu další podporu a diskuse týkající se Aspose.OCR?
 
  A5: Přejděte na[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

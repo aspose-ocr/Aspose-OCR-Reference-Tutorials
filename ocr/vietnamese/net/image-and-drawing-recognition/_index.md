@@ -3,10 +3,16 @@ title: Nhận dạng hình ảnh và bản vẽ
 linktitle: Nhận dạng hình ảnh và bản vẽ
 second_title: API Aspose.OCR .NET
 description: Mở khóa độ chính xác của nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET. Dễ dàng trích xuất văn bản từ hình ảnh, cho dù đó là dòng, đoạn văn hay toàn bộ luồng.
-type: docs
 weight: 22
 url: /vi/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận dạng hình ảnh và bản vẽ
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tầm trò chơi nhận dạng hình ảnh OCR của mình chưa? Aspose.OCR cho .NET là chìa khóa giúp bạn mở khóa độ chính xác của việc trích xuất văn bản từ hình ảnh. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá nhiều hướng dẫn khác nhau đi sâu vào các khía cạnh khác nhau của nhận dạng hình ảnh và bản vẽ bằng Aspose.OCR cho .NET. Hãy cùng tìm hiểu và giải phóng sức mạnh của việc trích xuất văn bản liền mạch.
@@ -48,3 +54,9 @@ Khai phá tiềm năng nhận dạng văn bản với Aspose.OCR cho .NET. Nhậ
 Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng các dòng trong nhận dạng hình ảnh OCR. Hướng dẫn dành cho nhà phát triển cách trích xuất văn bản liền mạch từ hình ảnh.
 ### [Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR](./perform-ocr-on-image/)
 Mở khóa phép thuật OCR bằng Aspose.OCR cho .NET dễ dàng trích xuất văn bản từ hình ảnh. Khám phá hướng dẫn để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

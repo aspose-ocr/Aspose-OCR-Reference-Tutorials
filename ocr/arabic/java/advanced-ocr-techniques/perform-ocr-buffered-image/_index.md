@@ -3,10 +3,16 @@ title: تنفيذ التعرف الضوئي على الحروف (OCR) على Buf
 linktitle: تنفيذ التعرف الضوئي على الحروف (OCR) على BufferedImage في Aspose.OCR لـ Java
 second_title: Aspose.OCR جافا API
 description: قم بإجراء التعرف الضوئي على الحروف (OCR) على BufferedImage دون عناء باستخدام Aspose.OCR لـ Java. استخراج النص من الصور بسلاسة. قم بالتنزيل الآن للحصول على تجربة متعددة الاستخدامات للتعرف على النص.
-type: docs
 weight: 10
 url: /ar/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ التعرف الضوئي على الحروف (OCR) على BufferedImage في Aspose.OCR لـ Java
+
 ## مقدمة
 
 مرحبًا بك في دليلنا الشامل حول إجراء التعرف البصري على الأحرف (OCR) على BufferedImage باستخدام Aspose.OCR لـ Java. Aspose.OCR هي مكتبة Java قوية تتيح للمطورين دمج إمكانات التعرف الضوئي على الحروف في تطبيقاتهم بسلاسة، مما يجعل استخراج النص من الصور أمرًا سهلاً.
@@ -106,3 +112,9 @@ try {
 ### س5: أين يمكنني الحصول على دعم المجتمع لـ Aspose.OCR؟
 
  ج5: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

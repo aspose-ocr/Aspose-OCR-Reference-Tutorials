@@ -3,10 +3,16 @@ title: Java용 Aspose.OCR에서 PDF 문서를 인식하는 OCR
 linktitle: Java용 Aspose.OCR에서 PDF 문서를 인식하는 OCR
 second_title: Aspose.OCR 자바 API
 description: Aspose.OCR을 사용하여 Java에서 OCR의 강력한 기능을 활용하세요. PDF 문서의 텍스트를 손쉽게 인식하세요. 정확성과 속도로 애플리케이션을 강화하십시오.
-type: docs
 weight: 12
 url: /ko/java/ocr-operations/recognize-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.OCR에서 PDF 문서를 인식하는 OCR
+
 ## 소개
 
 끊임없이 진화하는 기술 환경에서 광학 문자 인식(OCR)은 인쇄되거나 손으로 쓴 텍스트를 기계 인코딩 텍스트로 변환하는 데 중추적인 역할을 합니다. Aspose.OCR for Java는 Java 애플리케이션에 완벽한 OCR 통합을 위한 강력한 도구로 등장합니다. 이 튜토리얼에서는 Java용 Aspose.OCR을 사용하여 PDF 문서를 인식하는 과정을 살펴보겠습니다.
@@ -130,3 +136,9 @@ A3: Aspose.OCR은 강력하지만 입력 문서의 품질과 명확성에 따라
 ### Q5: Aspose.OCR에 사용할 수 있는 무료 평가판이 있습니까?
 
  A5: 예, 다음에서 무료 평가판을 받아 Aspose.OCR을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

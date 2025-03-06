@@ -3,10 +3,16 @@ title: Szerezzen téglalapokat a vonalakhoz az OCR képfelismerésben
 linktitle: Szerezzen téglalapokat a vonalakhoz az OCR képfelismerésben
 second_title: Aspose.OCR .NET API
 description: Fedezze fel az Aspose.OCR for .NET-et, amely kulcsa a pontos OCR-képfelismerésnek. Könnyedén szabadjára engedni a szövegkivonás erejét.
-type: docs
 weight: 10
 url: /hu/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen téglalapokat a vonalakhoz az OCR képfelismerésben
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.OCR for .NET világában. Ez egy hatékony eszköz, amely lehetővé teszi az optikai karakterfelismerés (OCR) lehetőségeinek kihasználását .NET-alkalmazásaiban. Akár tapasztalt fejlesztő, akár kíváncsi rajongó, ez az útmutató végigvezeti Önt az Aspose.OCR segítségével az OCR képfelismerésben a vonalak téglalapjainak kialakításán.
@@ -110,3 +116,9 @@ Gratulálunk! Sikeresen kapott téglalapokat a vonalak számára az OCR képfeli
 ### 5. kérdés: Segítségre van szüksége, vagy konkrét kérdései vannak?
 
  A5: Látogassa meg a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Filters voorbewerken voor afbeeldingen in OCR-beeldherkenning
 linktitle: Filters voorbewerken voor afbeeldingen in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontdek Aspose.OCR voor .NET. Verbeter de OCR-nauwkeurigheid met voorverwerkingsfilters. Download nu voor naadloze integratie.
-type: docs
 weight: 12
 url: /nl/net/ocr-optimization/preprocessing-filters-for-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Filters voorbewerken voor afbeeldingen in OCR-beeldherkenning
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van Optical Character Recognition (OCR) in uw .NET-applicaties met Aspose.OCR. Met deze krachtige bibliotheek kunnen ontwikkelaars de OCR-functionaliteit naadloos integreren en afbeeldingen omzetten in bewerkbare tekst. In deze stapsgewijze handleiding gaan we dieper in op de voorbewerkingsfilters voor beeldverbetering, waardoor optimale resultaten voor OCR-beeldherkenning worden gegarandeerd.
@@ -112,3 +118,9 @@ A4: Aspose.OCR ondersteunt een breed scala aan afbeeldingsformaten, waaronder PN
 ### V5: Kan ik Aspose.OCR integreren in mijn bestaande .NET-project?
 
 A5: Zeker! Volg de stappen die in de tutorial worden beschreven en u integreert Aspose.OCR naadloos in uw .NET-project voor OCR-beeldherkenning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

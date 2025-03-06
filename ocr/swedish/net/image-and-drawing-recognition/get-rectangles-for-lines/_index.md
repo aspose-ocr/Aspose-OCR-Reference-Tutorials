@@ -3,10 +3,16 @@ title: Få rektanglar för linjer i OCR-bildigenkänning
 linktitle: Få rektanglar för linjer i OCR-bildigenkänning
 second_title: Aspose.OCR .NET API
 description: Utforska Aspose.OCR för .NET, din nyckel till exakt OCR-bildigenkänning. Släpp lös kraften i textextraktion utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/image-and-drawing-recognition/get-rectangles-for-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få rektanglar för linjer i OCR-bildigenkänning
+
 ## Introduktion
 
 Välkommen till Aspose.OCR-världen för .NET, ett kraftfullt verktyg som låter dig utnyttja potentialen hos Optical Character Recognition (OCR) i dina .NET-applikationer. Oavsett om du är en erfaren utvecklare eller en nyfiken entusiast, kommer den här guiden att leda dig genom processen att få rektanglar för linjer i OCR-bildigenkänning med Aspose.OCR.
@@ -110,3 +116,9 @@ A2: Aspose.OCR utnyttjar avancerade algoritmer för hög noggrannhet, vilket gö
 ### F5: Behöver du hjälp eller har specifika frågor?
 
  A5: Besök[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

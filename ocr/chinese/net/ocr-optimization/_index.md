@@ -3,10 +3,16 @@ title: OCR优化
 linktitle: OCR优化
 second_title: Aspose.OCR .NET API
 description: 通过我们全面的教程释放 Aspose.OCR for .NET 的强大功能。无论您是经验丰富的开发人员还是初学者，这些指南都将提升您的 OCR 游戏水平。
-type: docs
 weight: 25
 url: /zh/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR优化
+
 ## 介绍
 
 使用 Aspose.OCR for .NET 教程最大限度地提高 OCR 准确性。对图像执行 OCR、准备矩形、应用预处理滤镜、通过拼写检查纠正结果，并轻松保存多页结果。
@@ -44,3 +50,9 @@ url: /zh/net/ocr-optimization/
 使用 Aspose.OCR for .NET 提高 OCR 准确性。轻松纠正拼写、自定义词典并实现无差错的文本识别。
 ### [在 OCR 图像识别中将多页结果保存为文档](./save-multipage-result-as-document/)
 释放 Aspose.OCR for .NET 的潜力。借助这份全面的分步指南，轻松将多页 OCR 结果保存为文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

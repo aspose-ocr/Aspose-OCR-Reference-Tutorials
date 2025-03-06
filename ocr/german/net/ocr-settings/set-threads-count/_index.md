@@ -3,10 +3,16 @@ title: Legen Sie die Anzahl der Threads in der OCR-Bilderkennung fest
 linktitle: Legen Sie die Anzahl der Threads in der OCR-Bilderkennung fest
 second_title: Aspose.OCR .NET API
 description: Schalten Sie OCR-Effizienz in .NET frei. Legen Sie die Thread-Anzahl mühelos mit Aspose.OCR fest. Steigern Sie Genauigkeit und Geschwindigkeit.
-type: docs
 weight: 11
 url: /de/net/ocr-settings/set-threads-count/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Anzahl der Threads in der OCR-Bilderkennung fest
+
 ## Einführung
 
 Willkommen in der Welt von Aspose.OCR für .NET, wo modernste OCR-Technologie (Optical Character Recognition) auf nahtlose Integration in Ihre .NET-Anwendungen trifft. In diesem Tutorial befassen wir uns mit einem bestimmten Aspekt: dem Festlegen der Thread-Anzahl in der OCR-Bilderkennung. Diese leistungsstarke Funktion optimiert die Leistung Ihrer OCR-Aufgaben und sorgt für Effizienz und Genauigkeit.
@@ -89,3 +95,9 @@ Zusammenfassend lässt sich sagen, dass das Festlegen der Thread-Anzahl in der O
 ### F5: Benötigen Sie Hilfe oder möchten Sie mit der Community in Kontakt treten?
 
  A5: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für Unterstützung und Community-Interaktion.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

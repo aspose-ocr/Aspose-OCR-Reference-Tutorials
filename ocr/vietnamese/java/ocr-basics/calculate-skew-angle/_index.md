@@ -3,10 +3,16 @@ title: Tính góc nghiêng trong Aspose.OCR cho Java
 linktitle: Tính góc nghiêng trong Aspose.OCR cho Java
 second_title: API Java Aspose.OCR
 description: Nâng cao độ chính xác của OCR với Aspose.OCR cho Java. Tìm hiểu cách tính góc nghiêng từng bước. Cải thiện việc xử lý tài liệu một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/ocr-basics/calculate-skew-angle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính góc nghiêng trong Aspose.OCR cho Java
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tính góc nghiêng trong Aspose.OCR cho Java! Góc nghiêng đóng một vai trò quan trọng trong việc xử lý tài liệu, đặc biệt là khi xử lý các hình ảnh được quét. Aspose.OCR cho Java cung cấp một giải pháp mạnh mẽ để xác định và sửa chính xác các góc nghiêng, nâng cao chất lượng tổng thể của kết quả OCR (Nhận dạng ký tự quang học) của bạn.
@@ -94,3 +100,9 @@ Câu trả lời 3: Aspose.OCR hỗ trợ nhiều định dạng hình ảnh kh�
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ hoặc thảo luận các vấn đề liên quan đến Aspose.OCR ở đâu?
 
  A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để tương tác với cộng đồng và nhận được sự hỗ trợ từ các chuyên gia Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

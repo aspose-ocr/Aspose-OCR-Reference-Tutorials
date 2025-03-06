@@ -3,10 +3,16 @@ title: Bild- och ritigenkänning
 linktitle: Bild- och ritigenkänning
 second_title: Aspose.OCR .NET API
 description: Lås upp precisionen i OCR-bildigenkänning med Aspose.OCR för .NET. Extrahera text från bilder utan ansträngning, oavsett om det är rader, stycken eller hela strömmar.
-type: docs
 weight: 22
 url: /sv/net/image-and-drawing-recognition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bild- och ritigenkänning
+
 ## Introduktion
 
 Är du redo att höja ditt OCR-bildigenkänningsspel? Aspose.OCR för .NET är din nyckel för att låsa upp precisionen i textextraktion från bilder. I den här omfattande guiden kommer vi att utforska olika handledningar som fördjupar oss i olika aspekter av bild- och ritigenkänning med Aspose.OCR för .NET. Låt oss dyka in och släppa lös kraften i sömlös textextraktion.
@@ -48,3 +54,9 @@ Lås upp potentialen för textigenkänning med Aspose.OCR för .NET. Känn igen 
 Släpp loss potentialen hos Aspose.OCR för .NET när det gäller att känna igen linjer i OCR-bildigenkänning. En utvecklarguide för sömlös textextraktion från bilder.
 ### [Utför OCR på bild i OCR-bildigenkänning](./perform-ocr-on-image/)
 Lås upp OCR-magi med Aspose.OCR för .NET extrahera text från bilder utan ansträngning. Utforska handledningen för sömlös integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

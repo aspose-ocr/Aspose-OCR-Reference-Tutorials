@@ -3,10 +3,16 @@ title: OCR配置
 linktitle: OCR配置
 second_title: Aspose.OCR .NET API
 description: 使用 Aspose.OCR 轻松增强您的 .NET 应用程序。探索 OCR 配置教程，包括存档、文件夹、语言选择和列表操作。
-type: docs
 weight: 24
 url: /zh/net/ocr-configuration/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR配置
+
 ## 介绍
 
 踏上使用 Aspose.OCR 充分发挥 .NET 应用程序中光学字符识别 (OCR) 潜力的旅程。无论您是经验丰富的开发人员还是 OCR 新手，这些教程都将指导您完成各种 OCR 操作，确保您轻松释放文本提取的强大功能。
@@ -33,3 +39,9 @@ url: /zh/net/ocr-configuration/
 使用 Aspose.OCR for .NET 解锁强大的 OCR 功能。无缝地从图像中提取文本。
 ### [OCR 图像识别中的 OCROperation 与列表](./ocr-operation-with-list/)
 释放 Aspose.OCR for .NET 的潜力。使用列表轻松执行 OCR 图像识别。提高应用程序的生产力和数据提取。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

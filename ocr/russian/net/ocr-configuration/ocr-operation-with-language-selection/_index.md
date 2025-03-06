@@ -3,10 +3,16 @@ title: OCROОперация с выбором языка в распознава
 linktitle: OCROОперация с выбором языка в распознавании изображений OCR
 second_title: Aspose.OCR .NET API
 description: Разблокируйте мощные возможности распознавания с помощью Aspose.OCR для .NET. Легко извлекайте текст из изображений.
-type: docs
 weight: 12
 url: /ru/net/ocr-configuration/ocr-operation-with-language-selection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCROОперация с выбором языка в распознавании изображений OCR
+
 ## Введение
 
 В мире распознавания изображений и оптического распознавания символов (OCR) Aspose.OCR для .NET выделяется как мощный инструмент для разработчиков, которым требуется точное и эффективное извлечение текста из изображений. Это пошаговое руководство проведет вас через процесс распознавания изображений OCR с помощью Aspose.OCR for .NET, уделив особое внимание работе с выбором языка.
@@ -109,3 +115,10 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 ### Вопрос 5: Как я могу приобрести Aspose.OCR для .NET?
 
  A5: Для покупки посетите[страница покупки](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

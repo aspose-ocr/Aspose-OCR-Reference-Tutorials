@@ -3,10 +3,16 @@ title: जावा में Aspose.OCR के लिए लाइसेंस 
 linktitle: जावा में Aspose.OCR के लिए लाइसेंस कैसे सेट करें
 second_title: Aspose.OCR जावा एपीआई
 description: इस चरण-दर-चरण मार्गदर्शिका के साथ जावा के लिए Aspose.OCR की क्षमता को अनलॉक करें। अपना लाइसेंस आसानी से सेट करें और अपनी ओसीआर क्षमताओं को बढ़ाएं।
-type: docs
 weight: 10
 url: /hi/java/ocr-basics/set-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में Aspose.OCR के लिए लाइसेंस कैसे सेट करें
+
 ## परिचय
 
 प्रौद्योगिकी के लगातार विकसित हो रहे परिदृश्य में, ऑप्टिकल कैरेक्टर रिकॉग्निशन (ओसीआर) छवियों से पाठ्य जानकारी निकालने के लिए एक महत्वपूर्ण उपकरण बन गया है। जावा के लिए Aspose.OCR एक मजबूत OCR समाधान के रूप में खड़ा है, जो डेवलपर्स को अपने जावा अनुप्रयोगों में OCR क्षमताओं को सहजता से एकीकृत करने के लिए सशक्त बनाता है। यह चरण-दर-चरण मार्गदर्शिका आपको जावा में Aspose.OCR लाइसेंस स्थापित करने की प्रक्रिया से गुजराएगी, यह सुनिश्चित करते हुए कि आप इस शक्तिशाली टूल की पूरी क्षमता का उपयोग करेंगे।
@@ -78,3 +84,9 @@ A4: हाँ, Aspose.OCR का उपयोग व्यक्तिगत औ
 ### Q5: मुझे जावा के लिए Aspose.OCR के लिए अतिरिक्त समर्थन कहां मिल सकता है?
 
  A5: पर जाएँ[Aspose.OCR फोरम](https://forum.aspose.com/c/ocr/16) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

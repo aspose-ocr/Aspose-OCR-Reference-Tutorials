@@ -3,10 +3,16 @@ title: Thực hiện OCR trên trang cụ thể trong Aspose.OCR
 linktitle: Thực hiện OCR trên trang cụ thể trong Aspose.OCR
 second_title: API Java Aspose.OCR
 description: Khai phá sức mạnh của Aspose.OCR cho Java bằng hướng dẫn từng bước của chúng tôi về cách thực hiện OCR trên các trang cụ thể. Trích xuất văn bản dễ dàng từ hình ảnh và cải thiện các dự án Java của bạn.
-type: docs
 weight: 12
 url: /vi/java/advanced-ocr-techniques/perform-ocr-on-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực hiện OCR trên trang cụ thể trong Aspose.OCR
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách thực hiện Nhận dạng ký tự quang học (OCR) trên một trang cụ thể bằng Aspose.OCR cho Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập, nhập các gói cần thiết và thực thi mã để trích xuất văn bản từ hình ảnh một cách dễ dàng.
@@ -92,3 +98,9 @@ Câu trả lời 1: Có, Aspose.OCR hỗ trợ nhiều định dạng hình ản
 ### Câu hỏi 5: Aspose.OCR có cung cấp bản dùng thử miễn phí không?
 
  Câu trả lời 5: Có, hãy khám phá các tính năng với[phiên bản dùng thử miễn phí](https://releases.aspose.com/) trước khi thực hiện mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

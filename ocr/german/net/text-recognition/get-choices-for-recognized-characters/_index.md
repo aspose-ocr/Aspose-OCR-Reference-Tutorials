@@ -3,10 +3,16 @@ title: Erhalten Sie Auswahlmöglichkeiten für erkannte Zeichen bei der OCR-Bild
 linktitle: Erhalten Sie Auswahlmöglichkeiten für erkannte Zeichen bei der OCR-Bilderkennung
 second_title: Aspose.OCR .NET API
 description: Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine genaue Zeichenerkennung. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Auswahlmöglichkeiten für erkannte Zeichen bei der Bilderkennung abzurufen.
-type: docs
 weight: 10
 url: /de/net/text-recognition/get-choices-for-recognized-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erhalten Sie Auswahlmöglichkeiten für erkannte Zeichen bei der OCR-Bilderkennung
+
 ## Einführung
 
 Die Nutzung der Leistungsfähigkeit der optischen Zeichenerkennung (OCR) ist im heutigen digitalen Zeitalter von entscheidender Bedeutung, und Aspose.OCR für .NET zeichnet sich als robuste Lösung für die genaue Zeichenerkennung aus. In diesem Tutorial befassen wir uns mit einer bestimmten Funktion: dem Abrufen von Auswahlmöglichkeiten für erkannte Zeichen. Am Ende dieses Handbuchs werden Sie diese Funktionalität nahtlos in Ihre .NET-Anwendungen integrieren.
@@ -112,3 +118,9 @@ A2: Ja, Sie können Aspose.OCR für .NET in Webanwendungen integrieren, wodurch 
 ### F5: Gibt es eine kostenlose Testversion für Aspose.OCR für .NET?
 
  A5: Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/) um die Möglichkeiten von Aspose.OCR für .NET kennenzulernen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Określ dozwolone znaki w rozpoznawaniu obrazu OCR
 linktitle: Określ dozwolone znaki w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Odblokuj precyzyjny OCR w .NET za pomocą Aspose.OCR. Rozpoznawaj tekst z obrazów bez wysiłku. Pobierz teraz, aby uzyskać transformacyjne doświadczenie programistyczne.
-type: docs
 weight: 13
 url: /pl/net/ocr-settings/specify-allowed-characters/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Określ dozwolone znaki w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 stale zmieniającym się środowisku technologicznym optyczne rozpoznawanie znaków (OCR) stało się narzędziem transformacyjnym, umożliwiającym maszynom rozumienie tekstu z obrazów. Aspose.OCR dla .NET wyróżnia się jako potężne rozwiązanie, zapewniające bezproblemową integrację programistom poszukującym solidnych możliwości OCR w swoich aplikacjach .NET.
@@ -119,3 +125,9 @@ Odpowiedź 2: Tak, Aspose.OCR obsługuje rozpoznawanie w różnych językach, dz
 ### P5: Gdzie mogę szukać pomocy lub skontaktować się ze społecznością w celu uzyskania wsparcia?
 
  A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) nawiązać kontakt ze społecznością i uzyskać pomoc ekspertów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

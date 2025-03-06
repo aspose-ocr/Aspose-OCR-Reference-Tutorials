@@ -3,10 +3,16 @@ title: OCR-inställningar
 linktitle: OCR-inställningar
 second_title: Aspose.OCR .NET API
 description: Lås upp kraften i Aspose.OCR för .NET med våra handledningar för OCR-inställningar. Lär dig att förbättra noggrannhet, hastighet och anpassning för textigenkänning i bilder.
-type: docs
 weight: 26
 url: /sv/net/ocr-settings/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR-inställningar
+
 
 ## Introduktion
 
@@ -50,3 +56,9 @@ Lås upp exakt OCR i .NET med Aspose.OCR. Känn igen text från bilder utan anst
 Utforska avancerade OCR-funktioner med Aspose.OCR för .NET. Effektiv, exakt och utvecklarvänlig.
 ### [Arbeta med olika språk i OCR-bildigenkänning](./working-with-different-languages/)
 Lås upp magin med flerspråkig OCR med Aspose.OCR för .NET. Extrahera text utan ansträngning på olika språk.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

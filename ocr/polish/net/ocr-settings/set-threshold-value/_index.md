@@ -3,10 +3,16 @@ title: Ustaw wartość progową w rozpoznawaniu obrazu OCR
 linktitle: Ustaw wartość progową w rozpoznawaniu obrazu OCR
 second_title: Aspose.OCR .NET API
 description: Poznaj Aspose.OCR dla .NET, solidne rozwiązanie OCR. Ustawiaj niestandardowe wartości progowe bez wysiłku. Ulepsz rozpoznawanie tekstu w swoich aplikacjach.
-type: docs
 weight: 12
 url: /pl/net/ocr-settings/set-threshold-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw wartość progową w rozpoznawaniu obrazu OCR
+
 ## Wstęp
 
 Witamy w ekscytującym świecie Aspose.OCR dla .NET! W tym samouczku zagłębimy się w możliwości Aspose.OCR, potężnego narzędzia zaprojektowanego w celu ułatwienia optycznego rozpoznawania znaków w aplikacjach .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez proces ustawiania wartości progowej w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR dla .NET.
@@ -99,3 +105,9 @@ A1: Absolutnie! Aspose.OCR dla .NET jest wszechstronny i można go bezproblemowo
 ### P5: Jak mogę kupić pełną wersję Aspose.OCR dla .NET?
 
  Odpowiedź 5: Aby odblokować wszystkie funkcje, odwiedź stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

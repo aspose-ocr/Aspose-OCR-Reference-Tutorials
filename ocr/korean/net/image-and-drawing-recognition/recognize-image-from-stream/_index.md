@@ -3,10 +3,16 @@ title: OCR 이미지 인식의 스트림에서 이미지 인식
 linktitle: OCR 이미지 인식의 스트림에서 이미지 인식
 second_title: Aspose.OCR .NET API
 description: .NET용 Aspose.OCR을 사용하여 OCR 마법을 잠금 해제하세요. 이미지에서 텍스트를 손쉽게 추출해 보세요. 단계별 안내를 보려면 튜토리얼을 살펴보세요.
-type: docs
 weight: 12
 url: /ko/net/image-and-drawing-recognition/recognize-image-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR 이미지 인식의 스트림에서 이미지 인식
+
 ## 소개
 
 .NET용 Aspose.OCR을 사용하여 광학 문자 인식(OCR)의 흥미로운 영역에 오신 것을 환영합니다! 숙련된 개발자이거나 OCR의 세계에 뛰어든 이 단계별 가이드는 스트림에서 이미지를 쉽게 인식하는 과정을 안내합니다. Aspose.OCR for .NET은 OCR 기능을 .NET 애플리케이션에 완벽하게 통합하여 이미지에서 텍스트를 쉽게 추출할 수 있는 강력한 도구입니다.
@@ -105,3 +111,9 @@ A1: 예, Aspose.OCR은 광범위한 언어를 지원하므로 다양한 OCR 요�
 ### Q5: .NET용 Aspose.OCR을 어디서 구입할 수 있나요?
 
  A5: Aspose.OCR을 툴킷의 영구적인 부분으로 만들려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

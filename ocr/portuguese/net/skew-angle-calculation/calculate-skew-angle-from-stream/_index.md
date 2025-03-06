@@ -3,10 +3,16 @@ title: Calcule o ângulo de inclinação do fluxo no reconhecimento de imagem OC
 linktitle: Calcule o ângulo de inclinação do fluxo no reconhecimento de imagem OCR
 second_title: API Aspose.OCR .NET
 description: Liberte o poder do Aspose.OCR for .NET, uma solução robusta para reconhecimento de imagens. Aprenda como calcular ângulos de inclinação sem esforço.
-type: docs
 weight: 11
 url: /pt/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calcule o ângulo de inclinação do fluxo no reconhecimento de imagem OCR
+
 ## Introdução
 
 Bem-vindo ao emocionante mundo do Aspose.OCR for .NET, uma ferramenta poderosa que abre as portas para o reconhecimento eficiente de imagens em seus aplicativos .NET. Neste guia completo, orientaremos você no processo de cálculo de ângulos de inclinação de um fluxo no reconhecimento de imagem OCR usando Aspose.OCR. Quer você seja um desenvolvedor experiente ou esteja apenas começando em sua jornada de codificação, este tutorial irá equipá-lo com o conhecimento para aproveitar todo o potencial do Aspose.OCR para .NET.
@@ -103,3 +109,9 @@ A1: Aspose.OCR oferece suporte a uma ampla variedade de estruturas .NET, garanti
 ### P5: Precisa de suporte ou tem dúvidas específicas?
 
  A5: Visite a comunidade Aspose.OCR[fórum](https://forum.aspose.com/c/ocr/16) para obter assistência de especialistas e colegas desenvolvedores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

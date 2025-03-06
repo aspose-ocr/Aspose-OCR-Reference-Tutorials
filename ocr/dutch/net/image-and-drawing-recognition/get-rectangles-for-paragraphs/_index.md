@@ -3,10 +3,16 @@ title: Krijg rechthoeken voor alinea's in OCR-beeldherkenning
 linktitle: Krijg rechthoeken voor alinea's in OCR-beeldherkenning
 second_title: Aspose.OCR .NET-API
 description: Ontgrendel geavanceerde OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer alinearechthoeken moeiteloos.
-type: docs
 weight: 11
 url: /nl/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Krijg rechthoeken voor alinea's in OCR-beeldherkenning
+
 ## Invoering
 
 Welkom bij onze uitgebreide handleiding over het gebruik van Aspose.OCR voor .NET om alinearechthoeken te extraheren bij OCR-beeldherkenning. Als u uw documentverwerkingsmogelijkheden wilt verbeteren en de kracht van Optical Character Recognition (OCR) in uw .NET-toepassingen wilt benutten, bent u hier aan het juiste adres.
@@ -101,3 +107,9 @@ A2: Absoluut! Aspose.OCR vergemakkelijkt batchverwerking om meerdere afbeeldinge
 ### V5: Waar kan ik aanvullende ondersteuning en discussies vinden met betrekking tot Aspose.OCR?
 
  A5: Ga naar de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

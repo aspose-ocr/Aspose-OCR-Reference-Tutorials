@@ -3,10 +3,16 @@ title: OCR画像認識でテキスト領域を検出せずに画像を認識す�
 linktitle: OCR画像認識でテキスト領域を検出せずに画像を認識する
 second_title: Aspose.OCR .NET API
 description: Aspose.OCR for .NET でテキスト認識の可能性を解き放ちます。画像からテキストを簡単に認識します。
-type: docs
 weight: 13
 url: /ja/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR画像認識でテキスト領域を検出せずに画像を認識する
+
 ## 導入
 
 テクノロジーの急速な進化の中で、光学式文字認識 (OCR) は極めて重要なツールとなり、機械が画像内のテキストを理解できるようになります。 Aspose.OCR for .NET は堅牢なソリューションとして際立っており、開発者に OCR 機能を .NET アプリケーションに統合するシームレスな方法を提供します。このチュートリアルでは、Aspose.OCR for .NET を使用した明確で簡潔な手順を使用して、テキスト領域の検出を行わずに画像からテキストを認識する方法を検討します。
@@ -100,3 +106,9 @@ A2: はい、Aspose.OCR for .NET は多用途であり、デスクトップと W
 ### Q5: Aspose.OCR の一時ライセンスは利用できますか?
 
  A5: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/)短期間の使用に。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

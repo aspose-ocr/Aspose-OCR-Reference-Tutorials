@@ -3,10 +3,16 @@ title: OCR Optimizasyonu
 linktitle: OCR Optimizasyonu
 second_title: Aspose.OCR .NET API'si
 description: Kapsamlı eğitimlerimizle Aspose.OCR for .NET'in gücünü ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuzlar OCR oyununuzu geliştirecektir.
-type: docs
 weight: 25
 url: /tr/net/ocr-optimization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OCR Optimizasyonu
+
 ## giriiş
 
 Aspose.OCR for .NET eğitimleriyle OCR doğruluğunu en üst düzeye çıkarın. Görüntüler üzerinde OCR gerçekleştirin, dikdörtgenler hazırlayın, ön işleme filtreleri uygulayın, yazım denetimiyle sonuçları düzeltin ve çok sayfalı sonuçları zahmetsizce kaydedin.
@@ -44,3 +50,9 @@ Aspose.OCR for .NET'i keşfedin. Ön işleme filtreleriyle OCR doğruluğunu art
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazımları düzeltin, sözlükleri özelleştirin ve hatasız metin tanıma işlemini zahmetsizce gerçekleştirin.
 ### [OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet](./save-multipage-result-as-document/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Bu kapsamlı, adım adım kılavuzla çok sayfalı OCR sonuçlarını zahmetsizce belge olarak kaydedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

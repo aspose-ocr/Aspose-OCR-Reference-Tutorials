@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.OCR pro .NET
 linktitle: Výukové programy Aspose.OCR pro .NET
-type: docs
 weight: 10
 url: /cs/net/
 description: Odemkněte přesnost v rozpoznávání obrázků OCR s Aspose.OCR pro .NET. Prozkoumejte výukové programy pro výpočet úhlu zkosení, rozpoznávání textu, konfiguraci OCR a optimalizaci.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.OCR pro .NET
+
 
 ## Úvod
 
@@ -51,3 +56,9 @@ Odemkněte možnosti OCR v aplikacích .NET pomocí Aspose.OCR. Prozkoumejte vý
 Maximalizujte přesnost OCR pomocí výukových programů Aspose.OCR for .NET. Provádějte OCR na obrázcích, připravujte obdélníky, aplikujte filtry pro předběžné zpracování, opravujte výsledky pomocí kontroly pravopisu a bez námahy ukládejte vícestránkové výsledky.
 ### [Nastavení OCR](./ocr-settings/)
 Odemkněte sílu Aspose.OCR pro .NET pomocí našich výukových programů nastavení OCR. Naučte se zlepšit přesnost, rychlost a přizpůsobení pro rozpoznávání textu v obrázcích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
