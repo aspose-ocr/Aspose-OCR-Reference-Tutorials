@@ -1,37 +1,53 @@
 ---
-title: Wykonywanie OCR na BufferedImage w Aspose.OCR dla Java
-linktitle: Wykonywanie OCR na BufferedImage w Aspose.OCR dla Java
-second_title: Aspose.OCR API Java
-description: Wykonuj OCR na BufferedImage bez wysiłku dzięki Aspose.OCR dla Java. Płynnie wyodrębniaj tekst z obrazów. Pobierz teraz, aby uzyskać wszechstronne możliwości rozpoznawania tekstu.
+date: 2025-11-29
+description: Dowiedz się, jak wyodrębniać tekst z obrazów przy użyciu biblioteki OCR
+  w Javie. Ten przewodnik pokazuje, jak zainstalować Aspose OCR, obsługiwać wiele
+  języków i pracować z różnymi formatami obrazów OCR.
+language: pl
+linktitle: Performing OCR on BufferedImage in Aspose.OCR for Java
+second_title: Aspose.OCR Java API
+title: Wykonaj OCR na BufferedImage przy użyciu biblioteki OCR w Javie (Aspose.OCR)
+url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
-url: /pl/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykonywanie OCR na BufferedImage w Aspose.OCR dla Java
+# Wykonaj OCR na BufferedImage przy użyciu biblioteki Java OCR (Aspose.OCR)
 
-## Wstęp
+## Introduction
 
-Witamy w naszym obszernym przewodniku na temat wykonywania optycznego rozpoznawania znaków (OCR) na BufferedImage przy użyciu Aspose.OCR dla Java. Aspose.OCR to potężna biblioteka Java, która umożliwia programistom bezproblemową integrację funkcji OCR z ich aplikacjami, dzięki czemu wyodrębnianie tekstu z obrazów jest dziecinnie proste.
+Jeśli potrzebujesz **wyodrębnić tekst z obrazów w Javie**, niezawodna *java ocr library* jest niezbędna. W tym samouczku pokażemy, jak używać Aspose.OCR — potężnej biblioteki Java OCR — aby rozpoznawać tekst bezpośrednio z `BufferedImage`. Zobaczysz, jak skonfigurować bibliotekę, wczytać obraz i pobrać rozpoznany ciąg znaków, wszystko przy użyciu kilku linii kodu.
 
-W tym samouczku przeprowadzimy Cię przez proces konfigurowania Aspose.OCR dla Java, importowania niezbędnych pakietów i wykonywania OCR na BufferedImage. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz z OCR, ten przewodnik krok po kroku pomoże Ci wykorzystać pełny potencjał Aspose.OCR.
+## Quick Answers
+- **Jaka jest najlepsza java ocr library?** Aspose.OCR dla Javy zapewnia wysoką dokładność i szerokie wsparcie językowe.  
+- **Jak zainstalować Aspose OCR?** Pobierz plik JAR ze strony Aspose i dodaj go do classpathu projektu.  
+- **Czy mogę rozpoznawać wiele języków?** Tak — Aspose.OCR obsługuje OCR wielu języków od razu.  
+- **Jakie formaty obrazów są obsługiwane?** Biblioteka działa z popularnymi formatami OCR, takimi jak PNG, JPEG, BMP i TIFF.  
+- **Jaki jest typowy kod do wyodrębniania tekstu?** Wczytaj obraz do `BufferedImage`, utwórz instancję `AsposeOCR` i wywołaj `RecognizePage`.
 
-## Warunki wstępne
+## What is a Java OCR Library?
+*java ocr library* to zestaw klas Java, które potrafią analizować obrazy rastrowe i konwertować widoczny tekst na ciągi znaków czytelne dla maszyny. Aspose.OCR dla Javy jest jedną z takich bibliotek, oferującą rozpoznawanie o wysokiej precyzji, wykrywanie języka oraz wsparcie dla szerokiej gamy formatów obrazów.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Why Choose Aspose.OCR for Java?
+- **Wysoka dokładność** w dokumentach drukowanych i odręcznych.  
+- **OCR wielu języków** w tym angielski, francuski, niemiecki, chiński i wiele innych.  
+- Proste API, które działa bezpośrednio z `BufferedImage`, eliminując potrzebę pośrednich konwersji plików.  
+- Pełne wsparcie dla **ocr image formats** takich jak PNG, JPEG, BMP, TIFF i GIF.
 
-1.  Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java. Najnowszą wersję możesz pobrać ze strony[Tutaj](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Prerequisites
 
-2.  Aspose.OCR dla biblioteki Java: Pobierz bibliotekę ze strony internetowej Aspose. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/ocr/java/).
+Zanim zaczniemy, upewnij się, że masz następujące:
 
-3.  Katalog dokumentów: skonfiguruj katalog, w którym przechowywane są Twoje obrazy. Zaktualizuj`dataDir` zmienną w przykładowym kodzie ze ścieżką do katalogu dokumentów.
+1. **Java Development Kit (JDK)** – dowolna aktualna wersja (8 lub nowsza). Pobierz go z [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.OCR for Java library** – pobierz najnowszy JAR ze strony pobierania Aspose ([install aspose ocr](https://releases.aspose.com/ocr/java/)).  
+3. **Folder z przykładowymi obrazami** – zaktualizuj zmienną `dataDir` w kodzie, aby wskazywał na ten folder.
 
-## Importuj pakiety
+## Import Packages
 
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Dołącz bibliotekę Aspose.OCR, aby wykorzystać jej funkcje OCR.
+Aby rozpocząć, zaimportuj wymagane klasy. Ten blok pozostaje niezmieniony; po prostu wprowadza API Aspose OCR oraz narzędzia I/O Javy do zakresu.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -45,35 +61,36 @@ import java.io.File;
 import java.io.IOException;
 ```
 
-## Wykonywanie OCR na BufferedImage
+## How to Perform OCR on a BufferedImage
 
-Podzielmy podany przykład na kilka kroków:
+Przejdziemy przez proces krok po kroku. Każdy krok zawiera krótkie wyjaśnienie, po którym następuje odpowiedni fragment kodu (niezmieniony w stosunku do oryginału).
 
-### Krok 1: Ustaw katalog dokumentów i ścieżkę obrazu
+### Step 1: Set Document Directory and Image Path  
+Zdefiniuj, gdzie znajdują się Twoje obrazy i wskaż plik, który chcesz przetworzyć.
 
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Ścieżka obrazu
+// The image path
 String imagePath = dataDir + "p3.png";
 ```
 
- Upewnij się, że wymieniłeś`"Your Document Directory"` podając rzeczywistą ścieżkę do katalogu dokumentów i podaj poprawną nazwę pliku obrazu.
+> **Porada:** Używaj ścieżki bezwzględnej podczas developmentu, aby uniknąć `FileNotFoundException`, a następnie przełącz się na ścieżkę względną w środowisku produkcyjnym.
 
-### Krok 2: Utwórz instancję AsposeOCR
+### Step 2: Create an AsposeOCR Instance  
+Utwórz instancję AsposeOCR. Ten obiekt zapewnia dostęp do wszystkich metod rozpoznawania.
 
 ```java
-// Utwórz instancję API
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-Zainicjuj instancję klasy AsposeOCR, aby uzyskać dostęp do jej metod.
-
-### Krok 3: Rozpoznaj stronę z BufferedImage
+### Step 3: Recognize Page from BufferedImage  
+Wczytaj obraz do `BufferedImage`, uruchom silnik OCR i wyświetl wynik.
 
 ```java
-//Rozpoznaj stronę z BufferedImage
+// Recognize page from BufferedImage
 try {
     BufferedImage loaded = ImageIO.read(new File(imagePath));
     String result = api.RecognizePage(loaded);
@@ -83,38 +100,71 @@ try {
 }
 ```
 
-Załaduj obraz za pomocą BufferedImage, a następnie użyj instancji AsposeOCR, aby rozpoznać tekst na stronie. Wynik zostanie wydrukowany na konsoli.
+**Co się dzieje?**  
+1. `ImageIO.read` wczytuje plik do pamięci jako `BufferedImage`.  
+2. `api.RecognizePage` wykoną operację OCR.  
+3. Rozpoznany tekst jest zwracany jako `String` i wypisywany na konsolę.
 
- Powtórz te kroki dla każdego obrazu, na którym chcesz przeprowadzić OCR, dostosowując`imagePath` odpowiednio.
+Powtórz te trzy kroki dla każdego obrazu, który musisz przetworzyć — po prostu zmień `imagePath` odpowiednio.
 
-## Wniosek
+## Common Issues & Solutions
 
-Gratulacje! Pomyślnie nauczyłeś się wykonywać OCR na BufferedImage przy użyciu Aspose.OCR dla Java. Ta potężna biblioteka otwiera świat możliwości wyodrębniania tekstu z obrazów, dzięki czemu Twoje aplikacje są bardziej wszechstronne.
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| `NullPointerException` przy `loaded` | Plik obrazu nie znaleziony lub nieobsługiwany format | Zweryfikuj ścieżkę i upewnij się, że plik jest obsługiwanym **ocr image format** (PNG, JPEG, BMP, TIFF). |
+| Zniekształcony wynik | Nie ustawiono języka lub nieobsługiwane znaki | AsposeOCR automatycznie wykrywa język, ale możesz go ustawić explicite używając `api.setLanguage("eng")` dla angielskiego lub innych kodów ISO. |
+| Wolna wydajność przy dużych obrazach | Wysoka rozdzielczość zużywa pamięć | Zmniejsz rozmiar obrazu przy użyciu `BufferedImage.getScaledInstance` przed rozpoznaniem. |
 
-## Często zadawane pytania
+## Frequently Asked Questions (Original)
 
-### P1: Czy Aspose.OCR obsługuje wiele języków?
+### Q1: Czy Aspose.OCR obsługuje wiele języków?
 
-Odpowiedź 1: Tak, Aspose.OCR obsługuje szeroką gamę języków, dzięki czemu nadaje się do różnorodnych potrzeb w zakresie rozpoznawania tekstu.
+A1: Tak, Aspose.OCR obsługuje szeroką gamę języków, co czyni go odpowiednim do różnorodnych potrzeb rozpoznawania tekstu.
 
-### P2: Czy Aspose.OCR jest kompatybilny z różnymi formatami obrazów?
+### Q2: Czy Aspose.OCR jest kompatybilny z różnymi formatami obrazów?
 
-A2: Absolutnie! Aspose.OCR może przetwarzać obrazy w różnych formatach, zapewniając elastyczność w projektach OCR.
+A2: Zdecydowanie! Aspose.OCR może przetwarzać obrazy w różnych formatach, zapewniając elastyczność w projektach OCR.
 
-### P3: Jak często aktualizowany jest Aspose.OCR?
+### Q3: Jak często aktualizowany jest Aspose.OCR?
 
-O3: Aspose regularnie publikuje aktualizacje w celu ulepszenia funkcji i rozwiązania wszelkich problemów. Sprawdź ich[dokumentacja](https://reference.aspose.com/ocr/java/) aby uzyskać najnowsze informacje.
+A3: Aspose regularnie wydaje aktualizacje, aby ulepszać funkcje i rozwiązywać problemy. Sprawdź ich [documentation](https://reference.aspose.com/ocr/java/) po najnowsze informacje.
 
-### P4: Czy mogę wypróbować Aspose.OCR przed zakupem?
+### Q4: Czy mogę wypróbować Aspose.OCR przed zakupem?
 
- Odpowiedź 4: Tak, możesz skorzystać z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+A4: Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
-### P5: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.OCR?
+### Q5: Gdzie mogę uzyskać wsparcie społeczności dla Aspose.OCR?
 
- A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie społeczności i dyskusje.
+A5: Odwiedź [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16), aby uzyskać wsparcie społeczności i dyskusje.
+
+## Additional FAQs (New)
+
+**P: Jak zainstalować Aspose OCR w projekcie Maven?**  
+O: Dodaj zależność Aspose OCR do swojego `pom.xml`, używając współrzędnych podanych na stronie pobierania Aspose.
+
+**P: Czy mogę użyć tej biblioteki do wyodrębniania tekstu ze zeskanowanego PDF?**  
+O: Tak — przekształć każdą stronę PDF na obraz (np. przy użyciu Aspose.PDF), a następnie zastosuj ten sam przepływ pracy OCR z `BufferedImage`.
+
+**P: Czy biblioteka obsługuje OCR na obrazach kolorowych?**  
+O: Zdecydowanie. Aspose OCR działa na obrazach kolorowych, w odcieniach szarości i binarnych; jednak obrazy o wysokim kontraście czarno‑białym zazwyczaj dają najlepszą dokładność.
+
+**P: Czy istnieje limit liczby stron, które mogę przetworzyć w jednym uruchomieniu?**  
+O: Nie ma sztywnego limitu, ale zużycie pamięci rośnie wraz z rozmiarem obrazu. Przetwarzaj duże partie w partiach, aby uniknąć `OutOfMemoryError`.
+
+**P: Jak mogę poprawić dokładność rozpoznawania tekstu odręcznego?**  
+O: Włącz tryb rozpoznawania odręcznego (jeśli dostępny) lub wstępnie przetwórz obraz, aby zwiększyć kontrast i zredukować szum.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose

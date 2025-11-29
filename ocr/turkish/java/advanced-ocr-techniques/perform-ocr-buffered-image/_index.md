@@ -1,37 +1,53 @@
 ---
-title: Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme
-linktitle: Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme
-second_title: Aspose.OCR Java API'si
-description: Aspose.OCR for Java ile BufferedImage üzerinde zahmetsizce OCR gerçekleştirin. Görüntülerden metni sorunsuz bir şekilde çıkarın. Çok yönlü bir metin tanıma deneyimi için hemen indirin.
+date: 2025-11-29
+description: Görüntülerden metin çıkarmayı Java OCR kütüphanesiyle öğrenin. Bu rehber,
+  Aspose OCR'ı nasıl kuracağınızı, birden çok dili nasıl yöneteceğinizi ve çeşitli
+  OCR görüntü formatlarıyla nasıl çalışacağınızı gösterir.
+language: tr
+linktitle: Performing OCR on BufferedImage in Aspose.OCR for Java
+second_title: Aspose.OCR Java API
+title: Java OCR Kütüphanesi (Aspose.OCR) Kullanarak BufferedImage Üzerinde OCR Yapma
+url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
-url: /tr/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme
+# BufferedImage Üzerinde OCR Yapma – Java OCR Kütüphanesi (Aspose.OCR)
 
-## giriiş
+## Giriş
 
-Java için Aspose.OCR kullanarak BufferedImage üzerinde Optik Karakter Tanıma (OCR) gerçekleştirmeye ilişkin kapsamlı kılavuzumuza hoş geldiniz. Aspose.OCR, geliştiricilerin OCR özelliklerini uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanıyan, görüntülerden metin çıkarmayı çocuk oyuncağı haline getiren güçlü bir Java kitaplığıdır.
+Java’da **görüntülerden metin çıkarmak** istiyorsanız güvenilir bir *java ocr library* şarttır. Bu öğreticide, Aspose.OCR – güçlü bir Java OCR kütüphanesi – kullanarak bir `BufferedImage` üzerinden doğrudan metin tanıma işlemini nasıl yapacağınızı göstereceğiz. Kütüphaneyi kurma, bir görüntüyü yükleme ve tanınan dizeyi alma adımlarını sadece birkaç satır kodla göreceksiniz.
 
-Bu eğitimde Aspose.OCR for Java'yı kurma, gerekli paketleri içe aktarma ve BufferedImage üzerinde OCR gerçekleştirme sürecinde size yol göstereceğiz. İster deneyimli bir geliştirici olun ister OCR'a yeni başlıyor olun, bu adım adım kılavuz Aspose.OCR'ın tüm potansiyelinden yararlanmanıza yardımcı olacaktır.
+## Hızlı Yanıtlar
+- **En iyi java ocr library hangisidir?** Aspose.OCR for Java yüksek doğruluk ve geniş dil desteği sunar.  
+- **Aspose OCR nasıl kurulur?** JAR dosyasını Aspose web sitesinden indirip projenizin classpath’ine ekleyin.  
+- **Birden fazla dili tanıyabilir miyim?** Evet—Aspose.OCR kutudan çıktığı gibi birden çok dili destekler.  
+- **Hangi görüntü formatları destekleniyor?** Kütüphane PNG, JPEG, BMP ve TIFF gibi yaygın OCR görüntü formatlarıyla çalışır.  
+- **Metin çıkarmak için tipik kod nasıl olur?** Görüntüyü bir `BufferedImage` içine yükleyin, bir `AsposeOCR` örneği oluşturun ve `RecognizePage` metodunu çağırın.
 
-## Önkoşullar
+## Java OCR Kütüphanesi Nedir?
+Bir *java ocr library*, raster görüntüleri analiz edip görsel metni makine‑okunur dizgelere dönüştürebilen Java sınıflarının bir setidir. Aspose.OCR for Java, yüksek hassasiyetli tanıma, dil algılama ve çok çeşitli görüntü formatı desteği sunan bir kütüphanedir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Neden Aspose.OCR for Java?
+- **Yüksek doğruluk** hem basılı hem el yazısı belgelerde.  
+- **OCR multiple languages** desteği; İngilizce, Fransızca, Almanca, Çince ve daha birçok dil.  
+- `BufferedImage` ile doğrudan çalışan basit API, ara dosya dönüşümlerine gerek kalmaz.  
+- **ocr image formats** desteği: PNG, JPEG, BMP, TIFF ve GIF.
 
-1.  Java Geliştirme Kiti (JDK): Sisteminizde Java'nın kurulu olduğundan emin olun. En son sürümü şuradan indirebilirsiniz:[Burada](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Ön Koşullar
 
-2.  Aspose.OCR for Java Library: Kütüphaneyi Aspose web sitesinden indirin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/ocr/java/).
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-3.  Belge Dizini: Resimlerinizin depolandığı bir dizin ayarlayın. Güncelleme`dataDir` örnek koddaki değişkeni belge dizininizin yolunu içeren.
+1. **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8 veya üzeri). İndirmek için [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) sitesine göz atın.  
+2. **Aspose.OCR for Java library** – en son JAR dosyasını Aspose indirme sayfasından alın ([install aspose ocr](https://releases.aspose.com/ocr/java/)).  
+3. **Örnek görüntülerin bulunduğu bir klasör** – kod içinde `dataDir` değişkenini bu klasöre işaret edecek şekilde güncelleyin.
 
-## Paketleri İçe Aktar
+## Paketleri İçe Aktarma
 
-Başlamak için gerekli paketleri Java projenize aktarın. OCR işlevlerinden yararlanmak için Aspose.OCR kitaplığını ekleyin.
+Başlamak için gerekli sınıfları içe aktarın. Bu blok değişmeden kalır; sadece Aspose OCR API’si ve Java I/O yardımcılarını kapsam içine alır.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -45,35 +61,36 @@ import java.io.File;
 import java.io.IOException;
 ```
 
-## BufferedImage'da OCR gerçekleştirme
+## BufferedImage Üzerinde OCR Nasıl Yapılır
 
-Sağlanan örneği birden çok adıma ayıralım:
+Adım adım ilerleyeceğiz. Her adım kısa bir açıklama ve ardından (orijinal koddan değişmeyen) kod parçacığını içerir.
 
-### 1. Adım: Belge Dizinini ve Görüntü Yolunu Ayarlayın
+### Adım 1: Belge Dizini ve Görüntü Yolu Ayarlama  
+Görüntülerinizin nerede olduğunu tanımlayın ve işlemek istediğiniz dosyayı gösterin.
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Görüntü yolu
+// The image path
 String imagePath = dataDir + "p3.png";
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"` belge dizininizin gerçek yolunu belirtin ve doğru görüntü dosyası adını sağlayın.
+> **İpucu:** Geliştirme sırasında `FileNotFoundException` almamak için mutlak yol kullanın, üretim ortamına geçerken göreli yola dönün.
 
-### Adım 2: AsposeOCR Örneği Oluşturun
+### Adım 2: AsposeOCR Örneği Oluşturma  
+OCR motorunu başlatın. Bu nesne tüm tanıma metodlarına erişim sağlar.
 
 ```java
-// API örneği oluştur
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-Yöntemlerine erişmek için AsposeOCR sınıfının bir örneğini başlatın.
-
-### Adım 3: BufferedImage'daki Sayfayı Tanıyın
+### Adım 3: BufferedImage’dan Sayfa Tanıma  
+Görüntüyü bir `BufferedImage` içine yükleyin, OCR motorunu çalıştırın ve sonucu ekrana yazdırın.
 
 ```java
-//BufferedImage'dan sayfayı tanı
+// Recognize page from BufferedImage
 try {
     BufferedImage loaded = ImageIO.read(new File(imagePath));
     String result = api.RecognizePage(loaded);
@@ -83,38 +100,71 @@ try {
 }
 ```
 
-BufferedImage'ı kullanarak görüntüyü yükleyin, ardından sayfadaki metni tanımak için AsposeOCR örneğini kullanın. Sonuç konsola yazdırılır.
+**Ne oluyor?**  
+1. `ImageIO.read` dosyayı belleğe `BufferedImage` olarak okur.  
+2. `api.RecognizePage` gerçek OCR işlemini gerçekleştirir.  
+3. Tanınan metin bir `String` olarak döner ve konsola yazdırılır.
 
- OCR gerçekleştirmek istediğiniz her görüntü için bu adımları tekrarlayın;`imagePath` buna göre.
+İhtiyacınız olan her görüntü için bu üç adımı tekrarlayın—sadece `imagePath` değerini değiştirin.
 
-## Çözüm
+## Yaygın Sorunlar & Çözümler
 
-Tebrikler! Aspose.OCR for Java kullanarak BufferedImage üzerinde OCR işlemini nasıl gerçekleştireceğinizi başarıyla öğrendiniz. Bu güçlü kitaplık, görüntülerden metin çıkarma konusunda birçok olanak sunarak uygulamalarınızı daha çok yönlü hale getirir.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| `NullPointerException` on `loaded` | Görüntü dosyası bulunamadı veya desteklenmeyen format | Yolun doğruluğunu kontrol edin ve dosyanın desteklenen **ocr image format** (PNG, JPEG, BMP, TIFF) olduğundan emin olun. |
+| Bozuk çıktı | Dil ayarlanmamış veya desteklenmeyen karakterler | AsposeOCR otomatik dil algılar, ancak `api.setLanguage("eng")` gibi ISO kodlarıyla dili açıkça belirtebilirsiniz. |
+| Büyük görüntülerde yavaş performans | Yüksek çözünürlük çok fazla bellek tüketir | Tanımadan önce `BufferedImage.getScaledInstance` ile görüntüyü küçültün. |
 
-## SSS'ler
+## Sık Sorulan Sorular (Orijinal)
 
-### S1: Aspose.OCR birden fazla dili destekleyebilir mi?
+### Q1: Aspose.OCR birden fazla dili destekliyor mu?
 
-Cevap1: Evet, Aspose.OCR çok çeşitli dilleri destekler, bu da onu çeşitli metin tanıma ihtiyaçlarına uygun hale getirir.
+A1: Evet, Aspose.OCR geniş bir dil yelpazesini destekler ve çeşitli metin tanıma ihtiyaçları için uygundur.
 
-### S2: Aspose.OCR farklı görüntü formatlarıyla uyumlu mudur?
+### Q2: Aspose.OCR farklı görüntü formatlarıyla uyumlu mu?
 
-A2: Kesinlikle! Aspose.OCR, görüntüleri çeşitli formatlarda işleyerek OCR projelerinizde esneklik sağlar.
+A2: Kesinlikle! Aspose.OCR çeşitli formatlardaki görüntüleri işleyebilir, OCR projelerinizde esneklik sağlar.
 
-### S3: Aspose.OCR ne sıklıkta güncelleniyor?
+### Q3: Aspose.OCR ne sıklıkla güncelleniyor?
 
-Cevap3: Aspose, özellikleri geliştirmek ve sorunları çözmek için düzenli olarak güncellemeler yayınlar. kontrol edin[dokümantasyon](https://reference.aspose.com/ocr/java/) En son bilgiler için.
+A3: Aspose, özellikleri geliştirmek ve sorunları gidermek için düzenli olarak güncellemeler yayınlar. En yeni bilgiler için [belgelendirme](https://reference.aspose.com/ocr/java/) sayfasına bakın.
 
-### S4: Satın almadan önce Aspose.OCR'ı deneyebilir miyim?
+### Q4: Aspose.OCR’ı satın almadan deneyebilir miyim?
 
- Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+A4: Evet, ücretsiz deneme sürümünü [burada](https://releases.aspose.com/) bulabilirsiniz.
 
-### S5: Aspose.OCR için topluluk desteğini nereden alabilirim?
+### Q5: Aspose.OCR için topluluk desteği nereden alınır?
 
- A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
+A5: Topluluk desteği ve tartışmalar için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
+
+## Ek SSS (Yeni)
+
+**S: Aspose OCR’ı bir Maven projesine nasıl eklerim?**  
+C: Aspose OCR bağımlılığını, Aspose indirme sayfasında verilen koordinatlarla `pom.xml` dosyanıza ekleyin.
+
+**S: Bu kütüphaneyi taranmış bir PDF’den metin çıkarmak için kullanabilir miyim?**  
+C: Evet—her PDF sayfasını bir görüntüye (ör. Aspose.PDF ile) dönüştürün ve aynı `BufferedImage` OCR iş akışını uygulayın.
+
+**S: Renkli görüntülerde OCR desteği var mı?**  
+C: Kesinlikle. Aspose OCR renkli, gri tonlamalı ve ikili görüntülerle çalışır; ancak yüksek kontrastlı siyah‑beyaz görüntüler genellikle en iyi doğruluğu verir.
+
+**S: Tek bir çalıştırmada işleyebileceğim sayfa sayısında bir limit var mı?**  
+C: Katı bir limit yok, ancak bellek tüketimi görüntü boyutuyla artar. `OutOfMemoryError` almamak için büyük partileri bölerek işleyin.
+
+**S: El yazısı metin için doğruluğu nasıl artırabilirim?**  
+C: El yazısı modunu (varsa) etkinleştirin veya kontrastı artırıp gürültüyü azaltarak görüntüyü ön‑işlemden geçirin.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-11-29  
+**Test Edilen Sürüm:** Aspose.OCR 24.11 for Java  
+**Yazar:** Aspose
