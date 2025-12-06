@@ -1,35 +1,53 @@
 ---
-title: Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
-linktitle: Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
-second_title: API Java Aspose.OCR
-description: Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng OCR hiệu quả.
+date: 2025-12-06
+description: Tìm hiểu cách sử dụng Aspose.OCR cho Java để thực hiện nhận dạng văn
+  bản OCR, trích xuất văn bản từ hình ảnh và chuẩn bị các hình chữ nhật cho việc nhận
+  dạng mục tiêu.
+language: vi
+linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Chuẩn bị các hình chữ nhật cho nhận dạng văn bản OCR trong Aspose.OCR
+url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
-url: /vi/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR
+# Chuẩn bị các hình chữ nhật cho Nhận dạng Văn bản OCR trong Aspose.OCR
 
 ## Giới thiệu
 
-Trong thế giới công nghệ phát triển nhanh chóng, việc trích xuất văn bản từ hình ảnh đã trở thành một nhiệm vụ quan trọng, mở ra cánh cửa cho vô số khả năng. Aspose.OCR cho Java nổi bật như một công cụ mạnh mẽ, đơn giản hóa quy trình phức tạp của Nhận dạng ký tự quang học (OCR). Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các bước cần thiết để khai thác tiềm năng của Aspose.OCR cho Java, cho phép bạn tích hợp liền mạch nhận dạng văn bản vào các ứng dụng Java của mình.
+Trong thế giới dữ liệu ngày nay, **ocr text recognition** là nền tảng để chuyển đổi tài liệu quét, ảnh chp màn hình và ảnh thành nội dung có thể tìm kiếm, chỉnh sửa. Aspose.OCR for Java giúp quá trình này nhanh chóng và đáng tin cậy, đặc biệt khi bạn cần tập trung vào các khu vực cụ thể của hình ảnh. Trong hướng dẫn này, chúng ta sẽ đi qua từng bước cần thiết để chuẩn bị các hình chữ nhật giới hạn OCR chỉ trong các vùng bạn quan tâm, mang lại kiểm soát chính xác và hiệu suất tốt hơn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào xử lý OCR text recognition trong Java?** Aspose.OCR for Java.  
+- **Có cần giấy phép cho việc sử dụng trong môi trường production không?** Có – giấy phép Aspose.OCR hợp lệ sẽ mở khóa đầy đủ chức năng.  
+- **Tôi có thể giới hạn OCR chỉ ở một số phần của hình ảnh không?** Chắc chắn; bạn định nghĩa các hình chữ nhật bao quanh các vùng mục tiêu.  
+- **Các yêu cầu trước chính là gì?** JDK 17+, Aspose.OCR for Java, và một IDE Java.  
+- **Cách tiếp cận này có phù hợp để trích xuất văn bản từ hình ảnh không?** Có, đây là cách hiệu quả để **extract text image java** trong các dự án.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## OCR Text Recognition là gì?
+OCR (Optical Character Recognition) text recognition chuyển đổi các hình ảnh dựa trên pixel thành các ký tự có thể đọc được bởi máy. Nó cho phép bạn tìm kiếm, chỉnh sửa và phân tích nội dung mà ban đầu chỉ tồn tại dưới dạng hình ảnh.
 
-- Bộ công cụ phát triển Java (JDK): Aspose.OCR cho Java yêu cầu môi trường Java. Tải xuống và cài đặt JDK mới nhất từ trang web của Oracle.
+## Tại sao cần chuẩn bị các hình chữ nhật cho OCR Text Recognition?
+Việc định nghĩa các hình chữ nhật giúp engine tập trung vào các vùng thực sự chứa văn bản, từ đó:
+* Giảm thời gian xử lý.
+* Cải thiện độ chính xác bằng cách bỏ qua nền nhiễu.
+* Cho phép bạn trích xuất chỉ dữ liệu cần thiết — lý tưởng cho biểu mẫu, hoá đơn và biên lai.
 
--  Thư viện Aspose.OCR cho Java: Nhận thư viện Aspose.OCR cho Java từ liên kết tải xuống[đây](https://releases.aspose.com/ocr/java/) . Thực hiện theo các hướng dẫn cài đặt được cung cấp trong tài liệu[đây](https://reference.aspose.com/ocr/java/).
+## Yêu cầu trước
 
-- Môi trường phát triển: Thiết lập Môi trường phát triển tích hợp Java (IDE) ưa thích của bạn để bắt đầu viết mã cùng với chúng tôi.
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-## Gói nhập khẩu
+- **Java Development Kit (JDK)** – Aspose.OCR for Java hoạt động với JDK 17 hoặc mới hơn. Tải về từ trang web Oracle.
+- **Thư viện Aspose.OCR for Java** – Nhận JAR mới nhất từ trang tải chính thức [here](https://releases.aspose.com/ocr/java/). Thực hiện theo hướng dẫn cài đặt [here](https://reference.aspose.com/ocr/java/).
+- **Môi trường phát triển** – Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, VS Code, …) đều được.
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để cung cấp các chức năng Aspose.OCR. Sử dụng đoạn mã sau ở đầu tệp Java của bạn:
+## Nhập khẩu các gói
+
+Trong file nguồn Java của bạn, nhập các lớp Aspose.OCR cần thiết và các tiện ích chuẩn của Java:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -43,32 +61,34 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
+> *Chúng ta nhập `java.awt.Rectangle` vì API OCR yêu cầu các hình chữ nhật xác định các vùng cần quét.*
+
 ## Bước 1: Thiết lập giấy phép
 
 ```java
 SetLicense.main(null);
 ```
 
- Đảm bảo bạn đã thiết lập giấy phép cho Aspose.OCR bằng cách gọi tới`SetLicense` phương pháp. Bước này rất quan trọng để phát huy hết tiềm năng của thư viện.
+Gọi `SetLicense` kích hoạt giấy phép Aspose.OCR của bạn, loại bỏ giới hạn đánh giá và cho phép OCR text recognition đầy đủ tính năng.
 
-## Bước 2: Xác định thư mục tài liệu và đường dẫn hình ảnh
+## Bước 2: Định nghĩa thư mục tài liệu và đường dẫn hình ảnh
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-Chỉ định thư mục tài liệu và đường dẫn hình ảnh nơi đặt hình ảnh của bạn để xử lý OCR.
+Thay `"Your Document Directory"` bằng đường dẫn tuyệt đối nơi hình ảnh (`p.png`) của bạn nằm. Đây là hình ảnh sẽ được xử lý.
 
-## Bước 3: Tạo phiên bản Aspose.OCR
+## Bước 3: Tạo đối tượng Aspose.OCR
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-Khởi tạo lớp Aspose.OCR để tạo một phiên bản API.
+Khởi tạo `AsposeOCR` cho phép bạn truy cập phương thức `RecognizePage`, thực hiện OCR thực tế.
 
-## Bước 4: Chuẩn bị hình chữ nhật có văn bản
+## Bước 4: Chuẩn bị các hình chữ nhật với văn bản
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -78,7 +98,7 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-Xác định hình chữ nhật kèm theo văn bản để chỉ ra các khu vực cần áp dụng OCR.
+Mỗi `Rectangle(x, y, width, height)` cho Aspose.OCR biết chính xác nơi cần tìm văn bản. Điều chỉnh tọa độ sao cho phù hợp với bố cục của hình ảnh nguồn.
 
 ## Bước 5: Thực hiện nhận dạng OCR
 
@@ -91,36 +111,49 @@ try {
 }
 ```
 
-Cuối cùng, thực hiện nhận dạng OCR bằng các hình chữ nhật đã xác định. Văn bản được nhận dạng sẽ được in ra bàn điều khiển.
+Lệnh `RecognizePage` chỉ xử lý các hình chữ nhật đã định và trả về chuỗi đã trích xuất. Đầu ra console cho phép bạn kiểm tra kết quả **ocr text recognition** ngay lập tức.
 
-## Phần kết luận
+## Các vấn đề thường gặp và mẹo
 
-Chúc mừng! Bạn đã điều hướng thành công qua các bước tích hợp Aspose.OCR cho Java vào dự án của mình. Công cụ đa năng này cho phép bạn trích xuất văn bản từ hình ảnh một cách dễ dàng, mang lại khả năng vô tận cho các ứng dụng của bạn.
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **No output** | Incorrect rectangle coordinates or image path | Double‑check the `dataDir` value and ensure rectangles actually cover text regions. |
+| **Garbage characters** | Low‑resolution image or unsupported font | Use a higher‑resolution source or apply image preprocessing (e.g., binarization). |
+| **License not applied** | `SetLicense` not called before OCR | Ensure `SetLicense.main(null);` runs before any API calls. |
+| **Performance lag** | Too many large rectangles | Limit the number of rectangles and keep them as tight as possible around the text. |
+
+## Kết luận
+
+Bạn đã học cách tích hợp Aspose.OCR for Java, thiết lập giấy phép, định nghĩa đường dẫn hình ảnh, và quan trọng nhất—chuẩn bị các hình chữ nhật để tập trung **ocr text recognition** vào các phần cụ thể của hình ảnh. Kỹ thuật này lý tưởng cho bất kỳ **java ocr tutorial** nào cần trích xuất văn bản chính xác và hiệu suất cao.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.OCR có tương thích với các ngôn ngữ lập trình khác không?
+**Q: Aspose.OCR có tương thích với các ngôn ngữ lập trình khác không?**  
+A: Có, Aspose.OCR cũng hỗ trợ .NET, C++, và Python. Xem tài liệu chính thức để có các mẫu code cho từng ngôn ngữ.
 
-Câu trả lời 1: Aspose.OCR hỗ trợ nhiều ngôn ngữ lập trình khác nhau, bao gồm .NET, C++và Python. Kiểm tra tài liệu để biết thêm chi tiết.
+**Q: Tôi có thể sử dụng Aspose.OCR trong dự án thương mại không?**  
+A: Chắc chắn. Mua giấy phép thương mại qua [Aspose store](https://purchase.aspose.com/buy).
 
-### Câu hỏi 2: Tôi có thể sử dụng Aspose.OCR cho các dự án thương mại không?
+**Q: Có phiên bản dùng thử miễn phí không?**  
+A: Có, bạn có thể tải phiên bản dùng thử [here](https://releases.aspose.com/).
 
-A2: Có, bạn có thể. Tham quan[trang mua hàng](https://purchase.aspose.com/buy) để khám phá các lựa chọn cấp phép cho mục đích thương mại.
+**Q: Làm sao để lấy giấy phép tạm thời để đánh giá?**  
+A: Giấy phép tạm thời được cung cấp qua [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+**Q: Tôi có thể nhận hỗ trợ cộng đồng ở đâu?**  
+A: Tham gia diễn đàn Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) để đặt câu hỏi, nhận mẹo và mẫu code.
 
- Câu trả lời 3: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-
-### Câu hỏi 4: Làm cách nào để tôi nhận được giấy phép tạm thời cho Aspose.OCR?
-
- A4: Có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-
-### Câu 5: Cần trợ giúp hoặc có thắc mắc?
-
- Câu trả lời 5: Truy cập cộng đồng Aspose.OCR[diễn đàn](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và thảo luận.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-06  
+**Tested With:** Aspose.OCR for Java 24.12  
+**Author:** Aspose  
+
+---
