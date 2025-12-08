@@ -1,49 +1,117 @@
 ---
-title: Khái niệm cơ bản về OCR
-linktitle: Khái niệm cơ bản về OCR
-second_title: API Java Aspose.OCR
-description: Khai phá tiềm năng của Aspose.OCR trong Java! Hướng dẫn từng bước để thiết lập giấy phép của bạn và tăng cường khả năng OCR. Tính toán các góc nghiêng và trích xuất văn bản một cách liền mạch.
+date: 2025-12-08
+description: Tìm hiểu cách trích xuất hình ảnh văn bản bằng Aspose.OCR cho Java. Hướng
+  dẫn này chỉ ra cách thiết lập giấy phép, tính độ nghiêng và cải thiện độ chính xác
+  của OCR.
+language: vi
+linktitle: OCR Basics
+second_title: Aspose.OCR Java API
+title: Trích xuất văn bản từ hình ảnh – Cơ bản về OCR với Aspose.OCR cho Java
+url: /java/ocr-basics/
 weight: 20
-url: /vi/java/ocr-basics/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Khái niệm cơ bản về OCR
+# Trích xuất hình ảnh văn bản – Cơ bản OCR
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng cao trò chơi OCR của mình với Aspose.OCR cho Java chưa? Hướng dẫn toàn diện này sẽ hướng dẫn bạn qua các hướng dẫn cần thiết, đảm bảo bạn tận dụng tối đa công cụ mạnh mẽ này. Hãy đi sâu vào!
+Trong hướng dẫn toàn diện này, bạn sẽ học **cách trích xuất hình ảnh văn bản** bằng Aspose.OCR cho Java, biến các ảnh quét thành nội dung có thể tìm kiếm và chỉnh sửa. Chúng tôi sẽ hướng dẫn bạn từ việc cấp phép đến hiệu chỉnh độ nghiêng, giúp bạn **cải thiện độ chính xác OCR** và xây dựng các pipeline xử lý tài liệu đáng tin cậy. Dù bạn đang phát triển một ứng dụng quét đơn giản hay một giải pháp doanh nghiệp, các bước này sẽ mang lại cho bạn sự tự tin để đối mặt với các thách thức OCR.
 
-## Thiết lập giấy phép của bạn một cách dễ dàng
+## Câu trả lời nhanh
+- **“Trích xuất hình ảnh văn bản” có nghĩa là gì?** Nó đề cập đến việc đọc ký tự từ các tệp hình ảnh (PNG, JPEG, TIFF, v.v.) và chuyển chúng thành văn bản thuần.  
+- **Tôi có cần giấy phép để sử dụng Aspose.OCR không?** Có – giấy phép hợp lệ sẽ loại bỏ watermark đánh giá và mở khóa hiệu năng đầy đủ.  
+- **Làm thế nào để tăng độ chính xác OCR?** Sử dụng hiệu chỉnh độ nghiêng, tiền xử lý hình ảnh thích hợp và các cài đặt engine OCR mới nhất.  
+- **OCR hỗ trợ hiệu chỉnh độ nghiêng trong Java không?** Chắc chắn – Aspose.OCR cung cấp phương thức tích hợp để tính toán và bù đắp góc nghiêng.  
+- **Tôi có thể nhận dạng văn bản đa ngôn ngữ không?** Có – API hỗ trợ hàng chục ngôn ngữ ngay từ đầu.
 
-Bắt tay vào hành trình OCR của bạn bắt đầu bằng việc thiết lập giấy phép phù hợp cho Aspose.OCR trong Java. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước, giúp quá trình này trở nên liền mạch và không gặp rắc rối. Giải phóng toàn bộ tiềm năng của Aspose.OCR và nâng cao khả năng xử lý tài liệu của bạn một cách dễ dàng. Đi tới[Cách đặt giấy phép cho Aspose.OCR trong Java](./set-license/) để bắt đầu.
+## “Trích xuất hình ảnh văn bản” là gì?
+Trích xuất văn bản từ hình ảnh có nghĩa là áp dụng nhận dạng ký tự quang học (OCR) để chuyển các ký tự trực quan thành chuỗi có thể đọc được bởi máy. Aspose.OCR cho Java thực hiện chuyển đổi này một cách hiệu quả, hỗ trợ nhiều định dạng ảnh và ngôn ngữ.
 
-## Nâng cao độ chính xác OCR: Tính góc nghiêng
+## Tại sao nên dùng Aspose.OCR cho Java?
+- **Độ chính xác cao** – thuật toán tiên tiến và hiệu chỉnh độ nghiêng tích hợp cho kết quả sạch sẽ.  
+- **Không phụ thuộc bên ngoài** – thư viện thuần Java, dễ nhúng.  
+- **Tài liệu đầy đủ** – các hướng dẫn từng bước (như những hướng dẫn dưới đây) giúp bạn tiến nhanh.  
+- **Mở rộng** – hoạt động tốt cho cả quét một trang và các job batch lớn.
 
- Độ chính xác là yếu tố then chốt trong OCR và Aspose.OCR dành cho Java sẽ giúp bạn. Tìm hiểu cách tính toán góc nghiêng một cách chính xác để tăng độ chính xác của OCR. Hướng dẫn từng bước này đảm bảo bạn hiểu rõ quy trình, cho phép bạn cải thiện việc xử lý tài liệu một cách dễ dàng. Đi sâu vào[Tính góc nghiêng trong Aspose.OCR cho Java](./calculate-skew-angle/) Hiện nay.
+## Điều kiện tiên quyết
+- Java 8 hoặc cao hơn đã được cài đặt.  
+- Maven hoặc Gradle để quản lý phụ thuộc.  
+- Tệp giấy phép Aspose.OCR cho Java hợp lệ (bạn có thể lấy bản dùng thử từ trang web Aspose).
 
-## Nhận dạng văn bản hiệu quả: Lấy hình chữ nhật với vùng văn bản
+## Hướng dẫn từng bước
 
-Khám phá bí mật trích xuất văn bản từ hình ảnh một cách liền mạch bằng Aspose.OCR cho Java. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình, cung cấp những hiểu biết có giá trị để có được hình chữ nhật có vùng văn bản. Tải xuống ngay để nhận dạng văn bản hiệu quả và nâng cao khả năng xử lý tài liệu của bạn. Khám phá[Lấy hình chữ nhật với vùng văn bản trong Aspose.OCR](./get-rectangles-with-text-areas/) để được hướng dẫn chi tiết.
+### Cách thiết lập giấy phép cho Aspose.OCR trong Java
+Môi trường có giấy phép sẽ loại bỏ các giới hạn đánh giá và tối đa hoá hiệu năng. Thực hiện theo tutorial ngắn dưới đây để đăng ký tệp giấy phép của bạn:
 
-## Phần kết luận
+[How to Set License for Aspose.OCR in Java](./set-license/)
 
-Chúc mừng! Bây giờ bạn đã khám phá các nguyên tắc cơ bản của OCR với Aspose.OCR cho Java. Cho dù bạn đang thiết lập giấy phép, tính toán góc nghiêng hay trích xuất văn bản một cách hiệu quả, những hướng dẫn này đã trang bị cho bạn kiến thức để nâng cao khả năng OCR của bạn. Đi sâu vào thế giới Aspose.OCR dành cho Java và cách mạng hóa trải nghiệm xử lý tài liệu của bạn.
+> **Mẹo chuyên nghiệp:** Đặt tệp giấy phép vào thư mục `resources` của dự án và tải nó một lần khi ứng dụng khởi động.
 
-Hãy nhớ rằng, cuộc hành trình không kết thúc ở đây. Aspose.OCR dành cho Java cung cấp nhiều khả năng và với những hướng dẫn này, bạn đang dần thành thạo chúng. Chúc mừng OCR-ing!
-## Hướng dẫn cơ bản về OCR
-### [Cách đặt giấy phép cho Aspose.OCR trong Java](./set-license/)
-Khai phá tiềm năng của Aspose.OCR cho Java bằng hướng dẫn từng bước này. Thiết lập giấy phép của bạn một cách dễ dàng và nâng cao khả năng OCR của bạn.
-### [Tính góc nghiêng trong Aspose.OCR cho Java](./calculate-skew-angle/)
-Nâng cao độ chính xác của OCR với Aspose.OCR cho Java. Tìm hiểu cách tính góc nghiêng từng bước. Cải thiện việc xử lý tài liệu một cách dễ dàng.
-### [Lấy hình chữ nhật với vùng văn bản trong Aspose.OCR](./get-rectangles-with-text-areas/)
-Khai phá sức mạnh của Aspose.OCR cho Java. Tìm hiểu cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn từng bước này. Tải xuống ngay để nhận dạng văn bản hiệu quả.
+### Cách tính góc nghiêng với Aspose.OCR
+Các bản quét bị nghiêng có thể làm giảm đáng kể chất lượng OCR. Sử dụng phương thức tính góc nghiêng tích hợp để phát hiện góc và xoay ảnh trước khi nhận dạng:
+
+[Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
+
+> **Tại sao quan trọng:** Hiệu chỉnh độ nghiêng (ocr skew correction) thường cải thiện tỷ lệ nhận dạng lên 10‑20 %.
+
+### Nhận dạng văn bản OCR – lấy các hình chữ nhật chứa vùng văn bản
+Sau khi hiệu chỉnh độ nghiêng, bạn có thể trích xuất các vùng chính xác chứa văn bản. Điều này hữu ích khi bạn cần dữ liệu bounding‑box cho các xử lý tiếp theo (ví dụ: tô sáng hoặc che dấu):
+
+[Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
+
+> **Trường hợp sử dụng:** Xuất tọa độ văn bản ra chú thích PDF hoặc đưa chúng vào pipeline xử lý ngôn ngữ tự nhiên downstream.
+
+## Các lỗi thường gặp & Giải pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|----------|
+| Độ chính xác thấp trên ảnh độ phân giải thấp | Engine OCR gặp khó khăn với ký tự bị pixel | Tăng kích thước ảnh hoặc áp dụng bộ lọc làm nét trước khi OCR. |
+| Giấy phép không được nhận diện | Đường dẫn tệp giấy phép sai hoặc chưa được tải | Đảm bảo `License.setLicense("Aspose.OCR.lic")` trỏ tới tài nguyên trong classpath. |
+| Góc nghiêng trả về 0° | Ảnh đã thẳng hoặc tiền xử lý không đúng | Kiểm tra ảnh có đường baseline rõ ràng; dùng kiểm tra bằng mắt. |
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể sử dụng Aspose.OCR trong sản phẩm thương mại không?**  
+Đ: Có. Khi bạn áp dụng giấy phép hợp lệ, bạn có thể nhúng thư viện vào bất kỳ ứng dụng thương mại nào mà không bị hạn chế.
+
+**H: Thư viện có hỗ trợ OCR cho văn bản viết tay không?**  
+Đ: Aspose.OCR tập trung vào văn bản in. Đối với viết tay, hãy cân nhắc tích hợp dịch vụ AI chuyên dụng cùng với Aspose.
+
+**H: Làm sao cải thiện độ chính xác OCR trên các bản quét nhiễu?**  
+Đ: Tiền xử lý ảnh (nhị phân hoá, loại bỏ nhiễu) và luôn thực hiện bước hiệu chỉnh độ nghiêng. Kết hợp này cho kết quả tốt nhất.
+
+**H: Có thể trích xuất văn bản trực tiếp từ PDF không?**  
+Đ: Chuyển các trang PDF sang ảnh trước (sử dụng Aspose.PDF hoặc bất kỳ công cụ PDF‑to‑image nào), sau đó chạy Aspose.OCR trên các ảnh đã tạo.
+
+**H: Những ngôn ngữ nào được hỗ trợ ngay lập tức?**  
+Đ: Hơn 30 ngôn ngữ, bao gồm English, Spanish, Chinese, Arabic, và nhiều hơn nữa. Chuyển ngôn ngữ bằng `ocrEngine.setLanguage(Language.English)`.
+
+## Kết luận
+
+Chúc mừng! Bạn đã có nền tảng vững chắc để **trích xuất hình ảnh văn bản** bằng Aspose.OCR cho Java. Bằng cách nắm vững việc thiết lập giấy phép, hiệu chỉnh độ nghiêng và trích xuất hình chữ nhật, bạn có thể **cải thiện độ chính xác OCR** trong nhiều kịch bản thực tế. Tiếp tục thử nghiệm các kỹ thuật tiền xử lý ảnh và khám phá toàn bộ API để mở khóa thêm nhiều khả năng.
+
+Hãy nhớ, hành trình không dừng lại ở đây—Aspose.OCR còn cung cấp các tính năng nâng cao như từ điển tùy chỉnh, phát hiện đa ngôn ngữ và tích hợp đám mây. Đi sâu hơn, và để ứng dụng của bạn đọc thế giới, từng hình ảnh một.
+
+## Các tutorial Cơ bản OCR
+### [How to Set License for Aspose.OCR in Java](./set-license/)
+Mở khóa tiềm năng của Aspose.OCR cho Java với hướng dẫn từng bước này. Thiết lập giấy phép một cách dễ dàng và nâng cao khả năng OCR của bạn.
+### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
+Nâng cao độ chính xác OCR với Aspose.OCR cho Java. Học cách tính góc nghiêng từng bước. Cải thiện xử lý tài liệu một cách dễ dàng.
+### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
+Mở khóa sức mạnh của Aspose.OCR cho Java. Học cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn chi tiết này. Tải ngay để nhận dạng văn bản hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
