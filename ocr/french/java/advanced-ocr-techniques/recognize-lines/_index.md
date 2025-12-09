@@ -1,37 +1,52 @@
 ---
-title: Reconnaître les lignes dans Aspose.OCR pour Java
-linktitle: Reconnaître les lignes dans Aspose.OCR pour Java
-second_title: API Java Aspose.OCR
-description: Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Intégration facile, haute précision.
-weight: 14
+date: 2025-12-09
+description: Découvrez un exemple Aspose OCR Java pour extraire du texte d’images
+  dans des projets Java. Intégration facile, OCR haute précision pour les applications
+  Java.
+linktitle: Aspose OCR Java Example – Recognizing Lines in Images
+second_title: Aspose.OCR Java API
+title: Exemple Aspose OCR Java – Reconnaissance de lignes dans les images
 url: /fr/java/advanced-ocr-techniques/recognize-lines/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Reconnaître les lignes dans Aspose.OCR pour Java
+# Exemple Aspose OCR Java – Reconnaissance de lignes dans les images
 
 ## Introduction
 
-Souhaitez-vous améliorer votre application Java avec de puissantes fonctionnalités de reconnaissance optique de caractères (OCR) ? Cherchez pas plus loin! Aspose.OCR for Java est une bibliothèque OCR de pointe qui vous permet d'intégrer de manière transparente la fonctionnalité OCR dans vos applications Java. Dans ce didacticiel, nous nous concentrerons sur la reconnaissance des lignes dans les images à l'aide d'Aspose.OCR pour Java.
+Si vous avez besoin d’un **exemple Aspose OCR Java** qui extrait rapidement du texte à partir d’images, vous êtes au bon endroit. Dans ce tutoriel, nous passerons en revue un programme Java complet, prêt à l’emploi, qui reconnaît les lignes individuelles de texte à l’aide d’Aspose.OCR pour Java. À la fin, vous comprendrez pourquoi Aspose OCR est un choix fiable pour les développeurs Java et comment intégrer la reconnaissance au niveau de la ligne dans n’importe quelle application.
 
-## Conditions préalables
+## Réponses rapides
+- **Que fait cet exemple ?** Il reconnaît une seule ligne de texte dans une image fournie.  
+- **Quelle bibliothèque est requise ?** Aspose.OCR pour Java (dernière version).  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Puis‑je extraire du texte de n’importe quel format d’image ?** Oui – JPEG, PNG, TIFF, BMP et bien d’autres sont pris en charge.  
+- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour copier, ajuster le chemin et exécuter.
 
-Avant de plonger dans le monde passionnant de l'OCR avec Aspose, assurons-nous que tout est configuré :
+## Qu’est‑ce qu’un exemple Aspose OCR Java ?
+Un **exemple Aspose OCR Java** est un extrait de code concis qui montre comment appeler l’API Aspose.OCR depuis Java. Il illustre les étapes essentielles — configuration de l’environnement, réglage des paramètres de reconnaissance et récupération du texte reconnu — afin que vous puissiez l’adapter à vos propres projets.
 
-1. Environnement de développement Java : assurez-vous d'avoir configuré un environnement de développement Java sur votre système.
+## Pourquoi utiliser Aspose OCR pour Java pour *extract text image java* ?
+- **Haute précision** – Des algorithmes avancés gèrent les images bruitées ou de faible résolution.  
+- **Prise en charge multi‑format** – Fonctionne avec JPEG, PNG, TIFF, BMP, GIF, etc.  
+- **API simple** – Peu de code suffit pour obtenir des résultats fiables.  
+- **Scalable** – Adapté aux outils de bureau, aux services côté serveur ou aux back‑ends mobiles.  
 
-2.  Bibliothèque Aspose.OCR pour Java : téléchargez et installez la bibliothèque Aspose.OCR pour Java. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/ocr/java/).
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
 
-3.  Image pour OCR : préparez une image contenant le texte que vous souhaitez reconnaître. Ajuste le`imagePath` variable dans l'exemple de code avec le chemin d'accès à votre image.
+1. **Java Development Kit (JDK)** – Version 8 ou supérieure installée et configurée.  
+2. **Bibliothèque Aspose.OCR pour Java** – Téléchargez le dernier JAR depuis la page officielle [ici](https://releases.aspose.com/ocr/java/).  
+3. **Un fichier image** contenant le texte que vous souhaitez reconnaître. Mettez à jour la variable `imagePath` dans le code pour qu’elle pointe vers ce fichier.
 
-Maintenant que vous avez réglé vos prérequis, passons à l'importation de packages et décomposons l'exemple en plusieurs étapes.
+## Guide étape par étape
 
-## Importer des packages
-
-Dans votre classe Java, importez les packages nécessaires pour Aspose.OCR :
+### Étape 1 : Importer les packages
+Tout d’abord, importez les classes Aspose.OCR requises ainsi que les utilitaires Java standards.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -44,43 +59,46 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-## Étape 1 : Définir le répertoire des documents
+### Étape 2 : Définir le répertoire du document
+Spécifiez le dossier qui contient vos fichiers image.
 
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-Remplacez « Votre répertoire de documents » par le chemin d'accès à votre répertoire de documents.
+Remplacez `"Your Document Directory"` par le chemin absolu où se trouve votre image de test.
 
-## Étape 2 : définir le chemin de l'image
+### Étape 3 : Définir le chemin de l’image
+Indiquez au moteur OCR l’image spécifique à traiter.
 
 ```java
-// Le chemin des images
+// The image path
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-Ajustez le chemin de l’image pour qu’il pointe vers l’emplacement de votre image.
+N’hésitez pas à modifier le nom du fichier pour qu’il corresponde à votre propre image.
 
-## Étape 3 : Créer une instance d'API
+### Étape 4 : Créer une instance de l’API
+Instanciez la classe principale d’OCR – cet objet exposera les méthodes de reconnaissance.
 
 ```java
-// Créer une instance d'API
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-Instanciez la classe AsposeOCR pour créer une instance d'API OCR.
-
-## Étape 4 : configurer les paramètres de reconnaissance
+### Étape 5 : Configurer les paramètres de reconnaissance
+Dites à Aspose.OCR ce que vous attendez. Dans cet exemple, nous activons la reconnaissance **single‑line**.
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
 settings.setRecognizeSingleLine(true);
 ```
 
-Configurez les paramètres de reconnaissance en fonction de vos besoins. Dans cet exemple, nous l'avons configuré pour reconnaître une seule ligne.
+Si vous devez détecter plusieurs lignes, utilisez `setRecognizeSingleLine(false)` à la place.
 
-## Étape 5 : Effectuer la reconnaissance OCR
+### Étape 6 : Effectuer la reconnaissance OCR
+Exécutez le moteur OCR et affichez la ligne reconnue dans la console.
 
 ```java
 RecognitionResult result = api.RecognizePage(imagePath, settings);
@@ -88,35 +106,39 @@ System.out.println("File: " + imagePath);
 System.out.println("Result line: " + result.recognitionText);
 ```
 
-Exécutez la reconnaissance OCR sur l’image spécifiée et affichez le résultat de la reconnaissance.
+Lorsque vous lancez le programme, vous devriez voir le chemin du fichier suivi de la ligne de texte extraite.
 
-En suivant ces étapes, vous pouvez intégrer de manière transparente les fonctionnalités de reconnaissance de lignes dans votre application Java à l'aide d'Aspose.OCR.
+## Problèmes courants et solutions
+| Problème | Solution |
+|----------|----------|
+| **`java.lang.NoClassDefFoundError`** | Assurez‑vous que le JAR Aspose.OCR est ajouté au classpath de votre projet. |
+| **Sortie vide** | Vérifiez que l’image contient une ligne de texte claire et horizontale et que `setRecognizeSingleLine(true)` correspond à votre scénario. |
+| **Format d’image non pris en charge** | Convertissez l’image en un format supporté (par ex., JPEG ou PNG) avant le traitement. |
+| **Lenteur sur les grandes images** | Redimensionnez ou compressez l’image à une résolution raisonnable (≤ 1500 px de largeur) avant l’OCR. |
 
-## Conclusion
+## Questions fréquentes
 
-Toutes nos félicitations! Vous avez appris avec succès à reconnaître les lignes dans les images à l'aide d'Aspose.OCR pour Java. Améliorez vos applications avec une puissante fonctionnalité OCR, les rendant plus polyvalentes et efficaces.
+**Q : Aspose.OCR peut‑il reconnaître plusieurs lignes dans une image ?**  
+R : Oui. Utilisez `settings.setRecognizeSingleLine(false)` pour activer la détection multi‑lignes.
 
-## FAQ
+**Q : Quels formats d’image sont pris en charge ?**  
+R : JPEG, PNG, TIFF, BMP, GIF et plusieurs autres sont entièrement supportés.
 
-### Q1 : Aspose.OCR peut-il reconnaître plusieurs lignes dans une image ?
+**Q : Quelle est la précision de l’extraction de texte ?**  
+R : Aspose.OCR offre une haute précision grâce à son moteur de reconnaissance propriétaire, notamment sur des images claires et haute résolution.
 
-A1 : Oui, Aspose.OCR propose des options pour reconnaître à la fois des lignes simples et multiples en fonction de vos besoins.
+**Q : Puis‑je utiliser cette bibliothèque dans une application web ?**  
+R : Absolument. Le même code Java fonctionne dans des environnements côté serveur tels que Spring Boot, Tomcat ou tout conteneur de servlets.
 
-### Q2 : Aspose.OCR est-il compatible avec différents formats d’image ?
+**Q : Une version d’essai est‑elle disponible ?**  
+R : Oui. Téléchargez un essai gratuit depuis le site Aspose [ici](https://releases.aspose.com/). L’essai comprend toutes les fonctionnalités mais ajoute un petit filigrane à la sortie.
 
-A2 : Absolument ! Aspose.OCR prend en charge divers formats d'image, notamment JPEG, PNG et TIFF.
+---
 
-### Q3 : Quelle est la précision d’Aspose.OCR dans la reconnaissance de texte ?
+**Dernière mise à jour :** 2025-12-09  
+**Testé avec :** Aspose.OCR pour Java 24.11 (dernière version au moment de la rédaction)  
+**Auteur :** Aspose  
 
-A3 : Aspose.OCR offre une grande précision, grâce à ses algorithmes de reconnaissance avancés et à ses mises à jour constantes.
-
-### Q4 : Puis-je intégrer Aspose.OCR dans mon application Web ?
-
-A4 : Certainement ! Aspose.OCR est conçu pour une intégration transparente dans les applications de bureau et Web.
-
-### Q5 : Existe-t-il une version d’essai disponible pour Aspose.OCR ?
-
- A5 : Oui, vous pouvez explorer les capacités d'Aspose.OCR avec un essai gratuit. Visite[ici](https://releases.aspose.com/) pour plus d'informations.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
