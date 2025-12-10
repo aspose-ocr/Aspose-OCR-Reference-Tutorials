@@ -1,32 +1,50 @@
 ---
-title: Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
-linktitle: Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
+date: 2025-12-10
+description: Pelajari cara mengenali teks dari gambar dan mengekstrak paragraf dari
+  gambar menggunakan Aspose.OCR untuk Java. Panduan langkah demi langkah dengan contoh
+  kode.
+linktitle: Recognize Text from Image and Retrieve Text Area Rectangles
 second_title: Aspose.OCR Java API
-description: Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar dengan lancar dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
-weight: 12
+title: Mengenali Teks dari Gambar dan Mengambil Persegi Panjang Area Teks
 url: /id/java/ocr-basics/get-rectangles-with-text-areas/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mendapatkan Persegi Panjang dengan Area Teks di Aspose.OCR
+# Mengenali Teks dari Gambar dan Mengambil Persegi Panjang Area Teks
 
-## Perkenalan
+## Introduction
 
-Apakah Anda ingin mengintegrasikan kemampuan pengenalan karakter optik (OCR) yang kuat ke dalam aplikasi Java Anda? Aspose.OCR untuk Java adalah solusi tepat Anda untuk ekstraksi teks dari gambar secara akurat dan efisien. Tutorial ini akan memandu Anda melalui proses mendapatkan persegi panjang dengan area teks menggunakan Aspose.OCR, membantu Anda memanfaatkan potensi penuh dari perpustakaan Java OCR ini.
+Jika Anda perlu **mengenali teks dari gambar** dalam aplikasi Java, Aspose.OCR untuk Java menyediakan cara yang cepat dan akurat untuk melakukannya. Dalam tutorial ini kami akan menelusuri langkah‑langkah tepat yang diperlukan untuk mengekstrak paragraf dari sebuah gambar, memperoleh persegi panjang pembatas untuk setiap area teks, dan mencetak koordinat tersebut ke konsol. Pada akhirnya Anda akan memahami mengapa pendekatan ini berhasil, cara mengintegrasikan perpustakaan, dan di mana Anda dapat memperluasnya untuk kasus penggunaan Anda sendiri.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “recognize text from image”?** Itu berarti mengubah karakter visual dalam sebuah gambar menjadi data string yang dapat diedit.  
+- **Perpustakaan mana yang menangani ini di Java?** Aspose.OCR untuk Java.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara tersedia untuk pengujian; lisensi penuh diperlukan untuk produksi.  
+- **Bisakah saya mengekstrak paragraf alih‑alih kata tunggal?** Ya – gunakan `AreasType.PARAGRAPHS` untuk mendapatkan persegi panjang tingkat paragraf.  
+- **Apakah kode ini kompatibel dengan Java 11+?** Tentu saja, API bekerja dengan Java 11 dan versi selanjutnya.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## What is “recognize text from image” in Aspose.OCR?
+Metode `RecognizePage` Aspose.OCR menganalisis bitmap, menerapkan algoritma OCR, dan mengembalikan string yang dikenali. Ketika Anda meminta area teks, perpustakaan juga menghitung koordinat `Rectangle` yang tepat untuk setiap blok teks, memudahkan penyorotan atau pemrosesan bagian tertentu nanti.
 
-- Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java di sistem Anda.
--  Aspose.OCR untuk Perpustakaan Java: Unduh dan atur perpustakaan Aspose.OCR. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/ocr/java/).
+## Why use Aspose.OCR for Java?
+- **Akurasi tinggi** – mendukung banyak bahasa dan font yang kompleks.  
+- **Integrasi mudah** – satu JAR menambahkan kemampuan OCR lengkap.  
+- **Output fleksibel** – Anda dapat mengambil teks mentah, HTML terformat, atau persegi panjang area‑teks yang presisi.  
+- **Thread‑safe** – cocok untuk lingkungan server dengan throughput tinggi.
 
-## Paket Impor
+## Prerequisites
 
-Di proyek Java Anda, impor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.OCR:
+- **Java Development Kit** (JDK 11 atau lebih baru) terpasang di mesin Anda.  
+- **Aspose.OCR untuk Java** – unduh dari situs resmi [here](https://releases.aspose.com/ocr/java/).  
+- IDE atau alat build (Maven/Gradle) untuk mengelola dependensi JAR.
+
+## Import Packages
+
+Di proyek Java Anda, impor kelas‑kelas yang diperlukan:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -41,32 +59,36 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Langkah 1: Siapkan Proyek Anda
+## Step‑by‑Step Guide
 
-Pastikan Anda memiliki proyek Java yang siap, dan perpustakaan Aspose.OCR terintegrasi.
+### Step 1: Set Up Your Project
+Buat proyek Java baru (atau tambahkan ke proyek yang sudah ada) dan letakkan JAR Aspose.OCR pada classpath. Jika Anda menggunakan Maven, tambahkan dependensi sebagaimana dijelaskan dalam paket unduhan.
 
-## Langkah 2: Tentukan Direktori Dokumen dan Jalur Gambar
+### Step 2: Define Document Directory and Image Path
+Tentukan lokasi gambar contoh Anda:
 
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Jalur gambar
+// The image path
 String imagePath = dataDir + "p3.png";
 ```
 
-## Langkah 3: Buat Instans Aspose.OCR
+### Step 3: Create Aspose.OCR Instance
+Instansiasi mesin OCR:
 
 ```java
-// Buat instans Aspose.OCR
+// Create Aspose.OCR instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Langkah 4: Kenali Teks dalam Gambar
+### Step 4: Recognize Text in the Image
+Panggil `RecognizePage` untuk mengubah gambar menjadi teks biasa. Langkah ini memperlihatkan kemampuan inti **recognize text from image**:
 
 ```java
 try {
-    // Kenali halaman dengan jalur lengkap ke file
+    // Recognize page by full path to file
     String result = api.RecognizePage(imagePath);
     System.out.println("Result: " + result);
 } catch (IOException e) {
@@ -74,46 +96,55 @@ try {
 }
 ```
 
-## Langkah 5: Dapatkan Persegi Panjang dengan Area Teks
+### Step 5: Get Rectangles with Text Areas
+Sekarang ambil persegi panjang pembatas untuk setiap paragraf (atau tipe area lainnya). Di sinilah Anda **extract paragraphs from image** dan memperoleh koordinatnya:
 
 ```java
-// Dapatkan persegi panjang dengan area teks pada gambar.
+// Get rectangles with text areas in the image.
 ArrayList<Rectangle> rectResult = api.getTextAreas(imagePath, AreasType.PARAGRAPHS, true);
 
-// Cetak setiap persegi panjang area teks
+// Print each text area rectangle
 for (Rectangle r : rectResult) {
     System.out.println("Text area:" + r);
 }
 ```
 
-## Kesimpulan
+## Common Issues & Troubleshooting
 
-Dalam tutorial ini, Anda telah mempelajari cara mengintegrasikan Aspose.OCR untuk Java ke dalam proyek Anda untuk mengekstrak teks dari gambar secara efisien. Aspose.OCR menyederhanakan tugas OCR, memberikan hasil yang akurat untuk pengalaman pengguna yang lancar.
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| `IOException` on `RecognizePage` | Jalur file tidak tepat atau izin baca tidak ada | Pastikan `imagePath` mengarah ke PNG/JPG yang ada dan aplikasi memiliki akses ke sistem berkas. |
+| Empty result string | Gambar berkualitas rendah atau bahasa tidak didukung | Praproses gambar (tingkatkan kontras, binarisasi) atau tentukan bahasa yang tepat dengan `api.setLanguage("eng")`. |
+| No rectangles returned | Menggunakan `AreasType` yang salah (misalnya `WORDS` padahal mengharapkan paragraf) | Ganti ke `AreasType.PARAGRAPHS` atau `AreasType.LINES` sesuai kebutuhan. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Apakah Aspose.OCR kompatibel dengan Java 11?
+**Q: Apakah Aspose.OCR kompatibel dengan Java 11?**  
+A: Ya, Aspose.OCR bekerja dengan Java 11 dan versi selanjutnya.
 
-A1: Ya, Aspose.OCR kompatibel dengan Java 11 dan versi yang lebih baru.
+**Q: Bisakah saya menggunakan Aspose.OCR untuk proyek pribadi maupun komersial?**  
+A: Ya, Anda dapat menggunakannya dalam jenis proyek apa pun. Untuk detail lisensi, kunjungi [here](https://purchase.aspose.com/buy).
 
-### Q2: Bisakah saya menggunakan Aspose.OCR untuk proyek pribadi dan komersial?
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk evaluasi?**  
+A: Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/temporary-license/).
 
- A2: Ya, Aspose.OCR dapat digunakan untuk proyek pribadi dan komersial. Untuk detail lisensi, kunjungi[Di Sini](https://purchase.aspose.com/buy).
+**Q: Di mana saya dapat menemukan dukungan komunitas atau bantuan resmi?**  
+A: Untuk dukungan dan diskusi, kunjungi [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
-### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.OCR?
+**Q: Apakah Aspose.OCR mendukung multithreading?**  
+A: Ya, perpustakaan ini thread‑safe dan dapat digunakan dalam lingkungan bersamaan untuk kinerja yang lebih baik.
 
- A3: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+## Conclusion
 
-### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.OCR?
+Dalam tutorial ini Anda belajar cara **recognize text from image** menggunakan Aspose.OCR untuk Java, mengekstrak paragraf, dan mengambil persegi panjang yang tepat mengelilingi setiap blok teks. Kemampuan ini memungkinkan Anda membangun PDF yang dapat dicari, menyorot teks dalam overlay UI, atau mengalirkan data terstruktur ke proses selanjutnya. Jelajahi API lebih lanjut untuk menyesuaikan pengaturan bahasa, menangani format gambar lain, atau mengintegrasikan dengan penyimpanan cloud.
 
- A4: Untuk dukungan dan diskusi, kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+---
 
-### Q5: Apakah Aspose.OCR mendukung multithreading?
-
-A5: Ya, Aspose.OCR mendukung multithreading untuk meningkatkan kinerja di lingkungan bersamaan.
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.OCR 23.10 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

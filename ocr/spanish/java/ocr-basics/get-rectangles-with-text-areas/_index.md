@@ -1,32 +1,51 @@
 ---
-title: Obtener rectángulos con áreas de texto en Aspose.OCR
-linktitle: Obtener rectángulos con áreas de texto en Aspose.OCR
-second_title: API de Java Aspose.OCR
-description: Desbloquee el poder de Aspose.OCR para Java. Aprenda cómo extraer texto de imágenes sin problemas en esta guía paso a paso. Descárguelo ahora para un reconocimiento de texto eficiente.
-weight: 12
+date: 2025-12-10
+description: Aprenda a reconocer texto en una imagen y extraer párrafos de la imagen
+  usando Aspose.OCR para Java. Guía paso a paso con ejemplos de código.
+linktitle: Recognize Text from Image and Retrieve Text Area Rectangles
+second_title: Aspose.OCR Java API
+title: Reconocer texto de la imagen y obtener los rectángulos de las áreas de texto
 url: /es/java/ocr-basics/get-rectangles-with-text-areas/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtener rectángulos con áreas de texto en Aspose.OCR
+# Reconocer texto de una imagen y obtener rectángulos de áreas de texto
 
 ## Introducción
 
-¿Está buscando integrar potentes capacidades de reconocimiento óptico de caracteres (OCR) en su aplicación Java? Aspose.OCR para Java es su solución ideal para la extracción de texto precisa y eficiente de imágenes. Este tutorial lo guiará a través del proceso de obtención de rectángulos con áreas de texto usando Aspose.OCR, ayudándolo a aprovechar todo el potencial de esta biblioteca OCR de Java.
+Si necesitas **reconocer texto de una imagen** en archivos dentro de una aplicación Java, Aspose.OCR para Java ofrece una forma rápida y precisa de hacerlo. En este tutorial recorreremos paso a paso los pasos exactos necesarios para extraer párrafos de una imagen, obtener los rectángulos delimitadores de cada área de texto y imprimir esas coordenadas en la consola. Al final comprenderás por qué funciona este enfoque, cómo integrar la biblioteca y dónde puedes ampliarla para tus propios casos de uso.
+
+## Respuestas rápidas
+- **¿Qué significa “reconocer texto de una imagen”?** Significa convertir los caracteres visuales de una foto en datos de cadena editables.  
+- **¿Qué biblioteca gestiona esto en Java?** Aspose.OCR para Java.  
+- **¿Necesito una licencia para desarrollo?** Hay una licencia temporal disponible para pruebas; se requiere una licencia completa para producción.  
+- **¿Puedo extraer párrafos en lugar de palabras individuales?** Sí – usa `AreasType.PARAGRAPHS` para obtener rectángulos a nivel de párrafo.  
+- **¿El código es compatible con Java 11+?** Absolutamente, la API funciona con Java 11 y versiones posteriores.
+
+## ¿Qué es “reconocer texto de una imagen” en Aspose.OCR?
+
+El método `RecognizePage` de Aspose.OCR analiza el mapa de bits, aplica algoritmos OCR y devuelve la cadena reconocida. Cuando solicitas áreas de texto, la biblioteca también calcula las coordenadas exactas del `Rectangle` para cada bloque de texto, facilitando resaltar o procesar secciones específicas más adelante.
+
+## ¿Por qué usar Aspose.OCR para Java?
+
+- **Alta precisión** – soporta múltiples idiomas y fuentes complejas.  
+- **Fácil integración** – un solo JAR agrega capacidades OCR completas.  
+- **Salida flexible** – puedes obtener texto sin formato, HTML formateado o rectángulos precisos de áreas de texto.  
+- **Thread‑safe** – adecuado para entornos de servidor de alto rendimiento.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-- Entorno de desarrollo de Java: asegúrese de tener Java instalado en su sistema.
--  Biblioteca Aspose.OCR para Java: descargue y configure la biblioteca Aspose.OCR. Puedes encontrar el enlace de descarga.[aquí](https://releases.aspose.com/ocr/java/).
+- **Java Development Kit** (JDK 11 o superior) instalado en tu máquina.  
+- **Aspose.OCR para Java** library – descárgala desde el sitio oficial [aquí](https://releases.aspose.com/ocr/java/).  
+- Un IDE o herramienta de compilación (Maven/Gradle) para gestionar la dependencia del JAR.
 
 ## Importar paquetes
 
-En su proyecto Java, importe los paquetes necesarios para aprovechar las funcionalidades de Aspose.OCR:
+En tu proyecto Java, importa las clases necesarias:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -41,32 +60,36 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Paso 1: configura tu proyecto
+## Guía paso a paso
 
-Asegúrese de tener un proyecto Java listo y de que la biblioteca Aspose.OCR esté integrada.
+### Paso 1: Configura tu proyecto
+Crea un nuevo proyecto Java (o añádelo a uno existente) y coloca el JAR de Aspose.OCR en el classpath. Si usas Maven, agrega la dependencia como se describe en el paquete de descarga.
 
-## Paso 2: definir el directorio de documentos y la ruta de la imagen
+### Paso 2: Define el directorio del documento y la ruta de la imagen
+Especifica dónde se encuentra tu imagen de ejemplo:
 
 ```java
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// El camino de la imagen
+// The image path
 String imagePath = dataDir + "p3.png";
 ```
 
-## Paso 3: crear una instancia de Aspose.OCR
+### Paso 3: Crea una instancia de Aspose.OCR
+Instancia el motor OCR:
 
 ```java
-// Crear instancia de Aspose.OCR
+// Create Aspose.OCR instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Paso 4: reconocer el texto en la imagen
+### Paso 4: Reconoce texto en la imagen
+Llama a `RecognizePage` para convertir la foto en texto plano. Este paso demuestra la capacidad central de **reconocer texto de una imagen**:
 
 ```java
 try {
-    // Reconocer la página por la ruta completa al archivo
+    // Recognize page by full path to file
     String result = api.RecognizePage(imagePath);
     System.out.println("Result: " + result);
 } catch (IOException e) {
@@ -74,46 +97,55 @@ try {
 }
 ```
 
-## Paso 5: obtenga rectángulos con áreas de texto
+### Paso 5: Obtén los rectángulos con áreas de texto
+Ahora recupera los rectángulos delimitadores de cada párrafo (u otros tipos de área). Aquí es donde **extraes párrafos de la imagen** y obtienes sus coordenadas:
 
 ```java
-// Consigue rectángulos con áreas de texto en la imagen.
+// Get rectangles with text areas in the image.
 ArrayList<Rectangle> rectResult = api.getTextAreas(imagePath, AreasType.PARAGRAPHS, true);
 
-// Imprime cada rectángulo del área de texto
+// Print each text area rectangle
 for (Rectangle r : rectResult) {
     System.out.println("Text area:" + r);
 }
 ```
 
-## Conclusión
+## Problemas comunes y solución de problemas
 
-En este tutorial, aprendió cómo integrar Aspose.OCR para Java en su proyecto para extraer texto de imágenes de manera eficiente. Aspose.OCR simplifica las tareas de OCR y proporciona resultados precisos para una experiencia de usuario perfecta.
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| `IOException` en `RecognizePage` | Ruta de archivo incorrecta o falta de permiso de lectura | Verifica que `imagePath` apunte a un PNG/JPG existente y que la aplicación tenga acceso al sistema de archivos. |
+| Cadena de resultado vacía | Imagen de baja calidad o idioma no soportado | Preprocesa la imagen (aumenta contraste, binariza) o especifica el idioma correcto usando `api.setLanguage("eng")`. |
+| No se devuelven rectángulos | Uso del `AreasType` incorrecto (p.ej., `WORDS` cuando se esperan párrafos) | Cambia a `AreasType.PARAGRAPHS` o `AreasType.LINES` según sea necesario. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.OCR es compatible con Java 11?
+**Q: ¿Aspose.OCR es compatible con Java 11?**  
+A: Sí, Aspose.OCR funciona con Java 11 y versiones posteriores.
 
-R1: Sí, Aspose.OCR es compatible con Java 11 y versiones posteriores.
+**Q: ¿Puedo usar Aspose.OCR tanto en proyectos personales como comerciales?**  
+A: Sí, puedes usarlo en cualquier tipo de proyecto. Para detalles de licenciamiento, visita [aquí](https://purchase.aspose.com/buy).
 
-### P2: ¿Puedo utilizar Aspose.OCR para proyectos personales y comerciales?
+**Q: ¿Cómo obtengo una licencia temporal para evaluación?**  
+A: Puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
- R2: Sí, Aspose.OCR se puede utilizar tanto para proyectos personales como comerciales. Para obtener detalles sobre la licencia, visite[aquí](https://purchase.aspose.com/buy).
+**Q: ¿Dónde puedo encontrar soporte comunitario o asistencia oficial?**  
+A: Para soporte y discusiones, visita el [foro de Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
-### P3: ¿Cómo obtengo una licencia temporal para Aspose.OCR?
+**Q: ¿Aspose.OCR soporta multihilo?**  
+A: Sí, la biblioteca es thread‑safe y puede usarse en entornos concurrentes para mejor rendimiento.
 
- A3: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+## Conclusión
 
-### P4: ¿Dónde puedo encontrar soporte para Aspose.OCR?
+En este tutorial aprendiste cómo **reconocer texto de una imagen** usando Aspose.OCR para Java, extraer párrafos y obtener los rectángulos exactos que rodean cada bloque de texto. Estas capacidades te permiten crear PDFs buscables, resaltar texto en superposiciones de UI o alimentar datos estructurados a procesos posteriores. Explora más la API para personalizar la configuración de idioma, manejar diferentes formatos de imagen o integrarla con almacenamiento en la nube.
 
- R4: Para soporte y discusiones, visite el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+---
 
-### P5: ¿Aspose.OCR admite subprocesos múltiples?
-
-R5: Sí, Aspose.OCR admite subprocesos múltiples para mejorar el rendimiento en entornos concurrentes.
+**Última actualización:** 2025-12-10  
+**Probado con:** Aspose.OCR 23.10 for Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
