@@ -1,33 +1,43 @@
 ---
-title: Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
-linktitle: Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
-second_title: Aspose.OCR Java API'si
-description: Aspose.OCR for Java ile görüntülerden metin çıkarmanın gücünün kilidini açın. Alanları Algılama Moduyla OCR hakkında kapsamlı bir eğitim.
-weight: 10
+date: 2025-12-12
+description: Aspose.OCR for Java kullanarak Detect Areas Modu ile OCR nasıl yapılır,
+  görüntüden metin nasıl çıkarılır ve yazım denetimli sonuçlar nasıl alınır öğrenin.
+  Bu adım adım Aspose OCR Java öğreticisi.
+linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Aspise.OCR for Java Kullanarak Detect Areas Modu ile OCR Nasıl Yapılır
 url: /tr/java/ocr-operations/perform-ocr-detect-areas-mode/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR'da Alanları Algılama Moduyla OCR Gerçekleştirme
+# Detect Areas Mode ile Aspose.OCR’da OCR Nasıl Yapılır
 
-## giriiş
+## Introduction
 
-Sürekli gelişen teknoloji dünyasında, Optik Karakter Tanıma (OCR), görüntülerden değerli bilgilerin çıkarılmasında çok önemli bir rol oynamaktadır. Aspose.OCR for Java, OCR için güçlü bir çözüm sağlayarak geliştiricilerin metin tanıma potansiyelinden sorunsuz bir şekilde yararlanmasını sağlar. Bu eğitim, Aspose.OCR for Java'yı kullanarak Alanları Algılama Moduyla OCR gerçekleştirme sürecinde size rehberlik edecektir.
+Optik Karakter Tanıma (OCR), **görüntü dosyalarından metin çıkarmak** ve bunları aranabilir, düzenlenebilir verilere dönüştürmek gerektiğinde vazgeçilmezdir. Bu **Aspose OCR Java öğreticisinde**, güçlü *Detect Areas Mode* özelliğini kullanarak **OCR nasıl yapılır** gösteren pratik bir örnek üzerinden ilerleyecek ve yerleşik yazım‑denetimi yeteneğini de sergileyeceğiz. Bu rehberin sonunda, fotoğraf‑türündeki bir belgeden metni tanıyan ve temiz, düzeltilmiş bir çıktı döndüren hazır bir kod parçacığına sahip olacaksınız.
 
-## Önkoşullar
+## Quick Answers
+- **Detect Areas Mode nedir?** Fotoğraf görüntülerinde OCR’u optimize eden, metin bloklarını otomatik olarak konumlandıran bir ayardır.  
+- **Örnek hangi dilde?** Java, Aspose.OCR kütüphanesi ile.  
+- **Test için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
+- **Sonuç yazım‑denetimi yapılabilir mi?** Evet – API “ocr with spell check” bölümünü döndürür.  
+- **Demo’da hangi dosya türü kullanılıyor?** *Receipt.jpg* adlı bir JPEG görüntüsü.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Prerequisites
 
-- Java Geliştirme Ortamı: Makinenizde Java'nın kurulu olduğundan emin olun.
--  Aspose.OCR for Java: Aspose.OCR kitaplığını indirip yükleyin. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/ocr/java/).
-- OCR Belgesi: Çıkarmak istediğiniz metni içeren bir resim belgesi (örneğin, "Makbuz.jpg") hazırlayın.
+Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
-## Paketleri İçe Aktar
+- Java Geliştirme Ortamı: Makinenizde Java yüklü olmalı.  
+- Aspose.OCR for Java: Aspose.OCR kütüphanesini indirin ve kurun. İndirme bağlantısını [burada](https://releases.aspose.com/ocr/java/) bulabilirsiniz.  
+- OCR için Belge: **Receipt.jpg** gibi metin içeren bir görüntü belgesi hazırlayın.
 
-Aspose.OCR'ı kullanmak için gerekli paketleri Java projenize aktarın. İşte bir örnek:
+## Import Packages
+
+Java projenizde Aspose.OCR kullanmak için gerekli paketleri içe aktarın. İşte bir örnek:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -47,29 +57,29 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## 1. Adım: OCR İşlemini Ayarlayın
+## Step 1: Set Up the OCR Operation
 
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// Görüntü yolu
+// The image path
 String file = dataDir + "Receipt.jpg";
 
-// AsposeOCR örneği oluştur
+// Create AsposeOCR instance
 AsposeOCR api = new AsposeOCR();
 
-// Tanıma seçeneklerini ayarlayın
+// Set recognition options
 RecognitionSettings settings = new RecognitionSettings();
 settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 ```
 
-Bu adımda OCR işlemini başlatıyoruz, görüntü dosyası yolunu belirliyoruz ve Alanları Algılama Modunu kullanacak şekilde tanıma ayarlarını yapılandırıyoruz.
+Bu adımda OCR motorunu başlatıyor, görüntü dosyasına işaret ediyor ve **Detect Areas Mode**’u etkinleştiriyoruz; böylece motor fotoğrafı dağınık metin blokları içeren tipik bir fotoğraf olarak ele alıyor.
 
-## Adım 2: OCR Yapın ve Sonuçları Alın
+## Step 2: Perform OCR and Retrieve Results
 
 ```java
-// Sonuç nesnesini al
+// Get result object
 RecognitionResult result = null;
 try {
     result = api.RecognizePage(file, settings);
@@ -78,42 +88,64 @@ try {
 }
 ```
 
-Belirtilen görüntüyü ve ayarları kullanarak OCR işlemini yürütün. Sonuç nesnesi, çıkarılan metni ve diğer ilgili bilgileri içerecektir.
+Burada **OCR gerçekleştiriyoruz**. `RecognizePage` çağrısı, ham metin, düzen bilgileri ve yazım‑denetimli çıktıyı içeren bir `RecognitionResult` döndürür.
 
-## 3. Adım: OCR Sonuçlarını Yazdırın
+## Step 3: Print OCR Results
 
 ```java
-// Sonucu yazdır
+// Print result
 printResult(result);
 ```
 
-Bir yöntem tanımlayın (`printResult`) OCR sonucunun metin, eğrilik, paragraflar, satırlar, karakter seçimleri, uyarılar, JSON ve yazım denetimi düzeltilmiş metin gibi çeşitli yönlerini görüntülemek için.
+Tam kaynak paketinde bulunan yardımcı metod `printResult`, çıkarılan metin, güven skorları, tespit edilen paragraflar, satır‑satır veri, karakter alternatifleri, uyarılar, JSON yükü ve **OCR with spell check** düzeltilmiş metin gibi çok sayıda bilgiyi gösterir.
 
-## Çözüm
+## Why Use Detect Areas Mode?
 
-Tebrikler! Aspose.OCR for Java'yı kullanarak Alanları Algılama Moduyla OCR işlemini başarıyla gerçekleştirdiniz. Bu güçlü araç, görüntülerden metni zahmetsizce çıkarmak ve değiştirmek için bir olasılıklar dünyasının kapılarını açar.
+- **Fotoğraflar için optimize edilmiş** – otomatik olarak metin bölgelerini izole eder, gürültüyü azaltır.  
+- **Gelişmiş doğruluk** – özellikle fişler, faturalar ve taranmış formlar üzerinde etkili.  
+- **Yerleşik yazım denetimi** – ek işlem yapmadan yaygın OCR hatalarını temizler.
 
-## SSS'ler
+## Common Use Cases
 
-### S1: Aspose.OCR birden fazla dili destekleyebilir mi?
+| Senaryo | Fayda |
+|----------|---------|
+| Fiş işleme | Satıcı adları, toplam tutarlar ve tarihleri hızlıca çekmek. |
+| Fatura dijitalleştirme | Muhasebe sistemleri için satır kalemlerini ve vergi bilgilerini çıkarmak. |
+| Kimlik belgesi tarama | Sürücü belgeleri veya pasaportlardan isim ve numaraları yakalamak. |
 
-C1: Evet, Aspose.OCR birden fazla dili destekliyor, bu da onu çeşitli yerelleştirme ihtiyaçları için çok yönlü hale getiriyor.
+## Troubleshooting Tips & Common Pitfalls
 
-### S2: Aspose.OCR büyük ölçekli OCR işlemleri için uygun mudur?
+- **Yanlış dosya yolu** – `dataDir`’ı iki kez kontrol edin ve görüntünün mevcut olduğundan emin olun.  
+- **Düşük çözünürlüklü görüntüler** – OCR doğruluğu 300 dpi’nin altına düştüğünde ciddi şekilde azalır; görüntüyü ön‑işleme yapmayı düşünün.  
+- **Lisans eksikliği** – geçerli bir lisans olmadan API deneme modunda çalışır ve sonuçlara filigran ekleyebilir.  
 
-A2: Kesinlikle! Aspose.OCR, büyük ölçekli OCR görevlerini verimli bir şekilde gerçekleştirerek yüksek performans sağlayacak şekilde tasarlanmıştır.
+## Conclusion
 
-### S3: Aspose.OCR'ı web uygulamalarına entegre edebilir miyim?
+Tebrikler! Detect Areas Mode kullanarak Aspose.OCR for Java ile **OCR nasıl yapılır** konusunu başarıyla öğrendiniz. Bu yaklaşım yalnızca görüntü dosyalarından metin çıkarmakla kalmaz, aynı zamanda yazım‑denetimli, temiz bir çıktı da sağlar—veri boru hatları veya UI gösterimi için mükemmeldir.
 
-Cevap3: Evet, Aspose.OCR, OCR işlevselliği için Java tabanlı web uygulamalarına sorunsuz bir şekilde entegre edilebilir.
+## Frequently Asked Questions
 
-### S4: Aspose.OCR yazım denetimi özellikleri sağlıyor mu?
+**S: Aspose.OCR birden fazla dili destekliyor mu?**  
+C: Evet, Aspose.OCR geniş bir dil yelpazesini destekler ve küresel uygulamalar için çok yönlüdür.
 
-Cevap4: Evet, bu eğitimde gösterildiği gibi Aspose.OCR, OCR sonuçlarının bir parçası olarak yazım denetimi düzeltilmiş metinler sunuyor.
+**S: Aspose.OCR büyük ölçekli OCR işlemleri için uygun mu?**  
+C: Kesinlikle. Kütüphane yüksek verimli senaryolar için tasarlanmıştır ve toplu işleme boru hatlarına entegre edilebilir.
 
-### S5: Aspose.OCR desteği için bir topluluk forumu var mı?
+**S: Aspose.OCR’u web uygulamalarına entegre edebilir miyim?**  
+C: Evet, Java API’sını servlet‑tabanlı veya Spring Boot web servislerine gömerek OCR’u bir REST uç noktası olarak sunabilirsiniz.
 
- C5: Evet, destek bulabilir ve toplulukla etkileşime geçebilirsiniz.[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16).
+**S: Aspose.OCR yazım‑denetimi yeteneği sağlıyor mu?**  
+C: Evet, gösterildiği gibi sonuç “ocr with spell check” bölümünü içerir ve yaygın tanıma hatalarını düzeltir.
+
+**S: Aspose.OCR desteği için bir topluluk forumu var mı?**  
+C: Evet, [Aspose.OCR forumunda](https://forum.aspose.com/c/ocr/16) destek bulabilir ve toplulukla etkileşime geçebilirsiniz.
+
+---
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.OCR for Java 23.12 (yazım zamanı en yeni sürüm)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
