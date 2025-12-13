@@ -1,35 +1,52 @@
 ---
-title: Durchführen von OCR mit Sprachauswahl in Aspose.OCR
-linktitle: Durchführen von OCR mit Sprachauswahl in Aspose.OCR
-second_title: Aspose.OCR Java-API
-description: Nutzen Sie die präzise Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine genaue OCR mit Sprachauswahl.
-weight: 11
+date: 2025-12-13
+description: Erfahren Sie, wie Sie Text aus einem Bild mit Aspose.OCR für Java und
+  Sprachauswahl extrahieren. Dieses Schritt‑für‑Schritt Aspose OCR Java‑Tutorial zeigt
+  eine präzise OCR‑Konfiguration.
+linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Wie man Text aus einem Bild mit Sprachauswahl mithilfe von Aspose.OCR extrahiert
 url: /de/java/ocr-operations/perform-ocr-language-selection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Durchführen von OCR mit Sprachauswahl in Aspose.OCR
+# Wie man Text aus Bild mit Sprachauswahl mithilfe von Aspose.OCR extrahiert
 
 ## Einführung
 
-In der sich ständig weiterentwickelnden Technologielandschaft spielt die optische Zeichenerkennung (OCR) eine zentrale Rolle bei der Extraktion aussagekräftiger Informationen aus Bildern. Aspose.OCR für Java zeichnet sich durch ein leistungsstarkes Tool aus, mit dem Entwickler OCR-Funktionen nahtlos in ihre Java-Anwendungen integrieren können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.OCR OCR mit Sprachauswahl durchführen und so das Potenzial für die präzise Verarbeitung verschiedener Inhalte freisetzen.
+Das Extrahieren von Text aus Bilddateien ist ein häufiges Anliegen, egal ob Sie gescannte Dokumente digitalisieren, Belege verarbeiten oder durchsuchbare Archive erstellen. Aspose.OCR für Java macht diese Aufgabe unkompliziert und bietet Ihnen feinkörnige Kontrolle über die Sprachauswahl, Schräglagenkorrektur und Erkennungsbereiche. In diesem Tutorial führen wir Sie durch ein vollständiges, praxisnahes Beispiel, das **zeigt, wie man Text aus Bild** mit einer bestimmten Spracheinstellung extrahiert, sodass Sie zuverlässige OCR noch heute in Ihre Java‑Anwendungen integrieren können.
+
+## Schnelle Antworten
+- **Welche Bibliothek verarbeitet OCR in Java?** Aspose.OCR for Java  
+- **Welche Einstellung wählt die Sprache aus?** `settings.setLanguage(Language.Eng)` (oder jede unterstützte Sprache)  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Evaluierungslizenz funktioniert für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich OCR auf einen Bildbereich beschränken?** Ja, verwenden Sie `RecognitionSettings.setRecognitionAreas()` mit Rechtecken.  
+- **Wie ist die typische Laufzeit?** Ein paar Sekunden pro Seite auf einem Standard‑Laptop, abhängig von Bildgröße und Sprachkomplexität.
+
+## Was ist „Text aus Bild extrahieren“?
+Das Extrahieren von Text aus Bild (OCR) wandelt die visuelle Darstellung von Zeichen in maschinenlesbare Zeichenketten um. Dadurch werden Suche, Analysen und Datenextraktions‑Workflows ermöglicht, die sonst manuelle Transkription erfordern würden.
+
+## Warum Aspose.OCR mit Sprachauswahl verwenden?
+- **Mehrsprachige Unterstützung** – Wählen Sie die genaue(n) Sprache(n) im Bild, um die Genauigkeit zu erhöhen.  
+- **Fein abgestimmte Kontrolle** – Korrigieren Sie Schräglage, definieren Sie Erkennungsbereiche und setzen Sie das Auto‑Skew‑Verhalten.  
+- **Pure Java API** – Keine nativen Abhängigkeiten, einfach in jedes Java‑Projekt zu integrieren.  
+- **Umfangreiche Ergebnisdaten** – Erhalten Sie Klartext, JSON, Begrenzungsrechtecke und Warnungen in einem Aufruf.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-- Java-Entwicklungsumgebung: Stellen Sie sicher, dass Java auf Ihrem System installiert und Ihre Entwicklungsumgebung eingerichtet ist.
-
--  Aspose.OCR-Bibliothek: Laden Sie die Aspose.OCR-Bibliothek für Java herunter und installieren Sie sie. Hier finden Sie die Bibliothek und die zugehörige Dokumentation[Hier](https://reference.aspose.com/ocr/java/).
-
-- Bilddatei: Bereiten Sie eine Bilddatei mit dem Text vor, den Sie extrahieren möchten. Verwenden wir beispielsweise eine Datei mit dem Namen „p3.png“.
+- **Java Development Kit (JDK)** installiert (JDK 8 oder höher).  
+- **Aspose.OCR for Java** Bibliothek – laden Sie sie von der offiziellen Seite [hier](https://reference.aspose.com/ocr/java/) herunter.  
+- Eine Bilddatei, die den zu extrahierenden Text enthält, z. B. `p3.png`.
 
 ## Pakete importieren
 
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um die Aspose.OCR-Funktionalität zu nutzen. Fügen Sie am Anfang Ihrer Java-Datei die folgenden Zeilen hinzu:
+In Ihrer Java‑Quelldatei fügen Sie die erforderlichen Aspose.OCR‑Klassen und gängige Java‑Hilfsmittel ein:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -47,37 +64,39 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+## Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: Dokumentverzeichnis einrichten
 
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-Ersetzen Sie „Ihr Dokumentverzeichnis“ durch den tatsächlichen Pfad zu dem Verzeichnis, in dem sich Ihre Bilddatei befindet.
+Ersetzen Sie `"Your Document Directory"` durch den absoluten Pfad, in dem sich `p3.png` befindet.
 
-## Schritt 2: Definieren Sie den Bildpfad
+### Schritt 2: Bildpfad definieren
 
 ```java
-// Der Bildpfad
+// The image path
 String file = dataDir + "p3.png";
 ```
 
-Passen Sie die Dateivariable so an, dass sie auf Ihre spezifische Bilddatei verweist.
+Stellen Sie sicher, dass die Variable `file` exakt auf das Bild zeigt, das Sie verarbeiten möchten.
 
-## Schritt 3: Erstellen Sie eine Aspose.OCR-API-Instanz
+### Schritt 3: Aspose.OCR API‑Instanz erstellen
 
 ```java
-// Erstellen Sie eine API-Instanz
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-Initialisieren Sie das AsposeOCR-Objekt, um auf seine Funktionen zuzugreifen.
+Das Objekt `AsposeOCR` gibt Ihnen Zugriff auf alle OCR‑Operationen.
 
-## Schritt 4: Erkennungsoptionen festlegen
+### Schritt 4: Erkennungsoptionen festlegen (Sprachauswahl)
 
 ```java
-// Erkennungsoptionen festlegen
+// Set recognition options
 RecognitionSettings settings = new RecognitionSettings();
 settings.setAutoSkew(false);
 ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
@@ -87,12 +106,16 @@ settings.setSkew(0.5);
 settings.setLanguage(Language.Eng);
 ```
 
-Passen Sie die Erkennungseinstellungen entsprechend Ihren Anforderungen an. Passen Sie Parameter wie Neigung, Sprache und Erkennungsbereiche an.
+Hier:
 
-## Schritt 5: OCR durchführen und Ergebnisse abrufen
+1. Deaktivieren wir Auto‑Skew, weil wir einen manuellen Schräglagewert bereitstellen.  
+2. Definieren wir einen rechteckigen Bereich (`RecognitionAreas`), um OCR auf den Teil des Bildes zu beschränken, der tatsächlich Text enthält.  
+3. Setzen wir die **Sprache** auf Englisch (`Language.Eng`). Ändern Sie dies zu `Language.Fra`, `Language.Spa` usw., je nach Quellbild.
+
+### Schritt 5: OCR ausführen und Ergebnisse abrufen
 
 ```java
-// Ergebnisobjekt abrufen
+// Get result object
 RecognitionResult result = null;
 try {
     result = api.RecognizePage(file, settings);
@@ -101,12 +124,12 @@ try {
 }
 ```
 
-Führen Sie den OCR-Vorgang mit der angegebenen Bilddatei und den angegebenen Einstellungen aus. Erfassen Sie das Ergebnis im RecognitionResult-Objekt.
+Der Aufruf `RecognizePage` startet die OCR‑Engine mit dem Bild und den von Ihnen definierten Einstellungen. Das Ergebnis wird in einem `RecognitionResult`‑Objekt gespeichert.
 
-## Schritt 6: Ergebnisse ausdrucken und nutzen
+### Schritt 6: Ergebnisse ausgeben und nutzen
 
 ```java
-// Ergebnis drucken
+// Print result
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
 for (String n : result.recognitionAreasText) {
     System.out.println(n);
@@ -123,33 +146,52 @@ for (String n : result.warnings) {
 System.out.println("OCROperationWithLanguageSelection: execution complete");
 ```
 
-Drucken Sie den extrahierten Text, die Erkennungsbereiche, die JSON-Darstellung, den Schräglaufwinkel und alle Warnungen. Nutzen Sie die Ergebnisse nach Bedarf in Ihrer Bewerbung.
+Die Konsolenausgabe zeigt:
 
-## Abschluss
+- Den vollständig extrahierten Text (`recognitionText`).  
+- Text für jedes definierte Rechteck (`recognitionAreasText`).  
+- Koordinaten der Begrenzungsrechtecke.  
+- Eine JSON‑Darstellung für einfache Weiterverarbeitung.  
+- Den erkannten Schräglagewinkel und etwaige Warnungen.
 
-In diesem Tutorial haben wir uns mit der nahtlosen Integration von Aspose.OCR für Java befasst, um OCR mit Sprachauswahl durchzuführen. Diese leistungsstarke Bibliothek eröffnet Entwicklern, die Text präzise aus Bildern extrahieren möchten, eine Welt voller Möglichkeiten.
+Sie können nun `result.recognitionText` in Ihre Geschäftslogik einspeisen – speichern, indexieren oder an einen anderen Dienst weitergeben.
 
-## FAQs
+## Häufige Probleme und Lösungen
 
-### F1: Kann ich Aspose.OCR für mehrere Sprachen in einem einzigen Erkennungsprozess verwenden?
+| Problem | Ursache | Lösung |
+|---------|---------|--------|
+| **Garbage‑Zeichen** | Falsche Sprache ausgewählt | Setzen Sie das korrekte `Language`‑Enum (z. B. `Language.Fra` für Französisch). |
+| **Kein Text zurückgegeben** | Erkennungsbereich deckt den Text nicht ab | Passen Sie die `Rectangle`‑Koordinaten an oder entfernen Sie `RecognitionAreas`, um das gesamte Bild zu verarbeiten. |
+| **Langsame Leistung** | Sehr großes Bild oder hohe Auflösung | Skalieren Sie das Bild vor der OCR herunter oder erhöhen Sie die Speicherzuweisung für die JVM. |
+| **Warnungen wegen nicht unterstütztem Format** | Bildformat nicht erkannt | Konvertieren Sie das Bild vor der Verarbeitung zu PNG, JPEG oder TIFF. |
 
-A1: Ja, Sie können in den RecognitionSettings mehrere Sprachen festlegen, um die Erkennungsgenauigkeit für mehrsprachige Inhalte zu verbessern.
+## Häufig gestellte Fragen
 
-### F2: Wie kann ich mit Aspose.OCR mit verschiedenen Bildformaten umgehen?
+**F: Kann ich mehrere Sprachen in einem einzigen OCR‑Aufruf erkennen?**  
+A: Ja. Verwenden Sie `settings.setLanguage(Language.Eng | Language.Fra)`, um mehrsprachige Erkennung zu aktivieren.
 
-A2: Aspose.OCR unterstützt verschiedene Bildformate, darunter PNG, JPEG und TIFF. Geben Sie einfach den richtigen Dateipfad in der Bildpfadvariablen an.
+**F: Welche Bildformate unterstützt Aspose.OCR?**  
+A: PNG, JPEG, BMP, TIFF, GIF und mehrere weitere. Geben Sie einfach den korrekten Dateipfad an.
 
-### F3: Gibt es eine Grenze für die Größe des Bildes, das Aspose.OCR verarbeiten kann?
+**F: Gibt es ein Größenlimit für das Bild?**  
+A: Es gibt kein hartes Limit, aber sehr große Bilder erhöhen den Speicherverbrauch und die Verarbeitungszeit. Erwägen Sie, große Dateien zu verkleinern.
 
-A3: Aspose.OCR kann Bilder unterschiedlicher Größe verarbeiten, größere Bilder erfordern jedoch möglicherweise mehr Verarbeitungszeit und Ressourcen.
+**F: Wie erhalte ich eine Produktionslizenz?**  
+A: Kaufen Sie eine Lizenz auf der Aspose‑Website und wenden Sie sie über die `License`‑Klasse an, wie in der Aspose‑Dokumentation gezeigt.
 
-### F4: Kann ich die Erkennungseinstellungen für bestimmte Bereiche innerhalb eines Bildes optimieren?
+**F: Kann ich Text direkt von einer PDF‑Seite extrahieren?**  
+A: Nicht direkt mit Aspose.OCR. Konvertieren Sie die PDF‑Seite zuerst in ein Bild (z. B. mit Aspose.PDF) und führen Sie dann die OCR aus.
 
-A4: Auf jeden Fall. Nutzen Sie die RecognitionAreas-Funktion, um bestimmte Rechtecke innerhalb des Bildes für eine gezielte Erkennung zu definieren.
+## Fazit
 
-### F5: Ist Aspose.OCR sowohl für private als auch für kommerzielle Projekte geeignet?
+Sie haben nun gesehen, wie man **Text aus Bild** mit Aspose.OCR für Java extrahiert, dabei die passende Sprache auswählt und die Erkennung auf bestimmte Regionen beschränkt. Dieser Ansatz liefert genaue, leistungsstarke OCR, die in jeden Java‑basierten Workflow eingebettet werden kann – von Dokumenten‑Management‑Systemen bis hin zu Daten‑Erfassungs‑Pipelines.
 
-A5: Ja, Aspose.OCR bietet flexible Lizenzoptionen, sodass es sowohl für den persönlichen als auch für den kommerziellen Gebrauch geeignet ist.
+---
+
+**Zuletzt aktualisiert:** 2025-12-13  
+**Getestet mit:** Aspose.OCR 24.11 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

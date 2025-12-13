@@ -1,35 +1,52 @@
 ---
-title: Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
-linktitle: Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
-second_title: API Java Aspose.OCR
-description: Mở khóa khả năng trích xuất văn bản chính xác từ hình ảnh bằng Aspose.OCR cho Java. Làm theo hướng dẫn từng bước của chúng tôi để có OCR chính xác với lựa chọn ngôn ngữ.
-weight: 11
+date: 2025-12-13
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho Java
+  với tùy chọn ngôn ngữ. Hướng dẫn Aspose OCR Java từng bước này trình bày cấu hình
+  OCR một cách chính xác.
+linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Cách trích xuất văn bản từ hình ảnh với lựa chọn ngôn ngữ bằng Aspose.OCR
 url: /vi/java/ocr-operations/perform-ocr-language-selection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thực hiện OCR với lựa chọn ngôn ngữ trong Aspose.OCR
+# Cách Trích Xuất Văn Bản Từ Hình Ảnh Với Lựa Chọn Ngôn Ngữ Sử Dụng Aspose.OCR
 
 ## Giới thiệu
 
-Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc trích xuất thông tin có ý nghĩa từ hình ảnh. Aspose.OCR cho Java nổi bật là một công cụ mạnh mẽ cho phép các nhà phát triển tích hợp các khả năng OCR một cách liền mạch vào các ứng dụng Java của họ. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách thực hiện OCR với lựa chọn ngôn ngữ bằng Aspose.OCR, mở khóa tiềm năng xử lý nội dung đa dạng một cách chính xác.
+Việc trích xuất văn bản từ các tệp hình ảnh là một nhu cầu phổ biến, cho dù bạn đang số hoá tài liệu đã quét, xử lý biên lai, hay xây dựng kho lưu trữ có thể tìm kiếm. Aspose.OCR cho Java giúp công việc này trở nên đơn giản và cung cấp cho bạn khả năng kiểm soát chi tiết về lựa chọn ngôn ngữ, hiệu chỉnh độ nghiêng và các vùng nhận dạng. Trong hướng dẫn này, chúng ta sẽ đi qua một ví dụ thực tế, đầy đủ, cho thấy **cách trích xuất văn bản từ hình ảnh** với cài đặt ngôn ngữ cụ thể, để bạn có thể tích hợp OCR đáng tin cậy vào các ứng dụng Java ngay hôm nay.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào xử lý OCR trong Java?** Aspose.OCR cho Java  
+- **Cài đặt nào chọn ngôn ngữ?** `settings.setLanguage(Language.Eng)` (hoặc bất kỳ ngôn ngữ nào được hỗ trợ)  
+- **Có cần giấy phép cho việc phát triển không?** Giấy phép dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể giới hạn OCR trong một vùng của hình ảnh không?** Có, sử dụng `RecognitionSettings.setRecognitionAreas()` với các hình chữ nhật.  
+- **Thời gian chạy điển hình là bao lâu?** Vài giây cho mỗi trang trên một laptop tiêu chuẩn, tùy thuộc vào kích thước hình ảnh và độ phức tạp của ngôn ngữ.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “Trích xuất văn bản từ hình ảnh” là gì?
+Trích xuất văn bản từ hình ảnh (OCR) chuyển đổi biểu diễn hình ảnh của các ký tự thành các chuỗi có thể đọc được bởi máy tính. Điều này cho phép tìm kiếm, phân tích và quy trình trích xuất dữ liệu mà nếu không sẽ phải thực hiện thủ công.
 
-- Môi trường phát triển Java: Đảm bảo bạn đã cài đặt Java trên hệ thống của mình và môi trường phát triển của bạn đã được thiết lập.
+## Tại sao nên dùng Aspose.OCR với lựa chọn ngôn ngữ?
+- **Hỗ trợ đa ngôn ngữ** – Chọn đúng ngôn ngữ (các) xuất hiện trong hình ảnh để tăng độ chính xác.  
+- **Kiểm soát chi tiết** – Điều chỉnh độ nghiêng, định nghĩa vùng nhận dạng và thiết lập hành vi tự động sửa độ nghiêng.  
+- **API thuần Java** – Không có phụ thuộc gốc, dễ dàng tích hợp vào bất kỳ dự án Java nào.  
+- **Dữ liệu kết quả phong phú** – Nhận văn bản thuần, JSON, các hình chữ nhật bao quanh và cảnh báo trong một lần gọi.
 
--  Thư viện Aspose.OCR: Tải xuống và cài đặt thư viện Aspose.OCR cho Java. Bạn có thể tìm thấy thư viện và tài liệu liên quan[đây](https://reference.aspose.com/ocr/java/).
+## Yêu cầu trước
 
-- Tệp hình ảnh: Chuẩn bị tệp hình ảnh chứa văn bản bạn muốn trích xuất. Ví dụ: hãy sử dụng tệp có tên "p3.png."
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-## Gói nhập khẩu
+- **Bộ công cụ phát triển Java (JDK)** được cài đặt (JDK 8 trở lên).  
+- **Thư viện Aspose.OCR cho Java** – tải về từ trang chính thức [here](https://reference.aspose.com/ocr/java/).  
+- Một tệp hình ảnh chứa văn bản bạn muốn trích xuất, ví dụ `p3.png`.
 
-Trong dự án Java của bạn, hãy nhập các gói cần thiết để tận dụng chức năng Aspose.OCR. Thêm các dòng sau vào đầu tệp Java của bạn:
+## Nhập gói
+
+Trong tệp nguồn Java của bạn, bao gồm các lớp Aspose.OCR cần thiết và các tiện ích chuẩn của Java:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -47,37 +64,39 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Bước 1: Thiết lập thư mục tài liệu của bạn
+## Hướng dẫn từng bước
+
+### Bước 1: Thiết lập Thư mục Tài liệu của Bạn
 
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-Thay thế "Thư mục tài liệu của bạn" bằng đường dẫn thực tế đến thư mục chứa tệp hình ảnh của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn tuyệt đối nơi chứa `p3.png`.
 
-## Bước 2: Xác định đường dẫn hình ảnh
+### Bước 2: Xác định Đường dẫn Hình ảnh
 
 ```java
-// Đường dẫn hình ảnh
+// The image path
 String file = dataDir + "p3.png";
 ```
 
-Điều chỉnh biến tệp để trỏ đến tệp hình ảnh cụ thể của bạn.
+Đảm bảo biến `file` trỏ tới đúng tệp hình ảnh bạn dự định xử lý.
 
-## Bước 3: Tạo phiên bản API Aspose.OCR
+### Bước 3: Tạo Đối tượng API Aspose.OCR
 
 ```java
-// Tạo phiên bản API
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-Khởi tạo đối tượng AsposeOCR để truy cập các tính năng của nó.
+Đối tượng `AsposeOCR` cung cấp quyền truy cập vào tất cả các thao tác OCR.
 
-## Bước 4: Đặt tùy chọn nhận dạng
+### Bước 4: Đặt Các tùy chọn Nhận dạng (Lựa chọn Ngôn ngữ)
 
 ```java
-// Đặt tùy chọn nhận dạng
+// Set recognition options
 RecognitionSettings settings = new RecognitionSettings();
 settings.setAutoSkew(false);
 ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
@@ -87,12 +106,16 @@ settings.setSkew(0.5);
 settings.setLanguage(Language.Eng);
 ```
 
-Tùy chỉnh cài đặt nhận dạng dựa trên yêu cầu của bạn. Điều chỉnh các thông số như độ nghiêng, ngôn ngữ và vùng nhận dạng.
+Ở đây chúng ta:
 
-## Bước 5: Thực hiện OCR và truy xuất kết quả
+1. Tắt tính năng tự động sửa độ nghiêng vì chúng ta cung cấp giá trị nghiêng thủ công.  
+2. Định nghĩa một vùng hình chữ nhật (`RecognitionAreas`) để giới hạn OCR chỉ trong phần hình ảnh thực sự chứa văn bản.  
+3. Đặt **ngôn ngữ** thành tiếng Anh (`Language.Eng`). Thay đổi thành `Language.Fra`, `Language.Spa`, v.v., tùy theo hình ảnh nguồn của bạn.
+
+### Bước 5: Thực hiện OCR và Lấy Kết quả
 
 ```java
-// Nhận đối tượng kết quả
+// Get result object
 RecognitionResult result = null;
 try {
     result = api.RecognizePage(file, settings);
@@ -101,12 +124,12 @@ try {
 }
 ```
 
-Thực hiện thao tác OCR bằng cách sử dụng tệp hình ảnh và cài đặt được chỉ định. Ghi lại kết quả trong đối tượng CertificationResult.
+Lệnh `RecognizePage` chạy engine OCR sử dụng hình ảnh và các cài đặt bạn đã định nghĩa. Kết quả được lưu trong một đối tượng `RecognitionResult`.
 
-## Bước 6: In và sử dụng kết quả
+### Bước 6: In và Sử dụng Kết quả
 
 ```java
-// Kết quả in
+// Print result
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
 for (String n : result.recognitionAreasText) {
     System.out.println(n);
@@ -123,33 +146,52 @@ for (String n : result.warnings) {
 System.out.println("OCROperationWithLanguageSelection: execution complete");
 ```
 
-In văn bản được trích xuất, vùng nhận dạng, biểu diễn JSON, góc nghiêng và bất kỳ cảnh báo nào. Sử dụng kết quả khi cần thiết trong ứng dụng của bạn.
+Đầu ra trên console hiển thị:
 
-## Phần kết luận
+- Văn bản đã trích xuất đầy đủ (`recognitionText`).  
+- Văn bản cho mỗi hình chữ nhật đã định nghĩa (`recognitionAreasText`).  
+- Tọa độ của các hình chữ nhật bao quanh.  
+- Đại diện JSON để dễ dàng xử lý tiếp theo.  
+- Góc nghiêng được phát hiện và bất kỳ cảnh báo nào.
 
-Trong hướng dẫn này, chúng tôi đã đi sâu vào việc tích hợp liền mạch Aspose.OCR cho Java để thực hiện OCR với lựa chọn ngôn ngữ. Thư viện mạnh mẽ này mở ra nhiều khả năng cho các nhà phát triển muốn trích xuất văn bản từ hình ảnh một cách chính xác.
+Bây giờ bạn có thể đưa `result.recognitionText` vào logic nghiệp vụ của mình — lưu trữ, lập chỉ mục, hoặc truyền cho dịch vụ khác.
+
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------------|-----------|
+| **Ký tự rác** | Đã chọn sai ngôn ngữ | Đặt đúng enum `Language` (ví dụ `Language.Fra` cho tiếng Pháp). |
+| **Không trả về văn bản** | Vùng nhận dạng không bao phủ phần văn bản | Điều chỉnh tọa độ `Rectangle` hoặc bỏ `RecognitionAreas` để xử lý toàn bộ hình ảnh. |
+| **Hiệu năng chậm** | Hình ảnh quá lớn hoặc độ phân giải cao | Thu nhỏ hình ảnh trước khi OCR hoặc tăng bộ nhớ cấp cho JVM. |
+| **Cảnh báo định dạng không hỗ trợ** | Định dạng hình ảnh không được nhận dạng | Chuyển đổi hình ảnh sang PNG, JPEG hoặc TIFF trước khi xử lý. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.OCR cho nhiều ngôn ngữ trong một quy trình nhận dạng không?
+**H: Tôi có thể nhận dạng nhiều ngôn ngữ trong một lần gọi OCR không?**  
+Đ: Có. Sử dụng `settings.setLanguage(Language.Eng | Language.Fra)` để bật nhận dạng đa ngôn ngữ.
 
-Câu trả lời 1: Có, bạn có thể đặt nhiều ngôn ngữ trong Cài đặt nhận dạng để nâng cao độ chính xác nhận dạng cho nội dung đa ngôn ngữ.
+**H: Aspose.OCR hỗ trợ những định dạng hình ảnh nào?**  
+Đ: PNG, JPEG, BMP, TIFF, GIF và một số định dạng khác. Chỉ cần cung cấp đường dẫn tệp đúng.
 
-### Câu hỏi 2: Làm cách nào tôi có thể xử lý các định dạng hình ảnh khác nhau bằng Aspose.OCR?
+**H: Có giới hạn kích thước cho hình ảnh không?**  
+Đ: Không có giới hạn cứng, nhưng hình ảnh rất lớn sẽ tăng mức sử dụng bộ nhớ và thời gian xử lý. Nên cân nhắc thu nhỏ các tệp lớn.
 
-Câu trả lời 2: Aspose.OCR hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PNG, JPEG và TIFF. Chỉ cần cung cấp đường dẫn tệp chính xác trong biến đường dẫn hình ảnh.
+**H: Làm sao để có được giấy phép sản xuất?**  
+Đ: Mua giấy phép từ trang web Aspose và áp dụng nó qua lớp `License` như hướng dẫn trong tài liệu Aspose.
 
-### Câu hỏi 3: Có giới hạn về kích thước hình ảnh mà Aspose.OCR có thể xử lý không?
+**H: Tôi có thể trích xuất văn bản trực tiếp từ trang PDF không?**  
+Đ: Không trực tiếp bằng Aspose.OCR. Đầu tiên chuyển trang PDF sang hình ảnh (ví dụ dùng Aspose.PDF) rồi mới chạy OCR.
 
-Câu trả lời 3: Aspose.OCR có thể xử lý các hình ảnh có kích thước khác nhau nhưng hình ảnh lớn hơn có thể yêu cầu nhiều thời gian và tài nguyên xử lý hơn.
+## Kết luận
 
-### Câu hỏi 4: Tôi có thể tinh chỉnh cài đặt nhận dạng cho các vùng cụ thể trong hình ảnh không?
+Bạn đã thấy cách **trích xuất văn bản từ hình ảnh** bằng Aspose.OCR cho Java, đồng thời lựa chọn ngôn ngữ phù hợp và giới hạn nhận dạng trong các vùng cụ thể. Cách tiếp cận này mang lại OCR chính xác, hiệu suất cao và có thể nhúng vào bất kỳ quy trình làm việc nào dựa trên Java — từ hệ thống quản lý tài liệu đến các pipeline thu thập dữ liệu.
 
-A4: Chắc chắn rồi. Sử dụng tính năng Khu vực nhận dạng để xác định các hình chữ nhật cụ thể trong ảnh để nhận dạng mục tiêu.
+---
 
-### Câu hỏi 5: Aspose.OCR có phù hợp cho cả dự án cá nhân và thương mại không?
+**Cập nhật lần cuối:** 2025-12-13  
+**Đã kiểm thử với:** Aspose.OCR 24.11 cho Java  
+**Tác giả:** Aspose  
 
-Câu trả lời 5: Có, Aspose.OCR cung cấp các tùy chọn cấp phép linh hoạt, giúp nó phù hợp cho cả mục đích sử dụng cá nhân và thương mại.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
