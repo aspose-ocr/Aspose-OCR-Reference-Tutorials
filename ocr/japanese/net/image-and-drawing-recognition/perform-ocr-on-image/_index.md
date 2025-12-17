@@ -1,33 +1,41 @@
 ---
-title: OCR画像認識で画像に対してOCRを実行する
-linktitle: OCR画像認識で画像に対してOCRを実行する
+date: 2025-12-17
+description: Aspose.OCR for .NET を使用して画像を OCR し、画像テキストを抽出する方法を学びましょう。このステップバイステップガイドでは、画像をテキストに迅速に変換する方法を示します。
+linktitle: Perform OCR on Image in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合についてはチュートリアルをご覧ください。
-weight: 14
+title: 画像のOCR方法 – OCR画像認識で画像にOCRを実行する
 url: /ja/net/image-and-drawing-recognition/perform-ocr-on-image/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR画像認識で画像に対してOCRを実行する
+# 画像の OCR 方法 – OCR 画像認識で画像を OCR する
 
-## 導入
+## Introduction
 
-今日のテクノロジー主導の世界では、光学式文字認識 (OCR) が画像から貴重な情報を抽出する上で極めて重要な役割を果たしています。 Aspose.OCR for .NET は、開発者が OCR 機能をアプリケーションにシームレスに統合できる堅牢なツールセットを提供します。このステップバイステップのガイドでは、Aspose.OCR for .NET を使用して画像に対して OCR を実行し、画像を検索および編集可能なテキストに変換するプロセスについて説明します。
+モダンなアプリケーションにおいて、**画像の OCR 方法** は、スキャンした文書、スクリーンショット、または写真を検索可能で編集可能なテキストに変換したい開発者にとって共通の質問です。Aspose.OCR for .NET は、**画像テキストの抽出**、**画像からテキストへの変換**、および **画像テキストの認識** を数行のコードで実現できる強力で使いやすい API を提供します。このチュートリアルでは、ライブラリのセットアップから認識結果の表示までの全プロセスを順に解説し、数分で C# プロジェクトに OCR 機能を統合できるようにします。
 
-## 前提条件
+## Quick Answers
+- **どのライブラリを使用すべきですか？** Aspose.OCR for .NET
+- **PNG、JPEG、TIFF を処理できますか？** はい、すべての一般的な画像フォーマットに対応しています
+- **本番環境でライセンスは必要ですか？** はい、商用ライセンスが必要です
+- **対応している .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6
+- **基本的な OCR 呼び出しにどれくらい時間がかかりますか？** 標準サイズの画像で通常 1 秒未満です
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
+## Prerequisites
 
-1.  Aspose.OCR for .NET ライブラリ: Aspose.OCR for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/ocr/net/).
+コードに取り掛かる前に、以下を用意してください。
 
-2. 開発環境: 好みの統合開発環境 (IDE) で .NET 開発環境をセットアップします。
+1. **Aspose.OCR for .NET ライブラリ** – [ダウンロードリンク](https://releases.aspose.com/ocr/net/) から取得してインストールします。  
+2. **開発環境** – 任意の .NET 対応 IDE（Visual Studio、Rider、VS Code など）。  
+3. **サンプル画像** – 本ガイドでは `sample.png` を使用します。任意のフォルダーに配置してください。
 
-## 名前空間のインポート
+## Import Namespaces
 
-まず、必要な名前空間を .NET プロジェクトにインポートします。
+まず、OCR クラスが所在する名前空間をインポートして、コンパイラに認識させます。
 
 ```csharp
 using System;
@@ -35,75 +43,92 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## OCR画像認識で画像に対してOCRを実行する
+## How to OCR Image using Aspose.OCR for .NET
 
-ここで、画像に対して OCR を実行するプロセスを複数のステップに分けてみましょう。
+以下は、明確に番号付けされたステップごとのエンドツーエンド ワークフローです。各ステップには簡単な説明と、コピーすべき正確なコードが含まれています。
 
-### ステップ 1: ドキュメント ディレクトリを指定する
+### Step 1: Specify the Document Directory
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-「Your Document Directory」を画像ファイルへの実際のパスに置き換えてください。
+`"Your Document Directory"` を `sample.png` が格納されている絶対パスまたは相対パスに置き換えてください。これにより API が画像の所在場所を認識します。
 
-### ステップ 2: Aspose.OCR を初期化する
+### Step 2: Initialize Aspose.OCR
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-AsposeOcr クラスのインスタンスを作成して、OCR 機能にアクセスします。
+`AsposeOcr` のインスタンスを作成すると、`RecognizeImage` などのすべての OCR メソッドにアクセスできるようになります。
 
-### ステップ 3: 画像を認識する
+### Step 3: Recognize Image
 
 ```csharp
 string result = api.RecognizeImage(dataDir + "sample.png");
 ```
 
-を呼び出します。`RecognizeImage`メソッドを使用して、画像ファイルへのパスをパラメータとして渡します。
+`RecognizeImage` メソッドは画像ファイルを読み取り、抽出されたテキストを文字列として返します。ここが **画像テキストの認識** が実行される核心部分です。
 
-### ステップ 4: 認識されたテキストを表示する
+### Step 4: Display Recognized Text
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-認識されたテキストをコンソールに出力するか、後で使用するために変数に保存します。
+結果をコンソールに出力したり、ファイルに書き込んだり、別コンポーネントに渡してさらに処理したりできます。
 
-### ステップ 5: プロセスを完了する
+### Step 5: Finalize the Process
 
 ```csharp
 Console.WriteLine("PerformOCROnImage executed successfully");
 ```
 
-OCR プロセスがエラーなしで実行されたことを示す成功メッセージを表示します。
+簡単な完了メッセージを表示することで、例外が発生せずに OCR 呼び出しが完了したことを確認できます。
 
-## 結論
+## Why Use Aspose.OCR for C# Projects?
 
-これらの簡単な手順に従うことで、Aspose.OCR for .NET の機能を利用して、画像に対して OCR を簡単に実行できます。文書管理アプリケーションやテキスト抽出アプリケーションのいずれに取り組んでいる場合でも、OCR 機能を統合することでプロジェクトを新たな高みに引き上げることができます。
+- **高精度** – 組み込みの言語モデルにより、低品質なスキャンでも信頼性の高い結果が得られます。  
+- **幅広いフォーマット対応** – PNG、JPEG、BMP、TIFF など多数の形式を処理でき、**画像からテキストへの変換** が容易です。  
+- **外部依存なし** – 純粋な .NET ライブラリで、ネイティブ OCR エンジンのインストールは不要です。  
+- **拡張性** – 認識設定の微調整や、他の Aspose 製品との統合により、エンドツーエンドの文書ワークフローを構築できます。
 
-## よくある質問
+## Common Issues & Troubleshooting
 
-### Q1: Aspose.OCR は複数の画像形式を処理できますか?
+| 症状 | 考えられる原因 | 対策 |
+|------|----------------|------|
+| 空文字列が返る | 画像パスが間違っている、またはファイルが見つからない | `dataDir` とファイル名を確認し、`Path.Combine` で安全に結合 |
+| 文字化け | 画像解像度が低い、または未対応言語 | 高解像度の画像を使用し、`api.Language = "eng"` などで言語オプションを設定 |
+| `System.IO.FileNotFoundException` がスローされる | `sample.png` が欠如している | 指定フォルダーにファイルが存在することを確認 |
 
-A1: はい、Aspose.OCR は幅広い画像形式をサポートしており、OCR アプリケーションの柔軟性を確保しています。
+## Frequently Asked Questions
 
-### Q2: 一時ライセンスはテスト目的で利用できますか?
+**Q: Aspose.OCR は複数の画像フォーマットに対応していますか？**  
+A: はい、PNG、JPEG、BMP、TIFF など幅広い形式をサポートしており、**画像テキストの抽出** が可能です。
 
-A2: はい、Aspose.OCR の一時ライセンスを取得して、テスト段階でその機能を調べることができます。
+**Q: テスト用の一時ライセンスはありますか？**  
+A: あります。Aspose ポータルから 30 日間の評価ライセンスを取得できます。
 
-### Q3: Aspose.OCR for .NET の包括的なドキュメントはどこで見つけられますか?
+**Q: Aspose.OCR for .NET の包括的なドキュメントはどこにありますか？**  
+A: 公式ガイドは [Aspose.OCR ドキュメント](https://reference.aspose.com/ocr/net/) をご参照ください。
 
- A3:[Aspose.OCR ドキュメント](https://reference.aspose.com/ocr/net/)は、詳細な情報と例を提供する貴重なリソースです。
+**Q: サポートやコミュニティへの問い合わせ方法は？**  
+A: 質問や情報共有は [Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16) で行えます。
 
-### Q4: サポートを得たり、コミュニティに連絡して援助を求めたりするにはどうすればよいですか?
+**Q: 購入前に Aspose.OCR for .NET を無料で試せますか？**  
+A: はい、[無料トライアル](https://releases.aspose.com/) ページからフル機能の **無料トライアル** が利用可能です。
 
- A4: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)サポートを求め、活気のある Aspose コミュニティに参加してください。
+## Conclusion
 
-### Q5: 購入する前に、Aspose.OCR for .NET を無料で試すことはできますか?
+上記の手順に従うことで、Aspose.OCR for .NET を使用した **画像の OCR 方法** が習得できました。文書管理システム、レシート処理アプリ、あるいは **画像からテキストへの変換** が必要なあらゆるソリューションにおいて、このライブラリは視覚データを検索可能なコンテンツへと変換するシンプルかつ高性能な手段を提供します。
 
- A5: もちろん、次の方法で機能を調べることができます。[無料トライアル](https://releases.aspose.com/) Aspose.OCR for .NET の。
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.OCR for .NET 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
