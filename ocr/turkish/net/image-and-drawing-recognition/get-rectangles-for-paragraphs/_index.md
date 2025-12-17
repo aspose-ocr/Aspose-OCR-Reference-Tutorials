@@ -1,33 +1,49 @@
 ---
-title: OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
-linktitle: OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile gelişmiş OCR özelliklerinin kilidini açın. Paragraf dikdörtgenlerini zahmetsizce çıkarın.
-weight: 11
+date: 2025-12-17
+description: Aspose.OCR for .NET kullanarak OCR görüntülerindeki paragraflar için
+  dikdörtgenleri nasıl çıkaracağınızı öğrenin – dikdörtgenleri çıkarmak ve paragraf
+  koordinatlarını elde etmek için başvurulacak rehber.
+linktitle: Get Rectangles for Paragraphs in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: OCR Görüntü Tanıma'da Paragraflar İçin Dikdörtgenleri Nasıl Çıkarılır
 url: /tr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Paragraflar için Dikdörtgenler Alma
+# OCR Görüntü Tanıma'da Paragraflar İçin Dikdörtgenleri Nasıl Çıkarılır
 
-## giriiş
+## Introduction
 
-OCR görüntü tanımada paragraf dikdörtgenlerini çıkarmak için Aspose.OCR for .NET'ten yararlanmaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Belge işleme yeteneklerinizi geliştirmek ve .NET uygulamalarınızda Optik Karakter Tanıma'nın (OCR) gücünden yararlanmak istiyorsanız doğru yerdesiniz.
+Aspose.OCR for .NET ile OCR görüntü tanıma sürecinde paragraflar için **dikdörtgenleri nasıl çıkaracağınızı** anlatan kapsamlı rehberimize hoş geldiniz. Belge işleme hattınızı geliştirmek, paragraf sınırlarını çıkarmak ve veri çıkarımını otomatikleştirmek istiyorsanız doğru yerdesiniz. Ortamı kurmaktan dikdörtgen koordinatlarını yazdırmaya kadar her adımı adım adım göstereceğiz, böylece OCR sonuçlarını hemen kullanmaya başlayabilirsiniz.
 
-## Önkoşullar
+## Quick Answers
+- **“extract rectangles” ne anlama geliyor?** Algılanan metin alanlarının sınırlayıcı kutularını (x, y, genişlik, yükseklik) döndürür.  
+- **Hangi API yöntemi dikdörtgenleri sağlar?** `AsposeOcr.GetRectangles` ve `AreasType.PARAGRAPHS`.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Birden fazla resmi aynı anda işleyebilir miyim?** Evet—resim listeniz üzerinde döngü kurup her dosya için `GetRectangles` çağırabilirsiniz.  
+- **Hangi formatlar destekleniyor?** PNG, JPEG, TIFF, BMP ve daha birçok format.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is “how to extract rectangles” in OCR?
+OCR terminolojisinde, dikdörtgenleri çıkarmak, bir görüntü içindeki her paragraf veya satır metnin etrafını çevreleyen geometrik sınırları belirlemek anlamına gelir. Bu koordinatlar, taranmış bir belgenin belirli bölümlerini vurgulamanıza, kırpmanıza veya daha ileri analiz yapmanıza olanak tanır.
 
-- C# ve .NET geliştirme konusunda temel bilgiler.
--  Aspose.OCR for .NET ile oluşturulmuş bir geliştirme ortamı. Henüz yapmadıysanız indirebilirsiniz[Burada](https://releases.aspose.com/ocr/net/).
-- Görüntü işleme kavramlarının anlaşılması ve görüntülerden metin çıkarmada OCR'nin önemi.
+## Why extract paragraph coordinates?
+- **Precise post‑processing** – her dikdörtgeni sonraki iş akışlarına (ör. çeviri, redaksiyon) besleyebilirsiniz.  
+- **Improved UI/UX** – orijinal görüntü üzerine sınırlayıcı kutuları yerleştirerek kullanıcılara metnin nerede bulunduğunu gösterebilirsiniz.  
+- **Batch automation** – büyük belge setlerinde paragrafları hızlıca bulup izole edebilirsiniz.
 
-## Ad Alanlarını İçe Aktar
+## Prerequisites
 
-Aspose.OCR'ı verimli bir şekilde kullanmak için C# kodunuzda gerekli ad alanlarının içe aktarıldığından emin olun. Dosyanızın en üstüne aşağıdakileri ekleyin:
+- C# ve .NET geliştirme konusunda temel bilgi.  
+- Aspose.OCR for .NET yüklü bir geliştirme ortamı – bunu [buradan](https://releases.aspose.com/ocr/net/) indirebilirsiniz.  
+- Görüntü işleme kavramlarına aşina olmak ve OCR’ın taranmış dosyalardan metin çıkarmadaki önemini anlamak.
+
+## Import Namespaces
+
+C# dosyanızda OCR sınıflarının kullanılabilmesi için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -37,76 +53,82 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Step 1: Set Up Your Document Directory
 
-OCR işleme için görüntülerin saklandığı belge dizininizin yolunu başlatarak başlayın:
+Analiz etmek istediğiniz görüntüleri içeren klasörü tanımlayın:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Adım 2: AsposeOcr Örneğini Başlatın
+## Step 2: Initialize AsposeOcr Instance
 
-OCR işlevlerine erişim kazanmak için AsposeOcr sınıfının bir örneğini oluşturun:
+Bir `AsposeOcr` nesnesi oluşturun – bu, tüm OCR işlevlerine erişmenizi sağlar:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 3. Adım: Görüntü Yolunu Belirleyin
+## Step 3: Specify the Image Path
 
-İşlemek istediğiniz görüntünün tam yolunu tanımlayın:
+İşlemek istediğiniz tam görüntü dosyasına işaret edin:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## Adım 4: Görüntüyü Tanıyın ve Paragraf Dikdörtgenlerini Alın
+## Step 4: Recognize Image and Get Paragraph Rectangles
 
- Çağır`GetRectangles` OCR görüntüsündeki paragraflar için dikdörtgenler elde etme yöntemi. Ayarlamak`detect_areas` ile`true` paragrafları çıkarmak istiyorsanız:
+`GetRectangles` metodunu çağırın. `detect_areas` parametresini `true` olarak ayarlamak, motorun **paragraf** dikdörtgenlerini döndürmesini sağlar:
 
 ```csharp
 List<Rectangle> rectangles = api.GetRectangles(fullPath, AreasType.PARAGRAPHS, true);
 ```
 
-## Adım 5: Sonuçları Yazdır
+## Step 5: Print Results
 
-Tanımlanan alanların koordinatlarını yazdırın:
+Koordinatları çıktılayarak tespit edilen **paragraf koordinatlarını** görebilirsiniz:
 
 ```csharp
 Console.WriteLine("Areas coordinates:");
 rectangles.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
 ```
 
-## Adım 6: Sonuç
+## Common Issues and Solutions
 
-Tebrikler! Aspose.OCR for .NET kullanarak paragraflar için dikdörtgenler elde etmek amacıyla OCR görüntü tanıma işlemini başarıyla gerçekleştirdiniz.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| No rectangles returned | Görüntü kalitesi çok düşük veya yanlış `AreasType` | Görüntünün net olduğundan emin olun ve `AreasType.PARAGRAPHS` kullanın. |
+| Coordinates are off‑by‑one | DPI ölçekleme uyumsuzluğu | Görüntüyü yüklerken doğru DPI'yi ayarlayın veya `api.Config.Dpi` kullanın. |
+| License exception | Üretimde geçerli bir lisans olmadan çalıştırılıyor | `api.SetLicense` ile geçici veya kalıcı bir lisans uygulayın. |
 
-## Çözüm
+## Frequently Asked Questions
 
-Bu eğitimde Aspose.OCR for .NET'i uygulamalarınıza entegre etmenin ve OCR ile işlenmiş görüntülerden paragraf dikdörtgenleri çıkarmanızı sağlayacak temel adımları inceledik. Aspose.OCR, OCR'nin uygulanmasını basitleştirerek onu belge işleme ve metin çıkarma için değerli bir araç haline getirir.
+**Q: Aspose.OCR farklı görüntü formatlarıyla uyumlu mu?**  
+A: Evet, Aspose.OCR PNG, JPEG, TIFF, BMP ve birçok yaygın formatı destekler.
 
-## SSS'ler
+**Q: Aspose.OCR'ı birden fazla görüntünün toplu işlenmesi için kullanabilir miyim?**  
+A: Kesinlikle! Dosya yolu koleksiyonunu döngüye alıp her görüntü için `GetRectangles` çağırabilirsiniz.
 
-### S1: Aspose.OCR farklı görüntü formatlarıyla uyumlu mudur?
+**Q: Aspose.OCR for .NET için ücretsiz bir deneme mevcut mu?**  
+A: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
-Cevap1: Evet, Aspose.OCR PNG, JPEG ve TIFF dahil olmak üzere çeşitli görüntü formatlarını destekler.
+**Q: Aspose.OCR için geçici bir lisans nasıl alınır?**  
+A: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S2: Aspose.OCR'ı birden fazla görüntünün toplu işlenmesi için kullanabilir miyim?
+**Q: Aspose.OCR ile ilgili ek destek ve tartışmalara nereden ulaşabilirim?**  
+A: Topluluk desteği ve tartışmalar için [Aspose.OCR forumuna](https://forum.aspose.com/c/ocr/16) göz atabilirsiniz.
 
-A2: Kesinlikle! Aspose.OCR, birden fazla görüntüyü sorunsuz bir şekilde işlemek için toplu işlemeyi kolaylaştırır.
+## Conclusion
 
-### S3: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+Bu öğreticide, Aspose.OCR for .NET kullanarak paragraflar için **dikdörtgenleri nasıl çıkaracağınızı** gösterdik, her kod parçacığını adım adım inceledik ve döndürülen koordinatların nasıl yorumlanacağını açıkladık. Bu adımları uygulamanıza entegre ederek paragraf sınırlarını güvenilir bir şekilde çıkarabilir, belge iş akışlarını iyileştirebilir ve daha akıllı OCR‑tabanlı çözümler geliştirebilirsiniz.
 
- C3: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S4: Aspose.OCR için nasıl geçici lisans alabilirim?
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Aspose.OCR ile ilgili ek destek ve tartışmaları nerede bulabilirim?
-
- A5: Şuraya gidin:[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

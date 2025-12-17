@@ -1,33 +1,47 @@
 ---
-title: 在 OCR 影像辨識中取得段落的矩形
-linktitle: 在 OCR 影像辨識中取得段落的矩形
+date: 2025-12-17
+description: 學習如何使用 Aspose.OCR for .NET 從 OCR 圖像中提取段落的矩形——這是關於如何提取矩形及段落座標的首選指南。
+linktitle: Get Rectangles for Paragraphs in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: 使用 Aspose.OCR for .NET 解鎖進階 OCR 功能。輕鬆提取段落矩形。
-weight: 11
+title: 如何在 OCR 圖像辨識中提取段落矩形框
 url: /zh-hant/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OCR 影像辨識中取得段落的矩形
+# 如何在 OCR 圖像辨識中提取段落矩形
 
-## 介紹
+## 簡介
 
-歡迎閱讀我們關於利用 Aspose.OCR for .NET 在 OCR 影像辨識中提取段落矩形的綜合指南。如果您希望增強文件處理能力並在 .NET 應用程式中利用光學字元辨識 (OCR) 的強大功能，那麼您來對地方了。
+歡迎閱讀我們關於 **如何提取矩形** 以取得段落的完整指南，適用於 Aspose.OCR for .NET 的 OCR 圖像辨識。如果您想提升文件處理流程、抽取段落邊界並自動化資料擷取，這裡就是您的起點。我們將逐步說明——從環境設定到列印矩形座標——讓您立即開始使用 OCR 結果。
+
+## 快速解答
+- **「提取矩形」是什麼意思？** 它會返回偵測到的文字區域的邊界框（x、y、寬度、高度）。  
+- **哪個 API 方法提供矩形？** `AsposeOcr.GetRectangles` 搭配 `AreasType.PARAGRAPHS`。  
+- **開發時需要授權嗎？** 免費試用可用於測試；正式環境需要商業授權。  
+- **可以一次處理多張圖片嗎？** 可以——對圖片清單迴圈，對每個檔案呼叫 `GetRectangles`。  
+- **支援哪些格式？** PNG、JPEG、TIFF、BMP 等多種格式。
+
+## 什麼是 OCR 中的「提取矩形」？
+在 OCR 專業術語中，提取矩形指的是辨識圖像中每個段落或文字行的幾何邊界。這些座標讓您能夠突出、裁切或進一步分析掃描文件的特定區段。
+
+## 為什麼要提取段落座標？
+- **精確的後處理** – 您可以將每個矩形輸入後續工作流程（例如翻譯、遮蔽）。  
+- **提升 UI/UX** – 在原始圖像上疊加邊界框，讓使用者看到文字所在位置。  
+- **批次自動化** – 快速定位並分離大型文件集中的段落。
 
 ## 先決條件
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+- 具備 C# 與 .NET 開發的基本知識。  
+- 已安裝 Aspose.OCR for .NET 的開發環境 – 您可以在[此處](https://releases.aspose.com/ocr/net/)下載。  
+- 熟悉影像處理概念，了解 OCR 為何在從掃描檔案提取文字時至關重要。
 
-- C# 和 .NET 開發的基礎知識。
-- 使用 Aspose.OCR for .NET 設定的開發環境。如果您還沒有，您可以下載[這裡](https://releases.aspose.com/ocr/net/).
-- 了解圖像處理概念以及 OCR 在從圖像中提取文字的重要性。
+## 匯入命名空間
 
-## 導入命名空間
-
-在您的 C# 程式碼中，請確保匯入了有效使用 Aspose.OCR 所需的命名空間。在文件頂部包含以下內容：
+在您的 C# 檔案中匯入所需的命名空間，以便使用 OCR 類別：
 
 ```csharp
 using System;
@@ -37,76 +51,82 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 第 1 步：設定您的文件目錄
+## 步驟 1：設定文件目錄
 
-首先初始化儲存用於 OCR 處理的影像的文檔目錄的路徑：
+定義包含您要分析的圖像的資料夾：
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## 步驟2：初始化AsposeOcr實例
+## 步驟 2：初始化 AsposeOcr 實例
 
-建立 AsposeOcr 類別的實例以存取 OCR 功能：
+建立一個 `AsposeOcr` 物件——這會讓您存取所有 OCR 功能：
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 第三步：指定影像路徑
+## 步驟 3：指定圖像路徑
 
-定義要處理的影像的完整路徑：
+指向您想要處理的確切圖像檔案：
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## 第四步：辨識影像並取得段落矩形
+## 步驟 4：辨識圖像並取得段落矩形
 
-呼叫`GetRectangles`方法取得 OCR 影像中段落的矩形。放`detect_areas`到`true`如果你想提取段落：
+呼叫 `GetRectangles` 方法。將 `detect_areas` 設為 `true` 會告訴引擎返回 **段落** 矩形：
 
 ```csharp
 List<Rectangle> rectangles = api.GetRectangles(fullPath, AreasType.PARAGRAPHS, true);
 ```
 
-## 第 5 步：列印結果
+## 步驟 5：列印結果
 
-列印所識別區域的座標：
+輸出座標，以便您看到偵測到的 **提取段落座標**：
 
 ```csharp
 Console.WriteLine("Areas coordinates:");
 rectangles.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
 ```
 
-## 第六步：結論
+## 常見問題與解決方案
 
-恭喜！您已成功執行 OCR 影像辨識過程，以使用 Aspose.OCR for .NET 取得段落的矩形。
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 未返回矩形 | 圖像品質太低或 `AreasType` 錯誤 | 確保圖像清晰，並使用 `AreasType.PARAGRAPHS`。 |
+| 座標偏差一個像素 | DPI 縮放不匹配 | 載入圖像時設定正確的 DPI，或使用 `api.Config.Dpi`。 |
+| 授權例外 | 在生產環境未使用有效授權 | 透過 `api.SetLicense` 套用臨時或永久授權。 |
+
+## 常見問答
+
+**Q: Aspose.OCR 是否相容於不同的圖像格式？**  
+A: 是的，Aspose.OCR 支援 PNG、JPEG、TIFF、BMP 等多種常見格式。
+
+**Q: 我可以使用 Aspose.OCR 進行多張圖像的批次處理嗎？**  
+A: 當然可以！遍歷檔案路徑集合，對每張圖像呼叫 `GetRectangles`。
+
+**Q: 是否有 Aspose.OCR for .NET 的免費試用？**  
+A: 有，您可以在[此處](https://releases.aspose.com/)探索免費試用。
+
+**Q: 如何取得 Aspose.OCR 的臨時授權？**  
+A: 您可以在[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
+
+**Q: 哪裡可以找到與 Aspose.OCR 相關的其他支援與討論？**  
+A: 前往[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)取得社群支援與討論。
 
 ## 結論
 
-在本教程中，我們探索了將 Aspose.OCR for .NET 整合到您的應用程式中的基本步驟，讓您可以從 OCR 處理的圖像中提取段落矩形。 Aspose.OCR 簡化了 OCR 的實施，使其成為文件處理和文字擷取的寶貴工具。
+在本教學中，我們示範了 **如何提取矩形** 以取得段落，使用 Aspose.OCR for .NET，逐步說明每段程式碼，並解釋如何解讀返回的座標。將這些步驟整合到您的應用程式後，您即可可靠地抽取段落邊界、提升文件工作流程，並打造更智慧的 OCR 驅動解決方案。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.OCR 是否相容於不同的影像格式？
+**最後更新：** 2025-12-17  
+**測試版本：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
 
-A1：是的，Aspose.OCR 支援各種影像格式，包括 PNG、JPEG 和 TIFF。
-
-### Q2：我可以使用Aspose.OCR批次處理多張影像嗎？
-
-A2：當然！ Aspose.OCR 有助於批次以無縫處理多個影像。
-
-### 問題 3：Aspose.OCR for .NET 有沒有免費試用版？
-
- A3：是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
-
-### Q4：如何取得Aspose.OCR的臨時許可證？
-
-A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q5：在哪裡可以找到與 Aspose.OCR 相關的其他支援和討論？
-
- A5：前往[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區支持和討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

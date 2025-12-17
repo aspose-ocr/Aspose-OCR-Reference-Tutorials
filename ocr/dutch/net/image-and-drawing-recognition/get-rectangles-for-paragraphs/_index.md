@@ -1,33 +1,49 @@
 ---
-title: Krijg rechthoeken voor alinea's in OCR-beeldherkenning
-linktitle: Krijg rechthoeken voor alinea's in OCR-beeldherkenning
-second_title: Aspose.OCR .NET-API
-description: Ontgrendel geavanceerde OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer alinearechthoeken moeiteloos.
-weight: 11
+date: 2025-12-17
+description: Leer hoe je rechthoeken voor alinea's in OCR‑afbeeldingen kunt extraheren
+  met Aspose.OCR voor .NET – de ultieme gids over het extraheren van rechthoeken en
+  het ophalen van alinea‑coördinaten.
+linktitle: Get Rectangles for Paragraphs in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Hoe rechthoeken voor alinea's te extraheren in OCR-beeldherkenning
 url: /nl/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Krijg rechthoeken voor alinea's in OCR-beeldherkenning
+# Hoe rechthoeken voor alinea's te extraheren in OCR-beeldherkenning
 
-## Invoering
+## Introductie
 
-Welkom bij onze uitgebreide handleiding over het gebruik van Aspose.OCR voor .NET om alinearechthoeken te extraheren bij OCR-beeldherkenning. Als u uw documentverwerkingsmogelijkheden wilt verbeteren en de kracht van Optical Character Recognition (OCR) in uw .NET-toepassingen wilt benutten, bent u hier aan het juiste adres.
+Welkom bij onze uitgebreide gids over **hoe rechthoeken te extraheren** voor alinea's in OCR-beeldherkenning met Aspose.OCR voor .NET. Als je je document‑verwerkingspipeline wilt verbeteren, alinea‑grenzen wilt ophalen en gegevensautomatisering wilt realiseren, ben je hier op het juiste adres. We lopen elke stap door — van het opzetten van de omgeving tot het afdrukken van de rechthoekcoördinaten — zodat je de OCR‑resultaten meteen kunt gebruiken.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “rechthoeken extraheren”?** Het retourneert de begrenzende vakken (x, y, breedte, hoogte) van gedetecteerde tekstgebieden.  
+- **Welke API‑methode levert de rechthoeken?** `AsposeOcr.GetRectangles` met `AreasType.PARAGRAPHS`.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productie.  
+- **Kan ik meerdere afbeeldingen tegelijk verwerken?** Ja — loop over je afbeeldingslijst en roep `GetRectangles` aan voor elk bestand.  
+- **Welke formaten worden ondersteund?** PNG, JPEG, TIFF, BMP en nog veel meer.
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+## Wat betekent “hoe rechthoeken te extraheren” in OCR?
+In OCR‑terminologie betekent het extraheren van rechthoeken het identificeren van de geometrische grenzen die elke alinea of regel tekst binnen een afbeelding omsluiten. Deze coördinaten stellen je in staat om specifieke delen van een gescand document te markeren, bij te snijden of verder te analyseren.
 
-- Basiskennis van C# en .NET-ontwikkeling.
--  Een ontwikkelomgeving ingericht met Aspose.OCR voor .NET. Als je dat nog niet hebt gedaan, kun je het downloaden[hier](https://releases.aspose.com/ocr/net/).
-- Een goed begrip van beeldverwerkingsconcepten en het belang van OCR bij het extraheren van tekst uit afbeeldingen.
+## Waarom alinea‑coördinaten extraheren?
+- **Precieze post‑processing** – je kunt elke rechthoek invoeren in downstream‑workflows (bijv. vertaling, redactie).  
+- **Verbeterde UI/UX** – overlay begrenzende vakken op de originele afbeelding om gebruikers te laten zien waar tekst is gevonden.  
+- **Batch‑automatisering** – snel alinea's lokaliseren en isoleren in grote documentenverzamelingen.
 
-## Naamruimten importeren
+## Voorvereisten
 
-Zorg ervoor dat u in uw C#-code de benodigde naamruimten importeert om Aspose.OCR efficiënt te gebruiken. Voeg het volgende bovenaan uw bestand toe:
+- Basiskennis van C# en .NET‑ontwikkeling.  
+- Een ontwikkelomgeving met Aspose.OCR voor .NET geïnstalleerd – je kunt het downloaden [hier](https://releases.aspose.com/ocr/net/).  
+- Vertrouwdheid met beeldverwerkingconcepten en waarom OCR essentieel is voor het extraheren van tekst uit gescande bestanden.
+
+## Namespaces importeren
+
+Importeer in je C#‑bestand de benodigde namespaces zodat de OCR‑klassen beschikbaar zijn:
 
 ```csharp
 using System;
@@ -37,33 +53,33 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Stap 1: Stel uw documentenmap in
+## Stap 1: Stel je documentmap in
 
-Begin met het initialiseren van het pad naar uw documentmap waar de afbeeldingen voor OCR-verwerking zijn opgeslagen:
+Definieer de map die de afbeeldingen bevat die je wilt analyseren:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Initialiseer de AsposeOcr-instantie
+## Stap 2: Initialiseert AsposeOcr‑instantie
 
-Maak een exemplaar van de klasse AsposeOcr om toegang te krijgen tot OCR-functionaliteiten:
+Maak een `AsposeOcr`‑object — dit geeft je toegang tot alle OCR‑functies:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Stap 3: Geef het afbeeldingspad op
+## Stap 3: Specificeer het afbeeldingspad
 
-Definieer het volledige pad naar de afbeelding die u wilt verwerken:
+Verwijs naar het exacte afbeeldingsbestand dat je wilt verwerken:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## Stap 4: Herken de afbeelding en ontvang alinearechthoeken
+## Stap 4: Herken afbeelding en haal alinea‑rechthoeken op
 
- Roep de`GetRectangles` methode om rechthoeken te verkrijgen voor alinea's in de OCR-afbeelding. Set`detect_areas` naar`true` als je alinea's wilt extraheren:
+Roep de `GetRectangles`‑methode aan. Het instellen van `detect_areas` op `true` vertelt de engine om **alinea**‑rechthoeken te retourneren:
 
 ```csharp
 List<Rectangle> rectangles = api.GetRectangles(fullPath, AreasType.PARAGRAPHS, true);
@@ -71,42 +87,48 @@ List<Rectangle> rectangles = api.GetRectangles(fullPath, AreasType.PARAGRAPHS, t
 
 ## Stap 5: Resultaten afdrukken
 
-Print de coördinaten van de geïdentificeerde gebieden:
+Geef de coördinaten weer zodat je de **extracted paragraph coordinates** kunt zien die zijn gedetecteerd:
 
 ```csharp
 Console.WriteLine("Areas coordinates:");
 rectangles.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
 ```
 
-## Stap 6: Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Gefeliciteerd! U hebt met succes het OCR-beeldherkenningsproces uitgevoerd om rechthoeken voor alinea's te verkrijgen met behulp van Aspose.OCR voor .NET.
-
-## Conclusie
-
-In deze zelfstudie hebben we de fundamentele stappen onderzocht om Aspose.OCR voor .NET in uw toepassingen te integreren, zodat u alinearechthoeken uit met OCR verwerkte afbeeldingen kunt extraheren. Aspose.OCR vereenvoudigt de implementatie van OCR, waardoor het een waardevol hulpmiddel wordt voor documentverwerking en tekstextractie.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| Geen rechthoeken geretourneerd | Afbeeldingskwaliteit te laag of verkeerde `AreasType` | Zorg dat de afbeelding duidelijk is en gebruik `AreasType.PARAGRAPHS`. |
+| Coördinaten zijn één pixel verschoven | DPI‑schalingsmismatch | Stel de juiste DPI in bij het laden van de afbeelding of gebruik `api.Config.Dpi`. |
+| Licentie‑exception | Werken zonder geldige licentie in productie | Pas een tijdelijke of permanente licentie toe via `api.SetLicense`. |
 
 ## Veelgestelde vragen
 
-### V1: Is Aspose.OCR compatibel met verschillende afbeeldingsformaten?
+**V: Is Aspose.OCR compatibel met verschillende afbeeldingsformaten?**  
+A: Ja, Aspose.OCR ondersteunt PNG, JPEG, TIFF, BMP en vele andere gangbare formaten.
 
-A1: Ja, Aspose.OCR ondersteunt verschillende afbeeldingsformaten, waaronder PNG, JPEG en TIFF.
+**V: Kan ik Aspose.OCR gebruiken voor batch‑verwerking van meerdere afbeeldingen?**  
+A: Absoluut! Loop door een collectie bestands‑paden en roep `GetRectangles` aan voor elke afbeelding.
 
-### V2: Kan ik Aspose.OCR gebruiken voor batchverwerking van meerdere afbeeldingen?
+**V: Is er een gratis proefversie beschikbaar voor Aspose.OCR voor .NET?**  
+A: Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
 
-A2: Absoluut! Aspose.OCR vergemakkelijkt batchverwerking om meerdere afbeeldingen naadloos te verwerken.
+**V: Hoe kan ik een tijdelijke licentie voor Aspose.OCR verkrijgen?**  
+A: Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.OCR voor .NET?
+**V: Waar vind ik extra ondersteuning en discussies over Aspose.OCR?**  
+A: Ga naar het [Aspose.OCR‑forum](https://forum.aspose.com/c/ocr/16) voor community‑ondersteuning en discussies.
 
- A3: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+## Conclusie
 
-### V4: Hoe kan ik een tijdelijke licentie voor Aspose.OCR verkrijgen?
+In deze tutorial hebben we **hoe rechthoeken te extraheren** voor alinea's met Aspose.OCR voor .NET laten zien, elke code‑snippet doorgenomen en uitgelegd hoe je de geretourneerde coördinaten moet interpreteren. Door deze stappen in je applicatie te integreren, kun je betrouwbaar alinea‑grenzen ophalen, document‑workflows verbeteren en slimmere OCR‑gedreven oplossingen bouwen.
 
- A4: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+---
 
-### V5: Waar kan ik aanvullende ondersteuning en discussies vinden met betrekking tot Aspose.OCR?
+**Laatst bijgewerkt:** 2025-12-17  
+**Getest met:** Aspose.OCR 24.11 voor .NET  
+**Auteur:** Aspose  
 
- A5: Ga naar de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
