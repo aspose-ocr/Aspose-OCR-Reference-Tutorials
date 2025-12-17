@@ -1,62 +1,100 @@
 ---
-title: 圖像和繪圖識別
-linktitle: 圖像和繪圖識別
+date: 2025-12-17
+description: 學習如何使用 Aspose.OCR for .NET 從圖像中提取文字，並高效地對圖像串流、行與段落執行 OCR。
+linktitle: Image and Drawing Recognition
 second_title: Aspose.OCR .NET API
-description: 使用 Aspose.OCR for .NET 解鎖 OCR 影像辨識的精確度。輕鬆從圖像中提取文本，無論是行、段落還是整個流。
-weight: 22
+title: 使用 Aspose.OCR .NET 從圖片提取文字
 url: /zh-hant/net/image-and-drawing-recognition/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 圖像和繪圖識別
+# 使用 Aspose.OCR .NET 從圖像提取文字
 
-## 介紹
+## 簡介
 
-您準備好提升您的 OCR 影像辨識能力了嗎？ Aspose.OCR for .NET 是解鎖圖片文字擷取精確度的關鍵。在本綜合指南中，我們將探索各種教程，深入探討使用 Aspose.OCR for .NET 進行圖像和繪圖識別的不同方面。讓我們深入研究並釋放無縫文本提取的力量。
+在本完整指南中，您將了解如何使用 Aspose.OCR for .NET **從圖像檔案提取文字**。無論您需要從單行、整段文字或連續的圖像串流中提取文字，本教學都會以清晰的逐步說明帶您完成每種情境。讓我們深入了解，看看如何將 OCR 功能無縫整合到您的 .NET 應用程式中。
 
-## 在 OCR 影像辨識中取得直線的矩形
+## 快速解答
+- **Aspose.OCR 的功能是什麼？** 它能高精度地從圖像檔、PDF 以及串流中提取文字。  
+- **我可以從單行提取文字嗎？** 可以 – 請使用「Getting Rectangles for Lines」教學。  
+- **支援段落提取嗎？** 當然可以；請參閱「Getting Rectangles for Paragraphs」指南。  
+- **生產環境需要授權嗎？** 生產使用需購買商業授權；同時提供免費試用版。  
+- **相容的 .NET 版本有哪些？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
 
-在快速發展的 OCR 影像辨識領域，精確度至關重要。教程關於[取得直線的矩形](./get-rectangles-for-lines/)指導您使用 Aspose.OCR for .NET 完成整個過程。了解如何透過專注於單獨的線條來精確地從圖像中提取文字。輕鬆釋放 Aspose.OCR for .NET 的強大功能。
+## 如何使用 Aspose.OCR 從圖像提取文字？
 
-## 在 OCR 影像辨識中取得段落的矩形
+Aspose.OCR 提供彈性的 API，讓您能針對特定文字區域、處理圖像串流，或執行完整的 OCR 程序。依據情境選擇適當的方法，可提升效能與準確度，同時保持程式碼整潔。
 
-將您的 OCR 功能提升到一個新的水平需要掌握段落提取。和[Aspose.OCR for .NET](./get-rectangles-for-paragraphs/)，您可以解鎖高級 OCR 功能並輕鬆地從段落中提取文字。深入研究教程並探索精確提取段落的無縫過程。
+## 在 OCR 圖像辨識中取得行的矩形框
 
-## OCR影像辨識中從流中辨識影像
+在許多應用中，您只需要單行文字——例如掃描收據或提取標籤。此教學 [Getting Rectangles for Lines](./get-rectangles-for-lines/) 會示範如何分離每行的邊界框，並僅對該區域執行 OCR。
 
-輕鬆地從圖像中提取文字是一個遊戲規則改變者，尤其是在圖像流方面。[從串流中辨識影像](./recognize-image-from-stream/)Aspose.OCR for .NET 為您提供逐步指導。探索本教程，解鎖 OCR 魔力並輕鬆從圖像流中提取文字。
+## 在 OCR 圖像辨識中取得段落的矩形框
 
-## OCR影像辨識中不進行文字區域偵測的影像識別
+處理文件時，提取整段文字通常比逐行處理更有用。此指南 **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** 會帶您偵測段落邊界，並將這些區域送入 OCR 引擎以取得精確文字。
 
-如果您想識別圖像中的文字而不關注特定文字區域怎麼辦？[Aspose.OCR for .NET](./recognize-image-without-text-area-detection/)是你的解決方案。釋放文字辨識的潛力，不受文字區域偵測的限制。深入學習教程以獲得無縫的文字擷取體驗。
+## 在 OCR 圖像辨識中從串流辨識圖像
 
-## OCR影像辨識中的辨識線
+直接從串流處理圖像（例如透過 Web API 上傳檔案）可避免儲存暫存檔的額外負擔。此 **[Recognize Image from Stream](./recognize-image-from-stream/)** 教學示範如何將 `Stream` 物件傳遞給 Aspose.OCR，並即時取得提取的文字。
 
-開發商們，有福了！[認線](./recognize-line/)使用 Aspose.OCR for .NET 進行 OCR 影像辨識。本教學將引導您發揮 Aspose.OCR for .NET 在識別線條方面的潛力。按照提供的開發人員指南從圖像中無縫提取文字。
+## 在 OCR 圖像辨識中無文字區域偵測的圖像辨識
 
-## 在 OCR 影像辨識中對影像執行 OCR
-使用 Aspose.OCR for .NET 解鎖 OCR 的魔力，輕鬆從圖像中提取文字。本教程充當無縫整合的門戶，提供有關對圖像執行 OCR 並最大限度地提高應用程式的文字擷取功能的見解。
+有時您希望直接對整張圖像執行 OCR，而不先定位文字區域。此教學 **[Aspose.OCR for .NET](./recognize-image-without-text-area-detection/)** 說明如何進行全圖掃描，適用於快速檢查或版面不確定的情況。
 
-總之，Aspose.OCR for .NET 教學為熱衷於掌握 OCR 影像辨識的開發人員提供了全面的清單。無論是行、段落或整個串流，都可以探索這些教學課程，以方便開發人員進行精確文字擷取。現在就開始你的探索吧！
-## 圖像和繪圖識別教程
-### [在 OCR 影像辨識中取得線條的矩形](./get-rectangles-for-lines/)
-探索 Aspose.OCR for .NET 是精確 OCR 影像辨識的關鍵。輕鬆釋放文字擷取的力量。
-### [在 OCR 影像辨識中取得段落的矩形](./get-rectangles-for-paragraphs/)
-使用 Aspose.OCR for .NET 解鎖進階 OCR 功能。輕鬆提取段落矩形。
-### [OCR 影像辨識中從流中辨識影像](./recognize-image-from-stream/)
-使用 Aspose.OCR for .NET 解鎖 OCR 魔力。輕鬆從圖像中提取文字。探索教程以獲取逐步指導。
-### [OCR影像辨識中無需文字區域偵測即可辨識影像](./recognize-image-without-text-area-detection/)
-使用 Aspose.OCR for .NET 釋放文字辨識的潛力。輕鬆辨識圖像中的文字。
-### [OCR影像辨識中的辨識線](./recognize-line/)
-釋放 Aspose.OCR for .NET 在 OCR 影像辨識中辨識線條的潛力。從圖像中無縫提取文字的開發人員指南。
-### [在 OCR 影像辨識中對影像執行 OCR](./perform-ocr-on-image/)
-使用 Aspose.OCR for .NET 解鎖 OCR 魔力，輕鬆從圖像中擷取文字。探索無縫整合教程。
+## 在 OCR 圖像辨識中辨識行
+
+若您需要聚焦於特定行——例如驗證序號或條碼標籤——**[Recognize Line](./recognize-line/)** 提供簡明步驟，僅分離並讀取該行文字。
+
+## 在 OCR 圖像辨識中對圖像執行 OCR
+
+本節說明 **對圖像執行 OCR** 的核心操作。依循本教學步驟，您將學會如何設定 OCR 引擎、選擇適當語言，並從任何支援的圖像格式取得乾淨、可搜尋的文字。
+
+總結而言，Aspose.OCR for .NET 提供豐富的教學，協助開發者精通 OCR 圖像辨識的各個層面——從行、段落到全圖串流。探索下方連結，立即開始構建強大的文字提取功能。
+
+## 圖像與繪圖辨識教學
+### [在 OCR 圖像辨識中取得行的矩形框](./get-rectangles-for-lines/)
+探索 Aspose.OCR for .NET，成為精準 OCR 圖像辨識的關鍵。輕鬆釋放文字提取的強大功能。
+### [在 OCR 圖像辨識中取得段落的矩形框](./get-rectangles-for-paragraphs/)
+使用 Aspose.OCR for .NET 解鎖進階 OCR 功能。輕鬆提取段落矩形框。
+### [在 OCR 圖像辨識中從串流辨識圖像](./recognize-image-from-stream/)
+使用 Aspose.OCR for .NET 解鎖 OCR 魔法。輕鬆從圖像提取文字。探索教學以獲得逐步指引。
+### [在 OCR 圖像辨識中無文字區域偵測的圖像辨識](./recognize-image-without-text-area-detection/)
+使用 Aspose.OCR for .NET 發掘文字辨識的潛力。輕鬆從圖像辨識文字。
+### [在 OCR 圖像辨識中辨識行](./recognize-line/)
+發揮 Aspose.OCR for .NET 在 OCR 圖像辨識中辨識行的潛能。開發者指南，讓圖像文字提取無縫進行。
+### [在 OCR 圖像辨識中對圖像執行 OCR](./perform-ocr-on-image/)
+使用 Aspose.OCR for .NET 解鎖 OCR 魔法，輕鬆從圖像提取文字。探索教學以實現無縫整合。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 常見問題
+
+**Q: 我可以在 Web 應用程式中使用 Aspose.OCR 嗎？**  
+A: 可以，API 支援 ASP.NET、ASP.NET Core 以及其他基於 .NET 的 Web 框架。
+
+**Q: 如何提升低解析度圖像的辨識準確度？**  
+A: 在傳遞給 OCR 引擎前先對圖像進行前處理（提升對比、二值化或放大）。
+
+**Q: 有辦法從加密的 PDF 提取文字嗎？**  
+A: Aspose.OCR 可在載入選項中提供正確密碼時開啟受密碼保護的 PDF。
+
+**Q: 預設支援哪些語言？**  
+A: 超過 100 種語言，包括英文、西班牙文、中文、阿拉伯文等。
+
+**Q: 每個 .NET 平台都需要單獨授權嗎？**  
+A: 不需要，單一 Aspose.OCR 授權即可涵蓋所有支援的 .NET 平台。
+
+---
+
+**最後更新：** 2025-12-17  
+**測試環境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose

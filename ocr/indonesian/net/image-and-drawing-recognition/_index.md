@@ -1,62 +1,105 @@
 ---
-title: Pengenalan Gambar dan Gambar
-linktitle: Pengenalan Gambar dan Gambar
+date: 2025-12-17
+description: Pelajari cara mengekstrak teks dari gambar dengan Aspose.OCR untuk .NET
+  dan melakukan OCR pada aliran gambar, baris, serta paragraf secara efisien.
+linktitle: Image and Drawing Recognition
 second_title: Aspose.OCR .NET API
-description: Buka kunci presisi pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah, baik itu baris, paragraf, atau keseluruhan aliran.
-weight: 22
+title: Ekstrak Teks dari Gambar dengan Aspose.OCR .NET
 url: /id/net/image-and-drawing-recognition/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengenalan Gambar dan Gambar
+# Ekstrak Teks dari Gambar Menggunakan Aspose.OCR .NET
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda siap untuk meningkatkan permainan pengenalan gambar OCR Anda? Aspose.OCR untuk .NET adalah kunci Anda untuk membuka keakuratan ekstraksi teks dari gambar. Dalam panduan komprehensif ini, kita akan menjelajahi berbagai tutorial yang mempelajari berbagai aspek pengenalan gambar dan gambar menggunakan Aspose.OCR untuk .NET. Mari selami dan manfaatkan kekuatan ekstraksi teks yang lancar.
+Dalam panduan komprehensif ini, Anda akan menemukan cara **mengekstrak teks dari gambar** menggunakan Aspose.OCR untuk .NET. Baik Anda perlu mengambil teks dari satu baris, seluruh paragraf, atau aliran gambar berkelanjutan, tutorial ini akan memandu Anda melalui setiap skenario dengan instruksi langkah‑demi‑langkah yang jelas. Mari kita mulai dan lihat bagaimana Anda dapat mengintegrasikan kemampuan OCR secara mulus ke dalam aplikasi .NET Anda.
 
-## Mendapatkan Persegi Panjang untuk Garis dalam Pengenalan Gambar OCR
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.OCR?** Ia mengekstrak teks dari file gambar, PDF, dan aliran dengan akurasi tinggi.  
+- **Bisakah saya mengekstrak teks dari satu baris?** Ya – gunakan tutorial “Getting Rectangles for Lines”.  
+- **Apakah ekstraksi paragraf didukung?** Tentu; lihat panduan “Getting Rectangles for Paragraphs”.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan produksi; versi percobaan gratis tersedia.  
+- **Versi .NET mana yang kompatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
- Di dunia pengenalan gambar OCR yang berkembang pesat, presisi sangatlah penting. Tutorialnya tentang[Mendapatkan Persegi Panjang untuk Garis](./get-rectangles-for-lines/) memandu Anda melalui proses menggunakan Aspose.OCR untuk .NET. Temukan cara mengekstrak teks dari gambar secara tepat dengan berfokus pada setiap baris. Bebaskan kekuatan Aspose.OCR untuk .NET dengan mudah.
+## Cara mengekstrak teks dari gambar dengan Aspose.OCR?
+Aspose.OCR menyediakan API yang fleksibel yang memungkinkan Anda menargetkan area teks tertentu, bekerja dengan aliran gambar, atau menjalankan proses OCR skala penuh. Dengan fokus pada metode yang tepat untuk skenario Anda, Anda dapat meningkatkan kinerja dan akurasi sambil menjaga kode tetap bersih.
+
+## Mendapatkan Persegi Panjang untuk Baris dalam Pengenalan Gambar OCR
+
+Dalam banyak aplikasi Anda hanya membutuhkan teks yang muncul pada satu baris—misalnya memindai struk atau mengekstrak label. Tutorial pada [Getting Rectangles for Lines](./get-rectangles-for-lines/) menunjukkan cara mengisolasi kotak pembatas setiap baris dan kemudian menjalankan OCR pada wilayah tersebut saja.
 
 ## Mendapatkan Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR
 
- Meningkatkan kemampuan OCR Anda ke tingkat berikutnya melibatkan penguasaan ekstraksi paragraf. Dengan[Aspose.OCR untuk .NET](./get-rectangles-for-paragraphs/)Anda dapat membuka kemampuan OCR tingkat lanjut dan mengekstrak teks dari paragraf dengan mudah. Selami tutorialnya dan jelajahi proses mulus dalam mengekstraksi paragraf dengan presisi.
+Saat menangani dokumen, mengekstrak seluruh paragraf seringkali lebih berguna daripada pemrosesan baris‑per‑baris. Panduan **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** memandu Anda melalui deteksi batas paragraf dan mengirimkan wilayah tersebut ke mesin OCR untuk pengambilan teks yang akurat.
 
-## Mengenali Gambar dari Aliran dalam Pengenalan Gambar OCR
+## Mengenali Gambar dari Stream dalam Pengenalan Gambar OCR
 
- Mengekstrak teks dari gambar dengan mudah merupakan terobosan baru, terutama dalam hal aliran gambar.[Kenali Gambar dari Stream](./recognize-image-from-stream/) dengan Aspose.OCR untuk .NET memberi Anda panduan langkah demi langkah. Jelajahi tutorial untuk membuka keajaiban OCR dan mengekstrak teks dengan mudah dari aliran gambar.
+Memproses gambar langsung dari stream (misalnya ketika file diunggah melalui API web) menghindari beban menyimpan file sementara. Tutorial **[Recognize Image from Stream](./recognize-image-from-stream/)** memperlihatkan cara mengirim objek `Stream` ke Aspose.OCR dan memperoleh teks yang diekstrak secara instan.
 
 ## Mengenali Gambar tanpa Deteksi Area Teks dalam Pengenalan Gambar OCR
 
- Bagaimana jika Anda ingin mengenali teks dari suatu gambar tanpa berfokus pada area teks tertentu?[Aspose.OCR untuk .NET](./recognize-image-without-text-area-detection/) adalah solusi Anda. Buka potensi pengenalan teks tanpa kendala deteksi area teks. Selami tutorial untuk pengalaman ekstraksi teks yang lancar.
+Kadang‑kadang Anda ingin menjalankan OCR pada seluruh gambar tanpa terlebih dahulu menemukan zona teks. Tutorial **[Aspose.OCR for .NET](./recognize-image-without-text-area-detection/)** menjelaskan cara melakukan pemindaian gambar penuh, yang berguna untuk pemeriksaan cepat atau ketika tata letak tidak dapat diprediksi.
 
-## Mengenali Garis dalam Pengenalan Gambar OCR
+## Mengenali Baris dalam Pengenalan Gambar OCR
 
- Pengembang, bersukacitalah![Kenali Garis](./recognize-line/)dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Tutorial ini berfungsi sebagai panduan Anda untuk mengeluarkan potensi Aspose.OCR untuk .NET dalam mengenali garis. Ekstrak teks dari gambar secara mulus dengan mengikuti panduan pengembang yang disediakan.
+Jika Anda perlu fokus pada baris tertentu—misalnya untuk memvalidasi nomor seri atau label barcode—**[Recognize Line](./recognize-line/)** menyediakan panduan singkat untuk mengisolasi dan membaca baris tersebut saja.
 
-## Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR
-Buka keajaiban OCR dengan Aspose.OCR untuk .NET saat Anda mengekstrak teks dari gambar dengan mudah. Tutorial ini berfungsi sebagai gerbang menuju integrasi yang lancar, memberikan wawasan tentang cara melakukan OCR pada gambar dan memaksimalkan kemampuan ekstraksi teks pada aplikasi Anda.
+## Melakukan OCR pada Gambar dalam Pengenalan Gambar OCR
 
-Kesimpulannya, Tutorial Aspose.OCR untuk .NET menawarkan daftar lengkap bagi pengembang yang ingin menguasai pengenalan gambar OCR. Baik itu baris, paragraf, atau keseluruhan aliran, jelajahi tutorial ini untuk perjalanan ramah pengembang menuju ekstraksi teks yang tepat. Mulailah penjelajahan Anda sekarang!
-## Tutorial Pengenalan Gambar dan Gambar
-### [Dapatkan Persegi Panjang untuk Garis dalam Pengenalan Gambar OCR](./get-rectangles-for-lines/)
-Jelajahi Aspose.OCR untuk .NET kunci Anda untuk pengenalan gambar OCR yang tepat. Bebaskan kekuatan ekstraksi teks dengan mudah.
-### [Dapatkan Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR](./get-rectangles-for-paragraphs/)
-Buka kemampuan OCR tingkat lanjut dengan Aspose.OCR untuk .NET. Ekstrak paragraf persegi panjang dengan mudah.
-### [Kenali Gambar dari Aliran dalam Pengenalan Gambar OCR](./recognize-image-from-stream/)
-Buka kunci keajaiban OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk panduan langkah demi langkah.
-### [Kenali Gambar tanpa Deteksi Area Teks dalam Pengenalan Gambar OCR](./recognize-image-without-text-area-detection/)
+Bagian ini mencakup operasi inti **perform OCR on image**. Dengan mengikuti langkah‑langkah dalam tutorial ini, Anda akan belajar cara mengkonfigurasi mesin OCR, memilih bahasa yang tepat, dan mengambil teks bersih yang dapat dicari dari format gambar yang didukung.
+
+Sebagai kesimpulan, Aspose.OCR untuk .NET menawarkan serangkaian tutorial yang kaya untuk membantu pengembang menguasai setiap aspek pengenalan gambar OCR—dari baris dan paragraf hingga aliran gambar penuh. Jelajahi tautan di bawah ini untuk mulai membangun fitur ekstraksi teks yang kuat hari ini.
+
+## Tutorial Pengenalan Gambar dan Menggambar
+### [Get Rectangles for Lines in OCR Image Recognition](./get-rectangles-for-lines/)
+Jelajahi Aspose.OCR untuk .NET sebagai kunci Anda untuk pengenalan gambar OCR yang presisi. Lepaskan kekuatan ekstraksi teks dengan mudah.
+
+### [Get Rectangles for Paragraphs in OCR Image Recognition](./get-rectangles-for-paragraphs/)
+Buka kemampuan OCR lanjutan dengan Aspose.OCR untuk .NET. Ekstrak persegi panjang paragraf dengan mudah.
+
+### [Recognize Image from Stream in OCR Image Recognition](./recognize-image-from-stream/)
+Buka keajaiban OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk panduan langkah‑demi‑langkah.
+
+### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Buka potensi pengenalan teks dengan Aspose.OCR untuk .NET. Kenali teks dari gambar dengan mudah.
-### [Kenali Garis dalam Pengenalan Gambar OCR](./recognize-line/)
-Melepaskan potensi Aspose.OCR untuk .NET dalam mengenali garis dalam pengenalan gambar OCR. Panduan pengembang untuk ekstraksi teks tanpa hambatan dari gambar.
-### [Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR](./perform-ocr-on-image/)
-Buka keajaiban OCR dengan Aspose.OCR untuk .NET dengan mudah mengekstrak teks dari gambar. Jelajahi tutorial untuk integrasi yang lancar.
+
+### [Recognize Line in OCR Image Recognition](./recognize-line/)
+Lepaskan potensi Aspose.OCR untuk .NET dalam mengenali baris pada pengenalan gambar OCR. Panduan pengembang untuk ekstraksi teks yang mulus dari gambar.
+
+### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
+Buka keajaiban OCR dengan Aspose.OCR untuk .NET, ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk integrasi yang mulus.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menggunakan Aspose.OCR dalam aplikasi web?**  
+A: Ya, API ini bekerja dengan ASP.NET, ASP.NET Core, dan kerangka kerja web berbasis .NET lainnya.
+
+**Q: Bagaimana cara meningkatkan akurasi untuk gambar beresolusi rendah?**  
+A: Lakukan pra‑pemrosesan gambar (tingkatkan kontras, binarisasi, atau upscale) sebelum mengirimkannya ke mesin OCR.
+
+**Q: Apakah ada cara mengekstrak teks dari PDF yang terenkripsi?**  
+A: Aspose.OCR dapat membuka PDF yang dilindungi kata sandi ketika Anda menyediakan kata sandi yang benar dalam opsi pemuatan.
+
+**Q: Bahasa apa saja yang didukung secara bawaan?**  
+A: Lebih dari 100 bahasa, termasuk English, Spanish, Chinese, Arabic, dan banyak lagi.
+
+**Q: Apakah saya memerlukan lisensi terpisah untuk setiap platform .NET?**  
+A: Tidak, satu lisensi Aspose.OCR mencakup semua platform .NET yang didukung.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose

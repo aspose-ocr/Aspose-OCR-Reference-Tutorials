@@ -1,62 +1,105 @@
 ---
-title: 画像と図面の認識
-linktitle: 画像と図面の認識
+date: 2025-12-17
+description: Aspose.OCR for .NET を使用して画像からテキストを抽出し、画像ストリーム、行、段落に対して効率的に OCR を実行する方法を学びましょう。
+linktitle: Image and Drawing Recognition
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR for .NET を使用して OCR 画像認識の精度を解放します。行、段落、ストリーム全体など、画像からテキストを簡単に抽出します。
-weight: 22
+title: Aspose.OCR .NET を使用して画像からテキストを抽出する
 url: /ja/net/image-and-drawing-recognition/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 画像と図面の認識
+# 画像からテキストを抽出する Aspose.OCR .NET を使用
 
-## 導入
+## Introduction
 
-OCR 画像認識ゲームを向上させる準備はできていますか? Aspose.OCR for .NET は、画像からのテキスト抽出の精度を高める鍵となります。この包括的なガイドでは、Aspose.OCR for .NET を使用した画像および図面認識のさまざまな側面を詳しく説明するさまざまなチュートリアルを学習します。シームレスなテキスト抽出の能力を最大限に活用してみましょう。
+この包括的なガイドでは、Aspose.OCR for .NET を使用して画像ファイルからテキストを抽出する方法を紹介します。単一行、段落全体、または連続画像ストリームからテキストを取得する必要がある場合でも、このチュートリアルは明確なステップバイステップの手順で各シナリオを案内します。さっそく始めて、OCR 機能を .NET アプリケーションにシームレスに統合する方法を見てみましょう。
 
-## OCR画像認識で線分の四角形を取得する
+## Quick Answers
+- **Aspose.OCR は何をしますか？** 高精度で画像ファイル、PDF、ストリームからテキストを抽出します。  
+- **単一行からテキストを抽出できますか？** はい – 「Getting Rectangles for Lines」チュートリアルを使用してください。  
+- **段落抽出はサポートされていますか？** もちろんです。「Getting Rectangles for Paragraphs」ガイドをご覧ください。  
+- **本番環境でライセンスが必要ですか？** 本番利用には商用ライセンスが必要です。無料トライアルも利用可能です。  
+- **対応している .NET バージョンはどれですか？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
 
-急速に進化する OCR 画像認識の世界では、精度が重要です。のチュートリアル[線分の長方形を取得する](./get-rectangles-for-lines/)Aspose.OCR for .NET を使用するプロセスをガイドします。個々の行に焦点を当てて、画像からテキストを正確に抽出する方法を学びましょう。 Aspose.OCR for .NET のパワーを簡単に解放します。
+## Aspose.OCR を使用して画像からテキストを抽出する方法は？
 
-## OCR画像認識で段落の四角形を取得する
+Aspose.OCR は柔軟な API を提供し、特定のテキスト領域を対象にしたり、画像ストリームで作業したり、フルスケールの OCR を実行したりできます。シナリオに適した方法に注力することで、パフォーマンスと精度を向上させつつ、コードをすっきり保つことができます。
 
-OCR 機能を次のレベルに引き上げるには、段落抽出をマスターする必要があります。と[.NET 用 Aspose.OCR](./get-rectangles-for-paragraphs/)を使用すると、高度な OCR 機能のロックを解除し、段落からテキストを簡単に抽出できます。チュートリアルに進んで、段落を正確に抽出するシームレスなプロセスを探索してください。
+## OCR 画像認識における行の矩形取得
 
-## OCR画像認識におけるストリームからの画像の認識
+多くのアプリケーションでは、単一行に表示されるテキストだけが必要です—レシートのスキャンやラベル抽出を想像してください。[Getting Rectangles for Lines](./get-rectangles-for-lines/) のチュートリアルでは、各行のバウンディングボックスを分離し、その領域だけで OCR を実行する方法を示しています。
 
-画像からテキストを簡単に抽出できることは、特に画像のストリームに関しては大きな変革となります。[ストリームから画像を認識](./recognize-image-from-stream/)Aspose.OCR for .NET では、段階的なガイダンスが提供されます。チュートリアルを参照して、OCR の魔法を解き放ち、画像ストリームからテキストを簡単に抽出してください。
+## OCR 画像認識における段落の矩形取得
 
-## OCR画像認識で文字領域を検出せずに画像を認識する
+文書を扱う場合、行単位の処理よりも段落全体を抽出する方が有用なことが多いです。ガイド **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** では、段落境界を検出し、その領域を OCR エンジンに渡して正確なテキスト取得を行う手順を説明しています。
 
-特定のテキスト領域に焦点を当てずに画像からテキストを認識したい場合はどうすればよいでしょうか?[.NET 用 Aspose.OCR](./recognize-image-without-text-area-detection/)あなたの解決策です。テキスト領域検出の制約を受けることなく、テキスト認識の可能性を解き放ちます。チュートリアルに進んで、シームレスなテキスト抽出エクスペリエンスを体験してください。
+## OCR 画像認識におけるストリームからの画像認識
 
-## OCR画像認識における線の認識
+ストリームから直接画像を処理することで（例: Web API 経由でファイルがアップロードされた場合）、一時ファイルの保存というオーバーヘッドを回避できます。**[Recognize Image from Stream](./recognize-image-from-stream/)** のチュートリアルでは、`Stream` オブジェクトを Aspose.OCR に渡し、抽出されたテキストを即座に取得する方法を示しています。
 
-開発者の皆さん、喜んでください！[ラインを認識する](./recognize-line/)Aspose.OCR for .NET を使用した OCR 画像認識。このチュートリアルは、行の認識において Aspose.OCR for .NET の可能性を解き放つためのガイドとして機能します。提供されている開発者ガイドに従って、画像からテキストをシームレスに抽出します。
+## OCR 画像認識におけるテキスト領域検出なしでの画像認識
 
-## OCR画像認識で画像に対してOCRを実行する
-Aspose.OCR for .NET を使用して OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。このチュートリアルは、シームレスな統合への入り口として機能し、画像に対して OCR を実行し、アプリケーションのテキスト抽出機能を最大限に活用するための洞察を提供します。
+場合によっては、テキスト領域を事前に特定せずに画像全体に OCR を実行したいことがあります。チュートリアル **[Aspose.OCR for .NET](./recognize-image-without-text-area-detection/)** では、レイアウトが予測できない場合や簡易チェックに便利な、画像全体のスキャン方法を解説しています。
 
-結論として、Aspose.OCR for .NET チュートリアルは、OCR 画像認識を習得したい開発者向けに包括的なリストを提供します。行、段落、またはストリーム全体のいずれであっても、これらのチュートリアルを参照して、開発者向けに正確なテキスト抽出を進めてください。今すぐ探索を始めましょう!
-## 画像と図面の認識チュートリアル
-### [OCR画像認識で線分の四角形を取得する](./get-rectangles-for-lines/)
-正確な OCR 画像認識の鍵となる Aspose.OCR for .NET を調べてください。テキスト抽出の力を簡単に解放します。
-### [OCR画像認識で段落の四角形を取得する](./get-rectangles-for-paragraphs/)
-Aspose.OCR for .NET を使用して高度な OCR 機能を利用しましょう。段落の四角形を簡単に抽出します。
-### [OCR画像認識でストリームから画像を認識する](./recognize-image-from-stream/)
-Aspose.OCR for .NET で OCR の魔法を解き放ちます。画像からテキストを簡単に抽出します。チュートリアルで段階的なガイダンスを確認してください。
-### [OCR画像認識でテキスト領域を検出せずに画像を認識する](./recognize-image-without-text-area-detection/)
-Aspose.OCR for .NET でテキスト認識の可能性を解き放ちます。画像からテキストを簡単に認識します。
-### [OCR画像認識で線を認識](./recognize-line/)
-OCR 画像認識における線の認識において、Aspose.OCR for .NET の可能性を解き放ちます。画像からシームレスにテキストを抽出するための開発者向けガイド。
-### [OCR画像認識で画像に対してOCRを実行する](./perform-ocr-on-image/)
-Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合についてはチュートリアルをご覧ください。
+## OCR 画像認識における行の認識
+
+特定の行に注目したい場合—例えばシリアル番号バーコードラベルの検証など—**[Recognize Line](./recognize-line/)** は、その行だけを分離して読み取るための簡潔な手順を提供します。
+
+## OCR 画像認識における画像への OCR 実行
+
+このセクションでは、**画像への OCR 実行** の基本操作を取り上げます。このチュートリアルの手順に従うことで、OCR エンジンの設定方法、適切な言語の選択、そしてサポートされている任意の画像形式からクリーンで検索可能なテキストを取得する方法を学べます。
+
+結論として、Aspose.OCR for .NET は、行や段落からフル画像ストリームまで、OCR 画像認識のあらゆる側面をマスターするための豊富なチュートリアルを提供します。以下のリンクを参照して、堅牢なテキスト抽出機能の構築を今すぐ始めましょう。
+
+## Image and Drawing Recognition Tutorials
+### [Get Rectangles for Lines in OCR Image Recognition](./get-rectangles-for-lines/)
+Explore Aspose.OCR for .NET を活用して、正確な OCR 画像認識への鍵を手に入れましょう。テキスト抽出の力を手軽に解き放ちます。
+
+### [Get Rectangles for Paragraphs in OCR Image Recognition](./get-rectangles-for-paragraphs/)
+Aspose.OCR for .NET で高度な OCR 機能を解放し、段落の矩形を簡単に抽出します。
+
+### [Recognize Image from Stream in OCR Image Recognition](./recognize-image-from-stream/)
+Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。ステップバイステップのガイドはチュートリアルをご覧ください。
+
+### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
+Aspose.OCR for .NET でテキスト認識の可能性を引き出し、画像からテキストを簡単に認識します。
+
+### [Recognize Line in OCR Image Recognition](./recognize-line/)
+OCR 画像認識で行を認識する際の Aspose.OCR for .NET の可能性を引き出します。開発者向けのシームレスな画像からのテキスト抽出ガイドです。
+
+### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
+Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合のためのチュートリアルをご覧ください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: Aspose.OCR を Web アプリケーションで使用できますか？**  
+A: はい、API は ASP.NET、ASP.NET Core、その他の .NET ベースの Web フレームワークで動作します。
+
+**Q: 低解像度画像の精度を向上させるには？**  
+A: OCR エンジンに渡す前に画像を前処理します（コントラストを上げる、二値化、または拡大）。
+
+**Q: 暗号化された PDF からテキストを抽出する方法はありますか？**  
+A: ロードオプションで正しいパスワードを指定すれば、Aspose.OCR はパスワード保護された PDF を開くことができます。
+
+**Q: 標準でサポートされている言語は何ですか？**  
+A: 英語、スペイン語、中国語、アラビア語など、100 以上の言語がサポートされています。
+
+**Q: 各 .NET プラットフォームごとに別々のライセンスが必要ですか？**  
+A: いいえ、単一の Aspose.OCR ライセンスでサポートされているすべての .NET プラットフォームをカバーします。
+
+---
+
+**最終更新日:** 2025-12-17  
+**テスト環境:** Aspose.OCR 24.11 for .NET  
+**作者:** Aspose

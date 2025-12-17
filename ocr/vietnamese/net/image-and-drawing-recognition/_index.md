@@ -1,62 +1,101 @@
 ---
-title: Nhận dạng hình ảnh và bản vẽ
-linktitle: Nhận dạng hình ảnh và bản vẽ
-second_title: API Aspose.OCR .NET
-description: Mở khóa độ chính xác của nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET. Dễ dàng trích xuất văn bản từ hình ảnh, cho dù đó là dòng, đoạn văn hay toàn bộ luồng.
-weight: 22
+date: 2025-12-17
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET
+  và thực hiện OCR trên các luồng hình ảnh, dòng và đoạn văn một cách hiệu quả.
+linktitle: Image and Drawing Recognition
+second_title: Aspose.OCR .NET API
+title: Trích xuất văn bản từ hình ảnh bằng Aspose.OCR .NET
 url: /vi/net/image-and-drawing-recognition/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận dạng hình ảnh và bản vẽ
+# Trích xuất văn bản từ hình ảnh bằng Aspose.OCR .NET
 
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng tầm trò chơi nhận dạng hình ảnh OCR của mình chưa? Aspose.OCR cho .NET là chìa khóa giúp bạn mở khóa độ chính xác của việc trích xuất văn bản từ hình ảnh. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá nhiều hướng dẫn khác nhau đi sâu vào các khía cạnh khác nhau của nhận dạng hình ảnh và bản vẽ bằng Aspose.OCR cho .NET. Hãy cùng tìm hiểu và giải phóng sức mạnh của việc trích xuất văn bản liền mạch.
+Trong hướng dẫn toàn diện này, bạn sẽ khám phá cách **extract text from image** các tệp hình ảnh bằng Aspose.OCR cho .NET. Cho dù bạn cần lấy văn bản từ một dòng duy nhất, một đoạn văn hoàn chỉnh, hoặc một luồng hình ảnh liên tục, tutorial này sẽ hướng dẫn bạn qua từng kịch bản với các hướng dẫn rõ ràng, từng bước. Hãy cùng khám phá và xem cách bạn có thể tích hợp khả năng OCR một cách liền mạch vào các ứng dụng .NET của mình.
 
-## Lấy hình chữ nhật cho các đường trong nhận dạng hình ảnh OCR
+## Câu trả lời nhanh
+- **What does Aspose.OCR do?** Nó trích xuất văn bản từ các tệp hình ảnh, PDF và luồng với độ chính xác cao.  
+- **Can I extract text from a single line?** Có – hãy sử dụng tutorial “Getting Rectangles for Lines”.  
+- **Is paragraph extraction supported?** Chắc chắn; xem hướng dẫn “Getting Rectangles for Paragraphs”.  
+- **Do I need a license for production?** Cần có giấy phép thương mại cho việc sử dụng trong môi trường production; có bản dùng thử miễn phí.  
+- **Which .NET versions are compatible?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
- Trong thế giới phát triển nhanh chóng của nhận dạng hình ảnh OCR, độ chính xác rất quan trọng. Hướng dẫn về[Lấy hình chữ nhật cho đường thẳng](./get-rectangles-for-lines/) hướng dẫn bạn trong suốt quá trình sử dụng Aspose.OCR cho .NET. Khám phá cách trích xuất chính xác văn bản từ hình ảnh bằng cách tập trung vào từng dòng riêng lẻ. Giải phóng sức mạnh của Aspose.OCR cho .NET một cách dễ dàng.
+## Cách trích xuất văn bản từ hình ảnh với Aspose.OCR?
 
-## Lấy hình chữ nhật cho các đoạn văn trong nhận dạng hình ảnh OCR
+Aspose.OCR cung cấp một API linh hoạt cho phép bạn nhắm mục tiêu các vùng văn bản cụ thể, làm việc với luồng hình ảnh, hoặc thực hiện một quá trình OCR toàn diện. Bằng cách tập trung vào phương pháp phù hợp cho kịch bản của bạn, bạn có thể cải thiện hiệu năng và độ chính xác đồng thời giữ cho mã nguồn của mình sạch sẽ.
 
- Nâng khả năng OCR của bạn lên một tầm cao mới bao gồm việc thành thạo việc trích xuất đoạn văn. Với[Aspose.OCR cho .NET](./get-rectangles-for-paragraphs/)bạn có thể mở khóa các khả năng OCR nâng cao và dễ dàng trích xuất văn bản từ các đoạn văn. Đi sâu vào hướng dẫn và khám phá quy trình trích xuất đoạn văn liền mạch một cách chính xác.
+## Lấy các hình chữ nhật cho dòng trong nhận dạng hình ảnh OCR
 
-## Nhận dạng hình ảnh từ luồng trong Nhận dạng hình ảnh OCR
+Trong nhiều ứng dụng, bạn chỉ cần văn bản xuất hiện trên một dòng duy nhất—ví dụ như quét biên lai hoặc trích xuất nhãn. Tutorial trên [Getting Rectangles for Lines](./get-rectangles-for-lines/) cho bạn cách cô lập hộp bao quanh của mỗi dòng và sau đó chạy OCR chỉ trên vùng đó.
 
- Việc trích xuất văn bản từ hình ảnh một cách dễ dàng là một yếu tố thay đổi cuộc chơi, đặc biệt là khi nói đến các luồng hình ảnh.[Nhận dạng hình ảnh từ luồng](./recognize-image-from-stream/) với Aspose.OCR cho .NET cung cấp cho bạn hướng dẫn từng bước. Khám phá hướng dẫn để khám phá điều kỳ diệu của OCR và trích xuất văn bản một cách dễ dàng từ luồng hình ảnh.
+## Lấy các hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR
+
+Khi làm việc với tài liệu, việc trích xuất toàn bộ đoạn văn thường hữu ích hơn so với xử lý từng dòng một. Hướng dẫn **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** hướng dẫn bạn cách phát hiện ranh giới đoạn và đưa các vùng này vào engine OCR để lấy văn bản một cách chính xác.
+
+## Nhận dạng hình ảnh từ luồng trong nhận dạng hình ảnh OCR
+
+Xử lý hình ảnh trực tiếp từ luồng (ví dụ, khi các tệp được tải lên qua một web API) giúp tránh việc lưu tệp tạm thời. Tutorial **[Recognize Image from Stream](./recognize-image-from-stream/)** minh họa cách truyền đối tượng `Stream` vào Aspose.OCR và nhận ngay văn bản đã trích xuất.
 
 ## Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản trong nhận dạng hình ảnh OCR
 
- Điều gì sẽ xảy ra nếu bạn muốn nhận dạng văn bản từ hình ảnh mà không tập trung vào các vùng văn bản cụ thể?[Aspose.OCR cho .NET](./recognize-image-without-text-area-detection/) là giải pháp của bạn. Mở khóa tiềm năng nhận dạng văn bản mà không bị hạn chế phát hiện vùng văn bản. Đi sâu vào hướng dẫn để có trải nghiệm trích xuất văn bản liền mạch.
+Đôi khi bạn muốn chạy OCR trên toàn bộ hình ảnh mà không cần xác định trước các vùng văn bản. Tutorial **[Aspose.OCR for .NET](./recognize-image-without-text-area-detection/)** giải thích cách thực hiện quét toàn bộ hình ảnh, hữu ích cho các kiểm tra nhanh hoặc khi bố cục không thể đoán trước.
 
-## Dòng nhận dạng trong nhận dạng hình ảnh OCR
+## Nhận dạng dòng trong nhận dạng hình ảnh OCR
 
- Các nhà phát triển, hãy vui mừng![Nhận biết dòng](./recognize-line/)trong nhận dạng hình ảnh OCR với Aspose.OCR cho .NET. Hướng dẫn này đóng vai trò là hướng dẫn giúp bạn giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng dòng. Trích xuất liền mạch văn bản từ hình ảnh bằng cách làm theo hướng dẫn của nhà phát triển được cung cấp.
+Nếu bạn cần tập trung vào một dòng cụ thể—có thể để xác thực số sê-ri hoặc nhãn mã vạch—**[Recognize Line](./recognize-line/)** cung cấp hướng dẫn ngắn gọn để cô lập và đọc chỉ dòng đó.
 
 ## Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR
-Khám phá sự kỳ diệu của OCR bằng Aspose.OCR cho .NET khi bạn dễ dàng trích xuất văn bản từ hình ảnh. Hướng dẫn này đóng vai trò là cửa ngõ để bạn tích hợp liền mạch, cung cấp thông tin chi tiết về cách thực hiện OCR trên hình ảnh và tối đa hóa khả năng trích xuất văn bản trong ứng dụng của bạn.
 
-Tóm lại, Hướng dẫn Aspose.OCR cho .NET cung cấp danh sách toàn diện cho các nhà phát triển muốn thành thạo nhận dạng hình ảnh OCR. Cho dù đó là dòng, đoạn văn hay toàn bộ luồng, hãy khám phá các hướng dẫn này để có hành trình trích xuất văn bản chính xác thân thiện với nhà phát triển. Hãy bắt đầu hành trình khám phá của bạn ngay bây giờ!
-## Hướng dẫn nhận dạng hình ảnh và bản vẽ
-### [Nhận hình chữ nhật cho các đường trong nhận dạng hình ảnh OCR](./get-rectangles-for-lines/)
-Khám phá Aspose.OCR cho .NET chìa khóa của bạn để nhận dạng hình ảnh OCR chính xác. Giải phóng sức mạnh của việc trích xuất văn bản một cách dễ dàng.
-### [Nhận hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR](./get-rectangles-for-paragraphs/)
-Mở khóa các khả năng OCR nâng cao với Aspose.OCR cho .NET. Trích xuất các đoạn hình chữ nhật một cách dễ dàng.
-### [Nhận dạng hình ảnh từ luồng trong Nhận dạng hình ảnh OCR](./recognize-image-from-stream/)
-Mở khóa phép thuật OCR bằng Aspose.OCR cho .NET. Dễ dàng trích xuất văn bản từ hình ảnh. Khám phá hướng dẫn để được hướng dẫn từng bước.
+Phần này đề cập đến thao tác cốt lõi của **perform OCR on image** các tệp. Bằng cách làm theo các bước trong tutorial này, bạn sẽ học cách cấu hình engine OCR, chọn ngôn ngữ phù hợp và lấy văn bản sạch, có thể tìm kiếm được từ bất kỳ định dạng hình ảnh nào được hỗ trợ.
+
+Tóm lại, Aspose.OCR cho .NET cung cấp một bộ tutorial phong phú giúp các nhà phát triển nắm vững mọi khía cạnh của nhận dạng hình ảnh OCR—từ dòng và đoạn văn đến luồng hình ảnh toàn bộ. Khám phá các liên kết bên dưới để bắt đầu xây dựng các tính năng trích xuất văn bản mạnh mẽ ngay hôm nay.
+
+## Image and Drawing Recognition Tutorials
+### [Lấy các hình chữ nhật cho dòng trong nhận dạng hình ảnh OCR](./get-rectangles-for-lines/)
+Khám phá Aspose.OCR cho .NET, chìa khóa của bạn để nhận dạng hình ảnh OCR chính xác. Giải phóng sức mạnh của việc trích xuất văn bản một cách dễ dàng.
+### [Lấy các hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR](./get-rectangles-for-paragraphs/)
+Mở khóa các khả năng OCR nâng cao với Aspose.OCR cho .NET. Trích xuất các hình chữ nhật của đoạn văn một cách dễ dàng.
+### [Nhận dạng hình ảnh từ luồng trong nhận dạng hình ảnh OCR](./recognize-image-from-stream/)
+Mở khóa sức mạnh OCR với Aspose.OCR cho .NET. Dễ dàng trích xuất văn bản từ hình ảnh. Khám phá tutorial để có hướng dẫn từng bước.
 ### [Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản trong nhận dạng hình ảnh OCR](./recognize-image-without-text-area-detection/)
-Khai phá tiềm năng nhận dạng văn bản với Aspose.OCR cho .NET. Nhận dạng văn bản từ hình ảnh một cách dễ dàng.
+Mở khóa tiềm năng của nhận dạng văn bản với Aspose.OCR cho .NET. Nhận dạng văn bản từ hình ảnh một cách dễ dàng.
 ### [Nhận dạng dòng trong nhận dạng hình ảnh OCR](./recognize-line/)
-Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng các dòng trong nhận dạng hình ảnh OCR. Hướng dẫn dành cho nhà phát triển cách trích xuất văn bản liền mạch từ hình ảnh.
+Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng các dòng trong nhận dạng hình ảnh OCR. Hướng dẫn dành cho nhà phát triển để trích xuất văn bản từ hình ảnh một cách liền mạch.
 ### [Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR](./perform-ocr-on-image/)
-Mở khóa phép thuật OCR bằng Aspose.OCR cho .NET dễ dàng trích xuất văn bản từ hình ảnh. Khám phá hướng dẫn để tích hợp liền mạch.
+Mở khóa sức mạnh OCR với Aspose.OCR cho .NET, dễ dàng trích xuất văn bản từ hình ảnh. Khám phá tutorial để tích hợp liền mạch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Câu hỏi thường gặp
+
+**Q: Can I use Aspose.OCR in a web application?**  
+A: Có, API hoạt động với ASP.NET, ASP.NET Core và bất kỳ framework web nào dựa trên .NET.
+
+**Q: How do I improve accuracy for low‑resolution images?**  
+A: Tiền xử lý hình ảnh (tăng độ tương phản, nhị phân hoá hoặc nâng cấp độ phân giải) trước khi truyền vào engine OCR.
+
+**Q: Is there a way to extract text from encrypted PDFs?**  
+A: Aspose.OCR có thể mở các PDF được bảo vệ bằng mật khẩu khi bạn cung cấp mật khẩu đúng trong tùy chọn tải.
+
+**Q: What languages are supported out of the box?**  
+A: Hơn 100 ngôn ngữ, bao gồm English, Spanish, Chinese, Arabic và nhiều ngôn ngữ khác.
+
+**Q: Do I need a separate license for each .NET platform?**  
+A: Không, một giấy phép Aspose.OCR duy nhất bao phủ tất cả các nền tảng .NET được hỗ trợ.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-17  
+**Đã kiểm tra với:** Aspose.OCR 24.11 for .NET  
+**Tác giả:** Aspose
