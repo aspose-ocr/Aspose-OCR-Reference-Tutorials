@@ -103,30 +103,6 @@ Aspose.OCR 在多种语言和图像格式上提供高准确率，是进行 **jav
 - **FileNotFoundException** – 再次检查 `dataDir`，确保指定位置存在 `p3.png`。  
 - **输出中出现意外字符** – 如有需要，可通过 `AsposeOCR` 配置调整 OCR 设置（例如语言、 DPI）。
 
-## FAQ's
-
-常见问答
-
-### Q1: Aspose.OCR 是否兼容所有图像格式？
-
-A1: 是的，Aspose.OCR 支持多种图像格式，确保在 OCR 任务中的灵活性。
-
-### Q2: 我可以在商业项目中使用 Aspose.OCR 吗？
-
-A2: 当然可以！Aspose.OCR 可用于商业用途。请访问 [purchase page](https://purchase.aspose.com/buy) 获取许可证详情。
-
-### Q3: 如何获取 Aspose.OCR 的临时许可证？
-
-A3: 可从 [temporary license page](https://purchase.aspose.com/temporary-license/) 获取临时许可证用于测试。
-
-### Q4: 在哪里可以找到 Aspose.OCR 的支持？
-
-A4: 请访问 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 获取社区支持和讨论。
-
-### Q5: Aspose.OCR 是否提供免费试用？
-
-A5: 是的，您可在购买前通过 [free trial version](https://releases.aspose.com/) 体验功能。
-
 ## Frequently Asked Questions
 
 常见问题

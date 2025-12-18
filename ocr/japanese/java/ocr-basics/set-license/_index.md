@@ -87,28 +87,6 @@ System.out.println("License is set: " + resLicense);
 
 この **Aspose OCR Java チュートリアル** に従って、Java アプリケーションで **Aspose OCR ライセンスを設定し検証する** 方法を習得しました。これでプロジェクトは Aspose の高精度 OCR エンジンを制限なく利用でき、画像を検索可能なテキストへ変換できます。
 
-## FAQ
-
-### Q1: Aspose.OCR for Java をライセンスなしで使用できますか？
-
-A1: 一時ライセンスは利用可能ですが、継続的に使用する場合は有効なライセンスの取得が推奨されます。
-
-### Q2: Aspose.OCR は Java 11 以降に対応していますか？
-
-A2: はい、Aspose.OCR は Java 11 以上のバージョンと互換性があります。
-
-### Q3: Aspose.OCR のライセンスはどのくらいの頻度で更新が必要ですか？
-
-A3: ライセンスは通常永久的で、購入したバージョンを無期限に使用できます。ただし、最新機能を利用したい場合はアップデート情報を確認してください。
-
-### Q4: 商用プロジェクトで Aspose.OCR を使用できますか？
-
-A4: はい、ライセンス条件を守れば個人・商用問わず使用可能です。
-
-### Q5: Aspose.OCR for Java の追加サポートはどこで得られますか？
-
-A5: [Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16) でコミュニティサポートやディスカッションが利用できます。
-
 ## よくある質問
 
 **Q: Spring Boot アプリケーションでライセンスファイルを保存するベストプラクティスは？**  
@@ -126,17 +104,15 @@ A: 任意のロギングフレームワーク（例: SLF4J）を組み合わせ�
 **Q: Docker コンテナ内でもライセンスは機能しますか？**  
 A: もちろんです。コンテナ内でライセンスファイルにアクセスでき、正しいパスを指定すれば動作します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-10  
 **テスト環境:** Aspose.OCR 24.11 for Java  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -92,44 +92,22 @@ Aspose.OCR는 다국어 및 다양한 이미지 포맷에 걸쳐 높은 정확�
 - **FileNotFoundException** – `dataDir`을 다시 확인하고 지정된 위치에 `p3.png` 파일이 존재하는지 확인하십시오.  
 - **Unexpected characters in output** – 필요에 따라 `AsposeOCR` 구성에서 OCR 설정(예: 언어, DPI)을 조정하십시오.
 
-## FAQ's
+## 자주 묻는 질문
 
-### Q1: Is Aspose.OCR compatible with all image formats?
+**Q: 이 방법은 전체 문서를 처리하는 것과 어떻게 다릅니까?**
+A: `RecognizePage`를 사용하면 단일 이미지만 대상으로 메모리 분리를 참고, 특정 페이지에만 처리 ​​속도를 연결할 수 있습니다.
 
-A1: 예, Aspose.OCR는 다양한 이미지 포맷을 지원하므로 OCR 작업에서 유연성을 제공합니다.
+**Q: OCR 언어를 변경할 수 있나요?**
+A: 예, `RecognizePage`를 호출하기 전에 `AsposeOCR` API를 통해 언어에 접근할 수 있습니다.
 
-### Q2: Can I use Aspose.OCR in commercial projects?
+**Q: 여러 페이지를 일괄 처리할 수 있나요?**
+A: 각 이미지 경로를 순회하면서 파일에 대해 `RecognizePage`를 호출하면 처리가 가능합니다.
 
-A2: 물론입니다! Aspose.OCR는 상업적 사용이 가능합니다. 라이선스 세부 정보는 [purchase page](https://purchase.aspose.com/buy)에서 확인하십시오.
-
-### Q3: How can I get a temporary license for Aspose.OCR?
-
-A3: 테스트 목적이라면 [temporary license page](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 얻을 수 있습니다.
-
-### Q4: Where can I find support for Aspose.OCR?
-
-A4: 커뮤니티 지원 및 토론은 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)에서 확인하십시오.
-
-### Q5: Does Aspose.OCR offer a free trial?
-
-A5: 예, 구매 전 [free trial version](https://releases.aspose.com/)을 통해 기능을 체험해 보세요.
-
-## Frequently Asked Questions
-
-**Q: How does this method differ from processing an entire document?**  
-A: `RecognizePage`를 사용하면 단일 이미지만 대상으로 하여 메모리 사용량을 줄이고, 특정 페이지만 필요할 때 처리 속도를 높일 수 있습니다.
-
-**Q: Can I change the OCR language?**  
-A: 예, `RecognizePage`를 호출하기 전에 `AsposeOCR` API를 통해 언어를 설정할 수 있습니다.
-
-**Q: Is it possible to batch process multiple pages?**  
-A: 이미지 경로 컬렉션을 순회하면서 각 파일에 대해 `RecognizePage`를 호출하면 배치 처리가 가능합니다.
-
-**Q: What Java version is required?**  
+**Q: 어떤 Java 버전이 필요합니까?**
 A: 이 라이브러리는 Java 8 이상에서 작동합니다.
 
-**Q: Are there any performance tips?**  
-A: 큰 이미지는 약 300 DPI 정도로 미리 스케일링하고, 불필요한 색 채널을 제거하면 속도가 향상됩니다.
+**Q: 성능 관련 팁이 있나요?**
+A: 큰 이미지는 약 300 DPI 추가 검토 크기를 조정하고, 색상 채널을 제거하면 속도가 향상됩니다.
 
 ## Conclusion
 

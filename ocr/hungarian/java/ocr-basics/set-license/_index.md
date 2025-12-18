@@ -89,28 +89,6 @@ Ha a konzol a `License is set: true` üzenetet írja ki, készen állsz a teljes
 
 Ezzel a **Aspose OCR Java útmutatóval** megtanultad, hogyan állítsd be és **ellenőrizd az Aspose OCR licencet** egy Java alkalmazásban. Projekted most korlátlan hozzáféréssel rendelkezik az Aspose magas pontosságú OCR motorjához, készen áll a képek kereshető szöveggé alakítására.
 
-## GYIK
-
-### Q1: Használhatom az Aspose.OCR for Java‑t licenc nélkül?
-
-A1: Bár ideiglenes licenc elérhető, a folyamatos használathoz érvényes licenc beszerzése javasolt.
-
-### Q2: Az Aspose.OCR kompatibilis a Java 11‑el és újabb verziókkal?
-
-A2: Igen, az Aspose.OCR kompatibilis a Java 11‑el és magasabb verziókkal.
-
-### Q3: Milyen gyakran kell megújítanom az Aspose.OCR licencet?
-
-A3: Az Aspose.OCR licencek általában örökösek, így a megvásárolt verziót korlátlanul használhatod. Azonban érdemes ellenőrizni a frissítéseket a legújabb funkciókért.
-
-### Q4: Használhatom az Aspose.OCR‑t kereskedelmi projektekben?
-
-A4: Igen, az Aspose.OCR használható személyes és kereskedelmi projektekben egyaránt, amennyiben betartod a licencfeltételeket.
-
-### Q5: Hol találok további támogatást az Aspose.OCR for Java‑hoz?
-
-A5: Látogasd meg az [Aspose.OCR Fórumot](https://forum.aspose.com/c/ocr/16) a közösségi támogatásért és megbeszélésekért.
-
 ## Gyakran ismételt kérdések
 
 **Q: Mi a legjobb módja a licencfájl tárolásának egy Spring Boot alkalmazásban?**  
@@ -128,15 +106,15 @@ A: Bármely naplózási keretrendszert (pl. SLF4J) integrálhatsz, és naplózha
 **Q: Működni fog a licenc Docker konténerekben?**  
 A: Teljes mértékben, amennyiben a licencfájl elérhető a konténeren belül, és a helyes útvonalat adtad meg.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.OCR 24.11 for Java  
-**Author:** Aspose

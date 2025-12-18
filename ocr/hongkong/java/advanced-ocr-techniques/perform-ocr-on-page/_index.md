@@ -91,29 +91,9 @@ Aspose.OCR 在多種語言與影像格式上提供高準確度，是執行 **jav
 - **FileNotFoundException** – 請再次確認 `dataDir`，並確保 `p3.png` 存在於指定位置。  
 - **Unexpected characters in output** – 如有需要，透過 `AsposeOCR` 設定調整 OCR 參數（例如語言、DPI）。
 
-## 常見問答
+## 常見問題
 
-### Q1：Aspose.OCR 是否相容所有影像格式？
-
-A1：是的，Aspose.OCR 支援多種影像格式，確保你的 OCR 任務具備彈性。
-
-### Q2：我可以在商業專案中使用 Aspose.OCR 嗎？
-
-A2：當然可以！Aspose.OCR 可用於商業用途。請前往 [purchase page](https://purchase.aspose.com/buy) 了解授權細節。
-
-### Q3：如何取得 Aspose.OCR 的臨時授權？
-
-A3：可從 [temporary license page](https://purchase.aspose.com/temporary-license/) 取得臨時授權，以供測試使用。
-
-### Q4：在哪裡可以取得 Aspose.OCR 的支援？
-
-A4：請前往 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 獲取社群支援與討論。
-
-### Q5：Aspose.OCR 是否提供免費試用？
-
-A5：是的，可在購買前透過 [free trial version](https://releases.aspose.com/) 體驗功能。
-
-## 常見問題**Q: 此方法與處理整份文件有何不同？**  
+**Q: 此方法與處理整份文件有何不同？**  
 A: 使用 `RecognizePage` 針對單一影像，可減少記憶體使用，並在只需特定頁面時加快處理速度。
 
 **Q: 我可以變更 OCR 語言嗎？**  

@@ -92,27 +92,6 @@ Aspose.OCR, birden çok dil ve görüntü formatı arasında yüksek doğruluk s
 - **FileNotFoundException** – `dataDir`'i iki kez kontrol edin ve `p3.png` dosyasının belirtilen konumda olduğundan emin olun.  
 - **Çıktıda beklenmeyen karakterler** – Gerekirse `AsposeOCR` yapılandırması üzerinden OCR ayarlarını (ör. dil, DPI) ayarlayın.
 
-## SSS'ler
-
-### S1: Aspose.OCR tüm görüntü formatlarıyla uyumlu mu?
-
-A1: Evet, Aspose.OCR geniş bir görüntü formatı yelpazesini destekler, bu da OCR görevlerinizde esneklik sağlar.
-
-### S2: Aspose.OCR'ı ticari projelerde kullanabilir miyim?
-
-A2: Kesinlikle! Aspose.OCR ticari kullanım için mevcuttur. Lisans detayları için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
-
-### S3: Aspose.OCR için geçici lisans nasıl alınır?
-
-A3: Test amaçlı olarak [geçici lisans sayfasından](https://purchase.aspose.com/temporary-license/) geçici bir lisans edinebilirsiniz.
-
-### S4: Aspose.OCR desteğini nereden bulabilirim?
-
-A4: Topluluk desteği ve tartışmalar için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
-
-### S5: Aspose.OCR ücretsiz deneme sunuyor mu?
-
-A5: Evet, satın almadan önce özellikleri [ücretsiz deneme sürümü](https://releases.aspose.com/) ile keşfedebilirsiniz.
 
 ## Sıkça Sorulan Sorular
 

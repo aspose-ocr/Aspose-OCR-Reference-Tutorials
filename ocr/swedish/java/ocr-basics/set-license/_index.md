@@ -91,28 +91,6 @@ Genom att följa denna **Aspose OCR Java-handledning** har du lärt dig hur du a
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda Aspose.OCR för Java utan licens?
-
-A1: Även om en tillfällig licens finns tillgänglig rekommenderas att skaffa en giltig licens för oavbruten användning.
-
-### Q2: Är Aspose.OCR kompatibel med Java 11 och senare?
-
-A2: Ja, Aspose.OCR är kompatibel med Java 11 och högre versioner.
-
-### Q3: Hur ofta behöver jag förnya min Aspose.OCR-licens?
-
-A3: Aspose.OCR-licenser är vanligtvis eviga, vilket gör att du kan använda den version du köpt på obestämd tid. Kontrollera dock uppdateringar för de senaste funktionerna.
-
-### Q4: Kan jag använda Aspose.OCR för kommersiella projekt?
-
-A4: Ja, Aspose.OCR kan användas både för personliga och kommersiella projekt, så länge du följer licensvillkoren.
-
-### Q5: Var kan jag hitta ytterligare support för Aspose.OCR för Java?
-
-A5: Besök [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) för gemenskapsstöd och diskussioner.
-
-## Vanliga frågor
-
 **Q: Vad är det bästa sättet att lagra licensfilen i en Spring Boot-applikation?**  
 A: Placera `.lic`‑filen i `resources`‑mappen och ladda den med `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
@@ -128,15 +106,15 @@ A: Du kan integrera vilket loggningsramverk som helst (t.ex. SLF4J) och logga de
 **Q: Kommer licensen att fungera i Docker‑behållare?**  
 A: Absolut, så länge licensfilen är åtkomlig i containern och rätt sökväg anges.
 
+---
+
+**Senast uppdaterad:** 2025-12-10  
+**Testad med:** Aspose.OCR 24.11 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-10  
-**Testad med:** Aspose.OCR 24.11 för Java  
-**Författare:** Aspose

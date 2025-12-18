@@ -89,28 +89,6 @@ Se o console imprimir `License is set: true`, você está pronto para usar todos
 
 Seguindo este **tutorial de Aspose OCR Java**, você aprendeu como definir e **verificar a licença do Aspose OCR** em uma aplicação Java. Seu projeto agora tem acesso irrestrito ao motor de OCR de alta precisão da Aspose, pronto para transformar imagens em texto pesquisável.
 
-## Perguntas Frequentes
-
-### Q1: Posso usar o Aspose.OCR para Java sem licença?
-
-A1: Embora uma licença temporária esteja disponível, adquirir uma licença válida é recomendado para uso ininterrupto.
-
-### Q2: O Aspose.OCR é compatível com Java 11 e superiores?
-
-A2: Sim, o Aspose.OCR é compatível com Java 11 e versões mais recentes.
-
-### Q3: Com que frequência preciso renovar minha licença do Aspose.OCR?
-
-A3: As licenças do Aspose.OCR são tipicamente perpétuas, permitindo usar indefinidamente a versão adquirida. Contudo, verifique atualizações para obter os recursos mais recentes.
-
-### Q4: Posso usar o Aspose.OCR em projetos comerciais?
-
-A4: Sim, o Aspose.OCR pode ser usado tanto em projetos pessoais quanto comerciais, desde que você siga os termos de licenciamento.
-
-### Q5: Onde encontro suporte adicional para o Aspose.OCR para Java?
-
-A5: Visite o [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) para suporte da comunidade e discussões.
-
 ## Perguntas Frequentes (FAQ)
 
 **Q: Qual a melhor forma de armazenar o arquivo de licença em uma aplicação Spring Boot?**  
@@ -128,17 +106,15 @@ A: Você pode integrar qualquer framework de logging (por exemplo, SLF4J) e regi
 **Q: A licença funciona em contêineres Docker?**  
 A: Absolutamente, desde que o arquivo de licença esteja acessível dentro do contêiner e o caminho correto seja fornecido.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-10  
 **Testado com:** Aspose.OCR 24.11 para Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

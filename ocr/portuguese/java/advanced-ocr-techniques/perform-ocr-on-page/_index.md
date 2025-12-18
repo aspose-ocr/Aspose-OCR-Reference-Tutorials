@@ -94,28 +94,6 @@ Aspose.OCR oferece alta precisão em múltiplos idiomas e formatos de imagem, to
 
 ## Perguntas Frequentes
 
-### Q1: O Aspose.OCR é compatível com todos os formatos de imagem?
-
-A1: Sim, o Aspose.OCR suporta uma ampla variedade de formatos de imagem, garantindo flexibilidade nas suas tarefas de OCR.
-
-### Q2: Posso usar o Aspose.OCR em projetos comerciais?
-
-A2: Absolutamente! O Aspose.OCR está disponível para uso comercial. Visite a [página de compra](https://purchase.aspose.com/buy) para detalhes de licenciamento.
-
-### Q3: Como posso obter uma licença temporária para o Aspose.OCR?
-
-A3: Obtenha uma licença temporária na [página de licença temporária](https://purchase.aspose.com/temporary-license/) para fins de teste.
-
-### Q4: Onde posso encontrar suporte para o Aspose.OCR?
-
-A4: Visite o [fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para suporte da comunidade e discussões.
-
-### Q5: O Aspose.OCR oferece uma avaliação gratuita?
-
-A5: Sim, explore os recursos com a [versão de avaliação gratuita](https://releases.aspose.com/) antes de efetuar a compra.
-
-## Perguntas Frequentes
-
 **Q: Como esse método difere do processamento de um documento inteiro?**  
 A: Usar `RecognizePage` foca em uma única imagem, reduzindo o uso de memória e acelerando o processamento quando você precisa apenas de páginas específicas.
 

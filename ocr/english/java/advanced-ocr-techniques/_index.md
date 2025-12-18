@@ -83,13 +83,6 @@ Empower your Java applications with Aspose.OCR for precise text recognition. Eas
 ### [Specifying Allowed Characters in Aspose.OCR](./specify-allowed-characters/)
 Unlock text extraction from images seamlessly with Aspose.OCR for Java. Follow our step‑by‑step guide for efficient integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.OCR for OCR on PDF documents?**  
@@ -112,3 +105,10 @@ A: Yes, each `OcrEngine` instance is thread‑safe, allowing parallel processing
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.OCR 24.12 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

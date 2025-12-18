@@ -92,28 +92,6 @@ Aspose.OCR liefert hohe Genauigkeit über mehrere Sprachen und Bildformate hinwe
 - **FileNotFoundException** – Prüfen Sie `dataDir` erneut und stellen Sie sicher, dass `p3.png` am angegebenen Ort existiert.  
 - **Unexpected characters in output** – Passen Sie bei Bedarf die OCR‑Einstellungen (z. B. Sprache, DPI) über die `AsposeOCR`‑Konfiguration an.
 
-## FAQ
-
-### Q1: Ist Aspose.OCR mit allen Bildformaten kompatibel?
-
-A1: Ja, Aspose.OCR unterstützt eine breite Palette von Bildformaten und bietet damit Flexibilität für Ihre OCR‑Aufgaben.
-
-### Q2: Kann ich Aspose.OCR in kommerziellen Projekten verwenden?
-
-A2: Auf jeden Fall! Aspose.OCR ist für die kommerzielle Nutzung verfügbar. Besuchen Sie die [purchase page](https://purchase.aspose.com/buy) für Lizenzdetails.
-
-### Q3: Wie kann ich eine temporäre Lizenz für Aspose.OCR erhalten?
-
-A3: Holen Sie sich eine temporäre Lizenz von der [temporary license page](https://purchase.aspose.com/temporary-license/) für Testzwecke.
-
-### Q4: Wo finde ich Support für Aspose.OCR?
-
-A4: Besuchen Sie das [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) für Community‑Support und Diskussionen.
-
-### Q5: Bietet Aspose.OCR eine kostenlose Testversion an?
-
-A5: Ja, testen Sie die Funktionen mit der [free trial version](https://releases.aspose.com/), bevor Sie einen Kauf tätigen.
-
 ## Häufig gestellte Fragen
 
 **Q: Wie unterscheidet sich diese Methode von der Verarbeitung eines gesamten Dokuments?**  

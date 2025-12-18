@@ -89,28 +89,6 @@ Se la console stampa `License is set: true`, sei pronto a utilizzare tutte le fu
 
 Seguendo questo **tutorial Aspose OCR Java**, hai imparato a impostare e **verificare la licenza Aspose OCR** in un'applicazione Java. Il tuo progetto ora ha accesso illimitato al motore OCR ad alta precisione di Aspose, pronto a trasformare le immagini in testo ricercabile.
 
-## FAQ
-
-### Q1: Posso usare Aspose.OCR per Java senza una licenza?
-
-A1: Sebbene sia disponibile una licenza temporanea, è consigliabile acquisire una licenza valida per un utilizzo ininterrotto.
-
-### Q2: Aspose.OCR è compatibile con Java 11 e versioni successive?
-
-A2: Sì, Aspose.OCR è compatibile con Java 11 e versioni più recenti.
-
-### Q3: Quanto spesso devo rinnovare la licenza Aspose.OCR?
-
-A3: Le licenze Aspose.OCR sono tipicamente perpetue, consentendoti di utilizzare indefinitamente la versione acquistata. Tuttavia, verifica gli aggiornamenti per le ultime funzionalità.
-
-### Q4: Posso usare Aspose.OCR per progetti commerciali?
-
-A4: Sì, Aspose.OCR può essere utilizzato sia per progetti personali che commerciali, purché si rispettino i termini di licenza.
-
-### Q5: Dove posso trovare supporto aggiuntivo per Aspose.OCR per Java?
-
-A5: Visita il [Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per supporto della community e discussioni.
-
 ## Domande frequenti
 
 **D: Qual è il modo migliore per memorizzare il file di licenza in un'applicazione Spring Boot?**  
@@ -128,15 +106,15 @@ R: Puoi integrare qualsiasi framework di logging (ad esempio SLF4J) e registrare
 **D: La licenza funziona nei container Docker?**  
 R: Assolutamente sì, purché il file di licenza sia accessibile all'interno del container e venga fornito il percorso corretto.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.OCR 24.11 for Java  
-**Author:** Aspose

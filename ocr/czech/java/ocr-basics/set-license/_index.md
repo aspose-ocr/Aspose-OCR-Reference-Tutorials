@@ -89,28 +89,6 @@ Pokud konzole vypíše `License is set: true`, jste připraveni využívat plné
 
 Postupem podle tohoto **Aspose OCR Java tutoriálu** jste se naučili, jak nastavit a **ověřit licenci Aspose OCR** v Java aplikaci. Váš projekt nyní má neomezený přístup k vysoce přesnému OCR enginu od Aspose, připravený převádět obrázky na prohledávatelný text.
 
-## FAQ
-
-### Q1: Mohu používat Aspose.OCR pro Java bez licence?
-
-A1: I když je k dispozici dočasná licence, doporučuje se získat platnou licenci pro nepřerušované používání.
-
-### Q2: Je Aspose.OCR kompatibilní s Java 11 a vyššími verzemi?
-
-A2: Ano, Aspose.OCR je kompatibilní s Java 11 a novějšími verzemi.
-
-### Q3: Jak často musím obnovovat licenci Aspose.OCR?
-
-A3: Licence Aspose.OCR jsou obvykle trvalé, což vám umožňuje používat zakoupenou verzi neomezeně. Přesto sledujte aktualizace pro nejnovější funkce.
-
-### Q4: Mohu používat Aspose.OCR pro komerční projekty?
-
-A4: Ano, Aspose.OCR může být používán jak pro osobní, tak pro komerční projekty, pokud dodržujete licenční podmínky.
-
-### Q5: Kde najdu další podporu pro Aspose.OCR pro Java?
-
-A5: Navštivte [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) pro komunitní podporu a diskuse.
-
 ## Často kladené otázky
 
 **Q: Jaký je nejlepší způsob uložení licenčního souboru ve Spring Boot aplikaci?**  
@@ -128,15 +106,15 @@ A: Můžete integrovat libovolný logovací framework (např. SLF4J) a zaznamena
 **Q: Bude licence fungovat v Docker kontejnerech?**  
 A: Rozhodně, pokud je licenční soubor přístupný uvnitř kontejneru a je zadána správná cesta.
 
+---
+
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-10  
-**Tested With:** Aspose.OCR 24.11 for Java  
-**Author:** Aspose

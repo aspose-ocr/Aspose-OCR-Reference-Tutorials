@@ -88,51 +88,27 @@ System.out.println("License is set: " + resLicense);
 
 通过本 **Aspose OCR Java 教程**，您已经学会了在 Java 应用程序中设置并 **验证 Aspose OCR 许可证**。现在，您的项目可以无限制地使用 Aspose 高精度 OCR 引擎，将图像转换为可搜索的文本。
 
-## FAQ's
+## 常见问题解答
 
-### Q1: Can I use Aspose.OCR for Java without a license?
+**问：在 Spring Boot 应用中存储许可证文件的最佳方式是什么？** 
 
-A1: 虽然可以使用临时许可证，但建议获取有效许可证以确保持续使用。
-
-### Q2: Is Aspose.OCR compatible with Java 11 and above?
-
-A2: 是的，Aspose.OCR 与 Java 11 及更高版本兼容。
-
-### Q3: How often do I need to renew my Aspose.OCR license?
-
-A3: Aspose.OCR 许可证通常是永久的，购买的版本可无限期使用。但请关注更新以获取最新功能。
-
-### Q4: Can I use Aspose.OCR for commercial projects?
-
-A4: 可以，Aspose.OCR 可用于个人和商业项目，只要遵守许可证条款。
-
-### Q5: Where can I find additional support for Aspose.OCR for Java?
-
-A5: 访问 [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) 获取社区支持和讨论。
-
-## Frequently Asked Questions
-
-**Q: What is the best way to store the license file in a Spring Boot application?**  
 A: 将 `.lic` 文件放在 `resources` 文件夹中，并使用 `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());` 加载。
 
-**Q: Does the license verification affect performance?**  
+**问：许可证验证会影响性能吗？**  
+
 A: 不会。检查仅在启动时执行一次，对运行时 OCR 性能影响可以忽略不计。
 
-**Q: Can I programmatically switch between multiple license files?**  
+**问：我可以通过编程方式在多个许可证文件之间切换吗？**
+ 
 A: 可以。需要更换活动许可证时，调用 `License.setLicense(path)` 并传入不同的路径即可。
 
-**Q: Is there a way to log license verification status?**  
+**问：有没有办法记录许可证验证状态？**
+
 A: 可以集成任意日志框架（如 SLF4J），记录 `License.isValid()` 返回的布尔结果。
 
-**Q: Will the license work on Docker containers?**  
+**问：许可证可以在 Docker 容器中使用吗？** 
+ 
 A: 完全可以，只要在容器内部能够访问许可证文件并提供正确的路径。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -140,4 +116,9 @@ A: 完全可以，只要在容器内部能够访问许可证文件并提供正�
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

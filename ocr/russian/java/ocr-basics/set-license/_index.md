@@ -91,28 +91,6 @@ System.out.println("License is set: " + resLicense);
 
 ## Часто задаваемые вопросы
 
-### Q1: Можно ли использовать Aspose.OCR для Java без лицензии?
-
-A1: Хотя доступна временная лицензия, рекомендуется приобрести действительную лицензию для непрерывного использования.
-
-### Q2: Совместим ли Aspose.OCR с Java 11 и выше?
-
-A2: Да, Aspose.OCR совместим с Java 11 и более новыми версиями.
-
-### Q3: Как часто нужно обновлять лицензию Aspose.OCR?
-
-A3: Лицензии Aspose.OCR обычно бессрочные, позволяя использовать приобретённую версию неограниченно. Однако проверяйте наличие обновлений для получения новых функций.
-
-### Q4: Можно ли использовать Aspose.OCR в коммерческих проектах?
-
-A4: Да, Aspose.OCR можно использовать как в личных, так и в коммерческих проектах при соблюдении условий лицензии.
-
-### Q5: Где можно получить дополнительную поддержку по Aspose.OCR для Java?
-
-A5: Посетите [форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) для общения с сообществом и получения помощи.
-
-## Часто задаваемые вопросы
-
 **Вопрос: Как лучше хранить файл лицензии в приложении Spring Boot?**  
 Ответ: Поместите файл `.lic` в папку `resources` и загрузите его с помощью `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
@@ -128,17 +106,15 @@ A5: Посетите [форум Aspose.OCR](https://forum.aspose.com/c/ocr/16) 
 **Вопрос: Будет ли лицензия работать в Docker‑контейнерах?**  
 Ответ: Конечно, при условии, что файл лицензии доступен внутри контейнера и указан правильный путь.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-10  
 **Тестировано с:** Aspose.OCR 24.11 for Java  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

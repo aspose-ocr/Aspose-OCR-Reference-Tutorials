@@ -92,28 +92,6 @@ Az Aspose.OCR magas pontosságot biztosít több nyelven és képfájltípuson, 
 - **FileNotFoundException** – Ellenőrizd a `dataDir` értékét, és győződj meg róla, hogy a `p3.png` a megadott helyen létezik.  
 - **Váratlan karakterek a kimenetben** – Szükség esetén állítsd be az OCR beállításait (pl. nyelv, DPI) az `AsposeOCR` konfigurációjában.
 
-## GyIK
-
-### Q1: Az Aspose.OCR kompatibilis minden képfájltípussal?
-
-A1: Igen, az Aspose.OCR széles körű képfájltípus-támogatással rendelkezik, így rugalmasan használható az OCR feladataidban.
-
-### Q2: Használhatom az Aspose.OCR-t kereskedelmi projektekben?
-
-A2: Természetesen! Az Aspose.OCR kereskedelmi felhasználásra is elérhető. Látogasd meg a [vásárlási oldalt](https://purchase.aspose.com/buy) a licenc részleteiért.
-
-### Q3: Hogyan szerezhetek ideiglenes licencet az Aspose.OCR-hez?
-
-A3: Ideiglenes licencet a [ideiglenes licenc oldalról](https://purchase.aspose.com/temporary-license/) kaphatsz tesztelési célokra.
-
-### Q4: Hol találok támogatást az Aspose.OCR-hez?
-
-A4: Látogasd meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) a közösségi támogatásért és megbeszélésekért.
-
-### Q5: Kínál az Aspose.OCR ingyenes próbaidőszakot?
-
-A5: Igen, a [ingyenes próbaverzióval](https://releases.aspose.com/) felfedezheted a funkciókat vásárlás előtt.
-
 ## Gyakran Ismételt Kérdések
 
 **K: Miben különbözik ez a módszer a teljes dokumentum feldolgozásától?**  

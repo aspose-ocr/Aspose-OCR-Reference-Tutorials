@@ -89,28 +89,6 @@ System.out.println("License is set: " + resLicense);
 
 باتباعك لهذا **درس Aspose OCR Java**، تعلمت كيفية تعيين و**التحقق من ترخيص Aspose OCR** في تطبيق Java. الآن مشروعك يمتلك وصولًا غير مقيد إلى محرك OCR عالي الدقة من Aspose، جاهز لتحويل الصور إلى نص قابل للبحث.
 
-## الأسئلة المتكررة
-
-### س1: هل يمكنني استخدام Aspose.OCR for Java بدون ترخيص؟
-
-ج1: بالرغم من توفر ترخيص مؤقت، يُنصح بالحصول على ترخيص صالح لاستخدام مستمر دون انقطاع.
-
-### س2: هل Aspose.OCR متوافق مع Java 11 وما فوق؟
-
-ج2: نعم، Aspose.OCR متوافق مع Java 11 والإصدارات الأحدث.
-
-### س3: كم مرة يجب تجديد ترخيص Aspose.OCR؟
-
-ج3: تراخيص Aspose.OCR عادةً ما تكون دائمة، مما يتيح لك استخدام النسخة التي اشتريتها إلى ما لا نهاية. مع ذلك، تحقق من التحديثات للحصول على أحدث الميزات.
-
-### س4: هل يمكنني استخدام Aspose.OCR في مشاريع تجارية؟
-
-ج4: نعم، يمكن استخدام Aspose.OCR في المشاريع الشخصية والتجارية، شريطة الالتزام بشروط الترخيص.
-
-### س5: أين يمكنني العثور على دعم إضافي لـ Aspose.OCR for Java؟
-
-ج5: زر [منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للحصول على دعم المجتمع والنقاشات.
-
 ## الأسئلة الشائعة المتكررة
 
 **س: ما هي أفضل طريقة لتخزين ملف الترخيص في تطبيق Spring Boot؟**  
@@ -128,17 +106,15 @@ System.out.println("License is set: " + resLicense);
 **س: هل سيعمل الترخيص داخل حاويات Docker؟**  
 ج: بالتأكيد، طالما أن ملف الترخيص متاح داخل الحاوية والمسار الصحيح مُزود.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-10  
 **تم الاختبار مع:** Aspose.OCR 24.11 for Java  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

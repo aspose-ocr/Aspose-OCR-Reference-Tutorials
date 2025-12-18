@@ -92,28 +92,6 @@ Aspose.OCR ให้ความแม่นยำสูงในหลายภ
 - **FileNotFoundException** – ตรวจสอบ `dataDir` อีกครั้งและให้แน่ใจว่า `p3.png` มีอยู่ในตำแหน่งที่ระบุ.  
 - **Unexpected characters in output** – ปรับการตั้งค่า OCR (เช่น language, DPI) ผ่านการกำหนดค่า `AsposeOCR` หากจำเป็น.
 
-## คำถามที่พบบ่อย
-
-### Q1: Aspose.OCR รองรับรูปแบบภาพทั้งหมดหรือไม่?
-
-A1: Yes, Aspose.OCR supports a wide range of image formats, ensuring flexibility in your OCR tasks.
-
-### Q2: ฉันสามารถใช้ Aspose.OCR ในโครงการเชิงพาณิชย์ได้หรือไม่?
-
-A2: Absolutely! Aspose.OCR is available for commercial use. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
-
-### Q3: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.OCR ได้อย่างไร?
-
-A3: Obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/) for testing purposes.
-
-### Q4: ฉันจะหาแหล่งสนับสนุนสำหรับ Aspose.OCR ได้จากที่ไหน?
-
-A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
-
-### Q5: Aspose.OCR มีรุ่นทดลองใช้ฟรีหรือไม่?
-
-A5: Yes, explore the features with the [free trial version](https://releases.aspose.com/) before making a purchase.
-
 ## คำถามที่พบบ่อยเพิ่มเติม
 
 **Q: วิธีการนี้แตกต่างจากการประมวลผลเอกสารทั้งหมดอย่างไร?**  

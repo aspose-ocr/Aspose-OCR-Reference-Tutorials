@@ -92,28 +92,6 @@ Aspose.OCR memberikan akurasi tinggi pada berbagai bahasa dan format gambar, men
 - **FileNotFoundException** – Periksa kembali `dataDir` dan pastikan `p3.png` ada di lokasi yang ditentukan.  
 - **Karakter tak terduga dalam output** – Sesuaikan pengaturan OCR (misalnya bahasa, DPI) melalui konfigurasi `AsposeOCR` bila diperlukan.
 
-## FAQ's
-
-### Q1: Apakah Aspose.OCR kompatibel dengan semua format gambar?
-
-A1: Ya, Aspose.OCR mendukung berbagai format gambar, memastikan fleksibilitas dalam tugas OCR Anda.
-
-### Q2: Bisakah saya menggunakan Aspose.OCR dalam proyek komersial?
-
-A2: Tentu saja! Aspose.OCR tersedia untuk penggunaan komersial. Kunjungi [purchase page](https://purchase.aspose.com/buy) untuk detail lisensi.
-
-### Q3: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.OCR?
-
-A3: Dapatkan lisensi sementara dari [temporary license page](https://purchase.aspose.com/temporary-license/) untuk keperluan pengujian.
-
-### Q4: Di mana saya dapat menemukan dukungan untuk Aspose.OCR?
-
-A4: Kunjungi [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan diskusi.
-
-### Q5: Apakah Aspose.OCR menawarkan percobaan gratis?
-
-A5: Ya, jelajahi fitur dengan [free trial version](https://releases.aspose.com/) sebelum melakukan pembelian.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bagaimana metode ini berbeda dari memproses seluruh dokumen?**  

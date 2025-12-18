@@ -89,28 +89,6 @@ Wenn die Konsole `License is set: true` ausgibt, sind Sie bereit, die vollen OCR
 
 Durch das Befolgen dieses **Aspose OCR Java‑Tutorials** haben Sie gelernt, wie Sie die Lizenz setzen und **Aspose OCR‑Lizenz** in einer Java‑Anwendung **verifizieren**. Ihr Projekt hat nun uneingeschränkten Zugriff auf Asposes hochpräzise OCR‑Engine und kann Bilder in durchsuchbaren Text umwandeln.
 
-## FAQ
-
-### Q1: Kann ich Aspose.OCR für Java ohne Lizenz verwenden?
-
-A1: Obwohl eine temporäre Lizenz verfügbar ist, wird empfohlen, eine gültige Lizenz zu erwerben, um eine ununterbrochene Nutzung zu gewährleisten.
-
-### Q2: Ist Aspose.OCR mit Java 11 und höher kompatibel?
-
-A2: Ja, Aspose.OCR ist mit Java 11 und höheren Versionen kompatibel.
-
-### Q3: Wie oft muss ich meine Aspose.OCR‑Lizenz erneuern?
-
-A3: Aspose.OCR‑Lizenzen sind in der Regel unbefristet, sodass Sie die gekaufte Version unbegrenzt nutzen können. Prüfen Sie jedoch auf Updates für die neuesten Funktionen.
-
-### Q4: Kann ich Aspose.OCR für kommerzielle Projekte verwenden?
-
-A4: Ja, Aspose.OCR kann sowohl für private als auch kommerzielle Projekte verwendet werden, sofern Sie die Lizenzbedingungen einhalten.
-
-### Q5: Wo finde ich zusätzlichen Support für Aspose.OCR für Java?
-
-A5: Besuchen Sie das [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) für Community‑Support und Diskussionen.
-
 ## Häufig gestellte Fragen
 
 **Q: Was ist der beste Weg, die Lizenzdatei in einer Spring‑Boot‑Anwendung zu speichern?**  
@@ -128,17 +106,15 @@ A: Sie können jedes Logging‑Framework (z. B. SLF4J) integrieren und das von
 **Q: Wird die Lizenz in Docker‑Containern funktionieren?**  
 A: Absolut, solange die Lizenzdatei im Container zugänglich ist und der korrekte Pfad angegeben wird.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-10  
 **Getestet mit:** Aspose.OCR 24.11 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

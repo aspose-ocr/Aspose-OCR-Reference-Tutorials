@@ -98,28 +98,6 @@ System.out.println("License is set: " + resLicense);
 
 透過本 **Aspose OCR Java 教學**，您已學會在 Java 應用程式中設定與 **驗證 Aspose OCR 授權**。您的專案現在可無限制使用 Aspose 高精度 OCR 引擎，隨時將圖像轉換為可搜尋的文字。
 
-## FAQ's
-
-### Q1：我可以在沒有授權的情況下使用 Aspose.OCR for Java 嗎？
-
-A1：雖然提供臨時授權，但建議取得有效授權以確保不中斷使用。
-
-### Q2：Aspose.OCR 是否相容於 Java 11 及以上版本？
-
-A2：是的，Aspose.OCR 相容於 Java 11 及更高版本。
-
-### Q3：我需要多久更新一次 Aspose.OCR 授權？
-
-A3：Aspose.OCR 授權通常為永久授權，您可無限期使用已購買的版本。但請留意更新以取得最新功能。
-
-### Q4：我可以在商業專案中使用 Aspose.OCR 嗎？
-
-A4：可以，Aspose.OCR 可用於個人或商業專案，只要遵守授權條款即可。
-
-### Q5：在哪裡可以取得 Aspose.OCR for Java 的其他支援？
-
-A5：請前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)取得社群支援與討論。
-
 ## Frequently Asked Questions
 
 **Q：在 Spring Boot 應用程式中，存放授權檔案的最佳方式是什麼？**  
@@ -137,17 +115,15 @@ A：您可以整合任何日誌框架（例如 SLF4J），並記錄 `License.isV
 **Q：授權能在 Docker 容器中使用嗎？**  
 A：當然可以，只要授權檔案在容器內可存取且提供正確的路徑即可。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-10  
 **測試版本：** Aspose.OCR 24.11 for Java  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

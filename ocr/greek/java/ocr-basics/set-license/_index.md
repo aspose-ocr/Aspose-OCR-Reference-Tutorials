@@ -91,28 +91,6 @@ System.out.println("License is set: " + resLicense);
 
 ## Συχνές Ερωτήσεις
 
-### Q1: Μπορώ να χρησιμοποιήσω το Aspose.OCR για Java χωρίς άδεια;
-
-A1: Αν και υπάρχει προσωρινή άδεια, η απόκτηση έγκυρης άδειας συνιστάται για αδιάλειπτη χρήση.
-
-### Q2: Είναι το Aspose.OCR συμβατό με Java 11 και νεότερες;
-
-A2: Ναι, το Aspose.OCR είναι συμβατό με Java 11 και νεότερες εκδόσεις.
-
-### Q3: Πόσο συχνά πρέπει να ανανεώνω την άδεια Aspose.OCR;
-
-A3: Οι άδειες Aspose.OCR είναι συνήθως διαρκείς, επιτρέποντάς σας να χρησιμοποιείτε την έκδοση που αγοράσατε επ' άπειρον. Ωστόσο, ελέγξτε για ενημερώσεις για τις τελευταίες λειτουργίες.
-
-### Q4: Μπορώ να χρησιμοποιήσω το Aspose.OCR για εμπορικά έργα;
-
-A4: Ναι, το Aspose.OCR μπορεί να χρησιμοποιηθεί τόσο για προσωπικά όσο και για εμπορικά έργα, εφόσον τηρείτε τους όρους αδειοδότησης.
-
-### Q5: Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.OCR για Java;
-
-A5: Επισκεφθείτε το [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) για υποστήριξη κοινότητας και συζητήσεις.
-
-## Συχνές Ερωτήσεις
-
 **Q: Ποιος είναι ο καλύτερος τρόπος αποθήκευσης του αρχείου άδειας σε εφαρμογή Spring Boot;**  
 A: Τοποθετήστε το αρχείο `.lic` στο φάκελο `resources` και φορτώστε το με `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
@@ -128,17 +106,15 @@ A: Μπορείτε να ενσωματώσετε οποιοδήποτε πλα�
 **Q: Θα λειτουργήσει η άδεια σε Docker containers;**  
 A: Απόλυτα, εφόσον το αρχείο άδειας είναι προσβάσιμο μέσα στο container και η σωστή διαδρομή παρέχεται.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

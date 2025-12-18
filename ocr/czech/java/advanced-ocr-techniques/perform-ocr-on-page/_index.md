@@ -94,28 +94,6 @@ ose.OCR poskytuje vysokou přesnost napříč mnoha jazyky a formáty obrázků,
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.OCR kompatibilní se všemi formáty obrázků?
-
-**A1:** Ano, Aspose.OCR podporuje širokou škálu formátů obrázků, což zajišťuje flexibilitu ve vašich OCR úlohách.
-
-### Q2: Mohu používat Aspose.OCR v komerčních projektech?
-
-**A2:** Rozhodně! Aspose.OCR je k dispozici pro komerční použití. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
-
-### Q3: Jak mohu získat dočasnou licenci pro Aspose.OCR?
-
-**A3:** Získejte dočasnou licenci na [stránce dočasné licence](https://purchase.aspose.com/temporary-license/) pro testovací účely.
-
-### Q4: Kde mohu najít podporu pro Asp.OCR?
-
-**A4:** Navštivte [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pro komunitní podporu a diskuse.
-
-### Q5: Nabízí Aspose.OCR bezplatnou zkušební verzi?
-
-**A5:** Ano, vyzkoušejte funkce pomocí [bezplatné zkušební verze](https://releases.aspose.com/) před zakoupením.
-
-## Často kladené otázky
-
 **Q: Jak se tato metoda liší od zpracování celého dokumentu?**  
 A: Použití `RecognizePage` cílí na jediný obrázek, snižuje využití paměti a urychluje zpracování, když potřebujete jen konkrétní stránky.
 

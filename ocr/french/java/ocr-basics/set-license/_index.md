@@ -89,28 +89,6 @@ Si la console affiche `License is set: true`, vous êtes prêt à utiliser toute
 
 En suivant ce **tutoriel Aspose OCR Java**, vous avez appris à définir et à **vérifier la licence Aspose OCR** dans une application Java. Votre projet bénéficie désormais d’un accès illimité au moteur OCR haute précision d’Aspose, prêt à transformer les images en texte consultable.
 
-## FAQ
-
-### Q1 : Puis‑je utiliser Aspose.OCR pour Java sans licence ?
-
-R1 : Bien qu’une licence temporaire soit disponible, il est recommandé d’acquérir une licence valide pour une utilisation ininterrompue.
-
-### Q2 : Aspose.OCR est‑il compatible avec Java 11 et versions supérieures ?
-
-R2 : Oui, Aspose.OCR est compatible avec Java 11 et les versions ultérieures.
-
-### Q3 : À quelle fréquence dois‑je renouveler ma licence Aspose.OCR ?
-
-R3 : Les licences Aspose.OCR sont généralement perpétuelles, vous permettant d’utiliser indéfiniment la version achetée. Cependant, pensez à vérifier les mises à jour pour bénéficier des dernières fonctionnalités.
-
-### Q4 : Puis‑je utiliser Aspose.OCR pour des projets commerciaux ?
-
-R4 : Oui, Aspose.OCR peut être utilisé tant pour des projets personnels que commerciaux, à condition de respecter les termes de licence.
-
-### Q5 : Où puis‑je trouver un support supplémentaire pour Aspose.OCR pour Java ?
-
-R5 : Consultez le [Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour le support communautaire et les discussions.
-
 ## Questions fréquemment posées
 
 **Q : Quelle est la meilleure façon de stocker le fichier de licence dans une application Spring Boot ?**  
@@ -128,17 +106,15 @@ R : Vous pouvez intégrer n’importe quel framework de journalisation (par ex
 **Q : La licence fonctionnera‑t‑elle dans des conteneurs Docker ?**  
 R : Absolument, tant que le fichier de licence est accessible à l’intérieur du conteneur et que le chemin correct est fourni.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-10  
 **Testé avec :** Aspose.OCR 24.11 pour Java  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

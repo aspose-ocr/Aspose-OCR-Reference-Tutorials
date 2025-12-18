@@ -87,28 +87,6 @@ If the console prints `License is set: true`, you’re ready to use the full OCR
 
 By following this **Aspose OCR Java tutorial**, you’ve learned how to set and **verify Aspose OCR license** in a Java application. Your project now has unrestricted access to Aspose’s high‑accuracy OCR engine, ready to transform images into searchable text.
 
-## FAQ's
-
-### Q1: Can I use Aspose.OCR for Java without a license?
-
-A1: While a temporary license is available, acquiring a valid license is recommended for uninterrupted usage.
-
-### Q2: Is Aspose.OCR compatible with Java 11 and above?
-
-A2: Yes, Aspose.OCR is compatible with Java 11 and higher versions.
-
-### Q3: How often do I need to renew my Aspose.OCR license?
-
-A3: Aspose.OCR licenses are typically perpetual, allowing you to use the version you've purchased indefinitely. However, check for updates for the latest features.
-
-### Q4: Can I use Aspose.OCR for commercial projects?
-
-A4: Yes, Aspose.OCR can be used for both personal and commercial projects, as long as you adhere to the licensing terms.
-
-### Q5: Where can I find additional support for Aspose.OCR for Java?
-
-A5: Visit the [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
-
 ## Frequently Asked Questions
 
 **Q: What is the best way to store the license file in a Spring Boot application?**  
@@ -126,17 +104,15 @@ A: You can integrate any logging framework (e.g., SLF4J) and log the boolean res
 **Q: Will the license work on Docker containers?**  
 A: Absolutely, as long as the license file is accessible inside the container and the correct path is supplied.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -89,28 +89,6 @@ Jika konsol mencetak `License is set: true`, Anda siap menggunakan semua fitur O
 
 Dengan mengikuti **tutorial Aspose OCR Java** ini, Anda telah belajar cara mengatur dan **memverifikasi lisensi Aspose OCR** dalam aplikasi Java. Proyek Anda kini memiliki akses tak terbatas ke mesin OCR berakurat tinggi dari Aspose, siap mengubah gambar menjadi teks yang dapat dicari.
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan Aspose.OCR untuk Java tanpa lisensi?
-
-A1: Meskipun lisensi sementara tersedia, memperoleh lisensi yang valid disarankan untuk penggunaan tanpa gangguan.
-
-### Q2: Apakah Aspose.OCR kompatibel dengan Java 11 ke atas?
-
-A2: Ya, Aspose.OCR kompatibel dengan Java 11 dan versi yang lebih tinggi.
-
-### Q3: Seberapa sering saya harus memperbarui lisensi Aspose.OCR?
-
-A3: Lisensi Aspose.OCR biasanya bersifat perpetual, memungkinkan Anda menggunakan versi yang dibeli selamanya. Namun, periksa pembaruan untuk fitur terbaru.
-
-### Q4: Bisakah saya menggunakan Aspose.OCR untuk proyek komersial?
-
-A4: Ya, Aspose.OCR dapat digunakan untuk proyek pribadi maupun komersial, selama Anda mematuhi ketentuan lisensi.
-
-### Q5: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.OCR untuk Java?
-
-A5: Kunjungi [Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan diskusi.
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Cara terbaik menyimpan file lisensi dalam aplikasi Spring Boot?**  
@@ -128,17 +106,15 @@ J: Anda dapat mengintegrasikan framework logging apa pun (misalnya SLF4J) dan me
 **T: Apakah lisensi akan berfungsi di dalam kontainer Docker?**  
 J: Tentu, selama file lisensi dapat diakses di dalam kontainer dan path yang tepat diberikan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-10  
 **Diuji Dengan:** Aspose.OCR 24.11 untuk Java  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
