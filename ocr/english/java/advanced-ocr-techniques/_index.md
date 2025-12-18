@@ -1,5 +1,5 @@
 ---
-title: How to Use OCR: Advanced Techniques with Aspose.OCR for Java
+title: How to Use OCR - Advanced Techniques with Aspose.OCR for Java
 linktitle: Advanced OCR Techniques
 second_title: Aspose.OCR Java API
 description: Learn how to use OCR with Aspose.OCR for Java – extract text from URL images with high accuracy and advanced OCR techniques.
