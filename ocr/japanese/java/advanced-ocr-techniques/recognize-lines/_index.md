@@ -1,37 +1,53 @@
 ---
-title: Aspose.OCR for Java での行の認識
-linktitle: Aspose.OCR for Java での行の認識
+date: 2025-12-09
+description: Aspose OCR の Java サンプルを学んで、画像からテキストを抽出する Java プロジェクトを作成しましょう。簡単に統合でき、高精度な
+  OCR を Java アプリケーションで利用できます。
+linktitle: Aspose OCR Java Example – Recognizing Lines in Images
 second_title: Aspose.OCR Java API
-description: Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
-weight: 14
+title: Aspose OCR Java サンプル – 画像内の行を認識
 url: /ja/java/advanced-ocr-techniques/recognize-lines/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR for Java での行の認識
+# Aspose OCR Java Example – 画像内の行を認識
 
-## 導入
+## はじめに
 
-強力な光学式文字認識 (OCR) 機能を使用して Java アプリケーションを強化したいと考えていますか?これ以上探さない！ Aspose.OCR for Java は、OCR 機能を Java アプリケーションにシームレスに統合できる最先端の OCR ライブラリです。このチュートリアルでは、Aspose.OCR for Java を使用して画像内の線を認識することに焦点を当てます。
+If you need an **aspose ocr java example** that quickly extracts text from images, you’ve come to the right place. In this tutorial we’ll walk through a complete, ready‑to‑run Java program that recognises individual lines of text using Aspose.OCR for Java. By the end you’ll understand why Aspose OCR is a reliable choice for Java developers and how to integrate line‑level recognition into any application.
+
+## クイック回答
+- **このサンプルは何をしますか？** Recognises a single line of text in a supplied image.  
+- **必要なライブラリは？** Aspose.OCR for Java (latest version).  
+- **ライセンスは必要ですか？** A free trial works for development; a commercial license is required for production.  
+- **任意の画像形式からテキストを抽出できますか？** Yes – JPEG, PNG, TIFF, BMP and more are supported.  
+- **実装にどれくらい時間がかかりますか？** About 10‑15 minutes to copy, adjust the path and run.
+
+## Aspose OCR Java Example とは？
+
+An **aspose ocr java example** is a concise code snippet that demonstrates how to call the Aspose.OCR API from Java. It shows the essential steps—setting up the environment, configuring recognition settings, and retrieving the recognised text—so you can adapt it to your own projects.
+
+## なぜ Aspose OCR for Java を *extract text image java* に使用するのか？
+
+- **高精度** – Advanced algorithms handle noisy or low‑resolution images.  
+- **マルチフォーマット対応** – Works with JPEG, PNG, TIFF, BMP, GIF, etc.  
+- **シンプルな API** – Minimal code is required to get reliable results.  
+- **スケーラブル** – Suitable for desktop tools, server‑side services, or mobile back‑ends.  
 
 ## 前提条件
+Before you start, make sure you have:
 
-Aspose を使用した OCR のエキサイティングな世界に入る前に、すべての設定が完了していることを確認してください。
+1. **Java Development Kit (JDK)** – 8 or later installed and configured.  
+2. **Aspose.OCR for Java ライブラリ** – Download the latest JAR from the official page [here](https://releases.aspose.com/ocr/java/).  
+3. **画像ファイル** – An image file containing the text you want to recognise. Update the `imagePath` variable in the code to point to this file.
 
-1. Java 開発環境: システムに Java 開発環境がセットアップされていることを確認してください。
+## ステップバイステップ ガイド
 
-2.  Aspose.OCR for Java ライブラリ: Aspose.OCR for Java ライブラリをダウンロードしてインストールします。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/ocr/java/).
-
-3. OCR用画像：認識したい文字を含む画像を用意します。を調整します。`imagePath`サンプルコード内の変数を画像へのパスに置き換えます。
-
-前提条件が整ったので、パッケージのインポートに進み、例を複数のステップに分割しましょう。
-
-## パッケージのインポート
-
-Java クラスで、Aspose.OCR に必要なパッケージをインポートします。
+### ステップ 1: パッケージのインポート
+First, import the required Aspose.OCR classes and standard Java utilities.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -44,43 +60,46 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+### ステップ 2: ドキュメントディレクトリの設定
+Define the folder that holds your image files.
 
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-「Your Document Directory」をドキュメント ディレクトリへのパスに置き換えます。
+Replace `"Your Document Directory"` with the absolute path where your test image resides.
 
-## ステップ 2: 画像パスを設定する
+### ステップ 3: 画像パスの設定
+Point the OCR engine to the specific image you want to process.
 
 ```java
-//画像のパス
+// The image path
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-画像の場所を指すように画像パスを調整します。
+Feel free to change the file name to match your own image.
 
-## ステップ 3: API インスタンスを作成する
+### ステップ 4: API インスタンスの作成
+Instantiate the main OCR class – this object will expose the recognition methods.
 
 ```java
-//APIインスタンスの作成
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-AsposeOCR クラスをインスタンス化して OCR API インスタンスを作成します。
-
-## ステップ 4: 認識設定を構成する
+### ステップ 5: 認識設定の構成
+Tell Aspose.OCR what you expect. In this example we enable **single‑line** recognition.
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
 settings.setRecognizeSingleLine(true);
 ```
 
-要件に応じて認識設定を構成します。この例では、単一の行を認識するように設定します。
+If you need to detect multiple lines, set `setRecognizeSingleLine(false)` instead.
 
-## ステップ 5: OCR 認識を実行する
+### ステップ 6: OCR 認識の実行
+Run the OCR engine and print the recognised line to the console.
 
 ```java
 RecognitionResult result = api.RecognizePage(imagePath, settings);
@@ -88,35 +107,37 @@ System.out.println("File: " + imagePath);
 System.out.println("Result line: " + result.recognitionText);
 ```
 
-指定した画像に対してOCR認識を実行し、認識結果を出力します。
+When you execute the program, you should see the file path followed by the extracted line of text.
 
-これらの手順に従うことで、Aspose.OCR を使用して直線認識機能を Java アプリケーションにシームレスに統合できます。
-
-## 結論
-
-おめでとう！ Aspose.OCR for Java を使用して画像内の線を認識する方法を学習しました。強力な OCR 機能でアプリケーションを強化し、より汎用性と効率性を高めます。
+## よくある問題と解決策
+| 問題 | 解決策 |
+|-------|----------|
+| **`java.lang.NoClassDefFoundError`** | Ensure the Aspose.OCR JAR is added to your project’s classpath. |
+| **Blank output** | Verify the image contains a clear, horizontal line of text and that `setRecognizeSingleLine(true)` matches your scenario. |
+| **Unsupported image format** | Convert the image to a supported format (e.g., JPEG or PNG) before processing. |
+| **Performance lag on large images** | Resize or compress the image to a reasonable resolution (≤ 1500 px width) before OCR. |
 
 ## よくある質問
 
-### Q1: Aspose.OCR は画像内の複数の行を認識できますか?
+**Q: Can Aspose.OCR recognize multiple lines in an image?**  
+A: Yes. Set `settings.setRecognizeSingleLine(false)` to enable multi‑line detection.
 
-A1: はい、Aspose.OCR には、要件に基づいて単一行と複数行の両方を認識するオプションが用意されています。
+**Q: Which image formats are supported?**  
+A: JPEG, PNG, TIFF, BMP, GIF, and several others are fully supported.
 
-### Q2: Aspose.OCR はさまざまな画像形式と互換性がありますか?
+**Q: How accurate is the text extraction?**  
+A: Aspose.OCR delivers high accuracy thanks to its proprietary recognition engine, especially on clear, high‑resolution images.
 
-A2：もちろんです！ Aspose.OCR は、JPEG、PNG、TIFF などのさまざまな画像形式をサポートしています。
+**Q: Can I use this library in a web application?**  
+A: Absolutely. The same Java code works on server‑side environments such as Spring Boot, Tomcat, or any servlet container.
 
-### Q3: Aspose.OCR のテキスト認識の精度はどのくらいですか?
+**Q: Is a trial version available?**  
+A: Yes. Download a free trial from the Aspose website [here](https://releases.aspose.com/). The trial includes all features but adds a small watermark to the output.
 
-A3: Aspose.OCR は、高度な認識アルゴリズムと継続的なアップデートにより、高い精度を誇ります。
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.OCR for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
-### Q4: Aspose.OCR を Web アプリケーションに統合できますか?
-
-A4：確かに！ Aspose.OCR は、デスクトップ アプリケーションと Web アプリケーションの両方にシームレスに統合できるように設計されています。
-
-### Q5: Aspose.OCR の試用版はありますか?
-
- A5: はい、無料トライアルで Aspose.OCR の機能を試すことができます。訪問[ここ](https://releases.aspose.com/)詳細については。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

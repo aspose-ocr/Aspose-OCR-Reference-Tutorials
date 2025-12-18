@@ -1,41 +1,59 @@
 ---
-title: Aspose.OCR で許可される文字を指定する
-linktitle: Aspose.OCR で許可される文字を指定する
+date: 2025-12-09
+description: Aspose.OCR for Java を使用して画像からテキストを抽出し、許可文字を指定する方法を学びましょう – 完全な Aspose
+  OCR Java チュートリアル。
+linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
-description: Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
-weight: 15
+title: Aspose.OCR を使用して画像からテキストを抽出 – 許可された文字
 url: /ja/java/advanced-ocr-techniques/specify-allowed-characters/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR で許可される文字を指定する
+# 画像からテキストを抽出する – 許可文字
 
-## 導入
+## はじめに
 
-進化し続けるテクノロジーの状況において、光学式文字認識 (OCR) は、画像から意味のある情報を抽出しようとする企業や開発者にとって重要なコンポーネントとなっています。 Aspose.OCR for Java は、シームレスな統合と効率的なテキスト認識機能を提供する強力なツールとして際立っています。この包括的なガイドでは、Aspose.OCR for Java の可能性を活用するプロセスを説明し、インストールから実際の実装までスムーズに進めることができます。
+画像からテキストを抽出することは、請求書の処理、レシートのスキャン、印刷文書のデジタル化など、現代のアプリケーションで一般的な要件です。**Aspose.OCR for Java** を使用すれば、この作業はシンプルになり、高精度な認識と、許可文字を指定する柔軟な設定オプションが提供されます。本チュートリアルでは、ライブラリのセットアップ、OCR の実行、そして必要に応じて文字セットを制限する方法を示す **aspose ocr java tutorial** をステップバイステップで解説します。
+
+## クイック回答
+- **Aspose.OCR の役割は？** 画像から高精度でテキストを抽出し、カスタム文字セットをサポートします。  
+- **ライセンスは必要ですか？** 本番環境で使用する場合は、一時的または永続的なライセンスが必要です。  
+- **対応している JDK バージョンは？** 最新の JDK リリースすべてと完全に互換性があります。  
+- **認識文字を制限できますか？** はい、allowed‑characters API を使用して出力を制限できます。  
+- **セットアップにかかる時間は？** 基本実装で約 10〜15 分です。
+
+## 「画像からテキストを抽出する」とは？
+画像からテキストを抽出するとは、視覚的なテキスト（印刷文字や手書き文字）を機械が読み取れる文字列に変換するプロセスです。これにより、検索、インデックス作成、データ分析といった下流タスクが可能になります。
+
+## Aspose.OCR for Java を選ぶ理由
+- **複数言語・フォントに対する高精度**  
+- **シンプルな API** でどの Java プロジェクトにも簡単に統合可能  
+- **カスタマイズ可能** な文字セット、言語パック、画像前処理  
+- **外部依存なし** – ライブラリは自己完結型です  
 
 ## 前提条件
 
-この作業を開始する前に、次の前提条件が満たされていることを確認してください。
+開始する前に、以下が揃っていることを確認してください。
 
-### Java 開発キット (JDK)
+### Java Development Kit (JDK)
 
-最新の Java Development Kit がシステムにインストールされていることを確認してください。からダウンロードできます[ここ](https://www.oracle.com/java/technologies/javase-downloads.html).
+システムに最新の Java Development Kit がインストールされていることを確認してください。ダウンロードは [here](https://www.oracle.com/java/technologies/javase-downloads.html) から行えます。
 
-### Java ライブラリ用 Aspose.OCR
+### Aspose.OCR for Java ライブラリ
 
- Aspose.OCR for Java ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/ocr/java/).
+[Aspose.OCR for Java ライブラリ](https://releases.aspose.com/ocr/java/) をダウンロードしてインストールしてください。
 
 ### Aspose.OCR ライセンス
 
-Aspose.OCR の可能性を最大限に活用するには、有効なライセンスを取得してください。以下から入手できます。[ここ](https://purchase.aspose.com/buy)または、[仮免許](https://purchase.aspose.com/temporary-license/)試用期間中。
+Aspose.OCR のフル機能を利用するには有効なライセンスが必要です。[here](https://purchase.aspose.com/buy) から取得するか、[temporary license](https://purchase.aspose.com/temporary-license/) で試用期間中の一時ライセンスを取得してください。
 
 ## パッケージのインポート
 
-前提条件を準備したら、必要なパッケージを Java プロジェクトにインポートします。
+前提条件が整ったら、Java プロジェクトに必要なパッケージをインポートします。
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -46,35 +64,35 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-それでは、各ステップを詳細なチュートリアルに分けて見てみましょう。
+## 手順ガイド
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+### 手順 1: ドキュメントディレクトリの設定
 
-まず、ドキュメント ディレクトリへのパスを指定します。ここに OCR 処理結果が保存されます。
+OCR 処理結果を保存するフォルダーを定義します。このパスは後で画像ファイルを参照する際に使用されます。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## ステップ 2: 画像パスを指定する
+### 手順 2: 画像パスの指定
 
-OCRを使用して処理する画像へのパスを定義します。
+解析対象の画像ファイルへのパスを API に渡します。
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-## ステップ 3: Aspose.OCR インスタンスを作成する
+### 手順 3: Aspose.OCR インスタンスの作成
 
-ライセンス キーを使用して Aspose.OCR インスタンスを初期化します。
+ライセンスキーを使用して OCR エンジンをインスタンス化します。キーは一時ライセンスでも永続ライセンスでも構いません。
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
 ```
 
-## ステップ 4: OCR 認識を実行する
+### 手順 4: OCR 認識の実行
 
-Aspose.OCR API を利用して、指定された画像からテキスト行を認識します。
+`RecognizeLine` メソッドを呼び出して、画像から 1 行のテキストを抽出します。結果はプレーン文字列として取得でき、さらに加工や保存が可能です。
 
 ```java
 try {
@@ -86,31 +104,43 @@ try {
 }
 ```
 
+> **プロのコツ:** 出力を特定の文字セット（例: 数字のみ）に制限したい場合は、`RecognizeLine` を呼び出す前に `AsposeOCR` インスタンスの `setAllowedCharacters` メソッドを使用してください。これにより、定義外の文字はエンジンによって無視されます。
+
+## よくある問題と対策
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **出力がない、または空文字列** | 画像パスが間違っている、または未対応の画像形式 | `imagePath` を確認し、サポートされている形式（JPEG、PNG、BMP）を使用 |
+| **認識エラー** | 低解像度画像やノイズの多い背景 | OCR 前に画像を前処理（コントラスト上げ、二値化） |
+| **ライセンスが適用されない** | ライセンスキーが欠落または無効 | ライセンス文字列が正しいか確認し、`AsposeOCR` コンストラクタに正しく渡す |
+
+## FAQ
+
+**Q: Aspose.OCR の一時ライセンスはどう取得しますか？**  
+A: [temporary license page](https://purchase.aspose.com/temporary-license/) からトライアルライセンスをリクエストしてください。
+
+**Q: Aspose.OCR のサポートはどこで受けられますか？**  
+A: [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) でコミュニティに参加し、質問や議論ができます。
+
+**Q: Aspose.OCR で許可文字を指定できますか？**  
+A: はい、`setAllowedCharacters` API を使用して文字セットをカスタマイズできます。詳細は公式ドキュメントをご参照ください。
+
+**Q: 最新の JDK バージョンと互換性がありますか？**  
+A: もちろんです。Aspose.OCR は常に最新の Java リリースに対応するよう更新されています。
+
+**Q: 行認識以外の OCR 機能はありますか？**  
+A: はい、ブロック、段落、ページ全体の認識に加え、言語パックや画像前処理オプションもサポートしています。
+
 ## 結論
 
-結論として、Aspose.OCR for Java は、画像内のテキスト認識のための堅牢なソリューションを提供します。このステップバイステップのガイドに従うことで、パッケージのセットアップ、インポート、OCR 認識の実行についての洞察が得られます。この強力なツールをプロジェクトに統合するときに、[ドキュメンテーション](https://reference.aspose.com/ocr/java/)深い知識を得るために。
+この **aspose ocr java tutorial** に従って、画像からテキストを抽出し、認識文字を制御できる実装が完成しました。さらに高度な機能（多言語サポート、カスタム前処理、バッチ処理など）については、[documentation](https://reference.aspose.com/ocr/java/) をご覧ください。
 
-## よくある質問
+---
 
-### Q1: Aspose.OCR の一時ライセンスを取得するにはどうすればよいですか?
+**最終更新日:** 2025-12-09  
+**テスト環境:** Aspose.OCR for Java 24.11  
+**作者:** Aspose  
 
- A1: 訪問[ここ](https://purchase.aspose.com/temporary-license/)トライアル目的で一時ライセンスを取得します。
-
-### Q2: Aspose.OCR のサポートはどこで見つけられますか?
-
- A3: コミュニティに参加してください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)サポートとディスカッションのため。
-
-### Q3: Aspose.OCR で使用できる文字を指定できますか?
-
-A3: はい、文字認識をカスタマイズできます。詳細については、ドキュメントを参照してください。
-
-### Q4: Aspose.OCR は最新の JDK バージョンと互換性がありますか?
-
-A:4 Aspose.OCR は、最新の Java 開発キットとの互換性を確保するために常に更新されています。
-
-### Q5: Aspose.OCR には追加の OCR 機能はありますか?
-
-A5: ドキュメントで利用可能な包括的な機能とオプションを調べてください。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

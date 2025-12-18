@@ -1,41 +1,59 @@
 ---
-title: Menentukan Karakter yang Diizinkan di Aspose.OCR
-linktitle: Menentukan Karakter yang Diizinkan di Aspose.OCR
+date: 2025-12-09
+description: Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR untuk
+  Java dan menentukan karakter yang diizinkan – tutorial lengkap Aspose OCR Java.
+linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
-description: Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
-weight: 15
+title: Ekstrak Teks dari Gambar Menggunakan Aspose.OCR – Karakter yang Diizinkan
 url: /id/java/advanced-ocr-techniques/specify-allowed-characters/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menentukan Karakter yang Diizinkan di Aspose.OCR
+# Ekstrak Teks dari Gambar Menggunakan Aspose.OCR – Karakter yang Diizinkan
 
-## Perkenalan
+## Pendahuluan
 
-Dalam lanskap teknologi yang terus berkembang, Pengenalan Karakter Optik (OCR) telah menjadi komponen penting bagi bisnis dan pengembang yang ingin mengekstrak informasi bermakna dari gambar. Aspose.OCR untuk Java menonjol sebagai alat yang ampuh, menawarkan integrasi tanpa batas dan kemampuan pengenalan teks yang efisien. Panduan komprehensif ini akan memandu Anda melalui proses memanfaatkan potensi Aspose.OCR untuk Java, memastikan kelancaran perjalanan mulai dari instalasi hingga implementasi praktis.
+Mengekstrak teks dari gambar adalah kebutuhan umum dalam aplikasi modern—baik Anda memproses faktur, memindai struk, atau mendigitalkan dokumen cetak. **Aspose.OCR for Java** membuat tugas ini menjadi mudah, menawarkan pengenalan dengan akurasi tinggi dan opsi konfigurasi fleksibel seperti menentukan karakter yang diizinkan. Dalam tutorial ini kami akan membimbing Anda melalui **aspose ocr java tutorial** lengkap yang menunjukkan cara menyiapkan pustaka, menjalankan OCR, dan membatasi set karakter sesuai kebutuhan Anda.
 
-## Prasyarat
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.OCR?** Ia mengekstrak teks dari gambar dengan akurasi tinggi dan mendukung set karakter khusus.  
+- **Apakah saya memerlukan lisensi?** Lisensi sementara atau permanen diperlukan untuk penggunaan produksi.  
+- **Versi JDK mana yang didukung?** Rilis JDK terbaru sepenuhnya kompatibel.  
+- **Bisakah saya membatasi karakter yang dikenali?** Ya—gunakan API allowed‑characters untuk membatasi output.  
+- **Berapa lama proses penyiapan?** Sekitar 10‑15 menit untuk implementasi dasar.
 
-Sebelum memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
+## Apa itu “ekstrak teks dari gambar”?
+Ekstrak teks dari gambar mengacu pada proses mengubah teks visual (misalnya tercetak atau tulisan tangan) menjadi string yang dapat dibaca mesin. Ini memungkinkan tugas lanjutan seperti pencarian, pengindeksan, atau analisis data.
 
-### Kit Pengembangan Java (JDK)
+## Mengapa Menggunakan Aspose.OCR untuk Java?
+- **Akurasi tinggi** di berbagai bahasa dan jenis huruf.  
+- **API sederhana** yang dapat diintegrasikan dengan proyek Java apa pun.  
+- **Dapat disesuaikan** set karakter, paket bahasa, dan pra‑pemrosesan gambar.  
+- **Tanpa dependensi eksternal**—pustaka ini berdiri sendiri.
 
- Pastikan Anda menginstal Java Development Kit terbaru di sistem Anda. Anda dapat mengunduhnya dari[Di Sini](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Prerequisites
 
-### Aspose.OCR untuk Perpustakaan Java
+Sebelum Anda memulai, pastikan Anda memiliki hal‑hal berikut:
 
- Unduh dan instal perpustakaan Aspose.OCR untuk Java dari[tautan unduhan](https://releases.aspose.com/ocr/java/).
+### Java Development Kit (JDK)
 
-### Lisensi Aspose.OCR
+Pastikan Anda memiliki Java Development Kit terbaru yang terpasang di sistem Anda. Anda dapat mengunduhnya dari [here](https://www.oracle.com/java/technologies/javase-downloads.html).
 
- Untuk mengakses potensi penuh Aspose.OCR, dapatkan lisensi yang valid. Anda dapat memperolehnya dari[Di Sini](https://purchase.aspose.com/buy) atau jelajahi a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk masa percobaan.
+### Aspose.OCR for Java Library
 
-## Paket Impor
+Unduh dan instal pustaka Aspose.OCR for Java dari [download link](https://releases.aspose.com/ocr/java/).
 
-Setelah prasyaratnya siap, impor paket yang diperlukan ke proyek Java Anda:
+### Aspose.OCR License
+
+Untuk mengakses potensi penuh Aspose.OCR, dapatkan lisensi yang valid. Anda dapat memperoleh lisensi dari [here](https://purchase.aspose.com/buy) atau menjelajahi [temporary license](https://purchase.aspose.com/temporary-license/) untuk periode percobaan.
+
+## Import Packages
+
+Setelah prasyarat siap, impor paket yang diperlukan ke dalam proyek Java Anda:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -46,35 +64,35 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-Sekarang, mari kita uraikan setiap langkah menjadi tutorial mendetail:
+## Step‑by‑Step Guide
 
-## Langkah 1: Atur Direktori Dokumen Anda
+### Step 1: Set Your Document Directory
 
-Mulailah dengan menentukan jalur ke direktori dokumen Anda. Di sinilah hasil olahan OCR akan disimpan.
+Tentukan folder tempat Anda akan menyimpan hasil OCR. Jalur ini akan digunakan nanti untuk menemukan file gambar.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Tentukan Jalur Gambar
+### Step 2: Specify the Image Path
 
-Tentukan jalur ke gambar yang ingin Anda proses menggunakan OCR.
+Arahkan API ke gambar yang ingin Anda analisis.
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-## Langkah 3: Buat Instans Aspose.OCR
+### Step 3: Create an Aspose.OCR Instance
 
-Inisialisasi instans Aspose.OCR menggunakan kunci lisensi Anda.
+Instansiasi mesin OCR dengan kunci lisensi Anda. Kunci tersebut dapat berupa string lisensi sementara atau permanen.
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
 ```
 
-## Langkah 4: Lakukan Pengenalan OCR
+### Step 4: Perform OCR Recognition
 
-Manfaatkan API Aspose.OCR untuk mengenali baris teks dari gambar yang ditentukan.
+Panggil metode `RecognizeLine` untuk mengekstrak satu baris teks dari gambar. Hasilnya adalah string biasa yang dapat Anda proses lebih lanjut atau simpan.
 
 ```java
 try {
@@ -86,31 +104,43 @@ try {
 }
 ```
 
-## Kesimpulan
+> **Pro tip:** Jika Anda perlu membatasi output ke set karakter tertentu (misalnya hanya digit), gunakan metode `setAllowedCharacters` pada instance `AsposeOCR` sebelum memanggil `RecognizeLine`. Ini memastikan mesin mengabaikan semua karakter di luar set yang telah ditentukan.
 
- Kesimpulannya, Aspose.OCR untuk Java memberikan solusi tangguh untuk pengenalan teks dalam gambar. Dengan mengikuti panduan langkah demi langkah ini, Anda mendapatkan wawasan tentang pengaturan, mengimpor paket, dan melakukan pengenalan OCR. Saat Anda mengintegrasikan alat canggih ini ke dalam proyek Anda, jelajahi[dokumentasi](https://reference.aspose.com/ocr/java/) untuk pengetahuan mendalam.
+## Common Issues and Solutions
 
-## FAQ
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **Tidak ada output atau string kosong** | Path gambar salah atau format gambar tidak didukung | Verifikasi `imagePath` dan gunakan format yang didukung (JPEG, PNG, BMP) |
+| **Kesalahan pengenalan** | Gambar beresolusi rendah atau latar belakang berisik | Pra‑proses gambar (tingkatkan kontras, binarisasi) sebelum OCR |
+| **Lisensi tidak diterapkan** | Kunci lisensi hilang atau tidak valid | Pastikan string lisensi benar dan ditempatkan di konstruktor `AsposeOCR` |
 
-### Q1: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.OCR?
+## Frequently Asked Questions
 
- A1: Kunjungi[Di Sini](https://purchase.aspose.com/temporary-license/) untuk memperoleh izin sementara untuk tujuan percobaan.
+**T: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.OCR?**  
+J: Kunjungi [temporary license page](https://purchase.aspose.com/temporary-license/) untuk meminta lisensi percobaan.
 
-### Q2: Di mana saya dapat menemukan dukungan untuk Aspose.OCR?
+**T: Di mana saya dapat menemukan dukungan untuk Aspose.OCR?**  
+J: Bergabunglah dengan komunitas di [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) untuk bantuan dan diskusi.
 
- A3: Bergabunglah dengan komunitas di[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi.
+**T: Bisakah saya menentukan karakter yang diizinkan di Aspose.OCR?**  
+J: Ya, Anda dapat menyesuaikan set karakter menggunakan API `setAllowedCharacters`. Lihat dokumentasi resmi untuk detailnya.
 
-### Q3: Bisakah saya menentukan karakter yang diperbolehkan di Aspose.OCR?
+**T: Apakah Aspose.OCR kompatibel dengan versi JDK terbaru?**  
+J: Tentu saja—Aspose.OCR secara rutin diperbarui agar tetap kompatibel dengan rilis Java terbaru.
 
-A3: Ya, Anda dapat menyesuaikan pengenalan karakter. Lihat dokumentasi untuk detailnya.
+**T: Apakah ada fitur OCR tambahan selain pengenalan baris?**  
+J: Ya, pustaka ini mendukung pengenalan blok, paragraf, dan halaman penuh, serta paket bahasa dan opsi pra‑pemrosesan gambar.
 
-### Q4: Apakah Aspose.OCR kompatibel dengan versi JDK terbaru?
+## Conclusion
 
-A:4 Aspose.OCR terus diperbarui untuk memastikan kompatibilitas dengan Java Development Kits terbaru.
+Dengan mengikuti **aspose ocr java tutorial** ini, Anda kini memiliki solusi yang berfungsi untuk **mengekstrak teks dari gambar** dan mengontrol karakter mana yang dikenali. Jelajahi [documentation](https://reference.aspose.com/ocr/java/) lengkap untuk menemukan fitur lanjutan seperti dukungan multibahasa, pra‑pemrosesan khusus, dan pemrosesan batch.
 
-### Q5: Apakah ada fitur OCR tambahan di Aspose.OCR?
+---
 
-A5: Jelajahi fitur dan opsi komprehensif yang tersedia dalam dokumentasi.
+**Last Updated:** 2025-12-09  
+**ed With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

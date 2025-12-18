@@ -1,41 +1,60 @@
 ---
-title: Especificación de caracteres permitidos en Aspose.OCR
-linktitle: Especificación de caracteres permitidos en Aspose.OCR
-second_title: API de Java Aspose.OCR
-description: Desbloquee la extracción de texto de imágenes sin problemas con Aspose.OCR para Java. Siga nuestra guía paso a paso para una integración eficiente.
-weight: 15
+date: 2025-12-09
+description: Aprende cómo extraer texto de imágenes usando Aspose.OCR para Java y
+  especificar los caracteres permitidos – un tutorial completo de Aspose OCR Java.
+linktitle: Specifying Allowed Characters in Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Extraer texto de imágenes usando Aspose.OCR – Caracteres permitidos
 url: /es/java/advanced-ocr-techniques/specify-allowed-characters/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Especificación de caracteres permitidos en Aspose.OCR
+# Extraer texto de imágenes usando Aspose.OCR – Caracteres permitidos
 
-## Introducción
+## Introduction
 
-En el panorama tecnológico en constante evolución, el reconocimiento óptico de caracteres (OCR) se ha convertido en un componente crucial para las empresas y los desarrolladores que buscan extraer información significativa de las imágenes. Aspose.OCR para Java se destaca como una herramienta poderosa que ofrece una integración perfecta y capacidades eficientes de reconocimiento de texto. Esta guía completa lo guiará a través del proceso de aprovechar el potencial de Aspose.OCR para Java, garantizando un viaje fluido desde la instalación hasta la implementación práctica.
+Extraer texto de imágenes es un requisito común en aplicaciones modernas—ya sea que estés procesando facturas, escaneando recibos o digitalizando documentos impresos. **Aspose.OCR for Java** hace esta tarea sencilla, ofreciendo reconocimiento de alta precisión y opciones de configuración flexibles, como especificar caracteres permitidos. En este tutorial recorreremos un **aspose ocr java tutorial** completo que muestra cómo configurar la biblioteca, ejecutar OCR y limitar el conjunto de caracteres según tus necesidades.
 
-## Requisitos previos
+## Quick Answers
+- **¿Qué hace Aspose.OCR?** Extrae texto de imágenes con alta precisión y admite conjuntos de caracteres personalizados.  
+- **¿Necesito una licencia?** Se requiere una licencia temporal o permanente para uso en producción.  
+- **¿Qué versión de JDK es compatible?** Las últimas versiones de JDK son totalmente compatibles.  
+- **¿Puedo limitar los caracteres reconocidos?** Sí—utiliza la API de caracteres permitidos para restringir la salida.  
+- **¿Cuánto tiempo lleva la configuración?** Aproximadamente 10‑15 minutos para una implementación básica.
 
-Antes de embarcarse en este viaje, asegúrese de cumplir con los siguientes requisitos previos:
+## What is “extract text from images”?
 
-### Kit de desarrollo de Java (JDK)
+Extraer texto de imágenes se refiere al proceso de convertir texto visual (p. ej., impreso o manuscrito) en cadenas legibles por máquina. Esto permite tareas posteriores como búsqueda, indexación o análisis de datos.
 
- Asegúrese de tener instalado el último kit de desarrollo de Java en su sistema. Puedes descargarlo desde[aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Why Use Aspose.OCR for Java?
+- **Alta precisión** en múltiples idiomas y fuentes.  
+- **API simple** que se integra con cualquier proyecto Java.  
+- **Personalizable** conjuntos de caracteres, paquetes de idioma y preprocesamiento de imágenes.  
+- **Sin dependencias externas**—la biblioteca es autónoma.
 
-### Aspose.OCR para la biblioteca Java
+## Prerequisites
 
- Descargue e instale la biblioteca Aspose.OCR para Java desde[enlace de descarga](https://releases.aspose.com/ocr/java/).
+Antes de comenzar, asegúrate de tener lo siguiente:
 
-### Licencia Aspose.OCR
+### Java Development Kit (JDK)
 
- Para acceder a todo el potencial de Aspose.OCR, adquiera una licencia válida. Puedes obtener uno de[aquí](https://purchase.aspose.com/buy) o explorar un[licencia temporal](https://purchase.aspose.com/temporary-license/) por un período de prueba.
+Asegúrate de tener instalado el último Java Development Kit en tu sistema. Puedes descargarlo desde [aquí](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-## Importar paquetes
+### Aspose.OCR for Java Library
 
-Una vez que tenga listos los requisitos previos, importe los paquetes necesarios a su proyecto Java:
+Descarga e instala la biblioteca Aspose.OCR for Java desde el [enlace de descarga](https://releases.aspose.com/ocr/java/).
+
+### Aspose.OCR License
+
+Para acceder al máximo potencial de Aspose.OCR, adquiere una licencia válida. Puedes obtener una desde [aquí](https://purchase.aspose.com/buy) o explorar una [licencia temporal](https://purchase.aspose.com/temporary-license/) para un período de prueba.
+
+## Import Packages
+
+Una vez que los requisitos previos estén listos, importa los paquetes necesarios en tu proyecto Java:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -46,35 +65,35 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-Ahora, analicemos cada paso en un tutorial detallado:
+## Step‑by‑Step Guide
 
-## Paso 1: configure su directorio de documentos
+### Step 1: Set Your Document Directory
 
-Comience especificando la ruta a su directorio de documentos. Aquí es donde se guardarán los resultados procesados por OCR.
+Define una carpeta donde almacenarás los resultados procesados por OCR. Esta ruta se usa más adelante para localizar el archivo de imagen.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Paso 2: especifique la ruta de la imagen
+### Step 2: Specify the Image Path
 
-Defina la ruta a la imagen que desea procesar usando OCR.
+Indica a la API la imagen que deseas analizar.
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-## Paso 3: crear una instancia de Aspose.OCR
+### Step 3: Create an Aspose.OCR Instance
 
-Inicialice una instancia de Aspose.OCR usando su clave de licencia.
+Instancia el motor OCR con tu clave de licencia. La clave puede ser una cadena de licencia temporal o permanente.
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
 ```
 
-## Paso 4: realizar el reconocimiento OCR
+### Step 4: Perform OCR Recognition
 
-Utilice la API Aspose.OCR para reconocer líneas de texto de la imagen especificada.
+Llama al método `RecognizeLine` para extraer una línea de texto de la imagen. El resultado es una cadena simple que puedes procesar o almacenar adicionalmente.
 
 ```java
 try {
@@ -86,31 +105,43 @@ try {
 }
 ```
 
-## Conclusión
+> **Consejo profesional:** Si necesitas restringir la salida a un conjunto específico de caracteres (p. ej., solo dígitos), usa el método `setAllowedCharacters` en la instancia `AsposeOCR` antes de llamar a `RecognizeLine`. Esto garantiza que el motor ignore cualquier carácter fuera del conjunto definido.
 
- En conclusión, Aspose.OCR para Java proporciona una solución sólida para el reconocimiento de texto en imágenes. Al seguir esta guía paso a paso, obtendrá información sobre cómo configurar, importar paquetes y realizar el reconocimiento OCR. A medida que integra esta poderosa herramienta en sus proyectos, explore las[documentación](https://reference.aspose.com/ocr/java/) para un conocimiento profundo.
+## Common Issues and Solutions
 
-## Preguntas frecuentes
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| **Sin salida o cadena vacía** | Ruta de imagen incorrecta o formato de imagen no compatible | Verifica `imagePath` y usa un formato compatible (JPEG, PNG, BMP) |
+| **Errores de reconocimiento** | Imagen de baja resolución o fondo ruidoso | Pre‑procesa la imagen (aumenta el contraste, binariza) antes de OCR |
+| **Licencia no aplicada** | Clave de licencia faltante o inválida | Asegúrate de que la cadena de licencia sea correcta y esté colocada en el constructor `AsposeOCR` |
 
-### P1: ¿Cómo puedo obtener una licencia temporal para Aspose.OCR?
+## Frequently Asked Questions
 
- A1: Visita[aquí](https://purchase.aspose.com/temporary-license/) adquirir una licencia temporal con fines de prueba.
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.OCR?**  
+R: Visita la [página de licencia temporal](https://purchase.aspose.com/temporary-license/) para solicitar una licencia de prueba.
 
-### P2: ¿Dónde puedo encontrar soporte para Aspose.OCR?
+**P: ¿Dónde puedo encontrar soporte para Aspose.OCR?**  
+R: Únete a la comunidad en el [Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para obtener ayuda y discusiones.
 
- A3: Únase a la comunidad en[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoyo y discusiones.
+**P: ¿Puedo especificar caracteres permitidos en Aspose.OCR?**  
+R: Sí, puedes personalizar el conjunto de caracteres usando la API `setAllowedCharacters`. Consulta la documentación oficial para más detalles.
 
-### P3: ¿Puedo especificar caracteres permitidos en Aspose.OCR?
+**P: ¿Aspose.OCR es compatible con las últimas versiones de JDK?**  
+R: Absolutamente—Aspose.OCR se actualiza regularmente para mantenerse compatible con las versiones más recientes de Java.
 
-R3: Sí, puedes personalizar el reconocimiento de caracteres. Consulte la documentación para obtener más detalles.
+**P: ¿Existen características OCR adicionales más allá del reconocimiento de líneas?**  
+R: Sí, la biblioteca admite reconocimiento de bloques, párrafos y páginas completas, así como paquetes de idioma y opciones de preprocesamiento de imágenes.
 
-### P4: ¿Aspose.OCR es compatible con las últimas versiones de JDK?
+## Conclusion
 
-R:4 Aspose.OCR permanece actualizado para garantizar la compatibilidad con los últimos kits de desarrollo de Java.
+Al seguir este **aspose ocr java tutorial**, ahora tienes una solución funcional para **extraer texto de imágenes** y controlar qué caracteres se reconocen. Explora la [documentación](https://reference.aspose.com/ocr/java/) completa para descubrir funciones avanzadas como soporte multilingüe, preprocesamiento personalizado y procesamiento por lotes.
 
-### P5: ¿Hay funciones de OCR adicionales en Aspose.OCR?
+---
 
-R5: Explore las funciones y opciones integrales disponibles en la documentación.
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.OCR for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

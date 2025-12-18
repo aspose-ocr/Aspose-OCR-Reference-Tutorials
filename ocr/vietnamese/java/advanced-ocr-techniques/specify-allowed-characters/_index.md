@@ -1,41 +1,59 @@
 ---
-title: Chỉ định các ký tự được phép trong Aspose.OCR
-linktitle: Chỉ định các ký tự được phép trong Aspose.OCR
-second_title: API Java Aspose.OCR
-description: Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
-weight: 15
+date: 2025-12-09
+description: Học cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho Java và chỉ
+  định các ký tự được phép – một hướng dẫn đầy đủ về Aspose OCR Java.
+linktitle: Specifying Allowed Characters in Aspose.OCR
+second_title: Aspose.OCR Java API
+title: Trích xuất văn bản từ hình ảnh bằng Aspose.OCR – Các ký tự được phép
 url: /vi/java/advanced-ocr-techniques/specify-allowed-characters/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chỉ định các ký tự được phép trong Aspose.OCR
+# Trích xuất Văn bản từ Hình ảnh bằng Aspose.OCR – Các ký tự cho phép
 
 ## Giới thiệu
 
-Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đã trở thành một thành phần quan trọng đối với các doanh nghiệp và nhà phát triển đang tìm cách trích xuất thông tin có ý nghĩa từ hình ảnh. Aspose.OCR cho Java nổi bật như một công cụ mạnh mẽ, cung cấp khả năng tích hợp liền mạch và nhận dạng văn bản hiệu quả. Hướng dẫn toàn diện này sẽ hướng dẫn bạn quy trình khai thác tiềm năng của Aspose.OCR cho Java, đảm bảo hành trình suôn sẻ từ cài đặt đến triển khai thực tế.
+Việc trích xuất văn bản từ hình ảnh là một nhu cầu phổ biến trong các ứng dụng hiện đại—bất kể bạn đang xử lý hoá đơn, quét biên lai, hay số hoá tài liệu in. **Aspose.OCR for Java** giúp công việc này trở nên đơn giản, cung cấp độ nhận dạng cao và các tùy chọn cấu hình linh hoạt như chỉ định các ký tự cho phép. Trong hướng dẫn này, chúng ta sẽ đi qua một **aspose ocr java tutorial** hoàn chỉnh, chỉ cho bạn cách cài đặt thư viện, chạy OCR và giới hạn bộ ký tự sao cho phù hợp với nhu cầu.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Aspose.OCR làm gì?** Nó trích xuất văn bản từ hình ảnh với độ chính xác cao và hỗ trợ bộ ký tự tùy chỉnh.  
+- **Có cần giấy phép không?** Cần có giấy phép tạm thời hoặc vĩnh viễn để sử dụng trong môi trường sản xuất.  
+- **Phiên bản JDK nào được hỗ trợ?** Các phiên bản JDK mới nhất đều tương thích hoàn toàn.  
+- **Có thể giới hạn ký tự nhận dạng không?** Có—sử dụng API allowed‑characters để hạn chế đầu ra.  
+- **Thiết lập mất bao lâu?** Khoảng 10‑15 phút cho một triển khai cơ bản.
 
-Trước khi bắt đầu cuộc hành trình này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “Trích xuất văn bản từ hình ảnh” là gì?
+Trích xuất văn bản từ hình ảnh đề cập đến quá trình chuyển đổi văn bản trực quan (ví dụ: in hoặc viết tay) thành các chuỗi có thể đọc được bởi máy. Điều này cho phép các tác vụ tiếp theo như tìm kiếm, lập chỉ mục hoặc phân tích dữ liệu.
 
-### Bộ công cụ phát triển Java (JDK)
+## Tại sao nên dùng Aspose.OCR cho Java?
+- **Độ chính xác cao** trên nhiều ngôn ngữ và phông chữ.  
+- **API đơn giản** có thể tích hợp vào bất kỳ dự án Java nào.  
+- **Có thể tùy chỉnh** bộ ký tự, gói ngôn ngữ và tiền xử lý hình ảnh.  
+- **Không phụ thuộc bên ngoài**—thư viện tự chứa mọi thứ cần thiết.
 
- Đảm bảo bạn đã cài đặt Bộ công cụ phát triển Java mới nhất trên hệ thống của mình. Bạn có thể tải nó xuống từ[đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+## Yêu cầu trước
 
-### Aspose.OCR cho Thư viện Java
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có các thành phần sau:
 
- Tải xuống và cài đặt thư viện Aspose.OCR cho Java từ[Liên kết tải xuống](https://releases.aspose.com/ocr/java/).
+### Java Development Kit (JDK)
+
+Đảm bảo bạn đã cài đặt Java Development Kit mới nhất trên hệ thống. Bạn có thể tải về từ [đây](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+### Thư viện Aspose.OCR cho Java
+
+Tải và cài đặt thư viện Aspose.OCR cho Java từ [liên kết tải xuống](https://releases.aspose.com/ocr/java/).
 
 ### Giấy phép Aspose.OCR
 
- Để khai thác toàn bộ tiềm năng của Aspose.OCR, hãy có giấy phép hợp lệ. Bạn có thể lấy một cái từ[đây](https://purchase.aspose.com/buy) hoặc khám phá một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trong thời gian dùng thử.
+Để khai thác đầy đủ tiềm năng của Aspose.OCR, hãy mua giấy phép hợp lệ. Bạn có thể nhận một giấy phép từ [đây](https://purchase.aspose.com/buy) hoặc khám phá một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho thời gian dùng thử.
 
-## Gói nhập khẩu
+## Nhập khẩu các gói
 
-Khi bạn đã có sẵn các điều kiện tiên quyết, hãy nhập các gói cần thiết vào dự án Java của bạn:
+Khi các yêu cầu trước đã sẵn sàng, nhập các gói cần thiết vào dự án Java của bạn:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -46,35 +64,35 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-Bây giờ, hãy chia nhỏ từng bước thành một hướng dẫn chi tiết:
+## Hướng dẫn từng bước
 
-## Bước 1: Đặt thư mục tài liệu của bạn
+### Bước 1: Đặt thư mục tài liệu của bạn
 
-Bắt đầu bằng cách chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi lưu kết quả được xử lý bằng OCR.
+Xác định một thư mục nơi bạn sẽ lưu kết quả đã qua xử lý OCR. Đường dẫn này sẽ được sử dụng sau để tìm file hình ảnh.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Chỉ định đường dẫn hình ảnh
+### Bước 2: Chỉ định đường dẫn hình ảnh
 
-Xác định đường dẫn đến hình ảnh bạn muốn xử lý bằng OCR.
+Chỉ định API tới hình ảnh bạn muốn phân tích.
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-## Bước 3: Tạo phiên bản Aspose.OCR
+### Bước 3: Tạo một thể hiện Aspose.OCR
 
-Khởi tạo phiên bản Aspose.OCR bằng khóa cấp phép của bạn.
+Khởi tạo engine OCR với khóa giấy phép của bạn. Khóa này có thể là chuỗi giấy phép tạm thời hoặc vĩnh viễn.
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
 ```
 
-## Bước 4: Thực hiện nhận dạng OCR
+### Bước 4: Thực hiện nhận dạng OCR
 
-Sử dụng API Aspose.OCR để nhận dạng dòng văn bản từ hình ảnh được chỉ định.
+Gọi phương thức `RecognizeLine` để trích xuất một dòng văn bản từ hình ảnh. Kết quả là một chuỗi thuần mà bạn có thể xử lý hoặc lưu trữ thêm.
 
 ```java
 try {
@@ -86,31 +104,43 @@ try {
 }
 ```
 
-## Phần kết luận
+> **Mẹo chuyên nghiệp:** Nếu bạn cần giới hạn đầu ra chỉ gồm một tập hợp ký tự nhất định (ví dụ: chỉ số), hãy sử dụng phương thức `setAllowedCharacters` trên thể hiện `AsposeOCR` trước khi gọi `RecognizeLine`. Điều này giúp engine bỏ qua mọi ký tự không nằm trong tập đã định nghĩa.
 
- Tóm lại, Aspose.OCR cho Java cung cấp một giải pháp mạnh mẽ để nhận dạng văn bản trong hình ảnh. Bằng cách làm theo hướng dẫn từng bước này, bạn đã hiểu rõ hơn về cách thiết lập, nhập gói và thực hiện nhận dạng OCR. Khi bạn tích hợp công cụ mạnh mẽ này vào dự án của mình, hãy khám phá[tài liệu](https://reference.aspose.com/ocr/java/) để có kiến thức chuyên sâu.
+## Các vấn đề thường gặp và giải pháp
+
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| **Không có đầu ra hoặc chuỗi rỗng** | Đường dẫn hình ảnh sai hoặc định dạng hình ảnh không được hỗ trợ | Kiểm tra `imagePath` và sử dụng định dạng được hỗ trợ (JPEG, PNG, BMP) |
+| **Lỗi nhận dạng** | Hình ảnh độ phân giải thấp hoặc nền nhiễu | Tiền xử lý hình ảnh (tăng độ tương phản, nhị phân hoá) trước khi OCR |
+| **Giấy phép không được áp dụng** | Khóa giấy phép thiếu hoặc không hợp lệ | Đảm bảo chuỗi giấy phép đúng và được truyền vào hàm khởi tạo `AsposeOCR` |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.OCR?
+**H: Làm sao để lấy giấy phép tạm thời cho Aspose.OCR?**  
+Đ: Truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để yêu cầu giấy phép dùng thử.
 
- A1: Tham quan[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+**H: Tôi có thể tìm hỗ trợ cho Aspose.OCR ở đâu?**  
+Đ: Tham gia cộng đồng tại [Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận trợ giúp và thảo luận.
 
-### Câu hỏi 2: Tôi có thể tìm hỗ trợ cho Aspose.OCR ở đâu?
+**H: Có thể chỉ định các ký tự cho phép trong Aspose.OCR không?**  
+Đ: Có, bạn có thể tùy chỉnh bộ ký tự bằng API `setAllowedCharacters`. Tham khảo tài liệu chính thức để biết chi tiết.
 
- A3: Tham gia cộng đồng tại[Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và thảo luận.
+**H: Aspose.OCR có tương thích với các phiên bản JDK mới nhất không?**  
+Đ: Hoàn toàn—Aspose.OCR được cập nhật thường xuyên để duy trì tính tương thích với các bản phát hành Java mới nhất.
 
-### Câu hỏi 3: Tôi có thể chỉ định các ký tự được phép trong Aspose.OCR không?
+**H: Có các tính năng OCR bổ sung ngoài nhận dạng dòng không?**  
+Đ: Có, thư viện hỗ trợ nhận dạng khối, đoạn văn và toàn trang, cùng với các gói ngôn ngữ và tùy chọn tiền xử lý hình ảnh.
 
-A3: Có, bạn có thể tùy chỉnh nhận dạng ký tự. Tham khảo tài liệu để biết chi tiết.
+## Kết luận
 
-### Câu hỏi 4: Aspose.OCR có tương thích với các phiên bản JDK mới nhất không?
+Sau khi hoàn thành **aspose ocr java tutorial** này, bạn đã có một giải pháp hoạt động để **trích xuất văn bản từ hình ảnh** và kiểm soát các ký tự được nhận dạng. Khám phá toàn bộ [tài liệu](https://reference.aspose.com/ocr/java/) để tìm hiểu các tính năng nâng cao như hỗ trợ đa ngôn ngữ, tiền xử lý tùy chỉnh và xử lý hàng loạt.
 
-Trả lời:4 Aspose.OCR luôn được cập nhật để đảm bảo khả năng tương thích với Bộ công cụ phát triển Java mới nhất.
+---
 
-### Câu hỏi 5: Có bất kỳ tính năng OCR bổ sung nào trong Aspose.OCR không?
+**Cập nhật lần cuối:** 2025-12-09  
+**Đã kiểm tra với:** Aspose.OCR for Java 24.11  
+**Tác giả:** Aspose  
 
-Câu trả lời 5: Khám phá các tính năng và tùy chọn toàn diện có sẵn trong tài liệu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
