@@ -80,29 +80,27 @@ Débloquez la puissance de l’OCR en Java avec Aspose.OCR. Reconnaissez le text
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Débloquez une puissante reconnaissance de texte en Java avec Aspose.OCR. Reconnaissez le texte dans les images TIFF sans effort. Téléchargez dès maintenant pour une expérience OCR fluide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## Foire aux questions
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Q : Comment convertir un PDF numérisé en PDF consultable ?**
 
-{{< blocks/products/products-backtop-button >}}
+R : Utilisez le tutoriel `recognize-pdf` pour appliquer la reconnaissance optique de caractères (OCR), puis enregistrez le document avec une couche de texte consultable.
 
-## Frequently Asked Questions
+**Q : Puis-je améliorer la précision de l’OCR pour une langue spécifique ?**
 
-**Q: How do I convert a scanned PDF into a searchable PDF?**  
-A: Use the `recognize-pdf` tutorial to apply OCR, then save the document with a searchable text layer.
+R : Oui, activez la **sélection de la langue OCR** ​​et définissez le code de langue approprié avant le traitement.
 
-**Q: Can I improve OCR accuracy for a specific language?**  
-A: Yes, enable **ocr language selection** and set the appropriate language code before processing.
+**Q : Que faire si je dois extraire du texte uniquement d’une zone spécifique d’une image ?**
 
-**Q: What if I need to extract text only from a certain region of an image?**  
-A: Leverage **Detect Areas Mode** to define coordinates and extract text from that specific area.
+R : Utilisez le **mode Détection de zones** pour définir des coordonnées et extraire le texte de cette zone.
 
-**Q: Does Aspose.OCR support batch processing of multiple PDFs?**  
-A: Absolutely. You can loop through a collection of PDF files and apply the same OCR settings to each.
+**Q : Aspose.OCR prend-il en charge le traitement par lots de plusieurs PDF ?**
 
-**Q: Are there any performance considerations for large TIFF files?**  
-A: Process TIFF images in chunks or use multi‑threading to keep memory usage optimal.
+R : Absolument. Vous pouvez parcourir une collection de fichiers PDF et appliquer les mêmes paramètres OCR à chacun.
+
+**Q : Y a-t-il des considérations de performance à prendre en compte pour les fichiers TIFF volumineux ?**
+
+R : Traitez les images TIFF par blocs ou utilisez le multithreading pour optimiser l’utilisation de la mémoire.
 
 ---
 
@@ -110,4 +108,10 @@ A: Process TIFF images in chunks or use multi‑threading to keep memory usage o
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
----
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

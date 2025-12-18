@@ -79,28 +79,21 @@ Aspose.OCR を使用した Java での OCR の力を解き放ちます。PDF 文
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Aspose.OCR を使用した Java での強力なテキスト認識を実現します。TIFF 画像内のテキストを手間なく認識し、シームレスな OCR 体験を提供します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+## よくある質問
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
-
-**Q: How do I convert a scanned PDF into a searchable PDF?**  
+**Q: スキャンしたPDFを検索可能なPDFに変換するにはどうすればよいですか？**
 A: `recognize-pdf` チュートリアルを使用して OCR を適用し、検索可能なテキストレイヤーを付加してドキュメントを保存してください。
 
-**Q: Can I improve OCR accuracy for a specific language?**  
+**Q: 特定の言語のOCR精度を向上させることはできますか？**
 A: はい、**ocr language selection** を有効にし、処理前に適切な言語コードを設定してください。
 
-**Q: What if I need to extract text only from a certain region of an image?**  
+**Q: 画像の特定の領域からのみテキストを抽出したい場合はどうすればよいですか？**  
 A: **Detect Areas Mode** を活用して座標を定義し、その特定領域からテキストを抽出してください。
 
-**Q: Does Aspose.OCR support batch processing of multiple PDFs?**  
+**Q: Aspose.OCR は複数の PDF のバッチ処理をサポートしていますか？**
 A: もちろんです。PDF ファイルのコレクションをループ処理し、同じ OCR 設定を各ファイルに適用できます。
 
-**Q: Are there any performance considerations for large TIFF files?**  
+**Q: 大きな TIFF ファイルの場合、パフォーマンスに関して考慮すべき点はありますか？**  
 A: TIFF 画像をチャンク単位で処理するか、マルチスレッド化を利用してメモリ使用量を最適化してください。
 
 ---
@@ -108,3 +101,10 @@ A: TIFF 画像をチャンク単位で処理するか、マルチスレッド化
 **最終更新日:** 2025-12-10  
 **テスト環境:** Aspose.OCR for Java 24.12  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

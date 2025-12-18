@@ -82,13 +82,6 @@ Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyed�
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Hogyan konvertálhatom a beolvasott PDF-et kereshető PDF-be?**  
@@ -111,3 +104,10 @@ A: A TIFF képeket darabokban dolgozd fel, vagy használj több szálat a memór
 **Legutóbb frissítve:** 2025-12-10  
 **Tesztelve ezzel:** Aspose.OCR for Java 24.12  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -110,3 +110,10 @@ A: 將 TIFF 圖片分批處理或使用多執行緒，以保持記憶體使用�
 **最後更新：** 2025-12-10  
 **測試環境：** Aspose.OCR for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

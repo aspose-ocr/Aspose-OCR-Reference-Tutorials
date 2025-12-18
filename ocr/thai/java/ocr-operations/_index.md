@@ -86,22 +86,22 @@ weight: 21
 
 {{< blocks/products/products-backtop-button >}}
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: How do I convert a scanned PDF into a searchable PDF?**  
-A: Use the `recognize-pdf` tutorial to apply OCR, then save the document with a searchable text layer.
+**ถาม: ฉันจะแปลงไฟล์ PDF ที่สแกนแล้วให้เป็นไฟล์ PDF ที่ค้นหาได้ได้อย่างไร?**
+ตอบ: ใช้บทช่วยสอน `recognize-pdf` เพื่อใช้ OCR จากนั้นบันทึกเอกสารด้วยเลเยอร์ข้อความที่ค้นหาได้
 
-**Q: Can I improve OCR accuracy for a specific language?**  
-A: Yes, enable **ocr language selection** and set the appropriate language code before processing.
+**ถาม: ฉันสามารถปรับปรุงความแม่นยำของ OCR สำหรับภาษาเฉพาะได้หรือไม่?**
+ตอบ: ได้ ให้เปิดใช้งาน **การเลือกภาษา OCR** ​​และตั้งค่ารหัสภาษาที่เหมาะสมก่อนประมวลผล
 
-**Q: What if I need to extract text only from a certain region of an image?**  
-A: Leverage **Detect Areas Mode** to define coordinates and extract text from that specific area.
+**ถาม: ถ้าฉันต้องการดึงข้อความเฉพาะจากบางส่วนของภาพล่ะ?**
+ตอบ: ใช้ **โหมดตรวจจับพื้นที่** เพื่อกำหนดพิกัดและดึงข้อความจากพื้นที่เฉพาะนั้น
 
-**Q: Does Aspose.OCR support batch processing of multiple PDFs?**  
-A: Absolutely. You can loop through a collection of PDF files and apply the same OCR settings to each.
+**ถาม: Aspose.OCR รองรับการประมวลผลแบบกลุ่มของไฟล์ PDF หลายไฟล์หรือไม่?**
+ตอบ: ได้อย่างแน่นอน คุณสามารถวนลูปผ่านชุดไฟล์ PDF และใช้การตั้งค่า OCR เดียวกันกับแต่ละไฟล์ได้
 
-**Q: Are there any performance considerations for large TIFF files?**  
-A: Process TIFF images in chunks or use multi‑threading to keep memory usage optimal.
+**ถาม: มีข้อควรพิจารณาด้านประสิทธิภาพใดบ้างสำหรับไฟล์ TIFF ขนาดใหญ่?**
+ตอบ: ประมวลผลภาพ TIFF เป็นส่วนๆ หรือใช้มัลติเธรดดิ้งเพื่อรักษาการใช้งานหน่วยความจำให้เหมาะสมที่สุด
 
 ---
 

@@ -76,13 +76,6 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 ### [OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Wie konvertiere ich ein gescanntes PDF in ein durchsuchbares PDF?**  
@@ -105,3 +98,10 @@ A: Verarbeiten Sie TIFF‑Bilder in Teilen oder verwenden Sie Multithreading, um
 **Zuletzt aktualisiert:** 2025-12-10  
 **Getestet mit:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

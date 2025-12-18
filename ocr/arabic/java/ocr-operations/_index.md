@@ -79,13 +79,6 @@ weight: 21
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 افتح إمكانات التعرف القوية على النص في Java مع Aspose.OCR. تعرف على النص في صور TIFF بسهولة. حمّل الآن لتجربة OCR سلسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: كيف يمكنني تحويل ملف PDF ممسوح ضوئيًا إلى PDF قابل للبحث؟**  
@@ -103,6 +96,15 @@ weight: 21
 **س: هل هناك اعتبارات أداء لملفات TIFF الكبيرة؟**  
 ج: عالج صور TIFF على دفعات أو استخدم المعالجة المتعددة الخيوط للحفاظ على استهلاك الذاكرة في المستوى المثالي.
 
+---
+
 **آخر تحديث:** 2025-12-10  
 **تم الاختبار مع:** Aspose.OCR للـ Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

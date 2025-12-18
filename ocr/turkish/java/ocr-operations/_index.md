@@ -79,13 +79,6 @@ Aspose.OCR ile Java'da OCR gücünü açığa çıkarın. PDF belgelerinde metni
 ### [Aspose.OCR for Java'da TIFF Görüntülerini OCR ile Tanıma](./recognize-tiff/)
 Aspose.OCR ile Java'da güçlü metin tanımanın kilidini açın. TIFF görüntülerinde metni sorunsuz bir şekilde tanıyın. Kesintisiz bir OCR deneyimi için şimdi indirin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Tarama yapılan bir PDF'yi aranabilir PDF'ye nasıl dönüştürürüm?**  
@@ -103,6 +96,15 @@ A: Kesinlikle. PDF dosyalarının bir koleksiyonunu döngüye alabilir ve her bi
 **Q: Büyük TIFF dosyaları için performans açısından dikkate alınması gereken bir şey var mı?**  
 A: TIFF görüntülerini parçalar halinde işleyin veya bellek kullanımını optimal tutmak için çok iş parçacıklı (multi‑threading) yöntemleri kullanın.
 
+---
+
 **Son Güncelleme:** 2025-12-10  
 **Test Edilen:** Aspose.OCR for Java 24.12  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
