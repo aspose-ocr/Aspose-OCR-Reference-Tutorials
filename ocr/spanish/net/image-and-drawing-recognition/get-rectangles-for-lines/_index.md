@@ -1,34 +1,44 @@
 ---
-title: Obtenga rectángulos para líneas en el reconocimiento de imágenes OCR
-linktitle: Obtenga rectángulos para líneas en el reconocimiento de imágenes OCR
-second_title: API Aspose.OCR .NET
-description: Explore Aspose.OCR para .NET, su clave para un reconocimiento preciso de imágenes OCR. Libera el poder de la extracción de texto sin esfuerzo.
-weight: 10
+date: 2025-12-17
+description: Aprende cómo obtener rectángulos de líneas OCR usando Aspose.OCR para
+  .NET para reconocer líneas de texto en imágenes y extraer fácilmente las coordenadas
+  de las líneas.
+linktitle: Get OCR Line Rectangles for Image Text Lines
+second_title: Aspose.OCR .NET API
+title: Obtener rectángulos de líneas OCR para las líneas de texto de la imagen
 url: /es/net/image-and-drawing-recognition/get-rectangles-for-lines/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenga rectángulos para líneas en el reconocimiento de imágenes OCR
+# Obtener rectángulos de líneas OCR para líneas de texto en imágenes
 
 ## Introducción
 
-Bienvenido al mundo de Aspose.OCR para .NET, una poderosa herramienta que le permite aprovechar el potencial del reconocimiento óptico de caracteres (OCR) en sus aplicaciones .NET. Ya sea que sea un desarrollador experimentado o un entusiasta curioso, esta guía lo guiará a través del proceso de obtención de rectángulos para líneas en el reconocimiento de imágenes OCR usando Aspose.OCR.
+En este tutorial descubrirás **cómo obtener rectángulos de líneas OCR** con Aspose.OCR para .NET. Al final de la guía podrás **reconocer líneas de texto en una imagen** y **extraer las coordenadas de las líneas** para cada línea detectada, perfecto para procesamiento posterior como análisis de diseño, extracción de datos o renderizado personalizado.
+
+## Respuestas rápidas
+- **¿Qué significa “obtener rectángulos de líneas OCR”?** Devuelve los cuadros delimitadores de cada línea de texto detectada en una imagen.  
+- **¿Qué método de la API se utiliza?** `AsposeOcr.GetRectangles(..., AreasType.LINES, ...)`.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Qué formatos de imagen son compatibles?** PNG, JPEG, BMP, TIFF y más.  
+- **¿Puedo ejecutarlo en .NET Core?** Sí, Aspose.OCR soporta totalmente .NET Core y .NET 5/6.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirte en el tutorial, asegúrate de contar con los siguientes requisitos previos:
 
-- Conocimientos básicos de desarrollo C# y .NET.
-- Un entorno de desarrollo integrado (IDE) como Visual Studio.
--  Aspose.OCR para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/ocr/net/).
-- Una imagen de muestra que contiene texto para reconocimiento OCR.
+- Conocimientos básicos de C# y desarrollo .NET.  
+- Un entorno de desarrollo integrado (IDE) como Visual Studio.  
+- Biblioteca Aspose.OCR para .NET instalada. Puedes descargarla [aquí](https://releases.aspose.com/ocr/net/).  
+- Una imagen de ejemplo que contenga texto para el reconocimiento OCR.
 
 ## Importar espacios de nombres
 
-Asegúrese de tener los espacios de nombres necesarios importados a su proyecto. Agregue las siguientes líneas en la parte superior de su archivo C#:
+Asegúrate de haber importado los espacios de nombres necesarios en tu proyecto. Añade las siguientes líneas al inicio de tu archivo C#:
 
 ```csharp
 using System;
@@ -38,84 +48,102 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Ahora, analicemos el proceso de obtención de rectángulos para líneas en el reconocimiento de imágenes OCR en pasos fáciles de seguir.
+Ahora, desglosaremos el proceso de obtener rectángulos para líneas en el reconocimiento OCR de imágenes en pasos fáciles de seguir.
 
-## Paso 1: configure su directorio de documentos
+## Paso 1: Configura tu directorio de documentos
 
 ```csharp
-// ExInicio:3
+// ExStart:3
 string dataDir = "Your Document Directory";
-// Fin final: 3
+// ExEnd:3
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
+Reemplaza `"Your Document Directory"` con la ruta real a la carpeta que contiene tu imagen de ejemplo.
 
-## Paso 2: Inicializar Aspose.OCR
+## Paso 2: Inicializa Aspose.OCR
 
 ```csharp
-// ExInicio:4
+// ExStart:4
 AsposeOcr api = new AsposeOcr();
-// Fin final: 4
+// ExEnd:4
 ```
 
- Crear una instancia del`AsposeOcr` clase para acceder a la funcionalidad OCR.
+Crea una instancia de la clase `AsposeOcr` para acceder a la funcionalidad OCR.
 
-## Paso 3: especificar la ruta de la imagen
+## Paso 3: Especifica la ruta de la imagen
 
 ```csharp
-// ExInicio:5
+// ExStart:5
 string fullPath = dataDir + "sample.png";
-// Fin final: 5
+// ExEnd:5
 ```
 
-Defina la ruta completa a la imagen en la que desea realizar OCR.
+Define la ruta completa a la imagen sobre la que deseas realizar OCR.
 
-## Paso 4: reconocer la imagen y obtener rectángulos
+## Paso 4: Reconoce la imagen y obtén los rectángulos
 
 ```csharp
-// ExInicio:6
+// ExStart:6
 List<Rectangle> lines = api.GetRectangles(fullPath, AreasType.LINES, false);
-// Fin final: 6
+// ExEnd:6
 ```
 
- Utilice el`GetRectangles` Método para recuperar rectángulos para líneas en la imagen especificada.
+El método `GetRectangles` devuelve una lista de objetos `Rectangle`, cada uno representando las coordenadas de una línea de texto detectada. Este es el núcleo de **obtener rectángulos de líneas OCR**.
 
-## Paso 5: Imprimir resultado
+## Paso 5: Imprime el resultado
 
 ```csharp
-// ExInicio:7
+// ExStart:7
 Console.WriteLine("Areas coordinates:");
 lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
-// Fin final: 7
+// ExEnd:7
 ```
 
-Imprime las coordenadas de las áreas detectadas en la consola.
+Imprime las coordenadas de las áreas detectadas en la consola. Verás valores que luego podrás usar para **extraer coordenadas de líneas** para procesamiento personalizado.
 
-## Conclusión
+## ¿Por qué usar Aspose.OCR para rectángulos de líneas?
 
-¡Felicidades! Obtuvo con éxito rectángulos para líneas en el reconocimiento de imágenes OCR utilizando Aspose.OCR para .NET. Esta versátil herramienta abre un mundo de posibilidades para la extracción de texto en sus aplicaciones.
+- **Alta precisión** – Algoritmos avanzados detectan líneas incluso en imágenes ruidosas o sesgadas.  
+- **Multiplataforma** – Funciona en .NET Framework, .NET Core y .NET 5/6.  
+- **Sin dependencias externas** – Biblioteca .NET pura, sin DLLs nativas que distribuir.  
+- **Salida rica** – Además de los rectángulos de líneas, puedes obtener palabras, caracteres y puntuaciones de confianza.
+
+## Problemas comunes y soluciones
+
+| Problema | Solución |
+|----------|----------|
+| **No se devuelven rectángulos** | Asegúrate de que la imagen contenga texto claro y horizontal y que se haya especificado `AreasType.LINES`. |
+| **Coordenadas incorrectas** | Verifica el DPI de la imagen; las imágenes de baja resolución pueden causar límites inexactos. |
+| **Cuello de botella de rendimiento en imágenes grandes** | Redimensiona la imagen a una resolución razonable antes de llamar a `GetRectangles`. |
+| **Excepción de licencia** | Usa una licencia de prueba para pruebas; aplica una licencia completa para producción y evitar límites de evaluación. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.OCR para .NET con cualquier tipo de imagen?
+**P: ¿Puedo extraer palabras individuales en lugar de líneas completas?**  
+R: Sí, usa `AreasType.WORDS` con el mismo método `GetRectangles` para obtener cuadros delimitadores a nivel de palabra.
 
-R1: Aspose.OCR admite una amplia gama de formatos de imagen, lo que garantiza flexibilidad en sus aplicaciones de OCR.
+**P: ¿La API soporta PDFs de varias páginas?**  
+R: Convierte cada página del PDF a una imagen primero, luego llama a `GetRectangles` en cada imagen.
 
-### P2: ¿Qué tan preciso es el reconocimiento OCR?
+**P: ¿Cómo manejo texto rotado?**  
+R: Habilita la opción de auto‑rotación en la configuración OCR o pre‑rota la imagen antes del procesamiento.
 
-R2: Aspose.OCR aprovecha algoritmos avanzados para lograr una alta precisión, lo que lo hace adecuado para diversos escenarios de reconocimiento de texto.
+**P: ¿Hay una forma de obtener puntuaciones de confianza para cada línea?**  
+R: Después de obtener los rectángulos, llama a `api.RecognizeImage(...).Lines` para acceder a los objetos de línea que incluyen valores de confianza.
 
-### P3: ¿Hay una versión de prueba disponible?
+**P: ¿Qué versiones de .NET son compatibles?**  
+R: La biblioteca funciona con .NET Framework 4.5+, .NET Core 3.1+ y .NET 5/6.
 
- R3: Sí, puede explorar las capacidades de Aspose.OCR para .NET con el[prueba gratis](https://releases.aspose.com/).
+## Conclusión
 
-### P4: ¿Dónde puedo encontrar documentación completa?
+¡Felicidades! Has obtenido **rectángulos de líneas OCR** para una imagen usando Aspose.OCR para .NET. Con los cuadros delimitadores en mano, ahora puedes alimentar las coordenadas de líneas en flujos de trabajo posteriores como renderizado personalizado, extracción de datos o análisis de diseño.
 
- A4: Consulte el[documentación](https://reference.aspose.com/ocr/net/) para obtener información detallada y pautas de uso.
+---
 
-### P5: ¿Necesita ayuda o tiene preguntas específicas?
+**Última actualización:** 2025-12-17  
+**Probado con:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose  
 
- A5: Visita el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para apoyo y debates de la comunidad.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

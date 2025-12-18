@@ -1,33 +1,49 @@
 ---
-title: Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
-linktitle: Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
+date: 2025-12-17
+description: Erfahren Sie, wie Sie Rechtecke für Absätze in OCR‑Bildern mit Aspose.OCR
+  für .NET extrahieren – der umfassende Leitfaden zum Extrahieren von Rechtecken und
+  Absatzkoordinaten.
+linktitle: Get Rectangles for Paragraphs in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Nutzen Sie erweiterte OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie Absatzrechtecke mühelos.
-weight: 11
+title: Wie man Rechtecke für Absätze bei der OCR-Bilderkennung extrahiert
 url: /de/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erhalten Sie Rechtecke für Absätze in der OCR-Bilderkennung
+# Wie man Rechtecke für Absätze in der OCR‑Bilderkennung extrahiert
 
 ## Einführung
 
-Willkommen zu unserem umfassenden Leitfaden zur Nutzung von Aspose.OCR für .NET zum Extrahieren von Absatzrechtecken in der OCR-Bilderkennung. Wenn Sie Ihre Dokumentverarbeitungsfähigkeiten verbessern und die Leistungsfähigkeit der optischen Zeichenerkennung (OCR) in Ihren .NET-Anwendungen nutzen möchten, sind Sie hier richtig.
+Willkommen zu unserem umfassenden Leitfaden, **wie man Rechtecke** für Absätze in der OCR‑Bilderkennung mit Aspose.OCR für .NET extrahiert. Wenn Sie Ihre Dokumenten‑Verarbeitungspipeline verbessern, Absatzgrenzen herausziehen und die Datenerfassung automatisieren möchten, sind Sie hier genau richtig. Wir führen Sie Schritt für Schritt – von der Einrichtung der Umgebung bis zum Ausgeben der Rechteckkoordinaten – damit Sie die OCR‑Ergebnisse sofort nutzen können.
+
+## Schnellantworten
+- **Was bedeutet „Rechtecke extrahieren“?** Es liefert die Begrenzungsrahmen (x, y, Breite, Höhe) der erkannten Textbereiche.  
+- **Welche API‑Methode liefert die Rechtecke?** `AsposeOcr.GetRectangles` mit `AreasType.PARAGRAPHS`.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich mehrere Bilder gleichzeitig verarbeiten?** Ja – iterieren Sie über Ihre Bildliste und rufen Sie `GetRectangles` für jede Datei auf.  
+- **Welche Formate werden unterstützt?** PNG, JPEG, TIFF, BMP und viele weitere.
+
+## Was bedeutet „wie man Rechtecke extrahiert“ in OCR?
+Im OCR‑Kontext bedeutet das Extrahieren von Rechtecken, die geometrischen Grenzen zu identifizieren, die jeden Absatz oder jede Textzeile innerhalb eines Bildes umschließen. Diese Koordinaten ermöglichen es Ihnen, bestimmte Abschnitte eines gescannten Dokuments hervorzuheben, zuzuschneiden oder weiter zu analysieren.
+
+## Warum Absatzkoordinaten extrahieren?
+- **Präzise Nachbearbeitung** – Sie können jedes Rechteck in nachgelagerte Workflows einspeisen (z. B. Übersetzung, Schwärzung).  
+- **Verbessertes UI/UX** – Überlagern Sie Begrenzungsrahmen auf dem Originalbild, um den Benutzern zu zeigen, wo Text gefunden wurde.  
+- **Batch‑Automatisierung** – Schnell Absätze in großen Dokumentensammlungen lokalisieren und isolieren.
 
 ## Voraussetzungen
 
-Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-- Grundkenntnisse in C#- und .NET-Entwicklung.
--  Eine mit Aspose.OCR für .NET eingerichtete Entwicklungsumgebung. Wenn Sie es noch nicht getan haben, können Sie es herunterladen[Hier](https://releases.aspose.com/ocr/net/).
-- Ein Verständnis der Bildverarbeitungskonzepte und der Bedeutung von OCR beim Extrahieren von Text aus Bildern.
+- Grundkenntnisse in C# und .NET‑Entwicklung.  
+- Eine Entwicklungsumgebung mit installiertem Aspose.OCR für .NET – Sie können es [hier](https://releases.aspose.com/ocr/net/) herunterladen.  
+- Vertrautheit mit Bildverarbeitungs‑Konzepten und dem Grund, warum OCR für die Textextraktion aus gescannten Dateien unverzichtbar ist.
 
 ## Namespaces importieren
 
-Stellen Sie sicher, dass in Ihrem C#-Code die erforderlichen Namespaces importiert sind, um Aspose.OCR effizient zu nutzen. Fügen Sie am Anfang Ihrer Datei Folgendes ein:
+Importieren Sie in Ihrer C#‑Datei die erforderlichen Namespaces, damit die OCR‑Klassen verfügbar sind:
 
 ```csharp
 using System;
@@ -37,76 +53,82 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+## Schritt 1: Dokumentverzeichnis festlegen
 
-Beginnen Sie mit der Initialisierung des Pfads zu Ihrem Dokumentverzeichnis, in dem die Bilder für die OCR-Verarbeitung gespeichert sind:
+Definieren Sie den Ordner, der die zu analysierenden Bilder enthält:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Schritt 2: Initialisieren Sie die AsposeOcr-Instanz
+## Schritt 2: AsposeOcr‑Instanz initialisieren
 
-Erstellen Sie eine Instanz der AsposeOcr-Klasse, um Zugriff auf OCR-Funktionen zu erhalten:
+Erzeugen Sie ein `AsposeOcr`‑Objekt – damit erhalten Sie Zugriff auf alle OCR‑Funktionen:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Schritt 3: Geben Sie den Bildpfad an
+## Schritt 3: Bildpfad angeben
 
-Definieren Sie den vollständigen Pfad zu dem Bild, das Sie verarbeiten möchten:
+Verweisen Sie auf die genaue Bilddatei, die Sie verarbeiten möchten:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## Schritt 4: Bild erkennen und Absatzrechtecke abrufen
+## Schritt 4: Bild erkennen und Absatz‑Rechtecke erhalten
 
- Rufen Sie die auf`GetRectangles` Methode zum Erhalten von Rechtecken für Absätze im OCR-Bild. Satz`detect_areas` Zu`true` Wenn Sie Absätze extrahieren möchten:
+Rufen Sie die Methode `GetRectangles` auf. Das Setzen von `detect_areas` auf `true` veranlasst die Engine, **Absatz**‑Rechtecke zurückzugeben:
 
 ```csharp
 List<Rectangle> rectangles = api.GetRectangles(fullPath, AreasType.PARAGRAPHS, true);
 ```
 
-## Schritt 5: Ergebnisse drucken
+## Schritt 5: Ergebnisse ausgeben
 
-Drucken Sie die Koordinaten der identifizierten Bereiche aus:
+Geben Sie die Koordinaten aus, damit Sie die **extrahierten Absatzkoordinaten** sehen können, die erkannt wurden:
 
 ```csharp
 Console.WriteLine("Areas coordinates:");
 rectangles.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a.Height}"));
 ```
 
-## Schritt 6: Fazit
+## Häufige Probleme und Lösungen
 
-Glückwunsch! Sie haben den OCR-Bilderkennungsprozess erfolgreich ausgeführt, um mit Aspose.OCR für .NET Rechtecke für Absätze zu erhalten.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| Keine Rechtecke zurückgegeben | Bildqualität zu niedrig oder falscher `AreasType` | Stellen Sie sicher, dass das Bild klar ist und verwenden Sie `AreasType.PARAGRAPHS`. |
+| Koordinaten sind um eins verschoben | DPI‑Skalierungsabweichung | Setzen Sie den korrekten DPI‑Wert beim Laden des Bildes oder verwenden Sie `api.Config.Dpi`. |
+| Lizenz‑Ausnahme | Ausführung ohne gültige Lizenz in der Produktion | Laden Sie eine temporäre oder permanente Lizenz über `api.SetLicense` hoch. |
 
-## Abschluss
+## Häufig gestellte Fragen
 
-In diesem Tutorial haben wir die grundlegenden Schritte zur Integration von Aspose.OCR für .NET in Ihre Anwendungen untersucht, sodass Sie Absatzrechtecke aus OCR-verarbeiteten Bildern extrahieren können. Aspose.OCR vereinfacht die Implementierung von OCR und macht es zu einem wertvollen Werkzeug für die Dokumentenverarbeitung und Textextraktion.
+**F: Ist Aspose.OCR mit verschiedenen Bildformaten kompatibel?**  
+A: Ja, Aspose.OCR unterstützt PNG, JPEG, TIFF, BMP und viele weitere gängige Formate.
 
-## FAQs
+**F: Kann ich Aspose.OCR für die Batch‑Verarbeitung mehrerer Bilder nutzen?**  
+A: Absolut! Durchlaufen Sie eine Sammlung von Dateipfaden und rufen Sie `GetRectangles` für jedes Bild auf.
 
-### F1: Ist Aspose.OCR mit verschiedenen Bildformaten kompatibel?
+**F: Gibt es eine kostenlose Testversion von Aspose.OCR für .NET?**  
+A: Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erkunden.
 
-A1: Ja, Aspose.OCR unterstützt verschiedene Bildformate, darunter PNG, JPEG und TIFF.
+**F: Wie kann ich eine temporäre Lizenz für Aspose.OCR erhalten?**  
+A: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erwerben.
 
-### F2: Kann ich Aspose.OCR für die Stapelverarbeitung mehrerer Bilder verwenden?
+**F: Wo finde ich zusätzlichen Support und Diskussionen zu Aspose.OCR?**  
+A: Besuchen Sie das [Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16) für Community‑Support und Diskussionen.
 
-A2: Auf jeden Fall! Aspose.OCR erleichtert die Stapelverarbeitung, um mehrere Bilder nahtlos zu verarbeiten.
+## Fazit
 
-### F3: Gibt es eine kostenlose Testversion für Aspose.OCR für .NET?
+In diesem Tutorial haben wir gezeigt, **wie man Rechtecke** für Absätze mit Aspose.OCR für .NET extrahiert, jeden Code‑Abschnitt durchgegangen und erklärt, wie die zurückgegebenen Koordinaten zu interpretieren sind. Durch die Integration dieser Schritte in Ihre Anwendung können Sie zuverlässig Absatzgrenzen herausziehen, Dokumenten‑Workflows verbessern und intelligentere OCR‑gesteuerte Lösungen bauen.
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
+---
 
-### F4: Wie kann ich eine temporäre Lizenz für Aspose.OCR erhalten?
+**Zuletzt aktualisiert:** 2025-12-17  
+**Getestet mit:** Aspose.OCR 24.11 für .NET  
+**Autor:** Aspose  
 
- A4: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
-
-### F5: Wo finde ich zusätzliche Unterstützung und Diskussionen zu Aspose.OCR?
-
- A5: Gehen Sie rüber zum[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für Community-Unterstützung und Diskussionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

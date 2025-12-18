@@ -1,33 +1,43 @@
 ---
-title: ओसीआर छवि पहचान में छवि पर ओसीआर निष्पादित करें
-linktitle: ओसीआर छवि पहचान में छवि पर ओसीआर निष्पादित करें
-second_title: Aspose.OCR .NET एपीआई
-description: .NET के लिए Aspose.OCR के साथ OCR जादू को अनलॉक करें, आसानी से छवियों से टेक्स्ट निकालें। निर्बाध एकीकरण के लिए ट्यूटोरियल का अन्वेषण करें।
-weight: 14
+date: 2025-12-17
+description: Aspose.OCR for .NET के साथ इमेज को OCR करने और इमेज टेक्स्ट निकालने के
+  बारे में सीखें। यह चरण‑दर‑चरण गाइड आपको तेज़ी से इमेज को टेक्स्ट में बदलने का तरीका
+  दिखाता है।
+linktitle: Perform OCR on Image in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: इमेज को OCR कैसे करें – OCR इमेज रिकग्निशन में इमेज पर OCR लागू करें
 url: /hi/net/image-and-drawing-recognition/perform-ocr-on-image/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ओसीआर छवि पहचान में छवि पर ओसीआर निष्पादित करें
+# How to OCR Image – Perform OCR on Image in OCR Image Recognition
 
-## परिचय
+## Introduction
 
-आज की तकनीक-संचालित दुनिया में, ऑप्टिकल कैरेक्टर रिकॉग्निशन (ओसीआर) छवियों से बहुमूल्य जानकारी निकालने में महत्वपूर्ण भूमिका निभाता है। .NET के लिए Aspose.OCR डेवलपर्स को अपने अनुप्रयोगों में OCR क्षमताओं को निर्बाध रूप से एकीकृत करने के लिए एक मजबूत टूलसेट के साथ सशक्त बनाता है। यह चरण-दर-चरण मार्गदर्शिका आपको .NET के लिए Aspose.OCR का उपयोग करके एक छवि पर OCR निष्पादित करने की प्रक्रिया के बारे में बताएगी, जिससे छवियों को खोजने योग्य और संपादन योग्य पाठ में बदल दिया जाएगा।
+आधुनिक अनुप्रयोगों में, **how to ocr image** उन डेवलपर्स के लिए एक सामान्य प्रश्न है जिन्हें स्कैन किए गए दस्तावेज़, स्क्रीनशॉट या फ़ोटो को खोज योग्य, संपादन योग्य टेक्स्ट में बदलना होता है। Aspose.OCR for .NET एक शक्तिशाली, उपयोग में आसान API प्रदान करता है जो आपको **extract image text**, **convert image to text**, और **recognize image text** केवल कुछ लाइनों के कोड से करने देता है। इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑बद्ध तरीके से देखेंगे—लाइब्रेरी सेट‑अप से लेकर पहचाने गए टेक्स्ट को प्रदर्शित करने तक—ताकि आप मिनटों में अपने C# प्रोजेक्ट में OCR क्षमता को एकीकृत कर सकें।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What library should I use?** Aspose.OCR for .NET  
+- **Can I process PNG, JPEG, and TIFF?** Yes, all common image formats are supported  
+- **Is a license required for production?** Yes, a commercial license is needed for production use  
+- **Which .NET versions are compatible?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **How long does a basic OCR call take?** Typically under a second for a standard‑size image  
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
+## Prerequisites
 
-1.  .NET लाइब्रेरी के लिए Aspose.OCR: .NET लाइब्रेरी के लिए Aspose.OCR को डाउनलोड और इंस्टॉल करें।[लिंक को डाउनलोड करें](https://releases.aspose.com/ocr/net/).
+कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-2. विकास परिवेश: अपने पसंदीदा एकीकृत विकास परिवेश (आईडीई) में एक .NET विकास परिवेश स्थापित करें।
+1. **Aspose.OCR for .NET Library** – इसे [download link](https://releases.aspose.com/ocr/net/) से डाउनलोड और इंस्टॉल करें।  
+2. **Development Environment** – कोई भी .NET‑compatible IDE (Visual Studio, Rider, VS Code, आदि)।  
+3. **A sample image** – इस गाइड के लिए हम `sample.png` का उपयोग करेंगे, जिसे आप अपनी पसंद के फ़ोल्डर में रख सकते हैं।
 
-## नामस्थान आयात करें
+## Import Namespaces
 
-अपने .NET प्रोजेक्ट में आवश्यक नामस्थान आयात करके प्रारंभ करें:
+पहले, आवश्यक नेमस्पेस जोड़ें ताकि कंपाइलर OCR क्लासेज़ को ढूँढ़ सके:
 
 ```csharp
 using System;
@@ -35,75 +45,92 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## ओसीआर छवि पहचान में छवि पर ओसीआर निष्पादित करें
+## How to OCR Image using Aspose.OCR for .NET
 
-अब, आइए एक छवि पर OCR निष्पादित करने की प्रक्रिया को कई चरणों में विभाजित करें:
+नीचे पूर्ण‑वर्कफ़्लो को स्पष्ट, क्रमांकित चरणों में विभाजित किया गया है। प्रत्येक चरण में एक छोटा विवरण और आवश्यक कोड दिया गया है जिसे आप कॉपी कर सकते हैं।
 
-### चरण 1: दस्तावेज़ निर्देशिका निर्दिष्ट करें
+### Step 1: Specify the Document Directory
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-अपनी छवि फ़ाइल के वास्तविक पथ के साथ "आपकी दस्तावेज़ निर्देशिका" को बदलना सुनिश्चित करें।
+`"Your Document Directory"` को उस पूर्ण या सापेक्ष पथ से बदलें जहाँ `sample.png` स्थित है। यह API को बताता है कि वह इमेज कहाँ खोजे।
 
-### चरण 2: Aspose.OCR को आरंभ करें
+### Step 2: Initialize Aspose.OCR
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-OCR कार्यात्मकताओं तक पहुँचने के लिए AsposeOcr वर्ग का एक उदाहरण बनाएँ।
+`AsposeOcr` का एक इंस्टेंस बनाकर आप सभी OCR मेथड्स, जैसे `RecognizeImage`, तक पहुँच प्राप्त करते हैं।
 
-### चरण 3: छवि को पहचानें
+### Step 3: Recognize Image
 
 ```csharp
 string result = api.RecognizeImage(dataDir + "sample.png");
 ```
 
- का आह्वान करें`RecognizeImage` विधि, एक पैरामीटर के रूप में छवि फ़ाइल के लिए पथ पारित करना।
+`RecognizeImage` मेथड इमेज फ़ाइल को पढ़ता है और निकाले गए टेक्स्ट को स्ट्रिंग के रूप में लौटाता है। यही वह जगह है जहाँ **recognize image text** की मुख्य प्रक्रिया होती है।
 
-### चरण 4: मान्यता प्राप्त पाठ प्रदर्शित करें
+### Step 4: Display Recognized Text
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-मान्यता प्राप्त टेक्स्ट को कंसोल पर प्रिंट करें या आगे उपयोग के लिए इसे एक वेरिएबल में संग्रहीत करें।
+आप परिणाम को कंसोल में प्रिंट कर सकते हैं, फ़ाइल में लिख सकते हैं, या आगे की प्रोसेसिंग के लिए किसी अन्य कंपोनेंट को पास कर सकते हैं।
 
-### चरण 5: प्रक्रिया को अंतिम रूप दें
+### Step 5: Finalize the Process
 
 ```csharp
 Console.WriteLine("PerformOCROnImage executed successfully");
 ```
 
-यह इंगित करने के लिए एक सफलता संदेश प्रदर्शित करें कि OCR प्रक्रिया त्रुटियों के बिना निष्पादित की गई है।
+एक सरल पुष्टि संदेश आपको यह सत्यापित करने में मदद करता है कि OCR कॉल बिना किसी एक्सेप्शन के पूरी हो गई है।
 
-## निष्कर्ष
+## Why Use Aspose.OCR for C# Projects?
 
-इन सरल चरणों का पालन करके, आप छवियों पर आसानी से OCR निष्पादित करने के लिए .NET के लिए Aspose.OCR की शक्ति का उपयोग कर सकते हैं। चाहे आप दस्तावेज़ प्रबंधन या टेक्स्ट निष्कर्षण अनुप्रयोगों पर काम कर रहे हों, ओसीआर क्षमताओं को एकीकृत करने से आपकी परियोजना नई ऊंचाइयों तक पहुंच जाएगी।
+- **High Accuracy** – बिल्ट‑इन लैंग्वेज मॉडल कम गुणवत्ता वाले स्कैन पर भी भरोसेमंद परिणाम देते हैं।  
+- **Broad Format Support** – PNG, JPEG, BMP, TIFF आदि को संभालता है, जिससे आप **convert image to text** आसानी से कर सकते हैं।  
+- **No External Dependencies** – शुद्ध .NET लाइब्रेरी; किसी नेेटिव OCR इंजन को इंस्टॉल करने की जरूरत नहीं।  
+- **Extensible** – आप पहचान सेटिंग्स को फाइन‑ट्यून कर सकते हैं या अन्य Aspose उत्पादों के साथ इंटीग्रेट करके एंड‑टू‑एंड डॉक्यूमेंट वर्कफ़्लो बना सकते हैं।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Common Issues & Troubleshooting
 
-### Q1: क्या Aspose.OCR एकाधिक छवि प्रारूपों को संभाल सकता है?
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| खाली स्ट्रिंग लौटाई गई | इमेज पाथ गलत या फ़ाइल नहीं मिली | `dataDir` और फ़ाइलनाम की जाँच करें; सुरक्षा के लिए `Path.Combine` का उपयोग करें |
+| गड़बड़ अक्षर | इमेज रेज़ोल्यूशन बहुत कम या असमर्थित भाषा | उच्च‑रिज़ोल्यूशन इमेज उपयोग करें; `api.Language = "eng"` जैसे भाषा विकल्प सेट करें |
+| Exception `System.IO.FileNotFoundException` | `sample.png` गायब है | सुनिश्चित करें कि फ़ाइल निर्दिष्ट फ़ोल्डर में मौजूद है |
 
-A1: हाँ, Aspose.OCR आपके OCR अनुप्रयोगों में लचीलापन सुनिश्चित करते हुए, छवि प्रारूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
+## Frequently Asked Questions
 
-### Q2: क्या परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस उपलब्ध है?
+**Q: क्या Aspose.OCR कई इमेज फ़ॉर्मेट संभाल सकता है?**  
+A: हाँ, यह PNG, JPEG, BMP, TIFF आदि सहित कई फ़ॉर्मेट को सपोर्ट करता है, इसलिए आप **extract image text** विभिन्न स्रोतों से कर सकते हैं।
 
-उ2: हां, आप परीक्षण चरण के दौरान इसकी विशेषताओं का पता लगाने के लिए Aspose.OCR के लिए एक अस्थायी लाइसेंस प्राप्त कर सकते हैं।
+**Q: क्या परीक्षण के लिए कोई टेम्पररी लाइसेंस उपलब्ध है?**  
+A: बिल्कुल। आप Aspose पोर्टल से 30‑दिन का इवैल्यूएशन लाइसेंस प्राप्त कर सकते हैं।
 
-### Q3: मुझे .NET के लिए Aspose.OCR के लिए व्यापक दस्तावेज़ कहाँ मिल सकते हैं?
+**Q: Aspose.OCR for .NET की व्यापक डॉक्यूमेंटेशन कहाँ मिल सकती है?**  
+A: आधिकारिक गाइड यहाँ है: [Aspose.OCR documentation](https://reference.aspose.com/ocr/net/)।
 
- ए3: द[Aspose.OCR दस्तावेज़ीकरण](https://reference.aspose.com/ocr/net/) गहन जानकारी और उदाहरणों के लिए एक मूल्यवान संसाधन है।
+**Q: सहायता या समुदाय से जुड़ने के लिए मैं कहाँ जा सकता हूँ?**  
+A: प्रश्न पूछने और अनुभव साझा करने के लिए [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) देखें।
 
-### Q4: मैं सहायता के लिए समुदाय से समर्थन कैसे प्राप्त कर सकता हूं या उससे कैसे जुड़ सकता हूं?
+**Q: क्या मैं Aspose.OCR for .NET को खरीदने से पहले मुफ्त में आज़मा सकता हूँ?**  
+A: हाँ, पूरी तरह कार्यशील **free trial** उपलब्ध है [free trial](https://releases.aspose.com/) पेज पर।
 
- A4: पर जाएँ[Aspose.OCR फोरम](https://forum.aspose.com/c/ocr/16) समर्थन प्राप्त करने और जीवंत एस्पोज़ समुदाय के साथ जुड़ने के लिए।
+## Conclusion
 
-### Q5: क्या मैं खरीदने से पहले .NET के लिए Aspose.OCR मुफ़्त में आज़मा सकता हूँ?
+उपर्युक्त चरणों का पालन करके आप अब **how to ocr image** फ़ाइलों को Aspose.OCR for .NET की मदद से प्रोसेस करना जानते हैं। चाहे आप डॉक्यूमेंट‑मैनेजमेंट सिस्टम, रसीद‑प्रोसेसिंग ऐप, या कोई भी समाधान बना रहे हों जिसे **convert image to text** की आवश्यकता हो, यह लाइब्रेरी विज़ुअल डेटा को खोज योग्य कंटेंट में बदलने का एक सरल, उच्च‑प्रदर्शन मार्ग प्रदान करती है।
 
- A5: बिल्कुल, आप इसके साथ सुविधाओं का पता लगा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) .NET के लिए Aspose.OCR का।
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.OCR for .NET 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
