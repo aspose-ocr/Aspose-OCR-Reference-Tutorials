@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak extrahovat text z obrázků pomocí Aspose.OCR pro Javu.
   Tento průvodce ukazuje, jak nastavit licenci, vypočítat sklon a zlepšit přesnost
   OCR.
-language: cs
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Extrahovat text z obrázků – Základy OCR s Aspose.OCR pro Javu
-url: /java/ocr-basics/
+url: /cs/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ Zvyšte přesnost OCR pomocí Aspose.OCR pro Java. Naučte se krok za krokem vyp
 ### [Získávání obdélníků s oblastmi textu v Aspose.OCR](./get-rectangles-with-text-areas/)
 Odemkněte sílu Aspose.OCR pro Java. Naučte se, jak bezproblémově extrahovat text z obrázků v tomto krok‑za‑krokem průvodci. Stáhněte si nyní pro efektivní rozpoznávání textu.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

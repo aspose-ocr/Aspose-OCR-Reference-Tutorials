@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR للغة Java. يوضح
   هذا الدليل كيفية تعيين الترخيص، حساب الانحراف، وتحسين دقة OCR.
-language: ar
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: استخراج النص من الصور – أساسيات OCR باستخدام Aspose.OCR للـ Java
-url: /java/ocr-basics/
+url: /ar/java/ocr-basics/
 weight: 20
 ---
 
@@ -102,15 +101,15 @@ weight: 20
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 اكتشف قوة Aspose.OCR for Java. تعلم كيفية استخراج النص من الصور بسلاسة في هذا الدليل خطوة بخطوة. حمّل الآن لتعرف على التعرف الفعال على النص.
 
+---
+
+**آخر تحديث:** 2025-12-08  
+**تم الاختبار مع:** Aspose.OCR for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-08  
-**تم الاختبار مع:** Aspose.OCR for Java 24.11  
-**المؤلف:** Aspose

@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Apprenez à extraire du texte à partir d'images avec Aspose.OCR pour Java.
   Ce guide montre comment définir la licence, calculer l’inclinaison et améliorer
   la précision de l’OCR.
-language: fr
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Extraire le texte des images – Notions de base de l’OCR avec Aspose.OCR pour
   Java
-url: /java/ocr-basics/
+url: /fr/java/ocr-basics/
 weight: 20
 ---
 
@@ -107,15 +106,15 @@ Améliorez la précision de l’OCR avec Aspose.OCR pour Java. Apprenez à calcu
 ### [Obtention de rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
 Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
 
+---
+
+**Dernière mise à jour :** 2025-12-08  
+**Testé avec :** Aspose.OCR pour Java 24.11  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-08  
-**Testé avec :** Aspose.OCR pour Java 24.11  
-**Auteur :** Aspose

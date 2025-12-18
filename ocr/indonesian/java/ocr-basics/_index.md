@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara mengekstrak gambar teks menggunakan Aspose.OCR untuk Java.
   Panduan ini menunjukkan cara mengatur lisensi, menghitung kemiringan, dan meningkatkan
   akurasi OCR.
-language: id
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Ekstrak Teks Gambar – Dasar-dasar OCR dengan Aspose.OCR untuk Java
-url: /java/ocr-basics/
+url: /id/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ Tingkatkan akurasi OCR dengan Aspose.OCR untuk Java. Pelajari cara menghitung su
 ### [Mendapatkan Persegi Panjang dengan Area Teks dalam Aspose.OCR](./get-rectangles-with-text-areas/)
 Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar secara mulus dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

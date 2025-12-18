@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Dowiedz się, jak wyodrębniać tekst z obrazów przy użyciu Aspose.OCR dla
   Javy. Ten przewodnik pokazuje, jak ustawić licencję, obliczyć pochylenie i poprawić
   dokładność OCR.
-language: pl
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Wyodrębnianie tekstu z obrazów – Podstawy OCR z Aspose.OCR dla Javy
-url: /java/ocr-basics/
+url: /pl/java/ocr-basics/
 weight: 20
 ---
 
@@ -117,15 +116,15 @@ Zwiększ dokładność OCR przy użyciu Aspose.OCR for Java. Naucz się krok po 
 ### [Uzyskiwanie prostokątów z obszarami tekstu w Aspose.OCR](./get-rectangles-with-text-areas/)
 Odkryj moc Aspose.OCR for Java. Dowiedz się, jak płynnie wyodrębniać tekst z obrazów w tym przewodniku krok po kroku. Pobierz teraz, aby uzyskać efektywne rozpoznawanie tekstu.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

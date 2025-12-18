@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να εξάγετε εικόνες κειμένου χρησιμοποιώντας το Aspose.OCR
   για Java. Αυτός ο οδηγός δείχνει πώς να ορίσετε την άδεια, να υπολογίσετε την κλίση
   και να βελτιώσετε την ακρίβεια του OCR.
-language: el
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Εξαγωγή κειμένου από εικόνες – Βασικά OCR με Aspose.OCR για Java
-url: /java/ocr-basics/
+url: /el/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ weight: 20
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Αποκτήστε τη δύναμη του Aspose.OCR για Java. Μάθετε πώς να εξάγετε κείμενο από εικόνες απρόσκοπτα σε αυτόν τον βήμα‑βήμα οδηγό. Κατεβάστε τώρα για αποδοτική αναγνώριση κειμένου.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

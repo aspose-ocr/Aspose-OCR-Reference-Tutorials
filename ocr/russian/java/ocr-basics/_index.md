@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Узнайте, как извлекать текст из изображений с помощью Aspose.OCR для
   Java. В этом руководстве показано, как установить лицензию, вычислить наклон и повысить
   точность OCR.
-language: ru
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Извлечение текста из изображений – основы OCR с Aspose.OCR для Java
-url: /java/ocr-basics/
+url: /ru/java/ocr-basics/
 weight: 20
 ---
 
@@ -105,15 +104,15 @@ weight: 20
 ### [Получение прямоугольников с текстовыми областями в Aspose.OCR](./get-rectangles-with-text-areas/)
 Разблокируйте мощь Aspose.OCR для Java. Узнайте, как без проблем извлекать текст из изображений в этом пошаговом руководстве. Скачайте сейчас для эффективного распознавания текста.
 
+---
+
+**Последнее обновление:** 2025-12-08  
+**Тестировано с:** Aspose.OCR for Java 24.11  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-08  
-**Тестировано с:** Aspose.OCR for Java 24.11  
-**Автор:** Aspose

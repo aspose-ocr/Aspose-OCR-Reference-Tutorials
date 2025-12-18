@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีดึงข้อความจากภาพโดยใช้ Aspose.OCR สำหรับ Java คู่มือนี้แสดงวิธีตั้งค่าไลเซนส์,
   คำนวณการเอียง, และปรับปรุงความแม่นยำของ OCR.
-language: th
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: สกัดข้อความจากรูปภาพ – พื้นฐาน OCR ด้วย Aspose.OCR สำหรับ Java
-url: /java/ocr-basics/
+url: /th/java/ocr-basics/
 weight: 20
 ---
 
@@ -102,15 +101,15 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

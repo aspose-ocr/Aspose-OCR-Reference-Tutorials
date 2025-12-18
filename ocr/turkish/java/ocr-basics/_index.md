@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.OCR for Java kullanarak metin görüntülerini nasıl çıkaracağınızı
   öğrenin. Bu kılavuz, lisansı nasıl ayarlayacağınızı, eğimi nasıl hesaplayacağınızı
   ve OCR doğruluğunu nasıl artıracağınızı gösterir.
-language: tr
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Metin Görüntülerini Çıkar – Java için Aspose.OCR ile OCR Temelleri
-url: /java/ocr-basics/
+url: /tr/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ Aspose.OCR for Java ile OCR doğruluğunu artırın. Eğim açılarını adım�
 ### [Aspose.OCR’da Metin Alanlarıyla Dikdörtgenleri Alma](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java’ın gücünü keşfedin. Bu adım‑adım rehberde görüntülerden metin çıkarmayı sorunsuz bir şekilde öğrenin. Verimli metin tanıma için hemen indirin.
 
+---
+
+**Son Güncelleme:** 2025-12-08  
+**Test Edildi:** Aspose.OCR for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-08  
-**Test Edildi:** Aspose.OCR for Java 24.11  
-**Yazar:** Aspose

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách trích xuất hình ảnh văn bản bằng Aspose.OCR cho Java. Hướng
   dẫn này chỉ ra cách thiết lập giấy phép, tính độ nghiêng và cải thiện độ chính xác
   của OCR.
-language: vi
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Trích xuất văn bản từ hình ảnh – Cơ bản về OCR với Aspose.OCR cho Java
-url: /java/ocr-basics/
+url: /vi/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ Nâng cao độ chính xác OCR với Aspose.OCR cho Java. Học cách tính gó
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Mở khóa sức mạnh của Aspose.OCR cho Java. Học cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn chi tiết này. Tải ngay để nhận dạng văn bản hiệu quả.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

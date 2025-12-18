@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Lär dig hur du extraherar textbilder med Aspose.OCR för Java. Den här
   guiden visar hur du ställer in licens, beräknar snedvridning och förbättrar OCR‑noggrannheten.
-language: sv
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Extrahera textbilder – OCR-grunder med Aspose.OCR för Java
-url: /java/ocr-basics/
+url: /sv/java/ocr-basics/
 weight: 20
 ---
 
@@ -102,15 +101,15 @@ Förbättra OCR‑noggrannheten med Aspose.OCR för Java. Lär dig beräkna sned
 ### [Hämta rektanglar med textområden i Aspose.OCR](./get-rectangles-with-text-areas/)
 Lås upp kraften i Aspose.OCR för Java. Lär dig hur du extraherar text från bilder sömlöst i denna steg‑för‑steg‑guide. Ladda ner nu för effektiv textigenkänning.
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.OCR for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose

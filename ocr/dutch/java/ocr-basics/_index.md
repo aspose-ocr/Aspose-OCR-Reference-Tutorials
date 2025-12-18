@@ -3,12 +3,11 @@ date: 2025-12-08
 description: Leer hoe u tekstafbeeldingen kunt extraheren met Aspose.OCR voor Java.
   Deze gids laat zien hoe u een licentie instelt, scheefstand berekent en de OCR-nauwkeurigheid
   verbetert.
-language: nl
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Tekst uit afbeeldingen extraheren – OCR-basisprincipes met Aspose.OCR voor
   Java
-url: /java/ocr-basics/
+url: /nl/java/ocr-basics/
 weight: 20
 ---
 
@@ -104,15 +103,15 @@ Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor Java. Leer stap voor stap sche
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Ontgrendel de kracht van Aspose.OCR voor Java. Leer hoe je tekst uit afbeeldingen naadloos kunt extraheren in deze stap‑voor‑stap gids. Download nu voor efficiënte tekstherkenning.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-08  
+**Getest met:** Aspose.OCR voor Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-08  
-**Getest met:** Aspose.OCR voor Java 24.11  
-**Auteur:** Aspose

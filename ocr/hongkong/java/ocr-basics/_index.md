@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習如何使用 Aspose.OCR for Java 提取文字圖像。本指南展示如何設定授權、計算傾斜角度，以及提升 OCR 準確度。
-language: zh-hant
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: 提取文字圖像 – 使用 Aspose.OCR for Java 的 OCR 基礎
-url: /java/ocr-basics/
+url: /zh-hant/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 ### [取得 Aspose.OCR 中文字區域的矩形框](./get-rectangles-with-text-areas/)
 發掘 Aspose.OCR for Java 的強大功能，逐步學習如何無縫從影像中提取文字。本指南即刻下載，提升文字辨識效率。
 
+---
+
+**最後更新：** 2025-12-08  
+**測試環境：** Aspose.OCR for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-08  
-**測試環境：** Aspose.OCR for Java 24.11  
-**作者：** Aspose

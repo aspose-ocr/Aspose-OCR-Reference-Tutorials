@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan lehet szöveges képeket kinyerni az Aspose.OCR for
   Java segítségével. Ez az útmutató bemutatja, hogyan állítsa be a licencet, számolja
   ki a dőlést, és javítsa az OCR pontosságát.
-language: hu
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: Képek szövegének kinyerése – OCR alapok az Aspose.OCR Java-hoz
-url: /java/ocr-basics/
+url: /hu/java/ocr-basics/
 weight: 20
 ---
 
@@ -103,15 +102,15 @@ Növelje az OCR pontosságát az Aspose.OCR for Java segítségével. Tanulja me
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Fedezze fel az Aspose.OCR for Java erejét. Tanulja meg, hogyan nyerjen ki szöveget képekből zökkenőmentesen ebben a részletes útmutatóban. Töltse le most a hatékony szövegfelismerésért.
 
+---
+
+**Utolsó frissítés:** 2025-12-08  
+**Tesztelt verzió:** Aspose.OCR for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-08  
-**Tesztelt verzió:** Aspose.OCR for Java 24.11  
-**Szerző:** Aspose

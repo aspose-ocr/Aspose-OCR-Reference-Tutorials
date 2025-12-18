@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.OCR for Java를 사용하여 텍스트 이미지를 추출하는 방법을 배웁니다. 이 가이드는 라이선스 설정, 기울기
   계산 및 OCR 정확도 향상 방법을 보여줍니다.
-language: ko
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: 텍스트 이미지 추출 – Java용 Aspose.OCR을 이용한 OCR 기본
-url: /java/ocr-basics/
+url: /ko/java/ocr-basics/
 weight: 20
 ---
 
@@ -115,15 +114,15 @@ Aspose.OCR for Java로 OCR 정확도를 향상시키세요. 단계별로 기울�
 
 Aspose.OCR for Java의 강력함을 활용하십시오. 이 단계별 가이드에서 이미지에서 텍스트를 원활히 추출하는 방법을 배우세요. 효율적인 텍스트 인식을 위해 지금 다운로드하십시오.
 
+---
+
+**마지막 업데이트:** 2025-12-08  
+**테스트 환경:** Aspose.OCR for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-08  
-**테스트 환경:** Aspose.OCR for Java 24.11  
-**작성자:** Aspose

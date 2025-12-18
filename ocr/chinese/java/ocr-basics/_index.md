@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 学习如何使用 Aspose.OCR for Java 提取文本图像。本指南展示了如何设置许可证、计算倾斜角度以及提高 OCR 准确率。
-language: zh
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 title: 提取文本图像 – 使用 Aspose.OCR for Java 的 OCR 基础
-url: /java/ocr-basics/
+url: /zh/java/ocr-basics/
 weight: 20
 ---
 
@@ -101,15 +100,15 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 解锁 Aspose.OCR for Java 的强大功能。通过本分步指南学习如何无缝提取图像中的文本。立即下载，实现高效文本识别。
 
+---
+
+**最后更新：** 2025-12-08  
+**测试环境：** Aspose.OCR for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-08  
-**测试环境：** Aspose.OCR for Java 24.11  
-**作者：** Aspose
