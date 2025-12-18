@@ -65,12 +65,6 @@ Buka kemampuan OCR dalam aplikasi .NET dengan Aspose.OCR. Jelajahi tutorial untu
 Maksimalkan akurasi OCR dengan tutorial Aspose.OCR untuk .NET. Lakukan OCR pada gambar, siapkan persegi panjang, terapkan filter pra‑pemrosesan, koreksi hasil dengan pemeriksaan ejaan, dan simpan hasil multi‑halaman dengan mudah.
 ### [Pengaturan OCR](./ocr-settings/)
 Buka kekuatan Aspose.OCR untuk .NET dengan Tutorial Pengaturan OCR kami. Pelajari cara meningkatkan akurasi, kecepatan, dan kustomisasi untuk pengenalan teks dalam gambar.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Pertanyaan yang Sering Diajukan
 
@@ -95,4 +89,9 @@ A: Tulisan tangan dasar didukung, tetapi hasilnya dapat bervariasi; pertimbangka
 **Diuji Dengan:** Aspose.OCR for .NET 24.11  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -116,28 +116,6 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 | **대용량 이미지에서 성능 병목** | `GetRectangles` 호출 전에 이미지를 적절한 해상도로 리사이즈하십시오. |
 | **라이선스 예외** | 테스트용으로 체험 라이선스를 사용하고, 평가 제한을 피하려면 운영 환경에서는 정식 라이선스를 적용하십시오. |
 
-## FAQ
-
-### Q1: Aspose.OCR for .NET을 모든 종류의 이미지와 함께 사용할 수 있나요?
-
-A1: Aspose.OCR은 다양한 이미지 형식을 지원하므로 OCR 애플리케이션에서 유연하게 사용할 수 있습니다.
-
-### Q2: OCR 인식 정확도는 어느 정도인가요?
-
-A2: Aspose.OCR은 고급 알고리즘을 활용해 높은 정확도를 제공하므로 다양한 텍스트 인식 시나리오에 적합합니다.
-
-### Q3: 체험 버전을 제공하나요?
-
-A3: 예, [무료 체험](https://releases.aspose.com/)을 통해 Aspose.OCR for .NET의 기능을 확인할 수 있습니다.
-
-### Q4: 포괄적인 문서는 어디에서 찾을 수 있나요?
-
-A4: 자세한 정보와 사용 가이드는 [문서](https://reference.aspose.com/ocr/net/)를 참고하십시오.
-
-### Q5: 도움이 필요하거나 구체적인 질문이 있나요?
-
-A5: 커뮤니티 지원 및 토론을 위해 [Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16)을 방문하십시오.
-
 ## 자주 묻는 질문
 
 **Q: 전체 라인 대신 개별 단어를 추출할 수 있나요?**  

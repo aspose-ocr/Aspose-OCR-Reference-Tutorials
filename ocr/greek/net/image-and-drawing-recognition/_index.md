@@ -69,13 +69,6 @@ weight: 22
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Αποκτήστε τη μαγεία του OCR με το Aspose.OCR για .NET, εξάγοντας κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το tutorial για αβίαστη ενσωμάτωση.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Ε: Μπορώ να χρησιμοποιήσω το Aspose.OCR σε web εφαρμογή;**  
@@ -98,3 +91,10 @@ weight: 22
 **Τελευταία Ενημέρωση:** 2025-12-17  
 **Δοκιμή Με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

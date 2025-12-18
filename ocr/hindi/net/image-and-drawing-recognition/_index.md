@@ -69,13 +69,6 @@ Aspose.OCR for .NET की क्षमता को लाइन पहचा�
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Aspose.OCR for .NET के साथ OCR जादू को अनलॉक करें और इमेज से टेक्स्ट को सहजता से निकालें। सहज इंटीग्रेशन के लिए ट्यूटोरियल देखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.OCR को वेब एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -98,3 +91,10 @@ A: नहीं, एक ही Aspose.OCR लाइसेंस सभी सम
 **अंतिम अपडेट:** 2025-12-17  
 **टेस्टेड विथ:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

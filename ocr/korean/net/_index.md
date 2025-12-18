@@ -64,12 +64,6 @@ Aspose.OCR로 .NET 앱에 OCR 기능을 추가하세요. 아카이브, 폴더, �
 Aspose.OCR for .NET 튜토리얼을 통해 OCR 정확도를 극대화하세요. 이미지에 OCR을 수행하고, 사각형을 준비하며, 전처리 필터를 적용하고, 맞춤법 검사로 결과를 교정한 뒤, 다페이지 결과를 손쉽게 저장하는 방법을 배웁니다.
 ### [OCR Settings](./ocr-settings/)
 Aspose.OCR for .NET의 OCR Settings 튜토리얼로 정확도, 속도, 이미지 내 텍스트 인식 맞춤 설정을 향상시키는 방법을 배우세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -93,3 +87,10 @@ A: 기본 손글씨 인식을 지원하지만 결과가 다를 수 있습니다.
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -64,12 +64,6 @@ weight: 10
 عزز دقة OCR إلى أقصى حد مع دروس Aspose.OCR لـ .NET. نفّذ OCR على الصور، حضّر المستطيلات، طبّق مرشحات ما قبل المعالجة، صحّح النتائج باستخدام التدقيق الإملائي، واحفظ النتائج متعددة الصفحات بسهولة.
 ### [إعدادات OCR](./ocr-settings/)
 استكشف قوة Aspose.OCR لـ .NET من خلال دروس إعدادات OCR. تعلم كيفية تعزيز الدقة، السرعة، والتخصيص للتعرف على النص في الصور.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -92,6 +86,11 @@ weight: 10
 
 **آخر تحديث:** 2025-12-17  
 **تم الاختبار مع:** Aspose.OCR لـ .NET 24.11  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose 
+ 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
----
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -74,13 +74,6 @@ Lepaskan potensi Aspose.OCR untuk .NET dalam mengenali baris pada pengenalan gam
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Buka keajaiban OCR dengan Aspose.OCR untuk .NET, ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk integrasi yang mulus.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.OCR dalam aplikasi web?**  
@@ -103,3 +96,10 @@ A: Tidak, satu lisensi Aspose.OCR mencakup semua platform .NET yang didukung.
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -118,28 +118,6 @@ Skriv ut koordinaterna för de upptäckta områdena till konsolen. Du kommer att
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda Aspose.OCR för .NET med vilken bildtyp som helst?
-
-A1: Aspose.OCR stödjer ett brett spektrum av bildformat, vilket säkerställer flexibilitet i dina OCR‑applikationer.
-
-### Q2: Hur exakt är OCR‑igenkänningen?
-
-A2: Aspose.OCR utnyttjar avancerade algoritmer för hög noggrannhet, vilket gör den lämplig för olika textigenkänningsscenarier.
-
-### Q3: Finns det en provversion tillgänglig?
-
-A3: Ja, du kan utforska funktionerna i Aspose.OCR för .NET med den [gratis provversionen](https://releases.aspose.com/).
-
-### Q4: Var kan jag hitta omfattande dokumentation?
-
-A4: Se [dokumentationen](https://reference.aspose.com/ocr/net/) för detaljerad information och användningsriktlinjer.
-
-### Q5: Behöver du hjälp eller har specifika frågor?
-
-A5: Besök [Aspose.OCR‑forumet](https://forum.aspose.com/c/ocr/16) för community‑support och diskussioner.
-
-## Vanliga frågor
-
 **Q: Kan jag extrahera enskilda ord istället för hela rader?**  
 A: Ja, använd `AreasType.WORDS` med samma `GetRectangles`‑metod för att få ordnivå‑omgivningsrutor.
 

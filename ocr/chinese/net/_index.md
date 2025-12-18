@@ -69,13 +69,6 @@ weight: 10
 ### [OCR 设置](./ocr-settings/)
 通过我们的 OCR 设置教程，解锁 Aspose.OCR for .NET 的强大功能。学习提升图像中文本识别的准确性、速度和自定义能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q:** 如何在低分辨率图像上提升 OCR 准确性？  
@@ -98,3 +91,10 @@ weight: 10
 **最后更新：** 2025-12-17  
 **测试环境：** Aspose.OCR for .NET 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

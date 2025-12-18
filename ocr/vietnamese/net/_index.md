@@ -65,12 +65,6 @@ Mở khóa khả năng OCR trong các ứng dụng .NET với Aspose.OCR. Khám 
 Tối đa hóa độ chính xác OCR với các tutorial Aspose.OCR cho .NET. Thực hiện OCR trên ảnh, chuẩn bị các hình chữ nhật, áp dụng bộ lọc tiền xử lý, sửa kết quả bằng kiểm tra chính tả và lưu kết quả đa trang một cách dễ dàng.
 ### [OCR Settings](./ocr-settings/)
 Mở khóa sức mạnh của Aspose.OCR cho .NET với các Tutorial Cài đặt OCR. Học cách nâng cao độ chính xác, tốc độ và tùy chỉnh cho việc nhận dạng văn bản trong ảnh.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Câu hỏi thường gặp
 
@@ -95,4 +89,9 @@ A: Hỗ trợ cơ bản cho chữ viết tay, nhưng kết quả có thể khác
 **Kiểm thử với:** Aspose.OCR cho .NET 24.11  
 **Tác giả:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

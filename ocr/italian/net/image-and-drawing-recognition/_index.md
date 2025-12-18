@@ -69,13 +69,6 @@ Sfrutta il potenziale di Aspose.OCR per .NET nel riconoscere le righe nel ricono
 ### [Eseguire OCR su Immagine nel Riconoscimento Immagini OCR](./perform-ocr-on-image/)
 Sblocca la magia dell'OCR con Aspose.OCR per .NET, estraendo il testo dalle immagini senza sforzo. Esplora il tutorial per un'integrazione fluida.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **Q: Posso usare Aspose.OCR in un'applicazione web?**  
@@ -98,3 +91,10 @@ Sblocca la magia dell'OCR con Aspose.OCR per .NET, estraendo il testo dalle imma
 **Ultimo Aggiornamento:** 2025-12-17  
 **Testato Con:** Aspose.OCR 24.11 per .NET  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

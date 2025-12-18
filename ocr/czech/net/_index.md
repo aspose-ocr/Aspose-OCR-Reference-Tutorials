@@ -64,12 +64,6 @@ Odemkněte možnosti OCR v .NET aplikacích s Aspose.OCR. Prozkoumejte tutoriál
 Maximalizujte přesnost OCR s tutoriály Aspose.OCR pro .NET. Proveďte OCR na obrázcích, připravte obdélníky, aplikujte předzpracovatelské filtry, opravte výsledky pomocí kontroly pravopisu a uložte vícestránkové výsledky bez námahy.
 ### [Nastavení OCR](./ocr-settings/)
 Odemkněte sílu Aspose.OCR pro .NET s našimi tutoriály Nastavení OCR. Naučte se zlepšovat přesnost, rychlost a přizpůsobení pro rozpoznávání textu v obrázcích.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Často kladené otázky
 
@@ -94,4 +88,9 @@ A: Základní rozpoznávání rukopisu je podporováno, ale výsledky se mohou l
 **Testováno s:** Aspose.OCR for .NET 24.11  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

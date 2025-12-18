@@ -117,28 +117,6 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 | **Teljesítménybeli szűk keresztmetszet nagy képeknél** | Méretezzék át a képet egy ésszerű felbontásra a `GetRectangles` hívása előtt. |
 | **Licenc kivétel** | Használjon próba licencet teszteléshez; alkalmazzon teljes licencet a termeléshez, hogy elkerülje a kiértékelési korlátokat. |
 
-## GYIK
-
-### Q1: Használhatom az Aspose.OCR for .NET-et bármilyen típusú képpel?
-
-**A1:** Az Aspose.OCR számos képfájl formátumot támogat, így rugalmasan alkalmazható az OCR megoldásaiban.
-
-### Q2: Mennyire pontos az OCR felismerés?
-
-**A2:** Az Aspose.OCR fejlett algoritmusokat használ a magas pontosság érdekében, így különböző szövegfelismerési helyzetekben is megfelelő.
-
-### Q3: Van ingyenes próba verzió?
-
-**A3:** Igen, a [ingyenes próba](https://releases.aspose.com/) verzióval felfedezheti az Aspose.OCR for .NET képességeit.
-
-### Q4: Hol találok részletes dokumentációt?
-
-**A4:** Tekintse meg a [dokumentációt](https://reference.aspose.com/ocr/net/) a részletes információkért és használati útmutatóért.
-
-### Q5: Szükségem van segítségre vagy konkrét kérdéseim vannak?
-
-**A5:** Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) a közösségi támogatásért és megbeszélésekért.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Kivonhatok egyedi szavakat a teljes sorok helyett?**  

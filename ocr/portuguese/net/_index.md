@@ -64,12 +64,6 @@ Desbloqueie recursos de OCR em apps .NET com Aspose.OCR. Explore tutoriais para 
 Maximize a precisão do OCR com tutoriais Aspose.OCR para .NET. Execute OCR em imagens, prepare retângulos, aplique filtros de pré‑processamento, corrija resultados com verificação ortográfica e salve resultados multipágina sem esforço.  
 ### [Configurações do OCR](./ocr-settings/)
 Desbloqueie o poder do Aspose.OCR para .NET com nossos tutoriais de Configurações de OCR. Aprenda a melhorar precisão, velocidade e personalização para reconhecimento de texto em imagens.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Perguntas Frequentes
 
@@ -93,3 +87,10 @@ A: O reconhecimento básico de escrita manual é suportado, mas os resultados po
 **Última atualização:** 2025-12-17  
 **Testado com:** Aspose.OCR para .NET 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -64,12 +64,6 @@ Lås upp OCR‑möjligheter i .NET‑appar med Aspose.OCR. Utforska handledninga
 Maximera OCR‑noggrannhet med Aspose.OCR för .NET‑handledningar. Utför OCR på bilder, förbered rektanglar, applicera förbehandlingsfilter, korrigera resultat med stavningskontroll och spara flersidiga resultat utan ansträngning.
 ### [OCR‑inställningar](./ocr-settings/)
 Lås upp kraften i Aspose.OCR för .NET med våra OCR‑inställningshandledningar. Lär dig förbättra noggrannhet, hastighet och anpassning för textigenkänning i bilder.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Frequently Asked Questions
 
@@ -93,3 +87,10 @@ A: Grundläggande handskrift stöds, men resultaten kan variera; överväg ytter
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.OCR för .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

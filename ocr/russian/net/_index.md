@@ -65,12 +65,6 @@ weight: 10
 Максимизируйте точность OCR с учебными материалами Aspose.OCR для .NET. Выполняйте OCR на изображениях, готовьте прямоугольники, применяйте фильтры предварительной обработки, корректируйте результаты с проверкой орфографии и сохраняйте многостраничные результаты без усилий.
 ### [Настройки OCR](./ocr-settings/)
 Откройте мощь Aspose.OCR для .NET с нашими учебниками по настройкам OCR. Научитесь повышать точность, скорость и настраиваемость распознавания текста в изображениях.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Часто задаваемые вопросы
 
@@ -95,4 +89,9 @@ A: Поддерживается базовое распознавание рук
 **Тестировано с:** Aspose.OCR for .NET 24.11  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

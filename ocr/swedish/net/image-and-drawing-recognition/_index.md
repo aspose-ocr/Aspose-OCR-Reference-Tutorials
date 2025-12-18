@@ -81,13 +81,6 @@ Frigör potentialen i Aspose.OCR för .NET för att känna igen rader i OCR‑bi
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Lås upp OCR‑magin med Aspose.OCR för .NET och extrahera text från bilder utan ansträngning. Utforska tutorialen för sömlös integration.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.OCR i en webbapplikation?**  
@@ -110,3 +103,10 @@ A: Nej, en enda Aspose.OCR‑licens täcker alla stödjade .NET‑plattformar.
 **Senast uppdaterad:** 2025-12-17  
 **Testad med:** Aspose.OCR 24.11 for .NET  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

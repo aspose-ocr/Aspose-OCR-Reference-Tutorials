@@ -74,13 +74,6 @@ OCR 画像認識で行を認識する際の Aspose.OCR for .NET の可能性を�
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合のためのチュートリアルをご覧ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Aspose.OCR を Web アプリケーションで使用できますか？**  
@@ -103,3 +96,10 @@ A: いいえ、単一の Aspose.OCR ライセンスでサポートされてい�
 **最終更新日:** 2025-12-17  
 **テスト環境:** Aspose.OCR 24.11 for .NET  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

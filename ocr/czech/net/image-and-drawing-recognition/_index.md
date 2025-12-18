@@ -69,13 +69,6 @@ Uvolněte potenciál Aspose.OCR pro .NET při rozpoznávání řádků v OCR roz
 ### [Provedení OCR na obrázku v OCR rozpoznávání obrazu](./perform-ocr-on-image/)
 Odemkněte OCR magii s Aspose.OCR pro .NET a snadno extrahujte text z obrázků. Prozkoumejte tutoriál pro plynulou integraci.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.OCR ve webové aplikaci?**  
@@ -98,3 +91,10 @@ A: Ne, jedna licence Aspose.OCR pokrývá všechny podporované .NET platformy.
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

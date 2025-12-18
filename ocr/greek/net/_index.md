@@ -70,12 +70,6 @@ weight: 10
 
 ### [Ρυθμίσεις OCR](./ocr-settings/)
 Αποκτήστε τη δύναμη του Aspose.OCR για .NET με τα Σεμινάρια Ρυθμίσεων OCR. Μάθετε να βελτιώνετε την ακρίβεια, την ταχύτητα και την προσαρμογή για την αναγνώριση κειμένου σε εικόνες.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Συχνές Ερωτήσεις
 
@@ -100,4 +94,9 @@ A: Υποστηρίζεται βασική αναγνώριση χειρόγρα
 **Δοκιμάστηκε Με:** Aspose.OCR for .NET 24.11  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

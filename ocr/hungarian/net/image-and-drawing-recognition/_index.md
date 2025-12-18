@@ -61,13 +61,6 @@ Szabadítsd fel az Aspose.OCR for .NET lehetőségét a sorok felismerésében a
 ### [OCR végrehajtása képen az OCR képfelismerésben](./perform-ocr-on-image/)
 Szabadítsd fel az OCR varázslatát az Aspose.OCR for .NET segítségével, könnyedén nyerj szöveget a képekből. Fedezd fel az oktatóanyagot a zökkenőmentes integrációért.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **K: Használhatom az Aspose.OCR-t webalkalmazásban?**  
@@ -90,3 +83,10 @@ V: Nem, egyetlen Aspose.OCR licenc lefedi az összes támogatott .NET platformot
 **Utolsó frissítés:** 2025-12-17  
 **Tesztelve:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

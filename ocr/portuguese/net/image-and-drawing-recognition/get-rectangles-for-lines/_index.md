@@ -119,28 +119,6 @@ Imprima as coordenadas das áreas detectadas no console. Você verá valores que
 
 ## Perguntas Frequentes
 
-### Q1: Posso usar Aspose.OCR para .NET com qualquer tipo de imagem?
-
-A1: Aspose.OCR suporta uma ampla variedade de formatos de imagem, garantindo flexibilidade em suas aplicações OCR.
-
-### Q2: Quão precisa é o reconhecimento OCR?
-
-A2: Aspose.OCR utiliza algoritmos avançados para alta precisão, tornando-o adequado para diversos cenários de reconhecimento de texto.
-
-### Q3: Existe uma versão de teste disponível?
-
-A3: Sim, você pode explorar as capacidades do Aspose.OCR para .NET com o [teste gratuito](https://releases.aspose.com/).
-
-### Q4: Onde posso encontrar documentação abrangente?
-
-A4: Consulte a [documentação](https://reference.aspose.com/ocr/net/) para informações detalhadas e diretrizes de uso.
-
-### Q5: Precisa de assistência ou tem perguntas específicas?
-
-A5: Visite o [fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para suporte da comunidade e discussões.
-
-## Perguntas Frequentes
-
 **Q: Posso extrair palavras individuais em vez de linhas completas?**  
 A: Sim, use `AreasType.WORDS` com o mesmo método `GetRectangles` para obter caixas delimitadoras ao nível de palavra.
 

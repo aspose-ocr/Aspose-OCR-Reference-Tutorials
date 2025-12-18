@@ -74,13 +74,6 @@ Ontketen het potentieel van Aspose.OCR voor .NET bij het herkennen van regels in
 ### [OCR uitvoeren op afbeelding in OCR‑afbeeldingsherkenning](./perform-ocr-on-image/)
 Ontgrendel OCR‑magie met Aspose.OCR voor .NET en extraheer moeiteloos tekst uit afbeeldingen. Verken de tutorial voor naadloze integratie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **V: Kan ik Aspose.OCR gebruiken in een webapplicatie?**  
@@ -103,3 +96,10 @@ A: Nee, één enkele Aspose.OCR‑licentie dekt alle ondersteunde .NET‑platfor
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

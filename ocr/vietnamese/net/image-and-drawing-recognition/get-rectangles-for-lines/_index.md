@@ -116,28 +116,6 @@ In ra tọa độ của các vùng được phát hiện lên console. Bạn s�
 | **Nút thắt hiệu năng trên hình ảnh lớn** | Thay đổi kích thước hình ảnh tới độ phân giải hợp lý trước khi gọi `GetRectangles`. |
 | **Ngoại lệ giấy phép** | Sử dụng giấy phép dùng thử để thử nghiệm; áp dụng giấy phép đầy đủ cho môi trường sản xuất để tránh giới hạn đánh giá. |
 
-## Câu Hỏi Thường Gặp
-
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.OCR cho .NET với bất kỳ loại hình ảnh nào không?
-
-A1: Aspose.OCR hỗ trợ nhiều định dạng hình ảnh, đảm bảo tính linh hoạt trong các ứng dụng OCR của bạn.
-
-### Câu hỏi 2: Độ chính xác của nhận dạng OCR như thế nào?
-
-A2: Aspose.OCR sử dụng các thuật toán tiên tiến để đạt độ chính xác cao, phù hợp với nhiều kịch bản nhận dạng văn bản.
-
-### Câu hỏi 3: Có phiên bản dùng thử không?
-
-A3: Có, bạn có thể khám phá khả năng của Aspose.OCR cho .NET với [bản dùng thử miễn phí](https://releases.aspose.com/).
-
-### Câu hỏi 4: Tôi có thể tìm tài liệu chi tiết ở đâu?
-
-A4: Tham khảo [tài liệu](https://reference.aspose.com/ocr/net/) để biết thông tin chi tiết và hướng dẫn sử dụng.
-
-### Câu hỏi 5: Cần hỗ trợ hoặc có câu hỏi cụ thể?
-
-A5: Truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ và thảo luận.
-
 ## Các Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể trích xuất các từ riêng lẻ thay vì toàn bộ dòng không?**  

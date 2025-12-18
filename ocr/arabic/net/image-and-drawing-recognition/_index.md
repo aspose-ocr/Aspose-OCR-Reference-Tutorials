@@ -69,13 +69,6 @@ weight: 22
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 اكتشف سحر OCR مع Aspose.OCR لـ .NET واستخراج النص من الصور بسهولة. استكشف البرنامج التعليمي للتكامل السلس.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.OCR في تطبيق ويب؟**  
@@ -98,3 +91,10 @@ weight: 22
 **آخر تحديث:** 2025-12-17  
 **تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

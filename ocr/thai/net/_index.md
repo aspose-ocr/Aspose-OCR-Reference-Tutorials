@@ -64,12 +64,6 @@ weight: 10
 เพิ่มความแม่นยำของ OCR ด้วยบทเรียน Aspose.OCR สำหรับ .NET ทำ OCR บนภาพ, เตรียมสี่เหลี่ยม, ใช้ฟิลเตอร์การเตรียมข้อมูล, แก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดคำ, และบันทึกผลลัพธ์หลายหน้าอย่างไม่มีความยุ่งยาก
 ### [OCR Settings](./ocr-settings/)
 ปลดล็อกพลังของ Aspose.OCR สำหรับ .NET ด้วยบทเรียน OCR Settings เรียนรู้วิธีเพิ่มความแม่นยำ, ความเร็ว, และการปรับแต่งสำหรับการจดจำข้อความในภาพ
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -94,4 +88,9 @@ weight: 10
 **ทดสอบกับ:** Aspose.OCR สำหรับ .NET 24.11  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

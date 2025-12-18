@@ -69,13 +69,6 @@ Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyeli
 ### [OCR Görüntü Tanıma'da Görüntü Üzerinde OCR Gerçekleştirme](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.OCR'ı bir web uygulamasında kullanabilir miyim?**  
@@ -98,3 +91,10 @@ C: Hayır, tek bir Aspose.OCR lisansı tüm desteklenen .NET platformlarını ka
 **Son Güncelleme:** 2025-12-17  
 **Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

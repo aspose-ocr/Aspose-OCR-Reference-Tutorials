@@ -69,13 +69,6 @@ Aspose.OCR 提供彈性的 API，讓您能針對特定文字區域、處理圖�
 ### [在 OCR 圖像辨識中對圖像執行 OCR](./perform-ocr-on-image/)
 使用 Aspose.OCR for .NET 解鎖 OCR 魔法，輕鬆從圖像提取文字。探索教學以實現無縫整合。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在 Web 應用程式中使用 Aspose.OCR 嗎？**  
@@ -98,3 +91,10 @@ A: 不需要，單一 Aspose.OCR 授權即可涵蓋所有支援的 .NET 平台�
 **最後更新：** 2025-12-17  
 **測試環境：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

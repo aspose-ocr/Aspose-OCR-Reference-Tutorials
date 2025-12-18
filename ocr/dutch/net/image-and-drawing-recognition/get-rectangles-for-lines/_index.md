@@ -118,28 +118,6 @@ Print de coördinaten van de gedetecteerde gebieden naar de console. Je ziet waa
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.OCR voor .NET gebruiken met elk type afbeelding?
-
-A1: Aspose.OCR ondersteunt een breed scala aan afbeeldingsformaten, wat flexibiliteit biedt in je OCR‑toepassingen.
-
-### V2: Hoe nauwkeurig is de OCR‑herkenning?
-
-A2: Aspose.OCR maakt gebruik van geavanceerde algoritmen voor hoge nauwkeurigheid, waardoor het geschikt is voor verschillende tekstherkenningsscenario's.
-
-### V3: Is er een proefversie beschikbaar?
-
-A3: Ja, je kunt de mogelijkheden van Aspose.OCR voor .NET verkennen met de [gratis proefversie](https://releases.aspose.com/).
-
-### V4: Waar kan ik uitgebreide documentatie vinden?
-
-A4: Raadpleeg de [documentatie](https://reference.aspose.com/ocr/net/) voor gedetailleerde informatie en gebruiksrichtlijnen.
-
-### V5: Hulp nodig of specifieke vragen?
-
-A5: Bezoek het [Aspose.OCR‑forum](https://forum.aspose.com/c/ocr/16) voor community‑ondersteuning en discussies.
-
-## Veelgestelde vragen
-
 **V: Kan ik individuele woorden extraheren in plaats van volledige regels?**  
 A: Ja, gebruik `AreasType.WORDS` met dezelfde `GetRectangles`‑methode om woord‑niveau begrenzingskaders te verkrijgen.
 

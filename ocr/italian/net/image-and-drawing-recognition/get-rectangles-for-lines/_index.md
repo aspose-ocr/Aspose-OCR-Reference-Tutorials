@@ -117,28 +117,6 @@ Stampa le coordinate delle aree rilevate sulla console. Vedrai valori che potrai
 | **Collo di bottiglia di prestazioni su immagini grandi** | Ridimensiona l'immagine a una risoluzione ragionevole prima di chiamare `GetRectangles`. |
 | **Eccezione di licenza** | Usa una licenza di prova per i test; applica una licenza completa per la produzione per evitare limiti di valutazione. |
 
-## FAQ
-
-### Q1: Posso usare Aspose.OCR per .NET con qualsiasi tipo di immagine?
-
-A1: Aspose.OCR supporta un'ampia gamma di formati immagine, garantendo flessibilità nelle tue applicazioni OCR.
-
-### Q2: Quanto è accurato il riconoscimento OCR?
-
-A2: Aspose.OCR utilizza algoritmi avanzati per un'alta precisione, rendendolo adatto a vari scenari di riconoscimento testo.
-
-### Q3: È disponibile una versione di prova?
-
-A3: Sì, puoi esplorare le funzionalità di Aspose.OCR per .NET con la [versione di prova gratuita](https://releases.aspose.com/).
-
-### Q4: Dove posso trovare la documentazione completa?
-
-A4: Consulta la [documentazione](https://reference.aspose.com/ocr/net/) per informazioni dettagliate e linee guida d'uso.
-
-### Q5: Hai bisogno di assistenza o hai domande specifiche?
-
-A5: Visita il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per supporto della community e discussioni.
-
 ## Domande Frequenti
 
 **D: Posso estrarre parole individuali invece di intere linee?**  

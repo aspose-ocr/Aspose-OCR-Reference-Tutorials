@@ -69,13 +69,6 @@ Aspose.OCR предоставляет гибкий API, позволяющий �
 ### [Выполнить OCR на изображении в распознавании изображений OCR](./perform-ocr-on-image/)
 Откройте магию OCR с Aspose.OCR для .NET и без труда извлекайте текст из изображений. Изучите руководство для бесшовной интеграции.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Можно ли использовать Aspose.OCR в веб‑приложении?**  
@@ -98,3 +91,10 @@ Aspose.OCR предоставляет гибкий API, позволяющий �
 **Последнее обновление:** 2025-12-17  
 **Тестировано с:** Aspose.OCR 24.11 for .NET  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

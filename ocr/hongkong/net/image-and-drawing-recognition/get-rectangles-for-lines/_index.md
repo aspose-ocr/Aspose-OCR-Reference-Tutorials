@@ -115,28 +115,6 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 | **大型影像的效能瓶頸** | 在呼叫 `GetRectangles` 前，將影像調整至合理的解析度。 |
 | **授權例外** | 測試時使用試用授權；正式環境請套用完整授權以避免評估限制。 |
 
-## 常見問答
-
-### Q1：我可以在 .NET 上使用 Aspose.OCR 處理任何類型的影像嗎？
-
-A1：Aspose.OCR 支援多種影像格式，確保您的 OCR 應用具備彈性。
-
-### Q2：OCR 辨識的精確度如何？
-
-A2：Aspose.OCR 採用先進演算法，具備高精度，適用於各種文字辨識情境。
-
-### Q3：是否提供試用版？
-
-A3：是的，您可透過[免費試用](https://releases.aspose.com/)了解 Aspose.OCR for .NET 的功能。
-
-### Q4：在哪裡可以找到完整的文件說明？
-
-A4：請參考[文件說明](https://reference.aspose.com/ocr/net/)，獲取詳細資訊與使用指南。
-
-### Q5：需要協助或有特定問題嗎？
-
-A5：前往[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)取得社群支援與討論。
-
 ## 常見問題
 
 **Q：我可以擷取單獨的單字而非整行嗎？**  

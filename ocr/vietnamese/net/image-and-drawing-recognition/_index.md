@@ -70,13 +70,6 @@ Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng 
 ### [Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR](./perform-ocr-on-image/)
 Mở khóa sức mạnh OCR với Aspose.OCR cho .NET, dễ dàng trích xuất văn bản từ hình ảnh. Khám phá tutorial để tích hợp liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Can I use Aspose.OCR in a web application?**  
@@ -99,3 +92,10 @@ A: Không, một giấy phép Aspose.OCR duy nhất bao phủ tất cả các n�
 **Cập nhật lần cuối:** 2025-12-17  
 **Đã kiểm tra với:** Aspose.OCR 24.11 for .NET  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

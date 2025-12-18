@@ -64,12 +64,6 @@ Odblokuj możliwości OCR w aplikacjach .NET z Aspose.OCR. Poznaj samouczki doty
 Maksymalizuj dokładność OCR z samouczkami Aspose.OCR dla .NET. Przeprowadzaj OCR na obrazach, przygotowuj prostokąty, stosuj filtry wstępnego przetwarzania, koryguj wyniki przy pomocy sprawdzania pisowni i zapisuj wyniki wielostronicowe bez wysiłku.
 ### [Ustawienia OCR](./ocr-settings/)
 Odblokuj moc Aspose.OCR dla .NET dzięki naszym samouczkom dotyczącym ustawień OCR. Naucz się zwiększać dokładność, szybkość i personalizację rozpoznawania tekstu w obrazach.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Najczęściej zadawane pytania
 
@@ -94,4 +88,9 @@ A: Podstawowe odręczne pismo jest obsługiwane, ale wyniki mogą się różnić
 **Testowano z:** Aspose.OCR dla .NET 24.11  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

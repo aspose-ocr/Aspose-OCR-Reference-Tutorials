@@ -65,12 +65,6 @@ Aspose.OCR ile .NET uygulamalarında OCR yeteneklerini açığa çıkarın. Arş
 Aspose.OCR for .NET öğreticileriyle OCR doğruluğunu en üst düzeye çıkarın. Görüntülerde OCR gerçekleştirin, dikdörtgenleri hazırlayın, ön işleme filtreleri uygulayın, sonuçları yazım denetimiyle düzeltin ve çok sayfalı sonuçları zahmetsizce kaydedin.
 ### [OCR Ayarları](./ocr-settings/)
 Aspose.OCR for .NET'in gücünü OCR Ayarları Öğreticilerimizle açığa çıkarın. Görüntülerde metin tanıma için doğruluk, hız ve özelleştirmeyi artırmayı öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Sıkça Sorulan Sorular
 
@@ -94,3 +88,10 @@ C: Temel el yazısı desteklenir, ancak sonuçlar değişebilir; daha iyi sonuç
 **Son Güncelleme:** 2025-12-17  
 **Test Edilen Versiyon:** Aspose.OCR for .NET 24.11  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

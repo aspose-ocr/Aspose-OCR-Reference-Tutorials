@@ -63,32 +63,32 @@ Unlock OCR capabilities in .NET apps with Aspose.OCR. Explore tutorials for arch
 Maximize OCR accuracy with Aspose.OCR for .NET tutorials. Perform OCR on images, prepare rectangles, apply preprocessing filters, correct results with spell checking, and save multipage results effortlessly.
 ### [OCR Settings](./ocr-settings/)
 Unlock the power of Aspose.OCR for .NET with our OCR Settings Tutorials. Learn to enhance accuracy, speed, and customization for text recognition in images.
+
+## よくある質問
+
+**Q: 低解像度画像のOCR精度を向上させるにはどうすればよいですか？**
+A: 認識前に画像の前処理（ノイズ除去、2値化）を行い、傾き角度を補正してください。
+
+**Q: 1つのドキュメントで複数の言語を認識することはできますか？**
+A: はい。OCRの言語選択機能を使用して、カンマ区切りの言語リストを指定できます。
+
+**Q: スキャンしたページを含むPDFからテキストを抽出する最適な方法は何ですか？**
+A: 各PDFページを画像に変換し、傾きを補正してから、適切な言語設定でAspose.OCRを実行してください。
+
+**Q: OCRをマルチスレッド環境で実行できますか？**
+A: もちろんです。スレッドごとに個別のOCRオブジェクトをインスタンス化するか、Aspose.OCRが提供するスレッドセーフな静的メソッドを使用してください。
+
+**Q: Aspose.OCRは手書き認識をサポートしていますか？**
+A: 基本的な手書き認識はサポートされていますが、結果は異なる場合があります。より良い結果を得るために追加の前処理を検討してください。
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.OCR for .NET 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
-
-**Q: How can I improve OCR accuracy on low‑resolution images?**  
-A: Apply image preprocessing (de‑noise, binarization) and correct the skew angle before recognition.
-
-**Q: Is it possible to recognize multiple languages in a single document?**  
-A: Yes—use the OCR language selection feature to specify a comma‑separated list of languages.
-
-**Q: What is the best way to extract text from PDFs that contain scanned pages?**  
-A: Convert each PDF page to an image, correct skew, then run Aspose.OCR with appropriate language settings.
-
-**Q: Can I run OCR in a multi‑threaded environment?**  
-A: Absolutely. Instantiate separate OCR objects per thread or use the thread‑safe static methods provided by Aspose.OCR.
-
-**Q: Does Aspose.OCR support handwriting recognition?**  
-A: Basic handwriting is supported, but results may vary; consider additional preprocessing for better outcomes.
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose

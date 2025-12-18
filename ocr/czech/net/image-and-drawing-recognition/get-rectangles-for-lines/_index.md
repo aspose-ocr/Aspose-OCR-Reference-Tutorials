@@ -118,28 +118,6 @@ Vytiskněte souřadnice detekovaných oblastí do konzole. Uvidíte hodnoty, kte
 
 ## Často kladené otázky
 
-### Q1: Mohu použít Aspose.OCR pro .NET s jakýmkoli typem obrázku?
-
-A1: Aspose.OCR podporuje širokou škálu formátů obrázků, což zajišťuje flexibilitu ve vašich OCR aplikacích.
-
-### Q2: Jak přesné je rozpoznávání OCR?
-
-A2: Aspose.OCR využívá pokročilé algoritmy pro vysokou přesnost, což jej činí vhodným pro různé scénáře rozpoznávání textu.
-
-### Q3: Je k dispozici zkušební verze?
-
-A3: Ano, můžete prozkoumat možnosti Aspose.OCR pro .NET pomocí [bezplatné zkušební verze](https://releases.aspose.com/).
-
-### Q4: Kde najdu komplexní dokumentaci?
-
-A4: Podívejte se na [dokumentaci](https://reference.aspose.com/ocr/net/) pro podrobné informace a pokyny k použití.
-
-### Q5: Potřebujete pomoc nebo máte konkrétní otázky?
-
-A5: Navštivte [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pro podporu komunity a diskuze.
-
-## Často kladené otázky
-
 **Q: Mohu extrahovat jednotlivá slova místo celých řádků?**  
 A: Ano, použijte `AreasType.WORDS` se stejnou metodou `GetRectangles` pro získání ohraničujících rámečků na úrovni slov.
 

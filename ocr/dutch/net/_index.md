@@ -64,12 +64,6 @@ Ontgrendel OCR‑mogelijkheden in .NET‑apps met Aspose.OCR. Verken tutorials v
 Maximaliseer OCR‑nauwkeurigheid met Aspose.OCR voor .NET‑tutorials. Voer OCR uit op afbeeldingen, bereid rechthoeken voor, pas pre‑processing filters toe, corrigeer resultaten met spell‑checking, en sla multi‑page resultaten moeiteloos op.
 ### [OCR‑instellingen](./ocr-settings/)
 Ontgrendel de kracht van Aspose.OCR voor .NET met onze OCR‑instellingen‑tutorials. Leer hoe je nauwkeurigheid, snelheid en aanpassing voor tekstherkenning in afbeeldingen kunt verbeteren.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Veelgestelde vragen
 
@@ -94,4 +88,9 @@ A: Basis‑handgeschrift wordt ondersteund, maar de resultaten kunnen variëren;
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

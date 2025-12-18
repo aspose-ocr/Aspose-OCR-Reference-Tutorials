@@ -65,12 +65,6 @@ Nyissa meg az OCR képességeket .NET alkalmazásokban az Aspose.OCR‑rel. Fede
 Maximalizálja az OCR pontosságát az Aspose.OCR for .NET oktatóanyagokkal. Végezzen OCR‑t képeken, készítsen elő téglalapokat, alkalmazzon előfeldolgozó szűrőket, javítsa az eredményeket helyesírás-ellenőrzéssel, és mentse a többoldalas eredményeket egyszerűen.
 ### [OCR beállítások](./ocr-settings/)
 Fedezze fel az Aspose.OCR for .NET erejét OCR beállítási oktatóanyagaink segítségével. Tanulja meg, hogyan növelje a pontosságot, sebességet és testreszabhatóságot a képek szövegfelismerésében.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## Gyakran ismételt kérdések
 
@@ -95,4 +89,9 @@ V: Alapvető kézírás felismerés támogatott, de az eredmények változóak l
 **Tesztelve:** Aspose.OCR for .NET 24.11  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

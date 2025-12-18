@@ -117,23 +117,6 @@ Algılanan alanların koordinatlarını konsola yazdırın. Daha sonra özel iş
 | **Büyük görüntülerde performans darboğazı** | `GetRectangles` çağırmadan önce görüntüyü makul bir çözünürlüğe yeniden boyutlandırın. |
 | **Lisans istisnası** | Test için deneme lisansı kullanın; değerlendirme sınırlamalarından kaçınmak için üretimde tam lisans uygulayın. |
 
-## SSS'ler
-
-### S1: Aspose.OCR for .NET'i herhangi bir türde görüntüyle kullanabilir miyim?
-**C1:** Aspose.OCR, OCR uygulamalarınızda esneklik sağlayan geniş bir görüntü formatı yelpazesini destekler.
-
-### S2: OCR tanıması ne kadar doğru?
-**C2:** Aspose.OCR, yüksek doğruluk için gelişmiş algoritmalar kullanır ve çeşitli metin tanıma senaryoları için uygundur.
-
-### S3: Deneme sürümü mevcut mu?
-**C3:** Evet, Aspose.OCR for .NET'in yeteneklerini [ücretsiz deneme](https://releases.aspose.com/) ile keşfedebilirsiniz.
-
-### S4: Kapsamlı belgeleri nerede bulabilirim?
-**C4:** Ayrıntılı bilgi ve kullanım kılavuzları için [belgelere](https://reference.aspose.com/ocr/net/) bakın.
-
-### S5: Yardıma mı ihtiyacınız var ya da belirli sorularınız mı var?
-**C5:** Topluluk desteği ve tartışmalar için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
-
 ## Sık Sorulan Sorular
 
 **S: Tek satırlar yerine tek tek kelimeleri çıkarabilir miyim?**  

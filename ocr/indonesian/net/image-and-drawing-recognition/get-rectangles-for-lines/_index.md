@@ -117,28 +117,6 @@ Cetak koordinat area yang terdeteksi ke konsol. Anda akan melihat nilai‑nilai 
 | **Bottleneck kinerja pada gambar besar** | Ubah ukuran gambar ke resolusi yang wajar sebelum memanggil `GetRectangles`. |
 | **Pengecualian lisensi** | Gunakan lisensi percobaan untuk pengujian; terapkan lisensi penuh untuk produksi agar menghindari batas evaluasi. |
 
-## FAQ
-
-### Q1: Bisakah saya menggunakan Aspose.OCR untuk .NET dengan jenis gambar apa pun?
-
-A1: Aspose.OCR mendukung berbagai format gambar, memastikan fleksibilitas dalam aplikasi OCR Anda.
-
-### Q2: Seberapa akurat pengenalan OCR?
-
-A2: Aspose.OCR memanfaatkan algoritma canggih untuk akurasi tinggi, menjadikannya cocok untuk berbagai skenario pengenalan teks.
-
-### Q3: Apakah tersedia versi percobaan?
-
-A3: Ya, Anda dapat menjelajahi kemampuan Aspose.OCR untuk .NET dengan [versi percobaan gratis](https://releases.aspose.com/).
-
-### Q4: Di mana saya dapat menemukan dokumentasi lengkap?
-
-A4: Lihat [dokumentasi](https://reference.aspose.com/ocr/net/) untuk informasi detail dan panduan penggunaan.
-
-### Q5: Butuh bantuan atau memiliki pertanyaan spesifik?
-
-A5: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan diskusi.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya mengekstrak kata individual alih‑alih seluruh baris?**  

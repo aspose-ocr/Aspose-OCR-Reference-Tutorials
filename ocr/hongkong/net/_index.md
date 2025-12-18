@@ -68,12 +68,6 @@ weight: 10
 
 ### [OCR Settings](./ocr-settings/)
 透過我們的 OCR 設定教學，發揮 Aspose.OCR for .NET 的威力。學習提升影像文字辨識的準確度、速度與客製化。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## 常見問題
 
@@ -98,4 +92,9 @@ A: 支援基本的手寫辨識，但結果可能有所不同；建議加入額�
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
