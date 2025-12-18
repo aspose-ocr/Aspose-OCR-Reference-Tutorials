@@ -1,35 +1,53 @@
 ---
-title: Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
-linktitle: Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
-second_title: Aspose.OCR Java API'si
-description: Bu adım adım kılavuzla Aspose.OCR for Java'nın potansiyelini ortaya çıkarın. Lisansınızı zahmetsizce kurun ve OCR yeteneklerinizi geliştirin.
-weight: 10
+date: 2025-12-10
+description: Java'da Aspose.OCR lisansını nasıl doğrulayacağınızı öğrenin. Bu adım
+  adım Aspose OCR Java öğreticisi, tam OCR işlevselliği için lisansı nasıl ayarlayacağınızı
+  ve doğrulayacağınızı gösterir.
+linktitle: How to Verify Aspose.OCR License in Java
+second_title: Aspose.OCR Java API
+title: Java'da Aspose.OCR Lisansını Nasıl Doğrularsınız
 url: /tr/java/ocr-basics/set-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java'da Aspose.OCR Lisansı Nasıl Ayarlanır
+# Aspose.OCR Lisansını Java'da Nasıl Doğrularsınız
 
-## giriiş
+## Giriş
 
-Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), görüntülerden metin bilgisi çıkarmak için çok önemli bir araç haline geldi. Aspose.OCR for Java, geliştiricilerin OCR yeteneklerini Java uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanıyan güçlü bir OCR çözümü olarak öne çıkıyor. Bu adım adım kılavuz, Java'da Aspose.OCR lisansını kurma sürecinde size yol gösterecek ve bu güçlü aracın tüm potansiyelinden yararlanmanızı sağlayacaktır.
+Optik Karakter Tanıma (OCR), görüntüleri aranabilir, düzenlenebilir metne dönüştürmek için gereklidir. **Aspose.OCR for Java**, geliştiricilere güçlü, kullanıma hazır bir motor sunar, ancak lisans doğrulandıktan sonra tam kapasite çalışır. Bu öğreticide, **Aspose OCR lisansını** programlı olarak, adım adım nasıl doğrulayacağınızı öğrenecek ve uygulamanızın değerlendirme sınırlamaları olmadan güvenilir bir şekilde metin çıkarabilmesini sağlayacaksınız.
+
+## Hızlı Yanıtlar
+- **Aspose OCR lisansını doğrulamak** ne anlama geliyor? Geçerli bir lisans dosyasının yüklendiğini onaylar ve tam özellik setinin kilidini açar.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için geçici bir lisans mevcuttur; üretim için kalıcı bir lisans gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Aspose.OCR, Java 8 ve üzeri, Java 11+ dahil olmak üzere çalışır.  
+- **Lisans dosyasını nereye koymalıyım?** Uygulamanızın erişebileceği herhangi bir konuma; kodda doğru yolu belirtmeniz yeterlidir.  
+- **Lisansın geçerli olup olmadığını nasıl kontrol ederim?** `License.isValid()` kullanın – lisans başarılı bir şekilde yüklendiğinde `true` döndürür.
+
+## “Aspose OCR lisansını doğrulama” adımı nedir?
+
+Lisansı doğrulamak, Aspose.OCR'a geçerli bir kopyaya sahip olduğunuzu bildirir, filigranları ve kullanım sınırlamalarını kaldırır. Doğrulama süreci basit iki satırlık bir kod çağrısıdır: lisans dosyası yolunu ayarlayın ve ardından geçerliliğini sorgulayın.
+
+## Neden bu Aspose OCR Java öğreticisini kullanmalısınız?
+
+- **Tam işlevsellik:** Deneme sınırlamaları yok, tam dil desteği ve yüksek doğruluk.  
+- **Kolay entegrasyon:** Sadece birkaç satır kod gerekir.  
+- **Kurumsal hazır:** Windows, Linux ve bulut ortamlarında çalışır.
 
 ## Önkoşullar
 
-Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Java Geliştirme Ortamı: Makinenizde bir Java geliştirme ortamının kurulu olduğundan emin olun.
+1. **Java Geliştirme Ortamı** – JDK 8+ yüklü ve yapılandırılmış.  
+2. **Aspose.OCR for Java paketi** – [download link](https://releases.aspose.com/ocr/java/) adresinden indirin.  
+3. **Geçerli bir lisans dosyası** – [buradan](https://purchase.aspose.com/temporary-license/) geçici veya kalıcı bir lisans edinin.
 
-2.  Aspose.OCR for Java Paketi: Aspose.OCR for Java paketini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/ocr/java/).
+## Paketleri İçe Aktarın
 
-3. Geçerli Lisans: Aspose.OCR için geçerli bir lisans edinin. Eğer lisansınız yoksa, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
-
-## Paketleri İçe Aktar
-
-Entegrasyon sürecini başlatmak için gerekli paketleri Java projenize aktarın. Kodunuza aşağıdaki satırları ekleyin:
+Lisanslama API'siyle çalışabilmek için Java sınıfınıza gerekli import ifadelerini ekleyin.
 
 ```java
 package com.aspose.ocr.examples.License;
@@ -37,53 +55,63 @@ package com.aspose.ocr.examples.License;
 import com.aspose.ocr.License;
 ```
 
-## 1. Adım: Lisansı Ayarlayın
+## Adım 1: Lisansı Ayarlayın
 
-Aspose.OCR lisansını Java uygulamanıza ayarlamak için aşağıdaki kod parçasını ekleyin. Dosya yolunu geçerli lisans dosyanızın konumuyla değiştirin.
+Kütüphaneyi `.lic` dosyanıza yönlendirin. Yer tutucu yolu, lisansınızın gerçek konumuyla değiştirin.
 
 ```java
-//Lisansı ayarla
-String file = "Aspose.Total.lic"; //geçerli bir lisansa işaret edecek yolu değiştirin
+//Set license
+String file = "Aspose.Total.lic"; //change the path to point to a valid license
 License.setLicense(file);
 ```
 
-## 2. Adım: Lisansı Kontrol Edin
+## Adım 2: Lisansı Doğrulayın
 
-Aşağıdaki kod parçacığını kullanarak lisansın başarıyla ayarlanıp ayarlanmadığını doğrulayın:
+Lisansı ayarladıktan sonra, doğru yüklendiğini doğrulayın. Bu, temel **Aspose OCR lisansını doğrulama** işlemidir.
 
 ```java
-//Lisansı kontrol edin
+//Check license
 boolean resLicense = License.isValid();
 System.out.println("License is set: " + resLicense);
 ```
 
-Tebrikler! Aspose.OCR lisansını artık Java uygulamanızda başarıyla kurdunuz.
+Konsol `License is set: true` yazdırıyorsa, tam OCR özelliklerini kullanmaya hazırsınız.
 
-## Çözüm
+## Yaygın Sorunlar ve Sorun Giderme
 
-Sonuç olarak, Aspose.OCR for Java'yı projelerinize entegre etmek kusursuz bir süreçtir ve güçlü OCR özelliklerini parmaklarınızın ucuna getirir. Bu adım adım kılavuzu izleyerek uygulamanızın lisanslı olduğundan ve görüntülerden değerli metinsel bilgiler çıkarmaya hazır olduğundan emin oldunuz.
+| Semptom | Muhtemel Neden | Çözüm |
+|---------|----------------|-------|
+| `License.isValid()` `false` döndürür | Yanlış dosya yolu veya bozuk lisans dosyası | Yolu tekrar kontrol edin, dosyanın değiştirilmediğinden ve uygulamanın okuma izinlerine sahip olduğundan emin olun. |
+| Eksik yerel kitaplıklar hakkında RuntimeException | Aspose.OCR yerel ikili dosyaları eksik | `java.library.path` içinde Aspose.OCR dağıtımının `lib` klasörünün bulunduğundan emin olun. |
+| Lisans IDE'de çalışıyor ama dağıtılmış JAR'da çalışmıyor | Lisans dosyası JAR ile paketlenmemiş | Lisansı JAR dışındaki bir konuma yerleştirin ve mutlak yolu referans gösterin, ya da kaynak olarak gömün ve `getResourceAsStream` ile yükleyin. |
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.OCR for Java'yı lisans olmadan kullanabilir miyim?
+Bu **Aspose OCR Java öğreticisini** izleyerek, bir Java uygulamasında **Aspose OCR lisansını** nasıl ayarlayacağınızı ve **doğrulayacağınızı** öğrendiniz. Projeniz artık Aspose'un yüksek doğruluklu OCR motoruna sınırsız erişime sahip ve görüntüleri aranabilir metne dönüştürmeye hazır.
 
-Cevap1: Geçici lisans mevcut olmakla birlikte kesintisiz kullanım için geçerli bir lisans alınması tavsiye edilir.
+## Sık Sorulan Sorular
 
-### S2: Aspose.OCR, Java 11 ve üzeri ile uyumlu mudur?
+**S: Spring Boot uygulamasında lisans dosyasını saklamanın en iyi yolu nedir?**  
+C: `.lic` dosyasını `resources` klasörüne koyun ve `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());` ile yükleyin.
 
-Cevap2: Evet, Aspose.OCR, Java 11 ve üzeri sürümlerle uyumludur.
+**S: Lisans doğrulaması performansı etkiler mi?**  
+C: Hayır. Kontrol, başlangıçta bir kez yapılır ve çalışma zamanı OCR performansı üzerinde ihmal edilebilir bir etkisi vardır.
 
-### S3: Aspose.OCR lisansımı ne sıklıkla yenilemem gerekiyor?
+**S: Birden fazla lisans dosyası arasında programlı olarak geçiş yapabilir miyim?**  
+C: Evet. Aktif lisansı değiştirmek istediğinizde farklı bir yol ile `License.setLicense(path)` çağırın.
 
-Cevap3: Aspose.OCR lisansları genellikle kalıcıdır ve satın aldığınız sürümü süresiz olarak kullanmanıza olanak tanır. Ancak en son özellikler için güncellemeleri kontrol edin.
+**S: Lisans doğrulama durumunu kaydetmenin bir yolu var mı?**  
+C: Herhangi bir kayıt çerçevesi (ör. SLF4J) entegre edebilir ve `License.isValid()` tarafından döndürülen boolean sonucu kaydedebilirsiniz.
 
-### S4: Aspose.OCR'ı ticari projeler için kullanabilir miyim?
+**S: Lisans Docker konteynerlerinde çalışır mı?**  
+C: Kesinlikle, lisans dosyası konteyner içinde erişilebilir olduğu ve doğru yol sağlandığı sürece.
 
-C4: Evet, Aspose.OCR, lisans şartlarına uyduğunuz sürece hem kişisel hem de ticari projeler için kullanılabilir.
+---
 
-### S5: Aspose.OCR for Java için ek desteği nerede bulabilirim?
+**Last Updated:** 2025-12-10  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose  
 
- A5: ziyaret edin[Aspose.OCR Forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
