@@ -1,35 +1,53 @@
 ---
-title: การแสดง OCR ด้วยการเลือกภาษาใน Aspose.OCR
-linktitle: การแสดง OCR ด้วยการเลือกภาษาใน Aspose.OCR
+date: 2025-12-13
+description: เรียนรู้วิธีดึงข้อความจากภาพโดยใช้ Aspose.OCR สำหรับ Java พร้อมการเลือกภาษา
+  บทเรียน Aspose OCR Java แบบขั้นตอนนี้แสดงการกำหนดค่า OCR อย่างแม่นยำ.
+linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
 second_title: Aspose.OCR Java API
-description: ปลดล็อกการแยกข้อความจากรูปภาพอย่างแม่นยำด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อ OCR ที่แม่นยำพร้อมการเลือกภาษา
-weight: 11
+title: วิธีดึงข้อความจากภาพพร้อมการเลือกภาษาโดยใช้ Aspose.OCR
 url: /th/java/ocr-operations/perform-ocr-language-selection/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การแสดง OCR ด้วยการเลือกภาษาใน Aspose.OCR
+# วิธีดึงข้อความจากรูปภาพพร้อมการเลือกภาษาโดยใช้ Aspose.OCR
 
-## การแนะนำ
+## Introduction
 
-ในภูมิทัศน์ของเทคโนโลยีที่เปลี่ยนแปลงตลอดเวลา Optical Character Recognition (OCR) มีบทบาทสำคัญในการดึงข้อมูลที่มีความหมายจากรูปภาพ Aspose.OCR สำหรับ Java โดดเด่นในฐานะเครื่องมืออันทรงพลังที่ช่วยให้นักพัฒนาสามารถรวมความสามารถ OCR เข้ากับแอปพลิเคชัน Java ของตนได้อย่างราบรื่น ในคำแนะนำทีละขั้นตอนนี้ เราจะสำรวจวิธีดำเนินการ OCR ด้วยการเลือกภาษาโดยใช้ Aspose.OCR เพื่อปลดล็อกศักยภาพในการประมวลผลเนื้อหาที่หลากหลายด้วยความแม่นยำ
+การดึงข้อความจากไฟล์รูปภาพเป็นความต้องการทั่วไป ไม่ว่าจะเป็นการแปลงเอกสารสแกนเป็นดิจิทัล การประมวลผลใบเสร็จ หรือการสร้างคลังข้อมูลที่สามารถค้นหาได้ Aspose.OCR for Java ทำให้ภารกิจนี้ง่ายขึ้นและให้การควบคุมระดับละเอียดเกี่ยวกับการเลือกภาษา การแก้ไขการเอียง และพื้นที่การรับรู้ ในบทเรียนนี้เราจะเดินผ่านตัวอย่างเต็มรูปแบบที่แสดง **วิธีดึงข้อความจากรูปภาพ** ด้วยการตั้งค่าภาษาเฉพาะ เพื่อให้คุณสามารถผสาน OCR ที่เชื่อถือได้เข้ากับแอปพลิเคชัน Java ของคุณได้ทันที
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **ไลบรารีใดที่จัดการ OCR ใน Java?** Aspose.OCR for Java  
+- **การตั้งค่าใดที่เลือกภาษา?** `settings.setLanguage(Language.Eng)` (หรือภาษาอื่นที่รองรับ)  
+- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** ไลเซนส์ทดลองฟรีใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถจำกัด OCR ให้ทำงานในส่วนของภาพได้หรือไม่?** ใช่, ใช้ `RecognitionSettings.setRecognitionAreas()` พร้อมสี่เหลี่ยม.  
+- **ระยะเวลาการทำงานโดยทั่วไปคือเท่าไหร่?** ไม่กี่วินาทีต่อหน้าในแล็ปท็อปมาตรฐาน, ขึ้นอยู่กับขนาดภาพและความซับซ้อนของภาษา.
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is “extract text from image”?
 
-- สภาพแวดล้อมการพัฒนา Java: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java บนระบบของคุณ และสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าแล้ว
+การดึงข้อความจากรูปภาพ (OCR) แปลงการแสดงผลของอักขระจากภาพเป็นสตริงที่เครื่องคอมพิวเตอร์อ่านได้ ซึ่งทำให้สามารถค้นหา, วิเคราะห์, และกระบวนการดึงข้อมูลที่โดยปกติจะต้องทำการถอดข้อความด้วยมือได้
 
--  ไลบรารี Aspose.OCR: ดาวน์โหลดและติดตั้งไลบรารี Aspose.OCR สำหรับ Java คุณสามารถค้นหาห้องสมุดและเอกสารที่เกี่ยวข้อง[ที่นี่](https://reference.aspose.com/ocr/java/).
+## Why use Aspose.OCR with language selection?
 
-- ไฟล์รูปภาพ: เตรียมไฟล์รูปภาพที่มีข้อความที่คุณต้องการแยก ตัวอย่างเช่น ลองใช้ไฟล์ชื่อ "p3.png"
+- **การสนับสนุนหลายภาษา** – เลือกภาษาที่ปรากฏในภาพของคุณอย่างแม่นยำเพื่อเพิ่มความถูกต้อง.  
+- **การควบคุมละเอียด** – ปรับการเอียง, กำหนดพื้นที่การรับรู้, และตั้งค่าพฤติกรรมการเอียงอัตโนมัติ.  
+- **Pure Java API** – ไม่มีการพึ่งพา native, ง่ายต่อการผสานเข้ากับโครงการ Java ใดก็ได้.  
+- **ข้อมูลผลลัพธ์ที่ครบถ้วน** – รับข้อความธรรมดา, JSON, สี่เหลี่ยมขอบ, และคำเตือนในการเรียกครั้งเดียว.
 
-## แพ็คเกจนำเข้า
+## Prerequisites
 
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานของ Aspose.OCR เพิ่มบรรทัดต่อไปนี้ที่จุดเริ่มต้นของไฟล์ Java ของคุณ:
+ก่อนเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมี:
+
+- **Java Development Kit (JDK)** ติดตั้ง (JDK 8 หรือใหม่กว่า).  
+- **Aspose.OCR for Java** library – ดาวน์โหลดจากเว็บไซต์อย่างเป็นทางการ [ที่นี่](https://reference.aspose.com/ocr/java/).  
+- ไฟล์รูปภาพที่มีข้อความที่คุณต้องการดึง, เช่น `p3.png`.
+
+## Import Packages
+
+In your Java source file, include the required Aspose.OCR classes and standard Java utilities:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -47,37 +65,45 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
+## Step‑by‑Step Guide
+
+### Step 1: Set up Your Document Directory
 
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-แทนที่ "Your Document Directory" ด้วยเส้นทางจริงไปยังไดเร็กทอรีที่มีไฟล์รูปภาพของคุณ
+Replace `"Your Document Directory"` with the absolute path where `p3.png` resides.
 
-## ขั้นตอนที่ 2: กำหนดเส้นทางรูปภาพ
+เปลี่ยน `"Your Document Directory"` ให้เป็นเส้นทางเต็มที่ที่มีไฟล์ `p3.png` อยู่
+
+### Step 2: Define the Image Path
 
 ```java
-// เส้นทางภาพ
+// The image path
 String file = dataDir + "p3.png";
 ```
 
-ปรับตัวแปรไฟล์ให้ชี้ไปที่ไฟล์ภาพเฉพาะของคุณ
+Make sure the `file` variable points to the exact image you intend to process.
 
-## ขั้นตอนที่ 3: สร้างอินสแตนซ์ Aspose.OCR API
+ตรวจสอบให้แน่ใจว่า ตัวแปร `file` ชี้ไปยังไฟล์รูปภาพที่ต้องการประมวลผลอย่างถูกต้อง
+
+### Step 3: Create Aspose.OCR API Instance
 
 ```java
-// สร้างอินสแตนซ์ API
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-เริ่มต้นวัตถุ AsposeOCR เพื่อเข้าถึงคุณสมบัติต่างๆ
+The `AsposeOCR` object gives you access to all OCR operations.
 
-## ขั้นตอนที่ 4: ตั้งค่าตัวเลือกการจดจำ
+อ็อบเจกต์ `AsposeOCR` ให้คุณเข้าถึงการทำงาน OCR ทั้งหมด
+
+### Step 4: Set Recognition Options (Language Selection)
 
 ```java
-// ตั้งค่าตัวเลือกการจดจำ
+// Set recognition options
 RecognitionSettings settings = new RecognitionSettings();
 settings.setAutoSkew(false);
 ArrayList<Rectangle> rectangles = new ArrayList<Rectangle>();
@@ -87,12 +113,22 @@ settings.setSkew(0.5);
 settings.setLanguage(Language.Eng);
 ```
 
-ปรับแต่งการตั้งค่าการจดจำตามความต้องการของคุณ ปรับพารามิเตอร์ เช่น การเอียง ภาษา และพื้นที่การจดจำ
+Here we:
 
-## ขั้นตอนที่ 5: ดำเนินการ OCR และดึงผลลัพธ์
+1. Disable auto‑skew because we provide a manual skew value.  
+2. Define a rectangular region (`RecognitionAreas`) to limit OCR to the part of the image that actually contains text.  
+3. Set the **language** to English (`Language.Eng`). Change this to `Language.Fra`, `Language.Spa`, etc., depending on your source image.
+
+ในที่นี้เรา:
+
+1. ปิดการทำ auto‑skew เนื่องจากเรากำหนดค่าการเอียงด้วยตนเอง.  
+2. กำหนดพื้นที่สี่เหลี่ยม (`RecognitionAreas`) เพื่อจำกัด OCR ให้ทำงานเฉพาะส่วนของภาพที่มีข้อความจริง.  
+3. ตั้งค่า **ภาษา** เป็น English (`Language.Eng`). เปลี่ยนเป็น `Language.Fra`, `Language.Spa` ฯลฯ ตามภาพต้นฉบับของคุณ.
+
+### Step 5: Perform OCR and Retrieve Results
 
 ```java
-// รับวัตถุผลลัพธ์
+// Get result object
 RecognitionResult result = null;
 try {
     result = api.RecognizePage(file, settings);
@@ -101,12 +137,14 @@ try {
 }
 ```
 
-ดำเนินการ OCR โดยใช้ไฟล์รูปภาพและการตั้งค่าที่ระบุ บันทึกผลลัพธ์ในวัตถุ RecognitionResult
+The `RecognizePage` call runs the OCR engine using the image and the settings you defined. The outcome is stored in a `RecognitionResult` object.
 
-## ขั้นตอนที่ 6: พิมพ์และใช้ประโยชน์จากผลลัพธ์
+การเรียก `RecognizePage` จะรันเครื่องมือ OCR ด้วยภาพและการตั้งค่าที่คุณกำหนด ผลลัพธ์จะถูกเก็บไว้ในอ็อบเจกต์ `RecognitionResult`
+
+### Step 6: Print and Utilize Results
 
 ```java
-// พิมพ์ผล
+// Print result
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
 for (String n : result.recognitionAreasText) {
     System.out.println(n);
@@ -123,33 +161,62 @@ for (String n : result.warnings) {
 System.out.println("OCROperationWithLanguageSelection: execution complete");
 ```
 
-พิมพ์ข้อความที่แยกออกมา พื้นที่การจดจำ การแสดง JSON มุมเอียง และคำเตือนใดๆ ใช้ผลลัพธ์ตามความจำเป็นในแอปพลิเคชันของคุณ
+The console output shows:
 
-## บทสรุป
+- The full extracted text (`recognitionText`).  
+- Text for each defined rectangle (`recognitionAreasText`).  
+- Bounding rectangle coordinates.  
+- A JSON representation for easy downstream processing.  
+- Detected skew angle and any warnings.
 
-ในบทช่วยสอนนี้ เราได้เจาะลึกเกี่ยวกับการผสานรวม Aspose.OCR สำหรับ Java อย่างราบรื่นเพื่อดำเนินการ OCR ด้วยการเลือกภาษา ไลบรารีอันทรงพลังนี้เปิดโลกแห่งความเป็นไปได้สำหรับนักพัฒนาที่ต้องการดึงข้อความจากรูปภาพอย่างแม่นยำ
+You can now feed `result.recognitionText` into your business logic—store it, index it, or pass it to another service.
 
-## คำถามที่พบบ่อย
+ผลลัพธ์ที่แสดงบนคอนโซลประกอบด้วย:
 
-### คำถามที่ 1: ฉันสามารถใช้ Aspose.OCR สำหรับหลายภาษาในกระบวนการจดจำเดียวได้หรือไม่
+- ข้อความที่ดึงทั้งหมด (`recognitionText`).  
+- ข้อความสำหรับแต่ละสี่เหลี่ยมที่กำหนด (`recognitionAreasText`).  
+- พิกัดของสี่เหลี่ยมขอบ.  
+- ตัวแทนในรูปแบบ JSON เพื่อการประมวลผลต่อไปอย่างง่ายดาย.  
+- มุมการเอียงที่ตรวจพบและคำเตือนใด ๆ
 
-A1: ได้ คุณสามารถตั้งค่าได้หลายภาษาใน RecognitionSettings เพื่อเพิ่มความแม่นยำในการรู้จำสำหรับเนื้อหาหลายภาษา
+คุณสามารถนำ `result.recognitionText` ไปใช้ในตรรกะธุรกิจของคุณได้—เก็บไว้, ทำดัชนี, หรือส่งต่อให้บริการอื่น
 
-### คำถามที่ 2: ฉันจะจัดการรูปแบบรูปภาพต่างๆ ด้วย Aspose.OCR ได้อย่างไร
+## Common Issues and Solutions
 
-A2: Aspose.OCR รองรับรูปแบบภาพที่หลากหลาย รวมถึง PNG, JPEG และ TIFF เพียงระบุเส้นทางไฟล์ที่ถูกต้องในตัวแปรเส้นทางรูปภาพ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|-----|
+| **อักขระเสีย** | เลือกภาษาผิด | ตั้งค่า `Language` enum ให้ถูกต้อง (เช่น `Language.Fra` สำหรับภาษาฝรั่งเศส) |
+| **ไม่มีข้อความที่ส่งกลับ** | พื้นที่การรับรู้ไม่ครอบคลุมข้อความ | ปรับพิกัดของ `Rectangle` หรือเอา `RecognitionAreas` ออกเพื่อประมวลผลภาพทั้งหมด |
+| **ประสิทธิภาพช้า** | ภาพขนาดใหญ่มากหรือความละเอียดสูง | ลดขนาดภาพก่อน OCR หรือเพิ่มการจัดสรรหน่วยความจำให้กับ JVM |
+| **คำเตือนเกี่ยวกับรูปแบบที่ไม่รองรับ** | รูปแบบภาพไม่ถูกต้อง | แปลงภาพเป็น PNG, JPEG หรือ TIFF ก่อนประมวลผล |
 
-### คำถามที่ 3: มีการจำกัดขนาดของภาพที่ Aspose.OCR สามารถประมวลผลได้หรือไม่
+## Frequently Asked Questions
 
-A3: Aspose.OCR สามารถรองรับรูปภาพขนาดต่างๆ ได้ แต่รูปภาพขนาดใหญ่อาจต้องใช้เวลาและทรัพยากรในการประมวลผลมากขึ้น
+**ถาม: ฉันสามารถจดจำหลายภาษาในหนึ่งการเรียก OCR ได้หรือไม่?**  
+**ตอบ:** ใช่. ใช้ `settings.setLanguage(Language.Eng | Language.Fra)` เพื่อเปิดใช้งานการจดจำหลายภาษา.
 
-### คำถามที่ 4: ฉันสามารถปรับการตั้งค่าการจดจำสำหรับพื้นที่เฉพาะภายในรูปภาพได้หรือไม่
+**ถาม: รูปแบบไฟล์ภาพใดบ้างที่ Aspose.OCR รองรับ?**  
+**ตอบ:** PNG, JPEG, BMP, TIFF, GIF และรูปแบบอื่น ๆ เพียงระบุเส้นทางไฟล์ที่ถูกต้อง
 
-A4: แน่นอน. ใช้คุณสมบัติ RecognitionAreas เพื่อกำหนดสี่เหลี่ยมเฉพาะภายในภาพเพื่อการจดจำเป้าหมาย
+**ถาม: มีขนาดจำกัดสำหรับภาพหรือไม่?**  
+**ตอบ:** ไม่มีขีดจำกัดที่แน่นอน แต่ภาพขนาดใหญ่มากจะเพิ่มการใช้หน่วยความจำและเวลาในการประมวลผล ควรปรับขนาดไฟล์ใหญ่ให้เหมาะสม
 
-### คำถามที่ 5: Aspose.OCR เหมาะสำหรับทั้งโครงการส่วนตัวและเชิงพาณิชย์หรือไม่
+**ถาม: ฉันจะได้ไลเซนส์สำหรับการใช้งานจริงอย่างไร?**  
+**ตอบ:** ซื้อไลเซนส์จากเว็บไซต์ Aspose แล้วนำไปใช้ผ่านคลาส `License` ตามที่แสดงในเอกสาร Aspose
 
-A5: ใช่ Aspose.OCR เสนอตัวเลือกสิทธิ์การใช้งานที่ยืดหยุ่น ทำให้เหมาะสำหรับการใช้งานส่วนบุคคลและเชิงพาณิชย์
+**ถาม: ฉันสามารถดึงข้อความจากหน้า PDF ได้โดยตรงหรือไม่?**  
+**ตอบ:** ไม่ได้โดยตรงกับ Aspose.OCR. ต้องแปลงหน้า PDF เป็นภาพก่อน (เช่น ใช้ Aspose.PDF) แล้วจึงทำ OCR
+
+## Conclusion
+
+คุณได้เห็นวิธี **ดึงข้อความจากรูปภาพ** ด้วย Aspose.OCR for Java พร้อมการเลือกภาษาที่เหมาะสมและการจำกัดการรับรู้ให้ทำงานในพื้นที่เฉพาะ วิธีนี้ให้ผลลัพธ์ OCR ที่แม่นยำและประสิทธิภาพสูง สามารถฝังลงในกระบวนการทำงานที่ใช้ Java ใดก็ได้—from ระบบจัดการเอกสารถึงสายการจับข้อมูล
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-13  
+**ทดสอบด้วย:** Aspose.OCR 24.11 for Java  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
