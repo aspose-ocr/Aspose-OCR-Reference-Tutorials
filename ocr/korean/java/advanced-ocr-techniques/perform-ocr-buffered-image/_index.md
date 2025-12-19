@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.OCR for Java를 사용하여 Java에서 이미지에서 텍스트를 추출하는 방법을 배워보세요. 이 단계별 튜토리얼에서는
   BufferedImage를 사용해 이미지를 텍스트로 변환하는 방법을 보여줍니다.
-language: ko
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Java 이미지에서 텍스트 추출: Aspose.OCR을 활용한 BufferedImage OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Java 이미지에서 텍스트 추출 - Aspose.OCR을 활용한 BufferedImage OCR'
+url: /ko/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

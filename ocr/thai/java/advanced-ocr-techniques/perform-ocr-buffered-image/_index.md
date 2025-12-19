@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีดึงข้อความจากรูปภาพใน Java ด้วย Aspose.OCR for Java ขั้นตอนโดยละเอียดนี้จะแสดงวิธีแปลงรูปภาพเป็นข้อความใน
   Java ด้วย BufferedImage.
-language: th
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'ดึงข้อความจากภาพใน Java: OCR บน BufferedImage ด้วย Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'ดึงข้อความจากภาพใน Java - OCR บน BufferedImage ด้วย Aspose.OCR'
+url: /th/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

@@ -3,10 +3,9 @@ date: 2025-12-06
 description: Domine a série de tutoriais Aspose OCR Java. Aprenda como extrair texto
   de imagens em aplicações Java, configurar licenças, detectar áreas e melhorar a
   precisão do OCR.
-language: pt
 linktitle: Aspose.OCR for Java Tutorials
 title: Tutorial Aspose OCR Java – Guias Abrangentes e Exemplos
-url: /java/
+url: /pt/java/
 weight: 10
 ---
 
@@ -60,6 +59,16 @@ Quer ir além dos fundamentos? [Advanced OCR Techniques](./advanced-ocr-techniqu
 - **Low‑resolution files** – Aumente o DPI ou aplique pré-processamento de imagem (por exemplo, binarização).  
 - **Incorrect language detection** – Defina explicitamente o idioma usando `setLanguage(Language.English)`.  
 
+## Tutoriais Aspose.OCR para Java
+### [OCR Basics](./ocr-basics/)
+Desbloqueie o potencial do Aspose.OCR em Java! Guia passo a passo para configurar sua licença e melhorar as capacidades de OCR. Calcule ângulos de inclinação e extraia texto sem esforço.
+
+### [OCR Operations](./ocr-operations/)
+Desbloqueie o potencial do Aspose.OCR para Java com nossos tutoriais abrangentes de OCR. Aprenda o Modo Detect Areas, Seleção de Idioma, reconhecimento de PDF e TIFF em apenas alguns passos!
+
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+Realize OCR em imagens usando Aspose.OCR para Java sem esforço. Extraia texto de forma contínua com alta precisão. Aprimore seus projetos Java com reconhecimento de texto versátil.
+
 ## Perguntas Frequentes
 
 **Q: Posso usar Aspose OCR em uma aplicação Java comercial?**  
@@ -89,13 +98,3 @@ A: Sim, habilite o Modo Detect Areas e defina as coordenadas da região antes do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriais Aspose.OCR para Java
-### [OCR Basics](./ocr-basics/)
-Desbloqueie o potencial do Aspose.OCR em Java! Guia passo a passo para configurar sua licença e melhorar as capacidades de OCR. Calcule ângulos de inclinação e extraia texto sem esforço.
-
-### [OCR Operations](./ocr-operations/)
-Desbloqueie o potencial do Aspose.OCR para Java com nossos tutoriais abrangentes de OCR. Aprenda o Modo Detect Areas, Seleção de Idioma, reconhecimento de PDF e TIFF em apenas alguns passos!
-
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-Realize OCR em imagens usando Aspose.OCR para Java sem esforço. Extraia texto de forma contínua com alta precisão. Aprimore seus projetos Java com reconhecimento de texto versátil.

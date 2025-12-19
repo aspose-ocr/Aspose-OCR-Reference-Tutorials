@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Java için Aspose.OCR kullanarak görüntüden metin çıkarma yöntemini öğrenin.
   Bu adım adım öğretici, BufferedImage ile görüntüyü Java'da metne nasıl dönüştüreceğinizi
   gösterir.
-language: tr
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Java ile Görüntüden Metin Çıkarma: Aspose.OCR ile BufferedImage Üzerinde OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Java ile Görüntüden Metin Çıkarma - Aspose.OCR ile BufferedImage Üzerinde OCR'
+url: /tr/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

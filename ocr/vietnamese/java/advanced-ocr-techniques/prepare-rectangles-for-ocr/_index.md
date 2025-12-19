@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tìm hiểu cách sử dụng Aspose.OCR cho Java để thực hiện nhận dạng văn
   bản OCR, trích xuất văn bản từ hình ảnh và chuẩn bị các hình chữ nhật cho việc nhận
   dạng mục tiêu.
-language: vi
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: Chuẩn bị các hình chữ nhật cho nhận dạng văn bản OCR trong Aspose.OCR
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /vi/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -143,17 +142,15 @@ A: Giấy phép tạm thời được cung cấp qua [Aspose temporary‑license
 **Q: Tôi có thể nhận hỗ trợ cộng đồng ở đâu?**  
 A: Tham gia diễn đàn Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) để đặt câu hỏi, nhận mẹo và mẫu code.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-06  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

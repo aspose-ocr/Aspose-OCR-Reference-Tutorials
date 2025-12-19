@@ -3,10 +3,9 @@ date: 2025-12-06
 description: Mesterszintre emeld az Aspose OCR Java oktatási sorozatot. Tanuld meg,
   hogyan lehet képszöveget kinyerni Java alkalmazásokban, beállítani a licencet, területeket
   felismerni, és növelni az OCR pontosságát.
-language: hu
 linktitle: Aspose.OCR for Java Tutorials
 title: Aspose OCR Java útmutató – Átfogó útmutatók és példák
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 
@@ -58,6 +57,14 @@ Szeretnél túllépni az alapokon? A [Advanced OCR Techniques](./advanced-ocr-te
 - **Alacsony felbontású fájlok** – Növeld a DPI‑t vagy alkalmazz képelőfeldolgozást (pl. binarizálás).  
 - **Helytelen nyelvfelismerés** – Állítsd be kifejezetten a nyelvet a `setLanguage(Language.English)` hívással.  
 
+## Aspose.OCR for Java oktatók
+### [OCR Basics](./ocr-basics/)
+Fedezd fel az Aspose.OCR potenciálját Java‑ban! Lépésről‑lépésre útmutató a licenc beállításához és az OCR képességek növeléséhez. Számold ki a ferde szögeket és nyerj ki szöveget zökkenőmentesen.  
+### [OCR Operations](./ocr-operations/)
+Fedezd fel az Aspose.OCR for Java lehetőségeit átfogó OCR oktatóinkkal. Tanuld meg a Detect Areas Mode‑t, a Language Selection‑t, a PDF‑ és TIFF‑felismerést néhány lépésben!  
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+Végrehajtás könnyedén OCR‑t képeken az Aspose.OCR for Java segítségével. Nyerd ki a szöveget magas pontossággal. Bővítsd Java projektjeidet sokoldalú szövegfelismeréssel.
+
 ## Gyakran Ismételt Kérdések
 
 **K: Használhatom az Aspose OCR‑t kereskedelmi Java alkalmazásban?**  
@@ -87,11 +94,3 @@ V: Igen, engedélyezd a Detect Areas Mode‑t, és definiáld a régió koordin�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR for Java oktatók
-### [OCR Basics](./ocr-basics/)
-Fedezd fel az Aspose.OCR potenciálját Java‑ban! Lépésről‑lépésre útmutató a licenc beállításához és az OCR képességek növeléséhez. Számold ki a ferde szögeket és nyerj ki szöveget zökkenőmentesen.  
-### [OCR Operations](./ocr-operations/)
-Fedezd fel az Aspose.OCR for Java lehetőségeit átfogó OCR oktatóinkkal. Tanuld meg a Detect Areas Mode‑t, a Language Selection‑t, a PDF‑ és TIFF‑felismerést néhány lépésben!  
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-Végrehajtás könnyedén OCR‑t képeken az Aspose.OCR for Java segítségével. Nyerd ki a szöveget magas pontossággal. Bővítsd Java projektjeidet sokoldalú szövegfelismeréssel.

@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tìm hiểu cách trích xuất văn bản từ hình ảnh trong Java bằng Aspose.OCR
   cho Java. Hướng dẫn từng bước này cho bạn biết cách chuyển đổi hình ảnh thành văn
   bản trong Java bằng BufferedImage.
-language: vi
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Trích xuất văn bản từ hình ảnh Java: OCR trên BufferedImage với Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Trích xuất văn bản từ hình ảnh Java - OCR trên BufferedImage với Aspose.OCR'
+url: /vi/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

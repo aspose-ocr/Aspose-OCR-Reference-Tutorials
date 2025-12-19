@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Tanulja meg, hogyan lehet szöveget kinyerni egy képből Java-ban az Aspose.OCR
   for Java segítségével. Ez a lépésről‑lépésre útmutató megmutatja, hogyan konvertálhatja
   a képet szöveggé Java-ban egy BufferedImage használatával.
-language: hu
-linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
+linktitle: 'Extract Text from Image Java - OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Szöveg kinyerése képből Java: OCR a BufferedImage-en az Aspose.OCR-rel'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Szöveg kinyerése képből Java - OCR a BufferedImage-en az Aspose.OCR-rel'
+url: /hu/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

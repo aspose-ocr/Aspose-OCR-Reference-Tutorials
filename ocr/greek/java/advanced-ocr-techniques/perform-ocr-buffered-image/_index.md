@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Μάθετε πώς να εξάγετε κείμενο από εικόνα Java χρησιμοποιώντας το Aspose.OCR
   για Java. Αυτός ο βήμα‑προς‑βήμα οδηγός σας δείχνει πώς να μετατρέψετε εικόνα σε
   κείμενο Java με ένα BufferedImage.
-language: el
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Εξαγωγή κειμένου από εικόνα Java: OCR σε BufferedImage με το Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Εξαγωγή κειμένου από εικόνα Java - OCR σε BufferedImage με το Aspose.OCR'
+url: /el/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

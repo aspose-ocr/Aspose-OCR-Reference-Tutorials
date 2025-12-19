@@ -3,10 +3,9 @@ date: 2025-12-06
 description: Kuasi seri tutorial Aspose OCR Java. Pelajari cara mengekstrak teks gambar
   dalam aplikasi Java, mengatur lisensi, mendeteksi area, dan meningkatkan akurasi
   OCR.
-language: id
 linktitle: Aspose.OCR for Java Tutorials
 title: Tutorial Aspose OCR Java – Panduan Lengkap & Contoh
-url: /java/
+url: /id/java/
 weight: 10
 ---
 
@@ -55,6 +54,14 @@ Ingin melampaui dasar? [Advanced OCR Techniques](./advanced-ocr-techniques/) ada
 - **Low‑resolution files** – Tingkatkan DPI atau terapkan pra‑pemrosesan gambar (mis., binarisasi).  
 - **Incorrect language detection** – Secara eksplisit tetapkan bahasa menggunakan `setLanguage(Language.English)`.  
 
+## Tutorial Aspose.OCR untuk Java
+### [Dasar OCR](./ocr-basics/)
+Buka potensi Aspose.OCR di Java! Panduan langkah‑demi‑langkah untuk menyiapkan lisensi Anda dan meningkatkan kemampuan OCR. Hitung sudut kemiringan dan ekstrak teks secara mulus.
+### [Operasi OCR](./ocr-operations/)
+Buka potensi Aspose.OCR untuk Java dengan tutorial OCR komprehensif kami. Pelajari Detect Areas Mode, Language Selection, pengenalan PDF, dan TIFF dalam beberapa langkah saja!
+### [Teknik OCR Lanjutan](./advanced-ocr-techniques/)
+Lakukan OCR pada gambar dengan mudah menggunakan Aspose.OCR untuk Java. Ekstrak teks secara mulus dengan akurasi tinggi. Tingkatkan proyek Java Anda dengan pengenalan teks yang serbaguna.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose OCR dalam aplikasi Java komersial?**  
@@ -84,11 +91,3 @@ A: Ya, aktifkan Detect Areas Mode dan definisikan koordinat wilayah sebelum peng
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutorial Aspose.OCR untuk Java
-### [Dasar OCR](./ocr-basics/)
-Buka potensi Aspose.OCR di Java! Panduan langkah‑demi‑langkah untuk menyiapkan lisensi Anda dan meningkatkan kemampuan OCR. Hitung sudut kemiringan dan ekstrak teks secara mulus.
-### [Operasi OCR](./ocr-operations/)
-Buka potensi Aspose.OCR untuk Java dengan tutorial OCR komprehensif kami. Pelajari Detect Areas Mode, Language Selection, pengenalan PDF, dan TIFF dalam beberapa langkah saja!
-### [Teknik OCR Lanjutan](./advanced-ocr-techniques/)
-Lakukan OCR pada gambar dengan mudah menggunakan Aspose.OCR untuk Java. Ekstrak teks secara mulus dengan akurasi tinggi. Tingkatkan proyek Java Anda dengan pengenalan teks yang serbaguna.

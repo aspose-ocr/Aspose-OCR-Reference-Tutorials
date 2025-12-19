@@ -3,10 +3,9 @@ date: 2025-12-06
 description: Aspose OCR Java eğitim serisinde uzmanlaşın. Görüntü metnini Java uygulamalarında
   nasıl çıkaracağınızı, lisanslamayı nasıl ayarlayacağınızı, alanları nasıl tespit
   edeceğinizi ve OCR doğruluğunu nasıl artıracağınızı öğrenin.
-language: tr
 linktitle: Aspose.OCR for Java Tutorials
 title: Aspose OCR Java Öğreticisi – Kapsamlı Kılavuzlar ve Örnekler
-url: /java/
+url: /tr/java/
 weight: 10
 ---
 
@@ -55,6 +54,16 @@ Temellerin ötesine geçmek mi istiyorsunuz? [Advanced OCR Techniques](./advance
 - **Düşük çözünürlüklü dosyalar** – DPI'yi artırın veya görüntü ön işleme uygulayın (ör. ikilileştirme).  
 - **Yanlış dil tespiti** – Dili açıkça `setLanguage(Language.English)` kullanarak ayarlayın.  
 
+## Aspose.OCR for Java Eğitimleri
+### [OCR Basics](./ocr-basics/)
+Aspose.OCR'un Java'daki potansiyelini ortaya çıkarın! Lisansınızı kurmak ve OCR yeteneklerinizi artırmak için adım adım rehber. Eğik açıları hesaplayın ve metni sorunsuz bir şekilde çıkarın.
+
+### [OCR Operations](./ocr-operations/)
+Aspose.OCR for Java'ın potansiyelini kapsamlı OCR eğitimlerimizle ortaya çıkarın. Detect Areas Mode, Dil Seçimi, PDF ve TIFF tanımayı sadece birkaç adımda öğrenin!
+
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+Aspose.OCR for Java kullanarak görüntülerde OCR işlemini sorunsuz bir şekilde gerçekleştirin. Yüksek doğrulukla metni sorunsuz bir şekilde çıkarın. Java projelerinizi çok yönlü metin tanıma ile geliştirin.
+
 ## Sıkça Sorulan Sorular
 
 **S: Aspose OCR'yi ticari bir Java uygulamasında kullanabilir miyim?**  
@@ -72,6 +81,8 @@ C: Görüntüleri eşzamanlı olarak işleyin ve `OcrEngine` örneğini yeniden 
 **S: OCR'yi bir görüntünün belirli bir bölgesiyle sınırlamanın bir yolu var mı?**  
 C: Evet, Detect Areas Mode'u etkinleştirin ve tanımadan önce bölge koordinatlarını tanımlayın.
 
+---
+
 **Son Güncelleme:** 2025-12-06  
 **Test Edilen Versiyon:** Aspose.OCR for Java 24.12  
 **Yazar:** Aspose  
@@ -82,13 +93,3 @@ C: Evet, Detect Areas Mode'u etkinleştirin ve tanımadan önce bölge koordin
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR for Java Eğitimleri
-### [OCR Basics](./ocr-basics/)
-Aspose.OCR'un Java'daki potansiyelini ortaya çıkarın! Lisansınızı kurmak ve OCR yeteneklerinizi artırmak için adım adım rehber. Eğik açıları hesaplayın ve metni sorunsuz bir şekilde çıkarın.
-
-### [OCR Operations](./ocr-operations/)
-Aspose.OCR for Java'ın potansiyelini kapsamlı OCR eğitimlerimizle ortaya çıkarın. Detect Areas Mode, Dil Seçimi, PDF ve TIFF tanımayı sadece birkaç adımda öğrenin!
-
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-Aspose.OCR for Java kullanarak görüntülerde OCR işlemini sorunsuz bir şekilde gerçekleştirin. Yüksek doğrulukla metni sorunsuz bir şekilde çıkarın. Java projelerinizi çok yönlü metin tanıma ile geliştirin.

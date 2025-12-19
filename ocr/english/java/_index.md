@@ -55,6 +55,14 @@ Looking to go beyond the basics? [Advanced OCR Techniques](./advanced-ocr-techni
 - **Low‑resolution files** – Increase DPI or apply image preprocessing (e.g., binarization).  
 - **Incorrect language detection** – Explicitly set the language using `setLanguage(Language.English)`.  
 
+## Aspose.OCR for Java Tutorials
+### [OCR Basics](./ocr-basics/)
+Unlock Aspose.OCR's potential in Java! Step-by-step guide to set up your license and boost OCR capabilities. Calculate skew angles and extract text seamlessly.
+### [OCR Operations](./ocr-operations/)
+Unlock the potential of Aspose.OCR for Java with our comprehensive OCR tutorials. Learn Detect Areas Mode, Language Selection, PDF, and TIFF recognition in just a few steps!
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+Effortlessly perform OCR on images using Aspose.OCR for Java. Extract text seamlessly with high accuracy. Enhance your Java projects with versatile text recognition.
+
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose OCR in a commercial Java application?**  
@@ -84,11 +92,3 @@ A: Yes, enable Detect Areas Mode and define the region coordinates before recogn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR for Java Tutorials
-### [OCR Basics](./ocr-basics/)
-Unlock Aspose.OCR's potential in Java! Step-by-step guide to set up your license and boost OCR capabilities. Calculate skew angles and extract text seamlessly.
-### [OCR Operations](./ocr-operations/)
-Unlock the potential of Aspose.OCR for Java with our comprehensive OCR tutorials. Learn Detect Areas Mode, Language Selection, PDF, and TIFF recognition in just a few steps!
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-Effortlessly perform OCR on images using Aspose.OCR for Java. Extract text seamlessly with high accuracy. Enhance your Java projects with versatile text recognition.

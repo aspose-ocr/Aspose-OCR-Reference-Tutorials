@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Scopri come utilizzare Aspose.OCR per Java per eseguire il riconoscimento
   OCR del testo, estrarre il testo dalle immagini e preparare rettangoli per il riconoscimento
   mirato.
-language: it
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: Preparazione dei rettangoli per il riconoscimento del testo OCR in Aspose.OCR
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /it/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -17,37 +16,37 @@ weight: 13
 
 # Preparare i Rettangoli per il Riconoscimento del Testo OCR in Aspose.OCR
 
-## Introduction
+## Introduzione
 
-Nel mondo odierno guidato dai dati, il **ocr text recognition** è una pietra angolare per trasformare documenti scansionati, screenshot e foto in contenuti ricercabili e modificabili. Aspose.OCR per Java rende questo processo veloce e affidabile, soprattutto quando è necessario concentrarsi su aree specifiche di un'immagine. In questo tutorial percorreremo tutti i passaggi necessari per preparare rettangoli che limitano l'OCR alle regioni di interesse, offrendoti un controllo preciso e migliori prestazioni.
+Nel mondo odierno guidato dai dati, il **ocr text aware** è una pietra angolare per trasformare documenti scansionati, screenshot e foto in contenuti ricercabili e modificabili. Aspose.OCR per Java rende questo processo veloce e affidabile, soprattutto quando è necessario concentrarsi su aree specifiche di un'immagine. In questo tutorial percorreremo tutti i passaggi necessari per preparare rettangoli che limitano l'OCR alle regioni di interesse, offrendoti un controllo preciso e migliori prestazioni.
 
-## Quick Answers
-- **Quale libreria gestisce il riconoscimento del testo OCR in Java?** Aspose.OCR for Java.  
-- **Ho bisogno di una licenza per l'uso in produzione?** Sì – una licenza valida di Aspose.OCR sblocca tutte le funzionalità.  
-- **Posso limitare l'OCR a determinate parti di un'immagine?** Assolutamente; definisci rettangoli che delimitano le zone di interesse.  
-- **Quali sono i prerequisiti principali?** JDK 17+, Aspose.OCR for Java e un IDE Java.  
-- **Questo approccio è adatto per estrarre testo dalle immagini?** Sì, è un modo efficiente per **extract text image java** progetti.
+## Risposte rapide
+- **Quale libreria gestisce il riconoscimento del testo OCR in Java?** Aspose.OCR per Java.
+- **Ho bisogno di una licenza per l'uso in produzione?** Sì – una licenza valida di Aspose.OCR sblocca tutte le funzionalità.
+- **Posso limitare l'OCR a determinate parti di un'immagine?** Assolutamente; definisci rettangoli che delimitano le zone di interesse.
+- **Quali sono i prerequisiti principali?** JDK17+, Aspose.OCR per Java e un IDE Java.
+- **Questo approccio è adatto per estrarre testo dalle immagini?** Sì, è un modo efficiente per **estrarre testo immagine java** progetti.
 
-## What is OCR Text Recognition?
-Il riconoscimento del testo OCR (Optical Character Recognition) converte immagini basate su pixel in caratteri leggibili da macchine. Consente di cercare, modificare e analizzare contenuti che originariamente esistevano solo come immagini.
+## Cos'è il riconoscimento del testo OCR?
+Il riconoscimento del testo OCR (Optical Character Recognition) converte immagini basate su pixel in caratteri leggibili da macchine. Consente di cercare, modificare e analizzare i contenuti che originariamente esistevano solo come immagini.
 
-## Why Prepare Rectangles for OCR Text Recognition?
+## Perché preparare i rettangoli per il riconoscimento del testo OCR?
 Definire rettangoli concentra il motore sulle regioni che contengono effettivamente testo, il che:
-* Riduce il tempo di elaborazione.
-* Migliora l'accuratezza ignorando sfondi rumorosi.
-* Consente di estrarre solo i dati necessari—perfetto per moduli, fatture e ricevute.
+* Riduci il tempo di elaborazione.
+* Migliora l'accuratezza ignorando gli sfondi rumorosi.
+*Consente di estrarre solo i dati necessari—perfetto per moduli, fatture e ricevute.
 
-## Prerequisites
+## Prerequisiti
 
 Prima di iniziare, assicurati di avere:
 
-- **Java Development Kit (JDK)** – Aspose.OCR per Java funziona con JDK 17 o versioni successive. Scaricalo dal sito Oracle.
-- **Aspose.OCR per Java library** – Ottieni l'ultimo JAR dalla pagina di download ufficiale [qui](https://releases.aspose.com/ocr/java/). Segui la guida di installazione [qui](https://reference.aspose.com/ocr/java/).
+- **Java Development Kit (JDK)** – Aspose.OCR per Java funziona con JDK17 o versioni successive. Scaricalo dal sito Oracle.
+- **Aspose.OCR per Java Library** – Ottieni l'ultimo JAR dalla pagina di download ufficiale [qui](https://releases.aspose.com/ocr/java/). Segui la guida di installazione [qui](https://reference.aspose.com/ocr/java/).
 - **Ambiente di sviluppo** – Qualsiasi IDE Java (IntelliJ IDEA, Eclipse, VS Code, ecc.) va bene.
 
-## Import Packages
+## Importa pacchetti
 
-Nel tuo file sorgente Java, importa le classi Aspose.OCR necessarie e le utility standard di Java:
+Nel tuo file sorgente Java, importa le classi Aspose.OCR necessarie e l'utility standard di Java:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -63,7 +62,7 @@ import java.util.ArrayList;
 
 > *Importiamo `java.awt.Rectangle` perché l'API OCR si aspetta rettangoli che definiscono le regioni da analizzare.*
 
-## Step 1: Set Up License
+## Passaggio 1: Imposta la licenza
 
 ```java
 SetLicense.main(null);
@@ -71,7 +70,7 @@ SetLicense.main(null);
 
 Chiamare `SetLicense` attiva la tua licenza Aspose.OCR, rimuovendo i limiti di valutazione e abilitando il riconoscimento del testo OCR con tutte le funzionalità.
 
-## Step 2: Define Document Directory and Image Path
+## Passaggio 2: definire la directory del documento e il percorso dell'immagine
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,7 +79,7 @@ String imagePath = dataDir + "p.png";
 
 Sostituisci `"Your Document Directory"` con il percorso assoluto dove si trova la tua immagine (`p.png`). Questa è l'immagine che verrà elaborata.
 
-## Step 3: Create Aspose.OCR Instance
+## Passaggio 3: creare un'istanza Aspose.OCR
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -88,7 +87,7 @@ AsposeOCR api = new AsposeOCR();
 
 Istanziare `AsposeOCR` ti dà accesso al metodo `RecognizePage`, che esegue l'OCR vero e proprio.
 
-## Step 4: Prepare Rectangles with Texts
+## Passaggio 4: preparare i rettangoli con i testi
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -100,7 +99,7 @@ rectArray.add(new Rectangle(104, 2147, 2076, 819));
 
 Ogni `Rectangle(x, y, width, height)` indica ad AsposeOCR esattamente dove cercare il testo. Regola le coordinate per corrispondere al layout della tua immagine di origine.
 
-## Step 5: Perform OCR Recognition
+## Passaggio 5: eseguire il riconoscimento OCR
 
 ```java
 try {
@@ -113,21 +112,20 @@ try {
 
 La chiamata `RecognizePage` elabora solo i rettangoli definiti e restituisce la stringa estratta. L'output della console ti consente di verificare immediatamente il risultato del **ocr text recognition**.
 
-## Common Issues and Tips
+## Problemi e suggerimenti comuni
 
 | Problema | Causa | Soluzione |
 |----------|-------|-----------|
-| **Nessun output** | Coordinate dei rettangoli o percorso dell'immagine errati | Verifica il valore di `dataDir` e assicurati che i rettangoli coprano effettivamente le regioni di testo. |
-| **Caratteri spazzatura** | Immagine a bassa risoluzione o font non supportato | Usa una sorgente a risoluzione più alta o applica pre‑elaborazione dell'immagine (es. binarizzazione). |
+| **Uscita Nessun** | Coordinate dei rettangoli o percorso dell'immagine errati | Verifica il valore di `dataDir` e assicurazioni che i rettangoli coprano effettivamente le regioni di testo. |
+| **Caratteri spazzatura** | Immagine a bassa risoluzione o carattere non supportato | Utilizzare una sorgente alla risoluzione più alta o applicare la pre‑elaborazione dell'immagine (es. binarizzazione). |
 | **Licenza non applicata** | `SetLicense` non chiamato prima dell'OCR | Assicurati che `SetLicense.main(null);` venga eseguito prima di qualsiasi chiamata API. |
-| **Ritardo delle prestazioni** | Troppi rettangoli grandi | Limita il numero di rettangoli e tienili il più aderenti possibile al testo. |
+| **Ritardo delle prestazioni** | Troppi rettangoli grandi | Limita il numero di rettangoli e tienili il più aderente possibile al testo. |
 
-## Conclusion
+## Conclusione
 
-Ora hai imparato come integrare Aspose.OCR per Java, configurare una licenza, definire i percorsi delle immagini e—soprattutto—preparare rettangoli per concentrare il **ocr text recognition** su parti specifiche di un'immagine. Questa tecnica è ideale per qualsiasi **java ocr tutorial** che richieda un'estrazione di testo precisa e ad alte prestazioni.
+Ora hai imparato come integrare Aspose.OCR per Java, configurare una licenza, definire i percorsi delle immagini e—soprattutto—preparare rettangoli per concentrare il **ocr text aware** su parti specifiche di un'immagine. Questa tecnica è ideale per qualsiasi **java ocr tutorial** che richiede un'estrazione di testo precisa e ad alte prestazioni.
 
-## Frequently Asked Questions
-
+## Domande frequenti
 **D: Aspose.OCR è compatibile con altri linguaggi di programmazione?**  
 R: Sì, Aspose.OCR supporta anche .NET, C++ e Python. Consulta la documentazione ufficiale per esempi specifici per linguaggio.
 
@@ -143,17 +141,15 @@ R: Le licenze temporanee sono fornite tramite il [portale di licenza temporanea 
 **D: Dove posso trovare supporto dalla community?**  
 R: Visita il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per domande, suggerimenti e esempi di codice.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-06  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

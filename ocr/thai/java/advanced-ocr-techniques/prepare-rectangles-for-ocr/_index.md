@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: เรียนรู้วิธีใช้ Aspose.OCR สำหรับ Java เพื่อทำการจดจำข้อความด้วย OCR,
   ดึงข้อความจากภาพ, และเตรียมสี่เหลี่ยมสำหรับการจดจำแบบเจาะจง.
-language: th
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: การเตรียมสี่เหลี่ยมสำหรับการจดจำข้อความ OCR ใน Aspose.OCR
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /th/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -144,17 +143,15 @@ A: ใบอนุญาตชั่วคราวจะให้ผ่าน [
 **Q: ฉันสามารถรับการสนับสนุนจากชุมชนได้จากที่ไหน?**  
 A: เยี่ยมชม Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) สำหรับคำถาม, เคล็ดลับ, และตัวอย่างโค้ด.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-06  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

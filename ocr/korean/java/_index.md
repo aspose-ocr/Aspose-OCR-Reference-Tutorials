@@ -2,10 +2,9 @@
 date: 2025-12-06
 description: Aspose OCR Java 튜토리얼 시리즈를 마스터하세요. 이미지 텍스트를 추출하는 Java 애플리케이션, 라이선스 설정,
   영역 감지, OCR 정확도 향상 방법을 배웁니다.
-language: ko
 linktitle: Aspose.OCR for Java Tutorials
 title: Aspose OCR Java 튜토리얼 – 포괄적인 가이드 및 예제
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 
@@ -54,6 +53,14 @@ weight: 10
 - **저해상도 파일** – DPI를 높이거나 이미지 전처리(예: 이진화)를 적용하세요.  
 - **잘못된 언어 감지** – `setLanguage(Language.English)`를 사용하여 언어를 명시적으로 설정하세요.  
 
+## Aspose.OCR for Java 튜토리얼
+### [OCR 기본](./ocr-basics/)
+Java에서 Aspose.OCR의 잠재력을 활용하세요! 라이선스를 설정하고 OCR 역량을 강화하는 단계별 가이드입니다. 기울기 각도를 계산하고 텍스트를 매끄럽게 추출합니다.
+### [OCR 작업](./ocr-operations/)
+포괄적인 OCR 튜토리얼을 통해 Java용 Aspose.OCR의 잠재력을 활용하세요. 몇 단계만으로 Detect Areas Mode, Language Selection, PDF 및 TIFF 인식을 배울 수 있습니다!
+### [고급 OCR 기술](./advanced-ocr-techniques/)
+Aspose.OCR for Java를 사용하여 이미지에서 OCR을 손쉽게 수행하세요. 높은 정확도로 텍스트를 매끄럽게 추출하고, 다재다능한 텍스트 인식으로 Java 프로젝트를 강화합니다.
+
 ## 자주 묻는 질문
 
 **Q: Aspose OCR을 상업용 Java 애플리케이션에서 사용할 수 있나요?**  
@@ -83,11 +90,3 @@ A: 예, Detect Areas Mode를 활성화하고 인식 전에 영역 좌표를 정�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR for Java 튜토리얼
-### [OCR 기본](./ocr-basics/)
-Java에서 Aspose.OCR의 잠재력을 활용하세요! 라이선스를 설정하고 OCR 역량을 강화하는 단계별 가이드입니다. 기울기 각도를 계산하고 텍스트를 매끄럽게 추출합니다.
-### [OCR 작업](./ocr-operations/)
-포괄적인 OCR 튜토리얼을 통해 Java용 Aspose.OCR의 잠재력을 활용하세요. 몇 단계만으로 Detect Areas Mode, Language Selection, PDF 및 TIFF 인식을 배울 수 있습니다!
-### [고급 OCR 기술](./advanced-ocr-techniques/)
-Aspose.OCR for Java를 사용하여 이미지에서 OCR을 손쉽게 수행하세요. 높은 정확도로 텍스트를 매끄럽게 추출하고, 다재다능한 텍스트 인식으로 Java 프로젝트를 강화합니다.

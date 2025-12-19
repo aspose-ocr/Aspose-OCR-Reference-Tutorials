@@ -1,10 +1,9 @@
 ---
 date: 2025-12-06
 description: 掌握 Aspose OCR Java 教學系列。學習如何在 Java 應用程式中提取圖像文字、設定授權、偵測區域，並提升 OCR 準確度。
-language: zh-hant
 linktitle: Aspose.OCR for Java Tutorials
 title: Aspose OCR Java 教學 – 全面指南與範例
-url: /java/
+url: /zh-hant/java/
 weight: 10
 ---
 
@@ -53,6 +52,14 @@ weight: 10
 - **Low‑resolution files** – 提高 DPI 或進行影像前處理（例如二值化）。  
 - **Incorrect language detection** – 明確使用 `setLanguage(Language.English)` 設定語言。  
 
+## Aspose.OCR for Java 教學
+### [OCR Basics](./ocr-basics/)
+釋放 Aspose.OCR 在 Java 中的潛能！一步一步的指南，協助設定授權並提升 OCR 能力。計算傾斜角度並無縫擷取文字。
+### [OCR Operations](./ocr-operations/)
+透過我們完整的 OCR 教學，釋放 Aspose.OCR for Java 的潛能。只需幾個步驟即可學會 Detect Areas Mode、語言選擇、PDF 與 TIFF 辨識！
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+使用 Aspose.OCR for Java 輕鬆對影像執行 OCR。以高準確度無縫擷取文字。為你的 Java 專案增添多功能文字辨識能力。
+
 ## 常見問答
 
 **Q: 我可以在商業 Java 應用程式中使用 Aspose OCR 嗎？**  
@@ -82,11 +89,3 @@ A: 有，啟用 Detect Areas Mode 並在辨識前定義區域座標。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR for Java 教學
-### [OCR Basics](./ocr-basics/)
-釋放 Aspose.OCR 在 Java 中的潛能！一步一步的指南，協助設定授權並提升 OCR 能力。計算傾斜角度並無縫擷取文字。
-### [OCR Operations](./ocr-operations/)
-透過我們完整的 OCR 教學，釋放 Aspose.OCR for Java 的潛能。只需幾個步驟即可學會 Detect Areas Mode、語言選擇、PDF 與 TIFF 辨識！
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-使用 Aspose.OCR for Java 輕鬆對影像執行 OCR。以高準確度無縫擷取文字。為你的 Java 專案增添多功能文字辨識能力。

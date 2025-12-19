@@ -3,10 +3,9 @@ date: 2025-12-06
 description: Ovládněte sérii tutoriálů Aspose OCR pro Javu. Naučte se, jak extrahovat
   text z obrázků v Java aplikacích, nastavit licencování, detekovat oblasti a zvýšit
   přesnost OCR.
-language: cs
 linktitle: Aspose.OCR for Java Tutorials
 title: Aspose OCR Java tutoriál – komplexní průvodci a příklady
-url: /java/
+url: /cs/java/
 weight: 10
 ---
 
@@ -55,6 +54,16 @@ Chcete jít dál než jen základy? [Advanced OCR Techniques](./advanced-ocr-tec
 - **Soubory s nízkým rozlišením** – Zvyšte DPI nebo aplikujte předzpracování obrazu (např. binarizaci).  
 - **Nesprávná detekce jazyka** – Explicitně nastavte jazyk pomocí `setLanguage(Language.English)`.
 
+## Aspose.OCR pro Java tutoriály
+### [OCR Basics](./ocr-basics/)
+Odemkněte potenciál Aspose.OCR v Javě! Podrobný průvodce nastavením licence a zvýšením schopností OCR. Vypočítejte úhly naklonění a extrahujte text plynule.
+
+### [OCR Operations](./ocr-operations/)
+Odemkněte potenciál Aspose.OCR pro Java s našimi komplexními OCR tutoriály. Naučte se režim Detect Areas, výběr jazyka, rozpoznávání PDF a TIFF během několika kroků!
+
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+Bezproblémově provádějte OCR na obrázcích pomocí Aspose.OCR pro Java. Extrahujte text plynule s vysokou přesností. Vylepšete své Java projekty pomocí univerzálního rozpoznávání textu.
+
 ## Často kladené otázky
 
 **Q: Můžu použít Aspose OCR v komerční Java aplikaci?**  
@@ -84,13 +93,3 @@ A: Ano, aktivujte režim Detect Areas a před rozpoznáním definujte souřadnic
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Aspose.OCR pro Java tutoriály
-### [OCR Basics](./ocr-basics/)
-Odemkněte potenciál Aspose.OCR v Javě! Podrobný průvodce nastavením licence a zvýšením schopností OCR. Vypočítejte úhly naklonění a extrahujte text plynule.
-
-### [OCR Operations](./ocr-operations/)
-Odemkněte potenciál Aspose.OCR pro Java s našimi komplexními OCR tutoriály. Naučte se režim Detect Areas, výběr jazyka, rozpoznávání PDF a TIFF během několika kroků!
-
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-Bezproblémově provádějte OCR na obrázcích pomocí Aspose.OCR pro Java. Extrahujte text plynule s vysokou přesností. Vylepšete své Java projekty pomocí univerzálního rozpoznávání textu.

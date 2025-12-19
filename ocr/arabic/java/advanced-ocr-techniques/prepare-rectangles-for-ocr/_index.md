@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: تعرّف على كيفية استخدام Aspose.OCR للغة Java لإجراء التعرف الضوئي على
   النص، واستخراج النص من الصور، وإعداد المستطيلات للتعرف المستهدف.
-language: ar
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: إعداد المستطيلات للتعرف على النص باستخدام OCR في Aspose.OCR
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /ar/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -16,35 +15,35 @@ weight: 13
 
 # إعداد المستطيلات لتعرف النصوص عبر OCR في Aspose.OCR
 
-## Introduction
+## مقدمة
 
-في عالم اليوم القائم على البيانات، يُعد **تعرف النص عبر OCR** حجر الزاوية لتحويل المستندات الممسوحة ضوئيًا، واللقطات، والصور إلى محتوى قابل للبحث والتحرير. تجعل مكتبة Aspose.OCR for Java هذه العملية سريعة وموثوقة، خاصة عندما تحتاج إلى التركيز على مناطق محددة من الصورة. في هذا البرنامج التعليمي سنستعرض كل خطوة مطلوبة لإعداد المستطيلات التي تحدّ OCR إلى المناطق التي تهتم بها، مما يمنحك تحكمًا دقيقًا وأداءً أفضل.
+في عالم اليوم الموجود على البيانات، **تعرف على النص عبر OCR** ​​يصور المستندات الممسوحة ضوئيًا، ولقطات، وصور لمراقبة قابلة للبحث والتحرير. اجعل مكتبة Aspose.OCR لـ Java هذه طريقة موثوقة وموثوقة، خاصة عندما تحتاج إلى التركيز على مناطق محددة من الصورة. في هذا البرنامج التعليمي سنستعرض كل خطوة مطلوبة لإعداد الاسترات التي تدرس التعرف الضوئي على الحروف إلى المناطق التي أون بها، مما يؤدي إلى تحكم دقيق وأداءً أفضل.
 
-## Quick Answers
-- **ما المكتبة التي تتعامل مع تعرف النص عبر OCR في Java؟** Aspose.OCR for Java.  
-- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم – ترخيص Aspose.OCR صالح يفتح جميع الوظائف.  
-- **هل يمكنني حصر OCR على أجزاء معينة من الصورة؟** بالتأكيد؛ يمكنك تعريف مستطيلات تحدد المناطق المستهدفة.  
-- **ما هي المتطلبات الأساسية؟** JDK 17+، Aspose.OCR for Java، وبيئة تطوير Java.  
-- **هل هذه الطريقة مناسبة لاستخراج النص من الصور؟** نعم، إنها طريقة فعّالة لـ **extract text image java** في المشاريع.
+## إجابات سريعة
+- **ما المكتبة التي تعرفها عبر OCR في Java؟** Aspose.OCR for Java.
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** نعم –ترخيص Aspose.OCR صالح يفتح جميع الوظائف.
+- **هل يمكنني حجز التعرف الضوئي على الحروف على أجزاء معينة من الصورة؟** بالتأكيد؛ يمكنك تعريف تسجيلات مناطق التفاصيل.
+- **ما هي المتطلبات الأساسية؟** JDK17+، Aspose.OCR for Java، وبيئة تطوير Java.
+- **هل هذه طريقة لاستخراج النص من الصور؟** نعم، طريقة فعّالة لـ **extract text image java** في المشاريع.
 
-## What is OCR Text Recognition?
-تحويل النص عبر OCR (Optical Character Recognition) يحوّل الصور القائمة على البكسل إلى أحرف قابلة للقراءة آليًا. يتيح لك ذلك البحث، التحرير، وتحليل المحتوى الذي كان في الأصل مجرد صور.
+## ما هو التعرف الضوئي على الحروف (OCR)؟
+تحويل النص عبر OCR (التعرف البصري على الأحرف) يحوّل الصور القائمة على البكسل إلى أحرف قابلة للقراءة آليًا. يتيح لك ذلك البحث، التحرير، وتحليل المحتوى الذي كان في مجرد صور أصلية.
 
-## Why Prepare Rectangles for OCR Text Recognition?
+## لماذا نقوم بإعداد المستطيلات للتعرف على النص بتقنية التعرف الضوئي على الحروف؟
 تحديد المستطيلات يركّز المحرك على المناطق التي تحتوي فعليًا على نص، مما:
-* يقلل من زمن المعالجة.
-* يحسّن الدقة بتجاهل الخلفيات المزعجة.
-* يسمح لك باستخراج البيانات التي تحتاجها فقط—مثالي للنماذج، الفواتير، والإيصالات.
+* تحديد زمن المعالجة.
+* تحسين الدقة بتجاهل الخلفيات المزعجة.
+* يسمح لك باستخراج البيانات التي تحتاجها فقط—مثالي للنماذج، الفاتورة، والإيصالات.
 
-## Prerequisites
+## المتطلبات الأساسية
 
 قبل البدء، تأكد من وجود:
 
-- **Java Development Kit (JDK)** – تعمل Aspose.OCR for Java مع JDK 17 أو أحدث. حمّله من موقع Oracle.
-- **Aspose.OCR for Java library** – احصل على أحدث ملف JAR من صفحة التحميل الرسمية [هنا](https://releases.aspose.com/ocr/java/). اتبع دليل التثبيت [هنا](https://reference.aspose.com/ocr/java/).
-- **Development Environment** – أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، VS Code، إلخ) ستفي بالغرض.
+- **Java Development Kit (JDK)** – اضغط على Aspose.OCR لـ Java باستخدام JDK17 أو أحدث. نتانياهو من موقع أوراكل.
+- **Aspose.OCR for Java Library** – احصل على أحدث ملف JAR من صفحة التحميل الرسمية [هنا](https://releases.aspose.com/ocr/java/). اتبع دليل التثبيت [هنا](https://reference.aspose.com/ocr/Java/).
+- **بيئة التطوير** – أي بيئة تطوير Java (IntelliJ IDEA، Eclipse، VS Code، إلخ) ستفي الكبار.
 
-## Import Packages
+## استيراد الحزم
 
 في ملف Java الخاص بك، استورد فئات Aspose.OCR المطلوبة وأدوات Java القياسية:
 
@@ -62,7 +61,7 @@ import java.util.ArrayList;
 
 > *نستورد `java.awt.Rectangle` لأن واجهة برمجة تطبيقات OCR تتوقع مستطيلات تحدد المناطق التي سيتم مسحها.*
 
-## Step 1: Set Up License
+## الخطوة 1: إعداد الترخيص
 
 ```java
 SetLicense.main(null);
@@ -70,7 +69,7 @@ SetLicense.main(null);
 
 استدعاء `SetLicense` يُفعّل ترخيص Aspose.OCR الخاص بك، ويزيل حدود التقييم ويتيح التعرف الكامل على النص عبر OCR.
 
-## Step 2: Define Document Directory and Image Path
+## الخطوة 2: تحديد دليل المستندات ومسار الصورة
 
 ```java
 String dataDir = "Your Document Directory";
@@ -79,7 +78,7 @@ String imagePath = dataDir + "p.png";
 
 استبدل `"Your Document Directory"` بالمسار المطلق حيث توجد الصورة (`p.png`). هذه هي الصورة التي سيتم معالجتها.
 
-## Step 3: Create Aspose.OCR Instance
+## الخطوة 3: إنشاء مثيل Aspose.OCR
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -87,7 +86,7 @@ AsposeOCR api = new AsposeOCR();
 
 إنشاء كائن `AsposeOCR` يمنحك الوصول إلى طريقة `RecognizePage`، التي تُجري عملية OCR الفعلية.
 
-## Step 4: Prepare Rectangles with Texts
+## الخطوة 4: تجهيز المستطيلات بالنصوص
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -99,7 +98,7 @@ rectArray.add(new Rectangle(104, 2147, 2076, 819));
 
 كل `Rectangle(x, y, width, height)` يخبر Aspose.OCR بالضبط أين يبحث عن النص. عدّل الإحداثيات لتتناسب مع تخطيط صورتك المصدرية.
 
-## Step 5: Perform OCR Recognition
+## الخطوة 5: إجراء التعرف الضوئي على الأحرف (OCR)
 
 ```java
 try {
@@ -112,35 +111,49 @@ try {
 
 استدعاء `RecognizePage` يعالج المستطيلات المحددة فقط ويعيد السلسلة المستخرجة. يتيح لك إخراج وحدة التحكم التحقق من نتيجة **تعرف النص عبر OCR** فورًا.
 
-## Common Issues and Tips
+## المشكلات والنصائح الشائعة
 
-| Issue | Cause | Solution |
+| العدد | السبب | الحل |
 |-------|-------|----------|
-| **No output** | إحداثيات المستطيل غير صحيحة أو مسار الصورة خاطئ | تحقق من قيمة `dataDir` وتأكد من أن المستطيلات تغطي فعليًا مناطق النص. |
-| **Garbage characters** | صورة منخفضة الدقة أو خط غير مدعوم | استخدم مصدرًا بدقة أعلى أو طبّق معالجة مسبقة للصورة (مثل الثنائيات). |
-| **License not applied** | لم يتم استدعاء `SetLicense` قبل OCR | تأكد من تشغيل `SetLicense.main(null);` قبل أي استدعاءات API. |
-| **Performance lag** | عدد كبير من المستطيلات الكبيرة | قلل عدد المستطيلات واجعلها محكمة قدر الإمكان حول النص. |
+| ** لا يوجد مخرج ** | إحداثيات المستطيلة غير صحيحة أو مسار الصورة الخاطئة | تحقق من قيمة `dataDir` وتأكد من المناطق التي تغطي المستطيلات النص الأصلي. |
+| **أحرف مهملة** | صورة منخفضة الدقة أو خط غير مدعوم | استخدم مصدرًا جيدًا أو طبًا دقيقًا جدًا للسيدة (مثل الثنائيات). |
+| **لم يتم تطبيق الترخيص** | لم يتم الاتصال بـ `SetLicense` بواسطة OCR | تأكد من تشغيل `SetLicense.main(null);` قبل أي اتصالات API. |
+| **تأخر الأداء** | عدد كبير من المستطيلات الكبيرة | تقليل عدد الاستراتات وجعلها محكمة قدر الإمكان حول النص. |
 
-## Conclusion
+## خاتمة
 
 لقد تعلمت الآن كيفية دمج Aspose.OCR for Java، إعداد الترخيص، تعريف مسارات الصور، والأهم من ذلك—إعداد المستطيلات لتوجيه **تعرف النص عبر OCR** إلى أجزاء محددة من الصورة. هذه التقنية مثالية لأي **java ocr tutorial** يحتاج إلى استخراج نص دقيق وعالي الأداء.
 
-## Frequently Asked Questions
+## الأسئلة الشائعة
 
-**Q: Is Aspose.OCR compatible with other programming languages?**  
-A: Yes, Aspose.OCR also supports .NET, C++, and Python. Check the official docs for language‑specific samples.
+**س: هل يتوافق Aspose.OCR مع لغات برمجة أخرى؟**
 
-**Q: Can I use Aspose.OCR in a commercial project?**  
-A: Absolutely. Purchase a commercial license via the [Aspose store](https://purchase.aspose.com/buy).
+ج: نعم، يدعم Aspose.OCR أيضًا .NET وC++ وPython. راجع الوثائق الرسمية للاطلاع على أمثلة خاصة بكل لغة.
 
-**Q: Is there a free trial available?**  
-A: Yes, you can download a trial version [here](https://releases.aspose.com/).
 
-**Q: How do I obtain a temporary license for evaluation?**  
-A: Temporary licenses are provided through the [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
+**س: هل يمكنني استخدام Aspose.OCR في مشروع تجاري؟**
 
-**Q: Where can I get community support?**  
-A: Visit the Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) for questions, tips, and code samples.
+ج: بالتأكيد. يمكنك شراء ترخيص تجاري من خلال متجر Aspose.
+
+
+**س: هل تتوفر نسخة تجريبية مجانية؟**
+
+ج: نعم، يمكنك تنزيل نسخة تجريبية من هنا.
+
+
+**س: كيف أحصل على ترخيص مؤقت للتقييم؟**
+
+ج: تُقدم التراخيص المؤقتة من خلال بوابة التراخيص المؤقتة لـ Aspose.
+
+**س: أين يمكنني الحصول على دعم من المجتمع؟**
+
+لمجتمع؟ ج: تفضل بزيارة منتدى Aspose.OCR (https://forum.aspose.com/c/ocr/16) للاطلاع على الأسئلة والنصائح ونماذج التعليمات البرمجية.
+
+---
+
+**آخر تحديث:** 2025-12-06
+**تم الاختبار باستخدام:** Aspose.OCR لجافا 24.12
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -148,11 +161,3 @@ A: Visit the Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) for questions
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.OCR for Java 24.12  
-**Author:** Aspose  
-
----

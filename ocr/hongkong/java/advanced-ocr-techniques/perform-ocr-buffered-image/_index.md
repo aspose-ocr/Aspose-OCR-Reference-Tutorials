@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: 學習如何使用 Aspose.OCR for Java 從圖像中提取文字。本分步教學示範如何使用 BufferedImage 將圖像轉換為
   Java 文字。
-language: zh-hant
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 從圖像提取文字（Java）：使用 Aspose.OCR 對 BufferedImage 進行 OCR
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 從圖像提取文字（Java） - 使用 Aspose.OCR 對 BufferedImage 進行 OCR
+url: /zh-hant/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

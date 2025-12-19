@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Dowiedz się, jak wyodrębniać tekst z obrazu w Javie przy użyciu Aspose.OCR
   dla Javy. Ten krok po kroku poradnik pokazuje, jak konwertować obraz na tekst w
   Javie przy użyciu BufferedImage.
-language: pl
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Wyodrębnianie tekstu z obrazu w Javie: OCR na BufferedImage przy użyciu Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Wyodrębnianie tekstu z obrazu w Javie - OCR na BufferedImage przy użyciu Aspose.OCR'
+url: /pl/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

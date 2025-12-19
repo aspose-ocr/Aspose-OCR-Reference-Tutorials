@@ -2,12 +2,11 @@
 date: 2025-12-06
 description: تعلم كيفية استخراج النص من صورة باستخدام جافا و Aspose.OCR لجافا. يوضح
   لك هذا البرنامج التعليمي خطوة بخطوة كيفية تحويل الصورة إلى نص في جافا باستخدام كائن BufferedImage.
-language: ar
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'استخراج النص من صورة جافا: التعرف الضوئي على الأحرف في BufferedImage باستخدام
+title: 'استخراج النص من صورة جافا - التعرف الضوئي على الأحرف في BufferedImage باستخدام
   Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+url: /ar/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 

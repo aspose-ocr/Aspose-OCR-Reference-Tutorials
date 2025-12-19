@@ -2,10 +2,9 @@
 date: 2025-12-06
 description: أتقن سلسلة دروس Aspose OCR للغة Java. تعلم كيفية استخراج نص الصور في
   تطبيقات Java، إعداد الترخيص، اكتشاف المناطق، وتعزيز دقة OCR.
-language: ar
 linktitle: Aspose.OCR for Java Tutorials
 title: دليل Aspose OCR للغة Java – أدلة شاملة وأمثلة
-url: /java/
+url: /ar/java/
 weight: 10
 ---
 
@@ -59,6 +58,14 @@ weight: 10
 - **ملفات منخفضة الدقة** – زيادة DPI أو تطبيق معالجة مسبقة للصورة (مثل التحويل إلى ثنائي).  
 - **اكتشاف لغة غير صحيح** – حدد اللغة صراحةً باستخدام `setLanguage(Language.English)`.  
 
+## دورات Aspose.OCR للـ Java
+### [OCR Basics](./ocr-basics/)
+استكشف إمكانات Aspose.OCR في Java! دليل خطوة بخطوة لإعداد الترخيص وتعزيز قدرات OCR. احسب زوايا الميل واستخراج النص بسلاسة.
+### [OCR Operations](./ocr-operations/)
+استكشف إمكانات Aspose.OCR للـ Java من خلال دورات OCR الشاملة لدينا. تعلم وضع Detect Areas، اختيار اللغة، والتعرف على PDF وTIFF في بضع خطوات فقط!
+### [Advanced OCR Techniques](./advanced-ocr-techniques/)
+قم بأداء OCR على الصور بسهولة باستخدام Aspose.OCR للـ Java. استخراج النص بسلاسة وبدقة عالية. حسّن مشاريع Java الخاصة بك بتقنيات التعرف على النص المتعددة.
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose OCR في تطبيق Java تجاري؟**  
@@ -88,11 +95,3 @@ weight: 10
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## دورات Aspose.OCR للـ Java
-### [OCR Basics](./ocr-basics/)
-استكشف إمكانات Aspose.OCR في Java! دليل خطوة بخطوة لإعداد الترخيص وتعزيز قدرات OCR. احسب زوايا الميل واستخراج النص بسلاسة.
-### [OCR Operations](./ocr-operations/)
-استكشف إمكانات Aspose.OCR للـ Java من خلال دورات OCR الشاملة لدينا. تعلم وضع Detect Areas، اختيار اللغة، والتعرف على PDF وTIFF في بضع خطوات فقط!
-### [Advanced OCR Techniques](./advanced-ocr-techniques/)
-قم بأداء OCR على الصور بسهولة باستخدام Aspose.OCR للـ Java. استخراج النص بسلاسة وبدقة عالية. حسّن مشاريع Java الخاصة بك بتقنيات التعرف على النص المتعددة.

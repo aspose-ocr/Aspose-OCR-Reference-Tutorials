@@ -1,5 +1,5 @@
 ---
-title: "Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR"
+title: "Extract Text from Image Java - OCR on BufferedImage with Aspose.OCR"
 linktitle: "Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR"
 second_title: "Aspose.OCR Java API"
 description: "Learn how to extract text from image java using Aspose.OCR for Java. This step‑by‑step tutorial shows you how to convert image to text java with a BufferedImage."

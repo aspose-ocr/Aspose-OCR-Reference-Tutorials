@@ -2,11 +2,10 @@
 date: 2025-12-06
 description: Aspose.OCR for Java का उपयोग करके OCR टेक्स्ट पहचान कैसे करें, छवियों
   से टेक्स्ट निकालें, और लक्षित पहचान के लिए आयतें तैयार करें, सीखें।
-language: hi
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: Aspose.OCR में OCR टेक्स्ट पहचान के लिए आयतों की तैयारी
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /hi/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -142,17 +141,15 @@ A: टेम्पररी लाइसेंस [Aspose टेम्परर�
 **Q: कम्युनिटी सपोर्ट कहाँ मिल सकता है?**  
 A: प्रश्न, टिप्स और कोड सैंपल्स के लिए Aspose.OCR [फ़ोरम](https://forum.aspose.com/c/ocr/16) देखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-06  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

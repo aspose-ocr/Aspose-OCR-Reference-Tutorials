@@ -1,11 +1,10 @@
 ---
 date: 2025-12-06
 description: Aspose.OCR for Java の使い方を学び、OCR テキスト認識を実行し、画像からテキストを抽出し、対象認識用に矩形を準備します。
-language: ja
 linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: Aspose.OCR における OCR テキスト認識用の矩形の準備
-url: /java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
+url: /ja/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
@@ -143,17 +142,15 @@ A: 一時ライセンスは [Aspose temporary‑license portal](https://purchase
 **Q: コミュニティサポートはどこで得られますか？**  
 A: 質問やヒント、コードサンプルは Aspose.OCR の [forum](https://forum.aspose.com/c/ocr/16) でご利用ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-06  
 **テスト環境:** Aspose.OCR for Java 24.12  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

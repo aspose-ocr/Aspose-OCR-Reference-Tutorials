@@ -3,11 +3,10 @@ date: 2025-12-06
 description: Naučte se, jak extrahovat text z obrázku v Javě pomocí Aspose.OCR pro
   Javu. Tento krok‑za‑krokem tutoriál vám ukáže, jak převést obrázek na text v Javě
   pomocí třídy BufferedImage.
-language: cs
 linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: 'Extrahovat text z obrázku v Javě: OCR na BufferedImage s Aspose.OCR'
-url: /java/advanced-ocr-techniques/perform-ocr-buffered-image/
+title: 'Extrahovat text z obrázku v Javě - OCR na BufferedImage s Aspose.OCR'
+url: /cs/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
 
