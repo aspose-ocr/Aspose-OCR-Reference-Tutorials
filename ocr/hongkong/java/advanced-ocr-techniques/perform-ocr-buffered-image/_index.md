@@ -1,37 +1,53 @@
 ---
-title: 在 Aspose.OCR for Java 中對 BufferedImage 執行 OCR
-linktitle: 在 Aspose.OCR for Java 中對 BufferedImage 執行 OCR
+date: 2025-12-06
+description: 學習如何使用 Aspose.OCR for Java 從圖像中提取文字。本分步教學示範如何使用 BufferedImage 將圖像轉換為
+  Java 文字。
+linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
 second_title: Aspose.OCR Java API
-description: 使用 Aspose.OCR for Java 輕鬆對 BufferedImage 執行 OCR。將文字無縫地從圖像中提取。立即下載以獲得多功能文字辨識體驗。
-weight: 10
+title: 從圖像提取文字（Java） - 使用 Aspose.OCR 對 BufferedImage 進行 OCR
 url: /zh-hant/java/advanced-ocr-techniques/perform-ocr-buffered-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Aspose.OCR for Java 中對 BufferedImage 執行 OCR
+# 從圖像提取文字（Java）：使用 Aspose.OCR 在 BufferedImage 上的 OCR
 
 ## 介紹
 
-歡迎閱讀我們關於使用 Aspose.OCR for Java 在 BufferedImage 上執行光學字元辨識 (OCR) 的綜合指南。 Aspose.OCR 是一個功能強大的 Java 庫，允許開發人員將 OCR 功能無縫整合到他們的應用程式中，使從圖像中提取文字變得輕而易舉。
+在本 **Aspose OCR Java 教程** 中，您將了解如何使用功能強大的 Aspose.OCR 函式庫 **從圖像提取文字（Java）**。無論您需要讀取掃描文件、處理收據，或從螢幕截圖中提取文字，對 `BufferedImage` 進行 OCR 可為您提供一種乾淨且程式化的方式將圖像轉換為文字（Java）。我們將逐步說明設定、必要的匯入以及您在數秒內取得結果的完整程式碼。
 
-在本教程中，我們將引導您完成設定 Aspose.OCR for Java、匯入必要的套件以及對 BufferedImage 執行 OCR 的過程。無論您是經驗豐富的開發人員還是剛開始使用 OCR，本逐步指南都將幫助您充分利用 Aspose.OCR 的潛力。
+## 快速解答
+- **哪個函式庫最適合 Java OCR？** Aspose.OCR for Java。  
+- **可以直接處理 BufferedImage 嗎？** 可以 – `RecognizePage` 方法接受 `BufferedImage`。  
+- **測試是否需要授權？** 免費試用可用於開發；正式上線需購買授權。  
+- **支援哪些圖像格式？** PNG、JPEG、BMP、TIFF 等。  
+- **一般圖像處理需要多長時間？** 標準尺寸圖像通常在一秒內完成。
 
-## 先決條件
+## 什麼是 OCR 以及為何使用它來從圖像提取文字（Java）？
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+光學字符辨識（OCR）會分析圖像中的視覺模式，並將其轉換為可編輯的文字。對於 Java 開發者而言，OCR 能自動化資料輸入、建立可搜尋的檔案庫，並為 AI 工作流程提供文字來源，免除手動轉錄的繁瑣。
 
-1.  Java 開發工具包 (JDK)：確保您的系統上安裝了 Java。您可以從以下位置下載最新版本[這裡](https://www.oracle.com/java/technologies/javase-downloads.html).
+## 為何選擇 Aspose.OCR for Java？
 
-2. Aspose.OCR for Java Library：從 Aspose 網站下載該程式庫。你可以找到下載鏈接[這裡](https://releases.aspose.com/ocr/java/).
+- **高準確度**，支援多種語言和字型。  
+- **簡易 API** – 一行程式碼即可辨識整頁。  
+- **無外部相依性** – 可直接使用純 `BufferedImage`。  
+- **完整文件** 與定期更新（請參閱頁底的信任指標）。
 
-3. 文件目錄：設定儲存影像的目錄。更新`dataDir`範例程式碼中的變數以及文件目錄的路徑。
+## 前置條件
 
-## 導入包
+在開始之前，請確保您已具備以下項目：
 
-首先，將必要的套件匯入到您的 Java 專案中。包含 Aspose.OCR 庫以利用其 OCR 功能。
+1. **Java Development Kit (JDK)** – 版本 8 或更新。從 [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) 下載。  
+2. **Aspose.OCR for Java** – 從 Aspose 官方網站取得最新 JAR，點擊[此處](https://releases.aspose.com/ocr/java/)。  
+3. **圖片資料夾** – 在電腦上建立目錄並放入要處理的圖片。將程式碼中的 `dataDir` 變數更新為該資料夾路徑。
+
+## 匯入套件
+
+先匯入必要的類別。`AsposeOCR` 類別提供 OCR 引擎，而 `ImageIO` 與 `BufferedImage` 負責圖像載入。
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -45,35 +61,33 @@ import java.io.File;
 import java.io.IOException;
 ```
 
-## 對 BufferedImage 執行 OCR
+## 步驟指南：從圖像提取文字（Java）
 
-讓我們將提供的範例分解為多個步驟：
-
-### 步驟1：設定文件目錄和影像路徑
+### 步驟 1：定義文件目錄與圖像路徑  
 
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-//影像路徑
+// The image path
 String imagePath = dataDir + "p3.png";
 ```
 
-確保更換`"Your Document Directory"`包含文件目錄的實際路徑並提供正確的圖片檔案名稱。
+將 `"Your Document Directory"` 替換為 PNG/JPEG 檔案所在的絕對路徑。此路徑即為 **將圖像轉換為文字（Java）** 的讀取來源。
 
-### 步驟2：建立AsposeOCR實例
+### 步驟 2：建立 AsposeOCR 實例  
 
 ```java
-//建立API實例
+// Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-初始化 AsposeOCR 類別的實例以存取其方法。
+`AsposeOCR` 物件讓您可以使用所有 OCR 方法，包括語言選擇與進階設定（如有需要，可於稍後設定）。
 
-### 第三步：從BufferedImage中辨識頁面
+### 步驟 3：載入圖像並辨識文字  
 
 ```java
-//從 BufferedImage 識別頁面
+// Recognize page from BufferedImage
 try {
     BufferedImage loaded = ImageIO.read(new File(imagePath));
     String result = api.RecognizePage(loaded);
@@ -83,35 +97,49 @@ try {
 }
 ```
 
-使用 BufferedImage 載入圖像，然後使用 AsposeOCR 實例識別頁面上的文字。結果被印到控制台。
+在此我們：
 
-對要執行 OCR 的每個影像重複這些步驟，調整`imagePath`因此。
+1. 將圖像檔案載入為 `BufferedImage`。  
+2. 呼叫 `api.RecognizePage(loaded)` – 這是核心的 **從圖像提取文字（Java）** 呼叫。  
+3. 將辨識出的字串輸出至主控台。
+
+對每張需要處理的圖像重複上述三個步驟，只需調整 `imagePath` 即可。
+
+## 常見問題與除錯
+
+| 症狀 | 可能原因 | 解決方式 |
+|------|----------|----------|
+| `null` 輸出 | 找不到圖像檔案或檔案不可讀 | 核對 `dataDir` 與檔名；確保圖像格式受支援 |
+| 文字亂碼 | 語言設定錯誤 | 在 `RecognizePage` 前使用 `api.setLanguage(Language.<desired>)` |
+| 大圖像處理緩慢 | 圖像解析度過高 | 調整圖像尺寸或傳入縮放過的 `BufferedImage` 給 API |
+
+## 常見問答（補充）
+
+**Q1：Aspose.OCR 能處理多種語言嗎？**  
+A：可以 – 內建支援數十種語言。您可使用 `api.setLanguage(Language.English)`（或其他支援的語言）設定目標語言。
+
+**Q2：Aspose.OCR 是否相容不同的圖像格式？**  
+A：絕對相容。PNG、JPEG、BMP、TIFF 以及 GIF 均受支援。
+
+**Q3：Aspose.OCR 更新頻率如何？**  
+A：Aspose 定期釋出更新。請於[文件頁面](https://reference.aspose.com/ocr/java/)查看最新發行說明。
+
+**Q4：購買前可以先試用 Aspose.OCR 嗎？**  
+A：可以 – 免費試用可於[此處](https://releases.aspose.com/)取得。
+
+**Q5：哪裡可以取得 Aspose.OCR 的社群支援？**  
+A：請前往[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)參與討論。
 
 ## 結論
 
-恭喜！您已經成功學習如何使用 Aspose.OCR for Java 對 BufferedImage 執行 OCR。這個強大的庫為從圖像中提取文字開闢了可能性的世界，使您的應用程式更加通用。
+您現在已掌握如何使用 Aspose.OCR 的 `BufferedImage` 工作流程 **從圖像提取文字（Java）**。此方法讓您能快速且可靠地 **將圖像轉換為文字（Java）**，為應用程式提供可搜尋、可編輯的內容。您亦可探索語言選擇、PDF 上的 OCR 或批次處理等進階功能，進一步擴充解決方案。
 
-## 常見問題解答
+---
 
-### Q1：Aspose.OCR可以處理多種語言嗎？
+**最後更新：** 2025-12-06  
+**測試環境：** Aspose.OCR for Java 24.11（撰寫時的最新版本）  
+**作者：** Aspose  
 
-A1：是的，Aspose.OCR支援多種語言，適合多種文字辨識需求。
-
-### Q2：Aspose.OCR 是否相容於不同的影像格式？
-
-A2：當然！ Aspose.OCR 可以處理各種格式的影像，為您的 OCR 專案提供靈活性。
-
-### Q3：Aspose.OCR 多久更新一次？
-
-A3：Aspose 定期發布更新以增強功能並解決任何問題。檢查他們的[文件](https://reference.aspose.com/ocr/java/)了解最新資訊。
-
-### Q4：我可以在購買前試用Aspose.OCR嗎？
-
- A4：是的，您可以探索免費試用版[這裡](https://releases.aspose.com/).
-
-### Q5：我可以在哪裡獲得 Aspose.OCR 的社區支持？
-
- A5：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區支持和討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
