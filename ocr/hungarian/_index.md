@@ -59,19 +59,6 @@ Az alábbiakban néhány hasznos erőforrásra mutató hivatkozások található
 - [OCR Operations](./java/ocr-operations/)
 - [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.OCR latest release (as of 2025)  
-**Author:** Aspose  
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.OCR-t kereskedelmi alkalmazásban?**  
@@ -88,3 +75,16 @@ A: Az Aspose.OCR korlátozott támogatást nyújt a folyókézírásra; a legjob
 
 **Q: Hol találom az API referencia dokumentációt?**  
 A: Részletes API dokumentációk elérhetők az Aspose weboldalán az OCR termék szekcióban, minden oktatóoldalról elérhető hivatkozással.
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.OCR latest release (as of 2025)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -54,19 +54,6 @@ weight: 11
 - [การดำเนินการ OCR](./java/ocr-operations/)
 - [เทคนิค OCR ขั้นสูง](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบด้วย:** Aspose.OCR รุ่นล่าสุด (ณ ปี 2025)  
-**ผู้เขียน:** Aspose  
-
 ## คำถามที่พบบ่อย
 
 **Q: สามารถใช้ Aspose.OCR ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่?**  
@@ -83,3 +70,15 @@ A: Aspose.OCR มีการสนับสนุนจำกัดสำหร
 
 **Q: จะหาเอกสารอ้างอิง API ได้จากที่ไหน?**  
 A: เอกสาร API รายละเอียดพร้อมให้บริการบนเว็บไซต์ Aspose ภายใต้ส่วนผลิตภัณฑ์ OCR, มีลิงก์จากแต่ละหน้าคู่มือ
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบด้วย:** Aspose.OCR รุ่นล่าสุด (ณ ปี 2025)  
+**ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -58,19 +58,6 @@ These are links to some useful resources:
 - [OCR‑operationer](./java/ocr-operations/)
 - [Avancerade OCR‑tekniker](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-18  
-**Testad med:** Aspose.OCR senaste version (från 2025)  
-**Författare:** Aspose  
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.OCR i en kommersiell applikation?**  
@@ -87,3 +74,16 @@ A: Aspose.OCR har begränsat stöd för kursiv handskrift; för bästa resultat,
 
 **Q: Var kan jag hitta API‑referensdokumentation?**  
 A: Detaljerad API‑dokumentation finns på Aspose‑webbplatsen under OCR‑produktsektionen, länkad från varje handledningssida.
+
+---
+
+**Senast uppdaterad:** 2025-12-18  
+**Testad med:** Aspose.OCR senaste version (från 2025)  
+**Författare:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

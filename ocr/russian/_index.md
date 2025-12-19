@@ -59,19 +59,6 @@ weight: 11
 - [Операции OCR](./java/ocr-operations/)
 - [Продвинутые техники OCR](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-18  
-**Тестировано с:** Aspose.OCR latest release (as of 2025)  
-**Автор:** Aspose  
-
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я использовать Aspose.OCR в коммерческом приложении?**  
@@ -88,3 +75,16 @@ A: Aspose.OCR предоставляет ограниченную поддерж
 
 **Q: Где можно найти документацию по API?**  
 A: Подробная документация API доступна на сайте Aspose в разделе продукта OCR, со ссылкой с каждой страницы руководства.
+
+---
+
+**Последнее обновление:** 2025-12-18  
+**Тестировано с:** Aspose.OCR latest release (as of 2025)  
+**Автор:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -59,19 +59,6 @@ Giải phóng sức mạnh của việc trích xuất văn bản trong các ứn
 - [OCR Operations](./java/ocr-operations/)
 - [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.OCR phiên bản mới nhất (tính đến 2025)  
-**Tác giả:** Aspose  
-
 ## Câu Hỏi Thường Gặp
 
 **Q:** Tôi có thể sử dụng Aspose.OCR trong ứng dụng thương mại không?  
@@ -88,3 +75,16 @@ Giải phóng sức mạnh của việc trích xuất văn bản trong các ứn
 
 **Q:** Tôi có thể tìm tài liệu tham khảo API ở đâu?  
 **A:** Tài liệu API chi tiết có sẵn trên trang web Aspose trong mục sản phẩm OCR, được liên kết từ mỗi trang hướng dẫn.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Kiểm tra với:** Aspose.OCR phiên bản mới nhất (tính đến 2025)  
+**Tác giả:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

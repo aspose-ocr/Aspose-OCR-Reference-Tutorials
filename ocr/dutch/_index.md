@@ -59,19 +59,6 @@ Dit zijn links naar enkele nuttige bronnen:
 - [OCR Operations](./java/ocr-operations/)
 - [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-18  
-**Getest met:** Aspose.OCR latest release (as of 2025)  
-**Auteur:** Aspose  
-
 ## Veelgestelde vragen
 
 **Q: Kan ik Aspose.OCR gebruiken in een commerciële applicatie?**  
@@ -88,3 +75,16 @@ A: Aspose.OCR biedt beperkte ondersteuning voor cursieve handschrift; voor de be
 
 **Q: Waar kan ik de API‑referentiedocumentatie vinden?**  
 A: Gedetailleerde API‑documentatie is beschikbaar op de Aspose‑website onder de OCR‑productsectie, gelinkt vanaf elke handleidingspagina.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-18  
+**Getest met:** Aspose.OCR latest release (as of 2025)  
+**Auteur:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

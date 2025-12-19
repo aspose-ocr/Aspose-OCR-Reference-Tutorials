@@ -4,7 +4,7 @@ description: تعلم كيفية استخدام OCR مع Aspose.OCR لـ .NET ل
   دون اكتشاف منطقة النص.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'كيفية استخدام OCR: التعرف على الصورة دون اكتشاف منطقة النص'
+title: 'كيفية استخدام OCR - التعرف على الصورة دون اكتشاف منطقة النص'
 url: /ar/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,17 +151,15 @@ A: نعم، يمكنك تحسين التعرف بتعيين خصائص `Language
 
 باتباع هذه الخطوات، الآن تعرف **how to use OCR** في بيئة .NET لت **recognize image sample** الملفات دون الاعتماد على اكتشاف منطقة النص. يمنحك هذا النهج تحكمًا كاملاً في عملية OCR ويفتح الباب للعديد من سيناريوهات الأتمتة، من معالجة الفواتير إلى فهرسة المحتوى.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

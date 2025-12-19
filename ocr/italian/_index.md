@@ -55,19 +55,6 @@ Scatena la potenza dell'estrazione del testo nelle applicazioni Java con Aspose.
 - [Operazioni OCR](./java/ocr-operations/)
 - [Tecniche OCR Avanzate](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2025-12-18  
-**Testato Con:** Aspose.OCR ultima release (al 2025)  
-**Autore:** Aspose  
-
 ## Domande Frequenti
 
 **Q: Posso utilizzare Aspose.OCR in un'applicazione commerciale?**  
@@ -84,3 +71,16 @@ A: Aspose.OCR include un supporto limitato per la scrittura corsiva; per ottener
 
 **Q: Dove posso trovare la documentazione di riferimento dell'API?**  
 A: Documenti API dettagliati sono disponibili sul sito Aspose nella sezione prodotto OCR, collegati da ogni pagina tutorial.
+
+---
+
+**Ultimo Aggiornamento:** 2025-12-18  
+**Testato Con:** Aspose.OCR ultima release (al 2025)  
+**Autore:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

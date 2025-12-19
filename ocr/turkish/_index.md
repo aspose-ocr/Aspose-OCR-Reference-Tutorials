@@ -58,19 +58,6 @@ Bunlar bazı faydalı kaynaklara bağlantılardır:
 - [OCR İşlemleri](./java/ocr-operations/)
 - [Geli Teknikleri](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-18  
-**Test Edilen:** Aspose.OCR en son sürüm (as of 2025)  
-**Yazar:** Aspose  
-
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.OCR'u ticari bir uygulamada kullanabilir miyim?**  
@@ -87,3 +74,16 @@ C: Aspose.OCR, el yazısı için sınırlı destek sunar; en iyi sonuçlar için
 
 **S: API referans dokümantasyonunu nerede bulabilirim?**  
 C: Ayrıntılı API belgeleri, Aspose web sitesindeki OCR ürün bölümü altında bulunur ve her eğitim sayfasından bağlantı verilir.
+
+---
+
+**Son Güncelleme:** 2025-12-18  
+**Test Edilen:** Aspose.OCR en son sürüm (as of 2025)  
+**Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

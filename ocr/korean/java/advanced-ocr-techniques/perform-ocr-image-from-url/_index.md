@@ -120,7 +120,7 @@ for (String warning : result.warnings) {
 
 정확하게 이미지에서 텍스트를 추출하기 위해 Aspose.OCR을 Java 애플리케이션에 통합하는 단계는 위와 같습니다.
 
-## Common Issues and Solutions
+## 일반적인 문제점 및 해결책
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -129,7 +129,7 @@ for (String warning : result.warnings) {
 | **Missing language support** | 기본 언어 팩에 영어만 포함됨. | `settings.setLanguage("fra")`와 같은 추가 언어 팩을 로드합니다(다른 ISO 코드도 가능). |
 | **License not applied** | 체험판 모드에서는 페이지가 제한될 수 있음. | `License license = new License(); license.setLicense("Aspose.OCR.lic");`와 같이 유효한 라이선스를 적용합니다. |
 
-## Frequently Asked Questions
+## 자주 묻는 질문
 
 **Q: Aspose.OCR이 이미지에서 텍스트를 인식하는 정확도는 어느 정도인가요?**  
 A: Aspose.OCR은 **고정밀 OCR**을 제공하며, 특히 정확한 인식 영역을 정의하고 auto‑skew를 비활성화하면 정확도가 크게 향상됩니다.

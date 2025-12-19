@@ -58,19 +58,6 @@ weight: 11
 - [عمليات OCR](./java/ocr-operations/)
 - [تقنيات OCR المتقدمة](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-18  
-**تم الاختبار مع:** أحدث إصدار من Aspose.OCR (حتى عام 2025)  
-**المؤلف:** Aspose  
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.OCR في تطبيق تجاري؟**  
@@ -87,3 +74,16 @@ weight: 11
 
 **س: أين يمكنني العثور على وثائق مرجع API؟**  
 ج: الوثائق التفصيلية للـ API متاحة على موقع Aspose تحت قسم منتجات OCR، مع روابط من كل صفحة دليل.
+
+---
+
+**آخر تحديث:** 2025-12-18  
+**تم الاختبار مع:** أحدث إصدار من Aspose.OCR (حتى عام 2025)  
+**المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

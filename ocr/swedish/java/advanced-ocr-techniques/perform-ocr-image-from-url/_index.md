@@ -15,31 +15,31 @@ weight: 11
 
 # Extrahera text från bild från URL med Aspose.OCR för Java
 
-## Introduction
+## Introduktion
 
 I den här steg‑för‑steg **aspose ocr java tutorial**, kommer du att lära dig hur du **extraherar text från bild**‑filer som är värd på webben. Vid slutet av guiden har du ett fungerande Java‑snutt som hämtar en bild från en URL, kör hög noggrannhet OCR, och returnerar den igenkända texten tillsammans med användbar JSON‑metadata. Detta tillvägagångssätt är perfekt för webb‑crawlers, dokument‑behandlingspipelines, eller någon applikation som behöver läsa text från fjärrbilder.
 
-## Quick Answers
+## Snabba svar
 - **Kan Aspose.OCR extrahera text från bild‑URL:er?** Ja – använd `RecognizePageFromUri`.  
 - **Stöder den OCR på flera språk?** Absolut; du kan ange språkpaket i inställningarna.  
 - **Är OCR:n hög noggrannhet?** Med korrekta igenkänningsområden och auto‑skew inaktiverat är noggrannheten bland de bästa i klassen.  
 - **Vad behöver jag innan du börjar?** Java 8+, Aspose.OCR för Java och en giltig licens för produktionsanvändning.  
 - **Hur hanterar jag licensiering?** Se avsnittet *aspose ocr licensing* nedan för detaljer.
 
-## What is “extract text from image”?
-
+## Vad är "extrahera text från bild"?
+Snabba svar
 Att extrahera text från en bild innebär att konvertera den visuella representationen av tecken till maskinläsbara strängar. OCR‑motorer (Optical Character Recognition) analyserar pixelmönster, identifierar teckenformer och levererar vanlig text som du kan lagra, söka eller manipulera programmässigt.
 
-## Why use Aspose.OCR for high accuracy OCR?
+## Varför använda Aspose.OCR för OCR med hög noggrannhet?
 
 Aspose.OCR erbjuder en **hög noggrannhet OCR**‑motor som stödjer ett brett spektrum av bildformat, anpassade igenkänningsområden och språkpaket. Biblioteket är helt hanterat, kräver inga inhemska beroenden och integreras smidigt med Java‑projekt—vilket gör det till ett pålitligt val för företagsklassad textutvinning.
 
-## Prerequisites
+## Förkunskapskrav
 
 1. **Java‑utvecklingsmiljö** – En fungerande JDK (8 eller nyare) och en IDE eller byggverktyg du föredrar.  
 2. **Aspose.OCR‑bibliotek** – Ladda ner och installera Aspose.OCR för Java‑biblioteket. Du kan hitta biblioteket och relaterad dokumentation på [Aspose.OCR‑webbplatsen](https://reference.aspose.com/ocr/java/).  
 
-## Import Packages
+## Importera paket
 
 I ditt Java‑projekt, importera de nödvändiga paketen för Aspose.OCR:
 
@@ -58,7 +58,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Step 1: Create API Instance
+## Steg 1: Skapa API-instans
 
 Initiera en instans av `AsposeOCR`‑klassen:
 
@@ -66,7 +66,7 @@ Initiera en instans av `AsposeOCR`‑klassen:
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Step 2: Define Image URL
+## Steg 2: Definiera bild-URL
 
 Ange URL:en till bilden som du vill utföra OCR på:
 
@@ -74,7 +74,7 @@ Ange URL:en till bilden som du vill utföra OCR på:
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## Step 3: Set Recognition Options
+## Steg 3: Ställ in igenkänningsalternativ
 
 Konfigurera igenkänningsinställningar, såsom att inaktivera auto‑skew och definiera igenkänningsområden:
 
@@ -88,7 +88,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Step 4: Perform OCR
+## Steg 4: Utför OCR
 
 Anropa OCR‑igenkänningsprocessen:
 
@@ -101,7 +101,7 @@ try {
 }
 ```
 
-## Step 5: Print Results
+## Steg 5: Skriv ut resultat
 
 Visa igenkänningsresultaten, inklusive den extraherade texten, text från igenkänningsområden, JSON‑utdata och eventuella varningar:
 
@@ -120,7 +120,7 @@ for (String warning : result.warnings) {
 
 Upprepa dessa steg för att integrera Aspose.OCR i din Java‑applikation och extrahera text från bilder med precision.
 
-## Common Issues and Solutions
+## Vanliga problem och lösningar
 
 | Problem | Varför det händer | Lösning |
 |---------|-------------------|---------|
@@ -129,7 +129,7 @@ Upprepa dessa steg för att integrera Aspose.OCR i din Java‑applikation och ex
 | **Saknad språkstöd** | Standard språkpaket innehåller bara engelska. | Ladda ytterligare språkpaket via `settings.setLanguage("fra")` (eller andra ISO‑koder). |
 | **Licens ej tillämpad** | Testläge kan begränsa sidor. | Tillämpa en giltig licens med `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
 
-## Frequently Asked Questions
+## Vanliga frågor
 
 **Q: Hur exakt är Aspose.OCR på att känna igen text från bilder?**  
 A: Aspose.OCR levererar **hög noggrannhet OCR**, särskilt när du definierar precisa igenkänningsområden och inaktiverar auto‑skew.
@@ -146,9 +146,11 @@ A: Besök [Aspose.OCR‑forumet](https://forum.aspose.com/c/ocr/16) för communi
 **Q: Finns det en gratis provperiod för Aspose.OCR för Java?**  
 A: Ja, du kan utforska hela funktionsuppsättningen med en gratis provperiod på [releases.aspose.com](https://releases.aspose.com/).
 
-## Conclusion
+## Slutsats
 
 Att använda Aspose.OCR för Java ger dig en **robust, hög noggrannhet OCR**‑lösning som kan **extrahera text från bild**‑URL:er snabbt och pålitligt. Följ stegen ovan, justera igenkänningsinställningarna för att matcha ditt dokumentlayout, så är du redo att integrera kraftfulla textutvinningsfunktioner i vilket Java‑baserat arbetsflöde som helst.
+
+---
 
 **Senast uppdaterad:** 2025-12-18  
 **Testad med:** Aspose.OCR 24.11 for Java  

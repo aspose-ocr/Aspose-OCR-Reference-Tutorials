@@ -59,19 +59,6 @@ Estes são links para alguns recursos úteis:
 - [Operações de OCR](./java/ocr-operations/)
 - [Técnicas Avançadas de OCR](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-18  
-**Testado com:** Aspose.OCR latest release (as of 2025)  
-**Autor:** Aspose  
-
 ## Perguntas Frequentes
 
 **Q: Posso usar o Aspose.OCR em uma aplicação comercial?**  
@@ -88,3 +75,16 @@ A: O Aspose.OCR inclui suporte limitado para escrita cursiva; para obter os melh
 
 **Q: Onde posso encontrar a documentação de referência da API?**  
 A: Documentos detalhados da API estão disponíveis no site da Aspose, na seção de produto OCR, vinculados a partir de cada página de tutorial.
+
+---
+
+**Última atualização:** 2025-12-18  
+**Testado com:** Aspose.OCR latest release (as of 2025)  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

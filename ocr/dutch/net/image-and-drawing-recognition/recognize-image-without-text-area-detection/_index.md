@@ -4,7 +4,7 @@ description: Leer hoe je OCR met Aspose.OCR voor .NET kunt gebruiken om tekst ui
   PNG‑afbeeldingen te extraheren zonder detectie van tekstgebieden.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Hoe OCR te gebruiken: Afbeelding herkennen zonder detectie van tekstgebied'
+title: 'Hoe OCR te gebruiken - Afbeelding herkennen zonder detectie van tekstgebied'
 url: /nl/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,15 +151,15 @@ A: Ja, je kunt de herkenning verfijnen door de `Language`‑ en `RecognitionOpti
 
 Door deze stappen te volgen weet je nu **hoe OCR te gebruiken** in een .NET‑omgeving om **beeldvoorbeeld**‑bestanden te herkennen zonder afhankelijk te zijn van tekstgebieddetectie. Deze aanpak geeft je volledige controle over het OCR‑proces en opent de deur naar vele automatiseringsscenario's, van factuurverwerking tot content‑indexering.
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.OCR for .NET 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose

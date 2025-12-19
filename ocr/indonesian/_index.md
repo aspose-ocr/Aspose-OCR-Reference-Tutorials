@@ -59,19 +59,6 @@ Berikut adalah tautan ke beberapa sumber daya yang berguna:
 - [OCR Operations](./java/ocr-operations/)
 - [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Rilis terbaru Aspose.OCR (per 2025)  
-**Penulis:** Aspose  
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya menggunakan Aspose.OCR dalam aplikasi komersial?**  
@@ -88,3 +75,17 @@ J: Aspose.OCR mencakup dukungan terbatas untuk tulisan tangan kursif; untuk hasi
 
 **T: Di mana saya dapat menemukan dokumentasi referensi API?**  
 J: Dokumentasi API detail tersedia di situs web Aspose pada bagian produk OCR, yang ditautkan dari setiap halaman tutorial.
+
+---
+
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Rilis terbaru Aspose.OCR (per 2025)  
+**Penulis:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

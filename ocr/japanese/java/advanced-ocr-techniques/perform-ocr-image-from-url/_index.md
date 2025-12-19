@@ -14,31 +14,31 @@ weight: 11
 
 # URL から画像のテキストを抽出する – Aspose.OCR for Java
 
-## Introduction
+## 導入
 
 このステップバイステップ **aspose ocr java tutorial** では、Web 上にホストされている画像ファイルから **テキストを抽出** する方法を学びます。ガイドの最後までに、URL から画像を取得し、高精度 OCR を実行して、認識されたテキストと有用な JSON メタデータを返す Java スニペットが完成します。このアプローチは、ウェブクローラ、文書処理パイプライン、またはリモート画像からテキストを読み取る必要があるあらゆるアプリケーションに最適です。
 
-## Quick Answers
+## クイックアンサー
 - **Aspose.OCR は画像 URL からテキストを抽出できますか？** はい – `RecognizePageFromUri` を使用します。  
 - **複数言語の OCR に対応していますか？** 完全に対応しています。設定で言語パックを指定できます。  
 - **OCR の精度は高いですか？** 認識領域を適切に設定し、auto‑skew を無効にすれば、クラス最高水準の精度が得られます。  
 - **開始前に必要なものは？** Java 8 以上、Aspose.OCR for Java、そして本番利用向けの有効なライセンス。  
 - **ライセンスはどう扱いますか？** 詳細は下記 *aspose ocr licensing* セクションをご参照ください。
 
-## What is “extract text from image”?
+## 「画像からテキストを抽出する」とは何ですか？
 
 画像からテキストを抽出するとは、文字の視覚的表現を機械が読み取れる文字列に変換することです。OCR（Optical Character Recognition）エンジンはピクセルパターンを解析し、文字形状を識別して、保存・検索・プログラムから操作可能なプレーンテキストを出力します。
 
-## Why use Aspose.OCR for high accuracy OCR?
+## 高精度 OCR に Aspose.OCR を使用する理由は何ですか?
 
 Aspose.OCR は **高精度 OCR** エンジンを提供し、幅広い画像フォーマット、カスタム認識領域、言語パックに対応しています。ライブラリは完全にマネージドでネイティブ依存がなく、Java プロジェクトにすっきり統合できるため、エンタープライズ向けテキスト抽出に信頼性の高い選択肢です。
 
-## Prerequisites
+## 前提条件
 
 1. **Java 開発環境** – 動作する JDK（8 以上）とお好みの IDE またはビルドツール。  
 2. **Aspose.OCR ライブラリ** – Aspose.OCR for Java ライブラリをダウンロードしてインストールします。ライブラリと関連ドキュメントは [Aspose.OCR website](https://reference.aspose.com/ocr/java/) で入手可能です。  
 
-## Import Packages
+## パッケージのインポート
 
 Java プロジェクトで Aspose.OCR に必要なパッケージをインポートします:
 
@@ -57,7 +57,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Step 1: Create API Instance
+## ステップ1: APIインスタンスを作成する
 
 `AsposeOCR` クラスのインスタンスを初期化します:
 
@@ -65,7 +65,7 @@ import java.util.ArrayList;
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Step 2: Define Image URL
+## ステップ2: 画像のURLを定義する
 
 OCR を実行したい画像の URL を指定します:
 
@@ -87,7 +87,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Step 4: Perform OCR
+## ステップ4: OCRを実行する
 
 OCR 認識プロセスを呼び出します:
 
@@ -100,7 +100,7 @@ try {
 }
 ```
 
-## Step 5: Print Results
+## ステップ5: 結果を印刷する
 
 認識結果（抽出テキスト、認識領域テキスト、JSON 出力、警告メッセージ）を表示します:
 
@@ -119,16 +119,16 @@ for (String warning : result.warnings) {
 
 上記手順を繰り返すことで、Aspose.OCR を Java アプリケーションに統合し、精度の高い画像テキスト抽出が実現できます。
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
-| **Empty `recognitionText`** | URL が間違っている、またはネットワークタイムアウト。 | URL がアクセス可能か確認し、例外処理を追加してください。 |
-| **Garbage characters** | 回転画像で auto‑skew が有効になっている。 | `settings.setAutoSkew(false)` を保持するか、正しい回転メタデータを提供してください。 |
-| **Missing language support** | デフォルトの言語パックは英語のみ。 | `settings.setLanguage("fra")` など、適切な ISO コードで追加言語パックをロードしてください。 |
-| **License not applied** | トライアルモードではページ数が制限される。 | `License license = new License(); license.setLicense("Aspose.OCR.lic");` で有効なライセンスを適用してください。 |
+| **が空です `recognitionText`** | URL が間違っている、またはネットワークタイムアウト。 | URL がアクセス可能か確認し、例外処理を追加してください。 |
+| **文字化けしています** | 回転画像で auto‑skew が有効になっている。 | `settings.setAutoSkew(false)` を保持するか、正しい回転メタデータを提供してください。 |
+| **言語サポートがありません** | デフォルトの言語パックは英語のみ。 | `settings.setLanguage("fra")` など、適切な ISO コードで追加言語パックをロードしてください。 |
+| **ライセンスは適用されません** | トライアルモードではページ数が制限される。 | `License license = new License(); license.setLicense("Aspose.OCR.lic");` で有効なライセンスを適用してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: Aspose.OCR の画像テキスト認識精度はどの程度ですか？**  
 A: **高精度 OCR** を提供しており、特に認識領域を正確に設定し auto‑skew を無効にした場合に最高レベルの精度が得られます。
@@ -145,7 +145,7 @@ A: コミュニティサポートは [Aspose.OCR forum](https://forum.aspose.com
 **Q: Aspose.OCR for Java の無料トライアルはありますか？**  
 A: はい。全機能を試せる無料トライアルは [releases.aspose.com](https://releases.aspose.com/) からダウンロードできます。
 
-## Conclusion
+## 結論
 
 Aspose.OCR for Java を活用すれば、**堅牢で高精度な OCR** ソリューションが手に入り、URL から画像のテキストを迅速かつ確実に抽出できます。上記手順に従い、認識設定をドキュメントレイアウトに合わせて調整すれば、あらゆる Java ベースのワークフローに強力なテキスト抽出機能を統合できます。
 

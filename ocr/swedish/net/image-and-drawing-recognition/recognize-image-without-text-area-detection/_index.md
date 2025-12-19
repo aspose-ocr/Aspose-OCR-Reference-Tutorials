@@ -4,7 +4,7 @@ description: Lär dig hur du använder OCR med Aspose.OCR för .NET för att ext
   text från PNG‑bilder utan textområdesdetektering.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Hur man använder OCR: Känn igen bild utan textområdesdetektering'
+title: 'Hur man använder OCR - Känn igen bild utan textområdesdetektering'
 url: /sv/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,17 +151,15 @@ A: Ja, du kan finjustera igenkänningen genom att sätta `Language`‑ och `Reco
 
 Genom att följa dessa steg vet du nu **hur man använder OCR** i en .NET‑miljö för att **känna igen bild‑exempel**‑filer utan att förlita dig på textområdesdetektering. Detta tillvägagångssätt ger dig full kontroll över OCR‑processen och öppnar dörren till många automatiseringsscenarier, från fakturabehandling till innehållsindexering.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-18  
 **Testat med:** Aspose.OCR för .NET 24.11  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

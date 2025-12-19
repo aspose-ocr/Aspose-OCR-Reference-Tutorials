@@ -58,19 +58,6 @@ Aspose.OCR で Java アプリケーションのテキスト抽出機能を解き
 - [OCR 操作](./java/ocr-operations/)
 - [高度な OCR テクニック](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-18  
-**テスト環境:** Aspose.OCR latest release (as of 2025)  
-**作者:** Aspose  
-
 ## よくある質問
 
 **Q: Aspose.OCR を商用アプリケーションで使用できますか？**  
@@ -87,3 +74,16 @@ A: Aspose.OCR は筆記体手書きに対して限定的なサポートを提供
 
 **Q: API リファレンスドキュメントはどこで見つけられますか？**  
 A: 詳細な API ドキュメントは Aspose のウェブサイトの OCR 製品セクションにあり、各チュートリアルページからリンクされています。
+
+---
+
+**最終更新日:** 2025-12-18  
+**テスト環境:** Aspose.OCR latest release (as of 2025)  
+**作者:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

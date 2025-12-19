@@ -59,19 +59,6 @@ weight: 11
 - [OCR 操作](./java/ocr-operations/)
 - [高级 OCR 技术](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-18  
-**测试于：** Aspose.OCR latest release (as of 2025)  
-**作者：** Aspose  
-
 ## 常见问题解答
 
 **Q: 我可以在商业应用中使用 Aspose.OCR 吗？**  
@@ -88,3 +75,16 @@ A: Aspose.OCR 对连笔手写提供有限支持；为获得最佳效果，请启
 
 **Q: 在哪里可以找到 API 参考文档？**  
 A: 详细的 API 文档可在 Aspose 网站的 OCR 产品章节中找到，并在每个教程页面提供链接。
+
+---
+
+**最后更新：** 2025-12-18  
+**测试于：** Aspose.OCR latest release (as of 2025)  
+**作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

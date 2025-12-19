@@ -3,7 +3,7 @@ date: 2025-12-18
 description: 学习如何使用 Aspose.OCR for .NET 进行 OCR，从 PNG 图像中提取文本，而无需文本区域检测。
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 如何使用 OCR：在不检测文本区域的情况下识别图像
+title: 如何使用 OCR - 在不检测文本区域的情况下识别图像
 url: /zh/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -150,17 +150,15 @@ A：可以，通过在 `AsposeOcr` 实例上设置 `Language` 和 `RecognitionOp
 
 通过上述步骤，你现在已经掌握了 **如何在 .NET 环境中使用 OCR**，并能够 **在不进行文本区域检测的情况下识别图像样本** 文件。这种方法让你对 OCR 过程拥有完整控制，能够实现从发票处理到内容索引的多种自动化场景。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-18  
 **测试环境：** Aspose.OCR for .NET 24.11  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

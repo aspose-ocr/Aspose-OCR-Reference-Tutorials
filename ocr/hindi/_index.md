@@ -59,19 +59,6 @@ Aspose.OCR के साथ Java एप्लिकेशन्स में ट
 - [OCR Operations](./java/ocr-operations/)
 - [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.OCR latest release (as of 2025)  
-**Author:** Aspose  
-
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q: क्या मैं Aspose.OCR को व्यावसायिक एप्लिकेशन में उपयोग कर सकता हूँ?**  
@@ -88,3 +75,16 @@ A: Aspose.OCR में कर्सिव हैंडराइटिंग क
 
 **Q: API रेफ़रेंस दस्तावेज़ कहाँ मिल सकते हैं?**  
 A: विस्तृत API डॉक्यूमेंटेशन Aspose वेबसाइट पर OCR प्रोडक्ट सेक्शन में उपलब्ध है, जो प्रत्येक ट्यूटोरियल पेज से लिंक किया गया है।
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.OCR latest release (as of 2025)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

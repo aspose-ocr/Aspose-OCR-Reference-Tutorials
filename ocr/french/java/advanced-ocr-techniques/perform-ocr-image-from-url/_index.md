@@ -18,29 +18,29 @@ weight: 11
 
 ## Introduction
 
-Dans ce **aspose ocr java tutorial**, vous apprendrez comment **extraire du texte d'images** qui sont hébergées sur le web. À la fin du guide, vous disposerez d’un extrait Java fonctionnel qui récupère une image depuis une URL, exécute une OCR haute précision, et renvoie le texte reconnu ainsi que des métadonnées JSON utiles. Cette approche est parfaite pour les crawlers web, les pipelines de traitement de documents, ou toute application qui doit lire du texte à partir d’images distantes.
+Dans ce **aspose ocr java tutoriel**, vous apprendrez comment **extraire du texte d'images** qui sont hébergées sur le web. À la fin du guide, vous disposez d'un extrait Java fonctionnel qui récupère une image depuis une URL, exécute une OCR haute précision, et renvoie le texte reconnu ainsi que des métadonnées JSON utiles. Cette approche est parfaite pour les robots d'exploration Web, les pipelines de traitement de documents, ou toute application qui doit lire le texte à partir d'images distantes.
 
-## Quick Answers
-- **Aspose.OCR peut‑il extraire du texte d'URL d'images ?** Yes – use `RecognizePageFromUri`.  
-- **Prend‑il en charge l'OCR multilingue ?** Absolutely; you can set language packs in the settings.  
-- **L'OCR est‑il d'une haute précision ?** With proper recognition areas and auto‑skew disabled, accuracy is among the best in class.  
-- **De quoi ai‑je besoin avant de commencer ?** Java 8+, Aspose.OCR for Java, and a valid license for production use.  
-- **Comment gérer la licence ?** See the *aspose ocr licensing* section below for details.
+## Réponses rapides
+- **Aspose.OCR peut‑il extraire du texte d'URL d'images ?** Oui – utilisez `RecognizePageFromUri`.
+- **Prend‑il en charge l'OCR multilingue ?** Absolument ; vous pouvez définir des packs de langue dans les paramètres.
+- **L'OCR est‑il d'une haute précision ?** Avec les zones de reconnaissance appropriées et l'inclinaison automatique désactivée, la précision est parmi les meilleures de sa catégorie.
+- **De quoi ai-je besoin avant de commencer ?** Java8+, Aspose.OCR pour Java et une licence valide pour une utilisation en production.
+- **Comment gérer la licence ?** Voir la section *aspose ocr licences* ci-dessous pour plus de détails.
 
-## What is “extract text from image”?
+## Qu'est-ce que « extraire le texte d'une image » ?
 
-Extraire du texte d’une image signifie convertir la représentation visuelle des caractères en chaînes lisibles par machine. Les moteurs OCR (Optical Character Recognition) analysent les motifs de pixels, identifient les formes de caractères, et produisent du texte brut que vous pouvez stocker, rechercher ou manipuler programmatiquement.
+Extraire du texte d’une image signifie convertir la représentation visuelle des caractères en chaînes lisibles par machine. Les moteurs OCR (Optical Character Recognition) analysent les motifs de pixels, identifient les formes de caractères et produisent du texte brut que vous pouvez stocker, rechercher ou manipuler par programmation.
 
-## Why use Aspose.OCR for high accuracy OCR?
+## Pourquoi utiliser Aspose.OCR pour une OCR de haute précision ?
 
-Aspose.OCR offre un moteur **high accuracy OCR** qui prend en charge un large éventail de formats d’image, des zones de reconnaissance personnalisées et des packs de langues. La bibliothèque est entièrement gérée, ne nécessite aucune dépendance native, et s’intègre proprement aux projets Java—ce qui en fait un choix fiable pour l’extraction de texte de niveau entreprise.
+Aspose.OCR offre un moteur **haute précision OCR** ​​qui prend en charge un large éventail de formats d'image, des zones de reconnaissance personnalisées et des packs de langues. La bibliothèque est entièrement gérée, ne nécessite aucune dépendance native, et s'intègre proprement aux projets Java—ce qui en fait un choix fiable pour l'extraction de texte de niveau entreprise.
 
-## Prerequisites
+## Prérequis
 
-1. **Environnement de développement Java** – Un JDK fonctionnel (8 ou plus récent) et un IDE ou un outil de construction de votre choix.  
-2. **Bibliothèque Aspose.OCR** – Téléchargez et installez la bibliothèque Aspose.OCR pour Java. Vous pouvez trouver la bibliothèque et la documentation associée sur le site [Aspose.OCR website](https://reference.aspose.com/ocr/java/).  
+1. **Environnement de développement Java** – Un JDK fonctionnel (8 ou plus récent) et un IDE ou un outil de construction de votre choix.
+2. **Bibliothèque Aspose.OCR** ​​– Téléchargez et installez la bibliothèque Aspose.OCR pour Java. Vous pouvez trouver la bibliothèque et la documentation associée sur le site [site Aspose.OCR](https://reference.aspose.com/ocr/java/).
 
-## Import Packages
+## Importer des packages
 
 Dans votre projet Java, importez les packages nécessaires pour Aspose.OCR :
 
@@ -59,7 +59,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Step 1: Create API Instance
+## Étape 1 : Créer une instance d’API
 
 Initialisez une instance de la classe `AsposeOCR` :
 
@@ -67,7 +67,7 @@ Initialisez une instance de la classe `AsposeOCR` :
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Step 2: Define Image URL
+## Étape 2 : Définir l’URL de l’image
 
 Spécifiez l’URL de l’image à partir de laquelle vous souhaitez effectuer l’OCR :
 
@@ -75,7 +75,7 @@ Spécifiez l’URL de l’image à partir de laquelle vous souhaitez effectuer l
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## Step 3: Set Recognition Options
+## Étape 3 : Définir les options de reconnaissance
 
 Configurez les paramètres de reconnaissance, tels que la désactivation de l’auto‑skew et la définition des zones de reconnaissance :
 
@@ -89,7 +89,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Step 4: Perform OCR
+## Étape 4 : Effectuer la reconnaissance optique de caractères (OCR)
 
 Appelez le processus de reconnaissance OCR :
 
@@ -102,7 +102,7 @@ try {
 }
 ```
 
-## Step 5: Print Results
+## Étape 5 : Imprimer les résultats
 
 Affichez les résultats de la reconnaissance, y compris le texte extrait, le texte des zones de reconnaissance, la sortie JSON, et les éventuels avertissements :
 
@@ -121,31 +121,33 @@ for (String warning : result.warnings) {
 
 Répétez ces étapes pour intégrer Aspose.OCR dans votre application Java et extraire du texte d’images avec précision.
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
-| **Empty `recognitionText`** | URL incorrecte ou délai d'attente réseau. | Vérifiez que l'URL est accessible et ajoutez une gestion d'exception appropriée. |
-| **Garbage characters** | Auto‑skew activé sur des images tournées. | Conservez `settings.setAutoSkew(false)` ou fournissez les métadonnées de rotation correctes. |
-| **Missing language support** | Le pack de langue par défaut ne comprend que l'anglais. | Chargez des packs de langues supplémentaires via `settings.setLanguage("fra")` (ou d'autres codes ISO). |
-| **License not applied** | Le mode d'essai peut limiter les pages. | Appliquez une licence valide avec `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
+| Problème | Pourquoi cela se produit | Solutions |
+|--------------|----------------|---------------|
+| ** `recognitionText`** vide | URL incorrecte ou délai d'attente réseau. | Vérifiez que l'URL est accessible et ajoutez une gestion d'exception appropriée. |
+| **Personnages poubelles** | Auto‑skew activé sur les images tournées. | Conservez `settings.setAutoSkew(false)` ou fournissez les métadonnées de rotation correctes. |
+| **Prise en charge linguistique manquante** | Le pack de langue par défaut ne comprend que l'anglais. | Chargez des packs de langues supplémentaires via `settings.setLanguage("fra")` (ou d'autres codes ISO). |
+| **Licence non appliquée** | Le mode d'essai peut limiter les pages. | Appliquez une licence valide avec `License licence = new License(); license.setLicense("Aspose.OCR.lic");` |
 
-## Frequently Asked Questions
+## Foire aux questions
 
-**Q : Quelle est la précision d'Aspose.OCR pour la reconnaissance de texte à partir d'images ?**  
-R : Aspose.OCR fournit une **high accuracy OCR**, surtout lorsque vous définissez des zones de reconnaissance précises et désactivez l'auto‑skew.
+**Q : Quelle est la précision d'Aspose.OCR pour la reconnaissance de texte à partir d'images ?**
+R : Aspose.OCR fournit une **OCR de haute précision**, surtout lorsque vous définissez des zones de reconnaissance précises et désactivez l'auto‑skew.
 
-**Q : Aspose.OCR peut‑il gérer l'OCR multilingue ?**  
-R : Yes, the engine supports many languages; you just need to load the appropriate language pack in `RecognitionSettings`.
+**Q : Aspose.OCR peut‑il gérer l'OCR multilingue ?**
+R : Oui, le moteur prend en charge de nombreuses langues ; il vous suffit de charger le pack de langue approprié dans `RecognitionSettings`.
 
-**Q : Y a‑t‑il des considérations de licence pour l'utilisation d'Aspose.OCR dans des projets commerciaux ?**  
-R : Absolutely. Review the **aspose ocr licensing** details and obtain a commercial license from [purchase.aspose.com](https://purchase.aspose.com/buy).
+**Q : Y a-t-il des considérations de licence pour l'utilisation d'Aspose.OCR dans des projets commerciaux ?**
+R : Absolument. Consultez les détails de la **licence aspose ocr** et obtenez une licence commerciale auprès de [purchase.aspose.com](https://purchase.aspose.com/buy).
 
-**Q : Comment obtenir du support pour les problèmes liés à Aspose.OCR ?**  
-R : Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community help, or acquire premium support with a temporary license from [Temporary License](https://purchase.aspose.com/temporary-license/).
+**Q : Comment obtenir de l'aide pour les problèmes liés à Aspose.OCR ?**
 
-**Q : Existe‑t‑il un essai gratuit pour Aspose.OCR pour Java ?**  
-R : Yes, you can explore the full feature set with a free trial at [releases.aspose.com](https://releases.aspose.com/).
+R : Consultez le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour obtenir de l'aide de la communauté, ou achetez une licence temporaire pour bénéficier d'une assistance premium via [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+**Q : Existe-t-il une version d'essai gratuite d'Aspose.OCR pour Java ?**
+
+R : Oui, vous pouvez découvrir toutes les fonctionnalités grâce à une version d'essai gratuite disponible sur [releases.aspose.com](https://releases.aspose.com/).
 
 ## Conclusion
 

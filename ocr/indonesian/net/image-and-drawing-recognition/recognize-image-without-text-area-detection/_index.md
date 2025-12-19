@@ -4,7 +4,7 @@ description: Pelajari cara menggunakan OCR dengan Aspose.OCR untuk .NET untuk me
   teks dari gambar PNG tanpa deteksi area teks.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Cara Menggunakan OCR: Mengenali Gambar Tanpa Deteksi Area Teks'
+title: 'Cara Menggunakan OCR - Mengenali Gambar Tanpa Deteksi Area Teks'
 url: /id/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -149,15 +149,15 @@ A: Ya, Anda dapat menyempurnakan pengenalan dengan mengatur properti `Language` 
 
 Dengan mengikuti langkah‑langkah ini Anda kini mengetahui **cara menggunakan OCR** dalam lingkungan .NET untuk **mengenali file gambar contoh** tanpa bergantung pada deteksi area teks. Pendekatan ini memberi Anda kontrol penuh atas proses OCR dan membuka pintu ke banyak skenario otomatisasi, mulai dari pemrosesan faktur hingga pengindeksan konten.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-18  
+**Diuji Dengan:** Aspose.OCR untuk .NET 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-18  
-**Diuji Dengan:** Aspose.OCR untuk .NET 24.11  
-**Penulis:** Aspose

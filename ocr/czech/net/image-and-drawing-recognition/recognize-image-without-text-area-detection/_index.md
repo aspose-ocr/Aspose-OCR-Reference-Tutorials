@@ -4,7 +4,7 @@ description: Naučte se, jak používat OCR s Aspose.OCR pro .NET k extrahován�
   z PNG obrázků bez detekce textové oblasti.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Jak používat OCR: Rozpoznat obrázek bez detekce textových oblastí'
+title: 'Jak používat OCR - Rozpoznat obrázek bez detekce textových oblastí'
 url: /cs/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,15 +151,15 @@ A: Ano, můžete doladit rozpoznávání nastavením vlastností `Language` a `R
 
 Po absolvování těchto kroků nyní víte **jak používat OCR** v .NET prostředí k **rozpoznání obrázkových vzorků** bez spoléhání se na detekci textových oblastí. Tento přístup vám dává plnou kontrolu nad procesem OCR a otevírá dveře k mnoha automatizačním scénářům, od zpracování faktur po indexaci obsahu.
 
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.OCR for .NET 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose

@@ -59,19 +59,6 @@ Jedná se o odkazy na některé užitečné zdroje:
 - [Operace OCR](./java/ocr-operations/)
 - [Pokročilé OCR techniky](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-18  
-**Testováno s:** Aspose.OCR nejnovější vydání (k roku 2025)  
-**Autor:** Aspose  
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.OCR v komerční aplikaci?**  
@@ -88,3 +75,16 @@ A: Aspose.OCR obsahuje omezenou podporu pro kurzivní rukopis; pro nejlepší v�
 
 **Q: Kde mohu najít dokumentaci API?**  
 A: Podrobná API dokumentace je k dispozici na webu Aspose v sekci produktu OCR, odkazy jsou na každé stránce tutoriálu.
+
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.OCR nejnovější vydání (k roku 2025)  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

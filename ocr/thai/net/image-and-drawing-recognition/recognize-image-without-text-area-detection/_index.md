@@ -4,7 +4,7 @@ description: เรียนรู้วิธีใช้ OCR กับ Aspose.
   PNG โดยไม่ต้องตรวจจับพื้นที่ข้อความ.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'วิธีใช้ OCR: จดจำภาพโดยไม่ต้องตรวจจับพื้นที่ข้อความ'
+title: 'วิธีใช้ OCR - จดจำภาพโดยไม่ต้องตรวจจับพื้นที่ข้อความ'
 url: /th/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,16 +151,14 @@ A: ได้, คุณสามารถปรับ `Language` และ `Reco
 
 เมื่อทำตามขั้นตอนเหล่านี้แล้ว คุณจะรู้ **วิธีใช้ OCR** ในสภาพแวดล้อม .NET เพื่อ **จดจำไฟล์ภาพตัวอย่าง** โดยไม่ต้องพึ่งพาการตรวจจับพื้นที่ข้อความ วิธีนี้ให้คุณควบคุมกระบวนการ OCR ได้เต็มที่และเปิดประตูสู่การอัตโนมัติมากมาย ตั้งแต่การประมวลผลใบแจ้งหนี้จนถึงการทำดัชนีเนื้อหา  
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-18  
+**ทดสอบด้วย:** Aspose.OCR for .NET 24.11**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-18  
-**ทดสอบด้วย:** Aspose.OCR for .NET 24.11**ผู้เขียน:** Aspose  
-
----

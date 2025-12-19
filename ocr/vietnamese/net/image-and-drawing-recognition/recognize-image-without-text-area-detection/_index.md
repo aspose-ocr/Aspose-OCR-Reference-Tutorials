@@ -4,7 +4,7 @@ description: Tìm hiểu cách sử dụng OCR với Aspose.OCR cho .NET để t
   từ hình ảnh PNG mà không cần phát hiện vùng văn bản.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Cách sử dụng OCR: Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản'
+title: 'Cách sử dụng OCR - Nhận dạng hình ảnh mà không cần phát hiện vùng văn bản'
 url: /vi/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,17 +151,15 @@ A: Có, bạn có thể tinh chỉnh nhận dạng bằng cách đặt các thu�
 
 Bằng cách thực hiện các bước này, bạn đã biết **cách sử dụng OCR** trong môi trường .NET để **nhận dạng các tệp hình ảnh mẫu** mà không cần dựa vào phát hiện vùng văn bản. Cách tiếp cận này cho phép bạn kiểm soát toàn bộ quá trình OCR và mở ra nhiều kịch bản tự động hoá, từ xử lý hoá đơn đến lập chỉ mục nội dung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

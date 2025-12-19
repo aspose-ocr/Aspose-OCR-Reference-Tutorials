@@ -4,7 +4,7 @@ description: Aspose.OCR for .NET ile OCR kullanarak metin alanı tespiti yapmada
   görüntülerinden metin çıkarmayı öğrenin.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'OCR Nasıl Kullanılır: Metin Alanı Tespiti Olmadan Görüntüyü Tanıma'
+title: 'OCR Nasıl Kullanılır - Metin Alanı Tespiti Olmadan Görüntüyü Tanıma'
 url: /tr/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,17 +151,15 @@ A: Evet, `AsposeOcr` örneğinde `Language` ve `RecognitionOptions` özellikleri
 
 Bu adımları izleyerek artık .NET ortamında **OCR nasıl kullanılır** ve **image sample** dosyalarını metin alanı algılamasına güvenmeden tanıyabileceğinizi biliyorsunuz. Bu yaklaşım OCR süreci üzerinde tam kontrol sağlar ve fatura işleme'den içerik indekslemeye kadar birçok otomasyon senaryosunun kapılarını açar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-18  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

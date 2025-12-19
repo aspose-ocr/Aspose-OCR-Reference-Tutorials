@@ -54,19 +54,6 @@ Aspose.OCR으로 Java 애플리케이션에서 텍스트 추의 힘을 발휘하
 - [OCR 작업](./java/ocr-operations/)
 - [고급 OCR 기술](./java/advanced-ocr-techniques/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.OCR latest release (as of 2025)  
-**Author:** Aspose  
-
 ## 자주 묻는 질문
 
 **Q: Aspose.OCR을 상용 애플리케이션에서 사용할 수 있나요?**  
@@ -83,3 +70,16 @@ A: Aspose.OCR은기체에 대한 제한된 지원을 포함합니다; 최상의 
 
 **Q: API 레퍼런스 문서는 어디에서 찾을 수 있나요?**  
 A: 자세한 API 문서는 각 튜토리얼 페이지에서 링크된 Aspose 웹사이트의 OCR 제품 섹션에서 확인할 수 있습니다.
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.OCR latest release (as of 2025)  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

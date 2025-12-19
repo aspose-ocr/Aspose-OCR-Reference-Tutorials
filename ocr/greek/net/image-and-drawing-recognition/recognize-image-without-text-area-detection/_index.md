@@ -4,7 +4,7 @@ description: Μάθετε πώς να χρησιμοποιείτε OCR με το
   κείμενο από εικόνες PNG χωρίς ανίχνευση περιοχής κειμένου.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Πώς να χρησιμοποιήσετε OCR: Αναγνώριση εικόνας χωρίς ανίχνευση περιοχής κειμένου'
+title: 'Πώς να χρησιμοποιήσετε OCR - Αναγνώριση εικόνας χωρίς ανίχνευση περιοχής κειμένου'
 url: /el/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -151,17 +151,15 @@ A5: Ναι, μπορείτε να αποκτήσετε μια προσωρινή
 
 Ακολουθώντας αυτά τα βήματα, τώρα γνωρίζετε **πώς να χρησιμοποιήσετε OCR** σε περιβάλλον .NET για **αναγνώριση εικόνας δείγματος** χωρίς εξάρτηση από την ανίχνευση περιοχής κειμένου. Αυτή η προσέγγιση σας δίνει πλήρη έλεγχο της διαδικασίας OCR και ανοίγει το δρόμο για πολλές αυτοματοποιημένες εφαρμογές, από επεξεργασία τιμολογίων μέχρι ευρετηρίαση περιεχομένου.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία Ενημέρωση:** 2025-12-18  
 **Δοκιμή Με:** Aspose.OCR για .NET 24.11  
 **Συγγραφέας:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

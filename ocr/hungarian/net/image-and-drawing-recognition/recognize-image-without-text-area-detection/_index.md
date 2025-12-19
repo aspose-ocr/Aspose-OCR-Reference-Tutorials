@@ -4,7 +4,7 @@ description: Tanulja meg, hogyan használja az OCR-t az Aspose.OCR for .NET seg�
   hogy szöveget nyerjen ki PNG képekből szövegterület-érzékelés nélkül.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Hogyan használjuk az OCR-t: Kép felismerése szövegterület-észlelés nélkül'
+title: 'Hogyan használjuk az OCR-t - Kép felismerése szövegterület-észlelés nélkül'
 url: /hu/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -146,15 +146,15 @@ A: Igen, finomhangolhatod a felismerést a `Language` és `RecognitionOptions` t
 
 Ezeknek a lépéseknek a követésével most már tudod, **hogyan használjuk az OCR-t** egy .NET környezetben, hogy **képmintákat** fájlokból felismerjünk anélkül, hogy a szövegterület-észlelésre támaszkodnánk. Ez a megközelítés teljes irányítást ad az OCR folyamat felett, és számos automatizálási forgatókönyvet nyit meg, a számlafeldolgozástól a tartalom indexeléséig.
 
+---
+
+**Utolsó frissítés:** 2025-12-18  
+**Tesztelt verzió:** Aspose.OCR for .NET 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelt verzió:** Aspose.OCR for .NET 24.11  
-**Szerző:** Aspose
