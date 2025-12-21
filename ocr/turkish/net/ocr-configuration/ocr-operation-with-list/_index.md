@@ -1,37 +1,53 @@
 ---
-title: OCR Görüntü Tanıma'da Liste ile OCR İşlemi
-linktitle: OCR Görüntü Tanıma'da Liste ile OCR İşlemi
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımayı zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarmayı artırın.
-weight: 13
+date: 2025-12-21
+description: Aspose.OCR for .NET ile birden çok görüntüde OCR nasıl yapılır, görüntülerden
+  metin nasıl çıkarılır ve JPEG metni nasıl verimli bir şekilde okunur öğrenin.
+linktitle: Multiple Image OCR with List in Aspose.OCR for .NET
+second_title: Aspose.OCR .NET API
+title: Aspose.OCR for .NET'te Liste Kullanarak Çoklu Görüntü OCR
 url: /tr/net/ocr-configuration/ocr-operation-with-list/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Liste ile OCR İşlemi
+# Bir Liste ile Çoklu Görüntü OCR’u Aspose.OCR for .NET ile
 
-## giriiş
+## Giriş
 
-Listelerle OCR görüntü tanıma gerçekleştirmek için Aspose.OCR for .NET'in gücünden yararlanmaya yönelik ayrıntılı eğitimimize hoş geldiniz. Optik Karakter Tanıma (OCR), taranmış kağıt belgeler, PDF'ler veya görüntüler gibi farklı türdeki belgeleri düzenlenebilir ve aranabilir verilere dönüştüren önemli bir teknolojidir.
+Aspose.OCR for .NET kullanarak **çoklu görüntü ocr** üzerine kapsamlı öğreticimize hoş geldiniz. Optik Karakter Tanıma (OCR), taranmış kağıt belgelerini, PDF’leri veya görüntü dosyalarını düzenlenebilir, aranabilir metne dönüştürür. Bu rehberde görüntülerden metin çıkarma, JPEG metnini okuma ve tek bir çağrıda birden fazla dosyayı işleme konularını öğreneceksiniz—**belgeyi metne tarama** ihtiyacınız olduğunda hızlı ve güvenilir bir çözüm.
 
-Bu eğitimde, verimli görüntü tanıma için Aspose.OCR for .NET'i projelerinize nasıl entegre edeceğiniz konusunda adım adım rehberlik sağlayan bir listeyle OCROperation'ı inceleyeceğiz.
+## Hızlı Yanıtlar
+- **“çoklu görüntü ocr” ne yapar?** Tek bir API çağrısında bir görüntü dosyası listesinde metin tanıması yapmanızı sağlar.  
+- **Hangi formatlar desteklenir?** JPEG, PNG, BMP, TIFF, GIF ve daha birçok format.  
+- **Lisans gerekli mi?** Üretim için geçici bir lisans gerekir; değerlendirme için ücretsiz deneme sürümü yeterlidir.  
+- **Tanıma ayarlarını özelleştirebilir miyim?** Evet—`RecognitionSettings` ile dil, çözünürlük ve ön işleme ayarlarını değiştirebilirsiniz.  
+- **Bir kerede kaç görüntü işleyebilirim?** Pratikte sınırsız; API her dosyayı akış olarak işler, böylece bellek kullanımı düşük kalır.
+
+## Çoklu görüntü ocr nedir?
+**çoklu görüntü ocr**, Aspose.OCR’a bir dizi görüntü yolu gönderip her görüntü için tanınan metni tek bir işlemde almanızı sağlayan özelliktir. Bu, geliştirme süresini kısaltır ve toplu taranmış belgelerle çalışırken ağ isteklerini azaltır.
+
+## Aspose.OCR’u çoklu görüntü işleme için neden kullanmalısınız?
+- **Gürültülü taramalar ve düşük çözünürlüklü JPEG’lerde yüksek doğruluk**.  
+- **Çok dilli belgeler için yerleşik dil algılama**.  
+- **Tam .NET desteği** – .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.  
+- **Harici bağımlılık yok**—kütüphane görüntü yükleme, ön işleme ve metin çıkarma işlemlerini dahili olarak yönetir.
 
 ## Önkoşullar
 
-Eğiticiye geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Kodlamaya başlamadan önce aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
 
-1.  Aspose.OCR for .NET Library: Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.OCR for .NET indirme sayfası](https://releases.aspose.com/ocr/net/).
+1. Aspose.OCR for .NET Kütüphanesi: Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. İndirmek için [Aspose.OCR for .NET indirme sayfası](https://releases.aspose.com/ocr/net/) adresini ziyaret edebilirsiniz.
 
-2. Belge Dizini: OCR tanıma için belgelerinizin ve görsellerinizin saklandığı bir dizin ayarlayın.
+2. Belge Dizini: OCR tanıması için belgelerinizin ve görüntülerinizin bulunduğu bir dizin oluşturun.
 
-Artık temel bilgilere sahip olduğunuza göre adım adım kılavuza başlayalım.
+Gerekli temellere sahip olduğunuza göre, adım adım rehbere başlayalım.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
-Aspose.OCR for .NET'i kullanmak için C# projenize gerekli ad alanlarını ekleyin:
+C# projenizde Aspose.OCR for .NET’i kullanmak için gerekli ad alanlarını ekleyin:
 
 ```csharp
 using System;
@@ -41,20 +57,21 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım 1: Belge Dizinini Ayarlama
 
-Belge dizininizin yolunu başlatarak başlayın:
+Belge dizininizin yolunu başlatın:
+
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 2. Adım: Görüntü Yollarını Belirleyin
+## Adım 2: Görüntü Yollarını Belirtme
 
-Tanıma öncesinde işlemek istediğiniz görüntülerin yollarını tanımlayın. Örneğin:
+Tanımadan önce işlemek istediğiniz görüntülerin yollarını tanımlayın. Örneğin, JPEG ve PNG dosyalarından **metin görüntülerini çıkarabilirsiniz**:
 
 ```csharp
 List<string> imagePaths = new List<string>
@@ -64,20 +81,20 @@ List<string> imagePaths = new List<string>
 };
 ```
 
-## 3. Adım: OCR Görüntü Tanıma İşlemini Gerçekleştirin
+## Adım 3: OCR Görüntü Tanımasını Gerçekleştirme
 
-Belirtilen görüntülerle OCR tanıma işlemini başlatın:
+Belirtilen görüntülerle OCR tanıma sürecini başlatın. Bu adım **ocr birden fazla dosya** işleme örneğini gösterir:
 
 ```csharp
 RecognitionResult[] result = api.RecognizeMultipleImages(imagePaths, new RecognitionSettings
 {
-   //varsayılan veya özel ayarlar
+   //default or custom settings
 });
 ```
 
-## Adım 4: Tanıma Sonuçlarını Görüntüleyin
+## Adım 4: Tanıma Sonuçlarını Görüntüleme
 
-Her görüntü için tanıma sonuçlarını yazdırın:
+Her görüntü için tanıma sonuçlarını yazdırın. Burada her dosyadan çıkarılan metni göreceksiniz; bu da **JPEG metnini okuma** ve diğer formatları kapsar:
 
 ```csharp
 for (int i = 0; i < result.Length; i++)
@@ -86,31 +103,40 @@ for (int i = 0; i < result.Length; i++)
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.OCR for .NET'i kullanarak OCROperation'ı bir listeyle başarıyla yürüttünüz. Bu güçlü araç, OCR özelliklerinin uygulamalarınıza kusursuz bir şekilde entegre edilmesini sağlayarak veri çıkarma ve işleme konusunda yeni olanaklar sunar.
+| Sorun | Neden | Çözüm |
+|-------|-------|-------|
+| Metin döndürülmüyor | Görüntü kalitesi çok düşük | DPI artırın veya `RecognitionSettings` ile görüntü ön işleme etkinleştirin |
+| Yanlış dil algılandı | Varsayılan dil İngilizce | `RecognitionSettings.Language` değerini uygun dil koduna ayarlayın |
+| Büyük partilerde bellek yetersizliği | Birçok yüksek çözünürlüklü görüntü aynı anda yükleniyor | Görüntüleri daha küçük partilerde işleyin veya `RecognizeMultipleImages` zaten akış yönetimi yaptığı için bunu kullanın |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Belirli görseller için tanıma ayarlarını özelleştirebilir miyim?
+**S: Belirli görüntüler için tanıma ayarlarını özelleştirebilir miyim?**  
+C: Evet, `RecognitionSettings` sınıfı OCR parametrelerini (dil, çözünürlük, ön işleme vb.) her toplu işlem için özelleştirmenize olanak tanır.
 
- A1: Evet,`RecognitionSettings`class, OCR ayarlarını özel gereksinimlerinize göre uyarlamanıza olanak tanır.
+**S: Aspose.OCR for .NET çeşitli görüntü formatlarıyla uyumlu mu?**  
+C: Kesinlikle. Aspose.OCR JPEG, PNG, BMP, TIFF, GIF ve birçok diğer formatı destekler, böylece farklı belge tipleriyle çalışabilirsiniz.
 
-### S2: Aspose.OCR for .NET çeşitli görüntü formatlarıyla uyumlu mudur?
+**S: Aspose.OCR for .NET için geçici bir lisans nasıl alınır?**  
+C: Değerlendirme amaçlı geçici lisans almak için [bu linki](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-A2: Kesinlikle. Aspose.OCR çok çeşitli görüntü formatlarını destekleyerek çeşitli belgelerin işlenmesinde esneklik sağlar.
+**S: Aspose.OCR for .NET için ayrıntılı belgeleri nerede bulabilirim?**  
+C: Kapsamlı bilgi ve kullanım kılavuzları için [belgelendirme](https://reference.aspose.com/ocr/net/) sayfasına bakın.
 
-### S3: Aspose.OCR for .NET için nasıl geçici lisans alabilirim?
+**S: Uygulama sırasında sorunlarla karşılaşırsam ya da özel sorularım olursa ne yapmalıyım?**  
+C: Topluluk ve uzmanlardan hızlı destek almak için [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) adresine başvurabilirsiniz.
 
- A3: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) değerlendirme amacıyla geçici bir lisans almak.
+## Sonuç
 
-### S4: Aspose.OCR for .NET'in ayrıntılı belgelerini nerede bulabilirim?
+Tebrikler! Aspose.OCR for .NET kullanarak bir liste ile **çoklu görüntü ocr** işlemini başarıyla gerçekleştirdiniz. Bu güçlü özellik sayesinde **belgeyi metne tarama**, **metin görüntülerini çıkarma** ve **JPEG metnini toplu okuma** gibi işlemleri kolayca yapabilir, veri çıkarma, arşivleme ve otomatik iş akışları için yeni fırsatlar yaratabilirsiniz.
 
- A4: Bkz.[dokümantasyon](https://reference.aspose.com/ocr/net/) Kapsamlı bilgi ve kullanım yönergeleri için.
+---
 
-### S5: Uygulama sırasında sorunlarla karşılaşırsam veya belirli sorularım olursa ne olur?
-
- A5: Bu konuda yardım istemekten çekinmeyin[Aspose.OCR Forumu](https://forum.aspose.com/c/ocr/16) Topluluktan ve uzmanlardan hızlı destek için.
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

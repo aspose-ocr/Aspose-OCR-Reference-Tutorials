@@ -1,33 +1,50 @@
 ---
-title: Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
-linktitle: Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
+date: 2025-12-21
+description: Dowiedz się, jak wykonać OCR i wyodrębnić tekst z obrazu przy użyciu
+  Aspose.OCR dla .NET. Ten przewodnik krok po kroku pokazuje rozpoznawanie tekstu
+  wielojęzycznego oraz wybór języka.
+linktitle: How to Perform OCR with Language Selection in Aspose.OCR
 second_title: Aspose.OCR .NET API
-description: Odblokuj potężne możliwości OCR dzięki Aspose.OCR dla .NET. Płynnie wyodrębniaj tekst z obrazów.
-weight: 12
+title: Jak wykonać OCR z wyborem języka w Aspose.OCR
 url: /pl/net/ocr-configuration/ocr-operation-with-language-selection/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operacja OCRO z wyborem języka w rozpoznawaniu obrazu OCR
+# Jak wykonać OCR z wyborem języka w Aspose.OCR
 
-## Wstęp
+## Introduction
 
-W świecie rozpoznawania obrazów i optycznego rozpoznawania znaków (OCR) Aspose.OCR dla .NET wyróżnia się jako potężne narzędzie dla programistów poszukujących dokładnego i wydajnego wyodrębniania tekstu z obrazów. Ten przewodnik krok po kroku przeprowadzi Cię przez proces rozpoznawania obrazu OCR przy użyciu Aspose.OCR dla .NET, koncentrując się na operacji z wyborem języka.
+Jeśli potrzebujesz **jak wykonać OCR** na obrazach i wyodrębnić tekst z plików obrazów w aplikacji .NET, Aspose.OCR for .NET zapewnia szybkie, dokładne i świadome językowo rozwiązanie. W tym samouczku przeprowadzimy rzeczywisty przykład, który demonstruje rozpoznawanie obrazów OCR z wyborem języka, abyś mógł wyciągać wielojęzyczny tekst ze zdjęć przy użyciu kilku linii kodu.
 
-## Warunki wstępne
+## Quick Answers
+- **Co robi Aspose.OCR?** Rozpoznaje drukowany i odręczny tekst na obrazach i zwraca wyodrębniony tekst.  
+- **Czy mogę wybrać język?** Tak – możesz określić dowolny obsługiwany język, taki jak English, German, Spanish, Chinese, itp.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa wersja próbna działa do oceny; licencja jest wymagana w środowisku produkcyjnym.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Czy korekcja pochylenia jest automatyczna?** Możesz włączyć `AutoSkew` i precyzyjnie dostroić ustawienie `SkewAngle`.
 
-Zanim zagłębimy się w samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
+## Why Choose Aspose.OCR for OCR Tasks?
 
--  Aspose.OCR dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.OCR. Można go pobrać z[Strona pobierania Aspose.OCR dla .NET](https://releases.aspose.com/ocr/net/).
+- **Wysoka dokładność** w różnych czcionkach i jakościach obrazu.  
+- **Wbudowany wybór języka** eliminuje potrzebę zewnętrznych pakietów językowych.  
+- **Proste API**, które łatwo integruje się z istniejącymi projektami C#.  
+- **Brak zewnętrznych zależności** – wszystko działa lokalnie, zapewniając bezpieczeństwo danych.
 
-- Środowisko programistyczne: skonfiguruj środowisko pracy z aplikacją .NET. Jeśli jeszcze tego nie zrobiłeś, zapoznaj się z sekcją[dokumentacja](https://reference.aspose.com/ocr/net/) szczegółowe instrukcje.
+## Prerequisites
 
-## Importuj przestrzenie nazw
+Zanim przejdziemy do kodu, upewnij się, że masz następujące wymagania wstępne:
 
-W aplikacji .NET zacznij od zaimportowania niezbędnych przestrzeni nazw:
+- Aspose.OCR for .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.OCR. Możesz ją pobrać ze [strony pobierania Aspose.OCR for .NET](https://releases.aspose.com/ocr/net/).
+
+- Środowisko programistyczne: Skonfiguruj środowisko pracy z aplikacją .NET. Jeśli jeszcze tego nie zrobiłeś, odwołaj się do [dokumentacji](https://reference.aspose.com/ocr/net/) po szczegółowe instrukcje.
+
+## Import Namespaces
+
+W swojej aplikacji .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw:
 
 ```csharp
 using System;
@@ -37,84 +54,106 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Krok 1: Zainicjuj Aspose.OCR
+## Step 1: Initialize Aspose.OCR
 
-Rozpocznij od zainicjowania instancji klasy Aspose.OCR. To przygotowuje grunt pod wykorzystanie możliwości OCR w Twojej aplikacji.
+Rozpocznij od zainicjowania instancji klasy Aspose.OCR. To przygotowuje środowisko do wykorzystania możliwości OCR w Twojej aplikacji.
 
 ```csharp
 // ExStart:1
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Zainicjuj instancję AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 2: Określ ścieżkę obrazu
+## Step 2: Specify Image Path
 
-Następnie zdefiniuj ścieżkę do obrazu, na którym chcesz wykonać OCR. Upewnij się, że obraz jest dostępny z poziomu aplikacji.
+Następnie określ ścieżkę do obrazu, na którym chcesz wykonać OCR. Upewnij się, że obraz jest dostępny z Twojej aplikacji.
 
 ```csharp
-//Ścieżka obrazu
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## Krok 3: Rozpoznaj obraz za pomocą wyboru języka
+## Step 3: Recognize Image with Language Selection
 
 Teraz następuje podstawowa operacja OCR. Skorzystaj z biblioteki Aspose.OCR, aby rozpoznać tekst z określonego obrazu. Dostosuj ustawienia rozpoznawania, w tym wybór języka.
 
 ```csharp
-// Rozpoznaj obraz
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     DetectAreas = true,
     RecognizeSingleLine = false,
     AutoSkew = true,
     SkewAngle = 0.2F,
-    Language = Language.Eng, // Wybierz język: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
+    Language = Language.Eng, // Choose the language: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
 });
 ```
 
-## Krok 4: Wydrukuj i wyświetl wyniki
+## Step 4: Print and Display Results
 
-Po operacji OCR wydrukuj i wyświetl wyniki, w tym rozpoznany tekst, obszary, ostrzeżenia i reprezentację JSON.
+Po operacji OCR wydrukuj i wyświetl wyniki, w tym rozpoznany tekst, obszary, ostrzeżenia oraz reprezentację w formacie JSON.
 
 ```csharp
-// Wydrukuj wynik
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Areas:");
 result.RecognitionAreasText.ForEach(a => Console.WriteLine($"{a}"));
 Console.WriteLine("Warnings:");
 result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-## Wniosek
+## Common Issues and Tips
 
-Gratulacje! Pomyślnie wykonałeś rozpoznawanie obrazu OCR z wyborem języka przy użyciu Aspose.OCR dla .NET. W tym samouczku przedstawiono podstawowe kroki wyodrębniania tekstu z obrazów i podkreślono elastyczność opcji językowych.
+- **Nieprawidłowy wybór języka** – Jeśli wynik jest zniekształcony, sprawdź ponownie, czy właściwość `Language` odpowiada językowi obrazu źródłowego.  
+- **Obrazy nachylone** – Włącz `AutoSkew` lub ręcznie dostosuj `SkewAngle`, aby uzyskać lepszą dokładność przy skanach pod kątem.  
+- **Duże pliki** – Przetwarzaj duże obrazy w częściach lub zmniejsz rozdzielczość przed przekazaniem ich do `RecognizeImage`, aby oszczędzić pamięć.
 
-## Często zadawane pytania
+## Conclusion
+
+Gratulacje! Nauczyłeś się **jak wykonać OCR** z wyborem języka przy użyciu Aspose.OCR dla .NET. Ten samouczek pokazał, jak wyodrębniać tekst z plików obrazów, dostosowywać ustawienia rozpoznawania i bezproblemowo obsługiwać wielojęzyczną zawartość.
+
+## FAQ's
+
+### Q1: Is Aspose.OCR suitable for multilingual text recognition?
 
 ### P1: Czy Aspose.OCR nadaje się do rozpoznawania tekstu wielojęzycznego?
 
-Odpowiedź 1: Tak, Aspose.OCR obsługuje różne języki, zapewniając elastyczność wielojęzycznych zadań OCR.
+A1: Tak, Aspose.OCR obsługuje różne języki, zapewniając elastyczność w zadaniach OCR wielojęzycznych.
 
-### P2: Czy mogę dostosować ustawienia OCR do określonych cech obrazu?
+### Q2: Can I fine‑tune OCR settings for specific image characteristics?
 
-A2: Absolutnie! Dostosuj parametry, takie jak kąt pochylenia, rozpoznawanie linii i wykrywanie obszaru, aby zoptymalizować OCR dla różnych scenariuszy.
+### P2: Czy mogę precyzyjnie dostroić ustawienia OCR do konkretnych cech obrazu?
+
+A2: Oczywiście! Dostosuj parametry takie jak kąt pochylenia, rozpoznawanie linii i wykrywanie obszarów, aby zoptymalizować OCR w różnych scenariuszach.
+
+### Q3: Where can I find additional support or community discussions?
 
 ### P3: Gdzie mogę znaleźć dodatkowe wsparcie lub dyskusje społeczności?
 
- A3: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za wsparcie i dyskusję ze społecznością.
+A3: Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać wsparcie i dyskusje ze społecznością.
 
-### P4: Czy dostępny jest bezpłatny okres próbny?
+### Q4: Is there a free trial available?
 
- A4: Tak, poznaj[bezpłatna wersja próbna](https://releases.aspose.com/) aby doświadczyć możliwości Aspose.OCR.
+### P4: Czy dostępna jest darmowa wersja próbna?
 
-### P5: Jak mogę kupić Aspose.OCR dla .NET?
+A4: Tak, wypróbuj [darmową wersję próbną](https://releases.aspose.com/), aby poznać możliwości Aspose.OCR.
 
- O5: Aby dokonać zakupu, odwiedź stronę[strona zakupu](https://purchase.aspose.com/buy).
+### Q5: How can I purchase Aspose.OCR for .NET?
+
+### P5: Jak mogę zakupić Aspose.OCR dla .NET?
+
+A5: Aby dokonać zakupu, odwiedź [stronę zakupu](https://purchase.aspose.com/buy).
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

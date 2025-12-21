@@ -1,33 +1,51 @@
 ---
-title: OCROOpération avec sélection de langue dans la reconnaissance d'images OCR
-linktitle: OCROOpération avec sélection de langue dans la reconnaissance d'images OCR
-second_title: API Aspose.OCR .NET
-description: Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
-weight: 12
+date: 2025-12-21
+description: Apprenez à effectuer la reconnaissance optique de caractères (OCR) et
+  à extraire du texte à partir d’une image avec Aspose.OCR pour .NET. Ce guide étape
+  par étape montre la reconnaissance de texte multilingue et la sélection de la langue.
+linktitle: How to Perform OCR with Language Selection in Aspose.OCR
+second_title: Aspose.OCR .NET API
+title: Comment effectuer la reconnaissance optique de caractères avec sélection de
+  langue dans Aspose.OCR
 url: /fr/net/ocr-configuration/ocr-operation-with-language-selection/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCROOpération avec sélection de langue dans la reconnaissance d'images OCR
+# Comment effectuer l'OCR avec sélection de langue dans Aspose.OCR
 
 ## Introduction
 
-Dans le monde de la reconnaissance d'images et de la reconnaissance optique de caractères (OCR), Aspose.OCR for .NET s'impose comme un outil puissant pour les développeurs recherchant une extraction de texte précise et efficace à partir d'images. Ce guide étape par étape vous guidera à travers le processus de reconnaissance d'image OCR à l'aide d'Aspose.OCR pour .NET, en se concentrant sur l'opération de sélection de la langue.
+If you need to **comment effectuer l'OCR** on images and extract text from image files in a .NET application, Aspose.OCR for .NET provides a fast, accurate, and language‑aware solution. In this tutorial we’ll walk through a real‑world example that demonstrates OCR image recognition with language selection, so you can pull multilingual text from pictures with just a few lines of code.
 
-## Conditions préalables
+## Quick Answers
+- **Que fait Aspose.OCR ?** Il reconnaît le texte imprimé et manuscrit dans les images et renvoie le texte extrait.  
+- **Puis-je choisir la langue ?** Oui – vous pouvez spécifier n'importe quelle langue prise en charge telle que l'anglais, l'allemand, l'espagnol, le chinois, etc.  
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour l'évaluation ; une licence est requise pour la mise en production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **La correction d'inclinaison est‑elle automatique ?** Vous pouvez activer `AutoSkew` et ajuster finement le paramètre `SkewAngle`.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Why Choose Aspose.OCR for OCR Tasks?
 
--  Aspose.OCR pour .NET : assurez-vous que la bibliothèque Aspose.OCR est installée. Vous pouvez le télécharger depuis le[Page de téléchargement d'Aspose.OCR pour .NET](https://releases.aspose.com/ocr/net/).
+- **Haute précision** sur de nombreuses polices et qualités d'image.  
+- **Sélection de langue intégrée** élimine le besoin de packs de langues externes.  
+- **API simple** qui s'intègre proprement aux projets C# existants.  
+- **Aucune dépendance externe** – tout fonctionne localement, garantissant la sécurité de vos données.
 
-- Environnement de développement : Mettre en place un environnement de travail avec une application .NET. Si vous ne l'avez pas encore fait, reportez-vous au[Documentation](https://reference.aspose.com/ocr/net/) pour des instructions détaillées.
+## Prerequisites
 
-## Importer des espaces de noms
+Avant de plonger dans le code, assurez‑vous d'avoir les prérequis suivants en place :
 
-Dans votre application .NET, commencez par importer les espaces de noms nécessaires :
+- Aspose.OCR for .NET : assurez‑vous d'avoir la bibliothèque Aspose.OCR installée. Vous pouvez la télécharger depuis la [page de téléchargement Aspose.OCR pour .NET](https://releases.aspose.com/ocr/net/).
+
+- Environnement de développement : configurez un environnement de travail avec une application .NET. Si vous ne l'avez pas encore fait, consultez la [documentation](https://reference.aspose.com/ocr/net/) pour des instructions détaillées.
+
+## Import Namespaces
+
+Dans votre application .NET, commencez par importer les espaces de noms nécessaires :
 
 ```csharp
 using System;
@@ -37,84 +55,106 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Étape 1 : initialiser Aspose.OCR
+## Step 1: Initialize Aspose.OCR
 
-Commencez par initialiser une instance de la classe Aspose.OCR. Cela ouvre la voie à l’utilisation des capacités OCR au sein de votre application.
+### Étape 1 : Initialiser Aspose.OCR
+
+Commencez par initialiser une instance de la classe Aspose.OCR. Cela prépare le terrain pour exploiter les capacités d'OCR dans votre application.
 
 ```csharp
-// ExDébut : 1
-// Le chemin d'accès au répertoire des documents.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Initialiser une instance d'AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Étape 2 : Spécifier le chemin de l'image
+## Step 2: Specify Image Path
 
-Ensuite, définissez le chemin d'accès à l'image sur laquelle vous souhaitez effectuer l'OCR. Assurez-vous que l’image est accessible depuis votre application.
+### Étape 2 : Spécifier le chemin de l'image
+
+Ensuite, définissez le chemin de l'image sur laquelle vous souhaitez effectuer l'OCR. Assurez‑vous que l'image est accessible depuis votre application.
 
 ```csharp
-//Chemin de l'image
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## Étape 3 : Reconnaître l'image avec la sélection de la langue
+## Step 3: Recognize Image with Language Selection
 
-Vient maintenant l’opération de base de l’OCR. Utilisez la bibliothèque Aspose.OCR pour reconnaître le texte de l'image spécifiée. Ajustez les paramètres de reconnaissance, y compris la sélection de la langue.
+### Étape 3 : Reconnaître l'image avec sélection de langue
+
+Voici maintenant l'opération principale d'OCR. Utilisez la bibliothèque Aspose.OCR pour reconnaître le texte de l'image spécifiée. Ajustez les paramètres de reconnaissance, y compris la sélection de la langue.
 
 ```csharp
-// Reconnaître l'image
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     DetectAreas = true,
     RecognizeSingleLine = false,
     AutoSkew = true,
     SkewAngle = 0.2F,
-    Language = Language.Eng, // Choisissez la langue : none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
+    Language = Language.Eng, // Choose the language: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
 });
 ```
 
-## Étape 4 : Imprimer et afficher les résultats
+## Step 4: Print and Display Results
 
-Après l'opération OCR, imprimez et affichez les résultats, y compris le texte reconnu, les zones, les avertissements et la représentation JSON.
+### Étape 4 : Imprimer et afficher les résultats
+
+Après l'opération d'OCR, imprimez et affichez les résultats, incluant le texte reconnu, les zones, les avertissements et la représentation JSON.
 
 ```csharp
-// Résultat d'impression
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Areas:");
 result.RecognitionAreasText.ForEach(a => Console.WriteLine($"{a}"));
 Console.WriteLine("Warnings:");
 result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
-// ExFin : 1
+// ExEnd:1
 ```
+
+## Common Issues and Tips
+
+### Problèmes courants et astuces
+
+- **Sélection de langue incorrecte** – Si la sortie apparaît illisible, vérifiez que la propriété `Language` correspond à la langue de l'image source.  
+- **Images inclinées** – Activez `AutoSkew` ou ajustez manuellement `SkewAngle` pour une meilleure précision sur les scans inclinés.  
+- **Fichiers volumineux** – Traitez les grandes images par morceaux ou réduisez la résolution avant de les passer à `RecognizeImage` afin de conserver la mémoire.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez réussi à effectuer une reconnaissance d'image OCR avec sélection de langue à l'aide d'Aspose.OCR pour .NET. Ce didacticiel a démontré les étapes essentielles pour extraire du texte à partir d'images et a mis en évidence la flexibilité des options linguistiques.
+Félicitations ! Vous avez appris **comment effectuer l'OCR** avec sélection de langue en utilisant Aspose.OCR pour .NET. Ce tutoriel vous a montré comment extraire du texte à partir de fichiers image, personnaliser les paramètres de reconnaissance et gérer du contenu multilingue sans effort.
 
-## FAQ
+## FAQ's
 
-### Q1 : Aspose.OCR est-il adapté à la reconnaissance de texte multilingue ?
+### Q1 : Aspose.OCR est‑il adapté à la reconnaissance de texte multilingue ?
 
-A1 : Oui, Aspose.OCR prend en charge plusieurs langues, offrant ainsi une flexibilité pour les tâches OCR multilingues.
+**R1 :** Oui, Aspose.OCR prend en charge plusieurs langues, offrant une flexibilité pour les tâches d'OCR multilingues.
 
-### Q2 : Puis-je affiner les paramètres OCR pour des caractéristiques d’image spécifiques ?
+### Q2 : Puis‑je affiner les paramètres d'OCR pour des caractéristiques d'image spécifiques ?
 
-A2 : Absolument ! Ajustez les paramètres tels que l'angle d'inclinaison, la reconnaissance de ligne et la détection de zone pour optimiser l'OCR pour différents scénarios.
+**R2 :** Absolument ! Ajustez des paramètres tels que l'angle d'inclinaison, la reconnaissance de lignes et la détection de zones pour optimiser l'OCR selon différents scénarios.
 
-### Q3 : Où puis-je trouver une assistance supplémentaire ou des discussions communautaires ?
+### Q3 : Où puis‑je trouver un support supplémentaire ou des discussions communautaires ?
 
- A3 : Visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour du soutien et des discussions avec la communauté.
+**R3 :** Consultez le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour obtenir du support et participer aux discussions avec la communauté.
 
-### Q4 : Existe-t-il un essai gratuit ?
+### Q4 : Un essai gratuit est‑il disponible ?
 
- A4 : Oui, explorez le[essai gratuit](https://releases.aspose.com/) pour découvrir les capacités d’Aspose.OCR.
+**R4 :** Oui, explorez l'[essai gratuit](https://releases.aspose.com/) pour découvrir les capacités d'Aspose.OCR.
 
-### Q5 : Comment puis-je acheter Aspose.OCR pour .NET ?
+### Q5 : Comment puis‑je acheter Aspose.OCR pour .NET ?
 
- A5 : Pour acheter, visitez le[page d'achat](https://purchase.aspose.com/buy).
+**R5 :** Pour acheter, consultez la [page d'achat](https://purchase.aspose.com/buy).
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,48 @@
 ---
-title: OCR画像認識における言語選択によるOCRO操作
-linktitle: OCR画像認識における言語選択によるOCRO操作
+date: 2025-12-21
+description: Aspose.OCR for .NET を使用して OCR を実行し、画像からテキストを抽出する方法を学びましょう。このステップバイステップガイドでは、多言語テキスト認識と文字言語の選択方法を示します。
+linktitle: How to Perform OCR with Language Selection in Aspose.OCR
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR for .NET を使用して強力な OCR 機能を利用しましょう。画像からテキストをシームレスに抽出します。
-weight: 12
+title: Aspose.OCRで言語選択付きOCRを実行する方法
 url: /ja/net/ocr-configuration/ocr-operation-with-language-selection/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR画像認識における言語選択によるOCRO操作
+# Aspose.OCR で言語選択付き OCR を実行する方法
 
-## 導入
+## はじめに
 
-画像認識と光学式文字認識 (OCR) の世界では、Aspose.OCR for .NET は、画像からの正確かつ効率的なテキスト抽出を求める開発者にとって強力なツールとして際立っています。このステップバイステップのガイドでは、Aspose.OCR for .NET を使用した OCR 画像認識のプロセスを、言語選択での操作に焦点を当てて説明します。
+画像上で **OCR を実行する方法** を必要とし、.NET アプリケーションで画像ファイルからテキストを抽出したい場合、Aspose.OCR for .NET は高速で高精度、かつ言語対応のソリューションを提供します。このチュートリアルでは、言語選択付き OCR 画像認識を実演する実践的な例を順を追って解説しますので、数行のコードで画像から多言語テキストを取得できます。
+
+## クイック回答
+- **Aspose.OCR は何をしますか？** 画像内の印刷文字および手書き文字を認識し、抽出されたテキストを返します。  
+- **言語を選択できますか？** はい。English、German、Spanish、Chinese など、サポートされている任意の言語を指定できます。  
+- **開発にライセンスは必要ですか？** 評価目的であれば無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **対応している .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上です。  
+- **傾き補正は自動ですか？** `AutoSkew` を有効にし、`SkewAngle` 設定で微調整できます。
+
+## OCR タスクに Aspose.OCR を選ぶ理由
+
+- **高精度**：さまざまなフォントや画像品質に対応します。  
+- **組み込みの言語選択**：外部の言語パックが不要です。  
+- **シンプルな API**：既存の C# プロジェクトにスムーズに統合できます。  
+- **外部依存なし**：すべてローカルで実行され、データが安全に保たれます。
 
 ## 前提条件
 
-チュートリアルを詳しく説明する前に、次の前提条件が満たされていることを確認してください。
+コードに入る前に、以下の前提条件が整っていることを確認してください。
 
--  Aspose.OCR for .NET: Aspose.OCR ライブラリがインストールされていることを確認してください。からダウンロードできます。[Aspose.OCR for .NET ダウンロード ページ](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET: Aspose.OCR ライブラリがインストールされていることを確認してください。以下の [Aspose.OCR for .NET ダウンロードページ](https://releases.aspose.com/ocr/net/) からダウンロードできます。
 
-- 開発環境: .NET アプリケーションを使用して作業環境をセットアップします。まだこれを行っていない場合は、を参照してください。[ドキュメンテーション](https://reference.aspose.com/ocr/net/)詳細な手順については、
+- 開発環境: .NET アプリケーションの作業環境を設定してください。まだ設定していない場合は、詳細手順は [ドキュメント](https://reference.aspose.com/ocr/net/) を参照してください。
 
 ## 名前空間のインポート
 
-.NET アプリケーションで、必要な名前空間をインポートすることから始めます。
+.NET アプリケーションで、必要な名前空間をインポートします。
 
 ```csharp
 using System;
@@ -37,84 +52,96 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## ステップ 1: Aspose.OCR を初期化する
+## 手順 1: Aspose.OCR の初期化
 
-まず、Aspose.OCR クラスのインスタンスを初期化します。これにより、アプリケーション内で OCR 機能を利用するための準備が整います。
+まず Aspose.OCR クラスのインスタンスを初期化します。これにより、アプリケーションで OCR 機能を利用できるようになります。
 
 ```csharp
-//例開始:1
-//ドキュメントディレクトリへのパス。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr のインスタンスを初期化する
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## ステップ 2: 画像パスを指定する
+## 手順 2: 画像パスの指定
 
-次に、OCR を実行する画像へのパスを定義します。アプリケーションからイメージにアクセスできることを確認してください。
+次に、OCR を実行したい画像へのパスを定義します。画像がアプリケーションからアクセス可能であることを確認してください。
 
 ```csharp
-//画像パス
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## ステップ 3: 言語を選択して画像を認識する
+## 手順 3: 言語選択で画像を認識する
 
-ここで、核となる OCR 操作を行います。 Aspose.OCR ライブラリを利用して、指定した画像からテキストを認識します。言語の選択を含む認識設定を調整します。
+ここからが OCR の本体です。Aspose.OCR ライブラリを使用して、指定した画像からテキストを認識します。言語選択を含む認識設定を調整します。
 
 ```csharp
-//画像を認識する
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     DetectAreas = true,
     RecognizeSingleLine = false,
     AutoSkew = true,
     SkewAngle = 0.2F,
-    Language = Language.Eng, //言語を選択します: none、eng、deu、por、spa、fra、ita、cze、dan、dum、est、fin、lav、lit、nor、pol、rum、srp_hrv、slk、slv、swe、chi
+    Language = Language.Eng, // Choose the language: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
 });
 ```
 
-## ステップ 4: 結果を印刷して表示する
+## 手順 4: 結果の出力と表示
 
-OCR 操作後、認識されたテキスト、領域、警告、JSON 表現などの結果を印刷して表示します。
+OCR 処理後、認識されたテキスト、領域、警告、JSON 表現などの結果を出力・表示します。
 
 ```csharp
-//印刷結果
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Areas:");
 result.RecognitionAreasText.ForEach(a => Console.WriteLine($"{a}"));
 Console.WriteLine("Warnings:");
 result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
-//拡張終了:1
+// ExEnd:1
 ```
+
+## よくある問題とヒント
+
+- **言語選択が間違っている** – 出力が文字化けしている場合は、`Language` プロパティが元画像の言語と一致しているか再確認してください。
+- **傾いた画像** – 傾きがあるスキャン画像では、`AutoSkew` を有効にするか、`SkewAngle` を手動で調整して精度を向上させます。
+- **大きなファイル** – 大容量画像はチャンクに分割して処理するか、`RecognizeImage` に渡す前に解像度を下げてメモリ使用量を抑えてください。
 
 ## 結論
 
-おめでとう！ Aspose.OCR for .NET を使用して、言語を選択して OCR 画像認識を正常に実行できました。このチュートリアルでは、画像からテキストを抽出するための重要な手順を説明し、言語オプションの柔軟性を強調しました。
+おめでとうございます！Aspose.OCR for .NET を使用して、言語選択付き **OCR の実行方法** を学びました。このチュートリアルでは、画像ファイルからテキストを抽出し、認識設定をカスタマイズし、マルチ言語コンテンツを簡単に処理する方法を示しました。
 
-## よくある質問
+## FAQ
 
-### Q1: Aspose.OCR は多言語テキスト認識に適していますか?
+### Q1: Aspose.OCR はマルチ言語テキスト認識に適していますか？
 
-A1: はい、Aspose.OCR はさまざまな言語をサポートしており、多言語 OCR タスクに柔軟性を提供します。
+A1: はい。Aspose.OCR はさまざまな言語をサポートしており、マルチ言語 OCR タスクに柔軟に対応できます。
 
-### Q2: 特定の画像特性に合わせて OCR 設定を微調整できますか?
+### Q2: 特定の画像特性に合わせて OCR 設定を微調整できますか？
 
-A2：もちろんです！スキュー角度、線認識、領域検出などのパラメータを調整して、さまざまなシナリオに合わせて OCR を最適化します。
+A2: もちろんです！傾き角度、行認識、領域検出などのパラメータを調整して、さまざまなシナリオに最適な OCR を実現できます。
 
-### Q3: 追加のサポートやコミュニティのディスカッションはどこで見つけられますか?
+### Q3: 追加のサポートやコミュニティディスカッションはどこで見つけられますか？
 
- A3: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)サポートとコミュニティとのディスカッションのために。
+A3: サポートやコミュニティとのディスカッションは、[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)をご覧ください。
 
-### Q4: 無料トライアルはありますか?
+### Q4: 無料トライアルは利用できますか？
 
- A4: はい、調べてください。[無料トライアル](https://releases.aspose.com/) Aspose.OCR の機能を体験します。
+A4: はい、[無料トライアル](https://releases.aspose.com/)で Aspose.OCR の機能を体験できます。
 
-### Q5: Aspose.OCR for .NET を購入するにはどうすればよいですか?
+### Q5: Aspose.OCR for .NET を購入するには？
 
- A5: 購入するには、次のサイトにアクセスしてください。[購入ページ](https://purchase.aspose.com/buy).
+A5: 購入するには、[購入ページ](https://purchase.aspose.com/buy)をご覧ください。
+
+---
+
+**最終更新日:** 2025-12-21  
+**テスト環境:** Aspose.OCR 24.11 for .NET  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

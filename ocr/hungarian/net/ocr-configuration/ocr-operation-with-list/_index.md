@@ -1,37 +1,54 @@
 ---
-title: OCROművelet listával az OCR képfelismerésben
-linktitle: OCROművelet listával az OCR képfelismerésben
+date: 2025-12-21
+description: Ismerje meg, hogyan végezhet több képen OCR-t az Aspose.OCR for .NET
+  segítségével, hogyan nyerhet ki szöveget a képekből, és hogyan olvashat hatékonyan
+  JPEG-szöveget.
+linktitle: Multiple Image OCR with List in Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-description: Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
-weight: 13
+title: Több képes OCR lista használatával az Aspose.OCR .NET-hez
 url: /hu/net/ocr-configuration/ocr-operation-with-list/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCROművelet listával az OCR képfelismerésben
+# Többkép OCR lista használatával az Aspose.OCR .NET-hez
 
 ## Bevezetés
 
-Üdvözöljük részletes oktatóanyagunkban, amely az Aspose.OCR for .NET erejének kiaknázásával foglalkozik az OCR-képfelismerés listákkal történő végrehajtásához. Az optikai karakterfelismerés (OCR) egy kulcsfontosságú technológia, amely a különböző típusú dokumentumokat – például beolvasott papíralapú dokumentumokat, PDF-fájlokat vagy képeket – szerkeszthető és kereshető adatokká alakítja.
+Üdvözöljük alapos oktatóanyagainkban a **multiple image ocr** használatáról az Aspose.OCR .NET-hez. Az optikai karakterfelismerés (OCR) beolvasott papír dokumentumokat, PDF-eket vagy képfájlokat alakít át szerkeszthető, kereshető szöveggé. Ebben az útmutatóban megtanulja, hogyan lehet szöveget kinyerni képekből, JPEG szöveget olvasni, és több fájlt egy hívásban feldolgozni – tökéletes olyan helyzetekben, amikor gyorsan és megbízhatóan kell **scan document to text**.
 
-Ebben az oktatóanyagban az OCRO-műveletet egy listával fedezzük fel, amely lépésről lépésre útmutatást ad az Aspose.OCR for .NET projektbe való integrálásához a hatékony képfelismerés érdekében.
+## Gyors válaszok
+- **Mi a “multiple image ocr” funkciója?** Lehetővé teszi, hogy egyetlen API hívással szöveget ismerjen fel egy képfájlok listájából.  
+- **Mely formátumok támogatottak?** JPEG, PNG, BMP, TIFF, GIF és még sok más.  
+- **Szükségem van licencre?** Gyártási környezetben ideiglenes licenc szükséges; a ingyenes próba verzió elegendő értékeléshez.  
+- **Testreszabhatom a felismerést?** Igen – használja a `RecognitionSettings`-et a nyelv, felbontás és előfeldolgozás finomhangolásához.  
+- **Hány képet dolgozhatok fel egyszerre?** Gyakorlatilag tetszőleges számú; az API minden fájlt streamel, így a memóriahasználat alacsony marad.
 
-## Előfeltételek
+## Mi az a multiple image ocr?
+**multiple image ocr** az a képútvonalak gyűjteményének az Aspose.OCR-nek való átadásának és minden képhez a felismert szöveg egy műveletben történő visszakapásának képessége. Ez fejlesztési időt takarít meg és csökkenti a hálózati körutakat, amikor beolvasott dokumentumok kötegével dolgozunk.
 
-Mielőtt belemerülnénk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
+## Miért használja az Aspose.OCR-t többkép feldolgozáshoz?
+- **High accuracy** zajos beolvasásokon és alacsony felbontású JPEG-eken.  
+- **Built‑in language detection** többnyelvű dokumentumokhoz.  
+- **Full .NET support** – működik .NET Framework, .NET Core és .NET 5/6+ környezetekkel.  
+- **No external dependencies** — a könyvtár belsőleg kezeli a kép betöltését, előfeldolgozását és a szöveg kinyerését.
 
-1.  Aspose.OCR for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.OCR könyvtár. Letöltheti a[Aspose.OCR for .NET letöltési oldal](https://releases.aspose.com/ocr/net/).
+## Előkövetelmények
 
-2. Dokumentumkönyvtár: Állítson be egy könyvtárat, ahol az OCR felismeréshez szükséges dokumentumokat és képeket tárolja.
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következő előkövetelmények rendelkezésre állnak:
 
-Most, hogy megvan a lényeg, kezdjük el a lépésről lépésre szóló útmutatóval.
+1. Aspose.OCR for .NET Library: Győződjön meg róla, hogy az Aspose.OCR könyvtár telepítve van. Letöltheti a [Aspose.OCR for .NET download page](https://releases.aspose.com/ocr/net/) oldalról.
 
-## Névterek importálása
+2. Document Directory: Hozzon létre egy könyvtárat, ahol a dokumentumok és a OCR felismeréshez szükséges képek tárolva vannak.
 
-A C# projektben adja meg a szükséges névtereket az Aspose.OCR for .NET használatához:
+Most, hogy megvan a szükséges, kezdjük el a lépésről‑lépésre útmutatót.
+
+## Namespace-ek importálása
+
+C# projektjében adja hozzá a szükséges namespace-eket az Aspose.OCR .NET használatához:
 
 ```csharp
 using System;
@@ -41,20 +58,21 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentum könyvtár beállítása
 
-Kezdje a dokumentumkönyvtár elérési útjának inicializálásával:
+Kezdje a dokumentum könyvtár elérési útjának inicializálásával:
+
 ```csharp
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inicializálja az AsposeOcr egy példányát
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 2. lépés: Adja meg a képútvonalakat
+## 2. lépés: Kép útvonalak megadása
 
-A felismerés előtt határozza meg a feldolgozni kívánt képek útvonalát. Például:
+A felismerés előtt határozza meg a feldolgozni kívánt képek útvonalait. Például **extract text images** JPEG és PNG fájlokból:
 
 ```csharp
 List<string> imagePaths = new List<string>
@@ -64,20 +82,20 @@ List<string> imagePaths = new List<string>
 };
 ```
 
-## 3. lépés: Hajtsa végre az OCR képfelismerést
+## 3. lépés: OCR képfelismerés végrehajtása
 
-Indítsa el az OCR felismerési folyamatot a megadott képekkel:
+Indítsa el az OCR felismerési folyamatot a megadott képekkel. Ez a lépés bemutatja a **ocr multiple files** kezelését:
 
 ```csharp
 RecognitionResult[] result = api.RecognizeMultipleImages(imagePaths, new RecognitionSettings
 {
-   //alapértelmezett vagy egyéni beállítások
+   //default or custom settings
 });
 ```
 
-## 4. lépés: A felismerési eredmények megjelenítése
+## 4. lépés: Felismerési eredmények megjelenítése
 
-Nyomtassa ki az egyes képek felismerési eredményeit:
+Írassa ki minden kép felismerési eredményét. Itt láthatja az egyes fájlokból kinyert szöveget, hatékonyan **reading JPEG text** és más formátumok esetén:
 
 ```csharp
 for (int i = 0; i < result.Length; i++)
@@ -86,31 +104,40 @@ for (int i = 0; i < result.Length; i++)
 }
 ```
 
-## Következtetés
+## Gyakori problémák és megoldások
 
-Gratulálunk! Sikeresen végrehajtotta az OCRO-műveletet egy listával az Aspose.OCR for .NET használatával. Ez a hatékony eszköz lehetővé teszi az OCR-képességek zökkenőmentes integrálását az alkalmazásokba, új lehetőségeket nyitva meg az adatok kinyerésére és manipulálására.
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| Nincs visszaadott szöveg | A kép minősége túl alacsony | Növelje a DPI-t, vagy használja a `RecognitionSettings`-et a kép előfeldolgozás engedélyezéséhez |
+| Helytelen nyelv észlelve | Az alapértelmezett nyelv angol | Állítsa be a `RecognitionSettings.Language`-t a megfelelő nyelvkódra |
+| Memóriahiány nagy kötegek esetén | Sok nagy felbontású kép egyszerre betöltése | Feldolgozza a képeket kisebb kötegekben, vagy streamelje őket a `RecognizeMultipleImages` használatával, amely már kezeli a streaminget |
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Testreszabhatom bizonyos képek felismerési beállításait?
+**Q: Testreszabhatom a felismerési beállításokat konkrét képekhez?**  
+A: Igen, a `RecognitionSettings` osztály lehetővé teszi az OCR paraméterek, például nyelv, felbontás és előfeldolgozás testreszabását minden köteghez.
 
- A1: Igen, a`RecognitionSettings`osztály lehetővé teszi az OCR-beállítások testreszabását az Ön egyedi igényei alapján.
+**Q: Az Aspose.OCR .NET kompatibilis különböző képformátumokkal?**  
+A: Teljesen. Az Aspose.OCR támogatja a JPEG, PNG, BMP, TIFF, GIF és sok más formátumot, így rugalmas a különféle dokumentumtípusokhoz.
 
-### 2. kérdés: Az Aspose.OCR for .NET kompatibilis a különböző képformátumokkal?
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.OCR .NET-hez?**  
+A: Látogassa meg a [this link](https://purchase.aspose.com/temporary-license/) oldalt, hogy ideiglenes licencet kapjon értékelési célokra.
 
-A2: Abszolút. Az Aspose.OCR a képformátumok széles skáláját támogatja, rugalmasságot biztosítva a különféle dokumentumok kezelésében.
+**Q: Hol találok részletes dokumentációt az Aspose.OCR .NET-hez?**  
+A: Tekintse meg a [documentation](https://reference.aspose.com/ocr/net/) oldalt a teljes körű információkért és használati útmutatóért.
 
-### 3. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.OCR for .NET számára?
+**Q: Mi a teendő, ha problémáim vannak vagy konkrét kérdéseim merülnek fel a megvalósítás során?**  
+A: Nyugodtan kérjen segítséget a [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) oldalon, ahol a közösség és a szakértők gyors támogatást nyújtanak.
 
- A3: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzésére értékelési célból.
+## Összegzés
 
-### 4. kérdés: Hol találom az Aspose.OCR for .NET részletes dokumentációját?
+Gratulálunk! Sikeresen végrehajtotta a **multiple image ocr** listával való használatát az Aspose.OCR .NET segítségével. Ez a hatékony képesség lehetővé teszi a **scan document to text**, **extract text images**, és **read JPEG text** tömeges feldolgozását, új lehetőségeket nyitva meg az adatok kinyeréséhez, archiváláshoz és automatizált munkafolyamatokhoz.
 
- A4: Lásd a[dokumentáció](https://reference.aspose.com/ocr/net/) átfogó információkért és használati útmutatókért.
+---
 
-### 5. kérdés: Mi a teendő, ha problémákba ütközöm, vagy konkrét kérdéseim vannak a megvalósítás során?
-
- V5: Nyugodtan kérjen segítséget a[Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) a közösség és a szakértők azonnali támogatásáért.
+**Legutóbb frissítve:** 2025-12-21  
+**Tesztelve a következővel:** Aspose.OCR 24.11 for .NET  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

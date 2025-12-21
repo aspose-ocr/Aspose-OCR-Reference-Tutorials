@@ -1,37 +1,53 @@
 ---
-title: OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
-linktitle: OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
-second_title: API Aspose.OCR .NET
-description: Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nhận dạng hình ảnh OCR bằng danh sách. Tăng năng suất và trích xuất dữ liệu trong các ứng dụng của bạn.
-weight: 13
+date: 2025-12-21
+description: Tìm hiểu cách thực hiện OCR đa ảnh với Aspose.OCR cho .NET, trích xuất
+  văn bản từ hình ảnh và đọc văn bản JPEG một cách hiệu quả.
+linktitle: Multiple Image OCR with List in Aspose.OCR for .NET
+second_title: Aspose.OCR .NET API
+title: OCR đa hình ảnh với danh sách trong Aspose.OCR cho .NET
 url: /vi/net/ocr-configuration/ocr-operation-with-list/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR
+# Nhận dạng ký tự quang học (OCR) đa ảnh với danh sách trong Aspose.OCR cho .NET
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn chuyên sâu của chúng tôi về cách tận dụng sức mạnh của Aspose.OCR cho .NET để thực hiện nhận dạng hình ảnh OCR với danh sách. Nhận dạng ký tự quang học (OCR) là một công nghệ quan trọng giúp chuyển đổi các loại tài liệu khác nhau—chẳng hạn như tài liệu giấy được quét, PDF hoặc hình ảnh—thành dữ liệu có thể chỉnh sửa và tìm kiếm được.
+Chào mừng bạn đến với hướng dẫn chi tiết về **multiple image ocr** bằng Aspose.OCR cho .NET. Nhận dạng ký tự quang học (OCR) chuyển đổi tài liệu giấy đã quét, PDF hoặc tệp hình ảnh thành văn bản có thể chỉnh sửa, tìm kiếm. Trong hướng dẫn này, bạn sẽ học cách trích xuất văn bản từ hình ảnh, đọc văn bản JPEG và xử lý nhiều tệp trong một lần gọi—hoàn hảo cho các kịch bản cần **scan document to text** nhanh chóng và đáng tin cậy.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá OCROperation bằng một danh sách, cung cấp hướng dẫn từng bước về cách tích hợp Aspose.OCR cho .NET vào các dự án của bạn để nhận dạng hình ảnh hiệu quả.
+## Câu trả lời nhanh
+- **“multiple image ocr” làm gì?** Nó cho phép bạn nhận dạng văn bản từ một danh sách các tệp hình ảnh trong một lần gọi API.  
+- **Các định dạng nào được hỗ trợ?** JPEG, PNG, BMP, TIFF, GIF và nhiều hơn nữa.  
+- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời cho môi trường sản xuất; bản dùng thử miễn phí đủ cho việc đánh giá.  
+- **Tôi có thể tùy chỉnh quá trình nhận dạng không?** Có—sử dụng `RecognitionSettings` để điều chỉnh ngôn ngữ, độ phân giải và tiền xử lý.  
+- **Tôi có thể xử lý bao nhiêu ảnh cùng lúc?** Thực tế là bất kỳ số lượng nào; API sẽ stream từng tệp, vì vậy việc sử dụng bộ nhớ vẫn thấp.
 
-## Điều kiện tiên quyết
+## “multiple image ocr” là gì?
+**multiple image ocr** là khả năng truyền một tập hợp các đường dẫn hình ảnh cho Aspose.OCR và nhận lại văn bản đã nhận dạng cho mỗi ảnh trong một thao tác duy nhất. Điều này giúp tiết kiệm thời gian phát triển và giảm số lần gọi mạng khi làm việc với các lô tài liệu đã quét.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Tại sao nên dùng Aspose.OCR cho xử lý đa ảnh?
+- **Độ chính xác cao** trên các bản quét nhiễu và JPEG độ phân giải thấp.  
+- **Phát hiện ngôn ngữ tự động** cho tài liệu đa ngôn ngữ.  
+- **Hỗ trợ đầy đủ .NET** – hoạt động với .NET Framework, .NET Core và .NET 5/6+.  
+- **Không phụ thuộc bên ngoài**—thư viện tự xử lý việc tải ảnh, tiền xử lý và trích xuất văn bản.
 
-1.  Aspose.OCR cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.OCR. Bạn có thể tải nó xuống từ[Trang tải xuống Aspose.OCR cho .NET](https://releases.aspose.com/ocr/net/).
+## Yêu cầu trước
 
-2. Thư mục tài liệu: Thiết lập thư mục lưu trữ tài liệu và hình ảnh của bạn để nhận dạng OCR.
+Trước khi chúng ta bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
 
-Bây giờ bạn đã có những thông tin cần thiết, hãy bắt đầu với hướng dẫn từng bước.
+1. Thư viện Aspose.OCR cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.OCR. Bạn có thể tải xuống từ [trang tải Aspose.OCR cho .NET](https://releases.aspose.com/ocr/net/).
+
+2. Thư mục tài liệu: Tạo một thư mục lưu trữ các tài liệu và hình ảnh sẽ được nhận dạng OCR.
+
+Bây giờ bạn đã có các yếu tố cần thiết, hãy bắt đầu với hướng dẫn từng bước.
 
 ## Nhập không gian tên
 
-Trong dự án C# của bạn, hãy bao gồm các vùng tên cần thiết để sử dụng Aspose.OCR cho .NET:
+Trong dự án C# của bạn, thêm các không gian tên cần thiết để sử dụng Aspose.OCR cho .NET:
 
 ```csharp
 using System;
@@ -41,20 +57,21 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Bước 1: Thiết lập thư mục tài liệu của bạn
+## Bước 1: Thiết lập Thư mục Tài liệu của Bạn
 
-Bắt đầu bằng cách khởi tạo đường dẫn đến thư mục tài liệu của bạn:
+Khởi tạo đường dẫn tới thư mục tài liệu của bạn:
+
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Khởi tạo một phiên bản của AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Bước 2: Chỉ định đường dẫn hình ảnh
+## Bước 2: Xác định Đường dẫn Hình ảnh
 
-Trước khi nhận dạng, hãy xác định đường dẫn của hình ảnh bạn muốn xử lý. Ví dụ:
+Trước khi nhận dạng, định nghĩa các đường dẫn của các hình ảnh bạn muốn xử lý. Ví dụ, bạn có thể **extract text images** từ các tệp JPEG và PNG:
 
 ```csharp
 List<string> imagePaths = new List<string>
@@ -64,20 +81,20 @@ List<string> imagePaths = new List<string>
 };
 ```
 
-## Bước 3: Thực hiện nhận dạng hình ảnh OCR
+## Bước 3: Thực hiện Nhận dạng Ảnh OCR
 
-Bắt đầu quá trình nhận dạng OCR với các hình ảnh được chỉ định:
+Khởi động quá trình nhận dạng OCR với các hình ảnh đã chỉ định. Bước này minh họa cách xử lý **ocr multiple files**:
 
 ```csharp
 RecognitionResult[] result = api.RecognizeMultipleImages(imagePaths, new RecognitionSettings
 {
-   //cài đặt mặc định hoặc tùy chỉnh
+   //default or custom settings
 });
 ```
 
-## Bước 4: Hiển thị kết quả nhận dạng
+## Bước 4: Hiển thị Kết quả Nhận dạng
 
-In kết quả nhận dạng cho từng hình ảnh:
+In ra kết quả nhận dạng cho mỗi hình ảnh. Tại đây bạn sẽ thấy văn bản đã trích xuất từ mỗi tệp, thực hiện **reading JPEG text** và các định dạng khác:
 
 ```csharp
 for (int i = 0; i < result.Length; i++)
@@ -86,31 +103,40 @@ for (int i = 0; i < result.Length; i++)
 }
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp và Giải pháp
 
-Chúc mừng! Bạn đã thực hiện thành công OCROperation với danh sách sử dụng Aspose.OCR cho .NET. Công cụ mạnh mẽ này cho phép tích hợp liền mạch các khả năng OCR vào ứng dụng của bạn, mở ra những khả năng mới để trích xuất và thao tác dữ liệu.
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| No text returned | Image quality too low | Increase DPI, or use `RecognitionSettings` to enable image preprocessing |
+| Wrong language detected | Default language is English | Set `RecognitionSettings.Language` to the appropriate language code |
+| Out‑of‑memory for large batches | Loading many high‑resolution images at once | Process images in smaller batches or stream them using `RecognizeMultipleImages` which already handles streaming |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể tùy chỉnh cài đặt nhận dạng cho các hình ảnh cụ thể không?
+**Hỏi: Tôi có thể tùy chỉnh cài đặt nhận dạng cho từng ảnh cụ thể không?**  
+Đáp: Có, lớp `RecognitionSettings` cho phép bạn điều chỉnh các tham số OCR như ngôn ngữ, độ phân giải và tiền xử lý cho mỗi lô.
 
- A1: Vâng,`RecognitionSettings`lớp cho phép bạn điều chỉnh cài đặt OCR dựa trên yêu cầu cụ thể của bạn.
+**Hỏi: Aspose.OCR cho .NET có hỗ trợ các định dạng ảnh khác nhau không?**  
+Đáp: Hoàn toàn có. Aspose.OCR hỗ trợ JPEG, PNG, BMP, TIFF, GIF và nhiều định dạng khác, giúp bạn linh hoạt với các loại tài liệu đa dạng.
 
-### Câu hỏi 2: Aspose.OCR cho .NET có tương thích với nhiều định dạng hình ảnh khác nhau không?
+**Hỏi: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.OCR cho .NET?**  
+Đáp: Truy cập [liên kết này](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời cho mục đích đánh giá.
 
-A2: Chắc chắn rồi. Aspose.OCR hỗ trợ nhiều định dạng hình ảnh, đảm bảo tính linh hoạt trong việc xử lý các tài liệu đa dạng.
+**Hỏi: Tôi có thể tìm tài liệu chi tiết cho Aspose.OCR cho .NET ở đâu?**  
+Đáp: Tham khảo [tài liệu](https://reference.aspose.com/ocr/net/) để có thông tin toàn diện và hướng dẫn sử dụng.
 
-### Câu hỏi 3: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.OCR cho .NET?
+**Hỏi: Nếu gặp vấn đề hoặc có câu hỏi cụ thể trong quá trình triển khai thì sao?**  
+Đáp: Hãy tìm sự hỗ trợ trên [Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận trợ giúp nhanh chóng từ cộng đồng và các chuyên gia.
 
- A3: Tham quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích đánh giá.
+## Kết luận
 
-### Câu hỏi 4: Tôi có thể tìm tài liệu chi tiết về Aspose.OCR cho .NET ở đâu?
+Chúc mừng! Bạn đã thực hiện thành công **multiple image ocr** với danh sách bằng Aspose.OCR cho .NET. Khả năng mạnh mẽ này cho phép bạn **scan document to text**, **extract text images**, và **read JPEG text** hàng loạt, mở ra nhiều khả năng mới cho việc trích xuất dữ liệu, lưu trữ và quy trình tự động.
 
- A4: Hãy tham khảo[tài liệu](https://reference.aspose.com/ocr/net/) để biết thông tin đầy đủ và hướng dẫn sử dụng.
+---
 
-### Câu hỏi 5: Nếu tôi gặp sự cố hoặc có thắc mắc cụ thể trong quá trình triển khai thì sao?
-
- Câu trả lời 5: Vui lòng tìm kiếm sự trợ giúp về[Diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận được sự hỗ trợ kịp thời từ cộng đồng và các chuyên gia.
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

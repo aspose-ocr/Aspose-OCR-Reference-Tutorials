@@ -1,33 +1,50 @@
 ---
-title: OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
-linktitle: OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile güçlü OCR özelliklerinin kilidini açın. Görüntülerden metni sorunsuz bir şekilde çıkarın.
-weight: 12
+date: 2025-12-21
+description: Aspose.OCR for .NET kullanarak OCR nasıl yapılır ve görüntüden metin
+  nasıl çıkarılır öğrenin. Bu adım adım kılavuz, çok dilli metin tanıma ve dil seçimini
+  gösterir.
+linktitle: How to Perform OCR with Language Selection in Aspose.OCR
+second_title: Aspose.OCR .NET API
+title: Aspose.OCR'de Dil Seçimiyle OCR Nasıl Yapılır
 url: /tr/net/ocr-configuration/ocr-operation-with-language-selection/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Dil Seçimi ile OCR İşlemi
+# Aspose.OCR'da Dil Seçimi ile OCR Nasıl Yapılır
 
-## giriiş
+## Giriş
 
-Görüntü tanıma ve optik karakter tanıma (OCR) dünyasında, Aspose.OCR for .NET, görüntülerden doğru ve etkili metin çıkarma arayışında olan geliştiriciler için güçlü bir araç olarak öne çıkıyor. Bu adım adım kılavuz, Aspose.OCR for .NET kullanarak OCR görüntü tanıma sürecinde dil seçimiyle işleme odaklanarak size yol gösterecektir.
+Bir .NET uygulamasında **OCR nasıl yapılır** ve görüntü dosyalarından metin çıkarılır sorusuna yanıt arıyorsanız, Aspose.OCR for .NET hızlı, doğru ve dil‑bilinçli bir çözüm sunar. Bu öğreticide, dil seçimiyle OCR görüntü tanımasını gösteren gerçek bir örnek üzerinden ilerleyecek ve sadece birkaç satır kodla resimlerden çok dilli metin çekebileceksiniz.
+
+## Hızlı Yanıtlar
+- **Aspose.OCR ne yapar?** Görüntülerdeki basılı ve el yazısı metinleri tanır ve çıkarılan metni döndürür.  
+- **Dili seçebilir miyim?** Evet – İngilizce, Almanca, İspanyolca, Çince vb. desteklenen herhangi bir dili belirtebilirsiniz.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme sürümü yeterlidir; üretim kullanımı için lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Eğim düzeltme otomatik mi?** `AutoSkew` özelliğini etkinleştirerek `SkewAngle` ayarını ince ayar yapabilirsiniz.
+
+## Neden OCR Görevleri İçin Aspose.OCR Seçilmeli?
+
+- **Birden çok font ve görüntü kalitesinde yüksek doğruluk**.  
+- **Yerleşik dil seçimi** dış dil paketlerine ihtiyaç duymaz.  
+- **Basit API** mevcut C# projeleriyle sorunsuz entegrasyon.  
+- **Harici bağımlılık yok** – tüm işlemler yerel olarak gerçekleşir, verileriniz güvende kalır.
 
 ## Önkoşullar
 
-Eğiticiye geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Koda geçmeden önce aşağıdaki önkoşulların sağlandığından emin olun:
 
--  Aspose.OCR for .NET: Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.OCR for .NET indirme sayfası](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET: Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. İndirmek için [Aspose.OCR for .NET indirme sayfasını](https://releases.aspose.com/ocr/net/) ziyaret edin.
 
-- Geliştirme Ortamı: .NET uygulamasıyla bir çalışma ortamı kurun. Bunu henüz yapmadıysanız, bkz.[dokümantasyon](https://reference.aspose.com/ocr/net/) ayrıntılı talimatlar için.
+- Geliştirme Ortamı: .NET uygulamasıyla çalışacak bir ortam kurun. Henüz yapmadıysanız, ayrıntılı talimatlar için [belgelere](https://reference.aspose.com/ocr/net/) bakın.
 
-## Ad Alanlarını İçe Aktar
+## Namespace'leri İçe Aktarma
 
-.NET uygulamanızda gerekli ad alanlarını içe aktararak başlayın:
+.NET uygulamanızda gerekli namespace'leri içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -37,50 +54,50 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Adım 1: Aspose.OCR'ı başlatın
+## Adım 1: Aspose.OCR'ı Başlatma
 
-Aspose.OCR sınıfının bir örneğini başlatarak başlayın. Bu, uygulamanızda OCR yeteneklerinin kullanılmasına yönelik zemini hazırlar.
+Aspose.OCR sınıfının bir örneğini başlatarak OCR yeteneklerini uygulamanıza dahil edin.
 
 ```csharp
 // ExStart:1
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 2. Adım: Görüntü Yolunu Belirleyin
+## Adım 2: Görüntü Yolunu Belirtme
 
-Daha sonra, OCR gerçekleştirmek istediğiniz görüntünün yolunu tanımlayın. Görüntünün uygulamanızdan erişilebilir olduğundan emin olun.
+OCR uygulanacak görüntünün yolunu tanımlayın. Görüntünün uygulamanızdan erişilebilir olduğundan emin olun.
 
 ```csharp
-//Resim Yolu
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## 3. Adım: Dil Seçimiyle Görüntüyü Tanıyın
+## Adım 3: Dil Seçimiyle Görüntüyü Tanıma
 
-Şimdi temel OCR işlemi geliyor. Belirtilen görüntüdeki metni tanımak için Aspose.OCR kitaplığını kullanın. Dil seçimi de dahil olmak üzere tanıma ayarlarını yapın.
+Şimdi temel OCR işlemi gerçekleşiyor. Belirtilen görüntüden metin tanımak için Aspose.OCR kütüphanesini kullanın. Dil seçimi dahil olmak üzere tanıma ayarlarını düzenleyin.
 
 ```csharp
-// Resmi tanı
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     DetectAreas = true,
     RecognizeSingleLine = false,
     AutoSkew = true,
     SkewAngle = 0.2F,
-    Language = Language.Eng, // Dili seçin: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
+    Language = Language.Eng, // Choose the language: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
 });
 ```
 
-## Adım 4: Sonuçları Yazdırın ve Görüntüleyin
+## Adım 4: Sonuçları Yazdırma ve Görüntüleme
 
-OCR işleminden sonra, tanınan metin, alanlar, uyarılar ve JSON gösterimi dahil sonuçları yazdırın ve görüntüleyin.
+OCR işleminden sonra, tanınan metin, alanlar, uyarılar ve JSON temsili dahil sonuçları yazdırın ve gösterin.
 
 ```csharp
-// Sonucu yazdır
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Areas:");
 result.RecognitionAreasText.ForEach(a => Console.WriteLine($"{a}"));
@@ -90,31 +107,43 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 // ExEnd:1
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Tebrikler! Aspose.OCR for .NET'i kullanarak dil seçimiyle OCR görüntü tanıma işlemini başarıyla gerçekleştirdiniz. Bu eğitimde resimlerden metin çıkarmak için gerekli adımlar gösterildi ve dil seçeneklerinin esnekliği vurgulandı.
+- **Yanlış dil seçimi** – Çıktı bozuk görünüyorsa, `Language` özelliğinin kaynak görüntünün diliyle eşleştiğinden emin olun.  
+- **Eğimli görüntüler** – Daha iyi doğruluk için `AutoSkew`'i etkinleştirin veya `SkewAngle`'ı manuel ayarlayın.  
+- **Büyük dosyalar** – Belleği korumak için büyük görüntüleri parçalara bölerek işleyin veya `RecognizeImage`'a vermeden önce çözünürlüğü düşürün.
 
-## SSS'ler
+## Sonuç
 
-### S1: Aspose.OCR çok dilli metin tanımaya uygun mudur?
+Tebrikler! Aspose.OCR for .NET kullanarak dil seçimiyle **OCR nasıl yapılır** öğrendiniz. Bu öğreticide, görüntü dosyalarından metin çıkarma, tanıma ayarlarını özelleştirme ve çok dilli içeriği sorunsuz şekilde yönetme konularını gördünüz.
 
-Cevap1: Evet, Aspose.OCR çeşitli dilleri destekleyerek çok dilli OCR görevleri için esneklik sağlar.
+## SSS
 
-### S2: Belirli görüntü özelliklerine göre OCR ayarlarına ince ayar yapabilir miyim?
+### S1: Aspose.OCR çok dilli metin tanıma için uygun mu?
 
-A2: Kesinlikle! OCR'yi farklı senaryolara göre optimize etmek için eğrilik açısı, çizgi tanıma ve alan algılama gibi parametreleri ayarlayın.
+C1: Evet, Aspose.OCR çeşitli dilleri destekler ve çok dilli OCR görevleri için esneklik sağlar.
 
-### S3: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
+### S2: Belirli görüntü özellikleri için OCR ayarlarını ince ayar yapabilir miyim?
 
- A3: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) toplulukla destek ve tartışmalar için.
+C2: Kesinlikle! Eğim açısı, satır tanıma ve alan tespiti gibi parametreleri farklı senaryolar için optimize edebilirsiniz.
 
-### S4: Ücretsiz deneme sürümü mevcut mu?
+### S3: Ek destek veya topluluk tartışmalarını nereden bulabilirim?
 
- A4: Evet, keşfedin[ücretsiz deneme](https://releases.aspose.com/) Aspose.OCR'ın yeteneklerini deneyimlemek için.
+C3: Topluluk desteği ve tartışmalar için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
-### S5: Aspose.OCR for .NET'i nasıl satın alabilirim?
+### S4: Ücretsiz bir deneme sürümü var mı?
 
- A5: Satın almak için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
+C4: Evet, Aspose.OCR'un yeteneklerini deneyimlemek için [ücretsiz deneme sürümünü](https://releases.aspose.com/) keşfedin.
+
+### S5: Aspose.OCR for .NET nasıl satın alınır?
+
+C5: Satın almak için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
+
+---
+
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

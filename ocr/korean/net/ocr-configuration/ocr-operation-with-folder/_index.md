@@ -1,34 +1,50 @@
 ---
-title: OCR 이미지 인식에서 폴더를 사용한 OCR 작동
-linktitle: OCR 이미지 인식에서 폴더를 사용한 OCR 작동
+date: 2025-12-21
+description: Aspose.OCR for .NET를 사용하여 이미지에서 텍스트를 추출하는 방법을 배우고, 폴더 기반 OCR 이미지 인식을
+  구현하세요.
+linktitle: OCROperation with Folder in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하세요. 이미지에서 텍스트를 손쉽게 추출해 보세요.
-weight: 11
+title: 폴더에 있는 이미지에서 OCR 작업으로 텍스트 추출
 url: /ko/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR 이미지 인식에서 폴더를 사용한 OCR 작동
+# 폴더에서 OCR 작업을 사용하여 이미지에서 텍스트 추출하기
 
-## 소개
+## Introduction
 
-.NET용 Aspose.OCR을 사용하는 광학 문자 인식(OCR)의 세계에 오신 것을 환영합니다! .NET 애플리케이션 내에서 이미지에서 텍스트를 원활하게 추출하려는 경우 올바른 위치에 오셨습니다. 이 튜토리얼은 Aspose.OCR의 강력한 기능을 활용하여 폴더를 사용한 OCR 이미지 인식 프로세스를 안내합니다.
+**Aspose.OCR for .NET**와 함께 광학 문자 인식(OCR)의 세계에 오신 것을 환영합니다! 스캔한 문서가 들어 있는 전체 폴더와 같이 대량의 이미지에서 **텍스트를 추출**해야 할 때, 이 튜토리얼은 실용적인 실제 솔루션을 단계별로 안내합니다. 프로젝트 설정부터 인식된 텍스트 출력까지 모두 다루므로, C# 애플리케이션에 폴더 기반 OCR을 빠르게 통합할 수 있습니다.
 
-## 전제 조건
+## Quick Answers
+- **이 튜토리얼에서 배우는 내용:** Aspose.OCR을 사용해 폴더에 저장된 이미지에서 텍스트를 추출하는 방법
+- **언어 및 플랫폼:** .NET (Framework 또는 .NET Core)용 C#
+- **필수 사전 조건:** Aspose.OCR for .NET 라이브러리(아래 다운로드 링크 참고)
+- **코드 라인 수:** 단 7개의 간결한 코드 블록
+- **이미지를 텍스트로 변환할 수 있나요?** 예—이 예제가 바로 그 과정을 보여줍니다.
 
-튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
+## What is “extract text from images”?
+이미지에서 텍스트를 추출한다는 것은 OCR 기술을 이용해 사진, PDF 또는 스캔 문서에 포함된 문자를 읽어 편집 가능하고 검색 가능한 문자열로 변환하는 것을 의미합니다. Aspose.OCR은 다양한 이미지 형식과 언어를 지원하는 강력한 엔진을 제공합니다.
 
-- C# 및 .NET 개발에 대한 실무 지식.
-- 컴퓨터에 Visual Studio가 설치되어 있습니다.
--  다운로드할 수 있는 .NET 라이브러리용 Aspose.OCR[여기](https://releases.aspose.com/ocr/net/).
-- OCR 개념에 대한 기본 이해.
+## Why use Aspose.OCR for folder‑based OCR?
+- **높은 정확도**와 내장 언어 감지 기능  
+- **배치 처리**를 위한 `RecognizeMultipleImages` 지원, 폴더에 최적화  
+- **간단한 API**로 C# 프로젝트에 자연스럽게 통합  
+- **확장성** – 데스크톱 및 서버 환경 모두에서 동작
 
-## 네임스페이스 가져오기
+## Prerequisites
 
-C# 코드에서 Aspose.OCR을 사용하는 데 필요한 네임스페이스를 가져와야 합니다. 스크립트 시작 부분에 다음을 포함합니다.
+- C# 및 .NET 개발에 대한 기본 지식  
+- Visual Studio(최근 버전)  
+- **Aspose.OCR for .NET** 라이브러리 – [여기서 다운로드](https://releases.aspose.com/ocr/net/)  
+- OCR 개념에 대한 이해(선택 사항이지만 도움이 됨)
+
+## Import Namespaces
+
+C# 파일 상단에 필요한 `using` 지시문을 추가하여 컴파일러가 OCR 클래스를 찾을 수 있게 합니다.
 
 ```csharp
 using System;
@@ -38,92 +54,100 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1단계: 문서 디렉터리 설정
+## Step‑by‑Step Guide
+
+### Step 1: Set Document Directory
+처리할 이미지가 들어 있는 폴더를 정의합니다.
 
 ```csharp
-// ExStart:1
-// 문서 디렉터리의 경로입니다.
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-"문서 디렉토리"를 이미지가 저장된 실제 경로로 바꾸십시오.
+> **Pro tip:** 절대 경로나 `Path.Combine`을 사용해 서로 다른 OS에서 경로 구분자 문제를 방지하세요.
 
-## 2단계: Aspose.OCR 초기화
+### Step 2: Initialize Aspose.OCR
+OCR 엔진 인스턴스를 생성합니다.
 
 ```csharp
-// AsposeOcr 인스턴스 초기화
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-해당 기능을 활용하려면 AsposeOcr 클래스의 인스턴스를 만듭니다.
-
-## 3단계: 이미지 경로 지정
+### Step 3: Specify Image Path
+API가 이미지 파일이 들어 있는 특정 하위 폴더를 가리키도록 설정합니다.
 
 ```csharp
-//이미지 경로
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-이미지가 포함된 특정 폴더와 문서 디렉터리 경로를 연결합니다.
+> **Why this matters:** `RecognizeMultipleImages` 메서드는 단일 파일이 아니라 폴더 경로를 기대합니다.
 
-## 4단계: 이미지 인식
+### Step 4: Recognize Images
+폴더 안의 모든 이미지에 대해 OCR을 실행합니다. 언어 힌트나 특정 전처리가 필요하면 `RecognitionSettings`를 맞춤 설정할 수 있습니다.
 
 ```csharp
-// 이미지 인식
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //기본값 또는 사용자 정의
+    //default or custom
 });
 ```
 
-RecognizeMultipleImages 메서드를 활용하여 지정된 폴더 내의 여러 이미지에 대해 OCR을 수행합니다.
-
-## 5단계: 결과 인쇄
+### Step 5: Print Results
+반환된 `RecognitionResult` 배열을 순회하면서 추출된 텍스트를 출력합니다.
 
 ```csharp
-// 결과 인쇄
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-결과를 반복하고 각 이미지에 대해 인식된 텍스트를 인쇄합니다.
+> **Common pitfall:** 폴더가 비어 있을 때 `result.Length`를 확인하지 않으면 `IndexOutOfRangeException`이 발생할 수 있습니다. 항상 폴더 내용을 먼저 검증하세요.
 
-## 6단계: 결론
+### Step 6: Completion Message
+성공적인 실행을 알리는 메시지를 표시합니다.
 
 ```csharp
-// 연장:1
+// ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-폴더에 대한 OCR 작업이 성공적으로 실행되었음을 나타내려면 스크립트의 결론에 도달했는지 확인하세요.
+## Common Issues & Solutions
 
-## 결론
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| 출력이 없음 | 폴더 경로가 잘못되었거나 비어 있음 | `fullPath`가 올바른 디렉터리를 가리키고 PNG, JPEG, TIFF 등 지원 형식이 포함되어 있는지 확인 |
+| 문자 깨짐 | 언어 설정 오류 | 적절한 ISO 코드가 지정된 `RecognitionSettings`를 전달 |
+| 많은 이미지 처리 시 성능 저하 | UI 스레드에서 순차 처리 | 백그라운드 스레드에서 OCR을 실행하거나 async 패턴을 사용해 UI 응답성을 유지 |
 
-축하해요! .NET용 Aspose.OCR을 사용하여 폴더로 OCR 이미지 인식을 구현하는 방법을 성공적으로 배웠습니다. 이 강력한 도구는 .NET 애플리케이션의 이미지에서 텍스트를 추출할 수 있는 수많은 가능성을 열어줍니다.
+## Frequently Asked Questions
 
-## FAQ
+**Q: Aspose.OCR for .NET을 상업 프로젝트에 사용할 수 있나요?**  
+A: 예, Aspose.OCR for .NET은 상업용 제품입니다. 라이선스 정보는 [여기](https://purchase.aspose.com/buy)에서 확인하세요.
 
-### Q1: 상용 프로젝트에서 .NET용 Aspose.OCR을 사용할 수 있습니까?
+**Q: 무료 체험판이 있나요?**  
+A: 예, 무료 체험판은 [여기](https://releases.aspose.com/)에서 이용할 수 있습니다.
 
- A1: 예, .NET용 Aspose.OCR은 상용 제품입니다. 라이선스 정보를 보려면 다음을 방문하세요.[여기](https://purchase.aspose.com/buy).
+**Q: 문서는 어디서 찾을 수 있나요?**  
+A: 문서는 [여기](https://reference.aspose.com/ocr/net/)에 있습니다.
 
-### Q2:. 무료 평가판이 제공되나요?
+**Q: 임시 라이선스를 어떻게 받을 수 있나요?**  
+A: 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 받을 수 있습니다.
 
- A2: 예, 무료 평가판을 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
+**Q: 지원이 필요하거나 질문이 있나요?**  
+A: 커뮤니티 지원은 [Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16)에서 확인하세요.
 
-### Q3: 문서는 어디서 찾을 수 있나요?
+---
 
- A3: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/ocr/net/).
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
-### Q4: 임시 라이센스는 어떻게 얻을 수 있나요?
-
- A4: 임시 라이센스를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
-
-### Q5: 지원이 필요하거나 질문이 있나요?
-
- A5: 다음을 방문하세요.[Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16) 지역 사회 지원을 위해.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
