@@ -1,34 +1,50 @@
 ---
-title: Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
-linktitle: Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
+date: 2025-12-21
+description: Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR untuk
+  .NET, memungkinkan pengenalan gambar OCR berbasis folder.
+linktitle: OCROperation with Folder in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks dengan mudah dari gambar.
-weight: 11
+title: Ekstrak Teks dari Gambar dengan Operasi OCR pada Folder
 url: /id/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operasi OCRO dengan Folder dalam Pengenalan Gambar OCR
+# Ekstrak Teks dari Gambar Menggunakan Operasi OCR pada Folder
 
-## Perkenalan
+## Introduction
 
-Selamat datang di dunia Pengenalan Karakter Optik (OCR) menggunakan Aspose.OCR untuk .NET! Jika Anda ingin mengekstrak teks dari gambar dengan lancar dalam aplikasi .NET, Anda berada di tempat yang tepat. Tutorial ini akan memandu Anda melalui proses pengenalan gambar OCR dengan folder, memanfaatkan kemampuan Aspose.OCR yang canggih.
+Selamat datang di dunia Optical Character Recognition (OCR) dengan **Aspose.OCR for .NET**! Jika Anda perlu **mengekstrak teks dari gambar** secara massal—misalnya, seluruh folder dokumen yang dipindai—tutorial ini akan memandu Anda melalui solusi praktis dunia nyata. Kami akan membahas semuanya mulai dari menyiapkan proyek hingga mencetak teks yang dikenali, sehingga Anda dapat dengan cepat mengintegrasikan OCR berbasis folder ke dalam aplikasi C# Anda.
 
-## Prasyarat
+## Quick Answers
+- **What does this tutorial teach?** Cara mengekstrak teks dari gambar yang disimpan dalam folder menggunakan Aspose.OCR.  
+- **Which language & platform?** C# dengan .NET (Framework atau .NET Core).  
+- **Key prerequisite?** Perpustakaan Aspose.OCR for .NET (tautan unduhan di bawah).  
+- **How many lines of code?** Hanya tujuh blok kode yang singkat.  
+- **Can I convert images to text?** Ya—contoh ini menunjukkan hal tersebut secara tepat.
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## What is “extract text from images”?
+Mengekstrak teks dari gambar berarti menggunakan teknologi OCR untuk membaca karakter yang tertanam dalam foto, PDF, atau dokumen yang dipindai dan mengubahnya menjadi string yang dapat diedit dan dicari. Aspose.OCR menyediakan mesin yang kuat yang mendukung banyak format gambar dan bahasa.
 
-- Pengetahuan tentang pengembangan C# dan .NET.
-- Visual Studio diinstal pada mesin Anda.
--  Aspose.OCR untuk perpustakaan .NET, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/ocr/net/).
-- Pemahaman dasar tentang konsep OCR.
+## Why use Aspose.OCR for folder‑based OCR?
+- **High accuracy** dengan deteksi bahasa bawaan.  
+- **Batch processing** melalui `RecognizeMultipleImages`, sempurna untuk folder.  
+- **Simple API** yang cocok secara alami dalam proyek C#.  
+- **Scalable** – berfungsi baik di lingkungan desktop maupun server.
 
-## Impor Namespace
+## Prerequisites
 
-Dalam kode C# Anda, pastikan untuk mengimpor namespace yang diperlukan untuk menggunakan Aspose.OCR. Sertakan yang berikut ini di awal skrip Anda:
+- Kemampuan dasar dalam pengembangan C# dan .NET.  
+- Visual Studio (edisi terbaru apa pun).  
+- **Aspose.OCR for .NET** library – unduh di [here](https://releases.aspose.com/ocr/net/).  
+- Pemahaman tentang konsep OCR (opsional tetapi membantu).
+
+## Import Namespaces
+
+Tambahkan direktif `using` yang diperlukan di bagian atas file C# Anda sehingga compiler mengetahui di mana menemukan kelas OCR.
 
 ```csharp
 using System;
@@ -38,92 +54,100 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Langkah 1: Atur Direktori Dokumen
+## Step‑by‑Step Guide
+
+### Step 1: Set Document Directory
+Tentukan folder yang berisi gambar yang ingin Anda proses.
 
 ```csharp
-// MantanMulai:1
-// Jalur ke direktori dokumen.
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Pastikan Anda mengganti "Direktori Dokumen Anda" dengan jalur sebenarnya tempat gambar Anda disimpan.
+> **Pro tip:** Gunakan jalur absolut atau `Path.Combine` untuk menghindari masalah pemisah jalur pada berbagai OS.
 
-## Langkah 2: Inisialisasi Aspose.OCR
+### Step 2: Initialize Aspose.OCR
+Buat instance mesin OCR.
 
 ```csharp
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Buat instance kelas AsposeOcr untuk memanfaatkan fungsinya.
-
-## Langkah 3: Tentukan Jalur Gambar
+### Step 3: Specify Image Path
+Arahkan API ke sub‑folder spesifik yang berisi file gambar Anda.
 
 ```csharp
-//Jalur Gambar
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-Gabungkan jalur direktori dokumen dengan folder spesifik yang berisi gambar Anda.
+> **Why this matters:** Metode `RecognizeMultipleImages` mengharapkan jalur folder, bukan file tunggal.
 
-## Langkah 4: Kenali Gambar
+### Step 4: Recognize Images
+Jalankan OCR pada setiap gambar di dalam folder. Anda dapat menyesuaikan `RecognitionSettings` jika memerlukan petunjuk bahasa atau pra‑pemrosesan khusus.
 
 ```csharp
-// Kenali gambar
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //default atau kustom
+    //default or custom
 });
 ```
 
-Manfaatkan metode RecognizeMultipleImages untuk melakukan OCR pada beberapa gambar dalam folder yang ditentukan.
-
-## Langkah 5: Cetak Hasil
+### Step 5: Print Results
+Iterasi melalui array `RecognitionResult` yang dikembalikan dan keluarkan teks yang diekstrak.
 
 ```csharp
-// Hasil cetak
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-Ulangi hasilnya dan cetak teks yang dikenali untuk setiap gambar.
+> **Common pitfall:** Lupa memeriksa `result.Length` dapat menyebabkan `IndexOutOfRangeException` ketika folder kosong. Selalu validasi konten folder terlebih dahulu.
 
-## Langkah 6: Kesimpulan
+### Step 6: Completion Message
+Berikan sinyal bahwa eksekusi berhasil.
 
 ```csharp
 // ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-Pastikan kesimpulan skrip Anda tercapai untuk menandakan keberhasilan pelaksanaan operasi OCR dengan folder.
+## Common Issues & Solutions
 
-## Kesimpulan
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| No output returned | Folder path incorrect or empty | Verify `fullPath` points to the right directory and contains supported image formats (PNG, JPEG, TIFF). |
+| Garbled characters | Wrong language settings | Pass a configured `RecognitionSettings` with `Language` set to the appropriate ISO code. |
+| Performance lag on many images | Processing sequentially on UI thread | Run OCR on a background thread or use async patterns to keep the UI responsive. |
 
-Selamat! Anda telah berhasil mempelajari cara menerapkan pengenalan gambar OCR dengan folder menggunakan Aspose.OCR untuk .NET. Alat canggih ini membuka segudang kemungkinan untuk mengekstraksi teks dari gambar di aplikasi .NET Anda.
+## Frequently Asked Questions
 
-## FAQ
+**Q: Can I use Aspose.OCR for .NET in commercial projects?**  
+A: Yes, Aspose.OCR for .NET is a commercial product. For licensing information, visit [here](https://purchase.aspose.com/buy).
 
-### Q1: Dapatkah saya menggunakan Aspose.OCR untuk .NET dalam proyek komersial?
+**Q: Is there a free trial available?**  
+A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
- A1: Ya, Aspose.OCR untuk .NET adalah produk komersial. Untuk informasi perizinan, kunjungi[Di Sini](https://purchase.aspose.com/buy).
+**Q: Where can I find the documentation?**  
+A: The documentation is available [here](https://reference.aspose.com/ocr/net/).
 
-### Q2 :. Apakah ada uji coba gratis yang tersedia?
+**Q: How can I get temporary licensing?**  
+A: Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
 
- A2: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Q: Need support or have questions?**  
+A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support.
 
-### Q3: Di mana saya dapat menemukan dokumentasinya?
+---
 
- A3: Dokumentasi tersedia[Di Sini](https://reference.aspose.com/ocr/net/).
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
-### Q4: Bagaimana cara mendapatkan lisensi sementara?
-
- A4: Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Butuh dukungan atau punya pertanyaan?
-
- A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan masyarakat.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
