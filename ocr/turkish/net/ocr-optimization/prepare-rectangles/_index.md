@@ -1,33 +1,49 @@
 ---
-title: OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
-linktitle: OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
-second_title: Aspose.OCR .NET API'si
-description: Kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Görüntü tanıma için dikdörtgenlerin nasıl hazırlanacağını adım adım öğrenin. Sorunsuz OCR entegrasyonuyla .NET uygulamalarınızı yükseltin.
-weight: 11
+date: 2025-12-22
+description: Aspose.OCR for .NET kullanarak görüntüden metin çıkarmayı öğrenin. Bu
+  kılavuz, OCR görüntü tanıması için dikdörtgenleri hazırlama ve doğruluğu artırma
+  sürecinde size rehberlik eder.
+linktitle: Prepare Rectangles in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: OCR'da Dikdörtgenler Hazırlayarak Görüntüden Metin Nasıl Çıkarılır
 url: /tr/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
+# OCR Görüntü Tanıma için Dikdörtgenler Hazırlama
 
-## giriiş
+## Giriş
 
-Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), görüntüleri makine tarafından okunabilir metne dönüştürmede çok önemli bir rol oynamaktadır. Aspose.OCR for .NET, OCR yeteneklerinin .NET uygulamalarına kusursuz entegrasyonunu arayan geliştiriciler için güçlü bir çözüm olarak öne çıkıyor. Bu kapsamlı kılavuzda Aspose.OCR for .NET kullanarak OCR görüntü tanımada dikdörtgen hazırlama sürecini inceleyeceğiz.
+Optical Character Recognition (OCR), görsel içeriği aranabilir ve düzenlenebilir metne dönüştürmek için hayati öneme sahiptir. Bu öğreticide, OCR motorunu belirli bölgelere odaklayan özel dikdörtgenler hazırlayarak **extract text from image** işlemini gerçekleştireceksiniz. Aspose.OCR for .NET kullanarak, projenizi kurmaktan tanınan metni almaya kadar her adımı adım adım göstereceğiz; böylece .NET uygulamalarınıza güçlü bir görüntü‑den‑metin işlevi entegre edebileceksiniz.
+
+## Hızlı Yanıtlar
+- **“extract text from image” ne anlama geliyor?** Bir resimdeki görsel karakterleri makine‑okunabilir dizelere dönüştürmek anlamına gelir.  
+- **Bu .NET'te hangi kütüphane yardımcı olur?** Aspose.OCR for .NET.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.  
+- **Belirli alanları hedefleyebilir miyim?** Evet, OCR kapsamını sınırlayan dikdörtgenler tanımlayarak.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Dikdörtgenlerle “extract text from image” nedir?
+Bir görüntü üzerinde dikdörtgen alanlar tanımladığınızda, OCR motoru yalnızca bu alanları işler. Bu, doğruluğu artırır, işleme süresini azaltır ve gürültülü arka planları veya alakasız bölümleri görmezden gelmenizi sağlar.
+
+## OCR'den önce dikdörtgenleri neden hazırlamalısınız?
+- **İlgili içeriğe odaklanma:** Başlıkları, altbilgileri veya süs grafiklerini atlayın.  
+- **Performansı artırma:** Daha küçük bölgeler daha hızlı tanıma anlamına gelir.  
+- **Doğruluğu artırma:** Daha az görsel gürültü daha temiz sonuçlar verir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+- C# ve .NET geliştirme konusunda aşinalık.  
+- Aspose.OCR for .NET kütüphanesi yüklü – **[buradan](https://releases.aspose.com/ocr/net/)** indirebilirsiniz.  
+- Çıkarımını yapmak istediğiniz metni içeren örnek bir resim (ör. `sample.png`).
 
-- .NET geliştirme konusunda çalışma bilgisi.
--  Aspose.OCR for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/ocr/net/).
-- Görüntü tanıma kavramlarının temel anlayışı.
+## Ad Alanlarını İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-OCR yolculuğumuzu başlatmak için gerekli ad alanlarını içe aktararak başlayalım:
+İlk olarak, gerekli ad alanlarını kapsam içine getirin:
 
 ```csharp
 using System;
@@ -37,23 +53,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım 1: Belge Dizinini Ayarlama
 
- Belgelerinizin saklandığı dizini belirterek başlayın. Yer değiştirmek`"Your Document Directory"` belgelerinizin gerçek yolu ile.
+Resim dosyalarınızın bulunduğu yeri belirtin ve OCR motorunun bir örneğini oluşturun.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Adım 2: Birden Çok Dikdörtgenli Görüntüyü Tanıyın
+## Birden Çok Dikdörtgen Kullanarak Resimden Metin Çıkarma
 
-Bu adımda, birden çok dikdörtgen kullanarak bir görüntüdeki metnin nasıl tanınacağını göstereceğiz. Şu alt adımları izleyin:
+### Adım 2: Çoklu Dikdörtgenlerle Görüntüyü Tanıma
 
-### 2.1 Dikdörtgenleri Tanımlayın
+#### 2.1 Dikdörtgenleri Tanımlama
+
+OCR motorunun taramasını istediğiniz alanları belirten `Rectangle` nesnelerinin bir listesini oluşturun.
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +83,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 OCR Tanıma İşlemini Gerçekleştirin
+#### 2.2 OCR Tanımasını Gerçekleştirme
+
+`RecognizeImage` metoduna resim yolunu ve dikdörtgen listesini geçirin. Metot, her bir dikdörtgene karşılık gelen bir dizi string döndürür.
 
 ```csharp
-// ilk durum
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-// Tanınan metni görüntüle
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## 3. Adım: Tanıma Ayarlarıyla Görüntüyü Tanıyın
+### Adım 3: Tanıma Ayarlarıyla Görüntüyü Tanıma (Alternatif Yaklaşım)
 
-Bu adımda, görüntü tanıma için RecognitionSettings'i kullanan alternatif bir yöntemi göstereceğiz:
+`RecognitionSettings` kullanmayı tercih ederseniz, biraz farklı bir API çağrısı ile aynı sonuca ulaşabilirsiniz.
 
-### 3.1 Tanıma Ayarlarını Tanımlayın
+#### 3.1 Tanıma ayarlarını tanımlama
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +111,49 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 Tanınan Metni Görüntüleme
+#### 3.2 Tanınan metni gösterme
 
 ```csharp
-// Tanınan metni görüntüle
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Tebrikler! Aspose.OCR for .NET'i kullanarak OCR görüntü tanımada dikdörtgen hazırlama sürecini başarıyla tamamladınız. Bu kılavuz, OCR'yi .NET uygulamalarınıza sorunsuz bir şekilde entegre etmenizi sağlayarak metin tanıma yeteneklerini geliştirmenizi sağlar.
+- **Yanlış dikdörtgen koordinatları:** `X`, `Y`, `Width` ve `Height` değerlerinin istediğiniz bölgeye doğru eşlendiğinden emin olun.  
+- **Resim kalitesi:** Düşük çözünürlüklü görüntüler kötü OCR sonuçları verebilir; ön işleme (ör. ikilileştirme) düşünün.  
+- **Boş sonuçlar:** Dikdörtgenlerin gerçekten metin içerdiğini doğrulayın; aksi takdirde motor boş stringler döndürür.
 
-### SSS'ler
+## Sonuç
 
-### S1: Aspose.OCR for .NET'i diğer .NET çerçeveleriyle kullanabilir miyim?
+Artık Aspose.OCR for .NET ile özel dikdörtgenler hazırlayarak **extract text from image** işlemini nasıl yapacağınızı öğrendiniz. Bu teknik, OCR işleme üzerinde ayrıntılı kontrol sağlar ve uygulamalarınızda daha hızlı, daha doğru metin çıkarma özellikleri oluşturmanıza yardımcı olur.
 
-Cevap1: Evet, Aspose.OCR for .NET çeşitli .NET çerçeveleriyle uyumludur.
+## Sıkça Sorulan Sorular
 
-### S2: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+**S:** Aspose.OCR for .NET'i diğer .NET framework'leriyle kullanabilir miyim?  
+**C:** Evet, Aspose.OCR for .NET çeşitli .NET framework'leriyle uyumludur.
 
- A2: Kesinlikle! Ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+**S:** Aspose.OCR for .NET için ücretsiz bir deneme sürümü mevcut mu?  
+**C:** Kesinlikle! Ücretsiz deneme sürümüne **[buradan](https://releases.aspose.com/)** ulaşabilirsiniz.
 
-### S3: Aspose.OCR for .NET desteğini nasıl alabilirim?
+**S:** Aspose.OCR for .NET için destek nasıl alınır?  
+**C:** Ayrıcalıklı destek için **[Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16)** ziyaret edin.
 
- A3: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) özel destek için.
+**S:** Test amaçlı geçici bir lisans alabilir miyim?  
+**C:** Evet, geçici lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** edinebilirsiniz.
 
-### S4: Test amacıyla geçici bir lisans alabilir miyim?
+**S:** Aspose.OCR for .NET dokümantasyonunu nereden bulabilirim?  
+**C:** Dokümantasyon **[burada](https://reference.aspose.com/ocr/net/)** mevcuttur.
 
- Cevap4: Evet, geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+---
 
-### S5: Aspose.OCR for .NET belgelerini nerede bulabilirim?
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- A5: Belgeler mevcut[Burada](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

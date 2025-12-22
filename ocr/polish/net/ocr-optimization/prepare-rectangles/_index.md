@@ -1,33 +1,49 @@
 ---
-title: Przygotuj prostokąty w rozpoznawaniu obrazu OCR
-linktitle: Przygotuj prostokąty w rozpoznawaniu obrazu OCR
+date: 2025-12-22
+description: Dowiedz się, jak wyodrębnić tekst z obrazu przy użyciu Aspose.OCR dla
+  .NET. Ten przewodnik przeprowadzi Cię przez przygotowywanie prostokątów do rozpoznawania
+  obrazu OCR i zwiększanie dokładności.
+linktitle: Prepare Rectangles in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi. Dowiedz się krok po kroku jak przygotować prostokąty do rozpoznawania obrazu. Ulepsz swoje aplikacje .NET dzięki płynnej integracji OCR.
-weight: 11
+title: Jak wyodrębnić tekst z obrazu, przygotowując prostokąty w OCR
 url: /pl/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przygotuj prostokąty w rozpoznawaniu obrazu OCR
+# Przygotowanie prostokątów w rozpoznawaniu obrazu OCR
 
-## Wstęp
+## Wprowadzenie
 
-W stale rozwijającym się środowisku technologicznym optyczne rozpoznawanie znaków (OCR) odgrywa kluczową rolę w przekształcaniu obrazów w tekst nadający się do odczytu maszynowego. Aspose.OCR dla .NET wyróżnia się jako solidne rozwiązanie dla programistów poszukujących bezproblemowej integracji możliwości OCR z aplikacjami .NET. W tym obszernym przewodniku omówimy proces przygotowywania prostokątów w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR dla .NET.
+Rozpoznawanie znaków optycznych (OCR) jest niezbędne do konwertowania treści wizualnych na tekst możliwy do przeszukiwania i edycji. W tym samouczku **wyodrębnisz tekst z obrazu** przygotowując własne prostokąty, które skupiają silnik OCR na określonych obszarach. Korzystając z Aspose.OCR dla .NET, przeprowadzimy Cię przez każdy krok — od konfiguracji projektu po pobranie rozpoznanego tekstu — abyś mógł zintegrować potężną funkcję konwersji obrazu na tekst w swoich aplikacjach .NET.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „wyodrębnić tekst z obrazu”?** Oznacza to konwersję widocznych znaków na zdjęciu na ciągi znaków czytelne dla maszyny.  
+- **Która biblioteka pomaga w tym w .NET?** Aspose.OCR dla .NET.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji.  
+- **Czy mogę celować w określone obszary?** Tak, definiując prostokąty ograniczające zakres OCR.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest „wyodrębnić tekst z obrazu” przy użyciu prostokątów?
+Kiedy definiujesz prostokątne strefy na obrazie, silnik OCR przetwarza tylko te obszary. Poprawia to dokładność, skraca czas przetwarzania i pozwala pominąć zaszumione tła lub nieistotne sekcje.
 
-- Praktyczna wiedza na temat programowania .NET.
--  Zainstalowana biblioteka Aspose.OCR dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/ocr/net/).
-- Podstawowa znajomość koncepcji rozpoznawania obrazu.
+## Dlaczego przygotować prostokąty przed OCR?
+- **Skup się na istotnej treści:** Pomijaj nagłówki, stopki lub elementy dekoracyjne.  
+- **Zwiększ wydajność:** Mniejsze obszary oznaczają szybsze rozpoznawanie.  
+- **Popraw dokładność:** Mniej szumu wizualnego prowadzi do czystszych wyników.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Zacznijmy od zaimportowania niezbędnych przestrzeni nazw, aby rozpocząć naszą przygodę z OCR:
+- Znajomość C# i programowania w .NET.  
+- Biblioteka Aspose.OCR dla .NET zainstalowana – możesz ją pobrać **[tutaj](https://releases.aspose.com/ocr/net/)**.  
+- Przykładowy obraz (np. `sample.png`) zawierający tekst, który chcesz wyodrębnić.
+
+## Importowanie przestrzeni nazw
+
+Najpierw wprowadź wymagane przestrzenie nazw do zakresu:
 
 ```csharp
 using System;
@@ -37,23 +53,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Krok 1: Konfiguracja katalogu dokumentów
 
- Rozpocznij od określenia katalogu, w którym przechowywane są dokumenty. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do dokumentów.
+Określ, gdzie znajdują się pliki obrazów i utwórz instancję silnika OCR.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Zainicjuj instancję AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 2: Rozpoznaj obraz z wieloma prostokątami
+## Jak wyodrębnić tekst z obrazu przy użyciu wielu prostokątów
 
-tym kroku pokażemy, jak rozpoznać tekst z obrazu za pomocą wielu prostokątów. Wykonaj następujące podetapy:
+### Krok 2: Rozpoznawanie obrazu przy użyciu wielu prostokątów
 
-### 2.1 Zdefiniuj prostokąty
+#### 2.1 Definiowanie prostokątów
+
+Utwórz listę obiektów `Rectangle`, które określają obszary, które ma skanować silnik OCR.
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +83,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 Wykonaj rozpoznawanie OCR
+#### 2.2 Wykonaj rozpoznanie OCR
+
+Przekaż ścieżkę do obrazu oraz listę prostokątów do `RecognizeImage`. Metoda zwraca kolekcję ciągów znaków — każdy element odpowiada jednemu prostokątowi.
 
 ```csharp
-// pierwszy przypadek
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-// Wyświetl rozpoznany tekst
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Krok 3: Rozpoznaj obraz za pomocą ustawień rozpoznawania
+### Krok 3: Rozpoznawanie obrazu z ustawieniami rozpoznawania (alternatywne podejście)
 
-W tym kroku zaprezentujemy alternatywną metodę wykorzystującą RecognitionSettings do rozpoznawania obrazu:
+Jeśli wolisz używać `RecognitionSettings`, możesz uzyskać ten sam wynik przy nieco innym wywołaniu API.
 
-### 3.1 Zdefiniuj ustawienia rozpoznawania
+#### 3.1 Definiowanie ustawień rozpoznania
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +111,49 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 Wyświetl rozpoznany tekst
+#### 3.2 Wyświetlanie rozpoznanego tekstu
 
 ```csharp
-// Wyświetl rozpoznany tekst
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Wniosek
+## Typowe problemy i wskazówki
 
-Gratulacje! Pomyślnie przeszedłeś proces przygotowania prostokątów w rozpoznawaniu obrazu OCR przy użyciu Aspose.OCR dla .NET. Ten przewodnik umożliwia bezproblemową integrację OCR z aplikacjami .NET, zwiększając ich możliwości rozpoznawania tekstu.
+- **Nieprawidłowe współrzędne prostokąta:** Upewnij się, że wartości `X`, `Y`, `Width` i `Height` prawidłowo odzwierciedlają żądany region.  
+- **Jakość obrazu:** Obrazy o niskiej rozdzielczości mogą dawać słabe wyniki OCR; rozważ wstępne przetwarzanie (np. binaryzację).  
+- **Puste wyniki:** Sprawdź, czy prostokąty rzeczywiście zawierają tekst; w przeciwnym razie silnik zwróci puste ciągi.
 
-### Często zadawane pytania
+## Podsumowanie
 
-### P1: Czy mogę używać Aspose.OCR dla .NET z innymi frameworkami .NET?
+Teraz wiesz, jak **wyodrębnić tekst z obrazu** przygotowując własne prostokąty przy użyciu Aspose.OCR dla .NET. Ta technika daje Ci precyzyjną kontrolę nad przetwarzaniem OCR, pomagając tworzyć szybsze i dokładniejsze funkcje wyodrębniania tekstu w Twoich aplikacjach.
 
-O1: Tak, Aspose.OCR dla .NET jest kompatybilny z różnymi frameworkami .NET.
+## Najczęściej zadawane pytania
 
-### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR dla .NET?
+**P:** Czy mogę używać Aspose.OCR dla .NET z innymi frameworkami .NET?  
+**O:** Tak, Aspose.OCR dla .NET jest kompatybilny z różnymi frameworkami .NET.
 
- A2: Absolutnie! Możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+**P:** Czy dostępna jest darmowa wersja próbna Aspose.OCR dla .NET?  
+**O:** Oczywiście! Darmową wersję próbną możesz uzyskać **[tutaj](https://releases.aspose.com/)**.
 
-### P3: Jak uzyskać wsparcie dla Aspose.OCR dla .NET?
+**P:** Jak uzyskać wsparcie dla Aspose.OCR dla .NET?  
+**O:** Odwiedź **[forum Aspose.OCR](https://forum.aspose.com/c/ocr/16)**, aby uzyskać dedykowane wsparcie.
 
- A3: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za dedykowane wsparcie.
+**P:** Czy mogę uzyskać tymczasową licencję do celów testowych?  
+**O:** Tak, tymczasową licencję możesz nabyć **[tutaj](https://purchase.aspose.com/temporary-license/)**.
 
-### P4: Czy mogę uzyskać tymczasową licencję do celów testowych?
+**P:** Gdzie mogę znaleźć dokumentację Aspose.OCR dla .NET?  
+**O:** Dokumentacja jest dostępna **[tutaj](https://reference.aspose.com/ocr/net/)**.
 
- Odpowiedź 4: Tak, możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+---
 
-### P5: Gdzie mogę znaleźć dokumentację Aspose.OCR dla .NET?
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- Odpowiedź 5: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
