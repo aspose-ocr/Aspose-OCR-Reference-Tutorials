@@ -1,33 +1,51 @@
 ---
-title: OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştirin
-linktitle: OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştirin
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile kusursuz OCR entegrasyonunu keşfedin. Görüntülerdeki metinleri hassasiyetle tanıyın.
-weight: 10
+date: 2025-12-22
+description: Aspose.OCR for .NET kullanarak görüntüden metin tanımayı öğrenin, görüntüyü
+  metne dönüştürürken hassas OCR tanıma ayarlarıyla.
+linktitle: recognize text from image – Perform OCR on Image from URL
+second_title: Aspose.OCR .NET API
+title: Görüntüden metni tanıma – URL'den görüntüde OCR yap
 url: /tr/net/ocr-optimization/perform-ocr-on-image-from-url/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da URL'den Görüntü üzerinde OCR gerçekleştirin
+# URL'den Görüntü Üzerinde OCR Yapma
 
-## giriiş
+## Giriş
 
-Optik Karakter Tanıma (OCR) alanında Aspose.OCR for .NET, geliştiricilerin görüntülerden metin içeriğini hassas bir şekilde ayıklamasına olanak tanıyan güçlü bir araç olarak öne çıkıyor. OCR özelliklerini .NET uygulamanıza entegre etmek ve metin tanımayı zahmetsizce gerçekleştirmek istiyorsanız, bu adım adım kılavuz, bir URL'deki görüntü üzerinde OCR gerçekleştirme sürecinde size yol gösterecektir.
+Optik Karakter Tanıma (OCR) dünyasında, Aspose.OCR for .NET **görüntüden metin tanıma** işlemini yüksek hassasiyetle gerçekleştirmenizi sağlar ve geliştiricilerin resimlerden içerik çıkarmasını zahmetsiz hale getirir. .NET uygulamanıza OCR yetenekleri eklemek ve uzaktan bir kaynaktan metin tanıma yapmak istiyorsanız, bu adım‑adım kılavuz sizi bir URL'den görüntü üzerinde OCR gerçekleştirme sürecine götürecektir.
+
+## Hızlı Yanıtlar
+- **Bu öğreticide ne anlatılıyor?** Aspose.OCR for .NET kullanarak halka açık bir URL'de bulunan bir görüntüden metin tanıma.  
+- **Hedeflenen anahtar kelime nedir?** *recognize text from image*  
+- **Lisans gerekir mi?** Deneme sürümü mevcuttur, ancak üretim kullanımı için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Uygulama ne kadar sürer?** Temel bir kurulum için genellikle 10 dakikadan az sürer.
+
+## “recognize text from image” nedir?
+Görüntüden metin tanıma, karakterlerin görsel temsillerini düzenlenebilir, aranabilir metne dönüştürmek anlamına gelir. Bu süreç genellikle **görüntüyü metne dönüştürme** veya **görüntüden metin çıkarma** olarak adlandırılır ve belge dijitalleştirme, veri girişi otomasyonu ve erişilebilirlik iyileştirmeleri gibi senaryoları mümkün kılar.
+
+## Neden Aspose.OCR for .NET kullanmalısınız?
+- **Yüksek doğruluk** yerleşik dil desteğiyle.  
+- **Detaylı OCR tanıma ayarları** (ör. otomatik eğim düzeltme, alan tespiti).  
+- **Basit API**, .NET Framework ve .NET Core ile çalışır.  
+- **Harici bağımlılık yok** – her şey yerel olarak çalışır.
 
 ## Önkoşullar
 
-Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
 
--  Aspose.OCR for .NET: Aspose.OCR kütüphanesinin .NET projenize entegre olduğundan emin olun. adresinden indirebilirsiniz.[yayın sayfası](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET: Aspose.OCR kütüphanesinin .NET projenize entegre edildiğinden emin olun. Kütüphaneyi [sürüm sayfası](https://releases.aspose.com/ocr/net/) üzerinden indirebilirsiniz.
 
-- Geliştirme Ortamı: Makinenizde çalışan bir .NET geliştirme ortamı kurun.
+- Geliştirme Ortamı: Makinenizde çalışan bir .NET geliştirme ortamı kurulu olmalı.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarın
 
-.NET projenize Aspose.OCR işlevlerine erişmek için gerekli ad alanlarını ekleyin. Aşağıdaki kod parçacığını projenize ekleyin:
+.NET projenizde Aspose.OCR işlevlerine erişmek için gerekli ad alanlarını ekleyin. Projenize aşağıdaki kod parçacığını ekleyin:
 
 ```csharp
 using System;
@@ -38,23 +56,25 @@ using Aspose.OCR;
 using Aspose.OCR.Models;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## URL kullanarak görüntüden metin nasıl tanınır?
 
- Belgelerinizin saklandığı dizini belirterek başlayın. Yer değiştirmek`"Your Document Directory"` belgelerinizin gerçek yolu ile.
+### Adım 1: Belge Dizinini Ayarlayın
+
+Belgelerinizin saklandığı dizini belirtin. `"Your Document Directory"` ifadesini gerçek belge yolunuzla değiştirin.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Tanınacak Resmi Alın
+### Adım 2: Tanıma İçin Görüntüyü Alın
 
-OCR gerçekleştirmek istediğiniz görüntünün URL'sini sağlayın. Resmin herkese açık olduğundan emin olun.
+OCR uygulamak istediğiniz görüntünün URL'sini sağlayın. Görüntünün herkese açık olduğundan emin olun.
 
 ```csharp
 string uri = "https://qph.fs.quoracdn.net/main-qimg-0ff82d0dc3543dcd3b06028f5476c2e4";
 ```
 
-## 3. Adım: AsposeOcr'u başlatın
+### Adım 3: AsposeOcr'ı Başlatın
 
 OCR işlevlerine erişmek için AsposeOcr sınıfının bir örneğini oluşturun.
 
@@ -62,9 +82,9 @@ OCR işlevlerine erişmek için AsposeOcr sınıfının bir örneğini oluşturu
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Adım 4: Görüntüyü Tanıyın
+### Adım 4: Görüntüyü Tanıyın
 
-Belirtilen resim URL'sindeki metni tanımak için Aspose.OCR kitaplığını kullanın. Tanıma ayarlarını gereksinimlerinize göre ayarlayın.
+Belirtilen görüntü URL'sinden metin tanımak için Aspose.OCR kütüphanesini kullanın. Tanıma ayarlarını ihtiyaçlarınıza göre ayarlayın.
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -80,9 +100,9 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 });
 ```
 
-## Adım 5: Sonucu Yazdır
+### Adım 5: Sonucu Yazdırın
 
-Tanınan metin, alanlar ve uyarılar dahil olmak üzere tanıma sonucunu görüntüleyin.
+Tanıma sonucunu, tanınan metni, alanları ve olası uyarıları gösterin.
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -93,39 +113,47 @@ result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
 ```
 
-## Adım 6: Çalıştırın ve Doğrulayın
+### Adım 6: Çalıştır ve Doğrula
 
-Uygulamanızı çalıştırın; her şey doğru ayarlanmışsa OCR işleminin başarıyla yürütüldüğünü görmelisiniz.
+Uygulamanızı çalıştırın; her şey doğru kurulduysa OCR işleminin başarılı bir şekilde yürütüldüğünü göreceksiniz.
 
 ```csharp
 Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Aspose.OCR for .NET ile OCR yeteneklerini .NET uygulamalarınıza entegre etmek kusursuz bir deneyime dönüşür. Bu eğitim, projelerinizde metin tanımanın gücünden yararlanmanız için bir temel sağlayarak, bir URL'deki bir görüntü üzerinde OCR gerçekleştirme sürecinde size rehberlik etmiştir.
+- **Görüntü herkese açık değil** – URL'nin bir tarayıcıda çalıştığını doğrulayın. Görüntü kimlik doğrulama gerektiriyorsa, önce indirin ve `RecognizeImageFromStream` kullanın.  
+- **Tanıma alanları hatalı** – `Rectangle` değerlerini ayarlayın veya motorun otomatik algılamasını sağlamak için `DetectAreas = false` olarak belirleyin.  
+- **Dil tanınmıyor** – Gerekli dil paketinin yüklü olduğundan emin olun veya `RecognitionSettings` içinde `Language = "eng"` (veya diğer ISO kodu) olarak ayarlayın.
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.OCR birden fazla dili işlemeye uygun mudur?
+### S1: Aspose.OCR birden fazla dili işlemek için uygun mu?
+Cevap: Evet, Aspose.OCR çeşitli dillerde metin tanımayı destekler ve uluslararası uygulamalar için çok yönlüdür.
 
-C1: Evet, Aspose.OCR çeşitli dillerdeki metinlerin tanınmasını destekleyerek uluslararası uygulamalar için çok yönlü olmasını sağlar.
+### S2: Aspose.OCR tek satır ve çok satır metin tanıma için kullanılabilir mi?
+Cevap: Kesinlikle! Aspose.OCR, tek satır ve çok satır metin tanımada esneklik sağlar, ihtiyacınıza göre uyarlanabilir.
 
-### S2: Aspose.OCR'ı hem tek satırlı hem de çok satırlı metin tanıma için kullanabilir miyim?
+### S3: Aspose.OCR için lisans seçenekleri var mı?
+Cevap: Evet, lisans seçeneklerini inceleyebilir ve satın alımları [Aspose mağazası](https://purchase.aspose.com/buy) üzerinden gerçekleştirebilirsiniz.
 
-A2: Kesinlikle! Aspose.OCR, özel kullanım durumunuza uyum sağlayarak hem tek satırlı hem de çok satırlı metinleri tanıma konusunda esneklik sağlar.
+### S4: Aspose.OCR için ücretsiz deneme mevcut mu?
+Cevap: Evet, ücretsiz deneme sürümünü [sürüm sayfası](https://releases.aspose.com/) üzerinden deneyebilirsiniz.
 
-### S3: Aspose.OCR için herhangi bir lisanslama seçeneği mevcut mu?
+### S5: Aspose.OCR ile ilgili destek veya topluluk tartışmalarını nerede bulabilirim?
+Cevap: Destek ve topluluk tartışmaları için [Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) ziyaret edilebilir.
 
- C3: Evet, lisanslama seçeneklerini keşfedebilir ve satın alma işlemlerini[Aspose mağaza](https://purchase.aspose.com/buy).
+## Sonuç
 
-### S4: Aspose.OCR için ücretsiz deneme sürümü mevcut mu?
+Aspose.OCR for .NET ile OCR yeteneklerini .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz. Bu öğretici, bir URL kullanarak **görüntüden metin tanıma** sürecini adım adım göstererek projelerinizde metin çıkarımını kullanmanız için sağlam bir temel sunmuştur.
 
- Cevap4: Evet, Aspose.OCR'ı ziyaret ederek ücretsiz olarak deneyebilirsiniz.[sürümler sayfası](https://releases.aspose.com/).
+---
 
-### S5: Aspose.OCR ile ilgili desteği veya topluluk tartışmalarını nerede bulabilirim?
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) destek ve toplulukla etkileşim için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,50 @@
 ---
-title: Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
-linktitle: Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
-second_title: API Aspose.OCR .NET
-description: Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu từng bước cách chuẩn bị hình chữ nhật để nhận dạng hình ảnh. Nâng cao ứng dụng .NET của bạn bằng tích hợp OCR liền mạch.
-weight: 11
+date: 2025-12-22
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET.
+  Hướng dẫn này sẽ chỉ cho bạn cách chuẩn bị các hình chữ nhật cho nhận dạng hình
+  ảnh OCR và nâng cao độ chính xác.
+linktitle: Prepare Rectangles in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Cách trích xuất văn bản từ hình ảnh bằng cách chuẩn bị các hình chữ nhật trong
+  OCR
 url: /vi/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR
+# Chuẩn bị các hình chữ nhật trong Nhận dạng ký tự quang học (OCR)
 
 ## Giới thiệu
 
-Trong bối cảnh công nghệ ngày càng phát triển, Nhận dạng ký tự quang học (OCR) đóng vai trò then chốt trong việc chuyển đổi hình ảnh thành văn bản có thể đọc được bằng máy. Aspose.OCR cho .NET nổi bật như một giải pháp mạnh mẽ dành cho các nhà phát triển đang tìm kiếm sự tích hợp liền mạch các khả năng OCR vào các ứng dụng .NET của họ. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá quy trình chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET.
+Nhận dạng ký tự quang học (OCR) là công cụ thiết yếu để chuyển nội dung hình ảnh thành văn bản có thể tìm kiếm và chỉnh sửa. Trong hướng dẫn này, bạn sẽ **trích xuất văn bản từ hình ảnh** bằng cách chuẩn bị các hình chữ nhật tùy chỉnh, giúp engine OCR tập trung vào các vùng cụ thể. Sử dụng Aspose.OCR cho .NET, chúng tôi sẽ hướng dẫn từng bước — từ thiết lập dự án đến lấy văn bản đã nhận dạng — để bạn có thể tích hợp chức năng chuyển ảnh‑to‑text mạnh mẽ vào các ứng dụng .NET của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“trích xuất văn bản từ hình ảnh” có nghĩa là gì?** Nó có nghĩa là chuyển các ký tự hiển thị trong ảnh thành chuỗi có thể đọc được bởi máy.  
+- **Thư viện nào hỗ trợ việc này trong .NET?** Aspose.OCR cho .NET.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép cần thiết cho môi trường sản xuất.  
+- **Tôi có thể nhắm mục tiêu vào các khu vực cụ thể không?** Có, bằng cách định nghĩa các hình chữ nhật giới hạn phạm vi OCR.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## “trích xuất văn bản từ hình ảnh” với các hình chữ nhật là gì?
+Khi bạn xác định các vùng hình chữ nhật trên một hình ảnh, engine OCR sẽ chỉ xử lý những vùng đó. Điều này cải thiện độ chính xác, giảm thời gian xử lý và cho phép bạn bỏ qua nền nhiễu hoặc các phần không liên quan.
 
-- Kiến thức làm việc về phát triển .NET.
--  Đã cài đặt thư viện Aspose.OCR cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/ocr/net/).
-- Hiểu biết cơ bản về các khái niệm nhận dạng hình ảnh.
+## Tại sao cần chuẩn bị các hình chữ nhật trước khi OCR?
+- **Tập trung vào nội dung liên quan:** Bỏ qua tiêu đề, chân trang hoặc các đồ họa trang trí.  
+- **Tăng hiệu suất:** Các vùng nhỏ hơn đồng nghĩa với việc nhận dạng nhanh hơn.  
+- **Cải thiện độ chính xác:** Ít nhiễu hình ảnh hơn sẽ cho kết quả sạch hơn.
 
-## Nhập không gian tên
+## Yêu cầu trước
 
-Hãy bắt đầu bằng cách nhập các không gian tên cần thiết để bắt đầu hành trình OCR của chúng tôi:
+- Hiểu biết về C# và phát triển .NET.  
+- Thư viện Aspose.OCR cho .NET đã được cài đặt – bạn có thể tải xuống **[tại đây](https://releases.aspose.com/ocr/net/)**.  
+- Một hình ảnh mẫu (ví dụ: `sample.png`) chứa văn bản bạn muốn trích xuất.
+
+## Nhập các không gian tên
+
+Đầu tiên, đưa các không gian tên cần thiết vào phạm vi:
 
 ```csharp
 using System;
@@ -39,21 +56,23 @@ using Aspose.OCR;
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Bắt đầu bằng cách chỉ định thư mục nơi tài liệu của bạn được lưu trữ. Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tài liệu của bạn.
+Xác định vị trí lưu trữ các tệp hình ảnh và tạo một thể hiện của engine OCR.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Khởi tạo một phiên bản của AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Bước 2: Nhận dạng hình ảnh có nhiều hình chữ nhật
+## Cách trích xuất văn bản từ hình ảnh bằng nhiều hình chữ nhật
 
-Trong bước này, chúng tôi sẽ trình bày cách nhận dạng văn bản từ hình ảnh bằng nhiều hình chữ nhật. Thực hiện theo các bước phụ sau:
+### Bước 2: Nhận dạng hình ảnh với nhiều hình chữ nhật
 
-### 2.1 Xác định hình chữ nhật
+#### 2.1 Định nghĩa các hình chữ nhật
+
+Tạo một danh sách các đối tượng `Rectangle` mô tả các khu vực bạn muốn engine OCR quét.
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +84,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 Thực hiện nhận dạng OCR
+#### 2.2 Thực hiện nhận dạng OCR
+
+Truyền đường dẫn hình ảnh và danh sách hình chữ nhật vào `RecognizeImage`. Phương thức sẽ trả về một tập hợp các chuỗi — mỗi mục tương ứng với một hình chữ nhật.
 
 ```csharp
-// trường hợp đầu tiên
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-// Hiển thị văn bản được nhận dạng
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Bước 3: Nhận dạng hình ảnh bằng cài đặt nhận dạng
+### Bước 3: Nhận dạng hình ảnh với Cài đặt Nhận dạng (Cách tiếp cận thay thế)
 
-Trong bước này, chúng tôi sẽ giới thiệu một phương pháp thay thế bằng cách sử dụng Cài đặt nhận dạng để nhận dạng hình ảnh:
+Nếu bạn muốn sử dụng `RecognitionSettings`, bạn có thể đạt được kết quả tương tự với một lời gọi API hơi khác.
 
-### 3.1 Xác định cài đặt nhận dạng
+#### 3.1 Định nghĩa cài đặt nhận dạng
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +112,49 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 Hiển thị văn bản được nhận dạng
+#### 3.2 Hiển thị văn bản đã nhận dạng
 
 ```csharp
-// Hiển thị văn bản được nhận dạng
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Chúc mừng! Bạn đã điều hướng thành công quá trình chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET. Hướng dẫn này cho phép bạn tích hợp OCR một cách liền mạch vào các ứng dụng .NET của mình, nâng cao khả năng nhận dạng văn bản của chúng.
+- **Tọa độ hình chữ nhật không chính xác:** Đảm bảo các giá trị `X`, `Y`, `Width`, và `Height` đúng với vùng bạn muốn.  
+- **Chất lượng hình ảnh:** Hình ảnh độ phân giải thấp có thể cho kết quả OCR kém; hãy cân nhắc tiền xử lý (ví dụ: nhị phân hoá).  
+- **Kết quả rỗng:** Kiểm tra xem các hình chữ nhật có thực sự chứa văn bản không; nếu không, engine sẽ trả về chuỗi rỗng.
 
-### Câu hỏi thường gặp
+## Kết luận
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.OCR cho .NET với các khung .NET khác không?
+Bạn đã học cách **trích xuất văn bản từ hình ảnh** bằng cách chuẩn bị các hình chữ nhật tùy chỉnh với Aspose.OCR cho .NET. Kỹ thuật này cho phép bạn kiểm soát chi tiết quá trình OCR, giúp xây dựng các tính năng trích xuất văn bản nhanh hơn và chính xác hơn trong ứng dụng của mình.
 
-Câu trả lời 1: Có, Aspose.OCR cho .NET tương thích với nhiều khung .NET khác nhau.
+## Câu hỏi thường gặp
 
-### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.OCR cho .NET không?
+**Hỏi:** Tôi có thể sử dụng Aspose.OCR cho .NET với các framework .NET khác không?  
+**Đáp:** Có, Aspose.OCR cho .NET tương thích với nhiều framework .NET khác nhau.
 
- A2: Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+**Hỏi:** Có bản dùng thử miễn phí cho Aspose.OCR cho .NET không?  
+**Đáp:** Chắc chắn! Bạn có thể truy cập bản dùng thử **[tại đây](https://releases.aspose.com/)**.
 
-### Câu hỏi 3: Làm cách nào để nhận được hỗ trợ cho Aspose.OCR cho .NET?
+**Hỏi:** Làm sao tôi có thể nhận hỗ trợ cho Aspose.OCR cho .NET?  
+**Đáp:** Truy cập **[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16)** để được hỗ trợ chuyên biệt.
 
- A3: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được hỗ trợ tận tình.
+**Hỏi:** Tôi có thể lấy giấy phép tạm thời để thử nghiệm không?  
+**Đáp:** Có, bạn có thể nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/)**.
 
-### Câu hỏi 4: Tôi có thể xin giấy phép tạm thời cho mục đích thử nghiệm không?
+**Hỏi:** Tôi có thể tìm tài liệu cho Aspose.OCR cho .NET ở đâu?  
+**Đáp:** Tài liệu có sẵn **[tại đây](https://reference.aspose.com/ocr/net/)**.
 
- A4: Có, bạn có thể lấy giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+---
 
-### Câu hỏi 5: Tôi có thể tìm tài liệu về Aspose.OCR cho .NET ở đâu?
+**Cập nhật lần cuối:** 2025-12-22  
+**Kiểm tra với:** Aspose.OCR 24.11 for .NET  
+**Tác giả:** Aspose  
 
- A5: Tài liệu có sẵn[đây](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

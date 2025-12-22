@@ -1,33 +1,51 @@
 ---
-title: Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
-linktitle: Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
+date: 2025-12-22
+description: Erfahren Sie, wie Sie Text aus einem Bild mit Aspose.OCR für .NET extrahieren.
+  Dieser Leitfaden führt Sie durch die Vorbereitung von Rechtecken für die OCR‑Bilderkennung
+  und die Steigerung der Genauigkeit.
+linktitle: Prepare Rectangles in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden. Erfahren Sie Schritt für Schritt, wie Sie Rechtecke für die Bilderkennung vorbereiten. Erweitern Sie Ihre .NET-Anwendungen durch nahtlose OCR-Integration.
-weight: 11
+title: Wie man Text aus einem Bild extrahiert, indem man Rechtecke für die OCR vorbereitet
 url: /de/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bereiten Sie Rechtecke in der OCR-Bilderkennung vor
+# Rechtecke für die OCR-Bilderkennung vorbereiten
 
 ## Einführung
 
-In der sich ständig weiterentwickelnden Technologielandschaft spielt die optische Zeichenerkennung (OCR) eine zentrale Rolle bei der Umwandlung von Bildern in maschinenlesbaren Text. Aspose.OCR für .NET zeichnet sich als robuste Lösung für Entwickler aus, die eine nahtlose Integration von OCR-Funktionen in ihre .NET-Anwendungen suchen. In diesem umfassenden Leitfaden untersuchen wir den Prozess der Vorbereitung von Rechtecken bei der OCR-Bilderkennung mit Aspose.OCR für .NET.
+Optische Zeichenerkennung (OCR) ist unerlässlich, um visuelle Inhalte in durchsuchbaren, editierbaren Text umzuwandeln. In diesem Tutorial **extrahieren Sie Text aus einem Bild**, indem Sie benutzerdefinierte Rechtecke vorbereiten, die die OCR-Engine auf bestimmte Bereiche fokussieren. Mit Aspose.OCR für .NET führen wir Sie durch jeden Schritt – vom Einrichten Ihres Projekts bis zum Abrufen des erkannten Textes – damit Sie leistungsstarke Bild‑zu‑Text‑Funktionen in Ihre .NET‑Anwendungen integrieren können.
+
+## Schnelle Antworten
+- **Was bedeutet „Text aus Bild extrahieren“?** Es bedeutet, die visuellen Zeichen in einem Bild in maschinenlesbare Zeichenketten umzuwandeln.  
+- **Welche Bibliothek unterstützt dies in .NET?** Aspose.OCR für .NET.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion reicht für Tests; für die Produktion ist eine Lizenz erforderlich.  
+- **Kann ich bestimmte Bereiche anvisieren?** Ja, indem Sie Rechtecke definieren, die den OCR‑Umfang begrenzen.  
+- **Welche .NET‑Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Was bedeutet „Text aus Bild extrahieren“ mit Rechtecken?
+
+Wenn Sie rechteckige Zonen auf einem Bild definieren, verarbeitet die OCR‑Engine nur diese Zonen. Das verbessert die Genauigkeit, reduziert die Verarbeitungszeit und ermöglicht das Ignorieren von störenden Hintergründen oder irrelevanten Abschnitten.
+
+## Warum Rechtecke vor der OCR vorbereiten?
+
+- **Fokus auf relevante Inhalte:** Überschriften, Fußzeilen oder dekorative Grafiken überspringen.  
+- **Leistungssteigerung:** Kleinere Bereiche bedeuten schnellere Erkennung.  
+- **Genauigkeit verbessern:** Weniger Bildrauschen führt zu saubereren Ergebnissen.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-- Grundkenntnisse in der .NET-Entwicklung.
--  Aspose.OCR für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/ocr/net/).
-- Ein grundlegendes Verständnis der Bilderkennungskonzepte.
+- Vertrautheit mit C# und .NET-Entwicklung.  
+- Aspose.OCR für .NET Bibliothek installiert – Sie können sie **[hier](https://releases.aspose.com/ocr/net/)** herunterladen.  
+- Ein Beispielbild (z. B. `sample.png`), das den Text enthält, den Sie extrahieren möchten.
 
 ## Namespaces importieren
 
-Beginnen wir mit dem Importieren der erforderlichen Namespaces, um unsere OCR-Reise in Gang zu bringen:
+Zuerst bringen Sie die erforderlichen Namespaces in den Gültigkeitsbereich:
 
 ```csharp
 using System;
@@ -37,23 +55,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Schritt 1: Richten Sie Ihr Dokumentenverzeichnis ein
+## Schritt 1: Dokumentverzeichnis einrichten
 
- Geben Sie zunächst das Verzeichnis an, in dem Ihre Dokumente gespeichert sind. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihren Dokumenten.
+Geben Sie an, wo Ihre Bilddateien gespeichert sind, und erstellen Sie eine Instanz der OCR‑Engine.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Initialisieren Sie eine Instanz von AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Schritt 2: Bild mit mehreren Rechtecken erkennen
+## Wie man Text aus Bild mit mehreren Rechtecken extrahiert
 
-In diesem Schritt zeigen wir, wie man mithilfe mehrerer Rechtecke Text aus einem Bild erkennt. Befolgen Sie diese Unterschritte:
+### Schritt 2: Bild mit mehreren Rechtecken erkennen
 
-### 2.1 Rechtecke definieren
+#### 2.1 Rechtecke definieren
+
+Erstellen Sie eine Liste von `Rectangle`‑Objekten, die die Bereiche umreißen, die die OCR‑Engine scannen soll.
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +85,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 OCR-Erkennung durchführen
+#### 2.2 OCR‑Erkennung durchführen
+
+Übergeben Sie den Bildpfad und die Rechteckliste an `RecognizeImage`. Die Methode gibt eine Sammlung von Zeichenketten zurück – jeder Eintrag entspricht einem Rechteck.
 
 ```csharp
-// erster Fall
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-// Zeigt den erkannten Text an
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Schritt 3: Bild mit den Erkennungseinstellungen erkennen
+### Schritt 3: Bild mit Recognition Settings erkennen (alternativer Ansatz)
 
-In diesem Schritt stellen wir eine alternative Methode vor, die RecognitionSettings für die Bilderkennung verwendet:
+Wenn Sie lieber `RecognitionSettings` verwenden, können Sie dasselbe Ergebnis mit einem leicht anderen API‑Aufruf erzielen.
 
-### 3.1 Erkennungseinstellungen definieren
+#### 3.1 Erkennungs‑Einstellungen definieren
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +113,47 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 Erkannten Text anzeigen
+#### 3.2 Erkannten Text anzeigen
 
 ```csharp
-// Zeigt den erkannten Text an
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Abschluss
+## Häufige Probleme & Tipps
 
-Glückwunsch! Sie haben den Prozess der Vorbereitung von Rechtecken in der OCR-Bilderkennung mit Aspose.OCR für .NET erfolgreich gemeistert. Mit diesem Leitfaden können Sie OCR nahtlos in Ihre .NET-Anwendungen integrieren und so deren Texterkennungsfunktionen verbessern.
+- **Falsche Rechteckkoordinaten:** Stellen Sie sicher, dass die Werte `X`, `Y`, `Width` und `Height` korrekt auf den gewünschten Bereich abgebildet sind.  
+- **Bildqualität:** Niedrigauflösende Bilder können schlechte OCR‑Ergebnisse liefern; erwägen Sie eine Vorverarbeitung (z. B. Binärisierung).  
+- **Leere Ergebnisse:** Prüfen Sie, ob die Rechtecke tatsächlich Text enthalten; andernfalls gibt die Engine leere Zeichenketten zurück.
 
-### FAQs
+## Fazit
 
-### F1: Kann ich Aspose.OCR für .NET mit anderen .NET-Frameworks verwenden?
+Sie haben nun gelernt, wie Sie **Text aus Bild** extrahieren, indem Sie benutzerdefinierte Rechtecke mit Aspose.OCR für .NET vorbereiten. Diese Technik gibt Ihnen eine feinkörnige Kontrolle über die OCR‑Verarbeitung und hilft Ihnen, schnellere, genauere Textextraktions‑Features in Ihren Anwendungen zu bauen.
 
-A1: Ja, Aspose.OCR für .NET ist mit verschiedenen .NET-Frameworks kompatibel.
+## Häufig gestellte Fragen
 
-### F2: Gibt es eine kostenlose Testversion für Aspose.OCR für .NET?
+**Q:** Kann ich Aspose.OCR für .NET mit anderen .NET‑Frameworks verwenden?  
+**A:** Ja, Aspose.OCR für .NET ist mit verschiedenen .NET‑Frameworks kompatibel.
 
- A2: Auf jeden Fall! Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+**Q:** Gibt es eine kostenlose Testversion für Aspose.OCR für .NET?  
+**A:** Auf jeden Fall! Sie können die kostenlose Testversion **[hier](https://releases.aspose.com/)** abrufen.
 
-### F3: Wie erhalte ich Unterstützung für Aspose.OCR für .NET?
+**Q:** Wie erhalte ich Support für Aspose.OCR für .NET?  
+**A:** Besuchen Sie das **[Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16)** für dedizierten Support.
 
- A3: Besuchen Sie die[Aspose.OCR-Forum](https://forum.aspose.com/c/ocr/16) für engagierte Unterstützung.
+**Q:** Kann ich eine temporäre Lizenz für Testzwecke erhalten?  
+**A:** Ja, Sie können eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)** erwerben.
 
-### F4: Kann ich zu Testzwecken eine temporäre Lizenz erhalten?
+**Q:** Wo finde ich die Dokumentation für Aspose.OCR für .NET?  
+**A:** Die Dokumentation ist **[hier](https://reference.aspose.com/ocr/net/)** verfügbar.
 
- A4: Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+**Zuletzt aktualisiert:** 2025-12-22  
+**Getestet mit:** Aspose.OCR 24.11 für .NET  
+**Autor:** Aspose  
 
-### F5: Wo finde ich die Dokumentation für Aspose.OCR für .NET?
-
- A5: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

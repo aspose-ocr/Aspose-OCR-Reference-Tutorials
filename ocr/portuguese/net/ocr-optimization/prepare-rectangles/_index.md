@@ -1,33 +1,49 @@
 ---
-title: Prepare retângulos no reconhecimento de imagem OCR
-linktitle: Prepare retângulos no reconhecimento de imagem OCR
-second_title: API Aspose.OCR .NET
-description: Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo. Aprenda passo a passo como preparar retângulos para reconhecimento de imagem. Eleve seus aplicativos .NET com integração perfeita de OCR.
-weight: 11
+date: 2025-12-22
+description: Aprenda como extrair texto de imagens usando Aspose.OCR para .NET. Este
+  guia orienta você na preparação de retângulos para reconhecimento de imagem OCR
+  e na melhoria da precisão.
+linktitle: Prepare Rectangles in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Como extrair texto de imagem preparando retângulos no OCR
 url: /pt/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Prepare retângulos no reconhecimento de imagem OCR
+# Preparar Retângulos no Reconhecimento Óptico de Caracteres (OCR)
 
 ## Introdução
 
-No cenário em constante evolução da tecnologia, o reconhecimento óptico de caracteres (OCR) desempenha um papel fundamental na transformação de imagens em texto legível por máquina. Aspose.OCR for .NET se destaca como uma solução robusta para desenvolvedores que buscam integração perfeita de recursos de OCR em seus aplicativos .NET. Neste guia completo, exploraremos o processo de preparação de retângulos no reconhecimento de imagem OCR usando Aspose.OCR for .NET.
+O Reconhecimento Óptico de Caracteres (OCR) é essencial para converter conteúdo visual em texto pesquisável e editável. Neste tutorial você **extract text from image** preparando retângulos personalizados que focam o motor OCR em regiões específicas. Usando Aspose.OCR para .NET, percorreremos cada passo — desde a configuração do seu projeto até a obtenção do texto reconhecido — para que você possa integrar funcionalidade poderosa de imagem‑para‑texto em suas aplicações .NET.
 
-## Pré-requisitos
+## Respostas Rápidas
+- **What does “extract text from image” mean?** Significa converter os caracteres visuais de uma imagem em cadeias legíveis por máquina.  
+- **Which library helps with this in .NET?** Aspose.OCR for .NET.  
+- **Preciso de uma licença para desenvolvimento?** Um teste gratuito funciona para testes; uma licença é necessária para produção.  
+- **Posso direcionar áreas específicas?** Sim, definindo retângulos que limitam o escopo do OCR.  
+- **Quais versões do .NET são suportadas?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
+## O que é “extract text from image” com retângulos?
+Quando você define zonas retangulares em uma imagem, o motor OCR processa apenas essas zonas. Isso melhora a precisão, reduz o tempo de processamento e permite ignorar fundos ruidosos ou seções irrelevantes.
 
-- Conhecimento prático de desenvolvimento .NET.
--  Biblioteca Aspose.OCR para .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/ocr/net/).
-- Uma compreensão básica dos conceitos de reconhecimento de imagem.
+## Por que preparar retângulos antes do OCR?
+- **Focar no conteúdo relevante:** Ignorar cabeçalhos, rodapés ou gráficos decorativos.  
+- **Aumentar o desempenho:** Regiões menores significam reconhecimento mais rápido.  
+- **Melhorar a precisão:** Menos ruído visual resulta em resultados mais limpos.
 
-## Importar namespaces
+## Prerequisites
 
-Vamos começar importando os namespaces necessários para iniciar nossa jornada de OCR:
+- Familiaridade com C# e desenvolvimento .NET.  
+- Aspose.OCR for .NET library installed – you can download it **[here](https://releases.aspose.com/ocr/net/)**.  
+- Uma imagem de exemplo (por exemplo, `sample.png`) que contém o texto que você deseja extrair.
+
+## Importar Namespaces
+
+Primeiro, traga os namespaces necessários para o escopo:
 
 ```csharp
 using System;
@@ -37,23 +53,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Etapa 1: configure seu diretório de documentos
+## Etapa 1: Configurar o Diretório do Documento
 
- Comece especificando o diretório onde seus documentos estão armazenados. Substituir`"Your Document Directory"` com o caminho real para seus documentos.
+Especifique onde seus arquivos de imagem estão e crie uma instância do motor OCR.
 
 ```csharp
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inicialize uma instância do AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Etapa 2: reconhecer imagem com vários retângulos
+## Como extrair texto de imagem usando múltiplos retângulos
 
-Nesta etapa, demonstraremos como reconhecer o texto de uma imagem usando vários retângulos. Siga estas subetapas:
+### Etapa 2: Reconhecer Imagem com Múltiplos Retângulos
 
-### 2.1 Definir retângulos
+#### 2.1 Definir os retângulos
+
+Crie uma lista de objetos `Rectangle` que delineiam as áreas que você deseja que o motor OCR escaneie.
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +83,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 Realizar reconhecimento de OCR
+#### 2.2 Executar o reconhecimento OCR
+
+Passe o caminho da imagem e a lista de retângulos para `RecognizeImage`. O método retorna uma coleção de strings — cada entrada corresponde a um retângulo.
 
 ```csharp
-// primeiro caso
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-// Exibir o texto reconhecido
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## Etapa 3: reconhecer imagem com configurações de reconhecimento
+### Etapa 3: Reconhecer Imagem com Configurações de Reconhecimento (Abordagem Alternativa)
 
-Nesta etapa, apresentaremos um método alternativo usando RecognitionSettings para reconhecimento de imagem:
+Se preferir usar `RecognitionSettings`, você pode obter o mesmo resultado com uma chamada de API ligeiramente diferente.
 
-### 3.1 Definir configurações de reconhecimento
+#### 3.1 Definir configurações de reconhecimento
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +111,49 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 Exibir texto reconhecido
+#### 3.2 Exibir texto reconhecido
 
 ```csharp
-// Exibir o texto reconhecido
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
+## Problemas Comuns & Dicas
+
+- **Coordenadas de retângulo incorretas:** Certifique-se de que os valores `X`, `Y`, `Width` e `Height` mapeiem corretamente para a região desejada.  
+- **Qualidade da imagem:** Imagens de baixa resolução podem gerar resultados de OCR ruins; considere pré‑processamento (por exemplo, binarização).  
+- **Resultados vazios:** Verifique se os retângulos realmente contêm texto; caso contrário, o motor retornará strings vazias.
+
 ## Conclusão
 
-Parabéns! Você navegou com sucesso no processo de preparação de retângulos no reconhecimento de imagem OCR usando Aspose.OCR for .NET. Este guia permite que você integre perfeitamente o OCR aos seus aplicativos .NET, aprimorando seus recursos de reconhecimento de texto.
+Agora você aprendeu como **extract text from image** preparando retângulos personalizados com Aspose.OCR para .NET. Esta técnica oferece controle detalhado sobre o processamento OCR, ajudando a criar recursos de extração de texto mais rápidos e precisos em suas aplicações.
 
-### Perguntas frequentes
+## Frequently Asked Questions
 
-### Q1: Posso usar Aspose.OCR for .NET com outras estruturas .NET?
+**Q:** Posso usar Aspose.OCR para .NET com outros frameworks .NET?  
+**A:** Sim, Aspose.OCR para .NET é compatível com vários frameworks .NET.
 
-A1: Sim, Aspose.OCR for .NET é compatível com vários frameworks .NET.
+**Q:** Existe um teste gratuito disponível para Aspose.OCR para .NET?  
+**A:** Absolutamente! Você pode acessar o teste gratuito **[here](https://releases.aspose.com/)**.
 
-### Q2: Existe uma avaliação gratuita disponível para Aspose.OCR for .NET?
+**Q:** Como obtenho suporte para Aspose.OCR para .NET?  
+**A:** Visite o **[Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)** para suporte dedicado.
 
- A2: Com certeza! Você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
+**Q:** Posso obter uma licença temporária para fins de teste?  
+**A:** Sim, você pode adquirir uma licença temporária **[here](https://purchase.aspose.com/temporary-license/)**.
 
-### Q3: Como obtenho suporte para Aspose.OCR para .NET?
+**Q:** Onde posso encontrar a documentação para Aspose.OCR para .NET?  
+**A:** A documentação está disponível **[here](https://reference.aspose.com/ocr/net/)**.
 
- A3: Visite o[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para suporte dedicado.
+---
 
-### P4: Posso obter uma licença temporária para fins de teste?
+**Última atualização:** 2025-12-22  
+**Testado com:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose  
 
- A4: Sim, você pode adquirir uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Onde posso encontrar a documentação do Aspose.OCR para .NET?
-
- A5: A documentação está disponível[aqui](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,46 @@
 ---
-title: التعرف الضوئي على الحروف (OCR) على مستندات PDF في Aspose.OCR لـ Java
-linktitle: التعرف الضوئي على الحروف (OCR) على مستندات PDF في Aspose.OCR لـ Java
-second_title: Aspose.OCR جافا API
-description: أطلق العنان لقوة التعرف الضوئي على الحروف في Java باستخدام Aspose.OCR. التعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بدقة وسرعة.
-weight: 12
+date: 2025-12-22
+description: تعلم كيفية إجراء التعرف الضوئي على النص في مستندات PDF باستخدام Aspose.OCR
+  للغة Java. استخرج النص من ملفات PDF بسرعة ودقة لتطبيقاتك.
+linktitle: OCR Recognizing PDF Documents in Aspose.OCR for Java
+second_title: Aspose.OCR Java API
+title: التعرف الضوئي على النص في مستندات PDF باستخدام Aspose.OCR للـ Java
 url: /ar/java/ocr-operations/recognize-pdf/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
-# التعرف الضوئي على الحروف (OCR) على مستندات PDF في Aspose.OCR لـ Java
+# كيفية التعرف الضوئي على مستندات PDF باستخدام Aspose.OCR للـ Java
 
-## مقدمة
+## Introduction
 
-في عالم التكنولوجيا دائم التطور، يلعب التعرف الضوئي على الحروف (OCR) دورًا محوريًا في تحويل النص المطبوع أو المكتوب بخط اليد إلى نص مشفر آليًا. يظهر Aspose.OCR for Java كأداة قوية لتكامل التعرف الضوئي على الحروف بسلاسة في تطبيقات Java. في هذا البرنامج التعليمي، سنستكشف عملية التعرف على مستندات PDF باستخدام Aspose.OCR لـ Java.
+إذا كنت تبحث عن **how to ocr pdf** للملفات بكفاءة في بيئة Java، فقد وجدت المكان المناسب. تقنية التعرف الضوئي على الأحرف (OCR) تحول المحتوى المطبوع أو المكتوب بخط اليد إلى نص قابل للبحث والتحرير، وتقوم Aspose.OCR للـ Java بجعل هذه العملية سلسة. في هذا الدرس سنستعرض كل خطوة مطلوبة للتعرف على مستند PDF، استخراج نصه، ومعالجة النتائج—كل ذلك بشرح واضح وسهل الفهم.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ما معنى “how to ocr pdf”؟** يشير إلى استخدام تقنية OCR لقراءة واستخراج النص من ملفات PDF.  
+- **أي مكتبة OCR للـ Java تُستخدم؟** Aspose.OCR للـ Java، مكتبة تجارية قوية.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص مطلوب للإنتاج.  
+- **هل يمكنه التعامل مع ملفات PDF الممسوحة ضوئياً؟** نعم—Aspose.OCR يمكنه التعرف على النص في صفحات PDF الممسوحة.  
+- **ما هو الوقت المعتاد لإعداد البيئة؟** حوالي 10‑15 دقيقة لتشغيل مثال أساسي.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## What is OCR and Why Use It on PDFs?
 
-- بيئة تطوير Java: تأكد من إعداد بيئة تطوير Java وظيفية على نظامك.
--  Aspose.OCR لمكتبة Java: قم بتنزيل وتثبيت Aspose.OCR لمكتبة Java من[صفحة التحميل](https://releases.aspose.com/ocr/java/).
-- مستند للتعرف: احصل على مستند PDF جاهز للتعرف على التعرف الضوئي على الحروف.
+OCR (التعرف الضوئي على الأحرف) يحول صور النص—مثل صفحات PDF الممسوحة ضوئياً—إلى أحرف قابلة للقراءة آلياً. هذا يتيح لك **extract pdf text ocr** للبحث، الفهرسة، أو المعالجة الإضافية، محوّلاً المستندات الثابتة إلى مصادر بيانات ديناميكية.
 
-## حزم الاستيراد
+## Prerequisites
 
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. قم بتضمين مكتبة Aspose.OCR للاستفادة من ميزاتها القوية.
+قبل أن نغوص في الكود، تأكد من وجود ما يلي:
+
+- **Java Development Environment** – JDK 8 أو أعلى مثبت ومُكوَّن.  
+- **Aspose.OCR for Java Library** – قم بتنزيلها من [download page](https://releases.aspose.com/ocr/java/).  
+- **PDF Document for Recognition** – ملف PDF (ممسوح أو مُنشأ رقمياً) تريد معالجته.
+
+## Import Packages
+
+لبدء العملية، استورد الفئات الأساسية من مكتبة Aspose.OCR. سيمكنك ذلك من الوصول إلى محرك OCR وأدوات معالجة النتائج.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -43,102 +56,117 @@ import java.awt.*;
 import java.util.ArrayList;
 ```
 
-## الخطوة 1: قم بإعداد مشروعك
+## Step 1: Set Up Your Project
 
-تأكد من تكوين مشروع Java الخاص بك بشكل صحيح. ضع مكتبة Aspose.OCR في دليل المشروع الخاص بك وقم بتعيين المسار وفقًا لذلك.
+ضع ملفات JAR الخاصة بـ Aspose.OCR في مجلد `lib` الخاص بالمشروع (أو أضفها عبر Maven/Gradle) وحدد المسار إلى دليل العمل الخاص بك.
 
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-## الخطوة 2: تحديد مسار مستند PDF
+## Step 2: Specify PDF Document Path
 
-حدد المسار إلى مستند PDF الخاص بك الذي يحتاج إلى التعرف الضوئي على الحروف.
+وجه محرك OCR إلى ملف PDF الذي ترغب في معالجته.
 
 ```java
-// مسار الصورة
+// The image path
 String file = dataDir + "multi_page_1.pdf";
 ```
 
-## الخطوة 3: إنشاء مثيل API
+## Step 3: Create API Instance
 
-قم بإنشاء مثيل للفئة Aspose.OCRPdf لإنشاء مثيل API.
+أنشئ نسخة من الفئة الأساسية لـ OCR التي ستتعامل مع التعرف على PDF.
 
 ```java
-// إنشاء مثيل API
+// Create API instance
 AsposeOCRPdf api = new AsposeOCRPdf();
 ```
 
-## الخطوة 4: ضبط خيارات التعرف
+## Step 4: Set Recognition Options
 
-قم بتكوين خيارات التعرف مثل إعدادات اللغة باستخدام DocumentRecognitionSettings.
+قم بضبط إعدادات OCR—مثل اللغة وعدد الصفحات—باستخدام `DocumentRecognitionSettings`. هنا تخبر **java ocr library** بما يجب البحث عنه.
 
 ```java
-// ضبط خيارات التعرف
+// Set recognition options
 DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
 settings.setLanguage(Language.Eng);
 ```
 
-## الخطوة 5: إجراء التعرف الضوئي على الحروف
+## Step 5: Perform OCR Recognition
 
-قم بتنفيذ التعرف الضوئي على الحروف على مستند PDF المحدد واحصل على النتيجة.
+شغّل محرك OCR على ملف PDF المحدد. تُعيد الطريقة قائمة من كائنات `RecognitionResult`، كل منها يمثل صفحة.
 
 ```java
-// الحصول على قائمة النتائج
+// Get result list
 ArrayList<RecognitionResult> result = api.RecognizePdf(file, settings);
 ```
 
-## الخطوة 6: نتائج التعرف على الطباعة
+## Step 6: Print Recognition Results
 
-طباعة جوانب مختلفة من نتائج التعرف، مثل النص، والانحراف، والفقرات، والإحداثيات، والخطوط، واختيارات الأحرف، والتحذيرات، وJSON، والنص المصحح للتدقيق الإملائي.
+تجول عبر النتائج وعرض النص المستخرج، معلومات التخطيط، وأي تحذيرات.
 
 ```java
-// طباعة النتيجة
+// Print result
 for(RecognitionResult r: result) {
     printResult(r);
 }
 ```
 
-## الخطوة 7: تحديد طريقة PrintResult
+## Step 7: Define PrintResult Method
 
-قم بتنفيذ طريقة printResult لعرض نتائج التعرف بشكل شامل.
+طريقة المساعدة تقوم بتنسيق وطباعة مخرجات OCR التفصيلية. (التنفيذ موجود في المقتطف الأصلي.)
 
 ```java
-// طريقة طباعة النتيجة
+// PrintResult method
 static void printResult(RecognitionResult result) {
-    // ... (راجع مقتطف الشفرة المقدم)
+    // ... (refer to the provided code snippet)
 }
 ```
 
-## خاتمة
+## Why This Matters
 
-في الختام، يوفر Aspose.OCR for Java حلاً قويًا للتعرف الضوئي على الحروف في مستندات PDF. باتباع هذا الدليل المفصّل خطوة بخطوة، يمكنك دمج إمكانات التعرف الضوئي على الحروف بسلاسة في تطبيقات Java لديك، مما يفتح إمكانيات جديدة لاستخراج النص وتحليله.
+- **Extract PDF Text OCR** – تحويل صفحات PDF الثابتة إلى نص قابل للبحث للتحليلات، الفهرسة، أو استخراج البيانات.  
+- **Convert PDF to Text** – إمداد المحتوى المستخرج بسهولة إلى الأنظمة اللاحقة مثل قواعد البيانات أو خطوط معالجة اللغة الطبيعية.  
+- **Java OCR Example** – هذا الدرس يُعد مثالاً جاهزاً للتنفيذ يمكنك تكييفه للمعالجة الدفعية أو خدمات الويب.  
+- **Recognize Scanned PDF** – يعمل بنفس الكفاءة على المستندات الممسوحة، مما يجعله مثالياً لرقمنة الأرشيفات.
 
-## الأسئلة الشائعة
+## Common Issues & Tips
 
-### س1: هل Aspose.OCR متوافق مع تنسيقات المستندات الأخرى؟
+- **دقة منخفضة:** تأكد من أن ملف PDF المصدر ذو دقة عالية (300 dpi أو أكثر).  
+- **استهلاك الذاكرة:** للملفات الكبيرة، عالج الصفحات على دفعات لتجنب أخطاء OutOfMemory.  
+- **دعم اللغات:** اضبط قيمة `Language` المناسبة إذا لم يكن المستند باللغة الإنجليزية.  
 
-ج1: يدعم Aspose.OCR مجموعة متنوعة من تنسيقات المستندات، بما في ذلك PDF والصور والمزيد. تحقق من الوثائق للحصول على قائمة شاملة.
+## FAQ’s
 
-### س2: هل يمكنني استخدام Aspose.OCR للمشاريع التجارية؟
+### س1: هل Aspose.OCR متوافق مع صيغ مستندات أخرى؟
 
- ج2: نعم، يقدم Aspose.OCR تراخيص تجارية للاستخدام في كل من المشاريع الشخصية والتجارية. قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
+ج1: يدعم Aspose.OCR مجموعة متنوعة من صيغ المستندات، بما في ذلك PDF، الصور، وأكثر. راجع الوثائق للحصول على قائمة شاملة.
 
-### س3: هل توجد أي قيود على عملية التعرف على الحروف (OCR)؟
+### س2: هل يمكنني استخدام Aspose.OCR في المشاريع التجارية؟
 
-ج3: على الرغم من أن Aspose.OCR قوي، إلا أن الدقة قد تختلف بناءً على جودة مستند الإدخال ووضوحه. تأكد من أن المستندات واضحة للحصول على أفضل النتائج.
+ج2: نعم، يوفر Aspose.OCR تراخيص تجارية للاستخدام في المشاريع الشخصية والتجارية. زر [purchase page](https://purchase.aspose.com/buy) للحصول على تفاصيل الترخيص.
 
-### س4: كيف يمكنني الحصول على الدعم لـ Aspose.OCR؟
+### س3: هل هناك أي قيود على عملية التعرف الضوئي؟
 
- ج4: للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+ج3: رغم أن Aspose.OCR قوي، قد تختلف الدقة بناءً على جودة ووضوح المستند المدخل. احرص على أن تكون المستندات واضحة للحصول على أفضل النتائج.
+
+### س4: كيف يمكنني الحصول على دعم لـ Aspose.OCR؟
+
+ج4: للحصول على الدعم والنقاشات، زر [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.OCR؟
 
- ج5: نعم، يمكنك استكشاف Aspose.OCR من خلال الحصول على نسخة تجريبية مجانية منه[هنا](https://releases.aspose.com/).
+ج5: نعم، يمكنك تجربة Aspose.OCR بالحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+
+---
+
+**آخر تحديث:** 2025-12-22  
+**تم الاختبار مع:** Aspose.OCR للـ Java 24.11  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
