@@ -1,35 +1,50 @@
 ---
-title: Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
-linktitle: Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
+date: 2025-12-25
+description: Tingkatkan akurasi OCR dengan Aspose OCR untuk .NET, memanfaatkan pemeriksaan
+  ejaan dan dukungan bahasa untuk memperbaiki kesalahan ketik serta menyesuaikan kamus
+  demi pengenalan teks bebas kesalahan.
+linktitle: Improve OCR Accuracy with Spell Checking in Images
 second_title: Aspose.OCR .NET API
-description: Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
-weight: 13
+title: Tingkatkan Akurasi OCR dengan Pemeriksaan Ejaan pada Gambar
 url: /id/net/ocr-optimization/result-correction-with-spell-checking/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
+# Tingkatkan Akurasi OCR dengan Pemeriksaan Ejaan pada Gambar
 
-## Perkenalan
+## Pendahuluan
 
-Dalam bidang Pengenalan Karakter Optik (OCR), mencapai hasil yang akurat sangat penting untuk mengekstraksi informasi bermakna dari gambar. Salah satu tantangan umum adalah menangani kata-kata yang salah eja dalam proses pengenalan. Untungnya, Aspose.OCR untuk .NET memberikan solusi ampuh untuk meningkatkan hasil OCR melalui pemeriksaan ejaan.
+Ketika Anda bekerja dengan Optical Character Recognition (OCR), tujuan utama adalah **meningkatkan akurasi OCR** sehingga teks yang diekstrak cocok dengan gambar asli secara sempurna. Kata yang salah eja adalah sumber kesalahan yang umum, terutama ketika gambar sumber berisik atau mengandung font yang tidak biasa. Aspose.OCR untuk .NET menawarkan kemampuan pemeriksaan ejaan bawaan yang tidak hanya memperbaiki kesalahan tersebut tetapi juga memungkinkan Anda memperluas mesin dengan kamus khusus. Dalam tutorial ini Anda akan belajar cara menggunakan pemeriksaan ejaan untuk meningkatkan hasil OCR, melihat output sebelum‑dan‑sesudah, dan menemukan cara menyesuaikan proses koreksi sesuai kebutuhan bahasa spesifik Anda.
 
-Tutorial ini akan memandu Anda melalui proses koreksi hasil dengan pemeriksaan ejaan menggunakan Aspose.OCR untuk .NET. Pada akhirnya, Anda akan diperlengkapi untuk meningkatkan akurasi teks turunan OCR, memastikan keluaran yang lebih halus dan bebas kesalahan.
+## Jawaban Cepat
+- **Apa yang dilakukan pemeriksaan ejaan untuk OCR?** Ia secara otomatis mendeteksi kata yang salah eja dalam output OCR dan menggantinya dengan alternatif yang paling mungkin benar.  
+- **Perpustakaan mana yang menyediakan fitur ini?** Aspose.OCR untuk .NET menyertakan API pemeriksaan ejaan siap pakai.  
+- **Apakah saya memerlukan koneksi internet?** Tidak, mesin pemeriksaan ejaan berfungsi sepenuhnya secara offline.  
+- **Bisakah saya menambahkan terminologi saya sendiri?** Ya, Anda dapat menyediakan kamus pengguna khusus untuk menangani kata‑kata spesifik domain.  
+- **Bahasa apa yang didukung?** Lihat bagian “aspose ocr language support” untuk detail.
+
+## Apa itu Pemeriksaan Ejaan dalam OCR?
+
+Pemeriksaan ejaan memeriksa teks mentah yang dikembalikan oleh mesin OCR, mengidentifikasi token yang tidak cocok dengan kata yang dikenal dalam kamus bahasa yang dipilih, dan menyarankan atau menerapkan koreksi. Langkah ini penting untuk **meningkatkan akurasi OCR**, terutama saat memproses dokumen yang dipindai, kwitansi, atau formulir di mana OCR dapat salah menafsirkan karakter.
+
+## Mengapa Menggunakan Dukungan Bahasa Aspose OCR?
+
+Aspose.OCR dilengkapi dengan paket bahasa yang luas dan memungkinkan Anda menambahkan kamus tambahan. Memanfaatkan **aspose ocr language support** berarti Anda dapat menangani dokumen multibahasa tanpa menulis parser khusus, dan Anda mendapatkan akses ke aturan bahasa‑spesifik yang lebih meningkatkan kualitas pengenalan.
 
 ## Prasyarat
 
-Sebelum kita menyelami keajaiban pemeriksaan ejaan, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita menyelam ke dalam keajaiban pemeriksaan ejaan, pastikan Anda memiliki prasyarat berikut:
 
--  Aspose.OCR untuk .NET Library: Unduh dan instal perpustakaan Aspose.OCR dari[halaman rilis](https://releases.aspose.com/ocr/net/).
-
-- Direktori Dokumen: Pastikan Anda memiliki direktori khusus untuk dokumen Anda. Ganti "Direktori Dokumen Anda" di cuplikan kode dengan jalur sebenarnya.
+- Aspose.OCR untuk .NET Library: Unduh dan instal pustaka Aspose.OCR dari [halaman rilis](https://releases.aspose.com/ocr/net/).
+- Direktori Dokumen: Pastikan Anda memiliki direktori yang ditentukan untuk dokumen Anda. Ganti `"Your Document Directory"` dalam cuplikan kode dengan jalur yang sebenarnya.
 
 ## Impor Namespace
 
-Mari kita mulai dengan mengimpor namespace yang diperlukan dalam proyek .NET Anda:
+Mari mulai dengan mengimpor namespace yang diperlukan dalam proyek .NET Anda:
 
 ```csharp
 using System;
@@ -39,50 +54,50 @@ using System.Collections.Generic;
 
 ## Langkah 1: Inisialisasi Aspose.OCR
 
-Inisialisasi instance Aspose.OCR untuk memulai proses OCR.
+Inisialisasi sebuah instance Aspose.OCR untuk memulai proses OCR.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
 ## Langkah 2: Kenali Gambar
 
-Selanjutnya, kenali teks pada gambar menggunakan Aspose.OCR. Berikut cuplikan yang menunjukkan proses ini:
+Selanjutnya, kenali teks dalam sebuah gambar menggunakan Aspose.OCR. Berikut cuplikan kode yang menunjukkan proses ini:
 
 ```csharp
-// Kenali gambar
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample_bad.png", new RecognitionSettings(Language.Eng));
 ```
 
 ## Langkah 3: Sebelum Koreksi
 
-Ambil hasil OCR sebelum koreksi untuk dibandingkan dengan versi yang dikoreksi.
+Ambil hasil OCR sebelum koreksi untuk dibandingkan dengan versi yang telah dikoreksi.
 
 ```csharp
-// Dapatkan hasilnya
+// Get result
 Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 ```
 
 ## Langkah 4: Setelah Koreksi
 
-Terapkan pemeriksaan ejaan untuk mendapatkan hasil yang diperbaiki. Cuplikan kode berikut mengilustrasikan langkah ini:
+Terapkan pemeriksaan ejaan untuk mendapatkan hasil yang telah dikoreksi. Cuplikan kode berikut menggambarkan langkah ini:
 
 ```csharp
-// Dapatkan hasil yang diperbaiki
+// Get corrected result
 string correctedResult = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng);
 Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 ```
 
-## Langkah 5: Kata dan Saran yang Salah Eja
+## Langkah 5: Kata yang Salah Eja dan Saran
 
-Dapatkan daftar kata yang salah eja beserta saran koreksi menggunakan kode berikut:
+Dapatkan daftar kata yang salah eja beserta saran perbaikannya menggunakan kode berikut:
 
 ```csharp
-// Dapatkan daftar kata yang salah eja dengan saran
+// Get list of misspelled words with suggestions
 List<SpellCheckError> errorsList = result.GetSpellCheckErrorList(SpellCheckLanguage.Eng);
 foreach (var word in errorsList)
 {
@@ -98,53 +113,64 @@ foreach (var word in errorsList)
 }
 ```
 
-## Langkah 6: Perbaiki Teks Pengguna
+## Langkah 6: Koreksi Teks Pengguna
 
-Perbaiki teks tertentu yang disediakan pengguna menggunakan pustaka Aspose.OCR:
+Koreksi teks tertentu yang diberikan pengguna menggunakan pustaka Aspose.OCR:
 
 ```csharp
-// Teks pengguna yang benar
+// Correct user text
 Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 ```
 
 ## Langkah 7: Koreksi dengan Kamus Pengguna
 
-Tingkatkan koreksi lebih lanjut dengan memasukkan kamus pengguna khusus:
+Tingkatkan koreksi lebih lanjut dengan menggabungkan kamus pengguna khusus:
 
 ```csharp
-// Dapatkan hasil yang diperbaiki dengan kamus pengguna
+// Get corrected result with user dictionary
 string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng, dataDir+"dictionary.txt");
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Selamat! Anda telah berhasil menavigasi kemampuan pemeriksaan ejaan Aspose.OCR untuk .NET. Fitur ini memberdayakan Anda untuk menyempurnakan hasil OCR, memastikan akurasi dan menghilangkan kesalahan.
+| Masalah | Mengapa Terjadi | Cara Memperbaiki |
+|---------|----------------|------------------|
+| Tidak ada saran yang dikembalikan | Paket bahasa tidak dimuat atau teks terlalu pendek. | Pastikan `RecognitionSettings(Language.Eng)` sesuai dengan bahasa gambar sumber dan hasil OCR berisi cukup karakter. |
+| Kamus khusus tidak diterapkan | Jalur atau format file tidak tepat. | Verifikasi bahwa `dictionary.txt` ada di lokasi yang ditentukan dan menggunakan satu kata per baris. |
+| Pemeriksa ejaan memperlambat dokumen besar | Memproses setiap kata secara terpisah menambah beban. | Proses halaman secara batch atau tingkatkan alokasi memori jika berjalan di .NET Core. |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya menggunakan Aspose.OCR untuk bahasa selain bahasa Inggris?
+### Q1: Bisakah saya menggunakan Aspose.OCR untuk bahasa selain Bahasa Inggris?
 
-A1: Ya, Aspose.OCR mendukung banyak bahasa. Sesuaikan pengaturan bahasa.
+A1: Ya, Aspose.OCR mendukung banyak bahasa. Sesuaikan pengaturan bahasa sesuai kebutuhan.
 
 ### Q2: Bagaimana cara mengintegrasikan Aspose.OCR ke dalam proyek .NET saya?
 
- A2: Lihat[dokumentasi](https://reference.aspose.com/ocr/net/) untuk langkah-langkah integrasi terperinci.
+A2: Lihat [dokumentasi](https://reference.aspose.com/ocr/net/) untuk langkah‑langkah integrasi yang detail.
 
-### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.OCR?
+### Q3: Apakah ada versi percobaan tersedia untuk Aspose.OCR?
 
- A3: Ya, Anda dapat menjelajahi fitur-fiturnya dengan[versi percobaan gratis](https://releases.aspose.com/).
+A3: Ya, Anda dapat menjelajahi fitur‑fiturnya dengan [versi percobaan gratis](https://releases.aspose.com/).
 
-### Q4: Dapatkah saya mengunggah kamus khusus untuk pemeriksaan ejaan?
+### Q4: Bisakah saya mengunggah kamus khusus untuk pemeriksaan ejaan?
 
 A4: Tentu saja! Tutorial ini menunjukkan cara meningkatkan koreksi menggunakan kamus yang disediakan pengguna.
 
 ### Q5: Di mana saya dapat mencari dukungan untuk Aspose.OCR?
 
- A5: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan bimbingan masyarakat.
+A5: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan panduan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2025-12-25  
+**Diuji Dengan:** Aspose.OCR untuk .NET versi terbaru  
+**Penulis:** Aspose
