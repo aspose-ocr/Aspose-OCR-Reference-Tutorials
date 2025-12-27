@@ -1,39 +1,48 @@
 ---
-title: OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
-linktitle: OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Verimli, doğru ve geliştirici dostu.
-weight: 14
+date: 2025-12-27
+description: Aspose.OCR for .NET ile gelişmiş OCR dil desteği ve yeteneklerini keşfedin.
+  Verimli, doğru ve geliştirici dostu.
+linktitle: OCR Language Support – Ignored Characters in Image Recognition
+second_title: Aspose.OCR .NET API
+title: OCR Dil Desteği – Görüntü Tanıma'da Yoksayılan Karakterler
 url: /tr/net/ocr-settings/specify-ignored-characters/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
+# OCR Dil Desteği: Görüntü Tanıma İçinde Yoksayılan Karakterleri Belirtme
 
-## giriiş
+## Giriş
 
-Sürekli gelişen dijital dönüşüm ortamında, Optik Karakter Tanıma (OCR), fiziksel ve dijital içerik arasındaki boşluğu dolduran çok önemli bir teknoloji olarak ortaya çıktı. İşletmeler operasyonlarını giderek dijital hale getirdikçe doğru, verimli ve çok yönlü OCR çözümlerine olan ihtiyaç daha da önem kazanıyor. Aspose.OCR for .NET, .NET ortamında çalışan geliştiricilere gelişmiş özellikler sunan güçlü bir OCR kitaplığı olarak öne çıkıyor.
+OCR dil desteği, modern belge otomasyonunun temel taşlarından biridir; uygulamaların birçok alfabe ve sembolden oluşan görüntülerdeki metni okumasını sağlar. Bu öğreticide **Aspose.OCR for .NET**'e tanıma sırasında belirli karakterleri yok saymasını nasıl söyleyeceğinizi öğreneceksiniz—daha temiz çıktı elde etmeniz veya sayfa numaraları ya da dekoratif semboller gibi gürültüyü filtrelemeniz gerektiğinde vazgeçilmez bir ipucu. Kılavuzun sonunda, özelliği uçtan uca gösteren çalıştırmaya hazır bir kod parçacığına sahip olacaksınız.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **“Yoksayılan karakterler” ne anlama geliyor?** OCR motorunun sonuç dizesini oluştururken atladığı karakterler.  
+- **Neden kullanmalı?** Belirli semboller iş mantığınız için önemsiz olduğunda doğruluğu artırır.  
+- **Hangi API yöntemi bunu yönetir?** `RecognitionSettings.IgnoredCharacters`.  
+- **Dil paketleriyle birleştirebilir miyim?** Evet—yoksayılan karakterler, yüklediğiniz herhangi bir dil ile birlikte çalışır.  
+- **Lisans gerekli mi?** Üretim kullanımı için geçici ya da tam lisans gerekir.
 
-Aspose.OCR for .NET'in sunduğu zengin işlevselliklere dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Ön Koşullar
 
-1. Aspose.OCR Kurulumu
+Aspose.OCR for .NET tarafından sağlanan zengin işlevselliğe dalmadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
- Aspose.OCR for .NET'i başarıyla yüklediğinizden emin olun. gerekli dosyaları şurada bulabilirsiniz[indirme sayfası](https://releases.aspose.com/ocr/net/).
+1. Aspose.OCR Kurulumu  
 
-2. Belge Dizini Kurulumu
+   Aspose.OCR for .NET'i başarıyla kurduğunuzdan emin olun. Gerekli dosyaları [indirme sayfasında](https://releases.aspose.com/ocr/net/) bulabilirsiniz.
 
- Belgeleriniz için özel bir dizin oluşturun. Bu, örneklerin sorunsuz bir şekilde çalıştırılması için çok önemli olacaktır. Güncelleme`dataDir` örneklerde belge dizininizin yolunu içeren değişken.
+2. Belge Dizininin Ayarlanması  
 
-3. Geçici Lisans (İsteğe Bağlı)
+   Belgeleriniz için ayrı bir dizin oluşturun. Bu, örneklerin sorunsuz çalışması için kritik öneme sahiptir. Örneklerdeki `dataDir` değişkenini belge dizininizin yoluyla güncelleyin.
 
-Aspose.OCR for .NET'i geçici bir lisansla araştırıyorsanız, şu adresten edinin:[Burada](https://purchase.aspose.com/temporary-license/).
+3. Geçici Lisans (İsteğe Bağlı)  
 
-## Ad Alanlarını İçe Aktar
+   Aspose.OCR for .NET'i geçici bir lisansla inceliyorsanız, lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edin.
+
+## Ad Alanlarını İçe Aktarın
 
 Aspose.OCR for .NET ile yolculuğunuza başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Kodunuza aşağıdaki satırları ekleyin:
 
@@ -44,68 +53,89 @@ using Aspose.OCR;
 using System;
 ```
 
-## OCR Görüntü Tanıma'da Yoksayılan Karakterleri Belirleme
+## Neden Yoksayılan Karakterler Belirtilir?
 
-Şimdi Aspose.OCR for .NET'in güçlü özelliklerinden birine, yani OCR görüntü tanıma sırasında yok sayılan karakterleri belirlemeye bakalım. Bu, belirli karakterlerin tanıma sürecinden çıkarılmasının gerektiği senaryolarda özellikle yararlı olabilir.
+Faturalar, makbuzlar veya çok dilli formlar gibi gerçek dünya senaryolarında, anlamlı veri içinde yer almayan tekrarlayan karakterlerle (ör. ayırıcı olarak kullanılan tireler, sayfa numaraları veya dekoratif semboller) karşılaşabilirsiniz. OCR motoruna bu karakterleri atlamasını söyleyerek, son‑işleme çabasını azaltır ve sonraki analizlerin güvenilirliğini artırırsınız.
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım‑Adım Kılavuz
 
- Belgelerinizin saklandığı dizini belirterek başlayın. Yer değiştirmek`"Your Document Directory"` belgelerinizin gerçek yolu ile.
+### Adım 1: Belge Dizinini Ayarlayın
+
+Belgelerinizin saklandığı dizini belirtin. `"Your Document Directory"` ifadesini belgelerinizin gerçek yolu ile değiştirin.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-### Adım 2: Aspose.OCR'ı başlatın
+### Adım 2: Aspose.OCR'ı Başlatın
+
+OCR motorunun bir örneğini oluşturun. Bu nesne, sonraki tüm tanıma çağrılarını yönetecek.
 
 ```csharp
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### 3. Adım: Yoksayılan Karakterlerin Bulunduğu Görüntüyü Tanıyın
+### Adım 3: Yoksayılan Karakterlerle Görüntüyü Tanıyın
+
+Görüntü dosyasını, yok saymak istediğiniz karakterleri listeleyen bir `RecognitionSettings` nesnesiyle birlikte gönderin. Bu örnekte `a`, `b` ve `1` karakterlerini yok sayıyoruz.
 
 ```csharp
-// Belirtilen yok sayılan karakterlere sahip görüntüyü tanı
+// Recognize image with specified ignored characters
 RecognitionResult result = api.RecognizeImage(dataDir + "SpanishOCR.bmp", new RecognitionSettings
 {
     IgnoredCharacters = "ab1"
 });
 ```
 
-### 4. Adım: Tanınan Metni Görüntüleme
+### Adım 4: Tanınan Metni Görüntüleyin
+
+Son olarak, temizlenmiş metni konsola ya da tercih ettiğiniz başka bir çıkış noktasına yazdırın.
 
 ```csharp
-// Tanınan metni görüntüle
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
- Aspose.OCR for .NET, geliştiricilere gelişmiş OCR yetenekleri vererek görüntüleri düzenlenebilir ve aranabilir metne dönüştürme sürecini kolaylaştırıyor. Bu adım adım kılavuzu takip ederek potansiyelinin yüzeyini çizmiş oldunuz. Keşfedin[dokümantasyon](https://reference.aspose.com/ocr/net/) daha derinlemesine bilgiler için Aspose.OCR'ın OCR projelerinizi nasıl geliştirebileceğini keşfedin.
+- **Yanlış yol:** `dataDir` değişkeninin işletim sisteminize uygun bir yol ayırıcı (`\` veya `/`) ile bittiğinden emin olun.  
+- **Desteklenmeyen dil:** OCR motorunun kaynak görüntü için ilgili dil paketine sahip olması gerekir; aksi takdirde yoksayılan karakterler doğru uygulanmaz.  
+- **Lisans hataları:** Lisans istisnası alıyorsanız, geçici lisans dosyasının projenizde doğru şekilde referans alındığını kontrol edin.
 
-## SSS'ler
+## Sonuç
+
+Aspose.OCR for .NET, geliştiricilere gelişmiş OCR yetenekleri sunarak görüntüleri düzenlenebilir ve aranabilir metne dönüştürme sürecini kolaylaştırır. Bu adım‑adım kılavuzu izleyerek istenmeyen karakterleri nasıl dışarıda bırakacağınızı öğrendiniz; böylece OCR boru hatlarınız daha temiz ve daha güvenilir hâle geldi. Daha derin bilgiler için [belgelere](https://reference.aspose.com/ocr/net/) göz atın ve Aspose.OCR'ın OCR projelerinizi nasıl yükseltebileceğini keşfedin.
+
+## Sıkça Sorulan Sorular
 
 ### S1: Aspose.OCR for .NET'i ticari olmayan projelerde kullanabilir miyim?
 
- C1: Evet, Aspose.OCR for .NET hem ticari hem de ticari olmayan projelerde kullanılabilir. Bakın[lisans ayrıntıları](https://purchase.aspose.com/buy) daha fazla bilgi için.
+C1: Evet, Aspose.OCR for .NET hem ticari hem de ticari olmayan projelerde kullanılabilir. Daha fazla bilgi için [lisans detaylarına](https://purchase.aspose.com/buy) bakın.
 
-### S2: Ücretsiz deneme sürümü var mı?
+### S2: Ücretsiz deneme sürümü mevcut mu?
 
- A2: Kesinlikle! Ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) taahhütte bulunmadan önce Aspose.OCR for .NET'in özelliklerini ve avantajlarını keşfetmek.
+C2: Elbette! Aspose.OCR for .NET'in özelliklerini ve avantajlarını keşfetmek için ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S3: Aspose.OCR için nasıl destek alabilirim?
+### S3: Aspose.OCR için destek nasıl alınır?
 
- A3: Sorularınız veya yardım için şu adresi ziyaret edin:[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) toplulukla bağlantı kurmak ve uzman tavsiyesi almak.
+C3: Her türlü soru ve yardım için [Aspose.OCR forumuna](https://forum.aspose.com/c/ocr/16) giderek toplulukla iletişime geçebilir ve uzman tavsiyesi alabilirsiniz.
 
 ### S4: Aspose.OCR hangi dilleri destekliyor?
 
-Cevap4: Aspose.OCR çok çeşitli dilleri destekler, bu da onu OCR görevleri için çok yönlü bir seçim haline getirir. Tam liste için belgelere bakın.
+C4: Aspose.OCR, geniş bir dil yelpazesini destekleyerek OCR görevleri için çok yönlü bir seçim sunar. Tam liste için belgelere bakın.
 
 ### S5: Aspose.OCR için geçici bir lisans satın alabilir miyim?
 
- Cevap5: Evet, geçici lisansa ihtiyacınız varsa alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
+C5: Evet, kısa vadeli kullanım için geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.OCR 23.12 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
