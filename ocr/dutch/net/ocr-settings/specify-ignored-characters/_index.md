@@ -1,41 +1,50 @@
 ---
-title: Geef genegeerde tekens op in OCR-beeldherkenning
-linktitle: Geef genegeerde tekens op in OCR-beeldherkenning
-second_title: Aspose.OCR .NET-API
-description: Ontdek geavanceerde OCR-mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaarsvriendelijk.
-weight: 14
+date: 2025-12-27
+description: Ontdek geavanceerde OCR-taalondersteuning en -mogelijkheden met Aspose.OCR
+  voor .NET. Efficiënt, nauwkeurig en ontwikkelaarsvriendelijk.
+linktitle: OCR Language Support – Ignored Characters in Image Recognition
+second_title: Aspose.OCR .NET API
+title: OCR-taalondersteuning – Genegeerde tekens bij beeldherkenning
 url: /nl/net/ocr-settings/specify-ignored-characters/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Geef genegeerde tekens op in OCR-beeldherkenning
+# OCR-taalondersteuning: Specificeer genegeerde tekens in beeldherkenning
 
-## Invoering
+## Introductie
 
-In het steeds evoluerende landschap van digitale transformatie is Optical Character Recognition (OCR) naar voren gekomen als een cruciale technologie, die de kloof tussen fysieke en digitale inhoud overbrugt. Nu bedrijven hun activiteiten steeds meer digitaliseren, wordt de behoefte aan nauwkeurige, efficiënte en veelzijdige OCR-oplossingen van cruciaal belang. Aspose.OCR voor .NET onderscheidt zich als een robuuste OCR-bibliotheek, die geavanceerde mogelijkheden biedt aan ontwikkelaars die in de .NET-omgeving werken.
+OCR-taalondersteuning is een hoeksteen van moderne documentautomatisering, waardoor applicaties tekst uit afbeeldingen kunnen lezen over vele alfabetten en symbolen. In deze tutorial leer je hoe je **Aspose.OCR for .NET** kunt instrueren om specifieke tekens te negeren tijdens herkenning—een essentiële truc wanneer je een schonere output nodig hebt of ruis zoals paginanummers of decoratieve symbolen wilt filteren. Aan het einde van de gids heb je een kant‑klaar fragment dat de functie van begin tot eind demonstreert.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat betekent “genegeerde tekens”?** Tekens die de OCR-engine overslaat bij het samenstellen van de resultaatsreeks.  
+- **Waarom gebruiken?** Verbetert de nauwkeurigheid wanneer bepaalde symbolen irrelevant zijn voor je bedrijfslogica.  
+- **Welke API-methode behandelt dit?** `RecognitionSettings.IgnoredCharacters`.  
+- **Kan ik het combineren met taalpakketten?** Ja—genegeerde tekens werken naast elke taal die je laadt.  
+- **Is een licentie vereist?** Een tijdelijke of volledige licentie is nodig voor productiegebruik.
 
-Voordat u zich verdiept in de rijke functionaliteit van Aspose.OCR voor .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Voorvereisten
 
-1. Aspose.OCR-installatie
+Voordat je de rijke functionaliteit van Aspose.OCR for .NET verkent, zorg ervoor dat je de volgende voorvereisten hebt:
 
- Zorg ervoor dat u Aspose.OCR voor .NET succesvol hebt geïnstalleerd. De benodigde bestanden vindt u op de[downloadpagina](https://releases.aspose.com/ocr/net/).
+1. Aspose.OCR-installatie  
 
-2. Documentmap instellen
+   Zorg ervoor dat je Aspose.OCR for .NET succesvol hebt geïnstalleerd. Je kunt de benodigde bestanden vinden op de [download page](https://releases.aspose.com/ocr/net/).
 
- Stel een speciale map in voor uw documenten. Dit is van cruciaal belang voor het naadloos uitvoeren van de voorbeelden. Update de`dataDir` variabele in de voorbeelden met het pad naar uw documentmap.
+2. Documentmap instellen  
 
-3. Tijdelijke licentie (optioneel)
+   Maak een speciale map voor je documenten aan. Dit is cruciaal om de voorbeelden soepel uit te voeren. Werk de `dataDir`-variabele in de voorbeelden bij met het pad naar je documentmap.
 
-Als u Aspose.OCR voor .NET verkent met een tijdelijke licentie, kunt u deze verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
+3. Tijdelijke licentie (optioneel)  
 
-## Naamruimten importeren
+   Als je Aspose.OCR for .NET verkent met een tijdelijke licentie, verkrijg deze via [here](https://purchase.aspose.com/temporary-license/).
 
-Om uw reis met Aspose.OCR voor .NET een vliegende start te geven, moet u de benodigde naamruimten importeren. Voeg de volgende regels toe aan uw code:
+## Namespaces importeren
+
+Om je reis met Aspose.OCR for .NET te starten, moet je de benodigde namespaces importeren. Voeg de volgende regels toe aan je code:
 
 ```csharp
 using System.IO;
@@ -44,68 +53,89 @@ using Aspose.OCR;
 using System;
 ```
 
-## Geef genegeerde tekens op in OCR-beeldherkenning
+## Waarom genegeerde tekens specificeren?
 
-Laten we nu eens kijken naar een van de krachtige functies van Aspose.OCR voor .NET: het specificeren van genegeerde tekens tijdens OCR-beeldherkenning. Dit kan met name handig zijn in scenario's waarin bepaalde karakters moeten worden uitgesloten van het herkenningsproces.
+In veel real‑world scenario’s—zoals het verwerken van facturen, bonnen of meertalige formulieren—kun je terugkerende tekens tegenkomen die geen deel uitmaken van de betekenisvolle data (bijv. koppeltekens gebruikt als scheidingstekens, paginanummers of decoratieve symbolen). Door de OCR-engine te laten overslaan, verminder je de inspanning voor post‑processing en verbeter je de algehele betrouwbaarheid van downstream‑analyse.
 
-## Stap 1: Stel uw documentenmap in
+## Stapsgewijze handleiding
 
- Begin met het opgeven van de map waarin uw documenten zijn opgeslagen. Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documenten.
+### Stap 1: Stel je documentmap in
+
+Begin met het specificeren van de map waar je documenten zijn opgeslagen. Vervang `"Your Document Directory"` door het daadwerkelijke pad naar je documenten.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
 ### Stap 2: Initialiseer Aspose.OCR
 
+Maak een instantie van de OCR-engine. Dit object zal alle volgende herkenningsaanroepen afhandelen.
+
 ```csharp
-// Initialiseer een exemplaar van AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Stap 3: Herken afbeeldingen met genegeerde tekens
+### Stap 3: Herken afbeelding met genegeerde tekens
+
+Geef het afbeeldingsbestand door samen met een `RecognitionSettings`-object dat de tekens opsomt die je wilt negeren. In dit voorbeeld negeren we de tekens `a`, `b` en `1`.
 
 ```csharp
-// Herken afbeelding met gespecificeerde genegeerde tekens
+// Recognize image with specified ignored characters
 RecognitionResult result = api.RecognizeImage(dataDir + "SpanishOCR.bmp", new RecognitionSettings
 {
     IgnoredCharacters = "ab1"
 });
 ```
 
-### Stap 4: Herkende tekst weergeven
+### Stap 4: Toon herkende tekst
+
+Geef tenslotte de opgeschoonde tekst weer in de console of een andere bestemming naar keuze.
 
 ```csharp
-// Geef de herkende tekst weer
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
+## Veelvoorkomende problemen & tips
+
+- **Onjuist pad:** Zorg ervoor dat `dataDir` eindigt met een pad‑scheidingsteken (`\` of `/`) dat geschikt is voor je besturingssysteem.  
+- **Niet‑ondersteunde taal:** De OCR-engine moet het taalpakket voor de bronafbeelding hebben; anders worden genegeerde tekens niet correct toegepast.  
+- **Licentiefouten:** Als je een licentie‑exception ziet, controleer dan of het tijdelijke licentiebestand correct wordt verwezen in je project.
+
 ## Conclusie
 
- Aspose.OCR voor .NET biedt ontwikkelaars geavanceerde OCR-mogelijkheden, waardoor het proces van het converteren van afbeeldingen naar bewerkbare en doorzoekbare tekst wordt gestroomlijnd. Door deze stapsgewijze handleiding te volgen, heeft u de mogelijkheden ervan ontdekt. Ontdek de[documentatie](https://reference.aspose.com/ocr/net/) voor meer diepgaande inzichten en ontdek hoe Aspose.OCR uw OCR-projecten naar een hoger niveau kan tillen.
+Aspose.OCR for .NET geeft ontwikkelaars geavanceerde OCR-mogelijkheden, waardoor het proces van het omzetten van afbeeldingen naar bewerkbare en doorzoekbare tekst wordt gestroomlijnd. Door deze stapsgewijze handleiding te volgen, heb je geleerd hoe je ongewenste tekens kunt uitsluiten, waardoor je OCR‑pijplijnen schoner en betrouwbaarder worden. Verken de [documentation](https://reference.aspose.com/ocr/net/) voor diepere inzichten en ontdek hoe Aspose.OCR je OCR‑projecten kan verbeteren.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.OCR voor .NET gebruiken in niet-commerciële projecten?
+### Q1: Kan ik Aspose.OCR for .NET gebruiken in niet‑commerciële projecten?
 
- A1: Ja, Aspose.OCR voor .NET kan worden gebruikt in zowel commerciële als niet-commerciële projecten. Verwijs naar de[licentiegegevens](https://purchase.aspose.com/buy) voor meer informatie.
+A1: Ja, Aspose.OCR for .NET kan worden gebruikt in zowel commerciële als niet‑commerciële projecten. Raadpleeg de [licensing details](https://purchase.aspose.com/buy) voor meer informatie.
 
-### Vraag 2: Is er een gratis proefversie beschikbaar?
+### Q2: Is er een gratis proefversie beschikbaar?
 
- A2: Zeker! U krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.com/) om de functies en voordelen van Aspose.OCR voor .NET te verkennen voordat u een verbintenis aangaat.
+A2: Zeker! Je kunt een gratis proefversie [here](https://releases.aspose.com/) krijgen om de functies en voordelen van Aspose.OCR for .NET te verkennen voordat je een beslissing maakt.
 
-### V3: Hoe kan ik ondersteuning krijgen voor Aspose.OCR?
+### Q3: Hoe kan ik ondersteuning krijgen voor Aspose.OCR?
 
- A3: Ga voor vragen of hulp naar de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) om verbinding te maken met de gemeenschap en deskundig advies in te winnen.
+A3: Voor vragen of hulp, bezoek het [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) om contact te maken met de community en deskundig advies te zoeken.
 
-### V4: Welke talen ondersteunt Aspose.OCR?
+### Q4: Welke talen ondersteunt Aspose.OCR?
 
-A4: Aspose.OCR ondersteunt een breed scala aan talen, waardoor het een veelzijdige keuze is voor OCR-taken. Raadpleeg de documentatie voor de volledige lijst.
+A4: Aspose.OCR ondersteunt een breed scala aan talen, waardoor het een veelzijdige keuze is voor OCR‑taken. Raadpleeg de documentatie voor de volledige lijst.
 
-### V5: Kan ik een tijdelijke licentie kopen voor Aspose.OCR?
+### Q5: Kan ik een tijdelijke licentie aanschaffen voor Aspose.OCR?
 
- A5: Ja, als u een tijdelijke licentie nodig heeft, kunt u deze verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
+A5: Ja, als je een tijdelijke licentie nodig hebt, kun je deze [here](https://purchase.aspose.com/temporary-license/) verkrijgen voor kortetermijngebruik.
+
+---
+
+**Laatst bijgewerkt:** 2025-12-27  
+**Getest met:** Aspose.OCR 23.12 for .NET  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

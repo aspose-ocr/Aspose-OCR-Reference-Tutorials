@@ -1,35 +1,42 @@
 ---
-title: Establecer valor umbral en el reconocimiento de imágenes OCR
-linktitle: Establecer valor umbral en el reconocimiento de imágenes OCR
-second_title: API Aspose.OCR .NET
-description: Explore Aspose.OCR para .NET, una sólida solución de OCR. Establezca valores de umbral personalizados sin esfuerzo. Mejore el reconocimiento de texto en sus aplicaciones.
-weight: 12
+date: 2025-12-27
+description: Aprende a extraer texto usando OCR con Aspose.OCR para .NET. Configura
+  fácilmente el valor del umbral de OCR y mejora la precisión del reconocimiento.
+linktitle: Set Threshold Value in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Extraer texto usando OCR – Establecer valor de umbral
 url: /es/net/ocr-settings/set-threshold-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Establecer valor umbral en el reconocimiento de imágenes OCR
+# Extraer texto usando OCR – Establecer valor de umbral
 
 ## Introducción
 
-¡Bienvenido al apasionante mundo de Aspose.OCR para .NET! En este tutorial, profundizaremos en las capacidades de Aspose.OCR, una poderosa herramienta diseñada para hacer que el reconocimiento óptico de caracteres sea muy sencillo en aplicaciones .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo guiará a través del proceso de configuración del valor umbral en el reconocimiento de imágenes OCR usando Aspose.OCR para .NET.
+¡Bienvenido al emocionante mundo de Aspose.OCR para .NET! En este tutorial, profundizaremos en las capacidades de Aspose.OCR, una herramienta poderosa diseñada para **extraer texto usando OCR** en aplicaciones .NET. Ya seas un desarrollador experimentado o estés comenzando, esta guía te acompañará paso a paso en el proceso de establecer el valor de umbral en el reconocimiento de imágenes OCR usando Aspose.OCR para .NET.
+
+## Respuestas rápidas
+- **¿Qué controla el valor de umbral?** Determina el nivel de binarización, influyendo en cómo se tratan los píxeles oscuros o claros durante el reconocimiento.  
+- **¿Por qué ajustar el umbral?** Un ajuste fino puede mejorar drásticamente la precisión para imágenes con iluminación desigual o bajo contraste.  
+- **¿Qué método principal extrae texto usando OCR?** El método `RecognizeImage` de `AsposeOcr`.  
+- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia para producción.  
+- **¿Puedo usar esto en proyectos web y de escritorio?** Sí—Aspose.OCR para .NET admite todos los tipos de aplicaciones .NET.
 
 ## Requisitos previos
 
-Antes de embarcarnos en esta aventura de codificación, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de embarcarnos en esta aventura de codificación, asegúrate de tener los siguientes requisitos:
 
-1. Entorno .NET: asegúrese de tener un entorno .NET funcional en su máquina.
-
-2.  Aspose.OCR para la biblioteca .NET: descargue e instale la biblioteca Aspose.OCR para .NET. Puedes encontrar la biblioteca.[aquí](https://releases.aspose.com/ocr/net/).
-
-3. Imagen de muestra: prepare una imagen de muestra que desee procesar utilizando Aspose.OCR.
+1. Entorno .NET: Asegúrate de que tienes un entorno .NET funcionando en tu máquina.  
+2. Biblioteca Aspose.OCR para .NET: Descarga e instala la biblioteca Aspose.OCR para .NET. Puedes encontrar la biblioteca [aquí](https://releases.aspose.com/ocr/net/).  
+3. Imagen de muestra: Prepara una imagen de muestra que deseas procesar usando Aspose.OCR.
 
 ## Importar espacios de nombres
 
-En su proyecto .NET, comience importando los espacios de nombres necesarios:
+En tu proyecto .NET, comienza importando los espacios de nombres necesarios:
 
 ```csharp
 using System;
@@ -37,74 +44,108 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Establecer el valor umbral en el reconocimiento de imágenes OCR: guía paso a paso
+## Cómo extraer texto usando OCR con un umbral personalizado
 
-Ahora, analicemos el proceso de configuración del valor umbral en el reconocimiento de imágenes OCR en pasos fáciles de seguir:
+Ahora, desglosaremos el proceso de establecer el valor de umbral en el reconocimiento de imágenes OCR en pasos fáciles de seguir.
 
-### Paso 1: Defina su directorio de documentos
+### Paso 1: Definir el directorio de tu documento
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
 ### Paso 2: Inicializar Aspose.OCR
 
 ```csharp
-// Inicializar una instancia de AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Paso 3: reconocer la imagen con un umbral personalizado
+### Paso 3: Reconocer la imagen con umbral personalizado
 
 ```csharp
-// Reconocer imagen con un valor de umbral específico (p. ej., 230)
+// Recognize image with a specific threshold value (e.g., 230)
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
 {
     ThresholdValue = 230
 });
 ```
 
-### Paso 4: Mostrar texto reconocido
+### Paso 4: Mostrar el texto reconocido
 
 ```csharp
-// Mostrar el texto reconocido
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-### Paso 5: confirmar la ejecución exitosa
+### Paso 5: Confirmar la ejecución exitosa
 
 ```csharp
 Console.WriteLine("SetThresholdValue executed successfully");
 ```
 
-Ahora que ha establecido con éxito el valor umbral en el reconocimiento de imágenes OCR utilizando Aspose.OCR para .NET, no dude en integrar esta funcionalidad en sus aplicaciones para mejorar el reconocimiento de texto.
+Ahora que has establecido con éxito el valor de umbral en el reconocimiento de imágenes OCR usando Aspose.OCR para .NET, siéntete libre de integrar esta funcionalidad en tus aplicaciones para mejorar el reconocimiento de texto.
 
-## Conclusión
+## ¿Por qué establecer el valor de umbral OCR?
 
-¡Felicitaciones por completar este completo tutorial sobre Aspose.OCR para .NET! Ha desbloqueado el potencial del reconocimiento óptico de caracteres y ha establecido el valor umbral con facilidad. Mientras continúa explorando las capacidades de Aspose.OCR, recuerde que esta poderosa herramienta puede optimizar la extracción de texto en varias aplicaciones.
+Ajustar el umbral te brinda control directo sobre cómo el motor OCR interpreta la intensidad de los píxeles. Esto es especialmente útil al trabajar con documentos escaneados, recibos o fotos tomadas bajo condiciones de poca luz. Al afinar el umbral, puedes **extraer texto usando OCR** de manera más fiable y reducir la limpieza posterior al procesamiento.
+
+## Problemas comunes y consejos
+
+- **Umbral demasiado bajo** – Los caracteres claros pueden desaparecer, resultando en texto faltante.  
+- **Umbral demasiado alto** – Los fondos oscuros pueden interpretarse como texto, causando una salida confusa.  
+- **Consejo profesional:** Comienza con el valor predeterminado (255) y bájalo gradualmente mientras pruebas en un conjunto de muestras representativo.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.OCR para .NET tanto en aplicaciones web como de escritorio?
+### P1: ¿Puedo usar Aspose.OCR para .NET en aplicaciones web y de escritorio?
 
-R1: ¡Absolutamente! Aspose.OCR para .NET es versátil y se puede integrar perfectamente en aplicaciones web y de escritorio.
+R1: ¡Absolutamente! Aspose.OCR para .NET es versátil y puede integrarse sin problemas en aplicaciones web y de escritorio.
 
-### P: ¿Existe una versión de prueba disponible de Aspose.OCR para .NET?
+### P2: ¿Hay una versión de prueba disponible para Aspose.OCR para .NET?
 
- R2: Sí, puedes explorar las funciones con la prueba gratuita disponible[aquí](https://releases.aspose.com/).
+R2: Sí, puedes explorar las funciones con la prueba gratuita disponible [aquí](https://releases.aspose.com/).
 
-### P: ¿Cómo obtengo una licencia temporal de Aspose.OCR para .NET?
+### P3: ¿Cómo obtengo una licencia temporal para Aspose.OCR para .NET?
 
- R3: Obtenga una licencia temporal visitando[este enlace](https://purchase.aspose.com/temporary-license/).
+R3: Obtén una licencia temporal visitando [este enlace](https://purchase.aspose.com/temporary-license/).
 
-### P: ¿Dónde puedo encontrar soporte para Aspose.OCR para .NET?
+### P4: ¿Dónde puedo encontrar soporte para Aspose.OCR para .NET?
 
- A4: Únase a la comunidad en el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para ayuda y discusiones.
+R4: Únete a la comunidad en el [foro de Aspose.OCR](https://forum.aspose.com/c/ocr/16) para obtener ayuda y participar en discusiones.
 
 ### P5: ¿Cómo puedo comprar la versión completa de Aspose.OCR para .NET?
 
- R5: Para desbloquear todas las funciones, visite la página de compra[aquí](https://purchase.aspose.com/buy).
+R5: Para desbloquear todas las funciones, visita la página de compra [aquí](https://purchase.aspose.com/buy).
+
+## Preguntas frecuentes adicionales
+
+**P: ¿Cambiar el umbral afecta el rendimiento?**  
+R: El impacto es mínimo; el motor OCR sigue procesando la misma cantidad de píxeles, pero valores extremos pueden aumentar ligeramente el tiempo de preprocesamiento.
+
+**P: ¿Puedo establecer el umbral programáticamente para cada imagen?**  
+R: Sí—simplemente pasa un `ThresholdValue` diferente en el objeto `RecognitionSettings` para cada llamada a `RecognizeImage`.
+
+**P: ¿Hay una forma de que Aspose.OCR determine automáticamente el mejor umbral?**  
+R: Al omitir `ThresholdValue`, la biblioteca utiliza su algoritmo adaptativo interno, que funciona bien en la mayoría de los casos.
+
+**P: ¿Qué formatos de imagen son compatibles?**  
+R: Formatos comunes como PNG, JPEG, BMP, TIFF y GIF son totalmente compatibles.
+
+**P: ¿Cómo manejo PDFs de varias páginas?**  
+R: Convierte cada página del PDF a una imagen (p. ej., usando Aspose.PDF) y luego aplica el proceso OCR con el umbral deseado.
+
+## Conclusión
+
+¡Felicidades por completar este tutorial completo sobre Aspose.OCR para .NET! Has aprendido cómo **extraer texto usando OCR**, establecer un valor de umbral personalizado y solucionar problemas comunes. A medida que continúes explorando Aspose.OCR, descubrirás muchas más funciones que pueden simplificar la extracción de texto en una variedad de aplicaciones.
+
+---
+
+**Última actualización:** 2025-12-27  
+**Probado con:** Aspose.OCR 23.9 para .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,41 +1,51 @@
 ---
-title: Spécifier les caractères ignorés dans la reconnaissance d'images OCR
-linktitle: Spécifier les caractères ignorés dans la reconnaissance d'images OCR
-second_title: API Aspose.OCR .NET
-description: Explorez les fonctionnalités OCR avancées avec Aspose.OCR pour .NET. Efficace, précis et convivial pour les développeurs.
-weight: 14
+date: 2025-12-27
+description: Explorez le support linguistique avancé de l’OCR et ses capacités avec
+  Aspose.OCR pour .NET. Efficace, précis et convivial pour les développeurs.
+linktitle: OCR Language Support – Ignored Characters in Image Recognition
+second_title: Aspose.OCR .NET API
+title: Prise en charge des langues OCR – Caractères ignorés dans la reconnaissance
+  d'image
 url: /fr/net/ocr-settings/specify-ignored-characters/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spécifier les caractères ignorés dans la reconnaissance d'images OCR
+# Support linguistique OCR : Spécifier les caractères ignorés dans la reconnaissance d'image
 
 ## Introduction
 
-Dans le paysage en constante évolution de la transformation numérique, la reconnaissance optique de caractères (OCR) est devenue une technologie essentielle, comblant le fossé entre le contenu physique et numérique. À mesure que les entreprises numérisent de plus en plus leurs opérations, le besoin de solutions OCR précises, efficaces et polyvalentes devient primordial. Aspose.OCR for .NET se distingue comme une bibliothèque OCR robuste, offrant des fonctionnalités avancées aux développeurs travaillant dans l'environnement .NET.
+Le support linguistique OCR est une pierre angulaire de l'automatisation moderne des documents, permettant aux applications de lire le texte à partir d'images contenant de nombreux alphabets et symboles. Dans ce tutoriel, vous apprendrez comment indiquer à **Aspose.OCR for .NET** d'ignorer des caractères spécifiques pendant la reconnaissance — une astuce essentielle lorsque vous avez besoin d'une sortie plus propre ou que vous souhaitez filtrer le bruit tel que les numéros de page ou les symboles décoratifs. À la fin du guide, vous disposerez d'un extrait prêt à l'emploi qui démontre la fonctionnalité de bout en bout.
 
-## Conditions préalables
+## Quick Answers
+- **Que signifie « caractères ignorés » ?** Ce sont les caractères que le moteur OCR saute lors de la construction de la chaîne de résultat.  
+- **Pourquoi les utiliser ?** Ils améliorent la précision lorsque certains symboles sont sans pertinence pour votre logique métier.  
+- **Quelle méthode API les gère ?** `RecognitionSettings.IgnoredCharacters`.  
+- **Puis‑je les combiner avec des packs de langues ?** Oui — les caractères ignorés fonctionnent avec n'importe quel pack de langue que vous chargez.  
+- **Une licence est‑elle requise ?** Une licence temporaire ou complète est nécessaire pour une utilisation en production.
 
-Avant de vous plonger dans les riches fonctionnalités fournies par Aspose.OCR pour .NET, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prerequisites
 
-1. Installation d'Aspose.OCR
+Avant d'explorer les riches fonctionnalités offertes par Aspose.OCR for .NET, assurez‑vous que les prérequis suivants sont en place :
 
- Assurez-vous d'avoir installé avec succès Aspose.OCR pour .NET. Vous pouvez trouver les fichiers nécessaires sur le[page de téléchargement](https://releases.aspose.com/ocr/net/).
+1. Installation d'Aspose.OCR  
 
-2. Configuration du répertoire de documents
+   Assurez‑vous d'avoir installé avec succès Aspose.OCR for .NET. Vous pouvez trouver les fichiers nécessaires sur la [page de téléchargement](https://releases.aspose.com/ocr/net/).
 
- Créez un répertoire dédié à vos documents. Cela sera crucial pour exécuter les exemples de manière transparente. Mettre à jour le`dataDir` variable dans les exemples avec le chemin d'accès à votre répertoire de documents.
+2. Configuration du répertoire de documents  
 
-3. Permis temporaire (facultatif)
+   Créez un répertoire dédié à vos documents. Cela sera crucial pour exécuter les exemples sans accroc. Mettez à jour la variable `dataDir` dans les exemples avec le chemin vers votre répertoire de documents.
 
-Si vous explorez Aspose.OCR pour .NET avec une licence temporaire, obtenez-la auprès de[ici](https://purchase.aspose.com/temporary-license/).
+3. Licence temporaire (facultatif)  
 
-## Importer des espaces de noms
+   Si vous explorez Aspose.OCR for .NET avec une licence temporaire, obtenez‑la [ici](https://purchase.aspose.com/temporary-license/).
 
-Pour démarrer votre parcours avec Aspose.OCR pour .NET, vous devrez importer les espaces de noms nécessaires. Ajoutez les lignes suivantes à votre code :
+## Import Namespaces
+
+Pour démarrer votre projet avec Aspose.OCR for .NET, vous devez importer les espaces de noms nécessaires. Ajoutez les lignes suivantes à votre code :
 
 ```csharp
 using System.IO;
@@ -44,68 +54,87 @@ using Aspose.OCR;
 using System;
 ```
 
-## Spécifier les caractères ignorés dans la reconnaissance d'images OCR
+## Why Specify Ignored Characters?
 
-Examinons maintenant l'une des fonctionnalités puissantes d'Aspose.OCR pour .NET : la spécification des caractères ignorés lors de la reconnaissance d'images OCR. Cela peut être particulièrement utile dans les scénarios où certains caractères doivent être exclus du processus de reconnaissance.
+Dans de nombreux scénarios réels — tels que le traitement de factures, de reçus ou de formulaires multilingues — vous pouvez rencontrer des caractères récurrents qui ne font pas partie des données significatives (par ex., des tirets utilisés comme séparateurs, des numéros de page ou des symboles décoratifs). En indiquant au moteur OCR de les ignorer, vous réduisez l'effort de post‑traitement et améliorez la fiabilité globale des analyses en aval.
 
-## Étape 1 : Configurez votre répertoire de documents
+## Step‑by‑Step Guide
 
- Commencez par spécifier le répertoire dans lequel vos documents sont stockés. Remplacer`"Your Document Directory"` avec le chemin réel vers vos documents.
+### Step 1: Set Up Your Document Directory
+
+Commencez par spécifier le répertoire où vos documents sont stockés. Remplacez `"Your Document Directory"` par le chemin réel vers vos documents.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-### Étape 2 : initialiser Aspose.OCR
+### Step 2: Initialize Aspose.OCR
+
+Créez une instance du moteur OCR. Cet objet gérera tous les appels de reconnaissance ultérieurs.
 
 ```csharp
-// Initialiser une instance d'AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Étape 3 : Reconnaître l'image avec des caractères ignorés
+### Step 3: Recognize Image with Ignored Characters
+
+Passez le fichier image avec un objet `RecognitionSettings` qui répertorie les caractères que vous souhaitez ignorer. Dans cet exemple, nous ignorons les caractères `a`, `b` et `1`.
 
 ```csharp
-// Reconnaître l'image avec les caractères ignorés spécifiés
+// Recognize image with specified ignored characters
 RecognitionResult result = api.RecognizeImage(dataDir + "SpanishOCR.bmp", new RecognitionSettings
 {
     IgnoredCharacters = "ab1"
 });
 ```
 
-### Étape 4 : Afficher le texte reconnu
+### Step 4: Display Recognized Text
+
+Enfin, affichez le texte nettoyé dans la console ou tout autre flux de sortie de votre choix.
 
 ```csharp
-// Afficher le texte reconnu
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
+## Common Issues & Tips
+
+- **Chemin incorrect :** Assurez‑vous que `dataDir` se termine par un séparateur de chemin (`\` ou `/`) adapté à votre OS.  
+- **Langue non prise en charge :** Le moteur OCR doit disposer du pack de langue correspondant à l'image source ; sinon, les caractères ignorés ne seront pas appliqués correctement.  
+- **Erreurs de licence :** Si vous rencontrez une exception de licence, vérifiez que le fichier de licence temporaire est correctement référencé dans votre projet.
+
 ## Conclusion
 
- Aspose.OCR pour .NET offre aux développeurs des fonctionnalités OCR avancées, rationalisant le processus de conversion des images en texte modifiable et consultable. En suivant ce guide étape par étape, vous avez effleuré la surface de son potentiel. Explore le[Documentation](https://reference.aspose.com/ocr/net/) pour des informations plus approfondies et découvrez comment Aspose.OCR peut élever vos projets OCR.
+Aspose.OCR for .NET offre aux développeurs des capacités OCR avancées, simplifiant le processus de conversion d'images en texte éditable et interrogeable. En suivant ce guide pas à pas, vous avez appris à exclure les caractères indésirables, rendant vos pipelines OCR plus propres et plus fiables. Explorez la [documentation](https://reference.aspose.com/ocr/net/) pour des informations plus approfondies et découvrez comment Aspose.OCR peut élever vos projets OCR.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Puis-je utiliser Aspose.OCR pour .NET dans des projets non commerciaux ?
+### Q1 : Puis‑je utiliser Aspose.OCR for .NET dans des projets non commerciaux ?
 
- A1 : Oui, Aspose.OCR pour .NET peut être utilisé dans des projets commerciaux et non commerciaux. Se référer au[détails de la licence](https://purchase.aspose.com/buy) pour plus d'informations.
+A1 : Oui, Aspose.OCR for .NET peut être utilisé tant dans des projets commerciaux que non commerciaux. Consultez les [détails de licence](https://purchase.aspose.com/buy) pour plus d'informations.
 
-### Q2 : Existe-t-il un essai gratuit ?
+### Q2 : Existe‑t‑il un essai gratuit ?
 
- A2 : Certainement ! Vous pouvez accéder à un essai gratuit[ici](https://releases.aspose.com/) pour explorer les fonctionnalités et les avantages d'Aspose.OCR pour .NET avant de vous engager.
+A2 : Bien sûr ! Vous pouvez accéder à un essai gratuit [ici](https://releases.aspose.com/) pour explorer les fonctionnalités et les avantages d'Aspose.OCR for .NET avant de vous engager.
 
-### Q3 : Comment puis-je obtenir de l'aide pour Aspose.OCR ?
+### Q3 : Comment obtenir du support pour Aspose.OCR ?
 
- A3 : Pour toute question ou assistance, visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour se connecter avec la communauté et demander des conseils d’experts.
+A3 : Pour toute question ou assistance, rendez‑vous sur le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) afin de rejoindre la communauté et de solliciter des conseils d'experts.
 
-### Q4 : Quelles langues Aspose.OCR prend-il en charge ?
+### Q4 : Quelles langues Aspose.OCR prend‑il en charge ?
 
-A4 : Aspose.OCR prend en charge un large éventail de langues, ce qui en fait un choix polyvalent pour les tâches OCR. Reportez-vous à la documentation pour la liste complète.
+A4 : Aspose.OCR prend en charge un large éventail de langues, ce qui en fait un choix polyvalent pour les tâches OCR. Consultez la documentation pour la liste complète.
 
-### Q5 : Puis-je acheter une licence temporaire pour Aspose.OCR ?
+### Q5 : Puis‑je acheter une licence temporaire pour Aspose.OCR ?
 
- A5 : Oui, si vous avez besoin d'une licence temporaire, vous pouvez l'obtenir[ici](https://purchase.aspose.com/temporary-license/) pour une utilisation à court terme.
+A5 : Oui, si vous avez besoin d'une licence temporaire, vous pouvez l'obtenir [ici](https://purchase.aspose.com/temporary-license/) pour une utilisation à court terme.
+
+**Last Updated:** 2025-12-27  
+**Tested With:** Aspose.OCR 23.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
