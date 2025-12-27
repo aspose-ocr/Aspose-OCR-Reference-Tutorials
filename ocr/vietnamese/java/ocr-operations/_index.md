@@ -68,8 +68,6 @@ Nói lời tạm biệt với việc trích xuất văn bản thủ công từ h
 
 [Hướng dẫn Nhận dạng TIFF](./recognize-tiff/)
 
-Kết luận, với Danh sách Tutorial Aspose.OCR cho Java, bạn có chìa khóa để khai thác tối đa tiềm năng của các thao tác OCR. Khám phá từng tutorial, tìm hiểu các tính năng, và nâng cao khả năng trích xuất văn bản của bạn. Nói lời tạm biệt với công sức thủ công và đón nhận độ chính xác cùng hiệu quả mà Aspose.OCR cho Java mang lại!
-
 ## Các tutorial Thao tác OCR
 ### [Thực hiện OCR với Detect Areas Mode trong Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Mở khóa sức mạnh của việc trích xuất văn bản từ hình ảnh với Aspose.OCR cho Java. Một tutorial toàn diện về OCR với Detect Areas Mode.
@@ -79,6 +77,8 @@ Mở khóa việc trích xuất văn bản chính xác từ hình ảnh với As
 Mở khóa sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng văn bản trong tài liệu PDF một cách dễ dàng. Tăng cường ứng dụng của bạn với độ chính xác và tốc độ.
 ### [OCR Nhận dạng Hình ảnh TIFF trong Aspose.OCR cho Java](./recognize-tiff/)
 Mở khóa khả năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Nhận dạng văn bản trong hình ảnh TIFF một cách dễ dàng. Tải xuống ngay để có trải nghiệm OCR liền mạch.
+### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

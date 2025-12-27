@@ -79,6 +79,8 @@ weight: 21
 Αποκτήστε τη δύναμη του OCR σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε έγγραφα PDF άψογα. Ενισχύστε τις εφαρμογές σας με ακρίβεια και ταχύτητα.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Αποκτήστε ισχυρή αναγνώριση κειμένου σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε εικόνες TIFF άψογα. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR.
+### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 

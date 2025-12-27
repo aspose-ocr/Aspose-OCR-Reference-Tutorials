@@ -5,7 +5,7 @@ description: Scopri come riconoscere il testo PDF con Aspose.OCR per Java. Esplo
   e migliora l'accuratezza dell'OCR.
 linktitle: OCR Operations
 second_title: Aspose.OCR Java API
-title: Riconoscere il testo PDF – Operazioni OCR con Aspose.OCR per Java
+title: Riconoscere il Testo PDF – Operazioni OCR con Aspose.OCR per Java
 url: /it/java/ocr-operations/
 weight: 21
 ---
@@ -79,6 +79,8 @@ Sblocca un'estrazione precisa del testo dalle immagini con Aspose.OCR per Java. 
 Sblocca il potere dell'OCR in Java con Aspose.OCR. Riconosci il testo nei documenti PDF senza sforzo. Potenzia le tue applicazioni con precisione e velocità.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Sblocca un potente riconoscimento del testo in Java con Aspose.OCR. Riconosci il testo nelle immagini TIFF senza sforzo. Scarica ora per un'esperienza OCR fluida.
+### [Riconoscere il testo di un'immagine con Aspose OCR – Tutorial Java OCR completo](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Scopri come eseguire l'OCR completo su immagini con Aspose OCR in Java, passo‑passo per risultati accurati e rapidi.
 
 ## Domande Frequenti
 
