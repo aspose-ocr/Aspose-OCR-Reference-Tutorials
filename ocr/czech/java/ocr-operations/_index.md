@@ -75,6 +75,7 @@ Uvolněte přesné extrahování textu z obrázků s Aspose.OCR pro Java. Postup
 Uvolněte sílu OCR v Javě s Aspose.OCR. Bez námahy rozpoznávejte text v PDF dokumentech. Posilte své aplikace přesností a rychlostí.
 ### [OCR rozpoznávání TIFF obrázků v Aspose.OCR pro Java](./recognize-tiff/)
 Uvolněte výkonné rozpoznávání textu v Javě s Aspose.OCR. Bez námahy rozpoznávejte text v TIFF obrázcích. Stáhněte si nyní pro plynulý OCR zážitek.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní Java OCR tutoriál](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 
 ## Často kladené otázky
 
