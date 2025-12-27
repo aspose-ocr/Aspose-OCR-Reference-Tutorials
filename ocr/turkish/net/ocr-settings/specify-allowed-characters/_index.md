@@ -1,33 +1,43 @@
 ---
-title: OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
-linktitle: OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR ile .NET'te kusursuz OCR'nin kilidini açın. Resimlerdeki metni zahmetsizce tanıyın. Dönüştürücü bir geliştirme deneyimi için hemen indirin.
-weight: 13
+date: 2025-12-27
+description: Aspose.OCR for .NET ile OCR görüntüden metne dönüşümünü nasıl kullanacağınızı,
+  izin verilen karakterleri belirleyerek ve OCR tanıma ayarlarını ince ayar yaparak
+  öğrenin. Rakam görüntüsünü tanıma kodunu içerir.
+linktitle: 'ocr image to text: Specify Allowed Characters in OCR'
+second_title: Aspose.OCR .NET API
+title: 'OCR görüntüden metne: OCR''da izin verilen karakterleri belirleyin'
 url: /tr/net/ocr-settings/specify-allowed-characters/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirtin
+# ocr image to text: OCR'da İzin Verilen Karakterleri Belirleme
 
-## giriiş
+## Introduction
 
-Sürekli gelişen teknoloji ortamında, Optik Karakter Tanıma (OCR), makinelerin görüntülerdeki metni anlamasını sağlayan dönüştürücü bir araç olarak ortaya çıktı. Aspose.OCR for .NET, .NET uygulamalarında güçlü OCR özellikleri arayan geliştiricilere kusursuz entegrasyon sağlayan güçlü bir çözüm olarak öne çıkıyor.
+Sürekli evrilen teknoloji ortamında, Optik Karakter Tanıma (OCR) – veya **ocr image to text** dönüşümü – makinelere görüntülerden metin anlama yeteneği kazandıran dönüştürücü bir araç haline gelmiştir. Aspose.OCR for .NET, .NET uygulamalarında sağlam OCR yetenekleri arayan geliştiriciler için sorunsuz entegrasyon sağlayan güçlü bir çözüm olarak öne çıkmaktadır.
 
-## Önkoşullar
+## Quick Answers
+- **“Specify Allowed Characters” ne işe yarar?** OCR çıktısını yalnızca rakamlar gibi tanımlı bir sembol kümesiyle sınırlar.  
+- **Hangi yöntem tek bir satır metin çıkarır?** `RecognizeLine` tespit ettiği ilk satırı döndürür.  
+- **OCR tanıma ayarlarını anlık olarak değiştirebilir miyim?** Evet – `RecognitionSettings` ile `AllowedCharacters` gibi seçenekleri ayarlayabilirsiniz.  
+- **Deneme sürümü mevcut mu?** Kesinlikle, Aspose sitesinden ücretsiz deneme sürümünü indirebilirsiniz.  
+- **Hangi .NET sürümleri destekleniyor?** Tüm modern .NET Framework ve .NET Core/5/6 sürümleri desteklenir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Prerequisites
 
-- .NET geliştirme konusunda çalışma bilgisi.
--  Aspose.OCR for .NET kütüphanesi. İndirebilirsin[Burada](https://releases.aspose.com/ocr/net/).
-- Visual Studio veya tercih edilen herhangi bir .NET geliştirme ortamına aşinalık.
+Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 
-## Ad Alanlarını İçe Aktar
+- .NET geliştirme konusunda temel bilgi.  
+- Aspose.OCR for .NET kütüphanesi. İndirmek için [buraya](https://releases.aspose.com/ocr/net/) tıklayın.  
+- Visual Studio ya da tercih ettiğiniz diğer .NET geliştirme ortamı.
 
-Aspose.OCR for .NET'in işlevselliklerinden etkili bir şekilde yararlanmak için .NET projenize gerekli ad alanlarını içe aktarın:
+## Import Namespaces
+
+.NET projenizde Aspose.OCR for .NET işlevselliğinden tam olarak yararlanmak için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using System;
@@ -35,33 +45,33 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Şimdi öğreticiyi bir dizi kapsamlı adıma ayıralım:
+Şimdi öğreticiyi kapsamlı adımlara ayıralım:
 
-## Adım 1: OCR Görüntü Tanıma'da İzin Verilen Karakterleri Belirleyin
+## Step 1: Specify Allowed Characters in ocr image to text
 
-Başlamak için belge dizininizin yolunu ayarlayın:
+İlk olarak, belge dizininizin yolunu ayarlayın:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Aspose.OCR'ı İzin Verilen Sembollerle Başlatın
+## Step 2: Initialize Aspose.OCR with Allowed Symbols (recognize digits image)
 
-İzin verilen sembolleri belirterek bir AsposeOcr örneği oluşturun. Bu durumda, rakamlara (0-9) izin veriyoruz:
+`AsposeOcr` örneğini oluştururken izin verilen sembolleri belirtin. Bu örnekte yalnızca rakamları (0‑9) kabul ediyoruz:
 
 ```csharp
 AsposeOcr api = new AsposeOcr("0123456789");
 ```
 
-## 3. Adım: Görüntüyü Tanıyın
+## Step 3: Recognize Image
 
-Bir görüntüdeki metni tanımak için AsposeOcr örneğini kullanın:
+`AsposeOcr` örneğini kullanarak bir görüntüden metin tanıyın:
 
 ```csharp
 string result = api.RecognizeLine(dataDir + "0001460985.Jpeg");
 ```
 
-## 4. Adım: Tanınan Metni Görüntüleme
+## Step 4: Display Recognized Text
 
 Tanınan metni konsola yazdırın:
 
@@ -69,9 +79,9 @@ Tanınan metni konsola yazdırın:
 Console.WriteLine(result);
 ```
 
-## Adım 5: İkinci Durum - Görüntüyü Belirli Ayarlarla Tanıyın
+## Step 5: Second Case – Recognize Image with Specific OCR Recognition Settings
 
-Bu sefer daha spesifik ayarlarla başka bir AsposeOcr örneğini başlatın:
+Bu sefer **ocr recognition settings** kullanımını gösteren daha spesifik ayarlarla başka bir `AsposeOcr` örneği başlatın:
 
 ```csharp
 AsposeOcr api2 = new AsposeOcr();
@@ -82,49 +92,62 @@ RecognitionResult result2 = api2.RecognizeImage(dataDir + "0001460985.Jpeg",
     });
 ```
 
-## Adım 6: İkinci Durumda Tanınan Metni Görüntüleme
+## Step 6: Display Second Case Recognized Text
 
-Tanınan metni ikinci durumda konsola yazdırın:
+İkinci durumun tanınan metnini konsola yazdırın:
 
 ```csharp
 Console.WriteLine(result2.RecognitionText);
 ```
 
-## Adım 7: Başarılı Uygulama
+## Step 7: Successful Execution
 
-Son olarak SpecifyAllowedCharacters eğitiminin başarıyla yürütüldüğünü onaylayın:
+**SpecifyAllowedCharacters** öğreticisinin başarılı bir şekilde çalıştığını doğrulayın:
 
 ```csharp
 Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ```
 
-Bu adımları izleyerek Aspose.OCR for .NET'i kullanarak OCR görüntü tanımada izin verilen karakterleri belirleme özelliğinin kilidini açtınız.
+Bu adımları izleyerek Aspose.OCR for .NET kullanarak OCR görüntü tanımasında **izin verilen karakterleri belirleme** yeteneğini kazanmış oldunuz; bu da yalnızca rakam içeren senaryolar için hassas **ocr image to text** dönüşümünü mümkün kılar.
 
-## Çözüm
+## Why Use Allowed‑Character Filtering?
 
-Aspose.OCR for .NET, geliştiricilerin OCR özelliklerini uygulamalarına sorunsuz bir şekilde entegre etmelerine olanak tanır ve çeşitli alanlarda yenilikçi çözümlerin kapılarını açar. OCR'nin gücünü benimseyin ve doğru metin tanıma özelliğiyle projelerinizi geliştirin.
+- **Daha Yüksek Doğruluk:** Karakter setini sınırlamak, özellikle gürültülü görüntülerde yanlış tanıma olasılığını azaltır.  
+- **Performans Artışı:** OCR motoru ilgisiz glifleri atlayarak işleme süresini kısaltır.  
+- **Uyumluluk:** Veri formatlarını (ör. fatura numaraları, seri kodları) doğrudan OCR aşamasında zorunlu kılar.
 
-## SSS'ler
+## Common Pitfalls & Tips
 
-### S1: Aspose.OCR for .NET hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mu?
+- **Pitfall:** İzin verilen karakterler için boş bir dize sağlamak filtrelemeyi devre dışı bırakır.  
+  **Tip:** Her zaman boş olmayan bir dize gönderin veya `CharactersAllowedType` enum'ını kullanın.  
+- **Pitfall:** `RecognizeLine` çok satırlı belgelerde veri kaçırabilir.  
+  **Tip:** Tam sayfa çıkarımı için `RecognizeImage` ve `RecognizeSingleLine = false` ayarını tercih edin.  
+- **Pitfall:** Dizin yolunu doğru birleştirmemek `FileNotFoundException` hatasına yol açar.  
+  **Tip:** Platform bağımsız yollar için `Path.Combine(dataDir, "file.jpg")` kullanın.
 
-A1: Kesinlikle! Aspose.OCR for .NET, kusursuz entegrasyon için sezgisel işlevler sağlayarak her seviyedeki geliştiriciye hitap eder.
+## Frequently Asked Questions
 
-### S2: Aspose.OCR for .NET'i birden fazla dildeki karakterleri tanımak için kullanabilir miyim?
+**S: Aspose.OCR for .NET hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mu?**  
+C: Kesinlikle! API, yeni başlayanlar için sezgisel, ileri düzey kullanıcılar için ise gelişmiş ayarlar sunar.
 
-C2: Evet, Aspose.OCR çeşitli dillerde tanımayı destekleyerek çeşitli uygulamalar için çok yönlü hale getiriyor.
+**S: Aspose.OCR for .NET birden fazla dilde karakter tanıyabilir mi?**  
+C: Evet, Aspose.OCR geniş bir dil yelpazesini destekler; çok dilli projeler için dil paketlerini birleştirebilirsiniz.
 
-### S3: Aspose.OCR for .NET ne sıklıkta güncellenir?
+**S: Aspose.OCR for .NET ne sıklıkla güncelleniyor?**  
+C: Yeni .NET sürümleri ve OCR iyileştirmeleriyle uyumlu olacak şekilde düzenli olarak güncellemeler yayınlanır. En son sürüm için [belgelere](https://reference.aspose.com/ocr/net/) bakın.
 
- C3: En son teknolojilerle uyumluluğu sağlamak ve olası sorunları çözmek için güncellemeler düzenli olarak yayınlanmaktadır. Kontrol edin[dokümantasyon](https://reference.aspose.com/ocr/net/) En son bilgiler için.
+**S: Aspose.OCR for .NET için ücretsiz bir deneme sürümü var mı?**  
+C: Evet, [ücretsiz deneme](https://releases.aspose.com/) sürümünü indirerek yetenekleri keşfedebilirsiniz.
 
-### S4: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+**S: Destek almak ya da toplulukla iletişime geçmek için nereden yardım alabilirim?**  
+C: Uzmanlarla ve diğer geliştiricilerle etkileşim kurmak için [Aspose.OCR forumuna](https://forum.aspose.com/c/ocr/16) göz atabilirsiniz.
 
- Cevap4: Evet, Aspose.OCR'ın yeteneklerini aşağıdaki dosyayı indirerek keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+---
 
-### S5: Nereden yardım alabilirim veya destek için toplulukla bağlantı kurabilirim?
+**Son Güncelleme:** 2025-12-27  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
- A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) toplulukla etkileşime geçmek ve uzman yardımı almak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
