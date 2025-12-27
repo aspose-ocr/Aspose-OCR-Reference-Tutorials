@@ -36,7 +36,7 @@ Achieve unparalleled OCR accuracy with [Aspose.OCR for .NET](./result-correction
 
 ## Save Multipage Result as Document in OCR Image Recognition
 
-Effortlessly save multipage OCR results as documents with Aspose.OCR for .NET. Our [step-by-step guide](./save-multipage-result-as-document/) unlocks the full potential of document creation. Seamlessly integrate Aspose.OCR and transform your OCR results into multipage documents with ease.
+Effortlessly save multippage OCR results as documents with Aspose.OCR for .NET. Our [step-by-step guide](./save-multipage-result-as-document/) unlocks the full potential of document creation. Seamlessly integrate Aspose.OCR and transform your OCR results into multipage documents with ease.
 
 Using Aspose.OCR For .NET Tutorials Listing, you can access additional resources and stay updated on the latest advancements in OCR optimization. Dive into the world of precision and efficiency with Aspose.OCR for .NET tutorials.
 ## OCR Optimization Tutorials
@@ -50,6 +50,8 @@ Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Down
 Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+### [Create console logger and correct tables with AsposeAI](./create-console-logger-and-correct-tables-with-asposeai/)
+Learn how to build a console logger and automatically correct tables using AsposeAI for enhanced data processing.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -50,6 +50,8 @@ Przeglądaj Aspose.OCR dla .NET. Zwiększ dokładność OCR dzięki filtrom prze
 Zwiększ dokładność OCR dzięki Aspose.OCR dla .NET. Poprawiaj pisownię, dostosowuj słowniki i bezproblemowo rozpoznawaj tekst bez błędów.
 ### [Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR dla .NET. Z łatwością zapisuj wielostronicowe wyniki OCR jako dokumenty, korzystając z tego obszernego przewodnika krok po kroku.
+### [Utwórz logger konsoli i popraw tabele przy użyciu AsposeAI](./create-console-logger-and-correct-tables-with-asposeai/)
+Dowiedz się, jak stworzyć logger konsoli i automatycznie korygować tabele przy pomocy AsposeAI w aplikacjach .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

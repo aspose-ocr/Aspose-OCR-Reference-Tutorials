@@ -50,6 +50,9 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter pra-pemrose
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
+### [Buat logger konsol dan koreksi tabel dengan AsposeAI](./create-console-logger-and-correct-tables-with-asposeai/)
+Pelajari cara membuat logger konsol dan memperbaiki tabel secara otomatis menggunakan AsposeAI dalam aplikasi .NET Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
