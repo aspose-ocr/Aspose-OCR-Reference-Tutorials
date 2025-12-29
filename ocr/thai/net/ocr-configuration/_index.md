@@ -39,6 +39,8 @@ url: /th/net/ocr-configuration/
 ปลดล็อกความสามารถ OCR อันทรงพลังด้วย Aspose.OCR สำหรับ .NET แยกข้อความจากรูปภาพได้อย่างลงตัว
 ### [OCROperation พร้อมรายการในการจดจำรูปภาพ OCR](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ดำเนินการจดจำรูปภาพ OCR พร้อมรายการได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานและการดึงข้อมูลในแอปพลิเคชันของคุณ
+### [สกัดข้อความรัสเซียและตั้งค่าเส้นทางทรัพยากรใน C# – คู่มือ Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+สกัดข้อความรัสเซียจากรูปภาพและกำหนดเส้นทางทรัพยากรใน C# ด้วย Aspose OCR อย่างง่ายดาย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

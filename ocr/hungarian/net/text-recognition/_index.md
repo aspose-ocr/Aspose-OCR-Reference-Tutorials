@@ -53,8 +53,21 @@ Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhe
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
+### [Hogyan OCR PDF-et C#‑ban – Lépésről‑lépésre útmutató](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Ismerje meg, hogyan OCR-elj PDF fájlokat C#‑ban Aspose.OCR használatával, lépésről‑lépésre útmutatóval.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag – Szöveg felismerése JPG-ből percek alatt](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Ismerje meg, hogyan ismerheti fel a szöveget JPG képeken néhány perc alatt C# és Aspose.OCR segítségével.
+### [JPG-ből szöveg felismerése C#-ban – Teljes OCR oktatóanyag](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Ismerje meg, hogyan ismerhet fel szöveget JPG képeken C# és Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Hogyan használjuk az Aspose OCR-t C#-ban – Koreai szöveg felismerése képekről](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Ismerje meg, hogyan ismerhet fel koreai szöveget képeken C# és Aspose OCR segítségével.
+### [Kereshető PDF létrehozása TIFF-ből – Teljes C# útmutató](./create-searchable-pdf-from-tiff-full-c-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et TIFF fájlokból C# és Aspose.OCR segítségével.
+### [Képek szöveggé konvertálása – Teljes kötegelt OCR útmutató C# fejlesztőknek](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+Tanulja meg, hogyan konvertáljon nagy mennyiségű képet szöveggé C# és Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

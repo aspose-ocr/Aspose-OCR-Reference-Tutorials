@@ -40,6 +40,9 @@ Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks akurat 
 Bebaskan kecanggihan Aspose.OCR untuk .NET, solusi tangguh untuk pengenalan gambar. Pelajari cara menghitung sudut kemiringan dengan mudah.
 ### [Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR](./calculate-skew-angle-from-uri/)
 Jelajahi Aspose.OCR untuk .NET untuk menghitung sudut kemiringan dengan mudah dalam pengenalan gambar OCR. Tingkatkan proyek Anda dengan presisi dan efisiensi.
+### [Cara Mengoreksi Kemiringan Gambar – Panduan Lengkap C# untuk Pra‑pemrosesan OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Pelajari cara mengoreksi kemiringan gambar menggunakan C# untuk meningkatkan akurasi OCR dalam proyek Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

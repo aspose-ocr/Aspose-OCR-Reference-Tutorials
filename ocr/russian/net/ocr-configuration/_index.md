@@ -39,6 +39,9 @@ url: /ru/net/ocr-configuration/
 Разблокируйте мощные возможности распознавания с помощью Aspose.OCR для .NET. Легко извлекайте текст из изображений.
 ### [OCROОперация со списком в распознавании изображений OCR](./ocr-operation-with-list/)
 Раскройте потенциал Aspose.OCR для .NET. Легко выполняйте распознавание изображений OCR с помощью списков. Повысьте производительность и извлечение данных в ваших приложениях.
+### [Извлечение русского текста и установка пути к ресурсам в C# – руководство Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Научитесь извлекать русский текст и задавать путь к ресурсам в приложениях .NET с помощью Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

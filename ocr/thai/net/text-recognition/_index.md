@@ -35,7 +35,10 @@ url: /th/net/text-recognition/
 
 ## รับรู้ PDF ในการรับรู้ภาพ OCR
 
-ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดายและรวมเข้ากับแอปพลิเคชันของคุณได้อย่างราบรื่น บทช่วยสอนนี้ให้คำแนะนำที่ครอบคลุมในการจดจำข้อความใน PDF เพื่อให้มั่นใจว่าจะได้รับประสบการณ์การบูรณาการที่ราบรื่นและมีประสิทธิภาพ
+ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
+
+### [วิธีทำ OCR PDF ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+เรียนรู้วิธีทำ OCR บนไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอนเพื่อการแยกข้อความที่แม่นยำและง่ายดาย
 
 ## จดจำตารางในการจดจำรูปภาพ OCR
 
@@ -55,6 +58,15 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [แปลงรูปภาพเป็น DOCX ใน C# – คู่มือ Aspose OCR ฉบับเต็ม](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็นไฟล์ DOCX ด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
+### [แปลงรูปภาพเป็นข้อความ – คู่มือ OCR แบบแบตช์เต็มสำหรับนักพัฒนา C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+เรียนรู้วิธีแปลงรูปภาพเป็นข้อความด้วย OCR แบบแบตช์สำหรับ C# อย่างละเอียด
+### [c# OCR tutorial – จดจำข้อความจาก JPG ในไม่กี่นาที](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือเต็ม C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

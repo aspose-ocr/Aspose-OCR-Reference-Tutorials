@@ -40,6 +40,8 @@ Entdecken Sie Aspose.OCR für .NET, eine leistungsstarke OCR-Lösung für die ge
 Nutzen Sie die Leistungsfähigkeit von Aspose.OCR für .NET, einer robusten Lösung für die Bilderkennung. Erfahren Sie, wie Sie Schräglaufwinkel mühelos berechnen.
 ### [Berechnen Sie den Schrägwinkel aus URI in der OCR-Bilderkennung](./calculate-skew-angle-from-uri/)
 Entdecken Sie Aspose.OCR für .NET, um Schräglaufwinkel bei der OCR-Bilderkennung mühelos zu berechnen. Verbessern Sie Ihre Projekte mit Präzision und Effizienz.
+### [Wie man ein Bild deskewt – Vollständiger C#‑Leitfaden für OCR‑Vorverarbeitung](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Erfahren Sie, wie Sie Bilder mit C# deskewen, um die OCR‑Erkennung zu optimieren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
