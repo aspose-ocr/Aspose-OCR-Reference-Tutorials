@@ -64,6 +64,7 @@ weight: 25
 Χρησιμοποιώντας το Aspose.OCR For .NET Tutorials Listing, μπορείτε να έχετε πρόσβαση σε πρόσθετους πόρους και να μένετε ενημερωμένοι για τις τελευταίες εξελίξεις στη βελτιστοποίηση OCR. Βυθιστείτε στον κόσμο της ακρίβειας και της αποδοτικότητας με τα μαθήματα Aspose.OCR for .NET.
 
 ## Μαθήματα Βελτιστοποίησης OCR
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Εξερευνήστε αδιάλειπτη ενσωμάτωση OCR με Aspose.OCR for .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -74,7 +75,17 @@ weight: 25
 Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+### [Πώς να χρησιμοποιήσετε το OCR σε C# – Εξαγωγή κειμένου από εικόνες με επιτάχυνση GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Μάθετε πώς να εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
+### [Δημιουργία αναζητήσιμου PDF με batch OCR – Οδηγός C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Μάθετε πώς να δημιουργήσετε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας batch OCR σε C# με το Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Συχνές Ερωτήσεις
 
 **Q: Can I extract text from image files that contain multiple languages?**  

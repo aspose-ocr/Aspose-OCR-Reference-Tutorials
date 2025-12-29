@@ -54,6 +54,7 @@ Nâng tầm khả năng OCR của bạn bằng cách làm chủ **ocr language s
 Khám phá tiềm năng rộng lớn của Aspose.OCR cho .NET khi bạn thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Bài hướng dẫn này không chỉ nâng cao việc trích xuất văn bản mà còn tăng năng suất trong việc xử lý các bộ dữ liệu đa dạng. Khám phá hiệu quả của OCR với các thao tác danh sách.
 
 ## Hướng dẫn Cấu hình OCR
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Học cách trích xuất văn bản từ các hình ảnh trong archive từng bước một.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -71,7 +72,15 @@ Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng h
 ### Mẹo & Cạm bẫy
 - **Pro tip:** Luôn tiền xử lý hình ảnh (ví dụ: chỉnh góc, nhị phân) để cải thiện độ chính xác.  
 - **Warning:** Các tệp lưu trữ lớn có thể tiêu tốn nhiều bộ nhớ; hãy xem xét xử lý theo lô.  
+### [Trích xuất văn bản tiếng Nga & thiết lập đường dẫn tài nguyên trong C# – Hướng dẫn Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và cấu hình đường dẫn tài nguyên trong Aspose.OCR cho C#.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Câu hỏi thường gặp
 
 **Q: Can I use Aspose.OCR in a commercial .NET application?**  

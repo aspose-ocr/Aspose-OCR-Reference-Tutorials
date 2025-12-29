@@ -54,6 +54,7 @@ Aspose.OCR for .NET’te **ocr language selection** konusunu ustalaşarak OCR ye
 Aspose.OCR for .NET’in geniş potansiyelini keşfedin ve listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Bu öğretici, sadece metin çıkarımını iyileştirmekle kalmaz, aynı zamanda çeşitli veri setlerini yönetirken üretkenliği artırır. Liste işlemleriyle OCR verimliliğini ortaya çıkarın.
 
 ## OCR Yapılandırma Öğreticileri
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Aspose.OCR ile .NET uygulamalarında OCR potansiyelini ortaya çıkarın. Arşiv görüntülerinden adım adım metin çıkarın.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -71,7 +72,14 @@ Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görün
 ### İpuçları & Tuzaklar
 - **Profesyonel ipucu:** Doğruluğu artırmak için her zaman görüntüleri ön işleme (ör. eğrilik düzeltme, ikilileştirme) yapın.  
 - **Uyarı:** Büyük arşivler önemli bellek tüketebilir; toplu işleme yapmayı değerlendirin.  
+### [C#'ta Rusça Metin Çıkarma ve Kaynak Yolu Ayarlama – Aspose OCR Rehberi](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose.OCR ile C# uygulamanızda Rusça metin çıkarın ve kaynak yolunu nasıl ayarlayacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.OCR’ı ticari bir .NET uygulamasında kullanabilir miyim?**  

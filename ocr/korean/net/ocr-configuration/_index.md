@@ -53,6 +53,7 @@ Aspose.OCR for .NET에서 **OCR 언어 선택**을 마스터하여 다양한 언
 Aspose.OCR for .NET을 활용해 리스트 기반으로 OCR 이미지 인식을 수행하는 방법을 탐구합니다. 텍스트 추출을 향상시키고 다양한 데이터 세트를 효율적으로 처리하여 생산성을 높이세요.
 
 ## OCR 구성 튜토리얼
+
 ### [아카이브와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-archive/)
 Aspose.OCR을 활용해 .NET 애플리케이션에서 아카이브 이미지의 텍스트를 단계별로 추출하는 방법을 배웁니다.  
 ### [폴더와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-folder/)
@@ -70,7 +71,14 @@ Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽
 ### 팁 & 주의사항
 - **전문가 팁:** 정확도를 높이려면 항상 이미지 전처리(예: 기울기 보정, 이진화)를 수행하세요.  
 - **경고:** 대용량 아카이브는 메모리를 많이 차지할 수 있으니 배치 처리 방식을 고려하세요.  
+### [C#에서 러시아어 텍스트 추출 및 리소스 경로 설정 – Aspose OCR 가이드](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+C#에서 Aspose OCR을 사용해 러시아어 텍스트를 추출하고 리소스 경로를 설정하는 방법을 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 자주 묻는 질문
 
 **Q: 상용 .NET 애플리케이션에서 Aspose.OCR을 사용할 수 있나요?**  

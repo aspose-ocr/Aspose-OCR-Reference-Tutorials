@@ -55,6 +55,19 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de t
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Tutorial c# OCR – Reconheça Texto de JPG em Minutos](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Aprenda a usar Aspose.OCR em C# para reconhecer texto em imagens JPG rapidamente, em poucos minutos.
+### [Reconheça Texto de JPG em C# – Tutorial Completo de OCR](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Aprenda a usar Aspose.OCR em C# para reconhecer texto em imagens JPG de forma completa e detalhada.
+### [Como usar Aspose OCR em C# – Reconhecer texto coreano de imagens](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Aprenda a usar Aspose OCR em C# para reconhecer texto em coreano a partir de imagens de forma rápida e precisa.
+### [Criar PDF pesquisável a partir de TIFF – Guia completo em C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose.OCR com C#, passo a passo.
+### [Converter Imagens em Texto – Guia Completo de OCR em Lote para Desenvolvedores C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+Aprenda a converter múltiplas imagens em texto usando OCR em lote com C#, passo a passo.
+### [Como fazer OCR de PDF em C# – Guia passo a passo](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Aprenda a usar Aspose.OCR em C# para fazer OCR de PDFs passo a passo, extraindo texto com facilidade.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

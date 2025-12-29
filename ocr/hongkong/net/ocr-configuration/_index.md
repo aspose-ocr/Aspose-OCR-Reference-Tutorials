@@ -52,6 +52,7 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 探索 Aspose.OCR for .NET 的廣闊潛能，輕鬆使用清單執行 OCR 影像辨識。本教學不僅提升文字擷取效率，亦提升處理多樣資料集的生產力，讓您體驗清單操作下的 OCR 效能。
 
 ## OCR 設定教學課程
+
 ### [OCR 影像辨識中對存檔檔案的 OCR 操作](./ocr-operation-with-archive/)
 使用 Aspose.OCR 在 .NET 應用程式中釋放 OCR 的潛力。學習如何逐步從存檔圖像中提取文字。
 ### [OCR 影像辨識中對資料夾檔案的 OCR 操作](./ocr-operation-with-folder/)
@@ -69,7 +70,15 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 ### 使用技巧與注意事項
 - **Pro tip:** 始終先對影像進行前處理（例如去斜、二值化），以提升準確度。  
 - **Warning:** 大型壓縮檔可能佔用大量記憶體，建議分批處理。
+### [在 C# 中提取俄文文字並設定資源路徑 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+示範如何在 C# 使用 Aspose.OCR 提取俄文文字並設定資源路徑。
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常見問題解答
 
 **問：我可以在商業 .NET 應用程式中使用 Aspose.OCR 嗎？ ** 答：可以，一旦您獲得有效的 Aspose 許可證，該庫即可完全支援商業用途。

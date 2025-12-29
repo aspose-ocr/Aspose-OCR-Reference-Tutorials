@@ -64,6 +64,7 @@ Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met Aspose.OCR v
 Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR‑optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET tutorials.
 
 ## OCR-optimalisatie tutorials
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Ontdek naadloze OCR‑integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -74,7 +75,17 @@ Verken Aspose.OCR voor .NET. Verhoog OCR‑nauwkeurigheid met preprocessing‑fi
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze teksterkenning.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
+### [Hoe OCR te gebruiken in C# – Tekst uit afbeeldingen halen met GPU-versnelling](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Leer hoe u OCR in C# kunt inzetten met GPU-versnelling om snel tekst uit afbeeldingen te extraheren.
+### [Maak doorzoekbare PDF met batch-OCR – C#-gids](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Leer hoe u met batch-OCR doorzoekbare PDF's maakt in C# met Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Veelgestelde vragen
 
 **Q: Kan ik tekst uit afbeeldingsbestanden extraheren die meerdere talen bevatten?**  

@@ -63,6 +63,7 @@ weight: 25
 باستخدام قائمة دروس Aspose.OCR For .NET، يمكنك الوصول إلى موارد إضافية والبقاء محدثًا بأحدث التطورات في تحسين OCR. انغمس في عالم الدقة والكفاءة مع دروس Aspose.OCR for .NET.
 
 ## دروس تحسين OCR
+
 ### [إجراء OCR على صورة من URL في التعرف على الصور باستخدام OCR](./perform-ocr-on-image-from-url/)
 استكشف تكامل OCR السلس مع Aspose.OCR for .NET. تعرف على النص من الصور بدقة.
 ### [إعداد المستطيلات في التعرف على الصور باستخدام OCR](./prepare-rectangles/)
@@ -73,7 +74,16 @@ weight: 25
 حسّن دقة OCR مع Aspose.OCR for .NET. صحّح الأخطاء الإملائية، خصّص القواميس، واحصل على نص خالٍ من الأخطاء بسهولة.
 ### [حفظ النتيجة متعددة الصفحات كمستند في التعرف على الصور باستخدام OCR](./save-multipage-result-as-document/)
 افتح إمكانات Aspose.OCR for .NET. احفظ نتائج OCR متعددة الصفحات كمستندات بسهولة من خلال هذا الدليل الشامل خطوة بخطوة.
+### [كيفية استخدام OCR في C# – استخراج النص من الصور باستخدام تسريع GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+تعلم كيفية الاستفادة من OCR في C# لاستخراج النص من الصور مع تسريع GPU لتحسين الأداء والدقة.
+### [إنشاء PDF قابل للبحث باستخدام OCR دفعي – دليل C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+دليل لإنشاء ملفات PDF قابلة للبحث باستخدام OCR دفعة واحدة في C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخراج النص من ملفات صور تحتوي على لغات متعددة؟**  

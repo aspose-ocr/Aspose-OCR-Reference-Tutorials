@@ -54,6 +54,7 @@ Podnieś możliwości OCR na wyższy poziom, opanowując **ocr language selectio
 Poznaj ogromny potencjał Aspose.OCR dla .NET, wykonując rozpoznawanie obrazu OCR przy użyciu list. Ten samouczek nie tylko usprawnia wyodrębnianie tekstu, ale także zwiększa produktywność przy obsłudze różnorodnych zestawów danych. Odkryj efektywność OCR w operacjach na listach.
 
 ## Samouczki konfiguracji OCR
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Odkryj potencjał OCR w aplikacjach .NET z Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów w archiwach.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -71,7 +72,14 @@ Wykorzystaj potencjał Aspose.OCR dla .NET. Łatwo wykonuj rozpoznawanie obrazu 
 ### Wskazówki i pułapki
 - **Pro tip:** Zawsze wstępnie przetwarzaj obrazy (np. prostuj, binaryzuj), aby poprawić dokładność.  
 - **Ostrzeżenie:** Duże archiwa mogą zużywać znaczną ilość pamięci; rozważ przetwarzanie w partiach.  
+### [wyodrębnij rosyjski tekst i ustaw ścieżkę zasobów w C# – przewodnik Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Dowiedz się, jak wyodrębnić rosyjski tekst i skonfigurować ścieżkę zasobów w Aspose OCR przy użyciu C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać Aspose.OCR w komercyjnej aplikacji .NET?**  

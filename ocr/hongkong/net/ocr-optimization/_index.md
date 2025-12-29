@@ -62,6 +62,7 @@ weight: 25
 透過 Aspose.OCR for .NET 教學清單，您可取得更多資源，並持續關注 OCR 優化的最新進展。深入探索 Aspose.OCR for .NET 教學，體驗精確與效率的結合。
 
 ## OCR 優化教學
+
 ### [在 OCR 圖像辨識中從 URL 執行圖像 OCR](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的無縫 OCR 整合，精準辨識圖像文字。
 ### [在 OCR 圖像辨識中準備矩形區域](./prepare-rectangles/)
@@ -72,7 +73,16 @@ weight: 25
 使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
 ### [在 OCR 圖像辨識中將多頁結果儲存為文件](./save-multipage-result-as-document/)
 解鎖 Aspose.OCR for .NET 的潛能，透過本完整步驟教學，輕鬆將多頁 OCR 結果儲存為文件。
+### [如何在 C# 中使用 OCR – 使用 GPU 加速從圖像提取文字](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+了解如何在 C# 中利用 GPU 加速執行 OCR，快速從圖像中提取高精度文字。
+### [使用批次 OCR 建立可搜尋 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
+透過批次 OCR 將多頁文件轉換為可搜尋的 PDF，提升文件管理與搜尋效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常見問題
 
 **Q: 我可以從包含多種語言的圖像檔案中提取文字嗎？**  

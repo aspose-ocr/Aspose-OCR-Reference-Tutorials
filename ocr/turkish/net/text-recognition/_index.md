@@ -21,9 +21,9 @@ url: /tr/net/text-recognition/
 
 Bu eğitimde, görüntü tanıma yeteneklerinizi geliştirmek için Aspose.OCR for .NET'in gücünden yararlanmanız konusunda size rehberlik edeceğiz. Uygulamalarınızda doğruluk ve verimlilik sağlayarak, tanınan karakterlere ilişkin seçimleri nasıl alacağınızı adım adım öğrenin. Aspose.OCR'ın üstün özellikleriyle OCR deneyiminizi geliştirin.
 
-## OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+## OCR Görüntü Tanıma'da Tanıma Sonucunu Al
 
-Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizi dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
+Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizı dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
 
 ## OCR Görüntü Tanıma'da Sonucu JSON Olarak Al
 
@@ -53,8 +53,23 @@ Aspose.OCR for .NET'in gücünü açığa çıkarın. OCR sonuçlarını JSON fo
 Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
 ### [OCR Görüntü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
+### [C# ile PDF OCR Nasıl Yapılır – Adım Adım Kılavuz](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+C# kullanarak PDF dosyalarından metni hızlı ve doğru bir şekilde OCR ile çıkarın. Adım adım kılavuzla süreci kolaylaştırın.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [c# ocr eğitimi – JPG'den Metin Tanıma Dakikalar İçinde](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+c# kullanarak JPG dosyalarından hızlıca metin tanıma işlemini adım adım öğrenin.
+### [JPG'den Metin Tanıma C# – Tam OCR Eğitimi](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+C# ile JPG dosyalarından metin tanımayı adım adım öğrenin ve Aspose.OCR'ın tam gücünden faydalanın.
+### [Aspose OCR'ı C#'ta Nasıl Kullanılır – Görüntülerden Korece Metin Tanıma](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+C# ile Aspose OCR kullanarak görüntülerden Korece metni hızlı ve doğru bir şekilde tanıyın.
+### [TIFF'ten Aranabilir PDF Oluşturma – Tam C# Kılavuzu](./create-searchable-pdf-from-tiff-full-c-guide/)
+C# kullanarak TIFF dosyalarından aranabilir PDF oluşturmayı adım adım öğrenin.
+### [Görüntüyü DOCX'e Dönüştürme C# – Tam Aspose OCR Kılavuzu](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
+C# kullanarak görüntüleri DOCX formatına dönüştürmeyi adım adım öğrenin ve Aspose OCR'ın tam gücünden faydalanın.
+### [Görüntüleri Metne Dönüştürme – C# Geliştiricileri için Tam Toplu OCR Kılavuzu](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+C# ile toplu olarak görüntüleri metne dönüştürmeyi adım adım öğrenin ve Aspose.OCR'ın tam gücünden yararlanın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

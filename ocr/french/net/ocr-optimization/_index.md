@@ -65,6 +65,7 @@ Enregistrez sans effort les résultats OCR multipages sous forme de documents av
 En utilisant la liste des tutoriels Aspose.OCR pour .NET, vous pouvez accéder à des ressources supplémentaires et rester informé des dernières avancées en optimisation OCR. Plongez dans le monde de la précision et de l’efficacité avec les tutoriels Aspose.OCR pour .NET.
 
 ## Tutoriels d'optimisation OCR
+
 ### [Effectuer l'OCR sur l'image à partir de l'URL dans la reconnaissance d'image OCR](./perform-ocr-on-image-from-url/)
 Découvrez une intégration OCR fluide avec Aspose.OCR pour .NET. Reconnaissez le texte des images avec précision.
 ### [Préparer les rectangles dans la reconnaissance d'images OCR](./prepare-rectangles/)
@@ -75,7 +76,17 @@ Explorez Aspose.OCR pour .NET. Boostez la précision de l’OCR avec des filtres
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
 Débloquez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR multipages sous forme de documents grâce à ce guide complet étape par étape.
+### [Comment utiliser l'OCR en C# – Extraire du texte d'images avec accélération GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Apprenez à exploiter l'accélération GPU pour extraire rapidement du texte d'images avec Aspose.OCR en C#.
+### [Créer un PDF consultable avec OCR par lots – Guide C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Apprenez à créer des PDF consultables en utilisant l'OCR par lots avec Aspose.OCR en C#.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Questions fréquemment posées
 
 **Q : Puis-je extraire du texte à partir de fichiers image contenant plusieurs langues ?**
