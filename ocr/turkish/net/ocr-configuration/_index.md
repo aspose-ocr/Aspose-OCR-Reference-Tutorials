@@ -39,6 +39,8 @@ Aspose.OCR ile .NET'te OCR görüntü tanımanın gücünün kilidini açın. G�
 Aspose.OCR for .NET ile güçlü OCR özelliklerinin kilidini açın. Görüntülerden metni sorunsuz bir şekilde çıkarın.
 ### [OCR Görüntü Tanıma'da Liste ile OCR İşlemi](./ocr-operation-with-list/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımayı zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarmayı artırın.
+### [C#'ta Rusça Metin Çıkarma ve Kaynak Yolu Ayarlama – Aspose OCR Rehberi](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose.OCR ile C# uygulamanızda Rusça metin çıkarın ve kaynak yolunu nasıl ayarlayacağınızı öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

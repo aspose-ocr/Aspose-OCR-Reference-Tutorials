@@ -39,6 +39,9 @@ Khai phá sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspo
 Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
 ### [OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR](./ocr-operation-with-list/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nhận dạng hình ảnh OCR bằng danh sách. Tăng năng suất và trích xuất dữ liệu trong các ứng dụng của bạn.
+### [Trích xuất văn bản tiếng Nga & thiết lập đường dẫn tài nguyên trong C# – Hướng dẫn Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và cấu hình đường dẫn tài nguyên trong Aspose.OCR cho C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

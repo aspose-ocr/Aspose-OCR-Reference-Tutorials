@@ -39,6 +39,8 @@ Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text 
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [extract russian text & set resource path in C# – Aspose OCR guide](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Extract Russian text and set resource path in C# using Aspose OCR for .NET applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

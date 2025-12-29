@@ -53,8 +53,21 @@ Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
+### [Hur man OCR:ar PDF i C# – Steg‑för‑steg‑guide](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från PDF-filer med en detaljerad steg‑för‑steg‑guide.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [c# OCR-handledning – Känn igen text från JPG på några minuter](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Lär dig snabbt hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med bara några rader kod.
+### [c# OCR-handledning – Känn igen text från JPG – Komplett guide](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Lär dig steg-för-steg hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med en komplett C#-kodexempel.
+### [Hur du använder Aspose OCR i C# – Känn igen koreansk text från bilder](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar koreansk text från bildfiler.
+### [Skapa sökbar PDF från TIFF – Fullständig C#-guide](./create-searchable-pdf-from-tiff-full-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET konverterar TIFF-filer till sökbara PDF-dokument med komplett C#-kodexempel.
+### [Konvertera bilder till text – Komplett batch-OCR-guide för C#-utvecklare](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder till text med enkel C#-kod.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

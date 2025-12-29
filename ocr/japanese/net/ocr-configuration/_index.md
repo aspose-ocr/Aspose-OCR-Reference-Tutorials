@@ -39,6 +39,8 @@ Aspose.OCR を使用して、.NET での OCR 画像認識の能力を解放し�
 Aspose.OCR for .NET を使用して強力な OCR 機能を利用しましょう。画像からテキストをシームレスに抽出します。
 ### [OCR画像認識におけるリストによるOCRO操作](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を解き放ちます。リストを使用して OCR 画像認識を簡単に実行します。アプリケーションの生産性とデータ抽出を向上させます。
+### [C# でロシア語テキストを抽出しリソースパスを設定 – Aspose OCR ガイド](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose.OCR を使用して C# でロシア語テキストを抽出し、リソースパスを設定する方法をステップバイステップで解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

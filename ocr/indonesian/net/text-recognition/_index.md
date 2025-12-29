@@ -23,7 +23,7 @@ Dalam tutorial ini, kami akan memandu Anda dalam memanfaatkan kekuatan Aspose.OC
 
 ## Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR
 
-Jelajahi kemampuan Aspose.OCR untuk .NET dan ubah cara Anda menangani pengenalan teks dalam gambar. Temukan seluk-beluk memperoleh hasil pengakuan dengan panduan komprehensif kami. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk mengintegrasikan OCR ke dalam proyek Anda dengan lancar.
+Jelajahi kemampuan Aspose.OCR untuk .NET dan ubah cara Anda menangani pengenalan teks dalam gambar. Temukan seluk-beluk memperoleh hasil pengenalan dengan panduan komprehensif kami. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberdayakan Anda untuk mengintegrasikan OCR ke dalam proyek Anda dengan lancar.
 
 ## Dapatkan Hasil sebagai JSON dalam Pengenalan Gambar OCR
 
@@ -53,8 +53,21 @@ Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dal
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
+### [Cara OCR PDF di C# – Panduan Langkah‑per‑Langkah](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Pelajari cara mengonversi PDF menjadi teks menggunakan Aspose.OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Tutorial OCR C# – Mengenali Teks dari JPG dalam Hitungan Menit](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Pelajari cara cepat mengenali teks dari file JPG menggunakan Aspose.OCR dalam proyek C# Anda.
+### [Cara Menggunakan Aspose OCR di C# – Mengenali Teks Korea dari Gambar](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Pelajari cara cepat mengenali teks berbahasa Korea dari gambar menggunakan Aspose OCR dalam proyek C# Anda.
+### [Buat PDF yang Dapat Dicari dari TIFF – Panduan Lengkap C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+Pelajari cara mengubah file TIFF menjadi PDF yang dapat dicari menggunakan Aspose.OCR dalam proyek C# Anda.
+### [Konversi Gambar ke Teks – Panduan Batch OCR Lengkap untuk Pengembang C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+Panduan lengkap batch OCR untuk mengonversi gambar menjadi teks dalam proyek C# Anda.
+### [Mengenali Teks dari JPG dalam C# – Tutorial OCR Lengkap](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Pelajari cara lengkap mengenali teks dari file JPG menggunakan Aspose.OCR dalam proyek C# Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -39,6 +39,8 @@ Az Aspose.OCR segítségével felszabadíthatja az OCR képfelismerés erejét a
 Fedezze fel a hatékony OCR-képességeket az Aspose.OCR for .NET segítségével. Zökkenőmentesen vonja ki a szöveget a képekből.
 ### [OCROművelet listával az OCR képfelismerésben](./ocr-operation-with-list/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
+### [orosz szöveg kinyerése és erőforrás útvonal beállítása C#-ban – Aspose OCR útmutató](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Tanulja meg, hogyan nyerjen ki orosz nyelvű szöveget és állítsa be az erőforrás útvonalat C#-ban az Aspose OCR használatával.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

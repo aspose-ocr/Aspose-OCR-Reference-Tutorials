@@ -39,6 +39,8 @@ url: /ar/net/ocr-configuration/
 أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
 ### [عملية OCRO مع القائمة في التعرف على الصور OCR](./ocr-operation-with-list/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. قم بإجراء التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) بسهولة باستخدام القوائم. تعزيز الإنتاجية واستخراج البيانات في تطبيقاتك.
+### [استخراج النص الروسي وتعيين مسار الموارد في C# – دليل Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+تعلم كيفية استخراج النص الروسي من الصور وتحديد مسار الموارد في تطبيق C# باستخدام Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

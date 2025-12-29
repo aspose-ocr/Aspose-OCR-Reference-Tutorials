@@ -39,6 +39,8 @@ Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte t
 Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
 ### [OCROoperace se seznamem v OCR rozpoznávání obrazu](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Bez námahy provádějte rozpoznávání obrázků OCR pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Extrahování ruského textu a nastavení cesty ke zdrojům v C# – průvodce Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Naučte se extrahovat ruský text a nastavit cestu ke zdrojům v Aspose.OCR pomocí C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

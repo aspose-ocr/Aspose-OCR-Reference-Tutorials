@@ -40,6 +40,8 @@ url: /ru/net/skew-angle-calculation/
 Раскройте возможности Aspose.OCR для .NET, надежного решения для распознавания изображений. Узнайте, как легко вычислять углы перекоса.
 ### [Вычислить угол наклона по URI в распознавании изображений OCR](./calculate-skew-angle-from-uri/)
 Изучите Aspose.OCR для .NET, чтобы легко вычислять углы перекоса при распознавании изображений OCR. Усовершенствуйте свои проекты с точностью и эффективностью.
+### [Как выпрямить изображение – Полное руководство на C# по предобработке OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Узнайте, как с помощью Aspose.OCR для .NET выпрямить изображения перед распознаванием, используя C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
