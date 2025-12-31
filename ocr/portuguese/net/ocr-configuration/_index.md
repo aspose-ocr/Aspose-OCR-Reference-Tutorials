@@ -39,6 +39,13 @@ Desbloqueie o poder do reconhecimento de imagem OCR em .NET com Aspose.OCR. Extr
 Desbloqueie recursos poderosos de OCR com Aspose.OCR para .NET. Extraia texto de imagens perfeitamente.
 ### [Operação OCR com lista no reconhecimento de imagem OCR](./ocr-operation-with-list/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Execute facilmente o reconhecimento de imagens OCR com listas. Aumente a produtividade e a extração de dados em suas aplicações.
+### [Como habilitar GPU para Aspose OCR – Guia passo a passo](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Habilite a GPU para melhorar o desempenho do Aspose OCR em suas aplicações .NET.
+### [Reconhecer texto de imagem em C# – OCR em árabe com Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Aprenda a extrair texto árabe de imagens usando OCR em C# com Aspose.
+### [Como definir a licença Aspose em C# – Guia completo](./how-to-set-aspose-license-in-c-complete-guide/)
+Aprenda a configurar a licença Aspose em projetos C# passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
