@@ -53,8 +53,17 @@ Ontketen de kracht van Aspose.OCR voor .NET. Leer moeiteloos OCR-resultaten in J
 Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenning. Ontdek de OCR-modus voor detectiegebieden voor nauwkeurige resultaten.
 ### [Herken PDF in OCR-beeldherkenning](./recognize-pdf/)
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
+### [Maak doorzoekbare PDF van TIFF – Complete C#-gids](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van TIFF-bestanden, stap voor stap.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Hoe OCR uit te voeren in C# – Cyrillische tekst herkennen met Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Leer hoe u met Aspose.OCR in C# Cyrillische tekst uit afbeeldingen kunt herkennen en verwerken.
+### [Hoe OCR-tekst te extraheren in C# – Complete stapsgewijze gids](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# OCR-tekst uit afbeeldingen kunt extraheren met een volledige stap‑voor‑stap gids.
+### [Herken tekst png met Aspose OCR .NET – Volledige lokale OCR-gids](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Leer stap voor stap hoe u PNG-afbeeldingen lokaal kunt OCR-en met Aspose OCR .NET voor nauwkeurige tekstherkenning.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

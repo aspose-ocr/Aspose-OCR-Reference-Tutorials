@@ -50,6 +50,10 @@ url: /zh-hant/net/ocr-optimization/
 使用 Aspose.OCR for .NET 提高 OCR 準確性。輕鬆修正拼字、自訂字典並實現無錯誤的文字辨識。
 ### [在 OCR 影像辨識中將多頁結果儲存為文檔](./save-multipage-result-as-document/)
 釋放 Aspose.OCR for .NET 的潛能。透過這份全面的分步指南，輕鬆將多頁 OCR 結果儲存為文件。
+### [在 OCR 影像辨識中校正圖像傾斜並提升對比度](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+### [在 C# 中將圖像轉換為 PDF – 完整 OCR 指南](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+本完整指南教您如何在 C# 中使用 Aspose.OCR 將圖像轉換為 PDF，涵蓋從 OCR 識別到 PDF 生成的全流程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,15 @@ url: /ru/net/text-recognition/
 Раскройте потенциал оптического распознавания символов в .NET с помощью Aspose.OCR. Извлекайте текст из PDF-файлов без особых усилий. Загрузите сейчас и получите беспрепятственную интеграцию.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
+### [Как выполнить OCR в C# – распознать кириллический текст с помощью Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Узнайте, как использовать Aspose.OCR в C# для точного распознавания кириллического текста на изображениях.
+### [Создание поискового PDF из TIFF – Полное руководство C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Научитесь преобразовывать TIFF в поисковый PDF с помощью Aspose.OCR в C# шаг за шагом.
+### [Как извлечь текст OCR в C# – Полное пошаговое руководство](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Подробное руководство по извлечению текста OCR в C# с использованием Aspose.OCR, шаг за шагом.
+### [Распознать текст PNG с помощью Aspose OCR .NET – Полное руководство по локальному OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Полное локальное руководство по распознаванию текста из PNG‑изображений с Aspose OCR для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

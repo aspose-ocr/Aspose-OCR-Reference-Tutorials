@@ -39,6 +39,13 @@ Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte t
 Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
 ### [OCROoperace se seznamem v OCR rozpoznávání obrazu](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Bez námahy provádějte rozpoznávání obrázků OCR pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Jak povolit GPU pro Aspose OCR – krok za krokem](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Povolení GPU akcelerace pro Aspose OCR v .NET aplikacích. Postupujte krok za krokem a zvýšte výkon.
+### [Rozpoznání textu z obrázku v C# – arabské OCR s Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Rozpoznávejte arabský text z obrázků v C# pomocí Aspose OCR.
+### [Jak nastavit licenci Aspose v C# – Kompletní průvodce](./how-to-set-aspose-license-in-c-complete-guide/)
+Naučte se, jak v C# nastavit licenci Aspose a plně využít její funkce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

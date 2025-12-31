@@ -50,6 +50,11 @@ Khám phá Aspose.OCR cho .NET. Tăng độ chính xác của OCR bằng các b�
 Nâng cao độ chính xác của OCR với Aspose.OCR cho .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và nhận dạng văn bản không có lỗi một cách dễ dàng.
 ### [Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng lưu kết quả OCR nhiều trang dưới dạng tài liệu với hướng dẫn từng bước toàn diện này.
+### [Cách chỉnh nghiêng ảnh và tăng độ tương phản để cải thiện độ chính xác OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Khám phá cách xử lý ảnh để loại bỏ nghiêng và tăng độ tương phản, nâng cao độ chính xác OCR trong Aspose.OCR cho .NET.
+### [Chuyển đổi hình ảnh sang PDF trong C# – Hướng dẫn OCR toàn diện](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Biến hình ảnh thành PDF với Aspose.OCR cho .NET, tích hợp OCR đầy đủ và lưu kết quả dưới dạng tài liệu PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

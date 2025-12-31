@@ -23,7 +23,7 @@ V tomto tutoriálu vás provedeme využitím výkonu Aspose.OCR pro .NET ke zlep
 
 ## Získejte výsledek rozpoznávání v rozpoznávání obrazu OCR
 
-Prozkoumejte možnosti Aspose.OCR pro .NET a změňte způsob, jakým zacházíte s rozpoznáváním textu v obrázcích. Odhalte složitosti získávání výsledků rozpoznávání pomocí našeho komplexního průvodce. Ať už jste zkušený vývojář nebo teprve začínáte, tento výukový program vám umožní bezproblémovou integraci OCR do vašich projektů.
+Prozkoumejte možnosti Aspose.OCR pro .NET a změňte způsob, jakým zacházíte s rozpoznáváním textu v obrázcích. Odhalte složitosti získávání výsledků rozpoznávání pomocí našeho komplexního průvodce. Ať už jste zkušený vývojář nebo teprve začínáte, tento výukový program vám umožní bezproblémovou integraci OCR do svých projektů.
 
 ## Získejte výsledek jako JSON v rozpoznávání obrazu OCR
 
@@ -55,6 +55,15 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Jak provést OCR v C# – Rozpoznat cyrilský text pomocí Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Naučte se pomocí Aspose.OCR v .NET rozpoznávat cyrilské znaky v obrázcích a získávejte přesné výsledky.
+### [Vytvořte prohledávatelný PDF z TIFF – Kompletní průvodce C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Naučte se převést soubory TIFF na prohledávatelný PDF pomocí Aspose.OCR v C#.
+### [Jak extrahovat OCR text v C# – Kompletní krok‑za‑krokem průvodce](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v .NET extrahovat text z OCR a získat přesné výsledky ve svých aplikacích.
+### [Rozpoznat text PNG pomocí Aspose OCR .NET – Kompletní lokální průvodce OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Kompletní lokální průvodce pro rozpoznávání textu v PNG souborech pomocí Aspose OCR v .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

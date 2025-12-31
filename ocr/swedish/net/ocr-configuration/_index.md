@@ -39,6 +39,13 @@ Lås upp kraften med OCR-bildigenkänning i .NET med Aspose.OCR. Extrahera text 
 Lås upp kraftfulla OCR-funktioner med Aspose.OCR för .NET. Extrahera text från bilder sömlöst.
 ### [OCRoperation med List i OCR-bildigenkänning](./ocr-operation-with-list/)
 Lås upp potentialen hos Aspose.OCR för .NET. Utför enkelt OCR-bildigenkänning med listor. Öka produktiviteten och datautvinningen i dina applikationer.
+### [Hur du aktiverar GPU för Aspose OCR – Steg‑för‑steg‑guide](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Lär dig hur du aktiverar GPU-stöd i Aspose OCR för att förbättra prestanda i dina .NET‑applikationer.
+### [Känn igen bildtext i C# – Arabisk OCR med Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Lås upp arabisk OCR i .NET med Aspose. Lär dig att känna igen bildtext i C# enkelt.
+### [Hur du ställer in Aspose-licens i C# – Komplett guide](./how-to-set-aspose-license-in-c-complete-guide/)
+Lär dig steg för steg hur du konfigurerar Aspose-licensen i C# för att aktivera full funktionalitet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
