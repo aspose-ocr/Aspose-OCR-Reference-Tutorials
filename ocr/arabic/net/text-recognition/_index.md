@@ -43,6 +43,7 @@ url: /ar/net/text-recognition/
 
 هل أنت مستعد لإحداث ثورة في تطبيقات .NET الخاصة بك؟ انغمس في برامجنا التعليمية للتعرف على النص واستفد من قوة Aspose.OCR للتعرف الدقيق والفعال على النص في الصور. قم بالتنزيل الآن وابدأ في رحلة مليئة بقدرات التعرف الضوئي على الحروف المحسنة.
 ## دروس التعرف على النص
+
 ### [احصل على خيارات للأحرف التي تم التعرف عليها في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./get-choices-for-recognized-characters/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على الأحرف. اتبع دليلنا خطوة بخطوة لاسترداد اختيارات الأحرف التي تم التعرف عليها في التعرف على الصور.
 ### [الحصول على نتيجة التعرف في التعرف على الصور OCR](./get-recognition-result/)
@@ -69,6 +70,21 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل الصور إلى مستندات DOCX باستخدام Aspose OCR في C# خطوة بخطوة.
 ### [تحويل الصور إلى نص – دليل كامل لمعالجة OCR دفعي لمطوري C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 تعلم كيفية تحويل مجموعة من الصور إلى نص باستخدام Aspose.OCR في C# خطوة بخطوة.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [كيفية إجراء OCR في C# – التعرف على النص السيريلي باستخدام Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+تعلم كيفية استخدام Aspose.OCR في C# للتعرف على النص السيريلي بدقة وسهولة.
+### [إنشاء PDF قابل للبحث من TIFF – دليل C# كامل](./create-searchable-pdf-from-tiff-complete-c-guide/)
+تعلم كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية استخراج نص OCR في C# – دليل خطوة بخطوة كامل](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+تعلم استخراج نص OCR باستخدام C# باتباع دليل شامل خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR .NET – دليل OCR محلي كامل](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+تعلم كيفية التعرف على نصوص PNG محليًا باستخدام Aspose OCR في .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ url: /th/net/text-recognition/
 
 พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
 ## บทช่วยสอนการรู้จำข้อความ
+
 ### [รับตัวเลือกสำหรับอักขระที่จดจำในการจดจำรูปภาพ OCR](./get-choices-for-recognized-characters/)
 ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการรู้จำอักขระที่แม่นยำ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อดึงตัวเลือกสำหรับอักขระที่รู้จักในการจดจำรูปภาพ
 ### [รับผลการรับรู้ในการจดจำรูปภาพ OCR](./get-recognition-result/)
@@ -66,6 +67,21 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 ### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 ### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือเต็ม C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [จดจำข้อความ PNG ด้วย Aspose OCR .NET – คู่มือ OCR ภายในเครื่องเต็มรูปแบบ](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+เรียนรู้วิธีใช้ Aspose OCR .NET เพื่อจดจำข้อความจากไฟล์ PNG อย่างครบถ้วนในสภาพแวดล้อมแบบออฟไลน์
+### [วิธีทำ OCR ใน C# – จดจำข้อความ Cyrillic ด้วย Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+เรียนรู้ขั้นตอนการใช้ Aspose OCR ใน C# เพื่อจดจำข้อความ Cyrillic อย่างแม่นยำและง่ายดาย
+### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-tiff-complete-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ TIFF เป็น PDF ที่สามารถค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
+### [วิธีดึงข้อความ OCR ใน C# – คู่มือขั้นตอนเต็ม](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีดึงข้อความ OCR จากรูปภาพใน C# อย่างละเอียดตามขั้นตอนครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

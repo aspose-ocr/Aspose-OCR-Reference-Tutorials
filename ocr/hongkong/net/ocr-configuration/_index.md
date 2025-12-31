@@ -53,6 +53,7 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 
 ## OCR 設定教學課程
 
+
 ### [OCR 影像辨識中對存檔檔案的 OCR 操作](./ocr-operation-with-archive/)
 使用 Aspose.OCR 在 .NET 應用程式中釋放 OCR 的潛力。學習如何逐步從存檔圖像中提取文字。
 ### [OCR 影像辨識中對資料夾檔案的 OCR 操作](./ocr-operation-with-folder/)
@@ -72,6 +73,19 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 - **Warning:** 大型壓縮檔可能佔用大量記憶體，建議分批處理。
 ### [在 C# 中提取俄文文字並設定資源路徑 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 示範如何在 C# 使用 Aspose.OCR 提取俄文文字並設定資源路徑。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 C# 中辨識影像文字 – 使用 Aspose 進行阿拉伯語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+本教學示範如何在 C# 應用程式中使用 Aspose OCR 進行阿拉伯語文字的辨識。
+### [如何為 Aspose OCR 啟用 GPU – 步驟指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+本教學說明如何在 Aspose OCR 中啟用 GPU 加速，提升辨識效能的逐步操作。
+### [在 C# 中設定 Aspose 授權 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
+本教學說明如何在 C# 應用程式中設定 Aspose 授權，確保功能完整運作。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

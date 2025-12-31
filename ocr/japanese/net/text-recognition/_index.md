@@ -46,6 +46,7 @@ Aspose.OCR for .NET を使用して、OCR 画像認識におけるテーブル�
 
 .NET アプリケーションに革命を起こす準備はできていますか?テキスト認識チュートリアルに取り組み、Aspose.OCR の力を活用して、画像内の正確かつ効率的なテキスト認識を実現します。今すぐダウンロードして、強化された OCR 機能の旅に乗り出しましょう。
 ## テキスト認識のチュートリアル
+
 ### [OCR画像認識で認識された文字の選択肢を取得する](./get-choices-for-recognized-characters/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、正確な文字認識を実現します。ステップバイステップのガイドに従って、画像認識で認識された文字の選択肢を取得します。
 ### [OCR画像認識での認識結果の取得](./get-recognition-result/)
@@ -68,6 +69,21 @@ Aspose.OCR を使用して、C# で JPG 画像からテキストを正確に抽�
 Aspose OCR を使用して、C# で画像から韓国語テキストを簡単に抽出する手順をステップバイステップで解説します。
 ### [画像をテキストに変換 – C# 開発者向け 完全バッチ OCR ガイド](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Aspose.OCR を使用して、C# で大量の画像を一括変換し、テキスト抽出を効率的に行う手順をステップバイステップで解説します。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# で OCR を実行する方法 – Aspose でキリル文字を認識する](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Aspose.OCR を使用して C# でキリル文字を認識する手順をステップバイステップで解説します。
+### [TIFF から検索可能な PDF を作成 – 完全 C# ガイド](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Aspose.OCR を使用して、TIFF 画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
+### [C# で OCR テキストを抽出する方法 – 完全ステップバイステップガイド](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Aspose.OCR を使用して C# で OCR テキストを抽出する手順をステップバイステップで解説します。
+### [PNG 画像のテキスト認識 – Aspose OCR .NET 完全ローカル OCR ガイド](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Aspose.OCR を使用して PNG 画像からテキストをローカルで認識する完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

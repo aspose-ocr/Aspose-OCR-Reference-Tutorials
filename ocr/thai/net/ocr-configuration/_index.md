@@ -54,6 +54,7 @@ weight: 24
 
 ## บทเรียนการกำหนดค่า OCR
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -73,6 +74,19 @@ weight: 24
 - **คำเตือน:** อาร์ไคฟ์ขนาดใหญ่อาจใช้หน่วยความจำมาก; ควรพิจารณาประมวลผลเป็นชุด.  
 ### [สกัดข้อความรัสเซียและตั้งค่าเส้นทางทรัพยากรใน C# – คู่มือ Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 สกัดข้อความรัสเซียจากรูปภาพและกำหนดเส้นทางทรัพยากรใน C# ด้วย Aspose OCR อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [วิธีเปิดใช้งาน GPU สำหรับ Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน GPU ใน Aspose OCR เพื่อเพิ่มประสิทธิภาพการประมวลผลภาพอย่างง่ายดาย
+### [การจดจำข้อความรูปภาพใน C# – OCR ภาษาอาหรับด้วย Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+ปลดล็อกศักยภาพการจดจำข้อความรูปภาพภาษาอาหรับใน C# ด้วย Aspose OCR อย่างง่ายดาย
+### [วิธีตั้งค่าใบอนุญาต Aspose ใน C# – คู่มือฉบับสมบูรณ์](./how-to-set-aspose-license-in-c-complete-guide/)
+เรียนรู้ขั้นตอนการตั้งค่าใบอนุญาต Aspose ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์ทั้งหมดของผลิตภัณฑ์
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

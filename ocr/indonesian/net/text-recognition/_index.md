@@ -43,6 +43,7 @@ Jelajahi kompleksitas pengenalan tabel dalam pengenalan gambar OCR dengan Aspose
 
 Siap merevolusi aplikasi .NET Anda? Selami Tutorial Pengenalan Teks kami dan manfaatkan kekuatan Aspose.OCR untuk pengenalan teks dalam gambar yang akurat dan efisien. Unduh sekarang dan mulailah perjalanan peningkatan kemampuan OCR.
 ## Tutorial Pengenalan Teks
+
 ### [Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR](./get-choices-for-recognized-characters/)
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang akurat. Ikuti panduan langkah demi langkah kami untuk mengambil pilihan karakter yang dikenali dalam pengenalan gambar.
 ### [Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR](./get-recognition-result/)
@@ -67,6 +68,21 @@ Pelajari cara mengubah file TIFF menjadi PDF yang dapat dicari menggunakan Aspos
 Panduan lengkap batch OCR untuk mengonversi gambar menjadi teks dalam proyek C# Anda.
 ### [Mengenali Teks dari JPG dalam C# – Tutorial OCR Lengkap](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Pelajari cara lengkap mengenali teks dari file JPG menggunakan Aspose.OCR dalam proyek C# Anda.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cara Melakukan OCR di C# – Mengenali Teks Sirilik dengan Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Pelajari cara menggunakan Aspose OCR di C# untuk mengenali teks Sirilik dengan akurasi tinggi.
+### [Buat PDF yang Dapat Dicari dari TIFF – Panduan Lengkap C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Pelajari cara mengonversi file TIFF menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C#, lengkap dengan contoh kode.
+### [Cara Mengekstrak Teks OCR di C# – Panduan Lengkap Langkah‑per‑Langkah](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Pelajari cara mengekstrak teks OCR menggunakan C# dengan panduan langkah demi langkah yang lengkap.
+### [Mengenali teks PNG dengan Aspose OCR .NET – Panduan OCR Lokal Lengkap](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Panduan lengkap untuk melakukan OCR pada file PNG secara lokal menggunakan Aspose OCR di .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

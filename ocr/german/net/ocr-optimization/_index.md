@@ -60,6 +60,7 @@ Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche 
 
 ## OCR‑Optimierungs‑Tutorials
 
+
 ### [OCR auf Bild von URL ausführen in OCR-Bilderkennung](./perform-ocr-on-image-from-url/)
 Entdecken Sie nahtlose OCR‑Integration mit Aspose.OCR für .NET. Erkennen Sie Text aus Bildern mit Präzision.
 ### [Rechtecke vorbereiten in OCR-Bilderkennung](./prepare-rectangles/)
@@ -74,6 +75,17 @@ Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos me
 Nutzen Sie GPU-Beschleunigung, um OCR in C# effizient aus Bildern zu extrahieren und die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [Durchsuchbare PDF mit Batch-OCR erstellen – C#-Leitfaden](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# mehrere PDFs stapelweise verarbeiten und durchsuchbare Dokumente erzeugen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Wie man ein Bild begradigt und den Kontrast erhöht, um die OCR-Genauigkeit zu verbessern](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Erfahren Sie, wie Sie Bilder ausrichten und den Kontrast steigern, um die OCR-Erkennungsgenauigkeit zu maximieren.
+### [Bild in PDF konvertieren in C# – Vollständiger OCR-Leitfaden](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Erfahren Sie, wie Sie Bilder mit Aspose.OCR in PDFs umwandeln und dabei die OCR-Funktion vollständig nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

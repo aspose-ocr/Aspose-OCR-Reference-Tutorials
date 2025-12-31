@@ -43,6 +43,7 @@ Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn
 
 Bạn đã sẵn sàng cách mạng hóa các ứng dụng .NET của mình chưa? Đi sâu vào Hướng dẫn nhận dạng văn bản của chúng tôi và khai thác sức mạnh của Aspose.OCR để nhận dạng văn bản chính xác và hiệu quả trong hình ảnh. Tải xuống ngay bây giờ và bắt đầu hành trình nâng cao khả năng OCR.
 ## Hướng dẫn nhận dạng văn bản
+
 ### [Nhận lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh OCR](./get-choices-for-recognized-characters/)
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng ký tự chính xác. Làm theo hướng dẫn từng bước của chúng tôi để truy xuất các lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh.
 ### [Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR](./get-recognition-result/)
@@ -69,6 +70,21 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để chuyển
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển đổi hàng loạt hình ảnh thành văn bản một cách nhanh chóng và hiệu quả.
 ### [Nhận dạng văn bản từ JPG trong C# – Hướng dẫn OCR đầy đủ](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Hướng dẫn toàn diện cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp JPG một cách nhanh chóng và chính xác.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cách thực hiện OCR trong C# – Nhận dạng văn bản Cyrillic với Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản Cyrillic một cách chính xác và hiệu quả.
+### [Tạo PDF có thể tìm kiếm từ TIFF – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển tệp TIFF thành PDF có thể tìm kiếm bằng Aspose.OCR trong C#.
+### [Cách trích xuất văn bản OCR trong C# – Hướng dẫn đầy đủ từng bước](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết từng bước cách trích xuất văn bản OCR trong C# bằng Aspose.OCR.
+### [Nhận dạng văn bản PNG với Aspose OCR .NET – Hướng dẫn OCR nội địa đầy đủ](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Hướng dẫn chi tiết cách nhận dạng văn bản từ tệp PNG bằng Aspose OCR cho .NET, cung cấp quy trình OCR nội địa đầy đủ và dễ thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

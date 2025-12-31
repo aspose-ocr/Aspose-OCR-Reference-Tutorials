@@ -65,6 +65,7 @@ weight: 25
 
 ## Μαθήματα Βελτιστοποίησης OCR
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Εξερευνήστε αδιάλειπτη ενσωμάτωση OCR με Aspose.OCR for .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -80,6 +81,16 @@ weight: 25
 ### [Δημιουργία αναζητήσιμου PDF με batch OCR – Οδηγός C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Μάθετε πώς να δημιουργήσετε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας batch OCR σε C# με το Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Πώς να διορθώσετε την κλίση της εικόνας και να ενισχύσετε την αντίθεση για καλύτερη ακρίβεια OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Μάθετε πώς να διορθώσετε την κλίση της εικόνας και να ενισχύσετε την αντίθεση για βελτιωμένη ακρίβεια OCR με το Aspose.OCR για .NET.
+### [Μετατροπή εικόνας σε PDF σε C# – Πλήρης οδηγός OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε PDF χρησιμοποιώντας το Aspose.OCR σε C# με πλήρη διαδικασία OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

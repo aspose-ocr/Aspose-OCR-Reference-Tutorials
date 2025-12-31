@@ -60,6 +60,7 @@ Aspose.OCR For .NET ट्यूटोरियल सूची का उपय
 
 ## OCR अनुकूलन ट्यूटोरियल
 
+
 ### [URL से छवि पर OCR निष्पादित करना OCR इमेज रिकग्निशन में](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET के साथ सहज OCR एकीकरण का अन्वेषण करें। छवियों से सटीक रूप से पाठ पहचानें।
 ### [OCR इमेज रिकग्निशन में आयतें तैयार करना](./prepare-rectangles/)
@@ -74,6 +75,17 @@ Aspose.OCR for .NET की क्षमता को अनलॉक करे�
 GPU त्वरण के साथ तेज़ OCR के लिए C# में छवियों से टेक्स्ट निकालने की प्रक्रिया सीखें।
 ### [बैच OCR के साथ खोज योग्य PDF बनाएं – C# गाइड](./create-searchable-pdf-with-batch-ocr-c-guide/)
 .NET के लिए Aspose.OCR के साथ बैच OCR का उपयोग करके खोज योग्य PDF बनाना सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [बेहतर OCR सटीकता के लिए छवि को डेस्क्यू और कंट्रास्ट बढ़ाएँ](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+छवि को सीधा करके और कंट्रास्ट बढ़ाकर OCR की सटीकता में सुधार करें।
+### [C# में छवि को PDF में परिवर्तित करें – पूर्ण OCR गाइड](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+.NET के लिए Aspose.OCR का उपयोग करके छवि को PDF में बदलें और पूर्ण OCR प्रक्रिया लागू करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

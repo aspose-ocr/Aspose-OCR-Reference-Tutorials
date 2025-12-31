@@ -55,6 +55,7 @@ Jelajahi potensi besar Aspose.OCR untuk .NET saat Anda dengan mudah melakukan pe
 
 ## Tutorial Konfigurasi OCR
 
+
 ### [OCROperation dengan Arsip dalam Pengenalan Gambar OCR](./ocr-operation-with-archive/)
 Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari gambar arsip langkah demi langkah.
 ### [OCROperation dengan Folder dalam Pengenalan Gambar OCR](./ocr-operation-with-folder/)
@@ -74,6 +75,19 @@ Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan daftar 
 - **Peringatan:** Arsip besar dapat mengonsumsi memori yang signifikan; pertimbangkan pemrosesan secara batch.  
 ### [Ekstrak teks Rusia & atur jalur sumber daya di C# – Panduan Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Pelajari cara mengekstrak teks berbahasa Rusia dan mengatur jalur sumber daya dalam aplikasi C# menggunakan Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cara Mengaktifkan GPU untuk Aspose OCR – Panduan Langkah demi Langkah](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Pelajari cara mengaktifkan GPU pada Aspose OCR untuk meningkatkan kinerja pemrosesan gambar secara signifikan.
+### [Mengenali teks gambar di C# – OCR Arab dengan Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Pelajari cara mengekstrak teks Arab dari gambar menggunakan Aspose OCR dalam aplikasi C#.
+### [Cara Mengatur Lisensi Aspose di C# – Panduan Lengkap](./how-to-set-aspose-license-in-c-complete-guide/)
+Pelajari cara mengatur lisensi Aspose di C# secara lengkap untuk mengaktifkan semua fitur produk.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

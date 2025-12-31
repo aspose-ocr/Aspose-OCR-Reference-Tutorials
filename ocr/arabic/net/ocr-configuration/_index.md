@@ -55,6 +55,7 @@ weight: 24
 
 ## دروس تكوين OCR
 
+
 ### [OCROperation مع الأرشيف في التعرف على الصور باستخدام OCR](./ocr-operation-with-archive/)
 اكتشف إمكانات OCR في تطبيقات .NET مع Aspose.OCR. تعلم كيفية استخراج النص من صور الأرشيف خطوة بخطوة.
 ### [OCROperation مع المجلد في التعرف على الصور باستخدام OCR](./ocr-operation-with-folder/)
@@ -74,6 +75,19 @@ weight: 24
 - **تحذير:** قد تستهلك الأرشيفات الكبيرة ذاكرةً كبيرة؛ فكر في المعالجة على دفعات.  
 ### [استخراج النص الروسي وتعيين مسار الموارد في C# – دليل Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 تعلم كيفية استخراج النص الروسي من الصور وتحديد مسار الموارد في تطبيق C# باستخدام Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [كيفية تمكين وحدة معالجة الرسومات (GPU) لـ Aspose OCR – دليل خطوة بخطوة](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+تعلم كيفية تفعيل GPU لتسريع عمليات التعرف الضوئي على الحروف باستخدام Aspose OCR خطوة بخطوة.
+### [التعرف على نص الصورة في C# – التعرف الضوئي على الحروف العربية باستخدام Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+تعلم كيفية استخراج النص العربي من الصور باستخدام Aspose OCR في تطبيقات C# خطوة بخطوة.
+### [كيفية تعيين ترخيص Aspose في C# – دليل كامل](./how-to-set-aspose-license-in-c-complete-guide/)
+تعلم خطوة بخطوة كيفية إعداد ترخيص Aspose في تطبيقات C# لضمان تشغيل المكتبة بدون قيود.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

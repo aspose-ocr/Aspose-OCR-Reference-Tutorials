@@ -55,6 +55,7 @@ weight: 24
 
 ## Tutorials Ρύθμισης OCR
 
+
 ### [OCROperation με Αρχείο σε Αναγνώριση Εικόνας OCR](./ocr-operation-with-archive/)
 Αποκτήστε το πλήρες δυναμικό του OCR σε εφαρμογές .NET με το Aspose.OCR. Μάθετε πώς να εξάγετε κείμενο από εικόνες σε αρχεία βήμα προς βήμα.
 ### [OCROperation με Φάκελο σε Αναγνώριση Εικόνας OCR](./ocr-operation-with-folder/)
@@ -74,6 +75,19 @@ weight: 24
 - **Warning:** Μεγάλα αρχεία μπορεί να καταναλώνουν σημαντική μνήμη· σκεφτείτε την επεξεργασία σε παρτίδες.  
 ### [Εξαγωγή ρωσικού κειμένου & ορισμός διαδρομής πόρων σε C# – Οδηγός Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Μάθετε πώς να εξάγετε ρωσικό κείμενο και να ορίσετε τη διαδρομή πόρων σε εφαρμογές C# με το Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Πώς να ενεργοποιήσετε το GPU για το Aspose OCR – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Ανακαλύψτε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose OCR για .NET, βήμα‑βήμα, βελτιώνοντας την απόδοση της αναγνώρισης.
+### [Αναγνώριση κειμένου εικόνας σε C# – Αραβικό OCR με Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Ανακαλύψτε πώς να εξάγετε αραβικό κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose OCR.
+### [Πώς να ορίσετε την άδεια Aspose σε C# – Πλήρης οδηγός](./how-to-set-aspose-license-in-c-complete-guide/)
+Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose σε εφαρμογές C# βήμα‑βήμα, εξασφαλίζοντας πλήρη λειτουργικότητα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

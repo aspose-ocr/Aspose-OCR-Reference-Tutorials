@@ -43,6 +43,7 @@ Aspose.OCR के साथ .NET में OCR की क्षमता को 
 
 क्या आप अपने .NET अनुप्रयोगों में क्रांति लाने के लिए तैयार हैं? हमारे टेक्स्ट रिकग्निशन ट्यूटोरियल्स में गोता लगाएँ और छवियों में सटीक और कुशल टेक्स्ट पहचान के लिए Aspose.OCR की शक्ति का उपयोग करें। अभी डाउनलोड करें और उन्नत OCR क्षमताओं की यात्रा पर निकलें।
 ## पाठ पहचान ट्यूटोरियल
+
 ### [ओसीआर छवि पहचान में मान्यता प्राप्त पात्रों के लिए विकल्प प्राप्त करें](./get-choices-for-recognized-characters/)
 सटीक चरित्र पहचान के लिए Aspose.OCR के साथ अपने .NET अनुप्रयोगों को बेहतर बनाएं। छवि पहचान में मान्यता प्राप्त पात्रों के विकल्प पुनः प्राप्त करने के लिए हमारी चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 ### [ओसीआर छवि पहचान में मान्यता परिणाम प्राप्त करें](./get-recognition-result/)
@@ -69,6 +70,21 @@ C# में Aspose OCR का उपयोग करके इमेज को 
 C# में Aspose.OCR से इमेज को टेक्स्ट में बैच रूप में बदलने के लिए पूर्ण गाइड। आसान चरणों के साथ तेज़ परिणाम प्राप्त करें।
 ### [C# में PDF को OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से तेज़ी से टेक्स्ट निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# में OCR कैसे करें – Aspose के साथ सिरिलिक टेक्स्ट पहचानें](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Aspose OCR का उपयोग करके C# में सिरिलिक अक्षरों को पहचानने की चरण-दर-स्टेप मार्गदर्शिका।
+### [TIFF से खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Aspose.OCR का उपयोग करके TIFF फ़ाइलों से खोज योग्य PDF बनाने की पूरी प्रक्रिया सीखें।
+### [C# में OCR टेक्स्ट निकालना कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Aspose OCR का उपयोग करके C# में OCR टेक्स्ट निकालने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR .NET के साथ PNG टेक्स्ट पहचान – पूर्ण स्थानीय OCR गाइड](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Aspose OCR .NET का उपयोग करके PNG फ़ाइलों से टेक्स्ट निकालने की पूरी स्थानीय गाइड। चरण‑दर‑चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,7 @@ Utforska den stora potentialen i Aspose.OCR för .NET när du enkelt utför OCR�
 
 ## OCR-konfigurationshandledningar
 
+
 ### [OCROoperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Lås upp potentialen för OCR och .NET‑applikationer med Aspose.OCR. Lär dig extrahera text från arkivbilder steg för steg.
 ### [OCROoperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -73,6 +74,19 @@ Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med l
 - **Varning:** Stora arkiv kan förbruka mycket minne; överväg att bearbeta i batchar.
 ### [Extrahera rysk text och ange resursökväg i C# – Aspose OCR-guide](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Lär dig att extrahera rysk text och konfigurera resursvägen i C# med Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur du aktiverar GPU för Aspose OCR – Steg‑för‑steg‑guide](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Lär dig hur du aktiverar GPU-stöd i Aspose OCR för att förbättra prestanda i dina .NET‑applikationer.
+### [Känn igen bildtext i C# – Arabisk OCR med Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Lås upp arabisk OCR i .NET med Aspose. Lär dig att känna igen bildtext i C# enkelt.
+### [Hur du ställer in Aspose-licens i C# – Komplett guide](./how-to-set-aspose-license-in-c-complete-guide/)
+Lär dig steg för steg hur du konfigurerar Aspose-licensen i C# för att aktivera full funktionalitet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

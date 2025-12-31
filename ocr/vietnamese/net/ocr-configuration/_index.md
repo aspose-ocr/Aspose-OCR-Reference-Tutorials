@@ -55,6 +55,7 @@ Khám phá tiềm năng rộng lớn của Aspose.OCR cho .NET khi bạn thực 
 
 ## Hướng dẫn Cấu hình OCR
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Học cách trích xuất văn bản từ các hình ảnh trong archive từng bước một.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -74,6 +75,19 @@ Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng h
 - **Warning:** Các tệp lưu trữ lớn có thể tiêu tốn nhiều bộ nhớ; hãy xem xét xử lý theo lô.  
 ### [Trích xuất văn bản tiếng Nga & thiết lập đường dẫn tài nguyên trong C# – Hướng dẫn Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và cấu hình đường dẫn tài nguyên trong Aspose.OCR cho C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Nhận dạng văn bản hình ảnh trong C# – OCR tiếng Ả Rập với Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Mở khóa khả năng OCR tiếng Ả Rập trong C# với Aspose, trích xuất văn bản từ hình ảnh một cách chính xác.
+### [Cách bật GPU cho Aspose OCR – Hướng dẫn từng bước](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Kích hoạt GPU cho Aspose OCR với hướng dẫn chi tiết từng bước để tăng hiệu suất.
+### [Cách thiết lập giấy phép Aspose trong C# – Hướng dẫn đầy đủ](./how-to-set-aspose-license-in-c-complete-guide/)
+Hướng dẫn chi tiết cách cấu hình giấy phép Aspose trong C# để kích hoạt đầy đủ các tính năng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
