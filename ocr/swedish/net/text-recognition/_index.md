@@ -55,6 +55,15 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [c# OCR-handledning: Extrahera text från bild med Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Lär dig hur du med C# och Aspose OCR extraherar text från bilder i enkla steg.
+### [c# OCR-handledning – Extrahera text från bilder och exportera till JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Lär dig hur du med C# och Aspose OCR extraherar text från bilder och sparar resultatet i JSON-format.
+### [Hur man OCR:ar bild i C# – Konvertera JPG till ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Lär dig hur du med Aspose.OCR i C# konverterar JPG-bilder till ePub-format för e-böcker.
+### [Känn igen rysk text med Aspose OCR C# – Full guide för flersidig PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Lär dig hur du med Aspose OCR i C# extraherar rysk text från flersidiga PDF-filer i en komplett guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

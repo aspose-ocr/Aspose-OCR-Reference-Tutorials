@@ -39,6 +39,8 @@ Aspose.OCR を使用して、.NET での OCR 画像認識の能力を解放し�
 Aspose.OCR for .NET を使用して強力な OCR 機能を利用しましょう。画像からテキストをシームレスに抽出します。
 ### [OCR画像認識におけるリストによるOCRO操作](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を解き放ちます。リストを使用して OCR 画像認識を簡単に実行します。アプリケーションの生産性とデータ抽出を向上させます。
+### [Aspose OCR のライセンス適用方法 – ステップバイステップ C# ガイド](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR のライセンスを適用し、.NET アプリケーションで OCR 機能を有効にする手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

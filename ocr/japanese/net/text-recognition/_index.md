@@ -54,7 +54,16 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、画像テ
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放ちます。
+### [c# OCR チュートリアル: Aspose OCR で画像からテキストを抽出する](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Aspose OCR を使用して C# アプリケーションで画像からテキストを抽出し、簡単に処理する方法をステップバイステップで解説します。
+### [c# OCR チュートリアル – 画像からテキストを抽出し JSON にエクスポート](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Aspose OCR を使用して C# アプリケーションで画像からテキストを抽出し、結果を JSON 形式でエクスポートする手順を解説します。
+### [C# で画像を OCR – JPG を ePub に変換する方法](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Aspose.OCR を使用して C# アプリケーションで JPG 画像からテキストを抽出し、ePub 形式に変換する手順を解説します。
+### [Aspose OCR C# でロシア語テキストを認識する – フルマルチページPDFガイド](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Aspose OCR を使用して C# でロシア語テキストをマルチページ PDF から認識し、完全ガイドで手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

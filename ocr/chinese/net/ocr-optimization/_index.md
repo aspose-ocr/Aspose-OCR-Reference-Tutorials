@@ -30,15 +30,6 @@ url: /zh/net/ocr-optimization/
 
 通过探索，使用 Aspose.OCR for .NET 提高 OCR 准确性[预处理过滤器](./preprocessing-filters-for-image/)。立即下载并了解如何在识别之前微调图像。本教程确保无缝集成，提高准确性和效率。
 
-## OCR 图像识别中的拼写检查结果校正
-
-实现无与伦比的 OCR 准确性[Aspose.OCR for .NET](./result-correction-with-spell-checking/)。我们的拼写检查结果校正教程使您能够轻松自定义词典、纠正拼写并确保无错误的文本识别。使用 Aspose.OCR 进入精确的世界。
-
-## 在 OCR 图像识别中将多页结果保存为文档
-
-使用 Aspose.OCR for .NET 轻松将多页 OCR 结果保存为文档。我们的[分步指南](./save-multipage-result-as-document/)释放文档创建的全部潜力。无缝集成 Aspose.OCR 并轻松将您的 OCR 结果转换为多页文档。
-
-使用 Aspose.OCR For .NET 教程列表，您可以访问其他资源并随时了解 OCR 优化的最新进展。通过 Aspose.OCR for .NET 教程深入了解精确和高效的世界。
 ## OCR 优化教程
 ### [在 OCR 图像识别中对 URL 中的图像执行 OCR](./perform-ocr-on-image-from-url/)
 探索与 Aspose.OCR for .NET 的无缝 OCR 集成。精确识别图像中的文本。
@@ -46,10 +37,15 @@ url: /zh/net/ocr-optimization/
 通过我们的综合指南释放 Aspose.OCR for .NET 的潜力。逐步学习如何准备用于图像识别的矩形。通过无缝 OCR 集成提升您的 .NET 应用程序。
 ### [OCR 图像识别中图像的预处理过滤器](./preprocessing-filters-for-image/)
 探索适用于 .NET 的 Aspose.OCR。使用预处理过滤器提高 OCR 准确性。立即下载以实现无缝集成。
+### [在 C# 中预处理图像 OCR – 使用 Aspose OCR 提升准确性](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+了解如何在 C# 项目中使用 Aspose OCR 进行图像预处理，以显著提升识别准确率。
 ### [OCR 图像识别中的拼写检查结果校正](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提高 OCR 准确性。轻松纠正拼写、自定义词典并实现无差错的文本识别。
 ### [在 OCR 图像识别中将多页结果保存为文档](./save-multipage-result-as-document/)
 释放 Aspose.OCR for .NET 的潜力。借助这份全面的分步指南，轻松将多页 OCR 结果保存为文档。
+### [使用 Aspose OCR 引擎在 C# 中批量 OCR 的方法](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+了解如何在 C# 项目中使用 Aspose OCR 引擎实现批量 OCR 处理，提高识别效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

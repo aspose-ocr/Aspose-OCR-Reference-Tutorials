@@ -39,6 +39,8 @@ url: /th/net/ocr-configuration/
 ปลดล็อกความสามารถ OCR อันทรงพลังด้วย Aspose.OCR สำหรับ .NET แยกข้อความจากรูปภาพได้อย่างลงตัว
 ### [OCROperation พร้อมรายการในการจดจำรูปภาพ OCR](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ดำเนินการจดจำรูปภาพ OCR พร้อมรายการได้อย่างง่ายดาย เพิ่มประสิทธิภาพการทำงานและการดึงข้อมูลในแอปพลิเคชันของคุณ
+### [วิธีการใช้ไลเซนส์ใน Aspose OCR – คู่มือ C# ขั้นตอนต่อขั้นตอน](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+เรียนรู้วิธีการตั้งค่าไลเซนส์สำหรับ Aspose OCR ใน C# อย่างละเอียดและง่ายดาย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
