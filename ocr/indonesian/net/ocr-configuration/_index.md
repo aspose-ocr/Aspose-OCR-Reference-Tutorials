@@ -56,6 +56,7 @@ Jelajahi potensi besar Aspose.OCR untuk .NET saat Anda dengan mudah melakukan pe
 ## Tutorial Konfigurasi OCR
 
 
+
 ### [OCROperation dengan Arsip dalam Pengenalan Gambar OCR](./ocr-operation-with-archive/)
 Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari gambar arsip langkah demi langkah.
 ### [OCROperation dengan Folder dalam Pengenalan Gambar OCR](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ Pelajari cara mengekstrak teks Arab dari gambar menggunakan Aspose OCR dalam apl
 ### [Cara Mengatur Lisensi Aspose di C# – Panduan Lengkap](./how-to-set-aspose-license-in-c-complete-guide/)
 Pelajari cara mengatur lisensi Aspose di C# secara lengkap untuk mengaktifkan semua fitur produk.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cara Menerapkan Lisensi di Aspose OCR – Panduan Langkah demi Langkah C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Pelajari cara mengaktifkan lisensi Aspose OCR dalam aplikasi C# Anda dengan panduan langkah demi langkah.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

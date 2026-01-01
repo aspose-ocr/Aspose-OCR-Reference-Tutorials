@@ -44,6 +44,7 @@ Jelajahi kompleksitas pengenalan tabel dalam pengenalan gambar OCR dengan Aspose
 Siap merevolusi aplikasi .NET Anda? Selami Tutorial Pengenalan Teks kami dan manfaatkan kekuatan Aspose.OCR untuk pengenalan teks dalam gambar yang akurat dan efisien. Unduh sekarang dan mulailah perjalanan peningkatan kemampuan OCR.
 ## Tutorial Pengenalan Teks
 
+
 ### [Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR](./get-choices-for-recognized-characters/)
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang akurat. Ikuti panduan langkah demi langkah kami untuk mengambil pilihan karakter yang dikenali dalam pengenalan gambar.
 ### [Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR](./get-recognition-result/)
@@ -84,6 +85,20 @@ Pelajari cara mengekstrak teks OCR menggunakan C# dengan panduan langkah demi la
 ### [Mengenali teks PNG dengan Aspose OCR .NET – Panduan OCR Lokal Lengkap](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Panduan lengkap untuk melakukan OCR pada file PNG secara lokal menggunakan Aspose OCR di .NET.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tutorial OCR C#: Ekstrak Teks dari Gambar dengan Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam aplikasi C# dengan langkah-langkah mudah.
+### [Tutorial OCR C# – Ekstrak Teks dari Gambar dan Ekspor ke JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dan mengekspor hasilnya ke format JSON dengan mudah.
+### [Cara OCR Gambar di C# – Mengonversi JPG ke ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengubah gambar JPG menjadi file ePub dengan mudah.
+### [Mengenali Teks Rusia dengan Aspose OCR C# – Panduan PDF Multi‑Halaman Lengkap](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Pelajari cara mengenali teks berbahasa Rusia dalam PDF multi‑halaman menggunakan Aspose OCR dengan C# secara lengkap.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

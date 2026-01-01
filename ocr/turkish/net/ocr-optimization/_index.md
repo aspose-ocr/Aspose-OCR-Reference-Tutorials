@@ -66,6 +66,7 @@ Aspose.OCR For .NET Dersleri Listelemeyi kullanarak ek kaynaklara erişebilir ve
 ## OCR Optimizasyon Eğitimleri
 
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET ile sorunsuz OCR entegrasyonunu keşfedin. Görüntülerden metni hassas bir şekilde tanıyın.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -91,6 +92,16 @@ Görüntü eğriliğini giderin ve kontrastı yükseltin, OCR doğruluğunu art�
 ### [C#'ta Görüntüyü PDF'ye Dönüştürme – Tam OCR Rehberi](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Aspose.OCR for .NET kullanarak C# ile görüntüyü PDF'ye dönüştürün ve OCR sonuçlarını tek bir belgeye kaydedin.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C#'ta Aspose OCR Motoru ile Toplu OCR Nasıl Yapılır](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Aspose.OCR for .NET ile C# uygulamalarında toplu OCR işlemlerini hızlı ve etkili bir şekilde gerçekleştirin.
+### [C#'ta Görüntü Ön İşleme OCR – Aspose OCR ile Doğruluğu Artırın](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Aspose OCR ile C# uygulamalarında görüntü ön işleme yaparak OCR doğruluğunu artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

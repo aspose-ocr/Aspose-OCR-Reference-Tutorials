@@ -61,6 +61,7 @@ weight: 25
 ## Учебные материалы по оптимизации OCR
 
 
+
 ### [Выполнение OCR изображения по URL в распознавании OCR](./perform-ocr-on-image-from-url/)
 Исследуйте бесшовную интеграцию OCR с Aspose.OCR для .NET. Распознавайте текст с изображений с точностью.
 ### [Подготовка прямоугольников в распознавании OCR](./prepare-rectangles/)
@@ -85,6 +86,17 @@ weight: 25
 Узнайте, как выравнивать изображения и улучшать контраст, чтобы повысить точность распознавания текста с помощью Aspose.OCR для .NET.
 ### [Конвертировать изображение в PDF на C# – Полное руководство по OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Пошаговое руководство по преобразованию изображений в PDF с использованием Aspose.OCR в C# для полного OCR процесса.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Предобработка изображения OCR в C# – Повышение точности с Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Узнайте, как предобрабатывать изображения в C# для OCR, повышая точность распознавания с помощью Aspose OCR.
+### [Как пакетно выполнять OCR в C# с движком Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Узнайте, как обрабатывать множество изображений за один проход, используя Aspose OCR в C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

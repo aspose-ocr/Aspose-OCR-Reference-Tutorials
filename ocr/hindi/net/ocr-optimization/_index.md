@@ -61,6 +61,7 @@ Aspose.OCR For .NET ट्यूटोरियल सूची का उपय
 ## OCR अनुकूलन ट्यूटोरियल
 
 
+
 ### [URL से छवि पर OCR निष्पादित करना OCR इमेज रिकग्निशन में](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET के साथ सहज OCR एकीकरण का अन्वेषण करें। छवियों से सटीक रूप से पाठ पहचानें।
 ### [OCR इमेज रिकग्निशन में आयतें तैयार करना](./prepare-rectangles/)
@@ -86,6 +87,17 @@ GPU त्वरण के साथ तेज़ OCR के लिए C# मे
 छवि को सीधा करके और कंट्रास्ट बढ़ाकर OCR की सटीकता में सुधार करें।
 ### [C# में छवि को PDF में परिवर्तित करें – पूर्ण OCR गाइड](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 .NET के लिए Aspose.OCR का उपयोग करके छवि को PDF में बदलें और पूर्ण OCR प्रक्रिया लागू करें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# में Aspose OCR इंजन के साथ बैच OCR कैसे करें](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+एक साथ कई छवियों पर OCR चलाने के लिए Aspose OCR इंजन का उपयोग करके C# में बैच प्रोसेसिंग कैसे सेटअप करें।
+### [C# में इमेज OCR को प्रीप्रोसेस करें – Aspose OCR के साथ सटीकता बढ़ाएँ](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+C# में Aspose OCR का उपयोग करके इमेज प्रीप्रोसेसिंग के माध्यम से OCR सटीकता को बढ़ाने के चरणों को जानें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

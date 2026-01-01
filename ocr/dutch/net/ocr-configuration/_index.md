@@ -55,6 +55,7 @@ Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR�
 ## OCR-configuratie-tutorials
 
 
+
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ Leer hoe u GPU-ondersteuning inschakelt voor Aspose OCR om de prestaties te verb
 Leer hoe u Arabische tekst uit afbeeldingen haalt met Aspose OCR in C#.
 ### [Hoe Aspose-licentie in C# instellen – Complete gids](./how-to-set-aspose-license-in-c-complete-guide/)
 Leer hoe u de Aspose-licentie in C# instelt voor optimale functionaliteit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hoe licentie toe te passen in Aspose OCR – Stapsgewijze C#-gids](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Leer hoe u de licentie van Aspose OCR installeert in uw C#-project, stap voor stap.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

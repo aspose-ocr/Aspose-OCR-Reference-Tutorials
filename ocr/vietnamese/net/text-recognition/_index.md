@@ -44,6 +44,7 @@ Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn
 Bạn đã sẵn sàng cách mạng hóa các ứng dụng .NET của mình chưa? Đi sâu vào Hướng dẫn nhận dạng văn bản của chúng tôi và khai thác sức mạnh của Aspose.OCR để nhận dạng văn bản chính xác và hiệu quả trong hình ảnh. Tải xuống ngay bây giờ và bắt đầu hành trình nâng cao khả năng OCR.
 ## Hướng dẫn nhận dạng văn bản
 
+
 ### [Nhận lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh OCR](./get-choices-for-recognized-characters/)
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng ký tự chính xác. Làm theo hướng dẫn từng bước của chúng tôi để truy xuất các lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh.
 ### [Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR](./get-recognition-result/)
@@ -85,6 +86,21 @@ Hướng dẫn chi tiết cách chuyển tệp TIFF thành PDF có thể tìm ki
 Hướng dẫn chi tiết từng bước cách trích xuất văn bản OCR trong C# bằng Aspose.OCR.
 ### [Nhận dạng văn bản PNG với Aspose OCR .NET – Hướng dẫn OCR nội địa đầy đủ](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ tệp PNG bằng Aspose OCR cho .NET, cung cấp quy trình OCR nội địa đầy đủ và dễ thực hiện.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hướng dẫn OCR C#: Trích xuất văn bản từ hình ảnh với Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Hướng dẫn OCR C#: Trích xuất văn bản từ hình ảnh và xuất ra JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Khám phá cách trích xuất văn bản từ hình ảnh và lưu kết quả dưới dạng JSON bằng Aspose OCR trong C#.
+### [Cách OCR Hình ảnh trong C# – Chuyển JPG sang ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển đổi ảnh JPG thành tài liệu ePub một cách nhanh chóng.
+### [Nhận dạng văn bản tiếng Nga với Aspose OCR C# – Hướng dẫn PDF đa trang đầy đủ](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng văn bản tiếng Nga và xuất ra PDF đa trang.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

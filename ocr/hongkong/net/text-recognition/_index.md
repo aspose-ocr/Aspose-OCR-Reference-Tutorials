@@ -44,6 +44,7 @@ url: /zh-hant/net/text-recognition/
 準備好徹底改變您的 .NET 應用程式了嗎？深入研究我們的文字辨識教學並利用 Aspose.OCR 的強大功能來準確、有效率地識別圖像中的文字。立即下載並踏上增強 OCR 功能的旅程。
 ## 文字辨識教程
 
+
 ### [在 OCR 影像辨識中取得已辨識字元的選擇](./get-choices-for-recognized-characters/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
 ### [OCR影像辨識中取得辨識結果](./get-recognition-result/)
@@ -85,6 +86,20 @@ url: /zh-hant/net/text-recognition/
 ### [使用 Aspose OCR .NET 辨識 PNG 文字 – 完整本機 OCR 指南](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 使用 Aspose.OCR for .NET 完整步驟，在本機環境中辨識 PNG 圖片文字，提升文字提取效率。
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# OCR 教程：使用 Aspose OCR 從圖像提取文字](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+學習如何使用 Aspose OCR 在 C# 中從圖像中提取文字，提升您的文字辨識應用程式。
+### [C# OCR 教程 – 從圖像提取文字並匯出為 JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+學習如何使用 Aspose OCR 在 C# 中從圖像提取文字並匯出為 JSON，提升您的文字辨識應用程式。
+### [如何在 C# 中 OCR 圖像 – 將 JPG 轉換為 ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+學習使用 Aspose OCR 在 C# 中將 JPG 圖像轉換為 ePub 電子書，提升您的內容轉換能力。
+### [使用 Aspose OCR C# 識別俄文文字 – 完整多頁 PDF 指南](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+使用 Aspose OCR 在 C# 中識別俄文文字，提供完整的多頁 PDF 處理指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

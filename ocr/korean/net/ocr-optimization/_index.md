@@ -60,6 +60,7 @@ Aspose.OCR For .NET 튜토리얼 목록을 활용하면 추가 리소스에 접�
 ## OCR 최적화 튜토리얼
 
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 텍스트를 정밀하게 인식합니다.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -84,6 +85,16 @@ GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 �
 .NET용 Aspose.OCR로 이미지 기울기를 보정하고 대비를 강화하여 OCR 정확도를 크게 향상시키는 방법을 알아보세요.
 ### [C#에서 이미지를 PDF로 변환 – 완전한 OCR 가이드](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 .NET용 Aspose.OCR을 사용해 이미지를 PDF로 변환하고 OCR을 적용하는 전체 가이드를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C#에서 이미지 전처리 OCR – Aspose OCR으로 정확도 향상](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR 엔진으로 배치 OCR 수행 방법](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+.NET용 Aspose.OCR 엔진을 사용해 C#에서 배치 OCR을 구현하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -56,6 +56,7 @@ weight: 24
 ## Tutorials Ρύθμισης OCR
 
 
+
 ### [OCROperation με Αρχείο σε Αναγνώριση Εικόνας OCR](./ocr-operation-with-archive/)
 Αποκτήστε το πλήρες δυναμικό του OCR σε εφαρμογές .NET με το Aspose.OCR. Μάθετε πώς να εξάγετε κείμενο από εικόνες σε αρχεία βήμα προς βήμα.
 ### [OCROperation με Φάκελο σε Αναγνώριση Εικόνας OCR](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ weight: 24
 ### [Πώς να ορίσετε την άδεια Aspose σε C# – Πλήρης οδηγός](./how-to-set-aspose-license-in-c-complete-guide/)
 Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose σε εφαρμογές C# βήμα‑βήμα, εξασφαλίζοντας πλήρη λειτουργικότητα.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Πώς να Εφαρμόσετε Άδεια στο Aspose OCR – Βήμα‑βήμα Οδηγός C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose OCR σε εφαρμογές C# βήμα‑βήμα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

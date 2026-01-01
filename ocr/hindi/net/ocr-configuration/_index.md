@@ -56,6 +56,7 @@ Aspose.OCR for .NET की विशाल क्षमताओं का ए�
 ## OCR Configuration Tutorials
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 OCR की क्षमताओं को .NET एप्लिकेशन्स में Aspose.OCR के साथ चलाएं। आर्काइव इमेज से टेक्स्ट निकालने के स्टेप-दर-स्टेप सीखें।
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -89,6 +90,15 @@ Aspose OCR में GPU का उपयोग करके तेज़ OCR �
 Aspose OCR के साथ C# में अरबी छवियों से टेक्स्ट निकालने का चरण‑दर‑चरण मार्गदर्शन।
 ### [C# में Aspose लाइसेंस सेट करने का पूर्ण गाइड](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose लाइसेंस को C# प्रोजेक्ट में सेट करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR में लाइसेंस कैसे लागू करें – चरण‑दर‑चरण C# गाइड](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR के लिए लाइसेंस लागू करने की प्रक्रिया को चरण‑दर‑चरण C# में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

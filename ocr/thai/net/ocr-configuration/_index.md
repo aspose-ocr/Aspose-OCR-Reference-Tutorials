@@ -55,6 +55,7 @@ weight: 24
 ## บทเรียนการกำหนดค่า OCR
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -87,6 +88,14 @@ weight: 24
 ### [วิธีตั้งค่าใบอนุญาต Aspose ใน C# – คู่มือฉบับสมบูรณ์](./how-to-set-aspose-license-in-c-complete-guide/)
 เรียนรู้ขั้นตอนการตั้งค่าใบอนุญาต Aspose ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์ทั้งหมดของผลิตภัณฑ์
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [วิธีการใช้ไลเซนส์ใน Aspose OCR – คู่มือ C# ขั้นตอนต่อขั้นตอน](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+เรียนรู้วิธีการตั้งค่าไลเซนส์สำหรับ Aspose OCR ใน C# อย่างละเอียดและง่ายดาย
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

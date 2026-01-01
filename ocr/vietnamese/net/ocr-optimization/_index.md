@@ -66,6 +66,7 @@ Sử dụng Aspose.OCR For .NET Tutorials List, bạn có thể truy cập các 
 ## Hướng dẫn tối ưu hóa OCR
 
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -91,6 +92,16 @@ Khám phá cách xử lý ảnh để loại bỏ nghiêng và tăng độ tươ
 ### [Chuyển đổi hình ảnh sang PDF trong C# – Hướng dẫn OCR toàn diện](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Biến hình ảnh thành PDF với Aspose.OCR cho .NET, tích hợp OCR đầy đủ và lưu kết quả dưới dạng tài liệu PDF.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tiền xử lý hình ảnh OCR trong C# – Tăng độ chính xác với Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Khám phá cách tiền xử lý hình ảnh trong C# để nâng cao độ chính xác OCR với Aspose OCR.
+### [Cách thực hiện OCR hàng loạt bằng C# với Aspose OCR Engine](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Hướng dẫn thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C# và Aspose OCR Engine, tăng hiệu suất và tự động hoá quy trình.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

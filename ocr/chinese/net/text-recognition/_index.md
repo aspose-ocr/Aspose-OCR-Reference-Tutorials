@@ -44,6 +44,7 @@ url: /zh/net/text-recognition/
 准备好彻底改变您的 .NET 应用程序了吗？深入研究我们的文本识别教程并利用 Aspose.OCR 的强大功能来准确、高效地识别图像中的文本。立即下载并踏上增强 OCR 功能的旅程。
 ## 文本识别教程
 
+
 ### [在 OCR 图像识别中获取已识别字符的选择](./get-choices-for-recognized-characters/)
 使用 Aspose.OCR 增强您的 .NET 应用程序，以实现准确的字符识别。按照我们的分步指南检索图像识别中已识别字符的选择。
 ### [OCR图像识别中获取识别结果](./get-recognition-result/)
@@ -82,6 +83,21 @@ url: /zh/net/text-recognition/
 ### [如何在 C# 中提取 OCR 文本 – 完整分步指南](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 ### [使用 Aspose OCR .NET 识别 PNG 文本 – 完整本地 OCR 指南](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 通过 Aspose OCR .NET 完整指南，学习在本地环境中识别 PNG 图像中的文本。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [使用 Aspose OCR C# 识别俄文文本 – 完整多页 PDF 指南](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+通过本完整指南，使用 Aspose OCR C# 在多页 PDF 中识别俄文文本，实现高效提取与处理。
+### [C# OCR 教程：使用 Aspose OCR 从图像提取文本](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+使用 Aspose OCR 在 .NET 中轻松提取图像文本，提升您的 OCR 能力。
+### [C# OCR 教程：从图像提取文本并导出为 JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+使用 Aspose OCR 在 .NET 中提取图像文本并导出为 JSON，提升您的 OCR 工作流。
+### [C# OCR 教程：将 JPG 转换为 ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+使用 Aspose.OCR 在 C# 中将 JPG 图像转换为 ePub 电子书，轻松实现图像文字提取与格式转换。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

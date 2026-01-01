@@ -66,6 +66,7 @@ Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en
 ## OCR-optimalisatie tutorials
 
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Ontdek naadloze OCR‑integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -91,6 +92,17 @@ Leer hoe u met batch-OCR doorzoekbare PDF's maakt in C# met Aspose.OCR.
 Leer hoe u afbeeldingen kunt rechtzetten en het contrast kunt verbeteren om de OCR-nauwkeurigheid te verhogen.
 ### [Afbeelding converteren naar PDF in C# – Complete OCR-gids](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Leer hoe u afbeeldingen omzet naar PDF in C# met volledige OCR-ondersteuning, stap voor stap integratie en optimale nauwkeurigheid.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Batch-OCR uitvoeren in C# met Aspose OCR-engine](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Leer hoe u meerdere afbeeldingen in één batch kunt verwerken met Aspose OCR-engine in C#.
+### [Voorverwerking van afbeelding OCR in C# – Verhoog de nauwkeurigheid met Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Verbeter de OCR-nauwkeurigheid door afbeeldingen voor te verwerken in C# met Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

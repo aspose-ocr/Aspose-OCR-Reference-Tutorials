@@ -55,6 +55,7 @@ Aspose.OCR for .NET のリスト機能を活用し、リストベースで OCR �
 ## OCR 設定チュートリアル
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を引き出し、アーカイブ画像からテキストを段階的に抽出する方法を学びます。
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -86,6 +87,14 @@ Aspose OCR を使用して、C# アプリケーションでアラビア語の画
 Aspose OCR で GPU を有効にし、パフォーマンスを向上させる手順を詳しく解説します。
 ### [C# で Aspose ライセンスを設定する方法 – 完全ガイド](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose のライセンスを C# アプリケーションに設定し、フル機能を有効化する手順を詳しく解説します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR のライセンス適用方法 – ステップバイステップ C# ガイド](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR のライセンスを適用し、.NET アプリケーションで OCR 機能を有効にする手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

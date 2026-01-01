@@ -65,6 +65,7 @@ weight: 25
 ## دروس تحسين OCR
 
 
+
 ### [إجراء OCR على صورة من URL في التعرف على الصور باستخدام OCR](./perform-ocr-on-image-from-url/)
 استكشف تكامل OCR السلس مع Aspose.OCR for .NET. تعرف على النص من الصور بدقة.
 ### [إعداد المستطيلات في التعرف على الصور باستخدام OCR](./prepare-rectangles/)
@@ -89,6 +90,16 @@ weight: 25
 تعلم خطوات تصحيح الميل وزيادة التباين لتحسين نتائج OCR باستخدام Aspose.OCR لـ .NET.
 ### [تحويل الصورة إلى PDF في C# – دليل شامل للتعرف الضوئي على الحروف](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 تعلم كيفية تحويل الصور إلى ملفات PDF باستخدام C# و Aspose.OCR مع تطبيق كامل لتقنية OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [كيفية تنفيذ التعرف الضوئي على الحروف دفعة واحدة في C# باستخدام محرك Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+تعلم كيفية معالجة مجموعة من الصور دفعة واحدة باستخدام Aspose OCR في بيئة C# لزيادة الإنتاجية والدقة.
+### [معالجة مسبقة لصورة OCR في C# – تعزيز الدقة باستخدام Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+اكتشف كيفية تحسين دقة OCR عبر معالجة الصور مسبقًا في C# باستخدام Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -54,6 +54,7 @@ weight: 24
 ## OCR 配置教程
 
 
+
 ### [使用归档进行 OCR 图像识别的 OCROperation](./ocr-operation-with-archive/)
 解锁 Aspose.OCR 在 .NET 应用中的 OCR 潜能，逐步学习如何从归档图像中提取文本。  
 ### [使用文件夹进行 OCR 图像识别的 OCROperation](./ocr-operation-with-folder/)
@@ -86,6 +87,15 @@ weight: 24
 使用 Aspose.OCR 在 C# 应用程序中实现阿拉伯语图像文本识别的完整指南。
 ### [如何在 C# 中设置 Aspose 许可证 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
 本教程详细演示在 C# 项目中配置 Aspose 许可证的完整步骤，确保功能正常运行。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [如何在 Aspose OCR 中应用许可证 – 步骤详解 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+使用 C#，一步步演示在 Aspose OCR 中申请许可证的完整过程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

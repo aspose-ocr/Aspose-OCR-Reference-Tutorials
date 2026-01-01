@@ -66,6 +66,7 @@ Usando la lista de tutoriales de Aspose.OCR para .NET, puedes acceder a recursos
 ## Tutoriales de Optimización OCR
 
 
+
 ### [Realizar OCR en Imagen desde URL en Reconocimiento de Imágenes OCR](./perform-ocr-on-image-from-url/)
 Explora una integración OCR sin fisuras con Aspose.OCR para .NET. Reconoce texto de imágenes con precisión.
 ### [Preparar rectángulos en Reconocimiento de Imágenes OCR](./prepare-rectangles/)
@@ -91,6 +92,17 @@ Aprenda a generar PDFs buscables usando OCR por lotes en C# con Aspose.OCR, opti
 Aprenda a corregir la inclinación y mejorar el contraste de imágenes para obtener resultados de OCR más precisos.
 ### [Convertir imagen a PDF en C# – Guía completa de OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Aprenda a convertir imágenes a PDF en C# con Aspose.OCR, mejorando la precisión y eficiencia del reconocimiento de texto.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo realizar OCR por lotes en C# con el motor OCR de Aspose](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Aprenda a procesar múltiples imágenes en lote usando Aspose OCR en C# para mejorar la eficiencia.
+### [Preprocesar imagen OCR en C# – Mejore la precisión con Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Aprenda a preprocesar imágenes para OCR en C# y aumente la precisión usando Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

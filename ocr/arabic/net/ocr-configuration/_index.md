@@ -56,6 +56,7 @@ weight: 24
 ## دروس تكوين OCR
 
 
+
 ### [OCROperation مع الأرشيف في التعرف على الصور باستخدام OCR](./ocr-operation-with-archive/)
 اكتشف إمكانات OCR في تطبيقات .NET مع Aspose.OCR. تعلم كيفية استخراج النص من صور الأرشيف خطوة بخطوة.
 ### [OCROperation مع المجلد في التعرف على الصور باستخدام OCR](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ weight: 24
 ### [كيفية تعيين ترخيص Aspose في C# – دليل كامل](./how-to-set-aspose-license-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية إعداد ترخيص Aspose في تطبيقات C# لضمان تشغيل المكتبة بدون قيود.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [كيفية تطبيق الترخيص في Aspose OCR – دليل خطوة بخطوة C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+تعلم كيفية تطبيق الترخيص في Aspose OCR باستخدام C# خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

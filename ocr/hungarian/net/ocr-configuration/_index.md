@@ -56,6 +56,7 @@ Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedé
 ## OCR konfigurációs oktatóanyagok
 
 
+
 ### [OCROperation archívummal az OCR képfelismerésben](./ocr-operation-with-archive/)
 Fedezze fel az OCR lehetőségeit .NET alkalmazásokban az Aspose.OCR segítségével. Tanulja meg lépésről lépésre a szöveg kinyerését archívumképekből.  
 ### [OCROperation mappával az OCR képfelismerésben](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ Ismerje meg, hogyan használhatja az Aspose OCR‑t arab nyelvű képek szöveg�
 ### [Hogyan állítsuk be az Aspose licencet C#‑ban – Teljes útmutató](./how-to-set-aspose-license-in-c-complete-guide/)
 Ismerje meg, hogyan konfigurálja az Aspose licencet C#‑ban a zökkenőmentes működéshez.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hogyan alkalmazzon licencet az Aspose OCR-ben – Lépésről‑lépésre C# útmutató](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Ismerje meg, hogyan aktiválhatja a licencet az Aspose OCR .NET könyvtárban C# nyelven, részletes lépésekkel.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
