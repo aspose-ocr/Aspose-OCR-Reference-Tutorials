@@ -46,10 +46,14 @@ url: /ko/net/ocr-optimization/
 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이미지 인식을 위해 직사각형을 준비하는 방법을 단계별로 알아보세요. 원활한 OCR 통합으로 .NET 애플리케이션을 향상시키세요.
 ### [OCR 이미지 인식의 이미지 전처리 필터](./preprocessing-filters-for-image/)
 .NET용 Aspose.OCR을 살펴보세요. 전처리 필터로 OCR 정확도를 높입니다. 원활한 통합을 위해 지금 다운로드하세요.
+### [C#에서 이미지 전처리 OCR – Aspose OCR으로 정확도 향상](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정](./result-correction-with-spell-checking/)
 .NET용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 철자를 수정하고, 사전을 사용자 정의하고, 오류 없는 텍스트 인식을 쉽게 달성할 수 있습니다.
 ### [OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장](./save-multipage-result-as-document/)
 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이 포괄적인 단계별 가이드를 사용하여 여러 페이지의 OCR 결과를 문서로 쉽게 저장할 수 있습니다.
+### [C#에서 Aspose OCR 엔진으로 배치 OCR 수행 방법](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+.NET용 Aspose.OCR 엔진을 사용해 C#에서 배치 OCR을 구현하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
