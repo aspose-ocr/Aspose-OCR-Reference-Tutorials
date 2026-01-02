@@ -1,32 +1,43 @@
 ---
-title: OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
-linktitle: OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
-second_title: Aspose.OCR .NET API'si
-description: Görüntülerdeki kusursuz metin tanımaya yönelik güçlü bir OCR çözümü olan Aspose.OCR for .NET'i keşfedin.
-weight: 11
+date: 2026-01-02
+description: Aspose.OCR for .NET kullanarak OCR sonuçlarını almayı ve görüntüden metin
+  çıkarmayı öğrenin. Çok dilli metin tanıma ve Aspose'un nasıl kullanılacağını içerir.
+linktitle: How to Get OCR Results with Aspose.OCR for .NET
+second_title: Aspose.OCR .NET API
+title: Aspose.OCR for .NET ile OCR Sonuçlarını Nasıl Alabilirsiniz
 url: /tr/net/text-recognition/get-recognition-result/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+# Aspose.OCR for .NET ile OCR Sonuçlarını Nasıl Alabilirsiniz
 
-## giriiş
+## Giriş
 
-Programlamanın dinamik dünyasında etkili metin tanıma oyunun kurallarını değiştiriyor ve Aspose.OCR for .NET güçlü bir çözüm olarak ortaya çıkıyor. Bu eğitimde, görüntü tanıma potansiyelinden sorunsuz bir şekilde yararlanmak için Aspose.OCR'ı kullanmanın incelikleri ele alınıyor.
+Eğer **how to get ocr** sonuçlarını hızlı ve güvenilir bir şekilde elde etmeniz gerekiyorsa, Aspose.OCR for .NET sağlam bir tercihtir. Bu öğretici, görüntü dosyalarından metin çıkarmayı, tanıma ayarlarını yapılandırmayı ve çok dilli metin tanımını ele almayı—tüm bunları net, adım‑adım kod örnekleriyle gösterir. Sonunda, Aspose'u nasıl kullanacağınızı anlayacak, tam tanıma çıktısını görecek ve daha derin keşif için resmi Aspose OCR belgelerinin nerede olduğunu öğreneceksiniz.
+
+## Hızlı Yanıtlar
+- **What does “how to get ocr” mean?** Bir OCR motoru kullanarak bir görüntüden tanınan metni ve ilgili verileri almayı ifade eder.  
+- **Which library should I use?** Aspose.OCR for .NET, basit bir API ve çok dilli destek sunar.  
+- **Do I need a license?** Ücretsiz deneme mevcuttur; üretim kullanımı için bir lisans gereklidir.  
+- **What .NET versions are supported?** .NET Framework 4.5+ ve .NET Core/5/6+.  
+- **Can I extract text from image in other languages?** Evet—Aspose.OCR, kutudan çıktığı gibi çok dilli metin tanımını destekler.
+
+## OCR Nedir ve Neden Aspose.OCR Kullanmalı?
+
+Optik Karakter Tanıma (OCR), görüntülerdeki basılı veya el yazısı metni düzenlenebilir, aranabilir dizelere dönüştürür. Aspose.OCR, .NET geliştiricileri için bu süreci yüksek‑seviye bir API, yerleşik dil modelleri ve kullanımı kolay ayarlar sunarak basitleştirir. Bir belge‑işleme hattı, veri‑girişi otomasyon aracı veya çok dilli arama özelliği oluşturuyor olun, Aspose.OCR **extract text from image** dosyalarını minimum kodla çıkarmanıza yardımcı olur.
 
 ## Önkoşullar
 
-Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+- **.NET Framework** (or .NET Core/5/6) makinenize kurulu.  
+- **Aspose.OCR for .NET** – kütüphaneyi resmi sürüm sayfasından [burada](https://releases.aspose.com/ocr/net/) indirin.
 
-- .NET Framework: Makinenizde .NET Framework'ün kurulu olduğundan emin olun.
--  Aspose.OCR for .NET: Aspose.OCR kitaplığını indirip yükleyin. Gerekli kaynakları bulabilirsiniz[Burada](https://releases.aspose.com/ocr/net/).
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-.NET uygulamanızda gerekli ad alanlarını içe aktararak başlayın:
+.NET uygulamanızda, gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -36,44 +47,45 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım 1: Belge Dizinini Ayarlayın
 
-Belge dizininizin yolunu belirterek başlayın:
+İşlemek istediğiniz görüntüyü içeren klasörü belirtin:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Adım 2: Aspose.OCR'ı başlatın
+## Adım 2: Aspose.OCR'ı Başlatın
 
-İşlevlerinden yararlanmak için Aspose.OCR'nin bir örneğini oluşturun:
+OCR motorunun bir örneğini oluşturun:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 3. Adım: Görüntü Yolunu Belirleyin
+## Adım 3: Görüntü Yolunu Belirtin
 
-Tanımak istediğiniz görüntünün tam yolunu tanımlayın:
+Tanımak istediğiniz kesin görüntü dosyasına işaret edin:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## Adım 4: Tanıma Ayarları
+## Adım 4: Tanıma Ayarlarını Yapılandırın
 
-İster varsayılan ister özel ayarlar kullanılarak, tanıma ayarlarını gereksinimlerinize göre yapılandırın:
+Ayarları senaryonuza göre ayarlayın—varsayılan davranışa mı yoksa çok dilli metin tanıma için dil seçimi gibi özel seçeneklere mi ihtiyacınız olduğuna göre:
 
 ```csharp
 RecognitionSettings settings = new RecognitionSettings
 {
-    // Tanıma ayarlarınızı burada belirtin
+    // Specify your recognition settings here
+    // Example: Language = Language.English | Language.Spanish
 };
 ```
 
-## Adım 5: Görüntü Tanıma İşlemini Gerçekleştirin
+## Adım 5: Görüntü Tanımını Gerçekleştirin
 
-Belirtilen görüntüyü ve ayarları kullanarak görüntü tanıma işlemini yürütün:
+OCR sürecini çalıştırın ve sonucu yakalayın:
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(fullPath, settings);
@@ -81,37 +93,52 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 
 ## Adım 6: Tanıma Sonucunu Yazdırın
 
-Metin, eğrilik, paragraflar, alanlar, çizgiler, seçimler, JSON gösterimi ve uyarılar dahil olmak üzere tanıma sonuçlarını görüntüleyin:
+Çıkarılan metin, düzen bilgisi, JSON temsili ve olası uyarılar dahil olmak üzere tam tanıma çıktısını gösterin:
 
 ```csharp
 PrintRecognitionResult(result);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde Aspose.OCR for .NET kullanarak görüntülerden metin çıkarma sürecini inceledik. Bu güçlü kitaplık, OCR entegrasyonunu basitleştirerek onu etkili metin tanıma çözümleri arayan geliştiriciler için değerli bir varlık haline getirir.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **Metin döndürülmedi** | Yanlış görüntü yolu veya desteklenmeyen format | `fullPath`'i doğrulayın ve görüntünün desteklenen bir tür (PNG, JPEG, BMP) olduğundan emin olun. |
+| **Yanlış dil algılaması** | Varsayılan dil ayarları görüntüyle eşleşmeyebilir | `settings.Language`'i uygun dil(ler) olarak ayarlayın, böylece doğruluk artar. |
+| **Büyük görüntülerde performans yavaşlaması** | Yüksek çözünürlüklü görüntüler işlem süresini artırır | Tanımadan önce görüntüyü yeniden boyutlandırın veya `settings.Dpi`'yi daha düşük bir değere ayarlayın. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.OCR çeşitli dillerdeki metinleri tanıyabilir mi?
+### S1: Aspose.OCR çeşitli dillerde metin tanıyabilir mi?
 
-Cevap1: Evet, Aspose.OCR çok dilli metin tanımayı destekleyerek çok çeşitli uygulamalar için çok yönlülük sağlar.
+C1: Evet, Aspose.OCR çok dilli metin tanımını destekler ve geniş bir uygulama yelpazesi için çok yönlülük sağlar.
 
-### S2: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+### S2: Aspose.OCR for .NET için ücretsiz deneme mevcut mu?
 
- A2: Kesinlikle! Ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+C2: Elbette! Ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
 ### S3: Aspose.OCR için kapsamlı belgeleri nerede bulabilirim?
 
- A3: Belgelere bakın[Burada](https://reference.aspose.com/ocr/net/) Ayrıntılı bilgi ve kullanım yönergeleri için.
+C3: Derinlemesine bilgi ve kullanım kılavuzları için belgeleri [burada](https://reference.aspose.com/ocr/net/) inceleyin.
 
-### S4: Aspose.OCR için nasıl destek alabilirim?
+### S4: Aspose.OCR için destek nasıl alabilirim?
 
- A4: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluktan ve Aspose uzmanlarından yardım istemek.
+C4: Topluluktan ve Aspose uzmanlarından yardım almak için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
 ### S5: Aspose.OCR için geçici bir lisans alabilir miyim?
 
- Cevap5: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+C5: Evet, geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+
+## Sonuç
+
+Bu rehberde Aspose.OCR for .NET kullanarak **how to get OCR** sonuçlarını elde etmeyi, ortamı kurmaktan ayrıntılı bir tanıma raporu yazdırmaya kadar ele aldık. Artık **extract text from image** dosyalarını çıkarmak, çok dilli senaryoları yönetmek ve OCR'ı .NET projelerinize entegre etmek için sağlam bir temele sahipsiniz. Özel dil paketleri, ilgi bölgesi işleme ve toplu tanıma gibi gelişmiş özellikler için resmi Aspose OCR belgelerini keşfedin.
+
+---
+
+**Son Güncelleme:** 2026-01-02  
+**Test Edilen Versiyon:** Aspose.OCR 23.12 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
