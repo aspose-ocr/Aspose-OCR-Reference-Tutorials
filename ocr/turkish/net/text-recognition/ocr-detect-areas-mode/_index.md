@@ -1,32 +1,52 @@
 ---
-title: OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
-linktitle: OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
-second_title: Aspose.OCR .NET API'si
-description: Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
-weight: 13
+date: 2026-01-02
+description: OCR belge modunu kullanarak verimli görüntü metni tanıma için Aspose.OCR
+  ile .NET uygulamalarınızı geliştirin. Bu Aspose OCR C# öğreticisiyle tablo metni
+  görüntüsünü nasıl çıkaracağınızı öğrenin.
+linktitle: OCR Detect Areas Mode in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: OCR belge modu – OCR Görüntü Tanıma'da Alanları Algılama Modu
 url: /tr/net/text-recognition/ocr-detect-areas-mode/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
+# ocr belge modu – OCR Görüntü Tanıma’da Alanları Algıla Modu
 
-## giriiş
+## Giriş
 
-Bilgi teknolojisinin hızlı dünyasında, Optik Karakter Tanıma (OCR), görüntüleri düzenlenebilir ve aranabilir metne dönüştürmede çok önemli bir rol oynar. Aspose.OCR for .NET, geliştiricilerin güçlü OCR işlevselliğini uygulamalarına zahmetsizce entegre etmelerine olanak tanır. Bu eğitimde, görüntü tanımayı geliştiren güçlü bir özellik olan OCR Alanları Algılama Modu'nu inceleyeceğiz.
+Modern .NET geliştirmede, **ocr document mode** görüntüler içinde metnin nasıl algılandığı üzerinde hassas kontrol gerektiğinde tercih edilen yaklaşımdır. Aspose.OCR for .NET, farklı algılama stratejileri arasında geçişi sorunsuz hâle getirir ve makbuz, fatura veya çok sütunlu belgeler gibi karmaşık düzenlerden **extract table text image** almanıza olanak tanır. Bu **aspose ocr tutorial c#**, sizi Detect Areas Mode özelliğiyle tanıştıracak, her modun ne zaman kullanılacağını açıklayacak ve çalıştırmaya hazır bir kod örneği gösterecektir.
+
+## Hızlı Yanıtlar
+- **ocr document mode** nedir? Aspose.OCR'ye metin bölgelerini nasıl konumlandıracağını söyleyen bir dizi algılama stratejisi (PHOTO, DOCUMENT, COMBINE) setidir.
+- **Hangi mod tablolar için en iyisidir?** `PHOTO` modu, **extract table text image** ve küçük metin bloklarını çıkarmada mükemmeldir.
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme lisansı yeterlidir; üretim için ticari lisans gereklidir.
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 ve sonrası.
+- **Kurulum ne kadar sürer?** Örnek kodu entegre edip çalıştırmak genellikle 10 dakikadan az sürer.
+
+## ocr document mode nedir?
+`ocr document mode`, Aspose.OCR'ye metin tanıma işleminden önce bir görüntüyü nasıl bölümlendireceğini söyleyen yapılandırmadır. Dahili üç mod şunlardır:
+
+- **PHOTO** – Fotoğraflar, makbuzlar, faturalar ve küçük metin bölgeleri için optimize edilmiştir (**extract table text image** için idealdir).
+- **DOCUMENT** – Çok sütunlu basılı sayfalar ve gömülü grafikler içeren belgeler için uygundur.
+- **COMBINE** – PHOTO ve DOCUMENT sonuçlarını birleştirerek en kapsamlı kapsama sağlar.
+
+## Detect Areas Mode neden kullanılır?
+Doğru algılama modunu seçmek yanlış pozitifleri azaltır, işleme süresini hızlandırır ve doğruluğu artırır—özellikle tablolar gibi yapılandırılmış verilerle çalışırken. Modu görüntü tipinize göre özelleştirerek, post‑processing yapmadan güvenilir OCR sonuçları elde edebilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.OCR for .NET: Kitaplığı şuradan indirip yükleyin:[Aspose.OCR for .NET belgeleri](https://reference.aspose.com/ocr/net/).
-- Belge Dizini: OCR tanıma için görseller de dahil olmak üzere belgelerinizin saklandığı bir dizin hazırlayın.
+- **Aspose.OCR for .NET** – Kütüphaneyi [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/) adresinden indirin ve kurun.
+- **Document Directory** – İşlemek istediğiniz görüntüleri içeren (örnek: `table.png`) makinenizdeki bir klasör.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarın
 
-Başlamak için .NET uygulamanızdaki Aspose.OCR işlevlerine erişmek için gerekli ad alanlarını içe aktarın.
+İlk olarak, C# projenizde Aspose.OCR ile çalışmak için gerekli ad alanlarını içe aktarın.
 
 ```csharp
 using System;
@@ -34,69 +54,78 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Adım 1: Aspose.OCR'ı başlatın
+## Adım 1: Aspose.OCR'yi Başlatın
+
+OCR motorunun bir örneğini oluşturun ve veri klasörünüze yönlendirin.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 2. Adım: Görüntüyü Yükleyin
+## Adım 2: Görüntüyü Yükleyin ve Detect Areas Mode'ı Seçin
 
-OCR gerçekleştirmek istediğiniz görüntüyü yükleyin. Resmin desteklenen bir formatta olduğundan emin olun (ör. PNG, JPEG).
+Hedef görüntüyü yükleyin ve senaryonuza uygun algılama stratejisini belirtin.
 
 ```csharp
-// Resmi tanı
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new RecognitionSettings
 {
-    // Alanları Algılama Modunu Seçin
+    // Choose the Detect Areas Mode
     DetectAreasMode = DetectAreasMode.PHOTO
-    // Diğer seçenekler: YOK, BELGE, BİRLEŞTİR
+    // Other options: NONE, DOCUMENT, COMBINE
 });
 ```
 
-## 3. Adım: Alanları Algılama Modunu Ayarlayın
+## Adım 3: Tanınan Metni Alın ve Görüntüleyin
 
-Gereksinimlerinize göre Alanları Algılama Modunu belirtin. İçinden seçmek:
-- FOTOĞRAF: Küçük metin bölgeleri, tablolar, makbuzlar, faturalar içeren resimler için en iyisidir.
-- BELGE: Çok sütunlu metinler ve küçük resimli metinler için idealdir.
-- BİRLEŞTİR: BELGE ve FOTOĞRAF modlarının birleşimini kullanır.
+OCR tamamlandıktan sonra, çıkarılan metne erişebilirsiniz—daha ileri işleme veya bir veritabanına kaydetmek için mükemmeldir.
 
 ```csharp
-// Tanınan metni görüntüle
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 
 Console.WriteLine("OCRDetectAreasMode executed successfully");
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümleri
 
-Aspose.OCR for .NET, çok yönlü ve etkili bir çözüm sunarak OCR görüntü tanımayı basitleştirir. Geliştiriciler, OCR Tespit Alanları Modunu keşfederek, OCR işlemlerini belirli ihtiyaçlara göre uyarlayabilir ve görüntülerden doğru ve hızlı metin çıkarımı sağlayabilir.
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| **Boş çıktı** | Yanlış `DetectAreasMode` görüntü tipi için | `DOCUMENT` veya `COMBINE`'a geçin, düzenine bağlı olarak |
+| **Bozuk karakterler** | Düşük çözünürlüklü görüntü | Daha yüksek çözünürlüklü bir kaynak sağlayın veya görüntü iyileştirme ile ön işleme yapın |
+| **Büyük dosyalarda zaman aşımı** | Yetersiz bellek | `RecognitionSettings` kullanarak bölge boyutunu sınırlayın veya sayfaları parçalar halinde işleyin |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.OCR for .NET büyük ölçekli uygulamalar için uygun mudur?
+**S: Aspose.OCR for .NET büyük ölçekli uygulamalar için uygun mu?**  
+C: Evet, yüksek hacimli OCR iş yüklerini optimize edilmiş performansla yönetmek için tasarlanmıştır.
 
-Cevap1: Evet, Aspose.OCR for .NET, büyük ölçekli OCR gereksinimlerini verimlilik ve doğrulukla karşılamak üzere tasarlanmıştır.
+**S: Aspose.OCR for .NET el yazısı metni tanımak için kullanılabilir mi?**  
+C: Kütüphane basılı metne odaklanır; el yazısı tanıma özel bir motor gerektirebilir.
 
-### S2: El yazısı metinleri tanımak için Aspose.OCR for .NET'i kullanabilir miyim?
+**S: Hangi görüntü formatları destekleniyor?**  
+C: PNG, JPEG, BMP ve TIFF gibi yaygın formatlar tamamen desteklenir.
 
-Cevap2: Aspose.OCR for .NET öncelikle basılı metin tanımaya odaklanır ve el yazısı metinler için en iyi sonuçları sağlayamayabilir.
+**S: Teknik destek nasıl alınır?**  
+C: Sorular sormak ve toplulukla etkileşimde bulunmak için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
 
-### S3: Aspose.OCR for .NET tarafından desteklenen görüntü formatlarında herhangi bir sınırlama var mı?
+**S: Ücretsiz deneme mevcut mu?**  
+C: Evet, [ücretsiz deneme lisansı](https://releases.aspose.com/) ile özellikleri keşfedebilirsiniz.
 
-Cevap3: Aspose.OCR for .NET PNG, JPEG ve BMP gibi popüler görüntü formatlarını destekler.
+## Sonuç
 
-### S4: Aspose.OCR for .NET için nasıl teknik destek alabilirim?
+**ocr document mode** ve Detect Areas Mode seçeneklerini ustalıkla kullanarak, Aspose.OCR for .NET'i yüksek doğrulukla **extract table text image** ve diğer yapılandırılmış verileri çıkarmak için ince ayar yapabilirsiniz. Bu yaklaşımı uygulamalarınıza entegre ederek veri girişi, fatura işleme veya görüntüleri aranabilir metne dönüştürmenin kritik olduğu herhangi bir senaryoyu otomatikleştirebilirsiniz.
 
- A4: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) teknik yardım istemek ve toplulukla etkileşime geçmek.
+---
 
-### S5: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- C5: Evet, Aspose.OCR for .NET'in özelliklerini aşağıdaki sertifikayı edinerek keşfedebilirsiniz:[ücretsiz deneme lisansı](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

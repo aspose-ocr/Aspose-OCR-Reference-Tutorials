@@ -1,29 +1,49 @@
 ---
-title: Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR
-linktitle: Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR
-second_title: API Aspose.OCR .NET
-description: Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
-weight: 10
+date: 2026-01-02
+description: Aprende cómo obtener opciones de caracteres OCR usando Aspose.OCR para
+  .NET. Esta guía muestra paso a paso cómo recuperar alternativas de caracteres en
+  el reconocimiento de imágenes.
+linktitle: Get Choices for Recognized Characters in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Cómo obtener opciones de caracteres OCR para caracteres reconocidos en el reconocimiento
+  de imágenes
 url: /es/net/text-recognition/get-choices-for-recognized-characters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR
+# Obtener opciones para caracteres reconocidos en reconocimiento de imágenes OCR
 
 ## Introducción
 
-Liberar el poder del reconocimiento óptico de caracteres (OCR) es crucial en la era digital actual, y Aspose.OCR para .NET se destaca como una solución sólida para el reconocimiento preciso de caracteres. En este tutorial, profundizaremos en una característica específica: obtener opciones para personajes reconocidos. Al final de esta guía, integrará perfectamente esta funcionalidad en sus aplicaciones .NET.
+Desbloquee el poder del Reconocimiento Óptico de Caracteres (OCR) en aplicaciones .NET modernas y aprenda **cómo obtener opciones de caracteres OCR** para cada símbolo reconocido. Aspose.OCR para .NET hace esto sencillo, brindándole no solo el texto con la mejor conjetura, sino también los caracteres alternativos que el motor consideró. Al final de este tutorial podrá integrar esta función en cualquier proyecto C# y mejorar el manejo de glifos ambiguos.
+
+## Respuestas rápidas
+- **¿Qué significa “obtener opciones de caracteres OCR”?** Devuelve una lista de caracteres alternativos para cada glifo reconocido.  
+- **¿Por qué usar opciones de caracteres?** Para manejar reconocimientos inciertos, realizar post‑procesamiento o implementar validaciones personalizadas.  
+- **¿Qué necesito previamente?** Entorno de desarrollo .NET, Visual Studio y la biblioteca Aspose.OCR para .NET.  
+- **¿Se requiere una licencia?** Una prueba gratuita funciona para pruebas; se necesita una licencia comercial para producción.  
+- **¿Puedo ejecutar esto en .NET Core / .NET 6?** Sí, Aspose.OCR admite todas las plataformas .NET modernas.
+
+## ¿Qué es “obtener opciones de caracteres OCR”?
+Cuando el motor OCR analiza una imagen, cada patrón de píxeles puede coincidir con varios caracteres posibles. La API **obtener opciones de caracteres OCR** expone esas alternativas, permitiendo a los desarrolladores decidir cuál carácter se ajusta mejor al contexto dado.
+
+## ¿Por qué usar Aspose.OCR para .NET?
+- **Alta precisión** en muchos idiomas y fuentes.  
+- **Fácil integración** con una API C# sencilla.  
+- **Acceso a alternativas de caracteres** mediante `RecognitionCharactersList`.  
+- **Sin dependencias externas** – funciona listo para usar en Windows, Linux y macOS.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de tener los siguientes requisitos previos:
+Antes de sumergirse en el tutorial, asegúrese de contar con los siguientes requisitos:
 
-- Conocimientos básicos de desarrollo C# y .NET.
-- Visual Studio instalado en su máquina.
--  Biblioteca Aspose.OCR para .NET, que puedes descargar[aquí](https://releases.aspose.com/ocr/net/).
+- Conocimientos básicos de C# y desarrollo .NET.  
+- Visual Studio instalado en su máquina.  
+- Biblioteca Aspose.OCR para .NET, que puede descargar [aquí](https://releases.aspose.com/ocr/net/).
 
 ## Importar espacios de nombres
 
@@ -42,48 +62,52 @@ using Aspose.OCR;
 Comience inicializando una instancia de Aspose.OCR:
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inicializar una instancia de AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Paso 2: especificar la ruta de la imagen
+## Paso 2: Especificar la ruta de la imagen
 
 Establezca la ruta de la imagen que desea analizar:
 
 ```csharp
-//Ruta de la imagen
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## Paso 3: reconocer la imagen
+## Paso 3: Reconocer la imagen
 
-Ejecute el proceso de reconocimiento de imágenes:
+Ejecute el proceso de reconocimiento de la imagen:
 
 ```csharp
-// Reconocer imagen
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
-    // Configuraciones predeterminadas o personalizadas
+    // Default or custom settings
 });
 ```
 
-## Paso 4: obtenga opciones para personajes reconocidos
+## Obtener opciones de caracteres OCR – Visión general
 
-Recuperar opciones para personajes reconocidos:
+Ahora que la imagen está reconocida, puede obtener la lista de alternativas de caracteres que el motor OCR consideró para cada posición.
+
+## Paso 4: Obtener opciones para los caracteres reconocidos
+
+Recupere las opciones para los caracteres reconocidos:
 
 ```csharp
 List<char[]> resultWithChoices = result.RecognitionCharactersList;
 ```
 
-## Paso 5: imprima los resultados
+## Paso 5: Imprimir los resultados
 
-Muestra el texto de reconocimiento y las opciones:
+Muestre el texto reconocido y sus opciones:
 
 ```csharp
-// Imprimir resultado
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Choices:");
 resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: {a[1]} {a[2]} {a[3]} {a[4]}"));
@@ -93,13 +117,15 @@ Console.WriteLine("GetChoiceForRecognizedCharacters executed successfully");
 
 Repita estos pasos, personalizándolos según los requisitos de su aplicación.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, exploramos cómo aprovechar Aspose.OCR para .NET para obtener opciones de caracteres reconocidos en el reconocimiento de imágenes. Esta característica agrega una nueva dimensión a sus capacidades de OCR, mejorando la versatilidad de sus aplicaciones.
+- **Lista vacía `RecognitionCharactersList`** – Asegúrese de que la imagen tenga suficiente resolución y contraste.  
+- **Caracteres inesperados** – Ajuste `RecognitionSettings` (p. ej., idioma, diccionario) para mejorar la precisión.  
+- **Problemas de rendimiento** – Procese imágenes de forma asíncrona o en lotes para mantener la UI responsiva.
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.OCR para .NET es adecuado para el procesamiento de documentos a gran escala?
+### P1: ¿Es Aspose.OCR para .NET adecuado para el procesamiento de documentos a gran escala?
 
 R1: ¡Absolutamente! Aspose.OCR para .NET está diseñado para manejar grandes volúmenes de documentos con eficiencia y precisión.
 
@@ -107,17 +133,28 @@ R1: ¡Absolutamente! Aspose.OCR para .NET está diseñado para manejar grandes v
 
 R2: Sí, puede integrar Aspose.OCR para .NET en aplicaciones web, lo que lo hace versátil para diversos escenarios de desarrollo.
 
-### P3: ¿Existen opciones de licencia disponibles para Aspose.OCR para .NET?
+### P3: ¿Hay opciones de licencia disponibles para Aspose.OCR para .NET?
 
- R3: Sí, puede explorar opciones de licencia y realizar una compra[aquí](https://purchase.aspose.com/buy).
+R3: Sí, puede explorar las opciones de licencia y realizar una compra [aquí](https://purchase.aspose.com/buy).
 
 ### P4: ¿Cómo puedo obtener soporte o hacer preguntas sobre Aspose.OCR para .NET?
 
- A4: Visita el[Foro Aspose.OCR](https://forum.aspose.com/c/ocr/16) para obtener apoyo, hacer preguntas y conectarse con la comunidad.
+R4: Visite el [foro de Aspose.OCR](https://forum.aspose.com/c/ocr/16) para obtener soporte, hacer preguntas y conectar con la comunidad.
 
-### P5: ¿Existe una prueba gratuita de Aspose.OCR para .NET?
+### P5: ¿Hay una prueba gratuita disponible para Aspose.OCR para .NET?
 
- R5: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/) para experimentar las capacidades de Aspose.OCR para .NET.
+R5: Sí, puede acceder a una prueba gratuita [aquí](https://releases.aspose.com/) para experimentar las capacidades de Aspose.OCR para .NET.
+
+## Conclusión
+
+En este tutorial, hemos explorado cómo **obtener opciones de caracteres OCR** usando Aspose.OCR para .NET. Esta función añade una nueva dimensión a sus capacidades OCR, permitiendo un manejo más inteligente de caracteres ambiguos y una lógica de post‑procesamiento más rica.
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

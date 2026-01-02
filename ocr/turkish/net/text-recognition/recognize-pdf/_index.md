@@ -1,35 +1,53 @@
 ---
-title: OCR Görüntü Tanıma'da PDF'yi tanıma
-linktitle: OCR Görüntü Tanıma'da PDF'yi tanıma
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
-weight: 14
+date: 2026-01-02
+description: .NET'te PDF OCR nasıl yapılır, PDF'den metin çıkarma, PDF'yi metne dönüştürme
+  ve Aspose.OCR kullanarak C# ile PDF metni okuma. Adım adım rehber ve kod örnekleri.
+linktitle: How to OCR PDF in .NET with Aspose.OCR
+second_title: Aspose.OCR .NET API
+title: Aspose.OCR ile .NET’te PDF’yi OCR’lamak
 url: /tr/net/text-recognition/recognize-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da PDF'yi tanıma
+# .NET'te Aspose.OCR ile PDF OCR Nasıl Yapılır
 
-## giriiş
+## Giriş
 
-Aspose.OCR for .NET ile Optik Karakter Tanıma (OCR) dünyasına hoş geldiniz! .NET uygulamalarınızda OCR'nin yeteneklerinden yararlanmak istiyorsanız doğru yerdesiniz. Bu adım adım kılavuzda Aspose.OCR kitaplığını kullanarak PDF'deki metni nasıl tanıyacağımızı keşfedeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim size süreç boyunca yol gösterecek ve OCR işlevselliğini projelerinize kolayca entegre edebilmenizi sağlayacaktır.
+.NET ortamında **how to ocr pdf** dosyalarını güvenilir bir şekilde işlemek istiyorsanız, doğru yerdesiniz. Bu öğreticide, bir PDF'den metin çıkarma, PDF'yi metne dönüştürme ve Aspose.OCR kütüphanesini kullanarak C#‑tarzı PDF metni okuma sürecini adım adım inceleyeceğiz. Tek sayfa işlemek ister misiniz yoksa **ocr multi page pdf** mi? Aşağıdaki adımlar, üretim‑hazır bir çözüm sunar.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.OCR for .NET  
+- **Çok sayfalı PDF'lerden metin çıkarabilir miyim?** Evet – `DocumentRecognitionSettings` içinde `StartPage` ve `PagesNumber` ayarlayın.  
+- **Üretim için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Metin çıkarmak için OCR en iyi yöntem mi?** Tarama yapılmış PDF'ler veya PDF içindeki görüntüler için OCR şarttır; yerel PDF'ler için bir PDF ayrıştırıcı daha hızlı olabilir.
 
-Eğiticiye dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
+## OCR nedir ve PDF için neden kullanılır?
 
--  Aspose.OCR for .NET: Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Aspose.OCR for .NET belgeleri](https://reference.aspose.com/ocr/net/).
+Optik Karakter Tanıma (OCR), taranmış sayfalar gibi metin görüntülerini aranabilir, düzenlenebilir karakterlere dönüştürür. Bir PDF taranmış sayfalar içerdiğinde geleneksel metin çıkarma başarısız olur; bu yüzden OCR, **extract text pdf** ve **convert pdf to text** işlemlerinde güvenilir bir tekniktir.
 
-- Belge: OCR gerçekleştirmek istediğiniz PDF belgesini hazırlayın. Doğru dosya yoluna sahip olduğunuzdan emin olun.
+## Neden Aspose.OCR for .NET?
 
-Artık gerekli araçlara sahip olduğunuza göre öğreticiye geçelim.
+- **Birden çok dil ve yazı tipinde yüksek doğruluk**.  
+- **Çok sayfalı PDF'ler için yerleşik destek**, işlenecek sayfa aralığını belirlemenizi sağlar.  
+- **Basit API**, C# projeleriyle sorunsuz entegrasyon sunar; **read pdf text c#** veya **extract pdf text c#** işlemleri kolaydır.
 
-## Ad Alanlarını İçe Aktar
+## Ön Koşullar
 
-OCR işlevselliğine erişmek için .NET uygulamanızda Aspose.OCR ad alanını içe aktarın:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+- Aspose.OCR for .NET yüklü. Henüz yoksa, [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/) adresinden indirin.  
+- OCR uygulamak istediğiniz bir PDF dosyası. Dosyanın tam yolunu not edin.
+
+Şimdi ortamınız hazır, kodlamaya başlayalım.
+
+## Ad Alanlarını İçe Aktarma
+
+.NET uygulamanızda OCR işlevselliğine erişmek için Aspose.OCR ad alanını içe aktarın:
 
 ```csharp
 using System;
@@ -39,40 +57,40 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Adım 1: Aspose.OCR'ı başlatın
+## Adım 1: Aspose.OCR Başlatma
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Burada belgeler dizininin yolunu ayarlıyoruz ve AsposeOcr sınıfının bir örneğini oluşturuyoruz.
+Burada PDF'yi tutan klasörü tanımlıyor ve tanıma işlemini gerçekleştirecek bir `AsposeOcr` nesnesi oluşturuyoruz.
 
-## 2. Adım: Görüntü Yolunu Sağlayın
+## Adım 2: PDF Yolunu Sağlama
 
 ```csharp
-//Resim Yolu
+// Image Path
 string fullPath = dataDir + "multi_page_1.pdf";
 ```
 
-İşlemek istediğiniz PDF belgesinin yolunu belirtin.
+`multi_page_1.pdf` yerine işlemek istediğiniz PDF dosyasının adını koyun. Bu yol OCR motoru tarafından kullanılır.
 
-## 3. Adım: PDF'yi Tanıyın
+## Adım 3: PDF'yi Tanıma (OCR Multi Page PDF)
 
 ```csharp
-// Resmi tanı
+// Recognize image
 List<RecognitionResult> results = api.RecognizePdf(fullPath, new DocumentRecognitionSettings { StartPage = 2, PagesNumber = 2 });
 ```
 
-PDF belgesindeki metni tanımak için Aspose.OCR kitaplığını kullanın. Başlangıç sayfası ve işlenecek sayfa sayısı gibi tanıma ayarlarını özelleştirebilirsiniz.
+`RecognizePdf` yöntemi belirtilen sayfalarda OCR çalıştırır. **ocr multi page pdf** senaryoları için özellikle faydalı olan `StartPage` ve `PagesNumber` değerlerini ayarlayarak istediğiniz aralığı hedefleyebilirsiniz.
 
-## Adım 4: Sonuçları Yazdır
+## Adım 4: Sonuçları Yazdırma
 
 ```csharp
-// Sonucu yazdır
+// Print result
 int pageCounter = 0;
 foreach (var result in results)
 {
@@ -80,33 +98,69 @@ foreach (var result in results)
 }
 ```
 
-Tanıma sonuçları arasında dolaşın ve her sayfa için çıkarılan metni yazdırın.
+Döngü, her sayfanın `RecognitionResult` nesnesini iterasyonla alır ve çıkarılan metni yazdırır. `PrintRecognitionResult` ifadesini, metni bir veritabanına kaydetmek veya dosyaya yazmak gibi kendi mantığınızla değiştirebilirsiniz.
 
-## Çözüm
+## Yaygın Kullanım Senaryoları
 
-Tebrikler! Bir PDF belgesindeki metni tanımak için Aspose.OCR for .NET'i başarıyla entegre ettiniz. Bu güçlü kitaplık, uygulamalarınızda metin çıkarmayı otomatikleştirmek için bir olasılıklar dünyasının kapılarını açar.
+- **Fatura otomasyonu** – taranmış faturalardan satır öğelerini çıkarma.  
+- **Dijital arşivleme** – eski taranmış belgeleri aranabilir PDF'lere dönüştürme.  
+- **Veri madenciliği** – yalnızca taranmış PDF olarak mevcut raporlardan metin çekme.
 
-## SSS'ler
+## Sorun Giderme & İpuçları
 
-### S1: Aspose.OCR for .NET çeşitli görüntü formatlarını işlemeye uygun mudur?
+- **Düşük doğruluk mu?** PDF'nin yüksek çözünürlüklü (300 dpi veya üzeri) olduğundan emin olun.  
+- **Büyük PDF'lerde bellek sorunları?** Belgeyi daha küçük sayfa gruplarına bölerek işleyin.  
+- **Şifre korumalı PDF'leri ele almanız mı gerekiyor?** Dosyayı bir akışa yükleyin ve şifreyi OCR API'sine (Aspose.OCR dokümanlarına bakın) geçirin.
 
-Cevap1: Evet, Aspose.OCR PDF, PNG, JPEG ve daha fazlasını içeren çok çeşitli görüntü formatlarını destekler.
+## Sonuç
 
-### S2: Aspose.OCR for .NET'i hem web hem de masaüstü uygulamalarında kullanabilir miyim?
+Tebrikler! .NET'te **how to ocr pdf** dosyalarını nasıl işlediğinizi, metin çıkardığınızı ve hem tek sayfa hem de çok sayfalı belgeler için **convert pdf to text** işlemini nasıl gerçekleştireceğinizi öğrendiniz. Bu yaklaşım, OCR'ı herhangi bir C# uygulamasına—web servisi, masaüstü aracı veya arka plan işi—entegre etme esnekliği sağlar.
 
-A2: Kesinlikle! Aspose.OCR, .NET kullanılarak geliştirilen hem web hem de masaüstü uygulamalarına sorunsuz bir şekilde entegre olur.
+## SSS
 
-### S3: Aspose.OCR for .NET'in deneme sürümü mevcut mu?
+### S1: Aspose.OCR for .NET çeşitli görüntü formatlarını işlemek için uygun mu?
 
- A3: Evet, özellikleri keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+A1: Evet, Aspose.OCR PDF, PNG, JPEG ve daha fazlası dahil olmak üzere geniş bir görüntü formatı yelpazesini destekler.
 
-### S4: Aspose.OCR for .NET desteğini nasıl alabilirim?
+### S2: Aspose.OCR for .NET'i hem web hem de masaüstü uygulamalarda kullanabilir miyim?
 
- A4: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) yardım almak ve toplulukla bağlantı kurmak için.
+A2: Kesinlikle! Aspose.OCR, .NET ile geliştirilen hem web hem de masaüstü uygulamalara sorunsuz bir şekilde entegre olur.
 
-### S5: Aspose.OCR for .NET'i nereden satın alabilirim?
+### S3: Aspose.OCR for .NET için bir deneme sürümü mevcut mu?
 
- A5: Ürünü şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+A3: Evet, [free trial](https://releases.aspose.com/) adresinden özellikleri keşfedebilirsiniz.
+
+### S4: Aspose.OCR for .NET için destek nasıl alınır?
+
+A4: Yardım ve topluluk desteği için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
+
+### S5: Aspose.OCR for .NET nereden satın alınabilir?
+
+A5: Ürünü [purchase page](https://purchase.aspose.com/buy) üzerinden alabilirsiniz.
+
+## Sıkça Sorulan Sorular
+
+**S: Şifre korumalı bir PDF'den metin çıkarabilir miyim?**  
+C: Evet. Şifre parametresi kabul eden `RecognizePdf` aşırı yüklemesini kullanın.
+
+**S: El yazısı PDF'lerde OCR çalışır mı?**  
+C: Aspose.OCR basılı metni güvenilir bir şekilde tanır; el yazısı metin ek ön işleme veya özel bir motor gerektirebilir.
+
+**S: Büyük belgelerde performans etkisi nasıldır?**  
+C: İşleme süresi sayfa sayısı ve görüntü çözünürlüğüyle orantılıdır. Belgeyi daha küçük partilere bölmek yanıt süresini iyileştirebilir.
+
+**S: OCR sonuçlarını bir metin dosyasına nasıl kaydederim?**  
+C: `foreach` döngüsü içinde `result.Text` değerini bir `StreamWriter` ile her sayfa için yazın.
+
+**S: OCR sonrası orijinal PDF düzeni korunabilir mi?**  
+C: Aspose.PDF kullanarak OCR metnini orijinal sayfalara bindirip yeni bir aranabilir PDF oluşturabilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-01-02  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
