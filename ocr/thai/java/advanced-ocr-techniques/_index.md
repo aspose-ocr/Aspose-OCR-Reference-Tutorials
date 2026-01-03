@@ -61,6 +61,11 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เสริมศักยภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความที่แม่นยำ บูรณาการได้ง่าย มีความแม่นยำสูง
 ### [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
 ปลดล็อกการแยกข้อความจากรูปภาพได้อย่างราบรื่นด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่มีประสิทธิภาพ
+### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – แยกข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+เปิดใช้งาน GPU เพื่อเร่งความเร็ว OCR ใน Java รับรู้ข้อความจากรูปภาพได้อย่างรวดเร็วและแม่นยำ ดาวน์โหลดบทเรียนเพื่อเพิ่มประสิทธิภาพแอปของคุณ
+### [แยกข้อความจากรูปภาพด้วย Java – อ่าน VIN จากรูปถ่าย](./extract-text-from-image-with-java-read-vin-from-photo/)
+แยกข้อความ VIN จากรูปภาพด้วย Aspose.OCR สำหรับ Java อย่างรวดเร็วและแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

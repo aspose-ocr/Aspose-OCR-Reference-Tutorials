@@ -60,7 +60,12 @@ Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével.
 ### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
-Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésenkénti útmutatónkat a hatékony integráció érdekében.
+Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről lépésre útmutatónkat a hatékony integráció érdekében.
+### [GPU engedélyezése OCR-hez Java-ban – Gyors szövegfelismerés képről](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Tanulja meg, hogyan használhatja a GPU-t az OCR gyorsításához Java-ban, és ismerje fel a szöveget képekről nagy teljesítménnyel.
+### [Képről szöveg kinyerése Java-val – VIN olvasása fényképről](./extract-text-from-image-with-java-read-vin-from-photo/)
+Olvassa ki a jármű VIN-kódját fényképről Java és Aspose.OCR segítségével, gyors és pontos szövegfelismeréssel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

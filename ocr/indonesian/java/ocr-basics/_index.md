@@ -96,11 +96,15 @@ Ingat, perjalanan tidak berhenti di sini—Aspose.OCR menawarkan fitur lanjutan 
 
 ## Tutorial Dasar-dasar OCR
 ### [Cara Mengatur Lisensi untuk Aspose.OCR di Java](./set-license/)
-Buka potensi Aspose.OCR untuk Java dengan panduan langkah‑demi‑langkah ini. Atur lisensi Anda dengan mudah dan tingkatkan kemampuan OCR Anda.
+Buka potensi Aspose.OCR untuk Java dengan panduan langkah‑demi‑step ini. Atur lisensi Anda dengan mudah dan tingkatkan kemampuan OCR Anda.
 ### [Menghitung Sudut Kemiringan dalam Aspose.OCR untuk Java](./calculate-skew-angle/)
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk Java. Pelajari cara menghitung sudut kemiringan langkah demi langkah. Tingkatkan pemrosesan dokumen dengan mudah.
 ### [Mendapatkan Persegi Panjang dengan Area Teks dalam Aspose.OCR](./get-rectangles-with-text-areas/)
 Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar secara mulus dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
+### [Cara Mengaktifkan OCR di Java – Panduan Langkah‑per‑Langkah](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Pelajari cara mengaktifkan OCR di Java dengan panduan langkah demi langkah yang mudah diikuti.
+### [Tutorial Gambar ke Teks – Ekstrak Teks Tamil dengan Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Pelajari cara mengekstrak teks berbahasa Tamil dari gambar menggunakan Aspose OCR dalam panduan langkah demi langkah ini.
 
 ---
 
