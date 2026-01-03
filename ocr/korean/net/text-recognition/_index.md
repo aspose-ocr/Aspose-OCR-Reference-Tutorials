@@ -55,6 +55,10 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+### [중국어 텍스트 오프라인 인식 – 완전 C# OCR 튜토리얼](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+오프라인에서 중국어 텍스트를 인식하는 완전한 C# OCR 튜토리얼로 Aspose.OCR을 활용하는 방법을 단계별로 안내합니다.
+### [이미지에서 텍스트 추출 및 JSONL 변환 – C# 가이드](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+이미지에서 텍스트를 추출하고 JSONL 형식으로 변환하는 방법을 C#으로 단계별 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
