@@ -111,6 +111,12 @@ Java で画像からテキストを読み取る完全ガイドです。設定か
 ### [Java で OCR テキストを取得 – 完全 Aspose OCR 例](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Java で OCR テキストを取得する完全なサンプルです。設定から実装までを段階的に解説します。
 
+### [Java で OCR を有効化する方法 – ステップバイステップガイド](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Java アプリケーションで OCR 機能を有効にし、テキスト抽出を開始する手順を詳しく解説します。
+
+### [画像からテキストへのチュートリアル – Aspose OCR でタミル語テキストを抽出](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Aspose OCR を使用して画像からタミル語テキストを抽出する手順を解説します。
+
 ---
 
 **Last Updated:** 2025-12-08  

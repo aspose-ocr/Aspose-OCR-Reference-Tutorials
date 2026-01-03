@@ -41,7 +41,7 @@ Extracting text from images means applying optical character recognition (OCR) t
 
 ## Step‑by‑Step Guide
 
-### How to set license for Aspose.OCR in Java
+### How‑to set license for Aspose.OCR in Java
 A licensed environment removes evaluation limits and maximizes performance. Follow the short tutorial linked below to register your license file:
 
 [How to Set License for Aspose.OCR in Java](./set-license/)
@@ -109,6 +109,10 @@ Unlock the power of Aspose.OCR for Java. Learn how to extract text from images s
 Comprehensive guide to reading text from images using Aspose OCR for Java, covering setup, preprocessing, and advanced features.
 ### [Get OCR text in java – complete aspose OCR example](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Complete example showing how to extract OCR text in Java using Aspose OCR, covering setup, processing, and best practices.
+### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Enable OCR in Java quickly with this step-by-step guide. Follow simple instructions to get Aspose.OCR up and running.
+### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Learn how to extract Tamil text from images using Aspose OCR for Java in this step‑by‑step guide.
 
 ---
 

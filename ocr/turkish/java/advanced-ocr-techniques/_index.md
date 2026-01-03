@@ -70,10 +70,10 @@ Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [GPU'yu OCR için Etkinleştirme – Görüntülerden Hızlı Metin Çıkarma](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
-### [Java'da Görüntü Ön İşleme OCR – Doğruluğu Artırın ve Metni Çıkarın](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
-Java'da görüntü ön işleme teknikleriyle OCR doğruluğunu artırın ve metni hızlıca çıkarın.
 ### [Büyük Belgelerde OCR Çalıştırma – Tam Java Kılavuzu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Büyük belgelerde yüksek doğrulukla OCR gerçekleştirin ve Java projelerinizde metin çıkarma sürecini optimize edin.
+### [Java ile Görüntüden Metin Çıkarma – Fotoğraftan VIN Okuma](./extract-text-from-image-with-java-read-vin-from-photo/)
+Java ile fotoğraftan VIN numarasını okuyarak görüntüden metin çıkarın. Hızlı ve doğru OCR entegrasyonu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

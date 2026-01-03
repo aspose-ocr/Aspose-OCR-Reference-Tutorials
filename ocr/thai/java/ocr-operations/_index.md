@@ -84,6 +84,9 @@ weight: 21
 แปลงไฟล์ PNG ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
 ### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย OCR – คู่มือ Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน
+### [แปลงรูปภาพเป็นข้อความใน Java – คู่มือการประมวลผล OCR แบบกลุ่ม](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+แปลงรูปภาพเป็นข้อความใน Java ด้วยการประมวลผล OCR แบบกลุ่ม – คู่มือขั้นตอนเต็ม  
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

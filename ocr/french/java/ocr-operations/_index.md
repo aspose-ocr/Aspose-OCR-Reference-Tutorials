@@ -85,6 +85,10 @@ Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guid
 Apprenez à convertir une image en PDF consultable en utilisant Aspose.OCR pour Java, étape par étape.
 ### [Créer un PDF consultable à partir de PNG – Guide complet Java](./create-searchable-pdf-from-png-complete-java-guide/)
 Apprenez à transformer des images PNG en PDF consultable avec Aspose.OCR pour Java, étape par étape.
+### [Convertir des images en texte en Java – Guide de traitement OCR par lots](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Apprenez à convertir des images en texte avec un traitement OCR par lots en Java, optimisant la productivité et la précision.
+### [Créer un PDF consultable avec Aspose OCR – Guide étape par étape](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Apprenez à créer des PDF consultables avec Aspose OCR grâce à un guide complet étape par étape.
 
 ## Foire aux questions
 

@@ -85,6 +85,10 @@ weight: 21
 Создайте поисковый PDF из PNG‑изображения с помощью Aspose.OCR для Java. Полный пошаговый гид.
 ### [Создание поискового PDF из изображения с OCR – Java‑туториал](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 Создайте поисковый PDF из изображения, используя OCR в Aspose.OCR для Java. Полный пошаговый гид.
+### [Конвертация изображений в текст в Java – Руководство по пакетной обработке OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Пакетный OCR в Java: конвертируйте множество изображений в текст быстро и точно с помощью Aspose.OCR.
+### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 

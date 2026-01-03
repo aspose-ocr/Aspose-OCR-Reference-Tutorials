@@ -85,6 +85,10 @@ Panduan lengkap mengenali teks pada gambar menggunakan Aspose OCR dengan Java, m
 Panduan lengkap Java untuk mengonversi PNG menjadi PDF yang dapat dicari menggunakan Aspose.OCR.
 ### [Buat PDF yang Dapat Dicari dari Gambar dengan OCR – Tutorial Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 Panduan Java untuk mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR.
+### [Mengonversi Gambar menjadi Teks di Java – Panduan Pemrosesan OCR Batch](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Pelajari cara memproses banyak gambar sekaligus menjadi teks menggunakan Aspose.OCR di Java dengan efisiensi tinggi.
+### [Membuat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan langkah‑langkah mudah.
 
 ## Pertanyaan yang Sering Diajukan
 

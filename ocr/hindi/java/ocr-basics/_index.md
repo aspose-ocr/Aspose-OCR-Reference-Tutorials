@@ -115,6 +115,11 @@ Aspose.OCR for Java की शक्ति को अनलॉक करें�
 
 ### [जावा में OCR टेक्स्ट प्राप्त करें – पूर्ण Aspose OCR उदाहरण](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 
+### [Java में OCR सक्षम करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Java में Aspose.OCR को सक्रिय करने के चरण‑दर‑चरण निर्देश। सेटअप और उपयोग को सरल बनाएं।
+
+### [इमेज‑टू‑टेक्स्ट ट्यूटोरियल – Aspose OCR के साथ तमिल टेक्स्ट निकालें](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+
 ---
 
 **अंतिम अपडेट:** 2025-12-08  

@@ -105,6 +105,10 @@ Odemkněte sílu Aspose.OCR pro Java. Naučte se, jak bezproblémově extrahovat
 Kompletní průvodce čtením textu z obrázků v Javě pomocí Aspose OCR, krok za krokem od nastavení po optimalizaci výsledků.
 ### [Získání OCR textu v Javě – Kompletní příklad Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Kompletní příklad, jak získat text z obrázku pomocí Aspose OCR v Javě, od nastavení po optimalizaci výsledků.
+### [Jak povolit OCR v Javě – krok za krokem průvodce](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Naučte se, jak v Javě povolit OCR a konfigurovat knihovnu pro přesné rozpoznávání textu.
+### [Návod na převod obrazu na text – Extrahování tamilského textu s Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR extrahovat tamilský text z obrázků v několika jednoduchých krocích.
 
 ---
 

@@ -104,6 +104,10 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 คู่มือฉบับสมบูรณ์สำหรับการอ่านข้อความจากภาพใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสูง
 ### [รับข้อความ OCR ใน Java – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 ตัวอย่างเต็มขั้นตอนการดึงข้อความ OCR ใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสุด
+### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน OCR ใน Java อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนเพื่อเริ่มต้นการจดจำข้อความ
+### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+เรียนรู้วิธีสกัดข้อความภาษาตามิลจากรูปภาพด้วย Aspose OCR อย่างละเอียด
 
 ---
 
