@@ -94,7 +94,10 @@ Naučte se pomocí Aspose OCR v C# extrahovat text z obrázků a exportovat výs
 Naučte se pomocí Aspose.OCR v C# převést JPG obrázek na ePub formát a integrovat OCR do vašich .NET aplikací.
 ### [Rozpoznat ruský text pomocí Aspose OCR C# – Kompletní průvodce vícestránkovým PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Naučte se rozpoznávat ruský text v PDF s více stránkami pomocí Aspose OCR v C#. Kompletní průvodce krok za krokem.
-
+### [Rozpoznat čínský text offline – Kompletní C# OCR tutoriál](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Naučte se, jak pomocí Aspose.OCR v C# offline rozpoznávat čínské znaky s vysokou přesností.
+### [Extrahovat text z obrázku a převést do JSONL – C# průvodce](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z obrázku a uložit jej ve formátu JSONL.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

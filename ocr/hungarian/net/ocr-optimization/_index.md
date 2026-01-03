@@ -59,9 +59,6 @@ Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként az Aspose.
 Az Aspose.OCR For .NET Tutorials Listing használatával további erőforrásokhoz férhet hozzá, és naprakész maradhat az OCR optimalizálás legújabb fejlesztéseivel kapcsolatban. Merüljön el a pontosság és hatékonyság világában az Aspose.OCR for .NET oktatóanyagaival.
 
 ## OCR optimalizálási oktatóanyagok
-
-
-
 ### [OCR végrehajtása képeken URL‑ről OCR kép felismerésben](./perform-ocr-on-image-from-url/)
 Fedezze fel a zökkenőmentes OCR integrációt az Aspose.OCR for .NET segítségével. Pontosan ismeri fel a szöveget a képeken.
 ### [Téglalapok előkészítése OCR kép felismerésben](./prepare-rectangles/)
@@ -76,6 +73,10 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többold
 Fedezze fel, hogyan használhatja az Aspose.OCR-t C#-ban GPU gyorsítással a képek szövegének hatékony kinyeréséhez.
 ### [Kereshető PDF létrehozása kötegelt OCR-rel – C# útmutató](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Fedezze fel, hogyan hozhat létre kereshető PDF-et kötegelt OCR-rel C#-ban.
+### [OCR előfeldolgozási csővezeték – Hogyan ismerjünk fel szöveget képről C#-ban](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Ismerje meg, hogyan építsen fel OCR előfeldolgozási folyamatot C#-ban a szöveg pontos felismeréséhez képeken.
+### [OCR futtatása PNG-n GPU-val – Teljes C# útmutató](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Ismerje meg, hogyan használhatja a GPU-t PNG képek OCR-hez C#-ban, a teljes lépésről‑lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

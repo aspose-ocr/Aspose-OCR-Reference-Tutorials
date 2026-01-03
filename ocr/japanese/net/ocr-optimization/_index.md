@@ -79,6 +79,10 @@ Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステ
 Aspose.OCR for .NET を使用して、バッチ OCR で検索可能な PDF を作成する方法をステップバイステップで解説します。
 ### [C# で OCR を使用する方法 – GPU 加速で画像からテキストを抽出](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 GPU 加速を活用し、C# で画像から高速かつ正確にテキストを抽出する方法を解説します。
+### [GPUを使用したPNG画像のOCR実行 – 完全C#ガイド](./run-ocr-on-png-with-gpu-complete-c-guide/)
+GPUを活用してPNG画像から高速にテキストを抽出し、C#で完全実装する方法を解説します。
+### [OCR前処理パイプライン – C#で画像からテキストを認識する方法](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+C#でOCR前処理パイプラインを構築し、画像からテキストを高精度で抽出する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

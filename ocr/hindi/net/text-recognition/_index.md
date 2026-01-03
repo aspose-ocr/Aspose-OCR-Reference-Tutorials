@@ -101,6 +101,10 @@ Aspose OCR का उपयोग करके छवियों से टे�
 C# में Aspose OCR का उपयोग करके JPG छवि को ePub फ़ॉर्मेट में बदलने की चरण-दर-स्टेप गाइड।
 ### [Aspose OCR C# के साथ रूसी टेक्स्ट पहचानें – पूर्ण मल्टी‑पेज PDF गाइड](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Aspose OCR का उपयोग करके C# में रूसी भाषा के टेक्स्ट को मल्टी‑पेज PDF में पहचानने की विस्तृत मार्गदर्शिका।
+### [छवि से टेक्स्ट निकालें और JSONL में परिवर्तित करें – C# गाइड](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+C# में छवि से टेक्स्ट निकालें और उसे JSONL फ़ॉर्मेट में सहेजने की चरण-दर-चरण गाइड।
+### [ऑफ़लाइन चीनी टेक्स्ट पहचान – पूर्ण C# OCR ट्यूटोरियल](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+ऑफ़लाइन चीनी भाषा के टेक्स्ट को पहचानने के लिए C# में पूर्ण OCR ट्यूटोरियल।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

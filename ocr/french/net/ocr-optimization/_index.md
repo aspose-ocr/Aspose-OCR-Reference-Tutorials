@@ -82,7 +82,10 @@ Débloquez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les r�
 Apprenez à exploiter l'accélération GPU pour extraire rapidement du texte d'images avec Aspose.OCR en C#.
 ### [Créer un PDF consultable avec OCR par lots – Guide C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Apprenez à créer des PDF consultables en utilisant l'OCR par lots avec Aspose.OCR en C#.
-
+### [Pipeline de prétraitement OCR – Comment reconnaître du texte à partir d'une image en C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Apprenez à créer un pipeline de prétraitement OCR en C# pour améliorer la reconnaissance de texte sur les images.
+### [Exécuter l'OCR sur PNG avec GPU – Guide complet C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Apprenez à exploiter le GPU pour accélérer l'OCR de fichiers PNG avec un guide complet en C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

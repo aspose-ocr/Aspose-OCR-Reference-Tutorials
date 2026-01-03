@@ -97,6 +97,10 @@ Ismerje meg, hogyan használja az Aspose.OCR .NET-et PNG képek szövegének hel
 Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban JPG képek OCR-hez, majd konvertálja a szöveget ePub formátumba.
 ### [orosz szöveg felismerése Aspose OCR C#‑vel – Teljes többoldalas PDF útmutató](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Tanulja meg, hogyan ismerje fel az orosz nyelvű szöveget többoldalas PDF-ekben az Aspose OCR C# segítségével.
+### [Kínai szöveg offline felismerése – Teljes C# OCR oktatóanyag](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Ismerje meg, hogyan ismerhet fel offline kínai szöveget C#-ban az Aspose.OCR segítségével.
+### [Szöveg kinyerése képből és konvertálása JSONL formátumba – C# útmutató](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget képekből és konvertálhatja JSONL formátumba C#-ban az Aspose.OCR segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

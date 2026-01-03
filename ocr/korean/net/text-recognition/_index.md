@@ -98,7 +98,10 @@ Aspose OCR를 사용해 C#에서 이미지 텍스트를 추출하고 JSON 형식
 Aspose OCR를 사용해 C#에서 JPG 이미지를 OCR하고 ePub 파일로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR C#로 러시아어 텍스트 인식 – 전체 다중 페이지 PDF 가이드](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Aspose OCR C#를 사용해 러시아어 텍스트를 다중 페이지 PDF에서 인식하는 방법을 단계별로 안내합니다.
-
+### [중국어 텍스트 오프라인 인식 – 완전 C# OCR 튜토리얼](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+오프라인에서 중국어 텍스트를 인식하는 완전한 C# OCR 튜토리얼로 Aspose.OCR을 활용하는 방법을 단계별로 안내합니다.
+### [이미지에서 텍스트 추출 및 JSONL 변환 – C# 가이드](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+이미지에서 텍스트를 추출하고 JSONL 형식으로 변환하는 방법을 C#으로 단계별 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

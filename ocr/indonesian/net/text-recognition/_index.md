@@ -99,6 +99,10 @@ Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dan meng
 Pelajari cara menggunakan Aspose.OCR di C# untuk mengubah gambar JPG menjadi file ePub dengan mudah.
 ### [Mengenali Teks Rusia dengan Aspose OCR C# – Panduan PDF Multi‑Halaman Lengkap](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Pelajari cara mengenali teks berbahasa Rusia dalam PDF multi‑halaman menggunakan Aspose OCR dengan C# secara lengkap.
+### [Mengenali teks Cina secara offline – Tutorial OCR C# Lengkap](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Pelajari cara mengenali teks bahasa Cina secara offline menggunakan Aspose.OCR dengan contoh lengkap dalam C#.
+### [Ekstrak Teks dari Gambar dan Konversi ke JSONL – Panduan C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Ekstrak teks dari gambar dan ubah menjadi JSONL dengan mudah menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

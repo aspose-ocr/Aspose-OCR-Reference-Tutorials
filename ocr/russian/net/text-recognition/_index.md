@@ -99,7 +99,10 @@ url: /ru/net/text-recognition/
 Извлеките текст из JPG‑изображения и преобразуйте его в ePub с помощью Aspose OCR на C#.
 ### [Распознать русский текст с Aspose OCR C# – Полное руководство по многостраничному PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Извлеките русский текст из многостраничных PDF-файлов с помощью Aspose OCR на C# в полном пошаговом руководстве.
-
+### [Распознать китайский текст офлайн – Полный учебник по OCR на C#](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Полное руководство по офлайн-распознаванию китайского текста с помощью Aspose.OCR и C#.
+### [Извлечение текста из изображения и конвертация в JSONL – Руководство на C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Научитесь извлекать текст из изображений и сохранять результаты в формате JSONL с помощью Aspose.OCR и C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

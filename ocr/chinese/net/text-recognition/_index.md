@@ -98,6 +98,10 @@ url: /zh/net/text-recognition/
 使用 Aspose OCR 在 .NET 中提取图像文本并导出为 JSON，提升您的 OCR 工作流。
 ### [C# OCR 教程：将 JPG 转换为 ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
 使用 Aspose.OCR 在 C# 中将 JPG 图像转换为 ePub 电子书，轻松实现图像文字提取与格式转换。
+### [离线识别中文文本 – 完整的 C# OCR 教程](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+使用 Aspose.OCR 在离线环境下实现中文文本识别的完整 C# 教程，涵盖从安装到代码实现的全部步骤。
+### [从图像提取文本并转换为 JSONL – C# 指南](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+使用 Aspose.OCR 在 .NET 中提取图像文本并将其转换为 JSONL 格式，提供详细的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

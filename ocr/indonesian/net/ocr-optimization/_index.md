@@ -82,6 +82,29 @@ Pelajari cara memanfaatkan OCR di C# dengan akselerasi GPU untuk mengekstrak tek
 ### [Membuat PDF yang dapat dicari dengan OCR batch – Panduan C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Pelajari cara membuat PDF yang dapat dicari menggunakan OCR batch di C# dengan panduan langkah demi langkah.
 
+## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
+
+ Apakah Anda siap untuk mengeluarkan potensi penuh Aspose.OCR untuk .NET? Panduan kami tentang[menyiapkan persegi panjang](./prepare-rectangles/) karena pengenalan gambar adalah kunci kesuksesan Anda. Pelajari langkah demi langkah cara mengoptimalkan pengenalan gambar dengan menempatkan persegi panjang secara strategis. Tingkatkan aplikasi .NET Anda dengan pengetahuan yang sangat diperlukan ini.
+
+## Filter Pra-pemrosesan untuk Gambar dalam Pengenalan Gambar OCR
+
+ Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET dengan menjelajah[filter pra-pemrosesan](./preprocessing-filters-for-image/)Unduh sekarang dan temukan cara menyempurnakan gambar Anda sebelum dikenali. Tutorial ini memastikan integrasi yang lancar, meningkatkan akurasi dan efisiensi.
+
+## Koreksi Hasil dengan Pemeriksaan Ejaan dalam Pengenalan Gambar OCR
+
+ Raih akurasi OCR yang tak tertandingi dengan[Aspose.OCR untuk .NET](./result-correction-with-spell-checking/). Tutorial kami tentang koreksi hasil dengan pemeriksaan ejaan memberdayakan Anda untuk menyesuaikan kamus, mengoreksi ejaan, dan memastikan pengenalan teks bebas kesalahan dengan mudah. Selami dunia presisi dengan Aspose.OCR.
+
+## Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
+
+ Simpan hasil OCR multihalaman dengan mudah sebagai dokumen dengan Aspose.OCR untuk .NET. Kita[panduan langkah demi langkah](./save-multipage-result-as-document/) membuka potensi penuh pembuatan dokumen. Integrasikan Aspose.OCR dengan lancar dan ubah hasil OCR Anda menjadi dokumen multihalaman dengan mudah.
+
+Dengan menggunakan Aspose.OCR Untuk Daftar Tutorial .NET, Anda dapat mengakses sumber daya tambahan dan terus mendapatkan informasi terkini tentang kemajuan terbaru dalam pengoptimalan OCR. Selami dunia presisi dan efisiensi dengan tutorial Aspose.OCR untuk .NET.
+## Tutorial Optimasi OCR
+### [Jalankan OCR pada PNG dengan GPU – Panduan Lengkap C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Panduan lengkap C# untuk menjalankan OCR pada file PNG menggunakan GPU, meningkatkan kecepatan dan akurasi proses.
+### [Pipeline Pra-pemrosesan OCR – Cara Mengenali Teks dari Gambar dalam C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Panduan lengkap untuk membangun pipeline pra-pemrosesan OCR di C#, meningkatkan akurasi pengenalan teks dari gambar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
