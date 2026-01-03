@@ -61,6 +61,10 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Jak povolit GPU pro OCR v Javě – Rychlé rozpoznávání textu z obrázku](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Zrychlete OCR v Javě využitím GPU a rychle rozpoznávejte text z obrázků. Implementujte snadno a zvyšte výkon aplikace.
+### [Extrahovat text z obrázku v Javě – Číst VIN z fotografie](./extract-text-from-image-with-java-read-vin-from-photo/)
+Rychle extrahujte VIN kód z fotografií pomocí Aspose.OCR v Javě a integrujte do svých aplikací.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,6 +101,10 @@ Mở khóa tiềm năng của Aspose.OCR cho Java với hướng dẫn từng b�
 Nâng cao độ chính xác OCR với Aspose.OCR cho Java. Học cách tính góc nghiêng từng bước. Cải thiện xử lý tài liệu một cách dễ dàng.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Mở khóa sức mạnh của Aspose.OCR cho Java. Học cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn chi tiết này. Tải ngay để nhận dạng văn bản hiệu quả.
+### [Cách bật OCR trong Java – Hướng dẫn từng bước](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Kích hoạt OCR trong Java nhanh chóng với hướng dẫn chi tiết, giúp bạn tích hợp và sử dụng Aspose.OCR một cách dễ dàng.
+### [Hướng dẫn Chuyển Hình Ảnh thành Văn Bản – Trích xuất Văn bản Tamil bằng Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng và trích xuất văn bản Tamil từ hình ảnh một cách chính xác và nhanh chóng.
 
 ---
 

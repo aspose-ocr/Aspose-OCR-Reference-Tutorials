@@ -28,6 +28,7 @@ Sind Sie bereit, Ihre Textextraktionsfähigkeiten zu verbessern? **Recognize PDF
 - **Do I need a license for production use?** Für kommerzielle Einsätze ist eine gültige Aspose‑Lizenz erforderlich.
 
 ## Was bedeutet “recognize pdf text”?
+
 Das Erkennen von PDF‑Text beinhaltet das Scannen jeder Seite eines PDFs, das Anwenden von OCR‑Algorithmen und das Erzeugen einer durchsuchbaren Ebene, die die visuelle Darstellung den tatsächlichen Zeichen zuordnet. Aspose.OCR für Java automatisiert diesen Prozess und liefert hochwertige Ergebnisse ohne manuelle Eingriffe.
 
 ## Warum Aspose.OCR für Java verwenden?
@@ -75,6 +76,10 @@ Unlock precise text extraction from images with Aspose.OCR for Java. Follow our 
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
 ### [OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
+### [Bilder in Text konvertieren in Java – Batch-OCR-Verarbeitungsleitfaden](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Erfahren Sie, wie Sie mehrere Bilder in Java stapelweise in Text umwandeln und OCR effizient verarbeiten.
+### [Durchsuchbares PDF mit Aspose OCR erstellen – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Erstellen Sie ein durchsuchbares PDF mit Aspose OCR. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für einfache Umsetzung.
 
 ## Häufig gestellte Fragen
 

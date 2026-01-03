@@ -96,11 +96,24 @@ Recuerda, el viaje no termina aquí—Aspose.OCR ofrece funciones avanzadas como
 
 ## Tutoriales de Conceptos Básicos de OCR
 ### [Cómo establecer la licencia para Aspose.OCR en Java](./set-license/)
+
 Desbloquea el potencial de Aspose.OCR para Java con esta guía paso a paso. Configura tu licencia sin esfuerzo y mejora tus capacidades de OCR.
+
 ### [Calculando el ángulo de sesgo en Aspose.OCR para Java](./calculate-skew-angle/)
+
 Mejora la precisión del OCR con Aspose.OCR para Java. Aprende a calcular ángulos de sesgo paso a paso. Mejora el procesamiento de documentos sin complicaciones.
+
 ### [Obteniendo rectángulos con áreas de texto en Aspose.OCR](./get-rectangles-with-text-areas/)
+
 Desbloquea el poder de Aspose.OCR para Java. Aprende a extraer texto de imágenes sin problemas en esta guía paso a paso. Descárgala ahora para un reconocimiento de texto eficiente.
+
+### [Cómo habilitar OCR en Java – Guía paso a paso](./how-to-enable-ocr-in-java-step-by-step-guide/)
+
+Aprende a activar y configurar OCR en Java con esta guía paso a paso para obtener reconocimiento de texto rápido y preciso.
+
+### [Tutorial de Imagen a Texto – Extraer Texto Tamil con Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+
+Aprende a extraer texto en tamil de imágenes usando Aspose OCR con esta guía paso a paso.
 
 ---
 

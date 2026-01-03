@@ -61,6 +61,11 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别能力。集成方便，精度高。
 ### [在 Aspose.OCR 中指定允许的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 无缝解锁图像中的文本提取。请遵循我们的分步指南以实现高效集成。
+### [如何在 Java 中启用 GPU 进行 OCR – 快速识别图像文本](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+通过启用 GPU 加速，使用 Aspose.OCR for Java 快速识别图像中的文本，提高 OCR 性能。
+### [使用 Java 从图像提取文本 – 读取照片中的 VIN](./extract-text-from-image-with-java-read-vin-from-photo/)
+使用 Aspose.OCR for Java 从照片中读取车辆识别码 (VIN)，实现快速准确的文本提取。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
