@@ -46,10 +46,13 @@ url: /zh-hant/net/ocr-optimization/
 透過我們的綜合指南釋放 Aspose.OCR for .NET 的潛力。逐步學習如何準備用於影像辨識的矩形。透過無縫 OCR 整合提升您的 .NET 應用程式。
 ### [OCR 影像辨識中影像的預處理濾鏡](./preprocessing-filters-for-image/)
 探索適用於 .NET 的 Aspose.OCR。使用預處理過濾器提高 OCR 準確性。立即下載以實現無縫整合。
+### [OCR 前處理管線 – 如何在 C# 中辨識影像文字](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 ### [OCR 影像辨識中的拼字檢查結果校正](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提高 OCR 準確性。輕鬆修正拼字、自訂字典並實現無錯誤的文字辨識。
 ### [在 OCR 影像辨識中將多頁結果儲存為文檔](./save-multipage-result-as-document/)
 釋放 Aspose.OCR for .NET 的潛能。透過這份全面的分步指南，輕鬆將多頁 OCR 結果儲存為文件。
+### [在 GPU 上對 PNG 影像執行 OCR – 完整 C# 指南](./run-ocr-on-png-with-gpu-complete-c-guide/)
+利用 GPU 加速在 PNG 圖像上執行 OCR，提供完整的 C# 實作步驟與最佳化技巧。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

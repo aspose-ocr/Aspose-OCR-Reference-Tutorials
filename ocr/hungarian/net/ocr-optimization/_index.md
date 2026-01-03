@@ -46,10 +46,15 @@ Fedezze fel a zökkenőmentes OCR-integrációt az Aspose.OCR for .NET segítsé
 Kibontakoztatja az Aspose.OCR-ben rejlő lehetőségeket .NET-hez átfogó útmutatónkkal. Ismerje meg lépésről lépésre, hogyan készítsen elő téglalapokat a képfelismeréshez. Emelje fel .NET-alkalmazásait a zökkenőmentes OCR-integrációval.
 ### [Képszűrők előfeldolgozása az OCR képfelismerésben](./preprocessing-filters-for-image/)
 Fedezze fel az Aspose.OCR-t .NET-hez. Növelje az OCR pontosságát előfeldolgozó szűrőkkel. Töltse le most a zökkenőmentes integráció érdekében.
+### [OCR előfeldolgozási csővezeték – Hogyan ismerjünk fel szöveget képről C#-ban](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Ismerje meg, hogyan építsen fel OCR előfeldolgozási folyamatot C#-ban a szöveg pontos felismeréséhez képeken.
 ### [Eredményjavítás helyesírás-ellenőrzéssel az OCR képfelismerésben](./result-correction-with-spell-checking/)
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Helyesírások javítása, szótárak testreszabása és hibamentes szövegfelismerés problémamentesen.
 ### [Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben](./save-multipage-result-as-document/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Ezzel az átfogó, lépésenkénti útmutatóval könnyedén mentheti a többoldalas OCR-eredményeket dokumentumként.
+### [OCR futtatása PNG-n GPU-val – Teljes C# útmutató](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Ismerje meg, hogyan használhatja a GPU-t PNG képek OCR-hez C#-ban, a teljes lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
