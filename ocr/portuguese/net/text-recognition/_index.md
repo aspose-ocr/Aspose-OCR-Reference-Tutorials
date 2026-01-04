@@ -55,6 +55,15 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de t
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Tutorial c# OCR – Extrair Texto de Imagens JPEG](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Aprenda a usar Aspose.OCR em C# para extrair texto de imagens JPEG de forma simples e eficiente.
+### [OCR de Imagem Coreana: Guia Completo para Extrair Texto de Imagens](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Aprenda a extrair texto de imagens coreanas usando Aspose.OCR, com passo a passo detalhado para reconhecimento preciso.
+### [Extrair Texto de Imagem com Aspose OCR – Guia Completo em C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a usar Aspose OCR em C# para extrair texto de imagens de forma completa e eficiente.
+### [Tutorial c# OCR – Processamento em lote de OCR para TIFFs digitalizados](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+### [Converter Imagem para Texto em C# com Aspose OCR – Guia Passo a Passo](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

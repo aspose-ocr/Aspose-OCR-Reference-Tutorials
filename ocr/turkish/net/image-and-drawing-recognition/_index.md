@@ -68,6 +68,8 @@ Aspose.OCR for .NET ile metin tanıma potansiyelini açığa çıkarın. Görün
 Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyelini ortaya çıkarın. Görüntülerden sorunsuz metin çıkarma için geliştirici rehberi.
 ### [OCR Görüntü Tanıma'da Görüntü Üzerinde OCR Gerçekleştirme](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
+### [C# ile Formları Etkinleştirme ve OCR ile Tabloları Çıkarma – Tam Kılavuz](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+C# kullanarak OCR ile formları etkinleştirin ve tabloları kolayca çıkarın. Adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 
