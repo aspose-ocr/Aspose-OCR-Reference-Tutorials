@@ -55,6 +55,17 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag – Szöveg kinyerése JPEG képekből](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Tanulja meg, hogyan nyerhet ki szöveget JPEG képekből C# és az Aspose.OCR segítségével.
+### [c# OCR oktatóanyag – Kötegelt OCR feldolgozás beolvasott TIFF fájlokhoz](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Tanulja meg, hogyan végezhet kötegelt OCR feldolgozást beolvasott TIFF fájlokon C# és az Aspose.OCR segítségével.
+### [Szöveg kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget képekből C# és az Aspose OCR használatával, lépésről-lépésre útmutató.
+### [OCR Koreai kép: Teljes útmutató a szöveg kinyeréséhez képekből](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Tanulja meg, hogyan használja az Aspose.OCR-t koreai nyelvű képek szövegének pontos kinyeréséhez.
+### [Kép szöveggé konvertálása C#-ban az Aspose OCR segítségével – Lépésről‑lépésre útmutató](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+Tanulja meg, hogyan konvertálhat képet szöveggé C#-ban az Aspose OCR használatával, lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

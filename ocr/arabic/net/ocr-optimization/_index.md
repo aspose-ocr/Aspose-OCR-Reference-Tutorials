@@ -50,6 +50,10 @@ url: /ar/net/ocr-optimization/
 تعزيز دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ .NET. قم بتصحيح التهجئة وتخصيص القواميس وتحقيق التعرف على النص الخالي من الأخطاء دون عناء.
 ### [حفظ نتيجة الصفحات المتعددة كمستند في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./save-multipage-result-as-document/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. احفظ نتائج التعرف الضوئي على الحروف (OCR) متعددة الصفحات بسهولة كمستندات باستخدام هذا الدليل الشامل خطوة بخطوة.
+### [إنشاء ملف PDF قابل للبحث من ملفات مسح ضوئي باستخدام Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+حوّل ملفات المسح الضوئي إلى PDF قابل للبحث بسهولة باستخدام Aspose OCR لـ .NET.
+### [كيفية تحسين التباين في OCR – دليل كامل بلغة C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+تعلم كيفية تحسين التباين في صور OCR باستخدام Aspose.OCR ل.NET عبر دليل شامل بلغة C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -68,6 +68,8 @@ Aspose.OCR for .NET으로 텍스트 인식의 잠재력을 열어보세요. 이�
 Aspose.OCR for .NET을 활용하여 OCR 이미지 인식에서 라인을 인식하는 잠재력을 발휘하세요. 이미지에서 텍스트를 원활히 추출하는 개발자 가이드입니다.
 ### [이미지에 OCR 수행하기](./perform-ocr-on-image/)
 Aspose.OCR for .NET으로 OCR 마법을 경험하고 이미지에서 텍스트를 손쉽게 추출하세요. 원활한 통합을 위한 튜토리얼을 확인해 보세요.
+### [C#에서 양식을 활성화하고 OCR로 테이블 추출하는 방법 – 완전 가이드](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+C#에서 Aspose.OCR을 사용해 양식을 인식하고 테이블 데이터를 추출하는 전체 과정을 안내합니다.
 
 ## 자주 묻는 질문
 

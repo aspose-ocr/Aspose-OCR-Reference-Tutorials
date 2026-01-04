@@ -50,6 +50,11 @@ Ontdek Aspose.OCR voor .NET. Verbeter de OCR-nauwkeurigheid met voorverwerkingsf
 Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze tekstherkenning.
 ### [Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla OCR-resultaten van meerdere pagina's moeiteloos op als documenten met deze uitgebreide stapsgewijze handleiding.
+### [Maak doorzoekbare PDF van gescande bestanden met Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Leer hoe u met Aspose OCR gescande bestanden omzet naar doorzoekbare PDF's voor eenvoudige tekstextractie.
+### [Hoe contrast te verbeteren in OCR – Complete C#-tutorial](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Leer hoe u met C# het contrast van afbeeldingen optimaliseert voor betere OCR-nauwkeurigheid.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
