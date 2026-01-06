@@ -40,6 +40,9 @@ url: /zh/net/skew-angle-calculation/
 释放 Aspose.OCR for .NET 的强大功能，这是一种强大的图像识别解决方案。了解如何轻松计算倾斜角度。
 ### [OCR 图像识别中根据 URI 计算倾斜角度](./calculate-skew-angle-from-uri/)
 探索 Aspose.OCR for .NET，轻松计算 OCR 图像识别中的倾斜角度。精准高效地增强您的项目。
+### [如何为 OCR 去倾斜图像 – 完整的 C# 指南](./how-to-deskew-image-for-ocr-complete-c-guide/)
+提供完整的 C# 示例，教您使用 Aspose.OCR 对图像进行去倾斜处理，提高 OCR 准确性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
