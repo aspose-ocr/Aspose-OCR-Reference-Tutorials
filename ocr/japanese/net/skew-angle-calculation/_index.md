@@ -40,6 +40,8 @@ C# アプリケーションで正確なテキスト認識を実現する強力�
 画像認識のための堅牢なソリューションである Aspose.OCR for .NET のパワーを解き放ちます。スキュー角度を簡単に計算する方法を学びましょう。
 ### [OCR画像認識でURIからスキュー角度を計算](./calculate-skew-angle-from-uri/)
 Aspose.OCR for .NET を探索して、OCR 画像認識でスキュー角度を簡単に計算します。プロジェクトを正確かつ効率的に強化します。
+### [OCR 用画像のデスクュー方法 – 完全 C# ガイド](./how-to-deskew-image-for-ocr-complete-c-guide/)
+C# で画像をデスクューし、OCR の精度を向上させる手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

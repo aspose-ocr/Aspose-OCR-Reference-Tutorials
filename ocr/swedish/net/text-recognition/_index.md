@@ -53,8 +53,16 @@ Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
+### [OCR:a PDF med Aspose: Konvertera, Exportera och Sök](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+Lär dig hur du OCR:ar PDF-filer med Aspose, konverterar dem, exporterar resultatet och söker i texten.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Flerspråkig textigenkänning i C# med Aspose OCR – Komplett guide](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+Lär dig hur du använder Aspose OCR i C# för att känna igen text på flera språk med en komplett steg-för-steg-guide.
+### [Extrahera text från bild i C# – Offline OCR med Aspose (Steg‑för‑steg‑guide)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+Lär dig hur du offline extraherar text från bilder i C# med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
+### [Känn igen text från bild – Offline OCR‑guide för C#‑utvecklare](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Få en komplett guide för att offline känna igen text i bilder med C# och Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

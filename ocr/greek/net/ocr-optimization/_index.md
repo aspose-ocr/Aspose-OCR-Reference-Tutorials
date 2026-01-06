@@ -50,6 +50,9 @@ url: /el/net/ocr-optimization/
 Βελτιώστε την ακρίβεια OCR με το Aspose.OCR για .NET. Διορθώστε την ορθογραφία, προσαρμόστε τα λεξικά και επιτύχετε την αναγνώριση κειμένου χωρίς σφάλματα χωρίς κόπο.
 ### [Αποθηκεύστε το αποτέλεσμα πολλαπλών σελίδων ως έγγραφο στην Αναγνώριση εικόνας OCR](./save-multipage-result-as-document/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Αποθηκεύστε αβίαστα αποτελέσματα OCR πολλαπλών σελίδων ως έγγραφα με αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR & GPU – Οδηγός C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
+Αξιοποιήστε την GPU για γρήγορη εξαγωγή κειμένου από εικόνες με Aspose OCR σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

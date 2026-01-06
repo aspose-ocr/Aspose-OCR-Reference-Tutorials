@@ -55,6 +55,15 @@ url: /ar/net/text-recognition/
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [التعرف على النص متعدد اللغات في C# باستخدام Aspose OCR – دليل كامل](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+اكتشف كيفية التعرف على نصوص متعددة اللغات باستخدام Aspose OCR في C# خطوة بخطوة لتحقيق نتائج دقيقة وشاملة.
+### [استخراج النص من صورة في C# – التعرف الضوئي على الحروف دون اتصال باستخدام Aspose (دليل خطوة بخطوة)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# دون اتصال، خطوة بخطوة لتحقيق نتائج دقيقة.
+### [كيفية التعرف الضوئي على PDF باستخدام Aspose: التحويل، التصدير والبحث](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+تعلم كيفية تحويل ملفات PDF إلى نص قابل للبحث، تصديره واستخدامه في تطبيقاتك باستخدام Aspose OCR.
+### [التعرف على النص من صورة – دليل OCR غير متصل لمطوري C#](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+تعلم كيفية استخراج النص من الصور في بيئة C# دون اتصال باستخدام Aspose OCR خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
