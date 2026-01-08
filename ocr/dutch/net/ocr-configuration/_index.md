@@ -39,6 +39,8 @@ Ontgrendel de kracht van OCR-beeldherkenning in .NET met Aspose.OCR. Extraheer t
 Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
 ### [OCR-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer moeiteloos OCR-beeldherkenning uit met lijsten. Verhoog de productiviteit en gegevensextractie in uw applicaties.
+### [Hoe OCR-taalondersteuning te controleren in C# – Complete gids](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Leer hoe u in C# kunt controleren welke talen door Aspose.OCR worden ondersteund.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

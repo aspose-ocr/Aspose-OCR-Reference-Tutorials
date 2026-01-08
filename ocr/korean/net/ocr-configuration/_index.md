@@ -39,6 +39,8 @@ Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하�
 .NET용 Aspose.OCR로 강력한 OCR 기능을 잠금 해제하세요. 이미지에서 텍스트를 원활하게 추출합니다.
 ### [OCR 이미지 인식에서 목록을 사용한 OCOperation](./ocr-operation-with-list/)
 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 목록을 사용하여 OCR 이미지 인식을 손쉽게 수행하세요. 애플리케이션의 생산성과 데이터 추출을 향상하십시오.
+### [C#에서 OCR 언어 지원 확인하기 – 완전 가이드](./how-to-check-ocr-language-support-in-c-complete-guide/)
+C#을 사용해 Aspose.OCR에서 지원되는 언어 목록을 확인하고 활용하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
