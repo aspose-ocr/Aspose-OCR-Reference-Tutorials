@@ -23,7 +23,7 @@ W tym samouczku poprowadzimy Cię przez wykorzystanie możliwości Aspose.OCR dl
 
 ## Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR
 
-Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznawania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
+Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
 
 ## Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR
 
@@ -55,6 +55,13 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Konwertuj obraz na tekst w C# – Kompletny przewodnik OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
+Naucz się konwertować obrazy na tekst w C# przy użyciu Aspose.OCR – kompletny przewodnik krok po kroku.
+### [Jak wykonać OCR w C# – wyodrębnić tekst z obrazu przy użyciu Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+Naucz się, jak przy pomocy Aspose OCR w C# wyodrębnić tekst z obrazów w prostych krokach.
+### [Wyodrębnij tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Naucz się wyodrębniać tekst z obrazów w C# przy użyciu Aspose OCR – kompletny przewodnik krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

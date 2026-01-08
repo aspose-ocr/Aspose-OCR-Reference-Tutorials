@@ -55,6 +55,12 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Afbeelding naar tekst converteren in C# – Complete OCR-gids](./convert-image-to-text-in-c-complete-ocr-guide/)
+Leer hoe u met Aspose.OCR in .NET afbeeldingen naar bewerkbare tekst converteert met een volledige stap‑voor‑stap gids.
+### [Hoe OCR uit te voeren in C# – Tekst extraheren uit afbeelding met Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen haalt met een stapsgewijze handleiding.
+### [Afbeelding naar tekst extraheren met Aspose OCR – Complete C#‑gids](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Volledige C#‑gids om met Aspose OCR tekst uit afbeeldingen te extraheren, inclusief voorbeeldcode en best practices.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

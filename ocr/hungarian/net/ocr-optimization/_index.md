@@ -50,6 +50,10 @@ Fedezze fel az Aspose.OCR-t .NET-hez. Növelje az OCR pontosságát előfeldolgo
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Helyesírások javítása, szótárak testreszabása és hibamentes szövegfelismerés problémamentesen.
 ### [Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben](./save-multipage-result-as-document/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Ezzel az átfogó, lépésenkénti útmutatóval könnyedén mentheti a többoldalas OCR-eredményeket dokumentumként.
+### [Az OCR pontosságának javítása C#-ban az Aspose‑szal – Lépésről‑lépésre útmutató](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Fedezze fel, hogyan növelheti az OCR pontosságát C#-ban az Aspose segítségével, részletes lépésről‑lépésre útmutató.
+### [Háttér eltávolítása OCR-rel az Aspose OCR – Teljes GPU útmutató](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Fedezze fel, hogyan távolíthatja el a képek hátterét GPU-val az Aspose OCR segítségével.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
