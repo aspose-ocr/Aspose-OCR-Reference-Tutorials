@@ -105,6 +105,12 @@ Migliora la precisione OCR con Aspose.OCR per Java. Impara a calcolare gli angol
 ### [Ottenere Rettangoli con Aree di Testo in Aspose.OCR](./get-rectangles-with-text-areas/)
 Sblocca la potenza di Aspose.OCR per Java. Scopri come estrarre testo dalle immagini in modo fluido in questa guida passo‑passo. Scarica ora per un riconoscimento del testo efficiente.
 
+### [Leggere il Testo da Immagine in Java – Guida Completa Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Scopri come leggere il testo da immagini in Java con Aspose OCR, passo‑passo, per ottenere risultati accurati e rapidi.
+
+### [Ottieni il Testo OCR in Java – Esempio Completo Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Scopri come estrarre testo OCR in Java con un esempio completo, passo‑passo, per risultati rapidi e accurati.
+
 ---
 
 **Ultimo aggiornamento:** 2025-12-08  

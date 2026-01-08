@@ -81,6 +81,9 @@ Szabadítsd fel a képek pontos szövegkinyerését az Aspose.OCR for Java segí
 Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget PDF dokumentumokban. Növeld alkalmazásaidat pontossággal és sebességgel.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
+### [Kereshető PDF létrehozása PNG-ből – Teljes Java útmutató](./create-searchable-pdf-from-png-complete-java-guide/)
+Szabadítsd fel a PNG képekből a kereshető PDF-ek létrehozását Java-ban az Aspose.OCR segítségével.
+### [Kereshető PDF létrehozása képből OCR-rel – Java útmutató](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 
 ## Gyakran Ismételt Kérdések
 

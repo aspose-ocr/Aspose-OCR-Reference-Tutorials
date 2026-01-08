@@ -61,6 +61,9 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Εύκολη ενσωμάτωση, υψηλή ακρίβεια.
 ### [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
+### [Πώς να ενεργοποιήσετε το GPU για OCR – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+### [Πώς να εκτελέσετε OCR σε μεγάλα έγγραφα – Πλήρης οδηγός Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -78,6 +78,10 @@ Ontgrendel precieze tekst‑extractie uit afbeeldingen met Aspose.OCR voor Java.
 Ontgrendel de kracht van OCR in Java met Aspose.OCR. Herken moeiteloos tekst in PDF‑documenten. uw applicaties met precisie en snelheid.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Ontgrendel krachtige tekst‑herkenning in Java met Aspose.OCR. Herken moeiteloos tekst in TIFF‑afbeeldingen. Download nu voor een naadloze OCR‑ervaring.
+### [Maak doorzoekbare PDF van PNG – Complete Java-gids](./create-searchable-pdf-from-png-complete-java-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van PNG‑afbeeldingen.
+### [Maak doorzoekbare PDF van afbeelding met OCR – Java‑tutorial](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Leer hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van een afbeelding.
 
 ## Veelgestelde vragen
 

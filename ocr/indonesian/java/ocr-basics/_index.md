@@ -101,6 +101,10 @@ Buka potensi Aspose.OCR untuk Java dengan panduan langkah‑demi‑langkah ini. 
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk Java. Pelajari cara menghitung sudut kemiringan langkah demi langkah. Tingkatkan pemrosesan dokumen dengan mudah.
 ### [Mendapatkan Persegi Panjang dengan Area Teks dalam Aspose.OCR](./get-rectangles-with-text-areas/)
 Buka kekuatan Aspose.OCR untuk Java. Pelajari cara mengekstrak teks dari gambar secara mulus dalam panduan langkah demi langkah ini. Unduh sekarang untuk pengenalan teks yang efisien.
+### [Baca Teks dari Gambar di Java – Panduan Lengkap Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Panduan lengkap untuk membaca teks dari gambar menggunakan Aspose OCR di Java, meliputi pengaturan, pra‑pemrosesan, dan ekstraksi teks.
+### [Dapatkan Teks OCR di Java – Contoh Lengkap Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Panduan lengkap untuk mengekstrak teks OCR di Java menggunakan Aspose OCR, mencakup pengaturan, pra‑pemrosesan, dan contoh kode.
 
 ---
 
