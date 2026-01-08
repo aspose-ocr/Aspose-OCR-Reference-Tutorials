@@ -81,6 +81,10 @@ Sblocca il potere dell'OCR in Java con Aspose.OCR. Riconosci il testo nei docume
 Sblocca un potente riconoscimento del testo in Java con Aspose.OCR. Riconosci il testo nelle immagini TIFF senza sforzo. Scarica ora per un'esperienza OCR fluida.
 ### [Riconoscere il testo di un'immagine con Aspose OCR – Tutorial Java OCR completo](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Scopri come eseguire l'OCR completo su immagini con Aspose OCR in Java, passo‑passo per risultati accurati e rapidi.
+### [Crea PDF Ricercabile da PNG – Guida Java Completa](./create-searchable-pdf-from-png-complete-java-guide/)
+Crea rapidamente PDF ricercabili da immagini PNG con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
+### [Crea PDF Ricercabile da Immagine con OCR – Guida Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Crea rapidamente PDF ricercabili da immagini con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
 
 ## Domande Frequenti
 
