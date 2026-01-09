@@ -52,9 +52,22 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [دليل OCR بلغة C# – استخراج النص الهندي من إيصالات PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+تعلم كيفية استخراج النص الهندي من ملفات PNG باستخدام Aspose.OCR في تطبيقات C# خطوة بخطوة.
+### [استخراج النص من PNG – دليل Aspose OCR كامل](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام Aspose OCR خطوة بخطوة.
+### [التعرف على النص في ملفات JPG باستخدام Aspose OCR – دليل كامل بلغة C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية التعرف على النص في صور JPG باستخدام Aspose OCR مع مثال كامل بلغة C#.
+### [دليل OCR بلغة C# – استخراج النص من الصور وملفات DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+تعلم كيفية استخراج النص من الصور وملفات DJVU باستخدام Aspose.OCR في تطبيقات C# خطوة بخطوة.
+### [استخراج النص من ملف TIFF باستخدام Aspose OCR C# – دليل كامل](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+تعلم خطوة بخطوة كيفية استخراج النص من ملفات TIFF باستخدام Aspose OCR في بيئة C#.
+### [دليل OCR بلغة C# – استخراج النص من الصور باستخدام Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في تطبيقات C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -24,7 +24,7 @@ Tauchen Sie mit Aspose.OCR in die Welt der OCR ein und erfahren Sie Schritt für
 Nutzen Sie mit Aspose.OCR die Leistungsfähigkeit der OCR-Bilderkennung in .NET. Dieses Tutorial vermittelt Ihnen das Wissen, wie Sie mühelos Text aus in Ordnern gespeicherten Bildern extrahieren können. Steigern Sie die Effizienz bei der Datenextraktion und optimieren Sie die OCR-Funktionen Ihrer Anwendung.
 
 ## OCROperation mit Sprachauswahl bei der OCR-Bilderkennung
-Bringen Sie Ihre OCR-Fähigkeiten auf ein neues Niveau, indem Sie die Sprachauswahl in Aspose.OCR für .NET beherrschen. Dieses Tutorial führt Sie durch den Prozess der nahtlosen Textextraktion aus Bildern in verschiedenen Sprachen. Stärken Sie Ihre Anwendung mit mehrsprachigen OCR-Funktionen.
+Bringen Sie Ihre OCR-Fähigkeiten auf ein neues Niveau, indem Sie die Sprachauswahl in Aspose.OCR für .NET beherrschen. Dieses Tutorial führt Sie durch den Prozess der nahtlosen Texteraktion aus Bildern in verschiedenen Sprachen. Stärken Sie Ihre Anwendung mit mehrsprachigen OCR-Funktionen.
 
 ## OCROperation mit Liste in der OCR-Bilderkennung
 Entdecken Sie das enorme Potenzial von Aspose.OCR für .NET, indem Sie mühelos OCR-Bilderkennung mit Listen durchführen. Dieses Tutorial verbessert nicht nur die Textextraktion, sondern steigert auch die Produktivität beim Umgang mit verschiedenen Datensätzen. Entdecken Sie die Effizienz von OCR mit Listenoperationen.
@@ -39,6 +39,11 @@ Nutzen Sie mit Aspose.OCR die Leistungsfähigkeit der OCR-Bilderkennung in .NET.
 Nutzen Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation mit Liste in der OCR-Bilderkennung](./ocr-operation-with-list/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos eine OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenextraktion in Ihren Anwendungen.
+### [OCR-Bild in C# – Komplettleitfaden mit GPU-Unterstützung](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Erfahren Sie, wie Sie mit Aspose.OCR Bilder in C# verarbeiten und GPU-Beschleunigung für schnelle Texterkennung nutzen.
+### [Text aus Bild mit Aspose OCR – Komplettleitfaden für C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren – ein vollständiger Leitfaden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

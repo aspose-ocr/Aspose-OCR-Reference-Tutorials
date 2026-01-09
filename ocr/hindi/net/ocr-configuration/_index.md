@@ -39,6 +39,11 @@ Aspose.OCR के साथ .NET में OCR छवि पहचान की 
 .NET के लिए Aspose.OCR के साथ शक्तिशाली OCR क्षमताओं को अनलॉक करें। छवियों से पाठ को निर्बाध रूप से निकालें।
 ### [ओसीआर छवि पहचान में सूची के साथ ओसीआरऑपरेशन](./ocr-operation-with-list/)
 .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें। सूचियों के साथ OCR छवि पहचान सहजता से निष्पादित करें। अपने अनुप्रयोगों में उत्पादकता और डेटा निष्कर्षण को बढ़ावा दें।
+### [C# में OCR इमेज कैसे करें – GPU समर्थन के साथ पूर्ण गाइड](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPU समर्थन के साथ C# में इमेज OCR करने की पूरी गाइड
+### [Aspose OCR के साथ इमेज से टेक्स्ट पहचानें – पूर्ण C# गाइड](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR के साथ C# में इमेज से टेक्स्ट निकालने की पूरी गाइड
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

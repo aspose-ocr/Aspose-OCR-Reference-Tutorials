@@ -39,6 +39,11 @@ Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks deng
 Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mulus.
 ### [Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR](./ocr-operation-with-list/)
 Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan mudah menggunakan daftar. Tingkatkan produktivitas dan ekstraksi data dalam aplikasi Anda.
+### [Cara OCR Gambar di C# – Panduan Lengkap dengan Dukungan GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Pelajari cara melakukan OCR pada gambar menggunakan C# dengan dukungan GPU untuk kecepatan optimal.
+### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan lengkap C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
