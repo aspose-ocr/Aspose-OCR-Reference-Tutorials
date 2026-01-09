@@ -2,7 +2,7 @@
 title: Διαμόρφωση OCR
 linktitle: Διαμόρφωση OCR
 second_title: Aspose.OCR .NET API
-description: Βελτιώστε εύκολα τις εφαρμογές σας .NET με το Aspose.OCR. Εξερευνήστε μαθήματα διαμόρφωσης OCR, συμπεριλαμβανομένων των λειτουργιών αρχειοθέτησης, φακέλων, επιλογής γλώσσας και λίστας.
+description: Βελτιώστε εύκολα τις εφαρμογές σας .NET με το Aspose.OCR. Εξερευνήστε μαθήματα διαμόρφωσης OCR, συμπλαμβανομένων των λειτουργιών αρχειοθέτησης, φακέλων, επιλογής γλώσσας και λίστας.
 weight: 24
 url: /el/net/ocr-configuration/
 ---
@@ -39,6 +39,11 @@ url: /el/net/ocr-configuration/
 Ξεκλειδώστε ισχυρές δυνατότητες OCR με το Aspose.OCR για .NET. Εξαγωγή κειμένου από εικόνες απρόσκοπτα.
 ### [OCROΛειτουργία με λίστα στην Αναγνώριση εικόνας OCR](./ocr-operation-with-list/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Εκτελέστε χωρίς κόπο αναγνώριση εικόνας OCR με λίστες. Ενισχύστε την παραγωγικότητα και την εξαγωγή δεδομένων στις εφαρμογές σας.
+### [Πώς να κάνετε OCR εικόνας σε C# – Πλήρης οδηγός με υποστήριξη GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Μάθετε πώς να εκτελείτε OCR εικόνων σε C# με επιτάχυνση GPU, βήμα προς βήμα οδηγίες.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Πλήρης οδηγός C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose OCR σε C# – πλήρης βήμα-προς-βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -50,6 +50,8 @@ url: /th/net/ocr-optimization/
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ .NET แก้ไขการสะกด ปรับแต่งพจนานุกรม และรับรู้ข้อความที่ปราศจากข้อผิดพลาดได้อย่างง่ายดาย
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารในการจดจำรูปภาพ OCR](./save-multipage-result-as-document/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET บันทึกผลลัพธ์ OCR หลายหน้าเป็นเอกสารได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้
+### [c# OCR tutorial: การจดจำข้อความจากภาพด้วยการประมวลผลล่วงหน้า](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความจากภาพโดยใช้การประมวลผลล่วงหน้าเพื่อเพิ่มความแม่นยำ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

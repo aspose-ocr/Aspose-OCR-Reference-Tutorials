@@ -21,9 +21,9 @@ Czy jesteś gotowy, aby przenieść swoje aplikacje .NET na wyższy poziom? Zanu
 
 W tym samouczku poprowadzimy Cię przez wykorzystanie możliwości Aspose.OCR dla .NET w celu zwiększenia możliwości rozpoznawania obrazów. Dowiedz się krok po kroku, jak wyszukiwać wybory rozpoznawanych znaków, zapewniając dokładność i wydajność w swoich aplikacjach. Zwiększ swoje doświadczenie OCR dzięki najnowocześniejszym funkcjom Aspose.OCR.
 
-## Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR
+## Uzyskaj wynik rozpoznania w trybie rozpoznawania obrazu OCR
 
-Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznawania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
+Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
 
 ## Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR
 
@@ -45,7 +45,7 @@ Gotowy zrewolucjonizować swoje aplikacje .NET? Zanurz się w naszych samouczkac
 ## Poradniki rozpoznawania tekstu
 ### [Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR](./get-choices-for-recognized-characters/)
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby uzyskać dokładne rozpoznawanie znaków. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wyszukać opcje rozpoznawania znaków w procesie rozpoznawania obrazu.
-### [Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR](./get-recognition-result/)
+### [Uzyskaj wynik rozpoznania w trybie rozpoznawania obrazu OCR](./get-recognition-result/)
 Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do płynnego rozpoznawania tekstu w obrazach.
 ### [Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR](./get-result-as-json/)
 Uwolnij moc Aspose.OCR dla .NET. Dowiedz się, jak bez wysiłku uzyskiwać wyniki OCR w formacie JSON. Popraw rozpoznawanie obrazów dzięki temu przewodnikowi krok po kroku.
@@ -55,6 +55,19 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [c# OCR samouczek – wyodrębnij tekst hindi z paragonów PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Dowiedz się, jak używać Aspose.OCR w C# do wyodrębniania tekstu w języku hindi z plików PNG zawierających paragony.
+### [Rozpoznaj tekst w JPG przy użyciu Aspose OCR – Kompletny przewodnik C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Użyj Aspose OCR w C# do rozpoznawania tekstu w plikach JPG. Kompletny przewodnik krok po kroku.
+### [c# OCR samouczek: Wyodrębnij tekst z obrazów i plików DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Dowiedz się, jak używać Aspose.OCR w C# do wyodrębniania tekstu z obrazów oraz plików DJVU.
+### [Wyodrębnij tekst z TIFF przy użyciu Aspose OCR C# – Pełny samouczek](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Użyj Aspose OCR w C# do wyodrębniania tekstu z plików TIFF. Kompletny przewodnik krok po kroku.
+### [c# OCR samouczek – wyodrębnij tekst z obrazów przy użyciu Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Dowiedz się, jak używać Aspose OCR w C# do wyodrębniania tekstu z obrazów w różnych formatach.
+### [Wyodrębnij tekst z PNG – Kompletny samouczek Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Użyj Aspose OCR w C# do wyodrębniania tekstu z plików PNG. Kompletny przewodnik krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

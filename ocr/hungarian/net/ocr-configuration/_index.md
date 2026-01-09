@@ -39,6 +39,11 @@ Az Aspose.OCR segítségével felszabadíthatja az OCR képfelismerés erejét a
 Fedezze fel a hatékony OCR-képességeket az Aspose.OCR for .NET segítségével. Zökkenőmentesen vonja ki a szöveget a képekből.
 ### [OCROművelet listával az OCR képfelismerésben](./ocr-operation-with-list/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
+### [Hogyan OCR-elj képet C#-ban – Teljes útmutató GPU támogatással](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t GPU-val a C# képfelismeréshez, lépésről lépésre útmutató.
+### [Képről szöveg felismerése az Aspose OCR-rel – Teljes C# útmutató](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t képek szövegének felismerésére C#-ban, lépésről lépésre útmutató.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,19 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag – Hindi szöveg kinyerése PNG nyugtákból](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Tanulja meg, hogyan használja a c#-os Aspose.OCR-t hindi szöveg kinyerésére PNG nyugtákból.
+### [c# OCR oktatóanyag: Szöveg kinyerése képekből és DJVU fájlokból](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Tanulja meg, hogyan nyerhet ki szöveget képekből és DJVU fájlokból a c# Aspose.OCR segítségével, részletes lépésről-lépésre útmutatóval.
+### [c# OCR oktatóanyag – Szöveg kinyerése képekből az Aspose OCR segítségével](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Tanulja meg, hogyan nyerhet ki szöveget képekből az Aspose OCR C# könyvtárral, részletes lépésről-lépésre útmutatóval.
+### [JPG-ben szöveg felismerése az Aspose OCR segítségével – Teljes C# útmutató](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Fedezze fel, hogyan ismerheti fel a szöveget JPG képeken az Aspose OCR .NET könyvtárral, részletes C# példákkal.
+### [TIFF-ben szöveg kinyerése az Aspose OCR segítségével – Teljes C# útmutató](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Tanulja meg, hogyan nyerhet ki szöveget TIFF fájlokból az Aspose OCR C# könyvtárral, részletes lépésről-lépésre útmutatóval.
+### [Szöveg kinyerése PNG-ből – Teljes Aspose OCR útmutató](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Tanulja meg, hogyan nyerhet ki szöveget PNG képekből az Aspose OCR segítségével, részletes, lépésről-lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
