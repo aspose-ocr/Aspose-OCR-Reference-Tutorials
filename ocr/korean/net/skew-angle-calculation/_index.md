@@ -40,6 +40,8 @@ C# 애플리케이션에서 정확한 텍스트 인식을 위한 강력한 OCR �
 이미지 인식을 위한 강력한 솔루션인 .NET용 Aspose.OCR의 강력한 기능을 활용해 보세요. 경사각을 쉽게 계산하는 방법을 알아보세요.
 ### [OCR 이미지 인식의 URI에서 기울기 각도 계산](./calculate-skew-angle-from-uri/)
 .NET용 Aspose.OCR을 탐색하여 OCR 이미지 인식의 기울어짐 각도를 쉽게 계산하세요. 정확성과 효율성으로 프로젝트를 향상시키세요.
+### [C#에서 이미지 기울기 보정 방법 – 완전한 OCR 전처리 가이드](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+C#과 Aspose.OCR을 활용해 이미지를 기울기 보정하고 OCR 정확도를 높이는 전체 전처리 과정을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -39,6 +39,8 @@ url: /ar/net/ocr-configuration/
 أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
 ### [عملية OCRO مع القائمة في التعرف على الصور OCR](./ocr-operation-with-list/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. قم بإجراء التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) بسهولة باستخدام القوائم. تعزيز الإنتاجية واستخراج البيانات في تطبيقاتك.
+### [قراءة المورد المضمن في .NET – دليل كامل لتعيين ترخيص Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+تعلم كيفية قراءة الموارد المضمنة في .NET وتعيين ترخيص Aspose خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

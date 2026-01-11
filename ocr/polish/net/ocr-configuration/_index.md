@@ -39,6 +39,9 @@ Odblokuj moc rozpoznawania obrazów OCR w .NET dzięki Aspose.OCR. Wyodrębnij t
 Odblokuj potężne możliwości OCR dzięki Aspose.OCR dla .NET. Płynnie wyodrębniaj tekst z obrazów.
 ### [OCROoperacja z listą w rozpoznawaniu obrazu OCR](./ocr-operation-with-list/)
 Odblokuj potencjał Aspose.OCR dla .NET. Bez wysiłku rozpoznaj obrazy OCR za pomocą list. Zwiększ produktywność i ekstrakcję danych w swoich aplikacjach.
+### [Odczyt zasobu osadzonego w .NET – Kompletny przewodnik po ustawianiu licencji Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Dowiedz się, jak odczytać zasób osadzony w .NET i skonfigurować licencję Aspose w aplikacji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

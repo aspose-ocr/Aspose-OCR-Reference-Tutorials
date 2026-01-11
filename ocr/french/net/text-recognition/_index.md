@@ -55,6 +55,19 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Comment exécuter l'OCR en C# – Guide complet avec Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
+Apprenez à implémenter l'OCR en C# avec Aspose OCR grâce à ce guide complet, étape par étape, pour des résultats précis.
+### [Comment exécuter l'OCR en C# – Extraire du texte arabe depuis un PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
+Apprenez à extraire du texte arabe à partir d'images PNG en utilisant Aspose OCR avec C#.
+### [Extraire du texte d'une image avec Aspose OCR – Guide complet C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'images avec Aspose OCR en C# grâce à ce guide complet étape par étape.
+### [Extraire du texte d'une image en C# – Guide complet Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Apprenez à extraire du texte d'une image en C# avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Créer un PDF recherchable à partir d'un PNG en C# – Guide complet](./create-searchable-pdf-from-png-in-c-complete-guide/)
+Apprenez à transformer un PNG en PDF recherchable avec Aspose OCR en C#, étape par étape.
+### [Reconnaître du texte à partir d'une image en C# – Guide complet OCR et JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
+Apprenez à extraire du texte d'une image en C# et à obtenir les résultats au format JSON avec Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
