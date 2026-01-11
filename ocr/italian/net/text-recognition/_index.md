@@ -55,6 +55,19 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Come eseguire OCR in C# – Guida completa con Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
+Scopri come avviare l'OCR in C# usando Aspose OCR, con esempi passo passo per integrare il riconoscimento del testo nelle tue applicazioni.
+### [Come eseguire OCR in C# – Estrarre testo arabo da PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
+Impara a estrarre testo arabo da immagini PNG usando Aspose.OCR in C#, con esempi passo passo.
+### [Estrai testo da immagine con Aspose OCR – Guida completa C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Scopri come estrarre testo da immagini usando Aspose OCR in C#, con esempi passo passo per integrare l'OCR nelle tue applicazioni.
+### [Crea PDF Ricercabile da PNG in C# – Guida Completa](./create-searchable-pdf-from-png-in-c-complete-guide/)
+Impara a trasformare file PNG in PDF ricercabili usando Aspose.OCR in C#, con esempi passo passo.
+### [Estrai testo da immagine in C# – Guida completa Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Scopri come estrarre testo da immagini in C# con Aspose OCR, passo passo, per integrare facilmente l'OCR nelle tue applicazioni.
+### [Riconosci testo da immagine in C# – Guida completa a OCR e JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
+Scopri come riconoscere testo da immagini in C# con Aspose OCR, ottenendo risultati in JSON. Guida passo passo per integrare l'OCR nella tua app.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

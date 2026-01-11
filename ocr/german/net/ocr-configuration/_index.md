@@ -39,6 +39,9 @@ Nutzen Sie mit Aspose.OCR die Leistungsfähigkeit der OCR-Bilderkennung in .NET.
 Nutzen Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation mit Liste in der OCR-Bilderkennung](./ocr-operation-with-list/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos eine OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenextraktion in Ihren Anwendungen.
+### [Einbetten von Ressourcen in .NET lesen – Vollständige Anleitung zum Setzen der Aspose-Lizenz](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Erfahren Sie, wie Sie eingebettete Ressourcen in .NET auslesen und die Aspose-Lizenz korrekt setzen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
