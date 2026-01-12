@@ -39,6 +39,8 @@ Aspose.OCR ile .NET'te OCR görüntü tanımanın gücünün kilidini açın. G�
 Aspose.OCR for .NET ile güçlü OCR özelliklerinin kilidini açın. Görüntülerden metni sorunsuz bir şekilde çıkarın.
 ### [OCR Görüntü Tanıma'da Liste ile OCR İşlemi](./ocr-operation-with-list/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımayı zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarmayı artırın.
+### [Aspose ile C#'ta OCR Dil Modeli İndirme – Tam Kılavuz](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose kullanarak C# projelerinizde OCR dil modeli nasıl indirilir ve uygulanır öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

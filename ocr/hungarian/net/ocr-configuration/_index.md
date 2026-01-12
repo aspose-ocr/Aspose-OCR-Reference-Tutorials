@@ -38,7 +38,9 @@ Az Aspose.OCR segítségével felszabadíthatja az OCR képfelismerés erejét a
 ### [OCR-művelet nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
 Fedezze fel a hatékony OCR-képességeket az Aspose.OCR for .NET segítségével. Zökkenőmentesen vonja ki a szöveget a képekből.
 ### [OCROművelet listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyedén végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
+Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Könnyen végrehajthatja az OCR képfelismerést listák segítségével. Növelje alkalmazásaiban a termelékenységet és az adatkinyerést.
+### [OCR nyelvi modell letöltése C#-ban az Aspose segítségével – Teljes útmutató](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Töltsön le OCR nyelvi modellt C#-ban az Aspose segítségével, és ismerje meg a teljes folyamatot a beállítástól a használatig.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

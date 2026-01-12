@@ -39,6 +39,8 @@ url: /el/net/ocr-configuration/
 Ξεκλειδώστε ισχυρές δυνατότητες OCR με το Aspose.OCR για .NET. Εξαγωγή κειμένου από εικόνες απρόσκοπτα.
 ### [OCROΛειτουργία με λίστα στην Αναγνώριση εικόνας OCR](./ocr-operation-with-list/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Εκτελέστε χωρίς κόπο αναγνώριση εικόνας OCR με λίστες. Ενισχύστε την παραγωγικότητα και την εξαγωγή δεδομένων στις εφαρμογές σας.
+### [Λήψη μοντέλου γλώσσας OCR σε C# με το Aspose – Πλήρης Οδηγός](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Μάθετε πώς να κατεβάσετε και να ενσωματώσετε το μοντέλο γλώσσας OCR σε εφαρμογές C# χρησιμοποιώντας το Aspose, βήμα-βήμα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
