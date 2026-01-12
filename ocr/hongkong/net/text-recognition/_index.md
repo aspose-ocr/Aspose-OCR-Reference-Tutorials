@@ -55,6 +55,9 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [C# OCR 教程 – 將影像轉換為可搜尋的 PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+使用 Aspose.OCR for .NET，將影像轉換為可搜尋的 PDF，提升文件可存取性與搜尋功能。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

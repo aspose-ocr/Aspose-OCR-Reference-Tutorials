@@ -39,6 +39,9 @@ Libérez la puissance de la reconnaissance d’images OCR dans .NET avec Aspose.
 Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
 ### [OCROOpération avec liste dans la reconnaissance d'images OCR](./ocr-operation-with-list/)
 Libérez le potentiel d’Aspose.OCR pour .NET. Effectuez sans effort la reconnaissance d’images OCR avec des listes. Boostez la productivité et l’extraction de données dans vos applications.
+### [Télécharger le modèle de langue OCR en C# avec Aspose – Guide complet](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Apprenez à télécharger et intégrer le modèle de langue OCR dans vos projets C# avec Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

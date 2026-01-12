@@ -39,6 +39,8 @@ url: /ar/net/ocr-configuration/
 أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
 ### [عملية OCRO مع القائمة في التعرف على الصور OCR](./ocr-operation-with-list/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET. قم بإجراء التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR) بسهولة باستخدام القوائم. تعزيز الإنتاجية واستخراج البيانات في تطبيقاتك.
+### [تنزيل نموذج لغة OCR في C# باستخدام Aspose – دليل كامل](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+تعلم كيفية تنزيل نموذج لغة OCR واستخدامه في تطبيقات C# مع Aspose خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

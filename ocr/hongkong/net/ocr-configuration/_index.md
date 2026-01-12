@@ -39,6 +39,9 @@ url: /zh-hant/net/ocr-configuration/
 使用 Aspose.OCR for .NET 解鎖強大的 OCR 功能。將文字無縫地從圖像中提取。
 ### [OCR 影像辨識中的 OCROperation 與列表](./ocr-operation-with-list/)
 釋放 Aspose.OCR for .NET 的潛能。使用清單輕鬆執行 OCR 影像辨識。提高應用程式的生產力和資料提取。
+### [使用 Aspose 下載 OCR 語言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+了解如何使用 Aspose 在 C# 中下載並整合 OCR 語言模型，以提升文字辨識準確度。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
