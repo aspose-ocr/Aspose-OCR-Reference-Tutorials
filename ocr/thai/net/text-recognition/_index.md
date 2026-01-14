@@ -55,6 +55,19 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [c# OCR บทช่วยสอน: จดจำข้อความจากภาพ PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความจากไฟล์ PNG อย่างแม่นยำและง่ายดาย
+### [c# OCR บทช่วยสอน – ดึงข้อความจากภาพและรับ JSON ที่จัดรูปแบบ](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากภาพและรับผลลัพธ์เป็น JSON ที่จัดรูปแบบอย่างครบถ้วน
+### [วิธีใช้ Aspose OCR เพื่อจดจำข้อความภาษาจีน – คู่มือเต็ม](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+เรียนรู้ขั้นตอนการใช้ Aspose OCR จดจำข้อความภาษาจีนอย่างแม่นยำ พร้อมคำแนะนำเต็มรูปแบบสำหรับนักพัฒน .NET
+### [วิธีทำ OCR ภาษาอารบิกใน C# – คู่มือเต็ม](./how-to-ocr-arabic-in-c-complete-guide/)
+เรียนรู้ขั้นตอนการใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความภาษาอารบิกอย่างแม่นยำ พร้อมคำแนะนำเต็มรูปแบบสำหรับนักพัฒนา .NET
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือเต็ม](./create-searchable-pdf-in-c-full-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
+### [วิธีจดจำข้อความใน C# ด้วย Aspose OCR – แสดงจำนวนอักขระและโหลดภาพ](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากภาพ พร้อมแสดงจำนวนอักขระและการโหลดภาพอย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

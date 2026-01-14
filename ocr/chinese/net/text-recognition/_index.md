@@ -55,6 +55,18 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [c# OCR 教程：从 PNG 图像识别文本](./c-ocr-tutorial-recognize-text-from-png-images/)
+### [c# OCR 教程 – 从图像提取文本并获取格式化 JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+使用 Aspose.OCR 从图像中提取文本并生成格式化的 JSON，分步指南帮助您轻松实现。
+### [如何使用 Aspose OCR 识别中文文本 – 完整指南](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+通过本完整指南，学习使用 Aspose OCR 在 .NET 中高效识别中文文本，提升应用程序的文字处理能力。
+### [如何在 C# 中进行阿拉伯语 OCR – 完整指南](./how-to-ocr-arabic-in-c-complete-guide/)
+通过本完整指南，学习在 .NET 中使用 Aspose.OCR 进行阿拉伯语文字识别，提升应用程序的多语言处理能力。
+### [在 C# 中创建可搜索 PDF – 完整指南](./create-searchable-pdf-in-c-full-guide/)
+通过本完整指南，学习如何在 .NET 中使用 Aspose.OCR 创建可搜索的 PDF 文档，提高文档检索效率。
+### [如何在 C# 中使用 Aspose OCR 识别文本 – 显示字符计数并加载图像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+通过 Aspose OCR 在 C# 中识别图像文本，显示字符计数并加载图像，帮助您轻松实现文本提取。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -40,6 +40,8 @@ Explore Aspose.OCR for .NET, a powerful OCR solution for accurate text recogniti
 Unleash the power of Aspose.OCR for .NET, a robust solution for image recognition. Learn how to calculate skew angles effortlessly.
 ### [Calculate Skew Angle from URI in OCR Image Recognition](./calculate-skew-angle-from-uri/)
 Explore Aspose.OCR for .NET to effortlessly calculate skew angles in OCR image recognition. Enhance your projects with precision and efficiency.
+### [how to deskew image – Complete C# Pre‑processing Guide for OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
