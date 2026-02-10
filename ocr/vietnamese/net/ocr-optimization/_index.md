@@ -46,10 +46,17 @@ Khám phá tích hợp OCR liền mạch với Aspose.OCR cho .NET. Nhận dạn
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu từng bước cách chuẩn bị hình chữ nhật để nhận dạng hình ảnh. Nâng cao ứng dụng .NET của bạn bằng tích hợp OCR liền mạch.
 ### [Bộ lọc tiền xử lý cho hình ảnh trong nhận dạng hình ảnh OCR](./preprocessing-filters-for-image/)
 Khám phá Aspose.OCR cho .NET. Tăng độ chính xác của OCR bằng các bộ lọc tiền xử lý. Tải xuống ngay để tích hợp liền mạch.
+### [Tiền xử lý hình ảnh OCR trong C# – Hướng dẫn đầy đủ với các bộ lọc](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+Khám phá cách tiền xử lý hình ảnh OCR trong C# bằng các bộ lọc để nâng cao độ chính xác và hiệu suất.
 ### [Sửa kết quả bằng tính năng kiểm tra chính tả trong nhận dạng hình ảnh OCR](./result-correction-with-spell-checking/)
 Nâng cao độ chính xác của OCR với Aspose.OCR cho .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và nhận dạng văn bản không có lỗi một cách dễ dàng.
 ### [Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng lưu kết quả OCR nhiều trang dưới dạng tài liệu với hướng dẫn từng bước toàn diện này.
+### [Cách sử dụng Aspose OCR với GPU – Hướng dẫn từng bước](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+Khám phá cách tích hợp Aspose OCR với GPU để tăng tốc độ xử lý và cải thiện độ chính xác trong các dự án .NET.
+### [Trích xuất văn bản từ các hình PNG bằng C# – OCR hàng loạt với Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+Hướng dẫn cách trích xuất văn bản từ nhiều file PNG đồng thời bằng C# và Aspose OCR, tăng tốc quy trình OCR hàng loạt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

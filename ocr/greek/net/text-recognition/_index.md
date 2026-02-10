@@ -55,6 +55,21 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Αναγνώριση κειμένου Χίντι σε C# – Πλήρης Οδηγός Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να αναγνωρίζετε κείμενο Χίντι σε εφαρμογές C# χρησιμοποιώντας το Aspose.OCR, βήμα προς βήμα οδηγός.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Παράδειγμα Offline OCR](./extract-text-from-image-in-c-offline-ocr-example/)
+Εξαγάγετε κείμενο από εικόνα σε C# με Aspose.OCR offline. Ακολουθήστε το βήμα‑βήμα παράδειγμα για γρήγορη ενσωμάτωση.
+### [Μετατροπή εικόνας σε ePub σε C# – Πλήρης Οδηγός για Δημιουργία Αρχείου ePub](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αρχεία ePub χρησιμοποιώντας C# και Aspose.OCR, βήμα‑βήμα οδηγός.
+### [Πώς να εκτελέσετε OCR σε C# – Εξαγωγή κειμένου και εγγραφή σε JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για εξαγωγή κειμένου από εικόνες και αποθήκευση των αποτελεσμάτων σε μορφή JSON.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Αναγνώριση κειμένου από εικόνες](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Μάθετε πώς να εφαρμόσετε OCR σε C# για εξαγωγή κειμένου από εικόνες, βήμα‑βήμα οδηγός.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Πλήρης Οδηγός C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε C#, βήμα‑βήμα πλήρης οδηγός.
+### [Αναγνώριση κειμένου Χίντι από εικόνες – Μετατροπή σε ePub με Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Μάθετε πώς να αναγνωρίζετε κείμενο Χίντι από εικόνες και να το μετατρέπετε σε ePub χρησιμοποιώντας Aspose OCR σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

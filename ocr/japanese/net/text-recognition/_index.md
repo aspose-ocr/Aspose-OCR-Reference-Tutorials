@@ -54,7 +54,22 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、画像テ
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [C# でヒンディー語テキストを認識する – 完全 Aspose OCR ガイド](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR を使用して C# でヒンディー語テキストを正確に認識する完全ガイドです。ステップバイステップで実装方法を学びます。
+### [C# で画像からテキストを抽出する – オフライン OCR の例](./extract-text-from-image-in-c-offline-ocr-example/)
+Aspose.OCR を使用して、インターネット接続なしで C# アプリケーションから画像のテキストを抽出する手順を紹介します。
+### [C# で画像を ePub に変換する – ePub ファイル生成完全ガイド](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Aspose.OCR と Aspose.PDF を使用して、C# で画像から ePub 電子書籍を作成する手順をステップバイステップで解説します。
+### [C# で画像からヒンディー語テキストを認識し、ePub に変換 – Aspose OCR 完全ガイド](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Aspose OCR と Aspose PDF を活用し、C# で画像内のヒンディー語テキストを認識し、ePub 電子書籍へ変換する手順をステップバイステップで解説します。
+### [C# で OCR を実行する方法 – テキスト抽出と JSON 書き込み](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Aspose.OCR を使用して C# で画像からテキストを抽出し、結果を JSON ファイルに書き出す手順をステップバイステップで解説します。
+### [画像からテキストを認識する – Aspose OCR 完全 C# ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用して C# で画像からテキストを認識する完全ガイドです。ステップバイステップで実装方法を学びます。
+### [C# で OCR を使用する方法 – 画像からテキストを認識する](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Aspose.OCR を使用して C# で画像からテキストを認識する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

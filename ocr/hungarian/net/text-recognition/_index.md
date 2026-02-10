@@ -55,6 +55,21 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Hindi szöveg felismerése C#-ban – Teljes Aspose OCR útmutató](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Fedezze fel, hogyan ismerheti fel a Hindi szöveget C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+### [Szöveg kinyerése képből C#-ban – Offline OCR példa](./extract-text-from-image-in-c-offline-ocr-example/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t offline módon C#-ban a képek szövegének kinyerésére.
+### [Kép konvertálása ePub formátumba C#-ban – Teljes útmutató ePub fájl generálásához](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Ismerje meg, hogyan konvertálhat képeket ePub fájlokká C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+### [Hogyan végezzünk OCR-t C#-ban – Szöveg kinyerése és JSON írása](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban szöveg kinyerésére és JSON formátumban való mentésére.
+### [Szöveg felismerése képről az Aspose OCR-rel – Teljes C# útmutató](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t C#-ban képek szövegének felismerésére lépésről-lépésre útmutatóval.
+### [Hogyan használjuk az OCR-t C#-ban – Szöveg felismerése képekről](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének felismerésére lépésről-lépésre útmutatóval.
+### [Hindi szöveg felismerése képekről – Konvertálás ePub formátumba az Aspose OCR-rel (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Fedezze fel, hogyan ismerheti fel a Hindi szöveget képekről, és konvertálja azt ePub formátumba az Aspose OCR C# segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
