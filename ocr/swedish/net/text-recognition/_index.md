@@ -55,6 +55,21 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Känn igen hindi-text i C# – Komplett Aspose OCR-guide](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Lär dig hur du med Aspose.OCR för .NET kan känna igen hindi-text i C# med en komplett steg-för-steg-guide.
+### [Extrahera text från bild i C# – Offline OCR-exempel](./extract-text-from-image-in-c-offline-ocr-example/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från en bild offline i C# med ett praktiskt exempel.
+### [Konvertera bild till ePub i C# – Komplett guide för att generera ePub-fil](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Lär dig hur du med Aspose.OCR för .NET konverterar bilder till ePub-filer i C# med en komplett steg-för-steg-guide.
+### [Hur du utför OCR i C# – Extrahera text och skriv JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Lär dig hur du med Aspose.OCR för .NET kan extrahera text från bilder och spara resultatet i JSON-format i C#.
+### [Hur du använder OCR i C# – Känn igen text från bilder](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Lär dig hur du med Aspose.OCR för .NET kan använda OCR i C# för att känna igen text från bilder.
+### [Känn igen text från bild med Aspose OCR – Komplett C#-guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET kan känna igen text från en bild i en komplett C#-guide.
+### [Känn igen hindi-text från bilder – Konvertera till ePub med Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Lär dig hur du med Aspose.OCR för .NET kan känna igen hindi-text i bilder och konvertera den till ePub-format i C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -41,7 +41,7 @@ Maximalizujte přesnost OCR pomocí výukových programů Aspose.OCR for .NET. P
 Pomocí Aspose.OCR For .NET Tutorials Listing můžete přistupovat k dalším zdrojům a mít aktuální informace o nejnovějších vylepšeních optimalizace OCR. Ponořte se do světa přesnosti a efektivity pomocí výukových programů Aspose.OCR for .NET.
 ## Výukové programy optimalizace OCR
 ### [Proveďte OCR na obrázku z URL v OCR rozpoznávání obrázku](./perform-ocr-on-image-from-url/)
-Prozkoumejte bezproblémovou integraci OCR s Aspose.OCR pro .NET. Rozpoznejte text od obrázků s přesností.
+Prozkoumejte bezproblémovou integraci OCR s Aspose.OCR pro .NET. Rozpoznávejte text z obrázků s přesností.
 ### [Připravte obdélníky v rozpoznávání obrazu OCR](./prepare-rectangles/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce. Naučte se krok za krokem připravit obdélníky pro rozpoznávání obrázků. Vylepšete své aplikace .NET pomocí bezproblémové integrace OCR.
 ### [Předzpracování filtrů pro obraz v OCR rozpoznávání obrazu](./preprocessing-filters-for-image/)
@@ -50,6 +50,12 @@ Prozkoumejte Aspose.OCR pro .NET. Zvyšte přesnost OCR pomocí filtrů předbě
 Vylepšete přesnost OCR pomocí Aspose.OCR pro .NET. Opravte pravopis, přizpůsobte slovníky a dosáhněte bezproblémového rozpoznávání textu bez námahy.
 ### [Uložit vícestránkový výsledek jako dokument v rozpoznávání obrazu OCR](./save-multipage-result-as-document/)
 Odemkněte potenciál Aspose.OCR pro .NET. Pomocí tohoto komplexního podrobného průvodce snadno ukládejte vícestránkové výsledky OCR jako dokumenty.
+### [Jak používat Aspose OCR s GPU – krok‑za‑krokem průvodce](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+Naučte se využít výkon GPU pro zrychlení rozpoznávání textu s Aspose OCR v .NET pomocí podrobného průvodce.
+### [Předzpracování obrazu OCR v C# – Kompletní průvodce s filtry](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+Kompletní průvodce předzpracováním obrázků pro OCR v C# s využitím filtrů pro vyšší přesnost a efektivitu.
+### [Extrahovat textové obrázky z PNG pomocí C# – Dávkové OCR s Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+Naučte se hromadně extrahovat text z PNG souborů pomocí Aspose OCR v C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

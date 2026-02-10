@@ -44,17 +44,19 @@ url: /th/net/text-recognition/
 พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
 ## บทช่วยสอนการรู้จำข้อความ
 ### [รับตัวเลือกสำหรับอักขระที่จดจำในการจดจำรูปภาพ OCR](./get-choices-for-recognized-characters/)
-ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการรู้จำอักขระที่แม่นยำ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อดึงตัวเลือกสำหรับอักขระที่รู้จักในการจดจำรูปภาพ
 ### [รับผลการรับรู้ในการจดจำรูปภาพ OCR](./get-recognition-result/)
-สำรวจ Aspose.OCR สำหรับ .NET ซึ่งเป็นโซลูชัน OCR ที่ทรงพลังสำหรับการจดจำข้อความในรูปภาพได้อย่างราบรื่น
 ### [รับผลลัพธ์เป็น JSON ในการรับรู้ภาพ OCR](./get-result-as-json/)
-ปลดปล่อยพลังของ Aspose.OCR สำหรับ .NET เรียนรู้การรับผลลัพธ์ OCR ในรูปแบบ JSON ได้อย่างง่ายดาย ปรับปรุงการจดจำรูปภาพของคุณด้วยคำแนะนำทีละขั้นตอนนี้
 ### [OCR ตรวจจับโหมดพื้นที่ในการจดจำภาพ OCR](./ocr-detect-areas-mode/)
-ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความรูปภาพที่มีประสิทธิภาพ สำรวจโหมดตรวจจับพื้นที่ OCR เพื่อผลลัพธ์ที่แม่นยำ
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
-ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
-ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [จดจำข้อความภาษาฮินดีใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+### [ดึงข้อความจากรูปภาพใน C# – ตัวอย่าง OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-example/)
+### [แปลงรูปภาพเป็น ePub ใน C# – คู่มือสมบูรณ์ในการสร้างไฟล์ ePub](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+### [วิธีทำ OCR ใน C# – ดึงข้อความและเขียนเป็น JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+### [จดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+### [วิธีใช้ OCR ใน C# – จดจำข้อความจากรูปภาพ](./how-to-use-ocr-in-c-recognize-text-from-images/)
+### [จดจำข้อความภาษาฮินดีจากรูปภาพ – แปลงเป็น ePub ด้วย Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

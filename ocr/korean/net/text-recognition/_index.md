@@ -55,6 +55,20 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+### [C#에서 힌디어 텍스트 인식 – 완전 Aspose OCR 가이드](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+C#를 사용해 힌디어 텍스트를 정확히 인식하는 방법을 단계별로 안내합니다. Aspose OCR의 전체 가이드를 확인하세요.
+### [C#에서 이미지 텍스트 추출 – 오프라인 OCR 예제](./extract-text-from-image-in-c-offline-ocr-example/)
+C#를 사용해 오프라인 환경에서 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지를 ePub으로 변환 – ePub 파일 생성 완전 가이드](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+C#를 사용해 이미지를 ePub 형식으로 변환하고 파일을 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지의 힌디어 텍스트 인식 – Aspose OCR으로 ePub 변환](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+C#와 Aspose OCR을 사용해 이미지에서 힌디어 텍스트를 인식하고, 결과를 ePub 파일로 변환하는 단계별 가이드를 제공합니다.
+### [C#에서 OCR 수행하기 – 텍스트 추출 및 JSON 쓰기](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 추출하고 결과를 JSON 파일로 저장하는 방법을 단계별로 안내합니다.
+### [Aspose OCR로 이미지에서 텍스트 인식 – 완전 C# 가이드](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR와 C#를 사용해 이미지에서 텍스트를 정확히 인식하는 전체 가이드를 확인하세요.
+### [C#에서 OCR 사용 방법 – 이미지에서 텍스트 인식](./how-to-use-ocr-in-c-recognize-text-from-images/)
+C#와 Aspose.OCR을 활용해 이미지에서 텍스트를 인식하고 추출하는 단계별 가이드를 제공합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
