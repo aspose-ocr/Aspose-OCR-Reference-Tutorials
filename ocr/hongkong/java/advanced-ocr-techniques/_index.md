@@ -42,25 +42,17 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR 為您的 Java 應用程式提供精確的文字辨識功能。本教學將引導您輕鬆整合並實現高精度的線條識別。利用 Aspose.OCR 的效率和可靠性提升您的專案。
 
 ## [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
-
-透過使用 Aspose.OCR for Java 指定允許的字符，輕鬆從圖像中提取文字。按照我們的逐步指南進行高效集成，確保無縫的文字識別體驗。使用 Aspose.OCR 功能增強您的 Java 應用程式。
-
-## 結論
-
-借助 Aspose.OCR for Java，掌握高階 OCR 技術從未如此簡單。深入研究這些教程，並釋放 Java 專案中文字辨識的全部潛力。透過無縫整合、高精度和多功能文字擷取功能提升您的應用程式。立即下載並使用 Aspose.OCR for Java 邁出 OCR 卓越的第一步！
-## 進階 OCR 技術教程
-### [在 Aspose.OCR for Java 中對 BufferedImage 執行 OCR](./perform-ocr-buffered-image/)
-使用 Aspose.OCR for Java 輕鬆對 BufferedImage 執行 OCR。將文字無縫地從圖像中提取。立即下載以獲得多功能文字辨識體驗。
-### [在 Aspose.OCR for Java 中對來自 URL 的映像執行 OCR](./perform-ocr-image-from-url/)
-使用 Aspose.OCR 在 Java 中解鎖無縫圖像文字擷取。高精度 OCR，易於整合。
-### [在Aspose.OCR中對特定頁面執行OCR](./perform-ocr-on-page/)
-透過我們在特定頁面上執行 OCR 的逐步指南來釋放 Aspose.OCR for Java 的強大功能。輕鬆從圖像中提取文字並增強您的 Java 專案。
-### [在 Aspose.OCR 中為 OCR 準備矩形](./prepare-rectangles-for-ocr/)
-使用 Aspose.OCR for Java 釋放文字辨識的強大功能。請按照我們的逐步指南進行無縫整合。透過高效的 OCR 功能增強您的 Java 應用程式。
-### [在 Aspose.OCR for Java 中辨識線條](./recognize-lines/)
-使用 Aspose.OCR 為您的 Java 應用程式提供精確的文字辨識功能。集成方便，精度高。
-### [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
+
+### [在 Aspose 中減少 OCR 圖像噪點 – 完整 Java 指南](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+使用 Aspose OCR 在 Java 中減少圖像噪點，提升文字辨識精度的完整指南。
+
+## [在 Java 中使用 GPU 加速的 OCR – 步驟指南](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+利用 Aspose.OCR for Java 結合 GPU 加速，實現高速文字辨識。完整步驟教您快速部署。
+
+## [使用 Aspose OCR 從圖像辨識文字 – 完整 Java 指南](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+本完整指南說明如何使用 Aspose OCR 在 Java 中從圖像中辨識文字，提供步驟說明與最佳實踐。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

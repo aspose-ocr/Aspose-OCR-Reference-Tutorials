@@ -51,16 +51,30 @@ Java용 Aspose.OCR을 사용하면 고급 OCR 기술을 익히는 것이 그 어
 ## 고급 OCR 기술 튜토리얼
 ### [Java용 Aspose.OCR의 BufferedImage에서 OCR 수행](./perform-ocr-buffered-image/)
 Java용 Aspose.OCR을 사용하면 BufferedImage에서 OCR을 쉽게 수행할 수 있습니다. 이미지에서 텍스트를 원활하게 추출합니다. 다양한 텍스트 인식 환경을 경험하려면 지금 다운로드하세요.
+
 ### [Java용 Aspose.OCR의 URL에서 이미지에 대해 OCR 수행](./perform-ocr-image-from-url/)
 Aspose.OCR을 사용하여 Java에서 원활한 이미지 텍스트 추출을 잠금 해제합니다. 쉽게 통합할 수 있는 고정밀 OCR입니다.
+
 ### [Aspose.OCR의 특정 페이지에서 OCR 수행](./perform-ocr-on-page/)
 특정 페이지에서 OCR을 수행하는 방법에 대한 단계별 가이드를 통해 Java용 Aspose.OCR의 강력한 기능을 활용하세요. 이미지에서 쉽게 텍스트를 추출하고 Java 프로젝트를 향상하세요.
+
 ### [Aspose.OCR에서 OCR을 위한 직사각형 준비](./prepare-rectangles-for-ocr/)
 Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 효율적인 OCR 기능으로 Java 애플리케이션을 강화하세요.
+
 ### [Java용 Aspose.OCR에서 줄 인식](./recognize-lines/)
 정확한 텍스트 인식을 위해 Aspose.OCR로 Java 애플리케이션을 강화하세요. 통합이 쉽고 정확도가 높습니다.
+
 ### [Aspose.OCR에서 허용되는 문자 지정](./specify-allowed-characters/)
 Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
+
+### [Java에서 GPU 가속을 이용한 OCR 사용 방법 – 단계별 가이드](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+GPU 가속을 활용해 Java에서 OCR 성능을 크게 향상시키는 방법을 단계별로 안내합니다.
+
+### [Aspose OCR을 사용한 이미지 텍스트 인식 – 전체 Java 가이드](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+
+### [Aspose를 사용한 OCR 이미지 노이즈 감소 – 전체 Java 가이드](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Aspose OCR을 활용해 이미지 노이즈를 줄이고 텍스트 인식 정확도를 높이는 전체 Java 가이드를 확인하세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

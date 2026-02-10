@@ -45,6 +45,9 @@ Potenzia le tue applicazioni Java con Aspose.OCR per un riconoscimento preciso d
 
 Estrai facilmente il testo dalle immagini specificando i caratteri consentiti con Aspose.OCR per Java. Segui la nostra guida passo passo per un'integrazione efficiente, garantendo un'esperienza di riconoscimento del testo senza interruzioni. Migliora le tue applicazioni Java con le funzionalità Aspose.OCR.
 
+## [Come utilizzare l'OCR con accelerazione GPU in Java – Guida passo‑passo](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Scopri come accelerare l'OCR con GPU in Java per prestazioni elevate. Segui la nostra guida passo‑passo per un'integrazione rapida.
+
 ## Conclusione
 
 Con Aspose.OCR per Java, padroneggiare le tecniche OCR avanzate non è mai stato così facile. Tuffati in questi tutorial e sblocca tutto il potenziale del riconoscimento del testo nei tuoi progetti Java. Migliora le tue applicazioni con integrazione perfetta, elevata precisione e funzionalità versatili di estrazione del testo. Scaricalo ora e fai il primo passo verso l'eccellenza dell'OCR con Aspose.OCR per Java!
@@ -61,6 +64,13 @@ Sblocca la potenza del riconoscimento del testo con Aspose.OCR per Java. Segui l
 Potenzia le tue applicazioni Java con Aspose.OCR per un riconoscimento preciso del testo. Facile integrazione, alta precisione.
 ### [Specifica dei caratteri consentiti in Aspose.OCR](./specify-allowed-characters/)
 Sblocca l'estrazione del testo dalle immagini senza problemi con Aspose.OCR per Java. Segui la nostra guida passo passo per un'integrazione efficiente.
+### [Come utilizzare l'OCR con accelerazione GPU in Java – Guida passo‑passo](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Scopri come accelerare l'OCR con GPU in Java per prestazioni elevate. Segui la nostra guida passo‑passo per un'integrazione rapida.
+### [Riconoscere il testo da un'immagine con Aspose OCR – Guida Java completa](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Scopri come riconoscere il testo da un'immagine usando Aspose OCR con una guida Java completa. Estrarre testo in modo semplice e preciso.
+### [Ridurre il rumore dell'immagine nell'OCR con Aspose – Guida Java completa](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Scopri come ridurre il rumore delle immagini per migliorare l'accuratezza dell'OCR con Aspose in una guida Java completa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
