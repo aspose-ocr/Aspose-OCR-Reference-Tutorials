@@ -45,6 +45,13 @@ Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin
 
 Aspose.OCR for Java ile izin verilen karakterleri belirterek görüntülerden zahmetsizce metin çıkarın. Sorunsuz bir metin tanıma deneyimi sağlayan verimli entegrasyon için adım adım kılavuzumuzu izleyin. Aspose.OCR özellikleriyle Java uygulamalarınızı geliştirin.
 
+## [GPU'yu OCR için Etkinleştirme – Görüntülerden Hızlı Metin Çıkarma](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+
+GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
+
+### [Java'da Görüntü Ön İşleme OCR – Doğruluğu Artırın ve Metni Çıkarın](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Java'da görüntü ön işleme teknikleriyle OCR doğruluğunu artırın ve metni hızlıca çıkarın.
+
 ## Çözüm
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
@@ -61,6 +68,12 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [GPU'yu OCR için Etkinleştirme – Görüntülerden Hızlı Metin Çıkarma](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
+### [Java'da Görüntü Ön İşleme OCR – Doğruluğu Artırın ve Metni Çıkarın](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Java'da görüntü ön işleme teknikleriyle OCR doğruluğunu artırın ve metni hızlıca çıkarın.
+### [Büyük Belgelerde OCR Çalıştırma – Tam Java Kılavuzu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Büyük belgelerde yüksek doğrulukla OCR gerçekleştirin ve Java projelerinizde metin çıkarma sürecini optimize edin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

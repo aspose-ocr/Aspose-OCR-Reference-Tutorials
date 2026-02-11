@@ -99,6 +99,10 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 使用 Aspose.OCR for Java 提升 OCR 准确率。一步步学习如何计算倾斜角度，轻松改进文档处理。
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 解锁 Aspose.OCR for Java 的强大功能。通过本分步指南学习如何无缝提取图像中的文本。立即下载，实现高效文本识别。
+### [在 Java 中读取图像文本 – 完整 Aspose OCR 指南](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+完整指南，教您在 Java 中使用 Aspose OCR 从图像读取文本，涵盖设置、预处理和最佳实践。
+### [在 Java 中获取 OCR 文本 – 完整 Aspose OCR 示例](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+完整示例，演示如何在 Java 中使用 Aspose OCR 获取图像文本，涵盖设置、预处理和完整代码。
 
 ---
 
