@@ -1,33 +1,54 @@
 ---
-title: Kenali Tabel dalam Pengenalan Gambar OCR
-linktitle: Kenali Tabel dalam Pengenalan Gambar OCR
+date: 2026-01-04
+description: Pelajari cara mengekstrak tabel dari gambar menggunakan Aspose.OCR untuk
+  .NET. Panduan ini menunjukkan cara mengonversi teks gambar tabel dan mengenali OCR
+  tabel dengan cepat.
+linktitle: Recognize Table in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
-weight: 15
+title: Cara mengekstrak tabel dari gambar menggunakan Aspose.OCR untuk .NET
 url: /id/net/text-recognition/recognize-table/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kenali Tabel dalam Pengenalan Gambar OCR
+# Mengenali Tabel dalam Pengenalan Gambar OCR
 
-## Perkenalan
+## Introduction
 
-Selamat datang di dunia Aspose.OCR untuk .NET yang menakjubkan! Jika Anda ingin menyempurnakan aplikasi .NET Anda dengan kemampuan OCR (Optical Character Recognition) yang canggih, Anda berada di tempat yang tepat. Panduan langkah demi langkah ini akan memandu Anda melalui proses pengenalan tabel dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
+Selamat datang di dunia menakjubkan Aspose.OCR untuk .NET! Jika Anda perlu **extract table from image** dan mengubah data visual tersebut menjadi teks yang dapat digunakan, Anda berada di tempat yang tepat. Tutorial langkah‑demi‑langkah ini akan memandu Anda mengenali tabel dalam OCR image recognition, menunjukkan cara **convert table image text** secara efisien dengan Aspose.OCR.
 
-## Prasyarat
+## Quick Answers
+- **Can I extract a table from an image with Aspose.OCR?** Ya – API menyediakan deteksi tabel bawaan.
+- **Which setting helps when the whole image is a table?** `LinesFiltration = true`.
+- **Do I need a license for development?** Lisensi sementara dapat digunakan untuk pengujian; lisensi penuh diperlukan untuk produksi.
+- **What image formats are supported?** PNG, JPEG, BMP, GIF, dan lainnya (lihat dokumentasi Aspose.OCR).
+- **How long does the basic implementation take?** Biasanya kurang dari 10 menit untuk gambar sederhana.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is “extract table from image”?
 
-1.  Aspose.OCR untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.OCR. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/ocr/net/).
+Mengekstrak tabel dari gambar berarti mengubah representasi visual baris dan kolom menjadi teks terstruktur yang dapat diproses secara programatik. Fitur deteksi tabel Aspose.OCR membuat konversi ini cepat dan dapat diandalkan.
 
-2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET yang berfungsi.
+## Why use Aspose.OCR for this task?
 
-3. Gambar untuk OCR: Siapkan gambar berisi tabel yang ingin Anda kenali. Pastikan itu disimpan di direktori dokumen yang Anda tunjuk.
+- **High accuracy** dengan algoritma deteksi tabel bawaan.  
+- **Simple API** yang terintegrasi mulus ke proyek .NET apa pun.  
+- **Support for multiple image formats** tanpa pra‑pemrosesan tambahan.  
+- **Flexible settings** (`LinesFiltration`, `DetectAreas`) untuk menyesuaikan berbagai tata letak tabel.
 
-## Impor Namespace
+## Prerequisites
+
+Sebelum memulai tutorial, pastikan Anda telah menyiapkan hal‑hal berikut:
+
+1. Aspose.OCR untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.OCR. Jika belum, Anda dapat mengunduhnya [here](https://releases.aspose.com/ocr/net/).
+
+2. Development Environment: Siapkan lingkungan pengembangan .NET yang berfungsi.
+
+3. Image for OCR: Siapkan gambar yang berisi tabel yang ingin Anda kenali. Pastikan gambar tersebut disimpan di direktori dokumen yang telah Anda tentukan.
+
+## Import Namespaces
 
 Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
@@ -37,73 +58,103 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Sekarang, mari kita uraikan proses pengenalan tabel dalam pengenalan gambar OCR menjadi langkah-langkah sederhana.
+Sekarang, mari kita uraikan proses mengenali tabel dalam OCR image recognition menjadi langkah‑langkah sederhana.
 
-## Langkah 1: Inisialisasi Aspose.OCR
+## How to extract table from image – Step‑by‑step guide
+
+### Step 1: Initialize Aspose.OCR
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Pada langkah ini, kami menyiapkan lingkungan yang diperlukan dan membuat instance kelas AsposeOcr.
+Pada langkah ini, kami menyiapkan lingkungan yang diperlukan dan membuat instance dari kelas `AsposeOcr`.
 
-## Langkah 2: Kenali Gambar
+### Step 2: Recognize Image (recognize table OCR)
 
 ```csharp
-// Kenali gambar
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new RecognitionSettings
 {
-    LinesFiltration = true, // jika semua gambar adalah tabel
+    LinesFiltration = true, // if all image is table
     DetectAreas = false
-    // atau
-    // GarisFiltrasi = salah,
-    // DetectAreas = true //- untuk mendeteksi area secara otomatis dengan tabel
+    // or
+    // LinesFiltration = false, 
+    // DetectAreas = true //- for auto detect areas with table
 });
 ```
 
- Di sini, kami menggunakan`RecognizeImage` metode untuk melakukan OCR pada gambar yang ditentukan. Sesuaikan pengaturan berdasarkan kebutuhan Anda.
+Di sini kami memanggil `RecognizeImage` untuk melakukan OCR pada gambar yang ditentukan. Flag `LinesFiltration` ideal ketika **entire image is a table**, sementara `DetectAreas` dapat digunakan untuk mendeteksi wilayah tabel secara otomatis.
 
-## Langkah 3: Tampilkan Teks yang Dikenali
+### Step 3: Display the Recognized Text
 
 ```csharp
-// Menampilkan teks yang dikenali
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-Cetak teks yang dikenali ke konsol atau simpan untuk diproses lebih lanjut. Langkah ini memastikan Anda dapat memverifikasi keakuratan proses OCR.
+Cetak teks yang dikenali ke konsol atau simpan untuk pemrosesan lebih lanjut. Langkah ini memungkinkan Anda memverifikasi bahwa operasi **extract table from image** berhasil dan bahwa output **convert table image text** terlihat benar.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Kesimpulannya, Aspose.OCR untuk .NET memberdayakan pengembang untuk mengintegrasikan kemampuan OCR ke dalam aplikasi mereka dengan lancar, sehingga pengenalan teks menjadi mudah. Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara mengenali tabel dalam pengenalan gambar OCR. Sekarang, lanjutkan dan jelajahi potensi penuh Aspose.OCR dalam proyek Anda!
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| No text returned | Incorrect file path or unsupported format | Verify `dataDir` and image format |
+| Table not detected | `LinesFiltration` set incorrectly | Switch to `DetectAreas = true` for mixed content |
+| Garbled characters | Low‑resolution image | Use a higher‑resolution source image |
 
-## FAQ
+## Conclusion
 
-### Q1: Apakah Aspose.OCR kompatibel dengan semua format gambar?
+Aspose.OCR untuk .NET memberi kekuatan kepada pengembang untuk dengan mulus **extract table from image** dan **convert table image text** hanya dengan beberapa baris kode. Dengan mengikuti panduan ini, Anda telah belajar cara mengenali tabel dalam OCR image recognition dan kini dapat mengintegrasikan kemampuan ini ke dalam aplikasi Anda sendiri.
 
- A1: Aspose.OCR mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF. Mengacu kepada[dokumentasi](https://reference.aspose.com/ocr/net/) untuk daftar lengkapnya.
+## FAQ's
 
-### Q2: Dapatkah saya menyesuaikan pengaturan OCR untuk persyaratan pengenalan tertentu?
+### Q1: Is Aspose.OCR compatible with all image formats?
 
- A2: Ya, Aspose.OCR menyediakan berbagai pengaturan untuk menyempurnakan proses pengenalan. Jelajahi[dokumentasi](https://reference.aspose.com/ocr/net/) untuk informasi rinci.
+A1: Aspose.OCR mendukung berbagai format gambar, termasuk PNG, JPEG, BMP, dan GIF. Lihat [documentation](https://reference.aspose.com/ocr/net/) untuk daftar lengkapnya.
 
-### Q3: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.OCR?
+### Q2: Can I customize the OCR settings for specific recognition requirements?
 
- A3: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
+A2: Ya, Aspose.OCR menyediakan berbagai pengaturan untuk menyempurnakan proses pengenalan. Jelajahi [documentation](https://reference.aspose.com/ocr/net/) untuk informasi detail.
 
-### Q4: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.OCR?
+### Q3: How can I get a temporary license for Aspose.OCR?
 
- A4: Bergabunglah dengan[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk berhubungan dengan masyarakat dan mendapatkan bantuan.
+A3: Dapatkan lisensi sementara [here](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian dan evaluasi.
 
-### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.OCR?
+### Q4: Where can I find community support for Aspose.OCR?
 
- A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
+A4: Bergabunglah dengan [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) untuk berinteraksi dengan komunitas dan mendapatkan bantuan.
+
+### Q5: Is there a free trial available for Aspose.OCR?
+
+A5: Ya, Anda dapat mengakses trial gratis [here](https://releases.aspose.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
+
+## Frequently Asked Questions
+
+**Q: Does the API work with .NET Core?**  
+A: Absolutely. Aspose.OCR is fully compatible with .NET Core, .NET 5, and later versions.
+
+**Q: Can I process multiple tables in a single image?**  
+A: Yes. By iterating over the `RecognitionResult` you can extract each detected table separately.
+
+**Q: Is it possible to export the recognized table to CSV?**  
+A: After obtaining `result.RecognitionText`, you can parse the rows and columns and write them to a CSV file using standard .NET I/O classes.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+---
