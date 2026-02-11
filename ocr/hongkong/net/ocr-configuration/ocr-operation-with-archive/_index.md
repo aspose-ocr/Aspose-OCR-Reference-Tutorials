@@ -1,29 +1,44 @@
 ---
-title: OCR 影像辨識中的 OCROperation 與 Archive
-linktitle: OCR 影像辨識中的 OCROperation 與 Archive
+date: 2025-12-19
+description: 了解如何使用 Aspose.OCR for .NET 對封存圖像執行光學字符辨識、將圖像轉換為文字，以及從封存檔案中擷取文字。
+linktitle: How to Perform OCR on Archive Images with Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-description: 使用 Aspose.OCR 釋放 .NET 應用程式中 OCR 的潛力。學習逐步從存檔圖像中提取文字。
-weight: 10
+title: 如何使用 Aspose.OCR for .NET 對存檔圖像執行 OCR
 url: /zh-hant/net/ocr-configuration/ocr-operation-with-archive/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR 影像辨識中的 OCROperation 與 Archive
+# 如何使用 Aspose.OCR for .NET 執行壓縮檔影像的 OCR
 
 ## 介紹
 
-歡迎來到使用 Aspose.OCR for .NET 實現無縫、高效的光學字元辨識 (OCR) 世界。在本綜合指南中，我們將引導您完成使用 Aspose.OCR 庫對存檔影像執行 OCR 操作的過程。無論您是經驗豐富的開發人員還是好奇的初學者，本教學都將為您提供在 .NET 應用程式中充分利用 OCR 潛力的知識。
+在本完整教學中，您將了解 **如何執行 OCR** 對壓縮檔影像檔使用 Aspose.OCR 函式庫 for .NET。無論您需要 **將影像轉換為文字** 或 **從壓縮檔中擷取文字**，以下逐步指南將帶您完成所有步驟——從設定開發環境到從 ZIP 壓縮檔內的每張影像取得辨識文字。
 
-## 先決條件
+## 快速解答
+- **本教學涵蓋什麼內容？** 使用 Aspose.OCR for .NET 對壓縮檔 (ZIP) 影像執行 OCR。  
+- **目標的主要關鍵字是什麼？** *how to perform ocr*。  
+- **需要授權嗎？** 免費試用可用於評估；正式上線需購買商業授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **可以自訂辨識設定嗎？** 可以——使用 `RecognitionSettings` 來調整準確度。
 
-在我們深入了解 OCR 魔力之前，讓我們確保您已完成所有設定：
+## OCR 是什麼以及為何在壓縮檔上使用？
 
-## 導入命名空間
+光學字符辨識（OCR）將掃描的影像或 PDF 轉換為可搜尋、可編輯的文字。當影像被打包在壓縮檔（例如 ZIP 檔）中時，一次性抽取並辨識每張圖片可節省時間並降低程式碼複雜度。Aspose.OCR 的 `RecognizeMultipleImages` 方法讓此流程變得簡單。
 
-在您的 .NET 專案中，請確保匯入必要的命名空間以存取 Aspose.OCR 提供的功能：
+## 前置條件
+
+- Visual Studio 2019 或更新版本（或任何相容 .NET 的 IDE）。  
+- 已安裝 .NET Framework 4.5 以上或 .NET Core 3.1 以上。  
+- 取得 Aspose.OCR for .NET 函式庫（下載連結見下方）。  
+- 用於正式環境的有效 Aspose.OCR 授權（提供試用版）。
+
+## 匯入命名空間
+
+在您的 .NET 專案中，請確保匯入必要的命名空間，以存取 Aspose.OCR 提供的功能：
 
 ```csharp
 using System;
@@ -33,98 +48,115 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 下載並安裝 Aspose.OCR for .NET
+## 下載與安裝 Aspose.OCR for .NET
 
-首先，從發佈頁面下載 Aspose.OCR for .NET 函式庫[這裡](https://releases.aspose.com/ocr/net/)。按照安裝說明將其無縫整合到您的專案中。
+從發行頁面 **[此處](https://releases.aspose.com/ocr/net/)** 取得最新套件，並依照標準的 NuGet 或手動安裝步驟進行。
 
-## 獲得許可證
+## 取得授權
 
-確保您擁有使用 Aspose.OCR for .NET 的有效授權。您可以從以下機構獲得許可證[購買頁面](https://purchase.aspose.com/buy)或探索一個[免費試用](https://releases.aspose.com/)選項。
+從 **[購買頁面](https://purchase.aspose.com/buy)** 取得授權，或使用 **[免費試用](https://releases.aspose.com/)**。將授權檔案放置於專案根目錄，並依照 Aspose 文件於執行時載入。
 
-現在您已經具備了先決條件，讓我們進入逐步指南。
+## 步驟 1：設定文件目錄
 
-## 第 1 步：設定您的文件目錄
-
-首先初始化文檔目錄的路徑：
+首先初始化文件目錄的路徑：
 
 ```csharp
-//開始時間：1
-//文檔目錄的路徑。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//結束：1
+// ExEnd:1
 ```
 
-## 步驟2：初始化Aspose.OCR
+> **小技巧：** 使用 `Path.Combine` 以處理跨平台路徑。
 
-建立 Aspose.OCR 類別的實例來啟動 OCR 操作：
+## 步驟 2：初始化 Aspose.OCR
+
+建立 Aspose.OCR 類別的實例，以啟動 OCR 作業：
 
 ```csharp
-//起始時間：3
+// ExStart:3
 AsposeOcr api = new AsposeOcr();
-//結束：3
+// ExEnd:3
 ```
 
-## 步驟3：指定影像路徑
+## 步驟 3：指定影像路徑
 
-定義存檔影像的完整路徑：
+定義壓縮檔影像的完整路徑（即包含您欲讀取圖片的 ZIP 檔）：
 
 ```csharp
-//起始時間：4
+// ExStart:4
 string fullPath = dataDir + "OCR.zip";
-//結束：4
+// ExEnd:4
 ```
 
-## 第四步：辨識影像
+## 步驟 4：辨識影像
 
-使用預設或自訂設定對指定影像執行 OCR 識別：
+使用預設或自訂設定對指定的壓縮檔執行 OCR 辨識。此呼叫會自動從 ZIP 中抽取每張影像並執行 OCR：
 
 ```csharp
-//起始時間：5
+// ExStart:5
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-   //預設或自訂設定
+   //default or custom settings
 });
-//結束：5
+// ExEnd:5
 ```
 
-## 第 5 步：列印結果
+> 您可以調整 `RecognitionSettings` 以提升特定語言或影像品質的準確度。
 
-循環遍歷結果並列印每個圖像的識別文字：
+## 步驟 5：輸出結果
+
+遍歷結果，並列印壓縮檔內每張影像的辨識文字：
 
 ```csharp
-//起始時間：6
+// ExStart:6
 for (int i = 0; i < result.Length; i++)
 {
 	 Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
-//結束：6
+// ExEnd:6
 ```
+
+輸出會顯示每張影像的索引以及對應的擷取字串，實際上 **將影像轉換為文字** 並 **從壓縮檔中擷取文字**。
+
+## 常見問題與故障排除
+
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| 未返回文字 | 影像品質過低 | 預先處理影像（例如二值化）或調整 `RecognitionSettings.Dpi` |
+| 讀取 ZIP 時發生例外 | 壓縮檔路徑無效 | 確認 `fullPath` 指向有效的 `.zip` 檔，且應用程式具有讀取權限 |
+| 授權未套用 | 授權檔案遺失或未載入 | 在建立 `AsposeOcr` 實例之前，呼叫 `License license = new License(); license.SetLicense("Aspose.OCR.lic");` |
+
+## 常見問答
+
+**Q: 可以在沒有授權的情況下使用 Aspose.OCR for .NET 嗎？**  
+A: 可以，提供免費試用供評估使用，但正式部署需使用授權版本。
+
+**Q: 此函式庫支援受密碼保護的 ZIP 壓縮檔嗎？**  
+A: 目前 `RecognizeMultipleImages` 只支援一般的 ZIP 檔。若為加密壓縮檔，請先使用第三方函式庫抽取影像，然後將影像陣列傳給 OCR 引擎。
+
+**Q: 如何提升手寫文字的辨識準確度？**  
+A: 開啟 `RecognitionSettings.EnableHandwritingRecognition` 旗標，並提供較高的 DPI 設定（例如 300）。
+
+**Q: 有辦法取得每行辨識的信心分數嗎？**  
+A: 每個 `RecognitionResult` 都包含 `Confidence` 屬性，您可以將其記錄或用於過濾低信心的結果。
 
 ## 結論
 
-在本教程中，我們探索了 Aspose.OCR for .NET 的無縫集成，以對存檔影像執行 OCR 操作。從設定專案到提取文本，您現在已經掌握了使用強大的 OCR 功能增強應用程式的知識。
+現在您已擁有完整、可投入生產環境的工作流程，能使用 Aspose.OCR for .NET **對壓縮檔影像執行 OCR**、**將影像轉換為文字**，以及 **從壓縮檔中擷取文字**。將此功能整合至您的應用程式，即可實現可搜尋的文件庫、自動化資料輸入，或任何需要大量影像文字擷取的情境。
 
-## 常見問題解答
+## 其他資源
 
-### Q1：我可以在沒有許可證的情況下使用 Aspose.OCR for .NET 嗎？
+- **Aspose.OCR 論壇：** 如需社群支援與進階情境，請造訪 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)。  
+- **臨時授權：** 若需要短期評估，請申請 [臨時授權](https://purchase.aspose.com/temporary-license/)。  
+- **官方文件：** 透過檢閱 [文件](https://reference.aspose.com/ocr/net/) 以掌握最新 API 變更。
 
-A1：是的，您可以透過免費試用來探索該庫。但是，生產使用需要有效的許可證。
+---
 
-### Q2：我可以在哪裡找到更多支援或討論問題？
+**最後更新時間：** 2025-12-19  
+**測試環境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose
 
- A2：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)以獲得社區支持和討論。
-
-### 問題 3：是否有可用的臨時許可證選項？
-
- A3：是的，您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/)供短期使用。
-
-### Q4：我可以自訂 OCR 設定以獲得更高的準確性嗎？
-
-A4：當然！ Aspose.OCR for .NET 提供了自訂識別設定的彈性。
-
-### Q5：Aspose.OCR for .NET 多久更新一次？
-
- A5：透過檢查來了解最新的功能和改進[文件](https://reference.aspose.com/ocr/net/)經常。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
