@@ -48,7 +48,7 @@ Um ambiente licenciado remove limites de avaliação e maximiza o desempenho. Si
 
 [How to Set License for Aspose.OCR in Java](./set-license/)
 
-> **Dica profissional:** Coloque o arquivo de licença na pasta `resources` do seu projeto e carregue‑o uma única vez na inicialização da aplicação.
+> **Dica profissional:** Coloque o arquivo de licença na pasta `resources` do seu projeto e carregue‑lo uma única vez na inicialização da aplicação.
 
 ### Como calcular o ângulo de inclinação com Aspose.OCR
 Digitalizações inclinadas podem reduzir drasticamente a qualidade do OCR. Use o método embutido de cálculo de inclinação para detectar o ângulo e girar a imagem antes do reconhecimento:
@@ -103,6 +103,12 @@ Melhore a precisão do OCR com Aspose.OCR para Java. Aprenda a calcular ângulos
 
 ### [Obtendo Retângulos com Áreas de Texto no Aspose.OCR](./get-rectangles-with-text-areas/)
 Desbloqueie o poder do Aspose.OCR para Java. Aprenda como extrair texto de imagens de forma fluida neste guia passo a passo. Baixe agora para um reconhecimento de texto eficiente.
+
+### [Como Habilitar OCR em Java – Guia Passo a Passo](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Aprenda a ativar o OCR no seu projeto Java rapidamente com este tutorial detalhado passo a passo.
+
+### [Tutorial de Imagem para Texto – Extrair Texto em Tamil com Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Aprenda a extrair texto em Tamil de imagens usando Aspose OCR, passo a passo, com dicas de pré‑processamento e configuração.
 
 ---
 

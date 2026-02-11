@@ -45,6 +45,10 @@ Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhậ
 
 Dễ dàng trích xuất văn bản từ hình ảnh bằng cách chỉ định các ký tự được phép bằng Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả, đảm bảo trải nghiệm nhận dạng văn bản liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng Aspose.OCR.
 
+## [Cách bật GPU cho OCR trong Java – Nhận dạng văn bản từ hình ảnh nhanh](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+
+Tăng tốc OCR trong Java bằng cách sử dụng GPU, giúp nhận dạng văn bản từ hình ảnh nhanh hơn và hiệu quả hơn.
+
 ## Phần kết luận
 
 Với Aspose.OCR cho Java, việc thành thạo các kỹ thuật OCR nâng cao chưa bao giờ dễ dàng hơn thế. Đi sâu vào các hướng dẫn này và khám phá toàn bộ tiềm năng của tính năng nhận dạng văn bản trong các dự án Java của bạn. Nâng cao ứng dụng của bạn với khả năng tích hợp liền mạch, độ chính xác cao và khả năng trích xuất văn bản linh hoạt. Hãy tải xuống ngay bây giờ và thực hiện bước đầu tiên hướng tới sự xuất sắc của OCR với Aspose.OCR cho Java!
@@ -61,6 +65,10 @@ Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java.
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
 ### [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
+### [Cách bật GPU cho OCR trong Java – Nhận dạng văn bản từ hình ảnh nhanh](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Tăng tốc OCR trong Java bằng cách sử dụng GPU, giúp nhận dạng văn bản từ hình ảnh nhanh hơn và hiệu quả hơn.
+### [Trích xuất văn bản từ ảnh với Java – Đọc VIN từ ảnh](./extract-text-from-image-with-java-read-vin-from-photo/)
+Trích xuất mã VIN từ ảnh bằng Java, sử dụng Aspose.OCR để nhận dạng ký tự nhanh chóng và chính xác.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

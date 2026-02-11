@@ -42,25 +42,13 @@ Aspose.OCR for Java を使用して、URL からの画像に対して OCR を実
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。このチュートリアルでは、簡単な統合と高精度で線を認識する方法を説明します。 Aspose.OCR の効率性と信頼性でプロジェクトを強化します。
 
 ## [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
-
-Aspose.OCR for Java で許可された文字を指定することで、画像からテキストを簡単に抽出できます。ステップバイステップのガイドに従って効率的に統合し、シームレスなテキスト認識エクスペリエンスを確保します。 Aspose.OCR 機能を使用して Java アプリケーションを強化します。
-
-## 結論
-
-Aspose.OCR for Java を使用すると、高度な OCR テクニックを習得するのがこれまでになく簡単になります。これらのチュートリアルを学習して、Java プロジェクトにおけるテキスト認識の可能性を最大限に引き出してください。シームレスな統合、高精度、多用途のテキスト抽出機能により、アプリケーションを強化します。今すぐダウンロードして、Aspose.OCR for Java で優れた OCR への第一歩を踏み出しましょう!
-## 高度な OCR テクニックのチュートリアル
-### [Aspose.OCR for Java での BufferedImage に対する OCR の実行](./perform-ocr-buffered-image/)
-Aspose.OCR for Java を使用して、BufferedImage で OCR を簡単に実行できます。画像からテキストをシームレスに抽出します。今すぐダウンロードして、多彩なテキスト認識エクスペリエンスを体験してください。
-### [Aspose.OCR for Java で URL からの画像に対して OCR を実行する](./perform-ocr-image-from-url/)
-Aspose.OCR を使用して、Java でのシームレスな画像テキスト抽出をロック解除します。簡単に統合できる高精度 OCR。
-### [Aspose.OCR の特定のページで OCR を実行する](./perform-ocr-on-page/)
-特定のページで OCR を実行するためのステップバイステップ ガイドを使用して、Aspose.OCR for Java の機能を最大限に活用してください。画像からテキストを簡単に抽出し、Java プロジェクトを強化します。
-### [Aspose.OCR で OCR 用の長方形を準備する](./prepare-rectangles-for-ocr/)
-Aspose.OCR for Java でテキスト認識の能力を解放します。シームレスな統合については、ステップバイステップのガイドに従ってください。効率的な OCR 機能で Java アプリケーションを強化します。
-### [Aspose.OCR for Java での行の認識](./recognize-lines/)
-Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
-### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+
+### [Java で画像からテキストを抽出 – 写真から VIN を読み取る](./extract-text-from-image-with-java-read-vin-from-photo/)
+Aspose.OCR for Java を使用して、写真から車両識別番号 (VIN) を抽出し、テキスト化する手順を解説します。
+
+### [Java で GPU を有効にして OCR を実行する方法 – 画像から高速にテキストを認識](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Java アプリケーションで GPU を活用し、OCR の速度と精度を向上させる手順を解説します。画像から高速にテキストを抽出できます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
