@@ -162,15 +162,15 @@ A4: Assolutamente! Il tutorial dimostra come migliorare la correzione usando un 
 
 A5: Visita il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per supporto della community e indicazioni.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-25  
+**Testato con:** Aspose.OCR per .NET latest version  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-25  
-**Testato con:** Aspose.OCR per .NET latest version  
-**Autore:** Aspose

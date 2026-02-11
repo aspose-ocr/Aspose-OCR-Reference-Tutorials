@@ -115,15 +115,15 @@ Console.WriteLine(result.RecognitionText);
 
 Att ställa in **Threads Count** är ett enkelt men kraftfullt sätt att **förbättra OCR‑noggrannhet** och prestanda i dina .NET‑applikationer. Experimentera med olika värden, övervaka CPU‑ och minnesanvändning, och välj den konfiguration som ger dig den bästa balansen mellan hastighet och precision.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

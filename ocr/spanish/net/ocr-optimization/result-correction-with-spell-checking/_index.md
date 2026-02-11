@@ -163,15 +163,15 @@ A4: ¡Absolutamente! El tutorial muestra cómo mejorar la corrección usando un 
 
 A5: Visite el [foro de Aspose.OCR](https://forum.aspose.com/c/ocr/16) para obtener soporte de la comunidad y orientación.
 
+---
+
+**Última actualización:** 2025-12-25  
+**Probado con:** Aspose.OCR for .NET latest version  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-25  
-**Probado con:** Aspose.OCR for .NET latest version  
-**Autor:** Aspose

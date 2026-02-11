@@ -163,15 +163,15 @@ Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUs
 
 Α5: Επισκεφθείτε το [φόρουμ Aspose.OCR](https://forum.aspose.com/c/ocr/16) για υποστήριξη από την κοινότητα και οδηγίες.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-25  
+**Δοκιμή Με:** Aspose.OCR για .NET τελευταία έκδοση  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-25  
-**Δοκιμή Με:** Aspose.OCR για .NET τελευταία έκδοση  
-**Συγγραφέας:** Aspose

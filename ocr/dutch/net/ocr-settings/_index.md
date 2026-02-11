@@ -62,6 +62,25 @@ Aspose.OCR voor .NET introduceert geavanceerde OCR-mogelijkheden die niet alleen
 
 Meertalige OCR is geen uitdaging meer met Aspose.OCR voor .NET. Ontdek de magie van moeiteloos tekst extraheren in verschillende talen. Deze tutorial leidt je door het proces, waardoor taalkundige diversiteit een sterkte wordt in plaats van een obstakel in je OCR‑projecten. Verken het volledige potentieel van Aspose.OCR en til je tekstherkenningsmogelijkheden naar een hoger niveau.  
 
+## OCR Instellingen Tutorials  
+### [Resultaat Opslaan als Document in OCR Afbeeldingsherkenning](./save-result-as-document/)  
+Ontgrendel het potentieel van Aspose.OCR voor .NET. Herken eenvoudig tekst in afbeeldingen en sla resultaten op in verschillende documentformaten.  
+
+### [Aantal Threads Instellen in OCR Afbeeldingsherkenning](./set-threads-count/)  
+Ontgrendel OCR‑efficiëntie in .NET. Stel het aantal threads moeiteloos in met Aspose.OCR. Verhoog nauwkeurigheid en snelheid.  
+
+### [Drempelwaarde Instellen in OCR Afbeeldingsherkenning](./set-threshold-value/)  
+Ontdek Aspose.OCR voor .NET, een robuuste OCR‑oplossing. Stel eenvoudig aangepaste drempelwaarden in. Verbeter tekstherkenning in je applicaties.  
+
+### [Toegestane Tekens Specificeren in OCR Afbeeldingsherkenning](./specify-allowed-characters/)  
+Ontgrendel precieze OCR in .NET met Aspose.OCR. Herken moeiteloos tekst uit afbeeldingen. Download nu voor een transformatieve ontwikkelervaring.  
+
+### [Genegeerde Tekens Specificeren in OCR Afbeeldingsherkenning](./specify-ignored-characters/)  
+Ontdek geavanceerde OCR‑mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaar‑vriendelijk.  
+
+### [Werken met Verschillende Talen in OCR Afbeeldingsherkenning](./working-with-different-languages/)  
+Ontgrendel de magie van meertalige OCR met Aspose.OCR voor .NET. Extraheer moeiteloos tekst in verschillende talen.  
+
 ## Hoe tekst uit afbeeldingen te extraheren met Aspose.OCR – Overzicht van Veelvoorkomende Instellingen  
 
 Hieronder vind je een snelle referentie naar de instellingen die je in de tutorials tegenkomt:  
@@ -94,34 +113,15 @@ A: De bibliotheek kan afbeeldingen tot enkele honderden megabytes aan, maar je m
 
 ---  
 
+**Laatst bijgewerkt:** 2025-12-25  
+**Getest met:** Aspose.OCR 23.10 for .NET  
+**Auteur:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Laatst bijgewerkt:** 2025-12-25  
-**Getest met:** Aspose.OCR 23.10 for .NET  
-**Auteur:** Aspose  
-
-## OCR Instellingen Tutorials  
-### [Resultaat Opslaan als Document in OCR Afbeeldingsherkenning](./save-result-as-document/)  
-Ontgrendel het potentieel van Aspose.OCR voor .NET. Herken eenvoudig tekst in afbeeldingen en sla resultaten op in verschillende documentformaten.  
-
-### [Aantal Threads Instellen in OCR Afbeeldingsherkenning](./set-threads-count/)  
-Ontgrendel OCR‑efficiëntie in .NET. Stel het aantal threads moeiteloos in met Aspose.OCR. Verhoog nauwkeurigheid en snelheid.  
-
-### [Drempelwaarde Instellen in OCR Afbeeldingsherkenning](./set-threshold-value/)  
-Ontdek Aspose.OCR voor .NET, een robuuste OCR‑oplossing. Stel eenvoudig aangepaste drempelwaarden in. Verbeter tekstherkenning in je applicaties.  
-
-### [Toegestane Tekens Specificeren in OCR Afbeeldingsherkenning](./specify-allowed-characters/)  
-Ontgrendel precieze OCR in .NET met Aspose.OCR. Herken moeiteloos tekst uit afbeeldingen. Download nu voor een transformatieve ontwikkelervaring.  
-
-### [Genegeerde Tekens Specificeren in OCR Afbeeldingsherkenning](./specify-ignored-characters/)  
-Ontdek geavanceerde OCR‑mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaar‑vriendelijk.  
-
-### [Werken met Verschillende Talen in OCR Afbeeldingsherkenning](./working-with-different-languages/)  
-Ontgrendel de magie van meertalige OCR met Aspose.OCR voor .NET. Extraheer moeiteloos tekst in verschillende talen.  
-
----

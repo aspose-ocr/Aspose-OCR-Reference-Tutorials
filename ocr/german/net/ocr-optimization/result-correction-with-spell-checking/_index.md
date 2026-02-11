@@ -162,15 +162,15 @@ A4: Absolut! Das Tutorial zeigt, wie Sie die Korrektur mit einem benutzerdefinie
 
 A5: Besuchen Sie das [Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16) für Community‑Support und Anleitung.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR for .NET latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR for .NET latest version  
-**Author:** Aspose

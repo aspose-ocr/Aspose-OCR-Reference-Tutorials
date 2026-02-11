@@ -160,15 +160,15 @@ A4：当然可以！本教程演示了如何使用用户提供的词典来增强
 
 A5：请访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)获取社区支持和指导。
 
+---
+
+**最后更新：** 2025-12-25  
+**测试环境：** Aspose.OCR for .NET latest version  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-25  
-**测试环境：** Aspose.OCR for .NET latest version  
-**作者：** Aspose

@@ -162,15 +162,15 @@ Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUs
 
 ج5: زر [منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للحصول على دعم المجتمع والإرشاد.
 
+---
+
+**آخر تحديث:** 2025-12-25  
+**تم الاختبار مع:** Aspose.OCR for .NET أحدث إصدار  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.OCR for .NET أحدث إصدار  
-**المؤلف:** Aspose

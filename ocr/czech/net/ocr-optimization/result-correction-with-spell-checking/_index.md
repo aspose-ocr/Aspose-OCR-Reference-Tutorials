@@ -163,15 +163,15 @@ A4: Rozhodně! Tutoriál ukazuje, jak vylepšit korekci pomocí uživatelem posk
 
 A5: Navštivte [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) pro komunitní podporu a rady.
 
+---
+
+**Poslední aktualizace:** 2025-12-25  
+**Testováno s:** Aspose.OCR pro .NET latest version  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-25  
-**Testováno s:** Aspose.OCR pro .NET latest version  
-**Autor:** Aspose

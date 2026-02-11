@@ -61,6 +61,20 @@ Aspose.OCR para .NET introduz recursos avançados de OCR que são não apenas ef
 
 OCR multilíngue não é mais um desafio com Aspose.OCR para .NET. Descubra a magia de extrair texto sem esforço em diversos idiomas. Este tutorial conduz você pelo processo, transformando a diversidade linguística em um ponto forte, e não em um obstáculo, em seus projetos de OCR. Explore todo o potencial do Aspose.OCR e eleve suas capacidades de reconhecimento de texto.  
 
+## Tutoriais de Configurações de OCR  
+### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
+Desbloqueie o potencial do Aspose.OCR para .NET. Reconheça texto em imagens e salve os resultados em vários formatos de documento.  
+### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
+Desbloqueie a eficiência do OCR em .NET. Defina a contagem de threads sem esforço com Aspose.OCR. Aumente a precisão e a velocidade.  
+### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
+Explore o Aspose.OCR para .NET, uma solução robusta de OCR. Defina valores de limiar personalizados facilmente. Melhore o reconhecimento de texto em suas aplicações.  
+### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
+Desbloqueie OCR preciso em .NET com Aspose.OCR. Reconheça texto de imagens sem esforço. Baixe agora para uma experiência de desenvolvimento transformadora.  
+### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
+Explore recursos avançados de OCR com Aspose.OCR para .NET. Eficiente, preciso e amigável ao desenvolvedor.  
+### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
+Desbloqueie a magia do OCR multilíngue com Aspose.OCR para .NET. Extraia texto sem esforço em diversos idiomas.
+
 ## Como extrair imagens de texto usando Aspose.OCR – Visão Geral das Configurações Comuns  
 
 Abaixo está uma referência rápida das configurações que você encontrará nos tutoriais:  
@@ -93,27 +107,13 @@ A: A biblioteca lida com imagens de até várias centenas de megabytes, mas pode
 
 ---  
 
+**Última atualização:** 2025-12-25  
+**Testado com:** Aspose.OCR 23.10 para .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Última atualização:** 2025-12-25  
-**Testado com:** Aspose.OCR 23.10 para .NET  
-**Autor:** Aspose  
-
-## Tutoriais de Configurações de OCR  
-### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
-Desbloqueie o potencial do Aspose.OCR para .NET. Reconheça texto em imagens e salve os resultados em vários formatos de documento.  
-### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
-Desbloqueie a eficiência do OCR em .NET. Defina a contagem de threads sem esforço com Aspose.OCR. Aumente a precisão e a velocidade.  
-### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
-Explore o Aspose.OCR para .NET, uma solução robusta de OCR. Defina valores de limiar personalizados facilmente. Melhore o reconhecimento de texto em suas aplicações.  
-### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
-Desbloqueie OCR preciso em .NET com Aspose.OCR. Reconheça texto de imagens sem esforço. Baixe agora para uma experiência de desenvolvimento transformadora.  
-### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
-Explore recursos avançados de OCR com Aspose.OCR para .NET. Eficiente, preciso e amigável ao desenvolvedor.  
-### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
-Desbloqueie a magia do OCR multilíngue com Aspose.OCR para .NET. Extraia texto sem esforço em diversos idiomas.

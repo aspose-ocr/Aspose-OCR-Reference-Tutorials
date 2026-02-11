@@ -119,13 +119,6 @@ Console.WriteLine(result.RecognitionText);
 
 設定 **執行緒數量** 是在您的 .NET 應用程式中 **提升 OCR 準確度** 與效能的簡單且強大方法。嘗試不同的數值，監控 CPU 與記憶體使用情況，選擇能在速度與精確度之間取得最佳平衡的配置。
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ---
 
 **最後更新：** 2025-12-25  
@@ -133,3 +126,10 @@ Console.WriteLine(result.RecognitionText);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}

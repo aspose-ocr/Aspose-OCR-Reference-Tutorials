@@ -163,15 +163,15 @@ A4: Absolut! Handledningen visar hur du förbättrar korrigeringen med en använ
 
 A5: Besök [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) för community‑support och vägledning.
 
+---
+
+**Senast uppdaterad:** 2025-12-25  
+**Testad med:** Aspose.OCR för .NET senaste version  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-25  
-**Testad med:** Aspose.OCR för .NET senaste version  
-**Författare:** Aspose

@@ -61,6 +61,20 @@ Aspose.OCR for .NET memperkenalkan kemampuan OCR lanjutan yang tidak hanya efisi
 
 OCR multibahasa tidak lagi menjadi tantangan dengan Aspose.OCR for .NET. Temukan keajaiban mengekstrak teks dengan mudah dalam berbagai bahasa. Tutorial ini membimbing Anda melalui prosesnya, menjadikan keragaman bahasa sebagai kekuatan bukan hambatan dalam proyek OCR Anda. Jelajahi potensi penuh Aspose.OCR dan tingkatkan kemampuan pengenalan teks Anda.  
 
+## Tutorial Pengaturan OCR  
+### [Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR](./save-result-as-document/)  
+Manfaatkan potensi Aspose.OCR untuk .NET. Dengan mudah mengenali teks dalam gambar dan menyimpan hasil dalam berbagai format dokumen.  
+### [Atur Jumlah Thread dalam Pengenalan Gambar OCR](./set-threads-count/)  
+Meningkatkan efisiensi OCR di .NET. Atur jumlah thread dengan mudah menggunakan Aspose.OCR. Tingkatkan akurasi dan kecepatan.  
+### [Atur Nilai Ambang dalam Pengenalan Gambar OCR](./set-threshold-value/)  
+Jelajahi Aspose.OCR untuk .NET, solusi OCR yang kuat. Atur nilai ambang khusus dengan mudah. Tingkatkan pengenalan teks dalam aplikasi Anda.  
+### [Tentukan Karakter yang Diizinkan dalam Pengenalan Gambar OCR](./specify-allowed-characters/)  
+Membuka OCR yang presisi di .NET dengan Aspose.OCR. Mengenali teks dari gambar dengan mudah. Unduh sekarang untuk pengalaman pengembangan yang transformatif.  
+### [Tentukan Karakter yang Diabaikan dalam Pengenalan Gambar OCR](./specify-ignored-characters/)  
+Jelajahi kemampuan OCR lanjutan dengan Aspose.OCR untuk .NET. Efisien, akurat, dan ramah pengembang.  
+### [Bekerja dengan Berbagai Bahasa dalam Pengenalan Gambar OCR](./working-with-different-languages/)  
+Manfaatkan keajaiban OCR multibahasa dengan Aspose.OCR untuk .NET. Mengekstrak teks dengan mudah dalam berbagai bahasa.  
+
 ## Cara mengekstrak gambar teks menggunakan Aspose.OCR – Ikhtisar Pengaturan Umum  
 
 Berikut adalah referensi cepat untuk pengaturan yang akan Anda temui di seluruh tutorial:  
@@ -93,29 +107,15 @@ A: Perpustakaan dapat menangani gambar hingga beberapa ratus megabyte, tetapi An
 
 ---  
 
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR 23.10 for .NET  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR 23.10 for .NET  
-**Author:** Aspose  
-
-## Tutorial Pengaturan OCR  
-### [Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR](./save-result-as-document/)  
-Manfaatkan potensi Aspose.OCR untuk .NET. Dengan mudah mengenali teks dalam gambar dan menyimpan hasil dalam berbagai format dokumen.  
-### [Atur Jumlah Thread dalam Pengenalan Gambar OCR](./set-threads-count/)  
-Meningkatkan efisiensi OCR di .NET. Atur jumlah thread dengan mudah menggunakan Aspose.OCR. Tingkatkan akurasi dan kecepatan.  
-### [Atur Nilai Ambang dalam Pengenalan Gambar OCR](./set-threshold-value/)  
-Jelajahi Aspose.OCR untuk .NET, solusi OCR yang kuat. Atur nilai ambang khusus dengan mudah. Tingkatkan pengenalan teks dalam aplikasi Anda.  
-### [Tentukan Karakter yang Diizinkan dalam Pengenalan Gambar OCR](./specify-allowed-characters/)  
-Membuka OCR yang presisi di .NET dengan Aspose.OCR. Mengenali teks dari gambar dengan mudah. Unduh sekarang untuk pengalaman pengembangan yang transformatif.  
-### [Tentukan Karakter yang Diabaikan dalam Pengenalan Gambar OCR](./specify-ignored-characters/)  
-Jelajahi kemampuan OCR lanjutan dengan Aspose.OCR untuk .NET. Efisien, akurat, dan ramah pengembang.  
-### [Bekerja dengan Berbagai Bahasa dalam Pengenalan Gambar OCR](./working-with-different-languages/)  
-Manfaatkan keajaiban OCR multibahasa dengan Aspose.OCR untuk .NET. Mengekstrak teks dengan mudah dalam berbagai bahasa.  
-
----

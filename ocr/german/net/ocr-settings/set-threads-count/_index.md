@@ -116,13 +116,6 @@ Console.WriteLine(result.RecognitionText);
 
 Das Setzen der **Threads‑Anzahl** ist ein einfacher, aber wirkungsvoller Weg, um die **OCR‑Genauigkeit** und Leistung in Ihren .NET‑Anwendungen zu verbessern. Experimentieren Sie mit verschiedenen Werten, überwachen Sie CPU‑ und Speichernutzung und wählen Sie die Konfiguration, die das beste Gleichgewicht zwischen Geschwindigkeit und Präzision bietet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-25  
@@ -130,3 +123,10 @@ Das Setzen der **Threads‑Anzahl** ist ein einfacher, aber wirkungsvoller Weg, 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

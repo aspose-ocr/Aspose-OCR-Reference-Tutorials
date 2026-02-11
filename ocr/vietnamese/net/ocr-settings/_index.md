@@ -62,6 +62,20 @@ Aspose.OCR cho .NET giới thiệu các khả năng OCR tiên tiến, không ch�
 
 OCR đa ngôn ngữ không còn là thách thức với Aspose.OCR cho .NET. Khám phá phép màu của việc trích xuất văn bản một cách dễ dàng trong nhiều ngôn ngữ. Hướng dẫn này dẫn bạn qua quy trình, biến sự đa dạng ngôn ngữ thành lợi thế thay vì rào cản trong các dự án OCR. Khám phá tiềm năng đầy đủ của Aspose.OCR và nâng cao khả năng nhận dạng văn bản của bạn.  
 
+## Các Hướng dẫn Cài đặt OCR  
+### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
+Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng nhận dạng văn bản trong hình ảnh và lưu kết quả ở nhiều định dạng tài liệu.  
+### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
+Tối ưu hoá hiệu suất OCR trong .NET. Đặt số lượng luồng một cách dễ dàng với Aspose.OCR. Tăng độ chính xác và tốc độ.  
+### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
+Khám phá Aspose.OCR cho .NET – một giải pháp OCR mạnh mẽ. Đặt giá trị ngưỡng tùy chỉnh một cách dễ dàng. Nâng cao nhận dạng văn bản trong các ứng dụng của bạn.  
+### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
+Mở khóa OCR chính xác trong .NET với Aspose.OCR. Nhận dạng văn bản từ hình ảnh một cách dễ dàng. Tải ngay để trải nghiệm phát triển biến đổi.  
+### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
+Khám phá các khả năng OCR tiên tiến với Aspose.OCR cho .NET. Hiệu quả, chính xác và thân thiện với nhà phát triển.  
+### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
+Mở khóa phép màu của OCR đa ngôn ngữ với Aspose.OCR cho .NET. Trích xuất văn bản một cách dễ dàng trong nhiều ngôn ngữ.
+
 ## Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR – Tổng quan các Cài đặt Thông thường  
 
 Dưới đây là bảng tham khảo nhanh các cài đặt bạn sẽ gặp trong các hướng dẫn:  
@@ -92,6 +106,12 @@ Dưới đây là bảng tham khảo nhanh các cài đặt bạn sẽ gặp tro
 **H: Có giới hạn kích thước nào cho ảnh tôi có thể xử lý không?**  
 Đ: Thư viện hỗ trợ ảnh lên tới vài trăm megabyte, nhưng bạn có thể cần điều chỉnh số lượng luồng và cài đặt bộ nhớ cho các tệp rất lớn.  
 
+---
+
+**Cập nhật lần cuối:** 2025-12-25  
+**Kiểm tra với:** Aspose.OCR 23.10 cho .NET  
+**Tác giả:** Aspose  
+
 ---  
 
 {{< /blocks/products/pf/tutorial-page-section >}}  
@@ -100,21 +120,3 @@ Dưới đây là bảng tham khảo nhanh các cài đặt bạn sẽ gặp tro
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Cập nhật lần cuối:** 2025-12-25  
-**Kiểm tra với:** Aspose.OCR 23.10 cho .NET  
-**Tác giả:** Aspose  
-
-## Các Hướng dẫn Cài đặt OCR  
-### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
-Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng nhận dạng văn bản trong hình ảnh và lưu kết quả ở nhiều định dạng tài liệu.  
-### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
-Tối ưu hoá hiệu suất OCR trong .NET. Đặt số lượng luồng một cách dễ dàng với Aspose.OCR. Tăng độ chính xác và tốc độ.  
-### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
-Khám phá Aspose.OCR cho .NET – một giải pháp OCR mạnh mẽ. Đặt giá trị ngưỡng tùy chỉnh một cách dễ dàng. Nâng cao nhận dạng văn bản trong các ứng dụng của bạn.  
-### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
-Mở khóa OCR chính xác trong .NET với Aspose.OCR. Nhận dạng văn bản từ hình ảnh một cách dễ dàng. Tải ngay để trải nghiệm phát triển biến đổi.  
-### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
-Khám phá các khả năng OCR tiên tiến với Aspose.OCR cho .NET. Hiệu quả, chính xác và thân thiện với nhà phát triển.  
-### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
-Mở khóa phép màu của OCR đa ngôn ngữ với Aspose.OCR cho .NET. Trích xuất văn bản một cách dễ dàng trong nhiều ngôn ngữ.

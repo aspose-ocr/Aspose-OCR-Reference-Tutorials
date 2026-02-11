@@ -61,6 +61,20 @@ weight: 26
 
 لم يعد OCR متعدد اللغات تحديًا مع Aspose.OCR لـ .NET. اكتشف سحر استخراج النص بسهولة في لغات متعددة. يمرّك هذا الدليل عبر العملية، محولًا تنوع اللغات إلى قوة بدلاً من عائق في مشاريع OCR الخاصة بك. استكشف الإمكانات الكاملة لـ Aspose.OCR وارتق بقدرات التعرف على النص.  
 
+## دروس إعدادات OCR  
+### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
+اكتشف إمكانات Aspose.OCR لـ .NET. تعرف بسهولة على النص في الصور واحفظ النتائج بصيغ مستندات مختلفة.  
+### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
+افتح كفاءة OCR في .NET. اضبط عدد الخيوط بسهولة باستخدام Aspose.OCR. عزّز الدقة والسرعة.  
+### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
+استكشف Aspose.OCR لـ .NET كحل OCR قوي. اضبط قيم العتبة المخصصة بسهولة. حسّن التعرف على النص في تطبيقاتك.  
+### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
+افتح OCR دقيق في .NET مع Aspose.OCR. تعرف على النص من الصور بسهولة. حمّل الآن لتجربة تطوير تحويلية.  
+### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
+استكشف قدرات OCR المتقدمة مع Aspose.OCR لـ .NET. فعال، دقيق، وصديق للمطور.  
+### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
+اكتشف سحر OCR متعدد اللغات مع Aspose.OCR لـ .NET. استخراج النص بسهولة في لغات متعددة.
+
 ## كيفية استخراج النص من الصور باستخدام Aspose.OCR – نظرة عامة على الإعدادات الشائعة  
 
 فيما يلي مرجع سريع للإعدادات التي ستصادفها عبر الدروس:  
@@ -93,27 +107,13 @@ weight: 26
 
 ---  
 
+**آخر تحديث:** 2025-12-25  
+**تم الاختبار مع:** Aspose.OCR 23.10 لـ .NET  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**آخر تحديث:** 2025-12-25  
-**تم الاختبار مع:** Aspose.OCR 23.10 لـ .NET  
-**المؤلف:** Aspose  
-
-## دروس إعدادات OCR  
-### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
-اكتشف إمكانات Aspose.OCR لـ .NET. تعرف بسهولة على النص في الصور واحفظ النتائج بصيغ مستندات مختلفة.  
-### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
-افتح كفاءة OCR في .NET. اضبط عدد الخيوط بسهولة باستخدام Aspose.OCR. عزّز الدقة والسرعة.  
-### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
-استكشف Aspose.OCR لـ .NET كحل OCR قوي. اضبط قيم العتبة المخصصة بسهولة. حسّن التعرف على النص في تطبيقاتك.  
-### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
-افتح OCR دقيق في .NET مع Aspose.OCR. تعرف على النص من الصور بسهولة. حمّل الآن لتجربة تطوير تحويلية.  
-### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
-استكشف قدرات OCR المتقدمة مع Aspose.OCR لـ .NET. فعال، دقيق، وصديق للمطور.  
-### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
-اكتشف سحر OCR متعدد اللغات مع Aspose.OCR لـ .NET. استخراج النص بسهولة في لغات متعددة.

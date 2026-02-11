@@ -163,15 +163,15 @@ Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUs
 
 **A5:** Látogassa meg az [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) oldalt a közösségi támogatás és útmutatás érdekében.
 
+---
+
+**Utolsó frissítés:** 2025-12-25  
+**Tesztelve a következővel:** Aspose.OCR for .NET latest version  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-25  
-**Tesztelve a következővel:** Aspose.OCR for .NET latest version  
-**Szerző:** Aspose

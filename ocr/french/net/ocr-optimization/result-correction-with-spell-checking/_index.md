@@ -20,31 +20,31 @@ weight: 13
 
 ## Introduction
 
-Lorsque vous travaillez avec la Reconnaissance Optique de Caractères (OCR), l'objectif ultime est d'**améliorer la précision de l'OCR** afin que le texte extrait corresponde parfaitement à l'image d'origine. Les mots mal orthographiés sont une source fréquente d'erreurs, surtout lorsque l'image source est bruitée ou contient des polices inhabituelles. Aspose.OCR for .NET propose des fonctionnalités de vérification orthographique intégrées qui non seulement corrigent ces erreurs mais vous permettent également d'étendre le moteur avec des dictionnaires personnalisés. Dans ce tutoriel, vous apprendrez comment utiliser la vérification orthographique pour améliorer les résultats de l'OCR, voir le résultat avant‑et‑après, et découvrir comment adapter le processus de correction à vos besoins linguistiques spécifiques.
+Lorsque vous travaillez avec la Reconnaissance Optique de Caractères (OCR), l'objectif ultime est d'**améliorer la précision de l'OCR** ​​afin que le texte extrait corresponde parfaitement à l'image d'origine. Les mots mal orthographiés sont une source fréquente d'erreurs, surtout lorsque l'image source est bruitée ou contient des polices inhabituelles. Aspose.OCR for .NET propose des fonctionnalités de vérification orthographique intégrées qui non seulement corrigent ces erreurs mais vous permettent également d'étendre le moteur avec des dictionnaires personnalisés. Dans ce tutoriel, vous apprendrez comment utiliser la vérification orthographique pour améliorer les résultats de l'OCR, voir le résultat avant‑et‑après, et découvrir comment adapter le processus de correction à vos besoins linguistiques spécifiques.
 
-## Quick Answers
-- **Que fait la vérification orthographique pour l'OCR ?** Elle détecte automatiquement les mots mal orthographiés dans la sortie OCR et les remplace par les alternatives les plus probables.  
-- **Quelle bibliothèque fournit cette fonctionnalité ?** Aspose.OCR for .NET inclut une API de vérification orthographique prête à l'emploi.  
-- **Ai‑je besoin d'une connexion Internet ?** Non, le moteur de vérification orthographique fonctionne entièrement hors ligne.  
-- **Puis‑je ajouter ma propre terminologie ?** Oui, vous pouvez fournir un dictionnaire utilisateur personnalisé pour gérer les mots spécifiques à un domaine.  
+## Réponses rapides
+- **Que fait la vérification orthographique pour l'OCR ?** Elle détecte automatiquement les mots mal orthographiés dans la sortie OCR et les remplace par les alternatives les plus probables.
+- **Quelle bibliothèque fournit cette fonctionnalité ?** Aspose.OCR for .NET inclut une API de vérification orthographique prête à l'emploi.
+- **Ai‑je besoin d'une connexion Internet ?** Non, le moteur de vérification orthographique fonctionne entièrement hors ligne.
+- **Puis‑je ajouter ma propre terminologie ?** Oui, vous pouvez fournir un dictionnaire utilisateur personnalisé pour gérer les mots spécifiques à un domaine.
 - **Quelles langues sont prises en charge ?** Voir la section « aspose ocr language support » pour plus de détails.
 
-## What is Spell Checking in OCR?
+## Qu'est-ce que la vérification orthographique dans l'OCR ?
 
-La vérification orthographique examine le texte brut renvoyé par le moteur OCR, identifie les jetons qui ne correspondent pas aux mots connus du dictionnaire de la langue sélectionnée, et suggère ou applique des corrections. Cette étape est essentielle pour **améliorer la précision de l'OCR**, en particulier lors du traitement de documents numérisés, de reçus ou de formulaires où l'OCR peut mal interpréter les caractères.
+La vérification orthographique examine le texte brut renvoyé par le moteur OCR, identifie les jetons qui ne correspondent pas aux mots connus du dictionnaire de la langue sélectionnée, et suggère ou applique des corrections. Cette étape est essentielle pour **améliorer la précision de l'OCR**, en particulier lors du traitement des documents numérisés, de reçus ou de formulaires où l'OCR peut mal interpréter les caractères.
 
-## Why Use Aspose OCR Language Support?
+## Pourquoi utiliser la prise en charge du langage Aspose OCR ?
 
-Aspose.OCR est fourni avec des packs de langues étendus et vous permet d'ajouter des dictionnaires supplémentaires. Exploiter **aspose ocr language support** signifie que vous pouvez gérer des documents multilingues sans écrire de parseurs personnalisés, et vous bénéficiez de règles spécifiques à chaque langue qui améliorent davantage la qualité de reconnaissance.
+Aspose.OCR est fourni avec des packs de langues étendues et vous permet d'ajouter des dictionnaires supplémentaires. Exploiter **aspose ocr language support** signifie que vous pouvez gérer des documents multilingues sans écrire de parseurs personnalisés, et vous bénéficiez de règles spécifiques à chaque langue qui améliorent davantage la qualité de reconnaissance.
 
-## Prerequisites
+## Prérequis
 
-Avant de plonger dans la magie de la vérification orthographique, assurez-vous que les prérequis suivants sont en place :
+Avant de Sous-marin dans la magie de la vérification orthographique, assurez-vous que les prérequis suivants sont en place :
 
 - Bibliothèque Aspose.OCR pour .NET : Téléchargez et installez la bibliothèque Aspose.OCR depuis la [page de diffusion](https://releases.aspose.com/ocr/net/).
 - Répertoire de documents : Assurez-vous de disposer d'un répertoire désigné pour vos documents. Remplacez `"Your Document Directory"` dans les extraits de code par le chemin réel.
 
-## Import Namespaces
+## Importer des espaces de noms
 
 Commençons par importer les espaces de noms nécessaires dans votre projet .NET :
 
@@ -54,7 +54,7 @@ using Aspose.OCR.SpellChecker;
 using System.Collections.Generic;
 ```
 
-## Step 1: Initialize Aspose.OCR
+## Étape 1 : Initialiser Aspose.OCR
 
 Initialisez une instance d'Aspose.OCR pour lancer le processus OCR.
 
@@ -66,7 +66,7 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Step 2: Recognize Image
+## Étape 2 : Reconnaître l'image
 
 Ensuite, reconnaissez le texte d'une image à l'aide d'Aspose.OCR. Voici un extrait illustrant ce processus :
 
@@ -75,7 +75,7 @@ Ensuite, reconnaissez le texte d'une image à l'aide d'Aspose.OCR. Voici un extr
 RecognitionResult result = api.RecognizeImage(dataDir + "sample_bad.png", new RecognitionSettings(Language.Eng));
 ```
 
-## Step 3: Before Correction
+## Étape 3 : Avant la correction
 
 Récupérez le résultat OCR avant correction afin de le comparer avec la version corrigée.
 
@@ -84,7 +84,7 @@ Récupérez le résultat OCR avant correction afin de le comparer avec la versio
 Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 ```
 
-## Step 4: After Correction
+## Étape 4 : Après correction
 
 Appliquez la vérification orthographique pour obtenir le résultat corrigé. L'extrait de code suivant illustre cette étape :
 
@@ -94,7 +94,7 @@ string correctedResult = result.GetSpellCheckCorrectedText(SpellCheckLanguage.En
 Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 ```
 
-## Step 5: Misspelled Words and Suggestions
+## Étape 5 : Mots mal orthographiés et suggestions
 
 Obtenez une liste de mots mal orthographiés ainsi que les corrections suggérées à l'aide du code suivant :
 
@@ -115,7 +115,7 @@ foreach (var word in errorsList)
 }
 ```
 
-## Step 6: Correct User Text
+## Étape 6 : Corriger le texte de l'utilisateur
 
 Corrigez un texte fourni par l'utilisateur en utilisant la bibliothèque Aspose.OCR :
 
@@ -124,7 +124,7 @@ Corrigez un texte fourni par l'utilisateur en utilisant la bibliothèque Aspose.
 Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 ```
 
-## Step 7: Correction with User Dictionary
+## Étape 7 : Correction avec le dictionnaire utilisateur
 
 Améliorez davantage la correction en incorporant un dictionnaire utilisateur personnalisé :
 
@@ -134,15 +134,15 @@ string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLan
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
 | Problème | Pourquoi cela se produit | Comment résoudre |
-|----------|--------------------------|-------------------|
+|----------|----------------|-------------------|
 | Aucune suggestion renvoyée | Le pack de langue n'est pas chargé ou le texte est trop court. | Assurez-vous que `RecognitionSettings(Language.Eng)` correspond à la langue de l'image source et que le résultat OCR contient suffisamment de caractères. |
-| Dictionnaire personnalisé non appliqué | Chemin ou format de fichier incorrect. | Vérifiez que `dictionary.txt` existe à l'emplacement spécifié et utilise un mot par ligne. |
-| Le vérificateur orthographique ralentit les gros documents | Le traitement de chaque mot individuellement ajoute une surcharge. | Traitez les pages par lots ou augmentez l'allocation de mémoire si vous exécutez sur .NET Core. |
+| Dictionnaire personnalisé non appliqué | Chemin ou format de fichier incorrect. | Vérifiez que `dictionary.txt` existe à l'emplacement spécifié et utilisez un mot par ligne. |
+| Le vérificateur orthographique ralentit les gros documents | Le traitement de chaque mot ajoute individuellement une surtaxe. | Traitez les pages par lots ou augmentez l'allocation de mémoire si vous exécutez sur .NET Core. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 ### Q1 : Puis‑je utiliser Aspose.OCR pour des langues autres que l'anglais ?
 
@@ -164,15 +164,15 @@ R4 : Absolument ! Le tutoriel montre comment améliorer la correction en utilisa
 
 R5 : Visitez le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour le support communautaire et des conseils.
 
+---
+
+**Dernière mise à jour :** 2025-12-25
+**Testé avec :** Dernière version d'Aspose.OCR pour .NET
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-25  
-**Testé avec :** Aspose.OCR for .NET latest version  
-**Auteur :** Aspose

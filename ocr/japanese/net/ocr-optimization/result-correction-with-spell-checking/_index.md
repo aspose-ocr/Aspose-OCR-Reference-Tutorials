@@ -160,15 +160,15 @@ A4: もちろんです！本チュートリアルでは、ユーザー提供辞�
 
 A5: コミュニティサポートとガイダンスは [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) でご利用ください。
 
+---
+
+**最終更新日:** 2025-12-25  
+**テスト環境:** Aspose.OCR for .NET latest version  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-25  
-**テスト環境:** Aspose.OCR for .NET latest version  
-**作者:** Aspose

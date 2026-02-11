@@ -61,6 +61,20 @@ Aspose.OCR für .NET führt fortschrittliche OCR‑Funktionen ein, die nicht nur
 
 Mehrsprachige OCR ist mit Aspose.OCR für .NET kein Problem mehr. Entdecken Sie das Potenzial, Text mühelos in verschiedenen Sprachen zu extrahieren. Dieses Tutorial führt Sie durch den Prozess und macht sprachliche Vielfalt zu einer Stärke statt zu einem Hindernis in Ihren OCR‑Projekten. Erkunden Sie das volle Potenzial von Aspose.OCR und steigern Sie Ihre Texterkennungsfähigkeiten.  
 
+## OCR‑Einstellungen‑Tutorials  
+### [Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-result-as-document/)  
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Erkennen Sie Text in Bildern mühelos und speichern Sie die Ergebnisse in verschiedenen Dokumentformaten.  
+### [Thread‑Anzahl festlegen in OCR-Bilderkennung](./set-threads-count/)  
+Steigern Sie die OCR‑Effizienz in .NET. Legen Sie die Thread‑Anzahl mühelos mit Aspose.OCR fest. Verbessern Sie Genauigkeit und Geschwindigkeit.  
+### [Schwellenwert festlegen in OCR-Bilderkennung](./set-threshold-value/)  
+Entdecken Sie Aspose.OCR für .NET, eine robuste OCR‑Lösung. Setzen Sie benutzerdefinierte Schwellenwerte mühelos. Verbessern Sie die Texterkennung in Ihren Anwendungen.  
+### [Erlaubte Zeichen festlegen in OCR-Bilderkennung](./specify-allowed-characters/)  
+Erreichen Sie präzise OCR in .NET mit Aspose.OCR. Erkennen Sie Text aus Bildern mühelos. Laden Sie jetzt herunter für ein transformatives Entwicklungserlebnis.  
+### [Ignorierte Zeichen festlegen in OCR-Bilderkennung](./specify-ignored-characters/)  
+Erkunden Sie fortschrittliche OCR‑Funktionen mit Aspose.OCR für .NET. Effizient, genau und entwicklerfreundlich.  
+### [Arbeiten mit verschiedenen Sprachen in OCR-Bilderkennung](./working-with-different-languages/)  
+Entfesseln Sie die Magie der mehrsprachigen OCR mit Aspose.OCR für .NET. Extrahieren Sie Text mühelos in verschiedenen Sprachen.
+
 ## Wie man Text aus Bildern mit Aspose.OCR extrahiert – Übersicht über gängige Einstellungen  
 
 Nachfolgend finden Sie eine schnelle Referenz zu den Einstellungen, die Sie in den Tutorials begegnen:  
@@ -93,27 +107,13 @@ A: Die Bibliothek verarbeitet Bilder bis zu mehreren hundert Megabyte, jedoch m�
 
 ---  
 
+**Zuletzt aktualisiert:** 2025-12-25  
+**Getestet mit:** Aspose.OCR 23.10 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Zuletzt aktualisiert:** 2025-12-25  
-**Getestet mit:** Aspose.OCR 23.10 für .NET  
-**Autor:** Aspose  
-
-## OCR‑Einstellungen‑Tutorials  
-### [Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-result-as-document/)  
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Erkennen Sie Text in Bildern mühelos und speichern Sie die Ergebnisse in verschiedenen Dokumentformaten.  
-### [Thread‑Anzahl festlegen in OCR-Bilderkennung](./set-threads-count/)  
-Steigern Sie die OCR‑Effizienz in .NET. Legen Sie die Thread‑Anzahl mühelos mit Aspose.OCR fest. Verbessern Sie Genauigkeit und Geschwindigkeit.  
-### [Schwellenwert festlegen in OCR-Bilderkennung](./set-threshold-value/)  
-Entdecken Sie Aspose.OCR für .NET, eine robuste OCR‑Lösung. Setzen Sie benutzerdefinierte Schwellenwerte mühelos. Verbessern Sie die Texterkennung in Ihren Anwendungen.  
-### [Erlaubte Zeichen festlegen in OCR-Bilderkennung](./specify-allowed-characters/)  
-Erreichen Sie präzise OCR in .NET mit Aspose.OCR. Erkennen Sie Text aus Bildern mühelos. Laden Sie jetzt herunter für ein transformatives Entwicklungserlebnis.  
-### [Ignorierte Zeichen festlegen in OCR-Bilderkennung](./specify-ignored-characters/)  
-Erkunden Sie fortschrittliche OCR‑Funktionen mit Aspose.OCR für .NET. Effizient, genau und entwicklerfreundlich.  
-### [Arbeiten mit verschiedenen Sprachen in OCR-Bilderkennung](./working-with-different-languages/)  
-Entfesseln Sie die Magie der mehrsprachigen OCR mit Aspose.OCR für .NET. Extrahieren Sie Text mühelos in verschiedenen Sprachen.

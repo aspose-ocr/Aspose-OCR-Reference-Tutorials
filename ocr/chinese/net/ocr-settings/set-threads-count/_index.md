@@ -114,13 +114,6 @@ Console.WriteLine(result.RecognitionText);
 
 设置 **线程数** 是在 .NET 应用中 **提升 OCR 准确率** 与性能的简便而强大的方法。尝试不同的数值，监控 CPU 与内存使用情况，选择最能兼顾速度与精度的配置。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-25  
@@ -128,3 +121,10 @@ Console.WriteLine(result.RecognitionText);
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

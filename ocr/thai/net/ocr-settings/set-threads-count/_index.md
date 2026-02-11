@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 การตั้งค่า **Threads Count** เป็นวิธีที่ง่ายแต่ทรงพลังในการ **ปรับปรุงความแม่นยำของ OCR** และประสิทธิภาพในแอปพลิเคชัน .NET ของคุณ ทดลองค่าต่าง ๆ ตรวจสอบการใช้ CPU และหน่วยความจำ แล้วเลือกการกำหนดค่าที่ให้สมดุลที่ดีที่สุดระหว่างความเร็วและความแม่นยำ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-25  
@@ -129,3 +122,10 @@ Console.WriteLine(result.RecognitionText);
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

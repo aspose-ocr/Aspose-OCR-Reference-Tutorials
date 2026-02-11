@@ -62,6 +62,20 @@ Az Aspose.OCR for .NET fejlett OCR képességeket mutat be, amelyek nemcsak hat�
 
 A többnyelvű OCR már nem jelent kihívást az Aspose.OCR for .NET használatával. Fedezze fel a szöveg könnyed kinyerésének varázsát különböző nyelveken. Ez az oktatóanyag végigvezeti a folyamaton, a nyelvi sokszínűséget erőssé téve, nem pedig akadályként az OCR projektjeiben. Fedezze fel az Aspose.OCR teljes potenciálját, és emelje fel a szövegfelismerési képességeit.  
 
+## OCR beállítási oktatóanyagok  
+### [Eredmény mentése dokumentumként az OCR képfelismerésben](./save-result-as-document/)  
+Az Aspose.OCR for .NET potenciáljának kiaknázása. Könnyedén felismer szöveget képeken, és az eredményeket különféle dokumentumformátumokban menti.  
+### [Szálak számának beállítása az OCR képfelismerésben](./set-threads-count/)  
+Az OCR hatékonyságának feloldása .NET-ben. A szálak számát könnyedén állíthatja az Aspose.OCR segítségével. Növelje a pontosságot és a sebességet.  
+ [Küszöbérték beállítása az OCR képfelismerésben](./set-threshold-value/)  
+Fedezze fel az Aspose.OCR for .NET robusztus OCR megoldását. Egyedi küszöbértékek beállítása könnyedén. Javítsa a szövegfelismerést alkalmazásaiban.  
+### [Engedélyezett karakterek megadása az OCR képfelismerésben](./specify-allowed-characters/)  
+Precíz OCR feloldása .NET-ben az Aspose.OCR segítségével. Könnyedén felismeri a képek szövegét. Töltse le most, hogy átalakító fejlesztési élményt kapjon.  
+### [Figyelmen kívül hagyott karakterek megadása az OCR képfelismerésben](./specify-ignored-characters/)  
+Fedezze fel az előrehaladott OCR képességeket az Aspose.OCR for .NET segítségével. Hatékony, pontos és fejlesztőbarát.  
+### [Különböző nyelvekkel való munka az OCR képfelismerésben](./working-with-different-languages/)  
+A többnyelvű OCR varázsának feloldása az Aspose.OCR for .NET segítségével. Szöveg könnyed kinyerése különböző nyelveken.
+
 ## Hogyan nyerjen ki szöveget képekből az Aspose.OCR használatával – Általános beállítások áttekintése  
 
 Az alábbiakban egy gyors hivatkozás található a tutorialokban előforduló beállításokra:  
@@ -94,27 +108,13 @@ A: A könyvtár több száz megabájt méretű képeket is kezel, de nagyon nagy
 
 ---  
 
+**Utolsó frissítés:** 2025-12-25  
+**Tesztelve ezzel:** Aspose.OCR 23.10 for .NET  
+**Szerző:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Utolsó frissítés:** 2025-12-25  
-**Tesztelve ezzel:** Aspose.OCR 23.10 for .NET  
-**Szerző:** Aspose  
-
-## OCR beállítási oktatóanyagok  
-### [Eredmény mentése dokumentumként az OCR képfelismerésben](./save-result-as-document/)  
-Az Aspose.OCR for .NET potenciáljának kiaknázása. Könnyedén felismer szöveget képeken, és az eredményeket különféle dokumentumformátumokban menti.  
-### [Szálak számának beállítása az OCR képfelismerésben](./set-threads-count/)  
-Az OCR hatékonyságának feloldása .NET-ben. A szálak számát könnyedén állíthatja az Aspose.OCR segítségével. Növelje a pontosságot és a sebességet.  
- [Küszöbérték beállítása az OCR képfelismerésben](./set-threshold-value/)  
-Fedezze fel az Aspose.OCR for .NET robusztus OCR megoldását. Egyedi küszöbértékek beállítása könnyedén. Javítsa a szövegfelismerést alkalmazásaiban.  
-### [Engedélyezett karakterek megadása az OCR képfelismerésben](./specify-allowed-characters/)  
-Precíz OCR feloldása .NET-ben az Aspose.OCR segítségével. Könnyedén felismeri a képek szövegét. Töltse le most, hogy átalakító fejlesztési élményt kapjon.  
-### [Figyelmen kívül hagyott karakterek megadása az OCR képfelismerésben](./specify-ignored-characters/)  
-Fedezze fel az előrehaladott OCR képességeket az Aspose.OCR for .NET segítségével. Hatékony, pontos és fejlesztőbarát.  
-### [Különböző nyelvekkel való munka az OCR képfelismerésben](./working-with-different-languages/)  
-A többnyelvű OCR varázsának feloldása az Aspose.OCR for .NET segítségével. Szöveg könnyed kinyerése különböző nyelveken.

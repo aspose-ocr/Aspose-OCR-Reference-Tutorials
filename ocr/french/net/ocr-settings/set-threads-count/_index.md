@@ -116,13 +116,6 @@ Console.WriteLine(result.RecognitionText);
 
 Définir le **nombre de threads** est une méthode simple mais puissante pour **améliorer la précision OCR** et les performances dans vos applications .NET. Expérimentez avec différentes valeurs, surveillez l’utilisation du CPU et de la mémoire, et choisissez la configuration qui offre le meilleur équilibre entre vitesse et précision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2025-12-25  
@@ -130,3 +123,10 @@ Définir le **nombre de threads** est une méthode simple mais puissante pour **
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

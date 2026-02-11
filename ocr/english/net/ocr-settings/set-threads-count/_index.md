@@ -114,13 +114,6 @@ Console.WriteLine(result.RecognitionText);
 
 Setting the **Threads Count** is a simple yet powerful way to **improve OCR accuracy** and performance in your .NET applications. Experiment with different values, monitor CPU and memory usage, and choose the configuration that gives you the best balance of speed and precision.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -128,3 +121,10 @@ Setting the **Threads Count** is a simple yet powerful way to **improve OCR accu
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

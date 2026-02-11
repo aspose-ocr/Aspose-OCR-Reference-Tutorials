@@ -118,13 +118,6 @@ Console.WriteLine(result.RecognitionText);
 
 ضبط **عدد الخيوط** هو طريقة بسيطة لكنها قوية **لتحسين دقة OCR** والأداء في تطبيقات .NET الخاصة بك. جرّب قيمًا مختلفة، راقب استهلاك المعالج والذاكرة، واختر التكوين الذي يمنحك أفضل توازن بين السرعة والدقة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-25  
@@ -132,3 +125,10 @@ Console.WriteLine(result.RecognitionText);
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

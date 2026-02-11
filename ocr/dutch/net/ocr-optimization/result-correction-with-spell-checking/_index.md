@@ -163,15 +163,15 @@ A4: Absoluut! De tutorial laat zien hoe je correctie kunt verbeteren met een doo
 
 A5: Bezoek het [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) voor community‑ondersteuning en begeleiding.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-25  
+**Getest met:** Aspose.OCR voor .NET latest version  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-25  
-**Getest met:** Aspose.OCR voor .NET latest version  
-**Auteur:** Aspose

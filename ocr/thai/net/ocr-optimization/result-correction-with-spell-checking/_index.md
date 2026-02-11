@@ -161,15 +161,15 @@ A4: แน่นอน! บทเรียนนี้แสดงวิธี�
 
 A5: เยี่ยมชม [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) เพื่อรับการสนับสนุนจากชุมชนและคำแนะนำ
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR for .NET latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR for .NET latest version  
-**Author:** Aspose

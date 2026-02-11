@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Mengatur **Threads Count** adalah cara yang sederhana namun kuat untuk **meningkatkan akurasi OCR** dan kinerja dalam aplikasi .NET Anda. Bereksperimenlah dengan nilai yang berbeda, pantau penggunaan CPU dan memori, dan pilih konfigurasi yang memberikan keseimbangan terbaik antara kecepatan dan presisi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -129,3 +122,10 @@ Mengatur **Threads Count** adalah cara yang sederhana namun kuat untuk **meningk
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

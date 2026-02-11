@@ -120,13 +120,6 @@ Navštivte **[forum Aspose.OCR](https://forum.aspose.com/c/ocr/16)** pro podporu
 
 Nastavení **počtu vláken** je jednoduchý, ale výkonný způsob, jak **zlepšit přesnost OCR** a výkon veich .NET aplikacích. Experimentujte s různými hodnotami, sledujte využití CPU a paměti a vyberte konfiguraci, která vám poskytne nejlepší rovnováhu mezi rychlostí a přesností.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -134,3 +127,10 @@ Nastavení **počtu vláken** je jednoduchý, ale výkonný způsob, jak **zlep�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

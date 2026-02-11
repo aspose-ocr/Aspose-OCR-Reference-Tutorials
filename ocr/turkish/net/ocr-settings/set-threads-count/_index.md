@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 **Threads Count** ayarlamak, .NET uygulamalarınızda **OCR doğruluğunu** ve performansı artırmak için basit ama güçlü bir yoldur. Farklı değerlerle deney yapın, CPU ve bellek kullanımını izleyin ve size hız ve hassasiyet arasında en iyi dengeyi sağlayan yapılandırmayı seçin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -129,3 +122,10 @@ Console.WriteLine(result.RecognitionText);
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -61,6 +61,20 @@ Aspose.OCR for .NET, yalnızca etkili değil aynı zamanda geliştirici‑dostu 
 
 Çok dilli OCR, Aspose.OCR for .NET sayesinde artık bir zorluk değil. Çeşitli dillerde metin çıkarmanın büyüsünü keşfedin. Bu eğitim, süreci adım adım anlatır ve dil çeşitliliğini OCR projelerinizde bir engel yerine bir güç haline getirir. Aspose.OCR’ın tam potansiyelini keşfedin ve metin tanıma yeteneklerinizi yükseltin.  
 
+## OCR Ayarları Eğitimleri  
+### [OCR Görüntü Tanıma’da Sonucu Belge Olarak Kaydet](./save-result-as-document/)  
+Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Görüntülerdeki metni kolayca tanıyın ve sonuçları çeşitli belge formatlarında kaydedin.  
+### [OCR Görüntü Tanıma’da İş Parçacığı Sayısını Ayarlama](./set-threads-count/)  
+.NET’te OCR verimliliğini açığa çıkarın. Aspose.OCR ile iş parçacığı sayısını zahmetsizce ayarlayın. Doğruluk ve hızı artırın.  
+### [OCR Görüntü Tanıma’da Eşik Değerini Ayarlama](./set-threshold-value/)  
+Aspose.OCR for .NET’i güçlü bir OCR çözümü olarak keşfedin. Özel eşik değerlerini zahmetsizce ayarlayın. Uygulamalarınızda metin tanımayı geliştirin.  
+### [OCR Görüntü Tanıma’da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)  
+Aspose.OCR ile .NET’te kesin OCR elde edin. Görüntülerden metni zahmetsizce tanıyın. Şimdi indirin ve dönüştürücü bir geliştirme deneyimi yaşayın.  
+### [OCR Görüntü Tanıma’da Yoksayılan Karakterleri Belirleme](./specify-ignored-characters/)  
+Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Etkili, doğru ve geliştirici‑dostu.  
+### [OCR Görüntü Tanıma’da Farklı Dillerle Çalışma](./working-with-different-languages/)  
+Aspose.OCR for .NET ile çok dilli OCR’un büyüsünü açığa çıkarın. Çeşitli dillerde metni zahmetsizce çıkarın.
+
 ## Aspose.OCR kullanarak metin görüntülerini çıkarma – Ortak Ayarlar Genel Bakışı  
 
 Aşağıda, eğitimler boyunca karşılaşacağınız ayarların hızlı bir referansı yer almaktadır:  
@@ -93,27 +107,13 @@ C: Kütüphane, birkaç yüz megabayta kadar görüntüyü işleyebilir; çok b�
 
 ---  
 
+**Son Güncelleme:** 2025-12-25  
+**Test Edilen Versiyon:** Aspose.OCR 23.10 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**Son Güncelleme:** 2025-12-25  
-**Test Edilen Versiyon:** Aspose.OCR 23.10 for .NET  
-**Yazar:** Aspose  
-
-## OCR Ayarları Eğitimleri  
-### [OCR Görüntü Tanıma’da Sonucu Belge Olarak Kaydet](./save-result-as-document/)  
-Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Görüntülerdeki metni kolayca tanıyın ve sonuçları çeşitli belge formatlarında kaydedin.  
-### [OCR Görüntü Tanıma’da İş Parçacığı Sayısını Ayarlama](./set-threads-count/)  
-.NET’te OCR verimliliğini açığa çıkarın. Aspose.OCR ile iş parçacığı sayısını zahmetsizce ayarlayın. Doğruluk ve hızı artırın.  
-### [OCR Görüntü Tanıma’da Eşik Değerini Ayarlama](./set-threshold-value/)  
-Aspose.OCR for .NET’i güçlü bir OCR çözümü olarak keşfedin. Özel eşik değerlerini zahmetsizce ayarlayın. Uygulamalarınızda metin tanımayı geliştirin.  
-### [OCR Görüntü Tanıma’da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)  
-Aspose.OCR ile .NET’te kesin OCR elde edin. Görüntülerden metni zahmetsizce tanıyın. Şimdi indirin ve dönüştürücü bir geliştirme deneyimi yaşayın.  
-### [OCR Görüntü Tanıma’da Yoksayılan Karakterleri Belirleme](./specify-ignored-characters/)  
-Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Etkili, doğru ve geliştirici‑dostu.  
-### [OCR Görüntü Tanıma’da Farklı Dillerle Çalışma](./working-with-different-languages/)  
-Aspose.OCR for .NET ile çok dilli OCR’un büyüsünü açığa çıkarın. Çeşitli dillerde metni zahmetsizce çıkarın.

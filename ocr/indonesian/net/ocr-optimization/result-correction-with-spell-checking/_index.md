@@ -162,15 +162,15 @@ A4: Tentu saja! Tutorial ini menunjukkan cara meningkatkan koreksi menggunakan k
 
 A5: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan panduan.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-25  
+**Diuji Dengan:** Aspose.OCR untuk .NET versi terbaru  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-25  
-**Diuji Dengan:** Aspose.OCR untuk .NET versi terbaru  
-**Penulis:** Aspose

@@ -163,15 +163,15 @@ A4: Chắc chắn! Hướng dẫn này minh họa cách nâng cao việc sửa b
 
 A5: Truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận hỗ trợ cộng đồng và hướng dẫn.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-25  
+**Đã kiểm tra với:** Aspose.OCR cho .NET phiên bản mới nhất  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-25  
-**Đã kiểm tra với:** Aspose.OCR cho .NET phiên bản mới nhất  
-**Tác giả:** Aspose

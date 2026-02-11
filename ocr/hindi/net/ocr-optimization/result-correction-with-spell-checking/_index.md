@@ -163,15 +163,15 @@ A4: बिल्कुल! ट्यूटोरियल में दिखा
 
 A5: समुदाय समर्थन और मार्गदर्शन के लिए [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) पर जाएँ।
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR for .NET latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR for .NET latest version  
-**Author:** Aspose

@@ -161,15 +161,15 @@ A4：當然可以！本教學示範了如何使用使用者提供的字典來增
 
 A5：請前往[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)尋求社群支援與指導。
 
+---
+
+**最後更新：** 2025-12-25  
+**測試環境：** Aspose.OCR for .NET latest version  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-25  
-**測試環境：** Aspose.OCR for .NET latest version  
-**作者：** Aspose

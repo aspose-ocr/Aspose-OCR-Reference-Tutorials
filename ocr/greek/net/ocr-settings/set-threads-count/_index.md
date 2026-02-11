@@ -116,15 +116,15 @@ Console.WriteLine(result.RecognitionText);
 
 Ο ορισμός του **Threads Count** είναι ένας απλός αλλά ισχυρός τρόπος για να **βελτιώσετε την ακρίβεια OCR** και την απόδοση στις .NET εφαρμογές σας. Πειραματιστείτε με διαφορετικές τιμές, παρακολουθήστε τη χρήση CPU και μνήμης, και επιλέξτε τη ρύθμιση που προσφέρει την καλύτερη ισορροπία μεταξύ ταχύτητας και ακρίβειας.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

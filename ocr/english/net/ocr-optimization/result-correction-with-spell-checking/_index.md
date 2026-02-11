@@ -161,15 +161,15 @@ A4: Absolutely! The tutorial demonstrates how to enhance correction using a user
 
 A5: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and guidance.
 
+---
+
+**Last Updated:** 2025-12-25  
+**Tested With:** Aspose.OCR for .NET latest version  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR for .NET latest version  
-**Author:** Aspose

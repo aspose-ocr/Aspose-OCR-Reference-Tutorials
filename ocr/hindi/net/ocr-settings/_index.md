@@ -61,6 +61,25 @@ Aspose.OCR for .NET उन्नत OCR क्षमताएँ प्रस्
 
 Aspose.OCR for .NET के साथ बहुभाषी OCR अब चुनौती नहीं है। विभिन्न भाषाओं में आसानी से टेक्स्ट निकालने का जादू खोजें। यह ट्यूटोरियल प्रक्रिया को आपके सामने लाता है, जिससे भाषा विविधता आपके OCR प्रोजेक्ट में बाधा नहीं बल्कि शक्ति बन जाती है। Aspose.OCR की पूरी क्षमता का अन्वेषण करें और अपनी टेक्स्ट रिकग्निशन क्षमताओं को ऊँचा उठाएँ।  
 
+## OCR सेटिंग्स ट्यूटोरियल्स  
+### [OCR इमेज रिकग्निशन में Save Result as Document](./save-result-as-document/)  
+Aspose.OCR for .NET की क्षमता को अनलॉक करें। इमेज में टेक्स्ट को आसानी से पहचानें और विभिन्न दस्तावेज़ फ़ॉर्मैट में परिणाम सहेजें।  
+
+### [OCR इमेज रिकग्निशन में Set Threads Count](./set-threads-count/)  
+.NET में OCR दक्षता को अनलॉक करें। Aspose.OCR के साथ थ्रेड काउंट को आसानी से सेट करें। सटीकता और गति बढ़ाएँ।  
+
+### [OCR इमेज रिकग्निशन में Set Threshold Value](./set-threshold-value/)  
+Aspose.OCR for .NET, एक मजबूत OCR समाधान, का अन्वेषण करें। कस्टम थ्रेशोल्ड वैल्यू को आसानी से सेट करें। अपने एप्लिकेशन में टेक्स्ट रिकग्निशन को बेहतर बनाएं।  
+
+### [OCR इमेज रिकग्निशन में Specify Allowed Characters](./specify-allowed-characters/)  
+Aspose.OCR के साथ .NET में सटीक OCR को अनलॉक करें। इमेज से टेक्स्ट को आसानी से पहचानें। परिवर्तनकारी विकास अनुभव के लिए अभी डाउनलोड करें।  
+
+### [OCR इमेज रिकग्निशन में Specify Ignored Characters](./specify-ignored-characters/)  
+Aspose.OCR for .NET के साथ उन्नत OCR क्षमताओं का अन्वेषण करें। कुशल, सटीक, और डेवलपर‑फ्रेंडली।  
+
+### [OCR इमेज रिकग्निशन में विभिन्न भाषाओं के साथ काम करना](./working-with-different-languages/)  
+Aspose.OCR for .NET के साथ बहुभाषी OCR का जादू अनलॉक करें। विभिन्न भाषाओं में आसानी से टेक्स्ट निकालें।
+
 ## Aspose.OCR का उपयोग करके टेक्स्ट इमेज निकालना – सामान्य सेटिंग्स का अवलोकन  
 
 नीचे ट्यूटोरियल्स में मिलने वाली सेटिंग्स का त्वरित संदर्भ दिया गया है:  
@@ -93,32 +112,13 @@ A: लाइब्रेरी कई सौ मेगाबाइट तक क
 
 ---  
 
+**अंतिम अपडेट:** 2025-12-25  
+**परीक्षण किया गया:** Aspose.OCR 23.10 for .NET  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**अंतिम अपडेट:** 2025-12-25  
-**परीक्षण किया गया:** Aspose.OCR 23.10 for .NET  
-**लेखक:** Aspose  
-
-## OCR सेटिंग्स ट्यूटोरियल्स  
-### [OCR इमेज रिकग्निशन में Save Result as Document](./save-result-as-document/)  
-Aspose.OCR for .NET की क्षमता को अनलॉक करें। इमेज में टेक्स्ट को आसानी से पहचानें और विभिन्न दस्तावेज़ फ़ॉर्मैट में परिणाम सहेजें।  
-
-### [OCR इमेज रिकग्निशन में Set Threads Count](./set-threads-count/)  
-.NET में OCR दक्षता को अनलॉक करें। Aspose.OCR के साथ थ्रेड काउंट को आसानी से सेट करें। सटीकता और गति बढ़ाएँ।  
-
-### [OCR इमेज रिकग्निशन में Set Threshold Value](./set-threshold-value/)  
-Aspose.OCR for .NET, एक मजबूत OCR समाधान, का अन्वेषण करें। कस्टम थ्रेशोल्ड वैल्यू को आसानी से सेट करें। अपने एप्लिकेशन में टेक्स्ट रिकग्निशन को बेहतर बनाएं।  
-
-### [OCR इमेज रिकग्निशन में Specify Allowed Characters](./specify-allowed-characters/)  
-Aspose.OCR के साथ .NET में सटीक OCR को अनलॉक करें। इमेज से टेक्स्ट को आसानी से पहचानें। परिवर्तनकारी विकास अनुभव के लिए अभी डाउनलोड करें।  
-
-### [OCR इमेज रिकग्निशन में Specify Ignored Characters](./specify-ignored-characters/)  
-Aspose.OCR for .NET के साथ उन्नत OCR क्षमताओं का अन्वेषण करें। कुशल, सटीक, और डेवलपर‑फ्रेंडली।  
-
-### [OCR इमेज रिकग्निशन में विभिन्न भाषाओं के साथ काम करना](./working-with-different-languages/)  
-Aspose.OCR for .NET के साथ बहुभाषी OCR का जादू अनलॉक करें। विभिन्न भाषाओं में आसानी से टेक्स्ट निकालें।

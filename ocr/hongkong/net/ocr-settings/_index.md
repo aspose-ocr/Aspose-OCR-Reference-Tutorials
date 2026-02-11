@@ -60,6 +60,20 @@ Aspose.OCR for .NET 引入了不僅高效且對開發者友善的進階 OCR 功�
 
 有了 Aspose.OCR for .NET，多語言 OCR 已不再是挑戰。發掘在各種語言中輕鬆提取文字的祕訣。本教學一步步帶領您完成流程，讓語言多樣性成為 OCR 專案的優勢而非障礙。探索 Aspose.OCR 的全部潛能，提升文字辨識能力。  
 
+## OCR 設定教學  
+### [在 OCR 圖像識別中將結果儲存為文件](./save-result-as-document/)  
+發掘 Aspose.OCR for .NET 的潛力。輕鬆在圖像中辨識文字，並將結果儲存為各種文件格式。  
+### [在 OCR 圖像識別中設定執行緒數量](./set-threads-count/)  
+在 .NET 中釋放 OCR 效率。使用 Aspose.OCR 輕鬆設定執行緒數量，提升精度與速度。  
+### [在 OCR 圖像識別中設定閾值](./set-threshold-value/)  
+探索 Aspose.OCR for .NET 這套強大的 OCR 解決方案。輕鬆設定自訂閾值，提升應用程式中的文字辨識。  
+### [在 OCR 圖像識別中指定允許的字符](./specify-allowed-characters/)  
+使用 Aspose.OCR 在 .NET 中實現精確的 OCR。輕鬆從圖像中辨識文字。立即下載，體驗變革性的開發體驗。  
+### [在 OCR 圖像識別中指定忽略的字符](./specify-ignored-characters/)  
+探索 Aspose.OCR for .NET 的進階 OCR 功能。高效、精確且對開發者友善。  
+### [在 OCR 圖像識別中使用不同語言](./working-with-different-languages/)  
+使用 Aspose.OCR for .NET 發掘多語言 OCR 的魔力。輕鬆在各種語言中提取文字。
+
 ## 如何使用 Aspose.OCR 提取文字圖像 – 常見設定概覽  
 
 以下是您在各教學中會遇到的設定快速參考：  
@@ -92,27 +106,13 @@ A: 此函式庫可處理高達數百 MB 的圖像，但對於極大型檔案可�
 
 ---  
 
+**最後更新：** 2025-12-25  
+**測試環境：** Aspose.OCR 23.10 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**最後更新：** 2025-12-25  
-**測試環境：** Aspose.OCR 23.10 for .NET  
-**作者：** Aspose  
-
-## OCR 設定教學  
-### [在 OCR 圖像識別中將結果儲存為文件](./save-result-as-document/)  
-發掘 Aspose.OCR for .NET 的潛力。輕鬆在圖像中辨識文字，並將結果儲存為各種文件格式。  
-### [在 OCR 圖像識別中設定執行緒數量](./set-threads-count/)  
-在 .NET 中釋放 OCR 效率。使用 Aspose.OCR 輕鬆設定執行緒數量，提升精度與速度。  
-### [在 OCR 圖像識別中設定閾值](./set-threshold-value/)  
-探索 Aspose.OCR for .NET 這套強大的 OCR 解決方案。輕鬆設定自訂閾值，提升應用程式中的文字辨識。  
-### [在 OCR 圖像識別中指定允許的字符](./specify-allowed-characters/)  
-使用 Aspose.OCR 在 .NET 中實現精確的 OCR。輕鬆從圖像中辨識文字。立即下載，體驗變革性的開發體驗。  
-### [在 OCR 圖像識別中指定忽略的字符](./specify-ignored-characters/)  
-探索 Aspose.OCR for .NET 的進階 OCR 功能。高效、精確且對開發者友善。  
-### [在 OCR 圖像識別中使用不同語言](./working-with-different-languages/)  
-使用 Aspose.OCR for .NET 發掘多語言 OCR 的魔力。輕鬆在各種語言中提取文字。

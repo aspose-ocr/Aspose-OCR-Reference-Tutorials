@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Việc đặt **Threads Count** là cách đơn giản nhưng mạnh mẽ để **cải thiện độ chính xác OCR** và hiệu năng trong các ứng dụng .NET của bạn. Thử nghiệm với các giá trị khác nhau, giám sát việc sử dụng CPU và bộ nhớ, và chọn cấu hình mang lại sự cân bằng tốt nhất giữa tốc độ và độ chính xác.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-25  
@@ -129,3 +122,10 @@ Việc đặt **Threads Count** là cách đơn giản nhưng mạnh mẽ để 
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

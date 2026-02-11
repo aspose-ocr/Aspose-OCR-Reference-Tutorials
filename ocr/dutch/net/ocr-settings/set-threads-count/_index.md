@@ -115,16 +115,16 @@ Bezoek het **[Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)** voor onders
 
 Het instellen van de **Threads Count** is een eenvoudige maar krachtige manier om **OCR‑nauwkeurigheid** en prestaties in je .NET‑applicaties te verbeteren. Experimenteer met verschillende waarden, monitor CPU‑ en geheugengebruik, en kies de configuratie die de beste balans tussen snelheid en precisie biedt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
 **Tested With:** Aspose.OCR 24.11 for .NET**Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

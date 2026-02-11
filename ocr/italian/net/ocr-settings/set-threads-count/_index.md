@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Impostare il **Conteggio dei Thread** è un modo semplice ma potente per **migliorare l'accuratezza OCR** e le prestazioni nelle vostre applicazioni .NET. Sperimentate con valori diversi, monitorate l'uso di CPU e memoria, e scegliete la configurazione che offre il miglior equilibrio tra velocità e precisione.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -129,3 +122,10 @@ Impostare il **Conteggio dei Thread** è un modo semplice ma potente per **migli
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

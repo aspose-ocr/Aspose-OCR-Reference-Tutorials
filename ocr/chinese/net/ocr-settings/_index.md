@@ -60,6 +60,20 @@ Aspose.OCR for .NET 引入了既高效又友好的高级 OCR 功能。本教程�
 
 多语言 OCR 再也不是难题，Aspose.OCR for .NET 让您轻松实现。揭示在多种语言中轻松提取文本的魔法。本教程一步步引导您，使语言多样性成为 OCR 项目的优势而非障碍。探索 Aspose.OCR 的全部潜能，提升文本识别能力。  
 
+## OCR 设置教程  
+### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
+释放 Aspose.OCR for .NET 的潜能。轻松识别图像中的文字并将结果保存为多种文档格式。  
+### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
+在 .NET 中提升 OCR 效率。使用 Aspose.OCR 轻松设置线程数，提升准确率和速度。  
+### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
+探索 Aspose.OCR for .NET——强大的 OCR 解决方案。轻松设置自定义阈值，增强应用中的文字识别。  
+### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
+在 .NET 中实现精确 OCR。轻松识别图像文字。立即下载，获得变革性的开发体验。  
+### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
+探索 Aspose.OCR for .NET 的高级 OCR 能力。高效、准确且对开发者友好。  
+### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
+释放 Aspose.OCR for .NET 的多语言 OCR 魔力。轻松在多种语言中提取文本。
+
 ## 如何使用 Aspose.OCR 提取文本图像 – 常用设置概览  
 
 以下是您在各教程中会遇到的设置快速参考：  
@@ -92,27 +106,13 @@ Aspose.OCR for .NET 引入了既高效又友好的高级 OCR 功能。本教程�
 
 ---  
 
+**最后更新：** 2025-12-25  
+**测试环境：** Aspose.OCR 23.10 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}  
 
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}  
 
 {{< blocks/products/products-backtop-button >}}  
-
-**最后更新：** 2025-12-25  
-**测试环境：** Aspose.OCR 23.10 for .NET  
-**作者：** Aspose  
-
-## OCR 设置教程  
-### [Save Result as Document in OCR Image Recognition](./save-result-as-document/)  
-释放 Aspose.OCR for .NET 的潜能。轻松识别图像中的文字并将结果保存为多种文档格式。  
-### [Set Threads Count in OCR Image Recognition](./set-threads-count/)  
-在 .NET 中提升 OCR 效率。使用 Aspose.OCR 轻松设置线程数，提升准确率和速度。  
-### [Set Threshold Value in OCR Image Recognition](./set-threshold-value/)  
-探索 Aspose.OCR for .NET——强大的 OCR 解决方案。轻松设置自定义阈值，增强应用中的文字识别。  
-### [Specify Allowed Characters in OCR Image Recognition](./specify-allowed-characters/)  
-在 .NET 中实现精确 OCR。轻松识别图像文字。立即下载，获得变革性的开发体验。  
-### [Specify Ignored Characters in OCR Image Recognition](./specify-ignored-characters/)  
-探索 Aspose.OCR for .NET 的高级 OCR 能力。高效、准确且对开发者友好。  
-### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
-释放 Aspose.OCR for .NET 的多语言 OCR 魔力。轻松在多种语言中提取文本。

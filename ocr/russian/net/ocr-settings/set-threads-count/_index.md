@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Установка **Threads Count** — простой, но мощный способ **повысить точность OCR** и производительность в ваших .NET‑приложениях. Экспериментируйте с различными значениями, следите за загрузкой CPU и ОЗУ, и выбирайте конфигурацию, обеспечивающую лучший баланс скорости и точности.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-25  
@@ -129,3 +122,10 @@ Console.WriteLine(result.RecognitionText);
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

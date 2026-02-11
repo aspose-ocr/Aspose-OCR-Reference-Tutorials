@@ -163,15 +163,15 @@ A4: Абсолютно! В руководстве показано, как ул�
 
 A5: Посетите [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) для получения поддержки сообщества и рекомендаций.
 
+---
+
+**Последнее обновление:** 2025-12-25  
+**Тестировано с:** Aspose.OCR for .NET latest version  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-25  
-**Тестировано с:** Aspose.OCR for .NET latest version  
-**Автор:** Aspose

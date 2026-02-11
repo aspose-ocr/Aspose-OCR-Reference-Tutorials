@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Definir a **Contagem de Threads** é uma maneira simples, porém poderosa, de **melhorar a precisão do OCR** e o desempenho em suas aplicações .NET. Experimente diferentes valores, monitore o uso de CPU e memória, e escolha a configuração que oferece o melhor equilíbrio entre velocidade e precisão.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-25  
@@ -129,3 +122,10 @@ Definir a **Contagem de Threads** é uma maneira simples, porém poderosa, de **
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

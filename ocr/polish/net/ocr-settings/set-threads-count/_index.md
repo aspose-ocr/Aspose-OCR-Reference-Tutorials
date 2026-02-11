@@ -115,13 +115,6 @@ Console.WriteLine(result.RecognitionText);
 
 Ustawienie **Liczby Wątków** to prosty, a jednocześnie potężny sposób na **poprawę dokładności OCR** oraz wydajności w Twoich aplikacjach .NET. Eksperymentuj z różnymi wartościami, monitoruj użycie CPU i pamięci, i wybierz konfigurację, która zapewni najlepszą równowagę między szybkością a precyzją.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-25  
@@ -129,3 +122,10 @@ Ustawienie **Liczby Wątków** to prosty, a jednocześnie potężny sposób na *
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

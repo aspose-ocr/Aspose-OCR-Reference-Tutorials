@@ -114,13 +114,6 @@ Console.WriteLine(result.RecognitionText);
 
 **Threads Count** を設定するだけで、.NET アプリケーションにおける **OCR 精度とパフォーマンス** をシンプルかつ効果的に向上させることができます。さまざまな値を試し、CPU とメモリ使用率を監視しながら、速度と精度のベストバランスを実現する構成を選択してください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-25  
@@ -128,3 +121,10 @@ Console.WriteLine(result.RecognitionText);
 **作成者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

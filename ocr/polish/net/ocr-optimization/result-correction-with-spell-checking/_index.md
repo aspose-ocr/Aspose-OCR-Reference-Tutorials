@@ -163,15 +163,15 @@ Oczywiście! Samouczek pokazuje, jak zwiększyć skuteczność korekcji przy uż
 
 Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) po wsparcie społeczności i wskazówki.
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowane z:** Aspose.OCR dla .NET najnowsza wersja  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-25  
-**Testowane z:** Aspose.OCR dla .NET najnowsza wersja  
-**Autor:** Aspose
