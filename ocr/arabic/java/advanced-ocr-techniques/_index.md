@@ -45,6 +45,10 @@ url: /ar/java/advanced-ocr-techniques/
 
 يمكنك استخراج النص من الصور بسهولة عن طريق تحديد الأحرف المسموح بها باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة لتحقيق التكامل الفعال، مما يضمن تجربة التعرف على النص بسلاسة. قم بتحسين تطبيقات Java الخاصة بك باستخدام إمكانيات Aspose.OCR.
 
+## [كيفية استخدام OCR مع تسريع GPU في Java – دليل خطوة بخطوة](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+
+تعلم كيفية تسريع عمليات OCR باستخدام GPU في Java خطوة بخطوة لاستخراج النص بسرعة ودقة.
+
 ## خاتمة
 
 مع Aspose.OCR لـ Java، أصبح إتقان تقنيات التعرف الضوئي على الحروف المتقدمة أسهل من أي وقت مضى. انغمس في هذه البرامج التعليمية واطلق العنان للإمكانات الكاملة للتعرف على النص في مشاريع Java الخاصة بك. ارفع مستوى تطبيقاتك من خلال التكامل السلس والدقة العالية وإمكانيات استخراج النص المتنوعة. قم بالتنزيل الآن واتخذ الخطوة الأولى نحو التميز في التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ Java!
@@ -61,6 +65,11 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+### [كيفية استخدام OCR مع تسريع GPU في Java – دليل خطوة بخطوة](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+تعلم كيفية تسريع عمليات OCR باستخدام GPU في Java خطوة بخطوة لاستخراج النص بسرعة ودقة.
+### [التعرف على النص من الصورة باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+### [تقليل ضوضاء الصورة في OCR باستخدام Aspose – دليل Java كامل](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
