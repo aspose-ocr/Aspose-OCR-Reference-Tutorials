@@ -23,7 +23,7 @@ W tym samouczku poprowadzimy Cię przez wykorzystanie możliwości Aspose.OCR dl
 
 ## Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR
 
-Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznawania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
+Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
 
 ## Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR
 
@@ -55,6 +55,13 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Jak rozpoznać arabski i hindi tekst przy użyciu Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
+Dowiedz się, jak przy pomocy Aspose OCR rozpoznawać tekst w językach arabskim i hindi, zapewniając wysoką dokładność i prostą integrację.
+### [Konwertuj obraz do JSON przy użyciu Aspose OCR w C# – przewodnik](./convert-image-to-json-with-aspose-ocr-c-guide/)
+Naucz się konwertować obrazy na format JSON przy użyciu Aspose OCR w C#. Praktyczny przewodnik krok po kroku.
+### [Jak wykonać OCR w C# – Przewodnik offline wyodrębniania tekstu](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
+Dowiedz się, jak w C# przeprowadzić OCR offline, aby wyodrębnić tekst z obrazów bez połączenia z internetem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

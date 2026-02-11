@@ -50,6 +50,11 @@ Explorez Aspose.OCR pour .NET. Améliorez la précision de l'OCR avec des filtre
 Améliorez la précision de l'OCR avec Aspose.OCR pour .NET. Corrigez l’orthographe, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur sans effort.
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
 Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
+### [Prétraiter l'image pour l'OCR – Augmenter la précision avec Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Découvrez comment prétraiter vos images pour améliorer la précision de l'OCR avec Aspose OCR.
+### [Tutoriel OCR C# – Reconnaître du texte à partir d'une image avec accélération GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Apprenez à exploiter la puissance GPU pour accélérer la reconnaissance de texte sur images avec Aspose.OCR pour .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
