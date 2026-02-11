@@ -40,6 +40,8 @@ Prozkoumejte Aspose.OCR for .NET, výkonné řešení OCR pro přesné rozpozná
 Uvolněte sílu Aspose.OCR pro .NET, robustního řešení pro rozpoznávání obrázků. Naučte se bez námahy vypočítat úhly zkosení.
 ### [Vypočítat úhel zkosení z URI v rozpoznávání obrazu OCR](./calculate-skew-angle-from-uri/)
 Prozkoumejte Aspose.OCR for .NET, abyste mohli snadno vypočítat úhly zkosení při rozpoznávání obrazu OCR. Vylepšete své projekty s přesností a efektivitou.
+### [Jak vyrovnat zkosení obrázku – Kompletní průvodce předzpracováním v C# pro OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Objevte kompletní návod na předzpracování obrázků v C# pro OCR, včetně korekce zkosení a zvýšení přesnosti rozpoznávání.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

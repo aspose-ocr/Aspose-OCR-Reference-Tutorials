@@ -50,6 +50,8 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter pra-pemrose
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
+### [Mengenali teks dari gambar dengan Aspose OCR – Tutorial C# Dipercepat GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan akselerasi GPU dalam C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

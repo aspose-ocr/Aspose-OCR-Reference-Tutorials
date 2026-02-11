@@ -49,7 +49,10 @@ url: /hi/net/ocr-optimization/
 ### [ओसीआर छवि पहचान में वर्तनी जांच के साथ परिणाम सुधार](./result-correction-with-spell-checking/)
 .NET के लिए Aspose.OCR के साथ OCR सटीकता बढ़ाएँ। वर्तनी को सही करें, शब्दकोशों को अनुकूलित करें और त्रुटि रहित पाठ पहचान को सहजता से प्राप्त करें।
 ### [मल्टीपेज परिणाम को ओसीआर छवि पहचान में दस्तावेज़ के रूप में सहेजें](./save-multipage-result-as-document/)
-.NET के लिए Aspose.OCR की क्षमता को अनलॉक करें। इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ बहुपृष्ठ OCR परिणामों को दस्तावेज़ के रूप में सहजता से सहेजें।
+.NET की क्षमता को अनलॉक करें। इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ बहुपृष्ठ OCR परिणामों को दस्तावेज़ के रूप में सहजता से सहेजें।
+### [Aspose OCR के साथ छवि से पाठ पहचान – GPU‑त्वरित C# ट्यूटोरियल](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+.NET के लिए Aspose OCR के साथ GPU-त्वरित C# कोड का उपयोग करके छवि से तेज़ी से पाठ पहचानें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

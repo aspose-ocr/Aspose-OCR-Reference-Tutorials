@@ -55,6 +55,19 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag: Szöveg felismerése PNG képekből](./c-ocr-tutorial-recognize-text-from-png-images/)
+Ismerje meg, hogyan ismerhet fel szöveget PNG képekből C#-ban az Aspose.OCR segítségével.
+### [c# OCR oktatóanyag – Képből szöveg kinyerése és formázott JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose.OCR segítségével, és hogyan kaphat formázott JSON eredményt.
+### [Hogyan használja az Aspose OCR-t kínai szöveg felismerésére – Teljes útmutató](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Ismerje meg, hogyan ismerhet fel kínai szöveget az Aspose OCR segítségével .NET környezetben, részletes lépésről-lépésre útmutatóval.
+### [Kereshető PDF létrehozása C#-ban – Teljes útmutató](./create-searchable-pdf-in-c-full-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF fájlokat C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+### [Hogyan használja az Aspose OCR-t arab szöveg felismerésére – Teljes útmutató](./how-to-ocr-arabic-in-c-complete-guide/)
+Ismerje meg, hogyan ismerhet fel arab szöveget az Aspose OCR segítségével C#-ban, részletes lépésről-lépésre útmutatóval.
+### [Hogyan ismerjünk fel szöveget C#-ban az Aspose OCR-rel – Karakterek számlálása és kép betöltése](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Ismerje meg, hogyan jelenítheti meg a karakterek számát és tölthet be képet C#-ban az Aspose OCR segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
