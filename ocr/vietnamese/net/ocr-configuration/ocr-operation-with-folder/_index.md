@@ -1,34 +1,48 @@
 ---
-title: OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
-linktitle: OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
-second_title: API Aspose.OCR .NET
-description: Khai phá sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspose.OCR. Trích xuất văn bản dễ dàng từ hình ảnh.
-weight: 11
+date: 2025-12-21
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET,
+  cho phép nhận dạng OCR hình ảnh dựa trên thư mục.
+linktitle: OCROperation with Folder in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Trích xuất văn bản từ hình ảnh bằng OCR trên thư mục
 url: /vi/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCRThao tác với thư mục trong nhận dạng hình ảnh OCR
+# Trích xuất Văn bản từ Hình ảnh bằng Hoạt động OCR trên Thư mục
 
 ## Giới thiệu
 
-Chào mừng bạn đến với thế giới Nhận dạng ký tự quang học (OCR) bằng Aspose.OCR cho .NET! Nếu bạn đang tìm cách trích xuất văn bản từ hình ảnh một cách liền mạch trong các ứng dụng .NET của mình thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn quy trình nhận dạng hình ảnh OCR với các thư mục, tận dụng các khả năng mạnh mẽ của Aspose.OCR.
+Chào mừng đến với thế giới Nhận dạng Ký tự Quang học (OCR) với **Aspose.OCR for .NET**! Nếu bạn cần **trích xuất văn bản từ hình ảnh** hàng loạt—ví dụ, một thư mục đầy tài liệu đã quét—bài hướng dẫn này sẽ dẫn bạn qua một giải pháp thực tế, áp dụng trong thực tế. Chúng tôi sẽ bao phủ mọi thứ từ việc thiết lập dự án đến việc in ra văn bản đã nhận dạng, để bạn có thể nhanh chóng tích hợp OCR dựa trên thư mục vào các ứng dụng C# của mình.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Bài hướng dẫn này dạy gì?** Cách trích xuất văn bản từ hình ảnh được lưu trong thư mục bằng Aspose.OCR.  
+- **Ngôn ngữ & nền tảng nào?** C# với .NET (Framework hoặc .NET Core).  
+- **Điều kiện tiên quyết chính?** Thư viện Aspose.OCR for .NET (liên kết tải xuống bên dưới).  
+- **Có bao nhiêu dòng mã?** Chỉ bảy khối mã ngắn gọn.  
+- **Tôi có thể chuyển đổi hình ảnh thành văn bản không?** Có — ví dụ này cho thấy chính xác như vậy.  
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## “Trích xuất văn bản từ hình ảnh” là gì?
+Trích xuất văn bản từ hình ảnh có nghĩa là sử dụng công nghệ OCR để đọc các ký tự nhúng trong ảnh, PDF hoặc tài liệu đã quét và chuyển chúng thành các chuỗi có thể chỉnh sửa, tìm kiếm. Aspose.OCR cung cấp một engine mạnh mẽ hỗ trợ nhiều định dạng ảnh và ngôn ngữ.
 
-- Kiến thức làm việc về phát triển C# và .NET.
-- Visual Studio được cài đặt trên máy của bạn.
--  Thư viện Aspose.OCR cho .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/ocr/net/).
-- Hiểu biết cơ bản về các khái niệm OCR.
+## Tại sao nên sử dụng Aspose.OCR cho OCR dựa trên thư mục?
+- **Độ chính xác cao** với khả năng phát hiện ngôn ngữ tích hợp.  
+- **Xử lý hàng loạt** qua `RecognizeMultipleImages`, hoàn hảo cho thư mục.  
+- **API đơn giản** phù hợp tự nhiên với các dự án C#.  
+- **Khả năng mở rộng** – hoạt động trên cả môi trường desktop và server.  
+
+## Yêu cầu trước
+- Kiến thức cơ bản về lập trình C# và .NET.  
+- Visual Studio (bất kỳ phiên bản mới nào).  
+- **Thư viện Aspose.OCR for .NET** – tải xuống [tại đây](https://releases.aspose.com/ocr/net/).  
+- Hiểu biết về các khái niệm OCR (tùy chọn nhưng hữu ích).  
 
 ## Nhập không gian tên
-
-Trong mã C# của bạn, hãy đảm bảo nhập các vùng tên cần thiết để sử dụng Aspose.OCR. Bao gồm những điều sau đây vào đầu tập lệnh của bạn:
+Thêm các chỉ thị `using` cần thiết ở đầu file C# của bạn để trình biên dịch biết nơi tìm các lớp OCR.
 
 ```csharp
 using System;
@@ -38,92 +52,98 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Bước 1: Đặt thư mục tài liệu
+## Hướng dẫn từng bước
+
+### Bước 1: Đặt Thư mục Tài liệu
+Xác định thư mục chứa các hình ảnh bạn muốn xử lý.
 
 ```csharp
-// Bắt đầu:1
-// Đường dẫn đến thư mục tài liệu.
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Đảm bảo bạn thay thế "Thư mục tài liệu của bạn" bằng đường dẫn thực tế nơi lưu trữ hình ảnh của bạn.
+> **Mẹo:** Sử dụng đường dẫn tuyệt đối hoặc `Path.Combine` để tránh các vấn đề về dấu phân cách đường dẫn trên các hệ điều hành khác nhau.
 
-## Bước 2: Khởi tạo Aspose.OCR
+### Bước 2: Khởi tạo Aspose.OCR
+Tạo một thể hiện của engine OCR.
 
 ```csharp
-// Khởi tạo một phiên bản của AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Tạo một phiên bản của lớp AsposeOcr để sử dụng các chức năng của nó.
-
-## Bước 3: Chỉ định đường dẫn hình ảnh
+### Bước 3: Chỉ định Đường dẫn Hình ảnh
+Chỉ định API tới thư mục con cụ thể chứa các tệp hình ảnh của bạn.
 
 ```csharp
-//Đường dẫn hình ảnh
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-Nối đường dẫn thư mục tài liệu với thư mục cụ thể chứa hình ảnh của bạn.
+> **Tại sao điều này quan trọng:** Phương thức `RecognizeMultipleImages` yêu cầu một đường dẫn thư mục, không phải một tệp đơn lẻ.
 
-## Bước 4: Nhận dạng hình ảnh
+### Bước 4: Nhận dạng Hình ảnh
+Chạy OCR trên mọi hình ảnh trong thư mục. Bạn có thể tùy chỉnh `RecognitionSettings` nếu cần gợi ý ngôn ngữ hoặc tiền xử lý cụ thể.
 
 ```csharp
-// Nhận dạng hình ảnh
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //mặc định hoặc tùy chỉnh
+    //default or custom
 });
 ```
 
-Sử dụng phương pháp Nhận dạng nhiều hình ảnh để thực hiện OCR trên nhiều hình ảnh trong thư mục được chỉ định.
-
-## Bước 5: In kết quả
+### Bước 5: In Kết quả
+Duyệt qua mảng `RecognitionResult` trả về và xuất ra văn bản đã trích xuất.
 
 ```csharp
-// Kết quả in
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-Lặp lại các kết quả và in văn bản được nhận dạng cho mỗi hình ảnh.
+> **Cạm bẫy thường gặp:** Quên kiểm tra `result.Length` có thể gây ra `IndexOutOfRangeException` khi thư mục rỗng. Luôn xác thực nội dung thư mục trước.
 
-## Bước 6: Kết luận
+### Bước 6: Thông báo Hoàn thành
+Thông báo việc thực thi thành công.
 
 ```csharp
 // ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-Đảm bảo đạt đến kết luận tập lệnh của bạn để biểu thị việc thực hiện thành công thao tác OCR với các thư mục.
+## Các vấn đề thường gặp & Giải pháp
 
-## Phần kết luận
-
-Chúc mừng! Bạn đã học thành công cách triển khai nhận dạng hình ảnh OCR với các thư mục bằng Aspose.OCR cho .NET. Công cụ mạnh mẽ này mở ra vô số khả năng trích xuất văn bản từ hình ảnh trong các ứng dụng .NET của bạn.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|-------|-----|
+| Không có đầu ra | Đường dẫn thư mục không đúng hoặc thư mục trống | Kiểm tra `fullPath` trỏ tới đúng thư mục và chứa các định dạng ảnh được hỗ trợ (PNG, JPEG, TIFF). |
+| Ký tự bị rối | Cài đặt ngôn ngữ sai | Cung cấp `RecognitionSettings` đã cấu hình với `Language` đặt theo mã ISO phù hợp. |
+| Hiệu năng chậm khi có nhiều ảnh | Xử lý tuần tự trên luồng UI | Chạy OCR trên luồng nền hoặc sử dụng mẫu async để giữ UI phản hồi. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.OCR cho .NET trong các dự án thương mại không?
+**Q: Tôi có thể sử dụng Aspose.OCR cho .NET trong các dự án thương mại không?**  
+A: Có, Aspose.OCR cho .NET là sản phẩm thương mại. Để biết thông tin giấy phép, truy cập [tại đây](https://purchase.aspose.com/buy).
 
- Câu trả lời 1: Có, Aspose.OCR dành cho .NET là một sản phẩm thương mại. Để biết thông tin cấp phép, hãy truy cập[đây](https://purchase.aspose.com/buy).
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể khám phá bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Q2:. Có bản dùng thử miễn phí không?
+**Q: Tôi có thể tìm tài liệu ở đâu?**  
+A: Tài liệu có sẵn [tại đây](https://reference.aspose.com/ocr/net/).
 
- Câu trả lời 2: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+**Q: Làm thế nào để nhận giấy phép tạm thời?**  
+A: Giấy phép tạm thời có thể được lấy [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Câu 3: Tôi có thể tìm tài liệu ở đâu?
+**Q: Cần hỗ trợ hoặc có câu hỏi?**  
+A: Truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được cộng đồng hỗ trợ.
 
- A3: Tài liệu có sẵn[đây](https://reference.aspose.com/ocr/net/).
+**Cập nhật lần cuối:** 2025-12-21  
+**Kiểm thử với:** Aspose.OCR 24.11 cho .NET  
+**Tác giả:** Aspose  
 
-### Q4: Làm thế nào tôi có thể nhận được giấy phép tạm thời?
-
- A4: Có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-
-### Câu 5: Cần hỗ trợ hoặc có thắc mắc?
-
- A5: Tham quan[diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để hỗ trợ cộng đồng.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

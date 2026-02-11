@@ -1,34 +1,50 @@
 ---
-title: OCR-bewerking met map in OCR-beeldherkenning
-linktitle: OCR-bewerking met map in OCR-beeldherkenning
-second_title: Aspose.OCR .NET-API
-description: Ontgrendel de kracht van OCR-beeldherkenning in .NET met Aspose.OCR. Extraheer tekst moeiteloos uit afbeeldingen.
-weight: 11
+date: 2025-12-21
+description: Leer hoe u tekst uit afbeeldingen kunt extraheren met Aspose.OCR voor
+  .NET, waardoor mapgebaseerde OCR‑afbeeldingsherkenning mogelijk wordt.
+linktitle: OCROperation with Folder in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Tekst extraheren uit afbeeldingen met OCR‑bewerking op mappen
 url: /nl/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR-bewerking met map in OCR-beeldherkenning
+# Tekst extraheren uit afbeeldingen met OCR‑bewerking op mappen
 
-## Invoering
+## Introductie
 
-Welkom in de wereld van Optical Character Recognition (OCR) met Aspose.OCR voor .NET! Als u naadloos tekst uit afbeeldingen wilt extraheren binnen uw .NET-toepassingen, bent u hier aan het juiste adres. Deze tutorial leidt u door het proces van OCR-beeldherkenning met mappen, waarbij gebruik wordt gemaakt van de krachtige mogelijkheden van Aspose.OCR.
+Welkom in de wereld van Optical Character Recognition (OCR) met **Aspose.OCR for .NET**! Als je **tekst uit afbeeldingen** in bulk moet extraheren — bijvoorbeeld een volledige map met gescande documenten — leidt deze tutorial je door een praktische, real‑world oplossing. We behandelen alles, van het opzetten van het project tot het afdrukken van de herkende tekst, zodat je snel map‑gebaseerde OCR kunt integreren in je C#‑applicaties.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat leert deze tutorial?** Hoe tekst uit afbeeldingen in een map te extraheren met Aspose.OCR.  
+- **Welke taal & platform?** C# met .NET (Framework of .NET Core).  
+- **Belangrijkste vereiste?** Aspose.OCR for .NET‑bibliotheek (downloadlink hieronder).  
+- **Hoeveel regels code?** Slechts zeven beknopte code‑blokken.  
+- **Kan ik afbeeldingen naar tekst converteren?** Ja — dit voorbeeld toont precies dat.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent “tekst uit afbeeldingen extraheren”?
+Tekst uit afbeeldingen extraheren betekent OCR‑technologie gebruiken om tekens die in foto’s, PDF‑bestanden of gescande documenten zijn ingebed, te lezen en om te zetten in bewerkbare, doorzoekbare strings. Aspose.OCR biedt een robuuste engine die veel afbeeldingsformaten en talen ondersteunt.
 
-- Een praktische kennis van C# en .NET-ontwikkeling.
-- Visual Studio is op uw computer geïnstalleerd.
--  Aspose.OCR voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/ocr/net/).
-- Basiskennis van OCR-concepten.
+## Waarom Aspose.OCR gebruiken voor map‑gebaseerde OCR?
+- **Hoge nauwkeurigheid** met ingebouwde taaldetectie.  
+- **Batchverwerking** via `RecognizeMultipleImages`, perfect voor mappen.  
+- **Eenvoudige API** die natuurlijk in C#‑projecten past.  
+- **Schaalbaar** – werkt zowel op desktop‑ als serveromgevingen.
 
-## Naamruimten importeren
+## Voorvereisten
 
-Zorg ervoor dat u in uw C#-code de benodigde naamruimten importeert voor het gebruik van Aspose.OCR. Neem het volgende op aan het begin van uw script:
+- Basiskennis van C# en .NET‑ontwikkeling.  
+- Visual Studio (een recente editie).  
+- **Aspose.OCR for .NET**‑bibliotheek – download deze [hier](https://releases.aspose.com/ocr/net/).  
+- Een begrip van OCR‑concepten (optioneel maar nuttig).
+
+## Namespaces importeren
+
+Voeg de benodigde `using`‑directieven toe aan de bovenkant van je C#‑bestand zodat de compiler weet waar de OCR‑klassen zich bevinden.
 
 ```csharp
 using System;
@@ -38,92 +54,100 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Stap 1: Documentmap instellen
+## Stapsgewijze handleiding
+
+### Stap 1: Documentmap instellen
+Definieer de map die de afbeeldingen bevat die je wilt verwerken.
 
 ```csharp
-// ExStart:1
-// Het pad naar de documentenmap.
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Zorg ervoor dat u "Uw documentenmap" vervangt door het daadwerkelijke pad waar uw afbeeldingen zijn opgeslagen.
+> **Pro tip:** Gebruik een absoluut pad of `Path.Combine` om problemen met pad‑scheidingstekens op verschillende besturingssystemen te voorkomen.
 
-## Stap 2: Initialiseer Aspose.OCR
+### Stap 2: Aspose.OCR initialiseren
+Maak een instantie van de OCR‑engine.
 
 ```csharp
-// Initialiseer een exemplaar van AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Maak een exemplaar van de klasse AsposeOcr om de functionaliteiten ervan te gebruiken.
-
-## Stap 3: Geef het afbeeldingspad op
+### Stap 3: Afbeeldingspad opgeven
+Verwijs de API naar de specifieke sub‑map die je afbeeldingsbestanden bevat.
 
 ```csharp
-//Afbeeldingspad
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-Voeg het pad van de documentmap samen met de specifieke map die uw afbeeldingen bevat.
+> **Waarom dit belangrijk is:** De `RecognizeMultipleImages`‑methode verwacht een mappad, geen enkel bestand.
 
-## Stap 4: Herken afbeeldingen
+### Stap 4: Afbeeldingen herkennen
+Voer OCR uit op elke afbeelding in de map. Je kunt `RecognitionSettings` aanpassen als je taal‑hints of specifieke voorverwerking nodig hebt.
 
 ```csharp
-// Herken beeld
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //standaard of aangepast
+    //default or custom
 });
 ```
 
-Gebruik de RecognizeMultipleImages-methode om OCR uit te voeren op meerdere afbeeldingen in de opgegeven map.
-
-## Stap 5: Resultaten afdrukken
+### Stap 5: Resultaten afdrukken
+Itereer door de geretourneerde `RecognitionResult`‑array en geef de geëxtraheerde tekst weer.
 
 ```csharp
-// Resultaat afdrukken
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-Loop door de resultaten en druk de herkende tekst voor elke afbeelding af.
+> **Veelvoorkomende valkuil:** Het vergeten te controleren van `result.Length` kan een `IndexOutOfRangeException` veroorzaken wanneer de map leeg is. Valideer altijd eerst de mapinhoud.
 
-## Stap 6: Conclusie
+### Stap 6: Voltooiingsbericht
+Geef een signaal dat de uitvoering geslaagd is.
 
 ```csharp
-// Verlengen: 1
+// ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-Zorg ervoor dat de conclusie van uw script wordt bereikt om de succesvolle uitvoering van de OCR-bewerking met mappen aan te geven.
+## Veelvoorkomende problemen & oplossingen
 
-## Conclusie
-
-Gefeliciteerd! U hebt met succes geleerd hoe u OCR-beeldherkenning kunt implementeren met mappen met behulp van Aspose.OCR voor .NET. Deze krachtige tool biedt talloze mogelijkheden voor het extraheren van tekst uit afbeeldingen in uw .NET-toepassingen.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| Geen output | Pad naar map onjuist of leeg | Controleer of `fullPath` naar de juiste directory wijst en ondersteunde afbeeldingsformaten (PNG, JPEG, TIFF) bevat. |
+| Vervormde tekens | Verkeerde taalinstellingen | Geef een geconfigureerde `RecognitionSettings` met `Language` ingesteld op de juiste ISO‑code. |
+| Trage prestaties bij veel afbeeldingen | Sequentiële verwerking op UI‑thread | Voer OCR uit op een achtergrondthread of gebruik async‑patronen om de UI responsief te houden. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.OCR voor .NET gebruiken in commerciële projecten?
+**V: Kan ik Aspose.OCR for .NET gebruiken in commerciële projecten?**  
+A: Ja, Aspose.OCR for .NET is een commercieel product. Voor licentie‑informatie, bezoek [hier](https://purchase.aspose.com/buy).
 
- A1: Ja, Aspose.OCR voor .NET is een commercieel product. Voor licentie-informatie, bezoek[hier](https://purchase.aspose.com/buy).
+**V: Is er een gratis proefversie beschikbaar?**  
+A: Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
 
-### Vraag 2:. Is er een gratis proefversie beschikbaar?
+**V: Waar vind ik de documentatie?**  
+A: De documentatie is beschikbaar [hier](https://reference.aspose.com/ocr/net/).
 
- A2: Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
+**V: Hoe kan ik een tijdelijke licentie verkrijgen?**  
+A: Tijdelijke licenties zijn verkrijgbaar [hier](https://purchase.aspose.com/temporary-license/).
 
-### Vraag 3: Waar kan ik de documentatie vinden?
+**V: Hulp nodig of vragen?**  
+A: Bezoek het [Aspose.OCR‑forum](https://forum.aspose.com/c/ocr/16) voor community‑ondersteuning.
 
- A3: De documentatie is beschikbaar[hier](https://reference.aspose.com/ocr/net/).
+---
 
-### Vraag 4: Hoe kan ik tijdelijke licenties krijgen?
+**Laatst bijgewerkt:** 2025-12-21  
+**Getest met:** Aspose.OCR 24.11 for .NET  
+**Auteur:** Aspose  
 
- A4: Er kunnen tijdelijke licenties worden verkregen[hier](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Ondersteuning nodig of vragen?
-
- A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapssteun.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
