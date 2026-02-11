@@ -130,15 +130,15 @@ A4: Aspose.OCR поддерживает широкий спектр формат
 **Q5: Могу ли я интегрировать Aspose.OCR в свой существующий .NET проект?**  
 A5: Конечно! Следуйте шагам, описанным в учебнике, и вы без проблем интегрируете Aspose.OCR в ваш .NET проект для распознавания OCR изображений.
 
+---
+
+**Последнее обновление:** 2025-12-22  
+**Тестировано с:** Aspose.OCR 24.11 for .NET  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-22  
-**Тестировано с:** Aspose.OCR 24.11 for .NET  
-**Автор:** Aspose

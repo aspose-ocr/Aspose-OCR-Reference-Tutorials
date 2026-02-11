@@ -129,13 +129,6 @@ A4: Aspose.OCR podporuje širokou škálu formátů obrázků, včetně PNG, JPE
 **Q5: Mohu integrovat Aspose.OCR do mého existujícího .NET projektu?**  
 A5: Samozřejmě! Postupujte podle kroků uvedených v tutoriálu a bez problémů integrujete Aspose.OCR do svého .NET projektu pro rozpoznávání OCR obrázků.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-22  
@@ -143,3 +136,10 @@ A5: Samozřejmě! Postupujte podle kroků uvedených v tutoriálu a bez problém
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

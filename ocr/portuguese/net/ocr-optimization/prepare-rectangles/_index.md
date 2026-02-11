@@ -123,35 +123,35 @@ foreach (string s in result.RecognitionAreasText)
 
 ## Problemas Comuns & Dicas
 
-- **Coordenadas de retângulo incorretas:** Certifique-se de que os valores `X`, `Y`, `Width` e `Height` mapeiem corretamente para a região desejada.  
-- **Qualidade da imagem:** Imagens de baixa resolução podem gerar resultados de OCR ruins; considere pré‑processamento (por exemplo, binarização).  
-- **Resultados vazios:** Verifique se os retângulos realmente contêm texto; caso contrário, o motor retornará strings vazias.
+- **Coordenadas de retângulos incorretos:** Verifique se os valores `X`, `Y`, `Width` e `Height` estão mapeados corretamente para a região desejada.
+- **Qualidade da imagem:** Imagens de baixa resolução podem gerar resultados de OCR ruins; considerar pré‑processamento (por exemplo, binarização).
+- **Resultados vazios:** Verifique se os retângulos realmente contêm texto; Caso contrário, o motor retornará strings vazias.
 
 ## Conclusão
 
-Agora você aprendeu como **extract text from image** preparando retângulos personalizados com Aspose.OCR para .NET. Esta técnica oferece controle detalhado sobre o processamento OCR, ajudando a criar recursos de extração de texto mais rápidos e precisos em suas aplicações.
+Agora você aprendeu como **extract text from image** preparar retângulos personalizados com Aspose.OCR para .NET. Esta técnica oferece controle detalhado sobre o processamento OCR, ajudando a criar recursos de remoção de texto mais rápidos e precisos em suas aplicações.
 
-## Frequently Asked Questions
+## Perguntas frequentes
 
-**Q:** Posso usar Aspose.OCR para .NET com outros frameworks .NET?  
-**A:** Sim, Aspose.OCR para .NET é compatível com vários frameworks .NET.
+**P:** Posso usar Aspose.OCR para .NET com outros frameworks .NET?
+**R:** Sim, Aspose.OCR para .NET é compatível com vários frameworks .NET.
 
-**Q:** Existe um teste gratuito disponível para Aspose.OCR para .NET?  
-**A:** Absolutamente! Você pode acessar o teste gratuito **[here](https://releases.aspose.com/)**.
+**P:** Existe um teste gratuito disponível para Aspose.OCR para .NET?
+**R:** Absolutamente! Você pode acessar o teste gratuito **[aqui](https://releases.aspose.com/)**.
 
-**Q:** Como obtenho suporte para Aspose.OCR para .NET?  
-**A:** Visite o **[Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)** para suporte dedicado.
+**P:** Como obtive suporte para Aspose.OCR para .NET?
+**R:** Visite o **[fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16)** para suporte dedicado.
 
-**Q:** Posso obter uma licença temporária para fins de teste?  
-**A:** Sim, você pode adquirir uma licença temporária **[here](https://purchase.aspose.com/temporary-license/)**.
+**P:** Posso obter uma licença temporária para fins de teste?
+**R:** Sim, você pode adquirir uma licença temporária **[aqui](https://purchase.aspose.com/temporary-license/)**.
 
-**Q:** Onde posso encontrar a documentação para Aspose.OCR para .NET?  
-**A:** A documentação está disponível **[here](https://reference.aspose.com/ocr/net/)**.
+**P:** Onde posso encontrar a documentação para Aspose.OCR para .NET?
+**R:** A documentação está disponível **[aqui](https://reference.aspose.com/ocr/net/)**.
 
 ---
 
-**Última atualização:** 2025-12-22  
-**Testado com:** Aspose.OCR 24.11 for .NET  
+**Última atualização:** 22/12/2025
+**Testado com:** Aspose.OCR 24.11 para .NET
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

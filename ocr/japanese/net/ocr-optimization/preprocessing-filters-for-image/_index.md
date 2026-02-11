@@ -128,13 +128,6 @@ A4: Aspose.OCR は PNG、JPEG、GIF、BMP、TIFF など幅広い画像形式を�
 **Q5: 既存の .NET プロジェクトに Aspose.OCR を統合できますか？**  
 A5: もちろんです！本チュートリアルの手順に従えば、OCR 画像認識のために Aspose.OCR をシームレスに既存プロジェクトへ組み込めます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-22  
@@ -142,3 +135,10 @@ A5: もちろんです！本チュートリアルの手順に従えば、OCR 画
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

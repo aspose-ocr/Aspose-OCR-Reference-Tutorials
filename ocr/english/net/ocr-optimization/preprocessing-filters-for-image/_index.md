@@ -129,13 +129,6 @@ A4: Aspose.OCR supports a wide range of image formats, including PNG, JPEG, GIF,
 **Q5: Can I integrate Aspose.OCR into my existing .NET project?**  
 A5: Certainly! Follow the steps outlined in the tutorial, and you'll seamlessly integrate Aspose.OCR into your .NET project for OCR image recognition.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-22  
@@ -143,3 +136,10 @@ A5: Certainly! Follow the steps outlined in the tutorial, and you'll seamlessly 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

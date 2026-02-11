@@ -128,13 +128,6 @@ A4：Aspose.OCR 支援多種影像格式，包括 PNG、JPEG、GIF、BMP 與 TIF
 **Q5：我可以將 Aspose.OCR 整合至現有的 .NET 專案嗎？**  
 A5：當然可以！依照本教學的步驟操作，即可順利將 Aspose.OCR 整合至您的 .NET 專案，實現影像 OCR 辨識。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-22  
@@ -142,3 +135,10 @@ A5：當然可以！依照本教學的步驟操作，即可順利將 Aspose.OCR 
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

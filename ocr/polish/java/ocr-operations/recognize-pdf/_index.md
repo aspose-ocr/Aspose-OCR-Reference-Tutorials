@@ -15,32 +15,32 @@ weight: 12
 
 # Jak wykonać OCR dokumentów PDF w Aspose.OCR dla Javy
 
-## Introduction
+## Wprowadzenie
 
-If you’re looking to **how to ocr pdf** files efficiently in a Java environment, you’ve come to the right place. Optical Character Recognition (OCR) transforms printed or handwritten content into searchable, editable text, and Aspose.OCR for Java makes this process seamless. In this tutorial we’ll walk through every step required to recognize a PDF document, extract its text, and handle the results—all with clear, human‑friendly explanations.
+Jeśli szukasz sposobu na efektywne rozpoznawanie znaków (OCR) w plikach PDF w środowisku Java, trafiłeś we właściwe miejsce. Optyczne rozpoznawanie znaków (OCR) przekształca drukowane lub odręczne treści w wyszukiwalny, edytowalny tekst, a Aspose.OCR dla Javy sprawia, że ​​proces ten przebiega bezproblemowo. W tym samouczku przeprowadzimy Cię przez każdy krok wymagany do rozpoznania dokumentu PDF, wyodrębnienia jego tekstu i obsługi wyników — wszystko z przejrzystymi, zrozumiałymi wyjaśnieniami.
 
-## Quick Answers
-- **What does “how to ocr pdf” mean?** It refers to using OCR technology to read and extract text from PDF files.  
-- **Which Java OCR library is used?** Aspose.OCR for Java, a robust commercial library.  
-- **Do I need a license?** A free trial works for evaluation; a license is required for production.  
-- **Can it handle scanned PDFs?** Yes—Aspose.OCR can recognize text in scanned PDF pages.  
-- **What is the typical setup time?** About 10‑15 minutes to get a basic example running.
+# Szybkie odpowiedzi
+- **Co oznacza „jak wykonać OCR PDF”?** Odnosi się to do wykorzystania technologii OCR do odczytywania i wyodrębniania tekstu z plików PDF.
+- **Która biblioteka Java OCR jest używana?** Aspose.OCR dla Javy to solidna biblioteka komercyjna.
+- **Czy potrzebuję licencji?** Bezpłatna wersja próbna działa w celach ewaluacyjnych; licencja jest wymagana do produkcji.
+- **Czy obsługuje zeskanowane pliki PDF?** Tak — Aspose.OCR rozpoznaje tekst na zeskanowanych stronach PDF.
+- **Jaki jest typowy czas konfiguracji?** Uruchomienie podstawowego przykładu zajmuje około 10–15 minut.
 
-## What is OCR and Why Use It on PDFs?
+## Czym jest OCR i dlaczego warto go używać w przypadku plików PDF?
 
-OCR (Optical Character Recognition) converts images of text—such as scanned PDF pages—into machine‑readable characters. This enables you to **extract pdf text ocr** for searching, indexing, or further processing, turning static documents into dynamic data sources.
+OCR (optyczne rozpoznawanie znaków) konwertuje obrazy tekstu — takie jak zeskanowane strony PDF — na znaki czytelne dla maszyn. Umożliwia to **wyodrębnianie tekstu z plików PDF** w celu wyszukiwania, indeksowania lub dalszego przetwarzania, przekształcając statyczne dokumenty w dynamiczne źródła danych.
 
-## Prerequisites
+## Wymagania wstępne
 
-Before we dive into code, make sure you have the following:
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
-- **Java Development Environment** – JDK 8 or higher installed and configured.  
-- **Aspose.OCR for Java Library** – Download it from the [download page](https://releases.aspose.com/ocr/java/).  
-- **PDF Document for Recognition** – A PDF (scanned or digitally created) that you want to process.
+- **Środowisko programistyczne Java** — zainstalowane i skonfigurowane środowisko JDK 8 lub nowsze.
+- **Biblioteka Aspose.OCR dla Java** — pobierz ją ze [strony pobierania](https://releases.aspose.com/ocr/java/).
+- **Dokument PDF do rozpoznania** – Plik PDF (zeskanowany lub utworzony cyfrowo), który chcesz przetworzyć.
 
-## Import Packages
+## Importuj pakiety
 
-To start, import the essential classes from the Aspose.OCR library. This gives you access to the OCR engine and result handling utilities.
+Aby rozpocząć, zaimportuj niezbędne klasy z biblioteki Aspose.OCR. Uzyskasz dostęp do silnika OCR i narzędzi do obsługi wyników.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -56,36 +56,36 @@ import java.awt.*;
 import java.util.ArrayList;
 ```
 
-## Step 1: Set Up Your Project
+## Krok 1: Konfiguracja projektu
 
-Place the Aspose.OCR JAR files in your project’s `lib` folder (or add them via Maven/Gradle) and define the path to your working directory.
+Umieść pliki JAR Aspose.OCR w folderze `lib` swojego projektu (lub dodaj je za pomocą Maven/Gradle) i zdefiniuj ścieżkę do katalogu roboczego.
 
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify PDF Document Path
+## Krok 2: Określ ścieżkę do dokumentu PDF
 
-Point the OCR engine to the PDF you wish to process.
+Skieruj silnik OCR na plik PDF, który chcesz przetworzyć.
 
 ```java
 // The image path
 String file = dataDir + "multi_page_1.pdf";
 ```
 
-## Step 3: Create API Instance
+## Krok 3: Utwórz instancję API
 
-Instantiate the core OCR class that will handle PDF recognition.
+Utwórz instancję głównej klasy OCR, która będzie obsługiwać rozpoznawanie plików PDF.
 
 ```java
 // Create API instance
 AsposeOCRPdf api = new AsposeOCRPdf();
 ```
 
-## Step 4: Set Recognition Options
+## Krok 4: Ustaw opcje rozpoznawania
 
-Configure the OCR settings—such as language and page count—using `DocumentRecognitionSettings`. This is where you tell the **java ocr library** what to look for.
+Skonfiguruj ustawienia OCR — takie jak język i liczba stron — za pomocą `DocumentRecognitionSettings`. W tym miejscu informujesz **bibliotekę OCR Java**, czego ma szukać.
 
 ```java
 // Set recognition options
@@ -93,18 +93,18 @@ DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
 settings.setLanguage(Language.Eng);
 ```
 
-## Step 5: Perform OCR Recognition
+## Krok 5: Wykonaj rozpoznawanie OCR
 
-Run the OCR engine on the specified PDF. The method returns a list of `RecognitionResult` objects, each representing a page.
+Uruchom silnik OCR na określonym pliku PDF. Metoda zwraca listę obiektów `RecognitionResult`, z których każdy reprezentuje stronę.
 
 ```java
 // Get result list
 ArrayList<RecognitionResult> result = api.RecognizePdf(file, settings);
 ```
 
-## Step 6: Print Recognition Results
+## Krok 6: Wydrukuj wyniki rozpoznawania
 
-Iterate through the results and display the extracted text, layout information, and any warnings.
+Przejrzyj wyniki i wyświetl wyodrębniony tekst, informacje o układzie oraz wszelkie ostrzeżenia.
 
 ```java
 // Print result
@@ -113,9 +113,9 @@ for(RecognitionResult r: result) {
 }
 ```
 
-## Step 7: Define PrintResult Method
+## Krok 7: Zdefiniuj metodę PrintResult
 
-The helper method formats and prints the detailed OCR output. (The implementation is provided in the original code snippet.)
+Metoda pomocnicza formatuje i drukuje szczegółowe wyniki OCR. (Implementacja jest podana w oryginalnym fragmencie kodu).
 
 ```java
 // PrintResult method
@@ -124,46 +124,46 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-## Why This Matters
+## Dlaczego to ważne
 
-- **Extract PDF Text OCR** – Turn static PDF pages into searchable text for analytics, indexing, or data mining.  
-- **Convert PDF to Text** – Easily feed the extracted content into downstream systems such as databases or NLP pipelines.  
-- **Java OCR Example** – This tutorial serves as a ready‑to‑run example you can adapt for batch processing or web services.  
-- **Recognize Scanned PDF** – Works equally well on scanned documents, making it ideal for digitizing archives.
+- **Wyodrębnij tekst z PDF-a za pomocą OCR** ​​– Zamień statyczne strony PDF-a na tekst z możliwością wyszukiwania na potrzeby analiz, indeksowania lub eksploracji danych.
+- **Konwertuj PDF-a na tekst** – Łatwo przekaż wyodrębnioną treść do systemów niższego rzędu, takich jak bazy danych lub procesy przetwarzania języka naturalnego (NLP).
+- **Przykład Java OCR** ​​– Ten samouczek stanowi gotowy do uruchomienia przykład, który można dostosować do przetwarzania wsadowego lub usług sieciowych.
+- **Rozpoznaj zeskanowany PDF** – Działa równie dobrze w przypadku zeskanowanych dokumentów, co czyni go idealnym do digitalizacji archiwów.
 
-## Common Issues & Tips
+## Typowe problemy i wskazówki
 
-- **Low Accuracy:** Ensure the source PDF has high resolution (300 dpi or more).  
-- **Memory Consumption:** For large PDFs, process pages in batches to avoid OutOfMemory errors.  
-- **Language Support:** Set the appropriate `Language` enum if your document isn’t English.  
+- **Niska dokładność:** Upewnij się, że źródłowy plik PDF ma wysoką rozdzielczość (300 dpi lub więcej).
+- **Zużycie pamięci:** W przypadku dużych plików PDF przetwarzaj strony w partiach, aby uniknąć błędów braku pamięci.
+- **Obsługa języków:** Ustaw odpowiedni parametr enum „Język”, jeśli dokument nie jest w języku angielskim.
 
-## FAQ’s
+## Często zadawane pytania
 
-### Q1: Is Aspose.OCR compatible with other document formats?
+### P1: Czy Aspose.OCR jest kompatybilny z innymi formatami dokumentów?
 
-A1: Aspose.OCR supports a variety of document formats, including PDF, images, and more. Check the documentation for a comprehensive list.
+O1: Aspose.OCR obsługuje różne formaty dokumentów, w tym PDF, obrazy i inne. Pełną listę znajdziesz w dokumentacji.
 
-### Q2: Can I use Aspose.OCR for commercial projects?
+### P2: Czy mogę używać Aspose.OCR w projektach komercyjnych?
 
-A2: Yes, Aspose.OCR offers commercial licenses for use in both personal and commercial projects. Visit the [purchase page](https://purchase.aspose.com/buy) for licensing details.
+O2: Tak, Aspose.OCR oferuje licencje komercyjne do użytku zarówno w projektach osobistych, jak i komercyjnych. Odwiedź [stronę zakupu](https://purchase.aspose.com/buy), aby uzyskać szczegółowe informacje na temat licencji.
 
-### Q3: Are there any limitations to the OCR recognition process?
+### P3: Czy istnieją jakieś ograniczenia procesu rozpoznawania OCR?
 
-A3: While Aspose.OCR is powerful, the accuracy may vary based on the quality and clarity of the input document. Ensure documents are clear for optimal results.
+O3: Chociaż Aspose.OCR jest wydajny, jego dokładność może się różnić w zależności od jakości i przejrzystości dokumentu wejściowego. Aby uzyskać optymalne rezultaty, upewnij się, że dokumenty są przejrzyste.
 
-### Q4: How can I get support for Aspose.OCR?
+### P4: Jak uzyskać wsparcie techniczne dla Aspose.OCR?
 
-A4: For support and discussions, visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+O4: Aby uzyskać wsparcie techniczne i wziąć udział w dyskusjach, odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
-### Q5: Is there a free trial available for Aspose.OCR?
+### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR?
 
-A5: Yes, you can explore Aspose.OCR by obtaining a free trial from [here](https://releases.aspose.com/).
+O5: Tak, możesz wypróbować Aspose.OCR, pobierając bezpłatną wersję próbną [tutaj](https://releases.aspose.com/).
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-22
+**Testowano z:** Aspose.OCR dla Java 24.11
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

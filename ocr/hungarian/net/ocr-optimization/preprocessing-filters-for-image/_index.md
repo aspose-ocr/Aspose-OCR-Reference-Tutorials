@@ -129,13 +129,6 @@ A4: Az Aspose.OCR számos képfájlformátumot támogat, többek között PNG, J
 **Q5: Integrálhatom az Aspose.OCR-t a meglévő .NET projektembe?**  
 A5: Természetesen! Kövesse az útmutatóban leírt lépéseket, és zökkenőmentesen integrálhatja az Aspose.OCR-t .NET projektjébe az OCR képfelismeréshez.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Legutóbb frissítve:** 2025-12-22  
@@ -143,3 +136,10 @@ A5: Természetesen! Kövesse az útmutatóban leírt lépéseket, és zökkenőm
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

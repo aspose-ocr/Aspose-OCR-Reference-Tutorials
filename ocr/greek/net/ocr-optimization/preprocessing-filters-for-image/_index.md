@@ -130,13 +130,6 @@ Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 **Ε5: Μπορώ να ενσωματώσω το Aspose.OCR στο υπάρχον .NET project μου;**  
 Α5: Φυσικά! Ακολουθήστε τα βήματα που περιγράφονται στο tutorial και θα ενσωματώσετε άψογα το Aspose.OCR στο .NET project σας για αναγνώριση OCR εικόνας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-22  
@@ -144,3 +137,10 @@ Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

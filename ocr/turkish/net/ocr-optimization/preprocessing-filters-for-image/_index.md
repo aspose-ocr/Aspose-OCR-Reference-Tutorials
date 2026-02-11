@@ -130,13 +130,6 @@ C4: Aspose.OCR, PNG, JPEG, GIF, BMP ve TIFF dahil olmak üzere geniş bir görü
 **S5: Aspose.OCR’u mevcut .NET projemle entegre edebilir miyim?**  
 C5: Kesinlikle! Öğreticideki adımları izleyerek Aspose.OCR’u .NET projenize sorunsuz bir şekilde entegre edebilir ve OCR görüntü tanıma işlevi ekleyebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-22  
@@ -144,3 +137,10 @@ C5: Kesinlikle! Öğreticideki adımları izleyerek Aspose.OCR’u .NET projeniz
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

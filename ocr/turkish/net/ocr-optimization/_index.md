@@ -14,56 +14,56 @@ weight: 25
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Optimization
+# OCR Optimizasyonu
 
-## Introduction
+## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **extract text from image** dosyalarından nasıl metin çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturuyor ya da bir uygulamaya akıllı arama ekliyorsanız, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme, bölgeleri tanımlama, ön işleme filtreleri uygulama, sonuçları spell‑checking ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım göstereceğiz. Tüm öğreticiler net, adım adım OCR formatında sunulmuştur, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
-## Quick Answers
-- **“extract text from image” ne anlama geliyor?** Görseldeki karakterleri aranabilir, düzenlenebilir metne dönüştürmek.  
-- **Hangi kütüphane öneriliyor?** Aspose.OCR for .NET, yüksek doğruluklu OCR ve kapsamlı ön işleme seçenekleri sunar.  
-- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.  
-- **Çok sayfalı belgeleri işleyebilir miyim?** Evet, OCR sonuçlarını çok sayfalı PDF'ler veya diğer belge formatları olarak kaydedebilirsiniz.  
+## Hızlı Yanıtlar
+- **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
+- **Hangi paketi öneriliyor mu?** Aspose.OCR for .NET, yüksek doğruluklu OCR ve kapsamlı ön işleme seçenekleri sunar.
+- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim kullanımı için ticari lisans gereklidir.
+- **Çok sayfalı belgeler geçerli olabilir mi?** Evet, OCR sınırları çok sayfalı PDF'ler veya diğer belge formatları olarak kaydedebilirsiniz.
 - **.NET Core destekleniyor mu?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+ üzerinde tam destek sağlar.
 
-## What is “extract text from image”?
-Bir görüntüden metin çıkarmak, optik karakter tanıma (OCR) kullanarak bitmap içinde görünen karakterleri okuyup bunları düz metin veya biçimlendirilmiş belgeler olarak dışa aktarmak anlamına gelir. Aspose.OCR, çeşitli yazı tipleri, diller ve görüntü kalitelerini işlemek için gelişmiş algoritmalar kullanır.
+## "Resimden metin çıkarma" nedir?
+Bir görüntüden metin çıkarmak, optik karakter tanıma (OCR) kullanarak bitmap kullanarak, görünen parçaların içindekileri düz metin veya biçimlendirilmiş belgeler olarak aktarmak anlamına gelir. Aspose.OCR, çeşitli yazı türleri, diller ve görüntü kalitelerini işlemek için gelişmiş çalıştırır.
 
-## Why use Aspose.OCR for .NET?
-- **High accuracy** – gelişmiş tanıma motorları hataları azaltır.  
-- **Rich preprocessing** – filtreler, eğrilik düzeltme ve ikilileştirme, gürültülü görüntülerde sonuçları iyileştirir.  
-- **Flexible output** – düz metin, aranabilir PDF veya çok sayfalı belgeler olarak kaydedilebilir.  
-- **Easy integration** – basit API çağrıları herhangi bir .NET projesine doğal olarak entegre olur.
+## Neden .NET için Aspose.OCR kullanmalısınız?
+- **Yüksek doğruluk** – gelişmiş tanıma motorları hataları azaltır.
+- **Zengin ön işleme** – filtreler, hatalık düzeltme ve ikilileştirme, bölünmüş görüntülerde sonuçları iyileştirir.
+- **Esnek çıktı** – düz metin, aranabilir PDF veya çok sayfalı belgeler olarak kaydedilebilir.
+- **Kolay entegrasyon** – basit API çağrıları herhangi bir .NET projesine doğal olarak entegre olur.
 
-## Prerequisites
-- .NET Framework 4.5+ veya .NET Core 3.1+  
-- Aspose.OCR for .NET NuGet paketi yüklü  
-- C# ve görüntü işleme temellerine aşina olmak  
+## Önkoşullar
+- .NET Framework 4.5+ veya .NET Core 3.1+
+- Aspose.OCR for .NET NuGet paketi yüklü
+- C# ve görüntü işlemenin temellerine ulaşmak
 
-## Perform OCR on Image from URL in OCR Image Recognition
+## OCR Görüntü Tanıma'da URL'deki Görüntü üzerinde OCR gerçekleştirin
 
-Aspose.OCR for .NET ile OCR dünyasına dalın. [performing OCR on images from URL](./perform-ocr-on-image-from-url/) öğreticimiz, sorunsuz entegrasyon konusunda size rehberlik eder. Görüntülerden metni hassas bir şekilde tanıyın ve uygulamalarınızı daha akıllı hâle getirin.
+Aspose.OCR for .NET ile OCR görünümü dalın. [URL'den gelen resimler üzerinde OCR gerçekleştirme](./perform-ocr-on-image-from-url/) öğrettiğimiz, sorunsuz entegrasyon konusunda size rehberlik eder. Görüntülerden hassas bir şekilde tanıyın ve uygulamalarınızı daha akıllı hâle ayarlayın.
 
-## Prepare Rectangles in OCR Image Recognition
+## OCR Görüntü Tanıma'da Dikdörtgenler Hazırlama
 
-Aspose.OCR for .NET’in tam potansiyelini ortaya çıkarmaya hazır mısınız? [preparing rectangles](./prepare-rectangles/) öğreticimiz, başarı için **anahtarınız**dır. Dikdörtgenleri stratejik olarak **konumlandırarak** görüntü tanımını nasıl optimize edeceğinizi adım adım öğrenin. Bu vazgeçilmez bilgi ile .NET uygulamalarınızı yükseltin.
+Aspose.OCR for .NET'in tam potansiyelini ortaya çıkarmaya hazır mısınız? [dikdörtgen hazırlama](./prepare-rectangles/) öğretmemiz, başarı için **anahtarınız**dır. Dikdörtgenleri derleme olarak **konumlandırarak** görüntü tanımını nasıl optimize etme adımları adım adım öğrenin. Bu vazgeçilmez bilgi ile .NET uygulamalarınızı içerir.
 
-## Preprocessing Filters for Image in OCR Image Recognition
+## OCR Görüntü Tanıma'da Görüntü için Ön İşleme Filtreleri
 
-Aspose.OCR for .NET ile OCR doğruluğunu artırmak için [preprocessing filters](./preprocessing-filters-for-image/) keşfedin. Şimdi indirin ve tanımadan önce görüntülerinizi nasıl ince ayar yapacağınızı öğrenin. Bu öğretici, sorunsuz entegrasyon sağlayarak doğruluk ve verimliliği artırır.
+Aspose.OCR for .NET ile OCR doğruluğunu artırmak için [preprocessing Filters](./preprocessing-filters-for-image/) yetişkinler. Şimdi indirilebilir ve tanınmadan önce görüntülerinizi nasıl ince ayarlayabileceğinizi öğrenin. Bu programlama, kusursuz entegrasyon sağlayarak doğruluk ve verimliliği artırır.
 
-## Result Correction with Spell Checking in OCR Image Recognition
+## OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
 
-[Aspose.OCR for .NET](./result-correction-with-spell-checking/) ile eşsiz OCR doğruluğu elde edin. Spell checking ile sonuç düzeltme öğreticimiz, sözlükleri özelleştirmenize, yazım hatalarını düzeltmenize ve hatasız metin tanımayı zahmetsizce sağlamanıza olanak tanır. Aspose.OCR ile hassasiyet dünyasına dalın.
+[Aspose.OCR for .NET](./result-correction-with-spell-checking/) ile benzersiz OCR dağılımı elde edin. Yazım denetimi ile sonuç düzeltme öğreticimiz, sözlükleri kişiselleştirmenize, yazım hatalarını düzeltmenize ve hatalarınızı metin tanımayı zahmetsizce sağlamanıza olanak tanır. Aspose.OCR ile kararlılığın bozulması.
 
-## Save Multipage Result as Document in OCR Image Recognition
+## OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
 
-Aspose.OCR for .NET ile çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin. [step-by-step guide](./save-multipage-result-as-document/) tam belge oluşturma potansiyelini açığa çıkarır. Aspose.OCR’ı sorunsuz bir şekilde entegre edin ve OCR sonuçlarınızı çok sayfalı belgelere kolayca dönüştürün.
+Aspose.OCR for .NET ile çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydetme. [adım adım kılavuz](./save-multipage-result-as-document/) tam belge oluşturma potansiyelini ortaya çıkarır. Aspose.OCR'ı sorunsuz bir şekilde entegre edin ve OCR sonuçlarınızı çok sayfalı belgelere kolayca dönüştürün.
 
-Aspose.OCR For .NET Tutorials Listing kullanarak ek kaynaklara erişebilir ve OCR optimizasyonundaki en son gelişmelerden haberdar olabilirsiniz. Aspose.OCR for .NET öğreticileriyle hassasiyet ve verimlilik dünyasına dalın.
+Aspose.OCR For .NET Dersleri Listelemeyi kullanarak ek kaynaklara erişebilir ve OCR görünümündeki en son gelişmelerden haberdar olabilirsiniz. Aspose.OCR for .NET öğretmenleriyle sıcaklık ve verimlilik değişimi dalın.
 
-## OCR Optimization Tutorials
+## OCR Optimizasyon Eğitimleri
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET ile sorunsuz OCR entegrasyonunu keşfedin. Görüntülerden metni hassas bir şekilde tanıyın.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -75,28 +75,28 @@ Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzelt
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: Birden fazla dil içeren görünt dosyalarından metin çıkarabilir miyim?**  
-C: Evet, Aspose.OCR geniş bir dil yelpazesini destekler ve karışık‑dil içeriğini tanıyacak şekilde yapılandırılabilir.
+**S: Birden fazla dil içeren görüntü dosyalarından metin alabilir miyim?**
+C: Evet, Aspose.OCR geniş bir dil aralığını piyasaya sürüyor ve karışık‑dil çeşitliliği görülmeyecek şekilde yapılandırılabilir.
 
-**S: Ön işleme doğruluğu nasıl artırır?**  
-C: İkilileştirme, lekesizleştirme ve eğrilik düzeltme gibi filtreler görüntüyü temizler, gürültüyü azaltır ve metni hizalar; bu da tanıma oranını yükseltir.
+**S: Ön işleme nasıl artar?**
+C: İkileştirme, lekesizleştirme ve eğrilik düzeltme gibi filtrelerin temizlenmesini temizler, gürültüyü azaltır ve mesafeyi hizalar; bu da tanıma özellikleri yükseltir.
 
-**S: Tek bir çalışmada işleyebileceğim sayfa sayısına bir limit var mı?**  
-C: Katı bir limit yoktur; performans sistem kaynaklarına bağlıdır. Çok büyük partiler için sayfaları parçalar halinde işlemeyi düşünün.
+**S: Tek bir başarı işleyebileceğim sayfanın bozulması bir limit var mı?**
+C: Katı bir limit yoktur; performans sistem kaynaklarına bağlıdır. Çok büyük partiler için parçalar halinde işlemeyi düşünün.
 
-**S: OCR motorunu bulut tabanlı bir hizmete entegre edebilir miyim?**  
-C: Kesinlikle. API platform bağımsızdır ve Azure Functions, AWS Lambda (.NET Core üzerinden) veya başka bir bulut ortamında çalışır.
+**S: OCR motorunu bulut tabanlı bir hizmete entegre edebilir miyim?**
+C: elbette. API platformu bağımsızdır ve Azure Functions, AWS Lambda (.NET Core üzerinden) veya başka bir bulut ortamında çalışır.
 
-**S: Ticari projeler için hangi lisans seçenekleri mevcut?**  
-C: Aspose, kalıcı ve abonelik lisansları sunar. Dağıtım ve bütçenize en uygun modeli seçin.
+**S: Ticari projeler için hangi lisans seçenekleri mevcut?**
+C: Aspose, kalıcı ve özellikli lisansları sunar. Dağıtım ve bütçenize en uygun modeli seçin.
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.OCR for .NET (latest stable release)  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-22
+**Şunlarla Test Edildi:** Aspose.OCR for .NET (en son kararlı sürüm)
+**Yazar:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

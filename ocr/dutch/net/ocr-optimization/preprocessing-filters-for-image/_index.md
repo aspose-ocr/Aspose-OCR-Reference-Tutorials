@@ -130,13 +130,6 @@ A4: Aspose.OCR ondersteunt een breed scala aan afbeeldingsformaten, waaronder PN
 **Q5: Kan ik Aspose.OCR integreren in mijn bestaande .NET‑project?**  
 A5: Zeker! Volg de stappen die in de tutorial worden beschreven, en u zult Aspose.OCR naadloos integreren in uw .NET‑project voor OCR‑afbeeldingsherkenning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-22  
@@ -144,3 +137,10 @@ A5: Zeker! Volg de stappen die in de tutorial worden beschreven, en u zult Aspos
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

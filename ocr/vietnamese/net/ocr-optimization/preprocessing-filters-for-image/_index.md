@@ -130,13 +130,6 @@ A4: Aspose.OCR hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPE
 **Q5: Tôi có thể tích hợp Aspose.OCR vào dự án .NET hiện có của mình không?**  
 A5: Chắc chắn! Thực hiện các bước trong tutorial và bạn sẽ tích hợp Aspose.OCR một cách liền mạch vào dự án .NET của mình để nhận dạng OCR hình ảnh.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-22  
@@ -144,3 +137,10 @@ A5: Chắc chắn! Thực hiện các bước trong tutorial và bạn sẽ tíc
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

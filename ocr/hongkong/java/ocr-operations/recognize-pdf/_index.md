@@ -14,22 +14,22 @@ weight: 12
 
 # 如何在 Aspose.OCR for Java 中對 PDF 文件進行 OCR
 
-## Introduction
+## 簡介
 
 如果您想在 Java 環境中高效地 **how to ocr pdf** 檔案，您來對地方了。光學字符識別 (OCR) 將印刷或手寫內容轉換為可搜尋、可編輯的文字，而 Aspose.OCR for Java 讓此過程無縫銜接。在本教學中，我們將逐步說明識別 PDF 文件、提取文字以及處理結果的每一步——提供清晰、易懂的說明。
 
-## Quick Answers
+## 快速解答
 - **What does “how to ocr pdf” mean?** 它指的是使用 OCR 技術讀取並提取 PDF 檔案中的文字。  
 - **Which Java OCR library is used?** Aspose.OCR for Java，一個功能強大的商業函式庫。  
 - **Do I need a license?** 免費試用可用於評估；正式使用需購買授權。  
 - **Can it handle scanned PDFs?** 可以——Aspose.OCR 能夠識別掃描 PDF 頁面的文字。  
 - **What is the typical setup time?** 大約 10‑15 分鐘即可執行基本範例。
 
-## What is OCR and Why Use It on PDFs?
+## 什麼是 OCR？為什麼要在 PDF 上使用它？
 
 OCR（光學字符識別）將文字圖像——例如掃描的 PDF 頁面——轉換為機器可讀的字符。這使您能夠 **extract pdf text ocr** 以進行搜尋、索引或進一步處理，將靜態文件轉變為動態資料來源。
 
-## Prerequisites
+## 前提條件
 
 在開始編寫程式碼之前，請確保您具備以下條件：
 
@@ -37,7 +37,7 @@ OCR（光學字符識別）將文字圖像——例如掃描的 PDF 頁面——
 - **Aspose.OCR for Java Library** – 從 [download page](https://releases.aspose.com/ocr/java/) 下載。  
 - **PDF Document for Recognition** – 您想要處理的 PDF（掃描或數位產生）。
 
-## Import Packages
+## 導入包
 
 要開始，從 Aspose.OCR 函式庫匯入必要的類別。這讓您可以使用 OCR 引擎和結果處理工具。
 
@@ -55,7 +55,7 @@ import java.awt.*;
 import java.util.ArrayList;
 ```
 
-## Step 1: Set Up Your Project
+## 步驟 1：設定項目
 
 將 Aspose.OCR JAR 檔案放入專案的 `lib` 資料夾（或透過 Maven/Gradle 加入），並定義工作目錄的路徑。
 
@@ -64,7 +64,7 @@ import java.util.ArrayList;
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify PDF Document Path
+## 步驟 2：指定 PDF 文件路徑
 
 將 OCR 引擎指向您要處理的 PDF。
 
@@ -73,7 +73,7 @@ String dataDir = "Your Document Directory";
 String file = dataDir + "multi_page_1.pdf";
 ```
 
-## Step 3: Create API Instance
+## 步驟 3：建立 API 實例
 
 實例化核心 OCR 類別，以處理 PDF 識別。
 
@@ -82,7 +82,7 @@ String file = dataDir + "multi_page_1.pdf";
 AsposeOCRPdf api = new AsposeOCRPdf();
 ```
 
-## Step 4: Set Recognition Options
+## 步驟 4：設定識別選項
 
 使用 `DocumentRecognitionSettings` 設定 OCR 參數——例如語言與頁數——在此您告訴 **java ocr library** 要搜尋什麼。
 
@@ -92,7 +92,7 @@ DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
 settings.setLanguage(Language.Eng);
 ```
 
-## Step 5: Perform OCR Recognition
+## 步驟 5：執行 OCR 識別
 
 在指定的 PDF 上執行 OCR 引擎。此方法會回傳 `RecognitionResult` 物件清單，每個物件代表一頁。
 
@@ -101,7 +101,7 @@ settings.setLanguage(Language.Eng);
 ArrayList<RecognitionResult> result = api.RecognizePdf(file, settings);
 ```
 
-## Step 6: Print Recognition Results
+## 步驟 6：列印辨識結果
 
 遍歷結果並顯示提取的文字、版面資訊以及任何警告。
 
@@ -112,7 +112,7 @@ for(RecognitionResult r: result) {
 }
 ```
 
-## Step 7: Define PrintResult Method
+## 步驟 7：定義 PrintResult 方法
 
 輔助方法負責格式化並列印詳細的 OCR 輸出。（實作已在原始程式碼片段中提供。）
 
@@ -123,38 +123,38 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-## Why This Matters
+## 為什麼這很重要
 
 - **Extract PDF Text OCR** – 將靜態 PDF 頁面轉換為可搜尋的文字，以供分析、索引或資料探勘使用。  
 - **Convert PDF to Text** – 輕鬆將提取的內容輸入至資料庫或 NLP 流程等下游系統。  
 - **Java OCR Example** – 本教學提供即用範例，您可依需求調整用於批次處理或 Web 服務。  
 - **Recognize Scanned PDF** – 同樣適用於掃描文件，適合數位化檔案庫。
 
-## Common Issues & Tips
+## 常見問題及技巧
 
 - **Low Accuracy:** 確保來源 PDF 具備高解析度（300 dpi 以上）。  
 - **Memory Consumption:** 對於大型 PDF，請分批處理頁面以避免 OutOfMemory 錯誤。  
 - **Language Support:** 若文件非英文，請設定相應的 `Language` 列舉。
 
-## FAQ’s
+## 常見問題解答
 
-### Q1: Is Aspose.OCR compatible with other document formats?
+### 問題 1：Aspose.OCR 是否相容於其他文件格式？
 
 A1: Aspose.OCR 支援多種文件格式，包括 PDF、影像等。詳情請參閱文件。
 
-### Q2: Can I use Aspose.OCR for commercial projects?
+### 問題 2：我可以將 Aspose.OCR 用於商業專案嗎？
 
 A2: 可以，Aspose.OCR 提供個人與商業專案的授權。請前往 [purchase page](https://purchase.aspose.com/buy) 了解授權細節。
 
-### Q3: Are there any limitations to the OCR recognition process?
+### 問題 3：OCR 辨識過程是否有任何限制？
 
 A3: 雖然 Aspose.OCR 功能強大，但準確度會受輸入文件的品質與清晰度影響。請確保文件清晰以獲得最佳結果。
 
-### Q4: How can I get support for Aspose.OCR?
+### 問題 4：如何獲得 Aspose.OCR 的支援？
 
 A4: 如需支援與討論，請造訪 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)。
 
-### Q5: Is there a free trial available for Aspose.OCR?
+### 問題 5：Aspose.OCR 是否提供免費試用版？
 
 A5: 有，您可從 [here](https://releases.aspose.com/) 取得免費試用。
 
