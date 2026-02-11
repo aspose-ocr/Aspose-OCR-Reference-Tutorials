@@ -55,6 +55,17 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Uruchom OCR na obrazie w C# – Kompletny samouczek Aspose OCR](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Pełny przewodnik, jak wykonać OCR na obrazie w C# przy użyciu Aspose OCR.
+### [Utwórz przeszukiwalny PDF z arabskiego obrazu – kompletny przewodnik](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.OCR przekształcić arabskie obrazy w przeszukiwalne pliki PDF w kilku prostych krokach.
+### [Utwórz przeszukiwalny PDF z obrazu przy użyciu Aspose OCR w C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Dowiedz się, jak przy użyciu Aspose OCR w C# przekształcić obraz w przeszukiwalny plik PDF w kilku prostych krokach.
+### [Obraz OCR do JSON w C# – Kompletny przewodnik krok po kroku](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak przetworzyć obraz OCR i uzyskać wynik w formacie JSON przy użyciu C# i Aspose.OCR.
+### [Jak uruchomić OCR na wielostronicowych obrazach TIFF z Aspose OCR – przewodnik C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Dowiedz się, jak przetwarzać wielostronicowe obrazy TIFF przy użyciu Aspose OCR w C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

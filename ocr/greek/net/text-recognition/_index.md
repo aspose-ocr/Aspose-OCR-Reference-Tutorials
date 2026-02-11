@@ -55,6 +55,17 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Εκτέλεση OCR σε εικόνα με C# – Πλήρης οδηγός Aspose OCR](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Μάθετε πώς να εκτελείτε OCR σε εικόνα χρησιμοποιώντας C# με το Aspose OCR σε έναν πλήρη βήμα-βήμα οδηγό.
+### [Δημιουργία Αναζητήσιμου PDF από Αραβική Εικόνα – Πλήρης Οδηγός](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Μάθετε πώς να μετατρέψετε αραβικές εικόνες σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για .NET σε έναν πλήρη βήμα‑βήμα οδηγό.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με Aspose OCR σε C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για .NET σε έναν πλήρη βήμα‑βήμα οδηγό.
+### [OCR εικόνας σε JSON σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε εικόνες OCR σε JSON χρησιμοποιώντας C# με το Aspose OCR σε έναν πλήρη βήμα‑βήμα οδηγό.
+### [Πώς να εκτελέσετε OCR σε εικόνες TIFF πολλαπλών σελίδων με Aspose OCR – Οδηγός C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Μάθετε πώς να επεξεργάζεστε εικόνες TIFF πολλαπλών σελίδων με Aspose OCR σε C#, βήμα‑βήμα οδηγός.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
