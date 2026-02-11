@@ -18,37 +18,41 @@ weight: 13
 
 ## Introduction
 
-Bienvenue dans notre tutoriel approfondi sur **multiple image ocr** avec Aspose.OCR pour .NET. La reconnaissance optique de caractères (OCR) convertit les documents papier numérisés, les PDF ou les fichiers image en texte éditable et interrogeable. Dans ce guide, vous apprendrez comment extraire du texte à partir d’images, lire du texte JPEG et traiter plusieurs fichiers en un seul appel — idéal pour les scénarios où vous devez **scan document to text** rapidement et de façon fiable.
+Bienvenue dans notre tutoriel approfondi sur **multiple image ocr** avec Aspose.OCR pour .NET. La reconnaissance optique de caractères (OCR) convertit les documents papier numérisés, les PDF ou les fichiers image en texte éditable et interrogeable. Dans ce guide, vous apprendrez comment extraire du texte à partir d'images, lire du texte JPEG et traiter plusieurs fichiers en un seul appel — idéal pour les scénarios où vous devez **scan document to text** rapidement et de façon fiable.
 
-## Quick Answers
-- **What does “multiple image ocr” do?** It lets you recognize text from a list of image files in a single API call.  
-- **Which formats are supported?** JPEG, PNG, BMP, TIFF, GIF and many more.  
-- **Do I need a license?** A temporary license is required for production; a free trial works for evaluation.  
-- **Can I customize the recognition?** Yes—use `RecognitionSettings` to tweak language, resolution, and preprocessing.  
-- **How many images can I process at once?** Practically any number; the API streams each file, so memory usage stays low.
+## Réponses rapides
+- **Que fait « ocr d'images multiples » ?** Il vous permet de reconnaître le texte d'une liste de fichiers image en un seul appel API.
+- **Quels formats sont pris en charge ?** JPEG, PNG, BMP, TIFF, GIF et bien d'autres.
+- **Ai-je besoin d'une licence ?** Une licence temporaire est requise pour la production ; un essai gratuit fonctionne pour l’évaluation.
+- **Puis-je personnaliser la reconnaissance ?** Oui : utilisez `RecognitionSettings` pour ajuster la langue, la résolution et le prétraitement.
 
-## What is multiple image ocr?
-**multiple image ocr** is the capability to feed a collection of image paths to Aspose.OCR and receive the recognized text for each image in one operation. This saves development time and reduces network round‑trips when dealing with batches of scanned documents.
+- **Combien d'images puis-je traiter simultanément ?** Pratiquement autant ; l'API traite chaque fichier en flux continu, ce qui limite la consommation de mémoire.
 
-## Why use Aspose.OCR for multiple image processing?
-- **High accuracy** on noisy scans and low‑resolution JPEGs.  
-- **Built‑in language detection** for multilingual documents.  
-- **Full .NET support** – works with .NET Framework, .NET Core, and .NET 5/6+.  
-- **No external dependencies**—the library handles image loading, preprocessing, and text extraction internally.
+## Qu'est-ce que la reconnaissance optique de caractères (OCR) pour plusieurs images ?
 
-## Prerequisites
+La **reconnaissance optique de caractères (OCR) pour plusieurs images** permet de fournir à Aspose.OCR une collection de chemins d'accès à des images et d'obtenir le texte reconnu pour chaque image en une seule opération. Cela permet de gagner du temps de développement et de réduire les allers-retours réseau lors du traitement de lots de documents numérisés.
 
-Before we dive into the code, make sure you have the following prerequisites in place:
+## Pourquoi utiliser Aspose.OCR pour le traitement de plusieurs images ?
 
-1. Aspose.OCR for .NET Library: Ensure you have the Aspose.OCR library installed. You can download it from the [Aspose.OCR for .NET download page](https://releases.aspose.com/ocr/net/).
+- **Haute précision** pour les numérisations bruitées et les fichiers JPEG basse résolution.
 
-2. Document Directory: Set up a directory where your documents and images for OCR recognition are stored.
+- **Détection de la langue intégrée** pour les documents multilingues.
 
-Now that you have the essentials, let's get started with the step‑by‑step guide.
+- **Compatibilité .NET complète** : fonctionne avec .NET Framework, .NET Core et .NET 5/6+. - **Aucune dépendance externe** : la bibliothèque gère en interne le chargement des images, le prétraitement et l’extraction de texte.
 
-## Import Namespaces
+## Prérequis
 
-In your C# project, include the necessary namespaces to use Aspose.OCR for .NET:
+Avant de commencer, assurez-vous d’avoir installé les éléments suivants :
+
+1. Bibliothèque Aspose.OCR pour .NET : assurez-vous d’avoir installé la bibliothèque Aspose.OCR. Vous pouvez la télécharger depuis la [page de téléchargement d’Aspose.OCR pour .NET](https://releases.aspose.com/ocr/net/).
+
+2. Répertoire des documents : créez un répertoire pour stocker vos documents et images destinés à la reconnaissance optique de caractères (OCR).
+
+Maintenant que vous avez les éléments essentiels, passons au guide pas à pas.
+
+## Importer les espaces de noms
+
+Dans votre projet C#, incluez les espaces de noms nécessaires à l’utilisation d’Aspose.OCR pour .NET :
 
 ```csharp
 using System;
@@ -58,9 +62,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Step 1: Set up Your Document Directory
+## Étape 1 : Configurer votre répertoire de documents
 
-Begin by initializing the path to your document directory:
+Commencez par initialiser le chemin d’accès à votre répertoire de documents :
 
 ```csharp
 // The path to the documents directory.
@@ -70,9 +74,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Step 2: Specify Image Paths
+## Étape 2 : Spécifier les chemins d’accès aux images
 
-Before recognition, define the paths of the images you want to process. For example, you can **extract text images** from JPEG and PNG files:
+Avant la reconnaissance, définissez les chemins d’accès aux images à traiter. Par exemple, vous pouvez **extraire des images de texte** à partir de fichiers JPEG et PNG :
 
 ```csharp
 List<string> imagePaths = new List<string>
@@ -82,9 +86,9 @@ List<string> imagePaths = new List<string>
 };
 ```
 
-## Step 3: Perform OCR Image Recognition
+## Étape 3 : Effectuer la reconnaissance optique de caractères (OCR)
 
-Initiate the OCR recognition process with the specified images. This step demonstrates **ocr multiple files** handling:
+Lancez le processus de reconnaissance optique de caractères (OCR) avec les images spécifiées. Cette étape illustre la **gestion de plusieurs fichiers OCR** :
 
 ```csharp
 RecognitionResult[] result = api.RecognizeMultipleImages(imagePaths, new RecognitionSettings
@@ -93,9 +97,9 @@ RecognitionResult[] result = api.RecognizeMultipleImages(imagePaths, new Recogni
 });
 ```
 
-## Step 4: Display Recognition Results
+## Étape 4 : Afficher les résultats de la reconnaissance
 
-Print the recognition results for each image. Here you’ll see the extracted text from each file, effectively **reading JPEG text** and other formats:
+Affichez les résultats de la reconnaissance pour chaque image. Vous verrez ici le texte extrait de chaque fichier, ce qui permet de **lire du texte JPEG** et d’autres formats :
 
 ```csharp
 for (int i = 0; i < result.Length; i++)
@@ -104,40 +108,49 @@ for (int i = 0; i < result.Length; i++)
 }
 ```
 
-## Common Issues and Solutions
+## Problèmes courants et solutions
 
-| Issue | Cause | Fix |
+| Problème | Cause | Solution |
+
 |-------|-------|-----|
-| No text returned | Image quality too low | Increase DPI, or use `RecognitionSettings` to enable image preprocessing |
-| Wrong language detected | Default language is English | Set `RecognitionSettings.Language` to the appropriate language code |
-| Out‑of‑memory for large batches | Loading many high‑resolution images at once | Process images in smaller batches or stream them using `RecognizeMultipleImages` which already handles streaming |
 
-## Frequently Asked Questions
+| Aucun texte renvoyé | Qualité d'image insuffisante | Augmentez la résolution (DPI) ou utilisez `RecognitionSettings` pour activer le prétraitement des images |
 
-**Q: Can I customize recognition settings for specific images?**  
-A: Yes, the `RecognitionSettings` class lets you tailor OCR parameters such as language, resolution, and preprocessing for each batch.
+| Langue incorrecte détectée | La langue par défaut est l'anglais | Définissez `RecognitionSettings.Language` sur le code de langue approprié |
 
-**Q: Is Aspose.OCR for .NET compatible with various image formats?**  
-A: Absolutely. Aspose.OCR supports JPEG, PNG, BMP, TIFF, GIF, and many other formats, making it flexible for diverse document types.
+| Mémoire insuffisante pour les grands lots | Chargement simultané de nombreuses images haute résolution | Traitez les images par petits lots ou en flux continu à l'aide de `RecognizeMultipleImages`, qui gère déjà le flux continu |
 
-**Q: How can I obtain a temporary license for Aspose.OCR for .NET?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for evaluation purposes.
+## Foire aux questions
 
-**Q: Where can I find detailed documentation for Aspose.OCR for .NET?**  
-A: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for comprehensive information and usage guidelines.
+**Q : Puis-je personnaliser les paramètres de reconnaissance pour des images spécifiques ?**
 
-**Q: What if I encounter issues or have specific questions during implementation?**  
-A: Feel free to seek assistance on the [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) for prompt support from the community and experts.
+R : Oui, la classe `RecognitionSettings` vous permet d'adapter les paramètres OCR tels que la langue, la résolution et le prétraitement pour chaque lot.
+
+**Q : Aspose.OCR pour .NET est-il compatible avec différents formats d’image ?**
+
+R : Absolument. Aspose.OCR prend en charge les formats JPEG, PNG, BMP, TIFF, GIF et bien d’autres, ce qui le rend compatible avec une grande variété de documents.
+
+**Q : Comment obtenir une licence temporaire pour Aspose.OCR pour .NET ?**
+
+R : Rendez-vous sur [ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire à des fins d’évaluation.
+
+**Q : Où trouver la documentation détaillée d’Aspose.OCR pour .NET ?**
+
+R : Consultez la [documentation](https://reference.aspose.com/ocr/net/) pour obtenir des informations complètes et des instructions d’utilisation.
+
+**Q : Que faire en cas de problème ou de question spécifique lors de la mise en œuvre ?**
+
+R : N’hésitez pas à solliciter l’aide de la communauté et des experts sur le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
 ## Conclusion
 
-Congratulations! You've successfully executed **multiple image ocr** with a list using Aspose.OCR for .NET. This powerful capability lets you **scan document to text**, **extract text images**, and **read JPEG text** in bulk, opening up new possibilities for data extraction, archiving, and automated workflows.
+Félicitations ! Vous avez exécuté avec succès la **reconnaissance optique de caractères (OCR) de plusieurs images** à l'aide d'Aspose.OCR pour .NET. Cette puissante fonctionnalité vous permet de **numériser des documents pour en extraire du texte**, d'**extraire du texte d'images** et de **lire du texte JPEG** en masse, ouvrant ainsi de nouvelles perspectives pour l'extraction de données, l'archivage et les flux de travail automatisés.
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
+**Dernière mise à jour :** 21/12/2025
+**Testé avec :** Aspose.OCR 24.11 pour .NET
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

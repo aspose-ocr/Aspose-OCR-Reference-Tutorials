@@ -52,6 +52,16 @@ Aspose.OCR for .NET에서 **OCR 언어 선택**을 마스터하여 다양한 언
 ## 리스트와 함께하는 OCR 이미지 인식 작업
 Aspose.OCR for .NET을 활용해 리스트 기반으로 OCR 이미지 인식을 수행하는 방법을 탐구합니다. 텍스트 추출을 향상시키고 다양한 데이터 세트를 효율적으로 처리하여 생산성을 높이세요.
 
+## OCR 구성 튜토리얼
+### [아카이브와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-archive/)
+Aspose.OCR을 활용해 .NET 애플리케이션에서 아카이브 이미지의 텍스트를 단계별로 추출하는 방법을 배웁니다.  
+### [폴더와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-folder/)
+Aspose.OCR을 사용해 .NET에서 폴더에 저장된 이미지에서 텍스트를 손쉽게 추출하는 방법을 알아보세요.  
+### [언어 선택과 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-language-selection/)
+Aspose.OCR for .NET으로 강력한 OCR 기능을 활용해 이미지에서 텍스트를 원활히 추출하는 방법을 소개합니다.  
+### [리스트와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-list/)
+Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽게 수행하고, 애플리케이션의 생산성과 데이터 추출 효율을 높이는 방법을 제공합니다.
+
 ### 일반적인 사용 사례
 - **스캔된 청구서 이미지**에서 텍스트를 추출해 자동 회계 처리.  
 - 대용량 문서 아카이브를 색인화하여 검색 가능한 저장소 구축.  
@@ -80,25 +90,15 @@ A: 네, `OcrResult` 객체가 신뢰도 값을 제공하므로 프로그래밍�
 
 ---
 
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.OCR 24.11 for .NET  
+**작성자:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## OCR 구성 튜토리얼
-### [아카이브와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-archive/)
-Aspose.OCR을 활용해 .NET 애플리케이션에서 아카이브 이미지의 텍스트를 단계별로 추출하는 방법을 배웁니다.  
-### [폴더와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-folder/)
-Aspose.OCR을 사용해 .NET에서 폴더에 저장된 이미지에서 텍스트를 손쉽게 추출하는 방법을 알아보세요.  
-### [언어 선택과 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-language-selection/)
-Aspose.OCR for .NET으로 강력한 OCR 기능을 활용해 이미지에서 텍스트를 원활히 추출하는 방법을 소개합니다.  
-### [리스트와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-list/)
-Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽게 수행하고, 애플리케이션의 생산성과 데이터 추출 효율을 높이는 방법을 제공합니다.
-
-**마지막 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.OCR 24.11 for .NET  
-**작성자:** Aspose  
-
----

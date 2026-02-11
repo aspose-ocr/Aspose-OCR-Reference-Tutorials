@@ -51,6 +51,16 @@ weight: 24
 ## 使用列表进行 OCR 图像识别的 OCROperation
 探索 Aspose.OCR for .NET 的广阔潜力，轻松实现基于列表的 OCR 图像识别。本教程不仅提升文本提取效率，还能在处理多样化数据集时提高生产力，揭示列表操作的高效 OCR 方案。
 
+## OCR 配置教程
+### [使用归档进行 OCR 图像识别的 OCROperation](./ocr-operation-with-archive/)
+解锁 Aspose.OCR 在 .NET 应用中的 OCR 潜能，逐步学习如何从归档图像中提取文本。  
+### [使用文件夹进行 OCR 图像识别的 OCROperation](./ocr-operation-with-folder/)
+释放 Aspose.OCR 在 .NET 中的 OCR 图像识别能力，轻松从文件夹中的图像提取文本。  
+### [使用语言选择进行 OCR 图像识别的 OCROperation](./ocr-operation-with-language-selection/)
+利用 Aspose.OCR for .NET 的强大 OCR 功能，流畅地从图像中提取文本。  
+### [使用列表进行 OCR 图像识别的 OCROperation](./ocr-operation-with-list/)
+发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。
+
 ### 常见使用场景
 - **从扫描发票中提取文本**，实现自动化会计。  
 - 为大型文档归档建立可搜索的索引库。  
@@ -79,23 +89,15 @@ weight: 24
 
 ---
 
+**最后更新：** 2025-12-21  
+**测试环境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## OCR 配置教程
-### [使用归档进行 OCR 图像识别的 OCROperation](./ocr-operation-with-archive/)
-解锁 Aspose.OCR 在 .NET 应用中的 OCR 潜能，逐步学习如何从归档图像中提取文本。  
-### [使用文件夹进行 OCR 图像识别的 OCROperation](./ocr-operation-with-folder/)
-释放 Aspose.OCR 在 .NET 中的 OCR 图像识别能力，轻松从文件夹中的图像提取文本。  
-### [使用语言选择进行 OCR 图像识别的 OCROperation](./ocr-operation-with-language-selection/)
-利用 Aspose.OCR for .NET 的强大 OCR 功能，流畅地从图像中提取文本。  
-### [使用列表进行 OCR 图像识别的 OCROperation](./ocr-operation-with-list/)
-发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。
-
-**最后更新：** 2025-12-21  
-**测试环境：** Aspose.OCR 24.11 for .NET  
-**作者：** Aspose

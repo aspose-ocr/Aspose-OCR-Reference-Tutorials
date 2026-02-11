@@ -53,6 +53,16 @@ Nâng tầm khả năng OCR của bạn bằng cách làm chủ **ocr language s
 ## OCROperation với List trong Nhận dạng Hình ảnh OCR
 Khám phá tiềm năng rộng lớn của Aspose.OCR cho .NET khi bạn thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Bài hướng dẫn này không chỉ nâng cao việc trích xuất văn bản mà còn tăng năng suất trong việc xử lý các bộ dữ liệu đa dạng. Khám phá hiệu quả của OCR với các thao tác danh sách.
 
+## Hướng dẫn Cấu hình OCR
+### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
+Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Học cách trích xuất văn bản từ các hình ảnh trong archive từng bước một.
+### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
+Mở khóa sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspose.OCR. Trích xuất văn bản một cách dễ dàng từ các hình ảnh.
+### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
+Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
+### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
+Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Tăng năng suất và việc trích xuất dữ liệu trong các ứng dụng của bạn.
+
 ### Các trường hợp sử dụng phổ biến
 - **Extract text images** từ hóa đơn đã quét để tự động kế toán.  
 - Lập chỉ mục cho các tệp lưu trữ tài liệu lớn để tạo kho lưu trữ có thể tìm kiếm.  
@@ -81,25 +91,15 @@ A: Có, đối tượng `OcrResult` cung cấp các giá trị confidence mà b�
 
 ---
 
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Hướng dẫn Cấu hình OCR
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
-Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Học cách trích xuất văn bản từ các hình ảnh trong archive từng bước một.
-### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
-Mở khóa sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspose.OCR. Trích xuất văn bản một cách dễ dàng từ các hình ảnh.
-### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
-Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
-### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Tăng năng suất và việc trích xuất dữ liệu trong các ứng dụng của bạn.
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
-
----

@@ -53,6 +53,16 @@ Lleva tus capacidades OCR a nuevos niveles dominando **ocr language selection** 
 ## OCROperation con Lista en Reconocimiento de Imágenes OCR
 Explora el enorme potencial de Aspose.OCR para .NET mientras realizas reconocimiento de imágenes OCR con listas de manera sencilla. Este tutorial no solo mejora la extracción de texto, sino que también incrementa la productividad al manejar conjuntos de datos diversos. Descubre la eficiencia del OCR con operaciones basadas en listas.
 
+## Tutoriales de Configuración de OCR
+### [OCROperation con Archivo en Reconocimiento de Imágenes OCR](./ocr-operation-with-archive/)
+Desbloquea el potencial del OCR en aplicaciones .NET con Aspose.OCR. Aprende a extraer texto de imágenes en archivos comprimidos paso a paso.
+### [OCROperation con Carpeta en Reconocimiento de Imágenes OCR](./ocr-operation-with-folder/)
+Desbloquea el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extrae texto sin esfuerzo de imágenes.
+### [OCROperation con Selección de Idioma en Reconocimiento de Imágenes OCR](./ocr-operation-with-language-selection/)
+Desbloquea potentes capacidades OCR con Aspose.OCR para .NET. Extrae texto de imágenes de forma fluida.
+### [OCROperation con Lista en Reconocimiento de Imágenes OCR](./ocr-operation-with-list/)
+Desbloquea el potencial de Aspose.OCR para .NET. Realiza reconocimiento de imágenes OCR con listas de manera sencilla. Incrementa la productividad y la extracción de datos en tus aplicaciones.
+
 ### Casos de uso comunes
 - **Extraer texto de imágenes** de facturas escaneadas para contabilidad automatizada.  
 - Indexar grandes archivos de documentos para repositorios buscables.  
@@ -81,25 +91,15 @@ R: Sí, el objeto `OcrResult` proporciona valores de confianza que puedes inspec
 
 ---
 
+**Última actualización:** 2025-12-21  
+**Probado con:** Aspose.OCR 24.11 para .NET  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriales de Configuración de OCR
-### [OCROperation con Archivo en Reconocimiento de Imágenes OCR](./ocr-operation-with-archive/)
-Desbloquea el potencial del OCR en aplicaciones .NET con Aspose.OCR. Aprende a extraer texto de imágenes en archivos comprimidos paso a paso.
-### [OCROperation con Carpeta en Reconocimiento de Imágenes OCR](./ocr-operation-with-folder/)
-Desbloquea el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extrae texto sin esfuerzo de imágenes.
-### [OCROperation con Selección de Idioma en Reconocimiento de Imágenes OCR](./ocr-operation-with-language-selection/)
-Desbloquea potentes capacidades OCR con Aspose.OCR para .NET. Extrae texto de imágenes de forma fluida.
-### [OCROperation con Lista en Reconocimiento de Imágenes OCR](./ocr-operation-with-list/)
-Desbloquea el potencial de Aspose.OCR para .NET. Realiza reconocimiento de imágenes OCR con listas de manera sencilla. Incrementa la productividad y la extracción de datos en tus aplicaciones.
-
-**Última actualización:** 2025-12-21  
-**Probado con:** Aspose.OCR 24.11 para .NET  
-**Autor:** Aspose  
-
----

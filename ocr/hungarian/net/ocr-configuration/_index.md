@@ -53,6 +53,16 @@ Emelje OCR képességeit új szintre az **ocr language selection** (OCR nyelvvá
 ## OCROperation listával az OCR képfelismerésben
 Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedén végez OCR képfelismerést listákkal. Ez az oktatóanyag nemcsak a szövegkinyerést javítja, hanem a változatos adatkészletek kezelésében is növeli a termelékenységet. Ismerje meg az OCR hatékonyságát listaműveletekkel.
 
+## OCR konfigurációs oktatóanyagok
+### [OCROperation archívummal az OCR képfelismerésben](./ocr-operation-with-archive/)
+Fedezze fel az OCR lehetőségeit .NET alkalmazásokban az Aspose.OCR segítségével. Tanulja meg lépésről lépésre a szöveg kinyerését archívumképekből.  
+### [OCROperation mappával az OCR képfelismerésben](./ocr-operation-with-folder/)
+Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kényelmesen nyerjen ki szöveget a képekből.  
+### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
+Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
+### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
+Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
+
 ### Gyakori felhasználási esetek
 - **Szöveg kinyerése** beolvasott számlákról az automatizált könyveléshez.  
 - Nagy dokumentumarchívumok indexelése kereshető tárolókhoz.  
@@ -79,23 +89,13 @@ A: Az API kihagyja a nem támogatott fájlokat; szükség esetén szűrhet kiter
 **Q: Van mód arra, hogy minden felismert szóhoz bizalmi pontszámot kapjak?**  
 A: Igen, az `OcrResult` objektum bizalmi értékeket biztosít, amelyeket programozottan lekérdezhet.
 
+**Utolsó frissítés:** 2025-12-21  
+**Tesztelve:** Aspose.OCR 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## OCR konfigurációs oktatóanyagok
-### [OCROperation archívummal az OCR képfelismerésben](./ocr-operation-with-archive/)
-Fedezze fel az OCR lehetőségeit .NET alkalmazásokban az Aspose.OCR segítségével. Tanulja meg lépésről lépésre a szöveg kinyerését archívumképekből.  
-### [OCROperation mappával az OCR képfelismerésben](./ocr-operation-with-folder/)
-Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kényelmesen nyerjen ki szöveget a képekből.  
-### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
-Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
-### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
-
-**Utolsó frissítés:** 2025-12-21  
-**Tesztelve:** Aspose.OCR 24.11 for .NET  
-**Szerző:** Aspose

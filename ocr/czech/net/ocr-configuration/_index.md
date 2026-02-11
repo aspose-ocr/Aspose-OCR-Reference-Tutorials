@@ -53,6 +53,16 @@ Pozvedněte své OCR schopnosti na novou úroveň ovládnutím **ocr language se
 ## OCROperation with List in OCR Image Recognition
 Prozkoumejte obrovský potenciál Aspose.OCR pro .NET při snadném provádění rozpoznávání OCR obrázků pomocí seznamů. Tento tutoriál nejen zlepšuje extrakci textu, ale také zvyšuje produktivitu při práci s různorodými datovými sadami. Odhalte efektivitu OCR při operacích se seznamy.
 
+## Tutoriály konfigurace OCR
+### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
+Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
+### [OCROperation se složkou v rozpoznávání OCR obrázků](./ocr-operation-with-folder/)
+Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extrahujte text z obrázků.
+### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
+Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
+### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
+Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  
 - Indexovat velké archivy dokumentů pro prohledávatelné úložiště.  
@@ -79,23 +89,13 @@ A: API přeskočí nepodporované soubory; můžete filtrovat podle přípony, p
 **Q: Existuje způsob, jak získat skóre důvěry pro každé rozpoznané slovo?**  
 A: Ano, objekt `OcrResult` poskytuje hodnoty důvěry, které můžete programově zkontrolovat.
 
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## Tutoriály konfigurace OCR
-### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
-Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
-### [OCROperation se složkou v rozpoznávání OCR obrázků](./ocr-operation-with-folder/)
-Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extrahujte text z obrázků.
-### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
-Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
-### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
-Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

@@ -53,6 +53,16 @@ weight: 24
 ## OCROperation مع القائمة في التعرف على الصور باستخدام OCR
 استكشف الإمكانات الواسعة لـ Aspose.OCR for .NET أثناء تنفيذ التعرف على الصور باستخدام OCR مع القوائم. لا يُحسّن هذا البرنامج التعليمي استخراج النص فحسب، بل يزيد أيضًا من الإنتاجية في معالجة مجموعات بيانات متنوعة. اكتشف كفاءة OCR مع عمليات القائمة.
 
+## دروس تكوين OCR
+### [OCROperation مع الأرشيف في التعرف على الصور باستخدام OCR](./ocr-operation-with-archive/)
+اكتشف إمكانات OCR في تطبيقات .NET مع Aspose.OCR. تعلم كيفية استخراج النص من صور الأرشيف خطوة بخطوة.
+### [OCROperation مع المجلد في التعرف على الصور باستخدام OCR](./ocr-operation-with-folder/)
+افتح قوة التعرف على الصور باستخدام OCR في .NET مع Aspose.OCR. استخراج النص بسهولة من الصور.
+### [OCROperation مع اختيار اللغة في التعرف على الصور باستخدام OCR](./ocr-operation-with-language-selection/)
+استفد من قدرات OCR القوية مع Aspose.OCR for .NET. استخراج النص من الصور بسلاسة.
+### [OCROperation مع القائمة في التعرف على الصور باستخدام OCR](./ocr-operation-with-list/)
+اكتشف إمكانات Aspose.OCR for .NET. تنفيذ التعرف على الصور باستخدام OCR مع القوائم بسهولة. عزّز الإنتاجية واستخراج البيانات في تطبيقاتك.
+
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  
 - فهرسة أرشيفات المستندات الكبيرة لإنشاء مستودعات قابلة للبحث.  
@@ -81,23 +91,15 @@ weight: 24
 
 ---
 
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
+**المؤلف:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## دروس تكوين OCR
-### [OCROperation مع الأرشيف في التعرف على الصور باستخدام OCR](./ocr-operation-with-archive/)
-اكتشف إمكانات OCR في تطبيقات .NET مع Aspose.OCR. تعلم كيفية استخراج النص من صور الأرشيف خطوة بخطوة.
-### [OCROperation مع المجلد في التعرف على الصور باستخدام OCR](./ocr-operation-with-folder/)
-افتح قوة التعرف على الصور باستخدام OCR في .NET مع Aspose.OCR. استخراج النص بسهولة من الصور.
-### [OCROperation مع اختيار اللغة في التعرف على الصور باستخدام OCR](./ocr-operation-with-language-selection/)
-استفد من قدرات OCR القوية مع Aspose.OCR for .NET. استخراج النص من الصور بسلاسة.
-### [OCROperation مع القائمة في التعرف على الصور باستخدام OCR](./ocr-operation-with-list/)
-اكتشف إمكانات Aspose.OCR for .NET. تنفيذ التعرف على الصور باستخدام OCR مع القوائم بسهولة. عزّز الإنتاجية واستخراج البيانات في تطبيقاتك.
-
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
-**المؤلف:** Aspose

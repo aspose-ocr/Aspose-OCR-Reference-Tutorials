@@ -53,6 +53,16 @@ Aspose.OCR for .NET’te **ocr language selection** konusunu ustalaşarak OCR ye
 ## OCROperation with List in OCR Image Recognition
 Aspose.OCR for .NET’in geniş potansiyelini keşfedin ve listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Bu öğretici, sadece metin çıkarımını iyileştirmekle kalmaz, aynı zamanda çeşitli veri setlerini yönetirken üretkenliği artırır. Liste işlemleriyle OCR verimliliğini ortaya çıkarın.
 
+## OCR Yapılandırma Öğreticileri
+### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
+Aspose.OCR ile .NET uygulamalarında OCR potansiyelini ortaya çıkarın. Arşiv görüntülerinden adım adım metin çıkarın.
+### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
+Aspose.OCR ile .NET’te OCR görüntü tanıma gücünü keşfedin. Görüntülerden zahmetsizce metin çıkarın.
+### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
+Aspose.OCR for .NET ile güçlü OCR yeteneklerini açığa çıkarın. Görüntülerden sorunsuz bir şekilde metin çıkarın.
+### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
+Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarımını artırın.
+
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  
 - Büyük belge arşivlerini aranabilir depolar için indeksleme.  
@@ -81,23 +91,13 @@ C: Evet, `OcrResult` nesnesi programatik olarak inceleyebileceğiniz güven değ
 
 ---
 
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-## OCR Yapılandırma Öğreticileri
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
-Aspose.OCR ile .NET uygulamalarında OCR potansiyelini ortaya çıkarın. Arşiv görüntülerinden adım adım metin çıkarın.
-### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
-Aspose.OCR ile .NET’te OCR görüntü tanıma gücünü keşfedin. Görüntülerden zahmetsizce metin çıkarın.
-### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
-Aspose.OCR for .NET ile güçlü OCR yeteneklerini açığa çıkarın. Görüntülerden sorunsuz bir şekilde metin çıkarın.
-### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarımını artırın.
-
-**Son Güncelleme:** 2025-12-21  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
-**Yazar:** Aspose
