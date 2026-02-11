@@ -152,15 +152,15 @@ Masz teraz kompletny, gotowy do produkcji przepływ pracy, aby **wykonywać OCR 
 - **Temporary License:** Jeśli potrzebujesz krótkoterminowej oceny, zamów [tymczasową licencję](https://purchase.aspose.com/temporary-license/).  
 - **Official Documentation:** Bądź na bieżąco z najnowszymi zmianami API, przeglądając [dokumentację](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-19  
+**Testowano z:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-19  
-**Testowano z:** Aspose.OCR 24.11 for .NET  
-**Autor:** Aspose

@@ -133,15 +133,15 @@ J: Untuk menjadikan Aspose.OCR bagian permanen dari toolkit Anda, kunjungi [hala
 
 Selamat! Anda telah berhasil memanfaatkan kekuatan Aspose.OCR untuk .NET dalam mengenali teks dari gambar yang disediakan sebagai stream. Kemudahan integrasi dan ketangguhan perpustakaan ini menjadikannya solusi utama untuk tugas OCR dalam aplikasi .NET Anda. Jangan ragu untuk bereksperimen dengan sumber gambar berbeda, paket bahasa, dan pengaturan lanjutan untuk menyesuaikan **ocr text extraction** dengan kebutuhan spesifik Anda.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-19  
+**Diuji Dengan:** Aspose.OCR 24.12 untuk .NET  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-19  
-**Diuji Dengan:** Aspose.OCR 24.12 untuk .NET  
-**Penulis:** Aspose

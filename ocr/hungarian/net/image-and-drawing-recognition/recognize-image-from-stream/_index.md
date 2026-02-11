@@ -133,15 +133,15 @@ V: Az Aspose.OCR állandó részévé tételéhez látogassa meg a [vásárlási
 
 Gratulálunk! Sikeresen kihasználta az Aspose.OCR for .NET erejét, hogy adatfolyamból származó képekből szöveget ismerjen fel. A könyvtár könnyű integrálhatósága és robusztussága ideális megoldássá teszi az OCR feladatokhoz .NET alkalmazásaiban. Nyugodtan kísérletezzen különböző képforrásokkal, nyelvi csomagokkal és fejlett beállításokkal, hogy a **ocr text extraction**-t az Ön specifikus igényeihez igazítsa.
 
+---
+
+**Utolsó frissítés:** 2025-12-19  
+**Tesztelve ezzel:** Aspose.OCR 24.12 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelve ezzel:** Aspose.OCR 24.12 for .NET  
-**Szerző:** Aspose

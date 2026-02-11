@@ -153,15 +153,15 @@ Most már rendelkezik egy teljes, termelésre kész munkafolyammal az **archív 
 - **Ideiglenes licenc:** Ha rövid távú kiértékelésre van szüksége, kérjen egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/).  
 - **Hivatalos dokumentáció:** Legyen naprakész a legújabb API változásokkal a [dokumentáció](https://reference.aspose.com/ocr/net/) áttekintésével.
 
+---
+
+**Utolsó frissítés:** 2025-12-19  
+**Tesztelve:** Aspose.OCR 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelve:** Aspose.OCR 24.11 for .NET  
-**Szerző:** Aspose

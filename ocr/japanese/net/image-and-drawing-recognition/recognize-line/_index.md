@@ -14,35 +14,35 @@ weight: 14
 
 # 画像からテキストを抽出 – Aspose.OCRで行を認識する
 
-## Introduction
+## はじめに
 
 光学文字認識（OCR）は、テキストの画像を検索可能で編集可能なコンテンツに変換するための定番ソリューションとなっています。画像からテキストを迅速かつ確実に抽出したい場合、.NET 用 Aspose.OCR は強力で開発者に優しい API を提供します。このチュートリアルでは、画像内の行を認識し、プレーンテキストに変換し、結果を表示するまでの手順を、シンプルで分かりやすい C# コードとともに解説します。
 
-## Quick Answers
+## クイックアンサー
 - **Aspose.OCR は何をしますか？** 画像形式から印刷されたテキストまたは手書きテキストを読み取り、プレーン文字列として返します。  
 - **サポートされている画像形式は何ですか？** PNG、JPEG、BMP、GIF、TIFF など。  
 - **テストにライセンスは必要ですか？** 開発用には無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
 - **.NET Core で実行できますか？** はい – ライブラリは .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6 をサポートしています。  
 - **シンプルな行認識にどれくらい時間がかかりますか？** 標準的な PNG であれば通常 1 秒未満です。
 
-## What is “extract text from image”?
+## 「画像からテキストを抽出」とは？
 
 画像からテキストを抽出するとは、OCR 技術を使用してビジュアルピクセルを解析し、文字を識別して機械が読み取れるテキストとして出力することを意味します。これにより、スキャンした文書のデジタル化、レシートからのデータ入力自動化、検索可能なアーカイブの構築などのシナリオが実現します。
 
-## Why use Aspose.OCR for .NET?
+## Aspose.OCR for .NET を使う理由
 
 - **高精度**：複数の言語とフォントに対応。  
 - **外部依存なし**：純粋なマネージドコードで、統合が容易。  
 - **包括的なフォーマットサポート**：PNG、JPEG、BMP など多数に対応。  
 - **シンプルな API**：数行のコードで画像からテキストへ変換可能。
 
-## Prerequisites
+## 前提条件
 
 - **開発環境** – Visual Studio 2022（またはお好みの .NET IDE）。  
 - **Aspose.OCR for .NET** – [ダウンロードリンク](https://releases.aspose.com/ocr/net/) から取得。  
 - **ドキュメントディレクトリ** – サンプル画像（`sample_line.png`）が格納されているフォルダー。コード中の “Your Document Directory” を実際のパスに置き換えてください。
 
-## Import Namespaces
+## 名前空間のインポート
 
 .NET では名前空間を使用して必要なクラスにアクセスします。C# ファイルの先頭に次の using 文を追加してください:
 
@@ -52,11 +52,11 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## How to extract text from image using Aspose.OCR
+## Aspose.OCR を使用して画像からテキストを抽出する方法
 
 以下にステップバイステップの実装例を示します。各コードブロックは元のチュートリアルと同一で、ロジックはそのままです。
 
-### Step 1: Initializing Aspose.OCR
+### ステップ 1: Aspose.OCR の初期化
 
 ```csharp
 // ExStart:1
@@ -68,9 +68,9 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:1
 ```
 
-> **Pro tip:** 絶対パスまたは `Path.Combine` を使用して、OS 間でのパス区切り文字の問題を回避してください。
+> **プロのヒント:** 絶対パスまたは `Path.Combine` を使用して、OS 間でのパス区切り文字の問題を回避してください。
 
-### Step 2: Recognizing Image Lines
+### ステップ 2: 画像の線を認識する
 
 ```csharp
 // ExStart:3
@@ -81,7 +81,7 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 
 `RecognizeLine` メソッドは単一行のテキストに焦点を当てるため、画像のレイアウトが分かっている場合に最適です。
 
-### Step 3: Displaying Recognized Text
+### ステップ 3: 認識したテキストを表示する
 
 ```csharp
 // ExStart:4
@@ -92,7 +92,7 @@ Console.WriteLine(result);
 
 プログラムを実行すると、抽出された行がコンソールに表示され、**画像からテキストを抽出** 操作が成功したことが確認できます。
 
-### Step 4: Completion Message
+### ステップ 4: 完了メッセージ
 
 ```csharp
 Console.WriteLine("RecognizeLine executed successfully");
@@ -100,15 +100,15 @@ Console.WriteLine("RecognizeLine executed successfully");
 
 このメッセージが表示されれば、OCR プロセスがエラーなく完了したことを意味します。
 
-## Common Issues & Solutions
+## よくある問題と解決策
 
-| Issue | Reason | Fix |
+| 問題 | 理由 | 修正方法 |
 |-------|--------|-----|
 | `FileNotFoundException` | `dataDir` パスが誤っている | フォルダー パスを確認し、`sample_line.png` が存在することを確認してください。 |
 | 精度が低い | 低解像度の画像 | 高解像度の画像を使用するか、画像の前処理（例: 二値化）を行ってください。 |
 | 未対応フォーマット | 画像がサポート対象外 | `RecognizeLine` を呼び出す前に、画像を PNG または JPEG に変換してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 ### Q1: Aspose.OCR はすべての画像フォーマットに対応していますか？
 
@@ -130,15 +130,15 @@ A4: はい、機能評価用の一時ライセンスを取得できます。詳�
 
 A5: 包括的なシステム要件は [documentation](https://reference.aspose.com/ocr/net/) に記載されています。
 
-## Conclusion
+## 結論
 
 これらの手順に従うことで、.NET 用 Aspose.OCR を使用して画像からテキストを抽出し、個別の行を認識する方法を習得できました。この機能により、データキャプチャの自動化、検索可能なアーカイブの構築、あらゆる .NET アプリケーションへの OCR 統合が可能になります。
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose  
+**最終更新日:** 2025年12月19日
+**テスト環境:** Aspose.OCR 24.12 for .NET
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,7 +59,7 @@ using Aspose.OCR;
 
 아래는 단계별 구현 예시입니다. 각 코드 블록은 원본 튜토리얼과 동일하게 유지되어 정확한 로직이 그대로 보존됩니다.
 
-### Step 1: Aspose.OCR 초기화
+## 1단계: Aspose.OCR 초기화
 
 ```csharp
 // ExStart:1
@@ -73,7 +73,7 @@ AsposeOcr api = new AsposeOcr();
 
 > **Pro tip:** 절대 경로나 `Path.Combine`을 사용하여 운영 체제 간 경로 구분자 문제를 방지하세요.
 
-### Step 2: 이미지 라인 인식
+## 2단계: 이미지 라인 인식
 
 ```csharp
 // ExStart:3
@@ -84,7 +84,7 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 
 `RecognizeLine` 메서드는 단일 텍스트 라인에 집중하므로 이미지 레이아웃을 알고 있을 때 이상적입니다.
 
-### Step 3: 인식된 텍스트 표시
+## 3단계: 인식된 텍스트 표시
 
 ```csharp
 // ExStart:4
@@ -95,7 +95,7 @@ Console.WriteLine(result);
 
 프로그램을 실행하면 추출된 라인이 콘솔에 출력되어 **이미지에서 텍스트 추출** 작업이 성공했음을 확인할 수 있습니다.
 
-### Step 4: 완료 메시지
+## 4단계: 완료 메시지
 
 ```csharp
 Console.WriteLine("RecognizeLine executed successfully");

@@ -131,15 +131,15 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 
 تهانينا! لقد نجحت في استغلال قوة Aspose.OCR for .NET للتعرف على النص من الصور المقدمة ك تدفقات. سهولة التكامل وصلابة هذه المكتبة تجعلها الحل المفضل لمهام OCR في تطبيقات .NET الخاصة بك. لا تتردد في تجربة مصادر صور مختلفة، حزم لغات، وإعدادات متقدمة لتخصيص **ocr text extraction** وفقًا لاحتياجاتك الخاصة.
 
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.OCR 24.12 for .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-19  
-**تم الاختبار مع:** Aspose.OCR 24.12 for .NET  
-**المؤلف:** Aspose

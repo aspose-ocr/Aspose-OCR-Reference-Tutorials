@@ -153,15 +153,15 @@ Je beschikt nu over een volledige, productie‑klare workflow om **OCR uit te vo
 - **Tijdelijke licentie:** Als je een kortetermijn‑evaluatie nodig hebt, vraag dan een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) aan.  
 - **Officiële documentatie:** Blijf op de hoogte van de nieuwste API‑wijzigingen door de [documentatie](https://reference.aspose.com/ocr/net/) te raadplegen.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-19  
+**Getest met:** Aspose.OCR 24.11 for .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-19  
-**Getest met:** Aspose.OCR 24.11 for .NET  
-**Auteur:** Aspose

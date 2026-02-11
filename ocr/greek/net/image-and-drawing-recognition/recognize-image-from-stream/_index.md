@@ -133,15 +133,15 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 
 Συγχαρητήρια! Έχετε αξιοποιήσει επιτυχώς τη δύναμη του Aspose.OCR for .NET για την αναγνώριση κειμένου από εικόνες που παρέχονται ως ροές. Η ευκολία ενσωμάτωσης και η ανθεκτικότητα αυτής της βιβλιοθήκης την καθιστούν την προτιμώμενη λύση για εργασίες OCR στις .NET εφαρμογές σας. Μη διστάσετε να πειραματιστείτε με διαφορετικές πηγές εικόνας, πακέτα γλωσσών και προχωρημένες ρυθμίσεις για να προσαρμόσετε την **ocr text extraction** στις συγκεκριμένες ανάγκες σας.
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-19  
+**Δοκιμή με:** Aspose.OCR 24.12 for .NET  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-19  
-**Δοκιμή με:** Aspose.OCR 24.12 for .NET  
-**Συγγραφέας:** Aspose

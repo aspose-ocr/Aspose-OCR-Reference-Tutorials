@@ -151,15 +151,15 @@ You now have a complete, production‑ready workflow to **perform OCR on archive
 - **Temporary License:** If you need a short‑term evaluation, request a [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Official Documentation:** Keep up‑to‑date with the latest API changes by reviewing the [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

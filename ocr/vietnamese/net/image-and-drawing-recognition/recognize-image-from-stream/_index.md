@@ -132,15 +132,15 @@ A: Để làm cho Aspose.OCR trở thành một phần cố định trong bộ c
 
 Chúc mừng! Bạn đã thành công trong việc khai thác sức mạnh của Aspose.OCR cho .NET để nhận dạng văn bản từ các hình ảnh được cung cấp dưới dạng luồng. Sự dễ dàng trong việc tích hợp và độ vững chắc của thư viện này khiến nó trở thành giải pháp hàng đầu cho các nhiệm vụ OCR trong các ứng dụng .NET của bạn. Hãy tự do thử nghiệm với các nguồn hình ảnh khác nhau, gói ngôn ngữ và các cài đặt nâng cao để tùy chỉnh **trích xuất văn bản OCR** cho nhu cầu cụ thể của bạn.
 
+---
+
+**Cập Nhật Cuối Cùng:** 2025-12-19  
+**Đã Kiểm Tra Với:** Aspose.OCR 24.12 cho .NET  
+**Tác Giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập Nhật Cuối Cùng:** 2025-12-19  
-**Đã Kiểm Tra Với:** Aspose.OCR 24.12 cho .NET  
-**Tác Giả:** Aspose

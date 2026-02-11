@@ -131,15 +131,15 @@ Console.WriteLine("RecognizeImageFromStream executed successfully");
 
 बधाई हो! आपने सफलतापूर्वक Aspose.OCR for .NET की शक्ति का उपयोग करके स्ट्रीम के रूप में प्रदान की गई इमेज से टेक्स्ट को पहचाना है। इस लाइब्रेरी का इंटीग्रेशन आसान और मजबूतीपूर्ण है, जिससे यह आपके .NET एप्लिकेशन्स में OCR कार्यों के लिए एक प्रमुख समाधान बन जाता है। विभिन्न इमेज स्रोतों, भाषा पैक्स, और उन्नत सेटिंग्स के साथ प्रयोग करने में संकोच न करें ताकि **ocr text extraction** को अपनी विशिष्ट आवश्यकताओं के अनुसार अनुकूलित कर सकें।
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose

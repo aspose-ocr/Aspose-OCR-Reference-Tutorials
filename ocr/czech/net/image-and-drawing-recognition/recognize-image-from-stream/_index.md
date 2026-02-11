@@ -132,15 +132,15 @@ A: Pro trvalé začlenění Aspose.OCR do svého nástroje navštivte [stránku 
 
 Gratulujeme! Úspěšně jste využili sílu Aspose.OCR pro .NET k rozpoznání textu z obrázků dodávaných jako streamy. Snadná integrace a robustnost této knihovny z ní činí ideální řešení pro OCR úlohy ve vašich .NET aplikacích. Nebojte se experimentovat s různými zdroji obrázků, jazykovými balíčky a pokročilými nastaveními, abyste přizpůsobili **ocr text extraction** svým konkrétním potřebám.
 
+---
+
+**Poslední aktualizace:** 2025-12-19  
+**Testováno s:** Aspose.OCR 24.12 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-19  
-**Testováno s:** Aspose.OCR 24.12 pro .NET  
-**Autor:** Aspose

@@ -130,15 +130,15 @@ A: 若想将 Aspose.OCR 永久加入您的工具箱，请访问 [purchase page](
 
 恭喜！您已成功利用 Aspose.OCR for .NET 从作为流提供的图像中识别文本。该库的易集成性和强大鲁棒性使其成为 .NET 应用中 OCR 任务的首选方案。欢迎尝试不同的图像来源、语言包和高级设置，以便将 **ocr text extraction** 定制到您的特定需求。
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose

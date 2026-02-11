@@ -152,15 +152,15 @@ for (int i = 0; i < result.Length; i++)
 - **ترخيص مؤقت:** إذا كنت بحاجة إلى تقييم قصير الأمد، اطلب [ترخيصًا مؤقتًا](https://purchase.aspose.com/temporary-license/).  
 - **الوثائق الرسمية:** ابقَ محدثًا بأحدث تغييرات API عبر مراجعة [الوثائق](https://reference.aspose.com/ocr/net/).
 
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-19  
-**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
-**المؤلف:** Aspose

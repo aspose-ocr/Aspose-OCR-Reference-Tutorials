@@ -130,15 +130,15 @@ A: 若要將 Aspose.OCR 永久納入您的工具箱，請前往 [purchase page](
 
 恭喜！您已成功運用 Aspose.OCR for .NET 的強大功能，從以串流方式提供的圖像中辨識文字。此函式庫的易於整合與穩健性，使其成為 .NET 應用程式中 OCR 任務的首選解決方案。歡迎嘗試不同的圖像來源、語言套件與進階設定，以將 **ocr text extraction** 客製化至您的特定需求。
 
+---
+
+**最後更新：** 2025-12-19  
+**測試環境：** Aspose.OCR 24.12 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-19  
-**測試環境：** Aspose.OCR 24.12 for .NET  
-**作者：** Aspose

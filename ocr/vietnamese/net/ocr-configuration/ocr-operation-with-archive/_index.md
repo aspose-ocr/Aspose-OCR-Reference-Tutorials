@@ -152,15 +152,15 @@ Bạn đã có một quy trình hoàn chỉnh, sẵn sàng cho môi trường s�
 - **Giấy phép tạm thời:** Nếu bạn cần đánh giá ngắn hạn, yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).  
 - **Tài liệu chính thức:** Cập nhật các thay đổi API mới nhất bằng cách xem [tài liệu](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Đã kiểm tra với:** Aspose.OCR 24.11 cho .NET  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-19  
-**Đã kiểm tra với:** Aspose.OCR 24.11 cho .NET  
-**Tác giả:** Aspose

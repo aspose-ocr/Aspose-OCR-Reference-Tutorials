@@ -18,35 +18,37 @@ weight: 14
 
 ## Introduction
 
-La reconnaissance optique de caractères (OCR) est devenue la solution de référence pour transformer des images de texte en contenu consultable et modifiable. Si vous cherchez à **extract text from image** rapidement et de manière fiable, Aspose.OCR pour .NET propose une API puissante et conviviale pour les développeurs. Dans ce tutoriel, nous parcourrons tout ce que vous devez savoir pour reconnaître des lignes dans une image, convertir ces lignes en texte brut et afficher le résultat — le tout avec du code C# clair et facile à suivre.
+La reconnaissance optique de caractères (OCR) est devenue la solution de référence pour transformer des images de texte en contenu consultable et modifiable. Si vous cherchez à **extraire du texte d'une image** rapidement et de manière fiable, Aspose.OCR pour .NET propose une API puissante et conviviale pour les développeurs. Dans ce tutoriel, nous parcourrons tout ce que vous devez savoir pour reconnaître des lignes dans une image, convertir ces lignes en texte brut et afficher le résultat — le tout avec du code C# clair et facile à suivre.
 
-## Quick Answers
-- **What does Aspose.OCR do?** It reads printed or handwritten text from image formats and returns plain strings.  
-- **Which image formats are supported?** PNG, JPEG, BMP, GIF, TIFF and more.  
-- **Do I need a license for testing?** A free trial works for development; a license is required for production.  
-- **Can I run this on .NET Core?** Yes – the library supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6.  
-- **How long does a simple line‑recognition take?** Typically under a second for a standard PNG.
+## Réponses rapides
+- **Que fait Aspose.OCR ?** Il lit le texte imprimé ou manuscrit à partir de formats d'image et renvoie des chaînes simples.
+- **Quels formats d'image sont pris en charge ?** PNG, JPEG, BMP, GIF, TIFF et plus encore.
+- **Ai-je besoin d'une licence pour tester ?** Un essai gratuit fonctionne pour le développement ; une licence est requise pour la production.
+- **Puis-je l'exécuter sur .NET Core ?** Oui – la bibliothèque prend en charge .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6.
+- **Combien de temps prend une simple reconnaissance de ligne ?** Généralement moins d'une seconde pour un PNG standard.
 
-## What is “extract text from image”?
+## Qu'est-ce que « extraire le texte d'une image » ?
 
 Extraire du texte à partir d’une image signifie utiliser la technologie OCR pour analyser les pixels visuels, identifier les caractères et les restituer sous forme de texte lisible par machine. Cela permet des scénarios tels que la numérisation de documents, l’automatisation de la saisie de données à partir de reçus ou la création d’archives consultables.
 
-## Why use Aspose.OCR for .NET?
+## Pourquoi utiliser Aspose.OCR pour .NET ?
 
-- **High accuracy** across multiple languages and fonts.  
-- **No external dependencies** – pure managed code, easy to integrate.  
-- **Comprehensive format support** – works with PNG, JPEG, BMP, and more.  
-- **Simple API** – a few lines of code get you from image to text.
+- **Haute précision** dans plusieurs langues et polices.
+- **Aucune dépendance externe** – code managé pur, facile à intégrer.
+- **Prise en charge complète des formats** – fonctionne avec PNG, JPEG, BMP et plus encore.
+- **API simple** : quelques lignes de code suffisent pour convertir une image en texte.
 
-## Prerequisites
+## Prérequis
 
-Avant de commencer, assurez‑vous d’avoir :
+Avant de commencer, assurez-vous d’avoir :
 
-- **Development Environment** – Visual Studio 2022 (or any preferred .NET IDE).  
-- **Aspose.OCR for .NET** – download it from the [download link](https://releases.aspose.com/ocr/net/).  
-- **Document Directory** – a folder on your machine where the sample image (`sample_line.png`) resides. Replace “Your Document Directory” in the code with the actual path.
+- **Environnement de développement** : Visual Studio 2022 (ou tout autre EDI .NET de votre choix).
 
-## Import Namespaces
+- **Aspose.OCR pour .NET** : téléchargez-le depuis le [lien de téléchargement](https://releases.aspose.com/ocr/net/).
+
+- **Répertoire de documents** : un dossier sur votre ordinateur contenant l’image d’exemple (`sample_line.png`). Remplacez « Votre répertoire de documents » dans le code par le chemin d’accès réel.
+
+## Espaces de noms d’importation
 
 En .NET, les espaces de noms vous donnent accès aux classes nécessaires. Ajoutez ces instructions using en haut de votre fichier C# :
 
@@ -56,11 +58,11 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## How to extract text from image using Aspose.OCR
+## Comment extraire le texte d'une image à l'aide d'Aspose.OCR
 
 Voici l’implémentation étape par étape. Chaque bloc de code reste identique à l’original, garantissant que la logique exacte est conservée.
 
-### Step 1: Initializing Aspose.OCR
+### Étape 1 : Initialisation d'Aspose.OCR
 
 ```csharp
 // ExStart:1
@@ -72,9 +74,9 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:1
 ```
 
-> **Pro tip:** Use an absolute path or `Path.Combine` to avoid path‑separator issues across operating systems.
+> **Conseil de pro :** Utilisez un chemin absolu ou « Path.Combine » pour éviter les problèmes de séparateur de chemin sur les systèmes d'exploitation.
 
-### Step 2: Recognizing Image Lines
+### Étape 2 : Reconnaître les lignes de l'image
 
 ```csharp
 // ExStart:3
@@ -85,7 +87,7 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 
 La méthode `RecognizeLine` se concentre sur une seule ligne de texte, ce qui est idéal lorsque vous connaissez la disposition de votre image.
 
-### Step 3: Displaying Recognized Text
+### Étape 3 : Afficher le texte reconnu
 
 ```csharp
 // ExStart:4
@@ -94,55 +96,55 @@ Console.WriteLine(result);
 // ExEnd:4
 ```
 
-L’exécution du programme affichera la ligne extraite dans la console, confirmant que l’opération **extract text from image** a réussi.
+L’exécution du programme affichera la ligne extraite dans la console, confirmant que l’opération **extraire le texte de l’image** a réussi.
 
-### Step 4: Completion Message
+### Étape 4 : Message de fin
 
 ```csharp
 Console.WriteLine("RecognizeLine executed successfully");
 ```
 
-Voir ce message signifie que le processus OCR s’est terminé sans erreurs.
+Voir ce message signifie que le processus OCR s'est terminé sans erreurs.
 
-## Common Issues & Solutions
+## Problèmes courants et solutions
 
-| Issue | Reason | Fix |
+| Problème | Raison | Corriger |
 |-------|--------|-----|
-| `FileNotFoundException` | Chemin `dataDir` incorrect | Vérifiez le chemin du dossier et assurez‑vous que `sample_line.png` existe. |
-| Poor accuracy | Image à basse résolution | Utilisez une source à plus haute résolution ou pré‑traitez l’image (par ex., binarisation). |
-| Unsupported format | Image non prise en charge | Convertissez l’image en PNG ou JPEG avant d’appeler `RecognizeLine`. |
+| `FileNotFoundException` | Chemin `dataDir` incorrect | Vérifiez le chemin du dossier et assurez-vous que `sample_line.png` existe. |
+| Mauvaise précision | Image à basse résolution | Utilisez une source à plus haute résolution ou pré‑traitez l’image (par ex., binarisation). |
+| Format non pris en charge | Image non prise en charge | Convertissez l’image en PNG ou JPEG avant d’appeler `RecognizeLine`. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-### Q1: Is Aspose.OCR compatible with all image formats?
+### Q1 : Aspose.OCR est-il compatible avec tous les formats d'image ?
 
-A1: Aspose.OCR supports a wide range of image formats, including PNG, JPEG, GIF, BMP, and more. Refer to the [documentation](https://reference.aspose.com/ocr/net/) for a detailed list.
+A1 : Aspose.OCR prend en charge un large éventail de formats d'image, notamment PNG, JPEG, GIF, BMP, etc. Consultez la [documentation](https://reference.aspose.com/ocr/net/) pour obtenir une liste détaillée.
 
-### Q2: Can I use Aspose.OCR for commercial projects during the trial period?
+### Q2 : Puis-je utiliser Aspose.OCR pour des projets commerciaux pendant la période d'essai ?
 
-A2: Yes, you can explore the capabilities of Aspose.OCR in commercial projects during the trial period. For extended usage, consider [purchasing a license](https://purchase.aspose.com/buy).
+A2 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.OCR dans le cadre de projets commerciaux pendant la période d'essai. Pour une utilisation prolongée, envisagez [l'achat d'une licence](https://purchase.aspose.com/buy).
 
-### Q3: How do I seek help or contribute to the Aspose.OCR community?
+### Q3 : Comment obtenir de l'aide ou contribuer à la communauté Aspose.OCR ?
 
-A3: Engage with the vibrant Aspose.OCR community at the [support forum](https://forum.aspose.com/c/ocr/16) for assistance and collaboration.
+A3 : Rejoignez la communauté Aspose.OCR sur le [forum d'assistance](https://forum.aspose.com/c/ocr/16) pour obtenir de l'aide et collaborer.
 
-### Q4: Are temporary licenses available for Aspose.OCR?
+### Q4 : Des licences temporaires sont-elles disponibles pour Aspose.OCR ?
 
-A4: Yes, you can obtain temporary licenses for Aspose.OCR to evaluate its features. Visit [here](https://purchase.aspose.com/temporary-license/) for more details.
+A4 : Oui, vous pouvez obtenir des licences temporaires pour Aspose.OCR afin d'évaluer ses fonctionnalités. Visitez [ici](https://purchase.aspose.com/temporary-license/) pour plus de détails.
 
-### Q5: What are the system requirements for Aspose.OCR for .NET?
+### Q5 : Quelle est la configuration système requise pour Aspose.OCR pour .NET ?
 
-A5: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for comprehensive system requirements.
+A5 : Reportez-vous à la [documentation](https://reference.aspose.com/ocr/net/) pour connaître la configuration système requise complète.
 
 ## Conclusion
 
-En suivant ces étapes, vous avez appris comment **extract text from image** à l’aide d’Aspose.OCR pour .NET, en reconnaissant spécifiquement des lignes individuelles. Cette capacité ouvre la porte à l’automatisation de la capture de données, à la création d’archives consultables et à l’intégration de l’OCR dans toute application .NET.
+En suivant ces étapes, vous avez appris comment **extraire le texte de l'image** à l'aide d'Aspose.OCR pour .NET, en reconnaissant spécifiquement des lignes individuelles. Cette capacité ouvre la porte à l’automatisation de la capture de données, à la création d’archives consultables et à l’intégration de l’OCR dans toute application .NET.
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose  
+**Dernière mise à jour :** 2025-12-19
+**Testé avec :** Aspose.OCR 24.12 pour .NET
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

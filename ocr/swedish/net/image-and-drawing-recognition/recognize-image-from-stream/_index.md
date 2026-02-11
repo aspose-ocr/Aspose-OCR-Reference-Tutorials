@@ -131,15 +131,15 @@ A: För att göra Aspose.OCR till en permanent del av din verktygslåda, besök 
 
 Grattis! Du har framgångsrikt utnyttjat kraften i Aspose.OCR for .NET för att känna igen text från bilder som levereras som strömmar. Den enkla integrationen och bibliotekets robusthet gör det till en förstahandslösning för OCR‑uppgifter i dina .NET‑applikationer. Känn dig fri att experimentera med olika bildkällor, språkpaket och avancerade inställningar för att skräddarsy **ocr text extraction** efter dina specifika behov.
 
+---
+
+**Senast uppdaterad:** 2025-12-19  
+**Testad med:** Aspose.OCR 24.12 for .NET  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-19  
-**Testad med:** Aspose.OCR 24.12 for .NET  
-**Författare:** Aspose

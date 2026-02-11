@@ -132,15 +132,15 @@ A: Om Aspose.OCR permanent aan je toolkit toe te voegen, ga de [aankooppagina](h
 
 Gefeliciteerd! Je hebt met succes de kracht van Aspose.OCR voor .NET benut om tekst te herkennen uit afbeeldingen die als streams worden aangeleverd. De eenvoudige integratie en robuustheid van deze bibliotheek maken het een eersteklas oplossing voor OCR‑taken in je .NET‑applicaties. Voel je vrij om te experimenteren met verschillende afbeeldingsbronnen, taalpakketten en geavanceerde instellingen om de **ocr text extraction** aan te passen aan jouw specifieke behoeften.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-19  
+**Getest met:** Aspose.OCR 24.12 voor .NET  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-19  
-**Getest met:** Aspose.OCR 24.12 voor .NET  
-**Auteur:** Aspose

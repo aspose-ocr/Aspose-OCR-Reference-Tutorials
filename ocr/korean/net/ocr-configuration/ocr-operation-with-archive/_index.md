@@ -57,7 +57,7 @@ using Aspose.OCR;
 
 **[구매 페이지](https://purchase.aspose.com/buy)**에서 라이선스를 구입하거나 **[무료 체험](https://releases.aspose.com/)**을 이용하세요. 라이선스 파일을 프로젝트 루트에 배치하고 Aspose 문서에 설명된 대로 런타임에 로드합니다.
 
-## Step 1: 문서 디렉터리 설정
+## 1단계: 문서 디렉터리 설정
 
 문서 디렉터리 경로를 초기화합니다:
 
@@ -70,7 +70,7 @@ string dataDir = "Your Document Directory";
 
 > **Pro tip:** 크로스‑플랫폼 경로 처리를 위해 `Path.Combine`을 사용하세요.
 
-## Step 2: Aspose.OCR 초기화
+## 2단계: Aspose.OCR 초기화
 
 OCR 작업을 시작하려면 Aspose.OCR 클래스 인스턴스를 생성합니다:
 
@@ -80,7 +80,7 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:3
 ```
 
-## Step 3: 이미지 경로 지정
+## 3단계: 이미지 경로 지정
 
 읽고자 하는 아카이브 이미지(ZIP 파일)의 전체 경로를 정의합니다:
 
@@ -90,7 +90,7 @@ string fullPath = dataDir + "OCR.zip";
 // ExEnd:4
 ```
 
-## Step 4: 이미지 인식
+## 4단계: 이미지 인식
 
 기본 설정 또는 사용자 정의 설정을 사용해 지정된 아카이브에 대한 OCR 인식을 실행합니다. 이 호출은 ZIP에서 각 이미지를 자동으로 추출하고 OCR을 수행합니다:
 
@@ -105,7 +105,7 @@ RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new Recogniti
 
 > `RecognitionSettings`를 조정하여 특정 언어나 이미지 품질에 맞게 정확도를 향상시킬 수 있습니다.
 
-## Step 5: 결과 출력
+## 5단계: 결과 출력
 
 결과를 순회하면서 아카이브 내부 각 이미지에 대한 인식된 텍스트를 출력합니다:
 
@@ -152,15 +152,15 @@ A: 각 `RecognitionResult`에는 `Confidence` 속성이 포함되어 있어 로�
 - **임시 라이선스:** 단기 평가가 필요하면 [임시 라이선스](https://purchase.aspose.com/temporary-license/)를 요청하세요.  
 - **공식 문서:** 최신 API 변경 사항은 [문서](https://reference.aspose.com/ocr/net/)를 확인하세요.
 
+---
+
+**마지막 업데이트:** 2025-12-19  
+**테스트 환경:** Aspose.OCR 24.11 for .NET  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-19  
-**테스트 환경:** Aspose.OCR 24.11 for .NET  
-**작성자:** Aspose

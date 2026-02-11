@@ -130,15 +130,15 @@ A: To make Aspose.OCR a permanent part of your toolkit, visit the [purchase page
 
 Congratulations! You've successfully harnessed the power of Aspose.OCR for .NET to recognize text from images supplied as streams. The ease of integration and robustness of this library make it a go‑to solution for OCR tasks in your .NET applications. Feel free to experiment with different image sources, language packs, and advanced settings to tailor the **ocr text extraction** to your specific needs.
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose

@@ -153,15 +153,15 @@ for (int i = 0; i < result.Length; i++)
 - **Προσωρινή Άδεια:** Αν χρειάζεστε βραχυπρόθεσμη αξιολόγηση, ζητήστε μια [προσωρινή άδεια](https://purchase.aspose.com/temporary-license/).  
 - **Επίσημη Τεκμηρίωση:** Παραμείνετε ενημερωμένοι με τις τελευταίες αλλαγές API εξετάζοντας την [τεκμηρίωση](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

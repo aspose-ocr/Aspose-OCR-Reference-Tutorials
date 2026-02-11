@@ -114,35 +114,35 @@ Het zien van dit bericht betekent dat het OCR‑proces zonder fouten is voltooid
 
 ## Veelgestelde vragen
 
-### Q1: Is Aspose.OCR compatible with all image formats?
+### Vraag 1: Is Aspose.OCR compatibel met alle afbeeldingsformaten?
 
-A1: Aspose.OCR ondersteunt een breed scala aan afbeeldingsformaten, waaronder PNG, JPEG, GIF, BMP en meer. Zie de [documentatie](https://reference.aspose.com/ocr/net/) voor een gedetailleerde lijst.
+A1: Aspose.OCR ondersteunt een scala aan afbeeldingsformaten, waaronder PNG, JPEG, GIF, BMP en meer. Zie de [documentatie](https://reference.aspose.com/ocr/net/) voor een gedetailleerde lijst.
 
-### Q2: Can I use Aspose.OCR for commercial projects during the trial period?
+### Vraag 2: Kan ik Aspose.OCR gebruiken voor commerciële projecten tijdens de proefperiode?
 
-A2: Ja, je kunt de mogelijkheden van Aspose.OCR verkennen in commerciële projecten tijdens de proefperiode. Voor uitgebreid gebruik, overweeg het [aanschaffen van een licentie](https://purchase.aspose.com/buy).
+A2: Ja, je kunt de mogelijkheden van Aspose.OCR verkennen in praktische projecten tijdens de proefperiode. Voor uitgebreid gebruik, overweeg het [aanschaffen van een licentie](https://purchase.aspose.com/buy).
 
-### Q3: How do I seek help or contribute to the Aspose.OCR community?
+### V3: Hoe zoek ik hulp of draag ik bij aan de Aspose.OCR-gemeenschap?
 
-A3: Neem deel aan de levendige Aspose.OCR‑community op het [support forum](https://forum.aspose.com/c/ocr/16) voor hulp en samenwerking.
+A3: Neem deel aan de levendige Aspose.OCR-community op het [support forum](https://forum.aspose.com/c/ocr/16) voor hulp en samenwerking.
 
-### Q4: Are temporary licenses available for Aspose.OCR?
+### V4: Zijn er tijdelijke licenties beschikbaar voor Aspose.OCR?
 
-A4: Ja, je kunt tijdelijke licenties voor Aspose.OCR verkrijgen om de functionaliteit te evalueren. Bezoek [hier](https://purchase.aspose.com/temporary-license/) voor meer details.
+A4: Ja, je kunt tijdelijke licenties voor Aspose.OCR verkrijgen om de functionaliteit te ongebruikelijk. Bezoek [hier](https://purchase.aspose.com/temporary-license/) voor meer details.
 
-### Q5: What are the system requirements for Aspose.OCR for .NET?
+### V5: Wat zijn de systeemvereisten voor Aspose.OCR voor .NET?
 
 A5: Zie de [documentatie](https://reference.aspose.com/ocr/net/) voor uitgebreide systeemvereisten.
 
 ## Conclusie
 
-Door deze stappen te volgen heb je geleerd hoe je **tekst uit afbeelding** kunt extraheren met Aspose.OCR voor .NET, specifiek door individuele regels te herkennen. Deze mogelijkheid opent de deur naar het automatiseren van gegevenscaptatie, het bouwen van doorzoekbare archieven en het integreren van OCR in elke .NET‑applicatie.
+Door deze stappen te volgen heb je geleerd hoe je **tekst uit afbeelding** kunt extraheren met Aspose.OCR voor .NET, specifieke door individuele regels te herkennen. Deze mogelijkheid opent de deur naar het automatiseren van gegevenscaptatie, het bouwen van doorzoekbare archieven en het afsluiten van OCR in elke .NET-applicatie.
 
 ---
 
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 19-12-2025
+**Getest met:** Aspose.OCR 24.12 voor .NET
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

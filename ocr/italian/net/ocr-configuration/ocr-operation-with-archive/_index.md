@@ -152,15 +152,15 @@ Ora disponi di un flusso di lavoro completo e pronto per la produzione per **ese
 - **Licenza temporanea:** Se ti serve una valutazione a breve termine, richiedi una [licenza temporanea](https://purchase.aspose.com/temporary-license/).  
 - **Documentazione ufficiale:** Rimani aggiornato sulle ultime modifiche API consultando la [documentazione](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-19  
+**Testato con:** Aspose.OCR 24.11 per .NET  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-19  
-**Testato con:** Aspose.OCR 24.11 per .NET  
-**Autore:** Aspose

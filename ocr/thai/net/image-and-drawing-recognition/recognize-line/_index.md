@@ -112,23 +112,23 @@ Console.WriteLine("RecognizeLine executed successfully");
 
 ## คำถามที่พบบ่อย
 
-### Q1: Is Aspose.OCR compatible with all image formats?
+### คำถามที่ 1: Aspose.OCR เข้ากันได้กับทุกรูปแบบภาพหรือไม่
 
-A1: Aspose.OCR รองรับรูปแบบภาพหลากหลาย รวมถึง PNG, JPEG, GIF, BMP, และอื่น ๆ ดูที่ [documentation](https://reference.aspose.com/ocr/net/) สำหรับรายการโดยละเอียด.
+A1: Aspose.OCR รองรับรูปแบบภาพที่หลากหลายและ PNG, JPEG, GIF, BMP, สามารถดูเพิ่มเติมได้ที่ [documentation](https://reference.aspose.com/ocr/net/) สำหรับรายการของเรา
 
-### Q2: Can I use Aspose.OCR for commercial projects during the trial period?
+### คำถามที่ 2: ฉันสามารถใช้ Aspose.OCR สำหรับโครงการเชิงพาณิชย์ระหว่างช่วงทดลองใช้งานได้หรือไม่
 
-A2: ใช่, คุณสามารถสำรวจความสามารถของ Aspose.OCR ในโครงการเชิงพาณิชย์ระหว่างช่วงทดลองใช้ได้ สำหรับการใช้งานต่อเนื่อง, พิจารณา [purchasing a license](https://purchase.aspose.com/buy).
+ตอบ 2: ลองตรวจสอบดูอีกครั้งว่า Aspose.OCR ตรวจสอบโดยตรงระหว่างช่วงต่างๆ ได้ต่อเนื่อง โปรดพิจารณา [การซื้อใบอนุญาต](https://purchase.aspose.com/buy)
 
-### Q3: How do I seek help or contribute to the Aspose.OCR community?
+### Q3: ฉันจะขอความช่วยเหลือหรือมีส่วนร่วมในชุมชน Aspose.OCR ได้อย่างไร
 
-A3: เข้าร่วมกับชุมชน Aspose.OCR ที่ [support forum](https://forum.aspose.com/c/ocr/16) เพื่อขอความช่วยเหลือและร่วมมือ.
+A3: รู้สึกดีกับชุมชน Aspose.OCR ที่ [support forum](https://forum.aspose.com/c/ocr/16) เพื่อรับคำสั่งและร่วมมือ.
 
-### Q4: Are temporary licenses available for Aspose.OCR?
+### คำถามที่ 4: Aspose.OCR มีใบอนุญาตชั่วคราวหรือไม่
 
-A4: ใช่, คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.OCR เพื่อประเมินคุณลักษณะของมัน เยี่ยมชม [here](https://purchase.aspose.com/temporary-license/) สำหรับรายละเอียดเพิ่มเติม.
+A4: ความพยายาม ขอเชิญสักครั้งชั่วคราวสำหรับ Aspose.OCR ตรวจสอบการตรวจสอบของมัน [ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับรายละเอียดเพิ่มเติม
 
-### Q5: What are the system requirements for Aspose.OCR for .NET?
+### Q5: ข้อกำหนดของระบบสำหรับ Aspose.OCR สำหรับ .NET คืออะไร
 
 A5: ดูที่ [documentation](https://reference.aspose.com/ocr/net/) สำหรับความต้องการของระบบโดยละเอียด.
 

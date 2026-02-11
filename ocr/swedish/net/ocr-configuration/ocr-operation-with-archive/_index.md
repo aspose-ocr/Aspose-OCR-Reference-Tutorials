@@ -152,15 +152,15 @@ Du har nu ett komplett, produktionsklart arbetsflöde för att **utföra OCR på
 - **Tillfällig licens:** Om du behöver en korttidsutvärdering, begär en [temporary license](https://purchase.aspose.com/temporary-license/).  
 - **Officiell dokumentation:** Håll dig uppdaterad med de senaste API‑ändringarna genom att granska [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Senast uppdaterad:** 2025-12-19  
+**Testad med:** Aspose.OCR 24.11 for .NET  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-19  
-**Testad med:** Aspose.OCR 24.11 for .NET  
-**Författare:** Aspose

@@ -152,15 +152,15 @@ Artık Aspose.OCR for .NET kullanarak **arşiv görüntülerinde OCR gerçekleş
 - **Geçici Lisans:** Kısa vadeli bir değerlendirme gerekiyorsa, [geçici lisans](https://purchase.aspose.com/temporary-license/) isteyin.  
 - **Resmi Dokümantasyon:** En son API değişikliklerini takip etmek için [dokümantasyonu](https://reference.aspose.com/ocr/net/) inceleyin.
 
+---
+
+**Son Güncelleme:** 2025-12-19  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
-**Yazar:** Aspose

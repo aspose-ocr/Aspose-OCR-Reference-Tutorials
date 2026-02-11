@@ -151,15 +151,15 @@ A: 每個 `RecognitionResult` 都包含 `Confidence` 屬性，您可以將其記
 - **臨時授權：** 若需要短期評估，請申請 [臨時授權](https://purchase.aspose.com/temporary-license/)。  
 - **官方文件：** 透過檢閱 [文件](https://reference.aspose.com/ocr/net/) 以掌握最新 API 變更。
 
+---
+
+**最後更新時間：** 2025-12-19  
+**測試環境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新時間：** 2025-12-19  
-**測試環境：** Aspose.OCR 24.11 for .NET  
-**作者：** Aspose

@@ -60,7 +60,7 @@ using Aspose.OCR;
 
 Berikut adalah implementasi langkah demi langkah. Setiap blok kode tidak diubah dari tutorial asli, memastikan logika tetap persis.
 
-### Step 1: Initializing Aspose.OCR
+### Langkah 1: Inisialisasi Aspose.OCR
 
 ```csharp
 // ExStart:1
@@ -72,9 +72,9 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:1
 ```
 
-**Tip profesional:** Gunakan jalur absolut atau `Path.Combine` untuk menghindari masalah pemisah jalur pada berbagai sistem operasi.
+**Tips profesional:** Gunakan jalur absolut atau `Path.Combine` untuk menghindari masalah pemisah jalur pada berbagai sistem operasi.
 
-### Step 2: Recognizing Image Lines
+### Langkah 2: Mengenali Garis Gambar
 
 ```csharp
 // ExStart:3
@@ -85,7 +85,7 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 
 Metode `RecognizeLine` fokus pada satu baris teks, menjadikannya ideal ketika Anda mengetahui tata letak gambar Anda.
 
-### Step 3: Displaying Recognized Text
+### Langkah 3: Menampilkan Teks yang Dikenali
 
 ```csharp
 // ExStart:4
@@ -96,7 +96,7 @@ Console.WriteLine(result);
 
 Menjalankan program akan mencetak baris yang diekstrak ke konsol, mengonfirmasi bahwa operasi **ekstrak teks dari gambar** berhasil.
 
-### Step 4: Completion Message
+### Langkah 4: Pesan Penyelesaian
 
 ```csharp
 Console.WriteLine("RecognizeLine executed successfully");

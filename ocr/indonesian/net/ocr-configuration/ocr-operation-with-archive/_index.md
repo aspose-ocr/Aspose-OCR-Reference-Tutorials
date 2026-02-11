@@ -152,15 +152,15 @@ Anda kini memiliki alur kerja lengkap yang siap produksi untuk **melakukan OCR p
 - **Lisensi Sementara:** Jika Anda memerlukan evaluasi jangka pendek, minta [lisensi sementara](https://purchase.aspose.com/temporary-license/).  
 - **Dokumentasi Resmi:** Tetap up‑to‑date dengan perubahan API terbaru dengan meninjau [dokumentasi](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

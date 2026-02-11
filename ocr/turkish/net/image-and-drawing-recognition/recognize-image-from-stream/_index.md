@@ -132,15 +132,15 @@ C: Aspose.OCR'ı kalıcı bir araç setine eklemek için [satın alma sayfasın�
 
 Tebrikler! Aspose.OCR for .NET'in akış olarak sağlanan görüntülerden metin tanıma gücünü başarıyla kullandınız. Bu kütüphanenin entegrasyon kolaylığı ve sağlamlığı, .NET uygulamalarınızdaki OCR görevleri için ideal bir çözüm haline getirir. Farklı görüntü kaynakları, dil paketleri ve gelişmiş ayarlarla **ocr text extraction**'ı ihtiyaçlarınıza göre özelleştirmekten çekinmeyin.
 
+---
+
+**Son Güncelleme:** 2025-12-19  
+**Test Edilen:** Aspose.OCR 24.12 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-19  
-**Test Edilen:** Aspose.OCR 24.12 for .NET  
-**Yazar:** Aspose

@@ -131,15 +131,15 @@ A: Aspose.OCR をツールキットに永続的に組み込むには、[購入�
 
 おめでとうございます！Aspose.OCR for .NET のパワーを活用し、ストリームとして提供された画像からテキストを認識できました。このライブラリの統合の容易さと堅牢性により、.NET アプリケーションにおける OCR タスクの定番ソリューションとなります。さまざまな画像ソース、言語パック、詳細設定を試して、**ocr text extraction** を特定のニーズに合わせて調整してください。
 
+---
+
+**最終更新日:** 2025年12月19日
+**テスト環境:** Aspose.OCR 24.12 for .NET
+**作成者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-19  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose
