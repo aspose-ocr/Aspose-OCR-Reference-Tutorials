@@ -55,6 +55,17 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [在 C# 中對影像執行 OCR – 完整 Aspose OCR 教程](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+使用 Aspose.OCR 在 C# 中完整示範如何對影像執行文字辨識，從載入到取得結果的全流程教學。
+### [從阿拉伯語影像建立可搜尋 PDF – 完整指南](./create-searchable-pdf-from-arabic-image-complete-guide/)
+使用 Aspose.OCR for .NET，將阿拉伯語影像轉換為可搜尋的 PDF，完整步驟教學。
+### [在 C# 中使用 Aspose OCR 從影像建立可搜尋 PDF](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+使用 Aspose.OCR 在 C# 中將影像轉換為可搜尋的 PDF，完整步驟教學，提升文件可檢索性。
+### [在 C# 中將影像 OCR 轉為 JSON – 完整步驟指南](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中將影像文字辨識結果導出為 JSON，完整步驟教學，助您快速整合 OCR 功能。
+### [在 C# 中使用 Aspose OCR 執行多頁 TIFF 影像的 OCR – 完整指南](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+使用 Aspose OCR 在 C# 中對多頁 TIFF 影像執行文字辨識的完整步驟教學。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
