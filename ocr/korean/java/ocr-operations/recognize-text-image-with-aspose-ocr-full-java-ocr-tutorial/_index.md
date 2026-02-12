@@ -29,15 +29,15 @@ url: /ko/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-
 
 # 텍스트 이미지 인식 – Complete Aspose OCR Java Tutorial
 
-Ever needed to **텍스트 이미지 인식** but weren’t sure which library would give you GPU speed and solid accuracy? You’re not alone. In many projects the bottleneck isn’t the OCR algorithm itself but the setup—especially when you want to **텍스트 추출 방법** from high‑resolution scans without writing a million lines of code.
+**텍스트 이미지 인식**이 필요했지만 GPU 속도와 높은 정확도를 제공하는 라이브러리를 찾지 못해 고민하신 적이 있으신가요? 많은 프로젝트에서 병목 현상은 OCR 알고리즘 자체가 아니라 설정 과정에서 발생합니다. 특히 고해상도 스캔 이미지에서 수많은 코드를 작성하지 않고 **텍스트 추출 방법**을 배우고 싶을 때 더욱 그렇습니다.
 
-In this tutorial we’ll walk through a **java ocr example** that uses Aspose OCR’s fluent builder, shows **how to preprocess ocr** with adaptive‑threshold filtering, and demonstrates the exact steps to **recognize text image** on a GPU‑enabled machine. By the end you’ll have a runnable program that prints extracted text to the console, plus tips for common pitfalls and next‑level tweaks.
+이 튜토리얼에서는 Aspose OCR의 Fluent Builder를 사용하는 **Java OCR 예제**를 통해 적응형 임계값 필터링을 이용한 **OCR 전처리 방법**과 GPU 환경에서 **텍스트 이미지 인식**을 수행하는 정확한 단계를 보여드리겠습니다. 마지막에는 추출된 텍스트를 콘솔에 출력하는 실행 가능한 프로그램을 만들 수 있을 뿐 아니라, 흔히 발생하는 문제점과 고급 최적화 팁도 얻을 수 있습니다.
 
 ## 필요 사항
 
-- **Java Development Kit (JDK) 11 또는 최신 버전** – Aspose OCR supports Java 8+ but JDK 11 gives you the best module handling.
-- **Aspose.OCR for Java** JAR (Aspose 웹사이트에서 다운로드하거나 Maven/Gradle을 통해 추가).  
-  Maven 예시:
+- **JDK(Java Development Kit) 11 또는 최신 버전** – Aspose OCR은 Java 8+를 지원하지만 JDK11은 최고의 모듈 처리 기능을 제공합니다.
+- **Aspose.OCR for Java** JAR(Aspose 웹사이트에서 다운로드하거나 Maven/Gradle을 통해 추가). 
+메이븐 예시:
   ```xml
   <dependency>
       <groupId>com.aspose</groupId>
@@ -56,7 +56,7 @@ In this tutorial we’ll walk through a **java ocr example** that uses Aspose OC
 
 ## 단계 1: OCR 엔진 설정 – 올바른 옵션으로 텍스트 이미지 인식
 
-The first thing we do is create an `OcrEngine` instance. Aspose provides a builder pattern that lets you chain configuration calls, making the code both readable and flexible.
+먼저 `OcrEngine` 인스턴스를 생성합니다. Aspose는 구성 호출을 연결할 수 있는 빌더 패턴을 제공하여 코드를 읽기 쉽고 유연하게 만들 수 있습니다.
 
 ```java
 import com.aspose.ocr.*;
@@ -82,8 +82,7 @@ public class GpuOcrDemo {
 
 ## 단계 2: 텍스트 이미지 인식 – OCR 실행
 
-Now that the engine is ready, we feed it our image. The `recognize` method returns an `OcrResult` object that contains the raw text, confidence scores, and even bounding box data if you need it later.
-
+이제 엔진이 준비되었으므로 이미지를 입력합니다. `recognize` 메서드는 원시 텍스트, 신뢰도 점수, 그리고 나중에 필요할 경우 경계 상자 데이터까지 포함하는 `OcrResult` 객체를 반환합니다.
 ```java
         // Path to the high‑resolution image you want to analyze
         String imagePath = "C:/ocr-demo/sample-highres.png";
@@ -96,7 +95,7 @@ Now that the engine is ready, we feed it our image. The `recognize` method retur
 
 ## 단계 3: 텍스트 추출 및 표시 – 결과에서 텍스트 추출 방법
 
-Finally, we pull the plain text out of the result and print it. You could also write it to a file, feed it to a search index, or pass it to a translation API.
+마지막으로 결과에서 일반 텍스트를 추출하여 출력합니다. 이 결과를 파일에 저장하거나, 검색 인덱스에 추가하거나, 번역 API에 전달할 수도 있습니다.
 
 ```java
         // Print the extracted text to the console
@@ -119,7 +118,7 @@ The OCR engine recognized it successfully!
 Confidence: 0.97
 ```
 
-If the output looks garbled, double‑check that the image is clear and that the **how to preprocess ocr** step (adaptive threshold) matches the image’s lighting conditions.
+출력 결과가 깨져 보이면 이미지가 선명한지, 그리고 **OCR 전처리 방법** 단계(적응형 임계값)가 이미지의 조명 조건과 일치하는지 다시 한번 확인하십시오.
 
 ## 일반적인 함정 및 전문가 팁 (java ocr example)
 
