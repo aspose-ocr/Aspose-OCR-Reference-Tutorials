@@ -119,15 +119,15 @@ A: हाँ, आप एक लाइसेंस [यहाँ](https://purchas
 
 इन चरणों का पालन करके, अब आप जानते हैं **how to use Aspose** OCR को **extract text image C#** करने के लिए, इमेज को पहचानने और एक साफ़ **ocr result json** उत्पन्न करने के लिए। यह तरीका इमेज‑टू‑टेक्स्ट पाइपलाइन को सरल बनाता है, बाहरी निर्भरताओं को कम करता है, और आपको आउटपुट फ़ॉर्मेट पर पूर्ण नियंत्रण देता है।
 
+---
+
+**अंतिम अपडेट:** 2026-01-02  
+**परीक्षित संस्करण:** Aspose.OCR 24.11 for .NET  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2026-01-02  
-**परीक्षित संस्करण:** Aspose.OCR 24.11 for .NET  
-**लेखक:** Aspose

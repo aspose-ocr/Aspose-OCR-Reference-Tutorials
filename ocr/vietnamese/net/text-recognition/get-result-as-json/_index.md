@@ -120,13 +120,6 @@ A: Có, bạn có thể mua giấy phép [tại đây](https://purchase.aspose.c
 
 Bằng cách thực hiện các bước trên, bạn đã biết **cách sử dụng Aspose** OCR để **extract text image C#**, nhận dạng ảnh, và tạo ra một **ocr result json** sạch sẽ. Cách tiếp cận này giúp đơn giản hoá các pipeline ảnh‑to‑text, giảm phụ thuộc vào dịch vụ bên ngoài, và cho bạn toàn quyền kiểm soát định dạng đầu ra.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-02  
@@ -134,3 +127,10 @@ Bằng cách thực hiện các bước trên, bạn đã biết **cách sử d�
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

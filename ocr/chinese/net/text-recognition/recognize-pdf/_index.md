@@ -116,28 +116,6 @@ foreach (var result in results)
 
 恭喜！您已经学会了在 .NET 中 **how to ocr pdf**，成功提取文本，并了解如何对单页和多页文档 **convert pdf to text**。此方法为您在任何 C# 应用程序（无论是 Web 服务、桌面工具还是后台任务）中集成 OCR 提供了灵活性。
 
-## 常见问题
-
-### Q1: Aspose.OCR for .NET 是否适用于处理各种图像格式？
-
-A1: 是的，Aspose.OCR 支持多种图像格式，包括 PDF、PNG、JPEG 等。
-
-### Q2: 我可以在 Web 和桌面应用程序中同时使用 Aspose.OCR for .NET 吗？
-
-A2: 当然！Aspose.OCR 可无缝集成到基于 .NET 开发的 Web 与桌面应用程序中。
-
-### Q3: 是否提供 Aspose.OCR for .NET 的试用版？
-
-A3: 是的，您可以通过 [free trial](https://releases.aspose.com/) 体验其功能。
-
-### Q4: 如何获取 Aspose.OCR for .NET 的技术支持？
-
-A4: 请访问 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 获取帮助并与社区交流。
-
-### Q5: 哪里可以购买 Aspose.OCR for .NET？
-
-A5: 您可以在 [purchase page](https://purchase.aspose.com/buy) 进行购买。
-
 ## Frequently Asked Questions
 
 **Q: 能否从受密码保护的 PDF 中提取文本？**  

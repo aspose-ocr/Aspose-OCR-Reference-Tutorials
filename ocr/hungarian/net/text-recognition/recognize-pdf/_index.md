@@ -117,28 +117,6 @@ A ciklus minden oldal `RecognitionResult`‑ját bejárja, és kiírja a kinyert
 
 Gratulálunk! Megtanulta, **hogyan OCR-elj pdf** fájlokat .NET‑ben, kinyerte a szöveget, és látta, hogyan **convert pdf to text** egy- és többoldalas dokumentumok esetén is. Ez a megközelítés rugalmasságot biztosít az OCR integrálásához bármely C# alkalmazásba, legyen az webszolgáltatás, asztali segédprogram vagy háttérfeladat.
 
-## GYIK
-
-### Q1: Az Aspose.OCR for .NET alkalmas különböző képfájl-formátumok feldolgozására?
-
-A1: Igen, az Aspose.OCR számos képfájl-formátumot támogat, többek között PDF, PNG, JPEG és egyebek.
-
-### Q2: Használhatom az Aspose.OCR for .NET-et web‑ és asztali alkalmazásokban egyaránt?
-
-A2: Természetesen! Az Aspose.OCR zökkenőmentesen integrálható mind web‑, mind asztali .NET alkalmazásokba.
-
-### Q3: Elérhető-e próbaverzió az Aspose.OCR for .NET‑hez?
-
-A3: Igen, a [free trial](https://releases.aspose.com/) segítségével felfedezheti a funkciókat.
-
-### Q4: Hol kaphatok támogatást az Aspose.OCR for .NET‑hez?
-
-A4: Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16), ahol segítséget és közösségi támogatást talál.
-
-### Q5: Hol vásárolhatom meg az Aspose.OCR for .NET‑et?
-
-A5: A terméket a [purchase page](https://purchase.aspose.com/buy) oldalon vásárolhatja meg.
-
 ## Gyakran Ismételt Kérdések
 
 **K: Kinyerhetek szöveget jelszóval védett PDF‑ből?**  

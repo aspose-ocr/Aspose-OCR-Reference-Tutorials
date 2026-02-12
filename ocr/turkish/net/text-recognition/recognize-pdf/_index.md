@@ -116,28 +116,6 @@ Döngü, her sayfanın `RecognitionResult` nesnesini iterasyonla alır ve çıka
 
 Tebrikler! .NET'te **how to ocr pdf** dosyalarını nasıl işlediğinizi, metin çıkardığınızı ve hem tek sayfa hem de çok sayfalı belgeler için **convert pdf to text** işlemini nasıl gerçekleştireceğinizi öğrendiniz. Bu yaklaşım, OCR'ı herhangi bir C# uygulamasına—web servisi, masaüstü aracı veya arka plan işi—entegre etme esnekliği sağlar.
 
-## SSS
-
-### S1: Aspose.OCR for .NET çeşitli görüntü formatlarını işlemek için uygun mu?
-
-A1: Evet, Aspose.OCR PDF, PNG, JPEG ve daha fazlası dahil olmak üzere geniş bir görüntü formatı yelpazesini destekler.
-
-### S2: Aspose.OCR for .NET'i hem web hem de masaüstü uygulamalarda kullanabilir miyim?
-
-A2: Kesinlikle! Aspose.OCR, .NET ile geliştirilen hem web hem de masaüstü uygulamalara sorunsuz bir şekilde entegre olur.
-
-### S3: Aspose.OCR for .NET için bir deneme sürümü mevcut mu?
-
-A3: Evet, [free trial](https://releases.aspose.com/) adresinden özellikleri keşfedebilirsiniz.
-
-### S4: Aspose.OCR for .NET için destek nasıl alınır?
-
-A4: Yardım ve topluluk desteği için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
-
-### S5: Aspose.OCR for .NET nereden satın alınabilir?
-
-A5: Ürünü [purchase page](https://purchase.aspose.com/buy) üzerinden alabilirsiniz.
-
 ## Sıkça Sorulan Sorular
 
 **S: Şifre korumalı bir PDF'den metin çıkarabilir miyim?**  

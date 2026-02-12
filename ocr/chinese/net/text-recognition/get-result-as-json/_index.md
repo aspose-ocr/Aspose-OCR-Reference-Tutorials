@@ -118,13 +118,6 @@ A: 可以，购买链接在 [here](https://purchase.aspose.com/buy)。
 
 通过上述步骤，您已经了解 **如何使用 Aspose** OCR 来 **extract text image C#**，recognize images，并生成整洁的 **ocr result json**。此方法简化了图像转文本的流水线，减少了外部依赖，并让您完全掌控输出格式。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2026-01-02  
@@ -132,3 +125,10 @@ A: 可以，购买链接在 [here](https://purchase.aspose.com/buy)。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

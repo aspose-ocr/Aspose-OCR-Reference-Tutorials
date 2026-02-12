@@ -119,13 +119,6 @@ A: Evet, bir lisansı [buradan](https://purchase.aspose.com/buy) satın alabilir
 
 Bu adımları izleyerek, artık **how to use Aspose** OCR'yi **extract text image C#** yapmak, görüntüleri tanımak ve temiz bir **ocr result json** üretmek için biliyorsunuz. Bu yaklaşım, görüntü‑metin boru hatlarını basitleştirir, dış bağımlılıkları azaltır ve çıktı formatı üzerinde tam kontrol sağlar.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -133,3 +126,10 @@ Bu adımları izleyerek, artık **how to use Aspose** OCR'yi **extract text imag
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

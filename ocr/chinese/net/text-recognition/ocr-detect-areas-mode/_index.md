@@ -15,11 +15,11 @@ weight: 13
 
 # ocr 文档模式 – OCR 图像识别中的检测区域模式
 
-## Introduction
+## 引言
 
 在现代 .NET 开发中，**ocr document mode** 是在需要对图像内部文本检测进行精确控制时的首选方法。Aspose.OCR for .NET 使在不同检测策略之间切换变得轻而易举，让您能够从收据、发票或多列文档等复杂布局中**extract table text image**。本 **aspose ocr tutorial c#** 将带您了解 Detect Areas Mode 功能，解释何时使用每种模式，并展示一个可直接运行的代码示例。
 
-## Quick Answers
+## 快速解答
 - **什么是 ocr document mode？** 一组检测策略（PHOTO、DOCUMENT、COMBINE），用于告诉 Aspose.OCR 如何定位文本区域。
 - **哪个模式最适合表格？** `PHOTO` 模式在提取表格文本图像和小文本块方面表现出色。
 - **开发是否需要许可证？** 免费试用许可证足以进行测试；生产环境需要商业许可证。

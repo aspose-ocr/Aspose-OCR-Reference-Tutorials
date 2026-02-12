@@ -120,13 +120,6 @@ A: Igen, licencet itt vásárolhatsz: [here](https://purchase.aspose.com/buy).
 
 A lépések követésével most már tudod, hogyan **használhatod az Aspose** OCR-t **extract text image C#** módon, hogyan ismerheted fel a képeket, és hogyan állíthatsz elő egy tiszta **ocr result json**-t. Ez a megközelítés egyszerűsíti a kép‑szöveg csővezetékeket, csökkenti a külső függőségeket, és teljes kontrollt biztosít a kimeneti formátum felett.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -134,3 +127,10 @@ A lépések követésével most már tudod, hogyan **használhatod az Aspose** O
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

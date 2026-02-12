@@ -116,28 +116,6 @@ foreach (var result in results)
 
 축하합니다! .NET에서 **how to ocr pdf** 파일을 처리하고 텍스트를 추출했으며, 단일 페이지와 다중 페이지 문서 모두에 대해 **convert pdf to text** 하는 방법을 확인했습니다. 이 접근 방식은 웹 서비스, 데스크톱 유틸리티, 백그라운드 작업 등 어떤 C# 애플리케이션에도 OCR을 유연하게 통합할 수 있게 해줍니다.
 
-## FAQ
-
-### Q1: Aspose.OCR for .NET은 다양한 이미지 형식을 처리하는 데 적합한가요?
-
-A1: 예, Aspose.OCR은 PDF, PNG, JPEG 등을 포함한 다양한 이미지 형식을 지원합니다.
-
-### Q2: Aspose.OCR for .NET을 웹 및 데스크톱 애플리케이션 모두에서 사용할 수 있나요?
-
-A2: 물론입니다! Aspose.OCR은 .NET으로 개발된 웹 및 데스크톱 애플리케이션 모두에 원활히 통합됩니다.
-
-### Q3: Aspose.OCR for .NET에 대한 체험판이 있나요?
-
-A3: 예, [free trial](https://releases.aspose.com/)을 통해 기능을 체험할 수 있습니다.
-
-### Q4: Aspose.OCR for .NET 지원을 어떻게 받을 수 있나요?
-
-A4: [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)을 방문하여 도움을 받고 커뮤니티와 연결하십시오.
-
-### Q5: Aspose.OCR for .NET을 어디서 구매할 수 있나요?
-
-A5: [purchase page](https://purchase.aspose.com/buy)에서 제품을 구매할 수 있습니다.
-
 ## 자주 묻는 질문
 
 **Q: 비밀번호로 보호된 PDF에서 텍스트를 추출할 수 있나요?**  

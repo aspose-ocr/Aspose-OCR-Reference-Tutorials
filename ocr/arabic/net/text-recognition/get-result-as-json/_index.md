@@ -119,13 +119,6 @@ Console.WriteLine("GetResultAsJson executed successfully");
 
 باتباع هذه الخطوات، أصبحت الآن تعرف **كيفية استخدام Aspose** OCR لـ **extract text image C#**، التعرف على الصور، وإنتاج **ocr result json** نظيف. يسهّل هذا النهج تدفقات العمل من الصورة إلى النص، يقلل الاعتماد على الخدمات الخارجية، ويمنحك تحكمًا كاملاً في تنسيق المخرجات.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-02  
@@ -133,3 +126,10 @@ Console.WriteLine("GetResultAsJson executed successfully");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

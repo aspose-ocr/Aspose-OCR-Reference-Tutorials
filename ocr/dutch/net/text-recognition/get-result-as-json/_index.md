@@ -120,13 +120,6 @@ A: Ja, je kunt een licentie kopen [hier](https://purchase.aspose.com/buy).
 
 Door deze stappen te volgen, weet je nu **hoe je Aspose** OCR kunt gebruiken om **tekst uit afbeelding C#** te extraheren, afbeeldingen te herkennen, en een nette **ocr result json** te produceren. Deze aanpak stroomlijnt afbeelding‑naar‑tekst pijplijnen, vermindert externe afhankelijkheden, en geeft je volledige controle over het uitvoerformaat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-02  
@@ -134,3 +127,10 @@ Door deze stappen te volgen, weet je nu **hoe je Aspose** OCR kunt gebruiken om 
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

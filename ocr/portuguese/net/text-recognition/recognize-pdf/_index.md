@@ -119,28 +119,6 @@ Parabéns! Você aprendeu **how to ocr pdf** em .NET, extraiu texto e viu como *
 
 ## Perguntas Frequentes
 
-### Q1: O Aspose.OCR para .NET é adequado para processar vários formatos de imagem?
-
-A1: Sim, o Aspose.OCR suporta uma ampla variedade de formatos de imagem, incluindo PDF, PNG, JPEG e mais.
-
-### Q2: Posso usar o Aspose.OCR para .NET tanto em aplicações web quanto desktop?
-
-A2: Absolutamente! O Aspose.OCR integra‑se perfeitamente em aplicações web e desktop desenvolvidas com .NET.
-
-### Q3: Existe uma versão de avaliação disponível para o Aspose.OCR para .NET?
-
-A3: Sim, você pode explorar os recursos com o [free trial](https://releases.aspose.com/).
-
-### Q4: Como posso obter suporte para o Aspose.OCR para .NET?
-
-A4: Visite o [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) para obter assistência e conectar‑se com a comunidade.
-
-### Q5: Onde posso comprar o Aspose.OCR para .NET?
-
-A5: Você pode adquirir o produto na [purchase page](https://purchase.aspose.com/buy).
-
-## Perguntas Frequentes
-
 **Q: Posso extrair texto de um PDF protegido por senha?**  
 A: Sim. Use a sobrecarga de `RecognizePdf` que aceita um parâmetro de senha.
 

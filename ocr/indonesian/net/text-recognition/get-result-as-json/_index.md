@@ -16,30 +16,30 @@ weight: 12
 
 # Dapatkan Hasil sebagai JSON dalam OCR Image Recognition
 
-## Introduction
+## Perkenalan
 
-Dalam aplikasi modern, **bagaimana cara menggunakan Aspose** OCR secara efektif dapat secara dramatis mempercepat ekstraksi data dari dokumen yang dipindai, screenshot, atau gambar apa pun yang berisi teks. Dengan memanfaatkan Aspose.OCR untuk .NET Anda dapat **extract text image C#** style, recognize image aspose ocr, dan langsung memperoleh **ocr result json** untuk pemrosesan selanjutnya. Tutorial ini memandu Anda melalui setiap langkah untuk mengonversi gambar menjadi output JSON C#, sehingga Anda dapat mengintegrasikan hasilnya ke dalam API, basis data, atau pipeline analitik.
+Dalam aplikasi modern, **bagaimana cara menggunakan Aspose** OCR secara efektif dapat secara dramatis mempercepat ekstraksi data dari dokumen yang dikirimkan, tangkapan layar, atau gambar apa pun yang berisi teks. Dengan memanfaatkan Aspose.OCR untuk .NET Anda dapat **mengekstrak gambar teks gaya C#**, mengenali gambar aspose ocr, dan langsung memperoleh **hasil ocr json** untuk memproses selanjutnya. Tutorial ini memandu Anda melalui setiap langkah untuk mengonversi gambar menjadi output JSON C#, sehingga Anda dapat mengintegrasikan hasilnya ke dalam API, basis data, atau pipeline analitik.
 
-## Quick Answers
-- **What does the tutorial cover?** Mengonversi output OCR ke JSON menggunakan Aspose OCR untuk .NET.  
-- **Which language is used?** C# (.NET Framework atau .NET Core).  
-- **Do I need a license?** Tersedia trial gratis; lisensi diperlukan untuk produksi.  
-- **What is the primary output?** String JSON yang berisi teks yang dikenali dan data tata letak.  
-- **How long does implementation take?** Sekitar 10‑15 menit untuk pengaturan dasar.
+## Jawaban Cepat
+- **Apa yang tercakup dalam tutorial ini?** Mengonversi output OCR ke JSON menggunakan Aspose OCR untuk .NET.
+- **Bahasa apa yang digunakan?** C# (.NET Framework atau .NET Core).
+- **Apakah saya memerlukan lisensi?** Tersedia uji coba gratis; lisensi diperlukan untuk produksi.
+- **Apa output utamanya?** String JSON yang berisi teks yang dikenal dan data tata letak.
+- **Berapa lama waktu penerapannya?** Sekitar 10‑15 menit untuk pengaturan dasar.
 
-## What is Aspose OCR and why use it?
+## Apa itu Aspose OCR dan mengapa menggunakannya?
 
-Aspose OCR adalah pustaka lintas‑platform yang kuat yang memungkinkan pengembang untuk **recognize image aspose ocr** tanpa layanan eksternal. Ia berjalan secara lokal, menghormati privasi data, dan mengembalikan hasil dalam format JSON terstruktur, menjadikannya ideal untuk alur kerja image‑to‑text tingkat perusahaan.
+Aspose OCR adalah lintas pustaka‑platform yang kuat yang memungkinkan pengembang untuk **mengenali gambar aspose ocr** tanpa layanan eksternal. Ia berjalan secara lokal, menghormati privasi data, dan mengembalikan hasil dalam format JSON terstruktur, menjadikannya ideal untuk alur kerja image‑to‑text tingkat perusahaan.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki hal‑hal berikut:
 
-- **Visual Studio** (versi terbaru apa pun) terpasang di mesin Anda.  
-- **Aspose.OCR for .NET** – unduh dari [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/).  
+- **Visual Studio** (versi terbaru apa pun) terpasang di mesin Anda.
+- **Aspose.OCR untuk .NET** – unduh dari [Dokumentasi Aspose.OCR untuk .NET](https://reference.aspose.com/ocr/net/).
 - Sebuah gambar contoh (misalnya `sample.png`) yang ditempatkan di folder yang dapat Anda referensikan dari kode.
 
-## Import Namespaces
+## Impor Namespace
 
 Untuk memulai, impor namespace penting:
 
@@ -49,7 +49,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Step 1: Set Up Your Document Directory
+## Langkah 1: Siapkan Direktori Dokumen Anda
 
 Tentukan jalur tempat file gambar Anda berada:
 
@@ -57,15 +57,15 @@ Tentukan jalur tempat file gambar Anda berada:
 string dataDir = "Your Document Directory";
 ```
 
-## Step 2: Initialize Aspose.OCR
+## Langkah 2: Inisialisasi Aspose.OCR
 
-Buat instance mesin OCR:
+Buat mesin instan OCR:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Step 3: Recognize Image
+## Langkah 3: Kenali Gambar
 
 Panggil metode `RecognizeImage` untuk memproses gambar dan memperoleh objek `RecognitionResult`:
 
@@ -73,17 +73,17 @@ Panggil metode `RecognizeImage` untuk memproses gambar dan memperoleh objek `Rec
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });
 ```
 
-## Step 4: Display Recognition Result in JSON
+## Langkah 4: Tampilkan Hasil Pengenalan di JSON
 
-Keluarkan hasil OCR sebagai string JSON. Ini adalah langkah **image to json c#**:
+Keluarkan hasil OCR sebagai string JSON. Ini adalah langkah **gambar ke json c#**:
 
 ```csharp
 Console.WriteLine(result.GetJson());
 ```
 
-JSON yang dicetak berisi teks yang dikenali, skor kepercayaan, dan informasi tata letak—sempurna untuk diteruskan ke layanan lain.
+JSON yang dicetak berisi teks yang dikenal, skor kepercayaan, dan informasi tata letak—sempurna untuk diteruskan ke layanan lain.
 
-## Step 5: Finalize Execution
+## Langkah 5: Selesaikan Eksekusi
 
 Tandai penyelesaian yang berhasil:
 
@@ -91,41 +91,34 @@ Tandai penyelesaian yang berhasil:
 Console.WriteLine("GetResultAsJson executed successfully");
 ```
 
-## Common Issues & Tips
+## Masalah & Tip Umum
 
-| Issue | Solution |
+| Edisi | Solusi |
 |-------|----------|
-| **Blank JSON output** | Pastikan jalur gambar benar dan file dapat diakses. |
-| **Low confidence scores** | Sesuaikan `RecognitionSettings` (misalnya, bahasa, DPI) untuk meningkatkan akurasi. |
-| **Performance bottleneck** | Gunakan kembali instance `AsposeOcr` untuk beberapa gambar alih‑alih membuatnya setiap kali. |
+| **Keluaran JSON kosong** | Pastikan jalur gambar benar dan file dapat diakses. |
+| **Skor kepercayaan diri rendah** | Sesuaikan `RecognitionSettings` (misalnya, bahasa, DPI) untuk meningkatkan akurasi. |
+| **Kemacetan kinerja** | Gunakan kembali instance `AsposeOcr` untuk beberapa gambar alih-alih membuatnya setiap kali. |
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Is a free trial available for Aspose.OCR for .NET?**  
-A: Yes, you can access a free trial [here](https://releases.aspose.com/).
+**T: Apakah uji coba gratis tersedia untuk Aspose.OCR untuk .NET?**
+A: Ya, Anda dapat mengakses uji coba gratis [di sini](https://releases.aspose.com/).
 
-**Q: Where can I find the documentation for Aspose.OCR for .NET?**  
-A: The documentation is available [here](https://reference.aspose.com/ocr/net/).
+**T: Di mana saya dapat menemukan dokumentasi Aspose.OCR untuk .NET?**
+J: Dokumentasinya tersedia [di sini](https://reference.aspose.com/ocr/net/).
 
-**Q: How can I obtain a temporary license for Aspose.OCR for .NET?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) for temporary license options.
+**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.OCR for .NET?**
+J: Kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/) untuk opsi lisensi sementara.
 
-**Q: Where can I get community support for Aspose.OCR for .NET?**  
-A: Engage with the community on the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+**T: Di mana saya bisa mendapatkan dukungan komunitas untuk Aspose.OCR for .NET?**
+J: Berinteraksilah dengan komunitas di [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
-**Q: Can I purchase a license for Aspose.OCR for .NET?**  
-A: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
+**T: Dapatkah saya membeli lisensi untuk Aspose.OCR for .NET?**
+J: Ya, Anda dapat membeli lisensi [di sini](https://purchase.aspose.com/buy).
 
-## Conclusion
+## Kesimpulan
 
 Dengan mengikuti langkah‑langkah ini, Anda kini tahu **bagaimana cara menggunakan Aspose** OCR untuk **extract text image C#**, mengenali gambar, dan menghasilkan **ocr result json** yang bersih. Pendekatan ini menyederhanakan pipeline image‑to‑text, mengurangi ketergantungan eksternal, dan memberi Anda kontrol penuh atas format output.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -134,3 +127,10 @@ Dengan mengikuti langkah‑langkah ini, Anda kini tahu **bagaimana cara mengguna
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

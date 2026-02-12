@@ -118,13 +118,6 @@ A: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
 
 By following these steps, you now know **how to use Aspose** OCR to **extract text image C#**, recognize images, and produce a clean **ocr result json**. This approach streamlines image‑to‑text pipelines, reduces external dependencies, and gives you full control over the output format.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-02  
@@ -132,3 +125,10 @@ By following these steps, you now know **how to use Aspose** OCR to **extract te
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

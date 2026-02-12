@@ -115,28 +115,6 @@ The loop iterates over each page’s `RecognitionResult` and prints the extracte
 
 Congratulations! You’ve learned **how to ocr pdf** files in .NET, extracted text, and seen how to **convert pdf to text** for both single‑ and multi‑page documents. This approach gives you the flexibility to integrate OCR into any C# application, whether it’s a web service, desktop utility, or background job.
 
-## FAQ's
-
-### Q1: Is Aspose.OCR for .NET suitable for processing various image formats?
-
-A1: Yes, Aspose.OCR supports a wide range of image formats, including PDF, PNG, JPEG, and more.
-
-### Q2: Can I use Aspose.OCR for .NET in both web and desktop applications?
-
-A2: Absolutely! Aspose.OCR seamlessly integrates into both web and desktop applications developed using .NET.
-
-### Q3: Is there a trial version available for Aspose.OCR for .NET?
-
-A3: Yes, you can explore the features with the [free trial](https://releases.aspose.com/).
-
-### Q4: How can I get support for Aspose.OCR for .NET?
-
-A4: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to get assistance and connect with the community.
-
-### Q5: Where can I purchase Aspose.OCR for .NET?
-
-A5: You can buy the product from the [purchase page](https://purchase.aspose.com/buy).
-
 ## Frequently Asked Questions
 
 **Q: Can I extract text from a password‑protected PDF?**  

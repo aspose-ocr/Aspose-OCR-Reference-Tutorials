@@ -116,28 +116,6 @@ Loopen itererar över varje sidas `RecognitionResult` och skriver ut den extrahe
 
 Grattis! Du har lärt dig **how to ocr pdf** filer i .NET, extraherat text och sett hur du **convert pdf to text** för både enkelsidiga och flersidiga dokument. Detta tillvägagångssätt ger dig flexibiliteten att integrera OCR i vilken C#‑applikation som helst, oavsett om det är en webbtjänst, ett skrivbordsverktyg eller ett bakgrundsjobb.
 
-## Vanliga frågor
-
-### Q1: Är Aspose.OCR för .NET lämplig för att bearbeta olika bildformat?
-
-A1: Ja, Aspose.OCR stöder ett brett spektrum av bildformat, inklusive PDF, PNG, JPEG och fler.
-
-### Q2: Kan jag använda Aspose.OCR för .NET i både webb- och skrivbordsapplikationer?
-
-A2: Absolut! Aspose.OCR integreras sömlöst i både webb- och skrivbordsapplikationer som utvecklats med .NET.
-
-### Q3: Finns en provversion tillgänglig för Aspose.OCR för .NET?
-
-A3: Ja, du kan utforska funktionerna med den [gratis provversionen](https://releases.aspose.com/).
-
-### Q4: Hur kan jag få support för Aspose.OCR för .NET?
-
-A4: Besök [Aspose.OCR‑forumet](https://forum.aspose.com/c/ocr/16) för att få hjälp och ansluta till communityn.
-
-### Q5: Var kan jag köpa Aspose.OCR för .NET?
-
-A5: Du kan köpa produkten från [köpsidan](https://purchase.aspose.com/buy).
-
 ## Vanliga frågor och svar
 
 **Q: Kan jag extrahera text från en lösenordsskyddad PDF?**  

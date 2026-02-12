@@ -120,15 +120,15 @@ A: Ano, licenci můžete zakoupit [zde](https://purchase.aspose.com/buy).
 
 Po provedení těchto kroků nyní víte, **jak používat Aspose** OCR k **extrahování textu z obrázku C#**, rozpoznávání obrázků a vytvoření čistého **ocr result json**. Tento přístup zjednodušuje pipeline převodu obrázku na text, snižuje externí závislosti a poskytuje vám plnou kontrolu nad výstupním formátem.
 
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

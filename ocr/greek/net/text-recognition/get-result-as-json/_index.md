@@ -120,15 +120,15 @@ A: Ναι, μπορείτε να αγοράσετε άδεια [εδώ](https://
 
 Ακολουθώντας αυτά τα βήματα, τώρα γνωρίζετε **how to use Aspose** OCR για **extract text image C#**, αναγνώριση εικόνων, και παραγωγή ενός καθαρού **ocr result json**. Αυτή η προσέγγιση απλοποιεί τις ροές εργασίας εικόνα‑σε‑κείμενο, μειώνει τις εξωτερικές εξαρτήσεις και σας δίνει πλήρη έλεγχο πάνω στη μορφή εξόδου.
 
+---
+
+**Τελευταία ενημέρωση:** 2026-01-02  
+**Δοκιμή με:** Aspose.OCR 24.11 for .NET  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2026-01-02  
-**Δοκιμή με:** Aspose.OCR 24.11 for .NET  
-**Συγγραφέας:** Aspose

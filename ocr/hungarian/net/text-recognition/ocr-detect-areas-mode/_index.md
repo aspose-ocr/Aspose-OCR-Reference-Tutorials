@@ -14,39 +14,40 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ocr document mode – Detect Areas Mode az OCR képfelismerésben
+# ocr dokumentum mód – Területek észlelése mód az OCR képfelismerésben
 
-## Introduction
+## Bevezetés
 
-A modern .NET fejlesztésben a **ocr document mode** a legjobb megoldás, ha pontos irányítást szeretnénk a szöveg képen belüli felismerése felett. Az Aspose.OCR for .NET egyszerűvé teszi a különböző felismerési stratégiák közti váltást, lehetővé téve a **extract table text image** kinyerését összetett elrendezésekből, például nyugtákból, számlákból vagy többoszlopos dokumentumokból. Ez a **aspose ocr tutorial c#** végigvezet a Detect Areas Mode funkción, elmagyarázza, mikor melyik módot érdemes használni, és egy azonnal futtatható kódrészletet mutat be.
+A modern .NET fejlesztésben a **ocr document mode** a legjobb, ha pontos irányítást fogunk látni a szöveg képen belüli felismerése felett. Az Aspose.OCR for .NET egyszerűvé teszi a különböző felismerési stratégiák közti váltást, lehetővé téve a **extract table text image** kinyerését összetett elrendezésekből, például nyugtákból, számlákból vagy többloposból. Ez a **aspose ocr tutorial c#** végigvezet a Detect Areas Mode funkción, elmagyarázza, mikor melyik módot érdemes használni, és egy azonnal futtatható kódrészletet mutat be.
 
-## Quick Answers
-- **What is ocr document mode?** A set of detection strategies (PHOTO, DOCUMENT, COMBINE) that tell Aspose.OCR how to locate text regions.
-- **Which mode works best for tables?** `PHOTO` mode excels at extracting table text image and small text blocks.
-- **Do I need a license for development?** A free trial license is sufficient for testing; a commercial license is required for production.
-- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 and later.
-- **How long does the setup take?** Typically under 10 minutes to integrate and run the sample code.
+## Gyors válaszok
+- **Mi az ocr dokumentum mód?** Egy sor észlelési stratégiát (PHOTO, DOCUMENT, COMBINE), amelyek megmondják az Aspose.OCR-nek, hogyan keresse meg a szöveges régiókat.
+- **Melyik mód működik a legjobban táblázatokhoz?** A `FOTÓ' mód kiváló a táblázat szövegképének és kis szövegblokkjainak kinyerésében.
+- **Szükségem van licencre a fejlesztéshez?** A teszteléshez elegendő egy ingyenes próba licenc; gyártásához kereskedelmi engedély szükséges.
+- **Milyen .NET-verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 és újabb.
+- **Mennyi ideig tart a beállítás?** A mintakód integrálása és futtatása jellemzően kevesebb mint 10 percet vesz igénybe.
 
-## What is ocr document mode?
-`ocr document mode` refers to the configuration that tells Aspose.OCR how to segment an image before performing text recognition. The three built‑in modes are:
+## Mi az ocr dokumentum mód?
+Az „ocr dokumentum mód” arra a konfigurációra utal, amely megmondja az Aspose.OCR-nek, hogyan szegmentáljon egy képet a szövegfelismerés végrehajtása előtt. A három beépített mód a következő:
 
-- **PHOTO** – Optimized for photographs, receipts, invoices, and small text regions (ideal for extracting table text image).
-- **DOCUMENT** – Suited for multi‑column printed pages and documents containing embedded graphics.
-- **COMBINE** – Merges the results of PHOTO and DOCUMENT for the most comprehensive coverage.
+- **FOTÓ** – Fényképekhez, nyugtákhoz, számlákhoz és kis szövegterületekhez optimalizálva (ideális táblázatos szövegképek kinyeréséhez).
+- **DOKUMENTUM** – Több oszlopból álló nyomtatott oldalakhoz és beágyazott grafikákat tartalmazó dokumentumokhoz alkalmas.
+- **KOMBINÁLÁS** – A FOTÓ és a DOKUMENTUM eredményeit egyesíti a legátfogóbb lefedettség érdekében.
 
-## Why use Detect Areas Mode?
-Choosing the right detection mode reduces false positives, speeds up processing, and improves accuracy—especially when you’re dealing with structured data like tables. By tailoring the mode to your image type, you can achieve reliable OCR results without post‑processing.
+## Miért érdemes használni a Területészlelési módot?
 
-## Prerequisites
+A megfelelő észlelési mód kiválasztása csökkenti a téves riasztásokat, felgyorsítja a feldolgozást és javítja a pontosságot – különösen strukturált adatok, például táblázatok esetén. A mód képtípushoz szabásával megbízható OCR eredményeket érhet el utófeldolgozás nélkül.
 
-Before you start, make sure you have:
+## Előfeltételek
 
-- **Aspose.OCR for .NET** – Download and install the library from the [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/).
-- **Document Directory** – A folder on your machine that contains the images you want to process (e.g., `table.png`).
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
-## Import Namespaces
+- **Aspose.OCR for .NET** – Töltse le és telepítse a könyvtárat az [Aspose.OCR for .NET dokumentációból](https://reference.aspose.com/ocr/net/).
+- **Dokumentumkönyvtár** – Egy mappa a gépén, amely a feldolgozni kívánt képeket tartalmazza (pl. `table.png`).
 
-First, import the namespaces required to work with Aspose.OCR in your C# project.
+## Névterek importálása
+
+Először importálja azokat a névtereket, amelyek az Aspose.OCR használatához szükségesek a C# projektben.
 
 ```csharp
 using System;
@@ -54,9 +55,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Step 1: Initialize Aspose.OCR
+## 1. lépés: Az Aspose.OCR inicializálása
 
-Create an instance of the OCR engine and point it to your data folder.
+Hozzon létre egy példányt az OCR motorból, és irányítsa át az adatmappájára.
 
 ```csharp
 // The path to the documents directory.
@@ -66,9 +67,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Step 2: Load the Image and Choose Detect Areas Mode
+## 2. lépés: Töltse be a képet, és válassza ki a Területek észlelése módot
 
-Load the target image and specify the detection strategy that matches your scenario.
+Töltse be a célképet, és adja meg a forgatókönyvnek megfelelő észlelési stratégiát.
 
 ```csharp
 // Recognize image
@@ -80,9 +81,9 @@ RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new Recogni
 });
 ```
 
-## Step 3: Retrieve and Display the Recognized Text
+## 3. lépés: A felismert szöveg lekérése és megjelenítése
 
-After OCR completes, you can access the extracted text—perfect for further processing or storing in a database.
+Az OCR befejezése után hozzáférhet a kinyert szöveghez – tökéletes további feldolgozáshoz vagy adatbázisban való tároláshoz.
 
 ```csharp
 // Display the recognized text
@@ -91,40 +92,40 @@ Console.WriteLine(result.RecognitionText);
 Console.WriteLine("OCRDetectAreasMode executed successfully");
 ```
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
 | **Üres kimenet** | Helytelen `DetectAreasMode` a kép típusához | Váltás `DOCUMENT` vagy `COMBINE` módra a felépítéstől függően |
 | **Zavaros karakterek** | Alacsony felbontású kép | Magasabb felbontású forrást biztosítson vagy előfeldolgozza képnöveléssel |
-| **Időtúllépés nagy fájloknál** | Nem elegendő memória | Használja a `RecognitionSettings`-et a régió méretének korlátozásához vagy dolgozza fel az oldalakat darabokban |
+| **Időtúllépés nagy fájloknál** | Nem elegendő memória | Használja a `RecognitionSettings`-et a régió méretének korrelációjához vagy dolgozza fel az oldalakat darabokban |
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 
-**Q: Is Aspose.OCR for .NET suitable for large‑scale applications?**  
-A: Yes, it is designed to handle high‑volume OCR workloads with optimized performance.
+**K: Alkalmas az Aspose.OCR for .NET nagyméretű alkalmazásokhoz?**
+V: Igen, optimalizált teljesítménnyel kezeli a nagy volumenű OCR-munkaterheléseket.
 
-**Q: Can I use Aspose.OCR for .NET to recognize handwritten text?**  
-A: The library focuses on printed text; handwritten recognition may require a specialized engine.
+**K: Használhatom az Aspose.OCR for .NET-et kézzel írott szöveg felismerésére?**
+V: A könyvtár a nyomtatott szövegre összpontosít; a kézírás-felismeréshez speciális motorra lehet szükség.
 
-**Q: What image formats are supported?**  
-A: Common formats such as PNG, JPEG, BMP, and TIFF are fully supported.
+**K: Milyen képformátumok támogatottak?**
+V: Az olyan elterjedt formátumok, mint a PNG, JPEG, BMP és TIFF, teljes mértékben támogatottak.
 
-**Q: How can I get technical support?**  
-A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to ask questions and interact with the community.
+**K: Hogyan kaphatok technikai támogatást?**
+V: Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16), hogy kérdéseket tegyen fel és kapcsolatba lépjen a közösséggel.
 
-**Q: Is there a free trial available?**  
-A: Yes, you can explore the capabilities with a [free trial license](https://releases.aspose.com/).
+**K: Van elérhető ingyenes próbaverzió?**
+V: Igen, a funkciókat [ingyenes próbalicenccel](https://releases.aspose.com/) felfedezheti.
 
-## Conclusion
+## Konklúzió
 
-By mastering **ocr document mode** and the Detect Areas Mode options, you can fine‑tune Aspose.OCR for .NET to extract table text image and other structured data with high accuracy. Incorporate this approach into your applications to automate data entry, invoice processing, or any scenario where converting images to searchable text is essential.
+Az **ocr dokumentum mód** és a Területérzékelési mód beállításainak elsajátításával finomhangolhatja az Aspose.OCR for .NET programot, hogy nagy pontossággal kinyerje a táblázatok szövegét, képét és más strukturált adatokat. Építse be ezt a megközelítést alkalmazásaiba az adatbevitel, a számlák feldolgozása vagy bármilyen olyan forgatókönyv automatizálásához, ahol a képek kereshető szöveggé alakítása elengedhetetlen.
 
 ---
 
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-01-02
+**Tesztelve:** Aspose.OCR 24.11 for .NET
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,28 +117,6 @@ Loop ini mengiterasi setiap `RecognitionResult` halaman dan mencetak teks yang d
 
 Selamat! Anda telah mempelajari **cara ocr pdf** di .NET, mengekstrak teks, dan melihat cara **convert pdf to text** untuk dokumen satu‑halaman maupun multi‑halaman. Pendekatan ini memberi Anda fleksibilitas untuk mengintegrasikan OCR ke dalam aplikasi C# apa pun, baik itu layanan web, utilitas desktop, atau pekerjaan latar belakang.
 
-## FAQ's
-
-### Q1: Apakah Aspose.OCR untuk .NET cocok untuk memproses berbagai format gambar?
-
-A1: Ya, Aspose.OCR mendukung berbagai format gambar, termasuk PDF, PNG, JPEG, dan lainnya.
-
-### Q2: Bisakah saya menggunakan Aspose.OCR untuk .NET di aplikasi web dan desktop?
-
-A2: Tentu saja! Aspose.OCR terintegrasi mulus ke dalam aplikasi web maupun desktop yang dikembangkan dengan .NET.
-
-### Q3: Apakah ada versi percobaan untuk Aspose.OCR untuk .NET?
-
-A3: Ya, Anda dapat menjelajahi fitur-fitur dengan [free trial](https://releases.aspose.com/).
-
-### Q4: Bagaimana cara mendapatkan dukungan untuk Aspose.OCR untuk .NET?
-
-A4: Kunjungi [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) untuk mendapatkan bantuan dan terhubung dengan komunitas.
-
-### Q5: Di mana saya dapat membeli Aspose.OCR untuk .NET?
-
-A5: Anda dapat membeli produk tersebut dari [purchase page](https://purchase.aspose.com/buy).
-
 ## Pertanyaan yang Sering Diajukan
 
 **T: Bisakah saya mengekstrak teks dari PDF yang dilindungi kata sandi?**  
