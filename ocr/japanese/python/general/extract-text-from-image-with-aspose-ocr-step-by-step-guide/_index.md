@@ -43,7 +43,7 @@ url: /ja/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-gui
 
 ---
 
-## Extract Text from Image – Setting Up Aspose OCR
+## 画像からテキストを抽出 – Aspose OCR の設定
 
 何かを始める前に、正しいパッケージが必要です。Aspose は OCR エンジンを pip でインストール可能なモジュールとして配布しています。
 
@@ -57,7 +57,8 @@ AI ポストプロセッサも必要な場合は、コンパニオンパッケ�
 pip install aspose-ocr-ai
 ```
 
-> **Pro tip:** パッケージは常に最新の状態に保ちましょう。執筆時点での最新バージョンは `aspose-ocr 23.12` と `aspose-ocr-ai 23.12` です。
+
+> **プロのヒント:** パッケージは常に最新の状態に保ちましょう。執筆時点での最新バージョンは `aspose-ocr 23.12` と `aspose-ocr-ai 23.12` です。
 
 ライブラリがシステムにインストールされたら、使用するクラスをインポートします。
 
@@ -70,7 +71,7 @@ from aspose.ocr import OcrEngine, AsposeAI
 
 ---
 
-## Load Image for OCR – Preparing Your Invoice PNG
+## OCR 用の画像の読み込み – 請求書 PNG の準備
 
 次の論理的ステップは、エンジンに読み取るファイルを指示することです。ここで **load image for OCR** キーワードが活躍します。
 
@@ -84,9 +85,9 @@ ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 
 > **Explanation:** `OcrEngine()` はデフォルト設定（英語、オートローテーションなど）で新しいエンジンを作成します。`load_image()` メソッドはファイルパス、ストリーム、バイト配列のいずれでも受け付けるため、ディスク、ウェブ、またはメモリバッファから画像を供給できます。
 
-### Common Pitfalls When Loading Images
+### 画像読み込み時のよくある落とし穴
 
-| Issue | Symptom | Fix |
+| 問題 | 症状 | 解決策 |
 |-------|---------|-----|
 | Low DPI (<300) | 文字化け、数字が抜ける | 画像を 300 dpi 以上にリサンプリングしてから読み込む |
 | Incorrect color mode (CMYK) | 文字形状が誤る | Pillow の `Image.convert("RGB")` で RGB に変換 |
@@ -94,7 +95,7 @@ ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 
 ---
 
-## Perform OCR and Get Raw Text
+## OCR を実行して生のテキストを取得する
 
 エンジンが画像の場所を把握したので、実際に読み取ります。
 
@@ -111,7 +112,7 @@ print(raw_text)
 
 ---
 
-## How to Correct OCR Errors – Using Aspose AI Spell‑Check
+## OCRエラーの修正方法 – Aspose AI Spell‑Checkの使用
 
 Aspose は軽量な AI ラッパーを提供しており、生の出力に対してスペルチェックポストプロセッサを実行できます。これが **how to correct OCR errors** の直接的な回答です。
 
@@ -132,7 +133,7 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### What the Spell‑Check Does Under the Hood
+### スペルチェックの仕組み
 
 1. **Tokenisation** – 生文字列を単語と句読点に分割。  
 2. **Dictionary Lookup** – 各トークンを英語辞書（またはカスタム辞書）と照合。  
@@ -143,7 +144,7 @@ print(clean_text)
 
 ---
 
-## Verify and Use the Cleaned Text
+## クリーンアップされたテキストの検証と使用
 
 ここまでで、`raw_text`（直接の OCR ダンプ）と `clean_text`（スペルチェック済みバージョン）の二つの変数が手に入ります。どちらを保持するかは、下流の要件次第です。
 
@@ -159,7 +160,7 @@ print("\n✅ Cleaned text saved to invoice_extracted.txt")
 
 ---
 
-## Full Working Example
+## 完全な動作例
 
 以下は `extract_invoice.py` というファイルにコピペできる完全なスクリプトです。二つの Aspose パッケージがインストール済みで、`YOUR_DIRECTORY/invoice.png` に画像があることを前提としています。
 
@@ -209,7 +210,7 @@ python extract_invoice.py
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## よくある質問 (FAQ)
 
 **Q: PDFでも動作しますか？**  
 A: 直接はできません。各 PDF ページを画像に変換（例: `pdf2image` を使用）し、生成された PNG に対してスクリプトをループしてください。
@@ -225,7 +226,7 @@ A: コアロジックを関数にまとめ、スレッドプールまたは非�
 
 ---
 
-## Wrap‑Up
+## まとめ
 
 Aspose OCR を使用した **extract text from image** の方法、**load image for OCR** の手順、そして組み込み AI スペルチェックで **correct OCR errors** を行う最もシンプルな方法を示しました。完全に実行可能なスクリプトは、請求書 PNG の読み込みからクリーンで検索可能な `.txt` ファイルの保存まで、エンドツーエンドのフローを実演しています。
 

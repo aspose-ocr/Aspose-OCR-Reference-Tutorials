@@ -96,7 +96,7 @@ ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 
 ---
 
-## Perform OCR and Get Raw Text
+## ดำเนินการ OCR และรับข้อความดิบ
 
 ตอนนี้เอนจินรู้แล้วว่าภาพอยู่ที่ไหน เราจึงสามารถอ่านได้  
 
@@ -113,7 +113,7 @@ print(raw_text)
 
 ---
 
-## How to Correct OCR Errors – Using Aspose AI Spell‑Check
+## วิธีแก้ไขข้อผิดพลาด OCR – การใช้ Aspose AI Spell‑Check
 
 Aspose มี wrapper AI ที่เบา ๆ สามารถรันตัวตรวจสอบการสะกดคำบนผลลัพธ์ดิบได้โดยตรง ซึ่งตอบคำถาม **how to correct OCR errors**  
 
@@ -145,7 +145,7 @@ print(clean_text)
 
 ---
 
-## Verify and Use the Cleaned Text
+## ตรวจสอบและใช้งานข้อความที่แก้ไขแล้ว
 
 ตอนนี้คุณมีสองตัวแปร: `raw_text` (ผลลัพธ์ OCR ดิบ) และ `clean_text` (เวอร์ชันที่ตรวจสอบการสะกด) การเลือกใช้ขึ้นกับความต้องการของขั้นตอนต่อไป  
 
@@ -161,7 +161,7 @@ print("\n✅ Cleaned text saved to invoice_extracted.txt")
 
 ---
 
-## Full Working Example
+## ตัวอย่างการทำงานแบบเต็มรูปแบบ
 
 ด้านล่างเป็นสคริปต์เต็มที่คุณสามารถคัดลอก‑วางลงในไฟล์ชื่อ `extract_invoice.py` สมมติว่าคุณได้ติดตั้งแพ็กเกจ Aspose ทั้งสองแล้วและมีภาพที่ `YOUR_DIRECTORY/invoice.png`  
 
@@ -211,23 +211,24 @@ python extract_invoice.py
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## คำถามที่พบบ่อย (FAQ)
 
-**Q: Does this work with PDFs?**  
-A: Not directly. Convert each PDF page to an image (e.g., using `pdf2image`) and loop the script over the resulting PNGs.
+**ถาม: โปรแกรมนี้ใช้งานกับไฟล์ PDF ได้หรือไม่?**
+ตอบ: ไม่ได้โดยตรง ต้องแปลงแต่ละหน้าของไฟล์ PDF เป็นรูปภาพ (เช่น ใช้ `pdf2image`) แล้ววนลูปสคริปต์กับไฟล์ PNG ที่ได้
 
-**Q: My language isn’t English—can I still use the spell‑check?**  
-A: Yes. Pass the desired language code to `AsposeAI(language="de")` for German, `"es"` for Spanish, etc.
+**ถาม: ภาษาของฉันไม่ใช่ภาษาอังกฤษ ฉันยังสามารถใช้การตรวจสอบการสะกดคำได้หรือไม่?**
+ตอบ: ได้ ส่งรหัสภาษาที่ต้องการไปยัง `AsposeAI(language="de")` สำหรับภาษาเยอรมัน `"es"` สำหรับภาษาสเปน เป็นต้น
 
-**Q: What if the OCR engine mis‑detects a table layout?**  
-A: Aspose OCR offers a `set_layout_analysis(True)` flag. Enabling it improves table detection but may increase processing time.
+**ถาม: เกิดอะไรขึ้นหากเอนจิ้น OCR ตรวจจับเค้าโครงตารางผิดพลาด?**
+ตอบ: Aspose OCR มีแฟล็ก `set_layout_analysis(True)` การเปิดใช้งานจะช่วยปรับปรุงการตรวจจับตาราง แต่อาจทำให้เวลาในการประมวลผลเพิ่มขึ้น
 
-**Q: How do I handle extremely large batches?**  
-A: Wrap the core logic in a function and use a thread pool or async to parallelise across multiple cores or machines.
+**ถาม: ฉันจะจัดการกับชุดข้อมูลขนาดใหญ่มากได้อย่างไร?**
+ตอบ: ห่อตรรกะหลักไว้ในฟังก์ชันและใช้พูลเธรดหรืออะซิงโครนัสเพื่อประมวลผลแบบขนานบนหลายคอร์หรือหลายเครื่อง
+
 
 ---
 
-## Wrap‑Up
+## สรุป
 
 เราได้แสดงวิธี **extract text from image** ด้วย Aspose OCR, วิธี **load image for OCR**, และวิธีที่ง่ายที่สุดในการ **correct OCR errors** ด้วย AI spell‑check ในตัว สคริปต์ที่ทำงานได้เต็มรูปแบบนี้แสดงขั้นตอนจากการโหลด PNG ใบแจ้งหนี้จนถึงการบันทึกไฟล์ `.txt` ที่สะอาดและค้นหาได้  
 

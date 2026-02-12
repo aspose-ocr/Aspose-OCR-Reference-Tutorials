@@ -53,7 +53,7 @@ Herhangi bir şeye başlamadan önce doğru paketlere ihtiyacımız var. Aspose,
 pip install aspose-ocr
 ```
 
-If you also want the AI post‑processor, install the companion package:
+Ayrıca AI son işlemcisini de istiyorsanız yardımcı paketi yükleyin:
 
 ```bash
 pip install aspose-ocr-ai
@@ -61,7 +61,7 @@ pip install aspose-ocr-ai
 
 > **Pro ipucu:** Paketlerinizi güncel tutun. Bu yazının yazıldığı tarihte en son sürümler `aspose-ocr 23.12` ve `aspose-ocr-ai 23.12`.
 
-Once the libraries are on your system, import the classes you’ll use:
+Kütüphaneler sisteminize girdikten sonra kullanacağınız sınıfları içe aktarın:
 
 ```python
 # Step 1: Import the OCR and AI classes
@@ -74,7 +74,7 @@ from aspose.ocr import OcrEngine, AsposeAI
 
 ## OCR için Görüntü Yükleme – Fatura PNG'nizi Hazırlama
 
-The next logical step is to point the engine at the file you want to read. This is where the **load image for OCR** keyword shines.
+Bir sonraki mantıklı adım, motoru okumak istediğiniz dosyaya yönlendirmektir. İşte burada **load image for OCR** ​​anahtar kelimesi önem kazanıyor.
 
 ```python
 # Step 2: Create an OCR engine instance
@@ -98,7 +98,7 @@ ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 
 ## OCR Yap ve Ham Metni Al
 
-Now that the engine knows where the picture lives, we can actually read it.
+Artık motor resmin nerede olduğunu bildiğine göre, onu gerçekten okuyabiliriz.
 
 ```python
 # Step 4: Perform OCR to extract raw text
@@ -107,7 +107,7 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-The `recognize()` call returns a plain Python string. In many real‑world scenarios the output will contain stray spaces, mis‑read characters, or broken line breaks—especially with receipts that use condensed fonts.
+`recognize()` çağrısı düz bir Python dizesi döndürür. Birçok gerçek dünya senaryosunda, özellikle yoğunlaştırılmış yazı tipleri kullanan fişlerde, çıktı gereksiz boşluklar, yanlış okunan karakterler veya bozuk satır sonları içerecektir.
 
 > **Neden önce raw_text'i yakalıyoruz:** Daha sonra temizlenmiş sürümle karşılaştırmak için bir temel sağlar; bu, hata ayıklama veya denetleme için faydalıdır.
 
@@ -147,7 +147,7 @@ print(clean_text)
 
 ## Temizlenmiş Metni Doğrulama ve Kullanma
 
-At this point you have two variables: `raw_text` (the direct OCR dump) and `clean_text` (the spell‑checked version). Which one you keep depends on your downstream needs.
+Bu noktada iki değişkeniniz var: `raw_text` (doğrudan OCR çıktısı) ve `clean_text` (yazım denetimi yapılmış sürüm). Hangisini saklayacağınız, sonraki ihtiyaçlarınıza bağlıdır.
 
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
@@ -157,13 +157,13 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-If you’re feeding the result into a search engine, a database, or a machine‑learning model, always prefer the **cleaned** version—otherwise you’ll propagate OCR noise throughout your pipeline.
+Sonucu bir arama motoruna, veritabanına veya makine öğrenme modeline besliyorsanız, her zaman **temizlenmiş** sürümü tercih edin; aksi takdirde OCR gürültüsünü tüm işlem hattınıza yayarsınız.
 
 ---
 
 ## Tam Çalışan Örnek
 
-Below is the complete script that you can copy‑paste into a file called `extract_invoice.py`. It assumes you’ve already installed the two Aspose packages and have an image at `YOUR_DIRECTORY/invoice.png`.
+Aşağıda, `extract_invoice.py` adlı bir dosyaya kopyalayıp yapıştırabileceğiniz tam komut dosyası bulunmaktadır. Bu komut dosyası, iki Aspose paketini zaten yüklediğinizi ve `YOUR_DIRECTORY/invoice.png` adresinde bir resminiz olduğunu varsaymaktadır.
 
 ```python
 # extract_invoice.py
@@ -207,7 +207,7 @@ Run it with:
 python extract_invoice.py
 ```
 
-You should see the raw dump followed by a tidier version, and a file named `invoice_extracted.txt` will appear in the same folder.
+Önce ham dökümü, ardından daha düzenli bir sürümünü göreceksiniz ve aynı klasörde `invoice_extracted.txt` adlı bir dosya belirecektir.
 
 ---
 
