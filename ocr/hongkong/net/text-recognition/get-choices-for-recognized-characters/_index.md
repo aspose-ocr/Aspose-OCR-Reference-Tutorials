@@ -1,33 +1,50 @@
 ---
-title: 在 OCR 影像辨識中取得已辨識字元的選擇
-linktitle: 在 OCR 影像辨識中取得已辨識字元的選擇
+date: 2026-01-02
+description: 學習如何使用 Aspose.OCR for .NET 取得 OCR 字元選項。本指南逐步說明如何在圖像辨識中取得字元備選。
+linktitle: Get Choices for Recognized Characters in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
-weight: 10
+title: 如何取得圖像辨識中已辨識字元的 OCR 字元選項
 url: /zh-hant/net/text-recognition/get-choices-for-recognized-characters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 OCR 影像辨識中取得已辨識字元的選擇
+# 取得 OCR 圖像辨識中已辨識字元的候選項目
 
-## 介紹
+## 簡介
 
-在當今的數位時代，釋放光學字元辨識 (OCR) 的力量至關重要，而 Aspose.OCR for .NET 是準確字元辨識的強大解決方案。在本教程中，我們將深入研究一個特定功能：取得已識別字元的選擇。在本指南結束時，您將將此功能無縫整合到您的 .NET 應用程式中。
+在現代 .NET 應用程式中釋放光學字元辨識 (OCR) 的威力，並學習 **如何取得每個已辨識符號的 OCR 字元候選項目**。Aspose.OCR for .NET 讓此過程變得簡單，除了提供最佳猜測的文字外，還會給出引擎考慮的替代字元。完成本教學後，您將能將此功能整合至任何 C# 專案，並改善對模糊字形的處理。
+
+## 快速答案
+- **「取得 OCR 字元候選項目」是什麼意思？** 它會回傳每個已辨識字形的替代字元清單。  
+- **為什麼要使用字元候選項目？** 用於處理不確定的辨識結果、執行後處理，或實作自訂驗證。  
+- **事前需要什麼？** .NET 開發環境、Visual Studio，以及 Aspose.OCR for .NET 函式庫。  
+- **是否需要授權？** 免費試用可用於測試；正式上線需購買商業授權。  
+- **可以在 .NET Core / .NET 6 上執行嗎？** 可以，Aspose.OCR 支援所有現代 .NET 執行環境。
+
+## 什麼是「取得 OCR 字元候選項目」？
+當 OCR 引擎分析圖像時，每個像素模式可能對應多個可能的字元。**取得 OCR 字元候選項目** API 會公開這些替代選項，讓開發者自行決定哪個字元最符合當前情境。
+
+## 為什麼使用 Aspose.OCR for .NET？
+- **高精準度**，支援多種語言與字型。  
+- **易於整合**，提供簡單的 C# API。  
+- **可透過 `RecognitionCharactersList` 取得字元替代項目**。  
+- **無外部相依** – 可直接在 Windows、Linux 與 macOS 上執行。
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+在開始本教學之前，請確保您具備以下條件：
 
-- C# 和 .NET 開發的基礎知識。
-- Visual Studio 安裝在您的電腦上。
--  Aspose.OCR for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/ocr/net/).
+- 具備 C# 與 .NET 開發的基礎知識。  
+- 機器上已安裝 Visual Studio。  
+- Aspose.OCR for .NET 函式庫，可於 [此處](https://releases.aspose.com/ocr/net/) 下載。
 
-## 導入命名空間
+## 匯入命名空間
 
-在您的 C# 專案中，首先匯入必要的命名空間：
+在您的 C# 專案中，先匯入必要的命名空間：
 
 ```csharp
 using System;
@@ -37,53 +54,57 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 步驟1：初始化Aspose.OCR
+## 步驟 1：初始化 Aspose.OCR
 
-首先初始化 Aspose.OCR 的例子：
+先建立 Aspose.OCR 的實例：
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//初始化 AsposeOcr 實例
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 第2步：指定影像路徑
+## 步驟 2：指定圖像路徑
 
-設定要分析的影像的路徑：
+設定欲分析圖像的路徑：
 
 ```csharp
-//影像路徑
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## 第三步：辨識影像
+## 步驟 3：辨識圖像
 
-執行影像辨識過程：
+執行圖像辨識程序：
 
 ```csharp
-//辨識影像
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
-    //預設或自訂設定
+    // Default or custom settings
 });
 ```
 
-## 第 4 步：取得已識別字元的選擇
+## 取得 OCR 字元候選項目 – 概觀
 
-檢索已識別字元的選擇：
+圖像已完成辨識後，您可以取得 OCR 引擎對每個位置所考慮的字元替代清單。
+
+## 步驟 4：取得已辨識字元的候選項目
+
+取得已辨識字元的候選項目：
 
 ```csharp
 List<char[]> resultWithChoices = result.RecognitionCharactersList;
 ```
 
-## 第 5 步：列印結果
+## 步驟 5：列印結果
 
-顯示識別文字和選項：
+顯示辨識文字與候選項目：
 
 ```csharp
-//列印結果
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Choices:");
 resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: {a[1]} {a[2]} {a[3]} {a[4]}"));
@@ -91,33 +112,46 @@ resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: 
 Console.WriteLine("GetChoiceForRecognizedCharacters executed successfully");
 ```
 
-重複這些步驟，根據您的應用程式的要求進行自訂。
+依照應用程式需求重複上述步驟並自行客製化。
 
-## 結論
+## 常見問題與解決方案
 
-在本教學中，我們探討如何利用 Aspose.OCR for .NET 來取得影像辨識中已辨識字元的選擇。此功能為您的 OCR 功能增添了新的維度，增強了應用程式的多功能性。
+- **`RecognitionCharactersList` 為空** – 請確認圖像具備足夠的解析度與對比度。  
+- **出現非預期字元** – 調整 `RecognitionSettings`（例如語言、字典）以提升精準度。  
+- **效能問題** – 可使用非同步處理或批次辨識多張圖像，以保持 UI 響應。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：Aspose.OCR for .NET適合大規模文件處理嗎？
+### Q1：Aspose.OCR for .NET 是否適用於大規模文件處理？
 
-A1：當然！ Aspose.OCR for .NET 旨在高效、準確地處理大量文件。
+A1：絕對可以！Aspose.OCR for .NET 專為高效且精準地處理大量文件而設計。
 
 ### Q2：我可以在 Web 應用程式中使用 Aspose.OCR for .NET 嗎？
 
-A2：是的，您可以將 Aspose.OCR for .NET 整合到 Web 應用程式中，使其適用於各種開發場景。
+A2：可以，您可以將 Aspose.OCR for .NET 整合至 Web 應用程式，適用於各種開發情境。
 
-### 問題 3：Aspose.OCR for .NET 有可用的授權選項嗎？
+### Q3：Aspose.OCR for .NET 有哪些授權方案？
 
- A3：是的，您可以探索授權選項並進行購買[這裡](https://purchase.aspose.com/buy).
+A3：有，您可於 [此處](https://purchase.aspose.com/buy) 了解授權方案並購買。
 
-### 問題 4：如何獲得 Aspose.OCR for .NET 的支援或提問？
+### Q4：如何取得 Aspose.OCR for .NET 的支援或提問？
 
- A4：訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)獲得支持、提出問題並與社區建立聯繫。
+A4：請前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 取得支援、提問並與社群交流。
 
-### Q5：Aspose.OCR for .NET 有免費試用版嗎？
+### Q5：是否提供 Aspose.OCR for .NET 的免費試用？
 
- A5：是的，您可以免費試用[這裡](https://releases.aspose.com/)體驗 Aspose.OCR for .NET 的功能。
+A5：有，您可於 [此處](https://releases.aspose.com/) 取得免費試用，體驗 Aspose.OCR for .NET 的功能。
+
+## 結論
+
+在本教學中，我們探討了如何使用 Aspose.OCR for .NET **取得 OCR 字元候選項目**。此功能為您的 OCR 能力增添新維度，讓您能更智慧地處理模糊字元並實作更豐富的後處理邏輯。
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

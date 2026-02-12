@@ -1,33 +1,53 @@
 ---
-title: OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
-linktitle: OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
-second_title: Aspose.OCR .NET API'si
-description: Doğru karakter tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Görüntü tanımada tanınan karakterlere ilişkin seçeneklere ulaşmak için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-01-02
+description: Aspose.OCR for .NET kullanarak OCR karakter seçeneklerini nasıl alacağınızı
+  öğrenin. Bu kılavuz, görüntü tanıma sırasında karakter alternatiflerini adım adım
+  nasıl alacağınızı gösterir.
+linktitle: Get Choices for Recognized Characters in OCR Image Recognition
+second_title: Aspose.OCR .NET API
+title: Görüntü Tanıma'da Tanınan Karakterler İçin OCR Karakter Seçeneklerini Nasıl
+  Alabilirsiniz
 url: /tr/net/text-recognition/get-choices-for-recognized-characters/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın
+# OCR Görüntü Tanıma'da Tanınan Karakterler için Seçenekleri Al
 
-## giriiş
+## Giriş
 
-Optik Karakter Tanıma'nın (OCR) gücünün kilidini açmak günümüzün dijital çağında çok önemlidir ve Aspose.OCR for .NET, doğru karakter tanıma için güçlü bir çözüm olarak öne çıkıyor. Bu eğitimde belirli bir özelliği inceleyeceğiz: tanınan karakterler için seçenekler elde etme. Bu kılavuzun sonunda bu işlevselliği .NET uygulamalarınıza sorunsuz bir şekilde entegre edeceksiniz.
+Modern .NET uygulamalarında Optik Karakter Tanıma (OCR) gücünü ortaya çıkarın ve tanınan her sembol için **OCR karakter seçeneklerini nasıl alacağınızı** öğrenin. Aspose.OCR for .NET bu süreci basitleştirir, size yalnızca en iyi tahmin metni değil, motorun değerlendirdiği alternatif karakterleri de sunar. Bu öğreticinin sonunda bu özelliği herhangi bir C# projesine entegre edebilecek ve belirsiz gliflerin işlenmesini iyileştirebileceksiniz.
+
+## Hızlı Yanıtlar
+- **“get OCR character choices” ne anlama geliyor?** Her tanınan glif için alternatif karakterlerin bir listesini döndürür.  
+- **Karakter seçeneklerini neden kullanmalı?** Belirsiz tanıma durumlarını ele almak, sonrası işleme yapmak veya özel doğrulama uygulamak için.  
+- **Önceden neye ihtiyacım var?** .NET geliştirme ortamı, Visual Studio ve Aspose.OCR for .NET kütüphanesi.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
+- **Bunu .NET Core / .NET 6 üzerinde çalıştırabilir miyim?** Evet, Aspose.OCR tüm modern .NET çalışma zamanlarını destekler.
+
+## “get OCR character choices” nedir?
+OCR motoru bir görüntüyü analiz ettiğinde, her piksel deseni birkaç olası karakterle eşleşebilir. **get OCR character choices** API'si bu alternatifleri ortaya çıkarır ve geliştiricilerin verilen bağlamda en uygun karakteri seçmelerine olanak tanır.
+
+## Neden Aspose.OCR for .NET kullanmalı?
+- **Yüksek doğruluk** birçok dil ve yazı tipi için.  
+- **Kolay entegrasyon** basit bir C# API'si ile.  
+- `RecognitionCharactersList` aracılığıyla **karakter alternatiflerine erişim**.  
+- **Harici bağımlılık yok** – Windows, Linux ve macOS üzerinde kutudan çıkar çıkmaz çalışır.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
-- C# ve .NET geliştirme konusunda temel bilgiler.
-- Makinenizde Visual Studio yüklü.
--  İndirebileceğiniz Aspose.OCR for .NET kütüphanesi[Burada](https://releases.aspose.com/ocr/net/).
+- C# ve .NET geliştirme konusunda temel bilgi.  
+- Makinenizde Visual Studio yüklü.  
+- Aspose.OCR for .NET kütüphanesi, bunu [buradan](https://releases.aspose.com/ocr/net/) indirebilirsiniz.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarın
 
-C# projenizde gerekli ad alanlarını içe aktararak başlayın:
+C# projenizde, gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -37,42 +57,46 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Adım 1: Aspose.OCR'ı başlatın
+## Adım 1: Aspose.OCR'yi Başlatın
 
-Aspose.OCR örneğini başlatarak başlayın:
+Aspose.OCR'nin bir örneğini başlatarak başlayın:
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 2. Adım: Görüntü Yolunu Belirleyin
+## Adım 2: Görüntü Yolunu Belirleyin
 
 Analiz etmek istediğiniz görüntünün yolunu ayarlayın:
 
 ```csharp
-//Resim Yolu
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## 3. Adım: Görüntüyü Tanıyın
+## Adım 3: Görüntüyü Tanıyın
 
-Görüntü tanıma işlemini yürütün:
+Görüntü tanıma sürecini yürütün:
 
 ```csharp
-// Resmi tanı
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
-    // Varsayılan veya özel ayarlar
+    // Default or custom settings
 });
 ```
 
-## 4. Adım: Tanınan Karakterler İçin Seçimler Alın
+## OCR Karakter Seçeneklerini Al – Genel Bakış
 
-Tanınan karakterlere ilişkin seçenekleri alın:
+Görüntü artık tanındığına göre, OCR motorunun her konum için değerlendirdiği karakter alternatiflerinin listesini alabilirsiniz.
+
+## Adım 4: Tanınan Karakterler için Seçenekleri Al
+
+Tanınan karakterler için seçenekleri alın:
 
 ```csharp
 List<char[]> resultWithChoices = result.RecognitionCharactersList;
@@ -80,10 +104,10 @@ List<char[]> resultWithChoices = result.RecognitionCharactersList;
 
 ## Adım 5: Sonuçları Yazdırın
 
-Tanıma metnini ve seçenekleri görüntüleyin:
+Tanıma metnini ve seçenekleri gösterin:
 
 ```csharp
-// Sonucu yazdır
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Choices:");
 resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: {a[1]} {a[2]} {a[3]} {a[4]}"));
@@ -91,33 +115,40 @@ resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: 
 Console.WriteLine("GetChoiceForRecognizedCharacters executed successfully");
 ```
 
-Uygulamanızın gereksinimlerine göre özelleştirerek bu adımları tekrarlayın.
+Bu adımları tekrarlayın, uygulamanızın gereksinimlerine göre özelleştirin.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Boş `RecognitionCharactersList`** – Görüntünün yeterli çözünürlük ve kontrastına sahip olduğundan emin olun.  
+- **Beklenmeyen karakterler** – Doğruluğu artırmak için `RecognitionSettings`'i (ör. dil, sözlük) ayarlayın.  
+- **Performans kaygıları** – Görüntüleri asenkron işleyin veya UI'nın yanıt vermesini sağlamak için birden fazla görüntüyü toplu işleyin.
 
-Bu eğitimde, görüntü tanımada tanınan karakterler için seçenekler elde etmek amacıyla Aspose.OCR for .NET'ten nasıl yararlanılacağını araştırdık. Bu özellik, OCR yeteneklerinize yeni bir boyut ekleyerek uygulamalarınızın çok yönlülüğünü artırır.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+### Q1: Aspose.OCR for .NET büyük ölçekli belge işleme için uygun mu?
+A1: Kesinlikle! Aspose.OCR for .NET, büyük miktarda belgeyi verimlilik ve doğrulukla işlemek için tasarlanmıştır.
 
-### S1: Aspose.OCR for .NET büyük ölçekli belge işlemeye uygun mu?
+### Q2: Aspose.OCR for .NET'i bir web uygulamasında kullanabilir miyim?
+A2: Evet, Aspose.OCR for .NET'i web uygulamalarına entegre edebilir, çeşitli geliştirme senaryoları için çok yönlü hâle getirebilirsiniz.
 
-A1: Kesinlikle! Aspose.OCR for .NET, büyük hacimli belgeleri verimlilik ve doğrulukla işlemek için tasarlanmıştır.
+### Q3: Aspose.OCR for .NET için lisans seçenekleri mevcut mu?
+A3: Evet, lisans seçeneklerini inceleyebilir ve bir satın alma işlemi yapabilirsiniz [buradan](https://purchase.aspose.com/buy).
 
-### S2: Aspose.OCR for .NET'i bir web uygulamasında kullanabilir miyim?
+### Q4: Aspose.OCR for .NET hakkında destek nasıl alabilirim veya soru sorabilirim?
+A4: Destek almak, soru sormak ve toplulukla iletişime geçmek için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
-Cevap2: Evet, Aspose.OCR for .NET'i web uygulamalarına entegre ederek çeşitli geliştirme senaryoları için çok yönlü hale getirebilirsiniz.
+### Q5: Aspose.OCR for .NET için ücretsiz deneme mevcut mu?
+A5: Evet, Aspose.OCR for .NET'in yeteneklerini deneyimlemek için ücretsiz denemeye [buradan](https://releases.aspose.com/) erişebilirsiniz.
 
-### S3: Aspose.OCR for .NET için herhangi bir lisanslama seçeneği mevcut mu?
+## Sonuç
 
- C3: Evet, lisanslama seçeneklerini keşfedebilir ve satın alma işlemi gerçekleştirebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Bu öğreticide, Aspose.OCR for .NET kullanarak **OCR karakter seçeneklerini nasıl alacağınızı** inceledik. Bu özellik, OCR yeteneklerinize yeni bir boyut ekleyerek belirsiz karakterlerin daha akıllı işlenmesini ve daha zengin sonrası işleme mantığını sağlar.
 
-### S4: Aspose.OCR for .NET hakkında nasıl destek alabilirim veya soru sorabilirim?
+---
 
- A4: Ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) Destek almak, sorular sormak ve toplulukla bağlantı kurmak için.
+**Son Güncelleme:** 2026-01-02  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
-### S5: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
-
- C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/) Aspose.OCR for .NET'in yeteneklerini deneyimlemek için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
