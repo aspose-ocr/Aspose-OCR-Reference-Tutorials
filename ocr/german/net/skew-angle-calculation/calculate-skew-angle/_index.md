@@ -134,15 +134,15 @@ A5: Natürlich! Testen Sie die Funktionen mit der [free trial version](https://r
 
 Herzlichen Glückwunsch! Sie haben erfolgreich die Schritte zum Berechnen des Schrägwinkels in der OCR‑Bilderkennung mit Aspose.OCR für .NET durchlaufen. Die Integration dieser **ocr image preprocessing**‑Technik hilft Ihnen, die **OCR‑Genauigkeit** bei einer Vielzahl von Dokumenttypen zu verbessern. Entdecken Sie weitere Funktionen und Möglichkeiten in der [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

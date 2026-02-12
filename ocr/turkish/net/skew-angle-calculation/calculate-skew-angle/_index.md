@@ -134,15 +134,15 @@ C5: Elbette! Özellikleri keşfetmek için [ücretsiz deneme sürümü](https://
 
 Tebrikler! Aspose.OCR for .NET kullanarak OCR görüntü tanımasında eğik açıyı nasıl hesaplayacağınızı başarıyla öğrendiniz. Bu **ocr görüntü ön işleme** tekniğini uygulayarak çeşitli belge tiplerinde **OCR doğruluğunu artırabilirsiniz**. Daha fazla işlev ve özelliği [belgelendirme](https://reference.aspose.com/ocr/net/) sayfasında keşfedin.
 
+---
+
+**Son Güncelleme:** 2025-12-30  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-30  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
-**Yazar:** Aspose

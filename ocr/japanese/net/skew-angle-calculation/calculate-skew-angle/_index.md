@@ -18,14 +18,14 @@ weight: 10
 
 Aspose.OCR for .NET の世界へようこそ。この強力なツールは、開発者が .NET アプリケーションに光学文字認識 (OCR) 機能をシームレスに統合できるよう支援します。本チュートリアルでは、**ocr image preprocessing** に焦点を当て、画像の傾斜角度を計算して OCR の精度を向上させ、下流処理を効率化する方法を解説します。
 
-## Quick Answers
+## クイックアンサー
 - **“ocr image preprocessing” とは何ですか？** OCR 前に画像をデスクュー、ノイズ除去などで準備し、認識率を向上させることです。  
 - **なぜ傾斜角度を計算するのですか？** 正しく整列した画像は文字の誤認識を減らし、全体的な OCR 精度を高めます。  
 - **どのライブラリがこれを処理しますか？** Aspose.OCR for .NET が組み込みの `CalculateSkew` メソッドを提供します。  
 - **ライセンスは必要ですか？** 本番環境で使用する場合は、一時ライセンスまたはフルライセンスが必要です。  
 - **対応環境は？** .NET Framework、.NET Core、.NET 5/6 の Windows と Linux の両方でサポートされています。
 
-## Prerequisites
+## 前提条件
 
 このエキサイティングな旅に出る前に、開発環境が整っていることを確認しましょう。以下が前提条件です。
 
@@ -42,7 +42,7 @@ Aspose.OCR for .NET がインストールされていることを確認してく
 
 本チュートリアルは、C# プログラミングの基本的な理解があることを前提としています。
 
-## Import Namespaces
+## 名前空間のインポート
 
 まずは、Aspose.OCR を C# コードで利用できるように必要な名前空間をインポートしましょう。
 
@@ -56,9 +56,9 @@ using Aspose.OCR;
 
 ステージが整ったので、例を複数のステップに分解して解説します。
 
-## How to Calculate Skew Angle for OCR Image Preprocessing
+## OCR画像の前処理における傾斜角度の計算方法
 
-### Step 1: Initialize Aspose.OCR
+### ステップ 1: Aspose.OCR の初期化
 
 ```csharp
 // The path to the documents directory.
@@ -70,7 +70,7 @@ AsposeOcr api = new AsposeOcr();
 
 このステップでは、ドキュメントディレクトリへのパスを設定し、`AsposeOcr` クラスのインスタンスを初期化して OCR 操作の基盤を構築します。
 
-### Step 2: Calculate Skew Angle
+### ステップ 2: 傾斜角度の計算
 
 ```csharp
 // Calculate Angle
@@ -79,7 +79,7 @@ float angle = api.CalculateSkew(dataDir + "skew_image.png");
 
 ここで `CalculateSkew` メソッドを呼び出し、指定した OCR 画像の傾斜角度を算出します。これが **画像前処理のための傾斜角度計算** の核心です。
 
-### Step 3: Display the Result
+### ステップ 3: 結果の表示
 
 ```csharp
 // Display the result
@@ -88,7 +88,7 @@ Console.WriteLine(angle);
 
 傾斜角度が計算されたら、コンソールに結果を出力して開発中にリアルタイムでフィードバックを得られるようにします。
 
-### Step 4: Wrap‑Up Confirmation
+### ステップ 4: 完了の確認
 
 ```csharp
 // ExEnd:1
@@ -97,17 +97,17 @@ Console.WriteLine("CalculateSkewAngle executed successfully");
 
 最後に、`CalculateSkewAngle` の処理が正常に完了したことを確認してプロセスを終了します。
 
-## Why This Matters – Improve OCR Accuracy
+## これが重要な理由 – OCRの精度向上
 
 デスクューされた画像は、複雑なポストプロセッシングの必要性を減らし、OCR エンジンが返す信頼度スコアを大幅に向上させます。このステップを前処理パイプラインに組み込むことで、最小限のオーバーヘッドで **ocr accuracy** を高められます。
 
-## Common Pitfalls & Troubleshooting
+## よくある落とし穴とトラブルシューティング
 
 - **画像パスが間違っている** – `dataDir` の末尾が OS に適したパス区切り文字（`\` または `/`）で終わっているか確認してください。  
 - **サポート外の画像形式** – `CalculateSkew` は PNG、JPEG、TIFF で最適に動作します。その他の形式は事前に変換してください。  
 - **ライセンスが適用されていない** – 有効なライセンスがない場合、API は評価モードで動作し、出力に透かしが付加されることがあります。
 
-## Frequently Asked Questions
+## よくある質問
 
 ### Q1: Aspose.OCR は Windows と Linux の両環境で使用できますか？
 
@@ -133,15 +133,15 @@ A5: はい、[free trial version](https://releases.aspose.com/) で機能をお�
 
 おめでとうございます！ Aspose.OCR for .NET を使用した OCR 画像認識における傾斜角度の計算手順を無事に完了しました。この **ocr image preprocessing** 手法を組み込むことで、さまざまな文書タイプに対して **OCR の精度を向上** させることができます。さらに多くの機能や詳細は [documentation](https://reference.aspose.com/ocr/net/) をご覧ください。
 
+---
+
+**最終更新日:** 2025-12-30  
+**テスト環境:** Aspose.OCR 24.11 for .NET  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-30  
-**テスト環境:** Aspose.OCR 24.11 for .NET  
-**作者:** Aspose

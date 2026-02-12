@@ -134,15 +134,15 @@ A5: Tất nhiên! Khám phá các tính năng với [bản dùng thử miễn ph
 
 Chúc mừng! Bạn đã thành công thực hiện các bước tính góc lệch trong nhận dạng hình ảnh OCR bằng Aspose.OCR cho .NET. Việc tích hợp kỹ thuật **ocr image preprocessing** này sẽ giúp bạn **cải thiện độ chính xác OCR** trên nhiều loại tài liệu khác nhau. Khám phá thêm các chức năng và tính năng trong [tài liệu](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

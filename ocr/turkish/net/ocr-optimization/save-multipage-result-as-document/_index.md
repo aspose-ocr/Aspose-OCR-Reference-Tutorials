@@ -122,28 +122,6 @@ AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", Sa
 - **Görüntü kalitesi:** optimum OCR doğruluğu için görüntülerin en az 300 dpi olduğundan emin olun.
 - **Lisans hataları:** OCR metodlarını çağırmadan önce lisans dosyanızın doğru yüklendiğini doğrulayın.
 
-## Sıkça Sorulan Sorular (Orijinal)
-
-### S1: Test amaçlı geçici bir lisans mevcut mu?
-
-C1: Evet, Aspose.OCR'ı test etmek için geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
-
-### S2: Farklı formatlardaki görüntülerden metin tanıyabilir miyim?
-
-C2: Kesinlikle! Aspose.OCR çeşitli görüntü formatlarını destekler, OCR görevlerinizde esneklik sağlar.
-
-### S3: Tanıma için işlenebilecek görüntü sayısında bir sınırlama var mı?
-
-C3: İşleyebileceğiniz görüntü sayısı lisansınıza bağlıdır. Ayrıntılar için belgeleri inceleyin.
-
-### S4: OCR tanıma sırasında hatalar nasıl ele alınır?
-
-C4: Hata yönetimi en iyi uygulamaları için belgelere bakın veya destek forumlarından yardım isteyin.
-
-### S5: Aspose.OCR İngilizce dışındaki dilleri destekliyor mu?
-
-C5: Evet, Aspose.OCR birden çok dili destekler. Dil desteği detayları için belgeleri keşfedin.
-
 ## Ek Sıkça Sorulan Sorular
 
 **S: OCR kullanmadan images to PDF C# nasıl dönüştürülür?**  

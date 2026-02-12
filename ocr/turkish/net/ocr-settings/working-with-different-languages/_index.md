@@ -100,28 +100,6 @@ Artık çıkarılan dizeyi konsolda görebilir veya daha sonraki işleme (ör. b
 - **Düşük çözünürlüklü görüntüler** – Bulanık görüntülerde OCR doğruluğu düşer; en az 300 dpi hedefleyin.  
 - **Bellek kullanımı** – Büyük toplularda, her görüntü için yeni bir `AsposeOcr` örneği oluşturmak yerine tek bir örnek tekrar kullanın.
 
-## Sıkça Sorulan Sorular
-
-### S1: Aspose.OCR for .NET kullanmak için lisans gerekli mi?
-
-C1: Evet, Aspose.OCR for .NET'in tam özelliklerini açmak için geçerli bir lisans gerekir. Lisansı [buradan](https://purchase.aspose.com/buy) edinebilirsiniz.
-
-### S2: Aspose.OCR for .NET'i herhangi bir dildeki görüntülerle kullanabilir miyim?
-
-C2: Kesinlikle! Aspose.OCR, çok geniş bir dil yelpazesini destekler ve çok dilli OCR görevleri için çok yönlü bir çözümdür.
-
-### S3: Aspose.OCR for .NET için desteği nereden bulabilirim?
-
-C3: Destek ve tartışmalar için Aspose.OCR forumunu [buradan](https://forum.aspose.com/c/ocr/16) ziyaret edin.
-
-### S4: Ücretsiz bir deneme mevcut mu?
-
-C4: Evet, Aspose.OCR'nin ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) inceleyebilirsiniz.
-
-### S5: Dokümantasyona nasıl erişebilirim?
-
-C5: Aspose.OCR for .NET dokümantasyonu [burada](https://reference.aspose.com/ocr/net/) mevcuttur.
-
 ## Ek Sıkça Sorulan Sorular
 
 **S: Aspose OCR'yi NuGet üzerinden nasıl kurarım?**  

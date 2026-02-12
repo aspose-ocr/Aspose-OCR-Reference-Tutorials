@@ -134,15 +134,15 @@ Odzkosený obrázek snižuje potřebu složitého post‑zpracování a dramatic
 
 Gratulujeme! Úspěšně jste prošli kroky výpočtu úhlu zkosení při rozpoznávání OCR obrázků pomocí Aspose.OCR pro .NET. Začleněním této techniky **ocr image preprocessing** vám pomůže **improve OCR accuracy** napříč různými typy dokumentů. Prozkoumejte další funkce a vlastnosti v [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Poslední aktualizace:** 2025-12-30  
+**Testováno s:** Aspose.OCR 24.11 pro .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-30  
-**Testováno s:** Aspose.OCR 24.11 pro .NET  
-**Autor:** Aspose

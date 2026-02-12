@@ -134,15 +134,15 @@ A5: Självklart! Utforska funktionerna med [free trial‑versionen](https://rele
 
 Grattis! Du har framgångsrikt gått igenom stegen för att beräkna snedvinkeln i OCR‑bildigenkänning med Aspose.OCR för .NET. Genom att införa denna **ocr image preprocessing**‑teknik kommer du att **improve OCR accuracy** över en mängd olika dokumenttyper. Utforska fler funktioner i [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

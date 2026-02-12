@@ -16,37 +16,44 @@ weight: 15
 
 # herken tekstafbeelding met Aspose OCR voor meerdere talen
 
-## Introduction
+## Introductie
 
-Welkom! In deze tutorial ontdek je hoe je **tekstafbeeldingen** kunt herkennen met Aspose.OCR voor .NET, tekst uit afbeeldingen in vele talen kunt extraheren, en het maximale uit de gratis OCR-proefversie haalt. Of je nu een meertalige document‑verwerkingspipeline bouwt of gewoon een betrouwbaar OCR C#‑voorbeeld nodig hebt, de onderstaande stappen begeleiden je door het hele proces.
+Welkom! In deze tutorial ontdek je hoe je **tekstafbeeldingen** kunt herkennen met Aspose.OCR voor .NET, tekst uit afbeeldingen in vele talen kunt extraheren, en het maximale uit de gratis OCR-proefversie haalt. Of je nu een meertalige document‑verwerkingspipeline bouwt of gewoon een betrouwbare OCR C#‑voorbeeld nodig hebt, de onderstaande stappen begeleiden je door het hele proces.
 
-## Quick Answers
-- **What does “recognize text image” mean?** It refers to converting the visual characters in an image into editable string data.  
-- **Which languages are supported?** Aspose.OCR supports over 40 languages, including Spanish, French, Chinese, Arabic, and more.  
-- **Do I need a license?** A license is required for production; a temporary or trial license is available.  
-- **Is there a free OCR trial?** Yes – you can download a trial version from the Aspose website.  
-- **Can I use this in a .NET Core project?** Absolutely – the library works with .NET Framework and .NET Core/.NET 5+.
+## Snelle antwoorden
+- **Wat betekent “tekstafbeelding herkennen”?** Het verwijst naar het converteren van de visuele karakters in een afbeelding naar bewerkbare tekenreeksgegevens.
+- **Welke talen worden ondersteund?** Aspose.OCR ondersteunt meer dan 40 talen, waaronder Spaans, Frans, Chinees, Arabisch en meer.
+- **Heb ik een licentie nodig?** Voor productie is een licentie vereist; er is een tijdelijke of proeflicentie beschikbaar.
+- **Is er een gratis proefversie van OCR?** Ja – u kunt een proefversie downloaden van de Aspose-website.
+- **Kan ik dit gebruiken in een .NET Core-project?** Absoluut – de bibliotheek werkt met .NET Framework en .NET Core/.NET 5+.
 
-## What is OCR and how does it recognize text image?
-Optical Character Recognition (OCR) analyzes the pixels of an image, identifies character patterns, and maps them to Unicode text. Aspose.OCR uses advanced language models to improve accuracy for multilingual content, making it a solid choice for an **ocr c# example**.
+## Wat is OCR en hoe herkent het tekst in een afbeelding?
 
-## Why use Aspose OCR for image to text .NET projects?
-- **High accuracy** across a wide range of fonts and languages.  
-- **Simple API** – just a few lines of code to get results.  
-- **Cross‑platform** support for .NET Framework, .NET Core, and .NET 5/6.  
-- **No external dependencies** – everything runs locally without cloud services.
+Optische tekenherkenning (OCR) analyseert de pixels van een afbeelding, identificeert tekenpatronen en zet deze om in Unicode-tekst. Aspose.OCR gebruikt geavanceerde taalmodellen om de nauwkeurigheid voor meertalige content te verbeteren, waardoor het een uitstekende keuze is voor een **OCR C#-voorbeeld**.
 
-## Prerequisites
+## Waarom Aspose OCR gebruiken voor .NET-projecten met beeld-naar-tekstconversie?
 
-Before we dive in, make sure you have the following:
+- **Hoge nauwkeurigheid** voor een breed scala aan lettertypen en talen.
 
-1. **Install Aspose OCR** – download the latest package from the official site [here](https://releases.aspose.com/ocr/net/).  
-2. **Acquire a License** – purchase a permanent license or use a temporary one via the [purchase page](https://purchase.aspose.com/buy) or a temporary license [here](https://purchase.aspose.com/temporary-license/).  
-3. **Set Up Your Development Environment** – create a new C# project and add a reference to the Aspose.OCR library. Detailed setup instructions are available [here](https://reference.aspose.com/ocr/net/).
+- **Eenvoudige API** – slechts een paar regels code voor resultaten.
 
-## Import Namespaces
+- **Platformoverschrijdende** ondersteuning voor .NET Framework, .NET Core en .NET 5/6.
 
-In your C# file, import the required namespaces:
+- **Geen externe afhankelijkheden** – alles draait lokaal zonder cloudservices.
+
+## Vereisten
+
+Voordat we beginnen, zorg ervoor dat u het volgende hebt:
+
+1. **Installeer Aspose OCR** ​​– download het nieuwste pakket van de officiële website [hier](https://releases.aspose.com/ocr/net/).
+
+2. **Schaf een licentie aan** – koop een permanente licentie of gebruik een tijdelijke licentie via de [aankooppagina](https://purchase.aspose.com/buy) of een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
+
+3. **Stel uw ontwikkelomgeving in** – maak een nieuw C#-project aan en voeg een verwijzing naar de Aspose.OCR-bibliotheek toe. Gedetailleerde installatie-instructies vindt u [hier](https://reference.aspose.com/ocr/net/).
+
+## Namespaces importeren
+
+Importeer in uw C#-bestand de vereiste namespaces:
 
 ```csharp
 using System.IO;
@@ -54,94 +61,74 @@ using Aspose.OCR;
 using System;
 ```
 
-Now let’s walk through the step‑by‑step guide.
+Laten we nu de stapsgewijze handleiding doorlopen.
 
-## Step 1: Define the Document Directory
+## Stap 1: Definieer de documentmap
 
 ```csharp
 // The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Make sure `dataDir` points to the folder that contains the images you want to process.
+Zorg ervoor dat `dataDir` verwijst naar de map met de afbeeldingen die u wilt verwerken.
 
-## Step 2: Initialize AsposeOcr
+## Stap 2: Initialiseer AsposeOcr
 
 ```csharp
 // Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Creating an `AsposeOcr` object gives you access to all OCR functions.
+Door een `AsposeOcr`-object aan te maken, krijgt u toegang tot alle OCR-functies.
 
-## Step 3: Recognize Image
+## Stap 3: Herken de afbeelding
 
 ```csharp
 // Recognize image
 string result = api.RecognizeImage(dataDir + "SpanishOCR.bmp");
 ```
 
-The `RecognizeImage` method reads the file and returns the extracted text. In this example we process a Spanish‑language image, but you can swap in any supported language file.
+De methode `RecognizeImage` leest het bestand en retourneert de geëxtraheerde tekst. In dit voorbeeld verwerken we een afbeelding in het Spaans, maar u kunt elk ander ondersteund taalbestand gebruiken.
 
-## Step 4: Display Recognized Text
+## Stap 4: Toon de herkende tekst
 
 ```csharp
 // Display the recognized text
 Console.WriteLine(result);
 ```
 
-You can now see the extracted string in the console, or store it for further processing (e.g., saving to a database or feeding into a translation service).
+Je kunt de geëxtraheerde tekenreeks nu in de console bekijken of opslaan voor verdere verwerking (bijvoorbeeld opslaan in een database of invoeren in een vertaalservice).
 
-## Common Issues & Tips
+## Veelvoorkomende problemen en tips
 
-- **Incorrect language detection** – If the result looks garbled, specify the language explicitly using `api.RecognizeImage(path, language)`.  
-- **Low‑resolution images** – OCR accuracy drops with blurry images; aim for at least 300 dpi.  
-- **Memory usage** – For large batches, reuse a single `AsposeOcr` instance instead of creating a new one per image.
+- **Onjuiste taaldetectie** – Als het resultaat onleesbaar lijkt, geef dan de taal expliciet op met `api.RecognizeImage(pad, taal)`.
 
-## Frequently Asked Questions
+- **Afbeeldingen met lage resolutie** – De nauwkeurigheid van OCR neemt af bij onscherpe afbeeldingen; streef naar een resolutie van minimaal 300 dpi.
 
-### Q1: Is a license required for using Aspose.OCR for .NET?
+- **Geheugengebruik** – Voor grote batches kun je één `AsposeOcr`-instantie hergebruiken in plaats van per afbeelding een nieuwe aan te maken.
 
-A1: Yes, a valid license is necessary to unlock the full features of Aspose.OCR for .NET. You can acquire a license [here](https://purchase.aspose.com/buy).
+## Aanvullende veelgestelde vragen
 
-### Q2: Can I use Aspose.OCR for .NET with images in any language?
+**V: Hoe installeer ik Aspose OCR via NuGet?**
+A: Voer `Install-Package Aspose.OCR` uit in de Package Manager Console. Dit is de snelste manier om de bibliotheek aan je project toe te voegen.
 
-A2: Absolutely! Aspose.OCR supports a wide range of languages, making it a versatile solution for multilingual OCR tasks.
+**V: Kan ik een PDF-pagina converteren naar een afbeelding en vervolgens de tekst eruit halen?**
+A: Ja – combineer Aspose.PDF om een ​​pagina als afbeelding weer te geven en voer die afbeelding vervolgens in Aspose.OCR in voor tekstextractie.
 
-### Q3: Where can I find support for Aspose.OCR for .NET?
+**V: Ondersteunt de API batchverwerking van meerdere afbeeldingen?**
+A: U kunt door een verzameling bestandspaden lopen en `RecognizeImage` aanroepen voor elke afbeelding; de bibliotheek is volledig thread-safe.
 
-A3: For support and discussions, visit the Aspose.OCR forum [here](https://forum.aspose.com/c/ocr/16).
+**V: Welke .NET-versies worden ondersteund?**
+A: Aspose.OCR werkt met .NET Framework 4.5+, .NET Core 3.1+, .NET 5 en .NET 6.
 
-### Q4: Is there a free trial available?
-
-A4: Yes, you can explore a free trial version of Aspose.OCR [here](https://releases.aspose.com/).
-
-### Q5: How can I access the documentation?
-
-A5: The documentation for Aspose.OCR for .NET is available [here](https://reference.aspose.com/ocr/net/).
-
-## Additional Frequently Asked Questions
-
-**Q: How do I install Aspose OCR via NuGet?**  
-A: Run `Install-Package Aspose.OCR` in the Package Manager Console. This is the quickest way to add the library to your project.
-
-**Q: Can I convert a PDF page to an image and then extract text?**  
-A: Yes – combine Aspose.PDF to render a page as an image, then feed that image to Aspose.OCR for text extraction.
-
-**Q: Does the API support batch processing of multiple images?**  
-A: You can loop through a collection of file paths and call `RecognizeImage` for each image; the library is fully thread‑safe.
-
-**Q: What .NET versions are supported?**  
-A: Aspose.OCR works with .NET Framework 4.5+, .NET Core 3.1+, .NET 5, and .NET 6.
-
-**Q: How can I improve accuracy for handwritten text?**  
-A: While Aspose.OCR focuses on printed text, you can improve results by pre‑processing the image (contrast enhancement, noise removal) before calling `RecognizeImage`.
+**V: Hoe kan ik de nauwkeurigheid van handgeschreven tekst verbeteren?**
+A: Hoewel Aspose.OCR zich richt op gedrukte tekst, kunt u de resultaten verbeteren door de afbeelding voor te bewerken (contrastverhoging, ruisonderdrukking) voordat u `RecognizeImage` aanroept.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.12 for .NET  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 30-12-2025
+**Getest met:** Aspose.OCR 24.12 voor .NET
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

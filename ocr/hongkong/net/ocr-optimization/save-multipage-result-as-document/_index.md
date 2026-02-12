@@ -120,28 +120,6 @@ AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", Sa
 - **影像品質：** 確保影像解析度至少 300 dpi，以獲得最佳 OCR 準確度。  
 - **授權錯誤：** 呼叫 OCR 方法前，先確認授權檔案已正確載入。
 
-## 常見問題 (原文)
-
-### Q1: 是否提供測試用的臨時授權？
-
-A1: 有的，您可於 [此處](https://purchase.aspose.com/temporary-license/) 取得臨時授權，以測試 Aspose.OCR。
-
-### Q2: 能否辨識不同格式的影像文字？
-
-A2: 當然！Aspose.OCR 支援多種影像格式，確保 OCR 任務的彈性。
-
-### Q3: 影像辨識數量有無上限？
-
-A3: 可處理的影像數量取決於您的授權。請參考文件了解詳細限制。
-
-### Q4: 如何處理 OCR 辨識過程中的錯誤？
-
-A4: 請參考文件中的錯誤處理最佳實踐，或在支援論壇尋求協助。
-
-### Q5: Aspose.OCR 是否支援英語以外的語言？
-
-A5: 支援。Aspose.OCR 支援多種語言，請查閱文件了解語言支援細節。
-
 ## 其他常見問題
 
 **Q: 能否在不使用 OCR 的情況下將影像轉換為 PDF C#？**  

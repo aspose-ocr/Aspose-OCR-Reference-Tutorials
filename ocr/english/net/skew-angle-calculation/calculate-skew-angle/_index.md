@@ -133,15 +133,15 @@ A5: Certainly! Explore the features with the [free trial version](https://releas
 
 Congratulations! You've successfully navigated through the steps of calculating skew angle in OCR image recognition using Aspose.OCR for .NET. Incorporating this **ocr image preprocessing** technique will help you **improve OCR accuracy** across a variety of document types. Explore more functionalities and features in the [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

@@ -97,28 +97,6 @@ Bây giờ bạn có thể thấy chuỗi đã trích xuất trong console, ho�
 - **Hình ảnh độ phân giải thấp** – Độ chính xác OCR giảm khi ảnh mờ; cố gắng đạt ít nhất 300 dpi.  
 - **Tiêu thụ bộ nhớ** – Đối với các lô lớn, hãy tái sử dụng một thể hiện `AsposeOcr` duy nhất thay vì tạo mới cho mỗi ảnh.
 
-## Câu hỏi thường gặp
-
-### Q1: Có cần giấy phép để sử dụng Aspose.OCR cho .NET không?
-
-A1: Có, giấy phép hợp lệ là cần thiết để mở khóa đầy đủ tính năng của Aspose.OCR cho .NET. Bạn có thể mua giấy phép [here](https://purchase.aspose.com/buy).
-
-### Q2: Tôi có thể dùng Aspose.OCR cho .NET với ảnh bất kỳ ngôn ngữ nào không?
-
-A2: Chắc chắn! Aspose.OCR hỗ trợ một loạt các ngôn ngữ, làm cho nó trở thành giải pháp đa năng cho các nhiệm vụ OCR đa ngôn ngữ.
-
-### Q3: Tôi có thể tìm hỗ trợ cho Aspose.OCR cho .NET ở đâu?
-
-A3: Để được hỗ trợ và thảo luận, hãy truy cập diễn đàn Aspose.OCR [here](https://forum.aspose.com/c/ocr/16).
-
-### Q4: Có bản dùng thử miễn phí không?
-
-A4: Có, bạn có thể khám phá phiên bản dùng thử miễn phí của Aspose.OCR [here](https://releases.aspose.com/).
-
-### Q5: Làm sao tôi truy cập tài liệu?
-
-A5: Tài liệu cho Aspose.OCR cho .NET có sẵn [here](https://reference.aspose.com/ocr/net/).
-
 ## Các câu hỏi thường gặp bổ sung
 
 **Q: Cách cài đặt Aspose OCR qua NuGet?**  

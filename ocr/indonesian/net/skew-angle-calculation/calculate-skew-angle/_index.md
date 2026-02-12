@@ -134,15 +134,15 @@ A5: Tentu! Jelajahi fitur-fitur dengan [versi percobaan gratis](https://releases
 
 Selamat! Anda telah berhasil menavigasi langkah‑langkah menghitung sudut skew dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET. Mengintegrasikan teknik **ocr image preprocessing** ini akan membantu Anda **meningkatkan akurasi OCR** pada berbagai jenis dokumen. Jelajahi lebih banyak fungsi dan fitur di [dokumentasi](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

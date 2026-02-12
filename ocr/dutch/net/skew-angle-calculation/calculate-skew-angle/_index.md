@@ -134,15 +134,15 @@ A5: Zeker! Ontdek de functies met de [free trial version](https://releases.aspos
 
 Gefeliciteerd! U heeft met succes de stappen doorlopen om de scheefstandhoek te berekenen bij OCR‑beeldherkenning met Aspose.OCR voor .NET. Het integreren van deze **ocr image preprocessing**‑techniek helpt u **OCR‑nauwkeurigheid te verbeteren** voor verschillende documenttypen. Ontdek meer functionaliteiten en kenmerken in de [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

@@ -134,15 +134,15 @@ A5: بالتأكيد! استكشف الميزات مع [free trial version](http
 
 تهانينا! لقد نجحت في إكمال خطوات حساب زاوية الانحراف في التعرف على صور OCR باستخدام Aspose.OCR لـ .NET. سيساعدك دمج تقنية **ocr image preprocessing** هذه على **تحسين دقة OCR** عبر مجموعة متنوعة من أنواع المستندات. استكشف المزيد من الوظائف والميزات في [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**آخر تحديث:** 2025-12-30  
+**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-30  
-**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
-**المؤلف:** Aspose

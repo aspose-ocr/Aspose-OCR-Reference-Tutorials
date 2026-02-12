@@ -122,28 +122,6 @@ Válassza ki a formátumot, amely legjobban illeszkedik az utófeldolgozási mun
 - **Image quality:** Győződjön meg róla, hogy a képek legalább 300 dpi felbontásúak a legjobb OCR pontosság érdekében.
 - **License errors:** Ellenőrizze, hogy a licencfájl helyesen be van töltve, mielőtt OCR metódusokat hívna.
 
-## Gyakran Ismételt Kérdések (Eredeti)
-
-### Q1: Ideiglenes licenc elérhető tesztelési célokra?
-
-A1: Igen, ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/) az Aspose.OCR teszteléséhez.
-
-### Q2: Fel tudok ismerni szöveget különböző formátumú képekről?
-
-A2: Teljesen! Az Aspose.OCR különféle képformátumokat támogat, biztosítva a rugalmasságot az OCR feladataiban.
-
-### Q3: Van korlátozás a felismert képek számában?
-
-A3: A feldolgozható képek száma a licencétől függ. Tekintse meg a dokumentációt a részletekért.
-
-### Q4: Hogyan kezeljem a hibákat az OCR felismerés során?
-
-A4: Tekintse meg a dokumentációt a hibakezelési legjobb gyakorlatokért, vagy kérjen segítséget a support forums fórumon.
-
-### Q5: Az Aspose.OCR támogat-e más nyelveket, mint az angol?
-
-A5: Igen, az Aspose.OCR több nyelvet támogat. Tekintse meg a dokumentációt a nyelvtámogatás részleteiért.
-
 ## További Gyakran Ismételt Kérdések
 
 **Q: Képek PDF‑re konvertálása C#‑ban OCR használata nélkül?**  

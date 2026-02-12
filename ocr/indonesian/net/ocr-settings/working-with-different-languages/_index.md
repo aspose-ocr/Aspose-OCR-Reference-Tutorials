@@ -98,28 +98,6 @@ Anda sekarang dapat melihat string yang diekstrak di konsol, atau menyimpannya u
 - **Gambar resolusi rendah** – Akurasi OCR menurun pada gambar buram; usahakan setidaknya 300 dpi.  
 - **Penggunaan memori** – Untuk batch besar, gunakan kembali satu instance `AsposeOcr` alih‑alih membuat yang baru untuk setiap gambar.
 
-## Pertanyaan yang Sering Diajukan
-
-### Q1: Apakah lisensi diperlukan untuk menggunakan Aspose.OCR untuk .NET?
-
-A1: Ya, lisensi yang valid diperlukan untuk membuka semua fitur Aspose.OCR untuk .NET. Anda dapat memperoleh lisensi [here](https://purchase.aspose.com/buy).
-
-### Q2: Bisakah saya menggunakan Aspose.OCR untuk .NET dengan gambar dalam bahasa apa pun?
-
-A2: Tentu! Aspose.OCR mendukung berbagai bahasa, menjadikannya solusi serbaguna untuk tugas OCR multibahasa.
-
-### Q3: Di mana saya dapat menemukan dukungan untuk Aspose.OCR untuk .NET?
-
-A3: Untuk dukungan dan diskusi, kunjungi forum Aspose.OCR [here](https://forum.aspose.com/c/ocr/16).
-
-### Q4: Apakah ada trial gratis yang tersedia?
-
-A4: Ya, Anda dapat menjelajahi versi trial gratis Aspose.OCR [here](https://releases.aspose.com/).
-
-### Q5: Bagaimana saya dapat mengakses dokumentasi?
-
-A5: Dokumentasi Aspose.OCR untuk .NET tersedia [here](https://reference.aspose.com/ocr/net/).
-
 ## Pertanyaan Tambahan yang Sering Diajukan
 
 **Q: Bagaimana cara menginstal Aspose OCR via NuGet?**  

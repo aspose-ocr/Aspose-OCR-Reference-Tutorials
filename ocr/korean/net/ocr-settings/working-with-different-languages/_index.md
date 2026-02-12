@@ -90,23 +90,6 @@ Console.WriteLine(result);
 - **저해상도 이미지** – 흐릿한 이미지에서는 OCR 정확도가 떨어지므로 최소 300 dpi를 목표로 하세요.  
 - **메모리 사용량** – 대량 처리 시 이미지당 새 `AsposeOcr` 인스턴스를 만들지 말고 하나의 인스턴스를 재사용하세요.
 
-## 자주 묻는 질문
-
-### Q1: Aspose.OCR for .NET 사용에 라이선스가 필요한가요?
-A1: 예, 전체 기능을 사용하려면 유효한 라이선스가 필요합니다. 라이선스는 [here](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
-
-### Q2: Aspose.OCR for .NET를 모든 언어 이미지에 사용할 수 있나요?
-A2: 물론입니다! Aspose.OCR은 다양한 언어를 지원하므로 다국어 OCR 작업에 다재다능한 솔루션입니다.
-
-### Q3: Aspose.OCR for .NET 지원을 어디서 찾을 수 있나요?
-A3: 지원 및 토론은 Aspose.OCR 포럼 [here](https://forum.aspose.com/c/ocr/16)에서 확인하세요.
-
-### Q4: 무료 체험판이 있나요?
-A4: 예, Aspose.OCR 무료 체험판은 [here](https://releases.aspose.com/)에서 확인할 수 있습니다.
-
-### Q5: 문서는 어디서 확인할 수 있나요?
-A5: Aspose.OCR for .NET 문서는 [here](https://reference.aspose.com/ocr/net/)에서 확인할 수 있습니다.
-
 ## 추가 자주 묻는 질문
 
 **Q: NuGet을 통해 Aspose OCR을 설치하려면 어떻게 해야 하나요?**  

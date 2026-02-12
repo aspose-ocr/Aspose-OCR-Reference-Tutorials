@@ -121,28 +121,6 @@ Kies het formaat dat het beste past bij je downstream‑workflow:
 - **Image quality:** Zorg ervoor dat afbeeldingen minimaal 300 dpi zijn voor optimale OCR‑nauwkeurigheid.
 - **License errors:** Controleer of je licentiebestand correct is geladen voordat je OCR‑methoden aanroept.
 
-## Veelgestelde vragen (Origineel)
-
-### Q1: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?
-
-A1: Ja, je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/) voor het testen van Aspose.OCR.
-
-### Q2: Kan ik tekst herkennen uit afbeeldingen in verschillende formaten?
-
-A2: Absoluut! Aspose.OCR ondersteunt verschillende afbeeldingsformaten, wat flexibiliteit biedt in je OCR‑taken.
-
-### Q3: Zijn er beperkingen op het aantal afbeeldingen voor herkenning?
-
-A3: Het aantal afbeeldingen dat je kunt verwerken hangt af van je licentie. Bekijk de documentatie voor details.
-
-### Q4: Hoe kan ik fouten afhandelen tijdens OCR‑herkenning?
-
-A4: Raadpleeg de documentatie voor best practices voor foutafhandeling of vraag hulp in de support forums.
-
-### Q5: Ondersteunt Aspose.OCR andere talen dan Engels?
-
-A5: Ja, Aspose.OCR ondersteunt meerdere talen. Bekijk de documentatie voor details over taalondersteuning.
-
 ## Aanvullende veelgestelde vragen
 
 **Q: Kan ik afbeeldingen naar PDF C# converteren zonder OCR te gebruiken?**  

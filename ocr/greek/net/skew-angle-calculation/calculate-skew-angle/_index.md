@@ -129,15 +129,15 @@ A5: Φυσικά! Εξερευνήστε τις δυνατότητες με τη
 
 Συγχαρητήρια! Έχετε ολοκληρώσει με επιτυχία τα βήματα υπολογισμού της γωνίας στρέψης στην αναγνώριση εικόνας OCR χρησιμοποιώντας το Aspose.OCR για .NET. Η ενσωμάτωση αυτής της τεχνικής **ocr image preprocessing** θα σας βοηθήσει να **improve OCR accuracy** σε διάφορους τύπους εγγράφων. Εξερευνήστε περισσότερες λειτουργίες και χαρακτηριστικά στην [documentation](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

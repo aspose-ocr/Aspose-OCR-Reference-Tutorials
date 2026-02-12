@@ -18,30 +18,30 @@ weight: 12
 
 ## Introduction
 
-Si vous cherchez **comment utiliser l'OCR** pour améliorer le traitement des documents, ce tutoriel vous montre exactement cela. Nous allons parcourir l'utilisation d'Aspose.OCR pour .NET afin de calculer l'angle d'inclinaison d'une image directement à partir d'une URI. Comprendre l'inclinaison vous aide à **déterminer l'angle de rotation de l'image**, ce qui conduit à une extraction de texte plus propre et à une précision OCR plus élevée.
+Si vous cherchez **comment utiliser l'OCR** ​​pour améliorer le traitement des documents, ce tutoriel vous montre exactement cela. Nous allons parcourir l'utilisation d'Aspose.OCR pour .NET afin de calculer l'angle d'inclinaison d'une image directement à partir d'une URI. Comprendre l'inclinaison vous aide à **déterminer l'angle de rotation de l'image**, ce qui conduit à une extraction de texte plus propre et à une précision OCR plus élevée.
 
-## Quick Answers
-- **Que signifie « calculate skew » ?** Cela mesure la rotation d'une image afin que l'OCR puisse la redresser avant l'extraction du texte.  
-- **Quelle bibliothèque gère cela ?** Aspose.OCR pour .NET fournit une méthode simple `CalculateSkewFromUri`.  
-- **Ai‑je besoin d’une licence ?** Une licence temporaire est disponible pour l’évaluation ; une licence complète est requise pour la production.  
-- **Quels formats d’image sont pris en charge ?** Les formats courants comme PNG, JPEG, BMP et TIFF fonctionnent immédiatement.  
-- **Est‑ce adapté aux gros lots ?** Oui – vous pouvez appeler la méthode dans une boucle pour de nombreuses URI.
+## Réponses rapides
+- **Que signifie «calculate skew»?** Cela mesure la rotation d'une image afin que l'OCR puisse la redresser avant l'extraction du texte.
+- **Quelle bibliothèque gérer cela ?** Aspose.OCR pour .NET fournit une méthode simple `CalculateSkewFromUri`.
+- **Ai‑je besoin d’une licence?** Une licence temporaire est disponible pour l’évaluation; une licence complète est requise pour la production.
+- **Quels formats d'image sont pris en charge ?** Les formats courants comme PNG, JPEG, BMP et TIFF fonctionnent immédiatement.
+- **Est‑ce adapté aux gros lots?** Oui – vous pouvez appeler la méthode dans une boucle pour de nombreuses URI.
 
-## What is “how to use OCR” in practice?
+## Qu'est-ce que « comment utiliser l'OCR » en pratique ?
 
-Utiliser l'OCR consiste à fournir une image à un moteur de reconnaissance, éventuellement en la pré‑traitant (par ex., redressement), puis à extraire le texte. Calculer l'angle d'inclinaison est une étape de pré‑traitement cruciale qui aligne l'image, garantissant que le moteur OCR lit correctement les caractères.
+Utiliser l'OCR consiste à fournir une image à un moteur de reconnaissance, éventuellement en le pré‑traitant (par ex., redressement), puis à extraire le texte. Calculer l'angle d'inclinaison est une étape de pré‑traitement cruciale qui aligne l'image, garantissant que le moteur OCR lit correctement les caractères.
 
-## Why calculate the skew angle?
+## Pourquoi calculer l'angle d'inclinaison ?
 
-- **Précision améliorée :** Les images redressées produisent moins d’erreurs de reconnaissance.  
-- **Compatible avec l’automatisation :** Connaître la rotation vous permet de faire pivoter automatiquement les images avant le traitement ultérieur.  
-- **Gain de performance :** Réduit le besoin de corrections manuelles d’image.
+- **Précision améliorée:** Les images redressées produisent moins d'erreurs de reconnaissance.
+- **Compatible avec l'automatisation :** Connaître la rotation vous permet de faire pivoter automatiquement les images avant le traitement ultérieur.
+- **Gain de performance:** Réduit le besoin de corrections manuelles d’image.
 
-## Prerequisites
+## Prérequis
 
-### Import Namespaces
+### Importer des espaces de noms
 
-Assurez‑vous que les espaces de noms suivants sont référencés dans votre projet. Cette étape est essentielle pour une intégration fluide avec Aspose.OCR pour .NET.
+Assurez-vous que les espaces de noms suivants sont référencés dans votre projet. Cette étape est essentielle pour une intégration fluide avec Aspose.OCR pour .NET.
 
 ```csharp
 using System;
@@ -52,11 +52,11 @@ using Aspose.OCR;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-Now, let's break down each example into multiple steps.
+Maintenant, décomposons chaque exemple en plusieurs étapes.
 
-## Step‑by‑Step Guide
+## Guide étape par étape
 
-### Step 1: Initialize Aspose.OCR
+### Étape 1 : Initialiser Aspose.OCR
 
 ```csharp
 // Initialize an instance of AsposeOcr
@@ -65,7 +65,7 @@ AsposeOcr api = new AsposeOcr();
 
 Créer l’objet `AsposeOcr` vous donne accès à toutes les méthodes liées à l’OCR, y compris celle qui **calcule l’inclinaison**.
 
-### Step 2: Calculate the Skew Angle
+### Étape 2 : Calculer l'angle d'inclinaison
 
 ```csharp
 // Calculate Angle
@@ -74,7 +74,7 @@ float angle = api.CalculateSkewFromUri("https://i.stack.imgur.com/0A4M9.png");
 
 Ici nous appelons `CalculateSkewFromUri`, en passant l’URI de l’image. La méthode renvoie un `float` représentant l’angle de rotation en degrés, que vous pouvez ensuite utiliser pour redresser l’image.
 
-### Step 3: Display the Result
+### Étape 3 : Afficher le résultat
 
 ```csharp
 // Display the result
@@ -83,7 +83,7 @@ Console.WriteLine(angle);
 
 Afficher l’angle dans la console vous donne un retour immédiat. Vous pouvez également stocker la valeur pour une utilisation ultérieure dans la logique de rotation d’image.
 
-### Step 4: Wrap‑up Confirmation
+### Étape 4 : Confirmation de clôture
 
 ```csharp
 // ExEnd:1
@@ -93,39 +93,39 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 La ligne finale confirme que l’exemple s’est exécuté sans erreur, facilitant son intégration dans des flux de travail plus larges.
 
-## Common Issues & Tips
+## Problèmes courants et conseils
 
-- **Erreurs réseau :** Assurez‑vous que l’URI est accessible ; sinon `CalculateSkewFromUri` lèvera une exception.  
-- **Formats non pris en charge :** Convertissez les types d’image peu courants en PNG ou JPEG avant d’appeler la méthode.  
-- **Précision :** Pour des angles très faibles (< 0,1°), envisagez d’arrondir le résultat afin d’éviter le bruit.
+- **Erreurs réseau :** Assurez-vous que l’URI est accessible ; sinon `CalculateSkewFromUri` soulèvera une exception.
+- **Formats non pris en charge :** Convertissez les types d'image peu courants en PNG ou JPEG avant d'appeler la méthode.
+- **Précision :** Pour des angles très faibles (<0,1°), envisagez d'arrondir le résultat afin d'éviter le bruit.
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-### Q1: Can I use Aspose.OCR for .NET with other programming languages?
+### Q1 : Puis-je utiliser Aspose.OCR pour .NET avec d'autres langages de programmation ?
 
-A1 : Aspose.OCR prend principalement en charge les langages .NET, mais vous pouvez explorer des wrappers pour d’autres langages.
+A1 : Aspose.OCR prend principalement en charge les langages .NET, mais vous pouvez explorer des wrappers pour d'autres langages.
 
-### Q2: Is a temporary license available for Aspose.OCR for .NET?
+### Q2 : Une licence temporaire est-elle disponible pour Aspose.OCR pour .NET ?
 
-A2 : Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+R2 : Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-### Q3: How can I seek help or engage with the community for support?
+### Q3 : Comment puis-je obtenir de l’aide ou interagir avec la communauté ?
 
-A3 : Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
+R3 : Rendez-vous sur le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour obtenir de l’aide et participer aux discussions.
 
-### Q4: Are there any prerequisites before using Aspose.OCR for .NET?
+### Q4 : Existe-t-il des prérequis pour utiliser Aspose.OCR pour .NET ?
 
-A4 : Ensure you have the required namespaces imported into your project, as outlined in the tutorial.
+R4 : Assurez-vous d’avoir importé les espaces de noms requis dans votre projet, comme indiqué dans le tutoriel.
 
-### Q5: Where can I find comprehensive documentation for Aspose.OCR for .NET?
+### Q5 : Où puis-je trouver une documentation complète pour Aspose.OCR pour .NET ?
 
-A5 : Refer to the [documentation](https://reference.aspose.com/ocr/net/) for detailed information.
+R5 : Consultez la [documentation](https://reference.aspose.com/ocr/net/) pour obtenir des informations détaillées.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose  
+**Dernière mise à jour :** 30/12/2025
+**Testé avec :** Aspose.OCR pour .NET 24.11
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

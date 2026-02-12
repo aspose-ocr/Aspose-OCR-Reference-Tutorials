@@ -122,28 +122,6 @@ Scegli il formato più adatto al tuo flusso di lavoro successivo:
 - **Qualità dell'immagine:** Assicurati che le immagini siano almeno a 300 dpi per una precisione OCR ottimale.
 - **Errori di licenza:** Verifica che il file di licenza sia caricato correttamente prima di chiamare i metodi OCR.
 
-## Domande frequenti (Originale)
-
-### Q1: È disponibile una licenza temporanea per scopi di test?
-
-A1: Sì, puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/) per testare Aspose.OCR.
-
-### Q2: Posso riconoscere testo da immagini in formati diversi?
-
-A2: Assolutamente! Aspose.OCR supporta vari formati immagine, garantendo flessibilità nelle tue attività OCR.
-
-### Q3: Ci sono limitazioni sul numero di immagini per il riconoscimento?
-
-A3: Il numero di immagini che puoi elaborare dipende dalla tua licenza. Consulta la documentazione per i dettagli.
-
-### Q4: Come posso gestire gli errori durante il riconoscimento OCR?
-
-A4: Consulta la documentazione per le migliori pratiche di gestione degli errori o richiedi assistenza nei forum di supporto.
-
-### Q5: Aspose.OCR supporta lingue diverse dall'inglese?
-
-A5: Sì, Aspose.OCR supporta più lingue. Esplora la documentazione per i dettagli sul supporto linguistico.
-
 ## Altre domande frequenti
 
 **D: Posso convertire immagini in PDF C# senza usare OCR?**  

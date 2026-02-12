@@ -98,28 +98,6 @@ Vous pouvez maintenant voir la chaîne extraite dans la console, ou la stocker p
 - **Images basse résolution** – La précision de l’OCR diminue avec des images floues ; visez au moins 300 dpi.  
 - **Utilisation de la mémoire** – Pour de gros lots, réutilisez une seule instance `AsposeOcr` au lieu d’en créer une nouvelle pour chaque image.
 
-## Questions fréquentes
-
-### Q1 : Une licence est‑elle requise pour utiliser Aspose.OCR pour .NET ?
-
-R1 : Oui, une licence valide est nécessaire pour débloquer toutes les fonctionnalités d’Aspose.OCR pour .NET. Vous pouvez obtenir une licence [ici](https://purchase.aspose.com/buy).
-
-### Q2 : Puis‑je utiliser Aspose.OCR pour .NET avec des images dans n’importe quelle langue ?
-
-R2 : Absolument ! Aspose.OCR prend en charge un large éventail de langues, ce qui en fait une solution polyvalente pour les tâches OCR multilingues.
-
-### Q3 : Où puis‑je trouver du support pour Aspose.OCR pour .NET ?
-
-R3 : Pour le support et les discussions, visitez le forum Aspose.OCR [ici](https://forum.aspose.com/c/ocr/16).
-
-### Q4 : Un essai gratuit est‑il disponible ?
-
-R4 : Oui, vous pouvez explorer une version d’essai gratuite d’Aspose.OCR [ici](https://releases.aspose.com/).
-
-### Q5 : Comment accéder à la documentation ?
-
-R5 : La documentation d’Aspose.OCR pour .NET est disponible [ici](https://reference.aspose.com/ocr/net/).
-
 ## Questions fréquentes supplémentaires
 
 **Q : Comment installer Aspose OCR via NuGet ?**  

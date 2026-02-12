@@ -16,30 +16,30 @@ weight: 12
 
 # Cara Menggunakan OCR – Menghitung Sudut Skew dari URI
 
-## Introduction
+## Perkenalan
 
-Jika Anda mencari **cara menggunakan OCR** untuk meningkatkan pemrosesan dokumen, tutorial ini akan menunjukkan hal tersebut secara tepat. Kami akan membimbing Anda menggunakan Aspose.OCR untuk .NET guna menghitung sudut skew sebuah gambar langsung dari URI. Memahami skew membantu Anda **menentukan sudut rotasi gambar**, yang menghasilkan ekstraksi teks yang lebih bersih dan akurasi OCR yang lebih tinggi.
+Jika Anda mencari **cara menggunakan OCR** ​​untuk meningkatkan pemrosesan dokumen, tutorial ini akan menunjukkan hal tersebut secara tepat. Kami akan membimbing Anda menggunakan Aspose.OCR untuk .NET guna menghitung sudut kemiringan sebuah gambar langsung dari URI. Memahami skew membantu Anda **menentukan sudut rotasi gambar**, yang menghasilkan ekstraksi teks yang lebih bersih dan akurasi OCR yang lebih tinggi.
 
-## Quick Answers
-- **Apa arti “calculate skew”?** Ini mengukur rotasi sebuah gambar sehingga OCR dapat melakukan deskew sebelum ekstraksi teks.  
-- **Perpustakaan mana yang menangani ini?** Aspose.OCR untuk .NET menyediakan metode sederhana `CalculateSkewFromUri`.  
-- **Apakah saya memerlukan lisensi?** Lisensi sementara tersedia untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
-- **Format gambar apa yang didukung?** Format umum seperti PNG, JPEG, BMP, dan TIFF berfungsi langsung.  
+## Jawaban Cepat
+- **Apa arti “calculate skew”?** Ini mengukur rotasi sebuah gambar sehingga OCR dapat melakukan deskew sebelum ekstraksi teks.
+- **Perpustakaan mana yang menangani ini?** Aspose.OCR untuk .NET menyediakan metode sederhana `CalculateSkewFromUri`.
+- **Apakah saya memerlukan lisensi?** Lisensi sementara tersedia untuk evaluasi; lisensi penuh diperlukan untuk produksi.
+- **Format gambar apa yang didukung?** Format umum seperti PNG, JPEG, BMP, dan TIFF berfungsi langsung.
 - **Apakah ini cocok untuk batch besar?** Ya – Anda dapat memanggil metode ini dalam loop untuk banyak URI.
 
-## What is “how to use OCR” in practice?
+## Apa yang dimaksud dengan “cara menggunakan OCR” dalam praktiknya?
 
-Menggunakan OCR berarti memberi gambar ke mesin pengenalan, secara opsional melakukan pra‑pemrosesan (misalnya deskew), dan kemudian mengekstrak teks. Menghitung sudut skew adalah langkah pra‑pemrosesan penting yang menyelaraskan gambar, memastikan mesin OCR membaca karakter dengan benar.
+Menggunakan OCR berarti memberi gambar ke mesin pengenalan, secara opsional melakukan pra‑pemrosesan (misalnya deskew), dan kemudian mengekstrak teks. Menghitung sudut kemiringan adalah langkah pra‑pemrosesan penting yang menyelaraskan gambar, memastikan mesin OCR membaca karakter dengan benar.
 
-## Why calculate the skew angle?
+## Mengapa menghitung sudut kemiringan?
 
-- **Improved accuracy:** Gambar yang telah di‑deskew menghasilkan lebih sedikit kesalahan pengenalan.  
-- **Automation-friendly:** Mengetahui rotasi memungkinkan Anda secara otomatis memutar gambar sebelum pemrosesan lebih lanjut.  
-- **Performance boost:** Mengurangi kebutuhan koreksi gambar manual.
+- **Peningkatan akurasi:** Gambar yang telah di‑deskew menghasilkan lebih sedikit kesalahan pengenalan.
+- **Ramah otomatisasi:** Pengetahuan rotasi memungkinkan Anda memutar gambar secara otomatis sebelum memproses lebih lanjut.
+- **Peningkatan kinerja:** Mengurangi kebutuhan koreksi gambar manual.
 
-## Prerequisites
+## Prasyarat
 
-### Import Namespaces
+### Impor Namespace
 
 Pastikan namespace berikut di‑referensikan dalam proyek Anda. Langkah ini penting untuk integrasi yang mulus dengan Aspose.OCR untuk .NET.
 
@@ -54,9 +54,9 @@ using Aspose.OCR.Models.PreprocessingFilters;
 
 Sekarang, mari kita uraikan setiap contoh menjadi beberapa langkah.
 
-## Step‑by‑Step Guide
+## Panduan Langkah-demi-Langkah
 
-### Step 1: Initialize Aspose.OCR
+### Langkah 1: Inisialisasi Aspose.OCR
 
 ```csharp
 // Initialize an instance of AsposeOcr
@@ -65,16 +65,16 @@ AsposeOcr api = new AsposeOcr();
 
 Membuat objek `AsposeOcr` memberi Anda akses ke semua metode terkait OCR, termasuk yang **menghitung skew**.
 
-### Step 2: Calculate the Skew Angle
+### Langkah 2: Hitung Sudut Kemiringan
 
 ```csharp
 // Calculate Angle
 float angle = api.CalculateSkewFromUri("https://i.stack.imgur.com/0A4M9.png");
 ```
 
-Di sini kami memanggil `CalculateSkewFromUri`, dengan memberikan URI gambar. Metode ini mengembalikan nilai `float` yang mewakili sudut rotasi dalam derajat, yang kemudian dapat Anda gunakan untuk melakukan deskew pada gambar.
+Di sini kami memanggil `CalculateSkewFromUri`, dengan memberikan gambar URI. Metode ini mengembalikan nilai `float` yang mewakili sudut rotasi dalam derajat, yang kemudian dapat Anda gunakan untuk melakukan deskew pada gambar.
 
-### Step 3: Display the Result
+### Langkah 3: Tampilkan Hasilnya
 
 ```csharp
 // Display the result
@@ -83,7 +83,7 @@ Console.WriteLine(angle);
 
 Mencetak sudut ke konsol memberikan umpan balik langsung. Anda juga dapat menyimpan nilai tersebut untuk penggunaan selanjutnya dalam logika rotasi gambar.
 
-### Step 4: Wrap‑up Confirmation
+### Langkah 4: Konfirmasi Penutupan
 
 ```csharp
 // ExEnd:1
@@ -91,41 +91,41 @@ Mencetak sudut ke konsol memberikan umpan balik langsung. Anda juga dapat menyim
 Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 ```
 
-Baris terakhir mengonfirmasi bahwa contoh berjalan tanpa error, memudahkan integrasi ke dalam alur kerja yang lebih besar.
+Baris terakhir konfirmasi bahwa contoh berjalan tanpa kesalahan, memudahkan integrasi ke dalam alur kerja yang lebih besar.
 
-## Common Issues & Tips
+## Masalah & Tip Umum
 
-- **Network errors:** Pastikan URI dapat dijangkau; jika tidak, `CalculateSkewFromUri` akan melemparkan pengecualian.  
-- **Unsupported formats:** Konversi tipe gambar yang tidak umum ke PNG atau JPEG sebelum memanggil metode.  
-- **Precision:** Untuk sudut yang sangat kecil (< 0.1°), pertimbangkan membulatkan hasil untuk menghindari noise.
+- **Kesalahan jaringan:** Pastikan URI dapat dijangkau; jika tidak, `CalculateSkewFromUri` akan melemparkannya.
+- **Format tidak didukung:** tipe Konversi gambar yang tidak umum ke PNG atau JPEG sebelum memanggil metode.
+- **Presisi:** Untuk sudut yang sangat kecil (<0.1°), penyesuaian membulatkan hasil untuk menghindari kebisingan.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Can I use Aspose.OCR for .NET with other programming languages?
+### Q1: Bisakah saya menggunakan Aspose.OCR untuk .NET dengan bahasa pemrograman lain?
 
 A1: Aspose.OCR terutama mendukung bahasa .NET, namun Anda dapat mengeksplorasi wrapper untuk bahasa lain.
 
-### Q2: Is a temporary license available for Aspose.OCR for .NET?
+### Q2: Apakah lisensi sementara tersedia untuk Aspose.OCR untuk .NET?
 
 A2: Ya, Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Q3: How can I seek help or engage with the community for support?
+### Q3: Bagaimana cara mencari bantuan atau berinteraksi dengan komunitas untuk mendapatkan dukungan?
 
 A3: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan komunitas dan diskusi.
 
-### Q4: Are there any prerequisites before using Aspose.OCR for .NET?
+### Q4: Apakah ada prasyarat sebelum menggunakan Aspose.OCR untuk .NET?
 
 A4: Pastikan Anda telah mengimpor namespace yang diperlukan ke dalam proyek Anda, seperti yang dijelaskan dalam tutorial.
 
-### Q5: Where can I find comprehensive documentation for Aspose.OCR for .NET?
+### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.OCR untuk .NET?
 
 A5: Lihat [dokumentasi](https://reference.aspose.com/ocr/net/) untuk informasi detail.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR untuk .NET 24.11  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 30-12-2025
+**Diuji Dengan:** Aspose.OCR untuk .NET 24.11
+**Penulis:** Beranggapan  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

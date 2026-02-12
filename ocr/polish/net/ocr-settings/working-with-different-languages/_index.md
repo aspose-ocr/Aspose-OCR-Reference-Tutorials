@@ -98,28 +98,6 @@ Teraz możesz zobaczyć wyodrębniony ciąg w konsoli lub zapisać go do dalszeg
 - **Obrazy o niskiej rozdzielczości** – Dokładność OCR spada przy rozmytych obrazach; celuj w co najmniej 300 dpi.  
 - **Zużycie pamięci** – Przy dużych partiach, ponownie używaj jednej instancji `AsposeOcr` zamiast tworzyć nową dla każdego obrazu.
 
-## Najczęściej zadawane pytania
-
-### P1: Czy wymagana jest licencja do używania Aspose.OCR dla .NET?
-
-O1: Tak, ważna licencja jest niezbędna, aby odblokować pełne funkcje Aspose.OCR dla .NET. Licencję możesz uzyskać [tutaj](https://purchase.aspose.com/buy).
-
-### P2: Czy mogę używać Aspose.OCR dla .NET z obrazami w dowolnym języku?
-
-O2: Oczywiście! Aspose.OCR obsługuje szeroką gamę języków, co czyni go wszechstronnym rozwiązaniem dla wielojęzycznych zadań OCR.
-
-### P3: Gdzie mogę znaleźć wsparcie dla Aspose.OCR dla .NET?
-
-O3: Wsparcie i dyskusje znajdziesz na forum Aspose.OCR [tutaj](https://forum.aspose.com/c/ocr/16).
-
-### P4: Czy dostępna jest darmowa wersja próbna?
-
-O4: Tak, darmową wersję próbną Aspose.OCR możesz pobrać [tutaj](https://releases.aspose.com/).
-
-### P5: Jak mogę uzyskać dostęp do dokumentacji?
-
-O5: Dokumentacja Aspose.OCR dla .NET jest dostępna [tutaj](https://reference.aspose.com/ocr/net/).
-
 ## Dodatkowe często zadawane pytania
 
 **P: Jak zainstalować Aspose OCR za pomocą NuGet?**  

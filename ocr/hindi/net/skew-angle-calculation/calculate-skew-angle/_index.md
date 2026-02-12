@@ -134,15 +134,15 @@ A5: निश्चित रूप से! आप [free trial version](https://
 
 बधाई हो! आपने Aspose.OCR for .NET का उपयोग करके OCR इमेज रिकग्निशन में स्क्यू एंगल की गणना करने के चरणों को सफलतापूर्वक पूरा कर लिया है। इस **ocr image preprocessing** तकनीक को अपनाकर आप विभिन्न प्रकार के डॉक्यूमेंट्स में **OCR सटीकता** को सुधार सकते हैं। अधिक कार्यक्षमताओं और फीचर्स के लिए [documentation](https://reference.aspose.com/ocr/net/) देखें।
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

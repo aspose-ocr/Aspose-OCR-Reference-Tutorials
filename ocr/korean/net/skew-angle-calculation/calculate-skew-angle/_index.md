@@ -133,15 +133,14 @@ A5: 네! [free trial version](https://releases.aspose.com/)을 통해 기능을 
 
 축하합니다! Aspose.OCR for .NET을 사용해 OCR 이미지 인식에서 기울기 각도를 계산하는 과정을 성공적으로 마쳤습니다. 이 **ocr 이미지 전처리** 기술을 적용하면 다양한 문서 유형에 걸쳐 **OCR 정확도**를 크게 향상시킬 수 있습니다. 더 많은 기능과 상세 내용은 [documentation](https://reference.aspose.com/ocr/net/)을 확인해 보세요.
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

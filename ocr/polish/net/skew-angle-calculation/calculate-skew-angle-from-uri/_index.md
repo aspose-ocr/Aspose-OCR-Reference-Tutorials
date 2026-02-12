@@ -16,30 +16,30 @@ weight: 12
 
 # Jak używać OCR – Obliczanie kąta pochylenia z URI
 
-## Introduction
+## Wstęp
 
-Jeśli szukasz **jak używać OCR**, aby usprawnić przetwarzanie dokumentów, ten samouczek pokaże Ci dokładnie to. Przejdziemy przez użycie Aspose.OCR dla .NET do obliczenia kąta pochylenia obrazu bezpośrednio z URI. Zrozumienie pochylenia pomaga **określić kąt obrotu obrazu**, co prowadzi do czystszego wyodrębniania tekstu i wyższej dokładności OCR.
+Jeśli **jak zastosowanie OCR**, aby usprawnić tłumaczenie dokumentów, dziesięć samouczek zostanie Ci dokładnie przesłanych. Przejdziemy przez zastosowanie Aspose.OCR dla .NET do ustawienia kąta pochylenia obrazu bezpośrednio z URI. Zrozumienie pochylenia pomaga **określić kąt obrotu**, co prowadzi do wyższego wyodrębnienia tekstu i osiągnięcia OCR.
 
-## Quick Answers
-- **Co oznacza „obliczanie pochylenia”?** Mierzy ono obrót obrazu, aby OCR mógł go wyrównać przed wyodrębnianiem tekstu.  
-- **Która biblioteka to obsługuje?** Aspose.OCR dla .NET udostępnia prostą metodę `CalculateSkewFromUri`.  
-- **Czy potrzebna jest licencja?** Dostępna jest tymczasowa licencja do oceny; pełna licencja jest wymagana w środowisku produkcyjnym.  
-- **Jakie formaty obrazów są obsługiwane?** Popularne formaty takie jak PNG, JPEG, BMP i TIFF działają od razu.  
-- **Czy to nadaje się do dużych partii?** Tak – możesz wywoływać metodę w pętli dla wielu URI.
+## Szybkie odpowiedzi
+- **Co oznacza „obliczanie pochylenia”?** Mierzy ono obrót obrazu, aby OCR mógł wyrównać przed wyodrębnieniem tekstu.
+- **Która biblioteka do obsługi?** Aspose.OCR dla .NET udostępnienia `CalculateSkewFromUri`.
+- **Czy jest to licencjat?** Dostępna jest tymczasowa licencja do oceny; pełny licencjat jest wymagany w środowisku produkcyjnym.
+- **Jakie formaty obrazów są odbierane?** Popularne formaty takie jak PNG, JPEG, BMP i TIFF wysłane od razu.
+- **Czy można dodać do dużych partii?** Tak – można uzyskać dostęp do wielu URI.
 
-## What is “how to use OCR” in practice?
+## Jak wygląda „jak korzystać z OCR” w praktyce?
 
-Używanie OCR oznacza przekazanie obrazu do silnika rozpoznawania, opcjonalnie wstępne przetworzenie (np. wyrównanie), a następnie wyodrębnienie tekstu. Obliczanie kąta pochylenia jest krytycznym krokiem wstępnego przetwarzania, który wyrównuje obraz, zapewniając, że silnik OCR prawidłowo odczytuje znaki.
+Używanie OCR oznacza pojęcie do rozpoznawania silnika, opcja wstępnego przetworzenia (np. wyrównanie), a następnie wyodrębnienie tekstu. Obliczanie kąta pochylenia jest krytycznym wstępnym przetwarzaniem, który wyrównuje obraz, że silnik OCR prawidłowo odczytuje znaki.
 
-## Why calculate the skew angle?
+## Po co obliczać kąt skosu?
 
-- **Lepsza dokładność:** Wyrównane obrazy generują mniej błędów rozpoznawania.  
-- **Przyjazne automatyzacji:** Znajomość kąta obrotu pozwala automatycznie obracać obrazy przed dalszym przetwarzaniem.  
-- **Zwiększenie wydajności:** Zmniejsza potrzebę ręcznej korekcji obrazu.
+- **Lepsza oznacza:** Wyrównane obrazy z mniejszymi błędami rozpoznawania.
+- **Przyjazne automatyzacji:** kąta obrotu pozwala na automatyczne obracanie obrazów przed użyciem sygnału.
+- **Zwiększenie wydajności:** Zmniejszenie ręcznej korekty obrazu.
 
-## Prerequisites
+## Warunki wstępne
 
-### Import Namespaces
+### Importuj przestrzenie nazw
 
 Upewnij się, że następujące przestrzenie nazw są zaimportowane w Twoim projekcie. Ten krok jest niezbędny do płynnej integracji z Aspose.OCR dla .NET.
 
@@ -54,36 +54,36 @@ using Aspose.OCR.Models.PreprocessingFilters;
 
 Teraz rozbijmy każdy przykład na kilka kroków.
 
-## Step‑by‑Step Guide
+## Przewodnik krok po kroku
 
-### Step 1: Initialize Aspose.OCR
+### Krok 1: Zainicjuj Aspose.OCR
 
 ```csharp
 // Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Utworzenie obiektu `AsposeOcr` daje dostęp do wszystkich metod związanych z OCR, w tym tej, która **oblicza pochylenie**.
+Utworzenie obiektu `AsposeOcr` umożliwia dostęp do wszystkich metod związanych z OCR, w tej tej, która **oblicza po odchyleniu**.
 
-### Step 2: Calculate the Skew Angle
+### Krok 2: Oblicz kąt pochylenia
 
 ```csharp
 // Calculate Angle
 float angle = api.CalculateSkewFromUri("https://i.stack.imgur.com/0A4M9.png");
 ```
 
-Tutaj wywołujemy `CalculateSkewFromUri`, przekazując URI obrazu. Metoda zwraca `float` reprezentujący kąt obrotu w stopniach, który możesz następnie użyć do wyrównania obrazu.
+Tutaj jesteśmy `CalculateSkewFromUri`, przekazując URI obrazu. Metoda `float` wykorzystująca kąt obrotu w stopniach, który następnie wykorzystuje się do wyrównania obrazu.
 
-### Step 3: Display the Result
+### Krok 3: Wyświetl wynik
 
 ```csharp
 // Display the result
 Console.WriteLine(angle);
 ```
 
-Wypisanie kąta w konsoli daje natychmiastową informację zwrotną. Możesz także zapisać wartość do późniejszego użycia w logice obracania obrazu.
+Wypisanie kąta w odpowiedzi na odpowiedź zwrotną. Możesz także zapisać wartość do wykorzystania w logice obrotowej.
 
-### Step 4: Wrap‑up Confirmation
+### Krok 4: Potwierdzenie zakończenia
 
 ```csharp
 // ExEnd:1
@@ -93,44 +93,44 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 Ostatnia linia potwierdza, że przykład został uruchomiony bez błędów, co ułatwia integrację w większych przepływach pracy.
 
-## Common Issues & Tips
+## Typowe problemy i wskazówki
 
-- **Błędy sieciowe:** Upewnij się, że URI jest dostępny; w przeciwnym razie `CalculateSkewFromUri` zgłosi wyjątek.  
-- **Nieobsługiwane formaty:** Przed wywołaniem metody skonwertuj rzadkie typy obrazów do PNG lub JPEG.  
-- **Precyzja:** Dla bardzo małych kątów (< 0.1°) rozważ zaokrąglenie wyniku, aby uniknąć szumów.
+- **Błędy sieciowe:** zagrożenie się, że URI jest dostępny; w razie wypadku `CalculateSkewFromUri` zgłosi wyjątek.
+- **Nieobsługiwane formaty:** Przed wywołaniem metod skonwertuj rzadkie typy obrazów do PNG lub JPEG.
+- **Precyzja:** Dla bardzo małych kątów (<0,1°) wynik zaokrąglony, aby uniknąć szumów.
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-### Q1: Can I use Aspose.OCR for .NET with other programming languages?
+### P1: Czy mogę używać Aspose.OCR dla .NET z innymi językami programowania?
 
-**Czy mogę używać Aspose.OCR dla .NET z innymi językami programowania?**  
-Aspose.OCR głównie obsługuje języki .NET, ale możesz zbadać wrappery dla innych języków.
+**Czy można sprawdzić Aspose.OCR dla .NET z innymi językami programowania?**
+Aspose.OCR główny obsługuje języki .NET, ale może być rozwiązaniem wrappery dla innych szkół.
 
-### Q2: Is a temporary license available for Aspose.OCR for .NET?
+### P2: Czy dostępna jest tymczasowa licencja na Aspose.OCR dla .NET?
 
-**Czy tymczasowa licencja jest dostępna dla Aspose.OCR dla .NET?**  
-Tak, tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**Czy tymczasowa licencja jest dostępna dla Aspose.OCR dla .NET?**
+Tak, tymczasową możliwość wystąpienia [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### Q3: How can I seek help or engage with the community for support?
+### P3: Jak mogę szukać pomocy lub skontaktować się ze społecznością w celu uzyskania wsparcia?
 
-**Jak mogę uzyskać pomoc lub zaangażować się w społeczność w celu wsparcia?**  
-Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać wsparcie społeczności i dyskusje.
+**Jak mogę uzyskać pomoc lub zaangażować się w społeczność w celu wsparcia?**
+Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać wsparcie społeczności i obsługi.
 
-### Q4: Are there any prerequisites before using Aspose.OCR for .NET?
+### P4: Czy istnieją jakieś wymagania wstępne przed użyciem Aspose.OCR dla .NET?
 
-**Czy istnieją jakieś wymagania wstępne przed użyciem Aspose.OCR dla .NET?**  
-Upewnij się, że w projekcie zaimportowano wymagane przestrzenie nazw, jak opisano w samouczku.
+**Czy jakieś wymagania wstępne przed użyciem Aspose.OCR dla .NET?**
+nastąpiło, że w projekcie zaimportowano wymagane przestrzenie nazw, jak nastąpiło w samouczku.
 
-### Q5: Where can I find comprehensive documentation for Aspose.OCR for .NET?
+### P5: Gdzie mogę znaleźć obszerną dokumentację Aspose.OCR dla .NET?
 
-**Gdzie mogę znaleźć pełną dokumentację dla Aspose.OCR dla .NET?**  
-Zapoznaj się z [dokumentacją](https://reference.aspose.com/ocr/net/) po szczegółowe informacje.
+**Gdzie można znaleźć pełną treść dla Aspose.OCR dla .NET?**
+Zapoznaj się z [dokumentacją](https://reference.aspose.com/ocr/net/) po szczegółowych informacjach.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 30.12.2025 r
+**Testowano z:** Aspose.OCR dla .NET 24.11
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

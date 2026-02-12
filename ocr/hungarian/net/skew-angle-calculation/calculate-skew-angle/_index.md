@@ -134,15 +134,15 @@ A5: Természetesen! Fedezze fel a funkciókat az [ingyenes próbaverzió](https:
 
 Gratulálunk! Sikeresen végigvitte a lépéseket a dőlésszög kiszámításához OCR képfelismerésben az Aspose.OCR for .NET használatával. Ennek a **ocr képelőfeldolgozási** technikának a beépítése segít **javítani az OCR pontosságát** különféle dokumentumtípusok esetén. További funkciókat és lehetőségeket a [dokumentáció](https://reference.aspose.com/ocr/net/) oldalon fedezhet fel.
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

@@ -121,28 +121,6 @@ Vyberte formát, který nejlépe vyhovuje vašemu následnému workflow:
 - **Kvalita obrázku:** Zajistěte, aby obrázky měly alespoň 300 dpi pro optimální přesnost OCR.
 - **Chyby licence:** Ověřte, že soubor licence je správně načten před voláním OCR metod.
 
-## Často kladené otázky (Originální)
-
-### Q1: Je k dispozici dočasná licence pro testovací účely?
-
-A1: Ano, můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/) pro testování Aspose.OCR.
-
-### Q2: Mohu rozpoznávat text z obrázků v různých formátech?
-
-A2: Rozhodně! Aspose.OCR podporuje různé formáty obrázků, což zajišťuje flexibilitu ve vašich OCR úlohách.
-
-### Q3: Existují nějaká omezení počtu obrázků pro rozpoznávání?
-
-A3: Počet obrázků, které můžete zpracovat, závisí na vaší licenci. Podrobnosti najdete v dokumentaci.
-
-### Q4: Jak mohu zvládat chyby během OCR rozpoznávání?
-
-A4: Odkazujte se na dokumentaci pro osvědčené postupy při zpracování chyb nebo požádejte o pomoc na fórech podpory.
-
-### Q5: Podporuje Aspose.OCR jazyky kromě angličtiny?
-
-A5: Ano, Aspose.OCR podporuje více jazyků. Prozkoumejte dokumentaci pro podrobnosti o podpoře jazyků.
-
 ## Další často kladené otázky
 
 **Q: Mohu převést obrázky do PDF C# bez použití OCR?**  

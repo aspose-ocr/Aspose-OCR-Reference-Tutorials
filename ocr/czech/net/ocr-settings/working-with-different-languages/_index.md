@@ -98,28 +98,6 @@ Nyní můžete vidět extrahovaný řetězec v konzoli, nebo jej uložit pro dal
 - **Nízké rozlišení obrázků** – Přesnost OCR klesá u rozmazaných obrázků; usilujte o alespoň 300 dpi.  
 - **Využití paměti** – Pro velké dávky opakovaně používejte jedinou instanci `AsposeOcr` místo vytváření nové pro každý obrázek.
 
-## Často kladené otázky
-
-### Q1: Je licence vyžadována pro používání Aspose.OCR pro .NET?
-
-A1: Ano, platná licence je nutná k odemčení všech funkcí Aspose.OCR pro .NET. Licenci můžete získat [zde](https://purchase.aspose.com/buy).
-
-### Q2: Mohu použít Aspose.OCR pro .NET s obrázky v libovolném jazyce?
-
-A2: Rozhodně! Aspose.OCR podporuje širokou škálu jazyků, což z něj činí univerzální řešení pro vícejazyčné OCR úkoly.
-
-### Q3: Kde mohu najít podporu pro Aspose.OCR pro .NET?
-
-A3: Pro podporu a diskuze navštivte fórum Aspose.OCR [zde](https://forum.aspose.com/c/ocr/16).
-
-### Q4: Je k dispozici bezplatná zkušební verze?
-
-A4: Ano, můžete si vyzkoušet bezplatnou zkušební verzi Aspose.OCR [zde](https://releases.aspose.com/).
-
-### Q5: Jak mohu získat přístup k dokumentaci?
-
-A5: Dokumentace pro Aspose.OCR pro .NET je k dispozici [zde](https://reference.aspose.com/ocr/net/).
-
 ## Další často kladené otázky
 
 **Q: Jak nainstaluji Aspose OCR přes NuGet?**  

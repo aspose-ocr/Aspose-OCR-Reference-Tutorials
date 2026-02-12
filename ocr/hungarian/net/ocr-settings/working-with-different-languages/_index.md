@@ -100,28 +100,6 @@ Most már láthatja a kinyert karakterláncot a konzolon, vagy tárolhatja tová
 - **Alacsony felbontású képek** – Az OCR pontossága csökken a homályos képeknél; törekedjen legalább 300 dpi-re.  
 - **Memóriahasználat** – Nagy kötegek esetén használja újra ugyanazt az `AsposeOcr` példányt, ahelyett, hogy képenként új példányt hozna létre.
 
-## Gyakran Ismételt Kérdések
-
-### Q1: Szükséges licenc az Aspose.OCR .NET használatához?
-
-A1: Igen, egy érvényes licenc szükséges az Aspose.OCR .NET teljes funkcióinak feloldásához. Licencet [itt](https://purchase.aspose.com/buy) szerezhet.
-
-### Q2: Használhatom az Aspose.OCR .NET-et bármilyen nyelvű képekkel?
-
-A2: Teljesen! Az Aspose.OCR széles nyelvi körkörös támogatással rendelkezik, így sokoldalú megoldás a többnyelvű OCR feladatokhoz.
-
-### Q3: Hol találok támogatást az Aspose.OCR .NET-hez?
-
-A3: Támogatásért és megbeszélésekért látogassa meg az Aspose.OCR fórumot [itt](https://forum.aspose.com/c/ocr/16).
-
-### Q4: Van ingyenes próba?
-
-A4: Igen, egy ingyenes próba verziót tekinthet meg az Aspose.OCR [itt](https://releases.aspose.com/).
-
-### Q5: Hogyan érhetem el a dokumentációt?
-
-A5: Az Aspose.OCR .NET dokumentációja [itt](https://reference.aspose.com/ocr/net/) érhető el.
-
 ## További Gyakran Ismételt Kérdések
 
 **Q: Hogyan telepíthetem az Aspose OCR-t NuGet-en keresztül?**  

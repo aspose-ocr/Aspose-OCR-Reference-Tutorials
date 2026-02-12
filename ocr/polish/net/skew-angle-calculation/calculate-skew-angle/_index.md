@@ -134,15 +134,15 @@ A5: Oczywiście! Przeglądaj funkcje w [darmowej wersji próbnej](https://releas
 
 Gratulacje! Pomyślnie przeszliśmy przez kroki obliczania kąta pochylenia w rozpoznawaniu obrazu OCR przy użyciu Aspose.OCR dla .NET. Włączenie tej techniki **ocr image preprocessing** pomoże Ci **improve OCR accuracy** w różnych typach dokumentów. Poznaj więcej funkcjonalności i możliwości w [dokumentacji](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

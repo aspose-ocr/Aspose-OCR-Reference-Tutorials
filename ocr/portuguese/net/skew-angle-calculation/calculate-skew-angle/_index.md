@@ -134,15 +134,15 @@ A5: Claro! Explore os recursos com a [versão de teste gratuita](https://release
 
 Parabéns! Você concluiu com sucesso as etapas de cálculo do ângulo de inclinação no reconhecimento de imagens OCR usando o Aspose.OCR para .NET. Incorporar esta técnica de **ocr image preprocessing** ajudará a **improve OCR accuracy** em diversos tipos de documentos. Explore mais funcionalidades e recursos na [documentação](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Última atualização:** 2025-12-30  
+**Testado com:** Aspose.OCR 24.11 para .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-30  
-**Testado com:** Aspose.OCR 24.11 para .NET  
-**Autor:** Aspose

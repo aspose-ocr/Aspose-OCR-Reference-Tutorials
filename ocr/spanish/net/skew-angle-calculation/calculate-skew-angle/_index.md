@@ -134,15 +134,15 @@ R5: ¡Claro! Explore las funcionalidades con la [versión de prueba gratuita](ht
 
 ¡Felicidades! Ha completado con éxito los pasos para calcular el ángulo de sesgo en el reconocimiento de imágenes OCR usando Aspose.OCR para .NET. Incorporar esta técnica de **preprocesamiento de imágenes OCR** le ayudará a **mejorar la precisión del OCR** en una variedad de tipos de documentos. Explore más funcionalidades y características en la [documentación](https://reference.aspose.com/ocr/net/).
 
+---
+
+**Última actualización:** 2025-12-30  
+**Probado con:** Aspose.OCR 24.11 para .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-30  
-**Probado con:** Aspose.OCR 24.11 para .NET  
-**Autor:** Aspose

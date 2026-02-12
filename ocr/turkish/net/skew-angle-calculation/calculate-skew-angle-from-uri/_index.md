@@ -16,30 +16,30 @@ weight: 12
 
 # OCR Nasıl Kullanılır – URI'den Eğiklik Açısını Hesaplama
 
-## Introduction
+## Giriiş
 
-Belge işleme süreçlerini iyileştirmek için **OCR nasıl kullanılır** arıyorsanız, bu öğretici tam da bunu gösteriyor. Aspose.OCR for .NET kullanarak bir görüntünün eğiklik açısını doğrudan bir URI'den nasıl hesaplayacağınızı adım adım inceleyeceğiz. Eğikliği anlamak, **görüntü dönüş açısını belirlemenize** yardımcı olur ve daha temiz metin çıkarımı ile daha yüksek OCR doğruluğu sağlar.
+Belge işleme süreçlerinin özellikleri için **OCR nasıl kullanılır**, bu öğretici tam da bunu gösteriyor. Aspose.OCR for .NET kullanarak bir görüntünün eğiklik açısını doğrudan bir URI'den nasıl hesaplayacağınızı adım adım inceleyerek girin. Eğikliği yönetilebilir, **görüntü dönüş açısını belirlemenize** yardımcı olur ve daha temiz metin çıkarımı ile daha yüksek OCR çıkmasını sağlar.
 
-## Quick Answers
-- **“calculate skew” ne anlama geliyor?** Bir görüntünün dönüşünü ölçer, böylece OCR metin çıkarımı öncesinde görüntüyü düzeltir.  
-- **Bu işlemi hangi kütüphane yapar?** Aspose.OCR for .NET basit bir `CalculateSkewFromUri` yöntemi sağlar.  
-- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans mevcuttur; üretim için tam lisans gereklidir.  
-- **Hangi görüntü formatları destekleniyor?** PNG, JPEG, BMP ve TIFF gibi yaygın formatlar doğrudan çalışır.  
-- **Büyük toplular için uygun mu?** Evet – yöntemi birçok URI için bir döngü içinde çağırabilirsiniz.
+## Hızlı Yanıtlar
+- **“hesaplama çarpıklığı” ne anlama geliyor?** Bir görüntünün dönüşünü ölçer, böylece OCR metin çıkarımı öncesinde görüntüleme düzeltilir.
+- **Bu işlem hangi kurulumu yapar?** Aspose.OCR for .NET basit bir `CalculateSkewFromUri` yöntemi sağlar.
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans mevcuttur; üretim için tam lisans gereklidir.
+- **Hangi görüntü formatları destekleniyor mu?** PNG, JPEG, BMP ve TIFF gibi yaygın formatlar doğrudan çalışır.
+- **Büyük toplular için uygun mu?** Evet – yöntem birçok URI için bir döngü içinde çağırabilirsiniz.
 
-## What is “how to use OCR” in practice?
+## Uygulamada “OCR nasıl kullanılır” nedir?
 
-OCR kullanmak, bir görüntüyü tanıma motoruna beslemek, isteğe bağlı olarak ön işleme (ör. eğiklik düzeltme) yapmak ve ardından metni çıkarmaktır. Eğiklik açısını hesaplamak, görüntüyü hizalayan kritik bir ön işleme adımıdır ve OCR motorunun karakterleri doğru okumasını sağlar.
+OCR kullanmak, bir görüntüyü tanıma motoruna beslemek, yatay bağlı olarak ön işleme (ör. eğiklik düzeltme) yapmak ve ardından metni çıkarmaktır. Eğiklik açısını programlamak, görünümü hizalayan kritik bir ön işleme adımıdır ve OCR motorunun karakterlerinin doğru okumasını sağlar.
 
-## Why calculate the skew angle?
+## Eğim açısını neden hesaplamalıyım?
 
-- **Gelişmiş doğruluk:** Düzeltildiğinde görüntüler daha az tanıma hatası üretir.  
-- **Otomasyona uygun:** Dönüşü bilmek, görüntüleri daha sonraki işleme öncesinde otomatik döndürmenizi sağlar.  
-- **Performans artışı:** Manuel görüntü düzeltme ihtiyacını azaltır.
+- **Gelişmiş doğruluk:** Düzeltildiğinde görüntüler daha az tanıma hataları üretir.
+- **Otomasyona uygun:** Dönüşü artırma, kayıtların daha sonraki işleme öncesinde otomatik döndürmenizi sağlar.
+- **Performans artışı:** Manuel görüntü iyileştirme verimliliği azaltır.
 
-## Prerequisites
+## Önkoşullar
 
-### Import Namespaces
+### Ad Alanlarını İçe Aktar
 
 Projenizde aşağıdaki ad alanlarının referans edildiğinden emin olun. Bu adım, Aspose.OCR for .NET ile sorunsuz entegrasyon için gereklidir.
 
@@ -54,9 +54,9 @@ using Aspose.OCR.Models.PreprocessingFilters;
 
 Şimdi her örneği birden fazla adıma ayıralım.
 
-## Step‑by‑Step Guide
+## Adım Adım Kılavuz
 
-### Step 1: Initialize Aspose.OCR
+### Adım 1: Aspose.OCR'ı Başlatın
 
 ```csharp
 // Initialize an instance of AsposeOcr
@@ -65,7 +65,7 @@ AsposeOcr api = new AsposeOcr();
 
 `AsposeOcr` nesnesini oluşturmak, **eğikliği hesaplayan** yöntem dahil olmak üzere tüm OCR‑ile ilgili metodlara erişim sağlar.
 
-### Step 2: Calculate the Skew Angle
+### Adım 2: Eğik Açıyı Hesaplayın
 
 ```csharp
 // Calculate Angle
@@ -74,7 +74,7 @@ float angle = api.CalculateSkewFromUri("https://i.stack.imgur.com/0A4M9.png");
 
 Burada `CalculateSkewFromUri` metodunu çağırarak görüntünün URI'sini geçiriyoruz. Metod, derece cinsinden dönüş açısını temsil eden bir `float` döndürür; bu değeri görüntüyü düzeltmek için kullanabilirsiniz.
 
-### Step 3: Display the Result
+### Adım 3: Sonucu Görüntüleyin
 
 ```csharp
 // Display the result
@@ -83,7 +83,7 @@ Console.WriteLine(angle);
 
 Açıyı konsola yazdırmak anlık geri bildirim verir. Ayrıca bu değeri daha sonra görüntü‑döndürme mantığında kullanmak üzere saklayabilirsiniz.
 
-### Step 4: Wrap‑up Confirmation
+### Adım 4: İşlemi Tamamlama Onayı
 
 ```csharp
 // ExEnd:1
@@ -93,39 +93,39 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 Son satır, örneğin hatasız çalıştığını onaylar ve daha büyük iş akışlarına entegrasyonu kolaylaştırır.
 
-## Common Issues & Tips
+## Yaygın Sorunlar ve İpuçları
 
-- **Network errors:** URI'nin erişilebilir olduğundan emin olun; aksi takdirde `CalculateSkewFromUri` bir istisna fırlatır.  
-- **Unsupported formats:** Yöntemi çağırmadan önce nadir görüntü tiplerini PNG veya JPEG'e dönüştürün.  
-- **Precision:** Çok küçük açı (< 0.1°) durumlarında, gürültüyü önlemek için sonucu yuvarlamayı düşünün.
+- **Ağ hataları:** URI'nin erişilebilir olduğundan emin olun; Aksi takdirde `CalculateSkewFromUri` bir istisna fırlatır.
+- **Desteklenmeyen formatlar:** Yöntemi çağırmadan önce nadir görüntü tiplerini PNG veya JPEG'e dönüştürün.
+- **Hassasiyet:** Çok küçük açı (<0,1°) durumlarında, gürültüyü önlemek için sonucu yuvarlamayı düşünün.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-### Q1: Can I use Aspose.OCR for .NET with other programming languages?
+### S1: Aspose.OCR for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
 
-A1: Aspose.OCR primarily supports .NET languages, but you can explore wrappers for other languages.
+Cevap1: Aspose.OCR öncelikle .NET dillerini destekler, ancak diğer dillere yönelik sarmalayıcıları da inceleyebilirsiniz.
 
-### Q2: Is a temporary license available for Aspose.OCR for .NET?
+### S2: Aspose.OCR for .NET için geçici bir lisans mevcut mu?
 
-A2: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+C2: Evet, [buradan](https://purchase.aspose.com/temporary-license/) geçici bir lisans alabilirsiniz.
 
-### Q3: How can I seek help or engage with the community for support?
+### S3: Yardım almak veya destek için toplulukla nasıl iletişime geçebilirim?
 
-A3: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support and discussions.
+C3: Topluluk desteği ve tartışmaları için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
-### Q4: Are there any prerequisites before using Aspose.OCR for .NET?
+### S4: Aspose.OCR for .NET kullanmadan önce herhangi bir ön koşul var mı?
 
-A4: Ensure you have the required namespaces imported into your project, as outlined in the tutorial.
+C4: Eğitimde belirtildiği gibi, projenize gerekli ad alanlarını içe aktardığınızdan emin olun.
 
-### Q5: Where can I find comprehensive documentation for Aspose.OCR for .NET?
+### S5: Aspose.OCR for .NET için kapsamlı dokümantasyonu nerede bulabilirim?
 
-A5: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for detailed information.
+C5: Ayrıntılı bilgi için [dokümantasyona](https://reference.aspose.com/ocr/net/) bakın.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-30
+**Test Edilen Sürüm:** Aspose.OCR for .NET 24.11
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -133,15 +133,15 @@ A5：当然！您可以通过 [free trial version](https://releases.aspose.com/)
 
 恭喜！您已成功完成使用 Aspose.OCR for .NET 计算 OCR 图像识别倾斜角度的全部步骤。将此 **ocr image preprocessing** 技术融入工作流，可帮助您在各种文档类型上 **improve OCR accuracy**。请在 [documentation](https://reference.aspose.com/ocr/net/) 中探索更多功能与特性。
 
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose
