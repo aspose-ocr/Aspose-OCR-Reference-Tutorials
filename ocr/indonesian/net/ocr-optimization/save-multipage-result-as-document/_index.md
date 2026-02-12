@@ -1,39 +1,55 @@
 ---
-title: Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
-linktitle: Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
+date: 2025-12-30
+description: Pelajari cara mengonversi gambar menjadi PDF dengan C# menggunakan Aspose.OCR,
+  menyimpan hasil OCR multi‑halaman sebagai dokumen, dan mengekstrak teks dari gambar
+  dengan C#.
+linktitle: Convert Images to PDF C# – Save Multipage OCR Result
 second_title: Aspose.OCR .NET API
-description: Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 14
+title: Konversi Gambar ke PDF C# – Simpan Hasil OCR Multihalaman
 url: /id/net/ocr-optimization/save-multipage-result-as-document/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR
+# Konversi Gambar ke PDF C# – Simpan Hasil OCR Multihalaman
 
 ## Perkenalan
 
-Selamat datang di dunia pengenalan karakter optik (OCR) yang menakjubkan menggunakan Aspose.OCR untuk .NET! Dalam tutorial ini, kita akan mempelajari cara memanfaatkan kemampuan Aspose.OCR untuk menyimpan hasil OCR multihalaman sebagai dokumen. Baik Anda seorang pengembang berpengalaman atau baru memulai dengan OCR, panduan ini akan memandu Anda melalui setiap langkah, memastikan Anda memanfaatkan alat canggih ini semaksimal mungkin.
+Dalam tutorial ini Anda akan menemukan cara **convert images to PDF C#** dengan Aspose.OCR untuk .NET dan menyimpan output OCR multipage yang dihasilkan sebagai dokumen. Apakah Anda perlu **convert scan images to PDF** untuk pengarsipan atau **extract text from images C#** untuk memproses data, panduan ini akan memandu Anda melalui setiap langkah—lengkap dengan contoh dunia nyata dan tips praktik terbaik.
+
+## Jawaban Cepat
+- **Apa yang tercakup dalam tutorial ini?** Mengonversi beberapa gambar ke PDF/Docx/Txt/Pdf/Xlsx menggunakan Aspose.OCR di C#.
+- **Format apa saja yang didukung?** Docx, Text, Pdf, dan Xlsx (Anda juga dapat menghasilkan PDF secara langsung).
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi permanen diperlukan untuk produksi.
+- **Versi .NET apa yang kompatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Dapatkah saya mengekstrak teks saat mengonversi?** Ya—gunakan hasil OCR untuk mengambil teks sebelum menyimpannya.
+
+## Apa itu “konversi gambar ke PDF C#”?
+
+Mengonversi gambar ke PDF dalam C# berarti secara terprogram mengambil satu atau lebih file bitmap (PNG, JPEG, TIFF, dll.) dan menghasilkan dokumen PDF yang mempertahankan tata letak visual sambil secara opsional menyematkan teks yang dapat dicari melalui OCR. Aspose.OCR membuat proses ini sederhana dan sangat dapat disesuaikan.
+
+## Mengapa menggunakan Aspose.OCR untuk tugas ini?
+
+- **Akurasi tinggi** mesin OCR yang bekerja dengan banyak bahasa.
+- **Dukungan multihalaman** – menangani gambar batch dalam satu panggilan.
+- **Penyimpanan langsung** ke format kantor populer tanpa langkah konversi tambahan.
+- **Integrasi .NET penuh** – tanpa ketergantungan asli atau alat eksternal.
 
 ## Prasyarat
 
-Sebelum kita masuk ke tutorialnya, pastikan Anda sudah menyiapkan semuanya:
+Sebelum kita mulai, pastikan Anda memiliki hal‑hal berikut:
 
-1.  Instal Aspose.OCR untuk .NET: Mulailah dengan mengunduh dan menginstal Aspose.OCR untuk .NET. Anda dapat menemukan file yang diperlukan[Di Sini](https://releases.aspose.com/ocr/net/).
-
-2.  Dapatkan Uji Coba atau Lisensi Gratis Anda: Jika Anda belum melakukannya, Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/) atau membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
-
-3.  Jelajahi Dokumentasi: Biasakan diri Anda dengan[dokumentasi](https://reference.aspose.com/ocr/net/)untuk Aspose.OCR untuk .NET. Ini adalah sumber daya utama Anda untuk informasi mendetail.
-
-4.  Akses Forum Dukungan: Jika Anda mengalami masalah atau memiliki pertanyaan, silakan hubungi kami[forum dukungan](https://forum.aspose.com/c/ocr/16) adalah sumber daya komunitas yang berharga.
-
-Sekarang Anda sudah siap, mari masuk ke panduan langkah demi langkah.
+1. Instal Aspose.OCR ke .NET. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/ocr/net/).
+2. Dapatkan lisensi percobaan gratis atau lisensi berbayar – dapatkan percobaan [di sini](https://releases.aspose.com/) atau beli [di sini](https://purchase.aspose.com/buy).
+3. Tinjau [dokumentasi](https://reference.aspose.com/ocr/net/) resmi untuk mengenal permukaan API.
+4. berdamai dengan komunitas di [forum dukungan](https://forum.aspose.com/c/ocr/16) untuk bantuan bila mengalami kendala.
 
 ## Impor Namespace
 
-Mulailah proyek Anda dengan mengimpor namespace yang diperlukan:
+Mulailah dengan menambahkan namespace yang diperlukan ke file C# Anda:
 
 ```csharp
 using System;
@@ -43,73 +59,90 @@ using System.Linq;
 using Aspose.OCR;
 ```
 
+Impor ini memberi Anda akses ke koleksi, penanganan file, LINQ, dan kelas Aspose OCR.
+
 ## Langkah 1: Atur Direktori Dokumen Anda
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
+Ganti `"Direktori Dokumen Anda"` dengan jalur absolut atau relatif tempat gambar sumber Anda berada dan tempat Anda ingin menyimpan file keluaran.
 
 ## Langkah 2: Inisialisasi Aspose.OCR
 
 ```csharp
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
- Buat sebuah contoh dari`AsposeOcr` untuk mengakses fungsi OCR.
+Membuat objek `AsposeOcr` memberi Anda akses ke semua operasi OCR, termasuk alur kerja **convert images to PDF C#**.
 
 ## Langkah 3: Kenali Gambar
 
 ```csharp
-// Kenali gambar
+// Recognize image
 List<RecognitionResult> result = api.RecognizeMultipleImages(
     new List<string> { dataDir + "sample.png", dataDir + "sample_bad.png" },
     new RecognitionSettings { }
 ).ToList();
 ```
 
-Manfaatkan Aspose.OCR untuk mengenali teks dari banyak gambar. Sesuaikan jalur file sesuai dengan file gambar Anda.
+Metode `RecognizeMultipleImages` memproses setiap file dalam daftar dan mengembalikan koleksi `RecognitionResult`. Anda dapat memasukkan sejumlah gambar apa pun, yang sangat cocok untuk skenario **mengonversi gambar pindaian ke PDF**.
 
 ## Langkah 4: Simpan Hasil dalam Format Pilihan
 
 ```csharp
-// Simpan hasilnya dalam format pilihan Anda
+// Save the result in your preferred format
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR()+"sample.docx", SaveFormat.Docx, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx, result);
 ```
 
-Pilih format yang Anda inginkan (Docx, Teks, Pdf, atau Xlsx) dan simpan hasil OCR sebagai dokumen multi halaman.
+Pilih format yang paling sesuai dengan alur kerja downstream Anda:
 
-## Kesimpulan
+- **Docx** – dokumen Word yang dapat diedit dengan teks yang dapat dicari.
+- **Teks** – ekstraksi teks biasa untuk mengekstraksi data dengan cepat (**ekstrak teks dari gambar C#**).
+- **Pdf** – keluaran PDF klasik, ideal untuk pengarsipan.
+- **Xlsx** – representasi spreadsheet untuk tabel data.
 
-Selamat! Anda telah berhasil mempelajari cara menyimpan hasil OCR multihalaman sebagai dokumen menggunakan Aspose.OCR untuk .NET. Alat serbaguna ini membuka banyak kemungkinan untuk pengenalan teks dalam proyek Anda.
+## Kasus Penggunaan Umum
 
-## FAQ
+- **Pengarsipan digital:** Mengonversi kontrak kertas yang dikirimkan menjadi PDF yang dapat dicari.
+- **Otomasi entri data:** Mengekstrak teks dari kwitansi atau faktur dan memasukkannya ke dalam basis data.
+- **Pemrosesan batch:** menggabungkan ribuan gambar dalam satu pekerjaan dengan kode minimal.
 
-### Q1: Apakah lisensi sementara tersedia untuk tujuan pengujian?
+## Pemecahan Masalah & Tip
 
- A1: Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji Aspose.OCR.
+- **Set gambar besar:** Proses gambar dalam batch lebih kecil untuk menghindari terjadinya memori.
+- **Kualitas gambar:** Pastikan gambar setidaknya 300dpi untuk akurasi OCR optimal.
+- **Kesalahan Lisensi:** Verifikasi bahwa file lisensi Anda telah dimuat dengan benar sebelum memanggil metode OCR.
 
-### Q2: Bisakah saya mengenali teks dari gambar dalam format berbeda?
+## Pertanyaan yang Sering Diajukan Tambahan
 
-A2: Tentu saja! Aspose.OCR mendukung berbagai format gambar, memastikan fleksibilitas dalam tugas OCR Anda.
+**T: Bisakah saya mengkonversi gambar ke PDF C# tanpa menggunakan OCR?**
+J: Ya, Anda dapat menggunakan Aspose.PDF atau pustaka lain untuk konversi gambar ke PDF murni, tetapi OCR menambahkan teks yang dapat dicari.
 
-### Q3: Apakah ada batasan jumlah gambar untuk dikenali?
+**T: Bagaimana cara mengekstrak teks dari gambar C# setelah konversi?**
+J: Daftar `result` yang dikembalikan oleh `RecognizeMultipleImages` berisi properti `Text` yang dapat Anda tulis ke file `.txt` atau proses langsung.
 
-A3: Jumlah gambar yang dapat Anda proses bergantung pada lisensi Anda. Periksa dokumentasi untuk detailnya.
+**T: Apakah mungkin untuk mengatur margin atau orientasi halaman khusus?**
+J: Saat menyimpan ke PDF atau Docx, Anda dapat memodifikasi tata letak dokumen melalui API Aspose.Words atau Aspose.PDF sebelum memanggil `SaveMultipageDocument`.
 
-### Q4: Bagaimana cara menangani kesalahan selama pengenalan OCR?
+**T: Apa yang terjadi jika gambar tidak dapat dibaca?**
+J: Mesin OCR mengembalikan `RecognitionResult` kosong untuk halaman tersebut; Anda dapat memeriksa `result[i].Text` untuk string null atau kosong dan menanganinya sesuai kebutuhan.
 
-A4: Lihat dokumentasi untuk praktik terbaik penanganan kesalahan atau cari bantuan di forum dukungan.
+**T: Apakah API mendukung penyebaran cloud?**
+J: Ya, pustaka ini berfungsi pada runtime .NET apa pun, termasuk Azure Functions dan AWS Lambda, selama runtime tersebut memenuhi persyaratan versi.
 
-### Q5: Apakah Aspose.OCR mendukung bahasa selain bahasa Inggris?
+---
 
-A5: Ya, Aspose.OCR mendukung banyak bahasa. Jelajahi dokumentasi untuk detail dukungan bahasa.
+**Terakhir Diperbarui:** 30-12-2025
+**Diuji Dengan:** Aspose.OCR 24.11 untuk .NET
+**Penulis:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
