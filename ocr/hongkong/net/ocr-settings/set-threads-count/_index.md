@@ -8,9 +8,9 @@ url: /zh-hant/net/ocr-settings/set-threads-count/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 設定執行緒數量以提升 OCR 準確度
 
@@ -127,9 +127,10 @@ Console.WriteLine(result.RecognitionText);
 
 ---
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
