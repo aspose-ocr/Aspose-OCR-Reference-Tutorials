@@ -10,7 +10,7 @@ weight: 12
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何在 Aspose.OCR for Java 中对 PDF 文档进行 OCR
 
@@ -168,4 +168,5 @@ A5: 是的，您可以通过 [here](https://releases.aspose.com/) 获取免费�
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
