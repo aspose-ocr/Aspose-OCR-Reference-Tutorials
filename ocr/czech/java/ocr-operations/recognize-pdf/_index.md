@@ -11,7 +11,7 @@ weight: 12
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak provádět OCR PDF dokumentů v Aspose.OCR for Java
 
@@ -169,4 +169,5 @@ A5: Ano, můžete si Aspose.OCR vyzkoušet získáním bezplatné zkušební ver
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}

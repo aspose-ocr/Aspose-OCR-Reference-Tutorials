@@ -11,7 +11,7 @@ weight: 12
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # كيفية التعرف الضوئي على مستندات PDF باستخدام Aspose.OCR للـ Java
 
@@ -169,4 +169,5 @@ static void printResult(RecognitionResult result) {
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}

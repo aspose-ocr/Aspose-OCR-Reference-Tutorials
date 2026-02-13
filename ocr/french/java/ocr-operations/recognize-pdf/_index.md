@@ -12,7 +12,7 @@ weight: 12
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Comment OCR des documents PDF avec Aspose.OCR pour Java
 
@@ -166,8 +166,10 @@ R5 : Oui, vous pouvez explorer Aspose.OCR en obtenant une version d’essai gr
 **Testé avec :** Aspose.OCR pour Java 24.11  
 **Auteur :** Aspose  
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}

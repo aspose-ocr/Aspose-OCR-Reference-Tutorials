@@ -11,7 +11,7 @@ weight: 12
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan OCR-eljünk PDF dokumentumokat az Aspose.OCR for Java segítségével
 
@@ -169,4 +169,5 @@ A5: Igen, ingyenes próbaverziót tölthetsz le [itt](https://releases.aspose.co
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
