@@ -74,6 +74,10 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Hur du förbättrar OCR‑noggrannhet i C# med Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Lär dig tekniker för att öka OCR‑noggrannheten i C#‑applikationer med Aspose OCR, inklusive förbehandling och parametrar.
+### [Hur du gör asynkron OCR i C# – Komplett steg‑för‑steg‑guide](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Lär dig hur du implementerar asynkron OCR i C# med Aspose.OCR, steg för steg för optimal prestanda.
 
 ## Vanliga frågor
 
