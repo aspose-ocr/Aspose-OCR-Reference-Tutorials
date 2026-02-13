@@ -10,7 +10,7 @@ date: 2025-12-22
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # How to OCR PDF Documents in Aspose.OCR for Java
 
@@ -168,4 +168,5 @@ A5: Yes, you can explore Aspose.OCR by obtaining a free trial from [here](https:
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
