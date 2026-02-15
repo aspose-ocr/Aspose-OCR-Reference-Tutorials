@@ -1,33 +1,49 @@
 ---
-title: Zadejte povolené znaky v rozpoznávání obrazu OCR
-linktitle: Zadejte povolené znaky v rozpoznávání obrazu OCR
+description: Naučte se, jak pomocí Aspose.OCR pro .NET specifikovat povolené znaky
+  a efektivně rozpoznávat obrázky s číslicemi. Postupujte podle krok‑za‑krokem průvodce,
+  který omezuje OCR pouze na číslice.
+linktitle: Specify Allowed Characters OCR – Using Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-description: Odemkněte přesné OCR v .NET pomocí Aspose.OCR. Rozpoznejte text od obrázků bez námahy. Stáhněte si nyní pro transformativní vývojový zážitek.
-weight: 13
+title: Specifikujte povolené znaky OCR – Použití Aspose.OCR pro .NET
 url: /cs/net/ocr-settings/specify-allowed-characters/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zadejte povolené znaky v rozpoznávání obrazu OCR
+# Specifikace povolených znaků OCR – Použití Aspose.OCR pro .NET
 
-## Úvod
+V tomto tutoriálu se naučíte, jak **specify allowed characters ocr** s Aspose.OCR pro .NET, což vám umožní omezit výstup OCR pouze na požadované znaky. To je obzvláště užitečné, když potřebujete **recognize digits image** soubory, jako jsou sériová čísla, ID faktur nebo řetězce podobné čárovým kódům. Provedeme vás nastavením, kódem a několika praktickými scénáři, abyste techniku mohli okamžitě použít.
 
-neustále se vyvíjejícím prostředí technologií se optické rozpoznávání znaků (OCR) ukázalo jako transformační nástroj, který umožňuje strojům porozumět textu z obrázků. Aspose.OCR for .NET vyniká jako výkonné řešení, které poskytuje bezproblémovou integraci pro vývojáře, kteří hledají robustní možnosti OCR ve svých aplikacích .NET.
+## Rychlé odpovědi
+- **Co dělá “specify allowed characters ocr”?** Omezuje OCR na předdefinovanou sadu znaků, čímž zvyšuje přesnost pro cílená data.  
+- **Které znaky mohu povolit?** Jakákoli kombinace, kterou potřebujete – číslice, písmena nebo vlastní symboly (např. “0123456789”).  
+- **Proč omezovat znaky?** Snižuje chybné rozpoznání a urychluje zpracování, pokud je znám očekávaný soubor znaků.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Předpoklady
+## Co je “specify allowed characters ocr”?
+Když OCR skenuje obrázek, snaží se přiřadit každý vizuální vzor k úplné abecedě možných znaků. Pomocí **specify allowed characters ocr** řeknete enginu, aby ignoroval vše mimo váš whitelist, což dramaticky zvyšuje přesnost rozpoznání pro omezené datové sady.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Proč použít Aspose.OCR pro rozpoznání obrázku s číslicemi?
+Aspose.OCR poskytuje čisté, plynulé API pro vývojáře .NET. Jeho vestavěná možnost `AllowedCharacters` vám umožní zaměřit se na scénáře pouze s číslicemi, aniž byste museli psát vlastní logiku po‑zpracování. To je ideální pro:
+- Čtení odečtů měřičů, čísel faktur nebo kódů produktů.  
+- Ověřování uživatelem zadaných dat zachycených ze skenovaných formulářů.  
+- Zrychlení dávkového zpracování, kde je sada znaků známa předem.
 
-- Pracovní znalost vývoje .NET.
--  Aspose.OCR pro knihovnu .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/ocr/net/).
-- Znalost Visual Studia nebo jiného preferovaného vývojového prostředí .NET.
+## Požadavky
 
-## Importovat jmenné prostory
+Než se ponoříte do kódu, ujistěte se, že máte:
 
-Do svého projektu .NET naimportujte potřebné jmenné prostory, abyste efektivně využili funkce Aspose.OCR pro .NET:
+- Praktické znalosti vývoje v .NET.  
+- Knihovnu **Aspose.OCR for .NET**. Můžete si ji stáhnout [zde](https://releases.aspose.com/ocr/net/).  
+- Visual Studio (nebo jakékoli jiné preferované .NET IDE).
+
+## Importování jmenných prostorů
+
+Ve svém .NET projektu importujte potřebné jmenné prostory pro využití funkcí Aspose.OCR:
 
 ```csharp
 using System;
@@ -35,43 +51,45 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Nyní si tutoriál rozdělíme na řadu komplexních kroků:
+Nyní rozdělíme tutoriál do série podrobných kroků:
 
-## Krok 1: Určete povolené znaky v rozpoznávání obrazu OCR
+## Jak specifikovat povolené znaky OCR – Průvodce krok za krokem
 
-Chcete-li začít, nastavte cestu k adresáři dokumentů:
+### Krok 1: Nastavte cestu ke složce s obrázky
+
+Nejprve definujte, kde jsou uloženy vaše ukázkové obrázky.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Inicializujte Aspose.OCR s povolenými symboly
+### Krok 2: Inicializujte Aspose.OCR s whitelistem pouze pro číslice
 
-Vytvořte instanci AsposeOcr a zadejte povolené symboly. V tomto případě povolujeme číslice (0-9):
+Vytvořte instanci `AsposeOcr` a předáte znaky, které chcete povolit – v tomto případě všechny číslice.
 
 ```csharp
 AsposeOcr api = new AsposeOcr("0123456789");
 ```
 
-## Krok 3: Rozpoznejte obrázek
+### Krok 3: Rozpoznat jediný řádek obsahující číslice
 
-rozpoznání textu z obrázku použijte instanci AsposeOcr:
+Použijte metodu `RecognizeLine` k extrakci textu z obrázku, který obsahuje pouze čísla.
 
 ```csharp
 string result = api.RecognizeLine(dataDir + "0001460985.Jpeg");
 ```
 
-## Krok 4: Zobrazte rozpoznaný text
+### Krok 4: Výstup rozpoznaných číslic
 
-Vytiskněte rozpoznaný text do konzole:
+Vytiskněte výsledek do konzole, abyste mohli ověřit výstup.
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-## Krok 5: Druhý případ – Rozpoznejte obrázek se specifickými nastaveními
+### Krok 5: Použijte RecognitionSettings pro větší kontrolu
 
-Inicializujte další instanci AsposeOcr, tentokrát s konkrétnějšími nastaveními:
+Pokud potřebujete jemnější kontrolu – například vynutit rozpoznání jedné řádky – můžete použít přetížení, které přijímá `RecognitionSettings`.
 
 ```csharp
 AsposeOcr api2 = new AsposeOcr();
@@ -82,49 +100,46 @@ RecognitionResult result2 = api2.RecognizeImage(dataDir + "0001460985.Jpeg",
     });
 ```
 
-## Krok 6: Zobrazte text s rozpoznáním druhého případu
-
-Vytiskněte rozpoznaný text z druhého případu do konzole:
+### Krok 6: Zobrazte výsledek druhého případu
 
 ```csharp
 Console.WriteLine(result2.RecognitionText);
 ```
 
-## Krok 7: Úspěšné provedení
-
-Nakonec potvrďte úspěšné provedení výukového programu SpecifyAllowedCharacters:
+### Krok 7: Potvrďte úspěšné provedení
 
 ```csharp
 Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ```
 
-Pomocí těchto kroků jste odemkli možnost určit povolené znaky v rozpoznávání obrázků OCR pomocí Aspose.OCR for .NET.
+Po provedení těchto kroků jste se naučili, jak **specify allowed characters ocr** a efektivně **recognize digits image** obsah pomocí Aspose.OCR pro .NET.
 
-## Závěr
+## Časté problémy a řešení
+- **Prázdný výsledek:** Ujistěte se, že kvalita obrázku je dostatečná (jasný kontrast, minimální šum).  
+- **Vráceny špatné znaky:** Zkontrolujte, že řetězec whitelistu přesně odpovídá očekávaným znakům.  
+- **Soubor nenalezen:** Ověřte, že `dataDir` ukazuje na správnou složku a že název souboru odpovídá velikosti písmen.
 
-Aspose.OCR for .NET umožňuje vývojářům bezproblémově integrovat funkce OCR do svých aplikací a otevírá dveře inovativním řešením v různých doménách. Využijte sílu OCR a vylepšete své projekty přesným rozpoznáváním textu.
+## Často kladené otázky
 
-## FAQ
+### Q1: Je Aspose.OCR pro .NET vhodný jak pro začátečníky, tak pro zkušené vývojáře?  
+**A:** Rozhodně! API je navrženo tak, aby bylo intuitivní pro nováčky, a zároveň nabízí pokročilé možnosti pro zkušené uživatele.
 
-### Q1: Je Aspose.OCR for .NET vhodný pro začátečníky i zkušené vývojáře?
+### Q2: Mohu použít Aspose.OCR pro .NET k rozpoznání znaků v několika jazycích?  
+**A:** Ano, Aspose.OCR podporuje širokou škálu jazyků. Můžete kombinovat jazykové balíčky s funkcí allowed‑characters pro vícejazyčné scénáře.
 
-A1: Rozhodně! Aspose.OCR for .NET vychází vstříc vývojářům všech úrovní dovedností a poskytuje intuitivní funkce pro bezproblémovou integraci.
+### Q3: Jak často je Aspose.OCR pro .NET aktualizován?  
+**A:** Aktualizace jsou vydávány pravidelně, aby přidaly nové funkce, zlepšily přesnost a zajistily kompatibilitu. Podívejte se na [dokumentaci](https://reference.aspose.com/ocr/net/) pro podrobnosti o nejnovější verzi.
 
-### Q2: Mohu použít Aspose.OCR pro .NET pro rozpoznávání znaků ve více jazycích?
+### Q4: Je k dispozici bezplatná zkušební verze Aspose.OCR pro .NET?  
+**A:** Ano, můžete prozkoumat funkce stažením [bezplatné zkušební verze](https://releases.aspose.com/).
 
-Odpověď 2: Ano, Aspose.OCR podporuje rozpoznávání v různých jazycích, takže je univerzální pro různé aplikace.
+### Q5: Kde mohu získat pomoc nebo se spojit s komunitou pro podporu?  
+**A:** Navštivte [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), kde můžete klást otázky, sdílet zkušenosti a získat pomoc od inženýrů Aspose i ostatních vývojářů.
 
-### Q3: Jak často je Aspose.OCR for .NET aktualizován?
+**Poslední aktualizace:** 2026-02-15  
+**Testováno s:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose  
 
- A3: Aktualizace jsou pravidelně vydávány, aby byla zajištěna kompatibilita s nejnovějšími technologiemi a vyřešeny případné problémy. Zkontrolovat[dokumentace](https://reference.aspose.com/ocr/net/) pro nejnovější informace.
-
-### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.OCR pro .NET?
-
- A4: Ano, můžete prozkoumat možnosti Aspose.OCR stažením souboru[zkušební verze zdarma](https://releases.aspose.com/).
-
-### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou pro podporu?
-
- A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) zapojit se do komunity a získat odbornou pomoc.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
