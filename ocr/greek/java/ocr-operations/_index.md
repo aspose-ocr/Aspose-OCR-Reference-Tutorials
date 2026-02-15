@@ -50,8 +50,6 @@ weight: 21
 
 Είτε πρόκειται για πολυγλωσσικά έγγραφα είτε για συγκεκριμένες απαιτήσεις γλώσσας, αυτό το tutorial σας δίνει τη δυνατότητα να εξάγετε κείμενο με ακρίβεια στόχευσης. Πείτε αντίο στην εικασία και καλωσορίστε την ακρίβεια.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR Αναγνώριση Εγγράφων PDF στο Aspose.OCR για Java
 
 Ανοίξτε με ευκολία τη δύναμη του OCR σε Java με το Aspose.OCR. Το tutorial μας για την αναγνώριση κειμένου σε έγγραφα PDF σας οδηγεί σε μια αδιάσπαστη ενσωμάτωση. Ενισχύστε τις εφαρμογές σας με την ακρίβεια και την ταχύτητα που απαιτούνται για τη διαχείριση κειμένου σε PDF.
@@ -81,6 +79,14 @@ weight: 21
 Αποκτήστε ισχυρή αναγνώριση κειμένου σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε εικόνες TIFF άψογα. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Ομαδική OCR Εικόνας σε Java – Γρήγορη Εξαγωγή Κειμένου από Αρχεία PNG](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Εκτελέστε OCR σε πολλαπλές εικόνες PNG ταυτόχρονα με το Aspose.OCR για Java, βελτιώνοντας την ταχύτητα και την ακρίβεια.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR – Βήμα‑βήμα Επίδειξη](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Ακολουθήστε το βήμα‑βήμα tutorial για την εξαγωγή κειμένου από εικόνες χρησιμοποιώντας το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένα Αρχεία – Οδηγός Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία PDF σε αναζητήσιμο PDF χρησιμοποιώντας το Aspose.OCR για Java.
+### [Αφαίρεση Υδατογράμματος Αξιολόγησης στο Aspose OCR – Πλήρης Οδηγός Άδειας Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Μάθετε πώς να αφαιρέσετε το υδατογράφημα αξιολόγησης και να ενεργοποιήσετε την πλήρη άδεια Aspose OCR σε εφαρμογές Java.
 
 ## Συχνές Ερωτήσεις
 

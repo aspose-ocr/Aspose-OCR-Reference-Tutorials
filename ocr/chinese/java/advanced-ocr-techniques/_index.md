@@ -25,6 +25,9 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 
 在本教程中，我们将指导您完成使用 Aspose.OCR for Java 对 BufferedImage 执行 OCR 的过程。了解如何轻松地从图像中提取文本，确保多功能的文本识别体验。立即下载并增强您的 Java 应用程序。
 
+## [在 Aspose.OCR for Java 中对图像执行 OCR – 步骤指南](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+使用 Aspose OCR 在 Java 中对图像执行 OCR，提供高精度文本提取和简易集成的分步指南。
+
 ## [在 Aspose.OCR for Java 中对来自 URL 的图像执行 OCR](./perform-ocr-image-from-url/)
 
 使用 Aspose.OCR for Java 解锁对来自 URL 的图像执行 OCR 的能力。本教程提供了无缝集成的分步指南，确保图像文本提取的高精度。使用易于实施的 OCR 技术提升您的 Java 项目。
@@ -51,6 +54,8 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 ## 高级 OCR 技术教程
 ### [在 Aspose.OCR for Java 中对 BufferedImage 执行 OCR](./perform-ocr-buffered-image/)
 使用 Aspose.OCR for Java 轻松对 BufferedImage 执行 OCR。无缝地从图像中提取文本。立即下载以获得多功能文本识别体验。
+### [在 Aspose.OCR for Java 中对图像执行 OCR – 步骤指南](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+使用 Aspose OCR 在 Java 中对图像执行 OCR，提供高精度文本提取和简易集成的分步指南。
 ### [在 Aspose.OCR for Java 中对来自 URL 的图像执行 OCR](./perform-ocr-image-from-url/)
 使用 Aspose.OCR 在 Java 中解锁无缝图像文本提取。高精度 OCR，易于集成。
 ### [在Aspose.OCR中对特定页面执行OCR](./perform-ocr-on-page/)
@@ -61,6 +66,15 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别能力。集成方便，精度高。
 ### [在 Aspose.OCR 中指定允许的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 无缝解锁图像中的文本提取。请遵循我们的分步指南以实现高效集成。
+### [在 Aspose.OCR for Java 中启用 GPU 并从 TIFF 提取文本](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+使用 Aspose.OCR for Java 启用 GPU 加速 OCR，轻松从 TIFF 图像提取文本。
+### [如何对图像进行去倾斜以进行 OCR – 完整的 Java 预处理指南](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+使用 Aspose.OCR for Java 的完整指南，教您如何对图像进行去倾斜预处理，以提升 OCR 准确性。
+### [使用 Aspose OCR 从图像提取文本 – Java 指南](./extract-text-from-image-with-aspose-ocr-java-guide/)
+使用 Aspose OCR for Java 提取图像文本的完整指南，帮助您快速实现高精度 OCR。
+### [在 Aspose.OCR for Java 中检测图像语言 – Java 教程](./detect-language-image-with-aspose-ocr-java-tutorial/)
+使用 Aspose OCR for Java 检测图像中的语言，实现自动语言识别并提升 OCR 效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
