@@ -55,6 +55,17 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Afbeelding naar tekst converteren met Aspose OCR – C#‑gids](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Leer hoe u met Aspose OCR en C# afbeeldingen naar bewerkbare tekst converteert in een eenvoudige stap‑voor‑stap gids.
+### [Hoe OCR uit te voeren en een doorzoekbare PDF te maken in C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert en een doorzoekbare PDF genereert voor eenvoudige tekstzoekopdrachten.
+### [Hoe OCR uit te voeren in C# – Stapsgewijze gids](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert via een eenvoudige stap‑voor‑stap gids.
+### [Hoe OCR te gebruiken in C# – Batchverwerking van PNG-afbeeldingen met Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Leer hoe u met Aspose OCR in C# meerdere PNG-afbeeldingen in batch verwerkt voor snelle en nauwkeurige tekstherkenning.
+### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Ontdek hoe u met Aspose OCR een doorzoekbare PDF maakt in C# met een duidelijke stap‑voor‑stap handleiding.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

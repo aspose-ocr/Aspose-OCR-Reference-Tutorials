@@ -35,11 +35,14 @@ Intégrez sans effort Aspose.OCR pour .NET dans vos projets et améliorez la rec
 En conclusion, nos didacticiels de calcul de l'angle d'inclinaison vous servent de boussole dans le domaine de la reconnaissance d'images OCR. Que vous soyez un passionné de C# ou un aficionado de Java, Aspose.OCR vous fournit les outils nécessaires pour conquérir les angles d'inclinaison et élever vos projets vers de nouveaux sommets. Explorez, apprenez et révolutionnez votre parcours de développement avec nous !
 ## Tutoriels de calcul de l'angle d'inclinaison
 ### [Calculer l'angle d'inclinaison dans la reconnaissance d'images OCR](./calculate-skew-angle/)
-Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance de texte précise dans vos applications C#.
+Explore Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance de texte précise dans vos applications C#.
 ### [Calculer l'angle d'inclinaison du flux dans la reconnaissance d'image OCR](./calculate-skew-angle-from-stream/)
 Libérez la puissance d'Aspose.OCR pour .NET, une solution robuste pour la reconnaissance d'images. Apprenez à calculer les angles d'inclinaison sans effort.
 ### [Calculer l'angle d'inclinaison à partir de l'URI dans la reconnaissance d'images OCR](./calculate-skew-angle-from-uri/)
 Explorez Aspose.OCR pour .NET pour calculer sans effort les angles d'inclinaison dans la reconnaissance d'images OCR. Valorisez vos projets avec précision et efficacité.
+### [Supprimer l'inclinaison d'une image – Guide complet de prétraitement OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Apprenez à éliminer l'inclinaison des images avant l'OCR pour améliorer la précision et l'efficacité de la reconnaissance de texte.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
