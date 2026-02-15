@@ -55,6 +55,17 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Μετατροπή εικόνας σε κείμενο με Aspose OCR – Οδηγός C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο χρησιμοποιώντας Aspose OCR με C#. Οδηγός βήμα‑βήμα για .NET.
+### [Πώς να εκτελέσετε OCR και να δημιουργήσετε αναζητήσιμο PDF σε C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για να μετατρέψετε εικόνες σε αναζητήσιμο PDF με ακρίβεια.
+### [Πώς να εκτελέσετε OCR σε C# – Οδηγός βήμα‑βήμα](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Μάθετε πώς να εκτελέσετε OCR σε C# με έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Μαζική επεξεργασία εικόνων PNG με Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Μάθετε πώς να επεξεργάζεστε μαζικά αρχεία PNG με OCR σε C# χρησιμοποιώντας το Aspose OCR για γρήγορη εξαγωγή κειμένου.
+### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με οδηγίες βήμα‑βήμα σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
