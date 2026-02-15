@@ -76,10 +76,17 @@ Aspose.OCR for Java を使用した画像からのテキスト抽出の力を解
 Aspose.OCR for Java で画像からの正確なテキスト抽出を実現します。言語選択による精密な OCR をステップバイステップでご案内します。
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Aspose.OCR を使用した Java での OCR の力を解き放ちます。PDF 文書内のテキストを簡単に認識し、精度と速度でアプリケーションを強化します。
+### [スキャンしたファイルから検索可能な PDF を作成 – Java ガイド](./create-searchable-pdf-from-scanned-files-java-guide/)
+スキャンしたファイルから検索可能な PDF を作成する手順を Java で解説します。OCR を適用し、テキストレイヤーを付加する方法を学びましょう。
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Aspose.OCR を使用した Java での強力なテキスト認識を実現します。TIFF 画像内のテキストを手間なく認識し、シームレスな OCR 体験を提供します。
 ### [Aspose OCR で画像テキストを認識 – 完全 Java OCR チュートリアル](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR を使用して画像からテキストを認識する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [Aspose OCR で画像からテキストを抽出 – ステップバイステップデモ](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Aspose OCR を使用して画像からテキストを抽出する手順を詳細に解説するデモチュートリアルです。
+### [Java でバッチ画像 OCR – PNG ファイルからテキストを高速抽出](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+### [Aspose OCR の評価ウォーターマークを削除 – 完全な Java ライセンスガイド](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+評価版のウォーターマークを除去し、正規ライセンスでフル機能を利用する手順を Java で解説します。
 
 ## よくある質問
 
