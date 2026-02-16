@@ -55,6 +55,17 @@ url: /ru/net/text-recognition/
 Раскройте потенциал оптического распознавания символов в .NET с помощью Aspose.OCR. Извлекайте текст из PDF-файлов без особых усилий. Загрузите сейчас и получите беспрепятственную интеграцию.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
+### [Как использовать OCR в C# – Быстрое распознавание текста с изображения](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Узнайте, как быстро распознать текст на изображении с помощью OCR в C# с использованием Aspose.OCR.
+### [Запуск OCR на PNG в C# – Полное руководство с Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Полное руководство по запуску OCR для PNG‑изображений в C# с использованием Aspose.OCR.
+### [Как выполнить OCR в C# – Полное руководство Aspose](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Полное руководство по использованию Aspose.OCR в C# для распознавания текста на изображениях.
+### [Создание поискового PDF из TIFF – пошаговое руководство Aspose OCR](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+Пошаговое руководство по созданию поискового PDF из TIFF‑изображений с помощью Aspose.OCR для .NET.
+### [Как выполнить OCR в C# – Извлечь текст из изображения с помощью Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Подробное руководство по извлечению текста из изображений в C# с использованием Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

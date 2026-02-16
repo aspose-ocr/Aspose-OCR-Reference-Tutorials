@@ -15,7 +15,7 @@ url: /fr/net/text-recognition/
 
 ## Introduction
 
-Êtes-vous prêt à faire passer vos applications .NET au niveau supérieur ? Plongez dans le monde de la reconnaissance de texte avec Aspose.OCR et améliorez vos projets avec une reconnaissance précise des caractères et un traitement d'image fluide.
+Êtes-vous prêt à faire passer vos applications .NET au niveau supérieur ? Plongez dans le monde de la reconnaissance de texte avec Aspose.OCR et améliorez vos projets avec une reconnaissance précise des caractères et un traitement d'image fluide.
 
 ## Obtenez des choix pour les caractères reconnus dans la reconnaissance d'images OCR
 
@@ -41,7 +41,7 @@ Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte de
 
 Naviguez dans les complexités de la reconnaissance de tables dans la reconnaissance d'images OCR avec Aspose.OCR pour .NET. Notre guide complet vous permet de libérer tout le potentiel d'Aspose.OCR, garantissant une reconnaissance de table précise et efficace dans vos applications. Élevez vos projets avec la solution OCR leader du secteur.
 
-Prêt à révolutionner vos applications .NET ? Plongez dans nos didacticiels de reconnaissance de texte et exploitez la puissance d'Aspose.OCR pour une reconnaissance de texte précise et efficace dans les images. Téléchargez-le maintenant et embarquez pour un voyage de capacités OCR améliorées.
+Prêt à révolutionner vos applications .NET ? Plongez dans nos didacticiels de reconnaissance de texte et exploitez la puissance d'Aspose.OCR pour une reconnaissance de texte précise et efficace dans les images. Téléchargez-le maintenant et embarquez pour un voyage de capacités OCR améliorées.
 ## Tutoriels de reconnaissance de texte
 ### [Obtenez des choix pour les caractères reconnus dans la reconnaissance d'images OCR](./get-choices-for-recognized-characters/)
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance précise des caractères. Suivez notre guide étape par étape pour récupérer les choix de caractères reconnus en reconnaissance d'images.
@@ -53,8 +53,19 @@ Libérez la puissance d’Aspose.OCR pour .NET. Apprenez à obtenir des résulta
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficace du texte des images. Explorez le mode de détection des zones OCR pour des résultats précis.
 ### [Reconnaître un PDF dans la reconnaissance d'images OCR](./recognize-pdf/)
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
+### [Créer un PDF consultable à partir de TIFF – Guide Aspose OCR étape par étape](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+Apprenez à transformer des fichiers TIFF en PDF consultables avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Comment utiliser l'OCR en C# – Reconnaître rapidement du texte à partir d'une image](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Apprenez à intégrer rapidement l'OCR en C# pour extraire du texte d'images avec Aspose.OCR.
+### [Exécuter l'OCR sur PNG en C# – Guide complet avec Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Découvrez comment exécuter l'OCR sur des fichiers PNG en C# avec Aspose.OCR grâce à ce guide complet et pratique.
+### [Comment effectuer l'OCR en C# – Guide complet Aspose](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Apprenez à réaliser l'OCR en C# avec Aspose grâce à ce guide complet et pratique.
+### [Comment effectuer l'OCR en C# – Extraire du texte à partir d'une image avec Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Apprenez à extraire rapidement du texte d'images en C# avec Aspose OCR grâce à ce guide complet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
