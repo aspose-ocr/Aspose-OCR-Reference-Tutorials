@@ -43,24 +43,19 @@ Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szöveg
 
 ## [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
 
-Könnyedén kivonhatja a szöveget a képekből az engedélyezett karakterek megadásával az Aspose.OCR for Java segítségével. Kövesse lépésről lépésre szóló útmutatónkat a hatékony integráció érdekében, biztosítva a zökkenőmentes szövegfelismerési élményt. Bővítse Java-alkalmazásait az Aspose.OCR képességekkel.
-
-## Következtetés
-
-Az Aspose.OCR for Java segítségével a fejlett OCR technikák elsajátítása még soha nem volt ilyen egyszerű. Merüljön el ezekben az oktatóanyagokban, és aknázza ki a szövegfelismerésben rejlő lehetőségeket Java-projektjeiben. Emelje fel alkalmazásait a zökkenőmentes integrációval, nagy pontossággal és sokoldalú szövegkivonási lehetőségekkel. Töltse le most, és tegye meg az első lépést az OCR kiválóság felé az Aspose.OCR for Java segítségével!
-## Speciális OCR-technikák oktatóanyagok
-### [OCR végrehajtása a BufferedImage-en az Aspose.OCR for Java-ban](./perform-ocr-buffered-image/)
-Végezzen OCR-t könnyedén a BufferedImage-en az Aspose.OCR for Java segítségével. Zökkenőmentesen vonja ki a szöveget a képekből. Töltse le most a sokoldalú szövegfelismerési élményért.
-### [OCR végrehajtása az URL-ből származó képen az Aspose.OCR for Java-ban](./perform-ocr-image-from-url/)
-Oldja fel a zökkenőmentes képszöveg-kivonást Java nyelven az Aspose.OCR segítségével. Nagy pontosságú OCR egyszerű integrációval.
-### [OCR végrehajtása adott oldalon az Aspose.OCR-ben](./perform-ocr-on-page/)
-Fedezze fel az Aspose.OCR for Java erejét lépésenkénti útmutatónkkal az OCR végrehajtásáról bizonyos oldalakon. Könnyedén kivonhatja a szöveget a képekből, és javíthatja Java-projektjeit.
-### [Téglalapok előkészítése OCR-hez az Aspose.OCR-ben](./prepare-rectangles-for-ocr/)
-Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Bővítse Java-alkalmazásait hatékony OCR-képességekkel.
-### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
-Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
-### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
 Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésenkénti útmutatónkat a hatékony integráció érdekében.
+
+### [OCR motor létrehozása Java-ban – Szöveg felismerése nagy képeken](./create-ocr-engine-java-recognize-text-from-large-images/)
+Ismerje meg, hogyan hozhat létre OCR motor-t Java-ban, és hogyan ismerheti fel a szöveget nagy felbontású képeken.
+
+## [Szöveges kép felismerése az Aspose OCR GPU-val – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Használja az Aspose OCR GPU-t a szöveges képek gyors és pontos felismeréséhez Java-ban.
+
+## [Fix szálú pool Java – párhuzamos OCR PNG-hez](./fixed-thread-pool-java-parallel-ocr-for-png/)
+
+## [Képfeldolgozás OCR-hez – Teljes Java útmutató a kontraszt növeléséhez és a szöveg kinyeréséhez](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Növelje a képek kontrasztját és javítsa a szövegfelismerést Java-ban egy átfogó előfeldolgozó útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
