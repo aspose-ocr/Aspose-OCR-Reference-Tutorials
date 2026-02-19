@@ -95,11 +95,12 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 
 ## OCR Basics Tutorials
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
-ปลดล็อกศักยภาพของ Aspose.OCR for Java ด้วยคู่มือขั้นตอนนี้ ตั้งค่าลิขสิทธิ์อย่างง่ายและเพิ่มประสิทธิภาพ OCR ของคุณ
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
-เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR for Java เรียนรู้การคำนวณมุมเอียงแบบละเอียด ปรับปรุงการประมวลผลเอกสารได้อย่างง่ายดาย
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
-ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
+### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+### [สกัดข้อความจากภาพ – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
+### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
+### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ Java อย่างรวดเร็ว](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 ---
 
