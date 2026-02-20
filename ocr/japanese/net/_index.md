@@ -1,8 +1,8 @@
 ---
-date: 2025-12-17
-description: Aspose.OCR for .NET を使用して OCR を計算し、画像からテキストを抽出する方法を学びましょう。歪み角、言語選択、最適化に関するチュートリアルを探求してください。
+date: 2026-02-20
+description: Aspose.OCR for .NET を使用して OCR を計算する方法、画像や PDF からテキストを抽出する方法、OCR の速度を向上させる方法、手書き文字認識を処理する方法を学びましょう。
 linktitle: Aspose.OCR for .NET Tutorials
-title: Aspose.OCR for .NET を使用した OCR の計算方法
+title: .NET 用 Aspose.OCR で OCR を計算する方法
 url: /ja/net/
 weight: 10
 ---
@@ -11,80 +11,101 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR for .NET で OCR を計算する方法
+# Aspose.OCR for .NET を使用した OCR の計算方法
 
-## Introduction
+## はじめに
 
-.NET プロジェクトで **OCR の計算方法** を正確に求めたい場合は、ここが最適です。このガイドでは、最も一般的なシナリオ（傾き角度の補正、画像・図形認識、テキスト抽出、設定、パフォーマンスチューニング）を順に解説します。最後まで読むと、さまざまな画像ソースから **テキストを抽出する方法** と、**OCR を高速かつ高精度に最適化する方法** が完全に理解できます。
+.NET プロジェクトで OCR の結果を正確に **OCR の計算方法** したい場合、ここが適切な場所です。このガイドでは、最も一般的なシナリオ—スキュー角補正、画像および図形認識、テキスト抽出、設定、パフォーマンスチューニング—を順に解説します。最後まで読むと、さまざまな画像ソースから **テキスト抽出方法** を正確に把握でき、**PDF からテキストを抽出** する方法や、**OCR を最適化** して速度と精度を向上させる方法が分かります。また、**手書き認識 OCR** と **OCR 用に画像を前処理** するベストプラクティスにも触れます。
 
-## Quick Answers
-- **What is the first step to calculate OCR?** Align the image and correct its skew angle.  
-- **Which feature extracts text from drawings?** The Image and Drawing Recognition module.  
-- **How do I improve OCR speed?** Use preprocessing filters and fine‑tune OCR Settings.  
-- **Can I select a specific language?** Yes—use the OCR language selection option.  
-- **Do I need a license for production?** A valid Aspose license is required for commercial use.
+## クイック回答
+- **OCR の計算の最初のステップは何ですか？** 画像を整列させ、スキュー角を補正します。  
+- **図面からテキストを抽出する機能はどれですか？** Image and Drawing Recognition モジュールです。  
+- **OCR の速度を向上させるには？** 前処理フィルタを使用し、OCR Settings を微調整します。  
+- **特定の言語を選択できますか？** はい—OCR 言語選択オプションを使用します。  
+- **本番環境でライセンスが必要ですか？** 商用利用には有効な Aspose ライセンスが必要です。
 
-## How to Calculate OCR: Skew Angle Calculation
+## OCR の計算方法: スキュー角の計算
 
-傾いた文書は認識エラーの一般的な原因です。このセクションでは、エンジンに画像を渡す前に傾き角度を検出・補正することで **OCR の計算方法** の向上させる手順を示します。テキスト行が完全に水平になるようにステップバイステップで実行すれば、抽出品質が劇的に向上します。
+傾いた文書は認識エラーの一般的な原因です。このセクションでは、画像をエンジンに渡す前にスキュー角を検出・補正することで **OCR の計算** 精度を向上させる方法を示します。テキスト行が完全に水平になるようにステップバイステップで指示します。これにより抽出品質が大幅に向上します。
 
-## Image and Drawing Recognition
+## 画像および図形認識
 
-情報抽出はプレーンテキストに限りません。Aspose.OCR を使用すれば、形状、図面、手書き注釈も認識できます。この機能は、フォームやエンジニアリング図面など、画像内に混在したコンテンツがある場合に **画像からテキストを抽出する** 必要があるときに不可欠です。
+情報抽出はプレーンテキストに限りません。Aspose.OCR を使用すると、形状、図面、手書き注釈も認識できます。この機能は、フォームやエンジニアリング図面など、混在したコンテンツを含む画像から **テキスト抽出** が必要な場合に不可欠です。
 
-## Text Recognition
+## テキスト認識
 
-正確な文字検出はすべての OCR ワークフローの核心です。ここでは、認識候補、Raw 結果、JSON 形式の出力を取得するオプションを詳しく解説します。**テキストを抽出する方法** を効率的に学び、組み込みの言語選択機能を使って多言語文書を処理する方法も紹介します。
+正確な文字検出はすべての OCR ワークフローの核心です。ここでは、認識結果の選択肢、ローレス結果、JSON 形式の出力を取得するオプションを詳しく解説します。**テキスト抽出** を効率的に行う方法と、組み込みの言語選択機能を使用して多言語文書を処理する方法を学びます。
 
-## OCR Configuration
+## OCR 設定
 
-エンジンを正しく設定すれば、デバッグに費やす時間を大幅に削減できます。アーカイブ処理、フォルダー処理、**OCR 言語選択**、リスト操作など、OCR 実行をニーズに合わせてカスタマイズする方法を網羅します。
+エンジンを正しく設定すれば、デバッグにかかる時間を何時間も節約できます。アーカイブ処理、フォルダー処理、**OCR 言語選択**、リスト操作など、OCR 実行を正確にカスタマイズする方法を紹介します。
 
-## OCR Optimization
+## OCR 最適化
 
-大量バッチを扱う際はパフォーマンスが重要です。本ガイドでは、画像矩形の準備、前処理フィルタの適用、結果のスペルチェック、マルチページ OCR 出力の保存方法を解説します。これらはすべて **OCR を最適化する方法** として、精度と速度の両方を向上させる実証済みの手法です。
+パフォーマンスは特に大量バッチ処理で重要です。このガイドでは、画像矩形の準備、前処理フィルタの適用、結果のスペルチェック、マルチページ OCR 出力の保存方法を説明します。これらはすべて **OCR を最適化** する実証済みの手法です。OCR 用に画像を前処理することで、**OCR の速度** も顕著に向上します。
 
-## OCR Settings
+## OCR 設定
 
-設定の微調整により、精度、速度、カスタム動作を自在にコントロールできます。画像品質、言語、レイアウトの複雑さに応じて調整すべきパラメータを学びましょう。
+設定を微調整することで、精度、速度、カスタム動作を制御できます。画像品質、言語、レイアウトの複雑さに応じて調整すべきパラメータを学びます。
 
-Ready to transform your OCR projects? Dive into each tutorial below and start extracting text with confidence.
+## 手書き認識が重要な理由
 
-## Aspose.OCR for .NET Tutorials
-### [Skew Angle Calculation](./skew-angle-calculation/)
-Unlock the secrets of accurate skew angle calculation in OCR image recognition with Aspose.OCR for .NET. Enhance precision and efficiency effortlessly in your projects.
-### [Image and Drawing Recognition](./image-and-drawing-recognition/)
-Unlock the precision of OCR image recognition with Aspose.OCR for .NET. Effortlessly extract text from images, whether it's lines, paragraphs, or entire streams. Dive into our tutorials for step-by-step guidance.
-### [Text Recognition](./text-recognition/)
-Elevate your .NET applications with Aspose.OCR for precise character recognition. Discover step-by-step tutorials for obtaining choices, results, and JSON formats in OCR image recognition.
-### [OCR Configuration](./ocr-configuration/)
-Unlock OCR capabilities in .NET apps with Aspose.OCR. Explore tutorials for archive, folder, language selection, and list operations. Boost your application's text extraction seamlessly.
-### [OCR Optimization](./ocr-optimization/)
-Maximize OCR accuracy with Aspose.OCR for .NET tutorials. Perform OCR on images, prepare rectangles, apply preprocessing filters, correct results with spell checking, and save multipage results effortlessly.
-### [OCR Settings](./ocr-settings/)
-Unlock the power of Aspose.OCR for .NET with our OCR Settings Tutorials. Learn to enhance accuracy, speed, and customization for text recognition in images.
+Aspose.OCR の手書き認識 OCR は印刷文字やシンプルな筆記体に焦点を当てていますが、署名入りフォームや注釈付きスケッチの処理など、多くのビジネスシナリオでこの機能は有益です。ノイズ除去フィルタと組み合わせると最良の結果が得られます。
+
+## 一般的なユースケース
+
+- **請求書処理:** スキャンされた PDF からテキストを抽出し、スキューを補正し、明細項目を取得します。  
+- **フォームのデジタル化:** チェックボックス、署名、手書きメモを認識します。  
+- **エンジニアリング図面:** 複雑な図面から部品番号や注釈を抽出します。  
+- **バッチアーカイブ:** 最適化された設定で数千枚の画像に OCR を実行し、処理時間を低く抑えます。
 
 ## よくある質問
 
-**Q: 低解像度画像のOCR精度を向上させるにはどうすればよいですか？**
-A: 認識前に画像の前処理（ノイズ除去、2値化）を行い、傾き角度を補正してください。
+**Q: 低解像度画像で OCR の精度を向上させるには？**  
+A: 画像の前処理（ノイズ除去、二値化）を行い、認識前にスキュー角を補正します。
 
-**Q: 1つのドキュメントで複数の言語を認識することはできますか？**
-A: はい。OCRの言語選択機能を使用して、カンマ区切りの言語リストを指定できます。
+**Q: 1つの文書で複数言語を認識できますか？**  
+A: はい—OCR 言語選択機能でカンマ区切りの言語リストを指定します。
 
-**Q: スキャンしたページを含むPDFからテキストを抽出する最適な方法は何ですか？**
-A: 各PDFページを画像に変換し、傾きを補正してから、適切な言語設定でAspose.OCRを実行してください。
+**Q: スキャンページを含む PDF からテキストを抽出する最適な方法は？**  
+A: 各 PDF ページを画像に変換し、スキューを補正してから、適切な言語設定で Aspose.OCR を実行します。
 
-**Q: OCRをマルチスレッド環境で実行できますか？**
-A: もちろんです。スレッドごとに個別のOCRオブジェクトをインスタンス化するか、Aspose.OCRが提供するスレッドセーフな静的メソッドを使用してください。
+**Q: マルチスレッド環境で OCR を実行できますか？**  
+A: もちろんです。スレッドごとに別々の OCR オブジェクトをインスタンス化するか、Aspose.OCR が提供するスレッドセーフな静的メソッドを使用します。
 
-**Q: Aspose.OCRは手書き認識をサポートしていますか？**
-A: 基本的な手書き認識はサポートされていますが、結果は異なる場合があります。より良い結果を得るために追加の前処理を検討してください。
+**Q: Aspose.OCR は手書き認識をサポートしていますか？**  
+A: 基本的な手書きはサポートされていますが、結果は変動する可能性があります。より良い結果を得るために追加の前処理を検討してください。
+
+**Q: レイアウトを保持しながら PDF からテキストを抽出するには？**  
+A: OCR Settings でレイアウト保持を有効にし、結果を検索可能な PDF として出力します。
+
+**Q: 最大の速度向上をもたらす前処理は何ですか？**  
+A: 関心領域へのクロッピング、グレースケール変換、シンプルな二値化フィルタの適用が、通常最も高速な処理時間を実現します。
+
+## Aspose.OCR for .NET チュートリアル
+### [スキュー角計算](./skew-angle-calculation/)
+Accurate skew angle calculation in OCR image recognition with Aspose.OCR for .NET の秘密を解き明かします。プロジェクトで精度と効率を簡単に向上させます。
+
+### [画像および図形認識](./image-and-drawing-recognition/)
+Aspose.OCR for .NET を使用した OCR 画像認識の精度を解き放ちます。画像からテキストを簡単に抽出できます（行、段落、または全体のストリーム）。ステップバイステップのガイドはチュートリアルをご覧ください。
+
+### [テキスト認識](./text-recognition/)
+.NET アプリケーションを Aspose.OCR で正確な文字認識に向上させます。OCR 画像認識で選択肢、結果、JSON 形式を取得するステップバイステップのチュートリアルをご紹介します。
+
+### [OCR 設定](./ocr-configuration/)
+Aspose.OCR で .NET アプリの OCR 機能を解放します。アーカイブ、フォルダー、言語選択、リスト操作に関するチュートリアルを探求し、アプリのテキスト抽出をシームレスに強化します。
+
+### [OCR 最適化](./ocr-optimization/)
+Aspose.OCR for .NET のチュートリアルで OCR 精度を最大化します。画像で OCR を実行し、矩形を準備し、前処理フィルタを適用し、スペルチェックで結果を修正し、マルチページ結果を簡単に保存します。
+
+### [OCR 設定](./ocr-settings/)
+Aspose.OCR for .NET の OCR 設定チュートリアルでその力を引き出します。画像内のテキスト認識における精度、速度、カスタマイズを向上させる方法を学びます。
+
 ---
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.OCR for .NET 24.11  
-**Author:** Aspose
+**最終更新日:** 2026-02-20  
+**テスト環境:** Aspose.OCR for .NET 24.11  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
