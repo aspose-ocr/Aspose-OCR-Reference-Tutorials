@@ -18,7 +18,7 @@ weight: 25
 
 ## Einführung
 
-In diesem Leitfaden entdecken Sie, wie Sie **Text aus Bild extrahieren** Dateien mit Aspose.OCR für .NET. Egal, ob Sie eine Dokumenten‑Verarbeitungspipeline aufbauen oder einer App eine intelligente Suche hinzufügen – das Beherrschen von OCR ist unerlässlich. Wir führen Sie durch jede Phase – Laden von Bildern, Definieren von Regionen, Anwenden von Vorverarbeitungsfiltern, Korrigieren von Ergebnissen mit Rechtschreibprüfung und schließlich das Speichern mehrseitiger Ausgaben. Alle Tutorials werden in einem klaren, schritt‑für‑Schritt‑OCR‑Format präsentiert, sodass Sie die Lösung sofort implementieren können.
+In diesem Leitfaden entdecken Sie, wie Sie **Text aus Bild extrahieren** Dateien mit Aspose.OCR für .NET. Egal, ob Sie eine Dokumenten‑Verarbeitungspipeline aufbauen oder einer App eine intelligente Suche hinzufügen – das Beherrschen von OCR ist unerlässlich. Wir führen Sie durch jede Phase – Laden von Bildern, Definieren von Regionen, Anwenden von Vorverarbeitungsfiltern, Korrigieren von Ergebnissen mit Rechtschreibprüfung und schließlich das Speichern mehrseitiger Ausgaben. Alle Tutorials werden in einem klaren, schritt‑für‑schritt‑OCR‑Format präsentiert, sodass Sie die Lösung sofort implementieren können.
 
 ## Schnelle Antworten
 - **Was bedeutet “extract text from image”?** Umwandlung visueller Zeichen in einem Bild in durchsuchbaren, editierbaren Text.  
@@ -68,7 +68,11 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 ### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt‑für‑Schritt‑Leitfaden.
+### [Text aus Bild mit Aspose OCR GPU in C# erkennen](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Entdecken Sie, wie Sie mit Aspose OCR GPU in C# Text aus Bildern erkennen und die Leistung steigern.
+### [Bildvorverarbeitung für OCR in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie Bildvorverarbeitung in C# durchführen, um OCR‑Ergebnisse zu optimieren – ein umfassender Leitfaden.
 
 ## Häufig gestellte Fragen
 

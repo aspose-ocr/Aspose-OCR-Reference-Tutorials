@@ -48,13 +48,26 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a pontos karakterfel
 ### [Felismerés eredménye az OCR képfelismerésben](./get-recognition-result/)
 Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a zökkenőmentes szövegfelismeréshez a képekben.
 ### [Eredmény lekérése JSON-ként az OCR képfelismerésben](./get-result-as-json/)
-Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről-lépésre szóló útmutatóval.
+Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről‑lépésre szóló útmutatóval.
 ### [OCR Területek észlelése mód az OCR képfelismerésben](./ocr-detect-areas-mode/)
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Hogyan használjuk az OCR-t C#‑ban – Orosz szöveg kinyerése PNG‑ből](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Ismerje meg, hogyan nyerhet ki orosz nyelvű szöveget PNG képekből C# és Aspose.OCR segítségével.
+### [Hogyan olvassunk le számlát C#‑ban – Teljes útmutató a képről szöveg kinyeréséhez](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Ismerje meg, hogyan nyerhet ki szöveget számlaképekről C# és Aspose.OCR segítségével.
+### [Hogyan generáljunk EPUB-ot egy képből C#‑ban – Teljes útmutató](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Ismerje meg, hogyan alakíthatja át a képeket EPUB formátummá C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Hogyan végezzünk OCR-t DjVu fájlokon C#‑ban – Lépésről‑lépésre útmutató](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t DjVu fájlok szövegének kinyerésére C#‑ban, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan végezzünk kötegelt OCR-t C#‑ban – Teljes útmutató a képek szövegének kinyeréséhez](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Ismerje meg, hogyan hajthat végre kötegelt OCR-t C#‑ban, és nyerjen ki szöveget több képből egyszerre, lépésről‑lépésre útmutatóval.
+### [c# OCR oktatóanyag – Szöveg kinyerése képekből az Aspose.OCR segítségével](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C# és Aspose.OCR használatával, részletes lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
