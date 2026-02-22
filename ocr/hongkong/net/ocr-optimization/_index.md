@@ -72,6 +72,8 @@ weight: 25
 使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
 ### [在 OCR 圖像辨識中將多頁結果儲存為文件](./save-multipage-result-as-document/)
 解鎖 Aspose.OCR for .NET 的潛能，透過本完整步驟教學，輕鬆將多頁 OCR 結果儲存為文件。
+### [如何對圖像執行 OCR：提升對比度與去除噪點](./how-to-ocr-image-boost-contrast-remove-noise/)
+學習使用 Aspose.OCR for .NET 提升圖像對比度並去除噪點，以獲得更高的 OCR 準確度。
 
 ## 常見問題
 
