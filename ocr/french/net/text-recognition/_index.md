@@ -55,6 +55,19 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Reconnaître du texte hindi en C# avec Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+Libérez le potentiel d'Aspose OCR pour .NET en reconnaissant du texte hindi en C#. Suivez notre guide étape par étape.
+### [Tutoriel C# OCR : extraire du texte d'images avec Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Libérez le potentiel d'Aspose OCR pour .NET en extrayant du texte d'images. Suivez notre guide étape par étape.
+### [Comment créer un PDF consultable à partir d'un JPG – Guide étape par étape](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+Libérez le potentiel d'Aspose OCR pour .NET en créant des PDF consultables à partir d'images JPG. Suivez le guide étape par étape.
+### [Comment utiliser l'OCR en C# – Extraire du texte d'une image avec Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+Apprenez à extraire du texte d'images en C# avec Aspose OCR grâce à ce guide complet et facile à suivre.
+### [Reconnaître du texte à partir d'une image en C# avec Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Libérez le potentiel d'Aspose OCR pour .NET en reconnaissant du texte à partir d'images en C#. Suivez notre guide étape par étape.
+### [Traitement par lots d'images OCR en C# – Guide complet pour extraire du texte](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+Apprenez à traiter par lots des images avec Aspose.OCR en C# pour extraire rapidement du texte. Suivez notre guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
