@@ -18,7 +18,7 @@ weight: 25
 
 ## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğertenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
@@ -74,6 +74,10 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [C#'ta Aspose OCR için GPU'yu Etkinleştirme – Hızlı Görüntüden Düz Metne](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+C# uygulamanızda GPU hızlandırmalı OCR kullanarak görüntüleri hızlıca düz metne dönüştürün.
+### [C#'ta OCR'ı İyileştirme – Görüntüleri Düzleştirme, Gürültü Azaltma ve Döndürme](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+C# ile OCR performansını artırmak için görüntüleri düzleştirme, gürültüyü azaltma ve döndürme tekniklerini öğrenin.
 
 ## Sıkça Sorulan Sorular
 

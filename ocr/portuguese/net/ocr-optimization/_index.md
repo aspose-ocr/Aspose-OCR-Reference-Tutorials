@@ -28,7 +28,7 @@ Neste guia você descobrirá como **extrair texto de imagem** de arquivos com As
 - **O .NET Core é suportado?** Totalmente suportado no .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
 ## O que é “extrair texto de imagem”?
-Extrair texto de uma imagem significa usar reconhecimento óptico de caracteres (OCR) para ler os caracteres que aparecem em um bitmap e exportá‑los como texto simples ou documentos formatados. Aspose.OCR utiliza algoritmos sofisticados para lidar com várias fontes, idiomas e qualidades de imagem.
+Extrair texto de uma imagem significa usar reconhecimento óptico de caracteres (OCR) para ler os caracteres que aparecem em um bitmap e exportá‑‑los como texto simples ou documentos formatados. Aspose.OCR utiliza algoritmos sofisticados para lidar com várias fontes, idiomas e qualidades de imagem.
 
 ## Por que usar Aspose.OCR para .NET?
 - **Alta precisão** – mecanismos avançados de reconhecimento reduzem erros.  
@@ -74,6 +74,10 @@ Explore Aspose.OCR para .NET. Aumente a precisão do OCR com filtros de pré‑p
 Melhore a precisão do OCR com Aspose.OCR para .NET. Corrija ortografia, personalize dicionários e alcance reconhecimento de texto livre de erros sem esforço.
 ### [Salvar Resultado Multipágina como Documento em Reconhecimento de Imagem OCR](./save-multipage-result-as-document/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Salve facilmente resultados de OCR multipágina como documentos com este guia completo passo a passo.
+### [Como habilitar GPU para Aspose OCR em C# – Imagem rápida para texto simples](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Aprenda a usar a aceleração GPU com Aspose OCR em C# para processar imagens rapidamente e obter texto puro.
+### [Como melhorar OCR em C# – Corrigir inclinação, remover ruído e girar imagens](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Explore técnicas avançadas de pré‑processamento para melhorar a precisão do OCR, incluindo correção de inclinação, remoção de ruído e rotação de imagens.
 
 ## Perguntas Frequentes
 

@@ -55,6 +55,9 @@ Czy jesteś gotowy, aby uruchomić pełny potencjał Aspose.OCR dla .NET? Nasz p
 
 Zwiększony moduł OCR przy użyciu Aspose.OCR dla .NET, eksplorując [filtry wstępnego przetwarzania](./preprocessing-filters-for-image/). Pobierz teraz i odkryj, jak określić dostroić obrazy przed niem. Ten samouczek zapewnia płynną, podnoszącą wydajność i efekty.
 
+### [Jak poprawić OCR w C# – prostowanie, odszumianie i obracanie obrazów](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Dowiedz się, jak zwiększyć jakość OCR w C# poprzez prostowanie, odszumianie i obracanie obrazów przed rozpoznawaniem.
+
 ## Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 
 Funkcja dodatkowa OCR dzięki [Aspose.OCR for .NET](./result-correction-with-spell-checking/). Nasz samouczek o korekcji wyników przy użyciu sprawdzania pisowni umożliwia rozszerzenie słowników, poprawianie błędów ortograficznych i zapewnianie wykrywania tekstu bez błędów. Zanurz się w świecie precyzji z Aspose.OCR.
@@ -75,11 +78,17 @@ Odblokuj potencjał Aspose.OCR for .NET dzięki naszemu kompleksowemu przewodnik
 ### [Filtry wstępnego przetwarzania dla obrazu w rozpoznawaniu obrazu OCR](./preprocessing-filters-for-image/)
 Poznaj Aspose.OCR for .NET. Zwiększ dokładność OCR dzięki filtrom wstępnego przetwarzania. Pobierz teraz, aby uzyskać płynną integrację.
 
+### [Jak poprawić OCR w C# – prostowanie, odszumianie i obracanie obrazów](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Dowiedz się, jak zwiększyć jakość OCR w C# poprzez prostowanie, odszumianie i obracanie obrazów przed rozpoznawaniem.
+
 ### [Korekcja wyników z sprawdzaniem pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
 Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, dostosowuj słowniki i osiągaj rozpoznawanie tekstu bez błędów bez wysiłku.
 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+
+### [Jak włączyć GPU dla Aspose OCR w C# – szybkie przetwarzanie obrazu na tekst](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Dowiedz się, jak przyspieszyć OCR wykorzystując GPU w C# dla szybkiego konwertowania obrazów na tekst.
 
 ## Często zadawane pytania
 
