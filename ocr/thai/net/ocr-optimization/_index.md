@@ -67,11 +67,15 @@ weight: 25
 ### [ฟิลเตอร์การเตรียมข้อมูลสำหรับภาพใน OCR Image Recognition](./preprocessing-filters-for-image/)
 สำรวจ Aspose.OCR สำหรับ .NET เพิ่มความแม่นยำของ OCR ด้วยฟิลเตอร์การเตรียมข้อมูล ดาวน์โหลดตอนนี้เพื่อการรวมอย่างราบรื่น.
 
+### [วิธีใช้ฟิลเตอร์ใน Aspose OCR – เพิ่มประสิทธิภาพการแยกข้อความ](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+
 ### [การแก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดใน OCR Image Recognition](./result-correction-with-spell-checking/)
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ .NET แก้ไขการสะกด, ปรับแต่งพจนานุกรม, และบรรลุการจดจำข้อความที่ปราศจากข้อผิดพลาดอย่างง่ายดาย.
 
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารใน OCR Image Recognition](./save-multipage-result-as-document/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET บันทึกผลลัพธ์ OCR หลายหน้าเป็นเอกสารได้อย่างง่ายดายด้วยคู่มือขั้นตอนต่อขั้นตอนที่ครอบคลุมนี้.
+
+### [Aspose OCR GPU: การจดจำข้อความอย่างเร็วด้วย C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 
 ## คำถามที่พบบ่อย
 

@@ -61,7 +61,9 @@ Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kény
 ### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
 Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
 ### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
+Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.  
+### [Hogyan engedélyezzük az OCR-t C#‑ban – PDF könnyű szöveggé konvertálása](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Fedezze fel, hogyan konvertálhat PDF-et szöveggé C#‑ban az Aspose.OCR segítségével.  
 
 ### Gyakori felhasználási esetek
 - **Szöveg kinyerése** beolvasott számlákról az automatizált könyveléshez.  
