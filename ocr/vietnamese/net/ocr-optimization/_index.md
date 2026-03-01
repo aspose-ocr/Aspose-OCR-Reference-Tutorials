@@ -70,10 +70,16 @@ Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạn
 Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
+### [Tiền xử lý hình ảnh OCR trong C# – Hướng dẫn toàn diện để tăng độ chính xác](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Khám phá cách tối ưu hoá OCR bằng tiền xử lý ảnh trong C#, nâng cao độ chính xác và hiệu suất.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh với tăng tốc GPU](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Khám phá cách sử dụng OCR C# với hỗ trợ GPU để tăng tốc độ và độ chính xác khi trích xuất văn bản từ hình ảnh.
+### [Hướng dẫn OCR hàng loạt trong C# – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Tìm hiểu cách thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C# và Aspose.OCR, tăng năng suất và độ chính xác.
 
 ## Câu hỏi thường gặp
 
@@ -90,7 +96,7 @@ A: Không có giới hạn cứng; hiệu suất phụ thuộc vào hệ thống
 A: Chắc chắn. API không phụ thuộc vào nền tảng và hoạt động tốt trên Azure Functions, AWS Lambda (thông qua .NET Core) hoặc bất kỳ môi trường đám mây nào khác.
 
 **Hỏi: Có những lựa chọn cấp phép nào cho các dự án thương mại?**
-A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. Bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
+A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
 
 ---
 
