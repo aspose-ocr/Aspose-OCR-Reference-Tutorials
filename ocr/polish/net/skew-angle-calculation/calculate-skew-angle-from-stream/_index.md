@@ -1,11 +1,11 @@
 ---
-date: 2025-12-30
-description: Poznaj ten samouczek rozpoznawania obrazów w C#, aby obliczyć kąty pochylenia
-  z strumienia przy użyciu Aspose.OCR. Dowiedz się, jak obliczyć pochylenie i odczytać
-  obraz ze strumienia.
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-03-02
+description: Naucz się, jak obliczyć pochylenie i odczytać obraz ze strumienia w C#
+  przy użyciu Aspose.OCR. Ten przewodnik krok po kroku pokazuje, jak obliczyć kąt
+  pochylenia ze strumienia w C#.
+linktitle: How to Calculate Skew Angle from Stream in C#
 second_title: Aspose.OCR .NET API
-title: Samouczek rozpoznawania obrazu w C# – Obliczanie kąta pochylenia z strumienia
+title: Jak obliczyć kąt pochylenia ze strumienia w C# – Poradnik rozpoznawania obrazu
 url: /pl/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -14,36 +14,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Samouczek rozpoznawania obrazów w C# – Obliczanie kąta pochylenia z strumienia
+# Jak obliczyć kąt pochylenia z strumienia w C# – Samouczek rozpoznawania obrazów
 
 ## Wstęp
 
-Witamy w ekscytującym świecie Aspose.OCR dla .NET! W tym **c# samouczek rozpoznawania obrazu** przeprowadziliśmy Cię przez proces obliczania kąta pochylenia obrazu bezpośrednio ze strumienia. Aplikacja od tego, czy tworzysz potok przesyłania dokumentów, aplikacja mobilną do skanowania, czy też rozwiązanie podane prostowania nachylonych obrazów, ten przewodnik zapewnia jasną, krok po kroku wykonany do wykonania zadań.
+Witamy w ekscytującym świecie Aspose.OCR dla .NET! W tym **c# image recognition tutorial** dowiesz się **jak obliczyć pochylenie** z strumienia obrazu i dlaczego ten krok jest kluczowy dla uzyskania wiarygodnych wyników OCR. Niezależnie od tego, czy tworzysz pipeline przetwarzania dokumentów, mobilną aplikację skanującą, czy jakiekolwiek rozwiązanie wymagające wyrównania przechylonych stron, ten przewodnik przeprowadzi Cię przez cały proces w zaledwie kilka minut.
 
 ## Szybkie odpowiedzi
-- **Co łączy ten samouczek?** Obliczanie kąta pochylenia ze strumieniami przy użyciu Aspose.OCR w C#.
-- **Dlaczego wykrywanie pochylenia jest ważne?** Poprawia funkcję OCR poprzez wyrównanie tekstu przed rozpoznaniem.
+- **Co obejmuje ten samouczek?** Obliczanie kąta pochylenia z strumienia przy użyciu Aspose.OCR w C#.
+- **Dlaczego wykrywanie pochylenia jest ważne?** Poprawia dokładność OCR poprzez wyrównanie tekstu przed rozpoznaniem.
 - **Jakie są główne wymagania wstępne?** Zainstalowany Aspose.OCR dla .NET oraz przykładowy obraz z pochyleniem.
-- **Jakie dodatkowe słowa kluczowe są poruszane?** *jak obliczyć pochylenie* i *przeczytaj obraz ze strumienia*.
-- **Jak długo trwa wdrożenie?** Około 5–10 minut dla działającego prototypu.
+- **Jakie dodatkowe słowa kluczowe są poruszane?** *how to calculate skew* i *read image from stream c#*.
+- **Jak długo trwa implementacja?** Około 5‑10 minut dla działającego prototypu.
 
-## Co to jest samouczek rozpoznawania obrazów w języku C#?
-**c# poradnik rozpoznawania obrazu** używa, jak zastosowanie techniki komputerowego widzenia — takie jak OCR, skanowanie kodów kreskowych czy korekcja pochylenia — przy użyciu bibliotek C#. Tutaj uruchamiamy się na korekcję pochylenia, Powszechny krok poprzedzający przetwarzanie, który jest po prostu nachylonej linii tekstu przed uruchomieniem OCR.
+## Jak obliczyć pochylenie z strumienia obrazu
 
-## Po co używać Aspose.OCR do rozpoznawania obrazów w języku C#?
-Aspose.OCR oferuje czyste API .NET bez zewnętrznych skutków, a także dodatkowe narzędzie, takie jak `CalculateSkew`. Działa na Windows, Linux i macOS oraz płynnie integruje się z innymi produktami Aspose.
+Zanim przejdziemy do kodu, wyjaśnijmy, co tak naprawdę oznacza „obliczanie pochylenia”. Gdy zeskanowany dokument jest przechylony, linie tekstu nie są już poziome. **Kąt pochylenia** informuje, o ile stopni obraz musi zostać obrócony, aby stał się poziomy. Aspose.OCR udostępnia wbudowaną metodę `CalculateSkew`, która analizuje bitmapę i zwraca ten kąt, oszczędzając Ci konieczności pisania skomplikowanych algorytmów przetwarzania obrazu.
 
-## Warunki wstępne
+## Dlaczego używać Aspose.OCR do rozpoznawania obrazów w C#?
 
-Zanim zagłębimy się w kod, uzyskamy, że masz:
+Aspose.OCR oferuje czyste API .NET bez zewnętrznych zależności, wysoką dokładność oraz narzędzia takie jak `CalculateSkew`. Działa na Windows, Linux i macOS, a także integruje się płynnie z innymi produktami Aspose, co czyni go solidnym wyborem dla przedsiębiorstwowych pipeline’ów OCR.
 
-1. **Aspose.OCR dla .NET** zastępczy. Pobierz go z wybranej strony [tutaj](https://releases.aspose.com/ocr/net/).
-2. Folder, który będzie dostarczany jako katalog dokumentów. Zastąp „Twój katalog dokumentów” w przykładowym kodzie rzeczywistym, który pojawi się na Twoim komputerze.
-3. Plik obrazujący wyświetlany po odchyleniu (np. zeskanowaną stroną). Zapisz go jako **skew_image.png** w katalogu dokumentów.
+## Wymagania wstępne
 
-Teraz, gdy wszystko jest gotowe, rozpocznijmy kodowanie.
+Zanim zaczniemy kodować, upewnij się, że masz:
 
-## Importuj przestrzenie nazw
+1. **Aspose.OCR for .NET** zainstalowany. Pobierz go z oficjalnej strony [tutaj](https://releases.aspose.com/ocr/net/).
+2. Folder, który będzie służył jako katalog dokumentów. Zastąp `"Your Document Directory"` w przykładowym kodzie rzeczywistą ścieżką na Twoim komputerze.
+3. Plik obrazu zawierający wyraźne pochylenie (np. zeskanowaną stronę). Zapisz go jako **skew_image.png** w katalogu dokumentów.
+
+Teraz, gdy wszystko jest gotowe, przejdźmy do kodowania.
+
+## Importowanie przestrzeni nazw
 
 Najpierw zaimportuj przestrzenie nazw wymagane do obsługi plików oraz biblioteki Aspose.OCR.
 
@@ -55,9 +57,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Krok 1: Zainicjuj Aspose.OCR
+## Krok 1: Inicjalizacja Aspose.OCR
 
-Utwórz instancję silnika OCR i wskaż na swój katalog dokumentów.
+Utwórz instancję silnika OCR i wskaż mu katalog dokumentów.
 
 ```csharp
 // The path to the documents directory.
@@ -67,9 +69,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 2: Oblicz kąt pochylenia (jak obliczyć pochylenie)
+## Krok 2: Obliczanie kąta pochylenia (jak obliczyć pochylenie)
 
-Teraz **obliczymy kąt pochylenia** z strumienia obrazu. To demonstruje możliwość *read image from stream*.
+Teraz **obliczymy kąt pochylenia** z strumienia obrazu. Demonstracja ta pokazuje możliwości *read image from stream c#*.
 
 ```csharp
 // Calculate Angle
@@ -83,9 +85,9 @@ using (FileStream file = new FileStream(dataDir + "skew_image.png", FileMode.Ope
 }
 ```
 
-## Krok 3: Wyświetl wynik
+## Krok 3: Wyświetlenie wyniku
 
-Na koniec wypisz wykryty kąt na konsolę, abyś mógł zweryfikować wynik.
+Na koniec wypisz wykryty kąt w konsoli, aby móc zweryfikować rezultat.
 
 ```csharp
 // Display the result
@@ -94,45 +96,45 @@ Console.WriteLine(angle);
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|--------|-----------|------------|
-| **`ArgumentNullException`** | Ścieżka do obrazu jest nieprawidłowa lub plik brakujący. | Zweryfikuj `dataDir` i sprawdź, że `skew_image.png` istnieje. |
-| **Nieprawidłowy kąt** | Obraz jest zbyt zaszumiony lub o rozdzielczości. | Wstępnie przetwórz obraz (np. binaryzuj) przed wywołaniem `CalculateSkew`. |
-| **Błąd uprawnień** | Aplikacja nie ma dostępu do odczytu pliku. | Aplikacja aplikacyjna z uprawnieniami systemu plików. |
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **`ArgumentNullException`** | Ścieżka do obrazu jest nieprawidłowa lub plik nie istnieje. | Zweryfikuj `dataDir` i upewnij się, że `skew_image.png` istnieje. |
+| **Nieprawidłowy kąt** | Obraz jest zbyt zaszumiony lub o niskiej rozdzielczości. | Wstępnie przetwórz obraz (np. binaryzacja) przed wywołaniem `CalculateSkew`. |
+| **Błąd uprawnień** | Aplikacja nie ma dostępu do odczytu pliku. | Uruchom aplikację z odpowiednimi uprawnieniami systemu plików. |
 
-## Wniosek
+## Podsumowanie
 
-Gratulacje! Właśnie zauważyłeś **c# poradnik rozpoznawania obrazu**, który zauważył, jak **obliczyć po odchyleniu** i **odczytaj obraz ze strumienia** przy użyciu Aspose.OCR dla .NET. Ta prosta, a zarazem potężna technika może być zintegrowana z większymi przepływami OCR, co pozwala na zastosowanie odrębnego tekstu.
+Gratulacje! Właśnie ukończyłeś **c# image recognition tutorial**, który pokazuje, jak **obliczyć pochylenie** i **odczytać obraz ze strumienia** przy użyciu Aspose.OCR dla .NET. Ta prosta, a jednocześnie potężna technika może być zintegrowana z większymi przepływami OCR, aby znacząco zwiększyć dokładność ekstrakcji tekstu.
 
 Poznaj więcej funkcji Aspose.OCR, przeglądając oficjalną [dokumentację](https://reference.aspose.com/ocr/net/).
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Q1: Czy Aspose.OCR jest kompatybilny z frameworkami .NET?
+### Q1: Czy Aspose.OCR jest kompatybilny ze wszystkimi frameworkami .NET?
 
-A1: Aspose.OCR obsługuje wymagania frameworków .NET, uwzględnia kompatybilność w różnych licencjach.
+A1: Aspose.OCR obsługuje szeroką gamę frameworków .NET, zapewniając kompatybilność z różnymi wersjami.
 
-### Q2: Czy można zastosować Aspose.OCR w projekcie wykonawczym?
+### Q2: Czy mogę używać Aspose.OCR w projektach komercyjnych?
 
-A2: Oczywiście! Aspose.OCR oferuje licencje komercyjne, które można zastosować [tutaj](https://purchase.aspose.com/buy).
+A2: Oczywiście! Aspose.OCR oferuje licencje komercyjne, które możesz zakupić [tutaj](https://purchase.aspose.com/buy).
 
-### Q3: Czy dostępna jest wersja próbna?
+### Q3: Czy dostępna jest darmowa wersja próbna?
 
-A3: Tak, możesz mieć Aspose.OCR w wersji próbnej [tutaj](https://releases.aspose.com/).
+A3: Tak, możesz wypróbować Aspose.OCR w ramach darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
 
-### P4: Jak mogę uzyskać tymczasowe licencje do testów?
+### Q4: Jak mogę uzyskać tymczasowe licencje do testów?
 
-A4: uzyskanie tymczasowych licencji do testów pod tym linkiem [ten link](https://purchase.aspose.com/temporary-license/).
+A4: Tymczasowe licencje do testowania można uzyskać pod [tym linkiem](https://purchase.aspose.com/temporary-license/).
 
-### Q5: rezultaty wsparcia lub inne pytania?
+### Q5: Potrzebuję wsparcia lub mam konkretne pytania?
 
-A5: Odwiedź społeczność Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od ekspertów i innych programistów.
+A5: Odwiedź forum społeczności Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od ekspertów i innych programistów.
 
 ---
 
-**Ostatnia aktualizacja:** 30.12.2025 r
-**Testowano z:** Aspose.OCR dla .NET (najnowsza wersja)
-**Autor:** Aspose  
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.OCR for .NET (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

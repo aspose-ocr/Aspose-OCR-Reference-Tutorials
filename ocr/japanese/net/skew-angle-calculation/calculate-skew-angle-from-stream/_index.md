@@ -1,9 +1,10 @@
 ---
-date: 2025-12-30
-description: Aspose.OCR を使用してストリームから傾き角度を計算する C# 画像認識チュートリアルを学びましょう。ストリームから画像を読み取り、傾きを計算する方法を発見してください。
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-03-02
+description: Aspose.OCR を使用して C# でストリームから画像を読み取り、傾き（スキュー）を計算する方法を学びましょう。このステップバイステップガイドでは、C#
+  でストリームからスキュー角度を計算する手順を示します。
+linktitle: How to Calculate Skew Angle from Stream in C#
 second_title: Aspose.OCR .NET API
-title: C# 画像認識チュートリアル – ストリームからスキュー角度を計算する
+title: C#でストリームから傾き角度を計算する方法 – 画像認識チュートリアル
 url: /ja/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -12,36 +13,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# 画像認識チュートリアル – ストリームから傾斜角度を計算する
+# C# のストリームから傾き角度を計算する方法 – 画像認識チュートリアル
 
-## はじめに
+## Introduction
 
-Aspose.OCR for .NET のエキサイティングな世界へようこそ！この **c# image recognition tutorial** では、ストリームから直接画像の傾き角度（skew angle）を計算する方法をステップバイステップで解説します。文書処理パイプライン、モバイルスキャンアプリ、あるいは傾いた画像を補正する必要があるあらゆるソリューションに役立つガイドです。
+Aspose.OCR for .NET のエキサイティングな世界へようこそ！この **c# image recognition tutorial** では、画像ストリームから **傾き（skew）を計算する方法** と、信頼性の高い OCR 結果を得るためにこのステップがなぜ重要かを学びます。ドキュメント処理パイプライン、モバイルスキャンアプリ、または傾いたページを補正する必要があるあらゆるソリューションを構築する場合でも、このガイドに従えば数分で全工程を完了できます。
 
-## クイックアンサー
-- **このチュートリアルで扱う内容は？** Aspose.OCR を使用して C# でストリームから傾き角度を計算します。
-- **なぜ傾き検出が重要なのか？** OCR の認識精度を向上させるために、テキストを認識する前に画像を整列させます。
-- **主な前提条件は？** Aspose.OCR for .NET がインストール済みで、サンプル用の傾いた画像が用意されていること。
-- **取り上げる二次キーワードは？** *how to calculate skew* と *read image from stream*。
-- **実装にかかる時間は？** 動作するプロトタイプを作るのに約 5〜10 分です。
+## Quick Answers
+- **What does this tutorial cover?** Calculating skew angle from a stream using Aspose.OCR in C#.
+- **Why is skew detection important?** It improves OCR accuracy by aligning text before recognition.
+- **What are the main prerequisites?** Aspose.OCR for .NET installed and a sample skewed image.
+- **Which secondary keywords are addressed?** *how to calculate skew* and *read image from stream c#*.
+- **How long does implementation take?** About 5‑10 minutes for a working prototype.
 
-## C# 画像認識チュートリアルとは？
-**c# image recognition tutorial** では、OCR、バーコードスキャン、傾き補正などのコンピュータビジョン技術を C# ライブラリを使って実装する方法を学びます。本稿では、OCR 前処理として一般的な「傾き補正」に焦点を当てます。
+## How to calculate skew from an image stream
 
-## C# 画像認識に Aspose.OCR を使う理由
-Aspose.OCR は外部依存関係が不要な純粋な .NET API を提供し、高精度かつ `CalculateSkew` などの組み込みユーティリティを備えています。Windows、Linux、macOS で動作し、他の Aspose 製品ともスムーズに統合できます。
+コードに入る前に、まず「傾き（skew）を計算する」とは何かを明確にしましょう。スキャンした文書が傾いていると、テキスト行は水平ではなくなります。**傾き角度** は、画像を水平にするために何度回転させる必要があるかを示す数値です。Aspose.OCR にはビットマップを解析しこの角度を返す組み込みメソッド `CalculateSkew` が用意されており、複雑な画像処理アルゴリズムを自分で実装する手間が省けます。
 
-## 前提条件
+## Why use Aspose.OCR for c# image recognition?
 
-コードに入る前に、以下を確認してください。
+Aspose.OCR は外部依存関係がなく、純粋な .NET API として高精度を提供し、`CalculateSkew` などのユーティリティも備えています。Windows、Linux、macOS 上で動作し、他の Aspose 製品ともスムーズに統合できるため、エンタープライズ向け OCR パイプラインに最適です。
 
-1. **Aspose.OCR for .NET** がインストール済みです。公式サイトから [here](https://releases.aspose.com/ocr/net/) ダウンロードしてください。
-2. ドキュメントディレクトリとして使用するフォルダーを用意します。サンプルコード中の `"Your Document Directory"` を実際のパスに置き換えてください。
-3. 傾きが目立つ画像ファイル（例：スキャンしたページ）を用意し、ドキュメントディレクトリ内に **skew_image.png** として保存します。
+## Prerequisites
 
-準備が整ったら、コーディングを開始しましょう。
+コードを書く前に、以下が揃っていることを確認してください。
 
-## 名前空間のインポート
+1. **Aspose.OCR for .NET** がインストール済み。公式サイトから [here](https://releases.aspose.com/ocr/net/) でダウンロードできます。
+2. ドキュメントディレクトリとして使用するフォルダー。サンプルコード中の `"Your Document Directory"` を実際のパスに置き換えてください。
+3. 明らかな傾きがある画像ファイル（例：スキャンしたページ）。この画像を **skew_image.png** という名前でドキュメントディレクトリに保存します。
+
+すべて準備できたら、コーディングを開始しましょう。
+
+## Import Namespaces
 
 ファイル操作と Aspose.OCR ライブラリに必要な名前空間をインポートします。
 
@@ -53,7 +56,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## ステップ 1: Aspose.OCR を初期化する
+## Step 1: Initialize Aspose.OCR
 
 OCR エンジンのインスタンスを作成し、ドキュメントディレクトリを指定します。
 
@@ -65,9 +68,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## ステップ 2: 傾斜角度を計算する（傾斜の計算方法）
+## Step 2: Calculate Skew Angle (how to calculate skew)
 
-ここでは画像ストリームから **傾き角度を計算** します。*read image from stream* の機能を示す例です。
+ここで **画像ストリームから傾き角度を計算** します。これにより *read image from stream c#* の機能が実証されます。
 
 ```csharp
 // Calculate Angle
@@ -81,56 +84,56 @@ using (FileStream file = new FileStream(dataDir + "skew_image.png", FileMode.Ope
 }
 ```
 
-## ステップ 3: 結果を表示する
+## Step 3: Display the Result
 
-検出された角度をコンソールに出力し、結果を確認します。
+最後に、検出された角度をコンソールに出力して結果を確認します。
 
 ```csharp
 // Display the result
 Console.WriteLine(angle);
 ```
 
-## よくある問題と解決策
+## Common Issues and Solutions
 
-| 問題 | 理由 | 対処法 |
-|------|------|--------|
-| **`ArgumentNullException`** | 画像パスが間違っている、またはファイルが存在しない。 | `dataDir` を確認し、`skew_image.png` が存在することを確認してください。 |
-| **角度が正しくない** | 画像がノイズが多い、または解像度が低い。 | `CalculateSkew` を呼び出す前に画像を前処理（例：二値化）してください。 |
-| **権限エラー** | アプリケーションにファイルへの読み取り権限がない。 | 適切なファイルシステム権限でアプリを実行してください。 |
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| **`ArgumentNullException`** | 画像パスが間違っているか、ファイルが存在しません。 | `dataDir` を確認し、`skew_image.png` が存在することを確かめてください。 |
+| **Incorrect angle** | 画像がノイズが多い、または解像度が低すぎます。 | `CalculateSkew` を呼び出す前に画像を前処理（例：二値化）してください。 |
+| **Permission error** | アプリケーションにファイルへの読み取り権限がありません。 | 適切なファイルシステム権限でアプリを実行してください。 |
 
-## まとめ
+## Conclusion
 
-おめでとうございます！Aspose.OCR for .NET を使用して **c# image recognition tutorial** の一環として **傾きの計算** と **ストリームからの画像読み取り** を実装できました。このシンプルながら強力な手法は、OCR ワークフロー全体に組み込むことでテキスト抽出精度を大幅に向上させます。
+おめでとうございます！Aspose.OCR for .NET を使用して **c# image recognition tutorial** の一環として **傾きの計算** と **ストリームから画像を読み込む** 方法を習得しました。このシンプルながら強力なテクニックは、より大規模な OCR ワークフローに組み込むことで、テキスト抽出精度を劇的に向上させます。
 
-公式 [documentation](https://reference.aspose.com/ocr/net/) で Aspose.OCR の他機能もぜひご確認ください。
+公式 [documentation](https://reference.aspose.com/ocr/net/) で Aspose.OCR の他の機能もぜひご確認ください。
 
-## FAQ's
+## Frequently Asked Questions
 
-### Q1: Aspose.OCR はすべての .NET フレームワークと互換性がありますか？
+### Q1: Is Aspose.OCR compatible with all .NET frameworks?
 
-A1: Aspose.OCR は幅広い .NET フレームワークをサポートしており、さまざまなバージョンで互換性があります。
+A1: Aspose.OCR supports a wide range of .NET frameworks, ensuring compatibility across different versions.
 
-### Q2: 商用プロジェクトで Aspose.OCR を使用できますか？
+### Q2: Can I use Aspose.OCR for commercial projects?
 
-A2: もちろんです！Aspose.OCR には商用ライセンスが用意されており、[here](https://purchase.aspose.com/buy) から購入できます。
+A2: Absolutely! Aspose.OCR provides commercial licenses, and you can purchase them [here](https://purchase.aspose.com/buy).
 
-### Q3: 無料トライアルはありますか？
+### Q3: Is there a free trial available?
 
-A3: はい、無料トライアルは [here](https://releases.aspose.com/) から利用可能です。
+A3: Yes, you can explore Aspose.OCR with a free trial [here](https://releases.aspose.com/).
 
-### Q4: テスト用の一時ライセンスはどこで取得できますか？
+### Q4: How can I get temporary licenses for testing purposes?
 
-A4: テスト用の一時ライセンスは [this link](https://purchase.aspose.com/temporary-license/) から取得してください。
+A4: Obtain temporary licenses for testing from [this link](https://purchase.aspose.com/temporary-license/).
 
-### Q5: サポートが必要、または具体的な質問がありますか？
+### Q5: Need support or have specific questions?
 
-A5: Aspose.OCR コミュニティの [forum](https://forum.aspose.com/c/ocr/16) で専門家や他の開発者から支援を受けられます。
+A5: Visit the Aspose.OCR community [forum](https://forum.aspose.com/c/ocr/16) for assistance from experts and fellow developers.
 
 ---
 
-**最終更新日:** 2025年12月30日
-**テスト環境:** Aspose.OCR for .NET (最新リリース)
-**作成者:** Aspose  
+**Last Updated:** 2026-03-02  
+**Tested With:** Aspose.OCR for .NET (latest release)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
