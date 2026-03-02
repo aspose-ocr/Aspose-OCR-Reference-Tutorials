@@ -62,6 +62,10 @@ Aspose.OCR ile .NET’te OCR görüntü tanıma gücünü keşfedin. Görüntül
 Aspose.OCR for .NET ile güçlü OCR yeteneklerini açığa çıkarın. Görüntülerden sorunsuz bir şekilde metin çıkarın.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarımını artırın.
+### [C# ile OCR'dan JSON Kaydetme – Tam Adım Adım Kılavuz](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+C# koduyla OCR sonuçlarını JSON formatında kaydedin ve veri işleme akışınızı kolaylaştırın.
+### [Çevrimdışı Çince Metin Tanıma – Tam C# Kılavuzu](./recognize-chinese-text-offline-complete-c-guide/)
+Çince metinleri çevrimdışı olarak tanıma ve JSON’a kaydetme adımlarını C# ile öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  
