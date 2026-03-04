@@ -62,6 +62,10 @@ Effortlessly save multipage OCR results as documents with Aspose.OCR for .NET. O
 Using Aspose.OCR For .NET Tutorials Listing, you can access additional resources and stay updated on the latest advancements in OCR optimization. Dive into the world of precision and efficiency with Aspose.OCR for .NET tutorials.
 
 ## OCR Optimization Tutorials
+### [Correct Image Rotation in C# – Full Guide to OCR Accuracy](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Learn how to fix image rotation in C# to boost OCR accuracy with Aspose.OCR.
+### [How to Deskew Image for OCR – Step‑by‑Step C# Guide](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Learn how to correct image skew in C# to improve OCR accuracy using Aspose.OCR's deskew filter.
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from images with precision.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
