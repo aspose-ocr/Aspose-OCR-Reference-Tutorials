@@ -55,6 +55,21 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de t
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Converter TIFF para Texto em C# – Extrair Texto de Imagem Digitalizada](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Aprenda a converter arquivos TIFF em texto usando Aspose.OCR for .NET, extraindo rapidamente o conteúdo de imagens digitalizadas.
+### [Reconhecer texto de imagem com Aspose OCR – Guia completo em C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Aprenda passo a passo como reconhecer texto de imagens usando Aspose OCR em C#, com um guia completo e exemplos práticos.
+### [Como usar OCR em C# – Extrair texto de recibos rapidamente](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Aprenda passo a passo como usar OCR em C# para extrair texto de recibos rapidamente com Aspose.OCR.
+### [Como usar OCR em C# – Extrair texto de imagem](./how-to-use-ocr-in-c-extract-text-from-image/)
+Aprenda passo a passo como usar OCR em C# para extrair texto de imagens com Aspose.OCR.
+### [Converter TIFF para Texto em C# usando Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Descubra como transformar arquivos TIFF em texto com Aspose OCR em C#, facilitando a extração de conteúdo de imagens digitalizadas.
+### [Extrair texto de imagem em C# – Aspose OCR passo a passo](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Aprenda passo a passo como extrair texto de imagens em C# usando Aspose OCR, com exemplos claros e fáceis de seguir.
+### [Como obter OCR em C# – Reconhecer texto a partir de stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Aprenda a usar Aspose.OCR em C# para reconhecer texto diretamente de um stream, facilitando a integração em aplicativos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
