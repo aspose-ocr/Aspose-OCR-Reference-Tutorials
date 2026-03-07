@@ -62,6 +62,8 @@ Effortlessly save multipage OCR results as documents with Aspose.OCR for .NET. O
 Using Aspose.OCR For .NET Tutorials Listing, you can access additional resources and stay updated on the latest advancements in OCR optimization. Dive into the world of precision and efficiency with Aspose.OCR for .NET tutorials.
 
 ## OCR Optimization Tutorials
+### [How to Deskew Image and Run OCR in C# – Complete Guide](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Learn to deskew images and perform OCR in C# using Aspose.OCR, improving accuracy for tilted documents.
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from images with precision.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -69,9 +71,13 @@ Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn 
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step‑by‑step guide.
+### [Aspose OCR Example – Enable Spellcheck and Fix Errors in C#](./aspose-ocr-example-enable-spell-check-and-fix-errors-in-c/)
+Learn how to enable spellcheck and automatically fix OCR errors in C# using Aspose.OCR.
+### [How to Perform OCR on Chinese Images – Complete C# Guide](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Step‑by‑step guide to recognize Chinese text in images using Aspose.OCR for .NET, covering language settings, preprocessing, and result handling.
 
 ## Frequently Asked Questions
 
