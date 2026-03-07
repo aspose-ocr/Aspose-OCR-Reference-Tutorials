@@ -50,17 +50,33 @@ Aspose.OCR for Java ile izin verilen karakterleri belirterek görüntülerden za
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
 ## Gelişmiş OCR Teknikleri Eğitimleri
 ### [Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme](./perform-ocr-buffered-image/)
+
 Aspose.OCR for Java ile BufferedImage üzerinde zahmetsizce OCR gerçekleştirin. Görüntülerden metni sorunsuz bir şekilde çıkarın. Çok yönlü bir metin tanıma deneyimi için hemen indirin.
 ### [Aspose.OCR for Java'da URL'den Resim üzerinde OCR gerçekleştirme](./perform-ocr-image-from-url/)
+
 Aspose.OCR ile Java'da kesintisiz görüntü metni çıkarmanın kilidini açın. Kolay entegrasyonla yüksek doğrulukta OCR.
 ### [Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme](./perform-ocr-on-page/)
+
 Belirli sayfalarda OCR gerçekleştirmeye yönelik adım adım kılavuzumuzla Aspose.OCR for Java'nın gücünün kilidini açın. Görüntülerden metni zahmetsizce çıkarın ve Java projelerinizi geliştirin.
 ### [Aspose.OCR'da OCR için Dikdörtgenler Hazırlama](./prepare-rectangles-for-ocr/)
+
 Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin. Verimli OCR özellikleriyle Java uygulamalarınızı geliştirin.
 ### [Aspose.OCR for Java'da Çizgileri Tanıma](./recognize-lines/)
+
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
+
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [Java ile Görüntü Üzerinde OCR Çalıştırma – GPU Destekli Metin Çıkarma](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+
+Java ve GPU gücüyle yüksek hızlı metin çıkarma için görüntülerde OCR uygulayın. Performansı artırın ve sonuçları zahmetsizce elde edin.
+### [Yüksek Çözünürlüklü Görüntülerde OCR Çalıştırma – Tam Java Kılavuzu](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+
+Java ile yüksek çözünürlüklü görüntülerde OCR uygulayarak metin çıkarma sürecini hızlandırın ve en yüksek doğruluğu elde edin.
+### [El yazısı metni tanıma – OCR Doğruluğunu Artırmak İçin Tam Kılavuz](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+
+Java ve Aspose.OCR ile el yazısı metinlerini yüksek doğrulukla tanıyın, OCR performansını artırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
