@@ -1,9 +1,9 @@
 ---
-date: 2026-01-02
+date: 2026-03-07
 description: 学习如何使用 Aspose.OCR for .NET 获取 OCR 结果并从图像中提取文本。包括多语言文本识别以及如何使用 Aspose。
-linktitle: How to Get OCR Results with Aspose.OCR for .NET
+linktitle: How to Extract Text from Image Using Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-title: 如何使用 Aspose.OCR for .NET 获取 OCR 结果
+title: 如何使用 Aspose.OCR for .NET 从图像中提取文本
 url: /zh/net/text-recognition/get-recognition-result/
 weight: 11
 ---
@@ -12,29 +12,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.OCR for .NET 获取 OCR 结果
+# 如何使用 Aspose.OCR for .NET 从图像中提取文本
 
 ## 介绍
 
-如果您需要 **快速可靠地获取 OCR** 结果，Aspose.OCR for .NET 是一个稳健的选择。本教程将手把手演示如何从图像文件中提取文本、配置识别设置以及处理多语言文本识别——全部配有清晰的代码示例。完成后，您将了解如何使用 Aspose，看到完整的识别输出，并知道在哪里可以找到官方的 Aspose OCR 文档以进行更深入的探索。
+如果您需要 **快速且可靠地从图像文件中提取文本**，Aspose.OCR for .NET 是一个可靠的选择。在本教程中，我们将演示如何设置库、配置识别选项以及获取完整的 OCR 结果——包括多语言输出和布局数据。结束时，您将了解如何 **从图像文件中提取文本**、如何 **从图像中识别不同语言的文本**，以及在哪里可以找到官方的 Aspose OCR 文档以进行更深入的探索。
 
 ## 快速答案
-- **“how to get ocr” 是什么意思？** 它指的是使用 OCR 引擎从图像中检索识别后的文本及相关数据。  
-- **应该使用哪个库？** Aspose.OCR for .NET 提供了简洁的 API 和多语言支持。  
-- **需要许可证吗？** 提供免费试用版；生产环境需要许可证。  
+- **“从图像中提取文本”是什么意思？** 指的是 OCR 引擎在图像内部检测到的可读字符的提取。  
+- **我应该使用哪个库？** Aspose.OCR for .NET 提供简洁的 API、多语言支持，并且可以立即尝试 **aspose ocr trial**。  
+- **需要许可证吗？** 提供免费试用；生产环境需要许可证。  
 - **支持哪些 .NET 版本？** .NET Framework 4.5 及以上，以及 .NET Core/5/6+。  
-- **可以提取其他语言的图像文本吗？** 可以——Aspose.OCR 开箱即支持多语言文本识别。
+- **我可以提升 OCR 准确度吗？** 可以——通过选择正确的语言并调整 DPI，您可以 **improve ocr accuracy**。
 
-## 什么是 OCR，为什么使用 Aspose.OCR？
+## 如何使用 Aspose.OCR 提取图像文本？
 
-光学字符识别（OCR）将图像中的印刷或手写文字转换为可编辑、可搜索的字符串。Aspose.OCR 为 .NET 开发者简化了这一过程，提供了高级 API、内置语言模型以及易于使用的设置。无论您是在构建文档处理流水线、数据录入自动化工具，还是多语言搜索功能，Aspose.OCR 都能帮助您 **从图像文件中提取文本**，代码量极少。
+光学字符识别（OCR）将图片中的印刷或手写文本转换为可编辑、可搜索的字符串。Aspose.OCR 为 .NET 开发者简化了这一过程，提供高级 API、内置语言模型以及易用的设置。无论您是在构建文档处理流水线、数据录入自动化工具，还是多语言搜索功能，Aspose.OCR 都能帮助您 **从图像文件中提取文本**，代码量极少。
+
+## 为什么选择 Aspose.OCR 完成此任务？
+
+- **完整的语言支持** – 无需额外插件即可识别数十种语言的图像文本。  
+- **简洁的 API** – 几行代码即可将扫描文件转换为结构化的 JSON 输出。  
+- **试用友好** – 通过 **aspose ocr trial** 先行评估后再购买。  
+- **性能控制** – 调整 DPI 或 **convert scanned image** 的尺寸，以加快大文件的处理速度。
 
 ## 前置条件
 
-在开始之前，请确保您已经：
+在开始之前，请确保您已具备：
 
-- **.NET Framework**（或 .NET Core/5/6）已安装在机器上。  
-- **Aspose.OCR for .NET** – 从官方发布页面 [here](https://releases.aspose.com/ocr/net/) 下载库。  
+- 已在机器上安装 **.NET Framework**（或 .NET Core/5/6）。  
+- 已下载 **Aspose.OCR for .NET**，可从官方发布页面 [here](https://releases.aspose.com/ocr/net/) 获取。
 
 ## 导入命名空间
 
@@ -74,7 +81,7 @@ string fullPath = dataDir + "sample.png";
 
 ## 步骤 4：配置识别设置
 
-根据您的场景调整设置——无论是使用默认行为，还是自定义选项（例如多语言文本识别的语言选择）：
+根据实际场景调整设置——无论是使用默认行为，还是自定义语言选择以实现多语言文本识别：
 
 ```csharp
 RecognitionSettings settings = new RecognitionSettings
@@ -94,7 +101,7 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 
 ## 步骤 6：打印识别结果
 
-显示完整的识别输出，其中包括提取的文本、布局信息、JSON 表示以及任何警告：
+显示完整的识别输出，包括提取的文本、布局信息、JSON 表示以及任何警告：
 
 ```csharp
 PrintRecognitionResult(result);
@@ -102,41 +109,43 @@ PrintRecognitionResult(result);
 
 ## 常见问题及解决方案
 
-| 问题 | 原因 | 解决办法 |
+| 问题 | 原因 | 解决方案 |
 |------|------|----------|
-| **未返回文本** | 图像路径错误或不支持的格式 | 核实 `fullPath`，并确保图像为支持的类型（PNG、JPEG、BMP）。 |
-| **语言检测不正确** | 默认语言设置可能与图像不匹配 | 将 `settings.Language` 设置为相应的语言，以提升准确度。 |
-| **大图像导致性能下降** | 高分辨率图像会增加处理时间 | 在识别前缩放图像或将 `settings.Dpi` 调低。 |
+| **未返回文本** | 图像路径错误或不支持的格式 | 核实 `fullPath` 并确保图像为支持的类型（PNG、JPEG、BMP）。 |
+| **语言检测不正确** | 默认语言设置可能与图像不匹配 | 将 `settings.Language` 设置为相应语言，以提升准确度。 |
+| **大图像处理慢** | 高分辨率图像导致处理时间增加 | 在识别前缩放图像或将 `settings.Dpi` 调低。 |
+| **扫描文档准确度低** | 扫描图像可能包含噪声 | 使用二值化等预处理步骤，或设置 `settings.Preprocess = true` 来 **improve ocr accuracy**。 |
+| **需要处理扫描的 PDF** | PDF 必须先转换为图像 | 使用 PDF‑to‑image 库将 **convert scanned image** 页面转换为 PNG/JPEG，然后将每张图像传入 Aspose.OCR。 |
 
 ## 常见问答
 
-### Q1: Aspose.OCR 能识别多种语言的文本吗？
+### Q1：Aspose.OCR 能识别多种语言的文本吗？
 
-A1: 能，Aspose.OCR 支持多语言文本识别，能够满足各种应用场景的需求。
+A1：可以，Aspose.OCR 支持多语言文本识别，能够满足各种应用场景的需求。
 
-### Q2: Aspose.OCR for .NET 有免费试用吗？
+### Q2：Aspose.OCR 有免费试用吗？
 
-A2: 当然！您可以在 [here](https://releases.aspose.com/) 获取免费试用。
+A2：当然！您可以在此处获取免费 **aspose ocr trial** [here](https://releases.aspose.com/).
 
-### Q3: 哪里可以找到 Aspose.OCR 的完整文档？
+### Q3：在哪里可以找到 Aspose.OCR 的完整文档？
 
-A3: 请参考文档 [here](https://reference.aspose.com/ocr/net/) 获取深入信息和使用指南。
+A3：请参考文档 [here](https://reference.aspose.com/ocr/net/) 获取深入信息和使用指南。
 
-### Q4: 如何获取 Aspose.OCR 的技术支持？
+### Q4：如何获取 Aspose.OCR 的技术支持？
 
-A4: 访问 [Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16) 向社区和 Aspose 专家寻求帮助。
+A4：访问 [Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16) 与社区和 Aspose 专家交流求助。
 
-### Q5: 能否获取 Aspose.OCR 的临时许可证？
+### Q5：可以获取 Aspose.OCR 的临时许可证吗？
 
-A5: 可以，您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+A5：可以，您可以在此处获取临时许可证 [here](https://purchase.aspose.com/temporary-license/).
 
 ## 结论
 
-本指南从环境搭建到打印详细识别报告，完整阐述了 **如何使用 Aspose.OCR for .NET 获取 OCR 结果**。现在，您已经具备了 **从图像文件中提取文本**、处理多语言场景以及将 OCR 集成到 .NET 项目中的坚实基础。进一步探索官方 Aspose OCR 文档，了解自定义语言包、感兴趣区域处理和批量识别等高级功能。
+本指南介绍了如何使用 Aspose.OCR for .NET **从图像中提取文本**，包括环境搭建、执行识别以及打印详细报告。现在，您已经掌握了 **从图像文件中提取文本** 的基础，能够处理多语言场景，并将 OCR 集成到 .NET 项目中。请进一步探索官方 Aspose OCR 文档，了解自定义语言包、感兴趣区域处理以及批量识别等高级功能。
 
 ---
 
-**最后更新：** 2026-01-02  
+**最后更新：** 2026-03-07  
 **测试环境：** Aspose.OCR 23.12 for .NET  
 **作者：** Aspose  
 
