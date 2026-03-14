@@ -55,6 +55,19 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Arab szöveg felismerése PNG-ből az Aspose OCR segítségével – C# útmutató](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Tanulja meg, hogyan ismerje fel az arab nyelvű szöveget PNG képeken C#-ban az Aspose OCR segítségével.
+### [Szöveg kinyerése képből az Aspose OCR segítségével – C# programozási útmutató](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR használatával, lépésről lépésre útmutatóval.
+### [Hogyan végezzünk OCR-t C#-ban – Szöveg kinyerése képből](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Tanulja meg, hogyan hajthatja végre az OCR-t C#-ban, és nyerjen ki szöveget képekből az Aspose OCR segítségével.
+### [Hogyan használjuk az OCR-t C#-ban – Gyors szövegkivonás beolvasott dokumentumokból](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Ismerje meg, hogyan vonhat ki szöveget gyorsan beolvasott képekből C#-ban az Aspose OCR segítségével.
+### [Kereshető PDF létrehozása – Kép konvertálása EPUB formátumba és szöveg hozzáadása](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Tanulja meg, hogyan alakíthatja a képeket kereshető PDF-fé konvertálva EPUB formátumba, és adhat hozzá szöveget C#-ban az Aspose OCR segítségével.
+### [Élő OCR oktatóanyag: Szöveg felismerése videóban C#-val](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t élő videó szövegfelismerésére C#-ban, valós időben.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
