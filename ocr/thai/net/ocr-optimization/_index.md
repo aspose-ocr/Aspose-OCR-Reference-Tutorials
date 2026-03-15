@@ -61,6 +61,9 @@ weight: 25
 ### [ทำ OCR บนภาพจาก URL ใน OCR Image Recognition](./perform-ocr-on-image-from-url/)
 สำรวจการรวม OCR อย่างราบรื่นกับ Aspose.OCR สำหรับ .NET จดจำข้อความจากภาพด้วยความแม่นยำ.
 
+### [ทำ OCR บนภาพ – เพิ่มความแม่นยำด้วย Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+เรียนรู้วิธีเพิ่มความแม่นยำของ OCR บนภาพด้วย Aspose OCR ผ่านเทคนิคการปรับแต่งขั้นสูง.
+
 ### [เตรียมสี่เหลี่ยมใน OCR Image Recognition](./prepare-rectangles/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคู่มือที่ครอบคลุมของเรา เรียนรู้ขั้นตอนการเตรียมสี่เหลี่ยมสำหรับการจดจำภาพ ยกระดับแอปพลิเคชัน .NET ของคุณด้วยการรวม OCR อย่างราบรื่น.
 
@@ -72,6 +75,9 @@ weight: 25
 
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารใน OCR Image Recognition](./save-multipage-result-as-document/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET บันทึกผลลัพธ์ OCR หลายหน้าเป็นเอกสารได้อย่างง่ายดายด้วยคู่มือขั้นตอนต่อขั้นตอนที่ครอบคลุมนี้.
+
+### [ทำ OCR บนภาพด้วย GPU – คำแนะนำ C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+เรียนรู้วิธีใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose.OCR ใน C#.
 
 ## คำถามที่พบบ่อย
 
