@@ -55,6 +55,23 @@ url: /ar/net/text-recognition/
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [استخراج النص من PNG – قراءة النص من الصورة باستخدام OCR](./extract-text-from-png-read-text-from-image-with-ocr/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام Aspose.OCR للـ .NET خطوة بخطوة.
+### [كيفية استخدام OCR: تحويل الصورة إلى HTML في C#](./how-to-use-ocr-convert-image-to-html-in-c/)
+تعلم كيفية تحويل الصور إلى ملفات HTML باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية تنفيذ OCR في C# – استخراج النص العربي من الصور](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+تعلم كيفية استخدام Aspose.OCR في C# لاستخراج النص العربي من الصور بسهولة وبدقة.
+### [إنشاء ملف PDF قابل للبحث من ملفات مسح ضوئي – دليل خطوة بخطوة بلغة C#](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+تعلم تحويل ملفات المسح الضوئي إلى PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية تنفيذ OCR دفعي لصور PNG في C# – دليل كامل](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+تعلم كيفية معالجة مجموعة من صور PNG باستخدام OCR في C# خطوة بخطوة لإنشاء نصوص قابلة للبحث بسهولة.
+### [استخراج النص من الصورة باستخدام Aspose OCR – دليل خطوة بخطوة](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR خطوة بخطوة لتطبيقات .NET الخاصة بك.
+### [كيفية تحليل JSON باستخدام محرك OCR في C# – دليل خطوة بخطوة كامل](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+تعلم كيفية استخراج وتحليل نتائج OCR بصيغة JSON باستخدام محرك OCR في C# خطوة بخطوة.
+### [دليل سريع لتقنية OCR بلغة C#: استخراج النص من الصور (WebP، صورة)](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+اكتشف طريقة استخراج النص من صور WebP والصور باستخدام Aspose.OCR في C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
