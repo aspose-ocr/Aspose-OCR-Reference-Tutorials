@@ -40,6 +40,8 @@ Khám phá Aspose.OCR cho .NET, một giải pháp OCR mạnh mẽ để nhận 
 Giải phóng sức mạnh của Aspose.OCR cho .NET, một giải pháp mạnh mẽ để nhận dạng hình ảnh. Tìm hiểu cách tính góc nghiêng một cách dễ dàng.
 ### [Tính toán góc nghiêng từ URI trong nhận dạng hình ảnh OCR](./calculate-skew-angle-from-uri/)
 Khám phá Aspose.OCR cho .NET để dễ dàng tính toán các góc nghiêng trong nhận dạng hình ảnh OCR. Nâng cao dự án của bạn với độ chính xác và hiệu quả.
+### [Cách chỉnh nghiêng ảnh và làm sạch bản quét – Hướng dẫn C# đầy đủ](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Khám phá cách sử dụng Aspose.OCR cho .NET để chỉnh nghiêng ảnh và làm sạch bản quét trong C# một cách hiệu quả.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

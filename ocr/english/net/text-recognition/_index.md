@@ -55,6 +55,17 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [how to ocr japanese with Aspose OCR in C# – Full Guide](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Learn how to perform OCR on Japanese text using Aspose OCR in C#. Follow our comprehensive guide for accurate recognition.
+### [Create searchable PDF from Image with OCR – C# Guide](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Learn how to convert images into searchable PDFs using Aspose.OCR in C#. Follow our step-by-step guide to add OCR text layers effortlessly.
+### [Extract Table from Image with Aspose OCR – Complete C# Guide](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Learn how to extract tables from images using Aspose OCR in C#. Follow our comprehensive guide for accurate table extraction.
+### [Extract Text from Image in C# – Complete Offline OCR Guide](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Learn how to perform offline OCR on images using Aspose.OCR in C#. Follow our complete step-by-step guide for accurate text extraction.
+### [Create docx from image with Aspose OCR – Step‑by‑Step C# Guide](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Learn how to generate DOCX files from images using Aspose OCR in C#. Follow our step-by-step guide for seamless document creation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
