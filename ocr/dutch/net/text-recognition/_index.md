@@ -41,7 +41,6 @@ Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer tekst moeite
 
 Navigeer door de complexiteit van het herkennen van tabellen in OCR-beeldherkenning met Aspose.OCR voor .NET. Onze uitgebreide gids stelt u in staat het volledige potentieel van Aspose.OCR te benutten, waardoor nauwkeurige en efficiënte tabelherkenning in uw toepassingen wordt gegarandeerd. Verbeter uw projecten met de toonaangevende OCR-oplossing.
 
-Klaar om een revolutie teweeg te brengen in uw .NET-applicaties? Duik in onze tekstherkenningstutorials en benut de kracht van Aspose.OCR voor nauwkeurige en efficiënte tekstherkenning in afbeeldingen. Download nu en begin aan een reis met verbeterde OCR-mogelijkheden.
 ## Tutorials voor tekstherkenning
 ### [Krijg keuzes voor herkende tekens in OCR-beeldherkenning](./get-choices-for-recognized-characters/)
 Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Volg onze stapsgewijze handleiding om keuzes voor herkende karakters in beeldherkenning op te halen.
@@ -55,6 +54,17 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Tabel extraheren uit afbeelding met Aspose OCR – Complete C#-gids](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Leer stap voor stap hoe u tabellen uit afbeeldingen haalt met Aspose OCR in C#.
+### [Hoe OCR Japans met Aspose OCR in C# – Volledige gids](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Leer stap voor stap hoe u Japanse tekst in afbeeldingen kunt herkennen met Aspose OCR en C#.
+### [Maak doorzoekbare PDF van afbeelding met OCR – C#-gids](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Leer stap voor stap hoe u met Aspose.OCR een doorzoekbare PDF maakt vanuit een afbeelding in C#.
+### [Tekst extraheren uit afbeelding in C# – Complete offline OCR-gids](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Leer stap voor stap hoe u offline OCR gebruikt om tekst uit afbeeldingen te extraheren met Aspose.OCR in C#.
+### [Maak docx van afbeelding met Aspose OCR – Stapsgewijze C#-gids](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Leer stap voor stap hoe u met Aspose OCR een DOCX-bestand maakt vanuit een afbeelding in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

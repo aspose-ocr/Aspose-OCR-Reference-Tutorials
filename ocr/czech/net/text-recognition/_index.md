@@ -19,7 +19,7 @@ Jste připraveni posunout své .NET aplikace na další úroveň? Ponořte se do
 
 ## Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR
 
-V tomto tutoriálu vás provedeme využitím výkonu Aspose.OCR pro .NET ke zlepšení vašich schopností rozpoznávání obrázků. Naučte se krok za krokem, jak načíst volby pro rozpoznané znaky, a zajistit tak přesnost a efektivitu ve vašich aplikacích. Vylepšete svůj zážitek z OCR pomocí špičkových funkcí Aspose.OCR.
+V tomto tutoriálu vás provedeme využitím výkonu Aspose.OCR pro .NET ke zlepšení vašich schopností rozpoznávání obrázků. Naučte se krok za krokem, jak načíst volby pro rozpoznané znaky, a zajistit tak přesnost a efektivitu ve svých aplikacích. Vylepšete svůj zážitek z OCR pomocí špičkových funkcí Aspose.OCR.
 
 ## Získejte výsledek rozpoznávání v rozpoznávání obrazu OCR
 
@@ -55,6 +55,17 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Extrahujte tabulku z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose OCR extrahovat tabulky z obrázků v C# aplikacích.
+### [Jak provést OCR japonštiny pomocí Aspose OCR v C# – Kompletní průvodce](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Kompletní návod, jak rozpoznávat japonský text pomocí Aspose OCR v C# aplikacích.
+### [Vytvořte prohledávatelný PDF z obrázku pomocí OCR – průvodce C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Naučte se, jak pomocí Aspose.OCR vytvořit prohledávatelný PDF soubor z obrázku v C# aplikacích.
+### [Extrahujte text z obrázku v C# – Kompletní offline OCR průvodce](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Kompletní průvodce, jak offline pomocí Aspose.OCR v C# extrahovat text z obrázků bez připojení k internetu.
+### [Vytvořte DOCX z obrázku pomocí Aspose OCR – krok za krokem průvodce v C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Kompletní návod, jak pomocí Aspose OCR v C# převést obrázek na soubor DOCX s textem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
