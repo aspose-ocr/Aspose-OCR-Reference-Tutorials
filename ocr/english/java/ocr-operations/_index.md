@@ -71,14 +71,27 @@ In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
+
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
+
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+
+### [How to Enable OCR in Java with Aspose – Complete Step‑by‑Step Guide](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Step‑by‑step guide to enable OCR in Java using Aspose, covering setup, configuration, and code examples.
+
+### [Recognize Text from Image with Aspose OCR Java – Complete Guide](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Full guide to recognize text from images using Aspose OCR for Java, covering setup, processing, and optimization.
+
+### [Extract Hindi Text from Images – Java OCR Example](./extract-hindi-text-from-images-java-ocr-example/)
+Learn how to extract Hindi text from images using Aspose.OCR for Java, with code examples and language settings.
 
 ## Frequently Asked Questions
 

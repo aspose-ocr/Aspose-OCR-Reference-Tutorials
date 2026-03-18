@@ -60,7 +60,7 @@ Keine mühsame PDF‑Textextraktion mehr. Tauchen Sie in das Tutorial ein und r�
 ## OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java
 Erleben Sie die nächste Stufe der Texterkennung in Java mit Aspose.OCR. Unser Tutorial zur Erkennung von Text in TIFF‑Bildern ist darauf ausgelegt, den Prozess für Sie mühelos zu gestalten. Laden Sie jetzt herunter für ein nahtloses OCR‑Erlebnis und erleben Sie die Präzision und Geschwindigkeit, die Aspose.OCR bietet.
 
-Verabschieden Sie sich von manueller Textextraktion aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
+Verabschieden Sie sich von manueller Textertraktion aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
@@ -77,6 +77,12 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [Bildtext mit Aspose OCR erkennen – Vollständiges Java OCR‑Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von Bilddateien mit Aspose OCR in Java erklärt.
+### [Text aus Bild mit Aspose OCR Java erkennen – Vollständige Anleitung](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Entdecken Sie die vollständige Anleitung zur Texterkennung aus Bildern mit Aspose OCR Java. Schritt‑für‑Step zum perfekten Ergebnis.
+### [Wie man OCR in Java mit Aspose aktiviert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Erfahren Sie, wie Sie OCR in Java mit Aspose aktivieren, inklusive vollständiger Schritt‑für‑Schritt‑Anleitung.
+### [Hindi-Text aus Bildern extrahieren – Java OCR‑Beispiel](./extract-hindi-text-from-images-java-ocr-example/)
+Ein Beispiel, das zeigt, wie man mit Aspose.OCR für Java Hindi‑Text aus Bilddateien erkennt und extrahiert.
 
 ## Häufig gestellte Fragen
 
