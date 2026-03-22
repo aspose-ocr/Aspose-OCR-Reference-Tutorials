@@ -55,6 +55,21 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Tutorial OCR C# – Ekstrak Teks dari Gambar dengan Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam proyek C#. Ikuti panduan langkah demi langkah kami.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks Arab dari JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Pelajari cara mengekstrak teks berbahasa Arab dari file JPG menggunakan Aspose.OCR dalam proyek C# dengan langkah mudah.
+### [Buat PDF yang Dapat Dicari dari Gambar di C# – Panduan Lengkap](./create-searchable-pdf-from-image-in-c-full-guide/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C#. Ikuti panduan lengkap langkah demi langkah.
+### [Tutorial OCR C# – Ekstrak Teks Urdu dari Gambar PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Pelajari cara mengekstrak teks Urdu dari file PNG menggunakan Aspose.OCR dalam proyek C#. Ikuti panduan langkah demi langkah kami.
+### [Cara Batch OCR di C# – Ekstrak Teks dari Gambar Secara Cepat](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Pelajari cara melakukan OCR secara batch di C# untuk mengekstrak teks dari banyak gambar dengan cepat dan efisien.
+### [Cara Membuat PDF/A dari Gambar Pindai di C# – Panduan Langkah‑per‑Langkah](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Pelajari cara membuat PDF/A dari gambar yang dipindai menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
+### [Mengenali Teks Tulisan Tangan di C# dengan Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Pelajari cara mengenali teks tulisan tangan di C# dengan Aspose OCR. Ikuti panduan langkah demi langkah kami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,21 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de t
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Tutorial c# OCR – Extrair Texto de Imagens com Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Aprenda a usar Aspose OCR em C# para extrair texto de imagens de forma simples e eficiente.
+### [Tutorial c# OCR – Extrair Texto Urdu de Imagens PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Aprenda a usar Aspose.OCR em C# para extrair texto em Urdu de imagens PNG de forma simples e eficaz.
+### [Como usar OCR em C# – Extrair texto árabe de JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Aprenda a usar Aspose.OCR em C# para extrair texto em árabe de imagens JPG de forma simples e eficaz.
+### [Criar PDF pesquisável a partir de imagem em C# – Guia completo](./create-searchable-pdf-from-image-in-c-full-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR em C#, passo a passo.
+### [Como fazer OCR em lote em C# – Extrair texto de imagens rapidamente](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Aprenda a processar várias imagens de uma vez usando Aspose.OCR em C#, acelerando a extração de texto em lote.
+### [Como criar PDF/A a partir de imagens digitalizadas em C# – Guia passo a passo](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Aprenda a gerar PDFs/A a partir de imagens escaneadas usando Aspose.OCR em C#, passo a passo.
+### [Reconhecer texto manuscrito em C# usando Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Aprenda a usar Aspose OCR em C# para reconhecer texto manuscrito em imagens de forma precisa e eficiente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
