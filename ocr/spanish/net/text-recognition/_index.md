@@ -27,7 +27,7 @@ Explore las capacidades de Aspose.OCR para .NET y transforme la forma en que man
 
 ## Obtenga resultados como JSON en el reconocimiento de imágenes OCR
 
-Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados de OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
+Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
 
 ## Modo de detección de áreas OCR en reconocimiento de imágenes OCR
 
@@ -46,15 +46,28 @@ Navegue por las complejidades del reconocimiento de tablas en el reconocimiento 
 ### [Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR](./get-choices-for-recognized-characters/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
 ### [Obtener el resultado del reconocimiento en el reconocimiento de imágenes OCR](./get-recognition-result/)
-Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto de texto en imágenes.
+Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto del texto en imágenes.
 ### [Obtenga resultados como JSON en el reconocimiento de imágenes OCR](./get-result-as-json/)
 Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en formato JSON sin esfuerzo. Mejore el reconocimiento de sus imágenes con esta guía paso a paso.
 ### [Modo de detección de áreas OCR en reconocimiento de imágenes OCR](./ocr-detect-areas-mode/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del texto de las imágenes. Explore el modo de detección de áreas de OCR para obtener resultados precisos.
 ### [Reconocer PDF en reconocimiento de imágenes OCR](./recognize-pdf/)
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de integración perfecta.
+### [Cómo usar Aspose – Extraer texto de PDF en C# – Guía completa](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Aprenda a extraer texto de archivos PDF con Aspose OCR en C# mediante una guía paso a paso completa.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [Ejemplo de C# OCR – Extraer texto de imágenes con Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Aprenda a extraer texto de imágenes usando Aspose OCR en C#, con un ejemplo práctico paso a paso.
+### [Extraer texto de formulario con Aspose OCR – Guía paso a paso](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Aprenda a extraer texto de formularios usando Aspose OCR con una guía práctica paso a paso.
+### [Crear PDF buscable a partir de una imagen – Guía completa en C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Aprenda a generar PDFs buscables desde imágenes usando Aspose.OCR en C#, con una guía paso a paso completa.
+### [Extraer texto de imagen en C# – Guía completa](./extract-text-from-image-in-c-full-guide/)
+Aprenda a extraer texto de imágenes en C# con Aspose OCR mediante una guía completa paso a paso.
+### [Extraer texto de imagen en C# – Tutorial OCR asíncrono](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Aprenda a extraer texto de imágenes en C# de forma asíncrona usando Aspose OCR con una guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
