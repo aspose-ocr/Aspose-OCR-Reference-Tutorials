@@ -55,6 +55,19 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Jak provést OCR arabštiny v C# – krok za krokem průvodce](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.OCR pro .NET rozpoznávat arabský text v C# s podrobným krok za krokem návodem.
+### [Jak použít Aspose – převést obrázek na ePub v C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Naučte se pomocí Aspose.OCR převést obrázek do formátu ePub v C# a integrovat jej do svých aplikací.
+### [Rozpoznat text z PNG – Aspose OCR C# JSON‑L tutoriál](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Naučte se, jak pomocí Aspose.OCR v C# získat rozpoznaný text z PNG souboru ve formátu JSON‑L.
+### [c# OCR tutoriál – Extrahování textu z obrázku pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z obrázku a získat výsledek ve formátu JSON.
+### [Jak dávkově provádět OCR v C# – Extrahovat text z PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Naučte se, jak dávkově provádět OCR v C# a extrahovat text z více souborů PNG pomocí Aspose.OCR.
+### [Rozpoznat text z obrázku v C# – Kompletní průvodce Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Kompletní průvodce rozpoznáváním textu z obrázku v C# pomocí Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
