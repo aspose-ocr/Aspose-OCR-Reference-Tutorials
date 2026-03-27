@@ -102,6 +102,9 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 ### [取得 Aspose.OCR 中文字區域的矩形框](./get-rectangles-with-text-areas/)
 發掘 Aspose.OCR for Java 的強大功能，逐步學習如何無縫從影像中提取文字。本指南即刻下載，提升文字辨識效率。
 
+### [在 Java 中從影像提取文字 – 完整 OCR 範例](./extract-text-from-image-in-java-complete-ocr-example/)
+完整示範如何在 Java 使用 Aspose.OCR 從影像提取文字，涵蓋授權設定、前處理與結果輸出。
+
 ---
 
 **最後更新：** 2025-12-08  
