@@ -55,6 +55,17 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Rozpoznaj tekst z obrazu w C# – Kompletny samouczek Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Pełny przewodnik, jak używać Aspose.OCR w C# do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Wykrywanie języka z obrazu przy użyciu Aspose OCR – samouczek C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Dowiedz się, jak używać Aspose OCR w C# do automatycznego wykrywania języka tekstu na obrazach.
+### [Wyodrębnij tekst z obrazu w C# – Kompletny przykład Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Kompletny przykład użycia Aspose.OCR w C# do wyodrębniania tekstu z obrazów, z pełnym kodem i wyjaśnieniami.
+### [Jak wykonać wsadowe OCR w C# – konwertować wielostronicowy TIFF na tekst](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Poznaj, jak wsadowo przetwarzać wielostronicowe pliki TIFF w C# z Aspose.OCR, aby szybko uzyskać tekst.
+### [Wyodrębnij tekst z obrazu w C# – Przewodnik po OCR offline](./extract-text-from-image-in-c-offline-ocr-guide/)
+Kompletny przewodnik, jak używać Aspose.OCR w trybie offline w C# do wyodrębniania tekstu z obrazów, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
