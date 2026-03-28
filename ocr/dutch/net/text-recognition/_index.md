@@ -55,6 +55,17 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Herken tekst uit afbeelding in C# – Complete Aspose OCR-tutorial](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen kunt extraheren met een volledige stap‑voor‑stap handleiding.
+### [Detecteer taal uit afbeelding met Aspose OCR – C#-tutorial](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Leer hoe u met Aspose.OCR de taal van tekst in een afbeelding kunt detecteren met C#.
+### [Tekst extraheren uit afbeelding in C# – Complete Aspose OCR‑voorbeeld](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Volg deze volledige handleiding om met Aspose.OCR in C# tekst uit afbeeldingen te extraheren.
+### [Tekst extraheren uit afbeelding in C# – Offline OCR-gids](./extract-text-from-image-in-c-offline-ocr-guide/)
+Leer hoe u offline OCR kunt gebruiken om tekst uit afbeeldingen te extraheren met C#, zonder internetverbinding.
+### [Batch OCR in C# – Multi‑page TIFF naar tekst converteren](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Leer hoe u met Aspose.OCR meerdere pagina's van een TIFF‑bestand in één batch kunt verwerken en tekst kunt extraheren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
