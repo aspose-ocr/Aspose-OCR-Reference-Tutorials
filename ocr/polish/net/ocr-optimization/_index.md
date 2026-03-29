@@ -63,8 +63,6 @@ Funkcja dodatkowa OCR dzięki [Aspose.OCR for .NET](./result-correction-with-spe
 
 Bezproblemowo zapisz wielostronne wyniki OCR jako dokumenty przy użyciu Aspose.OCR dla .NET. Nasz [przewodnik krok po kroku](./save-multipage-result-as-document/) odblok posiada pełną moc tworzenia dokumentów. Płynnie zintegrowane Aspose.OCR i rozwiązania OCR w wielostronicowych dokumentach z urządzeniem.
 
-Dodatek z listami samouczków Aspose.OCR Dla .NET można uzyskać dostęp do dodatkowych zasobów i być na bieżąco z najnowszymi wydaniami w aktualizacjach OCR. Zanurz się w świecie precyzji i wydajności dzięki samouczkom Aspose.OCR dla .NET.
-
 ## Poradniki optymalizacji OCR
 ### [Wykonywanie OCR na obrazie z URL w rozpoznawaniu obrazu OCR](./perform-ocr-on-image-from-url/)
 Odkryj płynną integrację OCR z Aspose.OCR for .NET. Rozpoznawaj tekst z obrazów z precyzją.
@@ -80,6 +78,15 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR GPU w C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Wykorzystaj GPU przy rozpoznawaniu tekstu z obrazu w C# dzięki Aspose OCR, aby przyspieszyć przetwarzanie i zwiększyć wydajność.
+
+### [Utwórz przeszukiwalny PDF w C# – Pełny przewodnik programistyczny](./create-searchable-pdf-in-c-full-programming-guide/)
+Dowiedz się, jak generować przeszukiwalne pliki PDF w C# przy użyciu Aspose.OCR, krok po kroku.
+
+### [Wyodrębnianie tekstu z obrazu w C# – przewodnik po automatycznym obracaniu OCR i prostowaniu](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Poznaj, jak używać Aspose.OCR w C# do automatycznego obracania i prostowania obrazów przed rozpoznaniem tekstu.
 
 ## Często zadawane pytania
 

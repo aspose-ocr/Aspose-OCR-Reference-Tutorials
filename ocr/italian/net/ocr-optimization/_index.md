@@ -51,7 +51,7 @@ Sei pronto a liberare tutto il potenziale di Aspose.OCR per .NET? La nostra guid
 Migliora la precisione dell'OCR con Aspose.OCR per .NET esplorando i [filtri di pre‑elaborazione](./preprocessing-filters-for-image/). Scarica ora e scopri come perfezionare le tue immagini prima del riconoscimento. Questo tutorial garantisce un'integrazione fluida, aumentando precisione ed efficienza.
 
 ## Correzione dei Risultati con Controllo Ortografico in Riconoscimento Immagine OCR
-Raggiungi una precisione OCR senza pari con [Aspose.OCR per .NET](./result-correction-with-spell-checking/). Il nostro tutorial sulla correzione dei risultati con il controllo ortografico ti consente di personalizzare i dizionari, correggere gli errori di ortografia e garantire un riconoscimento del testo privo di errori senza sforzo. Immergiti in un mondo di precisione con Aspose.OCR.
+Raggiungi una precisione OCR senza pari con [Aspose.OCR per .NET](./result-correction-with-spell-checking/). Il nostro tutorial sulla correzione dei risultati con il controllo ortografico ti consente di personalizzare i dizionari, correggere gli errori di ortografia e garantire un riconoscimento del testo privo di errori senza sforzo. Immergiti in un mondo di precisione con Aspose.OCR per .NET.
 
 ## Salva Risultato Multipagina come Documento in Riconoscimento Immagine OCR
 Salva senza sforzo i risultati OCR multipagina come documenti con Aspose.OCR per .NET. La nostra [guida passo‑passo](./save-multipage-result-as-document/) sblocca il pieno potenziale della creazione di documenti. Integra perfettamente Aspose.OCR e trasforma i tuoi risultati OCR in documenti multipagina con facilità.
@@ -69,6 +69,12 @@ Esplora Aspose.OCR per .NET. Migliora la precisione dell'OCR con i filtri di pre
 Migliora la precisione dell'OCR con Aspose.OCR per .NET. Correggi le ortografie, personalizza i dizionari e ottieni un riconoscimento del testo privo di errori senza sforzo.
 ### [Salva Risultato Multipagina come Documento in Riconoscimento Immagine OCR](./save-multipage-result-as-document/)
 Sblocca il potenziale di Aspose.OCR per .NET. Salva senza sforzo i risultati OCR multipagina come documenti con questa guida completa passo‑passo.
+### [Riconosci testo da immagine con Aspose OCR GPU in C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Scopri come utilizzare la GPU con Aspose OCR in C# per riconoscere rapidamente il testo dalle immagini.
+### [Crea PDF ricercabile in C# – Guida completa di programmazione](./create-searchable-pdf-in-c-full-programming-guide/)
+Impara a generare PDF ricercabili con Aspose.OCR in C#, includendo impostazioni avanzate e salvataggio ottimizzato.
+### [Estrai testo da immagine in C# – Guida all'OCR con rotazione automatica e correzione inclinazione](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Scopri come ruotare automaticamente le immagini e correggere l'inclinazione per un OCR più preciso con Aspose.OCR in C#.
 
 ## Domande Frequenti
 
