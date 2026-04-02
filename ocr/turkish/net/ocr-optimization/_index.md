@@ -70,10 +70,15 @@ Aspose.OCR for .NET ile sorunsuz OCR entegrasyonunu keşfedin. Görüntülerden 
 Aspose.OCR for .NET’ün potansiyelini kapsamlı rehberimizle ortaya çıkarın. Görüntü tanıma için dikdörtgenleri adım adım nasıl hazırlayacağınızı öğrenin. .NET uygulamalarınızı sorunsuz OCR entegrasyonu ile yükseltin.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu artırın. Sorunsuz entegrasyon için şimdi indirin.
+### [OCR için Görüntü Ön İşleme – Aspose.OCR ile Doğruluğu Artırın](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Aspose.OCR ile görüntüleri ön işleme adımlarıyla OCR doğruluğunu artırın.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [Aspose OCR ile PNG'den Metin Tanıma – GPU Hızlandırmalı Toplu Demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Aspose OCR kullanarak PNG dosyalarından toplu olarak metin tanıma ve GPU hızlandırmasıyla performansı artırma.
+### [C# ile Aspose OCR kullanarak Aranabilir PDF Oluşturma](./create-searchable-pdf-with-aspose-ocr-in-c/)
 
 ## Sıkça Sorulan Sorular
 
