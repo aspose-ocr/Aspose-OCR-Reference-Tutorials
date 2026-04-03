@@ -52,9 +52,19 @@ Scatena la potenza di Aspose.OCR per .NET. Impara a ottenere risultati OCR in fo
 ### [Modalità Rileva aree OCR in Riconoscimento immagini OCR](./ocr-detect-areas-mode/)
 Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconoscimento del testo delle immagini. Esplora la modalità Rileva aree OCR per risultati precisi.
 ### [Riconoscere PDF nel riconoscimento immagini OCR](./recognize-pdf/)
-Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
+Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo e integralo perfettamente nelle tue applicazioni.
+### [Come fare OCR su PDF in C# – Guida completa Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Scopri come eseguire OCR su PDF in C# con Aspose OCR, passo passo, per estrarre testo in modo semplice ed efficiente.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Esegui OCR su immagine con Aspose in C# – Guida completa passo‑passo](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Scopri come eseguire OCR su un'immagine usando Aspose in C# con una guida dettagliata passo dopo passo.
+### [Riconosci testo da immagine in C# – Guida completa Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Scopri come riconoscere testo da un'immagine in C# con Aspose OCR grazie a una guida completa passo‑passo.
+### [Estrai testo da immagine in C# – Tutorial OCR asincrono](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Scopri come estrarre testo da un'immagine in C# utilizzando OCR asincrono con Aspose, tramite una guida passo passo.
+### [Come eseguire OCR in C# – Estrarre testo da immagine](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Scopri come eseguire OCR su un'immagine in C# con Aspose, passo passo, per estrarre testo in modo semplice ed efficiente.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
