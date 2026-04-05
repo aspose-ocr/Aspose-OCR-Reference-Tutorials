@@ -52,9 +52,24 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [كيفية استخدام Aspose للتعرف الضوئي على الحروف في C# – دليل خطوة بخطوة](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+تعلم كيفية تطبيق Aspose.OCR في C# خطوة بخطوة لتحسين التعرف الضوئي على الحروف في تطبيقاتك.
+### [كيفية استخدام OCR في C# – استخراج النص من الصور وملفات DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+تعلم كيفية استخراج النص من الصور وملفات DJVU باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية استخدام Aspose – استخراج بيانات الفاتورة من الصور في C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+تعلم كيفية استخراج بيانات الفواتير من الصور باستخدام Aspose في C# خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من TIF – تحويل الصورة إلى PDF، إضافة بيانات تعريف PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+تعلم كيفية تحويل ملفات TIF إلى PDF قابل للبحث وإضافة بيانات تعريف PDF باستخدام Aspose.OCR لـ .NET.
+### [التعرف على النص الصيني باستخدام Aspose OCR في C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+تعلم كيفية التعرف على النص الصيني باستخدام Aspose OCR في C# خطوة بخطوة.
+### [كيفية تنفيذ OCR دفعيًا في C# – دليل كامل لاستخراج النص من الصور بالجملة](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+اكتشف طريقة تنفيذ OCR على دفعات في C# لاستخراج النص من صور متعددة بسهولة باستخدام Aspose.OCR.
+### [استخراج النص من ملفات TIFF باستخدام محرك Aspose OCR – مثال كامل](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+استخراج النص من ملفات TIFF باستخدام محرك Aspose OCR مع مثال كامل خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
