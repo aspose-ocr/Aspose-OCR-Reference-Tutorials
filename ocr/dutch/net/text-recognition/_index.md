@@ -55,6 +55,21 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Hoe Aspose te gebruiken voor OCR in C# – Stapsgewijze handleiding](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Leer hoe u Aspose OCR in C# kunt integreren met een duidelijke stap‑voor‑stap handleiding.
+### [Maak doorzoekbare PDF van TIF – Converteer afbeelding naar PDF, voeg PDF-metadata toe](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Leer hoe u een doorzoekbare PDF maakt van een TIF-afbeelding, deze converteert naar PDF en metadata toevoegt met Aspose.OCR.
+### [Hoe Aspose te gebruiken – Gegevens van bonnen extraheren uit afbeeldingen in C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Leer hoe u met Aspose OCR bongegevens uit afbeeldingen haalt en verwerkt in uw C#-applicatie.
+### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeeldingen en DJVU‑bestanden](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Leer hoe u met Aspose.OCR in C# tekst uit zowel afbeeldingen als DJVU‑bestanden kunt extraheren.
+### [Herken Chinese tekst met Aspose OCR in C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Ontdek hoe u Chinese tekst nauwkeurig kunt extraheren met Aspose OCR in C#.
+### [Hoe batch-OCR in C# – Complete gids voor bulkafbeeldingtekstextractie](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Leer hoe u met Aspose.OCR in C# grote aantallen afbeeldingen efficiënt kunt verwerken en tekst extraheren in batch.
+### [Tekst extraheren uit TIFF met Aspose OCR-engine – Volledig voorbeeld](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Leer hoe u met Aspose OCR tekst uit TIFF‑afbeeldingen kunt extraheren met een volledig voorbeeld.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

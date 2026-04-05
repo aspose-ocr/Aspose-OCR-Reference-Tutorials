@@ -55,6 +55,20 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [วิธีใช้ Aspose สำหรับ OCR ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# อย่างละเอียดด้วยคำแนะนำทีละขั้นตอนเพื่อการจดจำข้อความที่แม่นยำ
+### [สร้าง PDF ที่ค้นหาได้จาก TIF – แปลงภาพเป็น PDF, เพิ่มเมตาดาต้า PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+เรียนรู้วิธีแปลงไฟล์ TIF เป็น PDF ที่ค้นหาได้ พร้อมเพิ่มเมตาดาต้า PDF ด้วย Aspose.OCR สำหรับ .NET อย่างละเอียด
+### [วิธีใช้ Aspose – ดึงข้อมูลใบเสร็จจากภาพใน C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+เรียนรู้วิธีดึงข้อมูลใบเสร็จจากภาพด้วย Aspose OCR ใน C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพและไฟล์ DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+### [จดจำข้อความภาษาจีนด้วย Aspose OCR ใน C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความภาษาจีนจากรูปภาพอย่างแม่นยำ
+### [วิธีทำ Batch OCR ใน C# – คู่มือครบวงจรสำหรับการดึงข้อความจากภาพจำนวนมาก](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อประมวลผล OCR แบบกลุ่มสำหรับภาพหลายไฟล์อย่างมีประสิทธิภาพ
+### [ดึงข้อความจากไฟล์ TIFF ด้วย Aspose OCR Engine – ตัวอย่างครบถ้วน](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+เรียนรู้วิธีดึงข้อความจากไฟล์ TIFF อย่างละเอียดด้วย Aspose OCR Engine ผ่านตัวอย่างครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
