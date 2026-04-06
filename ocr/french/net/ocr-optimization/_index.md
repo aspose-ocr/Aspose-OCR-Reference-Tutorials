@@ -54,6 +54,9 @@ Plongez dans le monde de l’OCR avec Aspose.OCR pour .NET. Notre tutoriel sur [
 
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET en explorant les [preprocessing filters](./preprocessing-filters-for-image/). Téléchargez dès maintenant et découvrez comment affiner vos images avant la reconnaissance. Ce tutoriel assure une intégration fluide, avec précision et efficacité.
 
+### [Améliorer le contraste d'image en C# OCR – Guide complet](./boost-image-contrast-in-c-ocr-complete-guide/)
+Apprenez à augmenter le contraste des images pour améliorer la précision OCR avec Aspose.OCR en C#.
+
 ## Correction des résultats avec vérification orthographique dans la reconnaissance d'image OCR
 
 Obtenez une précision OCR inégalée avec [Aspose.OCR pour .NET](./result-correction-with-spell-checking/). Notre tutoriel sur la correction des résultats avec la vérification orthographique vous permet de personnaliser les dictionnaires, de corriger les fautes et de garantir une reconnaissance de texte sans erreur en toute simplicité. Plongez dans un univers de précision avec Aspose.OCR.
