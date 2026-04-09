@@ -49,12 +49,22 @@ url: /th/net/text-recognition/
 สำรวจ Aspose.OCR สำหรับ .NET ซึ่งเป็นโซลูชัน OCR ที่ทรงพลังสำหรับการจดจำข้อความในรูปภาพได้อย่างราบรื่น
 ### [รับผลลัพธ์เป็น JSON ในการรับรู้ภาพ OCR](./get-result-as-json/)
 ปลดปล่อยพลังของ Aspose.OCR สำหรับ .NET เรียนรู้การรับผลลัพธ์ OCR ในรูปแบบ JSON ได้อย่างง่ายดาย ปรับปรุงการจดจำรูปภาพของคุณด้วยคำแนะนำทีละขั้นตอนนี้
+### [ทำ OCR บนภาพเป็น JSON ด้วย C# และ Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+เรียนรู้วิธีแปลงภาพเป็นผลลัพธ์ OCR ในรูปแบบ JSON ด้วย C# และ Aspose อย่างง่ายดาย
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากภาพอย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพได้อย่างรวดเร็วและแม่นยำในไม่กี่ขั้นตอน
 ### [OCR ตรวจจับโหมดพื้นที่ในการจดจำภาพ OCR](./ocr-detect-areas-mode/)
 ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความรูปภาพที่มีประสิทธิภาพ สำรวจโหมดตรวจจับพื้นที่ OCR เพื่อผลลัพธ์ที่แม่นยำ
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [วิธีอ่านภาษาซิริลิก: แปลงภาพเป็นข้อความด้วย Aspose OCR](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+เรียนรู้วิธีแปลงภาพที่มีข้อความภาษาซิริลิกเป็นข้อความด้วย Aspose OCR อย่างง่ายดาย
+### [จดจำข้อความภาษาจีนจาก JPG ด้วย Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+### [สร้าง PDF ที่ค้นหาได้ – คู่มือ C# ครบสำหรับแปลงภาพเป็น PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพด้วย C# และ Aspose.OCR อย่างละเอียดในขั้นตอนเดียว
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
