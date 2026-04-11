@@ -62,6 +62,8 @@ Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extra
 Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Jak zakázat OCR v C# – Offline průvodce Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nastavení a optimalizace výkonu.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

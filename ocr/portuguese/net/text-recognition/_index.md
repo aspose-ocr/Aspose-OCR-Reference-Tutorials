@@ -53,8 +53,19 @@ Liberte o poder do Aspose.OCR para .NET. Aprenda a obter resultados de OCR no fo
 Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de texto de imagem. Explore o modo de detecção de áreas de OCR para obter resultados precisos.
 ### [Reconhecer PDF em reconhecimento de imagem OCR](./recognize-pdf/)
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
+### [Criar PDF pesquisável em C# – Guia completo](./create-searchable-pdf-in-c-complete-guide/)
+Aprenda a criar PDFs pesquisáveis em C# usando Aspose.OCR, seguindo um guia completo passo a passo.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Extrair texto de imagem em C# – Guia completo de OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Aprenda a extrair texto de imagens usando C# com Aspose.OCR, seguindo um guia completo passo a passo.
+### [Extrair texto de TIFF com OCR em lote em C# – Guia completo](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Aprenda a extrair texto de arquivos TIFF usando OCR em lote com C# e Aspose.OCR, seguindo um guia passo a passo.
+### [Reconhecer texto de PNG em C# – Guia completo de OCR e verificação ortográfica](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Aprenda a reconhecer texto de PNG em C# com OCR completo e verificação ortográfica passo a passo.
+### [Converter imagem para JSON – Tutorial OCR em C# para recibos](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Aprenda a converter imagens de recibos em JSON usando OCR com C# e Aspose.OCR, passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

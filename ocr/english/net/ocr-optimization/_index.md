@@ -72,6 +72,8 @@ Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Down
 Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+### [How to Improve OCR Accuracy in C# with Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Boost OCR precision in C# by applying advanced preprocessing, language models, and custom dictionaries with Aspose OCR.
 
 ## Frequently Asked Questions
 
