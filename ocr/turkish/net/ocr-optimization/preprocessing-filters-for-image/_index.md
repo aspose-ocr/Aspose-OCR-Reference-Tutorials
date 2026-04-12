@@ -1,10 +1,14 @@
 ---
-date: 2025-12-22
-description: Aspose.OCR for .NET kullanarak görüntü OCR'sını nasıl ön işleme yapacağınızı
-  öğrenin ve güçlü ön işleme filtreleriyle OCR doğruluğunu artırın.
-linktitle: Preprocess Image OCR with Aspose.OCR Filters for .NET
+date: 2026-04-12
+description: AspOCR'yi .NET’te görüntü OCR’sini ön işleme almak için nasıl kullanacağınızı
+  öğrenin ve güçlü ön işleme filtreleriyle doğruluğu artırın.
+keywords:
+- how to use aspocr
+- aspocr preprocessing filters
+- ocr image preprocessing .net
+linktitle: 'AspOCR Nasıl Kullanılır: .NET için Görüntü OCR Filtrelerini Ön İşleme'
 second_title: Aspose.OCR .NET API
-title: Aspose.OCR Filtreleriyle .NET için Görüntü OCR Ön İşleme
+title: 'AspOCR Nasıl Kullanılır: .NET için Görüntü OCR Filtrelerini Ön İşleme'
 url: /tr/net/ocr-optimization/preprocessing-filters-for-image/
 weight: 12
 ---
@@ -13,32 +17,35 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR Filtreleri ile .NET için Görüntü OCR Ön İşleme
+# Aspose.OCR Filtreleriyle .NET için Görüntü OCR Ön İşleme
 
 ## Giriş
 
-Aspose.OCR ile **görüntü OCR ön işleme** nasıl yapılır öğrenerek .NET uygulamalarınızda Optik Karakter Tanıma (OCR) potansiyelini tam anlamıyla ortaya çıkarın. Bu adım‑adım öğretici, OCR doğruluğunu büyük ölçüde **artıran** ön işleme filtrelerini nasıl uygulayacağınızı gösterir; ham resimleri temiz, aranabilir metne dönüştürür. Bu rehberin sonunda, güçlü görüntü ön işleme yeteneğini herhangi bir .NET projesine entegre edebilecek ve tanıma sonuçlarında anında iyileşme göreceksiniz.
+.NET uygulamalarınızda Optik Karakter Tanıma (OCR) potansiyelini tam olarak ortaya çıkarmak için **AspOCR'ı nasıl kullanacağınızı** öğrenerek Aspose.OCR ile görüntü OCR ön işleme yapın. Bu adım adım öğretici, OCR doğruluğunu büyük ölçüde **artıran** ön işleme filtrelerini nasıl uygulayacağınızı gösterir, ham resimleri temiz, aranabilir metne dönüştürür. Kılavuzun sonunda, güçlü görüntü ön işleme yeteneğini herhangi bir .NET projesine entegre edebilecek ve tanıma sonuçlarında anında iyileşmeler göreceksiniz.
 
 ## Hızlı Yanıtlar
-- **Ön işleme ne işe yarar?** OCR çalıştırılmadan önce görüntüyü temizler ve iyileştirir (ör. renkleri ters çevirir, genişletir).  
+- **Ön işleme ne yapar?** OCR çalışmadan önce görüntüyü temizler ve iyileştirir (ör. renkleri ters çevirir, genişletir).  
 - **Hangi kütüphane kullanılıyor?** Aspose.OCR for .NET.  
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.  
-- **.NET Core’da kullanılabilir mi?** Evet, Aspose.OCR .NET Framework ve .NET Core’u destekler.  
-- **Hangi görüntü formatları destekleniyor?** PNG, JPEG, BMP, GIF, TIFF ve daha fazlası.
+- **Lisans gerekir mi?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **.NET Core'da kullanabilir miyim?** Evet, Aspose.OCR .NET Framework ve .NET Core'u destekler.  
+- **Hangi görüntü formatları destekleniyor?** PNG, JPEG, BMP, GIF, TIFF ve daha fazlası.  
+
+## AspOCR Nedir ve Neden Önemlidir?
+
+AspOCR, Aspose’un .NET için OCR motorudur ve görüntülerden, PDF'lerden ve taranmış belgelerden metin çıkarmanızı sağlar. **ön işleme filtrelerini** kullanarak gürültüyü azaltabilir, kontrastı iyileştirebilir ve görüntüyü motorun güçlü yönlerine uyarlayabilirsiniz—özellikle düşük kaliteli taramalarda daha yüksek tanıma oranları elde edilir.
 
 ## Ön Koşullar
 
-Bu OCR yolculuğuna başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
+Bu OCR yolculuğuna başlamadan önce, aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
-- Aspose.OCR for .NET: Aspose.OCR kütüphanesini kurduğunuzdan emin olun. Dokümantasyonu [burada](https://reference.aspose.com/ocr/net/) bulabilir ve [bu linkten](https://releases.aspose.com/ocr/net/) indirebilirsiniz.
+- Aspose.OCR for .NET: Aspose.OCR kütüphanesini kurduğunuzdan emin olun. Belgeleri [burada](https://reference.aspose.com/ocr/net/) bulabilir ve [bu bağlantıdan](https://releases.aspose.com/ocr/net/) indirebilirsiniz.
+- Belge Dizininiz: Belgelerinizi saklamak için bir dizin oluşturun ve örneklerde kullanılacağı için yolunu not edin.
 
-- Belge Dizininiz: Belgelerinizi saklayacağınız bir dizin oluşturun ve örneklerde kullanılacağı için yolunu not edin.
+Şimdi hazır olduğumuza göre, gerekli ad alanlarına ve Aspose.OCR gücünü kullanmak için ayrıntılı adımlara dalalım.
 
-Şimdi hazır olduğumuza göre, Aspose.OCR gücünden yararlanmak için gerekli ad alanlarına ve ayrıntılı adımlara göz atalım.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktarma
-
-.NET uygulamanızda gerekli ad alanlarını içe aktararak başlayın:
+.NET uygulamanızda, gerekli ad alanlarını içe aktararak başlayın:
 
 ```csharp
 using System;
@@ -46,9 +53,9 @@ using System.IO;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-## OCR Görüntüsünü Daha İyi Doğruluk İçin Nasıl Ön İşleme Yapılır
+## AspOCR'ı Kullanarak OCR Görüntülerini Daha İyi Doğruluk İçin Ön İşleme
 
-### AsposeOcr ve Görüntü Yolunu Başlatma
+### AsposeOcr ve Görüntü Yolunu Başlat
 
 ```csharp
 // The path to the documents directory.
@@ -80,7 +87,7 @@ using (FileStream fs = new FileStream(dataDir + "preprocessed.png", FileMode.Ope
 img.Dispose();
 ```
 
-### Özel Ön İşleme ile Metin Görüntüsünü Tanıma
+### Özel Ön İşleme ile Metin Görüntüsünü Tanı
 
 ```csharp
 // Recognize image with custom preprocessing
@@ -95,48 +102,46 @@ Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 ```
 
-İşlemi birden fazla adıma bölerek, OCR görüntü tanımasının her yönünü ince ayar yapma esnekliğine sahip olursunuz. Farklı filtrelerle deney yapın, parametreleri ayarlayın ve Aspose.OCR’un artırılmış doğruluk ve verimliliğine tanık olun.
+İşlemi birden fazla adıma bölerek, OCR görüntü tanımanın her yönünü ince ayar yapma esnekliğine sahip olursunuz. Farklı filtrelerle deney yapın, parametreleri ayarlayın ve Aspose.OCR'ın artırılmış doğruluk ve verimliliğine tanık olun.
 
-Aspose.OCR’un yetenekleri ve özellikleri hakkında derinlemesine bilgi için [dokümantasyona](https://reference.aspose.com/ocr/net/) bakmayı unutmayın.
+Aspose.OCR'ın yetenekleri ve özellikleri hakkında derinlemesine bilgi için [belgelere](https://reference.aspose.com/ocr/net/) bakmayı unutmayın.
 
-## Aspose.OCR ön işleme filtrelerini neden kullanmalısınız?
+## Neden Aspose.OCR ön işleme filtrelerini kullanmalısınız?
 
-- **Daha yüksek tanıma oranları** – görüntüyü temizlemek, OCR motorunu şaşırtan gürültüyü azaltır.  
-- **Özelleştirilebilir işlem hattı** – ters çevirme, genişletme veya keskinleştirme gibi birden çok filtreyi zincirleyebilirsiniz.  
+- **Daha yüksek tanıma oranları** – görüntüyü temizlemek, OCR motorunu karıştıran gürültüyü azaltır.  
+- **Özelleştirilebilir iş akışı** – ters çevirme, genişletme veya keskinleştirme gibi birden fazla filtreyi zincirleyebilirsiniz.  
 - **Sorunsuz .NET entegrasyonu** – API hem masaüstü hem de web projeleriyle çalışır.  
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Neden | Çözüm |
-|-------|-------|-------|
-| Boş çıktı | Görüntü doğru şekilde ön işlenmemiş (ör. yanlış renk ters çevirmesi) | Filtre sırasını kontrol edin; sadece koyu‑metinli görüntülerde `PreprocessFilter.Invert()` kullanın. |
+|-------|-------|-----|
+| Boş çıktı | Görüntü doğru şekilde ön işlenmedi (ör. renk ters çevirmesi hatalı) | Filtre sırasını doğrulayın; `PreprocessFilter.Invert()` yalnızca koyu metinli görüntülerde deneyin. |
 | Yavaş performans | Büyük görüntü boyutu | Filtreleri uygulamadan önce görüntüyü yeniden boyutlandırın veya küçültün. |
-| Tanınmayan karakterler | Düşük kontrast | Kontrastı artırmak için `PreprocessFilter.ContrastStretch()` (varsa) ekleyin. |
+| Tanınmayan karakterler | Düşük kontrast | `PreprocessFilter.ContrastStretch()` ekleyin (varsa) kontrastı artırmak için. |
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S1: Aspose.OCR for .NET’i hem masaüstü hem de web uygulamalarında kullanabilir miyim?**  
-C1: Evet, Aspose.OCR çok yönlü olacak şekilde tasarlanmıştır ve .NET ile geliştirilen hem masaüstü hem de web uygulamalarında kullanılabilir.
+**Q1: Aspose.OCR for .NET'i hem masaüstü hem de web uygulamalarında kullanabilir miyim?**  
+A1: Evet, Aspose.OCR çok yönlü olacak şekilde tasarlanmıştır ve .NET ile geliştirilen hem masaüstü hem de web uygulamalarında kullanılabilir.
 
-**S2: Aspose.OCR için lisans seçenekleri mevcut mu?**  
-C2: Evet, lisans seçeneklerini inceleyebilir ve satın alım için [buraya](https://purchase.aspose.com/buy) tıklayabilirsiniz. Ayrıca ücretsiz deneme sürümü [burada](https://releases.aspose.com/) mevcuttur ve geçici lisanslar [buradan](https://purchase.aspose.com/temporary-license/) alınabilir.
+**Q2: Aspose.OCR için lisans seçenekleri mevcut mu?**  
+A2: Evet, lisans seçeneklerini inceleyebilir ve [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz. Ayrıca, ücretsiz deneme sürümü [burada](https://releases.aspose.com/) mevcuttur ve geçici lisanslar [buradan](https://purchase.aspose.com/temporary-license/) alınabilir.
 
-**S3: Aspose.OCR için destek nasıl alınır?**  
-C3: Her türlü soru ve sorun için topluluk ve Aspose desteğinden yardım alabileceğiniz [Aspose.OCR forumuna](https://forum.aspose.com/c/ocr/16) göz atın.
+**Q3: Aspose.OCR için destek nasıl alabilirim?**  
+A3: Herhangi bir soru veya sorun için, topluluktan ve Aspose desteğinden yardım almak amacıyla [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
-**S4: Aspose.OCR hangi görüntü formatlarını destekliyor?**  
-C4: Aspose.OCR, PNG, JPEG, GIF, BMP ve TIFF dahil olmak üzere geniş bir görüntü formatı yelpazesini destekler.
+**Q4: Aspose.OCR hangi görüntü formatlarını destekliyor?**  
+A4: Aspose.OCR, PNG, JPEG, GIF, BMP ve TIFF dahil olmak üzere geniş bir görüntü formatı yelpazesini destekler.
 
-**S5: Aspose.OCR’u mevcut .NET projemle entegre edebilir miyim?**  
-C5: Kesinlikle! Öğreticideki adımları izleyerek Aspose.OCR’u .NET projenize sorunsuz bir şekilde entegre edebilir ve OCR görüntü tanıma işlevi ekleyebilirsiniz.
+**Q5: Aspose.OCR'ı mevcut .NET projemle entegre edebilir miyim?**  
+A5: Kesinlikle! Öğreticide belirtilen adımları izleyerek, Aspose.OCR'ı .NET projenize sorunsuz bir şekilde entegre edebilir ve OCR görüntü tanıma için kullanabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-22  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Son Güncelleme:** 2026-04-12  
+**Test Edilen Sürüm:** Aspose.OCR 24.11 for .NET  
 **Yazar:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
