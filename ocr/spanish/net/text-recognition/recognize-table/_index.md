@@ -146,15 +146,15 @@ R: Después de obtener `result.RecognitionText`, puedes analizar filas y columna
 
 ---
 
+**Última actualización:** 2026-01-04  
+**Probado con:** Aspose.OCR 24.11 para .NET  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Última actualización:** 2026-01-04  
-**Probado con:** Aspose.OCR 24.11 para .NET  
-**Autor:** Aspose  
-
----

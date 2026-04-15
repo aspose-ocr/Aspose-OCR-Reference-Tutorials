@@ -146,15 +146,15 @@ A: Nachdem Sie `result.RecognitionText` erhalten haben, können Sie die Zeilen u
 
 ---
 
+**Zuletzt aktualisiert:** 2026-01-04  
+**Getestet mit:** Aspose.OCR 24.11 für .NET  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Zuletzt aktualisiert:** 2026-01-04  
-**Getestet mit:** Aspose.OCR 24.11 für .NET  
-**Autor:** Aspose  
-
----

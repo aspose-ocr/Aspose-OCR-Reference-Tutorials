@@ -142,15 +142,17 @@ A: Igen. A `RecognitionResult` iterálásával külön-külön kinyerheti az egy
 **Q: Lehetséges a felismert táblázat CSV‑be exportálása?**  
 A: A `result.RecognitionText` megszerzése után feldolgozhatja a sorokat és oszlopokat, és a standard .NET I/O osztályokkal CSV fájlba írhatja.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+---
 
 **Last Updated:** 2026-01-04  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

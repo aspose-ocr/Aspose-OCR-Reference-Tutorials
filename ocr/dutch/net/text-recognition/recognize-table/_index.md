@@ -146,15 +146,15 @@ A: Na het verkrijgen van `result.RecognitionText` kun je de rijen en kolommen pa
 
 ---
 
+**Laatst bijgewerkt:** 2026-01-04  
+**Getest met:** Aspose.OCR 24.11 voor .NET  
+**Auteur:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Laatst bijgewerkt:** 2026-01-04  
-**Getest met:** Aspose.OCR 24.11 voor .NET  
-**Auteur:** Aspose  
-
----

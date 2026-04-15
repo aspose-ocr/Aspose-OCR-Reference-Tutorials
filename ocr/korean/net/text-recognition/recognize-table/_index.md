@@ -143,15 +143,15 @@ A: `result.RecognitionText`를 얻은 뒤 행과 열을 파싱하여 표준 .NET
 
 ---
 
+**마지막 업데이트:** 2026-01-04  
+**테스트 환경:** Aspose.OCR 24.11 for .NET  
+**작성자:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**마지막 업데이트:** 2026-01-04  
-**테스트 환경:** Aspose.OCR 24.11 for .NET  
-**작성자:** Aspose  
-
----

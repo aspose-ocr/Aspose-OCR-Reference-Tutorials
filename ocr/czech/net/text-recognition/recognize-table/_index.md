@@ -144,15 +144,15 @@ A: Po získání `result.RecognitionText` můžete analyzovat řádky a sloupce 
 
 ---
 
+**Poslední aktualizace:** 2026-01-04  
+**Testováno s:** Aspose.OCR 24.11 pro .NET  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Poslední aktualizace:** 2026-01-04  
-**Testováno s:** Aspose.OCR 24.11 pro .NET  
-**Autor:** Aspose  
-
----

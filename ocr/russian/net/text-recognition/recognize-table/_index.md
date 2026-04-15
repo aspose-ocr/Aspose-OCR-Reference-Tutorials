@@ -146,15 +146,15 @@ A5: Да, бесплатную пробную версию можно получ
 
 ---
 
+**Последнее обновление:** 2026-01-04  
+**Тестировано с:** Aspose.OCR 24.11 для .NET  
+**Автор:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Последнее обновление:** 2026-01-04  
-**Тестировано с:** Aspose.OCR 24.11 для .NET  
-**Автор:** Aspose  
-
----

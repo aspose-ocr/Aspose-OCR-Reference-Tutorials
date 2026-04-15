@@ -143,15 +143,15 @@ Console.WriteLine(result.RecognitionText);
 
 ---
 
+**آخر تحديث:** 2026-01-04  
+**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
+**المؤلف:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**آخر تحديث:** 2026-01-04  
-**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
-**المؤلف:** Aspose  
-
----

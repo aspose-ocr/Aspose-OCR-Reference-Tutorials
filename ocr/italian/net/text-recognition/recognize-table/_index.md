@@ -146,15 +146,15 @@ R: Dopo aver ottenuto `result.RecognitionText`, potete analizzare righe e colonn
 
 ---
 
+**Ultimo aggiornamento:** 2026-01-04  
+**Testato con:** Aspose.OCR 24.11 per .NET  
+**Autore:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ultimo aggiornamento:** 2026-01-04  
-**Testato con:** Aspose.OCR 24.11 per .NET  
-**Autore:** Aspose  
-
----

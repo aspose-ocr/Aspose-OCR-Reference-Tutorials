@@ -58,7 +58,7 @@ using Aspose.OCR;
 
 ## 如何 extract table from image – 步驟指南
 
-### Step 1: Initialize Aspose.OCR
+### 步驟 1：初始化 Aspose.OCR
 
 ```csharp
 // The path to the documents directory.
@@ -70,7 +70,7 @@ AsposeOcr api = new AsposeOcr();
 
 在此步驟，我們設定必要的環境並建立 `AsposeOcr` 類別的實例。
 
-### Step 2: Recognize Image (recognize table OCR)
+### 步驟 2：辨識影像（辨識表格 OCR）
 
 ```csharp
 // Recognize image
@@ -86,7 +86,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new Recogni
 
 此處呼叫 `RecognizeImage` 以對指定圖像執行 OCR。當 **整張圖像都是表格** 時，`LinesFiltration` 旗標最為理想；而 `DetectAreas` 可用於自動偵測表格區域。
 
-### Step 3: Display the Recognized Text
+### 步驟 3：顯示辨識出的文本
 
 ```csharp
 // Display the recognized text
@@ -142,15 +142,15 @@ A：取得 `result.RecognitionText` 後，您可以解析行列並使用標準 .
 
 ---
 
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
-
----

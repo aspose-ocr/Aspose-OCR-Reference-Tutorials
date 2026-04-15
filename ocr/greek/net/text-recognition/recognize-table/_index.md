@@ -142,13 +142,13 @@ A: Ναι. Επανάγοντας το `RecognitionResult` μπορείτε να
 **Q: Είναι δυνατόν να εξάγετε τον αναγνωρισμένο πίνακα σε CSV;**  
 A: Αφού λάβετε το `result.RecognitionText`, μπορείτε να αναλύσετε τις γραμμές και στήλες και να τις γράψετε σε αρχείο CSV χρησιμοποιώντας τις τυπικές κλάσεις I/O του .NET.
 
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose

@@ -142,15 +142,15 @@ A: 在获取 `result.RecognitionText` 后，您可以解析行列并使用标准
 
 ---
 
+**最后更新：** 2026-01-04  
+**测试环境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最后更新：** 2026-01-04  
-**测试环境：** Aspose.OCR 24.11 for .NET  
-**作者：** Aspose  
-
----

@@ -144,15 +144,15 @@ A: After obtaining `result.RecognitionText`, you can parse the rows and columns 
 
 ---
 
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
-
----
