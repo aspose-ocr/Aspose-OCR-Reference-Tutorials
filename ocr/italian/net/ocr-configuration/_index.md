@@ -63,6 +63,9 @@ Sblocca potenti capacità OCR con Aspose.OCR per .NET. Estrai testo da immagini 
 ### [OCROperation con Lista nel Riconoscimento OCR delle Immagini](./ocr-operation-with-list/)
 Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Aumenta la produttività e l'estrazione dei dati nelle tue applicazioni.
 
+### [Verifica del flag di licenza in Aspose OCR – Guida rapida per verificare la licenza](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Scopri come controllare il flag di licenza in Aspose OCR per assicurarti che la tua applicazione sia correttamente licenziata.
+
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  
 - Indicizzare grandi archivi di documenti per repository ricercabili.  

@@ -69,6 +69,8 @@ Mở khóa tiềm năng của nhận dạng văn bản với Aspose.OCR cho .NET
 Giải phóng tiềm năng của Aspose.OCR cho .NET trong việc nhận dạng các dòng trong nhận dạng hình ảnh OCR. Hướng dẫn dành cho nhà phát triển để trích xuất văn bản từ hình ảnh một cách liền mạch.
 ### [Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR](./perform-ocr-on-image/)
 Mở khóa sức mạnh OCR với Aspose.OCR cho .NET, dễ dàng trích xuất văn bản từ hình ảnh. Khám phá tutorial để tích hợp liền mạch.
+### [Tạo Excel từ hình ảnh với C# – Hướng dẫn đầy đủ Aspose OCR](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Biến hình ảnh thành tệp Excel bằng Aspose.OCR và C#. Hướng dẫn chi tiết từng bước để trích xuất dữ liệu và tạo bảng tính.
 
 ## Câu hỏi thường gặp
 
