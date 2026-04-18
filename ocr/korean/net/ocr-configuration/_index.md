@@ -60,7 +60,9 @@ Aspose.OCR을 사용해 .NET에서 폴더에 저장된 이미지에서 텍스트
 ### [언어 선택과 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-language-selection/)
 Aspose.OCR for .NET으로 강력한 OCR 기능을 활용해 이미지에서 텍스트를 원활히 추출하는 방법을 소개합니다.  
 ### [리스트와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-list/)
-Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽게 수행하고, 애플리케이션의 생산성과 데이터 추출 효율을 높이는 방법을 제공합니다.
+Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽게 수행하고, 애플리케이션의 생산성과 데이터 추출 효율을 높이는 방법을 제공합니다.  
+### [C#에서 OCR을 위한 이미지 로드 – 완전한 Aspose OCR 및 맞춤법 검사 가이드](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+C#에서 Aspose OCR을 사용해 이미지를 로드하고 맞춤법 검사를 수행하는 전체 가이드를 제공합니다.  
 
 ### 일반적인 사용 사례
 - **스캔된 청구서 이미지**에서 텍스트를 추출해 자동 회계 처리.  
