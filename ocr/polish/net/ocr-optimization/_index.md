@@ -81,6 +81,12 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
 
+### [Jak wykonać OCR przy użyciu Aspose OCR – przewodnik przyspieszony GPU w C#](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+Poznaj, jak przyspieszyć OCR przy użyciu GPU w C# z Aspose OCR, zwiększając wydajność przetwarzania obrazów.
+
+### [Wyodrębnianie tekstu ze skanu w C# – Kompletny przewodnik Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+Pełny przewodnik, jak używać Aspose OCR w C# do wyodrębniania tekstu ze skanów, z przykładami kodu i optymalizacją.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

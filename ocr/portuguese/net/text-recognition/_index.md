@@ -55,6 +55,21 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de t
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Tutorial c# OCR: Extrair texto de imagens com Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Aprenda a extrair texto de imagens usando Aspose OCR em C#. Siga o passo a passo para integrar OCR rapidamente ao seu projeto.
+### [Tutorial c# OCR – Extrair Texto de Imagem Usando Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Descubra como extrair texto de imagens usando Aspose OCR em C#. Guia passo a passo para integrar OCR ao seu projeto rapidamente.
+### [Como baixar recursos OCR e reconhecer texto de imagem em C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
+Aprenda a baixar recursos OCR e reconhecer texto em imagens usando C#. Siga o passo a passo para integrar OCR rapidamente.
+### [Como fazer OCR em árabe no C# – Guia completo de programação](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Aprenda a reconhecer texto árabe em imagens usando Aspose.OCR com C#. Guia passo a passo para implementação completa.
+### [Como salvar JSON do OCR em C# – Guia passo a passo](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
+Aprenda a salvar os resultados de OCR em formato JSON usando C#. Siga nosso guia passo a passo para integrar facilmente a exportação de JSON ao seu projeto.
+### [Criar PDF pesquisável a partir de imagem em C# – Guia completo](./create-searchable-pdf-from-image-in-c-complete-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR em C#. Guia completo passo a passo para integrar essa funcionalidade.
+### [Como fazer OCR em lote no C# – Extrair texto de imagens rapidamente](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
+Aprenda a processar várias imagens com OCR em lote usando C#, extraindo texto rapidamente em seus projetos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
