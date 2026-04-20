@@ -53,6 +53,9 @@ Apakah Anda siap memanfaatkan potensi penuh Aspose.OCR untuk .NET? Panduan kami 
 
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET dengan menjelajahi [preprocessing filters](./preprocessing-filters-for-image/). Unduh sekarang dan temukan cara menyetel gambar Anda sebelum pengenalan. Tutorial ini memastikan integrasi yang mulus, meningkatkan akurasi dan efisiensi.
 
+### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pre‑processing OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Pelajari cara menghilangkan kemiringan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi.
+
 ## Koreksi Hasil dengan Pemeriksaan Ejaan dalam OCR Image Recognition
 
 Capai akurasi OCR yang tak tertandingi dengan [Aspose.OCR for .NET](./result-correction-with-spell-checking/). Tutorial kami tentang koreksi hasil dengan pemeriksaan ejaan memberi Anda kemampuan untuk menyesuaikan kamus, memperbaiki ejaan, dan memastikan pengenalan teks bebas kesalahan dengan mudah. Menyelami dunia presisi dengan Aspose.OCR.
@@ -74,6 +77,10 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter preprocessi
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan capai pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multipage sebagai Dokumen dalam OCR Image Recognition](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan panduan langkah demi langkah yang komprehensif ini.
+### [Lakukan OCR pada Gambar dengan Akselerasi GPU – Panduan Lengkap C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Pelajari cara mempercepat OCR pada gambar menggunakan GPU dengan Aspose.OCR untuk .NET dalam panduan C# lengkap.
+### [Ekstrak Teks dari Gambar dalam C# – Panduan OCR Lengkap](./extract-text-from-image-in-c-complete-ocr-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan Aspose.OCR dalam panduan lengkap.
 
 ## Pertanyaan yang Sering Diajukan
 
