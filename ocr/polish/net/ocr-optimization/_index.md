@@ -18,7 +18,7 @@ weight: 25
 
 ## Wstęp
 
-W tym przewodniku dowiesz się, jak **wyodrębnij tekst z obrazu** z plików obrazu. Oprogramowanie od tego, czytujesz potok przetwarzania dokumentów, czy udostępnia inteligentne wyszukiwanie do aplikacji, posiadanie OCR jest niezbędne. Przeprowadzimy Cię przez każdy etap — ładowanie obrazów, definiowanie regionów, stosowanie przepisów wstępnych, korekt wyników przy zastosowaniu sprawdzania pisowni oraz ostatecznego zapisywania wyników wielostronicowych. Wszystkie samouczki są zgodne z przepisami, które są dostępne w wersji elektronicznej OCR, aby można było od razu zastosować rozwiązanie.
+W tym przewodniku dowiesz się, jak **wyodrębnić tekst z obrazu** z plików obrazu. Oprogramowanie od tego, czytujesz potok przetwarzania dokumentów, czy udostępnia inteligentne wyszukiwanie do aplikacji, posiadanie OCR jest niezbędne. Przeprowadzimy Cię przez każdy etap — ładowanie obrazów, definiowanie regionów, stosowanie przepisów wstępnych, korekt wyników przy zastosowaniu sprawdzania pisowni oraz ostatecznego zapisywania wyników wielostronicowych. Wszystkie samouczki są zgodne z przepisami, które są dostępne w wersji elektronicznej OCR, aby można było od razu zastosować rozwiązanie.
 
 ## Szybkie odpowiedzi
 - **Co oznacza „wyodrębnij tekst z obrazu”?** Konwertowanie określonych znaków na obrazie na tekst możliwy do przeszukiwania i edycji.
@@ -27,7 +27,7 @@ W tym przewodniku dowiesz się, jak **wyodrębnij tekst z obrazu** z plików obr
 - **Czy mogę przetwarzać dokumenty wielostronicowe?** Tak, możesz zapisać się na OCR jako wielostronicowe PDF-y lub inne formaty dokumentów.
 - **Czy obsługiwane jest .NET Core?** Pełne wsparcie dla .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
-## Co to jest „wyodrębnij tekst z obrazu”?
+## Co to jest „wyodrębnić tekst z obrazu”?
 
 Wyodrębnianie tekstu z obrazu oznacza rozpoznanie znaków optycznych (OCR) do odczytania znaczenia w bitmapie i wyprowadzeniu ich jako zwykłego tekstu lub sformatowanego dokumentu. Aspose.OCR wykorzystuje zaawansowane algorytmy, aby wprowadzić różne języki i jakość obrazu.
 
@@ -80,6 +80,9 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+
+### [Wstępne przetwarzanie obrazu OCR w C# – Kompletny przewodnik po czystym, zwiększonym kontrastowo wyodrębnianiu tekstu](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Dowiedz się, jak przygotować obrazy do OCR w C#, usuwając szumy i zwiększając kontrast dla lepszej dokładności rozpoznawania tekstu.
 
 ## Często zadawane pytania
 

@@ -60,6 +60,8 @@ Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text 
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [Embed Fonts in PDF – Make Searchable PDFs from JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Create searchable PDFs from JPEG images by embedding fonts using Aspose.PDF for .NET.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  
