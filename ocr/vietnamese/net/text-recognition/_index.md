@@ -55,6 +55,17 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Cách sử dụng OCR trong C# – Nhận dạng văn bản từ hình ảnh nhanh chóng](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Tìm hiểu cách tích hợp OCR trong C# để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và hiệu quả.
+### [Chạy OCR trên PNG trong C# – Hướng dẫn đầy đủ với Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Khám phá cách chạy OCR trên ảnh PNG bằng C# và Aspose, hướng dẫn chi tiết từng bước để trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đầy đủ của Aspose](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Khám phá hướng dẫn chi tiết để thực hiện OCR trong C# bằng Aspose, giúp bạn trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Cách thực hiện OCR trong C# – Trích xuất văn bản từ hình ảnh bằng Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Tìm hiểu cách thực hiện OCR trong C# để trích xuất văn bản từ hình ảnh nhanh chóng và chính xác bằng Aspose OCR.
+### [Tạo PDF có thể tìm kiếm từ TIFF – Hướng dẫn từng bước Aspose OCR](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+Biến tệp TIFF thành PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR với hướng dẫn chi tiết từng bước.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
