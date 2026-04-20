@@ -40,6 +40,8 @@ Utforska Aspose.OCR för .NET, en kraftfull OCR-lösning för korrekt textigenk�
 Släpp lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkänning. Lär dig hur du beräknar snedvinklar utan ansträngning.
 ### [Beräkna skevningsvinkel från URI i OCR-bildigenkänning](./calculate-skew-angle-from-uri/)
 Utforska Aspose.OCR för .NET för att enkelt beräkna snedvinklar i OCR-bildigenkänning. Förbättra dina projekt med precision och effektivitet.
+### [Ta bort skevning från bild – komplett OCR‑förbehandlingsguide](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Lär dig hur du tar bort skevning från bilder som en del av en fullständig OCR‑förbehandlingsprocess med Aspose.OCR för .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

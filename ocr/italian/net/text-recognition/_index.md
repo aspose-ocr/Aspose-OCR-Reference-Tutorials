@@ -55,6 +55,17 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Converti immagine in testo con Aspose OCR – Guida C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Scopri come trasformare un'immagine in testo usando Aspose OCR con C#. Segui la nostra guida passo passo per implementare la conversione.
+### [Come eseguire OCR e creare un PDF ricercabile in C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Scopri come utilizzare Aspose.OCR per eseguire OCR e generare PDF ricercabili con C# in pochi passaggi.
+### [Come utilizzare OCR in C# – Elaborazione batch di immagini PNG con Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Scopri come elaborare in batch immagini PNG con OCR in C# usando Aspose OCR per automatizzare la conversione in testo.
+### [Come eseguire OCR in C# – Guida passo‑passo](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Scopri come utilizzare Aspose.OCR per eseguire OCR in C# con una guida dettagliata passo dopo passo.
+### [Crea PDF ricercabile con Aspose OCR – Guida passo‑passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Scopri come generare PDF ricercabili usando Aspose OCR con una guida dettagliata passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,17 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Chuyển đổi hình ảnh thành văn bản với Aspose OCR – Hướng dẫn C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Biến hình ảnh thành văn bản nhanh chóng bằng Aspose OCR trong C#. Hướng dẫn chi tiết từng bước.
+### [Cách thực hiện OCR và tạo PDF có thể tìm kiếm trong C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Thực hiện OCR và chuyển đổi tài liệu thành PDF có thể tìm kiếm bằng Aspose.OCR trong C#. Hướng dẫn chi tiết từng bước.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Tạo PDF có thể tìm kiếm bằng Aspose OCR trong C#. Hướng dẫn chi tiết từng bước để thực hiện OCR và tạo PDF có thể tìm kiếm.
+### [Cách sử dụng OCR trong C# – Xử lý hàng loạt ảnh PNG với Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Thực hiện OCR trên nhiều ảnh PNG đồng thời bằng Aspose OCR trong C#. Hướng dẫn chi tiết từng bước.
+### [Cách thực hiện OCR trong C# – Hướng dẫn từng bước](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Thực hiện OCR trong C# một cách chi tiết với hướng dẫn từng bước, giúp bạn tích hợp nhanh chóng và hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
