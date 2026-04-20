@@ -1,7 +1,7 @@
 ---
 category: general
-date: 2025-12-27
-description: 使用 Aspose OCR 從圖片提取文字並校正 OCR 錯誤。了解如何載入圖片進行 OCR 並快速修正錯誤。
+date: 2026-02-27
+description: 學習如何修正 OCR 錯誤並使用 Aspose OCR 於 Python 從圖像提取文字。本指南示範如何載入圖像進行 OCR 以及清理結果。
 draft: false
 keywords:
 - extract text from image
@@ -9,15 +9,14 @@ keywords:
 - how to correct ocr errors
 - Aspose OCR Python
 - OCR post‑processing
-language: zh-hant
-og_description: 使用 Aspose OCR 從圖像中提取文字，並即時更正 OCR 錯誤。請依照本教學載入圖像進行 OCR，並清理結果。
-og_title: 使用 Aspose OCR 從圖像提取文字 – 完整指南
+og_description: 學習如何使用 Aspose OCR 於 Python 中更正 OCR 錯誤並從圖像提取文字。請跟隨此一步一步的教學。
+og_title: 如何校正 OCR 錯誤 – 使用 Aspose OCR 從圖像提取文字
 tags:
 - OCR
 - Python
 - Aspose
 - Text Extraction
-title: 使用 Aspose OCR 從圖像提取文字 – 逐步指南
+title: 如何修正 OCR 錯誤 – 使用 Aspose OCR 從圖像提取文字 – 步驟指南
 url: /zh-hant/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
@@ -25,51 +24,49 @@ url: /zh-hant/python/general/extract-text-from-image-with-aspose-ocr-step-by-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose OCR 從圖像提取文字 – 步驟指南
+# 如何校正 OCR 錯誤 – 使用 Aspose OCR 從圖像提取文字 – 步驟指南
 
-是否曾需要 **從圖像提取文字**，卻被雜亂的 OCR 輸出搞得頭疼？你並不孤單。在許多自動化專案中——例如發票處理、收據掃描或舊文件數位化——首要障礙就是從圖片取得乾淨、可搜尋的文字。  
+如果你曾在 Python 專案中需要 **extract text from image**，卻被雜亂的 OCR 輸出困擾，恭喜你來對地方了。在許多自動化情境——發票處理、收據掃描或歷史文件數位化——首要挑戰是將圖片轉換為乾淨、可搜尋的文字。本教學示範如何使用 Aspose 的 AI 驅動拼寫檢查來 **how to correct OCR errors**，同時說明 **load image for OCR** 的必要步驟，取得可靠的結果。
 
-在本教學中，我們將逐步示範一個完整且可執行的範例，說明如何 **load image for OCR**、執行辨識，並使用 Aspose 的 AI 驅動拼寫檢查後處理器 **correct OCR errors**。完成後，你將擁有一支腳本，能將發票的 PNG 轉換為精緻、可搜尋的文字，供後續工作流程使用。
+## 快速答覆
+- **What library should I use?** Aspose OCR for Python
+- **Can I fix typos automatically?** 是的，使用內建的 AI 拼寫檢查處理器
+- **Do I need a license?** 試用版可用於測試；商業 license 為正式環境所需
+- **Is it Python‑3 compatible?** 支援 Python 3.8 及以上版本
+- **Can I process PDFs?** 先將 PDF 頁面轉為圖像（請參閱 “convert pdf to images for ocr”）
 
-## 你將學到
+## 什麼是 “how to correct OCR errors”？
+校正 OCR 錯誤是指取得 OCR 引擎產生的原始字串，並自動修正拼寫錯誤、錯位字元與格式問題，使文字能在後續（搜尋、分析或資料輸入）中可靠使用。
 
-- 如何在 Python 中安裝與匯入 Aspose OCR 與 AI 函式庫。  
-- 完整的 **load image for OCR** 程式碼（不需猜測）。  
-- 如何執行 OCR 引擎並取得原始字串。  
-- 為何 OCR 常會產生錯字，以及內建的拼寫檢查處理器如何自動 **correct OCR errors**。  
-- 處理多頁 PDF 或低解析度掃描等邊緣案例的技巧。
+## 為什麼使用 Aspose OCR for Python？
+Aspose OCR 結合快速且高精度的辨識引擎與可選的 AI 後處理器，負責拼寫檢查與基本文法修正。它是一套完整的 **aspose ocr tutorial**，讓你無需第三方工具即可從圖像直接得到乾淨的文字。
 
-> **前置條件：** Python 3.8 以上、有效的 Aspose OCR 授權（或免費試用），以及你想處理的圖像檔案（例如 `invoice.png`）。
+## 前置條件
+- Python 3.8+ 已安裝
+- 有效的 Aspose OCR license（或免費試用版）
+- 想要處理的圖像檔，例如 `invoice.png`
+- 可選：若需 **convert pdf to images for OCR**，請安裝 `pdf2image`
 
-## 從圖像提取文字 – 設定 Aspose OCR
+## 步驟指南
 
-在執行任何操作之前，我們需要先安裝正確的套件。Aspose 以可透過 pip 安裝的模組方式提供 OCR 引擎。
-
+### 步驟 1：安裝 Aspose OCR 與 AI 後處理器
 ```bash
 pip install aspose-ocr
 ```
-
-如果你也需要 AI 後處理器，請安裝配套套件：
 
 ```bash
 pip install aspose-ocr-ai
 ```
 
-> **小技巧：** 保持套件為最新版本。撰寫本文時，最新版本為 `aspose-ocr 23.12` 與 `aspose-ocr-ai 23.12`。
+> **Pro tip:** 保持套件為最新版本。撰寫本文時最新版本為 `aspose-ocr 23.12` 與 `aspose-ocr-ai 23.12`。
 
-一旦套件安裝完成，匯入你將使用的類別：
-
+### 步驟 2：匯入所需類別
 ```python
 # Step 1: Import the OCR and AI classes
 from aspose.ocr import OcrEngine, AsposeAI
 ```
 
-> **為什麼這很重要：** 匯入特定類別可保持命名空間整潔，並清楚顯示哪些元件負責辨識，哪些負責後處理。
-
-## 載入圖像以進行 OCR – 準備你的發票 PNG
-
-接下來的合理步驟是將引擎指向你想要讀取的檔案。這時 **load image for OCR** 關鍵字就派上用場了。
-
+### 步驟 3：建立引擎並 **load image for OCR**
 ```python
 # Step 2: Create an OCR engine instance
 ocr_engine = OcrEngine()
@@ -78,20 +75,16 @@ ocr_engine = OcrEngine()
 ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 ```
 
-> **說明：** `OcrEngine()` 會建立一個使用預設設定（英文、auto‑rotation 等）的全新引擎。`load_image()` 方法接受檔案路徑、串流，甚至是位元組陣列——因此你可以從磁碟、網路或記憶體緩衝區提供圖像。
+> **Explanation:** `load_image()` 可接受路徑、串流或位元組陣列，讓你能從磁碟、網路或記憶體緩衝區提供圖像。
 
-### 載入圖像時的常見陷阱
-
-| 問題 | 徵兆 | 解決方式 |
+#### 載入圖像時的常見陷阱
+| Issue | Symptom | Fix |
 |-------|---------|-----|
-| 低 DPI（<300） | 字元亂碼、數字缺失 | 在載入前將影像重新取樣至 300 dpi 或更高 |
-| 顏色模式不正確（CMYK） | 字形錯誤 | 使用 Pillow 轉換為 RGB (`Image.convert("RGB")`) |
-| 多頁 PDF | 僅處理第一頁 | 將每頁轉為圖像並逐頁處理 |
+| Low DPI (<300) | 字元亂碼，數字遺失 | 載入前重新取樣至 ≥ 300 dpi |
+| CMYK color mode | 字形錯誤 | 使用 Pillow 轉換為 RGB (`Image.convert("RGB")`) |
+| Multi‑page PDF | 僅處理第一頁 | **Convert PDF to images for OCR** 使用 `pdf2image` 並對每頁迴圈處理 |
 
-## 執行 OCR 並取得原始文字
-
-現在引擎已知道圖片所在位置，我們即可讀取它。
-
+### 步驟 4：執行 OCR 取得原始字串
 ```python
 # Step 4: Perform OCR to extract raw text
 raw_text = ocr_engine.recognize()
@@ -99,22 +92,16 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-`recognize()` 呼叫會回傳純 Python 字串。在許多實務情境中，輸出可能包含多餘的空格、誤讀的字元或斷裂的換行——尤其是使用緊縮字體的收據。
-
-> **為什麼先捕獲 raw_text：** 它提供一個基準，讓你之後能與清理過的版本比較，對除錯或稽核很有幫助。
-
-## 如何校正 OCR 錯誤 – 使用 Aspose AI 拼寫檢查
-
-Aspose 提供一個輕量級的 AI 包裝器，可對原始輸出執行拼寫檢查後處理器。這直接回應了 **how to correct OCR errors** 的問題。
-
+### 步驟 5：初始化 AI 拼寫檢查處理器（**how to correct OCR errors** 的核心）
 ```python
 # Step 5: Initialise the AI post‑processor and choose a spell‑check processor
 ai_processor = AsposeAI()
 ai_processor.set_post_processor("spell_check")
 ```
 
-如果你的使用情境需要，你可以將 `"spell_check"` 替換為其他處理器，例如 `"grammar_check"` 或 `"named_entity_recognition"`。
+你可以將 `"spell_check"` 替換為 `"grammar_check"` 或 `"named_entity_recognition"` 以應用於其他使用情境。
 
+### 步驟 6：清理 OCR 輸出
 ```python
 # Step 6: Clean the OCR output using the selected post‑processor
 clean_text = ai_processor.run_postprocessor(raw_text)
@@ -124,19 +111,12 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### 拼寫檢查在背後的運作原理
+**What the spell‑check does:** 將文字斷詞，於英語字典（或自訂字典）中查找每個詞彙，使用輕量語言模型為候選詞打分，並回傳最可能的修正結果。
 
-1. **Tokenisation** – 將原始字串切分為單詞與標點符號。  
-2. **Dictionary Lookup** – 將每個 token 與英文詞典（或你提供的自訂詞典）比對。  
-3. **Contextual Scoring** – 使用小型語言模型判斷校正是否符合上下文。  
-4. **Replacement** – 回傳套用最可能校正後的新字串。
+#### 非英語語言
+在建立 `AsposeAI` 時傳入語言代碼，例如 `AsposeAI(language="fr")` 代表法語。
 
-> **邊緣情況：** 如果來源語言不是英文，建立 `AsposeAI()` 時請傳入相應的語言代碼（例如 `AsposeAI(language="fr")`）。
-
-## 驗證與使用清理過的文字
-
-此時你會有兩個變數：`raw_text`（直接的 OCR 輸出）與 `clean_text`（拼寫檢查後的版本）。保留哪一個取決於你的後續需求。
-
+### 步驟 7：儲存清理後的結果
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
 with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
@@ -145,11 +125,8 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-> 如果你將結果輸入搜尋引擎、資料庫或機器學習模型，請始終使用 **cleaned** 版本——否則會將 OCR 噪聲傳播至整個流程。
-
-## 完整可執行範例
-
-以下是完整腳本，你可以直接複製貼上成名為 `extract_invoice.py` 的檔案。假設你已安裝上述兩個 Aspose 套件，且圖像位於 `YOUR_DIRECTORY/invoice.png`。
+### 完整範例程式
+以下為完整腳本，可直接複製貼上至 `extract_invoice.py`。假設已安裝上述兩個 Aspose 套件，且圖像位於 `YOUR_DIRECTORY/invoice.png`。
 
 ```python
 # extract_invoice.py
@@ -187,37 +164,45 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as out_file:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-執行後，你會先看到原始輸出，接著是較整潔的版本，且同資料夾內會產生名為 `invoice_extracted.txt` 的檔案。
+Run it with:
 
 ```bash
 python extract_invoice.py
 ```
 
-## 常見問題 (FAQ)
+執行後會看到原始輸出、整理後的版本，以及同一資料夾內名為 `invoice_extracted.txt` 的檔案。
 
-**Q: 這能用於 PDF 嗎？**  
-A: 不能直接使用。請將每頁 PDF 轉為圖像（例如使用 `pdf2image`），再對產生的 PNG 逐一執行腳本。
+## 其他情境下的 how to correct OCR errors？
+- **Batch processing:** 將核心邏輯封裝成函式，並使用 `concurrent.futures.ThreadPoolExecutor` 於多張圖像間平行處理。
+- **PDF documents:** 使用 `pdf2image` 將每頁轉為 PNG，然後將每個 PNG 輸入腳本。這即是 “convert pdf to images for ocr” 工作流程。
+- **Custom dictionaries:** 透過 `set_custom_dictionary()` 向 `AsposeAI` 傳入領域特定詞彙清單，以提升發票、醫療報告等的拼寫檢查準確度。
 
-**Q: 我的語言不是英文——還能使用拼寫檢查嗎？**  
-A: 可以。將想要的語言代碼傳給 `AsposeAI(language="de")`（德文）、`"es"`（西班牙文）等。
+## 常見問答
 
-**Q: 如果 OCR 引擎誤判表格佈局該怎麼辦？**  
-A: Aspose OCR 提供 `set_layout_analysis(True)` 旗標。啟用後可提升表格偵測，但可能增加處理時間。
+**Q: 這能直接處理 PDF 嗎？**  
+A: 不能直接處理。必須先將每個 PDF 頁面轉為圖像（例如使用 `pdf2image`），再對每個 PNG 執行 OCR 腳本。
 
-**Q: 如何處理極大量的批次？**  
-A: 將核心邏輯封裝成函式，並使用執行緒池或 async IO 於多核心或多機器上平行處理。
+**Q: 我的來源語言不是英文，仍能使用拼寫檢查嗎？**  
+A: 可以。初始化 `AsposeAI(language="de")` 以使用德語，`"es"` 以使用西班牙語，依此類推。
 
-## 總結
+**Q: 若 OCR 引擎誤判表格結構該怎麼辦？**  
+A: 使用 `ocr_engine.set_layout_analysis(True)` 開啟版面分析。這會提升表格偵測，但會稍微增加處理時間。
 
-我們已示範如何使用 Aspose OCR **extract text from image**、如何 **load image for OCR**，以及使用內建 AI 拼寫檢查最直接的 **correct OCR errors** 方法。完整可執行的腳本展示了從載入發票 PNG 到儲存乾淨、可搜尋的 `.txt` 檔案的端到端流程。
+**Q: 如何有效處理極大量的批次？**  
+A: 將圖像分批處理，將每個結果寫入資料庫或訊息佇列，並考慮使用非同步 I/O 或多程序以最大化 CPU 使用率。
 
-歡迎自行嘗試：將拼寫檢查換成文法校正、將輸出餵入 NLP 分類器，或整合至更大的文件管理系統。只要擁有可靠、校正過的文字，應用無限可能。
+**Q: 有辦法自訂拼寫檢查字典嗎？**  
+A: 有。於執行後處理器前，使用 `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])` 來設定自訂字典。
 
-對 OCR、Aspose 或 Python 自動化有更多疑問嗎？在下方留言，我們會回覆。祝編程愉快！ 
-
-![從圖像提取文字範例](extract_text_image.png "使用 Aspose OCR 從圖像提取文字")
+![Extract text from image example](extract_text_image.png "Extract text from image with Aspose OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-02-27  
+**測試環境：** Aspose OCR 23.12, Aspose OCR AI 23.12  
+**作者：** Aspose

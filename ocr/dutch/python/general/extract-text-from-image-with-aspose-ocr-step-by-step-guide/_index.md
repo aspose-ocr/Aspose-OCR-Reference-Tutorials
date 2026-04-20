@@ -1,8 +1,9 @@
 ---
 category: general
-date: 2025-12-27
-description: Haal tekst uit een afbeelding met Aspose OCR en corrigeer OCR‑fouten.
-  Leer hoe je een afbeelding laadt voor OCR en fouten snel corrigeert.
+date: 2026-02-27
+description: Leer hoe je OCR‑fouten corrigeert en tekst uit een afbeelding haalt met
+  Aspose OCR in Python. Deze gids laat zien hoe je een afbeelding laadt voor OCR en
+  de resultaten opschoont.
 draft: false
 keywords:
 - extract text from image
@@ -10,16 +11,17 @@ keywords:
 - how to correct ocr errors
 - Aspose OCR Python
 - OCR post‑processing
-language: nl
-og_description: Haal tekst uit afbeelding met Aspose OCR en corrigeer OCR‑fouten direct.
-  Volg deze tutorial om een afbeelding te laden voor OCR en de resultaten op te schonen.
-og_title: Tekst extraheren uit afbeelding met Aspose OCR – Complete gids
+og_description: Leer hoe je OCR‑fouten corrigeert en tekst uit een afbeelding haalt
+  met Aspose OCR in Python. Volg deze stapsgewijze tutorial.
+og_title: Hoe OCR-fouten te corrigeren – Tekst extraheren uit afbeelding met Aspose
+  OCR
 tags:
 - OCR
 - Python
 - Aspose
 - Text Extraction
-title: Tekst extraheren uit afbeelding met Aspose OCR – Stapsgewijze handleiding
+title: Hoe OCR-fouten te corrigeren – Tekst extraheren uit afbeelding met Aspose OCR
+  – Stapsgewijze handleiding
 url: /nl/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
@@ -27,55 +29,49 @@ url: /nl/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst extraheren uit afbeelding met Aspose OCR – Stapsgewijze handleiding
+# Hoe OCR-fouten te corrigeren – Tekst extraheren uit afbeelding met Aspose OCR – Stapsgewijze handleiding
 
-Heb je ooit **tekst uit een afbeelding moeten extraheren** en liep je vast in rommelige OCR‑output? Je bent niet de enige. In veel automatiseringsprojecten—denk aan factuurverwerking, kassabon‑scannen of het digitaliseren van oude documenten—ligt de eerste hindernis in het verkrijgen van schone, doorzoekbare tekst uit een foto.  
+Als je ooit **tekst uit een afbeelding** moest extraheren in een Python‑project en je eindigde met rommelige OCR‑output, ben je hier aan het juiste adres. In veel automatiseringsscenario’s—factuurverwerking, kassabon‑scannen of het digitaliseren van historische documenten—ligt de eerste uitdaging in het omzetten van een foto naar schone, doorzoekbare tekst. Deze tutorial laat zien **hoe OCR-fouten te corrigeren** met de AI‑aangedreven spell‑check van Aspose, en behandelt tevens de essentiële stappen om **afbeelding te laden voor OCR** en betrouwbare resultaten te krijgen.
 
-In deze tutorial lopen we een compleet, uitvoerbaar voorbeeld door dat laat zien hoe je **een afbeelding laadt voor OCR**, de herkenning uitvoert, en vervolgens **OCR‑fouten corrigeert** met Aspose’s AI‑aangedreven spell‑check post‑processor. Aan het einde heb je één script dat een PNG‑factuur omzet in gepolijste, doorzoekbare tekst, klaar voor elke downstream‑workflow die je voor ogen hebt.
+## Snelle antwoorden
+- **Welke bibliotheek moet ik gebruiken?** Aspose OCR voor Python
+- **Kan ik typefouten automatisch corrigeren?** Ja, met de ingebouwde AI spell‑check processor
+- **Heb ik een licentie nodig?** Een proefversie werkt voor testen; een commerciële licentie is vereist voor productie
+- **Is het compatibel met Python‑3?** Werkt met Python 3.8 en nieuwer
+- **Kan ik PDF's verwerken?** Converteer PDF‑pagina’s eerst naar afbeeldingen (zie “convert pdf to images for ocr”)
 
-## Wat je zult leren
+## Wat betekent “hoe OCR-fouten te corrigeren”?
+OCR‑fouten corrigeren betekent dat je de ruwe tekenreeks die door een OCR‑engine is geproduceerd automatisch verbetert: spelfouten, verkeerd geplaatste tekens en opmaakproblemen worden rechtgezet zodat de tekst betrouwbaar kan worden gebruikt downstream (zoeken, analyses of gegevensinvoer).
 
-- Hoe je de Aspose OCR‑ en AI‑bibliotheken in Python installeert en importeert.  
-- De exacte code die nodig is om **een afbeelding te laden voor OCR** (geen giswerk).  
-- Hoe je de OCR‑engine uitvoert en de ruwe string vastlegt.  
-- Waarom OCR vaak typefouten produceert en hoe de ingebouwde spell‑check processor **OCR‑fouten automatisch kan corrigeren**.  
-- Tips voor het omgaan met randgevallen zoals multi‑page PDF’s of scans met lage resolutie.
+## Waarom Aspose OCR voor Python gebruiken?
+Aspose OCR combineert een snelle, nauwkeurige herkenningsengine met een optionele AI‑post‑processor die spell‑checking en basis‑grammatica‑correcties afhandelt. Het is een complete **aspose ocr tutorial** in één pakket, waardoor je van afbeelding naar schone tekst kunt gaan zonder tools van derden.
 
-> **Prerequisites:** Python 3.8+, een geldige Aspose OCR‑licentie (of een gratis trial), en een afbeeldingsbestand (bijv. `invoice.png`) dat je wilt verwerken.
+## Vereisten
+- Python 3.8+ geïnstalleerd
+- Een geldige Aspose OCR‑licentie (of gratis proefversie)
+- Een afbeeldingsbestand, bijvoorbeeld `invoice.png`, dat je wilt verwerken
+- Optioneel: `pdf2image` als je **convert pdf to images for OCR** moet uitvoeren
 
----
+## Stapsgewijze handleiding
 
-## Tekst extraheren uit afbeelding – Aspose OCR instellen
-
-Voordat we iets kunnen doen, hebben we de juiste pakketten nodig. Aspose distribueert zijn OCR‑engine als een pip‑installable module.
-
+### Stap 1: Installeer Aspose OCR en de AI post‑processor
 ```bash
 pip install aspose-ocr
 ```
-
-Wil je ook de AI‑post‑processor, installeer dan het bijbehorende pakket:
 
 ```bash
 pip install aspose-ocr-ai
 ```
 
-> **Pro tip:** Houd je pakketten up‑to‑date. Op het moment van schrijven zijn de nieuwste versies `aspose-ocr 23.12` en `aspose-ocr-ai 23.12`.
+> **Pro tip:** Houd de pakketten up‑to‑date. Op het moment van schrijven zijn de nieuwste versies `aspose-ocr 23.12` en `aspose-ocr-ai 23.12`.
 
-Zodra de libraries op je systeem staan, importeer je de klassen die je gaat gebruiken:
-
+### Stap 2: Importeer de vereiste klassen
 ```python
 # Step 1: Import the OCR and AI classes
 from aspose.ocr import OcrEngine, AsposeAI
 ```
 
-> **Why this matters:** Importing the specific classes keeps the namespace clean and makes it obvious which components are responsible for recognition versus post‑processing.
-
----
-
-## Afbeelding laden voor OCR – Je factuur‑PNG voorbereiden
-
-De volgende logische stap is de engine wijzen naar het bestand dat je wilt lezen. Hier komt het **load image for OCR**‑keyword van pas.
-
+### Stap 3: Maak de engine en **laad afbeelding voor OCR**
 ```python
 # Step 2: Create an OCR engine instance
 ocr_engine = OcrEngine()
@@ -84,22 +80,16 @@ ocr_engine = OcrEngine()
 ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 ```
 
-> **Explanation:** `OcrEngine()` creates a fresh engine with default settings (English language, auto‑rotation, etc.). The `load_image()` method accepts a file path, a stream, or even a byte array—so you can feed images from disk, the web, or an in‑memory buffer.
+> **Uitleg:** `load_image()` accepteert een pad, een stream of een byte‑array, zodat je afbeeldingen van schijf, het web of een in‑memory buffer kunt invoeren.
 
-### Veelvoorkomende valkuilen bij het laden van afbeeldingen
+#### Veelvoorkomende valkuilen bij het laden van afbeeldingen
+| Probleem | Symptoom | Oplossing |
+|----------|----------|-----------|
+| Low DPI (<300) | Vervormde tekens, ontbrekende cijfers | Hersample naar ≥ 300 dpi vóór het laden |
+| CMYK color mode | Verkeerde tekenvormen | Converteer naar RGB met Pillow (`Image.convert("RGB")`) |
+| Multi‑page PDF | Alleen de eerste pagina verwerkt | **Converteer PDF naar afbeeldingen voor OCR** met `pdf2image` en loop over elke pagina |
 
-| Issue | Symptom | Fix |
-|-------|---------|-----|
-| Low DPI (<300) | Vervormde tekens, ontbrekende cijfers | Hersample de afbeelding naar 300 dpi of hoger vóór het laden |
-| Incorrect color mode (CMYK) | Verkeerde tekenvormen | Converteer naar RGB met Pillow (`Image.convert("RGB")`) |
-| Multi‑page PDF | Alleen eerste pagina verwerkt | Converteer elke pagina naar een afbeelding en loop erover |
-
----
-
-## OCR uitvoeren en ruwe tekst verkrijgen
-
-Nu de engine weet waar de afbeelding zich bevindt, kunnen we deze daadwerkelijk lezen.
-
+### Stap 4: Voer OCR uit om de ruwe string te krijgen
 ```python
 # Step 4: Perform OCR to extract raw text
 raw_text = ocr_engine.recognize()
@@ -107,24 +97,16 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-De `recognize()`‑aanroep retourneert een gewone Python‑string. In veel real‑world scenario’s bevat de output losse spaties, verkeerd gelezen tekens of gebroken regeleinden—vooral bij kassabonnen die compacte lettertypen gebruiken.
-
-> **Why we capture raw_text first:** It gives you a baseline to compare against the cleaned version later, which is useful for debugging or auditing.
-
----
-
-## Hoe OCR‑fouten corrigeren – Aspose AI Spell‑Check gebruiken
-
-Aspose levert een lichtgewicht AI‑wrapper die een spell‑check post‑processor op de ruwe output kan uitvoeren. Dit beantwoordt direct de vraag **how to correct OCR errors**.
-
+### Stap 5: Initialiseert de AI spell‑check processor (de kern van **hoe OCR-fouten te corrigeren**)
 ```python
 # Step 5: Initialise the AI post‑processor and choose a spell‑check processor
 ai_processor = AsposeAI()
 ai_processor.set_post_processor("spell_check")
 ```
 
-Je kunt `"spell_check"` vervangen door andere processors zoals `"grammar_check"` of `"named_entity_recognition"` als jouw use‑case dat vereist.
+Je kunt `"spell_check"` vervangen door `"grammar_check"` of `"named_entity_recognition"` voor andere use‑cases.
 
+### Stap 6: Reinig de OCR‑output
 ```python
 # Step 6: Clean the OCR output using the selected post‑processor
 clean_text = ai_processor.run_postprocessor(raw_text)
@@ -134,21 +116,12 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### Wat de spell‑check onder de motorkap doet
+**Wat de spell‑check doet:** tokeniseert de tekst, zoekt elk token op in een Engels woordenboek (of een aangepast woordenboek dat je opgeeft), scoort alternatieven met een lichtgewicht taalmodel en retourneert de meest waarschijnlijke correctie.
 
-1. **Tokenisation** – Splits de ruwe string in woorden en interpunctie.  
-2. **Dictionary Lookup** – Vergelijkt elk token met een Engels woordenboek (of een aangepast woordenboek dat je kunt leveren).  
-3. **Contextual Scoring** – Gebruikt een klein taalmodel om te bepalen of een correctie past bij de omliggende woorden.  
-4. **Replacement** – Retourneert een nieuwe string met de meest waarschijnlijke correcties toegepast.
+#### Niet‑Engelse talen
+Geef de taalcodes op bij het aanmaken van `AsposeAI`, bijvoorbeeld `AsposeAI(language="fr")` voor Frans.
 
-> **Edge case:** If the source language isn’t English, pass the appropriate language code when creating `AsposeAI()` (e.g., `AsposeAI(language="fr")`).
-
----
-
-## Verifiëren en de schoongemaakte tekst gebruiken
-
-Op dit punt heb je twee variabelen: `raw_text` (de directe OCR‑dump) en `clean_text` (de spell‑checked versie). Welke je behoudt, hangt af van je downstream‑behoeften.
-
+### Stap 7: Sla het opgeschoonde resultaat op
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
 with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
@@ -157,13 +130,8 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-Als je het resultaat voedt aan een zoekmachine, een database, of een machine‑learning model, kies dan altijd de **cleaned** versie—anders verspreid je OCR‑ruis door je hele pipeline.
-
----
-
-## Volledig werkend voorbeeld
-
-Hieronder staat het complete script dat je kunt kopiëren‑plakken in een bestand genaamd `extract_invoice.py`. Het gaat ervan uit dat je de twee Aspose‑pakketten al geïnstalleerd hebt en een afbeelding hebt op `YOUR_DIRECTORY/invoice.png`.
+### Volledig werkend voorbeeld
+Hieronder vind je het volledige script dat je kunt kopiëren‑plakken in `extract_invoice.py`. Het gaat ervan uit dat de twee Aspose‑pakketten geïnstalleerd zijn en dat de afbeelding zich bevindt in `YOUR_DIRECTORY/invoice.png`.
 
 ```python
 # extract_invoice.py
@@ -201,45 +169,47 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as out_file:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-Voer het uit met:
+Voer uit met:
 
 ```bash
 python extract_invoice.py
 ```
 
-Je zou de ruwe dump gevolgd door een nettere versie moeten zien, en een bestand genaamd `invoice_extracted.txt` zal verschijnen in dezelfde map.
+Je ziet de ruwe dump, de opgeschoonde versie, en een bestand genaamd `invoice_extracted.txt` in dezelfde map.
+
+## Hoe OCR-fouten te corrigeren in andere scenario's?
+- **Batchverwerking:** Verpak de kernlogica in een functie en gebruik `concurrent.futures.ThreadPoolExecutor` om parallel over veel afbeeldingen te werken.
+- **PDF‑documenten:** Gebruik `pdf2image` om elke pagina om te zetten naar een PNG, en voer vervolgens elke PNG door het script. Dit implementeert de “convert pdf to images for ocr” workflow.
+- **Aangepaste woordenboeken:** Geef een lijst met domeinspecifieke termen door aan `AsposeAI` via `set_custom_dictionary()` om de spell‑check nauwkeurigheid voor facturen, medische rapporten, enz. te verbeteren.
+
+## Veelgestelde vragen
+
+**Q: Werkt dit direct met PDF's?**  
+A: Niet direct. Converteer elke PDF‑pagina eerst naar een afbeelding (bijv. met `pdf2image`) en voer daarna het OCR‑script uit op elke PNG.
+
+**Q: Mijn brontaal is niet Engels—kan ik de spell‑check toch gebruiken?**  
+A: Ja. Initialiseert `AsposeAI(language="de")` voor Duits, `"es"` voor Spaans, enzovoort.
+
+**Q: Wat als de OCR‑engine tabellenstructuren verkeerd detecteert?**  
+A: Schakel lay‑out‑analyse in met `ocr_engine.set_layout_analysis(True)`. Dit verbetert tabeldetectie ten koste van iets meer verwerkingstijd.
+
+**Q: Hoe kan ik zeer grote batches efficiënt verwerken?**  
+A: Verwerk afbeeldingen in batches, schrijf elk resultaat naar een database of berichtwachtrij, en overweeg async I/O of multiprocessing om de CPU‑benutting te maximaliseren.
+
+**Q: Is er een manier om het spell‑check woordenboek aan te passen?**  
+A: Ja. Gebruik `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])` vóór het uitvoeren van de post‑processor.
 
 ---
 
-## Veelgestelde vragen (FAQ)
-
-**Q: Werkt dit met PDF’s?**  
-A: Niet direct. Converteer elke PDF‑pagina naar een afbeelding (bijv. met `pdf2image`) en loop het script over de resulterende PNG’s.
-
-**Q: Mijn taal is niet Engels—kan ik de spell‑check nog steeds gebruiken?**  
-A: Ja. Geef de gewenste taalcodes door aan `AsposeAI(language="de")` voor Duits, `"es"` voor Spaans, enz.
-
-**Q: Wat als de OCR‑engine een tabelindeling verkeerd detecteert?**  
-A: Aspose OCR biedt een `set_layout_analysis(True)`‑vlag. Deze inschakelen verbetert tabeldetectie maar kan de verwerkingstijd verhogen.
-
-**Q: Hoe ga ik om met extreem grote batches?**  
-A: Wrap de kernlogica in een functie en gebruik een thread‑pool of async IO om te paralleliseren over meerdere cores of machines.
-
----
-
-## Afsluiting
-
-We hebben laten zien hoe je **tekst uit een afbeelding kunt extraheren** met Aspose OCR, hoe je **een afbeelding laadt voor OCR**, en de meest eenvoudige manier om **OCR‑fouten te corrigeren** met de ingebouwde AI spell‑check. Het complete, uitvoerbare script demonstreert de end‑to‑end flow—from loading the invoice PNG to saving a clean, searchable `.txt` file.
-
-Voel je vrij om te experimenteren: wissel de spell‑check voor grammatica‑correctie, voer de output in een NLP‑classifier, of integreer het proces in een groter document‑management systeem. De mogelijkheden zijn eindeloos zodra je betrouwbare, gecorrigeerde tekst hebt.
-
-Heb je meer vragen over OCR, Aspose, of Python‑automatisering? Laat een reactie achter hieronder, en happy coding! 
-
----
-
-![Extract text from image example](extract_text_image.png "Extract text from image with Aspose OCR")
+![Voorbeeld van tekst extraheren uit afbeelding](extract_text_image.png "Extract text from image with Aspose OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose OCR 23.12, Aspose OCR AI 23.12  
+**Author:** Aspose
