@@ -61,7 +61,11 @@ Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kény
 ### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
 Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
 ### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
+Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.  
+### [Hogyan mentse el a JSON-t OCR-ből C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Tanulja meg, hogyan menthet JSON‑t az OCR eredményből C#‑ban, részletes, lépésről‑lépésre útmutatóval.  
+### [Kínai szöveg offline felismerése – Teljes C# útmutató](./recognize-chinese-text-offline-complete-c-guide/)
+Ismerje meg, hogyan lehet offline módon kínai szöveget felismerni C#-ban az Aspose.OCR segítségével.  
 
 ### Gyakori felhasználási esetek
 - **Szöveg kinyerése** beolvasott számlákról az automatizált könyveléshez.  

@@ -61,13 +61,15 @@ Poznaj Aspose.OCR dla .NET — Twój klucz do precyzyjnego rozpoznawania obrazu 
 ### [Get Rectangles for Paragraphs in OCR Image Recognition](./get-rectangles-for-paragraphs/)
 Odblokuj zaawansowane możliwości OCR z Aspose.OCR dla .NET. Wyodrębniaj prostokąty akapitów bezproblemowo.
 ### [Recognize Image from Stream in OCR Image Recognition](./recognize-image-from-stream/)
-Odkryj magię OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów. Zapoznaj się z tutorialem, aby uzyskać instrukcje krok po kroku.
+Odkryj magię OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębnij tekst z obrazów. Zapoznaj się z tutorialem, aby uzyskać instrukcje krok po kroku.
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Wykorzystaj potencjał rozpoznawania tekstu z Aspose.OCR dla .NET. Rozpoznawaj tekst z obrazów bez wysiłku.
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
 Uwolnij potencjał Aspose.OCR dla .NET w rozpoznawaniu linii w OCR. Przewodnik dewelopera do płynnego wyodrębniania tekstu z obrazów.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Odkryj magię OCR z Aspose.OCR dla .NET i łatwo wyodrębniaj tekst z obrazów. Zapoznaj się z tutorialem dla bezproblemowej integracji.
+### [Zapisz tabelę jako CSV w C# – Kompletny przewodnik Aspose OCR](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Dowiedz się, jak wyeksportować wykryte tabele do pliku CSV przy użyciu Aspose.OCR w C#.
 
 ## Najczęściej zadawane pytania
 
