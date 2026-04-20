@@ -69,10 +69,19 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit átfogó útmutatónkkal. Tanu
 Fedezze fel az Aspose.OCR for .NET-et. Növelje az OCR pontosságát előfeldolgozó szűrőkkel. Töltse le most a zökkenőmentes integrációért.
 
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
-Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyedén érjen el hibamentes szövegfelismerést.
+Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
 
 ### [Többoldalas eredmény mentése dokumentumként OCR kép felismerésben](./save-multipage-result-as-document/)
 Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként ezzel az átfogó lépésről‑lépésre útmutatóval.
+
+### [Hogyan kiegyenesítsen képet és futtassa az OCR‑t C#‑ban – Teljes útmutató](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Ismerje meg, hogyan lehet a képet kiegyenesíteni és OCR‑t végrehajtani C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre.
+
+### [Aspose OCR példa – helyesírás-ellenőrzés engedélyezése és hibák javítása C#‑ban](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ismerje meg, hogyan engedélyezheti a helyesírás-ellenőrzést és javíthatja a felismerési hibákat C#‑ban az Aspose.OCR segítségével.
+
+### [Hogyan hajtson végre OCR-t kínai képeken – Teljes C# útmutató](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Fedezze fel, hogyan ismerje fel a kínai nyelvű szöveget képeken C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre.
 
 ## Gyakran Ismételt Kérdések
 

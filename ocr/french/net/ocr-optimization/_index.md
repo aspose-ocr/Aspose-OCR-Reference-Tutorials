@@ -75,6 +75,12 @@ Explorez Aspose.OCR pour .NET. Boostez la précision de l’OCR avec des filtres
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
 Débloquez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR multipages sous forme de documents grâce à ce guide complet étape par étape.
+### [Comment redresser une image et exécuter l'OCR en C# – Guide complet](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Apprenez à redresser les images et à appliquer l'OCR avec Aspose.OCR en C# grâce à ce guide complet.
+### [Exemple Aspose OCR – Activer la vérification orthographique et corriger les erreurs en C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Apprenez à activer la vérification orthographique dans Aspose.OCR et à corriger automatiquement les erreurs de texte en C#.
+### [Comment effectuer l'OCR sur des images chinoises – Guide complet C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Apprenez à reconnaître le texte chinois dans les images avec Aspose.OCR en C#, incluant la configuration linguistique et les filtres de prétraitement.
 
 ## Questions fréquemment posées
 

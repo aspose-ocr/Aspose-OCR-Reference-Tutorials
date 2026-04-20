@@ -64,6 +64,8 @@ Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met Aspose.OCR v
 Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR‑optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET tutorials.
 
 ## OCR-optimalisatie tutorials
+### [Hoe een afbeelding rechtzetten en OCR uitvoeren in C# – Complete gids](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Leer stap‑voor‑stap hoe je een scheve afbeelding corrigeert en vervolgens OCR toepast met Aspose.OCR in C#.
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Ontdek naadloze OCR‑integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -74,6 +76,10 @@ Verken Aspose.OCR voor .NET. Verhoog OCR‑nauwkeurigheid met preprocessing‑fi
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze teksterkenning.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
+### [Aspose OCR‑voorbeeld – Spellcheck inschakelen en fouten corrigeren in C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Leer hoe je spellcheck inschakelt en OCR‑fouten corrigeert in C# met Aspose.OCR.
+### [Hoe OCR op Chinese afbeeldingen uit te voeren – Complete C# gids](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Leer stap‑voor‑stap hoe je Chinese tekens herkent met Aspose.OCR in C# en optimale resultaten behaalt.
 
 ## Veelgestelde vragen
 

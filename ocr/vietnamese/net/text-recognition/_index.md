@@ -55,6 +55,17 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Khám phá cách nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR một cách dễ dàng.
+### [Nhận dạng văn bản Hindi trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Khám phá cách nhận dạng văn bản Hindi trong C# bằng Aspose OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR Hindi một cách dễ dàng.
+### [Cách tạo ePub từ hình ảnh trong C# – Hướng dẫn từng bước](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển hình ảnh thành file ePub bằng C#, giúp bạn tạo sách điện tử một cách nhanh chóng và dễ dàng.
+### [Trích xuất văn bản từ PNG trong C# – Hướng dẫn OCR đầy đủ](./extract-text-from-png-in-c-full-ocr-guide/)
+Khám phá cách trích xuất văn bản từ tệp PNG trong C# bằng Aspose.OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR một cách dễ dàng.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh mà không cần kết nối internet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
