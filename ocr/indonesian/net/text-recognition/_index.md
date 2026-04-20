@@ -53,8 +53,20 @@ Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dal
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
+### [Cara Menggunakan Aspose – Ekstrak Teks dari PDF di C# – Panduan Lengkap](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Pelajari cara mengekstrak teks dari PDF menggunakan Aspose di C# dengan panduan lengkap langkah demi langkah.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Contoh c# OCR – Ekstrak Teks dari Gambar dengan Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Pelajari contoh kode C# untuk mengekstrak teks dari gambar menggunakan Aspose OCR dalam aplikasi .NET Anda.
+### [Ekstrak Teks dari Formulir dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Pelajari cara mengekstrak teks dari formulir menggunakan Aspose OCR dengan panduan langkah demi langkah untuk aplikasi .NET Anda.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Lengkap C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR dengan panduan lengkap C#.
+### [Ekstrak Teks dari Gambar dalam C# – Panduan Lengkap](./extract-text-from-image-in-c-full-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan lengkap langkah demi langkah.
+### [Ekstrak Teks dari Gambar dalam C# – Tutorial OCR Asinkron](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Pelajari cara mengekstrak teks dari gambar secara asinkron menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

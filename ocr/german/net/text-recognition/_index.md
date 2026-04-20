@@ -55,6 +55,19 @@ Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtext
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden zum Erkennen von Tabellen in der OCR-Bilderkennung.
+### [c# OCR-Beispiel – Text aus Bildern mit Aspose OCR extrahieren](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren und in Ihre .NET-Anwendungen integrieren.
+### [Text aus Bild in C# extrahieren – Vollständige Anleitung](./extract-text-from-image-in-c-full-guide/)
+Lernen Sie in dieser vollständigen Anleitung, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren und in Ihre .NET‑Anwendungen einbinden.
+### [Text aus Formular mit Aspose OCR extrahieren – Schritt‑für‑Schritt‑Anleitung](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Lernen Sie, wie Sie mit Aspose OCR Text aus Formularen extrahieren und in Ihre .NET‑Anwendungen integrieren.
+### [Erstellen Sie ein durchsuchbares PDF aus einem Bild – Vollständige C#‑Anleitung](./create-searchable-pdf-from-image-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# ein durchsuchbares PDF aus einem Bild erstellen und in Ihre .NET‑Anwendungen integrieren.
+### [Wie man Aspose verwendet – Text aus PDF in C# extrahieren – Vollständige Anleitung](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus PDFs extrahieren und nahtlos in Ihre .NET‑Anwendungen einbinden.
+### [Text aus Bild in C# extrahieren – Asynchrones OCR‑Tutorial](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern asynchron extrahieren und in Ihre .NET‑Anwendungen integrieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

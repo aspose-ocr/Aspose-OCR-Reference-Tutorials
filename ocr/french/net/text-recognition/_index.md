@@ -53,8 +53,21 @@ Libérez la puissance d’Aspose.OCR pour .NET. Apprenez à obtenir des résulta
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficace du texte des images. Explorez le mode de détection des zones OCR pour des résultats précis.
 ### [Reconnaître un PDF dans la reconnaissance d'images OCR](./recognize-pdf/)
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
+### [Créer un PDF consultable à partir d'une image – Guide complet C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Apprenez à créer un PDF consultable à partir d'une image en C# avec Aspose OCR grâce à ce guide complet.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Exemple C# OCR – Extraire du texte d'images avec Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Découvrez comment extraire du texte d'images en C# avec Aspose OCR grâce à ce guide pratique.
+### [Extraire du texte d'un formulaire avec Aspose OCR – Guide étape par étape](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Apprenez à extraire le texte des formulaires en utilisant Aspose OCR grâce à ce guide détaillé étape par étape.
+### [Extraire du texte d'une image en C# – Guide complet](./extract-text-from-image-in-c-full-guide/)
+Apprenez à extraire du texte d'images en C# avec Aspose OCR grâce à ce guide complet.
+### [Comment utiliser Aspose – Extraire du texte d'un PDF en C# – Guide complet](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Apprenez à extraire le texte de fichiers PDF en C# avec Aspose grâce à ce guide complet.
+### [Extraire du texte d'une image en C# – Tutoriel OCR asynchrone](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Apprenez à extraire du texte d'images en C# de façon asynchrone avec Aspose OCR grâce à ce guide pratique.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
