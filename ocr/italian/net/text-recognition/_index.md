@@ -55,6 +55,21 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Tutorial OCR C# – Estrai testo dalle immagini con Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Scopri come estrarre testo da immagini usando Aspose OCR in C#. Segui la guida passo passo per integrare l'OCR nella tua app.
+### [Come utilizzare OCR in C# – Estrarre testo arabo da JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Scopri come estrarre testo arabo da immagini JPG usando Aspose.OCR in C#. Segui la guida passo passo.
+### [Crea PDF ricercabile da immagine in C# – Guida completa](./create-searchable-pdf-from-image-in-c-full-guide/)
+Impara a trasformare immagini in PDF ricercabili usando Aspose.OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+### [c# OCR tutorial – Estrai testo Urdu da immagini PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Scopri come estrarre testo in lingua urdu da file PNG usando Aspose.OCR in C#. Segui la guida passo passo per integrare l'OCR nella tua app.
+### [Come fare OCR batch in C# – Estrarre testo dalle immagini rapidamente](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Scopri come elaborare più immagini contemporaneamente con Aspose.OCR in C#, per estrarre testo rapidamente e migliorare le prestazioni della tua app.
+### [Come creare PDF/A da immagini scannerizzate in C# – Guida passo‑passo](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Scopri come creare PDF/A da immagini scannerizzate usando Aspose.OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+### [Riconoscere testo scritto a mano in C# usando Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Scopri come estrarre testo scritto a mano da immagini con Aspose OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

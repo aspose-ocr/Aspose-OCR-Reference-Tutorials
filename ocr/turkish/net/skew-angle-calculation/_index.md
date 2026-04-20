@@ -40,6 +40,8 @@ C# uygulamalarınızda doğru metin tanıma için güçlü bir OCR çözümü ol
 Görüntü tanıma için güçlü bir çözüm olan Aspose.OCR for .NET'in gücünü açığa çıkarın. Eğim açılarını zahmetsizce nasıl hesaplayacağınızı öğrenin.
 ### [OCR Görüntü Tanıma'da URI'den Eğim Açısını Hesaplama](./calculate-skew-angle-from-uri/)
 OCR görüntü tanımada eğim açılarını zahmetsizce hesaplamak için Aspose.OCR for .NET'i keşfedin. Projelerinizi hassasiyet ve verimlilikle geliştirin.
+### [C#'ta Görüntüyü Düzeltme (Deskew) Nasıl Yapılır – Aspose OCR Kullanarak Tam Kılavuz](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Aspose OCR ile C#'ta görüntü düzeltme işlemini adım adım öğrenin ve OCR doğruluğunu artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
