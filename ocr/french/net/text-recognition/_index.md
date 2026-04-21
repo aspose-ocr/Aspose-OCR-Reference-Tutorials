@@ -55,6 +55,17 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Reconnaître du texte arabe à partir d'un PNG avec Aspose OCR – Guide C#](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Apprenez à extraire du texte arabe d’un PNG avec Aspose OCR en C#, étape par étape.
+### [Comment utiliser l'OCR en C# – Extraire rapidement du texte à partir de numérisations](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Apprenez à extraire rapidement du texte à partir de scans en utilisant l'OCR avec C#.
+### [Créer un PDF consultable – Convertir une image en EPUB et ajouter du texte](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Apprenez à créer un PDF consultable en convertissant une image en EPUB et en ajoutant du texte avec Aspose.OCR.
+### [Comment effectuer l'OCR en C# – Extraire du texte d'une image](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Apprenez à extraire rapidement du texte d’une image en utilisant l’OCR avec C# grâce à ce guide pratique.
+### [Tutoriel OCR en direct : détecter du texte dans une vidéo avec C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Apprenez à détecter du texte en temps réel dans des vidéos avec Aspose.OCR et C#, étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
