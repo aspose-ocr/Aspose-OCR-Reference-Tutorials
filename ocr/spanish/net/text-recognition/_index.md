@@ -27,7 +27,7 @@ Explore las capacidades de Aspose.OCR para .NET y transforme la forma en que man
 
 ## Obtenga resultados como JSON en el reconocimiento de imágenes OCR
 
-Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados de OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
+Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
 
 ## Modo de detección de áreas OCR en reconocimiento de imágenes OCR
 
@@ -55,6 +55,17 @@ Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de integración perfecta.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [Tutorial OCR en C#: Extraer texto de una imagen con Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Aprenda a extraer texto de imágenes usando Aspose OCR en C#, con ejemplos claros y paso a paso.
+### [Ejecutar OCR en una imagen con Aspose OCR – Reconocer texto chino](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aprenda a usar Aspose OCR en .NET para reconocer texto chino en imágenes, con pasos claros y ejemplos prácticos.
+### [Extraer texto de una imagen con Aspose OCR – Guía completa en C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extraer texto de imágenes usando Aspose OCR en C# con una guía completa paso a paso.
+### [Tutorial OCR en C# – Extraer texto árabe de imágenes](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Aprenda a extraer texto en árabe de imágenes usando Aspose OCR en C# con ejemplos claros y paso a paso.
+### [Crear Excel a partir de una imagen con Aspose OCR – Guía paso a paso](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Aprenda a crear archivos Excel a partir de imágenes usando Aspose OCR con una guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

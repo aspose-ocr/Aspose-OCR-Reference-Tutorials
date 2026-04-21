@@ -61,6 +61,10 @@ Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
+### [Hoe een OCR-engine te maken in C# – Offline installatiegids](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Leer stap‑voor‑stap hoe je een offline OCR‑engine in C# opzet met Aspose.OCR, zonder internetverbinding.
+### [Hoe de beschikbaarheid van een OCR‑model te controleren in C# – Stapsgewijze gids](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Leer stap‑voor‑stap hoe je de beschikbaarheid van OCR‑modellen controleert in C# met Aspose.OCR.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

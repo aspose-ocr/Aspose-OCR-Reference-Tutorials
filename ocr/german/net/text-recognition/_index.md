@@ -55,6 +55,17 @@ Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtext
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden zum Erkennen von Tabellen in der OCR-Bilderkennung.
+### [c# OCR-Tutorial: Text aus Bild extrahieren mit Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren.
+### [OCR auf Bild ausführen mit Aspose OCR – Chinesischen Text erkennen](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Erfahren Sie, wie Sie mit Aspose OCR chinesischen Text aus Bildern extrahieren und verarbeiten.
+### [C# OCR-Tutorial: Text aus Bild extrahieren mit Aspose OCR – Vollständiger Leitfaden](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – eine umfassende Schritt-für-Schritt-Anleitung.
+### [c# OCR-Tutorial – Arabischen Text aus Bildern extrahieren](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Erfahren Sie, wie Sie mit Aspose OCR arabischen Text aus Bildern in C# extrahieren.
+### [Excel aus Bild mit Aspose OCR – Schritt‑für‑Schritt‑Anleitung](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR Excel-Dateien aus Bildern erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

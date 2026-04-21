@@ -65,15 +65,12 @@ Sử dụng Aspose.OCR For .NET Tutorials List, bạn có thể truy cập các 
 
 ## Hướng dẫn tối ưu hóa OCR
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Correct Image Rotation in C# – Full Guide to OCR Accuracy](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+### [Cách điều chỉnh nghiêng hình ảnh cho OCR – Hướng dẫn chi tiết C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 
 ## Câu hỏi thường gặp
 

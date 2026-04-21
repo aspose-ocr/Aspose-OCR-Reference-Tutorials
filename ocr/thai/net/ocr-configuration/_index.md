@@ -65,6 +65,10 @@ weight: 24
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR for .NET ทำการจดจำภาพด้วย OCR ผ่านรายการได้อย่างง่ายดาย เพิ่มผลผลิตและการสกัดข้อมูลในแอปพลิเคชันของคุณ
 
+### [วิธีสร้าง OCR Engine ใน C# – คู่มือการตั้งค่าแบบออฟไลน์](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+
+### [วิธีตรวจสอบการพร้อมใช้งานของโมเดล OCR ใน C# – คู่มือขั้นตอนโดยละเอียด](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  
 - ทำดัชนีอาร์ไคฟ์เอกสารขนาดใหญ่เพื่อเป็นคลังข้อมูลที่ค้นหาได้.  
