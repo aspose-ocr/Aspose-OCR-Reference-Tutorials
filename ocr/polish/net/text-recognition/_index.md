@@ -45,16 +45,34 @@ Gotowy zrewolucjonizować swoje aplikacje .NET? Zanurz się w naszych samouczkac
 ## Poradniki rozpoznawania tekstu
 ### [Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR](./get-choices-for-recognized-characters/)
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby uzyskać dokładne rozpoznawanie znaków. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wyszukać opcje rozpoznawania znaków w procesie rozpoznawania obrazu.
+
 ### [Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR](./get-recognition-result/)
 Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do płynnego rozpoznawania tekstu w obrazach.
+
 ### [Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR](./get-result-as-json/)
 Uwolnij moc Aspose.OCR dla .NET. Dowiedz się, jak bez wysiłku uzyskiwać wyniki OCR w formacie JSON. Popraw rozpoznawanie obrazów dzięki temu przewodnikowi krok po kroku.
+
 ### [Tryb wykrywania obszarów OCR w trybie rozpoznawania obrazu OCR](./ocr-detect-areas-mode/)
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać tekst obrazu. Poznaj tryb wykrywania obszarów OCR, aby uzyskać dokładne wyniki.
+
 ### [Rozpoznaj plik PDF w rozpoznawaniu obrazu OCR](./recognize-pdf/)
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
+
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+
+### [c# OCR samouczek – Wyodrębnij tekst z obrazów przy użyciu Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Naucz się, jak w C# wykorzystać Aspose OCR do szybkiego wyodrębniania tekstu z obrazów w kilku prostych krokach.
+
+### [c# OCR samouczek – Wyodrębnij tekst z obrazów JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Naucz się, jak w C# przy użyciu Aspose OCR wyodrębnić tekst z plików JPG w kilku prostych krokach.
+
+### [Utwórz przeszukiwalny PDF z obrazu w C# – przewodnik krok po kroku](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# przy użyciu Aspose.OCR przekształcić obraz w przeszukalny plik PDF w kilku prostych krokach.
+
+### [Jak utworzyć ePub ze skanowanych obrazów – przewodnik krok po kroku](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Dowiedz się, jak w .NET przy użyciu Aspose.OCR przekształcić zeskanowane obrazy w plik ePub.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
