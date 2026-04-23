@@ -74,6 +74,8 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter preprocessi
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan capai pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multipage sebagai Dokumen dalam OCR Image Recognition](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan panduan langkah demi langkah yang komprehensif ini.
+### [Cara OCR Gambar: Tingkatkan Kontras, Hapus Noise](./how-to-ocr-image-boost-contrast-remove-noise/)
+Pelajari cara meningkatkan kontras dan menghilangkan noise pada gambar sebelum OCR untuk hasil yang lebih akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

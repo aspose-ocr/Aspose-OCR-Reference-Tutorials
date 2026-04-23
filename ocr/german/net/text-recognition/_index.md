@@ -55,6 +55,19 @@ Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtext
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden zum Erkennen von Tabellen in der OCR-Bilderkennung.
+### [C# OCR-Tutorial – Text aus Bild extrahieren](./c-ocr-tutorial-extract-text-from-image/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren und in Ihre .NET-Anwendung integrieren.
+### [Bild in Text konvertieren mit Aspose OCR – Schritt‑für‑Schritt C#‑Leitfaden](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Text aus Bild mit Aspose OCR erkennen – Vollständiger C#‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – ein umfassender Schritt‑für‑Schritt‑Leitfaden.
+### [Durchsuchbares PDF aus Bildern in C# – Schritt‑für‑Schritt‑Leitfaden](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# aus Bildern ein durchsuchbares PDF erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man JPEG-Bilder stapelweise per OCR in C# verarbeitet – Vollständiger Leitfaden](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR mehrere JPEG-Bilder in C# stapelweise verarbeiten und Text extrahieren.
+### [Text aus Bild in C# mit Aspose OCR erkennen](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – ein kompakter Schritt‑für‑Schritt‑Leitfaden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
