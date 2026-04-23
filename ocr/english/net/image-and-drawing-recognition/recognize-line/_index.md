@@ -2,10 +2,10 @@
 title: Extract Text from Image – Recognize Line with Aspose.OCR
 linktitle: Extract Text from Image – Recognize Line with Aspose.OCR
 second_title: Aspose.OCR .NET API
-description: Learn how to extract text from image using Aspose.OCR for .NET – a step‑by‑step guide to recognize lines and convert image to text.
+description: Learn how to extract text from image using Aspose.OCR for .NET, convert PNG to text, and improve OCR accuracy in C# applications.
 weight: 14
 url: /net/image-and-drawing-recognition/recognize-line/
-date: 2025-12-19
+date: 2026-02-22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-19
 
 ## Introduction
 
-Optical character recognition (OCR) has become the go‑to solution for turning pictures of text into searchable, editable content. If you’re looking to **extract text from image** files quickly and reliably, Aspose.OCR for .NET offers a powerful, developer‑friendly API. In this tutorial we’ll walk through everything you need to know to recognize lines in an image, convert those lines to plain text, and display the result—all with clean, easy‑to‑follow C# code.
+Optical character recognition (OCR) has become the go‑to solution for turning pictures of text into searchable, editable content. If you’re looking to **extract text from image** files quickly and reliably, Aspose.OCR for .NET offers a powerful, developer‑friendly API that works on both the full .NET Framework and **ASP OCR .NET Core** projects. In this tutorial we’ll walk through everything you need to know to recognize lines in an image, convert those lines to plain text, and display the result—all with clean, easy‑to‑follow C# code.
 
 ## Quick Answers
 - **What does Aspose.OCR do?** It reads printed or handwritten text from image formats and returns plain strings.  
@@ -34,7 +34,11 @@ Extracting text from an image means using OCR technology to analyze the visual p
 - **High accuracy** across multiple languages and fonts.  
 - **No external dependencies** – pure managed code, easy to integrate.  
 - **Comprehensive format support** – works with PNG, JPEG, BMP, and more.  
-- **Simple API** – a few lines of code get you from image to text.
+- **Simple API** – a few lines of code get you from image to text.  
+
+### How does this help you **convert PNG to text**?
+
+Because Aspose.OCR can read PNG files directly, you can feed a scanned PNG image into the `RecognizeLine` method and receive a clean string without any intermediate conversion steps.
 
 ## Prerequisites
 
@@ -81,7 +85,7 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 // ExEnd:3
 ```
 
-The `RecognizeLine` method focuses on a single line of text, making it ideal when you know the layout of your image.
+The `RecognizeLine` method focuses on a single line of text, making it ideal when you know the layout of your image. It’s also a great way to **read scanned image text** when the document contains a single line of important data.
 
 ### Step 3: Displaying Recognized Text
 
@@ -101,6 +105,15 @@ Console.WriteLine("RecognizeLine executed successfully");
 ```
 
 Seeing this message means the OCR process completed without errors.
+
+## How to improve OCR accuracy with Aspose.OCR?
+
+- **Use high‑resolution images** (300 dpi or higher).  
+- **Apply image preprocessing** such as binarization or noise removal with `api.PreprocessImage`.  
+- **Select the correct language** using `api.Language = OcrLanguage.English;` (or the appropriate language enum).  
+- **Trim borders** to eliminate irrelevant background.
+
+These tweaks help you **improve OCR accuracy** especially when dealing with low‑quality scans.
 
 ## Common Issues & Solutions
 
@@ -134,11 +147,11 @@ A5: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for comp
 
 ## Conclusion
 
-By following these steps you’ve learned how to **extract text from image** files using Aspose.OCR for .NET, specifically recognizing individual lines. This capability opens the door to automating data capture, building searchable archives, and integrating OCR into any .NET application.
+By following these steps you’ve learned how to **extract text from image** files using Aspose.OCR for .NET, specifically recognizing individual lines. This capability opens the door to automating data capture, building searchable archives, and integrating OCR into any .NET application—whether you’re targeting the full framework or **ASP OCR .NET Core**.
 
 ---
 
-**Last Updated:** 2025-12-19  
+**Last Updated:** 2026-02-22  
 **Tested With:** Aspose.OCR 24.12 for .NET  
 **Author:** Aspose  
 

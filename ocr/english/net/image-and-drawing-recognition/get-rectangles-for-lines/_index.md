@@ -1,22 +1,22 @@
 ---
-title: Get OCR Line Rectangles for Image Text Lines
-linktitle: Get OCR Line Rectangles for Image Text Lines
+title: Layout Analysis OCR – Get Line Rectangles from Images
+linktitle: Layout Analysis OCR – Get Line Rectangles from Images
 second_title: Aspose.OCR .NET API
-description: Learn how to get OCR line rectangles using Aspose.OCR for .NET to recognize text lines in images and extract line coordinates easily.
+description: Learn how to perform layout analysis OCR by recognizing text lines in an image and extracting line rectangles using Aspose.OCR for .NET.
 weight: 10
 url: /net/image-and-drawing-recognition/get-rectangles-for-lines/
-date: 2025-12-17
+date: 2026-02-22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Get OCR Line Rectangles for Image Text Lines
+# Layout Analysis OCR – Get Line Rectangles from Images
 
 ## Introduction
 
-In this tutorial you'll discover **how to get OCR line rectangles** with Aspose.OCR for .NET. By the end of the guide you’ll be able to **recognize text lines in an image** and **extract line coordinates** for each detected line—perfect for downstream processing such as layout analysis, data extraction, or custom rendering.
+In this tutorial you'll discover **how to get OCR line rectangles** with Aspose.OCR for .NET. By the end of the guide you’ll be able to **recognize text lines in an image** and **extract line coordinates** for each detected line—perfect for downstream processing such as **layout analysis OCR**, data extraction, or custom rendering.
 
 ## Quick Answers
 - **What does “get OCR line rectangles” mean?** It returns the bounding boxes of each text line detected in an image.  
@@ -48,7 +48,9 @@ using Aspose.OCR;
 
 Now, let's break down the process of getting rectangles for lines in OCR image recognition into easy‑to‑follow steps.
 
-## Step 1: Set Up Your Document Directory
+## layout analysis ocr – Step‑by‑Step Guide
+
+### Step 1: Set Up Your Document Directory
 
 ```csharp
 // ExStart:3
@@ -58,7 +60,7 @@ string dataDir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the actual path to the folder that holds your sample image.
 
-## Step 2: Initialize Aspose.OCR
+### Step 2: Initialize Aspose.OCR
 
 ```csharp
 // ExStart:4
@@ -68,7 +70,7 @@ AsposeOcr api = new AsposeOcr();
 
 Create an instance of the `AsposeOcr` class to access the OCR functionality.
 
-## Step 3: Specify Image Path
+### Step 3: Specify Image Path
 
 ```csharp
 // ExStart:5
@@ -78,7 +80,7 @@ string fullPath = dataDir + "sample.png";
 
 Define the full path to the image you want to perform OCR on.
 
-## Step 4: Recognize Image and Get Rectangles
+### Step 4: Recognize Image and Get Rectangles
 
 ```csharp
 // ExStart:6
@@ -86,9 +88,9 @@ List<Rectangle> lines = api.GetRectangles(fullPath, AreasType.LINES, false);
 // ExEnd:6
 ```
 
-The `GetRectangles` method returns a list of `Rectangle` objects, each representing the coordinates of a detected text line. This is the core of **getting OCR line rectangles**.
+The `GetRectangles` method returns a list of `Rectangle` objects, each representing the coordinates of a detected text line. This is the core of **getting OCR line rectangles** and enables **layout analysis OCR**.
 
-## Step 5: Print Result
+### Step 5: Print Result
 
 ```csharp
 // ExStart:7
@@ -132,13 +134,19 @@ A: After obtaining rectangles, call `api.RecognizeImage(...).Lines` to access li
 **Q: What .NET versions are compatible?**  
 A: The library works with .NET Framework 4.5+, .NET Core 3.1+, and .NET 5/6.
 
+## Real‑World Use Cases
+
+- **Document layout analysis OCR** – Feed line rectangles into a layout engine to reconstruct column structures.  
+- **Automated data extraction** – Use the coordinates to crop individual lines for downstream NLP pipelines.  
+- **Custom rendering** – Overlay bounding boxes on the original image for visual verification or UI overlays.  
+
 ## Conclusion
 
-Congratulations! You've successfully **got OCR line rectangles** for an image using Aspose.OCR for .NET. With the bounding boxes in hand, you can now feed line coordinates into downstream workflows such as custom rendering, data extraction, or layout analysis.
+Congratulations! You've successfully **got OCR line rectangles** for an image using Aspose.OCR for .NET. With the bounding boxes in hand, you can now feed line coordinates into downstream workflows such as custom rendering, data extraction, or **layout analysis OCR**.
 
 ---
 
-**Last Updated:** 2025-12-17  
+**Last Updated:** 2026-02-22  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 

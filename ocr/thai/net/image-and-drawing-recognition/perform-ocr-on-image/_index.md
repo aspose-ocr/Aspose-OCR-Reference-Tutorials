@@ -1,10 +1,10 @@
 ---
-date: 2025-12-17
+date: 2026-02-22
 description: เรียนรู้วิธีทำ OCR ภาพและดึงข้อความจากภาพด้วย Aspose.OCR สำหรับ .NET
-  คู่มือขั้นตอนนี้จะแสดงให้คุณเห็นวิธีแปลงภาพเป็นข้อความอย่างรวดเร็ว
+  คู่มือแบบขั้นตอนนี้จะแสดงให้คุณเห็นวิธีแปลงภาพเป็นข้อความอย่างรวดเร็ว
 linktitle: Perform OCR on Image in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: วิธีทำ OCR ภาพ – ทำ OCR บนภาพในการจดจำภาพ OCR
+title: วิธีทำ OCR รูปภาพ – ทำ OCR บนรูปภาพในระบบจดจำภาพ OCR
 url: /th/net/image-and-drawing-recognition/perform-ocr-on-image/
 weight: 14
 ---
@@ -13,30 +13,42 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีทำ OCR รูปภาพ – ทำ OCR บนรูปภาพในการจดจำภาพ OCR
+# วิธีทำ OCR รูปภาพ – Perform OCR on Image in OCR Image Recognition
 
-## Introduction
+## บทนำ
 
-ในแอปพลิเคชันสมัยใหม่, **how to ocr image** เป็นคำถามทั่วไปสำหรับนักพัฒนาที่ต้องการแปลงเอกสารสแกน, ภาพหน้าจอ, หรือรูปถ่ายให้เป็นข้อความที่สามารถค้นหาและแก้ไขได้ Aspose.OCR for .NET ให้ API ที่ทรงพลังและใช้งานง่ายที่ช่วยให้คุณ **extract image text**, **convert image to text**, และ **recognize image text** เพียงไม่กี่บรรทัดของโค้ด ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด—from การตั้งค่าห้องสมุดจนถึงการแสดงผลข้อความที่จดจำได้—เพื่อให้คุณสามารถรวมความสามารถ OCR เข้าในโปรเจกต์ C# ของคุณได้ภายในไม่กี่นาที.
+ในแอปพลิเคชันสมัยใหม่, **how to OCR image** เป็นคำถามที่พบบ่อยสำหรับนักพัฒนาที่ต้องการแปลงเอกสารสแกน, ภาพหน้าจอ, หรือรูปถ่ายให้เป็นข้อความที่สามารถค้นหาและแก้ไขได้ Aspose.OCR for .NET มอบ API ที่ทรงพลังและใช้งานง่ายที่ช่วยให้คุณ **extract image text**, **convert image to text**, และ **recognize image text** เพียงไม่กี่บรรทัดของโค้ด ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการทั้งหมด—ตั้งแต่การตั้งค่าไลบรารีจนถึงการแสดงข้อความที่ได้รับการจดจำ—เพื่อให้คุณสามารถรวมความสามารถ OCR เข้าในโปรเจกต์ C# ของคุณได้ในไม่กี่นาที.
 
-## Quick Answers
+## คำตอบสั้น
+
 - **ควรใช้ไลบรารีอะไร?** Aspose.OCR for .NET
 - **ฉันสามารถประมวลผล PNG, JPEG, และ TIFF ได้หรือไม่?** ใช่, รองรับรูปแบบภาพทั่วไปทั้งหมด
-- **จำเป็นต้องมีลิขสิทธิ์สำหรับการใช้งานในโปรดักชันหรือไม่?** ใช่, จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในโปรดักชัน
-- **เวอร์ชัน .NET ไหนที่เข้ากันได้?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6
+- **ต้องมีลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ใช่, จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์
+- **เวอร์ชัน .NET ใดที่เข้ากันได้?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6
 - **การเรียก OCR พื้นฐานใช้เวลานานเท่าไหร่?** ปกติใช้เวลาน้อยกว่าวินาทีสำหรับภาพขนาดมาตรฐาน
 
-## Prerequisites
+## OCR Image Text Extraction คืออะไร?
 
-Before diving into the code, make sure you have:
+การสกัดข้อความจากภาพด้วย OCR (Optical Character Recognition) คือกระบวนการวิเคราะห์ภาพบิตแมพ, ระบุอักขระ, และแปลงเป็นข้อความที่สามารถแก้ไขได้ เทคนิคนี้เป็นพื้นฐานของทุกอย่างตั้งแต่ PDF ที่สามารถค้นหาได้จนถึงการป้อนข้อมูลอัตโนมัติจากใบเสร็จ.
 
-1. **Aspose.OCR for .NET Library** – ดาวน์โหลดและติดตั้งจาก the [download link](https://releases.aspose.com/ocr/net/).  
-2. **Development Environment** – IDE ที่รองรับ .NET ใดก็ได้ (Visual Studio, Rider, VS Code ฯลฯ).  
-3. **ภาพตัวอย่าง** – ในคู่มือนี้เราจะใช้ `sample.png` ที่วางไว้ในโฟลเดอร์ที่คุณเลือก.
+## ทำไมต้องเลือก Aspose.OCR เป็นไลบรารี OCR C# ของคุณ?
 
-## Import Namespaces
+- **High Accuracy** – โมเดลภาษาที่ฝังมาให้ผลลัพธ์ที่เชื่อถือได้แม้กับการสแกนคุณภาพต่ำ  
+- **Broad Format Support** – รองรับ PNG, JPEG, BMP, TIFF และอื่น ๆ ทำให้ง่ายต่อการ **convert image to text** ไม่ว่าจะเป็นแหล่งใด  
+- **No External Dependencies** – ไลบรารี .NET แท้ ๆ ไม่ต้องติดตั้งเครื่องมือ OCR ภายนอก  
+- **Extensible** – คุณสามารถปรับแต่งการตั้งค่าการจดจำหรือรวมกับผลิตภัณฑ์ Aspose อื่น ๆ เพื่อเวิร์กโฟลว์เอกสารแบบครบวงจร
 
-First, add the required namespaces so the compiler knows where to find the OCR classes:
+## ข้อกำหนดเบื้องต้น
+
+ก่อนจะเริ่มเขียนโค้ด, ตรวจสอบให้แน่ใจว่าคุณมี:
+
+1. **Aspose.OCR for .NET Library** – ดาวน์โหลดและติดตั้งจาก [download link](https://releases.aspose.com/ocr/net/)  
+2. **Development Environment** – IDE ที่รองรับ .NET ใดก็ได้ (Visual Studio, Rider, VS Code ฯลฯ)  
+3. **A sample image** – ในคู่มือนี้เราจะใช้ไฟล์ `sample.png` ที่วางไว้ในโฟลเดอร์ที่คุณเลือก
+
+## นำเข้า Namespaces
+
+ขั้นแรก, เพิ่ม namespaces ที่จำเป็นเพื่อให้คอมไพเลอร์รู้ว่าจะหาคลาส OCR จากที่ไหน:
 
 ```csharp
 using System;
@@ -46,86 +58,87 @@ using Aspose.OCR;
 
 ## วิธีทำ OCR รูปภาพโดยใช้ Aspose.OCR for .NET
 
-Below is the end‑to‑end workflow broken into clear, numbered steps. Each step includes a short explanation followed by the exact code you need to copy.
+ต่อไปนี้เป็นขั้นตอนการทำงานแบบครบวงจรที่แบ่งเป็นขั้นตอนที่ชัดเจนและเป็นลำดับ ตัวอย่างแต่ละขั้นตอนจะมีคำอธิบายสั้น ๆ ตามด้วยโค้ดที่ต้องคัดลอกอย่างแม่นยำ
 
-### Step 1: ระบุไดเรกทอรีเอกสาร
+### ขั้นตอนที่ 1: ระบุไดเรกทอรีของเอกสาร
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute or relative path that contains `sample.png`. This tells the API where to look for the image you want to process.
+แทนที่ `"Your Document Directory"` ด้วยพาธแบบเต็มหรือแบบสัมพันธ์ที่มีไฟล์ `sample.png` อยู่ นี่จะบอก API ว่าจะค้นหารูปภาพที่ต้องการประมวลผลจากที่ไหน
 
-### Step 2: เริ่มต้น Aspose.OCR
+### ขั้นตอนที่ 2: เริ่มต้น Aspose.OCR
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-Creating an instance of `AsposeOcr` gives you access to all OCR methods, such as `RecognizeImage`.
+การสร้างอินสแตนซ์ของ `AsposeOcr` จะทำให้คุณเข้าถึงเมธอด OCR ทั้งหมด เช่น `RecognizeImage`
 
-### Step 3: จดจำภาพ
+### ขั้นตอนที่ 3: จดจำภาพ
 
 ```csharp
 string result = api.RecognizeImage(dataDir + "sample.png");
 ```
 
-The `RecognizeImage` method reads the image file and returns the extracted text as a string. This is where the heavy lifting—**recognize image text**—takes place.
+เมธอด `RecognizeImage` จะอ่านไฟล์ภาพและคืนค่าข้อความที่สกัดออกมาเป็นสตริง นี่คือจุดที่ทำการประมวลผลหนัก—**recognize image text**—เกิดขึ้น
 
-### Step 4: แสดงข้อความที่จดจำได้
+### ขั้นตอนที่ 4: แสดงข้อความที่จดจำได้
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-You can either print the result to the console, write it to a file, or pass it to another component for further processing.
+คุณสามารถพิมพ์ผลลัพธ์ลงคอนโซล, เขียนลงไฟล์, หรือส่งต่อให้คอมโพเนนต์อื่นเพื่อการประมวลผลต่อไป
 
-### Step 5: สรุปกระบวนการ
+### ขั้นตอนที่ 5: สรุปกระบวนการ
 
 ```csharp
 Console.WriteLine("PerformOCROnImage executed successfully");
 ```
 
-A simple confirmation message helps you verify that the OCR call completed without throwing exceptions.
+ข้อความยืนยันง่าย ๆ จะช่วยให้คุณตรวจสอบว่าการเรียก OCR เสร็จสมบูรณ์โดยไม่มีข้อยกเว้น
 
-## ทำไมต้องใช้ Aspose.OCR สำหรับโปรเจกต์ C#?
+## แปลงรูปภาพเป็นข้อความ .NET – เคล็ดลับเพิ่มเติม
 
-- **ความแม่นยำสูง** – โมเดลภาษาที่ฝังมาให้ผลลัพธ์ที่เชื่อถือได้แม้กับการสแกนคุณภาพต่ำ.  
-- **รองรับรูปแบบกว้าง** – รองรับ PNG, JPEG, BMP, TIFF และอื่น ๆ ทำให้ง่ายต่อการ **convert image to text** ไม่ว่าต้นทางจะเป็นอะไร.  
-- **ไม่มีการพึ่งพาไลบรารีภายนอก** – ไลบรารี .NET แท้ ๆ ไม่ต้องติดตั้งเครื่องมือ OCR แบบเนทีฟ.  
-- **ขยายได้** – คุณสามารถปรับแต่งการตั้งค่าการจดจำหรือรวมกับผลิตภัณฑ์ Aspose อื่น ๆ เพื่อเวิร์กโฟลว์เอกสารแบบครบวงจร.
+- **Use `Path.Combine`** เพื่อสร้างพาธไฟล์อย่างปลอดภัยข้ามแพลตฟอร์ม  
+- **Set Language** หากคุณกำลังประมวลผลข้อความที่ไม่ใช่ภาษาอังกฤษ: `api.Language = "eng";` (หรือรหัส ISO ที่เหมาะสม)  
+- **Adjust Image Quality** โดยทำการประมวลผลล่วงหน้า (เช่น การปรับขนาด, การไบนารี) เพื่อความแม่นยำที่ดีกว่าในสแกนความละเอียดต่ำ
 
-## ปัญหาทั่วไป & การแก้ไขปัญหา
+## ปัญหาทั่วไป & การแก้ไขข้อผิดพลาด
 
-| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+| Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
-| คืนค่าเป็นสตริงว่าง | เส้นทางภาพไม่ถูกต้องหรือไม่พบไฟล์ | ตรวจสอบ `dataDir` และชื่อไฟล์; ใช้ `Path.Combine` เพื่อความปลอดภัย |
-| อักขระแปลก ๆ | ความละเอียดของภาพต่ำเกินไปหรือภาษาที่ไม่รองรับ | ใช้ภาพที่ความละเอียดสูงกว่า; ตั้งค่าภาษาโดยใช้ `api.Language = "eng"` |
-| ข้อยกเว้น `System.IO.FileNotFoundException` | ไม่มีไฟล์ `sample.png` | ตรวจสอบให้ไฟล์มีอยู่ในโฟลเดอร์ที่ระบุ |
+| ส่งคืนสตริงว่าง | พาธภาพไม่ถูกต้องหรือไฟล์ไม่พบ | ตรวจสอบ `dataDir` และชื่อไฟล์; ใช้ `Path.Combine` เพื่อความปลอดภัย |
+| ตัวอักษรแสดงเป็นอักขระผิด | ความละเอียดภาพต่ำเกินไปหรือภาษาที่ไม่รองรับ | ใช้ภาพความละเอียดสูงขึ้น; ตั้งค่าภาษาโดย `api.Language = "eng"` |
+| Exception `System.IO.FileNotFoundException` | ไฟล์ `sample.png` หายไป | ตรวจสอบให้ไฟล์มีอยู่ในโฟลเดอร์ที่ระบุ |
 
 ## คำถามที่พบบ่อย
 
-**Q: Aspose.OCR สามารถจัดการรูปแบบภาพหลายรูปแบบได้หรือไม่?**  
-A: ใช่, รองรับรูปแบบหลากหลาย ดังนั้นคุณสามารถ **extract image text** จาก PNG, JPEG, BMP, TIFF และอื่น ๆ.
+**Q: Aspose.OCR สามารถจัดการหลายรูปแบบภาพได้หรือไม่?**  
+A: ใช่, รองรับรูปแบบหลากหลาย ดังนั้นคุณสามารถ **extract image text** จาก PNG, JPEG, BMP, TIFF และอื่น ๆ  
 
 **Q: มีลิขสิทธิ์ชั่วคราวสำหรับการทดสอบหรือไม่?**  
-A: แน่นอน. คุณสามารถขอรับลิขสิทธิ์ทดลองใช้งาน 30 วันจากพอร์ทัลของ Aspose.
+A: แน่นอน คุณสามารถขอรับลิขสิทธิ์ทดลองใช้งาน 30 วันจากพอร์ทัลของ Aspose  
 
 **Q: ฉันสามารถหาเอกสารประกอบที่ครบถ้วนสำหรับ Aspose.OCR for .NET ได้ที่ไหน?**  
-A: คู่มืออย่างเป็นทางการคือ [Aspose.OCR documentation](https://reference.aspose.com/ocr/net/).
+A: คู่มืออย่างเป็นทางการคือ [Aspose.OCR documentation](https://reference.aspose.com/ocr/net/)  
 
 **Q: ฉันจะรับการสนับสนุนหรือเชื่อมต่อกับชุมชนเพื่อขอความช่วยเหลือได้อย่างไร?**  
-A: เยี่ยมชม [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) เพื่อถามคำถามและแบ่งปันประสบการณ์.
+A: เยี่ยมชม [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) เพื่อถามคำถามและแบ่งปันประสบการณ์  
 
-**Q: ฉันสามารถทดลองใช้ Aspose.OCR for .NET ฟรีก่อนซื้อได้หรือไม่?**  
-A: ใช่, มี **free trial** ที่ทำงานเต็มรูปแบบที่หน้า [free trial](https://releases.aspose.com/) .
+**Q: ฉันสามารถลองใช้ Aspose.OCR for .NET ฟรีก่อนซื้อได้หรือไม่?**  
+A: ใช่, มี **free trial** ที่ทำงานเต็มรูปแบบให้ใช้ได้ที่หน้า [free trial](https://releases.aspose.com/)
 
 ## สรุป
 
-โดยทำตามขั้นตอนข้างต้น คุณจะรู้วิธี **how to ocr image** ด้วย Aspose.OCR for .NET ไม่ว่าคุณจะสร้างระบบจัดการเอกสาร, แอปประมวลผลใบเสร็จ, หรือโซลูชันใด ๆ ที่ต้อง **convert image to text**, ไลบรารีนี้ให้วิธีที่ง่ายและมีประสิทธิภาพสูงในการแปลงข้อมูลภาพเป็นเนื้อหาที่สามารถค้นหาได้.
+โดยทำตามขั้นตอนข้างต้น, คุณจะรู้ **how to OCR image** ไฟล์แล้ว ไม่ว่าคุณจะสร้างระบบจัดการเอกสาร, แอปประมวลผลใบเสร็จ, หรือโซลูชันใดที่ต้อง **convert image to text**, ไลบรารีนี้มอบเส้นทางที่ตรงไปตรงมาและมีประสิทธิภาพสูงในการแปลงข้อมูลภาพเป็นเนื้อหาที่สามารถค้นหาได้.
 
-**อัปเดตล่าสุด:** 2025-12-17  
-**ทดสอบกับ:** Aspose.OCR for .NET 24.12 (latest at time of writing)  
+---
+
+**อัปเดตล่าสุด:** 2026-02-22  
+**ทดสอบด้วย:** Aspose.OCR for .NET 24.12 (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
