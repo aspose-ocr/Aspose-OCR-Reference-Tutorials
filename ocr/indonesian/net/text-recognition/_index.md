@@ -55,6 +55,21 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Quickstart C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Pelajari cara cepat mengekstrak teks dari gambar menggunakan Aspose OCR dengan contoh kode C#.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dan Mengenali Teks dari Foto](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Pelajari cara cepat menggunakan OCR di C# untuk mengekstrak teks dari gambar dan mengenali teks pada foto dengan contoh kode praktis.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dengan GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Pelajari cara memanfaatkan GPU untuk mempercepat ekstraksi teks dari gambar menggunakan OCR di C# dengan contoh kode praktis.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Lengkap C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR dengan contoh kode C# lengkap.
+### [Cara Membaca Resi di C# – Panduan OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Pelajari cara menggunakan OCR dan Regex di C# untuk mengekstrak data dari foto resi secara akurat.
+### [Cara OCR PDF di C# – Panduan Lengkap untuk Mengekstrak Teks dari PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari PDF secara lengkap dengan contoh kode praktis.
+### [Cara Melakukan OCR pada Gambar Arab – Ekstrak Teks dalam C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar berbahasa Arab dengan akurasi tinggi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

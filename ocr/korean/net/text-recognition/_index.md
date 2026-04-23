@@ -53,8 +53,18 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 효율적인 이미지 텍스트 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 향상하세요. 정확한 결과를 얻으려면 OCR 감지 영역 모드를 살펴보세요.
 ### [OCR 이미지 인식에서 PDF 인식](./recognize-pdf/)
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
+### [C#에서 PDF OCR하기 – PDF에서 텍스트 추출을 위한 완전 가이드](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+C#와 Aspose.OCR을 활용해 PDF에서 텍스트를 정확히 추출하는 단계별 가이드를 제공합니다.
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+### [Aspose OCR을 사용하여 이미지에서 텍스트 추출 – C# 퀵스타트](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+### [C#에서 OCR 사용 방법 – 이미지에서 텍스트 추출 및 사진에서 텍스트 인식](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+### [C#에서 OCR 사용 방법 – GPU를 이용한 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 단계별 가이드
+### [C#에서 영수증 읽기 – OCR + 정규식 가이드](./how-to-read-receipt-in-c-ocr-regex-guide/)
+C#와 Aspose.OCR을 사용해 영수증을 읽고 정규식으로 필요한 정보를 추출하는 단계별 가이드
+### [C#에서 아랍어 이미지 OCR 수행 – 텍스트 추출](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
