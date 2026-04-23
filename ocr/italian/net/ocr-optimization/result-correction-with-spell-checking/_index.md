@@ -1,11 +1,17 @@
 ---
-date: 2025-12-25
+date: 2026-04-23
 description: Migliora l'accuratezza OCR con Aspose OCR per .NET, sfruttando il controllo
-  ortografico e il supporto linguistico per correggere gli errori di battitura e personalizzare
-  i dizionari per un riconoscimento del testo senza errori.
-linktitle: Improve OCR Accuracy with Spell Checking in Images
+  ortografico, il supporto dei pacchetti linguistici OCR e i dizionari personalizzati
+  per potenziare la qualità OCR dei documenti scansionati.
+keywords:
+- improve ocr accuracy
+- ocr language pack
+- process scanned documents
+- boost ocr quality
+- ocr spell checking
+linktitle: Migliora l'accuratezza OCR con il controllo ortografico nelle immagini
 second_title: Aspose.OCR .NET API
-title: Migliora la precisione OCR con il controllo ortografico nelle immagini
+title: Migliora l'accuratezza dell'OCR con il controllo ortografico nelle immagini
 url: /it/net/ocr-optimization/result-correction-with-spell-checking/
 weight: 13
 ---
@@ -16,30 +22,32 @@ weight: 13
 
 # Migliora l'accuratezza OCR con il controllo ortografico nelle immagini
 
-## Introduzione
+Quando lavori con il riconoscimento ottico dei caratteri (OCR), l'obiettivo finale è **migliorare l'accuratezza OCR** in modo che il testo estratto corrisponda perfettamente all'immagine originale. Parole scritte in modo errato, sfondi rumorosi e caratteri insoliti sono colpevoli comuni che degradano il risultato. Accoppiando il motore di correzione ortografica integrato di Aspose.OCR con il suo ampio pacchetto linguistico OCR, puoi aumentare drasticamente **la qualità OCR** per qualsiasi documento scansionato.
 
-Quando lavori con il riconoscimento ottico dei caratteri (OCR), l'obiettivo finale è **migliorare l'accuratezza OCR** in modo che il testo estratto corrisponda perfettamente all'immagine originale. Le parole scritte in modo errato sono una fonte comune di errori, specialmente quando l'immagine di origine è rumorosa o contiene caratteri insoliti. Aspose.OCR per .NET offre funzionalità di controllo ortografico integrate che non solo correggono quegli errori ma consentono anche di estendere il motore con dizionari personalizzati. In questo tutorial imparerai come utilizzare il controllo ortografico per potenziare i risultati OCR, vedere l'output prima e dopo, e scoprire come personalizzare il processo di correzione in base alle tue esigenze linguistiche specifiche.
+## Come migliorare l'accuratezza OCR con il controllo ortografico
+
+In questa sezione percorreremo l'intero flusso di lavoro—dalla caricamento di un'immagine all'applicazione del controllo ortografico e infine alla rifinitura dell'output con un dizionario utente personalizzato. Vedrai esempi reali prima e dopo, imparerai perché è importante per l'elaborazione di documenti scansionati e scoprirai consigli per sfruttare al meglio la funzione di correzione ortografica OCR.
 
 ## Risposte rapide
-- **Che cosa fa il controllo ortografico per l'OCR?** Rileva automaticamente le parole errate nell'output OCR e le sostituisce con le alternative più probabili.  
-- **Quale libreria fornisce questa funzionalità?** Aspose.OCR per .NET include un'API di controllo ortografico pronta all'uso.  
-- **È necessaria una connessione internet?** No, il motore di controllo ortografico funziona interamente offline.  
+- **Cosa fa il controllo ortografico per l'OCR?** Rileva automaticamente le parole scritte in modo errato nell'output OCR e le sostituisce con le alternative più probabili.  
+- **Quale libreria fornisce questa funzionalità?** Aspose.OCR per .NET include un'API di correzione ortografica pronta all'uso.  
+- **È necessaria una connessione internet?** No, il motore di correzione ortografica funziona interamente offline.  
 - **Posso aggiungere la mia terminologia?** Sì, puoi fornire un dizionario utente personalizzato per gestire parole specifiche del dominio.  
 - **Quali lingue sono supportate?** Vedi la sezione “aspose ocr language support” per i dettagli.
 
 ## Cos'è il controllo ortografico nell'OCR?
 
-Il controllo ortografico esamina il testo grezzo restituito dal motore OCR, identifica i token che non corrispondono a parole conosciute nel dizionario della lingua selezionata e suggerisce o applica correzioni. Questo passaggio è essenziale per **migliorare l'accuratezza OCR**, specialmente durante l'elaborazione di documenti scansionati, ricevute o moduli in cui l'OCR può interpretare erroneamente i caratteri.
+Il controllo ortografico esamina il testo grezzo restituito dal motore OCR, identifica i token che non corrispondono a parole conosciute nel dizionario della lingua selezionata e suggerisce o applica correzioni. Questo passaggio è essenziale per **migliorare l'accuratezza OCR**, soprattutto durante l'elaborazione di documenti scansionati, ricevute o moduli in cui l'OCR può interpretare erroneamente i caratteri.
 
-## Perché utilizzare il supporto linguistico di Aspose OCR?
+## Perché utilizzare il pacchetto linguistico Aspose OCR?
 
-Aspose.OCR viene fornito con pacchetti linguistici completi e consente di collegare dizionari aggiuntivi. Sfruttare **aspose ocr language support** significa poter gestire documenti multilingue senza scrivere parser personalizzati, e ottenere l'accesso a regole specifiche della lingua che migliorano ulteriormente la qualità del riconoscimento.
+Aspose.OCR viene fornito con pacchetti linguistici estesi e consente di aggiungere dizionari aggiuntivi. Sfruttare **aspose ocr language support** significa poter gestire documenti multilingue senza scrivere parser personalizzati, e si ottiene l'accesso a regole specifiche per lingua che migliorano ulteriormente la qualità del riconoscimento.
 
 ## Prerequisiti
 
-Prima di immergerci nella magia del controllo ortografico, assicurati di avere i seguenti prerequisiti:
+Prima di immergerci nella magia del controllo ortografico, assicurati di avere i seguenti prerequisiti in ordine:
 
-- Libreria Aspose.OCR per .NET: Scarica e installa la libreria Aspose.OCR dalla [pagina di rilascio](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR per .NET Library: Scarica e installa la libreria Aspose.OCR dalla [pagina di rilascio](https://releases.aspose.com/ocr/net/).
 - Directory dei documenti: Assicurati di avere una directory designata per i tuoi documenti. Sostituisci `"Your Document Directory"` nei frammenti di codice con il percorso reale.
 
 ## Importa gli spazi dei nomi
@@ -84,7 +92,7 @@ Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 
 ## Passo 4: Dopo la correzione
 
-Applica il controllo ortografico per ottenere il risultato corretto. Il frammento di codice seguente illustra questo passaggio:
+Applica il controllo ortografico per ottenere il risultato corretto. Il seguente frammento di codice illustra questo passaggio:
 
 ```csharp
 // Get corrected result
@@ -94,7 +102,7 @@ Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 
 ## Passo 5: Parole errate e suggerimenti
 
-Ottieni un elenco di parole errate insieme ai suggerimenti di correzione usando il codice seguente:
+Ottieni un elenco di parole errate insieme ai suggerimenti di correzione usando il seguente codice:
 
 ```csharp
 // Get list of misspelled words with suggestions
@@ -115,7 +123,7 @@ foreach (var word in errorsList)
 
 ## Passo 6: Correggi il testo dell'utente
 
-Correggi il testo specifico fornito dall'utente usando la libreria Aspose.OCR:
+Correggi testo specifico fornito dall'utente usando la libreria Aspose.OCR:
 
 ```csharp
 // Correct user text
@@ -132,13 +140,20 @@ string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLan
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
+## Consigli per migliorare la qualità OCR
+
+- **Seleziona il pacchetto linguistico OCR corretto** che corrisponde al documento di origine. Usare `Language.Eng` su un documento francese ridurrà drasticamente l'accuratezza.  
+- **Pre‑elabora le immagini** (raddrizza, riduci il rumore, aumenta il contrasto) prima di inviarle al motore OCR; immagini più pulite producono meno errori ortografici.  
+- **Mantieni un dizionario utente conciso**—una parola per riga—così il correttore ortografico può individuare rapidamente i termini personalizzati senza rallentare grandi batch.  
+- **Elabora le pagine in batch** quando gestisci PDF multi‑pagina; questo riduce il consumo di memoria e velocizza la fase di correzione ortografica.
+
 ## Problemi comuni e soluzioni
 
-| Problema | Perché accade | Come risolverlo |
-|----------|----------------|-----------------|
-| Nessun suggerimento restituito | Il pacchetto linguistico non è caricato o il testo è troppo corto. | Assicurati che `RecognitionSettings(Language.Eng)` corrisponda alla lingua dell'immagine di origine e che il risultato OCR contenga un numero sufficiente di caratteri. |
+| Problema | Perché accade | Come risolvere |
+|----------|----------------|----------------|
+| Nessun suggerimento restituito | Il pacchetto linguistico non è caricato o il testo è troppo breve. | Assicurati che `RecognitionSettings(Language.Eng)` corrisponda alla lingua dell'immagine di origine e che il risultato OCR contenga un numero sufficiente di caratteri. |
 | Dizionario personalizzato non applicato | Percorso o formato file errato. | Verifica che `dictionary.txt` esista nella posizione specificata e utilizzi una parola per riga. |
-| Il correttore ortografico rallenta documenti di grandi dimensioni | Elaborare ogni parola singolarmente aggiunge overhead. | Elabora le pagine in batch o aumenta l'allocazione di memoria se esegui su .NET Core. |
+| Il correttore ortografico rallenta con documenti grandi | L'elaborazione di ogni parola singolarmente aggiunge overhead. | Elabora le pagine in batch o aumenta l'allocazione di memoria se esegui su .NET Core. |
 
 ## Domande frequenti
 
@@ -146,7 +161,7 @@ Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUs
 
 A1: Sì, Aspose.OCR supporta più lingue. Regola le impostazioni della lingua di conseguenza.
 
-### Q2: Come integro Aspose.OCR nel mio progetto .NET?
+### Q2: Come integrazione Aspose.OCR nel mio progetto .NET?
 
 A2: Consulta la [documentazione](https://reference.aspose.com/ocr/net/) per i passaggi dettagliati di integrazione.
 
@@ -158,15 +173,15 @@ A3: Sì, puoi esplorare le funzionalità con la [versione di prova gratuita](htt
 
 A4: Assolutamente! Il tutorial dimostra come migliorare la correzione usando un dizionario fornito dall'utente.
 
-### Q5: Dove posso cercare supporto per Aspose.OCR?
+### Q5: Dove posso trovare supporto per Aspose.OCR?
 
 A5: Visita il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per supporto della community e indicazioni.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-25  
-**Testato con:** Aspose.OCR per .NET latest version  
-**Autore:** Aspose
+**Last Updated:** 2026-04-23  
+**Tested With:** Aspose.OCR for .NET latest version  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
