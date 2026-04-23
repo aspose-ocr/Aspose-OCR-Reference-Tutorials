@@ -1,10 +1,14 @@
 ---
-date: 2025-12-30
-description: Aprenda a converter imagens em PDF C# usando Aspose.OCR, salvar resultados
-  de OCR multipágina como documentos e extrair texto de imagens C#.
-linktitle: Convert Images to PDF C# – Save Multipage OCR Result
+date: 2026-04-23
+description: Aprenda como converter imagens em PDF C# usando Aspose.OCR, salvar resultados
+  de OCR multipáginas como documentos e extrair texto de imagens.
+keywords:
+- extract text from images
+- batch image to pdf
+- convert scanned images pdf
+linktitle: Converter Imagens para PDF C# – Salvar Resultado de OCR de Múltiplas Páginas
 second_title: Aspose.OCR .NET API
-title: Converter Imagens para PDF C# – Salvar Resultado de OCR de Múltiplas Páginas
+title: Extrair Texto de Imagens – Converter Imagens em PDF C#
 url: /pt/net/ocr-optimization/save-multipage-result-as-document/
 weight: 14
 ---
@@ -13,40 +17,36 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Converter Imagens para PDF C# – Salvar Resultado OCR de Múltiplas Páginas
+# Extrair Texto de Imagens – Converter Imagens para PDF C#
 
 ## Introdução
 
-Neste tutorial você descobrirá como **converter imagens para PDF C#** com Aspose.OCR para .NET e salvar a saída OCR de múltiplas páginas como um documento. Seja para **converter imagens escaneadas para PDF** para arquivamento ou **extrair texto de imagens C#** para processamento de dados, este guia o conduz por cada etapa — completo com exemplos reais e dicas de boas práticas.
+Neste tutorial você descobrirá como **extrair texto de imagens** enquanto **converte imagens para PDF C#** usando Aspose.OCR para .NET, e então salvar o resultado OCR multipágina como um documento. Seja para **batch image to pdf** para arquivamento, **convert scanned images pdf** para conformidade, ou simplesmente extrair texto pesquisável de fotos, vamos percorrer cada passo com explicações claras, dicas práticas e recomendações de melhores práticas.
 
 ## Respostas Rápidas
-- **O que este tutorial cobre?** Conversão de múltiplas imagens para PDF/Docx/Txt/Pdf/Xlsx usando Aspose.OCR em C#.
-- **Quais formatos são suportados?** Docx, Texto, Pdf e Xlsx (você também pode gerar PDF diretamente).
-- **Preciso de uma licença?** Um teste gratuito funciona para avaliação; uma licença permanente é necessária para produção.
+- **O que este tutorial cobre?** Conversão de múltiplas imagens para PDF/Docx/Txt/Xlsx e extração de texto de imagens com Aspose.OCR em C#.
+- **Quais formatos de saída são suportados?** Docx, Text, Pdf e Xlsx (você também pode gerar PDF diretamente).
+- **Preciso de uma licença?** Uma avaliação gratuita funciona para avaliação; uma licença permanente é necessária para produção.
 - **Quais versões do .NET são compatíveis?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Posso extrair texto ao converter?** Sim — use os resultados OCR para obter o texto antes de salvar.
+- **Posso extrair texto enquanto converto?** Sim—use os resultados OCR para extrair texto antes de salvar.
 
-## O que é “converter imagens para PDF C#”?
-
-Converter imagens para PDF em C# significa, programaticamente, pegar um ou mais arquivos bitmap (PNG, JPEG, TIFF, etc.) e gerar um documento PDF que preserva o layout visual, opcionalmente incorporando texto pesquisável via OCR. Aspose.OCR torna esse processo simples e altamente personalizável.
+## O que é “extrair texto de imagens” e por que combiná‑lo com a conversão para PDF?
+Extrair texto de imagens significa usar OCR (Reconhecimento Óptico de Caracteres) para transformar caracteres visuais em cadeias pesquisáveis e editáveis. Quando você **converte imagens para PDF C#**, incorpora essas cadeias ao PDF para que o documento se torne pesquisável e indexável—perfeito para arquivamento digital e mineração de dados.
 
 ## Por que usar Aspose.OCR para esta tarefa?
+- **Alta precisão** em dezenas de idiomas.  
+- **Suporte multipágina** – manipula lotes de imagens em uma única chamada (ideal para cenários de **batch image to pdf**).  
+- **Salvamento direto** para formatos de escritório populares sem etapas adicionais de conversão.  
+- **Integração total com .NET** – sem dependências nativas, funciona em Windows, Linux e ambientes de nuvem.
 
-- **Alta precisão** motor OCR que funciona com muitos idiomas.
-- **Suporte a múltiplas páginas** – processa lotes de imagens em uma única chamada.
-- **Salvamento direto** para formatos de escritório populares sem etapas de conversão adicionais.
-- **Integração total com .NET** – sem dependências nativas ou ferramentas externas.
+## Pré‑requisitos
 
-## Pré-requisitos
+1. Instalar Aspose.OCR para .NET. Você pode baixá‑lo [aqui](https://releases.aspose.com/ocr/net/).  
+2. Obter uma avaliação gratuita ou uma licença adquirida – obtenha uma avaliação [aqui](https://releases.aspose.com/) ou compre uma [aqui](https://purchase.aspose.com/buy).  
+3. Revisar a [documentação](https://reference.aspose.com/ocr/net/) oficial para familiarizar‑se com a superfície da API.  
+4. Entrar na comunidade nos [fóruns de suporte](https://forum.aspose.com/c/ocr/16) para ajuda com quaisquer obstáculos.  
 
-Antes de mergulharmos, certifique‑se de que você tem o seguinte:
-
-1. Instale o Aspose.OCR para .NET. Você pode baixá‑lo [aqui](https://releases.aspose.com/ocr/net/).
-2. Obtenha uma licença de teste gratuita ou uma licença comprada – obtenha um teste [aqui](https://releases.aspose.com/) ou compre uma [aqui](https://purchase.aspose.com/buy).
-3. Revise a [documentação](https://reference.aspose.com/ocr/net/) oficial para familiarizar‑se com a API.
-4. Participe da comunidade nos [fóruns de suporte](https://forum.aspose.com/c/ocr/16) para obter ajuda com quaisquer obstáculos.
-
-Agora que tudo está pronto, vamos começar a codificar.
+Agora que tudo está pronto, vamos começar a programar.
 
 ## Importar Namespaces
 
@@ -69,7 +69,7 @@ Essas importações dão acesso a coleções, manipulação de arquivos, LINQ e 
 string dataDir = "Your Document Directory";
 ```
 
-Substitua `"Your Document Directory"` pelo caminho absoluto ou relativo onde suas imagens de origem estão e onde você deseja salvar os arquivos de saída.
+Substitua `"Your Document Directory"` pelo caminho absoluto ou relativo onde suas imagens de origem estão e onde deseja que os arquivos de saída sejam salvos.
 
 ## Etapa 2: Inicializar Aspose.OCR
 
@@ -78,7 +78,7 @@ Substitua `"Your Document Directory"` pelo caminho absoluto ou relativo onde sua
 AsposeOcr api = new AsposeOcr();
 ```
 
-Criar um objeto `AsposeOcr` fornece acesso a todas as operações OCR, incluindo o fluxo de trabalho de **converter imagens para PDF C#**.
+Criar um objeto `AsposeOcr` fornece acesso a todas as operações OCR, incluindo o fluxo de trabalho de **conversão de imagens para PDF C#**.
 
 ## Etapa 3: Reconhecer Imagens
 
@@ -90,7 +90,7 @@ List<RecognitionResult> result = api.RecognizeMultipleImages(
 ).ToList();
 ```
 
-O método `RecognizeMultipleImages` processa cada arquivo da lista e retorna uma coleção de `RecognitionResult`. Você pode fornecer qualquer número de imagens, o que é perfeito para cenários de **converter imagens escaneadas para PDF**.
+O método `RecognizeMultipleImages` processa cada arquivo da lista e retorna uma coleção de `RecognitionResult`. Você pode fornecer qualquer número de imagens, o que é perfeito para cenários de **convert scanned images pdf**.
 
 ## Etapa 4: Salvar Resultados nos Formatos Preferidos
 
@@ -104,24 +104,25 @@ AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", Sa
 
 Escolha o formato que melhor se adapta ao seu fluxo de trabalho posterior:
 
-- **Docx** – documento Word editável com texto pesquisável.
-- **Text** – extração de texto simples para mineração rápida de dados (**extrair texto de imagens C#**).
-- **Pdf** – a saída PDF clássica, ideal para arquivamento.
+- **Docx** – documento Word editável com texto pesquisável.  
+- **Text** – extração de texto simples para mineração rápida de dados (**extract text from images**).  
+- **Pdf** – a saída PDF clássica, ideal para arquivamento.  
 - **Xlsx** – representação em planilha para dados tabulares.
 
 ## Casos de Uso Comuns
 
-- **Arquivamento digital:** Converter contratos em papel escaneados em PDFs pesquisáveis.
-- **Automação de entrada de dados:** Extrair texto de recibos ou faturas e inseri‑lo em um banco de dados.
-- **Processamento em lote:** Manipular milhares de imagens em um único trabalho com código mínimo.
+- **Arquivamento digital:** Converter contratos em papel escaneados em PDFs pesquisáveis.  
+- **Automação de entrada de dados:** Extrair texto de recibos ou faturas e inseri‑lo em um banco de dados.  
+- **Processamento em lote:** Manipular milhares de imagens em um único trabalho com código mínimo—perfeito para necessidades de **batch image to pdf**.
 
 ## Solução de Problemas & Dicas
 
-- **Conjuntos grandes de imagens:** Processar imagens em lotes menores para evitar picos de memória.
-- **Qualidade da imagem:** Garantir que as imagens tenham pelo menos 300 dpi para precisão OCR ideal.
-- **Erros de licença:** Verificar se o arquivo de licença está carregado corretamente antes de chamar os métodos OCR.
+- **Conjuntos grandes de imagens:** Processar imagens em lotes menores para evitar picos de memória.  
+- **Qualidade da imagem:** Garantir que as imagens tenham pelo menos 300 dpi para precisão ótima do OCR.  
+- **Erros de licença:** Verificar se o arquivo de licença está carregado corretamente antes de chamar os métodos OCR.  
+- **Resultados vazios:** O motor OCR retorna um `RecognitionResult` vazio para páginas ilegíveis; verifique `result[i].Text` para valores nulos ou strings vazias e trate adequadamente.
 
-## Perguntas Frequentes Adicionais
+## Perguntas Frequentes
 
 **Q: Posso converter imagens para PDF C# sem usar OCR?**  
 A: Sim, você pode usar Aspose.PDF ou outras bibliotecas para conversão pura de imagem‑para‑PDF, mas o OCR adiciona texto pesquisável.
@@ -133,12 +134,14 @@ A: A lista `result` retornada por `RecognizeMultipleImages` contém propriedades
 A: Ao salvar em PDF ou Docx, você pode modificar o layout do documento via APIs Aspose.Words ou Aspose.PDF antes de chamar `SaveMultipageDocument`.
 
 **Q: O que acontece se uma imagem não puder ser lida?**  
-A: O motor OCR retorna um `RecognitionResult` vazio para essa página; você pode verificar `result[i].Text` para valores nulos ou strings vazias e tratar adequadamente.
+A: O motor OCR retorna um `RecognitionResult` vazio para essa página; você pode verificar `result[i].Text` para valores nulos ou strings vazias e tratá‑los adequadamente.
 
 **Q: A API suporta implantação em nuvem?**  
 A: Sim, a biblioteca funciona em qualquer runtime .NET, incluindo Azure Functions e AWS Lambda, desde que o runtime atenda aos requisitos de versão.
 
-**Última atualização:** 2025-12-30  
+---
+
+**Última atualização:** 2026-04-23  
 **Testado com:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 

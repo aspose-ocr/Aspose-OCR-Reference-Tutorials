@@ -1,49 +1,53 @@
 ---
-title: Convert Images to PDF C# – Save Multipage OCR Result
+title: Extract Text from Images – Convert Images to PDF C#
 linktitle: Convert Images to PDF C# – Save Multipage OCR Result
 second_title: Aspose.OCR .NET API
-description: Learn how to convert images to PDF C# using Aspose.OCR, save multipage OCR results as documents, and extract text from images C#.
+description: Learn how to convert images to PDF C# using Aspose.OCR, save multipage OCR results as documents, and extract text from images.
 weight: 14
 url: /net/ocr-optimization/save-multipage-result-as-document/
-date: 2025-12-30
+date: 2026-04-23
+keywords:
+- extract text from images
+- batch image to pdf
+- convert scanned images pdf
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Images to PDF C# – Save Multipage OCR Result
+# Extract Text from Images – Convert Images to PDF C#
 
 ## Introduction
 
-In this tutorial you’ll discover how to **convert images to PDF C#** with Aspose.OCR for .NET and save the resulting multipage OCR output as a document. Whether you need to **convert scanned images to PDF** for archiving or **extract text from images C#** for data processing, this guide walks you through every step—complete with real‑world examples and best‑practice tips.
+In this tutorial you’ll discover how to **extract text from images** while **convert images to PDF C#** using Aspose.OCR for .NET, and then save the multipage OCR result as a document. Whether you need to **batch image to pdf** for archiving, **convert scanned images pdf** for compliance, or simply pull searchable text from pictures, we’ll walk through every step with clear explanations, real‑world tips, and best‑practice recommendations.
 
 ## Quick Answers
-- **What does this tutorial cover?** Converting multiple images to PDF/Docx/Txt/Pdf/Xlsx using Aspose.OCR in C#.
-- **Which formats are supported?** Docx, Text, Pdf, and Xlsx (you can also output PDF directly).
+- **What does this tutorial cover?** Converting multiple images to PDF/Docx/Txt/Xlsx and extracting text from images with Aspose.OCR in C#.
+- **Which output formats are supported?** Docx, Text, Pdf, and Xlsx (you can also output PDF directly).
 - **Do I need a license?** A free trial works for evaluation; a permanent license is required for production.
 - **What .NET versions are compatible?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 - **Can I extract text while converting?** Yes—use the OCR results to pull text before saving.
 
-## What is “convert images to PDF C#”?
+## What is “extract text from images” and why combine it with PDF conversion?
 
-Converting images to PDF in C# means programmatically taking one or more bitmap files (PNG, JPEG, TIFF, etc.) and generating a PDF document that preserves the visual layout while optionally embedding searchable text via OCR. Aspose.OCR makes this process straightforward and highly customizable.
+Extracting text from images means using OCR (Optical Character Recognition) to turn visual characters into searchable, editable strings. When you **convert images to PDF C#**, you embed those strings into the PDF so the document becomes searchable and indexable—perfect for digital archiving and data mining.
 
 ## Why use Aspose.OCR for this task?
 
-- **High accuracy** OCR engine that works with many languages.
-- **Multipage support** – handle batches of images in a single call.
-- **Direct saving** to popular office formats without extra conversion steps.
-- **Full .NET integration** – no native dependencies or external tools.
+- **High accuracy** across dozens of languages.  
+- **Multipage support** – handle batches of images in a single call (ideal for **batch image to pdf** scenarios).  
+- **Direct saving** to popular office formats without extra conversion steps.  
+- **Full .NET integration** – no native dependencies, works on Windows, Linux, and cloud runtimes.
 
 ## Prerequisites
 
-Before we dive in, ensure you have the following:
+Before we dive in, make sure you have:
 
-1. Install Aspose.OCR for .NET. You can download it [here](https://releases.aspose.com/ocr/net/).
-2. Obtain a free trial or a purchased license – get a trial [here](https://releases.aspose.com/) or buy one [here](https://purchase.aspose.com/buy).
-3. Review the official [documentation](https://reference.aspose.com/ocr/net/) to become familiar with the API surface.
-4. Join the community on the [support forums](https://forum.aspose.com/c/ocr/16) for help with any roadblocks.
+1. Installed Aspose.OCR for .NET. You can download it [here](https://releases.aspose.com/ocr/net/).  
+2. Obtained a free trial or a purchased license – get a trial [here](https://releases.aspose.com/) or buy one [here](https://purchase.aspose.com/buy).  
+3. Reviewed the official [documentation](https://reference.aspose.com/ocr/net/) to become familiar with the API surface.  
+4. Joined the community on the [support forums](https://forum.aspose.com/c/ocr/16) for help with any roadblocks.  
 
 Now that everything is ready, let’s start coding.
 
@@ -89,7 +93,7 @@ List<RecognitionResult> result = api.RecognizeMultipleImages(
 ).ToList();
 ```
 
-The `RecognizeMultipleImages` method processes each file in the list and returns a collection of `RecognitionResult`. You can feed any number of images, which is perfect for **convert scanned images to PDF** scenarios.
+The `RecognizeMultipleImages` method processes each file in the list and returns a collection of `RecognitionResult`. You can feed any number of images, which is perfect for **convert scanned images pdf** scenarios.
 
 ## Step 4: Save Results in Preferred Formats
 
@@ -103,24 +107,25 @@ AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", Sa
 
 Choose the format that best fits your downstream workflow:
 
-- **Docx** – editable Word document with searchable text.
-- **Text** – plain‑text extraction for quick data mining (**extract text from images C#**).
-- **Pdf** – the classic PDF output, ideal for archiving.
+- **Docx** – editable Word document with searchable text.  
+- **Text** – plain‑text extraction for quick data mining (**extract text from images**).  
+- **Pdf** – the classic PDF output, ideal for archiving.  
 - **Xlsx** – spreadsheet representation for tabular data.
 
 ## Common Use Cases
 
-- **Digital archiving:** Convert scanned paper contracts into searchable PDFs.
-- **Data entry automation:** Extract text from receipts or invoices and feed it into a database.
-- **Batch processing:** Handle thousands of images in a single job with minimal code.
+- **Digital archiving:** Convert scanned paper contracts into searchable PDFs.  
+- **Data entry automation:** Extract text from receipts or invoices and feed it into a database.  
+- **Batch processing:** Handle thousands of images in a single job with minimal code—perfect for **batch image to pdf** needs.
 
 ## Troubleshooting & Tips
 
-- **Large image sets:** Process images in smaller batches to avoid memory spikes.
-- **Image quality:** Ensure images are at least 300 dpi for optimal OCR accuracy.
-- **License errors:** Verify that your license file is correctly loaded before calling OCR methods.
+- **Large image sets:** Process images in smaller batches to avoid memory spikes.  
+- **Image quality:** Ensure images are at least 300 dpi for optimal OCR accuracy.  
+- **License errors:** Verify that your license file is correctly loaded before calling OCR methods.  
+- **Empty results:** The OCR engine returns an empty `RecognitionResult` for unreadable pages; check `result[i].Text` for null or empty strings and handle accordingly.
 
-## Additional Frequently Asked Questions
+## Frequently Asked Questions
 
 **Q: Can I convert images to PDF C# without using OCR?**  
 A: Yes, you can use Aspose.PDF or other libraries for pure image‑to‑PDF conversion, but OCR adds searchable text.
@@ -139,7 +144,7 @@ A: Yes, the library works on any .NET runtime, including Azure Functions and AWS
 
 ---
 
-**Last Updated:** 2025-12-30  
+**Last Updated:** 2026-04-23  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
