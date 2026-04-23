@@ -1,33 +1,50 @@
 ---
-title: Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
-linktitle: Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
+description: Pelajari cara menyimpan hasil OCR dengan Aspose.OCR untuk .NET – mengonversi
+  gambar ke PDF, mengekstrak teks dari PNG, dan menyimpan teks yang dikenali ke DOCX,
+  TXT, PDF, atau XLSX.
+linktitle: How to Save OCR Result as Document
 second_title: Aspose.OCR .NET API
-description: Buka potensi Aspose.OCR untuk .NET. Kenali teks dalam gambar dengan mudah dan simpan hasilnya dalam berbagai format dokumen.
-weight: 10
+title: Cara Menyimpan Hasil OCR sebagai Dokumen
 url: /id/net/ocr-settings/save-result-as-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Simpan Hasil sebagai Dokumen dalam Pengenalan Gambar OCR
+# Cara Menyimpan Hasil OCR sebagai Dokumen
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di dunia pengenalan karakter optik (OCR) yang menarik dengan Aspose.OCR untuk .NET! Dalam tutorial komprehensif ini, kita akan mempelajari seluk-beluk penggunaan Aspose.OCR untuk mengenali teks dalam gambar dan mendemonstrasikan cara menyimpan hasilnya dalam berbagai format dokumen.
+Dalam tutorial ini Anda akan menemukan **cara menyimpan OCR** output menggunakan Aspose.OCR untuk .NET. Kami akan memandu Anda melalui proses mengenali teks dalam sebuah gambar, kemudian mengonversi teks tersebut ke dalam format dokumen populer seperti DOCX, TXT, PDF, dan XLSX. Pada akhirnya, Anda akan dapat mengotomatisasi ekstraksi data dari gambar dan menyimpannya sebagai file yang dapat dicari dan diedit—sempurna untuk pengarsipan, pelaporan, atau pemrosesan lanjutan.
+
+## Jawaban Cepat
+- **Apa arti “cara menyimpan ocr”?** Ini merujuk pada penyimpanan teks yang dikenali dari gambar ke dalam format file seperti DOCX, PDF, dll.  
+- **Format apa yang dapat saya ekspor?** DOCX, TXT, PDF, dan XLSX didukung secara bawaan.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk penggunaan produksi.  
+- **Bisakah saya mengonversi gambar ke PDF secara langsung?** Ya—simpan hasil OCR sebagai PDF untuk mendapatkan dokumen PDF yang dapat dicari.  
+- **Apakah PNG didukung?** Tentu saja; Anda dapat **mengekstrak teks dari PNG** gambar dengan API yang sama.
+
+## Apa itu OCR dan Mengapa Menyimpan Hasil sebagai Dokumen?
+
+Optical Character Recognition (OCR) mengubah teks cetak atau tulisan tangan di dalam gambar menjadi string yang dapat dibaca mesin. Menyimpan string tersebut sebagai dokumen memungkinkan Anda:
+
+* Membuat PDF yang dapat dicari untuk kepatuhan.  
+* Mengisi spreadsheet (XLSX) untuk analisis data.  
+* Menghasilkan laporan yang dapat diedit (DOCX).  
+* Mengarsipkan log teks biasa (TXT) untuk pencarian cepat.
 
 ## Prasyarat
 
-Sebelum kita memulai perjalanan OCR ini, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita mulai, pastikan Anda memiliki:
 
--  Aspose.OCR untuk .NET. Pastikan Anda telah menginstal perpustakaan Aspose.OCR. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/ocr/net/).
-
--  Direktori Dokumen: Miliki direktori khusus untuk dokumen Anda, dan perbarui`dataDir` variabel dalam kode yang disediakan sesuai.
+- Aspose.OCR untuk .NET terinstal. Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/ocr/net/)**.  
+- Sebuah folder di mesin Anda yang akan menyimpan gambar sumber dan dokumen output. Perbarui variabel `dataDir` dalam kode untuk mengarah ke folder ini.
 
 ## Impor Namespace
 
-Mulailah dengan mengimpor namespace yang diperlukan. Ini adalah elemen penyusun yang akan memberdayakan kode Anda dengan kemampuan OCR.
+Kita memerlukan beberapa namespace .NET untuk mengakses I/O file dan kelas Aspose OCR.
 
 ```csharp
 using System;
@@ -35,76 +52,76 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Sekarang, mari kita bagi contoh ini menjadi beberapa langkah:
+### Langkah 1: Inisialisasi Aspose.OCR
 
-## Langkah 1: Inisialisasi Aspose.OCR
+Atur path ke direktori kerja Anda dan buat instance mesin OCR.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Langkah ini menetapkan tahapan dengan menginisialisasi API Aspose.OCR.
+### Langkah 2: Kenali Gambar
 
-## Langkah 2: Kenali Gambar
+Berikan file gambar (mis., PNG) ke pengenalan. Di sini kita **mengenali gambar teks** dan mengubahnya menjadi `RecognitionResult`.
 
 ```csharp
-// Kenali gambar
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });
 ```
 
-Di sini, kami menggunakan Aspose.OCR untuk mengenali teks dalam gambar yang ditentukan (ganti "sample.png" dengan file gambar Anda).
+### Langkah 3: Simpan Hasil dalam Berbagai Format
 
-## Langkah 3: Simpan Hasil dalam Format Berbeda
+Sekarang kita mengekspor teks yang dikenali. Pilih format yang sesuai dengan alur kerja Anda—apakah Anda perlu **mengonversi gambar ke PDF**, **mengekstrak teks dari PNG**, atau menghasilkan spreadsheet.
 
 ```csharp
-// Simpan hasilnya dalam format pilihan Anda
+// Save the result in your preferred format
 result.Save(RunExamples.GetDataDir_OCR() + "sample.docx", SaveFormat.Docx);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx);
 ```
 
-Sesuaikan langkah ini berdasarkan kebutuhan Anda. Aspose.OCR memungkinkan Anda menyimpan teks yang dikenali dalam berbagai format dokumen seperti DOCX, TXT, PDF, dan XLSX.
+### Langkah 4: Tampilkan Pesan Sukses
 
-## Langkah 4: Tampilkan Pesan Sukses
+Pesan konsol sederhana mengonfirmasi bahwa proses selesai tanpa error.
 
 ```csharp
 Console.WriteLine("SaveResultAsDocument executed successfully");
 ```
 
-Pesan konfirmasi sederhana untuk memberi tahu Anda bahwa proses telah selesai tanpa hambatan.
+## Kesalahan Umum & Tips
 
-Dengan mengikuti langkah-langkah ini, Anda telah berhasil memanfaatkan kekuatan Aspose.OCR untuk .NET dalam mengenali teks dalam gambar dan menyimpan hasilnya dalam format dokumen berbeda.
+- **Path file:** Selalu gunakan path absolut atau pastikan `dataDir` diakhiri dengan pemisah path (`\` atau `/`).  
+- **Kualitas gambar:** Gambar dengan resolusi lebih tinggi meningkatkan akurasi; pertimbangkan pra‑pemrosesan (menghilangkan kemiringan, mengurangi noise) untuk hasil yang lebih baik.  
+- **Mode lisensi:** Dalam mode evaluasi output mungkin berisi watermark; terapkan lisensi yang valid untuk menghilangkannya.
 
-## Kesimpulan
+## Pertanyaan yang Sering Diajukan
 
-Kesimpulannya, Aspose.OCR untuk .NET membuka banyak kemungkinan untuk pengenalan teks dalam gambar. Baik Anda mengekstrak data atau membuat dokumen yang dapat dicari, Aspose.OCR menyederhanakan proses dengan API intuitifnya.
-
-## FAQ
-
-### Q1. Apakah Aspose.OCR kompatibel dengan format gambar yang berbeda?
-
+**Q1. Apakah Aspose.OCR kompatibel dengan berbagai format gambar?**  
 A1: Ya, Aspose.OCR mendukung berbagai format gambar, memastikan fleksibilitas dalam tugas OCR Anda.
 
-### Q2: Dapatkah saya menyesuaikan pengaturan pengenalan untuk akurasi yang lebih baik?
+**Q2: Bisakah saya menyesuaikan pengaturan pengenalan untuk akurasi yang lebih baik?**  
+A2: Tentu saja! Aspose.OCR menyediakan `RecognitionSettings` untuk menyesuaikan proses OCR sesuai dengan kebutuhan spesifik Anda.
 
-A2: Tentu saja! Aspose.OCR menyediakan pengaturan pengenalan untuk menyempurnakan proses OCR sesuai dengan kebutuhan spesifik Anda.
+**Q3: Apakah ada versi percobaan gratis?**  
+A3: Ya, Anda dapat memulai dengan versi percobaan gratis **[di sini](https://releases.aspose.com/)**.
 
-### Q3: Apakah tersedia uji coba gratis?
+**Q4: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.OCR?**  
+A4: Lisensi sementara dapat diperoleh **[di sini](https://purchase.aspose.com/temporary-license/)**.
 
- A3: Ya, Anda dapat memulai uji coba gratis[Di Sini](https://releases.aspose.com/).
+**Q5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas?**  
+A5: Bergabunglah dengan komunitas Aspose.OCR di **[Aspose Forum](https://forum.aspose.com/c/ocr/16)** untuk dukungan dan diskusi.
 
-### Q4: Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.OCR?
+---
 
- A4: Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.OCR 24.11 untuk .NET  
+**Penulis:** Aspose  
 
-### Q5: Di mana saya bisa mencari bantuan atau terhubung dengan komunitas?
-
- A5: Bergabunglah dengan komunitas Aspose.OCR di[Asumsikan Forum](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

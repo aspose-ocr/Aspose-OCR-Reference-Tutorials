@@ -1,39 +1,48 @@
 ---
-date: 2025-12-12
-description: Poznaj, jak przeprowadzić OCR w trybie wykrywania obszarów przy użyciu
-  Aspose.OCR dla Javy, wyodrębnić tekst z obrazu i uzyskać wyniki z korektą ortograficzną.
-  Ten krok po kroku poradnik Aspose OCR Java.
+date: 2026-02-12
+description: Dowiedz się, jak wyodrębnić tekst z obrazu w Javie przy użyciu Aspose.OCR,
+  przeprowadzić OCR w trybie wykrywania obszarów oraz uzyskać wyniki OCR z sprawdzaniem
+  pisowni. Ten kompleksowy samouczek Aspose OCR Java.
 linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Jak wykonać OCR w trybie wykrywania obszarów przy użyciu Aspise.OCR dla Javy
+title: Wyodrębnianie tekstu z obrazu w Javie przy użyciu Aspose.OCR – tryb wykrywania
+  obszarów
 url: /pl/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
+
+ phrase. We'll translate.
+
+Make sure not to translate code placeholders.
+
+Also keep URLs unchanged.
+
+Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wykonać OCR w trybie Detect Areas Mode w Aspose.OCR
+# Wyodrębnianie tekstu z obrazu Java przy użyciu Aspose.OCR w trybie Detect Areas
 
-## Wstęp
+## Wprowadzenie
 
-Rozpoznawanie znaków optycznych (OCR) jest niezbędne, gdy potrzebujesz **wyodrębnić tekst z obrazów** i przekształcić je w przeszukiwalne, edytowalne dane. W tym **samouczku Aspose OCR Java** przeprowadzimy praktyczny przykład, który pokaże Ci **jak wykonać OCR** przy użyciu potężnej funkcji *Detect Areas Mode*, a także zaprezentujemy wbudowaną możliwość sprawdzania pisowni. Po zakończeniu tego przewodnika będziesz mieć gotowy do uruchomienia fragment kodu, który rozpoznaje tekst z dokumentu w formie zdjęcia i zwraca czysty, skorygowany wynik.
+Wyodrębnianie tekstu z plików obrazu java jest powszechnym wyzwaniem, gdy potrzebujesz danych możliwych do przeszukiwania i edycji ze zdjęć, paragonów lub zeskanowanych dokumentów. W tym **samouczku Aspose OCR Java** przeprowadzimy praktyczny przykład, który pokaże, **jak wyodrębnić tekst z obrazu java** przy użyciu potężnej funkcji *Detect Areas Mode*, a także zaprezentujemy wbudowaną możliwość **ocr with spell check**. Po zakończeniu tego przewodnika będziesz mieć gotowy fragment kodu, który rozpoznaje tekst z dokumentu w formie zdjęcia i zwraca czysty, skorygowany wynik.
 
 ## Szybkie odpowiedzi
-- **Co to jest tryb Detect Areas Mode?** Ustawienie, które optymalizuje OCR dla zdjęć, automatycznie lokalizując bloki tekstu.  
-- **Jakiego języka używa przykład?** Java, z biblioteką Aspose.OCR.  
-- **Czy potrzebuję licencji do testowania?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
-- **Czy wynik może być sprawdzony pod kątem pisowni?** Tak – API zwraca sekcję „ocr with spell check”.  
-- **Jakiego typu plik jest używany w demonstracji?** Obraz JPEG o nazwie *Receipt.jpg*.
+- **Czym jest tryb Detect Areas Mode?** Ustawieniem optymalizującym OCR dla zdjęć, automatycznie lokalizującym bloki tekstu.  
+- **Jakiego języka użyto w przykładzie?** Java, z biblioteką Aspose.OCR.  
+- **Czy potrzebna jest licencja do testów?** Darmowa wersja próbna wystarczy do rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy wynik może być sprawdzany pod kątem pisowni?** Tak – API zwraca sekcję “ocr with spell check”.  
+- **Jakiego typu plik jest używany w demo?** Obraz JPEG o nazwie *Receipt.jpg*.
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w samouczek, upewnij się, że spełniasz następujące wymagania:
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
 
 - Środowisko programistyczne Java: Upewnij się, że Java jest zainstalowana na Twoim komputerze.  
 - Aspose.OCR for Java: Pobierz i zainstaluj bibliotekę Aspose.OCR. Link do pobrania znajdziesz [tutaj](https://releases.aspose.com/ocr/java/).  
-- Dokument do OCR: Przygotuj obraz (np. **Receipt.jpg**), który zawiera tekst, który chcesz wyodrębnić.
+- Dokument do OCR: Przygotuj obraz (np. **Receipt.jpg**) zawierający tekst, który chcesz wyodrębnić.
 
 ## Importowanie pakietów
 
@@ -57,7 +66,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Krok 1: Konfiguracja operacji OCR
+## OCR z sprawdzaniem pisowni w samouczku Aspose OCR Java
+
+Poniżej skonfigurujemy silnik OCR, włączymy tryb Detect Areas Mode, uruchomimy rozpoznawanie i w końcu wyświetlimy wynik **ocr with spell check**.
+
+### Krok 1: Konfiguracja operacji OCR
 
 ```java
 // The path to the documents directory.
@@ -74,9 +87,9 @@ RecognitionSettings settings = new RecognitionSettings();
 settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 ```
 
-W tym kroku inicjalizujemy silnik OCR, wskazujemy plik obrazu i włączamy **Detect Areas Mode**, aby silnik traktował zdjęcie jako typowe zdjęcie z rozproszonymi blokami tekstu.
+W tym kroku inicjalizujemy silnik OCR, wskazujemy plik obrazu i włączamy **Detect Areas Mode**, aby silnik traktował zdjęcie jako typowy fotograficzny dokument z rozproszonymi blokami tekstu.
 
-## Krok 2: Wykonanie OCR i pobranie wyników
+### Krok 2: Wykonanie OCR i pobranie wyników
 
 ```java
 // Get result object
@@ -88,61 +101,61 @@ try {
 }
 ```
 
-Tutaj faktycznie **wykonujemy OCR**. Wywołanie `RecognizePage` zwraca `RecognitionResult`, które zawiera surowy tekst, informacje o układzie oraz wynik po sprawdzeniu pisowni.
+Tutaj faktycznie **wykonujemy OCR**. Wywołanie `RecognizePage` zwraca obiekt `RecognitionResult`, który zawiera surowy tekst, informacje o układzie oraz wynik po sprawdzeniu pisowni.
 
-## Krok 3: Wyświetlenie wyników OCR
+### Krok 3: Wyświetlenie wyników OCR
 
 ```java
 // Print result
 printResult(result);
 ```
 
-Metoda pomocnicza `printResult` (dostarczona w pełnym pakiecie źródłowym) wyświetla mnóstwo informacji: wyodrębniony tekst, wskaźniki pewności, wykryte akapity, dane wiersz po wierszu, alternatywy znaków, ostrzeżenia, ładunek JSON oraz skorygowany tekst **OCR with spell check**.
+Metoda pomocnicza `printResult` (dostarczona w pełnym pakiecie źródłowym) wyświetla mnóstwo informacji: wyodrębniony tekst, oceny pewności, wykryte akapity, dane wiersz po wierszu, alternatywy znaków, ostrzeżenia, ładunek JSON oraz **OCR with spell check** – skorygowany tekst.
 
 ## Dlaczego warto używać trybu Detect Areas Mode?
 
-- **Optymalizowane dla zdjęć** – automatycznie izoluje regiony tekstu, redukując szumy.  
-- **Zwiększona dokładność** – szczególnie w przypadku paragonów, faktur i zeskanowanych formularzy.  
+- **Optymalizacja pod kątem zdjęć** – automatycznie izoluje regiony tekstowe, redukując szumy.  
+- **Zwiększona dokładność** – szczególnie przy paragonach, fakturach i zeskanowanych formularzach.  
 - **Wbudowane sprawdzanie pisowni** – usuwa typowe błędy OCR bez dodatkowego przetwarzania.
 
-## Typowe przypadki użycia
+## Typowe scenariusze użycia
 
 | Scenariusz | Korzyść |
 |------------|---------|
-| Przetwarzanie paragonów | Szybkie pobranie nazw handlowców, kwot i dat. |
-| Digitalizacja faktur | Wyodrębnianie pozycji oraz informacji podatkowych dla systemów księgowych. |
-| Skanowanie dokumentów tożsamości | Zbieranie imion i numerów z praw jazdy lub paszportów. |
+| Przetwarzanie paragonów | Szybkie wyciąganie nazw sprzedawców, kwot i dat. |
+| Digitalizacja faktur | Wyodrębnianie pozycji i informacji podatkowych dla systemów księgowych. |
+| Skanowanie dokumentów tożsamości | Pobieranie imion i numerów z prawa jazdy lub paszportów. |
 
 ## Wskazówki rozwiązywania problemów i typowe pułapki
 
 - **Nieprawidłowa ścieżka pliku** – sprawdź dwukrotnie `dataDir` i upewnij się, że obraz istnieje.  
-- **Obrazy o niskiej rozdzielczości** – dokładność OCR spada dramatycznie poniżej 300 dpi; rozważ wstępne przetworzenie obrazu.  
+- **Obrazy o niskiej rozdzielczości** – dokładność OCR gwałtownie spada poniżej 300 dpi; rozważ wstępne przetworzenie obrazu.  
 - **Brak licencji** – bez ważnej licencji API działa w trybie próbnym i może dodawać znak wodny do wyników.  
 
-## Podsumowanie
+## Zakończenie
 
-Gratulacje! Pomyślnie nauczyłeś się **jak wykonać OCR** w trybie Detect Areas Mode przy użyciu Aspose.OCR dla Java. To podejście nie tylko wyodrębnia tekst z plików obrazów, ale także zapewnia sprawdzony pod kątem pisowni, czysty wynik — idealny do dalszych potoków danych lub wyświetlania w interfejsie użytkownika.
+Gratulacje! Pomyślnie nauczyłeś się, **jak wyodrębnić tekst z obrazu java** przy użyciu trybu Detect Areas Mode w Aspose.OCR dla Javy. To podejście nie tylko wyciąga tekst z plików obrazu, ale także dostarcza wynik po sprawdzeniu pisowni – idealny do dalszych potoków danych lub wyświetlania w interfejsie użytkownika.
 
 ## Najczęściej zadawane pytania
 
 **P: Czy Aspose.OCR obsługuje wiele języków?**  
-O: Tak, Aspose.OCR obsługuje szeroką gamę języków, co czyni go wszechstronnym dla aplikacji globalnych.
+O: Tak, Aspose.OCR wspiera szeroką gamę języków, co czyni go uniwersalnym dla aplikacji globalnych.
 
 **P: Czy Aspose.OCR nadaje się do operacji OCR na dużą skalę?**  
-O: Zdecydowanie. Biblioteka jest zaprojektowana pod kątem scenariuszy o wysokiej przepustowości i może być zintegrowana z potokami przetwarzania wsadowego.
+O: Zdecydowanie. Biblioteka jest zaprojektowana pod kątem wysokiej przepustowości i może być integrowana w potokach przetwarzania wsadowego.
 
 **P: Czy mogę zintegrować Aspose.OCR z aplikacjami webowymi?**  
-O: Tak, możesz osadzić API Java w usługach opartych na servletach lub Spring Boot, aby udostępnić OCR jako endpoint REST.
+O: Tak, możesz osadzić API Java w serwletach lub usługach Spring Boot, aby udostępniać OCR jako endpoint REST.
 
 **P: Czy Aspose.OCR zapewnia funkcję sprawdzania pisowni?**  
-O: Tak, jak pokazano, wynik zawiera sekcję „ocr with spell check”, która koryguje typowe błędy rozpoznawania.
+O: Tak, jak pokazano, wynik zawiera sekcję “ocr with spell check”, która koryguje typowe błędy rozpoznawania.
 
 **P: Czy istnieje forum społecznościowe wsparcia Aspose.OCR?**  
-O: Tak, wsparcie i dyskusje ze społecznością znajdziesz na [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+O: Tak, wsparcie i dyskusje znajdziesz na [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-12  
+**Ostatnia aktualizacja:** 2026-02-12  
 **Testowano z:** Aspose.OCR for Java 23.12 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
