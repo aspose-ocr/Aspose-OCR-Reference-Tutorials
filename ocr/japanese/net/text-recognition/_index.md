@@ -37,6 +37,9 @@ OCR 結果を JSON 形式で簡単に取得する方法を学び、Aspose.OCR fo
 
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出し、アプリケーションにシームレスに統合します。このチュートリアルでは、PDF 内のテキストを認識し、シームレスで効率的な統合エクスペリエンスを保証するための包括的なガイドを提供します。
 
+### [スキャン画像から検索可能な PDF を作成する – C# ガイド](./create-searchable-pdf-from-scanned-image-c-guide/)
+Aspose.OCR と C# を使用して、スキャンした画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
+
 ## OCR画像認識でのテーブルの認識
 
 Aspose.OCR for .NET を使用して、OCR 画像認識におけるテーブル認識の複雑さを解決します。当社の包括的なガイドにより、Aspose.OCR の可能性を最大限に引き出し、アプリケーションでの正確かつ効率的なテーブル認識が保証されます。業界をリードする OCR ソリューションでプロジェクトを強化します。
@@ -54,7 +57,22 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、画像テ
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [C# で Aspose OCR を使用して画像をテキストに変換する方法](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Aspose.OCR を利用し、C# で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [PNG からテキストを抽出する – 完全な C# バッチ OCR チュートリアル](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Aspose.OCR を使用して C# で PNG 画像からテキストを一括抽出する方法をステップバイステップで解説します。
+### [C# で PNG 画像をバッチ OCR する完全ガイド](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Aspose.OCR を使用して C# で PNG 画像を一括で OCR し、テキスト抽出を自動化する手順を詳しく解説します。
+### [C# で OCR を使用する方法 – 画像からヒンディー語テキストを抽出する](./how-to-ocr-in-c-extract-hindi-text-from-images/)
+Aspose.OCR を活用し、C# で画像からヒンディー語テキストを抽出する手順をステップバイステップで解説します。
+### [C# でアラビア語 OCR を行う方法 – アラビア語テキスト抽出ガイド](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Aspose.OCR を使用し、C# でアラビア語テキストを抽出する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出 – JSON と XML に変換](./extract-text-from-image-in-c-convert-to-json-xml/)
+Aspose.OCR を使用して C# で画像からテキストを抽出し、JSON および XML 形式で出力する方法をステップバイステップで解説します。
+### [C# で画像からテキストを抽出 – 完全な Aspose OCR ガイド](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR を使用し、C# で画像からテキストを抽出する完全な手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

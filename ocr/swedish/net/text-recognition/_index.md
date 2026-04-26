@@ -55,6 +55,23 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur man använder Aspose OCR för att konvertera bild till text i C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Lär dig steg-för-steg hur du använder Aspose OCR i C# för att konvertera bilder till text.
+### [Extrahera text från bild i C# – Konvertera till JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Lär dig hur du med Aspose.OCR i C# extraherar text från bilder och konverterar resultatet till JSON och XML.
+### [Extrahera text från PNG – Komplett C# batch-OCR-handledning](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# batchbearbetar PNG-filer för att extrahera text effektivt.
+### [Hur man använder OCR i C# – Extrahera hindi-text från bilder](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar hindi-text från bilder.
+### [Hur man OCR:ar arabiska – C#-guide för att extrahera arabisk text](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar arabisk text från bilder.
+### [Skapa sökbar PDF från skannad bild – C#-guide](./create-searchable-pdf-from-scanned-image-c-guide/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# skapar en sökbar PDF från en skannad bild.
+### [Hur man batch-OCR:ar PNG-bilder i C# – Komplett guide](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Lär dig steg-för-steg hur du batchbearbetar PNG-filer med Aspose.OCR i C# för effektiv textutvinning.
+### [Extrahera text från bild i C# – Komplett Aspose OCR-guide](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar text från bilder i en komplett guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
