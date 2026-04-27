@@ -81,6 +81,10 @@ Lås upp kraften i OCR i Java med Aspose.OCR. Känn igen text i PDF‑dokument e
 Lås upp kraftfull textigenkänning i Java med Aspose.OCR. Känn igen text i TIFF‑bilder enkelt. Ladda ner nu för en sömlös OCR‑upplevelse.
 ### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR-handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 En komplett guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
+### [Hur du aktiverar OCR i Java med Aspose – Steg‑för‑steg‑guide](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Lär dig hur du enkelt aktiverar OCR i Java med Aspose genom en detaljerad steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bild med Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg‑för‑steg‑instruktioner för optimal OCR‑resultat.
 
 ## Vanliga frågor
 
