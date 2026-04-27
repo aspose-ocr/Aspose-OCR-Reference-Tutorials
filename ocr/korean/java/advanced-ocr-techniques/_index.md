@@ -50,17 +50,16 @@ Java용 Aspose.OCR을 사용하여 허용되는 문자를 지정하여 이미지
 Java용 Aspose.OCR을 사용하면 고급 OCR 기술을 익히는 것이 그 어느 때보다 쉬워졌습니다. 이 튜토리얼을 자세히 살펴보고 Java 프로젝트에서 텍스트 인식의 잠재력을 최대한 활용해 보세요. 원활한 통합, 높은 정확성, 다양한 텍스트 추출 기능으로 애플리케이션을 향상시키세요. 지금 다운로드하여 Java용 Aspose.OCR로 OCR 우수성을 향한 첫 걸음을 내딛으세요!
 ## 고급 OCR 기술 튜토리얼
 ### [Java용 Aspose.OCR의 BufferedImage에서 OCR 수행](./perform-ocr-buffered-image/)
-Java용 Aspose.OCR을 사용하면 BufferedImage에서 OCR을 쉽게 수행할 수 있습니다. 이미지에서 텍스트를 원활하게 추출합니다. 다양한 텍스트 인식 환경을 경험하려면 지금 다운로드하세요.
 ### [Java용 Aspose.OCR의 URL에서 이미지에 대해 OCR 수행](./perform-ocr-image-from-url/)
-Aspose.OCR을 사용하여 Java에서 원활한 이미지 텍스트 추출을 잠금 해제합니다. 쉽게 통합할 수 있는 고정밀 OCR입니다.
 ### [Aspose.OCR의 특정 페이지에서 OCR 수행](./perform-ocr-on-page/)
-특정 페이지에서 OCR을 수행하는 방법에 대한 단계별 가이드를 통해 Java용 Aspose.OCR의 강력한 기능을 활용하세요. 이미지에서 쉽게 텍스트를 추출하고 Java 프로젝트를 향상하세요.
 ### [Aspose.OCR에서 OCR을 위한 직사각형 준비](./prepare-rectangles-for-ocr/)
-Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 효율적인 OCR 기능으로 Java 애플리케이션을 강화하세요.
 ### [Java용 Aspose.OCR에서 줄 인식](./recognize-lines/)
-정확한 텍스트 인식을 위해 Aspose.OCR로 Java 애플리케이션을 강화하세요. 통합이 쉽고 정확도가 높습니다.
 ### [Aspose.OCR에서 허용되는 문자 지정](./specify-allowed-characters/)
-Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
+### [Java에서 병렬 처리로 배치 OCR 수행 방법](./how-to-batch-ocr-in-java-with-parallel-processing/)
+### [GPU Aspose OCR을 사용한 이미지 텍스트 인식 (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+### [Java에서 OCR 수행 – 자동 언어 감지 및 텍스트 추출](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+### [Java에서 고급 전처리로 OCR 개선하기](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
