@@ -1,10 +1,14 @@
 ---
-date: 2025-12-25
-description: Desbloqueie a eficiência de OCR no .NET e melhore a precisão do OCR definindo
-  a contagem de threads com Aspose.OCR. Aumente a velocidade e a precisão.
-linktitle: Set Threads Count to Improve OCR Accuracy
+date: 2026-04-29
+description: Aprenda a definir threads no Aspose.OCR para .NET para melhorar a precisão
+  do OCR, aumentar a velocidade e aprimorar a exatidão.
+keywords:
+- how to set threads
+- improve ocr accuracy
+- parallel ocr processing
+linktitle: Definir a contagem de threads para melhorar a precisão do OCR
 second_title: Aspose.OCR .NET API
-title: Defina a Contagem de Threads para Melhorar a Precisão do OCR no .NET
+title: Como definir a contagem de threads para melhorar a precisão do OCR no .NET
 url: /pt/net/ocr-settings/set-threads-count/
 weight: 11
 ---
@@ -13,26 +17,30 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definir Contagem de Threads para Melhorar a Precisão do OCR
+# Como Definir a Contagem de Threads para Melhorar a Precisão do OCR
 
 ## Introdução
 
-Bem-vindo ao mundo do Aspose.OCR para .NET, onde a tecnologia de Reconhecimento Óptico de Caracteres (OCR) de ponta encontra integração perfeita em suas aplicações .NET. Neste tutorial, você aprenderá **como definir a Contagem de Threads** para **melhorar a precisão do OCR** mantendo seu processamento rápido e econômico em recursos.
+Welcome to the world of Aspose.OCR for .NET, where cutting‑edge Optical Character Recognition (OCR) technology meets seamless integration into your .NET applications. In this tutorial you’ll learn **how to set threads** to **improve OCR accuracy** while keeping your processing fast and resource‑friendly.
 
 ## Respostas Rápidas
-- **O que o ThreadsCount faz?** Ele informa ao Aspose.OCR quantas threads paralelas usar durante a análise de imagens.  
-- **Por que defini‑lo manualmente?** Ajustar a contagem de threads pode **melhorar a precisão do OCR** em máquinas multi‑core e evitar a limitação da CPU.  
-- **Comportamento padrão?** Um valor de `0` permite que o Aspose.OCR calcule automaticamente o número ideal de threads.  
-- **Faixa típica?** 1 – 8 threads funcionam bem na maioria dos cenários de desktop; valores mais altos beneficiam servidores com muitos cores.  
-- **Pré‑requisitos?** .NET (Framework 4.5+ ou .NET Core 3.1+), Aspose.OCR para .NET e uma imagem de exemplo.
+- **O que `ThreadsCount` controla?** Ele informa ao Aspose.OCR quantas threads paralelas alocar durante a análise da imagem.  
+- **Por que ajustá‑lo manualmente?** Ajustar a contagem de threads pode **melhorar a precisão do OCR** em máquinas multi‑core e evitar a limitação da CPU.  
+- **Qual é o comportamento padrão?** Um valor de `0` permite que o Aspose.OCR calcule automaticamente o número ideal de threads.  
+- **Faixa típica para melhores resultados?** 1 – 8 threads funcionam bem na maioria dos cenários de desktop; valores mais altos beneficiam servidores com muitos núcleos.  
+- **Preciso de uma licença?** Sim, uma licença válida do Aspose.OCR é necessária para uso em produção.
+
+## Como Definir Threads no Aspose.OCR
+
+A contagem de threads determina quantas unidades de processamento simultâneas o Aspose.OCR alocará ao reconhecer texto. Usar o número correto de threads não apenas acelera trabalhos em lote, mas também ajuda o **processamento OCR paralelo** a funcionar suavemente, o que pode resultar em maior qualidade de reconhecimento.
 
 ## O que é Contagem de Threads no OCR?
 
-A contagem de threads determina quantas unidades de processamento simultâneas o Aspose.OCR alocará ao reconhecer texto. Mais threads podem acelerar lotes grandes e, quando equilibradas corretamente com os recursos da CPU, podem **melhorar a precisão do OCR** reduzindo tempos de espera e pressão de memória.
+A contagem de threads é o número de caminhos de execução simultâneos que o motor OCR usa. Mais threads podem acelerar lotes grandes e, quando equilibradas corretamente com os recursos da CPU, podem **melhorar a precisão do OCR** reduzindo tempos de espera e pressão de memória.
 
-## Por que definir a Contagem de Threads para melhorar a precisão do OCR?
+## Por que Usar Processamento OCR Paralelo?
 
-- **Melhor utilização de recursos:** Ajustar a contagem de threads ao número de cores da CPU impede que o motor OCR fique sem recursos ou sobrecarregado.  
+- **Melhor utilização de recursos:** Ajustar a contagem de threads aos núcleos da sua CPU evita que o motor OCR fique sem recursos ou sobrecarregado.  
 - **Latência reduzida:** O processamento paralelo diminui o tempo que cada imagem passa no pipeline de reconhecimento, dando ao algoritmo mais tempo para aplicar seu modelo completo de precisão.  
 - **Escalabilidade:** Em cenários de servidor, você pode ajustar finamente o pool de threads para lidar com muitas solicitações simultâneas sem sacrificar a precisão.
 
@@ -40,12 +48,12 @@ A contagem de threads determina quantas unidades de processamento simultâneas o
 
 Antes de começarmos, certifique‑se de que você tem o seguinte:
 
-- Aspose.OCR para . instalado. Se ainda não o baixou, pode obtê‑lo **[aqui](https://releases.aspose.com/ocr/net/)**.  
+- Aspose.OCR para .NET instalado. Se ainda não o baixou, pode obtê‑lo **[aqui](https://releases.aspose.com/ocr/net/)**.  
 - Uma imagem de exemplo colocada no diretório do seu documento (por exemplo, `sample.png`).
 
 ## Importar Namespaces
 
-Primeiro, inclua os namespaces necessários em seu projeto .NET:
+Primeiro, inclua os namespaces necessários no seu projeto .NET:
 
 ```csharp
 using System;
@@ -53,9 +61,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Etapa 1: Inicializar a Instância Aspose.OCR
+## Etapa 1: Inicializar Instância do Aspose.OCR
 
-Crie um objeto `AsposeOcr` e aponte‑o para a pasta que contém suas imagens:
+Crie um objeto `AsposeOcr` e aponte para a pasta que contém suas imagens:
 
 ```csharp
 // The path to the documents directory.
@@ -67,7 +75,7 @@ AsposeOcr api = new AsposeOcr();
 
 ## Etapa 2: Reconhecer Imagem com Contagem de Threads Personalizada
 
-Agora informe ao motor OCR quantas threads usar. Definir `ThreadsCount` para um valor maior que 0 dá controle direto e pode **melhorar a precisão do OCR** para cargas de trabalho exigentes.
+Agora informe ao motor OCR quantas threads usar. Definir `ThreadsCount` para um valor maior que 0 lhe dá controle direto e pode **melhorar a precisão do OCR** para cargas de trabalho exigentes.
 
 ```csharp
 // Recognize image
@@ -79,7 +87,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 
 ## Etapa 3: Exibir Texto Reconhecido
 
-Finalmente, exiba o texto reconhecido no console (ou em qualquer outro de UI que preferir):
+Finalmente, exiba o texto reconhecido no console (ou em qualquer outro componente de UI que preferir):
 
 ```csharp
 // Display the recognized text
@@ -89,10 +97,10 @@ Console.WriteLine(result.RecognitionText);
 ## Problemas Comuns & Dicas
 
 | Problema | Por que acontece | Solução |
-|----------|-------------------|----------|
-| **Muitas threads causam alto uso de CPU** | Cada thread compete pelos mesmos cores. | Comece com `ThreadsCount = Environment.ProcessorCount / 2` e ajuste com base no monitoramento. |
-| **Reconhecimento falha em imagens grandes** | Pressão de memória devido a muitas threads paralelas. | Reduza `ThreadsCount` ou aumente a RAM disponível. |
-| **Precisão inesperadamente baixa** | Threads calculadas automaticamente podem ser insuficientes para seu hardware. | Defina manualmente um `ThreadsCount` maior e teste o resultado. |
+|----------|------------------|----------|
+| **Muitas threads causam alto uso de CPU** | Cada thread compete pelos mesmos núcleos. | Comece com `ThreadsCount = Environment.ProcessorCount / 2` e ajuste com base no monitoramento. |
+| **O reconhecimento falha em imagens grandes** | Pressão de memória devido a muitas threads paralelas. | Reduza `ThreadsCount` ou aumente a RAM disponível. |
+| **Precisão inesperadamente baixa** | Threads calculadas automaticamente podem ser muito poucas para seu hardware. | Defina manualmente um `ThreadsCount` maior e teste o resultado. |
 
 ## Perguntas Frequentes
 
@@ -105,10 +113,10 @@ Console.WriteLine(result.RecognitionText);
 ### Q3: Onde posso encontrar documentação abrangente para Aspose.OCR para .NET?
 **R:** Consulte a **[documentação](https://reference.aspose.com/ocr/net/)** para orientações detalhadas sobre o Aspose.OCR.
 
-### Q4: Existe uma versão de avaliação gratuita disponível para Aspose.OCR para .NET?
-**R:** Sim, você pode experimentar uma avaliação gratuita **[aqui](https://releases.aspose.com/)**.
+### Q4: Existe um teste gratuito disponível para Aspose.OCR para .NET?
+**R:** Sim, você pode explorar um teste gratuito **[aqui](https://releases.aspose.com/)**.
 
-### Q5: Precisa de assistência ou deseja conectar‑se com a comunidade?
+### Q5: Precisa de assistência ou quer se conectar com a comunidade?
 **R:** Visite o **[fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16)** para suporte e interação com a comunidade.
 
 ## Conclusão
@@ -117,11 +125,9 @@ Definir a **Contagem de Threads** é uma maneira simples, porém poderosa, de **
 
 ---
 
-**Última atualização:** 2025-12-25  
-**Testado com:** Aspose.OCR 24.11 for .NET  
-**Autor:** Aspose  
-
----
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
