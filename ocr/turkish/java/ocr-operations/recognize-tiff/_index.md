@@ -72,11 +72,11 @@ import java.util.ArrayList;
 
 Şimdi, TIFF görüntülerinde metin tanıma konusundaki kapsamlı öğretici için örnek kodu birden fazla adıma ayıralım.
 
-## Step 1: Set Up Your Project
+## Adım 1: Projenizi Kurun
 
 Yeni bir Java projesi oluşturun ve Aspose.OCR for Java kütüphanesini sınıf yolunuza (classpath) ekleyin.
 
-## Step 2: Define Your Document Directory and Image Path
+## Adım 2: Belge Dizininizi ve Görüntü Yolunuzu Tanımlayın
 
 ```java
 String dataDir = "Your Document Directory";
@@ -85,7 +85,7 @@ String file = dataDir + "multipage.tif";
 
 `"Your Document Directory"` ifadesini projenizin belge dizinine (document directory) giden gerçek yol ile değiştirin.
 
-## Step 3: Create AsposeOCR Instance
+## Adım 3: AsposeOCR Örneği Oluşturun
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -93,7 +93,7 @@ AsposeOCR api = new AsposeOCR();
 
 `AsposeOCR` sınıfının bir örneğini başlatın; bu örnek metin tanıma için kullanılacak.
 
-## Step 4: Set Recognition Options
+## Adım 4: Tanıma Seçeneklerini Ayarlayın
 
 ```java
 DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
@@ -102,7 +102,7 @@ settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 
 Tanıma ayarlarını yapılandırın; mod ve ek seçenekleri gereksinimlerinize göre belirleyin.
 
-## Step 5: Perform Text Recognition
+## Adım 5: Metin Tanıma İşlemini Gerçekleştirin
 
 ```java
 ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
@@ -110,7 +110,7 @@ ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
 
 Yapılandırılmış ayarları kullanarak belirtilen TIFF görüntüsü üzerinde OCR gerçekleştirmek için `RecognizeTiff` metodunu çağırın.
 
-## Step 6: Print Recognition Results
+## Adım 6: Tanıma Sonuçlarını Yazdırın
 
 ```java
 for (RecognitionResult r : result) {
@@ -120,7 +120,7 @@ for (RecognitionResult r : result) {
 
 Tanıma sonuçlarını döngüye alarak çıkarılan metin, paragraflar, satırlar, karakterler, uyarılar, JSON ve yazım‑denetimiyle düzeltilmiş metni yazdırın.
 
-## Step 7: Implement the `printResult` Method
+## Adım 7: `printResult` Yöntemini Uygulayın
 
 ```java
 static void printResult(RecognitionResult result) {

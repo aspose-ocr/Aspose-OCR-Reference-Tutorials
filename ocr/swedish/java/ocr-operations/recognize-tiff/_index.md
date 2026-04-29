@@ -10,9 +10,7 @@ url: /sv/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
- to keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

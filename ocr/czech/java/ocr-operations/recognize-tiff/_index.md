@@ -10,7 +10,7 @@ url: /cs/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
- answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

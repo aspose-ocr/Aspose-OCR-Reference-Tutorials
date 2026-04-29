@@ -9,20 +9,6 @@ url: /ar/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
-izing TIFF Images in Aspose.OCR for Java
-
-Translate: "التعرف على صور TIFF باستخدام Aspose.OCR للـ Java". But keep "OCR" maybe keep as is. So:
-
-# التعرف على صور TIFF باستخدام Aspose.OCR للـ Java
-
-Next paragraph.
-
-Translate accordingly.
-
-Proceed step by step.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

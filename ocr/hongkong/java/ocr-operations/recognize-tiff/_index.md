@@ -8,16 +8,7 @@ url: /zh-hant/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
-  
-**作者：** Aspose"
-
-Then closing shortcodes.
-
-Proceed to output.
-
-Make sure to keep all shortcodes and placeholders exactly.
-
-Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,15 +9,7 @@ url: /ko/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
-" translate.
-
-Then closing shortcodes.
-
-Then backtop button shortcode unchanged.
-
-We must ensure no extra spaces or missing elements.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -79,11 +71,11 @@ import java.util.ArrayList;
 
 이제 TIFF 이미지에서 텍스트를 인식하는 예제 코드를 여러 단계로 나누어 자세히 살펴보겠습니다.
 
-## Step 1: Set Up Your Project
+## 1단계: 프로젝트 설정
 
 새 Java 프로젝트를 생성하고 Aspose.OCR for Java 라이브러리를 클래스패스에 추가합니다.
 
-## Step 2: Define Your Document Directory and Image Path
+## 2단계: 문서 디렉터리 및 이미지 경로 정의
 
 ```java
 String dataDir = "Your Document Directory";
@@ -92,7 +84,7 @@ String file = dataDir + "multipage.tif";
 
 `"Your Document Directory"`를 실제 프로젝트 문서 디렉터리 경로로 교체하세요.
 
-## Step 3: Create AsposeOCR Instance
+## 3단계: AsposeOCR 인스턴스 생성
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -100,7 +92,7 @@ AsposeOCR api = new AsposeOCR();
 
 텍스트 인식에 사용할 `AsposeOCR` 클래스 인스턴스를 초기화합니다.
 
-## Step 4: Set Recognition Options
+## 4단계: 인식 옵션 설정
 
 ```java
 DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
@@ -109,7 +101,7 @@ settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 
 필요에 따라 모드 및 추가 옵션을 지정하여 인식 설정을 구성합니다.
 
-## Step 5: Perform Text Recognition
+## 5단계: 텍스트 인식 수행
 
 ```java
 ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
@@ -117,7 +109,7 @@ ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
 
 구성된 설정을 사용해 지정된 TIFF 이미지에 대해 `RecognizeTiff` 메서드를 호출합니다.
 
-## Step 6: Print Recognition Results
+## 6단계: 인식 결과 출력
 
 ```java
 for (RecognitionResult r : result) {
@@ -127,7 +119,7 @@ for (RecognitionResult r : result) {
 
 인식 결과를 순회하며 추출된 텍스트, 단락, 라인, 문자, 경고, JSON 및 맞춤법 교정 텍스트를 출력합니다.
 
-## Step 7: Implement the `printResult` Method
+## 7단계: `printResult` 메서드 구현
 
 ```java
 static void printResult(RecognitionResult result) {

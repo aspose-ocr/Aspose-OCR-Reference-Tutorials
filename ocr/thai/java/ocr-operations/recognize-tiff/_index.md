@@ -9,11 +9,7 @@ url: /th/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
 
-. "extract text tiff" maybe considered technical phrase, but earlier we left as is. In list bullet we have "Perfect for **extract text tiff** scenarios". Keep as is.
-
-Also **read tiff file java** is technical phrase, keep as is.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
