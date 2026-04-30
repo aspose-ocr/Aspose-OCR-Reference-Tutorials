@@ -53,6 +53,9 @@ Dyka ner i OCR‑världen med Aspose.OCR för .NET. Vår handledning om [perform
 
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET genom att utforska [preprocessing filters](./preprocessing-filters-for-image/). Ladda ner nu och upptäck hur du finjusterar dina bilder innan igenkänning. Denna handledning säkerställer sömlös integration, vilket ökar noggrannhet och effektivitet.
 
+### [Hur man räta upp bild – Aspose OCR förbehandlingsguide](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Lär dig att räta upp (deskew) bilder med Aspose OCR för att förbättra igenkänningsnoggrannheten innan OCR‑processen.
+
 ## Resultatkorrektion med stavningskontroll i OCR Image Recognition
 
 Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-correction-with-spell-checking/). Vår handledning om resultatkorrektion med stavningskontroll ger dig möjlighet att anpassa ordböcker, korrigera stavningar och säkerställa felfri textigenkänning utan ansträngning. Dyka ner i en värld av precision med Aspose.OCR.
@@ -60,6 +63,10 @@ Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-corr
 ## Spara flersidigt resultat som dokument i OCR Image Recognition
 
 Spara enkelt flersidiga OCR‑resultat som dokument med Aspose.OCR för .NET. Vår [step-by-step guide](./save-multipage-result-as-document/) låser upp hela potentialen för dokumentgenerering. Integrera Aspose.OCR sömlöst och omvandla dina OCR‑resultat till flersidiga dokument med lätthet.
+
+## Aktivera GPU-acceleration för OCR i C# – Extrahera text från kvitton
+
+Lär dig hur du använder GPU‑acceleration i Aspose.OCR för C# för att snabbt extrahera text från kvitton.
 
 Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgång till ytterligare resurser och hålla dig uppdaterad om de senaste framstegen inom OCR‑optimering. Dyka ner i en värld av precision och effektivitet med Aspose.OCR för .NET‑handledningar.
 
@@ -70,10 +77,16 @@ Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text f
 Lås upp potentialen i Aspose.OCR för .NET med vår omfattande guide. Lär dig steg‑för‑steg hur du förbereder rektanglar för bildigenkänning. Höj dina .NET‑applikationer med sömlös OCR‑integration.
 ### [Förbehandlingsfilter för bild i OCR Image Recognition](./preprocessing-filters-for-image/)
 Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilter. Ladda ner nu för sömlös integration.
+### [Hur man räta upp bild – Aspose OCR förbehandlingsguide](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Lär dig att räta upp (deskew) bilder med Aspose OCR för att förbättra igenkänningsnoggrannheten innan OCR‑processen.
 ### [Resultatkorrektion med stavningskontroll i OCR Image Recognition](./result-correction-with-spell-checking/)
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Aktivera GPU-acceleration för OCR i C# – Extrahera text från kvitton](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Lär dig hur du använder GPU‑acceleration i Aspose.OCR för C# för att snabbt extrahera text från kvitton.
+### [Batch OCR av bilder i C# – Parallell OCR av JPG-skanningar](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Lär dig hur du bearbetar stora mängder JPG‑skanningar parallellt med Aspose.OCR i C# för snabb och effektiv OCR.
 
 ## Vanliga frågor
 
