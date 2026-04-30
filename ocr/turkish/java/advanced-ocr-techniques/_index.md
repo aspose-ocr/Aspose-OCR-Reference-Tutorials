@@ -45,6 +45,9 @@ Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin
 
 Aspose.OCR for Java ile izin verilen karakterleri belirterek görüntülerden zahmetsizce metin çıkarın. Sorunsuz bir metin tanıma deneyimi sağlayan verimli entegrasyon için adım adım kılavuzumuzu izleyin. Aspose.OCR özellikleriyle Java uygulamalarınızı geliştirin.
 
+## [Görüntüden Metin Tanıma – Java OCR ve GPU Hızlandırması](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Java OCR ile GPU hızlandırmalı görüntülerden metin çıkarın ve yüksek performans elde edin.
+
 ## Çözüm
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
@@ -61,6 +64,15 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [Görüntüden Metin Tanıma – Java OCR ve GPU Hızlandırması](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Java OCR ile GPU hızlandırmalı görüntülerden metin çıkarın ve yüksek performans elde edin.
+### [Aspose OCR Java'da Maksimum İş Parçacığını Ayarlama – OCR'ı Hızlandırma](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Aspose OCR Java'da iş parçacığı sayısını ayarlayarak OCR performansını artırın. Hızlı ve verimli metin çıkarma için adım adım rehber.
+### [Java'da Görüntüden Metne – Tam OCR Ön İşleme Rehberi](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Java uygulamalarınızda OCR ön işleme adımlarını tam olarak öğrenin ve metin tanıma doğruluğunu artırın.
+### [TIFF'te OCR Nasıl Yapılır – Java'da Büyük TIFF'leri Akıtma ve Metin Döşemelerini Çıkarma](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Java'da büyük TIFF dosyalarını akıtıp metin döşemelerini çıkarmak için adım adım rehber.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

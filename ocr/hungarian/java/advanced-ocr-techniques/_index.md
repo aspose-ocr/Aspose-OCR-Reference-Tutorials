@@ -54,13 +54,21 @@ Végezzen OCR-t könnyedén a BufferedImage-en az Aspose.OCR for Java segítség
 ### [OCR végrehajtása az URL-ből származó képen az Aspose.OCR for Java-ban](./perform-ocr-image-from-url/)
 Oldja fel a zökkenőmentes képszöveg-kivonást Java nyelven az Aspose.OCR segítségével. Nagy pontosságú OCR egyszerű integrációval.
 ### [OCR végrehajtása adott oldalon az Aspose.OCR-ben](./perform-ocr-on-page/)
-Fedezze fel az Aspose.OCR for Java erejét lépésenkénti útmutatónkkal az OCR végrehajtásáról bizonyos oldalakon. Könnyedén kivonhatja a szöveget a képekből, és javíthatja Java-projektjeit.
+Fedezze fel az Aspose.OCR for Java erejét lépésenkénti útmutatónkkal az OCR végrehajtásáról bizonyos oldalakon. Könnyedén kivonhatja a szöveget a képekből és javíthatja Java-projektjeit.
 ### [Téglalapok előkészítése OCR-hez az Aspose.OCR-ben](./prepare-rectangles-for-ocr/)
 Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Bővítse Java-alkalmazásait hatékony OCR-képességekkel.
 ### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
-Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésenkénti útmutatónkat a hatékony integráció érdekében.
+Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről lépésre útmutatónkat a hatékony integráció érdekében.
+### [Szöveg felismerése képről – Java OCR GPU gyorsítással](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+GPU gyorsítással javítja a Java OCR teljesítményét képek szövegének felismerésénél.
+### [Maximális szálak beállítása az Aspose OCR Java-ban – Az OCR felgyorsítása](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Állítsa be a maximális szálak számát az Aspose OCR Java-ban a teljesítmény növelése érdekében.
+### [Kép szöveggé Java – Teljes OCR előfeldolgozási útmutató](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Ismerje meg az OCR előfeldolgozási lépéseket Java-ban a szövegkivonás pontosságának növeléséhez.
+### [TIFF OCR – Nagy TIFF fájlok streamelése és szövegtáblák kinyerése Java-ban](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

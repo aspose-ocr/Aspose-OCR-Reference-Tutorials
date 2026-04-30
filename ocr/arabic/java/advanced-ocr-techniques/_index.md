@@ -45,12 +45,32 @@ url: /ar/java/advanced-ocr-techniques/
 
 يمكنك استخراج النص من الصور بسهولة عن طريق تحديد الأحرف المسموح بها باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة لتحقيق التكامل الفعال، مما يضمن تجربة التعرف على النص بسلاسة. قم بتحسين تطبيقات Java الخاصة بك باستخدام إمكانيات Aspose.OCR.
 
-## خاتمة
+## [التعرف على النص من الصورة – OCR جافا مع تسريع GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
 
-مع Aspose.OCR لـ Java، أصبح إتقان تقنيات التعرف الضوئي على الحروف المتقدمة أسهل من أي وقت مضى. انغمس في هذه البرامج التعليمية واطلق العنان للإمكانات الكاملة للتعرف على النص في مشاريع Java الخاصة بك. ارفع مستوى تطبيقاتك من خلال التكامل السلس والدقة العالية وإمكانيات استخراج النص المتنوعة. قم بالتنزيل الآن واتخذ الخطوة الأولى نحو التميز في التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ Java!
+استفد من تسريع GPU لإجراء التعرف الضوئي على الحروف في Java، واحصل على استخراج نص سريع ودقيق من الصور.
+
+## [ضبط الحد الأقصى للمواضيع في Aspose OCR Java – تسريع OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+
+تعلم كيفية زيادة سرعة OCR في Java عن طريق ضبط الحد الأقصى للمواضيع في Aspose OCR.
+
+## [تحويل الصورة إلى نص جافا – دليل شامل لمعالجة ما قبل OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+
+دليل كامل لمعالجة الصور قبل تطبيق OCR في Java، يضمن استخراج نص عالي الدقة وسرعة محسنة.
+
+## [كيفية التعرف الضوئي على الحروف (OCR) لملفات TIFF – بث ملفات TIFF الكبيرة واستخراج مربعات النص في Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+
+تعلم كيفية معالجة ملفات TIFF الكبيرة واستخراج أجزاء النص باستخدام Aspose.OCR في Java.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
 ## دروس متقدمة في تقنيات التعرف الضوئي على الحروف
 ### [تنفيذ التعرف الضوئي على الحروف (OCR) على BufferedImage في Aspose.OCR لـ Java](./perform-ocr-buffered-image/)
-قم بإجراء التعرف الضوئي على الحروف (OCR) على BufferedImage دون عناء باستخدام Aspose.OCR لـ Java. استخراج النص من الصور بسلاسة. قم بالتنزيل الآن للحصول على تجربة متعددة الاستخدامات للتعرف على النص.
+قم بإجراء التعرف الضوئي على الحروف (OCR) على BufferedImage دون عناء باستخدام Aspose.OCR لـ Java. استخراج النص من الصور بسلاسة. قم بتنزيل الآن للحصول على تجربة متعددة الاستخدامات للتعرف على النص.
 ### [تنفيذ التعرف الضوئي على الحروف (OCR) على الصورة من عنوان URL في Aspose.OCR لـ Java](./perform-ocr-image-from-url/)
 أطلق العنان لاستخراج نص الصورة بشكل سلس في Java باستخدام Aspose.OCR. دقة عالية في التعرف الضوئي على الحروف (OCR) مع سهولة التكامل.
 ### [تنفيذ التعرف الضوئي على الحروف (OCR) على صفحة معينة في Aspose.OCR](./perform-ocr-on-page/)
@@ -61,9 +81,11 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+### [التعرف على النص من الصورة – OCR جافا مع تسريع GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+استفد من تسريع GPU لإجراء التعرف الضوئي على الحروف في Java، واحصل على استخراج نص سريع ودقيق من الصور.
+### [ضبط الحد الأقصى للمواضيع في Aspose OCR Java – تسريع OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+تعلم كيفية زيادة سرعة OCR في Java عن طريق ضبط الحد الأقصى للمواضيع في Aspose OCR.
+### [تحويل الصورة إلى نص جافا – دليل شامل لمعالجة ما قبل OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+دليل كامل لمعالجة الصور قبل تطبيق OCR في Java، يضمن استخراج نص عالي الدقة وسرعة محسنة.
+### [كيفية التعرف الضوئي على الحروف (OCR) لملفات TIFF – بث ملفات TIFF الكبيرة واستخراج مربعات النص في Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+تعلم كيفية معالجة ملفات TIFF الكبيرة واستخراج أجزاء النص باستخدام Aspose.OCR في Java.
