@@ -68,6 +68,12 @@ Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높
 Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [C#에서 GPU 가속을 사용한 OCR 활성화 – 영수증에서 텍스트 추출](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+GPU 가속을 활용해 영수증 이미지에서 빠르고 정확하게 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [이미지 기울기 보정 방법 – Aspose OCR 전처리 가이드](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aspose OCR을 사용해 이미지의 기울기를 보정하고 OCR 정확도를 높이는 단계별 가이드입니다.
+### [C#에서 배치 OCR 이미지 – JPG 스캔 병렬 OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+C#를 사용해 다수의 JPG 스캔 이미지를 병렬로 OCR 처리하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
@@ -75,7 +81,7 @@ Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 
 A: 예, Aspose.OCR은 다양한 언어를 지원하며 혼합 언어 콘텐츠를 인식하도록 구성할 수 있습니다.
 
 **Q: 전처리가 정확도를 어떻게 향상시키나요?**  
-A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높입니다.
+A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높습니다.
 
 **Q: 한 번에 처리할 수 있는 페이지 수에 제한이 있나요?**  
 A: 명확한 제한은 없으며, 성능은 시스템 리소스에 따라 달라집니다. 매우 큰 배치의 경우 페이지를 여러 구간으로 나누어 처리하는 것을 고려하세요.

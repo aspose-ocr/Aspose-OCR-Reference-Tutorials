@@ -11,7 +11,7 @@ url: /sv/net/text-recognition/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textigenkänning
+# Textigennänning
 
 ## Introduktion
 
@@ -55,6 +55,12 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Skapa sökbar PDF från TIFF – Komplett C#-guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Lär dig hur du konverterar TIFF-filer till sökbara PDF-dokument med Aspose.OCR i C# med en komplett steg-för-steg-guide.
+### [Känn igen text från bild i C# – Offline OCR-handledning](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# kan känna igen text från bilder offline med en steg-för-steg-guide.
+### [Känn igen text från bild i C# – Aspose OCR-handledning](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# kan känna igen text från bilder med en enkel steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
