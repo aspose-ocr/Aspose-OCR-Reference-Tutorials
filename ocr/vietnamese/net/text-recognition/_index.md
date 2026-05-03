@@ -49,12 +49,19 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khám phá Aspose.OCR cho .NET, một giải pháp OCR mạnh mẽ để nhận dạng văn bản liền mạch trong hình ảnh.
 ### [Nhận kết quả dưới dạng JSON trong Nhận dạng hình ảnh OCR](./get-result-as-json/)
 Giải phóng sức mạnh của Aspose.OCR cho .NET. Tìm hiểu cách thu được kết quả OCR ở định dạng JSON một cách dễ dàng. Nâng cao khả năng nhận dạng hình ảnh của bạn với hướng dẫn từng bước này.
+### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh và xuất dưới dạng JSON có thụt lề](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Học cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh và xuất kết quả dưới dạng JSON có thụt lề một cách dễ dàng.
 ### [Chế độ khu vực phát hiện OCR trong nhận dạng hình ảnh OCR](./ocr-detect-areas-mode/)
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản hình ảnh hiệu quả. Khám phá Chế độ khu vực phát hiện OCR để có kết quả chính xác.
 ### [Nhận dạng PDF trong Nhận dạng hình ảnh OCR](./recognize-pdf/)
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Phát hiện ngôn ngữ hình ảnh trong C# – Hướng dẫn toàn diện về OCR & Trích xuất văn bản](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Khám phá cách phát hiện ngôn ngữ của hình ảnh trong C# bằng Aspose.OCR, hướng dẫn chi tiết từ cài đặt đến trích xuất văn bản.
+### [Chuyển PDF thành dạng có thể tìm kiếm trong C# – Hướng dẫn toàn diện Aspose OCR](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Biến PDF thành tài liệu có thể tìm kiếm trong C# bằng Aspose OCR. Hướng dẫn chi tiết từng bước để thực hiện nhanh chóng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
