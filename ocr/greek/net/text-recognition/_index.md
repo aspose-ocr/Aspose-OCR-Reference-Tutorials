@@ -55,6 +55,23 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Πλήρης οδηγός OCR](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας C# και το Aspose.OCR σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Οδηγός βήμα προς βήμα](./extract-text-from-image-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας C# και Aspose.OCR με οδηγίες βήμα προς βήμα.
+### [Αναγνώριση Κινέζικου κειμένου σε C# – Πλήρης οδηγός OCR](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Μάθετε πώς να αναγνωρίζετε κινέζικο κείμενο σε C# χρησιμοποιώντας το Aspose.OCR με αυτόν τον πλήρη οδηγό βήμα προς βήμα.
+### [Αναγνώριση κειμένου από εικόνα σε C# – Πλήρης οδηγός Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# με το Aspose OCR σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Εκτέλεση OCR σε PDF με Aspose OCR – Πλήρης Οδηγός](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Μάθετε πώς να εκτελείτε OCR σε αρχεία PDF χρησιμοποιώντας Aspose OCR σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Δημιουργία αναζητήσιμου PDF από εικόνα – Οδηγός C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Μάθετε πώς να μετατρέπετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας C# και Aspose OCR σε βήμα-βήμα οδηγό.
+### [Μετατροπή εικόνας σε JSON με Aspose OCR – Πλήρης οδηγός C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε JSON με Aspose OCR χρησιμοποιώντας C# σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Πώς να κάνετε Batch OCR σε C# – Εξαγωγή κειμένου από σαρώσεις](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες με OCR σε C# για εξαγωγή κειμένου από σαρωμένα έγγραφα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
