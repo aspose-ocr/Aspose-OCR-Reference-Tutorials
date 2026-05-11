@@ -1,10 +1,11 @@
 ---
-date: 2025-12-06
-description: Aspose.OCR for Java'ı kullanarak OCR metin tanıma işlemi yapmayı, görüntülerden
-  metin çıkarmayı ve hedefli tanıma için dikdörtgenler hazırlamayı öğrenin.
-linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-02-20
+description: Aspose.OCR for Java kullanarak sayfa dikdörtgenlerini nasıl tanıyacağınızı
+  öğrenin, metin görüntüsü Java projelerini çıkarın ve kesin OCR için bu Aspose OCR
+  Java eğitimini izleyin.
+linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Aspose.OCR'de OCR Metin Tanıma İçin Dikdörtgenleri Hazırlama
+title: Aspose.OCR'de OCR Metin Tanıma İçin Sayfa Dikdörtgenlerini Nasıl Tanıyabilirsiniz
 url: /tr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
@@ -13,11 +14,9 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR'de OCR Metin Tanıma için Dikdörtgenleri Hazırlama
+# Aspose.OCR'da OCR Metin Tanıma İçin Sayfa Dikdörtgenlerini Nasıl Tanımlarsınız
 
-## Giriş
-
-Günümüzün veri odaklı dünyasında, **ocr text recognition** taranmış belgeleri, ekran görüntülerini ve fotoğrafları aranabilir, düzenlenebilir içeriğe dönüştürmenin temel taşıdır. Aspose.OCR for Java bu süreci hızlı ve güvenilir hâle getirir, özellikle bir görüntünün belirli alanlarına odaklanmanız gerektiğinde. Bu öğreticide, OCR'ı ilgilendiğiniz bölgelere sınırlayan dikdörtgenleri hazırlamak için gereken tüm adımları adım adım göstereceğiz; bu sayede kesin kontrol ve daha iyi performans elde edeceksiniz.
+Modern belge‑otomasyon hatlarında, **sayfa dikdörtgenlerini tanıma** OCR motoruna tam olarak nerede bakması gerektiğini söyleyen temel tekniktir. Aspose.OCR'ı yalnızca metin içeren bölgelere sınırlayarak hız artırır, gürültüyü azaltır ve daha temiz sonuçlar elde edersiniz. Bu öğreticide, kütüphaneyi kurma, lisanslama, dikdörtgenleri tanımlama ve sonunda OCR API'sini çağırma adımlarını adım adım göstereceğiz; böylece herhangi bir görüntüden metin çıkarmayı güvenle yapabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **Java'da OCR metin tanımasını hangi kütüphane yönetir?** Aspose.OCR for Java.  
@@ -26,28 +25,26 @@ Günümüzün veri odaklı dünyasında, **ocr text recognition** taranmış bel
 - **Ana önkoşullar nelerdir?** JDK 17+, Aspose.OCR for Java ve bir Java IDE.  
 - **Bu yaklaşım görüntülerden metin çıkarmak için uygun mu?** Evet, **extract text image java** projeleri için verimli bir yoldur.
 
-## OCR Metin Tanıması Nedir?
+## “Sayfa dikdörtgenlerini tanıma” nedir?
+Bu ifade, OCR motoruna yalnızca sayfadaki belirli bölgeleri işleyebilmesi için bir `java.awt.Rectangle` nesneleri listesi sağlamayı ifade eder. Bu odaklanmış yaklaşım, özellikle faturalar veya formlar gibi karmaşık belgelerde işlem süresini azaltır ve doğruluğu artırır.
 
-OCR (Optik Karakter Tanıma) metin tanıması, piksel tabanlı görüntüleri makine tarafından okunabilir karakterlere dönüştürür. Bu sayede yalnızca resim olarak var olan içeriği arayabilir, düzenleyebilir ve analiz edebilirsiniz.
-
-## OCR Metin Tanıması için Dikdörtgenleri Neden Hazırlamalısınız?
-
+## Neden OCR Metin Tanıma İçin Dikdörtgenler Hazırlamalıyız?
 Dikdörtgenleri tanımlamak, motoru gerçekten metin içeren bölgelere odaklar; bu:
-* İşleme süresini azaltır.
-* Gürültülü arka planları görmezden gelerek doğruluğu artırır.
-* Sadece ihtiyacınız olan verileri çıkarmanıza olanak tanır—formlar, faturalar ve makbuzlar için mükemmeldir.
+* İşlem süresini azaltır.  
+* Gürültülü arka planları görmezden gelerek doğruluğu artırır.  
+* Sadece ihtiyacınız olan veriyi çıkarmanıza olanak tanır – formlar, faturalar ve makbuzlar için mükemmeldir.  
 
 ## Önkoşullar
 
-Başlamadan önce şunların kurulu olduğundan emin olun:
+Başlamadan önce şunların olduğundan emin olun:
 
-- **Java Development Kit (JDK)** – Aspose.OCR for Java, JDK 17 veya daha yeni sürümlerle çalışır. Oracle web sitesinden indirin.
-- **Aspose.OCR for Java kütüphanesi** – Resmi indirme sayfasından en son JAR'ı alın [burada](https://releases.aspose.com/ocr/java/). Kurulum rehberini [burada](https://reference.aspose.com/ocr/java/) izleyin.
+- **Java Development Kit (JDK)** – Aspose.OCR for Java, JDK 17 veya daha yeni sürümlerle çalışır. Oracle web sitesinden indirin.  
+- **Aspose.OCR for Java kütüphanesi** – En son JAR dosyasını resmi indirme sayfasından [burada](https://releases.aspose.com/ocr/java/) alın. Kurulum rehberini [burada](https://reference.aspose.com/ocr/java/) izleyin.  
 - **Geliştirme Ortamı** – Herhangi bir Java IDE (IntelliJ IDEA, Eclipse, VS Code vb.) yeterlidir.
 
 ## Paketleri İçe Aktarma
 
-Java kaynak dosyanızda gerekli Aspose.OCR sınıflarını ve standart Java yardımcılarını içe aktarın:
+Java kaynak dosyanızda, gerekli Aspose.OCR sınıflarını ve standart Java yardımcılarını içe aktarın:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -61,7 +58,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-> *OCR API'sinin taranacak bölgeleri tanımlayan dikdörtgenleri beklediği için `java.awt.Rectangle`'ı içe aktarıyoruz.*
+> *`java.awt.Rectangle`'ı içe aktarıyoruz çünkü OCR API'si taranacak bölgeleri tanımlayan dikdörtgenleri bekler.*
 
 ## Adım 1: Lisansı Ayarlama
 
@@ -69,7 +66,7 @@ import java.util.ArrayList;
 SetLicense.main(null);
 ```
 
-`SetLicense` çağrısı, Aspose.OCR lisansınızı etkinleştirir, değerlendirme sınırlamalarını kaldırır ve tam özellikli OCR metin tanımasını sağlar.
+`SetLicense` çağrısı, Aspose.OCR lisansınızı etkinleştirir, değerlendirme sınırlamalarını kaldırır ve tam özellikli OCR metin tanımayı sağlar.
 
 ## Adım 2: Belge Dizini ve Görüntü Yolunu Tanımlama
 
@@ -78,17 +75,17 @@ String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-`"Your Document Directory"` ifadesini, görüntünüzün (`p.png`) bulunduğu mutlak yol ile değiştirin. İşlenecek olan bu görüntüdür.
+`"Your Document Directory"` ifadesini, görüntünüzün (`p.png`) bulunduğu mutlak yol ile değiştirin. İşlenecek görüntü budur.
 
-## Adım 3: AsposeOCR Örneği Oluşturma
+## Adım 3: Aspose.OCR Örneği Oluşturma
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-`AsposeOCR` örneği oluşturmak, gerçek OCR işlemini yapan `RecognizePage` metoduna erişmenizi sağlar.
+`AsposeOCR` nesnesi oluşturmak, gerçek OCR işlemini yapan `RecognizePage` metoduna erişmenizi sağlar.
 
-## Adım 4: Metinlerle Dikdörtgenleri Hazırlama
+## Adım 4: Metin İçeren Dikdörtgenleri Hazırlama
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -98,7 +95,7 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-Her `Rectangle(x, y, width, height)` Aspose.OCR'a metni nerede arayacağını tam olarak söyler. Koordinatları, kaynak görüntünüzün düzenine göre ayarlayın.
+Her `Rectangle(x, y, width, height)` Aspose.OCR'a metnin nerede aranacağını tam olarak söyler. Koordinatları, kaynak görüntünüzün düzenine göre ayarlayın.
 
 ## Adım 5: OCR Tanımasını Gerçekleştirme
 
@@ -117,37 +114,37 @@ try {
 
 | Sorun | Neden | Çözüm |
 |-------|-------|----------|
-| **Çıktı Yok** | Yanlış dikdörtgen koordinatları veya görüntü yolu | `dataDir` değerini iki kez kontrol edin ve dikdörtgenlerin gerçekten metin bölgelerini kapsadığından emin olun. |
-| **Bozuk Karakterler** | Düşük çözünürlüklü görüntü veya desteklenmeyen yazı tipi | Daha yüksek çözünürlüklü bir kaynak kullanın veya görüntü ön işleme (ör. ikilileştirme) uygulayın. |
-| **Lisans Uygulanmadı** | `SetLicense` OCR'dan önce çağrılmadı | `SetLicense.main(null);` kodunun tüm API çağrılarından önce çalıştığından emin olun. |
-| **Performans Gecikmesi** | Çok fazla büyük dikdörtgen | Dikdörtgen sayısını sınırlayın ve metnin etrafında mümkün olduğunca sıkı tutun. |
+| **Çıktı yok** | Yanlış dikdörtgen koordinatları veya görüntü yolu | `dataDir` değerini iki kez kontrol edin ve dikdörtgenlerin gerçekten metin bölgelerini kapsadığından emin olun. |
+| **Bozuk karakterler** | Düşük çözünürlüklü görüntü veya desteklenmeyen yazı tipi | Daha yüksek çözünürlüklü bir kaynak kullanın veya görüntü ön işleme (ör. ikilileştirme) uygulayın. |
+| **Lisans uygulanmadı** | OCR'dan önce `SetLicense` çağrılmadı | `SetLicense.main(null);` kodunun herhangi bir API çağrısından önce çalıştığından emin olun. |
+| **Performans yavaşlığı** | Çok fazla büyük dikdörtgen | Dikdörtgen sayısını sınırlayın ve metnin etrafını mümkün olduğunca sıkı tutun. |
+
+## Sık Sorulan Sorular
+
+**S:** *Aspose.OCR diğer programlama dilleriyle uyumlu mu?*  
+**C:** Evet, Aspose.OCR .NET, C++ ve Python'ı da destekler. Dil‑spesifik örnekler için resmi belgeleri inceleyin.
+
+**S:** *Aspose.OCR'ı ticari bir projede kullanabilir miyim?*  
+**C:** Kesinlikle. Ticari bir lisansı [Aspose mağazası](https://purchase.aspose.com/buy) üzerinden satın alabilirsiniz.
+
+**S:** *Ücretsiz deneme sürümü mevcut mu?*  
+**C:** Evet, deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
+
+**S:** *Değerlendirme için geçici bir lisans nasıl alınır?*  
+**C:** Geçici lisanslar, [Aspose geçici‑lisans portalı](https://purchase.aspose.com/temporary-license/) üzerinden sağlanır.
+
+**S:** *Topluluk desteği nereden alınır?*  
+**C:** Sorular, ipuçları ve kod örnekleri için Aspose.OCR [forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
 
 ## Sonuç
 
-Artık Aspose.OCR for Java'ı nasıl entegre edeceğinizi, lisansı nasıl ayarlayacağınızı, görüntü yollarını nasıl tanımlayacağınızı ve en önemlisi **ocr text recognition**'ı bir görüntünün belirli bölümlerine odaklamak için dikdörtgenleri nasıl hazırlayacağınızı öğrendiniz. Bu teknik, kesin ve yüksek performanslı metin çıkarımı gerektiren herhangi bir **java ocr tutorial** için idealdir.
-
-## Sıkça Sorulan Sorular
-
-**S: Aspose.OCR diğer programlama dilleriyle uyumlu mu?**  
-C: Evet, Aspose.OCR .NET, C++ ve Python'ı da destekler. Dil‑spesifik örnekler için resmi belgeleri inceleyin.
-
-**S: Aspose.OCR'ı ticari bir projede kullanabilir miyim?**  
-C: Kesinlikle. Ticari bir lisansı [Aspose mağazası](https://purchase.aspose.com/buy) üzerinden satın alın.
-
-**S: Ücretsiz bir deneme sürümü mevcut mu?**  
-C: Evet, deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz.
-
-**S: Değerlendirme için geçici bir lisans nasıl alabilirim?**  
-C: Geçici lisanslar [Aspose geçici‑lisans portalı](https://purchase.aspose.com/temporary-license/) üzerinden sağlanır.
-
-**S: Topluluk desteğini nereden alabilirim?**  
-C: Sorular, ipuçları ve kod örnekleri için Aspose.OCR [forumunu](https://forum.aspose.com/c/ocr/16) ziyaret edin.
+Artık Aspose.OCR for Java ile **sayfa dikdörtgenlerini tanıma**, lisans ayarlama, görüntü yollarını tanımlama ve en önemlisi OCR'ı ihtiyaç duyduğunuz görüntü bölümlerine odaklamak için sıkı dikdörtgenler hazırlama konularını öğrendiniz. Bu teknik, kesin ve yüksek performanslı metin çıkarımı gerektiren herhangi bir **aspose ocr java tutorial** için idealdir.
 
 ---
 
-**Son Güncelleme:** 2025-12-06  
-**Test Edilen Versiyon:** Aspose.OCR for Java 24.12  
-**Yazar:** Aspose
+**Son Güncelleme:** 2026-02-20  
+**Test Edilen:** Aspose.OCR for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

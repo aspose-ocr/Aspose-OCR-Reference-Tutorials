@@ -2,10 +2,10 @@
 title: "Extract Text from Images Using Aspose.OCR – Allowed Characters"
 linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
-description: "Learn how to extract text from images using Aspose.OCR for Java and specify allowed characters – a complete aspose ocr java tutorial."
+description: "Learn how to extract text from images using Aspose.OCR for Java, set allowed characters, and apply temporary license – a complete Aspose OCR Java tutorial."
 weight: 15
 url: /java/advanced-ocr-techniques/specify-allowed-characters/
-date: 2025-12-09
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,13 +16,13 @@ date: 2025-12-09
 
 ## Introduction
 
-Extracting text from images is a common requirement in modern applications—whether you’re processing invoices, scanning receipts, or digitizing printed documents. **Aspose.OCR for Java** makes this task straightforward, offering high‑accuracy recognition and flexible configuration options such as specifying allowed characters. In this tutorial we’ll walk through a complete **aspose ocr java tutorial** that shows you how to set up the library, run OCR, and limit the character set to suit your needs.
+Extracting text from images is a common requirement in modern applications—whether you’re processing invoices, scanning receipts, or digitizing printed documents. In this tutorial we’ll walk through a complete **aspose ocr java tutorial** that shows you how to **extract text from images** with Aspose.OCR for Java, set allowed characters, and apply a temporary license when you’re just testing the library.
 
 ## Quick Answers
 - **What does Aspose.OCR do?** It extracts text from images with high accuracy and supports custom character sets.  
 - **Do I need a license?** A temporary or permanent license is required for production use.  
 - **Which JDK version is supported?** The latest JDK releases are fully compatible.  
-- **Can I limit recognized characters?** Yes—use the allowed‑characters API to restrict output.  
+- **Can I limit recognized characters?** Yes—use the `setAllowedCharacters` API to restrict output.  
 - **How long does the setup take?** About 10‑15 minutes for a basic implementation.
 
 ## What is “extract text from images”?
@@ -49,6 +49,21 @@ Download and install the Aspose.OCR for Java library from the [download link](ht
 ### Aspose.OCR License
 
 To access the full potential of Aspose.OCR, acquire a valid license. You can obtain one from [here](https://purchase.aspose.com/buy) or explore a [temporary license](https://purchase.aspose.com/temporary-license/) for a trial period.
+
+## How to apply temporary license
+
+When you’re evaluating the product, a temporary license removes the evaluation watermark and unlocks full functionality for a limited period. Create the license string in the Aspose portal, then pass it to the `AsposeOCR` constructor as shown in the code example below. For production deployments, replace the temporary key with your permanent license.
+
+## OCR image preprocessing tips
+
+Good image quality dramatically improves recognition results. Before calling the OCR engine, consider:
+
+- Converting the image to grayscale.
+- Increasing contrast to make characters stand out.
+- Removing background noise with a binarization filter.
+- Resizing low‑resolution images to at least 300 dpi.
+
+These steps are part of **ocr image preprocessing** and can be performed with any standard Java imaging library before invoking Aspose.OCR.
 
 ## Import Packages
 
@@ -136,7 +151,7 @@ By following this **aspose ocr java tutorial**, you now have a working solution 
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.OCR for Java 24.11  
 **Author:** Aspose  
 

@@ -1,35 +1,37 @@
 ---
-date: 2025-12-10
-description: Leer hoe u de Aspose.OCR‑licentie in Java kunt verifiëren. Deze stapsgewijze
-  Aspose OCR‑Java‑tutorial laat u zien hoe u de licentie instelt en valideert voor
-  volledige OCR‑functionaliteit.
+date: 2026-02-20
+description: Leer hoe u de licentie instelt en hoe u de licentie verifieert voor Aspose.OCR
+  in Java. Deze stapsgewijze tutorial laat zien hoe u de licentie instelt en valideert
+  voor volledige OCR-functionaliteit.
 linktitle: How to Verify Aspose.OCR License in Java
 second_title: Aspose.OCR Java API
-title: Hoe de Aspose.OCR-licentie in Java te verifiëren
+title: Hoe de licentie instellen en de Aspose.OCR-licentie verifiëren in Java
 url: /nl/java/ocr-basics/set-license/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe Aspose.OCR-licentie te verifiëren in Java
+# Hoe licentie instellen en Aspose.OCR‑licentie verifiëren in Java
 
 ## Inleiding
 
-Optische tekenherkenning (OCR) is essentieel om afbeeldingen om te zetten in doorzoekbare, bewerkbare tekst. **Aspose.OCR for Java** biedt ontwikkelaars een krachtige, kant‑en‑klare engine, maar werkt pas op volledige capaciteit nadat de licentie is geverifieerd. In deze tutorial leer je hoe je de **Aspose OCR-licentie** programmatisch kunt **verifiëren**, stap voor stap, zodat je applicatie betrouwbaar tekst kan extraheren zonder evaluatiebeperkingen.
+Optical Character Recognition (OCR) is essentieel om afbeeldingen om te zetten in doorzoekbare, bewerkbare tekst. **Aspose.OCR voor Java** biedt ontwikkelaars een krachtige, kant‑en‑klare engine, maar deze werkt pas op volle capaciteit nadat de licentie is geverifieerd. In deze tutorial leer je **hoe je een licentie instelt** en **hoe je de licentie programmeermatig verifieert**, stap voor stap, zodat je applicatie betrouwbaar tekst kan extraheren zonder evaluatielimieten.
 
 ## Snelle antwoorden
 - **Wat betekent “verify Aspose OCR license”?** Het bevestigt dat een geldig licentiebestand is geladen, waardoor de volledige functionaliteit wordt ontgrendeld.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Een tijdelijke licentie is beschikbaar voor testen; een permanente licentie is vereist voor productie.  
+- **Heb ik een licentie nodig voor ontwikkeling?** Er is een tijdelijke licentie beschikbaar voor testen; een permanente licentie is vereist voor productie.  
 - **Welke Java‑versies worden ondersteund?** Aspose.OCR werkt met Java 8 en hoger, inclusief Java 11+.  
 - **Waar moet ik het licentiebestand plaatsen?** Op elke locatie die toegankelijk is voor je applicatie; geef gewoon het juiste pad op in de code.  
-- **Hoe kan ik controleren of de licentie geldig is?** Gebruik `License.isValid()` – het retourneert `true` wanneer de licentie succesvol is geladen.
+- **Hoe kan ik controleren of de licentie geldig is?** Gebruik `License.isValid()` – deze geeft `true` terug wanneer de licentie succesvol is geladen.
 
 ## Wat is de stap “verify Aspose OCR license”?
 
-Het verifiëren van de licentie vertelt Aspose.OCR dat je een geldige kopie bezit, waardoor watermerken en gebruikslimieten worden verwijderd. Het verificatieproces bestaat uit een eenvoudige twee‑regelige codeaanroep: stel het pad naar het licentiebestand in en vraag vervolgens de geldigheid op.
+Het verifiëren van de licentie vertelt Aspose.OCR dat je een geldige kopie bezit, waardoor watermerken en gebruikslimieten worden verwijderd. Het verificatieproces bestaat uit een eenvoudige twee‑regelige code‑aanroep: stel het pad naar het licentiebestand in en vraag vervolgens de geldigheid op.
 
 ## Waarom deze Aspose OCR Java‑tutorial gebruiken?
 
@@ -37,17 +39,17 @@ Het verifiëren van de licentie vertelt Aspose.OCR dat je een geldige kopie bezi
 - **Eenvoudige integratie:** Slechts een paar regels code zijn nodig.  
 - **Enterprise‑klaar:** Werkt op Windows, Linux en cloudomgevingen.
 
-## Voorvereisten
+## Vereisten
 
 Voordat je begint, zorg dat je het volgende hebt:
 
-1. **Java‑ontwikkelomgeving** – JDK 8+ geïnstalleerd en geconfigureerd.  
-2. **Aspose.OCR for Java‑pakket** – download het van de [download link](https://releases.aspose.com/ocr/java/).  
-3. **Een geldig licentiebestand** – verkrijg een tijdelijke of permanente licentie van [hier](https://purchase.aspose.com/temporary-license/).
+1. **Java‑ontwikkelomgeving** – JDK 8+ geïnstalleerd en geconfigureerd.  
+2. **Aspose.OCR voor Java‑pakket** – download het van de [download link](https://releases.aspose.com/ocr/java/).  
+3. **Een geldig licentiebestand** – verkrijg een tijdelijke of permanente licentie via [hier](https://purchase.aspose.com/temporary-license/).
 
-## Importeer pakketten
+## Import Packages
 
-Voeg de benodigde import‑verklaringen toe aan je Java‑klasse zodat je met de licentie‑API kunt werken.
+Voeg de benodigde import‑statements toe aan je Java‑klasse zodat je met de licentie‑API kunt werken.
 
 ```java
 package com.aspose.ocr.examples.License;
@@ -55,9 +57,9 @@ package com.aspose.ocr.examples.License;
 import com.aspose.ocr.License;
 ```
 
-## Stap 1: Stel de licentie in
+## Stap 1: Hoe licentie instellen
 
-Wijs de bibliotheek naar je `.lic`‑bestand. Vervang het tijdelijke pad door de daadwerkelijke locatie van je licentie.
+Wijs de bibliotheek naar je `.lic`‑bestand. Vervang de tijdelijke pad‑placeholder door de werkelijke locatie van je licentie.
 
 ```java
 //Set license
@@ -65,9 +67,9 @@ String file = "Aspose.Total.lic"; //change the path to point to a valid license
 License.setLicense(file);
 ```
 
-## Stap 2: Verifieer de licentie
+## Stap 2: Hoe licentie verifiëren
 
-Na het instellen van de licentie, bevestig dat deze correct is geladen. Dit is de kernoperatie van **verify Aspose OCR license**.
+Nadat de licentie is ingesteld, bevestig dat deze correct is geladen. Dit is de kern‑operatie **verify Aspose OCR license**.
 
 ```java
 //Check license
@@ -75,19 +77,23 @@ boolean resLicense = License.isValid();
 System.out.println("License is set: " + resLicense);
 ```
 
-Als de console `License is set: true` afdrukt, ben je klaar om de volledige OCR‑functies te gebruiken.
+Als de console `License is set: true` afdrukt, ben je klaar om de volledige OCR‑functionaliteit te gebruiken.
 
-## Veelvoorkomende problemen & probleemoplossing
+## Veelvoorkomende problemen & foutopsporing
 
-| Symptoom | Waarschijnlijke oorzaak | Oplossing |
-|----------|--------------------------|-----------|
-| `License.isValid()` returns `false` | Onjuist bestandspad of beschadigd licentiebestand | Controleer het pad opnieuw, zorg dat het bestand niet is gewijzigd en dat de applicatie leesrechten heeft. |
-| RuntimeException about missing native libraries | Ontbrekende native binaries van Aspose.OCR | Zorg ervoor dat de `lib`‑map van de Aspose.OCR‑distributie in je `java.library.path` staat. |
-| License works in IDE but not in deployed JAR | Licentiebestand niet meegepakt in de JAR | Plaats de licentie op een locatie buiten de JAR en verwijs naar het absolute pad, of embed het als resource en laad via `getResourceAsStream`. |
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| `License.isValid()` returns `false` | Incorrect file path or corrupted license file | Double‑check the path, ensure the file is not altered, and that the application has read permissions. |
+| RuntimeException about missing native libraries | Missing Aspose.OCR native binaries | Ensure the `lib` folder from the Aspose.OCR distribution is on your `java.library.path`. |
+| License works in IDE but not in deployed JAR | License file not packaged with the JAR | Place the license in a location external to the JAR and reference the absolute path, or embed it as a resource and load via `getResourceAsStream`. |
+
+## Waarom dit belangrijk is
+
+Het vroegtijdig instellen en verifiëren van de licentie in de levenscyclus van je applicatie voorkomt onverwachte watermerken of functielimieten tijdens productie‑runs. Het maakt ook automatisering van deployment‑pipelines eenvoudig – zodra het licentiepad is geconfigureerd, werkt de OCR‑engine zonder handmatige tussenkomst.
 
 ## Conclusie
 
-Door deze **Aspose OCR Java‑tutorial** te volgen, heb je geleerd hoe je de **Aspose OCR‑licentie** instelt en **verifieert** in een Java‑applicatie. Je project heeft nu onbeperkte toegang tot Aspose’s OCR‑engine met hoge nauwkeurigheid, klaar om afbeeldingen om te zetten in doorzoekbare tekst.
+Door deze **Aspose OCR Java‑tutorial** te volgen, heb je geleerd hoe je **licentie instelt** en **Aspose OCR‑licentie verifieert** in een Java‑applicatie. Je project heeft nu onbeperkte toegang tot Aspose’s hoog‑nauwkeurige OCR‑engine, klaar om afbeeldingen om te zetten in doorzoekbare tekst.
 
 ## Veelgestelde vragen
 
@@ -95,12 +101,12 @@ Door deze **Aspose OCR Java‑tutorial** te volgen, heb je geleerd hoe je de **A
 A: Plaats het `.lic`‑bestand in de `resources`‑map en laad het met `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
 **Q: Heeft de licentie‑verificatie invloed op de prestaties?**  
-A: Nee. De controle wordt één keer bij het opstarten uitgevoerd en heeft een verwaarloosbare impact op de OCR‑prestaties tijdens runtime.
+A: Nee. De controle wordt één keer bij opstarten uitgevoerd en heeft een verwaarloosbare impact op de runtime‑OCR‑prestaties.
 
 **Q: Kan ik programmatisch schakelen tussen meerdere licentiebestanden?**  
 A: Ja. Roep `License.setLicense(path)` aan met een ander pad wanneer je de actieve licentie wilt wijzigen.
 
-**Q: Is er een manier om de licentie‑verificatiestatus te loggen?**  
+**Q: Is er een manier om de status van de licentie‑verificatie te loggen?**  
 A: Je kunt elk logging‑framework (bijv. SLF4J) integreren en het booleaanse resultaat van `License.isValid()` loggen.
 
 **Q: Werkt de licentie in Docker‑containers?**  
@@ -108,7 +114,7 @@ A: Absoluut, zolang het licentiebestand toegankelijk is binnen de container en h
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 

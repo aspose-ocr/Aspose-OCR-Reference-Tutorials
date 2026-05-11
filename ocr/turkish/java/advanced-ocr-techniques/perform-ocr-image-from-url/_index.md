@@ -1,7 +1,7 @@
 ---
-date: 2025-12-18
-description: Java’da Aspose.OCR ile görüntüden metin çıkarmayı sorunsuz bir şekilde
-  sağlayın. Kolay entegrasyonlu yüksek doğruluklu OCR.
+date: 2026-02-20
+description: Aspose.OCR ile Java’da görüntüden metin çıkarımını sorunsuz hale getirin.
+  Kolay entegrasyon ve yüksek doğruluklu OCR.
 linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
 second_title: Aspose.OCR Java API
 title: Java için Aspose.OCR kullanarak URL'den görüntüdeki metni nasıl çıkarılır
@@ -13,33 +13,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# URL'den Görüntüden Metin Çıkarma Aspose.OCR for Java ile
+# URL'den Görüntüden Metin Çıkarma – Aspose.OCR for Java
 
-## giriiş
+## Introduction
 
-Bu adım‑adım **aspose ocr java tutorial**'da, web üzerinde barındırılan **görüntü dosyalarından metin çıkarma** yöntemini öğreneceksiniz. Rehberin sonunda, bir URL'den görüntüyü çeken, yüksek doğruluklu OCR çalıştıran ve tanınan metni faydalı JSON meta verileriyle birlikte döndüren çalışan bir Java kod parçacığına sahip olacaksınız. Bu yaklaşım, web‑tarayıcıları, belge‑işleme boru hatları veya uzaktaki resimlerden metin okuması gereken herhangi bir uygulama için mükemmeldir.
+Bu adım‑adım **aspose ocr java tutorial**'da, web üzerinde barındırılan **görüntü dosyalarından metin çıkarma** yöntemini öğreneceksiniz. Kılavuzun sonunda, bir URL'den görüntüyü çeken, yüksek doğruluklu OCR çalıştıran ve tanınan metni yanı sıra faydalı JSON meta verilerini döndüren çalışan bir Java kod parçacığına sahip olacaksınız. Bu yaklaşım, web tarayıcıları, belge işleme hatları veya **web resimlerinden metin çıkarma** ihtiyacı duyan herhangi bir uygulama için mükemmeldir.
 
-## Hızlı Cevaplar
+## Quick Answers
 - **Aspose.OCR, görüntü URL'lerinden metin çıkarabilir mi?** Evet – `RecognizePageFromUri` kullanın.  
 - **Birden fazla dili destekliyor mu?** Kesinlikle; ayarlarda dil paketlerini belirtebilirsiniz.  
 - **OCR yüksek doğruluklu mu?** Tanıma alanları doğru ayarlandığında ve otomatik eğim kapatıldığında, doğruluk sınıfının en iyileri arasındadır.  
 - **Başlamadan önce neye ihtiyacım var?** Java 8+, Aspose.OCR for Java ve üretim kullanımı için geçerli bir lisans.  
 - **Lisanslama nasıl yapılır?** Aşağıdaki *aspose ocr licensing* bölümüne bakın.
 
-## "Görüntüden metin çıkarma" nedir?
+## What is “extract text from image”?
 
-Görüntüden metin çıkarma, karakterlerin görsel temsillerini makine‑okunur dizelere dönüştürmek anlamına gelir. OCR (Optical Character Recognition) motorları piksel desenlerini inceler, karakter şekillerini tanır ve depolanabilir, aranabilir veya programatik olarak işlenebilir düz metin üretir.
+Görüntüden metin çıkarma, karakterlerin görsel temsillerini makine‑okunur dizeye dönüştürmek anlamına gelir. OCR (Optical Character Recognition) motorları piksel desenlerini analiz eder, karakter şekillerini tanır ve depolayabileceğiniz, arayabileceğiniz veya programatik olarak işleyebileceğiniz düz metin üretir.
 
-## Yüksek doğrulukta OCR için neden Aspose.OCR kullanılmalı?
+## Why use Aspose.OCR for high‑accuracy OCR?
 
-Aspose.OCR, geniş bir görüntü formatı yelpazesi, özel tanıma alanları ve dil paketleri sunan **yüksek doğruluklu OCR** motoruna sahiptir. Kütüphane tamamen yönetilen bir yapıya sahiptir, yerel bağımlılık gerektirmez ve Java projeleriyle sorunsuz entegrasyon sağlar—kurumsal‑düzeyde metin çıkarma için güvenilir bir seçimdir.
+Aspose.OCR, geniş bir görüntü formatı yelpazesi, özelleştirilebilir tanıma alanları ve dil paketleri sunan **yüksek doğruluklu OCR** motoru sağlar. Kütüphane tamamen yönetilen bir yapıya sahiptir, yerel bağımlılık gerektirmez ve Java projeleriyle sorunsuz entegrasyon sunar—kurumsal‑düzeyde metin çıkarma için güvenilir bir seçimdir.
 
-## Önkoşullar
+## When should you extract text from web images?
 
-1. **Java Geliştirme Ortamı** – Çalışan bir JDK (8 veya daha yeni) ve tercih ettiğiniz bir IDE veya kompakt araç.
-2. **Aspose.OCR Library** – Aspose.OCR for Java kütüphanesini indirip yükleyin. Kütüphaneyi ve ilgili belgeleri [Aspose.OCR web sitesinde](https://reference.aspose.com/ocr/java/) bulabilirsiniz.
+- **Otomatik veri çıkarma** kamu web sitelerinden veya intranetlerden.  
+- **Taralı belgelerin işlenmesi** bulut depolama hizmetlerinde saklanan.  
+- **Arama yapılabilirliği artırma** görüntü ağırlıklı içeriklerde aranabilir metin katmanları oluşturma.  
 
-## Paketleri İçe Aktar
+## Prerequisites
+
+1. **Java Geliştirme Ortamı** – Çalışan bir JDK (8 veya daha yeni) ve tercih ettiğiniz bir IDE veya derleme aracı.  
+2. **Aspose.OCR Kütüphanesi** – Aspose.OCR for Java kütüphanesini indirin ve kurun. Kütüphaneyi ve ilgili belgeleri [Aspose.OCR web sitesinde](https://reference.aspose.com/ocr/java/) bulabilirsiniz.  
+
+## Import Packages
 
 Java projenizde Aspose.OCR için gerekli paketleri içe aktarın:
 
@@ -58,7 +64,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Adım 1: API Örneği Oluşturma
+## Step 1: Create API Instance
 
 `AsposeOCR` sınıfının bir örneğini başlatın:
 
@@ -66,7 +72,7 @@ import java.util.ArrayList;
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Adım 2: Resim URL'sini Tanımlayın
+## Step 2: Define Image URL
 
 OCR gerçekleştirmek istediğiniz görüntünün URL'sini belirtin:
 
@@ -74,7 +80,7 @@ OCR gerçekleştirmek istediğiniz görüntünün URL'sini belirtin:
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## Adım 3: Tanıma Seçeneklerini Ayarlayın
+## Step 3: Set Recognition Options
 
 Otomatik eğimi devre dışı bırakma ve tanıma alanlarını tanımlama gibi ayarları yapılandırın:
 
@@ -88,7 +94,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Adım 4: OCR İşlemini Gerçekleştirin
+## Step 4: Perform OCR
 
 OCR tanıma sürecini çağırın:
 
@@ -101,7 +107,7 @@ try {
 }
 ```
 
-## Adım 5: Sonuçları Yazdır
+## Step 5: Print Results
 
 Tanıma sonuçlarını, çıkarılan metni, tanıma‑alanı metinlerini, JSON çıktısını ve olası uyarıları gösterin:
 
@@ -120,39 +126,43 @@ for (String warning : result.warnings) {
 
 Bu adımları, Aspose.OCR'ı Java uygulamanıza entegre etmek ve görüntülerden hassas bir şekilde metin çıkarmak için tekrarlayın.
 
-## Yaygın Sorunlar ve Çözümler
+## How to extract text from web images using Aspose.OCR?
 
-| Sayı | Neden Olur | Düzelt |
-|----------|-----|-----|
-| **Boş `reconitionText`** | Yanlış URL veya ağ zaman aşımı. | URL'nin erişilebilir olup olmadığını doğrulayın ve uygun istisna yönetimini ekleyin. |
-| **Çöp karakterler** | Döndürülmüş görüntülerde otomatik eğim açık bırakılmıştır. | `settings.setAutoSkew(false)` tutun veya doğru dönüşümün meta bozulmasına engel olun. |
-| **Eksik dil desteği** | Varsayılan dil paketi yalnızca İngilizce içerir. | `settings.setLanguage("fra")` gibi uygun ISO kodlarıyla ek dil konteynerini takın. |
-| **Lisans uygulanmadı** | Deneme sürümü sayfa sınırlaması yapılabilir. | `Lisans lisansı = yeni Lisans(); License.setLicense("Aspose.OCR.lic");` ile geçerli bir lisans uygulaması. |
+**Web kaynaklarından metin çıkarma** ihtiyacınız olduğunda, iş akışı aynı kalır: uzak görüntü URL'sini sağlayın, dil veya alan ayarlarını yapılandırın ve `RecognizePageFromUri` metodunu çağırın. Kütüphane indirme işlemini dahili olarak yönetir, böylece ek ağ kodu yazmanıza gerek kalmaz.
 
-## Sıkça Sorulan Sorular
+## Common Issues and Solutions
+
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Empty `recognitionText`** | Yanlış URL veya ağ zaman aşımı. | URL'nin erişilebilir olduğunu doğrulayın ve uygun istisna yönetimi ekleyin. |
+| **Garbage characters** | Döndürülmüş görüntülerde otomatik eğim açık bırakılmış. | `settings.setAutoSkew(false)` tutun veya doğru dönüşüm meta verisini sağlayın. |
+| **Missing language support** | Varsayılan dil paketi yalnızca İngilizce içeriyor. | `settings.setLanguage("fra")` gibi uygun ISO kodlarıyla ek dil paketleri yükleyin. |
+| **License not applied** | Deneme sürümü sayfa sınırlaması getirebilir. | `License license = new License(); license.setLicense("Aspose.OCR.lic");` ile geçerli bir lisans uygulayın. |
+
+## Frequently Asked Questions
 
 **S: Aspose.OCR, görüntülerden metin tanımada ne kadar doğru?**  
-C: Aspose.OCR, özellikle kesin tanıma alanları tanımlandığında ve otomatik eğim devre dışı bırakıldığında **yüksek doğruluklu OCR** sunar.
+C: Aspose.OCR, özellikle kesin tanıma alanları tanımladığınızda ve otomatik eğimi devre dışı bıraktığınızda **yüksek doğruluklu OCR** sunar.
 
 **S: Aspose.OCR birden fazla dili işleyebilir mi?**  
 C: Evet, motor birçok dili destekler; sadece `RecognitionSettings` içinde uygun dil paketini yüklemeniz yeterlidir.
 
-**S: Aspose.OCR'ı ticari projelerde kullanırken lisanslama ile ilgili hususlar nelerdir?**  
+**S: Aspose.OCR'ı ticari projelerde kullanırken lisanslama ile ilgili dikkat edilmesi gerekenler nelerdir?**  
 C: Kesinlikle. **aspose ocr licensing** detaylarını inceleyin ve [purchase.aspose.com](https://purchase.aspose.com/buy) adresinden ticari bir lisans edinin.
 
-**S: Aspose.OCR ile ilgili sorunlarda nasıl destek alabilirim?**  
+**S: Aspose.OCR ile ilgili sorunlar için nasıl destek alabilirim?**  
 C: Topluluk yardımı için [Aspose.OCR forumuna](https://forum.aspose.com/c/ocr/16) göz atın veya [Temporary License](https://purchase.aspose.com/temporary-license/) üzerinden geçici bir lisans alarak premium destek edinin.
 
 **S: Aspose.OCR for Java için ücretsiz deneme mevcut mu?**  
 C: Evet, tam özellik setini ücretsiz deneme olarak [releases.aspose.com](https://releases.aspose.com/) adresinden keşfedebilirsiniz.
 
-## Çözüm
+## Conclusion
 
-Aspose.OCR for Java'ı kullanmak, **güçlü, yüksek doğruluklu OCR** çözümü sağlar ve **görüntü URL'lerinden metin çıkarma** işlemini hızlı ve güvenilir bir şekilde gerçekleştirir. Yukarıdaki adımları izleyin, tanıma ayarlarını belge düzeninize göre ayarlayın ve herhangi bir Java‑tabanlı iş akışına güçlü metin‑çıkarma yeteneklerini entegre etmeye hazır olun.
+Aspose.OCR for Java'ı kullanmak, **güçlü, yüksek doğruluklu OCR** çözümü sağlar ve **görüntü URL'lerinden metin çıkarma** işlemini hızlı ve güvenilir bir şekilde gerçekleştirir. Yukarıdaki adımları izleyin, tanıma ayarlarını belge düzeninize göre ayarlayın; böylece herhangi bir Java‑tabanlı iş akışına güçlü metin‑çıkarma yeteneklerini entegre etmeye hazır olacaksınız.
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 

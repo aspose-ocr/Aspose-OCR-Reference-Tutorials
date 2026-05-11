@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Pelajari cara memverifikasi lisensi Aspose.OCR di Java. Tutorial Aspose
-  OCR Java langkah demi langkah ini menunjukkan cara mengatur dan memvalidasi lisensi
-  untuk fungsi OCR penuh.
+date: 2026-02-20
+description: Pelajari cara mengatur lisensi dan cara memverifikasi lisensi untuk Aspose.OCR
+  di Java. Tutorial langkah demi langkah ini menunjukkan cara mengatur dan memvalidasi
+  lisensi untuk fungsi OCR penuh.
 linktitle: How to Verify Aspose.OCR License in Java
 second_title: Aspose.OCR Java API
-title: Cara Memverifikasi Lisensi Aspose.OCR di Java
+title: Cara Mengatur Lisensi dan Memverifikasi Lisensi Aspose.OCR di Java
 url: /id/java/ocr-basics/set-license/
 weight: 10
 ---
@@ -14,22 +14,22 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Memverifikasi Lisensi Aspose.OCR di Java
+# Cara Mengatur Lisensi dan Memverifikasi Lisensi Aspose.OCR di Java
 
 ## Pendahuluan
 
-Optical Character Recognition (OCR) sangat penting untuk mengubah gambar menjadi teks yang dapat dicari dan diedit. **Aspose.OCR untuk Java** memberikan pengembang mesin yang kuat dan siap pakai, namun hanya berfungsi penuh setelah lisensi diverifikasi. Pada tutorial ini Anda akan belajar cara **memverifikasi lisensi Aspose OCR** secara programatis, langkah demi langkah, sehingga aplikasi Anda dapat mengekstrak teks secara andal tanpa batasan evaluasi.
+Optical Character Recognition (OCR) sangat penting untuk mengubah gambar menjadi teks yang dapat dicari dan diedit. **Aspose.OCR untuk Java** memberikan pengembang mesin yang kuat dan siap pakai, namun hanya berfungsi penuh setelah lisensi diverifikasi. Pada tutorial ini Anda akan mempelajari **cara mengatur lisensi** dan **cara memverifikasi lisensi** secara programatis, langkah demi langkah, sehingga aplikasi Anda dapat mengekstrak teks secara andal tanpa batasan evaluasi.
 
 ## Jawaban Cepat
-- **Apa arti “memverifikasi lisensi Aspose OCR”?** Ini memastikan bahwa file lisensi yang valid telah dimuat, membuka semua fitur.  
+- **Apa arti “memverifikasi lisensi Aspose OCR”?** Itu memastikan bahwa file lisensi yang valid telah dimuat, membuka semua fitur lengkap.  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara tersedia untuk pengujian; lisensi permanen diperlukan untuk produksi.  
 - **Versi Java mana yang didukung?** Aspose.OCR bekerja dengan Java 8 ke atas, termasuk Java 11+.  
-- **Di mana saya menempatkan file lisensi?** Di lokasi mana saja yang dapat diakses aplikasi Anda; cukup berikan path yang tepat di kode.  
-- **Bagaimana cara memeriksa apakah lisensi valid?** Gunakan `License.isValid()` – mengembalikan `true` ketika lisensi berhasil dimuat.
+- **Di mana saya menempatkan file lisensi?** Di lokasi mana pun yang dapat diakses oleh aplikasi Anda; cukup berikan path yang benar dalam kode.  
+- **Bagaimana cara memeriksa apakah lisensi valid?** Gunakan `License.isValid()` – ia mengembalikan `true` ketika lisensi berhasil dimuat.
 
 ## Apa itu langkah “memverifikasi lisensi Aspose OCR”?
 
-Memverifikasi lisensi memberi tahu Aspose.OCR bahwa Anda memiliki salinan yang sah, menghilangkan watermark dan batasan penggunaan. Proses verifikasi hanya memerlukan dua baris kode: mengatur path file lisensi dan kemudian memeriksa keabsahannya.
+Memverifikasi lisensi memberi tahu Aspose.OCR bahwa Anda memiliki salinan yang sah, menghilangkan watermark dan batasan penggunaan. Proses verifikasi hanyalah pemanggilan kode dua baris sederhana: mengatur path file lisensi lalu menanyakan keabsahannya.
 
 ## Mengapa menggunakan tutorial Aspose OCR Java ini?
 
@@ -47,7 +47,7 @@ Sebelum memulai, pastikan Anda memiliki:
 
 ## Impor Paket
 
-Tambahkan pernyataan impor yang diperlukan ke kelas Java Anda agar dapat menggunakan API lisensi.
+Tambahkan pernyataan impor yang diperlukan ke kelas Java Anda agar dapat bekerja dengan API lisensi.
 
 ```java
 package com.aspose.ocr.examples.License;
@@ -55,7 +55,7 @@ package com.aspose.ocr.examples.License;
 import com.aspose.ocr.License;
 ```
 
-## Langkah 1: Mengatur Lisensi
+## Langkah 1: Cara Mengatur Lisensi
 
 Arahkan pustaka ke file `.lic` Anda. Ganti placeholder path dengan lokasi sebenarnya dari lisensi Anda.
 
@@ -65,9 +65,9 @@ String file = "Aspose.Total.lic"; //change the path to point to a valid license
 License.setLicense(file);
 ```
 
-## Langkah 2: Memverifikasi Lisensi
+## Langkah 2: Cara Memverifikasi Lisensi
 
-Setelah mengatur lisensi, pastikan lisensi telah dimuat dengan benar. Ini adalah operasi inti **memverifikasi lisensi Aspose OCR**.
+Setelah mengatur lisensi, pastikan bahwa lisensi tersebut telah dimuat dengan benar. Inilah operasi inti **memverifikasi lisensi Aspose OCR**.
 
 ```java
 //Check license
@@ -75,40 +75,44 @@ boolean resLicense = License.isValid();
 System.out.println("License is set: " + resLicense);
 ```
 
-Jika konsol mencetak `License is set: true`, Anda siap menggunakan semua fitur OCR.
+Jika konsol mencetak `License is set: true`, Anda siap menggunakan semua fitur OCR penuh.
 
 ## Masalah Umum & Pemecahan Masalah
 
-| Gejala | Penyebab Kemungkinan | Perbaikan |
-|--------|----------------------|-----------|
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|----------------------|--------|
 | `License.isValid()` mengembalikan `false` | Path file salah atau file lisensi rusak | Periksa kembali path, pastikan file tidak diubah, dan aplikasi memiliki izin baca. |
-| RuntimeException tentang library native yang hilang | Binary native Aspose.OCR tidak ada | Pastikan folder `lib` dari distribusi Aspose.OCR ada di `java.library.path` Anda. |
-| Lisensi berfungsi di IDE tetapi tidak di JAR yang dideploy | File lisensi tidak termasuk dalam JAR | Letakkan lisensi di lokasi eksternal JAR dan referensikan path absolut, atau sematkan sebagai resource dan muat lewat `getResourceAsStream`. |
+| RuntimeException tentang pustaka native yang hilang | Biner native Aspose.OCR tidak ada | Pastikan folder `lib` dari distribusi Aspose.OCR ada di `java.library.path` Anda. |
+| Lisensi berfungsi di IDE tetapi tidak di JAR yang dideploy | File lisensi tidak termasuk dalam JAR | Tempatkan lisensi di lokasi eksternal JAR dan referensikan path absolut, atau sematkan sebagai resource dan muat lewat `getResourceAsStream`. |
+
+## Mengapa Ini Penting
+
+Mengatur dan memverifikasi lisensi di awal siklus hidup aplikasi mencegah munculnya watermark atau pembatasan fitur yang tidak terduga selama produksi. Hal ini juga memudahkan otomatisasi pipeline deployment—setelah path lisensi dikonfigurasi, mesin OCR beroperasi tanpa intervensi manual.
 
 ## Kesimpulan
 
-Dengan mengikuti **tutorial Aspose OCR Java** ini, Anda telah belajar cara mengatur dan **memverifikasi lisensi Aspose OCR** dalam aplikasi Java. Proyek Anda kini memiliki akses tak terbatas ke mesin OCR berakurat tinggi dari Aspose, siap mengubah gambar menjadi teks yang dapat dicari.
+Dengan mengikuti **tutorial Aspose OCR Java** ini, Anda telah belajar cara **mengatur lisensi** dan **memverifikasi lisensi Aspose OCR** dalam aplikasi Java. Proyek Anda kini memiliki akses tak terbatas ke mesin OCR berakurasi tinggi dari Aspose, siap mengubah gambar menjadi teks yang dapat dicari.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Cara terbaik menyimpan file lisensi dalam aplikasi Spring Boot?**  
+**T: Apa cara terbaik menyimpan file lisensi dalam aplikasi Spring Boot?**  
 J: Letakkan file `.lic` di folder `resources` dan muat dengan `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
-**T: Apakah verifikasi lisensi memengaruhi performa?**  
-J: Tidak. Pemeriksaan dilakukan sekali saat startup dan memiliki dampak yang dapat diabaikan pada performa OCR runtime.
+**T: Apakah verifikasi lisensi memengaruhi kinerja?**  
+J: Tidak. Pemeriksaan dilakukan sekali saat startup dan memiliki dampak yang dapat diabaikan pada kinerja OCR saat runtime.
 
 **T: Bisakah saya beralih secara programatis antara beberapa file lisensi?**  
-J: Ya. Panggil `License.setLicense(path)` dengan path yang berbeda kapanpun Anda perlu mengubah lisensi aktif.
+J: Ya. Panggil `License.setLicense(path)` dengan path yang berbeda kapanpun Anda perlu mengubah lisensi yang aktif.
 
-**T: Ada cara untuk mencatat status verifikasi lisensi?**  
-J: Anda dapat mengintegrasikan framework logging apa pun (misalnya SLF4J) dan mencatat nilai boolean yang dikembalikan oleh `License.isValid()`.
+**T: Apakah ada cara untuk mencatat status verifikasi lisensi?**  
+J: Anda dapat mengintegrasikan kerangka logging apa pun (misalnya, SLF4J) dan mencatat nilai boolean yang dikembalikan oleh `License.isValid()`.
 
-**T: Apakah lisensi akan berfungsi di dalam kontainer Docker?**  
-J: Tentu, selama file lisensi dapat diakses di dalam kontainer dan path yang tepat diberikan.
+**T: Apakah lisensi akan berfungsi di kontainer Docker?**  
+J: Tentu saja, selama file lisensi dapat diakses di dalam kontainer dan path yang benar disediakan.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-10  
+**Terakhir Diperbarui:** 2026-02-20  
 **Diuji Dengan:** Aspose.OCR 24.11 untuk Java  
 **Penulis:** Aspose  
 

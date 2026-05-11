@@ -1,11 +1,11 @@
 ---
-date: 2025-12-10
-description: Lär dig hur du verifierar Aspose.OCR-licensen i Java. Denna steg‑för‑steg
-  Aspose OCR Java‑handledning visar hur du ställer in och validerar licensen för full
-  OCR‑funktionalitet.
+date: 2026-02-20
+description: Lär dig hur du ställer in licensen och hur du verifierar licensen för
+  Aspose.OCR i Java. Denna steg‑för‑steg‑handledning visar dig hur du sätter och validerar
+  licensen för full OCR‑funktionalitet.
 linktitle: How to Verify Aspose.OCR License in Java
 second_title: Aspose.OCR Java API
-title: Hur man verifierar Aspose.OCR-licens i Java
+title: Hur man anger licens och verifierar Aspose.OCR-licens i Java
 url: /sv/java/ocr-basics/set-license/
 weight: 10
 ---
@@ -14,11 +14,11 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Så verifierar du Aspose.OCR-licens i Java
+# Hur man anger licens och verifierar Aspose.OCR-licens i Java
 
 ## Introduktion
 
-Optisk teckenigenkänning (OCR) är avgörande för att omvandla bilder till sökbar, redigerbar text. **Aspose.OCR for Java** ger utvecklare en kraftfull, färdig‑att‑använda motor, men den fungerar bara med full kapacitet efter att licensen har verifierats. I den här handledningen lär du dig hur du **verifierar Aspose OCR-licens** programatiskt, steg för steg, så att din applikation på ett pålitligt sätt kan extrahera text utan utvärderingsbegränsningar.
+Optisk teckenigenkänning (OCR) är avgörande för att omvandla bilder till sökbar, redigerbar text. **Aspose.OCR for Java** ger utvecklare en kraftfull, färdig‑att‑använda motor, men den fungerar bara med full kapacitet efter att licensen har verifierats. I den här handledningen lär du dig **hur man anger licens** och **hur man verifierar licens** programatiskt, steg för steg, så att din applikation på ett pålitligt sätt kan extrahera text utan begränsningar i utvärderingsläget.
 
 ## Snabba svar
 - **Vad betyder “verify Aspose OCR license”?** Det bekräftar att en giltig licensfil har laddats, vilket låser upp hela funktionsuppsättningen.  
@@ -29,13 +29,13 @@ Optisk teckenigenkänning (OCR) är avgörande för att omvandla bilder till sö
 
 ## Vad är steget “verify Aspose OCR license”?
 
-Att verifiera licensen talar om för Aspose.OCR att du äger en giltig kopia, vilket tar bort vattenstämplar och användningsbegränsningar. Verifieringsprocessen är ett enkelt två‑radigt kodanrop: ange licensfilens sökväg och fråga sedan efter dess giltighet.
+Att verifiera licensen talar om för Aspose.OCR att du äger en giltig kopia, vilket tar bort vattenstämplar och användningsbegränsningar. Verifieringsprocessen är ett enkelt två‑rads kodanrop: ange licensfilens sökväg och fråga sedan efter dess giltighet.
 
 ## Varför använda denna Aspose OCR Java-handledning?
 
-- **Full funktionalitet:** Inga provrestriktioner, fullt språkstöd och hög noggrannhet.  
+- **Full funktionalitet:** Inga provbegränsningar, fullt språkstöd och hög noggrannhet.  
 - **Enkel integration:** Endast några rader kod krävs.  
-- **Företagsklar:** Fungerar på Windows, Linux och i molnmiljöer.
+- **Företagsklar:** Fungerar på Windows, Linux och molnmiljöer.
 
 ## Förutsättningar
 
@@ -47,7 +47,7 @@ Innan du börjar, se till att du har:
 
 ## Importera paket
 
-Lägg till de nödvändiga import‑satserna i din Java‑klass så att du kan arbeta med licens‑API:et.
+Lägg till de nödvändiga import‑satserna i din Java‑klass så att du kan arbeta med licens‑API‑et.
 
 ```java
 package com.aspose.ocr.examples.License;
@@ -55,7 +55,7 @@ package com.aspose.ocr.examples.License;
 import com.aspose.ocr.License;
 ```
 
-## Steg 1: Ange licensen
+## Steg 1: Hur man anger licens
 
 Peka biblioteket på din `.lic`‑fil. Ersätt platshållarsökvägen med den faktiska platsen för din licens.
 
@@ -65,9 +65,9 @@ String file = "Aspose.Total.lic"; //change the path to point to a valid license
 License.setLicense(file);
 ```
 
-## Steg 2: Verifiera licensen
+## Steg 2: Hur man verifierar licens
 
-Efter att ha angett licensen, bekräfta att den har laddats korrekt. Detta är den centrala **verify Aspose OCR license**‑operationen.
+Efter att licensen har satts, bekräfta att den har laddats korrekt. Detta är den centrala **verify Aspose OCR license**‑operationen.
 
 ```java
 //Check license
@@ -75,27 +75,31 @@ boolean resLicense = License.isValid();
 System.out.println("License is set: " + resLicense);
 ```
 
-Om konsolen skriver ut `License is set: true` är du redo att använda hela OCR‑funktionerna.
+Om konsolen skriver ut `License is set: true`, är du redo att använda hela OCR‑funktionerna.
 
 ## Vanliga problem & felsökning
 
-| Symptom | Trolig orsak | Åtgärd |
+| Symtom | Trolig orsak | Åtgärd |
 |---------|--------------|-----|
-| `License.isValid()` returns `false` | Felaktig filsökväg eller korrupt licensfil | Dubbelkolla sökvägen, säkerställ att filen inte är ändrad och att applikationen har läsbehörighet. |
-| RuntimeException about missing native libraries | Saknade Aspose.OCR‑inhemska binärer | Se till att `lib`‑mappen från Aspose.OCR‑distributionen finns i din `java.library.path`. |
-| License works in IDE but not in deployed JAR | Licensfilen är inte paketerad med JAR‑filen | Placera licensen på en plats utanför JAR‑filen och referera den absoluta sökvägen, eller bädda in den som en resurs och ladda via `getResourceAsStream`. |
+| `License.isValid()` returns `false` | Felaktig filsökväg eller korrupt licensfil | Dubbelkolla sökvägen, säkerställ att filen inte har ändrats och att applikationen har läsrättigheter. |
+| RuntimeException om saknade native‑bibliotek | Saknade Aspose.OCR‑native‑binärer | Se till att `lib`‑mappen från Aspose.OCR‑distributionen finns i din `java.library.path`. |
+| Licensen fungerar i IDE men inte i distribuerad JAR | Licensfilen är inte paketerad med JAR‑filen | Placera licensen på en plats utanför JAR‑filen och referera den absoluta sökvägen, eller bädda in den som en resurs och ladda via `getResourceAsStream`. |
+
+## Varför detta är viktigt
+
+Att sätta och verifiera licensen tidigt i applikationens livscykel förhindrar oväntade vattenstämplar eller funktionsbegränsningar under produktionskörningar. Det gör också att det blir enkelt att automatisera distributionspipelines – när licenssökvägen är konfigurerad arbetar OCR‑motorn utan manuell inblandning.
 
 ## Slutsats
 
-Genom att följa denna **Aspose OCR Java-handledning** har du lärt dig hur du anger och **verifierar Aspose OCR-licens** i en Java‑applikation. Ditt projekt har nu obegränsad åtkomst till Asposes högprecisions‑OCR‑motor, redo att omvandla bilder till sökbar text.
+Genom att följa denna **Aspose OCR Java‑handledning** har du lärt dig hur man **anger licens** och **verifierar Aspose OCR‑licens** i en Java‑applikation. Ditt projekt har nu obegränsad åtkomst till Asposes högprecisions‑OCR‑motor, redo att omvandla bilder till sökbar text.
 
 ## Vanliga frågor
 
-**Q: Vad är det bästa sättet att lagra licensfilen i en Spring Boot-applikation?**  
+**Q: Vad är det bästa sättet att lagra licensfilen i en Spring Boot‑applikation?**  
 A: Placera `.lic`‑filen i `resources`‑mappen och ladda den med `License.setLicense(getClass().getResource("/Aspose.Total.lic").getPath());`.
 
 **Q: Påverkar licensverifieringen prestanda?**  
-A: Nej. Kontrollen utförs en gång vid start och har obetydlig inverkan på OCR‑prestanda under körning.
+A: Nej. Kontrollen utförs en gång vid uppstart och har försumbar inverkan på OCR‑prestanda under körning.
 
 **Q: Kan jag programatiskt växla mellan flera licensfiler?**  
 A: Ja. Anropa `License.setLicense(path)` med en annan sökväg när du behöver byta aktiv licens.
@@ -103,14 +107,14 @@ A: Ja. Anropa `License.setLicense(path)` med en annan sökväg när du behöver 
 **Q: Finns det ett sätt att logga licensverifieringsstatus?**  
 A: Du kan integrera vilket loggningsramverk som helst (t.ex. SLF4J) och logga det booleska resultatet som returneras av `License.isValid()`.
 
-**Q: Kommer licensen att fungera i Docker‑behållare?**  
-A: Absolut, så länge licensfilen är åtkomlig i containern och rätt sökväg anges.
+**Q: Kommer licensen att fungera i Docker‑containrar?**  
+A: Absolut, så länge licensfilen är åtkomlig inne i containern och rätt sökväg anges.
 
 ---
 
-**Senast uppdaterad:** 2025-12-10  
-**Testad med:** Aspose.OCR 24.11 för Java  
-**Författare:** Aspose
+**Senast uppdaterad:** 2026-02-20  
+**Testat med:** Aspose.OCR 24.11 for Java  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

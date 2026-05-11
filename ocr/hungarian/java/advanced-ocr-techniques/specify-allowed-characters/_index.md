@@ -1,11 +1,11 @@
 ---
-date: 2025-12-09
+date: 2026-02-20
 description: Tanulja meg, hogyan lehet szöveget kinyerni képekből az Aspose.OCR for
-  Java használatával, és megadni az engedélyezett karaktereket – egy teljes Aspose
-  OCR Java útmutató.
+  Java segítségével, beállítani az engedélyezett karaktereket, és ideiglenes licencet
+  alkalmazni – egy teljes Aspose OCR Java útmutató.
 linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Szöveg kinyerése képekből az Aspose.OCR segítségével – Engedélyezett karakterek
+title: Szöveg kinyerése képekből az Aspose.OCR-rel – Engedélyezett karakterek
 url: /hu/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
@@ -14,43 +14,58 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képek szövegének kinyerése az Aspose.OCR segítségével – Engedélyezett karakterek
+# Kép szövegének kinyerése az Aspose.OCR segítségével – Engedélyezett karakterek
 
 ## Bevezetés
 
-A képekből történő szövegkinyerés gyakori igény a modern alkalmazásokban – legyen szó számlák feldolgozásáról, nyugták beolvasásáról vagy nyomtatott dokumentumok digitalizálásáról. **Aspose.OCR for Java** egyszerűvé teszi ezt a feladatot, magas pontosságú felismerést és rugalmas konfigurációs lehetőségeket kínál, például az engedélyezett karakterek megadását. Ebben az útmutatóban egy teljes **aspose ocr java tutorial**-t mutatunk be, amely lépésről‑lépésre bemutatja a könyvtár beállítását, az OCR futtatását és a karakterkészlet korlátozását az Ön igényei szerint.
+A képekből történő szövegkinyerés gyakori követelmény a modern alkalmazásokban – legyen szó számlák feldolgozásáról, nyugták beolvasásáról vagy nyomtatott dokumentumok digitalizálásáról. Ebben az útmutatóban végigvezetünk egy teljes **aspose ocr java tutorial**-on, amely megmutatja, hogyan **extract text from images** az Aspose.OCR for Java segítségével, hogyan állítható be az engedélyezett karakterek listája, és hogyan alkalmazható egy ideiglenes licenc, ha csak a könyvtárat teszteli.
 
 ## Gyors válaszok
-- **Mi a feladata az Aspose.OCR-nak?** Képekből szöveget nyer ki magas pontossággal, és támogatja az egyedi karakterkészleteket.  
-- **Szükségem van licencre?** Ideiglenes vagy állandó licenc szükséges a termelési használathoz.  
-- **Melyik JDK verzió támogatott?** A legújabb JDK kiadások teljesen kompatibilisek.  
-- **Korlátozhatom a felismert karaktereket?** Igen – használja az allowed‑characters API-t a kimenet korlátozásához.  
+- **Mi a feladata az Aspose.OCR-nak?** Szöveget nyer ki a képekből magas pontossággal, és támogatja az egyedi karakterkészleteket.  
+- **Szükségem van licencre?** Ideiglenes vagy állandó licenc szükséges a termelésben való használathoz.  
+- **Mely JDK verzió támogatott?** A legújabb JDK kiadások teljesen kompatibilisek.  
+- **Korlátozhatom a felismert karaktereket?** Igen – használja a `setAllowedCharacters` API-t a kimenet szűkítéséhez.  
 - **Mennyi időt vesz igénybe a beállítás?** Körülbelül 10‑15 perc egy alapvető megvalósításhoz.
 
-## Mi az a „szöveg kinyerése képekből”?
-A képekből történő szövegkinyerés a vizuális szöveg (például nyomtatott vagy kézírásos) géppel olvasható karakterláncokká alakításának folyamata. Ez lehetővé teszi az olyan további feladatokat, mint a keresés, indexelés vagy adat-elemzés.
+## Mi az a „szöveg kinyerése a képekből”?
+A szöveg kinyerése a képekből a vizuális szöveg (például nyomtatott vagy kézírásos) géppel olvasható karakterláncokká alakításának folyamata. Ez lehetővé teszi az olyan későbbi feladatokat, mint a keresés, indexelés vagy adatelemzés.
 
-## Miért használjuk az Aspose.OCR-t Java-hoz?
+## Miért használjuk az Aspose.OCR for Java-t?
 - **Magas pontosság** több nyelven és betűtípuson.  
-- **Egyszerű API**, amely bármely Java projekttel integrálható.  
+- **Egyszerű API**, amely bármely Java projektbe integrálható.  
 - **Testreszabható** karakterkészletek, nyelvi csomagok és képelőfeldolgozás.  
 - **Nincs külső függőség** – a könyvtár önálló.
 
 ## Előkövetelmények
 
-Mielőtt elkezdené, győződjön meg arról, hogy a következők rendelkezésre állnak:
+Mielőtt elkezdené, győződjön meg róla, hogy a következőkkel rendelkezik:
 
-### Java fejlesztői csomag (JDK)
+### Java Development Kit (JDK)
 
 Győződjön meg róla, hogy a legújabb Java Development Kit telepítve van a rendszerén. Letöltheti [innen](https://www.oracle.com/java/technologies/javase-downloads.html).
 
-### Aspose.OCR for Java könyvtár
+### Aspose.OCR for Java Library
 
-Töltse le és telepítse az Aspose.OCR for Java könyvtárat a [download link](https://releases.aspose.com/ocr/java/) segítségével.
+Töltse le és telepítse az Aspose.OCR for Java könyvtárat a [letöltési hivatkozásról](https://releases.aspose.com/ocr/java/).
 
-### Aspose.OCR licenc
+### Aspose.OCR License
 
-Az Aspose.OCR teljes potenciáljának kihasználásához szerezzen be érvényes licencet. Licencet kaphat [innen](https://purchase.aspose.com/buy), vagy egy [ideiglenes licencet](https://purchase.aspose.com/temporary-license/) próbaverzióra is igényelhet.
+Az Aspose.OCR teljes potenciáljának eléréséhez szerezzen be egy érvényes licencet. Szerezhet egyet [innen](https://purchase.aspose.com/buy), vagy tekintse meg a [temporary license](https://purchase.aspose.com/temporary-license/) lehetőséget egy próbaidőszakra.
+
+## Ideiglenes licenc alkalmazása
+
+A termék kiértékelésekor az ideiglenes licenc eltávolítja a kiértékelési vízjelet, és korlátozott időre teljes funkcionalitást biztosít. Hozza létre a licenc karakterláncot az Aspose portálon, majd adja át a `AsposeOCR` konstruktorának, ahogyan az alábbi kódrészletben látható. A termelési környezetben cserélje le az ideiglenes kulcsot a végleges licencére.
+
+## OCR képelőfeldolgozási tippek
+
+A jó képminőség jelentősen javítja a felismerési eredményeket. Az OCR motor meghívása előtt vegye figyelembe:
+
+- A kép átalakítása szürkeárnyalatossá.  
+- A kontraszt növelése a karakterek kiemeléséhez.  
+- A háttérzaj eltávolítása binarizációs szűrővel.  
+- Az alacsony felbontású képek átméretezése legalább 300 dpi-re.
+
+Ezek a lépések a **ocr image preprocessing** részei, és bármely standard Java képkönyvtárral elvégezhetők az Aspose.OCR meghívása előtt.
 
 ## Csomagok importálása
 
@@ -67,17 +82,17 @@ import java.io.IOException;
 
 ## Lépésről‑lépésre útmutató
 
-### 1. lépés: Dokumentumkönyvtár beállítása
+### 1. lépés: A dokumentum könyvtár beállítása
 
-Határozzon meg egy mappát, ahol az OCR‑feldolgozott eredményeket tárolja. Ez az útvonal később a kép fájl megtalálásához lesz használva.
+Határozzon meg egy mappát, ahol az OCR‑feldolgozott eredményeket tárolja. Ez az útvonal később a képfájl megtalálásához lesz használva.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### 2. lépés: Kép útvonalának megadása
+### 2. lépés: A kép útvonalának megadása
 
-Iránnyalja az API‑t a feldolgozni kívánt képre.
+Mutassa meg az API-nak a feldolgozni kívánt képet.
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
@@ -85,7 +100,7 @@ String imagePath = dataDir + "0001460985.Jpeg";
 
 ### 3. lépés: Aspose.OCR példány létrehozása
 
-Hozza létre az OCR motor példányát a licenckulcsával. A kulcs lehet ideiglenes vagy állandó licenc karakterlánc.
+Példányosítsa az OCR motort a licenckulccsal. A kulcs lehet ideiglenes vagy állandó licenc karakterlánc.
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
@@ -105,17 +120,17 @@ try {
 }
 ```
 
-> **Pro tip:** Ha a kimenetet egy meghatározott karakterkészletre (például csak számokra) szeretné korlátozni, használja a `setAllowedCharacters` metódust az `AsposeOCR` példányon a `RecognizeLine` hívása előtt. Így a motor figyelmen kívül hagyja az előre definiált halmazon kívüli karaktereket.
+> **Pro tip:** Ha korlátozni szeretné a kimenetet egy meghatározott karakterkészletre (például csak számjegyek), használja a `setAllowedCharacters` metódust a `AsposeOCR` példányon a `RecognizeLine` meghívása előtt. Ez biztosítja, hogy a motor figyelmen kívül hagyja a meghatározott halmazon kívüli karaktereket.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **Nincs kimenet vagy üres karakterlánc** | Helytelen képútvonal vagy nem támogatott képformátum | Ellenőrizze az `imagePath`‑t, és használjon támogatott formátumot (JPEG, PNG, BMP) |
-| **Felismerési hibák** | Alacsony felbontású kép vagy zajos háttér | Előfeldolgozza a képet (növelje a kontrasztot, binarizálja) OCR előtt |
-| **Licenc nem alkalmazva** | Hiányzó vagy érvénytelen licenckulcs | Győződjön meg róla, hogy a licenckulcs helyes, és a `AsposeOCR` konstruktorban van megadva |
+| **Nincs kimenet vagy üres karakterlánc** | Helytelen képútvonal vagy nem támogatott képformátum | `imagePath` ellenőrzése és támogatott formátum (JPEG, PNG, BMP) használata |
+| **Felismerési hibák** | Alacsony felbontású kép vagy zajos háttér | Előfeldolgozza a képet (kontraszt növelése, binarizálás) az OCR előtt |
+| **Licenc nincs alkalmazva** | Hiányzó vagy érvénytelen licenckulcs | Győződjön meg róla, hogy a licenc karakterlánc helyes és a `AsposeOCR` konstruktorban van megadva |
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
 **K: Hogyan szerezhetek ideiglenes licencet az Aspose.OCR-hez?**  
 V: Látogassa meg a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalt, hogy próbaverzió licencet kérjen.
@@ -123,8 +138,8 @@ V: Látogassa meg a [temporary license page](https://purchase.aspose.com/tempora
 **K: Hol találok támogatást az Aspose.OCR-hez?**  
 V: Csatlakozzon a közösséghez a [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) oldalon segítségért és megbeszélésekért.
 
-**K: Megadhatom az engedélyezett karaktereket az Aspose.OCR-ben?**  
-V: Igen, a `setAllowedCharacters` API‑val testreszabhatja a karakterkészletet. Tekintse meg a hivatalos dokumentációt a részletekért.
+**K: Megadhatok engedélyezett karaktereket az Aspose.OCR-ben?**  
+V: Igen, a `setAllowedCharacters` API-val testreszabhatja a karakterkészletet. Részletekért tekintse meg a hivatalos dokumentációt.
 
 **K: Az Aspose.OCR kompatibilis a legújabb JDK verziókkal?**  
 V: Teljesen – az Aspose.OCR rendszeresen frissül, hogy kompatibilis legyen a legújabb Java kiadásokkal.
@@ -134,13 +149,13 @@ V: Igen, a könyvtár támogatja a blokk, bekezdés és teljes oldal felismerés
 
 ## Összegzés
 
-Az **aspose ocr java tutorial** követésével most már működő megoldása van a **képek szövegének kinyerésére**, és szabályozhatja, hogy mely karakterek legyenek felismerve. Tekintse meg a teljes [documentation](https://reference.aspose.com/ocr/java/) oldalt, hogy felfedezze a fejlett funkciókat, például a többnyelvű támogatást, egyedi előfeldolgozást és kötegelt feldolgozást.
+Az **aspose ocr java tutorial** követésével most már működő megoldással rendelkezik a **extract text from images** feladatra, és szabályozhatja, hogy mely karakterek legyenek felismert. Fedezze fel a teljes [documentation](https://reference.aspose.com/ocr/java/) oldalt a fejlett funkciók, például a többnyelvű támogatás, egyedi előfeldolgozás és kötegelt feldolgozás megismeréséhez.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-02-20  
+**Tesztelve:** Aspose.OCR for Java 24.11  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
