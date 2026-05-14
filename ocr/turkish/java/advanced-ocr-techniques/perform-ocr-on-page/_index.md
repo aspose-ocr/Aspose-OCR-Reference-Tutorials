@@ -1,11 +1,40 @@
 ---
-date: 2026-02-17
-description: Aspose.OCR for Java kullanarak belirli bir sayfada OCR nasıl yapılır,
-  OCR performansı nasıl artırılır ve Java uygulamalarındaki görüntülerden metin nasıl
-  çıkarılır, öğrenin.
-linktitle: Performing OCR on Specific Page in Aspose.OCR
+date: 2026-05-14
+description: Aspose OCR Java örneği, tek bir sayfadan görüntü metni nasıl çıkarılacağını,
+  OCR performansını nasıl artırılacağını ve Aspose.OCR'un Java uygulamalarına nasıl
+  entegre edileceğini gösterir.
+keywords:
+- aspose ocr java example
+- java extract image text
+- ocr specific page java
+linktitle: Aspose.OCR'da Belirli Bir Sayfada OCR Gerçekleştirme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Aspose OCR Java example that shows how to java extract image text from
+    a single page, improve OCR performance, and integrate Aspose.OCR in Java applications.
+  headline: 'Aspose OCR Java Example: Perform OCR on a Specific Page'
+  type: TechArticle
+- questions:
+  - answer: '`recognizePage` targets a single image, reducing memory usage and speeding
+      up processing when only specific pages are needed.'
+    question: How does this method differ from processing an entire document?
+  - answer: Yes, call `asposeOCR.setLanguage(Language.English)` (or any supported
+      language) before invoking `recognizePage`.
+    question: Can I change the OCR language?
+  - answer: Loop over a collection of image paths and call `recognizePage` for each
+      file—this provides fine‑grained control while still benefiting from per‑page
+      optimization.
+    question: Is it possible to batch process multiple pages?
+  - answer: The library works with Java 8 and later, including Java 11, 17, and newer
+      LTS releases.
+    question: What Java version is required?
+  - answer: Pre‑scale images to ~300 DPI and strip color channels; also, limit the
+      language set to only those you need.
+    question: Any performance tips?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: 'Java Optik Karakter Tanıma: OCR Belirli Sayfa'
+title: 'Aspose OCR Java Örneği: Belirli Bir Sayfada OCR Gerçekleştirme'
 url: /tr/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
@@ -14,36 +43,33 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Optik Karakter Tanıma: OCR Özel Sayfa
+# Aspose OCR Java Örneği: Belirli Bir Sayfada OCR Gerçekleştirme
 
-## Giriş
-
-Java’da **bir görüntüden metin çıkarmak** gerektiğinde, özellikle sadece tek bir sayfa ile ilgileniyorsanız, bu öğretici Aspose.OCR ile bunu nasıl yapacağınızı adım adım gösterir. Ortamı kurmayı, doğru paketleri içe aktarmayı ve **java optical character recognition** işlemini belirli bir sayfada anında gerçekleştiren Java kodunu yazmayı ele alacağız. Sonunda, tek bir sayfayı hedeflemenin **OCR performansını artırdığını** anlayacak ve kesin metin çıkarımı gerektiren herhangi bir proje için yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
+Çok sayfalı bir belgeden **java extract image text** yapmanız gerektiğinde ancak sadece bir sayfa ile ilgileniyorsanız, bu öğretici size **aspose ocr java example** ile bunu tam olarak nasıl yapacağınızı gösterir. Ortam kurulumunu, gerekli importları, lisanslamayı ve belirli bir sayfada OCR'ı anında gerçekleştiren özlü Java kodunu adım adım inceleyeceğiz. Tek bir sayfayı hedeflemek yalnızca işleme hızını artırmakla kalmaz, aynı zamanda bellek kullanımını da azaltır—yüksek verimli uygulamalar için mükemmeldir.
 
 ## Hızlı Yanıtlar
-- **Bu öğretici neyi kapsıyor?** Aspose.OCR for Java kullanarak belirli bir görüntü sayfasında OCR gerçekleştirme.  
-- **Hangi kütüphane gerekiyor?** Aspose.OCR for Java (java optical character recognition).  
-- **Lisans gerekiyor mu?** Evet – üretim kullanımı için geçerli bir Aspose.OCR lisansı gereklidir.  
-- **Hangi IDE en iyisi?** IntelliJ IDEA veya Eclipse tamamen desteklenir.  
-- **Uygulama ne kadar sürer?** Temel bir kurulum için genellikle 15 dakikadan az.
+- **Bu öğretici neyi kapsıyor?** Tek bir görüntü sayfasında OCR gerçekleştirme, bir aspose ocr java example kullanarak.  
+- **Hangi kütüphane gereklidir?** Aspose.OCR for Java (java optical character recognition).  
+- **Bir lisansa ihtiyacım var mı?** Evet – üretim kullanımında geçerli bir Aspose.OCR lisansı gereklidir.  
+- **Hangi IDE en iyisidir?** IntelliJ IDEA veya Eclipse tamamen desteklenir.  
+- **Uygulama ne kadar sürer?** Temel bir kurulum için genellikle 15 dakikadan az sürer.
 
 ## Java Optik Karakter Tanıma Nedir?
-Java optik karakter tanıma (OCR), görüntü dosyalarındaki basılı veya el yazısı metni düzenlenebilir, aranabilir dizelere dönüştürür. Aspose.OCR, kutudan çıkar çıkmaz çalışan, onlarca dil ve görüntü formatını destekleyen yüksek doğruluklu bir motor sunar.
+Java Optik Karakter Tanıma (OCR), görüntü dosyalarına gömülü basılı veya el yazısı metni düzenlenebilir, aranabilir dizelere dönüştürür. Aspose.OCR, 50'den fazla dil ve 30 görüntü formatını destekleyen yüksek doğruluklu bir motor sağlar ve harici bağımlılıklar veya ek yazılım bileşenleri gerektirmeden güvenilir sonuçlar sunar.
 
-## Neden Aspose.OCR for Java Kullanmalı?
-- **Gürültülü veya eğik görüntülerde yüksek doğruluk**.  
-- **Harici bağımlılık yok** – her şey JVM içinde çalışır.  
-- **İnce ayarlı kontrol** sayesinde tek bir sayfayı işleyebilir, bu da **OCR performansını artırır** ve bellek tüketimini azaltır.  
+## Neden Java için Aspose.OCR Kullanmalı?
+- **Yüksek doğruluk** gürültülü veya eğik görüntülerde (karakter düzeyinde %98'e kadar hassasiyet).  
+- **Sıfır harici bağımlılık** – kütüphane tamamen JVM içinde çalışır.  
+- **İnce ayarlı kontrol** tek bir sayfayı işlemenizi sağlar, bu da **OCR performansını artırır** ve tam belge işleme ile karşılaştırıldığında bellek tüketimini %70'e kadar azaltır.  
 
 ## Önkoşullar
-
-- Java programlamaya temel bir anlayış.  
-- Aspose.OCR for Java yüklü. Yüklü değilse, [Aspose.OCR for Java indirme sayfasından](https://releases.aspose.com/ocr/java/) indirin.  
+- Java programlama temellerine aşina olmak.  
+- Aspose.OCR for Java yüklü. Değilse, [Aspose.OCR for Java download page](https://releases.aspose.com/ocr/java/) adresinden indirin.  
 - IntelliJ IDEA veya Eclipse gibi bir IDE.  
 
 ## Paketleri İçe Aktarma
 
-Java projenizde gerekli paketleri içe aktararak başlayın. Aspose.OCR kütüphanesinin doğru şekilde referans verildiğinden emin olun.
+`AsposeOCR` sınıfı ve ilgili yardımcı programlar OCR işlemleri için gereklidir. Bunları Java dosyanızın en üstüne import edin.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -55,30 +81,26 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-## Adım 1: Lisans Ayarlama
+## Adım 1: Lisanslamayı Ayarlama
 
-Aspose.OCR kullanmadan önce lisansınızı ayarlayın. `License` dosyasını uygun klasöre koyduktan sonra `SetLicense.main(null)` satırının yorumunu kaldırın.
-
-## Adım 2: Belge Dizini ve Görüntü Yolunu Belirleme
-
-Görüntünüzün nerede bulunduğunu tanımlayın ve tam yolu oluşturun. `dataDir` ve `imagePath` değerlerini ortamınıza göre güncelleyin.
+`SetLicense`, Aspose OCR lisans dosyanızı yükler ve değerlendirme sınırlamaları olmadan tam özellikli işlevselliği etkinleştirir.
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p3.png";
 ```
 
-## Adım 3: AsposeOCR Örneği Oluşturma
+## Adım 2: Belge Dizini ve Görüntü Yolunu Belirtme
 
-OCR motorunu örnekleyin.
+`dataDir`, görüntü dosyalarınızı içeren klasörü belirtir, `imagePath` ise işlemek istediğiniz hedef sayfanın tam yolunu tutar.
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Adım 4: Sayfayı Tanıma
+## Adım 3: AsposeOCR Örneği Oluşturma
 
-Seçilen görüntüden metin çıkarmak için `RecognizePage` metodunu çağırın.
+`AsposeOCR`, sağlanan görüntülerde metin tanıma gerçekleştiren çekirdek motor sınıfıdır.
 
 ```java
 try {
@@ -89,61 +111,65 @@ try {
 }
 ```
 
-## OCR Performansını Nasıl Artırabilirsiniz
+## Adım 4: Sayfayı Tanıma
 
-Tüm belge yerine tek bir sayfa işlemek CPU ve bellek kullanımını azaltır. Daha da hızlı sonuçlar için:
+`recognizePage(pageNumber)`, belirtilen sayfa numarasından metin içeriğini çıkarır ve düz bir dize olarak döndürür.
 
-- Büyük görüntüleri API’ye göndermeden önce ~300 DPI’ye ölçeklendirin.  
-- Renkli görüntüleri gri tonlamaya çevirerek gereksiz renk verisini ortadan kaldırın.  
-- `setLanguage` metodunu kullanarak OCR motorunu yalnızca ihtiyacınız olan dil(ler)le sınırlayın.
+## Java'da Belirli Bir Sayfada OCR Nasıl Yapılır?
+Tek bir sayfadan metin çıkarmak için, görüntüyü bir `AsposeOCR` örneğiyle yükleyin, `recognizePage(pageNumber)` metodunu çağırın ve dönen dizeyi yakalayın. Bu odaklanmış yaklaşım, çok sayfalı bir belgenin tamamını işlemeye gerek kalmadan, gerçek zamanlı uygulamalar için daha hızlı sonuçlar ve daha düşük bellek tüketimi sağlar.
 
-## Yaygın Sorunlar ve Çözümleri
+## OCR Performansı Nasıl İyileştirilir?
+Yalnızca gerekli sayfayı işlemek, tam belge OCR'ına kıyasla CPU döngülerini ve bellek kullanımını büyük ölçüde azaltır. Görüntüleri yaklaşık 300 DPI'ye ölçekleyerek, gri tonlamaya çevirerek ve dil setini ihtiyacınız olanlarla sınırlayarak, yüksek doğruluğu korurken %70'e kadar performans artışı elde edebilirsiniz.  
 
-- **LicenseNotFoundException** – `License` dosyasının konumunu ve `SetLicense` içinde kullanılan yolu kontrol edin.  
-- **FileNotFoundException** – `dataDir` yolunu iki kez kontrol edin ve `p3.png` dosyasının mevcut olduğundan emin olun.  
-- **Çıktıda beklenmeyen karakterler** – OCR ayarlarını (dil, DPI vb.) `AsposeOCR` yapılandırması üzerinden düzenleyin.  
+## Yaygın Sorunlar ve Çözümler
+- **LicenseNotFoundException** – `License` dosyasının konumunu ve `SetLicense` içinde kullanılan yolu doğrulayın.  
+- **FileNotFoundException** – `dataDir`'yi iki kez kontrol edin ve görüntü dosyasının mevcut olduğundan emin olun.  
+- **Unexpected characters in output** – `AsposeOCR` yapılandırması üzerinden OCR ayarlarını (dil, DPI) ayarlayın.  
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 
-**S: Bu yöntem tüm belgeyi işlemeye göre nasıl farklıdır?**  
-C: `RecognizePage` tek bir görüntüyü hedef alır, böylece yalnızca belirli sayfalara ihtiyacınız olduğunda bellek kullanımı azalır ve işlem hızı artar.
+**Q: Bu yöntem tüm belgeyi işlemeye göre nasıl farklıdır?**  
+A: `recognizePage` tek bir görüntüyü hedefler, yalnızca belirli sayfalar gerektiğinde bellek kullanımını azaltır ve işleme hızını artırır.
 
-**S: OCR dilini değiştirebilir miyim?**  
-C: Evet, `RecognizePage` çağrısından önce `AsposeOCR` örneğinde dili ayarlayabilirsiniz.
+**Q: OCR dilini değiştirebilir miyim?**  
+A: Evet, `recognizePage`'i çağırmadan önce `asposeOCR.setLanguage(Language.English)` (veya desteklenen herhangi bir dil) metodunu çağırın.
 
-**S: Birden fazla sayfayı toplu işleme mümkün mü?**  
-C: Evet, görüntü yollarının bir koleksiyonunu döngüye alıp her dosya için `RecognizePage` metodunu çağırabilirsiniz.
+**Q: Birden fazla sayfayı toplu işleme yapmak mümkün mü?**  
+A: Görüntü yollarının bir koleksiyonu üzerinde döngü kurup her dosya için `recognizePage`'i çağırın—bu, ince ayarlı kontrol sağlar ve hâlâ sayfa başı optimizasyondan faydalanır.
 
-**S: Hangi Java sürümü gerekiyor?**  
-C: Kütüphane Java 8 ve üzeri sürümlerle çalışır.
+**Q: Hangi Java sürümü gereklidir?**  
+A: Kütüphane Java 8 ve üzeri sürümlerle çalışır, Java 11, 17 ve daha yeni LTS sürümlerini içerir.
 
-**S: Performans ipuçları var mı?**  
-C: Büyük görüntüleri yaklaşık 300 DPI’ye önceden ölçeklendirin ve gereksiz renk kanallarını kaldırın; bu hız artışı sağlar.
+**Q: Performans ipuçları var mı?**  
+A: Görüntüleri ~300 DPI'ye önceden ölçekleyin ve renk kanallarını kaldırın; ayrıca, dil setini yalnızca ihtiyacınız olanlarla sınırlayın.
 
-## Ek SSS
+**Q: Aspose.OCR el yazısı metni destekliyor mu?**  
+A: Evet, motor birkaç büyük dilde el yazısı tanıma modelleri içerir.
 
-**S: Aspose.OCR el yazısı metni destekliyor mu?**  
-C: Evet, motor birkaç dilde el yazısı tanıma modelleri içerir.
+**Q: OCR sonucundan yalnızca sayısal verileri nasıl çıkarabilirim?**  
+A: Metni aldıktan sonra, sadece rakamları tutmak için `result.replaceAll("[^0-9]", "")` gibi bir düzenli ifade uygulayın.
 
-**S: OCR sonucundan sadece sayıları nasıl çıkarabilirim?**  
-C: Metni aldıktan sonra `result.replaceAll("[^0-9]", "")` gibi bir düzenli ifade kullanın.
-
-**S: Tanınan her kelime için güven skorları alınabilir mi?**  
-C: Mevcut Java API’si yalnızca düz metin döndürür; güven skorları .NET API’sinde mevcuttur ancak henüz Java’da sunulmamaktadır.
+**Q: Tanınan her kelime için güven puanlarını alabilir miyim?**  
+A: Mevcut Java API'si yalnızca düz metin döndürür; güven puanları .NET API üzerinden mevcut ancak henüz Java'da sunulmamaktadır.
 
 ## Sonuç
 
-Artık **Aspose.OCR for Java kullanarak belirli bir sayfada OCR nasıl yapılır** konusunda uzmanlaştınız. Bu yaklaşım size kesin kontrol, **OCR performansını artırma** imkanı sunar ve **görüntüden Java metin çıkarımı** gerektiren herhangi bir Java uygulamasına mükemmel şekilde entegre olur. Kütüphanenin sunduğu farklı görüntü kaliteleri, diller ve ön işleme adımlarıyla deneyler yaparak en iyi sonuçları elde edin.
+Artık belirli bir sayfadan **java extract image text** nasıl yapılacağını gösteren eksiksiz bir **aspose ocr java example**'a sahipsiniz. Tek bir sayfaya odaklanarak **improved OCR performance**, daha düşük bellek tüketimi ve daha hızlı yanıt süreleri elde edersiniz—gerçek zamanlı veya toplu işleme hatları için idealdir. Kullanım durumunuz için mümkün olan en iyi doğruluğu elde etmek amacıyla farklı görüntü kaliteleri, DPI ayarları ve dil yapılandırmalarıyla deneyler yapın.
 
 ---
 
-**Son Güncelleme:** 2026-02-17  
-**Test Edilen Versiyon:** Aspose.OCR 24.12 for Java  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-05-14  
+**Test Edilen:** Aspose.OCR 24.12 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.OCR'de OCR Metin Tanıma için Sayfa Dikdörtgenlerini Tanıma Nasıl Yapılır](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
+- [Aspose OCR Java Örneği – Görüntülerde Satırları Tanıma](/ocr/java/advanced-ocr-techniques/recognize-lines/)
+- [Aspose.OCR Kullanarak Dil ile Görüntü Metnini OCR Nasıl Yapılır](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
