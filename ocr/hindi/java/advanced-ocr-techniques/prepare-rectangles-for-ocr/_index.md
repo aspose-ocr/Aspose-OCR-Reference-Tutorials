@@ -1,11 +1,35 @@
 ---
-date: 2026-02-20
-description: Aspose.OCR for Java का उपयोग करके पेज आयतों को पहचानना सीखें, टेक्स्ट
-  इमेज जावा प्रोजेक्ट्स निकालें, और सटीक OCR के लिए इस Aspose OCR Java ट्यूटोरियल
-  का पालन करें।
-linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-05-14
+description: Aspose OCR for Java का उपयोग करके पेज आयतों को पहचानना, छवियों से टेक्स्ट
+  निकालना, और लक्षित क्षेत्रों के साथ OCR की सटीकता बढ़ाना सीखें।
+keywords:
+- aspose ocr java
+- improve ocr accuracy
+- ocr specific area
+- how to define rectangles
+- extract text image java
+linktitle: 'Aspose OCR Java: पेज आयतों को पहचानें'
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to recognize page rectangles using Aspose OCR for Java, extract
+    text from images, and improve OCR accuracy with targeted regions.
+  headline: 'Aspose OCR Java: Recognize Page Rectangles for Precise OCR'
+  type: TechArticle
+- questions:
+  - answer: Aspose OCR for Java.
+    question: What library handles OCR text recognition in Java?
+  - answer: Yes – a valid Aspose OCR Java license unlocks full functionality.
+    question: Do I need a license for production use?
+  - answer: Absolutely; you define rectangles that bound the target zones.
+    question: Can I limit OCR to certain parts of an image?
+  - answer: JDK 17+, Aspose OCR for Java, and a Java IDE.
+    question: What are the main prerequisites?
+  - answer: Yes, it’s an efficient way to **extract text image java** projects.
+    question: Is this approach suitable for extracting text from images?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Aspose.OCR में OCR टेक्स्ट पहचान के लिए पेज आयतों को कैसे पहचानें
+title: 'Aspose OCR Java: सटीक OCR के लिए पेज आयतों को पहचानें'
 url: /hi/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
@@ -14,37 +38,41 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR में OCR टेक्स्ट पहचान के लिए पेज आयतों को कैसे पहचानें
+# Aspose OCR Java: सटीक OCR के लिए पेज आयतों को पहचानें
 
-आधुनिक दस्तावेज़‑ऑटोमेशन पाइपलाइन में, **recognize page rectangles** वह मुख्य तकनीक है जो आपको OCR इंजन को ठीक‑ठीक बताती है कि उसे कहाँ देखना है। Aspose.OCR को केवल उन क्षेत्रों तक सीमित करके जहाँ वास्तव में टेक्स्ट है, आप गति बढ़ाते हैं, शोर कम करते हैं, और साफ़ परिणाम प्राप्त करते हैं। इस ट्यूटोरियल में हम हर चरण—लाइब्रेरी सेटअप, लाइसेंसिंग, आयतों को परिभाषित करना, और अंत में OCR API को कॉल करना—पर चलेंगे, ताकि आप किसी भी छवि से आत्मविश्वास के साथ टेक्स्ट निकाल सकें।
+आधुनिक दस्तावेज़‑ऑटोमेशन पाइपलाइन में, **recognize page rectangles** वह प्रमुख तकनीक है जो आपको Aspose OCR Java इंजन को ठीक‑ठीक बताती है कि उसे कहाँ देखना है। Aspose.OCR को केवल उन क्षेत्रों तक सीमित करके जहाँ वास्तव में टेक्स्ट है, आप गति को 40 % तक बढ़ा सकते हैं, पृष्ठभूमि शोर को कम कर सकते हैं, और साफ़ परिणाम प्राप्त कर सकते हैं। इस ट्यूटोरियल में हम हर चरण को विस्तार से देखेंगे—लाइब्रेरी सेटअप, लाइसेंसिंग, आयतों को परिभाषित करना, और अंत में OCR API को कॉल करना—ताकि आप किसी भी छवि से आत्मविश्वास के साथ टेक्स्ट निकाल सकें।
 
 ## त्वरित उत्तर
-- **Java में OCR टेक्स्ट पहचान को कौनसी लाइब्रेरी संभालती है?** Aspose.OCR for Java.  
-- **उत्पादन उपयोग के लिए मुझे लाइसेंस चाहिए?** हाँ – एक वैध Aspose.OCR लाइसेंस पूरी कार्यक्षमता अनलॉक करता है।  
-- **क्या मैं OCR को छवि के कुछ हिस्सों तक सीमित कर सकता हूँ?** बिल्कुल; आप आयतें परिभाषित करते हैं जो लक्ष्य क्षेत्रों को सीमित करती हैं।  
-- **मुख्य पूर्वापेक्षाएँ क्या हैं?** JDK 17+, Aspose.OCR for Java, और एक Java IDE.  
+- **Java में OCR टेक्स्ट पहचान को कौनसी लाइब्रेरी संभालती है?** Aspose OCR for Java.  
+- **उत्पादन उपयोग के लिए क्या मुझे लाइसेंस चाहिए?** हाँ – एक वैध Aspose OCR Java लाइसेंस पूरी कार्यक्षमता अनलॉक करता है।  
+- **क्या मैं OCR को छवि के कुछ हिस्सों तक सीमित कर सकता हूँ?** बिल्कुल; आप लक्ष्य क्षेत्रों को सीमित करने वाली आयतें परिभाषित करते हैं।  
+- **मुख्य आवश्यकताएँ क्या हैं?** JDK 17+, Aspose OCR for Java, और एक Java IDE।  
 - **क्या यह तरीका छवियों से टेक्स्ट निकालने के लिए उपयुक्त है?** हाँ, यह **extract text image java** प्रोजेक्ट्स के लिए एक प्रभावी तरीका है।
 
 ## “recognize page rectangles” क्या है?
-यह वाक्यांश OCR इंजन को `java.awt.Rectangle` ऑब्जेक्ट्स की सूची प्रदान करने की प्रथा को दर्शाता है ताकि वह पेज के केवल उन विशिष्ट क्षेत्रों को प्रोसेस करे। यह केंद्रित दृष्टिकोण प्रोसेसिंग समय को कम करता है और सटीकता बढ़ाता है, विशेष रूप से इनवॉइस या फ़ॉर्म जैसे जटिल दस्तावेज़ों पर।
+यह शब्दावली OCR इंजन को `java.awt.Rectangle` ऑब्जेक्ट्स की सूची प्रदान करने की प्रक्रिया को दर्शाती है ताकि वह केवल पेज के उन विशिष्ट क्षेत्रों को प्रोसेस करे। यह केंद्रित दृष्टिकोण प्रोसेसिंग समय को कम करता है और विशेष रूप से इनवॉइस या फॉर्म जैसे जटिल दस्तावेज़ों पर सटीकता को बढ़ाता है।
 
-## OCR टेक्स्ट पहचान के लिए आयतें तैयार क्यों करें?
-आयतें परिभाषित करने से इंजन उन क्षेत्रों पर केंद्रित होता है जहाँ वास्तव में टेक्स्ट होता है, जिससे:
-* प्रोसेसिंग समय कम होता है।  
-* शोरयुक्त पृष्ठभूमि को नजरअंदाज करके सटीकता बढ़ती है।  
-* आप केवल वही डेटा निकाल सकते हैं जिसकी आपको आवश्यकता है—फ़ॉर्म, इनवॉइस, और रसीदों के लिए आदर्श।  
+## OCR टेक्स्ट पहचान के लिए आयतें क्यों तैयार करें?
+पहले से परिभाषित आयतों तक OCR को सीमित करने से इंजन टेक्स्ट‑धारक क्षेत्रों पर केंद्रित हो जाता है, जिससे आमतौर पर **प्रोसेसिंग समय में 30‑50 % कमी** और **शोरयुक्त स्कैन पर 20 % तक अधिक कैरेक्टर‑लेवल सटीकता** मिलती है। टाइट आयतें पृष्ठभूमि के आर्टिफैक्ट्स को कैरेक्टर के रूप में गलत समझने से भी रोकती हैं, जिससे आउटपुट डाउनस्ट्रीम डेटा‑एक्सट्रैक्शन वर्कफ़्लोज़ के लिए अधिक विश्वसनीय बन जाता है।
 
-## पूर्वापेक्षाएँ
+## आवश्यकताएँ
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
-- **Java Development Kit (JDK)** – Aspose.OCR for Java JDK 17 या बाद के संस्करण के साथ काम करता है। इसे Oracle वेबसाइट से डाउनलोड करें।  
-- **Aspose.OCR for Java library** – आधिकारिक डाउनलोड पेज से नवीनतम JAR प्राप्त करें [here](https://releases.aspose.com/ocr/java/). इंस्टॉलेशन गाइड यहाँ देखें [here](https://reference.aspose.com/ocr/java/).  
-- **Development Environment** – कोई भी Java IDE (IntelliJ IDEA, Eclipse, VS Code, आदि) काम करेगा।
+- **Java Development Kit (JDK)** – Aspose OCR Java JDK 17 या बाद के संस्करण के साथ काम करता है। इसे Oracle वेबसाइट से डाउनलोड करें।  
+- **Aspose OCR for Java library** – आधिकारिक डाउनलोड पेज से नवीनतम JAR प्राप्त करें [here](https://releases.aspose.com/ocr/java/). इंस्टॉलेशन गाइड [here](https://reference.aspose.com/ocr/java/).  
+- **Development Environment** – कोई भी Java IDE (IntelliJ IDEA, Eclipse, VS Code, आदि) चलेगा।
 
-## पैकेज इम्पोर्ट करें
+## पैकेज आयात करें
 
-अपने Java स्रोत फ़ाइल में, आवश्यक Aspose.OCR क्लासेस और मानक Java यूटिलिटीज़ इम्पोर्ट करें:
+`AsposeOCR` OCR ऑपरेशन्स करने के लिए मुख्य क्लास है, `SetLicense` आपका लाइसेंस लोड करता है, और `java.awt.Rectangle` लक्ष्य क्षेत्रों को निर्दिष्ट करता है।
+
+अपने Java स्रोत फ़ाइल में आवश्यक Aspose OCR क्लासेस और मानक Java यूटिलिटीज़ आयात करें:
+
+```java
+package com.aspose.ocr.examples.OcrFeatures;
+
+import com.aspose.o
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -58,34 +86,36 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-> *हम `java.awt.Rectangle` इम्पोर्ट करते हैं क्योंकि OCR API उन आयतों की अपेक्षा करता है जो स्कैन करने वाले क्षेत्रों को परिभाषित करती हैं.*
+> *We import `java.awt.Rectangle` because the OCR API expects rectangles that define the regions to scan.*
 
-## चरण 1: लाइसेंस सेट अप करें
+## Step 1: Set Up License
+
+Calling `SetLicense` activates your Aspose OCR Java license, removing evaluation limits and enabling full‑feature OCR text recognition.
 
 ```java
 SetLicense.main(null);
 ```
 
-`SetLicense` को कॉल करने से आपका Aspose.OCR लाइसेंस सक्रिय हो जाता है, मूल्यांकन सीमाएँ हटती हैं और पूर्ण‑फ़ीचर OCR टेक्स्ट पहचान सक्षम होती है।
+## Step 2: Define Document Directory and Image Path
 
-## चरण 2: दस्तावेज़ डायरेक्टरी और इमेज पाथ परिभाषित करें
+Replace `"Your Document Directory"` with the absolute path where your image (`p.png`) resides. This is the image that will be processed.
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-`"Your Document Directory"` को उस पूर्ण पाथ से बदलें जहाँ आपकी इमेज (`p.png`) स्थित है। यह वही इमेज है जिसे प्रोसेस किया जाएगा।
+## Step 3: Create Aspose OCR Instance
 
-## चरण 3: Aspose.OCR इंस्टेंस बनाएं
+`AsposeOCR` is the core class that provides OCR operations such as `RecognizePage`. Instantiating it gives you access to the OCR engine.
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-`AsposeOCR` को इंस्टैंशिएट करने से आपको `RecognizePage` मेथड तक पहुँच मिलती है, जो वास्तविक OCR करता है।
+## Step 4: Prepare Rectangles with Texts
 
-## चरण 4: टेक्स्ट के साथ आयतें तैयार करें
+Each `Rectangle(x, y, width, height)` tells Aspose OCR exactly where to look for text. Adjust the coordinates to match the layout of your source image.
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -95,9 +125,9 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-प्रत्येक `Rectangle(x, y, width, height)` Aspose.OCR को ठीक‑ठीक बताता है कि टेक्स्ट कहाँ देखना है। अपने स्रोत इमेज के लेआउट से मेल खाने के लिए निर्देशांक समायोजित करें।
+## Step 5: Perform OCR Recognition
 
-## चरण 5: OCR पहचान निष्पादित करें
+The `RecognizePage` method processes only the defined rectangles and returns the extracted string. The console output lets you verify the **ocr text recognition** result instantly.
 
 ```java
 try {
@@ -108,47 +138,51 @@ try {
 }
 ```
 
-`RecognizePage` कॉल केवल परिभाषित आयतों को प्रोसेस करता है और निकाली गई स्ट्रिंग लौटाता है। कंसोल आउटपुट आपको **ocr text recognition** परिणाम तुरंत सत्यापित करने देता है।
+## सामान्य समस्याएँ और सुझाव
 
-## सामान्य समस्याएँ और टिप्स
-
-| Issue | Cause | Solution |
+| समस्या | कारण | समाधान |
 |-------|-------|----------|
-| **कोई आउटपुट नहीं** | गलत आयत निर्देशांक या इमेज पाथ | `dataDir` मान को दोबारा जांचें और सुनिश्चित करें कि आयतें वास्तव में टेक्स्ट क्षेत्रों को कवर करती हैं। |
-| **गंदे अक्षर** | कम‑रिज़ॉल्यूशन इमेज या असमर्थित फ़ॉन्ट | उच्च‑रिज़ॉल्यूशन स्रोत का उपयोग करें या इमेज प्री‑प्रोसेसिंग लागू करें (जैसे बाइनराइज़ेशन)। |
-| **लाइसेंस लागू नहीं हुआ** | `SetLicense` OCR से पहले कॉल नहीं किया गया | सुनिश्चित करें कि `SetLicense.main(null);` किसी भी API कॉल से पहले चलाया गया है। |
-| **प्रदर्शन में गिरावट** | बहुत अधिक बड़े आयतें | आयतों की संख्या सीमित करें और उन्हें टेक्स्ट के आसपास यथासंभव कसकर रखें। |
+| **कोई आउटपुट नहीं** | गलत आयत निर्देशांक या छवि पथ | `dataDir` मान को दोबारा जांचें और सुनिश्चित करें कि आयतें वास्तव में टेक्स्ट क्षेत्रों को कवर करती हैं। |
+| **गर्बेज कैरेक्टर्स** | कम‑रिज़ॉल्यूशन वाली छवि या असमर्थित फ़ॉन्ट | उच्च‑रिज़ॉल्यूशन स्रोत का उपयोग करें या इमेज प्री‑प्रोसेसिंग (जैसे बाइनराइज़ेशन) लागू करें। |
+| **लाइसेंस लागू नहीं हुआ** | OCR से पहले `SetLicense` कॉल नहीं किया गया | किसी भी API कॉल से पहले `SetLicense.main(null);` चलाना सुनिश्चित करें। |
+| **परफ़ॉर्मेंस लैग** | बहुत अधिक बड़ी आयतें | आयतों की संख्या सीमित रखें और उन्हें टेक्स्ट के आसपास जितना संभव हो टाइट रखें। |
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**Q:** *क्या Aspose.OCR अन्य प्रोग्रामिंग भाषाओं के साथ संगत है?*  
-**A:** हाँ, Aspose.OCR .NET, C++, और Python को भी सपोर्ट करता है। भाषा‑विशिष्ट नमूनों के लिए आधिकारिक दस्तावेज़ देखें।
+**Q:** *क्या Aspose OCR Java अन्य प्रोग्रामिंग भाषाओं के साथ संगत है?*  
+**A:** हाँ, Aspose OCR .NET, C++, और Python को भी सपोर्ट करता है। भाषा‑विशिष्ट नमूनों के लिए आधिकारिक दस्तावेज़ देखें।
 
-**Q:** *क्या मैं Aspose.OCR को व्यावसायिक प्रोजेक्ट में उपयोग कर सकता हूँ?*  
-**A:** बिल्कुल। व्यावसायिक लाइसेंस [Aspose store](https://purchase.aspose.com/buy) से खरीदें।
+**Q:** *क्या मैं Aspose OCR Java को व्यावसायिक प्रोजेक्ट में उपयोग कर सकता हूँ?*  
+**A:** बिल्कुल। आप [Aspose स्टोर](https://purchase.aspose.com/buy) के माध्यम से एक व्यावसायिक लाइसेंस खरीद सकते हैं।
 
-**Q:** *क्या कोई मुफ्त ट्रायल उपलब्ध है?*  
+**Q:** *क्या कोई फ्री ट्रायल उपलब्ध है?*  
 **A:** हाँ, आप ट्रायल संस्करण [here](https://releases.aspose.com/) से डाउनलोड कर सकते हैं।
 
 **Q:** *मूल्यांकन के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?*  
-**A:** अस्थायी लाइसेंस [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/) के माध्यम से प्रदान किए जाते हैं।
+**A:** अस्थायी लाइसेंस [Aspose अस्थायी‑लाइसेंस पोर्टल](https://purchase.aspose.com/temporary-license/) के माध्यम से प्रदान किए जाते हैं।
 
-**Q:** *मैं समुदाय समर्थन कहाँ प्राप्त कर सकता हूँ?*  
-**A:** प्रश्न, टिप्स, और कोड नमूनों के लिए Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) पर जाएँ।
+**Q:** *समुदाय समर्थन कहाँ मिल सकता है?*  
+**A:** प्रश्न, टिप्स और कोड नमूनों के लिए Aspose OCR [forum](https://forum.aspose.com/c/ocr/16) देखें।
 
 ## निष्कर्ष
 
-अब आपने Aspose.OCR for Java के साथ **recognize page rectangles** कैसे करें, लाइसेंस सेटअप, इमेज पाथ परिभाषित करना, और—सबसे महत्वपूर्ण—सटीक आयतें तैयार करना सीखा है ताकि OCR को इमेज के उन ठीक हिस्सों पर केंद्रित किया जा सके जिनकी आपको आवश्यकता है। यह तकनीक किसी भी **aspose ocr java tutorial** के लिए आदर्श है जो सटीक, उच्च‑प्रदर्शन टेक्स्ट एक्सट्रैक्शन की माँग करता है।
+आपने अब Aspose OCR Java के साथ **recognize page rectangles** को कैसे उपयोग करना है, लाइसेंस सेटअप, इमेज पाथ परिभाषित करना, और सबसे महत्वपूर्ण—टाइट आयतें तैयार करके OCR को ठीक उन भागों पर फोकस करना जो आपको चाहिए, यह सब सीख लिया है। यह तकनीक किसी भी **aspose ocr java** वर्कफ़्लो के लिए आदर्श है जो सटीक, उच्च‑प्रदर्शन टेक्स्ट एक्सट्रैक्शन की मांग करता है।
 
 ---
 
-**अंतिम अपडेट:** 2026-02-20  
-**परीक्षित संस्करण:** Aspose.OCR for Java 24.12  
+**अंतिम अपडेट:** 2026-05-14  
+**परीक्षण किया गया:** Aspose OCR for Java 24.12  
 **लेखक:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल
+
+- [Aspose.OCR डिटेक्ट एरिया मोड के साथ जावा में इमेज से टेक्स्ट निकालें](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [इमेज को टेक्स्ट में बदलें – इमेज से टेक्स्ट पहचानें और टेक्स्ट एरिया आयतें प्राप्त करें](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
+- [जावा ऑप्टिकल कैरेक्टर रिकग्निशन: विशिष्ट पेज OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

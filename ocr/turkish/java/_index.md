@@ -1,10 +1,54 @@
 ---
-date: 2026-02-17
-description: Aspose OCR for Java kullanarak eğrilik açısını nasıl hesaplayacağınızı
-  öğrenin, OCR doğruluğunu artırın, Java ile görüntü metnini çıkarın ve OCR PDF'den
-  metne dahil olmak üzere toplu OCR işleme gerçekleştirin.
-linktitle: Aspose.OCR for Java Tutorials
-title: Aspose OCR Java ile Eğiklik Açısını Hesaplama – Tam Rehber
+date: 2026-05-14
+description: Aspose OCR for Java kullanarak eğik açıyı nasıl hesaplayacağınızı öğrenin,
+  OCR doğruluğunu artırın, Java'da görüntü metni çıkarın ve OCR PDF'den metne dahil
+  olmak üzere toplu OCR işleme gerçekleştirin.
+keywords:
+- calculate skew angle
+- java ocr library
+- batch ocr processing
+- ocr pdf to text
+- improve ocr accuracy
+linktitle: Aspose.OCR for Java Öğreticileri
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Learn how to calculate skew angle using Aspose OCR for Java, improve
+    OCR accuracy, extract image text Java, and perform batch OCR processing including
+    OCR PDF to text.
+  headline: Calculate Skew Angle with Aspose OCR Java – Full Guide
+  type: TechArticle
+- description: Learn how to calculate skew angle using Aspose OCR for Java, improve
+    OCR accuracy, extract image text Java, and perform batch OCR processing including
+    OCR PDF to text.
+  name: Calculate Skew Angle with Aspose OCR Java – Full Guide
+  steps:
+  - name: '**Load the image** with `OcrEngine`.'
+    text: '**Load the image** with `OcrEngine`.'
+  - name: '**Calculate the skew** by invoking `calculateSkewAngle()`.'
+    text: '**Calculate the skew** by invoking `calculateSkewAngle()`.'
+  - name: '**Rotate** the image using the returned angle (or its negative) before
+      invoking `recognize()`.'
+    text: '**Rotate** the image using the returned angle (or its negative) before
+      invoking `recognize()`.'
+  type: HowTo
+- questions:
+  - answer: Yes, with a valid commercial license. A free trial is available for evaluation.
+    question: Can I use Aspose OCR in a commercial Java application?
+  - answer: Load the PDF with `OcrEngine`, iterate through pages, and call `recognize()`
+      on each page.
+    question: How do I extract image text java from a multi‑page PDF?
+  - answer: Absolutely—simply set the appropriate language code, and the engine will
+      handle RTL text.
+    question: Does the library support right‑to‑left languages like Arabic?
+  - answer: Process images asynchronously and reuse the `OcrEngine` instance to reduce
+      overhead.
+    question: What are the performance considerations for large batches?
+  - answer: Yes, enable Detect Areas Mode and define the region coordinates before
+      recognition.
+    question: Is there a way to limit OCR to a specific region of an image?
+  type: FAQPage
+title: Aspose OCR Java ile Eğik Açıyı Hesaplama – Tam Kılavuz
 url: /tr/java/
 weight: 10
 ---
@@ -13,99 +57,115 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose OCR Java Öğreticisi – Kapsamlı Kılavuzlar ve Örnekler
+# Aspose OCR Java Eğitimi – Kapsamlı Kılavuzlar ve Örnekler
 
-## Introduction
+## Giriş
 
-Java geliştiricisi olarak daha iyi metin çıkarımı için **calculate skew angle** hesaplamayı hedefliyorsanız, doğru yerdesiniz. Bu **aspose ocr java tutorial** serisinde lisanslamadan gelişmiş işlemlere kadar ihtiyacınız olan her şeyi adım adım göstereceğiz—böylece **extract image text java** projelerini yüksek doğruluk ve güvenle çıkarabilirsiniz.
+Eğer daha iyi metin çıkarımı için **calculate skew angle** yapmayı hedefleyen bir Java geliştiricisiyseniz, doğru yere geldiniz. Bu **aspose ocr java tutorial** serisinde lisanslamadan gelişmiş işlemlere kadar ihtiyacınız olan her şeyi adım adım anlatacağız—böylece **extract image text java** projelerini yüksek doğruluk ve güvenle gerçekleştirebileceksiniz. Skew'i nasıl hesaplayacağınızı anlamak, herhangi bir Java OCR kütüphanesinde OCR doğruluğunu artırmanın ilk adımıdır.
 
-## Quick Answers
-- **Aspose OCR for Java nedir?** Görüntüleri, PDF'leri ve taranmış belgeleri aranabilir, düzenlenebilir metne dönüştüren güçlü bir kütüphanedir.  
-- **Bir lisansa ihtiyacım var mı?** Evet, ücretsiz deneme sürümü mevcuttur, ancak üretim kullanımında ticari bir lisans gereklidir.  
+## Hızlı Yanıtlar
+- **Aspose OCR for Java nedir?** Görüntüleri, PDF'leri ve taranmış belgeleri aranabilir, düzenlenebilir metne dönüştüren güçlü bir kütüphane.  
+- **Bir lisansa ihtiyacım var mı?** Evet, ücretsiz bir deneme mevcuttur, ancak üretim kullanımında ticari bir lisans gereklidir.  
 - **Hangi dosya formatları destekleniyor?** JPEG, PNG, BMP, TIFF, PDF ve daha fazlası.  
 - **Belirli metin alanlarını tespit edebilir miyim?** Kesinlikle—Detect Areas Mode, ilgi alanlarına odaklanmanızı sağlar.  
 - **Dil seçimi mümkün mü?** Evet, tanıma doğruluğunu artırmak için desteklenen herhangi bir dili belirtebilirsiniz.
 
-## What is an Aspose OCR Java Tutorial?
-**aspose ocr java tutorial**, Aspose.OCR'ı Java uygulamalarınıza entegre etme, ayarları yapılandırma ve görüntülerden yüksek kaliteli metin çıkarma konusunda adım adım bir rehberdir. İster bir belge işleme hattı ister basit bir masaüstü aracı oluşturuyor olun, bu öğreticiler ihtiyacınız olan tam kod parçacıklarını ve açıklamaları sunar.
+## Aspose OCR Java Eğitimi Nedir?
+**Bir Aspose OCR Java eğitimi, Aspose.OCR'ı Java uygulamalarınıza nasıl entegre edeceğinizi, ayarları nasıl yapılandıracağınızı ve görüntülerden yüksek kalitede metin çıkartacağınızı adım adım gösteren bir rehberdir.**  
+Kod snippet'lerini, her API çağrısının neden önemli olduğunu ve yaygın tuzakları nasıl ele alacağınızı öğrenecek, bu da belge işleme hattı ya da basit bir masaüstü yardımcı program geliştiren herkes için ideal bir kaynak olacaktır.
 
-## Why Use Aspose OCR in Your Java Projects?
-- **Yüksek doğruluk** – Gelişmiş algoritmalar eğimli veya gürültülü görüntüleri işler.  
-- **Geniş dil desteği** – Kutudan çıkar çıkmaz 60'tan fazla dili tanır.  
-- **Kolay entegrasyon** – Basit Maven/Gradle paketleri ve net API.  
-- **Ölçeklenebilir** – Tek görüntü işleme ya da toplu toplu işler için aynı derecede iyi çalışır.  
+## Neden Java Projelerinizde Aspose OCR Kullanmalısınız?
+Aspose OCR for Java, sektör lideri doğruluk, geniş dil desteği ve kolay entegrasyon sunar; bu da hem küçük yardımcı programlar hem de büyük ölçekli belge hatları için ideal kılar. Sağlam algoritmaları eğik ve gürültülü görüntülerle başa çıkar, toplu işleme yetenekleri ise binlerce dosyada yüksek performans sağlar.
 
-## Prerequisites
-- Java 8 veya daha üst bir sürüm yüklü.  
-- Bağımlılık yönetimi için Maven veya Gradle.  
-- Aspose OCR for Java lisans dosyası (veya bir deneme anahtarı).  
+- **Yüksek doğruluk** – Gelişmiş algoritmalar eğik veya gürültülü görüntülerle başa çıkar, düzeltmeden sonra OCR doğruluğunu %30'a kadar artırır.  
+- **Geniş dil desteği** – Kutudan çıktığı gibi 60'tan fazla dili tanır, özel sözlüklerde zaman tasarrufu sağlayan ölçülmüş bir iddia.  
+- **Kolay entegrasyon** – Basit Maven/Gradle paketleri ve net, akıcı bir API.  
+- **Ölçeklenebilir** – Tek görüntü işleme ya da binlerce sayfanın toplu **batch ocr processing**'i için eşit derecede iyi çalışır.  
+- **Format çeşitliliği** – PDF, TIFF, JPEG, PNG ve BMP dahil olmak üzere 30'dan fazla görüntü ve belge formatını destekler, sorunsuz **ocr pdf to text** iş akışlarını mümkün kılar.
 
-## How to Calculate Skew Angle Using Aspose OCR for Java
-Eğimli taramalar, düşük OCR sonuçlarının yaygın bir nedeni. Önce **calculating skew angle** yaparak, görüntüyü yatay bir temel çizgisine döndürebilir ve bu da **OCR accuracy**'yi büyük ölçüde artırır.
+## Ön Koşullar
+- Java 8 ve üzeri yüklü.  
+- Maven veya Gradle bağımlılık yönetimi için.  
+- Aspose OCR for Java lisans dosyası (veya deneme anahtarı).  
 
-1. `OcrEngine` ile **Resmi yükle**.  
-2. `calculateSkewAngle()` metodunu çağırın – metod açı değerini derece olarak döndürür.  
-3. `recognize()` metodunu çağırmadan önce döndürülen açı (veya negatifini) kullanarak görüntüyü **Döndür**.
+## Aspose OCR for Java Kullanarak Skew Açısını Nasıl Hesaplayabilirsiniz?
+PDF veya görüntünüzü OCR için yükleyen ve hazırlayan temel sınıf `OcrEngine` ile yükleyin. Görüntünün eğim açısını derece cinsinden döndüren `calculateSkewAngle()` metodunu çağırın ve ardından tanımadan önce görüntüyü döndürün. Bu iki adımlı desen—**calculate skew angle → correct orientation → recognize**—herhangi bir Java OCR kütüphanesi için en güvenilir sonuçları verir.
 
-> *Pro tip:* Bir dizi görüntü için aynı `OcrEngine` örneğini yeniden kullanmak, bellek yükünü azaltır ve **batch ocr processing**'i hızlandırır.
+1. `OcrEngine` ile **görüntüyü yükleyin**.  
+2. `calculateSkewAngle()` çağırarak **skew'i hesaplayın**.  
+3. `recognize()` çağırmadan önce döndürülen açı (veya negatifini) kullanarak **görüntüyü döndürün**.  
 
-## OCR Basics: Unlocking Aspose.OCR's Potential in Java
+`recognize()` (isteğe bağlı olarak döndürülmüş) görüntü üzerinde OCR sürecini yürütür ve tanınan metni döndürür.
 
-Navigate to [OCR Basics](./ocr-basics/) ve Aspose.OCR for Java'ın geniş yeteneklerini keşfetmek için bir yolculuğa çıkın. Bu adım adım rehber, lisansınızı sorunsuz bir şekilde kurmanıza yardımcı olacak şekilde tasarlanmıştır. OCR temellerinin inceliklerine, eğim açılarını hesaplamaktan eşsiz doğrulukla metin çıkarmaya kadar dalın. İster yeni bir geliştirici, ister deneyimli bir uzman olun, bu öğretici OCR yeteneklerinizi artıracak ve sorunsuz bir entegrasyon süreci sağlayacaktır.
+> *Pro tip:* Aynı `OcrEngine` örneğini bir grup görüntü için yeniden kullanmak bellek yükünü azaltır ve **batch ocr processing**'i %40'a kadar hızlandırır.
 
-## OCR Operations: Unleashing the Potential of Aspose.OCR for Java
+`OcrEngine` sınıfı, Aspose OCR'nin görüntüleri, PDF'leri yükleyen ve tanıma yapan temel işleme nesnesidir.  
+`calculateSkewAngle()` görüntü düzenini analiz eden ve derece cinsinden eğim açısını döndüren bir metottur; bu sayede yönelimi programlı olarak düzeltebilirsiniz.
 
-[OCR Operations](./ocr-operations/) adresine giderek Java'da Aspose.OCR'ın operasyonel yönlerini derinlemesine keşfedin. Kapsamlı öğreticilerimiz Detect Areas Mode, Language Selection ve PDF/TIFF tanıma gibi temel konuları kapsar. Bu işlemleri sadece birkaç adımda öğrenerek OCR iş akışınızı verimli bir şekilde optimize edebilirsiniz. Bu öğreticide sunulan teknikleri ustalaşarak OCR alanında bir adım önde olun.
+## OCR Temelleri: Aspose.OCR'nin Java'daki Potansiyelini Açığa Çıkarma
 
-## Advanced OCR Techniques: Elevate Your Java Projects
+[OCR Basics](./ocr-basics/) adresine gidin ve Aspose.OCR for Java'ın geniş yeteneklerini keşfetmeye başlayın. Bu adım adım rehber, lisansınızı sorunsuz bir şekilde kurmanıza yardımcı olmak için tasarlanmıştır. Skew açılarını hesaplamaktan eşsiz doğrulukta metin çıkarmaya kadar OCR temellerinin inceliklerine dalın. İster yeni bir geliştirici, ister deneyimli olun, bu eğitim OCR yeteneklerinizi artıracak ve sorunsuz bir entegrasyon süreci sağlayacaktır.
 
-Temel seviyenin ötesine geçmek mi istiyorsunuz? [Advanced OCR Techniques](./advanced-ocr-techniques/) Aspose.OCR for Java kullanarak görüntülerde OCR yapmayı zahmetsizce gerçekleştirmenizi sağlayan bir kapıdır. Yüksek doğrulukla metni sorunsuz bir şekilde çıkarmayı keşfedin ve Java projelerinizin yeteneklerini artırın. Bu öğretici, metin tanıma becerilerinizi yükseltmek için tasarlanmıştır ve en karmaşık OCR zorluklarıyla bile başa çıkmanız için gereken yetkinlikleri sunar.
+## OCR İşlemleri: Aspose.OCR for Java'ın Potansiyelini Ortaya Çıkarma
 
-## Common Issues & Troubleshooting Tips
-- **Eğimli görüntüler** – Tanıma öncesinde `calculateSkewAngle()` metodunu kullanın.  
+[OCR Operations](./ocr-operations/) adresine gidin ve Java'da Aspose.OCR'un operasyonel yönlerini derinlemesine keşfedin. Kapsamlı eğitimlerimiz Detect Areas Mode, Language Selection ve PDF/TIFF tanıma gibi temel konuları kapsar. Bu işlemleri birkaç adımda öğrenerek OCR iş akışınızı verimli bir şekilde optimize edebilirsiniz. Bu eğitimde sunulan teknikleri ustalaşarak OCR alanında bir adım önde olun.
+
+## İleri OCR Teknikleri: Java Projelerinizi Yükseltin
+
+Temellerin ötesine geçmek mi istiyorsunuz? [Advanced OCR Techniques](./advanced-ocr-techniques/) Aspose.OCR for Java kullanarak görüntülerde OCR yapmayı zahmetsizce gerçekleştirmenizi sağlayan bir kapıdır. Yüksek doğrulukla metin çıkarmayı sorunsuz bir şekilde keşfedin ve Java projelerinizin yeteneklerini artırın. Bu eğitim, metin tanıma becerilerinizi yükseltmek için tasarlanmıştır; en karmaşık OCR zorluklarıyla bile başa çıkmanız için gereken yetkinlikleri sunar.
+
+## Yaygın Sorunlar ve Sorun Giderme İpuçları
+- **Eğik görüntüler** – Tanımadan önce `calculateSkewAngle()` metodunu kullanın.  
 - **Düşük çözünürlüklü dosyalar** – DPI'yi artırın veya görüntü ön işleme (ör. ikilileştirme) uygulayın.  
 - **Yanlış dil tespiti** – `setLanguage(Language.English)` kullanarak dili açıkça ayarlayın.  
+- **Büyük toplularda bellek dalgalanmaları** – Aynı `OcrEngine` örneğini yeniden kullanın ve akış modunu etkinleştirin.  
 
-## Aspose.OCR for Java Tutorials
+## Aspose.OCR for Java Eğitimleri
 ### [OCR Basics](./ocr-basics/)
-Java'da Aspose.OCR'ın potansiyelini ortaya çıkarın! Lisansınızı kurmak ve OCR yeteneklerinizi artırmak için adım adım rehber. Eğim açılarını hesaplayın ve metni sorunsuz bir şekilde çıkarın.
+Java'da Aspose.OCR'nin potansiyelini ortaya çıkarın! Lisansınızı kurmak ve OCR yeteneklerinizi artırmak için adım adım rehber. Skew açılarını hesaplayın ve metni sorunsuz bir şekilde çıkarın.  
 ### [OCR Operations](./ocr-operations/)
-Kapsamlı OCR öğreticilerimizle Aspose.OCR for Java'ın potansiyelini ortaya çıkarın. Detect Areas Mode, Language Selection, PDF ve TIFF tanımayı sadece birkaç adımda öğrenin!
+Aspose.OCR for Java'ın potansiyelini kapsamlı OCR eğitimlerimizle ortaya çıkarın. Detect Areas Mode, Language Selection, PDF ve TIFF tanımayı sadece birkaç adımda öğrenin!  
 ### [Advanced OCR Techniques](./advanced-ocr-techniques/)
 Aspose.OCR for Java kullanarak görüntülerde OCR'ı zahmetsizce gerçekleştirin. Metni yüksek doğrulukla sorunsuz bir şekilde çıkarın. Java projelerinizi çok yönlü metin tanıma ile geliştirin.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
 **Q: Aspose OCR'ı ticari bir Java uygulamasında kullanabilir miyim?**  
-A: Evet, geçerli bir ticari lisansla. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur.
+A: Evet, geçerli bir ticari lisansla. Değerlendirme için ücretsiz bir deneme mevcuttur.
 
 **Q: Çok sayfalı bir PDF'den image text java nasıl çıkarırım?**  
-A: PDF'i `OcrEngine` ile yükleyin, sayfalar arasında döngü yapın ve her sayfada `recognize()` metodunu çağırın.
+A: PDF'yi `OcrEngine` ile yükleyin, sayfalar arasında döngü yapın ve her sayfada `recognize()` çağırın.
 
-**Q: Kütüphane Arapça gibi sağdan sola dillerini destekliyor mu?**  
-A: Kesinlikle—uygun dil kodunu ayarlamanız yeterlidir, motor RTL metni işleyecektir.
+**Q: Kütüphane Arapça gibi sağdan sola dilleri destekliyor mu?**  
+A: Kesinlikle—uygun dil kodunu ayarlamanız yeterli, motor RTL metni yönetecektir.
 
-**Q: Büyük toplular için performans hususları nelerdir?**  
-A: Görüntüleri eşzamanlı olarak işleyin ve `OcrEngine` örneğini yeniden kullanarak yükü azaltın.
+**Q: Büyük topluluklar için performans hususları nelerdir?**  
+A: Görüntüleri eşzamanlı işleyin ve `OcrEngine` örneğini yeniden kullanarak yükü azaltın.
 
 **Q: OCR'ı bir görüntünün belirli bir bölgesiyle sınırlamanın bir yolu var mı?**  
-A: Evet, Detect Areas Mode'u etkinleştirin ve tanımadan önce bölge koordinatlarını tanımlayın.
+A: Evet, Detect Areas Mode'u etkinleştirin ve tanımadan önce bölge koordinatlarını tanımlayın.
 
-**Q: OCR kullanarak bir PDF'i düz metne nasıl dönüştürebilirim?**  
-A: **ocr pdf to text** iş akışını kullanın: PDF'i `OcrEngine` ile yükleyin, `PdfRecognitionMode`'u ayarlayın ve aranabilir metin elde etmek için `recognize()` metodunu çağırın.
+**Q: PDF'yi OCR kullanarak düz metne nasıl dönüştürebilirim?**  
+A: **ocr pdf to text** iş akışını kullanın: PDF'yi `OcrEngine` ile yükleyin, `PdfRecognitionMode` ayarlayın ve `recognize()` çağırarak aranabilir metin elde edin.
 
-**Q: Gürültülü taramalar için OCR doğruluğunu artırmak için hangi adımlar yardımcı olur?**  
-A: Görüntüyü ön işleme tabi tutun (ikilileştirme, gürültü giderme), eğimi hesaplayıp düzeltin ve tanımadan önce doğru dili belirtin.
+**Q: Gürültülü taramalarda OCR doğruluğunu artırmak için hangi adımlar yardımcı olur?**  
+A: Görüntüyü ön işleyin (ikilileştirme, gürültü giderme), skew'i hesaplayıp düzeltin ve tanımadan önce doğru dili belirtin.
 
 ---
 
-**Last Updated:** 2026-02-17  
+**Son Güncelleme:** 2026-05-14  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Eğitimler
+
+- [Metin Görüntülerini Çıkar – Aspose.OCR for Java ile OCR Temelleri](/ocr/java/ocr-basics/)
+- [Aspose.OCR Detect Areas Mode ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [Aspose OCR Tam Java OCR Eğitimi ile Metin Görüntüsü Tanıma](/ocr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

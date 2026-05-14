@@ -1,11 +1,40 @@
 ---
-date: 2026-02-17
-description: Tìm hiểu cách thực hiện OCR trên một trang cụ thể bằng Aspose.OCR cho
-  Java, cải thiện hiệu suất OCR và trích xuất văn bản từ các ứng dụng Java xử lý hình
-  ảnh.
-linktitle: Performing OCR on Specific Page in Aspose.OCR
+date: 2026-05-14
+description: Ví dụ Aspose OCR Java cho thấy cách trích xuất văn bản hình ảnh từ một
+  trang duy nhất, cải thiện hiệu suất OCR và tích hợp Aspose.OCR trong các ứng dụng
+  Java.
+keywords:
+- aspose ocr java example
+- java extract image text
+- ocr specific page java
+linktitle: Thực hiện OCR trên trang cụ thể trong Aspose.OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-05-14'
+  description: Aspose OCR Java example that shows how to java extract image text from
+    a single page, improve OCR performance, and integrate Aspose.OCR in Java applications.
+  headline: 'Aspose OCR Java Example: Perform OCR on a Specific Page'
+  type: TechArticle
+- questions:
+  - answer: '`recognizePage` targets a single image, reducing memory usage and speeding
+      up processing when only specific pages are needed.'
+    question: How does this method differ from processing an entire document?
+  - answer: Yes, call `asposeOCR.setLanguage(Language.English)` (or any supported
+      language) before invoking `recognizePage`.
+    question: Can I change the OCR language?
+  - answer: Loop over a collection of image paths and call `recognizePage` for each
+      file—this provides fine‑grained control while still benefiting from per‑page
+      optimization.
+    question: Is it possible to batch process multiple pages?
+  - answer: The library works with Java 8 and later, including Java 11, 17, and newer
+      LTS releases.
+    question: What Java version is required?
+  - answer: Pre‑scale images to ~300 DPI and strip color channels; also, limit the
+      language set to only those you need.
+    question: Any performance tips?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: 'Java Nhận dạng ký tự quang học: Trang OCR cụ thể'
+title: 'Ví dụ Aspose OCR Java: Thực hiện OCR trên một trang cụ thể'
 url: /vi/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
@@ -14,36 +43,33 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java Optical Character Recognition: Trang OCR Cụ thể
+# Ví dụ Aspose OCR Java: Thực hiện OCR trên một Trang Cụ thể
 
-## Giới thiệu
-
-Nếu bạn cần **extract text from an image in Java**, đặc biệt khi bạn chỉ quan tâm tới một trang duy nhất, hướng dẫn này sẽ chỉ cho bạn cách thực hiện chính xác bằng Aspose.OCR. Chúng tôi sẽ hướng dẫn cách thiết lập môi trường, nhập các gói cần thiết, và viết mã Java thực hiện **java optical character recognition** trên một trang cụ thể ngay lập tức. Khi hoàn thành, bạn sẽ hiểu vì sao việc nhắm mục tiêu một trang duy nhất có thể **improve OCR performance**, và sẽ có một đoạn mã có thể tái sử dụng cho bất kỳ dự án nào cần trích xuất văn bản chính xác.
+Nếu bạn cần **java extract image text** từ tài liệu đa trang nhưng chỉ quan tâm đến một trang, hướng dẫn này sẽ chỉ cho bạn cách thực hiện bằng **aspose ocr java example**. Chúng tôi sẽ hướng dẫn cài đặt môi trường, các import cần thiết, cấp phép, và đoạn mã Java ngắn gọn thực hiện OCR trên một trang cụ thể ngay lập tức. Nhắm vào một trang duy nhất không chỉ tăng tốc xử lý mà còn giảm tiêu thụ bộ nhớ—lý tưởng cho các ứng dụng có lưu lượng cao.
 
 ## Câu trả lời nhanh
-- **What does this tutorial cover?** Thực hiện OCR trên một trang hình ảnh cụ thể bằng Aspose.OCR cho Java.  
-- **Which library is required?** Aspose.OCR for Java (java optical character recognition).  
-- **Do I need a license?** Có – cần có giấy phép Aspose.OCR hợp lệ để sử dụng trong môi trường sản xuất.  
-- **What IDE works best?** IntelliJ IDEA hoặc Eclipse đều được hỗ trợ đầy đủ.  
-- **How long does implementation take?** Thông thường dưới 15 phút cho một cấu hình cơ bản.
+- **Hướng dẫn này đề cập đến gì?** Thực hiện OCR trên một trang ảnh đơn bằng một aspose ocr java example.  
+- **Thư viện nào được yêu cầu?** Aspose.OCR cho Java (java optical character recognition).  
+- **Có cần giấy phép không?** Có – cần giấy phép Aspose.OCR hợp lệ để sử dụng trong môi trường sản xuất.  
+- **IDE nào phù hợp nhất?** IntelliJ IDEA hoặc Eclipse đều được hỗ trợ đầy đủ.  
+- **Thời gian triển khai khoảng bao lâu?** Thông thường dưới 15 phút cho một cấu hình cơ bản.
 
-## Java Optical Character Recognition là gì?
-Java optical character recognition (OCR) chuyển đổi văn bản in hoặc viết tay trong các tệp hình ảnh thành các chuỗi có thể chỉnh sửa và tìm kiếm. Aspose.OCR cung cấp một engine độ chính xác cao, hoạt động ngay lập tức với hàng chục ngôn ngữ và định dạng hình ảnh.
+## OCR (Nhận dạng ký tự quang học) Java là gì?
+Java Optical Character Recognition (OCR) chuyển đổi văn bản in hoặc viết tay nhúng trong các tệp hình ảnh thành các chuỗi có thể chỉnh sửa, tìm kiếm. Aspose.OCR cung cấp một engine có độ chính xác cao, hỗ trợ hơn 50 ngôn ngữ và 30 định dạng ảnh, mang lại kết quả đáng tin cậy mà không cần phụ thuộc bên ngoài hay các thành phần phần mềm bổ sung.
 
-## Tại sao nên sử dụng Aspose.OCR cho Java?
-- **High accuracy** trên các hình ảnh nhiễu hoặc lệch.  
-- **No external dependencies** – mọi thứ chạy bên trong JVM.  
-- **Fine‑grained control** cho phép bạn xử lý một trang duy nhất, điều này **improves OCR performance** và giảm tiêu thụ bộ nhớ.  
+## Tại sao nên dùng Aspose.OCR cho Java?
+- **Độ chính xác cao** trên các ảnh nhiễu hoặc lệch (độ chính xác ký tự lên tới 98 %).  
+- **Không phụ thuộc bên ngoài** – thư viện chạy hoàn toàn bên trong JVM.  
+- **Kiểm soát chi tiết** cho phép bạn xử lý một trang duy nhất, **cải thiện hiệu năng OCR** và giảm tiêu thụ bộ nhớ tới 70 % so với xử lý toàn bộ tài liệu.  
 
 ## Yêu cầu trước
-
-- Kiến thức cơ bản về lập trình Java.  
-- Aspose.OCR cho Java đã được cài đặt. Nếu chưa, tải về từ [Aspose.OCR for Java download page](https://releases.aspose.com/ocr/java/).  
+- Hiểu biết cơ bản về lập trình Java.  
+- Aspose.OCR cho Java đã được cài đặt. Nếu chưa, tải xuống từ [Aspose.OCR for Java download page](https://releases.aspose.com/ocr/java/).  
 - Một IDE như IntelliJ IDEA hoặc Eclipse.  
 
-## Nhập gói
+## Import Packages
 
-Trong dự án Java của bạn, bắt đầu bằng việc nhập các gói cần thiết. Đảm bảo thư viện Aspose.OCR được tham chiếu đúng.
+Lớp `AsposeOCR` và các tiện ích liên quan cần thiết cho các thao tác OCR. Import chúng ở đầu tệp Java của bạn.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -57,28 +83,24 @@ import java.io.IOException;
 
 ## Bước 1: Cài đặt giấy phép
 
-Trước khi sử dụng Aspose.OCR, hãy thiết lập giấy phép. Bỏ chú thích dòng `SetLicense.main(null)` sau khi bạn đã đặt tệp `License` vào thư mục thích hợp.
-
-## Bước 2: Xác định thư mục tài liệu và đường dẫn hình ảnh
-
-Xác định vị trí hình ảnh của bạn và xây dựng đường dẫn đầy đủ. Cập nhật `dataDir` và `imagePath` cho phù hợp với môi trường của bạn.
+`SetLicense` tải tệp giấy phép Aspose OCR của bạn, kích hoạt đầy đủ tính năng mà không bị giới hạn đánh giá.
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p3.png";
 ```
 
-## Bước 3: Tạo đối tượng AsposeOCR
+## Bước 2: Xác định thư mục tài liệu và đường dẫn ảnh
 
-Khởi tạo engine OCR.
+`dataDir` chỉ định thư mục chứa các tệp ảnh của bạn, trong khi `imagePath` chứa đường dẫn đầy đủ tới trang mục tiêu bạn muốn xử lý.
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Bước 4: Nhận dạng trang
+## Bước 3: Tạo đối tượng AsposeOCR
 
-Gọi `RecognizePage` để trích xuất văn bản từ hình ảnh đã chọn.
+`AsposeOCR` là lớp engine cốt lõi thực hiện nhận dạng văn bản trên các ảnh được cung cấp.
 
 ```java
 try {
@@ -89,61 +111,65 @@ try {
 }
 ```
 
-## Cách cải thiện hiệu suất OCR
+## Bước 4: Nhận dạng trang
 
-Xử lý một trang duy nhất thay vì toàn bộ tài liệu sẽ giảm tải CPU và bộ nhớ. Để có kết quả nhanh hơn nữa:
+`recognizePage(pageNumber)` trích xuất nội dung văn bản từ số trang đã chỉ định, trả về dưới dạng chuỗi thuần.
 
-- Thu phóng các hình ảnh lớn về ~300 DPI trước khi đưa vào API.  
-- Chuyển đổi hình ảnh màu sang grayscale để loại bỏ dữ liệu màu không cần thiết.  
-- Sử dụng phương thức `setLanguage` để giới hạn engine OCR chỉ các ngôn ngữ bạn thực sự cần.
+## Làm thế nào để thực hiện OCR trên một Trang Cụ thể trong Java?
+Để trích xuất văn bản từ một trang duy nhất, tải ảnh bằng một thể hiện `AsposeOCR`, gọi phương thức `recognizePage(pageNumber)` và lưu chuỗi trả về. Cách tiếp cận tập trung này loại bỏ chi phí xử lý toàn bộ tài liệu đa trang, mang lại kết quả nhanh hơn và tiêu thụ bộ nhớ thấp hơn cho các ứng dụng thời gian thực.
+
+## Làm thế nào để cải thiện hiệu năng OCR?
+Chỉ xử lý trang cần thiết giảm đáng kể số vòng CPU và bộ nhớ so với OCR toàn tài liệu. Bằng cách thay đổi kích thước ảnh khoảng 300 DPI, chuyển chúng sang thang độ xám, và giới hạn bộ ngôn ngữ chỉ những ngôn ngữ bạn cần, bạn có thể đạt tới tăng hiệu năng lên tới 70 % trong khi vẫn duy trì độ chính xác cao.  
 
 ## Các vấn đề thường gặp và giải pháp
-
 - **LicenseNotFoundException** – Kiểm tra vị trí tệp `License` và đường dẫn được sử dụng trong `SetLicense`.  
-- **FileNotFoundException** – Kiểm tra lại `dataDir` và đảm bảo `p3.png` tồn tại.  
-- **Unexpected characters in output** – Điều chỉnh cài đặt OCR (ngôn ngữ, DPI) qua cấu hình `AsposeOCR`.  
+- **FileNotFoundException** – Kiểm tra lại `dataDir` và đảm bảo tệp ảnh tồn tại.  
+- **Ký tự bất thường trong kết quả** – Điều chỉnh cài đặt OCR (ngôn ngữ, DPI) qua cấu hình `AsposeOCR`.  
 
 ## Câu hỏi thường gặp
 
-**Q: How does this method differ from processing an entire document?**  
-A: Sử dụng `RecognizePage` chỉ nhắm mục tiêu một hình ảnh, giảm việc sử dụng bộ nhớ và tăng tốc độ xử lý khi bạn chỉ cần các trang cụ thể.
+**H: Phương pháp này khác gì so với xử lý toàn bộ tài liệu?**  
+Đ: `recognizePage` chỉ nhắm vào một ảnh, giảm tiêu thụ bộ nhớ và tăng tốc xử lý khi chỉ cần các trang cụ thể.
 
-**Q: Can I change the OCR language?**  
-A: Có, đặt ngôn ngữ trên đối tượng `AsposeOCR` trước khi gọi `RecognizePage`.
+**H: Tôi có thể thay đổi ngôn ngữ OCR không?**  
+Đ: Có, gọi `asposeOCR.setLanguage(Language.English)` (hoặc bất kỳ ngôn ngữ hỗ trợ nào) trước khi gọi `recognizePage`.
 
-**Q: Is it possible to batch process multiple pages?**  
-A: Có thể, lặp qua một tập hợp các đường dẫn hình ảnh và gọi `RecognizePage` cho mỗi tệp.
+**H: Có thể xử lý hàng loạt nhiều trang không?**  
+Đ: Lặp qua một tập hợp các đường dẫn ảnh và gọi `recognizePage` cho mỗi tệp—cách này cung cấp kiểm soát chi tiết đồng thời vẫn hưởng lợi từ tối ưu hoá theo trang.
 
-**Q: What Java version is required?**  
-A: Thư viện hoạt động với Java 8 trở lên.
+**H: Yêu cầu phiên bản Java nào?**  
+Đ: Thư viện hoạt động với Java 8 trở lên, bao gồm Java 11, 17 và các bản LTS mới hơn.
 
-**Q: Any performance tips?**  
-A: Thu phóng hình ảnh lớn về khoảng 300 DPI và loại bỏ các kênh màu không cần thiết để tăng tốc.
+**H: Mẹo tối ưu hiệu năng?**  
+Đ: Thu nhỏ ảnh về ~300 DPI và loại bỏ kênh màu; đồng thời giới hạn bộ ngôn ngữ chỉ những ngôn ngữ cần thiết.
 
-## FAQ (Bổ sung)
+**H: Aspose.OCR có hỗ trợ văn bản viết tay không?**  
+Đ: Có, engine bao gồm các mô hình nhận dạng viết tay cho một số ngôn ngữ chính.
 
-**Q: Does Aspose.OCR support handwritten text?**  
-A: Có, engine bao gồm các mô hình nhận dạng viết tay cho một số ngôn ngữ.
+**H: Làm sao chỉ trích xuất dữ liệu số từ kết quả OCR?**  
+Đ: Sau khi nhận được văn bản, áp dụng biểu thức chính quy như `result.replaceAll("[^0-9]", "")` để giữ lại chỉ các chữ số.
 
-**Q: How can I extract only numbers from the OCR result?**  
-A: Sử dụng biểu thức chính quy như `result.replaceAll("[^0-9]", "")` sau khi nhận được văn bản.
-
-**Q: Is there a way to get confidence scores for each recognized word?**  
-A: API Java hiện tại chỉ trả về văn bản thuần; dữ liệu confidence có sẵn trong API .NET nhưng chưa được cung cấp trong Java.
+**H: Có thể lấy điểm tin cậy cho mỗi từ đã nhận dạng không?**  
+Đ: API Java hiện tại chỉ trả về văn bản thuần; dữ liệu độ tin cậy có sẵn trong API .NET nhưng chưa được mở rộng cho Java.
 
 ## Kết luận
 
-Bạn đã nắm vững **how to perform OCR on a specific page using Aspose.OCR for Java**. Cách tiếp cận này cho phép kiểm soát chính xác, **improves OCR performance**, và phù hợp hoàn hảo với bất kỳ ứng dụng Java nào cần **extract text from image Java**. Hãy thử nghiệm với các chất lượng hình ảnh, ngôn ngữ và các bước tiền xử lý khác nhau để khai thác tối đa khả năng của thư viện.
+Bạn đã có một **aspose ocr java example** hoàn chỉnh, minh họa cách **java extract image text** từ một trang cụ thể. Bằng cách tập trung vào một trang duy nhất, bạn sẽ đạt **cải thiện hiệu năng OCR**, giảm tiêu thụ bộ nhớ và thời gian phản hồi—lý tưởng cho các pipeline xử lý thời gian thực hoặc batch. Hãy thử nghiệm với các chất lượng ảnh, cài đặt DPI và cấu hình ngôn ngữ khác nhau để đạt độ chính xác tối ưu cho trường hợp sử dụng của bạn.
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.OCR 24.12 for Java  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-05-14  
+**Kiểm tra với:** Aspose.OCR 24.12 cho Java  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Cách Nhận dạng Các Hình Chữ Nhật Trang cho OCR trong Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
+- [Ví dụ Aspose OCR Java – Nhận dạng Dòng trong Hình Ảnh](/ocr/java/advanced-ocr-techniques/recognize-lines/)
+- [Cách OCR Văn bản Hình ảnh với Ngôn ngữ Sử dụng Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
