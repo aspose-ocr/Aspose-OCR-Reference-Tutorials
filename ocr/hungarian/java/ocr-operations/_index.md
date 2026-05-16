@@ -79,10 +79,18 @@ Szabadítsd fel a képekből történő szövegkinyerés erejét az Aspose.OCR f
 Szabadítsd fel a képek pontos szövegkinyerését az Aspose.OCR for Java segítségével. Kövesd lépésről lépésre útmutatónkat a nyelvválasztással történő pontos OCR-hoz.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget PDF dokumentumokban. Növeld alkalmazásaidat pontossággal és sebességgel.
+### [Kereshető PDF létrehozása képből Java-val – Lépésről‑lépésre útmutató](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-val, lépésről lépésre útmutató.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
-Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
+Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyen ismerd fel a szöveget TIFF képekben.
 ### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban.
+### [PDF szöveg felismerése Aspose OCR-rel Java-ban – Teljes útmutató](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+Fedezd fel, hogyan ismerheted fel a PDF-ek szövegét Aspose OCR segítségével Java-ban.
+### [PNG képről szöveg felismerése Aspose OCR-rel – Teljes Java útmutató](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Fedezd fel, hogyan ismerheted fel a PNG képek szövegét az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [OCR futtatása képen Java-val – Thai szöveg kinyerése PNG-ből](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Fedezd fel, hogyan nyerheted ki a thai nyelvű szöveget PNG képekből az Aspose.OCR Java segítségével.
 
 ## Gyakran Ismételt Kérdések
 

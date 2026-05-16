@@ -80,6 +80,13 @@ weight: 21
 ปลดล็อกการจดจำข้อความที่ทรงพลังใน Java ด้วย Aspose.OCR Recognize ข้อความในภาพ TIFF อย่างไม่มีอุปสรรค ดาวน์โหลดเลยเพื่อประสบการณ์ OCR ที่ไร้รอยต่อ  
 ### [จดจำข้อความจากภาพด้วย Aspose OCR – คำแนะนำเต็มสำหรับ Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java  
+### [จดจำข้อความจาก PNG ด้วย Aspose OCR – คู่มือเต็มสำหรับ Java](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java อย่างแม่นยำและง่ายดาย  
+### [Create Searchable PDF from Image with Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
+### [จดจำข้อความ PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+### [รัน OCR บนภาพด้วย Java – ดึงข้อความภาษาไทยจาก PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อสกัดข้อความภาษาไทยจากไฟล์ PNG อย่างแม่นยำและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
