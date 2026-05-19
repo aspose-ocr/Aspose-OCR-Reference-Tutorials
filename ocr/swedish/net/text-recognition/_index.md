@@ -11,7 +11,7 @@ url: /sv/net/text-recognition/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textigenkänning
+# Textigennning
 
 ## Introduktion
 
@@ -55,6 +55,16 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Känn igen hindi-text i C# – Komplett Aspose OCR-guide](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Lär dig att känna igen hindi-text i C# med Aspose OCR i en komplett steg-för-steg-guide.
+### [Känn igen text från bild i C# – Komplett Aspose OCR-guide](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Lär dig att känna igen text från bilder i C# med Aspose OCR i en komplett steg-för-steg-guide.
+### [Hur du skapar ePub från bilder i C# – Steg-för-steg-guide](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Lär dig att skapa ePub-filer från bilder i C# med en detaljerad steg-för-steg-guide.
+### [Extrahera text från PNG i C# – Fullständig OCR-guide](./extract-text-from-png-in-c-full-ocr-guide/)
+Lär dig att extrahera text från PNG-bilder i C# med Aspose OCR i en komplett steg-för-steg-guide.
+### [Hur man använder OCR i C# – Extrahera text från bilder offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Lär dig hur du offline extraherar text från bilder i C# med Aspose.OCR i en steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

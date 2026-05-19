@@ -74,6 +74,12 @@ Prozkoumejte Aspose.OCR pro .NET. Zvyšte přesnost OCR pomocí předzpracovatel
 Zvyšte přesnost OCR s Aspose.OCR pro .NET. Opravujte pravopis, přizpůsobujte slovníky a dosáhněte bezchybného rozpoznávání textu s lehkostí.
 ### [Uložit vícestránkový výsledek jako dokument v OCR rozpoznávání obrázků](./save-multipage-result-as-document/)
 Odemkněte potenciál Aspose.OCR pro .NET. Jednoduše uložte vícestránkové OCR výsledky jako dokumenty s tímto komplexním krok‑za‑krokem průvodcem.
+### [Jak narovnat obrázek a spustit OCR v C# – Kompletní průvodce](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# odstranit sklon obrázku a provést OCR s vysokou přesností v několika krocích.
+### [Příklad Aspose OCR – Povolit kontrolu pravopisu a opravit chyby v C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ukázkový kód, který zapíná kontrolu pravopisu v Aspose.OCR a automaticky opravuje rozpoznané chyby v C#.
+### [Jak provést OCR na čínských obrázcích – Kompletní průvodce v C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Naučte se rozpoznávat čínské znaky z obrázků pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 
