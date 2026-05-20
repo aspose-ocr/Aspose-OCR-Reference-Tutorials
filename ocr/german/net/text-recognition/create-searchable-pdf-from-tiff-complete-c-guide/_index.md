@@ -1,0 +1,203 @@
+---
+category: general
+date: 2026-04-29
+description: Erstelle durchsuchbare PDFs in C# und konvertiere TIFF in PDF mit eingebettetem
+  Bild, setze die PDF‑DPI und verarbeite mehrseitige TIFFs – alles in einem Tutorial.
+draft: false
+keywords:
+- create searchable pdf
+- convert tiff to pdf
+- embed image in pdf
+- set pdf dpi
+- convert multi page tiff
+language: de
+og_description: Erstellen Sie ein durchsuchbares PDF aus TIFF‑Dateien mit Aspose OCR
+  in C#. Erfahren Sie, wie Sie ein Bild in ein PDF einbetten, die PDF‑DPI einstellen
+  und ein mehrseitiges TIFF konvertieren.
+og_title: Durchsuchbare PDF aus TIFF erstellen – Vollständige C#‑Anleitung
+tags:
+- Aspose OCR
+- C#
+- PDF generation
+title: Erstelle durchsuchbare PDF aus TIFF – Vollständiger C#‑Leitfaden
+url: /de/net/text-recognition/create-searchable-pdf-from-tiff-complete-c-guide/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Durchsuchbare PDF aus TIFF erstellen – Vollständige C# Anleitung
+
+Erstellen Sie durchsuchbare PDF-Dateien aus Ihren TIFF‑Bildern mit nur wenigen Zeilen C#. Egal, ob Sie Rechnungen digitalisieren oder gescannte Bücher archivieren – ein durchsuchbares PDF ermöglicht es Ihnen, Text sofort zu finden, ohne die ursprüngliche Bildqualität zu verlieren.
+
+Haben Sie sich schon einmal gefragt, wie man **TIFF zu PDF konvertiert**, das Bild unverändert lässt und dennoch den Text durchsuchen kann? Die Antwort finden Sie hier – indem Sie die `RecognizeAndSavePdf`‑Methode von Aspose.OCR nutzen, erhalten Sie eine versteckte OCR‑Ebene, ein eingebettetes Bild und volle Kontrolle über die DPI.
+
+In diesem Tutorial führen wir Sie durch jeden Schritt, den Sie benötigen, um ein einseitiges oder **mehrseitiges TIFF** in ein durchsuchbares PDF zu verwandeln, das Originalbild einzubetten und die Ausgabeauflösung fein abzustimmen. Am Ende haben Sie eine einsatzbereite Konsolen‑App, die Sie in jedes .NET‑Projekt einbinden können.
+
+## Was Sie benötigen
+
+- **.NET 6+** (oder .NET Framework 4.6.1+). Der Code funktioniert auf jeder aktuellen .NET‑Runtime.
+- **Aspose.OCR für .NET** – Installation über NuGet (`Install-Package Aspose.OCR`).
+- Eine **TIFF‑Datei** (einzelseitig oder mehrseitig), die Sie konvertieren möchten.
+- Visual Studio, VS Code oder ein beliebiger Editor Ihrer Wahl.
+
+Es werden keine weiteren Drittanbieter‑Bibliotheken benötigt, und die gesamte Lösung passt in eine einzige `.cs`‑Datei.
+
+## Schritt 1: Aspose.OCR installieren und das Projekt einrichten
+
+Fügen Sie zunächst das Aspose.OCR‑Paket zu Ihrem Projekt hinzu. Öffnen Sie ein Terminal im Projektordner und führen Sie aus:
+
+```bash
+dotnet add package Aspose.OCR
+```
+
+> **Profi‑Tipp:** Wenn Sie Visual Studio verwenden, können Sie das Paket auch über die NuGet‑Package‑Manager‑UI hinzufügen. Die Bibliothek enthält sowohl OCR‑ als auch PDF‑Export‑Funktionen, sodass Sie keine separate PDF‑Bibliothek benötigen.
+
+## Schritt 2: OCR‑Engine initialisieren – die richtige Sprache wählen
+
+Die Erstellung eines durchsuchbaren PDFs beginnt mit der Konfiguration der OCR‑Engine. Hier setzen wir die Sprache auf Englisch, aber Aspose unterstützt über 70 Sprachen, falls Sie etwas anderes benötigen.
+
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Pdf;
+using System;
+
+class PdfExportDemo
+{
+    static void Main()
+    {
+        // Initialize the OCR engine with English language
+        var ocrEngine = new OcrEngine
+        {
+            Config = { Language = OcrLanguage.English }
+        };
+```
+
+**Warum das wichtig ist:** Die Eigenschaft `Config.Language` gibt der Engine an, welchen Zeichensatz sie suchen soll. Die Auswahl der richtigen Sprache verbessert die Genauigkeit erheblich, insbesondere bei nicht‑lateinischen Schriften.
+
+## Schritt 3: Quellbild laden – Einzel‑ oder **Mehrseitiges TIFF konvertieren**
+
+Aspose.OCR kann ein mehrseitiges TIFF als einzelnes `OcrImage`‑Objekt lesen und dabei automatisch jedes Frame verarbeiten. Geben Sie einfach den Dateipfad an.
+
+```csharp
+        // Load the source TIFF (single or multi‑page)
+        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
+```
+
+> **Randfall:** Wenn Ihr TIFF sehr groß ist (mehrere hundert MB), sollten Sie das Speicherlimit des Prozesses erhöhen oder `LoadImage`‑Überladungen verwenden, die einen Stream akzeptieren, um zu vermeiden, dass die gesamte Datei auf einmal in den Speicher geladen wird.
+
+## Schritt 4: PDF‑Speicheroptionen konfigurieren – **Bild in PDF einbetten** & **PDF‑DPI festlegen**
+
+Jetzt teilen wir Aspose mit, wie das endgültige PDF aussehen soll. Die Klasse `PdfSaveOptions` bietet uns eine feinkörnige Kontrolle.
+
+```csharp
+        // Define PDF export settings
+        var pdfSaveOptions = new PdfSaveOptions
+        {
+            // Keep the original raster image inside the PDF
+            EmbedImage = true,
+
+            // Add a hidden, searchable text layer generated by OCR
+            AddSearchableTextLayer = true,
+
+            // Optional: set output resolution – higher DPI yields larger files but sharper images
+            Dpi = 300
+        };
+```
+
+- **EmbedImage:** Wenn `true`, werden die ursprünglichen TIFF‑Seiten als Bilder im PDF gespeichert. Dies gewährleistet die visuelle Treue.
+- **AddSearchableTextLayer:** Erstellt eine unsichtbare Textebene, die dem OCR‑Ergebnis entspricht und das PDF durchsuchbar macht.
+- **Dpi:** Steuert die Rasterauflösung des eingebetteten Bildes. Typische Werte liegen bei 150‑300 DPI; verwenden Sie 300 für hochqualitative Scans.
+
+## Schritt 5: OCR ausführen und das PDF speichern – Einzeilige Magie
+
+Nachdem alles konfiguriert ist, kann die OCR‑Engine das Bild verarbeiten und ein durchsuchbares PDF in einem einzigen Aufruf schreiben.
+
+```csharp
+        // Run OCR and directly save as searchable PDF
+        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
+
+        Console.WriteLine("Searchable PDF created at YOUR_DIRECTORY/result.pdf");
+    }
+}
+```
+
+**Was passiert im Hintergrund?**  
+1. Aspose liest jedes TIFF‑Frame, führt OCR aus und erstellt eine Textebene.  
+2. Anschließend wird eine PDF‑Seite erzeugt, das Originalbild (wenn `EmbedImage` true ist) eingebettet und die Textebene darübergelegt.  
+3. Schließlich wird das PDF mit der angegebenen DPI auf die Festplatte geschrieben.
+
+## Schritt 6: Ausgabe überprüfen – Ist das PDF wirklich durchsuchbar?
+
+Öffnen Sie `result.pdf` in Adobe Reader oder einem beliebigen PDF‑Betrachter mit Suchfunktion. Geben Sie ein Wort ein, das im Originalscan vorkommt. Wenn der Text hervorgehoben wird, haben Sie erfolgreich ein **durchsuchbares PDF erstellt**.
+
+Wenn die Suche fehlschlägt:
+
+- Stellen Sie sicher, dass `AddSearchableTextLayer` auf `true` gesetzt ist.
+- Vergewissern Sie sich, dass die OCR‑Sprache mit der Sprache des Dokuments übereinstimmt.
+- Stellen Sie sicher, dass das TIFF nicht beschädigt ist (versuchen Sie, es in einem Bildbetrachter zu öffnen).
+
+## Optionale Anpassungen und häufige Fallstricke
+
+| Szenario | Anpassung | Code‑Snippet |
+|----------|------------|--------------|
+| **Einbetten des Bildes überspringen** (kleinere Datei) | Setzen Sie `EmbedImage = false` | `EmbedImage = false,` |
+| **Andere OCR‑Sprache** (z. B. Französisch) | Ändern Sie `Language = OcrLanguage.French` | `Config = { Language = OcrLanguage.French }` |
+| **Benutzerdefinierter Ausgabepfad** | Verwenden Sie eine Variable für den Pfad | `var outputPath = Path.Combine(Environment.CurrentDirectory, "output", "result.pdf");` |
+| **Verarbeitung vieler TIFFs in einer Schleife** | Schritte 2‑5 in ein `foreach` einbetten | `foreach (var file in Directory.GetFiles(@"inputFolder", "*.tiff")) { … }` |
+
+> **Achtung:** Eine zu hohe DPI-Einstellung (z. B. 600) kann die Dateigröße stark erhöhen, ohne einen sichtbaren visuellen Nutzen zu bringen. Verwenden Sie für die meisten gescannten Dokumente 300 DPI.
+
+## Vollständiges funktionierendes Beispiel (zum Kopieren‑Einfügen bereit)
+
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Pdf;
+using System;
+
+class PdfExportDemo
+{
+    static void Main()
+    {
+        // 1️⃣ Initialize OCR engine with English language
+        var ocrEngine = new OcrEngine
+        {
+            Config = { Language = OcrLanguage.English }
+        };
+
+        // 2️⃣ Load the source TIFF (supports multi‑page automatically)
+        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
+
+        // 3️⃣ Set PDF options: embed original image, add searchable text, 300 DPI
+        var pdfSaveOptions = new PdfSaveOptions
+        {
+            EmbedImage = true,
+            AddSearchableTextLayer = true,
+            Dpi = 300
+        };
+
+        // 4️⃣ Run OCR and save as searchable PDF
+        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
+
+        Console.WriteLine("Searchable PDF created.");
+    }
+}
+```
+
+Führen Sie das Programm mit `dotnet run` aus. Nachdem es beendet ist, öffnen Sie `result.pdf` und testen Sie die Suchfunktion. Sie haben gerade **TIFF zu PDF konvertiert**, wobei das Originalbild erhalten bleibt und eine durchsuchbare Textebene hinzugefügt wird.
+
+## Fazit
+
+Wir haben Ihnen gezeigt, wie Sie mit Aspose.OCR in C# **durchsuchbare PDF**‑Dateien aus TIFF‑Quellen erstellen. Der Prozess umfasst alles von der Installation der Bibliothek, dem Laden einzelner oder **mehrseitiger TIFF**‑Dateien, der Konfiguration **Bild in PDF einbetten**, dem Festlegen einer benutzerdefinierten **PDF‑DPI** und schließlich dem Speichern eines vollständig durchsuchbaren Dokuments.
+
+Experimentieren Sie gern: probieren Sie verschiedene Sprachen aus, passen Sie die DPI für schnellere Ladezeiten an oder verarbeiten Sie einen Ordner mit Scans stapelweise. Als Nächstes könnten Sie **Lesezeichen hinzufügen**, **Wasserzeichen** oder **digitale Signaturen** zu Ihren PDFs erforschen – jedes davon baut auf derselben Grundlage auf, die wir hier gelegt haben.
+
+Haben Sie Fragen oder ein kniffliges TIFF, das nicht konvertiert? Hinterlassen Sie einen Kommentar, und viel Spaß beim Programmieren!  
+
+![Beispiel für durchsuchbare PDF](example.png "Durchsuchbare PDF aus TIFF mit Aspose OCR erstellen")
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

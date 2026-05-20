@@ -45,16 +45,31 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 ## 텍스트 인식 튜토리얼
 ### [OCR 이미지 인식에서 인식된 문자에 대한 선택 가져오기](./get-choices-for-recognized-characters/)
 정확한 문자 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 강화하세요. 이미지 인식에서 인식된 문자에 대한 선택 항목을 검색하려면 단계별 가이드를 따르세요.
+
 ### [OCR 이미지 인식에서 인식 결과 얻기](./get-recognition-result/)
 이미지의 원활한 텍스트 인식을 위한 강력한 OCR 솔루션인 .NET용 Aspose.OCR을 살펴보세요.
+
 ### [OCR 이미지 인식에서 결과를 JSON으로 가져오기](./get-result-as-json/)
 .NET용 Aspose.OCR의 강력한 기능을 활용해 보세요. OCR 결과를 JSON 형식으로 쉽게 얻는 방법을 알아보세요. 이 단계별 가이드를 통해 이미지 인식을 강화해보세요.
+
 ### [OCR 이미지 인식의 OCR 영역 감지 모드](./ocr-detect-areas-mode/)
 효율적인 이미지 텍스트 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 향상하세요. 정확한 결과를 얻으려면 OCR 감지 영역 모드를 살펴보세요.
+
 ### [OCR 이미지 인식에서 PDF 인식](./recognize-pdf/)
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
+
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+
+### [TIFF에서 검색 가능한 PDF 만들기 – 완전 C# 가이드](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Aspose.OCR를 사용해 TIFF 파일을 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 이미지 텍스트 인식 – 오프라인 OCR 튜토리얼](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Aspose.OCR를 사용해 오프라인 환경에서 C#으로 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
+### [C#에서 이미지 텍스트 인식 – Aspose OCR 튜토리얼](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aspose.OCR를 사용해 C#에서 이미지 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
