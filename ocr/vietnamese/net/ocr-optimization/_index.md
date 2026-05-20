@@ -70,10 +70,14 @@ Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạn
 Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
+### [Nhận dạng hình ảnh văn bản với Aspose OCR C# – Hướng dẫn tiền xử lý đầy đủ](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Hướng dẫn chi tiết cách tiền xử lý ảnh để nhận dạng văn bản chính xác bằng Aspose OCR C#.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Giới hạn sử dụng bộ nhớ GPU trong OCR C# – Hướng dẫn đầy đủ](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Hướng dẫn chi tiết cách giới hạn bộ nhớ GPU khi thực hiện OCR bằng C#, giúp tối ưu hiệu suất và tránh quá tải tài nguyên.
 
 ## Câu hỏi thường gặp
 
@@ -90,7 +94,7 @@ A: Không có giới hạn cứng; hiệu suất phụ thuộc vào hệ thống
 A: Chắc chắn. API không phụ thuộc vào nền tảng và hoạt động tốt trên Azure Functions, AWS Lambda (thông qua .NET Core) hoặc bất kỳ môi trường đám mây nào khác.
 
 **Hỏi: Có những lựa chọn cấp phép nào cho các dự án thương mại?**
-A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. Bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
+A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
 
 ---
 
