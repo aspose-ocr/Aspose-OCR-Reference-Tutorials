@@ -69,9 +69,15 @@ Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn 
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step‑by‑step guide.
+### [Aspose OCR GPU: Recognize Text Image from TIFF with C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Leverage GPU acceleration to recognize text from TIFF images using Aspose.OCR for .NET with C#.
+### [How to Deskew Image and Boost OCR Accuracy – Complete Aspose OCR Guide](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Learn to deskew images and improve OCR results using Aspose.OCR for .NET in a step‑by‑step guide.
+### [Create Searchable PDF with Aspose OCR – Complete Programming Guide](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Create searchable PDFs from images using Aspose.OCR for .NET with a full programming guide.
 
 ## Frequently Asked Questions
 
