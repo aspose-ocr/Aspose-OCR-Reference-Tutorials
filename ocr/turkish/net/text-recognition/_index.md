@@ -21,7 +21,7 @@ url: /tr/net/text-recognition/
 
 Bu eğitimde, görüntü tanıma yeteneklerinizi geliştirmek için Aspose.OCR for .NET'in gücünden yararlanmanız konusunda size rehberlik edeceğiz. Uygulamalarınızda doğruluk ve verimlilik sağlayarak, tanınan karakterlere ilişkin seçimleri nasıl alacağınızı adım adım öğrenin. Aspose.OCR'ın üstün özellikleriyle OCR deneyiminizi geliştirin.
 
-## OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+## OCR Görüntü Tanıma'da Tanıma Sonucunu Al
 
 Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizi dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
 
@@ -55,6 +55,15 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C# ile OCR kullanarak Görüntüden Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+C# ve Aspose.OCR ile görüntüden aranabilir PDF oluşturmayı adım adım öğrenin.
+### [C# ile Görüntüde OCR Gerçekleştirme – Tam Adım‑Adım Kılavuz](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+C# ile bir görüntüde OCR nasıl yapılır, adım adım öğrenin ve uygulayın.
+### [C#'ta Aspose OCR Nasıl Kullanılır – Tam Kılavuz](./how-to-use-aspose-ocr-in-c-full-guide/)
+C# ile Aspose OCR'ı adım adım kullanarak metin tanıma ve PDF oluşturma süreçlerini öğrenin.
+### [C# ile OCR Nasıl Yapılır – Aspose OCR ile Görüntüyü Metne Dönüştürme](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+C# ve Aspose OCR kullanarak bir görüntüyü metne dönüştürmeyi adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

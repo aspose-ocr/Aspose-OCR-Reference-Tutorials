@@ -74,6 +74,12 @@ Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các 
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Aspose OCR GPU: Nhận dạng hình ảnh văn bản từ TIFF bằng C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Khám phá cách sử dụng Aspose OCR GPU để nhận dạng văn bản từ tệp TIFF bằng C# với hiệu năng tăng tốc.
+### [Cách chỉnh nghiêng ảnh và tăng độ chính xác OCR – Hướng dẫn đầy đủ Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Khám phá cách loại bỏ nghiêng ảnh và cải thiện độ chính xác OCR với Aspose OCR trong hướng dẫn chi tiết này.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn lập trình đầy đủ](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR trong .NET, bao gồm các bước cấu hình và lưu tài liệu.
 
 ## Câu hỏi thường gặp
 
