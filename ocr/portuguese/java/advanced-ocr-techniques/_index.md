@@ -43,24 +43,24 @@ Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de tex
 
 ## [Especificando caracteres permitidos em Aspose.OCR](./specify-allowed-characters/)
 
-Extraia facilmente texto de imagens especificando caracteres permitidos com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente, garantindo uma experiência perfeita de reconhecimento de texto. Aprimore seus aplicativos Java com recursos Aspose.OCR.
-
-## Conclusão
-
-Com Aspose.OCR para Java, dominar técnicas avançadas de OCR nunca foi tão fácil. Mergulhe nesses tutoriais e libere todo o potencial do reconhecimento de texto em seus projetos Java. Eleve seus aplicativos com integração perfeita, alta precisão e recursos versáteis de extração de texto. Baixe agora e dê o primeiro passo em direção à excelência em OCR com Aspose.OCR para Java!
-## Tutoriais de técnicas avançadas de OCR
-### [Executando OCR em BufferedImage em Aspose.OCR para Java](./perform-ocr-buffered-image/)
-Execute OCR em BufferedImage sem esforço com Aspose.OCR para Java. Extraia texto de imagens perfeitamente. Baixe agora para uma experiência versátil de reconhecimento de texto.
-### [Executando OCR na imagem do URL em Aspose.OCR para Java](./perform-ocr-image-from-url/)
-Desbloqueie a extração perfeita de texto de imagem em Java com Aspose.OCR. OCR de alta precisão com fácil integração.
-### [Executando OCR em página específica em Aspose.OCR](./perform-ocr-on-page/)
-Desbloqueie o poder do Aspose.OCR para Java com nosso guia passo a passo sobre como realizar OCR em páginas específicas. Extraia texto de imagens sem esforço e aprimore seus projetos Java.
-### [Preparando retângulos para OCR em Aspose.OCR](./prepare-rectangles-for-ocr/)
-Desbloqueie o poder do reconhecimento de texto com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração perfeita. Aprimore seus aplicativos Java com recursos eficientes de OCR.
-### [Reconhecendo linhas em Aspose.OCR para Java](./recognize-lines/)
-Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de texto. Fácil integração, alta precisão.
-### [Especificando caracteres permitidos em Aspose.OCR](./specify-allowed-characters/)
 Desbloqueie a extração de texto de imagens perfeitamente com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente.
+
+### [Extrair Texto de Formulário com Aspose OCR Java – Guia Completo](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Aprenda a extrair texto de formulários usando Aspose OCR para Java com este guia completo passo a passo.
+
+## [Reconhecendo texto em imagem em Java com aceleração GPU – Tutorial completo](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Aprenda a usar aceleração GPU para OCR em Java, obtendo alta performance na extração de texto de imagens. Guia completo passo a passo.
+
+## [Processamento OCR Paralelo em Java – Guia Completo](./parallel-ocr-processing-in-java-complete-guide/)
+Aprenda a processar OCR em paralelo no Java para melhorar desempenho e acelerar a extração de texto de imagens.
+
+## [Como obter OCR em Java – Guia completo para extrair texto bruto](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Aprenda passo a passo como implementar OCR em Java e extrair texto bruto de imagens com alta precisão.
+
+## [Criar PDF pesquisável com OCR em Java – Guia completo](./create-searchable-pdf-with-java-ocr-complete-guide/)
+
+Aprenda a criar PDFs pesquisáveis usando OCR em Java com este guia completo passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
