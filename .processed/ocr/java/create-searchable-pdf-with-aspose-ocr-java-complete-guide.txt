@@ -1,0 +1,7 @@
+Title: Create searchable PDF with Aspose OCR Java – Complete Guide
+Slug: create-searchable-pdf-with-aspose-ocr-java-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-05-25T13:42:51.486259
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned image pdf, how to use ocr, ocr engine pdf, aspose ocr java
+PRNumber: 132
