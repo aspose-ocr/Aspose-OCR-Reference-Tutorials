@@ -53,6 +53,9 @@ Dyka ner i OCR‑världen med Aspose.OCR för .NET. Vår handledning om [perform
 
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET genom att utforska [preprocessing filters](./preprocessing-filters-for-image/). Ladda ner nu och upptäck hur du finjusterar dina bilder innan igenkänning. Denna handledning säkerställer sömlös integration, vilket ökar noggrannhet och effektivitet.
 
+### [Förbehandla bild för OCR – Komplett Aspose C#-guide](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR med Aspose i C#.
+
 ## Resultatkorrektion med stavningskontroll i OCR Image Recognition
 
 Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-correction-with-spell-checking/). Vår handledning om resultatkorrektion med stavningskontroll ger dig möjlighet att anpassa ordböcker, korrigera stavningar och säkerställa felfri textigenkänning utan ansträngning. Dyka ner i en värld av precision med Aspose.OCR.
@@ -70,6 +73,8 @@ Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text f
 Lås upp potentialen i Aspose.OCR för .NET med vår omfattande guide. Lär dig steg‑för‑steg hur du förbereder rektanglar för bildigenkänning. Höj dina .NET‑applikationer med sömlös OCR‑integration.
 ### [Förbehandlingsfilter för bild i OCR Image Recognition](./preprocessing-filters-for-image/)
 Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilter. Ladda ner nu för sömlös integration.
+### [Förbehandla bild för OCR – Komplett Aspose C#-guide](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR med Aspose i C#.
 ### [Resultatkorrektion med stavningskontroll i OCR Image Recognition](./result-correction-with-spell-checking/)
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
