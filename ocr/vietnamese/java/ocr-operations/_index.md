@@ -75,10 +75,16 @@ Mở khóa sức mạnh của việc trích xuất văn bản từ hình ảnh v
 Mở khóa việc trích xuất văn bản chính xác từ hình ảnh với Aspose.OCR cho Java. Thực hiện theo hướng dẫn từng bước để đạt OCR chính xác với lựa chọn ngôn ngữ.
 ### [OCR Nhận dạng Tài liệu PDF trong Aspose.OCR cho Java](./recognize-pdf/)
 Mở khóa sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng văn bản trong tài liệu PDF một cách dễ dàng. Tăng cường ứng dụng của bạn với độ chính xác và tốc độ.
+### [Thực hiện OCR trên PDF với Aspose OCR trong Java – Hướng dẫn đầy đủ](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để thực hiện OCR trên tài liệu PDF, bao gồm cấu hình và xuất kết quả.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR Java – Hướng dẫn đầy đủ](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR cho Java, bao gồm cấu hình, xử lý và lưu kết quả.
 ### [OCR Nhận dạng Hình ảnh TIFF trong Aspose.OCR cho Java](./recognize-tiff/)
-Mở khóa khả năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Nhận dạng văn bản trong hình ảnh TIFF một cách dễ dàng. Tải xuống ngay để có trải nghiệm OCR liền mạch.
+Trải nghiệm cấp độ tiếp theo của nhận dạng văn bản trong Java với Aspose.OCR. Tutorial của chúng tôi về việc nhận dạng văn bản trong hình ảnh TIFF được thiết kế để làm cho quá trình này trở nên dễ dàng cho bạn. Tải xuống ngay để có trải nghiệm OCR liền mạch.
 ### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Nhận dạng văn bản từ hình ảnh với Java – Hướng dẫn Aspose OCR đầy đủ](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để nhận dạng văn bản từ hình ảnh, bao gồm cấu hình và xuất kết quả.
 
 ## Câu hỏi Thường gặp
 
