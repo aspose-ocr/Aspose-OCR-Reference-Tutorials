@@ -1,0 +1,7 @@
+Title: How to Perform OCR in ASP.NET Core – Full Guide
+Slug: how-to-perform-ocr-in-asp-net-core-full-guide
+Category: text-recognition
+ProcessedDate: 2026-05-28T16:24:32.909614
+SourceRepo: AI Search API
+Keywords: how to perform ocr, extract text from image, handle file upload, how to upload file, upload image ocr
+PRNumber: 133
