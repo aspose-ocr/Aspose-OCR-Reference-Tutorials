@@ -2,10 +2,10 @@
 title: How to Use OCR – Calculate Skew Angle from URI
 linktitle: How to Use OCR – Calculate Skew Angle from URI
 second_title: Aspose.OCR .NET API
-description: Learn how to use OCR with Aspose.OCR for .NET to calculate skew angles from a URI, enabling precise image rotation detection and improved recognition accuracy.
+description: Learn how to use OCR with Aspose.OCR for .NET to calculate skew angles from a URI, helping you auto‑rotate images, improve OCR accuracy, and enable batch OCR processing.
 weight: 12
 url: /net/skew-angle-calculation/calculate-skew-angle-from-uri/
-date: 2025-12-30
+date: 2026-03-02
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,7 +16,7 @@ date: 2025-12-30
 
 ## Introduction
 
-If you're looking for **how to use OCR** to improve document processing, this tutorial shows you exactly that. We'll walk through using Aspose.OCR for .NET to calculate the skew angle of an image directly from a URI. Understanding the skew helps you **determine image rotation angle**, leading to cleaner text extraction and higher OCR accuracy.
+If you're looking for **how to use OCR** to improve document processing, this tutorial shows you exactly that. We'll walk through using Aspose.OCR for .NET to **calculate the skew angle** of an image directly from a URI. Knowing the rotation lets you **auto‑rotate images**, which in turn **improves OCR accuracy** and makes **batch OCR processing** far more reliable.
 
 ## Quick Answers
 - **What does “calculate skew” mean?** It measures the rotation of an image so OCR can deskew it before text extraction.  
@@ -32,8 +32,8 @@ Using OCR means feeding an image to a recognition engine, optionally preprocessi
 ## Why calculate the skew angle?
 
 - **Improved accuracy:** Deskewed images produce fewer recognition errors.  
-- **Automation-friendly:** Knowing the rotation lets you auto‑rotate images before further processing.  
-- **Performance boost:** Reduces the need for manual image correction.
+- **Automation-friendly:** Knowing the rotation lets you **auto‑rotate images** before further processing.  
+- **Performance boost:** Reduces the need for manual image correction.  
 
 ## Prerequisites
 
@@ -91,11 +91,20 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 The final line confirms that the example ran without errors, making it easy to integrate into larger workflows.
 
+## Auto‑rotate images using the calculated skew angle
+
+Once you have the skew value, you can feed it to any image‑processing library (e.g., **System.Drawing** or **SkiaSharp**) to rotate the picture back to a horizontal baseline. This step is often referred to as **auto rotate images**, and it dramatically reduces downstream OCR mistakes.
+
+## Batch OCR processing with skew detection
+
+When processing a large collection of scanned documents, you can place the code from the steps above inside a `foreach` loop that iterates over a list of URIs. This enables **batch OCR processing** where each image is automatically deskewed before text extraction, ensuring consistent quality across the entire batch.
+
 ## Common Issues & Tips
 
 - **Network errors:** Ensure the URI is reachable; otherwise `CalculateSkewFromUri` will throw an exception.  
 - **Unsupported formats:** Convert uncommon image types to PNG or JPEG before calling the method.  
-- **Precision:** For very small angles (< 0.1°), consider rounding the result to avoid noise.
+- **Precision:** For very small angles (< 0.1°), consider rounding the result to avoid noise.  
+- **Performance tip:** Cache the skew value if you need to reuse the same image multiple times.
 
 ## Frequently Asked Questions
 
@@ -121,7 +130,7 @@ A5: Refer to the [documentation](https://reference.aspose.com/ocr/net/) for deta
 
 ---
 
-**Last Updated:** 2025-12-30  
+**Last Updated:** 2026-03-02  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 

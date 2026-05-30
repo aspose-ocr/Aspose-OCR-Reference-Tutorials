@@ -1,11 +1,11 @@
 ---
-date: 2025-12-30
-description: Lernen Sie dieses C#‑Bild­erkennungs‑Tutorial, um Schrägwinkel aus einem
-  Stream mit Aspose.OCR zu berechnen. Entdecken Sie, wie man Schrägstellung berechnet
-  und ein Bild aus einem Stream liest.
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-03-02
+description: Lernen Sie, wie Sie die Schräglage berechnen und ein Bild aus einem Stream
+  in C# mit Aspose.OCR lesen. Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie
+  Sie den Schräglagewinkel aus einem Stream in C# berechnen.
+linktitle: How to Calculate Skew Angle from Stream in C#
 second_title: Aspose.OCR .NET API
-title: c# Bildverarbeitungstutorial – Schrägwinkel aus Stream berechnen
+title: Wie man den Schrägwinkel aus einem Stream in C# berechnet – Tutorial zur Bilderkennung
 url: /de/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -14,32 +14,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# Bild­erkennungs‑Tutorial – Schräg­winkel aus Stream berechnen
+# Wie man den Schrägwinkel aus einem Stream in C# berechnet – Bild‑Erkennungs‑Tutorial
 
-## Einleitung
+## Einführung
 
-Willkommen in der spannenden Welt von Aspose.OCR für .NET! In diesem **c# Bild­erkennungs‑Tutorial** zeigen wir Ihnen, wie Sie den Schräg­winkel eines Bildes direkt aus einem Stream berechnen. Egal, ob Sie eine Dokument‑Verarbeitungspipeline, eine mobile Scan‑App oder irgendeine Lösung bauen, die schiefe Bilder begradigen muss – dieser Leitfaden bietet Ihnen einen klaren, schritt‑für‑Schritt‑Plan, um die Aufgabe zu erledigen.
+Willkommen in der spannenden Welt von Aspose.OCR für .NET! In diesem **c# image recognition tutorial** lernen Sie **wie man Schrägstellung berechnet** aus einem Bild‑Stream und warum dieser Schritt für zuverlässige OCR‑Ergebnisse entscheidend ist. Egal, ob Sie eine Dokument‑Verarbeitungspipeline, eine mobile Scan‑App oder irgendeine Lösung bauen, die schiefe Seiten begradigen muss – diese Anleitung führt Sie in nur wenigen Minuten durch den gesamten Prozess.
 
 ## Schnellantworten
-- **Worum geht es in diesem Tutorial?** Berechnung des Schräg­winkels aus einem Stream mit Aspose.OCR in C#.
-- **Warum ist Schräg­winkelerkennung wichtig?** Sie verbessert die OCR‑Genauigkeit, indem Text vor der Erkennung ausgerichtet wird.
-- **Was sind die wichtigsten Voraussetzungen?** Aspose.OCR für .NET installiert und ein Beispiel‑Bild mit Schräg­lage.
-- **Welche sekundären Schlüsselwörter werden behandelt?** *how to calculate skew* und *read image from stream*.
-- **Wie lange dauert die Implementierung?** Etwa 5‑10 Minuten für einen funktionierenden Prototyp.
+- **Worum geht es in diesem Tutorial?** Berechnung des Schrägwinkels aus einem Stream mit Aspose.OCR in C#.
+- **Warum ist Schrägerkennung wichtig?** Sie verbessert die OCR‑Genauigkeit, indem der Text vor der Erkennung ausgerichtet wird.
+- **Was sind die wichtigsten Voraussetzungen?** Aspose.OCR für .NET installiert und ein Beispiel‑Bild mit Schrägstellung.
+- **Welche sekundären Schlüsselwörter werden behandelt?** *how to calculate skew* und *read image from stream c#*.
+- **Wie lange dauert die Implementierung?** Etwa 5‑10 Minuten für einen funktionierenden Prototyp.
 
-## Was ist ein c# Bild­erkennungs‑Tutorial?
-Ein **c# Bild­erkennungs‑Tutorial** lehrt Sie, wie Sie Computer‑Vision‑Techniken – wie OCR, Barcode‑Scanning oder Schräg­korrektur – mit C#‑Bibliotheken anwenden. Hier konzentrieren wir uns auf die Schräg­korrektur, einen häufigen Vorverarbeitungsschritt, der geneigte Textzeilen vor dem OCR‑Durchlauf begradigt.
+## Wie man den Schrägwinkel aus einem Bild‑Stream berechnet
 
-## Warum Aspose.OCR für c# Bild­erkennung verwenden?
-Aspose.OCR bietet eine reine .NET‑API ohne externe Abhängigkeiten, hohe Genauigkeit und integrierte Hilfsfunktionen wie `CalculateSkew`. Es läuft unter Windows, Linux und macOS und lässt sich nahtlos in andere Aspose‑Produkte integrieren.
+Bevor wir in den Code eintauchen, klären wir, was „Schrägstellung berechnen“ eigentlich bedeutet. Wenn ein gescanntes Dokument gekippt ist, verlaufen die Textzeilen nicht mehr horizontal. Der **Schrägwinkel** gibt an, um wie viele Grad das Bild gedreht werden muss, um wieder gerade zu sein. Aspose.OCR stellt eine eingebaute Methode `CalculateSkew` bereit, die das Bitmap analysiert und diesen Winkel zurückgibt, sodass Sie keine komplexen Bild‑Verarbeitungs‑Algorithmen selbst schreiben müssen.
+
+## Warum Aspose.OCR für c# image recognition verwenden?
+
+Aspose.OCR bietet eine reine .NET‑API ohne externe Abhängigkeiten, hohe Genauigkeit und Hilfsfunktionen wie `CalculateSkew`. Es läuft unter Windows, Linux und macOS und **integriert sich nahtlos in andere Aspose‑Produkte**, was es zu einer soliden Wahl für unternehmensweite OCR‑Pipelines macht.
 
 ## Voraussetzungen
 
-Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
+Bevor wir mit dem Coden beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
 1. **Aspose.OCR für .NET** installiert. Laden Sie es von der offiziellen Seite [hier](https://releases.aspose.com/ocr/net/) herunter.
 2. Einen Ordner, der als Ihr Dokumenten‑Verzeichnis dient. Ersetzen Sie `"Your Document Directory"` im Beispielcode durch den tatsächlichen Pfad auf Ihrem Rechner.
-3. Eine Bilddatei, die eine erkennbare Schräg­lage enthält (z. B. eine gescannte Seite). Speichern Sie sie als **skew_image.png** im Dokumenten‑Verzeichnis.
+3. Eine Bilddatei, die eine erkennbare Schrägstellung enthält (z. B. eine gescannte Seite). Speichern Sie sie als **skew_image.png** im Dokumenten‑Verzeichnis.
 
 Jetzt, wo alles bereit ist, können wir mit dem Coden beginnen.
 
@@ -67,9 +69,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Schritt 2: Schräg­winkel berechnen (how to calculate skew)
+## Schritt 2: Schrägwinkel berechnen (how to calculate skew)
 
-Jetzt **berechnen wir den Schräg­winkel** aus dem Bild‑Stream. Dies demonstriert die *read image from stream*‑Fähigkeit.
+Jetzt **berechnen wir den Schrägwinkel** aus dem Bild‑Stream. Dies demonstriert die Fähigkeit *read image from stream c#*.
 
 ```csharp
 // Calculate Angle
@@ -95,18 +97,18 @@ Console.WriteLine(angle);
 ## Häufige Probleme und Lösungen
 
 | Problem | Ursache | Lösung |
-|---------|----------|--------|
+|---------|---------|--------|
 | **`ArgumentNullException`** | Der Bildpfad ist falsch oder die Datei fehlt. | Überprüfen Sie `dataDir` und stellen Sie sicher, dass `skew_image.png` existiert. |
 | **Falscher Winkel** | Bild ist zu verrauscht oder von niedriger Auflösung. | Bild vor dem Aufruf von `CalculateSkew` vorverarbeiten (z. B. binarisieren). |
 | **Berechtigungsfehler** | Anwendung hat keinen Lesezugriff auf die Datei. | Anwendung mit den entsprechenden Dateisystem‑Berechtigungen ausführen. |
 
 ## Fazit
 
-Herzlichen Glückwunsch! Sie haben gerade ein **c# Bild­erkennungs‑Tutorial** abgeschlossen, das zeigt, wie man **Schräg­winkel berechnet** und **ein Bild aus einem Stream liest** mit Aspose.OCR für .NET. Diese einfache, aber leistungsstarke Technik lässt sich in größere OCR‑Workflows integrieren und verbessert die Genauigkeit der Textextraktion erheblich.
+Herzlichen Glückwunsch! Sie haben gerade ein **c# image recognition tutorial** abgeschlossen, das zeigt, wie man **Schrägstellung berechnet** und **ein Bild aus einem Stream liest** mit Aspose.OCR für .NET. Diese einfache, aber leistungsstarke Technik lässt sich in größere OCR‑Workflows integrieren und die Genauigkeit der Textextraktion deutlich steigern.
 
-Entdecken Sie weitere Funktionen von Aspose.OCR, indem Sie die offizielle [Dokumentation](https://reference.aspose.com/ocr/net/) prüfen.
+Entdecken Sie weitere Funktionen von Aspose.OCR, indem Sie die offizielle [documentation](https://reference.aspose.com/ocr/net/) prüfen.
 
-## FAQ's
+## Häufig gestellte Fragen
 
 ### Q1: Ist Aspose.OCR mit allen .NET‑Frameworks kompatibel?
 
@@ -124,13 +126,13 @@ A3: Ja, Sie können Aspose.OCR mit einer kostenlosen Testversion [hier](https://
 
 A4: Temporäre Testlizenzen erhalten Sie über [diesen Link](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Benötigen Sie Support oder haben Sie spezifische Fragen?
+### Q5: Benötigen Sie Support oder haben spezifische Fragen?
 
-A5: Besuchen Sie das Aspose.OCR‑Community‑[Forum](https://forum.aspose.com/c/ocr/16) für Unterstützung von Experten und anderen Entwicklern.
+A5: Besuchen Sie das Aspose.OCR‑Community‑[forum](https://forum.aspose.com/c/ocr/16) für Unterstützung von Experten und anderen Entwicklern.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-30  
+**Zuletzt aktualisiert:** 2026-03-02  
 **Getestet mit:** Aspose.OCR für .NET (neueste Version)  
 **Autor:** Aspose  
 

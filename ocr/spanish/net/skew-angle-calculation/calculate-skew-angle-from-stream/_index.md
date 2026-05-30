@@ -1,12 +1,12 @@
 ---
-date: 2025-12-30
-description: Aprende este tutorial de reconocimiento de imágenes en C# para calcular
-  ángulos de sesgo a partir de un flujo usando Aspose.OCR. Descubre cómo calcular
-  el sesgo y leer la imagen desde el flujo.
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-03-02
+description: Aprende a calcular la inclinación y a leer una imagen desde un flujo
+  en C# usando Aspose.OCR. Esta guía paso a paso te muestra cómo calcular el ángulo
+  de inclinación a partir de un flujo en C#.
+linktitle: How to Calculate Skew Angle from Stream in C#
 second_title: Aspose.OCR .NET API
-title: Tutorial de reconocimiento de imágenes en C# – Calcular el ángulo de sesgo
-  desde el flujo
+title: Cómo calcular el ángulo de sesgo a partir de un flujo en C# – Tutorial de reconocimiento
+  de imágenes
 url: /es/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -15,38 +15,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutorial de Reconocimiento de Imágenes en c# – Calcular Ángulo de Inclinación desde Stream
+# Cómo calcular el ángulo de sesgo a partir de un flujo en C# – Tutorial de reconocimiento de imágenes
 
 ## Introducción
 
-¡Bienvenido al emocionante mundo de Aspose.OCR para .NET! En este **c# image recognition tutorial**, le guiaremos paso a paso para calcular el ángulo de inclinación de una imagen directamente desde un stream. Ya sea que esté construyendo una canalización de procesamiento de documentos, una aplicación móvil de escaneo o cualquier solución que necesite enderezar imágenes sesgadas, esta guía le ofrece una ruta clara y paso a paso para lograrlo.
+¡Bienvenido al emocionante mundo de Aspose.OCR para .NET! En este **c# image recognition tutorial** aprenderás **cómo calcular el sesgo** a partir de un flujo de imagen y por qué este paso es crítico para obtener resultados de OCR fiables. Ya sea que estés construyendo una canalización de procesamiento de documentos, una aplicación móvil de escaneo o cualquier solución que necesite enderezar páginas inclinadas, esta guía te acompañará paso a paso en tan solo unos minutos.
 
-## Respuestas Rápidas
-- **¿Qué cubre este tutorial?** Calcular el ángulo de inclinación desde un stream usando Aspose.OCR en C#.
-- **¿Por qué es importante la detección de inclinación?** Mejora la precisión del OCR al alinear el texto antes del reconocimiento.
-- **¿Cuáles son los requisitos principales?** Aspose.OCR para .NET instalado y una imagen de muestra sesgada.
-- **¿Qué palabras clave secundarias se abordan?** *how to calculate skew* y *read image from stream*.
+## Respuestas rápidas
+- **¿Qué cubre este tutorial?** Calculando el ángulo de sesgo a partir de un flujo usando Aspose.OCR en C#.
+- **¿Por qué es importante la detección de sesgo?** Mejora la precisión del OCR alineando el texto antes del reconocimiento.
+- **¿Cuáles son los requisitos principales?** Aspose.OCR para .NET instalado y una imagen de ejemplo con sesgo.
+- **¿Qué palabras clave secundarias se abordan?** *how to calculate skew* y *read image from stream c#*.
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 5‑10 minutos para un prototipo funcional.
 
-## ¿Qué es un tutorial de reconocimiento de imágenes en c#?
-Un **c# image recognition tutorial** le enseña cómo aplicar técnicas de visión por computadora—como OCR, escaneo de códigos de barras o corrección de inclinación—usando bibliotecas en C#. Aquí nos centramos en la corrección de inclinación, un paso de preprocesamiento común que endereza líneas de texto inclinadas antes de ejecutar el OCR.
+## Cómo calcular el sesgo a partir de un flujo de imagen
+
+Antes de sumergirnos en el código, aclaremos qué significa realmente “calcular el sesgo”. Cuando un documento escaneado está inclinado, las líneas de texto ya no son horizontales. El **skew angle** nos indica cuántos grados debe rotarse la imagen para quedar nivelada. Aspose.OCR proporciona un método incorporado `CalculateSkew` que analiza el bitmap y devuelve este ángulo, ahorrándote la necesidad de escribir algoritmos complejos de procesamiento de imágenes.
 
 ## ¿Por qué usar Aspose.OCR para reconocimiento de imágenes en c#?
-Aspose.OCR ofrece una API puramente .NET sin dependencias externas, alta precisión y utilidades integradas como `CalculateSkew`. Funciona en Windows, Linux y macOS, y se integra sin problemas con otros productos Aspose.
 
-## Requisitos Previos
+Aspose.OCR ofrece una API pura de .NET sin dependencias externas, alta precisión y utilidades como `CalculateSkew`. Funciona en Windows, Linux y macOS, e integra sin problemas con otros productos Aspose, lo que lo convierte en una opción sólida para canalizaciones OCR de nivel empresarial.
 
-Antes de sumergirnos en el código, asegúrese de tener:
+## Requisitos previos
 
-1. **Aspose.OCR para .NET** instalado. Descárguelo desde el sitio oficial [here](https://releases.aspose.com/ocr/net/).
-2. Una carpeta que sirva como su directorio de documentos. Reemplace `"Your Document Directory"` en el código de ejemplo con la ruta real en su máquina.
-3. Un archivo de imagen que contenga una inclinación notable (p. ej., una página escaneada). Guárdelo como **skew_image.png** dentro del directorio de documentos.
+Antes de comenzar a programar, asegúrate de tener:
 
-Ahora que todo está listo, comencemos a codificar.
+1. **Aspose.OCR para .NET** instalado. Descárgalo desde el sitio oficial [aquí](https://releases.aspose.com/ocr/net/).
+2. Una carpeta que servirá como tu directorio de documentos. Reemplaza `"Your Document Directory"` en el código de ejemplo con la ruta real en tu máquina.
+3. Un archivo de imagen que contenga un sesgo notable (p.ej., una página escaneada). Guárdalo como **skew_image.png** dentro del directorio de documentos.
 
-## Importar Espacios de Nombres
+Ahora que todo está listo, comencemos a programar.
 
-Primero, importe los espacios de nombres necesarios para el manejo de archivos y la biblioteca Aspose.OCR.
+## Importar espacios de nombres
+
+Primero, importa los espacios de nombres necesarios para el manejo de archivos y la biblioteca Aspose.OCR.
 
 ```csharp
 using System;
@@ -58,7 +60,7 @@ using Aspose.OCR;
 
 ## Paso 1: Inicializar Aspose.OCR
 
-Cree una instancia del motor OCR y apúntela a su directorio de documentos.
+Crea una instancia del motor OCR y apúntala a tu directorio de documentos.
 
 ```csharp
 // The path to the documents directory.
@@ -68,9 +70,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Paso 2: Calcular Ángulo de Inclinación (cómo calcular la inclinación)
+## Paso 2: Calcular el ángulo de sesgo (how to calculate skew)
 
-Ahora **calcularemos el ángulo de inclinación** desde el stream de la imagen. Esto demuestra la capacidad de *read image from stream*.
+Ahora **calcularemos el ángulo de sesgo** a partir del flujo de imagen. Esto demuestra la capacidad de *read image from stream c#*.
 
 ```csharp
 // Calculate Angle
@@ -84,56 +86,56 @@ using (FileStream file = new FileStream(dataDir + "skew_image.png", FileMode.Ope
 }
 ```
 
-## Paso 3: Mostrar el Resultado
+## Paso 3: Mostrar el resultado
 
-Finalmente, muestre el ángulo detectado en la consola para que pueda verificar el resultado.
+Finalmente, muestra el ángulo detectado en la consola para que puedas verificar el resultado.
 
 ```csharp
 // Display the result
 Console.WriteLine(angle);
 ```
 
-## Problemas Comunes y Soluciones
+## Problemas comunes y soluciones
 
 | Problema | Razón | Solución |
 |----------|-------|----------|
-| **`ArgumentNullException`** | La ruta de la imagen es incorrecta o el archivo falta. | Verifique `dataDir` y asegúrese de que `skew_image.png` exista. |
-| **Ángulo incorrecto** | La imagen es demasiado ruidosa o de baja resolución. | Pre‑procese la imagen (p. ej., binarícela) antes de llamar a `CalculateSkew`. |
-| **Error de permiso** | La aplicación no tiene acceso de lectura al archivo. | Ejecute la aplicación con los permisos de sistema de archivos adecuados. |
+| **`ArgumentNullException`** | La ruta de la imagen es incorrecta o el archivo falta. | Verifica `dataDir` y asegura que `skew_image.png` exista. |
+| **Ángulo incorrecto** | La imagen es demasiado ruidosa o de baja resolución. | Preprocesa la imagen (p.ej., binarízala) antes de llamar a `CalculateSkew`. |
+| **Error de permisos** | La aplicación no tiene acceso de lectura al archivo. | Ejecuta la aplicación con los permisos de sistema de archivos adecuados. |
 
 ## Conclusión
 
-¡Felicidades! Acaba de completar un **c# image recognition tutorial** que muestra cómo **calcular la inclinación** y **leer la imagen desde un stream** usando Aspose.OCR para .NET. Esta técnica simple pero poderosa puede integrarse en flujos de trabajo OCR más amplios para mejorar drásticamente la precisión de extracción de texto.
+¡Felicidades! Acabas de completar un **c# image recognition tutorial** que muestra cómo **calcular el sesgo** y **read image from stream** usando Aspose.OCR para .NET. Esta técnica simple pero poderosa puede integrarse en flujos de trabajo OCR más amplios para mejorar drásticamente la precisión de la extracción de texto.
 
-Explore más funciones de Aspose.OCR consultando la [documentación](https://reference.aspose.com/ocr/net/) oficial.
+Explora más funciones de Aspose.OCR consultando la [documentación](https://reference.aspose.com/ocr/net/) oficial.
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
 ### Q1: ¿Es Aspose.OCR compatible con todos los frameworks .NET?
 
-A1: Aspose.OCR admite una amplia gama de frameworks .NET, garantizando compatibilidad en diferentes versiones.
+A1: Aspose.OCR soporta una amplia gama de frameworks .NET, garantizando compatibilidad con diferentes versiones.
 
-### Q2: ¿Puedo usar Aspose.OCR en proyectos comerciales?
+### Q2: ¿Puedo usar Aspose.OCR para proyectos comerciales?
 
-A2: ¡Absolutamente! Aspose.OCR ofrece licencias comerciales, y puede adquirirlas [here](https://purchase.aspose.com/buy).
+A2: ¡Absolutamente! Aspose.OCR proporciona licencias comerciales, y puedes adquirirlas [aquí](https://purchase.aspose.com/buy).
 
 ### Q3: ¿Hay una versión de prueba gratuita disponible?
 
-A3: Sí, puede explorar Aspose.OCR con una prueba gratuita [here](https://releases.aspose.com/).
+A3: Sí, puedes explorar Aspose.OCR con una prueba gratuita [aquí](https://releases.aspose.com/).
 
 ### Q4: ¿Cómo puedo obtener licencias temporales para propósitos de prueba?
 
-A4: Obtenga licencias temporales para pruebas desde [this link](https://purchase.aspose.com/temporary-license/).
+A4: Obtén licencias temporales para pruebas desde [este enlace](https://purchase.aspose.com/temporary-license/).
 
-### Q5: ¿Necesita soporte o tiene preguntas específicas?
+### Q5: ¿Necesitas soporte o tienes preguntas específicas?
 
-A5: Visite el [forum](https://forum.aspose.com/c/ocr/16) de la comunidad Aspose.OCR para obtener ayuda de expertos y otros desarrolladores.
+A5: Visita el [foro](https://forum.aspose.com/c/ocr/16) de la comunidad Aspose.OCR para obtener ayuda de expertos y otros desarrolladores.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR para .NET (última versión)  
-**Author:** Aspose  
+**Última actualización:** 2026-03-02  
+**Probado con:** Aspose.OCR para .NET (última versión)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
