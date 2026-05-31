@@ -1,0 +1,7 @@
+Title: Extract Text from Image with Python OCR – How to OCR Image
+Slug: extract-text-from-image-with-python-ocr-how-to-ocr-image
+Category: general
+ProcessedDate: 2026-05-31T20:54:26.344507
+SourceRepo: AI Search API
+Keywords: extract text from image, recognize special characters, convert image to text, how to ocr image, load image for ocr
+PRNumber: 137
