@@ -21,7 +21,7 @@ url: /tr/net/text-recognition/
 
 Bu eğitimde, görüntü tanıma yeteneklerinizi geliştirmek için Aspose.OCR for .NET'in gücünden yararlanmanız konusunda size rehberlik edeceğiz. Uygulamalarınızda doğruluk ve verimlilik sağlayarak, tanınan karakterlere ilişkin seçimleri nasıl alacağınızı adım adım öğrenin. Aspose.OCR'ın üstün özellikleriyle OCR deneyiminizi geliştirin.
 
-## OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+## OCR Görüntü Tanıma'da Tanıma Sonucunu Al
 
 Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizi dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
 
@@ -55,6 +55,15 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – Kiril](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Aspose OCR kullanarak Kiril alfabesindeki metinleri görüntülerden doğru şekilde çıkarın ve .NET uygulamalarınızda kullanın.
+### [C# ile Aspose OCR kullanarak görüntüden metin tanıma](./recognize-text-from-image-in-c-using-aspose-ocr/)
+C# uygulamanızda Aspose OCR ile görüntülerden metin çıkarın ve hızlı bir şekilde işleyin.
+### [C# ile Görüntüyü ePub'a Dönüştür – Tam Adım Adım Kılavuz](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+C# kullanarak görüntüleri ePub formatına dönüştürmeyi adım adım öğrenin ve uygulamalarınıza dinamik e-kitap desteği ekleyin.
+### [Aspose OCR ile JPG'den Çevrimdışı Metin Çıkarma](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Aspose OCR kullanarak JPG dosyalarından internet bağlantısı olmadan metin çıkarın ve .NET uygulamalarınızda kullanın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
