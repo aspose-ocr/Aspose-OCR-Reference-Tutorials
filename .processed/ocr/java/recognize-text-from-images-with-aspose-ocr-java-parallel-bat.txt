@@ -1,0 +1,7 @@
+Title: recognize text from images with Aspose OCR – Java Parallel Batch Guide
+Slug: recognize-text-from-images-with-aspose-ocr-java-parallel-bat
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-31T20:44:45.014825
+SourceRepo: AI Search API
+Keywords: recognize text from images, extract text from png, set ocr language
+PRNumber: 136
