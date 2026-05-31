@@ -58,16 +58,24 @@ Zusammenfassend bietet Aspose.OCR für .NET eine umfangreiche Sammlung von Tutor
 ## Bild‑ und Zeichenerkennungs‑Tutorials
 ### [Rechtecke für Zeilen in der OCR‑Bilderkennung ermitteln](./get-rectangles-for-lines/)
 Entdecken Sie Aspose.OCR für .NET, Ihren Schlüssel zur präzisen OCR‑Bilderkennung. Nutzen Sie die Leistungsfähigkeit der Textextraktion mühelos.
+
 ### [Rechtecke für Absätze in der OCR‑Bilderkennung ermitteln](./get-rectangles-for-paragraphs/)
 Entfesseln Sie erweiterte OCR‑Funktionen mit Aspose.OCR für .NET. Extrahieren Sie Absatz‑Rechtecke mühelos.
+
 ### [Bild aus Stream in der OCR‑Bilderkennung erkennen](./recognize-image-from-stream/)
 Entdecken Sie die Magie von OCR mit Aspose.OCR für .NET. Extrahieren Sie Text mühelos aus Bildern. Erkunden Sie das Tutorial für eine Schritt‑für‑Schritt‑Anleitung.
+
 ### [Bild ohne Texterkennungsbereich in der OCR‑Bilderkennung erkennen](./recognize-image-without-text-area-detection/)
 Entfalten Sie das Potenzial der Texterkennung mit Aspose.OCR für .NET. Erkennen Sie Text aus Bildern mühelos.
+
 ### [Zeile in der OCR‑Bilderkennung erkennen](./recognize-line/)
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET beim Erkennen von Zeilen in der OCR‑Bilderkennung. Ein Entwickler‑Leitfaden für nahtlose Textextraktion aus Bildern.
+
 ### [OCR auf Bild in der OCR‑Bilderkennung durchführen](./perform-ocr-on-image/)
 Entdecken Sie die Magie von OCR mit Aspose.OCR für .NET und extrahieren Sie Text mühelos aus Bildern. Erkunden Sie das Tutorial für nahtlose Integration.
+
+### [Tabellen aus Bild mit Aspose OCR extrahieren – Vollständiger C#‑Leitfaden](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Entdecken Sie, wie Sie Tabellen aus Bildern extrahieren und in strukturierte Daten umwandeln – Schritt‑für‑Schritt‑Anleitung in C#.
 
 ## Häufig gestellte Fragen
 

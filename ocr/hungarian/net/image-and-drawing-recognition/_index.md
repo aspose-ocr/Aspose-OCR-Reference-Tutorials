@@ -57,9 +57,11 @@ Szabadítsd fel az OCR varázslatát az Aspose.OCR for .NET segítségével. Ké
 ### [Kép felismerése szövegtartomány-észlelés nélkül az OCR képfelismerésben](./recognize-image-without-text-area-detection/)
 Szabadítsd fel a szövegfelismerés lehetőségét az Aspose.OCR for .NET segítségével. Kényelmesen ismerd fel a szöveget a képeken.
 ### [Sor felismerése az OCR képfelismerésben](./recognize-line/)
-Szabadítsd fel az Aspose.OCR for .NET lehetőségét a sorok felismerésében az OCR képfelismerésben. Fejlesztőknek szóló útmutató a képek zökkenőmentes szövegkinyeréséhez.
+Szabadítsd fel az Aspose.OCR for .NET lehetőségét a sorok felismerésében az OCR képfelismerésben. Fejlesztőknek szóló útmutató a képek zökkenőmentes szövegkinyeréshez.
 ### [OCR végrehajtása képen az OCR képfelismerésben](./perform-ocr-on-image/)
 Szabadítsd fel az OCR varázslatát az Aspose.OCR for .NET segítségével, könnyedén nyerj szöveget a képekből. Fedezd fel az oktatóanyagot a zökkenőmentes integrációért.
+### [Táblázatok kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Fedezd fel, hogyan nyerheted ki a táblázatokat képekről C#-ban az Aspose OCR használatával, lépésről‑lépésre.
 
 ## Gyakran Ismételt Kérdések
 
