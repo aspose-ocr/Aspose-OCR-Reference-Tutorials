@@ -1,0 +1,7 @@
+Title: Extract Tables from Image with Aspose OCR – Complete C# Guide
+Slug: extract-tables-from-image-with-aspose-ocr-complete-c-guide
+Category: image-and-drawing-recognition
+ProcessedDate: 2026-05-31T19:26:43.467569
+SourceRepo: AI Search API
+Keywords: extract tables from image, convert image to table
+PRNumber: 135
