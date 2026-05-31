@@ -1,0 +1,7 @@
+Title: Load Image for OCR with Aspose OCR Java – Complete Guide
+Slug: load-image-for-ocr-with-aspose-ocr-java-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-05-31T20:44:55.648921
+SourceRepo: AI Search API
+Keywords: load image for ocr
+PRNumber: 136
