@@ -40,6 +40,8 @@ Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do dokładnego rozpoznawa
 Uwolnij moc Aspose.OCR dla .NET, solidnego rozwiązania do rozpoznawania obrazów. Dowiedz się, jak bez wysiłku obliczać kąty skośne.
 ### [Oblicz kąt pochylenia z URI w rozpoznawaniu obrazu OCR](./calculate-skew-angle-from-uri/)
 Przeglądaj Aspose.OCR dla .NET, aby bez wysiłku obliczyć kąty skosu w rozpoznawaniu obrazów OCR. Ulepsz swoje projekty z precyzją i wydajnością.
+### [Samouczek dokumentu obróconego OCR – automatyczna korekta pochylenia i rotacji w C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Dowiedz się, jak automatycznie wykrywać i korygować pochylenie oraz rotację dokumentów w OCR przy użyciu Aspose.OCR w C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
