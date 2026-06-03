@@ -53,8 +53,19 @@ url: /th/net/text-recognition/
 ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความรูปภาพที่มีประสิทธิภาพ สำรวจโหมดตรวจจับพื้นที่ OCR เพื่อผลลัพธ์ที่แม่นยำ
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
+### [ทำ OCR บน PDF ด้วย Aspose.OCR – คู่มือ C# ฉบับสมบูรณ์](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีทำ OCR บนไฟล์ PDF ด้วย Aspose.OCR ด้วยคำแนะนำขั้นตอนเต็มสำหรับ C#
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [ทำ OCR บนรูปภาพด้วย Aspose OCR – คู่มือภาษา Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+เรียนรู้วิธีทำ OCR บนรูปภาพด้วย Aspose OCR สำหรับภาษา Hindi ด้วยคำแนะนำทีละขั้นตอน
+### [วิธีใช้ Aspose: แปลงรูปภาพเป็น HTML ด้วย OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+เรียนรู้วิธีแปลงรูปภาพเป็น HTML ด้วย OCR โดยใช้ Aspose อย่างละเอียดเพื่อเพิ่มความสามารถในการแสดงผลบนเว็บ
+### [ทำ OCR บนรูปภาพและตรวจจับคำที่สะกดผิดใน C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+เรียนรู้วิธีทำ OCR บนรูปภาพและตรวจจับคำที่สะกดผิดด้วย C# โดยใช้ Aspose.OCR
+### [OCR คำบรรยายวิดีโอใน C# – คู่มือฉบับสมบูรณ์](./video-subtitle-ocr-in-c-complete-guide/)
+เรียนรู้วิธีทำ OCR คำบรรยายวิดีโอด้วย C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อแปลงคำบรรยายเป็นข้อความ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
