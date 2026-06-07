@@ -53,8 +53,23 @@ Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR 
 Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
 ### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
+### [OCR chráněné PDF v C# – Kompletní průvodce extrakcí textu](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z chráněných PDF souborů s podrobným krok‑za‑krokem návodem.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Rozpoznání textu z PNG v C# – Kompletní OCR tutoriál](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Kompletní průvodce rozpoznáním textu z PNG souborů v C# pomocí Aspose.OCR, včetně kódu a nastavení.
+### [Rozpoznání textu z obrázku v C# – Kompletní OCR tutoriál](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Kompletní průvodce rozpoznáním textu z obrázku v C# pomocí Aspose.OCR, včetně kódu a nastavení.
+### [Rozpoznání ručně psaného textu v C# – Kompletní průvodce krok za krokem](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v C# rozpoznávat ručně psaný text s podrobným krok‑za‑krokem návodem a ukázkovým kódem.
+### [Rozpoznání čínského textu pomocí .NET OCR – Kompletní průvodce](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Kompletní průvodce rozpoznáním čínského textu v .NET pomocí Aspose.OCR, včetně ukázek kódu a nastavení.
+### [Rozpoznání textu z obrázku v C# – Kompletní OCR tutoriál](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Kompletní průvodce rozpoznáním textu z obrázku v C# pomocí Aspose.OCR, včetně kódu a nastavení.
+### [Rozpoznání textu z obrázku v C# – Kompletní OCR průvodce](./recognize-text-image-in-c-full-ocr-guide/)
+Kompletní průvodce rozpoznáním textu z obrázku v C# pomocí Aspose.OCR, včetně ukázek kódu a nastavení.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

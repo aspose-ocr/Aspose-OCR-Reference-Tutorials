@@ -55,6 +55,20 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+### [C#로 PNG에서 텍스트 인식 – 완전한 OCR 튜토리얼](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+C#와 Aspose.OCR을 사용해 PNG 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 손글씨 텍스트 인식 – 완전한 단계별 가이드](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 손글씨 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 이미지에서 텍스트 추출 – 완전한 OCR 튜토리얼](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 중국어 텍스트 인식 – 완전한 OCR 튜토리얼](./recognize-chinese-text-with-net-ocr-complete-guide/)
+C#와 Aspose.OCR을 사용해 중국어 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 이미지에서 텍스트 인식 – 전체 OCR 엔진 튜토리얼](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 OCR 엔진 과정을 단계별로 안내합니다.
+### [C#에서 보호된 PDF OCR – 텍스트 추출 완전 가이드](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+C#와 Aspose.OCR을 사용해 보호된 PDF에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 텍스트 이미지 인식 – 전체 OCR 가이드](./recognize-text-image-in-c-full-ocr-guide/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

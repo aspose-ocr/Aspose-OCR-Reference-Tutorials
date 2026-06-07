@@ -54,7 +54,22 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、画像テ
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [C# で PNG からテキストを認識する – 完全 OCR チュートリアル](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Aspose.OCR を使用して C# アプリで PNG 画像からテキストを抽出し、完全な OCR 手順を学びます。
+### [C# で画像からテキストを抽出する – 完全 OCR チュートリアル](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Aspose.OCR を使用して C# アプリで画像からテキストを抽出し、完全な OCR 手順を学びます。
+### [C# で手書き文字を認識する – 完全ステップバイステップガイド](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Aspose.OCR を使用して C# アプリで手書きテキストを認識し、詳細なステップバイステップガイドで実装方法を学びます。
+### [C# で中国語テキストを認識する – 完全 OCR チュートリアル](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Aspose.OCR を使用して C# アプリで中国語テキストを正確に抽出し、完全な OCR 手順を学びます。
+### [C# で画像からテキストを認識する – 完全 OCR エンジンチュートリアル](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Aspose.OCR を使用して C# アプリで画像からテキストを認識し、完全な OCR エンジンの手順を学びます。
+### [C# で保護された PDF を OCR – テキスト抽出の完全ガイド](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Aspose.OCR を使用して C# アプリで保護された PDF からテキストを抽出する方法をステップバイステップで学びます。
+### [C# でテキスト画像を認識する – 完全 OCR ガイド](./recognize-text-image-in-c-full-ocr-guide/)
+Aspose.OCR を使用して C# アプリで画像テキストを認識し、完全な OCR 手順を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

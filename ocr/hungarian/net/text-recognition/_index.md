@@ -55,6 +55,21 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [PNG-ből szöveg felismerése C#-ban – Teljes OCR oktatóanyag](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Ismerje meg, hogyan lehet C#-ban teljes körű OCR-t alkalmazni PNG képek szövegének felismerésére.
+### [Kézírásos szöveg felismerése C#‑ban – Teljes lépésről‑lépésre útmutató](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t kézírásos szöveg C#‑ban történő pontos felismeréséhez, részletes lépésekkel.
+### [Képből szöveg felismerése C#-ban – Teljes OCR oktatóanyag](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Ismerje meg, hogyan alkalmazhat teljes körű OCR-t C#-ban képek szövegének felismerésére.
+### [Képből szöveg felismerése C#-ban – Teljes OCR motor oktatóanyag](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Ismerje meg, hogyan használhatja az Aspose.OCR teljes motorját C#-ban a képek szövegének pontos felismeréséhez, részletes lépésről-lépésre útmutatóval.
+### [Képből szöveg felismerése C#‑ban – Teljes OCR útmutató](./recognize-text-image-in-c-full-ocr-guide/)
+Fedezze fel, hogyan végezhet teljes körű OCR-t C#-ban képek szövegének pontos felismeréséhez.
+### [Kínai szöveg felismerése .NET OCR-rel – Teljes útmutató](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR .NET-et kínai szöveg pontos felismerésére, részletes lépésről-lépésre útmutatóval.
+### [Védett PDF OCR C#-ban – Teljes útmutató a szöveg kinyeréséhez](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t védett PDF-ek szövegének kinyerésére C#-ban, részletes lépésről-lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

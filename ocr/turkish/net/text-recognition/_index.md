@@ -55,6 +55,21 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C# ile PNG'den Metin Tanıma – Tam OCR Eğitimi](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+C# kullanarak PNG dosyalarından metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile El Yazısı Metni Tanıma – Tam Adım Adım Rehber](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+C# kullanarak el yazısı metinlerini tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile Görüntüden Metin Çıkarma – Tam OCR Eğitimi](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+C# kullanarak görüntülerden metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile Görüntüden Metin Tanıma – Tam OCR Motoru Eğitimi](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+C# kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR motorunu uygulayın.
+### [C# ile Çince Metin Tanıma – Tam Kılavuz](./recognize-chinese-text-with-net-ocr-complete-guide/)
+C# kullanarak .NET OCR ile Çince metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile OCR korumalı PDF – Metin Çıkarma Tam Kılavuzu](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+C# kullanarak OCR korumalı PDF dosyalarından metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR ile tam çözüm uygulayın.
+### [C# ile Görüntüden Metin Tanıma – Tam OCR Kılavuzu](./recognize-text-image-in-c-full-ocr-guide/)
+C# kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR kılavuzunu uygulayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
