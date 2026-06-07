@@ -1,0 +1,7 @@
+Title: OCR Character Set – Retrieve and Use OCR Engine in Python
+Slug: ocr-character-set-retrieve-and-use-ocr-engine-in-python
+Category: general
+ProcessedDate: 2026-06-07T03:33:25.204833
+SourceRepo: AI Search API
+Keywords: ocr character set, use ocr engine
+PRNumber: 142
