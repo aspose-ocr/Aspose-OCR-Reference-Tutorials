@@ -1,0 +1,7 @@
+Title: Recognize Text from Image in C# – Full OCR Engine Tutorial
+Slug: recognize-text-from-image-in-c-full-ocr-engine-tutorial
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:47:10.862283
+SourceRepo: AI Search API
+Keywords: recognize text from image, convert image to json, convert image to xml, ocr engine c#, load image for ocr
+PRNumber: 140
