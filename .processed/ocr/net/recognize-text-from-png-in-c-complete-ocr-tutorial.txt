@@ -1,0 +1,7 @@
+Title: recognize text from png in C# – Complete OCR Tutorial
+Slug: recognize-text-from-png-in-c-complete-ocr-tutorial
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:46:48.837927
+SourceRepo: AI Search API
+Keywords: recognize text from png, extract text from image, convert image to text, load image for ocr, process image with ocr
+PRNumber: 140
