@@ -1,0 +1,7 @@
+Title: How to Perform OCR in Java – Complete Guide to Extract Text from Images
+Slug: how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr
+Category: ocr-basics
+ProcessedDate: 2026-06-07T03:19:24.041676
+SourceRepo: AI Search API
+Keywords: how to perform ocr, ocr in java, extract text from image, convert image to text, read text from jpg
+PRNumber: 141
