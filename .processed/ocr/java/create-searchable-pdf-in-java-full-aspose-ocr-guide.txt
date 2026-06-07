@@ -1,0 +1,7 @@
+Title: Create Searchable PDF in Java – Full Aspose OCR Guide
+Slug: create-searchable-pdf-in-java-full-aspose-ocr-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-07T03:19:38.049984
+SourceRepo: AI Search API
+Keywords: create searchable pdf, extract text from pdf, ocr multi page pdf, increase ocr accuracy, how to make searchable pdf
+PRNumber: 141
