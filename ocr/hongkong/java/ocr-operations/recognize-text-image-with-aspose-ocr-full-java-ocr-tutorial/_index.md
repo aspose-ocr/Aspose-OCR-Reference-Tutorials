@@ -1,8 +1,8 @@
 ---
 category: general
-date: 2025-12-27
-description: 學習如何在 Java 中使用 Aspose OCR 識別文字圖像。本指南涵蓋如何提取文字、預處理 OCR，並提供完整的 Java OCR
-  範例。
+date: 2026-02-27
+description: 學習如何使用 Aspose OCR 執行 Java OCR 範例、從圖像提取文字、預處理 OCR，並在 Java 中使用 OCR 建立可搜尋的
+  PDF。
 draft: false
 keywords:
 - recognize text image
@@ -10,15 +10,15 @@ keywords:
 - java ocr example
 - how to preprocess ocr
 - aspose ocr java tutorial
-language: zh-hant
-og_description: 使用 Aspose OCR 於 Java 識別文字圖像。逐步教學示範如何提取文字、預處理 OCR，並執行 Java OCR 範例。
-og_title: 使用 Aspose OCR 識別文字圖像 – 完整 Java 指南
+og_description: Java OCR 示例：使用 Aspose OCR 於 Java – 步驟說明如何從圖像提取文字、預處理 OCR，並產生可搜尋的 OCR
+  PDF。
+og_title: Java OCR 範例 – 使用 Aspose OCR 識別文字圖像
 tags:
 - OCR
 - Java
 - Aspose
 - GPU
-title: 使用 Aspose OCR 辨識文字圖像 – 完整 Java OCR 教學
+title: Java OCR 範例 – 使用 Aspose OCR 識別文字圖像 – 完整 Java OCR 教學
 url: /zh-hant/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/
 ---
 
@@ -26,15 +26,22 @@ url: /zh-hant/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 辨識文字影像 – 完整 Aspose OCR Java 教程
+# java ocr 範例 – 文字影像辨識 – 完整 Aspose OCR Java 教程
 
-有沒有曾經需要 **recognize text image**，卻不確定哪個函式庫能提供 GPU 速度與穩定的準確度？你並不孤單。在許多專案中，瓶頸往往不是 OCR 演算法本身，而是設定——尤其是當你想要 **how to extract text** 從高解析度掃描檔，而不必寫上千行程式碼時。
+如果你在尋找 **java ocr 範例**，能快速且可靠地 **從影像檔案中擷取文字**，你來對地方了。在許多實務專案中，最大的障礙往往不是 OCR 引擎本身，而是正確的設定——尤其是當你想要使用 GPU 加速與高精度時。本教學將帶你完成一個可執行的 Java 程式，說明 **如何前處理 OCR**、運用 Aspose OCR 的流暢建構器，甚至提示日後如何 **使用 OCR 建立可搜尋的 PDF**。
 
-在本教程中，我們將逐步說明一個 **java ocr example**，它使用 Aspose OCR 的流暢建構器，展示 **how to preprocess ocr** 透過自適應閾值過濾，並示範在支援 GPU 的機器上 **recognize text image** 的完整步驟。完成後，你將擁有一個可執行的程式，能將擷取的文字印到主控台，並提供常見陷阱與進階調整的技巧。
+## 快速回答
+- **本教學涵蓋什麼？** 完整的 java ocr 範例，使用 Aspose OCR，包含 GPU 設定與自適應閾值前處理。  
+- **需要 GPU 嗎？** 不需要，但啟用 `enableGpu(true)` 後，在支援的硬體上可大幅提升處理速度。  
+- **示範使用哪種語言？** 英文，你可以透過建構器切換成任何支援的語言。  
+- **如何從影像擷取文字？** 呼叫 `ocrEngine.recognize(imagePath)`，再讀取 `ocrResult.getText()`。  
+- **可以建立可搜尋的 PDF 嗎？** 可以——擷取文字後，你可以使用 Aspose.PDF（此處未示範）將文字層嵌入 PDF。
 
-## 需要的工具
+## 需求項目
 
-- **Java Development Kit (JDK) 11 或更新版本** – Aspose OCR 支援 Java 8+，但 JDK 11 能提供最佳的模組處理。
+在開始之前，請確保你已具備：
+
+- **Java Development Kit (JDK) 11 或更新版本** – Aspose OCR 支援 Java 8+，但 JDK 11 能提供最佳的模組處理。  
 - **Aspose.OCR for Java** JAR（從 Aspose 官方網站下載或透過 Maven/Gradle 加入）。  
   Maven 範例：
   ```xml
@@ -44,18 +51,24 @@ url: /zh-hant/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java
       <version>23.10</version>
   </dependency>
   ```
-- **相容 GPU 的驅動程式**（若要啟用 GPU 加速，需 CUDA 11+）。如果沒有 GPU，將 `enableGpu(false)` 設為 false，程式會回退至 CPU。
-- **範例高解析度影像**（`sample-highres.png`），放在可參考的資料夾中，例如 `C:/ocr-demo/`。
+- **相容 GPU 的驅動程式**（若要啟用 GPU 加速，需 CUDA 11+）。若沒有 GPU，將 `enableGpu(false)`，程式會自動回退至 CPU。  
+- **一張高解析度樣本影像**（`sample-highres.png`），放在可參照的資料夾，例如 `C:/ocr-demo/`。
 
-就這樣——不需要額外的原生二進位檔或複雜的設定檔。
+就這樣——不需要額外的原生二進位檔或複雜設定檔。
 
-![使用 Aspose OCR Java 辨識文字影像的 OCR 流程圖](https://example.com/ocr-pipeline.png "使用 Aspose OCR Java 辨識文字影像")
+![顯示使用 Aspose OCR Java 進行文字影像辨識的 OCR 流程圖](https://example.com/ocr-pipeline.png "使用 Aspose OCR Java 進行文字影像辨識")
 
-*圖片說明文字：使用 Aspose OCR Java 辨識文字影像*
+*圖片說明：使用 Aspose OCR Java 進行文字影像辨識*
 
-## 步驟 1：設定 OCR 引擎 – recognize text image with the right options
+## 為何這個 java ocr 範例重要
 
-我們首先要建立一個 `OcrEngine` 實例。Aspose 提供建構者模式，讓你可以串接設定呼叫，使程式碼既易讀又彈性。
+- **速度**：GPU 加速可將大型影像的處理時間從數秒縮減至毫秒級。  
+- **準確度**：選擇正確的語言並套用 **如何前處理 OCR**（自適應閾值）可顯著提升字元辨識率。  
+- **彈性**：同一個引擎日後可用於產生 **使用 OCR 的可搜尋 PDF**，讓文件在不需額外工具的情況下可被搜尋。
+
+## 步驟 1：設定 OCR 引擎 – 以正確選項辨識文字影像
+
+首先，我們建立 `OcrEngine` 實例。Aspose 提供建構子模式，讓你串接設定呼叫，程式碼既易讀又彈性十足。
 
 ```java
 import com.aspose.ocr.*;
@@ -74,14 +87,14 @@ public class GpuOcrDemo {
                 .build();
 ```
 
-**為什麼這很重要：**  
-- **Language selection** 告訴引擎預期的字元集，顯著提升準確度。  
-- **GPU acceleration** 能將大型影像的處理時間從數秒縮短至毫秒級。  
-- **Adaptive‑threshold preprocessing** 是處理不均勻光線的經典技巧——正是你在嘗試 **how to preprocess ocr** 掃描文件時會遇到的問題。
+**為何這很重要：**  
+- **語言選擇** 告訴引擎預期的字元集，能大幅提升辨識準確度。  
+- **GPU 加速** 能將大型影像的處理時間從數秒縮減至毫秒級。  
+- **自適應閾值前處理** 是處理光線不均的經典技巧——正是你在 **如何前處理 OCR** 時會遇到的問題。
 
-## 步驟 2：Recognize Text Image – Running the OCR
+## 步驟 2：辨識文字影像 – 執行 OCR
 
-現在引擎已就緒，我們將影像餵入。`recognize` 方法會回傳一個 `OcrResult` 物件，內含原始文字、信心分數，甚至如果之後需要的話，還有邊框資料。
+引擎就緒後，我們將影像送入。`recognize` 方法會回傳 `OcrResult` 物件，內含原始文字、信心分數，甚至如果需要還有邊界框資料。
 
 ```java
         // Path to the high‑resolution image you want to analyze
@@ -91,11 +104,11 @@ public class GpuOcrDemo {
         OcrResult ocrResult = ocrEngine.recognize(imagePath);
 ```
 
-**重點：** `recognize` 呼叫是同步的；它會阻塞直到 OCR 完成。如果你要處理數十個檔案，考慮將其包在執行緒池中，但對單一影像而言，簡單性更具優勢。
+**重點說明：** `recognize` 呼叫是同步的；它會阻塞直到 OCR 完成。若一次處理大量檔案，建議將其包在執行緒池中，但對單張影像而言，簡潔性更佳。
 
-## 步驟 3：Extract and Display the Text – how to extract text from the result
+## 步驟 3：擷取並顯示文字 – 如何從結果中擷取文字
 
-最後，我們從結果中取得純文字並印出。你也可以將它寫入檔案、送入搜尋索引，或傳給翻譯 API。
+最後，我們從結果中取出純文字並印出。你也可以寫入檔案、送入搜尋索引，或傳給翻譯 API。
 
 ```java
         // Print the extracted text to the console
@@ -108,7 +121,7 @@ public class GpuOcrDemo {
 }
 ```
 
-執行程式時，應該會看到類似以下的輸出：
+執行程式時，應會看到類似以下的輸出：
 
 ```
 === OCR Output ===
@@ -118,25 +131,25 @@ The OCR engine recognized it successfully!
 Confidence: 0.97
 ```
 
-如果輸出看起來亂碼，請再次確認影像是否清晰，以及 **how to preprocess ocr** 步驟（自適應閾值）是否符合影像的光照條件。
+如果輸出雜亂，請再次確認影像是否清晰，以及 **如何前處理 OCR**（自適應閾值）是否符合影像的光照條件。
 
-## 常見陷阱與專業提示 (java ocr example)
+## 常見問題與專業提示（java ocr 範例）
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **GPU not detected** | 缺少 CUDA 驅動程式或 GPU 不相容 | 安裝 CUDA 11+，確認 `nvidia-smi` 正常運作，或設定 `.enableGpu(false)` |
-| **Low accuracy on dark backgrounds** | 自適應閾值可能過度平滑 | 在閾值之前嘗試使用 `PreprocessFilter.GaussianBlur` |
-| **Out‑of‑memory on huge images** | GPU 記憶體限制 | 在 OCR 前將影像縮放至最大寬度 2000 px，或改用 CPU 模式 |
-| **Wrong language** | 預設為英文，但文件包含多種語言 | 呼叫 `.setLanguage(Language.French)` 或使用 `Language.Multilingual` |
+| 問題 | 為何會發生 | 解決方式 |
+|------|------------|----------|
+| **GPU 未偵測** | 缺少 CUDA 驅動或 GPU 不相容 | 安裝 CUDA 11+，確認 `nvidia-smi` 正常，或改為 `.enableGpu(false)` |
+| **暗色背景下準確度低** | 自適應閾值可能過度平滑 | 在閾值前先使用 `PreprocessFilter.GaussianBlur` |
+| **巨幅影像記憶體不足** | GPU 記憶體上限 | 將影像寬度縮至最大 2000 px 後再 OCR，或改用 CPU 模式 |
+| **語言設定錯誤** | 預設為英文，但文件多語言 | 呼叫 `.setLanguage(Language.French)` 或使用 `Language.Multilingual` |
 
-**專業提示：** 當你為批次處理建立 **java ocr example** 時，請快取 `OcrEngine` 實例，而不是為每個檔案重新建構。建構者本身成本低，但原生 GPU 上下文重新建立的代價很高。
+**專業提示：** 若你在建置 **java ocr 範例** 的批次處理，請將 `OcrEngine` 實例快取起來，而非每個檔案都重新建立。建構子本身成本不高，但原生 GPU 上下文的重建相當耗時。
 
-## 擴充範例 – what’s next after you can recognize text image?
+## 延伸範例 – 辨識文字影像之後可以做什麼？
 
-1. **Export to PDF/A** – Aspose OCR 能將辨識文字嵌入為隱藏層，產生可搜尋的 PDF。  
-2. **Integrate with Tesseract** – 若需要針對 Aspose 尚未支援的語言作為備援，可將結果串接。  
-3. **Real‑time video OCR** – 從網路攝影機擷取畫格，送入相同引擎，並即時顯示字幕。  
-4. **Post‑processing** – 使用正規表達式清理常見的 OCR 錯誤（`"0"` 與 `"O"`），特別是當你 **how to extract text** 用於後續分析時。
+1. **建立使用 OCR 的可搜尋 PDF** – Aspose OCR 可將辨識文字嵌入隱藏層，將掃描 PDF 轉為完整可搜尋的文件。  
+2. **結合 Aspose.PDF** – 把 OCR 輸出與 PDF 產生結合，打造端對端文件工作流程。  
+3. **即時影片 OCR** – 從網路攝影機擷取畫格，送入同一引擎，即時顯示字幕。  
+4. **後處理** – 使用正規表達式清理常見 OCR 錯誤（例如 `"0"` 與 `"O"`），特別是在 **如何擷取文字** 供下游分析時。
 
 ## 完整原始碼（可直接複製）
 
@@ -166,15 +179,30 @@ public class GpuOcrDemo {
 }
 ```
 
-將此檔案另存為 `GpuOcrDemo.java`，使用 `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` 編譯，並以 `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` 執行。若環境設定正確，你將看到印出的擷取文字——證明你已成功使用 Aspose OCR **recognize text image**。
+將此檔存為 `GpuOcrDemo.java`，使用 `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` 編譯，然後以 `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` 執行。若環境設定正確，你將看到擷取的文字列印出來——證明你已成功 **使用 Aspose OCR 進行文字影像辨識**。
 
-## 結論
+## 常見問答
 
-我們剛剛完整示範了一個 **java ocr example**，說明如何從高解析度圖片 **how to extract text**，展示使用自適應閾值的 **how to preprocess ocr**，並利用 GPU 加速達成快速的 **recognize text image** 效能。程式碼自成一體，說明同時涵蓋 *what* 與 *why*，現在你已具備堅實基礎，可將此解決方案擴展至批次作業、可搜尋的 PDF，甚至即時影片串流。
+**Q: 可以直接從此範例產生可搜尋的 PDF 嗎？**  
+A: 可以。擷取文字後，使用 Aspose.PDF 建立 PDF 並嵌入 OCR 文字層，即可得到可搜尋的 PDF。
 
-準備好下一步了嗎？嘗試將語言切換為西班牙文，實驗不同的前處理濾鏡，或將 OCR 輸出結合自然語言處理管線自動為文件加標籤。沒有極限，Aspose OCR 為你提供所需工具。
+**Q: 若沒有支援 CUDA 的 GPU 該怎麼辦？**  
+A: 只要將 `.enableGpu(true)` 改為 `.enableGpu(false)`，引擎會自動回退至 CPU 模式，效能影響有限。
 
-如果遇到任何問題，請在下方留言或前往 Aspose 論壇——那裡有熱情的社群願意協助。祝開發愉快，盡情將影像轉換為可搜尋的文字！
+**Q: 如何處理多語言文件？**  
+A: 使用 `Language.Multilingual` 或在呼叫 `recognize` 前為每份文件設定相應的語言列舉。
+
+**Q: 有沒有方法有效率地批次處理大量影像？**  
+A: 有。建立單一 `OcrEngine` 實例，然後遍歷影像清單，必要時使用執行緒池平行化 `recognize` 呼叫。
+
+**Q: 哪裡可以找到更進階的前處理濾鏡？**  
+A: `PreprocessFilter` 列舉包含 `GaussianBlur`、`MedianFilter`、`ContrastStretch` 等選項，可自行實驗哪種最適合你的影像集。
+
+---
+
+**最後更新：** 2026-02-27  
+**測試環境：** Aspose.OCR 23.10 for Java  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
