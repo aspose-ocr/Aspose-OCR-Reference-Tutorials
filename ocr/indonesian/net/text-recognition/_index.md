@@ -55,6 +55,23 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Ekstrak Teks dari PNG – Baca Teks dari Gambar dengan OCR](./extract-text-from-png-read-text-from-image-with-ocr/)
+Ekstrak teks dari file PNG menggunakan Aspose.OCR untuk .NET. Ikuti panduan langkah demi langkah untuk membaca teks gambar dengan akurasi tinggi.
+### [Cara Melakukan OCR di C# – Ekstrak Teks Arab dari Gambar](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks Arab dari gambar dengan akurasi tinggi.
+### [Buat PDF yang dapat dicari dari file hasil pemindaian – Panduan langkah demi langkah C#](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+Pelajari cara mengubah file hasil pemindaian menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C# dengan panduan lengkap.
+### [Cara Memproses Batch OCR Gambar PNG di C# – Panduan Lengkap](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Pelajari cara melakukan OCR secara batch pada gambar PNG menggunakan C# dengan Aspose.OCR dalam panduan lengkap ini.
+### [Cara Menggunakan OCR: Mengonversi Gambar ke HTML di C#](./how-to-use-ocr-convert-image-to-html-in-c/)
+Pelajari cara mengonversi gambar menjadi HTML menggunakan Aspose.OCR di C# dengan langkah-langkah praktis.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Langkah demi Langkah](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+Ekstrak teks dari gambar menggunakan Aspose OCR dengan panduan langkah demi langkah untuk hasil akurat dan cepat.
+### [Cara Mengurai JSON dengan Mesin OCR C# – Panduan Lengkap Langkah demi Langkah](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+Pelajari cara mengurai JSON menggunakan mesin OCR di C# dengan panduan langkah demi langkah yang lengkap.
+### [Tutorial OCR C#: Ekstrak Teks dari Gambar (WebP, Foto) – Panduan Cepat](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+Pelajari cara mengekstrak teks dari gambar WebP dan foto menggunakan Aspose.OCR di C# dengan panduan singkat ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
