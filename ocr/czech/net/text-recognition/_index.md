@@ -55,6 +55,21 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [c# OCR tutoriál – Extrahování textu z obrázků pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat text z obrázků a integrovat OCR do svých aplikací.
+### [c# OCR tutoriál – Extrahování urdského textu z PNG obrázků](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat urdský text z PNG obrázků a integrovat OCR do svých aplikací.
+### [Jak používat OCR v C# – Extrahovat arabský text z JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat arabský text z JPG obrázků a integrovat OCR do svých aplikací.
+### [Vytvořte prohledávatelný PDF z obrázku v C# – Kompletní průvodce](./create-searchable-pdf-from-image-in-c-full-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor a integrovat OCR do svých aplikací.
+### [Jak provádět hromadné OCR v C# – Rychlé extrahování textu z obrázků](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Naučte se, jak pomocí Aspose.OCR v C# provádět hromadné OCR a rychle extrahovat text z obrázků.
+### [Jak vytvořit PDF/A ze skenovaných obrázků v C# – krok za krokem průvodce](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Naučte se, jak pomocí Aspose.OCR v C# vytvořit PDF/A z naskenovaných obrázků a integrovat OCR do vašich aplikací.
+### [Rozpoznat rukopisný text v C# pomocí Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# rozpoznat rukopisný text z obrázků a integrovat OCR do svých aplikací.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

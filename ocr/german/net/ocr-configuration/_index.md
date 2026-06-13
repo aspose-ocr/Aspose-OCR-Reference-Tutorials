@@ -62,6 +62,8 @@ Entfesseln Sie die Leistungsfähigkeit der OCR-Bilderkennung in .NET mit Aspose.
 Entfesseln Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
+### [Texterkennung aus Bild in C# – Wie man Kannada mit Aspose OCR erkennt](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren und die Kannada‑Schrift zuverlässig erkennen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  
