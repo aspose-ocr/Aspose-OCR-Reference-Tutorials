@@ -1,10 +1,14 @@
 ---
-date: 2025-12-22
-description: Dowiedz się, jak wstępnie przetwarzać obrazy OCR przy użyciu Aspose.OCR
-  dla .NET, aby zwiększyć dokładność OCR dzięki potężnym filtrom przetwarzania wstępnego.
-linktitle: Preprocess Image OCR with Aspose.OCR Filters for .NET
+date: 2026-04-12
+description: Dowiedz się, jak używać AspOCR do wstępnego przetwarzania OCR obrazów
+  w .NET, zwiększając dokładność dzięki potężnym filtrom przetwarzania wstępnego.
+keywords:
+- how to use aspocr
+- aspocr preprocessing filters
+- ocr image preprocessing .net
+linktitle: 'Jak używać AspOCR: przetwarzanie wstępne filtrów OCR obrazu dla .NET'
 second_title: Aspose.OCR .NET API
-title: Wstępne przetwarzanie obrazu OCR z filtrami Aspose.OCR dla .NET
+title: 'Jak korzystać z AspOCR: przetwarzanie wstępne filtrów OCR obrazu dla .NET'
 url: /pl/net/ocr-optimization/preprocessing-filters-for-image/
 weight: 12
 ---
@@ -13,28 +17,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przetwarzanie obrazu OCR przy użyciu filtrów Aspose.OCR dla .NET
+# Przetwarzanie wstępne obrazu OCR przy użyciu filtrów Aspose.OCR dla .NET
 
 ## Wprowadzenie
 
-Odkryj pełny potencjał rozpoznawania znaków optycznych (OCR) w swoich aplikacjach .NET, ucząc się **jak wstępnie przetwarzać obrazy OCR** przy użyciu Aspose.OCR. Ten krok‑po‑kroku poradnik pokazuje, jak zastosować filtry wstępnego przetwarzania, które dramatycznie **zwiększają dokładność OCR**, przekształcając surowe obrazy w czysty, przeszukiwalny tekst. Po zakończeniu tego przewodnika będziesz mógł zintegrować potężne wstępne przetwarzanie obrazu w dowolnym projekcie .NET i zobaczyć natychmiastowe poprawy wyników rozpoznawania.
+Odblokuj pełny potencjał rozpoznawania znaków optycznych (OCR) w swoich aplikacjach .NET, ucząc się **jak używać AspOCR** do wstępnego przetwarzania obrazu OCR przy pomocy Aspose.OCR. Ten krok‑po‑kroku tutorial pokazuje, jak zastosować filtry wstępnego przetwarzania, które dramatycznie **zwiększają dokładność OCR**, zamieniając surowe zdjęcia w czysty, przeszukiwalny tekst. Po zakończeniu tego przewodnika będziesz w stanie zintegrować potężne wstępne przetwarzanie obrazu w dowolnym projekcie .NET i zobaczyć natychmiastowe poprawy wyników rozpoznawania.
 
 ## Szybkie odpowiedzi
-- **Co robi wstępne przetwarzanie?** Czyści i ulepsza obraz (np. odwraca kolory, rozszerza) przed uruchomieniem OCR.  
-- **Jakiej biblioteki użyto?** Aspose.OCR dla .NET.  
+- **Co robi wstępne przetwarzanie?** Czyści i ulepsza obraz (np. odwraca kolory, dylatuje) przed uruchomieniem OCR.  
+- **Jakiej biblioteki używamy?** Aspose.OCR dla .NET.  
 - **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
-- **Czy mogę używać jej w .NET Core?** Tak, Aspose.OCR obsługuje .NET Framework i .NET Core.  
-- **Jakie formaty obrazów są obsługiwane?** PNG, JPEG, BMP, GIF, TIFF i inne.
+- **Czy mogę używać tego w .NET Core?** Tak, Aspose.OCR obsługuje .NET Framework i .NET Core.  
+- **Jakie formaty obrazów są obsługiwane?** PNG, JPEG, BMP, GIF, TIFF i inne.  
+
+## Czym jest AspOCR i dlaczego ma znaczenie?
+
+AspOCR to silnik OCR firmy Aspose dla .NET, który umożliwia wyodrębnianie tekstu z obrazów, plików PDF i zeskanowanych dokumentów. Korzystając z **filtrów wstępnego przetwarzania**, możesz redukować szumy, poprawiać kontrast i dostosowywać obraz do mocnych stron silnika — co skutkuje wyższymi wskaźnikami rozpoznawania, szczególnie w przypadku niskiej jakości skanów.
 
 ## Wymagania wstępne
 
-Zanim rozpoczniemy tę przygodę z OCR, upewnij się, że spełniasz następujące wymagania:
+Zanim wyruszymy w tę podróż OCR, upewnij się, że masz spełnione następujące wymagania:
 
 - Aspose.OCR dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.OCR. Dokumentację znajdziesz [tutaj](https://reference.aspose.com/ocr/net/), a pobrać ją możesz z [tego linku](https://releases.aspose.com/ocr/net/).
 
-- Twój katalog dokumentów: Utwórz katalog do przechowywania dokumentów i zanotuj jego ścieżkę, ponieważ będzie używana w przykładach.
+- Katalog dokumentów: Utwórz katalog do przechowywania swoich dokumentów i zanotuj jego ścieżkę, ponieważ będzie ona używana w przykładach.
 
-Teraz, gdy jesteśmy gotowi, zanurzmy się w niezbędne przestrzenie nazw oraz szczegółowe kroki, aby wykorzystać moc Aspose.OCR.
+Teraz, gdy wszystko jest gotowe, przejdźmy do niezbędnych przestrzeni nazw oraz szczegółowych kroków, aby wykorzystać moc Aspose.OCR.
 
 ## Importowanie przestrzeni nazw
 
@@ -46,7 +54,7 @@ using System.IO;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-## Jak wstępnie przetworzyć obraz OCR dla lepszej dokładności
+## Jak używać AspOCR do wstępnego przetwarzania obrazów OCR w celu zwiększenia dokładności
 
 ### Inicjalizacja AsposeOcr i ścieżka obrazu
 
@@ -61,7 +69,7 @@ AsposeOcr api = new AsposeOcr();
 string fullPath = dataDir + "black.png";
 ```
 
-### Zastosowanie filtrów wstępnego przetwarzania i zapis wyniku
+### Zastosowanie filtrów wstępnego przetwarzania i zapisanie wyniku
 
 ```csharp
 // Initialize filters
@@ -95,9 +103,9 @@ Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 ```
 
-Dzieląc proces na wiele kroków, zyskujesz elastyczność w precyzyjnym dostosowywaniu każdego aspektu rozpoznawania obrazu OCR. Eksperymentuj z różnymi filtrami, dostosowuj parametry i obserwuj zwiększoną dokładność oraz wydajność Aspose.OCR.
+Dzieląc proces na wiele kroków, zyskujesz elastyczność w precyzyjnym dostosowywaniu każdego aspektu rozpoznawania obrazu OCR. Eksperymentuj z różnymi filtrami, reguluj parametry i obserwuj zwiększoną dokładność oraz wydajność Aspose.OCR.
 
-Pamiętaj, aby odwołać się do [dokumentacji](https://reference.aspose.com/ocr/net/) w celu uzyskania szczegółowych informacji o możliwościach i funkcjach Aspose.OCR.
+Pamiętaj, aby odwoływać się do [dokumentacji](https://reference.aspose.com/ocr/net/) po szczegółowe informacje na temat możliwości i funkcji Aspose.OCR.
 
 ## Dlaczego warto używać filtrów wstępnego przetwarzania Aspose.OCR?
 
@@ -109,34 +117,32 @@ Pamiętaj, aby odwołać się do [dokumentacji](https://reference.aspose.com/ocr
 
 | Problem | Przyczyna | Rozwiązanie |
 |-------|-------|-----|
-| Pusty wynik | Obraz nie został prawidłowo wstępnie przetworzony (np. nieprawidłowe odwrócenie kolorów) | Sprawdź kolejność filtrów; spróbuj użyć `PreprocessFilter.Invert()` tylko na obrazach z ciemnym tekstem. |
-| Wolna wydajność | Duży rozmiar obrazu | Zmień rozmiar lub zmniejsz obraz przed zastosowaniem filtrów. |
-| Nierozpoznane znaki | Niski kontrast | Dodaj `PreprocessFilter.ContrastStretch()` (jeśli dostępny), aby zwiększyć kontrast. |
+| Pusty wynik | Obraz nie został prawidłowo wstępnie przetworzony (np. niewłaściwe odwrócenie kolorów) | Sprawdź kolejność filtrów; wypróbuj `PreprocessFilter.Invert()` tylko dla obrazów z ciemnym tekstem. |
+| Wolna wydajność | Duży rozmiar obrazu | Zmniejsz rozmiar lub przeskaluj obraz przed zastosowaniem filtrów. |
+| Nie rozpoznane znaki | Niski kontrast | Dodaj `PreprocessFilter.ContrastStretch()` (jeśli dostępny), aby zwiększyć kontrast. |
 
 ## Najczęściej zadawane pytania
 
-**Q1: Czy mogę używać Aspose.OCR dla .NET zarówno w aplikacjach desktopowych, jak i webowych?**  
-A1: Tak, Aspose.OCR jest zaprojektowany tak, aby być wszechstronnym i może być używany zarówno w aplikacjach desktopowych, jak i webowych rozwijanych przy użyciu .NET.
+**P1: Czy mogę używać Aspose.OCR dla .NET zarówno w aplikacjach desktopowych, jak i webowych?**  
+Odp: Tak, Aspose.OCR jest zaprojektowany tak, aby być wszechstronnym i może być używany w obu typach aplikacji tworzonych w .NET.
 
-**Q2: Czy dostępne są opcje licencjonowania Aspose.OCR?**  
-A2: Tak, możesz zapoznać się z opcjami licencjonowania i dokonać zakupu [tutaj](https://purchase.aspose.com/buy). Dodatkowo, darmowa wersja próbna jest dostępna [tutaj](https://releases.aspose.com/), a licencje tymczasowe można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**P2: Czy dostępne są różne opcje licencjonowania Aspose.OCR?**  
+Odp: Tak, opcje licencjonowania możesz przeglądać i zakupić [tutaj](https://purchase.aspose.com/buy). Dodatkowo, darmowa wersja próbna jest dostępna [tutaj](https://releases.aspose.com/), a licencje tymczasowe można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-**Q3: Jak mogę uzyskać wsparcie dla Aspose.OCR?**  
-A3: W przypadku pytań lub problemów, odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od społeczności i wsparcia Aspose.
+**P3: Jak mogę uzyskać wsparcie dla Aspose.OCR?**  
+Odp: W razie pytań lub problemów odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od społeczności i wsparcia Aspose.
 
-**Q4: Jakie formaty obrazów obsługuje Aspose.OCR?**  
-A4: Aspose.OCR obsługuje szeroką gamę formatów obrazów, w tym PNG, JPEG, GIF, BMP i TIFF.
+**P4: Jakie formaty obrazów obsługuje Aspose.OCR?**  
+Odp: Aspose.OCR obsługuje szeroką gamę formatów, w tym PNG, JPEG, GIF, BMP i TIFF.
 
-**Q5: Czy mogę zintegrować Aspose.OCR z istniejącym projektem .NET?**  
-A5: Oczywiście! Postępuj zgodnie z krokami opisanymi w poradniku, a bezproblemowo zintegrować Aspose.OCR z projektem .NET w celu rozpoznawania obrazu OCR.
+**P5: Czy mogę zintegrować Aspose.OCR z istniejącym projektem .NET?**  
+Odp: Oczywiście! Postępuj zgodnie z krokami opisanymi w tutorialu, a bezproblemowo włączysz Aspose.OCR do swojego projektu .NET w celu rozpoznawania obrazów OCR.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-22  
-**Testowano z:** Aspose.OCR 24.11 for .NET  
+**Ostatnia aktualizacja:** 2026-04-12  
+**Testowane z:** Aspose.OCR 24.11 dla .NET  
 **Autor:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
