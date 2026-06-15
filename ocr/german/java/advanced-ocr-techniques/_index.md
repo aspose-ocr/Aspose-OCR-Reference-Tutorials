@@ -35,7 +35,7 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.OCR für Java in unserem Leitfa
 
 ## [Vorbereiten von Rechtecken für OCR in Aspose.OCR](./prepare-rectangles-for-ocr/)
 
-Bereiten Sie mithilfe unseres umfassenden Leitfadens mit Aspose.OCR für Java effizient Rechtecke für OCR vor. Verbessern Sie Ihre Java-Anwendungen, indem Sie das volle Potenzial der Texterkennung ausschöpfen. Befolgen Sie die Schritt-für-Schritt-Anleitung für eine nahtlose Integration und verbesserte OCR-Funktionen.
+Bereiten Sie mithilfe unseres umfassenden Leitfadens mit Aspose.OCR für Java effizient Rechtecke für OCR vor. Verbessern Sie Ihre Java-Anwendungen, indem Sie das volle Potenzial der Texterkennung ausschöpfen. Befolgen Sie die Schritt-für-Schritt-Anleitung für eine nahtlose Integration und ver­besserte OCR-Funktionen.
 
 ## [Erkennen von Linien in Aspose.OCR für Java](./recognize-lines/)
 
@@ -61,6 +61,13 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [GPU für Java OCR aktivieren – Komplettes Tutorial](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Erfahren Sie, wie Sie GPU-Beschleunigung in Aspose.OCR für Java aktivieren, um die Texterkennungsgeschwindigkeit zu maximieren.
+### [Erstellen eines festen Thread-Pools für paralleles OCR in Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Erfahren Sie, wie Sie mit einem festen Thread-Pool die OCR-Verarbeitung in Java parallelisieren und die Leistung steigern.
+### [Verbessern Sie die OCR-Genauigkeit in Java – Komplettes Aspose OCR‑Handbuch](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie die OCR‑Genauigkeit in Java mit Aspose OCR optimieren und zuverlässige Textergebnisse erzielen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
