@@ -53,8 +53,19 @@ Liberte o poder do Aspose.OCR para .NET. Aprenda a obter resultados de OCR no fo
 Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de texto de imagem. Explore o modo de detecção de áreas de OCR para obter resultados precisos.
 ### [Reconhecer PDF em reconhecimento de imagem OCR](./recognize-pdf/)
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
+### [Realizar OCR em PDF com Aspose.OCR – Guia Completo em C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aprenda a executar OCR em PDFs usando Aspose.OCR com um guia completo em C#. Integre facilmente em seus aplicativos .NET.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Realizar OCR em Imagem com Aspose OCR – Guia em Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aprenda a executar OCR em imagens usando Aspose OCR com suporte ao idioma Hindi. Guia passo a passo para integrar OCR em seus aplicativos.
+### [Como usar Aspose: Converter imagem para HTML com OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aprenda a converter imagens em HTML usando Aspose OCR, preservando o texto reconhecido em formato web.
+### [Executar OCR em Imagem e Detectar Palavras Erradas em C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aprenda a executar OCR em imagens e identificar palavras com erros ortográficos usando Aspose.OCR em C#.
+### [OCR de Legenda de Vídeo em C# – Guia Completo](./video-subtitle-ocr-in-c-complete-guide/)
+Aprenda a extrair legendas de vídeos usando Aspose.OCR em C#, com um guia passo a passo para integrar OCR de legendas em seus aplicativos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
