@@ -1,0 +1,7 @@
+Title: recognize arabic text from image – Complete C# Guide Using Aspose OCR
+Slug: recognize-arabic-text-from-image-complete-c-guide-using-aspo
+Category: text-recognition
+ProcessedDate: 2026-06-16T11:22:52.344724
+SourceRepo: AI Search API
+Keywords: recognize arabic text from image, convert image to text c#
+PRNumber: 144
