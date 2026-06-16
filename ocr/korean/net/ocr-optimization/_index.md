@@ -68,6 +68,10 @@ Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높
 Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [Aspose OCR로 OCR 수행하기 – GPU 가속 C# 가이드](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+GPU 가속을 활용한 Aspose OCR C# 구현 방법을 단계별로 안내합니다. 고성능 OCR 처리로 정확도와 속도를 높이세요.
+### [C#에서 스캔 텍스트 추출 – 완전 Aspose OCR 가이드](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+C#을 사용해 스캔 이미지에서 텍스트를 정확히 추출하고, 결과를 저장하는 전체 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

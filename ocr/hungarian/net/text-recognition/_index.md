@@ -37,6 +37,9 @@ A hatékonyság kulcsfontosságú a .NET-alkalmazásokban, és az Aspose.OCR seg
 
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget PDF-fájlokból, és zökkenőmentesen integrálja alkalmazásaiba. Ez az oktatóanyag átfogó útmutatót nyújt a PDF-fájlok szövegének felismeréséhez, biztosítva a zökkenőmentes és hatékony integrációs élményt.
 
+## Kereshető PDF létrehozása képből C#‑ban – Teljes útmutató
+Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+
 ## Táblázat felismerése az OCR képfelismerésben
 
 Az Aspose.OCR for .NET segítségével navigálhat a táblázatok felismerésének bonyolultságában az OCR képfelismerésben. Átfogó útmutatónk felhatalmazza Önt az Aspose.OCR teljes potenciáljának kiaknázására, biztosítva a pontos és hatékony táblázatfelismerést alkalmazásaiban. Emelje fel projektjeit az iparágvezető OCR megoldással.
@@ -48,13 +51,27 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a pontos karakterfel
 ### [Felismerés eredménye az OCR képfelismerésben](./get-recognition-result/)
 Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a zökkenőmentes szövegfelismeréshez a képekben.
 ### [Eredmény lekérése JSON-ként az OCR képfelismerésben](./get-result-as-json/)
-Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről-lépésre szóló útmutatóval.
+Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről‑lépésre szóló útmutatóval.
 ### [OCR Területek észlelése mód az OCR képfelismerésben](./ocr-detect-areas-mode/)
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
+### [Kereshető PDF létrehozása képből C#‑ban – Teljes útmutató](./create-searchable-pdf-from-image-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag: Szöveg kinyerése képekből az Aspose OCR segítségével](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [c# OCR oktatóanyag – Szöveg kinyerése képből az Aspose OCR használatával](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+### [Hogyan töltsünk le OCR erőforrásokat és ismerjünk fel szöveget képről C#-ban](./how-to-download-ocr-resources-and-recognize-text-from-image/)
+Töltse le az OCR erőforrásokat, és C#-ban lépésről‑lépésre tanulja meg a képek szövegének felismerését az Aspose OCR segítségével.
+### [Hogyan OCR-elj arab nyelven C#-ban – Teljes programozási útmutató](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Ismerje meg, hogyan végezhet arab nyelvű szövegfelismerést C#-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Hogyan mentse a JSON-t OCR-ből C#‑ban – Lépésről‑lépésre útmutató](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
+Tanulja meg, hogyan menthet JSON eredményeket az Aspose.OCR használatával C#‑ban, lépésről‑lépésre útmutatóval.
+### [Kötegelt OCR C#‑ban – Gyors szövegkinyerés képekből](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
+Ismerje meg, hogyan végezhet kötegelt OCR‑t C#‑ban, és gyorsan nyerhet ki szöveget nagy mennyiségű képből.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
