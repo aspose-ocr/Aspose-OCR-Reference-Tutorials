@@ -45,6 +45,9 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
 
+## [Rozpoznání textu z obrázku – Java OCR s akcelerací GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z obrázků v Javě pomocí Aspose.OCR.
+
 ## Závěr
 
 Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
@@ -61,6 +64,15 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Rozpoznání textu z obrázku – Java OCR s akcelerací GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z obrázků v Javě pomocí Aspose.OCR.
+### [Nastavte maximální počet vláken v Aspose OCR Java – Zrychlete OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Zvyšte výkon OCR nastavením maximálního počtu vláken v Aspose OCR pro Java. Rychlejší zpracování obrázků a vyšší propustnost.
+### [image to text java – Kompletní průvodce předzpracováním OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Kompletní průvodce předzpracováním OCR v Javě – převod obrázku na text s optimalizací kvality.
+### [Jak provést OCR TIFF – Streamování velkých TIFF souborů a extrakce textových dlaždic v Javě](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Zpracujte velké TIFF soubory a extrahujte textové dlaždice pomocí Aspose.OCR pro Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
