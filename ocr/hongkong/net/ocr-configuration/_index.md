@@ -60,6 +60,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 使用 Aspose.OCR for .NET 釋放強大的 OCR 功能。將文字無縫地從圖像中提取。
 ### [OCR 影像辨識中對清單檔案的 OCR 操作](./ocr-operation-with-list/)
 釋放 Aspose.OCR for .NET 的潛能。輕鬆實現清單的 OCR 影像辨識。提升應用程式的效率和資料提取速度。
+### [檢查 Aspose OCR 授權旗標 – 快速指南驗證授權](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+說明如何在 Aspose OCR 中檢查授權旗標，確保您的應用程式正確驗證授權狀態。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

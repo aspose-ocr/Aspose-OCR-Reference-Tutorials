@@ -67,6 +67,8 @@ Unlock the potential of text recognition with Aspose.OCR for .NET. Recognize tex
 Unleash the potential of Aspose.OCR for .NET in recognizing lines in OCR image recognition. A developer's guide to seamless text extraction from images.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Unlock OCR magic with Aspose.OCR for .NET effortlessly extract text from images. Explore the tutorial for seamless integration.
+### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Learn how to convert images to Excel spreadsheets using Aspose.OCR in C#, covering image processing, OCR extraction, and Excel generation.
 
 ## Frequently Asked Questions
 
