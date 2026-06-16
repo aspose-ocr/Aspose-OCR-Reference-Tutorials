@@ -55,6 +55,19 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Tutoriel C# OCR – extraire du texte d'une image](./c-ocr-tutorial-extract-text-from-image/)
+Apprenez à extraire du texte d'une image avec Aspose.OCR en C#. Suivez notre guide pas à pas pour intégrer l'OCR dans vos applications .NET.
+### [Convertir une image en texte avec Aspose OCR – Guide C# étape par étape](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Apprenez à transformer une image en texte avec Aspose OCR en suivant notre guide C# détaillé.
+### [Reconnaître le texte d'une image avec Aspose OCR – Guide complet C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'une image avec Aspose OCR en suivant notre guide complet C# pas à pas.
+### [Générer un PDF recherchable à partir d'images en C# – Guide étape par étape](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Apprenez à créer un PDF searchable à partir d'images en C# avec Aspose.OCR grâce à notre guide détaillé étape par étape.
+### [Comment effectuer une reconnaissance OCR par lots d'images JPEG en C# – Guide complet](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Apprenez à traiter plusieurs images JPEG en lot avec Aspose.OCR en C#. Suivez notre guide complet étape par étape.
+### [Reconnaître le texte d'une image en C# avec Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Apprenez à extraire le texte d'une image en C# avec Aspose OCR grâce à notre guide étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

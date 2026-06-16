@@ -66,6 +66,9 @@ weight: 25
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET。使用预处理过滤器提升 OCR 准确度。立即下载，实现无缝集成。
 
+### [如何对图像进行 OCR：提升对比度，去除噪声](./how-to-ocr-image-boost-contrast-remove-noise/)
+学习如何通过提升对比度和去噪来优化 OCR 识别，提高文本提取的准确率。
+
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提升 OCR 准确度。纠正拼写、定制词典，轻松实现零错误的文本识别。
 

@@ -55,6 +55,18 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [c# OCR-handledning – extrahera text från bild](./c-ocr-tutorial-extract-text-from-image/)
+Lär dig hur du använder Aspose.OCR i C# för att extrahera text från bilder med enkla steg.
+### [Konvertera bild till text med Aspose OCR – Steg‑för‑steg C#‑guide](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Lär dig hur du med Aspose OCR i C# konverterar bilder till text med en tydlig steg‑för‑steg‑guide.
+### [Känn igen text från bild med Aspose OCR – Komplett C#‑guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig hur du med Aspose OCR i C# extraherar text från bilder i en komplett steg‑för‑steg‑guide.
+### [Känn igen text från bild i C# med Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Lär dig hur du med Aspose OCR i C# extraherar text från en bild i en tydlig steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bilder i C# – Steg‑för‑steg‑guide](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Lär dig hur du genererar en sökbar PDF från bilder i C# med en tydlig steg‑för‑steg‑guide.
+### [Batch-OCR av JPEG-bilder i C# – Komplett guide](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Lär dig hur du med Aspose.OCR i C# batchbearbetar JPEG-bilder för effektiv textigenkänning i en komplett steg‑för‑steg‑guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
