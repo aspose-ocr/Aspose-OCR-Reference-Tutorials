@@ -82,6 +82,14 @@ Unlock the power of text recognition with Aspose.OCR for Java. Follow our step�
 Empower your Java applications with Aspose.OCR for precise text recognition. Easy integration, high accuracy.
 ### [Specifying Allowed Characters in Aspose.OCR](./specify-allowed-characters/)
 Unlock text extraction from images seamlessly with Aspose.OCR for Java. Follow our step‑by‑step guide for efficient integration.
+### [recognize text from image using Java – GPU OCR tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Leverage GPU acceleration to recognize text from images in Java using Aspose.OCR, achieving faster processing and high accuracy.
+### [recognize text from images with Aspose OCR – Java Parallel Batch Guide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Learn how to process multiple images concurrently using Aspose.OCR for Java, boosting OCR throughput with parallel batch execution.
+### [Extract Text from Encrypted PDF in Java – Complete Guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Learn how to decrypt PDF files and extract text using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
+### [Preprocess Image for OCR – Boost Accuracy with Preprocessing](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Boost OCR accuracy by preprocessing images before recognition with Aspose.OCR for Java.
 
 ## Frequently Asked Questions
 
