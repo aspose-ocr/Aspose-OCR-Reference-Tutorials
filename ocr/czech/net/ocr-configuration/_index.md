@@ -60,6 +60,8 @@ Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za kr
 Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extrahujte text z obrázků.
 ### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
 Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
+### [Detekce jazyka z obrázku v C# – Kompletní programovací průvodce](./detect-language-from-image-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.OCR detekovat jazyk textu přímo z obrázku v C#.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
 
