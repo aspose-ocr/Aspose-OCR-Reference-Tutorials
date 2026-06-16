@@ -23,7 +23,7 @@ W tym samouczku poprowadzimy Cię przez wykorzystanie możliwości Aspose.OCR dl
 
 ## Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR
 
-Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznawania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
+Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
 
 ## Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR
 
@@ -53,8 +53,19 @@ Uwolnij moc Aspose.OCR dla .NET. Dowiedz się, jak bez wysiłku uzyskiwać wynik
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać tekst obrazu. Poznaj tryb wykrywania obszarów OCR, aby uzyskać dokładne wyniki.
 ### [Rozpoznaj plik PDF w rozpoznawaniu obrazu OCR](./recognize-pdf/)
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
+### [Jak wykonać OCR w C# – wyodrębnić tekst z obrazu](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Dowiedz się, jak w C# wyodrębnić tekst z obrazu przy użyciu Aspose OCR, krok po kroku, aby uzyskać szybkie i dokładne wyniki.
+### [Jak wykonać OCR w C# – Pełny przewodnik krok po kroku](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Dowiedz się, jak w C# przeprowadzić OCR pliku PDF przy użyciu Aspose, krok po kroku, aby uzyskać szybkie i dokładne wyniki.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Uruchom OCR na obrazie z Aspose w C# – Pełny przewodnik krok po kroku](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Dowiedz się, jak w C# przeprowadzić OCR obrazu przy użyciu Aspose, krok po kroku, aby uzyskać szybkie i dokładne wyniki.
+### [Rozpoznaj tekst z obrazu w C# – Pełny przewodnik Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Dowiedz się, jak w C# rozpoznać tekst z obrazu przy użyciu Aspose OCR, krok po kroku, aby uzyskać szybkie i dokładne wyniki.
+### [Wyodrębnij tekst z obrazu w C# – Asynchroniczny samouczek OCR](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Dowiedz się, jak w C# asynchronicznie wyodrębnić tekst z obrazu przy użyciu Aspose.OCR, krok po kroku, aby uzyskać szybkie i dokładne wyniki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
