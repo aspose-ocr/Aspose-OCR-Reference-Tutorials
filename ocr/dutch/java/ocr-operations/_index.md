@@ -27,6 +27,7 @@ Bent u klaar om uw tekst‑extractie naar een hoger niveau te tillen? **Herken P
 - **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose‑licentie is vereist voor commerciële implementaties.
 
 ## Wat is “herken pdf tekst”?
+
 Het herkennen van PDF‑tekst houdt in dat elke pagina van een PDF wordt gescand, OCR‑algoritmen worden toegepast en een doorzoekbare laag wordt gecreëerd die de visuele weergave koppelt aan daadwerkelijke tekens. Aspose.OCR voor Java automatiseert dit proces en levert hoogwaardige resultaten zonder handmatige tussenkomst.
 
 ## Waarom Aspose.OCR voor Java gebruiken?
@@ -80,6 +81,14 @@ Ontgrendel de kracht van OCR in Java met Aspose.OCR. Herken moeiteloos tekst in 
 Ontgrendel krachtige tekst‑herkenning in Java met Aspose.OCR. Herken moeiteloos tekst in TIFF‑afbeeldingen. Download nu voor een naadloze OCR‑ervaring.
 ### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR-tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
+### [OCR uitvoeren op document in Java – volledige gids](./run-ocr-on-document-in-java-complete-guide/)
+Leer hoe u OCR toepast op documenten in Java met een stap‑voor‑stap volledige gids.
+### [Tekst uit afbeelding herkennen met Java OCR – volledige gids](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Leer stap‑voor‑stap hoe u tekst uit afbeeldingen herkent met Aspose OCR in Java, van configuratie tot optimale resultaten.
+### [Afbeelding laden voor OCR, tekst uit regio extraheren – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Leer hoe u een afbeelding laadt en tekst uit een specifiek gebied met Aspose.OCR in Java extraheert.
+### [Maak doorzoekbare PDF met Aspose OCR – Complete Java-gids](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Leer stap‑voor‑stap hoe u met Aspose OCR een doorzoekbare PDF maakt in Java, van configuratie tot export.
 
 ## Veelgestelde vragen
 
