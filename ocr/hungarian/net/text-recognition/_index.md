@@ -55,6 +55,18 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [c# OCR oktatóanyag: Szöveg kinyerése képből az Aspose OCR segítségével](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR használatával, lépésről-lépésre útmutatóval.
+### [OCR futtatása képen az Aspose OCR-rel – Kínai szöveg felismerése](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t kínai szöveg felismerésére képeken C#-ban, lépésről-lépésre útmutatóval.
+### [c# OCR oktatóanyag – Arab szöveg kinyerése képekből](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Ismerje meg, hogyan nyerhet ki arab nyelvű szöveget képekből C#-ban az Aspose OCR használatával, részletes lépésről-lépésre útmutatóval.
+### [Szöveg kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR teljes körű útmutatójával, lépésről-lépésre.
+
+### [Excel létrehozása képből az Aspose OCR-rel – Lépésről‑lépésre útmutató](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre Excel-fájlt képekből az Aspose OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,17 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [c# OCR σεμινάριο: Εξαγωγή κειμένου από εικόνα με Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Αποκτήστε τα βήματα για εξαγωγή κειμένου από εικόνα χρησιμοποιώντας το Aspose OCR σε .NET εφαρμογές.
+### [Εκτέλεση OCR σε εικόνα με Aspose OCR – Αναγνώριση Κινέζικου κειμένου](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Μάθετε πώς να αναγνωρίζετε κινεζικό κείμενο σε εικόνες χρησιμοποιώντας το Aspose OCR σε .NET εφαρμογές.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR – Πλήρης οδηγός C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Ακολουθήστε τον πλήρη οδηγό C# για την εξαγωγή κειμένου από εικόνες χρησιμοποιώντας το Aspose OCR.
+### [c# OCR σεμινάριο – Εξαγωγή αραβικού κειμένου από εικόνες](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Αποκτήστε τα βήματα για εξαγωγή αραβικού κειμένου από εικόνες με το Aspose OCR σε .NET εφαρμογές.
+### [Δημιουργία Excel από εικόνα με Aspose OCR – Οδηγός βήμα‑βήμα](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από εικόνα χρησιμοποιώντας το Aspose OCR σε .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
