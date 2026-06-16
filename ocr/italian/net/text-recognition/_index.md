@@ -55,6 +55,19 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Riconosci testo hindi in C# con Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+Scopri come riconoscere testo hindi in C# con Aspose OCR, migliorando le tue applicazioni .NET con supporto multilingue.
+### [Tutorial OCR C#: Estrai testo dalle immagini con Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Scopri come estrarre testo da immagini usando Aspose OCR in C#, con esempi passo passo per integrare facilmente la funzionalità OCR nella tua app.
+### [Come creare PDF ricercabile da JPG – Guida passo‑passo](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+Impara a trasformare immagini JPG in PDF ricercabili con Aspose.OCR, seguendo una guida dettagliata passo dopo passo.
+### [Come utilizzare OCR in C# – Estrarre testo da immagine con Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+Scopri come estrarre testo da un'immagine usando Aspose OCR in C#, con esempi pratici per integrare rapidamente la funzionalità OCR nella tua applicazione.
+### [Riconosci testo da immagine in C# con Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Scopri come riconoscere testo da un'immagine in C# con Aspose OCR, con esempi passo passo per integrare facilmente la funzionalità OCR nella tua app.
+### [OCR batch di immagini in C# – Guida completa per estrarre testo](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+Scopri come elaborare più immagini in batch con Aspose.OCR in C#, estraendo testo in modo efficiente con esempi passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
