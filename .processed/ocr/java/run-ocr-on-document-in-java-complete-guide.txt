@@ -1,0 +1,7 @@
+Title: Run OCR on Document in Java – Complete Guide
+Slug: run-ocr-on-document-in-java-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-06-16T12:46:22.184846
+SourceRepo: AI Search API
+Keywords: run ocr on document, how to configure ocr, recognize text from tiff, extract text from multi-page
+PRNumber: 145
