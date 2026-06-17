@@ -49,12 +49,18 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un riconoscimento accurato 
 Esplora Aspose.OCR per .NET, una potente soluzione OCR per il riconoscimento continuo del testo nelle immagini.
 ### [Ottieni risultati come JSON nel riconoscimento immagini OCR](./get-result-as-json/)
 Scatena la potenza di Aspose.OCR per .NET. Impara a ottenere risultati OCR in formato JSON senza sforzo. Migliora il riconoscimento delle tue immagini con questa guida passo passo.
+### [Riconosci il testo dell'immagine in C# – Guida completa con esportazione JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
+Scopri come riconoscere il testo nelle immagini usando C# e esportare i risultati in formato JSON con Aspose.OCR.
 ### [Modalità Rileva aree OCR in Riconoscimento immagini OCR](./ocr-detect-areas-mode/)
 Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconoscimento del testo delle immagini. Esplora la modalità Rileva aree OCR per risultati precisi.
 ### [Riconoscere PDF nel riconoscimento immagini OCR](./recognize-pdf/)
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Come usare OCR in C# – Estrarre testo semplice dalle immagini](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Scopri come estrarre testo puro da immagini usando Aspose.OCR in C#, con esempi pratici e codice pronto all'uso.
+### [Esegui OCR su immagine e converti in EPUB – Guida completa C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Scopri come eseguire OCR su un'immagine e convertirla in EPUB usando Aspose.OCR con C#, passo dopo passo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

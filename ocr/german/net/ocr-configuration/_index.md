@@ -62,6 +62,10 @@ Entfesseln Sie die Leistungsfähigkeit der OCR-Bilderkennung in .NET mit Aspose.
 Entfesseln Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
+### [Text aus Bild mit Aspose OCR GPU extrahieren – Vollständige C#‑Anleitung](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus Bildern schnell und präzise in C# zu extrahieren.
+### [Wie man die Lizenz in Aspose OCR setzt – Vollständige C#‑Anleitung](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz korrekt in C#‑Projekten aktivieren und nutzen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  
