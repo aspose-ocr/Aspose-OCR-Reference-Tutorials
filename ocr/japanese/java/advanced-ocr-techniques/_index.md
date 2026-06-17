@@ -45,6 +45,13 @@ Aspose.OCR を使用して Java アプリケーションを強化し、正確な
 
 Aspose.OCR for Java で許可された文字を指定することで、画像からテキストを簡単に抽出できます。ステップバイステップのガイドに従って効率的に統合し、シームレスなテキスト認識エクスペリエンスを確保します。 Aspose.OCR 機能を使用して Java アプリケーションを強化します。
 
+## [Java OCR で GPU を有効化する方法 – 画像からテキストを認識](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+
+Java OCR で GPU を活用し、画像から高速かつ高精度にテキストを抽出する手順を解説します。
+
+## [Java で OCR を使用する方法 – PDF からテキストを抽出する (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Aspose OCR for Java を使用して、PDF ドキュメントからテキストを抽出する手順を解説します。簡単に OCR を活用し、PDF の内容を取得しましょう。
+
 ## 結論
 
 Aspose.OCR for Java を使用すると、高度な OCR テクニックを習得するのがこれまでになく簡単になります。これらのチュートリアルを学習して、Java プロジェクトにおけるテキスト認識の可能性を最大限に引き出してください。シームレスな統合、高精度、多用途のテキスト抽出機能により、アプリケーションを強化します。今すぐダウンロードして、Aspose.OCR for Java で優れた OCR への第一歩を踏み出しましょう!
@@ -61,6 +68,17 @@ Aspose.OCR for Java でテキスト認識の能力を解放します。シーム
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
 ### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+### [Java OCR で GPU を有効化する方法 – 画像からテキストを認識](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Java OCR で GPU を活用し、画像から高速かつ高精度にテキストを抽出する手順を解説します。
+### [Java で OCR を使用する方法 – PDF からテキストを抽出する (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Aspose OCR for Java を使用して、PDF からテキストを抽出する手順を解説します。簡単に OCR を活用し、PDF の内容を取得できます。
+### [Java で Aspose を使用した多言語 OCR の使用方法](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Aspose OCR を利用して、Java で複数言語のテキストを正確に抽出する手順を解説します。
+### [手書きノートの OCR – Aspose OCR でエラーを修正](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Aspose OCR を使用して、手書きノートの文字認識時に発生するエラーを修正し、正確なテキスト抽出を実現します。
+### [検索可能な PDF の作成 – スキャンした PDF を変換する Java ガイド](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Aspose.OCR for Java を使用して、スキャンした PDF を検索可能な PDF に変換する手順を解説します。簡単にテキスト抽出と検索機能を実装できます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
