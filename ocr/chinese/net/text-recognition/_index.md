@@ -27,7 +27,7 @@ url: /zh/net/text-recognition/
 
 ## 在 OCR 图像识别中获取 JSON 格式的结果
 
-通过学习如何轻松获取 JSON 格式的 OCR 结果，释放 Aspose.OCR for .NET 的全部潜力。本分步指南可确保您顺利增强图像识别能力。利用 Aspose.OCR 强大的功能和行业领先的技术提高应用程序的效率。
+释放 Aspose.OCR for .NET 的强大功能。学习轻松获取 JSON 格式的 OCR 结果。通过本分步指南增强您的图像识别能力。
 
 ## OCR图像识别中的OCR检测区域模式
 
@@ -49,12 +49,23 @@ url: /zh/net/text-recognition/
 探索 Aspose.OCR for .NET，这是一款功能强大的 OCR 解决方案，可实现图像中的无缝文本识别。
 ### [在 OCR 图像识别中获取 JSON 格式的结果](./get-result-as-json/)
 释放 Aspose.OCR for .NET 的强大功能。学习轻松获取 JSON 格式的 OCR 结果。通过本分步指南增强您的图像识别能力。
+### [如何使用 Aspose OCR 将图像转换为 JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+学习如何使用 Aspose OCR 将图像转换为 JSON 格式，轻松获取结构化识别结果。
 ### [OCR图像识别中的OCR检测区域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增强您的 .NET 应用程序，以实现高效的图像文本识别。探索 OCR 检测区域模式以获得精确结果。
 ### [OCR图像识别中识别PDF](./recognize-pdf/)
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [从图像创建 EPUB 文件 – 完整的 C# OCR 指南](./create-epub-file-from-image-complete-c-ocr-guide/)
+使用 Aspose.OCR 将图像转换为 EPUB 文件的完整 C# 实现指南，帮助您轻松生成电子书。
+### [如何使用 Aspose 进行阿拉伯文本 OCR – C# 示例](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+通过本示例学习在 C# 中使用 Aspose.OCR 识别阿拉伯语文本，实现高精度字符识别。
+### [使用 Aspose OCR 从图像识别文本 – 完整的 C# 异步指南](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+使用 Aspose OCR 实现异步 C# 完整指南，帮助您从图像中识别文本并高效处理。
+### [使用 Aspose OCR 从图像识别文本 – 完整的 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose OCR 实现完整的 C# 指南，帮助您从图像中识别文本并高效处理。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
