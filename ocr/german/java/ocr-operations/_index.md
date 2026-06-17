@@ -57,6 +57,9 @@ Keine mühsame PDF‑Textextraktion mehr. Tauchen Sie in das Tutorial ein und r�
 
 [Get Started with PDF Recognition](./recognize-pdf/)
 
+### [Durchsuchbares PDF aus Bild in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR ein durchsuchbares PDF aus einem Bild in Java erzeugen.
+
 ## OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java
 Erleben Sie die nächste Stufe der Texterkennung in Java mit Aspose.OCR. Unser Tutorial zur Erkennung von Text in TIFF‑Bildern ist darauf ausgelegt, den Prozess für Sie mühelos zu gestalten. Laden Sie jetzt herunter für ein nahtloses OCR‑Erlebnis und erleben Sie die Präzision und Geschwindigkeit, die Aspose.OCR bietet.
 
@@ -77,6 +80,14 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [Bildtext mit Aspose OCR erkennen – Vollständiges Java OCR‑Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von Bilddateien mit Aspose OCR in Java erklärt.
+### [Bildtext mit Aspose OCR erkennen – Java‑Tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Erfahren Sie, wie Sie Text aus Bildern mit Aspose OCR in Java erkennen und verarbeiten.
+### [Bild‑zu‑Text Java: Urdu‑Text mit Aspose OCR extrahieren](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Erfahren Sie, wie Sie Urdu‑Text aus Bildern mit Aspose OCR in Java extrahieren.
+### [OCR in Java verwenden – Text aus PDF mit Aspose.OCR extrahieren](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose.OCR in Java PDF‑Dateien analysieren und Text extrahieren, um durchsuchbare Dokumente zu erstellen.
+### [OCR in Java verwenden – Text schnell aus Bild erkennen](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Erfahren Sie, wie Sie OCR in Java einsetzen, um Text aus Bildern schnell und effizient zu extrahieren.
 
 ## Häufig gestellte Fragen
 
