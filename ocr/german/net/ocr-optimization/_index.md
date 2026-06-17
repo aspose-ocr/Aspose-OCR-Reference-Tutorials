@@ -56,8 +56,6 @@ Erreichen Sie unvergleichliche OCR‑Genauigkeit mit [Aspose.OCR for .NET](./res
 ## Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung
 Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit Aspose.OCR für .NET. Unser [Schritt-für-Schritt-Anleitung](./save-multipage-result-as-document/) erschließt das volle Potenzial der Dokumentenerstellung. Integrieren Sie Aspose.OCR nahtlos und verwandeln Sie Ihre OCR‑Ergebnisse mühelos in mehrseitige Dokumente.
 
-Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR‑Optimierung auf dem Laufenden bleiben. Tauchen Sie ein in die Welt von Präzision und Effizienz mit Aspose.OCR für .NET Tutorials.
-
 ## OCR‑Optimierungs‑Tutorials
 ### [OCR auf Bild von URL ausführen in OCR-Bilderkennung](./perform-ocr-on-image-from-url/)
 Entdecken Sie nahtlose OCR‑Integration mit Aspose.OCR für .NET. Erkennen Sie Text aus Bildern mit Präzision.
@@ -68,7 +66,13 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 ### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt‑für‑Schritt‑Leitfaden.
+### [GPU‑Beschleunigung für OCR in C# aktivieren – Text aus Belegen extrahieren](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose.OCR, um Belege effizient zu verarbeiten und Text präzise zu extrahieren.
+### [Bild entzerren – Aspose OCR Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Erfahren Sie, wie Sie Bilder mit Aspose.OCR entzerren, um die OCR‑Genauigkeit zu verbessern.
+### [Batch-OCR von Bildern in C# – Paralleles OCR von JPG-Scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Verarbeiten Sie mehrere JPG‑Scans parallel in C# mit Aspose.OCR, um die OCR‑Leistung zu maximieren.
 
 ## Häufig gestellte Fragen
 
