@@ -55,6 +55,21 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [在 C# 中从 PNG 识别文本 – 完整 OCR 教程](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+使用 Aspose.OCR for .NET，在 C# 中实现对 PNG 图像的完整文本识别，提供详细步骤和示例。
+### [在 C# 中从图像提取文本 – 完整 OCR 教程](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+使用 Aspose.OCR for .NET，在 C# 中实现从图像提取完整文本，提供详细步骤和示例。
+### [在 C# 中从图像识别文本 – 完整 OCR 引擎教程](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+使用 Aspose.OCR for .NET，在 C# 中实现完整的图像文本识别，提供详细步骤和示例。
+### [在 C# 中识别手写文本 – 完整分步指南](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+使用 Aspose.OCR for .NET，在 C# 中实现手写文本的完整识别步骤，提供详细示例和最佳实践。
+### [使用 .NET OCR 识别中文文本 – 完整指南](./recognize-chinese-text-with-net-ocr-complete-guide/)
+使用 Aspose.OCR for .NET，实现中文文本的完整识别，提供详细步骤和示例。
+### [在 C# 中 OCR 受保护的 PDF – 完整提取文本指南](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+使用 Aspose.OCR for .NET，在 C# 中完整提取受保护 PDF 的文本，提供详细步骤和示例。
+### [在 C# 中识别文本图像 – 完整 OCR 教程](./recognize-text-image-in-c-full-ocr-guide/)
+使用 Aspose.OCR for .NET，在 C# 中实现对文本图像的完整 OCR 识别，提供详细步骤和示例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
