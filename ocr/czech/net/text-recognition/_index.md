@@ -55,6 +55,19 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Rozpoznání arabského textu z PNG pomocí Aspose OCR – C# průvodce](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Naučte se rozpoznávat arabský text v souborech PNG pomocí Aspose OCR v C#.
+### [Extrahovat text z obrázku pomocí Aspose OCR – C# programovací průvodce](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat text z obrázků a integrovat OCR do vašich .NET aplikací.
+### [Jak provést OCR v C# – Extrahovat text z obrázku](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Naučte se pomocí Aspose.OCR v C# rychle extrahovat text z obrázků a integrovat OCR do vašich .NET aplikací.
+### [Jak použít OCR v C# – Rychle extrahovat text ze skenů](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Naučte se rychle extrahovat text ze skenovaných dokumentů pomocí Aspose.OCR v C#.
+### [Vytvořit prohledávatelný PDF – převést obrázek na EPUB a přidat text](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF převodem obrázku na EPUB a přidáním textu.
+### [Live OCR tutoriál: Detekce textu ve videu pomocí C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Naučte se v reálném čase rozpoznávat text ve videu pomocí Aspose.OCR a C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
