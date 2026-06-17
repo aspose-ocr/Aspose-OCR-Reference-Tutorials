@@ -21,13 +21,16 @@ url: /tr/net/text-recognition/
 
 Bu eğitimde, görüntü tanıma yeteneklerinizi geliştirmek için Aspose.OCR for .NET'in gücünden yararlanmanız konusunda size rehberlik edeceğiz. Uygulamalarınızda doğruluk ve verimlilik sağlayarak, tanınan karakterlere ilişkin seçimleri nasıl alacağınızı adım adım öğrenin. Aspose.OCR'ın üstün özellikleriyle OCR deneyiminizi geliştirin.
 
-## OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+## OCR Görüntü Tanıma'da Tanıma Sonucunu Al
 
 Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizi dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
 
 ## OCR Görüntü Tanıma'da Sonucu JSON Olarak Al
 
 JSON formatında OCR sonuçlarını zahmetsizce nasıl elde edeceğinizi öğrenerek Aspose.OCR for .NET'in tüm potansiyelini ortaya çıkarın. Bu adım adım kılavuz, görüntü tanıma yeteneklerinizi geliştirmeye yönelik sorunsuz bir yolculuk sağlar. Aspose.OCR'ın güçlü özellikleri ve sektör lideri teknolojisiyle uygulamanızın verimliliğini artırın.
+
+### [Görüntüyü JSON'a Dönüştürme – Aspose OCR ile Tam C# Kılavuzu](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak görüntüyü JSON formatına dönüştürmeyi adım adım öğrenin ve C# ile tam entegrasyonu keşfedin.
 
 ## OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
 
@@ -51,10 +54,25 @@ Görüntülerdeki kusursuz metin tanımaya yönelik güçlü bir OCR çözümü 
 Aspose.OCR for .NET'in gücünü açığa çıkarın. OCR sonuçlarını JSON formatında zahmetsizce almayı öğrenin. Bu adım adım kılavuzla görüntü tanıma yeteneğinizi geliştirin.
 ### [OCR Görüntü Tanıma'da OCR Algılama Alanları Modu](./ocr-detect-areas-mode/)
 Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
-### [OCR Görüntü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
+### [OCR Görütnü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
-### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
+### [PDF'de OCR Gerçekleştirme – Aspose OCR Tam Kılavuz](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Aspose OCR ile PDF dosyalarından metni etkili bir şekilde çıkarın ve .NET uygulamalarınıza sorunsuz bir şekilde entegre edin.
+### [OCR Görütnü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C#'ta Görüntüden Metin Çıkarma – Tam OCR Eğitimi](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+C# ile görüntülerden metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR'un tam gücünden faydalanın.
+### [C#'ta Görüntüden Metin Çıkarma – Adım Adım Kılavuz](./extract-text-from-image-in-c-step-by-step-guide/)
+C# ile görüntülerden metin çıkarma adımlarını öğrenin ve Aspose.OCR'un yeteneklerini keşfedin.
+### [C#'ta Çince Metin Tanıma – Tam OCR Rehberi](./recognize-chinese-text-in-c-complete-ocr-guide/)
+C# ile Çince metinleri tanıma sürecini adım adım öğrenin ve Aspose.OCR'un tam gücünden faydalanın.
+### [C#'ta Görüntüden Metin Tanıma – Tam Aspose OCR Eğitimi](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+C# ile görüntülerden metin tanıma sürecini adım adım öğrenin ve Aspose.OCR'un tam gücünden faydalanın.
+### [Görüntüden Aranabilir PDF Oluşturma – C# Aspose OCR Kılavuzu](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin ve Aspose OCR'un C# ile sunduğu tüm avantajları keşfedin.
+### [C#'ta Toplu OCR Nasıl Yapılır – Taramalardan Metin Çıkarma](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+C# ile birden fazla taramayı işleyerek toplu OCR gerçekleştirin ve metinleri hızlıca çıkarın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

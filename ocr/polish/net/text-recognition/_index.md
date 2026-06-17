@@ -55,6 +55,23 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Wyodrębnij tekst z obrazu w C# – Kompletny samouczek OCR](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Poznaj, jak w C# wyodrębnić tekst z obrazów przy użyciu Aspose.OCR, krok po kroku, aby zintegrować pełne OCR w swoich aplikacjach.
+### [Rozpoznaj chiński tekst w C# – Kompletny przewodnik OCR](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Dowiedz się, jak w C# rozpoznać chiński tekst przy użyciu Aspose.OCR, krok po kroku, aby w pełni wykorzystać możliwości OCR.
+### [Wyodrębnij tekst z obrazu w C# – Przewodnik krok po kroku](./extract-text-from-image-in-c-step-by-step-guide/)
+Naucz się, jak w C# wyodrębnić tekst z obrazu przy użyciu Aspose.OCR, krok po kroku, aby wzbogacić swoje aplikacje.
+### [Rozpoznaj tekst z obrazu w C# – Kompletny samouczek Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Poznaj, jak w C# rozpoznać tekst z obrazu przy użyciu Aspose.OCR – kompletny przewodnik krok po kroku dla Twoich aplikacji.
+### [Wykonaj OCR na PDF przy użyciu Aspose OCR – Kompletny przewodnik](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Dowiedz się, jak wykonać pełne OCR na plikach PDF przy użyciu Aspose OCR w .NET, krok po kroku.
+### [Utwórz przeszukiwalny PDF z obrazu – przewodnik C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Dowiedz się, jak przy użyciu Aspose OCR w C# przekształcić obraz w przeszukiwalny plik PDF, zachowując tekst i układ.
+### [Konwertuj obraz do JSON przy użyciu Aspose OCR – Kompletny przewodnik C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Ucz się, jak przekształcić obraz w JSON przy użyciu Aspose OCR w C#, krok po kroku, aby w pełni wykorzystać możliwości OCR.
+### [Jak wykonać wsadowe OCR w C# – wyodrębnić tekst ze skanów](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Dowiedz się, jak przetwarzać wiele skanów jednocześnie w C# przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
