@@ -55,6 +55,21 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Cách sử dụng Aspose cho OCR trong C# – Hướng dẫn từng bước](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Tìm hiểu cách tích hợp Aspose OCR vào dự án C# của bạn với hướng dẫn chi tiết từng bước.
+### [Tạo PDF có thể tìm kiếm từ TIF – Chuyển đổi hình ảnh sang PDF, Thêm siêu dữ liệu PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Biến tệp TIF thành PDF có thể tìm kiếm, chuyển đổi hình ảnh sang PDF và chèn siêu dữ liệu PDF một cách dễ dàng với Aspose.
+### [Cách sử dụng Aspose – Trích xuất dữ liệu biên lai từ hình ảnh trong C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Tìm hiểu cách trích xuất dữ liệu biên lai từ hình ảnh bằng Aspowe trong C# với hướng dẫn chi tiết từng bước.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh và tệp DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Khám phá cách tích hợp OCR trong C# để trích xuất văn bản từ hình ảnh và tệp DJVU một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản tiếng Trung bằng Aspose OCR trong C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng chính xác văn bản tiếng Trung từ hình ảnh.
+### [Cách thực hiện OCR hàng loạt trong C# – Hướng dẫn đầy đủ để trích xuất văn bản từ nhiều hình ảnh](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# để trích xuất văn bản từ nhiều hình ảnh một cách hiệu quả.
+### [Trích xuất văn bản từ TIFF bằng Aspose OCR Engine – Ví dụ hoàn chỉnh](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR để trích xuất văn bản từ tệp TIFF một cách nhanh chóng và chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

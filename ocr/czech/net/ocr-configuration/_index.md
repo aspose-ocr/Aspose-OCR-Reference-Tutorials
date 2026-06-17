@@ -61,7 +61,11 @@ Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extra
 ### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
 Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
-Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+Prozkoumejte obrovský potenciál Aspose.OCR pro .NET při snadném provádění rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Jak povolit GPU pro OCR v C# – krok za krokem průvodce](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Naučte se, jak aktivovat GPU akceleraci pro OCR v C# aplikacích pomocí Aspose.OCR.
+### [Jak stáhnout OCR jazykový balíček pro ruštinu – kompletní průvodce](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Naučte se, jak stáhnout a nainstalovat jazykový balíček OCR pro ruštinu pro Aspose.OCR.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

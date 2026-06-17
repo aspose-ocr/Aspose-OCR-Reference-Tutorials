@@ -55,6 +55,21 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Hogyan használjuk az Aspose-t OCR-hez C#-ban – Lépésről‑lépésre útmutató](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Ismerje meg, hogyan alkalmazza az Aspose OCR-t C#-ban, részletes lépésről‑lépésre útmutatóval a hatékony szövegfelismeréshez.
+### [Kereshető PDF létrehozása TIF-ből – Kép konvertálása PDF-be, PDF metaadatok hozzáadása](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Tanulja meg, hogyan alakíthatja TIF képet kereshető PDF-fé, és adhat hozzá PDF metaadatokat .NET-ben az Aspose.OCR segítségével.
+### [Hogyan használjuk az Aspose-ot – Számlaadatok kinyerése képekből C#-ban](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Ismerje meg, hogyan nyerhet ki számlaadatokat képekből C#-ban az Aspose OCR segítségével.
+### [Hogyan használjuk az OCR-t C#-ban – Szöveg kinyerése képekből és DJVU fájlokból](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből és DJVU fájlokból C#-ban az Aspose OCR segítségével.
+### [Kínai szöveg felismerése Aspose OCR segítségével C#-ban](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Tanulja meg, hogyan ismerhet fel kínai szöveget az Aspose OCR C#-ban, lépésről‑lépésre útmutatóval.
+### [Hogyan végezzünk kötegelt OCR-t C#‑ban – Teljes útmutató tömeges képek szövegkivonásához](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Tanulja meg, hogyan hajtson végre tömeges OCR-t C#‑ban, és vonjon ki szöveget nagy mennyiségű képből hatékonyan.
+### [Szöveg kinyerése TIFF-ből az Aspose OCR motorral – Teljes példa](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Tanulja meg, hogyan nyerhet ki szöveget TIFF képekből az Aspose OCR motor segítségével egy komplett példán keresztül.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
