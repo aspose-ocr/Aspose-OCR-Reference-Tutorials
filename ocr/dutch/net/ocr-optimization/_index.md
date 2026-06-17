@@ -70,10 +70,16 @@ Ontdek naadloze OCR‑integratie met Aspose.OCR voor .NET. Herken tekst uit afbe
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids. Leer stap‑voor‑stap hoe je rechthoeken voorbereidt voor beeldherkenning. Til je .NET‑applicaties naar een hoger niveau met naadloze OCR‑integratie.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Verken Aspose.OCR voor .NET. Verhoog OCR‑nauwkeurigheid met preprocessing‑filters. Download nu voor naadloze integratie.
+### [Afbeelding voorbewerken voor OCR – Verhoog de nauwkeurigheid met Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Verbeter OCR‑nauwkeurigheid door afbeeldingen te pre‑processen met Aspose.OCR. Leer filters en technieken toepassen voor betere resultaten.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze teksterkenning.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
+### [Tekst herkennen van PNG met Aspose OCR – GPU‑versnelde batchdemo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Ontdek hoe je met GPU‑versnelling grote hoeveelheden PNG‑bestanden snel kunt verwerken en tekst kunt extraheren met Aspose OCR.
+### [Zoekbare PDF maken met Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Genereer een doorzoekbare PDF vanuit afbeeldingen met Aspose OCR en C#. Volg de stapsgewijze handleiding.
 
 ## Veelgestelde vragen
 

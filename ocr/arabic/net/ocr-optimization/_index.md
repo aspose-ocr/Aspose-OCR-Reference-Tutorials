@@ -52,6 +52,8 @@ weight: 25
 
 حسّن دقة OCR مع Aspose.OCR for .NET من خلال استكشاف [preprocessing filters](./preprocessing-filters-for-image/). حمّل الآن واكتشف كيفية ضبط صورك قبل عملية التعرف. يضمن هذا الدرس تكاملًا سلسًا، مع تعزيز الدقة والكفاءة.
 
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تعزيز الدقة باستخدام Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+
 ## تصحيح النتائج باستخدام التدقيق الإملائي في التعرف على الصور باستخدام OCR
 
 احصل على دقة لا مثيل لها في OCR مع [Aspose.OCR for .NET](./result-correction-with-spell-checking/). دليلنا حول تصحيح النتائج باستخدام التدقيق الإملائي يمكّنك من تخصيص القواميس، تصحيح الأخطاء الإملائية، وضمان التعرف على النص بدون أخطاء بسهولة. انغمس في عالم الدقة مع Aspose.OCR.
@@ -73,6 +75,10 @@ weight: 25
 حسّن دقة OCR مع Aspose.OCR for .NET. صحّح الأخطاء الإملائية، خصّص القواميس، واحصل على نص خالٍ من الأخطاء بسهولة.
 ### [حفظ النتيجة متعددة الصفحات كمستند في التعرف على الصور باستخدام OCR](./save-multipage-result-as-document/)
 افتح إمكانات Aspose.OCR for .NET. احفظ نتائج OCR متعددة الصفحات كمستندات بسهولة من خلال هذا الدليل الشامل خطوة بخطوة.
+### [التعرف على النص من PNG باستخدام Aspose OCR – عرض تجريبي للمعالجة الدفعية باستخدام GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+اكتشف كيفية معالجة مجموعة من ملفات PNG بسرعة باستخدام GPU مع Aspose OCR في مثال عملي.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR في C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR مع C# خطوة بخطوة.
 
 ## الأسئلة المتكررة
 
