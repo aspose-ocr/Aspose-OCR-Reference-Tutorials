@@ -55,6 +55,21 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες με Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή αραβικού κειμένου από JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Μάθετε πώς να εξάγετε αραβικό κείμενο από αρχεία JPG χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου Urdu από PNG εικόνες](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Μάθετε πώς να εξάγετε κείμενο Urdu από εικόνες PNG χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης από εικόνα σε C# – Πλήρης οδηγός](./create-searchable-pdf-from-image-in-c-full-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR σε C#.
+### [Πώς να κάνετε μαζική OCR σε C# – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες και να εξάγετε κείμενο γρήγορα με Aspose.OCR σε C#.
+### [Πώς να δημιουργήσετε PDF/A από σαρωμένες εικόνες σε C# – Οδηγός βήμα προς βήμα](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Μάθετε πώς να δημιουργήσετε PDF/A από σαρωμένες εικόνες σε C# χρησιμοποιώντας το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Αναγνώριση χειρόγραφου κειμένου σε C# με χρήση Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Μάθετε πώς να αναγνωρίζετε χειρόγραφο κείμενο σε εφαρμογές C# χρησιμοποιώντας το Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
