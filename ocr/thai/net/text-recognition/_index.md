@@ -53,8 +53,20 @@ url: /th/net/text-recognition/
 ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความรูปภาพที่มีประสิทธิภาพ สำรวจโหมดตรวจจับพื้นที่ OCR เพื่อผลลัพธ์ที่แม่นยำ
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-image-complete-c-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากรูปภาพด้วย Aspose.OCR ใน C# ตามขั้นตอนละเอียดเพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [ตัวอย่าง C# OCR – ดึงข้อความจากรูปภาพด้วย Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพอย่างง่ายดายในขั้นตอนสั้นๆ
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือเต็ม](./extract-text-from-image-in-c-full-guide/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย C# อย่างละเอียดด้วย Aspose OCR ผ่านคู่มือเต็มขั้นตอน
+### [วิธีใช้ Aspose – ดึงข้อความจาก PDF ใน C# – คู่มือเต็ม](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+เรียนรู้ขั้นตอนเต็มในการใช้ Aspose เพื่อดึงข้อความจากไฟล์ PDF ด้วย C# อย่างละเอียดและง่ายดาย
+### [ดึงข้อความจากแบบฟอร์มด้วย Aspose OCR – คู่มือทีละขั้นตอน](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+### [ดึงข้อความจากรูปภาพใน C# – บทเรียน OCR แบบอะซิงโครนัส](./extract-text-from-image-in-c-async-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพแบบอะซิงโครนัสอย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
