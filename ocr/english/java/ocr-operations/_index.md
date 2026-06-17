@@ -71,14 +71,30 @@ In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
+
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
+
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+
+### [Batch Image OCR in Java – Extract Text from PNG Files Fast](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Fast batch OCR for PNG images in Java using Aspose.OCR. Extract text from multiple files quickly and efficiently.
+
+### [Extract Text from Image with Aspose OCR – Step‑by‑Step Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Step‑by‑step guide to extract text from images using Aspose OCR for Java, covering setup, processing, and best practices.
+
+### [Create Searchable PDF from Scanned Files – Java Guide](./create-searchable-pdf-from-scanned-files-java-guide/)
+Learn how to convert scanned files into searchable PDFs using Aspose.OCR for Java, with step‑by‑step code examples.
+
+### [Remove Evaluation Watermark in Aspose OCR – Complete Java License Guide](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Learn how to remove the evaluation watermark by applying a valid Aspose OCR license in Java, with step‑by‑step instructions.
 
 ## Frequently Asked Questions
 
