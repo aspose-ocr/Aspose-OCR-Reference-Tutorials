@@ -55,6 +55,17 @@ Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtext
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden zum Erkennen von Tabellen in der OCR-Bilderkennung.
+### [Tabelle aus Bild mit Aspose OCR extrahieren – Vollständige C#-Anleitung](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR Tabellen aus Bildern extrahieren und in C# implementieren.
+### [Wie man japanisch mit Aspose OCR in C# erkennt – Vollständige Anleitung](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Lernen Sie, wie Sie mit Aspose OCR in C# japanischen Text präzise erkennen und in Ihre Anwendung integrieren.
+### [Erstellen Sie ein durchsuchbares PDF aus einem Bild mit OCR – C#-Leitfaden](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in .NET aus Bildern durchsuchbare PDFs erstellen und in Ihre Anwendung integrieren.
+### [Erstellen Sie ein DOCX aus einem Bild mit Aspose OCR – Vollständige C#‑Leitfaden](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Lernen Sie, wie Sie mit Aspose OCR aus Bildern DOCX-Dateien erstellen und in C# integrieren.
+### [Text aus Bild in C# extrahieren – Vollständiger Offline-OCR-Leitfaden](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Lernen Sie, wie Sie mit Aspose.OCR in .NET Text offline aus Bildern extrahieren – Schritt-für-Schritt-Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

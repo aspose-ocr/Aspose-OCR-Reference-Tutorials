@@ -41,7 +41,6 @@ Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos P
 
 Navegue por las complejidades del reconocimiento de tablas en el reconocimiento de imágenes OCR con Aspose.OCR para .NET. Nuestra guía completa le permite desbloquear todo el potencial de Aspose.OCR, garantizando un reconocimiento de tablas preciso y eficiente en sus aplicaciones. Mejore sus proyectos con la solución OCR líder en la industria.
 
-¿Listo para revolucionar sus aplicaciones .NET? Sumérjase en nuestros tutoriales de reconocimiento de texto y aproveche el poder de Aspose.OCR para un reconocimiento de texto preciso y eficiente en imágenes. Descárguelo ahora y embárquese en un viaje de capacidades de OCR mejoradas.
 ## Tutoriales de reconocimiento de texto
 ### [Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR](./get-choices-for-recognized-characters/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
@@ -55,6 +54,17 @@ Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de integración perfecta.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [Extraer tabla de una imagen con Aspose OCR en C# – Guía completa](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extraer tablas de imágenes usando Aspose OCR en C#. Guía paso a paso para integrar reconocimiento de tablas en sus aplicaciones.
+### [Cómo reconocer texto japonés con Aspose OCR en C# – Guía completa](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Aprenda a usar Aspose OCR en C# para reconocer texto japonés en imágenes, paso a paso y con ejemplos completos.
+### [Crear PDF buscable a partir de una imagen con OCR – Guía C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Cree un PDF buscable a partir de una imagen usando Aspose.OCR en C#. Siga nuestra guía paso a paso.
+### [Extraer texto de una imagen con Aspose OCR en C# – Guía completa offline](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Aprenda a extraer texto de imágenes con Aspose OCR en C# sin conexión, siguiendo una guía paso a paso.
+### [Crear docx a partir de una imagen con Aspose OCR – Guía C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Aprenda a generar documentos DOCX a partir de imágenes usando Aspose OCR en C#. Siga nuestra guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
