@@ -55,6 +55,21 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Converti TIFF in Testo in C# – Estrai il Testo da Immagini Scansionate](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Impara a convertire file TIFF in testo usando Aspose.OCR per C#, estraendo il contenuto delle immagini scansionate in modo semplice.
+### [Converti TIFF in Testo in C# usando Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Impara a convertire file TIFF in testo con Aspose OCR in C#, estrarre rapidamente il contenuto delle immagini.
+### [Riconoscere testo da immagine con Aspose OCR – Guida completa C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Scopri come riconoscere testo da immagini usando Aspose OCR con una guida completa in C#.
+### [Come usare OCR in C# – Estrarre testo da immagine](./how-to-use-ocr-in-c-extract-text-from-image/)
+Scopri come utilizzare Aspose.OCR in C# per estrarre testo da immagini in modo semplice e veloce.
+### [Come usare OCR in C# – Estrarre testo da ricevute rapidamente](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Scopri come utilizzare Aspose.OCR in C# per estrarre rapidamente il testo dalle ricevute in modo semplice ed efficiente.
+### [Estrai testo da immagine in C# – Aspose OCR passo‑a‑passo](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Scopri come estrarre testo da immagini in C# con Aspose OCR, seguendo una guida dettagliata passo‑a‑passo.
+### [Come ottenere OCR in C# – Riconoscere testo da stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere testo direttamente da uno stream, senza salvare l'immagine su disco.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
