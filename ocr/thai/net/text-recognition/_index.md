@@ -55,6 +55,23 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [ดึงข้อความจาก PNG – อ่านข้อความจากภาพด้วย OCR](./extract-text-from-png-read-text-from-image-with-ocr/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อดึงข้อความจากไฟล์ PNG อย่างแม่นยำด้วยขั้นตอนง่ายๆ
+### [ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยขั้นตอน](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose OCR เพื่อดึงข้อความจากภาพอย่างแม่นยำด้วยขั้นตอนง่ายๆ
+### [วิธีทำ OCR ใน C# – ดึงข้อความภาษาอารบิกจากภาพ](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อดึงข้อความภาษาอารบิกจากรูปภาพด้วยขั้นตอนง่ายๆ
+### [สร้าง PDF ที่ค้นหาได้จากไฟล์สแกน – คู่มือ C# ขั้นตอนโดยขั้นตอน](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากไฟล์สแกนด้วย Aspose.OCR สำหรับ .NET ผ่านขั้นตอนง่ายๆ ใน C#
+### [ทำ OCR รูป PNG แบบกลุ่มใน C# – คู่มือฉบับสมบูรณ์](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อทำ OCR รูป PNG หลายไฟล์พร้อมกันใน C# ด้วยขั้นตอนง่ายๆ
+### [วิธีใช้ OCR: แปลงภาพเป็น HTML ใน C#](./how-to-use-ocr-convert-image-to-html-in-c/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน .NET เพื่อแปลงภาพเป็น HTML อย่างง่ายดายด้วยขั้นตอนทีละขั้นตอนใน C#
+### [วิธีแยกวิเคราะห์ JSON ด้วย OCR Engine C# – คู่มือขั้นตอนโดยขั้นตอนแบบสมบูรณ์](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อแยกวิเคราะห์ผลลัพธ์ JSON อย่างละเอียดด้วยขั้นตอนที่ชัดเจนและครบถ้วน
+### [c# OCR tutorial: ดึงข้อความจากภาพ (WebP, Photo) – คู่มือเร็ว](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อดึงข้อความจากไฟล์ WebP หรือรูปถ่ายอย่างรวดเร็วและแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
