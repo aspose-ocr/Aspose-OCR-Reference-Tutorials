@@ -61,6 +61,12 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [OCR für Bild mit Java ausführen – GPU-gestützte Textextraktion](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Nutzen Sie GPU-Beschleunigung, um mit Aspose.OCR für Java Text aus Bildern schnell und präzise zu extrahieren.
+### [Durchführen von OCR auf hochauflösenden Bildern – Vollständiger Java-Leitfaden](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Nutzen Sie Aspose.OCR für Java, um OCR auf hochauflösenden Bildern schnell und präzise durchzuführen.
+### [Handschriftlichen Text erkennen – Vollständiger Leitfaden zur Steigerung der OCR-Genauigkeit](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
