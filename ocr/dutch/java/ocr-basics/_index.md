@@ -102,6 +102,14 @@ Ontgrendel het potentieel van Aspose.OCR voor Java met deze stap‑voor‑stap g
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor Java. Leer stap voor stap scheefhoeken berekenen. Verbeter documentverwerking moeiteloos.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Ontgrendel de kracht van Aspose.OCR voor Java. Leer hoe je tekst uit afbeeldingen naadloos kunt extraheren in deze stap‑voor‑stap gids. Download nu voor efficiënte tekstherkenning.
+### [Tekst herkennen uit PNG in Java – Aspose OCR‑tutorial](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Leer hoe je met Aspose.OCR in Java tekst uit PNG‑bestanden kunt extraheren met eenvoudige stappen en optimale nauwkeurigheid.
+### [Tekst extraheren uit afbeelding – PNG omzetten naar tekst in Java](./extract-text-from-image-convert-png-to-text-in-java/)
+Leer hoe je met Aspose.OCR PNG‑afbeeldingen omzet naar platte tekst in Java met eenvoudige stappen en hoge nauwkeurigheid.
+### [Tekst extraheren uit afbeelding in Java – Volledig OCR‑voorbeeld](./extract-text-from-image-in-java-complete-ocr-example/)
+Leer hoe je met Aspose.OCR in Java volledige OCR‑workflow toepast om tekst uit afbeeldingen te extraheren, van invoer tot resultaat.
+### [Tekst extraheren uit afbeelding met Aspose OCR – Java Snelle gids](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Leer in een paar stappen hoe je met Aspose OCR in Java tekst uit afbeeldingen haalt voor snelle en nauwkeurige resultaten.
 
 ---
 

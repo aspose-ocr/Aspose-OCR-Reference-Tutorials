@@ -96,11 +96,15 @@ Pamatujte, že cesta zde nekončí — Aspose.OCR nabízí pokročilé funkce ja
 
 ## Tutoriály základů OCR
 ### [Jak nastavit licenci pro Aspose.OCR v Javě](./set-license/)
-Odemkněte potenciál Aspose.OCR pro Java pomocí tohoto krok‑za‑krokem průvodce. Nastavte svou licenci bez námahy a zlepšete své OCR schopnosti.
 ### [Výpočet úhlu zkosení v Aspose.OCR pro Java](./calculate-skew-angle/)
-Zvyšte přesnost OCR pomocí Aspose.OCR pro Java. Naučte se krok za krokem vypočítat úhly zkosení. Zlepšete zpracování dokumentů bez námahy.
 ### [Získávání obdélníků s oblastmi textu v Aspose.OCR](./get-rectangles-with-text-areas/)
-Odemkněte sílu Aspose.OCR pro Java. Naučte se, jak bezproblémově extrahovat text z obrázků v tomto krok‑za‑krokem průvodci. Stáhněte si nyní pro efektivní rozpoznávání textu.
+### [Rozpoznání textu z PNG v Javě – tutoriál Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+### [Extrahovat text z obrázku – převést PNG na text v Javě](./extract-text-from-image-convert-png-to-text-in-java/)
+Naučte se, jak pomocí Aspose.OCR převést PNG soubor na text v Javě.
+### [Extrahovat text z obrázku v Javě – kompletní OCR příklad](./extract-text-from-image-in-java-complete-ocr-example/)
+Kompletní ukázka, jak pomocí Aspose.OCR extrahovat text z obrázku v Javě.
+### [Extrahovat text z obrázku pomocí Aspose OCR – rychlý průvodce pro Javu](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Rychlý návod, jak pomocí Aspose OCR v Javě extrahovat text z obrázku.
 
 ---
 
