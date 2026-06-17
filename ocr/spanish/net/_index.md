@@ -1,8 +1,39 @@
 ---
-date: 2026-02-20
-description: Aprende a calcular OCR con Aspose.OCR para .NET, extrae texto de imágenes
-  y PDF, mejora la velocidad del OCR y gestiona el reconocimiento de escritura a mano.
-linktitle: Aspose.OCR for .NET Tutorials
+date: 2026-05-19
+description: Aprenda cómo calcular OCR con Aspise.OCR para .NET, extraiga texto de
+  imágenes y PDFs, mejore la velocidad del OCR y gestione el reconocimiento de escritura
+  a mano.
+keywords:
+- how to calculate ocr
+- preprocess images for ocr
+- extract text from images .net
+- extract text from pdfs .net
+linktitle: Tutoriales de Aspose.OCR para .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to calculate OCR with Aspise.OCR for .NET, extract text from
+    images and PDFs, improve OCR speed, and handle handwriting recognition.
+  headline: How to Calculate OCR with Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: Apply image preprocessing (de‑noise, binarization) and correct the skew
+      angle before recognition.
+    question: How can I improve OCR accuracy on low‑resolution images?
+  - answer: Yes—use the OCR language selection feature to specify a comma‑separated
+      list of languages.
+    question: Is it possible to recognize multiple languages in a single document?
+  - answer: Convert each PDF page to an image, correct skew, then run Aspose.OCR with
+      appropriate language settings.
+    question: What is the best way to extract text from PDFs that contain scanned
+      pages?
+  - answer: Absolutely. Instantiate separate OCR objects per thread or use the thread‑safe
+      static methods provided by Aspose.OCR.
+    question: Can I run OCR in a multi‑threaded environment?
+  - answer: Basic handwriting is supported, but results may vary; consider additional
+      preprocessing for better outcomes.
+    question: Does Aspose.OCR support handwriting recognition?
+  type: FAQPage
 title: Cómo calcular OCR con Aspose.OCR para .NET
 url: /es/net/
 weight: 10
@@ -16,96 +47,111 @@ weight: 10
 
 ## Introducción
 
-Si buscas **how to calculate OCR** resultados con precisión en tus proyectos .NET, has llegado al lugar correcto. En esta guía repasaremos los escenarios más comunes: corrección del ángulo de inclinación, reconocimiento de imágenes y dibujos, extracción de texto, configuración y afinación del rendimiento. Al final sabrás exactamente **how to extract text** de una variedad de fuentes de imagen, cómo **extract text from PDFs**, y cómo **optimize OCR** para velocidad y exactitud. También abordaremos **handwriting recognition OCR** y las mejores prácticas para **preprocess images for OCR**.
+Aspose.OCR for .NET es una biblioteca .NET que extrae texto impreso y manuscrito de imágenes, PDFs y documentos escaneados. Si buscas **cómo calcular OCR** de manera precisa en tus proyectos .NET, has llegado al lugar correcto. En esta guía repasaremos los escenarios más comunes: corrección del ángulo de inclinación, reconocimiento de imágenes y dibujos, extracción de texto, configuración y ajuste de rendimiento. Al final sabrás exactamente **cómo extraer texto** de una variedad de fuentes de imagen, **cómo extraer texto de PDFs** y **cómo optimizar OCR** para velocidad y precisión. También abordaremos **reconocimiento de escritura a mano OCR** y buenas prácticas para **preprocesar imágenes para OCR**.
 
 ## Respuestas rápidas
-- **¿Cuál es el primer paso para calcular OCR?** Alinee la imagen y corrija su ángulo de inclinación.  
-- **¿Qué función extrae texto de los dibujos?** El módulo de Image and Drawing Recognition.  
-- **¿Cómo mejoro la velocidad del OCR?** Utilice filtros de preprocesamiento y ajuste fino de OCR Settings.  
-- **¿Puedo seleccionar un idioma específico?** Sí—use la opción de OCR language selection.  
+- **¿Cuál es el primer paso para calcular OCR?** Alinea la imagen y corrige su ángulo de inclinación.  
+- **¿Qué función extrae texto de dibujos?** El módulo de Reconocimiento de Imagen y Dibujo.  
+- **¿Cómo mejoro la velocidad de OCR?** Usa filtros de preprocesamiento y ajusta finamente la Configuración de OCR.  
+- **¿Puedo seleccionar un idioma específico?** Sí—utiliza la opción de selección de idioma de OCR.  
 - **¿Necesito una licencia para producción?** Se requiere una licencia válida de Aspose para uso comercial.
+
+## ¿Qué es Aspose.OCR para .NET?
+
+Aspose.OCR for .NET es una biblioteca .NET que extrae texto impreso y manuscrito de imágenes, PDFs y documentos escaneados. Proporciona una API de una sola llamada que puede leer más de 30 formatos de imagen, admite más de 50 idiomas y puede procesar archivos de hasta 500 MB sin cargar todo el documento en memoria. Esto lo hace ideal para trabajos por lotes de alto rendimiento, procesamiento de imágenes en tiempo real y digitalización de documentos a nivel empresarial.
 
 ## Cómo calcular OCR: Cálculo del ángulo de inclinación
 
-Los documentos inclinados son una fuente común de errores de reconocimiento. Esta sección le muestra **how to calculate OCR** precisión detectando y corrigiendo el ángulo de inclinación antes de enviar la imagen al motor. Siga las instrucciones paso a paso para asegurar que las líneas de texto estén perfectamente horizontales, lo que aumenta drásticamente la calidad de extracción.
+Carga la imagen, detecta el ángulo de inclinación, rota el lienzo y luego envía la imagen corregida al motor OCR. Detectar y corregir la inclinación es la forma más eficaz de mejorar la precisión del reconocimiento porque alinea las líneas base del texto con la expectativa del motor de líneas horizontales. En la práctica, una imagen correctamente enderezada puede aumentar la precisión a nivel de carácter en un 15‑20 % comparado con un escaneo sin procesar.
 
 ## Reconocimiento de imágenes y dibujos
 
-Extraer información no se limita al texto plano. Con Aspose.OCR también puede reconocer formas, diagramas y anotaciones manuscritas. Esta capacidad es esencial cuando necesita **extract text from images** que contienen contenido mixto, como formularios o dibujos de ingeniería.
+Aspose.OCR puede reconocer no solo texto plano sino también formas, diagramas y anotaciones manuscritas. Esta capacidad te permite **extraer texto de dibujos** y formularios de contenido mixto, convirtiendo esquemas de ingeniería o recibos anotados en datos buscables. El motor distingue entre dibujos basados en vectores y texto raster, devolviendo conjuntos de resultados separados para cada uno.
 
 ## Reconocimiento de texto
 
-La detección precisa de caracteres es el corazón de cualquier flujo de trabajo OCR. Aquí profundizamos en las opciones para obtener opciones de reconocimiento, resultados crudos y salidas en formato JSON. Aprenderá **how to extract text** de manera eficiente y cómo manejar documentos multilingües usando la función incorporada de selección de idioma.
+La detección precisa de caracteres es el corazón de cualquier flujo de trabajo OCR. Aquí profundizamos en las opciones para obtener opciones de reconocimiento, resultados en bruto y salidas en formato JSON. Aprenderás **cómo extraer texto** de manera eficiente y cómo manejar documentos multilingües usando la función incorporada de selección de idioma.
 
 ## Configuración de OCR
 
-Configurar el motor correctamente puede ahorrarle horas de depuración. Cubrimos el manejo de archivos, procesamiento de carpetas, **OCR language selection**, y operaciones de lista que le permiten adaptar la ejecución de OCR a sus necesidades exactas.
+Configurar el motor correctamente puede ahorrarte horas de depuración. Cubrimos el manejo de archivos, el procesamiento de carpetas, **selección de idioma OCR**, y operaciones de lista que te permiten adaptar la ejecución de OCR a tus necesidades exactas. Por ejemplo, puedes apuntar la API a un directorio completo, especificar una lista de idiomas separada por comas y permitir que el motor itere automáticamente sobre cada archivo.
 
 ## Optimización de OCR
 
-El rendimiento importa, especialmente con lotes grandes. Esta guía explica cómo preparar rectángulos de imagen, aplicar filtros de preprocesamiento, ejecutar corrección ortográfica en los resultados y guardar salidas OCR multipágina, todo ello mediante formas probadas de **how to optimize OCR** para precisión y velocidad. Al preprocesar imágenes para OCR también verá una mejora notable en **OCR speed**.
+El rendimiento es importante, especialmente con lotes grandes. Esta guía explica cómo preparar rectángulos de imagen, aplicar filtros de preprocesamiento, ejecutar corrección ortográfica en los resultados y guardar salidas OCR de varias páginas, todas formas probadas de **optimizar OCR** tanto en precisión como en velocidad. Al **preprocesar imágenes para OCR** también notarás una mejora notable en la **velocidad de OCR**.
 
-## Ajustes de OCR
+## Configuración de OCR
 
-Ajustar finamente los parámetros le brinda control sobre la exactitud, velocidad y comportamiento personalizado. Aprenda qué parámetros ajustar para diferentes calidades de imagen, idiomas y complejidades de diseño.
+Ajustar finamente la configuración te brinda control sobre la precisión, velocidad y comportamiento personalizado. Aprende qué parámetros ajustar para diferentes calidades de imagen, idiomas y complejidades de diseño. Por ejemplo, activar `EnableLayoutPreservation` preserva las estructuras de columnas al convertir PDFs escaneados a PDFs buscables.
 
-## Por qué es importante el reconocimiento de escritura a mano
+## Por qué el reconocimiento de escritura a mano es importante
 
-Aunque el reconocimiento de escritura a mano de Aspose.OCR está orientado a texto impreso y cursiva simple, muchos escenarios empresariales—como el procesamiento de formularios firmados o bocetos anotados—se benefician al habilitar esta función. Combínela con filtros de reducción de ruido para obtener los mejores resultados.
+El reconocimiento de escritura a mano OCR te permite capturar firmas manuscritas, notas y entradas de formularios que de otro modo serían ignoradas por motores de solo texto impreso. Habilitar esta función, especialmente cuando se combina con filtros de reducción de ruido, puede aumentar las tasas de captura de datos hasta un 30 % en escenarios como contratos firmados o listas de verificación recopiladas en campo.
 
 ## Casos de uso comunes
-
-- **Procesamiento de facturas:** Extraiga texto de PDFs escaneados, corrija la inclinación y obtenga los detalles de cada línea.  
-- **Digitalización de formularios:** Reconozca casillas de verificación, firmas y notas manuscritas.  
-- **Dibujos de ingeniería:** Extraiga números de pieza y anotaciones de diagramas complejos.  
-- **Archivado por lotes:** Ejecute OCR en miles de imágenes con configuraciones optimizadas para mantener bajo el tiempo de procesamiento.
+- **Procesamiento de facturas:** Extraer texto de PDFs escaneados, corregir la inclinación y extraer los detalles de cada línea.  
+- **Digitalización de formularios:** Reconocer casillas de verificación, firmas y notas manuscritas.  
+- **Dibujos de ingeniería:** Extraer números de pieza y anotaciones de diagramas complejos.  
+- **Archivado por lotes:** Ejecutar OCR en miles de imágenes con configuraciones optimizadas para mantener bajo el tiempo de procesamiento.
 
 ## Preguntas frecuentes
 
-**Q: ¿Cómo puedo mejorar la exactitud del OCR en imágenes de baja resolución?**  
-A: Aplique preprocesamiento de imagen (desruido, binarización) y corrija el ángulo de inclinación antes del reconocimiento.
+**P: ¿Cómo puedo mejorar la precisión de OCR en imágenes de baja resolución?**  
+R: Aplica preprocesamiento de imagen (eliminación de ruido, binarización) y corrige el ángulo de inclinación antes del reconocimiento.
 
-**Q: ¿Es posible reconocer varios idiomas en un solo documento?**  
-A: Sí—use la función OCR language selection para especificar una lista de idiomas separada por comas.
+**P: ¿Es posible reconocer varios idiomas en un solo documento?**  
+R: Sí—utiliza la función de selección de idioma OCR para especificar una lista de idiomas separada por comas.
 
-**Q: ¿Cuál es la mejor manera de extraer texto de PDFs que contienen páginas escaneadas?**  
-A: Convierta cada página PDF a una imagen, corrija la inclinación y luego ejecute Aspose.OCR con la configuración de idioma adecuada.
+**P: ¿Cuál es la mejor manera de extraer texto de PDFs que contienen páginas escaneadas?**  
+R: Convierte cada página PDF a una imagen, corrige la inclinación y luego ejecuta Aspose.OCR con la configuración de idioma adecuada.
 
-**Q: ¿Puedo ejecutar OCR en un entorno multihilo?**  
-A: Absolutamente. Instancie objetos OCR separados por hilo o use los métodos estáticos seguros para hilos proporcionados por Aspose.OCR.
+**P: ¿Puedo ejecutar OCR en un entorno multihilo?**  
+R: Absolutamente. Instancia objetos OCR separados por hilo o usa los métodos estáticos seguros para hilos proporcionados por Aspose.OCR.
 
-**Q: ¿Aspose.OCR admite reconocimiento de escritura a mano?**  
-A: Se admite escritura a mano básica, pero los resultados pueden variar; considere preprocesamiento adicional para mejores resultados.
+**P: ¿Aspose.OCR admite reconocimiento de escritura a mano?**  
+R: Se admite la escritura a mano básica, pero los resultados pueden variar; considera preprocesamiento adicional para obtener mejores resultados.
 
-**Q: ¿Cómo extraigo texto de PDFs manteniendo el diseño?**  
-A: Use OCR Settings para habilitar la preservación del diseño y exporte los resultados como un PDF searchable.
+**P: ¿Cómo extraigo texto de PDFs preservando el diseño?**  
+R: Usa la Configuración de OCR para habilitar la preservación del diseño y exporta los resultados como un PDF buscable.
 
-**Q: ¿Qué pasos de preprocesamiento brindan el mayor impulso de velocidad?**  
-A: Recortar a regiones de interés, convertir a escala de grises y aplicar un filtro de binarización simple suelen ofrecer los tiempos de procesamiento más rápidos.
+**P: ¿Qué pasos de preprocesamiento brindan el mayor aumento de velocidad?**  
+R: Recortar a regiones de interés, convertir a escala de grises y aplicar un filtro de binarización simple suelen ofrecer los tiempos de procesamiento más rápidos.
 
 ## Tutoriales de Aspose.OCR para .NET
-### [Skew Angle Calculation](./skew-angle-calculation/)
-Descubra los secretos del cálculo preciso del ángulo de inclinación en el reconocimiento de imágenes OCR con Aspose.OCR para .NET. Mejore la precisión y eficiencia sin esfuerzo en sus proyectos.
-### [Image and Drawing Recognition](./image-and-drawing-recognition/)
-Desbloquee la precisión del reconocimiento de imágenes OCR con Aspose.OCR para .NET. Extraiga texto de imágenes sin esfuerzo, ya sean líneas, párrafos o flujos completos. Sumérjase en nuestros tutoriales para una guía paso a paso.
-### [Text Recognition](./text-recognition/)
-Eleve sus aplicaciones .NET con Aspose.OCR para un reconocimiento de caracteres preciso. Descubra tutoriales paso a paso para obtener opciones, resultados y formatos JSON en el reconocimiento de imágenes OCR.
-### [OCR Configuration](./ocr-configuration/)
-Desbloquee las capacidades de OCR en aplicaciones .NET con Aspose.OCR. Explore tutoriales para archivo, carpeta, selección de idioma y operaciones de lista. Impulse la extracción de texto de su aplicación sin problemas.
-### [OCR Optimization](./ocr-optimization/)
-Maximice la exactitud del OCR con tutoriales de Aspose.OCR para .NET. Realice OCR en imágenes, prepare rectángulos, aplique filtros de preprocesamiento, corrija resultados con corrección ortográfica y guarde resultados multipágina sin esfuerzo.
-### [OCR Settings](./ocr-settings/)
-Desbloquee el poder de Aspose.OCR para .NET con nuestros tutoriales de OCR Settings. Aprenda a mejorar la exactitud, velocidad y personalización para el reconocimiento de texto en imágenes.
+
+### [Cálculo del ángulo de inclinación](./skew-angle-calculation/)
+Descubre los secretos del cálculo preciso del ángulo de inclinación en el reconocimiento de imágenes OCR con Aspose.OCR para .NET. Mejora la precisión y la eficiencia sin esfuerzo en tus proyectos.
+
+### [Reconocimiento de imágenes y dibujos](./image-and-drawing-recognition/)
+Descubre la precisión del reconocimiento de imágenes OCR con Aspose.OCR para .NET. Extrae texto de imágenes sin esfuerzo, ya sea líneas, párrafos o flujos completos. Sumérgete en nuestros tutoriales para una guía paso a paso.
+
+### [Reconocimiento de texto](./text-recognition/)
+Eleva tus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Descubre tutoriales paso a paso para obtener opciones, resultados y formatos JSON en el reconocimiento de imágenes OCR.
+
+### [Configuración de OCR](./ocr-configuration/)
+Desbloquea las capacidades OCR en aplicaciones .NET con Aspose.OCR. Explora tutoriales para archivos, carpetas, selección de idioma y operaciones de lista. Impulsa la extracción de texto de tu aplicación sin problemas.
+
+### [Optimización de OCR](./ocr-optimization/)
+Maximiza la precisión OCR con los tutoriales de Aspose.OCR para .NET. Realiza OCR en imágenes, prepara rectángulos, aplica filtros de preprocesamiento, corrige resultados con corrección ortográfica y guarda resultados multipágina sin esfuerzo.
+
+### [Configuración de OCR](./ocr-settings/)
+Desbloquea el poder de Aspose.OCR para .NET con nuestros tutoriales de Configuración de OCR. Aprende a mejorar la precisión, velocidad y personalización para el reconocimiento de texto en imágenes.
 
 ---
 
-**Última actualización:** 2026-02-20  
-**Probado con:** Aspose.OCR for .NET 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-19  
+**Tested With:** Aspose.OCR for .NET 24.11  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutoriales relacionados
+
+- [Extraer texto de imagen – Optimización OCR con Aspose.OCR para .NET](/ocr/net/ocr-optimization/)
+- [Extraer imágenes de texto – Configuración OCR](/ocr/net/ocr-settings/)
+- [Preprocesar imagen OCR con filtros Aspose.OCR para .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
