@@ -55,6 +55,19 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Riconosci testo da immagine in C# – un esempio OCR completo](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Scopri come riconoscere testo da un'immagine usando C# con Aspose.OCR in un esempio completo passo passo.
+### [Riconosci testo da immagine con Aspose OCR – Guida completa C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Scopri come riconoscere testo da un'immagine usando Aspose OCR con una guida completa in C# passo passo.
+### [Riconosci testo arabo in C# – Guida completa Aspose.OCR](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+Scopri come riconoscere testo arabo da immagini usando C# con Aspose.OCR in una guida completa passo passo.
+### [Come usare Aspose OCR in C# – Estrarre testo dalle immagini](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Scopri come utilizzare Aspose OCR in C# per estrarre testo dalle immagini con una guida passo passo.
+### [Estrai testo da immagine in C# con Aspose OCR – Guida completa](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Scopri come estrarre testo da un'immagine usando C# e Aspose OCR con una guida completa passo passo.
+### [Riconosci testo da immagine in C# – Converti immagine in testo](./recognize-text-from-image-in-c-convert-image-to-text/)
+Scopri come convertire un'immagine in testo usando C# e Aspose.OCR con una guida passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
