@@ -1,0 +1,7 @@
+Title: Free AI Resources: How to Extract Text from an Image with an OCR Engine in Python
+Slug: free-ai-resources-how-to-extract-text-from-an-image-with-an
+Category: general
+ProcessedDate: 2026-06-19T15:49:26.112233
+SourceRepo: AI Search API
+Keywords: free ai resources, extract text image, ocr engine python, load image ocr, clean up ocr
+PRNumber: 150
