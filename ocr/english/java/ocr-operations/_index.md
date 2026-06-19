@@ -71,14 +71,24 @@ In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
+
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
+
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+
+### [recognize text from image with Aspose OCR – Java guide](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Step-by-step Java guide to extract text from images using Aspose OCR, covering setup, processing, and optimization.
+
+### [Auto Deskew Image in Java – Complete Aspose OCR Guide](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Learn how to automatically correct skewed images in Java using Aspose OCR, improving OCR accuracy with a full step‑by‑step guide.
 
 ## Frequently Asked Questions
 

@@ -61,6 +61,17 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [GPU Hızlandırmalı OCR ile Java'da Görüntüden Metin Tanıma](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+GPU hızlandırmalı OCR kullanarak Java uygulamalarınızda görüntülerden metni hızlı ve doğru şekilde çıkarın.
+### [Java'da Görüntüden Metin Tanıma – Tam Aspose OCR Yazım Denetimi Kılavuzu](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Java ve Aspose OCR kullanarak görüntülerdeki metni tanıyın, yazım hatalarını kontrol edin ve yüksek doğrulukta sonuçlar elde edin.
+### [Java ile Görüntülerde Dilleri Algılamak – Tam Aspose OCR Kılavuzu](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Java kullanarak görüntülerdeki dilleri tespit edin ve Aspose OCR ile yüksek doğrulukta sonuçlar alın.
+### [Java'da ROI Üzerinde OCR Gerçekleştirme – Tam Aspose OCR Kılavuzu](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Aspose.OCR for Java ile ROI (ilgi alanı) üzerinde OCR yaparak görüntülerden metni hızlı ve doğru şekilde çıkarın.
+### [Java'da Görüntülerden Aranabilir PDF Oluşturma – Tam Toplu OCR Kılavuzu](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Java ve Aspose.OCR kullanarak görüntülerden arama yapılabilir PDF'ler oluşturun, toplu OCR işlemlerinin tüm adımlarını öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
