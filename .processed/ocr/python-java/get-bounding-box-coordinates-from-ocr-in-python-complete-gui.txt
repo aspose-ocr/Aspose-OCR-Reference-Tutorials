@@ -1,0 +1,7 @@
+Title: Get Bounding Box Coordinates from OCR in Python – Complete Guide
+Slug: get-bounding-box-coordinates-from-ocr-in-python-complete-gui
+Category: general
+ProcessedDate: 2026-06-22T20:35:01.711025
+SourceRepo: AI Search API
+Keywords: get bounding box coordinates, extract text from image python
+PRNumber: 155
