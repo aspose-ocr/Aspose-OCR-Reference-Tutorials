@@ -45,22 +45,11 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
 
-## Závěr
+## [Vytvoření prohledávatelného PDF ze skenovaných obrázků – Průvodce OCR v Javě](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Jednoduše vytvořte prohledávatelný PDF ze skenovaných obrázků pomocí Aspose.OCR pro Java. Vysoká přesnost a snadná integrace.
 
-Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
-## Výukové programy pro pokročilé techniky OCR
-### [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
-Provádějte OCR na BufferedImage bez námahy s Aspose.OCR pro Java. Bezproblémově extrahujte text z obrázků. Stáhněte si nyní pro všestranné rozpoznávání textu.
-### [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
-Odemkněte bezproblémovou extrakci textu obrázku v Javě pomocí Aspose.OCR. Vysoce přesné OCR se snadnou integrací.
-### [Provádění OCR na konkrétní stránce v Aspose.OCR](./perform-ocr-on-page/)
-Odemkněte sílu Aspose.OCR for Java pomocí našeho podrobného průvodce prováděním OCR na konkrétních stránkách. Extrahujte text bez námahy z obrázků a vylepšete své projekty Java.
-### [Příprava obdélníků pro OCR v Aspose.OCR](./prepare-rectangles-for-ocr/)
-Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Vylepšete své aplikace Java o efektivní funkce OCR.
-### [Rozpoznávání čar v Aspose.OCR pro Javu](./recognize-lines/)
-Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
-### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
-Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+## [Jak povolit GPU v Java Inference Engine – Kompletní průvodce](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Naučte se, jak aktivovat GPU v Java Inference Engine pro zrychlení výpočtů a optimalizaci výkonu vašich aplikací.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

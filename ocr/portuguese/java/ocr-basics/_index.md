@@ -48,7 +48,7 @@ Um ambiente licenciado remove limites de avaliação e maximiza o desempenho. Si
 
 [How to Set License for Aspose.OCR in Java](./set-license/)
 
-> **Dica profissional:** Coloque o arquivo de licença na pasta `resources` do seu projeto e carregue‑o uma única vez na inicialização da aplicação.
+> **Dica profissional:** Coloque o arquivo de licença na pasta `resources` do seu projeto e carregue‑lo uma única vez na inicialização da aplicação.
 
 ### Como calcular o ângulo de inclinação com Aspose.OCR
 Digitalizações inclinadas podem reduzir drasticamente a qualidade do OCR. Use o método embutido de cálculo de inclinação para detectar o ângulo e girar a imagem antes do reconhecimento:
@@ -103,6 +103,12 @@ Melhore a precisão do OCR com Aspose.OCR para Java. Aprenda a calcular ângulos
 
 ### [Obtendo Retângulos com Áreas de Texto no Aspose.OCR](./get-rectangles-with-text-areas/)
 Desbloqueie o poder do Aspose.OCR para Java. Aprenda como extrair texto de imagens de forma fluida neste guia passo a passo. Baixe agora para um reconhecimento de texto eficiente.
+
+### [Reconhecer texto de JPG usando Aspose OCR em Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Aprenda a extrair texto de arquivos JPG com Aspose OCR em Java, incluindo configuração e otimização para melhor precisão.
+
+### [Usar Todos os Núcleos da CPU em Java – Definir Tamanho do Pool de Threads de Forma Eficiente](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Aprenda a maximizar o uso da CPU configurando o pool de threads em Java para aproveitar todos os núcleos disponíveis.
 
 ---
 
