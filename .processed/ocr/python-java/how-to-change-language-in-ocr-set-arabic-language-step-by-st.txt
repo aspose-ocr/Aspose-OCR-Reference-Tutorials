@@ -1,0 +1,7 @@
+Title: How to Change Language in OCR – Set Arabic Language Step‑by‑Step
+Slug: how-to-change-language-in-ocr-set-arabic-language-step-by-st
+Category: general
+ProcessedDate: 2026-06-22T20:35:13.208005
+SourceRepo: AI Search API
+Keywords: how to change language, ocr language arabic, how to set ocr, change ocr language, set language ocr
+PRNumber: 155
