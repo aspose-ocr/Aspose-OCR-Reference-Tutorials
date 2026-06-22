@@ -11,7 +11,7 @@ url: /sv/net/text-recognition/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textigenkänning
+# Textigennänning
 
 ## Introduktion
 
@@ -37,6 +37,9 @@ Effektivitet är nyckeln i .NET-applikationer, och Aspose.OCR är här för att 
 
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning och integrera sömlöst i dina applikationer. Denna handledning ger en omfattande guide för att känna igen text i PDF-filer, vilket säkerställer en sömlös och effektiv integrationsupplevelse.
 
+### [Skapa sökbar PDF med Aspose OCR i C# – Steg‑för‑steg‑guide](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Lär dig hur du med Aspose OCR i C# skapar sökbara PDF-filer i en tydlig steg‑för‑steg‑guide.
+
 ## Identifiera tabell i OCR-bildigenkänning
 
 Navigera i komplexiteten med att känna igen tabeller i OCR-bildigenkänning med Aspose.OCR för .NET. Vår omfattande guide ger dig möjlighet att låsa upp den fulla potentialen hos Aspose.OCR, vilket säkerställer korrekt och effektiv tabelligenkänning i dina applikationer. Lyft dina projekt med den branschledande OCR-lösningen.
@@ -55,6 +58,16 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Utför OCR på bild med Aspose.OCR – Komplett C#-guide](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att utföra OCR på bilder och få textresultat.
+### [Känn igen textbild med Aspose OCR – Komplett C#-guide](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen text i bilder och få exakta resultat.
+### [Känn igen kinesisk text i C# – Komplett programmeringsguide](./recognize-chinese-text-in-c-complete-programming-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen kinesisk text i bilder med hög precision.
+### [OCR Bild till HTML i C# – Komplett programmeringsguide](./ocr-image-to-html-in-c-complete-programming-guide/)
+Lär dig hur du med Aspose.OCR i C# konverterar OCR‑bilder till HTML i en komplett steg‑för‑steg‑guide.
+### [Bild till text C# – Komplett guide med Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
