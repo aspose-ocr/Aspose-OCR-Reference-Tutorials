@@ -81,6 +81,14 @@ Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez w
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Uruchamianie OCR na dokumencie w Javie – Pełny przewodnik](./run-ocr-on-document-in-java-complete-guide/)
+Kompletny przewodnik, jak uruchomić OCR na dokumentach w Javie, krok po kroku, zapewniając wysoką dokładność i wydajność.
+### [Rozpoznawanie tekstu na obrazie przy użyciu Java OCR – Pełny przewodnik](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Kompletny przewodnik, jak rozpoznać tekst na obrazach w Javie przy użyciu OCR, krok po kroku, z praktycznymi przykładami.
+### [Załaduj obraz do OCR, wyodrębnij tekst z regionu – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Łatwy przewodnik, jak wczytać obraz, określić obszar i wyodrębnić z niego tekst przy użyciu Aspose.OCR w Javie.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Kompletny przewodnik Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, zapewniając wysoką jakość i wydajność.
 
 ## Najczęściej zadawane pytania
 

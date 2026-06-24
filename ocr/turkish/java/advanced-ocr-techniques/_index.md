@@ -45,6 +45,13 @@ Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin
 
 Aspose.OCR for Java ile izin verilen karakterleri belirterek görüntülerden zahmetsizce metin çıkarın. Sorunsuz bir metin tanıma deneyimi sağlayan verimli entegrasyon için adım adım kılavuzumuzu izleyin. Aspose.OCR özellikleriyle Java uygulamalarınızı geliştirin.
 
+## [Java'da Aspose OCR + GPU ile Metin Görüntüsü Tanıma](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+
+Aspose OCR ve GPU desteğiyle Java uygulamalarınızda metin görüntülerini yüksek doğrulukla tanıyın. Kolay entegrasyon ve hızlı performans.
+
+## [Aspose OCR Java ile Görüntüden Metin Tanıma – Tam Kılavuz](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Aspose OCR Java kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin. Tam kılavuzla yüksek doğruluk elde edin.
+
 ## Çözüm
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
@@ -61,6 +68,13 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [Java'da Aspose OCR + GPU ile Metin Görüntüsü Tanıma](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Aspose OCR ve GPU desteğiyle Java uygulamalarınızda metin görüntülerini yüksek doğrulukla tanıyın. Kolay entegrasyon ve hızlı performans.
+### [Aspose OCR Java ile Görüntüden Metin Tanıma – Tam Kılavuz](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Aspose OCR Java kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin. Tam kılavuzla yüksek doğruluk elde edin.
+### [Java'da OCR Sınır Kutusu – Görüntüden Metin Çıkarma](./ocr-bounding-box-in-java-extract-text-from-image/)
+Java ve Aspose.OCR ile görüntülerden metni sınırlayıcı kutularla çıkarın. Hızlı ve doğru OCR deneyimi için adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -71,6 +71,8 @@ In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+### [load image for OCR, extract text from region – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Learn how to load an image and extract text from a specific region using Aspose.OCR for Java.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
@@ -79,6 +81,12 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+### [Run OCR on Document in Java – Complete Guide](./run-ocr-on-document-in-java-complete-guide/)
+Comprehensive guide to running OCR on documents using Aspose.OCR for Java, covering setup, processing, and best practices.
+### [recognize text from image with Java OCR – Complete Guide](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Complete guide to extracting text from images using Java OCR with Aspose, covering setup, processing steps, and optimization tips.
+### [Create Searchable PDF with Aspose OCR – Complete Java Guide](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Step‑by‑step guide to creating searchable PDFs using Aspose OCR for Java, covering setup, OCR processing, and optimization.
 
 ## Frequently Asked Questions
 

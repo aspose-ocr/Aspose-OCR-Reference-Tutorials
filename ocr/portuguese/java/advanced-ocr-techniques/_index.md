@@ -45,6 +45,9 @@ Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de tex
 
 Extraia facilmente texto de imagens especificando caracteres permitidos com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente, garantindo uma experiência perfeita de reconhecimento de texto. Aprimore seus aplicativos Java com recursos Aspose.OCR.
 
+## [Reconhecendo texto em imagem em Java usando Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Acelere o OCR de imagens em Java com GPU usando Aspose OCR. Extraia texto rapidamente com alta precisão.
+
 ## Conclusão
 
 Com Aspose.OCR para Java, dominar técnicas avançadas de OCR nunca foi tão fácil. Mergulhe nesses tutoriais e libere todo o potencial do reconhecimento de texto em seus projetos Java. Eleve seus aplicativos com integração perfeita, alta precisão e recursos versáteis de extração de texto. Baixe agora e dê o primeiro passo em direção à excelência em OCR com Aspose.OCR para Java!
@@ -61,6 +64,13 @@ Desbloqueie o poder do reconhecimento de texto com Aspose.OCR para Java. Siga no
 Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de texto. Fácil integração, alta precisão.
 ### [Especificando caracteres permitidos em Aspose.OCR](./specify-allowed-characters/)
 Desbloqueie a extração de texto de imagens perfeitamente com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente.
+### [Reconhecendo texto em imagem em Java usando Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Acelere o OCR de imagens em Java com GPU usando Aspose OCR. Extraia texto rapidamente com alta precisão.
+### [Reconhecer texto a partir de imagem com Aspose OCR Java – Guia Completo](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Aprenda a reconhecer texto em imagens usando Aspose OCR para Java com este guia completo e passo a passo.
+### [Caixa delimitadora de OCR em Java – Extrair texto da imagem](./ocr-bounding-box-in-java-extract-text-from-image/)
+Aprenda a obter caixas delimitadoras de texto usando Aspose.OCR para Java e extraia texto de imagens com precisão.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -99,6 +99,10 @@ Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Unlock the power of Aspose.OCR for Java. Learn how to extract text from images seamlessly in this step-by-step guide. Download now for efficient text recognition.
+### [Java OCR Example – Load Image and Recognize Text with Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Learn how to load an image and extract text using Aspose.OCR for Java in a concise example.
+### [Perform OCR on Image in Java – Complete Step‑by‑Step Guide](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+A comprehensive guide to loading images and performing OCR with Aspose.OCR for Java, covering setup, processing, and result handling.
 
 ---
 
