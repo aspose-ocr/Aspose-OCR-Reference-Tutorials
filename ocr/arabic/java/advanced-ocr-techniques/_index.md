@@ -45,6 +45,10 @@ url: /ar/java/advanced-ocr-techniques/
 
 يمكنك استخراج النص من الصور بسهولة عن طريق تحديد الأحرف المسموح بها باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة لتحقيق التكامل الفعال، مما يضمن تجربة التعرف على النص بسلاسة. قم بتحسين تطبيقات Java الخاصة بك باستخدام إمكانيات Aspose.OCR.
 
+## [إنشاء PDF قابل للبحث من الصور في Java – دليل OCR الدفعي الكامل](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+
+دليل شامل لإنشاء ملفات PDF قابلة للبحث من مجموعة صور باستخدام OCR دفعي في Java.
+
 ## خاتمة
 
 مع Aspose.OCR لـ Java، أصبح إتقان تقنيات التعرف الضوئي على الحروف المتقدمة أسهل من أي وقت مضى. انغمس في هذه البرامج التعليمية واطلق العنان للإمكانات الكاملة للتعرف على النص في مشاريع Java الخاصة بك. ارفع مستوى تطبيقاتك من خلال التكامل السلس والدقة العالية وإمكانيات استخراج النص المتنوعة. قم بالتنزيل الآن واتخذ الخطوة الأولى نحو التميز في التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ Java!
@@ -61,6 +65,15 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+### [التعرف على النص من صورة في Java – دليل Aspose OCR المدعوم بتسريع GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+استفد من تسريع GPU لإجراء التعرف الضوئي على الحروف في Java واستخراج النص من الصور بسرعة ودقة عالية.
+### [كيفية اكتشاف اللغات في الصور باستخدام Java – دليل Aspose OCR الكامل](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+### [إجراء التعرف الضوئي على الحروف (OCR) على منطقة الاهتمام (ROI) في Java – دليل Aspose OCR الكامل](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+استخدم Aspose.OCR في Java لإجراء التعرف الضوئي على الحروف داخل ROI بدقة وسهولة.
+### [إنشاء PDF قابل للبحث من الصور في Java – دليل OCR الدفعي الكامل](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث من مجموعة صور باستخدام OCR دفعي في Java.
+### [التعرف على النص من صورة في Java – دليل Aspose OCR الكامل لتدقيق الإملاء](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

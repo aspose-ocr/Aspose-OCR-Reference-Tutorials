@@ -43,24 +43,28 @@ Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte
 
 ## [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
 
-Extrayez sans effort le texte des images en spécifiant les caractères autorisés avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace, garantissant une expérience de reconnaissance de texte transparente. Améliorez vos applications Java avec les fonctionnalités Aspose.OCR.
-
-## Conclusion
-
-Avec Aspose.OCR pour Java, maîtriser les techniques avancées d'OCR n'a jamais été aussi simple. Plongez dans ces didacticiels et libérez tout le potentiel de la reconnaissance de texte dans vos projets Java. Améliorez vos applications grâce à une intégration transparente, une haute précision et des capacités d'extraction de texte polyvalentes. Téléchargez maintenant et faites le premier pas vers l'excellence OCR avec Aspose.OCR pour Java !
-## Tutoriels sur les techniques avancées d'OCR
-### [Exécution d'OCR sur BufferedImage dans Aspose.OCR pour Java](./perform-ocr-buffered-image/)
-Effectuez facilement l'OCR sur BufferedImage avec Aspose.OCR pour Java. Extrayez le texte des images de manière transparente. Téléchargez-le maintenant pour une expérience de reconnaissance de texte polyvalente.
-### [Exécution d'OCR sur une image à partir d'une URL dans Aspose.OCR pour Java](./perform-ocr-image-from-url/)
-Débloquez une extraction transparente de texte d’image en Java avec Aspose.OCR. OCR de haute précision avec une intégration facile.
-### [Exécution de l'OCR sur une page spécifique dans Aspose.OCR](./perform-ocr-on-page/)
-Libérez la puissance d'Aspose.OCR pour Java avec notre guide étape par étape sur l'exécution de l'OCR sur des pages spécifiques. Extrayez facilement du texte à partir d'images et améliorez vos projets Java.
-### [Préparation des rectangles pour l'OCR dans Aspose.OCR](./prepare-rectangles-for-ocr/)
-Libérez la puissance de la reconnaissance de texte avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration transparente. Améliorez vos applications Java avec des capacités OCR efficaces.
-### [Reconnaître les lignes dans Aspose.OCR pour Java](./recognize-lines/)
-Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Intégration facile, haute précision.
-### [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
 Débloquez l'extraction de texte à partir d'images de manière transparente avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace.
+
+## [Effectuer l'OCR sur une zone d'intérêt (ROI) en Java – Guide complet Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+
+Exploitez la puissance d'Aspose OCR pour Java afin d'effectuer l'OCR sur une zone d'intérêt, avec un guide complet pas à pas.
+
+## [Reconnaître du texte à partir d'une image en Java avec OCR accéléré par GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+
+Exploitez la puissance du GPU pour une OCR rapide et précise en Java. Extraire du texte d'images avec des performances accrues.
+
+## [Comment détecter les langues dans les images avec Java – Guide complet Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+
+Détectez automatiquement les langues présentes dans les images en Java grâce à Aspose OCR. Suivez notre guide complet pour une intégration fluide.
+
+## [Créer un PDF recherchable à partir d'images en Java – Guide complet d'OCR par lots](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+
+Transformez vos images en PDF consultable grâce à Aspose.OCR pour Java, avec un processus OCR par lots complet et efficace.
+
+## [Reconnaître du texte à partir d'une image en Java – Guide complet de vérification orthographique Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+
+Découvrez comment intégrer la vérification orthographique avec Aspose OCR pour Java afin d'améliorer la précision du texte reconnu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

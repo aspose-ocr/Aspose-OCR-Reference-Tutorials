@@ -41,26 +41,25 @@ Efektywnie przygotowuj prostokąty do OCR za pomocą Aspose.OCR dla Java, korzys
 
 Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Ten samouczek przeprowadzi Cię przez łatwą integrację i wysoką dokładność rozpoznawania linii. Podnieś poziom swoich projektów dzięki wydajności i niezawodności Aspose.OCR.
 
+### [Jak wykrywać języki na obrazach w Javie – Kompletny przewodnik Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Wykryj języki w obrazach przy użyciu Aspose.OCR w Javie. Kompletny przewodnik zapewnia szybkie i dokładne rozpoznawanie języka.
+
 ## [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 
 Bez wysiłku wyodrębniaj tekst z obrazów, określając dozwolone znaki za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną integrację i zapewnić płynne rozpoznawanie tekstu. Ulepsz swoje aplikacje Java dzięki możliwościom Aspose.OCR.
 
-## Wniosek
+## [Rozpoznawanie tekstu z obrazu w Javie przyspieszonego OCR na GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Wykorzystaj przyspieszenie GPU do szybkiego i dokładnego rozpoznawania tekstu z obrazów w Javie.
 
-Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
-## Zaawansowane samouczki dotyczące technik OCR
-### [Wykonywanie OCR na BufferedImage w Aspose.OCR dla Java](./perform-ocr-buffered-image/)
-Wykonuj OCR na BufferedImage bez wysiłku dzięki Aspose.OCR dla Java. Płynnie wyodrębniaj tekst z obrazów. Pobierz teraz, aby uzyskać wszechstronne możliwości rozpoznawania tekstu.
-### [Wykonywanie OCR na obrazie z adresu URL w Aspose.OCR dla Java](./perform-ocr-image-from-url/)
-Odblokuj płynną ekstrakcję tekstu obrazu w Javie za pomocą Aspose.OCR. Wysoka dokładność OCR z łatwą integracją.
-### [Wykonywanie OCR na określonej stronie w Aspose.OCR](./perform-ocr-on-page/)
-Odblokuj moc Aspose.OCR dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego wykonywania OCR na określonych stronach. Wyodrębnij tekst z obrazów bez wysiłku i ulepsz swoje projekty Java.
-### [Przygotowanie prostokątów do OCR w Aspose.OCR](./prepare-rectangles-for-ocr/)
-Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Ulepsz swoje aplikacje Java dzięki wydajnym funkcjom OCR.
-### [Rozpoznawanie linii w Aspose.OCR dla Java](./recognize-lines/)
-Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
-### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
-Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+## [Rozpoznawanie tekstu z obrazu w Javie – Kompletny przewodnik Aspose OCR sprawdzania pisowni](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Sprawdź i popraw pisownię tekstu rozpoznanego z obrazów w Javie przy użyciu Aspose.OCR, zapewniając wysoką dokładność i wydajność.
+
+## [Wykonywanie OCR na ROI w Javie – Kompletny przewodnik Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Zastosuj OCR do wybranego obszaru obrazu w Javie, korzystając z pełnego przewodnika Aspose OCR.
+
+## [Utwórz przeszukiwalny PDF z obrazów w Javie – Kompletny przewodnik po wsadowym OCR](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Twórz przeszukiwalne pliki PDF z obrazów w Javie, wykorzystując wsadowe OCR Aspose.OCR, aby szybko i dokładnie konwertować dokumenty.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
