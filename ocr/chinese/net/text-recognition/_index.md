@@ -37,6 +37,9 @@ url: /zh/net/text-recognition/
 
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本并无缝集成到您的应用程序中。本教程提供了识别 PDF 中文本的全面指南，确保无缝高效的集成体验。
 
+### [使用 Aspose OCR 将图像转换为可搜索 PDF – 完整指南](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+通过本完整 C# 指南，学习使用 Aspose OCR 将图像转换为可搜索的 PDF，实现高效文本检索。
+
 ## OCR图像识别中的识别表
 
 使用 Aspose.OCR for .NET 解决 OCR 图像识别中表格识别的复杂性。我们的综合指南使您能够释放 Aspose.OCR 的全部潜力，确保您的应用程序中准确高效的表格识别。使用行业领先的 OCR 解决方案提升您的项目。
@@ -55,6 +58,16 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [使用 Aspose OCR 从图像中提取印地语文本 – 完整指南](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+### [使用 Aspose OCR 从图像中提取阿拉伯语文本 – 完整指南](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+通过本完整 C# 指南，学习使用 Aspose OCR 从图像中精准提取阿拉伯语文本，提升您的 .NET 应用 OCR 能力。
+### [使用 Aspose 在 C# 中对图像执行 OCR – 完整编程指南](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+通过本完整指南，学习在 C# 中使用 Aspose 对图像进行 OCR，获取高精度文本识别结果。
+### [批量 OCR 处理（C#）——提取图像文本的完整指南](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+通过本完整指南，学习在 C# 中批量使用 Aspose.OCR 处理图像，实现高效文本提取。
+### [在 C# 中将图像转换为文本 – 完整 Aspose OCR 指南](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+通过本完整 C# 指南，学习使用 Aspose OCR 将图像快速转换为可编辑文本，提升您的 .NET 应用 OCR 能力。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

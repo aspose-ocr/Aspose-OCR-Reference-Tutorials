@@ -68,12 +68,16 @@ Sử dụng Aspose.OCR For .NET Tutorials List, bạn có thể truy cập các 
 Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
+### [Tiền xử lý hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ](./preprocess-image-for-ocr-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tiền xử lý hình ảnh trong C# để cải thiện độ chính xác OCR với Aspose.OCR.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Kích hoạt GPU OCR trong C# – Hướng dẫn đầy đủ để trích xuất văn bản nhanh hơn](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Tận dụng GPU để tăng tốc độ OCR trong C#, giảm thời gian xử lý và cải thiện hiệu suất trích xuất văn bản.
 
 ## Câu hỏi thường gặp
 
