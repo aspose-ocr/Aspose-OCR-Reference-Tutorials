@@ -76,10 +76,14 @@ weight: 21
 ปลดล็อกการสกัดข้อความที่แม่นยำจากภาพด้วย Aspose.OCR for Java ทำตามคู่มือขั้นตอน‑ต่อ‑ขั้นตอนเพื่อ OCR ที่แม่นยำด้วยการเลือกภาษา  
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 ปลดล็อกพลังของ OCR ใน Java ด้วย Aspose.OCR Recognize ข้อความในเอกสาร PDF อย่างง่ายดาย เพิ่มแอปพลิเคชันของคุณด้วยความแม่นยำและความเร็ว  
+### [สร้าง PDF ที่ค้นหาได้ด้วย OCR – คำแนะนำเต็ม](./create-searchable-pdf-with-ocr-full-guide/)
+เรียนรู้ขั้นตอนเต็มเพื่อสร้างไฟล์ PDF ที่ค้นหาได้ด้วย OCR ใน Java ด้วย Aspose.OCR  
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 ปลดล็อกการจดจำข้อความที่ทรงพลังใน Java ด้วย Aspose.OCR Recognize ข้อความในภาพ TIFF อย่างไม่มีอุปสรรค ดาวน์โหลดเลยเพื่อประสบการณ์ OCR ที่ไร้รอยต่อ  
 ### [จดจำข้อความจากภาพด้วย Aspose OCR – คำแนะนำเต็มสำหรับ Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java  
+### [วิธีจัดแนวภาพ – คู่มือการเตรียมภาพสำหรับ OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+เรียนรู้วิธีแก้ไขการเอียงของภาพก่อนทำ OCR เพื่อเพิ่มความแม่นยำของการสกัดข้อความ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

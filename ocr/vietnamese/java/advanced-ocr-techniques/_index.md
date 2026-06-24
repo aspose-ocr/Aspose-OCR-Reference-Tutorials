@@ -61,6 +61,10 @@ Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java.
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
 ### [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
+### [Cách bật GPU trong Java Inference Engine – Hướng dẫn đầy đủ](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Hướng dẫn chi tiết cách kích hoạt GPU cho Java Inference Engine để tăng tốc độ xử lý mô hình AI.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh quét – Hướng dẫn OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

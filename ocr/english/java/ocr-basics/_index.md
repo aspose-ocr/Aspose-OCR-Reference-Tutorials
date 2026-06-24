@@ -99,6 +99,10 @@ Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Unlock the power of Aspose.OCR for Java. Learn how to extract text from images seamlessly in this step-by-step guide. Download now for efficient text recognition.
+### [recognize text from jpg using Aspose OCR in Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Learn how to recognize text from JPG images using Aspose OCR for Java in a simple step-by-step guide.
+### [Use All CPU Cores in Java – Set Thread Pool Size Efficiently](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Optimize performance by configuring thread pools to utilize all CPU cores in Java applications efficiently.
 
 ---
 

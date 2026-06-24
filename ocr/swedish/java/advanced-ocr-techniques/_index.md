@@ -43,24 +43,14 @@ Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Denna h
 
 ## [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 
-Extrahera text från bilder utan ansträngning genom att ange tillåtna tecken med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration, vilket säkerställer en sömlös textigenkänningsupplevelse. Förbättra dina Java-applikationer med Aspose.OCR-funktioner.
-
-## Slutsats
-
-Med Aspose.OCR för Java har det aldrig varit enklare att behärska avancerade OCR-tekniker. Dyk in i dessa handledningar och lås upp den fulla potentialen för textigenkänning i dina Java-projekt. Höj dina applikationer med sömlös integration, hög noggrannhet och mångsidiga textextraheringsmöjligheter. Ladda ner nu och ta det första steget mot OCR-excellens med Aspose.OCR för Java!
-## Handledningar för avancerade OCR-tekniker
-### [Utför OCR på BufferedImage i Aspose.OCR för Java](./perform-ocr-buffered-image/)
-Utför OCR på BufferedImage utan ansträngning med Aspose.OCR för Java. Extrahera text från bilder sömlöst. Ladda ner nu för en mångsidig textigenkänningsupplevelse.
-### [Utför OCR på bild från URL i Aspose.OCR för Java](./perform-ocr-image-from-url/)
-Lås upp sömlös bildtextextraktion i Java med Aspose.OCR. OCR med hög noggrannhet med enkel integration.
-### [Utför OCR på specifik sida i Aspose.OCR](./perform-ocr-on-page/)
-Lås upp kraften i Aspose.OCR för Java med vår steg-för-steg-guide om hur du utför OCR på specifika sidor. Extrahera text utan ansträngning från bilder och förbättra dina Java-projekt.
-### [Förbereda rektanglar för OCR i Aspose.OCR](./prepare-rectangles-for-ocr/)
-Lås upp kraften i textigenkänning med Aspose.OCR för Java. Följ vår steg-för-steg-guide för sömlös integration. Förbättra dina Java-applikationer med effektiva OCR-funktioner.
-### [Identifiera linjer i Aspose.OCR för Java](./recognize-lines/)
-Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Enkel integration, hög noggrannhet.
-### [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 Lås upp textextraktion från bilder sömlöst med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration.
+
+### [Skapa sökbar PDF från skannade bilder – Java OCR-guide](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Lär dig hur du konverterar skannade bilder till sökbara PDF-filer med Aspose.OCR för Java. Enkel steg-för-steg-guide.
+
+### [Hur du aktiverar GPU i Java Inference Engine – Komplett guide](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Lär dig steg för steg hur du aktiverar GPU-stöd i Java Inference Engine för förbättrad prestanda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
