@@ -37,6 +37,9 @@ La eficiencia es clave en las aplicaciones .NET y Aspose.OCR está aquí para ay
 
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo e intégrelo perfectamente en sus aplicaciones. Este tutorial proporciona una guía completa para reconocer texto en archivos PDF, garantizando una experiencia de integración perfecta y eficiente.
 
+## Crear PDF buscable con Aspose OCR en C# – Guía paso a paso
+Aprenda a generar PDFs buscables usando Aspose OCR en C#, siguiendo una guía completa paso a paso.
+
 ## Reconocer tabla en reconocimiento de imágenes OCR
 
 Navegue por las complejidades del reconocimiento de tablas en el reconocimiento de imágenes OCR con Aspose.OCR para .NET. Nuestra guía completa le permite desbloquear todo el potencial de Aspose.OCR, garantizando un reconocimiento de tablas preciso y eficiente en sus aplicaciones. Mejore sus proyectos con la solución OCR líder en la industria.
@@ -46,15 +49,28 @@ Navegue por las complejidades del reconocimiento de tablas en el reconocimiento 
 ### [Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR](./get-choices-for-recognized-characters/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
 ### [Obtener el resultado del reconocimiento en el reconocimiento de imágenes OCR](./get-recognition-result/)
-Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto de texto en imágenes.
+Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto del texto en imágenes.
 ### [Obtenga resultados como JSON en el reconocimiento de imágenes OCR](./get-result-as-json/)
 Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en formato JSON sin esfuerzo. Mejore el reconocimiento de sus imágenes con esta guía paso a paso.
 ### [Modo de detección de áreas OCR en reconocimiento de imágenes OCR](./ocr-detect-areas-mode/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del texto de las imágenes. Explore el modo de detección de áreas de OCR para obtener resultados precisos.
 ### [Reconocer PDF en reconocimiento de imágenes OCR](./recognize-pdf/)
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de integración perfecta.
+### [Crear PDF buscable con Aspose OCR en C# – Guía paso a paso](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Aprenda a generar PDFs buscables usando Aspose OCR en C#, siguiendo una guía completa paso a paso.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [Realizar OCR en una imagen con Aspose.OCR – Guía completa en C#](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a ejecutar OCR en imágenes con Aspose.OCR usando C#, siguiendo una guía completa paso a paso.
+### [Reconocer imagen de texto con Aspose OCR – Guía completa en C#](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Descubra cómo reconocer texto en imágenes con Aspose OCR mediante C#, con una guía detallada paso a paso.
+### [Reconocer texto chino en C# – Guía completa de programación](./recognize-chinese-text-in-c-complete-programming-guide/)
+Aprenda a reconocer texto chino en imágenes usando Aspose.OCR con C#, siguiendo una guía completa paso a paso.
+### [OCR de imagen a HTML en C# – Guía completa de programación](./ocr-image-to-html-in-c-complete-programming-guide/)
+Aprenda a convertir imágenes OCR a HTML usando Aspose.OCR en C#, con una guía paso a paso.
+### [Imagen a texto en C# – Guía completa con Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
+Aprenda a convertir imágenes a texto usando Aspose OCR en C#, siguiendo una guía completa paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
