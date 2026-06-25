@@ -1,0 +1,7 @@
+Title: Get OCR Supported Characters in Python – Complete Guide
+Slug: get-ocr-supported-characters-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-25T23:37:44.691063
+SourceRepo: AI Search API
+Keywords: get ocr supported characters
+PRNumber: 159
