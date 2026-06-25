@@ -61,6 +61,15 @@ Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze sta
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
 ### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
 Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+### [OCR GPU-versnelling in Java – Complete programmeergids](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Versnel OCR-prestaties met GPU-ondersteuning in Java. Volg onze volledige programmeergids voor optimale tekstherkenning.
+### [Aspose OCR Java-voorbeeld – Tekst extraheren uit TIFF met parallelle verwerking](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Extraheer tekst uit TIFF-bestanden met parallelle verwerking in Aspose OCR voor Java. Volg de stapsgewijze gids voor optimale prestaties.
+### [Hoe OCR-nauwkeurigheid te verbeteren met Java – Volledig Aspose OCR-voorbeeld](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Verbeter de OCR-nauwkeurigheid in Java met een volledige
+### [OCRConfig-object maken in Java – Volledige Aspose OCR-configuratiehandleiding](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Leer hoe u een OCRConfig-object configureert voor optimale OCR-prestaties met Aspose OCR in Java. Volledige stapsgewijze gids.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

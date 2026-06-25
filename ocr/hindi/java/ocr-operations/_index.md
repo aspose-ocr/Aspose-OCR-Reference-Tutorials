@@ -80,6 +80,10 @@ Java में OCR की शक्ति को Aspose.OCR के साथ अ
 Java में Aspose.OCR के साथ शक्तिशाली टेक्स्ट पहचान को अनलॉक करें। TIFF इमेजेज में टेक्स्ट को सहजता से पहचानें। एक सहज OCR अनुभव के लिए अभी डाउनलोड करें।
 ### [Aspose OCR के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Java OCR ट्यूटोरियल](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, Java कोड उदाहरणों के साथ।
+### [Aspose OCR Java उदाहरण: इमेज से टेक्स्ट को पहचानें](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने का सरल उदाहरण देखें।
+### [Java में खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-java-full-guide/)
+Java का उपयोग करके खोज योग्य PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 
