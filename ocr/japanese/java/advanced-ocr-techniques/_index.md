@@ -61,6 +61,14 @@ Aspose.OCR for Java でテキスト認識の能力を解放します。シーム
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
 ### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+### [Java での OCR GPU 加速 – 完全プログラミングガイド](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+GPU を活用して OCR 処理を高速化する方法をステップバイステップで解説します。Java アプリケーションのパフォーマンスを大幅に向上させましょう。
+### [Aspose OCR Java の例 – 並列処理で TIFF からテキストを抽出](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+並列処理を活用して、TIFF 画像から高速にテキストを抽出する方法をステップバイステップで解説します。
+### [Java で OCR 精度を向上させる方法 – 完全 Aspose OCR 例](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+### [Java で OCRConfig オブジェクトを作成 – 完全 Aspose OCR 設定ガイド](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Java で OCRConfig オブジェクトを作成し、Aspose OCR の設定を完全に行う手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
