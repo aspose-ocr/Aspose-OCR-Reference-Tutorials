@@ -1,10 +1,17 @@
 ---
-date: 2025-12-22
-description: Aspose.OCR for Java ile PDF belgelerini OCR'lamayı öğrenin. PDF dosyalarındaki
-  metni uygulamalarınız için hızlı ve doğru bir şekilde tanıyın.
-linktitle: OCR Recognizing PDF Documents in Aspose.OCR for Java
+date: 2026-05-04
+description: Aspose.OCR for Java kullanarak PDF belgelerini OCR nasıl yapılır öğrenin.
+  PDF'yi metne dönüştürün, Java'da PDF metnini çıkarın ve PDF işleme için Java OCR
+  kütüphanesini entegre edin.
+keywords:
+- how to ocr pdf
+- convert pdf to text
+- extract pdf text java
+- aspose ocr java tutorial
+- java ocr library pdf
+linktitle: Aspose.OCR for Java ile PDF Belgelerini OCR'lamak
 second_title: Aspose.OCR Java API
-title: Java için Aspose.OCR'de PDF Belgelerinin OCR Tanıması
+title: Aspose.OCR for Java ile PDF Belgelerini OCR Nasıl Yapılır
 url: /tr/java/ocr-operations/recognize-pdf/
 weight: 12
 ---
@@ -17,26 +24,33 @@ weight: 12
 
 ## Giriş
 
-Java ortamında **how to ocr pdf** dosyalarını verimli bir şekilde işlemek istiyorsanız, doğru yerdesiniz. Optik Karakter Tanıma (OCR), basılı veya el yazısı içeriği aranabilir, düzenlenebilir metne dönüştürür ve Aspose.OCR for Java bu süreci sorunsuz hâle getirir. Bu öğreticide bir PDF belgesini tanıma, metnini çıkarma ve sonuçları işleme adımlarını adım adım açıklayacağız—hepsi açık ve insan dostu açıklamalarla.
+Java ortamında **how to ocr pdf** dosyalarını verimli bir şekilde işlemek istiyorsanız, doğru yerdesiniz. Optik Karakter Tanıma (OCR), basılı veya el yazısı içeriği aranabilir, düzenlenebilir metne dönüştürür ve Aspose.OCR for Java bu süreci sorunsuz hâle getirir. Bu öğreticide bir PDF belgesini tanımak, metnini çıkarmak ve sonuçları işlemek için gereken tüm adımları ayrıntılı, insan‑dostu açıklamalarla ele alacağız. Sonunda, önde gelen **java ocr library pdf** kullanarak **convert pdf to text** ve **extract pdf text java**‑stilinde nasıl yapılacağını da göreceksiniz.
 
 ## Hızlı Yanıtlar
-- **What does “how to ocr pdf” mean?** PDF dosyalarından metin okumak ve çıkarmak için OCR teknolojisinin kullanılmasını ifade eder.  
-- **Which Java OCR library is used?** Aspose.OCR for Java, sağlam bir ticari kütüphane.  
-- **Do I need a license?** Değerlendirme için ücretsiz deneme sürümü yeterlidir; üretim için lisans gereklidir.  
-- **Can it handle scanned PDFs?** Evet—Aspose.OCR, taranmış PDF sayfalarındaki metni tanıyabilir.  
-- **What is the typical setup time?** Temel bir örneği çalıştırmak yaklaşık 10‑15 dakika sürer.
+- **“how to ocr pdf” ne anlama geliyor?** PDF dosyalarından metin okumak ve çıkarmak için OCR teknolojisinin kullanılmasını ifade eder.  
+- **Hangi Java OCR kütüphanesi kullanılıyor?** Aspose.OCR for Java, birçok **aspose ocr java tutorial** kılavuzunda yer alan sağlam bir ticari kütüphanedir.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için lisans gereklidir.  
+- **Taranmış PDF'leri işleyebilir mi?** Evet—Aspose.OCR, taranmış PDF sayfalarındaki metni tanıyabilir.  
+- **Tipik kurulum süresi nedir?** Temel bir örneği çalıştırmak yaklaşık 10‑15 dakikadır.
 
 ## OCR Nedir ve PDF'lerde Neden Kullanılır?
 
-OCR (Optik Karakter Tanıma), metin görüntülerini—örneğin taranmış PDF sayfalarını—makine tarafından okunabilir karakterlere dönüştürür. Bu sayede **extract pdf text ocr** arama, indeksleme veya daha ileri işleme için kullanılabilir, statik belgeleri dinamik veri kaynaklarına dönüştürür.
+OCR (Optical Character Recognition), metin görüntülerini—örneğin taranmış PDF sayfalarını—makine tarafından okunabilir karakterlere dönüştürür. Bu, **extract pdf text java**'ı arama, indeksleme veya daha ileri işleme için kullanmanıza olanak tanır ve statik belgeleri dinamik veri kaynaklarına dönüştürür.
+
+## Neden PDF'yi Metne Dönüştürmek İçin Aspose.OCR Kullanılır?
+
+- **Yüksek Doğruluk:** Temiz çıkarım için gelişmiş algoritmalar kullanır.  
+- **Dil Desteği:** `Language` enum'ı aracılığıyla dilleri kolayca değiştirebilirsiniz.  
+- **Ölçeklenebilir:** Tek sayfalı dosyalar ya da büyük çok sayfalı PDF'lerde çalışır.  
+- **Entegrasyon Dostu:** Java arka uçları, toplu işler veya web servislerine doğal olarak uyum sağlar.
 
 ## Önkoşullar
 
-Koda geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
+Kodlamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **Java Development Environment** – JDK 8 veya daha üstü yüklü ve yapılandırılmış.  
-- **Aspose.OCR for Java Library** – [download page](https://releases.aspose.com/ocr/java/) adresinden indirin.  
-- **PDF Document for Recognition** – İşlemek istediğiniz PDF (taranmış veya dijital olarak oluşturulmuş).
+- **Java Geliştirme Ortamı** – JDK 8 veya daha üstü yüklü ve yapılandırılmış.  
+- **Aspose.OCR for Java Kütüphanesi** – [download page](https://releases.aspose.com/ocr/java/) adresinden indirin.  
+- **Tanıma İçin PDF Belgesi** – İşlemek istediğiniz PDF (taranmış veya dijital olarak oluşturulmuş).
 
 ## Paketleri İçe Aktarma
 
@@ -65,7 +79,7 @@ Aspose.OCR JAR dosyalarını projenizin `lib` klasörüne yerleştirin (veya Mav
 String dataDir = "Your Document Directory";
 ```
 
-## Adım 2: PDF Belge Yolunu Belirleyin
+## Adım 2: PDF Belge Yolunu Belirtin
 
 OCR motorunu işlemek istediğiniz PDF'ye yönlendirin.
 
@@ -85,7 +99,7 @@ AsposeOCRPdf api = new AsposeOCRPdf();
 
 ## Adım 4: Tanıma Seçeneklerini Ayarlayın
 
-`DocumentRecognitionSettings` kullanarak OCR ayarlarını—dil ve sayfa sayısı gibi—yapılandırın. Burada **java ocr library**'e ne araması gerektiğini söylersiniz.
+`DocumentRecognitionSettings` kullanarak OCR ayarlarını—dil ve sayfa sayısı gibi—yapılandırın. Burada **java ocr library**'ye ne araması gerektiğini söylersiniz.
 
 ```java
 // Set recognition options
@@ -95,7 +109,7 @@ settings.setLanguage(Language.Eng);
 
 ## Adım 5: OCR Tanımasını Gerçekleştirin
 
-Belirtilen PDF üzerinde OCR motorunu çalıştırın. Metot, her sayfayı temsil eden `RecognitionResult` nesnelerinin bir listesini döndürür.
+Belirtilen PDF üzerinde OCR motorunu çalıştırın. Metot, her bir sayfayı temsil eden `RecognitionResult` nesnelerinin bir listesini döndürür.
 
 ```java
 // Get result list
@@ -115,7 +129,7 @@ for(RecognitionResult r: result) {
 
 ## Adım 7: PrintResult Metodunu Tanımlayın
 
-Yardımcı metot, ayrıntılı OCR çıktısını biçimlendirir ve yazdırır. (Uygulama orijinal kod parçacığında sağlanmıştır.)
+Yardımcı metot, ayrıntılı OCR çıktısını biçimlendirir ve yazdırır. (Uygulama, orijinal kod snippet'inde sağlanmıştır.)
 
 ```java
 // PrintResult method
@@ -124,41 +138,32 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-## Neden Önemlidir
-
-- **Extract PDF Text OCR** – Statik PDF sayfalarını analiz, indeksleme veya veri madenciliği için aranabilir metne dönüştürür.  
-- **Convert PDF to Text** – Çıkarılan içeriği veritabanları veya NLP boru hatları gibi sonraki sistemlere kolayca aktarır.  
-- **Java OCR Example** – Bu öğretici, toplu işleme veya web hizmetleri için uyarlayabileceğiniz hazır bir örnek sunar.  
-- **Recognize Scanned PDF** – Taranmış belgelerde de aynı derecede iyi çalışır, arşivleri dijitalleştirmek için idealdir.
-
 ## Yaygın Sorunlar ve İpuçları
 
-- **Low Accuracy:** Kaynak PDF'nin yüksek çözünürlüklü (300 dpi veya daha fazla) olduğundan emin olun.  
-- **Memory Consumption:** Büyük PDF'lerde, OutOfMemory hatalarını önlemek için sayfaları partiler halinde işleyin.  
-- **Language Support:** Belgeniz İngilizce değilse uygun `Language` enum'ını ayarlayın.
+- **Düşük Doğruluk:** Kaynak PDF'nin yüksek çözünürlükte (300 dpi veya daha fazla) olduğundan emin olun.  
+- **Bellek Kullanımı:** Büyük PDF'lerde, OutOfMemory hatalarını önlemek için sayfaları toplu işleyin.  
+- **Dil Desteği:** Belgeniz İngilizce değilse uygun `Language` enum'ını ayarlayın.  
 
-## SSS
+## Sık Sorulan Sorular
 
-### Q1: Aspose.OCR diğer belge formatlarıyla uyumlu mu?
-A1: Aspose.OCR, PDF, görüntüler ve daha fazlası dahil olmak üzere çeşitli belge formatlarını destekler. Kapsamlı liste için belgeleri inceleyin.
+**S: Aspose.OCR diğer belge formatlarıyla uyumlu mu?**  
+C: Aspose.OCR, PDF, görüntüler ve daha fazlası dahil olmak üzere çeşitli belge formatlarını destekler. Kapsamlı liste için dokümantasyona bakın.
 
-### Q2: Aspose.OCR'yi ticari projelerde kullanabilir miyim?
-A2: Evet, Aspose.OCR hem kişisel hem de ticari projeler için kullanılabilecek ticari lisanslar sunar. Lisans detayları için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
+**S: Aspose.OCR'ı ticari projelerde kullanabilir miyim?**  
+C: Evet, Aspose.OCR hem kişisel hem de ticari projeler için kullanılabilecek ticari lisanslar sunar. Lisans detayları için [purchase page](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-### Q3: OCR tanıma sürecinde herhangi bir sınırlama var mı?
-A3: Aspose.OCR güçlü olmasına rağmen, doğruluk giriş belgesinin kalitesi ve netliğine bağlı olarak değişebilir. En iyi sonuçlar için belgelerin net olduğundan emin olun.
+**S: OCR tanıma sürecinde herhangi bir sınırlama var mı?**  
+C: Aspose.OCR güçlü olsa da, doğruluk giriş belgesinin kalitesi ve netliğine bağlı olarak değişebilir. En iyi sonuçlar için belgelerin net olduğundan emin olun.
 
-### Q4: Aspose.OCR için nasıl destek alabilirim?
-A4: Destek ve tartışmalar için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
+**S: Aspose.OCR için destek nasıl alınır?**  
+C: Destek ve tartışmalar için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
 
-### Q5: Aspose.OCR için ücretsiz deneme mevcut mu?
-A5: Evet, [here](https://releases.aspose.com/) adresinden ücretsiz deneme alarak Aspose.OCR'yi keşfedebilirsiniz.
+**S: Aspose.OCR için ücretsiz deneme mevcut mu?**  
+C: Evet, [here](https://releases.aspose.com/) adresinden ücretsiz deneme alarak Aspose.OCR'ı keşfedebilirsiniz.
 
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.OCR for Java 24.11  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-05-04  
+**Test Edilen Sürüm:** Aspose.OCR for Java 24.12  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

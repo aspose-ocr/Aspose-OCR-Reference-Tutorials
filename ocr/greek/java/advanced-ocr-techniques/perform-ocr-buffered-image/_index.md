@@ -1,11 +1,15 @@
 ---
-date: 2026-02-17
-description: Μάθετε πώς να εξάγετε κείμενο από εικόνα Java χρησιμοποιώντας το Aspose.OCR
-  for Java. Αυτός ο βήμα‑βήμα οδηγός σας δείχνει πώς να μετατρέψετε μια εικόνα σε
-  κείμενο Java με BufferedImage.
-linktitle: 'Extract Text from Image Java: OCR on BufferedImage with Aspose.OCR'
+date: 2026-05-04
+description: Μάθετε πώς να πραγματοποιήσετε μετατροπή εικόνας σε κείμενο με Java χρησιμοποιώντας
+  το Aspose.OCR για Java. Αυτός ο βήμα‑βήμα οδηγός σας δείχνει πώς να εξάγετε κείμενο
+  από εικόνα με BufferedImage.
+keywords:
+- image to text java
+- extract text from image
+- recognize text from png
+linktitle: 'Εξαγωγή κειμένου από εικόνα Java: OCR σε BufferedImage με Aspose.OCR'
 second_title: Aspose.OCR Java API
-title: Μετατροπή εικόνας σε κείμενο σε Java χρησιμοποιώντας Aspose.OCR BufferedImage
+title: 'εικόνα σε κείμενο java: Μετατροπή εικόνας σε κείμενο με το Aspose.OCR'
 url: /el/java/advanced-ocr-techniques/perform-ocr-buffered-image/
 weight: 10
 ---
@@ -18,33 +22,33 @@ weight: 10
 
 ## Εισαγωγή
 
-Σε αυτό το **Aspose OCR Java tutorial** θα ανακαλύψετε πώς να **μετατρέψετε εικόνα σε κείμενο** χρησιμοποιώντας τη δυναμική βιβλιοθήκη Aspose.OCR. Είτε χρειάζεστε **επεξεργασία σαρωμένων εγγράφων**, ανάγνωση αποδείξεων ή εξαγωγή κειμένου από στιγμιότυπα οθόνης, το OCR σε ένα `BufferedImage` σας παρέχει έναν καθαρό, προγραμματιζόμενο τρόπο να **εξάγετε κείμενο java** σε δευτερόλεπτα. Θα περάσουμε από τη ρύθμιση, τις απαιτούμενες εισαγωγές και τον ακριβή κώδικα που χρειάζεστε για γρήγορα αποτελέσματα.
+Σε αυτό το **Aspose OCR Java tutorial** θα ανακαλύψετε πώς να **convert image to text** χρησιμοποιώντας τη δυνατή βιβλιοθήκη Aspose.OCR. **This guide walks you through image to text java** χρησιμοποιώντας την υποστήριξη BufferedImage του Aspose.OCR, είτε χρειάζεται να επεξεργαστείτε σαρωμένα έγγραφα, να διαβάσετε αποδείξεις ή να εξάγετε κείμενο από στιγμιότυπα οθόνης. Θα περάσουμε από τη ρύθμιση, τις απαιτούμενες εισαγωγές και τον ακριβή κώδικα που χρειάζεστε για γρήγορα αποτελέσματα.
 
 ## Γρήγορες Απαντήσεις
 - **Ποια βιβλιοθήκη είναι η καλύτερη για Java OCR;** Aspose.OCR for Java.  
-- **Μπορώ να επεξεργαστώ απευθείας ένα BufferedImage;** Ναι – η μέθοδος `RecognizePage` δέχεται `BufferedImage`.  
-- **Χρειάζεται άδεια για δοκιμή;** Μια δωρεάν δοκιμή λειτουργεί για ανάπτυξη· απαιτείται άδεια για παραγωγή.  
-- **Ποιοι τύποι εικόνας υποστηρίζονται;** PNG, JPEG, BMP, TIFF και άλλα.  
-- **Πόσο χρόνο παίρνει η επεξεργασία μιας τυπικής εικόνας;** Συνήθως κάτω από ένα δευτερόλεπτο για εικόνες κανονικού μεγέθους.
+- **Μπορώ να επεξεργαστώ ένα BufferedImage απευθείας;** Yes – the `RecognizePage` method accepts `BufferedImage`.  
+- **Χρειάζομαι άδεια για δοκιμή;** A free trial works for development; a license is required for production.  
+- **Ποια φορμά εικόνας υποστηρίζονται;** PNG, JPEG, BMP, TIFF, and more.  
+- **Πόσο χρόνο χρειάζεται μια τυπική εικόνα για επεξεργασία;** Usually under a second for standard‑size images.
 
-## Τι είναι το OCR και γιατί να το χρησιμοποιήσετε για **μετατροπή εικόνας σε κείμενο** σε Java;
+## Τι είναι η μετατροπή εικόνας σε κείμενο σε Java;
 
-Η Οπτική Αναγνώριση Χαρακτήρων (OCR) αναλύει τα οπτικά μοτίβα μιας εικόνας και τα μετατρέπει σε επεξεργάσιμο κείμενο. Για προγραμματιστές Java, το OCR ανοίγει δρόμους για αυτοματοποίηση εισαγωγής δεδομένων, δημιουργία αναζητήσιμων αρχείων και ενίσχυση ροών εργασίας με AI χωρίς χειροκίνητη μεταγραφή.
+Η Optical Character Recognition (OCR) αναλύει οπτικά μοτίβα σε μια εικόνα και τα μετατρέπει σε επεξεργάσιμο κείμενο. Σε Java, το OCR σας επιτρέπει να **extract text from image** αρχεία προγραμματιστικά, ανοίγοντας το δρόμο για αυτοματοποιημένη εισαγωγή δεδομένων, αρχεία αναζήτησης και ροές εργασίας με AI χωρίς χειροκίνητη μεταγραφή.
 
 ## Γιατί να επιλέξετε Aspose.OCR για Java;
 
-- **Υψηλή ακρίβεια** σε πολλές γλώσσες και γραμματοσειρές.  
-- **Απλό API** – μία γραμμή κώδικα μπορεί να αναγνωρίσει ολόκληρη τη σελίδα.  
-- **Χωρίς εξωτερικές εξαρτήσεις** – λειτουργεί με απλό `BufferedImage`.  
-- **Πλήρης τεκμηρίωση** και τακτικές ενημερώσεις (δείτε τα σήματα εμπιστοσύνης στο κάτω μέρος).  
+- **High accuracy** across multiple languages and fonts.  
+- **Simple API** – one line of code can recognize an entire page.  
+- **No external dependencies** – works with plain `BufferedImage`.  
+- **Comprehensive documentation** and regular updates (see the trust signals at the bottom).  
 
 ## Προαπαιτούμενα
 
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα εξής:
 
-1. **Java Development Kit (JDK)** – έκδοση 8 ή νεότερη. Κατεβάστε το από το [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
-2. **Aspose.OCR for Java** – αποκτήστε το τελευταίο JAR από την ιστοσελίδα της Aspose [εδώ](https://releases.aspose.com/ocr/java/).  
-3. **Φάκελος με εικόνες** – δημιουργήστε έναν κατάλογο στον υπολογιστή σας και τοποθετήστε τις εικόνες που θέλετε να επεξεργαστείτε. Ενημερώστε τη μεταβλητή `dataDir` στον κώδικα ώστε να δείχνει σε αυτόν τον φάκελο.
+1. **Java Development Kit (JDK)** – version 8 ή νεότερο. Κατεβάστε το από [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+2. **Aspose.OCR for Java** – obtain the latest JAR from the Aspose website [here](https://releases.aspose.com/ocr/java/).  
+3. **A folder with images** – create a directory on your machine and place the images you want to process. Update the `dataDir` variable in the code to point to this folder.
 
 ## Εισαγωγή Πακέτων
 
@@ -62,9 +66,9 @@ import java.io.File;
 import java.io.IOException;
 ```
 
-## Πώς να **Μετατρέψετε Εικόνα σε Κείμενο** σε Java – Οδηγός Βήμα‑Βήμα
+## Πώς να **Convert Image to Text** σε Java – Οδηγός Βήμα‑βήμα
 
-### Βήμα 1: Ορισμός του καταλόγου εγγράφων και της διαδρομής εικόνας  
+### Βήμα 1: Ορίστε τον φάκελο εγγράφου και τη διαδρομή εικόνας  
 
 ```java
 // The path to the documents directory.
@@ -74,9 +78,9 @@ String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p3.png";
 ```
 
-Αντικαταστήστε το `"Your Document Directory"` με την απόλυτη διαδρομή όπου βρίσκονται τα αρχεία PNG/JPEG σας. Εδώ θα διαβάσει η διαδικασία **convert image to text**.
+Αντικαταστήστε `"Your Document Directory"` με την απόλυτη διαδρομή όπου βρίσκονται τα αρχεία PNG/JPEG σας. Αυτός είναι ο φάκελος από τον οποίο η διαδικασία **image to text java** θα διαβάσει.
 
-### Βήμα 2: Δημιουργία ενός αντικειμένου AsposeOCR  
+### Βήμα 2: Δημιουργήστε ένα αντικείμενο AsposeOCR  
 
 ```java
 // Create API instance
@@ -85,7 +89,7 @@ AsposeOCR api = new AsposeOCR();
 
 Το αντικείμενο `AsposeOCR` σας δίνει πρόσβαση σε όλες τις μεθόδους OCR, συμπεριλαμβανομένης της επιλογής γλώσσας και των προχωρημένων ρυθμίσεων αν τις χρειαστείτε αργότερα.
 
-### Βήμα 3: Φόρτωση της εικόνας και εξαγωγή κειμένου  
+### Βήμα 3: Φορτώστε την εικόνα και αναγνωρίστε το κείμενο  
 
 ```java
 // Recognize page from BufferedImage
@@ -101,62 +105,64 @@ try {
 Εδώ:
 
 1. Φορτώνουμε το αρχείο εικόνας σε ένα `BufferedImage`.  
-2. Καλούμε `api.RecognizePage(loaded)` – αυτή είναι η κύρια κλήση **extract text java**.  
+2. Καλούμε `api.RecognizePage(loaded)` – αυτή είναι η κεντρική κλήση **extract text java**.  
 3. Εκτυπώνουμε το αναγνωρισμένο κείμενο στην κονσόλα.
+
+> **Pro tip:** Μπορείτε επίσης να **recognize text from png** αρχεία με την ίδια μέθοδο· απλώς δείξτε το `imagePath` σε μια PNG εικόνα.
 
 Επαναλάβετε τα τρία βήματα για κάθε εικόνα που χρειάζεται επεξεργασία, απλώς προσαρμόζοντας το `imagePath`.
 
-## Συνηθισμένα Προβλήματα & Αντιμετώπιση
+## Συχνές Περιπτώσεις Χρήσης
+
+- **Invoice processing:** Extract line‑item details from scanned PDFs or PNG receipts.  
+- **Document archiving:** Turn scanned contracts into searchable text for quick retrieval.  
+- **Automation bots:** Pull text from screenshots of web pages or desktop applications.
+
+## Συχνά Προβλήματα & Επίλυση
 
 | Συμπτωμα | Πιθανή Αιτία | Διόρθωση |
 |---------|--------------|----------|
-| `null` έξοδος | Το αρχείο εικόνας δεν βρέθηκε ή δεν μπορεί να διαβαστεί | Επαληθεύστε το `dataDir` και το όνομα αρχείου· βεβαιωθείτε ότι η εικόνα είναι σε υποστηριζόμενη μορφή |
-| Παραμορφωμένοι χαρακτήρες | Λανθασμένες ρυθμίσεις γλώσσας | Χρησιμοποιήστε `api.setLanguage(Language.<desired>)` πριν το `RecognizePage` |
-| Αργή απόδοση σε μεγάλες εικόνες | Πολύ υψηλή ανάλυση εικόνας | Αλλάξτε το μέγεθος της εικόνας ή περάστε ένα κλιμακωμένο `BufferedImage` στο API |
+| `null` output | Το αρχείο εικόνας δεν βρέθηκε ή δεν μπορεί να διαβαστεί | Επαληθεύστε το `dataDir` και το όνομα αρχείου· βεβαιωθείτε ότι η εικόνα είναι σε υποστηριζόμενο φορμά |
+| Garbled characters | Wrong language settings | Use `api.setLanguage(Language.<desired>)` before `RecognizePage` |
+| Slow performance on large images | Image resolution too high | Resize the image or pass a scaled `BufferedImage` to the API |
 
 ## Συχνές Ερωτήσεις (Πρόσθετες)
 
-**Ε1: Μπορεί το Aspose.OCR να διαχειριστεί πολλαπλές γλώσσες;**  
-Α: Ναι – υποστηρίζει δεκάδες γλώσσες αμέσως. Μπορείτε να ορίσετε τη γλώσσα στόχο με `api.setLanguage(Language.English)` (ή οποιαδήποτε άλλη υποστηριζόμενη).
+**Q1: Μπορεί το Aspose.OCR να διαχειριστεί πολλές γλώσσες;**  
+A: Yes – it supports dozens of languages out of the box. You can set the target language with `api.setLanguage(Language.English)` (or any other supported language).
 
-**Ε2: Είναι το Aspose.OCR συμβατό με διαφορετικούς τύπους εικόνας;**  
-Α: Απόλυτα. PNG, JPEG, BMP, TIFF και GIF υποστηρίζονται όλα.
+**Q2: Είναι το Aspose.OCR συμβατό με διαφορετικά φορμά εικόνας;**  
+A: Absolutely. PNG, JPEG, BMP, TIFF, and GIF are all supported.
 
-**Ε3: Πόσο συχνά ενημερώνεται το Aspose.OCR;**  
-Α: Η Aspose κυκλοφορεί τακτικές ενημερώσεις. Ελέγξτε τις τελευταίες σημειώσεις έκδοσης στη [documentation page](https://reference.aspose.com/ocr/java/).
+**Q3: Πόσο συχνά ενημερώνεται το Aspose.OCR;**  
+A: Aspose releases regular updates. Check the latest release notes on the [documentation page](https://reference.aspose.com/ocr/java/).
 
-**Ε4: Μπορώ να δοκιμάσω το Aspose.OCR πριν το αγοράσω;**  
-Α: Ναι – μια δωρεάν δοκιμή είναι διαθέσιμη [εδώ](https://releases.aspose.com/).
+**Q4: Μπορώ να δοκιμάσω το Aspose.OCR πριν το αγοράσω;**  
+A: Yes – a free trial is available [here](https://releases.aspose.com/).
 
-**Ε5: Πού μπορώ να βρω υποστήριξη από την κοινότητα για το Aspose.OCR;**  
-Α: Συμμετέχετε στη συζήτηση στο [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+**Q5: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.OCR;**  
+A: Join the discussion on the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
 ## FAQ – Γρήγορη Αναφορά για το Java OCR Tutorial
 
-**Ε: Ποιος είναι ο πιο εύκολος τρόπος να ξεκινήσετε ένα **java ocr tutorial**;**  
-Α: Εγκαταστήστε το JDK, προσθέστε το JAR του Aspose.OCR στο έργο σας και ακολουθήστε το μοτίβο κώδικα τριών βημάτων που φαίνεται παραπάνω.
+**Q: Ποιος είναι ο πιο εύκολος τρόπος για να ξεκινήσετε ένα **java ocr tutorial**;**  
+A: Install the JDK, add the Aspose.OCR JAR to your project, and follow the three‑step code pattern shown above.
 
-**Ε: Μπορώ να χρησιμοποιήσω αυτή τη μέθοδο για **process scanned documents** μαζικά;**  
-Α: Ναι. Επανάληψη των αρχείων σε έναν φάκελο, επαναχρησιμοποίηση του ίδιου αντικειμένου `AsposeOCR` και συλλογή των αποτελεσμάτων.
+**Q: Μπορώ να χρησιμοποιήσω αυτή τη μέθοδο για **process scanned documents** μαζικά;**  
+A: Yes. Loop over files in a directory, reuse the same `AsposeOCR` instance, and collect each result.
 
-**Ε: Πρέπει να ορίσω γλώσσα για κείμενο στα Αγγλικά;**  
-Α: Τα Αγγλικά είναι προεπιλογή, αλλά μπορείτε να το δηλώσετε ρητά με `api.setLanguage(Language.English)` για σαφήνεια.
+**Q: Πρέπει να ορίσω γλώσσα για κείμενο στα Αγγλικά;**  
+A: English is the default, but you can explicitly set it with `api.setLanguage(Language.English)` for clarity.
 
-**Ε: Υπάρχει κάποιος αντίκτυπος στην απόδοση όταν τρέχει σε διακομιστή;**  
-Α: Η μηχανή είναι ελαφριά· τυπικές εικόνες (<2 MB) επεξεργάζονται κάτω από ένα δευτερόλεπτο. Για σενάρια υψηλής παραγωγικότητας, σκεφτείτε προ-κλιμάκωση εικόνας ή πολυνηματική εκτέλεση.
+**Q: Υπάρχει κάποιος αντίκτυπος στην απόδοση όταν τρέχει σε διακομιστή;**  
+A: The engine is lightweight; typical images (<2 MB) are processed in under a second. For high‑throughput scenarios, consider image pre‑scaling or multi‑threading.
 
-**Ε: Πώς διαχειρίζομαι την άδεια χρήσης σε παραγωγή;**  
-Α: Φορτώστε το αρχείο άδειας με `License license = new License(); license.setLicense("Aspose.OCR.lic");` πριν δημιουργήσετε το αντικείμενο `AsposeOCR`.
+**Q: Πώς διαχειρίζομαι την άδεια παραγωγής;**  
+A: Load your license file with `License license = new License(); license.setLicense("Aspose.OCR.lic");` before creating the `AsposeOCR` instance.
 
-## Συμπέρασμα
-
-Τώρα έχετε κατακτήσει τον τρόπο **μετατροπής εικόνας σε κείμενο** σε Java χρησιμοποιώντας τη ροή εργασίας `BufferedImage` του Aspose.OCR. Αυτή η προσέγγιση σας επιτρέπει να **extract text java** γρήγορα και αξιόπιστα, ενδυναμώνοντας τις εφαρμογές σας με αναζητήσιμο, επεξεργάσιμο περιεχόμενο από οποιαδήποτε εικόνα. Εξερευνήστε πρόσθετες δυνατότητες όπως επιλογή γλώσσας, OCR σε PDF ή επεξεργασία δέσμης για περαιτέρω επέκταση της λύσης σας.
-
----
-
-**Τελευταία ενημέρωση:** 2026-02-17  
-**Δοκιμάστηκε με:** Aspose.OCR for Java 24.11 (τελευταία έκδοση τη στιγμή της συγγραφής)  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-05-04  
+**Tested With:** Aspose.OCR for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
