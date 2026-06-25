@@ -1,0 +1,7 @@
+Title: How to Enable GPU for Python OCR Engine – Complete Guide
+Slug: how-to-enable-gpu-for-python-ocr-engine-complete-guide
+Category: general
+ProcessedDate: 2026-06-25T23:37:50.273568
+SourceRepo: AI Search API
+Keywords: how to enable gpu, convert scan to text, extract text from scan, python ocr engine, gpu acceleration ocr
+PRNumber: 159
