@@ -1,0 +1,7 @@
+Title: Perform OCR on Image in C# – Complete Aspose OCR Example
+Slug: perform-ocr-on-image-in-c-complete-aspose-ocr-example
+Category: text-recognition
+ProcessedDate: 2026-06-25T22:36:52.939902
+SourceRepo: AI Search API
+Keywords: perform ocr on image, c# write json file, save json file c#, aspose ocr example, load image for ocr
+PRNumber: 157
