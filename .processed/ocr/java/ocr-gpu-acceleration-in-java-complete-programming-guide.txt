@@ -1,0 +1,7 @@
+Title: OCR GPU Acceleration in Java – Complete Programming Guide
+Slug: ocr-gpu-acceleration-in-java-complete-programming-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-25T23:08:37.361179
+SourceRepo: AI Search API
+Keywords: ocr gpu acceleration, recognize text from image, extract text from jpg, set gpu memory limit, process image with ocr
+PRNumber: 158
