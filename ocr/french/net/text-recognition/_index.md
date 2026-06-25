@@ -55,6 +55,19 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [OCR chinois simplifié : OCR hors ligne avec Aspose en C# – Guide complet](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Découvrez comment implémenter un OCR hors ligne pour le chinois simplifié en C# avec Aspose, étape par étape, pour des résultats précis.
+### [Effectuer une OCR sur une image en C# – Exemple complet Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Apprenez à réaliser une OCR sur une image en C# avec Aspose OCR grâce à un exemple complet pas à pas.
+### [Traitement OCR par lots en C# – Convertir rapidement des images en texte](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Apprenez à traiter plusieurs images en lot avec Aspose.OCR en C#, pour convertir rapidement du texte à grande échelle.
+### [Créer un PDF consultable avec Aspose OCR – Guide complet C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Apprenez à créer un PDF consultable en C# avec Aspose OCR grâce à notre guide complet étape par étape.
+### [Reconnaître du texte à partir d'une image en C# avec Aspose OCR – Guide complet](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Apprenez à extraire du texte d'une image en C# avec Aspose OCR grâce à notre guide complet étape par étape.
+### [Extraire du texte d'un DjVu avec C# – Guide complet](./extract-text-from-djvu-with-c-complete-guide/)
+Apprenez à extraire du texte d'un fichier DjVu en C# avec Aspose OCR grâce à notre guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

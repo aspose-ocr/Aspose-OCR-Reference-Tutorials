@@ -74,6 +74,9 @@ Lepaskan potensi Aspose.OCR untuk .NET dalam mengenali baris pada pengenalan gam
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Buka keajaiban OCR dengan Aspose.OCR untuk .NET, ekstrak teks dari gambar dengan mudah. Jelajahi tutorial untuk integrasi yang mulus.
 
+### [OCR Gambar ke Excel – Panduan Lengkap Mengonversi Tabel yang Dipindai ke Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Temukan cara mengubah gambar berisi tabel yang dipindai menjadi file Excel yang dapat diedit dengan Aspose.OCR.
+
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan Aspose.OCR dalam aplikasi web?**  

@@ -55,6 +55,19 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Utför OCR på bild i C# – Komplett Aspose OCR-exempel](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att utföra OCR på en bild och få resultatet snabbt.
+### [OCR förenklad kinesiska: Offline OCR med Aspose i C# – Komplett guide](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Lär dig hur du utför offline OCR för förenklad kinesiska med Aspose i C#. En komplett steg‑för‑steg‑guide.
+### [Batch-OCR-behandling i C# – Konvertera bilder till text snabbt](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Lär dig hur du med Aspose.OCR i C# bearbetar flera bilder i batch och snabbt konverterar dem till text.
+### [Skapa sökbar PDF med Aspose OCR – Fullständig C#‑guide](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Lär dig steg‑för‑steg hur du skapar sökbara PDF‑filer med Aspose OCR i C#.
+### [Känn igen text från bild i C# med Aspose OCR – Komplett guide](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Lär dig steg‑för‑steg hur du med Aspose OCR i C# känner igen text i en bild och får exakta resultat.
+### [Extrahera text från DjVu med C# – Komplett guide](./extract-text-from-djvu-with-c-complete-guide/)
+Lär dig steg‑för‑steg hur du extraherar text från DjVu‑filer i C# med Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
