@@ -1,0 +1,7 @@
+Title: Extract PDF Text OCR in Python – Complete Step‑by‑Step Guide
+Slug: extract-pdf-text-ocr-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-26T00:08:16.239966
+SourceRepo: AI Search API
+Keywords: extract pdf text ocr, convert pdf to text, python ocr example
+PRNumber: 160
