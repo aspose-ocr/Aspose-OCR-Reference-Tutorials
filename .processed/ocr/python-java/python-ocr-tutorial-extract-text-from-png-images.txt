@@ -1,0 +1,7 @@
+Title: Python OCR Tutorial: Extract Text from PNG Images
+Slug: python-ocr-tutorial-extract-text-from-png-images
+Category: general
+ProcessedDate: 2026-06-26T00:08:19.013305
+SourceRepo: AI Search API
+Keywords: python ocr tutorial, extract text png, read text image, recognize image text, load image for ocr
+PRNumber: 160
