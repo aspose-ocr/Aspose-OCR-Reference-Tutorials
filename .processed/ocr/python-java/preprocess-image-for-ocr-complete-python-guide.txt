@@ -1,0 +1,7 @@
+Title: Preprocess Image for OCR – Complete Python Guide
+Slug: preprocess-image-for-ocr-complete-python-guide
+Category: general
+ProcessedDate: 2026-06-29T04:02:22.560117
+SourceRepo: AI Search API
+Keywords: preprocess image for ocr, how to improve ocr accuracy, python ocr with preprocessing, image preprocessing pipeline python, extract text from cyrillic image
+PRNumber: 164
