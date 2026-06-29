@@ -1,0 +1,7 @@
+Title: Receipt Parsing OCR in Python – Full Step‑By‑Step Guide
+Slug: receipt-parsing-ocr-in-python-full-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-29T03:46:07.405265
+SourceRepo: AI Search API
+Keywords: receipt parsing ocr, how to extract receipt, python ocr example, load image ocr, how to ocr receipt
+PRNumber: 163
