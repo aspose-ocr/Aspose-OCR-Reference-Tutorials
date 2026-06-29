@@ -1,0 +1,7 @@
+Title: How to Batch OCR in Python – Complete Step‑by‑Step Guide
+Slug: how-to-batch-ocr-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-29T04:02:26.296400
+SourceRepo: AI Search API
+Keywords: how to batch ocr, ocr multiple images, extract text from png, convert image to text, python ocr tutorial
+PRNumber: 164
