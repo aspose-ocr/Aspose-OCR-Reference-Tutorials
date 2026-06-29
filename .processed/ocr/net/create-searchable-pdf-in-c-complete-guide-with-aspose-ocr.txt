@@ -1,0 +1,7 @@
+Title: Create Searchable PDF in C# – Complete Guide with Aspose OCR
+Slug: create-searchable-pdf-in-c-complete-guide-with-aspose-ocr
+Category: text-recognition
+ProcessedDate: 2026-06-29T02:48:23.076915
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert image to pdf, extract text from image, how to recognize multiple languages, how to generate searchable pdf
+PRNumber: 161
