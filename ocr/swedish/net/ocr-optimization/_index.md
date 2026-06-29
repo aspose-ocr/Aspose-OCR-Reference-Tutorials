@@ -74,6 +74,14 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Känn igen text från bild i ASP.NET Core – uppladdning för OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Lär dig hur du laddar upp bilder i en ASP.NET Core‑app och använder Aspose.OCR för att känna igen text.
+### [Känn igen text från bild med Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Utnyttja GPU-acceleration för att snabbt känna igen text i bilder med Aspose OCR.
+### [Hur du räta upp bild i C# – Komplett Aspose.OCR‑guide](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Lär dig att korrigera snedställda bilder med Aspose.OCR i C# för förbättrad OCR‑noggrannhet.
+### [Förbehandla bild för OCR i C# – Komplett programmeringsguide](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Lär dig hur du förbehandlar bilder för OCR i C# med en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 
