@@ -101,6 +101,8 @@ Aspose.OCR for Java’ın potansiyelini bu adım‑adım rehberle ortaya çıkar
 Aspose.OCR for Java ile OCR doğruluğunu artırın. Eğim açılarını adım‑adım nasıl hesaplayacağınızı öğrenin. Belge işleme sürecinizi zahmetsizce iyileştirin.
 ### [Aspose.OCR’da Metin Alanlarıyla Dikdörtgenleri Alma](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java’ın gücünü keşfedin. Bu adım‑adım rehberde görüntülerden metin çıkarmayı sorunsuz bir şekilde öğrenin. Verimli metin tanıma için hemen indirin.
+### [Java OCR ile Görüntüden Metin Okuma – Tam Aspose OCR Kılavuzu](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Java kullanarak Aspose OCR ile görüntülerden metin okuma sürecini adım adım öğrenin.
 
 ---
 
