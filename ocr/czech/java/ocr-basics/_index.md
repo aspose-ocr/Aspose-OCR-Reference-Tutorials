@@ -101,6 +101,8 @@ Odemkněte potenciál Aspose.OCR pro Java pomocí tohoto krok‑za‑krokem prů
 Zvyšte přesnost OCR pomocí Aspose.OCR pro Java. Naučte se krok za krokem vypočítat úhly zkosení. Zlepšete zpracování dokumentů bez námahy.
 ### [Získávání obdélníků s oblastmi textu v Aspose.OCR](./get-rectangles-with-text-areas/)
 Odemkněte sílu Aspose.OCR pro Java. Naučte se, jak bezproblémově extrahovat text z obrázků v tomto krok‑za‑krokem průvodci. Stáhněte si nyní pro efektivní rozpoznávání textu.
+### [Čtení textu z obrázku pomocí Java OCR – Kompletní průvodce Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Kompletní návod, jak pomocí Aspose.OCR pro Java načíst text z obrázku, včetně nastavení licence, předzpracování a optimalizace přesnosti.
 
 ---
 
