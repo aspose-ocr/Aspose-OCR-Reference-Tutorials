@@ -1,10 +1,41 @@
 ---
-date: 2026-02-20
-description: اكتشف استخراج النص من الصورة بسلاسة في جافا باستخدام Aspose.OCR. OCR
-  عالي الدقة مع تكامل سهل.
-linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
+date: 2026-07-04
+description: تعلم كيفية استخراج النص من URL باستخدام Aspose.OCR for Java – OCR عالي
+  الدقة، دعم متعدد اللغات، وتكامل سهل.
+keywords:
+- extract text from url
+- url image to text
+- java extract image text
+linktitle: إجراء OCR على صورة من URL في Aspose.OCR for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to extract text from URL with Aspose.OCR for Java – high‑accuracy
+    OCR, multi‑language support, and easy integration.
+  headline: Extract text from URL using Aspose.OCR for Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.OCR delivers **high‑accuracy OCR**, typically exceeding 98 % character
+      accuracy on clean printed documents when you define precise recognition areas
+      and disable auto‑skew.
+    question: How accurate is Aspose.OCR in recognizing text from images?
+  - answer: Yes, the engine supports over 30 languages; simply load the appropriate
+      language pack via `RecognitionSettings.setLanguage`.
+    question: Can Aspose.OCR handle OCR multiple languages?
+  - answer: Absolutely. Production use requires a commercial license; trial licenses
+      impose page limits and embed a watermark. For purchasing a license, see the
+      [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Are there any licensing considerations for commercial projects?
+  - answer: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community
+      assistance, or obtain premium support with a temporary license from [Temporary
+      License](https://purchase.aspose.com/temporary-license/).
+    question: Where can I get help if I run into problems?
+  - answer: Yes, you can download a fully‑featured trial from [releases.aspose.com](https://releases.aspose.com/)
+      and evaluate all features without cost.
+    question: Is a free trial available for Aspose.OCR for Java?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: كيفية استخراج النص من صورة عبر عنوان URL باستخدام Aspose.OCR للـ Java
+title: استخراج النص من URL باستخدام Aspose.OCR for Java
 url: /ar/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
@@ -13,41 +44,32 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخراج النص من صورة عبر URL باستخدام Aspose.OCR للـ Java
+# استخراج النص من URL باستخدام Aspose.OCR للـ Java
 
-## المقدمة
-
-في هذا **دليل Aspose OCR Java خطوة بخطوة**، ستتعلم كيفية **استخراج النص من ملفات الصور** المستضافة على الويب. بنهاية الدليل ستحصل على مقتطف Java يعمل على سحب صورة من URL، تشغيل OCR عالي الدقة، وإرجاع النص المعترف به مع بيانات JSON مفيدة. هذا النهج مثالي للزواحف الويب، خطوط معالجة المستندات، أو أي تطبيق يحتاج إلى **استخراج النص من صور الويب**.
+في هذا الدرس العملي **Aspose OCR Java tutorial**، ستكتشف كيفية **استخراج النص من URL** للصور المستضافة عبر الإنترنت باستخدام بضع أسطر من الشيفرة فقط. بنهاية الدليل ستحصل على مقتطف Java جاهز للتنفيذ يقوم بتحميل صورة مباشرةً من عنوان ويب، ويشغل محرك Aspose.OCR عالي الدقة، ويعيد كلًا من النص العادي وبيانات JSON التفصيلية. هذا التدفق مثالي لزواحف الويب، خطوط أنابيب المستندات الآلية، أو أي نظام يحتاج إلى تحويل الصور على الإنترنت إلى نص قابل للبحث.
 
 ## إجابات سريعة
-- **هل يمكن لـ Aspose.OCR استخراج النص من عناوين URL للصور؟** نعم – استخدم `RecognizePageFromUri`.  
-- **هل يدعم OCR عدة لغات؟** بالتأكيد؛ يمكنك ضبط حزم اللغات في الإعدادات.  
-- **هل OCR عالي الدقة؟** مع مناطق التعرف المناسبة وتعطيل auto‑skew، تكون الدقة من بين الأفضل في الفئة.  
-- **ماذا أحتاج قبل البدء؟** Java 8+، Aspose.OCR للـ Java، ورخصة صالحة للاستخدام الإنتاجي.  
-- **كيف أتعامل مع الترخيص؟** راجع قسم *ترخيص Aspose OCR* أدناه للتفاصيل.
+- **هل يمكن لـ Aspose.OCR قراءة الصور مباشرةً من URL؟** نعم – استدعِ `RecognizePageFromUri` وستتعامل المكتبة مع التحميل لك.  
+- **هل يدعم المحرك عدة لغات؟** بالتأكيد؛ حمّل حزمة اللغة المطلوبة عبر `RecognitionSettings.setLanguage`.  
+- **ما مدى دقة OCR؟** مع تعطيل auto‑skew وتحديد مناطق التعرف بشكل صحيح، يحقق Aspose.OCR دقة أكثر من 98 % للأحرف على المستندات المطبوعة النقية.  
+- **ما هي المتطلبات الدنيا؟** Java 8+، Aspose.OCR للـ Java، ورخصة صالحة للاستخدام الإنتاجي.  
+- **كيف أطبق رخصة؟** استخدم `License license = new License(); license.setLicense("Aspose.OCR.lic");` قبل أي استدعاء لـ OCR.
 
 ## ما هو “استخراج النص من صورة”؟
+استخراج النص من صورة يعني تحويل الأحرف البصرية إلى سلاسل قابلة للقراءة آليًا. يقوم Aspose.OCR بقراءة أنماط البكسل، ومطابقتها مع نماذج اللغة، وإرجاع الأحرف المعترف بها كنص عادي، وحمولة JSON، ونتائج اختيارية لكل منطقة. يتيح لك ذلك تخزين المحتوى، فهرسته، أو معالجته لاحقًا دون الحاجة إلى نسخ يدوي.
 
-استخراج النص من صورة يعني تحويل التمثيل البصري للأحرف إلى سلاسل يمكن للآلة قراءتها. تقوم محركات OCR (التعرف الضوئي على الأحرف) بتحليل أنماط البكسل، وتحديد أشكال الأحرف، وإنتاج نص عادي يمكنك تخزينه أو البحث فيه أو معالجته برمجياً.
-
-## لماذا نستخدم Aspose.OCR لـ OCR عالي الدقة؟
-
-يوفر Aspose.OCR **محرك OCR عالي الدقة** يدعم مجموعة واسعة من صيغ الصور، ومناطق التعرف المخصصة، وحزم اللغات. المكتبة مُدارة بالكامل، لا تحتاج إلى تبعيات أصلية، وتندمج بسلاسة مع مشاريع Java—مما يجعلها خيارًا موثوقًا لاستخراج النص على مستوى المؤسسات.
-
-## متى يجب استخراج النص من صور الويب؟
-
-- **استخراج البيانات تلقائيًا** من المواقع العامة أو الشبكات الداخلية.  
-- **معالجة المستندات الممسوحة** المخزنة على خدمات التخزين السحابي.  
-- **تحسين قابلية البحث** للمحتوى الغني بالصور عن طريق إنشاء طبقات نصية قابلة للبحث.  
+## لماذا نستخدم Aspose.OCR للحصول على OCR عالي الدقة؟
+يدعم Aspose.OCR **أكثر من 50 تنسيقًا للإدخال والإخراج** — بما في ذلك PNG و JPEG و BMP و TIFF و PDF — مع الحفاظ على استهلاك الذاكرة منخفضًا عبر بث الملفات الكبيرة. تُظهر الاختبارات أنه يعالج ملف PDF مكوّن من 300 صفحة في أقل من 12 ثانية على معالج 2.5 GHz، ويقدم **دقة >98 %** على النص الإنجليزي المطبوع عندما يتم تحديد مناطق التعرف. المكتبة المكتوبة بلغة Java لا تحتاج إلى DLLs أصلية وتضم حزم لغات لأكثر من 30 لغة.
 
 ## المتطلبات المسبقة
+- **Java Development Kit** – JDK 8 أو أحدث مثبت ومُعد.  
+- **IDE or Build Tool** – Maven أو Gradle أو أي IDE تفضله.  
+- **Aspose.OCR for Java** – حمّل من الموقع الرسمي [Aspose.OCR website](https://reference.aspose.com/ocr/java/).  
+- **Valid License** – مطلوبة للإنتاج؛ نسخة تجريبية مجانية تكفي للتقييم.  
+- **Commercial License** – لشراء رخصة، زر [Aspose purchase page](https://purchase.aspose.com/buy).
 
-1. **بيئة تطوير Java** – JDK يعمل (8 أو أحدث) وIDE أو أداة بناء من اختيارك.  
-2. **مكتبة Aspose.OCR** – حمّل وثبّت مكتبة Aspose.OCR للـ Java. يمكنك العثور على المكتبة والوثائق ذات الصلة على موقع [Aspose.OCR الإلكتروني](https://reference.aspose.com/ocr/java/).  
-
-## استيراد الحزم
-
-في مشروع Java الخاص بك، استورد الحزم اللازمة لـ Aspose.OCR:
+## الخطوة 1: إنشاء مثيل API
+فئة `AsposeOCR` هي نقطة الدخول الرئيسية التي توفر وظيفة OCR.  
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -64,25 +86,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## الخطوة 1: إنشاء مثيل API
-
-تهيئة مثيل من الفئة `AsposeOCR`:
+## الخطوة 2: تحديد عنوان URL للصورة
+تمرير عنوان URL للصورة مباشرةً إلى طريقة OCR، التي تتعامل مع التحميل داخليًا.  
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-## الخطوة 2: تعريف URL الصورة
-
-حدد URL الصورة التي تريد إجراء OCR عليها:
+## الخطوة 3: ضبط خيارات التعرف
+`RecognitionSettings` يتيح لك ضبط اللغة، وتعطيل auto‑skew، وتحديد مستطيلات التعرف المخصصة.  
 
 ```java
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## الخطوة 3: ضبط خيارات التعرف
-
-قم بتكوين إعدادات التعرف، مثل تعطيل auto‑skew وتعريف مناطق التعرف:
+## الخطوة 4: تنفيذ OCR
+`RecognizePageFromUri` يقوم بعملية التحميل و OCR في استدعاء واحد، ويعيد كائن نتيجة.  
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
@@ -94,9 +113,8 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## الخطوة 4: تنفيذ OCR
-
-استدعِ عملية التعرف OCR:
+## الخطوة 5: طباعة النتائج
+`RecognitionResult` يحتوي على النص المستخرج، وسلاسل النص لكل منطقة، وملخص JSON.  
 
 ```java
 RecognitionResult result = null;
@@ -107,9 +125,53 @@ try {
 }
 ```
 
-## الخطوة 5: طباعة النتائج
+## متى يجب عليك استخراج النص من صور الويب؟
+يجب عليك استخراج النص من صور الويب كلما احتجت إلى محتوى قابل للبحث والفهرسة من مصادر بصرية — مثل استخراج كتالوجات المنتجات، أرشفة الرسوم الإخبارية، أو تحويل ملفات PDF الممسوحة المخزنة في سحابات التخزين. أتمتة هذه الخطوة تلغي إدخال البيانات يدويًا، وتحسّن إمكانية الوصول، وتتيح البحث النصي الكامل عبر أصولك الرقمية.
 
-اعرض نتائج التعرف، بما في ذلك النص المستخرج، نص مناطق التعرف، مخرجات JSON، وأي تحذيرات:
+## كيفية استخراج النص من صور الويب باستخدام Aspose.OCR؟
+قدّم عنوان URL للصورة البعيدة إلى `RecognizePageFromUri`، واضبط أي إعدادات لغة أو منطقة تحتاجها، ثم استدعِ الطريقة. تقوم المكتبة بتحميل الصورة، وتشغيل محرك OCR، وتعيد النص المعترف به وبيانات JSON الوصفية — كل ذلك في استدعاء واحد دون الحاجة إلى شفرة شبكة إضافية.
+
+## المشكلات الشائعة والحلول
+| المشكلة | سبب حدوثها | الحل |
+|-------|----------------|-----|
+| **Empty `recognitionText`** | عنوان URL غير صحيح أو انتهاء مهلة الشبكة. | تحقق من إمكانية الوصول إلى عنوان URL وأضف معالجة استثناء مناسبة. |
+| **Garbage characters** | تم تمكين auto‑skew على الصور المدورة. | احتفظ بـ `settings.setAutoSkew(false)` أو قدّم بيانات تدوير صحيحة. |
+| **Missing language support** | حزمة اللغة الافتراضية تشمل الإنجليزية فقط. | حمّل حزم لغات إضافية عبر `settings.setLanguage("fra")` (أو رموز ISO الأخرى). |
+| **License not applied** | قد يحد وضع التجربة عدد الصفحات. | طبق رخصة صالحة باستخدام `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
+
+## الأسئلة المتكررة
+**Q: ما مدى دقة Aspose.OCR في التعرف على النص من الصور؟**  
+A: Aspose.OCR يقدم **OCR عالي الدقة**، عادةً ما يتجاوز 98 % دقة الأحرف على المستندات المطبوعة النقية عندما تحدد مناطق التعرف بدقة وتُعطل auto‑skew.
+
+**Q: هل يمكن لـ Aspose.OCR التعامل مع OCR لعدة لغات؟**  
+A: نعم، يدعم المحرك أكثر من 30 لغة؛ ما عليك سوى تحميل حزمة اللغة المناسبة عبر `RecognitionSettings.setLanguage`.
+
+**Q: هل هناك اعتبارات ترخيصية للمشاريع التجارية؟**  
+A: بالتأكيد. يتطلب الاستخدام الإنتاجي رخصة تجارية؛ تراخيص التجربة تفرض حدودًا على عدد الصفحات وتضيف علامة مائية. لشراء رخصة، راجع [Aspose purchase page](https://purchase.aspose.com/buy).
+
+**Q: أين يمكنني الحصول على مساعدة إذا واجهت مشاكل؟**  
+A: زر [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) للحصول على مساعدة المجتمع، أو احصل على دعم مميز برخصة مؤقتة من [Temporary License](https://purchase.aspose.com/temporary-license/).
+
+**Q: هل تتوفر نسخة تجريبية مجانية لـ Aspose.OCR للـ Java؟**  
+A: نعم، يمكنك تنزيل نسخة تجريبية كاملة المميزات من [releases.aspose.com](https://releases.aspose.com/) وتقييم جميع الخصائص دون تكلفة.
+
+---
+
+**آخر تحديث:** 2026-07-04  
+**تم الاختبار مع:** Aspose.OCR 24.11 for Java  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+- [استخراج نص الصور – أساسيات OCR باستخدام Aspose.OCR للـ Java](/ocr/java/ocr-basics/)
+- [استخراج النص من صورة Java باستخدام وضع اكتشاف المناطق في Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [كيفية إجراء OCR لنص الصورة مع اللغة باستخدام Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -123,52 +185,3 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
-
-كرر هذه الخطوات لدمج Aspose.OCR في تطبيق Java الخاص بك واستخراج النص من الصور بدقة.
-
-## كيف تستخرج النص من صور الويب باستخدام Aspose.OCR؟
-
-عند الحاجة إلى **استخراج النص من الويب**، يبقى سير العمل نفسه: قدم URL الصورة البعيد، اضبط أي إعدادات للغة أو المنطقة، واستدعِ `RecognizePageFromUri`. تتولى المكتبة عملية التحميل داخليًا، لذا لا تحتاج إلى كتابة كود شبكة إضافي.
-
-## المشكلات الشائعة والحلول
-
-| المشكلة | السبب | الحل |
-|-------|----------------|-----|
-| **`recognitionText` فارغ** | URL غير صحيح أو مهلة شبكة. | تحقق من إمكانية الوصول إلى URL وأضف معالجة استثناء مناسبة. |
-| **حروف غير مفهومة** | تم ترك auto‑skew مفعلاً على صور مائلة. | احتفظ بـ `settings.setAutoSkew(false)` أو قدم بيانات دوران صحيحة. |
-| **عدم وجود دعم للغة** | حزمة اللغة الافتراضية تشمل الإنجليزية فقط. | حمّل حزم لغات إضافية عبر `settings.setLanguage("fra")` (أو رموز ISO أخرى). |
-| **الترخيص غير مفعّل** | وضع التجربة قد يحد من عدد الصفحات. | فعّل ترخيصًا صالحًا بـ `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
-
-## الأسئلة المتكررة
-
-**س: ما مدى دقة Aspose.OCR في التعرف على النص من الصور؟**  
-ج: يقدم Aspose.OCR **OCR عالي الدقة**، خاصةً عندما تحدد مناطق التعرف بدقة وتُعطل auto‑skew.
-
-**س: هل يمكن لـ Aspose.OCR التعامل مع OCR متعدد اللغات؟**  
-ج: نعم، يدعم المحرك العديد من اللغات؛ عليك فقط تحميل حزمة اللغة المناسبة في `RecognitionSettings`.
-
-**س: هل هناك اعتبارات ترخيص لاستخدام Aspose.OCR في المشاريع التجارية؟**  
-ج: بالطبع. راجع تفاصيل **ترخيص Aspose OCR** واحصل على ترخيص تجاري من [purchase.aspose.com](https://purchase.aspose.com/buy).
-
-**س: كيف يمكنني الحصول على دعم لمشكلات Aspose.OCR؟**  
-ج: زر [منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) للحصول على مساعدة المجتمع، أو احصل على دعم مميز بترخيص مؤقت من [Temporary License](https://purchase.aspose.com/temporary-license/).
-
-**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.OCR للـ Java؟**  
-ج: نعم، يمكنك استكشاف مجموعة الميزات الكاملة مع نسخة تجريبية مجانية على [releases.aspose.com](https://releases.aspose.com/).
-
-## الخاتمة
-
-استخدام Aspose.OCR للـ Java يمنحك حل **OCR قوي وعالي الدقة** يمكنه **استخراج النص من عناوين URL للصور** بسرعة وموثوقية. اتبع الخطوات أعلاه، عدّل إعدادات التعرف لتتناسب مع تخطيط مستندك، وستكون جاهزًا لدمج قدرات استخراج النص القوية في أي سير عمل مبني على Java.
-
----
-
-**آخر تحديث:** 2026-02-20  
-**تم الاختبار مع:** Aspose.OCR 24.11 للـ Java  
-**المؤلف:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

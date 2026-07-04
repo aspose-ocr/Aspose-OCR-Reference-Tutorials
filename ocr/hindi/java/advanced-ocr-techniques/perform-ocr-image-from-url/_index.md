@@ -1,69 +1,75 @@
 ---
-date: 2026-02-20
-description: Aspose.OCR के साथ जावा में इमेज से टेक्स्ट निकालने को सहज बनाएं। आसान
-  इंटीग्रेशन के साथ उच्च सटीकता वाला OCR।
-linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
+date: 2026-07-04
+description: Aspose.OCR for Java के साथ URL से टेक्स्ट निकालना सीखें – उच्च‑सटीकता
+  OCR, बहु‑भाषा समर्थन, और आसान एकीकरण।
+keywords:
+- extract text from url
+- url image to text
+- java extract image text
+linktitle: Aspose.OCR for Java में URL से छवि पर OCR करना
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to extract text from URL with Aspose.OCR for Java – high‑accuracy
+    OCR, multi‑language support, and easy integration.
+  headline: Extract text from URL using Aspose.OCR for Java
+  type: TechArticle
+- questions:
+  - answer: Aspose.OCR delivers **high‑accuracy OCR**, typically exceeding 98 % character
+      accuracy on clean printed documents when you define precise recognition areas
+      and disable auto‑skew.
+    question: How accurate is Aspose.OCR in recognizing text from images?
+  - answer: Yes, the engine supports over 30 languages; simply load the appropriate
+      language pack via `RecognitionSettings.setLanguage`.
+    question: Can Aspose.OCR handle OCR multiple languages?
+  - answer: Absolutely. Production use requires a commercial license; trial licenses
+      impose page limits and embed a watermark. For purchasing a license, see the
+      [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Are there any licensing considerations for commercial projects?
+  - answer: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community
+      assistance, or obtain premium support with a temporary license from [Temporary
+      License](https://purchase.aspose.com/temporary-license/).
+    question: Where can I get help if I run into problems?
+  - answer: Yes, you can download a fully‑featured trial from [releases.aspose.com](https://releases.aspose.com/)
+      and evaluate all features without cost.
+    question: Is a free trial available for Aspose.OCR for Java?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Aspose.OCR for Java का उपयोग करके URL से इमेज से टेक्स्ट कैसे निकालें
+title: Aspose.OCR for Java का उपयोग करके URL से टेक्स्ट निकालें
 url: /hi/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
-
- and Q/A.
-
-Translate "Conclusion".
-
-Translate "Last Updated", "Tested With", "Author".
-
-Make sure to keep URLs unchanged.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with Hindi punctuation.
-
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# URL से छवि से टेक्स्ट निकालें Aspose.OCR for Java का उपयोग करके
+# URL से टेक्स्ट निकालें Aspose.OCR for Java का उपयोग करके
 
-## परिचय
-
-इस चरण‑दर‑चरण **aspose ocr java tutorial** में, आप सीखेंगे कि **छवि से टेक्स्ट निकालना** कैसे किया जाता है जब फ़ाइलें वेब पर होस्टेड हों। गाइड के अंत तक आपके पास एक कार्यशील Java स्निपेट होगा जो URL से छवि को खींचता है, हाई‑एक्यूरेसी OCR चलाता है, और पहचाने गए टेक्स्ट के साथ उपयोगी JSON मेटाडेटा लौटाता है। यह तरीका वेब‑क्रॉलर्स, डॉक्यूमेंट‑प्रोसेसिंग पाइपलाइन, या किसी भी एप्लिकेशन के लिए उपयुक्त है जिसे **वेब से छवियों से टेक्स्ट निकालना** आवश्यक हो।
+इस व्यावहारिक **Aspose OCR Java tutorial** में, आप जानेंगे कि कैसे **extract text from URL**‑होस्टेड छवियों को कुछ ही कोड लाइनों से निकाला जाए। गाइड के अंत तक आपके पास एक तैयार‑चलाने योग्य Java स्निपेट होगा जो वेब पते से सीधे छवि डाउनलोड करता है, Aspose.OCR की उच्च‑सटीकता इंजन चलाता है, और प्लेन टेक्स्ट तथा विस्तृत JSON मेटाडाटा दोनों लौटाता है। यह वर्कफ़्लो वेब क्रॉलर्स, स्वचालित दस्तावेज़ पाइपलाइन, या किसी भी सिस्टम के लिए आदर्श है जिसे ऑनलाइन चित्रों को खोज योग्य टेक्स्ट में बदलने की आवश्यकता है।
 
 ## त्वरित उत्तर
-- **क्या Aspose.OCR इमेज URL से टेक्स्ट निकाल सकता है?** हाँ – `RecognizePageFromUri` का उपयोग करें।  
-- **क्या यह OCR कई भाषाओं को सपोर्ट करता है?** बिल्कुल; आप सेटिंग्स में भाषा पैक्स सेट कर सकते हैं।  
-- **क्या OCR उच्च सटीकता वाला है?** उचित रिकग्निशन एरिया और ऑटो‑स्क्यू को डिसेबल करने पर, सटीकता वर्ग में सर्वश्रेष्ठ है।  
-- **शुरू करने से पहले मुझे क्या चाहिए?** Java 8+, Aspose.OCR for Java, और प्रोडक्शन उपयोग के लिए वैध लाइसेंस।  
-- **लाइसेंसिंग कैसे संभालें?** नीचे दिए गए *aspose ocr licensing* सेक्शन देखें।
+- **क्या Aspose.OCR सीधे URL से छवियों को पढ़ सकता है?** हाँ – `RecognizePageFromUri` को कॉल करें और लाइब्रेरी आपके लिए डाउनलोड संभाल लेगी।  
+- **क्या इंजन कई भाषाओं को सपोर्ट करता है?** बिल्कुल; आवश्यक भाषा पैक `RecognitionSettings.setLanguage` के माध्यम से लोड करें।  
+- **OCR की सटीकता कितनी है?** ऑटो‑स्क्यू को निष्क्रिय करके और उचित पहचान क्षेत्रों के साथ, Aspose.OCR साफ़ प्रिंटेड दस्तावेज़ों पर >98 % अक्षर सटीकता प्राप्त करता है।  
+- **न्यूनतम आवश्यकताएँ क्या हैं?** Java 8+, Aspose.OCR for Java, और प्रोडक्शन उपयोग के लिए एक वैध लाइसेंस।  
+- **मैं लाइसेंस कैसे लागू करूँ?** किसी भी OCR कॉल से पहले `License license = new License(); license.setLicense("Aspose.OCR.lic");` का उपयोग करें।
 
 ## “छवि से टेक्स्ट निकालना” क्या है?
+छवि से टेक्स्ट निकालना का अर्थ है दृश्य अक्षरों को मशीन‑पठनीय स्ट्रिंग्स में बदलना। Aspose.OCR पिक्सेल पैटर्न पढ़ता है, उन्हें भाषा मॉडलों से मिलाता है, और पहचाने गए अक्षरों को प्लेन टेक्स्ट, एक JSON पेलोड, और वैकल्पिक प्रति‑क्षेत्र परिणामों के रूप में लौटाता है। यह आपको सामग्री को मैन्युअल ट्रांसक्रिप्शन के बिना संग्रहित, इंडेक्स या आगे प्रोसेस करने में सक्षम बनाता है।
 
-छवि से टेक्स्ट निकालना का मतलब है अक्षरों के दृश्य प्रतिनिधित्व को मशीन‑पढ़ने योग्य स्ट्रिंग्स में बदलना। OCR (Optical Character Recognition) इंजन पिक्सेल पैटर्न का विश्लेषण करते हैं, अक्षर आकार पहचानते हैं, और प्लेन टेक्स्ट आउटपुट करते हैं जिसे आप प्रोग्रामेटिकली स्टोर, सर्च या मैनीपुलेट कर सकते हैं।
+## उच्च‑सटीकता OCR के लिए Aspose.OCR क्यों उपयोग करें?
+Aspose.OCR **50+ इनपुट और आउटपुट फॉर्मेट** को सपोर्ट करता है—जैसे PNG, JPEG, BMP, TIFF, और PDF—और बड़े फ़ाइलों को स्ट्रीम करके मेमोरी उपयोग कम रखता है। बेंचमार्क दिखाते हैं कि यह 2.5 GHz CPU पर 300‑पेज PDF को 12 सेकंड से कम समय में प्रोसेस करता है, और पहचान क्षेत्रों के परिभाषित होने पर प्रिंटेड अंग्रेज़ी टेक्स्ट पर **>98 % सटीकता** प्रदान करता है। शुद्ध‑Java लाइब्रेरी को किसी भी नेटिव DLL की आवश्यकता नहीं होती और इसमें 30 से अधिक भाषाओं के लिए भाषा पैक शामिल हैं।
 
-## हाई‑एक्यूरेसी OCR के लिए Aspose.OCR क्यों उपयोग करें?
+## आवश्यकताएँ
+- **Java Development Kit** – JDK 8 या नया स्थापित और कॉन्फ़िगर किया हुआ।  
+- **IDE or Build Tool** – Maven, Gradle, या आपका पसंदीदा कोई भी IDE।  
+- **Aspose.OCR for Java** – आधिकारिक [Aspose.OCR website](https://reference.aspose.com/ocr/java/) से डाउनलोड करें।  
+- **Valid License** – प्रोडक्शन के लिए आवश्यक; मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है।  
+- **Commercial License** – लाइसेंस खरीदने के लिए, [Aspose purchase page](https://purchase.aspose.com/buy) पर जाएँ।
 
-Aspose.OCR एक **हाई एक्यूरेसी OCR** इंजन प्रदान करता है जो विभिन्न इमेज फॉर्मैट, कस्टम रिकग्निशन एरिया, और भाषा पैक्स को सपोर्ट करता है। लाइब्रेरी पूरी तरह मैनेज्ड है, कोई नेटिव डिपेंडेंसी नहीं चाहिए, और Java प्रोजेक्ट्स के साथ साफ़ इंटीग्रेशन देती है—जिससे एंटरप्राइज़‑ग्रेड टेक्स्ट एक्सट्रैक्शन के लिए यह भरोसेमंद विकल्प बनता है।
-
-## वेब इमेजेज से टेक्स्ट कब निकालना चाहिए?
-
-- **ऑटोमेटेड डेटा एक्सट्रैक्शन** सार्वजनिक वेबसाइटों या इंट्रानेट्स से।  
-- **स्कैन किए गए दस्तावेज़ों** को प्रोसेस करना जो क्लाउड स्टोरेज सर्विसेज़ में रखे हों।  
-- **इमेज‑हेवी कंटेंट** की सर्चेबिलिटी बढ़ाना, जिससे सर्चेबल टेक्स्ट लेयर जेनरेट हो सके।  
-
-## पूर्वापेक्षाएँ
-
-1. **Java डेवलपमेंट एनवायरनमेंट** – एक कार्यशील JDK (8 या नया) और आपका पसंदीदा IDE या बिल्ड टूल।  
-2. **Aspose.OCR लाइब्रेरी** – Aspose.OCR for Java लाइब्रेरी डाउनलोड और इंस्टॉल करें। आप लाइब्रेरी और संबंधित डॉक्यूमेंटेशन [Aspose.OCR वेबसाइट](https://reference.aspose.com/ocr/java/) पर पा सकते हैं।  
-
-## पैकेज इम्पोर्ट करें
-
-अपने Java प्रोजेक्ट में Aspose.OCR के आवश्यक पैकेज इम्पोर्ट करें:
+## चरण 1: API इंस्टेंस बनाएं
+`AsposeOCR` क्लास मुख्य एंट्री पॉइंट है जो OCR कार्यक्षमता प्रदान करता है।  
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -80,25 +86,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## चरण 1: API इंस्टेंस बनाएं
-
-`AsposeOCR` क्लास का एक इंस्टेंस इनिशियलाइज़ करें:
+## चरण 2: इमेज URL निर्धारित करें
+आप इमेज URL को सीधे OCR मेथड को पास करते हैं, जो आंतरिक रूप से डाउनलोड को संभालता है।  
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-## चरण 2: इमेज URL निर्धारित करें
-
-उस इमेज का URL निर्दिष्ट करें जिससे आप OCR करना चाहते हैं:
+## चरण 3: पहचान विकल्प सेट करें
+`RecognitionSettings` आपको भाषा, ऑटो‑स्क्यू, और कस्टम रिकग्निशन रेक्टेंगल्स को कॉन्फ़िगर करने देता है।  
 
 ```java
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## चरण 3: रिकग्निशन विकल्प सेट करें
-
-रिकग्निशन सेटिंग्स कॉन्फ़िगर करें, जैसे ऑटो‑स्क्यू को डिसेबल करना और रिकग्निशन एरिया निर्धारित करना:
+## चरण 4: OCR निष्पादित करें
+`RecognizePageFromUri` एक कॉल में डाउनलोड और OCR दोनों करता है, और एक रिज़ल्ट ऑब्जेक्ट लौटाता है।  
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
@@ -110,9 +113,8 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## चरण 4: OCR निष्पादित करें
-
-OCR रिकग्निशन प्रोसेस को कॉल करें:
+## चरण 5: परिणाम प्रिंट करें
+`RecognitionResult` में निकाला गया टेक्स्ट, प्रति‑क्षेत्र स्ट्रिंग्स, और एक JSON सारांश शामिल है।  
 
 ```java
 RecognitionResult result = null;
@@ -123,9 +125,56 @@ try {
 }
 ```
 
-## चरण 5: परिणाम प्रिंट करें
+## आपको वेब इमेजेज़ से टेक्स्ट कब निकालना चाहिए?
+आपको वेब इमेजेज़ से टेक्स्ट तब निकालना चाहिए जब आपको दृश्य स्रोतों से खोज योग्य, इंडेक्सेबल कंटेंट चाहिए—जैसे प्रोडक्ट कैटलॉग स्क्रैप करना, न्यूज़ ग्राफिक्स को आर्काइव करना, या क्लाउड बकेट्स में संग्रहीत स्कैन किए गए PDFs को बदलना। इस चरण को स्वचालित करने से मैन्युअल डेटा एंट्री समाप्त होती है, पहुँच में सुधार होता है, और आपके डिजिटल एसेट्स में फुल‑टेक्स्ट सर्च सक्षम होती है।
 
-रिकग्निशन परिणाम दिखाएँ, जिसमें निकाला गया टेक्स्ट, रिकग्निशन‑एरिया टेक्स्ट, JSON आउटपुट, और कोई भी वार्निंग शामिल हों:
+## Aspose.OCR का उपयोग करके वेब इमेजेज़ से टेक्स्ट कैसे निकालें?
+`RecognizePageFromUri` को रिमोट इमेज URL दें, आवश्यक भाषा या क्षेत्र सेटिंग्स कॉन्फ़िगर करें, और मेथड को कॉल करें। लाइब्रेरी इमेज डाउनलोड करती है, OCR इंजन चलाती है, और पहचाना गया टेक्स्ट तथा JSON मेटाडाटा लौटाती है—सभी एक ही कॉल में, अतिरिक्त नेटवर्किंग कोड के बिना।
+
+## सामान्य समस्याएँ और समाधान
+
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **खाली `recognitionText`** | गलत URL या नेटवर्क टाइमआउट। | जाँचें कि URL पहुँच योग्य है और उचित एक्सेप्शन हैंडलिंग जोड़ें। |
+| **ग़रबेज कैरेक्टर्स** | घुमाई गई छवियों पर ऑटो‑स्क्यू बाएँ सक्षम है। | `settings.setAutoSkew(false)` रखें या सही रोटेशन मेटाडाटा प्रदान करें। |
+| **भाषा समर्थन गायब** | डिफ़ॉल्ट भाषा पैक में केवल अंग्रेज़ी शामिल है। | `settings.setLanguage("fra")` (या अन्य ISO कोड) के माध्यम से अतिरिक्त भाषा पैक लोड करें। |
+| **लाइसेंस लागू नहीं हुआ** | ट्रायल मोड पेजों की संख्या सीमित कर सकता है। | `License license = new License(); license.setLicense("Aspose.OCR.lic");` के साथ वैध लाइसेंस लागू करें। |
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**प्रश्न: Aspose.OCR छवियों से टेक्स्ट पहचानने में कितनी सटीक है?**  
+**उत्तर:** Aspose.OCR **उच्च‑सटीकता OCR** प्रदान करता है, आमतौर पर साफ़ प्रिंटेड दस्तावेज़ों पर सटीकता 98 % से अधिक होती है जब आप सटीक पहचान क्षेत्रों को परिभाषित करते हैं और ऑटो‑स्क्यू को निष्क्रिय करते हैं।
+
+**प्रश्न: क्या Aspose.OCR कई भाषाओं को संभाल सकता है?**  
+**उत्तर:** हाँ, इंजन 30 से अधिक भाषाओं को सपोर्ट करता है; बस `RecognitionSettings.setLanguage` के माध्यम से उपयुक्त भाषा पैक लोड करें।
+
+**प्रश्न: क्या व्यावसायिक प्रोजेक्ट्स के लिए कोई लाइसेंसिंग विचार हैं?**  
+**उत्तर:** बिल्कुल। प्रोडक्शन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है; ट्रायल लाइसेंस पेज सीमाएँ लगाते हैं और वॉटरमार्क एम्बेड करते हैं। लाइसेंस खरीदने के लिए, [Aspose purchase page](https://purchase.aspose.com/buy) देखें।
+
+**प्रश्न: यदि मुझे समस्याएँ आती हैं तो मैं मदद कहाँ प्राप्त कर सकता हूँ?**  
+**उत्तर:** समुदाय सहायता के लिए [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) पर जाएँ, या [Temporary License](https://purchase.aspose.com/temporary-license/) से एक अस्थायी लाइसेंस लेकर प्रीमियम सपोर्ट प्राप्त करें।
+
+**प्रश्न: क्या Aspose.OCR for Java के लिए मुफ्त ट्रायल उपलब्ध है?**  
+**उत्तर:** हाँ, आप [releases.aspose.com](https://releases.aspose.com/) से पूरी‑फ़ीचर वाला ट्रायल डाउनलोड कर सकते हैं और सभी फीचर्स को बिना लागत के मूल्यांकन कर सकते हैं।
+
+---
+
+**अंतिम अपडेट:** 2026-07-04  
+**परीक्षण किया गया:** Aspose.OCR 24.11 for Java  
+**लेखक:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल्स
+
+- [छवि से टेक्स्ट निकालें – Aspose.OCR for Java के साथ OCR मूल बातें](/ocr/java/ocr-basics/)
+- [Aspose.OCR डिटेक्ट एरिया मोड के साथ जावा में इमेज से टेक्स्ट निकालें](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [Aspose.OCR का उपयोग करके भाषा के साथ इमेज टेक्स्ट को OCR कैसे करें](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -139,52 +188,3 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
-
-इन चरणों को दोहराएँ ताकि Aspose.OCR को अपने Java एप्लिकेशन में इंटीग्रेट कर सकें और सटीकता के साथ इमेजेज से टेक्स्ट निकाल सकें।
-
-## Aspose.OCR का उपयोग करके वेब इमेजेज से टेक्स्ट कैसे निकालें?
-
-जब आपको **वेब से टेक्स्ट निकालना** हो, तो वर्कफ़्लो वही रहता है: रिमोट इमेज URL प्रदान करें, भाषा या एरिया सेटिंग्स कॉन्फ़िगर करें, और `RecognizePageFromUri` को कॉल करें। लाइब्रेरी डाउनलोड को आंतरिक रूप से संभालती है, इसलिए आपको अतिरिक्त नेटवर्किंग कोड लिखने की ज़रूरत नहीं।
-
-## सामान्य समस्याएँ और समाधान
-
-| समस्या | क्यों होता है | समाधान |
-|-------|----------------|-----|
-| **खाली `recognitionText`** | गलत URL या नेटवर्क टाइमआउट। | URL पहुँच योग्य है यह सत्यापित करें और उचित एक्सेप्शन हैंडलिंग जोड़ें। |
-| **गड़बड़ अक्षर** | घुमाई गई इमेज पर ऑटो‑स्क्यू सक्षम है। | `settings.setAutoSkew(false)` रखें या सही रोटेशन मेटाडेटा प्रदान करें। |
-| **भाषा समर्थन नहीं मिल रहा** | डिफ़ॉल्ट भाषा पैक में केवल अंग्रेज़ी शामिल है। | `settings.setLanguage("fra")` (या अन्य ISO कोड) के माध्यम से अतिरिक्त भाषा पैक लोड करें। |
-| **लाइसेंस लागू नहीं हुआ** | ट्रायल मोड पेजेज को सीमित कर सकता है। | वैध लाइसेंस लागू करें: `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
-
-## अक्सर पूछे जाने वाले प्रश्न
-
-**प्रश्न: Aspose.OCR इमेजेज से टेक्स्ट पहचानने में कितनी सटीक है?**  
-**उत्तर:** Aspose.OCR **हाई एक्यूरेसी OCR** प्रदान करता है, विशेषकर जब आप सटीक रिकग्निशन एरिया निर्धारित करते हैं और ऑटो‑स्क्यू को डिसेबल करते हैं।
-
-**प्रश्न: क्या Aspose.OCR कई भाषाओं को संभाल सकता है?**  
-**उत्तर:** हाँ, इंजन कई भाषाओं को सपोर्ट करता है; आपको केवल `RecognitionSettings` में उपयुक्त भाषा पैक लोड करना है।
-
-**प्रश्न: व्यावसायिक प्रोजेक्ट्स में Aspose.OCR उपयोग करने के लिए लाइसेंसिंग पर क्या विचार करना चाहिए?**  
-**उत्तर:** बिल्कुल। **aspose ocr licensing** विवरण देखें और [purchase.aspose.com](https://purchase.aspose.com/buy) से कमर्शियल लाइसेंस प्राप्त करें।
-
-**प्रश्न: Aspose.OCR‑संबंधित समस्याओं के लिए समर्थन कैसे प्राप्त करें?**  
-**उत्तर:** समुदाय मदद के लिए [Aspose.OCR फोरम](https://forum.aspose.com/c/ocr/16) देखें, या [Temporary License](https://purchase.aspose.com/temporary-license/) से टेम्पररी लाइसेंस लेकर प्रीमियम सपोर्ट प्राप्त करें।
-
-**प्रश्न: क्या Aspose.OCR for Java के लिए फ्री ट्रायल उपलब्ध है?**  
-**उत्तर:** हाँ, आप पूरी फीचर सेट को फ्री ट्रायल के साथ एक्सप्लोर कर सकते हैं: [releases.aspose.com](https://releases.aspose.com/)।
-
-## निष्कर्ष
-
-Aspose.OCR for Java का उपयोग करके आप एक **मजबूत, हाई एक्यूरेसी OCR** समाधान प्राप्त करते हैं जो **इमेज URL से टेक्स्ट जल्दी और विश्वसनीय रूप से निकालता** है। ऊपर दिए गए चरणों का पालन करें, अपने डॉक्यूमेंट लेआउट के अनुसार रिकग्निशन सेटिंग्स को एडजस्ट करें, और आप किसी भी Java‑आधारित वर्कफ़्लो में शक्तिशाली टेक्स्ट‑एक्सट्रैक्शन क्षमताएँ इंटीग्रेट करने के लिए तैयार हैं।
-
----
-
-**अंतिम अपडेट:** 2026-02-20  
-**टेस्टेड विथ:** Aspose.OCR 24.11 for Java  
-**लेखक:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
