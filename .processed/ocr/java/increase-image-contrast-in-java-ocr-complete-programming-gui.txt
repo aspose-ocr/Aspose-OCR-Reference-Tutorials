@@ -1,0 +1,7 @@
+Title: Increase Image Contrast in Java OCR – Complete Programming Guide
+Slug: increase-image-contrast-in-java-ocr-complete-programming-gui
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:50.022172
+SourceRepo: AI Search API
+Keywords: increase image contrast, recognize text from image, extract text from photo, how to remove noise, preprocess images for ocr
+PRNumber: 168
