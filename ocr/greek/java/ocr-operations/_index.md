@@ -50,8 +50,6 @@ weight: 21
 
 Είτε πρόκειται για πολυγλωσσικά έγγραφα είτε για συγκεκριμένες απαιτήσεις γλώσσας, αυτό το tutorial σας δίνει τη δυνατότητα να εξάγετε κείμενο με ακρίβεια στόχευσης. Πείτε αντίο στην εικασία και καλωσορίστε την ακρίβεια.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR Αναγνώριση Εγγράφων PDF στο Aspose.OCR για Java
 
 Ανοίξτε με ευκολία τη δύναμη του OCR σε Java με το Aspose.OCR. Το tutorial μας για την αναγνώριση κειμένου σε έγγραφα PDF σας οδηγεί σε μια αδιάσπαστη ενσωμάτωση. Ενισχύστε τις εφαρμογές σας με την ακρίβεια και την ταχύτητα που απαιτούνται για τη διαχείριση κειμένου σε PDF.
@@ -81,6 +79,12 @@ weight: 21
 Αποκτήστε ισχυρή αναγνώριση κειμένου σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε εικόνες TIFF άψογα. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF σε Java – Πλήρης Οδηγός](./create-searchable-pdf-in-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF σε Java χρησιμοποιώντας Aspose.OCR, βήμα‑βήμα οδηγίες για πλήρη ενσωμάτωση.
+### [Μετατροπή Εικόνας σε Κείμενο σε Java με Aspose OCR – Πλήρης Οδηγός](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο σε Java με το Aspose OCR – πλήρης οδηγός βήμα‑βήμα.
+### [Οδηγός Άδειας Aspose OCR – Ρύθμιση για Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Μάθετε πώς να εγκαταστήσετε και να ενεργοποιήσετε την άδεια Aspose OCR σε έργα Java.
 
 ## Συχνές Ερωτήσεις
 

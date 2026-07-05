@@ -61,6 +61,19 @@ Sblocca la potenza del riconoscimento del testo con Aspose.OCR per Java. Segui l
 Potenzia le tue applicazioni Java con Aspose.OCR per un riconoscimento preciso del testo. Facile integrazione, alta precisione.
 ### [Specifica dei caratteri consentiti in Aspose.OCR](./specify-allowed-characters/)
 Sblocca l'estrazione del testo dalle immagini senza problemi con Aspose.OCR per Java. Segui la nostra guida passo passo per un'integrazione efficiente.
+### [Tutorial OCR accelerato con GPU – Guida Java per Immagine‑a‑Testo veloce](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Scopri come sfruttare la potenza della GPU per accelerare l'OCR in Java, trasformando le immagini in testo in modo rapido ed efficiente.
+### [Estrazione del testo da TIFF con Aspose OCR Java – Guida](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Estrai rapidamente il testo da file TIFF con Aspose OCR per Java, garantendo alta precisione e integrazione semplice.
+### [OCR multilingua in Java – Guida completa passo‑passo](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Scopri come eseguire l'OCR su testi multilingua in Java con una guida dettagliata passo dopo passo.
+### [Come fare OCR su tabelle in Java – Guida completa passo‑passo](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Scopri come estrarre tabelle da immagini in Java usando Aspose.OCR, con istruzioni dettagliate passo dopo passo.
+### [Aumentare il contrasto dell'immagine in OCR Java – Guida completa di programmazione](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Scopri come migliorare il contrasto delle immagini per ottimizzare l'OCR in Java, con esempi di codice dettagliati.
+### [Comprimi le immagini PDF con Java – Guida completa per OCR batch su PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Scopri come comprimere le immagini PDF e eseguire OCR batch in Java, generando PDF ricercabili in modo rapido ed efficiente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

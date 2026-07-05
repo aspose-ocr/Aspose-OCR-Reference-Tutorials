@@ -45,22 +45,24 @@ Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat
 
 Ekstrak teks dari gambar dengan mudah dengan menentukan karakter yang diizinkan dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien, memastikan pengalaman pengenalan teks yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan Aspose.OCR.
 
-## Kesimpulan
+### [OCR Bahasa Campuran di Java – Panduan Lengkap Langkah demi Langkah](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Pelajari cara melakukan OCR pada teks berbahasa campuran menggunakan Java dengan panduan langkah demi langkah yang lengkap.
 
-Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!
-## Tutorial Teknik OCR Tingkat Lanjut
-### [Melakukan OCR pada BufferedImage di Aspose.OCR untuk Java](./perform-ocr-buffered-image/)
-Lakukan OCR pada BufferedImage dengan mudah menggunakan Aspose.OCR untuk Java. Ekstrak teks dari gambar dengan mulus. Unduh sekarang untuk pengalaman pengenalan teks serbaguna.
-### [Melakukan OCR pada Gambar dari URL di Aspose.OCR untuk Java](./perform-ocr-image-from-url/)
-Buka kunci ekstraksi teks gambar yang lancar di Java dengan Aspose.OCR. OCR akurasi tinggi dengan integrasi mudah.
-### [Melakukan OCR pada Halaman Tertentu di Aspose.OCR](./perform-ocr-on-page/)
-Buka kecanggihan Aspose.OCR untuk Java dengan panduan langkah demi langkah kami dalam melakukan OCR pada halaman tertentu. Ekstrak teks dengan mudah dari gambar dan tingkatkan proyek Java Anda.
-### [Mempersiapkan Persegi Panjang untuk OCR di Aspose.OCR](./prepare-rectangles-for-ocr/)
-Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan OCR yang efisien.
-### [Mengenali Garis di Aspose.OCR untuk Java](./recognize-lines/)
-Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
-### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
-Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
+### [Tutorial OCR Berbasis GPU – Panduan Java untuk Cepat Mengubah Gambar menjadi Teks](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Manfaatkan akselerasi GPU untuk OCR cepat di Java, mempercepat konversi gambar ke teks dengan akurasi tinggi.
+
+### [Ekstrak teks dari TIFF menggunakan Aspose OCR Java – Panduan](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Pelajari cara mengekstrak teks dari file TIFF dengan Aspose OCR untuk Java secara efisien dan akurat.
+
+### [Cara OCR Tabel di Java – Panduan Lengkap Langkah demi Langkah](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Pelajari cara mengekstrak tabel dari gambar menggunakan Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Meningkatkan Kontras Gambar dalam OCR Java – Panduan Pemrograman Lengkap](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Pelajari cara meningkatkan kontras gambar untuk OCR Java dengan panduan pemrograman lengkap, meningkatkan akurasi ekstraksi teks.
+
+### [Kompres Gambar PDF dengan Java – Panduan OCR Batch Penuh ke PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Pelajari cara mengompres gambar PDF dan melakukan OCR batch penuh ke PDF menggunakan Java dalam panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
