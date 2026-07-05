@@ -1,0 +1,7 @@
+Title: recognize text from image with C# OCR – Complete Example
+Slug: recognize-text-from-image-with-c-ocr-complete-example
+Category: text-recognition
+ProcessedDate: 2026-07-05T10:29:55.070733
+SourceRepo: AI Search API
+Keywords: recognize text from image, c# ocr example, c# image to text, load image for ocr, extract text from image
+PRNumber: 167
