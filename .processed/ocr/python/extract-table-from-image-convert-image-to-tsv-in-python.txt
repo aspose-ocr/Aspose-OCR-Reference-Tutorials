@@ -1,0 +1,7 @@
+Title: Extract Table from Image – Convert Image to TSV in Python
+Slug: extract-table-from-image-convert-image-to-tsv-in-python
+Category: general
+ProcessedDate: 2026-07-05T11:40:34.711702
+SourceRepo: AI Search API
+Keywords: extract table from image, how to extract table, convert image to tsv, ocr table image python
+PRNumber: 169
