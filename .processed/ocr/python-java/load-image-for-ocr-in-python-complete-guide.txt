@@ -1,0 +1,7 @@
+Title: Load Image for OCR in Python – Complete Guide
+Slug: load-image-for-ocr-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-07-05T12:19:46.343853
+SourceRepo: AI Search API
+Keywords: load image for ocr, extract text from image python, how to use ocr library
+PRNumber: 170
