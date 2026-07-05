@@ -60,6 +60,9 @@ weight: 25
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的无缝 OCR 集成。精准识别图像中的文本。
 
+### [使用 Aspose 对图像执行 OCR – 完整 C# 指南](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+本完整 C# 指南展示如何使用 Aspose.OCR 对图像进行 OCR，涵盖加载、预处理、识别及结果保存的全部步骤。
+
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 通过我们的综合指南，释放 Aspose.OCR for .NET 的潜能。一步一步学习如何为图像识别准备矩形。用无缝的 OCR 集成提升您的 .NET 应用程序。
 
