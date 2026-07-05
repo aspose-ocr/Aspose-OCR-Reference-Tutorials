@@ -1,0 +1,7 @@
+Title: How to Use OCR in Python – Extract Text from TIFF
+Slug: how-to-use-ocr-in-python-extract-text-from-tiff
+Category: general
+ProcessedDate: 2026-07-05T12:19:24.444032
+SourceRepo: AI Search API
+Keywords: how to use ocr, ocr library python, convert tiff to text, extract text from tiff, python ocr engine
+PRNumber: 170
