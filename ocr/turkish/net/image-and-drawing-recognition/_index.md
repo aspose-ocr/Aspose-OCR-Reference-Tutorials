@@ -68,6 +68,8 @@ Aspose.OCR for .NET ile metin tanıma potansiyelini açığa çıkarın. Görün
 Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyelini ortaya çıkarın. Görüntülerden sorunsuz metin çıkarma için geliştirici rehberi.
 ### [OCR Görüntü Tanıma'da Görüntü Üzerinde OCR Gerçekleştirme](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
+### [OCR Görüntüyü Excel'e – Tarama Tablolarını Excel'e Dönüştürme Tam Kılavuzu](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Aspose.OCR for .NET ile taranmış tabloları Excel dosyalarına dönüştürün, veri çıkarma sürecini otomatikleştirin.
 
 ## Sıkça Sorulan Sorular
 
