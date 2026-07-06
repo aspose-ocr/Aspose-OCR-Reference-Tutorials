@@ -40,6 +40,8 @@ Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks akurat 
 Bebaskan kecanggihan Aspose.OCR untuk .NET, solusi tangguh untuk pengenalan gambar. Pelajari cara menghitung sudut kemiringan dengan mudah.
 ### [Hitung Sudut Kemiringan dari URI dalam Pengenalan Gambar OCR](./calculate-skew-angle-from-uri/)
 Jelajahi Aspose.OCR untuk .NET untuk menghitung sudut kemiringan dengan mudah dalam pengenalan gambar OCR. Tingkatkan proyek Anda dengan presisi dan efisiensi.
+### [Tutorial Dokumen OCR Berputar – Perbaikan Skew & Rotasi Otomatis di C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Pelajari cara memperbaiki dokumen OCR yang miring secara otomatis dengan Aspose.OCR untuk .NET menggunakan C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

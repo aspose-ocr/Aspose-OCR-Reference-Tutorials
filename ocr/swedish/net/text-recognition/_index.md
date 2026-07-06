@@ -53,8 +53,19 @@ Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
+### [Utför OCR på PDF med Aspose.OCR – Komplett C#-guide](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR för att OCR:a PDF-filer i C#, för smidig textutvinning i dina .NET-applikationer.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Utför OCR på bild med Aspose OCR – Hindi-guide](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Lär dig hur du utför OCR på en bild med Aspose OCR, med fokus på hindi-språket.
+### [Hur man använder Aspose: Konvertera bild till HTML med OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Lär dig konvertera en bild till HTML med OCR med Aspose i en steg-för-steg-guide.
+### [Utför OCR på bild och upptäck felstavade ord i C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Lär dig hur du med Aspose.OCR utför OCR på en bild och identifierar felstavade ord i C# för förbättrad textanalys.
+### [Video Undertext OCR i C# – Komplett guide](./video-subtitle-ocr-in-c-complete-guide/)
+Lär dig hur du använder Aspose.OCR i C# för att extrahera undertexter från video och konvertera dem till text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

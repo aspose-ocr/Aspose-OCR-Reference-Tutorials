@@ -53,8 +53,18 @@ Aspose.OCR for .NET'in gücünü açığa çıkarın. OCR sonuçlarını JSON fo
 Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
 ### [OCR Görüntü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
+### [Aspose.OCR ile PDF'de OCR Yapma – Tam C# Kılavuzu](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR kullanarak PDF dosyalarından metin çıkarmayı adım adım öğrenin ve C# ile tam entegrasyonu keşfedin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [Aspose OCR ile Görüntüde OCR Yapma – Hint Kılavuzu](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aspose OCR kullanarak Hint dilinde görüntüden metin çıkarma adımlarını öğrenin.
+### [Aspose Kullanımı: OCR ile Görüntüyü HTML'ye Dönüştürme](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aspose.OCR kullanarak bir görüntüyü HTML formatına dönüştürmeyi adım adım öğrenin.
+### [C# ile Görüntüde OCR Yapma ve Yanlış Yazılmış Kelimeleri Algılama](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+### [C# ile Video Altyazı OCR – Tam Kılavuz](./video-subtitle-ocr-in-c-complete-guide/)
+C# kullanarak video dosyalarındaki altyazıları OCR ile tanıyın ve metin olarak çıkarın. Adım adım tam rehber.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
