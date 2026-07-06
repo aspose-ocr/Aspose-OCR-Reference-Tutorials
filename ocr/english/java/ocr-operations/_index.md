@@ -79,6 +79,10 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+### [Create Searchable PDF from TIFF with Aspose OCR (Java) – Full Guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Create searchable PDFs from TIFF images with Aspose OCR for Java. A comprehensive guide covering conversion steps, OCR settings, and best practices.
+### [Load OCR License URL in Java – Remove Trial Watermark](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Learn how to load an OCR license from a URL in Java to eliminate the trial watermark.
 
 ## Frequently Asked Questions
 
