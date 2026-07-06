@@ -76,10 +76,17 @@ weight: 21
 افتح استخراج نص دقيق من الصور مع Aspose.OCR للـ Java. اتبع دليلنا خطوة بخطوة للحصول على OCR دقيق باختيار اللغة.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 افتح قوة OCR في Java مع Aspose.OCR. تعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بالدقة والسرعة.
+### [كيفية استخدام OCR في Java – استخراج النص من PDF باستخدام Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+### [كيفية استخدام OCR في Java – التعرف على النص من الصورة بسرعة](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 افتح إمكانات التعرف القوية على النص في Java مع Aspose.OCR. تعرف على النص في صور TIFF بسهولة. حمّل الآن لتجربة OCR سلسة.
 ### [التعرف على نص الصورة باستخدام Aspose OCR – دليل OCR كامل للـ Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على النص من الصورة باستخدام Aspose OCR – دليل Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+دليل شامل يوضح كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة Java خطوة بخطوة.
+### [تحويل الصورة إلى نص Java: استخراج النص الأردي باستخدام Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+### [إنشاء PDF قابل للبحث من صورة في Java – دليل خطوة بخطوة](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR في بيئة Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 
