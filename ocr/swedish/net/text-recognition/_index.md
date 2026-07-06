@@ -55,6 +55,21 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur du OCR:ar arabisk text i C# – Komplett guide](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Lär dig steg-för-steg hur du OCR:ar arabisk text i C# med Aspose.OCR för .NET.
+### [Extrahera text från bild med Aspose OCR – Komplett C#-guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du extraherar text från bilder med Aspose OCR i C# för snabba och precisa resultat.
+### [Aspose OCR‑exempel – Steg‑för‑steg‑guide för C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Lär dig hur du använder Aspose OCR i C# med en detaljerad steg‑för‑steg‑guide.
+### [Skapa sökbar PDF med Aspose OCR – Kör OCR på PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Lär dig hur du skapar en sökbar PDF genom att köra OCR på en PDF med Aspose OCR i .NET.
+### [Hur du utför OCR i ASP.NET Core – Komplett guide](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Lär dig steg-för-steg hur du implementerar OCR i ASP.NET Core med Aspose.OCR för .NET.
+### [Känn igen text från PNG med Aspose OCR – Komplett C#-guide](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du känner igen text i PNG-filer med Aspose OCR i C# för snabba och exakta resultat.
+### [Koreansk språk-OCR med Aspose: Konvertera bild till PDF och extrahera text i C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Lär dig hur du med Aspose OCR på C# konverterar en bild till PDF och extraherar koreansk text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

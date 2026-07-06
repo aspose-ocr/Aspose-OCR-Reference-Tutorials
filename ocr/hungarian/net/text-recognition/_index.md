@@ -37,6 +37,9 @@ A hatékonyság kulcsfontosságú a .NET-alkalmazásokban, és az Aspose.OCR seg
 
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget PDF-fájlokból, és zökkenőmentesen integrálja alkalmazásaiba. Ez az oktatóanyag átfogó útmutatót nyújt a PDF-fájlok szövegének felismeréséhez, biztosítva a zökkenőmentes és hatékony integrációs élményt.
 
+### [Kereshető PDF létrehozása az Aspose OCR segítségével – OCR futtatása PDF-en](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Tanulja meg, hogyan hozhat létre kereshető PDF-et az Aspose OCR használatával, és futtathat OCR-t PDF-fájlokon .NET környezetben.
+
 ## Táblázat felismerése az OCR képfelismerésben
 
 Az Aspose.OCR for .NET segítségével navigálhat a táblázatok felismerésének bonyolultságában az OCR képfelismerésben. Átfogó útmutatónk felhatalmazza Önt az Aspose.OCR teljes potenciáljának kiaknázására, biztosítva a pontos és hatékony táblázatfelismerést alkalmazásaiban. Emelje fel projektjeit az iparágvezető OCR megoldással.
@@ -48,13 +51,26 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a pontos karakterfel
 ### [Felismerés eredménye az OCR képfelismerésben](./get-recognition-result/)
 Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a zökkenőmentes szövegfelismeréshez a képekben.
 ### [Eredmény lekérése JSON-ként az OCR képfelismerésben](./get-result-as-json/)
-Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről-lépésre szóló útmutatóval.
+Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről‑lépésre szóló útmutatóval.
 ### [OCR Területek észlelése mód az OCR képfelismerésben](./ocr-detect-areas-mode/)
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Hogyan OCR-ozzunk arab szöveget C#-ban – Teljes útmutató](./how-to-ocr-arabic-text-in-c-complete-gui...)
+Fedezze fel, hogyan használhatja az Aspose.OCR-t arab szöveg felismerésére C#-ban, részletes lépésről‑lépésre útmutatóval.
+### [Kép szövegének kinyerése az Aspose OCR segítségével – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget képekből az Aspose OCR .NET könyvtárral C# nyelven, lépésről‑lépésre útmutatóval.
+### [PNG képről szöveg felismerése az Aspose OCR-rel – Teljes C# útmutató](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Tanulja meg, hogyan ismerje fel a PNG képek szövegét az Aspose OCR .NET könyvtárral C# nyelven, részletes lépésről‑lépésre útmutatóval.
+### [Aspose OCR példa – Lépésről‑lépésre útmutató C#-hoz](./aspose-ocr-example-step-by-step-guide-for-c/)
+Ismerje meg, hogyan használja az Aspose OCR-t C#-ban egy részletes, lépésről‑lépésre útmutatóval.
+### [Hogyan végezzünk OCR-t ASP.NET Core-ban – Teljes útmutató](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Ismerje meg, hogyan integrálja az Aspose.OCR-t ASP.NET Core alkalmazásba a teljes körű szövegfelismeréshez.
+### [Koreai nyelvű OCR az Aspose-szal: kép PDF‑vé konvertálása és szöveg kinyerése C#‑ban](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Tanulja meg, hogyan használja az Aspose OCR-t koreai szöveg felismerésére, képet PDF‑vé alakítva és szöveget kinyerve C#‑ban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

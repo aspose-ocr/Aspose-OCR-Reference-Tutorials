@@ -45,16 +45,43 @@ Pronto para revolucionar seus aplicativos .NET? Mergulhe em nossos tutoriais de 
 ## Tutoriais de reconhecimento de texto
 ### [Obtenha opções de caracteres reconhecidos no reconhecimento de imagem OCR](./get-choices-for-recognized-characters/)
 Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento preciso de caracteres. Siga nosso guia passo a passo para recuperar opções de caracteres reconhecidos no reconhecimento de imagem.
+
 ### [Obtenha resultado de reconhecimento no reconhecimento de imagem OCR](./get-recognition-result/)
 Explore o Aspose.OCR for .NET, uma solução poderosa de OCR para reconhecimento contínuo de texto em imagens.
+
 ### [Obtenha o resultado como JSON no reconhecimento de imagem OCR](./get-result-as-json/)
 Liberte o poder do Aspose.OCR para .NET. Aprenda a obter resultados de OCR no formato JSON sem esforço. Melhore o reconhecimento de sua imagem com este guia passo a passo.
+
 ### [Modo de detecção de áreas de OCR no reconhecimento de imagem OCR](./ocr-detect-areas-mode/)
 Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de texto de imagem. Explore o modo de detecção de áreas de OCR para obter resultados precisos.
+
 ### [Reconhecer PDF em reconhecimento de imagem OCR](./recognize-pdf/)
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
+
+### [Criar PDF pesquisável com Aspose OCR – Executar OCR em PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Aprenda a criar PDFs pesquisáveis usando Aspose OCR, executando OCR em arquivos PDF de forma simples e eficaz.
+
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+
+### [Como fazer OCR de texto árabe em C# – Guia completo](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Aprenda a reconhecer texto árabe em C# usando Aspose.OCR, com instruções passo a passo para lidar com caracteres RTL e melhorar a precisão.
+
+### [Extrair texto de imagem com Aspose OCR – Guia completo em C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extrair texto de imagens usando Aspose OCR em C#, com um guia passo a passo para obter resultados precisos.
+
+### [Exemplo Aspose OCR – Guia passo a passo para C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Aprenda a usar Aspose OCR em C# com um exemplo completo passo a passo, cobrindo configuração e extração de texto.
+
+### [Como executar OCR em ASP.NET Core – Guia completo](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Aprenda a implementar OCR em aplicativos ASP.NET Core com este guia passo a passo, cobrindo configuração e extração de texto.
+
+### [Reconhecer texto de PNG com Aspose OCR – Guia completo em C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Aprenda a reconhecer texto em arquivos PNG usando Aspose OCR com um guia completo passo a passo em C#.
+
+### [OCR de idioma coreano com Aspose: Converter imagem em PDF e extrair texto em C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Aprenda a usar Aspose OCR para reconhecer texto em coreano, converter imagens em PDF e extrair o texto usando C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
