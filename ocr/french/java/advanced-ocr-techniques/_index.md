@@ -51,16 +51,31 @@ Avec Aspose.OCR pour Java, maîtriser les techniques avancées d'OCR n'a jamais 
 ## Tutoriels sur les techniques avancées d'OCR
 ### [Exécution d'OCR sur BufferedImage dans Aspose.OCR pour Java](./perform-ocr-buffered-image/)
 Effectuez facilement l'OCR sur BufferedImage avec Aspose.OCR pour Java. Extrayez le texte des images de manière transparente. Téléchargez-le maintenant pour une expérience de reconnaissance de texte polyvalente.
+
 ### [Exécution d'OCR sur une image à partir d'une URL dans Aspose.OCR pour Java](./perform-ocr-image-from-url/)
 Débloquez une extraction transparente de texte d’image en Java avec Aspose.OCR. OCR de haute précision avec une intégration facile.
+
 ### [Exécution de l'OCR sur une page spécifique dans Aspose.OCR](./perform-ocr-on-page/)
 Libérez la puissance d'Aspose.OCR pour Java avec notre guide étape par étape sur l'exécution de l'OCR sur des pages spécifiques. Extrayez facilement du texte à partir d'images et améliorez vos projets Java.
+
 ### [Préparation des rectangles pour l'OCR dans Aspose.OCR](./prepare-rectangles-for-ocr/)
 Libérez la puissance de la reconnaissance de texte avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration transparente. Améliorez vos applications Java avec des capacités OCR efficaces.
+
 ### [Reconnaître les lignes dans Aspose.OCR pour Java](./recognize-lines/)
 Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Intégration facile, haute précision.
+
 ### [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
 Débloquez l'extraction de texte à partir d'images de manière transparente avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace.
+
+### [Comment configurer le GPU pour l'OCR – reconnaître du texte à partir d'une image](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Configurez le GPU pour accélérer l'OCR et reconnaître le texte des images avec Aspose.OCR pour Java.
+
+### [Créer un PDF recherchable avec Java – Guide complet](./create-searchable-pdf-with-java-complete-guide/)
+Apprenez à générer des PDF contenant du texte sélectionnable à partir d'images en Java avec Aspose.OCR.
+
+### [Comment redresser une image pour l'OCR – Guide de prétraitement Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Apprenez à corriger l'inclinaison des images avant l'OCR en Java avec Aspose.OCR pour améliorer la précision.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

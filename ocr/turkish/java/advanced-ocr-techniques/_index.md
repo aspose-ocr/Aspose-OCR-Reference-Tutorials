@@ -61,6 +61,13 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [GPU'yu OCR için yapılandırma – Görüntüden metin tanıma](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+GPU desteğiyle OCR performansını artırın ve görüntülerden hızlı ve doğru metin çıkarın.
+### [Java ile Arama Yapılabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-java-complete-guide/)
+Java kullanarak arama yapılabilir PDF oluşturun. Metni tanıyın ve PDF'yi düzenlenebilir hâle getirin. Hemen indirin.
+### [OCR için Görüntüyü Düzeltme – Java Ön İşleme Kılavuzu](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Java ile OCR ön işleme adımlarında görüntüyü eğriltme (deskew) işlemini nasıl yapacağınızı öğrenin. Metin tanıma doğruluğunu artırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
