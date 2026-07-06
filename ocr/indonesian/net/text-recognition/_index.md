@@ -55,6 +55,15 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Cara Melakukan OCR pada Gambar PNG di C# – Panduan Langkah‑per‑Langkah](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Pelajari cara menggunakan Aspose.OCR untuk melakukan OCR pada file PNG dengan C#, lengkap dengan contoh kode langkah demi langkah.
+### [Cara Menggunakan Aspose OCR di C# – Panduan Lengkap](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Pelajari cara menggunakan Aspose OCR di C# dengan panduan lengkap, termasuk contoh kode dan langkah‑langkah praktis.
+### [Ekstrak Teks dari Gambar C# – Panduan Lengkap Langkah‑per‑Langkah](./extract-text-from-image-c-complete-step-by-step-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar PNG dengan Cepat](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Pelajari cara cepat mengekstrak teks dari gambar PNG menggunakan OCR di C# dengan contoh kode praktis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

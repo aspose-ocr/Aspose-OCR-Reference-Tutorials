@@ -62,6 +62,8 @@ Mở khóa sức mạnh của nhận dạng hình ảnh OCR trong .NET với Asp
 Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Tăng năng suất và việc trích xuất dữ liệu trong các ứng dụng của bạn.
+### [Kiểm tra cờ giấy phép trong Aspose OCR – Hướng dẫn nhanh để xác minh giấy phép](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Hướng dẫn nhanh cách kiểm tra trạng thái giấy phép Aspose OCR trong ứng dụng .NET của bạn.
 
 ### Các trường hợp sử dụng phổ biến
 - **Extract text images** từ hóa đơn đã quét để tự động kế toán.  
