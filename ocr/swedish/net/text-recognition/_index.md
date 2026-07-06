@@ -29,6 +29,9 @@ Utforska funktionerna i Aspose.OCR för .NET och förvandla hur du hanterar text
 
 Släpp loss den fulla potentialen hos Aspose.OCR för .NET genom att lära dig hur du enkelt får OCR-resultat i JSON-format. Denna steg-för-steg-guide säkerställer en smidig resa mot att förbättra din bildigenkänningskapacitet. Öka din applikations effektivitet med Aspose.OCRs robusta funktioner och branschledande teknik.
 
+### [OCR-bild till JSON i C# – Komplett steg‑för‑steg‑guide](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar en bild till JSON med OCR i C# genom en komplett steg‑för‑steg‑guide.
+
 ## OCR Detektera områden-läge i OCR-bildigenkänning
 
 Effektivitet är nyckeln i .NET-applikationer, och Aspose.OCR är här för att hjälpa dig uppnå just det. Dyk in i handledningen för läget OCR Detektera områden för att uppnå exakta resultat i bildtextigenkänning. Lyft dina projekt med Aspose.OCRs avancerade funktioner som ger noggrannhet och snabbhet i textigenkänning.
@@ -48,13 +51,23 @@ Förbättra dina .NET-applikationer med Aspose.OCR för korrekt teckenigenkänni
 ### [Få igenkänningsresultat i OCR-bildigenkänning](./get-recognition-result/)
 Utforska Aspose.OCR för .NET, en kraftfull OCR-lösning för sömlös textigenkänning i bilder.
 ### [Få resultat som JSON i OCR-bildigenkänning](./get-result-as-json/)
-Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON-format utan ansträngning. Förbättra din bildigenkänning med denna steg-för-steg-guide.
+Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON-format utan ansträngning. Förbättra din bildigenkänning med denna steg-för-steg‑guide.
+### [OCR-bild till JSON i C# – Komplett steg‑för‑steg‑guide](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar en bild till JSON med OCR i C# genom en komplett steg‑för‑steg‑guide.
 ### [OCR Detektera områden-läge i OCR-bildigenkänning](./ocr-detect-areas-mode/)
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Kör OCR på bild i C# – Komplett Aspose OCR-handledning](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Lär dig steg-för-steg hur du kör OCR på en bild med C# och Aspose OCR för att extrahera text effektivt.
+### [Hur du kör OCR på flersidiga TIFF‑bilder med Aspose OCR – C#‑guide](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Lär dig steg‑för‑steg hur du använder Aspose OCR för att bearbeta flersidiga TIFF‑bilder i C#.
+### [Skapa sökbar PDF från arabisk bild – Komplett guide](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Lär dig hur du med Aspose.OCR för .NET skapar en sökbar PDF från en arabisk bild i en steg-för-steg‑guide.
+### [Skapa sökbar PDF från bild med Aspose OCR i C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Lär dig hur du med Aspose.OCR för .NET skapar en sökbar PDF från en bild i en steg-för-steg‑guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
