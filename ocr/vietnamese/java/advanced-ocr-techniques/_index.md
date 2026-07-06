@@ -42,25 +42,26 @@ Chuẩn bị hiệu quả các hình chữ nhật cho OCR bằng Aspose.OCR cho 
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Hướng dẫn này hướng dẫn bạn cách tích hợp dễ dàng và độ chính xác cao trong việc nhận dạng đường. Nâng cao dự án của bạn với hiệu quả và độ tin cậy của Aspose.OCR.
 
 ## [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
-
-Dễ dàng trích xuất văn bản từ hình ảnh bằng cách chỉ định các ký tự được phép bằng Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả, đảm bảo trải nghiệm nhận dạng văn bản liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng Aspose.OCR.
-
-## Phần kết luận
-
-Với Aspose.OCR cho Java, việc thành thạo các kỹ thuật OCR nâng cao chưa bao giờ dễ dàng hơn thế. Đi sâu vào các hướng dẫn này và khám phá toàn bộ tiềm năng của tính năng nhận dạng văn bản trong các dự án Java của bạn. Nâng cao ứng dụng của bạn với khả năng tích hợp liền mạch, độ chính xác cao và khả năng trích xuất văn bản linh hoạt. Hãy tải xuống ngay bây giờ và thực hiện bước đầu tiên hướng tới sự xuất sắc của OCR với Aspose.OCR cho Java!
-## Hướng dẫn kỹ thuật OCR nâng cao
-### [Thực hiện OCR trên BufferedImage trong Aspose.OCR cho Java](./perform-ocr-buffered-image/)
-Thực hiện OCR trên BufferedImage một cách dễ dàng với Aspose.OCR cho Java. Trích xuất văn bản từ hình ảnh một cách liền mạch. Tải xuống ngay để có trải nghiệm nhận dạng văn bản linh hoạt.
-### [Thực hiện OCR trên hình ảnh từ URL trong Aspose.OCR cho Java](./perform-ocr-image-from-url/)
-Mở khóa tính năng trích xuất văn bản hình ảnh liền mạch trong Java bằng Aspose.OCR. OCR có độ chính xác cao với khả năng tích hợp dễ dàng.
-### [Thực hiện OCR trên trang cụ thể trong Aspose.OCR](./perform-ocr-on-page/)
-Khai phá sức mạnh của Aspose.OCR cho Java bằng hướng dẫn từng bước của chúng tôi về cách thực hiện OCR trên các trang cụ thể. Trích xuất văn bản dễ dàng từ hình ảnh và cải thiện các dự án Java của bạn.
-### [Chuẩn bị hình chữ nhật cho OCR trong Aspose.OCR](./prepare-rectangles-for-ocr/)
-Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng OCR hiệu quả.
-### [Nhận dạng các dòng trong Aspose.OCR cho Java](./recognize-lines/)
-Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
-### [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
+
+## [OCR đa ngôn ngữ trong Java – Hướng dẫn chi tiết từng bước](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách thực hiện OCR đa ngôn ngữ trong Java bằng Aspose.OCR, hỗ trợ nhận dạng chính xác các ký tự từ nhiều ngôn ngữ.
+
+### [Trích xuất văn bản từ tiff bằng Aspose OCR Java – Hướng dẫn](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Trích xuất văn bản từ tệp tiff một cách nhanh chóng và chính xác bằng Aspose OCR cho Java. Tải xuống ngay để nâng cao dự án của bạn.
+
+### [Hướng dẫn OCR tăng tốc GPU – Hướng dẫn Java cho chuyển ảnh sang văn bản nhanh](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Tận dụng sức mạnh GPU để thực hiện OCR nhanh chóng trong Java, tăng tốc độ chuyển đổi ảnh thành văn bản.
+
+### [Cách OCR bảng trong Java – Hướng dẫn chi tiết từng bước](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách nhận dạng và trích xuất dữ liệu bảng từ hình ảnh trong Java bằng Aspose.OCR, chi tiết từng bước.
+
+### [Tăng Độ Tương Phản Hình Ảnh trong OCR Java – Hướng Dẫn Lập Trình Toàn Diện](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Hướng dẫn chi tiết cách tăng độ tương phản ảnh để cải thiện độ chính xác OCR trong Java bằng Aspose.OCR, bao gồm các bước cấu hình và ví dụ thực tế.
+
+### [Nén ảnh PDF bằng Java – Hướng dẫn OCR hàng loạt đầy đủ tới PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Hướng dẫn chi tiết cách nén ảnh PDF và thực hiện OCR hàng loạt để tạo tài liệu PDF chất lượng cao bằng Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

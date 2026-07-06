@@ -23,7 +23,7 @@ Aspose.OCR for Java mění hru, pokud jde o optické rozpoznávání znaků (OCR
 
 ## [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
 
-tomto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
+tomuto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
 
 ## [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
 
@@ -61,6 +61,19 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [GPU akcelerovaný OCR tutoriál – Java průvodce rychlým převodem obrazu na text](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Využijte GPU akceleraci pro rychlé OCR v Javě a získejte text z obrázků během okamžiku. Ideální pro náročné aplikace vyžadující vysoký výkon.
+### [Extrahování textu z TIFF pomocí Aspose OCR pro Java – průvodce](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Rychle a přesně extrahujte text z TIFF souborů pomocí Aspose OCR pro Java. Tento podrobný průvodce vám ukáže, jak na to.
+### [OCR s více jazyky v Javě – Kompletní krok‑za‑krokem průvodce](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Získejte text z obrázků obsahujících různé jazyky pomocí Aspose.OCR pro Java. Podrobný návod krok za krokem pro přesné rozpoznávání.
+### [Jak provést OCR tabulky v Javě – Kompletní krok‑za‑krokem průvodce](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Rychle a přesně extrahujte text z tabulek pomocí Aspose.OCR pro Java. Tento podrobný průvodce vás provede každým krokem.
+### [Zvýšení kontrastu obrázku v Java OCR – Kompletní programovací průvodce](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Zvyšte kontrast obrázků pro lepší OCR v Javě a dosáhněte vyšší přesnosti rozpoznávání textu. Kompletní krok‑za‑krokem průvodce.
+### [Komprimování obrázků PDF v Javě – Kompletní průvodce hromadným OCR do PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Komprimujte obrázky PDF a provádějte hromadné OCR do PDF pomocí Aspose.OCR pro Java. Rychlé a přesné řešení.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

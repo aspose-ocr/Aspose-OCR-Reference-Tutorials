@@ -45,22 +45,25 @@ Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. De
 
 Extraheer moeiteloos tekst uit afbeeldingen door toegestane tekens op te geven met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor efficiënte integratie en zorg voor een naadloze tekstherkenningservaring. Verbeter uw Java-applicaties met Aspose.OCR-mogelijkheden.
 
-## Conclusie
+## [PDF-afbeeldingen comprimeren met Java – Volledige batch-OCR naar PDF-gids](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 
-Met Aspose.OCR voor Java is het beheersen van geavanceerde OCR-technieken nog nooit zo eenvoudig geweest. Duik in deze tutorials en ontgrendel het volledige potentieel van tekstherkenning in uw Java-projecten. Verbeter uw toepassingen met naadloze integratie, hoge nauwkeurigheid en veelzijdige mogelijkheden voor tekstextractie. Download nu en zet de eerste stap naar uitmuntende OCR met Aspose.OCR voor Java!
-## Tutorials voor geavanceerde OCR-technieken
-### [OCR uitvoeren op BufferedImage in Aspose.OCR voor Java](./perform-ocr-buffered-image/)
-Voer moeiteloos OCR uit op BufferedImage met Aspose.OCR voor Java. Extraheer tekst naadloos uit afbeeldingen. Download nu voor een veelzijdige tekstherkenningservaring.
-### [OCR uitvoeren op afbeelding vanaf URL in Aspose.OCR voor Java](./perform-ocr-image-from-url/)
-Ontgrendel naadloze afbeeldingstekstextractie in Java met Aspose.OCR. Hoge nauwkeurigheid OCR met eenvoudige integratie.
-### [OCR uitvoeren op een specifieke pagina in Aspose.OCR](./perform-ocr-on-page/)
-Ontgrendel de kracht van Aspose.OCR voor Java met onze stapsgewijze handleiding voor het uitvoeren van OCR op specifieke pagina's. Extraheer moeiteloos tekst uit afbeeldingen en verbeter uw Java-projecten.
-### [Rechthoeken voorbereiden voor OCR in Aspose.OCR](./prepare-rectangles-for-ocr/)
-Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie. Verbeter uw Java-applicaties met efficiënte OCR-mogelijkheden.
-### [Lijnen herkennen in Aspose.OCR voor Java](./recognize-lines/)
-Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
-### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
-Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+Leer hoe u PDF-afbeeldingen comprimeert en batch-OCR toepast om een doorzoekbare PDF te genereren met Aspose.OCR voor Java.
+
+### [Tekst extraheren uit TIFF met Aspose OCR Java – Gids](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Extraheer tekst uit TIFF‑afbeeldingen met Aspose OCR voor Java. Volg onze stap‑voor‑stap gids voor nauwkeurige en snelle extractie.
+
+### [GPU-versnelde OCR-tutorial – Java-gids voor snelle afbeelding‑naar‑tekst](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Versnel uw OCR met GPU in Java voor razendsnelle afbeelding‑naar‑tekst conversie. Volg onze stap‑voor‑stap gids.
+
+### [Gemengde taal‑OCR in Java – Complete stapsgewijze gids](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Leer hoe u gemengde‑taal OCR in Java implementeert met Aspose.OCR, stap‑voor‑stap voor nauwkeurige tekstherkenning.
+
+### [Hoe OCR‑tabel in Java – Complete stapsgewijze gids](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Leer hoe u tabellen in afbeeldingen OCR‑t met Aspose.OCR voor Java, stap‑voor‑stap voor nauwkeurige en efficiënte extractie.
+
+### [Beeldcontrast verhogen in Java OCR – Complete programmeergids](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Leer hoe u het contrast van afbeeldingen verhoogt voor betere OCR‑resultaten in Java met een stapsgewijze programmeergids.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
