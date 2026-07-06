@@ -55,6 +55,21 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [Extract Text from Image with Aspose OCR – C# Quickstart](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Quickly extract text from images using Aspose OCR in C#. Follow this concise guide to integrate OCR capabilities into your .NET projects.
+### [How to Perform OCR on Arabic Images – Extract Text in C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Learn to extract Arabic text from images using Aspose.OCR in C#. Follow this guide for accurate OCR on right-to-left languages.
+### [How to Use OCR in C# – Extract Text from Image and Recognize Text from Photo](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Learn how to extract text from images and recognize text in photos using Aspose.OCR with C#. Follow this quick guide for seamless integration.
+### [How to Use OCR in C# – Extract Text from Images with GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Leverage GPU acceleration to extract text from images using Aspose.OCR in C#. Follow this guide for faster OCR processing.
+### [Create Searchable PDF from Image – Complete C# Guide](./create-searchable-pdf-from-image-complete-c-guide/)
+Create a searchable PDF from an image using Aspose.OCR in C#. Follow this comprehensive guide to convert images into searchable PDFs.
+### [How to Read Receipt in C# – OCR + Regex Guide](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Learn how to read receipts using Aspose.OCR and Regex in C#. Follow this guide to extract and parse receipt data efficiently.
+### [How to OCR PDF in C# – Complete Guide to Extract Text from PDFs](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Learn how to extract text from PDF files using Aspose.OCR in C#. Follow this comprehensive guide for seamless PDF OCR integration.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

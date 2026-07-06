@@ -53,8 +53,23 @@ Giải phóng sức mạnh của Aspose.OCR cho .NET. Tìm hiểu cách thu đư
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản hình ảnh hiệu quả. Khám phá Chế độ khu vực phát hiện OCR để có kết quả chính xác.
 ### [Nhận dạng PDF trong Nhận dạng hình ảnh OCR](./recognize-pdf/)
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
+### [Cách OCR PDF trong C# – Hướng dẫn đầy đủ để trích xuất văn bản từ PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để OCR PDF và trích xuất văn bản một cách nhanh chóng và chính xác.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Hướng dẫn nhanh C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Bắt đầu nhanh chóng với Aspose OCR trong C# để trích xuất văn bản từ hình ảnh chỉ trong vài bước đơn giản.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh và nhận dạng văn bản từ ảnh](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Hướng dẫn nhanh cách dùng Aspose.OCR trong C# để trích xuất nội dung ảnh một cách dễ dàng.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh với GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Hướng dẫn nhanh cách dùng Aspose.OCR trong C# để tận dụng GPU, tăng tốc trích xuất văn bản từ hình ảnh.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm từ hình ảnh bằng Aspose.OCR trong C#.
+### [Cách đọc biên lai trong C# – Hướng dẫn OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR và Regex trong C# để đọc và trích xuất thông tin từ biên lai.
+### [Cách thực hiện OCR trên hình ảnh tiếng Ả Rập – Trích xuất văn bản trong C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Khám phá cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản tiếng Ả Rập từ hình ảnh một cách chính xác và hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

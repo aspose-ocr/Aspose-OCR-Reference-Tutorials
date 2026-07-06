@@ -72,6 +72,10 @@ Aspose.OCR for .NET を探索し、前処理フィルタで OCR 精度を向上�
 Aspose.OCR for .NET で OCR 精度を強化します。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
 ### [マルチページ結果を文書として保存](./save-multipage-result-as-document/)
 Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステップバイステップガイドで、マルチページ OCR 結果を文書として簡単に保存できます。
+### [C# で Aspose OCR を使用して OCR 精度を向上させる方法](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Aspose OCR の設定と前処理テクニックで認識精度を最大化する手順を解説します。
+### [C# で非同期 OCR を実行する方法 – 完全ステップバイステップガイド](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+C# で非同期 OCR を実装し、パフォーマンスとスケーラビリティを向上させる完全ガイドです。
 
 ## よくある質問
 
