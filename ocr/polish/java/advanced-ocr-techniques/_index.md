@@ -45,6 +45,9 @@ Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpozna
 
 Bez wysiłku wyodrębniaj tekst z obrazów, określając dozwolone znaki za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną integrację i zapewnić płynne rozpoznawanie tekstu. Ulepsz swoje aplikacje Java dzięki możliwościom Aspose.OCR.
 
+## [Jak włączyć GPU w Aspose.OCR dla Java – Rozpoznawanie tekstu z obrazu](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Skonfiguruj akcelerację GPU w Aspose.OCR dla Java, aby przyspieszyć rozpoznawanie tekstu z obrazów i zwiększyć wydajność aplikacji.
+
 ## Wniosek
 
 Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
@@ -61,6 +64,15 @@ Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie
 Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
 ### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+### [Jak używać OCR w Javie – wyodrębniać tekst z PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Użyj Aspose.OCR w Javie, aby wyodrębnić tekst z plików PDF z wysoką dokładnością i prostą integracją.
+### [Jak używać Aspose do wielojęzycznego OCR w Javie](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Użyj Aspose, aby wykonywać OCR w wielu językach w aplikacjach Java, zapewniając wysoką dokładność i prostą integrację.
+### [OCR notatek odręcznych – napraw błędy przy użyciu Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Poprawiaj błędy w rozpoznawaniu notatek odręcznych, wykorzystując Aspose OCR w Javie. Uzyskaj dokładniejsze wyniki OCR.
+### [Tworzenie przeszukiwalnego PDF – przewodnik Java do konwertowania zeskanowanych PDF](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Konwertuj zeskanowane pliki PDF na przeszukiwalne dokumenty PDF w Javie przy użyciu Aspose.OCR, zapewniając wysoką dokładność i łatwą integrację.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
