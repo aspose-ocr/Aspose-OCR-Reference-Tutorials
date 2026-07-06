@@ -75,6 +75,9 @@ Zvyšte přesnost OCR s Aspose.OCR pro .NET. Opravujte pravopis, přizpůsobujte
 ### [Uložit vícestránkový výsledek jako dokument v OCR rozpoznávání obrázků](./save-multipage-result-as-document/)
 Odemkněte potenciál Aspose.OCR pro .NET. Jednoduše uložte vícestránkové OCR výsledky jako dokumenty s tímto komplexním krok‑za‑krokem průvodcem.
 
+### [Zvýšení kontrastu obrázku v C# OCR – Kompletní průvodce](./boost-image-contrast-in-c-ocr-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# zvýšit kontrast obrázku pro lepší rozpoznání textu.
+
 ## Často kladené otázky
 
 **Q: Můžu extrahovat text z obrázkových souborů, které obsahují více jazyků?**  
