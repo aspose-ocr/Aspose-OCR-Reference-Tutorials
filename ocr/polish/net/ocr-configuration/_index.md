@@ -56,12 +56,18 @@ Poznaj ogromny potencjał Aspose.OCR dla .NET, wykonując rozpoznawanie obrazu O
 ## Samouczki konfiguracji OCR
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Odkryj potencjał OCR w aplikacjach .NET z Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów w archiwach.
+
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Łatwo wyodrębniaj tekst z obrazów.
+
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Uzyskaj potężne możliwości OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów w różnych językach.
+
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Wykorzystaj potencjał Aspose.OCR dla .NET. Łatwo wykonuj rozpoznawanie obrazu OCR przy użyciu list. Zwiększ produktywność i wyodrębnianie danych w swoich aplikacjach.
+
+### [Wczytaj plik obrazu i wyodrębnij tekst paragonu przy użyciu GPU OCR w C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+Wczytaj obraz i przyspiesz rozpoznawanie paragonu dzięki GPU OCR w C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  
