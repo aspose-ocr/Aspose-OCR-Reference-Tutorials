@@ -60,6 +60,8 @@ Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text 
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [How to Disable OCR in C# – Offline Aspose OCR Guide](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Step-by-step guide to turn off OCR in C# apps using offline Aspose OCR configuration.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

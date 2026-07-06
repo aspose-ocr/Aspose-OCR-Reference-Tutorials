@@ -49,12 +49,23 @@ url: /zh/net/text-recognition/
 探索 Aspose.OCR for .NET，这是一款功能强大的 OCR 解决方案，可实现图像中的无缝文本识别。
 ### [在 OCR 图像识别中获取 JSON 格式的结果](./get-result-as-json/)
 释放 Aspose.OCR for .NET 的强大功能。学习轻松获取 JSON 格式的 OCR 结果。通过本分步指南增强您的图像识别能力。
+### [将图像转换为 JSON – C# 收据 OCR 教程](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+使用 Aspose.OCR 在 C# 中将收据图像转换为 JSON 格式，提供完整的步骤指南。
 ### [OCR图像识别中的OCR检测区域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增强您的 .NET 应用程序，以实现高效的图像文本识别。探索 OCR 检测区域模式以获得精确结果。
 ### [OCR图像识别中识别PDF](./recognize-pdf/)
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [在 C# 中从图像提取文本 – 完整 OCR 指南](./extract-text-from-image-in-c-complete-ocr-guide/)
+使用 Aspose.OCR 在 C# 中实现完整的图像文本提取指南，帮助您快速集成 OCR 功能。
+### [在 C# 中使用批量 OCR 从 TIFF 提取文本 – 完整指南](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+使用 Aspose.OCR 在 C# 中批量处理 TIFF 文件，轻松提取文本并集成到您的应用程序中。
+### [在 C# 中创建可搜索 PDF – 完整指南](./create-searchable-pdf-in-c-complete-guide/)
+使用 Aspose.OCR 在 C# 中创建可搜索的 PDF，提供完整的分步指南，帮助您轻松实现 PDF 文本搜索功能。
+### [在 C# 中从 PNG 识别文本 – 完整 OCR 与拼写检查指南](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+使用 Aspose.OCR 在 C# 中实现完整的 PNG 文本识别和拼写检查，帮助您快速集成 OCR 功能。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

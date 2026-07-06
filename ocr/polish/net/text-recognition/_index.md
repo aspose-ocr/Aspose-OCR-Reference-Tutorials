@@ -55,6 +55,17 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Wyodrębnij tekst z obrazu w C# – Kompletny przewodnik OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Pełny przewodnik, jak w C# wyodrębnić tekst z obrazu przy użyciu Aspose.OCR, krok po kroku.
+### [Wyodrębnij tekst z pliku TIFF przy użyciu Batch OCR w C# – Kompletny przewodnik](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Dowiedz się, jak w C# przetwarzać pliki TIFF partiami przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst.
+### [Utwórz przeszukiwany PDF w C# – Kompletny przewodnik](./create-searchable-pdf-in-c-complete-guide/)
+Pełny przewodnik, jak w C# utworzyć przeszukiwany plik PDF przy użyciu Aspose.OCR, krok po kroku.
+### [Rozpoznaj tekst z pliku PNG w C# – Pełny przewodnik OCR i sprawdzania pisowni](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Kompletny przewodnik, jak w C# rozpoznać tekst z plików PNG, wykorzystując OCR i sprawdzanie pisowni, krok po kroku.
+### [Konwertuj obraz do JSON – Samouczek OCR w C# dla paragonów](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Ucz się, jak w C# konwertować obrazy paragonów do formatu JSON przy użyciu Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

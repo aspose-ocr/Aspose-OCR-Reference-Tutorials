@@ -62,6 +62,8 @@ Aspose.OCR ile .NET’te OCR görüntü tanıma gücünü keşfedin. Görüntül
 Aspose.OCR for .NET ile güçlü OCR yeteneklerini açığa çıkarın. Görüntülerden sorunsuz bir şekilde metin çıkarın.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarımını artırın.
+### [C#’ta OCR’ı Devre Dışı Bırakma – Çevrimdışı Aspose OCR Rehberi](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı bırakacağınızı adım adım gösterir.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  
