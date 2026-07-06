@@ -55,6 +55,21 @@ url: /ru/net/text-recognition/
 Раскройте потенциал оптического распознавания символов в .NET с помощью Aspose.OCR. Извлекайте текст из PDF-файлов без особых усилий. Загрузите сейчас и получите беспрепятственную интеграцию.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
+### [Распознать текст с изображения с помощью Aspose OCR – Полное руководство на C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Полное руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
+### [Как использовать OCR в C# – Распознавание китайского текста из JPG](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+Узнайте, как с помощью Aspose.OCR в C# распознавать китайский текст на изображениях JPG.
+### [OCR русский текст в C# – Полное руководство по использованию Aspose OCR](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+Полное руководство по распознаванию русского текста в C# с помощью Aspose OCR, охватывающее настройку и примеры кода.
+### [Извлечь текст из изображения в C# – Полное руководство Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Полное руководство по извлечению текста из изображений в C# с использованием Aspose OCR.
+### [Извлечение текста из изображения в ASP.NET Core Minimal API – Полное руководство](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+Полное руководство по извлечению текста из изображений с помощью ASP.NET Core Minimal API и Aspose OCR.
+### [c# OCR руководство: извлечение текста из PNG‑чеков с Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Полное руководство по извлечению текста из PNG‑чеков в C# с использованием Aspose OCR.
+### [Преобразование TIFF в текст в C# – Полное руководство по пакетному OCR](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+Полное руководство по пакетному конвертированию TIFF‑изображений в текст с использованием Aspose OCR в C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
