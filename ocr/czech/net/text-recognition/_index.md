@@ -55,6 +55,21 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [c# OCR tutoriál: Extrahujte text z obrázků pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat text z obrázků a integrovat OCR do svých .NET aplikací.
+### [c# OCR tutoriál – Extrahujte text z obrázku pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Naučte se, jak v C# pomocí Aspose OCR extrahovat text z jediného obrázku a integrovat OCR do svých aplikací.
+### [Jak stáhnout OCR zdroje a rozpoznat text z obrázku v C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
+Naučte se, jak stáhnout potřebné OCR zdroje a pomocí Aspose.OCR v C# rozpoznat text z obrázku.
+### [Jak provést OCR arabštiny v C# – Kompletní programovací průvodce](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# rozpoznávat arabský text a integrovat jej do svých aplikací.
+### [Jak uložit JSON z OCR v C# – krok za krokem průvodce](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
+Naučte se, jak uložit výstup OCR ve formátu JSON v C# pomocí podrobného krok za krokem průvodce.
+### [Vytvořte prohledávatelný PDF z obrázku v C# – Kompletní průvodce](./create-searchable-pdf-from-image-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s textovým obsahem.
+### [Jak provést dávkové OCR v C# – Rychle extrahovat text z obrázků](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
+Naučte se, jak v C# pomocí Aspose.OCR provádět dávkové OCR a rychle extrahovat text z mnoha obrázků.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
