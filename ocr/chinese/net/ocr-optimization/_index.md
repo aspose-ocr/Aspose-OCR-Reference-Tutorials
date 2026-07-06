@@ -66,11 +66,21 @@ weight: 25
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET。使用预处理过滤器提升 OCR 准确度。立即下载，实现无缝集成。
 
+### [在 C# 中对图像进行 OCR 预处理 – 完整编程指南](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+本指南详细讲解如何在 C# 中使用 Aspose.OCR 对图像进行预处理，提高 OCR 准确率。
+
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提升 OCR 准确度。纠正拼写、定制词典，轻松实现零错误的文本识别。
 
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 释放 Aspose.OCR for .NET 的潜能。通过本综合一步一步的指南，轻松将多页 OCR 结果保存为文档。
+
+### [使用 Aspose OCR GPU 进行图像文本识别](./recognize-text-from-image-using-aspose-ocr-gpu/)
+了解如何利用 Aspose OCR 的 GPU 加速功能，从图像中快速高效地提取文本，提升识别性能。
+
+### [如何在 C# 中去倾斜图像 – 完整 Aspose.OCR 指南](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+
+### [在 ASP.NET Core 中识别图像文本 – 上传进行 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 
 ## 常见问题
 

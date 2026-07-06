@@ -50,8 +50,11 @@ Sei pronto a liberare tutto il potenziale di Aspose.OCR per .NET? La nostra guid
 ## Filtri di Pre‑elaborazione per Immagine in Riconoscimento Immagine OCR
 Migliora la precisione dell'OCR con Aspose.OCR per .NET esplorando i [filtri di pre‑elaborazione](./preprocessing-filters-for-image/). Scarica ora e scopri come perfezionare le tue immagini prima del riconoscimento. Questo tutorial garantisce un'integrazione fluida, aumentando precisione ed efficienza.
 
+## Preelaborazione immagine per OCR in C# – Guida completa di programmazione
+Scopri come preelaborare le immagini in C# per migliorare l'accuratezza OCR con filtri, binarizzazione e correzione dell'inclinazione.
+
 ## Correzione dei Risultati con Controllo Ortografico in Riconoscimento Immagine OCR
-Raggiungi una precisione OCR senza pari con [Aspose.OCR per .NET](./result-correction-with-spell-checking/). Il nostro tutorial sulla correzione dei risultati con il controllo ortografico ti consente di personalizzare i dizionari, correggere gli errori di ortografia e garantire un riconoscimento del testo privo di errori senza sforzo. Immergiti in un mondo di precisione con Aspose.OCR.
+Raggiungi una precisione OCR senza pari con [Aspose.OCR per .NET](./result-correction-with-spell-checking/). Il nostro tutorial sulla correzione dei risultati con il controllo ortografico ti consente di personalizzare i dizionari, correggere gli errori di ortografia e garantire un riconoscimento del testo privo di errori senza sforzo. Immergiti in un mondo di precisione con Aspose.OCR per .NET.
 
 ## Salva Risultato Multipagina come Documento in Riconoscimento Immagine OCR
 Salva senza sforzo i risultati OCR multipagina come documenti con Aspose.OCR per .NET. La nostra [guida passo‑passo](./save-multipage-result-as-document/) sblocca il pieno potenziale della creazione di documenti. Integra perfettamente Aspose.OCR e trasforma i tuoi risultati OCR in documenti multipagina con facilità.
@@ -65,10 +68,18 @@ Esplora un'integrazione OCR fluida con Aspose.OCR per .NET. Riconosci il testo d
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa. Impara passo‑passo come preparare rettangoli per il riconoscimento delle immagini. Eleva le tue applicazioni .NET con un'integrazione OCR senza interruzioni.
 ### [Filtri di Pre‑elaborazione per Immagine in Riconoscimento Immagine OCR](./preprocessing-filters-for-image/)
 Esplora Aspose.OCR per .NET. Migliora la precisione dell'OCR con i filtri di pre‑elaborazione. Scarica ora per un'integrazione fluida.
+### [Preelaborazione immagine per OCR in C# – Guida completa di programmazione](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Scopri come preelaborare le immagini in C# per migliorare l'accuratezza OCR con filtri, binarizzazione e correzione dell'inclinazione.
 ### [Correzione dei Risultati con Controllo Ortografico in Riconoscimento Immagine OCR](./result-correction-with-spell-checking/)
 Migliora la precisione dell'OCR con Aspose.OCR per .NET. Correggi le ortografie, personalizza i dizionari e ottieni un riconoscimento del testo privo di errori senza sforzo.
 ### [Salva Risultato Multipagina come Documento in Riconoscimento Immagine OCR](./save-multipage-result-as-document/)
 Sblocca il potenziale di Aspose.OCR per .NET. Salva senza sforzo i risultati OCR multipagina come documenti con questa guida completa passo‑passo.
+### [Riconosci testo da immagine usando Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Scopri come sfruttare la potenza GPU di Aspose OCR per riconoscere rapidamente il testo nelle immagini.
+### [Come correggere l'inclinazione dell'immagine in C# – Guida completa Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Scopri come rimuovere l'inclinazione dalle immagini usando Aspose.OCR in C# per migliorare l'accuratezza dell'OCR.
+### [Riconosci testo da immagine in ASP.NET Core – caricamento per OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Scopri come caricare immagini in un'app ASP.NET Core e utilizzare Aspose.OCR per estrarre testo rapidamente.
 
 ## Domande Frequenti
 

@@ -55,6 +55,17 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C# ile Görüntüden Metin Tanıma – Aspose OCR Tam Kılavuz](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarmayı adım adım öğrenin ve projelerinizde tam kontrol sağlayın.
+### [OCR ile Görüntüden Arama Yapılabilir PDF Oluşturma – Tam C# Kılavuzu](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+C# kullanarak OCR ile görüntülerden arama yapılabilir PDF oluşturmayı adım adım öğrenin.
+### [C# ile Arama Yapılabilir PDF Oluşturma – Aspose OCR Tam Kılavuzu](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+C# kullanarak Aspose OCR ile görüntülerden arama yapılabilir PDF oluşturmayı adım adım öğrenin.
+### [Aspose OCR ile Görüntüleri Metne Dönüştürme – Toplu İşlem Kılavuzu](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Aspose OCR kullanarak birden çok görüntüyü toplu olarak metne dönüştürmeyi adım adım öğrenin.
+### [C# ile Görüntüden OCR Gerçekleştirme – Tam Aspose Kılavuzu](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarmayı adım adım öğrenin ve projelerinizde tam kontrol sağlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
