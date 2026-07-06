@@ -101,6 +101,10 @@ Desbloquea el potencial de Aspose.OCR para Java con esta guía paso a paso. Conf
 Mejora la precisión del OCR con Aspose.OCR para Java. Aprende a calcular ángulos de sesgo paso a paso. Mejora el procesamiento de documentos sin complicaciones.
 ### [Obteniendo rectángulos con áreas de texto en Aspose.OCR](./get-rectangles-with-text-areas/)
 Desbloquea el poder de Aspose.OCR para Java. Aprende a extraer texto de imágenes sin problemas en esta guía paso a paso. Descárgala ahora para un reconocimiento de texto eficiente.
+### [Reconocer texto de JPG usando Aspose OCR en Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Aprende a reconocer texto en archivos JPG con Aspose OCR para Java en unos simples pasos.
+### [Usar todos los núcleos de CPU en Java – Configurar el tamaño del pool de hilos de manera eficiente](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Aprende a aprovechar todos los núcleos de CPU en Java configurando eficientemente el tamaño del pool de hilos para mejorar el rendimiento.
 
 ---
 

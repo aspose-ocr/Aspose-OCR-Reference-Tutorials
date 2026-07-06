@@ -88,7 +88,7 @@ R : Pré‑traitez l’image (binarisation, suppression du bruit) et exécutez
 R : Convertissez d’abord les pages PDF en images (à l’aide d’Aspose.PDF ou de tout outil de conversion PDF‑vers‑image), puis exécutez Aspose.OCR sur les images obtenues.
 
 **Q : Quelles langues sont prises en charge dès l’installation ?**  
-R : Plus de 30 langues, dont l’anglais, l’espagnol, le chinois, l’arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
+R : Plus de 30 langues, dont l’anglais, l'espagnol, le chinois, l'arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
 
 ## Conclusion
 
@@ -105,6 +105,12 @@ Améliorez la précision de l’OCR avec Aspose.OCR pour Java. Apprenez à calcu
 
 ### [Obtention de rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
 Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
+
+### [Reconnaître du texte à partir d'un JPG avec Aspose OCR en Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Apprenez à extraire du texte d’un fichier JPG en utilisant Aspose OCR avec Java, étape par étape.
+
+### [Utiliser tous les cœurs CPU en Java – Définir la taille du pool de threads efficacement](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Apprenez à exploiter tous les cœurs CPU en Java en configurant correctement la taille du pool de threads pour des performances optimales.
 
 ---
 

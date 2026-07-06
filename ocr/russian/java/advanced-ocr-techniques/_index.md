@@ -61,6 +61,11 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Расширьте возможности своих Java-приложений с помощью Aspose.OCR для точного распознавания текста. Простая интеграция, высокая точность.
 ### [Указание разрешенных символов в Aspose.OCR](./specify-allowed-characters/)
 Легко разблокируйте извлечение текста из изображений с помощью Aspose.OCR для Java. Следуйте нашему пошаговому руководству для эффективной интеграции.
+### [Как включить GPU в Java Inference Engine – Полное руководство](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Узнайте, как активировать поддержку GPU в Java Inference Engine для ускорения вывода моделей. Пошаговое руководство с примерами.
+### [Создание поискового PDF из отсканированных изображений – Руководство по OCR в Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Создайте поисковый PDF из отсканированных изображений с помощью Aspose.OCR для Java, обеспечивая точное извлечение текста и удобный поиск.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

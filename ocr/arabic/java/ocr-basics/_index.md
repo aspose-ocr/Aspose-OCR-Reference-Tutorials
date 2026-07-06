@@ -59,7 +59,7 @@ weight: 20
 ### التعرف على نص OCR – الحصول على المستطيلات التي تحتوي على مناطق النص
 بعد تصحيح الميل، يمكنك استخراج المناطق الدقيقة التي تحتوي على نص. هذا يساعد عندما تحتاج إلى بيانات إطارات حدودية لمعالجة إضافية (مثل التظليل أو الإخفاء):
 
-[Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
+[Getting Rectangles with Text Areas in Aspose.OCR for Java](./get-rectangles-with-text-areas/)
 
 > **حالة استخدام:** تصدير إحداثيات النص إلى تعليقات PDF أو تمريرها إلى خط أنابيب معالجة لغة طبيعية لاحق.
 
@@ -100,6 +100,10 @@ weight: 20
 حسّن دقة OCR باستخدام Aspose.OCR for Java. تعلم كيفية حساب زوايا الميل خطوة بخطوة. حسّن معالجة المستندات بسهولة.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 اكتشف قوة Aspose.OCR for Java. تعلم كيفية استخراج النص من الصور بسلاسة في هذا الدليل خطوة بخطوة. حمّل الآن لتعرف على التعرف الفعال على النص.
+### [التعرف على النص من JPG باستخدام Aspose OCR في Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+تعلم كيفية استخراج النص من ملفات JPG باستخدام Aspose OCR في Java خطوة بخطوة.
+### [استخدام جميع أنوية وحدة المعالجة المركزية في Java – ضبط حجم مجموعة الخيوط بفعالية](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+تعلم كيفية الاستفادة من جميع أنوية CPU في Java عبر ضبط حجم مجموعة الخيوط لتحقيق أفضل أداء.
 
 ---
 

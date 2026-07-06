@@ -61,6 +61,11 @@ Aspose.OCR for Java でテキスト認識の能力を解放します。シーム
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
 ### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+### [Java 推論エンジンで GPU を有効にする方法 – 完全ガイド](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Java 推論エンジンで GPU を有効化し、パフォーマンスを向上させる手順を詳しく解説します。
+### [スキャン画像から検索可能な PDF を作成 – Java OCR ガイド](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Aspose.OCR for Java を使用して、スキャンした画像から検索可能な PDF を作成する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

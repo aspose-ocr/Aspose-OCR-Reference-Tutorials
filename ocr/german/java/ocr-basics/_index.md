@@ -104,6 +104,12 @@ Steigern Sie die OCR‑Genauigkeit mit Aspose.OCR für Java. Lernen Sie, Schräg
 ### [Rechtecke mit Textbereichen in Aspose.OCR erhalten](./get-rectangles-with-text-areas/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.OCR für Java. Lernen Sie, Text aus Bildern nahtlos zu extrahieren in diesem Schritt‑für‑Schritt‑Leitfaden. Jetzt herunterladen für effiziente Texterkennung.
 
+### [Text aus JPG mit Aspose OCR in Java erkennen](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Erfahren Sie, wie Sie JPG‑Bilder mit Aspose OCR in Java verarbeiten und Text zuverlässig extrahieren.
+
+### [Alle CPU‑Kerne in Java nutzen – Thread‑Pool‑Größe effizient festlegen](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Erfahren Sie, wie Sie alle CPU‑Kerne in Java nutzen und die Thread‑Pool‑Größe optimal konfigurieren, um die Leistung zu maximieren.
+
 ---
 
 **Last Updated:** 2025-12-08  

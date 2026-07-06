@@ -116,6 +116,12 @@ Zwiększ dokładność OCR przy użyciu Aspose.OCR for Java. Naucz się krok po 
 ### [Uzyskiwanie prostokątów z obszarami tekstu w Aspose.OCR](./get-rectangles-with-text-areas/)
 Odkryj moc Aspose.OCR for Java. Dowiedz się, jak płynnie wyodrębniać tekst z obrazów w tym przewodniku krok po kroku. Pobierz teraz, aby uzyskać efektywne rozpoznawanie tekstu.
 
+### [Rozpoznawanie tekstu z pliku JPG przy użyciu Aspose OCR w Javie](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Dowiedz się, jak używać Aspose OCR w Javie do rozpoznawania tekstu z obrazów JPG w kilku prostych krokach.
+
+### [Użyj wszystkich rdzeni CPU w Javie – efektywne ustawianie rozmiaru puli wątków](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Dowiedz się, jak wykorzystać wszystkie rdzenie CPU w Javie, efektywnie ustawiając rozmiar puli wątków dla maksymalnej wydajności.
+
 ---
 
 **Last Updated:** 2025-12-08  
