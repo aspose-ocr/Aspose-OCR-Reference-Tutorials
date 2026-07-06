@@ -72,6 +72,15 @@ weight: 25
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 释放 Aspose.OCR for .NET 的潜能。通过本综合一步一步的指南，轻松将多页 OCR 结果保存为文档。
 
+### [C# 预处理图像 OCR – 提升准确度的完整指南](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+通过预处理技术优化图像 OCR，提升识别准确率并加速 C# 应用程序。
+
+### [c# OCR 教程 – 使用 GPU 加速从图像中提取文本](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+使用 GPU 加速的 Aspose.OCR for .NET，实现高效的图像文本提取，提升处理速度和准确性。
+
+### [C# 批量 OCR 教程 – 提取图像文本的完整指南](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+了解如何使用 Aspose.OCR for .NET 在 C# 中批量处理图像，实现高效文本提取。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

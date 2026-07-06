@@ -53,27 +53,30 @@ Ben je klaar om het volledige potentieel van Aspose.OCR voor .NET te benutten? O
 
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET door [preprocessing filters](./preprocessing-filters-for-image/) te verkennen. Download nu en ontdek hoe je je afbeeldingen kunt afstemmen vóór herkenning. Deze tutorial zorgt voor naadloze integratie, waardoor nauwkeurigheid en efficiëntie toenemen.
 
-## Resultaatcorrectie met spell‑checking in OCR Image Recognition
-
-Bereik ongeëvenaarde OCR‑nauwkeurigheid met [Aspose.OCR for .NET](./result-correction-with-spell-checking/). Onze tutorial over resultaatcorrectie met spell‑checking stelt je in staat om woordenboeken aan te passen, spellingen te corrigeren en foutloze teksterkenning moeiteloos te waarborgen. Duik in een wereld van precisie met Aspose.OCR.
-
-## Multipagina‑resultaat opslaan als document in OCR Image Recognition
-
-Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met Aspose.OCR voor .NET. Onze [step-by-step guide](./save-multipage-result-as-document/) ontsluit het volledige potentieel van documentcreatie. Integreer Aspose.OCR naadloos en transformeer je OCR‑resultaten in multipagina‑documenten met gemak.
-
-Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR‑optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET tutorials.
-
 ## OCR-optimalisatie tutorials
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Ontdek naadloze OCR‑integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
+
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids. Leer stap‑voor‑stap hoe je rechthoeken voorbereidt voor beeldherkenning. Til je .NET‑applicaties naar een hoger niveau met naadloze OCR‑integratie.
+
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Verken Aspose.OCR voor .NET. Verhoog OCR‑nauwkeurigheid met preprocessing‑filters. Download nu voor naadloze integratie.
+
+### [Preprocess Image OCR in C# – Complete gids voor het verbeteren van de nauwkeurigheid](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Leer hoe je met C# beeld‑preprocessing toepast om OCR‑nauwkeurigheid aanzienlijk te verhogen.
+
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze teksterkenning.
+
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
+
+### [c# OCR-tutorial – Tekst extraheren uit afbeeldingen met GPU-versnelling](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Gebruik GPU-versnelling om OCR-prestaties te verbeteren en tekst nauwkeurig uit afbeeldingen te halen met Aspose.OCR voor .NET.
+
+### [Hoe batch-OCR uit te voeren in C# – Complete gids voor het extraheren van tekst uit afbeeldingen](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Leer hoe je in C# batch‑OCR implementeert om efficiënt tekst uit meerdere afbeeldingen te extraheren.
 
 ## Veelgestelde vragen
 

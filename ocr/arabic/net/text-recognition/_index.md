@@ -52,9 +52,21 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [إنشاء PDF قابل للبحث في C# – صورة إلى PDF OCR](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [إنشاء PDF قابل للبحث في C# – دمج الصور عموديًا](./create-searchable-pdf-in-c-combine-images-vertically/)
+تعلم كيفية دمج الصور عموديًا لإنشاء ملف PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [استخراج النص من الصورة في C# – دليل خطوة بخطوة للتعرف الضوئي على الحروف دون اتصال](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# دون الحاجة إلى اتصال بالإنترنت، خطوة بخطوة.
+### [تحويل Djvu إلى نص في C# باستخدام Aspose OCR – دليل كامل](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+تعلم كيفية تحويل ملفات Djvu إلى نص باستخدام Aspose OCR في C# خطوة بخطوة.
+### [كيفية تشغيل OCR باستخدام Aspose OCR في C# – دليل كامل](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+### [تعرف على النص من صورة في C# – تضمين ترخيص Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+تعلم كيفية دمج ترخيص Aspose OCR في تطبيق C# لاستخراج النص من الصور بسهولة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

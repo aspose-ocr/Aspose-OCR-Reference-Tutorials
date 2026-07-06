@@ -55,6 +55,19 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [สร้าง PDF ที่ค้นหาได้ใน C# – OCR จากรูปภาพเป็น PDF](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ .NET เพื่อแปลงรูปภาพเป็น PDF ที่ค้นหาได้ด้วย OCR อย่างง่ายดาย
+### [สร้าง PDF ที่ค้นหาได้ใน C# – รวมรูปภาพในแนวตั้ง](./create-searchable-pdf-in-c-combine-images-vertically/)
+เรียนรู้วิธีรวมรูปภาพหลายภาพในแนวตั้งและแปลงเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ .NET
+### [สกัดข้อความจากรูปภาพใน C# – คู่มือ OCR แบบออฟไลน์ขั้นตอนต่อขั้นตอน](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+เรียนรู้วิธีสกัดข้อความจากรูปภาพใน C# ด้วย OCR แบบออฟไลน์ตามขั้นตอนที่ชัดเจนเพื่อการประมวลผลที่แม่นยำ
+### [แปลง Djvu เป็นข้อความใน C# ด้วย Aspose OCR – บทเรียนครบถ้วน](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+เรียนรู้วิธีแปลงไฟล์ Djvu เป็นข้อความใน C# ด้วย Aspose OCR อย่างละเอียดและครบถ้วน
+### [วิธีรัน OCR ด้วย Aspose OCR ใน C# – คู่มือครบถ้วน](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+เรียนรู้ขั้นตอนการใช้งาน Aspose OCR ใน C# เพื่อรัน OCR อย่างเต็มที่ด้วยคำแนะนำที่ละเอียดและครบถ้วน
+### [จดจำข้อความจากรูปภาพใน C# – ฝังลิขสิทธิ์ Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+เรียนรู้วิธีฝังลิขสิทธิ์ Aspose OCR ในโค้ด C# เพื่อให้การจดจำข้อความจากรูปภาพทำงานได้อย่างเต็มประสิทธิภาพ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
