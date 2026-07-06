@@ -69,6 +69,9 @@ Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le t
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
+### [Définir la limite de mémoire GPU avec Aspose OCR – Guide GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Apprenez à limiter l'utilisation de la mémoire GPU lors de l'exécution d'Aspose OCR en C# pour optimiser les performances.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.
