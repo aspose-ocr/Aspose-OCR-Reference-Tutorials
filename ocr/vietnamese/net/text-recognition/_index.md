@@ -55,6 +55,15 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Hình ảnh biên lai thành văn bản – OCR Cyrillic với Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Biến hình ảnh biên lai chứa ký tự Cyrillic thành văn bản bằng Aspose OCR, hướng dẫn chi tiết từng bước.
+### [Cách chuyển đổi OCR sang JSON & XML trong C# – Ghi tệp JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Hướng dẫn chi tiết cách chuyển kết quả OCR thành định dạng JSON và XML trong C#, đồng thời ghi dữ liệu JSON vào tệp.
+### [Hướng dẫn OCR C# – Trích xuất văn bản tiếng Ả Rập với Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất chính xác văn bản tiếng Ả Rập từ hình ảnh.
+### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh với Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất chính xác văn bản từ hình ảnh.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

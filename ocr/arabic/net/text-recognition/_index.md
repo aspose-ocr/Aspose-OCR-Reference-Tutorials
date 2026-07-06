@@ -52,9 +52,18 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [صورة الإيصال إلى نص – OCR سيريلي مع Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+تعلم تحويل صور الإيصالات المكتوبة بالسيريلي إلى نص باستخدام Aspose OCR في .NET.
+### [كيفية تحويل OCR إلى JSON و XML في C# – كتابة ملف JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+تعلم كيفية تحويل نتائج OCR إلى صيغتي JSON و XML في C# وحفظ النتائج في ملف JSON بسهولة.
+### [دليل c# OCR – استخراج النص العربي باستخدام Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+تعلم كيفية استخراج النص العربي من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [دليل c# OCR – استخراج النص من صورة باستخدام Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

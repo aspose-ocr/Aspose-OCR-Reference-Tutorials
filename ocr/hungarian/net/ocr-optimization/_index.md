@@ -69,10 +69,18 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit átfogó útmutatónkkal. Tanu
 Fedezze fel az Aspose.OCR for .NET-et. Növelje az OCR pontosságát előfeldolgozó szűrőkkel. Töltse le most a zökkenőmentes integrációért.
 
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
-Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyedén érjen el hibamentes szövegfelismerést.
+Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
 
 ### [Többoldalas eredmény mentése dokumentumként OCR kép felismerésben](./save-multipage-result-as-document/)
 Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként ezzel az átfogó lépésről‑lépésre útmutatóval.
+
+### [Szöveg felismerése PNG-ből az Aspose OCR‑rel – GPU‑gyorsított kötegelt bemutató](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demó, amely GPU‑gyorsítással kötegelt PNG‑képek szövegfelismerését mutatja be az Aspose OCR használatával.
+
+### [Kép előfeldolgozása OCR-hez – Pontosság növelése az Aspose.OCR-rel](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+
+### [Kereshető PDF létrehozása Aspose OCR-rel C#-ban](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et Aspose OCR és C# segítségével, lépésről‑lépésre útmutatóval.
 
 ## Gyakran Ismételt Kérdések
 
