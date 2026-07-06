@@ -45,6 +45,9 @@ Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Denna h
 
 Extrahera text från bilder utan ansträngning genom att ange tillåtna tecken med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration, vilket säkerställer en sömlös textigenkänningsupplevelse. Förbättra dina Java-applikationer med Aspose.OCR-funktioner.
 
+## [Hur man utför batch-OCR i Java med parallell bearbetning](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Utför batch-OCR i Java med parallell bearbetning för snabb och effektiv textutvinning. Optimera dina projekt med Aspose.OCR.
+
 ## Slutsats
 
 Med Aspose.OCR för Java har det aldrig varit enklare att behärska avancerade OCR-tekniker. Dyk in i dessa handledningar och lås upp den fulla potentialen för textigenkänning i dina Java-projekt. Höj dina applikationer med sömlös integration, hög noggrannhet och mångsidiga textextraheringsmöjligheter. Ladda ner nu och ta det första steget mot OCR-excellens med Aspose.OCR för Java!
@@ -61,6 +64,13 @@ Lås upp kraften i textigenkänning med Aspose.OCR för Java. Följ vår steg-f�
 Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Enkel integration, hög noggrannhet.
 ### [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 Lås upp textextraktion från bilder sömlöst med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration.
+### [Utför OCR på bild med GPU Aspose OCR för Java](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Utnyttja GPU-acceleration för snabb och exakt textigenkänning i Java med Aspose OCR.
+### [Hur man utför OCR i Java – Autodetektera språk och extrahera text](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Utför OCR i Java med automatisk språkdetektering och extrahera text effektivt. Få hög noggrannhet med Aspose.OCR.
+### [Hur man förbättrar OCR med avancerad förbehandling i Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Förbättra OCR‑noggrannheten i Java med avancerade förbehandlingsmetoder. Följ vår steg‑för‑steg‑guide för optimal textigenkänning.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
