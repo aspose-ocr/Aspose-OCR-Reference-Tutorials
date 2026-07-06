@@ -51,6 +51,9 @@ Are you ready to unleash the full potential of Aspose.OCR for .NET? Our guide on
 
 Enhance OCR accuracy with Aspose.OCR for .NET by exploring [preprocessing filters](./preprocessing-filters-for-image/). Download now and discover how to fine‑tune your images before recognition. This tutorial ensures seamless integration, boosting accuracy and efficiency.
 
+### [how to deskew image – Aspose OCR preprocessing guide](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Learn how to deskew images using Aspose.OCR preprocessing to improve OCR accuracy.
+
 ## Result Correction with Spell Checking in OCR Image Recognition
 
 Achieve unparalleled OCR accuracy with [Aspose.OCR for .NET](./result-correction-with-spell-checking/). Our tutorial on result correction with spell checking empowers you to customize dictionaries, correct spellings, and ensure error‑free text recognition effortlessly. Dive into a world of precision with Aspose.OCR.
@@ -69,9 +72,13 @@ Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn 
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+### [Enable GPU Acceleration for OCR in C# – Extract Text from Receipts](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Accelerate OCR processing with GPU support in C#. Learn to extract text from receipts faster using Aspose.OCR.
+### [Batch OCR Images in C# – Parallel OCR of JPG Scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Process multiple JPG scans concurrently in C# using Aspose.OCR to boost OCR throughput.
 
 ## Frequently Asked Questions
 

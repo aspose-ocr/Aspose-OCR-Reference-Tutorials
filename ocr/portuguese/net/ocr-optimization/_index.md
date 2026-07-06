@@ -28,7 +28,7 @@ Neste guia você descobrirá como **extrair texto de imagem** de arquivos com As
 - **O .NET Core é suportado?** Totalmente suportado no .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
 
 ## O que é “extrair texto de imagem”?
-Extrair texto de uma imagem significa usar reconhecimento óptico de caracteres (OCR) para ler os caracteres que aparecem em um bitmap e exportá‑los como texto simples ou documentos formatados. Aspose.OCR utiliza algoritmos sofisticados para lidar com várias fontes, idiomas e qualidades de imagem.
+Extrair texto de uma imagem significa usar reconhecimento óptico de caracteres (OCR) para ler os caracteres que aparecem em um bitmap e exportá‑‑los como texto simples ou documentos formatados. Aspose.OCR utiliza algoritmos sofisticados para lidar com várias fontes, idiomas e qualidades de imagem.
 
 ## Por que usar Aspose.OCR para .NET?
 - **Alta precisão** – mecanismos avançados de reconhecimento reduzem erros.  
@@ -55,7 +55,7 @@ Aumente a precisão do OCR com Aspose.OCR para .NET explorando [filtros de pré�
 
 ## Correção de Resultado com Verificação Ortográfica em Reconhecimento de Imagem OCR
 
-Alcance precisão incomparável no OCR com [Aspose.OCR para .NET](./result-correction-with-spell-checking/). Nosso tutorial sobre correção de resultado com verificação ortográfica permite que você personalize dicionários, corrija ortografia e garanta reconhecimento de texto livre de erros sem esforço. Mergulhe em um mundo de precisão com Aspose.OCR.
+Alcance precisão incomparável no OCR com [Aspose.OCR para .NET](./result-correction-with-spell-checking/). Nosso tutorial sobre correção de resultado com verificação ortográfica permite que você personalize dicionários, corrija ortografia e garanta reconhecimento de texto livre de erros sem esforço. Mergulhe em um mundo de precisão com Aspose.OCR para .NET.
 
 ## Salvar Resultado Multipágina como Documento em Reconhecimento de Imagem OCR
 
@@ -74,6 +74,12 @@ Explore Aspose.OCR para .NET. Aumente a precisão do OCR com filtros de pré‑p
 Melhore a precisão do OCR com Aspose.OCR para .NET. Corrija ortografia, personalize dicionários e alcance reconhecimento de texto livre de erros sem esforço.
 ### [Salvar Resultado Multipágina como Documento em Reconhecimento de Imagem OCR](./save-multipage-result-as-document/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Salve facilmente resultados de OCR multipágina como documentos com este guia completo passo a passo.
+### [Habilitar Aceleração GPU para OCR em C# – Extrair Texto de Recibos](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Aprenda a usar a aceleração GPU com Aspose.OCR em C# para extrair texto de recibos de forma rápida e precisa.
+### [Como corrigir inclinação de imagem – Guia de pré‑processamento Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aprenda a remover a inclinação de imagens usando filtros de pré‑processamento do Aspose.OCR para melhorar a precisão do OCR.
+### [Processamento em lote de OCR de imagens em C# – OCR paralelo de digitalizações JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Execute OCR em múltiplas imagens JPG simultaneamente usando paralelismo em C# para melhorar desempenho.
 
 ## Perguntas Frequentes
 
