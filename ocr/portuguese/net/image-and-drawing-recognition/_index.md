@@ -68,6 +68,8 @@ Desbloqueie o potencial do reconhecimento de texto com o Aspose.OCR para .NET. R
 Liberte o potencial do Aspose.OCR para .NET ao reconhecer linhas no reconhecimento de imagens OCR. Um guia do desenvolvedor para extração de texto fluida de imagens.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Desperte a magia do OCR com o Aspose.OCR para .NET e extraia texto de imagens sem esforço. Explore o tutorial para integração fluida.
+### [Extrair Tabelas de Imagem com Aspose OCR – Guia Completo em C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extrair tabelas de imagens usando Aspose OCR em C#, com passo a passo detalhado e dicas de otimização.
 
 ## Perguntas Frequentes
 

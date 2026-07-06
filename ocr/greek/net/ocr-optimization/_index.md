@@ -22,7 +22,7 @@ weight: 25
 
 ## Γρήγορες Απαντήσεις
 - **What does “extract text from image” mean?** Μετατροπή των οπτικών χαρακτήρων σε μια εικόνα σε αναζητήσιμο, επεξεργάσιμο κείμενο.  
-- **Which library is recommended?** Το Aspose.OCR for .NET παρέχει OCR υψηλής ακρίβειας με εκτενείς επιλογές προεπεξεργασίας.  
+- **Which library is recommended?** Το Aspose.OCR for .NET παρέχει OCR υψηλής ακρίβειας με εκτενείς επιλογές προεπεργασίας.  
 - **Do I need a license?** Διατίθεται δωρεάν δοκιμαστική έκδοση· απαιτείται εμπορική άδεια για παραγωγική χρήση.  
 - **Can I process multi‑page documents?** Ναι, μπορείτε να αποθηκεύσετε τα αποτελέσματα OCR ως πολυσέλιδα PDF ή άλλα μορφότυπα εγγράφων.  
 - **Is .NET Core supported?** Πλήρης υποστήριξη σε .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
@@ -69,11 +69,17 @@ weight: 25
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET με τον ολοκληρωμένο μας οδηγό. Μάθετε βήμα‑βήμα πώς να προετοιμάσετε ορθογώνια για την αναγνώριση εικόνας. Αναβαθμίστε τις .NET εφαρμογές σας με αδιάλειπτη ενσωμάτωση OCR.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
+Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+### [Βαθμολογίες εμπιστοσύνης OCR σε C# – Πλήρης Οδηγός](./ocr-confidence-scores-in-c-complete-guide/)
+Μάθετε πώς να εξάγετε και να ερμηνεύσετε τις βαθμολογίες εμπιστοσύνης OCR σε C# για βελτιωμένη ακρίβεια αναγνώρισης.
+### [Προεπεξεργασία εικόνας για OCR σε C# – Πλήρης οδηγός Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να προετοιμάσετε εικόνες για OCR σε C# χρησιμοποιώντας το Aspose.OCR, βήμα‑βήμα οδηγίες για βέλτιστη ακρίβεια.
+### [Πώς να κάνετε Batch OCR σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων με OCR σε C# χρησιμοποιώντας Aspose.OCR, βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

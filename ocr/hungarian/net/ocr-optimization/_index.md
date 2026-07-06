@@ -68,11 +68,20 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit átfogó útmutatónkkal. Tanu
 ### [Előfeldolgozó szűrők képekhez OCR kép felismerésben](./preprocessing-filters-for-image/)
 Fedezze fel az Aspose.OCR for .NET-et. Növelje az OCR pontosságát előfeldolgozó szűrőkkel. Töltse le most a zökkenőmentes integrációért.
 
+### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes Aspose OCR útmutató](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Ismerje meg, hogyan készítheti elő a képeket az OCR-hez C#‑ban az Aspose.OCR segítségével a maximális pontosság érdekében.
+
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
-Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyedén érjen el hibamentes szövegfelismerést.
+Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
 
 ### [Többoldalas eredmény mentése dokumentumként OCR kép felismerésben](./save-multipage-result-as-document/)
 Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként ezzel az átfogó lépésről‑lépésre útmutatóval.
+
+### [OCR bizonyossági pontszámok C#‑ban – Teljes útmutató](./ocr-confidence-scores-in-c-complete-guide/)
+Ismerje meg, hogyan használhatja az OCR biztonsági pontszámokat C#‑ban az Aspose.OCR for .NET segítségével a pontosság nyomon követéséhez és optimalizálásához.
+
+### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Fedezze fel, hogyan hajthat végre kötegelt OCR‑t C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutató.
 
 ## Gyakran Ismételt Kérdések
 

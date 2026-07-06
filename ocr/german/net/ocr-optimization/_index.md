@@ -68,7 +68,13 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 ### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt‑für‑Schritt‑Leitfaden.
+### [OCR‑Vertrauenswerte in C# – Komplett‑Leitfaden](./ocr-confidence-scores-in-c-complete-guide/)
+Erfahren Sie, wie Sie OCR‑Vertrauenswerte in C# auswerten und die Erkennungsgenauigkeit gezielt verbessern.
+### [Bildvorverarbeitung für OCR in C# – Vollständiger Aspose OCR Leitfaden](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie Bilder in C# optimal vorverarbeiten, um die OCR‑Genauigkeit mit Aspose OCR zu maximieren.
+### [Batch‑OCR in C# – Vollständiger Programmierleitfaden](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mehrere Bilder in C# stapelweise mit Aspose.OCR verarbeiten und OCR‑Ergebnisse effizient speichern.
 
 ## Häufig gestellte Fragen
 
