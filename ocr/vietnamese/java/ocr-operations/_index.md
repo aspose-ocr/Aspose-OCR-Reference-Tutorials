@@ -79,6 +79,10 @@ Mở khóa sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng vă
 Mở khóa khả năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Nhận dạng văn bản trong hình ảnh TIFF một cách dễ dàng. Tải xuống ngay để có trải nghiệm OCR liền mạch.
 ### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Tải ảnh để OCR trong Java – Hướng dẫn từng bước](./load-image-for-ocr-in-java-step-by-step-guide/)
+Khám phá cách tải ảnh và chuẩn bị cho OCR trong Java một cách chi tiết, từ cấu hình đến thực thi.
+### [Tạo PDF có thể tìm kiếm – Hướng dẫn OCR Java](./create-searchable-pdf-java-ocr-guide/)
+Khám phá cách tạo PDF có thể tìm kiếm bằng OCR trong Java, từ cấu hình đến lưu tài liệu với lớp văn bản có thể tìm kiếm.
 
 ## Câu hỏi Thường gặp
 
