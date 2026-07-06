@@ -18,7 +18,7 @@ weight: 25
 
 ## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğertenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
@@ -74,6 +74,10 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [Görüntüde OCR Gerçekleştirme – Aspose OCR ile Doğruluğu Artırın](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Aspose OCR ile görüntüde OCR uygulayın, doğruluğu artırın ve sonuçları optimize edin.
+### [GPU ile Görüntüde OCR Çalıştırma – C# Aspose OCR Rehberi](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+GPU hızlandırmalı OCR ile görüntülerden metin çıkarın, C# ve Aspose OCR kullanarak performansı artırın.
 
 ## Sıkça Sorulan Sorular
 
