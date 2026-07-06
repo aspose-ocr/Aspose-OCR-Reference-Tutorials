@@ -74,6 +74,8 @@ weight: 25
 Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+### [Πώς να κάνετε OCR εικόνας με Aspose OCR – Οδηγός C# με επιτάχυνση GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Μάθετε πώς να αξιοποιήσετε την επιτάχυνση GPU για OCR εικόνων σε C# με Aspose OCR, βελτιώνοντας την ταχύτητα και την ακρίβεια.
 
 ## Συχνές Ερωτήσεις
 

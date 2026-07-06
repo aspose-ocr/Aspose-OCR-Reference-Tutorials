@@ -55,6 +55,21 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [在 C# 中從圖像辨識印地語 – 步驟指南](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+使用 Aspose.OCR for .NET，逐步教您在 C# 應用程式中辨識印地語圖像文字。
+### [在 C# 中建立可搜尋的 PDF – 將 TIFF 轉換為 PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+使用 Aspose.OCR for .NET，將 TIFF 圖像轉換為可搜尋的 PDF，提升文件的可存取性與搜尋功能。
+### [在 C# 中對圖像執行 OCR – 完整 Aspose OCR 指南](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+使用 Aspose.OCR for .NET，完整步驟教您在 C# 中對圖像執行 OCR，輕鬆取得文字結果。
+### [使用 Aspose OCR 在圖像上執行 OCR – 完整 C# 指南](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose.OCR for .NET，完整指南教您在 C# 中對圖像執行 OCR，快速取得文字結果。
+### [在 C# 中批次 OCR 檔案 – 完整程式碼範例](./how-to-batch-ocr-files-in-c-full-code-example/)
+使用 Aspose.OCR for .NET，示範如何在 C# 中批次處理 OCR 檔案的完整程式碼範例。
+### [在 C# 中執行 OCR – 將圖像轉換為 JSON 指南](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+使用 Aspose.OCR for .NET，學習如何在 C# 中將影像 OCR 結果轉換為 JSON 格式的完整步驟指南。
+### [使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose.OCR for .NET，完整指南教您在 C# 中從圖像辨識文字，快速取得結果。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

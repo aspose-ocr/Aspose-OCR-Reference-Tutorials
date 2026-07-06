@@ -29,6 +29,9 @@ Explorez les capacités d'Aspose.OCR pour .NET et transformez la façon dont vou
 
 Libérez tout le potentiel d'Aspose.OCR pour .NET en apprenant à obtenir facilement des résultats OCR au format JSON. Ce guide étape par étape garantit un parcours fluide vers l’amélioration de vos capacités de reconnaissance d’images. Améliorez l'efficacité de votre application grâce aux fonctionnalités robustes et à la technologie de pointe d'Aspose.OCR.
 
+### [Comment effectuer l'OCR en C# – Guide de conversion d'image en JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+Apprenez à convertir les images en résultats JSON avec Aspose.OCR en C# grâce à ce guide complet étape par étape.
+
 ## Mode de détection de zones OCR dans la reconnaissance d'images OCR
 
 L'efficacité est essentielle dans les applications .NET, et Aspose.OCR est là pour vous aider à y parvenir. Plongez dans le didacticiel du mode de détection des zones OCR pour obtenir des résultats précis en matière de reconnaissance de texte d'image. Élevez vos projets grâce aux fonctionnalités avancées d’Aspose.OCR, offrant précision et rapidité dans la reconnaissance de texte.
@@ -49,12 +52,27 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance précis
 Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance transparente du texte dans les images.
 ### [Obtenir le résultat au format JSON dans la reconnaissance d'image OCR](./get-result-as-json/)
 Libérez la puissance d’Aspose.OCR pour .NET. Apprenez à obtenir des résultats OCR au format JSON sans effort. Améliorez votre reconnaissance d'image avec ce guide étape par étape.
+### [Comment effectuer l'OCR en C# – Guide de conversion d'image en JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+Apprenez à convertir les images en résultats JSON avec Aspose.OCR en C# grâce à ce guide complet étape par étape.
 ### [Mode de détection de zones OCR dans la reconnaissance d'images OCR](./ocr-detect-areas-mode/)
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficace du texte des images. Explorez le mode de détection des zones OCR pour des résultats précis.
 ### [Reconnaître un PDF dans la reconnaissance d'images OCR](./recognize-pdf/)
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Comment reconnaître le hindi à partir d'images en C# – Guide étape par étape](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+Améliorez vos applications .NET avec Aspose.OCR pour reconnaître le hindi dans les images. Suivez notre guide pas à pas pour une reconnaissance précise.
+### [Créer un PDF consultable en C# – Convertir TIFF en PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+Apprenez à transformer des fichiers TIFF en PDF consultables avec Aspose.OCR en C#.
+### [Effectuer l'OCR sur une image en C# – Guide complet Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+Apprenez à réaliser une reconnaissance OCR d'images en C# avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Exécuter l'OCR sur une image avec Aspose OCR – Guide complet C#](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à réaliser une reconnaissance OCR d'images en C# avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Comment traiter par lots des fichiers OCR en C# – Exemple complet de code](./how-to-batch-ocr-files-in-c-full-code-example/)
+Apprenez à exécuter l'OCR sur plusieurs fichiers en C# avec un exemple complet de code.
+### [Reconnaître du texte à partir d'une image avec Aspose OCR – Guide complet C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'images en C# avec Aspose OCR grâce à ce guide complet étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
