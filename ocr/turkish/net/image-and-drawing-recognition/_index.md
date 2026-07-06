@@ -53,7 +53,7 @@ Belirli bir satıra odaklanmanız gerekiyorsa—örneğin bir seri numarasını 
 
 Bu bölüm, **perform OCR on image** dosyalarının temel işlemini kapsar. Bu öğreticideki adımları izleyerek OCR motorunu nasıl yapılandıracağınızı, uygun dili nasıl seçeceğinizi ve desteklenen herhangi bir görüntü formatından temiz, aranabilir metin nasıl alacağınızı öğreneceksiniz.
 
-Sonuç olarak, Aspose.OCR for .NET, geliştiricilerin OCR görüntü tanımanın her yönünü—satırlardan paragraflara, tam görüntü akışlarına kadar—ustalaşmalarına yardımcı olan zengin bir öğretici seti sunar. Aşağıdaki bağlantıları keşfederek bugün sağlam metin çıkarma özellikleri oluşturmaya başlayın.
+Sonuç olarak, Aspose.OCR for .NET, geliştiricilerin OCR görüntü tanımanın her yönünü—satırlardan paragraflara, tam görüntü akışlarına kadar—ustalaşmalarına yardımcı olan zengin bir öğretici seti sunar. Aşağıdaki bağlantları keşfederek bugün sağlam metin çıkarma özellikleri oluşturmaya başlayın.
 
 ## Görüntü ve Çizim Tanıma Öğreticileri
 ### [OCR Görüntü Tanıma'da Satırlar İçin Dikdörtgenleri Alma](./get-rectangles-for-lines/)
@@ -68,6 +68,8 @@ Aspose.OCR for .NET ile metin tanıma potansiyelini açığa çıkarın. Görün
 Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyelini ortaya çıkarın. Görüntülerden sorunsuz metin çıkarma için geliştirici rehberi.
 ### [OCR Görüntü Tanıma'da Görüntü Üzerinde OCR Gerçekleştirme](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
+### [Aspose OCR (C#) ile Görüntülerden Tablo Çıkarma](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Aspose OCR kullanarak görüntülerdeki tablo yapılarını algılayın ve metin olarak çıkarın. C# kod örnekleriyle adım adım rehber.
 
 ## Sıkça Sorulan Sorular
 

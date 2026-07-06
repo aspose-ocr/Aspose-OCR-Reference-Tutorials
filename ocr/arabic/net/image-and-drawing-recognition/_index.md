@@ -68,6 +68,8 @@ weight: 22
 أطلق إمكانات Aspose.OCR لـ .NET في التعرف على الخطوط في التعرف على الصور باستخدام OCR. دليل المطور لاستخراج النص بسلاسة من الصور.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 اكتشف سحر OCR مع Aspose.OCR لـ .NET واستخراج النص من الصور بسهولة. استكشف البرنامج التعليمي للتكامل السلس.
+### [كيفية استخراج الجداول من الصور باستخدام Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+اكتشف كيفية استخراج الجداول من الصور باستخدام Aspose OCR في C# بسهولة ودقة.
 
 ## الأسئلة المتكررة
 

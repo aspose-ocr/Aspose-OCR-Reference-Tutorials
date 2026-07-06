@@ -80,6 +80,8 @@ Lås upp potentialen för textigenkänning med Aspose.OCR för .NET. Känn igen 
 Frigör potentialen i Aspose.OCR för .NET för att känna igen rader i OCR‑bildigenkänning. En utvecklarguide för sömlös textutvinning från bilder.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Lås upp OCR‑magin med Aspose.OCR för .NET och extrahera text från bilder utan ansträngning. Utforska tutorialen för sömlös integration.
+### [Hur du extraherar tabeller från bilder med Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Lär dig att identifiera och extrahera tabellstrukturer från bildfiler med Aspose OCR i C#.
 
 ## Vanliga frågor
 
