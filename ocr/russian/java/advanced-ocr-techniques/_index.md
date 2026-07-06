@@ -61,6 +61,16 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Расширьте возможности своих Java-приложений с помощью Aspose.OCR для точного распознавания текста. Простая интеграция, высокая точность.
 ### [Указание разрешенных символов в Aspose.OCR](./specify-allowed-characters/)
 Легко разблокируйте извлечение текста из изображений с помощью Aspose.OCR для Java. Следуйте нашему пошаговому руководству для эффективной интеграции.
+### [Как получить OCR в Java – Полное руководство по извлечению необработанного текста](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Полное руководство по получению OCR в Java и извлечению необработанного текста из изображений с помощью Aspose.OCR.
+### [Распознавание текстового изображения в Java с ускорением GPU – Полное руководство](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+### [Извлечение текста из формы с Aspose OCR Java – Полное руководство](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Полное руководство по извлечению текста из форм с помощью Aspose OCR для Java, обеспечивая точность и простоту интеграции.
+### [Параллельная обработка OCR в Java — Полное руководство](./parallel-ocr-processing-in-java-complete-guide/)
+Узнайте, как ускорить распознавание изображений в Java с помощью параллельной обработки OCR, используя Aspose.OCR.
+### [Создание поискового PDF с помощью Java OCR – Полное руководство](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Полное руководство по созданию поискового PDF в Java с использованием Aspose.OCR, включая пошаговые инструкции и оптимизацию качества распознавания.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
