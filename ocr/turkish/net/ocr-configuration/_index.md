@@ -62,6 +62,8 @@ Aspose.OCR ile .NET’te OCR görüntü tanıma gücünü keşfedin. Görüntül
 Aspose.OCR for .NET ile güçlü OCR yeteneklerini açığa çıkarın. Görüntülerden sorunsuz bir şekilde metin çıkarın.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET’in potansiyelini ortaya çıkarın. Listelerle OCR görüntü tanımını zahmetsizce gerçekleştirin. Uygulamalarınızda üretkenliği ve veri çıkarımını artırın.
+### [C# ile görüntüden metin tanıma – Aspose OCR ile Kannada dili nasıl tanınır](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Aspose OCR kullanarak C# içinde Kannada dilindeki metinleri doğru şekilde tanıyın ve çıkarın.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

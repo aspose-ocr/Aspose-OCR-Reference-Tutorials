@@ -55,6 +55,21 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [c# OCR-handledning – Extrahera text från bilder med Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Lär dig hur du med Aspose OCR för .NET extraherar text från bilder i en enkel C#-applikation.
+### [Hur man använda OCR i C# – Extrahera arabisk text från JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera arabisk text från JPG-bilder.
+### [c# OCR-handledning – Extrahera urdu-text från PNG-bilder](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Lär dig hur du med Aspose OCR för .NET extraherar urdu-text från PNG-bilder i en C#-applikation.
+### [Skapa sökbar PDF från bild i C# – Fullständig guide](./create-searchable-pdf-from-image-in-c-full-guide/)
+Lär dig steg-för-steg hur du med Aspose.OCR för .NET skapar en sökbar PDF från en bildfil.
+### [Hur man skapar PDF/A från skannade bilder i C# – Steg‑för‑steg‑guide](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Lär dig att konvertera skannade bilder till PDF/A i C# med Aspose.OCR i en detaljerad steg‑för‑steg‑guide.
+### [Hur man batch-OCR i C# – Extrahera text från bilder snabbt](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder och snabbt extraherar text i en C#-applikation.
+### [Känn igen handskriven text i C# med Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Lär dig hur du med Aspose OCR för .NET känner igen handskriven text i C#-applikationer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -66,6 +66,8 @@ Libérez la puissance de la reconnaissance d’images OCR dans .NET avec Aspose.
 ### [OCROOpération avec sélection de langue dans la reconnaissance d'images OCR](./ocr-operation-with-lingual-selection/)
 Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
 ### [OCROperation avec liste dans la reconnaissance d'images OCR](./ocr-operation-with-list/)
+### [Reconnaître du texte à partir d'une image en C# – comment reconnaître le Kannada avec Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Apprenez à extraire du texte en Kannada à partir d'images en C# avec Aspose OCR.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

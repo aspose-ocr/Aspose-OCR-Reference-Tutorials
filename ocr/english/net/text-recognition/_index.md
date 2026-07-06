@@ -55,6 +55,24 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [c# OCR tutorial – Extract Text from Images with Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Learn how to extract text from images using Aspose OCR in C#. Follow our step-by-step guide to integrate OCR capabilities into your .NET applications.
+### [c# ocr tutorial – Extract Urdu Text from PNG Images](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Learn how to extract Urdu text from PNG images using Aspose OCR in C#. Follow our step-by-step guide to integrate OCR capabilities into your .NET applications.
+### [How to Use OCR in C# – Extract Arabic Text from JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Learn how to extract Arabic text from JPG images using Aspose OCR in C#. Follow our step-by-step guide for accurate results.
+### [Create Searchable PDF from Image in C# – Full Guide](./create-searchable-pdf-from-image-in-c-full-guide/)
+Create a searchable PDF from images using Aspose.OCR in C#. Follow our comprehensive guide to integrate PDF conversion into your .NET applications.
+
+### [How to Batch OCR in C# – Extract Text from Images Fast](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Learn how to batch process images for fast OCR extraction in C# using Aspose.OCR, boosting efficiency in your .NET applications.
+
+### [How to Create PDF/A from Scanned Images in C# – Step‑by‑Step Guide](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Learn how to generate PDF/A files from scanned images in C# using Aspose.OCR with this step‑by‑step guide.
+
+### [recognize handwritten text in C# using Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Learn how to recognize handwritten text in C# using Aspose OCR. Follow our step-by-step guide to integrate handwriting recognition into your .NET applications.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
