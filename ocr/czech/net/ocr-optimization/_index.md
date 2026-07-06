@@ -74,6 +74,9 @@ Prozkoumejte Aspose.OCR pro .NET. Zvyšte přesnost OCR pomocí předzpracovatel
 Zvyšte přesnost OCR s Aspose.OCR pro .NET. Opravujte pravopis, přizpůsobujte slovníky a dosáhněte bezchybného rozpoznávání textu s lehkostí.
 ### [Uložit vícestránkový výsledek jako dokument v OCR rozpoznávání obrázků](./save-multipage-result-as-document/)
 Odemkněte potenciál Aspose.OCR pro .NET. Jednoduše uložte vícestránkové OCR výsledky jako dokumenty s tímto komplexním krok‑za‑krokem průvodcem.
+### [Rozpoznat text z obrázku pomocí GPU‑akcelerovaného OCR v C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+### [Extrahovat text z obrázku – Kompletní průvodce OCR v C# s redukcí šumu](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Kompletní návod, jak pomocí Aspose.OCR v C# odstranit šum a přesně extrahovat text z obrázků.
 
 ## Často kladené otázky
 

@@ -55,6 +55,17 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur du använder OCR i C# – Extrahera text från bildfiler](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bildfiler enkelt och effektivt.
+### [Extrahera text från bild med Aspose OCR – Komplett C#-guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bildfiler enkelt och effektivt.
+### [OCR flersidig PDF – Konvertera till HTML med C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Lär dig hur du konverterar en flersidig PDF till HTML med Aspose.OCR i C#.
+### [Hur du använder OCR i C# – Extrahera text från bild asynkront](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Lär dig hur du asynkront extraherar text från bildfiler med Aspose.OCR i C# för förbättrad prestanda.
+### [Hur du OCR:ar arabiska – Komplett C#-guide för att extrahera arabisk text](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera arabiska texter från bildfiler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
