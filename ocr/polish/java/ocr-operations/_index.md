@@ -73,14 +73,24 @@ Podsumowując, dzięki naszej liście tutoriali Aspose.OCR dla Javy masz klucz d
 ## Tutoriale operacji OCR
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Odblokuj moc wyodrębniania tekstu z obrazów przy użyciu Aspose.OCR dla Javy. Kompleksowy tutorial o OCR w trybie Detect Areas.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Odblokuj precyzyjne wyodrębnianie tekstu z obrazów przy użyciu Aspose.OCR dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać dokładny OCR z wyborem języka.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez wysiłku. Zwiększ swoje aplikacje dzięki precyzji i szybkości.
+
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
+
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – przewodnik Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspose OCR.
+
+### [Automatyczne prostowanie obrazu w Javie – Kompletny przewodnik Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Dowiedz się, jak automatycznie prostować obrazy w Javie przy użyciu Aspose OCR, aby poprawić jakość OCR i uzyskać lepsze wyniki.
 
 ## Najczęściej zadawane pytania
 
