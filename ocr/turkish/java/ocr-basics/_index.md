@@ -96,11 +96,17 @@ Unutmayın, yol burada bitmiyor—Aspose.OCR, özel sözlükler, çok‑dilli al
 
 ## OCR Temelleri Eğitimleri
 ### [Aspose.OCR için Java’da Lisans Ayarlama](./set-license/)
+
 Aspose.OCR for Java’ın potansiyelini bu adım‑adım rehberle ortaya çıkarın. Lisansınızı zahmetsizce kurun ve OCR yeteneklerinizi artırın.
 ### [Aspose.OCR için Java’da Eğim Açısını Hesaplama](./calculate-skew-angle/)
+
 Aspose.OCR for Java ile OCR doğruluğunu artırın. Eğim açılarını adım‑adım nasıl hesaplayacağınızı öğrenin. Belge işleme sürecinizi zahmetsizce iyileştirin.
 ### [Aspose.OCR’da Metin Alanlarıyla Dikdörtgenleri Alma](./get-rectangles-with-text-areas/)
+
 Aspose.OCR for Java’ın gücünü keşfedin. Bu adım‑adım rehberde görüntülerden metin çıkarmayı sorunsuz bir şekilde öğrenin. Verimli metin tanıma için hemen indirin.
+### [Java’da Görüntüden Metin Tanıma – Tam OCR Eğitimi](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+
+Java’da Aspose.OCR ile görüntülerden metin çıkarmayı adım adım öğrenin ve tam OCR sürecini keşfedin.
 
 ---
 
