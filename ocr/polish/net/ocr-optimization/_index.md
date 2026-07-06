@@ -81,6 +81,9 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
 
+### [Jak wyprostować obraz do OCR – Przewodnik krok po kroku w C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Dowiedz się, jak prawidłowo wyprostować obrazy w C#, aby zwiększyć precyzję OCR przy użyciu Aspose.OCR.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

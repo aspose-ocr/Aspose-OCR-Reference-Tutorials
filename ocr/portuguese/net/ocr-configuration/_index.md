@@ -62,6 +62,10 @@ Desbloqueie o poder do reconhecimento de imagens OCR em .NET com Aspose.OCR. Ext
 Desbloqueie recursos poderosos de OCR com Aspose.OCR para .NET. Extraia texto de imagens de forma contínua.
 ### [OCROperation com Lista em Reconhecimento de Imagens OCR](./ocr-operation-with-list/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Realize reconhecimento de imagens OCR com listas de forma simples. Aumente a produtividade e a extração de dados em suas aplicações.
+### [Como criar um mecanismo OCR em C# – Guia de configuração offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Aprenda a configurar e usar um motor OCR local em C# sem dependências online.
+### [Como Verificar a Disponibilidade do Modelo OCR em C# – Guia Passo a Passo](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Descubra como verificar se um modelo OCR está disponível antes de usá‑lo em sua aplicação C#.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

@@ -55,6 +55,17 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Hướng dẫn OCR C#: Trích xuất văn bản từ hình ảnh với Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Chạy OCR trên hình ảnh với Aspose OCR – Nhận dạng văn bản tiếng Trung](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng văn bản tiếng Trung trong hình ảnh, với hướng dẫn chi tiết từng bước.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách chi tiết và hiệu quả.
+### [Hướng dẫn OCR C#: Trích xuất văn bản tiếng Ả Rập từ hình ảnh](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản tiếng Ả Rập từ hình ảnh một cách nhanh chóng và chính xác.
+### [Tạo Excel từ hình ảnh với Aspose OCR – Hướng dẫn từng bước](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Khám phá cách sử dụng Aspose OCR để chuyển đổi hình ảnh thành tệp Excel một cách nhanh chóng và chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

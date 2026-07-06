@@ -55,6 +55,16 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [c# OCR tutoriál: Extrahování textu z obrázku pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR extrahovat text z obrázků ve vašich .NET aplikacích.
+### [Spusťte OCR na obrázku pomocí Aspose OCR – Rozpoznání čínského textu](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Naučte se, jak pomocí Aspose OCR rozpoznat čínské znaky na obrázcích ve vašich .NET aplikacích.
+### [Extrahování textu z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Naučte se kompletně, jak pomocí Aspose OCR extrahovat text z obrázků ve vašich C# aplikacích.
+### [Vytvořte Excel z obrázku pomocí Aspose OCR – průvodce krok za krokem](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Naučte se, jak pomocí Aspose OCR převést obrázek do souboru Excel v několika jednoduchých krocích.
+### [c# OCR tutoriál – Extrahování arabského textu z obrázků](./c-ocr-tutorial-extract-arabic-text-from-images/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
