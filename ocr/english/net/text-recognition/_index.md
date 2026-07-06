@@ -55,6 +55,13 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [recognize arabic text with Aspose OCR – Multi‑Language Guide](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Learn to recognize Arabic text with Aspose OCR in .NET using this multi‑language guide for accurate multilingual OCR.
+### [Create Searchable PDF in C# – Step‑by‑Step Guide](./create-searchable-pdf-in-c-step-by-step-guide/)
+Create searchable PDFs in C# using Aspose.OCR. Follow this step‑by‑step guide to generate PDFs with embedded text for easy searching.
+### [Convert Image to ePub in C# – Step‑by‑Step Guide](./convert-image-to-epub-in-c-step-by-step-guide/)
+Convert images to ePub format in C# using Aspose.OCR. Follow this step‑by‑step guide to create ePub files from images effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

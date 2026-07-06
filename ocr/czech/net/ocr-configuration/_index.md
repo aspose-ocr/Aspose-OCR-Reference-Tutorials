@@ -62,6 +62,10 @@ Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extra
 Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Jak uložit JSON z OCR v C# – Kompletní krok‑za‑krokem průvodce](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Naučte se, jak uložit výsledky OCR jako JSON v C# pomocí Aspose.OCR.
+### [Rozpoznat čínský text offline – Kompletní průvodce C#](./recognize-chinese-text-offline-complete-c-guide/)
+Kompletní návod, jak offline rozpoznávat čínské znaky v C# pomocí Aspose.OCR.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

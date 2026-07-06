@@ -61,6 +61,10 @@ Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
+### [Herken Chinese tekst offline – Complete C#-gids](./recognize-chinese-text-offline-complete-c-guide/)
+Leer hoe je Chinese tekens offline kunt herkennen met Aspose.OCR in een volledige C#-handleiding.
+### [Hoe JSON van OCR op te slaan in C# – Complete stapsgewijze handleiding](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Leer hoe je JSON-output van OCR opslaat in C# met een volledige stap‑voor‑stap gids.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.
