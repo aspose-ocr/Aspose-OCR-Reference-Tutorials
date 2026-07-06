@@ -55,6 +55,16 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [สกัดข้อความฮินดีจากภาพด้วย Aspose OCR – คู่มือฉบับสมบูรณ์](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+เรียนรู้วิธีสกัดข้อความภาษาฮินดีจากภาพอย่างละเอียดด้วย Aspose OCR พร้อมขั้นตอนครบถ้วน
+### [จดจำข้อความอาหรับจากภาพ – คู่มือ C# ฉบับสมบูรณ์โดยใช้ Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+### [ทำ OCR บนภาพด้วย C# กับ Aspose – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+### [การประมวลผล OCR แบบกลุ่มใน C# – คู่มือฉบับสมบูรณ์เพื่อสกัดข้อความจากภาพ](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+### [แปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose OCR ใน C# อย่างละเอียดตามขั้นตอนครบถ้วน
+### [แปลงภาพเป็นข้อความใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย Aspose OCR ใน C# อย่างละเอียดตามขั้นตอนครบถ้วนเพื่อการจดจำที่แม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,6 +1,6 @@
 ---
-title: Textigenkänning
-linktitle: Textigenkänning
+title: Textigennänning
+linktitle: Textigennänning
 second_title: Aspose.OCR .NET API
 description: Förhöj dina .NET-applikationer med Aspose.OCR för exakt teckenigenkänning. Upptäck självstudier för att få val, resultat och JSON-format i OCR-bildigenkänning.
 weight: 21
@@ -11,7 +11,7 @@ url: /sv/net/text-recognition/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textigenkänning
+# Textigennänning
 
 ## Introduktion
 
@@ -55,6 +55,19 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Extrahera hindi-text från bilder med Aspose OCR – Komplett guide](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Lär dig hur du med Aspose OCR extraherar hindi-text från bilder i en steg-för-steg-guide.
+### [Känn igen arabisk text från bild – Komplett C#-guide med Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Lär dig hur du med Aspose OCR extraherar arabisk text från bilder i en komplett C#-guide.
+### [Utför OCR på bild i C# med Aspose – Komplett programmeringsguide](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Lär dig steg för steg hur du använder Aspose för att utföra OCR på bilder i C# med en komplett programmeringsguide.
+### [Batch-OCR-behandling i C# – Komplett guide för att extrahera text från bilder](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Lär dig hur du i C# batchbearbetar bilder med Aspose.OCR för att snabbt extrahera text från flera filer.
+### [Konvertera bild till sökbar PDF med Aspose OCR – Komplett C#-guide](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Lär dig steg för steg hur du omvandlar bilder till sökbara PDF-filer med Aspose OCR i C#.
+### [Konvertera bild till text i C# – Komplett Aspose OCR-guide](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Lär dig steg för steg hur du använder Aspose OCR i C# för att konvertera bilder till redigerbar text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,19 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Hindi szöveg kinyerése képekből az Aspose OCR segítségével – Teljes útmutató](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Fedezze fel, hogyan nyerhet ki hindi nyelvű szöveget képekből az Aspose OCR .NET könyvtárral, lépésről-lépésre útmutatóval.
+### [Arab szöveg felismerése képről – Teljes C# útmutató az Aspose OCR használatával](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Fedezze fel, hogyan ismerheti fel az arab nyelvű szöveget képeken C#-ban az Aspose OCR segítségével, lépésről-lépésre útmutatóval.
+### [OCR végrehajtása képen C#-ban az Aspose segítségével – Teljes programozási útmutató](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Fedezze fel, hogyan végezhet teljes körű OCR-t képeken C#-ban az Aspose könyvtárral, lépésről-lépésre útmutatóval.
+### [Kötegelt OCR feldolgozás C#-ban – Teljes útmutató a képekből szöveg kinyeréséhez](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Fedezze fel, hogyan végezhet kötegelt OCR-t C#-ban, és nyerjen ki szöveget több képből egyszerre hatékonyan.
+### [Kép konvertálása kereshető PDF-be az Aspose OCR segítségével – Teljes C# útmutató](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Fedezze fel, hogyan konvertálhat képeket kereshető PDF-be az Aspose OCR .NET könyvtárral, lépésről-lépésre útmutatóval.
+### [Kép konvertálása szöveggé C#-ban – Teljes Aspose OCR útmutató](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Fedezze fel, hogyan konvertálhat képeket szöveggé C#-ban az Aspose OCR segítségével, lépésről-lépésre útmutatóval.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -61,6 +61,8 @@ Lås upp kraften i OCR‑bildigenkänning i .NET med Aspose.OCR. Extrahera text 
 Lås upp kraftfulla OCR‑funktioner med Aspose.OCR för .NET. Extrahera text från bilder sömlöst.
 ### [OCROoperation med lista i OCR-bildigenkänning](./ocr-operation-with-list/)
 Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med listor utan ansträngning. Öka produktivitet och datautdragning i dina applikationer.
+### [Detektera språk från bild i C# – Komplett programmeringsguide](./detect-language-from-image-in-c-complete-programming-guide/)
+Lär dig hur du identifierar språk i en bild med C# och Aspose.OCR. En komplett guide för programmerare.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

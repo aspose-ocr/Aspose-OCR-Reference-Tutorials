@@ -64,14 +64,24 @@ Aspose.OCR for .NET のチュートリアル一覧を利用すれば、追加リ
 ## OCR 最適化チュートリアル
 ### [URL から画像を取得して OCR を実行する](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET でシームレスな OCR 統合を体験してください。画像から正確にテキストを認識します。
+
 ### [OCR で矩形領域を準備する](./prepare-rectangles/)
 包括的なガイドで Aspose.OCR for .NET の可能性を解き放ちます。矩形領域の準備手順を段階的に学び、.NET アプリケーションを OCR と共に向上させます。
+
 ### [画像の前処理フィルタ](./preprocessing-filters-for-image/)
 Aspose.OCR for .NET を探索し、前処理フィルタで OCR 精度を向上させましょう。今すぐダウンロードしてシームレスな統合を実現してください。
+
 ### [スペルチェックによる結果修正](./result-correction-with-spell-checking/)
 Aspose.OCR for .NET で OCR 精度を強化します。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
+
 ### [マルチページ結果を文書として保存](./save-multipage-result-as-document/)
 Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステップバイステップガイドで、マルチページ OCR 結果を文書として簡単に保存できます。
+
+### [C# で GPU OCR を有効化 – 高速テキスト抽出の完全ガイド](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+GPU を活用して OCR 処理を高速化し、C# アプリでテキスト抽出を最適化する手順を詳しく解説します。
+
+### [C# で OCR 用画像前処理 – 完全ガイド](./preprocess-image-for-ocr-in-c-complete-guide/)
+C# で画像を前処理し、OCR の精度を最大化する手順をステップバイステップで解説します。
 
 ## よくある質問
 

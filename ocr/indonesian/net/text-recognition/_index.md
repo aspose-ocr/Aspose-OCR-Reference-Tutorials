@@ -53,8 +53,21 @@ Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dal
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
+### [Mengonversi Gambar menjadi PDF yang Dapat Dicari menggunakan Aspose OCR – Panduan Lengkap C#](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari dengan Aspose OCR menggunakan C# dalam panduan lengkap langkah demi langkah.
+### [Mengonversi Gambar ke Teks dalam C# – Panduan Lengkap Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Pelajari cara mengonversi gambar menjadi teks menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Ekstrak Teks Hindi dari Gambar Menggunakan Aspose OCR – Panduan Lengkap](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Pelajari cara mengekstrak teks berbahasa Hindi dari gambar dengan Aspose OCR untuk .NET dalam panduan lengkap langkah demi langkah.
+### [Mengenali Teks Arab dari Gambar – Panduan Lengkap C# Menggunakan Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Pelajari cara mengekstrak teks Arab dari gambar dengan Aspose OCR untuk .NET menggunakan C# dalam panduan langkah demi langkah.
+### [Lakukan OCR pada Gambar dengan C# menggunakan Aspose – Panduan Pemrograman Lengkap](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Panduan lengkap langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose di C#, meningkatkan akurasi dan efisiensi aplikasi Anda.
+### [Pemrosesan OCR Batch di C# – Panduan Lengkap untuk Mengekstrak Teks dari Gambar](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Panduan lengkap untuk memproses banyak gambar secara batch menggunakan Aspose.OCR di C#, mengekstrak teks dengan cepat dan akurat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

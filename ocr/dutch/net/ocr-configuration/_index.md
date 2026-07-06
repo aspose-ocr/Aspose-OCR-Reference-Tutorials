@@ -55,12 +55,18 @@ Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR�
 ## OCR-configuratie-tutorials
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
+
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
 Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer gemakkelijke tekst uit afbeeldingen.
+
 ### [OCRO-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-taalselectie/)
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
+
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
+
+### [Detecteer taal van afbeelding in C# – Complete programmeergids](./detect-language-from-image-in-c-complete-programming-guide/)
+Leer hoe je met Aspose.OCR de taal van tekst in afbeeldingen detecteert en verwerkt in C#-toepassingen.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.
