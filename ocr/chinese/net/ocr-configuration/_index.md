@@ -59,7 +59,12 @@ weight: 24
 ### [使用语言选择进行 OCR 图像识别的 OCROperation](./ocr-operation-with-language-selection/)
 利用 Aspose.OCR for .NET 的强大 OCR 功能，流畅地从图像中提取文本。  
 ### [使用列表进行 OCR 图像识别的 OCROperation](./ocr-operation-with-list/)
-发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。
+发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。  
+### [在 C# 中启用 GPU 进行 OCR 的分步指南](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+详细步骤演示如何在 C# 项目中配置 Aspose.OCR 使用 GPU 加速，提高识别性能。  
+
+### [如何下载俄语 OCR 语言包 – 完整指南](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+一步步指导如何下载并安装俄语 OCR 语言包，以在 Aspose.OCR 中实现俄语文本识别。  
 
 ### 常见使用场景
 - **从扫描发票中提取文本**，实现自动化会计。  

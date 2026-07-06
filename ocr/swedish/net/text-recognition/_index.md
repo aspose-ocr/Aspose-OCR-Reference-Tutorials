@@ -55,6 +55,21 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur du använder Aspose för OCR i C# – Steg‑för‑steg‑guide](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Lär dig hur du implementerar Aspose OCR i C# med en tydlig steg‑för‑steg‑guide för att snabbt komma igång.
+### [Skapa sökbar PDF från TIF – Konvertera bild till PDF, lägg till PDF-metadata](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Lär dig hur du konverterar TIF‑bilder till sökbara PDF‑filer och lägger till metadata med Aspose.OCR för .NET.
+### [Hur du använder Aspose – Extrahera kvittodata från bilder i C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Lär dig att extrahera kvittodata från bildfiler med Aspose i C# för smidig datahantering.
+### [Hur du använder OCR i C# – Extrahera text från bilder och DJVU-filer](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Lär dig hur du använder Aspose OCR i C# för att extrahera text från bilder och DJVU-filer på ett enkelt sätt.
+### [Känn igen kinesisk text med Aspose OCR i C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Lär dig hur du använder Aspose OCR i C# för att känna igen och extrahera kinesisk text från bilder.
+### [Hur du batch-OCR i C# – Komplett guide för massutdrag av bildtext](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Lär dig att bearbeta stora mängder bilder med OCR i C#, steg för steg för effektiv massutdrag av text.
+### [Extrahera text från TIFF med Aspose OCR-motorn – Komplett exempel](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Lär dig hur du med Aspose OCR-motorn extraherar text från TIFF-filer i ett komplett steg‑för‑steg‑exempel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
