@@ -49,12 +49,23 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、正確な
 画像内のシームレスなテキスト認識のための強力な OCR ソリューションである Aspose.OCR for .NET を探索してください。
 ### [OCR画像認識で結果をJSONとして取得](./get-result-as-json/)
 Aspose.OCR for .NET のパワーを解放します。 OCR 結果を JSON 形式で簡単に取得する方法を学びます。このステップバイステップのガイドを使用して、画像認識を強化します。
+### [C# で画像を OCR して JSON に取得する（Aspose）](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Aspose OCR を使用して、画像からテキストを認識し、結果を JSON 形式で取得する手順を解説します。
 ### [OCR画像認識のOCR検出領域モード](./ocr-detect-areas-mode/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、画像テキストを効率的に認識します。正確な結果を得るには、OCR 領域検出モードを調べてください。
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的ガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [Cyrillic文字を読む方法：Aspose OCRで画像をテキストに変換](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+Aspose OCR を使用して、画像内のキリル文字を正確に抽出し、テキストへ変換する手順を解説します。
+### [JPG 画像から中国語テキストを認識する](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+Aspose OCR を使用して、JPG 画像内の中国語テキストを正確に抽出し、.NET アプリケーションに統合する手順を解説します。
+### [検索可能な PDF の作成 – 画像から PDF への完全 C# ガイド](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+Aspose.OCR を使用して画像から検索可能な PDF を作成し、C# での実装手順を詳しく解説します。
+### [C# で OCR を使用する方法 – 画像からテキストを素早く抽出](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Aspose.OCR を利用して C# で画像からテキストを高速に抽出する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
