@@ -67,6 +67,9 @@ Libérez la puissance de la reconnaissance d’images OCR dans .NET avec Aspose.
 Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
 ### [OCROperation avec liste dans la reconnaissance d'images OCR](./ocr-operation-with-list/)
 
+### [Lire du texte à partir de PNG – extraire du texte cyrillique avec Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Apprenez à extraire du texte cyrillique d'images PNG en utilisant Aspose OCR dans vos applications .NET.
+
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
 ### Cas d'utilisation courants
