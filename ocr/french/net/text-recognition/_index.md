@@ -55,6 +55,21 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Convertir TIFF en texte en C# – Extraire le texte d’une image numérisée](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Apprenez à convertir des fichiers TIFF en texte avec C# en utilisant Aspose.OCR, pour extraire facilement le texte d’images numérisées.
+### [Reconnaître le texte d'une image avec Aspose OCR – Guide complet C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Suivez ce guide complet en C# pour extraire du texte d’une image à l’aide d’Aspose OCR.
+### [Comment utiliser l'OCR en C# – Extraire du texte d'une image](./how-to-use-ocr-in-c-extract-text-from-image/)
+Apprenez à utiliser l'OCR en C# pour extraire du texte à partir d'images avec Aspose OCR.
+### [Comment utiliser l'OCR en C# – Extraire rapidement le texte des reçus](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Apprenez à extraire rapidement le texte des reçus avec l'OCR en C#, grâce à Aspose OCR, pour automatiser le traitement des factures.
+### [Convertir TIFF en texte en C# avec Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Apprenez à convertir des fichiers TIFF en texte avec C# en utilisant Aspose.OCR, pour extraire facilement le texte d’images numérisées.
+### [Extraire le texte d’une image en C# – Aspose OCR étape par étape](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Suivez ce guide pas à pas en C# pour extraire le texte d’une image avec Aspose OCR.
+### [Comment obtenir l'OCR en C# – Reconnaître le texte à partir d'un flux](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Apprenez à extraire du texte à partir d'un flux en C# avec Aspose.OCR, pour une intégration fluide dans vos applications.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

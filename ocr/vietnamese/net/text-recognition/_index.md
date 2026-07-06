@@ -55,6 +55,21 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Chuyển đổi TIFF sang Văn bản trong C# – Trích xuất Văn bản từ Hình ảnh Quét](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Chuyển đổi TIFF sang Văn bản trong C# bằng Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Khám phá cách chuyển đổi tệp TIFF sang văn bản trong C# sử dụng Aspose OCR một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C# đầy đủ](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh](./how-to-use-ocr-in-c-extract-text-from-image/)
+Hướng dẫn từng bước sử dụng OCR trong C# để trích xuất nhanh chóng và chính xác văn bản từ hình ảnh.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ biên lai nhanh chóng](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Hướng dẫn nhanh cách sử dụng OCR trong C# để trích xuất văn bản từ biên lai một cách hiệu quả và nhanh chóng.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn từng bước Aspose OCR](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Cách sử dụng OCR trong C# – Nhận dạng văn bản từ luồng](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản trực tiếp từ luồng dữ liệu một cách nhanh chóng và chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

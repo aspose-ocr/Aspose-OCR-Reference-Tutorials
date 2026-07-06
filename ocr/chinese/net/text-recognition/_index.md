@@ -55,6 +55,21 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [在 C# 中将 TIFF 转换为文本 – 提取扫描图像文字](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+使用 Aspose.OCR 将 TIFF 文件转换为可编辑文本，轻松提取扫描图像中的内容。
+### [在 C# 中使用 Aspose OCR 将 TIFF 转换为文本](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+使用 Aspose OCR 将 TIFF 文件转换为文本，轻松在 C# 中提取内容。
+### [使用 Aspose OCR 从图片识别文本 – 完整 C# 指南](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+全面指南，教您在 C# 中使用 Aspose OCR 从图片中提取文本，实现高精度识别。
+### [在 C# 中使用 OCR – 从图像提取文本](./how-to-use-ocr-in-c-extract-text-from-image/)
+使用 Aspose.OCR 在 C# 中轻松提取图像文字，实现高精度文本识别。
+### [在 C# 中从图像提取文本 – Aspose OCR 步骤指南](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+使用 Aspose OCR 在 C# 中逐步提取图像中的文本，实现高精度识别。
+### [在 C# 中使用 OCR – 快速提取收据文本](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+使用 Aspose.OCR 在 C# 中快速从收据中提取文本，提高处理效率。
+### [在 C# 中使用 OCR – 从流中识别文本](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+使用 Aspose.OCR 在 C# 中从流读取图像并提取文本，提供详细分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

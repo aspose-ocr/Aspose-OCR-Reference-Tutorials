@@ -62,6 +62,8 @@ Sblocca la potenza del riconoscimento OCR delle immagini in .NET con Aspose.OCR.
 Sblocca potenti capacità OCR con Aspose.OCR per .NET. Estrai testo da immagini in modo fluido.
 ### [OCROperation con Lista nel Riconoscimento OCR delle Immagini](./ocr-operation-with-list/)
 Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Aumenta la produttività e l'estrazione dei dati nelle tue applicazioni.
+### [Incorporare i Font in PDF – Creare PDF Ricercabili da JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Scopri come incorporare i font in PDF e trasformare immagini JPEG in PDF ricercabili con Aspose.PDF per .NET.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  
