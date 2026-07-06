@@ -18,7 +18,7 @@ weight: 25
 
 ## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğertenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
@@ -74,6 +74,8 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [Aspose ile Görüntüde OCR Gerçekleştirme – Tam C# Kılavuzu](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Aspose.OCR for .NET kullanarak C# ile görüntüde OCR nasıl yapılır, adım adım tam rehber.
 
 ## Sıkça Sorulan Sorular
 

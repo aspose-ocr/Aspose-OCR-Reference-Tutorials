@@ -55,6 +55,13 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Πώς να αναγνωρίσετε κείμενο από εικόνα σε C# – Πλήρης οδηγός Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Μάθετε βήμα προς βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
+### [Αναγνώριση κειμένου από εικόνα με C# OCR – Πλήρης Παράδειγμα](./recognize-text-from-image-with-c-ocr-complete-example/)
+Μάθετε βήμα προς βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C#, με πλήρη παράδειγμα κώδικα.
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένα Αρχεία – Πλήρης Οδηγός C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
