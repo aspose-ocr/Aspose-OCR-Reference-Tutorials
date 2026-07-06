@@ -59,9 +59,11 @@ Entfesseln Sie das Potenzial von OCR in .NET-Anwendungen mit Aspose.OCR. Lernen 
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 Entfesseln Sie die Leistungsfähigkeit der OCR-Bilderkennung in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus Bildern.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
-Entfesseln Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
+Entfesseln Sie leistungsstarke OCR‑Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR‑Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
+### [Bild für OCR in C# laden – Vollständiger Aspose OCR‑ und Rechtschreibprüfungs‑Leitfaden](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR in C# durch.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  
