@@ -55,6 +55,19 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Πώς να κάνετε OCR Αραβικών σε C# – Οδηγός βήμα προς βήμα](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Μάθετε πώς να αναγνωρίζετε κείμενο Αραβικών σε C# χρησιμοποιώντας το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να χρησιμοποιήσετε το Aspose – Μετατροπή εικόνας σε ePub σε C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αρχεία ePub χρησιμοποιώντας το Aspose σε C#, βήμα‑βήμα οδηγός.
+### [Αναγνώριση κειμένου από PNG – Aspose OCR C# JSON‑L οδηγός](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG σε μορφή JSON‑L χρησιμοποιώντας το Aspose OCR με C#.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνα χρησιμοποιώντας Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με το Aspose OCR σε C#, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Πώς να κάνετε ομαδικό OCR σε C# – Εξαγωγή κειμένου από PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Μάθετε πώς να επεξεργάζεστε πολλαπλές εικόνες PNG με Aspose.OCR σε C#, εξάγοντας κείμενο σε παρτίδες εύκολα.
+### [Αναγνώριση κειμένου από εικόνα σε C# – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose OCR με πλήρη βήμα‑βήμα οδηγό.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

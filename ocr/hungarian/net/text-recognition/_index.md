@@ -55,6 +55,19 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Arab szöveg OCR-olása C#‑ban – Lépésről‑lépésre útmutató](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t arab nyelvű szövegek felismerésére C#‑ban, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose – Kép konvertálása ePub formátumba C#‑ban](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Ismerje meg, hogyan konvertálhat képeket ePub fájlokká C#‑ban az Aspose segítségével, lépésről‑lépésre útmutatóval.
+### [Szöveg felismerése PNG‑ből – Aspose OCR C# JSON‑L útmutató](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Ismerje meg, hogyan olvashat szöveget PNG képekből C#‑ban az Aspose OCR segítségével, és kapja meg az eredményt JSON‑L formátumban.
+### [Szöveg felismerése képről C#‑ban – Teljes Aspose OCR útmutató](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t szöveg kinyerésére képekről C#‑ban, részletes, lépésről‑lépésre útmutatóval.
+### [c# OCR oktatóanyag – Szöveg kinyerése képből az Aspose OCR segítségével](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Ismerje meg, hogyan nyerhet ki szöveget képekről C#‑ban az Aspose OCR használatával, lépésről‑lépésre útmutatóval.
+### [Kötegelt OCR C#‑ban – Szöveg kinyerése PNG‑ből](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Ismerje meg, hogyan végezhet tömeges OCR‑t PNG képeken C#‑ban, és nyerje ki a szöveget hatékonyan JSON‑L formátumban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
