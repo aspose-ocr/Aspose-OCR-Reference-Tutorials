@@ -55,6 +55,19 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [c# OCR příklad – Extrahujte text z obrázků pomocí Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Ukázkový kód v C# ukazuje, jak pomocí Aspose OCR extrahovat text z obrázků ve vašich .NET aplikacích.
+### [Extrahujte text z formuláře pomocí Aspose OCR – krok za krokem](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Ukážkový průvodce, jak pomocí Aspose OCR extrahovat text z formulářů ve vašich .NET aplikacích.
+### [Vytvořte prohledávatelný PDF z obrázku – Kompletní průvodce C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Naučte se pomocí Aspose.OCR v C# vytvořit prohledávatelný PDF soubor z obrázku s podrobným krok za krokem návodem.
+### [Extrahujte text z obrázku v C# – Kompletní průvodce](./extract-text-from-image-in-c-full-guide/)
+Kompletní návod, jak pomocí Aspose OCR v C# extrahovat text z obrázků ve vašich .NET aplikacích.
+### [Jak používat Aspose – Extrahovat text z PDF v C# – Kompletní průvodce](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Kompletní průvodce ukazuje, jak pomocí Aspose v C# extrahovat text z PDF souborů a integrovat jej do vašich .NET aplikací.
+### [Extrahujte text z obrázku v C# – Asynchronní OCR tutoriál](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Naučte se, jak asynchronně extrahovat text z obrázků v C# pomocí Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
