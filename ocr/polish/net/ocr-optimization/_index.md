@@ -53,7 +53,7 @@ Czy jesteś gotowy, aby uruchomić pełny potencjał Aspose.OCR dla .NET? Nasz p
 
 ## Filtry wstępnego przetwarzania obrazu w rozpoznawaniu obrazu OCR
 
-Zwiększony moduł OCR przy użyciu Aspose.OCR dla .NET, eksplorując [filtry wstępnego przetwarzania](./preprocessing-filters-for-image/). Pobierz teraz i odkryj, jak określić dostroić obrazy przed niem. Ten samouczek zapewnia płynną, podnoszącą wydajność i efekty.
+Zwiększony moduł OCR przy użyciem Aspose.OCR dla .NET, eksplorując [filtry wstępnego przetwarzania](./preprocessing-filters-for-image/). Pobierz teraz i odkryj, jak określić dostroić obrazy przed niem. Ten samouczek zapewnia płynną, podnoszącą wydajność i efekty.
 
 ## Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 
@@ -80,6 +80,9 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+
+### [Utwórz logger konsolowy w C# – Pełny przewodnik włączania automatycznego pobierania i korekty tekstu OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Pełny przewodnik tworzenia loggera konsolowego w C#, umożliwiającego automatyczne pobieranie i korektę tekstu OCR.
 
 ## Często zadawane pytania
 
