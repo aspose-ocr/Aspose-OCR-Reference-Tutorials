@@ -74,6 +74,8 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [C#'ta Konsol Günlüğü Oluşturma – OCR Metnini Otomatik İndirme ve Düzeltme İçin Tam Rehber](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Aspose.OCR ile OCR metnini otomatik indirip düzelten bir konsol logger nasıl oluşturulur, adım adım anlatıyoruz.
 
 ## Sıkça Sorulan Sorular
 
