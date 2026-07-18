@@ -77,6 +77,8 @@ Mở khóa việc trích xuất văn bản chính xác từ hình ảnh với As
 Mở khóa sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng văn bản trong tài liệu PDF một cách dễ dàng. Tăng cường ứng dụng của bạn với độ chính xác và tốc độ.
 ### [OCR Nhận dạng Hình ảnh TIFF trong Aspose.OCR cho Java](./recognize-tiff/)
 Mở khóa khả năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Nhận dạng văn bản trong hình ảnh TIFF một cách dễ dàng. Tải xuống ngay để có trải nghiệm OCR liền mạch.
+### [Nhận dạng văn bản từ PNG trong Java – Hướng dẫn Aspose OCR đầy đủ](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Khám phá cách nhận dạng văn bản từ tệp PNG trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
 ### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
 
