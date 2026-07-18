@@ -46,7 +46,7 @@ Que vous travailliez avec des images complexes ou que vous ayez besoin d’une e
 
 ## Performing OCR with Language Selection in Aspose.OCR
 
-La précision est essentielle lorsqu’il s’agit d’extraction de texte, et Aspose.OCR pour Java le comprend parfaitement. Plongez dans le tutoriel Language Selection, où nous vous guidons à travers le processus d’obtention d’un OCR précis en sélectionnant la bonne langue. Suivez nos instructions pas à pas pour garantir que votre extraction de texte répond aux normes les plus élevées.
+La précision est essentielle lorsqu’il s’agit d'extraction de texte, et Aspose.OCR pour Java le comprend parfaitement. Plongez dans le tutoriel Language Selection, où nous vous guidons à travers le processus d’obtention d’un OCR précis en sélectionnant la bonne langue. Suivez nos instructions pas à pas pour garantir que votre extraction de texte répond aux normes les plus élevées.
 
 Qu’il s’agisse de documents multilingues ou d’exigences linguistiques spécifiques, ce tutoriel vous permet d’extraire le texte avec une précision chirurgicale. Dites adieu aux approximations et bonjour à la précision.
 
@@ -81,6 +81,8 @@ Débloquez la puissance de l’OCR en Java avec Aspose.OCR. Reconnaissez le text
 Débloquez une puissante reconnaissance de texte en Java avec Aspose.OCR. Reconnaissez le texte dans les images TIFF sans effort. Téléchargez dès maintenant pour une expérience OCR fluide.
 ### [Reconnaître le texte d'image avec Aspose OCR – Tutoriel complet Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Reconnaître le texte à partir de PNG en Java – Guide complet Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Apprenez à extraire du texte d'images PNG en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 
