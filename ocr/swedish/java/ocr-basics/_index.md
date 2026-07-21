@@ -100,6 +100,8 @@ Lås upp potentialen i Aspose.OCR för Java med denna steg‑för‑steg‑guide
 Förbättra OCR‑noggrannheten med Aspose.OCR för Java. Lär dig beräkna snedvinklar steg för steg. Förbättra dokumentbehandling utan ansträngning.
 ### [Hämta rektanglar med textområden i Aspose.OCR](./get-rectangles-with-text-areas/)
 Lås upp kraften i Aspose.OCR för Java. Lär dig hur du extraherar text från bilder sömlöst i denna steg‑för‑steg‑guide. Ladda ner nu för effektiv textigenkänning.
+### [Extrahera text från bild i Java – Komplett OCR‑guide](./extract-text-from-image-in-java-complete-ocr-guide/)
+En fullständig guide för att extrahera text från bilder i Java med Aspose.OCR, steg för steg med kodexempel.
 
 ---
 
