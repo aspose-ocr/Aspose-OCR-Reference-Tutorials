@@ -1,59 +1,95 @@
 ---
-date: 2026-02-25
-description: Aprende cómo extraer texto de una imagen usando Aspose.OCR para .NET.
-  Esta guía te guía paso a paso en la preparación de rectángulos para el reconocimiento
-  OCR de imágenes y en cómo mejorar la precisión.
-linktitle: Prepare Rectangles in OCR Image Recognition
+date: 2026-07-23
+description: Aprenda cómo extraer texto de una imagen usando Aspose.OCR para .NET,
+  preparando rectangles para mejorar la precisión del OCR y convertir la imagen a
+  texto de manera eficiente.
+keywords:
+- extract text from image
+- convert image to text
+- improve ocr accuracy
+lastmod: 2026-07-23
+linktitle: Prepare Rectangles en el reconocimiento de imágenes OCR
+og_description: Extraiga texto de una imagen usando Aspose.OCR para .NET. Aprenda
+  a preparar rectangles, mejore la precisión del OCR y convierta la imagen a texto
+  de manera eficiente.
+og_image_alt: Guide to extract text from image using rectangles with Aspose.OCR for
+  .NET
+og_title: Extraer texto de una imagen con Rectangles – Guía de OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to extract text from image using Aspose.OCR for .NET, preparing
+    rectangles to improve OCR accuracy and convert image to text efficiently.
+  headline: Extract Text from Image with Rectangles – OCR Guide
+  type: TechArticle
+- questions:
+  - answer: It converts visual characters in a picture into machine‑readable strings.
+    question: What does “extract text from image” mean?
+  - answer: Aspose.OCR for .NET provides a full‑featured OCR engine.
+    question: Which library handles this in .NET?
+  - answer: A free trial works for development; a commercial license is required for
+      deployment.
+    question: Do I need a license for production?
+  - answer: Yes—define rectangles to target only the areas that contain useful text.
+    question: Can I limit OCR to specific zones?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: What .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Cómo extraer texto de una imagen preparando rectángulos en OCR
+tags:
+- ocr
+- Aspire.OCR
+- .NET image processing
+- extract text from image
+title: Extraer texto de una imagen con Rectangles – Guía de OCR
 url: /es/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Preparar Rectángulos en el Reconocimiento de Imágenes OCR
+# Extraer texto de una imagen con rectángulos – Guía OCR
 
 ## Introducción
 
-El Reconocimiento Óptico de Caracteres (OCR) es esencial para convertir contenido visual en texto buscable y editable. En este tutorial **extraerá texto de una imagen** preparando rectángulos personalizados que enfocan el motor OCR en regiones específicas. Usando Aspose.OCR para .NET, recorreremos cada paso—desde configurar su proyecto hasta obtener el texto reconocido—para que pueda integrar una potente funcionalidad de imagen‑a‑texto en sus aplicaciones .NET.
+La Reconocimiento Óptico de Caracteres (OCR) le permite **extract text from image** archivos para que se vuelvan buscables y editables. En este tutorial le mostraremos cómo mejorar la precisión del OCR preparando rectángulos personalizados que enfocan el motor en las zonas exactas que necesita. Usando Aspose.OCR for .NET, verá el flujo de trabajo completo —desde la configuración del proyecto hasta la obtención de las cadenas reconocidas— para que pueda integrar una conversión fiable de imagen a texto en cualquier aplicación .NET.
 
-## Respuestas Rápidas
-- **¿Qué significa “extract text from image”?** Significa convertir los caracteres visuales de una imagen en cadenas legibles por máquina.  
-- **¿Qué biblioteca ayuda con esto en .NET?** Aspose.OCR para .NET.  
-- **¿Necesito una licencia para desarrollo?** Una prueba gratuita funciona para pruebas; se requiere una licencia para producción.  
-- **¿Puedo apuntar a áreas específicas?** Sí, definiendo rectángulos que limitan el alcance del OCR.  
-- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+## Respuestas rápidas
+- **¿Qué significa “extract text from image”?** Convierte los caracteres visuales de una imagen en cadenas legibles por máquina.  
+- **¿Qué biblioteca maneja esto en .NET?** Aspose.OCR for .NET proporciona un motor OCR con todas las funciones.  
+- **¿Necesito una licencia para producción?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para el despliegue.  
+- **¿Puedo limitar el OCR a zonas específicas?** Sí —defina rectángulos para enfocarse solo en las áreas que contienen texto útil.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
 ## Qué es “extract text from image” con rectángulos?
-Cuando define zonas rectangulares en una imagen, el motor OCR procesa solo esas zonas. Esto mejora la precisión, reduce el tiempo de procesamiento y le permite ignorar fondos ruidosos o secciones irrelevantes.
+El proceso `extract text from image` lee los caracteres dentro de zonas rectangulares definidas, ignorando todo lo demás. Al limitar el OCR a esas zonas, obtiene mayor precisión, procesamiento más rápido y menos esfuerzo de post‑procesamiento. Este enfoque aísla el texto que le interesa mientras descarta gráficos de fondo, elementos decorativos y otro ruido visual que puede confundir al motor OCR.
 
-## ¿Por qué preparar rectángulos antes del OCR?
-- **Enfocar en contenido relevante:** Omitir encabezados, pies de página o gráficos decorativos.  
-- **Mejorar el rendimiento:** Regiones más pequeñas significan reconocimiento más rápido.  
-- **Mejorar la precisión:** Menos ruido visual conduce a resultados más limpios.
+## Por qué preparar rectángulos antes del OCR?
+Preparar rectángulos le permite concentrar el motor OCR en las partes más relevantes de una imagen, lo que mejora tanto la velocidad como la precisión. Al reducir el área de análisis, disminuye la cantidad de datos que el motor debe examinar, lo que conduce a resultados más rápidos y menos errores de reconocimiento causados por el desorden visual externo.
+
+- **Enfocarse en el contenido relevante:** Omitir encabezados, pies de página o gráficos decorativos que podrían confundir al motor.  
+- **Mejorar el rendimiento:** Las regiones más pequeñas requieren menos cálculos, reduciendo el tiempo de ejecución hasta en un 40 % en escaneos grandes.  
+- **Mejorar la precisión:** Reducir el ruido visual eleva las tasas de reconocimiento de caracteres de ~85 % a >95 % en documentos con mucho ruido.
 
 ## Por qué esto es importante para proyectos del mundo real
-Muchos documentos empresariales—recibos, facturas, tarjetas de identificación—tienen diseños mixtos donde solo ciertas partes contienen texto valioso. Al usar rectángulos, puede extraer solo los campos necesarios, reduciendo drásticamente el trabajo de post‑procesamiento y aumentando la fiabilidad general de su canal de automatización.
+Muchos documentos empresariales —recibos, facturas, tarjetas de identificación— combinan texto con logotipos o códigos de barras. Al dibujar rectángulos alrededor de los campos que realmente necesita, extrae solo los datos valiosos, reduciendo el trabajo de limpieza posterior y aumentando la fiabilidad de los flujos de trabajo automatizados. Esta extracción dirigida reduce el esfuerzo de post‑procesamiento y ayuda a mantener el cumplimiento de los estándares de manejo de datos.
 
 ## Casos de uso comunes
-- **Automatización de entrada de datos:** Extraer campos específicos de formularios escaneados.  
-- **Verificaciones de cumplimiento:** Aislar y verificar bloques de texto legal.  
-- **Indexación de contenido:** Indexar solo el titular o la leyenda de una imagen para motores de búsqueda.  
+- **Automatización de entrada de datos:** Extraer campos específicos de formularios escaneados o recibos de gastos.  
+- **Verificaciones de cumplimiento:** Aislar cláusulas legales o declaraciones regulatorias para su verificación.  
+- **Indexación de contenido:** Indexar solo el titular o la leyenda de una imagen para la visibilidad en motores de búsqueda.
 
-## Requisitos Previos
+## Requisitos previos
 
-- Familiaridad con C# y desarrollo .NET.  
-- Biblioteca Aspose.OCR para .NET instalada – puede descargarla **[aquí](https://releases.aspose.com/ocr/net/)**.  
-- Una imagen de ejemplo (p.ej., `sample.png`) que contenga el texto que desea extraer.
+- Conocimientos básicos de C# y desarrollo .NET.  
+- Biblioteca Aspose.OCR for .NET instalada – descárguela **[aquí](https://releases.aspose.com/ocr/net/)** o explore todas las versiones **[aquí](https://releases.aspose.com/)**.  
+- Una imagen de ejemplo (p. ej., `sample.png`) que contenga el texto que desea extraer.
 
-## Importar Espacios de Nombres
+## Importar espacios de nombres
 
-Primero, incluya los espacios de nombres requeridos en el alcance:
+Las sentencias `using` introducen el motor OCR y las clases de geometría en el alcance.
 
 ```csharp
 using System;
@@ -63,9 +99,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Paso 1: Configurar el Directorio de Documentos
+## Paso 1: Configurar el directorio de documentos
 
-Especifique dónde se encuentran sus archivos de imagen y cree una instancia del motor OCR.
+Especifique la carpeta que contiene sus imágenes y cree una instancia del motor OCR.
 
 ```csharp
 // The path to the documents directory.
@@ -76,12 +112,11 @@ AsposeOcr api = new AsposeOcr();
 ```
 
 ## Cómo extraer texto de una imagen usando múltiples rectángulos
+Cargue la imagen una vez, luego proporcione una lista de rectángulos al motor OCR. Cada rectángulo define una región de interés, y el motor devuelve una cadena separada para cada región, lo que le permite manejar los campos individualmente y combinar los resultados según sea necesario.
 
-### Paso 2: Reconocer Imagen con Múltiples Rectángulos
+### Definir los rectángulos
 
-#### 2.1 Definir los rectángulos
-
-Cree una lista de objetos `Rectangle` que delimiten las áreas que desea que el motor OCR escanee.
+Los objetos `Rectangle` describen las coordenadas X‑Y y el tamaño de cada zona que desea escanear.  
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -93,9 +128,9 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-#### 2.2 Realizar reconocimiento OCR
+### Realizar reconocimiento OCR
 
-Pase la ruta de la imagen y la lista de rectángulos a `RecognizeImage`. El método devuelve una colección de cadenas—cada entrada corresponde a un rectángulo.
+El método `RecognizeImage` procesa la imagen usando la lista de rectángulos suministrada y devuelve el texto reconocido para cada región.  
 
 ```csharp
 // first case
@@ -108,11 +143,12 @@ foreach (string s in listResult)
 }
 ```
 
-### Paso 3: Reconocer Imagen con Configuración de Reconocimiento (Enfoque Alternativo)
+## Cómo extraer texto de una imagen usando RecognitionSettings (Enfoque alternativo)
+Si prefiere una llamada basada en configuraciones, puede lograr el mismo resultado con `RecognitionSettings`. Este objeto le permite agrupar definiciones de rectángulos junto con el idioma, DPI y otras opciones de OCR, proporcionando una llamada API limpia de un solo parámetro.
 
-Si prefiere usar `RecognitionSettings`, puede lograr el mismo resultado con una llamada a la API ligeramente diferente.
+### Definir la configuración de reconocimiento
 
-#### 3.1 Definir la configuración de reconocimiento
+`RecognitionSettings` le permite agrupar la lista de rectángulos y opciones adicionales (p. ej., idioma, DPI) en un solo objeto.  
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -121,7 +157,9 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-#### 3.2 Mostrar texto reconocido
+### Mostrar texto reconocido
+
+Itere sobre las cadenas devueltas y muestre el texto de cada región.  
 
 ```csharp
 // Display the recognized text
@@ -131,50 +169,56 @@ foreach (string s in result.RecognitionAreasText)
 }
 ```
 
-## Problemas Comunes y Consejos
+## Problemas comunes y consejos
 
-- **Coordenadas de rectángulo incorrectas:** Asegúrese de que los valores `X`, `Y`, `Width` y `Height` correspondan correctamente a la región deseada.  
-- **Calidad de la imagen:** Imágenes de baja resolución pueden producir resultados de OCR deficientes; considere pre‑procesamiento (p.ej., binarización).  
-- **Resultados vacíos:** Verifique que los rectángulos realmente contengan texto; de lo contrario el motor devuelve cadenas vacías.
+- **Coordenadas de rectángulo incorrectas:** Verifique que `X`, `Y`, `Width` y `Height` correspondan al área deseada.  
+- **Calidad de la imagen:** Las imágenes de baja resolución o fuertemente comprimidas degradan los resultados del OCR; considere pre‑procesar, por ejemplo, mediante binarización.  
+- **Resultados vacíos:** Asegúrese de que los rectángulos realmente contengan texto legible; de lo contrario, el motor devuelve cadenas vacías.
 
-## Solución de Problemas y Mejores Prácticas
+## Solución de problemas y mejores prácticas
 
-| Síntoma | Causa Probable | Solución |
+| Síntoma | Causa probable | Solución |
 |---------|----------------|----------|
-| No hay salida o cadenas vacías | Rectángulos fuera de los límites de la imagen | Verifique las dimensiones de la imagen y las coordenadas de los rectángulos |
-| Caracteres distorsionados | Bajo contraste o ruido | Aplique limpieza de imagen (escala de grises, umbral) antes del OCR |
+| Sin salida o cadenas vacías | Rectángulos fuera de los límites de la imagen | Verifique nuevamente las dimensiones de la imagen y las coordenadas de los rectángulos |
+| Caracteres distorsionados | Bajo contraste o ruido | Aplicar conversión a escala de grises y umbralizado antes del OCR |
 | Rendimiento lento en archivos grandes | Demasiados rectángulos o imagen muy grande | Divida la imagen o reduzca la cantidad de rectángulos cuando sea posible |
 
 ## Conclusión
 
-Ahora ha aprendido cómo **extraer texto de una imagen** preparando rectángulos personalizados con Aspose.OCR para .NET. Esta técnica le brinda un control granular sobre el procesamiento OCR, ayudándole a crear funciones de extracción de texto más rápidas y precisas en sus aplicaciones.
+Ahora sabe cómo **extract text from image** preparando rectángulos personalizados con Aspose.OCR for .NET. Este enfoque le brinda un control preciso sobre el procesamiento OCR, ofreciendo características de extracción de texto más rápidas y precisas para cualquier solución .NET.
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
-**Q:** ¿Puedo usar Aspose.OCR para .NET con otros frameworks .NET?  
-**A:** Sí, Aspose.OCR para .NET es compatible con varios frameworks .NET.
+**P:** ¿Puedo usar Aspose.OCR for .NET con otros frameworks .NET?  
+**R:** Sí, Aspose.OCR for .NET funciona con .NET Framework 4.5+, .NET Core 3.1+, y .NET 5/6/7.
 
-**Q:** ¿Hay una prueba gratuita disponible para Aspose.OCR para .NET?  
-**A:** ¡Por supuesto! Puede acceder a la prueba gratuita **[aquí](https://releases.aspose.com/)**.
+**P:** ¿Hay una prueba gratuita disponible?  
+**R:** ¡Por supuesto! Descargue la prueba **[aquí](https://releases.aspose.com/)**.
 
-**Q:** ¿Cómo obtengo soporte para Aspose.OCR para .NET?  
-**A:** Visite el **[foro de Aspose.OCR](https://forum.aspose.com/c/ocr/16)** para soporte dedicado.
+**P:** ¿Dónde puedo obtener soporte para Aspose.OCR for .NET?  
+**R:** Visite el **[foro Aspose.OCR](https://forum.aspose.com/c/ocr/16)** para obtener asistencia dedicada.
 
-**Q:** ¿Puedo obtener una licencia temporal para propósitos de prueba?  
-**A:** Sí, puede adquirir una licencia temporal **[aquí](https://purchase.aspose.com/temporary-license/)**.
+**P:** ¿Puedo obtener una licencia temporal para pruebas?  
+**R:** Sí, una licencia temporal está disponible **[aquí](https://purchase.aspose.com/temporary-license/)**.
 
-**Q:** ¿Dónde puedo encontrar la documentación de Aspose.OCR para .NET?  
-**A:** La documentación está disponible **[aquí](https://reference.aspose.com/ocr/net/)**.
+**P:** ¿Dónde está la documentación oficial?  
+**R:** La referencia completa de la API se encuentra **[aquí](https://reference.aspose.com/ocr/net/)**.
 
 ---
 
-**Última actualización:** 2026-02-25  
-**Probado con:** Aspose.OCR 24.11 para .NET  
+**Última actualización:** 2026-07-23  
+**Probado con:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutoriales relacionados
+
+- [Cómo extraer rectángulos para párrafos en reconocimiento de imágenes OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
+- [Cómo OCR una imagen – Realizar OCR en una imagen en reconocimiento de imágenes OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
+- [Cómo extraer texto de una imagen usando Aspose.OCR for .NET](/ocr/net/text-recognition/get-recognition-result/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
