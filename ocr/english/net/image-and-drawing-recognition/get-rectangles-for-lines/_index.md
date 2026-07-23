@@ -1,6 +1,6 @@
 ---
-title: Layout Analysis OCR – Get Line Rectangles from Images
-linktitle: Layout Analysis OCR – Get Line Rectangles from Images
+title: Extract Line Rectangles from Images with Aspose.OCR for .NET
+linktitle: Extract Line Rectangles from Images with Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
 description: Learn how to perform layout analysis OCR by recognizing text lines in an image and extracting line rectangles using Aspose.OCR for .NET.
 weight: 10
@@ -12,7 +12,7 @@ date: 2026-02-22
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Layout Analysis OCR – Get Line Rectangles from Images
+# Extract Line Rectangles from Images with Aspose.OCR for .NET
 
 ## Introduction
 

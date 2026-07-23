@@ -1,5 +1,5 @@
 ---
-title: "How to OCR Image – Perform OCR on Image in OCR Image Recognition"
+title: "Perform OCR on Images with Aspose.OCR for .NET – Convert Image to Text"
 linktitle: Perform OCR on Image in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: "Learn how to OCR image and extract image text with Aspose.OCR for .NET. This step‑by‑step guide shows you how to convert image to text quickly."

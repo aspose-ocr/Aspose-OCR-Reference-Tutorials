@@ -1,5 +1,5 @@
 ---
-title: "How to extract text from png using OCR without Text Area Detection"
+title: "How to extract text from images without text area detection"
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: "Learn how to extract text from png images with Aspose.OCR for .NET and also how to convert pdf to image for ocr in a simple step‑by‑step guide."
@@ -12,7 +12,7 @@ url: /net/image-and-drawing-recognition/recognize-image-without-text-area-detect
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to extract text from png using OCR without Text Area Detection
+# How to extract text from images without text area detection
 
 ## Introduction
 

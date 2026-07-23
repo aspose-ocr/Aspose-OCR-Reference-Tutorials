@@ -1,6 +1,6 @@
 ---
-title: Extract Text from Image – Recognize Line with Aspose.OCR
-linktitle: Extract Text from Image – Recognize Line with Aspose.OCR
+title: Line Recognition in Images
+linktitle: Line Recognition in Images
 second_title: Aspose.OCR .NET API
 description: Learn how to extract text from image using Aspose.OCR for .NET, convert PNG to text, and improve OCR accuracy in C# applications.
 weight: 14

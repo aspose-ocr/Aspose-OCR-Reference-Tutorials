@@ -1,5 +1,5 @@
 ---
-title: Convert Image to Coordinates: Extract Paragraph Rectangles
+title: 'Aspose.OCR for .NET – Convert Image to Coordinates and Extract Paragraph Rectangles'
 linktitle: Get Rectangles for Paragraphs in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: Learn how to convert image to coordinates and extract paragraph rectangles using Aspose.OCR for .NET – the go‑to guide for OCR paragraph detection and rectangle extraction.
