@@ -62,6 +62,8 @@ Desbloqueie o poder do reconhecimento de imagens OCR em .NET com Aspose.OCR. Ext
 Desbloqueie recursos poderosos de OCR com Aspose.OCR para .NET. Extraia texto de imagens de forma contínua.
 ### [OCROperation com Lista em Reconhecimento de Imagens OCR](./ocr-operation-with-list/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Realize reconhecimento de imagens OCR com listas de forma simples. Aumente a produtividade e a extração de dados em suas aplicações.
+### [Criar Processador de Verificação Ortográfica com Aspose OCR AI – Guia Completo](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aprenda a criar um processador de verificação ortográfica usando a IA do Aspose OCR, integrando reconhecimento de texto avançado em suas aplicações.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

@@ -62,6 +62,8 @@ Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Łatwo wyodręb
 Uzyskaj potężne możliwości OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów w różnych językach.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Wykorzystaj potencjał Aspose.OCR dla .NET. Łatwo wykonuj rozpoznawanie obrazu OCR przy użyciu list. Zwiększ produktywność i wyodrębnianie danych w swoich aplikacjach.
+### [Utwórz procesor sprawdzania pisowni z Aspose OCR AI – Pełny przewodnik](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Pełny przewodnik tworzenia procesora sprawdzania pisowni przy użyciu Aspose OCR AI.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

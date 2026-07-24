@@ -62,6 +62,8 @@ Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extra
 Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Vytvoření procesoru pro kontrolu pravopisu s Aspose OCR AI – kompletní průvodce](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Kompletní průvodce vytvořením procesoru pro kontrolu pravopisu pomocí Aspose OCR AI.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  
