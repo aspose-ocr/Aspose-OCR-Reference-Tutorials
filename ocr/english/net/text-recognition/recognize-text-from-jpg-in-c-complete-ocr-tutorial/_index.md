@@ -14,12 +14,12 @@ language: en
 og_description: Recognize text from JPG using C#. This guide shows how to extract
   text from image, convert image to text, and load image for OCR with a full code
   sample.
-og_title: Recognize Text from JPG in C# – Complete OCR Tutorial
+og_title: Recognize Text from JPG in C# with Aspose.OCR – Complete OCR Tutorial
 tags:
 - OCR
 - C#
 - Image Processing
-title: Recognize Text from JPG in C# – Complete OCR Tutorial
+title: Recognize Text from JPG in C# with Aspose.OCR – Complete OCR Tutorial
 url: /net/text-recognition/recognize-text-from-jpg-in-c-complete-ocr-tutorial/
 ---
 

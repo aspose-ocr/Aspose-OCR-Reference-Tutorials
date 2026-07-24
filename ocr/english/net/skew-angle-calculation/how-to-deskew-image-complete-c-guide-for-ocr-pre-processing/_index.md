@@ -13,12 +13,12 @@ keywords:
 language: en
 og_description: How to deskew image and boost OCR accuracy. Follow this guide to remove
   background, preprocess image for OCR and recognize text from image using Aspose.
-og_title: How to Deskew Image – C# OCR Pre‑processing Tutorial
+og_title: How to Deskew Image with Aspose OCR – C# OCR Pre‑processing Tutorial
 tags:
 - Aspose OCR
 - C#
 - Image preprocessing
-title: How to Deskew Image – Complete C# Guide for OCR Pre‑processing
+title: How to Deskew Image with Aspose OCR – Complete C# Guide for OCR Pre‑processing
 url: /net/skew-angle-calculation/how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/
 ---
 

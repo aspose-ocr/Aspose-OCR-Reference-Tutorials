@@ -12,12 +12,12 @@ keywords:
 language: en
 og_description: c# ocr tutorial that walks you through recognizing text from jpg,
   performing OCR on image, and loading image for OCR with Aspose.OCR.
-og_title: c# ocr tutorial – Recognize Text from JPG Fast
+og_title: c# OCR tutorial – Recognize Text from JPG with Aspose.OCR Fast
 tags:
 - OCR
 - C#
 - Aspose
-title: c# ocr tutorial – Recognize Text from JPG in Minutes
+title: c# OCR tutorial – Recognize Text from JPG with Aspose.OCR in Minutes
 url: /net/text-recognition/c-ocr-tutorial-recognize-text-from-jpg-in-minutes/
 ---
 
@@ -25,7 +25,7 @@ url: /net/text-recognition/c-ocr-tutorial-recognize-text-from-jpg-in-minutes/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# ocr tutorial – Recognize Text from JPG in Minutes
+# c# OCR tutorial – Recognize Text from JPG with Aspose.OCR in Minutes
 
 Ever needed a **c# ocr tutorial** that actually gets you from zero to reading text in a JPEG file? You're not alone. Whether you're building a passport scanner, a receipt logger, or just curious about extracting words from pictures, this guide shows you exactly how to **recognize text from jpg** using Aspose.OCR.  
 

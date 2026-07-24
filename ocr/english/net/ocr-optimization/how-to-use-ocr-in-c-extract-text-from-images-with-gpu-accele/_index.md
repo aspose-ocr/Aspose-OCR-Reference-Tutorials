@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: How to use OCR in C# to extract text from images, display character
   count, and accelerate processing with GPU using Aspose OCR.
-og_title: How to Use OCR in C# – Fast Text Extraction with GPU
+og_title: How to Use Aspose OCR in C# – Fast Text Extraction with GPU
 tags:
 - OCR
 - C#
 - Aspose
 - GPU
-title: How to Use OCR in C# – Extract Text from Images with GPU Acceleration
+title: How to Use Aspose OCR in C# – Extract Text from Images with GPU Acceleration
 url: /net/ocr-optimization/how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/
 ---
 
@@ -83,7 +83,7 @@ namespace AsposeOcrDemo
         static void Main(string[] args)
         {
             // Call the helper that does the heavy lifting
-            RunOcr(@"YOUR_DIRECTORY/large_scanned_page.tif");
+            RunOcr(@"C:\Scans\large_scanned_page.tif");
         }
 
         static void RunOcr(string imagePath)
@@ -172,8 +172,9 @@ static void DisplayResult(OcrResult ocrResult)
 ✅ GPU acceleration enabled.
 🖋️ Extracted 12,345 characters in 842 ms
 ----- Begin OCR Text -----
-Lorem ipsum dolor sit amet, consectetur...
-... (rest of the page) ...
+The quick brown fox jumps over the lazy dog.
+This is a sample line of extracted text from the scanned document.
+... (additional lines) ...
 ------ End OCR Text ------
 ```
 
@@ -232,7 +233,7 @@ namespace AsposeOcrDemo
         static void Main(string[] args)
         {
             // Adjust the path to point at your scanned TIFF or JPEG
-            RunOcr(@"YOUR_DIRECTORY/large_scanned_page.tif");
+            RunOcr(@"C:\Scans\large_scanned_page.tif");
         }
 
         static void RunOcr(string imagePath)

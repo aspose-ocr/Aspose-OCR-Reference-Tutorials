@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: Create searchable pdf from scanned images using Aspose OCR batch processing.
   Learn to convert images to pdf, preprocess images for OCR, and deskew scanned documents.
-og_title: Create searchable pdf with batch OCR – C# Guide
+og_title: How to Create Searchable PDF with Aspose OCR Batch Processing – C# Guide
 tags:
 - OCR
 - C#
 - PDF/A
 - Aspose
-title: Create searchable pdf with batch OCR – C# Guide
+title: How to Create Searchable PDF with Aspose OCR Batch Processing – C# Guide
 url: /net/ocr-optimization/create-searchable-pdf-with-batch-ocr-c-guide/
 ---
 
@@ -27,7 +27,7 @@ url: /net/ocr-optimization/create-searchable-pdf-with-batch-ocr-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create searchable pdf with batch OCR – C# Guide
+# How to Create Searchable PDF with Aspose OCR Batch Processing – C# Guide
 
 Ever needed to **create searchable pdf** files from a mountain of scanned images but felt stuck at the first step? You're not alone—most developers hit the same wall when dealing with messy scans, uneven pages, or just plain old bulk conversion.  
 

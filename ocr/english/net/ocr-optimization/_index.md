@@ -63,6 +63,7 @@ Using Aspose.OCR For .NET Tutorials Listing, you can access additional resources
 
 ## OCR Optimization Tutorials
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from images with precision.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)

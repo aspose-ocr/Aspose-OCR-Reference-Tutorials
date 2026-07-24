@@ -19,7 +19,7 @@ tags:
 - C#
 - DOCX
 - Image Processing
-title: Convert Image to DOCX in C# – Complete Aspose OCR Guide
+title: Convert Image to DOCX in C# with Aspose OCR – Complete Guide
 url: /net/text-recognition/convert-image-to-docx-in-c-complete-aspose-ocr-guide/
 ---
 
