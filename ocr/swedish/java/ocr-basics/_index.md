@@ -96,10 +96,15 @@ Kom ihåg, resan slutar inte här—Aspose.OCR erbjuder avancerade funktioner so
 ## OCR‑grunder handledningar
 ### [Hur man sätter licens för Aspose.OCR i Java](./set-license/)
 Lås upp potentialen i Aspose.OCR för Java med denna steg‑för‑steg‑guide. Ställ in din licens enkelt och förbättra dina OCR‑möjligheter.
+
 ### [Beräkna snedvinkel i Aspose.OCR för Java](./calculate-skew-angle/)
 Förbättra OCR‑noggrannheten med Aspose.OCR för Java. Lär dig beräkna snedvinklar steg för steg. Förbättra dokumentbehandling utan ansträngning.
+
 ### [Hämta rektanglar med textområden i Aspose.OCR](./get-rectangles-with-text-areas/)
 Lås upp kraften i Aspose.OCR för Java. Lär dig hur du extraherar text från bilder sömlöst i denna steg‑för‑steg‑guide. Ladda ner nu för effektiv textigenkänning.
+
+### [Utför OCR på bild i Java – Extrahera text från JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Lär dig hur du använder Aspose.OCR för Java för att läsa text från JPG‑bilder med enkla kodexempel.
 
 ---
 
