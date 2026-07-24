@@ -18,7 +18,7 @@ tags:
 - OCR
 - C#
 - PDF processing
-title: How to OCR PDF in C# – Step‑by‑Step Guide
+title: Implement OCR on PDF in C# with Aspose.OCR – Step‑by‑Step Guide
 url: /net/text-recognition/how-to-ocr-pdf-in-c-step-by-step-guide/
 ---
 
@@ -26,7 +26,7 @@ url: /net/text-recognition/how-to-ocr-pdf-in-c-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to OCR PDF in C# – Step‑by‑Step Guide
+# Implement OCR on PDF in C# with Aspose.OCR – Step‑by‑Step Guide
 
 Ever wondered **how to OCR PDF** files right from your C# application? Maybe you have a stack of scanned invoices and you need to pull the text out without manual copy‑pasting. That's a common pain point, especially when the PDFs are image‑based and traditional text extraction fails.  
 

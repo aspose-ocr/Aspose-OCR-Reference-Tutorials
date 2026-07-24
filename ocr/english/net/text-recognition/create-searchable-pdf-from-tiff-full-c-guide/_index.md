@@ -19,7 +19,7 @@ tags:
 - C#
 - PDF/A
 - Document Automation
-title: Create Searchable PDF from TIFF – Full C# Guide
+title: Create Searchable PDF from TIFF with Aspose OCR – Full C# Guide
 url: /net/text-recognition/create-searchable-pdf-from-tiff-full-c-guide/
 ---
 
@@ -27,7 +27,7 @@ url: /net/text-recognition/create-searchable-pdf-from-tiff-full-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF from TIFF – Full C# Guide
+# Create Searchable PDF from TIFF with Aspose OCR – Full C# Guide
 
 Ever needed to **create searchable PDF** from a scanned TIFF but weren’t sure where to start? You’re not alone—many developers hit that wall when they need a PDF/A‑2b document that can be indexed by search engines. In this tutorial we’ll walk through the exact code you need, explain why each line matters, and show you how to **convert tiff to pdf** without losing any text.
 

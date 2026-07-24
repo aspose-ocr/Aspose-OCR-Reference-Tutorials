@@ -13,12 +13,12 @@ keywords:
 language: en
 og_description: Convert images to text with Aspose OCR in C#. This guide shows batch
   OCR processing, extracting text from images, and saving OCR as text.
-og_title: Convert Images to Text – Step‑by‑Step Batch OCR Tutorial
+og_title: Convert Images to Text with Aspose OCR – Step‑by‑Step Batch OCR Tutorial
 tags:
 - OCR
 - C#
 - Aspose
-title: Convert Images to Text – Complete Batch OCR Guide for C# Developers
+title: Convert Images to Text with Aspose OCR – Complete Batch OCR Guide for C# Developers
 url: /net/text-recognition/convert-images-to-text-complete-batch-ocr-guide-for-c-develo/
 ---
 
@@ -26,7 +26,7 @@ url: /net/text-recognition/convert-images-to-text-complete-batch-ocr-guide-for-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert Images to Text – Complete Batch OCR Guide for C# Developers
+# Convert Images to Text with Aspose OCR – Complete Batch OCR Guide for C# Developers
 
 Ever needed to **convert images to text** but felt stuck at the “how do I process a whole folder?” question? You’re not alone. In many real‑world projects—think invoice digitization, receipt archiving, or even scanning handwritten notes—developers must **extract text from images** en masse, not one file at a time.  
 

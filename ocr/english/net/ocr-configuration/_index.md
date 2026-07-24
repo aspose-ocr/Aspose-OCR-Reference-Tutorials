@@ -1,6 +1,6 @@
 ---
-title: OCR Configuration
-linktitle: OCR Configuration
+title: Configure OCR with Aspose.OCR for .NET
+linktitle: Configure OCR with Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
 description: Effortlessly enhance your .NET applications with Aspose.OCR. Explore OCR configuration tutorials, including archive, folder, language selection and list operations.
 weight: 24
@@ -17,6 +17,18 @@ url: /net/ocr-configuration/
 
 Embark on a journey to harness the full potential of Optical Character Recognition (OCR) in .NET applications with Aspose.OCR. Whether you're a seasoned developer or a newcomer to OCR, these tutorials will guide you through various OCR operations, ensuring you unlock the power of text extraction effortlessly.
 
+```csharp
+using Aspose.OCR;
+using System;
+
+var ocrEngine = new OcrEngine();
+ocrEngine.Language = Language.Load("eng");
+ocrEngine.Image = ImageStream.FromFile("sample.png");
+
+var result = ocrEngine.Process();
+Console.WriteLine(result.Text);
+```
+
 ## OCROperation with Archive in OCR Image Recognition
 Dive into the world of OCR with Aspose.OCR and discover how to extract text from archive images step by step. This tutorial provides comprehensive insights into leveraging OCR capabilities within .NET applications. From installation to implementation, unravel the magic of text extraction.
 
@@ -31,15 +43,15 @@ Explore the vast potential of Aspose.OCR for .NET as you effortlessly perform OC
 
 In conclusion, these OCR configuration tutorials offer a holistic understanding of Aspose.OCR for .NET. Whether you're working with archive images, folders, language selection, or lists, these step-by-step guides ensure you harness the full potential of OCR, elevating your application's text extraction capabilities. Dive in, explore, and unlock the OCR magic with Aspose.OCR!
 ## OCR Configuration Tutorials
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
+### [OCROperation with Archive in OCR Image Recognition]({{< relref "ocr-operation-with-archive/_index.md" >}})
 Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extract text from archive images step-by-step.
-### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
+### [OCROperation with Folder in OCR Image Recognition]({{< relref "ocr-operation-with-folder/_index.md" >}})
 Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text effortlessly from images.
-### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
+### [OCROperation with Language Selection in OCR Image Recognition]({{< relref "ocr-operation-with-language-selection/_index.md" >}})
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
-### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
+### [OCROperation with List in OCR Image Recognition]({{< relref "ocr-operation-with-list/_index.md" >}})
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
-### [extract russian text & set resource path in C# – Aspose OCR guide](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+### [extract russian text & set resource path in C# – Aspose OCR guide]({{< relref "extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/_index.md" >}})
 Extract Russian text and set resource path in C# using Aspose OCR for .NET applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

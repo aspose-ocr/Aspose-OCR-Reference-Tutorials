@@ -19,7 +19,7 @@ tags:
 - OCR
 - C#
 - Image Processing
-title: How to Use Aspose OCR in C# – Recognize Korean Text from Images
+title: How to Use Aspose OCR API in C# – Recognize Korean Text from Images
 url: /net/text-recognition/how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/
 ---
 
