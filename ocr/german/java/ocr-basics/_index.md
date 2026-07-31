@@ -104,6 +104,9 @@ Steigern Sie die OCR‑Genauigkeit mit Aspose.OCR für Java. Lernen Sie, Schräg
 ### [Rechtecke mit Textbereichen in Aspose.OCR erhalten](./get-rectangles-with-text-areas/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.OCR für Java. Lernen Sie, Text aus Bildern nahtlos zu extrahieren in diesem Schritt‑für‑Schritt‑Leitfaden. Jetzt herunterladen für effiziente Texterkennung.
 
+### [Textbild in Java erkennen – Vollständiger Aspose OCR Leitfaden](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Ein umfassender Leitfaden zur Texterkennung in Bildern mit Aspose.OCR für Java, von Einrichtung bis Optimierung.
+
 ---
 
 **Last Updated:** 2025-12-08  

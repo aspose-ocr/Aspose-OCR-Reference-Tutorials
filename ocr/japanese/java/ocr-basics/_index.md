@@ -105,6 +105,8 @@ Aspose.OCR for Java で OCR の精度を向上させます。傾き角度の計�
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java の力を引き出します。このステップバイステップガイドで画像からテキストをシームレスに抽出する方法を学び、効率的なテキスト認識のために今すぐダウンロードしてください。
 
+### [Java でテキスト画像を認識する – 完全 Aspose OCR ガイド](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+
 ---
 
 **Last Updated:** 2025-12-08  
