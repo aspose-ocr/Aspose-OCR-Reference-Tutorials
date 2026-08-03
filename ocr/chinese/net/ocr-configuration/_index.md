@@ -59,7 +59,9 @@ weight: 24
 ### [使用语言选择进行 OCR 图像识别的 OCROperation](./ocr-operation-with-language-selection/)
 利用 Aspose.OCR for .NET 的强大 OCR 功能，流畅地从图像中提取文本。  
 ### [使用列表进行 OCR 图像识别的 OCROperation](./ocr-operation-with-list/)
-发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。
+发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。  
+### [创建 Aspose OCR 日志记录器 – 完整分步指南](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+一步步教您在 .NET 中创建日志记录器以捕获 OCR 过程信息。
 
 ### 常见使用场景
 - **从扫描发票中提取文本**，实现自动化会计。  
