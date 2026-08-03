@@ -1,10 +1,10 @@
 ---
-date: 2025-12-18
-description: Erfahren Sie, wie Sie OCR mit Aspose.OCR für .NET verwenden, um Text
-  aus PNG‑Bildern ohne Texterkennungsbereich zu extrahieren.
+date: 2026-02-22
+description: Erfahren Sie, wie Sie Text aus PNG‑Bildern mit Aspose.OCR für .NET extrahieren
+  und wie Sie PDF in ein Bild für OCR konvertieren – in einer einfachen Schritt‑für‑Schritt‑Anleitung.
 linktitle: Recognize Image without Text Area Detection in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-title: 'Wie man OCR verwendet - Bild ohne Texterkennungsbereich erkennen'
+title: Wie man Text aus PNG mit OCR ohne Texterkennungsbereich extrahiert
 url: /de/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/
 weight: 13
 ---
@@ -13,36 +13,37 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man OCR verwendet: Bild erkennen ohne Texterkennungs‑Flächenerkennung
+# Text aus PNG mit OCR ohne Texterkennungsbereich extrahieren
 
 ## Einführung
 
-Optische Zeichenerkennung (OCR) ist zu einer unverzichtbaren Technologie geworden, um visuellen Text in durchsuchbare, editierbare Daten zu verwandeln. Wenn Sie sich fragen, **wie man OCR** in einem .NET‑Projekt verwendet, zeigt Ihnen dieser Leitfaden Schritt für Schritt, wie Sie ein Bild erkennen, ohne auf die Texterkennungs‑Flächenerkennung zurückzugreifen. Am Ende des Tutorials können Sie **Text aus PNG**‑Dateien schnell extrahieren, mithilfe von Aspose.OCR für .NET.
+Optische Zeichenerkennung (OCR) ist zu einer unverzichtbaren Technologie geworden, um visuellen Text in durchsuchbare, editierbare Daten umzuwandeln. Wenn Sie sich fragen, **wie man OCR** in einem .NET‑Projekt verwendet, zeigt Ihnen dieser Leitfaden Schritt für Schritt, wie man **Text aus PNG**‑Dateien extrahiert, ohne sich auf die Texterkennungsbereich‑Erkennung zu verlassen. Am Ende des Tutorials können Sie schnell Text aus PNG‑Bildern mit Aspose.OCR für .NET extrahieren und Sie sehen außerdem, wie man **PDF in Bild für OCR konvertiert**, wenn Sie mit PDF‑Quellen arbeiten müssen.
 
 ## Schnelle Antworten
-- **Was bedeutet „ohne Texterkennungs‑Flächenerkennung“?** Die OCR‑Engine liest das gesamte Bild, anstatt zuerst Textblöcke zu lokalisieren.  
+
+- **Was bedeutet „ohne Texterkennungsbereich“?** Die OCR‑Engine liest das gesamte Bild, anstatt zuerst Textblöcke zu lokalisieren.  
 - **Welche Bibliothek wird benötigt?** Aspose.OCR für .NET (kostenlose Testversion verfügbar).  
 - **Unterstützte Bildformate?** PNG, JPEG, BMP, GIF, TIFF und mehr.  
-- **Benötige ich eine Lizenz für die Entwicklung?** Eine temporäre oder Testlizenz reicht für Tests; für die Produktion ist eine Voll‑Lizenz erforderlich.  
-- **Typische Ausführungszeit?** Einige hundert Millisekunden für ein Standard‑PNG mit 300 × 200 px.
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine temporäre oder Testlizenz funktioniert für Tests; für die Produktion ist eine Volllizenz erforderlich.  
+- **Typische Ausführungszeit?** Ein paar hundert Millisekunden für ein Standard‑PNG mit 300 × 200 px.
 
 ## Was ist OCR‑Bilderkennung?
 
-OCR‑Bilderkennung bezieht sich auf den Prozess, Rasterbilder zu analysieren und erkannte Zeichen in maschinenlesbaren Text umzuwandeln. Mit Aspose.OCR können Sie diese Umwandlung direkt in Ihrem C#‑Code durchführen, was sie ideal für Szenarien wie Rechnungsverarbeitung, Dokumentenarchivierung oder das Extrahieren von Bildunterschriften aus Screenshots macht.
+OCR‑Bilderkennung bezieht sich auf den Prozess, Rasterbilder zu analysieren und erkannte Zeichen in maschinenlesbaren Text umzuwandeln. Mit Aspose.OCR können Sie diese Umwandlung direkt in Ihrem C#‑Code durchführen, was sie ideal für Szenarien wie Rechnungsverarbeitung, Dokumentenarchivierung oder das Extrahieren von Beschriftungen aus Screenshots macht.
 
 ## Warum Aspose.OCR für .NET verwenden?
 
 - **Keine externen Abhängigkeiten** – reine .NET‑Bibliothek.  
 - **Hohe Genauigkeit** für gedruckten und handgeschriebenen Text.  
-- **Einfache API**, die es Ihnen ermöglicht, sich auf die Geschäftslogik statt auf Bildvorverarbeitung zu konzentrieren.  
-- **Volle Kontrolle** – Sie können die Texterkennungs‑Flächenerkennung nach Bedarf aktivieren oder deaktivieren.
+- **Einfache API**, die es Ihnen ermöglicht, sich auf die Geschäftslogik statt auf die Bildvorverarbeitung zu konzentrieren.  
+- **Volle Kontrolle** – Sie können die Texterkennungsbereich‑Erkennung nach Bedarf aktivieren oder deaktivieren.
 
 ## Voraussetzungen
 
 Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. **Aspose.OCR für .NET** – Bibliothek von der offiziellen Seite [hier](https://releases.aspose.com/ocr/net/) herunterladen und installieren.  
-2. **Beispielbild** – eine PNG‑Datei (z. B. `sample.png`), die den zu extrahierenden Text enthält.  
+1. **Aspose.OCR für .NET** – Laden Sie die Bibliothek von der offiziellen Seite [hier](https://releases.aspose.com/ocr/net/) herunter und installieren Sie sie.  
+2. **Beispielbild** – eine PNG‑Datei (z. B. `sample.png`), die den Text enthält, den Sie extrahieren möchten.  
 3. **.NET‑Entwicklungsumgebung** – Visual Studio, Rider oder jede IDE, die C# unterstützt.
 
 ## Namespaces importieren
@@ -80,7 +81,7 @@ Damit wird ein `AsposeOcr`‑Objekt erstellt, das Ihnen Zugriff auf alle OCR‑M
 string result = api.RecognizeImage(dataDir + "sample.png", false);
 ```
 
-Der Parameter `false` weist die Engine an, **keine Texterkennungs‑Flächenerkennung** durchzuführen, sodass das gesamte Bild in einem Durchlauf verarbeitet wird. Das ist nützlich, wenn das Bildlayout einfach ist oder Sie jedes Zeichen erfassen möchten.
+Der Parameter `false` weist die Engine an, **keine Texterkennungsbereich‑Erkennung** durchzuführen, sodass das gesamte Bild in einem Durchlauf verarbeitet wird. Das ist nützlich, wenn das Bildlayout einfach ist oder Sie jedes Zeichen erfassen möchten.
 
 ## Schritt 4: Erkannten Text anzeigen
 
@@ -89,7 +90,7 @@ Der Parameter `false` weist die Engine an, **keine Texterkennungs‑Flächenerke
 Console.WriteLine(result);
 ```
 
-Der extrahierte Text erscheint in der Konsole. Sie können ihn nun speichern, durchsuchen oder in einen anderen Workflow einbinden.
+Der extrahierte Text wird in der Konsole angezeigt. Sie können ihn nun speichern, durchsuchen oder in einen anderen Workflow einbinden.
 
 ## Schritt 5: Ausführung abschließen
 
@@ -97,33 +98,50 @@ Der extrahierte Text erscheint in der Konsole. Sie können ihn nun speichern, du
 Console.WriteLine("RecognizeImageWithoutTextAreaDetection executed successfully");
 ```
 
-Eine freundliche Bestätigung informiert Sie darüber, dass die OCR‑Operation ohne Fehler abgeschlossen wurde.
+Eine freundliche Bestätigung zeigt Ihnen, dass der OCR‑Vorgang ohne Fehler abgeschlossen wurde.
+
+## Wie man Text aus PNG ohne Texterkennungsbereich extrahiert
+
+Wenn Sie die Texterkennungsbereich‑Erkennung deaktivieren, behandelt die OCR‑Engine das gesamte Bitmap als einen einzigen Textblock. Dieser Ansatz funktioniert am besten für:
+
+- Einfache Screenshots, bei denen der Text das gesamte Bild einnimmt.  
+- Gescannte Quittungen oder Tickets mit einheitlichem Layout.  
+- Situationen, in denen Sie sicherstellen müssen, dass **keine Zeichen fehlen**, weil die Engine einen Bereich übersprungen hat.
+
+## Wie man PDF für OCR in Bild konvertiert
+
+Wenn Ihr Ausgangsmaterial ein PDF ist, sieht der typische Workflow folgendermaßen aus:
+
+1. Verwenden Sie einen PDF‑zu‑Bild‑Konverter (z. B. Aspose.PDF), um jede Seite als PNG oder JPEG zu rendern.  
+2. Übergeben Sie die resultierenden Bilddateien an die oben gezeigte `RecognizeImage`‑Methode.  
+
+Dieser zweistufige Prozess ermöglicht es Ihnen, dieselbe OCR‑Logik auf PDF‑Inhalte anzuwenden, ohne den Code zu ändern.
 
 ## Häufige Anwendungsfälle
 
-- **Stapelverarbeitung von gescannten Quittungen**, bei denen jede Quittung ein einzelnes Bild ist.  
+- **Stapelverarbeitung gescannter Quittungen**, bei denen jede Quittung ein einzelnes Bild ist.  
 - **Automatisierte Dateneingabe** aus Screenshots von Formularen mit festem Layout.  
-- **Extrahieren von Bildunterschriften** aus Produktbildern für E‑Commerce‑Kataloge.  
+- **Extrahieren von Beschriftungen** aus Produktbildern für E‑Commerce‑Kataloge.
 
 ## Fehlersuche & Tipps
 
 - **Stellen Sie sicher, dass das Bild klar ist** – niedrig aufgelöste oder stark komprimierte PNGs können die Genauigkeit verringern.  
-- **Wenn Sie höhere Geschwindigkeit benötigen**, überlegen Sie, die Texterkennungs‑Flächenerkennung zu aktivieren (zweiter Parameter auf `true` setzen).  
-- **Für mehrsprachigen Text** konfigurieren Sie die Eigenschaft `Language` des `AsposeOcr`‑Objekts, bevor Sie `RecognizeImage` aufrufen.
+- **Wenn Sie höhere Geschwindigkeit benötigen**, sollten Sie die Texterkennungsbereich‑Erkennung aktivieren (setzen Sie den zweiten Parameter auf `true`).  
+- **Für mehrsprachigen Text** konfigurieren Sie die `Language`‑Eigenschaft der `AsposeOcr`‑Instanz, bevor Sie `RecognizeImage` aufrufen.
 
 ## Häufig gestellte Fragen
 
 ### Q1: Ist Aspose.OCR mit allen Bildformaten kompatibel?
 
-A1: Aspose.OCR unterstützt verschiedene Bildformate, darunter PNG, JPEG, GIF und BMP. Die vollständige Liste finden Sie in der [Dokumentation](https://reference.aspose.com/ocr/net/).
+A1: Aspose.OCR unterstützt eine Vielzahl von Bildformaten, darunter PNG, JPEG, GIF und BMP. Siehe die [Dokumentation](https://reference.aspose.com/ocr/net/) für die vollständige Liste.
 
 ### Q2: Kann ich Aspose.OCR sowohl für Desktop‑ als auch für Web‑Anwendungen nutzen?
 
 A2: Ja, Aspose.OCR für .NET funktioniert gleichermaßen gut in Desktop‑, Web‑ und cloud‑basierten .NET‑Anwendungen.
 
-### Q3: Gibt es eine kostenlose Testversion von Aspose.OCR?
+### Q3: Gibt es eine kostenlose Testversion für Aspose.OCR?
 
-A3: Absolut. Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) herunterladen, um die Bibliothek vor dem Kauf zu evaluieren.
+A3: Auf jeden Fall. Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) herunterladen, um die Bibliothek vor dem Kauf zu evaluieren.
 
 ### Q4: Wie erhalte ich technischen Support für Aspose.OCR?
 
@@ -135,25 +153,25 @@ A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/te
 
 ## Weitere häufig gestellte Fragen
 
-**Q: Wie kann ich **how to recognize text** aus einem mehrseitigen PDF extrahieren?**  
-A: Konvertieren Sie jede PDF‑Seite in ein Bild (z. B. PNG) und führen Sie die gleiche `RecognizeImage`‑Methode für jede Seite aus.
+**F: Wie kann ich Text aus einem mehrseitigen PDF erkennen?**  
+A: Convert each PDF page to an image (e.g., PNG) and run the same `RecognizeImage` method on each page.
 
-**Q: Unterstützt Aspose.OCR **text extraction .net** für handgeschriebene Notizen?**  
-A: Die Engine beinhaltet Handschriftenerkennung, jedoch hängen die Ergebnisse von Bildqualität und Klarheit der Handschrift ab.
+**F: Unterstützt Aspose.OCR **text extraction .net** für handschriftliche Notizen?**  
+A: Die Engine enthält Handschriftenerkennung, jedoch hängen die Ergebnisse von der Bildqualität und der Klarheit der Handschrift ab.
 
-**Q: Was ist der beste Weg, **extract text from png** Dateien massenhaft zu verarbeiten?**  
-A: Schreiben Sie eine Schleife, die alle PNG‑Dateien in einem Ordner enumeriert, `RecognizeImage` für jede aufruft und die Ausgabe in einer CSV‑Datei oder Datenbank speichert.
+**F: Was ist der beste Weg, um Text aus PNG‑Dateien in großen Mengen zu extrahieren?**  
+A: Write a loop that enumerates all PNG files in a folder, calls `RecognizeImage` for each, and stores the output in a CSV or database.
 
-**Q: Kann ich die OCR‑Engine anpassen, um die Genauigkeit für eine bestimmte Schriftart zu verbessern?**  
-A: Ja, Sie können die Erkennung verfeinern, indem Sie die Eigenschaften `Language` und `RecognitionOptions` des `AsposeOcr`‑Objekts setzen.
+**F: Kann ich die OCR‑Engine anpassen, um die Genauigkeit für eine bestimmte Schriftart zu verbessern?**  
+A: Ja, Sie können die Erkennung verfeinern, indem Sie die Eigenschaften `Language` und `RecognitionOptions` der `AsposeOcr`‑Instanz setzen.
 
 ## Fazit
 
-Durch Befolgen dieser Schritte wissen Sie jetzt **wie man OCR** in einer .NET‑Umgebung einsetzt, um **Bilddateien** ohne Texterkennungs‑Flächenerkennung zu **erkennen**. Dieser Ansatz gibt Ihnen volle Kontrolle über den OCR‑Prozess und eröffnet zahlreiche Automatisierungsszenarien, von der Rechnungsverarbeitung bis zur Inhaltsindizierung.
+Durch das Befolgen dieser Schritte wissen Sie jetzt, **wie man OCR** in einer .NET‑Umgebung verwendet, um **Text aus PNG**‑Dateien zu extrahieren, ohne sich auf die Texterkennungsbereich‑Erkennung zu verlassen. Dieser Ansatz gibt Ihnen die volle Kontrolle über den OCR‑Prozess und eröffnet zahlreiche Automatisierungsszenarien, von der Rechnungsverarbeitung bis zur Inhaltsindizierung. Wenn Ihr Ausgangsmaterial ein PDF ist, **konvertieren Sie PDF für OCR in ein Bild** und verwenden Sie denselben Workflow erneut.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-18  
+**Zuletzt aktualisiert:** 2026-02-22  
 **Getestet mit:** Aspose.OCR für .NET 24.11  
 **Autor:** Aspose  
 

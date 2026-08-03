@@ -1,43 +1,48 @@
 ---
-date: 2025-12-17
-description: Học cách lấy các hình chữ nhật dòng OCR bằng Aspose.OCR cho .NET để nhận
-  dạng các dòng văn bản trong hình ảnh và dễ dàng trích xuất tọa độ của chúng.
-linktitle: Get OCR Line Rectangles for Image Text Lines
+date: 2026-02-22
+description: Tìm hiểu cách thực hiện phân tích bố cục OCR bằng cách nhận dạng các
+  dòng văn bản trong hình ảnh và trích xuất các hình chữ nhật của dòng bằng Aspose.OCR
+  cho .NET.
+linktitle: Layout Analysis OCR – Get Line Rectangles from Images
 second_title: Aspose.OCR .NET API
-title: Lấy các hình chữ nhật dòng OCR cho các dòng văn bản trong ảnh
+title: Phân tích bố cục OCR – Lấy hình chữ nhật các dòng từ ảnh
 url: /vi/net/image-and-drawing-recognition/get-rectangles-for-lines/
 weight: 10
 ---
+
+.
+
+Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lấy Các Hình Chữ Nhật Dòng OCR cho Các Dòng Văn Bản Trong Hình Ảnh
+# Phân tích bố cục OCR – Lấy các hình chữ nhật dòng từ hình ảnh
 
-## Introduction
+## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ khám phá **cách lấy các hình chữ nhật dòng OCR** với Aspose.OCR cho .NET. Khi kết thúc hướng dẫn, bạn sẽ có thể **nhận dạng các dòng văn bản trong một hình ảnh** và **trích xuất tọa độ dòng** cho mỗi dòng được phát hiện — hoàn hảo cho việc xử lý tiếp theo như phân tích bố cục, trích xuất dữ liệu, hoặc render tùy chỉnh.
+Trong hướng dẫn này, bạn sẽ khám phá **cách lấy các hình chữ nhật dòng OCR** với Aspose.OCR cho .NET. Khi kết thúc hướng dẫn, bạn sẽ có thể **nhận dạng các dòng văn bản trong một hình ảnh** và **trích xuất tọa độ dòng** cho mỗi dòng được phát hiện — hoàn hảo cho xử lý tiếp theo như **phân tích bố cục OCR**, trích xuất dữ liệu, hoặc render tùy chỉnh.
 
-## Quick Answers
-- **“Lấy các hình chữ nhật dòng OCR” có nghĩa là gì?** Nó trả về các hộp bao quanh (bounding boxes) của mỗi dòng văn bản được phát hiện trong một hình ảnh.  
+## Câu trả lời nhanh
+- **“get OCR line rectangles” có nghĩa là gì?** Nó trả về các hộp bao (bounding boxes) của mỗi dòng văn bản được phát hiện trong một hình ảnh.  
 - **Phương thức API nào được sử dụng?** `AsposeOcr.GetRectangles(..., AreasType.LINES, ...)`.  
-- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Các định dạng hình ảnh được hỗ trợ?** PNG, JPEG, BMP, TIFF và nhiều hơn nữa.  
-- **Tôi có thể chạy trên .NET Core không?** Có, Aspose.OCR hoàn toàn hỗ trợ .NET Core và .NET 5/6.
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Các định dạng hình ảnh được hỗ trợ?** PNG, JPEG, BMP, TIFF và nhiều định dạng khác.  
+- **Có thể chạy trên .NET Core không?** Có, Aspose.OCR hoàn toàn hỗ trợ .NET Core và .NET 5/6.
 
-## Prerequisites
+## Yêu cầu trước
 
-Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
 
 - Kiến thức cơ bản về C# và phát triển .NET.  
-- Một môi trường phát triển tích hợp (IDE) như Visual Studio.  
+- Môi trường phát triển tích hợp (IDE) như Visual Studio.  
 - Thư viện Aspose.OCR cho .NET đã được cài đặt. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/ocr/net/).  
 - Một hình ảnh mẫu chứa văn bản để nhận dạng OCR.
 
-## Import Namespaces
+## Nhập các namespace
 
-Đảm bảo bạn đã nhập các namespace cần thiết vào dự án của mình. Thêm các dòng sau vào đầu file C# của bạn:
+Đảm bảo bạn đã nhập các namespace cần thiết vào dự án. Thêm các dòng sau vào đầu tệp C# của bạn:
 
 ```csharp
 using System;
@@ -47,9 +52,11 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Bây giờ, chúng ta sẽ phân tích quy trình lấy các hình chữ nhật cho các dòng trong nhận dạng OCR hình ảnh thành các bước dễ‑theo.
+Bây giờ, chúng ta sẽ phân tích quy trình lấy các hình chữ nhật cho các dòng trong nhận dạng OCR hình ảnh thành các bước dễ‑hiểu.
 
-## Step 1: Set Up Your Document Directory
+## layout analysis ocr – Hướng dẫn từng bước
+
+### Bước 1: Thiết lập Thư mục Tài liệu của Bạn
 
 ```csharp
 // ExStart:3
@@ -59,7 +66,7 @@ string dataDir = "Your Document Directory";
 
 Thay thế `"Your Document Directory"` bằng đường dẫn thực tế tới thư mục chứa hình ảnh mẫu của bạn.
 
-## Step 2: Initialize Aspose.OCR
+### Bước 2: Khởi tạo Aspose.OCR
 
 ```csharp
 // ExStart:4
@@ -69,7 +76,7 @@ AsposeOcr api = new AsposeOcr();
 
 Tạo một thể hiện của lớp `AsposeOcr` để truy cập chức năng OCR.
 
-## Step 3: Specify Image Path
+### Bước 3: Xác định Đường dẫn Hình ảnh
 
 ```csharp
 // ExStart:5
@@ -79,7 +86,7 @@ string fullPath = dataDir + "sample.png";
 
 Xác định đường dẫn đầy đủ tới hình ảnh bạn muốn thực hiện OCR.
 
-## Step 4: Recognize Image and Get Rectangles
+### Bước 4: Nhận dạng Hình ảnh và Lấy Các Hình chữ nhật
 
 ```csharp
 // ExStart:6
@@ -87,9 +94,9 @@ List<Rectangle> lines = api.GetRectangles(fullPath, AreasType.LINES, false);
 // ExEnd:6
 ```
 
-Phương thức `GetRectangles` trả về một danh sách các đối tượng `Rectangle`, mỗi đối tượng đại diện cho tọa độ của một dòng văn bản được phát hiện. Đây là phần cốt lõi của **việc lấy các hình chữ nhật dòng OCR**.
+Phương thức `GetRectangles` trả về một danh sách các đối tượng `Rectangle`, mỗi đối tượng đại diện cho tọa độ của một dòng văn bản được phát hiện. Đây là phần cốt lõi của **lấy các hình chữ nhật dòng OCR** và cho phép **phân tích bố cục OCR**.
 
-## Step 5: Print Result
+### Bước 5: In Kết quả
 
 ```csharp
 // ExStart:7
@@ -98,49 +105,55 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 // ExEnd:7
 ```
 
-In ra tọa độ của các vùng được phát hiện lên console. Bạn sẽ thấy các giá trị mà sau này có thể dùng để **trích xuất tọa độ dòng** cho quá trình xử lý tùy chỉnh.
+In tọa độ của các vùng được phát hiện ra console. Bạn sẽ thấy các giá trị mà sau này có thể dùng để **trích xuất tọa độ dòng** cho các quy trình tùy chỉnh.
 
-## Why Use Aspose.OCR for Line Rectangles?
+## Tại sao nên dùng Aspose.OCR để lấy Hình chữ nhật Dòng?
 
-- **Độ chính xác cao** – Thuật toán tiên tiến phát hiện các dòng ngay cả trong hình ảnh nhiễu hoặc lệch.  
+- **Độ chính xác cao** – Các thuật toán tiên tiến phát hiện dòng ngay cả trong ảnh nhiễu hoặc nghiêng.  
 - **Đa nền tảng** – Hoạt động trên .NET Framework, .NET Core và .NET 5/6.  
-- **Không phụ thuộc bên ngoài** – Thư viện .NET thuần, không có DLL gốc cần triển khai.  
+- **Không phụ thuộc bên ngoài** – Thư viện .NET thuần, không cần DLL gốc để phân phối.  
 - **Đầu ra phong phú** – Ngoài các hình chữ nhật dòng, bạn còn có thể lấy các từ, ký tự và điểm tin cậy.
 
-## Common Issues and Solutions
+## Các vấn đề thường gặp và Giải pháp
 
-| Issue | Solution |
+| Vấn đề | Giải pháp |
 |-------|----------|
-| **Không có hình chữ nhật nào được trả về** | Đảm bảo hình ảnh chứa văn bản rõ ràng, ngang và đã chỉ định `AreasType.LINES`. |
+| **Không trả về hình chữ nhật** | Đảm bảo hình ảnh chứa văn bản rõ ràng, ngang và đã chỉ định `AreasType.LINES`. |
 | **Tọa độ không chính xác** | Kiểm tra DPI của hình ảnh; hình ảnh độ phân giải thấp có thể gây ra giới hạn không chính xác. |
-| **Nút thắt hiệu năng trên hình ảnh lớn** | Thay đổi kích thước hình ảnh tới độ phân giải hợp lý trước khi gọi `GetRectangles`. |
-| **Ngoại lệ giấy phép** | Sử dụng giấy phép dùng thử để thử nghiệm; áp dụng giấy phép đầy đủ cho môi trường sản xuất để tránh giới hạn đánh giá. |
+| **Tắc nghẽn hiệu năng với ảnh lớn** | Thu nhỏ ảnh về độ phân giải hợp lý trước khi gọi `GetRectangles`. |
+| **Lỗi giấy phép** | Sử dụng giấy phép dùng thử để kiểm tra; áp dụng giấy phép đầy đủ cho môi trường sản xuất để tránh giới hạn đánh giá. |
 
-## Các Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
-**Q: Tôi có thể trích xuất các từ riêng lẻ thay vì toàn bộ dòng không?**  
-A: Có, sử dụng `AreasType.WORDS` với cùng phương thức `GetRectangles` để lấy các hộp bao quanh ở mức từ.
+**H: Tôi có thể trích xuất các từ riêng lẻ thay vì toàn bộ dòng không?**  
+Đ: Có, sử dụng `AreasType.WORDS` cùng phương thức `GetRectangles` để lấy các hộp bao cấp độ từ.
 
-**Q: API có hỗ trợ PDF đa trang không?**  
-A: Đầu tiên chuyển mỗi trang PDF thành hình ảnh, sau đó gọi `GetRectangles` trên mỗi hình ảnh.
+**H: API có hỗ trợ PDF đa trang không?**  
+Đ: Chuyển mỗi trang PDF thành hình ảnh trước, sau đó gọi `GetRectangles` trên từng hình ảnh.
 
-**Q: Làm thế nào để xử lý văn bản bị xoay?**  
-A: Bật tùy chọn tự động xoay trong cài đặt OCR hoặc xoay trước hình ảnh trước khi xử lý.
+**H: Làm thế nào xử lý văn bản bị quay?**  
+Đ: Bật tùy chọn tự động quay trong cài đặt OCR hoặc quay trước hình ảnh trước khi xử lý.
 
-**Q: Có cách nào để lấy điểm tin cậy cho mỗi dòng không?**  
-A: Sau khi lấy các hình chữ nhật, gọi `api.RecognizeImage(...).Lines` để truy cập các đối tượng dòng có chứa giá trị tin cậy.
+**H: Có cách nào lấy điểm tin cậy cho mỗi dòng không?**  
+Đ: Sau khi có các hình chữ nhật, gọi `api.RecognizeImage(...).Lines` để truy cập các đối tượng dòng bao gồm giá trị tin cậy.
 
-**Q: Các phiên bản .NET nào tương thích?**  
-A: Thư viện hoạt động với .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6.
+**H: Các phiên bản .NET nào tương thích?**  
+Đ: Thư viện hoạt động với .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6.
 
-## Kết Luận
+## Các trường hợp sử dụng thực tế
 
-Chúc mừng! Bạn đã thành công **lấy các hình chữ nhật dòng OCR** cho một hình ảnh bằng Aspose.OCR cho .NET. Với các hộp bao quanh trong tay, bạn có thể đưa tọa độ dòng vào các quy trình downstream như render tùy chỉnh, trích xuất dữ liệu, hoặc phân tích bố cục.
+- **Phân tích bố cục tài liệu OCR** – Cung cấp các hình chữ nhật dòng cho engine bố cục để tái tạo cấu trúc cột.  
+- **Trích xuất dữ liệu tự động** – Sử dụng tọa độ để cắt các dòng riêng lẻ cho các pipeline NLP tiếp theo.  
+- **Render tùy chỉnh** – Đặt lớp phủ các hộp bao lên hình ảnh gốc để kiểm tra trực quan hoặc hiển thị trên giao diện người dùng.  
+
+## Kết luận
+
+Chúc mừng! Bạn đã thành công **lấy các hình chữ nhật dòng OCR** cho một hình ảnh bằng Aspose.OCR cho .NET. Với các hộp bao trong tay, bạn có thể đưa tọa độ dòng vào các quy trình downstream như render tùy chỉnh, trích xuất dữ liệu, hoặc **phân tích bố cục OCR**.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-17  
-**Kiểm tra với:** Aspose.OCR 24.11 for .NET  
+**Cập nhật lần cuối:** 2026-02-22  
+**Kiểm tra với:** Aspose.OCR 24.11 cho .NET  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
