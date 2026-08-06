@@ -80,6 +80,7 @@ Aspose.OCR ile Java'da OCR gücünü açığa çıkarın. PDF belgelerinde metni
 Aspose.OCR ile Java'da güçlü metin tanımanın kilidini açın. TIFF görüntülerinde metni sorunsuz bir şekilde tanıyın. Kesintisiz bir OCR deneyimi için şimdi indirin.
 ### [Aspose OCR ile Görüntü Metni Tanıma – Tam Java OCR Öğreticisi](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Java'da Aspose OCR kullanarak görüntüden metin tanıma sürecini adım adım öğrenin.
+### [Aspose OCR ile Görüntü Metnini Tanıma – Tam Java Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 
 ## Sıkça Sorulan Sorular
 
