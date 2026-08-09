@@ -83,6 +83,10 @@ Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyed�
 Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
 ### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Abszolút útvonal lekérése Java-ban – teljes útmutató](./get-absolute-path-java-complete-guide/)
+Ismerd meg, hogyan kaphatod meg egy fájl abszolút útvonalát Java-ban lépésről lépésre.
+### [Minden erőforrás letöltése C#-ban – útmutató az előtöltéshez](./download-all-resources-in-c-guide-to-preloading-assets/)
+Lépésről lépésre bemutatja, hogyan tölts le minden erőforrást C#-ban az előtöltéshez.
 
 ## Gyakran Ismételt Kérdések
 
