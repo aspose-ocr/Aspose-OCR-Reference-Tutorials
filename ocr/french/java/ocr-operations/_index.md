@@ -81,6 +81,10 @@ Débloquez la puissance de l’OCR en Java avec Aspose.OCR. Reconnaissez le text
 Débloquez une puissante reconnaissance de texte en Java avec Aspose.OCR. Reconnaissez le texte dans les images TIFF sans effort. Téléchargez dès maintenant pour une expérience OCR fluide.
 ### [Reconnaître le texte d'image avec Aspose OCR – Tutoriel complet Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Obtenir le chemin absolu en Java – guide complet](./get-absolute-path-java-complete-guide/)
+Apprenez à récupérer le chemin absolu d'un fichier en Java grâce à ce guide complet.
+### [Télécharger toutes les ressources en C# – guide de préchargement des actifs](./download-all-resources-in-c-guide-to-preloading-assets/)
+Apprenez à télécharger toutes les ressources en C# et à les précharger efficacement dans vos applications.
 
 ## Foire aux questions
 

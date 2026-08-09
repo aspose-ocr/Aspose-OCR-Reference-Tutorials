@@ -80,6 +80,10 @@ Ontgrendel de kracht van OCR in Java met Aspose.OCR. Herken moeiteloos tekst in 
 Ontgrendel krachtige tekst‑herkenning in Java met Aspose.OCR. Herken moeiteloos tekst in TIFF‑afbeeldingen. Download nu voor een naadloze OCR‑ervaring.
 ### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR-tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
+### [Absolute pad ophalen in Java – volledige gids](./get-absolute-path-java-complete-guide/)
+Leer hoe u het absolute pad van een bestand in Java kunt bepalen met een volledige stap‑voor‑stap‑handleiding.
+### [Alle resources downloaden in C# – gids voor het vooraf laden van assets](./download-all-resources-in-c-guide-to-preloading-assets/)
+Leer hoe u alle resources in C# kunt downloaden en vooraf kunt laden voor optimale prestaties.
 
 ## Veelgestelde vragen
 
