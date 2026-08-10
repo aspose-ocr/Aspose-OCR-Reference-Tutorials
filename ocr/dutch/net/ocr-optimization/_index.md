@@ -74,6 +74,8 @@ Verken Aspose.OCR voor .NET. Verhoog OCR‑nauwkeurigheid met preprocessing‑fi
 Verbeter OCR‑nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze teksterkenning.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
+### [Console Logger maken in C# – Volledige gids om automatisch te downloaden & OCR‑tekst te corrigeren](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Leer hoe je een console‑logger implementeert die OCR‑resultaten automatisch downloadt en tekstcorrecties toepast.
 
 ## Veelgestelde vragen
 
