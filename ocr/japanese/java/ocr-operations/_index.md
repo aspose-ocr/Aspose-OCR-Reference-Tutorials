@@ -80,6 +80,8 @@ Aspose.OCR を使用した Java での OCR の力を解き放ちます。PDF 文
 Aspose.OCR を使用した Java での強力なテキスト認識を実現します。TIFF 画像内のテキストを手間なく認識し、シームレスな OCR 体験を提供します。
 ### [Aspose OCR で画像テキストを認識 – 完全 Java OCR チュートリアル](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR を使用して画像からテキストを認識する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [JavaでPNGテキストを認識 – 完全 Aspose OCR ガイド](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Aspose OCR を使用して PNG 画像からテキストを抽出する完全な Java チュートリアルです。ステップバイステップで解説します。
 
 ## よくある質問
 
