@@ -61,6 +61,17 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [GPU für OCR aktivieren und Text aus TIFF extrahieren](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+Erfahren Sie, wie Sie GPU-Unterstützung aktivieren, um OCR auf TIFF-Bildern schnell und genau durchzuführen.
+### [Durchführen von OCR auf Bild mit Aspose OCR – Java Schritt‑für‑Schritt‑Leitfaden](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+Erfahren Sie, wie Sie OCR auf einem Bild mit Aspose OCR in Java Schritt für Schritt durchführen.
+### [Wie man ein Bild für OCR begradigt – Vollständiger Java-Vorverarbeitungsleitfaden](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+Erfahren Sie, wie Sie Bilder vor dem OCR mit Java begradigen, um die Erkennungsgenauigkeit zu erhöhen.
+### [Text aus Bild extrahieren mit Aspose OCR – Java‑Leitfaden](./extract-text-from-image-with-aspose-ocr-java-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren – ein umfassender Leitfaden.
+### [Sprache im Bild erkennen mit Aspose OCR – Java‑Tutorial](./detect-language-image-with-aspose-ocr-java-tutorial/)
+Erfahren Sie, wie Sie mit Aspose OCR die Sprache in Bildern erkennen und Java‑Anwendungen erweitern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

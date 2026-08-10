@@ -61,6 +61,17 @@ Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. �
 정확한 텍스트 인식을 위해 Aspose.OCR로 Java 애플리케이션을 강화하세요. 통합이 쉽고 정확도가 높습니다.
 ### [Aspose.OCR에서 허용되는 문자 지정](./specify-allowed-characters/)
 Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
+### [Aspose OCR을 사용하여 이미지에서 OCR 수행 – Java 단계별 가이드](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+Aspose OCR을 활용해 Java에서 이미지 OCR을 단계별로 수행하는 방법을 안내합니다. 손쉽게 텍스트를 추출하세요.
+### [GPU를 사용하여 OCR을 활성화하고 TIFF에서 텍스트 추출하기](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+GPU 가속을 활용해 TIFF 이미지에서 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
+### [OCR을 위한 이미지 디스크윙 방법 – 완전한 Java 전처리 가이드](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+Java에서 OCR 정확도를 높기 위해 이미지 기울기를 교정하는 단계별 가이드를 제공합니다.
+### [Aspose OCR을 사용하여 이미지에서 텍스트 추출 – Java 가이드](./extract-text-from-image-with-aspose-ocr-java-guide/)
+Aspose OCR을 활용해 Java에서 이미지의 텍스트를 손쉽게 추출하는 단계별 가이드를 제공합니다.
+### [Java용 Aspose.OCR을 사용한 이미지 언어 감지 – Java 튜토리얼](./detect-language-image-with-aspose-ocr-java-tutorial/)
+Aspose OCR을 활용해 Java에서 이미지의 언어를 자동으로 감지하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

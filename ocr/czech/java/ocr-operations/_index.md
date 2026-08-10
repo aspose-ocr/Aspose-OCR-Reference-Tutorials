@@ -75,7 +75,15 @@ Uvolněte přesné extrahování textu z obrázků s Aspose.OCR pro Java. Postup
 Uvolněte sílu OCR v Javě s Aspose.OCR. Bez námahy rozpoznávejte text v PDF dokumentech. Posilte své aplikace přesností a rychlostí.
 ### [OCR rozpoznávání TIFF obrázků v Aspose.OCR pro Java](./recognize-tiff/)
 Uvolněte výkonné rozpoznávání textu v Javě s Aspose.OCR. Bez námahy rozpoznávejte text v TIFF obrázcích. Stáhněte si nyní pro plynulý OCR zážitek.
+### [Dávkové OCR obrázků v Javě – Rychlé získání textu z PNG souborů](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Uvolněte sílu dávkového OCR pro PNG soubory v Javě a rychle extrahujte text z mnoha obrázků.
 ### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní Java OCR tutoriál](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Extrahování textu z obrázku pomocí Aspose OCR – krok za krokem ukázka](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Naučte se, jak pomocí Aspose OCR extrahovat text z obrázku krok za krokem a získat přesné výsledky.
+### [Vytvoření prohledávatného PDF ze skenovaných souborů – Java průvodce](./create-searchable-pdf-from-scanned-files-java-guide/)
+Naučte se převést skenované soubory do prohledávatelných PDF pomocí Aspose.OCR pro Java.
+### [Odstranění zkušebního vodoznaku v Aspose OCR – Kompletní průvodce licencí pro Javu](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Naučte se, jak odstranit evaluační vodoznak a aktivovat plnou verzi Aspose OCR v Javě pomocí licenčního klíče.
 
 ## Často kladené otázky
 
