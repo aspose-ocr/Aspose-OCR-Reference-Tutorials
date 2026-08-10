@@ -55,6 +55,20 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak C# ile görüntülerden metin çıkarmayı adım adım öğrenin ve projelerinize entegre edin.
+### [C# OCR Eğitimi: Aspose ile PNG Makbuzlarından Metin Çıkarma](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Aspose kullanarak C# ile PNG formatındaki makbuzlardan metni nasıl çıkaracağınızı adım adım öğrenin.
+### [C#'ta OCR Nasıl Kullanılır – JPG'den Çince Metin Tanıma](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+C# ve Aspose.OCR kullanarak JPG dosyalarındaki Çince metni nasıl tanıyacağınızı adım adım öğrenin.
+### [C#'ta Rus Metin OCR – Aspose OCR Kullanarak Tam Kılavuz](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+### [C#'ta Görüntüden Metin Çıkarma – Tam Aspose OCR Kılavuzu](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Aspose OCR kullanarak C# ile görüntülerden metin çıkarmayı adım adım öğrenin ve projelerinize entegre edin.
+### [ASP.NET Core Minimal API ile Görüntüden Metin Çıkarma – Tam Kılavuz](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+ASP.NET Core Minimal API kullanarak görüntülerden metin çıkarmayı adım adım öğrenin ve projelerinize entegre edin.
+### [C# ile TIFF'i Metne Dönüştürme – Tam Toplu OCR Kılavuzu](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+C# kullanarak TIFF dosyalarını toplu olarak metne dönüştürmeyi adım adım öğrenin ve OCR sürecinizi otomatikleştirin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

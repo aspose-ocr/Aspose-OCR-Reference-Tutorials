@@ -55,6 +55,21 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Tekst herkennen van afbeelding met Aspose OCR – Complete C#-gids](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Leer hoe u met Aspose OCR en C# tekst uit afbeeldingen haalt in deze complete stap‑voor‑stap gids.
+### [Hoe OCR in C# te gebruiken – Chinees tekst herkennen vanuit JPG](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+Leer hoe u met Aspose.OCR en C# Chinese tekst uit JPG-afbeeldingen nauwkeurig kunt herkennen.
+### [OCR Russische tekst in C# – Complete gids met Aspose OCR](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+Leer hoe u met Aspose OCR en C# Russische tekst uit afbeeldingen haalt in deze volledige stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in C# – Complete Aspose OCR-gids](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Ontdek hoe u met Aspose OCR en C# tekst uit afbeeldingen kunt extraheren met deze volledige stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in ASP.NET Core Minimal API – Complete gids](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt via een ASP.NET Core Minimal API in deze volledige stap‑voor‑stap gids.
+### [c# OCR-tutorial: Tekst extraheren uit PNG-bonnetjes met Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Leer hoe u met Aspose OCR en C# tekst uit PNG‑bonnetjes haalt in deze stapsgewijze gids.
+### [TIFF naar tekst converteren in C# – Complete batch-OCR-gids](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+Leer hoe u met Aspose.OCR in C# TIFF-bestanden batchgewijs naar tekst converteert met deze volledige gids.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

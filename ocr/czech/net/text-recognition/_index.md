@@ -19,11 +19,11 @@ Jste připraveni posunout své .NET aplikace na další úroveň? Ponořte se do
 
 ## Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR
 
-V tomto tutoriálu vás provedeme využitím výkonu Aspose.OCR pro .NET ke zlepšení vašich schopností rozpoznávání obrázků. Naučte se krok za krokem, jak načíst volby pro rozpoznané znaky, a zajistit tak přesnost a efektivitu ve vašich aplikacích. Vylepšete svůj zážitek z OCR pomocí špičkových funkcí Aspose.OCR.
+V tomto tutoriálu vás provedeme využitím výkonu Aspose.OCR pro .NET ke zlepšení vašich schopností rozpoznávání obrázků. Naučte se krok za krokem, jak načíst volby pro rozpoznané znaky, a zajistit tak přesnost a efektivitu ve svých aplikacích. Vylepšete svůj zážitek z OCR pomocí špičkových funkcí Aspose.OCR.
 
 ## Získejte výsledek rozpoznávání v rozpoznávání obrazu OCR
 
-Prozkoumejte možnosti Aspose.OCR pro .NET a změňte způsob, jakým zacházíte s rozpoznáváním textu v obrázcích. Odhalte složitosti získávání výsledků rozpoznávání pomocí našeho komplexního průvodce. Ať už jste zkušený vývojář nebo teprve začínáte, tento výukový program vám umožní bezproblémovou integraci OCR do vašich projektů.
+Prozkoumejte možnosti Aspose.OCR pro .NET a změňte způsob, jakým zacházíte s rozpoznáváním textu v obrázcích. Odhalte složitosti získávání výsledků rozpoznávání pomocí našeho komplexního průvodce. Ať už jste zkušený vývojář nebo teprve začínáte, tento výukový program vám umožní bezproblémovou integraci OCR do svých projektů.
 
 ## Získejte výsledek jako JSON v rozpoznávání obrazu OCR
 
@@ -55,6 +55,21 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce v C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Kompletní průvodce v C# pro rozpoznání textu z obrázku pomocí Aspose OCR. Naučte se krok za krokem implementovat OCR ve svých aplikacích.
+### [Jak použít OCR v C# – Rozpoznání čínského textu z JPG](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+Naučte se, jak pomocí Aspose.OCR v C# rozpoznat čínské znaky z JPG obrázku a integrovat výsledek do vaší aplikace.
+### [OCR ruského textu v C# – Kompletní průvodce s použitím Aspose OCR](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+Kompletní průvodce v C# pro rozpoznání ruského textu pomocí Aspose OCR. Naučte se krok po kroku implementovat OCR ve svých aplikacích.
+### [Extrahování textu z obrázku v C# – Kompletní průvodce Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Kompletní návod v C# pro extrahování textu z obrázku pomocí Aspose OCR. Naučte se krok po kroku implementovat OCR ve svých projektech.
+### [Extrahování textu z obrázku v ASP.NET Core Minimal API – kompletní průvodce](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+Kompletní návod, jak pomocí ASP.NET Core Minimal API extrahovat text z obrázku pomocí Aspose.OCR.
+### [c# OCR tutoriál: Extrahování textu z PNG účtenek pomocí Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z PNG účtenek a integrovat jej do vašich aplikací.
+### [Převod TIFF na text v C# – Kompletní průvodce dávkovým OCR](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# hromadně převádět TIFF soubory na text s podrobným návodem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

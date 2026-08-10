@@ -55,6 +55,21 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết từng bước để nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#, bao gồm cài đặt và ví dụ thực tế.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Hướng dẫn chi tiết từng bước để trích xuất văn bản từ hình ảnh bằng Aspose OCR trong C#, bao gồm cài đặt và ví dụ thực tế.
+### [Cách sử dụng OCR trong C# – Nhận dạng văn bản tiếng Trung từ JPG](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+Hướng dẫn chi tiết cách dùng Aspose.OCR trong C# để nhận dạng văn bản tiếng Trung từ hình ảnh JPG một cách chính xác.
+### [OCR Văn bản tiếng Nga trong C# – Hướng dẫn đầy đủ sử dụng Aspose OCR](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+Hướng dẫn chi tiết từng bước để nhận dạng văn bản tiếng Nga từ hình ảnh bằng Aspose OCR trong C#, bao gồm cài đặt và ví dụ thực tế.
+### [Trích xuất văn bản từ hình ảnh trong ASP.NET Core Minimal API – Hướng dẫn đầy đủ](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+Hướng dẫn chi tiết từng bước để trích xuất văn bản từ hình ảnh bằng ASP.NET Core Minimal API, bao gồm cài đặt và ví dụ thực tế.
+### [Hướng dẫn OCR C#: Trích xuất văn bản từ biên lai PNG với Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Hướng dẫn chi tiết từng bước để trích xuất văn bản từ biên lai PNG bằng Aspose OCR trong C#, bao gồm cài đặt và ví dụ thực tế.
+### [Chuyển đổi TIFF sang Văn bản trong C# – Hướng dẫn OCR hàng loạt đầy đủ](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp TIFF thành văn bản bằng Aspose.OCR trong C#, hỗ trợ xử lý hàng loạt hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

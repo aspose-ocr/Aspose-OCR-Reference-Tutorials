@@ -1,0 +1,220 @@
+---
+category: general
+date: 2026-05-25
+description: บทแนะนำ OCR ด้วย C# ที่แสดงวิธีโหลดไฟล์รูปภาพด้วย C# และจดจำข้อความ PNG
+  จากใบเสร็จโดยใช้ Aspose OCR – คู่มือแบบขั้นตอนต่อขั้นตอน.
+draft: false
+keywords:
+- c# OCR tutorial
+- load image file c#
+- recognize png text
+- read receipt OCR
+- perform OCR image
+language: th
+og_description: บทเรียน OCR ด้วย C# ที่แนะนำขั้นตอนการโหลดไฟล์รูปภาพด้วย C# และการจดจำข้อความ
+  PNG จากใบเสร็จโดยใช้ Aspose OCR.
+og_title: c# OCR tutorial – ดึงข้อความจากใบเสร็จ PNG
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: c# OCR tutorial that shows how to load image file c# and recognize
+    png text from a receipt using Aspose OCR – step‑by‑step guide.
+  headline: 'c# OCR tutorial: Extract Text from PNG Receipts with Aspose'
+  type: TechArticle
+- description: c# OCR tutorial that shows how to load image file c# and recognize
+    png text from a receipt using Aspose OCR – step‑by‑step guide.
+  name: 'c# OCR tutorial: Extract Text from PNG Receipts with Aspose'
+  steps:
+  - name: Why Aspose?
+    text: Aspose OCR supports over 30 languages, works offline, and returns a rich
+      `OcrResult` object—perfect for **perform OCR image** tasks where you need more
+      than just plain text.
+  - name: Handling Common Edge Cases
+    text: '| Situation | What to do | |-----------|------------| | **Image is blurry**
+      | Pre‑process with `System.Drawing` to sharpen or increase DPI. | | **Receipt
+      contains multiple languages** | Set `ocrEngine.Language = OcrLanguage.English
+      | OcrLanguage.Spanish;` | | **Large batch processing** | Reuse a sin'
+  - name: What’s Next?
+    text: '- Experiment with **load image file c#** using `SkiaSharp` for true cross‑platform
+      support. - Dive deeper into `OcrResult.Words` to extract line items, prices,
+      and dates—perfect for expense‑tracking apps. - Combine this tutorial with Azure
+      Functions or AWS Lambda to build a serverless receipt‑proces'
+  type: HowTo
+tags:
+- OCR
+- C#
+- Aspose
+title: 'บทเรียน OCR ด้วย C#: ดึงข้อความจากใบเสร็จ PNG ด้วย Aspose'
+url: /th/net/text-recognition/c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# c# OCR tutorial – ดึงข้อความจากใบเสร็จ PNG ด้วย Aspose
+
+Ever needed a **c# OCR tutorial** that actually gets the job done without endless Googling? You're in the right place. In this guide we'll **load image file c#**, **recognize png text**, and **read receipt OCR** results, all while showing you how to **perform OCR image** processing with Aspose OCR.
+
+We'll start by installing the required NuGet package, walk through each line of code, and finish with a tidy JSON dump you can pipe straight into your next data‑pipeline. No fluff, just a practical, ready‑to‑run solution.
+
+## สิ่งที่คุณจะได้เรียนรู้
+
+- วิธีตั้งค่า Aspose OCR ในโครงการ .NET 6 (หรือใหม่กว่า)  
+- ขั้นตอนที่แม่นยำเพื่อ **load an image file c#** และส่งให้ engine  
+- วิธี **recognize png text** จากภาพใบเสร็จและจับผลลัพธ์  
+- วิธีการ **read receipt OCR** ผลลัพธ์เป็น JSON ที่จัดรูปแบบอย่างสวยงาม  
+- เคล็ดลับสำหรับการทำ **perform OCR image** บนไฟล์ประเภทต่าง ๆ และการจัดการกับปัญหาทั่วไป
+
+**ข้อกำหนดเบื้องต้น**  
+- Visual Studio 2022 (หรือ IDE ใดก็ได้ที่คุณชอบ)  
+- .NET 6 SDK หรือใหม่กว่า  
+- ภาพใบเสร็จ PNG ที่พร้อมใช้งาน (เราจะเรียกมันว่า `receipt.png`)
+
+ถ้าคุณมีทั้งหมดนี้แล้ว, ไปเริ่มกันเลย.
+
+![ภาพหน้าจอ c# OCR tutorial](ocr-demo.png "ผลลัพธ์ของ c# OCR tutorial แสดง JSON output")
+
+## c# OCR Tutorial – การตั้งค่า Aspose OCR Engine
+
+First off, we need the Aspose OCR library. Open your terminal in the solution folder and run:
+
+```bash
+dotnet add package Aspose.OCR
+```
+
+That single command pulls in everything required, including native binaries for image decoding. Once installed, create a new console project or add the code to an existing one.
+
+### ทำไมต้องใช้ Aspose?
+
+Aspose OCR รองรับภาษามากกว่า 30 ภาษา ทำงานแบบออฟไลน์ และคืนค่าอ็อบเจ็กต์ `OcrResult` ที่เต็มรูปแบบ—เหมาะสำหรับงาน **perform OCR image** ที่คุณต้องการมากกว่าข้อความธรรมดา.
+
+## Load image file c# and เตรียมใบเสร็จ
+
+Now that the library is ready, let’s **load image file c#**. The `System.Drawing.Image` class does the heavy lifting, but you could also use `SkiaSharp` if you prefer a cross‑platform alternative.
+
+```csharp
+using System;
+using System.Drawing;               // For Image loading
+using Aspose.OCR;                  // OCR engine
+using System.Text.Json;            // JSON serialization
+
+// Step 1: Create and configure the OCR engine
+var ocrEngine = new OcrEngine
+{
+    // English works for most receipts; change as needed
+    Language = OcrLanguage.English
+};
+
+// Step 2: Load the image to be processed
+// Replace the path with the actual location of your receipt PNG
+string imagePath = @"C:\Receipts\receipt.png";
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"File not found: {imagePath}");
+    return;
+}
+using Image receiptImage = Image.FromFile(imagePath);
+```
+
+> **เคล็ดลับ:** ห่อ `Image` ด้วยคำสั่ง `using` (ตามที่แสดง) เพื่อปล่อยทรัพยากรเนทีฟโดยเร็ว—สำคัญมากเมื่อคุณ **perform OCR image** กับไฟล์หลายไฟล์ในลูป.
+
+## Recognize PNG text with Aspose
+
+With the image in memory, the engine can now **recognize png text**. Aspose returns an `OcrResult` that contains both the raw string and detailed data about each recognized word.
+
+```csharp
+// Step 3: Perform OCR and obtain the result object
+OcrResult ocrResult = ocrEngine.RecognizeWithResult(receiptImage);
+
+// Quick sanity check – was anything recognized?
+if (string.IsNullOrWhiteSpace(ocrResult.Text))
+{
+    Console.WriteLine("No text detected. Verify image quality or language settings.");
+    return;
+}
+```
+
+Why call `RecognizeWithResult` instead of the simpler `Recognize`? The former gives you access to confidence scores, bounding boxes, and line breaks—handy if you later need to **read receipt OCR** for line‑item extraction.
+
+## Read receipt OCR Result as JSON
+
+Most downstream systems love JSON, so let’s serialize the `OcrResult`. The `System.Text.Json` serializer handles complex objects gracefully, and we’ll enable indentation for readability.
+
+```csharp
+// Step 4: Convert the OCR result to a readable JSON string (indented)
+string jsonResult = JsonSerializer.Serialize(
+    ocrResult,
+    new JsonSerializerOptions { WriteIndented = true }
+);
+```
+
+The resulting JSON looks something like this (trimmed for brevity):
+
+```json
+{
+  "Text": "Walmart\n123 Main St\nTotal $12.34",
+  "Words": [
+    {
+      "Text": "Walmart",
+      "Confidence": 0.98,
+      "Rectangle": { "X": 10, "Y": 20, "Width": 150, "Height": 30 }
+    },
+    {
+      "Text": "Total",
+      "Confidence": 0.95,
+      "Rectangle": { "X": 10, "Y": 150, "Width": 80, "Height": 25 }
+    }
+  ]
+}
+```
+
+You can now pipe `jsonResult` into a database, a message queue, or simply log it for debugging.
+
+## Perform OCR Image Processing and แสดงผลลัพธ์
+
+Finally, output the JSON to the console. In a real‑world app you’d probably write it to a file or send it over HTTP, but the console makes it easy to verify everything worked.
+
+```csharp
+// Step 5: Output the JSON to the console
+Console.WriteLine("=== OCR Result (JSON) ===");
+Console.WriteLine(jsonResult);
+```
+
+Run the program (`dotnet run`) and you should see the nicely formatted JSON printed. If the receipt image is clear, the text will be spot‑on; if not, consider increasing the image resolution or applying a preprocessing filter (e.g., grayscale, contrast boost) before feeding it to the engine.
+
+### การจัดการกรณีขอบที่พบบ่อย
+
+| Situation | What to do |
+|-----------|------------|
+| **ภาพเบลอ** | Pre‑process with `System.Drawing` to sharpen or increase DPI. |
+| **ใบเสร็จมีหลายภาษา** | Set `ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;` |
+| **การประมวลผลเป็นชุดใหญ่** | Reuse a single `OcrEngine` instance; only change the `Image` each iteration. |
+| **ความกดดันของหน่วยความจำ** | Dispose `Image` objects promptly and consider `await Task.Run` for async pipelines. |
+
+These tweaks keep your **perform OCR image** workflow robust even when the input isn’t perfect.
+
+## สรุป
+
+Congratulations—you’ve just completed a **c# OCR tutorial** that loads an image, **recognizes png text**, and **reads receipt OCR** output as clean JSON. The core steps (engine setup, image loading, OCR execution, serialization, and display) form a solid foundation you can extend to invoices, passports, or any other scanned document.
+
+### ขั้นตอนต่อไป?
+
+- ทดลองใช้ **load image file c#** กับ `SkiaSharp` เพื่อสนับสนุนแบบข้ามแพลตฟอร์มจริง  
+- ศึกษา `OcrResult.Words` ให้ลึกขึ้นเพื่อดึงรายการ, ราคา, และวันที่—เหมาะกับแอปติดตามค่าใช้จ่าย  
+- ผสานบทเรียนนี้กับ Azure Functions หรือ AWS Lambda เพื่อสร้าง API การประมวลผลใบเสร็จแบบ serverless  
+
+Feel free to tweak the code, throw in more images, or even switch to a different language pack. The world of OCR is full of surprises, and now you have the tools to explore them.
+
+Happy coding, and may your receipts always be readable!
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [ดึงข้อความจากภาพ C# ด้วยการเลือกภาษาโดยใช้ Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [ดึงข้อความจากภาพ – การปรับแต่ง OCR ด้วย Aspose.OCR สำหรับ .NET](/ocr/english/net/ocr-optimization/)
+- [วิธีใช้ OCR - จดจำภาพโดยไม่ต้องตรวจจับพื้นที่ข้อความ](/ocr/english/net/image-and-drawing-recognition/recognize-image-without-text-area-detection/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
