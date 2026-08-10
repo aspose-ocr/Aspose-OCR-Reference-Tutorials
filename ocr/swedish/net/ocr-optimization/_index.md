@@ -61,6 +61,12 @@ Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-corr
 
 Spara enkelt flersidiga OCR‑resultat som dokument med Aspose.OCR för .NET. Vår [step-by-step guide](./save-multipage-result-as-document/) låser upp hela potentialen för dokumentgenerering. Integrera Aspose.OCR sömlöst och omvandla dina OCR‑resultat till flersidiga dokument med lätthet.
 
+### [OCR‑förbehandlingssteg i C# – Öka noggrannheten med Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Lär dig hur du förbehandlar bilder i C# för att maximera OCR‑noggrannheten med Aspose.OCR.
+
+### [Aktivera GPU‑acceleration för OCR – Komplett C#‑guide](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Lär dig hur du aktiverar GPU‑acceleration i Aspose.OCR för .NET med en komplett C#‑guide för snabbare bildigenkänning.
+
 Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgång till ytterligare resurser och hålla dig uppdaterad om de senaste framstegen inom OCR‑optimering. Dyka ner i en värld av precision och effektivitet med Aspose.OCR för .NET‑handledningar.
 
 ## OCR‑optimeringshandledningar
@@ -74,6 +80,8 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Aktivera GPU‑acceleration för OCR – Komplett C#‑guide](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Lär dig hur du aktiverar GPU‑acceleration i Aspose.OCR för .NET med en komplett C#‑guide för snabbare bildigenkänning.
 
 ## Vanliga frågor
 

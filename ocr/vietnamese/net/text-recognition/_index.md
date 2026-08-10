@@ -55,6 +55,19 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản từ hình ảnh trong C# – ví dụ OCR hoàn chỉnh](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh, bao gồm mã nguồn đầy đủ và các bước thực hiện.
+### [Nhận dạng văn bản tiếng Ả Rập trong C# – Hướng dẫn Aspose.OCR hoàn chỉnh](./recognize-arabic-text-in-c-complete-aspose-guide/)
+Khám phá cách sử dụng Aspose.OCR trong C# để nhận dạng chính xác văn bản tiếng Ả Rập, kèm ví dụ đầy đủ và hướng dẫn chi tiết.
+### [Cách sử dụng Aspose OCR trong C# – Trích xuất văn bản từ hình ảnh](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm các bước thực hiện và mã nguồn mẫu.
+### [Trích xuất văn bản từ hình ảnh trong C# với Aspose OCR – Hướng dẫn hoàn chỉnh](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm mã nguồn mẫu và các bước thực hiện.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn đầy đủ C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng văn bản từ hình ảnh, bao gồm mã nguồn mẫu và các bước thực hiện.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Chuyển đổi hình ảnh thành văn bản](./recognize-text-from-image-in-c-convert-image-to-text/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để chuyển đổi hình ảnh thành văn bản, bao gồm mã nguồn mẫu và các bước thực hiện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

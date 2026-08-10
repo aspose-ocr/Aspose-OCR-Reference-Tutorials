@@ -70,10 +70,13 @@ Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạn
 Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
+### [Các bước tiền xử lý OCR trong C# – Tăng độ chính xác với Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Tìm hiểu các bước tiền xử lý ảnh để cải thiện độ chính xác OCR trong C# bằng Aspose.OCR.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Kích hoạt tăng tốc GPU cho OCR – Hướng dẫn C# đầy đủ](./enable-gpu-acceleration-ocr-complete-c-guide/)
 
 ## Câu hỏi thường gặp
 
@@ -90,7 +93,7 @@ A: Không có giới hạn cứng; hiệu suất phụ thuộc vào hệ thống
 A: Chắc chắn. API không phụ thuộc vào nền tảng và hoạt động tốt trên Azure Functions, AWS Lambda (thông qua .NET Core) hoặc bất kỳ môi trường đám mây nào khác.
 
 **Hỏi: Có những lựa chọn cấp phép nào cho các dự án thương mại?**
-A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. Bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
+A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
 
 ---
 
