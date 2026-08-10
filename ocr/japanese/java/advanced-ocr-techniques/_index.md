@@ -61,6 +61,17 @@ Aspose.OCR for Java でテキスト認識の能力を解放します。シーム
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
 ### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+### [GPU 加速 OCR を使用した Java での画像テキスト認識](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+GPU の高速処理を活用し、Java アプリケーションで画像からテキストを迅速に抽出する方法を解説します。
+### [Java で画像内の言語を検出する方法 – 完全 Aspose OCR ガイド](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Java と Aspose.OCR を使用して、画像内の言語を自動検出し、テキスト抽出を最適化する完全ガイドです。
+### [Java で ROI に対して OCR を実行する – 完全 Aspose OCR ガイド](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Java アプリで ROI（領域）を指定して OCR を実行し、テキスト抽出を最適化する完全ガイドです。
+### [Java で画像から検索可能な PDF を作成 – 完全バッチ OCR ガイド](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Aspose.OCR for Java を活用し、画像をバッチ処理して検索可能な PDF を自動生成する完全ガイドです。高速かつ正確な OCR で文書をデジタル化します。
+### [Java で画像からテキストを認識する – 完全 Aspose OCR スペルチェックガイド](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Aspose.OCR を使用して、Java アプリで画像テキストのスペルチェックを行う完全ガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
