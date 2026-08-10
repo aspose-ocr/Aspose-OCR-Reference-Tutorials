@@ -55,6 +55,8 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Extrahovat text z PNG pomocí Aspose OCR – Kompletní průvodce v C#](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose OCR v C# načíst a extrahovat text z PNG souborů v několika jednoduchých krocích.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
