@@ -55,6 +55,15 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszö
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
 A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+### [Képről szöveg felismerése C#-ban az Aspose OCR segítségével](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t C#-ban a képek szövegének gyors és pontos kinyeréséhez.
+### [Képről szöveg kinyerése az Aspose OCR segítségével – Cirill](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Ismerje meg, hogyan nyerhet ki cirill karaktereket tartalmazó képekből szöveget az Aspose OCR .NET használatával.
+### [Kép konvertálása ePub formátumba C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat képeket ePub formátumba C#‑ban részletes, lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose OCR-t JPG képek offline szövegkivonásához](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Ismerje meg, hogyan nyerhet ki szöveget JPG képekből offline az Aspose OCR .NET segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

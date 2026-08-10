@@ -27,7 +27,7 @@ Entdecken Sie die Funktionen von Aspose.OCR für .NET und verändern Sie die Art
 
 ## Erhalten Sie das Ergebnis als JSON in der OCR-Bilderkennung
 
-Nutzen Sie das volle Potenzial von Aspose.OCR für .NET, indem Sie lernen, wie Sie mühelos OCR-Ergebnisse im JSON-Format erhalten. Diese Schritt-für-Schritt-Anleitung gewährleistet einen reibungslosen Weg zur Verbesserung Ihrer Bilderkennungsfähigkeiten. Steigern Sie die Effizienz Ihrer Anwendung mit den robusten Funktionen und der branchenführenden Technologie von Aspose.OCR.
+Nutzen Sie das volle Potenzial von Aspose.OCR für .NET, indem Sie lernen, wie Sie mühelos OCR-Ergebnisse im JSON-Format erhalten. Diese Schritt‑für‑Schritt‑Anleitung gewährleistet einen reibungslosen Weg zur Verbesserung Ihrer Bilderkennungsfähigkeiten. Steigern Sie die Effizienz Ihrer Anwendung mit den robusten Funktionen und der branchenführenden Technologie von Aspose.OCR.
 
 ## Modus „OCR-Erkennungsbereiche“ in der OCR-Bilderkennung
 
@@ -55,6 +55,15 @@ Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR für eine effiziente Bildtext
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden zum Erkennen von Tabellen in der OCR-Bilderkennung.
+### [Text aus Bild in C# mit Aspose OCR erkennen](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren und in Ihre .NET-Anwendungen integrieren.
+### [Text aus Bild mit Aspose OCR – Kyrillisch extrahieren](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Lernen Sie, wie Sie mit Aspose OCR kyrillischen Text aus Bildern extrahieren und in Ihre .NET-Anwendungen integrieren.
+### [Bild in ePub konvertieren in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR Bilder in das ePub-Format konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung für C#.
+### [Wie man Aspose OCR verwendet, um Text aus JPG offline zu extrahieren](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus JPG‑Dateien offline extrahieren und in Ihre .NET‑Anwendungen einbinden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

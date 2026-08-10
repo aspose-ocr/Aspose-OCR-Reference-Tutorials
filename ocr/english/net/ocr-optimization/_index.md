@@ -68,10 +68,16 @@ Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from i
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn step-by-step how to prepare rectangles for image recognition. Elevate your .NET applications with seamless OCR integration.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
+### [Preprocess Image for OCR in C# – Complete Aspose OCR Guide](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Step‑by‑step guide to preprocess images for OCR using Aspose.OCR in C#, improving accuracy with filters and settings.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step‑by‑step guide.
+### [OCR confidence scores in C# – Complete Guide](./ocr-confidence-scores-in-c-complete-guide/)
+Learn how to retrieve and interpret OCR confidence scores in C# using Aspose.OCR, improving result validation and post‑processing.
+### [How to Batch OCR in C# – Complete Programming Guide](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Step‑by‑step guide to perform batch OCR processing in C# using Aspose.OCR, covering setup, parallel execution, and result handling.
 
 ## Frequently Asked Questions
 

@@ -68,6 +68,8 @@ weight: 22
 Απελευθερώστε το δυναμικό του Aspose.OCR για .NET στην αναγνώριση γραμμών σε OCR εικόνες. Ένας οδηγός για προγραμματιστές για αβίαστη εξαγωγή κειμένου από εικόνες.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Αποκτήστε τη μαγεία του OCR με το Aspose.OCR για .NET, εξάγοντας κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το tutorial για αβίαστη ενσωμάτωση.
+### [Εξαγωγή Πινάκων από Εικόνα με Aspose OCR – Πλήρης Οδηγός C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Ανακαλύψτε πώς να εξάγετε πίνακες από εικόνες με Aspose OCR σε C#, βήμα‑βήμα οδηγίες.
 
 ## Frequently Asked Questions
 
