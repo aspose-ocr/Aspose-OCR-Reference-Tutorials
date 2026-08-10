@@ -18,7 +18,7 @@ weight: 25
 
 ## Einführung
 
-In diesem Leitfaden entdecken Sie, wie Sie **Text aus Bild extrahieren** Dateien mit Aspose.OCR für .NET. Egal, ob Sie eine Dokumenten‑Verarbeitungspipeline aufbauen oder einer App eine intelligente Suche hinzufügen – das Beherrschen von OCR ist unerlässlich. Wir führen Sie durch jede Phase – Laden von Bildern, Definieren von Regionen, Anwenden von Vorverarbeitungsfiltern, Korrigieren von Ergebnissen mit Rechtschreibprüfung und schließlich das Speichern mehrseitiger Ausgaben. Alle Tutorials werden in einem klaren, schritt‑für‑Schritt‑OCR‑Format präsentiert, sodass Sie die Lösung sofort implementieren können.
+In diesem Leitfaden entdecken Sie, wie Sie **Text aus Bild extrahieren** Dateien mit Aspose.OCR für .NET. Egal, ob Sie eine Dokumenten‑Verarbeitungspipeline aufbauen oder einer App eine intelligente Suche hinzufügen – das Beherrschen von OCR ist unerlässlich. Wir führen Sie durch jede Phase – Laden von Bildern, Definieren von Regionen, Anwenden von Vorverarbeitungsfiltern, Korrigieren von Ergebnissen mit Rechtschreibprüfung und schließlich das Speichern mehrseitiger Ausgaben. Alle Tutorials werden in einem klaren, schritt‑für‑schritt‑OCR‑Format präsentiert, sodass Sie die Lösung sofort implementieren können.
 
 ## Schnelle Antworten
 - **Was bedeutet “extract text from image”?** Umwandlung visueller Zeichen in einem Bild in durchsuchbaren, editierbaren Text.  
@@ -69,6 +69,10 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+### [Wie man die OCR‑Genauigkeit in C# mit Aspose OCR verbessert](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Steigern Sie die OCR‑Genauigkeit in C# mit Aspose OCR durch bewährte Techniken und Optimierungen.
+### [Wie man asynchrones OCR in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie asynchrones OCR in C# implementieren und die Leistung Ihrer Anwendung steigern.
 
 ## Häufig gestellte Fragen
 

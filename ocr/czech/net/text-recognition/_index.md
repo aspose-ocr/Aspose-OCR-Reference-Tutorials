@@ -53,8 +53,23 @@ Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR 
 Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
 ### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
+### [Jak OCR PDF v C# – kompletní průvodce extrakcí textu z PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Kompletní návod, jak v C# pomocí Aspose.OCR extrahovat text z PDF souborů a integrovat jej do vašich aplikací.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Extrahujte text z obrázku pomocí Aspose OCR – rychlý start v C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Rychlý průvodce, jak pomocí Aspose OCR v C# extrahovat text z obrázku.
+### [Jak používat OCR v C# – Extrahovat text z obrázku a rozpoznat text z fotografie](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Rychlý průvodje, jak v C# pomocí Aspose.OCR extrahovat text z obrázku a rozpoznat text na fotografii.
+### [Jak používat OCR v C# – Extrahovat text z obrázků s GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Rychlý průvodce, jak v C# s využitím GPU zrychlit extrakci textu z obrázků pomocí Aspose.OCR.
+### [Vytvořte prohledávatelný PDF z obrázku – kompletní průvodce v C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor.
+### [Jak číst účtenku v C# – OCR + Regex průvodce](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Naučte se pomocí OCR a regulárních výrazů v C# extrahovat data z účtenek.
+### [Jak provést OCR na arabských obrázcích – Extrahovat text v C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Naučte se pomocí Aspose.OCR v C# rozpoznávat a extrahovat text z arabských obrázků.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
