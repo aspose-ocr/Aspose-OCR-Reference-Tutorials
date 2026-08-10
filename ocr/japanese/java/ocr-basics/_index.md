@@ -103,7 +103,13 @@ Aspose.OCR for Java の可能性を解き放つステップバイステップガ
 Aspose.OCR for Java で OCR の精度を向上させます。傾き角度の計算方法をステップバイステップで学び、文書処理を簡単に改善します。
 
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
-Aspose.OCR for Java の力を引き出します。このステップバイステップガイドで画像からテキストをシームレスに抽出する方法を学び、効率的なテキスト認識のために今すぐダウンロードしてください。
+Aspose.OCR の力を引き出します。このステップバイステップガイドで画像からテキストをシームレスに抽出する方法を学び、効率的なテキスト認識のために今すぐダウンロードしてください。
+
+### [Aspose OCR を使用した画像からのテキスト抽出 – 完全な Java チュートリアル](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Aspose OCR を活用し、画像からテキストを抽出する手順をフルで解説します。Java での実装方法を詳しく紹介。
+
+### [画像をテキストに変換する Java – 完全な Aspose OCR 例](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Aspose OCR を使って画像からテキストを抽出するフル実装例をステップバイステップで解説します。
 
 ---
 

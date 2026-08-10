@@ -61,6 +61,15 @@ Aspose.OCR for Java でテキスト認識の能力を解放します。シーム
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
 ### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
+### [Java で画像からテキストを認識する – GPU OCR チュートリアル](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+GPU を活用した高速 OCR により、Java アプリで画像テキスト抽出を実現します。
+### [Aspose OCR を使用した画像からのテキスト認識 – Java 並列バッチ ガイド](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Aspose OCR を活用し、Java で画像を並列バッチ処理しながら高速にテキスト抽出する方法をステップバイステップで解説します。
+### [Java で暗号化された PDF からテキストを抽出する – 完全ガイド](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Java を使用して暗号化された PDF からテキストを安全に抽出する方法をステップバイステップで解説します。
+### [OCR 用画像前処理 – 前処理で精度を向上](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+画像を前処理して OCR の精度を向上させる方法をステップバイステップで解説します。Java で簡単に実装可能です。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

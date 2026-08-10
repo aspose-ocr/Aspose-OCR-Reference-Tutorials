@@ -60,7 +60,7 @@ Keine mühsame PDF‑Textextraktion mehr. Tauchen Sie in das Tutorial ein und r�
 ## OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java
 Erleben Sie die nächste Stufe der Texterkennung in Java mit Aspose.OCR. Unser Tutorial zur Erkennung von Text in TIFF‑Bildern ist darauf ausgelegt, den Prozess für Sie mühelos zu gestalten. Laden Sie jetzt herunter für ein nahtloses OCR‑Erlebnis und erleben Sie die Präzision und Geschwindigkeit, die Aspose.OCR bietet.
 
-Verabschieden Sie sich von manueller Textextraktion aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
+Verabschieden Sie sich von manueller Texterkennung aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
@@ -75,8 +75,12 @@ Unlock precise text extraction from images with Aspose.OCR for Java. Follow our 
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
 ### [OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
+### [Texterkennung im ROI mit Aspose OCR – Java‑Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Entdecken Sie, wie Sie mit Aspose OCR für Java Text in einem definierten ROI erkennen.
 ### [Bildtext mit Aspose OCR erkennen – Vollständiges Java OCR‑Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von Bilddateien mit Aspose OCR in Java erklärt.
+### [Bild für OCR mit Aspose OCR Java laden – Vollständige Anleitung](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Lernen Sie, wie Sie Bilder in Java laden und mit Aspose OCR vollständig verarbeiten, um präzise Texterkennung zu erzielen.
 
 ## Häufig gestellte Fragen
 

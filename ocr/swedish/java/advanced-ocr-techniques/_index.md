@@ -45,6 +45,9 @@ Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Denna h
 
 Extrahera text från bilder utan ansträngning genom att ange tillåtna tecken med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration, vilket säkerställer en sömlös textigenkänningsupplevelse. Förbättra dina Java-applikationer med Aspose.OCR-funktioner.
 
+## [Känn igen text från bild med Java – GPU OCR-handledning](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Utnyttja GPU-acceleration för snabb textigenkänning i Java med Aspose.OCR. Följ vår guide för optimal prestanda och hög noggrannhet.
+
 ## Slutsats
 
 Med Aspose.OCR för Java har det aldrig varit enklare att behärska avancerade OCR-tekniker. Dyk in i dessa handledningar och lås upp den fulla potentialen för textigenkänning i dina Java-projekt. Höj dina applikationer med sömlös integration, hög noggrannhet och mångsidiga textextraheringsmöjligheter. Ladda ner nu och ta det första steget mot OCR-excellens med Aspose.OCR för Java!
@@ -61,6 +64,13 @@ Lås upp kraften i textigenkänning med Aspose.OCR för Java. Följ vår steg-f�
 Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Enkel integration, hög noggrannhet.
 ### [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 Lås upp textextraktion från bilder sömlöst med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration.
+### [Känn igen text från bilder med Aspose OCR – Java parallell batchguide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Utnyttja parallell batchbehandling för att snabbt känna igen text i flera bilder med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide.
+### [Extrahera text från krypterad PDF i Java – Komplett guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Extrahera text från krypterad PDF i Java med Aspose. Följ vår steg‑för‑steg‑guide för enkel och säker textextraktion.
+### [Förbehandla bild för OCR – Öka noggrannheten med förbehandling](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Förbättra OCR‑noggrannheten genom att förbehandla bilder innan igenkänning. Följ vår steg‑för‑steg‑guide för bästa resultat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

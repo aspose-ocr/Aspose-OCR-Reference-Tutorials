@@ -61,6 +61,15 @@ Khai phá sức mạnh của nhận dạng văn bản với Aspose.OCR cho Java.
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Tích hợp dễ dàng, độ chính xác cao.
 ### [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 Mở khóa tính năng trích xuất văn bản từ hình ảnh một cách liền mạch với Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả.
+### [Nhận dạng văn bản từ hình ảnh bằng Java – Hướng dẫn OCR GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Tận dụng GPU để tăng tốc OCR trong Java, trích xuất văn bản từ hình ảnh nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn xử lý song song Java](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Tận dụng khả năng xử lý song song của Aspose OCR trong Java để nhận dạng văn bản từ nhiều hình ảnh nhanh chóng và hiệu quả.
+### [Trích xuất văn bản từ PDF được mã hoá trong Java – Hướng dẫn đầy đủ](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết cách giải mã và trích xuất nội dung văn bản từ các tệp PDF được bảo mật bằng Java.
+### [Tiền xử lý hình ảnh cho OCR – Tăng độ chính xác với tiền xử lý](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Tăng độ chính xác OCR bằng cách áp dụng các kỹ thuật tiền xử lý hình ảnh trước khi nhận dạng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

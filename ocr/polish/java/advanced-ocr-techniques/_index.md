@@ -45,6 +45,8 @@ Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpozna
 
 Bez wysiłku wyodrębniaj tekst z obrazów, określając dozwolone znaki za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną integrację i zapewnić płynne rozpoznawanie tekstu. Ulepsz swoje aplikacje Java dzięki możliwościom Aspose.OCR.
 
+### [Rozpoznawanie tekstu z obrazu w Javie – samouczek GPU OCR](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+
 ## Wniosek
 
 Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
@@ -61,6 +63,13 @@ Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie
 Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
 ### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+### [Rozpoznawanie tekstu z obrazów przy użyciu Aspose OCR – przewodnik równoległego przetwarzania w Javie](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Wykonuj równoległe przetwarzanie wsadowe OCR w Javie, aby szybko wyodrębnić tekst z wielu obrazów przy użyciu Aspose OCR.
+### [Wyodrębnianie tekstu z zaszyfrowanego PDF w Javie – Kompletny przewodnik](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Dowiedz się, jak wyodrębnić tekst z zaszyfrowanych plików PDF w Javie, korzystając z Aspose.OCR, krok po kroku.
+### [Przetwarzanie wstępne obrazu dla OCR – zwiększ dokładność dzięki przetwarzaniu wstępnemu](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Popraw wyniki OCR, przygotowując obrazy przed rozpoznawaniem. Dowiedz się, jak zwiększyć dokładność przy użyciu przetwarzania wstępnego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
