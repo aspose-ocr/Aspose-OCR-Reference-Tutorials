@@ -40,6 +40,9 @@ url: /ar/net/skew-angle-calculation/
 أطلق العنان لقوة Aspose.OCR لـ .NET، وهو حل قوي للتعرف على الصور. تعلم كيفية حساب زوايا الانحراف دون عناء.
 ### [حساب زاوية الانحراف من URI في التعرف على الصور OCR](./calculate-skew-angle-from-uri/)
 استكشف Aspose.OCR لـ .NET لحساب زوايا الانحراف بسهولة في التعرف على الصور باستخدام OCR. عزز مشاريعك بالدقة والكفاءة.
+### [كيفية تصحيح انحراف الصورة في C# باستخدام Aspose OCR – دليل كامل](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+دليل شامل لتصحيح انحراف الصور في C# باستخدام Aspose OCR، يوضح الخطوات العملية لتحقيق نتائج دقيقة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

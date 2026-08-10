@@ -53,8 +53,21 @@ Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON fo
 Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
 ### [Recognize PDF in OCR Image Recognition](./recognize-pdf/)
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
+### [How to Use Aspose – Extract Text from PDF in C# – Complete Guide](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Step-by-step guide to extract text from PDF files using Aspose.OCR in C#. Learn the complete process for .NET applications.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [c# ocr example – Extract Text from Images with Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Learn how to extract text from images using Aspose OCR in C#. Follow our step-by-step guide to implement OCR in your .NET applications.
+### [Extract Text from Form with Aspose OCR – Step‑by‑Step Guide](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Learn how to extract text from forms using Aspose OCR in .NET with this detailed step‑by‑step guide.
+### [Create Searchable PDF from Image – Complete C# Guide](./create-searchable-pdf-from-image-complete-c-guide/)
+Learn how to convert images into searchable PDFs using Aspose.OCR in C#. Follow our comprehensive step‑by‑step guide for .NET developers.
+### [Extract Text from Image in C# – Full Guide](./extract-text-from-image-in-c-full-guide/)
+Comprehensive step-by-step guide to extract text from images using Aspose.OCR in C#. Boost your .NET app's OCR capabilities.
+### [Extract Text from Image in C# – Async OCR Tutorial](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Learn how to perform asynchronous OCR in C# to extract text from images efficiently using Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
