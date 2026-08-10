@@ -40,6 +40,8 @@ Ontdek Aspose.OCR voor .NET, een krachtige OCR-oplossing voor nauwkeurige teksth
 Ontketen de kracht van Aspose.OCR voor .NET, een robuuste oplossing voor beeldherkenning. Leer hoe u moeiteloos schuine hoeken kunt berekenen.
 ### [Bereken de scheefhoek op basis van de URI in OCR-beeldherkenning](./calculate-skew-angle-from-uri/)
 Ontdek Aspose.OCR voor .NET om moeiteloos schuine hoeken te berekenen bij OCR-beeldherkenning. Verbeter uw projecten met precisie en efficiëntie.
+### [Hoe u een afbeelding kunt rechtzetten en scans kunt opschonen – Complete C#-gids](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Leer hoe u afbeeldingen kunt deskewen en scans kunt opschonen met Aspose.OCR in C# voor optimale OCR-resultaten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
