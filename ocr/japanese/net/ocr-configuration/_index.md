@@ -61,6 +61,8 @@ Aspose.OCR で .NET の OCR 画像認識を活用し、フォルダー内の画�
 Aspose.OCR for .NET の強力な OCR 機能を活用し、画像からシームレスにテキストを抽出する方法を学びます。
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR 画像認識を手軽に実行し、アプリケーションの生産性とデータ抽出を向上させます。
+### [Aspose OCR ロガー作成 – 完全ステップバイステップガイド](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aspose OCR 用のロガーを作成し、OCR プロセスの詳細なログを取得する手順をステップバイステップで解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

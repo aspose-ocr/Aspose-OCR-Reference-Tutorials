@@ -69,6 +69,10 @@ Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le t
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
+### [Créer un journal Aspose OCR – Guide complet étape par étape](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+
+Apprenez à créer un logger pour Aspose OCR avec un guide complet étape par étape.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.
