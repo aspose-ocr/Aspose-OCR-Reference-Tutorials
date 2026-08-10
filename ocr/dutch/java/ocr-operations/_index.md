@@ -27,6 +27,7 @@ Bent u klaar om uw tekst‑extractie naar een hoger niveau te tillen? **Herken P
 - **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose‑licentie is vereist voor commerciële implementaties.
 
 ## Wat is “herken pdf tekst”?
+
 Het herkennen van PDF‑tekst houdt in dat elke pagina van een PDF wordt gescand, OCR‑algoritmen worden toegepast en een doorzoekbare laag wordt gecreëerd die de visuele weergave koppelt aan daadwerkelijke tekens. Aspose.OCR voor Java automatiseert dit proces en levert hoogwaardige resultaten zonder handmatige tussenkomst.
 
 ## Waarom Aspose.OCR voor Java gebruiken?
@@ -78,8 +79,12 @@ Ontgrendel precieze tekst‑extractie uit afbeeldingen met Aspose.OCR voor Java.
 Ontgrendel de kracht van OCR in Java met Aspose.OCR. Herken moeiteloos tekst in PDF‑documenten. uw applicaties met precisie en snelheid.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Ontgrendel krachtige tekst‑herkenning in Java met Aspose.OCR. Herken moeiteloos tekst in TIFF‑afbeeldingen. Download nu voor een naadloze OCR‑ervaring.
-### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR-tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR‑tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
+### [Aspose OCR Java‑voorbeeld: tekst herkennen uit afbeelding (Java)](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Leer hoe u met Aspose OCR voor Java tekst uit een afbeelding kunt herkennen in een eenvoudige voorbeeldcode.
+### [Maak doorzoekbare PDF in Java – volledige gids](./create-searchable-pdf-in-java-full-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in Java met een volledige stap‑voor‑stap‑handleiding.
 
 ## Veelgestelde vragen
 
