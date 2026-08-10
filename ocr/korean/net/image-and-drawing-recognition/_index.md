@@ -63,11 +63,13 @@ Aspose.OCR for .NET으로 고급 OCR 기능을 활용하세요. 문단 사각형
 ### [스트림으로 이미지 인식하기](./recognize-image-from-stream/)
 Aspose.OCR for .NET으로 OCR 마법을 경험하세요. 이미지에서 텍스트를 손쉽게 추출합니다. 단계별 가이드를 확인해 보세요.
 ### [텍스트 영역 탐지 없이 이미지 인식하기](./recognize-image-without-text-area-detection/)
-Aspose.OCR for .NET으로 텍스트 인식의 잠재력을 열어보세요. 이미지에서 텍스트를 손쉽게 인식합니다.
+Aspose.OCR을 사용해 전체 이미지를 한 번에 스캔하고 텍스트를 추출하는 빠른 방법을 배웁니다.
 ### [라인 인식하기](./recognize-line/)
-Aspose.OCR for .NET을 활용하여 OCR 이미지 인식에서 라인을 인식하는 잠재력을 발휘하세요. 이미지에서 텍스트를 원활히 추출하는 개발자 가이드입니다.
+특정 라인만 선택적으로 인식하는 방법을 단계별로 안내합니다.
 ### [이미지에 OCR 수행하기](./perform-ocr-on-image/)
-Aspose.OCR for .NET으로 OCR 마법을 경험하고 이미지에서 텍스트를 손쉽게 추출하세요. 원활한 통합을 위한 튜토리얼을 확인해 보세요.
+Aspose.OCR으로 이미지 전체에 OCR을 적용하고 텍스트를 추출하는 과정을 확인하세요.
+### [Aspose OCR을 사용하여 이미지에서 표 추출하기 (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Aspose OCR을 활용해 이미지 내 표를 감지하고 텍스트로 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

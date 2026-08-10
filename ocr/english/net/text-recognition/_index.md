@@ -55,6 +55,17 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [recognize text from image in C# – Complete Aspose OCR Tutorial](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Learn how to recognize text from images using Aspose OCR in C#. Follow the complete step-by-step tutorial for .NET developers.
+### [Extract Text from Image in C# – Complete Aspose OCR Example](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Learn how to extract text from images using Aspose OCR in C#. Follow the complete step-by-step example for .NET developers.
+### [detect language from image with Aspose OCR – C# Tutorial](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Learn how to detect language from images using Aspose OCR in C#. Follow our step-by-step guide for .NET developers.
+### [How to Batch OCR in C# – Convert Multi‑Page TIFF to Text](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Learn how to batch process multi-page TIFF files into text using Aspose.OCR in C#.
+### [Extract Text from Image in C# – Offline OCR Guide](./extract-text-from-image-in-c-offline-ocr-guide/)
+Learn how to perform offline OCR to extract text from images using Aspose OCR in C#. Follow the step-by-step guide for .NET developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

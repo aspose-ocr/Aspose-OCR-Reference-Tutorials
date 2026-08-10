@@ -74,6 +74,10 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [C# ile Görüntüden Metin Çıkarma – Tam OCR Kılavuzu](./extract-text-from-image-with-c-complete-ocr-guide/)
+C# kullanarak görüntülerden metin çıkarmayı adım adım öğrenin ve OCR doğruluğunu en üst düzeye çıkarın.
+### [Aspose OCR ile OCR'ı Geliştirme – Tam C# Kılavuzu](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose OCR ile OCR doğruluğunu artırmak için kapsamlı adımlar ve ipuçları.
 
 ## Sıkça Sorulan Sorular
 
