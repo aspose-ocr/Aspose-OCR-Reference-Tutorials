@@ -55,6 +55,22 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Πώς να χρησιμοποιήσετε το Aspose OCR για μετατροπή εικόνας σε κείμενο σε C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο χρησιμοποιώντας το Aspose OCR με C# σε βήμα-βήμα οδηγό.
+### [Εξαγωγή κειμένου από PNG – Πλήρης σεμινάριο OCR παρτίδας C#](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG σε παρτίδα χρησιμοποιώντας Aspose.OCR με C# σε βήμα-βήμα οδηγό.
+### [Πώς να κάνετε OCR σε εικόνες PNG παρτίδας σε C# – Πλήρης οδηγός](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες PNG με OCR σε C# χρησιμοποιώντας Aspose.OCR, βήμα-βήμα οδηγός.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή κειμένου Hindi από εικόνες](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Μάθετε πώς να εξάγετε κείμενο Hindi από εικόνες χρησιμοποιώντας το Aspose.OCR με C# σε βήμα-βήμα οδηγό.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Μετατροπή σε JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# και να το μετατρέψετε σε μορφές JSON και XML με το Aspose.OCR.
+### [Πώς να κάνετε OCR Αραβικά – Οδηγός C# για εξαγωγή αραβικού κειμένου](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένη Ε εικόνα – Οδηγός C#](./create-searchable-pdf-from-scanned-image-c-guide/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF από σαρωμένη εικόνα με Aspose.OCR σε C# μέσω βήμα-βήμα οδηγού.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Πλήρης οδηγός Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# με πλήρη, βήμα-βήμα οδηγό Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

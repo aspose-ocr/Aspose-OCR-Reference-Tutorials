@@ -55,6 +55,23 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Come utilizzare Aspose OCR per convertire un'immagine in testo in C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Scopri come convertire immagini in testo con Aspose OCR in C#. Segui la guida passo passo per integrare la conversione OCR nella tua app .NET.
+### [Estrai testo da PNG – Tutorial completo OCR batch in C#](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Impara a estrarre testo da file PNG usando Aspose.OCR in un processo batch C# completo.
+### [Come eseguire OCR batch di immagini PNG in C# – Guida completa](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Impara a processare in batch immagini PNG con OCR usando Aspose.OCR in C#. Segui la guida passo passo per automatizzare l'estrazione del testo.
+### [Come utilizzare OCR in C# – Estrarre testo Hindi da immagini](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Scopri come estrarre testo in lingua hindi da immagini usando OCR in C#. Segui la guida passo passo per integrare il riconoscimento nella tua app.
+### [Come fare OCR arabo – Guida C# per estrarre testo arabo](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Scopri come estrarre testo arabo da immagini usando OCR in C#. Segui la guida passo passo per integrare il riconoscimento nella tua app.
+### [Crea PDF Ricercabile da Immagine Scansionata – Guida C#](./create-searchable-pdf-from-scanned-image-c-guide/)
+Impara a trasformare un'immagine scansionata in un PDF ricercabile usando Aspose.OCR in C# con questa guida passo passo.
+### [Estrai testo da immagine in C# – Converti in JSON e XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Scopri come estrarre testo da un'immagine in C# e convertirlo nei formati JSON e XML con Aspose.OCR.
+### [Estrai testo da immagine in C# – Guida completa Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Guida completa per estrarre testo da immagini in C# usando Aspose OCR, passo passo per integrare l'OCR nella tua applicazione.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
