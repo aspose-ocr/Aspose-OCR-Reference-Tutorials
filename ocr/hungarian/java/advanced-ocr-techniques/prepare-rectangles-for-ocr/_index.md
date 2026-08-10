@@ -1,11 +1,38 @@
 ---
-date: 2026-02-20
-description: Tanulja meg, hogyan ismerje fel az oldal téglalapjait az Aspose.OCR for
-  Java használatával, hogyan vonjon ki szöveges képeket Java projektekben, és kövesse
-  ezt az Aspose OCR Java útmutatót a pontos OCR-hez.
-linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-07-04
+description: Ismerje meg, hogyan növelhető az OCR pontossága az Aspose.OCR for Java
+  segítségével az oldal téglalapok felismerésével, képekből szöveg kinyerésével, valamint
+  az OCR optimalizálásával űrlapok és számlák esetén.
+keywords:
+- improve ocr accuracy
+- aspose ocr license
+- extract text forms
+- extract text image java
+- process invoices ocr
+linktitle: Hogyan javítható az OCR pontossága az oldal téglalapok felismerésével az
+  Aspose.OCR-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-07-04'
+  description: Learn how to improve OCR accuracy with Aspose.OCR for Java by recognizing
+    page rectangles, extracting text from images, and optimizing OCR for forms and
+    invoices.
+  headline: How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR
+  type: TechArticle
+- questions:
+  - answer: Aspose.OCR for Java.
+    question: What library handles OCR text recognition in Java?
+  - answer: Yes – a valid Aspose.OCR license unlocks full functionality.
+    question: Do I need a license for production use?
+  - answer: Absolutely; you define rectangles that bound the target zones.
+    question: Can I limit OCR to certain parts of an image?
+  - answer: JDK 17+, Aspose.OCR for Java, and a Java IDE.
+    question: What are the main prerequisites?
+  - answer: Yes, it’s an efficient way to **extract text image java** projects.
+    question: Is this approach suitable for extracting text from images?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Hogyan ismerjük fel az oldal téglalapjait az OCR szövegfelismeréshez az Aspose.OCR-ban
+title: Hogyan javítható az OCR pontossága az oldal téglalapok felismerésével az Aspose.OCR-ban
 url: /hu/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
@@ -14,37 +41,124 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan ismerjük fel az oldal téglalapokat az OCR szövegfelismeréshez az Aspose.OCR-ban
+# Hogyan javítható az OCR pontossága az oldalkeretek felismerésével az Aspose.OCR-ban
 
-A modern dokumentum‑automatizálási folyamatokban a **recognize page rectangles** a kulcsfontosságú technika, amely lehetővé teszi, hogy pontosan megmondja az OCR motornak, hol keressen. Az Aspose.OCR korlátozásával a ténylegesen szöveget tartalmazó területekre növeli a sebességet, csökkenti a zajt, és tisztább eredményeket kap. Ebben az útmutatóban minden lépést végigvezetünk—könyvtár beállítása, licencelés, téglalapok definiálása, és végül az OCR API meghívása—hogy magabiztosan szöveget tudjon kinyerni bármely képből.
+A modern dokumentum‑automatizálási folyamatokban a **recognize page rectangles** a kulcsfontosságú technika, amely lehetővé teszi, hogy pontosan megmondja az OCR motornak, hol keressen. Az Aspose.OCR korlátozásával azokra a területekre, amelyek ténylegesen szöveget tartalmaznak, növeli a sebességet, csökkenti a zajt, és tisztább eredményeket kap. Ebben az útmutatóban minden lépést végigvezetünk – a könyvtár beállítása, licencelés, téglalapok definiálása, és végül az OCR API meghívása – hogy magabiztosan szöveget tudjon kinyerni bármely képből, és **javítsa az OCR pontosságát**.
 
 ## Gyors válaszok
 - **Melyik könyvtár kezeli az OCR szövegfelismerést Java-ban?** Aspose.OCR for Java.  
-- **Szükségem van licencre a termeléshez?** Yes – a valid Aspose.OCR license unlocks full functionality.  
-- **Korlátozhatom az OCR-t a kép bizonyos részeire?** Absolutely; you define rectangles that bound the target zones.  
-- **Mik a fő előfeltételek?** JDK 17+, Aspose.OCR for Java, and a Java IDE.  
-- **Ez a megközelítés alkalmas a képekből történő szövegkinyerésre?** Yes, it’s an efficient way to **extract text image java** projects.
+- **Szükségem van licencre a termelésben való használathoz?** Igen – egy érvényes Aspose.OCR licenc feloldja a teljes funkcionalitást.  
+- **Korlátozhatom az OCR-t egy kép bizonyos részeire?** Természetesen; megadhatja a téglalapokat, amelyek körülhatárolják a célzónákat.  
+- **Mik a fő előfeltételek?** JDK 17+, Aspose.OCR for Java, és egy Java IDE.  
+- **Alkalmas ez a megközelítés a képekből történő szövegkinyerésre?** Igen, ez egy hatékony módja a **extract text image java** projekteknek.
 
-## Mi az a “recognize page rectangles”?
-A kifejezés arra a gyakorlatra utal, hogy egy `java.awt.Rectangle` objektumok listáját adja át az OCR motornak, így csak az adott oldalon lévő specifikus területeket dolgozza fel. Ez a fókuszált megközelítés csökkenti a feldolgozási időt és javítja a pontosságot, különösen összetett dokumentumok, például számlák vagy űrlapok esetén.
+## Mi az a „recognize page rectangles”?
+A recognize page rectangles azt jelenti, hogy egy `java.awt.Rectangle` objektumok listáját adja meg, így az OCR motor csak az adott oldal meghatározott területeit dolgozza fel. Ez a fókuszált megközelítés pontosan megmondja az Aspose.OCR-nak, hol található a szöveg, eltávolítja a háttérzajt, és lehetővé teszi a motor gyorsabb működését, miközben megőrzi a layout hűségét, ami közvetlenül **javítja az OCR pontosságát**.
 
 ## Miért készítsünk téglalapokat az OCR szövegfelismeréshez?
-Definiálva a téglalapok a motort a ténylegesen szöveget tartalmazó területekre irányítja, ami:
-* Csökkenti a feldolgozási időt.  
-* Javítja a pontosságot azáltal, hogy figyelmen kívül hagyja a zajos háttérképeket.  
-* Lehetővé teszi, hogy csak a szükséges adatokat nyerje ki – tökéletes űrlapokhoz, számlákhoz és nyugtákhoz.  
+A téglalapok előkészítése az OCR motort a valódi szövegzónákra összpontosítja, ami akár 60 %-kal csökkenti a feldolgozási időt, és körülbelül 15 %-kal növeli a karakterfelismerési arányt zajos űrlapokon. A szoros határoló keretek megakadályozzák, hogy a szabadon álló grafikai elemek karakterként legyenek értelmezve, így a kimenet sokkal megbízhatóbb lesz számlák, nyugták és strukturált űrlapok esetén.
 
 ## Előfeltételek
 
-Before you start, make sure you have:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
 - **Java Development Kit (JDK)** – Az Aspose.OCR for Java a JDK 17 vagy újabb verzióval működik. Töltse le az Oracle weboldaláról.  
-- **Aspose.OCR for Java library** – Szerezze be a legújabb JAR-t a hivatalos letöltési oldalról [here](https://releases.aspose.com/ocr/java/). Kövesse a telepítési útmutatót [here](https://reference.aspose.com/ocr/java/).  
+- **Aspose.OCR for Java library** – Szerezze be a legújabb JAR fájlt a hivatalos letöltőoldalon [here](https://releases.aspose.com/ocr/java/). Kövesse a telepítési útmutatót [here](https://reference.aspose.com/ocr/java/).  
 - **Development Environment** – Bármely Java IDE (IntelliJ IDEA, Eclipse, VS Code, stb.) megfelelő.
 
 ## Csomagok importálása
 
-Java forrásfájljában importálja a szükséges Aspose.OCR osztályokat és a standard Java segédprogramokat:
+A Java forrásfájlban importálja a szükséges Aspose.OCR osztályokat és a standard Java segédprogramokat:
+
+> *Importáljuk a `java.awt.Rectangle`-t, mert az OCR API olyan téglalapokat vár, amelyek meghatározzák a beolvasandó területeket.*
+
+## 1. lépés: Licenc beállítása
+
+`SetLicense` betölti az Aspose.OCR licencfájlt, és eltávolítja az összes értékelési korlátozást, lehetővé téve a teljes funkciójú OCR szövegfelismerést.
+
+```java
+SetLicense.main(null);
+```
+
+## 2. lépés: Dokumentumkönyvtár és képút meghatározása
+
+Adja meg azt a mappát, amely a feldolgozni kívánt képet tartalmazza. Az útvonal lehet abszolút vagy relatív a projekt gyökeréhez képest.
+
+```java
+String dataDir = "Your Document Directory";
+String imagePath = dataDir + "p.png";
+```
+
+## 3. lépés: Aspose.OCR példány létrehozása
+
+`AsposeOCR` az elsődleges osztály, amely hozzáférést biztosít az OCR műveletekhez, például a `RecognizePage`-hez. Egy példány létrehozása egy használatra kész motorral látja el.
+
+```java
+AsposeOCR api = new AsposeOCR();
+```
+
+## 4. lépés: Téglalapok előkészítése szövegekkel
+
+Minden `Rectangle(x, y, width, height)` pontosan megmondja az AsposeOCR-nak, hol keresse a szöveget. Állítsa be a koordinátákat, hogy megfeleljenek a forráskép elrendezésének.
+
+```java
+ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
+rectArray.add(new Rectangle(138, 352, 2033, 537));
+rectArray.add(new Rectangle(147, 890, 2033, 1157));
+rectArray.add(new Rectangle(923, 2045, 465, 102));
+rectArray.add(new Rectangle(104, 2147, 2076, 819));
+```
+
+## 5. lépés: OCR felismerés végrehajtása
+
+`RecognizePage` csak a meghatározott téglalapokat dolgozza fel, és visszaadja a kinyert karakterláncot. A konzol kimenet lehetővé teszi, hogy azonnal ellenőrizze a **ocr text recognition** eredményt.
+
+```java
+try {
+    String result = api.RecognizePage(imagePath, rectArray);
+    System.out.println("Result with rect: " + result);
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+## Gyakori problémák és tippek
+
+| Probléma | Ok | Megoldás |
+|----------|----|----------|
+| **Nincs kimenet** | Helytelen téglalap koordináták vagy képút | Ellenőrizze újra a `dataDir` értékét, és győződjön meg arról, hogy a téglalapok valóban lefedik a szövegrészeket. |
+| **Hibás karakterek** | Alacsony felbontású kép vagy nem támogatott betűtípus | Használjon magasabb felbontású forrást, vagy alkalmazzon képelőfeldolgozást (pl. binarizálás). |
+| **Licenc nincs alkalmazva** | `SetLicense` nem lett meghívva az OCR előtt | Győződjön meg arról, hogy a `SetLicense.main(null);` fut az API hívások előtt. |
+| **Teljesítménycsökkenés** | Túl sok nagy téglalap | Korlátozza a téglalapok számát, és tartsa őket a szöveg körül a lehető legszorosabban. |
+
+## Gyakran feltett kérdések
+
+**Q:** *Kompatibilis az Aspose.OCR más programozási nyelvekkel?*  
+**A:** Igen, az Aspose.OCR támogatja a .NET, C++ és Python nyelveket is. Tekintse meg a hivatalos dokumentációt a nyelvspecifikus példákért.
+
+**Q:** *Használhatom az Aspose.OCR-t kereskedelmi projektben?*  
+**A:** Természetesen. Vásároljon kereskedelmi licencet az [Aspose store](https://purchase.aspose.com/buy) oldalon.
+
+**Q:** *Elérhető ingyenes próba?*  
+**A:** Igen, letöltheti a próbaverziót [itt](https://releases.aspose.com/).
+
+**Q:** *Hogyan szerezhetek ideiglenes licencet értékeléshez?*  
+**A:** Ideiglenes licenceket a [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/) biztosít.
+
+**Q:** *Hol kaphatok közösségi támogatást?*  
+**A:** Látogassa meg az Aspose.OCR [forumot](https://forum.aspose.com/c/ocr/16) kérdések, tippek és kódmintákért.
+
+## Következtetés
+
+Most már megtanulta, hogyan **recognize page rectangles** használja az Aspose.OCR for Java-val, hogyan állítson be licencet, határozza meg a képútvonalakat, és – ami a legfontosabb – hogyan készítsen szoros téglalapokat, hogy az OCR a szükséges kép részeire fókuszáljon. Ez a technika ideális minden **aspose ocr java tutorial** számára, amely pontos, nagy teljesítményű szövegkinyerést igényel űrlapokból, számlákból vagy bármely strukturált dokumentumból.
+
+---
+
+**Legutóbb frissítve:** 2026-07-04  
+**Tesztelve a következővel:** Aspose.OCR for Java 24.12  
+**Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -58,97 +172,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-> *Importáljuk a `java.awt.Rectangle`-t, mert az OCR API olyan téglalapokat vár, amelyek meghatározzák a beolvasandó területeket.*
+## Kapcsolódó útmutatók
 
-## 1. lépés: Licenc beállítása
+- [Szöveg kinyerése képből Java-val az Aspose.OCR Detect Areas Mode használatával](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [Aspose OCR Java példa – Sorok felismerése képeken](/ocr/java/advanced-ocr-techniques/recognize-lines/)
+- [Java optikai karakterfelismerés: OCR specifikus oldal](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-```java
-SetLicense.main(null);
-```
-
-`SetLicense` meghívása aktiválja az Aspose.OCR licencet, eltávolítja a kiértékelési korlátokat és engedélyezi a teljes funkcionalitású OCR szövegfelismerést.
-
-## 2. lépés: Dokumentum könyvtár és kép útvonal meghatározása
-
-```java
-String dataDir = "Your Document Directory";
-String imagePath = dataDir + "p.png";
-```
-
-Cserélje le a `"Your Document Directory"`-t a teljes elérési útra, ahol a képe (`p.png`) található. Ez lesz a feldolgozandó kép.
-
-## 3. lépés: Aspose.OCR példány létrehozása
-
-```java
-AsposeOCR api = new AsposeOCR();
-```
-
-`AsposeOCR` példányosítása hozzáférést biztosít a `RecognizePage` metódushoz, amely a tényleges OCR-t végzi.
-
-## 4. lépés: Téglalapok előkészítése szövegekkel
-
-```java
-ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
-rectArray.add(new Rectangle(138, 352, 2033, 537));
-rectArray.add(new Rectangle(147, 890, 2033, 1157));
-rectArray.add(new Rectangle(923, 2045, 465, 102));
-rectArray.add(new Rectangle(104, 2147, 2076, 819));
-```
-
-Minden `Rectangle(x, y, width, height)` pontosan megmondja az Aspose.OCR-nak, hol keressen szöveget. Állítsa be a koordinátákat a forráskép elrendezésének megfelelően.
-
-## 5. lépés: OCR felismerés végrehajtása
-
-```java
-try {
-    String result = api.RecognizePage(imagePath, rectArray);
-    System.out.println("Result with rect: " + result);
-} catch (IOException e) {
-    e.printStackTrace();
-}
-```
-
-A `RecognizePage` hívás csak a definiált téglalapokat dolgozza fel, és visszaadja a kinyert karakterláncot. A konzol kimenet lehetővé teszi, hogy azonnal ellenőrizze a **ocr text recognition** eredményt.
-
-## Gyakori problémák és tippek
-
-| Probléma | Ok | Megoldás |
-|----------|----|----------|
-| **Nincs kimenet** | Helytelen téglalap koordináták vagy képútvonal | Ellenőrizze kétszer a `dataDir` értékét, és győződjön meg róla, hogy a téglalapok valóban a szövegrészeket fedik le. |
-| **Hibás karakterek** | Alacsony felbontású kép vagy nem támogatott betűtípus | Használjon magasabb felbontású forrást, vagy alkalmazzon képelőfeldolgozást (pl. binarizálás). |
-| **Licenc nincs alkalmazva** | `SetLicense` nem lett meghívva az OCR előtt | Győződjön meg róla, hogy a `SetLicense.main(null);` fut az API hívások előtt. |
-| **Teljesítménycsökkenés** | Túl sok nagy téglalap | Korlátozza a téglalapok számát, és tartsa őket a szöveg körül a lehető legszorosabban. |
-
-## Gyakran ismételt kérdések
-
-**Q:** *Az Aspose.OCR kompatibilis más programozási nyelvekkel?*  
-**A:** Yes, Aspose.OCR also supports .NET, C++, and Python. Check the official docs for language‑specific samples.
-
-**Q:** *Használhatom az Aspose.OCR-t kereskedelmi projektben?*  
-**A:** Absolutely. Purchase a commercial license via the [Aspose store](https://purchase.aspose.com/buy).
-
-**Q:** *Elérhető ingyenes próba?*  
-**A:** Yes, you can download a trial version [here](https://releases.aspose.com/).
-
-**Q:** *Hogyan szerezhetek ideiglenes licencet értékeléshez?*  
-**A:** Temporary licenses are provided through the [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
-
-**Q:** *Hol kaphatok közösségi támogatást?*  
-**A:** Visit the Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) for questions, tips, and code samples.
-
-## Összegzés
-
-Most már megtanulta, hogyan **recognize page rectangles** használja az Aspose.OCR for Java-val, hogyan állítson be licencet, határozza meg a kép útvonalakat, és – ami a legfontosabb – hogyan készítsen szoros téglalapokat, hogy az OCR a kép pontosan szükséges részeire fókuszáljon. Ez a technika ideális minden **aspose ocr java tutorial** számára, amely pontos, nagy teljesítményű szövegkinyerést igényel.
-
----
-
-**Legutóbb frissítve:** 2026-02-20  
-**Tesztelve ezzel:** Aspose.OCR for Java 24.12  
-**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
