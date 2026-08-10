@@ -61,6 +61,13 @@ Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie
 Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
 ### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+### [Jak skonfigurować GPU dla OCR – rozpoznawanie tekstu z obrazu](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Dowiedz się, jak skonfigurować GPU, aby przyspieszyć rozpoznawanie tekstu w Aspose.OCR dla Java.
+### [Tworzenie przeszukiwalnego PDF w Javie – Kompletny przewodnik](./create-searchable-pdf-with-java-complete-guide/)
+Dowiedz się, jak w pełni wykorzystać Aspose.OCR do tworzenia przeszukiwalnych plików PDF w Javie.
+### [Jak wyprostować obraz dla OCR – Przewodnik przetwarzania wstępnego w Javie](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Dowiedz się, jak wyprostować obrazy przed OCR w Javie, aby zwiększyć dokładność rozpoznawania tekstu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

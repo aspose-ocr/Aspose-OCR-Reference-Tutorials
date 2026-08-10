@@ -74,15 +74,13 @@ Búcsúzz el a TIFF képek manuális szövegkinyerésétől. Hagyd, hogy az Aspo
 
 ## OCR műveletek tutorialok
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
-Szabadítsd fel a képekből történő szövegkinyerés erejét az Aspose.OCR for Java segítségével. Átfogó tutorial a Detect Areas Mode OCR-hoz.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
-Szabadítsd fel a képek pontos szövegkinyerését az Aspose.OCR for Java segítségével. Kövesd lépésről lépésre útmutatónkat a nyelvválasztással történő pontos OCR-hoz.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
-Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget PDF dokumentumokban. Növeld alkalmazásaidat pontossággal és sebességgel.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
-Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
 ### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Hogyan engedélyezzük az OCR-t Java-ban az Aspose segítségével – Teljes lépésről‑lépésre útmutató](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+### [Képről szöveg felismerése Aspose OCR Java-val – Teljes útmutató](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+### [Hindi szöveg kinyerése képekből – Java OCR példa](./extract-hindi-text-from-images-java-ocr-example/)
 
 ## Gyakran Ismételt Kérdések
 
