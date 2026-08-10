@@ -53,7 +53,7 @@ Czy jesteś gotowy, aby uruchomić pełny potencjał Aspose.OCR dla .NET? Nasz p
 
 ## Filtry wstępnego przetwarzania obrazu w rozpoznawaniu obrazu OCR
 
-Zwiększony moduł OCR przy użyciu Aspose.OCR dla .NET, eksplorując [filtry wstępnego przetwarzania](./preprocessing-filters-for-image/). Pobierz teraz i odkryj, jak określić dostroić obrazy przed niem. Ten samouczek zapewnia płynną, podnoszącą wydajność i efekty.
+Zwiększony moduł OCR przy użyciem Aspose.OCR dla .NET, eksplorując [filtry wstępnego przetwarzania](./preprocessing-filters-for-image/). Pobierz teraz i odkryj, jak określić dostroić obrazy przed niem. Ten samouczek zapewnia płynną, podnoszącą wydajność i efekty.
 
 ## Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 
@@ -80,6 +80,12 @@ Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, 
 
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+
+### [Jak włączyć GPU dla OCR w C# – Rozpoznawanie tekstu](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Dowiedz się, jak wykorzystać akcelerację GPU w Aspose.OCR dla .NET, aby przyspieszyć rozpoznawanie tekstu w aplikacjach C#.
+
+### [Jak wykonać OCR w C# – Kompletny przewodnik z przetwarzaniem wstępnym](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Pełny przewodnik po OCR w C# z krok po kroku instrukcjami, w tym technikami przetwarzania wstępnego dla lepszej dokładności.
 
 ## Często zadawane pytania
 

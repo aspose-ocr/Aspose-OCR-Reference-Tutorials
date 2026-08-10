@@ -35,7 +35,7 @@ Aspose.OCR एक लचीला API प्रदान करता है ज
 
 ## OCR इमेज रिकग्निशन में पैराग्राफ के लिए रेक्टेंगल प्राप्त करना
 
-दस्तावेज़ों के साथ काम करते समय, पूरे पैराग्राफ निकालना अक्सर पंक्ति‑दर‑पंक्ति प्रोसेसिंग से अधिक उपयोगी होता है। गाइड **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** आपको पैराग्राफ सीमाओं का पता लगाने और उन क्षेत्रों को OCR इंजन को फीड करने की प्रक्रिया समझाता है।
+दस्तावेज़ों के साथ काम करते समय, पूरे पैराग्राफ निकालना अक्सर पंति‑दर‑पंति प्रोसेसिंग से अधिक उपयोगी होता है। गाइड **[Getting Rectangles for Paragraphs](./get-rectangles-for-paragraphs/)** आपको पैराग्राफ सीमाओं का पता लगाने और उन क्षेत्रों को OCR इंजन को फीड करने की प्रक्रिया समझाता है।
 
 ## OCR इमेज रिकग्निशन में स्ट्रीम से इमेज पहचानना
 
@@ -65,9 +65,11 @@ Aspose.OCR for .NET के साथ OCR जादू को अनलॉक क
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Aspose.OCR for .NET के साथ टेक्स्ट रिकग्निशन की संभावनाओं को अनलॉक करें। इमेज से टेक्स्ट को सहजता से पहचानें।
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
-Aspose.OCR for .NET की क्षमता को लाइन पहचानने में अनलॉक करें। इमेज से टेक्स्ट एक्सट्रैक्शन के लिए डेवलपर गाइड।
+Aspose.OCR की क्षमता को लाइन पहचानने में अनलॉक करें। इमेज से टेक्स्ट एक्सट्रैक्शन के लिए डेवलपर गाइड।
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
-Aspose.OCR for .NET के साथ OCR जादू को अनलॉक करें और इमेज से टेक्स्ट को सहजता से निकालें। सहज इंटीग्रेशन के लिए ट्यूटोरियल देखें।
+Aspose.OCR के साथ OCR जादू को अनलॉक करें और इमेज से टेक्स्ट को सहजता से निकालें। सहज इंटीग्रेशन के लिए ट्यूटोरियल देखें।
+### [C# में टेबल को CSV के रूप में सहेजें – Aspose OCR पूर्ण गाइड](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके इमेज में टेबल को पहचानें और उसे CSV फ़ाइल में निर्यात करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
