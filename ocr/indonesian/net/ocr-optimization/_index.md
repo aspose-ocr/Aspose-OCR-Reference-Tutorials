@@ -61,8 +61,6 @@ Capai akurasi OCR yang tak tertandingi dengan [Aspose.OCR for .NET](./result-cor
 
 Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan Aspose.OCR untuk .NET. [Panduan langkah demi langkah](./save-multipage-result-as-document/) kami membuka potensi penuh pembuatan dokumen. Integrasikan Aspose.OCR secara mulus dan ubah hasil OCR Anda menjadi dokumen multipage dengan mudah.
 
-Dengan Daftar Tutorial Aspose.OCR untuk .NET, Anda dapat mengakses sumber daya tambahan dan tetap terbarui dengan kemajuan terbaru dalam optimisasi OCR. Menyelami dunia presisi dan efisiensi dengan tutorial Aspose.OCR untuk .NET.
-
 ## Tutorial Optimisasi OCR
 ### [Lakukan OCR pada Gambar dari URL dalam OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Jelajahi integrasi OCR yang mulus dengan Aspose.OCR untuk .NET. Mengenali teks dari gambar dengan presisi.
@@ -74,6 +72,8 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter preprocessi
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan capai pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multipage sebagai Dokumen dalam OCR Image Recognition](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan panduan langkah demi langkah yang komprehensif ini.
+### [Cara OCR Gambar dengan Aspose OCR – Panduan C# yang Dipercepat GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Pelajari cara mengoptimalkan OCR gambar menggunakan GPU dengan C#, meningkatkan kecepatan dan akurasi secara signifikan.
 
 ## Pertanyaan yang Sering Diajukan
 

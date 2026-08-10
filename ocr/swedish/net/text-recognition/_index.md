@@ -55,6 +55,21 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur man känner igen hindi från bilder i C# – Steg‑för‑steg‑guide](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+Lär dig att känna igen hindi-text i bilder med Aspose.OCR för .NET i en steg-för-steg-guide.
+### [Skapa sökbar PDF i C# – Konvertera TIFF till PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+Lär dig hur du med Aspose.OCR för .NET konverterar TIFF-filer till sökbara PDF-dokument i C#.
+### [Utför OCR på bild i C# – Komplett Aspose OCR-guide](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+Lär dig hur du med Aspose.OCR för .NET utför OCR på en bild i C# med en komplett steg-för-steg-guide.
+### [Kör OCR på bild med Aspose OCR – Komplett C#-guide](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET kör OCR på en bild i C# med en komplett steg-för-steg-guide.
+### [Hur man batch-OCR:ar filer i C# – Fullständigt kodexempel](./how-to-batch-ocr-files-in-c-full-code-example/)
+Lär dig att bearbeta flera filer med OCR i C# med ett komplett kodexempel för Aspose.OCR.
+### [Hur man utför OCR i C# – Konvertera bild till JSON-guide](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+Lär dig hur du med Aspose.OCR för .NET konverterar en bild till JSON-format i en enkel steg-för-steg-guide.
+### [Känn igen text från bild med Aspose OCR – Komplett C#-guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig hur du med Aspose OCR för .NET utför textigenkänning från bilder i en komplett C#-guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
