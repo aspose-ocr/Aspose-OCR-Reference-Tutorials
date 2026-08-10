@@ -116,6 +116,9 @@ Zwiększ dokładność OCR przy użyciu Aspose.OCR for Java. Naucz się krok po 
 ### [Uzyskiwanie prostokątów z obszarami tekstu w Aspose.OCR](./get-rectangles-with-text-areas/)
 Odkryj moc Aspose.OCR for Java. Dowiedz się, jak płynnie wyodrębniać tekst z obrazów w tym przewodniku krok po kroku. Pobierz teraz, aby uzyskać efektywne rozpoznawanie tekstu.
 
+### [Wyodrębnianie tekstu z obrazu w Javie – Pobierz tekst z OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Dowiedz się, jak wyodrębnić tekst z obrazów w Javie przy użyciu Aspose.OCR, obejmując konfigurację, przetwarzanie i pobieranie wyników OCR.
+
 ---
 
 **Last Updated:** 2025-12-08  
