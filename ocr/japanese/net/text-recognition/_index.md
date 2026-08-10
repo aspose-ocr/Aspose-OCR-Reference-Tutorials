@@ -49,12 +49,23 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、正確な
 画像内のシームレスなテキスト認識のための強力な OCR ソリューションである Aspose.OCR for .NET を探索してください。
 ### [OCR画像認識で結果をJSONとして取得](./get-result-as-json/)
 Aspose.OCR for .NET のパワーを解放します。 OCR 結果を JSON 形式で簡単に取得する方法を学びます。このステップバイステップのガイドを使用して、画像認識を強化します。
+### [Aspose OCR を使用して画像を JSON に変換する方法](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Aspose.OCR を使って画像を JSON 形式に変換し、OCR 結果を簡単に取得する手順を解説します。
 ### [OCR画像認識のOCR検出領域モード](./ocr-detect-areas-mode/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、画像テキストを効率的に認識します。正確な結果を得るには、OCR 領域検出モードを調べてください。
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [Aspose を使用したアラビア文字 OCR – C# OCR 例](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Aspose.OCR を使用して C# でアラビア語テキストを認識する方法をステップバイステップで解説します。
+### [画像からEPUBファイルを作成 – 完全なC# OCRガイド](./create-epub-file-from-image-complete-c-ocr-guide/)
+Aspose.OCR と C# を使用して画像から EPUB ファイルを生成し、OCR 結果を電子書籍に組み込む手順をステップバイステップで解説します。
+### [Aspose OCR を使用した画像からのテキスト認識 – 完全な C# 非同期ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Aspose.OCR と C# の非同期機能を活用して、画像からテキストを認識する完全ガイドです。
+### [Aspose OCR を使用した画像からのテキスト認識 – 完全な C# ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR と C# を活用し、画像からテキストを認識する完全ガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

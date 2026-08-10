@@ -73,6 +73,9 @@ weight: 25
 حسّن دقة OCR مع Aspose.OCR for .NET. صحّح الأخطاء الإملائية، خصّص القواميس، واحصل على نص خالٍ من الأخطاء بسهولة.
 ### [حفظ النتيجة متعددة الصفحات كمستند في التعرف على الصور باستخدام OCR](./save-multipage-result-as-document/)
 افتح إمكانات Aspose.OCR for .NET. احفظ نتائج OCR متعددة الصفحات كمستندات بسهولة من خلال هذا الدليل الشامل خطوة بخطوة.
+### [تشغيل OCR على صورة باستخدام GPU – دليل C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+استفد من قوة GPU لتسريع عملية OCR في تطبيقات C# باستخدام Aspose.OCR. دليل خطوة بخطوة لتفعيل المعالجة على وحدة الرسوميات.
+### [إجراء OCR على صورة – تعزيز الدقة باستخدام Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 
 ## الأسئلة المتكررة
 
