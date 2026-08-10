@@ -1,6 +1,6 @@
 ---
-title: Textigenkänning
-linktitle: Textigenkänning
+title: Textigennänning
+linktitle: Textigennänning
 second_title: Aspose.OCR .NET API
 description: Förhöj dina .NET-applikationer med Aspose.OCR för exakt teckenigenkänning. Upptäck självstudier för att få val, resultat och JSON-format i OCR-bildigenkänning.
 weight: 21
@@ -55,6 +55,19 @@ Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkä
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur man OCR:ar arabiska i C# – Steg‑för‑steg‑guide](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Lär dig att känna igen arabiska tecken i C# med Aspose.OCR genom en detaljerad steg‑för‑steg‑guide.
+### [Hur man använder Aspose – Konvertera bild till ePub i C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Lär dig konvertera en bild till ePub-format med Aspose i C# med vår steg‑för‑steg‑guide.
+### [Känn igen text från PNG – Aspose OCR C# JSON‑L handledning](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Lär dig hur du med Aspose OCR i C# extraherar text från PNG-filer och får resultat i JSON‑L‑format.
+### [c# OCR-handledning – Extrahera text från bild med Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Lär dig hur du med Aspose OCR i C# extraherar text från en bild snabbt och enkelt.
+### [Hur man batch-OCR i C# – Extrahera text från PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Lär dig hur du med Aspose OCR i C# batchbearbetar PNG-filer för att extrahera text effektivt.
+### [Känn igen text från bild i C# – Komplett Aspose OCR-guide](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Lär dig steg‑för‑steg hur du med Aspose OCR i C# extraherar text från en bild och får exakta resultat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

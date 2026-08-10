@@ -40,6 +40,8 @@ url: /el/net/skew-angle-calculation/
 Απελευθερώστε τη δύναμη του Aspose.OCR για .NET, μια ισχυρή λύση για την αναγνώριση εικόνων. Μάθετε πώς να υπολογίζετε τις γωνίες λοξής χωρίς κόπο.
 ### [Υπολογίστε τη γωνία κλίσης από το URI στην Αναγνώριση εικόνας OCR](./calculate-skew-angle-from-uri/)
 Εξερευνήστε το Aspose.OCR για .NET για να υπολογίσετε εύκολα τις γωνίες λοξής στην αναγνώριση εικόνας OCR. Βελτιώστε τα έργα σας με ακρίβεια και αποτελεσματικότητα.
+### [Πώς να διορθώσετε την κλίση εικόνας με το Aspose OCR – Πλήρης οδηγός C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε βήμα-βήμα πώς να αφαιρέσετε την κλίση από εικόνες χρησιμοποιώντας το Aspose OCR σε C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
