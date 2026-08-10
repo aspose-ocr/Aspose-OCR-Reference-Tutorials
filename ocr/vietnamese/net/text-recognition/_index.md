@@ -53,8 +53,19 @@ Giải phóng sức mạnh của Aspose.OCR cho .NET. Tìm hiểu cách thu đư
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản hình ảnh hiệu quả. Khám phá Chế độ khu vực phát hiện OCR để có kết quả chính xác.
 ### [Nhận dạng PDF trong Nhận dạng hình ảnh OCR](./recognize-pdf/)
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
+### [Thực hiện OCR trên PDF với Aspose.OCR – Hướng dẫn C# đầy đủ](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để thực hiện OCR trên tệp PDF bằng C# một cách hiệu quả.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Thực hiện OCR trên hình ảnh với Aspose OCR – Hướng dẫn tiếng Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng văn bản trên hình ảnh cho ngôn ngữ Hindi trong hướng dẫn chi tiết này.
+### [Thực hiện OCR trên hình ảnh và phát hiện từ sai chính tả trong C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR trên hình ảnh và phát hiện các từ sai chính tả.
+### [Cách sử dụng Aspose: Chuyển đổi hình ảnh sang HTML với OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành HTML bằng Aspose OCR, giúp bạn nhúng nội dung văn bản đã nhận dạng vào trang web.
+### [OCR phụ đề video trong C# – Hướng dẫn đầy đủ](./video-subtitle-ocr-in-c-complete-guide/)
+Khám phá cách sử dụng Aspose.OCR trong .NET để nhận dạng phụ đề video bằng C# một cách chi tiết và hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

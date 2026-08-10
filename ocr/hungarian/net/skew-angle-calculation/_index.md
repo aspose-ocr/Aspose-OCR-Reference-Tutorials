@@ -40,6 +40,8 @@ Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a ponto
 Engedje szabadjára az Aspose.OCR for .NET erejét, amely egy robusztus megoldás a képfelismeréshez. Tanulja meg a ferde szögek egyszerű kiszámítását.
 ### [Számítsa ki a ferde szöget az URI-ből az OCR képfelismerésben](./calculate-skew-angle-from-uri/)
 Fedezze fel az Aspose.OCR for .NET alkalmazást, amellyel könnyedén kiszámíthatja a ferde szögeket az OCR képfelismerésben. Fokozza projektjeit pontossággal és hatékonysággal.
+### [OCR elforgatott dokumentum oktatóanyag – automatikus ferde korrekció és forgatás javítása C#-ban](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Fedezze fel, hogyan javíthatja automatikusan az elforgatott dokumentumok ferdeségét és forgását C#-ban az Aspose.OCR segítségével.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

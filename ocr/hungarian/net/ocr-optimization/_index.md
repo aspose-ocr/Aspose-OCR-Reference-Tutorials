@@ -74,6 +74,9 @@ Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a
 ### [Többoldalas eredmény mentése dokumentumként OCR kép felismerésben](./save-multipage-result-as-document/)
 Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként ezzel az átfogó lépésről‑lépésre útmutatóval.
 
+### [Aspose OCR C# példa – GPU engedélyezése, memóriahatár beállítása és TIF képek feldolgozása](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Ismerje meg, hogyan használhatja a GPU-t, állíthatja be a memória korlátot és dolgozhat fel TIF képeket az Aspose OCR C# példában.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

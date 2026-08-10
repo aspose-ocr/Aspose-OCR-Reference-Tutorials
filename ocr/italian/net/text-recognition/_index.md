@@ -53,8 +53,19 @@ Scatena la potenza di Aspose.OCR per .NET. Impara a ottenere risultati OCR in fo
 Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconoscimento del testo delle immagini. Esplora la modalità Rileva aree OCR per risultati precisi.
 ### [Riconoscere PDF nel riconoscimento immagini OCR](./recognize-pdf/)
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
+### [Esegui OCR su PDF con Aspose.OCR – Guida completa C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Scopri come eseguire l'OCR su PDF usando Aspose.OCR con esempi e istruzioni complete in C#.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Esegui OCR su immagine con Aspose OCR – Guida Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Scopri come eseguire l'OCR su un'immagine usando Aspose OCR con esempi e istruzioni in lingua hindi.
+### [Esegui OCR su immagine e rileva parole errate in C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Scopri come utilizzare Aspose.OCR in C# per eseguire l'OCR su un'immagine e identificare le parole con errori ortografici.
+### [Come usare Aspose: Convertire immagine in HTML con OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Scopri come convertire un'immagine in HTML mantenendo il testo riconosciuto con Aspose.OCR in pochi passaggi.
+### [OCR dei sottotitoli video in C# – Guida completa](./video-subtitle-ocr-in-c-complete-guide/)
+Scopri come eseguire l'OCR sui sottotitoli dei video usando Aspose.OCR in C# con una guida completa passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
