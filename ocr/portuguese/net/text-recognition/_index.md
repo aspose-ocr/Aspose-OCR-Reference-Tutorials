@@ -37,6 +37,12 @@ A eficiência é fundamental em aplicativos .NET e o Aspose.OCR está aqui para 
 
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço e integre-o perfeitamente aos seus aplicativos. Este tutorial fornece um guia completo para reconhecer texto em PDFs, garantindo uma experiência de integração perfeita e eficiente.
 
+### [Realizar OCR em PDF com Aspose OCR – Guia Completo](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Aprenda a executar OCR em PDFs usando Aspose OCR com este guia completo passo a passo.
+
+### [Criar PDF pesquisável a partir de imagem – Guia C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando C# e Aspose OCR neste tutorial passo a passo.
+
 ## Reconhecer tabela no reconhecimento de imagem OCR
 
 Navegue pelas complexidades do reconhecimento de tabelas no reconhecimento de imagens OCR com Aspose.OCR for .NET. Nosso guia completo permite que você libere todo o potencial do Aspose.OCR, garantindo reconhecimento de tabela preciso e eficiente em seus aplicativos. Eleve seus projetos com a solução de OCR líder do setor.
@@ -49,12 +55,29 @@ Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento preciso de car
 Explore o Aspose.OCR for .NET, uma solução poderosa de OCR para reconhecimento contínuo de texto em imagens.
 ### [Obtenha o resultado como JSON no reconhecimento de imagem OCR](./get-result-as-json/)
 Liberte o poder do Aspose.OCR para .NET. Aprenda a obter resultados de OCR no formato JSON sem esforço. Melhore o reconhecimento de sua imagem com este guia passo a passo.
+### [Converter imagem para JSON com Aspose OCR – Guia completo em C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Aprenda a converter imagens em JSON usando Aspose OCR com este guia completo passo a passo em C#.
 ### [Modo de detecção de áreas de OCR no reconhecimento de imagem OCR](./ocr-detect-areas-mode/)
 Aprimore seus aplicativos .NET com Aspose.OCR para reconhecimento eficiente de texto de imagem. Explore o modo de detecção de áreas de OCR para obter resultados precisos.
 ### [Reconhecer PDF em reconhecimento de imagem OCR](./recognize-pdf/)
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
+### [Realizar OCR em PDF com Aspose OCR – Guia Completo](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Aprenda a executar OCR em PDFs usando Aspose OCR com este guia completo passo a passo.
+### [Criar PDF pesquisável a partir de imagem – Guia C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando C# e Aspose OCR neste tutorial passo a passo.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Extrair texto de imagem em C# – Tutorial completo de OCR](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Aprenda a extrair texto de imagens usando C# com Aspose.OCR em um tutorial completo passo a passo.
+### [Reconhecer texto de imagem em C# – Tutorial completo Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Aprenda a reconhecer texto em imagens usando C# com Aspose.OCR neste tutorial completo passo a passo.
+### [Reconhecer texto chinês em C# – Guia completo de OCR](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Aprenda a reconhecer texto chinês em C# usando Aspose.OCR com este guia completo passo a passo.
+### [Extrair texto de imagem em C# – Guia passo a passo](./extract-text-from-image-in-c-step-by-step-guide/)
+Aprenda passo a passo a extrair texto de imagens usando C# com Aspose.OCR.
+### [Como fazer OCR em lote em C# – Extrair texto de digitalizações](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Aprenda a processar múltiplas imagens em lote usando Aspose.OCR em C#, extraindo texto de digitalizações de forma eficiente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

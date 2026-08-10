@@ -37,10 +37,17 @@ A hatékonyság kulcsfontosságú a .NET-alkalmazásokban, és az Aspose.OCR seg
 
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget PDF-fájlokból, és zökkenőmentesen integrálja alkalmazásaiba. Ez az oktatóanyag átfogó útmutatót nyújt a PDF-fájlok szövegének felismeréséhez, biztosítva a zökkenőmentes és hatékony integrációs élményt.
 
-## Táblázat felismerése az OCR képfelismerésben
+### [PDF OCR végrehajtása Aspose OCR-rel – Teljes útmutató](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Ismerje meg, hogyan végezhet teljes körű OCR-t PDF-fájlokon az Aspose OCR használatával .NET környezetben.
 
-Az Aspose.OCR for .NET segítségével navigálhat a táblázatok felismerésének bonyolultságában az OCR képfelismerésben. Átfogó útmutatónk felhatalmazza Önt az Aspose.OCR teljes potenciáljának kiaknázására, biztosítva a pontos és hatékony táblázatfelismerést alkalmazásaiban. Emelje fel projektjeit az iparágvezető OCR megoldással.
+### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
+Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget PDF-fájlokból, és zökkenőmentesen integrálja alkalmazásaiba. Ez az oktatóanyag átfogó útmutatót nyújt a PDF-fájlok szövegének felismeréséhez, biztosítva a zökkenőmentes és hatékony integrációs élményt.
 
+### [Kereshető PDF létrehozása képből – C# Aspose OCR útmutató](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből C#-ban az Aspose OCR segítségével.
+
+### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
+A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatóval tárja fel.
 Készen áll a .NET-alkalmazások forradalmasítására? Merüljön el szövegfelismerési oktatóanyagainkban, és használja ki az Aspose.OCR erejét a pontos és hatékony szövegfelismeréshez a képeken. Töltse le most, és induljon el a továbbfejlesztett OCR-képességek utazására.
 ## Szövegfelismerési oktatóanyagok
 ### [Válasszon az OCR képfelismerésben felismert karakterek közül](./get-choices-for-recognized-characters/)
@@ -48,13 +55,26 @@ Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a pontos karakterfel
 ### [Felismerés eredménye az OCR képfelismerésben](./get-recognition-result/)
 Fedezze fel az Aspose.OCR for .NET-et, amely egy hatékony OCR-megoldás a zökkenőmentes szövegfelismeréshez a képekben.
 ### [Eredmény lekérése JSON-ként az OCR képfelismerésben](./get-result-as-json/)
-Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről-lépésre szóló útmutatóval.
+Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhet könnyedén OCR-eredményeket JSON formátumban. Fokozza képfelismerését ezzel a lépésről‑lépésre szóló útmutatóval.
 ### [OCR Területek észlelése mód az OCR képfelismerésben](./ocr-detect-areas-mode/)
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
 Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
 ### [Táblázat felismerése az OCR képfelismerésben](./recognize-table/)
-A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatónkkal tárja fel.
+A .NET-hez készült Aspose.OCR-ben rejlő lehetőségeket az OCR-képfelismerés tábláinak felismeréséről szóló átfogó útmutatóval tárja fel.
+### [Képből szöveg kinyerése C#-ban – Teljes OCR oktatóanyag](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Képből szöveg kinyerése C#-ban – Teljes Aspose OCR oktatóanyag](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose.OCR segítségével, részletes, teljes körű útmutatóval.
+### [Képből szöveg kinyerése C#-ban – Lépésről‑lépésre útmutató](./extract-text-from-image-in-c-step-by-step-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Kínai szöveg felismerése C#-ban – Teljes OCR útmutató](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Ismerje meg, hogyan ismerhet fel kínai szöveget C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Kép konvertálása JSON-re Aspose OCR-rel – Teljes C# útmutató](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan konvertálhat képet JSON formátumba az Aspose OCR segítségével C#-ban, lépésről‑lépésre útmutatóval.
+### [Kötegelt OCR C#-ban – Szöveg kinyerése beolvasott dokumentumokból](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Ismerje meg, hogyan végezhet kötegelt OCR-t C#-ban, és nyerjen ki szöveget több beolvasott képből egyszerre.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
