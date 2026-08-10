@@ -81,6 +81,12 @@ Buka kekuatan OCR di Java dengan Aspose.OCR. Mengenali teks dalam dokumen PDF de
 Buka pengenalan teks yang kuat di Java dengan Aspose.OCR. Mengenali teks dalam gambar TIFF dengan mudah. Unduh sekarang untuk pengalaman OCR yang mulus.
 ### [Mengenali Teks Gambar dengan Aspose OCR – Tutorial OCR Java Lengkap](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Panduan lengkap mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Cara Menggunakan OCR di Java – Ekstrak Teks dari Gambar dengan Koreksi Ejaan](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Pelajari cara mengekstrak teks dari gambar menggunakan OCR di Java dan memperbaiki ejaan secara otomatis.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR di Java, langkah demi langkah.
+### [Buat PDF yang Dapat Dicari dari Gambar dengan OCR Java](./create-searchable-pdf-from-image-with-java-ocr/)
+Panduan singkat membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR di Java, lengkap dengan contoh kode.
 
 ## Pertanyaan yang Sering Diajukan
 

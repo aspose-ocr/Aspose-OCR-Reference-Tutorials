@@ -81,6 +81,12 @@ weight: 21
 Мощное распознавание текста в Java с Aspose.OCR. Легко распознавайте текст в TIFF‑изображениях. Скачайте сейчас для бесшовного OCR‑опыта.
 ### [Распознавание текста на изображении с Aspose OCR – Полный Java OCR туториал](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
+### [Как использовать OCR в Java – извлечение текста из изображения с исправлением орфографии](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Узнайте, как извлечь текст из изображения в Java с помощью Aspose.OCR и автоматически исправлять орфографические ошибки.
+### [Создание поискового PDF из изображения – пошаговое руководство Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Подробный пошаговый туториал по созданию searchable PDF из изображений с помощью Aspose.OCR для Java.
+### [Создание searchable PDF из изображения с Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Создайте searchable PDF из изображения с помощью OCR в Java, используя Aspose.OCR.
 
 ## Часто задаваемые вопросы
 
