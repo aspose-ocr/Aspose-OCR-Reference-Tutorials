@@ -61,6 +61,13 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+### [كيفية تمكين GPU لتقنية OCR في Java – دليل خطوة بخطوة](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+اكتشف كيف تُفعّل وحدة معالجة الرسومات (GPU) لتسريع عملية OCR في Java خطوة بخطوة باستخدام Aspose.OCR، لتحسين الأداء واستخراج النص بسرعة.
+### [التعرف على النص من الصور باستخدام Java – دليل OCR المتوازي](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+اكتشف كيفية التعرف على النص من الصور باستخدام Java مع معالجة OCR المتوازية لتحسين الأداء.
+### [استخراج النص من الصورة باستخدام Java – دليل OCR كامل مع تصحيح الأخطاء الإملائية](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+دليل شامل لاستخراج النص من الصور في Java باستخدام OCR مع تصحيح إملائي لضمان دقة عالية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
