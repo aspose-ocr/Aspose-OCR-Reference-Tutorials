@@ -55,6 +55,23 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [PNG'den Metin Çıkarma – Görüntüden OCR ile Metin Okuma](./extract-text-from-png-read-text-from-image-with-ocr/)
+PNG dosyalarından metin çıkarın ve OCR ile görüntüdeki metni okuyun.
+### [c# OCR öğreticisi: Görüntülerden Metin Çıkarma (WebP, Fotoğraf) – Hızlı Kılavuz](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+C# ve Aspose.OCR kullanarak WebP ve fotoğraf gibi görüntülerden hızlıca metin çıkarın.
+### [C#'ta OCR Nasıl Yapılır – Görüntülerden Arapça Metin Çıkarma](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+C# ve Aspose.OCR kullanarak görüntülerden Arapça metin çıkarma adımlarını öğrenin.
+### [Tarama Dosyalarından Arama Yapılabilir PDF Oluşturma – Adım Adım C# Rehberi](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+Tarama dosyalarından arama yapılabilir PDF oluşturmayı, Aspose.OCR ve C# ile adım adım öğrenin.
+### [C#'ta PNG Görüntülerini Toplu OCR İşleme – Tam Kılavuz](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+C# ve Aspose.OCR kullanarak birden çok PNG dosyasını toplu olarak OCR ile işleyin ve metinleri hızlıca çıkarın.
+### [OCR Nasıl Kullanılır: Görüntüyü C# ile HTML'ye Dönüştürme](./how-to-use-ocr-convert-image-to-html-in-c/)
+C# ve Aspose.OCR kullanarak bir görüntüyü HTML formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – Adım Adım Kılavuz](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR kullanarak bir görüntüden metin çıkarma sürecini adım adım öğrenin.
+### [OCR Motoru C# ile JSON Ayrıştırma – Tam Adım Adım Kılavuz](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+OCR motoru kullanarak C# içinde JSON verilerini nasıl ayrıştıracağınızı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
