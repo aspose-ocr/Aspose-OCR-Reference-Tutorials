@@ -55,6 +55,15 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [ภาพใบเสร็จเป็นข้อความ – OCR Cyrillic ด้วย Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+เรียนรู้วิธีแปลงภาพใบเสร็จเป็นข้อความด้วย OCR Cyrillic โดยใช้ Aspose อย่างง่ายดายและแม่นยำ
+### [วิธีแปลง OCR เป็น JSON & XML ใน C# – เขียนไฟล์ JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+เรียนรู้วิธีแปลงผลลัพธ์ OCR เป็นรูปแบบ JSON หรือ XML ด้วย C# และบันทึกเป็นไฟล์ JSON อย่างง่าย
+### [บทแนะนำ OCR ด้วย C# – ดึงข้อความอารบิกด้วย Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+เรียนรู้วิธีดึงข้อความภาษาอารบิกจากภาพด้วย Aspose OCR ใน C# ผ่านขั้นตอนที่ง่ายและแม่นยำ
+### [บทแนะนำ OCR ด้วย C# – ดึงข้อความจากภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+เรียนรู้วิธีดึงข้อความจากภาพด้วย Aspose OCR ใน C# ผ่านขั้นตอนที่ง่ายและแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

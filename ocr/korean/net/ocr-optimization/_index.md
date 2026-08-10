@@ -49,14 +49,6 @@ Aspose.OCR for .NET의 전체 잠재력을 발휘할 준비가 되셨나요? 이
 ## OCR 이미지 인식에서 이미지 전처리 필터
 Aspose.OCR for .NET를 사용하여 [전처리 필터](./preprocessing-filters-for-image/)를 탐색함으로써 OCR 정확도를 높이세요. 지금 다운로드하고 인식 전에 이미지를 미세 조정하는 방법을 알아보세요. 이 튜토리얼은 원활한 통합을 보장하며 정확도와 효율성을 향상시킵니다.
 
-## OCR 이미지 인식에서 맞춤법 검사로 결과 교정
-[Aspose.OCR for .NET](./result-correction-with-spell-checking/)와 함께 비할 데 없는 OCR 정확도를 달성하세요. 맞춤법 검사를 통한 결과 교정 튜토리얼은 사전을 사용자 정의하고, 철자를 교정하며, 오류 없는 텍스트 인식을 손쉽게 보장합니다. Aspose.OCR와 함께 정밀함의 세계에 뛰어들어 보세요.
-
-## OCR 이미지 인식에서 다중 페이지 결과를 문서로 저장
-Aspose.OCR for .NET를 사용하여 다중 페이지 OCR 결과를 문서로 손쉽게 저장하세요. 우리의 [단계별 가이드](./save-multipage-result-as-document/)는 문서 생성의 전체 잠재력을 열어줍니다. Aspose.OCR를 원활히 통합하고 OCR 결과를 다중 페이지 문서로 쉽게 변환하세요.
-
-Aspose.OCR For .NET 튜토리얼 목록을 활용하면 추가 리소스에 접근하고 OCR 최적화의 최신 발전 상황을 지속적으로 확인할 수 있습니다. Aspose.OCR for .NET 튜토리얼과 함께 정밀함과 효율성의 세계에 뛰어들어 보세요.
-
 ## OCR 최적화 튜토리얼
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 텍스트를 정밀하게 인식합니다.
@@ -64,10 +56,16 @@ Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 
 Aspose.OCR for .NET의 잠재력을 우리의 포괄적인 가이드와 함께 활용하세요. 이미지 인식을 위한 사각형 준비 방법을 단계별로 배우고, .NET 애플리케이션을 원활한 OCR 통합으로 향상시킵니다.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높이고, 지금 다운로드하여 원활한 통합을 경험하세요.
+### [OCR을 위한 이미지 전처리 – Aspose.OCR로 정확도 향상](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+이미지 전처리 방법을 배우고 Aspose.OCR로 OCR 정확도를 크게 높이는 단계별 가이드를 제공합니다.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [Aspose OCR로 PNG에서 텍스트 인식 – GPU 가속 배치 데모](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+GPU 가속을 활용해 대량 PNG 이미지를 빠르게 OCR 처리하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR로 검색 가능한 PDF 만들기](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Aspose OCR을 사용해 C#에서 이미지 기반 PDF를 검색 가능하게 변환하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
@@ -75,7 +73,7 @@ Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 
 A: 예, Aspose.OCR은 다양한 언어를 지원하며 혼합 언어 콘텐츠를 인식하도록 구성할 수 있습니다.
 
 **Q: 전처리가 정확도를 어떻게 향상시키나요?**  
-A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높입니다.
+A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높습니다.
 
 **Q: 한 번에 처리할 수 있는 페이지 수에 제한이 있나요?**  
 A: 명확한 제한은 없으며, 성능은 시스템 리소스에 따라 달라집니다. 매우 큰 배치의 경우 페이지를 여러 구간으로 나누어 처리하는 것을 고려하세요.
