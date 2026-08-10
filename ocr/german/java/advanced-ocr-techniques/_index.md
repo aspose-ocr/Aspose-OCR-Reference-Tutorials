@@ -23,7 +23,11 @@ Aspose.OCR für Java ist ein Game-Changer, wenn es um die optische Zeichenerkenn
 
 ## [Durchführen von OCR für BufferedImage in Aspose.OCR für Java](./perform-ocr-buffered-image/)
 
-In diesem Tutorial führen wir Sie durch den Prozess der Durchführung von OCR für BufferedImage mit Aspose.OCR für Java. Erfahren Sie, wie Sie mühelos Text aus Bildern extrahieren und so ein vielseitiges Texterkennungserlebnis gewährleisten. Laden Sie es jetzt herunter und verbessern Sie Ihre Java-Anwendungen.
+Führen Sie mit Aspose.OCR für Java mühelos OCR für BufferedImage durch. Extrahieren Sie nahtlos Text aus Bildern. Laden Sie es jetzt herunter und genießen Sie ein vielseitiges Texterkennungserlebnis.
+
+### [OCR handschriftliche Notizen – Fehler beheben mit Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+
+Erfahren Sie, wie Sie handschriftliche Notizen mit Aspose OCR erkennen und typische Erkennungsfehler korrigieren.
 
 ## [Durchführen von OCR für Bilder von einer URL in Aspose.OCR für Java](./perform-ocr-image-from-url/)
 
@@ -61,6 +65,13 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [GPU für Java-OCR aktivieren – Text aus Bild erkennen](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Erfahren Sie, wie Sie GPU-Unterstützung für Aspose.OCR in Java aktivieren, um die Texterkennung aus Bildern zu beschleunigen.
+### [Wie man OCR in Java verwendet – Text aus PDF extrahieren (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus PDF-Dateien extrahieren und die OCR-Funktion nutzen.
+### [Wie man Aspose für mehrsprachige OCR in Java verwendet](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Erfahren Sie, wie Sie mit Aspose in Java OCR für mehrere Sprachen durchführen und Text aus mehrsprachigen Bildern extrahieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

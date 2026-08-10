@@ -61,6 +61,17 @@ Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze sta
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
 ### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
 Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+### [GPU inschakelen voor Java OCR – Tekst herkennen uit afbeelding](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Leer hoe u GPU-ondersteuning activeert voor Aspose.OCR in Java om tekstherkenning te versnellen.
+### [Hoe OCR te gebruiken in Java – Tekst extraheren uit PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Leer hoe u met Aspose.OCR in Java tekst uit PDF-bestanden kunt extraheren voor nauwkeurige en snelle OCR-resultaten.
+### [Hoe Aspose te gebruiken voor meertalige OCR in Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Leer hoe u Aspose voor Java kunt inzetten om OCR in meerdere talen uit te voeren, met hoge nauwkeurigheid en eenvoudige integratie.
+### [OCR handgeschreven notities – Fouten corrigeren met Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Leer hoe u handgeschreven notities kunt OCR'en en fouten kunt corrigeren met Aspose OCR in Java.
+### [Zoekbare PDF maken – Java-gids voor het converteren van gescande PDF's](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Leer hoe u met Aspose.OCR in Java gescande PDF's omzet naar doorzoekbare PDF's voor efficiënte tekstextractie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
