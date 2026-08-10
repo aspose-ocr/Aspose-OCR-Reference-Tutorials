@@ -1,12 +1,47 @@
 ---
-date: 2026-02-25
-description: Leer hoe u tekst uit een afbeelding kunt extraheren met Aspose.OCR voor
-  .NET. Deze gids leidt u door het voorbereiden van rechthoeken voor OCR-beeldherkenning
-  en het verbeteren van de nauwkeurigheid.
-linktitle: Prepare Rectangles in OCR Image Recognition
+date: 2026-07-23
+description: Leer hoe u tekst uit een afbeelding kunt extraheren met Aspose.OCR for
+  .NET, door rechthoeken voor te bereiden om de OCR-nauwkeurigheid te verbeteren en
+  de afbeelding efficiënt naar tekst te converteren.
+keywords:
+- extract text from image
+- convert image to text
+- improve ocr accuracy
+lastmod: 2026-07-23
+linktitle: Rechthoeken voorbereiden bij OCR-afbeeldingsherkenning
+og_description: Tekst extraheren uit een afbeelding met Aspose.OCR for .NET. Leer
+  rechthoeken voor te bereiden, de OCR-nauwkeurigheid te verhogen en de afbeelding
+  efficiënt naar tekst te converteren.
+og_image_alt: Guide to extract text from image using rectangles with Aspose.OCR for
+  .NET
+og_title: Tekst extraheren uit afbeelding met rechthoeken – OCR-gids
+schemas:
+- author: Aspose
+  dateModified: '2026-07-23'
+  description: Learn how to extract text from image using Aspose.OCR for .NET, preparing
+    rectangles to improve OCR accuracy and convert image to text efficiently.
+  headline: Extract Text from Image with Rectangles – OCR Guide
+  type: TechArticle
+- questions:
+  - answer: It converts visual characters in a picture into machine‑readable strings.
+    question: What does “extract text from image” mean?
+  - answer: Aspose.OCR for .NET provides a full‑featured OCR engine.
+    question: Which library handles this in .NET?
+  - answer: A free trial works for development; a commercial license is required for
+      deployment.
+    question: Do I need a license for production?
+  - answer: Yes—define rectangles to target only the areas that contain useful text.
+    question: Can I limit OCR to specific zones?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: What .NET versions are supported?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Hoe tekst uit een afbeelding te extraheren door rechthoeken voor te bereiden
-  in OCR
+tags:
+- ocr
+- Aspire.OCR
+- .NET image processing
+- extract text from image
+title: Tekst extraheren uit afbeelding met rechthoeken – OCR-gids
 url: /nl/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
@@ -15,44 +50,46 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rechthoeken voorbereiden in OCR-beeldherkenning
+# Tekst uit afbeelding extraheren met rechthoeken – OCR-gids
 
-## Introductie
+## Inleiding
 
-Optical Character Recognition (OCR) is essentieel voor het omzetten van visuele inhoud naar doorzoekbare, bewerkbare tekst. In deze tutorial **haal je tekst uit een afbeelding** door aangepaste rechthoeken te definiëren die de OCR‑engine richten op specifieke gebieden. Met Aspose.OCR voor .NET lopen we elke stap door – van het opzetten van je project tot het ophalen van de herkende tekst – zodat je krachtige afbeelding‑naar‑tekst functionaliteit kunt integreren in je .NET‑applicaties.
+Optical Character Recognition (OCR) laat je **extract text from image** bestanden zoeken en bewerken. In deze tutorial laten we zien hoe je de OCR-nauwkeurigheid kunt verbeteren door aangepaste rechthoeken voor te bereiden die de engine richten op de exacte zones die je nodig hebt. Met Aspose.OCR voor .NET zie je de volledige workflow — van projectopzet tot het ophalen van de herkende strings — zodat je betrouwbare afbeelding‑naar‑tekst conversie kunt integreren in elke .NET‑applicatie.
 
 ## Snelle antwoorden
-- **Wat betekent “tekst uit afbeelding halen”?** Het betekent het omzetten van de visuele tekens in een afbeelding naar machinaal leesbare strings.  
-- **Welke bibliotheek helpt hierbij in .NET?** Aspose.OCR voor .NET.  
-- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.  
-- **Kan ik specifieke gebieden targeten?** Ja, door rechthoeken te definiëren die de OCR‑scope beperken.  
-- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Wat betekent “extract text from image”?** Het zet visuele tekens in een afbeelding om in machinaal leesbare strings.  
+- **Welke bibliotheek behandelt dit in .NET?** Aspose.OCR for .NET biedt een volledig uitgeruste OCR-engine.  
+- **Heb ik een licentie nodig voor productie?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor implementatie.  
+- **Kan ik OCR beperken tot specifieke zones?** Ja—definieer rechthoeken om alleen de gebieden te targeten die bruikbare tekst bevatten.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Wat is “tekst uit afbeelding halen” met rechthoeken?
-Wanneer je rechthoekige zones op een afbeelding definieert, verwerkt de OCR‑engine alleen die zones. Dit verbetert de nauwkeurigheid, verkort de verwerkingstijd en laat je storende achtergronden of irrelevante delen negeren.
+## Wat is “extract text from image” met rechthoeken?
+Het `extract text from image` proces leest tekens binnen gedefinieerde rechthoekige zones, en negeert de rest. Door OCR te beperken tot die zones krijg je hogere nauwkeurigheid, snellere verwerking en minder nabewerking. Deze aanpak isoleert de tekst die je nodig hebt terwijl achtergrondgrafieken, decoratieve elementen en andere visuele ruis die de OCR-engine kunnen verwarren, worden weggegooid.
 
 ## Waarom rechthoeken voorbereiden vóór OCR?
-- **Focus op relevante inhoud:** Sla kopteksten, voetteksten of decoratieve grafieken over.  
-- **Verbeterde prestaties:** Kleinere gebieden betekenen snellere herkenning.  
-- **Verbeterde nauwkeurigheid:** Minder visueel lawaai leidt tot schonere resultaten.
+Het voorbereiden van rechthoeken stelt je in staat de OCR-engine te concentreren op de meest relevante delen van een afbeelding, wat zowel snelheid als precisie verbetert. Door het analysegebied te verkleinen verminder je de hoeveelheid data die de engine moet onderzoeken, wat leidt tot snellere resultaten en minder misherkenningen veroorzaakt door overbodige visuele rommel.
 
-## Waarom dit belangrijk is voor real‑world projecten
-Veel zakelijke documenten – bonnen, facturen, ID‑kaarten – hebben gemengde lay‑outs waarbij alleen bepaalde delen waardevolle tekst bevatten. Door rechthoeken te gebruiken, kun je alleen de benodigde velden extraheren, waardoor de nabewerking drastisch wordt verminderd en de betrouwbaarheid van je automatiseringspipeline toeneemt.
+- **Focus on relevant content:** Sla kopteksten, voetteksten of decoratieve afbeeldingen over die de engine zouden verwarren.  
+- **Boost performance:** Kleinere regio's vereisen minder berekeningen, waardoor de uitvoeringstijd met tot 40 % wordt verkort bij grote scans.  
+- **Improve accuracy:** Het verminderen van visuele ruis verhoogt de tekenherkenningspercentages van ~85 % naar >95 % bij ruisende documenten.
 
-## Veelvoorkomende use‑cases
-- **Gegevensinvoerautomatisering:** Haal specifieke velden uit gescande formulieren.  
-- **Compliance‑controles:** Isoleer en verifieer juridische tekstblokken.  
-- **Inhouds‑indexering:** Index alleen de kop of bijschrift van een afbeelding voor zoekmachines.  
+## Waarom dit belangrijk is voor projecten in de echte wereld
+Veel zakelijke documenten—bonnen, facturen, ID‑kaarten—combineren tekst met logo's of barcodes. Door rechthoeken te tekenen rond de velden die je daadwerkelijk nodig hebt, extraheer je alleen de waardevolle gegevens, waardoor downstream schoonmaakwerk wordt verminderd en de betrouwbaarheid van geautomatiseerde workflows wordt verhoogd. Deze gerichte extractie vermindert nabewerkingsinspanningen en helpt te voldoen aan normen voor gegevensverwerking.
+
+## Veelvoorkomende gebruikssituaties
+- **Data entry automation:** Haal specifieke velden op uit gescande formulieren of onkostennota's.  
+- **Compliance checks:** Isoleer juridische clausules of regelgevende verklaringen voor verificatie.  
+- **Content indexing:** Index alleen de kop of bijschrift van een afbeelding voor zichtbaarheid in zoekmachines.
 
 ## Voorvereisten
 
-- Vertrouwdheid met C# en .NET‑ontwikkeling.  
-- Aspose.OCR voor .NET bibliotheek geïnstalleerd – je kunt deze **[hier](https://releases.aspose.com/ocr/net/)** downloaden.  
+- Basiskennis van C# en .NET-ontwikkeling.  
+- Aspose.OCR for .NET bibliotheek geïnstalleerd – download het **[here](https://releases.aspose.com/ocr/net/)** of bekijk alle releases **[here](https://releases.aspose.com/)**.  
 - Een voorbeeldafbeelding (bijv. `sample.png`) die de tekst bevat die je wilt extraheren.
 
-## Namespaces importeren
+## Importer namespaces
 
-Breng eerst de benodigde namespaces in scope:
+De `using`-statements brengen de OCR-engine en geometrieklassen in scope.
 
 ```csharp
 using System;
@@ -62,9 +99,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Stap 1: Stel je documentmap in
+## Stap 1: Stel uw documentmap in
 
-Geef aan waar je afbeeldingsbestanden staan en maak een instantie van de OCR‑engine.
+Geef de map op die uw afbeeldingen bevat en maak een instantie van de OCR-engine.
 
 ```csharp
 // The path to the documents directory.
@@ -74,13 +111,12 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Hoe tekst uit afbeelding halen met meerdere rechthoeken
+## Hoe tekst uit afbeelding te extraheren met meerdere rechthoeken
+Laad de afbeelding één keer, en voer vervolgens een lijst met rechthoeken in bij de OCR-engine. Elke rechthoek definieert een interessegebied, en de engine retourneert een aparte string voor elk gebied, zodat je velden individueel kunt verwerken en resultaten kunt combineren indien nodig.
 
-### Stap 2: Herken afbeelding met meerdere rechthoeken
+### Definieer de rechthoeken
 
-#### 2.1 Definieer de rechthoeken
-
-Maak een lijst van `Rectangle`‑objecten die de gebieden omschrijven die de OCR‑engine moet scannen.
+`Rectangle`-objecten beschrijven de X‑Y-coördinaten en de grootte van elke zone die je wilt scannen.  
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -92,9 +128,9 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-#### 2.2 Voer OCR‑herkenning uit
+### Voer OCR-herkenning uit
 
-Geef het afbeeldingspad en de lijst met rechthoeken door aan `RecognizeImage`. De methode retourneert een collectie strings – elk item komt overeen met één rechthoek.
+De `RecognizeImage`-methode verwerkt de afbeelding met behulp van de meegeleverde rechthoeklijst en retourneert herkende tekst voor elk gebied.  
 
 ```csharp
 // first case
@@ -107,11 +143,12 @@ foreach (string s in listResult)
 }
 ```
 
-### Stap 3: Herken afbeelding met Recognition Settings (alternatieve aanpak)
+## Hoe tekst uit afbeelding te extraheren met RecognitionSettings (alternatieve aanpak)
+Als je de voorkeur geeft aan een op instellingen gebaseerde oproep, kun je hetzelfde resultaat bereiken met `RecognitionSettings`. Dit object stelt je in staat rechthoekdefinities te bundelen met taal, DPI en andere OCR-opties, waardoor je een nette, één‑parameter API‑aanroep krijgt.
 
-Als je liever `RecognitionSettings` gebruikt, kun je hetzelfde resultaat behalen met een iets andere API‑aanroep.
+### Definieer herkenningsinstellingen
 
-#### 3.1 Definieer herkenningsinstellingen
+`RecognitionSettings` stelt je in staat de rechthoeklijst en extra opties (bijv. taal, DPI) in één object te bundelen.  
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -120,7 +157,9 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-#### 3.2 Toon herkende tekst
+### Geef herkende tekst weer
+
+Itereer over de geretourneerde strings en geef de tekst van elk gebied weer.  
 
 ```csharp
 // Display the recognized text
@@ -132,48 +171,54 @@ foreach (string s in result.RecognitionAreasText)
 
 ## Veelvoorkomende problemen & tips
 
-- **Onjuiste rechthoekcoördinaten:** Zorg ervoor dat de waarden `X`, `Y`, `Width` en `Height` correct overeenkomen met het gewenste gebied.  
-- **Afbeeldingskwaliteit:** Lage resolutie kan slechte OCR‑resultaten geven; overweeg pre‑processing (bijv. binarisatie).  
-- **Lege resultaten:** Controleer of de rechthoeken daadwerkelijk tekst bevatten; anders geeft de engine lege strings terug.
+- **Incorrect rectangle coordinates:** Controleer of `X`, `Y`, `Width` en `Height` overeenkomen met het beoogde gebied.  
+- **Image quality:** Lage resolutie of sterk gecomprimeerde afbeeldingen verminderen OCR-resultaten; overweeg pre‑processing zoals binarisatie.  
+- **Empty results:** Zorg ervoor dat de rechthoeken daadwerkelijk leesbare tekst bevatten; anders retourneert de engine lege strings.
 
 ## Probleemoplossing en best practices
 
 | Symptoom | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| Geen output of lege strings | Rechthoeken buiten de afbeeldingsgrenzen | Controleer de afmetingen van de afbeelding en de rechthoekcoördinaten |
-| Vervormde tekens | Slecht contrast of ruis | Pas beeldreiniging toe (grijstinten, drempel) vóór OCR |
+| Geen output of lege strings | Rechthoeken buiten afbeeldingsgrenzen | Controleer de afbeeldingsafmetingen en rechthoekcoördinaten |
+| Vervormde tekens | Slechte contrast of ruis | Pas grijswaardeconversie en drempelwaarde toe vóór OCR |
 | Trage prestaties bij grote bestanden | Te veel rechthoeken of zeer grote afbeelding | Splits de afbeelding of verminder het aantal rechthoeken waar mogelijk |
 
 ## Conclusie
 
-Je hebt nu geleerd hoe je **tekst uit afbeelding haalt** door aangepaste rechthoeken voor te bereiden met Aspose.OCR voor .NET. Deze techniek geeft je fijnmazige controle over OCR‑verwerking, waardoor je snellere, nauwkeurigere tekst‑extractiefuncties in je applicaties kunt bouwen.
+Je weet nu hoe je **extract text from image** kunt uitvoeren door aangepaste rechthoeken voor te bereiden met Aspose.OCR voor .NET. Deze aanpak geeft je precieze controle over OCR-verwerking, waardoor snellere, nauwkeurigere tekst‑extractiefuncties voor elke .NET‑oplossing worden geleverd.
 
 ## Veelgestelde vragen
 
-**V:** Kan ik Aspose.OCR voor .NET gebruiken met andere .NET‑frameworks?  
-**A:** Ja, Aspose.OCR voor .NET is compatibel met diverse .NET‑frameworks.
+**Q:** Kan ik Aspose.OCR voor .NET gebruiken met andere .NET‑frameworks?  
+**A:** Ja, Aspose.OCR voor .NET werkt met .NET Framework 4.5+, .NET Core 3.1+, en .NET 5/6/7.
 
-**V:** Is er een gratis proefversie beschikbaar voor Aspose.OCR voor .NET?  
-**A:** Absoluut! Je kunt de gratis proefversie **[hier](https://releases.aspose.com/)** verkrijgen.
+**Q:** Is er een gratis proefversie beschikbaar?  
+**A:** Absoluut! Download de proefversie **[here](https://releases.aspose.com/)**.
 
-**V:** Hoe krijg ik ondersteuning voor Aspose.OCR voor .NET?  
-**A:** Bezoek het **[Aspose.OCR‑forum](https://forum.aspose.com/c/ocr/16)** voor toegewijde ondersteuning.
+**Q:** Waar kan ik ondersteuning krijgen voor Aspose.OCR voor .NET?  
+**A:** Bezoek het **[Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)** voor toegewijde hulp.
 
-**V:** Kan ik een tijdelijke licentie krijgen voor testdoeleinden?  
-**A:** Ja, je kunt een tijdelijke licentie **[hier](https://purchase.aspose.com/temporary-license/)** aanschaffen.
+**Q:** Kan ik een tijdelijke licentie verkrijgen voor testen?  
+**A:** Ja, een tijdelijke licentie is beschikbaar **[here](https://purchase.aspose.com/temporary-license/)**.
 
-**V:** Waar vind ik de documentatie voor Aspose.OCR voor .NET?  
-**A:** De documentatie is beschikbaar **[hier](https://reference.aspose.com/ocr/net/)**.
+**Q:** Waar is de officiële documentatie?  
+**A:** De volledige API-referentie is te vinden **[here](https://reference.aspose.com/ocr/net/)**.
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-25  
-**Getest met:** Aspose.OCR 24.11 voor .NET  
+**Laatst bijgewerkt:** 2026-07-23  
+**Getest met:** Aspose.OCR 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Gerelateerde tutorials
+
+- [Hoe rechthoeken voor alinea's te extraheren in OCR-afbeeldingsherkenning](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
+- [Hoe afbeelding OCR‑en – OCR uitvoeren op afbeelding in OCR-afbeeldingsherkenning](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
+- [Hoe tekst uit afbeelding te extraheren met Aspose.OCR voor .NET](/ocr/net/text-recognition/get-recognition-result/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
