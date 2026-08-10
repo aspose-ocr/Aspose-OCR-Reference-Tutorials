@@ -45,6 +45,9 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
 
+## [Rozpoznání textu na obrázku pomocí Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Využijte GPU akceleraci v Aspose OCR pro Java k rychlému rozpoznání textu na obrázcích.
+
 ## Závěr
 
 Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
@@ -61,6 +64,15 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Rozpoznání textu na obrázku pomocí Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Využijte GPU akceleraci v Aspose OCR pro Java k rychlému rozpoznání textu na obrázcích.
+### [Fixed Thread Pool Java – paralelní OCR pro PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
+Využijte Fixed Thread Pool v Javě pro paralelní zpracování OCR PNG souborů a zvýšte výkon svých aplikací.
+### [Předzpracování obrázku pro OCR – Kompletní průvodce v Javě pro zvýšení kontrastu a extrakci textu](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Zvyšte přesnost OCR v Javě předzpracováním obrázku, vylepšením kontrastu a extrakcí textu. Kompletní návod krok za krokem.
+### [Vytvoření OCR enginu v Javě – Rozpoznání textu z velkých obrázků](./create-ocr-engine-java-recognize-text-from-large-images/)
+Vytvořte vlastní OCR engine v Javě a rozpoznávejte text na velkých obrázcích s vysokou přesností.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

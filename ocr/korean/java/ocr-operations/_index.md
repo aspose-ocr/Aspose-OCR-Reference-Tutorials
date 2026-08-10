@@ -80,6 +80,15 @@ Aspose.OCR 로 Java에서 OCR의 힘을 활용하세요. PDF 문서의 텍스트
 Aspose.OCR 로 Java에서 강력한 텍스트 인식을 구현하세요. TIFF 이미지의 텍스트를 손쉽게 인식하고, 원활한 OCR 경험을 위해 지금 다운로드하세요.
 ### [Aspose OCR을 사용한 텍스트 이미지 인식 – 전체 Java OCR 튜토리얼](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR을 활용해 Java에서 텍스트 이미지 전체 인식 과정을 단계별로 안내합니다.
+### [Aspose OCR을 사용한 이미지 텍스트 인식 – Java 튜토리얼](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Aspose OCR을 활용해 Java에서 이미지 파일의 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 OCR 사용 방법 – 이미지에서 텍스트를 빠르게 인식하기](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Aspose.OCR를 활용해 Java에서 이미지의 텍스트를 빠르게 추출하고 OCR 프로세스를 간단히 구현하는 단계별 가이드.
+### [이미지에서 텍스트 추출 (Java) – Aspose OCR로 우르두어 텍스트 추출](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Aspose OCR을 활용해 Java에서 우르두어가 포함된 이미지의 텍스트를 정확하게 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 이미지로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+### [Java에서 OCR 사용 방법 – Aspose.OCR로 PDF에서 텍스트 추출](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Aspose.OCR를 활용해 Java에서 PDF 파일의 텍스트를 추출하고 검색 가능한 문서를 만드는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
