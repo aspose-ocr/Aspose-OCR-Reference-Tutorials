@@ -76,10 +76,17 @@ weight: 21
 利用 Aspose.OCR for Java 实现图像精准文本提取。按照我们的逐步指南，使用语言选择实现准确的 OCR。
 ### [Aspose.OCR for Java 中的 PDF 文档 OCR 识别](./recognize-pdf/)
 利用 Aspose.OCR 在 Java 中释放 OCR 的强大功能。轻松识别 PDF 文档中的文本。以精度和速度提升您的应用程序。
+### [使用 Aspose OCR 创建可搜索 PDF – 完整 Java 指南](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+完整示例演示如何使用 Aspose OCR 将扫描的 PDF 转换为可搜索的 PDF，并导出结果。
 ### [Aspose.OCR for Java 中的 TIFF 图像 OCR 识别](./recognize-tiff/)
 利用 Aspose.OCR 在 Java 中实现强大的文本识别。轻松识别 TIFF 图像中的文本。立即下载，获得无缝的 OCR 体验。
 ### [使用 Aspose OCR 识别图像文本 – 完整 Java OCR 教程](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 完整的 Java 示例，演示如何使用 Aspose OCR 识别图像中的文本并导出结果。
+### [在 Java 中运行文档 OCR – 完整指南](./run-ocr-on-document-in-java-complete-guide/)
+### [使用 Java OCR 识别图像文本 – 完整指南](./recognize-text-from-image-with-java-ocr-complete-guide/)
+完整示例演示如何使用 Java OCR 从图像中提取文本并导出结果，涵盖配置、语言选择及性能优化。
+### [加载图像进行 OCR 并从区域提取文本 – Java](./load-image-for-ocr-extract-text-from-region-java/)
+演示如何在 Java 中加载图像，使用 Aspose.OCR 仅提取指定区域的文本，实现精准的区域识别。
 
 ## 常见问题
 

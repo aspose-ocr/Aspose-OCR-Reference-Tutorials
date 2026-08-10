@@ -82,6 +82,14 @@ weight: 21
 釋放 Aspose.OCR 在 Java 中的強大文字識別。輕鬆識別 TIFF 圖片中的文字。立即下載，獲得無縫的 OCR 體驗。
 ### [使用 Aspose OCR 識別圖像文字 – 完整 Java OCR 教學](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 識別圖像文字。
+### [在 Java 中執行文件 OCR – 完整指南](./run-ocr-on-document-in-java-complete-guide/)
+完整教學示範如何在 Java 應用程式中對各類文件執行 OCR，並取得可搜尋的文字內容。
+### [使用 Java OCR 識別圖像文字 – 完整指南](./recognize-text-from-image-with-java-ocr-complete-guide/)
+完整的 Java OCR 教學，展示如何使用 Aspose OCR 從圖像中辨識文字的完整流程。
+### [載入影像進行 OCR，從區域提取文字 – Java](./load-image-for-ocr-extract-text-from-region-java/)
+示範如何載入影像並使用 Aspose.OCR 於 Java 中從指定區域提取文字。
+### [使用 Aspose OCR 建立可搜尋 PDF – 完整 Java 指南](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+完整教學示範如何使用 Aspose OCR 在 Java 中將 PDF 轉換為可搜尋的文件，提升文字檢索與編輯功能。
 
 ## 常見問題
 

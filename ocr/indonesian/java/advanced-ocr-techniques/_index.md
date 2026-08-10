@@ -45,6 +45,13 @@ Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat
 
 Ekstrak teks dari gambar dengan mudah dengan menentukan karakter yang diizinkan dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien, memastikan pengalaman pengenalan teks yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan Aspose.OCR.
 
+## [Mengenali Gambar Teks di Java menggunakan Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+
+Manfaatkan GPU untuk meningkatkan kecepatan OCR pada gambar teks di Java dengan Aspose OCR. Ekstrak teks dengan akurasi tinggi secara efisien.
+
+## [Mengenali Teks dari Gambar dengan Aspose OCR Java – Panduan Lengkap](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR untuk Java dengan panduan lengkap, meningkatkan akurasi dan kecepatan OCR.
+
 ## Kesimpulan
 
 Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!
@@ -61,6 +68,13 @@ Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langka
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
 ### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
+### [Mengenali Gambar Teks di Java menggunakan Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Manfaatkan GPU untuk meningkatkan kecepatan OCR pada gambar teks di Java dengan Aspose OCR. Ekstrak teks dengan akurasi tinggi secara efisien.
+### [Mengenali Teks dari Gambar dengan Aspose OCR Java – Panduan Lengkap](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR untuk Java dengan panduan lengkap, meningkatkan akurasi dan kecepatan OCR.
+### [Kotak Pembatas OCR di Java – Ekstrak Teks dari Gambar](./ocr-bounding-box-in-java-extract-text-from-image/)
+Ekstrak teks dari gambar dengan menggunakan kotak pembatas OCR di Java. Tingkatkan akurasi dan kecepatan pengenalan teks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -88,7 +88,7 @@ R : Pré‑traitez l’image (binarisation, suppression du bruit) et exécutez
 R : Convertissez d’abord les pages PDF en images (à l’aide d’Aspose.PDF ou de tout outil de conversion PDF‑vers‑image), puis exécutez Aspose.OCR sur les images obtenues.
 
 **Q : Quelles langues sont prises en charge dès l’installation ?**  
-R : Plus de 30 langues, dont l’anglais, l’espagnol, le chinois, l’arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
+R : Plus de 30 langues, dont l’anglais, l'espagnol, le chinois, l'arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
 
 ## Conclusion
 
@@ -104,7 +104,13 @@ Débloquez le potentiel d’Aspose.OCR pour Java avec ce guide pas à pas. Confi
 Améliorez la précision de l’OCR avec Aspose.OCR pour Java. Apprenez à calculer les angles d’inclinaison étape par étape. Optimisez le traitement de documents sans difficulté.
 
 ### [Obtention de rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
-Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
+Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire le texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
+
+### [Exemple Java OCR – Charger une image et reconnaître le texte avec Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Apprenez à charger une image et extraire le texte avec Aspose.OCR en Java grâce à ce guide pratique.
+
+### [Effectuer l'OCR sur une image en Java – Guide complet étape par étape](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Apprenez à réaliser l’OCR d’une image en Java avec un guide détaillé, du chargement à l’extraction du texte.
 
 ---
 

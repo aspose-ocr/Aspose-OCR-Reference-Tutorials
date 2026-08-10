@@ -77,10 +77,18 @@ Buka kekuatan ekstraksi teks dari gambar dengan Aspose.OCR untuk Java. Tutorial 
 Buka ekstraksi teks yang presisi dari gambar dengan Aspose.OCR untuk Java. Ikuti panduan langkah‑demi‑langkah kami untuk OCR akurat dengan pemilihan bahasa.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Buka kekuatan OCR di Java dengan Aspose.OCR. Mengenali teks dalam dokumen PDF dengan mudah. Tingkatkan aplikasi Anda dengan presisi dan kecepatan.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Java Lengkap](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, langkah demi langkah untuk hasil optimal.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Buka pengenalan teks yang kuat di Java dengan Aspose.OCR. Mengenali teks dalam gambar TIFF dengan mudah. Unduh sekarang untuk pengalaman OCR yang mulus.
 ### [Mengenali Teks Gambar dengan Aspose OCR – Tutorial OCR Java Lengkap](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Panduan lengkap mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Jalankan OCR pada Dokumen di Java – Panduan Lengkap](./run-ocr-on-document-in-java-complete-guide/)
+Panduan lengkap menjalankan OCR pada dokumen menggunakan Aspose.OCR untuk Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Mengenali Teks dari Gambar dengan OCR Java – Panduan Lengkap](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Muat Gambar untuk OCR, Ekstrak Teks dari Wilayah – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Panduan singkat memuat gambar, menerapkan OCR, dan mengekstrak teks dari area tertentu menggunakan Aspose.OCR untuk Java.
 
 ## Pertanyaan yang Sering Diajukan
 
