@@ -55,6 +55,8 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Wyodrębnij tekst z obrazu przy użyciu Aspose OCR w C#](./extract-text-from-image-using-aspose-ocr-in-c/)
+Dowiedz się, jak w prosty sposób wyodrębnić tekst z obrazów w C# przy użyciu biblioteki Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
