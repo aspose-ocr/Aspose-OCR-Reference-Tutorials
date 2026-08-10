@@ -55,6 +55,19 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Εξαγωγή κειμένου Hindi από εικόνες χρησιμοποιώντας Aspose OCR – Πλήρης Οδηγός](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Ακολουθήστε τον πλήρη οδηγό βήμα προς βήμα για την εξαγωγή κειμένου Hindi από εικόνες με το Aspose OCR.
+### [Αναγνώριση αραβικού κειμένου από εικόνα – Πλήρης Οδηγός C# με χρήση Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Αποκτήστε ακριβή αναγνώριση αραβικού κειμένου από εικόνες με Aspose OCR σε C#. Ακολουθήστε τον πλήρη οδηγό βήμα προς βήμα.
+### [Εκτέλεση OCR σε εικόνα με C# και Aspose – Πλήρης προγραμματιστικός οδηγός](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Μάθετε πώς να εκτελείτε OCR σε εικόνες χρησιμοποιώντας C# και Aspose με αυτόν τον πλήρη προγραμματιστικό οδηγό.
+### [Ομαδική επεξεργασία OCR σε C# – Πλήρης οδηγός για εξαγωγή κειμένου από εικόνες](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες με OCR σε C# και να εξάγετε κείμενο αποδοτικά.
+### [Μετατροπή εικόνας σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR – Πλήρης οδηγός C#](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Μάθετε πώς να μετατρέπετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose OCR σε C# με αυτόν τον πλήρη οδηγό.
+### [Μετατροπή εικόνας σε κείμενο σε C# – Πλήρης οδηγός Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Μάθετε πώς να μετατρέπετε εικόνες σε κείμενο χρησιμοποιώντας C# και Aspose OCR με αυτόν τον πλήρη οδηγό βήμα προς βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

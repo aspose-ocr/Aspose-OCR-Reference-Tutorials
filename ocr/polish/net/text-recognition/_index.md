@@ -23,7 +23,7 @@ W tym samouczku poprowadzimy Cię przez wykorzystanie możliwości Aspose.OCR dl
 
 ## Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR
 
-Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznawania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
+Poznaj możliwości Aspose.OCR dla .NET i zmień sposób obsługi rozpoznawania tekstu w obrazach. Odkryj zawiłości uzyskiwania wyników rozpoznania dzięki naszemu obszernemu przewodnikowi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek umożliwi Ci bezproblemową integrację OCR z Twoimi projektami.
 
 ## Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR
 
@@ -45,7 +45,7 @@ Gotowy zrewolucjonizować swoje aplikacje .NET? Zanurz się w naszych samouczkac
 ## Poradniki rozpoznawania tekstu
 ### [Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR](./get-choices-for-recognized-characters/)
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby uzyskać dokładne rozpoznawanie znaków. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wyszukać opcje rozpoznawania znaków w procesie rozpoznawania obrazu.
-### [Uzyskaj wynik rozpoznawania w trybie rozpoznawania obrazu OCR](./get-recognition-result/)
+### [Uzyskaj wynik rozpoznania w trybie rozpoznawania obrazu OCR](./get-recognition-result/)
 Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do płynnego rozpoznawania tekstu w obrazach.
 ### [Uzyskaj wynik jako JSON w rozpoznawaniu obrazu OCR](./get-result-as-json/)
 Uwolnij moc Aspose.OCR dla .NET. Dowiedz się, jak bez wysiłku uzyskiwać wyniki OCR w formacie JSON. Popraw rozpoznawanie obrazów dzięki temu przewodnikowi krok po kroku.
@@ -55,6 +55,19 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Wyodrębnij tekst hindi z obrazów przy użyciu Aspose OCR – Kompletny przewodnik](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Naucz się wyodrębniać tekst w języku hindi z obrazów za pomocą Aspose OCR w pełnym przewodniku krok po kroku.
+### [Rozpoznaj arabski tekst z obrazu – Kompletny przewodnik C# przy użyciu Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Naucz się rozpoznawać arabski tekst z obrazów w C# przy użyciu Aspose OCR w pełnym przewodniku krok po kroku.
+### [Wykonaj OCR na obrazie w C# przy użyciu Aspose – Kompletny przewodnik programistyczny](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Naucz się, jak w prosty sposób przeprowadzić OCR obrazu w C# przy użyciu Aspose, krok po kroku.
+### [Przetwarzanie wsadowe OCR w C# – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Naucz się, jak przetwarzać wiele obrazów jednocześnie w C# przy użyciu Aspose.OCR, aby efektywnie wyodrębniać tekst.
+### [Konwertuj obraz na przeszukiwany PDF przy użyciu Aspose OCR – Kompletny przewodnik C#](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Naucz się konwertować obrazy na przeszukiwalne pliki PDF w C# przy użyciu Aspose OCR w pełnym przewodniku krok po kroku.
+### [Konwertuj obraz na tekst w C# – Kompletny przewodnik Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Naucz się konwertować obrazy na tekst w C# przy użyciu Aspose OCR w pełnym przewodniku krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

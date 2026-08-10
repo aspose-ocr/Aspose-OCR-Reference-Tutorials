@@ -68,10 +68,14 @@ Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from i
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn step-by-step how to prepare rectangles for image recognition. Elevate your .NET applications with seamless OCR integration.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
+### [Preprocess Image for OCR in C# – Complete Guide](./preprocess-image-for-ocr-in-c-complete-guide/)
+Learn how to preprocess images for OCR using C#. Apply filters, deskew, and binarization to boost recognition accuracy with Aspose.OCR.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step‑by‑step guide.
+### [Enable GPU OCR in C# – Complete Guide to Faster Text Extraction](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Accelerate OCR processing by enabling GPU support in Aspose.OCR for .NET using C#.
 
 ## Frequently Asked Questions
 

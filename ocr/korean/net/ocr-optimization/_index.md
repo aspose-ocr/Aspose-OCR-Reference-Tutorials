@@ -63,11 +63,15 @@ Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Aspose.OCR for .NET의 잠재력을 우리의 포괄적인 가이드와 함께 활용하세요. 이미지 인식을 위한 사각형 준비 방법을 단계별로 배우고, .NET 애플리케이션을 원활한 OCR 통합으로 향상시킵니다.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높이고, 지금 다운로드하여 원활한 통합을 경험하세요.
+Aspose.OCR를 탐색하세요. 전처리 필터로 OCR 정확도를 높이고, 지금 다운로드하여 원활한 통합을 경험하세요.
+### [C#에서 OCR을 위한 이미지 전처리 – 완전 가이드](./preprocess-image-for-ocr-in-c-complete-guide/)
+C#에서 이미지 전처리 방법을 단계별로 안내하여 OCR 정확도를 높이는 완전 가이드입니다.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [C#에서 GPU OCR 활성화 – 빠른 텍스트 추출을 위한 완전 가이드](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+C#에서 GPU 가속 OCR을 활성화하여 텍스트 추출 속도를 크게 향상시키는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
@@ -75,7 +79,7 @@ Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 
 A: 예, Aspose.OCR은 다양한 언어를 지원하며 혼합 언어 콘텐츠를 인식하도록 구성할 수 있습니다.
 
 **Q: 전처리가 정확도를 어떻게 향상시키나요?**  
-A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높입니다.
+A: 이진화, 잡음 제거, 기울기 보정과 같은 필터가 이미지를 정화하여 노이즈를 줄이고 텍스트를 정렬함으로써 인식률을 높습니다.
 
 **Q: 한 번에 처리할 수 있는 페이지 수에 제한이 있나요?**  
 A: 명확한 제한은 없으며, 성능은 시스템 리소스에 따라 달라집니다. 매우 큰 배치의 경우 페이지를 여러 구간으로 나누어 처리하는 것을 고려하세요.
