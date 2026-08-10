@@ -55,6 +55,21 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficac
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
 ### [Reconnaître la table dans la reconnaissance d'images OCR](./recognize-table/)
 Libérez le potentiel d'Aspose.OCR pour .NET avec notre guide complet sur la reconnaissance des tableaux dans la reconnaissance d'images OCR.
+### [Comment effectuer la reconnaissance OCR du texte arabe en C# – Guide complet](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Apprenez à reconnaître le texte arabe avec Aspose.OCR en C#. Suivez notre guide complet pas à pas pour une intégration fluide.
+### [Extraire du texte à partir d'une image avec Aspose OCR – Guide complet C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'images avec Aspose OCR en C#. Suivez notre guide complet pas à pas pour intégrer facilement l'OCR dans vos projets .NET.
+### [Reconnaître du texte à partir d'un PNG avec Aspose OCR – Guide complet C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'un fichier PNG avec Aspose OCR en C#. Suivez notre guide complet pas à pas pour intégrer facilement l'OCR.
+### [Exemple Aspose OCR – Guide étape par étape pour C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Apprenez à utiliser Aspose OCR avec un exemple complet en C#. Suivez notre guide pas à pas pour intégrer l'OCR dans vos projets .NET.
+### [Créer un PDF consultable avec Aspose OCR – Exécuter l'OCR sur un PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Apprenez à transformer un PDF en PDF consultable en exécutant l'OCR avec Aspose OCR, étape par étape.
+### [Comment effectuer l'OCR dans ASP.NET Core – Guide complet](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Apprenez à réaliser l'OCR dans ASP.NET Core avec Aspose.OCR. Suivez notre guide complet pas à pas pour intégrer l'OCR dans vos projets .NET.
+### [OCR de la langue coréenne avec Aspose : convertir une image en PDF et extraire le texte en C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Apprenez à reconnaître le texte coréen, convertir des images en PDF et extraire le texte avec Aspose.OCR en C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,6 +55,21 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Come eseguire OCR di testo arabo in C# – Guida completa](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Scopri come utilizzare Aspose.OCR per .NET per riconoscere testo arabo in C#, con esempi passo passo e consigli pratici.
+### [Estrai testo da immagine con Aspose OCR – Guida completa C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Impara a estrarre testo da immagini usando Aspose OCR in C# con questa guida passo passo.
+### [Riconosci testo da PNG con Aspose OCR – Guida completa C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Impara a riconoscere testo da file PNG usando Aspose OCR in C# con questa guida completa passo passo.
+### [Esempio Aspose OCR – Guida passo‑passo per C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Scopri come utilizzare Aspose OCR in C# con una guida passo passo per implementare rapidamente la funzionalità OCR nella tua applicazione.
+### [Crea PDF Ricercabile con Aspose OCR – Esegui OCR su PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Crea PDF ricercabili con Aspose OCR, eseguendo l'OCR su PDF per estrarre testo e migliorare l'accessibilità.
+### [Come eseguire OCR in ASP.NET Core – Guida completa](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Scopri come implementare OCR in ASP.NET Core con Aspose.OCR, passo passo, per ottenere risultati precisi e integrazione fluida.
+### [OCR della lingua coreana con Aspose: Converti immagine in PDF ed estrai testo in C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Scopri come utilizzare Aspose OCR per riconoscere il coreano, convertire immagini in PDF ed estrarre testo in C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

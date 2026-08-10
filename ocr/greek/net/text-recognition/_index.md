@@ -55,6 +55,21 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [Πώς να κάνετε OCR αραβικού κειμένου σε C# – Πλήρης οδηγός](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Μάθετε πώς να αναγνωρίζετε αραβικό κείμενο σε C# χρησιμοποιώντας το Aspose.OCR, βήμα-βήμα οδηγός.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR – Πλήρης οδηγός C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με το Aspose OCR σε C#, πλήρης οδηγός βήμα‑βήμα.
+### [Αναγνώριση κειμένου από PNG με Aspose OCR – Πλήρης οδηγός C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG χρησιμοποιώντας το Aspose OCR σε C#, βήμα‑βήμα οδηγός.
+### [Παράδειγμα Aspose OCR – Οδηγός βήμα‑βήμα για C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose OCR σε C# με έναν πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης με Aspose OCR – Εκτέλεση OCR σε PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Μάθετε πώς να δημιουργήσετε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας το Aspose OCR, εκτελώντας OCR σε PDF αρχεία.
+### [Πώς να εκτελέσετε OCR σε ASP.NET Core – Πλήρης οδηγός](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Μάθετε πώς να ενσωματώσετε OCR σε εφαρμογές ASP.NET Core με πλήρη οδηγό βήμα‑βήμα.
+### [OCR Κορεατικής γλώσσας με Aspose: Μετατροπή εικόνας σε PDF και εξαγωγή κειμένου σε C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Μάθετε πώς να εκτελείτε OCR σε κορεατικό κείμενο, να μετατρέπετε εικόνες σε PDF και να εξάγετε κείμενο χρησιμοποιώντας Aspose OCR σε C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

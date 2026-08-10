@@ -53,8 +53,23 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現高效的圖像文字識別。探索 OCR 偵測區域模式以獲得精確結果。
 ### [OCR影像辨識中辨識PDF](./recognize-pdf/)
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
+### [使用 Aspose OCR 建立可搜尋 PDF – 在 PDF 上執行 OCR](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+使用 Aspose OCR 將 PDF 轉換為可搜尋的文件，輕鬆執行 OCR 以提取文字內容。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [在 C# 中 OCR 阿拉伯文字 – 完整指南](./how-to-ocr-arabic-text-in-c-complete-guide/)
+使用 Aspose.OCR for .NET，完整步驟教您在 C# 中辨識阿拉伯文字，提升多語言 OCR 能力。
+### [使用 Aspose OCR 從圖像提取文字 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+完整步驟教您在 C# 中使用 Aspose OCR 從圖像中提取文字，提升文字辨識效率。
+### [Aspose OCR 範例 – C# 逐步指南](./aspose-ocr-example-step-by-step-guide-for-c/)
+透過本完整範例，學習在 C# 中使用 Aspose OCR 進行文字辨識的每個步驟，提升開發效率。
+### [如何在 ASP.NET Core 中執行 OCR – 完整指南](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+使用 Aspose.OCR 在 ASP.NET Core 中完整執行 OCR，提供逐步指南提升文字辨識能力。
+### [使用 Aspose OCR 從 PNG 文字辨識 – 完整 C# 指南](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+完整步驟教您使用 Aspose OCR 從 PNG 圖片中提取文字，提升 .NET 應用程式的文字辨識能力。
+### [使用 Aspose 進行韓文 OCR：將圖像轉換為 PDF 並在 C# 中提取文字](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+使用 Aspose.OCR 在 C# 中將韓文圖像轉換為 PDF，並提取文字內容，提升多語言 OCR 能力。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

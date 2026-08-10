@@ -55,6 +55,21 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Jak provést OCR arabského textu v C# – Kompletní průvodce](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Kompletní průvodce OCR arabského textu v C#. Naučte se rozpoznávat arabské znaky s Aspose.OCR pro .NET.
+### [Extrahovat text z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Kompletní průvodce, jak v C# pomocí Aspose OCR získat text z obrázku a integrovat jej do vašich aplikací.
+### [Příklad Aspose OCR – krok‑po‑kroku průvodce pro C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Kompletní průvodce, jak v C# použít Aspose OCR k rozpoznání textu krok za krokem.
+### [Vytvořte prohledávatelný PDF pomocí Aspose OCR – Spusťte OCR na PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Naučte se, jak pomocí Aspose OCR převést PDF na prohledávatelný dokument spuštěním OCR procesu.
+### [Jak provést OCR v ASP.NET Core – Kompletní průvodce](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Kompletní průvodce prováděním OCR v ASP.NET Core pomocí Aspose.OCR, krok za krokem integrace a nastavení.
+### [Rozpoznat text z PNG pomocí Aspose OCR – Kompletní průvodce C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Kompletní průvodce, jak v C# pomocí Aspose OCR rozpoznat text z PNG obrázku a integrovat jej do aplikace.
+### [OCR korejského jazyka s Aspose: převod obrázku na PDF a extrakce textu v C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Naučte se pomocí Aspose OCR v C# rozpoznávat korejský text, převádět obrázky na PDF a extrahovat text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

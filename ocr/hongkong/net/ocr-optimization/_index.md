@@ -65,13 +65,17 @@ weight: 25
 ### [在 OCR 圖像辨識中從 URL 執行圖像 OCR](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的無縫 OCR 整合，精準辨識圖像文字。
 ### [在 OCR 圖像辨識中準備矩形區域](./prepare-rectangles/)
-解鎖 Aspose.OCR for .NET 的潛能，學習如何一步步準備矩形區域以進行圖像辨識，提升 .NET 應用程式的 OCR 整合。
+解鎖 Aspose.OCR for .NET 的全部潛能，學習如何一步步準備矩形區域以進行圖像辨識，提升 .NET 應用程式的 OCR 整合。
 ### [在 OCR 圖像辨識中的圖像前處理濾鏡](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET，透過前處理濾鏡提升 OCR 精確度，立即下載以實現無縫整合。
 ### [在 OCR 圖像辨識中使用拼寫檢查進行結果校正](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
 ### [在 OCR 圖像辨識中將多頁結果儲存為文件](./save-multipage-result-as-document/)
 解鎖 Aspose.OCR for .NET 的潛能，透過本完整步驟教學，輕鬆將多頁 OCR 結果儲存為文件。
+### [在 OCR 圖像辨識中執行圖像 OCR – 完整 C# 教學](./run-ocr-on-image-complete-c-guide/)
+完整的 C# 教學，示範如何在 Aspose.OCR for .NET 中執行圖像 OCR，涵蓋設定、前處理與結果儲存。
+### [如何在 C# 中去斜圖像 – 完整 OCR 前處理指南](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+示範如何在 Aspose.OCR for .NET 中使用去斜濾鏡提升圖像辨識精度，完整步驟教學。
 
 ## 常見問題
 
