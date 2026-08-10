@@ -100,6 +100,8 @@ weight: 20
 حسّن دقة OCR باستخدام Aspose.OCR for Java. تعلم كيفية حساب زوايا الميل خطوة بخطوة. حسّن معالجة المستندات بسهولة.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 اكتشف قوة Aspose.OCR for Java. تعلم كيفية استخراج النص من الصور بسلاسة في هذا الدليل خطوة بخطوة. حمّل الآن لتعرف على التعرف الفعال على النص.
+### [التعرف على النص في الصورة باستخدام Java – دليل Aspose OCR الكامل](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
 
 ---
 
