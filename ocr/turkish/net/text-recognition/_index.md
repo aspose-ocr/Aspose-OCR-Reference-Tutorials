@@ -55,6 +55,21 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [c# OCR eğitimi – Aspose OCR ile Görsellerden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Aspose OCR kullanarak C# ile görüntülerden metin çıkarma adımlarını öğrenin ve uygulamanıza kolayca entegre edin.
+### [C# ile OCR Kullanımı – JPG'den Arapça Metin Çıkarma](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Aspose.OCR ile C# kullanarak JPG dosyalarından Arapça metni nasıl çıkaracağınızı adım adım öğrenin.
+### [C# ile Görüntüden Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-image-in-c-full-guide/)
+Aspose.OCR kullanarak C# ile görüntülerden arama yapılabilir PDF oluşturmayı adım adım öğrenin.
+### [c# OCR eğitimi – PNG Görüntülerinden Urdu Metni Çıkarma](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Aspose OCR kullanarak C# ile PNG görüntülerinden Urdu metnini çıkarın. Adım adım kılavuzla uygulamanıza kolayca entegre edin.
+### [C#'ta Toplu OCR Nasıl Yapılır – Görsellerden Hızlı Metin Çıkarma](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+C# ile toplu OCR işlemleri yaparak birden çok görüntüden hızlıca metin çıkarın. Adım adım kılavuzla verimliliğinizi artırın.
+### [C# ile Tarama Görüntülerinden PDF/A Oluşturma – Adım Adım Kılavuz](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+C# ve Aspose.OCR kullanarak taranmış görüntülerden PDF/A dosyaları oluşturmayı adım adım öğrenin.
+### [Aspose OCR kullanarak C# ile el yazısı metni tanıma](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Aspose OCR ile C# içinde el yazısı metinlerini tanıma adımlarını öğrenin ve projelerinize entegre edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

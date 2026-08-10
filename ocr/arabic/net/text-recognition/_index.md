@@ -52,9 +52,22 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [دليل c# OCR – استخراج النص من الصور باستخدام Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [كيفية استخدام OCR في C# – استخراج النص العربي من JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+تعلم خطوة بخطوة كيفية استخراج النص العربي من ملفات JPG باستخدام Aspose.OCR في بيئة C#.
+### [دليل c# OCR – استخراج النص الأردي من صور PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+تعلم كيفية استخراج النص الأردي من صور PNG باستخدام Aspose.OCR في بيئة C# خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من صورة في C# – دليل كامل](./create-searchable-pdf-from-image-in-c-full-guide/)
+تعلم خطوة بخطوة كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR في بيئة C#.
+### [كيفية تنفيذ OCR دفعي في C# – استخراج النص من الصور بسرعة](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+### [كيفية إنشاء PDF/A من صور ممسوحة ضوئياً في C# – دليل خطوة بخطوة](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+### [التعرف على النص المكتوب يدوياً في C# باستخدام Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+تعلم كيفية التعرف على النص المكتوب يدوياً باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

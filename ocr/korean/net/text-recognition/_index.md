@@ -55,6 +55,21 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. PDF에서 텍스트를 쉽게 추출할 수 있습니다. 원활한 통합 경험을 위해 지금 다운로드하세요.
 ### [OCR 이미지 인식에서 테이블 인식](./recognize-table/)
 OCR 이미지 인식의 테이블 인식에 대한 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요.
+### [c# OCR 튜토리얼 – Aspose OCR로 이미지에서 텍스트 추출](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Aspose OCR을 사용하여 이미지에서 텍스트를 추출하는 C# 튜토리얼입니다. 단계별 가이드를 따라 .NET 애플리케이션에 OCR을 통합하세요.
+### [C#에서 OCR 사용 방법 – JPG에서 아랍어 텍스트 추출](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Aspose.OCR를 사용해 C#에서 JPG 이미지에서 아랍어 텍스트를 추출하는 단계별 가이드를 제공합니다.
+### [C#에서 이미지로 검색 가능한 PDF 만들기 – 전체 가이드](./create-searchable-pdf-from-image-in-c-full-guide/)
+Aspose.OCR를 활용해 C#에서 이미지를 검색 가능한 PDF로 변환하는 전체 가이드를 확인하세요.
+### [c# OCR 튜토리얼 – PNG 이미지에서 우르두어 텍스트 추출](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Aspose OCR을 사용하여 PNG 이미지에서 우르두어 텍스트를 추출하는 C# 튜토리얼입니다. 단계별 가이드를 따라 .NET 애플리케이션에 OCR을 통합하세요.
+### [c# 배치 OCR 튜토리얼 – 이미지를 빠르게 텍스트로 추출](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Aspose.OCR를 사용해 C#에서 배치 OCR을 수행하고 이미지를 빠르게 텍스트로 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 스캔된 이미지로 PDF/A 만들기 – 단계별 가이드](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Aspose.OCR를 사용하여 C#에서 스캔된 이미지로 PDF/A를 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR을 사용한 손글씨 텍스트 인식](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Aspose OCR을 사용해 C#에서 손글씨 텍스트를 인식하는 단계별 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
