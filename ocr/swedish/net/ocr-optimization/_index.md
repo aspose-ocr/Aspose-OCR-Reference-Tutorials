@@ -61,7 +61,9 @@ Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-corr
 
 Spara enkelt flersidiga OCR‑resultat som dokument med Aspose.OCR för .NET. Vår [step-by-step guide](./save-multipage-result-as-document/) låser upp hela potentialen för dokumentgenerering. Integrera Aspose.OCR sömlöst och omvandla dina OCR‑resultat till flersidiga dokument med lätthet.
 
-Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgång till ytterligare resurser och hålla dig uppdaterad om de senaste framstegen inom OCR‑optimering. Dyka ner i en värld av precision och effektivitet med Aspose.OCR för .NET‑handledningar.
+## Förladda OCR-resurser i Aspose.OCR – Komplett installationsguide
+
+Lär dig hur du förladdar OCR‑resurser för snabbare igenkänning och optimal prestanda i Aspose.OCR.
 
 ## OCR‑optimeringshandledningar
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
@@ -74,6 +76,10 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Förladda OCR-resurser i Aspose.OCR – Komplett installationsguide](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Lär dig hur du förladdar OCR‑resurser för snabbare igenkänning och optimal prestanda i Aspose.OCR.
+### [Känn igen text från bild i C# – Fullständigt OCR‑exempel](./recognize-text-from-image-in-c-full-ocr-example/)
+En komplett guide som visar hur du använder Aspose.OCR för .NET i C# för att känna igen och extrahera text från en bild.
 
 ## Vanliga frågor
 
