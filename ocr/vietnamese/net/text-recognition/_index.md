@@ -55,6 +55,17 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Chạy OCR trên hình ảnh bằng C# – Hướng dẫn đầy đủ Aspose OCR](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Thực hiện OCR trên hình ảnh bằng C# với Aspose OCR, hướng dẫn chi tiết từng bước để tích hợp và nhận kết quả chính xác.
+### [Tạo PDF có thể tìm kiếm từ ảnh tiếng Ả Rập – Hướng dẫn đầy đủ](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Biến ảnh tiếng Ả Rập thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET. Hướng dẫn chi tiết từng bước để tích hợp và tạo tài liệu chính xác.
+### [Tạo PDF có thể tìm kiếm từ ảnh – Hướng dẫn đầy đủ Aspose OCR trong C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Biến ảnh thành PDF có thể tìm kiếm bằng Aspose OCR cho .NET. Hướng dẫn chi tiết từng bước để tạo tài liệu dễ tìm kiếm.
+### [Chuyển ảnh OCR sang JSON trong C# – Hướng dẫn đầy đủ từng bước](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Thực hiện OCR trên ảnh và xuất kết quả dưới dạng JSON bằng C#, hướng dẫn chi tiết từng bước.
+### [Cách chạy OCR trên ảnh TIFF đa trang với Aspose OCR – Hướng dẫn C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Thực hiện OCR trên ảnh TIFF đa trang bằng Aspose OCR trong C#, hướng dẫn chi tiết từng bước để trích xuất văn bản hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

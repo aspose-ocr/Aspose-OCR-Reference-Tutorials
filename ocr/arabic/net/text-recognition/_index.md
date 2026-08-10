@@ -55,6 +55,17 @@ url: /ar/net/text-recognition/
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [تشغيل التعرف الضوئي على الحروف في صورة باستخدام C# – دليل Aspose OCR الكامل](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+تعلم كيفية تشغيل OCR على صورة باستخدام C# مع Aspose OCR خطوة بخطوة للحصول على نص دقيق.
+### [إنشاء PDF قابل للبحث من صورة عربية – دليل كامل](./create-searchable-pdf-from-arabic-image-complete-guide/)
+تعلم كيفية تحويل صورة عربية إلى ملف PDF قابل للبحث باستخدام Aspose.OCR خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من صورة باستخدام Aspose OCR في C# – دليل كامل](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+تعلم كيفية إنشاء PDF قابل للبحث من صورة باستخدام Aspose OCR في C# خطوة بخطوة.
+### [تحويل صورة OCR إلى JSON في C# – دليل كامل خطوة بخطوة](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل نتائج التعرف الضوئي على الحروف إلى تنسيق JSON باستخدام C# خطوة بخطوة مع Aspose.OCR.
+### [كيفية تشغيل OCR على صور TIFF متعددة الصفحات باستخدام Aspose OCR – دليل C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+تعلم خطوة بخطوة تشغيل OCR على صور TIFF متعددة الصفحات باستخدام Aspose OCR في C# للحصول على نص دقيق.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

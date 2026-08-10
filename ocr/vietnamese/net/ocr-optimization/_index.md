@@ -74,6 +74,11 @@ Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các 
 Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Extract Text from Image in C# – Complete OCR Guide](./extract-text-from-image-in-c-complete-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm tiền xử lý và lưu kết quả.
+### [Cách chỉnh nghiêng hình ảnh trong C# – Hướng dẫn tiền xử lý OCR đầy đủ](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+### [Thực hiện OCR trên hình ảnh với tăng tốc GPU – Hướng dẫn C# đầy đủ](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Khám phá cách sử dụng GPU để tăng tốc OCR trong Aspose.OCR cho .NET với hướng dẫn C# chi tiết.
 
 ## Câu hỏi thường gặp
 
@@ -90,7 +95,7 @@ A: Không có giới hạn cứng; hiệu suất phụ thuộc vào hệ thống
 A: Chắc chắn. API không phụ thuộc vào nền tảng và hoạt động tốt trên Azure Functions, AWS Lambda (thông qua .NET Core) hoặc bất kỳ môi trường đám mây nào khác.
 
 **Hỏi: Có những lựa chọn cấp phép nào cho các dự án thương mại?**
-A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. Bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
+A: Cung cấp giấy phép vĩnh viễn và giấy phép thuê bao. bạn có thể lựa chọn mô hình phù hợp nhất với việc phát triển và ngân sách của mình.
 
 ---
 
