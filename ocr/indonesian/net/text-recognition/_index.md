@@ -55,6 +55,19 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [OCR Mandarin Sederhana: OCR Offline dengan Aspose di C# – Panduan Lengkap](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Pelajari cara melakukan OCR offline untuk teks Mandarin sederhana menggunakan Aspose di C#, lengkap dengan contoh kode dan langkah-langkah implementasi.
+### [Lakukan OCR pada Gambar di C# – Contoh Lengkap Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Panduan lengkap melakukan OCR pada gambar menggunakan C# dengan Aspose OCR, termasuk contoh kode dan langkah implementasi.
+### [Pemrosesan OCR Batch di C# – Mengonversi Gambar ke Teks dengan Cepat](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Pelajari cara memproses banyak gambar secara bersamaan menggunakan Aspose.OCR di C#, mengonversi gambar menjadi teks secara cepat dan efisien.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Lengkap C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Panduan lengkap membuat PDF yang dapat dicari menggunakan Aspose OCR di C#, termasuk contoh kode dan langkah-langkah implementasi.
+### [Mengenali Teks dari Gambar di C# dengan Aspose OCR – Panduan Lengkap](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Panduan lengkap melakukan OCR pada gambar menggunakan C# dengan Aspose OCR, termasuk contoh kode dan langkah implementasi.
+### [Ekstrak Teks dari DjVu dengan C# – Panduan Lengkap](./extract-text-from-djvu-with-c-complete-guide/)
+Panduan lengkap mengekstrak teks dari file DjVu menggunakan C# dengan Aspose, termasuk contoh kode dan langkah implementasi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -27,7 +27,7 @@ Explore las capacidades de Aspose.OCR para .NET y transforme la forma en que man
 
 ## Obtenga resultados como JSON en el reconocimiento de imágenes OCR
 
-Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados de OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
+Libere todo el potencial de Aspose.OCR para .NET aprendiendo cómo obtener resultados OCR en formato JSON sin esfuerzo. Esta guía paso a paso garantiza un viaje sencillo hacia la mejora de sus capacidades de reconocimiento de imágenes. Aumente la eficiencia de su aplicación con las sólidas funciones y la tecnología líder en la industria de Aspose.OCR.
 
 ## Modo de detección de áreas OCR en reconocimiento de imágenes OCR
 
@@ -53,8 +53,21 @@ Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en for
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del texto de las imágenes. Explore el modo de detección de áreas de OCR para obtener resultados precisos.
 ### [Reconocer PDF en reconocimiento de imágenes OCR](./recognize-pdf/)
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo. Descárguelo ahora para disfrutar de una experiencia de integración perfecta.
+### [Crear PDF buscable con Aspose OCR – Guía completa en C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Aprenda a crear PDFs buscables usando Aspose OCR con C# en esta guía paso a paso.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [OCR chino simplificado: OCR sin conexión con Aspose en C# – Guía completa](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Aprenda a realizar OCR offline de texto chino simplificado usando Aspose en C#, con una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
+### [Realizar OCR en una imagen en C# – Ejemplo completo de Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Aprenda a ejecutar OCR en imágenes usando C# con Aspose OCR mediante un ejemplo completo paso a paso.
+### [Procesamiento por lotes de OCR en C# – Convierta imágenes a texto rápidamente](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Aprenda a procesar lotes de imágenes con OCR en C# para convertir texto rápidamente y optimizar su flujo de trabajo.
+### [Reconocer texto de imagen en C# con Aspose OCR – Guía completa](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Aprenda a reconocer texto en imágenes usando C# y Aspose OCR con esta guía paso a paso.
+### [Extraer texto de DjVu con C# – Guía completa](./extract-text-from-djvu-with-c-complete-guide/)
+Aprenda a extraer texto de archivos DjVu usando C# y Aspose OCR con esta guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

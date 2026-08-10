@@ -55,6 +55,19 @@ Enhance your .NET applications with Aspose.OCR for efficient image text recognit
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [ocr chinese simplified: Offline OCR with Aspose in C# – Complete Guide](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Learn how to perform offline OCR for Simplified Chinese using Aspose.OCR in C#. Follow the complete step-by-step guide.
+### [Perform OCR on Image in C# – Complete Aspose OCR Example](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Learn how to perform OCR on images using Aspose.OCR in C#. Follow this complete example to integrate image text extraction into your .NET applications.
+### [Batch OCR Processing in C# – Convert Images to Text Quickly](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Learn how to batch process images with Aspose.OCR in C#, converting multiple files to text efficiently.
+### [Create Searchable PDF with Aspose OCR – Full C# Guide](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Learn how to generate searchable PDFs using Aspose OCR in C#. Follow this comprehensive step-by-step guide to enhance your .NET applications.
+### [Recognize Text from Image in C# with Aspose OCR – Complete Guide](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Learn how to recognize text from images using Aspose OCR in C#. Follow this complete guide to integrate OCR into your .NET applications.
+### [Extract Text from DjVu with C# – Complete Guide](./extract-text-from-djvu-with-c-complete-guide/)
+Learn how to extract text from DjVu files using Aspose.OCR in C#. Follow this complete guide to integrate DjVu OCR into your .NET applications.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

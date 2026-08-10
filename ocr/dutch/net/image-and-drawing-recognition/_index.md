@@ -74,6 +74,9 @@ Ontketen het potentieel van Aspose.OCR voor .NET bij het herkennen van regels in
 ### [OCR uitvoeren op afbeelding in OCR‑afbeeldingsherkenning](./perform-ocr-on-image/)
 Ontgrendel OCR‑magie met Aspose.OCR voor .NET en extraheer moeiteloos tekst uit afbeeldingen. Verken de tutorial voor naadloze integratie.
 
+### [OCR‑afbeelding naar Excel – Complete gids om gescande tabellen naar Excel te converteren](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Ontgrendel OCR‑magie met Aspose.OCR voor .NET en converteer gescande tabellen moeiteloos naar Excel. Volg de complete gids.
+
 ## Veelgestelde vragen
 
 **V: Kan ik Aspose.OCR gebruiken in een webapplicatie?**  

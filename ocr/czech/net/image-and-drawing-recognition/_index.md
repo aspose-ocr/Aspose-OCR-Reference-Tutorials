@@ -68,6 +68,8 @@ Uvolněte potenciál rozpoznávání textu s Aspose.OCR pro .NET. Rozpoznávejte
 Uvolněte potenciál Aspose.OCR pro .NET při rozpoznávání řádků v OCR rozpoznávání obrazu. Průvodce vývojáře k bezproblémové extrakci textu z obrázků.
 ### [Provedení OCR na obrázku v OCR rozpoznávání obrazu](./perform-ocr-on-image/)
 Odemkněte OCR magii s Aspose.OCR pro .NET a snadno extrahujte text z obrázků. Prozkoumejte tutoriál pro plynulou integraci.
+### [OCR obrázek do Excelu – Kompletní průvodce převodem naskenovaných tabulek do Excelu](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Převádějte naskenované tabulky do Excelu pomocí Aspose.OCR, krok za krokem, s ukázkami kódu a tipy pro maximální přesnost.
 
 ## Často kladené otázky
 

@@ -80,6 +80,8 @@ Lås upp potentialen för textigenkänning med Aspose.OCR för .NET. Känn igen 
 Frigör potentialen i Aspose.OCR för .NET för att känna igen rader i OCR‑bildigenkänning. En utvecklarguide för sömlös textutvinning från bilder.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Lås upp OCR‑magin med Aspose.OCR för .NET och extrahera text från bilder utan ansträngning. Utforska tutorialen för sömlös integration.
+### [OCR‑bild till Excel – Komplett guide för att konvertera skannade tabeller till Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Lås upp kraften i att omvandla skannade tabeller till Excel med Aspose.OCR för .NET. Följ steg‑för‑steg‑guiden för enkel konvertering.
 
 ## Vanliga frågor
 

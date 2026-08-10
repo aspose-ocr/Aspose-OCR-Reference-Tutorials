@@ -59,15 +59,17 @@ Podsumowując, Aspose.OCR dla .NET oferuje bogaty zestaw tutoriali, które pomag
 ### [Get Rectangles for Lines in OCR Image Recognition](./get-rectangles-for-lines/)
 Poznaj Aspose.OCR dla .NET — Twój klucz do precyzyjnego rozpoznawania obrazu OCR. Uwolnij moc wyodrębniania tekstu bez wysiłku.
 ### [Get Rectangles for Paragraphs in OCR Image Recognition](./get-rectangles-for-paragraphs/)
-Odblokuj zaawansowane możliwości OCR z Aspose.OCR dla .NET. Wyodrębniaj prostokąty akapitów bezproblemowo.
+Odblokuj zaawansowane możliwości OCR z Aspose.OCR dla .NET. Wyodrębnij prostokąty akapitów bezproblemowo.
 ### [Recognize Image from Stream in OCR Image Recognition](./recognize-image-from-stream/)
-Odkryj magię OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów. Zapoznaj się z tutorialem, aby uzyskać instrukcje krok po kroku.
+Odkryj magię OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębnij tekst z obrazów. Zapoznaj się z tutorialem, aby uzyskać instrukcje krok po kroku.
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Wykorzystaj potencjał rozpoznawania tekstu z Aspose.OCR dla .NET. Rozpoznawaj tekst z obrazów bez wysiłku.
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
 Uwolnij potencjał Aspose.OCR dla .NET w rozpoznawaniu linii w OCR. Przewodnik dewelopera do płynnego wyodrębniania tekstu z obrazów.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
-Odkryj magię OCR z Aspose.OCR dla .NET i łatwo wyodrębniaj tekst z obrazów. Zapoznaj się z tutorialem dla bezproblemowej integracji.
+Odkryj magię OCR z Aspose.OCR dla .NET i łatwo wyodrębnij tekst z obrazów. Zapoznaj się z tutorialem dla bezproblemowej integracji.
+### [OCR Image to Excel – Complete Guide to Convert Scanned Tables to Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Dowiedz się, jak przekształcić zeskanowane tabele w plik Excel przy użyciu Aspose.OCR, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

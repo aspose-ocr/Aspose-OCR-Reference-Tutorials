@@ -55,6 +55,18 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [批次 OCR 處理（C#）– 快速將影像轉換為文字](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+使用 Aspose.OCR 在 C# 中批量處理影像，快速將多張圖片轉換為文字，提高工作效率。
+### [OCR 簡體中文：使用 Aspose 的離線 OCR（C#）完整指南](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+使用 Aspose.OCR 在 C# 中離線處理簡體中文文字，提供完整步驟與範例說明。
+### [在 C# 中執行影像 OCR – 完整 Aspose OCR 範例](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+### [使用 Aspose OCR 建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+使用 Aspose OCR 在 .NET 中將 PDF 轉換為可搜尋的文件，提供完整 C# 範例與步驟說明。
+### [在 C# 中使用 Aspose OCR 識別圖像文字 – 完整指南](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+使用 Aspose OCR 在 C# 中完整辨識圖像文字，提供逐步說明與範例，提升開發效率。
+### [使用 C# 從 DjVu 提取文字 – 完整指南](./extract-text-from-djvu-with-c-complete-guide/)
+本完整指南說明如何在 C# 中使用 Aspose.OCR 從 DjVu 檔案提取文字，提供步驟與範例代碼。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
