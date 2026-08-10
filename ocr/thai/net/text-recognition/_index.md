@@ -55,6 +55,19 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [จดจำข้อความภาษาฮินดีใน C# ด้วย Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความภาษาฮินดีจากรูปภาพอย่างแม่นยำ
+### [บทช่วยสอน OCR ด้วย C#: ดึงข้อความจากรูปภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อดึงข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพด้วย Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+เรียนรู้วิธีใช้ OCR ใน C# เพื่อดึงข้อความจากรูปภาพด้วย Aspose OCR อย่างแม่นยำ
+### [จดจำข้อความจากรูปภาพใน C# ด้วย Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
+### [วิธีสร้าง PDF ที่ค้นหาได้จาก JPG – คู่มือขั้นตอนโดยละเอียด](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ JPG ให้เป็น PDF ที่สามารถค้นหาและคัดลอกข้อความได้ด้วย Aspose.OCR ในขั้นตอนง่ายๆ
+### [การทำ OCR รูปภาพเป็นชุดใน C# – คู่มือเต็มสำหรับการดึงข้อความ](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+เรียนรู้วิธีประมวลผลรูปภาพหลายไฟล์พร้อมกันด้วย Aspose.OCR ใน C# เพื่อดึงข้อความอย่างมีประสิทธิภาพ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
