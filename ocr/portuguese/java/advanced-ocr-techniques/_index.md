@@ -45,9 +45,6 @@ Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de tex
 
 Extraia facilmente texto de imagens especificando caracteres permitidos com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente, garantindo uma experiência perfeita de reconhecimento de texto. Aprimore seus aplicativos Java com recursos Aspose.OCR.
 
-## Conclusão
-
-Com Aspose.OCR para Java, dominar técnicas avançadas de OCR nunca foi tão fácil. Mergulhe nesses tutoriais e libere todo o potencial do reconhecimento de texto em seus projetos Java. Eleve seus aplicativos com integração perfeita, alta precisão e recursos versáteis de extração de texto. Baixe agora e dê o primeiro passo em direção à excelência em OCR com Aspose.OCR para Java!
 ## Tutoriais de técnicas avançadas de OCR
 ### [Executando OCR em BufferedImage em Aspose.OCR para Java](./perform-ocr-buffered-image/)
 Execute OCR em BufferedImage sem esforço com Aspose.OCR para Java. Extraia texto de imagens perfeitamente. Baixe agora para uma experiência versátil de reconhecimento de texto.
@@ -61,6 +58,10 @@ Desbloqueie o poder do reconhecimento de texto com Aspose.OCR para Java. Siga no
 Capacite seus aplicativos Java com Aspose.OCR para reconhecimento preciso de texto. Fácil integração, alta precisão.
 ### [Especificando caracteres permitidos em Aspose.OCR](./specify-allowed-characters/)
 Desbloqueie a extração de texto de imagens perfeitamente com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente.
+### [Criar PDF pesquisável a partir de imagens escaneadas – Guia OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens escaneadas usando Aspose.OCR para Java, com alta precisão e facilidade de integração.
+### [Como habilitar GPU no mecanismo de inferência Java – Guia completo](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Aprenda a ativar a GPU no mecanismo de inferência Java para acelerar o processamento de IA com passo a passo detalhado.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

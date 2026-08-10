@@ -61,6 +61,11 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [Erstellen eines durchsuchbaren PDFs aus gescannten Bildern – Java OCR‑Leitfaden](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Erstellen Sie mit Aspose.OCR für Java durchsuchbare PDFs aus gescannten Bildern. Schnell, präzise und einfach zu implementieren.
+### [GPU im Java Inference Engine aktivieren – Komplettanleitung](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Erfahren Sie, wie Sie GPU-Unterstützung im Java Inference Engine aktivieren, um die Leistung Ihrer KI-Anwendungen zu steigern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
