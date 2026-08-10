@@ -55,6 +55,17 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Jak číst cyrilici: převést obrázek na text pomocí Aspose OCR](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR rozpoznat cyrilské znaky a převést obrázek na editovatelný text.
+### [Rozpoznat čínský text z JPG pomocí Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR rozpoznat čínské znaky z JPG obrázku a získat přesný výstup.
+### [Vytvořte prohledávatelný PDF – Kompletní průvodce C# pro převod obrázku na PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF z obrázku pomocí kompletního C# průvodce.
+### [Provést OCR na obrázku do JSON v C# s Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Naučte se, jak pomocí Aspose OCR převést obrázek na JSON v C#.
+### [Jak použít OCR v C# – Rychle extrahovat text z obrázku](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Naučte se, jak pomocí Aspose.OCR v C# rychle převést obrázek na text a získat výstup pro další zpracování.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -49,12 +49,23 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un riconoscimento accurato 
 Esplora Aspose.OCR per .NET, una potente soluzione OCR per il riconoscimento continuo del testo nelle immagini.
 ### [Ottieni risultati come JSON nel riconoscimento immagini OCR](./get-result-as-json/)
 Scatena la potenza di Aspose.OCR per .NET. Impara a ottenere risultati OCR in formato JSON senza sforzo. Migliora il riconoscimento delle tue immagini con questa guida passo passo.
+### [Esegui OCR su immagine e ottieni JSON in C# con Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Scopri come eseguire OCR su un'immagine e ottenere il risultato in formato JSON usando C# e Aspose.
 ### [Modalità Rileva aree OCR in Riconoscimento immagini OCR](./ocr-detect-areas-mode/)
 Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconoscimento del testo delle immagini. Esplora la modalità Rileva aree OCR per risultati precisi.
 ### [Riconoscere PDF nel riconoscimento immagini OCR](./recognize-pdf/)
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Come leggere il cirilico: convertire l'immagine in testo con Aspose OCR](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+Scopri come estrarre testo in cirilico da immagini usando Aspose OCR, trasformando le immagini in testo leggibile.
+### [Riconoscere testo cinese da JPG con Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+Scopri come estrarre testo cinese da immagini JPG usando Aspose OCR, migliorando l'accuratezza e l'efficienza della tua applicazione.
+### [Crea PDF Ricercabile – Guida Completa C# per Immagine a PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+Impara a trasformare immagini in PDF ricercabili con Aspose.OCR usando C#. Segui la guida passo passo per creare PDF con testo indicizzabile.
+### [Come usare OCR in C# – Estrarre rapidamente testo da immagine](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Scopri come utilizzare Aspose.OCR in C# per estrarre testo da immagini in modo rapido ed efficiente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
