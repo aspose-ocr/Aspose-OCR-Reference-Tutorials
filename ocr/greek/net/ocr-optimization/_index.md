@@ -65,15 +65,18 @@ weight: 25
 
 ## Μαθήματα Βελτιστοποίησης OCR
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Εξερευνήστε αδιάλειπτη ενσωμάτωση OCR με Aspose.OCR for .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
+Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from images with precision.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET με τον ολοκληρωμένο μας οδηγό. Μάθετε βήμα‑βήμα πώς να προετοιμάσετε ορθογώνια για την αναγνώριση εικόνας. Αναβαθμίστε τις .NET εφαρμογές σας με αδιάλειπτη ενσωμάτωση OCR.
+Unlock the full potential of Aspose.OCR for .NET with our comprehensive guide. Learn step‑by‑step how to prepare rectangles for image recognition. Enhance your .NET applications with seamless OCR integration.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
+Explore Aspose.OCR for .NET. Improve OCR accuracy with preprocessing filters. Download now for seamless integration.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
+Boost OCR accuracy with Aspose.OCR for .NET. Correct spelling errors, customize dictionaries, and achieve error‑free text recognition with ease.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+Unlock the full potential of Aspose.OCR for .NET. Easily save multipage OCR results as documents with this comprehensive step‑by‑step guide.
+### [recognize text from image using GPU‑accelerated OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+### [Εξαγωγή κειμένου από εικόνα – Πλήρης οδηγός C# OCR με μείωση θορύβου](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Μάθετε πώς να βελτιώσετε την ακρίβεια OCR με τεχνικές μείωσης θορύβου σε C# εφαρμογές.
 
 ## Συχνές Ερωτήσεις
 

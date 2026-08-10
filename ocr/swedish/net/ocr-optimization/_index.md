@@ -61,7 +61,13 @@ Uppnå oöverträffad OCR‑noggrannhet med [Aspose.OCR för .NET](./result-corr
 
 Spara enkelt flersidiga OCR‑resultat som dokument med Aspose.OCR för .NET. Vår [step-by-step guide](./save-multipage-result-as-document/) låser upp hela potentialen för dokumentgenerering. Integrera Aspose.OCR sömlöst och omvandla dina OCR‑resultat till flersidiga dokument med lätthet.
 
-Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgång till ytterligare resurser och hålla dig uppdaterad om de senaste framstegen inom OCR‑optimering. Dyka ner i en värld av precision och effektivitet med Aspose.OCR för .NET‑handledningar.
+## Känn igen text från bild med GPU‑accelererad OCR i C#
+
+Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer med Aspose.OCR.
+
+## Extrahera text från bild – Komplett C# OCR‑guide med brusreducering
+
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
 
 ## OCR‑optimeringshandledningar
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
@@ -74,6 +80,10 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Känn igen text från bild med GPU‑accelererad OCR i C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer med Aspose.OCR.
+### [Extrahera text från bild – Komplett C# OCR‑guide med brusreducering](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
 
 ## Vanliga frågor
 
