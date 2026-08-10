@@ -106,6 +106,9 @@ Améliorez la précision de l’OCR avec Aspose.OCR pour Java. Apprenez à calcu
 ### [Obtention de rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
 Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
 
+### [Reconnaître du texte à partir d’une image en Java – Tutoriel OCR complet](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Apprenez à extraire du texte d’une image en Java avec un guide complet couvrant la configuration, le pré‑traitement et la reconnaissance OCR.
+
 ---
 
 **Dernière mise à jour :** 2025-12-08  

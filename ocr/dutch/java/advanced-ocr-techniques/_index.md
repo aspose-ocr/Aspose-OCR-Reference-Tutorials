@@ -45,6 +45,9 @@ Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. De
 
 Extraheer moeiteloos tekst uit afbeeldingen door toegestane tekens op te geven met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor efficiënte integratie en zorg voor een naadloze tekstherkenningservaring. Verbeter uw Java-applicaties met Aspose.OCR-mogelijkheden.
 
+## [Tekst herkennen van afbeelding – Java OCR met GPU-versnelling](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Versnel OCR in Java met GPU-ondersteuning voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+
 ## Conclusie
 
 Met Aspose.OCR voor Java is het beheersen van geavanceerde OCR-technieken nog nooit zo eenvoudig geweest. Duik in deze tutorials en ontgrendel het volledige potentieel van tekstherkenning in uw Java-projecten. Verbeter uw toepassingen met naadloze integratie, hoge nauwkeurigheid en veelzijdige mogelijkheden voor tekstextractie. Download nu en zet de eerste stap naar uitmuntende OCR met Aspose.OCR voor Java!
@@ -61,6 +64,14 @@ Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze sta
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
 ### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
 Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+### [Tekst herkennen van afbeelding – Java OCR met GPU-versnelling](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Versnel OCR in Java met GPU-ondersteuning voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+### [max threads instellen in Aspose OCR Java – Versnel OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Stel het maximale aantal threads in voor Aspose OCR Java om de OCR-snelheid te verhogen.
+### [Afbeelding naar tekst Java – Complete OCR-preprocessengids](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Leer hoe u afbeeldingen optimaliseert vóór OCR in Java voor maximale nauwkeurigheid en snelheid.
+### [OCR uitvoeren op TIFF – Grote TIFF's streamen en teksttegels extraheren in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
