@@ -55,6 +55,21 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Cara Menggunakan Aspose untuk OCR di C# – Panduan Langkah‑per‑Langkah](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Pelajari cara mengintegrasikan Aspose OCR dalam aplikasi C# Anda dengan panduan langkah demi langkah yang mudah diikuti.
+### [Buat PDF yang Dapat Dicari dari TIF – Konversi Gambar ke PDF, Tambahkan Metadata PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Pelajari cara mengubah file TIF menjadi PDF yang dapat dicari, menambahkan metadata, dan mengoptimalkan pencarian dokumen.
+### [Cara Menggunakan Aspose – Ekstrak Data Resi dari Gambar di C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Pelajari cara mengekstrak data resi dari gambar menggunakan Aspose OCR di C# dengan panduan langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dan File DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Pelajari cara mengekstrak teks dari gambar dan file DJVU menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Mengenali Teks Cina menggunakan Aspose OCR di C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Pelajari cara mengenali teks berbahasa Cina dengan Aspose OCR dalam aplikasi C# Anda melalui panduan langkah demi langkah.
+### [Cara Melakukan Batch OCR di C# – Panduan Lengkap untuk Ekstraksi Teks Gambar Massal](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Pelajari cara melakukan OCR secara batch di C# untuk mengekstrak teks dari banyak gambar secara efisien.
+### [Ekstrak Teks dari TIFF dengan Mesin OCR Aspose – Contoh Lengkap](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Pelajari cara mengekstrak teks dari file TIFF menggunakan Aspose OCR Engine dengan contoh lengkap langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

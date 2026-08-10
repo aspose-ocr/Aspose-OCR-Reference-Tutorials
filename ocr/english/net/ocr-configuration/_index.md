@@ -58,8 +58,12 @@ Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extra
 Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text effortlessly from images.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
+### [How to Download OCR Language Pack for Russian – Complete Guide](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Learn how to download and install the Russian OCR language pack for Aspose.OCR in .NET applications.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [How to enable gpu for OCR in C# – Step‑by‑Step Guide](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Enable GPU acceleration for Aspose.OCR in C# to boost performance and accuracy in OCR image recognition.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

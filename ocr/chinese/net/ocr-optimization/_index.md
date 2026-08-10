@@ -43,7 +43,7 @@ weight: 25
 深入了解 Aspose.OCR for .NET 的 OCR 世界。我们的教程 [performing OCR on images from URL](./perform-ocr-on-image-from-url/) 为您提供无缝集成的指导。精准识别图像中的文本，使您的应用程序更智能。
 
 ## 在 OCR 图像识别中准备矩形
-准备好释放 Aspose.OCR for .NET 的全部潜能了吗？我们的指南 [preparing rectangles](./prepare-rectangles/) 为图像识别提供关键帮助。一步一步学习如何通过策略性放置矩形来优化图像识别。用这项必备知识提升您的 .NET 应用程序。
+准备好释放 Aspose.OCR for .NET 的全部潜能了吗？我们的指南 [prepare rectangles](./prepare-rectangles/) 为图像识别提供关键帮助。一步一步学习如何通过策略性放置矩形来优化图像识别。用这项必备知识提升您的 .NET 应用程序。
 
 ## 在 OCR 图像识别中图像的预处理过滤器
 通过探索 [preprocessing filters](./preprocessing-filters-for-image/) 来提升 Aspose.OCR for .NET 的 OCR 精度。立即下载，了解如何在识别前微调图像。本教程确保无缝集成，提升准确性和效率。
@@ -71,6 +71,9 @@ weight: 25
 
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 释放 Aspose.OCR for .NET 的潜能。通过本综合一步一步的指南，轻松将多页 OCR 结果保存为文档。
+
+### [如何改进 OCR – 使用 Aspose 从图像中提取文本](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+学习使用 Aspose 提升 OCR 准确率，优化图像预处理并高效提取文本。
 
 ## 常见问题
 
