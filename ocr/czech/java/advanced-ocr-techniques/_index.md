@@ -23,7 +23,7 @@ Aspose.OCR for Java mění hru, pokud jde o optické rozpoznávání znaků (OCR
 
 ## [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
 
-tomto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
+tomuto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
 
 ## [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
 
@@ -61,6 +61,13 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Jak povolit GPU pro Java OCR – Kompletní tutoriál](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Naučte se, jak aktivovat GPU akceleraci v Aspose.OCR pro Java a výrazně zrychlit rozpoznávání textu.
+### [Vytvoření pevného thread poolu pro paralelní OCR v Javě](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Naučte se, jak vytvořit pevný thread pool pro paralelní zpracování OCR v Javě a zvýšit výkon rozpoznávání textu.
+### [Zlepšení přesnosti OCR v Javě – Kompletní průvodce Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Zvyšte přesnost rozpoznávání textu v Javě pomocí podrobného průvodce Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

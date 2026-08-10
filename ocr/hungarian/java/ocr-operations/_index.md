@@ -52,8 +52,6 @@ A pontosság kulcsfontosságú a szövegkinyerésnél, és az Aspose.OCR for Jav
 
 Akár többnyelvű dokumentumokról, akár specifikus nyelvi követelményekről van szó, ez a tutorial felhatalmaz arra, hogy a szöveget precíz pontossággal nyerd ki. Búcsúzz el a találgatástól, és üdvözöld a pontosságot.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR PDF dokumentumok felismerése az Aspose.OCR for Java-ban
 
 Könnyedén szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. A PDF dokumentumok szövegének felismeréséről szóló tutorialunk zökkenőmentes integrációra vezet. Növeld alkalmazásaidat a szöveg PDF-ekben történő kezeléséhez szükséges pontossággal és sebességgel.
@@ -83,6 +81,10 @@ Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyed�
 Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
 ### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Aspose OCR Java példa: Szöveg kinyerése egy területről](./aspose-ocr-java-example-extract-text-from-a-region/)
+Ismerje meg, hogyan nyerhet ki szöveget egy meghatározott területből az Aspose OCR Java példában.
+### [HEIC képből szöveg kinyerése – Teljes Java útmutató](./extract-text-from-heic-complete-java-guide/)
+Fedezd fel, hogyan nyerheted ki a szöveget HEIC formátumú képekből Java-val az Aspose.OCR segítségével.
 
 ## Gyakran Ismételt Kérdések
 

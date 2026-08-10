@@ -73,6 +73,8 @@ Podsumowując, dzięki naszej liście tutoriali Aspose.OCR dla Javy masz klucz d
 ## Tutoriale operacji OCR
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Odblokuj moc wyodrębniania tekstu z obrazów przy użyciu Aspose.OCR dla Javy. Kompleksowy tutorial o OCR w trybie Detect Areas.
+### [Aspose OCR Java – Przykład: Wyodrębnianie tekstu z obszaru](./aspose-ocr-java-example-extract-text-from-a-region/)
+Przykładowy kod w Javie pokazujący, jak wyodrębnić tekst z określonego regionu obrazu przy użyciu Aspose.OCR.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Odblokuj precyzyjne wyodrębnianie tekstu z obrazów przy użyciu Aspose.OCR dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać dokładny OCR z wyborem języka.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
@@ -81,6 +83,8 @@ Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez w
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Wyodrębnianie tekstu z HEIC – Kompletny przewodnik Java](./extract-text-from-heic-complete-java-guide/)
+Pełny przewodnik po wyodrębnianiu tekstu z plików HEIC w Javie przy użyciu Aspose.OCR.
 
 ## Najczęściej zadawane pytania
 

@@ -50,15 +50,11 @@ weight: 21
 
 Είτε πρόκειται για πολυγλωσσικά έγγραφα είτε για συγκεκριμένες απαιτήσεις γλώσσας, αυτό το tutorial σας δίνει τη δυνατότητα να εξάγετε κείμενο με ακρίβεια στόχευσης. Πείτε αντίο στην εικασία και καλωσορίστε την ακρίβεια.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR Αναγνώριση Εγγράφων PDF στο Aspose.OCR για Java
 
 Ανοίξτε με ευκολία τη δύναμη του OCR σε Java με το Aspose.OCR. Το tutorial μας για την αναγνώριση κειμένου σε έγγραφα PDF σας οδηγεί σε μια αδιάσπαστη ενσωμάτωση. Ενισχύστε τις εφαρμογές σας με την ακρίβεια και την ταχύτητα που απαιτούνται για τη διαχείριση κειμένου σε PDF.
 
 Τέλος με τις δυσκολίες στην εξαγωγή κειμένου PDF. Βυθιστείτε στο tutorial και εξοπλιστείτε με τη γνώση για να αναγνωρίζετε κείμενο σε έγγραφα PDF άψογα, εξασφαλίζοντας ομαλή ροή εργασίας.
-
-[Get Started with PDF Recognition](./recognize-pdf/)
 
 ## OCR Αναγνώριση Εικόνων TIFF στο Aspose.OCR για Java
 
@@ -66,13 +62,13 @@ weight: 21
 
 Πείτε αντίο στην χειροκίνητη εξαγωγή κειμένου από εικόνες TIFF. Αφήστε το Aspose.OCR να το κάνει για εσάς. Βυθιστείτε στο tutorial και ξεκλειδώστε ισχυρή αναγνώριση κειμένου σε Java.
 
-[TIFF Recognition Tutorial](./recognize-tiff/)
-
 Συμπερασματικά, με τη Λίστα Tutorials του Aspose.OCR για Java, έχετε τα κλειδιά για να αξιοποιήσετε πλήρως τις δυνατότητες των λειτουργιών OCR. Εξερευνήστε κάθε tutorial, ανακαλύψτε τις δυνατότητες και αναβαθμίστε τις ικανότητες εξαγωγής κειμένου σας. Πείτε αντίο στις χειροκίνητες προσπάθειες και αγκαλιάστε την ακρίβεια και την αποδοτικότητα που προσφέρει το Aspose.OCR για Java!
 
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Αποκτήστε τη δύναμη της εξαγωγής κειμένου από εικόνες με το Aspose.OCR για Java. Ένα ολοκληρωμένο tutorial για OCR με Detect Areas Mode.
+### [Aspose OCR Java Example: Extract Text from a Region](./aspose-ocr-java-example-extract-text-from-a-region/)
+Μάθετε πώς να εξάγετε κείμενο από συγκεκριμένη περιοχή εικόνας χρησιμοποιώντας Aspose OCR σε Java.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Αποκτήστε ακριβή εξαγωγή κειμένου από εικόνες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για ακριβές OCR με επιλογή γλώσσας.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
@@ -81,6 +77,8 @@ weight: 21
 Αποκτήστε ισχυρή αναγνώριση κειμένου σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε εικόνες TIFF άψογα. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Εξαγωγή Κειμένου από HEIC – Πλήρης Οδηγός Java](./extract-text-from-heic-complete-java-guide/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία HEIC χρησιμοποιώντας Aspose.OCR σε Java, βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 
