@@ -62,6 +62,10 @@ Sblocca la potenza del riconoscimento OCR delle immagini in .NET con Aspose.OCR.
 Sblocca potenti capacità OCR con Aspose.OCR per .NET. Estrai testo da immagini in modo fluido.
 ### [OCROperation con Lista nel Riconoscimento OCR delle Immagini](./ocr-operation-with-list/)
 Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Aumenta la produttività e l'estrazione dei dati nelle tue applicazioni.
+### [Come usare OcrEngine in C# – Guida completa OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Scopri come utilizzare OcrEngine in C# per eseguire riconoscimento OCR completo, dalla configurazione all'estrazione avanzata del testo.
+### [Crea PDF Ricercabile da un'Immagine – Guida Completa Passo‑Passo](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Impara a trasformare un'immagine in un PDF ricercabile con Aspose.OCR, passo dopo passo, includendo configurazione e salvataggio.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

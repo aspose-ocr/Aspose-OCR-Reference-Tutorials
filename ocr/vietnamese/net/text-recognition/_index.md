@@ -55,6 +55,21 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạn
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản từ PNG trong C# – Hướng dẫn OCR toàn diện](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp PNG một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về Engine OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh bằng engine OCR đầy đủ, nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn OCR toàn diện](./recognize-text-image-in-c-full-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh một cách toàn diện và chính xác.
+### [Nhận dạng văn bản viết tay trong C# – Hướng dẫn toàn diện từng bước](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản viết tay một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR toàn diện](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản tiếng Trung bằng .NET OCR – Hướng dẫn toàn diện](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để nhận dạng văn bản tiếng Trung một cách nhanh chóng và chính xác.
+### [PDF được bảo vệ bằng OCR trong C# – Hướng dẫn toàn diện để trích xuất văn bản](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ PDF được bảo vệ bằng OCR một cách nhanh chóng và chính xác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

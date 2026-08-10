@@ -41,7 +41,6 @@ Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah d
 
 Jelajahi kompleksitas pengenalan tabel dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Panduan komprehensif kami memberdayakan Anda untuk membuka potensi penuh Aspose.OCR, memastikan pengenalan tabel yang akurat dan efisien dalam aplikasi Anda. Tingkatkan proyek Anda dengan solusi OCR terdepan di industri.
 
-Siap merevolusi aplikasi .NET Anda? Selami Tutorial Pengenalan Teks kami dan manfaatkan kekuatan Aspose.OCR untuk pengenalan teks dalam gambar yang akurat dan efisien. Unduh sekarang dan mulailah perjalanan peningkatan kemampuan OCR.
 ## Tutorial Pengenalan Teks
 ### [Dapatkan Pilihan untuk Karakter yang Dikenali dalam Pengenalan Gambar OCR](./get-choices-for-recognized-characters/)
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang akurat. Ikuti panduan langkah demi langkah kami untuk mengambil pilihan karakter yang dikenali dalam pengenalan gambar.
@@ -53,8 +52,23 @@ Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dal
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
+### [PDF terlindungi OCR di C# – Panduan Lengkap untuk Mengekstrak Teks](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Pelajari cara mengekstrak teks dari PDF yang dilindungi dengan OCR menggunakan C# dalam panduan lengkap langkah demi langkah.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Ekstrak Teks dari Gambar di C# – Tutorial OCR Lengkap](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Pelajari cara mengekstrak teks dari gambar menggunakan C# dan Aspose.OCR dalam tutorial lengkap langkah demi langkah.
+### [Mengenali Teks dari PNG di C# – Tutorial OCR Lengkap](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Pelajari cara mengenali teks dari file PNG menggunakan C# dengan Aspose.OCR dalam tutorial lengkap langkah demi langkah.
+### [Mengenali Teks Tulisan Tangan di C# – Panduan Lengkap Langkah demi Langkah](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Kenali teks tulisan tangan dalam C# dengan Aspose.OCR melalui panduan lengkap langkah demi langkah.
+### [Mengenali Teks Cina dengan OCR .NET – Panduan Lengkap](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Pelajari cara mengenali teks Cina dengan OCR .NET dalam panduan lengkap langkah demi langkah.
+### [Mengenali Teks dari Gambar di C# – Tutorial Mesin OCR Lengkap](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Pelajari cara mengenali teks dari gambar menggunakan C# dengan mesin OCR lengkap dalam panduan langkah demi langkah.
+### [Mengenali Teks Gambar di C# – Panduan OCR Lengkap](./recognize-text-image-in-c-full-ocr-guide/)
+Pelajari cara mengenali teks dalam gambar menggunakan C# dengan panduan OCR lengkap langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

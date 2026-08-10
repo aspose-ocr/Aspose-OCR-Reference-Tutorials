@@ -56,12 +56,21 @@ Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedé
 ## OCR konfigurációs oktatóanyagok
 ### [OCROperation archívummal az OCR képfelismerésben](./ocr-operation-with-archive/)
 Fedezze fel az OCR lehetőségeit .NET alkalmazásokban az Aspose.OCR segítségével. Tanulja meg lépésről lépésre a szöveg kinyerését archívumképekből.  
+
 ### [OCROperation mappával az OCR képfelismerésben](./ocr-operation-with-folder/)
 Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kényelmesen nyerjen ki szöveget a képekből.  
+
 ### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
 Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
+
 ### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
+Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.  
+
+### [Hogyan használjuk az OcrEngine-t C#‑ban – Teljes OCR útmutató](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Ismerje meg az OcrEngine osztály teljes használatát C#‑ban, a beállításoktól a szövegkinyerésig.  
+
+### [Kereshető PDF létrehozása képből – Teljes lépésről‑lépésre útmutató](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Ismerje meg, hogyan alakíthatja a képet kereshető PDF-dokumentummá az Aspose.OCR és Aspose.PDF segítségével.  
 
 ### Gyakori felhasználási esetek
 - **Szöveg kinyerése** beolvasott számlákról az automatizált könyveléshez.  

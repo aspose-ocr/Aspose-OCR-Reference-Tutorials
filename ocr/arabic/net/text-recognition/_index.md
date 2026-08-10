@@ -55,6 +55,20 @@ url: /ar/net/text-recognition/
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [التعرف على النص من PNG في C# – دليل OCR كامل](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [استخراج النص من صورة في C# – دليل OCR كامل](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+تعلم استخراج النص من الصور باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على النص المكتوب يدويًا في C# – دليل كامل خطوة بخطوة](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+تعلم استخراج النص المكتوب يدويًا باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على النص الصيني باستخدام .NET OCR – دليل كامل](./recognize-chinese-text-with-net-ocr-complete-guide/)
+اكتشف كيفية التعرف على النص الصيني باستخدام Aspose.OCR لـ .NET خطوة بخطوة.
+### [التعرف على النص من صورة في C# – دليل كامل لمحرك OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+اكتشف كيفية التعرف على النص من الصور باستخدام محرك OCR كامل في C# مع Aspose.OCR خطوة بخطوة.
+### [ملف PDF محمي بتقنية OCR في C# – دليل كامل لاستخراج النص](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+تعلم كيفية استخراج النص من ملفات PDF المحمية بتقنية OCR باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على نص الصورة في C# – دليل OCR كامل](./recognize-text-image-in-c-full-ocr-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

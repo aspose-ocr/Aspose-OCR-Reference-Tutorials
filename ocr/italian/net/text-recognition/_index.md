@@ -55,6 +55,21 @@ Migliora le tue applicazioni .NET con Aspose.OCR per un efficiente riconosciment
 Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
 ### [Riconosci tabella nel riconoscimento immagini OCR](./recognize-table/)
 Sblocca il potenziale di Aspose.OCR per .NET con la nostra guida completa sul riconoscimento delle tabelle nel riconoscimento delle immagini OCR.
+### [Riconosci testo da PNG in C# – Tutorial OCR completo](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Scopri come riconoscere testo da immagini PNG usando C# e Aspose.OCR, con una guida passo passo per un'implementazione completa.
+### [Riconosci testo scritto a mano in C# – Guida completa passo passo](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Scopri come riconoscere testo scritto a mano in C# usando Aspose.OCR, con una guida passo passo per un'implementazione completa.
+### [Estrai testo da immagine in C# – Tutorial OCR completo](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Scopri come estrarre testo da un'immagine con C# e Aspose.OCR, seguendo una guida passo passo per un'implementazione completa.
+### [Riconosci testo cinese con .NET OCR – Guida completa](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Scopri come riconoscere testo cinese con .NET OCR usando Aspose.OCR, con una guida passo passo per un'implementazione completa.
+### [Riconosci testo da immagine in C# – Tutorial completo del motore OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Scopri come utilizzare il motore OCR completo in C# per riconoscere testo da immagini, con una guida passo passo per un'implementazione efficace.
+### [PDF protetto OCR in C# – Guida completa per estrarre testo](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Scopri come estrarre testo da PDF protetti con OCR usando C# e Aspose.OCR, seguendo una guida passo passo.
+### [Riconosci testo da immagine in C# – Guida completa OCR](./recognize-text-image-in-c-full-ocr-guide/)
+Impara a riconoscere testo da immagini usando C# e Aspose.OCR con una guida completa passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

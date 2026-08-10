@@ -61,7 +61,11 @@ Desbloqueie o poder do reconhecimento de imagens OCR em .NET com Aspose.OCR. Ext
 ### [OCROperation com Seleção de Idioma em Reconhecimento de Imagens OCR](./ocr-operation-with-language-selection/)
 Desbloqueie recursos poderosos de OCR com Aspose.OCR para .NET. Extraia texto de imagens de forma contínua.
 ### [OCROperation com Lista em Reconhecimento de Imagens OCR](./ocr-operation-with-list/)
-Desbloqueie o potencial do Aspose.OCR para .NET. Realize reconhecimento de imagens OCR com listas de forma simples. Aumente a produtividade e a extração de dados em suas aplicações.
+Explore o vasto potencial do Aspose.OCR para .NET ao realizar reconhecimento de imagens OCR com listas de forma simples. Aumente a produtividade e a extração de dados em suas aplicações.
+### [Como usar OcrEngine em C# – Guia completo de OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Domine o uso da classe OcrEngine em C# para reconhecimento avançado de texto com Aspose.OCR.
+### [Criar PDF pesquisável a partir de uma imagem – Guia completo passo a passo](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Aprenda a converter imagens em PDFs pesquisáveis usando Aspose.OCR, com passo a passo detalhado e código C# completo.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  
