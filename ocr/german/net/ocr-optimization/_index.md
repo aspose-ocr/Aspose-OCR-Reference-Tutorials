@@ -68,7 +68,13 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 ### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt‑für‑Schritt‑Leitfaden.
+### [Aspose OCR GPU: Text aus TIFF‑Bild mit C# erkennen](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus TIFF‑Bildern effizient mit C# zu extrahieren.
+### [Wie man Bilder entzerrt und die OCR‑Genauigkeit steigert – Vollständige Aspose OCR‑Anleitung](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Erfahren Sie, wie Sie Bildentzerrung anwenden, um die OCR‑Erkennungsrate mit Aspose OCR signifikant zu erhöhen.
+### [Durchsuchbares PDF mit Aspose OCR erstellen – Vollständiger Programmierleitfaden](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF programmatisch erzeugen – Schritt für Schritt Anleitung.
 
 ## Häufig gestellte Fragen
 

@@ -73,6 +73,11 @@ weight: 25
 حسّن دقة OCR مع Aspose.OCR for .NET. صحّح الأخطاء الإملائية، خصّص القواميس، واحصل على نص خالٍ من الأخطاء بسهولة.
 ### [حفظ النتيجة متعددة الصفحات كمستند في التعرف على الصور باستخدام OCR](./save-multipage-result-as-document/)
 افتح إمكانات Aspose.OCR for .NET. احفظ نتائج OCR متعددة الصفحات كمستندات بسهولة من خلال هذا الدليل الشامل خطوة بخطوة.
+### [Aspose OCR GPU: التعرف على النص في صورة TIFF باستخدام C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+تعلم كيفية استخدام Aspose OCR مع وحدة معالجة الرسومات (GPU) للتعرف على النص في ملفات TIFF باستخدام C#.
+### [كيفية تصحيح ميل الصورة وتعزيز دقة OCR – دليل Aspose OCR الكامل](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+تعلم خطوات تصحيح الميل للصور وتحسين دقة OCR باستخدام Aspose OCR في دليل شامل خطوة بخطوة.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل برمجة كامل](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 
 ## الأسئلة المتكررة
 
