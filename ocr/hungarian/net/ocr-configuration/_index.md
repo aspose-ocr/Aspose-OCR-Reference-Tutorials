@@ -48,7 +48,7 @@ Merüljön el az OCR világában az Aspose.OCR-rel, és fedezze fel, hogyan lehe
 Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Ez az oktatóanyag megadja a tudást, hogy könnyedén szöveget nyerjen ki a mappákban tárolt képekből. Növelje az adatkinyerés hatékonyságát és egyszerűsítse alkalmazása OCR képességeit.
 
 ## OCROperation nyelvválasztással az OCR képfelismerésben
-Emelje OCR képességeit új szintre az **ocr language selection** (OCR nyelvválasztás) elsajátításával az Aspose.OCR for .NET-ben. Ez az oktatóanyag végigvezeti a folyamaton, hogy zökkenőmentesen szöveget nyerjen ki különböző nyelveken írt képekből. Erősítse alkalmazását többnyelvű OCR képességekkel.
+Emelje OCR képesseit új szintre az **ocr language selection** (OCR nyelvválasztás) elsajátításával az Aspose.OCR for .NET-ben. Ez az oktatóanyag végigvezeti a folyamaton, hogy zökkenőmentesen szöveget nyerjen ki különböző nyelveken írt képekből. Erősítse alkalmazását többnyelvű OCR képességekkel.
 
 ## OCROperation listával az OCR képfelismerésben
 Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedén végez OCR képfelismerést listákkal. Ez az oktatóanyag nemcsak a szövegkinyerést javítja, hanem a változatos adatkészletek kezelésében is növeli a termelékenységet. Ismerje meg az OCR hatékonyságát listaműveletekkel.
@@ -61,7 +61,9 @@ Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Kény
 ### [OCROperation nyelvválasztással az OCR képfelismerésben](./ocr-operation-with-language-selection/)
 Használja ki az OCR erőteljes képességeit az Aspose.OCR for .NET-ben. Zökkenőmentesen nyerjen ki szöveget a képekből.  
 ### [OCROperation listával az OCR képfelismerésben](./ocr-operation-with-list/)
-Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.
+Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR képfelismerést listákkal, növelje a termelékenységet és az adatkinyerést alkalmazásaiban.  
+### [AsposeAI modell konfiguráció létrehozása – lépésről‑lépésre útmutató](./create-asposeai-model-config-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre és konfigurálhat AsposeAI modellt .NET környezetben lépésről‑lépésre.  
 
 ### Gyakori felhasználási esetek
 - **Szöveg kinyerése** beolvasott számlákról az automatizált könyveléshez.  

@@ -53,7 +53,6 @@ Podnieś możliwości OCR na wyższy poziom, opanowując **ocr language selectio
 ## OCROperation with List in OCR Image Recognition
 Poznaj ogromny potencjał Aspose.OCR dla .NET, wykonując rozpoznawanie obrazu OCR przy użyciu list. Ten samouczek nie tylko usprawnia wyodrębnianie tekstu, ale także zwiększa produktywność przy obsłudze różnorodnych zestawów danych. Odkryj efektywność OCR w operacjach na listach.
 
-## Samouczki konfiguracji OCR
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Odkryj potencjał OCR w aplikacjach .NET z Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów w archiwach.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -62,6 +61,8 @@ Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Łatwo wyodręb
 Uzyskaj potężne możliwości OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów w różnych językach.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Wykorzystaj potencjał Aspose.OCR dla .NET. Łatwo wykonuj rozpoznawanie obrazu OCR przy użyciu list. Zwiększ produktywność i wyodrębnianie danych w swoich aplikacjach.
+### [Utwórz konfigurację modelu AsposeAI – przewodnik krok po kroku](./create-asposeai-model-config-step-by-step-guide/)
+Dowiedz się, jak skonfigurować model AsposeAI w kilku prostych krokach, aby wykorzystać jego możliwości w aplikacjach.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  
