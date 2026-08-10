@@ -101,6 +101,8 @@ Fedezze fel az Aspose.OCR for Java lehetőségeit ebben a lépésről‑lépésr
 Növelje az OCR pontosságát az Aspose.OCR for Java segítségével. Tanulja meg lépésről‑lépésre a ferdeségi szögek számítását. Javítsa a dokumentumfeldolgozást könnyedén.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Fedezze fel az Aspose.OCR for Java erejét. Tanulja meg, hogyan nyerjen ki szöveget képekből zökkenőmentesen ebben a részletes útmutatóban. Töltse le most a hatékony szövegfelismerésért.
+### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes útmutató a képek szöveggé alakításához](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Teljes körű útmutató az OCR végrehajtásához Java-ban, a képek szöveggé alakításának minden lépésével.
 
 ---
 

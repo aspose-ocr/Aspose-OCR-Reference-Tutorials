@@ -81,6 +81,8 @@ Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez w
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Zastosowanie licencji Aspose OCR w Javie – usunięcie znaku wodnego OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Dowiedz się, jak zastosować licencję Aspose OCR w Javie, aby usunąć znak wodny OCR i uzyskać czyste wyniki.
 
 ## Najczęściej zadawane pytania
 

@@ -23,7 +23,7 @@ Aspose.OCR for Java mění hru, pokud jde o optické rozpoznávání znaků (OCR
 
 ## [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
 
-tomto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
+tomuto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
 
 ## [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
 
@@ -61,6 +61,17 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Jak povolit GPU v Java OCR – Kompletní krok‑za‑krokem průvodce](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Naučte se, jak v Aspose.OCR pro Java aktivovat GPU pro rychlejší rozpoznávání textu s podrobným návodem.
+### [Extrahování textu ze skenovaného obrázku v Javě – Kompletní průvodce Aspose OCR](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Naučte se extrahovat text ze skenovaných obrázků v Javě pomocí Aspose.OCR s podrobným krok‑za‑krokem návodem.
+### [Aspose OCR Java příklad – Kompletní průvodce načtením obrázku, opravením pravopisu a zpracováním OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Kompletní návod, jak načíst obrázek, opravit pravopis a provést OCR pomocí Aspose OCR v Javě.
+### [Zlepšení přesnosti OCR v Javě – Kompletní průvodce](./improve-ocr-accuracy-in-java-complete-guide/)
+Naučte se, jak zvýšit přesnost OCR v Javě pomocí Aspose.OCR s podrobným krok‑za‑krokem návodem.
+### [Vytvoření prohledávatelného PDF v Javě – Kompletní průvodce Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Naučte se, jak v Javě vytvořit prohledávatelné PDF pomocí Aspose OCR s podrobným krok‑za‑krokem návodem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
