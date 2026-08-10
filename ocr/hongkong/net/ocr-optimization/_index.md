@@ -64,6 +64,8 @@ weight: 25
 ## OCR 優化教學
 ### [在 OCR 圖像辨識中從 URL 執行圖像 OCR](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的無縫 OCR 整合，精準辨識圖像文字。
+### [使用 Aspose 執行圖像 OCR – 完整 C# 指南](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+一步步教您在 .NET 中使用 Aspose 完整實作圖像 OCR，涵蓋設定、執行與結果處理。
 ### [在 OCR 圖像辨識中準備矩形區域](./prepare-rectangles/)
 解鎖 Aspose.OCR for .NET 的潛能，學習如何一步步準備矩形區域以進行圖像辨識，提升 .NET 應用程式的 OCR 整合。
 ### [在 OCR 圖像辨識中的圖像前處理濾鏡](./preprocessing-filters-for-image/)

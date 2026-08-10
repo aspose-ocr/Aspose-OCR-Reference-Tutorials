@@ -55,6 +55,12 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Jak rozpoznać tekst z obrazu w C# – Kompletny przewodnik Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Pełny przewodnik, jak używać Aspose.OCR w C# do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Rozpoznaj tekst z obrazu w C# OCR – Pełny przykład](./recognize-text-from-image-with-c-ocr-complete-example/)
+Kompletny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Utwórz przeszukiwany PDF z zeskanowanych plików – Kompletny przewodnik C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# przekształcić zeskanowane pliki w przeszukiwalne PDF-y, krok po kroku.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
