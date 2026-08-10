@@ -100,6 +100,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR for Java เรียนรู้การคำนวณมุมเอียงแบบละเอียด ปรับปรุงการประมวลผลเอกสารได้อย่างง่ายดาย
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
+### [อ่านข้อความจากภาพด้วย Java OCR – คู่มือ Aspose OCR ฉบับสมบูรณ์](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+เรียนรู้วิธีอ่านข้อความจากภาพด้วย Java OCR อย่างละเอียด พร้อมเทคนิคการปรับปรุงความแม่นยำและการตั้งค่าเต็มรูปแบบ
 
 ---
 

@@ -101,6 +101,8 @@ weight: 20
 Βελτιώστε την ακρίβεια του OCR με το Aspose.OCR για Java. Μάθετε να υπολογίζετε γωνίες κλίσης βήμα‑βήμα. Αναβαθμίστε την επεξεργασία εγγράφων εύκολα.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Αποκτήστε τη δύναμη του Aspose.OCR για Java. Μάθετε πώς να εξάγετε κείμενο από εικόνες απρόσκοπτα σε αυτόν τον βήμα‑βήμα οδηγό. Κατεβάστε τώρα για αποδοτική αναγνώριση κειμένου.
+### [Read Text from Image with Java OCR – Complete Aspose OCR Guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Μάθετε πώς να διαβάσετε κείμενο από εικόνα με Java OCR σε έναν πλήρη οδηγό Aspose OCR.
 
 ---
 
