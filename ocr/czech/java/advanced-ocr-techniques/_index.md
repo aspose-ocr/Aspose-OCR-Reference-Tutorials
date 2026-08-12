@@ -45,6 +45,9 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
 
+## [Rozpoznání textu z obrázku v Javě – kompletní průvodce OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Kompletní průvodce OCR v Javě, který ukazuje, jak rozpoznat text z obrázku s vysokou přesností a snadnou integrací.
+
 ## Závěr
 
 Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
