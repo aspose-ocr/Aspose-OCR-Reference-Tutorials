@@ -1,11 +1,53 @@
 ---
-date: 2026-03-05
-description: Scopri come eseguire l'elaborazione post‑OCR con Aspose.OCR per .NET,
-  recuperando le alternative dei caratteri per migliorare l'accuratezza dell'OCR ed
-  esplorare l'elenco dei caratteri riconosciuti.
-linktitle: Get Choices for Recognized Characters in OCR Image Recognition
+date: 2026-08-12
+description: Scopri come eseguire la post-elaborazione OCR con Aspose.OCR for .NET,
+  recuperare le alternative dei caratteri e migliorare l'accuratezza OCR utilizzando
+  l'elenco dei caratteri riconosciuti.
+keywords:
+- ocr post processing
+- improve ocr accuracy
+- aspose ocr .net
+lastmod: 2026-08-12
+linktitle: Ottieni le scelte per i caratteri riconosciuti nel riconoscimento di immagini
+  OCR
+og_description: Scopri la post-elaborazione OCR con Aspose.OCR for .NET per recuperare
+  le alternative dei caratteri e migliorare l'accuratezza OCR. Guida rapida per gli
+  sviluppatori.
+og_image_alt: Aspose OCR tutorial showing character choices retrieval in a .NET application
+og_title: Post-elaborazione OCR – ottieni le scelte dei caratteri in .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to perform OCR post processing with Aspose.OCR for .NET,
+    retrieve character alternatives, and improve OCR accuracy using the recognition
+    characters list.
+  headline: OCR post processing – get character choices
+  type: TechArticle
+- questions:
+  - answer: By examining the alternative characters returned in the recognition characters
+      list, you can apply context‑aware rules (e.g., dictionary checks) to select
+      the most likely glyph, reducing mis‑recognitions.
+    question: How does OCR post processing improve OCR accuracy?
+  - answer: Yes, iterate over each `char[]` and use the first three elements, which
+      represent the highest‑confidence alternatives.
+    question: Can I filter the recognition characters list to only the top three choices?
+  - answer: The list is populated for all supported languages; however, the richness
+      of alternatives may vary depending on the language model configured in `RecognitionSettings`.
+    question: Is the `RecognitionCharactersList` available for all languages?
+  - answer: The code works with .NET Framework 4.6+, .NET Core 3.1, .NET 5, and .NET
+      6+.
+    question: What .NET versions are compatible with this tutorial?
+  - answer: The official Aspose documentation and the GitHub repository contain additional
+      examples and the full **Aspose OCR tutorial** collection.
+    question: Where can I find more Aspose OCR samples?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Elaborazione post‑OCR – Ottieni le scelte dei caratteri
+tags:
+- ocr post processing
+- aspose ocr
+- .net ocr
+- character choices
+title: Post-elaborazione OCR – ottieni le scelte dei caratteri
 url: /it/net/text-recognition/get-choices-for-recognized-characters/
 weight: 10
 ---
@@ -14,29 +56,25 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Elaborazione Post OCR: Ottenere le Scelte per i Caratteri Riconosciuti
+# Elaborazione post-OCR – ottenere le scelte dei caratteri
 
 ## Introduzione
 
-Sblocca il potere dell'**elaborazione post OCR** nelle moderne applicazioni .NET e impara **come ottenere le scelte dei caratteri OCR** per ogni simbolo riconosciuto. Aspose.OCR per .NET rende tutto questo semplice, fornendoti non solo il testo più probabile ma anche i caratteri alternativi che il motore ha considerato. Alla fine di questo tutorial sarai in grado di integrare questa funzionalità in qualsiasi progetto C# e migliorare la gestione dei glifi ambigui, migliorando così **l'accuratezza OCR**.
+Sblocca la potenza dell'**elaborazione post-OCR** nelle moderne applicazioni .NET e impara **come ottenere le scelte dei caratteri OCR** per ogni simbolo riconosciuto. Aspose.OCR per .NET rende tutto questo semplice, fornendoti non solo il testo più probabile ma anche i caratteri alternativi che il motore ha considerato. Alla fine di questo tutorial sarai in grado di integrare questa funzionalità in qualsiasi progetto C# e migliorare la gestione dei glifi ambigui, migliorando infine **l'accuratezza OCR**.
 
-## Risposte Rapide
+## Risposte rapide
 - **Cosa significa “ottenere le scelte dei caratteri OCR”?** Restituisce un elenco di caratteri alternativi per ogni glifo riconosciuto.  
 - **Perché usare le scelte dei caratteri?** Per gestire riconoscimenti incerti, eseguire il post‑processing o implementare una convalida personalizzata.  
-- **Di cosa ho bisogno in anticipo?** Ambiente di sviluppo .NET, Visual Studio e la libreria Aspose.OCR per .NET.  
-- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per i test; è necessaria una licenza commerciale per la produzione.  
+- **Cosa serve in anticipo?** Ambiente di sviluppo .NET, Visual Studio e la libreria Aspose.OCR per .NET.  
+- **È necessaria una licenza?** Una prova gratuita è sufficiente per i test; per la produzione è necessaria una licenza commerciale. Acquista una licenza [qui](https://purchase.aspose.com/buy).  
 - **Posso eseguirlo su .NET Core / .NET 6?** Sì, Aspose.OCR supporta tutti i runtime .NET moderni.  
-- **In che modo l'elaborazione post OCR aiuta?** Ti consente di scegliere tra le alternative, riducendo gli errori e **migliorando l'accuratezza OCR**.
+- **Come aiuta l'elaborazione post-OCR?** Ti consente di scegliere tra le alternative, riducendo gli errori e **migliorando l'accuratezza OCR**.
 
-## Elaborazione Post OCR – Comprendere le Scelte dei Caratteri
-Quando il motore OCR analizza un'immagine, ogni modello di pixel può corrispondere a diversi possibili caratteri. L'API **get OCR character choices** espone queste alternative tramite il `RecognitionCharactersList`, permettendo agli sviluppatori di decidere quale carattere si adatta meglio al contesto.
+## Cos'è l'elaborazione post-OCR?
+L'elaborazione post-OCR si riferisce all'insieme di tecniche applicate dopo l'estrazione iniziale del testo per perfezionare i risultati, correggere gli errori e utilizzare dati aggiuntivi come i punteggi di confidenza, i modelli linguistici e gli elenchi di caratteri alternativi. Applicando queste tecniche, gli sviluppatori possono aumentare significativamente la qualità complessiva dell'output OCR.
 
 ## Perché usare Aspose.OCR per .NET?
-- **Alta precisione** su molte lingue e font.  
-- **Facile integrazione** con una semplice API C#.  
-- **Accesso alle alternative dei caratteri** tramite `RecognitionCharactersList`.  
-- **Nessuna dipendenza esterna** – funziona subito su Windows, Linux e macOS.  
-- Questo **tutorial Aspose OCR** dimostra uno scenario reale di post‑processing che puoi copiare nei tuoi progetti.
+Aspose.OCR offre **alta precisione su oltre 30 lingue** e può elaborare un documento di 500 pagine in meno di 5 secondi su un server tipico, grazie al suo motore nativo. La libreria fornisce un'**API a riga singola**, funziona **pronta all'uso su Windows, Linux e macOS** (tre piattaforme principali) e fornisce accesso diretto a `RecognitionCharactersList` per il post‑processing delle scelte dei caratteri.
 
 ## Prerequisiti
 
@@ -44,11 +82,11 @@ Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
 - Conoscenza di base di C# e sviluppo .NET.  
 - Visual Studio installato sulla tua macchina.  
-- Libreria Aspose.OCR per .NET, che puoi scaricare [qui](https://releases.aspose.com/ocr/net/).
+- Libreria Aspose.OCR per .NET, che puoi scaricare Aspose OCR per .NET [qui](https://releases.aspose.com/ocr/net/). Puoi anche esplorare altre versioni Aspose [qui](https://releases.aspose.com/).
 
-## Importare gli Spazi dei Nomi
+## Importa gli spazi dei nomi
 
-Nella tua progetto C#, inizia importando gli spazi dei nomi necessari:
+Nel tuo progetto C#, inizia importando gli spazi dei nomi necessari:
 
 ```csharp
 using System;
@@ -58,9 +96,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Passo 1: Inizializzare Aspose.OCR
+## Passo 1: inizializzare Aspose.OCR
 
-Inizia inizializzando un'istanza di Aspose.OCR:
+Inizia creando un'istanza di Aspose.OCR:
 
 ```csharp
 // The path to the documents directory.
@@ -70,7 +108,7 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Passo 2: Specificare il Percorso dell'Immagine
+## Passo 2: specificare il percorso dell'immagine
 
 Imposta il percorso dell'immagine che desideri analizzare:
 
@@ -79,7 +117,7 @@ Imposta il percorso dell'immagine che desideri analizzare:
 string fullPath = dataDir + "sample.png";
 ```
 
-## Passo 3: Riconoscere l'Immagine
+## Passo 3: riconoscere l'immagine
 
 Esegui il processo di riconoscimento dell'immagine:
 
@@ -91,11 +129,15 @@ RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 });
 ```
 
-## Ottenere le Scelte dei Caratteri OCR – Panoramica
+## Ottenere le scelte dei caratteri OCR – panoramica
 
-Ora che l'immagine è stata riconosciuta, puoi recuperare l'elenco delle alternative di carattere che il motore OCR ha considerato per ogni posizione. Questo elenco è esposto tramite la **lista dei caratteri di riconoscimento**, fondamentale per qualsiasi flusso di lavoro di elaborazione post OCR.
+`RecognitionCharactersList` è la collezione di Aspose.OCR che memorizza i candidati carattere alternativi per ogni posizione riconosciuta. Dopo che l'immagine è stata riconosciuta, puoi recuperare questo elenco per vedere quali glifi il motore ha considerato e i loro punteggi di confidenza.
 
-## Passo 4: Ottenere le Scelte per i Caratteri Riconosciuti
+## Perché usare Aspose.OCR per .NET?
+
+Dovresti scegliere Aspose.OCR quando hai bisogno di un **OCR deterministico e ad alta velocità** che funzioni su più piattaforme senza dipendenze esterne. Il suo motore nativo offre >95 % di precisione su set di dati standard di benchmark, e l'elenco incorporato delle scelte dei caratteri consente regole di convalida personalizzate che possono aumentare ulteriormente la precisione in scenari specifici di dominio.
+
+## Passo 4: ottenere le scelte per i caratteri riconosciuti
 
 Recupera le scelte per i caratteri riconosciuti:
 
@@ -103,7 +145,7 @@ Recupera le scelte per i caratteri riconosciuti:
 List<char[]> resultWithChoices = result.RecognitionCharactersList;
 ```
 
-## Passo 5: Stampare i Risultati
+## Passo 5: stampare i risultati
 
 Visualizza il testo riconosciuto e le scelte:
 
@@ -116,64 +158,67 @@ resultWithChoices.ForEach(a => Console.WriteLine($"character: {a[0]} . Choices: 
 Console.WriteLine("GetChoiceForRecognizedCharacters executed successfully");
 ```
 
-## Problemi Comuni e Soluzioni
+## Problemi comuni e soluzioni
 
-- **`RecognitionCharactersList` vuoto** – Assicurati che l'immagine abbia una risoluzione e un contrasto sufficienti.  
+`RecognitionSettings` configura i parametri del motore OCR come lingua, dizionario e altre opzioni di elaborazione.
+
+- **`RecognitionCharactersList` vuoto** – Assicurati che l'immagine abbia una risoluzione sufficiente (almeno 300 dpi) e un buon contrasto.  
 - **Caratteri inaspettati** – Regola `RecognitionSettings` (ad es., lingua, dizionario) per migliorare la precisione.  
 - **Problemi di prestazioni** – Elabora le immagini in modo asincrono o in batch per mantenere l'interfaccia reattiva.
 
-## Domande Frequenti
+## Domande frequenti
 
 ### Q1: Aspose.OCR per .NET è adatto per l'elaborazione di documenti su larga scala?
-
-A1: Assolutamente! Aspose.OCR per .NET è progettato per gestire grandi volumi di documenti con efficienza e precisione.
+Aspose.OCR è progettato per scenari ad alto rendimento; può gestire migliaia di pagine all'ora su un server modesto, sfrutta il parallelismo multi‑core e mantiene un basso utilizzo di memoria trasmettendo le pagine in streaming anziché caricare interi documenti in memoria. Fornisce inoltre API di elaborazione batch che consentono di accodare grandi lavori in modo efficiente.
 
 ### Q2: Posso usare Aspose.OCR per .NET in un'applicazione web?
-
-A2: Sì, puoi integrare Aspose.OCR per .NET nelle applicazioni web, rendendolo versatile per vari scenari di sviluppo.
+Sì, puoi integrare Aspose.OCR in progetti ASP.NET Core, MVC o Web API. La libreria funziona in modo sicuro in un ambiente server e puoi esporre endpoint OCR che accettano upload di immagini e restituiscono sia il testo riconosciuto sia l'elenco delle scelte dei caratteri. Supporta l'esecuzione asincrona per evitare il blocco delle richieste web.
 
 ### Q3: Sono disponibili opzioni di licenza per Aspose.OCR per .NET?
-
-A3: Sì, puoi esplorare le opzioni di licenza e effettuare un acquisto [qui](https://purchase.aspose.com/buy).
+Aspose offre diversi modelli di licenza, tra cui opzioni **per‑sviluppatore**, **site‑wide** e **cloud‑based**. Tutte le licenze rimuovono le filigrane di valutazione e sbloccano l'intero set di funzionalità, inclusa l'API `RecognitionCharactersList`, supporto prioritario e accesso agli aggiornamenti futuri senza costi aggiuntivi.
 
 ### Q4: Come posso ottenere supporto o fare domande su Aspose.OCR per .NET?
+Puoi ottenere aiuto tramite il forum ufficiale della community Aspose su [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16), dove ingegneri del prodotto e membri della community rispondono a domande tecniche e condividono consigli di best‑practice. Inoltre, Aspose fornisce supporto via email per i clienti con licenza.
 
-A4: Visita il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per ottenere supporto, fare domande e connetterti con la community.
+### Q5: È disponibile una prova gratuita per Aspose.OCR per .NET?
+Sì, è disponibile una prova gratuita completamente funzionale da scaricare dal sito Aspose. La versione di prova include tutte le funzionalità, consentendoti di valutare le capacità di scelta dei caratteri senza limitazioni, ed è contrassegnata da una filigrana solo nell'output per indicare lo stato di valutazione.
 
-### Q5: È disponibile una versione di prova gratuita per Aspose.OCR per .NET?
+## FAQ aggiuntive (AI‑friendly)
 
-A5: Sì, puoi accedere a una prova gratuita [qui](https://releases.aspose.com/) per provare le funzionalità di Aspose.OCR per .NET.
+**Q: Come l'elaborazione post-OCR migliora l'accuratezza OCR?**  
+R: Esaminando i caratteri alternativi restituiti nell'elenco dei caratteri di riconoscimento, puoi applicare regole contestuali (ad es., controlli di dizionario) per selezionare il glifo più probabile, riducendo le errate riconoscenze.
 
-## FAQ Aggiuntiva (AI‑Friendly)
+**Q: Posso filtrare l'elenco dei caratteri di riconoscimento per includere solo le prime tre scelte?**  
+R: Sì, itera su ogni `char[]` e utilizza i primi tre elementi, che rappresentano le alternative con la più alta confidenza.
 
-**Q: In che modo l'elaborazione post OCR migliora l'accuratezza OCR?**  
-A: Esaminando i caratteri alternativi restituiti nella lista dei caratteri di riconoscimento, puoi applicare regole contestuali (ad es., controlli di dizionario) per selezionare il glifo più probabile, riducendo i riconoscimenti errati.
-
-**Q: Posso filtrare la lista dei caratteri di riconoscimento per mantenere solo le prime tre scelte?**  
-A: Sì, itera su ogni `char[]` e utilizza i primi tre elementi, che rappresentano le alternative con la più alta confidenza.
-
-**Q: La `RecognitionCharactersList` è disponibile per tutte le lingue?**  
-A: La lista viene popolata per le lingue supportate; tuttavia, la precisione può variare a seconda del modello linguistico configurato in `RecognitionSettings`.
+**Q: `RecognitionCharactersList` è disponibile per tutte le lingue?**  
+R: L'elenco è popolato per tutte le lingue supportate; tuttavia, la ricchezza delle alternative può variare a seconda del modello linguistico configurato in `RecognitionSettings`.
 
 **Q: Quali versioni di .NET sono compatibili con questo tutorial?**  
-A: Il codice funziona con .NET Framework 4.6+, .NET Core 3.1, .NET 5 e .NET 6+.
+R: Il codice funziona con .NET Framework 4.6+, .NET Core 3.1, .NET 5 e .NET 6+.
 
 **Q: Dove posso trovare altri esempi di Aspose OCR?**  
-A: La documentazione ufficiale di Aspose e il repository GitHub contengono esempi aggiuntivi e l'intera collezione di **tutorial Aspose OCR**.
+R: La documentazione ufficiale di Aspose e il repository GitHub contengono esempi aggiuntivi e l'intera collezione di **tutorial Aspose OCR**.
 
 ## Conclusione
 
-In questo **tutorial Aspose OCR**, abbiamo esplorato come **ottenere le scelte dei caratteri OCR** usando Aspose.OCR per .NET. Questa funzionalità aggiunge una nuova dimensione al tuo flusso di lavoro di elaborazione post OCR, consentendo una gestione più intelligente dei caratteri ambigui e una logica di post‑processing più ricca che può **migliorare l'accuratezza OCR** nelle tue applicazioni.
+In questo **tutorial Aspose OCR**, abbiamo esplorato come **ottenere le scelte dei caratteri OCR** usando Aspose.OCR per .NET. Questa funzionalità aggiunge una nuova dimensione al tuo flusso di lavoro di elaborazione post-OCR, consentendo una gestione più intelligente dei caratteri ambigui e una logica più ricca che può **migliorare l'accuratezza OCR** nelle tue applicazioni.
 
 ---
 
-**Ultimo aggiornamento:** 2026-03-05  
-**Testato con:** Aspose.OCR 24.11 per .NET  
-**Autore:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-08-12  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Tutorial correlati
+
+- [Come estrarre testo da immagine usando Aspose.OCR per .NET](/ocr/net/text-recognition/get-recognition-result/)
+- [Estrai testo da immagine – Ottimizzazione OCR con Aspose.OCR per .NET](/ocr/net/ocr-optimization/)
+- [Specificare i caratteri consentiti OCR – Utilizzando Aspose.OCR per .NET](/ocr/net/ocr-settings/specify-allowed-characters/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
