@@ -55,6 +55,19 @@ url: /el/net/text-recognition/
 Ξεκλειδώστε τις δυνατότητες του OCR στο .NET με το Aspose.OCR. Εξαγωγή κειμένου από αρχεία PDF χωρίς κόπο. Κάντε λήψη τώρα για μια απρόσκοπτη εμπειρία ενσωμάτωσης.
 ### [Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR](./recognize-table/)
 Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας για την αναγνώριση πινάκων στην αναγνώριση εικόνας OCR.
+### [c# OCR σεμινάριο – εξαγωγή κειμένου από εικόνα](./c-ocr-tutorial-extract-text-from-image/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με το Aspose.OCR σε εφαρμογές C# .NET.
+### [Μετατροπή εικόνας σε κείμενο με Aspose OCR – Οδηγός βήμα‑βήμα C#](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Μάθετε πώς να μετατρέπετε εικόνες σε κείμενο χρησιμοποιώντας Aspose OCR σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Πλήρης Οδηγός C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose OCR σε C# με πλήρη βήμα‑βήμα οδηγίες.
+### [Αναγνώριση κειμένου από εικόνα σε C# με Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε C# με απλό βήμα‑βήμα οδηγό.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνες σε C# – Οδηγός Βήμα‑βήμα](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose.OCR σε C# με οδηγίες βήμα‑βήμα.
+### [Πώς να επεξεργαστείτε μαζικά εικόνες JPEG με OCR σε C# – Πλήρης Οδηγός](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες JPEG με OCR σε C#, βήμα‑βήμα, για αποδοτική εξαγωγή κειμένου.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
