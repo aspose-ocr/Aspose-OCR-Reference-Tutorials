@@ -1,9 +1,9 @@
 ---
 category: general
-date: 2025-12-27
-description: Tanulja meg, hogyan ismerje fel a szövegképet Java-ban az Aspose OCR
-  használatával. Ez az útmutató bemutatja, hogyan lehet szöveget kinyerni, előfeldolgozni
-  az OCR-t, és tartalmaz egy teljes Java OCR példát.
+date: 2026-02-27
+description: Ismerje meg, hogyan hajtható végre egy Java OCR példa az Aspose OCR-rel,
+  hogyan lehet szöveget kinyerni képből, előfeldolgozni az OCR-t, és hogyan lehet
+  kereshető PDF-et létrehozni OCR-rel Java-ban.
 draft: false
 keywords:
 - recognize text image
@@ -11,17 +11,17 @@ keywords:
 - java ocr example
 - how to preprocess ocr
 - aspose ocr java tutorial
-language: hu
-og_description: szöveges képet felismerni az Aspose OCR segítségével Java-ban. A lépésről‑lépésre
-  útmutató bemutatja, hogyan lehet szöveget kinyerni, előfeldolgozni az OCR-t, és
-  futtatni egy Java OCR példát.
-og_title: Szöveges kép felismerése az Aspose OCR-rel – Teljes Java útmutató
+og_description: java OCR példa az Aspose OCR használatával Java-ban – lépésről‑lépésre
+  útmutató a képről szöveg kinyeréséhez, az OCR előfeldolgozásához és kereshető PDF
+  generálásához OCR-rel.
+og_title: java OCR példa – Szöveg felismerése képről az Aspose OCR segítségével
 tags:
 - OCR
 - Java
 - Aspose
 - GPU
-title: Szövegkép felismerése az Aspose OCR-rel – Teljes Java OCR útmutató
+title: java OCR példa – Szöveges kép felismerése az Aspose OCR-rel – Teljes Java OCR
+  útmutató
 url: /hu/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/
 ---
 
@@ -29,16 +29,23 @@ url: /hu/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# recognize text image – Teljes Aspose OCR Java útmutató
+# java ocr example – Szövegfelismerés képről – Teljes Aspose OCR Java útmutató
 
-Valaha szükséged volt **recognize text image**-re, de nem tudtad, melyik könyvtár biztosítja a GPU sebességet és a megbízható pontosságot? Nem vagy egyedül. Sok projektben a szűk keresztmetszet nem maga az OCR algoritmus, hanem a beállítás – különösen, ha **how to extract text**-et szeretnél magas felbontású beolvasásokból anélkül, hogy millió sor kódot írnál.
+Ha egy **java ocr example**-t keresel, amely gyorsan és megbízhatóan **extract text from image** fájlokból tud szöveget kinyerni, jó helyen jársz. Sok valós projektben a legnagyobb akadály nem maga az OCR motor, hanem a megfelelő konfiguráció beállítása – különösen, ha GPU gyorsítást és magas pontosságot szeretnél. Ez az útmutató végigvezet egy teljes, futtatható Java programon, amely bemutatja, **how to preprocess OCR**, kihasználja az Aspose OCR folyékony builderét, és még egy **searchable PDF with OCR** létrehozására is utal a későbbiekben.
 
-Ebben az útmutatóban végigvezetünk egy **java ocr example**-en, amely az Aspose OCR folyékony építőjét használja, bemutatja a **how to preprocess ocr**-t adaptív küszöb szűréssel, és demonstrálja a pontos lépéseket a **recognize text image** GPU‑támogatott gépen történő végrehajtásához. A végére egy futtatható programod lesz, amely kiírja a kinyert szöveget a konzolra, valamint tippeket kapsz a gyakori buktatókhoz és a haladó finomhangolásokhoz.
+## Quick Answers
+- **What does this tutorial cover?** Egy komplett java ocr example Aspose OCR használatával, GPU beállítással és adaptív küszöb előfeldolgozással.  
+- **Do I need a GPU?** Nem, de a `enableGpu(true)` használata drámai módon felgyorsítja a feldolgozást a támogatott hardveren.  
+- **Which language is demonstrated?** Angol, de a builderrel bármely támogatott nyelvre válthatsz.  
+- **How do I extract text from image?** Hívd meg a `ocrEngine.recognize(imagePath)` metódust, és olvasd ki a `ocrResult.getText()` értéket.  
+- **Can I create a searchable PDF?** Igen – a kinyert szöveget egy PDF-be ágyazhatod az Aspose.PDF segítségével (itt nem látható).
 
-## Amire szükséged lesz
+## What You’ll Need
 
-- **Java Development Kit (JDK) 11 vagy újabb** – Az Aspose OCR támogatja a Java 8+ verziót, de a JDK 11 a legjobb modulkezelést biztosítja.
-- **Aspose.OCR for Java** JAR (töltsd le az Aspose weboldaláról vagy add hozzá Maven/Gradle segítségével).  
+Mielőtt belemerülnénk, győződj meg róla, hogy rendelkezel:
+
+- **Java Development Kit (JDK) 11 vagy újabb** – Az Aspose OCR Java 8+ verziókat támogatja, de a JDK 11 a legjobb modulkezelést biztosítja.  
+- **Aspose.OCR for Java** JAR (töltsd le az Aspose weboldaláról vagy add hozzá Maven/Gradle‑on keresztül).  
   Maven példa:
   ```xml
   <dependency>
@@ -47,18 +54,23 @@ Ebben az útmutatóban végigvezetünk egy **java ocr example**-en, amely az Asp
       <version>23.10</version>
   </dependency>
   ```
-- **GPU‑kompatibilis driver** (CUDA 11+, ha GPU gyorsítást szeretnél engedélyezni). Ha nincs GPU-d, állítsd be a `enableGpu(false)`-t, és a kód CPU‑ra vált vissza.
-- **Minta magas felbontású kép** (`sample-highres.png`), amelyet egy olyan mappába helyezz, amelyre hivatkozhatsz, pl. `C:/ocr-demo/`.
+- **GPU‑kompatibilis driver** (CUDA 11+ ha GPU gyorsítást szeretnél engedélyezni). Ha nincs GPU-d, állítsd be `enableGpu(false)`‑t, és a kód CPU‑ra vált vissza.  
+- **Egy magas felbontású minta kép** (`sample-highres.png`) egy olyan mappában, amelyre hivatkozhatsz, pl. `C:/ocr-demo/`.
 
-Ennyi—nincsenek extra natív binárisok vagy összetett konfigurációs fájlok.
+Ennyi – nincs szükség extra natív binárisokra vagy bonyolult konfigurációs fájlokra.
 
-![Diagram, amely bemutatja az OCR folyamatot a recognize text image használatával az Aspose OCR Java-val](https://example.com/ocr-pipeline.png "recognize text image használata az Aspose OCR Java-val")
+![Diagram showing OCR pipeline for recognize text image using Aspose OCR Java](https://example.com/ocr-pipeline.png "recognize text image using Aspose OCR Java")
+*Image alt text: recognize text image using Aspose OCR Java*
 
-*Kép alternatív szöveg: recognize text image használata az Aspose OCR Java-val*
+## Why this java ocr example matters
 
-## 1. lépés: Az OCR motor beállítása – recognize text image a megfelelő beállításokkal
+- **Speed:** A GPU gyorsítás a feldolgozási időt másodpercekből tört részekre csökkentheti nagy képeknél.  
+- **Accuracy:** A megfelelő nyelv kiválasztása és a **how to preprocess OCR** (adaptív küszöb) alkalmazása drámai módon javítja a karakterfelismerést.  
+- **Flexibility:** Ugyanaz a motor később felhasználható egy **searchable PDF with OCR** létrehozására, így a dokumentumaid kereshetőek lesznek extra eszközök nélkül.
 
-Az első dolog, amit teszünk, egy `OcrEngine` példány létrehozása. Az Aspose egy builder mintát kínál, amely lehetővé teszi a konfigurációs hívások láncolását, így a kód olvasható és rugalmas lesz.
+## Step 1: Set Up the OCR Engine – recognize text image with the right options
+
+Az első lépés egy `OcrEngine` példány létrehozása. Az Aspose egy builder mintát kínál, amely lehetővé teszi a konfigurációs hívások láncolását, így a kód olvasható és rugalmas marad.
 
 ```java
 import com.aspose.ocr.*;
@@ -77,14 +89,14 @@ public class GpuOcrDemo {
                 .build();
 ```
 
-**Miért fontos:**  
-- **Language selection** megmondja a motornak, milyen karakterkészletet várjon, ami drámaian javítja a pontosságot.  
-- **GPU acceleration** csökkentheti a feldolgozási időt másodpercekből tizedmásodpercekre nagy képek esetén.  
-- **Adaptive‑threshold preprocessing** egy klasszikus trükk az egyenetlen megvilágítás kezelésére – pontosan az a probléma, amellyel találkozhatsz, amikor **how to preprocess ocr**-t próbálsz alkalmazni beolvasott dokumentumokra.
+**Why this matters:**  
+- **Language selection** megmondja a motornak, milyen karakterkészletet várjon, ami drámai módon javítja a pontosságot.  
+- **GPU acceleration** a feldolgozási időt másodpercekből tört részekre csökkentheti nagy képeknél.  
+- **Adaptive‑threshold preprocessing** egy klasszikus trükk a egyenetlen megvilágítás kezelésére – pontosan az a probléma, amellyel a **how to preprocess OCR** során találkozhatsz beolvasott dokumentumoknál.
 
-## 2. lépés: Recognize Text Image – Az OCR futtatása
+## Step 2: Recognize Text Image – Running the OCR
 
-Miután a motor készen áll, betápláljuk a képünket. A `recognize` metódus egy `OcrResult` objektumot ad vissza, amely tartalmazza a nyers szöveget, a bizalmi pontszámokat, és akár a körülhatároló doboz adatait is, ha később szükséged van rá.
+Miután a motor készen áll, betápláljuk a képet. A `recognize` metódus egy `OcrResult` objektumot ad vissza, amely a nyers szöveget, a megbízhatósági pontszámokat és akár a körülhatároló doboz adatokat is tartalmazza, ha később szükséged van rájuk.
 
 ```java
         // Path to the high‑resolution image you want to analyze
@@ -94,11 +106,11 @@ Miután a motor készen áll, betápláljuk a képünket. A `recognize` metódus
         OcrResult ocrResult = ocrEngine.recognize(imagePath);
 ```
 
-**Fontos pont:** A `recognize` hívás szinkron; blokkolja a végrehajtást, amíg az OCR be nem fejeződik. Ha tucatnyi fájlt dolgozol fel, fontold meg egy szálkezelő poolba helyezni, de egyetlen kép esetén az egyszerűség a győztes.
+**Key point:** A `recognize` hívás szinkron, blokkolja a szálat, amíg az OCR be nem fejeződik. Ha tucatnyi fájlt dolgozol fel, fontold meg egy szálkezelő használatát, de egyetlen kép esetén az egyszerűség a győztes.
 
-## 3. lépés: Szöveg kinyerése és megjelenítése – how to extract text from the result
+## Step 3: Extract and Display the Text – how to extract text from the result
 
-Végül kinyerjük a sima szöveget az eredményből és kiírjuk. Írhatod is fájlba, betáplálhatod egy kereső indexbe, vagy átadhatod egy fordító API-nak.
+Végül kinyerjük a tiszta szöveget az eredményből és kiírjuk. Írhatod fájlba, keresőindexbe, vagy átadhatod egy fordító API‑nak is.
 
 ```java
         // Print the extracted text to the console
@@ -111,7 +123,7 @@ Végül kinyerjük a sima szöveget az eredményből és kiírjuk. Írhatod is f
 }
 ```
 
-Amikor futtatod a programot, valami ilyesmit kell látnod:
+A program futtatásakor valami ilyesmit kell látnod:
 
 ```
 === OCR Output ===
@@ -121,27 +133,27 @@ The OCR engine recognized it successfully!
 Confidence: 0.97
 ```
 
-Ha a kimenet összezavartnak tűnik, ellenőrizd, hogy a kép tiszta-e, és hogy a **how to preprocess ocr** lépés (adaptív küszöb) megfelel-e a kép megvilágítási körülményeinek.
+Ha a kimenet értelmetlennek tűnik, ellenőrizd, hogy a kép tiszta‑e, és hogy a **how to preprocess OCR** lépés (adaptív küszöb) megfelel‑e a kép megvilágítási körülményeinek.
 
-## Gyakori buktatók és profi tippek (java ocr example)
+## Common Pitfalls & Pro Tips (java ocr example)
 
-| Probléma | Miért fordul elő | Megoldás |
-|----------|------------------|----------|
-| **GPU nem észlelhető** | Hiányzó CUDA driver vagy inkompatibilis GPU | Telepíts CUDA 11+-t, ellenőrizd, hogy a `nvidia-smi` működik, vagy állítsd be a `.enableGpu(false)`-t |
-| **Alacsony pontosság sötét háttéren** | Az adaptív küszöb túl simíthat | Próbáld meg a `PreprocessFilter.GaussianBlur`-t a küszöb előtt alkalmazni |
-| **Memóriahiány hatalmas képeknél** | GPU memória korlát | Méretezd át a képet legfeljebb 2000 px szélességre OCR előtt, vagy használd a CPU módot |
-| **Helytelen nyelv** | Alapértelmezés szerint angol, de a dokumentum többnyelvű | Használd a `.setLanguage(Language.French)`-t vagy a `Language.Multilingual`-t |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **GPU not detected** | Missing CUDA drivers or incompatible GPU | Install CUDA 11+, verify `nvidia-smi` works, or set `.enableGpu(false)` |
+| **Low accuracy on dark backgrounds** | Adaptive threshold may over‑smooth | Try `PreprocessFilter.GaussianBlur` before threshold |
+| **Out‑of‑memory on huge images** | GPU memory limit | Resize image to max 2000 px width before OCR, or use CPU mode |
+| **Wrong language** | Default is English, but document is multilingual | Call `.setLanguage(Language.French)` or use `Language.Multilingual` |
 
-**Pro tip:** Ha **java ocr example**-t építesz kötegelt feldolgozáshoz, tárold a `OcrEngine` példányt ahelyett, hogy minden fájlhoz újraépítenéd. Az építő olcsó, de a natív GPU kontextus drága lehet újra létrehozni.
+**Pro tip:** Ha egy **java ocr example**-t építesz batch feldolgozáshoz, cache-eld az `OcrEngine` példányt ahelyett, hogy minden fájlhoz újraépítenéd. A builder olcsó, de a natív GPU kontextus drága lehet újra‑létrehozni.
 
-## A példa kiterjesztése – mi következik, miután képes vagy recognize text image-re?
+## Extending the Example – what’s next after you can recognize text image?
 
-1. **Export to PDF/A** – Az Aspose OCR beágyazhatja a felismert szöveget rejtett rétegként, így kereshető PDF-eket hoz létre.  
-2. **Integrate with Tesseract** – Ha szükséged van tartalékra olyan nyelvekhez, amelyeket az Aspose még nem támogat, láncolhatod az eredményeket.  
-3. **Real‑time video OCR** – Rögzíts képkockákat egy webkamerából, tápláld be ugyanabba a motorba, és jeleníts meg élő feliratokat.  
-4. **Post‑processing** – Használj reguláris kifejezéseket a gyakori OCR hibák (`"0"` vs `"O"`) tisztításához, különösen, ha **how to extract text**-et használsz downstream elemzésekhez.
+1. **Create a searchable PDF with OCR** – Az Aspose OCR be tudja ágyazni a felismert szöveget egy rejtett rétegként, így a beolvasott PDF‑ek teljesen kereshetővé válnak.  
+2. **Combine with Aspose.PDF** – Az OCR kimenetet PDF generálással kombinálva teljes dokumentum‑munkafolyamatot hozhatsz létre.  
+3. **Real‑time video OCR** – Webkamera képkockákat rögzíts, add át ugyanazon motorba, és jeleníts meg élő feliratokat.  
+4. **Post‑processing** – Használj reguláris kifejezéseket a gyakori OCR hibák (pl. `"0"` vs `"O"`) tisztítására, különösen ha **how to extract text**-et használsz downstream elemzésekhez.
 
-## Teljes forráskód (kész a másoláshoz)
+## Full Source Code (ready to copy)
 
 ```java
 import com.aspose.ocr.*;
@@ -169,15 +181,30 @@ public class GpuOcrDemo {
 }
 ```
 
-Mentsd el `GpuOcrDemo.java` néven, fordítsd le a `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` paranccsal, és futtasd a `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` paranccsal. Ha minden helyesen van beállítva, a kinyert szöveget kiírja – bizonyíték arra, hogy sikeresen **recognize text image**-t hajtottál végre az Aspose OCR-rel.
+Mentsd el `GpuOcrDemo.java`‑ként, fordítsd a `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` paranccsal, és futtasd a `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` parancsot. Ha minden helyesen van beállítva, a kinyert szöveget fogod látni a konzolon – bizonyítva, hogy sikeresen **recognize text image**‑t hajtottál végre az Aspose OCR‑val.
 
-## Következtetés
+## Frequently Asked Questions
 
-Most végigmentünk egy teljes **java ocr example**-en, amely bemutatja, hogyan **how to extract text**-et nyerjünk ki egy magas felbontású képből, demonstrálja a **how to preprocess ocr**-t adaptív küszöbbel, és a GPU gyorsítást használja a gyors **recognize text image** teljesítményért. A kód önálló, a magyarázatok lefedik a *miért* és a *mi* kérdéseket, és most már szilárd alapod van a megoldás kiterjesztéséhez kötegelt feladatokra, kereshető PDF-ekre vagy akár valós‑idő videofolyamokra.
+**Q: Can I generate a searchable PDF directly from this example?**  
+A: Igen. A szöveg kinyerése után használhatod az Aspose.PDF‑t egy PDF létrehozásához és az OCR szövegréteg beágyazásához, így a fájl kereshető PDF‑vé válik.
 
-Készen állsz a következő lépésre? Próbáld meg a nyelvet spanyolra cserélni, kísérletezz különböző előfeldolgozó szűrőkkel, vagy kombináld az OCR kimenetet egy természetes nyelvfeldolgozó csővezetékkel a dokumentumok automatikus címkézéséhez. A határ a csillagos ég, és az Aspose OCR megadja a szükséges eszközöket.
+**Q: What if I don’t have a CUDA‑compatible GPU?**  
+A: Egyszerűen változtasd `.enableGpu(true)`‑t `.enableGpu(false)`‑ra; a motor CPU‑ra vált vissza, csak mérsékelt teljesítménycsökkenéssel.
 
-Ha bármilyen problémába ütközöl, hagyj megjegyzést alább vagy nézd meg az Aspose fórumokat – egy élénk közösség áll készen, hogy segítsen. Boldog kódolást, és élvezd a képek kereshető szöveggé alakítását!
+**Q: How do I handle multi‑language documents?**  
+A: Használd a `Language.Multilingual`‑t vagy állítsd be a megfelelő nyelvi enumot minden dokumentumhoz a `recognize` hívás előtt.
+
+**Q: Is there a way to batch‑process many images efficiently?**  
+A: Igen. Hozz létre egyetlen `OcrEngine` példányt, majd iterálj a képlistán, opcionálisan szálkezelővel párhuzamosítva a `recognize` hívásokat.
+
+**Q: Where can I find more advanced preprocessing filters?**  
+A: A `PreprocessFilter` enum tartalmazza például a `GaussianBlur`, `MedianFilter`, és `ContrastStretch` opciókat. Kísérletezz, hogy melyik működik a legjobban a saját képkészleteden.
+
+---
+
+**Last Updated:** 2026-02-27  
+**Tested With:** Aspose.OCR 23.10 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

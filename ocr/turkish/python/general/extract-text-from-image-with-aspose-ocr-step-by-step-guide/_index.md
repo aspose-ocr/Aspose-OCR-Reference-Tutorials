@@ -1,8 +1,9 @@
 ---
 category: general
-date: 2025-12-27
-description: Aspose OCR kullanarak görüntüden metin çıkarın ve OCR hatalarını düzeltin.
-  OCR için görüntüyü nasıl yükleyeceğinizi öğrenin ve hataları hızlıca düzeltin.
+date: 2026-02-27
+description: Aspose OCR'i Python'da kullanarak OCR hatalarını nasıl düzelteceğinizi
+  ve görüntüden metin nasıl çıkaracağınızı öğrenin. Bu kılavuz, OCR için görüntünün
+  nasıl yükleneceğini ve sonuçların nasıl temizleneceğini gösterir.
 draft: false
 keywords:
 - extract text from image
@@ -10,16 +11,16 @@ keywords:
 - how to correct ocr errors
 - Aspose OCR Python
 - OCR post‑processing
-language: tr
-og_description: Aspose OCR ile görüntüden metin çıkarın ve OCR hatalarını anında düzeltin.
-  OCR için görüntüyü yüklemek ve sonuçları temizlemek için bu öğreticiyi izleyin.
-og_title: Aspose OCR ile Görüntüden Metin Çıkarma – Tam Kılavuz
+og_description: Aspose OCR'i Python’da kullanarak OCR hatalarını nasıl düzelteceğinizi
+  ve görüntüden metin nasıl çıkaracağınızı öğrenin. Bu adım adım öğreticiyi izleyin.
+og_title: OCR Hatalarını Nasıl Düzeltirsiniz – Aspose OCR ile Görüntüden Metin Çıkarma
 tags:
 - OCR
 - Python
 - Aspose
 - Text Extraction
-title: Aspose OCR ile Görüntüden Metin Çıkarma – Adım Adım Kılavuz
+title: OCR Hatalarını Nasıl Düzeltirsiniz – Aspose OCR ile Görüntüden Metin Çıkarma
+  – Adım Adım Rehber
 url: /tr/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
@@ -27,55 +28,49 @@ url: /tr/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose OCR ile Görüntüden Metin Çıkarma – Adım‑Adım Kılavuz
+# OCR Hatalarını Düzeltme – Aspose OCR ile Görüntüden Metin Çıkarma – Adım Adım Kılavuz
 
-Görselden **metin çıkarmak** gerektiğinde, dağınık OCR çıktısı içinde kaybolduğunuz oldu mu? Yalnız değilsiniz. Birçok otomasyon projesinde—fatura işleme, fiş tarama veya eski belgeleri dijitalleştirme gibi—ilk engel, bir resimden temiz, aranabilir metin elde etmektir.  
+Eğer bir Python projesinde **görüntüden metin çıkarma** ihtiyacı duyduysanız ve dağınık OCR çıktısıyla uğraşmak zorunda kaldıysanız doğru yerdesiniz. Fatura işleme, fiş tarama veya tarihî belgeleri dijitalleştirme gibi birçok otomasyon senaryosunda ilk adım, bir resmi temiz, aranabilir metne dönüştürmektir. Bu öğreticide **OCR hatalarını nasıl düzelteceğinizi** Aspose’un AI destekli yazım denetimi ile gösterirken, **OCR için görüntü yükleme** adımlarını da kapsayarak güvenilir sonuçlar almanızı sağlayacağız.
 
-Bu öğreticide, **load image for OCR** nasıl yapılır, tanıma nasıl çalıştırılır ve ardından Aspose'un AI destekli imla denetimi sonrası işlemcisi ile **OCR hatalarını düzeltir** gösteren eksiksiz, çalıştırılabilir bir örnek üzerinden geçeceğiz. Sonunda, bir fatura PNG'sini, aklınızdaki herhangi bir sonraki iş akışı için hazır, düzenli ve aranabilir metne dönüştüren tek bir betiğe sahip olacaksınız.
+## Hızlı Yanıtlar
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose OCR for Python
+- **Yazım hatalarını otomatik olarak düzeltebilir miyim?** Evet, yerleşik AI yazım denetimi işlemcisi ile
+- **Lisans gerekli mi?** Test için bir deneme sürümü yeterli; üretim için ticari lisans gerekir
+- **Python‑3 ile uyumlu mu?** Python 3.8 ve üzeri sürümlerle çalışır
+- **PDF dosyalarını işleyebilir miyim?** Önce PDF sayfalarını görüntülere dönüştürün (bkz. “convert pdf to images for ocr”)
 
-## Öğrenecekleriniz
+## “OCR hatalarını nasıl düzeltiriz” nedir?
+OCR hatalarını düzeltmek, bir OCR motoru tarafından üretilen ham dizeyi alıp yazım hatalarını, yanlış yerleştirilmiş karakterleri ve biçimlendirme bozukluklarını otomatik olarak düzeltmek anlamına gelir; böylece metin sonraki aşamalarda (arama, analiz veya veri girişi) güvenle kullanılabilir.
 
-- Python'da Aspose OCR ve AI kütüphanelerinin nasıl kurulup içe aktarılacağını.  
-- **load image for OCR** için gereken tam kodu (tahmin yok).  
-- OCR motorunu nasıl çalıştırıp ham dizeyi yakalayacağınızı.  
-- OCR'nin neden sık sık yazım hataları ürettiğini ve yerleşik imla denetimi işlemcisinin **OCR hatalarını** otomatik olarak nasıl **düzeltilebileceğini**.  
-- Çok sayfalı PDF'ler veya düşük çözünürlüklü taramalar gibi uç durumları ele almak için ipuçları.
+## Neden Aspose OCR for Python?
+Aspose OCR, hızlı ve doğru bir tanıma motorunu, yazım denetimi ve temel dilbilgisi düzeltmeleri yapan isteğe bağlı bir AI post‑processor ile birleştirir. Tek bir paket içinde **aspose ocr tutorial** sunarak üçüncü‑taraf araçlara ihtiyaç duymadan görüntüden temiz metne geçmenizi sağlar.
 
-> **Önkoşullar:** Python 3.8+, geçerli bir Aspose OCR lisansı (veya ücretsiz deneme), ve işlemek istediğiniz bir görüntü dosyası (ör. `invoice.png`).
+## Önkoşullar
+- Python 3.8+ yüklü
+- Geçerli bir Aspose OCR lisansı (veya ücretsiz deneme)
+- İşlemek istediğiniz `invoice.png` gibi bir görüntü dosyası
+- Opsiyonel: OCR için PDF'leri görüntülere **dönüştürmek** gerektiğinde `pdf2image`
 
----
+## Adım Adım Kılavuz
 
-## Görüntüden Metin Çıkarma – Aspose OCR Kurulumu
-
-Herhangi bir şeye başlamadan önce doğru paketlere ihtiyacımız var. Aspose, OCR motorunu pip ile kurulabilir bir modül olarak dağıtır.
-
+### Adım 1: Aspose OCR ve AI post‑processor’ı kurun
 ```bash
 pip install aspose-ocr
 ```
-
-Ayrıca AI son işlemcisini de istiyorsanız yardımcı paketi yükleyin:
 
 ```bash
 pip install aspose-ocr-ai
 ```
 
-> **Pro ipucu:** Paketlerinizi güncel tutun. Bu yazının yazıldığı tarihte en son sürümler `aspose-ocr 23.12` ve `aspose-ocr-ai 23.12`.
+> **Pro ipucu:** Paketleri güncel tutun. Yazım anında en son sürümler `aspose-ocr 23.12` ve `aspose-ocr-ai 23.12` olarak belirtilmiştir.
 
-Kütüphaneler sisteminize girdikten sonra kullanacağınız sınıfları içe aktarın:
-
+### Adım 2: Gerekli sınıfları içe aktarın
 ```python
 # Step 1: Import the OCR and AI classes
 from aspose.ocr import OcrEngine, AsposeAI
 ```
 
-> **Neden önemli:** Belirli sınıfları içe aktarmak ad alanını temiz tutar ve hangi bileşenlerin tanıma, hangilerinin sonrası işleme sorumlu olduğunu açıkça gösterir.
-
----
-
-## OCR için Görüntü Yükleme – Fatura PNG'nizi Hazırlama
-
-Bir sonraki mantıklı adım, motoru okumak istediğiniz dosyaya yönlendirmektir. İşte burada **load image for OCR** ​​anahtar kelimesi önem kazanıyor.
-
+### Adım 3: Motoru oluşturun ve **OCR için görüntü yükleyin**
 ```python
 # Step 2: Create an OCR engine instance
 ocr_engine = OcrEngine()
@@ -84,22 +79,16 @@ ocr_engine = OcrEngine()
 ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 ```
 
-> **Açıklama:** `OcrEngine()` varsayılan ayarlarla (İngilizce dil, otomatik döndürme vb.) yeni bir motor oluşturur. `load_image()` yöntemi bir dosya yolu, bir akış veya hatta bir bayt dizisini kabul eder—bu sayede görüntüleri diskten, web'den veya bellek içi bir tampondan besleyebilirsiniz.
+> **Açıklama:** `load_image()` bir yol, bir akış ya da bayt dizisi kabul eder; böylece görüntüleri diskte, webde veya bellek içi tamponda besleyebilirsiniz.
 
-### Görüntü Yüklerken Yaygın Tuzaklar
-
+#### Görüntü yüklerken sık karşılaşılan sorunlar
 | Sorun | Belirti | Çözüm |
 |-------|---------|------|
-| Düşük DPI (<300) | Bozuk karakterler, eksik sayılar | Görüntüyü yüklemeden önce 300 dpi veya daha yüksek bir değere yeniden örnekleyin |
-| Yanlış renk modu (CMYK) | Yanlış karakter şekilleri | Pillow kullanarak RGB'ye dönüştürün (`Image.convert("RGB")`) |
-| Çok sayfalı PDF | Sadece ilk sayfa işleniyor | Her sayfayı bir görüntüye dönüştürün ve döngüyle işleyin |
+| Düşük DPI (<300) | Bozuk karakterler, eksik sayılar | Yüklemeden önce ≥ 300 dpi’ye yeniden örnekleyin |
+| CMYK renk modu | Yanlış karakter şekilleri | Pillow ile RGB’ye dönüştürün (`Image.convert("RGB")`) |
+| Çok sayfalı PDF | Sadece ilk sayfa işleniyor | **Convert PDF to images for OCR** `pdf2image` kullanarak PDF’yi görüntülere dönüştürün ve her sayfayı döngüyle işleyin |
 
----
-
-## OCR Yap ve Ham Metni Al
-
-Artık motor resmin nerede olduğunu bildiğine göre, onu gerçekten okuyabiliriz.
-
+### Adım 4: OCR’u çalıştırarak ham dizeyi alın
 ```python
 # Step 4: Perform OCR to extract raw text
 raw_text = ocr_engine.recognize()
@@ -107,24 +96,16 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-`recognize()` çağrısı düz bir Python dizesi döndürür. Birçok gerçek dünya senaryosunda, özellikle yoğunlaştırılmış yazı tipleri kullanan fişlerde, çıktı gereksiz boşluklar, yanlış okunan karakterler veya bozuk satır sonları içerecektir.
-
-> **Neden önce raw_text'i yakalıyoruz:** Daha sonra temizlenmiş sürümle karşılaştırmak için bir temel sağlar; bu, hata ayıklama veya denetleme için faydalıdır.
-
----
-
-## OCR Hatalarını Düzeltme – Aspose AI İmla Denetimi Kullanma
-
-Aspose, ham çıktıya bir imla denetimi sonrası işlemcisi çalıştırabilen hafif bir AI sarmalayıcı sunar. Bu, **OCR hatalarını nasıl düzeltiriz** sorusuna doğrudan yanıt verir.
-
+### Adım 5: AI yazım denetimi işlemcisini başlatın ( **OCR hatalarını nasıl düzeltiriz** konusunun çekirdeği)
 ```python
 # Step 5: Initialise the AI post‑processor and choose a spell‑check processor
 ai_processor = AsposeAI()
 ai_processor.set_post_processor("spell_check")
 ```
 
-You can swap `"spell_check"` for other processors like `"grammar_check"` or `"named_entity_recognition"` if your use‑case demands it.
+Diğer kullanım senaryoları için `"spell_check"` yerine `"grammar_check"` veya `"named_entity_recognition"` değerlerini kullanabilirsiniz.
 
+### Adım 6: OCR çıktısını temizleyin
 ```python
 # Step 6: Clean the OCR output using the selected post‑processor
 clean_text = ai_processor.run_postprocessor(raw_text)
@@ -134,21 +115,12 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### İmla Denetimi Arkada Ne Yapıyor
+**Yazım denetiminin yaptığı şey:** Metni token’lara ayırır, her token’ı bir İngilizce sözlükte (veya sağladığınız özel bir sözlükte) arar, hafif bir dil modeli ile alternatifleri puanlar ve en olası düzeltmeyi döndürür.
 
-1. **Tokenizasyon** – Ham dizeyi kelimelere ve noktalama işaretlerine ayırır.  
-2. **Sözlük Sorgulaması** – Her tokeni bir İngilizce sözlük (veya sağlayabileceğiniz özel bir sözlük) ile karşılaştırır.  
-3. **Bağlamsal Puanlama** – Küçük bir dil modeli kullanarak düzeltmenin çevredeki kelimelere uyup uymadığını belirler.  
-4. **Değiştirme** – En olası düzeltmeler uygulanmış yeni bir dize döndürür.
+#### İngilizce dışı diller
+`AsposeAI` oluştururken dil kodunu belirtin; örneğin Fransızca için `AsposeAI(language="fr")`.
 
-> **Köşe durum:** Kaynak dil İngilizce değilse, `AsposeAI()` oluştururken uygun dil kodunu geçirin (ör. `AsposeAI(language="fr")`).
-
----
-
-## Temizlenmiş Metni Doğrulama ve Kullanma
-
-Bu noktada iki değişkeniniz var: `raw_text` (doğrudan OCR çıktısı) ve `clean_text` (yazım denetimi yapılmış sürüm). Hangisini saklayacağınız, sonraki ihtiyaçlarınıza bağlıdır.
-
+### Adım 7: Temizlenmiş sonucu kaydedin
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
 with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
@@ -157,13 +129,8 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-Sonucu bir arama motoruna, veritabanına veya makine öğrenme modeline besliyorsanız, her zaman **temizlenmiş** sürümü tercih edin; aksi takdirde OCR gürültüsünü tüm işlem hattınıza yayarsınız.
-
----
-
-## Tam Çalışan Örnek
-
-Aşağıda, `extract_invoice.py` adlı bir dosyaya kopyalayıp yapıştırabileceğiniz tam komut dosyası bulunmaktadır. Bu komut dosyası, iki Aspose paketini zaten yüklediğinizi ve `YOUR_DIRECTORY/invoice.png` adresinde bir resminiz olduğunu varsaymaktadır.
+### Tam Çalışan Örnek
+Aşağıda `extract_invoice.py` dosyasına kopyalayıp yapıştırabileceğiniz tam betik yer almaktadır. İki Aspose paketinin kurulu olduğunu ve görüntünün `YOUR_DIRECTORY/invoice.png` konumunda bulunduğunu varsayar.
 
 ```python
 # extract_invoice.py
@@ -201,43 +168,44 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as out_file:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-Run it with:
-
+Şu şekilde çalıştırın:
 ```bash
 python extract_invoice.py
 ```
 
-Önce ham dökümü, ardından daha düzenli bir sürümünü göreceksiniz ve aynı klasörde `invoice_extracted.txt` adlı bir dosya belirecektir.
+Çıktıda ham dökümü, düzenlenmiş versiyonu ve aynı klasörde `invoice_extracted.txt` adlı bir dosya göreceksiniz.
 
----
+## OCR hatalarını diğer senaryolarda nasıl düzeltiriz?
+- **Toplu işleme:** Çekirdek mantığı bir fonksiyona sarın ve `concurrent.futures.ThreadPoolExecutor` kullanarak birçok görüntüyü paralel işleyin.
+- **PDF belgeleri:** `pdf2image` ile her sayfayı PNG’ye dönüştürün, ardından her PNG’yi betiğe besleyin. Bu, “convert pdf to images for ocr” iş akışını uygular.
+- **Özel sözlükler:** `AsposeAI`’ye `set_custom_dictionary()` aracılığıyla alan‑spesifik terimler listesi vererek fatura, tıbbi rapor vb. için yazım denetimi doğruluğunu artırın.
 
-## Sıkça Sorulan Sorular (SSS)
+## Sık Sorulan Sorular
 
-**S: Bu PDF'lerle çalışır mı?**  
-C: Doğrudan değil. Her PDF sayfasını bir görüntüye (ör. `pdf2image` kullanarak) dönüştürün ve betiği ortaya çıkan PNG'ler üzerinde döngüye alın.
+**S: Bu doğrudan PDF’lerle çalışır mı?**  
+C: Doğrudan değil. Her PDF sayfasını önce bir görüntüye (ör. `pdf2image` ile) dönüştürün ve ardından OCR betiğini her PNG üzerinde çalıştırın.
 
-**S: Dilim İngilizce değil—yine de imla denetimini kullanabilir miyim?**  
-C: Evet. `AsposeAI(language="de")` gibi istediğiniz dil kodunu geçirin; Almanca için `"de"`, İspanyolca için `"es"` vb.
+**S: Kaynak dilim İngilizce değil—yazım denetimini hâlâ kullanabilir miyim?**  
+C: Evet. Almanca için `AsposeAI(language="de")`, İspanyolca için `"es"` gibi dil kodlarıyla başlatabilirsiniz.
 
-**S: OCR motoru tablo düzenini yanlış algılarsa ne olur?**  
-C: Aspose OCR, `set_layout_analysis(True)` bayrağını sunar. Etkinleştirmek tablo algılamayı iyileştirir ancak işlem süresini artırabilir.
+**S: OCR motoru tablo yapılarını yanlış algılarsa ne yapmalıyım?**  
+C: `ocr_engine.set_layout_analysis(True)` ile düzen analizini etkinleştirin. Bu, tablo algılamasını iyileştirir ancak biraz daha işlem süresi ekler.
 
-**S: Çok büyük toplu işlemleri nasıl yönetirim?**  
-C: Çekirdek mantığı bir fonksiyon içinde paketleyin ve bir iş parçacığı havuzu veya async IO kullanarak birden fazla çekirdek veya makine üzerinde paralelleştirin.
+**S: Çok büyük toplu işleri verimli bir şekilde nasıl yönetebilirim?**  
+C: Görüntüleri parçalar halinde işleyin, her sonucu bir veritabanına veya mesaj kuyruğuna yazın ve CPU kullanımını maksimize etmek için async I/O veya çoklu işlemeyi düşünün.
 
----
+**S: Yazım denetimi sözlüğünü özelleştirmenin bir yolu var mı?**  
+C: Evet. Post‑processor’ı çalıştırmadan önce `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])` kullanarak özel bir sözlük ekleyin.
 
-## Özet
-
-Aspose OCR kullanarak **görselden metin çıkarmayı**, **OCR için görüntü yüklemeyi** ve yerleşik AI imla denetimi ile **OCR hatalarını düzeltmenin** en basit yolunu gösterdik. Eksiksiz, çalıştırılabilir betik, fatura PNG'sini yüklemekten temiz, aranabilir bir `.txt` dosyasına kaydetmeye kadar uçtan uca akışı gösteriyor.
-
-Deney yapmaktan çekinmeyin: imla denetimini dilbilgisi düzeltmesiyle değiştirin, çıktıyı bir NLP sınıflandırıcısına besleyin veya süreci daha büyük bir belge yönetim sistemine entegre edin. Güvenilir, düzeltilmiş metin elde ettiğinizde sınır yoktur.
-
-OCR, Aspose veya Python otomasyonu hakkında daha fazla sorunuz mu var? Aşağıya bir yorum bırakın, iyi kodlamalar!
-
-![Görselden metin çıkarma örneği](extract_text_image.png "Aspose OCR ile Görselden Metin Çıkarma")
+![Görüntüden metin çıkarma örneği](extract_text_image.png "Aspose OCR ile görüntüden metin çıkarma")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-02-27  
+**Test Edilen:** Aspose OCR 23.12, Aspose OCR AI 23.12  
+**Yazar:** Aspose
