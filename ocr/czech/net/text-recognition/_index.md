@@ -55,6 +55,21 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Převod TIFF na text v C# – Extrahování textu ze skenovaného obrázku](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Naučte se převádět TIFF soubory na text v C# pomocí Aspose.OCR a extrahovat text ze skenovaných obrázků.
+### [Převod TIFF na text v C# pomocí Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Naučte se převádět TIFF soubory na text v C# pomocí Aspose OCR.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Kompletní průvodce v C# pro rozpoznání textu z obrázku pomocí Aspose OCR, krok za krokem.
+### [Jak používat OCR v C# – Extrahovat text z obrázku](./how-to-use-ocr-in-c-extract-text-from-image/)
+Naučte se, jak pomocí Aspose.OCR v C# snadno extrahovat text z obrázku v několika jednoduchých krocích.
+### [Jak používat OCR v C# – Rychle extrahovat text z účtenek](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Naučte se rychle extrahovat text z účtenek v C# pomocí Aspose.OCR.
+### [Extrahovat text z obrázku v C# – Aspose OCR krok po kroku](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Naučte se krok za krokem, jak v C# pomocí Aspose OCR extrahovat text z obrázku.
+### [Jak získat OCR v C# – Rozpoznat text ze streamu](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Naučte se, jak v C# pomocí Aspose.OCR rozpoznat text přímo ze streamu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

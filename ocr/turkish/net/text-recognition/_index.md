@@ -55,6 +55,21 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C# ile TIFF'i Metne Dönüştür – Tarama Görüntüsü Metnini Çıkar](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+C# kullanarak TIFF dosyalarını metne dönüştürün ve taranmış görüntülerden metin çıkarın.
+### [C# ile Aspose OCR Kullanarak TIFF'i Metne Dönüştür](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+C# ile Aspose OCR kullanarak TIFF dosyalarını metne dönüştürün ve metin çıkarma sürecini kolaylaştırın.
+### [Aspose OCR ile Resimden Metin Tanıma – Tam C# Rehberi](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak resimlerden metin çıkarmayı adım adım öğrenin ve C# projelerinizde tam kontrol sağlayın.
+### [C# ile OCR Kullanımı – Görüntüden Metin Çıkar](./how-to-use-ocr-in-c-extract-text-from-image/)
+C# projelerinizde OCR kullanarak görüntülerden metin çıkarın ve uygulamanıza kolayca entegre edin.
+### [C# ile Görüntüden Metin Çıkarma – Aspose OCR Adım Adım](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+C# kullanarak görüntülerden metin çıkarın ve Aspose OCR ile adım adım uygulayın.
+### [C# ile OCR Kullanımı – Makbuzlardan Metni Hızlıca Çıkar](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+C# projelerinizde OCR ile makbuzlardan metni hızlı ve doğru bir şekilde çıkarın ve iş akışınızı hızlandırın.
+### [C# ile OCR Nasıl Alınır – Akıştan Metin Tanıma](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+C# uygulamanızda akıştan metin tanıma işlemini adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

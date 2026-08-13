@@ -55,6 +55,15 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [將 TIFF 轉換為文字（C#） – 提取掃描圖像文字](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+### [使用 Aspose OCR 在 C# 中將 TIFF 轉換為文字](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+### [使用 Aspose OCR 從圖片辨識文字 – 完整 C# 教學](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+### [如何在 C# 中使用 OCR – 從圖像提取文字](./how-to-use-ocr-in-c-extract-text-from-image/)
+### [在 C# 中使用 Aspose OCR 步驟式提取圖像文字](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+### [如何在 C# 中使用 OCR – 快速從收據提取文字](./how-to-use-ocr-in-c-extract-receipts-quickly/)
+### [如何在 C# 中使用 OCR – 從串流辨識文字](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+使用 Aspose.OCR 在 C# 中從資料流直接辨識文字，提供完整步驟說明，提升開發效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
