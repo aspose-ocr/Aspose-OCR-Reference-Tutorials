@@ -65,15 +65,16 @@ weight: 25
 
 ## Μαθήματα Βελτιστοποίησης OCR
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Εξερευνήστε αδιάλειπτη ενσωμάτωση OCR με Aspose.OCR for .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET με τον ολοκληρωμένο μας οδηγό. Μάθετε βήμα‑βήμα πώς να προετοιμάσετε ορθογώνια για την αναγνώριση εικόνας. Αναβαθμίστε τις .NET εφαρμογές σας με αδιάλειπτη ενσωμάτωση OCR.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
-### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
+### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spellchecking/)
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+### [Πώς να διορθώσετε την κλίση εικόνας και να εκτελέσετε OCR σε C# – Πλήρης Οδηγός](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες και να εφαρμόσετε OCR με Aspose.OCR σε C# βήμα‑βήμα.
+### [Παράδειγμα Aspose OCR – Ενεργοποίηση ορθογραφικού ελέγχου και διόρθωση σφαλμάτων σε C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ενεργοποιήστε τον ορθογραφικό έλεγχο στο Aspose OCR και διορθώστε σφάλματα κειμένου σε εφαρμογές C#.
+### [Πώς να εκτελέσετε OCR σε κινεζικές εικόνες – Πλήρης οδηγός C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Μάθετε πώς να αναγνωρίζετε κινεζικό κείμενο σε εικόνες με Aspose.OCR και C# βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 
