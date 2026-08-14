@@ -54,7 +54,18 @@ Aspose.OCR を使用して .NET アプリケーションを強化し、画像テ
 ### [OCR画像認識でPDFを認識する](./recognize-pdf/)
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
-OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解き放ちます。
+OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [Aspose OCR を使用して画像から Excel を作成する – ステップバイステップ ガイド](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR を活用し、画像から Excel ファイルを生成する手順を詳細に解説します。
+### [C# OCR チュートリアル: Aspose OCR を使用して画像からテキストを抽出する](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Aspose OCR を利用し、C# で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して画像で OCR を実行 – 中国語テキストを認識する](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aspose OCR を利用し、画像から中国語テキストを抽出する手順をステップバイステップで解説します。
+### [C# 完全ガイド: Aspose OCR を使用して画像からテキストを抽出する](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR を活用し、C# で画像からテキストを抽出する手順を詳細に解説します。
+### [C# OCR チュートリアル: Aspose OCR を使用して画像からアラビア語テキストを抽出する](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Aspose OCR を利用し、C# で画像からアラビア語テキストを抽出する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -68,7 +68,11 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 ### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt‑für‑Schritt‑Leitfaden.
+### [Bildrotation in C# korrigieren – Vollständiger Leitfaden zur OCR‑Genauigkeit](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Erfahren Sie, wie Sie Bildrotationen in C# korrigieren, um die OCR‑Genauigkeit zu maximieren.
+### [Bildentzerrung für OCR – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Erfahren Sie, wie Sie Bilder für OCR entzerren, um die Erkennungsgenauigkeit zu maximieren, mit praktischen C#‑Beispielen.
 
 ## Häufig gestellte Fragen
 

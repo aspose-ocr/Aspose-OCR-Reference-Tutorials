@@ -69,11 +69,15 @@ weight: 25
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET με τον ολοκληρωμένο μας οδηγό. Μάθετε βήμα‑βήμα πώς να προετοιμάσετε ορθογώνια για την αναγνώριση εικόνας. Αναβαθμίστε τις .NET εφαρμογές σας με αδιάλειπτη ενσωμάτωση OCR.
 ### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
+Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
+### [Διόρθωση Περιστροφής Εικόνας σε C# – Πλήρης Οδηγός για Ακρίβεια OCR](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Μάθετε πώς να διορθώσετε την περιστροφή εικόνας σε C# για βέλτιστη ακρίβεια OCR με Aspose.OCR.
+### [Πώς να διορθώσετε την κλίση εικόνας για OCR – Οδηγός βήμα‑βήμα C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες για βέλτιστη αναγνώριση OCR με C# χρησιμοποιώντας Aspose.OCR.
 
 ## Συχνές Ερωτήσεις
 
