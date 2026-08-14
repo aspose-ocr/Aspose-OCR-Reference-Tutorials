@@ -75,11 +75,17 @@ Aspose.OCR for Java を使用した画像からのテキスト抽出の力を解
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Aspose.OCR for Java で画像からの正確なテキスト抽出を実現します。言語選択による精密な OCR をステップバイステップでご案内します。
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
-Aspose.OCR を使用した Java での OCR の力を解き放ちます。PDF 文書内のテキストを簡単に認識し、精度と速度でアプリケーションを強化します。
+Aspose.OCR を使用した Java での OCR の力を解放します。PDF 文書内のテキストを簡単に認識し、精度と速度でアプリケーションを強化します。
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Aspose.OCR を使用した Java での強力なテキスト認識を実現します。TIFF 画像内のテキストを手間なく認識し、シームレスな OCR 体験を提供します。
 ### [Aspose OCR で画像テキストを認識 – 完全 Java OCR チュートリアル](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR を使用して画像からテキストを認識する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [Java で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-in-java-complete-guide/)
+Aspose.OCR for Java を使用して、PDF を検索可能な形式に変換する手順をステップバイステップで解説します。
+### [Aspose OCR を使用した Java で画像をテキストに変換 – 完全ガイド](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Aspose OCR を活用し、Java で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR ライセンス チュートリアル – Java 設定ガイド](./aspose-ocr-license-tutorial-java-setup-guide/)
+Aspose OCR のライセンス取得方法と Java 環境への設定手順をステップバイステップで解説します。
 
 ## よくある質問
 

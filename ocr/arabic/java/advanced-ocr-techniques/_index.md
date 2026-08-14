@@ -61,6 +61,18 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+### [دليل OCR المعجل بوحدة معالجة الرسومات – دليل Java لتحويل الصور إلى نص بسرعة](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+استفد من تسريع GPU لإجراء OCR سريع على الصور في Java. احصل على نص عالي الدقة بأداء فائق.
+### [استخراج النص من ملف tiff باستخدام Aspose OCR Java – دليل](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+### [التعرف الضوئي على الحروف متعدد اللغات في Java – دليل شامل خطوة بخطوة](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+اكتشف كيفية تنفيذ OCR للغات متعددة في Java خطوة بخطوة باستخدام Aspose.OCR، واحصل على نص دقيق من صور متعددة اللغات.
+### [كيفية التعرف الضوئي على الجداول في Java – دليل شامل خطوة بخطوة](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+اكتشف كيفية استخراج الجداول من الصور باستخدام Aspose.OCR لـ Java خطوة بخطوة واحصل على نص منسق بدقة عالية.
+### [زيادة تباين الصورة في OCR باستخدام Java – دليل برمجة كامل](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+تعلم كيفية تحسين تباين الصور قبل تطبيق OCR في Java للحصول على نص أكثر دقة باستخدام Aspose.OCR.
+### [ضغط صور PDF باستخدام Java – دليل كامل لتطبيق OCR على دفعات إلى PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+استخدم Aspose.OCR لـ Java لضغط صور PDF وإجراء OCR على دفعات كاملة وتحويلها إلى ملفات PDF بدقة عالية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
