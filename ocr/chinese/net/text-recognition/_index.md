@@ -55,6 +55,19 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [在 C# 中创建可搜索 PDF – 图像转 PDF OCR](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+使用 Aspose.OCR for .NET 将图像转换为可搜索的 PDF，实现高效的文本检索和无缝集成。
+### [在 C# 中创建可搜索 PDF – 垂直合并图像](./create-searchable-pdf-in-c-combine-images-vertically/)
+使用 Aspose.OCR for .NET 将多张图像垂直合并并生成可搜索的 PDF，实现高效文本检索。
+### [在 C# 中从图像提取文本 – 离线 OCR 步骤指南](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+使用 Aspose.OCR for .NET 在离线环境下从图像中提取文本，提供详细的分步指南。
+### [在 C# 中使用 Aspose OCR 将 Djvu 转换为文本 – 完整教程](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+使用 Aspose OCR 在 C# 中将 Djvu 文件转换为可编辑文本，提供完整的分步指南。
+### [在 C# 中使用 Aspose OCR 运行 OCR – 完整指南](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+通过本完整指南，学习在 C# 中使用 Aspose OCR 进行图像文字识别的全部步骤。
+### [在 C# 中从图像识别文本 – 嵌入 Aspose OCR 许可证](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+使用 Aspose.OCR for .NET 在 C# 中从图像识别文本并嵌入许可证，确保合法使用并提升识别效果。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

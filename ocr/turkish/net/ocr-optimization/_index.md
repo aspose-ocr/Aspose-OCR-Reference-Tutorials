@@ -18,7 +18,7 @@ weight: 25
 
 ## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğertenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
@@ -74,6 +74,11 @@ Aspose.OCR for .NET’ü keşfedin. Ön işleme filtreleriyle OCR doğruluğunu 
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazım hatalarını düzeltin, sözlükleri özelleştirin ve hatasız metin tanımayı zahmetsizce sağlayın.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET’ün potansiyelini ortaya çıkarın. Bu kapsamlı adım adım rehberle çok sayfalı OCR sonuçlarını belgeler olarak zahmetsizce kaydedin.
+### [c# ocr öğreticisi – GPU Hızlandırmalı Görüntülerden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+### [C# ile Görüntü OCR Ön İşleme – Doğruluğu Artırmak İçin Tam Kılavuz](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+C# kullanarak görüntü OCR ön işleme tekniklerini öğrenin ve tanıma doğruluğunu en üst seviyeye çıkarın.
+### [C#'ta Toplu OCR Nasıl Yapılır – Görüntülerden Metin Çıkarma için Tam Kılavuz](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+C# ile toplu OCR işlemleri yaparak birden çok görüntüyü hızlıca metne dönüştürün ve sonuçları yönetin.
 
 ## Sıkça Sorulan Sorular
 
