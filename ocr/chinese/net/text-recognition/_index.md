@@ -55,6 +55,19 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 释放 .NET 中 OCR 的潜力。轻松从 PDF 中提取文本。立即下载以获得无缝集成体验。
 ### [OCR图像识别中的识别表](./recognize-table/)
 通过我们关于 OCR 图像识别中表格识别的综合指南，释放 Aspose.OCR for .NET 的潜力。
+### [在 C# 中使用 OCR – 从 PNG 提取俄文文本](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+使用 Aspose.OCR for .NET 在 C# 中提取 PNG 图像中的俄文文本，提供分步指南。
+### [在 C# 中读取收据 – 完整的图像文本提取指南](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+使用 Aspose.OCR for .NET 在 C# 中从收据图像提取文本，提供完整的分步指南。
+### [在 C# 中从图像生成 EPUB – 完整指南](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+使用 Aspose.OCR for .NET 将图像转换为 EPUB，提供完整的分步指南，帮助您轻松生成电子书。
+### [在 C# 中对 DjVu 文件执行 OCR – 步骤指南](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+使用 Aspose.OCR for .NET 在 C# 中对 DjVu 文件进行光学字符识别，提供完整的分步指南。
+### [在 C# 中批量 OCR – 完整的图像文本提取指南](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+使用 Aspose.OCR for .NET 在 C# 中批量处理图像，实现高效的文本提取。提供完整的分步指南。
+### [C# OCR 教程 – 使用 Aspose.OCR 从图像提取文本](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+使用 Aspose.OCR for .NET 在 C# 中从图像提取文本，提供完整的分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

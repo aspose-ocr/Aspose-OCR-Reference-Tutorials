@@ -55,6 +55,19 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Hoe OCR te gebruiken in C# – Russische tekst uit PNG extraheren](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Leer hoe u met Aspose.OCR in C# Russische tekst uit PNG-afbeeldingen kunt extraheren voor nauwkeurige OCR-resultaten.
+### [Hoe een bon te lezen in C# – Complete gids voor het extraheren van tekst uit een afbeelding](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Leer hoe u met Aspose.OCR in C# tekst van bonnen uit afbeeldingen kunt extraheren voor nauwkeurige resultaten.
+### [Hoe een EPUB te genereren uit een afbeelding in C# – Complete gids](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# een EPUB-bestand maakt vanuit een afbeelding, stap voor stap.
+### [Hoe OCR uit te voeren op DjVu‑bestanden in C# – Stapsgewijze gids](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# DjVu‑bestanden kunt verwerken en tekst extraheren. Volg de stapsgewijze handleiding voor nauwkeurige resultaten.
+### [Hoe batch-OCR in C# – Complete gids om tekst uit afbeeldingen te extraheren](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Leer hoe u met Aspose.OCR in C# batch-OCR kunt uitvoeren om efficiënt tekst uit meerdere afbeeldingen te extraheren.
+### [c# OCR-tutorial – Tekst extraheren uit afbeeldingen met Aspose.OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen kunt extraheren voor nauwkeurige OCR-resultaten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
