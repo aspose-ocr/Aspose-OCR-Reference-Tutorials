@@ -49,12 +49,21 @@ Enhance your .NET applications with Aspose.OCR for accurate character recognitio
 Explore Aspose.OCR for .NET, a powerful OCR solution for seamless text recognition in images.
 ### [Get Result as JSON in OCR Image Recognition](./get-result-as-json/)
 Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON format effortlessly. Enhance your image recognition with this step-by-step guide.
+### [aspose ocr example – Convert Image Text to JSON in C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Convert image text to JSON using Aspose.OCR in C#. Follow our step-by-step guide to extract OCR results in JSON format.
 ### [OCR Detect Areas Mode in OCR Image Recognition](./ocr-detect-areas-mode/)
 Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
 ### [Recognize PDF in OCR Image Recognition](./recognize-pdf/)
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [How to Perform OCR in C# – Recognize Text from Image](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Learn how to use Aspose.OCR in C# to recognize text from images with a simple step-by-step guide.
+### [Create Searchable PDF from Scanned Document – Complete C# Guide](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Create a searchable PDF from a scanned document using Aspose.OCR in C#. Follow our comprehensive guide for seamless PDF generation.
+### [Extract Text from Image in C# – c# image to text using Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Extract text from images using Aspose.OCR in C#. Follow our step-by-step guide to convert images to searchable text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
