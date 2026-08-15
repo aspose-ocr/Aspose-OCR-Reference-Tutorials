@@ -55,6 +55,13 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-tiff-complete-c-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่สามารถค้นหาได้จากภาพ TIFF ด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
+### [จดจำข้อความจากภาพใน C# – คู่มือ OCR แบบออฟไลน์](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากภาพแบบออฟไลน์ด้วยขั้นตอนง่าย ๆ
+### [จดจำข้อความจากภาพใน C# – คู่มือ Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากภาพอย่างง่ายดายและรวดเร็ว
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
