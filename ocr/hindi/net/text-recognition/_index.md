@@ -55,6 +55,8 @@ Aspose.OCR के साथ .NET में OCR की क्षमता को 
 Aspose.OCR के साथ .NET में OCR की क्षमता को अनलॉक करें। पीडीएफ़ से आसानी से टेक्स्ट निकालें। सहज एकीकरण अनुभव के लिए अभी डाउनलोड करें।
 ### [ओसीआर छवि पहचान में तालिका को पहचानें](./recognize-table/)
 OCR छवि पहचान में तालिकाओं को पहचानने पर हमारे व्यापक गाइड के साथ .NET के लिए Aspose.OCR की क्षमता को अनलॉक करें।
+### [C# में Aspose OCR के साथ टेक्स्ट इमेज पहचानें](./recognize-text-image-with-aspose-ocr-in-c/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की चरण-दर-चरण गाइड।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
