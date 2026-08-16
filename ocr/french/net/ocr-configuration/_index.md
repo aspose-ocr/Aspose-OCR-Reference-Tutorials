@@ -69,6 +69,9 @@ Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le t
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
+### [Comment désactiver l'OCR en C# – Guide hors ligne Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode hors ligne avec Aspose OCR.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.

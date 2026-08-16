@@ -55,6 +55,15 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Tekst extraheren uit afbeelding in C# – Complete OCR-gids](./extract-text-from-image-in-c-complete-ocr-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt met een volledige stap‑voor‑stap OCR‑handleiding.
+### [Tekst extraheren uit TIFF met batch-OCR in C# – Complete gids](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit TIFF-bestanden haalt via batch‑OCR in deze volledige stap‑voor‑stap gids.
+### [Maak doorzoekbare PDF in C# – Complete gids](./create-searchable-pdf-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# doorzoekbare PDF's maakt met een volledige stap‑voor‑stap handleiding.
+### [Tekst herkennen uit PNG in C# – Complete OCR‑ en spellingscontrole‑gids](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+### [Afbeelding naar JSON converteren – C# OCR-tutorial voor bonnen](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Leer hoe u met Aspose.OCR in C# afbeeldingen van bonnen omzet naar JSON voor eenvoudige verwerking.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
