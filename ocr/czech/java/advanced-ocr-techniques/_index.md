@@ -23,7 +23,7 @@ Aspose.OCR for Java mění hru, pokud jde o optické rozpoznávání znaků (OCR
 
 ## [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
 
-tomto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
+tomuto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
 
 ## [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
 
@@ -61,6 +61,15 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Jak provádět hromadné OCR v Javě s paralelním zpracováním](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Zrychlete rozpoznávání textu hromadným OCR v Javě s paralelním zpracováním pro maximální výkon.
+### [Rozpoznání textu z obrázku pomocí GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Zrychlete OCR pomocí GPU v Aspose OCR pro Java a extrahujte text z obrázků s vysokou rychlostí.
+### [Jak provést OCR v Javě – automatické rozpoznání jazyka a extrakce textu](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Naučte se, jak v Javě provádět OCR s automatickým rozpoznáním jazyka a extrahovat text rychle a přesně.
+### [Jak zlepšit OCR pomocí pokročilého předzpracování v Javě](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Zvyšte přesnost OCR v Javě pomocí pokročilých technik předzpracování obrázků.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

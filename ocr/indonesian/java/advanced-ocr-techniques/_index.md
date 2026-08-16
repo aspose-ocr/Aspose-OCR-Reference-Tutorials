@@ -38,8 +38,10 @@ Temukan kecanggihan Aspose.OCR untuk Java dalam panduan kami dalam melakukan OCR
 Siapkan persegi panjang secara efisien untuk OCR dengan Aspose.OCR untuk Java menggunakan panduan komprehensif kami. Sempurnakan aplikasi Java Anda dengan membuka potensi penuh pengenalan teks. Ikuti petunjuk langkah demi langkah untuk integrasi yang lancar dan peningkatan kemampuan OCR.
 
 ## [Mengenali Garis di Aspose.OCR untuk Java](./recognize-lines/)
-
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Tutorial ini memandu Anda melalui integrasi yang mudah dan akurasi tinggi dalam mengenali garis. Tingkatkan proyek Anda dengan efisiensi dan keandalan Aspose.OCR.
+
+### [Mengenali Teks dari Gambar dengan GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Lakukan OCR pada gambar menggunakan GPU dengan Aspose OCR untuk Java, meningkatkan kecepatan dan akurasi ekstraksi teks.
 
 ## [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 
@@ -61,6 +63,13 @@ Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langka
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
 ### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
+### [Cara Batch OCR di Java dengan Pemrosesan Paralel](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Lakukan OCR secara batch di Java menggunakan pemrosesan paralel untuk meningkatkan kecepatan dan efisiensi ekstraksi teks.
+### [Cara Melakukan OCR di Java – Deteksi Bahasa Otomatis dan Ekstrak Teks](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Lakukan OCR di Java dengan deteksi bahasa otomatis, mengekstrak teks secara akurat dalam berbagai bahasa.
+### [Cara Meningkatkan OCR dengan Pra-pemrosesan Lanjutan di Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Terapkan teknik pra-pemrosesan canggih untuk meningkatkan akurasi dan kecepatan OCR di aplikasi Java Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
