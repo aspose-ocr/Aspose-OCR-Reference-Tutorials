@@ -55,6 +55,19 @@ url: /ru/net/text-recognition/
 Раскройте потенциал оптического распознавания символов в .NET с помощью Aspose.OCR. Извлекайте текст из PDF-файлов без особых усилий. Загрузите сейчас и получите беспрепятственную интеграцию.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
+### [Распознать арабский текст из PNG с помощью Aspose OCR – руководство C#](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Научитесь извлекать арабский текст из PNG‑изображений в C# с использованием Aspose OCR.
+### [Извлечь текст из изображения с помощью Aspose OCR – руководство по программированию C#](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Пошаговое руководство по извлечению текста из изображений с помощью Aspose OCR в C#.
+### [Как использовать OCR в C# – быстро извлекать текст из сканов](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Узнайте, как быстро извлекать текст из отсканированных изображений в C# с помощью Aspose.OCR.
+### [Создать поисковый PDF – преобразовать изображение в EPUB и добавить текст](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Научитесь создавать PDF с поисковым текстом, конвертировать изображения в EPUB и добавлять текст с помощью Aspose.OCR.
+### [Как выполнить OCR в C# – извлечь текст из изображения](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Пошаговое руководство по использованию Aspose.OCR в C# для извлечения текста из изображений.
+### [Live OCR Tutorial: Обнаружение текста в видео с C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Узнайте, как в реальном времени распознавать текст в видеопотоке с помощью Aspose.OCR и C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

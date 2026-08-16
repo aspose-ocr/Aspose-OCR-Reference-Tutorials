@@ -55,6 +55,19 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yan
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Mengenali Teks Arab dari PNG menggunakan Aspose OCR – Panduan C#](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Pelajari cara mengenali teks Arab dalam file PNG dengan Aspose OCR menggunakan C#. Ikuti panduan langkah demi langkah kami.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Pemrograman C#](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Ekstrak teks dari gambar menggunakan Aspose OCR dengan C#. Ikuti panduan langkah demi langkah kami untuk integrasi mudah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Scan dengan Cepat](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Pelajari cara cepat mengekstrak teks dari file scan menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
+### [Buat PDF yang Dapat Dicari – Konversi Gambar ke EPUB & Tambahkan Teks](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari, mengonversinya ke EPUB, dan menambahkan teks menggunakan Aspose.OCR.
+### [Cara Melakukan OCR di C# – Ekstrak Teks dari Gambar](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
+### [Tutorial OCR Langsung: Deteksi Teks dalam Video dengan C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Pelajari cara mendeteksi teks secara real-time dalam video menggunakan Aspose.OCR dan C#. Ikuti panduan langkah demi langkah kami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

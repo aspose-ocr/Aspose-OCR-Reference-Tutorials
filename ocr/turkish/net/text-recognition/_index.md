@@ -55,6 +55,19 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [Aspose OCR kullanarak PNG'den Arapça Metin Tanıma – C# Kılavuzu](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Aspose OCR ile PNG dosyalarından Arapça metni tanıyıp .NET uygulamalarınızda kolayca kullanın.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – C# Programlama Kılavuzu](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Aspose OCR ile görüntülerden metin çıkarın ve .NET uygulamalarınızda kolayca kullanın. Adım adım C# rehberi.
+### [C#'ta OCR Nasıl Yapılır – Görüntüden Metin Çıkarma](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Aspose.OCR ile C# kullanarak görüntülerden metin çıkarın ve projelerinizde hızlı OCR entegrasyonu sağlayın.
+### [C#'ta OCR Nasıl Kullanılır – Taramalardan Hızlı Metin Çıkarma](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+C# ile OCR kullanarak tarama dosyalarından metni hızlıca çıkarın ve .NET projelerinizde entegre edin.
+### [Arama Yapılabilir PDF Oluştur – Görüntüyü EPUB'a Dönüştür ve Metin Ekle](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Görsel dosyaları EPUB'a dönüştürüp metin ekleyerek arama yapılabilir PDF oluşturmayı adım adım öğrenin.
+### [Canlı OCR Eğitimi: C# ile Videoda Metin Algılama](./live-ocr-tutorial-detect-text-in-video-with-c/)
+C# kullanarak video akışında gerçek zamanlı metin algılamayı öğrenin ve uygulamalarınıza canlı OCR yeteneği ekleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
