@@ -61,6 +61,8 @@ Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
+### [Controleer licentievlag in Aspose OCR – Snelle gids om licenties te verifiëren](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Leer hoe je de licentievlag controleert en verifieert dat Aspose OCR correct is gelicentieerd.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

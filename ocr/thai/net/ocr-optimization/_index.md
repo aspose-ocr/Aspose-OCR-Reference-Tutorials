@@ -73,6 +73,14 @@ weight: 25
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารใน OCR Image Recognition](./save-multipage-result-as-document/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET บันทึกผลลัพธ์ OCR หลายหน้าเป็นเอกสารได้อย่างง่ายดายด้วยคู่มือขั้นตอนต่อขั้นตอนที่ครอบคลุมนี้.
 
+### [จดจำข้อความจากภาพด้วย Aspose OCR GPU ใน C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+เรียนรู้การใช้ GPU เพื่อเร่งความเร็ว OCR ใน C# ด้วย Aspose OCR
+
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือการเขียนโปรแกรมเต็ม](./create-searchable-pdf-in-c-full-programming-guide/)
+
+### [ดึงข้อความจากภาพใน C# – คู่มือ Auto‑Rotate OCR & Deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพโดยอัตโนมัติหมุนและแก้ไขการเอียง เพิ่มความแม่นยำของ OCR
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  
