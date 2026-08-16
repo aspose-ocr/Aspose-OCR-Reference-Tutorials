@@ -80,6 +80,12 @@ weight: 21
 افتح إمكانات التعرف القوية على النص في Java مع Aspose.OCR. تعرف على النص في صور TIFF بسهولة. حمّل الآن لتجربة OCR سلسة.
 ### [التعرف على نص الصورة باستخدام Aspose OCR – دليل OCR كامل للـ Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PDF باستخدام Aspose OCR في Java – دليل كامل](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+دليل شامل يشرح خطوة بخطوة كيفية التعرف على نص ملفات PDF باستخدام Aspose OCR في Java وتحويلها إلى مستندات قابلة للبحث.
+### [إنشاء PDF قابل للبحث من صورة باستخدام Java – دليل خطوة بخطوة](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+### [تشغيل OCR على صورة باستخدام Java – استخراج النص التايلاندي من PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 
 ## الأسئلة المتكررة
 

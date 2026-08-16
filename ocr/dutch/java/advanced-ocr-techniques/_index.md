@@ -37,6 +37,10 @@ Ontdek de kracht van Aspose.OCR voor Java in onze gids over het uitvoeren van OC
 
 Bereid rechthoeken efficiënt voor voor OCR met Aspose.OCR voor Java met behulp van onze uitgebreide handleiding. Verbeter uw Java-applicaties door het volledige potentieel van tekstherkenning te benutten. Volg de stapsgewijze instructies voor een naadloze integratie en verbeterde OCR-mogelijkheden.
 
+## [Regio van belang definiëren in Java OCR – Complete gids](./define-region-of-interest-in-java-ocr-complete-guide/)
+
+Leer hoe u een regio van belang definieert voor OCR in Java met Aspose.OCR, zodat alleen specifieke delen van een afbeelding worden herkend.
+
 ## [Lijnen herkennen in Aspose.OCR voor Java](./recognize-lines/)
 
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Deze tutorial begeleidt u bij eenvoudige integratie en hoge nauwkeurigheid bij het herkennen van lijnen. Verbeter uw projecten met de efficiëntie en betrouwbaarheid van Aspose.OCR.
@@ -45,22 +49,18 @@ Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. De
 
 Extraheer moeiteloos tekst uit afbeeldingen door toegestane tekens op te geven met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor efficiënte integratie en zorg voor een naadloze tekstherkenningservaring. Verbeter uw Java-applicaties met Aspose.OCR-mogelijkheden.
 
-## Conclusie
+## [herken afbeeldingstekst met Java OCR – GPU-versneld voorbeeld](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
 
-Met Aspose.OCR voor Java is het beheersen van geavanceerde OCR-technieken nog nooit zo eenvoudig geweest. Duik in deze tutorials en ontgrendel het volledige potentieel van tekstherkenning in uw Java-projecten. Verbeter uw toepassingen met naadloze integratie, hoge nauwkeurigheid en veelzijdige mogelijkheden voor tekstextractie. Download nu en zet de eerste stap naar uitmuntende OCR met Aspose.OCR voor Java!
-## Tutorials voor geavanceerde OCR-technieken
-### [OCR uitvoeren op BufferedImage in Aspose.OCR voor Java](./perform-ocr-buffered-image/)
-Voer moeiteloos OCR uit op BufferedImage met Aspose.OCR voor Java. Extraheer tekst naadloos uit afbeeldingen. Download nu voor een veelzijdige tekstherkenningservaring.
-### [OCR uitvoeren op afbeelding vanaf URL in Aspose.OCR voor Java](./perform-ocr-image-from-url/)
-Ontgrendel naadloze afbeeldingstekstextractie in Java met Aspose.OCR. Hoge nauwkeurigheid OCR met eenvoudige integratie.
-### [OCR uitvoeren op een specifieke pagina in Aspose.OCR](./perform-ocr-on-page/)
-Ontgrendel de kracht van Aspose.OCR voor Java met onze stapsgewijze handleiding voor het uitvoeren van OCR op specifieke pagina's. Extraheer moeiteloos tekst uit afbeeldingen en verbeter uw Java-projecten.
-### [Rechthoeken voorbereiden voor OCR in Aspose.OCR](./prepare-rectangles-for-ocr/)
-Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie. Verbeter uw Java-applicaties met efficiënte OCR-mogelijkheden.
-### [Lijnen herkennen in Aspose.OCR voor Java](./recognize-lines/)
-Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
-### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
-Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+Voer OCR uit met GPU-versnelling in Java voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+
+## [OCR uitvoeren op afbeelding met Java – Tekst herkennen uit PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+
+Voer OCR uit op PNG-afbeeldingen met Java en extraheer nauwkeurig tekst. Volg onze stap‑voor‑stap handleiding voor snelle resultaten.
+
+## [Afbeelding voorbewerken voor OCR – Verhoog de nauwkeurigheid van tekstextractie in Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+
+Verbeter de OCR-prestaties door afbeeldingen voor te bewerken en zo de nauwkeurigheid van tekstextractie in Java te verhogen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
