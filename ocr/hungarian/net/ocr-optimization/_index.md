@@ -74,6 +74,9 @@ Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a
 ### [Többoldalas eredmény mentése dokumentumként OCR kép felismerésben](./save-multipage-result-as-document/)
 Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többoldalas OCR eredményeket dokumentumokként ezzel az átfogó lépésről‑lépésre útmutatóval.
 
+### [Képkontraszt növelése C# OCR‑ben – Teljes útmutató](./boost-image-contrast-in-c-ocr-complete-guide/)
+Fedezze fel, hogyan növelheti a kép kontrasztját C#‑ban az Aspose.OCR használatával a jobb felismerési pontosság érdekében.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

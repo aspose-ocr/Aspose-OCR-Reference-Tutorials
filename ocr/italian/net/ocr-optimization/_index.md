@@ -69,6 +69,8 @@ Esplora Aspose.OCR per .NET. Migliora la precisione dell'OCR con i filtri di pre
 Migliora la precisione dell'OCR con Aspose.OCR per .NET. Correggi le ortografie, personalizza i dizionari e ottieni un riconoscimento del testo privo di errori senza sforzo.
 ### [Salva Risultato Multipagina come Documento in Riconoscimento Immagine OCR](./save-multipage-result-as-document/)
 Sblocca il potenziale di Aspose.OCR per .NET. Salva senza sforzo i risultati OCR multipagina come documenti con questa guida completa passo‑passo.
+### [Aumenta il Contrasto dell'Immagine in OCR C# – Guida Completa](./boost-image-contrast-in-c-ocr-complete-guide/)
+Scopri come migliorare il contrasto delle immagini per ottimizzare il riconoscimento OCR con Aspose.OCR in C#.
 
 ## Domande Frequenti
 

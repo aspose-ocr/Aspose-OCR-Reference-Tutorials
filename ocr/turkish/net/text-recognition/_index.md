@@ -21,7 +21,7 @@ url: /tr/net/text-recognition/
 
 Bu eğitimde, görüntü tanıma yeteneklerinizi geliştirmek için Aspose.OCR for .NET'in gücünden yararlanmanız konusunda size rehberlik edeceğiz. Uygulamalarınızda doğruluk ve verimlilik sağlayarak, tanınan karakterlere ilişkin seçimleri nasıl alacağınızı adım adım öğrenin. Aspose.OCR'ın üstün özellikleriyle OCR deneyiminizi geliştirin.
 
-## OCR Görüntü Tanıma'da Tanıma Sonucunu Alın
+## OCR Görüntü Tanıma'da Tanıma Sonucunu Al
 
 Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanıma yönteminizi dönüştürün. Kapsamlı kılavuzumuzla tanıma sonuçları elde etmenin inceliklerini ortaya çıkarın. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu eğitim OCR'yi projelerinize sorunsuz bir şekilde entegre etmenize yardımcı olacaktır.
 
@@ -55,6 +55,13 @@ Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile ge
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın. Sorunsuz bir entegrasyon deneyimi için hemen indirin.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C#'ta OCR Kullanımı – Görsellerden Düz Metin Çıkarma](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+C# ile Aspose.OCR kullanarak görüntülerden düz metin çıkarmayı adım adım öğrenin ve projelerinizde hızlı metin tanıma sağlayın.
+### [C#'ta Görüntü Metni Tanıma – JSON Dışa Aktarma ile Tam Rehber](./recognize-image-text-in-c-full-guide-with-json-export/)
+C# ve Aspose.OCR ile görüntülerden metni tanıyın, sonuçları JSON formatında dışa aktarın. Adım adım tam rehber.
+### [Görselde OCR İşlemi Yap ve EPUB'a Dönüştür – Tam C# Rehberi](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+C# ile görüntülerden OCR yapın ve elde edilen metni EPUB formatına dönüştürerek dijital yayın oluşturun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
