@@ -114,6 +114,14 @@ Aspose.OCR for Java로 OCR 정확도를 향상시키세요. 단계별로 기울�
 
 Aspose.OCR for Java의 강력함을 활용하십시오. 이 단계별 가이드에서 이미지에서 텍스트를 원활히 추출하는 방법을 배우세요. 효율적인 텍스트 인식을 위해 지금 다운로드하십시오.
 
+### [Java에서 이미지에서 텍스트 읽기 – 전체 Aspose OCR 가이드](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+
+전체 가이드를 통해 Java에서 이미지 텍스트를 읽는 모든 단계를 마스터하고 OCR 정확도를 최적화하세요.
+
+### [Java에서 OCR 텍스트 가져오기 – 전체 Aspose OCR 예제](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+
+전체 예제로 Java에서 Aspose OCR을 사용해 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
 ---
 
 **마지막 업데이트:** 2025-12-08  
