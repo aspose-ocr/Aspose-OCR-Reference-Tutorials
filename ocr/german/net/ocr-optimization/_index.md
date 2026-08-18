@@ -59,6 +59,7 @@ Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit Aspose.OCR
 Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR‑Optimierung auf dem Laufenden bleiben. Tauchen Sie ein in die Welt von Präzision und Effizienz mit Aspose.OCR für .NET Tutorials.
 
 ## OCR‑Optimierungs‑Tutorials
+
 ### [OCR auf Bild von URL ausführen in OCR-Bilderkennung](./perform-ocr-on-image-from-url/)
 Entdecken Sie nahtlose OCR‑Integration mit Aspose.OCR für .NET. Erkennen Sie Text aus Bildern mit Präzision.
 ### [Rechtecke vorbereiten in OCR-Bilderkennung](./prepare-rectangles/)
@@ -69,7 +70,17 @@ Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorve
 Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
 ### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
+### [Wie man OCR in C# verwendet – Text aus Bildern mit GPU-Beschleunigung](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Nutzen Sie GPU-Beschleunigung, um OCR in C# effizient aus Bildern zu extrahieren und die Verarbeitungsgeschwindigkeit zu erhöhen.
+### [Durchsuchbare PDF mit Batch-OCR erstellen – C#-Leitfaden](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# mehrere PDFs stapelweise verarbeiten und durchsuchbare Dokumente erzeugen.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Text aus Bilddateien extrahieren, die mehrere Sprachen enthalten?**  

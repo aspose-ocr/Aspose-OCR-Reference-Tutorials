@@ -54,6 +54,7 @@ Aspose.OCR for .NET में **ocr language selection** को मास्ट�
 Aspose.OCR for .NET की विशाल क्षमताओं का एक्सप्लोरेशन करें और लिस्ट के साथ OCR इमेज रिकग्निशन को आसानी से करें। यह ट्यूटोरियल न केवल टेक्स्ट एक्सट्रैक्शन को बेहतर बनाता है बल्कि अलग-अलग डेटा सेट्स को ऑपरेशन में प्रोडक्टिविटी भी बढ़ाता है। लिस्ट ऑपरेशन्स के साथ OCR की क्षमता को खोजें।
 
 ## OCR Configuration Tutorials
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 OCR की क्षमताओं को .NET एप्लिकेशन्स में Aspose.OCR के साथ चलाएं। आर्काइव इमेज से टेक्स्ट निकालने के स्टेप-दर-स्टेप सीखें।
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -73,7 +74,14 @@ Aspose.OCR for .NET की क्षमताओं को बढ़ाएं।
 ### टिप्स और नुकसान
 - **प्रो टिप:** इमेज बढ़ाने के लिए हमेशा इमेज को प्री-प्रोसेस करें (जैसे, डेस्क्यू, बाइनराइज़)।
 - **चेतावनी:** बड़े आर्काइव्स काफी मेमोरी खपत कर सकते हैं; बैच-वाइज प्रोसेसिंग पर विचार करें।
+### [C# में रूसी टेक्स्ट निकालें और रिसोर्स पाथ सेट करें – Aspose OCR गाइड](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके C# में रूसी भाषा के टेक्स्ट को निकालें और रिसोर्स पाथ सेट करने का तरीका सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या मैं कमर्शियल .NET एप्लीकेशन में Aspose.OCR इस्तेमाल कर सकता हूँ?**

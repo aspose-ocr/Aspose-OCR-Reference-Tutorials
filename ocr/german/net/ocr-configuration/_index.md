@@ -54,6 +54,7 @@ Bringen Sie Ihre OCR-Fähigkeiten auf ein neues Niveau, indem Sie die **ocr lang
 Entdecken Sie das enorme Potenzial von Aspose.OCR für .NET, indem Sie mühelos OCR-Bilderkennung mit Listen durchführen. Dieses Tutorial verbessert nicht nur die Textextraktion, sondern steigert auch die Produktivität beim Umgang mit vielfältigen Datensätzen. Enthüllen Sie die Effizienz von OCR mit Listenoperationen.
 
 ## OCR-Konfigurations‑Tutorials
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Entfesseln Sie das Potenzial von OCR in .NET-Anwendungen mit Aspose.OCR. Lernen Sie, Text aus Archivbildern Schritt für Schritt zu extrahieren.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -71,7 +72,14 @@ Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-
 ### Tipps & Fallstricke
 - **Profi-Tipp:** Bilder immer vorverarbeiten (z. B. entzerren, binarisieren), um die Genauigkeit zu verbessern.  
 - **Warnung:** Große Archive können viel Speicher verbrauchen; erwägen Sie die Verarbeitung in Batches.  
+### [Russischen Text extrahieren & Ressourcenpfad in C# festlegen – Aspose OCR‑Leitfaden](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Nutzen Sie Aspose.OCR, um russischen Text in C# zu extrahieren und den Ressourcenpfad festzulegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.OCR in einer kommerziellen .NET-Anwendung verwenden?**  

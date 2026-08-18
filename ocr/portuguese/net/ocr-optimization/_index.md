@@ -64,6 +64,7 @@ Salve facilmente resultados de OCR multipágina como documentos com Aspose.OCR p
 Usando a Listagem de Tutoriais Aspose.OCR para .NET, você pode acessar recursos adicionais e manter-se atualizado sobre os últimos avanços em otimização de OCR. Mergulhe no mundo da precisão e eficiência com os tutoriais Aspose.OCR para .NET.
 
 ## Tutoriais de Otimização de OCR
+
 ### [Executar OCR em Imagem a partir de URL em Reconhecimento de Imagem OCR](./perform-ocr-on-image-from-url/)
 Explore integração de OCR sem atritos com Aspose.OCR para .NET. Reconheça texto de imagens com precisão.
 ### [Preparar Retângulos em Reconhecimento de Imagem OCR](./prepare-rectangles/)
@@ -74,7 +75,16 @@ Explore Aspose.OCR para .NET. Aumente a precisão do OCR com filtros de pré‑p
 Melhore a precisão do OCR com Aspose.OCR para .NET. Corrija ortografia, personalize dicionários e alcance reconhecimento de texto livre de erros sem esforço.
 ### [Salvar Resultado Multipágina como Documento em Reconhecimento de Imagem OCR](./save-multipage-result-as-document/)
 Desbloqueie o potencial do Aspose.OCR para .NET. Salve facilmente resultados de OCR multipágina como documentos com este guia completo passo a passo.
+### [Como usar OCR em C# – Extrair texto de imagens com aceleração GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Aprenda a usar OCR em C# com aceleração GPU para extrair texto de imagens rapidamente e melhorar o desempenho.
+### [Criar PDF pesquisável com OCR em lote – Guia C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Aprenda a gerar PDFs pesquisáveis usando OCR em lote no Aspose.OCR para .NET com C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Perguntas Frequentes
 
 **Q: Posso extrair texto de arquivos de imagem que contenham vários idiomas?**  

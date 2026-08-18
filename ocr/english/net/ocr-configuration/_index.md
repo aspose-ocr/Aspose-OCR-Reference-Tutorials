@@ -52,6 +52,7 @@ Take your OCR capabilities to new heights by mastering **ocr language selection*
 Explore the vast potential of Aspose.OCR for .NET as you effortlessly perform OCR image recognition with lists. This tutorial not only enhances text extraction but also boosts productivity in handling diverse data sets. Uncover the efficiency of OCR with list operations.
 
 ## OCR Configuration Tutorials
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extract text from archive images step-by-step.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -60,6 +61,8 @@ Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text 
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [extract russian text & set resource path in C# – Aspose OCR guide](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Extract Russian text and set resource path in C# using Aspose OCR for .NET applications.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  
@@ -69,7 +72,23 @@ Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image reco
 ### Tips & Pitfalls
 - **Pro tip:** Always preprocess images (e.g., deskew, binarize) to improve accuracy.  
 - **Warning:** Large archives may consume significant memory; consider processing in batches.  
+### [OCROperation with Archive in OCR Image Recognition]({{< relref "ocr-operation-with-archive/_index.md" >}})
+Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extract text from archive images step-by-step.
+### [OCROperation with Folder in OCR Image Recognition]({{< relref "ocr-operation-with-folder/_index.md" >}})
+Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text effortlessly from images.
+### [OCROperation with Language Selection in OCR Image Recognition]({{< relref "ocr-operation-with-language-selection/_index.md" >}})
+Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
+### [OCROperation with List in OCR Image Recognition]({{< relref "ocr-operation-with-list/_index.md" >}})
+Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
+### [extract russian text & set resource path in C# – Aspose OCR guide]({{< relref "extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/_index.md" >}})
+Extract Russian text and set resource path in C# using Aspose OCR for .NET applications.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Frequently Asked Questions
 
 **Q: Can I use Aspose.OCR in a commercial .NET application?**  

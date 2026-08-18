@@ -58,6 +58,7 @@ Aspose.OCR for .NET를 사용하여 다중 페이지 OCR 결과를 문서로 손
 Aspose.OCR For .NET 튜토리얼 목록을 활용하면 추가 리소스에 접근하고 OCR 최적화의 최신 발전 상황을 지속적으로 확인할 수 있습니다. Aspose.OCR for .NET 튜토리얼과 함께 정밀함과 효율성의 세계에 뛰어들어 보세요.
 
 ## OCR 최적화 튜토리얼
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 텍스트를 정밀하게 인식합니다.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -68,7 +69,16 @@ Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높
 Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [C#에서 OCR 사용 방법 – GPU 가속으로 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 추출하는 방법을 안내합니다.
+### [배치 OCR을 사용하여 검색 가능한 PDF 만들기 – C# 가이드](./create-searchable-pdf-with-batch-ocr-c-guide/)
+.NET용 Aspose.OCR을 활용해 배치 OCR로 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 자주 묻는 질문
 
 **Q: 여러 언어가 포함된 이미지 파일에서 텍스트를 추출할 수 있나요?**  

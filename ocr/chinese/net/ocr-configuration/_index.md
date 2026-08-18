@@ -52,6 +52,7 @@ weight: 24
 探索 Aspose.OCR for .NET 的广阔潜力，轻松实现基于列表的 OCR 图像识别。本教程不仅提升文本提取效率，还能在处理多样化数据集时提高生产力，揭示列表操作的高效 OCR 方案。
 
 ## OCR 配置教程
+
 ### [使用归档进行 OCR 图像识别的 OCROperation](./ocr-operation-with-archive/)
 解锁 Aspose.OCR 在 .NET 应用中的 OCR 潜能，逐步学习如何从归档图像中提取文本。  
 ### [使用文件夹进行 OCR 图像识别的 OCROperation](./ocr-operation-with-folder/)
@@ -69,7 +70,15 @@ weight: 24
 ### 提示与陷阱
 - **专业提示：** 始终对图像进行预处理（如去倾斜、二值化），以提升准确率。  
 - **警告：** 大型归档可能占用大量内存；建议分批处理。
+### [在 C# 中提取俄文文本并设置资源路径 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+使用 Aspose.OCR 在 C# 中提取俄语文本并配置资源路径，帮助您快速实现多语言 OCR。
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常见问题
 
 **问：我可以在商业 .NET 应用中使用 Aspose.OCR 吗？**  

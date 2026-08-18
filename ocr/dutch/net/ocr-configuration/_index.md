@@ -53,6 +53,7 @@ Til je OCR‑mogelijkheden naar een hoger niveau door **ocr taalselectie** onder
 Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR‑beeldherkenning ontdekt met lijsten. Deze tutorial verbetert niet alleen tekstextractie, maar verhoogt ook de productiviteit bij het verwerken van diverse datasets. Ontdek de efficiëntie van OCR met lijst‑operaties.
 
 ## OCR-configuratie-tutorials
+
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
@@ -70,7 +71,16 @@ Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldhe
 ### Tips en valkuilen
 - **Pro tip:** Pre-process altijd afbeeldingen (bijv. deskew, binariseren) om de nauwkeurigheid te verbeteren.
 - **Waarschuwing:** Grote archieven kunnen veel geheugenverbruiken; overweeg verwerking in batches.
+### [OCR-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-language-selection/)
+Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
+### [Russische tekst extraheren & bronpad instellen in C# – Aspose OCR-gids](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Leer hoe u Russische tekst uit afbeeldingen haalt en het resourcepad configureert in C# met Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Veelgestelde vragen
 
 **Q: Kan ik Aspose.OCR gebruiken in een conventionele .NET‑applicatie?**

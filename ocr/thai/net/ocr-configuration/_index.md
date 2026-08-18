@@ -53,15 +53,13 @@ weight: 24
 สำรวจศักยภาพอันกว้างของ Aspose.OCR for .NET ขณะทำการจดจำภาพด้วย OCR ผ่านรายการ คู่มือนี้ไม่เพียงเพิ่มประสิทธิภาพการสกัดข้อความ แต่ยังเพิ่มผลผลิตในการจัดการชุดข้อมูลที่หลากหลาย ค้นพบความคล่องตัวของ OCR ด้วยการทำงานกับรายการ
 
 ## บทเรียนการกำหนดค่า OCR
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
-
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 ปลดล็อกพลังของการจดจำภาพด้วย OCR ใน .NET ด้วย Aspose.OCR ดึงข้อความจากภาพในโฟลเดอร์ได้อย่างง่ายดาย
-
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 ปลดล็อกความสามารถ OCR ที่ทรงพลังด้วย Aspose.OCR for .NET ดึงข้อความจากภาพหลายภาษาได้อย่างต่อเนื่อง
-
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR for .NET ทำการจดจำภาพด้วย OCR ผ่านรายการได้อย่างง่ายดาย เพิ่มผลผลิตและการสกัดข้อมูลในแอปพลิเคชันของคุณ
 
@@ -73,7 +71,14 @@ weight: 24
 ### เคล็ดลับและข้อควรระวัง
 - **เคล็ดลับ:** ควรทำการประมวลผลล่วงหน้าภาพเสมอ (เช่น แก้การเอียง, ทำไบนาไรซ์) เพื่อเพิ่มความแม่นยำ.  
 - **คำเตือน:** อาร์ไคฟ์ขนาดใหญ่อาจใช้หน่วยความจำมาก; ควรพิจารณาประมวลผลเป็นชุด.  
+### [สกัดข้อความรัสเซียและตั้งค่าเส้นทางทรัพยากรใน C# – คู่มือ Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+สกัดข้อความรัสเซียจากรูปภาพและกำหนดเส้นทางทรัพยากรใน C# ด้วย Aspose OCR อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้ Aspose.OCR ในแอปพลิเคชัน .NET เชิงพาณิชย์ได้หรือไม่?**  

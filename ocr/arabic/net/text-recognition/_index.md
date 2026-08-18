@@ -53,8 +53,23 @@ url: /ar/net/text-recognition/
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+### [كيفية التعرف الضوئي على PDF في C# – دليل خطوة بخطوة](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+تعلم خطوة بخطوة كيفية استخراج النص من ملفات PDF باستخدام Aspose.OCR في C# وتكاملها بسهولة في تطبيقاتك.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [دورة OCR بلغة C# – التعرف على النص من JPG في دقائق](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+تعلم كيفية استخراج النص من ملفات JPG بسرعة باستخدام Aspose.OCR في دقائق قليلة.
+### [التعرف على النص من JPG في C# – دليل كامل للتعرف الضوئي على الحروف](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+دليل شامل لاستخدام Aspose.OCR في C# لاستخراج النص من صور JPG بدقة وسهولة.
+### [كيفية استخدام Aspose OCR في C# – التعرف على النص الكوري من الصور](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+تعلم استخراج النص الكوري من الصور باستخدام Aspose OCR في C# خطوة بخطوة لدمج التعرف على الأحرف الكورية في تطبيقاتك.
+### [إنشاء PDF قابل للبحث من TIFF – دليل كامل بلغة C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+تعلم كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose.OCR في دليل شامل بلغة C#.
+### [تحويل الصورة إلى DOCX في C# – دليل كامل لـ Aspose OCR](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
+تعلم كيفية تحويل الصور إلى مستندات DOCX باستخدام Aspose OCR في C# خطوة بخطوة.
+### [تحويل الصور إلى نص – دليل كامل لمعالجة OCR دفعي لمطوري C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+تعلم كيفية تحويل مجموعة من الصور إلى نص باستخدام Aspose.OCR في C# خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

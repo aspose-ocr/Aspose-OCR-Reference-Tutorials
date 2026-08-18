@@ -54,6 +54,7 @@ Bawa kemampuan OCR Anda ke tingkat baru dengan menguasai **ocr language selectio
 Jelajahi potensi besar Aspose.OCR untuk .NET saat Anda dengan mudah melakukan pengenalan gambar OCR menggunakan daftar. Tutorial ini tidak hanya meningkatkan ekstraksi teks tetapi juga meningkatkan produktivitas dalam menangani kumpulan data yang beragam. Temukan efisiensi OCR dengan operasi daftar.
 
 ## Tutorial Konfigurasi OCR
+
 ### [OCROperation dengan Arsip dalam Pengenalan Gambar OCR](./ocr-operation-with-archive/)
 Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari gambar arsip langkah demi langkah.
 ### [OCROperation dengan Folder dalam Pengenalan Gambar OCR](./ocr-operation-with-folder/)
@@ -71,7 +72,14 @@ Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan daftar 
 ### Tips & Jebakan
 - **Tips pro:** Selalu pra‑proses gambar (mis., luruskan, binarisasi) untuk meningkatkan akurasi.  
 - **Peringatan:** Arsip besar dapat mengonsumsi memori yang signifikan; pertimbangkan pemrosesan secara batch.  
+### [Ekstrak teks Rusia & atur jalur sumber daya di C# – Panduan Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Pelajari cara mengekstrak teks berbahasa Rusia dan mengatur jalur sumber daya dalam aplikasi C# menggunakan Aspose OCR.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Dapatkah saya menggunakan Aspose.OCR dalam aplikasi .NET komersial?**  

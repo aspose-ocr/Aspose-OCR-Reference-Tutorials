@@ -64,6 +64,7 @@ Spara enkelt flersidiga OCR‑resultat som dokument med Aspose.OCR för .NET. V�
 Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgång till ytterligare resurser och hålla dig uppdaterad om de senaste framstegen inom OCR‑optimering. Dyka ner i en värld av precision och effektivitet med Aspose.OCR för .NET‑handledningar.
 
 ## OCR‑optimeringshandledningar
+
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text från bilder med precision.
 ### [Förbered rektanglar i OCR Image Recognition](./prepare-rectangles/)
@@ -74,7 +75,16 @@ Utforska Aspose.OCR för .NET. Öka OCR‑noggrannheten med förbehandlingsfilte
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
+### [Hur man använder OCR i C# – Extrahera text från bilder med GPU-acceleration](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Utnyttja GPU-acceleration för snabb OCR i C#. Extrahera text från bilder med hög prestanda och precision.
+### [Skapa sökbar PDF med batch-OCR – C#-guide](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Lär dig hur du skapar sökbara PDF-filer med batch-OCR i C# för effektiv dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Vanliga frågor
 
 **Q: Kan jag extrahera text från bildfiler som innehåller flera språk?**  

@@ -64,6 +64,7 @@ Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan Aspose.OCR u
 Dengan Daftar Tutorial Aspose.OCR untuk .NET, Anda dapat mengakses sumber daya tambahan dan tetap terbarui dengan kemajuan terbaru dalam optimisasi OCR. Menyelami dunia presisi dan efisiensi dengan tutorial Aspose.OCR untuk .NET.
 
 ## Tutorial Optimisasi OCR
+
 ### [Lakukan OCR pada Gambar dari URL dalam OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Jelajahi integrasi OCR yang mulus dengan Aspose.OCR untuk .NET. Mengenali teks dari gambar dengan presisi.
 ### [Siapkan Persegi Panjang dalam OCR Image Recognition](./prepare-rectangles/)
@@ -74,7 +75,17 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter preprocessi
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan capai pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multipage sebagai Dokumen dalam OCR Image Recognition](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan panduan langkah demi langkah yang komprehensif ini.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dengan Akselerasi GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Pelajari cara memanfaatkan OCR di C# dengan akselerasi GPU untuk mengekstrak teks dari gambar secara cepat dan akurat.
+### [Membuat PDF yang dapat dicari dengan OCR batch – Panduan C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan OCR batch di C# dengan panduan langkah demi langkah.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya dapat mengekstrak teks dari file gambar yang berisi banyak bahasa?**  
