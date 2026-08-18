@@ -1,5 +1,5 @@
 ---
-title: How to Use OCR - Advanced Techniques with Aspose.OCR for Java
+title: Integrate OCR with Aspose.OCR for Java – Advanced Techniques
 linktitle: Advanced OCR Techniques
 second_title: Aspose.OCR Java API
 description: Learn how to use OCR with Aspose.OCR for Java – extract text from URL images with high accuracy and advanced OCR techniques.
@@ -28,6 +28,15 @@ If you’re looking to **how to use OCR** in your Java applications, you’ve co
 ## How to Use OCR in Java Projects
 
 Aspose.OCR for Java simplifies OCR integration with a fluent API. You can load images from files, streams, `BufferedImage`, or remote URLs, then call `OcrEngine` to extract text. The library also lets you specify language, page ranges, and custom character sets to boost recognition results.
+
+```java
+// Sample: Extract text from an image URL
+OcrEngine engine = new OcrEngine();
+engine.setImageFromUrl("https://example.com/image.png");
+engine.setLanguage(Language.English);
+String result = engine.recognize();
+System.out.println(result);
+```
 
 ### What makes Aspose.OCR a high‑accuracy OCR solution?
 - **Advanced image preprocessing** (auto‑deskew, noise reduction)
@@ -69,7 +78,7 @@ Effortlessly extract text from images by specifying allowed characters with Aspo
 
 With Aspose.OCR for Java, mastering advanced OCR techniques has never been easier. Dive into these tutorials, and unlock the full potential of text recognition in your Java projects. Elevate your applications with seamless integration, high accuracy, and versatile text extraction capabilities. Download now and take the first step towards OCR excellence with Aspose.OCR for Java!
 
-## Advanced OCR Techniques Tutorials
+## Advanced OCR techniques tutorials
 ### [Performing OCR on BufferedImage in Aspose.OCR for Java](./perform-ocr-buffered-image/)
 Perform OCR on BufferedImage effortlessly with Aspose.OCR for Java. Extract text from images seamlessly. Download now for a versatile text recognition experience.
 
@@ -94,10 +103,10 @@ Accelerate OCR processing by enabling GPU support, achieving faster text extract
 ### [How to Run OCR on Large Documents – Complete Java Guide](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Learn how to efficiently process large documents with Aspose.OCR for Java, handling multi‑page files and optimizing performance.
 
-### [Preprocess Image OCR in Java – Boost Accuracy & Extract Text](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+### [Preprocess image OCR in java – boost accuracy & extract text](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Improve OCR results by preprocessing images in Java with Aspose.OCR, enhancing accuracy and extracting text efficiently.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR for OCR on PDF documents?**  
 A: Yes, Aspose.OCR can process PDF pages directly or after converting them to images.

@@ -13,12 +13,12 @@ keywords:
 language: en
 og_description: Step‑by‑step guide on how to run OCR with Aspose, get OCR text, extract
   text, and recognize scanned text in large documents.
-og_title: How to Run OCR on Large Documents – Java Tutorial
+og_title: How to Run Aspose OCR on Large Documents – Complete Java Guide
 tags:
 - Java
 - Aspose OCR
 - Document Processing
-title: How to Run OCR on Large Documents – Complete Java Guide
+title: How to Run Aspose OCR on Large Documents – Complete Java Guide
 url: /java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete-java-guide/
 ---
 
@@ -26,7 +26,7 @@ url: /java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete-ja
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Run OCR on Large Documents – Complete Java Guide
+# How to Run Aspose OCR on Large Documents – Complete Java Guide
 
 Ever wondered **how to run OCR** on a massive TIFF file without your application grinding to a halt? You're not alone. Many developers hit a wall when they try to **get OCR text** from multi‑page scans, especially when performance matters. In this tutorial we’ll walk through a hands‑on example that shows exactly how to extract text, recognize scanned text, and keep things speedy for OCR large documents.
 
@@ -43,7 +43,7 @@ Before we dive in, make sure you have:
 
 No other external tools are required; Aspose OCR handles everything in‑process.
 
-## Step 1: Add Aspose OCR Dependency
+## Step 1: add aspose OCR dependency
 
 First, pull the library into your project. If you’re using Maven, add the following to your `pom.xml`:
 
@@ -57,7 +57,7 @@ First, pull the library into your project. If you’re using Maven, add the foll
 
 > **Pro tip:** Always verify the latest version on the official Aspose Maven repository to benefit from bug fixes and performance improvements.
 
-## Step 2: Initialize the OCR Engine
+## Step 2: initialize the OCR engine
 
 Creating an `OcrEngine` instance is the foundation. Think of it as the brain that will interpret your scanned image.
 
@@ -72,7 +72,7 @@ public class ParallelExample {
 
 Why this matters: The engine holds all configurable options, such as language packs and threading behavior. Setting it up correctly ensures you can **how to extract text** efficiently later on.
 
-## Step 3: Load Your Image
+## Step 3: load your image
 
 Aspose OCR can read images directly from the file system or streams. For large TIFF files, streaming avoids loading the entire file into memory at once.
 
@@ -86,7 +86,7 @@ Aspose OCR can read images directly from the file system or streams. For large T
 
 > **Note:** Replace `YOUR_DIRECTORY` with the actual folder where the TIFF resides. If you prefer a `FileInputStream`, you can pass that to `ImageStream.fromStream()`.
 
-## Step 4: Enable Multi‑Core Processing
+## Step 4: enable multi‑Core processing
 
 Processing a high‑resolution TIFF can be CPU‑intensive. Aspose OCR lets you toggle multi‑core mode, letting the engine decide the optimal thread count. This is the key to **recognize scanned text** quickly in OCR large documents.
 
@@ -100,7 +100,7 @@ Processing a high‑resolution TIFF can be CPU‑intensive. Aspose OCR lets you 
 
 Why enable this? When `setUseMultiCore(true)` is active, the engine spreads the workload across available CPU cores, dramatically reducing the time it takes to **get OCR text** from each page.
 
-## Step 5: Run the Recognition
+## Step 5: run the recognition
 
 Now the heavy lifting begins. The `recognize()` call processes the image and returns an `OcrResult` object that contains the extracted text, confidence scores, and more.
 
@@ -111,7 +111,7 @@ Now the heavy lifting begins. The `recognize()` call processes the image and ret
 
 If you need to handle errors (e.g., corrupted pages), wrap this in a try‑catch block and inspect `ocrResult.getErrorCode()`.
 
-## Step 6: Output the Recognized Text
+## Step 6: output the recognized text
 
 Finally, dump the OCR output to the console. In a real application you might write it to a file, a database, or feed it into a search index.
 
@@ -128,8 +128,8 @@ Running the program should print something like:
 
 ```
 === OCR Output Start ===
-Page 1: Lorem ipsum dolor sit amet, consectetur...
-Page 2: Sed do eiusmod tempor incididunt ut labore...
+Page 1: Sample extracted text from the first page of the document.
+Page 2: Additional text recognized on the second page.
 ...
 === OCR Output End ===
 ```
@@ -140,12 +140,12 @@ That’s the entire flow for **how to run OCR** on a large scanned document usin
 
 *Image alt text includes the primary keyword, helping both search engines and AI assistants understand the visual context.*
 
-## Common Variations & Edge Cases
+## Common variations & edge cases
 
-### 1. Processing PDFs Instead of TIFFs
+### 1. processing pDFs instead of tIFFs
 If your source is a PDF, convert it to images first (Aspose PDF can do this) or use `ocrEngine.setPdfDocument(...)`. The rest of the pipeline stays the same.
 
-### 2. Limiting Memory Usage
+### 2. limiting memory usage
 For extremely large multi‑page files, consider processing one page at a time:
 
 ```java
@@ -158,14 +158,14 @@ for (int i = 0; i < ocrEngine.getImage().getPageCount(); i++) {
 
 This approach helps you **extract text** without exhausting RAM.
 
-### 3. Changing Language Packs
+### 3. changing language packs
 By default Aspose OCR uses English. To **recognize scanned text** in other languages, load the appropriate language data:
 
 ```java
 ocrEngine.getEngineOptions().setLanguage(Language.Spanish);
 ```
 
-### 4. Handling Low‑Quality Scans
+### 4. handling low‑Quality scans
 If the image is noisy, enable pre‑processing:
 
 ```java

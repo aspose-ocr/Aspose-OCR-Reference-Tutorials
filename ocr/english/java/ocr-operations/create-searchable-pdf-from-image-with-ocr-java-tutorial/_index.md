@@ -19,7 +19,7 @@ tags:
 - Java
 - PDF
 - Aspose
-title: Create Searchable PDF from Image with OCR – Java Tutorial
+title: Create Searchable PDF from Image with Aspose OCR – Java Tutorial
 url: /java/ocr-operations/create-searchable-pdf-from-image-with-ocr-java-tutorial/
 ---
 
@@ -27,13 +27,13 @@ url: /java/ocr-operations/create-searchable-pdf-from-image-with-ocr-java-tutoria
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF from Image with OCR – Java Tutorial
+# Create Searchable PDF from Image with Aspose OCR – Java Tutorial
 
 Ever needed to **create searchable PDF** from a scanned picture but weren’t sure where to start? You’re not alone—many developers hit that wall when they first try to turn a JPEG into a PDF that you can actually search through.  
 
 In this guide we’ll walk through a complete, runnable example that shows you how to **convert image to PDF**, **recognize text from image**, and finally **generate PDF from JPG** using Aspose OCR for Java. No vague references, just code you can copy‑paste and run today.
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive, make sure you have the following on your machine:
 
@@ -44,7 +44,7 @@ Before we dive, make sure you have the following on your machine:
 
 That’s it. No heavyweight frameworks, no extra native dependencies. Let’s get cracking.
 
-## Step 1 – Create Searchable PDF: Initialize the OCR Engine
+## Step 1 – create searchable PDF: initialize the OCR engine
 
 The first thing we do is spin up an `OcrEngine` instance and point it at the source image. This object is the heart of Aspose OCR; it handles everything from loading the bitmap to exposing the recognized text.
 
@@ -60,7 +60,7 @@ public class HelloOcrTutorial {
 
 > **Why this matters:** Initializing the engine correctly ensures the library can read the image format you’re feeding it. If the path is wrong, you’ll get a `FileNotFoundException` and the whole pipeline stops.
 
-## Step 2 – Boost Performance: Enable GPU, Multi‑core CPU and Spell Correction
+## Step 2 – boost performance: enable GPU, multi‑core CPU and spell correction
 
 OCR can be CPU‑hungry, especially on large documents. Aspose gives you a handful of knobs you can flip to make the process faster and more accurate.
 
@@ -87,7 +87,7 @@ Scans are rarely perfect. A little tilt or speckle noise can throw off the recog
 
 > **Edge case:** If your source image is already clean, you can skip this step. It won’t hurt, but it adds a few milliseconds of overhead.
 
-## Step 4 – Recognize Text from Image and Generate PDF
+## Step 4 – recognize text from image and generate PDF
 
 Now the magic happens. We call `recognize()` and the engine returns an `OcrResult`. From there we can save the output in a variety of formats—PDF being the most common for searchable documents.
 
@@ -103,7 +103,7 @@ Now the magic happens. We call `recognize()` and the engine returns an `OcrResul
 
 > **What you’ll see:** `sample-output.pdf` contains the original image as a background layer, while the recognized text sits on top as an invisible overlay. Open it in Adobe Reader and try selecting text—you’ll be surprised.
 
-## Step 5 – Verify the Create Searchable PDF Output
+## Step 5 – verify the create searchable PDF output
 
 After the file is written, it’s good practice to double‑check that the PDF is truly searchable.
 

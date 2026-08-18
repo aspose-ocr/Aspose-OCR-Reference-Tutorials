@@ -18,7 +18,7 @@ tags:
 - OCR
 - Java
 - PDF
-title: Create Searchable PDF from PNG – Complete Java Guide
+title: Create Searchable PDF from PNG with Aspose OCR – Complete Java Guide
 url: /java/ocr-operations/create-searchable-pdf-from-png-complete-java-guide/
 ---
 
@@ -32,7 +32,7 @@ Ever needed to **create searchable pdf** from a scanned picture but weren't sure
 
 In this tutorial we’ll walk through the entire process: loading a PNG, running OCR, and saving the result as a searchable PDF. By the end you’ll be able to **extract text from image** files, turn them into **image to searchable pdf** assets, and even handle edge cases like multi‑page TIFFs. No external services, just pure Java code you can run today.
 
-## Create Searchable PDF – Overview
+## Create searchable PDF – overview
 
 Before we dive into code, let’s clarify what “searchable PDF” actually means. A searchable PDF contains two layers:
 
@@ -41,7 +41,7 @@ Before we dive into code, let’s clarify what “searchable PDF” actually mea
 
 Why bother with both? The image preserves the original look, while the text layer enables copy‑paste, indexing, and full‑text search. That’s the sweet spot for archiving, legal compliance, and building searchable archives.
 
-## Step 1: Set Up Aspose OCR in Your Java Project
+## Step 1: set up aspose OCR in your java project
 
 First things first—you need the Aspose OCR library. The simplest way is to add the Maven dependency:
 
@@ -58,7 +58,7 @@ If you’re not using Maven, just download the JAR from the Aspose website and a
 ### Why this matters
 Aspose OCR handles a wide range of image formats and languages out‑of‑the‑box, so you don’t have to write your own pixel‑processing code. It also gives you the `OcrOutputFormat.PDF` enum we’ll use later to create the searchable PDF.
 
-## Step 2: Load the Image You Want to Process
+## Step 2: load the image you want to process
 
 Next, we need to tell the OCR engine which file to read. The API accepts an `ImageStream`, which can be created from a file path, a `java.io.InputStream`, or even a byte array.
 
@@ -80,7 +80,7 @@ Notice we use `ImageStream.fromFile`. If you ever need to **convert image to pdf
 ### Edge case alert
 If your image is larger than 10 MB, consider scaling it down first. Large images increase OCR time dramatically and may cause out‑of‑memory errors on modest servers.
 
-## Step 3: Run OCR and Capture the Result
+## Step 3: run OCR and capture the result
 
 Now the magic happens. Calling `recognize()` runs the OCR algorithm and returns an `OcrResult` object that holds both the recognized text and layout information.
 
@@ -129,7 +129,7 @@ After the program runs, check the `output.pdf` file:
 
 If the search fails, double‑check that the image isn’t too low‑resolution or that the correct language was set. Often, a simple DPI bump fixes the issue.
 
-## Common Questions & Pro Tips
+## Common questions & pro tips
 
 - **Do I need a license?**  
   Aspose OCR works in trial mode with a watermark. For production, purchase a license and set it via `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
@@ -143,7 +143,7 @@ If the search fails, double‑check that the image isn’t too low‑resolution 
 - **Performance tip:**  
   Reuse the same `OcrEngine` instance for multiple images; it reduces initialization overhead.
 
-## Full Working Example (All Together)
+## Full working example (All together)
 
 Below is the complete, ready‑to‑run Java program. Replace the placeholder paths with your own directories, add the Maven dependency, and you’re good to go.
 

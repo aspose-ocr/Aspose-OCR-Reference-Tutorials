@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-01-07
-description: Learn how to read text from image and convert image to text in Java.
-  This step‑by‑step java ocr tutorial also shows how to recognize text from picture
-  and perform OCR on PNG.
+description: Learn how to read text from an image and convert image to text in Java using Aspose OCR. This step‑by‑step Java OCR tutorial also shows how to recognize text from a picture and perform OCR on PNG.
 draft: false
 keywords:
 - read text from image
@@ -12,15 +10,13 @@ keywords:
 - perform ocr on png
 - java ocr tutorial
 language: en
-og_description: Read text from image using Aspose OCR in Java. This guide walks you
-  through converting image to text, recognizing text from picture, and performing
-  OCR on PNG.
+og_description: Read text from image using Aspose OCR in Java. This guide walks you through converting image to text, recognizing text from picture, and performing OCR on PNG.
 og_title: Read Text from Image in Java – Full Aspose OCR Tutorial
 tags:
 - OCR
 - Java
 - Aspose
-title: Read Text from Image in Java – Complete Aspose OCR Guide
+title: How to Read Text from an Image in Java Using Aspose OCR – Complete Guide
 url: /java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/
 ---
 
@@ -28,7 +24,7 @@ url: /java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Read Text from Image in Java – Complete Aspose OCR Guide
+# How to Read Text from an Image in Java Using Aspose OCR – Complete Guide
 
 Ever needed to **read text from image** but weren’t sure where to start? You’re not alone—developers constantly ask, “How can I convert image to text without pulling my hair out?” The good news is that with Aspose OCR for Java you can do it in a few lines of code. In this **java ocr tutorial** we’ll walk through the whole process, from loading a PNG file to getting clean, spell‑checked output.  
 
@@ -85,7 +81,7 @@ public class SpellCorrectTutorial {
 > **Common question:** *What if my image isn’t PNG?*  
 > Aspose OCR supports JPEG, BMP, TIFF, and even multi‑page PDFs. Just change the file extension in `fromFile(...)` and the engine will handle the rest.
 
-## Convert Image to Text – Advanced Options
+## Convert image to text – advanced options
 
 If you need more control, the `EngineOptions` class lets you tweak a handful of parameters:
 
@@ -112,7 +108,7 @@ If the output looks garbled, double‑check:
 2. The image is clear—high contrast and legible characters improve OCR quality.  
 3. Whether spell correction is needed; sometimes turning it off yields a more faithful transcription.
 
-## Frequently Asked Variations
+## Frequently asked variations
 
 ### 1. Reading Text from a PDF Page
 
@@ -122,7 +118,7 @@ ocrEngine.setImage(ImageStream.fromFile("sample.pdf"));
 
 Aspose OCR treats each page as an image internally, so the same **read text from image** logic applies.
 
-### 2. Extracting Text from Multiple Files
+### 2. Extracting text from multiple files
 
 ```java
 String[] files = {"page1.png", "page2.png", "page3.png"};
@@ -147,7 +143,7 @@ java.nio.file.Files.write(
 
 Now you’ve not only **read text from image**, you’ve also persisted it for later analysis.
 
-## Full Working Example (All Steps Combined)
+## Full working example (All steps combined)
 
 Below is the complete program that includes optional tweaks, batch processing, and file output. It’s a ready‑to‑run snippet you can drop into any Java project.
 

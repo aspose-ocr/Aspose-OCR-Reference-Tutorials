@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: Get OCR text from images with Aspose OCR Java. This guide shows a
   java OCR example, how to extract text image, and how to load image OCR efficiently.
-og_title: Get OCR Text in Java – Complete Aspose OCR Tutorial
+og_title: Extract OCR Text in Java – Complete Aspose OCR Example
 tags:
 - OCR
 - Java
 - Aspose
 - Image Processing
-title: Get OCR Text in Java – Complete Aspose OCR Example
+title: Extract OCR Text in Java – Complete Aspose OCR Example
 url: /java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/
 ---
 
@@ -27,13 +27,13 @@ url: /java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Get OCR Text in Java – Complete Aspose OCR Example
+# Extract OCR Text in Java – Complete Aspose OCR Example
 
 Ever needed to **get OCR text** from a scanned document but weren’t sure which library to pick? You’re not the only one. In many real‑world projects—think invoice automation, receipt processing, or multilingual form digitization—extracting text from images is the first step toward automation.  
 
 In this tutorial we’ll walk through a **java OCR example** that uses the Aspose OCR for Java library. By the end you’ll know how to **load image OCR**, run the engine, and **extract text image** data with just a few lines of code. No fluff, just a practical solution you can copy‑paste into your own project.
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to set up Aspose OCR for Java (including Maven coordinates).  
 - The exact steps to **load image OCR** and specify a language.  
@@ -46,7 +46,7 @@ In this tutorial we’ll walk through a **java OCR example** that uses the Aspos
 
 ![Flowchart showing how to get OCR text from an image using Aspose OCR Java](https://example.com/ocr-flowchart.png "Get OCR text flow diagram")
 
-## Step 1 – Add Aspose OCR Dependency (Load Image OCR)
+## Step 1 – add aspose OCR dependency (Load image OCR)
 
 First, tell Maven to pull the Aspose OCR library. Open your `pom.xml` and insert the following `<dependency>` block inside `<dependencies>`:
 
@@ -61,7 +61,7 @@ First, tell Maven to pull the Aspose OCR library. Open your `pom.xml` and insert
 
 > **Pro tip**: If you’re using Gradle, the equivalent is `implementation 'com.aspose:aspose-ocr:23.9'`. Adding the dependency is the cheapest way to **load image OCR** capabilities into your project.
 
-## Step 2 – Create the OCR Engine and Load Your Image
+## Step 2 – create the OCR engine and load your image
 
 Now we’ll write a small Java class that creates an `OcrEngine` instance, points it at an image file, and tells the engine which language to recognize. The language is identified by its ISO‑639‑2 code (e.g., `"tam"` for Tamil).
 
@@ -113,7 +113,7 @@ When you run `LanguageExample`, you should see something like:
 
 If you used `setAutoDetectLanguage(true)`, the engine will attempt to guess the language for you, which is handy when dealing with unknown documents.
 
-## Step 4 – Handling Common Edge Cases (Extract Text Image Variations)
+## Step 4 – handling common edge cases (Extract text image variations)
 
 ### Dealing with Low‑Resolution Images
 
@@ -123,7 +123,7 @@ OCR accuracy drops sharply below 300 dpi. If your source image is low‑resolu
 engine.getEngineOptions().setResolution(300); // forces 300 DPI
 ```
 
-### Removing Background Noise
+### Removing background noise
 
 Sometimes scanned forms have speckles that confuse the engine. You can enable preprocessing:
 
@@ -131,7 +131,7 @@ Sometimes scanned forms have speckles that confuse the engine. You can enable pr
 engine.getEngineOptions().setPreprocessMode(EngineOptions.PreprocessMode.Auto);
 ```
 
-### Extracting Text From Specific Regions
+### Extracting text from specific regions
 
 If you only need text from a particular rectangle (e.g., a table cell), set a `Rectangle` before calling `recognize()`:
 
@@ -141,7 +141,7 @@ engine.setRegion(new Rectangle(50, 100, 400, 200));
 
 These tweaks make your **java OCR example** robust enough for production workloads.
 
-## Step 5 – Verify the Output (What Should You Expect?)
+## Step 5 – verify the output (What should you expect?)
 
 A successful run will print the plain text version of the image. For multilingual images you might see mixed scripts:
 
@@ -157,7 +157,7 @@ If the output is empty or garbled, double‑check:
 2. The language code matches the script in the image.  
 3. The image quality (contrast, DPI) is sufficient.
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is the entire file, ready to compile and run. Replace `YOUR_DIRECTORY/multilingual.png` with the actual path to your test image.
 

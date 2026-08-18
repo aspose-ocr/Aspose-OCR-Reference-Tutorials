@@ -17,7 +17,7 @@ tags:
 - OCR
 - Java
 - Image Processing
-title: Preprocess Image OCR in Java – Boost Accuracy & Extract Text
+title: Preprocess Image OCR in Java with Aspose OCR – Boost Accuracy & Extract Text
 url: /java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/
 ---
 
@@ -35,7 +35,7 @@ We'll cover everything you need: required libraries, step‑by‑step code, why 
 
 ---
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive in, make sure you have:
 
@@ -48,7 +48,7 @@ That’s it—no extra image‑processing libraries required because Aspose OCR 
 
 ---
 
-## Step 1: Set Up Aspose OCR in Your Project
+## Step 1: set up aspose OCR in your project
 
 First, add the Aspose OCR dependency to your `pom.xml`. This pulls in the core engine and the image‑processing helpers we’ll use later.
 
@@ -71,7 +71,7 @@ implementation 'com.aspose:aspose-ocr:23.12'
 
 ---
 
-## Preprocess Image OCR – Step 2: Load the Image
+## Preprocess image OCR – step 2: load the image
 
 Now that the library is in place, we can create an `OcrEngine` instance and point it at the image you want to clean.
 
@@ -93,7 +93,7 @@ Why do we instantiate the engine first? Aspose OCR ties the preprocessing pipeli
 
 ---
 
-## Improve OCR Accuracy – Step 3: Configure Preprocessing Options
+## Improve OCR accuracy – step 3: configure preprocessing options
 
 The magic happens in `ImageProcessingOptions`. Each flag targets a common flaw that hurts OCR performance.
 
@@ -140,16 +140,16 @@ The `recognize()` call internally applies the preprocessing pipeline we configur
 
 ## How to Preprocess OCR – Common Pitfalls & Edge Cases
 
-### 1. Image Size Matters
+### 1. image size matters
 Very large images (e.g., > 5 MP) can cause memory pressure. If you hit `OutOfMemoryError`, resize the image first using `processingOptions.setResizeFactor(0.5f)`.
 
-### 2. Color vs. Grayscale
+### 2. color vs. grayscale
 Aspose OCR works best with grayscale images. If your source is colored, enable `processingOptions.setConvertToGrayscale(true)` before deskew.
 
-### 3. Multi‑Page PDFs
+### 3. multi‑Page pDFs
 When dealing with PDFs, extract each page as an image and run the same pipeline in a loop. The API provides `PdfImageExtractor` for that purpose.
 
-### 4. Language Support
+### 4. language support
 If your text isn’t English, set the language explicitly:
 
 ```java
@@ -160,7 +160,7 @@ Skipping this step can lower **improve OCR accuracy** because the engine tries t
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is the complete program, ready to compile and run. Replace the placeholder path with your actual image location.
 
@@ -198,7 +198,7 @@ public class PreprocessExample {
 ```
 === Extracted Text ===
 The quick brown fox jumps over the lazy dog.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sample line of extracted text from the image.
 ...
 ```
 

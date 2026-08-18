@@ -1,5 +1,5 @@
 ---
-title: "Extract Text Images – OCR Basics with Aspose.OCR for Java"
+title: "Extract Text from Images – OCR Basics for Java"
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 description: "Learn how to extract text images using Aspose.OCR for Java. This guide shows how to set license, calculate skew, and improve OCR accuracy."
@@ -46,6 +46,12 @@ A licensed environment removes evaluation limits and maximizes performance. Foll
 
 [How to Set License for Aspose.OCR in Java](./set-license/)
 
+```java
+// Load Aspose OCR license
+License license = new License();
+license.setLicense("Aspose.OCR.lic");
+```
+
 > **Pro tip:** Place the license file in your project’s resources folder and load it once at application startup.
 
 ### How to calculate skew angle with Aspose.OCR
@@ -62,14 +68,14 @@ After correcting skew, you can extract the exact regions that contain text. This
 
 > **Use case:** Exporting text coordinates to PDF annotations or feeding them into a downstream natural‑language pipeline.
 
-## Common Pitfalls & Solutions
+## Common pitfalls & solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | Low accuracy on low‑resolution images | OCR engine struggles with pixelated characters | Upscale the image or apply a sharpening filter before OCR. |
 | License not recognized | License file path is incorrect or not loaded | Ensure `License.setLicense("Aspose.OCR.lic")` points to the classpath resource. |
 | Skew angle returned as 0° | Image is already straight or pre‑processed incorrectly | Verify that the image contains a discernible baseline; use visual inspection. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR in a commercial product?**  
 A: Yes. Once you apply a valid license, you may embed the library in any commercial application without restrictions.
@@ -92,16 +98,16 @@ Congratulations! You now have a solid foundation for **extracting text images** 
 
 Remember, the journey doesn’t stop here—Aspose.OCR offers advanced features like custom dictionaries, multi‑language detection, and cloud integration. Dive deeper, and let your applications read the world, one image at a time.
 
-## OCR Basics Tutorials
+## OCR basics tutorials
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
 Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up your license effortlessly and enhance your OCR capabilities.
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Unlock the power of Aspose.OCR for Java. Learn how to extract text from images seamlessly in this step-by-step guide. Download now for efficient text recognition.
-### [Read Text from Image in Java – Complete Aspose OCR Guide](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+### [Read text from image in java – complete aspose OCR guide](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Comprehensive guide to reading text from images using Aspose OCR for Java, covering setup, preprocessing, and advanced features.
-### [Get OCR Text in Java – Complete Aspose OCR Example](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+### [Get OCR text in java – complete aspose OCR example](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Complete example showing how to extract OCR text in Java using Aspose OCR, covering setup, processing, and best practices.
 
 ---

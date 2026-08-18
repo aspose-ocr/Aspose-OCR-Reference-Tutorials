@@ -15,12 +15,12 @@ language: en
 og_description: How to enable GPU for OCR in Java. This guide shows you how to extract
   text from image, recognize text from PNG, and convert image to text using Aspose
   OCR.
-og_title: How to Enable GPU for OCR – Fast Text Extraction
+og_title: How to Enable GPU for Aspose OCR – Fast Text Extraction
 tags:
 - OCR
 - Java
 - GPU-Acceleration
-title: How to Enable GPU for OCR – Fast Extraction of Text from Images
+title: How to Enable GPU for Aspose OCR – Fast Extraction of Text from Images
 url: /java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/
 ---
 
@@ -28,7 +28,7 @@ url: /java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extraction-of-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Enable GPU for OCR – Fast Extraction of Text from Images
+# How to Enable GPU for Aspose OCR – Fast Extraction of Text from Images
 
 Ever wondered **how to enable GPU** for OCR and get instant results from a photo? You're not alone. In many computer‑vision projects the bottleneck is the OCR step, especially when you’re dealing with high‑resolution PNG files. The good news is that Aspose OCR lets you turn on GPU acceleration with a single line of code, which can slash processing time dramatically.
 
@@ -55,7 +55,7 @@ If any of these are missing, you can still follow the code—just skip the GPU s
 
 ## Project Setup
 
-### 1️⃣ Add Aspose OCR to Your Build
+### 1️⃣ add aspose OCR to your build
 
 For Maven, add this snippet to your `pom.xml`:
 
@@ -75,7 +75,7 @@ implementation 'com.aspose:aspose-ocr:23.10'
 
 > **Pro tip:** Keep an eye on the Aspose Maven repository; they release performance patches regularly.
 
-### 2️⃣ Directory Layout
+### 2️⃣ directory layout
 
 Create a folder called `resources` at the root of your project and drop `sample-photo.png` there. The code will reference it with a relative path, so you won’t need to hard‑code any absolute locations.
 
@@ -169,7 +169,7 @@ That’s the whole program—no external services, no hidden configuration files
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 | Question | Answer |
 |----------|--------|
@@ -189,7 +189,7 @@ That’s the whole program—no external services, no hidden configuration files
 
 ---
 
-## Recap & Next Steps
+## Recap & next steps
 
 We’ve covered **how to enable GPU** for Aspose OCR, shown you how to **extract text from image** files, demonstrated **recognize text from PNG**, and walked through **read text from photo** and **convert image to text** workflows. The complete Java snippet above is ready to copy‑paste, and the performance notes should help you squeeze every last millisecond out of your hardware.
 
