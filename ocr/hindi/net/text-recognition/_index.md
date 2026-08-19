@@ -69,6 +69,8 @@ C# में Aspose OCR का उपयोग करके इमेज को 
 C# में Aspose.OCR से इमेज को टेक्स्ट में बैच रूप में बदलने के लिए पूर्ण गाइड। आसान चरणों के साथ तेज़ परिणाम प्राप्त करें।
 ### [C# में PDF को OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से तेज़ी से टेक्स्ट निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में कंसोल लॉगर बनाएं और OCR टेक्स्ट की वर्तनी जांच करें](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# में Aspose.OCR के साथ कंसोल लॉगर बनाकर OCR टेक्स्ट की वर्तनी जांच करने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

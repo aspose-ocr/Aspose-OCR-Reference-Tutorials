@@ -60,7 +60,7 @@ OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla 
 ### [c# ocr eğitimi – JPG'den Metin Tanıma Dakikalar İçinde](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 c# kullanarak JPG dosyalarından hızlıca metin tanıma işlemini adım adım öğrenin.
 ### [JPG'den Metin Tanıma C# – Tam OCR Eğitimi](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
-C# ile JPG dosyalarından metin tanımayı adım adım öğrenin ve Aspose.OCR'ın tam gücünden faydalanın.
+C# ile JPG dosylarından metin tanımayı adım adım öğrenin ve Aspose.OCR'ın tam gücünden faydalanın.
 ### [Aspose OCR'ı C#'ta Nasıl Kullanılır – Görüntülerden Korece Metin Tanıma](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 C# ile Aspose OCR kullanarak görüntülerden Korece metni hızlı ve doğru bir şekilde tanıyın.
 ### [TIFF'ten Aranabilir PDF Oluşturma – Tam C# Kılavuzu](./create-searchable-pdf-from-tiff-full-c-guide/)
@@ -69,6 +69,8 @@ C# kullanarak TIFF dosyalarından aranabilir PDF oluşturmayı adım adım öğr
 C# kullanarak görüntüleri DOCX formatına dönüştürmeyi adım adım öğrenin ve Aspose OCR'ın tam gücünden faydalanın.
 ### [Görüntüleri Metne Dönüştürme – C# Geliştiricileri için Tam Toplu OCR Kılavuzu](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 C# ile toplu olarak görüntüleri metne dönüştürmeyi adım adım öğrenin ve Aspose.OCR'ın tam gücünden yararlanın.
+### [C# ile Konsol Günlüğü Oluşturma ve OCR Metnini Yazım Denetimi](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# uygulamanızda konsol loglayıcı oluşturun ve OCR ile tanınan metnin yazım denetimini yapın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

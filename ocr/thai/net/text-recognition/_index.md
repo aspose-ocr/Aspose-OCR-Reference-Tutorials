@@ -66,6 +66,7 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 ### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 ### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือเต็ม C#](./create-searchable-pdf-from-tiff-full-c-guide/)
+### [วิธีสร้างคอนโซลล็อกเกอร์และตรวจสอบการสะกดข้อความ OCR ใน C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
