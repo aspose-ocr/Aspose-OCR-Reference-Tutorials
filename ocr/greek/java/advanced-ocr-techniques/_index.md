@@ -63,6 +63,8 @@ url: /el/java/advanced-ocr-techniques/
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
 ### [Πώς να ενεργοποιήσετε το GPU για OCR – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 ### [Πώς να εκτελέσετε OCR σε μεγάλα έγγραφα – Πλήρης οδηγός Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+### [Πώς να ενεργοποιήσετε το GPU για OCR σε Java χρησιμοποιώντας το Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Ενεργοποιήστε το GPU για ταχύτερη εξαγωγή κειμένου με το Aspose.OCR σε Java. Ακολουθήστε τον οδηγό βήμα-βήμα για βελτιωμένη απόδοση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

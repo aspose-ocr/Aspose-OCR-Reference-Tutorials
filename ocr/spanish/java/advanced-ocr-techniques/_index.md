@@ -65,6 +65,8 @@ Desbloquee la extracción de texto de imágenes sin problemas con Aspose.OCR par
 Aprenda a procesar OCR en documentos extensos con Aspose.OCR para Java, optimizando rendimiento y precisión en grandes volúmenes de texto.
 ### [Cómo habilitar la GPU para OCR – Extracción rápida de texto de imágenes](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Acelere la extracción de texto habilitando la GPU en Aspose.OCR para Java. Siga nuestra guía paso a paso para un rendimiento superior.
+### [Cómo habilitar la GPU para OCR en Java usando Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Acelere el OCR en Java activando la GPU con Aspose.OCR. Siga la guía paso a paso para obtener un rendimiento superior.
 ### [Preprocesar imagen OCR en Java – Mejore la precisión y extraiga texto](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Optimice la precisión del OCR preprocesando imágenes en Java con Aspose.OCR. Siga nuestra guía paso a paso para una extracción de texto superior.
 

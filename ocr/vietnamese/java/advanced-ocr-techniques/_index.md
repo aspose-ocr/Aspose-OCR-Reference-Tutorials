@@ -67,6 +67,8 @@ Kích hoạt GPU để tăng tốc OCR, cho phép trích xuất văn bản từ 
 Khám phá cách xử lý OCR cho tài liệu lớn trong Java, tăng tốc và duy trì độ chính xác cao. Hướng dẫn chi tiết từng bước.
 ### [Tiền xử lý hình ảnh OCR trong Java – Tăng độ chính xác & Trích xuất văn bản](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Khám phá cách tiền xử lý hình ảnh để cải thiện độ chính xác OCR và trích xuất văn bản hiệu quả trong Java.
+### [Cách bật GPU cho OCR trong Java bằng Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Kích hoạt GPU để tăng tốc OCR, cho phép trích xuất văn bản nhanh hơn và hiệu quả hơn trong Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

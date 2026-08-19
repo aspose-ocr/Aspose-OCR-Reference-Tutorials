@@ -49,6 +49,10 @@ Bez wysiłku wyodrębniaj tekst z obrazów, określając dozwolone znaki za pomo
 
 Włącz akcelerację GPU dla OCR, aby przyspieszyć wyodrębnianie tekstu z obrazów.
 
+## [Jak włączyć GPU dla OCR w Javie przy użyciu Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+
+Włącz akcelerację GPU dla OCR, aby przyspieszyć wyodrębnianie tekstu z obrazów w Javie.
+
 ## [Jak uruchomić OCR na dużych dokumentach – Kompletny przewodnik Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 
 Dowiedz się, jak efektywnie przetwarzać duże dokumenty przy użyciu Aspose.OCR w Javie, zapewniając wysoką wydajność i dokładność.

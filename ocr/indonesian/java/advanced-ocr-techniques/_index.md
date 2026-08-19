@@ -57,6 +57,10 @@ Pelajari cara memproses dokumen besar dengan OCR menggunakan Aspose.OCR untuk Ja
 
 Pelajari cara mengaktifkan GPU untuk mempercepat proses OCR dan mengekstrak teks dari gambar dengan lebih cepat menggunakan Aspose.OCR.
 
+### [Cara Mengaktifkan GPU untuk OCR di Java menggunakan Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+
+Pelajari cara mengaktifkan GPU untuk OCR di Java dengan Aspose.OCR, meningkatkan kecepatan ekstraksi teks secara signifikan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -67,6 +67,8 @@ Engedélyezze a GPU-t az OCR-hez, és gyorsan vonjon ki szöveget a képekből n
 Futtassa az OCR-t nagy dokumentumokon a Java-val, részletes útmutatóval a gyors és pontos szövegkivonáshoz.
 ### [Kép előfeldolgozása OCR-hez Java-ban – Növelje a pontosságot és vonjon ki szöveget](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Javítsa az OCR pontosságát képek előfeldolgozásával Java-ban, és hatékonyan vonjon ki szöveget.
+### [Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban az Aspose.OCR használatával](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Kapcsolja be a GPU-t az OCR-hez Java-ban az Aspose.OCR segítségével, és gyorsítsa fel a szövegkivonást nagy pontossággal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
