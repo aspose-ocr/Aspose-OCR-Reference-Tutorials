@@ -67,6 +67,8 @@ Dowiedz się, jak w .NET przekształcić plik TIFF w przeszukiwalny PDF przy uż
 Szybko konwertuj wiele obrazów na tekst w C# przy użyciu Aspose.OCR. Kompletny przewodnik krok po kroku.
 ### [Jak wykonać OCR PDF w C# – Przewodnik krok po kroku](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Szybko przetwórz pliki PDF na tekst w C# przy użyciu Aspose.OCR. Kompletny przewodnik krok po kroku.
+### [Jak utworzyć logger konsoli i sprawdzić pisownię tekstu OCR w C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Dowiedz się, jak w C# utworzyć logger konsoli i sprawdzić pisownię tekstu OCR, aby poprawić jakość wyników.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

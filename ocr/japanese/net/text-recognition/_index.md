@@ -68,6 +68,8 @@ Aspose.OCR を使用して、C# で JPG 画像からテキストを正確に抽�
 Aspose OCR を使用して、C# で画像から韓国語テキストを簡単に抽出する手順をステップバイステップで解説します。
 ### [画像をテキストに変換 – C# 開発者向け 完全バッチ OCR ガイド](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Aspose.OCR を使用して、C# で大量の画像を一括変換し、テキスト抽出を効率的に行う手順をステップバイステップで解説します。
+### [C# でコンソールロガーを作成し OCR テキストをスペルチェックする方法](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# でコンソールロガーを作成し、OCR テキストのスペルチェック方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ Aspose.OCR를 사용해 TIFF 이미지를 검색 가능한 PDF로 변환하는 �
 여러 단계로 JPG 이미지에서 텍스트를 추출하는 전체 과정을 자세히 안내합니다.
 ### [C#에서 PDF를 OCR하는 방법 – 단계별 가이드](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 C#를 사용해 PDF 파일에서 텍스트를 추출하는 과정을 단계별로 안내합니다.
+### [C#에서 콘솔 로거를 만들고 OCR 텍스트를 맞춤법 검사하는 방법](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# 콘솔 애플리케이션에서 로거를 설정하고 OCR 텍스트의 맞춤법을 검사하는 단계별 가이드
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

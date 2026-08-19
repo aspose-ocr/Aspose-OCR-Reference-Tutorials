@@ -81,6 +81,8 @@ url: /zh-hant/net/text-recognition/
 ### [如何在 C# 中 OCR PDF – 步驟指南](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 使用 Aspose.OCR，透過本分步指南在 C# 中快速將 PDF 轉換為可搜尋文字，簡單高效。
 
+### [如何在 C# 中建立主控台記錄器並拼寫檢查 OCR 文字](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

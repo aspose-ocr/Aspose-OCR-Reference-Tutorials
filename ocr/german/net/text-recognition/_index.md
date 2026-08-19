@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# ein durchsuchbares PDF aus TIFF-Datei
 Erfahren Sie, wie Sie mit Aspose.OCR in C# mehrere Bilder effizient in Text umwandeln und automatisieren.
 ### [Wie man PDF in C# OCR‑t – Schritt‑für‑Schritt‑Anleitung](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR PDF-Dateien in C# OCR‑verarbeiten – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man einen Konsolen-Logger erstellt und OCR-Text in C# rechtschreibprüft](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# einen Konsolen-Logger implementieren und den erkannten Text automatisch rechtschreibprüfen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

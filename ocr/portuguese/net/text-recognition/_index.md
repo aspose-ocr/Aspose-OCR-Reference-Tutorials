@@ -67,6 +67,8 @@ Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose.OCR com C#
 Aprenda a converter múltiplas imagens em texto usando OCR em lote com C#, passo a passo.
 ### [Como fazer OCR de PDF em C# – Guia passo a passo](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Aprenda a usar Aspose.OCR em C# para fazer OCR de PDFs passo a passo, extraindo texto com facilidade.
+### [Como criar logger de console e verificar ortografia de texto OCR em C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Aprenda a implementar um logger de console e a realizar correção ortográfica em textos OCR usando C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
