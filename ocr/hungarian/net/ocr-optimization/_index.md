@@ -60,6 +60,7 @@ Az Aspose.OCR For .NET Tutorials Listing használatával további erőforrásokh
 
 ## OCR optimalizálási oktatóanyagok
 
+
 ### [OCR végrehajtása képeken URL‑ről OCR kép felismerésben](./perform-ocr-on-image-from-url/)
 Fedezze fel a zökkenőmentes OCR integrációt az Aspose.OCR for .NET segítségével. Pontosan ismeri fel a szöveget a képeken.
 ### [Téglalapok előkészítése OCR kép felismerésben](./prepare-rectangles/)
@@ -74,6 +75,16 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén mentse a többold
 Fedezze fel, hogyan használhatja az Aspose.OCR-t C#-ban GPU gyorsítással a képek szövegének hatékony kinyeréséhez.
 ### [Kereshető PDF létrehozása kötegelt OCR-rel – C# útmutató](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Fedezze fel, hogyan hozhat létre kereshető PDF-et kötegelt OCR-rel C#-ban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hogyan kiegyenesítsük a képet és növeljük a kontrasztot a jobb OCR pontosság érdekében](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Ismerje meg, hogyan korrigálja a ferde képeket és állítsa be a kontrasztot az OCR pontosságának javításához.
+### [Kép PDF-be konvertálása C#-ban – Teljes OCR útmutató](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Fedezze fel, hogyan konvertálhat képeket PDF-be C#-ban, miközben teljes OCR-feldolgozást alkalmaz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

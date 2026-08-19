@@ -65,6 +65,7 @@ Dengan Daftar Tutorial Aspose.OCR untuk .NET, Anda dapat mengakses sumber daya t
 
 ## Tutorial Optimisasi OCR
 
+
 ### [Lakukan OCR pada Gambar dari URL dalam OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Jelajahi integrasi OCR yang mulus dengan Aspose.OCR untuk .NET. Mengenali teks dari gambar dengan presisi.
 ### [Siapkan Persegi Panjang dalam OCR Image Recognition](./prepare-rectangles/)
@@ -79,6 +80,17 @@ Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multipage sebagai dokumen d
 Pelajari cara memanfaatkan OCR di C# dengan akselerasi GPU untuk mengekstrak teks dari gambar secara cepat dan akurat.
 ### [Membuat PDF yang dapat dicari dengan OCR batch – Panduan C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Pelajari cara membuat PDF yang dapat dicari menggunakan OCR batch di C# dengan panduan langkah demi langkah.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cara Memperbaiki Kemiringan Gambar dan Meningkatkan Kontras untuk Akurasi OCR yang Lebih Baik](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Pelajari cara mengoreksi kemiringan gambar dan meningkatkan kontras untuk meningkatkan akurasi OCR dengan Aspose.OCR.
+### [Mengonversi Gambar ke PDF dalam C# – Panduan OCR Lengkap](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Panduan lengkap mengonversi gambar ke PDF menggunakan C# dengan Aspose.OCR, termasuk langkah-langkah OCR penuh.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

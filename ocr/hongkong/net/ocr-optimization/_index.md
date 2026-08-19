@@ -63,6 +63,7 @@ weight: 25
 
 ## OCR 優化教學
 
+
 ### [在 OCR 圖像辨識中從 URL 執行圖像 OCR](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的無縫 OCR 整合，精準辨識圖像文字。
 ### [在 OCR 圖像辨識中準備矩形區域](./prepare-rectangles/)
@@ -77,6 +78,16 @@ weight: 25
 了解如何在 C# 中利用 GPU 加速執行 OCR，快速從圖像中提取高精度文字。
 ### [使用批次 OCR 建立可搜尋 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
 透過批次 OCR 將多頁文件轉換為可搜尋的 PDF，提升文件管理與搜尋效率。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 OCR 影像辨識中校正圖像傾斜並提升對比度](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+### [在 C# 中將圖像轉換為 PDF – 完整 OCR 指南](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+本完整指南教您如何在 C# 中使用 Aspose.OCR 將圖像轉換為 PDF，涵蓋從 OCR 識別到 PDF 生成的全流程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

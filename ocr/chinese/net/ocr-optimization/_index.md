@@ -58,6 +58,7 @@ weight: 25
 
 ## OCR 优化教程
 
+
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 探索 Aspose.OCR for .NET 的无缝 OCR 集成。精准识别图像中的文本。
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -72,6 +73,17 @@ weight: 25
 了解如何在 C# 中利用 GPU 加速进行 OCR，从图像中快速提取高精度文本。
 ### [使用批量 OCR 创建可搜索 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
 使用 Aspose.OCR for .NET 批量 OCR 将图像转换为可搜索的 PDF，提供 C# 实现指南。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [如何校正图像倾斜并提升对比度以获得更佳 OCR 准确性](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+通过校正倾斜和增强对比度，提高 OCR 识别的准确性。
+### [在 C# 中将图像转换为 PDF – 完整 OCR 指南](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+本教程详细演示如何在 C# 中使用 Aspose.OCR 将图像转换为 PDF，并实现完整的 OCR 处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

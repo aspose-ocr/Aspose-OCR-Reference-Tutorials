@@ -54,6 +54,7 @@ Aspose.OCR for .NET のリスト機能を活用し、リストベースで OCR �
 
 ## OCR 設定チュートリアル
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を引き出し、アーカイブ画像からテキストを段階的に抽出する方法を学びます。
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -73,6 +74,18 @@ Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR �
 - **Warning:** 大容量のアーカイブはメモリを大量に消費する可能性があります。バッチ処理を検討してください。
 ### [C# でロシア語テキストを抽出しリソースパスを設定 – Aspose OCR ガイド](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Aspose.OCR を使用して C# でロシア語テキストを抽出し、リソースパスを設定する方法をステップバイステップで解説します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# で画像テキストを認識 – Aspose のアラビア語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Aspose OCR を使用して、C# アプリケーションでアラビア語の画像テキストを抽出する方法を学びます。
+### [Aspose OCR の GPU を有効化する方法 – ステップバイステップ ガイド](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Aspose OCR で GPU を有効にし、パフォーマンスを向上させる手順を詳しく解説します。
+### [C# で Aspose ライセンスを設定する方法 – 完全ガイド](./how-to-set-aspose-license-in-c-complete-guide/)
+Aspose のライセンスを C# アプリケーションに設定し、フル機能を有効化する手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

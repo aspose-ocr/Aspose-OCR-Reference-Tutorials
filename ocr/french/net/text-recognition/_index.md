@@ -43,6 +43,7 @@ Naviguez dans les complexités de la reconnaissance de tables dans la reconnaiss
 
 Prêt à révolutionner vos applications .NET ? Plongez dans nos didacticiels de reconnaissance de texte et exploitez la puissance d'Aspose.OCR pour une reconnaissance de texte précise et efficace dans les images. Téléchargez-le maintenant et embarquez pour un voyage de capacités OCR améliorées.
 ## Tutoriels de reconnaissance de texte
+
 ### [Obtenez des choix pour les caractères reconnus dans la reconnaissance d'images OCR](./get-choices-for-recognized-characters/)
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance précise des caractères. Suivez notre guide étape par étape pour récupérer les choix de caractères reconnus en reconnaissance d'images.
 ### [Obtenir le résultat de la reconnaissance dans la reconnaissance d'image OCR](./get-recognition-result/)
@@ -67,6 +68,21 @@ Apprenez à générer un PDF consultable à partir de fichiers TIFF en C# avec A
 Apprenez à convertir rapidement de nombreuses images en texte avec Aspose.OCR en C#, grâce à un guide pas à pas.
 ### [Comment OCR un PDF en C# – Guide étape par étape](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Apprenez à extraire du texte d'un PDF avec Aspose.OCR en C# grâce à un guide complet étape par étape.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Comment effectuer l'OCR en C# – Reconnaître le texte cyrillique avec Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Apprenez à utiliser Aspose.OCR en C# pour reconnaître du texte cyrillique dans vos images, avec un guide pas à pas.
+### [Comment extraire du texte OCR en C# – Guide complet étape par étape](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Apprenez à extraire du texte OCR en C# avec un guide complet, étape par étape, pour intégrer facilement la reconnaissance de texte dans vos applications.
+### [Créer un PDF consultable à partir de TIFF – Guide complet C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Apprenez à convertir des fichiers TIFF en PDF consultable avec Aspose.OCR en C#, étape par étape.
+### [Reconnaître du texte PNG avec Aspose OCR .NET – Guide complet d’OCR local](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Apprenez à reconnaître du texte à partir d'images PNG en utilisant Aspose OCR .NET avec un guide complet d'OCR local.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

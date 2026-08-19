@@ -55,6 +55,7 @@ Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedé
 
 ## OCR konfigurációs oktatóanyagok
 
+
 ### [OCROperation archívummal az OCR képfelismerésben](./ocr-operation-with-archive/)
 Fedezze fel az OCR lehetőségeit .NET alkalmazásokban az Aspose.OCR segítségével. Tanulja meg lépésről lépésre a szöveg kinyerését archívumképekből.  
 ### [OCROperation mappával az OCR képfelismerésben](./ocr-operation-with-folder/)
@@ -74,6 +75,19 @@ Fedezze fel az Aspose.OCR for .NET lehetőségeit. Könnyedén végezzen OCR ké
 - **Figyelmeztetés:** A nagy archívumok jelentős memóriát fogyaszthatnak; fontolja meg a kötegelt feldolgozást.  
 ### [orosz szöveg kinyerése és erőforrás útvonal beállítása C#-ban – Aspose OCR útmutató](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Tanulja meg, hogyan nyerjen ki orosz nyelvű szöveget és állítsa be az erőforrás útvonalat C#-ban az Aspose OCR használatával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hogyan engedélyezzük a GPU-t az Aspose OCR-hez – Lépésről‑lépésre útmutató](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Ismerje meg, hogyan használhatja a GPU gyorsítást az Aspose OCR .NET-ben a teljesítmény növelése érdekében.
+### [Képszöveg felismerése C#‑ban – Arab OCR az Aspose‑szal](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Ismerje meg, hogyan használhatja az Aspose OCR‑t arab nyelvű képek szövegének C#‑ban történő felismerésére.
+### [Hogyan állítsuk be az Aspose licencet C#‑ban – Teljes útmutató](./how-to-set-aspose-license-in-c-complete-guide/)
+Ismerje meg, hogyan konfigurálja az Aspose licencet C#‑ban a zökkenőmentes működéshez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

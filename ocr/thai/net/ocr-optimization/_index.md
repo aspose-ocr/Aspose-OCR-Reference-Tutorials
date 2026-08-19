@@ -59,6 +59,7 @@ weight: 25
 
 ## บทเรียนการเพิ่มประสิทธิภาพ OCR
 
+
 ### [ทำ OCR บนภาพจาก URL ใน OCR Image Recognition](./perform-ocr-on-image-from-url/)
 สำรวจการรวม OCR อย่างราบรื่นกับ Aspose.OCR สำหรับ .NET จดจำข้อความจากภาพด้วยความแม่นยำ.
 ### [เตรียมสี่เหลี่ยมใน OCR Image Recognition](./prepare-rectangles/)
@@ -73,6 +74,16 @@ weight: 25
 เรียนรู้การใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากรูปภาพโดยใช้การเร่งด้วย GPU เพิ่มความเร็วและประสิทธิภาพ
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Batch OCR – คู่มือ C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [วิธีทำให้ภาพตรงและเพิ่มความคมชัดเพื่อความแม่นยำ OCR ที่ดียิ่งขึ้น](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+เรียนรู้วิธีปรับแนวภาพและเพิ่มความคมชัดเพื่อปรับปรุงความแม่นยำของ OCR อย่างมีประสิทธิภาพ
+### [แปลงรูปภาพเป็น PDF ด้วย C# – คู่มือ OCR ฉบับสมบูรณ์](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็นไฟล์ PDF พร้อมการประมวลผล OCR อย่างครบถ้วนใน C# ด้วย Aspose.OCR
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
