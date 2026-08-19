@@ -63,6 +63,8 @@ Aspose.OCR を使用して Java アプリケーションを強化し、正確な
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
 ### [GPU を有効にして OCR を実行する方法 – 画像からの高速テキスト抽出](./how-to-enable-gpu-for-ocr-fast-extraction-of-text/)
 GPU を活用して OCR の速度と精度を向上させ、画像からテキストを迅速に抽出する方法を解説します。
+### [Java で Aspose.OCR を使用して GPU を有効にする方法](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Aspose.OCR for Java で GPU を活用し、OCR 処理を高速化する手順を解説します。
 ### [大規模ドキュメントで OCR を実行する方法 – 完全な Java ガイド](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Aspose.OCR for Java を使用して、大量の文書から高速かつ正確にテキストを抽出する手順を詳しく解説します。
 ### [Java で画像前処理 OCR – 精度向上とテキスト抽出](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)

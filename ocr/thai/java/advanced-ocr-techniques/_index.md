@@ -53,6 +53,9 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 ## [วิธีเปิดใช้งาน GPU สำหรับ OCR – การสกัดข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-enable-gpu-for-ocr-fast-extraction-of-text/)
 
+## [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java ด้วย Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+ทำตามขั้นตอนเพื่อเปิดใช้งาน GPU ช่วยเร่งการสกัดข้อความด้วย Aspose.OCR ใน Java อย่างมีประสิทธิภาพ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
