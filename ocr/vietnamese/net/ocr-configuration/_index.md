@@ -56,6 +56,7 @@ Khám phá tiềm năng rộng lớn của Aspose.OCR cho .NET khi bạn thực 
 ## Hướng dẫn Cấu hình OCR
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR. Học cách trích xuất văn bản từ các hình ảnh trong archive từng bước một.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -89,6 +90,14 @@ Kích hoạt GPU cho Aspose OCR với hướng dẫn chi tiết từng bước �
 ### [Cách thiết lập giấy phép Aspose trong C# – Hướng dẫn đầy đủ](./how-to-set-aspose-license-in-c-complete-guide/)
 Hướng dẫn chi tiết cách cấu hình giấy phép Aspose trong C# để kích hoạt đầy đủ các tính năng.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cách áp dụng giấy phép trong Aspose OCR – Hướng dẫn C# từng bước](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Hướng dẫn chi tiết cách cài đặt giấy phép Aspose OCR trong dự án C# của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,6 +36,7 @@ Efektivita je v aplikacích .NET klíčová a Aspose.OCR je tu, aby vám pomohla
 ## Rozpoznat PDF v OCR Image Recognition
 
 
+
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy a bez problémů jej integrujte do svých aplikací. Tento výukový program poskytuje komplexního průvodce rozpoznáváním textu v PDF a zajišťuje bezproblémovou a efektivní integraci.
 
 ### [Jak provést OCR PDF v C# – krok za krokem průvodce](./how-to-ocr-pdf-in-c-step-by-step-guide/)
@@ -78,6 +79,21 @@ Naučte se převést soubory TIFF na prohledávatelný PDF pomocí Aspose.OCR v 
 Naučte se pomocí Aspose.OCR v .NET extrahovat text z OCR a získat přesné výsledky ve svých aplikacích.
 ### [Rozpoznat text PNG pomocí Aspose OCR .NET – Kompletní lokální průvodce OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Kompletní lokální průvodce pro rozpoznávání textu v PNG souborech pomocí Aspose OCR v .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR tutoriál: Extrahování textu z obrázku pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat text z obrázku a integrovat OCR do vašich .NET aplikací.
+### [c# OCR tutoriál – Extrahování textu z obrázků a export do JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Naučte se pomocí Aspose OCR v C# extrahovat text z obrázků a exportovat výsledky do formátu JSON.
+### [Jak provést OCR obrázku v C# – převést JPG na ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Naučte se pomocí Aspose.OCR v C# převést JPG obrázek na ePub formát a integrovat OCR do vašich .NET aplikací.
+### [Rozpoznat ruský text pomocí Aspose OCR C# – Kompletní průvodce vícestránkovým PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Naučte se rozpoznávat ruský text v PDF s více stránkami pomocí Aspose OCR v C#. Kompletní průvodce krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

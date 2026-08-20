@@ -64,6 +64,7 @@ Aspose.OCR for .NET のチュートリアル一覧を利用すれば、追加リ
 ## OCR 最適化チュートリアル
 
 
+
 ### [URL から画像を取得して OCR を実行する](./perform-ocr-on-image-from-url/)
 Aspose.OCR for .NET でシームレスな OCR 統合を体験してください。画像から正確にテキストを認識します。
 ### [OCR で矩形領域を準備する](./prepare-rectangles/)
@@ -88,6 +89,17 @@ GPU 加速を活用し、C# で画像から高速かつ正確にテキストを�
 画像の傾きを修正し、コントラストを上げる手順を解説し、OCR の認識精度を高めます。
 ### [C# で画像を PDF に変換する – 完全 OCR ガイド](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 画像を PDF に変換し、Aspose.OCR を使用してテキスト抽出と検索可能な PDF を作成する完全ガイドです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# で Aspose OCR エンジンを使用したバッチ OCR の方法](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Aspose OCR エンジンを利用して、C# で複数画像を一括で OCR 処理する方法をステップバイステップで解説します。
+### [C# で画像 OCR を前処理し、Aspose OCR で精度を向上させる](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+画像前処理手法を活用し、C# で Aspose OCR の認識精度を最大化する方法を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

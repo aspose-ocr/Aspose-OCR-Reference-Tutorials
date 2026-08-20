@@ -66,6 +66,7 @@ Genom att använda Aspose.OCR för .NET‑handledningslistan kan du få tillgån
 ## OCR‑optimeringshandledningar
 
 
+
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text från bilder med precision.
 ### [Förbered rektanglar i OCR Image Recognition](./prepare-rectangles/)
@@ -90,6 +91,17 @@ Lär dig hur du skapar sökbara PDF-filer med batch-OCR i C# för effektiv dokum
 Lär dig att räta upp bilder och justera kontrast för att förbättra OCR‑precision i dina .NET‑applikationer.
 ### [Konvertera bild till PDF i C# – Komplett OCR‑guide](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Lär dig konvertera bilder till PDF i C# med fullständig OCR-funktionalitet för exakt textigenkänning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur man batch-OCR i C# med Aspose OCR-motorn](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Lär dig bearbeta flera bilder samtidigt med Aspose OCR i C#. Effektiv batch-OCR för dina .NET-applikationer.
+### [Förbehandla bild‑OCR i C# – öka noggrannheten med Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Lär dig hur du förbehandlar bilder för OCR i C# för att förbättra igenkänningsprecisionen med Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

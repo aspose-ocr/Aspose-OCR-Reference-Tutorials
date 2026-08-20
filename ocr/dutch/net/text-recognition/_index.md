@@ -44,6 +44,7 @@ Navigeer door de complexiteit van het herkennen van tabellen in OCR-beeldherkenn
 Klaar om een revolutie teweeg te brengen in uw .NET-applicaties? Duik in onze tekstherkenningstutorials en benut de kracht van Aspose.OCR voor nauwkeurige en efficiënte tekstherkenning in afbeeldingen. Download nu en begin aan een reis met verbeterde OCR-mogelijkheden.
 ## Tutorials voor tekstherkenning
 
+
 ### [Krijg keuzes voor herkende tekens in OCR-beeldherkenning](./get-choices-for-recognized-characters/)
 Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Volg onze stapsgewijze handleiding om keuzes voor herkende karakters in beeldherkenning op te halen.
 ### [Ontvang herkenningsresultaat in OCR-beeldherkenning](./get-recognition-result/)
@@ -84,6 +85,20 @@ Leer hoe u met Aspose.OCR in C# OCR-tekst uit afbeeldingen kunt extraheren met e
 ### [Herken tekst png met Aspose OCR .NET – Volledige lokale OCR-gids](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Leer stap voor stap hoe u PNG-afbeeldingen lokaal kunt OCR-en met Aspose OCR .NET voor nauwkeurige tekstherkenning.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR-tutorial: Tekst extraheren uit afbeelding met Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt in een C#-applicatie. Volg de eenvoudige stap‑voor‑stap handleiding.
+### [c# OCR-tutorial: Tekst extraheren uit afbeeldingen en exporteren naar JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt en exporteert naar JSON. Volg de eenvoudige stap‑voor‑stap handleiding.
+### [Hoe OCR-afbeelding in C# – Converteer JPG naar ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Leer hoe u met Aspose OCR een JPG-afbeelding omzet naar een ePub-bestand in C#.
+### [Russische tekst herkennen met Aspose OCR C# – Volledige meer‑pagina PDF‑gids](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Leer hoe u Russische tekst in meer‑pagina PDF's herkent met Aspose OCR en C# in deze uitgebreide stap‑voor‑stap gids.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

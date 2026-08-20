@@ -66,6 +66,7 @@ Pomocí seznamu tutoriálů Aspose.OCR pro .NET můžete získat další zdroje 
 ## Tutoriály optimalizace OCR
 
 
+
 ### [Provést OCR na obrázku z URL v OCR rozpoznávání obrázků](./perform-ocr-on-image-from-url/)
 Prozkoumejte bezproblémovou integraci OCR s Aspose.OCR pro .NET. Rozpoznávejte text z obrázků s přesností.
 ### [Připravit obdélníky v OCR rozpoznávání obrázků](./prepare-rectangles/)
@@ -90,6 +91,16 @@ Využijte Aspose.OCR pro .NET k vytvoření prohledávatelných PDF pomocí dáv
 Naučte se, jak opravit sklon obrázku a zvýšit kontrast, aby OCR rozpoznával text přesněji.
 ### [Převod obrázku na PDF v C# – Kompletní průvodce OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Naučte se převést obrázek na PDF v C# s plnou podporou OCR a získat přesný textový výstup.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak provádět hromadné OCR v C# s Aspose OCR Engine](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Naučte se provádět hromadné OCR v C# s Aspose OCR Engine a efektivně zpracovávat velké množství obrázků.
+### [Předzpracování obrazu OCR v C# – Zvýšení přesnosti s Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Zvyšte přesnost OCR v C# předzpracováním obrázků pomocí Aspose OCR. Jednoduchý průvodce pro lepší výsledky.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

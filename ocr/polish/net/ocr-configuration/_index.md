@@ -56,6 +56,7 @@ Poznaj ogromny potencjał Aspose.OCR dla .NET, wykonując rozpoznawanie obrazu O
 ## Samouczki konfiguracji OCR
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Odkryj potencjał OCR w aplikacjach .NET z Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów w archiwach.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -87,6 +88,15 @@ Odblokuj moc przyspieszenia GPU w Aspose OCR, aby przyspieszyć przetwarzanie ob
 Poznaj, jak w C# wykorzystać Aspose OCR do rozpoznawania arabskiego tekstu na obrazach.
 ### [Jak ustawić licencję Aspose w C# – Kompletny przewodnik](./how-to-set-aspose-license-in-c-complete-guide/)
 Dowiedz się, jak poprawnie skonfigurować licencję Aspose w aplikacji C#, aby odblokować pełne możliwości biblioteki.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak zastosować licencję w Aspose OCR – przewodnik krok po kroku w C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Dowiedz się, jak w prosty sposób zastosować licencję Aspose OCR w aplikacji C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

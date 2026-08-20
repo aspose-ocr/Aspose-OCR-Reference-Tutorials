@@ -44,6 +44,7 @@ url: /ru/net/text-recognition/
 Готовы совершить революцию в своих приложениях .NET? Погрузитесь в наши руководства по распознаванию текста и используйте возможности Aspose.OCR для точного и эффективного распознавания текста на изображениях. Загрузите сейчас и отправляйтесь в путешествие по расширенным возможностям оптического распознавания символов.
 ## Учебники по распознаванию текста
 
+
 ### [Получите выбор для распознанных символов в распознавании изображений OCR](./get-choices-for-recognized-characters/)
 Усовершенствуйте свои .NET-приложения с помощью Aspose.OCR для точного распознавания символов. Следуйте нашему пошаговому руководству, чтобы получить варианты выбора распознанных символов при распознавании изображений.
 ### [Получите результат распознавания в распознавании изображений OCR](./get-recognition-result/)
@@ -83,6 +84,21 @@ url: /ru/net/text-recognition/
 Подробное руководство по извлечению текста OCR в C# с использованием Aspose.OCR, шаг за шагом.
 ### [Распознать текст PNG с помощью Aspose OCR .NET – Полное руководство по локальному OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Полное локальное руководство по распознаванию текста из PNG‑изображений с Aspose OCR для .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR учебник: извлечение текста из изображения с Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Извлеките текст из изображений в .NET с помощью Aspose OCR, следуя пошаговому руководству на C#.
+### [c# OCR учебник: извлечение текста из изображений и экспорт в JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Извлеките текст из изображений с помощью Aspose OCR в .NET и экспортируйте результаты в формат JSON.
+### [Как распознать изображение в C# – Конвертировать JPG в ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Извлеките текст из JPG‑изображения и преобразуйте его в ePub с помощью Aspose OCR на C#.
+### [Распознать русский текст с Aspose OCR C# – Полное руководство по многостраничному PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Извлеките русский текст из многостраничных PDF-файлов с помощью Aspose OCR на C# в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

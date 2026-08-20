@@ -56,6 +56,7 @@ weight: 24
 ## Учебные пособия по настройке OCR
 
 
+
 ### [OCROОперация с архивом в распознавании изображений OCR](./ocr-operation-with-archive/)
 Раскройте потенциал OCR в приложениях .NET с Aspose.OCR. Выбирайте, как извлекать текст из изображений в архивах шаг за шагом.
 ### [OCROОперация с папкой в ​​распознавании изображений OCR](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ weight: 24
 Узнайте, как распознавать арабский текст на изображениях в C# с помощью Aspose OCR.
 ### [Как установить лицензию Aspose в C# – Полное руководство](./how-to-set-aspose-license-in-c-complete-guide/)
 Узнайте, как правильно установить лицензию Aspose в C# для полного доступа к функциям библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Как применить лицензию в Aspose OCR – пошаговое руководство C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Узнайте, как применить лицензию Aspose OCR в C# шаг за шагом.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

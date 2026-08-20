@@ -55,6 +55,7 @@ Utforska den stora potentialen i Aspose.OCR för .NET när du enkelt utför OCR�
 ## OCR-konfigurationshandledningar
 
 
+
 ### [OCROoperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Lås upp potentialen för OCR och .NET‑applikationer med Aspose.OCR. Lär dig extrahera text från arkivbilder steg för steg.
 ### [OCROoperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -87,6 +88,14 @@ Lås upp arabisk OCR i .NET med Aspose. Lär dig att känna igen bildtext i C# e
 ### [Hur du ställer in Aspose-licens i C# – Komplett guide](./how-to-set-aspose-license-in-c-complete-guide/)
 Lär dig steg för steg hur du konfigurerar Aspose-licensen i C# för att aktivera full funktionalitet.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur du tillämpar licens i Aspose OCR – Steg‑för‑steg C#‑guide](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Lär dig hur du aktiverar licensen för Aspose OCR i C# med en tydlig steg‑för‑steg‑guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

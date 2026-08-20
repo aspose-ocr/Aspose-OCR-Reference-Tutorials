@@ -44,6 +44,7 @@ url: /el/net/text-recognition/
 Είστε έτοιμοι να φέρετε επανάσταση στις εφαρμογές σας .NET; Βουτήξτε στα σεμινάρια μας για την αναγνώριση κειμένου και αξιοποιήστε τη δύναμη του Aspose.OCR για ακριβή και αποτελεσματική αναγνώριση κειμένου σε εικόνες. Κάντε λήψη τώρα και ξεκινήστε ένα ταξίδι με βελτιωμένες δυνατότητες OCR.
 ## Σεμινάρια αναγνώρισης κειμένου
 
+
 ### [Λάβετε επιλογές για αναγνωρισμένους χαρακτήρες στο OCR Image Recognition](./get-choices-for-recognized-characters/)
 Βελτιώστε τις εφαρμογές σας .NET με το Aspose.OCR για ακριβή αναγνώριση χαρακτήρων. Ακολουθήστε τον οδηγό βήμα προς βήμα για να ανακτήσετε επιλογές για αναγνωρισμένους χαρακτήρες στην αναγνώριση εικόνας.
 ### [Λάβετε αποτέλεσμα αναγνώρισης στην Αναγνώριση εικόνας OCR](./get-recognition-result/)
@@ -84,6 +85,20 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο OCR σε C# με έναν πλήρη οδηγό βήμα προς βήμα.
 ### [Αναγνώριση κειμένου PNG με Aspose OCR .NET – Πλήρης Οδηγός Τοπικού OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Μάθετε βήμα‑βήμα πώς να αναγνωρίζετε κείμενο PNG τοπικά με το Aspose OCR για .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR σεμινάριο: Εξαγωγή κειμένου από εικόνα με Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες και εξαγωγή σε JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες και να το αποθηκεύσετε σε μορφή JSON χρησιμοποιώντας Aspose OCR σε C#.
+### [Πώς να κάνετε OCR εικόνας σε C# – Μετατροπή JPG σε ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Μάθετε πώς να κάνετε OCR σε εικόνα JPG και να τη μετατρέψετε σε ePub με το Aspose OCR σε C#.
+### [Αναγνώριση ρωσικού κειμένου με Aspose OCR C# – Οδηγός πλήρους πολυσέλιδου PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

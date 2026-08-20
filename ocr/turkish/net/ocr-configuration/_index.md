@@ -56,6 +56,7 @@ Aspose.OCR for .NET’in geniş potansiyelini keşfedin ve listelerle OCR görü
 ## OCR Yapılandırma Öğreticileri
 
 
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Aspose.OCR ile .NET uygulamalarında OCR potansiyelini ortaya çıkarın. Arşiv görüntülerinden adım adım metin çıkarın.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -88,6 +89,14 @@ Aspose OCR kullanarak C# uygulamalarında Arapça metin çıkarımını adım ad
 ### [C#'ta Aspose Lisansını Ayarlama – Tam Kılavuz](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose lisansını C# projelerinizde nasıl ayarlayacağınızı adım adım öğrenin.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR'de Lisans Nasıl Uygulanır – Adım Adım C# Kılavuzu](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR için lisansı C# dilinde adım adım nasıl uygulayacağınızı öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

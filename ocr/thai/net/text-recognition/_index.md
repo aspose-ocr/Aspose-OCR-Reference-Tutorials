@@ -47,6 +47,7 @@ url: /th/net/text-recognition/
 พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
 ## บทช่วยสอนการรู้จำข้อความ
 
+
 ### [รับตัวเลือกสำหรับอักขระที่จดจำในการจดจำรูปภาพ OCR](./get-choices-for-recognized-characters/)
 ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วย Aspose.OCR เพื่อการรู้จำอักขระที่แม่นยำ ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อดึงตัวเลือกสำหรับอักขระที่รู้จักในการจดจำรูปภาพ
 ### [รับผลการรับรู้ในการจดจำรูปภาพ OCR](./get-recognition-result/)
@@ -82,6 +83,21 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลงไฟล์ TIFF เป็น PDF ที่สามารถค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
 ### [วิธีดึงข้อความ OCR ใน C# – คู่มือขั้นตอนเต็ม](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีดึงข้อความ OCR จากรูปภาพใน C# อย่างละเอียดตามขั้นตอนครบถ้วน
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [บทแนะนำ c# OCR: ดึงข้อความจากภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากภาพอย่างแม่นยำในขั้นตอนง่ายๆ
+### [บทแนะนำ c# OCR: ดึงข้อความจากภาพและส่งออกเป็น JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากภาพและส่งออกเป็นไฟล์ JSON อย่างแม่นยำ
+### [วิธีทำ OCR รูปภาพใน C# – แปลง JPG เป็น ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อแปลงไฟล์ JPG เป็น ePub อย่างง่ายและรวดเร็ว
+### [จดจำข้อความรัสเซียด้วย Aspose OCR C# – คู่มือ PDF หลายหน้าเต็มรูปแบบ](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความรัสเซียในไฟล์ PDF หลายหน้าอย่างละเอียดและแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
