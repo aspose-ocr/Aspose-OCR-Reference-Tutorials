@@ -100,6 +100,10 @@ url: /zh-hant/net/text-recognition/
 學習使用 Aspose OCR 在 C# 中將 JPG 圖像轉換為 ePub 電子書，提升您的內容轉換能力。
 ### [使用 Aspose OCR C# 識別俄文文字 – 完整多頁 PDF 指南](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 使用 Aspose OCR 在 C# 中識別俄文文字，提供完整的多頁 PDF 處理指南。
+### [離線辨識中文文字 – 完整 C# OCR 教學](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+使用 Aspose.OCR 在離線環境中以 C# 完整辨識中文文字，提供詳細步驟與範例。
+### [從影像提取文字並轉換為 JSONL – C# 教學](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+使用 Aspose.OCR 在 C# 中將影像文字提取並轉換為 JSONL 格式，提供完整步驟與範例。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

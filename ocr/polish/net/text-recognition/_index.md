@@ -99,6 +99,10 @@ Naucz się wyodrębniać tekst z obrazów i zapisywać wyniki w formacie JSON pr
 Naucz się przetwarzać obrazy JPG na format ePub przy użyciu Aspose OCR w C#.
 ### [Rozpoznaj rosyjski tekst za pomocą Aspose OCR C# – Kompletny przewodnik po wielostronicowym PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Dowiedz się, jak rozpoznać rosyjski tekst w wielostronicowych plikach PDF przy użyciu Aspose OCR w C#.
+### [Rozpoznawanie chińskiego tekstu offline – Kompletny samouczek C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Dowiedz się, jak offline rozpoznawać chiński tekst w C# przy użyciu Aspose.OCR, krok po kroku.
+### [Wyodrębnij tekst z obrazu i konwertuj do JSONL – przewodnik C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Dowiedz się, jak w C# wyodrębnić tekst z obrazu i zapisać go w formacie JSONL, wykorzystując Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

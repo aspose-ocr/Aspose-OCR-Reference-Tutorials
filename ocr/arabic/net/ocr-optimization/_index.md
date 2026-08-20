@@ -80,6 +80,10 @@ weight: 25
 تعلم كيفية الاستفادة من OCR في C# لاستخراج النص من الصور مع تسريع GPU لتحسين الأداء والدقة.
 ### [إنشاء PDF قابل للبحث باستخدام OCR دفعي – دليل C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
 دليل لإنشاء ملفات PDF قابلة للبحث باستخدام OCR دفعة واحدة في C#.
+### [خط أنابيب ما قبل معالجة OCR – كيفية التعرف على النص من الصورة في C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+دليل شامل يوضح كيفية إعداد خط أنابيب ما قبل معالجة OCR للتعرف على النص من الصور باستخدام C#.
+### [تشغيل التعرف الضوئي على الحروف (OCR) على PNG باستخدام GPU – دليل C# كامل](./run-ocr-on-png-with-gpu-complete-c-guide/)
+دليل شامل لتشغيل OCR على صور PNG باستخدام وحدة معالجة الرسومات (GPU) في C# لتحقيق أداء عالي ودقة محسنة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

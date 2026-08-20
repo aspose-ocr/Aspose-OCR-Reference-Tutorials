@@ -118,6 +118,10 @@ Learn how to extract text from images and export the results to JSON using Aspos
 Learn to OCR a JPG image in C# and convert the extracted text into an ePub ebook using Aspose OCR.
 ### [recognize russian text with Aspose OCR C# – Full Multi‑Page PDF Guide](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Learn how to recognize Russian text in multi‑page PDFs using Aspose OCR with C#. Follow our step-by-step guide for accurate extraction.
+### [Extract Text from Image and Convert to JSONL – C# Guide](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Learn how to extract text from images and convert the OCR results to JSONL format using Aspose.OCR in C#.
+### [recognize chinese text offline – Complete C# OCR Tutorial](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Learn how to recognize Chinese text offline using Aspose.OCR in C#. Follow our step-by-step guide for offline OCR capabilities.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

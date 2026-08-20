@@ -98,6 +98,10 @@ Apprenez à extraire du texte d'images et à le sauvegarder au format JSON avec 
 ### [Comment faire de l'OCR d'une image en C# – Convertir JPG en ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
 ### [Reconnaître du texte russe avec Aspose OCR C# – Guide complet PDF multi‑pages](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Apprenez à extraire du texte russe à partir de PDF multi‑pages avec Aspose OCR en C#.
+### [Reconnaître du texte chinois hors ligne – Tutoriel complet C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Apprenez à reconnaître du texte chinois hors ligne avec C# en utilisant Aspose.OCR, étape par étape.
+### [Extraire du texte d'une image et le convertir en JSONL – Guide C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Apprenez à extraire du texte d'images et à le convertir en format JSONL avec Aspose.OCR en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

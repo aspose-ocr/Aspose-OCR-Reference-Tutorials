@@ -81,6 +81,10 @@ Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resul
 Utnyttja GPU-acceleration för snabb OCR i C#. Extrahera text från bilder med hög prestanda och precision.
 ### [Skapa sökbar PDF med batch-OCR – C#-guide](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Lär dig hur du skapar sökbara PDF-filer med batch-OCR i C# för effektiv dokumenthantering.
+### [Kör OCR på PNG med GPU – Komplett C#-guide](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Utnyttja GPU-acceleration för att köra OCR på PNG-bilder med Aspose.OCR i C#. En komplett steg-för-steg guide.
+### [OCR-förbehandlingspipeline – Så här känner du igen text från bild i C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Lär dig bygga en OCR-förbehandlingspipeline i C# för att exakt känna igen text i bilder med Aspose.OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -101,6 +101,10 @@ Khám phá cách trích xuất văn bản từ hình ảnh và lưu kết quả 
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển đổi ảnh JPG thành tài liệu ePub một cách nhanh chóng.
 ### [Nhận dạng văn bản tiếng Nga với Aspose OCR C# – Hướng dẫn PDF đa trang đầy đủ](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng văn bản tiếng Nga và xuất ra PDF đa trang.
+### [Nhận dạng văn bản tiếng Trung offline – Hướng dẫn C# OCR hoàn chỉnh](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Khám phá cách nhận dạng văn bản tiếng Trung offline bằng C# với Aspose.OCR, hướng dẫn chi tiết từng bước.
+### [Trích xuất văn bản từ hình ảnh và chuyển sang JSONL – Hướng dẫn C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh và lưu kết quả dưới dạng JSONL.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

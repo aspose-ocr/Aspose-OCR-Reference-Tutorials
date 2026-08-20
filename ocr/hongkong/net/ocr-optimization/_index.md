@@ -79,6 +79,9 @@ weight: 25
 了解如何在 C# 中利用 GPU 加速執行 OCR，快速從圖像中提取高精度文字。
 ### [使用批次 OCR 建立可搜尋 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
 透過批次 OCR 將多頁文件轉換為可搜尋的 PDF，提升文件管理與搜尋效率。
+### [OCR 前處理管線 – 如何在 C# 中辨識影像文字](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+### [在 GPU 上對 PNG 影像執行 OCR – 完整 C# 指南](./run-ocr-on-png-with-gpu-complete-c-guide/)
+利用 GPU 加速在 PNG 圖像上執行 OCR，提供完整的 C# 實作步驟與最佳化技巧。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

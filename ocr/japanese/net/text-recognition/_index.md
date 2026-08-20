@@ -100,6 +100,10 @@ Aspose OCR を使用して C# アプリケーションで画像からテキス�
 Aspose.OCR を使用して C# アプリケーションで JPG 画像からテキストを抽出し、ePub 形式に変換する手順を解説します。
 ### [Aspose OCR C# でロシア語テキストを認識する – フルマルチページPDFガイド](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Aspose OCR を使用して C# でロシア語テキストをマルチページ PDF から認識し、完全ガイドで手順を解説します。
+### [オフラインで中国語テキストを認識する – 完全な C# OCR チュートリアル](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Aspose.OCR を使用して、オフライン環境で中国語テキストを正確に認識する方法をステップバイステップで解説します。
+### [画像からテキストを抽出しJSONLに変換 – C# ガイド](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Aspose.OCR を使用して .NET アプリケーションを強化し、画像からテキストを抽出しJSONL形式で取得する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

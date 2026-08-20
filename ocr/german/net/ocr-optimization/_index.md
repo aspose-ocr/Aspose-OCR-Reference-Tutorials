@@ -98,6 +98,10 @@ Erfahren Sie, wie Sie Bilder mit Aspose.OCR in PDFs umwandeln und dabei die OCR-
 Erfahren Sie, wie Sie Bildvorverarbeitungsfilter in C# anwenden, um die OCR-Genauigkeit mit Aspose OCR zu erhöhen.
 ### [Wie man Batch-OCR in C# mit der Aspose OCR Engine durchführt](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Erfahren Sie, wie Sie mehrere Bilder in C# stapelweise mit der Aspose OCR Engine verarbeiten.
+### [OCR auf PNG mit GPU ausführen – Vollständiger C#-Leitfaden](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Erfahren Sie, wie Sie OCR auf PNG-Bildern mithilfe von GPU-Beschleunigung in C# implementieren.
+### [OCR-Vorverarbeitungspipeline – Wie man Text aus einem Bild in C# erkennt](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Erfahren Sie, wie Sie mit einer Vorverarbeitungspipeline Text aus Bildern in C# präzise erkennen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

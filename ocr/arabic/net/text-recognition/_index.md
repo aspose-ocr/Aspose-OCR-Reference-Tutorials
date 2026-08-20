@@ -101,6 +101,10 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل صورة JPG إلى ملف ePub باستخدام Aspose.OCR في C# بسهولة.
 ### [التعرف على النص الروسي باستخدام Aspose OCR C# – دليل PDF متعدد الصفحات كامل](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 تعلم كيفية استخراج النص الروسي من ملفات PDF متعددة الصفحات باستخدام Aspose OCR في C#.
+### [التعرف على النص الصيني دون اتصال – دليل كامل لـ C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+تعلم كيفية التعرف على النص الصيني دون اتصال باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [استخراج النص من الصورة وتحويله إلى JSONL – دليل C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+تعلم استخراج النص من الصور وتحويله إلى تنسيق JSONL باستخدام Aspose.OCR في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

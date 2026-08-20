@@ -98,6 +98,8 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อแปลงไฟล์ JPG เป็น ePub อย่างง่ายและรวดเร็ว
 ### [จดจำข้อความรัสเซียด้วย Aspose OCR C# – คู่มือ PDF หลายหน้าเต็มรูปแบบ](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความรัสเซียในไฟล์ PDF หลายหน้าอย่างละเอียดและแม่นยำ
+### [จดจำข้อความจีนแบบออฟไลน์ – คำแนะนำ OCR ด้วย C# ฉบับสมบูรณ์](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+### [สกัดข้อความจากภาพและแปลงเป็น JSONL – คู่มือ C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -101,7 +101,10 @@ Aspose OCR ile C# kullanarak görüntülerden metin çıkarın ve sonuçları JS
 C# ve Aspose.OCR kullanarak JPG görüntülerini OCR ile okuyun ve ePub formatına dönüştürün. Adım adım kılavuz.
 ### [Aspose OCR C# ile Rusça Metin Tanıma – Tam Çok Sayfalı PDF Kılavuzu](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Aspose OCR C# kullanarak Rusça metni çok sayfalı PDF dosyalarından doğru şekilde çıkarın ve işleyin.
-
+### [Çevrimdışı Çince Metin Tanıma – Tam C# OCR Eğitimi](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Çevrimdışı olarak Çince metin tanıma işlemini C# ile nasıl gerçekleştireceğinizi adım adım öğrenin.
+### [Görüntüden Metin Çıkar ve JSONL'ye Dönüştür – C# Rehberi](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Aspose.OCR for .NET kullanarak görüntüden metin çıkarın ve sonuçları JSONL formatında alın. Adım adım kılavuz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
