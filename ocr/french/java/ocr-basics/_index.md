@@ -108,9 +108,12 @@ Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte 
 
 ### [Lire du texte à partir d'une image en Java – Guide complet Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Apprenez à lire du texte depuis une image en Java avec Aspose OCR grâce à ce guide complet pas à pas.
-
 ### [Obtenir du texte OCR en Java – Exemple complet Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Apprenez à extraire du texte OCR en Java avec un exemple complet, étape par étape, pour maîtriser Aspose OCR.
+### [Comment activer l’OCR en Java – Guide étape par étape](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Activez facilement l’OCR dans vos applications Java grâce à ce guide complet pas à pas.
+### [Tutoriel Image vers texte – Extraire le texte tamoul avec Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Apprenez à extraire du texte tamoul à partir d’images en utilisant Aspose OCR. Suivez ce guide pas à pas pour une reconnaissance précise.
 
 ---
 

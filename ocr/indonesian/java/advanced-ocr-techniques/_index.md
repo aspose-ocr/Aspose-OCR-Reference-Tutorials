@@ -44,18 +44,16 @@ Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat
 ## [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 
 Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
-
-## [Pra-pemrosesan Gambar OCR di Java – Tingkatkan Akurasi & Ekstrak Teks](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
-
-Pelajari cara mempersiapkan gambar sebelum OCR di Java untuk meningkatkan akurasi ekstraksi teks secara signifikan.
-
 ### [Cara Menjalankan OCR pada Dokumen Besar – Panduan Java Lengkap](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 
 Pelajari cara memproses dokumen besar dengan OCR menggunakan Aspose.OCR untuk Java secara efisien dan akurat.
-
 ### [Cara Mengaktifkan GPU untuk OCR – Ekstraksi Cepat Teks dari Gambar](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 
 Pelajari cara mengaktifkan GPU untuk mempercepat proses OCR dan mengekstrak teks dari gambar dengan lebih cepat menggunakan Aspose.OCR.
+### [Cara Mengaktifkan GPU untuk OCR di Java – Mengenali Teks dari Gambar dengan Cepat](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Aktifkan GPU untuk mempercepat OCR di Java, mengenali teks gambar dengan cepat menggunakan Aspose.OCR.
+### [Ekstrak teks dari gambar dengan Java – Baca VIN dari Foto](./extract-text-from-image-with-java-read-vin-from-photo/)
+Ekstrak nomor VIN dari foto menggunakan Aspose.OCR untuk Java. Dapatkan teks dengan cepat dan akurat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

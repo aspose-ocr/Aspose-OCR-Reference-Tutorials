@@ -67,6 +67,10 @@ Engedélyezze a GPU-t az OCR-hez, és gyorsan vonjon ki szöveget a képekből n
 Futtassa az OCR-t nagy dokumentumokon a Java-val, részletes útmutatóval a gyors és pontos szövegkivonáshoz.
 ### [Kép előfeldolgozása OCR-hez Java-ban – Növelje a pontosságot és vonjon ki szöveget](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Javítsa az OCR pontosságát képek előfeldolgozásával Java-ban, és hatékonyan vonjon ki szöveget.
+### [GPU engedélyezése OCR-hez Java-ban – Gyors szövegfelismerés képről](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Tanulja meg, hogyan használhatja a GPU-t az OCR gyorsításához Java-ban, és ismerje fel a szöveget képekről nagy teljesítménnyel.
+### [Képről szöveg kinyerése Java-val – VIN olvasása fényképről](./extract-text-from-image-with-java-read-vin-from-photo/)
+Olvassa ki a jármű VIN-kódját fényképről Java és Aspose.OCR segítségével, gyors és pontos szövegfelismeréssel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

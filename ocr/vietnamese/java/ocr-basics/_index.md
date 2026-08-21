@@ -105,6 +105,10 @@ Mở khóa sức mạnh của Aspose.OCR cho Java. Học cách trích xuất vă
 Hướng dẫn chi tiết cách đọc văn bản từ hình ảnh bằng Aspose OCR trong Java, bao gồm cài đặt, tiền xử lý và tối ưu độ chính xác.
 ### [Lấy Văn Bản OCR trong Java – Ví dụ Toàn Diễn Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Hướng dẫn chi tiết cách lấy văn bản OCR trong Java bằng Aspose OCR, bao gồm cài đặt, ví dụ đầy đủ và tối ưu hiệu suất.
+### [Cách bật OCR trong Java – Hướng dẫn từng bước](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Kích hoạt OCR trong Java nhanh chóng với hướng dẫn chi tiết, giúp bạn tích hợp và sử dụng Aspose.OCR một cách dễ dàng.
+### [Hướng dẫn Chuyển Hình Ảnh thành Văn Bản – Trích xuất Văn bản Tamil bằng Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng và trích xuất văn bản Tamil từ hình ảnh một cách chính xác và nhanh chóng.
 
 ---
 

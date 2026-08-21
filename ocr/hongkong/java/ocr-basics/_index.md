@@ -104,9 +104,12 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 
 ### [在 Java 中從圖像讀取文字 – 完整 Aspose OCR 指南](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 完整指南教您在 Java 中使用 Aspose.OCR 從圖像讀取文字，涵蓋設定、前處理與最佳化技巧。
-
 ### [在 Java 中取得 OCR 文字 – 完整 Aspose OCR 範例](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 完整範例示範如何在 Java 中使用 Aspose.OCR 讀取影像文字，涵蓋設定、前處理與最佳化技巧。
+### [如何在 Java 中啟用 OCR – 步驟指南](./how-to-enable-ocr-in-java-step-by-step-guide/)
+一步步教您在 Java 中啟用 Aspose.OCR，快速完成設定並開始文字辨識。
+### [影像轉文字教學 – 使用 Aspose OCR 提取泰米爾文](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+使用 Aspose OCR 從影像中提取泰米爾文字，快速完成文字辨識。
 
 ---
 

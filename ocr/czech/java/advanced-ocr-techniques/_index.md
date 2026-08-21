@@ -67,7 +67,10 @@ Zrychlete OCR aktivací GPU a rychle extrahujte text z obrázků ve svých Java 
 Získejte podrobný návod, jak efektivně provádět OCR na rozsáhlých dokumentech v Javě s vysokou přesností.
 ### [Předzpracování obrázku pro OCR v Javě – Zvýšení přesnosti a extrakce textu](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Zlepšete přesnost OCR předzpracováním obrázků v Javě a efektivně extrahujte text.
-
+### [Jak povolit GPU pro OCR v Javě – Rychlé rozpoznávání textu z obrázku](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Zrychlete OCR v Javě využitím GPU a rychle rozpoznávejte text z obrázků. Implementujte snadno a zvyšte výkon aplikace.
+### [Extrahovat text z obrázku v Javě – Číst VIN z fotografie](./extract-text-from-image-with-java-read-vin-from-photo/)
+Rychle extrahujte VIN kód z fotografií pomocí Aspose.OCR v Javě a integrujte do svých aplikací.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

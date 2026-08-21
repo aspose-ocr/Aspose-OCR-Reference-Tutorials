@@ -85,6 +85,10 @@ Scopri come eseguire l'OCR completo su immagini con Aspose OCR in Java, passo‑
 Crea rapidamente PDF ricercabili da immagini PNG con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
 ### [Crea PDF Ricercabile da Immagine con OCR – Guida Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 Crea rapidamente PDF ricercabili da immagini con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
+### [Convertire Immagini in Testo in Java – Guida all'Elaborazione OCR Batch](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Scopri come convertire più immagini in testo usando OCR batch in Java con Aspose.OCR, ottimizzando velocità e precisione.
+### [Creare PDF Ricercabile con Aspose OCR – Guida Passo‑Passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Scopri come trasformare PDF scansionati in documenti ricercabili con Aspose OCR, passo dopo passo, garantendo precisione e velocità.
 
 ## Domande Frequenti
 

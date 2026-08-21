@@ -80,6 +80,10 @@ Uvolněte výkonné rozpoznávání textu v Javě s Aspose.OCR. Bez námahy rozp
 Naučte se převést PNG obrázky na prohledávatelný PDF pomocí Aspose.OCR pro Java.
 ### [Vytvořit prohledávatelný PDF z obrázku pomocí OCR – Java tutoriál](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 Naučte se převést obrázky na prohledávatelný PDF pomocí Aspose.OCR pro Java.
+### [Převod obrázků na text v Javě – Průvodce hromadným zpracováním OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Umožňuje hromadně převádět obrázky na text pomocí Aspose.OCR v Javě.
+### [Vytvoření prohledávatelného PDF pomocí Aspose OCR – průvodce krok za krokem](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Naučte se, jak pomocí Aspose OCR převést PDF na prohledávatelný formát v několika jednoduchých krocích.
 
 ## Často kladené otázky
 

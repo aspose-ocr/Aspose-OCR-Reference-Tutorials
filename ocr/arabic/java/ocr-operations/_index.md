@@ -83,6 +83,9 @@ weight: 21
 ### [إنشاء PDF قابل للبحث من PNG – دليل Java كامل](./create-searchable-pdf-from-png-complete-java-guide/)
 ### [إنشاء PDF قابل للبحث من صورة باستخدام OCR – دليل Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 تعلم كيفية تحويل صورة إلى PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [تحويل الصور إلى نص في Java – دليل معالجة OCR الدفعي](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

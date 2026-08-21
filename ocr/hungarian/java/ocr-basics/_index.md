@@ -105,6 +105,10 @@ Fedezze fel az Aspose.OCR for Java erejét. Tanulja meg, hogyan nyerjen ki szöv
 Fedezze fel a teljes útmutatót a képek szövegének Java-ban történő olvasásához az Aspose OCR segítségével.
 ### [Get OCR Text in Java – Complete Aspose OCR Example](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Fedezze fel a teljes példát, amely bemutatja, hogyan nyerjen ki szöveget OCR-rel Java-ban az Aspose OCR használatával.
+### [Hogyan engedélyezzük az OCR-t Java-ban – Lépésről‑lépésre útmutató](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Ismerje meg, hogyan aktiválja az OCR funkciót Java alkalmazásában részletes, egyszerű lépésekkel.
+### [Kép‑szöveg oktatóanyag – Tamil szöveg kinyerése az Aspose OCR segítségével](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Fedezze fel, hogyan nyerhet ki tamil nyelvű szöveget képekből az Aspose OCR segítségével.
 
 ---
 

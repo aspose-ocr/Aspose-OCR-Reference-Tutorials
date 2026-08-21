@@ -85,6 +85,10 @@ weight: 21
 ### [從 PNG 建立可搜尋 PDF – 完整 Java 指南](./create-searchable-pdf-from-png-complete-java-guide/)
 使用 Aspose.OCR for Java，將 PNG 圖片轉換為可搜尋的 PDF，完整步驟與範例代碼說明。
 ### [從影像建立可搜尋 PDF – Java 教學](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+### [在 Java 中將影像轉換為文字 – 批次 OCR 處理指南](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+說明如何使用 Aspose.OCR for Java 進行批次影像文字轉換，提高效率與準確度。
+### [使用 Aspose OCR 建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+一步步教你使用 Aspose OCR 將 PDF 轉換為可搜尋的文件，提高可編輯性與搜尋功能。
 
 ## 常見問題
 
