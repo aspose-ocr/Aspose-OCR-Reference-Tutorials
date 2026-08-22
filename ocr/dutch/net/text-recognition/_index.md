@@ -69,6 +69,8 @@ Leer hoe u met Aspose OCR in C# Koreaanse tekst uit afbeeldingen kunt herkennen 
 Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt vanuit een TIFF-bestand, stap voor stap.
 ### [Afbeelding converteren naar DOCX in C# – Complete Aspose OCR-gids](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
 Leer hoe u met Aspose.OCR afbeeldingen omzet naar DOCX-bestanden in C#, stap voor stap.
+### [Hoe tekst te herkennen uit een afbeelding met Aspose.OCR in C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Leer stap voor stap hoe u met Aspose.OCR tekst uit afbeeldingen haalt in een C#‑applicatie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

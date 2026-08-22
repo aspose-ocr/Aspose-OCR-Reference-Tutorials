@@ -88,6 +88,8 @@ Convert images to DOCX format using Aspose OCR in C#. Follow our comprehensive g
 Learn how to batch convert multiple images to text using Aspose.OCR for .NET in a comprehensive C# guide.
 ### [Recognize Text from JPG in C# – Complete OCR Tutorial](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Extract text from JPG images using Aspose.OCR for .NET in a complete step‑by‑step tutorial.
+### [How to recognize text from image with Aspose.OCR in C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Learn how to extract text from images using Aspose.OCR in C# with a step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

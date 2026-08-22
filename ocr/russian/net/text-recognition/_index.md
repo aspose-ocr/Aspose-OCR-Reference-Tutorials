@@ -69,6 +69,8 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по пакетному распознаванию изображений в текст с помощью Aspose.OCR для C#.
 ### [Распознать текст из JPG в C# – Полное руководство по OCR](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Пошаговое руководство по полному использованию OCR в C# для распознавания текста из JPG‑изображений.
+### [Как распознать текст с изображения с помощью Aspose.OCR в C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Пошаговое руководство по распознаванию текста с изображений с использованием Aspose.OCR в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ url: /zh/net/text-recognition/
 本指南详细讲解如何使用 Aspose.OCR 在 C# 中批量将图像转换为可编辑文本，步骤清晰，快速上手。
 ### [在 C# 中从 JPG 识别文本 – 完整 OCR 教程](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 通过本完整教程，使用 Aspose.OCR 在 C# 中快速从 JPG 图像提取文本，步骤清晰，轻松上手。
+### [如何在 C# 中使用 Aspose.OCR 识别图像文字](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+通过本教程，快速学习在 C# 项目中使用 Aspose.OCR 从图像中提取文本的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

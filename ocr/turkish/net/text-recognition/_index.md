@@ -71,6 +71,8 @@ C# kullanarak TIFF dosyalarından aranabilir PDF oluşturmayı adım adım öğr
 C# kullanarak görüntüleri DOCX formatına dönüştürmeyi adım adım öğrenin ve Aspose OCR'ın tam gücünden faydalanın.
 ### [Görüntüleri Metne Dönüştürme – C# Geliştiricileri için Tam Toplu OCR Kılavuzu](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 C# ile toplu olarak görüntüleri metne dönüştürmeyi adım adım öğrenin ve Aspose.OCR'ın tam gücünden yararlanın.
+### [C#'ta Aspose.OCR ile Görüntüden Metin Tanıma](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aspose.OCR kullanarak C# ile bir görüntüden metni nasıl tanıyacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

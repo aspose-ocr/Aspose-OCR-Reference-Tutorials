@@ -62,7 +62,7 @@ c# में Aspose.OCR का उपयोग करके JPG छवि से
 ### [JPG से टेक्स्ट पहचानें C# में – पूर्ण OCR ट्यूटोरियल](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 C# में Aspose.OCR से JPG छवि से टेक्स्ट निकालें। विस्तृत चरण-दर-चरण पूर्ण OCR गाइड।
 ### [C# में Aspose OCR का उपयोग कैसे करें – छवियों से कोरियन टेक्स्ट पहचानें](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
-C# में Aspose OCR का उपयोग करके छवियों से कोरियन भाषा का टेक्स्ट तेज़ी से निकालें। चरण-दर-चरण मार्गदर्शिका।
+C# में Aspose OCR का उपयोग करके छवियों से कोरियन भाषा का टेक्स्ट तेज़ी से निकालें। चरण-दर-स्टेप मार्गदर्शिका।
 ### [TIFF से खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-from-tiff-full-c-guide/)
 TIFF फ़ाइलों से खोज योग्य PDF बनाने के लिए Aspose.OCR का उपयोग करके पूर्ण C# चरण-दर- चरण मार्गदर्शिका।
 ### [C# में इमेज को DOCX में परिवर्तित करें – पूर्ण Aspose OCR गाइड](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
@@ -71,6 +71,8 @@ C# में Aspose OCR का उपयोग करके इमेज को 
 C# में Aspose.OCR से इमेज को टेक्स्ट में बैच रूप में बदलने के लिए पूर्ण गाइड। आसान चरणों के साथ तेज़ परिणाम प्राप्त करें।
 ### [C# में PDF को OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से तेज़ी से टेक्स्ट निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में Aspose OCR के साथ छवि से टेक्स्ट पहचानें](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की चरण‑दर‑स्टेप मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

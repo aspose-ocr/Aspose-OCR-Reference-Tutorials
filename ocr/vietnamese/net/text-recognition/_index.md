@@ -71,6 +71,7 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để chuyển
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển đổi hàng loạt hình ảnh thành văn bản một cách nhanh chóng và hiệu quả.
 ### [Nhận dạng văn bản từ JPG trong C# – Hướng dẫn OCR đầy đủ](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Hướng dẫn toàn diện cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp JPG một cách nhanh chóng và chính xác.
+### [Cách nhận dạng văn bản từ hình ảnh với Aspose.OCR trong C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

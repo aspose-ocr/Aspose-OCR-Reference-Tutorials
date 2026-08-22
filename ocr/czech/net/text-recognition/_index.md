@@ -47,6 +47,8 @@ Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce
 Rychle se naučte, jak pomocí Aspose.OCR v C# rozpoznat text z JPG souborů během několika minut.
 ### [Rozpoznání textu z JPG v C# – Kompletní OCR tutoriál](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Naučte se pomocí Aspose.OCR v C# kompletně rozpoznávat text z JPG souborů.
+### [Jak rozpoznat text z obrázku pomocí Aspose.OCR v C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Naučte se pomocí Aspose.OCR v C# rozpoznávat text z obrázků a získat výstup pro další zpracování.
 ### [Jak použít Aspose OCR v C# – Rozpoznat korejský text z obrázků](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 Naučte se pomocí Aspose OCR v C# rozpoznávat korejské znaky z obrázků a získávejte přesné výsledky.
 ### [Převod obrázku do DOCX v C# – Kompletní průvodce Aspose OCR](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
