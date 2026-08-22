@@ -70,6 +70,8 @@ url: /zh-hant/net/text-recognition/
 ### [將影像轉換為文字 – 完整批次 OCR 指南（C# 開發人員）](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 ### [如何在 C# 中 OCR PDF – 步驟指南](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 使用 Aspose.OCR，透過本分步指南在 C# 中快速將 PDF 轉換為可搜尋文字，簡單高效。
+### [如何使用 Aspose.OCR 在 C# 中辨識圖像文字](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+使用 Aspose.OCR 在 C# 中快速辨識圖像文字，簡易步驟教學。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

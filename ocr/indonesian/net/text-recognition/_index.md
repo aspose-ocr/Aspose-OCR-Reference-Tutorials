@@ -69,6 +69,8 @@ Pelajari cara mengubah file TIFF menjadi PDF yang dapat dicari menggunakan Aspos
 Panduan lengkap batch OCR untuk mengonversi gambar menjadi teks dalam proyek C# Anda.
 ### [Mengenali Teks dari JPG dalam C# – Tutorial OCR Lengkap](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Pelajari cara lengkap mengenali teks dari file JPG menggunakan Aspose.OCR dalam proyek C# Anda.
+### [Cara mengenali teks dari gambar dengan Aspose.OCR di C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

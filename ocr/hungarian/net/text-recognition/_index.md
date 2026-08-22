@@ -69,6 +69,8 @@ Ismerje meg, hogyan ismerhet fel koreai szöveget képeken C# és Aspose OCR seg
 Ismerje meg, hogyan hozhat létre kereshető PDF-et TIFF fájlokból C# és Aspose.OCR segítségével.
 ### [Képek szöveggé konvertálása – Teljes kötegelt OCR útmutató C# fejlesztőknek](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Tanulja meg, hogyan konvertáljon nagy mennyiségű képet szöveggé C# és Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Hogyan ismerje fel a szöveget képről az Aspose.OCR segítségével C#-ban](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Ismerje fel a képen lévő szöveget C# és Aspose.OCR használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

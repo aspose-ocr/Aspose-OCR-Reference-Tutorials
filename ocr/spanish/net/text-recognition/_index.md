@@ -69,6 +69,8 @@ Aprenda a reconocer texto en coreano desde imágenes usando Aspose OCR con C# en
 Aprenda a generar PDFs buscables desde archivos TIFF usando Aspose.OCR en C# paso a paso.
 ### [Convertir imágenes a texto – Guía completa de OCR por lotes para desarrolladores C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Aprenda a convertir múltiples imágenes a texto usando Aspose.OCR en C#, con una guía paso a paso para procesamiento por lotes.
+### [Cómo reconocer texto de una imagen con Aspose.OCR en C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aprenda a reconocer texto en imágenes usando Aspose.OCR con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

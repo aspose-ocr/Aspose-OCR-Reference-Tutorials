@@ -71,6 +71,8 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل الصور إلى مستندات DOCX باستخدام Aspose OCR في C# خطوة بخطوة.
 ### [تحويل الصور إلى نص – دليل كامل لمعالجة OCR دفعي لمطوري C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 تعلم كيفية تحويل مجموعة من الصور إلى نص باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية التعرف على النص من صورة باستخدام Aspose.OCR في C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+تعلم كيفية استخراج النص من صورة باستخدام Aspose.OCR في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar koreansk text frå
 Lär dig hur du med Aspose.OCR för .NET konverterar TIFF-filer till sökbara PDF-dokument med komplett C#-kodexempel.
 ### [Konvertera bilder till text – Komplett batch-OCR-guide för C#-utvecklare](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder till text med enkel C#-kod.
+### [Hur man känner igen text från bild med Aspose.OCR i C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar text från bilder.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
