@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with Aspose OCR – Run OCR on PDF
+Slug: create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf
+Category: text-recognition
+ProcessedDate: 2026-05-28T16:24:29.788607
+SourceRepo: AI Search API
+Keywords: create searchable pdf, run ocr on pdf, recognize text pdf, ocr scanned pdf, aspose ocr pdf
+PRNumber: 133

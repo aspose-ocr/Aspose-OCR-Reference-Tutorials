@@ -1,0 +1,7 @@
+Title: How to Use Aspose OCR in C# – Extract Text from Images
+Slug: how-to-use-aspose-ocr-in-c-extract-text-from-images
+Category: text-recognition
+ProcessedDate: 2026-06-19T14:51:21.257430
+SourceRepo: AI Search API
+Keywords: how to use aspose, extract text from images, run ocr on images, recognize text from scans
+PRNumber: 148

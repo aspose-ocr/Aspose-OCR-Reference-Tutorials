@@ -1,0 +1,7 @@
+Title: How to Load Model from Hugging Face with Aspose AI
+Slug: how-to-load-model-from-hugging-face-with-aspose-ai
+Category: general
+ProcessedDate: 2026-07-05T11:40:30.690425
+SourceRepo: AI Search API
+Keywords: how to load model from hugging face, set gpu layers
+PRNumber: 169

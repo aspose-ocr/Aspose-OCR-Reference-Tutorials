@@ -1,0 +1,7 @@
+Title: Improve OCR Accuracy in Java – Complete Guide
+Slug: improve-ocr-accuracy-in-java-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-07T03:19:30.975335
+SourceRepo: AI Search API
+Keywords: improve ocr accuracy, load image ocr, extract text scanned page, process image ocr, perform ocr image
+PRNumber: 141

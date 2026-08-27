@@ -1,0 +1,7 @@
+Title: perform ocr on pdf with Aspose OCR in Java – Complete Guide
+Slug: perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-05-25T13:42:48.564952
+SourceRepo: AI Search API
+Keywords: perform ocr on pdf, extract text from pdf, convert pdf to text, extract scanned pdf text, load pdf for ocr
+PRNumber: 132

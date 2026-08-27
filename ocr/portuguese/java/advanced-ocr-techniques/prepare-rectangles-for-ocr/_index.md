@@ -1,10 +1,11 @@
 ---
-date: 2025-12-06
-description: Aprenda a usar o Aspose.OCR para Java para realizar o reconhecimento
-  de texto OCR, extrair texto de imagens e preparar retângulos para reconhecimento
-  direcionado.
-linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-02-20
+description: Aprenda a reconhecer retângulos de página usando Aspose.OCR para Java,
+  extrair texto de imagens em projetos Java e siga este tutorial de Aspose OCR para
+  Java para um OCR preciso.
+linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
+title: Como reconhecer retângulos de página para reconhecimento de texto OCR no Aspose.OCR
 url: /pt/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
@@ -13,41 +14,37 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Preparando Retângulos para Reconhecimento de Texto OCR no Aspose.OCR
+# Como Reconhecer Retângulos de Página para Reconhecimento de Texto OCR no Aspose.OCR
 
-## Introdução
-
-No mundo orientado a dados de hoje, **ocr text recognition** é um alicerce para transformar documentos digitalizados, capturas de tela e fotos em conteúdo pesquisável e editável. Aspose.OCR for Java torna esse processo rápido e confiável, especialmente quando você precisa focar em áreas específicas de uma imagem. Neste tutorial, percorreremos cada passo necessário para preparar retângulos que limitam o OCR às regiões de seu interesse, proporcionando controle preciso e melhor desempenho.
+Em pipelines modernos de automação de documentos, **recognize page rectangles** é a técnica chave que permite indicar ao motor OCR exatamente onde procurar. Ao limitar o Aspose.OCR às áreas que realmente contêm texto, você aumenta a velocidade, reduz o ruído e obtém resultados mais limpos. Neste tutorial percorreremos cada passo — configuração da biblioteca, licenciamento, definição de retângulos e, finalmente, chamada da API OCR — para que você possa extrair texto de qualquer imagem com confiança.
 
 ## Respostas Rápidas
-- **Qual biblioteca lida com OCR text recognition em Java?** Aspose.OCR for Java.  
-- **Preciso de uma licença para uso em produção?** Sim – uma licença válida do Aspose.OCR desbloqueia todas as funcionalidades.  
-- **Posso limitar o OCR a certas partes de uma imagem?** Absolutamente; você define retângulos que delimitam as áreas-alvo.  
-- **Quais são os principais pré-requisitos?** JDK 17+, Aspose.OCR for Java e um IDE Java.  
-- **Esta abordagem é adequada para extrair texto de imagens?** Sim, é uma maneira eficiente de **extract text image java** projetos.
+- **Qual biblioteca lida com reconhecimento de texto OCR em Java?** Aspose.OCR for Java.  
+- **Preciso de uma licença para uso em produção?** Sim — uma licença válida do Aspose.OCR desbloqueia todas as funcionalidades.  
+- **Posso limitar o OCR a partes específicas de uma imagem?** Absolutamente; você define retângulos que delimitam as zonas-alvo.  
+- **Quais são os principais pré‑requisitos?** JDK 17+, Aspose.OCR for Java e uma IDE Java.  
+- **Esta abordagem é adequada para extrair texto de imagens?** Sim, é uma forma eficiente de **extract text image java** projects.
 
-## O que é Reconhecimento de Texto OCR?
+## O que é “recognize page rectangles”?
+A expressão refere‑se à prática de fornecer uma lista de objetos `java.awt.Rectangle` ao motor OCR para que ele processe apenas essas regiões específicas de uma página. Essa abordagem focada reduz o tempo de processamento e melhora a precisão, especialmente em documentos complexos como faturas ou formulários.
 
-OCR (Optical Character Recognition) text recognition converte imagens baseadas em pixels em caracteres legíveis por máquina. Ele permite que você pesquise, edite e analise conteúdo que originalmente existia apenas como imagens.
-
-## Por que Preparar Retângulos para Reconhecimento de Texto OCR?
-
+## Por que Preparar Retângulos para o Reconhecimento de Texto OCR?
 Definir retângulos foca o motor nas regiões que realmente contêm texto, o que:
-* Reduz o tempo de processamento.
-* Melhora a precisão ao ignorar fundos ruidosos.
-* Permite extrair apenas os dados que você precisa — perfeito para formulários, faturas e recibos.
+* Reduz o tempo de processamento.  
+* Melhora a precisão ao ignorar fundos ruidosos.  
+* Permite extrair apenas os dados necessários — perfeito para formulários, faturas e recibos.  
 
-## Pré-requisitos
+## Pré‑requisitos
 
 Antes de começar, certifique‑se de que você tem:
 
-- **Java Development Kit (JDK)** – Aspose.OCR for Java funciona com JDK 17 ou posterior. Baixe‑o no site da Oracle.
-- **Aspose.OCR for Java library** – Obtenha o JAR mais recente na página oficial de download [here](https://releases.aspose.com/ocr/java/). Siga o guia de instalação [here](https://reference.aspose.com/ocr/java/).
+- **Java Development Kit (JDK)** – Aspose.OCR for Java funciona com JDK 17 ou superior. Baixe-o no site da Oracle.  
+- **Aspose.OCR for Java library** – Obtenha o JAR mais recente na página oficial de download [aqui](https://releases.aspose.com/ocr/java/). Siga o guia de instalação [aqui](https://reference.aspose.com/ocr/java/).  
 - **Ambiente de Desenvolvimento** – Qualquer IDE Java (IntelliJ IDEA, Eclipse, VS Code, etc.) serve.
 
 ## Importar Pacotes
 
-No seu arquivo Java, importe as classes necessárias do Aspose.OCR e as utilidades padrão do Java:
+No seu arquivo fonte Java, importe as classes necessárias do Aspose.OCR e as utilidades padrão do Java:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -63,15 +60,15 @@ import java.util.ArrayList;
 
 > *Importamos `java.awt.Rectangle` porque a API OCR espera retângulos que definem as regiões a serem escaneadas.*
 
-## Passo 1: Configurar Licença
+## Etapa 1: Configurar a Licença
 
 ```java
 SetLicense.main(null);
 ```
 
-Chamar `SetLicense` ativa sua licença Aspose.OCR, removendo limites de avaliação e habilitando o OCR text recognition com todos os recursos.
+Chamar `SetLicense` ativa sua licença Aspose.OCR, removendo limites de avaliação e habilitando o reconhecimento completo de texto OCR.
 
-## Passo 2: Definir Diretório do Documento e Caminho da Imagem
+## Etapa 2: Definir Diretório do Documento e Caminho da Imagem
 
 ```java
 String dataDir = "Your Document Directory";
@@ -80,7 +77,7 @@ String imagePath = dataDir + "p.png";
 
 Substitua `"Your Document Directory"` pelo caminho absoluto onde sua imagem (`p.png`) está localizada. Esta é a imagem que será processada.
 
-## Passo 3: Criar Instância Aspose.OCR
+## Etapa 3: Criar Instância do Aspose.OCR
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -88,7 +85,7 @@ AsposeOCR api = new AsposeOCR();
 
 Instanciar `AsposeOCR` fornece acesso ao método `RecognizePage`, que realiza o OCR propriamente dito.
 
-## Passo 4: Preparar Retângulos com Textos
+## Etapa 4: Preparar Retângulos com Texto
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -98,9 +95,9 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-Cada `Rectangle(x, y, width, height)` indica ao Aspose.OCR exatamente onde procurar texto. Ajuste as coordenadas para corresponder ao layout da sua imagem de origem.
+Cada `Rectangle(x, y, width, height)` indica ao Aspose.OCR exatamente onde procurar texto. Ajuste as coordenadas para corresponder ao layout da sua imagem fonte.
 
-## Passo 5: Executar Reconhecimento OCR
+## Etapa 5: Executar o Reconhecimento OCR
 
 ```java
 try {
@@ -111,41 +108,41 @@ try {
 }
 ```
 
-A chamada `RecognizePage` processa apenas os retângulos definidos e retorna a string extraída. A saída no console permite verificar o resultado do **ocr text recognition** instantaneamente.
+A chamada `RecognizePage` processa apenas os retângulos definidos e devolve a string extraída. A saída no console permite verificar instantaneamente o resultado da **ocr text recognition**.
 
 ## Problemas Comuns e Dicas
 
 | Problema | Causa | Solução |
 |----------|-------|----------|
-| **Sem saída** | Coordenadas de retângulo incorretas ou caminho da imagem | Verifique novamente o valor de `dataDir` e assegure-se de que os retângulos realmente cobrem as regiões de texto. |
-| **Caracteres estranhos** | Imagem de baixa resolução ou fonte não suportada | Use uma fonte de maior resolução ou aplique pré-processamento de imagem (ex.: binarização). |
+| **Nenhuma saída** | Coordenadas de retângulo ou caminho da imagem incorretos | Verifique o valor de `dataDir` e assegure‑se de que os retângulos realmente cobrem as regiões de texto. |
+| **Caracteres estranhos** | Imagem de baixa resolução ou fonte não suportada | Use uma fonte de maior resolução ou aplique pré‑processamento de imagem (ex.: binarização). |
 | **Licença não aplicada** | `SetLicense` não chamado antes do OCR | Garanta que `SetLicense.main(null);` seja executado antes de quaisquer chamadas de API. |
-| **Atraso de desempenho** | Muitos retângulos grandes | Limite o número de retângulos e mantenha‑os o mais ajustado possível ao texto. |
-
-## Conclusão
-
-Agora você aprendeu como integrar Aspose.OCR para Java, configurar uma licença, definir caminhos de imagem e — mais importante — preparar retângulos para focar o **ocr text recognition** em partes específicas de uma imagem. Esta técnica é ideal para qualquer **java ocr tutorial** que precise de extração de texto precisa e de alto desempenho.
+| **Desempenho lento** | Muitos retângulos grandes | Reduza o número de retângulos e mantenha‑os o mais ajustado possível ao texto. |
 
 ## Perguntas Frequentes
 
-**Q: O Aspose.OCR é compatível com outras linguagens de programação?**  
-A: Sim, o Aspose.OCR também suporta .NET, C++ e Python. Consulte a documentação oficial para exemplos específicos de linguagem.
+**P:** *O Aspose.OCR é compatível com outras linguagens de programação?*  
+**R:** Sim, o Aspose.OCR também oferece suporte a .NET, C++ e Python. Consulte a documentação oficial para exemplos específicos de cada linguagem.
 
-**Q: Posso usar o Aspose.OCR em um projeto comercial?**  
-A: Absolutamente. Compre uma licença comercial através da [Aspose store](https://purchase.aspose.com/buy).
+**P:** *Posso usar o Aspose.OCR em um projeto comercial?*  
+**R:** Absolutamente. Adquira uma licença comercial através da [loja Aspose](https://purchase.aspose.com/buy).
 
-**Q: Existe uma versão de avaliação gratuita?**  
-A: Sim, você pode baixar uma versão de avaliação [here](https://releases.aspose.com/).
+**P:** *Existe uma versão de avaliação gratuita?*  
+**R:** Sim, você pode baixar a versão de avaliação [aqui](https://releases.aspose.com/).
 
-**Q: Como obtenho uma licença temporária para avaliação?**  
-A: Licenças temporárias são fornecidas através do [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
+**P:** *Como obtenho uma licença temporária para avaliação?*  
+**R:** Licenças temporárias são fornecidas pelo [portal de licenças temporárias da Aspose](https://purchase.aspose.com/temporary-license/).
 
-**Q: Onde posso obter suporte da comunidade?**  
-A: Visite o [forum](https://forum.aspose.com/c/ocr/16) do Aspose.OCR para perguntas, dicas e exemplos de código.
+**P:** *Onde posso obter suporte da comunidade?*  
+**R:** Visite o [fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para perguntas, dicas e exemplos de código.
+
+## Conclusão
+
+Agora você aprendeu a **reconhecer retângulos de página** com Aspose.OCR para Java, configurar a licença, definir caminhos de imagem e — mais importante — preparar retângulos precisos para focar o OCR nas partes exatas da imagem que você precisa. Esta técnica é ideal para qualquer **aspose ocr java tutorial** que exija extração de texto precisa e de alto desempenho.
 
 ---
 
-**Last Updated:** 2025-12-06  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 

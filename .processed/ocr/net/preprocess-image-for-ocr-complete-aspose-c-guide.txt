@@ -1,0 +1,7 @@
+Title: Preprocess Image for OCR – Complete Aspose C# Guide
+Slug: preprocess-image-for-ocr-complete-aspose-c-guide
+Category: ocr-optimization
+ProcessedDate: 2026-05-25T11:40:26.801471
+SourceRepo: AI Search API
+Keywords: preprocess image for ocr, improve ocr accuracy, run ocr on jpeg, extract text using aspose
+PRNumber: 131

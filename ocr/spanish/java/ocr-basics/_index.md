@@ -18,7 +18,7 @@ weight: 20
 
 ## Introducción
 
-En esta guía completa, aprenderás **cómo extraer imágenes de texto** con Aspose.OCR para Java, convirtiendo fotos escaneadas en contenido buscable y editable. Te acompañaremos paso a paso desde la licencia hasta la corrección de sesgo, para que puedas **mejorar la precisión del OCR** y crear canalizaciones de procesamiento de documentos confiables. Ya sea que estés construyendo una aplicación escáner simple o una solución de nivel empresarial, estos pasos te darán la confianza para enfrentar los desafíos del OCR de frente.
+En esta guía completa, aprenderás **cómo extraer imágenes de texto** con Aspose.OCR para Java, convirtiendo fotos escaneadas en contenido buscable y editable. Te acompañaremos paso a paso desde la licencia hasta la corrección de sesgo, para que puedas **mejorar la precisión del OCR** y crear canalizaciones de procesamiento de documentos confiables. Ya sea que estés construiendo una aplicación escáner simple o una solución de nivel empresarial, estos pasos te darán la confianza para enfrentar los desafíos del OCR de frente.
 
 ## Respuestas Rápidas
 - **¿Qué significa “extraer imágenes de texto”?** Se refiere a leer caracteres de archivos de imagen (PNG, JPEG, TIFF, etc.) y convertirlos en texto plano.  
@@ -96,11 +96,27 @@ Recuerda, el viaje no termina aquí—Aspose.OCR ofrece funciones avanzadas como
 
 ## Tutoriales de Conceptos Básicos de OCR
 ### [Cómo establecer la licencia para Aspose.OCR en Java](./set-license/)
+
 Desbloquea el potencial de Aspose.OCR para Java con esta guía paso a paso. Configura tu licencia sin esfuerzo y mejora tus capacidades de OCR.
+
 ### [Calculando el ángulo de sesgo en Aspose.OCR para Java](./calculate-skew-angle/)
+
 Mejora la precisión del OCR con Aspose.OCR para Java. Aprende a calcular ángulos de sesgo paso a paso. Mejora el procesamiento de documentos sin complicaciones.
+
 ### [Obteniendo rectángulos con áreas de texto en Aspose.OCR](./get-rectangles-with-text-areas/)
+
 Desbloquea el poder de Aspose.OCR para Java. Aprende a extraer texto de imágenes sin problemas en esta guía paso a paso. Descárgala ahora para un reconocimiento de texto eficiente.
+### [Leer texto de una imagen en Java – Guía completa de Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Aprende a leer texto de imágenes en Java con Aspose OCR mediante una guía completa paso a paso, optimizando la precisión y el rendimiento.
+### [Obtener texto OCR en Java – Ejemplo completo de Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+
+### [Cómo habilitar OCR en Java – Guía paso a paso](./how-to-enable-ocr-in-java-step-by-step-guide/)
+
+Aprende a activar y configurar OCR en Java con esta guía paso a paso para obtener reconocimiento de texto rápido y preciso.
+
+### [Tutorial de Imagen a Texto – Extraer Texto Tamil con Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+
+Aprende a extraer texto en tamil de imágenes usando Aspose OCR con esta guía paso a paso.
 
 ---
 

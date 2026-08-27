@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: Pelajari contoh Aspose OCR Java untuk mengekstrak teks dari proyek gambar
-  Java. Integrasi mudah, OCR dengan akurasi tinggi untuk aplikasi Java.
+date: 2026-02-09
+description: Pelajari contoh lengkap Aspose OCR Java untuk mengekstrak teks gambar
+  dari foto. Integrasi OCR dengan akurasi tinggi untuk aplikasi Java.
 linktitle: Aspose OCR Java Example – Recognizing Lines in Images
 second_title: Aspose.OCR Java API
-title: Contoh OCR Aspose Java – Mengenali Garis dalam Gambar
+title: Contoh OCR Aspose Java – Mengenali Baris dalam Gambar
 url: /id/java/advanced-ocr-techniques/recognize-lines/
 weight: 14
 ---
@@ -17,35 +17,35 @@ weight: 14
 
 ## Introduction
 
-Jika Anda membutuhkan **aspose ocr java example** yang cepat mengekstrak teks dari gambar, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas program Java lengkap yang siap dijalankan yang mengenali baris teks individual menggunakan Aspose.OCR untuk Java. Pada akhir Anda akan memahami mengapa Aspose OCR adalah pilihan andal bagi pengembang Java dan cara mengintegrasikan pengenalan tingkat baris ke dalam aplikasi apa pun.
+Jika Anda membutuhkan **aspose ocr java example** yang dengan cepat mengekstrak teks dari gambar, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas program Java lengkap yang siap‑jalan dan mengenali baris‑baris teks individual menggunakan Aspose.OCR untuk Java. Pada akhir tutorial Anda akan memahami mengapa Aspose OCR merupakan pilihan andal bagi pengembang Java dan cara mengintegrasikan pengenalan tingkat baris ke dalam aplikasi apa pun.
 
 ## Quick Answers
-- **What does the example do?** Recognises a single line of text in a supplied image.  
-- **Which library is required?** Aspose.OCR for Java (latest version).  
-- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
-- **Can I extract text from any image format?** Yes – JPEG, PNG, TIFF, BMP and more are supported.  
-- **How long does implementation take?** About 10‑15 minutes to copy, adjust the path and run.
+- **Apa yang dilakukan contoh ini?** Mengenali satu baris teks dalam gambar yang diberikan.  
+- **Perpustakaan apa yang diperlukan?** Aspose.OCR untuk Java (versi terbaru).  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **Apakah saya dapat mengekstrak teks dari format gambar apa pun?** Ya – JPEG, PNG, TIFF, BMP, dan lainnya didukung.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk menyalin, menyesuaikan path, dan menjalankannya.
 
-## What is an Aspose OCR Java Example?
-An **aspose ocr java example** is a concise code snippet that demonstrates how to call the Aspose.OCR API from Java. It shows the essential steps—setting up the environment, configuring recognition settings, and retrieving the recognised text—so you can adapt it to your own projects.
+## Apa itu Contoh Aspose OCR Java?
+Sebuah **aspose ocr java example** adalah potongan kode singkat yang dapat dijalankan, menunjukkan cara memanggil API Aspose.OCR dari Java. Ia memandu Anda menyiapkan lingkungan, mengonfigurasi opsi pengenalan, dan mengambil teks yang dikenali sehingga Anda dapat menyesuaikan logika tersebut untuk proyek Anda sendiri.
 
-## Why Use Aspose OCR for Java to *extract text image java*?
-- **High accuracy** – Advanced algorithms handle noisy or low‑resolution images.  
-- **Multi‑format support** – Works with JPEG, PNG, TIFF, BMP, GIF, etc.  
-- **Simple API** – Minimal code is required to get reliable results.  
-- **Scalable** – Suitable for desktop tools, server‑side services, or mobile back‑ends.  
+## Mengapa Menggunakan Aspose OCR untuk Java untuk mengekstrak teks gambar java?
+- **Akurasi tinggi** – Algoritma canggih menangani gambar berisik atau beresolusi rendah.  
+- **Dukungan multi‑format** – Bekerja dengan JPEG, PNG, TIFF, BMP, GIF, dll.  
+- **API sederhana** – Kode minimal diperlukan untuk mendapatkan hasil yang dapat diandalkan.  
+- **Dapat diskalakan** – Cocok untuk alat desktop, layanan sisi‑server, atau back‑end seluler.  
 
 ## Prerequisites
-Before you start, make sure you have:
+Sebelum Anda memulai, pastikan Anda memiliki:
 
-1. **Java Development Kit (JDK)** – 8 or later installed and configured.  
-2. **Aspose.OCR for Java library** – Download the latest JAR from the official page [here](https://releases.aspose.com/ocr/java/).  
-3. **An image file** containing the text you want to recognise. Update the `imagePath` variable in the code to point to this file.
+1. **Java Development Kit (JDK)** – versi 8 atau lebih baru terpasang dan terkonfigurasi.  
+2. **Aspose.OCR untuk Java library** – Unduh JAR terbaru dari halaman resmi [here](https://releases.aspose.com/ocr/java/).  
+3. **File gambar** yang berisi teks yang ingin Anda kenali. Perbarui variabel `imagePath` dalam kode untuk menunjuk ke file ini.
 
 ## Step‑by‑Step Guide
 
 ### Step 1: Import Packages
-First, import the required Aspose.OCR classes and standard Java utilities.
+Pertama, impor kelas Aspose.OCR yang diperlukan serta utilitas standar Java.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -59,27 +59,27 @@ import java.io.IOException;
 ```
 
 ### Step 2: Set Document Directory
-Define the folder that holds your image files.
+Tentukan folder yang menyimpan file gambar Anda.
 
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` with the absolute path where your test image resides.
+Ganti `"Your Document Directory"` dengan path absolut tempat gambar uji Anda berada.
 
 ### Step 3: Set Image Path
-Point the OCR engine to the specific image you want to process.
+Arahkan mesin OCR ke gambar spesifik yang ingin Anda proses.
 
 ```java
 // The image path
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-Feel free to change the file name to match your own image.
+Silakan ubah nama file agar sesuai dengan gambar Anda.
 
 ### Step 4: Create API Instance
-Instantiate the main OCR class – this object will expose the recognition methods.
+Instansiasi kelas OCR utama – objek ini akan menyediakan metode pengenalan.
 
 ```java
 // Create API instance
@@ -87,17 +87,17 @@ AsposeOCR api = new AsposeOCR();
 ```
 
 ### Step 5: Configure Recognition Settings
-Tell Aspose.OCR what you expect. In this example we enable **single‑line** recognition.
+Beritahu Aspose.OCR apa yang Anda harapkan. Pada contoh ini kami mengaktifkan pengenalan **single‑line**.
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
 settings.setRecognizeSingleLine(true);
 ```
 
-If you need to detect multiple lines, set `setRecognizeSingleLine(false)` instead.
+Jika Anda perlu mendeteksi beberapa baris, setel `setRecognizeSingleLine(false)` sebagai gantinya.
 
 ### Step 6: Perform OCR Recognition
-Run the OCR engine and print the recognised line to the console.
+Jalankan mesin OCR dan cetak baris yang dikenali ke konsol.
 
 ```java
 RecognitionResult result = api.RecognizePage(imagePath, settings);
@@ -105,15 +105,18 @@ System.out.println("File: " + imagePath);
 System.out.println("Result line: " + result.recognitionText);
 ```
 
-When you execute the program, you should see the file path followed by the extracted line of text.
+Saat Anda menjalankan program, Anda akan melihat path file diikuti oleh baris teks yang diekstrak.
+
+## Mengapa Ini Penting
+Menggunakan **aspose ocr java example** ini untuk mengekstrak teks gambar java memberi Anda cara cepat dan andal untuk mengubah dokumen yang dipindai, tangkapan layar, atau kwitansi yang difoto menjadi teks yang dapat dicari dan diedit. Mode single‑line sangat cocok untuk memproses formulir, label barcode, atau skenario apa pun di mana Anda hanya memerlukan satu baris teks per gambar.
 
 ## Common Issues and Solutions
-| Issue | Solution |
+| Masalah | Solusi |
 |-------|----------|
-| **`java.lang.NoClassDefFoundError`** | Ensure the Aspose.OCR JAR is added to your project’s classpath. |
-| **Blank output** | Verify the image contains a clear, horizontal line of text and that `setRecognizeSingleLine(true)` matches your scenario. |
-| **Unsupported image format** | Convert the image to a supported format (e.g., JPEG or PNG) before processing. |
-| **Performance lag on large images** | Resize or compress the image to a reasonable resolution (≤ 1500 px width) before OCR. |
+| **`java.lang.NoClassDefFoundError`** | Pastikan JAR Aspose.OCR ditambahkan ke classpath proyek Anda. |
+| **Output kosong** | Verifikasi gambar berisi baris teks yang jelas dan horizontal serta `setRecognizeSingleLine(true)` sesuai dengan skenario Anda. |
+| **Format gambar tidak didukung** | Konversi gambar ke format yang didukung (mis., JPEG atau PNG) sebelum diproses. |
+| **Keterlambatan kinerja pada gambar besar** | Ubah ukuran atau kompres gambar ke resolusi yang wajar (≤ 1500 px lebar) sebelum OCR. |
 
 ## Frequently Asked Questions
 
@@ -134,7 +137,7 @@ A: Yes. Download a free trial from the Aspose website [here](https://releases.
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

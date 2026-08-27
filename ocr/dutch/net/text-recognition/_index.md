@@ -43,6 +43,8 @@ Navigeer door de complexiteit van het herkennen van tabellen in OCR-beeldherkenn
 
 Klaar om een revolutie teweeg te brengen in uw .NET-applicaties? Duik in onze tekstherkenningstutorials en benut de kracht van Aspose.OCR voor nauwkeurige en efficiënte tekstherkenning in afbeeldingen. Download nu en begin aan een reis met verbeterde OCR-mogelijkheden.
 ## Tutorials voor tekstherkenning
+
+
 ### [Krijg keuzes voor herkende tekens in OCR-beeldherkenning](./get-choices-for-recognized-characters/)
 Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Volg onze stapsgewijze handleiding om keuzes voor herkende karakters in beeldherkenning op te halen.
 ### [Ontvang herkenningsresultaat in OCR-beeldherkenning](./get-recognition-result/)
@@ -53,6 +55,8 @@ Ontketen de kracht van Aspose.OCR voor .NET. Leer moeiteloos OCR-resultaten in J
 Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenning. Ontdek de OCR-modus voor detectiegebieden voor nauwkeurige resultaten.
 ### [Herken PDF in OCR-beeldherkenning](./recognize-pdf/)
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
+### [Hoe PDF in C# OCR‑en – Stapsgewijze handleiding](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# PDF-bestanden kunt OCR'en, stap voor stap, voor naadloze tekstextractie.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
 ### [c# OCR-tutorial – Tekst extraheren uit JPEG-afbeeldingen](./c-ocr-tutorial-extract-text-from-jpeg-images/)
@@ -65,7 +69,50 @@ Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen kunt extraheren met een v
 Leer hoe u met Aspose.OCR in C# batch‑OCR kunt uitvoeren op gescande TIFF‑bestanden voor efficiënte tekstextractie.
 ### [Afbeelding omzetten naar tekst in C# met Aspose OCR – Stapsgewijze handleiding](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
 Leer hoe u met Aspose OCR in C# afbeeldingen naar tekst converteert met een duidelijke stap‑voor‑stap handleiding.
+### [c# OCR-tutorial – Tekst herkennen uit JPG in enkele minuten](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Leer hoe u met Aspose.OCR in C# tekst uit JPG-afbeeldingen kunt extraheren in enkele minuten.
+### [Tekst herkennen uit JPG in C# – Complete OCR-tutorial](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Volledige gids voor het herkennen van tekst uit JPG-afbeeldingen met Aspose.OCR in C#, stap voor stap.
+### [Hoe Aspose OCR in C# te gebruiken – Koreaanse tekst uit afbeeldingen herkennen](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Leer hoe u met Aspose OCR in C# Koreaanse tekst uit afbeeldingen kunt herkennen en verwerken.
+### [Maak doorzoekbare PDF van TIFF – Volledige C#-gids](./create-searchable-pdf-from-tiff-full-c-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt vanuit een TIFF-bestand, stap voor stap.
+### [Afbeelding converteren naar DOCX in C# – Complete Aspose OCR-gids](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
+Leer hoe u met Aspose.OCR afbeeldingen omzet naar DOCX-bestanden in C#, stap voor stap.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Maak doorzoekbare PDF van TIFF – Complete C#-gids](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van TIFF-bestanden, stap voor stap.
+### [Hoe OCR uit te voeren in C# – Cyrillische tekst herkennen met Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Leer hoe u met Aspose.OCR in C# Cyrillische tekst uit afbeeldingen kunt herkennen en verwerken.
+### [Hoe OCR-tekst te extraheren in C# – Complete stapsgewijze gids](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# OCR-tekst uit afbeeldingen kunt extraheren met een volledige stap‑voor‑stap gids.
+### [Herken tekst png met Aspose OCR .NET – Volledige lokale OCR-gids](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Leer stap voor stap hoe u PNG-afbeeldingen lokaal kunt OCR-en met Aspose OCR .NET voor nauwkeurige tekstherkenning.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR-tutorial: Tekst extraheren uit afbeelding met Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt in een C#-applicatie. Volg de eenvoudige stap‑voor‑stap handleiding.
+### [c# OCR-tutorial: Tekst extraheren uit afbeeldingen en exporteren naar JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt en exporteert naar JSON. Volg de eenvoudige stap‑voor‑stap handleiding.
+### [Hoe OCR-afbeelding in C# – Converteer JPG naar ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Leer hoe u met Aspose OCR een JPG-afbeelding omzet naar een ePub-bestand in C#.
+### [Russische tekst herkennen met Aspose OCR C# – Volledige meer‑pagina PDF‑gids](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Leer hoe u Russische tekst in meer‑pagina PDF's herkent met Aspose OCR en C# in deze uitgebreide stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding en converteren naar JSONL – C#-gids](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Leer hoe u tekst uit een afbeelding haalt en deze omzet naar JSONL-formaat met C# en Aspose.OCR.
+### [Herken Chinese tekst offline – Complete C# OCR-tutorial](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Leer hoe u offline Chinese tekst kunt herkennen met Aspose.OCR in C#, stap voor stap met volledige codevoorbeelden.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
