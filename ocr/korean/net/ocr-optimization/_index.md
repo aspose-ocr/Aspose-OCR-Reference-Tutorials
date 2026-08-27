@@ -58,16 +58,20 @@ Aspose.OCR for .NET를 사용하여 다중 페이지 OCR 결과를 문서로 손
 Aspose.OCR For .NET 튜토리얼 목록을 활용하면 추가 리소스에 접근하고 OCR 최적화의 최신 발전 상황을 지속적으로 확인할 수 있습니다. Aspose.OCR for .NET 튜토리얼과 함께 정밀함과 효율성의 세계에 뛰어들어 보세요.
 
 ## OCR 최적화 튜토리얼
-### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Aspose.OCR for .NET와 원활한 OCR 통합을 탐색하세요. 이미지에서 텍스트를 정밀하게 인식합니다.
-### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Aspose.OCR for .NET의 잠재력을 우리의 포괄적인 가이드와 함께 활용하세요. 이미지 인식을 위한 사각형 준비 방법을 단계별로 배우고, .NET 애플리케이션을 원활한 OCR 통합으로 향상시킵니다.
-### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Aspose.OCR for .NET를 탐색하세요. 전처리 필터로 OCR 정확도를 높이고, 지금 다운로드하여 원활한 통합을 경험하세요.
-### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Aspose.OCR for .NET로 OCR 정확도를 향상시키세요. 철자를 교정하고, 사전을 사용자 정의하며, 오류 없는 텍스트 인식을 손쉽게 달성합니다.
-### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Aspose.OCR for .NET의 잠재력을 활용하세요. 이 포괄적인 단계별 가이드를 통해 다중 페이지 OCR 결과를 문서로 손쉽게 저장합니다.
+### [OCR 이미지 인식에서 URL의 이미지에 대해 OCR 수행](./perform-ocr-on-image-from-url/)
+.NET용 Aspose.OCR과의 완벽한 OCR 통합을 살펴보세요. 이미지에서 텍스트를 정확하게 인식합니다.
+### [OCR 이미지 인식에서 직사각형 준비](./prepare-rectangles/)
+포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이미지 인식을 위해 직사각형을 준비하는 방법을 단계별로 알아보세요. 원활한 OCR 통합으로 .NET 애플리케이션을 향상시키세요.
+### [OCR 이미지 인식의 이미지 전처리 필터](./preprocessing-filters-for-image/)
+.NET용 Aspose.OCR을 살펴보세요. 전처리 필터로 OCR 정확도를 높입니다. 원활한 통합을 위해 지금 다운로드하세요.
+### [OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정](./result-correction-with-spell-checking/)
+.NET용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 철자를 수정하고, 사전을 사용자 정의하고, 오류 없는 텍스트 인식을 쉽게 달성할 수 있습니다.
+### [OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장](./save-multipage-result-as-document/)
+.NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이 포괄적인 단계별 가이드를 사용하여 여러 페이지의 OCR 결과를 문서로 쉽게 저장할 수 있습니다.
+### [Aspose OCR을 사용하여 스캔 파일에서 검색 가능한 PDF 만들기](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Aspose OCR을 활용해 스캔한 파일을 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [OCR 대비 향상 – 완전 C# 튜토리얼](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+이미지 대비를 조정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [C#에서 OCR 사용 방법 – GPU 가속으로 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 추출하는 방법을 안내합니다.
 ### [배치 OCR을 사용하여 검색 가능한 PDF 만들기 – C# 가이드](./create-searchable-pdf-with-batch-ocr-c-guide/)

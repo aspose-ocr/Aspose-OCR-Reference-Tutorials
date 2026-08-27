@@ -59,6 +59,16 @@ Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos P
 Aprenda a extraer texto de archivos PDF usando Aspose.OCR en C# con una guía paso a paso.
 ### [Reconocer tabla en reconocimiento de imágenes OCR](./recognize-table/)
 Descubra el potencial de Aspose.OCR para .NET con nuestra guía completa sobre cómo reconocer tablas en el reconocimiento de imágenes OCR.
+### [Tutorial OCR en C# – Extraer texto de imágenes JPEG](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Aprenda a extraer texto de imágenes JPEG usando Aspose.OCR en C#. Siga nuestra guía paso a paso para integrar OCR en sus aplicaciones .NET.
+### [OCR de imagen coreana: Guía completa para extraer texto de fotos](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Aprenda a extraer texto de imágenes en coreano usando Aspose.OCR. Guía completa paso a paso para reconocer caracteres coreanos en fotos.
+### [Extraer texto de imagen con Aspose OCR – Guía completa en C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extraer texto de imágenes usando Aspose OCR en C#. Siga nuestra guía paso a paso para integrar OCR de forma sencilla en sus aplicaciones .NET.
+### [Tutorial OCR en C# – Procesamiento por lotes de OCR para TIFF escaneados](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Aprenda a procesar por lotes archivos TIFF escaneados con Aspose.OCR en C#. Guía paso a paso para automatizar la extracción de texto.
+### [Convertir imagen a texto en C# con Aspose OCR – Guía paso a paso](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+Aprenda a convertir imágenes a texto usando Aspose OCR en C#. Siga nuestra guía paso a paso para integrar OCR en sus aplicaciones .NET.
 ### [c# OCR tutorial – Reconocer texto de JPG en minutos](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 Aprenda a extraer texto de imágenes JPG rápidamente con Aspose.OCR en .NET usando C# en pocos minutos.
 ### [Reconocer texto de JPG en C# – Tutorial completo de OCR](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)

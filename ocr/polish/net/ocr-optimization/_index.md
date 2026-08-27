@@ -66,16 +66,21 @@ Bezproblemowo zapisz wielostronne wyniki OCR jako dokumenty przy użyciu Aspose.
 Dodatek z listami samouczków Aspose.OCR Dla .NET można uzyskać dostęp do dodatkowych zasobów i być na bieżąco z najnowszymi wydaniami w aktualizacjach OCR. Zanurz się w świecie precyzji i wydajności dzięki samouczkom Aspose.OCR dla .NET.
 
 ## Poradniki optymalizacji OCR
-### [Wykonywanie OCR na obrazie z URL w rozpoznawaniu obrazu OCR](./perform-ocr-on-image-from-url/)
-Odkryj płynną integrację OCR z Aspose.OCR for .NET. Rozpoznawaj tekst z obrazów z precyzją.
-### [Przygotowywanie prostokątów w rozpoznawaniu obrazu OCR](./prepare-rectangles/)
-Odblokuj potencjał Aspose.OCR for .NET dzięki naszemu kompleksowemu przewodnikowi. Naucz się krok po kroku, jak przygotować prostokąty do rozpoznawania obrazu. Podnieś swoje aplikacje .NET dzięki płynnej integracji OCR.
-### [Filtry wstępnego przetwarzania dla obrazu w rozpoznawaniu obrazu OCR](./preprocessing-filters-for-image/)
-Poznaj Aspose.OCR for .NET. Zwiększ dokładność OCR dzięki filtrom wstępnego przetwarzania. Pobierz teraz, aby uzyskać płynną integrację.
-### [Korekcja wyników z sprawdzaniem pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
-Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, dostosowuj słowniki i osiągaj rozpoznawanie tekstu bez błędów bez wysiłku.
-### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
-Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
+### [Wykonaj OCR na obrazie z adresu URL w Rozpoznawaniu obrazu OCR](./perform-ocr-on-image-from-url/)
+Poznaj bezproblemową integrację OCR z Aspose.OCR dla .NET. Precyzyjne rozpoznawanie tekstu na obrazach.
+### [Przygotuj prostokąty w rozpoznawaniu obrazu OCR](./prepare-rectangles/)
+Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi. Dowiedz się krok po kroku jak przygotować prostokąty do rozpoznawania obrazu. Ulepsz swoje aplikacje .NET dzięki płynnej integracji OCR.
+### [Filtry wstępnego przetwarzania obrazu w rozpoznawaniu obrazu OCR](./preprocessing-filters-for-image/)
+Przeglądaj Aspose.OCR dla .NET. Zwiększ dokładność OCR dzięki filtrom przetwarzania wstępnego. Pobierz teraz, aby zapewnić bezproblemową integrację.
+### [Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
+Zwiększ dokładność OCR dzięki Aspose.OCR dla .NET. Poprawiaj pisownię, dostosowuj słowniki i bezproblemowo rozpoznawaj tekst bez błędów.
+### [Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
+Odblokuj potencjał Aspose.OCR dla .NET. Z łatwością zapisuj wielostronicowe wyniki OCR jako dokumenty, korzystając z tego obszernego przewodnika krok po kroku.
+### [Utwórz przeszukiwalny PDF z zeskanowanych plików przy użyciu Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Konwertuj zeskanowane obrazy na przeszukiwalne dokumenty PDF przy użyciu Aspose OCR w .NET.
+### [Jak zwiększyć kontrast w OCR – Kompletny samouczek C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Dowiedz się, jak poprawić kontrast obrazów dla lepszej dokładności OCR w C# przy użyciu Aspose.OCR.
+
 ### [Jak używać OCR w C# – wyodrębniaj tekst z obrazów z przyspieszeniem GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 Dowiedz się, jak przyspieszyć OCR w C# z wykorzystaniem GPU, aby szybko wyodrębniać tekst z obrazów.
 ### [Utwórz przeszukiwalny PDF przy użyciu wsadowego OCR – przewodnik C#](./create-searchable-pdf-with-batch-ocr-c-guide/)

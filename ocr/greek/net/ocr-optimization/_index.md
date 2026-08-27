@@ -100,6 +100,10 @@ weight: 25
 
 Χρησιμοποιώντας το Aspose.OCR Για τη λίστα .NET Tutorials, μπορείτε να αποκτήσετε πρόσβαση σε πρόσθετους πόρους και να ενημερώνεστε για τις πιο πρόσφατες εξελίξεις στη βελτιστοποίηση OCR. Βουτήξτε στον κόσμο της ακρίβειας και της αποτελεσματικότητας με το Aspose.OCR για μαθήματα .NET.
 ## OCR Optimization Tutorials
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένα Αρχεία Χρησιμοποιώντας Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία σε αναζητήσιμα PDF με το Aspose OCR για .NET.
+### [Πώς να ενισχύσετε την αντίθεση στο OCR – Πλήρης οδηγός C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Μάθετε πώς να αυξήσετε την αντίθεση εικόνας για βέλτιστα αποτελέσματα OCR χρησιμοποιώντας C# και Aspose.OCR.
 ### [Εκτελέστε OCR σε PNG με GPU – Πλήρης Οδηγός C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Μάθετε πώς να εκτελείτε OCR σε PNG χρησιμοποιώντας GPU με πλήρη οδηγό C#.
 ### [pipeline προεπεξεργασίας OCR – Πώς να Αναγνωρίζετε Κείμενο από Εικόνα σε C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)

@@ -71,6 +71,16 @@ Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR 
 Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
 ### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
+### [c# OCR tutoriál – Extrahování textu z JPEG obrázků](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Naučte se pomocí Aspose.OCR v .NET získat text z JPEG obrázků v několika jednoduchých krocích.
+### [OCR korejské obrázky: Kompletní průvodce extrakcí textu z obrázků](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Naučte se pomocí Aspose.OCR v .NET extrahovat korejský text z obrázků pomocí podrobného průvodce.
+### [Extrahování textu z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Naučte se pomocí Aspose.OCR v .NET získat text z obrázku v podrobném průvodci pro C#.
+### [c# OCR tutoriál – Hromadné zpracování OCR pro naskenované TIFFy](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Naučte se pomocí Aspose.OCR v .NET provádět hromadné OCR zpracování naskenovaných TIFF souborů v několika krocích.
+### [Převod obrázku na text v C# s Aspose OCR – krok‑za‑krokem průvodce](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+Naučte se převést obrázky na text v C# pomocí Aspose OCR pomocí podrobného krok‑za‑krokem návodu.
 ### [Jak provést OCR v C# – Rozpoznat cyrilský text pomocí Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Naučte se pomocí Aspose.OCR v .NET rozpoznávat cyrilské znaky v obrázcích a získávejte přesné výsledky.
 ### [Vytvořte prohledávatelný PDF z TIFF – Kompletní průvodce C#](./create-searchable-pdf-from-tiff-complete-c-guide/)

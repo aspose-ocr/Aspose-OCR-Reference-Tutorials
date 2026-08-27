@@ -74,6 +74,9 @@ OCR 画像認識で行を認識する際の Aspose.OCR for .NET の可能性を�
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Aspose.OCR for .NET で OCR の魔法を解き放ち、画像からテキストを簡単に抽出します。シームレスな統合のためのチュートリアルをご覧ください。
 
+### [C# でフォームを有効化し、OCR でテーブルを抽出する完全ガイド](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Aspose.OCR を使用して C# アプリでフォーム認識を有効にし、テーブルデータを抽出する手順を詳しく解説します。
+
 ## Frequently Asked Questions
 
 **Q: Aspose.OCR を Web アプリケーションで使用できますか？**  

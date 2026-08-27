@@ -59,6 +59,16 @@ Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-fi
 Lär dig hur du med Aspose.OCR för .NET extraherar text från PDF-filer med en detaljerad steg‑för‑steg‑guide.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [c# OCR-handledning – Extrahera text från JPEG-bilder](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från JPEG-bilder i en enkel C#-guide.
+### [OCR Koreansk bild: Komplett guide för att extrahera text från bilder](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Lär dig hur du med Aspose.OCR för .NET extraherar koreansk text från bilder med vår kompletta steg-för-steg-guide.
+### [Extrahera text från bild med Aspose OCR – Komplett C#-guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från bilder i en komplett C#-guide.
+### [c# OCR-handledning – Batch OCR-behandling för skannade TIFF-filer](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Lär dig hur du batchbearbetar skannade TIFF-filer med Aspose.OCR för .NET i en praktisk C#-guide.
+### [Konvertera bild till text i C# med Aspose OCR – Steg‑för‑steg‑guide](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+Lär dig hur du med Aspose OCR för .NET konverterar bilder till text i en detaljerad C#‑guide.
 ### [c# OCR-handledning – Känn igen text från JPG på några minuter](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 Lär dig snabbt hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med bara några rader kod.
 ### [c# OCR-handledning – Känn igen text från JPG – Komplett guide](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)

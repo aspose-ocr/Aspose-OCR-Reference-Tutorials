@@ -100,6 +100,10 @@ Aprenda a generar PDFs buscables usando OCR por lotes en C# con Aspose.OCR, opti
 
 Al utilizar Aspose.OCR para la lista de tutoriales de .NET, puede acceder a recursos adicionales y mantenerse actualizado sobre los últimos avances en optimización de OCR. Sumérgete en el mundo de la precisión y la eficiencia con los tutoriales de Aspose.OCR para .NET.
 ## Tutoriales de optimización de OCR
+### [Cómo mejorar el contraste en OCR – Tutorial completo en C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Aprenda a aumentar el contraste de imágenes para mejorar la precisión del OCR usando C# y Aspose.OCR.
+### [Crear PDF buscable a partir de archivos escaneados usando Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Genere PDFs con texto buscable a partir de documentos escaneados usando Aspose OCR, mejorando la accesibilidad y búsqueda de contenido.
 ### [Ejecute OCR en PNG con GPU – Guía completa en C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Aprenda a ejecutar OCR en imágenes PNG usando GPU con C#, mejorando velocidad y precisión.
 ### [Canal de preprocesamiento OCR – Cómo reconocer texto de una imagen en C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)

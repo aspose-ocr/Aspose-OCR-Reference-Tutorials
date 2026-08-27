@@ -77,7 +77,12 @@ Explorez Aspose.OCR pour .NET. Boostez la précision de l’OCR avec des filtres
 ### [Correction des résultats avec vérification orthographique dans la reconnaissance d'images OCR](./result-correction-with-spell-checking/)
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
-Débloquez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR multipages sous forme de documents grâce à ce guide complet étape par étape.
+Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
+### [Créer un PDF consultable à partir de fichiers numérisés avec Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Apprenez à transformer des fichiers numérisés en PDF consultable en utilisant Aspose OCR pour .NET.
+### [Comment améliorer le contraste dans l'OCR – Tutoriel complet C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Apprenez à augmenter le contraste des images pour améliorer la précision de l'OCR avec Aspose.OCR en C#.
+
 ### [Comment utiliser l'OCR en C# – Extraire du texte d'images avec accélération GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 Apprenez à exploiter l'accélération GPU pour extraire rapidement du texte d'images avec Aspose.OCR en C#.
 ### [Créer un PDF consultable avec OCR par lots – Guide C#](./create-searchable-pdf-with-batch-ocr-c-guide/)

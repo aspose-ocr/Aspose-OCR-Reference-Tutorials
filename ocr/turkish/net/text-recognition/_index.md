@@ -59,6 +59,16 @@ Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni
 C# kullanarak PDF dosyalarından metni hızlı ve doğru bir şekilde OCR ile çıkarın. Adım adım kılavuzla süreci kolaylaştırın.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [c# OCR eğitimi – JPEG Görüntülerinden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+JPEG formatındaki görüntülerden metin çıkararak .NET uygulamalarınızda OCR yeteneklerini geliştirin.
+### [OCR Kore Görüntüsü: Resimlerden Metin Çıkarma Tam Kılavuzu](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Kore dilindeki görüntülerden metin çıkarma sürecini adım adım öğrenin ve .NET uygulamalarınızda OCR'yi etkili bir şekilde kullanın.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Kılavuzu](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR ile C# kullanarak görüntülerden metin çıkarma sürecini ayrıntılı olarak öğrenin.
+### [c# OCR eğitimi – Tarama TIFF'leri için Toplu OCR İşleme](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Tarama TIFF dosyalarından toplu olarak metin çıkarma sürecini adım adım öğrenin.
+### [C# ile Görüntüyü Metne Dönüştürme – Aspose OCR – Adım Adım Kılavuz](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarma sürecini adım adım öğrenin.
 ### [c# ocr eğitimi – JPG'den Metin Tanıma Dakikalar İçinde](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 c# kullanarak JPG dosyalarından hızlıca metin tanıma işlemini adım adım öğrenin.
 ### [JPG'den Metin Tanıma C# – Tam OCR Eğitimi](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)

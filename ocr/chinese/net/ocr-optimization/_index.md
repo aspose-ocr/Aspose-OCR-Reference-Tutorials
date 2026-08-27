@@ -57,16 +57,20 @@ weight: 25
 通过 Aspose.OCR For .NET 教程列表，您可以获取更多资源，随时了解 OCR 优化的最新进展。深入体验 Aspose.OCR for .NET 教程带来的精准与高效。
 
 ## OCR 优化教程
-### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-探索 Aspose.OCR for .NET 的无缝 OCR 集成。精准识别图像中的文本。
-### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-通过我们的综合指南，释放 Aspose.OCR for .NET 的潜能。一步一步学习如何为图像识别准备矩形。用无缝的 OCR 集成提升您的 .NET 应用程序。
-### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-探索 Aspose.OCR for .NET。使用预处理过滤器提升 OCR 准确度。立即下载，实现无缝集成。
-### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-使用 Aspose.OCR for .NET 提升 OCR 准确度。纠正拼写、定制词典，轻松实现零错误的文本识别。
-### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-释放 Aspose.OCR for .NET 的潜能。通过本综合一步一步的指南，轻松将多页 OCR 结果保存为文档。
+### [在 OCR 图像识别中对 URL 中的图像执行 OCR](./perform-ocr-on-image-from-url/)
+探索与 Aspose.OCR for .NET 的无缝 OCR 集成。精确识别图像中的文本。
+### [在 OCR 图像识别中准备矩形](./prepare-rectangles/)
+通过我们的综合指南释放 Aspose.OCR for .NET 的潜力。逐步学习如何准备用于图像识别的矩形。通过无缝 OCR 集成提升您的 .NET 应用程序。
+### [OCR 图像识别中图像的预处理过滤器](./preprocessing-filters-for-image/)
+探索适用于 .NET 的 Aspose.OCR。使用预处理过滤器提高 OCR 准确性。立即下载以实现无缝集成。
+### [OCR 图像识别中的拼写检查结果校正](./result-correction-with-spell-checking/)
+使用 Aspose.OCR for .NET 提高 OCR 准确性。轻松纠正拼写、自定义词典并实现无差错的文本识别。
+### [在 OCR 图像识别中将多页结果保存为文档](./save-multipage-result-as-document/)
+释放 Aspose.OCR for .NET 的潜力。借助这份全面的分步指南，轻松将多页 OCR 结果保存为文档。
+### [使用 Aspose OCR 从扫描文件创建可搜索 PDF](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+学习如何使用 Aspose OCR 将扫描的图像转换为可搜索的 PDF 文档，提高文档检索效率。
+### [如何在 OCR 中增强对比度 – 完整 C# 教程](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+通过 Aspose.OCR for .NET 的完整 C# 示例，学习如何提升图像对比度，从而显著提高 OCR 识别准确率。
 ### [如何在 C# 中使用 OCR – 使用 GPU 加速从图像提取文本](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 了解如何在 C# 中利用 GPU 加速进行 OCR，从图像中快速提取高精度文本。
 ### [使用批量 OCR 创建可搜索 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
