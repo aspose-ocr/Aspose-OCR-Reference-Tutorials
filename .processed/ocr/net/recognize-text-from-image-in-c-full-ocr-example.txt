@@ -1,0 +1,7 @@
+Title: Recognize Text from Image in C# – Full OCR Example
+Slug: recognize-text-from-image-in-c-full-ocr-example
+Category: ocr-optimization
+ProcessedDate: 2026-06-22T18:56:19.425952
+SourceRepo: AI Search API
+Keywords: recognize text from image, auto deskew image, preprocess image for ocr, c# ocr example, enable auto deskew
+PRNumber: 152

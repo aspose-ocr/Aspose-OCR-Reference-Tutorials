@@ -1,0 +1,7 @@
+Title: How to Use Aspose OCR in C# – Full Guide
+Slug: how-to-use-aspose-ocr-in-c-full-guide
+Category: text-recognition
+ProcessedDate: 2026-05-22T08:28:20.966453
+SourceRepo: AI Search API
+Keywords: how to use aspose, recognize text from png, extract text from pages, convert images to text, run ocr on images
+PRNumber: 129

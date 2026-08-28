@@ -1,33 +1,50 @@
 ---
-title: Enregistrer le résultat en tant que document dans la reconnaissance d'image OCR
-linktitle: Enregistrer le résultat en tant que document dans la reconnaissance d'image OCR
-second_title: API Aspose.OCR .NET
-description: Libérez le potentiel d’Aspose.OCR pour .NET. Reconnaissez facilement le texte des images et enregistrez les résultats dans différents formats de documents.
-weight: 10
+description: Apprenez à enregistrer les résultats OCR avec Aspose.OCR pour .NET –
+  convertissez une image en PDF, extrayez le texte d’un PNG et sauvegardez le texte
+  reconnu au format DOCX, TXT, PDF ou XLSX.
+linktitle: How to Save OCR Result as Document
+second_title: Aspose.OCR .NET API
+title: Comment enregistrer le résultat OCR en tant que document
 url: /fr/net/ocr-settings/save-result-as-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer le résultat en tant que document dans la reconnaissance d'image OCR
+# Comment enregistrer le résultat OCR en document
 
 ## Introduction
 
-Bienvenue dans le monde passionnant de la reconnaissance optique de caractères (OCR) avec Aspose.OCR pour .NET ! Dans ce didacticiel complet, nous approfondirons les subtilités de l'utilisation d'Aspose.OCR pour reconnaître le texte dans les images et montrerons comment enregistrer les résultats sous différents formats de document.
+Dans ce tutoriel, vous découvrirez **comment enregistrer la sortie OCR** à l’aide d’Aspose.OCR pour .NET. Nous parcourrons la reconnaissance de texte dans une image, puis la conversion de ce texte en formats de documents populaires tels que DOCX, TXT, PDF et XLSX. À la fin, vous pourrez automatiser l’extraction de données à partir d’images et les stocker sous forme de fichiers recherchables et modifiables—parfait pour l’archivage, les rapports ou le traitement en aval.
 
-## Conditions préalables
+## Réponses rapides
+- **Que signifie « how to save ocr » ?** Cela fait référence à la persistance du texte reconnu à partir d’une image dans un format de fichier comme DOCX, PDF, etc.  
+- **Vers quels formats puis‑je exporter ?** DOCX, TXT, PDF et XLSX sont pris en charge nativement.  
+- **Ai‑je besoin d’une licence ?** Une version d’essai gratuite suffit pour l’évaluation ; une licence commerciale est requise pour une utilisation en production.  
+- **Puis‑je convertir directement une image en PDF ?** Oui—enregistrez le résultat OCR au format PDF pour obtenir un document PDF recherchable.  
+- **Le PNG est‑il supporté ?** Absolument ; vous pouvez **extraire du texte à partir d’images PNG** avec la même API.
 
-Avant de nous lancer dans ce voyage OCR, assurez-vous d'avoir les conditions préalables suivantes en place :
+## Qu’est‑ce que l’OCR et pourquoi enregistrer les résultats en documents ?
 
--  Aspose.OCR pour .NET. Assurez-vous que la bibliothèque Aspose.OCR est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/ocr/net/).
+La Reconnaissance Optique de Caractères (OCR) transforme le texte imprimé ou manuscrit présent dans les images en chaînes lisibles par machine. Enregistrer ces chaînes sous forme de documents vous permet de :
 
--  Répertoire de documents : disposez d'un répertoire désigné pour vos documents et mettez à jour le`dataDir` variable dans le code fourni en conséquence.
+* Créer des PDF recherchables pour la conformité.  
+* Alimenter des feuilles de calcul (XLSX) pour l’analyse de données.  
+* Générer des rapports modifiables (DOCX).  
+* Archiver des journaux en texte brut (TXT) pour une recherche rapide.
 
-## Importer des espaces de noms
+## Prérequis
 
-Commencez par importer les espaces de noms nécessaires. Ce sont les éléments de base qui donneront à votre code des capacités OCR.
+Avant de commencer, assurez‑vous d’avoir :
+
+- Aspose.OCR pour .NET installé. Vous pouvez le télécharger **[ici](https://releases.aspose.com/ocr/net/)**.  
+- Un dossier sur votre machine qui contiendra les images sources et les documents de sortie. Mettez à jour la variable `dataDir` dans le code pour qu’elle pointe vers ce dossier.
+
+## Importer les espaces de noms
+
+Nous avons besoin de quelques espaces de noms .NET pour accéder aux I/O de fichiers et aux classes Aspose OCR.
 
 ```csharp
 using System;
@@ -35,76 +52,76 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes :
+### Étape 1 : Initialiser Aspose.OCR
 
-## Étape 1 : initialiser Aspose.OCR
+Définissez le chemin vers votre répertoire de travail et créez une instance du moteur OCR.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Initialiser une instance d'AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Cette étape prépare le terrain en initialisant l'API Aspose.OCR.
+### Étape 2 : Reconnaître l’image
 
-## Étape 2 : Reconnaître l'image
+Passez le fichier image (par ex., un PNG) au reconnaisseur. C’est ici que nous **reconnaissons les images de texte** et les transformons en un `RecognitionResult`.
 
 ```csharp
-// Reconnaître l'image
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });
 ```
 
-Ici, nous utilisons Aspose.OCR pour reconnaître le texte dans l'image spécifiée (remplacez "sample.png" par votre fichier image).
+### Étape 3 : Enregistrer le résultat dans différents formats
 
-## Étape 3 : Enregistrer le résultat dans différents formats
+Nous exportons maintenant le texte reconnu. Choisissez le format qui correspond à votre flux de travail—que vous ayez besoin de **convertir une image en PDF**, **d’extraire du texte à partir d’un PNG**, ou de générer une feuille de calcul.
 
 ```csharp
-// Enregistrez le résultat dans votre format préféré
+// Save the result in your preferred format
 result.Save(RunExamples.GetDataDir_OCR() + "sample.docx", SaveFormat.Docx);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx);
 ```
 
-Personnalisez cette étape en fonction de vos besoins. Aspose.OCR vous permet d'enregistrer le texte reconnu dans divers formats de documents tels que DOCX, TXT, PDF et XLSX.
+### Étape 4 : Afficher le message de succès
 
-## Étape 4 : Afficher le message de réussite
+Un simple message console confirme que le processus s’est terminé sans erreur.
 
 ```csharp
 Console.WriteLine("SaveResultAsDocument executed successfully");
 ```
 
-Un simple message de confirmation pour vous informer que le processus s'est déroulé sans accroc.
+## Pièges courants & astuces
 
-En suivant ces étapes, vous avez réussi à exploiter la puissance d'Aspose.OCR pour .NET pour reconnaître le texte dans les images et enregistrer les résultats dans différents formats de document.
+- **Chemins de fichiers :** Utilisez toujours des chemins absolus ou assurez‑vous que `dataDir` se termine par un séparateur de chemin (`\` ou `/`).  
+- **Qualité de l’image :** Des images à plus haute résolution améliorent la précision ; envisagez un pré‑traitement (redressement, débruitage) pour de meilleurs résultats.  
+- **Mode licence :** En mode évaluation, la sortie peut contenir un filigrane ; appliquez une licence valide pour le supprimer.
 
-## Conclusion
+## Questions fréquentes
 
-En conclusion, Aspose.OCR pour .NET ouvre un monde de possibilités pour la reconnaissance de texte dans les images. Que vous extrayiez des données ou créiez des documents consultables, Aspose.OCR simplifie le processus grâce à son API intuitive.
+**Q1. Aspose.OCR est‑il compatible avec différents formats d’image ?**  
+R1 : Oui, Aspose.OCR prend en charge un large éventail de formats d’image, assurant une flexibilité dans vos tâches OCR.
 
-## FAQ
+**Q2 : Puis‑je personnaliser les paramètres de reconnaissance pour une meilleure précision ?**  
+R2 : Absolument ! Aspose.OCR fournit `RecognitionSettings` pour affiner le processus OCR selon vos exigences spécifiques.
 
-### T1. Aspose.OCR est-il compatible avec différents formats d’image ?
+**Q3 : Existe‑t‑il un essai gratuit ?**  
+R3 : Oui, vous pouvez commencer avec un essai gratuit **[ici](https://releases.aspose.com/)**.
 
-A1 : Oui, Aspose.OCR prend en charge une large gamme de formats d'image, garantissant ainsi la flexibilité de vos tâches OCR.
+**Q4 : Comment obtenir une licence temporaire pour Aspose.OCR ?**  
+R4 : Les licences temporaires sont disponibles **[ici](https://purchase.aspose.com/temporary-license/)**.
 
-### Q2 : Puis-je personnaliser les paramètres de reconnaissance pour une meilleure précision ?
+**Q5 : Où puis‑je obtenir de l’aide ou rejoindre la communauté ?**  
+R5 : Rejoignez la communauté Aspose.OCR sur **[Aspose Forum](https://forum.aspose.com/c/ocr/16)** pour le support et les discussions.
 
-A2 : Absolument ! Aspose.OCR fournit des paramètres de reconnaissance pour affiner le processus OCR en fonction de vos besoins spécifiques.
+---
 
-### Q3 : Existe-t-il un essai gratuit disponible ?
+**Dernière mise à jour :** 2026-02-12  
+**Testé avec :** Aspose.OCR 24.11 pour .NET  
+**Auteur :** Aspose  
 
- A3 : Oui, vous pouvez commencer avec un essai gratuit[ici](https://releases.aspose.com/).
-
-### Q4 : Comment puis-je obtenir des licences temporaires pour Aspose.OCR ?
-
- A4 : Des licences temporaires peuvent être obtenues[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q5 : Où puis-je demander de l'aide ou me connecter avec la communauté ?
-
- A5 : Rejoignez la communauté Aspose.OCR sur[Forum Aspose](https://forum.aspose.com/c/ocr/16) pour du soutien et des discussions.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

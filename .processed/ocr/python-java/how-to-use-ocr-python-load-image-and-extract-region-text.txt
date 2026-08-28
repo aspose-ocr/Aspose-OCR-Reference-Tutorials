@@ -1,0 +1,7 @@
+Title: How to Use OCR Python: Load Image and Extract Region Text
+Slug: how-to-use-ocr-python-load-image-and-extract-region-text
+Category: general
+ProcessedDate: 2026-06-26T00:08:12.062842
+SourceRepo: AI Search API
+Keywords: how to use ocr, load image for ocr, recognize text in region, how to extract region text
+PRNumber: 160

@@ -1,0 +1,7 @@
+Title: how to ocr table in Java – Complete Step‑by‑Step Guide
+Slug: how-to-ocr-table-in-java-complete-step-by-step-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:48.646718
+SourceRepo: AI Search API
+Keywords: how to ocr table, ocr selected area, extract table data image, recognize text region
+PRNumber: 168

@@ -1,0 +1,7 @@
+Title: recognize text from image with Java OCR – Complete Guide
+Slug: recognize-text-from-image-with-java-ocr-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-06-16T12:46:26.099223
+SourceRepo: AI Search API
+Keywords: recognize text from image, load image for ocr, detect languages in image, enable auto language detection
+PRNumber: 145

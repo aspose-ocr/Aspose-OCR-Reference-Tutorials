@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-01-07
-description: Aspose OCR kullanarak C#'ta görüntüden metin çıkarın. Fotoğraftan metin
-  tanımayı öğrenin, OCR doğruluğunu artırın, OCR için görüntüyü yükleyin ve OCR dilini
-  ayarlayın.
+date: 2026-01-04
+description: Aspose OCR kullanarak C#'de görüntüden metin çıkarın. OCR için görüntüyü
+  nasıl yükleyeceğinizi ve çevrim dışı işlem için OCR dilini nasıl ayarlayacağınızı
+  öğrenin.
 draft: false
 keywords:
 - extract text from image
-- recognize text from photo
-- improve ocr accuracy
 - load image for ocr
 - set ocr language
+- offline ocr csharp
+- aspose ocr tutorial
 language: tr
-og_description: Aspose OCR kullanarak görüntüden metin çıkarın. Bu kılavuz, fotoğraftan
-  metni tanıma, OCR doğruluğunu artırma, OCR için görüntü yükleme ve OCR dilini ayarlama
-  yöntemlerini gösterir.
-og_title: Aspose OCR ile Görüntüden Metin Çıkarma – C# Öğreticisi
+og_description: Aspose OCR kullanarak C#'de görüntüden metin çıkarın. Bu kılavuz,
+  OCR için görüntünün nasıl yükleneceğini ve güvenilir çevrim dışı işleme için OCR
+  dilinin nasıl ayarlanacağını gösterir.
+og_title: Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Rehberi
 tags:
-- Aspose OCR
 - C#
-- Image Processing
+- OCR
+- Aspose
 title: Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Rehberi
 url: /tr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -28,168 +28,200 @@ url: /tr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görüntüden Metin Çıkarma – Aspose OCR ile Tam C# Uygulaması
+# Görüntüden Metin Çıkarma Aspose OCR ile – Tam C# Rehberi
 
-Hiç **görüntüden metin çıkarma** ihtiyacı duydunuz mu, ama hangi kütüphanenin güvenilir sonuçlar vereceğinden emin değildiniz mi? Tek başınıza değilsiniz. Gerçek dünyadaki birçok uygulamada—fiş tarayıcıları, kimlik doğrulayıcılar veya sadece hızlı bir not alma aracı—**fotoğraftan metin tanıma** vazgeçilmez bir özelliktir.
+Görüntüden **metin çıkarmak** istediğinizde, “piksel verilerini nasıl koda alırım?” sorusu sizi takıldı mı? Tek başınıza değilsiniz. Gerçek dünyadaki birçok uygulamada—makbuz tarayıcıları, kimlik doğrulama veya sadece el yazısı notları dijitalleştirme gibi—güvenilir OCR sonuçları elde etmek kritik bir özellik.
 
-Bu öğreticide, **OCR için görüntü yükleme**, motoru **OCR dilini ayarlama** ve **OCR doğruluğunu artırma** için birkaç ön işleme hilesi uygulama adımlarını gösteren, çalıştırmaya hazır tam bir örnek üzerinden ilerleyeceğiz. Sonunda, çıkarılan metni konsola yazdıran tek bir C# dosyanız olacak ve her ayarın neden önemli olduğunu anlayacaksınız.
+Şöyle ki: Aspose OCR, **load image for OCR** ve **set OCR language** işlemlerini internet bağlantısı olmadan yapmanıza izin verir. Bu öğreticide, tam olarak nasıl yapılacağını gösteren çalıştırılabilir bir C# örneği üzerinden geçeceğiz ve daha önce bilmek isteyeceğiniz birkaç ipucu paylaşacağız.
 
-> **İpucu:** Kod, Aspose.OCR ≥ 23.5, .NET 6+ ve .NET Core çalıştırabilen herhangi bir Windows, Linux veya macOS ortamı ile çalışır.
+> **Ne kazanacaksınız**  
+> • Görüntüden metin çıkaran tam, kopyala‑yapıştır programı.  
+> • Motoru yerel bir dil paketine yönlendirmeniz gerektiğinin anlaşılması.  
+> • Kenar durumlarını (eksik kaynaklar, yanlış dosya yolları vb.) ele almak için pratik ipuçları.
 
-## Ön Koşullar
+---
 
-- .NET 6 SDK (veya daha yeni) yüklü  
-- Visual Studio 2022, VS Code veya tercih ettiğiniz herhangi bir editör  
-- NuGet paketi `Aspose.OCR` ( `dotnet add package Aspose.OCR` komutuyla kurun)  
-- Açıkça basılmış veya yazılmış metin içeren bir görüntü dosyası (JPEG/PNG)  
+## Gereksinimler
 
-Eğer bunlara sahipseniz, başlayalım.
+- **.NET 6+** (kod .NET Framework’te de derlenebilir, ancak .NET 6 en uygun sürümdür).  
+- **Aspose.OCR for .NET** NuGet paketi (`Install-Package Aspose.OCR`).  
+- Yerel bir OCR dil klasörü (örnekte Tamil paketini kullanacağız).  
+- İşlemek istediğiniz bir görüntü dosyası (ör. `tamil_note.jpg`).  
 
-![extract text from image example](/images/ocr-example.png "extract text from image – Aspose OCR output")
+Dil kaynakları diske yüklendikten sonra internet bağlantısı gerekmez; bu da yöntemi çevrim dışı veya güvenli ortamlar için mükemmel kılar.
 
-## Adım 1: OCR Motorunu Oluşturma ve Yok Etme – “Görüntüden Metin Çıkarma” Çekirdeği
+## Adım 1: Görüntüden Metin Çıkarma – Kaynakları Hazırlama
 
-İlk olarak bir `OcrEngine` örneğine ihtiyacınız var. Bunu bir `using` bloğu içinde sarmak, yerel kaynakların doğru bir şekilde serbest bırakılmasını garanti eder.
+İlk olarak, Aspose OCR'ye dil dosyalarının nerede olduğunu söylememiz gerekiyor. Henüz Tamil paketini indirmediyseniz, Aspose web sitesinden alın ve çalıştırılabilir dosyanızın yanına **Resources** adlı bir klasöre koyun.
 
 ```csharp
+using System;
+using System.IO;
 using Aspose.OCR;
 using Aspose.OCR.Models;
 
-/// <summary>
-/// Demonstrates how to extract text from image using Aspose OCR.
-/// </summary>
+// Define the path to the local OCR language resources
+string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+
+// Ensure the folder exists – a simple guard against a common pitfall
+if (!Directory.Exists(resourcesPath))
+{
+    Console.WriteLine($"Resources folder not found at {resourcesPath}");
+    return;
+}
+```
+
+**Neden önemli:** `ResourcesPath` ayarlanarak motor **çevrim dışı moda** zorlanır. Bu, beklenmedik ağ çağrılarını ortadan kaldırır ve dağıtımlar arasında tutarlı sonuçlar sağlar.
+
+## Adım 2: OCR için Görüntüyü Yükleme
+
+Motor artık dil verilerini nerede bulacağını bildiğine göre, okumak istediğimiz resmi ona vermemiz gerekiyor. İşte **load image for OCR** adımının parladığı yer—Aspose, geniş bir format yelpazesini (JPG, PNG, BMP, TIFF vb.) kabul eder.
+
+```csharp
+// Create and configure the OCR engine
+OcrEngine ocrEngine = new OcrEngine
+{
+    Config =
+    {
+        ResourcesPath = resourcesPath,      // Force offline mode
+        AutoDownloadResources = false,     // Disable on‑demand download
+        Language = Language.Tamil          // Set OCR language (see next step)
+    }
+};
+
+// Load the image you want to recognize
+string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+
+// Defensive check – helps you avoid the dreaded FileNotFoundException
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"Image not found at {imagePath}");
+    return;
+}
+
+ocrEngine.LoadImage(imagePath);
+```
+
+**Pro ipucu:** Uygulamanız kullanıcı tarafından sağlanan dosyaları işliyorsa `LoadImage` çağrısını bir try‑catch bloğuna sarın. Böylece yığın izini göstermek yerine kullanıcı dostu bir hata mesajı verebilirsiniz.
+
+## Adım 3: OCR Dilini Ayarlama – Doğru Paketi Seçme
+
+Bu adımı atlayarsanız, Aspose varsayılan olarak İngilizceyi kullanır; kaynak metin Tamil, Arapça veya başka bir yazı sistemi olduğunda sonuç çöp olur. Dili ayarlamak bir enum değerini atamak kadar basittir, ancak üçüncü taraf bir paket eklediyseniz özel bir ISO‑639‑2 kodu da geçirebilirsiniz.
+
+```csharp
+// The language was already set in the config above, but you can change it at runtime:
+ocrEngine.Config.Language = Language.Tamil; // Options: English, Arabic, ChineseSimplified, etc.
+```
+
+**Neden önemsemelisiniz:** OCR doğruluğu dil‑spesifik karakter modellerine bağlıdır. Doğru paketi kullanmak, birçok yazı sistemi için tanıma oranlarını %60'tan %95'in üzerine çıkarabilir.
+
+## Adım 4: Tanıma Yap ve Sonuçları Al
+
+Her şey yerli yerinde—kaynaklar, görüntü, dil—olduğunda metni gerçekten çıkarmaya hazırız. `Recognize` metodu tüm işi yapar ve ham dize, güven skorları ve gerekirse daha sonra kullanabileceğiniz sınırlama kutuları içeren bir `OcrResult` nesnesi döndürür.
+
+```csharp
+// Perform the OCR operation
+OcrResult ocrResult = ocrEngine.Recognize();
+
+// Output the recognized text
+Console.WriteLine("=== Extracted Text ===");
+Console.WriteLine(ocrResult.Text);
+```
+
+**Beklenen çıktı:** `tamil_note.jpg` net bir Tamil el yazısı içeriyorsa, Unicode Tamil karakterlerini konsolda göreceksiniz. Görüntü bulanıksa, sonuç soru işaretleri veya bozuk semboller içerebilir—bu noktada ön işleme (eğikliği düzeltme, gürültü azaltma) faydalı olur.
+
+## Tam Çalışan Örnek
+
+Aşağıda, yeni bir konsol projesine kopyala‑yapıştırabileceğiniz tam program yer alıyor. Tartıştığımız tüm korumaları içeriyor, böylece hemen çalıştırabilirsiniz.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
 class Program
 {
     static void Main()
     {
-        // Step 1 – Initialize the OCR engine (the heart of the process)
-        using (var ocrEngine = new OcrEngine())
+        // -------------------------------------------------
+        // Step 1: Define resources folder (offline OCR)
+        // -------------------------------------------------
+        string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+        if (!Directory.Exists(resourcesPath))
         {
-            // The rest of the workflow lives inside this block.
-```
+            Console.WriteLine($"Resources folder not found at {resourcesPath}");
+            return;
+        }
 
-**Neden önemli?** `OcrEngine`, yerel OCR DLL'leri için yönetilmeyen bellek tutar. Özellikle toplu olarak çok sayıda görüntü işlediğinizde, zamanında yok edilmesi bellek sızıntılarını önler.
-
-## Adım 2: Tanıma Ayarlarını Tanımlama – OCR Doğruluğunu Artırma
-
-Sonra bir `RecognitionSettings` nesnesi oluştururuz. Burada **OCR dilini ayarlar** ve genellikle bozuk bir dize ile temiz çıktı arasındaki farkı yaratan ön işleme filtrelerini ekleriz.
-
-```csharp
-            // Step 2 – Configure recognition settings
-            var recognitionSettings = new RecognitionSettings
+        // -------------------------------------------------
+        // Step 2: Configure OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Config =
             {
-                // Set the language to English; other languages are available via Language enum.
-                Language = Language.English,
+                ResourcesPath = resourcesPath,
+                AutoDownloadResources = false,
+                Language = Language.Tamil // <-- set OCR language here
+            }
+        };
 
-                // PreprocessFilters help the engine deal with real‑world photo issues.
-                PreprocessFilters = new[]
-                {
-                    PreprocessFilter.Deskew,          // Corrects slight rotation
-                    PreprocessFilter.Denoise,         // Reduces grainy noise
-                    PreprocessFilter.ContrastEnhance // Boosts text visibility
-                }
-            };
-```
+        // -------------------------------------------------
+        // Step 3: Load the image you want to process
+        // -------------------------------------------------
+        string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found at {imagePath}");
+            return;
+        }
 
-**Bu filtreler neden?**  
-- **Deskew** telefonla çekilmiş bir fotoğrafın birkaç derece eksik eksende olma sorununu düzeltir.  
-- **Denoise** karakter olarak yorumlanabilecek nokta lekelerini temizler.  
-- **ContrastEnhance** soluk mürekkebi öne çıkarır; bu, **OCR doğruluğunu artırma** için kritiktir.
+        ocrEngine.LoadImage(imagePath);
 
-## Adım 3: Görüntüyü Yükleme – OCR İçin Görüntüyü Verimli Yükleme
+        // -------------------------------------------------
+        // Step 4: Run OCR and display the result
+        // -------------------------------------------------
+        OcrResult ocrResult = ocrEngine.Recognize();
 
-Aspose, hızlı yükleme için `ImageStream.FromFile` sağlar. Görüntü bir web isteği ya da veritabanından geliyorsa `MemoryStream` de kullanabilirsiniz.
-
-```csharp
-            // Step 3 – Load the image you want to analyze
-            var imagePath = @"YOUR_DIRECTORY/phone_photo.jpg";
-            var imageStream = ImageStream.FromFile(imagePath);
-```
-
-**Yaygın tuzak:** Windows'ta ileri eğik çizgi (`/`) içeren bir yol çalışabilir, ancak çapraz platform projeler için `Path.Combine` kullanmak daha güvenlidir.
-
-## Adım 4: Tanıma İşlemini Gerçekleştirme – Fotoğraftan Metin Tanıma
-
-Şimdi `Recognize` metodunu çağırıp hem görüntü akışını hem de ayarlarımızı geçiriyoruz. Metod, çıkarılan metni içeren düz bir string döndürür.
-
-```csharp
-            // Step 4 – Run OCR and capture the result
-            string recognizedText = ocrEngine.Recognize(imageStream, recognitionSettings);
-```
-
-Görüntü birden fazla metin bloğu içeriyorsa, Aspose bunları satır sonlarıyla birleştirir ve orijinal düzeni mümkün olduğunca korur.
-
-## Adım 5: Sonucu Çıktılamak – Çıkarma İşlemini Doğrulama
-
-Son olarak sonucu konsola yazdırıyoruz. Gerçek bir uygulamada bunu bir veritabanına kaydedebilir, başka bir servise gönderebilir veya bir UI'da gösterebilirsiniz.
-
-```csharp
-            // Step 5 – Show the extracted text
-            Console.WriteLine("=== Extracted Text Start ===");
-            Console.WriteLine(recognizedText);
-            Console.WriteLine("=== Extracted Text End ===");
-        } // End of using block – OcrEngine disposed
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-### Beklenen Konsol Çıktısı
+**Çalıştırma:**  
+1. Derlenmiş `.exe` dosyasının yanına Tamil dil dosyalarını içeren `Resources` klasörünü koyun.  
+2. `tamil_note.jpg` dosyasını aynı dizine yerleştirin.  
+3. `dotnet run` komutunu çalıştırın (veya EXE'yi çalıştırın).  
 
-```
-=== Extracted Text Start ===
-This is a sample receipt.
-Total: $23.45
-Thank you for shopping!
-=== Extracted Text End ===
-```
+Konsolda çıkarılan Tamil metni görmelisiniz.
 
-Eğer bozuk karakterler görüyorsanız, görüntünün net olduğundan, dilin metinle eşleştiğinden ve ön işleme filtrelerinin uygun olduğundan emin olun.
+## Yaygın Sorular & Kenar Durumları
 
-## Adım 6: İsteğe Bağlı Ayarlamalar – Kenar Durumları İçin İnce Ayar
+| Soru | Cevap |
+|----------|--------|
+| **Birden fazla görüntü işlemek istersem ne olur?** | Aynı `OcrEngine` örneğini yeniden kullanın—her `Recognize` öncesinde `LoadImage`'i tekrar çağırın. |
+| **Dilleri anlık olarak değiştirebilir miyim?** | Kesinlikle. Bir sonraki görüntüyü yüklemeden önce `ocrEngine.Config.Language = Language.English;` (veya desteklenen başka bir enum) ayarlayın. |
+| **Görsel bir PDF sayfası—bu çalışır mı?** | Doğrudan değil. PDF sayfasını bir görüntüye dönüştürün (ör. Aspose.PDF kullanarak) ve bitmap'i `LoadImage`'e verin. |
+| **Dil paketi eksikse ne olur?** | Motor bir `FileNotFoundException` fırlatır. `Directory.Exists(resourcesPath)` kontrolü yaparak (gösterildiği gibi) önlem alın. |
+| **Güven skorlarını elde etmenin bir yolu var mı?** | `ocrResult.Confidence` genel bir skor verir; `ocrResult.Regions` ihtiyacınız olursa karakter bazında güven skorlarını içerir. |
 
-### a. Dilleri Değiştirme
+## Üretim‑Hazır OCR için Pro İpuçları
 
-```csharp
-recognitionSettings.Language = Language.Spanish; // For Spanish receipts
-```
+1. **Görüntüleri ön‑işleyin** – eğikliği düzeltin, kontrastı artırın ve gürültüyü kaldırın. Basit `System.Drawing` filtreleri doğruluğu büyük ölçüde artırabilir.  
+2. **Motoru önbelleğe alın** – her istek için yeni bir `OcrEngine` oluşturmak maliyetlidir. Web hizmetinde dil başına bir singleton tutun.  
+3. **Unicode'u doğru yönetin** – konsolunuzun veya UI'nizin UTF‑8 kullandığından emin olun; aksi takdirde Latin dışı karakterler “�” olarak görünebilir.  
+4. **Ham çıktıyı kaydedin** – `ocrResult.Text`'i orijinal görüntünün yanında denetim izleri için saklayın.  
+5. **Nazik geri dönüş** – güven skoru 0.6'nın altına düşerse, kullanıcıyı yeniden taramaya yönlendirmeyi veya ikinci bir OCR motoru çalıştırmayı düşünün.
 
-### b. Özel Filtreler Ekleme
+## Sonuç
 
-Aspose ayrıca `PreprocessFilter.Sharpen` veya `PreprocessFilter.Binarize` sunar. Varsayılan üçlü yeterli gelmezse bunlarla deney yapın.
+Aspose OCR kullanarak **görüntüden metin çıkardık**, **load image for OCR** nasıl yapılacağını gösterdik ve çevrim dışı, yüksek doğruluklu sonuçlar için **set OCR language**'in doğru yolunu anlattık. Tam, çalıştırılabilir örnek dakikalar içinde işe başlamanızı sağlayacak ve ek ipuçları ölçeklendikçe uygulamanızın sağlam kalmasını sağlayacak.
 
-### c. Büyük Görüntülerle Çalışma
+Bir sonraki adıma hazır mısınız? Tamil paketini başka bir dille değiştirin ya da birden fazla dosyayı paralel olarak toplu işleyin. Ayrıca Aspose'un **image preprocessing utilities**'ini keşfederek zor taramalardan daha fazla doğruluk elde edebilirsiniz.
 
-Çok yüksek çözünürlüklü fotoğraflar için önce ölçek küçültülerek bellek kullanımı düşük tutulabilir:
-
-```csharp
-var resizedStream = ImageProcessor.Resize(imageStream, 1024, 768);
-string text = ocrEngine.Recognize(resizedStream, recognitionSettings);
-```
-
-## Sık Sorulan Sorular
-
-**S: Bu el yazısı notlarla çalışır mı?**  
-C: Aspose OCR, basılı metin için ayarlanmıştır. El yazısı tanıma farklı bir motor (ör. Aspose.OCR for Handwriting veya bir makine öğrenimi modeli) gerektirir.
-
-**S: Bir döngü içinde birden fazla görüntüyü işleyebilir miyim?**  
-C: Kesinlikle. `using (var ocrEngine = new OcrEngine())` bloğunu döngünün dışına taşıyıp motoru tekrar kullanmak performansı artırır.
-
-**S: Görüntü bir PDF sayfası ise ne yapmalıyım?**  
-C: PDF sayfasını önce bir görüntüye dönüştürün (Aspose.PDF sayfaları PNG/JPEG olarak render edebilir), ardından OCR motoruna besleyin.
-
-## Özet – Neler Başardık
-
-- **Görüntüden metin çıkarma** tek bir, bağımsız C# programı ile gerçekleştirildi.  
-- **Fotoğraftan metin tanıma** için **OCR doğruluğunu artıran** ön işleme adımları gösterildi.  
-- **OCR için görüntü yükleme** ve çok dilli senaryolar için **OCR dilini ayarlama** doğru yöntemi sergilendi.  
-
-## Sonraki Adımlar ve İlgili Konular
-
-- **Toplu işleme:** Bu kodu `Directory.GetFiles` ile birleştirerek bir klasördeki tüm dosyaları OCR'layın.  
-- **Sonrası işleme:** Çıkarma sonrası tarih, tutar veya kimlik gibi değerleri temizlemek için düzenli ifadeler (regex) kullanın.  
-- **Entegrasyonlar:** Çıkarılan metni Azure Cognitive Search veya Elastic'e göndererek aranabilir belgeler oluşturun.  
-
-Farklı filtre kombinasyonları, diller ve görüntü kaynaklarıyla denemeler yapmaktan çekinmeyin. Temel desen aynı kalır: motoru oluştur, ayarları yapılandır, görüntüyü yükle, tanı, ve çıktıyı ver. İyi kodlamalar!
+Bir sorunla karşılaşırsanız, aşağıya yorum bırakın—iyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

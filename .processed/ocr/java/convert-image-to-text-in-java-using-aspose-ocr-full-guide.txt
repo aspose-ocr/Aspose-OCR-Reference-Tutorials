@@ -1,0 +1,7 @@
+Title: Convert Image to Text in Java Using Aspose OCR – Full Guide
+Slug: convert-image-to-text-in-java-using-aspose-ocr-full-guide
+Category: ocr-operations
+ProcessedDate: 2026-07-05T11:17:51.451888
+SourceRepo: AI Search API
+Keywords: convert image to text, extract text from scan, extract text from tif, recognize text from stream, how to ocr stream
+PRNumber: 168

@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-01-07
-description: Extraire du texte d’une image à l’aide d’Aspose OCR en C#. Apprenez à
-  reconnaître le texte à partir d’une photo, à améliorer la précision de l’OCR, à
-  charger l’image pour l’OCR et à définir la langue de l’OCR.
+date: 2026-01-04
+description: Extraire du texte d’une image à l’aide d’Aspose OCR en C#. Apprenez comment
+  charger une image pour l’OCR et définir la langue OCR pour le traitement hors ligne.
 draft: false
 keywords:
 - extract text from image
-- recognize text from photo
-- improve ocr accuracy
 - load image for ocr
 - set ocr language
+- offline ocr csharp
+- aspose ocr tutorial
 language: fr
-og_description: Extraire du texte d’une image à l’aide d’Aspose OCR. Ce guide montre
-  comment reconnaître le texte à partir d’une photo, améliorer la précision de l’OCR,
-  charger une image pour l’OCR et définir la langue de l’OCR.
-og_title: Extraire du texte d’une image avec Aspose OCR – Tutoriel C#
+og_description: Extraire du texte d’une image à l’aide d’Aspose OCR en C#. Ce guide
+  montre comment charger une image pour l’OCR et définir la langue OCR pour un traitement
+  hors ligne fiable.
+og_title: Extraire du texte d’une image avec Aspose OCR – Guide complet C#
 tags:
-- Aspose OCR
 - C#
-- Image Processing
+- OCR
+- Aspose
 title: Extraire du texte d’une image avec Aspose OCR – Guide complet C#
 url: /fr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -28,168 +27,216 @@ url: /fr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extraire du texte à partir d'une image – Implémentation complète en C# avec Aspose OCR
+# Extraire du texte à partir d'une image avec Aspose OCR – Guide complet C#
 
-Vous avez déjà eu besoin d'**extraire du texte à partir d'une image** sans savoir quelle bibliothèque vous offrirait des résultats fiables ? Vous n'êtes pas seul. Dans de nombreuses applications réelles—scanneurs de reçus, vérificateurs d'identité, ou simplement un outil de prise de notes rapide—être capable de **reconnaître le texte d'une photo** est une fonctionnalité indispensable.
+Vous avez déjà eu besoin d'**extraire du texte d'une image** mais vous êtes resté bloqué sur la question « comment récupérer les pixels dans le code » ? Vous n'êtes pas seul. Dans de nombreuses applications réelles – pensez aux scanners de reçus, à la vérification d'identité ou simplement à la numérisation de notes manuscrites – obtenir des résultats OCR fiables est une fonctionnalité décisive.
 
-Dans ce tutoriel, nous allons parcourir un exemple complet, prêt à l'exécution, qui vous montre comment **charger l'image pour OCR**, configurer le moteur pour **définir la langue OCR**, et appliquer quelques astuces de prétraitement pour **améliorer la précision OCR**. À la fin, vous disposerez d'un seul fichier C# qui affiche le texte extrait dans la console, et vous comprendrez pourquoi chaque paramètre est important.
+Voici le point clé : Aspose OCR vous permet de **charger une image pour l'OCR** et de **définir la langue de l'OCR** sans toucher à Internet. Dans ce tutoriel, nous parcourrons un exemple C# entièrement exécutable qui montre exactement comment faire, ainsi que quelques astuces que vous auriez aimé connaître plus tôt.
 
-> **Astuce :** Le code fonctionne avec Aspose.OCR ≥ 23.5, .NET 6+ et tout environnement Windows, Linux ou macOS capable d'exécuter .NET Core.
+> **Ce que vous allez retenir**  
+> • Un programme complet, copiable‑collable, qui extrait du texte d’une image.  
+> • La compréhension de pourquoi il faut pointer le moteur vers un pack de langue local.  
+> • Des conseils pratiques pour gérer les cas limites (ressources manquantes, mauvais chemins de fichiers, etc.).
 
-## Prérequis
+---
 
-- .NET 6 SDK (ou plus récent) installé  
-- Visual Studio 2022, VS Code, ou tout éditeur de votre choix  
-- Package NuGet `Aspose.OCR` (installer via `dotnet add package Aspose.OCR`)  
-- Un fichier image (JPEG/PNG) contenant du texte imprimé ou tapé clairement  
+## Ce dont vous avez besoin
 
-Si vous avez tout cela, plongeons‑y.
+- **.NET 6+** (le code compile également sous .NET Framework, mais .NET 6 est le meilleur compromis).  
+- **Aspose.OCR for .NET** package NuGet (`Install-Package Aspose.OCR`).  
+- Un dossier local de langues OCR (nous utiliserons le pack Tamil dans l’exemple).  
+- Un fichier image que vous souhaitez traiter (par ex. `tamil_note.jpg`).  
 
-![exemple d'extraction de texte à partir d'une image](/images/ocr-example.png "extraction de texte à partir d'une image – sortie Aspose OCR")
+Aucune connexion Internet n’est requise une fois les ressources linguistiques présentes sur le disque, ce qui rend cette approche parfaite pour les environnements hors ligne ou sécurisés.
 
-## Étape 1 : Créer et libérer le moteur OCR – Noyau « Extraire du texte à partir d'une image »
+---
 
-La première chose dont vous avez besoin est une instance de `OcrEngine`. L’envelopper dans un bloc `using` garantit la libération correcte des ressources natives.
+## Étape 1 : Extraire du texte d’une image – Préparer les ressources
+
+Tout d’abord, nous devons indiquer à Aspose OCR où se trouvent les fichiers de langue. Si vous n’avez pas encore téléchargé le pack Tamil, récupérez‑le sur le site d’Aspose et placez‑le dans un dossier nommé **Resources** à côté de votre exécutable.
 
 ```csharp
+using System;
+using System.IO;
 using Aspose.OCR;
 using Aspose.OCR.Models;
 
-/// <summary>
-/// Demonstrates how to extract text from image using Aspose OCR.
-/// </summary>
+// Define the path to the local OCR language resources
+string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+
+// Ensure the folder exists – a simple guard against a common pitfall
+if (!Directory.Exists(resourcesPath))
+{
+    Console.WriteLine($"Resources folder not found at {resourcesPath}");
+    return;
+}
+```
+
+**Pourquoi c’est important :** En définissant `ResourcesPath`, nous forçons le moteur en **mode hors ligne**. Cela élimine tout appel réseau inattendu et garantit des résultats cohérents entre les déploiements.
+
+---
+
+## Étape 2 : Charger l’image pour l’OCR
+
+Maintenant que le moteur sait où chercher les données linguistiques, nous devons lui fournir l’image que nous voulons lire. C’est ici que l’étape **load image for OCR** brille – Aspose accepte une large gamme de formats (JPG, PNG, BMP, TIFF, etc.).
+
+```csharp
+// Create and configure the OCR engine
+OcrEngine ocrEngine = new OcrEngine
+{
+    Config =
+    {
+        ResourcesPath = resourcesPath,      // Force offline mode
+        AutoDownloadResources = false,     // Disable on‑demand download
+        Language = Language.Tamil          // Set OCR language (see next step)
+    }
+};
+
+// Load the image you want to recognize
+string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+
+// Defensive check – helps you avoid the dreaded FileNotFoundException
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"Image not found at {imagePath}");
+    return;
+}
+
+ocrEngine.LoadImage(imagePath);
+```
+
+**Astuce pro :** Enveloppez l’appel `LoadImage` dans un bloc try‑catch si votre application traite des fichiers fournis par l’utilisateur. Ainsi vous pouvez afficher une erreur conviviale au lieu d’une trace de pile.
+
+---
+
+## Étape 3 : Définir la langue OCR – Choisir le bon pack
+
+Si vous sautez cette étape, Aspose utilise l’anglais par défaut, ce qui produira du bruit lorsque le texte source est en Tamil, en arabe ou tout autre script. Définir la langue est aussi simple que d’assigner une valeur d’énumération, mais vous pouvez également passer un code ISO‑639‑2 personnalisé si vous avez ajouté un pack tiers.
+
+```csharp
+// The language was already set in the config above, but you can change it at runtime:
+ocrEngine.Config.Language = Language.Tamil; // Options: English, Arabic, ChineseSimplified, etc.
+```
+
+**Pourquoi cela compte :** La précision de l’OCR dépend des modèles de caractères spécifiques à chaque langue. Utiliser le bon pack peut faire passer le taux de reconnaissance de 60 % à plus de 95 % pour de nombreux scripts.
+
+---
+
+## Étape 4 : Effectuer la reconnaissance et obtenir les résultats
+
+Avec tout en place – ressources, image, langue – nous sommes prêts à extraire réellement le texte. La méthode `Recognize` fait tout le travail lourd et renvoie un objet `OcrResult` contenant la chaîne brute, les scores de confiance, et même les boîtes englobantes si vous en avez besoin plus tard.
+
+```csharp
+// Perform the OCR operation
+OcrResult ocrResult = ocrEngine.Recognize();
+
+// Output the recognized text
+Console.WriteLine("=== Extracted Text ===");
+Console.WriteLine(ocrResult.Text);
+```
+
+**Résultat attendu :** En supposant que `tamil_note.jpg` contienne une écriture manuscrite Tamil claire, vous verrez les caractères Unicode Tamil affichés dans la console. Si l’image est floue, le résultat pourra contenir des points d’interrogation ou des symboles illisibles – c’est le moment où le pré‑traitement (deskew, débruitage) devient utile.
+
+---
+
+## Exemple complet fonctionnel
+
+Voici le programme complet que vous pouvez copier‑coller dans un nouveau projet console. Il inclut toutes les protections dont nous avons parlé, vous permettant de l’exécuter immédiatement.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
 class Program
 {
     static void Main()
     {
-        // Step 1 – Initialize the OCR engine (the heart of the process)
-        using (var ocrEngine = new OcrEngine())
+        // -------------------------------------------------
+        // Step 1: Define resources folder (offline OCR)
+        // -------------------------------------------------
+        string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+        if (!Directory.Exists(resourcesPath))
         {
-            // The rest of the workflow lives inside this block.
-```
+            Console.WriteLine($"Resources folder not found at {resourcesPath}");
+            return;
+        }
 
-**Pourquoi c’est important :** `OcrEngine` possède de la mémoire non gérée pour les DLL OCR natives. Le libérer rapidement évite les fuites de mémoire, surtout lorsque vous traitez de nombreuses images en lot.
-
-## Étape 2 : Définir les paramètres de reconnaissance – Améliorer la précision OCR
-
-Ensuite, nous créons un objet `RecognitionSettings`. C’est ici que nous **définissons la langue OCR** et ajoutons des filtres de prétraitement qui font souvent la différence entre une chaîne illisible et une sortie propre.
-
-```csharp
-            // Step 2 – Configure recognition settings
-            var recognitionSettings = new RecognitionSettings
+        // -------------------------------------------------
+        // Step 2: Configure OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Config =
             {
-                // Set the language to English; other languages are available via Language enum.
-                Language = Language.English,
+                ResourcesPath = resourcesPath,
+                AutoDownloadResources = false,
+                Language = Language.Tamil // <-- set OCR language here
+            }
+        };
 
-                // PreprocessFilters help the engine deal with real‑world photo issues.
-                PreprocessFilters = new[]
-                {
-                    PreprocessFilter.Deskew,          // Corrects slight rotation
-                    PreprocessFilter.Denoise,         // Reduces grainy noise
-                    PreprocessFilter.ContrastEnhance // Boosts text visibility
-                }
-            };
-```
+        // -------------------------------------------------
+        // Step 3: Load the image you want to process
+        // -------------------------------------------------
+        string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found at {imagePath}");
+            return;
+        }
 
-**Pourquoi ces filtres ?**  
-- **Deskew** corrige le problème courant d'une photo prise avec un téléphone légèrement inclinée de quelques degrés.  
-- **Denoise** supprime les taches qui peuvent être interprétées comme des caractères.  
-- **ContrastEnhance** fait ressortir l'encre pâle, ce qui est essentiel pour **améliorer la précision OCR**.
+        ocrEngine.LoadImage(imagePath);
 
-## Étape 3 : Charger l'image – Charger l'image pour OCR efficacement
+        // -------------------------------------------------
+        // Step 4: Run OCR and display the result
+        // -------------------------------------------------
+        OcrResult ocrResult = ocrEngine.Recognize();
 
-Aspose fournit `ImageStream.FromFile` pour un chargement rapide. Vous pouvez également fournir un `MemoryStream` si l'image provient d'une requête web ou d'une base de données.
-
-```csharp
-            // Step 3 – Load the image you want to analyze
-            var imagePath = @"YOUR_DIRECTORY/phone_photo.jpg";
-            var imageStream = ImageStream.FromFile(imagePath);
-```
-
-**Écueil fréquent :** Fournir un chemin avec des barres obliques (`/`) sous Windows fonctionne, mais utiliser `Path.Combine` est plus sûr pour les projets multiplateformes.
-
-## Étape 4 : Effectuer la reconnaissance – Reconnaître le texte à partir d'une photo
-
-Nous appelons maintenant `Recognize`, en passant à la fois le flux d'image et nos paramètres. La méthode renvoie une chaîne simple contenant le texte extrait.
-
-```csharp
-            // Step 4 – Run OCR and capture the result
-            string recognizedText = ocrEngine.Recognize(imageStream, recognitionSettings);
-```
-
-Si l'image contient plusieurs blocs de texte, Aspose les concatène avec des sauts de ligne, préservant la mise en page originale autant que possible.
-
-## Étape 5 : Afficher le résultat – Vérifier l'extraction
-
-Enfin, écrivez le résultat dans la console. Dans une vraie application, vous pourriez le stocker dans une base de données, l'envoyer à un autre service, ou l'afficher dans une interface utilisateur.
-
-```csharp
-            // Step 5 – Show the extracted text
-            Console.WriteLine("=== Extracted Text Start ===");
-            Console.WriteLine(recognizedText);
-            Console.WriteLine("=== Extracted Text End ===");
-        } // End of using block – OcrEngine disposed
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-### Sortie console attendue
+**Exécution :**  
+1. Placez le dossier `Resources` (contient les fichiers de langue Tamil) à côté du `.exe` compilé.  
+2. Déposez `tamil_note.jpg` dans le même répertoire.  
+3. Lancez `dotnet run` (ou exécutez l’EXE).  
 
-```
-=== Extracted Text Start ===
-This is a sample receipt.
-Total: $23.45
-Thank you for shopping!
-=== Extracted Text End ===
-```
+Vous devriez voir le texte Tamil extrait affiché dans la console.
 
-Si vous voyez des caractères illisibles, vérifiez que l'image est nette, que la langue correspond au texte, et que les filtres de prétraitement sont appropriés.
+---
 
-## Étape 6 : Ajustements optionnels – Affiner pour les cas limites
+## Questions fréquentes & cas limites
 
-### a. Changer de langue
+| Question | Réponse |
+|----------|---------|
+| **Et si je dois traiter plusieurs images ?** | Réutilisez la même instance `OcrEngine` – appelez simplement `LoadImage` à nouveau avant chaque `Recognize`. |
+| **Puis‑je changer de langue à la volée ?** | Absolument. Définissez `ocrEngine.Config.Language = Language.English;` (ou tout autre enum supporté) avant de charger la prochaine image. |
+| **Mon image est une page PDF – cela fonctionne‑t‑il ?** | Pas directement. Convertissez la page PDF en image (par ex. avec Aspose.PDF) puis transmettez le bitmap à `LoadImage`. |
+| **Que faire si le pack de langue est absent ?** | Le moteur lèvera une `FileNotFoundException`. Protégez‑vous en vérifiant `Directory.Exists(resourcesPath)` (comme montré). |
+| **Existe‑t‑il un moyen d’obtenir les scores de confiance ?** | `ocrResult.Confidence` donne un score global ; `ocrResult.Regions` contient la confiance par caractère si vous avez besoin de données granulaire. |
 
-```csharp
-recognitionSettings.Language = Language.Spanish; // For Spanish receipts
-```
+---
 
-### b. Ajouter des filtres personnalisés
+## Astuces pro pour un OCR prêt pour la production
 
-Aspose propose également `PreprocessFilter.Sharpen` ou `PreprocessFilter.Binarize`. Expérimentez avec eux lorsque le trio par défaut ne suffit pas.
+1. **Pré‑traitez les images** – redressez, augmentez le contraste et éliminez le bruit. Des filtres simples de `System.Drawing` peuvent augmenter la précision de façon spectaculaire.  
+2. **Mettez en cache le moteur** – créer un nouveau `OcrEngine` pour chaque requête est coûteux. Conservez un singleton par langue dans un service web.  
+3. **Gérez correctement l’Unicode** – assurez‑vous que votre console ou UI utilise UTF‑8 ; sinon les caractères non latins apparaîtront comme “�”.  
+4. **Consignez la sortie brute** – stockez `ocrResult.Text` avec l’image originale pour des pistes d’audit.  
+5. **Repli gracieux** – si la confiance chute sous 0,6, envisagez de demander à l’utilisateur de rescanner ou d’utiliser un moteur OCR secondaire.
 
-### c. Gérer les images volumineuses
+---
 
-Pour des photos très haute résolution, réduisez d'abord la taille afin de garder une consommation mémoire faible :
+## Conclusion
 
-```csharp
-var resizedStream = ImageProcessor.Resize(imageStream, 1024, 768);
-string text = ocrEngine.Recognize(resizedStream, recognitionSettings);
-```
+Nous venons d’**extraire du texte d’une image** avec Aspose OCR, de démontrer comment **charger une image pour l’OCR**, et d’avoir montré la bonne façon de **définir la langue OCR** pour des résultats hors ligne et très précis. L’exemple complet et exécutable devrait vous mettre en route en quelques minutes, et les conseils supplémentaires garderont votre implémentation robuste à mesure que vous évoluez.
 
-## FAQ – Questions fréquentes
+Prêt pour l’étape suivante ? Essayez de remplacer le pack Tamil par une autre langue, ou expérimentez le traitement par lots de plusieurs fichiers en parallèle. Vous pouvez également explorer les **utilitaires de pré‑traitement d’image** d’Aspose pour extraire encore plus de précision de scans difficiles.
 
-**Q : Cela fonctionne-t-il avec des notes manuscrites ?**  
-**R :** Aspose OCR est optimisé pour le texte imprimé. La reconnaissance manuscrite nécessite un moteur différent (par ex., Aspose.OCR for Handwriting ou un modèle d’apprentissage automatique).
-
-**Q : Puis-je traiter plusieurs images dans une boucle ?**  
-**R :** Absolument. Déplacez simplement le bloc `using (var ocrEngine = new OcrEngine())` à l’extérieur de la boucle et réutilisez le moteur pour de meilleures performances.
-
-**Q : Et si l'image est une page PDF ?**  
-**R :** Convertissez d'abord la page PDF en image (Aspose.PDF peut rendre les pages en PNG/JPEG), puis alimentez‑la au moteur OCR.
-
-## Récapitulatif – Ce que nous avons réalisé
-
-- **Texte extrait d'une image** à l'aide d'un programme C# unique et autonome.  
-- Démontré comment **reconnaître le texte à partir d'une photo** avec un prétraitement qui **améliore la précision OCR**.  
-- Montré la bonne façon de **charger l'image pour OCR** et de **définir la langue OCR** pour des scénarios multilingues.  
-
-## Prochaines étapes et sujets associés
-
-- **Traitement par lots :** Combinez cet extrait avec `Directory.GetFiles` pour OCRiser un dossier complet.  
-- **Post‑traitement :** Utilisez des expressions régulières pour nettoyer les dates, montants ou identifiants après l'extraction.  
-- **Intégrations :** Alimentez le texte extrait dans Azure Cognitive Search ou Elastic pour des documents recherchables.  
-
-N'hésitez pas à expérimenter avec différentes combinaisons de filtres, langues et sources d'images. Le schéma de base reste le même : créez le moteur, configurez les paramètres, chargez l'image, reconnaissez, et affichez. Bon codage !
+Si vous rencontrez un problème, laissez un commentaire ci‑dessous – bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
