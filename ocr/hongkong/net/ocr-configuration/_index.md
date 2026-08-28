@@ -121,6 +121,11 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 **測試版本：** Aspose.OCR 24.11 for .NET
 **作者：** Aspose
 
+總之，這些 OCR 配置教學提供了對 Aspose.OCR for .NET 的全面理解。無論您使用存檔圖像、資料夾、語言選擇或列表，這些逐步指南都可確保您充分利用 OCR 的潛力，從而提升應用程式的文字擷取功能。使用 Aspose.OCR 潛入、探索並解鎖 OCR 魔力！
+## OCR 設定教學
+### [如何在 C# 中檢查 OCR 語言支援 – 完整指南](./how-to-check-ocr-language-support-in-c-complete-guide/)
+了解如何在 C# 使用 Aspose.OCR 檢查支援的語言清單，確保正確設定 OCR 語言。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

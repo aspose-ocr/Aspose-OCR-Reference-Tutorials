@@ -95,6 +95,10 @@ GPU त्वरण के साथ तेज़ OCR के लिए C# मे
 
 .NET ट्यूटोरियल लिस्टिंग के लिए Aspose.OCR का उपयोग करके, आप अतिरिक्त संसाधनों तक पहुंच सकते हैं और OCR अनुकूलन में नवीनतम प्रगति पर अपडेट रह सकते हैं। .NET ट्यूटोरियल के लिए Aspose.OCR के साथ सटीकता और दक्षता की दुनिया में उतरें।
 ## ओसीआर अनुकूलन ट्यूटोरियल
+### [C# में Aspose के साथ OCR सटीकता सुधारें – चरण‑दर‑चरण मार्गदर्शिका](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Aspose के साथ C# में OCR की सटीकता बढ़ाने के लिए विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR के साथ बैकग्राउंड हटाएँ – पूर्ण GPU गाइड](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Aspose OCR का उपयोग करके GPU पर बैकग्राउंड हटाने की प्रक्रिया को चरण‑दर‑चरण सीखें।
 ### [Aspose OCR और GPU के साथ छवि से टेक्स्ट निकालें – C# गाइड](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Aspose OCR और GPU का उपयोग करके तेज़ी से छवि से टेक्स्ट निकालें। C# में चरण-दर-चरण मार्गदर्शिका।
 ### [Aspose OCR का उपयोग करके स्कैन की गई फ़ाइलों से खोज योग्य PDF बनाएं](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)

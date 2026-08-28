@@ -125,6 +125,10 @@ A: Ja, `OcrResult`‑objektet ger förtroendevärden som du kan inspektera progr
 **Testad med:** Aspose.OCR 24.11 för .NET
 **Författare:** Aspose
 
+Sammanfattningsvis erbjuder dessa OCR-konfigurationshandledningar en holistisk förståelse av Aspose.OCR för .NET. Oavsett om du arbetar med arkivbilder, mappar, språkval eller listor säkerställer dessa steg-för-steg-guider att du utnyttjar OCRs fulla potential, vilket ökar din applikations textextraheringsmöjligheter. Dyk in, utforska och lås upp OCR-magin med Aspose.OCR!
+## Handledning för OCR-konfiguration
+### [Hur man kontrollerar OCR-språkstöd i C# – Komplett guide](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Lär dig hur du verifierar vilka språk som stöds av OCR i C# med en komplett guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

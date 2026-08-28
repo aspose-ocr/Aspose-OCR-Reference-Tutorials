@@ -100,6 +100,10 @@ Pelajari cara membuat PDF yang dapat dicari menggunakan OCR batch di C# dengan p
 
 Dengan menggunakan Aspose.OCR Untuk Daftar Tutorial .NET, Anda dapat mengakses sumber daya tambahan dan terus mendapatkan informasi terkini tentang kemajuan terbaru dalam pengoptimalan OCR. Selami dunia presisi dan efisiensi dengan tutorial Aspose.OCR untuk .NET.
 ## Tutorial Optimasi OCR
+### [Meningkatkan Akurasi OCR di C# dengan Aspose – Panduan Langkah‑per‑Langkah](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Pelajari cara meningkatkan akurasi OCR di C# menggunakan Aspose dengan panduan langkah demi langkah yang mudah diikuti.
+### [Menghapus Latar Belakang OCR dengan Aspose OCR – Panduan GPU Lengkap](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Panduan lengkap menggunakan GPU untuk menghapus latar belakang pada gambar OCR dengan Aspose OCR.
 ### [Ekstrak teks dari gambar dengan Aspose OCR & GPU – Panduan C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dengan akselerasi GPU dalam C# untuk performa tinggi.
 ### [Buat PDF yang Dapat Dicari dari File Pindai Menggunakan Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)

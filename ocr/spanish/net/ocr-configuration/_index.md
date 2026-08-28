@@ -130,6 +130,11 @@ R: Sí, el objeto `OcrResult` proporciona valores de confianza que puedes inspec
 
 ---
 
+En conclusión, estos tutoriales de configuración de OCR ofrecen una comprensión integral de Aspose.OCR para .NET. Ya sea que esté trabajando con imágenes de archivo, carpetas, selección de idioma o listas, estas guías paso a paso le garantizan aprovechar todo el potencial del OCR, elevando las capacidades de extracción de texto de su aplicación. ¡Sumérgete, explora y desbloquea la magia del OCR con Aspose.OCR!
+## Tutoriales de configuración de OCR
+### [Cómo verificar la compatibilidad de idiomas OCR en C# – Guía completa](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Descubra cómo comprobar qué idiomas admite Aspose.OCR en C# y garantice una extracción de texto precisa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

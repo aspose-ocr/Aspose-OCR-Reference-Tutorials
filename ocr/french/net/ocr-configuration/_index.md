@@ -86,6 +86,8 @@ Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement l
 - **Avertissement :** Les archives volumineuses peuvent consommer une quantité importante de mémoire ; envisagez un traitement par lots. 
 ### [OCROOpération avec sélection de langue dans la reconnaissance d'images OCR](./ocr-operation-with-language-selection/)
 Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le texte des images de manière transparente.
+### [Comment vérifier la prise en charge des langues OCR en C# – Guide complet](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Découvrez comment vérifier quelles langues OCR sont prises en charge dans Aspose.OCR pour C# et assurez une extraction de texte précise.
 ### [Extraction de texte russe et définition du chemin des ressources en C# – Guide Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Apprenez à extraire du texte russe et à définir le chemin des ressources dans une application C# avec Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}

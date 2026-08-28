@@ -129,6 +129,11 @@ A: Ja, das `OcrResult`‑Objekt liefert Konfidenzwerte, die Sie programmgesteuer
 
 ---
 
+Zusammenfassend bieten diese OCR-Konfigurations-Tutorials ein ganzheitliches Verständnis von Aspose.OCR für .NET. Unabhängig davon, ob Sie mit Archivbildern, Ordnern, Sprachauswahl oder Listen arbeiten, stellen diese Schritt-für-Schritt-Anleitungen sicher, dass Sie das volle Potenzial von OCR nutzen und die Textextraktionsfunktionen Ihrer Anwendung verbessern. Tauchen Sie ein, erkunden Sie und entfesseln Sie die OCR-Magie mit Aspose.OCR!
+## Tutorials zur OCR-Konfiguration
+### [Wie man die OCR-Sprachunterstützung in C# prüft – Vollständige Anleitung](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Erfahren Sie, wie Sie in C# die unterstützten OCR-Sprachen ermitteln und optimal nutzen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

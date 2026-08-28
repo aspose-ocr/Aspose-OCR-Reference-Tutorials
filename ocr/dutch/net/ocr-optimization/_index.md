@@ -100,6 +100,11 @@ Leer hoe u met batch-OCR doorzoekbare PDF's maakt in C# met Aspose.OCR.
 
 Met Aspose.OCR For .NET Tutorials Listing heeft u toegang tot aanvullende bronnen en kunt u op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR-optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET-tutorials.
 ## OCR-optimalisatie-tutorials
+### [Verbeter OCR-nauwkeurigheid in C# met Aspose – Stapsgewijze gids](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Leer hoe u OCR-nauwkeurigheid in C# verbetert met Aspose via een gedetailleerde stapsgewijze handleiding.
+### [Achtergrond verwijderen bij OCR met Aspose OCR – Complete GPU-gids](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Leer hoe u met GPU-versnelling de achtergrond van OCR-afbeeldingen verwijdert voor betere herkenning.
+
 ### [Tekst extraheren uit afbeelding met Aspose OCR & GPU – C# gids](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Gebruik Aspose OCR en GPU voor snelle tekstextractie uit afbeeldingen met C#.
 ### [Maak doorzoekbare PDF van gescande bestanden met Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)

@@ -60,6 +60,12 @@ url: /th/net/text-recognition/
 ปลดล็อกศักยภาพของ OCR ใน .NET ด้วย Aspose.OCR แยกข้อความจาก PDF ได้อย่างง่ายดาย ดาวน์โหลดทันทีเพื่อประสบการณ์การบูรณาการที่ราบรื่น
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
 ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการจดจำตารางในการจดจำรูปภาพ OCR
+### [แปลงภาพเป็นข้อความใน C# – คู่มือ OCR ฉบับสมบูรณ์](./convert-image-to-text-in-c-complete-ocr-guide/)
+เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย C# อย่างละเอียด ด้วย Aspose.OCR พร้อมขั้นตอนครบถ้วนเพื่อการจดจำที่แม่นยำ
+### [ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีดึงข้อความจากภาพด้วย Aspose OCR ใน C# อย่างละเอียดครบถ้วนในคู่มือฉบับสมบูรณ์
+### [วิธีทำ OCR ใน C# – แยกข้อความจากภาพด้วย Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+เรียนรู้ขั้นตอนการใช้ Aspose OCR ใน C# เพื่อดึงข้อความจากภาพอย่างแม่นยำและง่ายดาย
 ### [การรับรู้ข้อความหลายภาษาใน C# ด้วย Aspose OCR – คู่มือฉบับสมบูรณ์](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
 เรียนรู้วิธีรับรู้ข้อความหลายภาษาใน C# ด้วย Aspose OCR อย่างเต็มที่ด้วยคู่มือขั้นตอนที่ครบถ้วน
 ### [สกัดข้อความจากภาพใน C# – OCR แบบออฟไลน์ด้วย Aspose (คู่มือขั้นตอนโดยละเอียด)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
@@ -72,8 +78,6 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose.OCR ใน .NET เพื่อดึงข้อความภาษาเกาหลีจากรูปภาพอย่างแม่นยำและง่ายดาย
 ### [บทแนะนำ c# OCR – การประมวลผล OCR แบบกลุ่มสำหรับไฟล์ TIFF ที่สแกน](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
 เรียนรู้วิธีประมวลผล OCR เป็นกลุ่มสำหรับไฟล์ TIFF ที่สแกนด้วย Aspose.OCR ใน C# เพื่อเพิ่มประสิทธิภาพการทำงาน
-
-### [ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 
 ### [แปลงภาพเป็นข้อความใน C# ด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
 เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย Aspose OCR ใน C# ผ่านขั้นตอนง่าย ๆ เพื่อเพิ่มความสามารถ OCR ให้แอปของคุณ

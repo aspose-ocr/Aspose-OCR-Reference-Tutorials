@@ -75,6 +75,8 @@ Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldhe
 - **Waarschuwing:** Grote archieven kunnen veel geheugenverbruiken; overweeg verwerking in batches.
 ### [OCR-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-language-selection/)
 Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
+### [Hoe OCR-taalondersteuning te controleren in C# – Complete gids](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Leer hoe u in C# kunt controleren welke talen door Aspose.OCR worden ondersteund.
 ### [Russische tekst extraheren & bronpad instellen in C# – Aspose OCR-gids](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Leer hoe u Russische tekst uit afbeeldingen haalt en het resourcepad configureert in C# met Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}

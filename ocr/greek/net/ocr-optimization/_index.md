@@ -100,6 +100,10 @@ weight: 25
 
 Χρησιμοποιώντας το Aspose.OCR Για τη λίστα .NET Tutorials, μπορείτε να αποκτήσετε πρόσβαση σε πρόσθετους πόρους και να ενημερώνεστε για τις πιο πρόσφατες εξελίξεις στη βελτιστοποίηση OCR. Βουτήξτε στον κόσμο της ακρίβειας και της αποτελεσματικότητας με το Aspose.OCR για μαθήματα .NET.
 ## OCR Optimization Tutorials
+### [Βελτιώστε την ακρίβεια OCR σε C# με το Aspose – Οδηγός βήμα προς βήμα](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Ανακαλύψτε πώς να αυξήσετε την ακρίβεια OCR σε εφαρμογές C# χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα προς βήμα.
+### [Αφαίρεση φόντου OCR με Aspose OCR – Πλήρης Οδηγός GPU](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Μάθετε πώς να αφαιρέσετε το φόντο από εικόνες OCR χρησιμοποιώντας το Aspose OCR με πλήρη υποστήριξη GPU για βέλτιστη απόδοση.
 ### [Εξαγωγή κειμένου από εικόνα με Aspose OCR & GPU – Οδηγός C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Αξιοποιήστε την GPU για γρήγορη εξαγωγή κειμένου από εικόνες με Aspose OCR σε C#.
 

@@ -59,6 +59,12 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по использованию Aspose.OCR в C# для распознавания PDF‑документов.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
+### [Конвертировать изображение в текст на C# – Полное руководство по OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
+Полное пошаговое руководство по преобразованию изображений в текст с помощью Aspose.OCR в C#.
+### [Как выполнить OCR в C# – Извлечь текст из изображения с помощью Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+Полное пошаговое руководство по выполнению OCR в C# и извлечению текста из изображений с помощью Aspose OCR.
+### [Извлечь текст из изображения с Aspose OCR – Полное руководство на C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Полное пошаговое руководство по извлечению текста из изображений с помощью Aspose OCR в C#.
 ### [Многоязычное распознавание текста в C# с Aspose OCR – Полное руководство](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
 Полное руководство по многоязычному распознавания текста в C# с использованием Aspose OCR.
 ### [Извлечение текста из изображения в C# – Офлайн OCR с Aspose (Пошаговое руководство)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
@@ -69,8 +75,6 @@ url: /ru/net/text-recognition/
 Научитесь извлекать текст из JPEG‑изображений с помощью Aspose.OCR в C#. Пошаговое руководство для .NET‑разработчиков.
 ### [OCR корейского изображения: Полное руководство по извлечению текста из картинок](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
 Узнайте, как с помощью Aspose.OCR извлекать корейский текст из изображений, следуя пошаговому руководству.
-### [Извлечение текста из изображения с Aspose OCR – Полное руководство C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
-Полное руководство по извлечению текста из изображений с помощью Aspose OCR в C#.
 ### [c# OCR руководство – пакетная обработка OCR для отсканированных TIFF](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
 Научитесь выполнять пакетную обработку OCR для сканированных TIFF‑файлов с помощью Aspose.OCR в C#.
 ### [Преобразование изображения в текст в C# с Aspose OCR – пошаговое руководство](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)

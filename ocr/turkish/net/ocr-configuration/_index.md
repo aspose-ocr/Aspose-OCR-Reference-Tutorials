@@ -126,6 +126,10 @@ C: Evet, `OcrResult` nesnesi programatik olarak inceleyebileceğiniz güven değ
 **Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
 **Yazar:** Aspose
 
+Sonuç olarak, bu OCR yapılandırma eğitimleri Aspose.OCR for .NET'in bütünsel bir anlayışını sunuyor. İster arşiv görüntüleri, klasörler, dil seçimi veya listelerle çalışıyor olun, bu adım adım kılavuzlar OCR'nin tüm potansiyelinden yararlanmanızı sağlayarak uygulamanızın metin çıkarma yeteneklerini artırır. Aspose.OCR ile OCR büyüsüne dalın, keşfedin ve kilidini açın!
+## OCR Yapılandırma Eğitimleri
+### [C#'ta OCR Dil Desteğini Nasıl Kontrol Edilir – Tam Kılavuz](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Aspose.OCR for .NET'te C# kullanarak OCR dil desteğini nasıl kontrol edeceğinizi adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

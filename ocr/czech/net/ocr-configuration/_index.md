@@ -125,6 +125,10 @@ A: Ano, objekt `OcrResult` poskytuje hodnoty důvěry, které můžete programov
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
 
+Závěrem lze říci, že tyto konfigurační kurzy OCR nabízejí holistické pochopení Aspose.OCR pro .NET. Ať už pracujete s archivními obrázky, složkami, výběrem jazyka nebo seznamy, tyto podrobné příručky zajistí, že využijete plný potenciál OCR a zvýšíte možnosti extrakce textu vaší aplikace. Ponořte se, prozkoumejte a odemkněte kouzlo OCR s Aspose.OCR!
+## Výukové programy pro konfiguraci OCR
+### [Jak zkontrolovat podporu jazyků OCR v C# – Kompletní průvodce](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Zjistěte, jak v C# ověřit, které jazyky OCR Aspose.OCR podporuje, a optimalizujte rozpoznávání textu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

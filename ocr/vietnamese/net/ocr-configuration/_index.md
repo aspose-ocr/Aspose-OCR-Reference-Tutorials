@@ -63,17 +63,10 @@ Mở khóa tiềm năng của OCR trong các ứng dụng .NET với Aspose.OCR.
 Mở khóa sức mạnh của nhận dạng hình ảnh OCR trong .NET với Aspose.OCR. Trích xuất văn bản một cách dễ dàng từ các hình ảnh.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Mở khóa các khả năng OCR mạnh mẽ với Aspose.OCR cho .NET. Trích xuất văn bản từ hình ảnh một cách liền mạch.
-### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-Mở khóa tiềm năng của Aspose.OCR cho .NET. Thực hiện nhận dạng hình ảnh OCR với danh sách một cách dễ dàng. Tăng năng suất và việc trích xuất dữ liệu trong các ứng dụng của bạn.
-
-### Các trường hợp sử dụng phổ biến
-- **Extract text images** từ hóa đơn đã quét để tự động kế toán.  
-- Lập chỉ mục cho các tệp lưu trữ tài liệu lớn để tạo kho lưu trữ có thể tìm kiếm.  
-- Xây dựng các pipeline dữ liệu đa ngôn ngữ đọc biên lai bằng tiếng Pháp, Đức hoặc Nhật.  
-
-### Mẹo & Cạm bẫy
-- **Pro tip:** Luôn tiền xử lý hình ảnh (ví dụ: chỉnh góc, nhị phân) để cải thiện độ chính xác.  
-- **Warning:** Các tệp lưu trữ lớn có thể tiêu tốn nhiều bộ nhớ; hãy xem xét xử lý theo lô.  
+### [OCRHoạt động với danh sách trong nhận dạng hình ảnh OCR](./ocr-operation-with-list/)
+Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nhận dạng hình ảnh OCR bằng danh sách. Tăng năng suất và trích xuất dữ liệu trong các ứng dụng của bạn.
+### [Cách Kiểm Tra Hỗ Trợ Ngôn Ngữ OCR trong C# – Hướng Dẫn Đầy Đủ](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Tìm hiểu cách xác định các ngôn ngữ OCR được hỗ trợ trong Aspose.OCR cho C# và cách sử dụng chúng trong dự án của bạn.
 ### [Trích xuất văn bản tiếng Nga & thiết lập đường dẫn tài nguyên trong C# – Hướng dẫn Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và cấu hình đường dẫn tài nguyên trong Aspose.OCR cho C#.
 

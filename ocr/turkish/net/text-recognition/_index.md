@@ -59,6 +59,12 @@ Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni
 Aspose kullanarak PDF dosyalarını OCR ile işleyin, metni dönüştürün, dışa aktarın ve içinde arama yapın.
 ### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 OCR görüntü tanımada tabloları tanımaya ilişkin kapsamlı kılavuzumuzla Aspose.OCR for .NET'in potansiyelini ortaya çıkarın.
+### [C#'ta Görüntüyü Metne Dönüştürme – Tam OCR Rehberi](./convert-image-to-text-in-c-complete-ocr-guide/)
+C# kullanarak görüntüyü metne dönüştürmek için adım adım tam OCR rehberi.
+### [C#'ta OCR Nasıl Yapılır – Aspose OCR ile Görüntüden Metin Çıkarma](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarma adımlarını öğrenin.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Rehberi](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarma adımlarını öğrenin. Tam rehberle OCR sürecinizi hızlandırın.
 ### [C# ile Çok Dilli Metin Tanıma – Aspose OCR Tam Kılavuzu](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
 Aspose OCR ile C# içinde çok dilli metin tanımayı adım adım öğrenin ve projelerinizde uygulayın.
 ### [C# ile Görüntüden Metin Çıkarma – Aspose ile Çevrimdışı OCR (Adım Adım Kılavuz)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
@@ -71,8 +77,6 @@ C# kullanarak PDF dosyalarından metni hızlı ve doğru bir şekilde OCR ile ç
 JPEG formatındaki görüntülerden metin çıkararak .NET uygulamalarınızda OCR yeteneklerini geliştirin.
 ### [OCR Kore Görüntüsü: Resimlerden Metin Çıkarma Tam Kılavuzu](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
 Kore dilindeki görüntülerden metin çıkarma sürecini adım adım öğrenin ve .NET uygulamalarınızda OCR'yi etkili bir şekilde kullanın.
-### [Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Kılavuzu](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
-Aspose OCR ile C# kullanarak görüntülerden metin çıkarma sürecini ayrıntılı olarak öğrenin.
 ### [c# OCR eğitimi – Tarama TIFF'leri için Toplu OCR İşleme](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
 Tarama TIFF dosyalarından toplu olarak metin çıkarma sürecini adım adım öğrenin.
 ### [C# ile Görüntüyü Metne Dönüştürme – Aspose OCR – Adım Adım Kılavuz](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)

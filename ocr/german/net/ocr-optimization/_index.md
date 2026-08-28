@@ -95,6 +95,10 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# mehrere PDFs stapelweise verarbeiten 
 
 Mit Aspose.OCR For .NET Tutorials Listing können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR-Optimierung auf dem Laufenden bleiben. Tauchen Sie mit Aspose.OCR für .NET-Tutorials in die Welt der Präzision und Effizienz ein.
 ## Tutorials zur OCR-Optimierung
+### [Verbessern Sie die OCR-Genauigkeit in C# mit Aspose – Schritt‑für‑Schritt‑Anleitung](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# die OCR-Genauigkeit steigern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Hintergrund entfernen OCR mit Aspose OCR – Vollständiger GPU-Leitfaden](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR den Bildhintergrund entfernen und GPU‑Beschleunigung für maximale Leistung nutzen.
 ### [Text aus Bild mit Aspose OCR & GPU – C#‑Leitfaden](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Nutzen Sie GPU‑Beschleunigung, um Text aus Bildern schnell mit Aspose OCR in C# zu extrahieren.
 ### [Durchsuchbares PDF aus gescannten Dateien mit Aspose OCR erstellen](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
