@@ -42,6 +42,8 @@ url: /hi/net/skew-angle-calculation/
 OCR छवि पहचान में तिरछे कोणों की आसानी से गणना करने के लिए .NET के लिए Aspose.OCR का अन्वेषण करें। अपनी परियोजनाओं को सटीकता और दक्षता के साथ बढ़ाएं।
 ### [OCR के लिए इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-for-ocr-complete-c-guide/)
 .NET के लिए Aspose.OCR का उपयोग करके इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें और OCR सटीकता बढ़ाएँ।
+### [इमेज को डेस्क्यू कैसे करें – OCR प्री‑प्रोसेसिंग के लिए पूर्ण C# गाइड](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+.NET के लिए Aspose.OCR के साथ इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, OCR प्री‑प्रोसेसिंग को आसान बनाएं।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

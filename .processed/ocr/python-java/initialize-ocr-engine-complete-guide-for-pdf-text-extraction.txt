@@ -1,0 +1,7 @@
+Title: Initialize OCR Engine – Complete Guide for PDF Text Extraction
+Slug: initialize-ocr-engine-complete-guide-for-pdf-text-extraction
+Category: general
+ProcessedDate: 2026-06-26T00:08:21.794307
+SourceRepo: AI Search API
+Keywords: initialize ocr engine
+PRNumber: 160

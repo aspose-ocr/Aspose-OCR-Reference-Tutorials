@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from Scanned Image – Full Python OCR Guide
+Slug: create-searchable-pdf-from-scanned-image-full-python-ocr-gui
+Category: general
+ProcessedDate: 2026-07-05T12:19:38.992120
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned image pdf, how to ocr pdf, ocr recognition example, convert png searchable pdf
+PRNumber: 170

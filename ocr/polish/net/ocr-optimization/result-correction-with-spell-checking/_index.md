@@ -1,35 +1,56 @@
 ---
-title: Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
-linktitle: Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
+date: 2026-04-29
+description: Popraw dokładność OCR i dowiedz się, jak rozpoznawać tekst z obrazu przy
+  użyciu Aspose OCR dla .NET, wykorzystując sprawdzanie pisowni i obsługę języków
+  do korekty błędów oraz dostosowywania słowników.
+keywords:
+- improve ocr accuracy
+- recognize text from image
+- Aspose OCR spell checking
+- custom OCR dictionary
+linktitle: Popraw dokładność OCR dzięki sprawdzaniu pisowni na obrazach
 second_title: Aspose.OCR .NET API
-description: Zwiększ dokładność OCR dzięki Aspose.OCR dla .NET. Poprawiaj pisownię, dostosowuj słowniki i bezproblemowo rozpoznawaj tekst bez błędów.
-weight: 13
+title: Popraw dokładność OCR dzięki sprawdzaniu pisowni na obrazach
 url: /pl/net/ocr-optimization/result-correction-with-spell-checking/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
+# Popraw dokładność OCR za pomocą sprawdzania pisowni na obrazach
 
-## Wstęp
+Kiedy pracujesz z rozpoznawaniem znaków optycznych (OCR), ostatecznym celem jest **poprawa dokładności OCR**, aby wyodrębniony tekst idealnie odpowiadał oryginalnemu obrazowi. Błędnie napisane słowa są częstym źródłem błędów, szczególnie gdy obraz źródłowy jest zaszumiony lub zawiera nietypowe czcionki. Aspose.OCR dla .NET oferuje wbudowane funkcje sprawdzania pisowni, które nie tylko korygują te błędy, ale także pozwalają rozszerzyć silnik o własne słowniki. W tym samouczku dowiesz się, jak używać sprawdzania pisowni, aby zwiększyć wyniki OCR, zobaczysz efekty przed i po oraz odkryjesz, jak dostosować proces korekcji do konkretnych potrzeb językowych.
 
-dziedzinie optycznego rozpoznawania znaków (OCR) uzyskanie dokładnych wyników ma kluczowe znaczenie dla wydobycia znaczących informacji z obrazów. Częstym wyzwaniem jest radzenie sobie z błędnie napisanymi słowami w procesie rozpoznawania. Na szczęście Aspose.OCR dla .NET zapewnia potężne rozwiązanie poprawiające wyniki OCR poprzez sprawdzanie pisowni.
+## Szybkie odpowiedzi
+- **Co robi sprawdzanie pisowni dla OCR?** Automatycznie wykrywa błędnie napisane słowa w wyniku OCR i zastępuje je najbardziej prawdopodobnymi poprawnymi alternatywami.  
+- **Która biblioteka zapewnia tę funkcję?** Aspose.OCR for .NET zawiera gotowe do użycia API sprawdzania pisowni.  
+- **Czy potrzebuję połączenia z internetem?** Nie, silnik sprawdzania pisowni działa całkowicie offline.  
+- **Czy mogę dodać własną terminologię?** Tak, możesz dostarczyć własny słownik użytkownika, aby obsługiwać słowa specyficzne dla domeny.  
+- **Jak to pomaga mi rozpoznawać tekst z obrazu?** Poprzez korektę błędów wygenerowanych przez OCR, końcowy tekst staje się czysty i gotowy do dalszego przetwarzania.
 
-Ten samouczek poprowadzi Cię przez proces poprawiania wyników poprzez sprawdzanie pisowni przy użyciu Aspose.OCR dla .NET. Na koniec będziesz mieć możliwość poprawy dokładności tekstu pochodzącego z OCR, zapewniając bardziej dopracowany i wolny od błędów wynik.
+## Czym jest sprawdzanie pisowni w OCR?
+Sprawdzanie pisowni analizuje surowy tekst zwrócony przez silnik OCR, identyfikuje tokeny, które nie pasują do znanych słów w wybranym słowniku językowym, i sugeruje lub stosuje poprawki. Ten krok jest niezbędny dla **poprawy dokładności OCR**, szczególnie przy przetwarzaniu zeskanowanych dokumentów, paragonów czy formularzy, w których OCR może błędnie interpretować znaki.
 
-## Warunki wstępne
+## Dlaczego warto używać wsparcia językowego Aspose OCR?
+Aspose.OCR ships with extensive language packs and allows you to plug in additional dictionaries. Leveraging **aspose ocr language support** means you can handle multilingual documents without writing custom parsers, and you gain access to language‑specific rules that further improve recognition quality.
 
-Zanim zagłębimy się w magię sprawdzania pisowni, upewnij się, że spełniasz następujące wymagania wstępne:
+## Kiedy poprawa dokładności OCR ma największe znaczenie?
+- **Dokumenty prawne i zgodności** , w których pojedynczy błąd może zmienić znaczenie.  
+- **Potoki ekstrakcji danych** , które przekazują wyniki OCR do analiz lub modeli AI.  
+- **Aplikacje skierowane do klientów** takie jak mobilne skanery, które muszą natychmiast zwracać czytelny tekst.  
 
--  Biblioteka Aspose.OCR dla .NET: Pobierz i zainstaluj bibliotekę Aspose.OCR z[strona wydania](https://releases.aspose.com/ocr/net/).
+## Wymagania wstępne
 
-- Katalog dokumentów: Upewnij się, że masz wyznaczony katalog na swoje dokumenty. Zastąp „Twój katalog dokumentów” we fragmentach kodu rzeczywistą ścieżką.
+Zanim zagłębimy się w magię sprawdzania pisowni, upewnij się, że masz spełnione następujące wymagania:
 
-## Importuj przestrzenie nazw
+- Aspose.OCR for .NET Library: Pobierz i zainstaluj bibliotekę Aspose.OCR ze [strony wydania](https://releases.aspose.com/ocr/net/).
+- Document Directory: Upewnij się, że masz wyznaczony katalog dla swoich dokumentów. Zastąp `"Your Document Directory"` w fragmentach kodu rzeczywistą ścieżką.
 
-Zacznijmy od zaimportowania niezbędnych przestrzeni nazw do Twojego projektu .NET:
+## Importowanie przestrzeni nazw
+
+Zacznijmy od zaimportowania niezbędnych przestrzeni nazw w Twoim projekcie .NET:
 
 ```csharp
 using System;
@@ -37,111 +58,116 @@ using Aspose.OCR.SpellChecker;
 using System.Collections.Generic;
 ```
 
-## Krok 1: Zainicjuj Aspose.OCR
+## Krok 1: Inicjalizacja Aspose.OCR
 
-Zainicjuj instancję Aspose.OCR, aby rozpocząć proces OCR.
+Zainicjalizuj instancję Aspose.OCR, aby rozpocząć proces OCR.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Zainicjuj instancję AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Krok 2: Rozpoznaj obraz
+## Krok 2: Rozpoznawanie obrazu
 
-Następnie rozpoznaj tekst na obrazie za pomocą Aspose.OCR. Oto fragment demonstrujący ten proces:
+Następnie rozpoznaj tekst na obrazie przy użyciu Aspose.OCR. Oto fragment kodu demonstrujący ten proces:
 
 ```csharp
-// Rozpoznaj obraz
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample_bad.png", new RecognitionSettings(Language.Eng));
 ```
 
 ## Krok 3: Przed korektą
 
-Pobierz wynik OCR przed korektą, aby porównać go z poprawioną wersją.
+Pobierz wynik OCR przed korektą, aby porównać go z wersją po poprawce.
 
 ```csharp
-// Uzyskaj wynik
+// Get result
 Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 ```
 
 ## Krok 4: Po korekcie
 
-Zastosuj sprawdzanie pisowni, aby uzyskać poprawiony wynik. Poniższy fragment kodu ilustruje ten krok:
+Zastosuj sprawdzanie pisowni, aby uzyskać skorygowany wynik. Poniższy fragment kodu ilustruje ten krok:
 
 ```csharp
-// Uzyskaj poprawiony wynik
+// Get corrected result
 string correctedResult = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng);
 Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 ```
 
 ## Krok 5: Błędnie napisane słowa i sugestie
 
-Uzyskaj listę błędnie napisanych słów wraz z sugerowanymi poprawkami, korzystając z następującego kodu:
+Uzyskaj listę błędnie napisanych słów wraz z sugerowanymi poprawkami, używając poniższego kodu:
 
 ```csharp
-// Uzyskaj listę błędnie napisanych słów z sugestiami
+// Get list of misspelled words with suggestions
 List<SpellCheckError> errorsList = result.GetSpellCheckErrorList(SpellCheckLanguage.Eng);
 foreach (var word in errorsList)
 {
-	Console.Write("Word:" + word.Word);
-	Console.Write(" StartPosition:" + word.StartPosition);
-	Console.WriteLine(" Length:" + word.Length);
-	Console.WriteLine("SuggestedWords:");
-	foreach (var suggest in word.SuggestedWords)
-	{
-		Console.Write(suggest.Word + " ");
-	}
-	Console.WriteLine();
+    Console.Write("Word:" + word.Word);
+    Console.Write(" StartPosition:" + word.StartPosition);
+    Console.WriteLine(" Length:" + word.Length);
+    Console.WriteLine("SuggestedWords:");
+    foreach (var suggest in word.SuggestedWords)
+    {
+        Console.Write(suggest.Word + " ");
+    }
+    Console.WriteLine();
 }
 ```
 
-## Krok 6: Popraw tekst użytkownika
+## Krok 6: Korekta tekstu użytkownika
 
-Popraw konkretny tekst dostarczony przez użytkownika, korzystając z biblioteki Aspose.OCR:
+Skoryguj konkretny tekst podany przez użytkownika przy użyciu biblioteki Aspose.OCR:
 
 ```csharp
-// Popraw tekst użytkownika
+// Correct user text
 Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 ```
 
-## Krok 7: Korekta za pomocą słownika użytkownika
+## Krok 7: Korekta przy użyciu słownika użytkownika
 
-Jeszcze bardziej ulepsz korekcję, włączając niestandardowy słownik użytkownika:
+Ulepsz korektę, włączając własny słownik użytkownika:
 
 ```csharp
-// Uzyskaj poprawiony wynik za pomocą słownika użytkownika
+// Get corrected result with user dictionary
 string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng, dataDir+"dictionary.txt");
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
-## Wniosek
-
-Gratulacje! Udało Ci się nawigować po możliwościach sprawdzania pisowni Aspose.OCR dla .NET. Ta funkcja umożliwia udoskonalenie wyników OCR, zapewniając dokładność i eliminując błędy.
+## Typowe problemy i rozwiązania
+| Problem | Dlaczego się dzieje | Jak naprawić |
+|-------|----------------|------------|
+| Brak zwróconych sugestii | Pakiet językowy nie jest załadowany lub tekst jest zbyt krótki. | Upewnij się, że `RecognitionSettings(Language.Eng)` odpowiada językowi obrazu źródłowego i że wynik OCR zawiera wystarczającą liczbę znaków. |
+| Niestandardowy słownik nie został zastosowany | Nieprawidłowa ścieżka lub format pliku. | Sprawdź, czy `dictionary.txt` istnieje w podanej lokalizacji i używa jednego słowa w linii. |
+| Sprawdzanie pisowni spowalnia duże dokumenty | Przetwarzanie każdego słowa osobno zwiększa obciążenie. | Przetwarzaj strony w partiach lub zwiększ przydział pamięci, jeśli uruchamiasz na .NET Core. |
 
 ## Często zadawane pytania
 
-### P1: Czy mogę używać Aspose.OCR w językach innych niż angielski?
+**Q1: Czy mogę używać Aspose.OCR dla języków innych niż angielski?**  
+A1: Tak, Aspose.OCR obsługuje wiele języków. Dostosuj odpowiednio ustawienia języka.
 
-O1: Tak, Aspose.OCR obsługuje wiele języków. Dostosuj odpowiednio ustawienia języka.
+**Q2: Jak zintegrować Aspose.OCR z moim projektem .NET?**  
+A2: Zapoznaj się z [dokumentacją](https://reference.aspose.com/ocr/net/) po szczegółowe kroki integracji.
 
-### P2: Jak zintegrować Aspose.OCR z moim projektem .NET?
+**Q3: Czy dostępna jest wersja próbna Aspose.OCR?**  
+A3: Tak, możesz przetestować funkcje za pomocą [bezpłatnej wersji próbnej](https://releases.aspose.com/).
 
- Odpowiedź 2: Patrz[dokumentacja](https://reference.aspose.com/ocr/net/) szczegółowe kroki integracji.
+**Q4: Czy mogę wgrać własny słownik do sprawdzania pisowni?**  
+A4: Oczywiście! Tutorial pokazuje, jak ulepszyć korektę przy użyciu słownika dostarczonego przez użytkownika.
 
-### P3: Czy dostępna jest wersja próbna Aspose.OCR?
+**Q5: Gdzie mogę uzyskać wsparcie dla Aspose.OCR?**  
+A5: Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) aby uzyskać wsparcie społeczności i wskazówki.
 
- Odpowiedź 3: Tak, możesz eksplorować funkcje za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
+---
 
-### P4: Czy mogę przesłać niestandardowy słownik do sprawdzania pisowni?
+**Ostatnia aktualizacja:** 2026-04-29  
+**Testowano z:** Aspose.OCR for .NET latest version  
+**Autor:** Aspose  
 
-A4: Absolutnie! W samouczku pokazano, jak ulepszyć korektę za pomocą słownika dostarczonego przez użytkownika.
-
-### P5: Gdzie mogę szukać wsparcia dla Aspose.OCR?
-
- A5: Odwiedź[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) o wsparcie i wskazówki społeczności.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

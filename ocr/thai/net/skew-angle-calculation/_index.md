@@ -42,6 +42,8 @@ url: /th/net/skew-angle-calculation/
 สำรวจ Aspose.OCR สำหรับ .NET เพื่อคำนวณมุมเอียงในการจดจำรูปภาพ OCR ได้อย่างง่ายดาย ปรับปรุงโครงการของคุณด้วยความแม่นยำและมีประสิทธิภาพ
 ### [วิธีการปรับแนวภาพสำหรับ OCR – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-for-ocr-complete-c-guide/)
 เรียนรู้วิธีปรับแนวภาพเพื่อ OCR อย่างละเอียดด้วย C# และ Aspose.OCR เพื่อเพิ่มความแม่นยำของการจดจำข้อความ
+### [วิธีทำให้ภาพตรง – คู่มือ C# ฉบับสมบูรณ์สำหรับการเตรียม OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+เรียนรู้วิธี Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

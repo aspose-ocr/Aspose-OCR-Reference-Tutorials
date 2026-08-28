@@ -1,0 +1,7 @@
+Title: How to Enable GPU in Java Inference Engine – Complete Guide
+Slug: how-to-enable-gpu-in-java-inference-engine-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-22T19:32:53.630767
+SourceRepo: AI Search API
+Keywords: how to enable gpu, choose gpu device, enable gpu acceleration, how to select gpu, enable gpu for inference
+PRNumber: 153

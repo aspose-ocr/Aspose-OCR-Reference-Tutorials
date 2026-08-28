@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from TIFF with Aspose OCR (Java) – Full Guide
+Slug: create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu
+Category: ocr-operations
+ProcessedDate: 2026-06-29T03:19:50.555694
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert tiff to pdf, add ocr text layer pdf
+PRNumber: 162

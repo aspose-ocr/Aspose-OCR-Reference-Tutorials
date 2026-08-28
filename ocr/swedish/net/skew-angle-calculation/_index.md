@@ -42,6 +42,8 @@ Släpp lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkän
 Utforska Aspose.OCR för .NET för att enkelt beräkna snedvinklar i OCR-bildigenkänning. Förbättra dina projekt med precision och effektivitet.
 ### [Hur du räta upp en bild för OCR – Komplett C#-guide](./how-to-deskew-image-for-ocr-complete-c-guide/)
 Lär dig steg för steg hur du korrigerar snedvridna bilder för OCR med Aspose.OCR i C#.
+### [Hur man räta upp bild – Komplett C#‑guide för OCR‑förbehandling](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Lär dig steg‑för‑steg hur du rättar upp bilder i C# för att förbättra OCR‑förbehandling och öka igenkänningsprecisionen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

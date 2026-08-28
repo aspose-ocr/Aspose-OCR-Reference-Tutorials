@@ -1,11 +1,11 @@
 ---
-date: 2025-12-12
-description: Lär dig hur du utför OCR med Detektera‑områden‑läget med Aspose.OCR för
-  Java, extraherar text från en bild och får stavningskontrollerade resultat. Denna
-  steg‑för‑steg Aspose OCR Java‑handledning.
+date: 2026-02-12
+description: Lär dig hur du extraherar text från en bild i Java med Aspose.OCR, utför
+  OCR med Detektera‑områden‑läge och får OCR med stavningskontrollresultat. Denna
+  omfattande Aspose OCR Java‑handledning.
 linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Hur man utför OCR med Detektera områden-läge med Aspise.OCR för Java
+title: Extrahera text från bild i Java med Aspose.OCR – läge för att upptäcka områden
 url: /sv/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
@@ -14,28 +14,28 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man utför OCR med Detect Areas Mode i Aspose.OCR
+# Extrahera text från bild Java med Aspose.OCR Detect Areas Mode
 
-## Introduktion
+## Introduction
 
-Optisk teckenigenkänning (OCR) är avgörande när du behöver **extrahera text från bild**-filer och omvandla dem till sökbara, redigerbara data. I den här **Aspose OCR Java‑handledningen** går vi igenom ett praktiskt exempel som visar dig **hur du utför OCR** med den kraftfulla *Detect Areas Mode*-funktionen, och vi demonstrerar också den inbyggda stavningskontrollen. I slutet av den här guiden har du ett färdigt kodexempel som känner igen text från ett foto‑liknande dokument och returnerar ren, korrigerad output.
+Att extrahera text från bild‑java‑filer är en vanlig utmaning när du behöver sökbara, redigerbara data från foton, kvitton eller skannade dokument. I den här **Aspose OCR Java‑handledningen** går vi igenom ett praktiskt exempel som visar **hur man extraherar text från bild java** med den kraftfulla *Detect Areas Mode*-funktionen, och vi demonstrerar även den inbyggda **ocr with spell check**‑kapaciteten. I slutet av den här guiden har du ett färdigt kodexempel som känner igen text från ett foto‑likt dokument och returnerar ren, korrigerad output.
 
-## Snabba svar
-- **Vad är Detect Areas Mode?** En inställning som optimerar OCR för fotografiska bilder genom att automatiskt lokalisera textblock.  
-- **Vilket språk använder exemplet?** Java, med Aspose.OCR‑biblioteket.  
-- **Behöver jag en licens för testning?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Kan resultatet stavningskontrolleras?** Ja – API‑et returnerar ett “ocr with spell check”-avsnitt.  
-- **Vilken filtyp används i demonstrationen?** En JPEG‑bild med namnet *Receipt.jpg*.
+## Quick Answers
+- **What is Detect Areas Mode?** En inställning som optimerar OCR för fotografiska bilder genom att automatiskt lokalisera textblock.  
+- **Which language does the example use?** Java, med Aspose.OCR‑biblioteket.  
+- **Do I need a license for testing?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Can the result be spell‑checked?** Ja – API‑et returnerar ett “ocr with spell check”-avsnitt.  
+- **What file type is used in the demo?** En JPEG‑bild med namnet *Receipt.jpg*.
 
-## Förutsättningar
+## Prerequisites
 
 Innan du dyker ner i handledningen, se till att du har följande förutsättningar på plats:
 
-- Java‑utvecklingsmiljö: Se till att du har Java installerat på din maskin.  
-- Aspose.OCR för Java: Ladda ner och installera Aspose.OCR‑biblioteket. Du kan hitta nedladdningslänken [här](https://releases.aspose.com/ocr/java/).  
-- Dokument för OCR: Förbered ett bilddokument (t.ex. **Receipt.jpg**) som innehåller den text du vill extrahera.
+- Java Development Environment: Se till att du har Java installerat på din maskin.  
+- Aspose.OCR for Java: Ladda ner och installera Aspose.OCR‑biblioteket. Du kan hitta nedladdningslänken [here](https://releases.aspose.com/ocr/java/).  
+- Document for OCR: Förbered ett bilddokument (t.ex. **Receipt.jpg**) som innehåller den text du vill extrahera.
 
-## Importera paket
+## Import Packages
 
 I ditt Java‑projekt importerar du de nödvändiga paketen för att använda Aspose.OCR. Här är ett exempel:
 
@@ -57,7 +57,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Steg 1: Ställ in OCR‑operationen
+## OCR with Spell Check in Aspose OCR Java Tutorial
+
+Nedan kommer vi att konfigurera OCR‑motorn, aktivera Detect Areas Mode, köra igenkänningen och slutligen visa **ocr with spell check**‑outputen.
+
+### Step 1: Set Up the OCR Operation
 
 ```java
 // The path to the documents directory.
@@ -76,7 +80,7 @@ settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 
 I detta steg initierar vi OCR‑motorn, pekar den på bildfilen och aktiverar **Detect Areas Mode** så att motorn behandlar bilden som ett typiskt foto med spridda textblock.
 
-## Steg 2: Utför OCR och hämta resultat
+### Step 2: Perform OCR and Retrieve Results
 
 ```java
 // Get result object
@@ -88,63 +92,63 @@ try {
 }
 ```
 
-Här utför vi faktiskt **OCR**. Anropet `RecognizePage` returnerar ett `RecognitionResult` som innehåller råtext, layoutinformation och stavningskontrollerad output.
+Här **utför vi OCR**. Anropet `RecognizePage` returnerar ett `RecognitionResult` som innehåller råtext, layoutinformation och stavningskontrollerad output.
 
-## Steg 3: Skriv ut OCR‑resultat
+### Step 3: Print OCR Results
 
 ```java
 // Print result
 printResult(result);
 ```
 
-Hjälpmetoden `printResult` (tillhandahållen i det fullständiga källpaketet) visar en mängd information: extraherad text, förtroendescore, upptäckta stycken, rad‑för‑rad‑data, teckenalternativ, varningar, JSON‑payload och den **OCR with spell check** korrigerade texten.
+Hjälpmetoden `printResult` (tillhandahållen i hela källpaketet) visar en mängd information: extraherad text, förtroendescore, upptäckta stycken, rad‑för‑rad‑data, teckenalternativ, varningar, JSON‑payload och den **OCR with spell check**‑korrigerade texten.
 
-## Varför använda Detect Areas Mode?
+## Why Use Detect Areas Mode?
 
-- **Optimerad för foton** – isolerar automatiskt textregioner, vilket minskar brus.  
-- **Förbättrad noggrannhet** – särskilt på kvitton, fakturor och skannade formulär.  
-- **Inbyggd stavningskontroll** – rensar vanliga OCR‑fel utan extra bearbetning.
+- **Optimised for photos** – isolerar automatiskt textregioner, vilket minskar brus.  
+- **Improved accuracy** – särskilt på kvitton, fakturor och skannade formulär.  
+- **Built‑in spell checking** – rensar vanliga OCR‑fel utan extra bearbetning.
 
-## Vanliga användningsområden
+## Common Use Cases
 
-| Scenario | Fördel |
-|----------|--------|
-| Kvittohantering | Snabbt hämta handlarens namn, totalsummor och datum. |
-| Fakturadigitalisering | Extrahera radposter och skatteinformation för bokföringssystem. |
-| Scanning av identitetshandlingar | Fånga namn och nummer från körkort eller pass. |
+| Scenario | Benefit |
+|----------|---------|
+| Receipt processing | Snabbt hämta butiksnamn, totalsummor och datum. |
+| Invoice digitisation | Extrahera radposter och skatteinformation för bokföringssystem. |
+| Identity document scanning | Fånga namn och nummer från körkort eller pass. |
 
-## Felsökningstips & Vanliga fallgropar
+## Troubleshooting Tips & Common Pitfalls
 
-- **Felaktig filsökväg** – dubbelkolla `dataDir` och säkerställ att bilden finns.  
-- **Lågrelösningsbilder** – OCR‑noggrannheten sjunker dramatiskt under 300 dpi; överväg att förbehandla bilden.  
-- **Saknad licens** – utan en giltig licens kör API:t i provläge och kan vattenmärka resultat.  
+- **Incorrect file path** – dubbelkolla `dataDir` och säkerställ att bilden finns.  
+- **Low‑resolution images** – OCR‑noggrannheten sjunker dramatiskt under 300 dpi; överväg att förbehandla bilden.  
+- **Missing license** – utan en giltig licens kör API‑et i provläge och kan vattenmärka resultat.
 
-## Slutsats
+## Conclusion
 
-Grattis! Du har nu lärt dig **hur du utför OCR** med Detect Areas Mode med hjälp av Aspose.OCR för Java. Detta tillvägagångssätt extraherar inte bara text från bildfiler utan ger också stavningskontrollerad, ren output – perfekt för efterföljande datapipelines eller UI‑visning.
+Grattis! Du har framgångsrikt lärt dig **hur man extraherar text från bild java** med Detect Areas Mode med hjälp av Aspose.OCR för Java. Detta tillvägagångssätt extraherar inte bara text från bildfiler utan ger också stavningskontrollerad, ren output – perfekt för efterföljande datapipelines eller UI‑visning.
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-**Q: Kan Aspose.OCR hantera flera språk?**  
+**Q: Can Aspose.OCR handle multiple languages?**  
 A: Ja, Aspose.OCR stödjer ett brett spektrum av språk, vilket gör det mångsidigt för globala applikationer.
 
-**Q: Är Aspose.OCR lämplig för storskaliga OCR‑operationer?**  
-A: Absolut. Biblioteket är konstruerat för höggenomströmning och kan integreras i batch‑bearbetningspipeline.
+**Q: Is Aspose.OCR suitable for large‑scale OCR operations?**  
+A: Absolut. Biblioteket är konstruerat för högkapacitets‑scenarier och kan integreras i batch‑behandlingspipeline.
 
-**Q: Kan jag integrera Aspose.OCR i webbapplikationer?**  
-A: Ja, du kan bädda in Java‑API:t i servlet‑baserade eller Spring Boot‑webbtjänster för att erbjuda OCR som ett REST‑slutpunkt.
+**Q: Can I integrate Aspose.OCR into web applications?**  
+A: Ja, du kan bädda in Java‑API‑et i servlet‑baserade eller Spring Boot‑webbtjänster för att erbjuda OCR som en REST‑endpoint.
 
-**Q: Tillhandahåller Aspose.OCR stavningskontroll?**  
-A: Ja, som demonstrerat innehåller resultatet ett “ocr with spell check”-avsnitt som korrigerar vanliga igenkänningsfel.
+**Q: Does Aspose.OCR provide spell‑checking capabilities?**  
+A: Ja, som demonstrerat inkluderar resultatet ett “ocr with spell check”‑avsnitt som korrigerar vanliga igenkänningsfel.
 
-**Q: Finns det ett community‑forum för Aspose.OCR‑support?**  
-A: Ja, du kan hitta support och engagera dig i communityn på [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+**Q: Is there a community forum for Aspose.OCR support?**  
+A: Ja, du kan hitta support och engagera dig med communityn på [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
 ---
 
-**Senast uppdaterad:** 2025-12-12  
-**Testad med:** Aspose.OCR för Java 23.12 (senaste vid skrivande tidpunkt)  
-**Författare:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.OCR for Java 23.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

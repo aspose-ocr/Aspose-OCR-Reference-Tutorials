@@ -1,33 +1,47 @@
 ---
-title: 指定 OCR 图像识别中允许的字符
-linktitle: 指定 OCR 图像识别中允许的字符
+description: 了解如何使用 Aspose.OCR for .NET 指定允许的字符进行 OCR，并高效识别数字图像。请按照分步指南将 OCR 限制为仅识别数字。
+linktitle: Specify Allowed Characters OCR – Using Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-description: 使用 Aspose.OCR 在 .NET 中解锁精确的 OCR。轻松识别图像中的文本。立即下载以获得变革性的开发体验。
-weight: 13
+title: 指定允许字符的 OCR – 使用 Aspose.OCR for .NET
 url: /zh/net/ocr-settings/specify-allowed-characters/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 指定 OCR 图像识别中允许的字符
+# 指定允许字符 OCR – 使用 Aspose.OCR for .NET
 
-## 介绍
+在本教程中，您将学习如何使用 Aspose.OCR for .NET **指定允许字符 OCR**，从而限制 OCR 输出仅包含您需要的字符。当您需要 **识别数字图像** 文件（例如序列号、发票编号或类似条形码的字符串）时，这尤其方便。我们将逐步演示设置、代码以及几个实际场景，帮助您立即应用此技术。
 
-在不断发展的技术领域，光学字符识别 (OCR) 已成为一种变革性工具，使机器能够理解图像中的文本。 Aspose.OCR for .NET 是一款功能强大的解决方案，为在 .NET 应用程序中寻求强大 OCR 功能的开发人员提供无缝集成。
+## 快速回答
+- **“指定允许字符 OCR” 做什么？** 它将 OCR 限制在预定义的字符集合中，提高针对性数据的识别准确率。  
+- **我可以允许哪些字符？** 您需要的任意组合——数字、字母或自定义符号（例如 “0123456789”）。  
+- **为什么要限制字符？** 当已知预期字符集时，可减少误识别并加快处理速度。  
+- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **支持哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
 
-## 先决条件
+## 什么是 “指定允许字符 OCR”？
+当 OCR 扫描图像时，会尝试将每个视觉模式匹配到完整的可能字符字母表。通过 **指定允许字符 OCR**，您告诉引擎忽略白名单之外的所有字符，这在受限数据集上可显著提升识别准确率。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 为什么使用 Aspose.OCR 来识别数字图像？
+Aspose.OCR 为 .NET 开发者提供简洁、流畅的 API。其内置的 `AllowedCharacters` 选项让您无需编写自定义后处理逻辑即可专注于仅数字的场景。这非常适用于：
+- 读取表计读数、发票号码或产品代码。  
+- 验证从扫描表单中捕获的用户输入数据。  
+- 在预先知道字符集的批量处理场景中加速处理。
 
-- .NET 开发的实用知识。
--  Aspose.OCR for .NET 库。你可以下载它[这里](https://releases.aspose.com/ocr/net/).
-- 熟悉 Visual Studio 或任何其他首选的 .NET 开发环境。
+## 前提条件
+
+在深入代码之前，请确保您已具备以下条件：
+
+- 熟悉 .NET 开发。  
+- **Aspose.OCR for .NET** 库。您可以在[此处](https://releases.aspose.com/ocr/net/)下载。  
+- Visual Studio（或任意您喜欢的 .NET IDE）。  
 
 ## 导入命名空间
 
-在您的 .NET 项目中，导入必要的命名空间以有效利用 Aspose.OCR for .NET 的功能：
+在您的 .NET 项目中，导入必要的命名空间以使用 Aspose.OCR 功能：
 
 ```csharp
 using System;
@@ -35,43 +49,45 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-现在，让我们将教程分解为一系列综合步骤：
+现在，让我们将教程分解为一系列完整的步骤：
 
-## 步骤1：指定OCR图像识别中允许的字符
+## 如何指定允许字符 OCR – 步骤指南
 
-首先，设置文档目录的路径：
+### 步骤 1：设置图像文件夹路径
+
+首先，定义示例图像的存放位置。
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## 第 2 步：使用允许的符号初始化 Aspose.OCR
+### 步骤 2：使用仅数字白名单初始化 Aspose.OCR
 
-创建 AsposeOcr 的实例，指定允许的符号。在本例中，我们允许使用数字 (0-9)：
+创建 `AsposeOcr` 实例并传入您想允许的字符——在本例中为所有数字。
 
 ```csharp
 AsposeOcr api = new AsposeOcr("0123456789");
 ```
 
-## 第三步：识别图像
+### 步骤 3：识别包含数字的单行
 
-利用 AsposeOcr 实例识别图像中的文本：
+使用 `RecognizeLine` 方法从仅包含数字的图像中提取文本。
 
 ```csharp
 string result = api.RecognizeLine(dataDir + "0001460985.Jpeg");
 ```
 
-## 第 4 步：显示识别的文本
+### 步骤 4：输出识别的数字
 
-将识别到的文本打印到控制台：
+将结果打印到控制台，以便验证输出。
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-## 步骤5：第二种情况-使用特定设置识别图像
+### 步骤 5：使用 RecognitionSettings 获得更细粒度控制
 
-初始化另一个 AsposeOcr 实例，这次使用更具体的设置：
+如果需要更细致的控制——例如强制单行识别——可以使用接受 `RecognitionSettings` 的重载。
 
 ```csharp
 AsposeOcr api2 = new AsposeOcr();
@@ -82,49 +98,47 @@ RecognitionResult result2 = api2.RecognizeImage(dataDir + "0001460985.Jpeg",
     });
 ```
 
-## 第 6 步：显示第二种情况识别的文本
-
-将第二种情况下识别出的文本打印到控制台：
+### 步骤 6：显示第二种情况的结果
 
 ```csharp
 Console.WriteLine(result2.RecognitionText);
 ```
 
-## 第7步：成功执行
-
-最后，确认SpecifyAllowedCharacters教程成功执行：
+### 步骤 7：确认执行成功
 
 ```csharp
 Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ```
 
-通过执行这些步骤，您已经解锁了使用 Aspose.OCR for .NET 在 OCR 图像识别中指定允许的字符的功能。
+通过上述步骤，您已经学习了如何使用 Aspose.OCR for .NET **指定允许字符 OCR** 并高效 **识别数字图像** 内容。
 
-## 结论
+## 常见问题与故障排除
 
-Aspose.OCR for .NET 使开发人员能够将 OCR 功能无缝集成到他们的应用程序中，从而为各个领域的创新解决方案打开了大门。利用 OCR 的强大功能，通过准确的文本识别增强您的项目。
+- **结果为空：** 确保图像质量足够（对比度清晰，噪点最小）。  
+- **返回错误字符：** 仔细检查白名单字符串是否与您期望的字符完全一致。  
+- **文件未找到：** 确认 `dataDir` 指向正确的文件夹，并且文件名大小写匹配。
 
-## 常见问题解答
+## 常见问答
 
-### Q1：Aspose.OCR for .NET 适合初学者和经验丰富的开发人员吗？
+### Q1：Aspose.OCR for .NET 是否适合初学者和有经验的开发者？
+**答：** 绝对适合！该 API 设计直观，适合新手，同时为高级用户提供丰富的选项。
 
-A1：当然！ Aspose.OCR for .NET 适合各种技能水平的开发人员，提供直观的功能以实现无缝集成。
+### Q2：我可以使用 Aspose.OCR for .NET 识别多语言字符吗？
+**答：** 可以，Aspose.OCR 支持多种语言。您可以将语言包与允许字符功能结合使用，以实现多语言场景。
 
-### Q2：我可以使用Aspose.OCR for .NET来识别多种语言的字符吗？
+### Q3：Aspose.OCR for .NET 更新频率如何？
+**答：** 我们会定期发布更新，添加新功能、提升准确率并确保兼容性。请查看[文档](https://reference.aspose.com/ocr/net/)获取最新版本信息。
 
-A2：是的，Aspose.OCR 支持多种语言的识别，使其适用于多种应用。
+### Q4：Aspose.OCR for .NET 是否提供免费试用？
+**答：** 是的，您可以通过下载[免费试用](https://releases.aspose.com/)来体验其功能。
 
-### Q3：Aspose.OCR for .NET 多久更新一次？
+### Q5：我可以在哪里寻求帮助或加入社区获取支持？
+**答：** 请访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)，提问、分享经验，并获得 Aspose 工程师和其他开发者的帮助。
 
- A3：定期发布更新，以确保与最新技术的兼容性并解决任何潜在问题。检查[文档](https://reference.aspose.com/ocr/net/)了解最新信息。
+**最后更新：** 2026-02-15  
+**测试环境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
 
-### 问题 4：Aspose.OCR for .NET 是否有免费试用版？
-
-A4：是的，您可以通过下载来探索 Aspose.OCR 的功能[免费试用](https://releases.aspose.com/).
-
-### 问题 5：我可以在哪里寻求帮助或联系社区以获得支持？
-
- A5：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)与社区互动并获得专家帮助。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

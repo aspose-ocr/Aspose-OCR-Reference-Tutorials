@@ -42,6 +42,9 @@ Scatena la potenza di Aspose.OCR per .NET, una soluzione solida per il riconosci
 Esplora Aspose.OCR per .NET per calcolare facilmente gli angoli di inclinazione nel riconoscimento delle immagini OCR. Migliora i tuoi progetti con precisione ed efficienza.
 ### [Come correggere l'inclinazione dell'immagine per OCR – Guida completa C#](./how-to-deskew-image-for-ocr-complete-c-guide/)
 Scopri come rimuovere l'inclinazione dalle immagini OCR usando Aspose.OCR per .NET con esempi pratici in C#.
+### [Come raddrizzare l'immagine – Guida completa C# per la pre‑elaborazione OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Scopri come raddrizzare le immagini in C# per migliorare il pre‑processo OCR con esempi pratici e codice completo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
