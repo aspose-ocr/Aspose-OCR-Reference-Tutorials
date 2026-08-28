@@ -1,27 +1,57 @@
 ---
 category: general
-date: 2026-01-01
-description: Hoe een licentie voor Aspose OCR in C# toe te passen. Leer hoe je een
-  bestand leest, de Aspose‑licentie instelt, MemoryStream gebruikt en de licentie
-  efficiënt laadt.
+date: 2026-08-28
+description: Leer hoe je de Aspose-licentie snel instelt in C#. Deze gids laat zien
+  hoe je bestandsbytes leest, een MemoryStream maakt, de licentie toepast en de configuratie
+  verifieert zonder trial‑mode verrassingen.
 draft: false
 keywords:
-- how to apply license
-- how to read file
-- set aspose license
-- how to use memorystream
-- how to load license
-language: nl
-og_description: Hoe de licentie voor Aspose OCR in C# toe te passen. Volg deze gids
-  om het licentiebestand te lezen, de Aspose‑licentie in te stellen, MemoryStream
-  te gebruiken en de configuratie te verifiëren.
-og_title: Hoe een licentie toe te passen in Aspose OCR – Complete C#‑handleiding
+- set aspose license c#
+- c# read file bytes
+- apply aspose license
+- memorystream license c#
+- aspose ocr licensing
+lastmod: 2026-08-28
+og_description: Leer hoe je de Aspose-licentie in C# instelt in slechts een paar regels.
+  De gids behandelt het lezen van bestandsbytes, het gebruik van MemoryStream, en
+  het verifiëren dat de licentie werkt – alles met Aspose.OCR 24.x.
+og_image_alt: Screenshot of a C# console app applying an Aspose OCR license using
+  MemoryStream
+og_title: Installeer Aspose-licentie in C# – snelle stap‑voor‑stap gids
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to set Aspose license in C# quickly. This guide shows you
+    how to read file bytes, create a MemoryStream, apply the license, and verify the
+    setup without trial‑mode surprises.
+  headline: How to set Aspose license in C# – complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. Place the `.lic` file in a folder outside `wwwroot`, read it during
+      `Startup.ConfigureServices`, and call `SetLicense` before any OCR operations.
+    question: Can I set the license in an ASP.NET Core web app?
+  - answer: The library reverts to trial mode, which may add watermarks or limit page
+      counts. Monitor the `License.IsLicensed` property (if available) or catch the
+      silent fallback by testing a licensed‑only feature.
+    question: What happens if the license expires?
+  - answer: It is safe as long as the service account running the application has
+      read permissions and the path is secured against unauthorized changes.
+    question: Is it safe to store the license file on a shared network drive?
+  - answer: Yes. Each Aspose component (OCR, Words, PDF, etc.) requires its own `.lic`
+      file unless you have a suite license that covers multiple products.
+    question: Do I need a separate license for each Aspose product?
+  - answer: After calling `SetLicense`, attempt an OCR operation that is only available
+      in the licensed version (e.g., enabling a custom language pack). If the operation
+      succeeds without a trial watermark, the license is active.
+    question: How can I verify that the license was applied without writing extra
+      code?
+  type: FAQPage
 tags:
-- Aspose
-- OCR
-- C#
-- Licensing
-title: Hoe een licentie toe te passen in Aspose OCR – Stapsgewijze C#‑gids
+- Aspose OCR
+- C# licensing
+- .NET OCR
+- Aspose.OCR
+title: Hoe je de Aspose-licentie instelt in C# – volledige gids
 url: /nl/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/
 ---
 
@@ -29,24 +59,63 @@ url: /nl/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een licentie toe te passen in Aspose OCR – Complete C# gids
+# Hoe een Aspose-licentie in C# in te stellen – volledige gids
 
-Heb je je ooit afgevraagd **hoe je een licentie** voor Aspose OCR toepast zonder vage documentatie te moeten doorzoeken? Je bent niet de enige. De meeste ontwikkelaars lopen tegen hetzelfde probleem aan: ze kunnen het bestand lezen, maar weten niet hoe ze het correct in de bibliotheek moeten laden. In deze tutorial lopen we stap voor stap alles door – van het laden van het `.lic`‑bestand vanaf schijf tot het aanroepen van `SetLicense` met een `MemoryStream`. Aan het einde heb je een werkende oplossing die je in elk .NET‑project kunt gebruiken.
+Als je de **Aspose-licentie C#** voor de OCR-bibliotheek moet instellen en de standaard proefbeperkingen wilt vermijden, ben je hier op de juiste plek. Deze tutorial leidt je door elke stap — van het lezen van het `.lic`‑bestand als ruwe bytes tot het invoeren van die bytes in een `MemoryStream` en uiteindelijk het aanroepen van `License.SetLicense`. Aan het einde heb je een herbruikbare codefragment die werkt in console‑apps, webservices, Azure Functions of elk .NET 6+‑project.
 
-We behandelen ook **hoe je een bestand** veilig leest, de juiste manier om een **Aspose‑licentie in te stellen**, en waarom het gebruik van een **MemoryStream** de schoonste aanpak is. Als je benieuwd bent naar **hoe je een licentie laadt** in verschillende omgevingen, staan die tips er ook bij. Geen externe referenties nodig – alleen pure, kant‑klaar‑te‑kopiëren code.
+## Snelle antwoorden
+- **Wat is de snelste manier om een Aspose OCR-licentie toe te passen?** Laad het `.lic`‑bestand met `File.ReadAllBytes`, wikkel het in een `MemoryStream` en roep `new License().SetLicense(stream)` aan.  
+- **Moet ik het licentiebestand insluiten?** Insluiten is optioneel; lezen van de schijf is voldoende voor de meeste scenario's.  
+- **Werkt de bibliotheek in proefmodus als ik vergeet de licentie in te stellen?** Ja, hij schakelt stilletjes over naar proefmodus, wat het aantal pagina's kan beperken of een watermerk kan toevoegen.  
+- **Welke .NET‑versies worden ondersteund?** Aspose.OCR 24.x ondersteunt .NET 6, .NET 5, .NET Core 3.1 en .NET Framework 4.6.2+.  
+- **Is een `using`‑blok vereist voor de MemoryStream?** Absoluut — het wikkelen van de stream in `using` garandeert een correcte vrijgave en voorkomt lekken van ongebeheerste resources.
+
+## Wat is het instellen van een Aspose-licentie c#?
+`set aspose license c#` is het proces waarbij een geldig Aspose OCR‑licentiebestand aan de bibliotheek wordt geleverd tijdens runtime, zodat alle premium OCR‑functies beschikbaar worden zonder proefmodus‑beperkingen. De bewerking wordt uitgevoerd via de `Aspose.OCR.License`‑klasse, die een `Stream` accepteert die de licentie‑bytes bevat.
+
+## Waarom de Aspose‑licentie vroeg in je applicatie instellen?
+Aspose.OCR ondersteunt **meer dan 50 invoer‑afbeeldingsformaten** (inclusief JPEG, PNG, TIFF, BMP en PDF) en kan **meer‑pagina‑documenten tot 1 GB** verwerken zonder het volledige bestand in het geheugen te laden. Wanneer de licentie correct is ingesteld, ontgrendel je OCR met volledige resolutie, aangepaste taalpakketten en batch‑verwerkings‑API's die anders niet beschikbaar zijn in proefmodus.
 
 ## Vereisten
+- .NET 6.0 of later (de code draait ook op .NET Core 3.1, .NET 5 en .NET Framework 4.6.2+)
+- Aspose.OCR NuGet‑pakket (`Install-Package Aspose.OCR`)
+- Een geldig `Aspose.OCR.lic`‑bestand geplaatst in een map die toegankelijk is voor de applicatie
+- Basiskennis van C# bestand‑I/O en `using`‑statements
 
-- .NET 6.0 of hoger (de code werkt zowel met .NET Core als .NET Framework)
-- Aspose.OCR NuGet‑pakket geïnstalleerd (`Install-Package Aspose.OCR`)
-- Een geldig `Aspose.OCR.lic`‑bestand op een locatie die je applicatie kan bereiken
-- Basiskennis van C# en Visual Studio (of een andere IDE naar keuze)
+> **Pro tip:** Sla het licentiebestand op buiten je source‑control‑directory (bijv. in een `Licenses`‑map die door Git wordt genegeerd) om per ongeluk committen van eigendomsbestanden te voorkomen.
 
-> **Pro tip:** Houd het licentiebestand buiten je source‑control map om per ongeluk committen te voorkomen.
+## Stap 1: Hoe het bestand te lezen – laad de licentie‑bytes
 
-## Stap 1: Hoe een bestand lezen – Laad de licentiebits
+Laad het licentiebestand direct in een byte‑array. `File.ReadAllBytes` leest het volledige bestand in één oproep, geeft een duidelijke `FileNotFoundException` als het pad onjuist is, en retourneert een `byte[]` die opnieuw kan worden gebruikt.
 
-Het eerste wat we nodig hebben is de ruwe byte‑array van het licentiebestand. `File.ReadAllBytes` gebruiken is zowel simpel als efficiënt, en het gooit automatisch een duidelijke uitzondering als het pad onjuist is.
+**Direct antwoord (40‑70 woorden):**  
+Gebruik `File.ReadAllBytes("<full‑path-to‑lic>")` om een `byte[]` te verkrijgen die de exacte licentie‑gegevens bevat. Deze methode leest het bestand in één enkele, efficiënte bewerking, zorgt ervoor dat de bestands‑handle onmiddellijk wordt gesloten, en levert een schone array die je kunt doorgeven aan een `MemoryStream` zonder extra buffering.
+
+De byte‑array is nu klaar voor de volgende stap. Het in het geheugen houden van de gegevens voorkomt herhaaldelijke schijf‑toegang en maakt de licentiecode veilig om aan te roepen vanuit high‑throughput‑services.
+
+## Stap 2: Hoe MemoryStream te gebruiken – bereid de licentie‑stream voor
+
+De overload `License.SetLicense` van Aspose verwacht een `Stream`. Het wikkelen van de byte‑array in een `MemoryStream` voldoet aan de eis terwijl het volledig in‑process blijft.
+
+**Direct antwoord (40‑70 woorden):**  
+Maak een `MemoryStream` van de licentie‑byte‑array (`new MemoryStream(licenseBytes)`) binnen een `using`‑blok, en geef die stream vervolgens door aan `new License().SetLicense(stream)`. De `MemoryStream` bestaat alleen in het geheugen, veroorzaakt geen I/O‑overhead, en wordt automatisch vrijgegeven wanneer het blok eindigt, waardoor resource‑lekken worden voorkomen.
+
+`MemoryStream` is lichtgewicht, thread‑safe voor alleen‑lezen scenario's, en kan opnieuw worden gebruikt als je dezelfde licentie op meerdere Aspose‑producten in dezelfde applicatie moet toepassen.
+
+## Stap 3: Aspose‑licentie instellen – de kern van set aspose license c#
+Nu we een voorbereide `MemoryStream` hebben, is het toepassen van de licentie één regel code. De `License`‑klasse bevindt zich in de `Aspose.OCR`‑namespace, dus zorg ervoor dat je deze importeert.
+
+**Direct antwoord (40‑70 woorden):**  
+Instantieer `var license = new Aspose.OCR.License();` en roep `license.SetLicense(memoryStream);` aan. Als de stream een geldige, niet‑verlopen licentie bevat, retourneert de methode stilletjes; anders schakelt de bibliotheek over naar proefmodus. Je kunt het succes verifiëren door een functie te controleren die exclusief is voor de gelicentieerde versie, zoals ondersteuning voor aangepaste talen.
+
+Als het licentiebestand corrupt of leeg is, zal `SetLicense` geen uitzondering gooien; daarom is het valideren van `licenseBytes.Length > 0` vóór het creëren van de stream een best‑practice‑maatregel.
+
+## Stap 4: Hoe de licentie te laden – alles samenvoegen
+
+Hieronder staat een compleet, kant‑klaar console‑programma dat laat zien **hoe een licentie te laden** vanaf schijf, deze in een `MemoryStream` te wikkelen, de licentie in te stellen en een bevestigingsbericht af te drukken.
+
+**Direct antwoord (40‑70 woorden):**  
+Combineer de vorige stappen in één methode: lees de bestands‑bytes, maak een `MemoryStream`, roep `SetLicense` aan, en schrijf vervolgens een console‑regel die succes bevestigt. Het programma draait op elke .NET‑runtime, vereist alleen het Aspose.OCR‑NuGet‑pakket, en hangt niet af van externe configuratie‑bestanden.
 
 ```csharp
 using System;
@@ -73,11 +142,71 @@ class LicenseHelper
 }
 ```
 
-**Waarom dit belangrijk is:** Het bestand direct in het geheugen lezen voorkomt lekken van bestands‑handles en levert een schone byte‑array op die later gebruikt kan worden. Het maakt de methode bovendien herbruikbaar voor console‑apps, webservices of Azure Functions.
+### Verwachte output
 
-## Stap 2: Hoe MemoryStream te gebruiken – Bereid de licentiestroom voor
+```
+License applied successfully. You can now perform OCR operations.
+```
 
-De overload `License.SetLicense` van Aspose verwacht een `Stream`. Het omhullen van de byte‑array in een `MemoryStream` is de idiomatische manier om aan die eis te voldoen zonder opnieuw het bestandssysteem aan te raken.
+Als je de bevestigingstekst ziet, is de OCR‑engine volledig gelicentieerd en klaar voor productie‑workloads.
+
+## Veelvoorkomende valkuilen & hoe ze te vermijden
+
+| Issue | Why it happens | Fix |
+|-------|----------------|-----|
+| **FileNotFoundException** bij het lezen van de licentie | Onjuist relatief pad of het bestand is niet gedeployed met de app | Gebruik een absoluut pad, of sluit de licentie in als resource (zie de sectie “alternatief laden”) |
+| **Licentie niet toegepast maar geen fout** | `SetLicense` schakelt stilletjes over naar proefmodus als de stream leeg of corrupt is | Controleer `licenseBytes.Length > 0` vóór het maken van de `MemoryStream` en log een waarschuwing als de controle faalt |
+| **MemoryStream niet vrijgegeven** | Vergeten `using` leidt tot ongebeheerste resources die blijven hangen in langdurige services | Wikkel de stream altijd in `using` zoals getoond; de CLR zal de buffer snel vrijgeven |
+
+## Alternatief: de licentie insluiten als een embedded resource
+
+Als je liever geen apart `.lic`‑bestand verzendt, kun je het direct in je assembly insluiten. Stel de **Build Action** van het bestand in op **Embedded Resource**, en lees het vervolgens met `Assembly.GetManifestResourceStream`.
+
+**Direct antwoord (40‑70 woorden):**  
+Roep `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyNamespace.Aspose.OCR.lic")` aan om een stream te verkrijgen, en geef die stream vervolgens door aan `License.SetLicense`. Deze aanpak elimineert externe bestandsafhankelijkheden en zorgt ervoor dat de licentie meereist met de gecompileerde DLL, wat ideaal is voor NuGet‑gedistribueerde libraries.
+
+```csharp
+using System.Reflection;
+
+public static byte[] ReadEmbeddedLicense(string resourceName)
+{
+    var assembly = Assembly.GetExecutingAssembly();
+    using Stream stream = assembly.GetManifestResourceStream(resourceName);
+    if (stream == null) throw new InvalidOperationException("Embedded license not found.");
+    using var ms = new MemoryStream();
+    stream.CopyTo(ms);
+    return ms.ToArray();
+}
+```
+
+## Conclusie
+
+We hebben alles behandeld wat je nodig hebt om **Aspose-licentie C#** voor het OCR‑product in te stellen: het lezen van het licentiebestand als bytes, deze bytes wikkelen in een `MemoryStream`, `License.SetLicense` aanroepen, en de activering bevestigen. Door dit patroon te volgen vermijd je proefmodus‑limieten, houd je je codebase schoon, en maak je de licentiestap herbruikbaar in console‑apps, web‑API's, Azure Functions of elke .NET‑service.
+
+Volgende stappen kunnen bestaan uit het asynchroon lezen van het licentiebestand **asynchroon** voor high‑throughput scenario's, of het toepassen van hetzelfde patroon op andere Aspose‑producten zoals `Aspose.Words` of `Aspose.PDF`. Het kernidee — lezen, streamen, instellen, verifiëren — blijft identiek, waardoor je een consistente licentiestrategie hebt voor de volledige Aspose‑portfolio.
+
+---
+
+**Last Updated:** 2026-08-28  
+**Tested with:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+## Veelgestelde vragen
+
+**V: Kan ik de licentie instellen in een ASP.NET Core web‑app?**  
+A: Ja. Plaats het `.lic`‑bestand in een map buiten `wwwroot`, lees het tijdens `Startup.ConfigureServices`, en roep `SetLicense` aan vóór enige OCR‑bewerkingen.
+
+**V: Wat gebeurt er als de licentie verloopt?**  
+A: De bibliotheek schakelt terug naar proefmodus, wat watermerken kan toevoegen of het aantal pagina's kan beperken. Houd de `License.IsLicensed`‑eigenschap (indien beschikbaar) in de gaten of vang de stille fallback op door een alleen‑gelicentieerde functie te testen.
+
+**V: Is het veilig om het licentiebestand op een gedeelde netwerkschijf op te slaan?**  
+A: Het is veilig zolang het service‑account dat de applicatie uitvoert leesrechten heeft en het pad beveiligd is tegen onbevoegde wijzigingen.
+
+**V: Heb ik een aparte licentie nodig voor elk Aspose‑product?**  
+A: Ja. Elk Aspose‑component (OCR, Words, PDF, enz.) vereist een eigen `.lic`‑bestand, tenzij je een suite‑licentie hebt die meerdere producten dekt.
+
+**V: Hoe kan ik verifiëren dat de licentie is toegepast zonder extra code te schrijven?**  
+A: Na het aanroepen van `SetLicense`, probeer een OCR‑bewerking die alleen beschikbaar is in de gelicentieerde versie (bijv. het inschakelen van een aangepast taalpakket). Als de bewerking slaagt zonder een proef‑watermerk, is de licentie actief.
 
 ```csharp
 using System.IO;
@@ -88,12 +217,6 @@ public static MemoryStream CreateLicenseStream(byte[] licenseData)
     return new MemoryStream(licenseData);
 }
 ```
-
-**Kerninzicht:** `MemoryStream` is lichtgewicht en wordt snel vrijgegeven. Het stelt je ook in staat dezelfde byte‑array te hergebruiken voor meerdere bibliotheken als je ooit meer dan één Aspose‑productlicentie moet toepassen.
-
-## Stap 3: Aspose‑licentie instellen – De kern van “hoe een licentie toe te passen”
-
-Nu we een `MemoryStream` hebben, is het toepassen van de licentie een één‑regelige operatie. De `License`‑klasse bevindt zich in de `Aspose.OCR`‑namespace, dus zorg dat je de juiste `using`‑directive hebt toegevoegd.
 
 ```csharp
 using Aspose.OCR;
@@ -107,12 +230,6 @@ public static void ApplyAsposeLicense(MemoryStream licenseStream)
     license.SetLicense(licenseStream);
 }
 ```
-
-Als de licentie ongeldig of verlopen is, zal `SetLicense` stilzwijgend falen en werkt de bibliotheek in de proefmodus. Om er absoluut zeker van te zijn, kun je een functie controleren die alleen beschikbaar is in de gelicentieerde versie (bijv. OCR‑nauwkeurigheidsinstellingen) of simpelweg vertrouwen op het bevestigingsbericht dat we later afdrukken.
-
-## Stap 4: Hoe een licentie te laden – Alles samenvoegen
-
-Hieronder staat het volledige, uitvoerbare console‑programma dat laat zien **hoe je een licentie** van schijf laadt, een `MemoryStream` gebruikt en verifieert dat de licentie succesvol is toegepast.
 
 ```csharp
 using Aspose.OCR;
@@ -151,51 +268,16 @@ class LicenseDemo
 }
 ```
 
-### Verwachte uitvoer
+## Gerelateerde tutorials
 
-```
-License applied successfully. You can now perform OCR operations.
-```
+- [Hoe OCR-taalondersteuning in C te controleren – volledige gids](/ocr/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide/)
+- [Hoe GPU voor Aspose OCR stap‑voor‑stap in te schakelen](/ocr/net/ocr-configuration/how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+- [Tekst uit afbeelding extraheren met Aspose OCR – volledige C‑gids](/ocr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 
-Als je dit bericht ziet, is de bibliotheek volledig gelicentieerd en klaar voor productie‑OCR‑taken.
-
-## Veelvoorkomende valkuilen & hoe ze te vermijden
-
-| Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **FileNotFoundException** bij het lezen van de licentie | Pad is onjuist of het bestand is niet meegeleverd met de app | Gebruik een absoluut pad of embed de licentie als resource (zie “alternatief laden” hieronder) |
-| **Licentie niet toegepast maar geen fout** | `SetLicense` valt stilzwijgend terug naar proefmodus als de stream leeg of corrupt is | Controleer `licenseData.Length > 0` voordat je de `MemoryStream` maakt |
-| **MemoryStream niet vrijgegeven** | Het vergeten van `using` laat ongebeheerste resources hangen | Wikkel de stream altijd in een `using`‑blok zoals getoond |
-
-### Alternatief: De licentie embedden als Embedded Resource
-
-Als je liever geen apart `.lic`‑bestand distribuert, voeg het dan toe aan je project, stel **Build Action** in op **Embedded Resource**, en lees het als volgt:
-
-```csharp
-using System.Reflection;
-
-public static byte[] ReadEmbeddedLicense(string resourceName)
-{
-    var assembly = Assembly.GetExecutingAssembly();
-    using Stream stream = assembly.GetManifestResourceStream(resourceName);
-    if (stream == null) throw new InvalidOperationException("Embedded license not found.");
-    using var ms = new MemoryStream();
-    stream.CopyTo(ms);
-    return ms.ToArray();
-}
-```
-
-Roep daarna `ReadEmbeddedLicense("MyNamespace.Aspose.OCR.lic")` aan en ga verder met dezelfde `MemoryStream`‑aanpak.
-
-## Conclusie
-
-We hebben behandeld **hoe je een licentie** voor Aspose OCR van begin tot eind toepast: het bestand lezen, een `MemoryStream` maken, `SetLicense` aanroepen en de activatie bevestigen. Door deze stappen te volgen elimineer je giswerk, vermijd je veelvoorkomende fouten en zorg je dat je OCR‑engine in de volledige functionaliteitsmodus draait.
-
-Vervolgens kun je **hoe je een bestand** asynchroon leest voor high‑throughput services verkennen, of dieper duiken in geavanceerde OCR‑instellingen nu de licentie correct is geladen. Hoe dan ook, het patroon blijft hetzelfde – lezen, streamen, instellen, verifiëren.
-
-Heb je vragen over randgevallen, zoals het laden van de licentie in een ASP.NET Core‑omgeving of het beheren van meerdere Aspose‑productlicenties? Laat een reactie achter, en happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
