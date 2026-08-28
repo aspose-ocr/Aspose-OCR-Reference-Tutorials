@@ -93,6 +93,8 @@ weight: 25
 
 การใช้ Aspose.OCR สำหรับรายการบทช่วยสอน .NET คุณสามารถเข้าถึงทรัพยากรเพิ่มเติม และรับข่าวสารล่าสุดเกี่ยวกับความก้าวหน้าล่าสุดในการเพิ่มประสิทธิภาพ OCR ดำดิ่งสู่โลกแห่งความแม่นยำและประสิทธิภาพด้วยบทช่วยสอน Aspose.OCR สำหรับ .NET
 ## บทช่วยสอนการเพิ่มประสิทธิภาพ OCR
+### [สกัดข้อความจากภาพด้วย Aspose OCR & GPU – คู่มือ C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
+ใช้ Aspose OCR พร้อม GPU เพื่อสกัดข้อความจากภาพด้วย C# อย่างมีประสิทธิภาพ
 ### [สร้าง PDF ที่ค้นหาได้จากไฟล์สแกนโดยใช้ Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
 เรียนรู้วิธีแปลงไฟล์สแกนเป็น PDF ที่ค้นหาได้ด้วย Aspose OCR อย่างง่ายดาย
 ### [วิธีเพิ่มความคอนทราสต์ใน OCR – คำแนะนำเต็มรูปแบบ C#](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)

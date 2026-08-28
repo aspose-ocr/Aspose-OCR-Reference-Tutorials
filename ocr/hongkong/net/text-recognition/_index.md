@@ -57,6 +57,14 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [使用 Aspose OCR 的多語言文字辨識（C#）完整指南](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+深入了解如何在 C# 中使用 Aspose OCR 進行多語言文字辨識，完整步驟與最佳實踐。
+### [在 C# 中從圖像提取文字 – 使用 Aspose 的離線 OCR（逐步指南）](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+使用 Aspose 離線 OCR，在 C# 應用程式中逐步提取圖像文字。
+### [使用 Aspose OCR PDF：轉換、匯出與搜尋](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+學習如何使用 Aspose OCR 解析 PDF，將其轉換、匯出並支援文字搜尋的完整步驟。
+### [在 C# 開發者的離線 OCR 指南 – 從圖像辨識文字](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+學習如何在 C# 中使用 Aspose 離線 OCR 從圖像提取文字，提供逐步說明。
 ### [C# OCR 教學 – 從 JPEG 圖像提取文字](./c-ocr-tutorial-extract-text-from-jpeg-images/)
 使用 Aspose.OCR for .NET，學習如何從 JPEG 圖像中提取文字並整合至您的 C# 應用程式。
 ### [OCR 韓文影像：從圖片提取文字的完整指南](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)

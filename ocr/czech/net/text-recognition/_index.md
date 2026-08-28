@@ -71,6 +71,14 @@ Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR 
 Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
 ### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
+### [Jak provést OCR PDF pomocí Aspose: převod, export a vyhledávání](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+Naučte se, jak pomocí Aspose OCR převést PDF, exportovat výsledek a umožnit vyhledávání textu.
+### [Rozpoznávání vícejazyčného textu v C# s Aspose OCR – Kompletní průvodce](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+Kompletní průvodce rozpoznáváním textu v různých jazycích pomocí Aspose OCR v C#.
+### [Extrahovat text z obrázku v C# – Offline OCR s Aspose (Krok za krokem průvodce)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+Naučte se, jak offline pomocí Aspose OCR v C# extrahovat text z obrázků krok za krokem.
+### [Rozpoznat text z obrázku – Offline OCR průvodce pro vývojáře C#](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Naučte se, jak offline pomocí Aspose OCR v C# rozpoznat text z obrázku krok za krokem.
 ### [c# OCR tutoriál – Extrahování textu z JPEG obrázků](./c-ocr-tutorial-extract-text-from-jpeg-images/)
 Naučte se pomocí Aspose.OCR v .NET získat text z JPEG obrázků v několika jednoduchých krocích.
 ### [OCR korejské obrázky: Kompletní průvodce extrakcí textu z obrázků](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)

@@ -62,6 +62,12 @@ Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます�
 Aspose.OCR を使用して、TIFF 画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
 ### [OCR画像認識でのテーブルの認識](./recognize-table/)
 OCR 画像認識におけるテーブルの認識に関する包括的なガイドを使用して、Aspose.OCR for .NET の可能性を解放します。
+### [C# での多言語テキスト認識 – Aspose OCR 完全ガイド](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+Aspose.OCR を使用して C# で多言語テキストを認識し、さまざまな言語の文字を正確に抽出する方法をステップバイステップで解説します。
+### [画像からテキストを認識する – C# 開発者向けオフライン OCR ガイド](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Aspose.OCR を使用して C# で画像からテキストをオフラインで抽出する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出 – Aspose を使用したオフライン OCR（ステップバイステップガイド）](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+### [AsposeでPDFをOCRする方法：変換、エクスポート、検索](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 ### [C# OCR チュートリアル – JPEG 画像からテキストを抽出する](./c-ocr-tutorial-extract-text-from-jpeg-images/)
 Aspose.OCR を使用して C# アプリケーションで JPEG 画像からテキストを抽出する方法をステップバイステップで解説します。
 ### [Aspose OCR で画像からテキストを抽出する – 完全 C# ガイド](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)

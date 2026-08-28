@@ -55,10 +55,18 @@ Giải phóng sức mạnh của Aspose.OCR cho .NET. Tìm hiểu cách thu đư
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản hình ảnh hiệu quả. Khám phá Chế độ khu vực phát hiện OCR để có kết quả chính xác.
 ### [Nhận dạng PDF trong Nhận dạng hình ảnh OCR](./recognize-pdf/)
 Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn bản từ tệp PDF một cách dễ dàng. Tải xuống ngay để có trải nghiệm tích hợp liền mạch.
-### [Cách OCR PDF trong C# – Hướng dẫn từng bước](./how-to-ocr-pdf-in-c-step-by-step-guide/)
-Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để OCR PDF một cách nhanh chóng và hiệu quả.
+### [Cách OCR PDF với Aspose: Chuyển đổi, Xuất và Tìm kiếm](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+Hướng dẫn chi tiết cách OCR tài liệu PDF, chuyển đổi, xuất dữ liệu và tìm kiếm nội dung bằng Aspose.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản đa ngôn ngữ trong C# với Aspose OCR – Hướng dẫn đầy đủ](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+Khám phá cách nhận dạng văn bản đa ngôn ngữ trong C# bằng Aspose OCR qua hướng dẫn chi tiết và đầy đủ.
+### [Trích xuất văn bản từ hình ảnh trong C# – OCR ngoại tuyến với Aspose (Hướng dẫn từng bước)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+Khám phá cách trích xuất văn bản từ hình ảnh trong C# bằng OCR ngoại tuyến của Aspose qua hướng dẫn chi tiết từng bước.
+### [Nhận dạng văn bản từ hình ảnh – Hướng dẫn OCR ngoại tuyến cho nhà phát triển C#](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Hướng dẫn chi tiết cách sử dụng OCR ngoại tuyến trong C# để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Cách OCR PDF trong C# – Hướng dẫn từng bước](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để OCR PDF một cách nhanh chóng và hiệu quả.
 ### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh JPEG](./c-ocr-tutorial-extract-text-from-jpeg-images/)
 Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh JPEG một cách nhanh chóng và chính xác.
 ### [OCR Hình ảnh Hàn Quốc: Hướng dẫn toàn diện để trích xuất văn bản từ ảnh](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
