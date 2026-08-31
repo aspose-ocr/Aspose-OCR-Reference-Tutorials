@@ -84,6 +84,9 @@ weight: 25
 Полное руководство по построению конвейера предварительной обработки OCR и распознаванию текста на изображениях в C# с Aspose.OCR.
 ### [Запуск OCR на PNG с GPU – Полное руководство C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Полное руководство по использованию GPU для OCR изображений PNG в C# с Aspose.OCR.
+### [c# OCR учебник: Распознавание текста с изображения с предварительной обработкой](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Узнайте, как распознавать текст на изображениях, применяя фильтры предварительной обработки с помощью Aspose.OCR для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

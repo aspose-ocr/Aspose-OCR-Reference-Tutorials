@@ -95,6 +95,8 @@ Dowiedz się, jak w C# generować przeszukiwalne pliki PDF przy użyciu wsadoweg
 Wykorzystaj moc GPU do szybkiego OCR PNG w C#. Kompletny przewodnik krok po kroku.
 ### [Pipeline przetwarzania wstępnego OCR – Jak rozpoznać tekst z obrazu w C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 Poznaj krok po kroku, jak skonfigurować pipeline przetwarzania wstępnego OCR w C# i rozpoznawać tekst z obrazów.
+### [c# tutorial OCR: Rozpoznawanie tekstu z obrazu z przetwarzaniem wstępnym](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Dowiedz się, jak rozpoznać tekst z obrazu w C# przy użyciu przetwarzania wstępnego w Aspose.OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

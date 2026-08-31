@@ -52,10 +52,6 @@ Ta dina OCR‑möjligheter till nya höjder genom att bemästra **ocr language s
 ## OCRoperation med List i OCR-bildigenkänning
 Utforska den stora potentialen i Aspose.OCR för .NET när du enkelt utför OCR‑bildigenkänning med listor. Denna handledning förbättrar inte bara textdragning utan ökar också produktiviteten vid hantering av olika datamängder. Upptäck effektiviteten i OCR med listoperationer.
 
-## OCR-konfigurationshandledningar
-
-
-
 ### [OCROoperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Lås upp potentialen för OCR och .NET‑applikationer med Aspose.OCR. Lär dig extrahera text från arkivbilder steg för steg.
 ### [OCROoperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -75,6 +71,10 @@ Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med l
 - **Varning:** Stora arkiv kan förbruka mycket minne; överväg att bearbeta i batchar.
 ### [Extrahera rysk text och ange resursökväg i C# – Aspose OCR-guide](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Lär dig att extrahera rysk text och konfigurera resursvägen i C# med Aspose OCR.
+### [Hur man OCR:ar bild i C# – Komplett guide med GPU-stöd](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Lär dig att OCR:a bilder i C# med fullständig guide och GPU-stöd för snabbare bearbetning.
+### [Känn igen text från bild med Aspose OCR – Komplett C#-guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig att känna igen text i bilder med Aspose OCR i en komplett C#-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

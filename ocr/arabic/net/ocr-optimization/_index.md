@@ -114,6 +114,8 @@ weight: 25
 دليل شامل يوضح كيفية إعداد خط أنابيب ما قبل معالجة OCR للتعرف على النص من الصور باستخدام C#.
 ### [تشغيل التعرف الضوئي على الحروف (OCR) على PNG باستخدام GPU – دليل C# كامل](./run-ocr-on-png-with-gpu-complete-c-guide/)
 دليل شامل لتشغيل OCR على صور PNG باستخدام وحدة معالجة الرسومات (GPU) في C# لتحقيق أداء عالي ودقة محسنة.
+### [دليل c# OCR: التعرف على النص من الصورة مع المعالجة المسبقة](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+تعلم كيفية تحسين دقة التعرف على النص من الصور باستخدام المعالجة المسبقة في Aspose.OCR لـ .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

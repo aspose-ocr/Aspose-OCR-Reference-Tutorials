@@ -90,6 +90,18 @@ Aspose.OCR を使用して、C# で JPG 画像からテキストを正確に抽�
 Aspose OCR を使用して、C# で画像から韓国語テキストを簡単に抽出する手順をステップバイステップで解説します。
 ### [画像をテキストに変換 – C# 開発者向け 完全バッチ OCR ガイド](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Aspose.OCR を使用して、C# で大量の画像を一括変換し、テキスト抽出を効率的に行う手順をステップバイステップで解説します。
+### [C# OCR チュートリアル – PNG レシートからヒンディー語テキストを抽出](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Aspose.OCR を使用して、PNG 形式のレシートからヒンディー語テキストを抽出する手順を解説します。
+### [PNG からテキストを抽出する – 完全 Aspose OCR チュートリアル](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Aspose.OCR を使用して PNG 画像からテキストを抽出する手順を、完全なガイドで解説します。
+### [JPG 画像でテキストを認識する – Aspose OCR 完全 C# ガイド](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用して JPG 画像からテキストを抽出し、C# で完全なガイドに従って実装する方法を学びます。
+### [C# OCR チュートリアル – Aspose OCR で画像からテキストを抽出](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Aspose.OCR を使用して画像からテキストを抽出する手順を、C# で詳しく解説します。
+### [TIFF からテキストを抽出する – Aspose OCR C# 完全チュートリアル](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Aspose.OCR を使用して TIFF 画像からテキストを抽出し、C# で実装する手順をステップバイステップで解説します。
+### [C# OCR チュートリアル – 画像と DJVU ファイルからテキストを抽出](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Aspose.OCR を使用して、画像と DJVU ファイルからテキストを抽出する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,22 +41,6 @@ OCR निकालने का मतलब है एक इमेज (या
 - .NET NuGet पैकेज के लिए Aspose.OCR इंस्टॉल किया हुआ (`Install-Package Aspose.OCR`)।
 - उन इमेज या आर्काइव्स के सैंपल जिन्हें आप प्रोसेस करना चाहते हैं।
 
-## OCROperation with Archive in OCR इमेज रिकग्निशन
-Aspose.OCR के साथ OCR की दुनिया में एंट्री करें और स्टेप-दर-स्टेप आर्काइव इमेज से टेक्स्ट निकालने की विधि सीखें। यह ट्यूटोरियल .NET एप्लिकेशन्स में OCR पोर्टेबल को इस्तेमाल करने के लिए बड़े पैमाने पर जानकारी देता है। फाइलों से लेकर इम्प्लीमेंटेशन तक, टेक्स्ट एक्सट्रैक्शन के जादू को समझता है।
-
-## OCROperation with Folder in OCR Image Recognition
-Aspose.OCR के साथ .NET में OCR इमेज रिकग्निशन की ताकत को समझें। यह ट्यूटोरियल आपको फ़ोल्डरों में फाइलों में इमेज से टेक्स्ट आसानी से निकालने की जानकारी देता है। डेटा एक्सट्रैक्शन की ताकत बढ़ाएँ और अपने एप्लिकेशन की OCR पोर्टेबल को प्रोसेस करें।
-
-## OCROperation with Language Selection in OCR Image Recognition
-Aspose.OCR for .NET में **ocr language selection** को मास्टर करके अपनी OCR पोर्टेबल को नई हाइट पर ले जाएँ। यह ट्यूटोरियल अलग-अलग फाइलों में इमेज से टेक्स्ट को आसानी से निकालने की प्रोसेस को गाइड करता है। अपने एप्लिकेशन को मल्टीपल OCR पोर्टेबल से मजबूत बनाएँ।
-
-## OCROperation with List in OCR Image Recognition
-Aspose.OCR for .NET की विशाल क्षमताओं का एक्सप्लोरेशन करें और लिस्ट के साथ OCR इमेज रिकग्निशन को आसानी से करें। यह ट्यूटोरियल न केवल टेक्स्ट एक्सट्रैक्शन को बेहतर बनाता है बल्कि अलग-अलग डेटा सेट्स को ऑपरेशन में प्रोडक्टिविटी भी बढ़ाता है। लिस्ट ऑपरेशन्स के साथ OCR की क्षमता को खोजें।
-
-## OCR Configuration Tutorials
-
-
-
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 OCR की क्षमताओं को .NET एप्लिकेशन्स में Aspose.OCR के साथ चलाएं। आर्काइव इमेज से टेक्स्ट निकालने के स्टेप-दर-स्टेप सीखें।
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -78,6 +62,11 @@ Aspose.OCR for .NET की क्षमताओं को बढ़ाएं।
 - **चेतावनी:** बड़े आर्काइव्स काफी मेमोरी खपत कर सकते हैं; बैच-वाइज प्रोसेसिंग पर विचार करें।
 ### [C# में रूसी टेक्स्ट निकालें और रिसोर्स पाथ सेट करें – Aspose OCR गाइड](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Aspose OCR का उपयोग करके C# में रूसी भाषा के टेक्स्ट को निकालें और रिसोर्स पाथ सेट करने का तरीका सीखें।
+### [C# में OCR इमेज कैसे करें – GPU समर्थन के साथ पूर्ण गाइड](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPU समर्थन के साथ C# में इमेज OCR करने की पूरी गाइड
+### [Aspose OCR के साथ इमेज से टेक्स्ट पहचानें – पूर्ण C# गाइड](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR के साथ C# में इमेज से टेक्स्ट निकालने की पूरी गाइड
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

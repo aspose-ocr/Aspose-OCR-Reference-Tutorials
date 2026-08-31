@@ -90,6 +90,11 @@ Débloquez de puissantes capacités OCR avec Aspose.OCR pour .NET. Extrayez le t
 Découvrez comment vérifier quelles langues OCR sont prises en charge dans Aspose.OCR pour C# et assurez une extraction de texte précise.
 ### [Extraction de texte russe et définition du chemin des ressources en C# – Guide Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Apprenez à extraire du texte russe et à définir le chemin des ressources dans une application C# avec Aspose OCR.
+### [Comment faire l'OCR d'une image en C# – Guide complet avec support GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Apprenez à extraire du texte d'images en C# en utilisant Aspose.OCR avec le support GPU pour des performances optimales.
+### [Reconnaître du texte à partir d'une image avec Aspose OCR – Guide complet C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Apprenez à extraire du texte d'une image en C# avec Aspose OCR grâce à ce guide complet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

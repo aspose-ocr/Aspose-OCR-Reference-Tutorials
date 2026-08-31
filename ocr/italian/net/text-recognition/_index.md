@@ -91,6 +91,18 @@ Impara a trasformare file TIFF in PDF ricercabili usando Aspose.OCR con C#, pass
 Scopri come convertire rapidamente molte immagini in testo con una soluzione OCR batch completa per C#.
 ### [Come fare OCR su PDF in C# – Guida passo‑passo](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Scopri come eseguire OCR su PDF in C# con una guida dettagliata passo‑passo, per estrarre testo in modo rapido ed efficiente.
+### [Tutorial OCR C# – Estrai testo Hindi da ricevute PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Impara a estrarre testo in Hindi da immagini PNG di ricevute usando Aspose.OCR per .NET.
+### [Riconosci testo in JPG con Aspose OCR – Guida completa C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Scopri come riconoscere testo in immagini JPG usando Aspose OCR con una guida completa in C#.
+### [Tutorial OCR C# – Estrai testo da immagini e file DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Impara a estrarre testo da immagini e file DJVU usando Aspose.OCR per .NET.
+### [Tutorial OCR C# – Estrai testo dalle immagini con Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Impara a estrarre testo da immagini usando Aspose OCR per .NET con questa guida completa passo passo.
+### [Estrai testo da TIFF con Aspose OCR C# – Tutorial completo](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Scopri come estrarre testo da file TIFF usando Aspose OCR in C# con questa guida completa passo passo.
+### [Estrai testo da PNG con Aspose OCR – Tutorial completo](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Scopri come estrarre testo da immagini PNG usando Aspose OCR con una guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

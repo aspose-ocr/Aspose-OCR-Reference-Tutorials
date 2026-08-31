@@ -64,6 +64,10 @@ weight: 24
 了解如何使用 Aspose.OCR 在 C# 中检查支持的 OCR 语言，确保正确的语言识别。
 ### [在 C# 中提取俄文文本并设置资源路径 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 使用 Aspose.OCR 在 C# 中提取俄语文本并配置资源路径，帮助您快速实现多语言 OCR。
+### [C# 中的 OCR 图像处理 – 完整指南（支持 GPU）](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+了解
+### [使用 Aspose OCR 识别图像文本 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose OCR 在 C# 中完整实现图像文本识别的步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

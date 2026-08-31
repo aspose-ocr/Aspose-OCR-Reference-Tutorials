@@ -61,12 +61,6 @@ weight: 25
 
 
 
-### [ทำ OCR บนภาพจาก URL ใน OCR Image Recognition](./perform-ocr-on-image-from-url/)
-สำรวจการรวม OCR อย่างราบรื่นกับ Aspose.OCR สำหรับ .NET จดจำข้อความจากภาพด้วยความแม่นยำ.
-### [เตรียมสี่เหลี่ยมใน OCR Image Recognition](./prepare-rectangles/)
-ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคู่มือที่ครอบคลุมของเรา เรียนรู้ขั้นตอนการเตรียมสี่เหลี่ยมสำหรับการจดจำภาพ ยกระดับแอปพลิเคชัน .NET ของคุณด้วยการรวม OCR อย่างราบรื่น.
-### [ฟิลเตอร์การเตรียมข้อมูลสำหรับภาพใน OCR Image Recognition](./preprocessing-filters-for-image/)
-สำรวจ Aspose.OCR สำหรับ .NET เพิ่มความแม่นยำของ OCR ด้วยฟิลเตอร์การเตรียมข้อมูล ดาวน์โหลดตอนนี้เพื่อการรวมอย่างราบรื่น.
 ### [การแก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดใน OCR Image Recognition](./result-correction-with-spell-checking/)
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ .NET แก้ไขการสะกด, ปรับแต่งพจนานุกรม, และบรรลุการจดจำข้อความที่ปราศจากข้อผิดพลาดอย่างง่ายดาย.
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารใน OCR Image Recognition](./save-multipage-result-as-document/)
@@ -104,6 +98,14 @@ weight: 25
 เรียนรู้วิธีใช้ Aspose.OCR บน PNG ด้วย GPU ใน C# เพื่อเพิ่มความเร็วและความแม่นยำของการจดจำข้อความ
 ### [pipeline การเตรียมข้อมูล OCR – วิธีจดจำข้อความจากภาพใน C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 
+### [ดำเนินการ OCR กับรูปภาพจาก URL ใน OCR Image Recognition](./perform-ocr-on-image-from-url/)
+สำรวจการบูรณาการ OCR อย่างราบรื่นกับ Aspose.OCR สำหรับ .NET จดจำข้อความจากรูปภาพได้อย่างแม่นยำ
+### [เตรียมสี่เหลี่ยมในการจดจำภาพ OCR](./prepare-rectangles/)
+ปลดล็อกศักยภาพของ Aspose.OCR สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมของเรา เรียนรู้วิธีการเตรียมสี่เหลี่ยมสำหรับการจดจำรูปภาพทีละขั้นตอน ยกระดับแอปพลิเคชัน .NET ของคุณด้วยการผสานรวม OCR ที่ราบรื่น
+### [การประมวลผลตัวกรองล่วงหน้าสำหรับรูปภาพในการจดจำรูปภาพ OCR](./preprocessing-filters-for-image/)
+สำรวจ Aspose.OCR สำหรับ .NET เพิ่มความแม่นยำของ OCR ด้วยตัวกรองการประมวลผลล่วงหน้า ดาวน์โหลดเดี๋ยวนี้เพื่อการบูรณาการที่ราบรื่น
+### [c# OCR tutorial: การจดจำข้อความจากภาพด้วยการประมวลผลล่วงหน้า](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความจากภาพโดยใช้การประมวลผลล่วงหน้าเพื่อเพิ่มความแม่นยำ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -92,6 +92,17 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κορεατικό κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε C# με αυτόν τον γρήγορο οδηγό βήμα προς βήμα.
 ### [Μετατροπή εικόνων σε κείμενο – Πλήρης οδηγός Batch OCR για προγραμματιστές C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Μάθετε πώς να μετατρέπετε μαζικά εικόνες σε κείμενο χρησιμοποιώντας Aspose.OCR σε C#, βήμα‑βήμα οδηγός για προγραμματιστές.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου Χίντι από αποδείξεις PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Ανακαλύψτε πώς να εξάγετε κείμενο Χίντι από αποδείξεις PNG χρησιμοποιώντας το Aspose.OCR για .NET.
+### [Εξαγωγή κειμένου από PNG – Πλήρης οδηγός Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG με το Aspose OCR σε .NET.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες με Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+### [Αναγνώριση κειμένου σε JPG με Aspose OCR – Πλήρης οδηγός C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να αναγνωρίζετε κείμενο από αρχεία JPG χρησιμοποιώντας το Aspose OCR σε C# με πλήρη βήμα-βήμα οδηγίες.
+### [c# OCR σεμινάριο: Εξαγωγή κειμένου από εικόνα και αρχεία DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες και αρχεία DJVU χρησιμοποιώντας το Aspose.OCR σε C#.
+### [Εξαγωγή κειμένου από TIFF με Aspose OCR C# – Πλήρης οδηγός](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία TIFF χρησιμοποιώντας το Aspose OCR σε C# με πλήρη βήμα-βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

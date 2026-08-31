@@ -40,22 +40,6 @@ weight: 24
 - แพคเกจ NuGet ของ Aspose.OCR for .NET ติดตั้งแล้ว (`Install-Package Aspose.OCR`).  
 - ภาพตัวอย่างหรืออาร์ไคฟ์ที่มีภาพที่คุณต้องการประมวลผล.  
 
-## OCROperation with Archive in OCR Image Recognition
-สำรวจโลกของ OCR กับ Aspose.OCR และค้นพบวิธีดึงข้อความจากภาพในอาร์ไคฟ์ขั้นตอนต่อขั้นตอน คู่มือนี้ให้ข้อมูลเชิงลึกครบถ้วนเกี่ยวกับการใช้ความสามารถของ OCR ภายในแอปพลิเคชัน .NET ตั้งแต่การติดตั้งจนถึงการนำไปใช้ ค้นพบความมหัศจรรย์ของการดึงข้อความ
-
-## OCROperation with Folder in OCR Image Recognition
-ปลดล็อกพลังของการจดจำภาพด้วย OCR ใน .NET ด้วย Aspose.OCR คู่มือนี้จะสอนคุณให้สามารถดึงข้อความจากภาพที่จัดเก็บในโฟลเดอร์ได้อย่างง่ายดาย เพิ่มประสิทธิภาพการสกัดข้อมูลและทำให้ความสามารถ OCR ของแอปพลิเคชันของคุณเป็นระบบที่ราบรื่น
-
-## OCROperation with Language Selection in OCR Image Recognition
-ยกระดับความสามารถ OCR ของคุณด้วยการเชี่ยวชาญ **ocr language selection** ใน Aspose.OCR for .NET คู่มือนี้จะนำคุณผ่านกระบวนการดึงข้อความจากภาพหลายภาษาอย่างต่อเนื่อง ทำให้แอปพลิเคชันของคุณรองรับ OCR หลายภาษาได้อย่างเต็มที่
-
-## OCROperation with List in OCR Image Recognition
-สำรวจศักยภาพอันกว้างของ Aspose.OCR for .NET ขณะทำการจดจำภาพด้วย OCR ผ่านรายการ คู่มือนี้ไม่เพียงเพิ่มประสิทธิภาพการสกัดข้อความ แต่ยังเพิ่มผลผลิตในการจัดการชุดข้อมูลที่หลากหลาย ค้นพบความคล่องตัวของ OCR ด้วยการทำงานกับรายการ
-
-## บทเรียนการกำหนดค่า OCR
-
-
-
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -75,6 +59,10 @@ weight: 24
 - **คำเตือน:** อาร์ไคฟ์ขนาดใหญ่อาจใช้หน่วยความจำมาก; ควรพิจารณาประมวลผลเป็นชุด.  
 ### [สกัดข้อความรัสเซียและตั้งค่าเส้นทางทรัพยากรใน C# – คู่มือ Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 สกัดข้อความรัสเซียจากรูปภาพและกำหนดเส้นทางทรัพยากรใน C# ด้วย Aspose OCR อย่างง่ายดาย
+### [วิธีทำ OCR รูปภาพใน C# – คู่มือฉบับสมบูรณ์พร้อมการสนับสนุน GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแยกข้อความจากรูปภาพด้วยการเร่งความเร็วจาก GPU อย่างเต็มที่
+### [การจดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

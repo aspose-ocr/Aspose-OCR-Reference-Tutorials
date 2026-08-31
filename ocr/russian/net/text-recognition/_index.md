@@ -89,6 +89,18 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по пакетному распознаванию изображений в текст с помощью Aspose.OCR для C#.
 ### [Распознать текст из JPG в C# – Полное руководство по OCR](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Пошаговое руководство по полному использованию OCR в C# для распознавания текста из JPG‑изображений.
+### [c# OCR‑урок – извлечение текста на хинди из PNG‑чеков](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Извлеките хинди‑текст из PNG‑чеков с помощью Aspose.OCR в C#. Пошаговое руководство по настройке и использованию OCR.
+### [Распознать текст в JPG с помощью Aspose OCR – Полное руководство C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Полное пошаговое руководство по распознаванию текста в JPG‑изображениях с использованием Aspose OCR в C#.
+### [c# OCR‑урок – извлечение текста из изображений и файлов DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Извлеките текст из обычных изображений и файлов DJVU с помощью Aspose.OCR в C#. Пошаговое руководство по настройке и использованию OCR.
+### [Извлечение текста из TIFF с Aspose OCR C# – Полное руководство](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Полное пошаговое руководство по извлечению текста из файлов TIFF с помощью Aspose OCR в C#.
+### [c# OCR‑урок – извлечение текста из изображений с Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Извлеките текст из изображений с помощью Aspose OCR в C#. Пошаговое руководство для быстрой интеграции.
+### [Извлечение текста из PNG – Полное руководство Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Полное пошаговое руководство по извлечению текста из PNG‑изображений с помощью Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -114,6 +114,9 @@ weight: 25
 ### [OCR 前處理管線 – 如何在 C# 中辨識影像文字](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 ### [在 GPU 上對 PNG 影像執行 OCR – 完整 C# 指南](./run-ocr-on-png-with-gpu-complete-c-guide/)
 利用 GPU 加速在 PNG 圖像上執行 OCR，提供完整的 C# 實作步驟與最佳化技巧。
+### [C# OCR 教學：使用預處理辨識圖像文字](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+學習如何在 C# 中使用 Aspose.OCR 進行圖像預處理，提升文字辨識準確度。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

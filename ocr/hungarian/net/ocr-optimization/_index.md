@@ -87,6 +87,8 @@ Fedezze fel, hogyan hozhat létre kereshető PDF-et kötegelt OCR-rel C#-ban.
 Ismerje meg, hogyan építsen fel OCR előfeldolgozási folyamatot C#-ban a szöveg pontos felismeréséhez képeken.
 ### [OCR futtatása PNG-n GPU-val – Teljes C# útmutató](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Ismerje meg, hogyan használhatja a GPU-t PNG képek OCR-hez C#-ban, a teljes lépésről‑lépésre útmutatóval.
+### [c# OCR oktatóanyag: Szöveg felismerése képről előfeldolgozással](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Ismerje fel a szöveget képről előfeldolgozási lépésekkel az Aspose.OCR .NET segítségével.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

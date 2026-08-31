@@ -115,6 +115,8 @@ Lär dig hur du skapar sökbara PDF-filer med batch-OCR i C# för effektiv dokum
 Utnyttja GPU-acceleration för att köra OCR på PNG-bilder med Aspose.OCR i C#. En komplett steg-för-steg guide.
 ### [OCR-förbehandlingspipeline – Så här känner du igen text från bild i C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 Lär dig bygga en OCR-förbehandlingspipeline i C# för att exakt känna igen text i bilder med Aspose.OCR.
+### [c# OCR-handledning: Känn igen text från bild med förbehandling](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Lär dig hur du förbättrar OCR-genkänning genom att förbehandla bilder innan textidentifiering i C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

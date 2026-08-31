@@ -87,6 +87,8 @@ GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 �
 .NET용 Aspose.OCR을 활용해 전처리 파이프라인을 구축하고 이미지에서 텍스트를 정확히 인식하는 방법을 단계별로 안내합니다.
 ### [GPU를 사용해 PNG에서 OCR 실행 – 완전한 C# 가이드](./run-ocr-on-png-with-gpu-complete-c-guide/)
 GPU 가속을 활용해 PNG 이미지에서 OCR을 수행하고, C#으로 전체 과정을 구현하는 방법을 단계별로 안내합니다.
+### [c# OCR 튜토리얼: 전처리로 이미지에서 텍스트 인식](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+.NET용 Aspose.OCR을 사용해 전처리 과정을 적용하여 이미지에서 텍스트를 정확히 인식하는 방법을 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

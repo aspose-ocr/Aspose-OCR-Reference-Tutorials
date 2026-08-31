@@ -86,6 +86,10 @@ Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from ima
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
 ### [extract russian text & set resource path in C# – Aspose OCR guide]({{< relref "extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/_index.md" >}})
 Extract Russian text and set resource path in C# using Aspose OCR for .NET applications.
+### [How to OCR Image in C# – Complete Guide with GPU Support](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Learn to perform OCR on images using C# with GPU acceleration for faster and more accurate text extraction.
+### [recognize text from image with Aspose OCR – Complete C# Guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Learn to recognize text from images using Aspose OCR in C# with a comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

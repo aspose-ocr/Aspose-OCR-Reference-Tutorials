@@ -62,16 +62,6 @@ Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche 
 
 
 
-### [OCR auf Bild von URL ausführen in OCR-Bilderkennung](./perform-ocr-on-image-from-url/)
-Entdecken Sie nahtlose OCR‑Integration mit Aspose.OCR für .NET. Erkennen Sie Text aus Bildern mit Präzision.
-### [Rechtecke vorbereiten in OCR-Bilderkennung](./prepare-rectangles/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden. Lernen Sie Schritt für Schritt, wie Sie Rechtecke für die Bilderkennung vorbereiten. Verbessern Sie Ihre .NET‑Anwendungen mit nahtloser OCR‑Integration.
-### [Vorverarbeitungsfilter für Bild in OCR-Bilderkennung](./preprocessing-filters-for-image/)
-Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR‑Genauigkeit mit Vorverarbeitungsfiltern. Jetzt herunterladen für nahtlose Integration.
-### [Ergebniskorrektur mit Rechtschreibprüfung in OCR-Bilderkennung](./result-correction-with-spell-checking/)
-Verbessern Sie die OCR‑Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie Rechtschreibfehler, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
-### [Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung](./save-multipage-result-as-document/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit diesem umfassenden Schritt-für-Schritt‑Leitfaden.
 ### [Wie man OCR in C# verwendet – Text aus Bildern mit GPU-Beschleunigung](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 Nutzen Sie GPU-Beschleunigung, um OCR in C# effizient aus Bildern zu extrahieren und die Verarbeitungsgeschwindigkeit zu erhöhen.
 ### [Durchsuchbare PDF mit Batch-OCR erstellen – C#-Leitfaden](./create-searchable-pdf-with-batch-ocr-c-guide/)
@@ -105,6 +95,18 @@ Nutzen Sie GPU‑Beschleunigung, um Text aus Bildern schnell mit Aspose OCR in C
 Erfahren Sie, wie Sie gescannte Dokumente mit Aspose OCR in durchsuchbare PDF-Dateien umwandeln.
 ### [Wie man den Kontrast bei OCR verbessert – Vollständiges C#-Tutorial](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
 Steigern Sie die OCR-Genauigkeit, indem Sie den Bildkontrast mit C# optimieren.
+### [Führen Sie in der OCR-Bilderkennung eine OCR für Bilder von einer URL durch](./perform-ocr-on-image-from-url/)
+Entdecken Sie die nahtlose OCR-Integration mit Aspose.OCR für .NET. Erkennen Sie Text präzise aus Bildern.
+### [Bereiten Sie Rechtecke in der OCR-Bilderkennung vor](./prepare-rectangles/)
+Nutzen Sie das Potenzial von Aspose.OCR für .NET mit unserem umfassenden Leitfaden. Erfahren Sie Schritt für Schritt, wie Sie Rechtecke für die Bilderkennung vorbereiten. Erweitern Sie Ihre .NET-Anwendungen durch nahtlose OCR-Integration.
+### [Vorverarbeitungsfilter für Bilder in der OCR-Bilderkennung](./preprocessing-filters-for-image/)
+Entdecken Sie Aspose.OCR für .NET. Steigern Sie die OCR-Genauigkeit mit Vorverarbeitungsfiltern. Jetzt herunterladen für eine nahtlose Integration.
+### [Ergebniskorrektur mit Rechtschreibprüfung in der OCR-Bilderkennung](./result-correction-with-spell-checking/)
+Verbessern Sie die OCR-Genauigkeit mit Aspose.OCR für .NET. Korrigieren Sie die Rechtschreibung, passen Sie Wörterbücher an und erreichen Sie mühelos eine fehlerfreie Texterkennung.
+### [Mehrseitiges Ergebnis als Dokument in der OCR-Bilderkennung speichern](./save-multipage-result-as-document/)
+Nutzen Sie das Potenzial von Aspose.OCR für .NET. Mit dieser umfassenden Schritt-für-Schritt-Anleitung können Sie mehrseitige OCR-Ergebnisse mühelos als Dokumente speichern.
+### [C# OCR-Tutorial: Text aus Bild mit Vorverarbeitung erkennen](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Erfahren Sie, wie Sie mit Aspose.OCR für .NET Text aus Bildern erkennen und Vorverarbeitungsfilter anwenden, um die Genauigkeit zu steigern.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

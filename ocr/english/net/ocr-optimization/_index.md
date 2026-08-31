@@ -95,6 +95,8 @@ Learn to leverage GPU acceleration in C# to extract text from images quickly usi
 Learn to generate searchable PDFs using batch OCR in C# with Aspose.OCR for efficient document processing.
 ### [run OCR on PNG with GPU – Complete C# Guide](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Leverage GPU acceleration to run OCR on PNG images using Aspose.OCR for .NET with a complete C# implementation guide.
+### [c# ocr tutorial: Recognize Text from Image with Preprocessing](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Learn how to preprocess images and recognize text using Aspose.OCR for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

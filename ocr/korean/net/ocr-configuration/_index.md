@@ -65,6 +65,11 @@ Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하�
 C#을 사용해 Aspose.OCR에서 지원되는 언어 목록을 확인하고 활용하는 방법을 단계별로 안내합니다.
 ### [C#에서 러시아어 텍스트 추출 및 리소스 경로 설정 – Aspose OCR 가이드](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 C#에서 Aspose OCR을 사용해 러시아어 텍스트를 추출하고 리소스 경로를 설정하는 방법을 단계별로 안내합니다.
+### [C#에서 GPU 지원으로 이미지 OCR하기 – 완전 가이드](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPU 가속을 활용해 C#에서 이미지 OCR을 빠르고 정확하게 수행하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 이미지에서 텍스트 인식 – 완전 C# 가이드](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+C#에서 Aspose OCR을 활용해 이미지 텍스트를 빠르고 정확하게 추출하는 전체 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

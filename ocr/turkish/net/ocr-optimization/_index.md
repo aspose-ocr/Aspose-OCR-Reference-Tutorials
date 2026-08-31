@@ -92,6 +92,8 @@ C# ile toplu OCR uygulayarak aranabilir PDF'ler oluşturun ve metin çıkarma s�
 GPU hızlandırmalı PNG görüntülerinde OCR gerçekleştirin ve C# ile tam entegrasyonu öğrenin.
 ### [OCR Ön İşleme Boru Hattı – Görüntüden Metin Tanıma C# ile](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 C# kullanarak OCR ön işleme adımlarını öğrenin ve görüntülerden metin tanımayı optimize edin.
+### [c# OCR öğreticisi: Ön İşleme ile Görüntüden Metin Tanıma](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Aspose.OCR for .NET ile ön işleme adımları uygulayarak görüntülerden metin tanıyın ve doğruluğu artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

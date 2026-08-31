@@ -69,6 +69,10 @@ Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng thực hiện nh�
 Tìm hiểu cách xác định các ngôn ngữ OCR được hỗ trợ trong Aspose.OCR cho C# và cách sử dụng chúng trong dự án của bạn.
 ### [Trích xuất văn bản tiếng Nga & thiết lập đường dẫn tài nguyên trong C# – Hướng dẫn Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và cấu hình đường dẫn tài nguyên trong Aspose.OCR cho C#.
+### [Cách OCR Hình ảnh trong C# – Hướng dẫn đầy đủ với hỗ trợ GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng hình ảnh với hỗ trợ GPU, tăng tốc hiệu suất.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn đầy đủ C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

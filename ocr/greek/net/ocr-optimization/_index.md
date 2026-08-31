@@ -67,16 +67,6 @@ weight: 25
 
 
 
-### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Εξερευνήστε αδιάλειπτη ενσωμάτωση OCR με Aspose.OCR for .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
-### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET με τον ολοκληρωμένο μας οδηγό. Μάθετε βήμα‑βήμα πώς να προετοιμάσετε ορθογώνια για την αναγνώριση εικόνας. Αναβαθμίστε τις .NET εφαρμογές σας με αδιάλειπτη ενσωμάτωση OCR.
-### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Εξερευνήστε το Aspose.OCR for .NET. Βελτιώστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κατεβάστε τώρα για αδιάλειπτη ενσωμάτωση.
-### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Αυξήστε την ακρίβεια OCR με Aspose.OCR for .NET. Διορθώστε ορθογραφικά λάθη, προσαρμόστε λεξικά και επιτύχετε αναγνώριση κειμένου χωρίς σφάλματα με ευκολία.
-### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
 ### [Πώς να χρησιμοποιήσετε το OCR σε C# – Εξαγωγή κειμένου από εικόνες με επιτάχυνση GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 Μάθετε πώς να εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
 ### [Δημιουργία αναζητήσιμου PDF με batch OCR – Οδηγός C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
@@ -115,6 +105,18 @@ weight: 25
 Μάθετε πώς να εκτελείτε OCR σε PNG χρησιμοποιώντας GPU με πλήρη οδηγό C#.
 ### [pipeline προεπεξεργασίας OCR – Πώς να Αναγνωρίζετε Κείμενο από Εικόνα σε C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 Μάθετε πώς να δημιουργήσετε μια αλυσίδα προεπεξεργασίας OCR για ακριβή αναγνώριση κειμένου από εικόνες χρησιμοποιώντας C#.
+### [Εκτελέστε OCR στην εικόνα από τη διεύθυνση URL στην Αναγνώριση εικόνας OCR](./perform-ocr-on-image-from-url/)
+Εξερευνήστε την απρόσκοπτη ενσωμάτωση OCR με το Aspose.OCR για .NET. Αναγνωρίστε κείμενο από εικόνες με ακρίβεια.
+### [Προετοιμάστε ορθογώνια στο OCR Image Recognition](./prepare-rectangles/)
+Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET με τον ολοκληρωμένο οδηγό μας. Μάθετε βήμα προς βήμα πώς να προετοιμάζετε ορθογώνια για αναγνώριση εικόνας. Αναβαθμίστε τις εφαρμογές σας .NET με απρόσκοπτη ενσωμάτωση OCR.
+### [Προεπεξεργασία φίλτρων για εικόνα στην Αναγνώριση εικόνας OCR](./preprocessing-filters-for-image/)
+Εξερευνήστε το Aspose.OCR για .NET. Ενισχύστε την ακρίβεια OCR με φίλτρα προεπεξεργασίας. Κάντε λήψη τώρα για απρόσκοπτη ενσωμάτωση.
+### [Διόρθωση αποτελεσμάτων με ορθογραφικό έλεγχο στην αναγνώριση εικόνας OCR](./result-correction-with-spell-checking/)
+Βελτιώστε την ακρίβεια OCR με το Aspose.OCR για .NET. Διορθώστε την ορθογραφία, προσαρμόστε τα λεξικά και επιτύχετε την αναγνώριση κειμένου χωρίς σφάλματα χωρίς κόπο.
+### [Αποθηκεύστε το αποτέλεσμα πολλαπλών σελίδων ως έγγραφο στην Αναγνώριση εικόνας OCR](./save-multipage-result-as-document/)
+Ξεκλειδώστε τις δυνατότητες του Aspose.OCR για .NET. Αποθηκεύτε αβίαστα αποτελέσματα OCR πολλαπλών σελίδων ως έγγραφα με αυτόν τον αναλυτικό οδηγό βήμα προς βήμα.
+### [c# OCR σεμινάριο: Αναγνώριση κειμένου από εικόνα με προεπεξεργασία](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες με προεπεξεργασία χρησιμοποιώντας Aspose.OCR σε C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

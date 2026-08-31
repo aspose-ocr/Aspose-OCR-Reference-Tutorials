@@ -55,12 +55,6 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 
 
 
-### [OCR 影像辨識中對存檔檔案的 OCR 操作](./ocr-operation-with-archive/)
-使用 Aspose.OCR 在 .NET 應用程式中釋放 OCR 的潛力。學習如何逐步從存檔圖像中提取文字。
-### [OCR 影像辨識中對資料夾檔案的 OCR 操作](./ocr-operation-with-folder/)
-使用 Aspose.OCR 在 .NET 中釋放 OCR 影像辨識的強大功能。輕鬆地從圖像中提取文字。
-### [OCR 影像辨識中對語言選擇的 OCR 操作](./ocr-operation-with-language-selection/)
-使用 Aspose.OCR for .NET 釋放強大的 OCR 功能。將文字無縫地從圖像中提取。
 ### [OCR 影像辨識中對清單檔案的 OCR 操作](./ocr-operation-with-list/)
 釋放 Aspose.OCR for .NET 的潛能。輕鬆實現清單的 OCR 影像辨識。提升應用程式的效率和資料提取速度。
 
@@ -74,6 +68,19 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 - **Warning:** 大型壓縮檔可能佔用大量記憶體，建議分批處理。
 ### [在 C# 中提取俄文文字並設定資源路徑 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 示範如何在 C# 使用 Aspose.OCR 提取俄文文字並設定資源路徑。
+
+總之，這些 OCR 配置教學提供了對 Aspose.OCR for .NET 的全面理解。無論您使用存檔圖像、資料夾、語言選擇或列表，這些逐步指南都可確保您充分利用 OCR 的潛力，從而提升應用程式的文字擷取功能。使用 Aspose.OCR 潛入、探索並解鎖 OCR 魔力！
+## OCR 設定教學
+### [OCR 影像辨識中的 OCROperation 與 Archive](./ocr-operation-with-archive/)
+使用 Aspose.OCR 釋放 .NET 應用程式中 OCR 的潛力。學習逐步從存檔圖像中提取文字。
+### [OCR 影像辨識中的 OCROperation 與資料夾](./ocr-operation-with-folder/)
+使用 Aspose.OCR 釋放 .NET 中 OCR 影像辨識的強大功能。輕鬆從圖像中提取文字。
+### [OCR 影像辨識中的 OCROperation 與語言選擇](./ocr-operation-with-language-selection/)
+使用 Aspose.OCR for .NET 解鎖強大的 OCR 功能。將文字無縫地從圖像中提取。
+### [如何在 C# 中執行 OCR 圖像 – 完整指南與 GPU 支援](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+使用 Aspose.OCR 在 C# 中執行圖像文字辨識，完整步驟說明並支援 GPU 加速，提高處理效能。
+### [使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose.OCR 在 C# 中完整執行圖像文字辨識，提供逐步說明與最佳實踐。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

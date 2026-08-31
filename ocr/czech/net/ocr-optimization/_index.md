@@ -115,6 +115,8 @@ Využijte Aspose.OCR pro .NET k vytvoření prohledávatelných PDF pomocí dáv
 Kompletní průvodce nastavením předzpracování OCR a rozpoznáním textu z obrázku v C# pomocí Aspose.OCR.
 ### [Spusťte OCR na PNG s GPU – Kompletní průvodce C#](./run-ocr-on-png-with-gpu-complete-c-guide/)
 Kompletní průvodce využitím GPU pro OCR PNG v C# s Aspose.OCR.
+### [c# OCR tutoriál: Rozpoznání textu z obrázku s předzpracováním](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Objevte, jak pomocí Aspose.OCR pro .NET rozpoznat text z obrázku a optimalizovat výsledky předzpracováním.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

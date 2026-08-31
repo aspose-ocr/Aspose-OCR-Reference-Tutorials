@@ -41,22 +41,6 @@ Estrarre OCR significa fornire un'immagine (o una collezione di immagini) ad Asp
 - Pacchetto NuGet Aspose.OCR per .NET installato (`Install-Package Aspose.OCR`).  
 - Immagini di esempio o archivi contenenti immagini che desideri elaborare.
 
-## OCROperation con Archivio nel Riconoscimento OCR delle Immagini
-Immergiti nel mondo OCR con Aspose.OCR e scopri come estrarre testo da immagini archiviate passo dopo passo. Questo tutorial fornisce approfondimenti completi su come sfruttare le capacità OCR all'interno delle applicazioni .NET. Dall'installazione all'implementazione, svela la magia dell'estrazione del testo.
-
-## OCROperation con Cartella nel Riconoscimento OCR delle Immagini
-Sblocca la potenza del riconoscimento OCR delle immagini in .NET con Aspose.OCR. Questo tutorial ti fornisce le conoscenze necessarie per estrarre testo senza sforzo da immagini memorizzate in cartelle. Aumenta l'efficienza nell'estrazione dei dati e ottimizza le capacità OCR della tua applicazione.
-
-## OCROperation con Selezione della Lingua nel Riconoscimento OCR delle Immagini
-Porta le tue capacità OCR a nuovi livelli padroneggiando **la selezione della lingua OCR** in Aspose.OCR per .NET. Questo tutorial ti guida attraverso il processo di estrazione fluida del testo da immagini in diverse lingue. Potenzia la tua applicazione con capacità OCR multilingue.
-
-## OCROperation con Lista nel Riconoscimento OCR delle Immagini
-Esplora il vasto potenziale di Aspose.OCR per .NET mentre esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Questo tutorial non solo migliora l'estrazione del testo, ma aumenta anche la produttività nella gestione di set di dati diversificati. Scopri l'efficienza dell'OCR con operazioni basate su liste.
-
-## Tutorial di Configurazione OCR
-
-
-
 ### [OCROperation con Archivio nel Riconoscimento OCR delle Immagini](./ocr-operation-with-archive/)
 Sblocca il potenziale dell'OCR nelle applicazioni .NET con Aspose.OCR. Impara a estrarre testo da immagini archiviate passo dopo passo.
 ### [OCROperation con Cartella nel Riconoscimento OCR delle Immagini](./ocr-operation-with-folder/)
@@ -76,6 +60,11 @@ Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscime
 - **Attenzione:** Gli archivi di grandi dimensioni possono consumare molta memoria; considera l'elaborazione a lotti.  
 ### [Estrai testo russo e imposta il percorso delle risorse in C# – Guida Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Scopri come estrarre testo russo da immagini e configurare il percorso delle risorse in C# con Aspose OCR.
+### [Come eseguire OCR su immagine in C# – Guida completa con supporto GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere testo da immagini sfruttando la potenza della GPU.
+### [Riconoscere il testo da immagine con Aspose OCR – Guida completa C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere testo da immagini con una guida completa passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

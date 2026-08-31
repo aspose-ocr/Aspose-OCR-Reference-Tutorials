@@ -69,6 +69,11 @@ Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan mudah m
 Pelajari cara memeriksa bahasa yang didukung OCR di Aspose.OCR untuk C# dengan panduan lengkap langkah demi langkah.
 ### [Ekstrak teks Rusia & atur jalur sumber daya di C# – Panduan Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
 Pelajari cara mengekstrak teks berbahasa Rusia dan mengatur jalur sumber daya dalam aplikasi C# menggunakan Aspose OCR.
+### [Cara OCR Gambar di C# – Panduan Lengkap dengan Dukungan GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Pelajari cara melakukan OCR pada gambar menggunakan C# dengan dukungan GPU untuk kecepatan optimal.
+### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan lengkap C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
