@@ -1,0 +1,7 @@
+Title: Load Image for OCR – Complete Guide to Perform OCR on PNG Files
+Slug: load-image-for-ocr-complete-guide-to-perform-ocr-on-png-file
+Category: general
+ProcessedDate: 2026-06-25T23:37:53.248150
+SourceRepo: AI Search API
+Keywords: load image for ocr, perform ocr on png
+PRNumber: 159

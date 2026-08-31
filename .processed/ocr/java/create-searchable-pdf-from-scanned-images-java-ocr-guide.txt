@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from Scanned Images – Java OCR Guide
+Slug: create-searchable-pdf-from-scanned-images-java-ocr-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-22T19:32:58.286462
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned pdf, how to ocr document, mixed language ocr, aspose ocr java
+PRNumber: 153

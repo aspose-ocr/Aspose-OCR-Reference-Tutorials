@@ -1,0 +1,7 @@
+Title: Perform OCR on Image with Aspose – Complete C# Guide
+Slug: perform-ocr-on-image-with-aspose-complete-c-guide
+Category: ocr-optimization
+ProcessedDate: 2026-07-05T10:29:58.677365
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from receipt, improve ocr accuracy, load image for ocr, preprocess image before ocr
+PRNumber: 167

@@ -1,0 +1,7 @@
+Title: How to Use OcrEngineConfig – OCR Engine Configuration in C#
+Slug: how-to-use-ocrengineconfig-ocr-engine-configuration-in-c
+Category: ocr-configuration
+ProcessedDate: 2026-06-19T14:51:10.129771
+SourceRepo: AI Search API
+Keywords: how to use ocrengineconfig
+PRNumber: 148

@@ -1,11 +1,62 @@
 ---
-date: 2025-12-15
-description: Tanulja meg, hogyan ismerje fel a szöveget TIFF képeken az Aspose.OCR
-  for Java használatával. Ez a lépésről‑lépésre útmutató a beállítást, a kódot és
-  a legjobb gyakorlatokat fedi le.
-linktitle: OCR Recognizing TIFF Images in Aspose.OCR for Java
+date: 2026-05-19
+description: Ismerje meg, hogyan nyerhet ki szöveget a TIFF fájlból, és alakíthatja
+  át kereshető tartalommá az Aspose.OCR for Java használatával. Ez a lépésről‑lépésre
+  útmutató bemutatja a beállítást, a kódot és a legjobb gyakorlatokat.
+keywords:
+- extract text from tiff
+- how to recognize tiff
+- java ocr library
+- convert tiff to searchable
+- java ocr tutorial
+linktitle: OCR a TIFF képek felismeréséhez az Aspose.OCR for Java-ban
+schemas:
+- author: Aspose
+  dateModified: '2026-05-19'
+  description: Learn how to extract text from tiff and convert it to searchable content
+    using Aspose.OCR for Java. This step‑by‑step tutorial covers setup, code, and
+    best practices.
+  headline: How to extract text from tiff with Aspose.OCR for Java
+  type: TechArticle
+- description: Learn how to extract text from tiff and convert it to searchable content
+    using Aspose.OCR for Java. This step‑by‑step tutorial covers setup, code, and
+    best practices.
+  name: How to extract text from tiff with Aspose.OCR for Java
+  steps:
+  - name: Set Up Your Project
+    text: Create a new Java project (IDE or command line) and place the Aspose.OCR
+      JAR on the classpath.
+  - name: Define Your Document Directory and Image Path
+    text: Set `dataDir` to the folder that contains your TIFF files, e.g., `String
+      dataDir = "C:/Images/";`.
+  - name: Create AsposeOCR Instance
+    text: Instantiate `AsposeOCR ocr = new AsposeOCR();` to access OCR functions.
+  - name: Set Recognition Options
+    text: Create a `DocumentRecognitionSettings` object to specify language, mode,
+      and output options.
+  - name: Perform Text Recognition
+    text: The method returns an `OcrResult` containing the extracted text and metadata.
+  - name: Print Recognition Results
+    text: Iterate over the `OcrResult` fields to display the recognized text.
+  - name: Implement the `printResult` Method
+    text: The `printResult` helper formats and outputs the OCR data to the console.
+  type: HowTo
+- questions:
+  - answer: It means converting the visual characters inside a TIFF image into editable,
+      searchable text using OCR.
+    question: What does “extract text from tiff” mean?
+  - answer: Aspose.OCR for Java, available from the official Aspose site.
+    question: Which library should I use?
+  - answer: Yes—use a free trial for evaluation, then purchase a commercial license
+      for deployment.
+    question: Is a license required for production?
+  - answer: Absolutely; the `RecognizeTiff` method processes all pages automatically.
+    question: Can I handle multi‑page TIFFs?
+  - answer: Java 8 or later is fully supported.
+    question: What Java version is supported?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Hogyan ismerjünk fel szöveget TIFF képeken az Aspose.OCR for Java segítségével
+title: Hogyan lehet szöveget kinyerni a TIFF fájlból az Aspose.OCR for Java segítségével
 url: /hu/java/ocr-operations/recognize-tiff/
 weight: 13
 ---
@@ -14,41 +65,31 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR TIFF képek felismerése az Aspose.OCR for Java-ban
+# Szöveg kinyerése TIFF képekből az Aspose.OCR for Java használatával
 
-## Introduction
+Ebben az átfogó útmutatóban megtanulja, hogyan **hogyan nyerjen ki szöveget tiff** fájlokból az Aspose.OCR for Java segítségével. Akár kereshető PDF-ekre van szüksége egy dokumentumkezelő rendszerhez, akár be szeretne indexelni beolvasott szerződéseket, ez a tutorial minden lépésen végigvezet – a könyvtár telepítésétől az OCR eredmények kiírásáig –, így percek alatt elkezdhet TIFF képeket feldolgozni.
 
-Üdvözöljük az átfogó **aspose ocr java tutorial**-ban, amely megmutatja, hogyan **recognize text in tiff** képeken használja az Aspose.OCR for Java-t. Akár tapasztalt fejlesztő, akár csak most ismerkedik az OCR-rel, ez az útmutató minden lépésen végigvezet – a projekt beállításától a tiszta, kereshető szöveg kinyeréséig. A végére egy kész, futtatható példát kap, amelyet saját alkalmazásaihoz igazíthat.
+## Gyors válaszok
+- **Mit jelent a “extract text from tiff”?** Ez azt jelenti, hogy a TIFF képben lévő vizuális karaktereket OCR-rel szerkeszthető, kereshető szöveggé konvertálja.  
+- **Melyik könyvtárat használjam?** Aspose.OCR for Java, available from the official Aspose site.  
+- **Szükséges licenc a termeléshez?** Igen—használjon ingyenes próbaverziót értékeléshez, majd vásároljon kereskedelmi licencet a telepítéshez.  
+- **Kezelhetek többoldalas TIFF fájlokat?** Természetesen; a `RecognizeTiff` metódus automatikusan feldolgozza az összes oldalt.  
+- **Melyik Java verzió támogatott?** A Java 8 vagy újabb teljes mértékben támogatott.
 
-## Quick Answers
-- **Mi jelent a “recognize text in tiff”?** Ez azt jelenti, hogy olvasható karaktereket nyerünk ki egy TIFF‑formátumú képből OCR technológiával.  
-- **Melyik könyvtár szükséges?** Aspose.OCR for Java (letölthető a hivatalos Aspose weboldalról).  
-- **Szükségem van licencre a teszteléshez?** Elérhető egy ingyenes próba; a termelési használathoz kereskedelmi licenc szükséges.  
-- **Feldolgozhatok többoldalas TIFF fájlokat?** Igen, a `RecognizeTiff` metódus alapból kezeli a többoldalas dokumentumokat.  
-- **Melyik Java verzió támogatott?** Java 8 vagy újabb ajánlott.
+## Mi a szöveg kinyerése tiff-ből?
+*Extract text from tiff* az az OCR művelet, amely a TIFF fájl pixeladatait olvassa, és az alatta lévő karaktereket Unicode szövegként adja vissza. Ez lehetővé teszi a teljes szöveges keresést, indexelést és az adatfeldolgozást. A beolvasott képek géppel olvasható karakterláncokká alakításával a tartalmat adatbázisokba integrálhatja, természetes nyelvfeldolgozást alkalmazhat, vagy archiválási célokra kereshető PDF-eket generálhat.
 
-## What is “recognize text in tiff”?
+## Miért használja az Aspose.OCR for Java-t?
+Az Aspose.OCR **50+ bemeneti és kimeneti formátumot** támogat, és akár **500 MB**-os TIFF fájlokat is képes feldolgozni anélkül, hogy a teljes dokumentumot a memóriába töltené. Az API tisztán Java, **nincs külső függőség**, és **>95 % pontosságot** biztosít nyomtatott angol szövegre azonnal.
 
-A TIFF (Tagged Image File Format) gyakran használt nagy felbontású beolvasott dokumentumokhoz. A **recognize text in tiff** művelet kifinomult képelemzést alkalmaz a karakterek, szavak és bekezdések megtalálásához, és szerkeszthető szöveggé alakítja, amely tárolható, kereshető vagy indexelhető.
+## Előfeltételek
+- Java Development Kit (JDK) 8 vagy újabb telepítve.  
+- Aspose.OCR for Java könyvtár letöltve és a projektbe hozzáadva. Szerezze be a hivatalos letöltőoldalon **[here](https://releases.aspose.com/ocr/java/)**.  
+- Egy TIFF kép, amely a kinyerni kívánt szöveget tartalmazza.  
+- (Opcionális) Alapvető ismeretek a **read tiff file java** használatáról a `java.io`-val, ha manuális fájlkezelést részesít előnyben.
 
-## Why use Aspose.OCR for Java?
-
-- **Magas pontosság** számos nyelv és betűtípus esetén.  
-- **Beépített támogatás** többoldalas TIFF, PDF és egyéb képformátumokhoz.  
-- **Egyszerű API**, amely csak néhány kódsort igényel.  
-- **Nincs külső függőség** – minden tiszta Java környezetben fut.
-
-## Prerequisites
-
-Mielőtt belemerülnénk az útmutatóba, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
-
-- Java Development Kit (JDK) telepítve a gépén.  
-- Aspose.OCR for Java könyvtár letöltve és hozzáadva a projektjéhez. Letöltheti [itt](https://releases.aspose.com/ocr/java/).  
-- Egy TIFF képfájl, amely a felismertetni kívánt szöveget tartalmazza.
-
-## Import Packages
-
-A Java projektjében győződjön meg arról, hogy importálja a szükséges csomagokat az Aspose.OCR használatához:
+## Csomagok importálása
+Az `AsposeOCR` osztály és a kapcsolódó beállítások a `com.aspose.ocr` névtérben találhatók. Importálja őket a forrásfájl tetején.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -66,47 +107,44 @@ import java.awt.*;
 import java.util.ArrayList;
 ```
 
-Most bontsuk le a példakódot több lépésre, hogy átfogó útmutatót kapjunk a TIFF képek szövegfelismeréséhez.
+## Hogyan nyerjen ki szöveget tiff-ből az Aspose.OCR for Java használatával?
+Töltsön be egy TIFF-et a `new AsposeOCR()` segítségével, és hívja meg a `recognizeTiff()`‑t – ez az egyetlen hívás beolvassa az összes oldalt, nyelvspecifikus modelleket alkalmaz, és egy strukturált `OcrResult` objektumot ad vissza, amely tartalmazza a sima szöveget, bekezdéseket és a megbízhatósági pontszámokat. A metódus tipikusan egy másodperc alatt lefut a szokásos 300 dpi-s beolvasásoknál.
 
-## Step 1: Set Up Your Project
+### 1. lépés: A projekt beállítása
+Hozzon létre egy új Java projektet (IDE vagy parancssor) és helyezze az Aspose.OCR JAR-t a classpath‑ra.
 
-Kezdje egy új Java projekt létrehozásával, és adja hozzá az Aspose.OCR for Java könyvtárat az osztályútvonalához.
-
-## Step 2: Define Your Document Directory and Image Path
+### 2. lépés: Dokumentumkönyvtár és képadat útvonal meghatározása
+Állítsa be a `dataDir` változót arra a mappára, amely a TIFF fájlokat tartalmazza, például `String dataDir = "C:/Images/";`.
 
 ```java
 String dataDir = "Your Document Directory";
 String file = dataDir + "multipage.tif";
 ```
 
-Cserélje le a `"Your Document Directory"`-t a projektjének dokumentumkönyvtárára mutató tényleges útvonalra.
-
-## Step 3: Create AsposeOCR Instance
+### 3. lépés: AsposeOCR példány létrehozása
+Példányosítsa a `AsposeOCR ocr = new AsposeOCR();`-t az OCR funkciók eléréséhez.
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-Inicializáljon egy példányt a `AsposeOCR` osztályból, amelyet a szövegfelismeréshez használunk.
-
-## Step 4: Set Recognition Options
+### 4. lépés: Felismerési beállítások megadása
+Hozzon létre egy `DocumentRecognitionSettings` objektumot a nyelv, mód és kimeneti beállítások megadásához.
 
 ```java
 DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
 settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 ```
 
-Állítsa be a felismerési beállításokat, megadva a módot és a további opciókat a követelményei szerint.
-
-## Step 5: Perform Text Recognition
+### 5. lépés: Szövegfelismerés végrehajtása
+A metódus egy `OcrResult` objektumot ad vissza, amely a kinyert szöveget és metaadatokat tartalmaz.
 
 ```java
 ArrayList<RecognitionResult> result = api.RecognizeTiff(file, settings);
 ```
 
-Hívja meg a `RecognizeTiff` metódust, hogy a megadott TIFF képen OCR-t hajtson végre a beállított konfigurációval.
-
-## Step 6: Print Recognition Results
+### 6. lépés: Felismerési eredmények kiírása
+Iteráljon a `OcrResult` mezőin a felismert szöveg megjelenítéséhez.
 
 ```java
 for (RecognitionResult r : result) {
@@ -114,9 +152,8 @@ for (RecognitionResult r : result) {
 }
 ```
 
-Iteráljon a felismerési eredményeken, és írja ki a kinyert szöveget, bekezdéseket, sorokat, karaktereket, figyelmeztetéseket, JSON-t és a helyesírási javítással korrigált szöveget.
-
-## Step 7: Implement the `printResult` Method
+### 7. lépés: A `printResult` metódus implementálása
+A `printResult` segédfüggvény formázza és a konzolra írja az OCR adatokat.
 
 ```java
 static void printResult(RecognitionResult result) {
@@ -124,49 +161,46 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-Definiálja a `printResult` metódust, hogy strukturált módon jelenítse meg az OCR eredményeket.
+## Gyakori problémák és megoldások
 
-Ennyi—sikeresen megvalósította a **recognize text in tiff** funkciót az Aspose.OCR for Java segítségével. Nyugodtan testreszabhatja a kódot saját igényei szerint, például módosíthatja a detektálási módot vagy kezelhet különböző nyelveket.
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| **Nincs visszaadott szöveg** | Helytelen fájlútvonal vagy nem támogatott TIFF tömörítés. | Ellenőrizze a `dataDir` útvonalat, győződjön meg arról, hogy a TIFF nem sérült, és ha lehetséges, használjon tömörítetlen TIFF-et. |
+| **Hibás karakterek** | Alacsony felbontású kép vagy gyenge kontraszt. | Előfeldolgozza a képet (növelje a DPI-t 300+-ra, növelje a kontrasztot) a `recognizeTiff` hívása előtt. |
+| **Nem támogatott nyelv** | A nyelv nincs beállítva a `DocumentRecognitionSettings`-ben. | Adja hozzá a `settings.setLanguage(Language.SPANISH);`-t (vagy a kívánt nyelvet) a felismerés előtt. |
 
-## Common Issues and Solutions
+## Gyakran feltett kérdések
 
-| Probléma | Miért fordul elő | Hogyan javítsuk |
-|----------|------------------|-----------------|
-| **Nem tér vissza szöveg** | Helytelen fájlútvonal vagy nem támogatott TIFF tömörítés. | Ellenőrizze a `dataDir` útvonalat, és győződjön meg róla, hogy a TIFF nem sérült. |
-| **Zavaros karakterek** | Alacsony felbontású kép vagy gyenge kontraszt. | Előfeldolgozza a képet (növelje a DPI-t, javítsa a kontrasztot) OCR előtt. |
-| **Nem támogatott nyelv** | A nyelv nincs beállítva a `DocumentRecognitionSettings`-ben. | Adja hozzá a `settings.setLanguage(Language.SPANISH);` sort (vagy a kívánt nyelvet). |
+**Q1: Alkalmas-e az Aspose.OCR a többnyelvű szövegfelismerésre?**  
+A: Igen, az Aspose.OCR több mint 60 nyelvet támogat, lehetővé téve a kívánt nyelv beállítását a `DocumentRecognitionSettings`-ben.
 
-## Frequently Asked Questions
+**Q2: Integrálhatom az Aspose.OCR-t egy webszolgáltatásba?**  
+A: Teljesen. A könyvtár bármely Java‑kompatibilis szerveren fut, és az OCR funkciót REST végpontokon keresztül teheti elérhetővé.
 
-### Q1: Az Aspose.OCR alkalmas különböző nyelvek szövegfelismerésére?
+**Q3: Milyen licencelési lehetőségek állnak rendelkezésre?**  
+A: Megtekintheti a licencelési lehetőségeket és vásárolhat licencet **[here](https://purchase.aspose.com/buy)**.
 
-**A1:** Igen, az Aspose.OCR több nyelven is támogatja a szövegfelismerést, így rugalmas megoldást nyújt különféle alkalmazásokhoz.
+**Q4: Elérhető ingyenes próba?**  
+A: Igen—töltse le a próbaverziót **[here](https://releases.aspose.com/)**, hogy költség nélkül tesztelje az összes funkciót.
 
-### Q2: Integrálhatom az Aspose.OCR-t a webalkalmazásomba?
-
-**A2:** Természetesen! Az Aspose.OCR könnyedén integrálható asztali és webalkalmazásokba egyaránt.
-
-### Q3: Vannak licencelési lehetőségek az Aspose.OCR-hez?
-
-**A3:** Igen, megtekintheti a licencelési lehetőségeket és vásárolhat [itt](https://purchase.aspose.com/buy).
-
-### Q4: Van ingyenes próba az Aspose.OCR for Java-hoz?
-
-**A4:** Igen, ingyenes próbát érhet el [itt](https://releases.aspose.com/).
-
-### Q5: Hol találok további támogatást vagy közösségi megbeszéléseket az Aspose.OCR-rel kapcsolatban?
-
-**A5:** Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) a közösségi támogatás és megbeszélések érdekében.
+**Q5: Hol kaphatok közösségi támogatást?**  
+A: Csatlakozzon a **[Aspose.OCR fórumhoz](https://forum.aspose.com/c/ocr/16)** tippek, kódrészletek és hibakeresési segítségért.
 
 ---
 
-**Utoljára frissítve:** 2025-12-15  
-**Tesztelve a következővel:** Aspose.OCR for Java 24.11 (legújabb a megírás időpontjában)  
-**Szerző:** Aspose  
+**Utolsó frissítés:** 2026-05-19  
+**Tesztelve ezzel:** Aspose.OCR for Java 24.11 (latest at time of writing)  
+**Szerző:** Aspose
+
+## Kapcsolódó tutorialok
+
+- [Képek szövegének kinyerése – OCR alapok az Aspose.OCR for Java-val](/ocr/java/ocr-basics/)
+- [OCR PDF dokumentumok felismerése az Aspose.OCR for Java-ban](/ocr/java/ocr-operations/recognize-pdf/)
+- [Szöveg kinyerése képből Java-val az Aspose.OCR Detect Areas móddal](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

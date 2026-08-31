@@ -1,10 +1,10 @@
 ---
-date: 2025-12-06
-description: เรียนรู้วิธีใช้ Aspose.OCR สำหรับ Java เพื่อทำการจดจำข้อความด้วย OCR,
-  ดึงข้อความจากภาพ, และเตรียมสี่เหลี่ยมสำหรับการจดจำแบบเจาะจง.
-linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-02-20
+description: เรียนรู้วิธีการจดจำสี่เหลี่ยมหน้าโดยใช้ Aspose.OCR สำหรับ Java, ดึงข้อความจากภาพในโครงการ
+  Java, และทำตามบทแนะนำ Aspose OCR Java นี้เพื่อการ OCR ที่แม่นยำ
+linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: การเตรียมสี่เหลี่ยมสำหรับการจดจำข้อความ OCR ใน Aspose.OCR
+title: วิธีระบุสี่เหลี่ยมหน้ากระดาษสำหรับการจดจำข้อความ OCR ด้วย Aspose.OCR
 url: /th/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
@@ -13,39 +13,35 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การเตรียมสี่เหลี่ยมสำหรับการจดจำข้อความ OCR ใน Aspose.OCR
+# วิธีการระบุสี่เหลี่ยมหน้ากระดาษสำหรับการจดจำข้อความ OCR ใน Aspose.OCR
 
-## Introduction
+ในสายงานอัตโนมัติเอกสารสมัยใหม่, **recognize page rectangles** เป็นเทคนิคสำคัญที่ทำให้คุณบอกเครื่องมือ OCR ว่าต้องมองหาในตำแหน่งใดโดยเฉพาะ การจำกัด Aspose.OCR ให้ทำงานเฉพาะพื้นที่ที่มีข้อความจริงจะช่วยเพิ่มความเร็ว ลดสัญญาณรบกวน และได้ผลลัพธ์ที่สะอาดยิ่งขึ้น ในบทแนะนำนี้เราจะเดินผ่านทุกขั้นตอน—ตั้งค่าห้องสมุด, ใบอนุญาต, การกำหนดสี่เหลี่ยม, และสุดท้ายการเรียก API OCR—เพื่อให้คุณสามารถสกัดข้อความจากภาพใดก็ได้อย่างมั่นใจ
 
-ในโลกที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน, **ocr text recognition** เป็นหัวใจสำคัญในการแปลงเอกสารสแกน, ภาพหน้าจอ, และรูปถ่ายให้เป็นเนื้อหาที่สามารถค้นหาและแก้ไขได้ Aspose.OCR for Java ทำให้กระบวนการนี้เร็วและเชื่อถือได้, โดยเฉพาะเมื่อคุณต้องการโฟกัสไปยังพื้นที่เฉพาะของภาพ ในบทเรียนนี้เราจะอธิบายขั้นตอนทั้งหมดที่จำเป็นในการเตรียมสี่เหลี่ยมเพื่อจำกัด OCR ให้ทำงานในพื้นที่ที่คุณต้องการ, ให้คุณควบคุมได้อย่างแม่นยำและประสิทธิภาพที่ดียิ่งขึ้น.
+## คำตอบอย่างรวดเร็ว
+- **What library handles OCR text recognition in Java?** Aspose.OCR for Java.  
+- **Do I need a license for production use?** Yes – a valid Aspose.OCR license unlocks full functionality.  
+- **Can I limit OCR to certain parts of an image?** Absolutely; you define rectangles that bound the target zones.  
+- **What are the main prerequisites?** JDK 17+, Aspose.OCR for Java, and a Java IDE.  
+- **Is this approach suitable for extracting text from images?** Yes, it’s an efficient way to **extract text image java** projects.
 
-## Quick Answers
-- **ไลบรารีใดที่จัดการ OCR text recognition ใน Java?** Aspose.OCR for Java.  
-- **ฉันต้องการใบอนุญาตสำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ใช่ – ใบอนุญาต Aspose.OCR ที่ถูกต้องจะเปิดใช้งานฟังก์ชันทั้งหมด.  
-- **ฉันสามารถจำกัด OCR ให้ทำงานในส่วนบางของภาพได้หรือไม่?** ได้แน่นอน; คุณกำหนดสี่เหลี่ยมที่ล้อมรอบโซนเป้าหมาย.  
-- **ข้อกำหนดเบื้องต้นหลักคืออะไร?** JDK 17+, Aspose.OCR for Java, และ IDE สำหรับ Java.  
-- **วิธีนี้เหมาะสำหรับการสกัดข้อความจากภาพหรือไม่?** ใช่, เป็นวิธีที่มีประสิทธิภาพในการ **extract text image java** projects.
+## “recognize page rectangles” คืออะไร?
+วลีนี้หมายถึงการส่งรายการของอ็อบเจ็กต์ `java.awt.Rectangle` ไปยังเครื่องมือ OCR เพื่อให้มันประมวลผลเฉพาะพื้นที่ที่กำหนดบนหน้า วิธีการที่มุ่งเน้นนี้ช่วยลดเวลาในการประมวลผลและเพิ่มความแม่นยำ โดยเฉพาะกับเอกสารที่ซับซ้อนเช่น ใบแจ้งหนี้หรือแบบฟอร์ม
 
-## OCR Text Recognition คืออะไร?
-
-OCR (Optical Character Recognition) text recognition แปลงภาพที่เป็นพิกเซลให้เป็นอักขระที่เครื่องคอมพิวเตอร์อ่านได้ ช่วยให้คุณสามารถค้นหา, แก้ไข, และวิเคราะห์เนื้อหาที่เดิมเป็นเพียงรูปภาพเท่านั้น.
-
-## ทำไมต้องเตรียมสี่เหลี่ยมสำหรับ OCR Text Recognition?
-
-การกำหนดสี่เหลี่ยมทำให้เครื่องยนต์มุ่งเน้นไปที่บริเวณที่มีข้อความจริง ๆ ซึ่ง:
-* ลดเวลาการประมวลผล
-* เพิ่มความแม่นยำโดยละเลยพื้นหลังที่มีสัญญาณรบกวน
-* ทำให้คุณสกัดข้อมูลที่ต้องการเท่านั้น—เหมาะสำหรับแบบฟอร์ม, ใบแจ้งหนี้, และใบเสร็จ
+## ทำไมต้องเตรียมสี่เหลี่ยมสำหรับการจดจำข้อความ OCR?
+การกำหนดสี่เหลี่ยมทำให้เครื่องมือมุ่งเน้นไปที่บริเวณที่มีข้อความจริง ซึ่ง:
+* ลดเวลาในการประมวลผล  
+* เพิ่มความแม่นยำโดยไม่สนใจพื้นหลังที่มีสัญญาณรบกวน  
+* ให้คุณสกัดข้อมูลที่ต้องการเท่านั้น—เหมาะสำหรับแบบฟอร์ม, ใบแจ้งหนี้, และใบเสร็จ
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนเริ่ม, ตรวจสอบว่าคุณมี:
 
-- **Java Development Kit (JDK)** – Aspose.OCR for Java ทำงานกับ JDK 17 หรือใหม่กว่า ดาวน์โหลดได้จากเว็บไซต์ Oracle.
-- **Aspose.OCR for Java library** – รับไฟล์ JAR ล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการ [here](https://releases.aspose.com/ocr/java/). ทำตามคู่มือการติดตั้ง [here](https://reference.aspose.com/ocr/java/).
-- **Development Environment** – IDE สำหรับ Java ใดก็ได้ (IntelliJ IDEA, Eclipse, VS Code, ฯลฯ) ก็ใช้ได้.
+- **Java Development Kit (JDK)** – Aspose.OCR for Java ทำงานกับ JDK 17 หรือใหม่กว่า ดาวน์โหลดได้จากเว็บไซต์ของ Oracle  
+- **Aspose.OCR for Java library** – รับ JAR ล่าสุดจากหน้าดาวน์โหลดอย่างเป็นทางการ [ที่นี่](https://releases.aspose.com/ocr/java/). ดูคำแนะนำการติดตั้ง [ที่นี่](https://reference.aspose.com/ocr/java/).  
+- **Development Environment** – IDE ใดก็ได้สำหรับ Java (IntelliJ IDEA, Eclipse, VS Code ฯลฯ) ก็ใช้ได้
 
-## นำเข้าแพ็กเกจ
+## Import Packages
 
 ในไฟล์ซอร์ส Java ของคุณ, นำเข้าคลาส Aspose.OCR ที่จำเป็นและยูทิลิตี้มาตรฐานของ Java:
 
@@ -61,34 +57,34 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-> *เรานำเข้า `java.awt.Rectangle` เนื่องจาก OCR API ต้องการสี่เหลี่ยมที่กำหนดบริเวณที่จะสแกน.*
+> *We import `java.awt.Rectangle` because the OCR API expects rectangles that define the regions to scan.*
 
-## ขั้นตอนที่ 1: ตั้งค่าใบอนุญาต
+## Step 1: Set Up License
 
 ```java
 SetLicense.main(null);
 ```
 
-การเรียก `SetLicense` จะเปิดใช้งานใบอนุญาต Aspose.OCR ของคุณ, ยกเลิกข้อจำกัดการประเมินผลและเปิดใช้งาน OCR text recognition เต็มรูปแบบ.
+การเรียก `SetLicense` จะเปิดใช้งานใบอนุญาต Aspose.OCR ของคุณ, ยกเลิกข้อจำกัดการประเมินผลและเปิดฟีเจอร์ OCR เต็มรูปแบบ
 
-## ขั้นตอนที่ 2: กำหนดไดเรกทอรีเอกสารและเส้นทางรูปภาพ
+## Step 2: Define Document Directory and Image Path
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-แทนที่ `"Your Document Directory"` ด้วยเส้นทางเต็มที่เก็บรูปภาพของคุณ (`p.png`). นี่คือรูปภาพที่จะถูกประมวลผล.
+แทนที่ `"Your Document Directory"` ด้วยพาธเต็มที่เก็บภาพของคุณ (`p.png`). นี่คือภาพที่จะถูกประมวลผล
 
-## ขั้นตอนที่ 3: สร้างอินสแตนซ์ AsposeOCR
+## Step 3: Create Aspose.OCR Instance
 
 ```java
 AsposeOCR api = new AsposeOCR();
 ```
 
-การสร้างอินสแตนซ์ `AsposeOCR` จะทำให้คุณเข้าถึงเมธอด `RecognizePage` ซึ่งทำการ OCR จริง.
+การสร้างอินสแตนซ์ `AsposeOCR` ให้คุณเข้าถึงเมธอด `RecognizePage` ที่ทำการ OCR จริง
 
-## ขั้นตอนที่ 4: เตรียมสี่เหลี่ยมพร้อมข้อความ
+## Step 4: Prepare Rectangles with Texts
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -98,9 +94,9 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-แต่ละ `Rectangle(x, y, width, height)` บอก AsposeOCR ว่าจะมองหาข้อความที่ตำแหน่งใด ปรับค่าพิกัดให้ตรงกับการจัดวางของภาพต้นฉบับของคุณ.
+แต่ละ `Rectangle(x, y, width, height)` บอก Aspose.OCR ว่าต้องมองหาข้อความที่ตำแหน่งใด ปรับค่าพิกัดให้ตรงกับเลย์เอาต์ของภาพต้นฉบับของคุณ
 
-## ขั้นตอนที่ 5: ทำการ OCR Recognition
+## Step 5: Perform OCR Recognition
 
 ```java
 try {
@@ -111,43 +107,43 @@ try {
 }
 ```
 
-การเรียก `RecognizePage` จะประมวลผลเฉพาะสี่เหลี่ยมที่กำหนดและคืนสตริงที่สกัดออกมา ผลลัพธ์ที่แสดงในคอนโซลช่วยให้คุณตรวจสอบผลลัพธ์ของ **ocr text recognition** ได้ทันที.
+การเรียก `RecognizePage` จะประมวลผลเฉพาะสี่เหลี่ยมที่กำหนดและคืนสตริงที่สกัดออกมา ผลลัพธ์บนคอนโซลช่วยให้คุณตรวจสอบ **ocr text recognition** ได้ทันที
 
-## ปัญหาทั่วไปและเคล็ดลับ
+## Common Issues and Tips
 
-| ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|--------|----------|
-| **ไม่มีผลลัพธ์** | พิกัดสี่เหลี่ยมหรือเส้นทางรูปภาพไม่ถูกต้อง | ตรวจสอบค่าของ `dataDir` อีกครั้งและให้แน่ใจว่าสี่เหลี่ยมครอบคลุมบริเวณข้อความจริง. |
-| **อักขระแปลก** | ภาพความละเอียดต่ำหรือฟอนต์ที่ไม่รองรับ | ใช้แหล่งที่มาที่มีความละเอียดสูงขึ้นหรือทำการประมวลผลภาพล่วงหน้า (เช่น การทำเป็นสีขาวดำ). |
-| **ไม่ได้ใช้ใบอนุญาต** | `SetLicense` ไม่ได้ถูกเรียกก่อน OCR | ตรวจสอบให้แน่ใจว่า `SetLicense.main(null);` ทำงานก่อนการเรียก API ใด ๆ. |
-| **ความล่าช้าของประสิทธิภาพ** | สี่เหลี่ยมขนาดใหญ่จำนวนมาก | จำกัดจำนวนสี่เหลี่ยมและทำให้พวกมันกระชับที่สุดเท่าที่จะเป็นไปได้รอบข้อความ. |
+| ปัญหา | สาเหตุ | วิธีแก้ไข |
+|-------|-------|----------|
+| **ไม่มีผลลัพธ์** | พิกัดสี่เหลี่ยมหรือพาธภาพไม่ถูกต้อง | ตรวจสอบค่าของ `dataDir` อีกครั้งและให้แน่ใจว่าสี่เหลี่ยมครอบคลุมพื้นที่ข้อความจริง |
+| **อักขระแปลก** | ภาพความละเอียดต่ำหรือฟอนต์ที่ไม่รองรับ | ใช้แหล่งภาพความละเอียดสูงขึ้นหรือทำการประมวลผลภาพล่วงหน้า (เช่น การไบนารี) |
+| **ใบอนุญาตไม่ถูกนำไปใช้** | `SetLicense` ไม่ได้ถูกเรียกก่อน OCR | ตรวจสอบให้ `SetLicense.main(null);` ทำงานก่อนการเรียก API ใด ๆ |
+| **การทำงานช้า** | มีสี่เหลี่ยมขนาดใหญ่จำนวนมาก | จำกัดจำนวนสี่เหลี่ยมและทำให้พวกมันแคบที่สุดเท่าที่เป็นไปได้รอบข้อความ |
 
-## สรุป
+## Frequently Asked Questions
 
-คุณได้เรียนรู้วิธีรวม Aspose.OCR สำหรับ Java, ตั้งค่าใบอนุญาต, กำหนดเส้นทางรูปภาพ, และที่สำคัญที่สุดคือการเตรียมสี่เหลี่ยมเพื่อให้ **ocr text recognition** มุ่งเน้นไปที่ส่วนเฉพาะของภาพ เทคนิคนี้เหมาะสำหรับ **java ocr tutorial** ใด ๆ ที่ต้องการการสกัดข้อความที่แม่นยำและมีประสิทธิภาพสูง.
+**Q:** *Aspose.OCR รองรับภาษาโปรแกรมอื่น ๆ หรือไม่?*  
+**A:** ใช่, Aspose.OCR ยังสนับสนุน .NET, C++, และ Python. ตรวจสอบเอกสารอย่างเป็นทางการสำหรับตัวอย่างตามภาษา
 
-## คำถามที่พบบ่อย
+**Q:** *ฉันสามารถใช้ Aspose.OCR ในโครงการเชิงพาณิชย์ได้หรือไม่?*  
+**A:** แน่นอน. ซื้อใบอนุญาตเชิงพาณิชย์ผ่าน [ร้านค้า Aspose](https://purchase.aspose.com/buy)
 
-**Q: Aspose.OCR รองรับภาษาโปรแกรมอื่นหรือไม่?**  
-A: ใช่, Aspose.OCR ยังรองรับ .NET, C++, และ Python. ตรวจสอบเอกสารอย่างเป็นทางการสำหรับตัวอย่างตามภาษา.
+**Q:** *มีรุ่นทดลองฟรีหรือไม่?*  
+**A:** มี, คุณสามารถดาวน์โหลดรุ่นทดลองได้ [ที่นี่](https://releases.aspose.com/)
 
-**Q: ฉันสามารถใช้ Aspose.OCR ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
-A: ได้แน่นอน. ซื้อใบอนุญาตเชิงพาณิชย์ผ่าน [Aspose store](https://purchase.aspose.com/buy).
+**Q:** *ฉันจะขอใบอนุญาตชั่วคราวสำหรับการประเมินได้อย่างไร?*  
+**A:** ใบอนุญาตชั่วคราวให้บริการผ่าน [พอร์ทัลใบอนุญาตชั่วคราวของ Aspose](https://purchase.aspose.com/temporary-license/)
 
-**Q: มีรุ่นทดลองฟรีหรือไม่?**  
-A: มี, คุณสามารถดาวน์โหลดรุ่นทดลองได้ [here](https://releases.aspose.com/).
+**Q:** *จะหาแหล่งสนับสนุนจากชุมชนได้จากที่ไหน?*  
+**A:** เยี่ยมชม [ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16) สำหรับคำถาม, เคล็ดลับ, และตัวอย่างโค้ด
 
-**Q: ฉันจะขอใบอนุญาตชั่วคราวสำหรับการประเมินได้อย่างไร?**  
-A: ใบอนุญาตชั่วคราวจะให้ผ่าน [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
+## Conclusion
 
-**Q: ฉันสามารถรับการสนับสนุนจากชุมชนได้จากที่ไหน?**  
-A: เยี่ยมชม Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) สำหรับคำถาม, เคล็ดลับ, และตัวอย่างโค้ด.
+คุณได้เรียนรู้วิธี **recognize page rectangles** ด้วย Aspose.OCR สำหรับ Java, ตั้งค่าใบอนุญาต, กำหนดพาธภาพ, และที่สำคัญที่สุดคือการเตรียมสี่เหลี่ยมที่แคบเพื่อให้ OCR มุ่งเน้นที่ส่วนที่ต้องการของภาพ เทคนิคนี้เหมาะสำหรับ **aspose ocr java tutorial** ใด ๆ ที่ต้องการการสกัดข้อความที่แม่นยำและประสิทธิภาพสูง
 
 ---
 
-**Last Updated:** 2025-12-06  
-**Tested With:** Aspose.OCR for Java 24.12  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-02-20  
+**ทดสอบกับ:** Aspose.OCR for Java 24.12  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,10 +1,13 @@
 ---
-title: Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
-linktitle: Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
+date: 2026-01-04
+description: Dowiedz się, jak wyodrębnić tabelę z obrazu przy użyciu Aspose.OCR dla
+  .NET. Ten przewodnik pokazuje, jak szybko konwertować tekst obrazu tabeli i rozpoznawać
+  tabelę za pomocą OCR.
+linktitle: Recognize Table in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
-weight: 15
+title: Jak wyodrębnić tabelę z obrazu przy użyciu Aspose.OCR dla .NET
 url: /pl/net/text-recognition/recognize-table/
+weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,21 +18,37 @@ url: /pl/net/text-recognition/recognize-table/
 
 ## Wstęp
 
-Witamy w fascynującym świecie Aspose.OCR dla .NET! Jeśli chcesz ulepszyć swoje aplikacje .NET za pomocą potężnych możliwości OCR (optycznego rozpoznawania znaków), jesteś we właściwym miejscu. Ten przewodnik krok po kroku przeprowadzi Cię przez proces rozpoznawania tabel w rozpoznawaniu obrazów OCR przy użyciu Aspose.OCR dla .NET.
+Witamy w fascynującym świecie Aspose.OCR dla .NET! Jeśli **wyodrębnij tabelę z obrazu** i zastosuj te wizualne dane w użytecznym tekście, jesteś we właściwym miejscu. Dziesięć samouczków po kroku przeprowadzi Cię przez rozpoznanie tabeli w OCR, przejście przez **konwertuj tekst obrazu tabeli** przy użyciu Aspose.OCR.
+
+## Szybkie odpowiedzi
+- **Czy mogę wyodrębnić tabelę z obrazu za pomocą Aspose.OCR?** Tak – API zapewnia wykrywanie tabeli.
+- **Które ustawienie jest pomocne, gdy cały obraz jest tabelą?** `LinesFiltration = true`.
+- **Czy potrzebuję licencji na rozwój?** Tymczasowa licencjat działa w testach; pełny licencjat jest wymagany w produkcji.
+- **Jakie formaty obrazów są obsługiwane?** PNG, JPEG, BMP, GIF i inne (zobacz dokumentacja Aspose.OCR).
+- **Jak długo trwa podstawowa implementacja?** Rozwiązanie poniżej 10 minut dla prostego obrazu.
+
+## Co to jest „wyodrębnij tabelę z obrazu”?
+
+Wyodrębnianie tabeli z obrazem oznacza konwersję charakterystyczną dla wierszy i kolumnę na ustrukturyzowany tekst, który można przetwarzać programowo. Funkcje wynikające z tabeli w Aspose.OCR uruchamiają się automatycznie i niezawodną konwersją.
+
+## Dlaczego warto używać Aspose.OCR do tego zadania?
+
+- **Wysoka dokładność** z wbudowanymi algorytmami tabeli.
+- **Proste API**, które integruje się płynnie z każdym atakiem .NET.
+- **Obsługa wielu formatów obrazów** bez dodatkowego przetwarzania wstępnego.
+- **Ustawienia elastyczne** („LinesFiltration”, „DetectAreas”) rozwiązanie do różnych tabel.
 
 ## Warunki wstępne
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim przejdziemy do tutorialu, dokładnie się, że spełniasz szczegółowe wymagania:
 
-1.  Aspose.OCR dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.OCR. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/ocr/net/).
-
-2. Środowisko programistyczne: Skonfiguruj działające środowisko programistyczne .NET.
-
-3. Obraz do OCR: Przygotuj obraz zawierający tabelę, którą chcesz rozpoznać. Upewnij się, że jest on przechowywany w wyznaczonym katalogu dokumentów.
+1. Aspose.OCR dla .NET: obciążenie się, że masz zainstalowaną bibliotekę Aspose.OCR. Jeśli nie, możesz ją zabrać [tutaj](https://releases.aspose.com/ocr/net/).
+2. Środowisko programistyczne: Skonfiguruj działanie programistyczne .NET.
+3. Obraz dla OCR: dotyczy tabeli, którą chcesz używać. pojawia się, że jest generowane w wybranym katalogu dokumentów.
 
 ## Importuj przestrzenie nazw
 
-W projekcie .NET zacznij od zaimportowania niezbędnych przestrzeni nazw:
+W swoim projekcie .NET rozpocznij od zaimportowania otwartej przestrzeni nazw:
 
 ```csharp
 using System;
@@ -37,70 +56,100 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Podzielmy teraz proces rozpoznawania tabel w rozpoznawaniu obrazu OCR na proste kroki.
+Teraz rozbijmy proces rozpoznawania tabel w OCR na proste kroki.
 
-## Krok 1: Zainicjuj Aspose.OCR
+## Jak wyodrębnić tabelę z obrazu – przewodnik krok po kroku
+
+### Krok 1: Zainicjuj Aspose.OCR
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Zainicjuj instancję AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-W tym kroku konfigurujemy niezbędne środowisko i tworzymy instancję klasy AsposeOcr.
+W tym kroku konfigurujemy niezbędne środowisko i tworzymy instancję klasy `AsposeOcr`.
 
-## Krok 2: Rozpoznaj obraz
+### Krok 2: Rozpoznaj obraz (rozpoznaj tabelę OCR)
 
 ```csharp
-// Rozpoznaj obraz
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new RecognitionSettings
 {
-    LinesFiltration = true, // jeśli cały obraz jest tabelą
+    LinesFiltration = true, // if all image is table
     DetectAreas = false
-    // Lub
-    // LinesFiltration = false,
-    // DetectAreas = true //- dla automatycznego wykrywania obszarów za pomocą tabeli
+    // or
+    // LinesFiltration = false, 
+    // DetectAreas = true //- for auto detect areas with table
 });
 ```
 
- Tutaj używamy`RecognizeImage` metoda wykonania OCR na określonym obrazie. Dostosuj ustawienia w oparciu o swoje wymagania.
+Tutaj wywołujemy `RecognizeImage`, aby wykonać OCR na określonym obrazie. Flaga `LinesFiltration` jest idealna, gdy **entire image is a table**, natomiast `DetectAreas` może być użyta do automatycznego wykrywania obszarów tabel.
 
-## Krok 3: Wyświetl rozpoznany tekst
+### Krok 3: Wyświetl rozpoznany tekst
 
 ```csharp
-// Wyświetl rozpoznany tekst
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-Wydrukuj rozpoznany tekst na konsolę lub zapisz go do dalszego przetwarzania. Ten krok pozwala zweryfikować dokładność procesu OCR.
+Wypisz rozpoznany tekst na konsolę lub zapisz go do dalszego przetwarzania. Ten krok pozwala zweryfikować, że operacja **extract table from image** zakończyła się sukcesem oraz że wynik **convert table image text** wygląda prawidłowo.
+
+## Typowe problemy i rozwiązania
+
+| Wydanie | Powód | Napraw |
+|-------|--------|-----|
+| Brak zwróconego tekstu | Nieprawidłowa ścieżka pliku lub nieobsługiwany format | Zaznacz `dataDir` i format obrazu |
+| Tabela nie została wykryta | `LinesFiltration` ustawienie niepoprawne | przełącznik na `DetectAreas = true` dla zawartości zawartości |
+| Zniekształcone znaki | Obraz o rozdzielczości | źródłowe źródłowe lub rozszerzone |
 
 ## Wniosek
 
-Podsumowując, Aspose.OCR dla .NET umożliwia programistom bezproblemową integrację funkcji OCR z ich aplikacjami, dzięki czemu rozpoznawanie tekstu staje się proste. Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś się rozpoznawać tabele w rozpoznawaniu obrazów OCR. Teraz śmiało odkryj pełny potencjał Aspose.OCR w swoich projektach!
+Aspose.OCR dla .NET umożliwia programistom płynne **wyodrębnienie tabeli z obrazu** i **konwertowanie tekstu obrazu tabeli** przy użyciu kilku linii kodu. Po tym, jak rozpoznałeś tabelę w OCR, możesz teraz włączyć tę funkcję w urządzeniach elektrycznych.
 
 ## Często zadawane pytania
 
-### P1: Czy Aspose.OCR jest kompatybilny ze wszystkimi formatami obrazów?
+### Q1: Czy Aspose.OCR jest rozwiązaniem ze stosowanymi formatami obrazów?
 
- O1: Aspose.OCR obsługuje szeroką gamę formatów obrazów, w tym PNG, JPEG, BMP i GIF. Patrz[dokumentacja](https://reference.aspose.com/ocr/net/) dla pełnej listy.
+A1: Aspose.OCR obsługiwany przez grę formatów obrazów, w tym PNG, JPEG, BMP i GIF. Zobacz [dokumentacja](https://reference.aspose.com/ocr/net/) po pełnej liście.
 
-### P2: Czy mogę dostosować ustawienia OCR do określonych wymagań dotyczących rozpoznawania?
+### Q2: Czy można dostosować ustawienia OCR do uznania?
 
- Odpowiedź 2: Tak, Aspose.OCR zapewnia różne ustawienia umożliwiające dostrojenie procesu rozpoznawania. Poznaj[dokumentacja](https://reference.aspose.com/ocr/net/) aby uzyskać szczegółowe informacje.
+A2: Tak, Aspose.OCR udostępnia różne ustawienia urządzenia, dostosowując je do procesu rozpoznawania. Zapoznaj się z [dokumentacją](https://reference.aspose.com/ocr/net/) po szczegółowe informacje.
 
-### P3: Jak mogę uzyskać tymczasową licencję na Aspose.OCR?
+### Q3: Jak mogę wywołać tymczasową różnicę dla Aspose.OCR?
 
- A3: Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowania i oceny.
+A3: uzyskanie tymczasowej odpowiedzi [tutaj](https://purchase.aspose.com/temporary-license/) do testów i oceny.
 
-### P4: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.OCR?
+### Pytanie 4: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.OCR?
 
- A4: Dołącz do[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) aby nawiązać kontakt ze społecznością i uzyskać pomoc.
+A4: Dołącz do [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby połączyć się ze społecznością i zapewnić pomoc.
 
-### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.OCR?
+### Q5: Czy dostępna jest wersja próbna Aspose.OCR?
 
- Odpowiedź 5: Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
+A5: Tak, możesz uzyskać dostęp do darmowej wersji próbnej [tutaj] (https://releases.aspose.com/), aby wyświetlić funkcje przed urządzeniem.
+
+## Często zadawane pytania
+
+**P: Czy API działa z .NET Core?**
+O: Zdecydowanie. Aspose.OCR jest w pełni spełniony z .NET Core, .NET 5 i nowszymi wersjami.
+
+**Q: Czy można przetwarzać wiele tabel na jednym obrazie?**
+O: Tak. Iterując po `RecognitionResult`, wyodrębnij każdą wykrytą tabelę osobno.
+
+**P: Czy można wyeksportować rozpoznaną tabelę do CSV?**
+A: Po `result.RecognitionText` możesz sparsować wiersze i elementy oraz zapisać je do pliku CSV wykorzystującego klas I/O .NET.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-04
+**Testowano z:** Aspose.OCR 24.11 dla .NET
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

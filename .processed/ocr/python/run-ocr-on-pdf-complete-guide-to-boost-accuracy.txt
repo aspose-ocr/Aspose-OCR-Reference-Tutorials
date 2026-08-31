@@ -1,0 +1,7 @@
+Title: run OCR on PDF – Complete Guide to Boost Accuracy
+Slug: run-ocr-on-pdf-complete-guide-to-boost-accuracy
+Category: general
+ProcessedDate: 2026-07-05T11:40:23.376594
+SourceRepo: AI Search API
+Keywords: run ocr on pdf, improve ocr accuracy, load pdf for ocr, configure hugging face model
+PRNumber: 169

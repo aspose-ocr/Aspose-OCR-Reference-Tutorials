@@ -1,0 +1,7 @@
+Title: Get Aspose OCR Version in C# – Complete Guide
+Slug: get-aspose-ocr-version-in-c-complete-guide
+Category: ocr-configuration
+ProcessedDate: 2026-06-03T23:27:31.966346
+SourceRepo: AI Search API
+Keywords: get aspose ocr version
+PRNumber: 139

@@ -1,0 +1,7 @@
+Title: Extract Text from Handwritten Image with Python OCR – Step‑by‑Step Guide
+Slug: extract-text-from-handwritten-image-with-python-ocr-step-by
+Category: general
+ProcessedDate: 2026-06-07T03:33:21.719356
+SourceRepo: AI Search API
+Keywords: extract text from handwritten image, convert handwritten photo to text, how to recognize handwritten text, python ocr handwritten recognition
+PRNumber: 142
