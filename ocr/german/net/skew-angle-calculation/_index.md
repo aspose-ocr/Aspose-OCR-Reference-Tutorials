@@ -44,6 +44,8 @@ Entdecken Sie Aspose.OCR für .NET, um Schräglaufwinkel bei der OCR-Bilderkennu
 Erfahren Sie, wie Sie mit Aspose.OCR für .NET Bilder automatisch begradigen und die OCR-Genauigkeit in C#-Anwendungen steigern.
 ### [Wie man ein Bild deskewt – Vollständiger C#‑Leitfaden für OCR‑Vorverarbeitung](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Erfahren Sie, wie Sie Bilder mit C# deskewen, um die OCR‑Erkennung zu optimieren.
+### [Wie man ein Bild in C# begradigt – Vollständiger OCR-Vorverarbeitungsleitfaden](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Erfahren Sie, wie Sie Bildverzerrungen in C# entfernen und die OCR-Genauigkeit durch umfassende Vorverarbeitung steigern.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

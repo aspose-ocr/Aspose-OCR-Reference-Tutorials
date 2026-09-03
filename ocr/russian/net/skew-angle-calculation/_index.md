@@ -44,6 +44,9 @@ url: /ru/net/skew-angle-calculation/
 Полное руководство по исправлению перекоса изображений для OCR с использованием Aspose.OCR в C#.
 ### [Как выпрямить изображение – Полное руководство на C# по предобработке OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Узнайте, как с помощью Aspose.OCR для .NET выпрямить изображения перед распознаванием, используя C#.
+### [Как исправить перекос изображения в C# – Полное руководство по предобработке OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Полное руководство по исправлению перекоса изображений в C# перед OCR, повышающее точность распознавания.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

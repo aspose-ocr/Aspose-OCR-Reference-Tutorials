@@ -74,6 +74,8 @@ weight: 24
 ### [Распознавание текста с изображения с помощью Aspose OCR – Полное руководство на C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Полное руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
 
+### [Чтение встроенного ресурса в .NET – Полное руководство по установке лицензии Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Узнайте, как читать встроенные ресурсы в .NET и правильно установить лицензию Aspose для вашего приложения.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

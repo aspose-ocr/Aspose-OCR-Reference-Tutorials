@@ -44,6 +44,8 @@ OCR görüntü tanımada eğim açılarını zahmetsizce hesaplamak için Aspose
 C# ile OCR için görüntü düzeltme işlemlerini adım adım öğrenin ve projelerinizde doğruluğu artırın.
 ### [Görüntüyü Düzeltme – OCR Ön İşleme için Tam C# Kılavuzu](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 OCR ön işleme sürecinde görüntü düzeltme adımlarını C# ile öğrenin ve projelerinizde doğruluğu artırın.
+### [C#'ta Görüntüyü Düzeltme – Tam OCR Ön İşleme Rehberi](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+C# ile görüntüleri düzeltmeyi öğrenin ve OCR ön işleme sürecinizi mükemmelleştirin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

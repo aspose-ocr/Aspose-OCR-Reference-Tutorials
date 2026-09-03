@@ -43,10 +43,6 @@ Extrahování OCR znamená předání obrázku (nebo kolekce obrázků) do Aspos
 
 ### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
 Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
-### [OCROperation se složkou v rozpoznávání OCR obrázků](./ocr-operation-with-folder/)
-Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extrahujte text z obrázků.
-### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
-Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
 
@@ -65,6 +61,14 @@ Kompletní průvodce OCR obrázků v C# s využitím GPU pro rychlé a přesné 
 ### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce v C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Kompletní průvodce rozpoznáváním textu z obrázků v C# s využitím Aspose OCR.
 
+Závěrem lze říci, že tyto konfigurační kurzy OCR nabízejí holistické pochopení Aspose.OCR pro .NET. Ať už pracujete s archivními obrázky, složkami, výběrem jazyka nebo seznamy, tyto podrobné příručky zajistí, že využijete plný potenciál OCR a zvýšíte možnosti extrakce textu vaší aplikace. Ponořte se, prozkoumejte a odemkněte kouzlo OCR s Aspose.OCR!
+## Výukové programy pro konfiguraci OCR
+### [OCROoperace se složkou v OCR rozpoznávání obrazu](./ocr-operation-with-folder/)
+Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte text z obrázků bez námahy.
+### [Operace OCRO s výběrem jazyka v rozpoznávání obrazu OCR](./ocr-operation-with-language-selection/)
+Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
+### [Čtení vloženého zdroje v .NET – Kompletní průvodce nastavením licence Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Naučte se, jak načíst vložený zdroj a nastavit licenci Aspose v .NET aplikacích.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

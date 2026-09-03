@@ -60,6 +60,8 @@ Explore Aspose.OCR for .NET to effortlessly calculate skew angles in OCR image r
 Learn how to deskew images for OCR using Aspose.OCR for .NET in a comprehensive C# guide.
 ### [How to Deskew Image – Complete C# Guide for OCR Pre‑processing]({{< relref "how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/_index.md" >}})
 Learn step-by-step how to deskew images in C# using Aspose.OCR, improving OCR pre‑processing accuracy and performance.
+### [How to Deskew Image in C# – Complete OCR Pre‑Processing Guide](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Master deskewing images in C# with Aspose.OCR, a comprehensive guide to OCR pre‑processing for optimal text recognition.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

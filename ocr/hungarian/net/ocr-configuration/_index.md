@@ -70,6 +70,8 @@ Ismerje meg, hogyan használhatja az Aspose.OCR-t GPU-val a C# képfelismeréshe
 ### [Képről szöveg felismerése az Aspose OCR-rel – Teljes C# útmutató](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Ismerje meg, hogyan használhatja az Aspose OCR-t képek szövegének felismerésére C#-ban, lépésről lépésre útmutató.
 
+### [Beágyazott erőforrás olvasása .NET-ben – Teljes útmutató az Aspose licenc beállításához](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Ismerje meg, hogyan olvassa be a beágyazott erőforrásokat .NET-ben, és állítsa be az Aspose licencet a projektben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

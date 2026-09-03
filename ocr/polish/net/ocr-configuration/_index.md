@@ -41,10 +41,6 @@ Wyodrębnianie OCR polega na przekazaniu obrazu (lub zestawu obrazów) do Aspose
 - Pakiet NuGet Aspose.OCR dla .NET zainstalowany (`Install-Package Aspose.OCR`).  
 - Przykładowe obrazy lub archiwa zawierające obrazy, które chcesz przetworzyć.
 
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
-Odkryj potencjał OCR w aplikacjach .NET z Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów w archiwach.
-### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
-Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Łatwo wyodrębniaj tekst z obrazów.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Uzyskaj potężne możliwości OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów w różnych językach.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
@@ -64,6 +60,15 @@ Dowiedz się, jak wyodrębnić rosyjski tekst i skonfigurować ścieżkę zasob�
 Pełny przewodnik po OCR obrazu w C# z wykorzystaniem GPU, zwiększający wydajność i dokładność rozpoznawania tekstu.
 ### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Pełny przewodnik po rozpoznawaniu tekstu z obrazu w C# przy użyciu Aspose OCR, zwiększający wydajność i dokładność.
+
+Podsumowując, te samouczki dotyczące konfiguracji OCR oferują całościowe zrozumienie Aspose.OCR dla .NET. Niezależnie od tego, czy pracujesz z obrazami archiwalnymi, folderami, wyborem języka czy listami, te szczegółowe przewodniki pozwolą Ci wykorzystać pełny potencjał OCR, zwiększając możliwości ekstrakcji tekstu w aplikacji. Zanurz się, odkryj i odblokuj magię OCR dzięki Aspose.OCR!
+## Poradniki konfiguracji OCR
+### [OCROoperacja z archiwum w rozpoznawaniu obrazu OCR](./ocr-operation-with-archive/)
+Odblokuj potencjał OCR w aplikacjach .NET dzięki Aspose.OCR. Naucz się krok po kroku wyodrębniać tekst z obrazów archiwalnych.
+### [OCR Operacja z folderem w trybie rozpoznawania obrazu OCR](./ocr-operation-with-folder/)
+Odblokuj moc rozpoznawania obrazów OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z obrazów bez wysiłku.
+### [Odczyt zasobu osadzonego w .NET – Kompletny przewodnik po ustawianiu licencji Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Dowiedz się, jak odczytać zasób osadzony w .NET i skonfigurować licencję Aspose w aplikacji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

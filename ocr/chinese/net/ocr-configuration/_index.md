@@ -68,6 +68,8 @@ weight: 24
 了解
 ### [使用 Aspose OCR 识别图像文本 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 使用 Aspose OCR 在 C# 中完整实现图像文本识别的步骤指南。
+### [在 .NET 中读取嵌入资源 – 设置 Aspose 许可证的完整指南](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+学习如何在 .NET 项目中读取嵌入资源并正确设置 Aspose 许可证，以确保功能正常运行。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

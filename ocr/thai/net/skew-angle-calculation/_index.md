@@ -44,6 +44,8 @@ url: /th/net/skew-angle-calculation/
 เรียนรู้วิธีปรับแนวภาพเพื่อ OCR อย่างละเอียดด้วย C# และ Aspose.OCR เพื่อเพิ่มความแม่นยำของการจดจำข้อความ
 ### [วิธีทำให้ภาพตรง – คู่มือ C# ฉบับสมบูรณ์สำหรับการเตรียม OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 เรียนรู้วิธี Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
+### [วิธีการ Deskew ภาพใน C# – คู่มือการเตรียม OCR อย่างสมบูรณ์](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+เรียนรู้ขั้นตอนการ Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

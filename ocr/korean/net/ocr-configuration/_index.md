@@ -70,6 +70,8 @@ GPU 가속을 활용해 C#에서 이미지 OCR을 빠르고 정확하게 수행�
 ### [Aspose OCR을 사용하여 이미지에서 텍스트 인식 – 완전 C# 가이드](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 C#에서 Aspose OCR을 활용해 이미지 텍스트를 빠르고 정확하게 추출하는 전체 가이드를 제공합니다.
 
+### [.NET에서 임베디드 리소스 읽기 – Aspose 라이선스 설정 완전 가이드](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose 라이선스를 설정하기 위해 .NET에서 임베디드 리소스를 읽는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

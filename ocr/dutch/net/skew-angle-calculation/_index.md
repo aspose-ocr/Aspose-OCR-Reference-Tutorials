@@ -32,6 +32,9 @@ Ontdek de mogelijkheden van Aspose.OCR voor .NET terwijl we u begeleiden bij het
 ## [Bereken de scheefhoek op basis van de URI in OCR-beeldherkenning](./calculate-skew-angle-from-uri/)
 Integreer Aspose.OCR voor .NET moeiteloos in uw projecten en verbeter de OCR-beeldherkenning. Met onze tutorial over het berekenen van schuine hoeken op basis van URI's kunt u precisie en efficiëntie op de voorgrond plaatsen. Blijf voorop in uw ontwikkelingstraject!
 
+## [Hoe een afbeelding rechtzetten in C# – Complete OCR-preprocessinggids](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Leer hoe u afbeeldingen kunt deskew'en in C# als onderdeel van een volledige OCR-preprocessing workflow met Aspose.OCR.
+
 Kortom, onze tutorials over scheefhoekberekening dienen als uw kompas op het gebied van OCR-beeldherkenning. Of u nu een C#-liefhebber of een Java-liefhebber bent, Aspose.OCR voorziet u van de tools om scheve hoeken te overwinnen en uw projecten naar nieuwe hoogten te tillen. Ontdek, leer en revolutioneer uw ontwikkelingstraject met ons!
 ## Zelfstudies voor het berekenen van schuine hoeken
 ### [Bereken de scheefhoek in OCR-beeldherkenning](./calculate-skew-angle/)

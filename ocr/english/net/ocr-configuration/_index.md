@@ -90,6 +90,8 @@ Extract Russian text and set resource path in C# using Aspose OCR for .NET appli
 Learn to perform OCR on images using C# with GPU acceleration for faster and more accurate text extraction.
 ### [recognize text from image with Aspose OCR – Complete C# Guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Learn to recognize text from images using Aspose OCR in C# with a comprehensive step-by-step guide.
+### [Read Embedded Resource in .NET – Complete Guide to Set Aspose License](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Learn how to read embedded resources in .NET and set your Aspose license correctly in a single guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

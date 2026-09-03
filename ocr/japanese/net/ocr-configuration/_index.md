@@ -64,6 +64,10 @@ GPUを活用し、高速かつ正確に画像からテキストを抽出するC#
 ### [Aspose OCRで画像からテキストを認識する – 完全C#ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR を使用して、C# で画像からテキストを正確に抽出する手順を詳しく解説します。
 
+結論として、これらの OCR 構成チュートリアルは、Aspose.OCR for .NET の全体的な理解を提供します。アーカイブ画像、フォルダー、言語選択、またはリストを操作する場合でも、これらのステップバイステップのガイドにより、OCR の可能性を最大限に活用し、アプリケーションのテキスト抽出機能を向上させることができます。 Aspose.OCR で、飛び込んで探索し、OCR の魔法を解き放ちましょう!
+## OCR設定チュートリアル
+### [.NET の埋め込みリソースの読み取り – Aspose ライセンス設定 完全ガイド](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose ライセンスを設定するために、.NET アプリケーションで埋め込みリソースを読み取る方法をステップバイステップで解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -103,6 +103,16 @@ Apprenez à extraire du texte d'images TIFF en utilisant Aspose OCR avec C#. Sui
 Apprenez à extraire du texte d'images en utilisant Aspose OCR avec C# grâce à ce guide complet.
 ### [Extraire du texte d'un PNG – Tutoriel complet Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
 Apprenez à extraire du texte d'images PNG en utilisant Aspose OCR avec C# grâce à ce guide complet.
+### [Comment exécuter l'OCR en C# – Guide complet avec Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
+Apprenez à implémenter l'OCR en C# avec Aspose OCR grâce à ce guide complet, étape par étape, pour des résultats précis.
+### [Comment exécuter l'OCR en C# – Extraire du texte arabe depuis un PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
+Apprenez à extraire du texte arabe à partir d'images PNG en utilisant Aspose OCR avec C#.
+### [Extraire du texte d'une image en C# – Guide complet Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+Apprenez à extraire du texte d'une image en C# avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Créer un PDF recherchable à partir d'un PNG en C# – Guide complet](./create-searchable-pdf-from-png-in-c-complete-guide/)
+Apprenez à transformer un PNG en PDF recherchable avec Aspose OCR en C#, étape par étape.
+### [Reconnaître du texte à partir d'une image en C# – Guide complet OCR et JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
+Apprenez à extraire du texte d'une image en C# et à obtenir les résultats au format JSON avec Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

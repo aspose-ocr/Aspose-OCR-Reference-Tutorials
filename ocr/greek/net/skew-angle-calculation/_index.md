@@ -39,12 +39,14 @@ url: /el/net/skew-angle-calculation/
 ### [Υπολογίστε τη γωνία κλίσης από τη ροή στην Αναγνώριση εικόνας OCR](./calculate-skew-angle-from-stream/)
 Απελευθέρωση...
 ### [Υπολογίστε τη γωνία κλίσης από το URI στην Αναγνώριση εικόνας OCR](./calculate-skew-angle-from-uri/)
-Εξερευνήστε...
 ### [Πώς να διορθώσετε την κλίση εικόνας για OCR – Πλήρης οδηγός C#](./how-to-deskew-image-for-ocr-complete-c-guide/)
 Μάθετε πώς να ευθυγραμμίσετε εικόνες για OCR χρησιμοποιώντας το Aspose.OCR σε C# με βήμα‑βήμα οδηγίες.
 
 ### [Πώς να διορθώσετε την κλίση εικόνας – Πλήρης οδηγός C# για προεπεξεργασία OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Μάθετε πώς να αφαιρέσετε την κλίση από εικόνες με C# χρησιμοποιώντας Aspose.OCR για βελτιωμένη προεπεξεργασία OCR.
+### [Πώς να διορθώσετε την κλίση εικόνας σε C# – Ολοκληρωμένος οδηγός προεπεξεργασίας OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Ανακαλύψτε πώς να αφαιρέσετε την κλίση εικόνας σε C# για βελτιωμένη ακρίβεια OCR, με πλήρη βήμα‑βήμα οδηγίες.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

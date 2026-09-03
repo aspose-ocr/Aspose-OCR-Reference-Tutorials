@@ -63,6 +63,8 @@ weight: 24
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแยกข้อความจากรูปภาพด้วยการเร่งความเร็วจาก GPU อย่างเต็มที่
 ### [การจดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างครบถ้วน
+### [อ่านทรัพยากรฝังใน .NET – คู่มือฉบับสมบูรณ์ในการตั้งค่าใบอนุญาต Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+เรียนรู้วิธีอ่านทรัพยากรฝังในแอป .NET และตั้งค่าใบอนุญาต Aspose อย่างครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

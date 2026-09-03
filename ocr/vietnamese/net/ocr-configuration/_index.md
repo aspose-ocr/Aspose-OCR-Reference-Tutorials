@@ -74,6 +74,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận d�
 ### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn đầy đủ C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#.
 
+### [Đọc tài nguyên nhúng trong .NET – Hướng dẫn đầy đủ để thiết lập giấy phép Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Hướng dẫn chi tiết cách đọc tài nguyên nhúng và thiết lập giấy phép Aspose trong ứng dụng .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

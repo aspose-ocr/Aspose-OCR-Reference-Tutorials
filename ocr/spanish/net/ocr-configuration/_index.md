@@ -83,6 +83,8 @@ Desbloquee potentes capacidades de OCR con Aspose.OCR para .NET. Extraiga texto 
 Aprenda a reconocer texto en imágenes usando C# y Aspose.OCR, aprovechando la aceleración GPU para un rendimiento óptimo.
 ### [Reconocer texto de una imagen con Aspose OCR – Guía completa en C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aprenda a reconocer texto de imágenes usando Aspose OCR en C#, con una guía paso a paso.
+### [Leer recurso incrustado en .NET – Guía completa para configurar la licencia Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aprenda a leer recursos incrustados en .NET y configurar correctamente la licencia de Aspose en sus aplicaciones.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

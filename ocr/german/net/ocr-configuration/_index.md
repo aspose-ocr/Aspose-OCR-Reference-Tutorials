@@ -53,8 +53,6 @@ Bringen Sie Ihre OCR-Fähigkeiten auf ein neues Niveau, indem Sie die **ocr lang
 ## OCROperation mit Liste in der OCR-Bilderkennung
 Entdecken Sie das enorme Potenzial von Aspose.OCR für .NET, indem Sie mühelos OCR-Bilderkennung mit Listen durchführen. Dieses Tutorial verbessert nicht nur die Textextraktion, sondern steigert auch die Produktivität beim Umgang mit vielfältigen Datensätzen. Enthüllen Sie die Effizienz von OCR mit Listenoperationen.
 
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
-Entfesseln Sie das Potenzial von OCR in .NET-Anwendungen mit Aspose.OCR. Lernen Sie, Text aus Archivbildern Schritt für Schritt zu extrahieren.
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 Entfesseln Sie die Leistungsfähigkeit der OCR-Bilderkennung in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus Bildern.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
@@ -76,6 +74,13 @@ Nutzen Sie Aspose.OCR, um russischen Text in C# zu extrahieren und den Ressource
 Erfahren Sie, wie Sie mit Aspose.OCR Bilder in C# verarbeiten und GPU-Beschleunigung für schnelle Texterkennung nutzen.
 ### [Text aus Bild mit Aspose OCR – Komplettleitfaden für C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren – ein vollständiger Leitfaden.
+
+Zusammenfassend bieten diese OCR-Konfigurations-Tutorials ein ganzheitliches Verständnis von Aspose.OCR für .NET. Unabhängig davon, ob Sie mit Archivbildern, Ordnern, Sprachauswahl oder Listen arbeiten, stellen diese Schritt-für-Schritt-Anleitungen sicher, dass Sie das volle Potenzial von OCR nutzen und die Textextraktionsfunktionen Ihrer Anwendung verbessern. Tauchen Sie ein, erkunden Sie und entfesseln Sie die OCR-Magie mit Aspose.OCR!
+## Tutorials zur OCR-Konfiguration
+### [OCROperation mit Archiv in der OCR-Bilderkennung](./ocr-operation-with-archive/)
+Nutzen Sie das Potenzial von OCR in .NET-Anwendungen mit Aspose.OCR. Erfahren Sie Schritt für Schritt, wie Sie Text aus Archivbildern extrahieren.
+### [Einbetten von Ressourcen in .NET lesen – Vollständige Anleitung zum Setzen der Aspose-Lizenz](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Erfahren Sie, wie Sie eingebettete Ressourcen in .NET auslesen und die Aspose-Lizenz korrekt setzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

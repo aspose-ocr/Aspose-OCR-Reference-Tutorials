@@ -83,6 +83,8 @@ Leer hoe u Russische tekst uit afbeeldingen haalt en het resourcepad configureer
 Leer stap voor stap OCR op afbeeldingen in C# uit te voeren met volledige GPU-ondersteuning voor maximale prestaties.
 ### [Tekst herkennen uit afbeelding met Aspose OCR – Complete C#-gids](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Leer stap voor stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in C#.
+### [Embedded resource lezen in .NET – Complete gids voor het instellen van een Aspose-licentie](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Leer hoe u een embedded resource leest en een Aspose-licentie instelt in .NET-toepassingen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

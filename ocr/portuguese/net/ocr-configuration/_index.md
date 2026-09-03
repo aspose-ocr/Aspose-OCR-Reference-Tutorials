@@ -65,6 +65,10 @@ Domine o OCR de imagens em C# com suporte a GPU, acelerando a extração de text
 ### [Reconhecer texto de imagem com Aspose OCR – Guia completo em C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Domine o reconhecimento de texto em imagens usando Aspose OCR com este guia completo em C#.
 
+Concluindo, esses tutoriais de configuração de OCR oferecem uma compreensão holística do Aspose.OCR para .NET. Esteja você trabalhando com imagens de arquivo, pastas, seleção de idioma ou listas, esses guias passo a passo garantem que você aproveite todo o potencial do OCR, elevando os recursos de extração de texto do seu aplicativo. Mergulhe, explore e desbloqueie a magia do OCR com Aspose.OCR!
+## Tutoriais de configuração de OCR
+### [Ler Recurso Incorporado em .NET – Guia Completo para Configurar Licença Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aprenda a ler recursos incorporados em .NET e configurar a licença Aspose de forma simples e eficaz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

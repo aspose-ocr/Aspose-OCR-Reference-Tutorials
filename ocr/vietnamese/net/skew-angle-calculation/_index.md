@@ -44,6 +44,8 @@ Khám phá Aspose.OCR cho .NET để dễ dàng tính toán các góc nghiêng t
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh để cải thiện độ chính xác OCR trong C#.
 ### [Cách chỉnh nghiêng ảnh – Hướng dẫn C# đầy đủ cho tiền xử lý OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong quá trình tiền xử lý OCR bằng C#.
+### [Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn xử lý trước OCR đầy đủ](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong C# để cải thiện độ chính xác OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

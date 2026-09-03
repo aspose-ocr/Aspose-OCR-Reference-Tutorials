@@ -64,6 +64,8 @@ Aspose.OCR ile C# uygulamanızda Rusça metin çıkarın ve kaynak yolunu nasıl
 C# kullanarak GPU desteğiyle görüntü OCR'ı yapmayı adım adım öğrenin.
 ### [Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR kullanarak C# ile görüntülerden metin çıkarmayı adım adım öğrenin.
+### [Embedded Kaynağı .NET'te Okuma – Aspose Lisansını Ayarlama Tam Kılavuzu](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose lisansını ayarlamak için .NET'te gömülü kaynağı nasıl okuyacağınızı adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -44,6 +44,8 @@ Aspose.OCR for .NET を探索して、OCR 画像認識でスキュー角度を�
 C# で画像をデスクューし、OCR の精度を向上させる手順を詳しく解説します。
 ### [画像のデスクュー – OCR 前処理の完全 C# ガイド](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 C# で画像の傾きを補正し、OCR 前処理を最適化する手順を詳しく解説します。
+### [C# で画像のデスクューする方法 – 完全な OCR 前処理ガイド](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+C# で画像をデスクューし、OCR の精度を向上させる完全ガイドです。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

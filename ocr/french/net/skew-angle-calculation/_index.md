@@ -44,6 +44,8 @@ Explorez Aspose.OCR pour .NET pour calculer sans effort les angles d'inclinaison
 Apprenez à corriger l'inclinaison des images pour l'OCR avec Aspose.OCR en C#, étape par étape.
 ### [Comment redresser une image – Guide complet C# pour le prétraitement OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Apprenez à redresser les images avant OCR avec Aspose.OCR en C#, améliorant la précision de la reconnaissance.
+### [Comment redresser une image en C# – Guide complet de prétraitement OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Apprenez à redresser les images en C# avant l'OCR pour améliorer la précision de la reconnaissance.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,9 @@ url: /ar/net/skew-angle-calculation/
 
 ### [كيفية تصحيح انحراف الصورة – دليل كامل بلغة C# لمعالجة ما قبل OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 اكتشف كيفية تصحيح انحراف الصور باستخدام C# لتحسين دقة OCR قبل المعالجة.
+### [كيفية تصحيح انحراف الصورة في C# – دليل كامل لمعالجة ما قبل OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+تعلم خطوة بخطوة كيفية تصحيح انحراف الصور قبل تطبيق OCR باستخدام Aspose.OCR لـ .NET في بيئة C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -75,6 +75,8 @@ Lär dig att extrahera rysk text och konfigurera resursvägen i C# med Aspose OC
 Lär dig att OCR:a bilder i C# med fullständig guide och GPU-stöd för snabbare bearbetning.
 ### [Känn igen text från bild med Aspose OCR – Komplett C#-guide](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Lär dig att känna igen text i bilder med Aspose OCR i en komplett C#-guide.
+### [Läs inbäddad resurs i .NET – Komplett guide för att ställa in Aspose-licens](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Lär dig hur du läser inbäddade resurser i .NET och konfigurerar Aspose-licensen korrekt.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

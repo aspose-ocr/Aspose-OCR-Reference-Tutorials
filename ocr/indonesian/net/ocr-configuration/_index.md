@@ -74,6 +74,8 @@ Pelajari cara melakukan OCR pada gambar menggunakan C# dengan dukungan GPU untuk
 ### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan lengkap C#.
 
+### [Membaca Embedded Resource di .NET – Panduan Lengkap Menetapkan Lisensi Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Pelajari cara membaca embedded resource di .NET dan mengatur lisensi Aspose secara lengkap.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
