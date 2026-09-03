@@ -1,0 +1,7 @@
+Title: Perform OCR on PDF with Aspose.OCR – Complete C# Guide
+Slug: perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-06-03T23:27:14.028191
+SourceRepo: AI Search API
+Keywords: perform ocr on pdf, recognize text from pdf, how to create searchable pdf, convert scanned pdf to searchable pdf, convert image to searchable pdf
+PRNumber: 139

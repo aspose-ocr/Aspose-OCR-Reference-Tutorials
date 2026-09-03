@@ -46,6 +46,8 @@ Navigera i komplexiteten med att känna igen tabeller i OCR-bildigenkänning med
 
 Är du redo att revolutionera dina .NET-applikationer? Dyk in i våra självstudier för textigenkänning och utnyttja kraften i Aspose.OCR för korrekt och effektiv textigenkänning i bilder. Ladda ner nu och ge dig ut på en resa med förbättrade OCR-funktioner.
 ## Handledning för textigenkänning
+
+
 ### [Få val för igenkända karaktärer i OCR-bildigenkänning](./get-choices-for-recognized-characters/)
 Förbättra dina .NET-applikationer med Aspose.OCR för korrekt teckenigenkänning. Följ vår steg-för-steg-guide för att hämta val för igenkända karaktärer i bildigenkänning.
 ### [Få igenkänningsresultat i OCR-bildigenkänning](./get-recognition-result/)
@@ -56,18 +58,95 @@ Släpp lös kraften i Aspose.OCR för .NET. Lär dig att få OCR-resultat i JSON
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
+### [OCR:a PDF med Aspose: Konvertera, Exportera och Sök](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+Lär dig hur du OCR:ar PDF-filer med Aspose, konverterar dem, exporterar resultatet och söker i texten.
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Konvertera bild till text i C# – Komplett OCR-guide](./convert-image-to-text-in-c-complete-ocr-guide/)
+Lär dig steg-för-steg hur du konverterar bilder till text i C# med en fullständig OCR-guide för Aspose.OCR.
+### [Hur du utför OCR i C# – Extrahera text från bild med Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
+Lär dig steg-för-steg hur du använder Aspose OCR i C# för att extrahera text från bilder på ett enkelt sätt.
+### [Extrahera text från bild med Aspose OCR – Komplett C#-guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du extraherar text från en bild med Aspose OCR i C#.
+### [Flerspråkig textigenkänning i C# med Aspose OCR – Komplett guide](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
+Lär dig hur du använder Aspose OCR i C# för att känna igen text på flera språk med en komplett steg-för-steg-guide.
+### [Extrahera text från bild i C# – Offline OCR med Aspose (Steg‑för‑steg‑guide)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
+Lär dig hur du offline extraherar text från bilder i C# med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
+### [Känn igen text från bild – Offline OCR‑guide för C#‑utvecklare](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Få en komplett guide för att offline känna igen text i bilder med C# och Aspose OCR.
+### [Hur man OCR:ar PDF i C# – Steg‑för‑steg‑guide](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från PDF-filer med en detaljerad steg‑för‑steg‑guide.
+### [c# OCR-handledning – Extrahera text från JPEG-bilder](./c-ocr-tutorial-extract-text-from-jpeg-images/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från JPEG-bilder i en enkel C#-guide.
+### [OCR Koreansk bild: Komplett guide för att extrahera text från bilder](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
+Lär dig hur du med Aspose.OCR för .NET extraherar koreansk text från bilder med vår kompletta steg-för-steg-guide.
+### [c# OCR-handledning – Batch OCR-behandling för skannade TIFF-filer](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
+Lär dig hur du batchbearbetar skannade TIFF-filer med Aspose.OCR för .NET i en praktisk C#-guide.
+### [Konvertera bild till text i C# med Aspose OCR – Steg‑för‑steg‑guide](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+Lär dig hur du med Aspose OCR för .NET konverterar bilder till text i en detaljerad C#‑guide.
+### [c# OCR-handledning – Känn igen text från JPG på några minuter](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+Lär dig snabbt hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med bara några rader kod.
+### [c# OCR-handledning – Känn igen text från JPG – Komplett guide](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+Lär dig steg-för-steg hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med en komplett C#-kodexempel.
+### [Hur du använder Aspose OCR i C# – Känn igen koreansk text från bilder](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
+Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar koreansk text från bildfiler.
+### [Skapa sökbar PDF från TIFF – Fullständig C#-guide](./create-searchable-pdf-from-tiff-full-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET konverterar TIFF-filer till sökbara PDF-dokument med komplett C#-kodexempel.
+### [Konvertera bilder till text – Komplett batch-OCR-guide för C#-utvecklare](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
+Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder till text med enkel C#-kod.
+### [c# OCR-handledning – Extrahera hindi-text från PNG-kvitton](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Lär dig hur du använder Aspose.OCR för .NET för att extrahera hindi-text från PNG-recept med C#.
+### [Känn igen text i jpg med Aspose OCR – Komplett C#-guide](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från JPG‑bilder.
+### [c# OCR-handledning – Extrahera text från bild och DJVU-filer](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+Lär dig hur du med Aspose.OCR för .NET extraherar text från bild- och DJVU-filer med C#.
+### [c# OCR-handledning – Extrahera text från TIFF med Aspose OCR](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
+Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från TIFF‑filer.
+### [c# OCR-handledning – Extrahera text från bilder med Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från bilder.
+### [Extrahera text från PNG – Komplett Aspose OCR-handledning](./extract-text-from-png-complete-aspose-ocr-tutorial/)
+Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från PNG‑bilder.
 ### [Hur du kör OCR i C# – Komplett guide med Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
 Lär dig köra OCR i C# med Aspose OCR i en komplett steg-för-steg-guide.
 ### [Hur du kör OCR i C# – Extrahera arabisk text från PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
 Lär dig att använda Aspose.OCR för .NET för att extrahera arabisk text från PNG-bilder med enkla steg.
-### [Extrahera text från bild med Aspose OCR – Komplett C#-guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
-Lär dig steg-för-steg hur du extraherar text från bilder med Aspose OCR i C#.
 ### [Extrahera text från bild i C# – Komplett Aspose OCR-guide](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
 ### [Känn igen text från bild i C# – Komplett guide till OCR och JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Lär dig steg-för-steg hur du extraherar text från bilder i C# och får resultat i JSON-format med Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hur man utför OCR i C# – Känn igen kyrillisk text med Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen kyrillisk text i dina bilder.
+### [Skapa sökbar PDF från TIFF – Komplett C#-guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Lär dig steg-för-steg hur du konverterar TIFF-filer till sökbara PDF-dokument med Aspose.OCR i C#.
+### [Hur man extraherar OCR-text i C# – Komplett steg‑för‑steg‑guide](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Lär dig steg-för-steg hur du extraherar OCR‑text i C# med Aspose.OCR för smidig och exakt textutvinning.
+### [Känn igen text i PNG med Aspose OCR .NET – Fullständig lokal OCR-guide](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Lär dig steg-för-steg hur du utför lokal OCR på PNG-filer med Aspose OCR för .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [c# OCR-handledning: Extrahera text från bild med Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Lär dig hur du med C# och Aspose OCR extraherar text från bilder i enkla steg.
+### [c# OCR-handledning – Extrahera text från bilder och exportera till JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Lär dig hur du med C# och Aspose OCR extraherar text från bilder och sparar resultatet i JSON-format.
+### [Hur man OCR:ar bild i C# – Konvertera JPG till ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Lär dig hur du med Aspose.OCR i C# konverterar JPG-bilder till ePub-format för e-böcker.
+### [Känn igen rysk text med Aspose OCR C# – Full guide för flersidig PDF](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Lär dig hur du med Aspose OCR i C# extraherar rysk text från flersidiga PDF-filer i en komplett guide.
+### [Känn igen kinesisk text offline – Komplett C# OCR-handledning](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Lär dig hur du offline känner igen kinesisk text med Aspose.OCR i C# med en komplett steg-för-steg-guide.
+### [Extrahera text från bild och konvertera till JSONL – C#-guide](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Lär dig hur du med Aspose.OCR i C# extraherar text från en bild och sparar resultatet i JSONL-format.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

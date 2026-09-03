@@ -1,0 +1,7 @@
+Title: Extract Text from Image in Python – Full OCR Guide
+Slug: extract-text-from-image-in-python-full-ocr-guide
+Category: general
+ProcessedDate: 2026-06-25T23:37:48.854860
+SourceRepo: AI Search API
+Keywords: extract text from image, load image for ocr, perform ocr in python, convert receipt to json
+PRNumber: 159

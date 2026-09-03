@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-01-10
+date: 2026-01-04
 description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR w C#. Dowiedz się, jak
-  wczytać obraz do OCR, rozpoznać tekst w języku hindi i przeprowadzić rozpoznawanie
-  OCR w kilku prostych krokach.
+  wczytać obraz do OCR i ustawić język OCR do przetwarzania offline.
 draft: false
 keywords:
 - extract text from image
-- recognize hindi text
 - load image for ocr
-- run ocr recognition
+- set ocr language
+- offline ocr csharp
+- aspose ocr tutorial
 language: pl
-og_description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR w C#. Postępuj zgodnie
-  z tym przewodnikiem krok po kroku, aby wczytać obraz do OCR, rozpoznać tekst w języku
-  hindi i uruchomić rozpoznawanie OCR.
+og_description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR w C#. Ten przewodnik
+  pokazuje, jak załadować obraz do OCR i ustawić język OCR dla niezawodnego przetwarzania
+  offline.
 og_title: Wyodrębnij tekst z obrazu za pomocą Aspose OCR – Kompletny przewodnik C#
 tags:
-- Aspose OCR
 - C#
-- Image Processing
-title: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#
+- OCR
+- Aspose
+title: Wyodrębnianie tekstu z obrazu za pomocą Aspose OCR – Kompletny przewodnik C#
 url: /pl/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -27,207 +27,200 @@ url: /pl/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnić tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#
+# Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#
 
-Kiedykolwiek potrzebowałeś **wyodrębnić tekst z obrazu**, ale nie byłeś pewien, którą bibliotekę wybrać? Nie jesteś sam — wielu programistów napotyka ten problem, gdy po raz pierwszy zajmuje się OCR w .NET. Dobrą wiadomością jest to, że Aspose OCR sprawia, że cały proces jest zaskakująco prosty, nawet gdy masz do czynienia ze złożonymi skryptami, takimi jak hindi.
+Czy kiedykolwiek potrzebowałeś **wyodrębnić tekst z obrazu**, ale utknąłeś przy pytaniu „jak właściwie wprowadzić piksele do kodu?”? Nie jesteś jedyny. W wielu rzeczywistych aplikacjach — pomyśl o skanerach paragonów, weryfikacji dowodów tożsamości czy po prostu digitalizacji odręcznych notatek — uzyskanie niezawodnych wyników OCR jest funkcją decydującą o sukcesie.
 
-W tym tutorialu przejdziemy przez wszystko, co musisz zrobić, aby **wczytać obraz do OCR**, **rozpoznać tekst w języku hindi** i **uruchomić rozpoznawanie OCR** w C#. Po zakończeniu będziesz mieć gotową do uruchomienia aplikację konsolową, która wypisze wyodrębniony tekst bezpośrednio na ekranie.
+Oto co: Aspose OCR pozwala **załadować obraz do OCR** i **ustawić język OCR** bez konieczności łączenia się z internetem. W tym samouczku przeprowadzimy Cię przez w pełni działający przykład w C#, który dokładnie pokazuje, jak to zrobić, oraz kilka wskazówek, które chciałbyś znać wcześniej.
 
-## Co zbudujesz
-
-Stworzymy małą aplikację konsolową, która:
-
-1. Wskaże silnikowi OCR folder zawierający modele językowe.  
-2. Wyłączy automatyczne pobieranie — przydatne w środowiskach o ograniczonym dostępie do sieci.  
-3. Ustawi hindi jako docelowy język.  
-4. Wczyta plik JPEG (lub PNG) zawierający tekst w języku hindi.  
-5. Uruchomi pipeline rozpoznawania.  
-6. Zapisze wynikowy ciąg znaków w konsoli.
-
-Bez zewnętrznych usług, bez kluczy w chmurze, wyłącznie czysty OCR on‑premise.
-
-## Wymagania wstępne
-
-- **.NET 6.0** lub nowszy (kod działa również na .NET Framework 4.7+).  
-- **Aspose.OCR for .NET** zainstalowany jako pakiet NuGet.  
-  ```bash
-  dotnet add package Aspose.OCR
-  ```
-- Folder o nazwie `OcrResources` zawierający model języka hindi (`hin.traineddata`).  
-  Możesz go pobrać ze strony pobierania Aspose OCR i umieścić w `YOUR_DIRECTORY/OcrResources`.  
-- Plik obrazu (`input.jpg`) z wyraźnym tekstem w języku hindi.  
-  Dla ilustracji wyobraź sobie zdjęcie szyldu sklepowego z napisem „स्वागत है”.  
-
-> **Pro tip:** Utrzymuj rozdzielczość obrazu powyżej 300 dpi; niższe rozdzielczości mogą powodować pominięcie znaków.
+> **Co zdobędziesz**  
+> • Kompletny program gotowy do kopiowania i wklejania, który wyodrębnia tekst z obrazu.  
+> • Zrozumienie, dlaczego warto skierować silnik na lokalny pakiet językowy.  
+> • Praktyczne wskazówki dotyczące obsługi przypadków brzegowych (brakujące zasoby, nieprawidłowe ścieżki plików itp.).
 
 ---
 
-## Krok 1: Wskaż silnik OCR na swoje zasoby – *extract text from image*
+## Czego będziesz potrzebować
 
-Pierwszą rzeczą, której potrzebuje Aspose OCR, jest lokalizacja modeli językowych. Jeśli to pominiesz, silnik spróbuje automatycznie pobrać pliki — co może nie być pożądane w zabezpieczonej sieci.
+- **.NET 6+** (kod kompiluje się także na .NET Framework, ale .NET 6 jest optymalnym wyborem).  
+- **Aspose.OCR for .NET** pakiet NuGet (`Install-Package Aspose.OCR`).  
+- Lokalny folder z językami OCR (w przykładzie użyjemy pakietu Tamil).  
+- Plik obrazu, który chcesz przetworzyć (np. `tamil_note.jpg`).  
+
+Po umieszczeniu zasobów językowych na dysku nie jest wymagane połączenie z internetem, co czyni to podejście idealnym dla środowisk offline lub zabezpieczonych.
+
+## Krok 1: Wyodrębnianie tekstu z obrazu – Przygotowanie zasobów
+
+Najpierw musimy poinformować Aspose OCR, gdzie znajdują się pliki językowe. Jeśli nie pobrałeś jeszcze pakietu Tamil, pobierz go ze strony Aspose i umieść w folderze o nazwie **Resources** obok swojego pliku wykonywalnego.
 
 ```csharp
+using System;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-// Step 1: Tell Aspose where the language resources live
-OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-```
+// Define the path to the local OCR language resources
+string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
 
-*Dlaczego to ważne:* Ustawiając `ResourcesPath`, zapewniasz, że silnik ładuje poprawne dane treningowe lokalnie, co przyspiesza pierwsze uruchomienie i eliminuje nieoczekiwany ruch sieciowy.
-
----
-
-## Krok 2: Wyłącz automatyczne pobieranie zasobów – *load image for OCR*
-
-W wielu korporacyjnych środowiskach dostęp do internetu jest zablokowany. Aspose OCR respektuje flagę, która powstrzymuje go przed pobieraniem brakujących plików w locie.
-
-```csharp
-// Step 2: Prevent the engine from reaching out to the internet
-OcrEngine.Config.AllowAutomaticResourceDownload = false;
-```
-
-Jeśli pominiesz tę linię i model hindi nie będzie dostępny, silnik wyrzuci wyjątek o treści „Unable to download required resource”. Ustawienie flagi na `false` daje wyraźny, deterministyczny błąd, który możesz obsłużyć samodzielnie.
-
----
-
-## Krok 3: Wybierz język – *recognize hindi text*
-
-Aspose OCR obsługuje dziesiątki języków, ale musisz określić, którego użyć. Hindi jest identyfikowane przez `OcrLanguage.Hindi`.
-
-```csharp
-// Step 3: Create the OCR engine and set the target language
-var ocrEngine = new OcrEngine
+// Ensure the folder exists – a simple guard against a common pitfall
+if (!Directory.Exists(resourcesPath))
 {
-    Language = OcrLanguage.Hindi
+    Console.WriteLine($"Resources folder not found at {resourcesPath}");
+    return;
+}
+```
+
+**Dlaczego to ważne:** Ustawiając `ResourcesPath` wymuszamy tryb **offline** silnika. Eliminuje to nieoczekiwane połączenia sieciowe i zapewnia spójne wyniki w różnych wdrożeniach.
+
+## Krok 2: Załaduj obraz do OCR
+
+Teraz, gdy silnik wie, gdzie szukać danych językowych, musimy podać mu obraz, który chcemy odczytać. To właśnie moment, w którym krok **load image for OCR** błyszczy — Aspose akceptuje szeroką gamę formatów (JPG, PNG, BMP, TIFF, jakikolwiek wymienisz).
+
+```csharp
+// Create and configure the OCR engine
+OcrEngine ocrEngine = new OcrEngine
+{
+    Config =
+    {
+        ResourcesPath = resourcesPath,      // Force offline mode
+        AutoDownloadResources = false,     // Disable on‑demand download
+        Language = Language.Tamil          // Set OCR language (see next step)
+    }
 };
+
+// Load the image you want to recognize
+string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+
+// Defensive check – helps you avoid the dreaded FileNotFoundException
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"Image not found at {imagePath}");
+    return;
+}
+
+ocrEngine.LoadImage(imagePath);
 ```
 
-*Co jeśli potrzebujesz wielu języków?* Możesz ustawić `Language = OcrLanguage.AutoDetect`, aby silnik samodzielnie zgadywał, ale auto‑detekcja jest wolniejsza i czasami myli się przy mieszanych skryptach. Dla czystego hindi jawny wybór jest najbezpieczniejszy.
+**Wskazówka:** Owiń wywołanie `LoadImage` w blok try‑catch, jeśli Twoja aplikacja przetwarza pliki dostarczane przez użytkownika. Dzięki temu możesz wyświetlić przyjazny komunikat o błędzie zamiast śladu stosu.
 
----
+## Krok 3: Ustaw język OCR – Wybierz właściwy pakiet
 
-## Krok 4: Wczytaj swój obraz – *load image for OCR*
-
-Teraz przekazujemy silnikowi obraz, który ma zostać odczytany. Aspose oferuje wygodny pomocnik `ImageStream.FromFile`, który ukrywa zależności od `System.Drawing`.
+Jeśli pominiesz ten krok, Aspose domyślnie użyje języka angielskiego, co spowoduje bezużyteczne wyniki, gdy tekst źródłowy jest w języku tamilskim, arabskim lub innym. Ustawienie języka jest tak proste, jak przypisanie wartości wyliczenia, ale możesz także przekazać własny kod ISO‑639‑2, jeśli dodałeś pakiet zewnętrzny.
 
 ```csharp
-// Step 4: Load the image containing Hindi text
-ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
+// The language was already set in the config above, but you can change it at runtime:
+ocrEngine.Config.Language = Language.Tamil; // Options: English, Arabic, ChineseSimplified, etc.
 ```
 
-Jeśli ścieżka do pliku jest nieprawidłowa, Aspose zgłosi `FileNotFoundException`. Szybka weryfikacja `File.Exists` przed tą linią może zaoszczędzić sesję debugowania.
+**Dlaczego to ważne:** Dokładność OCR zależy od modeli znaków specyficznych dla języka. Użycie właściwego pakietu może podnieść wskaźnik rozpoznawania z 60 % do ponad 95 % dla wielu skryptów.
 
----
+## Krok 4: Wykonaj rozpoznawanie i uzyskaj wyniki
 
-## Krok 5: Uruchom silnik OCR – *run OCR recognition*
-
-Po skonfigurowaniu wszystkiego w końcu wywołujemy proces rozpoznawania. To wywołanie jest synchroniczne i blokuje, dopóki tekst nie zostanie wyodrębniony.
+Mając wszystko gotowe — zasoby, obraz, język — jesteśmy gotowi, aby faktycznie wyodrębnić tekst. Metoda `Recognize` wykonuje całą ciężką pracę i zwraca obiekt `OcrResult` zawierający surowy ciąg znaków, wyniki pewności oraz ewentualnie ramki ograniczające, jeśli będą potrzebne później.
 
 ```csharp
-// Step 5: Execute the OCR process
-ocrEngine.Recognize();
+// Perform the OCR operation
+OcrResult ocrResult = ocrEngine.Recognize();
+
+// Output the recognized text
+Console.WriteLine("=== Extracted Text ===");
+Console.WriteLine(ocrResult.Text);
 ```
 
-Za kulisami Aspose wykonuje kilka etapów: wstępne przetwarzanie (prostowanie, usuwanie szumów), segmentację, klasyfikację znaków oraz końcowe przetwarzanie specyficzne dla języka. Ciężka praca odbywa się wewnątrz tego jednego wywołania metody.
-
----
-
-## Krok 6: Wyświetl wyodrębniony tekst – *extract text from image*
-
-Wynik znajduje się w właściwości `Text` silnika. Po prostu wypisujemy go w konsoli, ale możesz go również zapisać w bazie danych, przesłać przez API lub podać do kolejnego pipeline’u NLP.
-
-```csharp
-// Step 6: Print the recognized text
-Console.WriteLine("=== OCR RESULT ===");
-Console.WriteLine(ocrEngine.Text);
-```
-
-**Oczekiwany wynik** (zakładając, że obraz zawiera „स्वागत है”):
-
-```
-=== OCR RESULT ===
-स्वागत है
-```
-
-Jeśli zobaczysz zniekształcone znaki, sprawdź, czy model hindi jest prawidłowo umieszczony i czy obraz nie jest nadmiernie skompresowany.
-
----
+**Oczekiwany wynik:** Zakładając, że `tamil_note.jpg` zawiera czytelny odręczny tekst w języku tamilskim, zobaczysz wydrukowane w konsoli znaki Unicode Tamil. Jeśli obraz jest rozmyty, wynik może zawierać znaki zapytania lub zniekształcone symbole — w tym miejscu przydatne jest wstępne przetwarzanie (prostowanie, odszumianie).
 
 ## Pełny działający przykład
 
-Poniżej znajduje się kompletny program, który możesz skopiować i wkleić do nowego projektu konsolowego (`dotnet new console`). Zamień `YOUR_DIRECTORY` na rzeczywistą ścieżkę na swoim komputerze.
+Poniżej znajduje się kompletny program, który możesz skopiować i wkleić do nowego projektu konsolowego. Zawiera wszystkie omówione zabezpieczenia, więc możesz go uruchomić od razu.
 
 ```csharp
-// ------------------------------------------------------------
-// Complete Aspose OCR example – extract text from image
-// ------------------------------------------------------------
 using System;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Set the folder where language models are stored
-        OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-
-        // 2️⃣ Turn off automatic download – useful for offline builds
-        OcrEngine.Config.AllowAutomaticResourceDownload = false;
-
-        // 3️⃣ Create the engine and tell it to read Hindi
-        var ocrEngine = new OcrEngine
+        // -------------------------------------------------
+        // Step 1: Define resources folder (offline OCR)
+        // -------------------------------------------------
+        string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+        if (!Directory.Exists(resourcesPath))
         {
-            Language = OcrLanguage.Hindi
+            Console.WriteLine($"Resources folder not found at {resourcesPath}");
+            return;
+        }
+
+        // -------------------------------------------------
+        // Step 2: Configure OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Config =
+            {
+                ResourcesPath = resourcesPath,
+                AutoDownloadResources = false,
+                Language = Language.Tamil // <-- set OCR language here
+            }
         };
 
-        // 4️⃣ Load the image file that contains Hindi text
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
+        // -------------------------------------------------
+        // Step 3: Load the image you want to process
+        // -------------------------------------------------
+        string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found at {imagePath}");
+            return;
+        }
 
-        // 5️⃣ Run the OCR process
-        ocrEngine.Recognize();
+        ocrEngine.LoadImage(imagePath);
 
-        // 6️⃣ Output the result to the console
-        Console.WriteLine("=== OCR RESULT ===");
-        Console.WriteLine(ocrEngine.Text);
+        // -------------------------------------------------
+        // Step 4: Run OCR and display the result
+        // -------------------------------------------------
+        OcrResult ocrResult = ocrEngine.Recognize();
+
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-> **Tip:** Jeśli planujesz przetwarzać wiele obrazów w pętli, utwórz jedną instancję `OcrEngine` i używaj jej wielokrotnie — zmniejszy to narzut inicjalizacji.
+**Uruchamianie:**  
+1. Umieść folder `Resources` (zawierający pliki języka Tamil) obok skompilowanego pliku `.exe`.  
+2. Umieść `tamil_note.jpg` w tym samym katalogu.  
+3. Uruchom `dotnet run` (lub uruchom plik EXE).  
 
----
+Powinieneś zobaczyć wyodrębniony tekst w języku tamilskim wydrukowany w konsoli.
 
-## Rozwiązywanie typowych problemów
+## Częste pytania i przypadki brzegowe
 
-| Problem | Dlaczego się pojawia | Szybka naprawa |
-|---------|----------------------|----------------|
-| **Pusty wynik** | Nieprawidłowy model językowy lub niska jakość obrazu. | Sprawdź `ResourcesPath`, zwiększ DPI obrazu lub użyj `ocrEngine.Image = ImageStream.FromFile(..., true)`, aby włączyć automatyczne ulepszenia. |
-| **Wyjątek: Resource not found** | Brak pliku `.traineddata` dla hindi. | Pobierz model hindi z Aspose, umieść go w `OcrResources` i upewnij się, że nazwa pliku to `hin.traineddata`. |
-| **Zniekształcone znaki** | Nieprawidłowe kodowanie przy wypisywaniu w konsoli. | Ustaw kodowanie wyjścia konsoli: `Console.OutputEncoding = System.Text.Encoding.UTF8;`. |
-| **Opóźnienia w wydajności** | Przetwarzanie dużych obrazów bez skalowania. | Przed przekazaniem obrazu do OCR zmniejsz go do maksymalnej szerokości/wysokości 2000 px. |
+| Question | Answer |
+|----------|--------|
+| **Co zrobić, jeśli muszę przetworzyć wiele obrazów?** | Ponownie użyj tej samej instancji `OcrEngine` — po prostu wywołaj `LoadImage` ponownie przed każdym `Recognize`. |
+| **Czy mogę zmieniać języki w locie?** | Oczywiście. Ustaw `ocrEngine.Config.Language = Language.English;` (lub dowolny inny obsługiwany enum) przed załadowaniem kolejnego obrazu. |
+| **Mój obraz to strona PDF — czy to działa?** | Nie bezpośrednio. Konwertuj stronę PDF na obraz (np. przy użyciu Aspose.PDF), a następnie przekaż bitmapę do `LoadImage`. |
+| **Co jeśli pakiet językowy jest brakujący?** | Silnik zgłosi `FileNotFoundException`. Zabezpiecz się, sprawdzając `Directory.Exists(resourcesPath)` (jak pokazano). |
+| **Czy istnieje sposób na uzyskanie wyników pewności?** | `ocrResult.Confidence` zwraca ogólny wynik; `ocrResult.Regions` zawiera pewność dla każdego znaku, jeśli potrzebujesz szczegółowych danych. |
 
----
+## Profesjonalne wskazówki dla OCR gotowego do produkcji
 
-## Kolejne kroki i tematy powiązane
+1. **Wstępne przetwarzanie obrazów** – prostowanie, zwiększanie kontrastu i usuwanie szumów. Proste filtry `System.Drawing` mogą znacząco podnieść dokładność.  
+2. **Cache'owanie silnika** – tworzenie nowego `OcrEngine` dla każdego żądania jest kosztowne. Trzymaj singleton per język w usłudze webowej.  
+3. **Poprawna obsługa Unicode** – upewnij się, że Twoja konsola lub interfejs UI używa UTF‑8; w przeciwnym razie znaki niełacińskie pojawią się jako „�”.  
+4. **Loguj surowy wynik** – przechowuj `ocrResult.Text` razem z oryginalnym obrazem w celach audytowych.  
+5. **Łagodne przejście awaryjne** – jeśli pewność spadnie poniżej 0,6, rozważ poproszenie użytkownika o ponowne skanowanie lub uruchomienie drugiego silnika OCR.
 
-- **Przetwarzanie wsadowe:** Owiń kod w pętlę `foreach`, aby obsłużyć folder z obrazami.  
-- **Inne języki:** Zamień `OcrLanguage.Hindi` na `OcrLanguage.English`, `OcrLanguage.Arabic` itd.  
-- **Formaty wyjściowe:** Zamiast `Console.WriteLine` zapisz do pliku tekstowego (`File.WriteAllText("result.txt", ocrEngine.Text);`).  
-- **Integracja z ASP.NET Core:** Udostępnij endpoint API, który przyjmuje upload obrazu i zwraca wyodrębniony tekst w formacie JSON.  
+## Podsumowanie
 
-Wszystkie te rozszerzenia opierają się na tym samym schemacie — skonfiguruj silnik, wczytaj obraz, rozpoznaj i wykorzystaj wynik.
+Właśnie **wyodrębniliśmy tekst z obrazu** przy użyciu Aspose OCR, pokazaliśmy, jak **załadować obraz do OCR**, oraz przedstawiliśmy właściwy sposób **ustawienia języka OCR** dla wyników offline o wysokiej dokładności. Pełny, działający przykład powinien pozwolić Ci rozpocząć pracę w kilka minut, a dodatkowe wskazówki utrzymają Twoją implementację solidną w miarę skalowania.
 
----
+Gotowy na kolejny krok? Spróbuj zamienić pakiet Tamil na inny język lub eksperymentuj z przetwarzaniem wsadowym wielu plików równocześnie. Możesz także zbadać **narzędzia przetwarzania obrazu** Aspose, aby wycisnąć jeszcze większą dokładność z trudnych skanów.
 
-## Zakończenie
-
-Pokazaliśmy, jak **wyodrębnić tekst z obrazu** przy użyciu Aspose OCR w C#. Poradnik obejmuje każdy krok potrzebny do **wczytania obrazu dla OCR**, **rozpoznania tekstu w języku hindi** oraz **uruchomienia rozpoznawania OCR** — wszystko w samodzielnej aplikacji konsolowej.  
-
-Wypróbuj go na własnych zdjęciach, eksperymentuj z różnymi językami i dostosuj fragmenty do usług webowych lub zadań w tle. Podstawowa idea pozostaje niezmienna: ustaw zasoby, wybierz język, podaj obraz i odczytaj właściwość `Text`.  
-
-Jeśli napotkasz problemy, sprawdź tabelę rozwiązywania problemów powyżej lub zostaw komentarz. Powodzenia w kodowaniu i niech wyniki OCR zawsze będą krystalicznie czyste!
+Jeśli napotkasz problem, zostaw komentarz poniżej — powodzenia w kodowaniu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

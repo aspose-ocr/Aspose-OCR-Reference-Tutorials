@@ -1,0 +1,7 @@
+Title: Extract Text from Image with Aspose OCR – Complete Java Tutorial
+Slug: extract-text-from-image-with-aspose-ocr-complete-java-tutori
+Category: ocr-basics
+ProcessedDate: 2026-05-31T20:44:48.657632
+SourceRepo: AI Search API
+Keywords: extract text from image, load image for ocr, aspose ocr tutorial
+PRNumber: 136

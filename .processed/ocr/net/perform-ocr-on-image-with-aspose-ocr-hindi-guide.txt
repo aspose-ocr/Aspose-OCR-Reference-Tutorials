@@ -1,0 +1,7 @@
+Title: Perform OCR on Image with Aspose OCR – Hindi Guide
+Slug: perform-ocr-on-image-with-aspose-ocr-hindi-guide
+Category: text-recognition
+ProcessedDate: 2026-06-03T23:27:10.371322
+SourceRepo: AI Search API
+Keywords: perform ocr on image, load image for ocr, extract hindi text image
+PRNumber: 139

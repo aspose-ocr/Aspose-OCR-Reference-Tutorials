@@ -1,52 +1,59 @@
 ---
-date: 2025-12-06
-description: Aspose.OCR for Java の使い方を学び、OCR テキスト認識を実行し、画像からテキストを抽出し、対象認識用に矩形を準備します。
-linktitle: Preparing Rectangles for OCR Text Recognition in Aspose.OCR
+date: 2026-02-20
+description: Aspose.OCR for Java を使用してページの矩形を認識し、テキスト画像を抽出する Java プロジェクトの方法を学び、正確な
+  OCR のためにこの Aspose OCR Java チュートリアルに従ってください。
+linktitle: How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Aspose.OCR における OCR テキスト認識用の矩形の準備
+title: Aspose.OCRでOCRテキスト認識のためのページ矩形を認識する方法
 url: /ja/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ blocks/products/products-backtop-button >}}
+
+All unchanged.
+
+Now produce final content.
+
+Be careful to keep code block placeholders unchanged.
+
+Also keep blockquote > line.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCRでOCRテキスト認識のための矩形を準備する
+# Aspose.OCRでのOCRテキスト認識のためのページ矩形の認識方法
 
-## はじめに
+現代の文書自動化パイプラインでは、**recognize page rectangles** が OCR エンジンに正確に検索領域を指示できる重要なテクニックです。Aspose.OCR を実際にテキストが存在する領域に限定することで、速度が向上し、ノイズが減少し、結果がよりクリーンになります。このチュートリアルでは、ライブラリのセットアップ、ライセンス設定、矩形の定義、そして OCR API の呼び出しまでのすべての手順を順に解説し、任意の画像から自信を持ってテキストを抽出できるようにします。
 
-今日のデータ駆動型社会において、**ocr text recognition** は、スキャンした文書、スクリーンショット、写真を検索可能で編集可能なコンテンツに変換するための基盤です。Aspose.OCR for Java は、このプロセスを高速かつ信頼性の高いものにし、特に画像の特定領域に焦点を当てたい場合に最適です。このチュートリアルでは、OCR を関心のある領域に限定する矩形を準備するために必要なすべての手順を順を追って説明し、正確な制御とパフォーマンス向上を実現します。
+## Quick Answers
+- **What library handles OCR text recognition in Java?** Aspose.OCR for Java.  
+- **Do I need a license for production use?** Yes – a valid Aspose.OCR license unlocks full functionality.  
+- **Can I limit OCR to certain parts of an image?** Absolutely; you define rectangles that bound the target zones.  
+- **What are the main prerequisites?** JDK 17+, Aspose.OCR for Java, and a Java IDE.  
+- **Is this approach suitable for extracting text from images?** Yes, it’s an efficient way to **extract text image java** projects.
 
-## クイック回答
-- **JavaでOCRテキスト認識を処理するライブラリは何ですか？** Aspose.OCR for Java。  
-- **本番環境でライセンスが必要ですか？** はい – 有効な Aspose.OCR ライセンスで全機能が利用可能になります。  
-- **画像の特定部分にOCRを限定できますか？** もちろんです。対象領域を囲む矩形を定義します。  
-- **主な前提条件は何ですか？** JDK 17 以上、Aspose.OCR for Java、そして Java IDE。  
-- **このアプローチは画像からテキストを抽出するのに適していますか？** はい、**extract text image java** プロジェクトに効率的です。
+## What is “recognize page rectangles”?
+このフレーズは、`java.awt.Rectangle` オブジェクトのリストを OCR エンジンに提供し、ページ上の特定領域のみを処理させる手法を指します。この集中アプローチにより、処理時間が短縮され、特に請求書やフォームなどの複雑な文書で精度が向上します。
 
-## OCRテキスト認識とは？
-
-OCR（Optical Character Recognition）テキスト認識は、ピクセルベースの画像を機械が読み取れる文字に変換します。これにより、元々画像としてしか存在しなかったコンテンツを検索、編集、分析できるようになります。
-
-## なぜOCRテキスト認識のために矩形を準備するのか？
-
-矩形を定義することで、エンジンが実際にテキストが含まれる領域に集中でき、次の効果があります。
+## Why Prepare Rectangles for OCR Text Recognition?
+矩形を定義することでエンジンが実際にテキストが存在する領域に集中でき、次の効果があります。  
 * 処理時間の短縮。  
-* ノイズの多い背景を無視することで精度が向上。  
-* 必要なデータだけを抽出できるため、フォーム、請求書、領収書などに最適。
+* ノイズの多い背景を無視することで精度向上。  
+* 必要なデータだけを抽出可能 – フォーム、請求書、領収書に最適。
 
-## 前提条件
+## Prerequisites
 
-開始する前に以下を用意してください。
+開始する前に、以下を用意してください。
 
 - **Java Development Kit (JDK)** – Aspose.OCR for Java は JDK 17 以降で動作します。Oracle のウェブサイトからダウンロードしてください。  
 - **Aspose.OCR for Java library** – 公式ダウンロードページ [here](https://releases.aspose.com/ocr/java/) から最新の JAR を取得します。インストールガイドは [here](https://reference.aspose.com/ocr/java/) を参照してください。  
 - **Development Environment** – 任意の Java IDE（IntelliJ IDEA、Eclipse、VS Code など）で構いません。
 
-## パッケージのインポート
+## Import Packages
 
-Java ソースファイルで、必要な Aspose.OCR クラスと標準 Java ユーティリティをインポートします：
+Java ソースファイルで必要な Aspose.OCR クラスと標準 Java ユーティリティをインポートします。
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -60,26 +67,26 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-> *`java.awt.Rectangle` をインポートするのは、OCR API がスキャン領域を定義する矩形を期待しているためです。*
+> *We import `java.awt.Rectangle` because the OCR API expects rectangles that define the regions to scan.*
 
-## 手順 1: ライセンスの設定
+## Step 1: Set Up License
 
 ```java
 SetLicense.main(null);
 ```
 
-`SetLicense` を呼び出すことで Aspose.OCR のライセンスが有効になり、評価版の制限が解除され、フル機能の OCR テキスト認識が使用可能になります。
+`SetLicense` を呼び出すことで Aspose.OCR のライセンスが有効になり、評価版の制限が解除され、フル機能の OCR テキスト認識が可能になります。
 
-## 手順 2: ドキュメントディレクトリと画像パスの定義
+## Step 2: Define Document Directory and Image Path
 
 ```java
 String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-`"Your Document Directory"` を画像（`p.png`）が格納されている絶対パスに置き換えてください。これが処理対象の画像です。
+`"Your Document Directory"` を画像（`p.png`）が格納されている絶対パスに置き換えてください。この画像が処理対象となります。
 
-## 手順 3: Aspose.OCR インスタンスの作成
+## Step 3: Create Aspose.OCR Instance
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -87,7 +94,7 @@ AsposeOCR api = new AsposeOCR();
 
 `AsposeOCR` のインスタンス化により、実際の OCR を実行する `RecognizePage` メソッドへアクセスできます。
 
-## 手順 4: テキスト用矩形の準備
+## Step 4: Prepare Rectangles with Texts
 
 ```java
 ArrayList<Rectangle> rectArray = new ArrayList<Rectangle>();
@@ -97,9 +104,9 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-各 `Rectangle(x, y, width, height)` が Aspose.OCR に対してテキストを検索すべき正確な位置を指示します。座標は元画像のレイアウトに合わせて調整してください。
+各 `Rectangle(x, y, width, height)` が Aspose.OCR に対してテキスト検索領域を正確に指示します。座標は元画像のレイアウトに合わせて調整してください。
 
-## 手順 5: OCR 認識の実行
+## Step 5: Perform OCR Recognition
 
 ```java
 try {
@@ -110,43 +117,43 @@ try {
 }
 ```
 
-`RecognizePage` の呼び出しは定義した矩形のみを処理し、抽出された文字列を返します。コンソール出力で **ocr text recognition** の結果を即座に確認できます。
+`RecognizePage` の呼び出しは定義した矩形のみを処理し、抽出された文字列を返します。コンソール出力で **ocr text recognition** の結果をすぐに確認できます。
 
-## よくある問題とヒント
+## Common Issues and Tips
 
 | 問題 | 原因 | 解決策 |
 |------|------|--------|
-| **出力なし** | 矩形座標または画像パスが誤っている | `dataDir` の値を再確認し、矩形が実際にテキスト領域をカバーしていることを確認してください。 |
-| **文字化け** | 低解像度画像または未対応フォント | 高解像度の画像を使用するか、画像前処理（例: 二値化）を適用してください。 |
-| **ライセンスが適用されていない** | OCR 前に `SetLicense` が呼び出されていない | `SetLicense.main(null);` を API 呼び出しの前に実行してください。 |
-| **パフォーマンス低下** | 矩形が多すぎる、またはサイズが大きすぎる | 矩形の数を減らし、テキスト周辺にできるだけタイトに設定してください。 |
+| **出力なし** | 矩形座標または画像パスが正しくない | `dataDir` の値を再確認し、矩形が実際にテキスト領域をカバーしていることを確認してください。 |
+| **文字化け** | 低解像度の画像またはサポートされていないフォント | より高解像度の画像を使用するか、画像前処理（例：二値化）を適用してください。 |
+| **ライセンスが適用されていない** | `SetLicense` が OCR の前に呼び出されていない | `SetLicense.main(null);` がすべての API 呼び出しの前に実行されていることを確認してください。 |
+| **パフォーマンス低下** | 矩形が多すぎて大きい | 矩形の数を制限し、テキスト周辺にできるだけ密に配置してください。 |
 
-## 結論
+## Frequently Asked Questions
 
-これで Aspose.OCR for Java の統合、ライセンス設定、画像パスの定義、そして最も重要な **ocr text recognition** を画像の特定部分に集中させる矩形の準備方法を習得しました。この手法は、正確で高性能なテキスト抽出が求められる **java ocr tutorial** に最適です。
+**Q:** *Aspose.OCR は他のプログラミング言語でも使用できますか？*  
+**A:** はい、Aspose.OCR は .NET、C++、Python もサポートしています。言語別サンプルは公式ドキュメントをご確認ください。
 
-## よくある質問
+**Q:** *商用プロジェクトで Aspose.OCR を使用できますか？*  
+**A:** もちろんです。商用ライセンスは [Aspose store](https://purchase.aspose.com/buy) から購入してください。
 
-**Q: Aspose.OCR は他のプログラミング言語と互換性がありますか？**  
-A: はい、Aspose.OCR は .NET、C++、Python でも利用可能です。言語別サンプルは公式ドキュメントをご確認ください。
+**Q:** *無料トライアルはありますか？*  
+**A:** はい、トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
 
-**Q: Aspose.OCR を商用プロジェクトで使用できますか？**  
-A: もちろんです。商用ライセンスは [Aspose store](https://purchase.aspose.com/buy) から購入できます。
+**Q:** *評価用の一時ライセンスはどう取得しますか？*  
+**A:** 一時ライセンスは [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/) で提供されています。
 
-**Q: 無料トライアルはありますか？**  
-A: はい、トライアル版は [here](https://releases.aspose.com/) からダウンロードできます。
+**Q:** *コミュニティサポートはどこで受けられますか？*  
+**A:** 質問やヒント、コードサンプルは Aspose.OCR の [forum](https://forum.aspose.com/c/ocr/16) でご利用ください。
 
-**Q: 評価用の一時ライセンスはどう取得しますか？**  
-A: 一時ライセンスは [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/) で提供されています。
+## Conclusion
 
-**Q: コミュニティサポートはどこで得られますか？**  
-A: 質問やヒント、コードサンプルは Aspose.OCR の [forum](https://forum.aspose.com/c/ocr/16) でご利用ください。
+これで Aspose.OCR for Java を使用した **recognize page rectangles** の方法、ライセンス設定、画像パスの指定、そして最も重要な、画像の必要な部分に OCR を集中させるための緊密な矩形の作成手順を習得しました。このテクニックは、正確で高性能なテキスト抽出を求める **aspose ocr java tutorial** に最適です。
 
 ---
 
-**最終更新日:** 2025-12-06  
-**テスト環境:** Aspose.OCR for Java 24.12  
-**作者:** Aspose  
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.OCR for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

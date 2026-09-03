@@ -1,20 +1,21 @@
 ---
 category: general
-date: 2026-01-10
-description: 使用 Aspose OCR 在 C# 中從圖像提取文字。了解如何載入圖像進行 OCR、辨識印地語文字，並在幾個簡單步驟中執行 OCR 識別。
+date: 2026-01-04
+description: 從圖像提取文字，使用 Aspose OCR 於 C#。了解如何載入圖像以進行 OCR，並設定離線處理的 OCR 語言。
 draft: false
 keywords:
 - extract text from image
-- recognize hindi text
 - load image for ocr
-- run ocr recognition
+- set ocr language
+- offline ocr csharp
+- aspose ocr tutorial
 language: zh-hant
-og_description: 使用 Aspose OCR 於 C# 從圖像提取文字。請遵循此逐步指南載入圖像進行 OCR，辨識印地語文字，並執行 OCR 識別。
-og_title: 使用 Aspose OCR 從圖片提取文字 – 完整 C# 指南
+og_description: 使用 Aspose OCR 於 C# 從圖像提取文字。本指南說明如何載入圖像以進行 OCR 以及設定 OCR 語言，以確保離線處理的可靠性。
+og_title: 使用 Aspose OCR 從圖像擷取文字 – 完整 C# 指南
 tags:
-- Aspose OCR
 - C#
-- Image Processing
+- OCR
+- Aspose
 title: 使用 Aspose OCR 從圖像提取文字 – 完整 C# 指南
 url: /zh-hant/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -23,207 +24,216 @@ url: /zh-hant/net/text-recognition/extract-text-from-image-with-aspose-ocr-compl
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從圖像提取文字（使用 Aspose OCR）– 完整 C# 指南
+# 使用 Aspose OCR 從影像提取文字 – 完整 C# 教學
 
-是否曾需要**從圖像提取文字**，卻不確定該選哪個函式庫？你並不孤單——許多開發者在首次處理 .NET 中的 OCR 時都會碰到這個問題。好消息是，Aspose OCR 讓整個流程出奇地簡單，即使面對像印地語這樣的複雜文字也不例外。
+是否曾經需要 **從影像提取文字**，卻卡在「怎麼把像素讀進程式」的問題上？你並不孤單。在許多實務應用中——例如收據掃描、身分驗證，或只是將手寫筆記數位化——取得可靠的 OCR 結果往往是成敗關鍵。
 
-在本教學中，我們將逐步說明如何**載入圖像以進行 OCR**、**辨識印地語文字**，以及在 C# 中**執行 OCR 辨識**。完成後，你將擁有一個可直接執行的主控台應用程式，會將提取出的文字直接印在螢幕上。
+事實是：Aspose OCR 讓你 **load image for OCR** 並 **set OCR language**，全程不需連網。在本教學中，我們將示範一個可直接執行的 C# 範例，說明如何完成這些步驟，並提供一些你會希望早點知道的小技巧。
 
-## 您將構建的內容
-
-我們將建立一個小型主控台應用程式，具備以下功能：
-
-1. 指定 OCR 引擎的語言模型資料夾。
-2. 關閉自動下載功能——適用於受限環境。
-3. 選擇印地語作為目標語言。
-4. 載入包含印地語文字的 JPEG（或 PNG）影像。
-5. 執行辨識流程。
-6. 將結果字串寫入主控台。
-
-不需要外部服務、雲端金鑰，純粹在本機執行的 OCR。
-
-## 前置條件
-
-- **.NET 6.0** 或更新版本（此程式碼亦可在 .NET Framework 4.7+ 上執行）。
-- **Aspose.OCR for .NET** NuGet 套件已安裝。  
-  ```bash
-  dotnet add package Aspose.OCR
-  ```
-- 一個名為 `OcrResources` 的資料夾，內含印地語語言模型（`hin.traineddata`）。  
-  您可以從 Aspose OCR 下載頁面取得，並放入 `YOUR_DIRECTORY/OcrResources`。
-- 一個包含清晰印地語文字的影像檔（`input.jpg`）。  
-  舉例來說，可想像是一張寫有「स्वागत है」的店舖招牌照片。  
-
-> **專業提示：**保持影像解析度在 300 dpi 以上；較低的解析度可能導致遺漏字元。
+> **學完你將能夠**  
+> • 取得一個完整、可直接 copy‑and‑paste 的程式，從影像中提取文字。  
+> • 了解為什麼要將引擎指向本機語言套件。  
+> • 獲得處理邊緣案例（資源遺失、檔案路徑錯誤等）的實務建議。
 
 ---
 
-## 步驟 1：將 OCR 引擎指向您的資源 – *extract text from image*
+## 需要的環境
 
-Aspose OCR 首先需要知道語言模型的所在位置。如果省略此設定，引擎會嘗試自動下載檔案——在受限網路環境中這通常不是你想要的行為。
+- **.NET 6+**（程式碼同樣可在 .NET Framework 上編譯，但 .NET 6 為最佳選擇）。  
+- **Aspose.OCR for .NET** NuGet 套件（`Install-Package Aspose.OCR`）。  
+- 本機 OCR 語言資料夾（範例使用 Tamil 語言包）。  
+- 想要處理的影像檔（例如 `tamil_note.jpg`）。  
 
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Config;
-
-// Step 1: Tell Aspose where the language resources live
-OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-```
-
-*為什麼這很重要：* 透過設定 `ResourcesPath`，可確保引擎在本機載入正確的訓練資料，這不僅加快首次執行的速度，也避免了意外的網路流量。
+只要語言資源已放在磁碟上，便不需要任何網路連線，這讓此方式非常適合離線或高安全性的環境。
 
 ---
 
-## 步驟 2：停用自動資源下載 – *load image for OCR*
+## 步驟 1：從影像提取文字 – 準備資源
 
-在許多企業環境中，對外部網際網路的存取被封鎖。Aspose OCR 支援一個旗標，可阻止它在執行時即時下載缺少的檔案。
-
-```csharp
-// Step 2: Prevent the engine from reaching out to the internet
-OcrEngine.Config.AllowAutomaticResourceDownload = false;
-```
-
-若忘記加入此行且印地語模型不存在，引擎會拋出類似「Unable to download required resource」的例外。將旗標設為 `false` 能讓失敗變得明確且可自行處理。
-
----
-
-## 步驟 3：選擇語言 – *recognize hindi text*
-
-Aspose OCR 支援數十種語言，但必須明確告訴它要使用哪一種。印地語以 `OcrLanguage.Hindi` 表示。
+首先，我們必須告訴 Aspose OCR 語言檔案所在的位置。若尚未下載 Tamil 語言包，請從 Aspose 官方網站取得，並放入與可執行檔同層的 **Resources** 資料夾中。
 
 ```csharp
-// Step 3: Create the OCR engine and set the target language
-var ocrEngine = new OcrEngine
-{
-    Language = OcrLanguage.Hindi
-};
-```
-
-*如果需要同時支援多種語言？* 你可以設定 `Language = OcrLanguage.AutoDetect` 讓引擎自行判斷，但自動偵測較慢且在混合文字時偶爾會失誤。對於純印地語，明確指定是最安全的做法。
-
----
-
-## 步驟 4：載入影像 – *load image for OCR*
-
-現在把要辨識的圖片交給引擎。Aspose 提供便利的 `ImageStream.FromFile` 輔助方法，免除直接使用 `System.Drawing` 的繁雜。
-
-```csharp
-// Step 4: Load the image containing Hindi text
-ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
-```
-
-如果檔案路徑錯誤，Aspose 會拋出 `FileNotFoundException`。在此行之前先執行 `File.Exists` 檢查，可省去除錯時間。
-
----
-
-## 步驟 5：執行 OCR 引擎 – *run OCR recognition*
-
-所有設定完成後，我們終於啟動辨識程序。此呼叫為同步執行，會阻塞直到文字提取完畢。
-
-```csharp
-// Step 5: Execute the OCR process
-ocrEngine.Recognize();
-```
-
-在背後，Aspose 會依序執行前處理（去斜、降噪）、分割、字元分類，最後進行語言特定的後處理。繁重的運算都封裝在這個單一方法內。
-
----
-
-## 步驟 6：輸出提取的文字 – *extract text from image*
-
-結果儲存在引擎的 `Text` 屬性中。我們只需將它寫入主控台，當然也可以存入資料庫、透過 API 回傳，或交給其他 NLP 流程。
-
-```csharp
-// Step 6: Print the recognized text
-Console.WriteLine("=== OCR RESULT ===");
-Console.WriteLine(ocrEngine.Text);
-```
-
-**預期輸出**（假設影像包含「स्वागत है」）：
-
-```
-=== OCR RESULT ===
-स्वागत है
-```
-
-如果看到亂碼，請再次確認印地語模型已正確放置，且影像未過度壓縮。
-
----
-
-## 完整範例程式
-
-以下程式碼可直接貼到新建的主控台專案（`dotnet new console`）中。請將 `YOUR_DIRECTORY` 替換為你機器上的實際路徑。
-
-```csharp
-// ------------------------------------------------------------
-// Complete Aspose OCR example – extract text from image
-// ------------------------------------------------------------
 using System;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
+
+// Define the path to the local OCR language resources
+string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+
+// Ensure the folder exists – a simple guard against a common pitfall
+if (!Directory.Exists(resourcesPath))
+{
+    Console.WriteLine($"Resources folder not found at {resourcesPath}");
+    return;
+}
+```
+
+**為什麼這很重要：** 設定 `ResourcesPath` 後，會強制引擎進入 **offline mode**，避免任何意外的網路呼叫，確保在不同部署環境下都有一致的結果。
+
+---
+
+## 步驟 2：Load Image for OCR
+
+現在引擎已知道語言資料的所在，我們需要把要辨識的圖片讀入。這就是 **load image for OCR** 發揮作用的地方——Aspose 支援多種格式（JPG、PNG、BMP、TIFF 等）。
+
+```csharp
+// Create and configure the OCR engine
+OcrEngine ocrEngine = new OcrEngine
+{
+    Config =
+    {
+        ResourcesPath = resourcesPath,      // Force offline mode
+        AutoDownloadResources = false,     // Disable on‑demand download
+        Language = Language.Tamil          // Set OCR language (see next step)
+    }
+};
+
+// Load the image you want to recognize
+string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+
+// Defensive check – helps you avoid the dreaded FileNotFoundException
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"Image not found at {imagePath}");
+    return;
+}
+
+ocrEngine.LoadImage(imagePath);
+```
+
+**小技巧：** 若你的應用會處理使用者上傳的檔案，請將 `LoadImage` 包在 try‑catch 區塊中，這樣可以回傳友善的錯誤訊息，而不是整個堆疊追蹤。
+
+---
+
+## 步驟 3：Set OCR Language – 選擇正確的語言包
+
+如果跳過此步驟，Aspose 會預設使用英文，當原始文字是 Tamil、Arabic 或其他腳本時，辨識結果將會是亂碼。設定語言只要指派 enum 值即可，若有自行加入的第三方語言包，也可以傳入自訂的 ISO‑639‑2 代碼。
+
+```csharp
+// The language was already set in the config above, but you can change it at runtime:
+ocrEngine.Config.Language = Language.Tamil; // Options: English, Arabic, ChineseSimplified, etc.
+```
+
+**為什麼要在意：** OCR 的準確度高度依賴語言專屬的字元模型。使用正確的語言包，許多腳本的辨識率可從 60 % 提升至超過 95 %。
+
+---
+
+## 步驟 4：Perform Recognition and Get Results
+
+所有前置作業（資源、影像、語言）就緒後，我們就可以正式提取文字。`Recognize` 方法會完成所有重活，回傳一個 `OcrResult` 物件，內含原始字串、信心分數，甚至還有若需要的邊界框資訊。
+
+```csharp
+// Perform the OCR operation
+OcrResult ocrResult = ocrEngine.Recognize();
+
+// Output the recognized text
+Console.WriteLine("=== Extracted Text ===");
+Console.WriteLine(ocrResult.Text);
+```
+
+**預期輸出：** 假設 `tamil_note.jpg` 為清晰的 Tamil 手寫文字，控制台會印出 Unicode Tamil 字元。若影像模糊，結果可能出現問號或亂碼——此時前處理（去斜、去噪）就派上用場。
+
+---
+
+## 完整可執行範例
+
+以下程式碼可直接貼到新的 Console 專案中。已包含前面提到的所有防護機制，直接執行即可。
+
+```csharp
+using System;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Set the folder where language models are stored
-        OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-
-        // 2️⃣ Turn off automatic download – useful for offline builds
-        OcrEngine.Config.AllowAutomaticResourceDownload = false;
-
-        // 3️⃣ Create the engine and tell it to read Hindi
-        var ocrEngine = new OcrEngine
+        // -------------------------------------------------
+        // Step 1: Define resources folder (offline OCR)
+        // -------------------------------------------------
+        string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+        if (!Directory.Exists(resourcesPath))
         {
-            Language = OcrLanguage.Hindi
+            Console.WriteLine($"Resources folder not found at {resourcesPath}");
+            return;
+        }
+
+        // -------------------------------------------------
+        // Step 2: Configure OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Config =
+            {
+                ResourcesPath = resourcesPath,
+                AutoDownloadResources = false,
+                Language = Language.Tamil // <-- set OCR language here
+            }
         };
 
-        // 4️⃣ Load the image file that contains Hindi text
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
+        // -------------------------------------------------
+        // Step 3: Load the image you want to process
+        // -------------------------------------------------
+        string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found at {imagePath}");
+            return;
+        }
 
-        // 5️⃣ Run the OCR process
-        ocrEngine.Recognize();
+        ocrEngine.LoadImage(imagePath);
 
-        // 6️⃣ Output the result to the console
-        Console.WriteLine("=== OCR RESULT ===");
-        Console.WriteLine(ocrEngine.Text);
+        // -------------------------------------------------
+        // Step 4: Run OCR and display the result
+        // -------------------------------------------------
+        OcrResult ocrResult = ocrEngine.Recognize();
+
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-> **提示：**若需批次處理多張影像，建議只建立一次 `OcrEngine` 並重複使用，以減少初始化開銷。
+**執行步驟：**  
+1. 將包含 Tamil 語言檔的 `Resources` 資料夾放在編譯後的 `.exe` 同層。  
+2. 把 `tamil_note.jpg` 放到相同目錄下。  
+3. 執行 `dotnet run`（或直接執行 EXE）。  
+
+你應該會在控制台看到提取出的 Tamil 文字。
 
 ---
 
-## 常見問題處理
+## 常見問題與邊緣案例
 
-| 問題 | 為何會發生 | 快速解決方案 |
-|------|------------|--------------|
-| **空白輸出** | 語言模型錯誤或影像品質低下。 | 驗證 `ResourcesPath`、提升影像 DPI，或嘗試 `ocrEngine.Image = ImageStream.FromFile(..., true)` 以啟用自動增強。 |
-| **例外：找不到資源** | 缺少印地語 `.traineddata`。 | 從 Aspose 下載印地語模型，放入 `OcrResources`，並確保檔名為 `hin.traineddata`。 |
-| **亂碼** | 將結果輸出至主控台時編碼不匹配。 | 設定主控台輸出編碼：`Console.OutputEncoding = System.Text.Encoding.UTF8;`。 |
-| **效能延遲** | 未縮放即處理大型影像。 | 在送入 OCR 前先將影像縮放至最大寬/高 2000 px。 |
+| 問題 | 解答 |
+|----------|--------|
+| **如果要同時處理多張影像該怎麼辦？** | 重複使用同一個 `OcrEngine` 實例——在每次 `Recognize` 前再次呼叫 `LoadImage` 即可。 |
+| **可以即時切換語言嗎？** | 當然可以。在載入下一張影像前，設定 `ocrEngine.Config.Language = Language.English;`（或其他支援的 enum）。 |
+| **我的影像是 PDF 頁面——能直接辨識嗎？** | 不能直接。先將 PDF 頁面轉成影像（例如使用 Aspose.PDF），再交給 `LoadImage`。 |
+| **如果語言包遺失會怎樣？** | 引擎會拋出 `FileNotFoundException`。可先檢查 `Directory.Exists(resourcesPath)`（如範例所示）以避免例外。 |
+| **有辦法取得信心分數嗎？** | `ocrResult.Confidence` 提供整體分數；`ocrResult.Regions` 內含每個字元的信心分數，若需要更細部的資料可使用。 |
 
 ---
 
-## 後續步驟與相關主題
+## 讓 OCR 上線的實務技巧
 
-- **批次處理：**將程式碼包在 `foreach` 迴圈中，以處理整個資料夾的影像。  
-- **其他語言：**將 `OcrLanguage.Hindi` 替換為 `OcrLanguage.English`、`OcrLanguage.Arabic` 等。  
-- **輸出格式：**除了 `Console.WriteLine`，也可寫入文字檔（`File.WriteAllText("result.txt", ocrEngine.Text);`）。  
-- **與 ASP.NET Core 整合：**建立 API 端點接受影像上傳，回傳 JSON 格式的提取文字。  
-
-以上所有延伸皆遵循相同模式——設定引擎、載入影像、辨識，最後使用結果。
+1. **前處理影像** – 去斜、提升對比度、去噪聲。簡單的 `System.Drawing` 濾鏡即可大幅提升辨識率。  
+2. **快取 Engine** – 每次請求都新建 `OcrEngine` 成本高。於 Web 服務中為每種語言保留一個 singleton。  
+3. **正確處理 Unicode** – 確保 Console 或 UI 使用 UTF‑8，否則非拉丁字元會顯示為「�」。  
+4. **記錄原始輸出** – 將 `ocrResult.Text` 與原始影像一起儲存，以作稽核追蹤。  
+5. **優雅的降級機制** – 若信心分數低於 0.6，考慮提示使用者重新掃描，或改用第二套 OCR 引擎。
 
 ---
 
 ## 結論
 
-我們剛剛示範了如何使用 Aspose OCR 在 C# 中**從圖像提取文字**。本指南涵蓋了**載入圖像以進行 OCR**、**辨識印地語文字**以及**執行 OCR 辨識**的每一步，並提供一個可直接執行的主控台範例。
+我們已示範如何 **從影像提取文字**，使用 Aspose OCR 完成 **load image for OCR**，以及正確 **set OCR language** 以取得離線、高準確度的結果。完整、可執行的範例能讓你在數分鐘內上手，而額外的技巧則能確保在規模擴大時仍保持穩定。
 
-請自行嘗試不同的圖片、語言，或將程式碼改寫成 Web 服務或背景工作。核心概念不變：設定資源、選擇語言、提供影像，最後讀取 `Text` 屬性。
+準備好下一步了嗎？試著把 Tamil 語言包換成其他語言，或是嘗試平行批次處理多個檔案。你也可以探索 Aspose 的 **image preprocessing utilities**，進一步提升對於複雜掃描的辨識率。
 
-若遇到任何問題，請參考上方的故障排除表，或留下評論。祝開發順利，OCR 結果永遠清晰可讀！
+如有任何問題，歡迎在下方留言——祝開發順利！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

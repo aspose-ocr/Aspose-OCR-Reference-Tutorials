@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-01-10
-description: Szöveg kinyerése képből az Aspose OCR használatával C#-ban. Tanulja meg,
-  hogyan töltsön be képet az OCR-hez, hogyan ismerje fel a hindi szöveget, és hogyan
-  hajtsa végre az OCR felismerést néhány egyszerű lépésben.
+date: 2026-01-04
+description: Képből szöveg kinyerése Aspose OCR-rel C#-ban. Tanulja meg, hogyan töltsön
+  be képet OCR-hez, és állítsa be az OCR nyelvet offline feldolgozáshoz.
 draft: false
 keywords:
 - extract text from image
-- recognize hindi text
 - load image for ocr
-- run ocr recognition
+- set ocr language
+- offline ocr csharp
+- aspose ocr tutorial
 language: hu
-og_description: Szöveg kinyerése képből az Aspose OCR használatával C#-ban. Kövesse
-  ezt a lépésről‑lépésre útmutatót a kép betöltéséhez OCR-hez, a hindi szöveg felismeréséhez
-  és az OCR felismerés futtatásához.
-og_title: Szöveg kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató
+og_description: Szöveg kinyerése képből az Aspose OCR segítségével C#-ban. Ez az útmutató
+  bemutatja, hogyan töltsünk be képet az OCR-hez, és hogyan állítsuk be az OCR nyelvet
+  a megbízható offline feldolgozáshoz.
+og_title: Szöveg kinyerése képből az Aspose OCR-rel – Teljes C# útmutató
 tags:
-- Aspose OCR
 - C#
-- Image Processing
+- OCR
+- Aspose
 title: Szöveg kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató
 url: /hu/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -27,205 +27,216 @@ url: /hu/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép szövegének kinyerése Aspose OCR‑vel – Teljes C# útmutató
+# Szöveg kinyerése képből Aspose OCR-rel – Teljes C# útmutató
 
-Valaha szükséged volt **kép szövegének kinyerésére**, de nem tudtad, melyik könyvtárat válaszd? Nem vagy egyedül – sok fejlesztő szembesül ezzel, amikor először foglalkozik az OCR‑rel a .NET‑ben. A jó hír, hogy az Aspose OCR a teljes folyamatot meglepően egyszerűvé teszi, még akkor is, ha összetett írásrendszerekkel, például hindivel dolgozol.
+Valaha szükséged volt **szöveg kinyerésére képből**, de elakadtál a „hogyan kapom a pixeleket a kódba?” kérdésnél? Nem vagy egyedül. Sok valós alkalmazásban—gondolj a nyugtáskölcsönzőkre, személyazonosság-ellenőrzésre vagy egyszerűen a kézzel írott jegyzetek digitalizálására—megbízható OCR eredmények elérése döntő fontosságú.
 
-Ebben az útmutatóban végigvezetünk mindenen, ami szükséges a **kép betöltéséhez OCR‑hez**, a **hindi szöveg felismeréséhez**, és az **OCR felismerés futtatásához** C#‑ban. A végére egy azonnal futtatható konzolalkalmazást kapsz, amely a kinyert szöveget közvetlenül a képernyőre írja.
+A lényeg: az Aspose OCR lehetővé teszi, hogy **load image for OCR** és **set OCR language** műveleteket végezz anélkül, hogy az internethez nyúlnál. Ebben az útmutatóban egy teljesen futtatható C# példán keresztül mutatjuk be, hogyan kell ezt megtenni, valamint néhány tippet, amelyet korábban is jó lenne tudnod.
 
-## Mit fogunk építeni
-
-Készítünk egy apró konzolalkalmazást, amely:
-
-1. Az OCR motorra mutat egy mappát, amely nyelvi modelleket tartalmaz.
-2. Kikapcsolja az automatikus letöltéseket – hasznos lezárt környezetekben.
-3. A hindit választja célnyelvként.
-4. Betölt egy JPEG‑et (vagy PNG‑t), amely hindi szöveget tartalmaz.
-5. Végrehajtja a felismerési folyamatot.
-6. Kiírja az eredményül kapott sztringet a konzolra.
-
-Nincs külső szolgáltatás, nincs felhőkulcs, csak tiszta helyi OCR.
-
-## Előkövetelmények
-
-- **.NET 6.0** vagy újabb (a kód .NET Framework 4.7+‑on is működik).
-- **Aspose.OCR for .NET** NuGet csomag telepítve.  
-  ```bash
-  dotnet add package Aspose.OCR
-  ```
-- Egy `OcrResources` nevű mappa, amely a Hindi nyelvi modellt (`hin.traineddata`) tartalmazza.  
-  Letöltheted az Aspose OCR letöltési oldaláról, és helyezd a `YOUR_DIRECTORY/OcrResources` könyvtárba.
-- Egy képfájl (`input.jpg`) tiszta hindi szöveggel.  
-  Illusztrációként képzeld el egy üzlet jelzős fotóját, amely a „स्वागत है” feliratot tartalmazza.
-
-> **Pro tipp:** Tartsd a kép felbontását 300 dpi felett; az alacsonyabb felbontás hiányzó karakterekhez vezethet.
+> **Mit fogsz megtanulni**  
+> • Egy teljes, másolás‑beillesztéses program, amely szöveget nyer ki egy képből.  
+> • Megértés, hogy miért kell a motorra helyi nyelvi csomagot mutatni.  
+> • Gyakorlati tippek a szélhelyzetek kezeléséhez (hiányzó erőforrások, rossz fájlútvonalak, stb.).
 
 ---
 
-## 1. lépés: Az OCR motor mutatása a saját erőforrásaidra – *kép szövegének kinyerése*
+## Amire szükséged lesz
 
-Az első dolog, amire az Aspose OCR‑nek szüksége van, a nyelvi modellek helye. Ha ezt kihagyod, a motor megpróbálja automatikusan letölteni a fájlokat – ami egy biztonságos hálózatban nem kívánatos.
+- **.NET 6+** (a kód .NET Framework-re is lefordítható, de a .NET 6 a legoptimálisabb).  
+- **Aspose.OCR for .NET** NuGet csomag (`Install-Package Aspose.OCR`).  
+- Helyi OCR nyelvi mappa (a példában a tamil csomagot használjuk).  
+- Egy képfájl, amelyet fel szeretnél dolgozni (pl. `tamil_note.jpg`).  
+
+Az internetkapcsolat nem szükséges, amint a nyelvi erőforrások a lemezen vannak, így ez a megközelítés tökéletes offline vagy biztonságos környezetekhez.
+
+---
+
+## 1. lépés: Szöveg kinyerése képből – Erőforrások előkészítése
+
+Először meg kell mondanunk az Aspose OCR-nek, hogy hol találhatók a nyelvi fájlok. Ha még nem töltötted le a tamil csomagot, szerezd be az Aspose weboldaláról, és helyezd el egy **Resources** nevű mappában a végrehajtható fájlod mellett.
 
 ```csharp
+using System;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-// Step 1: Tell Aspose where the language resources live
-OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-```
+// Define the path to the local OCR language resources
+string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
 
-*Miért fontos:* A `ResourcesPath` beállításával biztosítod, hogy a motor a megfelelő betanított adatokat helyben töltse be, ami felgyorsítja az első futást és megszünteti a váratlan hálózati forgalmat.
-
----
-
-## 2. lépés: Automatikus erőforrás letöltés letiltása – *kép betöltése OCR‑hez*
-
-Sok vállalati környezetben a kimenő internetkapcsolat blokkolva van. Az Aspose OCR egy jelzőnek köszönhetően nem próbálja meg valós időben letölteni a hiányzó fájlokat.
-
-```csharp
-// Step 2: Prevent the engine from reaching out to the internet
-OcrEngine.Config.AllowAutomaticResourceDownload = false;
-```
-
-Ha elfelejted ezt a sort, és a Hindi modell nincs jelen, a motor egy olyan kivételt dob, mint a „Unable to download required resource”. A `false` érték megtartása egy egyértelmű, determinisztikus hibát eredményez, amelyet saját magad kezelhetsz.
-
----
-
-## 3. lépés: Nyelv kiválasztása – *hindi szöveg felismerése*
-
-Az Aspose OCR tucatnyi nyelvet támogat, de meg kell mondanod, melyiket használja. A hindit a `OcrLanguage.Hindi` azonosítja.
-
-```csharp
-// Step 3: Create the OCR engine and set the target language
-var ocrEngine = new OcrEngine
+// Ensure the folder exists – a simple guard against a common pitfall
+if (!Directory.Exists(resourcesPath))
 {
-    Language = OcrLanguage.Hindi
+    Console.WriteLine($"Resources folder not found at {resourcesPath}");
+    return;
+}
+```
+
+**Miért fontos:** A `ResourcesPath` beállításával a motor **offline módba** kerül. Ez megszünteti a váratlan hálózati hívásokat, és biztosítja az egységes eredményeket a különböző telepítések során.
+
+---
+
+## 2. lépés: Kép betöltése OCR-hez
+
+Miután a motor tudja, hol keresse a nyelvi adatokat, be kell táplálnunk a képet, amelyet olvasni szeretnénk. Itt jön képbe a **load image for OCR** lépés—az Aspose számos formátumot támogat (JPG, PNG, BMP, TIFF, stb.).
+
+```csharp
+// Create and configure the OCR engine
+OcrEngine ocrEngine = new OcrEngine
+{
+    Config =
+    {
+        ResourcesPath = resourcesPath,      // Force offline mode
+        AutoDownloadResources = false,     // Disable on‑demand download
+        Language = Language.Tamil          // Set OCR language (see next step)
+    }
 };
+
+// Load the image you want to recognize
+string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+
+// Defensive check – helps you avoid the dreaded FileNotFoundException
+if (!File.Exists(imagePath))
+{
+    Console.WriteLine($"Image not found at {imagePath}");
+    return;
+}
+
+ocrEngine.LoadImage(imagePath);
 ```
 
-*Mi van, ha több nyelvre van szükséged?* Beállíthatod a `Language = OcrLanguage.AutoDetect` értéket, hogy a motor kitalálja, de az automatikus felismerés lassabb, és időnként hibásan működik kevert írásrendszerek esetén. Tiszta hindi esetén az explicit kiválasztás a legbiztonságosabb.
+**Pro tipp:** A `LoadImage` hívást tekerd be try‑catch blokkba, ha az alkalmazásod felhasználók által megadott fájlokat dolgoz fel. Így barátságos hibajelzést tudsz megjeleníteni a stack trace helyett.
 
 ---
 
-## 4. lépés: Kép betöltése – *kép betöltése OCR‑hez*
+## 3. lépés: OCR nyelv beállítása – Válaszd a megfelelő csomagot
 
-Most átadjuk a motor számára a beolvasni kívánt képet. Az Aspose egy kényelmes `ImageStream.FromFile` segédfüggvényt kínál, amely elrejti a mögöttes `System.Drawing` függőségeket.
+Ha kihagyod ezt a lépést, az Aspose alapértelmezés szerint angolt használ, ami értelmetlen eredményt ad, ha a forrásszöveg tamil, arab vagy bármely más írásrendszer. A nyelv beállítása olyan egyszerű, mint egy enum érték hozzárendelése, de egyedi ISO‑639‑2 kódot is megadhatsz, ha harmadik fél csomagját adtad hozzá.
 
 ```csharp
-// Step 4: Load the image containing Hindi text
-ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
+// The language was already set in the config above, but you can change it at runtime:
+ocrEngine.Config.Language = Language.Tamil; // Options: English, Arabic, ChineseSimplified, etc.
 ```
 
-Ha a fájl útvonala hibás, az Aspose `FileNotFoundException`‑t dob. Egy gyors `File.Exists` ellenőrzés a sor előtt megspórolhat egy hibakeresési szekciót.
+**Miért fontos:** Az OCR pontossága a nyelvspecifikus karaktermodellektől függ. A megfelelő csomag használata a felismerési arányt 60 %-ról több mint 95 %-ra növelheti sok írásrendszernél.
 
 ---
 
-## 5. lépés: OCR motor futtatása – *OCR felismerés futtatása*
+## 4. lépés: Felismerés végrehajtása és eredmények lekérése
 
-Minden beállítva, végül elindítjuk a felismerési folyamatot. Ez a hívás szinkron, és blokkol, amíg a szöveg ki nem nyerésre kerül.
-
-```csharp
-// Step 5: Execute the OCR process
-ocrEngine.Recognize();
-```
-
-A háttérben az Aspose több lépést hajt végre: előfeldolgozás (kiegyenesítés, zajeltávolítás), szegmentálás, karakter osztályozás, majd végül nyelvspecifikus utófeldolgozás. A nehéz munkát ez a egyetlen metódushívás végzi.
-
----
-
-## 6. lépés: Kinyert szöveg kiírása – *kép szövegének kinyerése*
-
-Az eredmény a motor `Text` tulajdonságában található. Egyszerűen kiírjuk a konzolra, de tárolhatod adatbázisban, elküldheted egy API‑nak, vagy továbbadhatod egy másik NLP csővezetéknek.
+Minden előkészítve—erőforrások, kép, nyelv—készen állunk a szöveg tényleges kinyerésére. A `Recognize` metódus elvégzi a nehéz munkát, és egy `OcrResult` objektumot ad vissza, amely tartalmazza a nyers szöveget, a bizalmi pontszámokat, sőt akár a keretmezőket is, ha később szükséged van rájuk.
 
 ```csharp
-// Step 6: Print the recognized text
-Console.WriteLine("=== OCR RESULT ===");
-Console.WriteLine(ocrEngine.Text);
+// Perform the OCR operation
+OcrResult ocrResult = ocrEngine.Recognize();
+
+// Output the recognized text
+Console.WriteLine("=== Extracted Text ===");
+Console.WriteLine(ocrResult.Text);
 ```
 
-**Várható kimenet** (feltételezve, hogy a kép a „स्वागत है” feliratot tartalmazza):
-
-```
-=== OCR RESULT ===
-स्वागत है
-```
-
-Ha torz karaktereket látsz, ellenőrizd újra, hogy a Hindi modell helyesen van-e elhelyezve, és hogy a kép nincs-e túlzottan tömörítve.
+**Várható kimenet:** Ha a `tamil_note.jpg` tiszta tamil kézírást tartalmaz, a Unicode tamil karaktereket fogod látni a konzolon. Ha a kép elmosódott, a eredmény kérdőjeleket vagy torz szimbólumokat tartalmazhat—ekkor jön jól az előfeldolgozás (kiegyenesítés, zajcsökkentés).
 
 ---
 
 ## Teljes működő példa
 
-Az alábbiakban a teljes program látható, amelyet beilleszthetsz egy új konzolprojektbe (`dotnet new console`). Cseréld le a `YOUR_DIRECTORY`‑t a géped tényleges útvonalára.
+Az alábbiakban a teljes program található, amelyet beilleszthetsz egy új konzolos projektbe. Tartalmazza az összes korábban említett védelmet, így azonnal futtatható.
 
 ```csharp
-// ------------------------------------------------------------
-// Complete Aspose OCR example – extract text from image
-// ------------------------------------------------------------
 using System;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Set the folder where language models are stored
-        OcrEngine.Config.ResourcesPath = @"YOUR_DIRECTORY/OcrResources";
-
-        // 2️⃣ Turn off automatic download – useful for offline builds
-        OcrEngine.Config.AllowAutomaticResourceDownload = false;
-
-        // 3️⃣ Create the engine and tell it to read Hindi
-        var ocrEngine = new OcrEngine
+        // -------------------------------------------------
+        // Step 1: Define resources folder (offline OCR)
+        // -------------------------------------------------
+        string resourcesPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources");
+        if (!Directory.Exists(resourcesPath))
         {
-            Language = OcrLanguage.Hindi
+            Console.WriteLine($"Resources folder not found at {resourcesPath}");
+            return;
+        }
+
+        // -------------------------------------------------
+        // Step 2: Configure OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Config =
+            {
+                ResourcesPath = resourcesPath,
+                AutoDownloadResources = false,
+                Language = Language.Tamil // <-- set OCR language here
+            }
         };
 
-        // 4️⃣ Load the image file that contains Hindi text
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.jpg");
+        // -------------------------------------------------
+        // Step 3: Load the image you want to process
+        // -------------------------------------------------
+        string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tamil_note.jpg");
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found at {imagePath}");
+            return;
+        }
 
-        // 5️⃣ Run the OCR process
-        ocrEngine.Recognize();
+        ocrEngine.LoadImage(imagePath);
 
-        // 6️⃣ Output the result to the console
-        Console.WriteLine("=== OCR RESULT ===");
-        Console.WriteLine(ocrEngine.Text);
+        // -------------------------------------------------
+        // Step 4: Run OCR and display the result
+        // -------------------------------------------------
+        OcrResult ocrResult = ocrEngine.Recognize();
+
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-> **Tipp:** Ha sok képet szeretnél egy ciklusban feldolgozni, hozz létre egyetlen `OcrEngine` példányt és használd újra – ez csökkenti a inicializációs terhelést.
+**Futtatás:**  
+1. Helyezd a `Resources` mappát (a tamil nyelvi fájlokkal) a lefordított `.exe` mellé.  
+2. Tedd a `tamil_note.jpg` fájlt ugyanabba a könyvtárba.  
+3. Futtasd a `dotnet run` parancsot (vagy indítsd el az EXE-t).  
+
+A konzolon meg kell jelennie a kinyert tamil szövegnek.
 
 ---
 
-## Gyakori problémák kezelése
+## Gyakori kérdések és szélhelyzetek
 
-| **Üres kimenet** | **Helytelen nyelvi modell vagy alacsony minőségű kép.** | Ellenőrizd a `ResourcesPath`‑t, növeld a kép DPI‑jét, vagy próbáld meg a `ocrEngine.Image = ImageStream.FromFile(..., true)` beállítást az automatikus javítás engedélyezéséhez. |
-| **Kivétel: Erőforrás nem található** | **Hiányzó Hindi `.traineddata`.** | Töltsd le a Hindi modellt az Aspose‑tól, helyezd az `OcrResources` mappába, és győződj meg róla, hogy a fájlnév `hin.traineddata`. |
-| **Hibás karakterek** | **Kódolási eltérés a konzolra íráskor.** | Állítsd be a konzol kimeneti kódolását: `Console.OutputEncoding = System.Text.Encoding.UTF8;`. |
-| **Teljesítménycsökkenés** | **Nagy képek feldolgozása méretezés nélkül.** | Méretezd át a képet legfeljebb 2000 px szélesség/magasság értékre, mielőtt az OCR‑nek adnád. |
+| Kérdés | Válasz |
+|----------|--------|
+| **Mi van, ha több képet kell feldolgozni?** | Használd újra ugyanazt az `OcrEngine` példányt—csak hívd meg újra a `LoadImage`-t minden `Recognize` előtt. |
+| **Válthatok-e nyelveket menet közben?** | Természetesen. Állítsd be `ocrEngine.Config.Language = Language.English;` (vagy bármely más támogatott enum) a következő kép betöltése előtt. |
+| **A kép egy PDF oldal—működik ez?** | Nem közvetlenül. Konvertáld a PDF oldalt képpé (pl. az Aspose.PDF használatával), majd add át a bitmapet a `LoadImage`-nek. |
+| **Mi van, ha a nyelvi csomag hiányzik?** | A motor `FileNotFoundException`-t dob. Védd le ezt úgy, hogy ellenőrzöd a `Directory.Exists(resourcesPath)` létezését (ahogy a példában látható). |
+| **Van mód a bizalmi pontszámok lekérésére?** | Az `ocrResult.Confidence` általános pontszámot ad; az `ocrResult.Regions` tartalmazza az egyes karakterek bizalmi értékét, ha részletes adat szükséges. |
 
 ---
 
-## Következő lépések és kapcsolódó témák
+## Pro tippek a termelés‑kész OCR-hez
 
-- **Kötegelt feldolgozás:** Csomagold be a kódot egy `foreach` ciklusba, hogy egy mappában lévő képeket kezelje.
-- **Különböző nyelvek:** Cseréld le a `OcrLanguage.Hindi`‑t `OcrLanguage.English`, `OcrLanguage.Arabic` stb. értékekre.
-- **Kimeneti formátumok:** A `Console.WriteLine` helyett írj egy szövegfájlba (`File.WriteAllText(\"result.txt\", ocrEngine.Text);`).
-- **Integráció ASP.NET Core‑val:** Hozz létre egy API végpontot, amely képfeltöltést fogad, és a kinyert szöveget JSON‑ként adja vissza.
-
-Mindezek a kiterjesztések ugyanazt a mintát követik – konfiguráld a motort, tölts be egy képet, ismerd fel, és használd fel az eredményt.
+1. **Képek előfeldolgozása** – kiegyenesítés, kontraszt növelése, zaj eltávolítása. Egyszerű `System.Drawing` szűrők drámaian növelhetik a pontosságot.  
+2. **Motor gyorsítótárazása** – minden kéréshez új `OcrEngine` létrehozása költséges. Tarts egy singleton példányt nyelvenként egy webszolgáltatásban.  
+3. **Unicode helyes kezelése** – győződj meg róla, hogy a konzol vagy UI UTF‑8-at használ; különben a nem latin karakterek „�” helyett jelennek meg.  
+4. **Nyers kimenet naplózása** – tárold az `ocrResult.Text`-et az eredeti képpel együtt auditálási célokra.  
+5. **Kedves visszalépés** – ha a bizalom 0,6 alá esik, fontold meg, hogy a felhasználót újrafelvételre kérd, vagy egy másik OCR motort indíts.  
 
 ---
 
 ## Összegzés
 
-Most bemutattuk, hogyan **kérjünk ki szöveget képből** az Aspose OCR segítségével C#‑ban. Az útmutató minden lépést lefedett, amelyre a **kép betöltéséhez OCR‑hez**, a **hindi szöveg felismeréséhez**, és az **OCR felismerés futtatásához** szükség van – mindezt egy önálló konzolalkalmazásban.
+Most **kinyertük a szöveget képből** az Aspose OCR segítségével, bemutattuk, hogyan **load image for OCR**, és megmutattuk a helyes módját a **set OCR language** beállításának offline, magas pontosságú eredményekhez. A teljes, futtatható példa percek alatt működésbe hozhat, és a további tippek segítenek a megoldásod robusztussá tételében a skálázás során.
 
-Próbáld ki a saját képeiddel, kísérletezz különböző nyelvekkel, és nyugodtan adaptáld a kódrészletet webszolgáltatásokhoz vagy háttérfeladatokhoz. A lényeg ugyanaz marad: állítsd be az erőforrásokat, válaszd ki a nyelvet, adj meg egy képet, és olvasd a `Text` tulajdonságot.
+Készen állsz a következő lépésre? Próbáld ki a tamil csomag helyett egy másik nyelvet, vagy kísérletezz a több fájl párhuzamos kötegelt feldolgozásával. Érdemes lehet felfedezni az Aspose **image preprocessing utilities**-jét is, hogy még nagyobb pontosságot érj el a nehéz szkenneléseknél.
 
-Ha bármilyen problémába ütközöl, nézd meg a fenti hibaelhárítási táblázatot vagy hagyj egy megjegyzést. Boldog kódolást, és legyen az OCR eredményed mindig kristálytiszta!
+Ha elakadsz, hagyj egy megjegyzést alább—boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

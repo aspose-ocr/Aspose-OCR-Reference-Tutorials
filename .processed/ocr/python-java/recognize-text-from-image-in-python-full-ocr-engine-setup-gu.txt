@@ -1,0 +1,7 @@
+Title: recognize text from image in Python – Full OCR Engine Setup Guide
+Slug: recognize-text-from-image-in-python-full-ocr-engine-setup-gu
+Category: general
+ProcessedDate: 2026-06-07T04:07:48.540910
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from image, configure ocr engine python
+PRNumber: 143

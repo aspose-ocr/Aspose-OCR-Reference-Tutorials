@@ -1,0 +1,7 @@
+Title: Load OCR License in Python – Complete Step‑by‑Step Guide
+Slug: load-ocr-license-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-07-05T12:19:42.661116
+SourceRepo: AI Search API
+Keywords: load ocr license, apply updated license, set license file
+PRNumber: 170

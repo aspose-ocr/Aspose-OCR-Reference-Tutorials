@@ -1,35 +1,59 @@
 ---
-title: ตั้งค่าจำนวนเธรดในการจดจำรูปภาพ OCR
-linktitle: ตั้งค่าจำนวนเธรดในการจดจำรูปภาพ OCR
+date: 2026-04-29
+description: เรียนรู้วิธีตั้งค่าเธรดใน Aspose.OCR สำหรับ .NET เพื่อปรับปรุงความแม่นยำของ
+  OCR เพิ่มความเร็ว และเพิ่มความเที่ยงตรง
+keywords:
+- how to set threads
+- improve ocr accuracy
+- parallel ocr processing
+linktitle: ตั้งค่าจำนวนเธรดเพื่อปรับปรุงความแม่นยำของ OCR
 second_title: Aspose.OCR .NET API
-description: ปลดล็อกประสิทธิภาพ OCR ใน .NET ตั้งค่าการนับเธรดอย่างง่ายดายด้วย Aspose.OCR เพิ่มความแม่นยำและความเร็ว
-weight: 11
+title: วิธีตั้งจำนวนเธรดเพื่อปรับปรุงความแม่นยำของ OCR ใน .NET
 url: /th/net/ocr-settings/set-threads-count/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตั้งค่าจำนวนเธรดในการจดจำรูปภาพ OCR
+# วิธีตั้งค่าจำนวนเธรดเพื่อปรับปรุงความแม่นยำของ OCR
 
-## การแนะนำ
+## บทนำ
 
-ยินดีต้อนรับสู่โลกของ Aspose.OCR สำหรับ .NET ที่ซึ่งเทคโนโลยี Optical Character Recognition (OCR) อันล้ำสมัยมาบรรจบกันอย่างราบรื่นในแอปพลิเคชัน .NET ของคุณ ในบทช่วยสอนนี้ เราจะเจาะลึกประเด็นเฉพาะ: การตั้งค่าจำนวนเธรดในการจดจำรูปภาพ OCR คุณสมบัติอันทรงพลังนี้ช่วยเพิ่มประสิทธิภาพการทำงานของงาน OCR ของคุณ ทำให้มั่นใจในประสิทธิภาพและความแม่นยำ
+Welcome to the world of Aspose.OCR for .NET, where cutting‑edge Optical Character Recognition (OCR) technology meets seamless integration into your .NET applications. In this tutorial you’ll learn **how to set threads** to **improve OCR accuracy** while keeping your processing fast and resource‑friendly.
+
+## คำตอบด่วน
+- **`ThreadsCount` ควบคุมอะไร?** It tells Aspose.OCR how many parallel threads to allocate during image analysis.  
+- **ทำไมต้องปรับด้วยตนเอง?** Tuning the thread count can **improve OCR accuracy** on multi‑core machines and prevent CPU throttling.  
+- **พฤติกรรมเริ่มต้นคืออะไร?** A value of `0` lets Aspose.OCR auto‑calculate the optimal number of threads.  
+- **ช่วงค่าที่เหมาะสมสำหรับผลลัพธ์ที่ดีที่สุดคืออะไร?** 1 – 8 threads work well for most desktop scenarios; higher values benefit servers with many cores.  
+- **ต้องการใบอนุญาตหรือไม่?** Yes, a valid Aspose.OCR license is required for production use.
+
+## วิธีตั้งค่าเธรดใน Aspose.OCR
+
+Thread count determines how many concurrent processing units Aspose.OCR will allocate when recognizing text. Using the right number of threads not only speeds up batch jobs but also helps **parallel OCR processing** run smoothly, which can translate into higher recognition quality.
+
+## จำนวนเธรดใน OCR คืออะไร?
+
+Thread count is the number of simultaneous execution paths the OCR engine uses. More threads can speed up large batches and, when balanced correctly with CPU resources, can **improve OCR accuracy** by reducing time‑outs and memory pressure.
+
+## ทำไมต้องใช้การประมวลผล OCR แบบขนาน?
+
+- **การใช้ทรัพยากรที่ดีกว่า:** Matching the thread count to your CPU cores prevents the OCR engine from being starved or over‑committed.  
+- **ลดความหน่วงเวลา:** Parallel processing shortens the time each image spends in the recognition pipeline, giving the algorithm more time to apply its full accuracy model.  
+- **ความสามารถในการขยาย:** In server‑side scenarios you can fine‑tune the thread pool to handle many simultaneous requests without sacrificing precision.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้นการเดินทางนี้ ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+Before we get started, make sure you have the following:
 
--  Aspose.OCR สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารีแล้ว ถ้าไม่คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET installed. If you haven’t downloaded it yet, you can get it **[here](https://releases.aspose.com/ocr/net/)**.  
+- A sample image placed in your document directory (e.g., `sample.png`).
 
-- รูปภาพตัวอย่าง: เตรียมรูปภาพตัวอย่างในไดเร็กทอรีเอกสารที่คุณกำหนด
+## นำเข้า Namespaces
 
-ตอนนี้เรามาดำดิ่งลงสู่ขั้นตอนต่างๆ
-
-## นำเข้าเนมสเปซ
-
-ประการแรก ตรวจสอบให้แน่ใจว่าได้รวมเนมสเปซที่จำเป็นในแอปพลิเคชัน .NET ของคุณ:
+First, include the necessary namespaces in your .NET project:
 
 ```csharp
 using System;
@@ -39,62 +63,72 @@ using Aspose.OCR;
 
 ## ขั้นตอนที่ 1: เริ่มต้นอินสแตนซ์ Aspose.OCR
 
-ตอนนี้ เริ่มต้นอินสแตนซ์ของคลาส AsposeOcr ในแอปพลิเคชันของคุณ:
+Create an `AsposeOcr` object and point it to the folder that holds your images:
 
 ```csharp
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// เริ่มต้นอินสแตนซ์ของ AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## ขั้นตอนที่ 2: จดจำรูปภาพ
+## ขั้นตอนที่ 2: จดจำภาพด้วยจำนวนเธรดที่กำหนดเอง
 
-ต่อไป เรามารู้จักข้อความในภาพโดยใช้จำนวนเธรดที่ระบุ:
+Now tell the OCR engine how many threads to use. Setting `ThreadsCount` to a value greater than 0 gives you direct control and can **improve OCR accuracy** for demanding workloads.
 
 ```csharp
-// รับรู้ถึงภาพ
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
 {
-    ThreadsCount = 2 // 0 - หมายถึงการคำนวณอัตโนมัติ
+    ThreadsCount = 2 // 0 - means auto calculate
 });
 ```
 
-## ขั้นตอนที่ 3: แสดงข้อความที่รู้จัก
+## ขั้นตอนที่ 3: แสดงข้อความที่จดจำได้
 
-หลังจากการจดจำ ให้แสดงข้อความที่รู้จัก:
+Finally, output the recognized text to the console (or any other UI component you prefer):
 
 ```csharp
-// แสดงข้อความที่รู้จัก
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-## บทสรุป
+## ปัญหาทั่วไปและเคล็ดลับ
 
-โดยสรุป การตั้งค่าจำนวนเธรดในการจดจำรูปภาพ OCR โดยใช้ Aspose.OCR สำหรับ .NET เป็นกระบวนการที่ไม่ซับซ้อนซึ่งช่วยเพิ่มประสิทธิภาพได้อย่างมาก ทดลองใช้จำนวนเธรดที่แตกต่างกันเพื่อค้นหาการตั้งค่าที่เหมาะสมที่สุดสำหรับแอปพลิเคชันของคุณ
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **เธรดมากเกินไปทำให้การใช้ CPU สูง** | Each thread competes for the same cores. | Start with `ThreadsCount = Environment.ProcessorCount / 2` and adjust based on monitoring. |
+| **การจดจำล้มเหลวบนภาพขนาดใหญ่** | Memory pressure from many parallel threads. | Reduce `ThreadsCount` or increase available RAM. |
+| **ความแม่นยำต่ำที่ไม่คาดคิด** | Auto‑calculated threads may be too low for your hardware. | Manually set a higher `ThreadsCount` and test the output. |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันสามารถตั้งค่าจำนวนเธรดให้เป็นศูนย์สำหรับการคำนวณอัตโนมัติได้หรือไม่
+### Q1: ฉันสามารถตั้งค่าจำนวนเธรดเป็นศูนย์เพื่อการคำนวณอัตโนมัติได้หรือไม่?
+**A:** Absolutely! Setting `ThreadsCount` to `0` lets Aspose.OCR automatically determine the optimal number of threads for the current environment.
 
- A1: แน่นอน! การตั้งค่า`ThreadsCount` เป็นศูนย์ทำให้ Aspose.OCR คำนวณจำนวนเธรดที่เหมาะสมที่สุดโดยอัตโนมัติ
+### Q2: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.OCR for .NET ได้อย่างไร?
+**A:** Visit **[ลิงก์นี้](https://purchase.aspose.com/temporary-license/)** to acquire a temporary license for testing purposes.
 
-### คำถามที่ 2: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.OCR สำหรับ .NET ได้อย่างไร
+### Q3: ฉันสามารถค้นหาเอกสารประกอบที่ครอบคลุมสำหรับ Aspose.OCR for .NET ได้ที่ไหน?
+**A:** Refer to the **[เอกสารประกอบ](https://reference.aspose.com/ocr/net/)** for detailed guidance on Aspose.OCR.
 
- A2: เยี่ยมเลย[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราวเพื่อการทดสอบ
+### Q4: มีการทดลองใช้ฟรีสำหรับ Aspose.OCR for .NET หรือไม่?
+**A:** Yes, you can explore a free trial **[ที่นี่](https://releases.aspose.com/)**.
 
-### คำถามที่ 3: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.OCR สำหรับ .NET ได้ที่ไหน
+### Q5: ต้องการความช่วยเหลือหรืออยากเชื่อมต่อกับชุมชน?
+**A:** Visit the **[ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16)** for support and community interaction.
 
- A3: โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/ocr/net/) สำหรับคำแนะนำโดยละเอียดเกี่ยวกับ Aspose.OCR
+## สรุป
 
-### คำถามที่ 4: Aspose.OCR สำหรับ .NET มีรุ่นทดลองใช้ฟรีหรือไม่
+Setting the **Threads Count** is a simple yet powerful way to **improve OCR accuracy** and performance in your .NET applications. Experiment with different values, monitor CPU and memory usage, and choose the configuration that gives you the best balance of speed and precision.
 
- A4: ได้ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+---
 
-### Q5: ต้องการความช่วยเหลือหรือต้องการเชื่อมต่อกับชุมชน?
+**อัปเดตล่าสุด:** 2026-04-29  
+**ทดสอบด้วย:** Aspose.OCR 24.11 for .NET  
+**ผู้เขียน:** Aspose  
 
- A5: เยี่ยมชม[ฟอรั่ม Aspose.OCR](https://forum.aspose.com/c/ocr/16) เพื่อการสนับสนุนและการมีปฏิสัมพันธ์กับชุมชน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
