@@ -51,6 +51,8 @@ url: /zh/net/text-recognition/
 探索 Aspose.OCR for .NET，这是一款功能强大的 OCR 解决方案，可实现图像中的无缝文本识别。
 ### [在 OCR 图像识别中获取 JSON 格式的结果](./get-result-as-json/)
 释放 Aspose.OCR for .NET 的强大功能。学习轻松获取 JSON 格式的 OCR 结果。通过本分步指南增强您的图像识别能力。
+### [如何在 C# 中使用 Aspose OCR 将 OCR 图像转换为 JSON](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+使用 Aspose.OCR 将 OCR 图像转换为 JSON 格式的完整 C# 指南。
 ### [使用 Aspose OCR 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 使用 Aspose.OCR 在 C# 中完整演示如何从图像中提取文本，提供分步指南，实现高效准确的文字识别。
 ### [在 C# 中从图像提取文本 – 完整 Aspose OCR 指南](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)

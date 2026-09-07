@@ -29,6 +29,9 @@ url: /ko/net/text-recognition/
 
 JSON 형식의 OCR 결과를 쉽게 얻는 방법을 배워 .NET용 Aspose.OCR의 잠재력을 최대한 활용하세요. 이 단계별 가이드는 이미지 인식 기능을 향상시키기 위한 원활한 여정을 보장합니다. Aspose.OCR의 강력한 기능과 업계 최고의 기술로 애플리케이션의 효율성을 높이세요.
 
+### [C#에서 Aspose.OCR로 OCR 이미지를 JSON으로 변환하는 방법](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Aspose.OCR를 사용해 C#에서 OCR 이미지 결과를 JSON 형식으로 변환하는 단계별 가이드.
+
 ## OCR 이미지 인식의 OCR 영역 감지 모드
 
 효율성은 .NET 애플리케이션의 핵심이며 Aspose.OCR은 이를 달성하는 데 도움을 드립니다. 이미지 텍스트 인식에서 정확한 결과를 얻으려면 OCR 영역 감지 모드 튜토리얼을 살펴보세요. 텍스트 인식의 정확성과 속도를 제공하는 Aspose.OCR의 고급 기능으로 프로젝트를 향상하세요.
@@ -95,7 +98,7 @@ Aspose.OCR를 사용해 .NET C#에서 PNG 형식 영수증의 힌디어 텍스�
 ### [PNG에서 텍스트 추출 – 완전 Aspose OCR 튜토리얼](./extract-text-from-png-complete-aspose-ocr-tutorial/)
 Aspose OCR을 사용해 PNG 이미지에서 텍스트를 정확히 추출하는 단계별 완전 가이드입니다.
 ### [JPG 이미지에서 텍스트 인식 – Aspose OCR 완전 C# 가이드](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
-Aspose OCR을 활용해 C#에서 JPG 파일의 텍스트를 정확히 추출하는 단계별 완전 가이드입니다.
+Aspose OCR를 활용해 C#에서 JPG 파일의 텍스트를 정확히 추출하는 단계별 완전 가이드입니다.
 ### [c# OCR 튜토리얼: 이미지 및 DJVU 파일에서 텍스트 추출](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
 Aspose.OCR를 사용해 .NET C#에서 이미지와 DJVU 파일의 텍스트를 정확히 추출하는 단계별 가이드.
 ### [Aspose OCR C#를 사용하여 TIFF에서 텍스트 추출 – 전체 튜토리얼](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)

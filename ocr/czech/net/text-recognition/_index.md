@@ -53,6 +53,9 @@ Naučte se pomocí Aspose OCR převést obrázek do formátu DOCX v C# krok za k
 Naučte se, jak pomocí Aspose.OCR v C# provádět dávkové převody obrázků na text v kompletním průvodci.
 ### [Vytvořte prohledávatelný PDF z TIFF – kompletní průvodce C#](./create-searchable-pdf-from-tiff-full-c-guide/)
 
+### [Jak převést OCR obrázek na JSON v C# s Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Naučte se převést výstup OCR obrázku do formátu JSON pomocí Aspose.OCR v C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
