@@ -29,16 +29,16 @@ Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanım
 
 JSON formatında OCR sonuçlarını zahmetsizce nasıl elde edeceğinizi öğrenerek Aspose.OCR for .NET'in tüm potansiyelini ortaya çıkarın. Bu adım adım kılavuz, görüntü tanıma yeteneklerinizi geliştirmeye yönelik sorunsuz bir yolculuk sağlar. Aspose.OCR'ın güçlü özellikleri ve sektör lideri teknolojisiyle uygulamanızın verimliliğini artırın.
 
-## OCR Görüntü Tanıma'da OCR Algılama Alanları Modu
+### [C# ile OCR Görüntüsünü JSON'a Dönüştürme – Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Aspose.OCR kullanarak C# içinde OCR görüntüsünü JSON formatına dönüştürmeyi adım adım öğrenin.
 
+### [OCR Görüntü Tanıma'da OCR Algılama Alanları Modu](./ocr-detect-areas-mode/)
 .NET uygulamalarında verimlilik çok önemlidir ve Aspose.OCR tam da bunu başarmanıza yardımcı olmak için burada. Görüntü metni tanımada hassas sonuçlar elde etmek için OCR Alanları Algılama Modu eğitimine dalın. Aspose.OCR'ın metin tanımada doğruluk ve hız sağlayan gelişmiş özellikleriyle projelerinizi geliştirin.
 
-## OCR Görüntü Tanıma'da PDF'yi tanıma
-
+### [OCR Görüntü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
 Aspose.OCR ile .NET'te OCR'nin potansiyelini ortaya çıkarın. PDF'lerden metni zahmetsizce çıkarın ve uygulamalarınıza sorunsuz bir şekilde entegre edin. Bu eğitim, PDF'lerdeki metni tanımaya yönelik kapsamlı bir kılavuz sunarak kusursuz ve verimli bir entegrasyon deneyimi sağlar.
 
-## OCR Görüntü Tanıma'da Tabloyu Tanıma
-
+### [OCR Görüntü Tanıma'da Tabloyu Tanıma](./recognize-table/)
 Aspose.OCR for .NET ile OCR görüntü tanımada tabloları tanımanın karmaşıklıklarını ortadan kaldırın. Kapsamlı kılavuzumuz Aspose.OCR'ın tüm potansiyelini ortaya çıkarmanızı sağlayarak uygulamalarınızda doğru ve etkili masa tanıma olanağı sağlar. Sektör lideri OCR çözümüyle projelerinizi geliştirin.
 
 .NET uygulamalarınızda devrim yaratmaya hazır mısınız? Metin Tanıma Eğitimlerimize dalın ve görüntülerde doğru ve etkili metin tanıma için Aspose.OCR'ın gücünden yararlanın. Hemen indirin ve gelişmiş OCR yetenekleri yolculuğuna çıkın.

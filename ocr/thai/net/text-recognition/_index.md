@@ -110,6 +110,9 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากไฟล์ PNG ด้วย Aspose.OCR ใน C# อย่างละเอียดและง่ายดาย
 ### [จดจำข้อความจากภาพใน C# – คู่มือฉบับสมบูรณ์เกี่ยวกับ OCR และ JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 
+### [วิธีแปลงภาพ OCR เป็น JSON ใน C# ด้วย Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+เรียนรู้วิธีแปลงผลลัพธ์ OCR เป็นรูปแบบ JSON ด้วย C# อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

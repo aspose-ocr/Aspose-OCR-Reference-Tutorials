@@ -115,6 +115,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp PNG thành PDF có thể t
 Bước đầu thực hiện OCR trong C# với Aspose OCR, hướng dẫn cài đặt, mã mẫu và tối ưu kết quả trích xuất văn bản.
 ### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về OCR và JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR và xuất kết quả dưới dạng JSON.
+### [Cách chuyển đổi hình ảnh OCR sang JSON trong C# với Aspose OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh OCR thành định dạng JSON trong C# bằng Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

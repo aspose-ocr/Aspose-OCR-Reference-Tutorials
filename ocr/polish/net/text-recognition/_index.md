@@ -113,6 +113,8 @@ Dowiedz się, jak w C# przekształcić plik PNG w przeszukiwalny PDF przy użyci
 Poznaj pełny przewodnik, jak wyodrębnić tekst z obrazu w C# przy użyciu Aspose OCR, krok po kroku.
 ### [Rozpoznaj tekst z obrazu w C# – Kompletny przewodnik po OCR i JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Poznaj pełny przewodnik, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspose OCR i uzyskiwać wyniki w formacie JSON.
+### [Jak przekonwertować obraz OCR na JSON w C# przy użyciu Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Konwertuj obrazy OCR do formatu JSON w C# przy użyciu Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -123,7 +125,7 @@ Poznaj pełny przewodnik, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspo
 ### [Jak wykonać OCR w C# – rozpoznawanie tekstu cyrylicą z Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Dowiedz się, jak używać Aspose.OCR w C# do rozpoznawania tekstu w cyrylicy, zapewniając wysoką dokładność i prostą integrację.
 ### [Utwórz przeszukiwalny PDF z TIFF – Kompletny przewodnik C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
-Dowiedz się, jak przekształcić pliki TIFF w przeszukiwalne PDF przy użyciu Aspose.OCR w C#, krok po kroku.
+Dowiedz się, jak przekształcić pliki TIFF w przeszukiwalne PDF przy użyciem Aspose.OCR w C#, krok po kroku.
 ### [Jak wyodrębnić tekst OCR w C# – Kompletny przewodnik krok po kroku](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.OCR wyodrębnić tekst OCR w C# w pełnym, szczegółowym przewodniku krok po kroku.
 ### [Rozpoznaj tekst PNG przy użyciu Aspose OCR .NET – Pełny przewodnik lokalnego OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)

@@ -45,6 +45,9 @@ Explore the capabilities of Aspose.OCR for .NET and transform the way you handle
 
 Unleash the full potential of Aspose.OCR for .NET by learning how to obtain OCR results in JSON format effortlessly. This step‑by‑step guide ensures a smooth journey towards enhancing your image recognition capabilities. Elevate your application's efficiency with Aspose.OCR's robust features and industry‑leading technology.
 
+## How to convert an OCR image to JSON in C# with Aspose.OCR
+Learn how to convert OCR image results to JSON format using Aspose.OCR in C#.
+
 ## OCR Detect Areas Mode in OCR Image Recognition
 
 Efficiency is key in .NET applications, and Aspose.OCR is here to help you achieve just that. Dive into the OCR Detect Areas Mode tutorial to achieve precise results in image text recognition. Elevate your projects with Aspose.OCR's advanced features, providing accuracy and speed in text recognition.
@@ -73,6 +76,8 @@ Explore Aspose.OCR for .NET, a powerful OCR solution for seamless text recogniti
 
 ### [Get Result as JSON in OCR Image Recognition](./get-result-as-json/)
 Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON format effortlessly. Enhance your image recognition with this step‑by‑step guide.
+### [How to convert an OCR image to JSON in C# with Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Learn how to convert OCR image results to JSON format using Aspose.OCR in C#.
 ### [OCR Detect Areas Mode in OCR Image Recognition](./ocr-detect-areas-mode/)
 Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
 
