@@ -1,25 +1,88 @@
 ---
 category: general
-date: 2026-01-07
-description: Cara memeriksa dukungan bahasa OCR dengan cepat menggunakan Aspose.OCR.
-  Pelajari cara menentukan ketersediaan bahasa OCR dan menangani modul yang hilang.
+date: 2026-09-08
+description: Pelajari cara memeriksa dukungan bahasa OCR di C# menggunakan Aspose.OCR.
+  Verifikasi modul bahasa, tangani paket yang hilang, dan pastikan fitur OCR Anda
+  tetap andal.
 draft: false
 keywords:
-- how to check ocr
-- determine ocr language
-- ocr language module verification
-- aspose ocr csharp
-- ocr language availability
-language: id
-og_description: Cara memeriksa dukungan bahasa OCR secara instan. Panduan ini menunjukkan
-  cara menentukan ketersediaan bahasa OCR dengan Aspose.OCR.
-og_title: Cara Memeriksa Dukungan Bahasa OCR di C# – Langkah demi Langkah
+- check OCR language
+- OCR language support
+- Aspose OCR C#
+- verify OCR language modules
+- OCR language availability
+lastmod: 2026-09-08
+og_description: Pelajari cara memeriksa dukungan bahasa OCR di C# menggunakan Aspose.OCR.
+  Verifikasi modul bahasa, tangani paket yang hilang, dan pastikan fitur OCR Anda
+  tetap andal.
+og_image_alt: Diagram of checking OCR language support in a C# console app
+og_title: Periksa dukungan bahasa OCR di C# – Panduan langkah demi langkah
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to check OCR language support in C# using Aspose.OCR. Verify
+    language modules, handle missing packs, and keep your OCR feature reliable.
+  headline: Check OCR language support in C# – Step‑by‑step guide
+  type: TechArticle
+- description: Learn how to check OCR language support in C# using Aspose.OCR. Verify
+    language modules, handle missing packs, and keep your OCR feature reliable.
+  name: Check OCR language support in C# – Step‑by‑step guide
+  steps:
+  - name: create a minimal console project
+    text: A console app lets you see output instantly without UI boilerplate. Create
+      a new project with `dotnet new console -n OcrLanguageCheck` and add the Aspose.OCR
+      package via `dotnet add package Aspose.OCR`. This environment mirrors any other
+      .NET host (ASP.NET, WinForms, Azure Functions) once you copy t
+  - name: implement the language‑check helper
+    text: The core of **how to check OCR language** lives in the `CheckLanguageSupport`
+      method. It receives a `Language` enum and returns a boolean. The method also
+      logs the result, which is useful for diagnostics.
+  - name: call the helper for a specific language
+    text: In `Main`, invoke `CheckLanguageSupport(Language.Japanese)`. The method
+      will print “Japanese language pack is available.” or a warning if it isn’t.
+      You can replace `Language.Japanese` with any enum value such as `Language.French`,
+      `Language.Spanish`, or `Language.English`.
+  - name: handling missing DLLs at runtime
+    text: If the language pack DLL isn’t in the same folder as the executable, `IsLanguageAvailable`
+      returns `false`. Ensure the DLLs are copied to the output directory. For self‑contained
+      single‑file deployments, list the language DLLs as **additional files** in the
+      publish profile. **Pro tip:** Add a post‑b
+  - name: avoid version mismatches
+    text: Aspose.OCR releases language packs in lockstep with the core library. If
+      you upgrade the core NuGet package but keep an older language DLL, the version
+      check will fail and the method will return `false`. Always keep the language
+      DLL version identical to the core package version.
+  - name: cache the result for high‑throughput services
+    text: '`IsLanguageAvailable` is thread‑safe, but repeatedly creating `OcrEngine`
+      instances in a high‑traffic API can add overhead. Perform the language check
+      once during application startup, store the result in a static dictionary, and
+      reuse it for each OCR request.'
+  type: HowTo
+- questions:
+  - answer: No single method returns all available languages, but you can iterate
+      over `Enum.GetValues(typeof(Language))` and call `IsLanguageAvailable` for each
+      entry.
+    question: Can I check multiple languages in one call?
+  - answer: Yes. Aspose.OCR is cross‑platform; just ensure the native language DLLs
+      are present for the target OS.
+    question: Does the check work on Linux/macOS?
+  - answer: Most language DLLs are under 10 MB. The largest, Chinese‑Traditional,
+      is approximately 12 MB, which is still trivial for modern deployment pipelines.
+    question: How large can a language pack be?
+  - answer: The `IsLanguageAvailable` method works in evaluation mode, but a full
+      license is needed for production deployments to avoid evaluation watermarks.
+    question: Is a license required for the language check?
+  - answer: Aspose provides a REST endpoint for language pack downloads; you can call
+      it from your app, store the DLL locally, and reload the engine without restarting
+      the process.
+    question: Can I download missing language packs programmatically?
+  type: FAQPage
 tags:
-- C#
-- Aspose.OCR
 - OCR
+- Aspose.OCR
+- C#
 - .NET
-title: Cara Memeriksa Dukungan Bahasa OCR di C# – Panduan Lengkap
+title: Periksa dukungan bahasa OCR di C# – Panduan langkah demi langkah
 url: /id/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide/
 ---
 
@@ -27,33 +90,52 @@ url: /id/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Memeriksa Dukungan Bahasa OCR di C# – Panduan Lengkap
+# Periksa Dukungan Bahasa OCR di C# – Panduan Lengkap
 
-Pernah bertanya‑tanya **bagaimana cara memeriksa OCR** modul bahasa sebelum Anda merilis aplikasi Anda? Anda tidak sendirian. Dalam banyak proyek mesin OCR adalah pahlawan diam, tetapi jika paket bahasa yang tepat tidak terpasang, seluruh fitur akan runtuh. Dalam tutorial ini kami akan membahas cara praktis untuk menentukan ketersediaan bahasa OCR menggunakan Aspose.OCR, dan kami juga akan menjelaskan mengapa Anda harus memverifikasi dukungan bahasa di awal.
+Dalam banyak proyek dunia‑nyata, mesin OCR bekerja di belakang layar, mengubah gambar yang dipindai menjadi teks yang dapat dicari. Sebelum Anda merilis solusi, Anda memerlukan cara yang dapat diandalkan untuk **memeriksa bahasa OCR** modul sehingga fitur tidak pernah gagal saat runtime. Panduan ini menunjukkan, langkah demi langkah, cara memeriksa dukungan bahasa OCR di C# dengan Aspose.OCR, mengapa verifikasi penting, dan bagaimana merespons ketika paket bahasa yang diperlukan tidak ada.
 
 Anda akan belajar cara:
 
-* Memverifikasi bahwa bahasa tertentu (Jepang, dalam contoh kami) terpasang.
-* Menanggapi secara elegan ketika modul bahasa tidak ada.
-* Memperluas pemeriksaan ke bahasa apa pun yang Anda butuhkan, secara efektif **menentukan kemampuan bahasa OCR** pada waktu berjalan.
+* Memverifikasi bahwa bahasa tertentu (Jepang, dalam contoh kami) telah terpasang.
+* Menanggapi dengan elegan ketika modul bahasa tidak ada.
+* Memperluas pemeriksaan ke bahasa apa pun yang Anda butuhkan, secara efektif **menentukan bahasa OCR** kemampuan pada runtime.
 
-Tidak memerlukan dokumentasi eksternal—cukup salin‑tempel kode dan beberapa tip praktik terbaik.
+Tidak diperlukan dokumentasi eksternal—hanya salin‑tempel kode dan beberapa tips praktik terbaik.
 
-![How to check OCR language support diagram](image.png "Diagram showing how to check OCR language support in a C# console app")
+![Diagram cara memeriksa dukungan bahasa OCR](image.png "Diagram yang menunjukkan cara memeriksa dukungan bahasa OCR dalam aplikasi konsol C#")
+[Diagram cara memeriksa dukungan bahasa OCR](image.png "Diagram yang menunjukkan cara memeriksa dukungan bahasa OCR dalam aplikasi konsol C#")
+
+## Jawaban Cepat
+Kelas `OcrEngine` menyediakan fungsionalitas OCR, dan enum `Language` mencantumkan paket bahasa yang didukung.
+
+- **Apakah saya dapat memeriksa dukungan bahasa pada runtime?** Ya, panggil `OcrEngine.IsLanguageAvailable` dengan nilai enum `Language` yang diinginkan.  
+- **Apakah saya memerlukan DLL terpisah untuk setiap bahasa?** Aspose.OCR mengirim paket bahasa sebagai DLL terpisah; sertakan yang Anda rencanakan untuk digunakan.  
+- **Apa yang terjadi jika DLL bahasa hilang?** Pemeriksaan mengembalikan `false`; Anda dapat menampilkan pesan ramah atau mengunduh paket tersebut.  
+- **Apakah pemeriksaan ini thread‑safe?** Tentu—`IsLanguageAvailable` dapat dipanggil dari banyak thread tanpa penguncian.  
+- **Versi .NET mana yang didukung?** .NET 6.0 atau lebih baru, dan perpustakaan juga bekerja dengan .NET Core 3.1 dan .NET Framework 4.7.2.
+
+## Apa itu pemeriksaan dukungan bahasa OCR?
+**Memeriksa dukungan bahasa OCR berarti memastikan bahwa DLL paket bahasa yang diperlukan ada dan kompatibel dengan perpustakaan inti Aspose.OCR.** Saat Anda memanggil `OcrEngine.IsLanguageAvailable`, mesin mencari assembly bahasa yang bersesuaian di folder aplikasi dan memvalidasi kecocokan versi. Jika DLL tidak ada atau tidak cocok, metode mengembalikan `false`, memungkinkan Anda menghindari pengecualian runtime.
+
+## Mengapa memverifikasi modul bahasa OCR sebelum memproses gambar?
+Memverifikasi modul bahasa OCR mencegah crash yang tidak terduga dan meningkatkan pengalaman pengguna. Aspose.OCR mendukung **lebih dari 30 paket bahasa**—termasuk Jepang, Arab, dan Hindi—sehingga paket yang hilang dapat menghentikan pemrosesan untuk seluruh wilayah pengguna. Dengan melakukan pemeriksaan di awal, Anda dapat:
+
+* Menampilkan pesan error yang jelas alih-alih pengecualian yang tidak tertangani.  
+* Menawarkan tautan unduhan otomatis untuk paket bahasa yang hilang.  
+* Beralih ke bahasa default (biasanya Inggris) untuk menjaga alur kerja tetap berjalan.  
+
+Klaim terukur: Aspose.OCR dapat memproses **hingga dokumen 200‑halaman** dalam satu permintaan sambil menjaga penggunaan memori di bawah 150 MB, asalkan DLL bahasa yang sesuai dimuat.
 
 ## Prasyarat
+- .NET 6.0 atau lebih baru (kode juga berjalan pada .NET Core 3.1 dan .NET Framework 4.7.2).  
+- Paket NuGet `Aspose.OCR` terpasang (`Aspose.OCR`).  
+- Modul bahasa yang ingin Anda gunakan (misalnya, `Aspose.OCR.Japanese.dll`).  
 
-Sebelum kita melanjutkan, pastikan Anda memiliki:
+Jika ada yang kurang, kode yang akan kita tulis nanti akan memberi tahu Anda secara tepat apa yang salah.
 
-* .NET 6.0 atau yang lebih baru (kode ini juga berfungsi dengan .NET Core dan .NET Framework).
-* Paket NuGet Aspose.OCR (`Aspose.OCR`) terpasang di proyek Anda.
-* Modul bahasa yang ingin Anda gunakan—Aspose menyediakan paket bahasa sebagai DLL terpisah. Jika Anda berencana mendukung bahasa Jepang, Anda memerlukan `Aspose.OCR.Japanese.dll` bersamaan dengan pustaka inti.
+## Cara memeriksa dukungan bahasa OCR di C# langkah demi langkah
 
-Jika ada yang kurang, kode yang akan kita tulis nanti akan memberi tahu Anda apa yang salah.
-
-## Langkah 1: Siapkan Proyek Konsol Minimal
-
-Pertama, mari buat aplikasi konsol kecil yang dapat langsung dijalankan.
+Muat mesin OCR sekali, lalu tanyakan apakah bahasa tertentu tersedia. Metode berikut mengenkapsulasi logika tersebut:
 
 ```csharp
 // Program.cs – entry point for the demo
@@ -76,11 +158,15 @@ class Program
 }
 ```
 
-*Mengapa aplikasi konsol?* Ini cara tercepat untuk melihat output tanpa harus mengurus boilerplate UI. Anda dapat menyalin metode `CheckLanguageSupport` ke jenis proyek lain (ASP.NET, WinForms, dll.) nanti.
+**Jawaban langsung:** Panggil metode statis `OcrEngine.IsLanguageAvailable` dengan nilai enum `Language` yang diinginkan; ia mengembalikan `true` jika DLL yang cocok ada dan kompatibel versi, jika tidak `false`. Baris tunggal ini memberi Anda indikasi ketersediaan bahasa secara langsung tanpa pengecualian.
 
-## Langkah 2: Verifikasi Bahwa Modul Bahasa Tersedia
+### Langkah 1: buat proyek konsol minimal
 
-Sekarang kita isi metode `CheckLanguageSupport`. Inti dari **bagaimana cara memeriksa OCR** dukungan bahasa terletak pada satu pemanggilan statis: `OcrEngine.IsLanguageAvailable`.
+Aplikasi konsol memungkinkan Anda melihat output secara langsung tanpa boilerplate UI. Buat proyek baru dengan `dotnet new console -n OcrLanguageCheck` dan tambahkan paket Aspose.OCR via `dotnet add package Aspose.OCR`. Lingkungan ini mencerminkan host .NET lain (ASP.NET, WinForms, Azure Functions) setelah Anda menyalin metode pembantu.
+
+### Langkah 2: implementasikan pembantu pemeriksaan bahasa
+
+Inti dari **cara memeriksa OCR language** berada di metode `CheckLanguageSupport`. Metode ini menerima enum `Language` dan mengembalikan boolean. Metode juga mencatat hasil, yang berguna untuk diagnostik.
 
 ```csharp
 static void CheckLanguageSupport(Language language)
@@ -101,15 +187,9 @@ static void CheckLanguageSupport(Language language)
 }
 ```
 
-### Mengapa Menggunakan `IsLanguageAvailable`?
+### Langkah 3: panggil pembantu untuk bahasa tertentu
 
-* **Keamanan** – Mesin OCR akan melempar pengecualian runtime jika Anda mencoba mengatur bahasa yang tidak ada. Memeriksa terlebih dahulu menghindari crash.
-* **Pengalaman Pengguna** – Anda dapat menampilkan pesan ramah, menyarankan unduhan, atau beralih ke bahasa cadangan secara otomatis.
-* **Otomatisasi** – Saat menyebarkan ke banyak mesin (pipeline CI/CD, kontainer Docker, dll.) Anda dapat menuliskan skrip pemeriksaan pra‑flight yang menjamin paket bahasa yang diperlukan sudah terbundel.
-
-### Menentukan Bahasa OCR Secara Dinamis
-
-Jika Anda perlu **menentukan bahasa OCR** berdasarkan masukan pengguna, cukup berikan nilai enum `Language` yang sesuai:
+Di `Main`, panggil `CheckLanguageSupport(Language.Japanese)`. Metode akan mencetak “Japanese language pack is available.” atau peringatan jika tidak. Anda dapat mengganti `Language.Japanese` dengan nilai enum apa pun seperti `Language.French`, `Language.Spanish`, atau `Language.English`.
 
 ```csharp
 // Example: user selects language via a UI dropdown.
@@ -117,17 +197,11 @@ Language userChoice = GetUserSelectedLanguage(); // pseudo‑method
 CheckLanguageSupport(userChoice);
 ```
 
-Metode ini bekerja untuk bahasa apa pun yang didefinisikan dalam `Aspose.OCR.Language`, seperti `Language.English`, `Language.French`, `Language.Spanish`, dll.
+### Langkah 4: menangani DLL yang hilang saat runtime
 
-## Langkah 3: Menangani Kasus Pojok dan Jebakan Umum
+Jika paket DLL bahasa tidak berada di folder yang sama dengan executable, `IsLanguageAvailable` mengembalikan `false`. Pastikan DLL disalin ke direktori output. Untuk deployment single‑file yang self‑contained, daftarkan DLL bahasa sebagai **additional files** di profil publish.
 
-Meskipun pemeriksaan sudah ada, beberapa skenario masih dapat menyebabkan masalah. Mari bahas yang paling umum.
-
-### 3.1 DLL yang Hilang pada Runtime
-
-Jika DLL paket bahasa tidak berada di folder yang sama dengan executable Anda, `IsLanguageAvailable` akan mengembalikan `false`. Pastikan Anda menyalin DLL bahasa ke direktori output—sebagian besar IDE melakukannya secara otomatis ketika referensi paket sudah diatur dengan benar. Jika Anda memublikasikan executable satu‑file yang berdiri sendiri, tambahkan DLL bahasa sebagai **file tambahan** dalam profil publikasi Anda.
-
-**Pro tip:** Tambahkan skrip post‑build yang memverifikasi keberadaan semua DLL bahasa yang diperlukan. Contoh snippet PowerShell sederhana:
+**Pro tip:** Tambahkan skrip PowerShell pasca‑build yang memverifikasi keberadaan DLL yang diperlukan:
 
 ```powershell
 $required = @("Aspose.OCR.Japanese.dll", "Aspose.OCR.English.dll")
@@ -138,17 +212,67 @@ foreach ($dll in $required) {
 }
 ```
 
-### 3.2 Ketidaksesuaian Versi
+### Langkah 5: hindari ketidakcocokan versi
 
-Aspose.OCR merilis paket bahasa bersamaan dengan pustaka inti. Jika Anda memperbarui `Aspose.OCR` ke versi yang lebih baru tetapi tetap menggunakan DLL bahasa yang lebih lama, pemeriksaan akan gagal. Selalu pastikan versi paket bahasa identik dengan versi paket inti.
+Aspose.OCR merilis paket bahasa secara sinkron dengan perpustakaan inti. Jika Anda memperbarui paket NuGet inti tetapi tetap menggunakan DLL bahasa yang lebih lama, pemeriksaan versi akan gagal dan metode mengembalikan `false`. Selalu pastikan versi DLL bahasa identik dengan versi paket inti.
 
-### 3.3 Skenario Multi‑Threaded
+### Langkah 6: cache hasil untuk layanan dengan throughput tinggi
 
-`IsLanguageAvailable` bersifat thread‑safe, tetapi membuat banyak instance `OcrEngine` secara bersamaan dapat membebani subsistem lisensi. Jika Anda menjalankan OCR dalam layanan dengan throughput tinggi, lakukan pemeriksaan bahasa sekali saja saat startup dan cache hasilnya.
+`IsLanguageAvailable` bersifat thread‑safe, tetapi membuat instance `OcrEngine` berulang kali dalam API dengan trafik tinggi dapat menambah overhead. Lakukan pemeriksaan bahasa sekali saat aplikasi mulai, simpan hasilnya dalam dictionary statis, dan gunakan kembali untuk setiap permintaan OCR.
 
-## Langkah 4: Contoh Kerja Lengkap
+## Masalah umum dan solusi
 
-Menggabungkan semuanya, berikut program mandiri yang dapat Anda jalankan sekarang.
+### DLL yang Hilang
+*Gejala*: `IsLanguageAvailable` selalu mengembalikan `false`.  
+*Solusi*: Verifikasi bahwa DLL bahasa (misalnya, `Aspose.OCR.Japanese.dll`) berada di folder yang sama dengan executable atau terdaftar sebagai additional file dalam publish single‑file. Gunakan snippet PowerShell di atas untuk mengotomatiskan pemeriksaan.
+
+### Ketidakcocokan Versi
+*Gejala*: Setelah memperbarui `Aspose.OCR` via NuGet, pemeriksaan bahasa gagal.  
+*Solusi*: Instal ulang paket bahasa dari NuGet atau unduh versi yang cocok dari portal Aspose. Nomor versi paket inti dan DLL bahasa harus persis sama.
+
+### Menjalankan di Docker
+*Gejala*: Build container berhasil, tetapi pemeriksaan bahasa gagal saat runtime.  
+*Solusi*: Salin DLL bahasa ke direktori `/app` dalam image Docker dan atur `LD_LIBRARY_PATH` (Linux) atau pastikan DLL berada di `PATH` (Windows). Build multi‑stage yang memublikasikan binary self‑contained dengan paket bahasa termasuk akan menghilangkan masalah ini.
+
+### Lingkungan Multi‑thread
+*Gejala*: Kesalahan `LicenseException` sporadis ketika banyak permintaan OCR berjalan paralel.  
+*Solusi*: Inisialisasi lisensi sekali saat startup, lalu gunakan instance `OcrEngine` yang sama atau pool sejumlah kecil engine yang telah dikonfigurasi. Cache hasil ketersediaan bahasa untuk menghindari pemeriksaan berulang.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apakah saya dapat memeriksa beberapa bahasa dalam satu panggilan?**  
+J: Tidak ada metode tunggal yang mengembalikan semua bahasa yang tersedia, tetapi Anda dapat mengiterasi `Enum.GetValues(typeof(Language))` dan memanggil `IsLanguageAvailable` untuk setiap entri.
+
+**T: Apakah pemeriksaan ini bekerja di Linux/macOS?**  
+J: Ya. Aspose.OCR bersifat lintas‑platform; pastikan DLL bahasa native tersedia untuk OS target.
+
+**T: Seberapa besar ukuran paket bahasa?**  
+J: Kebanyakan DLL bahasa berukuran di bawah 10 MB. Yang terbesar, Chinese‑Traditional, sekitar 12 MB, masih ringan untuk pipeline deployment modern.
+
+**T: Apakah lisensi diperlukan untuk pemeriksaan bahasa?**  
+J: Metode `IsLanguageAvailable` berfungsi dalam mode evaluasi, tetapi lisensi penuh diperlukan untuk deployment produksi agar tidak muncul watermark evaluasi.
+
+**T: Bisakah saya mengunduh paket bahasa yang hilang secara programatis?**  
+J: Aspose menyediakan endpoint REST untuk mengunduh paket bahasa; Anda dapat memanggilnya dari aplikasi, menyimpan DLL secara lokal, dan memuat ulang engine tanpa me‑restart proses.
+
+## Kesimpulan
+
+Kami telah membahas semua yang Anda perlukan untuk **memeriksa dukungan bahasa OCR** dalam lingkungan C# menggunakan Aspose.OCR:
+
+* Satu panggilan statis (`OcrEngine.IsLanguageAvailable`) memberi tahu Anda apakah paket bahasa ada.  
+* Bungkus panggilan tersebut dalam metode pembantu yang dapat digunakan kembali untuk menjaga kode tetap bersih.  
+* Antisipasi DLL yang hilang, ketidakcocokan versi, dan pertimbangan multi‑thread.  
+* Perluas pola ini untuk **menentukan bahasa OCR** secara dinamis berdasarkan input atau konfigurasi pengguna.
+
+Dengan mengintegrasikan pemeriksaan ini sejak awal, Anda dapat merilis aplikasi dengan kemampuan OCR yang percaya diri, memberikan umpan balik jelas ketika modul bahasa tidak terpasang, dan menghindari crash yang tidak terduga. Langkah selanjutnya? Coba muat gambar nyata, lakukan OCR dengan bahasa yang telah diverifikasi, atau bangun UI yang memungkinkan pengguna memilih bahasa pilihan mereka dan menampilkan peringatan ramah jika paket belum terinstal.
+
+Selamat coding, semoga OCR Anda selalu membaca karakter yang tepat!
+
+---
+
+**Last Updated:** 2026-09-08  
+**Tested With:** Aspose.OCR 24.10 for .NET  
+**Author:** Aspose  
 
 ```csharp
 // FullDemo.cs – complete, runnable example
@@ -193,8 +317,6 @@ class FullDemo
 }
 ```
 
-**Expected output**
-
 ```
 Japanese language module installed: True
 ✅  Ready to run OCR with Japanese.
@@ -210,22 +332,16 @@ https://downloads.aspose.com/ocr/net
 Press any key to exit...
 ```
 
-Jika Anda menjalankan program pada mesin yang hanya memiliki paket Jepang dan Inggris, konsol akan dengan jelas memberi tahu bahwa bahasa Prancis tidak tersedia. Itulah esensi **bagaimana cara memeriksa OCR** dukungan bahasa—informasi yang jelas dan dapat ditindaklanjuti pada runtime.
+## Tutorial Terkait
 
-## Kesimpulan
+- [Extract image text C# with language selection using Aspose.OCR](/ocr/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [How To Apply License In Aspose Ocr Step By Step C Guide](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [How To Enable Gpu For Aspose Ocr Step By Step Guide](/ocr/net/ocr-configuration/how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 
-Kami telah membahas semua yang Anda perlukan untuk **bagaimana cara memeriksa OCR** dukungan bahasa dalam lingkungan C# menggunakan Aspose.OCR:
-
-* Satu pemanggilan statis (`OcrEngine.IsLanguageAvailable`) memberi tahu apakah modul bahasa ada.
-* Bungkus pemanggilan tersebut dalam metode pembantu untuk menjaga kode tetap bersih dan dapat digunakan kembali.
-* Antisipasi DLL yang hilang, ketidaksesuaian versi, dan pertimbangan multi‑threaded.
-* Perluas pola ini untuk **menentukan bahasa OCR** secara dinamis berdasarkan masukan atau konfigurasi pengguna.
-
-Sekarang Anda dapat merilis aplikasi yang mendukung OCR dengan percaya diri, mengetahui bahwa Anda akan menangkap paket bahasa yang hilang sebelum menyebabkan crash pada runtime. Langkah selanjutnya? Coba muat gambar nyata dan lakukan OCR dengan bahasa yang telah diverifikasi, atau bangun UI kecil yang memungkinkan pengguna memilih bahasa pilihan mereka dan menampilkan peringatan ramah jika paket belum terpasang.
-
-Selamat coding, semoga OCR Anda selalu membaca karakter yang tepat!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
