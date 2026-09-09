@@ -1,0 +1,7 @@
+Title: Perform OCR on Image with Aspose.OCR – Complete C# Guide
+Slug: perform-ocr-on-image-with-aspose-ocr-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-06-22T18:55:56.321738
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from png, convert image to text, recognize text from png, read russian text
+PRNumber: 152

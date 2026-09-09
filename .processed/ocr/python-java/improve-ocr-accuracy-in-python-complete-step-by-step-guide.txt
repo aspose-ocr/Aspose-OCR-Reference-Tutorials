@@ -1,0 +1,7 @@
+Title: Improve OCR Accuracy in Python – Complete Step‑by‑Step Guide
+Slug: improve-ocr-accuracy-in-python-complete-step-by-step-guide
+Category: general
+ProcessedDate: 2026-05-31T21:16:23.980073
+SourceRepo: AI Search API
+Keywords: improve ocr accuracy, preprocess image for ocr, extract text from image, recognize text from png, image preprocessing for text
+PRNumber: 138

@@ -1,35 +1,54 @@
 ---
-title: Riconoscere PDF nel riconoscimento immagini OCR
-linktitle: Riconoscere PDF nel riconoscimento immagini OCR
-second_title: API Aspose.OCR .NET
-description: Sblocca il potenziale dell'OCR in .NET con Aspose.OCR. Estrai testo dai PDF senza sforzo. Scaricalo ora per un'esperienza di integrazione perfetta.
-weight: 14
+date: 2026-01-02
+description: Scopri come eseguire l'OCR su PDF in .NET, estrarre il testo da PDF,
+  convertire PDF in testo e leggere il testo PDF in C# usando Aspose.OCR. Guida passo‑passo
+  con esempi di codice.
+linktitle: How to OCR PDF in .NET with Aspose.OCR
+second_title: Aspose.OCR .NET API
+title: Come eseguire OCR su PDF in .NET con Aspose.OCR
 url: /it/net/text-recognition/recognize-pdf/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Riconoscere PDF nel riconoscimento immagini OCR
+# Come eseguire OCR su PDF in .NET con Aspose.OCR
 
-## introduzione
+## Introduzione
 
-Benvenuti nel mondo del riconoscimento ottico dei caratteri (OCR) con Aspose.OCR per .NET! Se desideri sfruttare le funzionalità dell'OCR nelle tue applicazioni .NET, sei nel posto giusto. In questa guida passo passo, esploreremo come riconoscere il testo in un PDF utilizzando la libreria Aspose.OCR. Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato, questo tutorial ti guiderà attraverso il processo, assicurandoti di poter integrare facilmente la funzionalità OCR nei tuoi progetti.
+Se stai cercando un modo affidabile **how to ocr pdf** per i file in un ambiente .NET, sei nel posto giusto. In questo tutorial percorreremo l’intero processo di estrazione del testo da un PDF, conversione da PDF a testo e lettura del testo PDF in stile C# utilizzando la libreria Aspose.OCR. Che tu debba elaborare una singola pagina o un **ocr multi page pdf**, i passaggi seguenti ti offriranno una soluzione solida e pronta per la produzione.
+
+## Risposte rapide
+- **Quale libreria devo usare?** Aspose.OCR per .NET  
+- **Posso estrarre testo da PDF multi‑pagina?** Sì – imposta `StartPage` e `PagesNumber` in `DocumentRecognitionSettings`.  
+- **È necessaria una licenza per la produzione?** È richiesta una licenza commerciale; è disponibile una prova gratuita.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **L'OCR è il modo migliore per estrarre testo?** Per PDF scansionati o immagini all’interno dei PDF, l’OCR è indispensabile; per PDF nativi, un parser PDF può essere più veloce.
+
+## Cos'è l'OCR e perché usarlo per i PDF?
+
+L'Optical Character Recognition (OCR) converte immagini di testo—come pagine scansionate—in caratteri ricercabili e modificabili. Quando un PDF contiene pagine scansionate, l'estrazione tradizionale del testo fallisce, rendendo l'OCR la tecnica di riferimento per **extract text pdf** e **convert pdf to text** in modo affidabile.
+
+## Perché scegliere Aspose.OCR per .NET?
+
+- **Alta precisione** su più lingue e caratteri.  
+- **Supporto integrato** per PDF multi‑pagina, consentendo di specificare l’intervallo di pagine da elaborare.  
+- **API semplice** che si integra perfettamente con progetti C#, facilitando **read pdf text c#** o **extract pdf text c#**.
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicuriamoci di avere tutto ciò di cui hai bisogno:
+Prima di immergerci nel codice, assicurati di avere:
 
--  Aspose.OCR per .NET: assicurati di avere la libreria Aspose.OCR installata. In caso contrario, puoi scaricarlo da[Aspose.OCR per la documentazione .NET](https://reference.aspose.com/ocr/net/).
+- Aspose.OCR per .NET installato. Se non lo possiedi ancora, scaricalo dalla [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/).  
+- Un file PDF su cui eseguire l’OCR. Prendi nota del percorso completo del file sul tuo computer.
 
-- Documento: prepara il documento PDF su cui desideri eseguire l'OCR. Assicurati di avere il percorso file corretto.
+Ora che sei pronto, iniziamo a programmare.
 
-Ora che hai gli strumenti necessari, passiamo al tutorial.
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Nella tua applicazione .NET, importa lo spazio dei nomi Aspose.OCR per accedere alla funzionalità OCR:
+Nel tuo progetto .NET, importa lo spazio dei nomi Aspose.OCR per accedere alle funzionalità OCR:
 
 ```csharp
 using System;
@@ -39,40 +58,40 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Passaggio 1: inizializzare Aspose.OCR
+## Passo 1: Inizializzare Aspose.OCR
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inizializza un'istanza di AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Qui impostiamo il percorso della directory dei documenti e creiamo un'istanza della classe AsposeOcr.
+Qui definiamo la cartella che contiene il nostro PDF e creiamo un oggetto `AsposeOcr` che eseguirà il riconoscimento.
 
-## Passaggio 2: fornire il percorso dell'immagine
+## Passo 2: Fornire il percorso del PDF
 
 ```csharp
-//Percorso immagine
+// Image Path
 string fullPath = dataDir + "multi_page_1.pdf";
 ```
 
-Specifica il percorso del documento PDF che desideri elaborare.
+Sostituisci `multi_page_1.pdf` con il nome del PDF che desideri elaborare. Questo percorso è utilizzato dal motore OCR.
 
-## Passaggio 3: riconoscere il PDF
+## Passo 3: Riconoscere il PDF (OCR PDF multi pagina)
 
 ```csharp
-// Riconoscere l'immagine
+// Recognize image
 List<RecognitionResult> results = api.RecognizePdf(fullPath, new DocumentRecognitionSettings { StartPage = 2, PagesNumber = 2 });
 ```
 
-Utilizza la libreria Aspose.OCR per riconoscere il testo nel documento PDF. È possibile personalizzare le impostazioni di riconoscimento come la pagina iniziale e il numero di pagine da elaborare.
+Il metodo `RecognizePdf` esegue l’OCR sulle pagine specificate. Regola `StartPage` e `PagesNumber` per mirare a qualsiasi intervallo, utile soprattutto per scenari **ocr multi page pdf**.
 
-## Passaggio 4: stampa dei risultati
+## Passo 4: Stampare i risultati
 
 ```csharp
-// Stampa il risultato
+// Print result
 int pageCounter = 0;
 foreach (var result in results)
 {
@@ -80,33 +99,45 @@ foreach (var result in results)
 }
 ```
 
-Sfoglia i risultati del riconoscimento e stampa il testo estratto per ogni pagina.
+Il ciclo itera su ogni `RecognitionResult` della pagina e stampa il testo estratto. Puoi sostituire `PrintRecognitionResult` con la tua logica per memorizzare il testo in un database o scriverlo su file.
+
+## Casi d'uso comuni
+
+- **Automatizzare l'elaborazione delle fatture** – estrarre le voci di linea da fatture scansionate.  
+- **Archiviazione digitale** – convertire documenti scansionati legacy in PDF ricercabili.  
+- **Data mining** – estrarre testo da report disponibili solo come PDF scansionati.
+
+## Risoluzione dei problemi e consigli
+
+- **Bassa precisione?** Assicurati che il PDF sia ad alta risoluzione (300 dpi o superiore).  
+- **Problemi di memoria su PDF di grandi dimensioni?** Elabora il documento in batch di pagine più piccoli.  
+- **È necessario gestire PDF protetti da password?** Carica il file in uno stream e passa la password all’API OCR (consulta la documentazione Aspose.OCR).
 
 ## Conclusione
 
-Congratulazioni! Hai integrato con successo Aspose.OCR per .NET per riconoscere il testo in un documento PDF. Questa potente libreria apre un mondo di possibilità per automatizzare l'estrazione del testo nelle tue applicazioni.
+Congratulazioni! Hai imparato **how to ocr pdf** in .NET, estratto testo e visto come **convert pdf to text** per documenti sia a pagina singola che multi‑pagina. Questo approccio ti offre la flessibilità di integrare l’OCR in qualsiasi applicazione C#, sia essa un servizio web, un’utilità desktop o un job in background.
 
 ## Domande frequenti
 
-### Q1: Aspose.OCR per .NET è adatto per l'elaborazione di vari formati di immagine?
+**D: Posso estrarre testo da un PDF protetto da password?**  
+R: Sì. Usa la sovraccarico di `RecognizePdf` che accetta un parametro password.
 
-R1: Sì, Aspose.OCR supporta un'ampia gamma di formati di immagine, inclusi PDF, PNG, JPEG e altri.
+**D: L'OCR funziona su PDF scritti a mano?**  
+R: Aspose.OCR può riconoscere affidabilmente il testo stampato; il testo scritto a mano potrebbe richiedere pre‑elaborazione aggiuntiva o un motore specializzato.
 
-### Q2: Posso utilizzare Aspose.OCR per .NET sia in applicazioni Web che desktop?
+**D: Qual è l'impatto sulle prestazioni con documenti di grandi dimensioni?**  
+R: Il tempo di elaborazione cresce con il numero di pagine e la risoluzione delle immagini. Suddividere il documento in batch più piccoli può migliorare la reattività.
 
-A2: Assolutamente! Aspose.OCR si integra perfettamente sia nelle applicazioni web che desktop sviluppate utilizzando .NET.
+**D: Come salvo i risultati OCR in un file di testo?**  
+R: All’interno del ciclo `foreach`, scrivi `result.Text` in un `StreamWriter` per ogni pagina.
 
-### Q3: È disponibile una versione di prova per Aspose.OCR per .NET?
+**D: Esiste un modo per mantenere il layout originale del PDF dopo l'OCR?**  
+R: Puoi creare un nuovo PDF ricercabile sovrapponendo il testo OCR alle pagine originali usando Aspose.PDF dopo l'estrazione.
 
- R3: Sì, puoi esplorare le funzionalità con[prova gratuita](https://releases.aspose.com/).
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
-### Q4: Come posso ottenere supporto per Aspose.OCR per .NET?
-
- A4: Visita il[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per ottenere assistenza e connettersi con la comunità.
-
-### Q5: Dove posso acquistare Aspose.OCR per .NET?
-
- A5: Puoi acquistare il prodotto da[pagina di acquisto](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

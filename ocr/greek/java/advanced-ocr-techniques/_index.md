@@ -61,6 +61,12 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Εύκολη ενσωμάτωση, υψηλή ακρίβεια.
 ### [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
+### [Πώς να ενεργοποιήσετε το GPU για OCR – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+### [Πώς να εκτελέσετε OCR σε μεγάλα έγγραφα – Πλήρης οδηγός Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+### [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Γρήγορη αναγνώριση κειμένου από εικόνα](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Ενεργοποιήστε την GPU για ταχύτερη OCR σε Java, βελτιώνοντας την ταχύτητα αναγνώρισης κειμένου από εικόνες.
+### [Εξαγωγή κειμένου από εικόνα με Java – Ανάγνωση VIN από φωτογραφία](./extract-text-from-image-with-java-read-vin-from-photo/)
+Αναγνωρίστε και εξάγετε το VIN από φωτογραφίες με το Aspose.OCR για Java. Απλή ενσωμάτωση για γρήγορη ανάγνωση κωδικών οχήματος.
 ### [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
 Ενεργοποιήστε την GPU για OCR σε Java με το Aspose.OCR, ακολουθώντας τον αναλυτικό βήμα‑βήμα οδηγό μας για βέλτιστη απόδοση.
 ### [Αναγνώριση κειμένου από εικόνες με Java – Παράλληλο OCR Σεμινάριο](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)

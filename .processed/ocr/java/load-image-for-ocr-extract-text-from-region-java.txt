@@ -1,0 +1,7 @@
+Title: load image for OCR, extract text from region – Java
+Slug: load-image-for-ocr-extract-text-from-region-java
+Category: ocr-operations
+ProcessedDate: 2026-06-16T12:46:33.765674
+SourceRepo: AI Search API
+Keywords: load image for ocr, extract text from region
+PRNumber: 145

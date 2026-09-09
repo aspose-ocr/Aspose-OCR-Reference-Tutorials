@@ -1,0 +1,7 @@
+Title: How to Perform OCR with Aspose OCR in Java – Step‑by‑Step Guide
+Slug: how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid
+Category: ocr-operations
+ProcessedDate: 2026-07-15T10:21:23.661523
+SourceRepo: AI Search API
+Keywords: how to perform ocr, extract text from image, recognize hindi text, perform ocr on image, run ocr recognition
+PRNumber: 175

@@ -1,0 +1,7 @@
+Title: Recognize Handwritten Text in C# – Full Step‑by‑Step Guide
+Slug: recognize-handwritten-text-in-c-full-step-by-step-guide
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:46:52.485219
+SourceRepo: AI Search API
+Keywords: recognize handwritten text, extract text from handwritten image, convert handwritten notes to text, load image for ocr, perform ocr on image
+PRNumber: 140

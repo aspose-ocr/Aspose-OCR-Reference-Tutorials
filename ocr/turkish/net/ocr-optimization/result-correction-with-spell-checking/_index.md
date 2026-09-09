@@ -1,35 +1,56 @@
 ---
-title: OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
-linktitle: OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazımları düzeltin, sözlükleri özelleştirin ve hatasız metin tanıma işlemini zahmetsizce gerçekleştirin.
-weight: 13
+date: 2026-04-29
+description: OCR doğruluğunu artırın ve Aspose OCR for .NET kullanarak görüntüden
+  metin tanımayı öğrenin; yazım denetimi ve dil desteğinden yararlanarak hatalı yazımları
+  düzeltin ve sözlükleri özelleştirin.
+keywords:
+- improve ocr accuracy
+- recognize text from image
+- Aspose OCR spell checking
+- custom OCR dictionary
+linktitle: Görsellerde Yazım Denetimi ile OCR Doğruluğunu Artırın
+second_title: Aspose.OCR .NET API
+title: Görüntülerde Yazım Denetimi ile OCR Doğruluğunu Artırın
 url: /tr/net/ocr-optimization/result-correction-with-spell-checking/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Yazım Denetimi ile Sonuç Düzeltme
+# Görüntülerde Yazım Denetimi ile OCR Doğruluğunu Artırma
 
-## giriiş
+Optik Karakter Tanıma (OCR) ile çalıştığınızda nihai hedef **OCR doğruluğunu artırmak** ve çıkarılan metnin orijinal görüntüyle mükemmel bir şekilde eşleşmesini sağlamaktır. Yanlış yazılmış kelimeler, özellikle kaynak görüntü gürültülü olduğunda veya alışılmadık yazı tipleri içerdiğinde yaygın bir hata kaynağıdır. Aspose.OCR for .NET, yalnızca bu hataları düzeltmekle kalmayıp aynı zamanda motoru özel sözlüklerle genişletmenize olanak tanıyan yerleşik bir yazım denetimi özelliği sunar. Bu öğreticide yazım denetimini kullanarak OCR sonuçlarını nasıl artıracağınızı, ön‑ve‑son çıktıyı göreceğinizi ve düzeltme sürecini belirli dil ihtiyaçlarınıza göre nasıl özelleştireceğinizi öğreneceksiniz.
 
-Optik Karakter Tanıma (OCR) alanında, görüntülerden anlamlı bilgiler çıkarmak için doğru sonuçlara ulaşmak çok önemlidir. Yaygın zorluklardan biri, tanıma sürecinde yanlış yazılan kelimelerle uğraşmaktır. Neyse ki Aspose.OCR for .NET, yazım denetimi yoluyla OCR sonuçlarını iyileştirmek için güçlü bir çözüm sunuyor.
+## Hızlı Yanıtlar
+- **Yazım denetimi OCR için ne yapar?** OCR çıktısındaki yanlış yazılmış kelimeleri otomatik olarak algılar ve en olası doğru alternatiflerle değiştirir.  
+- **Bu özelliği hangi kütüphane sağlar?** Aspose.OCR for .NET, kullanıma hazır bir yazım denetimi API'si içerir.  
+- **İnternet bağlantısına ihtiyacım var mı?** Hayır, yazım denetimi motoru tamamen çevrim dışı çalışır.  
+- **Kendi terminolojimi ekleyebilir miyim?** Evet, alan‑spesifik kelimeleri işlemek için özel bir kullanıcı sözlüğü sağlayabilirsiniz.  
+- **Bu, görüntüden metin tanımama nasıl yardımcı olur?** OCR kaynaklı hataları düzelterek, son metin temiz olur ve sonraki işleme hazır hâle gelir.
 
-Bu eğitim, Aspose.OCR for .NET'i kullanarak yazım denetimiyle sonuç düzeltme sürecinde size rehberlik edecektir. Sonunda, OCR'dan türetilmiş metnin doğruluğunu artıracak donanıma sahip olacak, böylece daha hassas ve hatasız bir çıktı elde edeceksiniz.
+## OCR'da Yazım Denetimi Nedir?
+Yazım denetimi, OCR motoru tarafından döndürülen ham metni inceler, seçilen dil sözlüğünde bulunmayan tokenları belirler ve düzeltmeler önerir ya da uygular. Bu adım, özellikle taranmış belgeler, fişler veya formlar gibi OCR'nin karakterleri yanlış yorumlayabileceği durumlarda **OCR doğruluğunu artırmak** için hayati öneme sahiptir.
+
+## Neden Aspose OCR Dil Desteği Kullanmalı?
+Aspose.OCR, kapsamlı dil paketleriyle birlikte gelir ve ek sözlüklerin takılmasına izin verir. **aspose ocr language support**'u kullanmak, çok dilli belgeleri özel ayrıştırıcılar yazmadan işleyebilmenizi sağlar ve tanıma kalitesini daha da artıran dile özgü kurallara erişim sunar.
+
+## OCR doğruluğunu artırmanın en çok ne zaman önemi vardır?
+- **Yasal ve uyumluluk belgeleri** tek bir yazım hatasının anlamı değiştirebileceği yerler.  
+- **Veri çıkarma hatları** OCR sonuçlarını analizlere veya AI modellerine besleyen.  
+- **Müşteri odaklı uygulamalar** örneğin, okunabilir metni anında döndürmesi gereken mobil tarayıcılar.  
 
 ## Önkoşullar
 
-Yazım denetimi büyüsüne dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Spell‑checking sihrine dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
--  Aspose.OCR for .NET Library: Aspose.OCR kütüphanesini şu adresten indirip yükleyin:[yayın sayfası](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET Kütüphanesi: Aspose.OCR kütüphanesini [release page](https://releases.aspose.com/ocr/net/) adresinden indirin ve kurun.  
+- Belge Dizini: Belgeleriniz için belirlenmiş bir dizininiz olduğundan emin olun. Kod parçacıklarındaki `"Your Document Directory"` ifadesini gerçek yol ile değiştirin.
 
-- Belge Dizini: Belgeleriniz için belirlenmiş bir dizininiz olduğundan emin olun. Kod parçacıklarındaki "Belge Dizininiz"i gerçek yolla değiştirin.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-.NET projenize gerekli ad alanlarını içe aktararak başlayalım:
+.NET projenizde gerekli ad alanlarını içe aktararak başlayalım:
 
 ```csharp
 using System;
@@ -37,73 +58,73 @@ using Aspose.OCR.SpellChecker;
 using System.Collections.Generic;
 ```
 
-## Adım 1: Aspose.OCR'ı başlatın
+## Adım 1: Aspose.OCR'ı Başlatın
 
-OCR sürecini başlatmak için Aspose.OCR örneğini başlatın.
+OCR sürecini başlatmak için bir Aspose.OCR örneği oluşturun.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Adım 2: Görüntüyü Tanıyın
+## Adım 2: Görüntüyü Tanı
 
-Daha sonra Aspose.OCR kullanarak görüntüdeki metni tanıyın. İşte bu süreci gösteren bir pasaj:
+Şimdi Aspose.OCR kullanarak bir görüntüdeki metni tanıyın. İşte bu süreci gösteren bir kod parçacığı:
 
 ```csharp
-// Resmi tanı
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample_bad.png", new RecognitionSettings(Language.Eng));
 ```
 
 ## Adım 3: Düzeltmeden Önce
 
-Düzeltilmiş sürümle karşılaştırmak için düzeltmeden önce OCR sonucunu alın.
+Düzeltmeden önceki OCR sonucunu alın ve düzeltilmiş sürümle karşılaştırın.
 
 ```csharp
-// Sonuç al
+// Get result
 Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 ```
 
 ## Adım 4: Düzeltmeden Sonra
 
-Düzeltilmiş sonucu elde etmek için yazım denetimi uygulayın. Aşağıdaki kod parçacığı bu adımı göstermektedir:
+Yazım denetimini uygulayarak düzeltilmiş sonucu elde edin. Aşağıdaki kod parçacığı bu adımı gösterir:
 
 ```csharp
-// Düzeltilmiş sonucu alın
+// Get corrected result
 string correctedResult = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng);
 Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 ```
 
-## Adım 5: Yanlış Yazılan Kelimeler ve Öneriler
+## Adım 5: Yanlış Yazılmış Kelimeler ve Öneriler
 
-Aşağıdaki kodu kullanarak yanlış yazılan kelimelerin bir listesini ve önerilen düzeltmeleri edinin:
+Aşağıdaki kodu kullanarak yanlış yazılmış kelimelerin bir listesini ve önerilen düzeltmeleri alın:
 
 ```csharp
-// Yanlış yazılan kelimelerin listesini önerilerle birlikte alın
+// Get list of misspelled words with suggestions
 List<SpellCheckError> errorsList = result.GetSpellCheckErrorList(SpellCheckLanguage.Eng);
 foreach (var word in errorsList)
 {
-	Console.Write("Word:" + word.Word);
-	Console.Write(" StartPosition:" + word.StartPosition);
-	Console.WriteLine(" Length:" + word.Length);
-	Console.WriteLine("SuggestedWords:");
-	foreach (var suggest in word.SuggestedWords)
-	{
-		Console.Write(suggest.Word + " ");
-	}
-	Console.WriteLine();
+    Console.Write("Word:" + word.Word);
+    Console.Write(" StartPosition:" + word.StartPosition);
+    Console.WriteLine(" Length:" + word.Length);
+    Console.WriteLine("SuggestedWords:");
+    foreach (var suggest in word.SuggestedWords)
+    {
+        Console.Write(suggest.Word + " ");
+    }
+    Console.WriteLine();
 }
 ```
 
-## Adım 6: Kullanıcı Metnini Doğrulayın
+## Adım 6: Kullanıcı Metnini Düzelt
 
-Aspose.OCR kitaplığını kullanarak kullanıcı tarafından sağlanan belirli metni düzeltin:
+Aspose.OCR kütüphanesini kullanarak belirli bir kullanıcı‑sağlanan metni düzeltin:
 
 ```csharp
-// Kullanıcı metnini düzeltin
+// Correct user text
 Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 ```
 
@@ -112,36 +133,42 @@ Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 Özel bir kullanıcı sözlüğü ekleyerek düzeltmeyi daha da geliştirin:
 
 ```csharp
-// Kullanıcı sözlüğüyle düzeltilmiş sonucu alın
+// Get corrected result with user dictionary
 string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng, dataDir+"dictionary.txt");
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.OCR for .NET'in yazım denetimi özelliklerini başarıyla kullandınız. Bu özellik, OCR sonuçlarını hassaslaştırmanıza olanak tanıyarak doğruluğu garanti eder ve hataları ortadan kaldırır.
+| Sorun | Neden Oluşur | Nasıl Düzeltilir |
+|-------|----------------|------------|
+| Öneri döndürülmedi | Dil paketi yüklenmemiş veya metin çok kısa. | `RecognitionSettings(Language.Eng)`'in kaynak görüntünün diline uygun olduğundan ve OCR sonucunun yeterli karakter içerdiğinden emin olun. |
+| Özel sözlük uygulanmadı | Yanlış yol veya dosya formatı. | `dictionary.txt` dosyasının belirtilen konumda mevcut olduğunu ve her satırda bir kelime olduğunu doğrulayın. |
+| Yazım denetleyici büyük belgelerde yavaşlıyor | Her kelimeyi ayrı ayrı işlemek ek yük oluşturur. | Sayfaları toplu işleyin veya .NET Core üzerinde çalışıyorsanız bellek tahsisatını artırın. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aspose.OCR'ı İngilizce dışındaki diller için de kullanabilir miyim?
+**Q1: Aspose.OCR'ı İngilizce dışındaki dillerde kullanabilir miyim?**  
+A1: Evet, Aspose.OCR birden fazla dili destekler. Dil ayarlarını buna göre ayarlayın.
 
-Cevap1: Evet, Aspose.OCR birden fazla dili destekler. Dil ayarlarını buna göre yapın.
+**Q2: Aspose.OCR'ı .NET projemle nasıl entegre ederim?**  
+A2: Ayrıntılı entegrasyon adımları için [documentation](https://reference.aspose.com/ocr/net/) adresine bakın.
 
-### S2: Aspose.OCR'ı .NET projeme nasıl entegre edebilirim?
+**Q3: Aspose.OCR için bir deneme sürümü mevcut mu?**  
+A3: Evet, özellikleri [free trial version](https://releases.aspose.com/) ile keşfedebilirsiniz.
 
- A2: Bkz.[dokümantasyon](https://reference.aspose.com/ocr/net/) ayrıntılı entegrasyon adımları için.
+**Q4: Yazım denetimi için özel bir sözlük yükleyebilir miyim?**  
+A4: Kesinlikle! Eğitim, kullanıcı tarafından sağlanan bir sözlükle düzeltmeyi nasıl artıracağınızı gösterir.
 
-### S3: Aspose.OCR'ın deneme sürümü mevcut mu?
+**Q5: Aspose.OCR için nereden destek alabilirim?**  
+A5: Topluluk desteği ve rehberlik için [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
 
- A3: Evet, özellikleri keşfedebilirsiniz.[ücretsiz deneme sürümü](https://releases.aspose.com/).
+---
 
-### S4: Yazım denetimi için özel bir sözlük yükleyebilir miyim?
+**Son Güncelleme:** 2026-04-29  
+**Test Edilen Versiyon:** Aspose.OCR for .NET latest version  
+**Yazar:** Aspose  
 
-Cevap4: Kesinlikle! Eğitimde, kullanıcı tarafından sağlanan bir sözlük kullanılarak düzeltmenin nasıl geliştirileceği gösterilmektedir.
-
-### S5: Aspose.OCR için nereden destek alabilirim?
-
- A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) topluluk desteği ve rehberlik için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,22 +1,22 @@
 ---
-title: Recognize Text from Image and Retrieve Text Area Rectangles
+title: Convert Image to Text – Recognize Text from Image and Retrieve Text Area Rectangles
 linktitle: Recognize Text from Image and Retrieve Text Area Rectangles
 second_title: Aspose.OCR Java API
-description: Learn how to recognize text from image and extract paragraphs from image using Aspose.OCR for Java. Step‑by‑step guide with code examples.
+description: Learn how to convert image to text and extract text area rectangles using Aspose OCR Java library. Step‑by‑step guide with code examples.
 weight: 12
 url: /java/ocr-basics/get-rectangles-with-text-areas/
-date: 2025-12-10
+date: 2026-02-09
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recognize Text from Image and Retrieve Text Area Rectangles
+# Convert Image to Text – Recognize Text from Image and Retrieve Text Area Rectangles
 
 ## Introduction
 
-If you need to **recognize text from image** files in a Java application, Aspose.OCR for Java provides a fast, accurate way to do it. In this tutorial we’ll walk through the exact steps required to extract paragraphs from an image, obtain the bounding rectangles for each text area, and print those coordinates to the console. By the end you’ll understand why this approach works, how to integrate the library, and where you can extend it for your own use‑cases.
+If you need to **convert image to text** and **recognize text from image** files in a Java application, Aspose.OCR for Java provides a fast, accurate way to do it. In this tutorial we’ll walk through the exact steps required to extract paragraphs from an image, obtain the bounding rectangles for each text area, and print those coordinates to the console. By the end you’ll understand why this approach works, how to integrate the library, and where you can extend it for your own use‑cases.
 
 ## Quick Answers
 - **What does “recognize text from image” mean?** It means converting visual characters in a picture into editable string data.  
@@ -25,10 +25,10 @@ If you need to **recognize text from image** files in a Java application, Aspose
 - **Can I extract paragraphs instead of single words?** Yes – use `AreasType.PARAGRAPHS` to get paragraph‑level rectangles.  
 - **Is the code compatible with Java 11+?** Absolutely, the API works with Java 11 and later.
 
-## What is “recognize text from image” in Aspose.OCR?
+## What is “convert image to text” in Aspose.OCR?
 Aspose.OCR’s `RecognizePage` method analyses the bitmap, applies OCR algorithms, and returns the recognized string. When you request text areas, the library also calculates the exact `Rectangle` coordinates for each block of text, making it easy to highlight or process specific sections later.
 
-## Why use Aspose.OCR for Java?
+## Why use this **java ocr library**?
 - **High accuracy** – supports multiple languages and complex fonts.  
 - **Easy integration** – a single JAR adds full OCR capabilities.  
 - **Flexible output** – you can retrieve raw text, formatted HTML, or precise text‑area rectangles.  
@@ -77,12 +77,12 @@ String imagePath = dataDir + "p3.png";
 Instantiate the OCR engine:
 
 ```java
-// Create Aspose.OCR instance
+// Create AsposeOCR instance
 AsposeOCR api = new AsposeOCR();
 ```
 
 ### Step 4: Recognize Text in the Image
-Call `RecognizePage` to convert the picture into plain text. This step demonstrates the core **recognize text from image** capability:
+Call `RecognizePage` to convert the picture into plain text. This step demonstrates the core **recognize text image java** capability:
 
 ```java
 try {
@@ -134,11 +134,11 @@ A: Yes, the library is thread‑safe and can be used in concurrent environments 
 
 ## Conclusion
 
-In this tutorial you learned how to **recognize text from image** files using Aspose.OCR for Java, extract paragraphs, and retrieve the exact rectangles that surround each text block. These capabilities let you build searchable PDFs, highlight text in UI overlays, or feed structured data into downstream processes. Explore the API further to customize language settings, handle different image formats, or integrate with cloud storage.
+In this **aspose ocr java tutorial** you learned how to **convert image to text** using Aspose.OCR for Java, extract paragraphs, and retrieve the exact rectangles that surround each text block. These capabilities let you build searchable PDFs, highlight text in UI overlays, or feed structured data into downstream processes. Explore the API further to customize language settings, handle different image formats, or integrate with cloud storage.
 
 ---
 
-**Last Updated:** 2025-12-10  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.OCR 23.10 for Java  
 **Author:** Aspose  
 

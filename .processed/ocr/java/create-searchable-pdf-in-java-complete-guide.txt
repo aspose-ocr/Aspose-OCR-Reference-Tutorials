@@ -1,0 +1,7 @@
+Title: Create Searchable PDF in Java – Complete Guide
+Slug: create-searchable-pdf-in-java-complete-guide
+Category: ocr-operations
+ProcessedDate: 2026-07-05T11:17:47.249077
+SourceRepo: AI Search API
+Keywords: create searchable pdf, compress images in pdf, convert scanned image to pdf, disable font embedding pdf
+PRNumber: 168
