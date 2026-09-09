@@ -76,6 +76,9 @@ Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng
 
 ### [Đọc tài nguyên nhúng trong .NET – Hướng dẫn đầy đủ để thiết lập giấy phép Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Hướng dẫn chi tiết cách đọc tài nguyên nhúng và thiết lập giấy phép Aspose trong ứng dụng .NET.
+### [Tải mô hình ngôn ngữ OCR trong C# với Aspose – Hướng dẫn đầy đủ](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Hướng dẫn chi tiết cách tải và sử dụng mô hình ngôn ngữ OCR trong C# với Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -68,6 +68,8 @@ Aspose OCR を使用して、C# で画像からテキストを正確に抽出す
 ## OCR設定チュートリアル
 ### [.NET の埋め込みリソースの読み取り – Aspose ライセンス設定 完全ガイド](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aspose ライセンスを設定するために、.NET アプリケーションで埋め込みリソースを読み取る方法をステップバイステップで解説します。
+### [Aspose を使用した C# での OCR 言語モデルのダウンロード – 完全ガイド](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose を活用し、C# で OCR 言語モデルをダウンロードし設定する手順を詳しく解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

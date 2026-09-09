@@ -83,6 +83,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 使用 Aspose.OCR 在 C# 中完整執行圖像文字辨識，提供逐步說明與最佳實踐。
 ### [在 .NET 中讀取嵌入資源 – 設定 Aspose 授權完整指南](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 了解如何在 .NET 應用程式中讀取嵌入式資源並正確設定 Aspose 授權。
+### [使用 Aspose 下載 OCR 語言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+了解如何使用 Aspose 在 C# 中下載並整合 OCR 語言模型，以提升文字辨識準確度。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

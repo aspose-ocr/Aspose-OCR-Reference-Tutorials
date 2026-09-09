@@ -112,6 +112,8 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 在 C# 中将 PNG 转换为可搜索的 PDF，提供完整的分步指南，实现高效文本提取。
 ### [在 C# 中从图像识别文本 – OCR 与 JSON 完整指南](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 使用 Aspose.OCR 在 C# 中实现从图像提取文本并获取 JSON 格式结果的完整分步指南。
+### [C# OCR 教程 – 将图像转换为可搜索的 PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+使用 Aspose.OCR 将图像转换为可搜索的 PDF，实现高效文本检索和无缝集成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

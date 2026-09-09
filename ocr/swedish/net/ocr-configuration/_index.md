@@ -77,6 +77,8 @@ Lär dig att OCR:a bilder i C# med fullständig guide och GPU-stöd för snabbar
 Lär dig att känna igen text i bilder med Aspose OCR i en komplett C#-guide.
 ### [Läs inbäddad resurs i .NET – Komplett guide för att ställa in Aspose-licens](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Lär dig hur du läser inbäddade resurser i .NET och konfigurerar Aspose-licensen korrekt.
+### [Ladda ner OCR-språkmodell i C# med Aspose – Fullständig guide](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Lär dig hur du laddar ner och använder OCR-språkmodeller i C# med Aspose för optimal textigenkänning.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

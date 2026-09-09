@@ -82,6 +82,8 @@ Nutzen Sie das Potenzial von OCR in .NET-Anwendungen mit Aspose.OCR. Erfahren Si
 ### [Einbetten von Ressourcen in .NET lesen – Vollständige Anleitung zum Setzen der Aspose-Lizenz](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Erfahren Sie, wie Sie eingebettete Ressourcen in .NET auslesen und die Aspose-Lizenz korrekt setzen.
 
+### [Download des OCR-Sprachmodells in C# mit Aspose – Vollständige Anleitung](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Erfahren Sie, wie Sie das OCR-Sprachmodell in C# herunterladen und in Aspose.OCR integrieren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -78,7 +78,6 @@ En conclusión, estos tutoriales de configuración de OCR ofrecen una comprensi�
 ### [OCROperación con carpeta en reconocimiento de imágenes OCR](./ocr-operation-with-folder/)
 Desbloquee el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extraiga texto sin esfuerzo de las imágenes.
 ### [OCROperación con selección de idioma en reconocimiento de imágenes OCR](./ocr-operation-with-language-selection/)
-Desbloquee potentes capacidades de OCR con Aspose.OCR para .NET. Extraiga texto de imágenes sin problemas.
 ### [Cómo hacer OCR de una imagen en C# – Guía completa con soporte GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
 Aprenda a reconocer texto en imágenes usando C# y Aspose.OCR, aprovechando la aceleración GPU para un rendimiento óptimo.
 ### [Reconocer texto de una imagen con Aspose OCR – Guía completa en C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
@@ -86,6 +85,8 @@ Aprenda a reconocer texto de imágenes usando Aspose OCR en C#, con una guía pa
 ### [Leer recurso incrustado en .NET – Guía completa para configurar la licencia Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aprenda a leer recursos incrustados en .NET y configurar correctamente la licencia de Aspose en sus aplicaciones.
 
+### [Descargar modelo de idioma OCR en C# con Aspose – Guía completa](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aprenda a descargar e integrar el modelo de idioma OCR en C# usando Aspose en una guía paso a paso.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

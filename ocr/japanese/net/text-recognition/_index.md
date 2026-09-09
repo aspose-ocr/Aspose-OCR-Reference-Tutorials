@@ -113,6 +113,9 @@ Aspose.OCR を使用して C# で PNG 画像からアラビア語テキストを
 Aspose.OCR を使用して C# で PNG 画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
 ### [C# で画像からテキストを抽出する – 完全 Aspose OCR ガイド](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
 Aspose OCR を使用して C# で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C# OCR チュートリアル – 画像を検索可能な PDF に変換](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Aspose.OCR for .NET を使用して、画像を検索可能な PDF に変換し、アプリケーションに統合する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

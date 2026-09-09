@@ -72,6 +72,8 @@ Ismerje meg, hogyan használhatja az Aspose OCR-t képek szövegének felismeré
 
 ### [Beágyazott erőforrás olvasása .NET-ben – Teljes útmutató az Aspose licenc beállításához](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Ismerje meg, hogyan olvassa be a beágyazott erőforrásokat .NET-ben, és állítsa be az Aspose licencet a projektben.
+### [OCR nyelvi modell letöltése C#-ban az Aspose segítségével – Teljes útmutató](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Töltsön le OCR nyelvi modellt C#-ban az Aspose segítségével, és ismerje meg a teljes folyamatot a beállítástól a használatig.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

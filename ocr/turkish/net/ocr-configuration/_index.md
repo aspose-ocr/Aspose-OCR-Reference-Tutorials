@@ -66,6 +66,8 @@ C# kullanarak GPU desteğiyle görüntü OCR'ı yapmayı adım adım öğrenin.
 Aspose OCR kullanarak C# ile görüntülerden metin çıkarmayı adım adım öğrenin.
 ### [Embedded Kaynağı .NET'te Okuma – Aspose Lisansını Ayarlama Tam Kılavuzu](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aspose lisansını ayarlamak için .NET'te gömülü kaynağı nasıl okuyacağınızı adım adım öğrenin.
+### [Aspose ile C#'ta OCR Dil Modeli İndirme – Tam Kılavuz](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose kullanarak C# projelerinizde OCR dil modeli nasıl indirilir ve uygulanır öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

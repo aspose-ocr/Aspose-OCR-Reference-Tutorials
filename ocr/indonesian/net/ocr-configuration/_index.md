@@ -76,6 +76,8 @@ Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan l
 
 ### [Membaca Embedded Resource di .NET – Panduan Lengkap Menetapkan Lisensi Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Pelajari cara membaca embedded resource di .NET dan mengatur lisensi Aspose secara lengkap.
+### [Unduh Model Bahasa OCR di C# dengan Aspose – Panduan Lengkap](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Pelajari cara mengunduh model bahasa OCR untuk C# menggunakan Aspose dalam panduan lengkap ini.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

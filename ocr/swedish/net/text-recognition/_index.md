@@ -114,6 +114,8 @@ Lär dig att använda Aspose.OCR för .NET för att extrahera arabisk text från
 ### [Känn igen text från bild i C# – Komplett guide till OCR och JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Lär dig steg-för-steg hur du extraherar text från bilder i C# och får resultat i JSON-format med Aspose.OCR.
 
+### [c# OCR-handledning – Gör bilder till sökbara PDF-filer](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Lär dig hur du med Aspose.OCR för .NET konverterar bilder till sökbara PDF-filer i en enkel steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

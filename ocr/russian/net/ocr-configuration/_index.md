@@ -76,6 +76,8 @@ weight: 24
 
 ### [Чтение встроенного ресурса в .NET – Полное руководство по установке лицензии Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Узнайте, как читать встроенные ресурсы в .NET и правильно установить лицензию Aspose для вашего приложения.
+### [Скачивание модели языка OCR в C# с Aspose – Полное руководство](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Полное руководство по загрузке модели языка OCR в C# с использованием Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -113,6 +113,8 @@ C# में Aspose OCR का उपयोग करके PNG फ़ाइल 
 Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की विस्तृत चरण-दर-चरण गाइड।
 ### [C# में इमेज से टेक्स्ट पहचानें – OCR और JSON का पूर्ण गाइड](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 C# में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालें और परिणाम को JSON में प्राप्त करने की पूरी प्रक्रिया सीखें।
+### [c# OCR ट्यूटोरियल – इमेज को सर्चेबल PDF में बदलें](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Aspose.OCR के साथ इमेज को सर्चेबल PDF में बदलने की प्रक्रिया सीखें। .NET में तेज़ OCR और PDF निर्माण।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

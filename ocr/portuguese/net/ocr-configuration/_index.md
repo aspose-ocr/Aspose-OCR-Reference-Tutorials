@@ -69,6 +69,8 @@ Concluindo, esses tutoriais de configuração de OCR oferecem uma compreensão h
 ## Tutoriais de configuração de OCR
 ### [Ler Recurso Incorporado em .NET – Guia Completo para Configurar Licença Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aprenda a ler recursos incorporados em .NET e configurar a licença Aspose de forma simples e eficaz.
+### [Download do Modelo de Idioma OCR em C# com Aspose – Guia Completo](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Baixe o modelo de idioma OCR em C# usando Aspose e siga o guia completo para integrar reconhecimento de texto multilíngue.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

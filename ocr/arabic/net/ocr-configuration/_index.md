@@ -69,6 +69,8 @@ weight: 24
 أطلق العنان لقدرات التعرف الضوئي على الحروف (OCR) القوية باستخدام Aspose.OCR لـ .NET. استخراج النص من الصور بسلاسة.
 ### [قراءة المورد المضمن في .NET – دليل كامل لتعيين ترخيص Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 تعلم كيفية قراءة الموارد المضمنة في .NET وتعيين ترخيص Aspose خطوة بخطوة.
+### [تنزيل نموذج لغة OCR في C# باستخدام Aspose – دليل كامل](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+تعلم كيفية تنزيل نموذج لغة OCR واستخدامه في تطبيقات C# مع Aspose خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -65,6 +65,8 @@ weight: 24
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างครบถ้วน
 ### [อ่านทรัพยากรฝังใน .NET – คู่มือฉบับสมบูรณ์ในการตั้งค่าใบอนุญาต Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 เรียนรู้วิธีอ่านทรัพยากรฝังในแอป .NET และตั้งค่าใบอนุญาต Aspose อย่างครบถ้วน
+### [ดาวน์โหลดโมเดลภาษาของ OCR ใน C# ด้วย Aspose – คู่มือเต็ม](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+เรียนรู้วิธีดาวน์โหลดและใช้งานโมเดลภาษาของ OCR ใน C# ด้วย Aspose อย่างละเอียดครบทุกขั้นตอน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

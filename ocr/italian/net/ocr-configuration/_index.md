@@ -69,6 +69,9 @@ Sblocca il potenziale dell'OCR nelle applicazioni .NET con Aspose.OCR. Impara pa
 Sblocca potenti funzionalità OCR con Aspose.OCR per .NET. Estrai testo dalle immagini senza problemi.
 ### [Leggi risorsa incorporata in .NET – Guida completa per impostare la licenza Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Scopri come leggere una risorsa incorporata in .NET e configurare correttamente la licenza Aspose per le tue applicazioni.
+### [Scarica il modello linguistico OCR in C# con Aspose – Guida completa](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Guida completa per scaricare e utilizzare il modello linguistico OCR in C# con Aspose, migliorando l'accuratezza del riconoscimento.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

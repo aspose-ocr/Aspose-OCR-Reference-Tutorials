@@ -85,6 +85,9 @@ Leer stap voor stap OCR op afbeeldingen in C# uit te voeren met volledige GPU-on
 Leer stap voor stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in C#.
 ### [Embedded resource lezen in .NET – Complete gids voor het instellen van een Aspose-licentie](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Leer hoe u een embedded resource leest en een Aspose-licentie instelt in .NET-toepassingen.
+### [Download OCR-taalmodel in C# met Aspose – Volledige gids](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Leer hoe u het OCR-taalmodel downloadt en integreert in C#-toepassingen met Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

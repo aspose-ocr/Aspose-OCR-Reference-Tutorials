@@ -114,6 +114,8 @@ Poznaj pełny przewodnik, jak wyodrębnić tekst z obrazu w C# przy użyciu Aspo
 ### [Rozpoznaj tekst z obrazu w C# – Kompletny przewodnik po OCR i JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Poznaj pełny przewodnik, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspose OCR i uzyskiwać wyniki w formacie JSON.
 
+### [c# OCR tutorial – zamień obrazy w przeszukiwalne pliki PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Dowiedz się, jak przy użyciu Aspose.OCR w .NET przekształcić obrazy w przeszukiwalne pliki PDF w kilku prostych krokach.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

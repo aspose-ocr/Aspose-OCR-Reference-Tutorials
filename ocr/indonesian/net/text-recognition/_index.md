@@ -111,6 +111,8 @@ Pelajari cara mengubah gambar PNG menjadi PDF yang dapat dicari menggunakan Aspo
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan lengkap C#.
 ### [Mengenali Teks dari Gambar di C# – Panduan Lengkap OCR dan JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR di C# dan mengonversinya ke format JSON dengan panduan langkah demi langkah.
+### [c# ocr tutorial – Mengubah Gambar menjadi PDF yang Dapat Dicari](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengonversi gambar menjadi PDF yang dapat dicari secara mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

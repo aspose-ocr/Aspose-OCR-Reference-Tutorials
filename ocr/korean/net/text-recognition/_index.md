@@ -113,6 +113,8 @@ Aspose OCR을 활용해 PNG 이미지를 검색 가능한 PDF로 변환하는 �
 ### [C#에서 이미지 텍스트 인식 – OCR 및 JSON 완전 가이드](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Aspose OCR을 사용해 C#에서 이미지 텍스트를 인식하고 결과를 JSON 형식으로 얻는 전체 과정을 단계별로 안내합니다.
 
+### [C# OCR 튜토리얼 – 이미지를 검색 가능한 PDF로 변환](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Aspose.OCR을 사용하여 이미지를 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -96,6 +96,8 @@ Apprenez à extraire du texte d'images en C# en utilisant Aspose.OCR avec le sup
 Apprenez à extraire du texte d'une image en C# avec Aspose OCR grâce à ce guide complet.
 ### [Lire une ressource intégrée dans .NET – Guide complet pour définir la licence Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Apprenez à lire une ressource intégrée et à configurer la licence Aspose dans vos applications .NET.
+### [Télécharger le modèle de langue OCR en C# avec Aspose – Guide complet](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Apprenez à télécharger et intégrer le modèle de langue OCR dans vos projets C# avec Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

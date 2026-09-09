@@ -70,6 +70,8 @@ Odblokuj moc rozpoznawania obrazów OCR w .NET dzięki Aspose.OCR. Wyodrębnij t
 ### [Odczyt zasobu osadzonego w .NET – Kompletny przewodnik po ustawianiu licencji Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Dowiedz się, jak odczytać zasób osadzony w .NET i skonfigurować licencję Aspose w aplikacji.
 
+### [Pobierz model językowy OCR w C# z Aspose – Pełny przewodnik](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Kompletny przewodnik, jak pobrać i używać modelu językowego OCR w C# przy użyciu Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

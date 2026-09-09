@@ -115,6 +115,8 @@ url: /ar/net/text-recognition/
 ### [التعرف على النص من صورة في C# – دليل كامل لتقنية OCR و JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام C# وتنسيق النتائج كـ JSON باستخدام Aspose.OCR.
 
+### [دروس OCR بلغة C# – تحويل الصور إلى ملفات PDF قابلة للبحث](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

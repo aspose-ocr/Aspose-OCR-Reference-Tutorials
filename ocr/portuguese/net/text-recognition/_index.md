@@ -111,6 +111,8 @@ Aprenda a criar PDFs pesquisáveis a partir de imagens PNG usando Aspose.OCR em 
 Aprenda a extrair texto de imagens em C# com Aspose OCR neste guia completo passo a passo.
 ### [Reconhecer texto de imagem em C# – Guia completo de OCR e JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Aprenda a reconhecer texto em imagens usando Aspose.OCR em C# e obter os resultados em formato JSON de forma simples.
+### [Tutorial OCR em C# – Transformar Imagens em PDFs Pesquisáveis](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Converta imagens em PDFs pesquisáveis usando Aspose.OCR para .NET. Siga nosso guia passo a passo para criar PDFs com texto pesquisável.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

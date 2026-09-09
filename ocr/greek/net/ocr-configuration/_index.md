@@ -69,6 +69,8 @@ weight: 24
 Ξεκλειδώστε ισχυρές δυνατότητες OCR με το Aspose.OCR για .NET. Εξαγωγή κειμένου από εικόνες απρόσκοπτα.
 ### [Ανάγνωση Ενσωματωμένου Πόρου σε .NET – Πλήρης Οδηγός για Ρύθμιση Άδειας Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Μάθετε πώς να διαβάζετε ενσωματωμένους πόρους σε .NET και να ρυθμίζετε την άδεια Aspose με βήμα-βήμα οδηγίες.
+### [Λήψη μοντέλου γλώσσας OCR σε C# με το Aspose – Πλήρης Οδηγός](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Μάθετε πώς να κατεβάσετε και να ενσωματώσετε το μοντέλο γλώσσας OCR σε εφαρμογές C# χρησιμοποιώντας το Aspose, βήμα-βήμα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

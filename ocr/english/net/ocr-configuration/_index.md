@@ -92,6 +92,8 @@ Learn to perform OCR on images using C# with GPU acceleration for faster and mor
 Learn to recognize text from images using Aspose OCR in C# with a comprehensive step-by-step guide.
 ### [Read Embedded Resource in .NET – Complete Guide to Set Aspose License](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Learn how to read embedded resources in .NET and set your Aspose license correctly in a single guide.
+### [Download OCR Language Model in C# with Aspose – Full Guide](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Download OCR language models in C# using Aspose. A comprehensive guide to integrate and use language packs for OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

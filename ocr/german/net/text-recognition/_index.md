@@ -114,6 +114,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR ein durchsuchbares PDF aus PNG‑Dateien in
 ### [Text aus Bild erkennen in C# – Komplettanleitung für OCR und JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Lernen Sie, wie Sie mit Aspose.OCR Text aus Bildern in C# extrahieren und das Ergebnis im JSON-Format erhalten – Schritt‑für‑Schritt‑Anleitung.
 
+### [c# OCR-Tutorial – Bilder in durchsuchbare PDFs umwandeln](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.OCR Bilder in durchsuchbare PDF-Dokumente konvertieren und in Ihre .NET-Anwendungen integrieren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

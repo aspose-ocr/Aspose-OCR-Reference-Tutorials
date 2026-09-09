@@ -36,11 +36,6 @@ OCR निकालने का मतलब है एक इमेज (या
 - **कोई बाहरी इंस्टॉलेशन नहीं**; लाइब्रेरी Windows, Linux, और macOS पर बॉक्स से बाहर काम करती है।
 - **फ्लेक्सिबल इनपुट सोर्स**—आर्काइव, फ़ोल्डर, स्ट्रीम, या इन-मेमोरी लिस्ट।
 
-## ज़रूरी शर्तें
-- .NET डेवलपमेंट पर्यावरण (विजुअल स्टूडियो 2022 या VS कोड)।
-- .NET NuGet पैकेज के लिए Aspose.OCR इंस्टॉल किया हुआ (`Install-Package Aspose.OCR`)।
-- उन इमेज या आर्काइव्स के सैंपल जिन्हें आप प्रोसेस करना चाहते हैं।
-
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 OCR की क्षमताओं को .NET एप्लिकेशन्स में Aspose.OCR के साथ चलाएं। आर्काइव इमेज से टेक्स्ट निकालने के स्टेप-दर-स्टेप सीखें।
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -72,6 +67,8 @@ Aspose OCR के साथ C# में इमेज से टेक्स्�
 ### [.NET में एम्बेडेड रिसोर्स पढ़ें – Aspose लाइसेंस सेट करने के लिए पूर्ण गाइड](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aspose लाइसेंस सेट करने के लिए .NET में एम्बेडेड रिसोर्स पढ़ने का पूर्ण मार्गदर्शन।
 
+### [C# में Aspose के साथ OCR भाषा मॉडल डाउनलोड करें – पूर्ण गाइड](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose के साथ C# में OCR भाषा मॉडल डाउनलोड करने और उपयोग करने की पूरी प्रक्रिया सीखें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

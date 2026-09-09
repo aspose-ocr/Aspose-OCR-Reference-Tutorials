@@ -118,6 +118,8 @@ url: /zh-hant/net/text-recognition/
 
 ### [在 C# 中從圖像提取文字 – 完整 OCR 與 JSON 指南](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 學習如何在 C# 中使用 Aspose OCR 從圖像提取文字並獲取 JSON 格式結果，完整步驟與範例說明。
+### [C# OCR 教程 – 將影像轉換為可搜尋的 PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+使用 Aspose.OCR for .NET，將影像轉換為可搜尋的 PDF，提升文件可存取性與搜尋功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

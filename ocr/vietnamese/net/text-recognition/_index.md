@@ -116,6 +116,8 @@ Bước đầu thực hiện OCR trong C# với Aspose OCR, hướng dẫn cài 
 ### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về OCR và JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR và xuất kết quả dưới dạng JSON.
 
+### [Hướng dẫn OCR C# – Chuyển ảnh thành PDF có thể tìm kiếm](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
+Biến đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET, giúp tích hợp OCR dễ dàng vào dự án của bạn.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

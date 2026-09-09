@@ -72,6 +72,8 @@ C#에서 Aspose OCR을 활용해 이미지 텍스트를 빠르고 정확하게 �
 
 ### [.NET에서 임베디드 리소스 읽기 – Aspose 라이선스 설정 완전 가이드](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Aspose 라이선스를 설정하기 위해 .NET에서 임베디드 리소스를 읽는 방법을 단계별로 안내합니다.
+### [Aspose와 함께 C#에서 OCR 언어 모델 다운로드 – 전체 가이드](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose를 사용해 C#에서 OCR 언어 모델을 다운로드하고 적용하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
