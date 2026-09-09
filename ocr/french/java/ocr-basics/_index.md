@@ -114,6 +114,8 @@ Apprenez à extraire du texte OCR en Java avec un exemple complet, étape par é
 Activez facilement l’OCR dans vos applications Java grâce à ce guide complet pas à pas.
 ### [Tutoriel Image vers texte – Extraire le texte tamoul avec Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Apprenez à extraire du texte tamoul à partir d’images en utilisant Aspose OCR. Suivez ce guide pas à pas pour une reconnaissance précise.
+### [Extraire du texte d'une image en Java – Exemple complet d'OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Apprenez à extraire du texte d’une image en Java avec un exemple complet d’OCR.
 
 ---
 

@@ -117,6 +117,8 @@ Aprende a activar y configurar OCR en Java con esta guía paso a paso para obten
 ### [Tutorial de Imagen a Texto – Extraer Texto Tamil con Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 
 Aprende a extraer texto en tamil de imágenes usando Aspose OCR con esta guía paso a paso.
+### [Extraer texto de una imagen en Java – Ejemplo completo de OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Ejemplo completo que muestra cómo extraer texto de imágenes usando Aspose.OCR en Java, paso a paso.
 
 ---
 

@@ -71,6 +71,13 @@ Java용 Aspose.OCR로 대용량 문서의 OCR을 빠르고 정확하게 수행�
 Java용 Aspose.OCR에서 GPU를 활용해 OCR 속도를 크게 높이고 이미지 텍스트를 빠르게 추출합니다. 지금 확인하세요.
 ### [Java로 이미지에서 텍스트 추출 – 사진에서 VIN 읽기](./extract-text-from-image-with-java-read-vin-from-photo/)
 Java와 Aspose.OCR을 활용해 사진에서 차량 식별 번호(VIN)를 빠르게 읽어 텍스트로 변환합니다. 간편한 단계별 가이드 확인하세요.
+### [Java OCR용 GPU 활성화 방법 – 단계별 가이드](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+GPU를 활용해 Java OCR 성능을 크게 향상시키는 방법을 단계별로 안내합니다. 빠른
+### [Java로 이미지에서 텍스트 인식 – 병렬 OCR 튜토리얼](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Java에서 병렬 처리로 이미지 텍스트 인식을 수행하는 방법을 단계별로 안내합니다. 빠른 OCR 성능을 경험하세요.
+### [Java에서 이미지에서 텍스트 추출 – 맞춤법 교정 포함 완전 OCR 가이드](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+맞춤법 교정 기능을 포함한 Java OCR 가이드를 통해 이미지에서 정확히 텍스트를 추출하는 방법을 단계별로 배웁니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

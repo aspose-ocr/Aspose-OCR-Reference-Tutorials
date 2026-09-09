@@ -75,6 +75,13 @@ Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Jav
 Włącz GPU w Aspose.OCR dla Java, aby przyspieszyć rozpoznawanie tekstu z obrazów. Skorzystaj z wydajności GPU już dziś.
 ### [Wyodrębnianie tekstu z obrazu w Javie – Odczyt VIN ze zdjęcia](./extract-text-from-image-with-java-read-vin-from-photo/)
 Wyodrębnij numer VIN ze zdjęcia w Javie przy użyciu Aspose.OCR. Szybka i dokładna ekstrakcja tekstu z obrazu.
+### [Jak włączyć GPU dla OCR w Javie – Przewodnik krok po kroku](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób włączyć GPU, aby przyspieszyć OCR w aplikacjach Java, zwiększając wydajność i dokładność.
+### [Rozpoznawanie tekstu z obrazów w Javie – równoległy samouczek OCR](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Poznaj, jak równolegle przetwarzać obrazy w Javie, aby przyspieszyć rozpoznawanie tekstu przy użyciu Aspose.OCR.
+### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przewodnik OCR z korekcją pisowni](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Poznaj, jak wyodrębnić tekst z obrazów w Javie, korzystając z pełnego przewodnika OCR i automatycznej korekcji pisowni.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

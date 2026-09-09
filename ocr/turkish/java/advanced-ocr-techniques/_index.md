@@ -74,6 +74,13 @@ GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkar�
 Büyük belgelerde yüksek doğrulukla OCR gerçekleştirin ve Java projelerinizde metin çıkarma sürecini optimize edin.
 ### [Java ile Görüntüden Metin Çıkarma – Fotoğraftan VIN Okuma](./extract-text-from-image-with-java-read-vin-from-photo/)
 Java ile fotoğraftan VIN numarasını okuyarak görüntüden metin çıkarın. Hızlı ve doğru OCR entegrasyonu.
+### [Java OCR için GPU'yu Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Java OCR performansını artırmak için GPU desteğini nasıl etkinleştireceğinizi adım adım öğrenin.
+### [Java ile Görüntülerden Metin Tanıma – Paralel OCR Eğitimi](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Java’da paralel OCR kullanarak görüntülerden hızlı ve doğru şekilde metin tanıyın. Adım adım kılavuzla performansı artırın.
+### [Java ile Görüntüden Metin Çıkarma – Yazım Düzeltmeli Tam OCR Kılavuzu](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Java kullanarak görüntülerden metin çıkarın ve yazım hatalarını otomatik düzeltin. Adım adım tam OCR rehberi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

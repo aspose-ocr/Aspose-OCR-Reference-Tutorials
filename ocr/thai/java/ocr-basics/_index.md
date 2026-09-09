@@ -108,6 +108,7 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เรียนรู้วิธีเปิดใช้งาน OCR ใน Java อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนเพื่อเริ่มต้นการจดจำข้อความ
 ### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 เรียนรู้วิธีสกัดข้อความภาษาตามิลจากรูปภาพด้วย Aspose OCR อย่างละเอียด
+### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
 
 ---
 

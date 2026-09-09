@@ -108,6 +108,8 @@ Lär dig steg‑för‑steg hur du får OCR‑text i Java med ett komplett Aspos
 Lär dig hur du aktiverar OCR-funktionalitet i Java med en enkel steg‑för‑steg‑guide.
 ### [Bild‑till‑text‑handledning – Extrahera tamilsk text med Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Lär dig hur du extraherar tamilsk text från bilder med Aspose OCR i Java.
+### [Extrahera text från bild i Java – Komplett OCR‑exempel](./extract-text-from-image-in-java-complete-ocr-example/)
+Fullständig guide för att extrahera text från en bild i Java med Aspose.OCR, inklusive kodexempel och bästa praxis.
 
 ---
 

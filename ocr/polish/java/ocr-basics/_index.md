@@ -124,6 +124,8 @@ Pełny przykład pokazujący, jak pobrać tekst OCR w Javie przy użyciu Aspose 
 Dowiedz się, jak w prosty sposób włączyć OCR w aplikacji Java, krok po kroku, z przykładami kodu.
 ### [Samouczek Image to Text – Wyodrębnianie tekstu tamilskiego przy użyciu Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Poznaj, jak przetworzyć obrazy na tekst w języku tamilskim, wykorzystując Aspose OCR w Javie.
+### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przykład OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Pełny przykład użycia Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący licencję, korekcję pochylenia i odczyt tekstu.
 
 ---
 

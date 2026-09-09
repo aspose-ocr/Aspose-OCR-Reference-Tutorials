@@ -109,6 +109,8 @@ weight: 20
 Μάθετε πώς να ενεργοποιήσετε το OCR στη Java με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Οδηγός Image to Text – Εξαγωγή Ταμιλικού Κειμένου με Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Ανακαλύψτε πώς να εξάγετε κείμενο στα Ταμιλικά από εικόνες χρησιμοποιώντας το Aspose OCR σε Java.
+### [Εξαγωγή Κειμένου από Εικόνα σε Java – Πλήρες Παράδειγμα OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνα σε Java με ένα ολοκληρωμένο παράδειγμα OCR, βήμα‑βήμα οδηγίες.
 
 ---
 

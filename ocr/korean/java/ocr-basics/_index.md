@@ -124,6 +124,9 @@ Aspose.OCR for Java의 강력함을 활용하십시오. 이 단계별 가이드�
 ### [이미지에서 텍스트 추출 튜토리얼 – Aspose OCR로 타밀어 텍스트 추출](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 
 Aspose OCR을 사용하여 이미지에서 타밀어 텍스트를 정확하게 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 이미지에서 텍스트 추출 – 완전한 OCR 예제](./extract-text-from-image-in-java-complete-ocr-example/)
+
+전체 흐름을 따라 이미지에서 텍스트를 추출하고, 전처리와 결과 저장까지 한 번에 배울 수 있습니다.
 
 ---
 

@@ -117,6 +117,9 @@ Java アプリケーションで OCR 機能を有効にし、テキスト抽出�
 ### [画像からテキストへのチュートリアル – Aspose OCR でタミル語テキストを抽出](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Aspose OCR を使用して画像からタミル語テキストを抽出する手順を解説します。
 
+### [Java で画像からテキストを抽出 – 完全 OCR 例](./extract-text-from-image-in-java-complete-ocr-example/)
+Java を使用した画像からテキストを抽出する完全な OCR 実装手順をステップバイステップで解説します。
+
 ---
 
 **Last Updated:** 2025-12-08  

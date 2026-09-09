@@ -102,6 +102,14 @@ Unlock text extraction from images seamlessly with Aspose.OCR for Java. Follow o
 Enable GPU acceleration for Aspose.OCR in Java to recognize text from images quickly and improve performance.
 ### [extract text from image with Java – Read VIN from Photo](./extract-text-from-image-with-java-read-vin-from-photo/)
 Extract VIN numbers from vehicle photos using Aspose.OCR for Java, showcasing image preprocessing and allowed character filtering.
+### [How to Enable GPU for Java OCR – Step‑by‑Step Guide](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Accelerate OCR processing by enabling GPU support in Aspose.OCR for Java. Follow the step‑by‑step guide for optimal performance.
+### [Recognize Text from Images with Java – Parallel OCR Tutorial](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Learn how to process multiple images concurrently in Java using Aspose.OCR for fast, parallel OCR extraction.
+### [Extract Text from Image Java – Complete OCR Guide](./extract-text-from-image-java-complete-ocr-guide/)
+Comprehensive guide to extract text from images in Java using Aspose.OCR, covering setup, configuration, and best practices.
+### [Extract Text from Image Java – Complete OCR Guide with Spell Correction](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Complete OCR guide for Java that includes spell correction to improve extracted text accuracy.
 
 ### [How to Enable GPU for OCR – Fast Extraction of Text from Images](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Accelerate OCR processing by enabling GPU support, achieving faster text extraction from images with Aspose.OCR for Java.

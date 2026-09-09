@@ -109,6 +109,8 @@ Kompletní příklad, jak získat text z obrázku pomocí Aspose OCR v Javě, od
 Naučte se, jak v Javě povolit OCR a konfigurovat knihovnu pro přesné rozpoznávání textu.
 ### [Návod na převod obrazu na text – Extrahování tamilského textu s Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Naučte se, jak pomocí Aspose OCR extrahovat tamilský text z obrázků v několika jednoduchých krocích.
+### [Extrahovat text z obrázku v Javě – Kompletní příklad OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Kompletní ukázka, jak v Javě pomocí Aspose.OCR extrahovat text z obrázku a optimalizovat přesnost.
 
 ---
 
