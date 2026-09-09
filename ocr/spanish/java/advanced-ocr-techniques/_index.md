@@ -61,6 +61,16 @@ Desbloquee el poder del reconocimiento de texto con Aspose.OCR para Java. Siga n
 Potencia tus aplicaciones Java con Aspose.OCR para un reconocimiento de texto preciso. Fácil integración, alta precisión.
 ### [Especificación de caracteres permitidos en Aspose.OCR](./specify-allowed-characters/)
 Desbloquee la extracción de texto de imágenes sin problemas con Aspose.OCR para Java. Siga nuestra guía paso a paso para una integración eficiente.
+### [Cómo ejecutar OCR en documentos grandes – Guía completa de Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Aprenda a procesar OCR en documentos extensos con Aspose.OCR para Java, optimizando rendimiento y precisión en grandes volúmenes de texto.
+### [Cómo habilitar la GPU para OCR – Extracción rápida de texto de imágenes](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+Acelere la extracción de texto habilitando la GPU en Aspose.OCR para Java. Siga nuestra guía paso a paso para un rendimiento superior.
+### [Preprocesar imagen OCR en Java – Mejore la precisión y extraiga texto](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Optimice la precisión del OCR preprocesando imágenes en Java con Aspose.OCR. Siga nuestra guía paso a paso para una extracción de texto superior.
+### [Cómo habilitar GPU para OCR en Java – Reconocer texto de imagen rápidamente](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Acelere el reconocimiento de texto habilitando la GPU en Aspose.OCR para Java. Mejore el rendimiento y procese imágenes rápidamente.
+### [Extraer texto de imagen con Java – Leer VIN de foto](./extract-text-from-image-with-java-read-vin-from-photo/)
+Extraiga el número VIN de una foto usando Aspose.OCR para Java con alta precisión y fácil integración.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

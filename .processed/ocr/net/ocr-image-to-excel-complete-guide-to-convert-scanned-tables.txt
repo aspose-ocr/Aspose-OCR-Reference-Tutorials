@@ -1,0 +1,7 @@
+Title: OCR Image to Excel – Complete Guide to Convert Scanned Tables to Excel
+Slug: ocr-image-to-excel-complete-guide-to-convert-scanned-tables
+Category: image-and-drawing-recognition
+ProcessedDate: 2026-06-25T22:36:56.691741
+SourceRepo: AI Search API
+Keywords: ocr image to excel, extract table from image, how to convert scanned table to excel, convert image to excel
+PRNumber: 157

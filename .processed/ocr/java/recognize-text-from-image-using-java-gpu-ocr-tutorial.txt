@@ -1,0 +1,7 @@
+Title: recognize text from image using Java – GPU OCR tutorial
+Slug: recognize-text-from-image-using-java-gpu-ocr-tutorial
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-31T20:44:41.334925
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from tiff, java image to text conversion
+PRNumber: 136

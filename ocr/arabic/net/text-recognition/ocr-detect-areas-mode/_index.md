@@ -1,32 +1,65 @@
 ---
-title: وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
-linktitle: وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+date: 2026-03-05
+description: Learn how to improve OCR accuracy in .NET applications using Aspose.OCR
+  Detect Areas Mode to extract table text from images.
+linktitle: OCR Detect Areas Mode in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
-weight: 13
+title: Improve OCR Accuracy – Detect Areas Mode in OCR
 url: /ar/net/text-recognition/ocr-detect-areas-mode/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).
+# ocr document mode – وضع اكتشاف المناطق في التعرف على الصور OCR
 
-## مقدمة
+## Introduction
 
-في عالم تكنولوجيا المعلومات سريع الخطى، يلعب التعرف الضوئي على الحروف (OCR) دورًا محوريًا في تحويل الصور إلى نص قابل للتحرير والبحث. يعمل Aspose.OCR for .NET على تمكين المطورين من دمج وظائف التعرف الضوئي على الحروف القوية في تطبيقاتهم دون عناء. في هذا البرنامج التعليمي، سوف نتعمق في وضع مناطق اكتشاف OCR، وهي ميزة قوية تعمل على تحسين التعرف على الصور.
+في تطوير .NET الحديث، **ocr document mode** هو النهج المفضل **لتحسين دقة OCR** عندما تحتاج إلى تحكم دقيق في كيفية اكتشاف النص داخل الصور. تجعل Aspose.OCR for .NET من السهل التبديل بين استراتيجيات الكشف المختلفة، مما يتيح لك **استخراج نص جدول من صورة** من تخطيطات معقدة مثل الإيصالات، الفواتير، أو المستندات متعددة الأعمدة. سيوجهك هذا **aspose ocr tutorial c#** عبر ميزة وضع اكتشاف المناطق، يشرح متى تستخدم كل وضع، ويعرض لك عينة كود جاهزة للتنفيذ.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **What is ocr document mode?** مجموعة من استراتيجيات الكشف (PHOTO, DOCUMENT, COMBINE) التي تخبر Aspose.OCR بكيفية تحديد مناطق النص.
+- **Which mode works best for tables?** وضع `PHOTO` يتفوق في استخراج نص جدول من صورة والكتل النصية الصغيرة.
+- **Do I need a license for development?** ترخيص تجريبي مجاني يكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.
+- **What .NET versions are supported?** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6 وما بعده.
+- **How long does the setup take?** عادةً أقل من 10 دقائق لتكامل وتشغيل عينة الكود.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## How to improve OCR accuracy with Detect Areas Mode?
 
--  Aspose.OCR لـ .NET: قم بتنزيل المكتبة وتثبيتها من[Aspose.OCR لوثائق .NET](https://reference.aspose.com/ocr/net/).
-- دليل المستندات: قم بإعداد دليل حيث يتم تخزين المستندات الخاصة بك، بما في ذلك الصور للتعرف على OCR.
+اختيار **وضع اكتشاف المناطق** المناسب هو الطريقة الأكثر فاعلية لتعزيز دقة OCR على الصور المهيكلة. من خلال إبلاغ المحرك ما إذا كانت الصورة تشبه صورة فوتوغرافية، مستندًا مطبوعًا، أو مزيجًا من الاثنين، تقلل من الاكتشافات الخاطئة، وتسرّع المعالجة، وتحصل على ناتج نص أنظف—خاصة للجداول، الإيصالات، وتخطيطات متعددة الأعمدة.
 
-## استيراد مساحات الأسماء
+## What is ocr document mode?
 
-للبدء، قم باستيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.OCR في تطبيق .NET الخاص بك.
+`ocr document mode` يشير إلى الإعداد الذي يخبر Aspose.OCR بكيفية تقسيم الصورة قبل تنفيذ التعرف على النص. الأنماط الثلاثة المدمجة هي:
+
+- **PHOTO** – مُحسّن للصور الفوتوغرافية، الإيصالات، الفواتير، ومناطق النص الصغيرة (مثالي لاستخراج نص جدول من صورة).
+- **DOCUMENT** – مناسب للصفحات المطبوعة متعددة الأعمدة والمستندات التي تحتوي على رسومات مدمجة.
+- **COMBINE** – يجمع نتائج PHOTO وDOCUMENT لتوفير أقصى تغطية ممكنة.
+
+## Why use Detect Areas Mode?
+
+اختيار وضع الكشف المناسب يقلل من الإيجابيات الكاذبة، يسرّع المعالجة، ويحسن الدقة—وهي عوامل أساسية عندما تسعى **لتحسين دقة OCR** على البيانات المهيكلة مثل الجداول. تخصيص الوضع لنوع الصورة يلغي الحاجة إلى معالجة ما بعد التعرف مكثفة.
+
+## Common Use Cases
+
+| السيناريو | الوضع الموصى به | لماذا يساعد |
+|----------|------------------|--------------|
+| الإيصالات أو الفواتير ذات الجداول الكثيفة | **PHOTO** | يركز على كتل النص الصغيرة ويحافظ على تخطيط الجدول |
+| المجلات أو التقارير متعددة الأعمدة | **DOCUMENT** | يتعامل مع فصل الأعمدة والرسومات المدمجة |
+| المستندات الممسوحة التي تحتوي على صور ونص معًا | **COMBINE** | يستفيد من قوة كل من PHOTO وDOCUMENT |
+
+## Prerequisites
+
+قبل أن تبدأ، تأكد من وجود ما يلي:
+
+- **Aspose.OCR for .NET** – قم بتحميل وتثبيت المكتبة من [Aspose.OCR for .NET documentation](https://reference.aspose.com/ocr/net/).
+- **Document Directory** – مجلد على جهازك يحتوي على الصور التي تريد معالجتها (مثال: `table.png`).
+
+## Import Namespaces
+
+أولاً، استورد المساحات الاسمية المطلوبة للعمل مع Aspose.OCR في مشروع C# الخاص بك.
 
 ```csharp
 using System;
@@ -34,69 +67,78 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## الخطوة 1: تهيئة Aspose.OCR
+## Step 1: Initialize Aspose.OCR
+
+أنشئ مثيلًا لمحرك OCR ووجهه إلى مجلد البيانات الخاص بك.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// تهيئة مثيل AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## الخطوة 2: تحميل الصورة
+## Step 2: Load the Image and Choose Detect Areas Mode
 
-قم بتحميل الصورة التي تريد إجراء التعرف الضوئي على الحروف عليها. تأكد من أن الصورة بتنسيق مدعوم (على سبيل المثال، PNG، JPEG).
+حمّل الصورة المستهدفة وحدد استراتيجية الكشف التي تتطابق مع السيناريو الخاص بك.
 
 ```csharp
-// التعرف على الصورة
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new RecognitionSettings
 {
-    // اختر وضع كشف المناطق
+    // Choose the Detect Areas Mode
     DetectAreasMode = DetectAreasMode.PHOTO
-    // خيارات أخرى: لا شيء، وثيقة، الجمع
+    // Other options: NONE, DOCUMENT, COMBINE
 });
 ```
 
-## الخطوة 3: ضبط وضع الكشف عن المناطق
+## Step 3: Retrieve and Display the Recognized Text
 
-حدد وضع اكتشاف المناطق وفقًا لمتطلباتك. اختر من:
-- الصورة: الأفضل للصور التي تحتوي على مناطق نصية صغيرة، وجداول، وإيصالات، وفواتير.
-- المستند: مثالي للنص متعدد الأعمدة، والنص الذي يحتوي على صور صغيرة.
-- COMBINE: يستخدم اتحاد الوضعين DOCUMENT وPHOTO.
+بعد إكمال OCR، يمكنك الوصول إلى النص المستخرج—مثالي للمعالجة الإضافية أو التخزين في قاعدة بيانات.
 
 ```csharp
-// عرض النص الذي تم التعرف عليه
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 
 Console.WriteLine("OCRDetectAreasMode executed successfully");
 ```
 
-## خاتمة
+## Common Issues and Solutions
 
-يعمل Aspose.OCR for .NET على تبسيط التعرف على الصور باستخدام OCR من خلال توفير حل متعدد الاستخدامات وفعال. من خلال استكشاف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR)، يمكن للمطورين تخصيص عمليات التعرف الضوئي على الحروف (OCR) بما يتناسب مع احتياجات محددة، مما يضمن استخراج النص الدقيق والسريع من الصور.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| **Blank output** | وضع `DetectAreasMode` غير مناسب لنوع الصورة | التحويل إلى `DOCUMENT` أو `COMBINE` حسب التخطيط |
+| **Garbage characters** | صورة منخفضة الدقة | توفير مصدر بدقة أعلى أو معالجة مسبقة بتحسين الصورة |
+| **Timeouts on large files** | نقص الذاكرة | استخدم `RecognitionSettings` لتحديد حجم المنطقة أو عالج الصفحات على دفعات |
 
-## الأسئلة الشائعة
+## Frequently Asked Questions
 
-### س١: هل Aspose.OCR for .NET مناسب للتطبيقات واسعة النطاق؟
+**Q: Is Aspose.OCR for .NET suitable for large‑scale applications?**  
+A: نعم، تم تصميمه للتعامل مع أحجام OCR عالية مع أداء محسن.
 
-ج1: نعم، تم تصميم Aspose.OCR لـ .NET للتعامل مع متطلبات التعرف الضوئي على الحروف واسعة النطاق بكفاءة ودقة.
+**Q: Can I use Aspose.OCR for .NET to recognize handwritten text?**  
+A: تركز المكتبة على النص المطبوع؛ قد يتطلب التعرف على الخط اليدوي محركًا متخصصًا.
 
-### س2: هل يمكنني استخدام Aspose.OCR لـ .NET للتعرف على النص المكتوب بخط اليد؟
+**Q: What image formats are supported?**  
+A: الصيغ الشائعة مثل PNG، JPEG، BMP، وTIFF مدعومة بالكامل.
 
-A2: يركز Aspose.OCR لـ .NET بشكل أساسي على التعرف على النص المطبوع وقد لا يوفر النتائج المثلى للنص المكتوب بخط اليد.
+**Q: How can I get technical support?**  
+A: زر [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) لطرح الأسئلة والتفاعل مع المجتمع.
 
-### س3: هل هناك أي قيود على تنسيقات الصور التي يدعمها Aspose.OCR لـ .NET؟
+**Q: Is there a free trial available?**  
+A: نعم، يمكنك استكشاف القدرات باستخدام [free trial license](https://releases.aspose.com/).
 
-ج3: يدعم Aspose.OCR for .NET تنسيقات الصور الشائعة مثل PNG، وJPEG، وBMP.
+## Conclusion
 
-### س 4: كيف يمكنني الحصول على الدعم الفني لـ Aspose.OCR لـ .NET؟
+من خلال إتقان **ocr document mode** وخيارات وضع اكتشاف المناطق، يمكنك ضبط Aspose.OCR for .NET بدقة **لتحسين دقة OCR** عند استخراج نص جدول من صورة وغيرها من البيانات المهيكلة. دمج هذا النهج في تطبيقاتك يتيح أتمتة إدخال البيانات، معالجة الفواتير، أو أي سيناريو يتطلب تحويل الصور إلى نص قابل للبحث.
 
- ج4: قم بزيارة[منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16) لطلب المساعدة التقنية والتفاعل مع المجتمع.
+---
 
-### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.OCR لـ .NET؟
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- ج5: نعم، يمكنك استكشاف إمكانيات Aspose.OCR لـ .NET عن طريق الحصول على[رخصة تجريبية مجانية](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

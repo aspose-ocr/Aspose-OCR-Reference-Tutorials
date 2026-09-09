@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with Aspose OCR – Complete Programming Guide
+Slug: create-searchable-pdf-with-aspose-ocr-complete-programming-g
+Category: ocr-optimization
+ProcessedDate: 2026-05-22T08:28:29.585609
+SourceRepo: AI Search API
+Keywords: create searchable pdf, improve ocr accuracy, load image for ocr
+PRNumber: 129

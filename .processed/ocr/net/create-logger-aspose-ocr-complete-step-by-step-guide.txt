@@ -1,0 +1,7 @@
+Title: Create Logger Aspose OCR – Complete Step‑by‑Step Guide
+Slug: create-logger-aspose-ocr-complete-step-by-step-guide
+Category: ocr-configuration
+ProcessedDate: 2026-08-03T06:16:31.959537
+SourceRepo: AI Search API
+Keywords: create logger aspose ocr
+PRNumber: 191

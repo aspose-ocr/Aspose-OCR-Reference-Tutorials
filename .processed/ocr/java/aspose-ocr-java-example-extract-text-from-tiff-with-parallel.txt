@@ -1,0 +1,7 @@
+Title: Aspose OCR Java Example – Extract Text from TIFF with Parallel Processing
+Slug: aspose-ocr-java-example-extract-text-from-tiff-with-parallel
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-25T23:08:38.796265
+SourceRepo: AI Search API
+Keywords: aspose ocr java example, how to extract text, extract text from tiff, how to configure ocr, parallel ocr processing
+PRNumber: 158

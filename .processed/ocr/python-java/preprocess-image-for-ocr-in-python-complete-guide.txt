@@ -1,0 +1,7 @@
+Title: Preprocess Image for OCR in Python – Complete Guide
+Slug: preprocess-image-for-ocr-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-26T00:08:10.750111
+SourceRepo: AI Search API
+Keywords: preprocess image for ocr, recognize text from scanned document
+PRNumber: 160

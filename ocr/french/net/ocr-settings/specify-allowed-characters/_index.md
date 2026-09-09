@@ -1,33 +1,45 @@
 ---
-title: Spécifier les caractères autorisés dans la reconnaissance d'images OCR
-linktitle: Spécifier les caractères autorisés dans la reconnaissance d'images OCR
-second_title: API Aspose.OCR .NET
-description: Débloquez un OCR précis dans .NET avec Aspose.OCR. Reconnaissez le texte des images sans effort. Téléchargez dès maintenant pour une expérience de développement transformatrice.
-weight: 13
+description: Apprenez à spécifier les caractères autorisés pour l’OCR avec Aspose.OCR
+  pour .NET et à reconnaître efficacement les images de chiffres. Suivez un guide
+  étape par étape pour limiter l’OCR aux seuls chiffres.
+linktitle: Specify Allowed Characters OCR – Using Aspose.OCR for .NET
+second_title: Aspose.OCR .NET API
+title: Spécifier les caractères autorisés OCR – Utilisation d’Aspose.OCR pour .NET
 url: /fr/net/ocr-settings/specify-allowed-characters/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Spécifier les caractères autorisés dans la reconnaissance d'images OCR
+# Spécifier les caractères autorisés OCR – Utilisation d'Aspose.OCR pour .NET
 
-## Introduction
+Dans ce tutoriel, vous apprendrez comment **specify allowed characters ocr** avec Aspose.OCR pour .NET, vous permettant de restreindre la sortie OCR aux seuls caractères dont vous avez besoin. C’est particulièrement pratique lorsque vous devez **recognize digits image** des fichiers tels que des numéros de série, des ID de factures ou des chaînes de type code‑barres. Nous parcourrons la configuration, le code et quelques scénarios pratiques afin que vous puissiez appliquer la technique immédiatement.
 
-Dans un paysage technologique en constante évolution, la reconnaissance optique de caractères (OCR) est apparue comme un outil de transformation, permettant aux machines de comprendre du texte à partir d'images. Aspose.OCR for .NET se distingue comme une solution puissante, offrant une intégration transparente aux développeurs recherchant des fonctionnalités OCR robustes dans leurs applications .NET.
+## Réponses rapides
+- **Que fait “specify allowed characters ocr” ?** Il limite l’OCR à un ensemble prédéfini de caractères, améliorant la précision pour les données ciblées.  
+- **Quels caractères puis‑je autoriser ?** Toute combinaison dont vous avez besoin — chiffres, lettres ou symboles personnalisés (par ex. « 0123456789 »).  
+- **Pourquoi limiter les caractères ?** Réduit les reconnaissances erronées et accélère le traitement lorsque l’ensemble de caractères attendu est connu.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Conditions préalables
+## Qu’est‑ce que “specify allowed characters ocr” ?
+Lorsque l’OCR analyse une image, il tente de faire correspondre chaque motif visuel à l’alphabet complet des caractères possibles. En **specify allowed characters ocr**, vous indiquez au moteur d’ignorer tout ce qui n’est pas dans votre liste blanche, ce qui améliore considérablement la précision de reconnaissance pour des ensembles de données restreints.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Pourquoi utiliser Aspose.OCR pour **recognize digits image** ?
+Aspose.OCR fournit une API propre et fluide pour les développeurs .NET. Son option intégrée `AllowedCharacters` vous permet de vous concentrer sur des scénarios uniquement numériques sans écrire de logique de post‑traitement personnalisée. C’est parfait pour :
+- Lire les relevés de compteurs, les numéros de factures ou les codes produit.  
+- Valider les données saisies par l’utilisateur capturées à partir de formulaires numérisés.  
+- Accélérer le traitement par lots lorsque l’ensemble de caractères est connu à l’avance.
 
-- Une connaissance pratique du développement .NET.
--  Aspose.OCR pour la bibliothèque .NET. Vous pouvez le télécharger[ici](https://releases.aspose.com/ocr/net/).
-- Familiarité avec Visual Studio ou tout autre environnement de développement .NET préféré.
+## Prérequis
+- Une connaissance pratique du développement .NET.  
+- **Aspose.OCR for .NET** library. Vous pouvez le télécharger [ici](https://releases.aspose.com/ocr/net/).  
+- Visual Studio (ou tout IDE .NET préféré).  
 
-## Importer des espaces de noms
-
-Dans votre projet .NET, importez les espaces de noms nécessaires pour exploiter efficacement les fonctionnalités d'Aspose.OCR pour .NET :
+## Importer les espaces de noms
+Dans votre projet .NET, importez les espaces de noms nécessaires pour exploiter les fonctionnalités d’Aspose.OCR :
 
 ```csharp
 using System;
@@ -35,43 +47,40 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Maintenant, décomposons le didacticiel en une série d'étapes complètes :
+Maintenant, décomposons le tutoriel en une série d’étapes complètes :
 
-## Étape 1 : Spécifiez les caractères autorisés dans la reconnaissance d'images OCR
+## Comment spécifier les caractères autorisés OCR – Guide étape par étape
 
-Pour commencer, configurez le chemin d'accès à votre répertoire de documents :
+### Étape 1 : Définir le chemin vers votre dossier d’images
+Tout d’abord, définissez où vos images d’exemple sont stockées.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : initialiser Aspose.OCR avec les symboles autorisés
-
-Créez une instance d'AsposeOcr, en spécifiant les symboles autorisés. Dans ce cas, nous autorisons les chiffres (0-9) :
+### Étape 2 : Initialiser Aspose.OCR avec une liste blanche contenant uniquement des chiffres
+Créez une instance `AsposeOcr` et transmettez les caractères que vous souhaitez autoriser — dans ce cas, tous les chiffres.
 
 ```csharp
 AsposeOcr api = new AsposeOcr("0123456789");
 ```
 
-## Étape 3 : Reconnaître l'image
-
-Utilisez l'instance AsposeOcr pour reconnaître le texte d'une image :
+### Étape 3 : Reconnaître une ligne unique contenant des chiffres
+Utilisez la méthode `RecognizeLine` pour extraire le texte d’une image qui ne contient que des nombres.
 
 ```csharp
 string result = api.RecognizeLine(dataDir + "0001460985.Jpeg");
 ```
 
-## Étape 4 : Afficher le texte reconnu
-
-Imprimez le texte reconnu sur la console :
+### Étape 4 : Afficher les chiffres reconnus
+Affichez le résultat dans la console afin de pouvoir vérifier la sortie.
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-## Étape 5 : Deuxième cas – Reconnaître l'image avec des paramètres spécifiques
-
-Initialisez une autre instance AsposeOcr, cette fois avec des paramètres plus spécifiques :
+### Étape 5 : Utiliser RecognitionSettings pour plus de contrôle
+Si vous avez besoin d’un contrôle plus fin—par exemple forcer la reconnaissance d’une seule ligne—vous pouvez utiliser la surcharge qui accepte `RecognitionSettings`.
 
 ```csharp
 AsposeOcr api2 = new AsposeOcr();
@@ -82,49 +91,46 @@ RecognitionResult result2 = api2.RecognizeImage(dataDir + "0001460985.Jpeg",
     });
 ```
 
-## Étape 6 : Afficher le texte reconnu en deuxième casse
-
-Imprimez le texte reconnu du deuxième cas sur la console :
+### Étape 6 : Afficher le résultat du deuxième cas
 
 ```csharp
 Console.WriteLine(result2.RecognitionText);
 ```
 
-## Étape 7 : Exécution réussie
-
-Enfin, confirmez la bonne exécution du tutoriel SpecifyAllowedCharacters :
+### Étape 7 : Confirmer l’exécution réussie
 
 ```csharp
 Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ```
 
-En suivant ces étapes, vous avez débloqué la possibilité de spécifier les caractères autorisés dans la reconnaissance d'images OCR à l'aide d'Aspose.OCR pour .NET.
+En suivant ces étapes, vous avez appris comment **specify allowed characters ocr** et reconnaître efficacement le contenu **recognize digits image** à l’aide d’Aspose.OCR pour .NET.
 
-## Conclusion
+## Pièges courants et dépannage
+- **Empty result** : Assurez‑vous que la qualité de l’image est suffisante (contraste net, bruit minimal).  
+- **Wrong characters returned** : Vérifiez que la chaîne de la liste blanche correspond exactement aux caractères attendus.  
+- **File not found** : Vérifiez que `dataDir` pointe vers le bon dossier et que le nom du fichier respecte la casse.
 
-Aspose.OCR for .NET permet aux développeurs d'intégrer de manière transparente les fonctionnalités OCR dans leurs applications, ouvrant ainsi la porte à des solutions innovantes dans divers domaines. Profitez de la puissance de l'OCR et améliorez vos projets grâce à une reconnaissance de texte précise.
+## Questions fréquemment posées
 
-## FAQ
+### Q1 : Aspose.OCR for .NET convient‑il aux débutants comme aux développeurs expérimentés ?
+**A:** Absolument ! L’API est conçue pour être intuitive pour les nouveaux venus tout en offrant des options avancées pour les utilisateurs expérimentés.
 
-### Q1 : Aspose.OCR pour .NET convient-il aussi bien aux développeurs débutants qu’expérimentés ?
+### Q2 : Puis‑je utiliser Aspose.OCR for .NET pour reconnaître des caractères en plusieurs langues ?
+**A:** Oui, Aspose.OCR prend en charge un large éventail de langues. Vous pouvez combiner les packs de langues avec la fonctionnalité allowed‑characters pour des scénarios multilingues.
 
-A1 : Absolument ! Aspose.OCR pour .NET s'adresse aux développeurs de tous niveaux, offrant des fonctionnalités intuitives pour une intégration transparente.
+### Q3 : À quelle fréquence Aspose.OCR for .NET est‑il mis à jour ?
+**A:** Les mises à jour sont publiées régulièrement pour ajouter de nouvelles fonctionnalités, améliorer la précision et garantir la compatibilité. Consultez la [documentation](https://reference.aspose.com/ocr/net/) pour les détails de la dernière version.
 
-### Q2 : Puis-je utiliser Aspose.OCR pour .NET pour reconnaître des caractères dans plusieurs langues ?
+### Q4 : Existe‑t‑il un essai gratuit disponible pour Aspose.OCR for .NET ?
+**A:** Oui, vous pouvez explorer les fonctionnalités en téléchargeant l’[essai gratuit](https://releases.aspose.com/).
 
-A2 : Oui, Aspose.OCR prend en charge la reconnaissance dans plusieurs langues, ce qui le rend polyvalent pour diverses applications.
+### Q5 : Où puis‑je obtenir de l’aide ou rejoindre la communauté pour du support ?
+**A:** Rendez‑vous sur le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour poser des questions, partager des expériences et obtenir de l’aide tant des ingénieurs Aspose que des autres développeurs.
 
-### Q3 : À quelle fréquence Aspose.OCR pour .NET est-il mis à jour ?
+**Dernière mise à jour :** 2026-02-15  
+**Testé avec :** Aspose.OCR 24.11 for .NET  
+**Auteur :** Aspose  
 
- A3 : Des mises à jour sont régulièrement publiées pour garantir la compatibilité avec les dernières technologies et résoudre tout problème potentiel. Vérifier la[Documentation](https://reference.aspose.com/ocr/net/) pour les dernières informations.
-
-### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.OCR pour .NET ?
-
- A4 : Oui, vous pouvez explorer les capacités d'Aspose.OCR en téléchargeant le[essai gratuit](https://releases.aspose.com/).
-
-### Q5 : Où puis-je demander de l'aide ou contacter la communauté pour obtenir de l'aide ?
-
- A5 : Visitez le[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour interagir avec la communauté et obtenir l’aide d’experts.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: OCR Region of Interest – Extract Text from Rectangle in Python
+Slug: ocr-region-of-interest-extract-text-from-rectangle-in-python
+Category: general
+ProcessedDate: 2026-05-31T21:16:19.793163
+SourceRepo: AI Search API
+Keywords: ocr region of interest, extract text from rectangle, load image for ocr, how to extract amount, recognize text from invoice
+PRNumber: 138

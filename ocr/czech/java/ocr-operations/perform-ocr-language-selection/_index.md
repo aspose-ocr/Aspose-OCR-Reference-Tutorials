@@ -1,11 +1,11 @@
 ---
-date: 2025-12-13
-description: Naučte se, jak extrahovat text z obrázku pomocí Aspose.OCR pro Javu s
-  výběrem jazyka. Tento krok‑za‑krokem tutoriál Aspose OCR pro Javu ukazuje přesnou
-  konfiguraci OCR.
-linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+date: 2026-02-12
+description: Naučte se, jak pomocí Aspose.OCR pro Javu provádět OCR textu z obrázku
+  s výběrem jazyka. Tento krok‑za‑krokem průvodce zahrnuje extrakci textu v Javě,
+  korekci zkosení OCR a další.
+linktitle: How to OCR Image Text with Language Using Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Jak extrahovat text z obrázku s výběrem jazyka pomocí Aspose.OCR
+title: Jak pomocí Aspose.OCR provést OCR textu na obrázku s jazykem
 url: /cs/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
@@ -14,25 +14,33 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak extrahovat text z obrázku s výběrem jazyka pomocí Aspose.OCR
+# Jak provést OCR textu z obrázku s jazykem pomocí Aspose.OCR
 
 ## Úvod
 
-Extrahování textu z obrazových souborů je běžná potřeba, ať už digitalizujete naskenované dokumenty, zpracováváte účtenky nebo vytváříte prohledávatelné archivy. Aspose.OCR pro Java tuto úlohu zjednodušuje a poskytuje detailní kontrolu nad výběrem jazyka, korekcí sklonu a oblastmi rozpoznávání. V tomto tutoriálu projdeme kompletním praktickým příkladem, který ukazuje **jak extrahovat text z obrázku** s konkrétním nastavením jazyka, takže můžete ještě dnes integrovat spolehlivý OCR do svých Java aplikací.
+Extrahování textu z obrazových souborů je běžná potřeba, ať už digitalizujete naskenované dokumenty, zpracováváte účtenky nebo budujete prohledávatelné archivy. V tomto tutoriálu vás provedeme kompletním praktickým příkladem, který ukazuje **jak provést OCR textu z obrázku** s konkrétním nastavením jazyka, takže můžete ještě dnes integrovat spolehlivé OCR do svých Java aplikací. Také uvidíte, jak řešit korekci sklonu OCR a rozpoznávání založené na regionech pro optimální přesnost.
 
 ## Rychlé odpovědi
-- **Která knihovna provádí OCR v Javě?** Aspose.OCR pro Java  
+- **Jaká knihovna provádí OCR v Javě?** Aspose.OCR for Java  
 - **Které nastavení vybírá jazyk?** `settings.setLanguage(Language.Eng)` (nebo jakýkoli podporovaný jazyk)  
-- **Potřebuji licenci pro vývoj?** Pro testování stačí bezplatná evaluační licence; pro produkci je vyžadována komerční licence.  
+- **Potřebuji licenci pro vývoj?** Bezplatná evaluační licence funguje pro testování; pro produkci je vyžadována komerční licence.  
 - **Mohu omezit OCR na oblast obrázku?** Ano, použijte `RecognitionSettings.setRecognitionAreas()` s obdélníky.  
 - **Jaký je typický čas běhu?** Několik sekund na stránku na standardním notebooku, v závislosti na velikosti obrázku a složitosti jazyka.
 
-## Co je „extrahovat text z obrázku“?
-Extrahování textu z obrázku (OCR) převádí vizuální reprezentaci znaků na strojově čitelné řetězce. To umožňuje vyhledávání, analytiku a workflow pro extrakci dat, které by jinak vyžadovaly ruční přepis.
+## Jak provést OCR textu z obrázku s výběrem jazyka
+V této sekci odpovídáme na hlavní otázku **jak provést OCR** obrázku, když znáte jazyk textu. Výběr správného jazyka dramaticky zvyšuje přesnost rozpoznání, protože OCR engine může použít jazykově specifické slovníky a modely znaků.
+
+### Proč je to důležité
+- **Vyšší přesnost** – jazykově specifické modely snižují chybné rozpoznání.  
+- **Zvýšení výkonu** – engine vynechává zbytečné kontroly jiných jazyků.  
+- **Lepší zacházení s diakritikou** – francouzština, španělština, němčina atd. jsou rozpoznány správně, když je použeno odpovídající `Language` enum.
+
+## Co je „extrahování textu z obrázku“?
+Extrahování textu z obrázku (OCR) převádí vizuální reprezentaci znaků na strojově čitelné řetězce. To umožňuje vyhledávání, analytiku a workflow pro získávání dat, které by jinak vyžadovaly ruční přepis.
 
 ## Proč použít Aspose.OCR s výběrem jazyka?
-- **Podpora více jazyků** – Vyberte přesně jazyk(y) obsažené v obrázku a zvýšíte tak přesnost.  
-- **Detailní kontrola** – Nastavte korekci sklonu, definujte oblasti rozpoznávání a nastavte chování auto‑sklonu.  
+- **Podpora více jazyků** – Vyberte přesně jazyk(y) přítomné v obrázku a zvýšte přesnost.  
+- **Jemná kontrola** – Nastavte korekci sklonu, definujte oblasti rozpoznávání a nastavte chování auto‑sklonu.  
 - **Čisté Java API** – Žádné nativní závislosti, snadná integrace do jakéhokoli Java projektu.  
 - **Bohatá výstupní data** – Získáte prostý text, JSON, ohraničující obdélníky a varování v jednom volání.
 
@@ -41,12 +49,12 @@ Extrahování textu z obrázku (OCR) převádí vizuální reprezentaci znaků n
 Než začnete, ujistěte se, že máte:
 
 - **Java Development Kit (JDK)** nainstalovaný (JDK 8 nebo novější).  
-- **Aspose.OCR pro Java** knihovnu – stáhněte ji z oficiálního webu [here](https://reference.aspose.com/ocr/java/).  
+- **Aspose.OCR for Java** knihovnu – stáhněte ji z oficiální stránky [here](https://reference.aspose.com/ocr/java/).  
 - Soubor obrázku, který obsahuje text, který chcete extrahovat, např. `p3.png`.
 
 ## Import balíčků
 
-Ve svém Java zdrojovém souboru zahrňte požadované třídy Aspose.OCR a standardní Java utility:
+Ve vašem Java zdrojovém souboru zahrňte požadované Aspose.OCR třídy a standardní Java utility:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -108,8 +116,8 @@ settings.setLanguage(Language.Eng);
 
 Zde:
 
-1. Zakážeme auto‑sklon, protože poskytujeme ruční hodnotu sklonu.  
-2. Definujeme obdélníkovou oblast (`RecognitionAreas`), která omezuje OCR na část obrázku, která skutečně obsahuje text.  
+1. Vypneme auto‑sklon, protože poskytujeme manuální hodnotu sklonu.  
+2. Definujeme obdélníkovou oblast (`RecognitionAreas`), abychom omezili OCR na část obrázku, která skutečně obsahuje text.  
 3. Nastavíme **jazyk** na angličtinu (`Language.Eng`). Změňte na `Language.Fra`, `Language.Spa` atd., podle vašeho zdrojového obrázku.
 
 ### Krok 5: Proveďte OCR a získejte výsledky
@@ -124,7 +132,7 @@ try {
 }
 ```
 
-Volání `RecognizePage` spustí OCR engine s obrázkem a nastaveními, která jste definovali. Výsledek je uložen v objektu `RecognitionResult`.
+Volání `RecognizePage` spustí OCR engine s obrázkem a nastavením, která jste definovali. Výsledek je uložen v objektu `RecognitionResult`.
 
 ### Krok 6: Vytiskněte a využijte výsledky
 
@@ -149,26 +157,26 @@ System.out.println("OCROperationWithLanguageSelection: execution complete");
 Výstup v konzoli ukazuje:
 
 - Celý extrahovaný text (`recognitionText`).  
-- Text pro každou definovanou oblast (`recognitionAreasText`).  
+- Text pro každý definovaný obdélník (`recognitionAreasText`).  
 - Souřadnice ohraničujících obdélníků.  
 - JSON reprezentaci pro snadné další zpracování.  
 - Detekovaný úhel sklonu a případná varování.
 
-Nyní můžete `result.recognitionText` předat své obchodní logice – uložit, indexovat nebo poslat dalšímu servisu.
+Nyní můžete `result.recognitionText` předat do své obchodní logiky – uložit, indexovat nebo předat dalšímu servisu.
 
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
 |-------|-------|-----|
-| **Špatné znaky** | Nesprávně vybraný jazyk | Nastavte správný `Language` enum (např. `Language.Fra` pro francouzštinu). |
-| **Žádný text** | Oblast rozpoznávání neobsahuje text | Upravit souřadnice `Rectangle` nebo odstranit `RecognitionAreas` a zpracovat celý obrázek. |
-| **Nízký výkon** | Velmi velký obrázek nebo vysoké rozlišení | Před OCR zmenšete obrázek nebo zvýšte alokaci paměti pro JVM. |
-| **Varování o nepodporovaném formátu** | Formát obrázku není rozpoznán | Převeďte obrázek na PNG, JPEG nebo TIFF před zpracováním. |
+| **Garbage characters** | Špatně vybraný jazyk | Nastavte správný `Language` enum (např. `Language.Fra` pro francouzštinu). |
+| **No text returned** | Oblast rozpoznávání nepokrývá text | Upravit souřadnice `Rectangle` nebo odstranit `RecognitionAreas` pro zpracování celého obrázku. |
+| **Slow performance** | Velmi velký obrázek nebo vysoké rozlišení | Zmenšete obrázek před OCR nebo zvýšte alokaci paměti pro JVM. |
+| **Warnings about unsupported format** | Formát obrázku není rozpoznán | Převeďte obrázek na PNG, JPEG nebo TIFF před zpracováním. |
 
 ## Často kladené otázky
 
-**Q: Mohu rozpoznat více jazyků v jednom OCR volání?**  
-A: Ano. Použijte `settings.setLanguage(Language.Eng | Language.Fra)` pro povolení vícejazyčného rozpoznávání.
+**Q: Mohu rozpoznat více jazyků v jednom volání OCR?**  
+A: Ano. Použijte `settings.setLanguage(Language.Eng | Language.Fra)` pro povolení vícejazykového rozpoznání.
 
 **Q: Jaké formáty obrázků Aspose.OCR podporuje?**  
 A: PNG, JPEG, BMP, TIFF, GIF a několik dalších. Stačí zadat správnou cestu k souboru.
@@ -179,18 +187,18 @@ A: Neexistuje pevný limit, ale velmi velké obrázky zvyšují spotřebu pamět
 **Q: Jak získám produkční licenci?**  
 A: Zakupte licenci na webu Aspose a aplikujte ji pomocí třídy `License`, jak je ukázáno v dokumentaci Aspose.
 
-**Q: Můžu přímo extrahovat text z PDF stránky?**  
-A: Ne přímo pomocí Aspose.OCR. Nejprve převěďte PDF stránku na obrázek (např. pomocí Aspose.PDF) a pak spusťte OCR.
+**Q: Mohu přímo extrahovat text z PDF stránky?**  
+A: Ne přímo pomocí Aspose.OCR. Nejprve převěďte PDF stránku na obrázek (např. pomocí Aspose.PDF) a poté spusťte OCR.
 
 ## Závěr
 
-Nyní víte, jak **extrahovat text z obrázku** pomocí Aspose.OCR pro Java při výběru vhodného jazyka a omezení rozpoznávání na konkrétní oblasti. Tento přístup poskytuje přesný a výkonný OCR, který lze vložit do jakéhokoli Java‑based workflow – od systémů správy dokumentů po datové zachytávací pipeline.
+Nyní jste viděli, jak **extrahovat text z obrázku** pomocí Aspose.OCR pro Java při výběru vhodného jazyka a omezení rozpoznávání na konkrétní oblasti. Tento přístup poskytuje přesné, výkonné OCR, které lze vložit do jakéhokoli Java‑based workflow – od systémů správy dokumentů po datové zachytávací pipeline. Připravení pokračovat? Vyzkoušejte změnu jazykového enumu, experimentujte s různými oblastmi rozpoznávání a integrujte výsledky do vlastní aplikační logiky.
 
 ---
 
-**Poslední aktualizace:** 2025-12-13  
-**Testováno s:** Aspose.OCR 24.11 pro Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

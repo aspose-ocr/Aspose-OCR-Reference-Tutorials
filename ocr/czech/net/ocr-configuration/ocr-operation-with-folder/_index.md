@@ -1,34 +1,56 @@
 ---
-title: OCROoperace se složkou v OCR rozpoznávání obrazu
-linktitle: OCROoperace se složkou v OCR rozpoznávání obrazu
+date: 2026-02-25
+description: Naučte se, jak pomocí Aspose.OCR pro .NET extrahovat text z obrázků a
+  umožnit rozpoznávání OCR obrázků na úrovni složek.
+linktitle: OCROperation with Folder in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte text z obrázků bez námahy.
-weight: 11
+title: Extrahovat text z obrázků pomocí OCR operace na složkách
 url: /cs/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCROoperace se složkou v OCR rozpoznávání obrazu
+# Extrahovat text z obrázků pomocí OCR operace na složkách
 
 ## Úvod
 
-Vítejte ve světě optického rozpoznávání znaků (OCR) pomocí Aspose.OCR pro .NET! Pokud hledáte bezproblémové extrahování textu z obrázků v rámci vašich aplikací .NET, jste na správném místě. Tento výukový program vás provede procesem rozpoznávání obrazu OCR pomocí složek a využije výkonné možnosti Aspose.OCR.
+Vítejte ve světě Optical Character Recognition (OCR) s **Aspose.OCR for .NET**! Pokud potřebujete **extrahovat text z obrázků** hromadně — například z celé složky naskenovaných dokumentů — tento tutoriál vás provede praktickým řešením. Pokryjeme vše od nastavení projektu až po výpis rozpoznaného textu, abyste mohli rychle integrovat OCR na úrovni složek do svých C# aplikací. Na konci také uvidíte, jak tento přístup umožňuje **převést obrázky na text**, **extrahovat text ze skenovaných dokumentů** a **číst text z obrázku v C#** pomocí několika řádků kódu.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tento tutoriál učí?** Jak extrahovat text z obrázků uložených ve složce pomocí Aspose.OCR.  
+- **Jaký jazyk a platforma?** C# s .NET (Framework nebo .NET Core).  
+- **Klíčový předpoklad?** Knihovna Aspose.OCR for .NET (odkaz ke stažení níže).  
+- **Kolik řádků kódu?** Pouze sedm stručných bloků kódu.  
+- **Mohu převést obrázky na text?** Ano — tento příklad přesně ukazuje, jak na to.
 
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co znamená „extrahovat text z obrázků“?
+Extrahování textu z obrázků znamená použití OCR technologie k přečtení znaků vložených do obrázků, PDF nebo naskenovaných dokumentů a jejich převod na editovatelné, prohledávatelné řetězce. Aspose.OCR poskytuje výkonný engine, který podporuje mnoho formátů obrázků a jazyků.
 
-- Pracovní znalost vývoje C# a .NET.
-- Visual Studio nainstalované na vašem počítači.
--  Aspose.OCR for .NET knihovna, kterou si můžete stáhnout[tady](https://releases.aspose.com/ocr/net/).
-- Základní porozumění konceptům OCR.
+## Proč použít Aspose.OCR pro OCR na úrovni složek?
+- **Vysoká přesnost** s vestavěnou detekcí jazyka.  
+- **Dávkové zpracování** pomocí `RecognizeMultipleImages`, ideální pro složky.  
+- **Jednoduché API**, které se přirozeně hodí do C# projektů.  
+- **Škálovatelnost** – funguje jak na desktopu, tak na serverových prostředích.
 
-## Importovat jmenné prostory
+## Běžné případy použití
+- Digitalizace knihovny naskenovaných faktur nebo účtenek.  
+- Převod archivovaných souborů PNG/JPEG na prohledávatelný text pro indexaci.  
+- Automatizace zadávání dat čtením textu z obrázků štítků produktů.  
+- Vytvoření funkce vyhledávání v dokumentech, která potřebuje **extrahovat text ze skenovaných dokumentů** za běhu.
 
-V kódu C# se ujistěte, že importujete potřebné jmenné prostory pro použití Aspose.OCR. Na začátek skriptu uveďte následující:
+## Požadavky
+
+- Základní znalost C# a vývoje v .NET.  
+- Visual Studio (libovolná recentní edice).  
+- Knihovna **Aspose.OCR for .NET** – stáhněte ji [zde](https://releases.aspose.com/ocr/net/).  
+- Pochopení konceptů OCR (volitelné, ale užitečné).
+
+## Import Namespaces
+
+Přidejte požadované `using` direktivy na začátek vašeho C# souboru, aby kompilátor věděl, kde najít OCR třídy.
 
 ```csharp
 using System;
@@ -38,92 +60,107 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Průvodce krok za krokem
+
+### Krok 1: Nastavení adresáře dokumentů
+Definujte složku, která obsahuje obrázky, jež chcete zpracovat.
 
 ```csharp
-// Start: 1
-// Cesta k adresáři dokumentů.
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Ujistěte se, že jste nahradili "Your Document Directory" skutečnou cestou, kde jsou uloženy vaše obrázky.
+> **Tip:** Použijte absolutní cestu nebo `Path.Combine`, abyste se vyhnuli problémům s oddělovači cest na různých OS.
 
-## Krok 2: Inicializujte Aspose.OCR
+### Krok 2: Inicializace Aspose.OCR
+Vytvořte instanci OCR enginu.
 
 ```csharp
-// Inicializujte instanci AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Vytvořte instanci třídy AsposeOcr, abyste mohli využívat její funkce.
-
-## Krok 3: Zadejte cestu obrázku
+### Krok 3: Specifikace cesty k obrázkům
+Ukazujte API na konkrétní podadresář, který obsahuje vaše soubory obrázků.
 
 ```csharp
-//Cesta obrázku
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-Spojte cestu k adresáři dokumentu s konkrétní složkou obsahující vaše obrázky.
+> **Proč je to důležité:** Metoda `RecognizeMultipleImages` očekává cestu ke složce, nikoli k jednotlivému souboru.
 
-## Krok 4: Rozpoznejte obrázky
+### Krok 4: Rozpoznání obrázků
+Spusťte OCR na každém obrázku ve složce. Můžete přizpůsobit `RecognitionSettings`, pokud potřebujete jazykové nápovědy nebo specifické předzpracování.
 
 ```csharp
-// Rozpoznat obrázek
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //výchozí nebo vlastní
+    //default or custom
 });
 ```
 
-Použijte metodu RecognizeMultipleImages k provedení OCR na více obrazech v zadané složce.
-
-## Krok 5: Tisk výsledků
+### Krok 5: Výpis výsledků
+Projděte vrácené pole `RecognitionResult` a vypište extrahovaný text.
 
 ```csharp
-// Vytisknout výsledek
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-Projděte si výsledky a vytiskněte rozpoznaný text pro každý obrázek.
+> **Častá chyba:** Zapomenutí zkontrolovat `result.Length` může způsobit `IndexOutOfRangeException`, když je složka prázdná. Vždy nejprve ověřte obsah složky.
 
-## Krok 6: Závěr
+### Krok 6: Zpráva o dokončení
+Signalizujte úspěšné provedení.
 
 ```csharp
-// Rozšíření: 1
+// ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-Zajistěte, aby bylo dosaženo uzavření skriptu, což znamená úspěšné provedení operace OCR se složkami.
+## Tipy a osvědčené postupy
 
-## Závěr
+- **Velikost dávky:** Pokud zpracováváte tisíce souborů, zvažte rozdělení složky na menší dávky, aby byl paměťový výdej předvídatelný.  
+- **Jazykové nápovědy:** Zadání správného jazykového kódu v `RecognitionSettings` výrazně zvyšuje přesnost, zejména u ne‑latinských skriptů.  
+- **Asynchronní zpracování:** Zabalte volání OCR do `Task.Run` nebo použijte async/await, aby UI vlákna zůstala responzivní.  
+- **Validace souborů:** Před voláním `RecognizeMultipleImages` filtrujte adresář na podporované přípony (`.png`, `.jpg`, `.jpeg`, `.tif`, `.tiff`).  
 
-Gratulujeme! Úspěšně jste se naučili, jak implementovat rozpoznávání obrázků OCR se složkami pomocí Aspose.OCR for .NET. Tento výkonný nástroj otevírá nespočet možností pro extrahování textu z obrázků ve vašich aplikacích .NET.
+## Běžné problémy a řešení
 
-## FAQ
+| Problém | Příčina | Oprava |
+|---------|----------|--------|
+| Žádný výstup | Nesprávná nebo prázdná cesta ke složce | Ověřte, že `fullPath` ukazuje na správný adresář a obsahuje podporované formáty obrázků (PNG, JPEG, TIFF). |
+| Zkreslené znaky | Nesprávné nastavení jazyka | Předávejte nakonfigurované `RecognitionSettings` s `Language` nastaveným na odpovídající ISO kód. |
+| Výkonnostní zpoždění při mnoha obrázcích | Sekvenční zpracování na UI vlákně | Spusťte OCR na pozadí nebo použijte asynchronní vzory, aby UI zůstalo responzivní. |
 
-### Q1: Mohu použít Aspose.OCR pro .NET v komerčních projektech?
+## Často kladené otázky
 
- A1: Ano, Aspose.OCR for .NET je komerční produkt. Informace o licencích naleznete na adrese[tady](https://purchase.aspose.com/buy).
+**Q: Mohu použít Aspose.OCR for .NET v komerčních projektech?**  
+A: Ano, Aspose.OCR for .NET je komerční produkt. Informace o licencování najdete [zde](https://purchase.aspose.com/buy).
 
-### Q2:. Je k dispozici bezplatná zkušební verze?
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, bezplatnou zkušební verzi můžete vyzkoušet [zde](https://releases.aspose.com/).
 
- A2: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Kde najdu dokumentaci?**  
+A: Dokumentace je dostupná [zde](https://reference.aspose.com/ocr/net/).
 
-### Q3: Kde najdu dokumentaci?
+**Q: Jak získat dočasnou licenci?**  
+A: Dočasné licence lze získat [zde](https://purchase.aspose.com/temporary-license/).
 
- A3: Dokumentace je k dispozici[tady](https://reference.aspose.com/ocr/net/).
+**Q: Potřebuji podporu nebo mám otázky?**  
+A: Navštivte [Aspose.OCR fórum](https://forum.aspose.com/c/ocr/16) pro komunitní podporu.
 
-### Q4: Jak mohu získat dočasné licence?
+---
 
- A4: Lze získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose  
 
-### Q5: Potřebujete podporu nebo máte otázky?
-
- A5: Navštivte[Fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) za podporu komunity.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

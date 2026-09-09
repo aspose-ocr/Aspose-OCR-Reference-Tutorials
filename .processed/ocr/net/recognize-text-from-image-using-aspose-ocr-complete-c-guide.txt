@@ -1,0 +1,7 @@
+Title: recognize text from image using Aspose OCR – Complete C# Guide
+Slug: recognize-text-from-image-using-aspose-ocr-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-07-27T22:13:18.660359
+SourceRepo: AI Search API
+Keywords: recognize text from image, how to recognize cyrillic, load image for ocr, extract text from image, set ocr language
+PRNumber: 187
