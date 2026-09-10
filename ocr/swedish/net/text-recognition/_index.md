@@ -137,9 +137,11 @@ Lär dig hur du med Aspose OCR i C# kan känna igen text, visa teckenantal och l
 {{< blocks/products/products-backtop-button >}}
 ### [Hur man utför OCR i C# – Känn igen kyrillisk text med Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen kyrillisk text i dina bilder.
-### [Skapa sökbar PDF från TIFF – Komplett C#-guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
+### [Hur man använder OCR i C# för att extrahera kyrillisk text](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar kyrillisk text från bilder.
+### [Skapa sökbar PDF från TIFF – Fullständig C#-guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
 Lär dig steg-för-steg hur du konverterar TIFF-filer till sökbara PDF-dokument med Aspose.OCR i C#.
-### [Hur man extraherar OCR-text i C# – Komplett steg‑för‑steg‑guide](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+### [Hur du extraherar OCR-text i C# – Komplett steg‑för‑steg‑guide](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 Lär dig steg-för-steg hur du extraherar OCR‑text i C# med Aspose.OCR för smidig och exakt textutvinning.
 ### [Känn igen text i PNG med Aspose OCR .NET – Fullständig lokal OCR-guide](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Lär dig steg-för-steg hur du utför lokal OCR på PNG-filer med Aspose OCR för .NET.

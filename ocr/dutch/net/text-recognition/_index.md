@@ -90,7 +90,7 @@ Leer hoe u met Aspose.OCR in C# tekst uit JPG-afbeeldingen kunt extraheren in en
 Volledige gids voor het herkennen van tekst uit JPG-afbeeldingen met Aspose.OCR in C#, stap voor stap.
 ### [Hoe Aspose OCR in C# te gebruiken – Koreaanse tekst uit afbeeldingen herkennen](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 Leer hoe u met Aspose OCR in C# Koreaanse tekst uit afbeeldingen kunt herkennen en verwerken.
-### [Maak doorzoekbare PDF van TIFF – Volledige C#-gids](./create-searchable-pdf-from-tiff-full-c-guide/)
+### [Maak doorzoekbare PDF van TIFF – Complete C#-gids](./create-searchable-pdf-from-tiff-full-c-guide/)
 Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt vanuit een TIFF-bestand, stap voor stap.
 ### [Afbeelding converteren naar DOCX in C# – Complete Aspose OCR-gids](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
 Leer hoe u met Aspose.OCR afbeeldingen omzet naar DOCX-bestanden in C#, stap voor stap.
@@ -110,6 +110,8 @@ Leer hoe u met C# en Aspose OCR tekst uit diverse afbeeldingsformaten kunt extra
 Leer stap voor stap hoe u OCR in C# kunt uitvoeren met Aspose OCR voor nauwkeurige tekstherkenning.
 ### [Hoe OCR in C# uit te voeren – Arabische tekst uit PNG extraheren](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
 Leer hoe u met Aspose.OCR in C# Arabische tekst uit PNG-afbeeldingen kunt extraheren.
+### [Hoe OCR in C# te gebruiken om Cyrillische tekst te extraheren](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Leer hoe u met Aspose OCR Cyrillische tekst uit afbeeldingen kunt extraheren in C#.
 ### [Maak doorzoekbare PDF van PNG in C# – Complete gids](./create-searchable-pdf-from-png-in-c-complete-guide/)
 Leer stap voor stap hoe u met Aspose.OCR een doorzoekbare PDF maakt van PNG-afbeeldingen in C#.
 ### [Tekst extraheren uit afbeelding in C# – Complete Aspose OCR-gids](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)

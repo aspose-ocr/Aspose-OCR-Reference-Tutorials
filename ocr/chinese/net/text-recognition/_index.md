@@ -125,6 +125,7 @@ url: /zh/net/text-recognition/
 通过本完整指南，学习如何在 .NET 中使用 Aspose.OCR 创建可搜索的 PDF 文档，提高文档检索效率。
 ### [如何在 C# 中使用 Aspose OCR 识别文本 – 显示字符计数并加载图像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 通过 Aspose OCR 在 C# 中识别图像文本，显示字符计数并加载图像，帮助您轻松实现文本提取。
+### [如何在 C# 中使用 OCR 提取西里尔文文本](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

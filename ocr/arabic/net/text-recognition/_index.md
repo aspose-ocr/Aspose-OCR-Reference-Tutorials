@@ -129,6 +129,8 @@ url: /ar/net/text-recognition/
 اكتشف كيفية استخراج النص من الصور باستخدام Aspose.OCR والحصول على النتائج بتنسيق JSON منسق بسهولة.
 ### [كيفية التعرف على النص في C# باستخدام Aspose OCR – عرض عدد الأحرف وتحميل الصورة](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 تعلم خطوة بخطوة كيفية التعرف على النص في C# باستخدام Aspose OCR مع عرض عدد الأحرف وتحميل الصورة بسهولة.
+### [كيفية استخدام OCR في C# لاستخراج النص السيريلي](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+تعلم خطوة بخطوة كيفية استخراج النص السيريلي من الصور باستخدام Aspose.OCR في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

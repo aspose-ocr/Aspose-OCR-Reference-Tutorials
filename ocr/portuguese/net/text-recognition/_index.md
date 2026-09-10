@@ -134,6 +134,8 @@ Aprenda a reconhecer texto em C# usando Aspose OCR, exibindo a contagem de carac
 {{< blocks/products/products-backtop-button >}}
 ### [Como executar OCR em C# – reconhecer texto cirílico com Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aprenda a usar Aspose.OCR em C# para reconhecer texto em cirílico com alta precisão.
+### [Como usar OCR em C# para extrair texto cirílico](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Aprenda a usar OCR em C# para extrair texto em cirílico de imagens de forma simples e precisa.
 ### [Criar PDF pesquisável a partir de TIFF – Guia completo em C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
 Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose.OCR em C#, passo a passo.
 ### [Como extrair texto OCR em C# – Guia completo passo a passo](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
@@ -152,7 +154,7 @@ Aprenda a extrair texto de imagens usando Aspose OCR em C#. Siga nosso guia pass
 ### [Tutorial c# OCR – Extrair texto de imagens e exportar para JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
 Aprenda a extrair texto de imagens e exportar os resultados em JSON usando Aspose OCR em C#.
 ### [Como fazer OCR de imagem em C# – Converter JPG para ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
-Aprenda a usar Aspose.OCR em C# para converter imagens JPG em ePub, extraindo texto e criando ebooks de forma simples.
+Aprenda a usar Aspose.OCR em C# para converter imagens JPG em ePub, extrair texto e criar ebooks de forma simples.
 ### [Reconhecer texto russo com Aspose OCR C# – Guia completo de PDF multipágina](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Siga o guia passo a passo para extrair texto russo de PDFs de várias páginas com Aspose OCR em C#.
 ### [Reconhecer texto chinês offline – Tutorial completo C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
