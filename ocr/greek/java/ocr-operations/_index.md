@@ -85,6 +85,8 @@ weight: 21
 Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων για εξαγωγή κειμένου με το Aspose.OCR σε Java.
 ### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Πώς να εκτελέσετε OCR σε εικόνα με το Aspose OCR σε Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Μάθετε βήμα‑βήμα πώς να εφαρμόσετε OCR σε εικόνες χρησιμοποιώντας το Aspose OCR με Java.
 
 ## Συχνές Ερωτήσεις
 

@@ -86,6 +86,8 @@ Erstellen Sie ein durchsuchbares PDF aus einem Bild mithilfe von OCR in Java. Sc
 Erfahren Sie, wie Sie mehrere Bilder in Java stapelweise in Text umwandeln und OCR effizient verarbeiten.
 ### [Durchsuchbares PDF mit Aspose OCR erstellen – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Erstellen Sie ein durchsuchbares PDF mit Aspose OCR. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für einfache Umsetzung.
+### [Wie man OCR auf einem Bild mit Aspose OCR in Java durchführt](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren.
 
 ## Häufig gestellte Fragen
 

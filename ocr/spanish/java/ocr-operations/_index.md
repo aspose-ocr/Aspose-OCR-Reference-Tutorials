@@ -90,6 +90,8 @@ Aprende a generar un PDF buscable desde una imagen usando Aspose.OCR para Java, 
 Aprende a generar PDFs buscables usando Aspose OCR con instrucciones detalladas paso a paso.
 ### [Convertir imágenes a texto en Java – Guía de procesamiento OCR por lotes](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Aprende a convertir múltiples imágenes a texto en Java usando procesamiento OCR por lotes con Aspose.OCR.
+### [Cómo realizar OCR en una imagen con Aspose OCR en Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aprende a ejecutar OCR en imágenes usando Aspose OCR con Java paso a paso.
 
 ## Preguntas frecuentes
 

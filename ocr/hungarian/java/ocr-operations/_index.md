@@ -90,6 +90,8 @@ Szabadítsd fel a PNG képekből a kereshető PDF-ek létrehozását Java-ban az
 Tömeges képfeldolgozás Java-val az Aspose.OCR segítségével, a képek szöveggé alakításához egy lépésről‑lépésre útmutató.
 ### [Kereshető PDF létrehozása az Aspose OCR-rel – Lépésről‑lépésre útmutató](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre kereshető PDF-et az Aspose OCR segítségével, részletes lépésekkel.
+### [Hogyan végezzünk OCR-t képen az Aspose OCR segítségével Java-ban](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Fedezd fel, hogyan használhatod az Aspose OCR-t képek szövegének kinyerésére Java-ban.
 
 ## Gyakran Ismételt Kérdések
 

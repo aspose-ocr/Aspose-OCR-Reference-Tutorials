@@ -89,6 +89,8 @@ Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić obraz w przeszu
 Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspose.OCR w Javie.
 ### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
+### [Jak wykonać OCR na obrazie przy użyciu Aspose OCR w Javie](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Kompletny przewodnik, jak wykonać OCR na obrazie w Javie przy użyciu Aspose OCR.
 
 ## Najczęściej zadawane pytania
 

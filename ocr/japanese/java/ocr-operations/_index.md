@@ -88,6 +88,8 @@ PNG 画像を OCR で認識し、検索可能な PDF に変換する手順を Ja
 Java を使用して複数画像を一括で OCR 処理し、テキストへ変換する方法をステップバイステップで解説します。
 ### [Aspose OCR で検索可能な PDF を作成 – ステップバイステップガイド](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR を使用して PDF を検索可能に変換する手順を詳しく解説します。
+### [Aspose OCR を使用した画像 OCR の実行方法 – Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aspose OCR を Java で利用し、画像からテキストを抽出する手順をステップバイステップで解説します。
 
 ## よくある質問
 

@@ -87,6 +87,8 @@ PNG 이미지를 OCR로 처리해 검색 가능한 PDF로 변환하는 전체 Ja
 ### [Java에서 이미지 텍스트 변환 – 배치 OCR 처리 가이드](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Java에서 다수의 이미지를 한 번에 텍스트로 변환하는 배치 OCR 처리 방법을 안내합니다.
 ### [Aspose OCR로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+### [Java에서 Aspose OCR로 이미지 OCR 수행하기](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aspose OCR을 사용해 Java에서 이미지에 OCR을 수행하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 
