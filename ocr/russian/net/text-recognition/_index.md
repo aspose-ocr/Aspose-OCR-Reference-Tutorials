@@ -125,6 +125,7 @@ url: /ru/net/text-recognition/
 Узнайте, как с помощью Aspose OCR распознавать арабский текст в ваших C#‑приложениях.
 ### [Как распознать текст в C# с Aspose OCR – отображение количества символов и загрузка изображения](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Узнайте, как с помощью Aspose OCR распознать текст в C#, отобразить количество символов и загрузить изображение.
+### [Как использовать OCR в C# для извлечения кириллического текста](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

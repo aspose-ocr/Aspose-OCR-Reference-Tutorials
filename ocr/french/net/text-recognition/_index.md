@@ -136,6 +136,8 @@ Apprenez à extraire du texte d'images et à obtenir les résultats OCR au forma
 {{< blocks/products/products-backtop-button >}}
 ### [Comment effectuer l'OCR en C# – Reconnaître le texte cyrillique avec Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Apprenez à utiliser Aspose.OCR en C# pour reconnaître du texte cyrillique dans vos images, avec un guide pas à pas.
+### [Comment utiliser l'OCR en C# pour extraire du texte cyrillique](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Apprenez à extraire du texte cyrillique à partir d'images en C# avec Aspose OCR grâce à ce guide pas à pas.
 ### [Comment extraire du texte OCR en C# – Guide complet étape par étape](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 Apprenez à extraire du texte OCR en C# avec un guide complet, étape par étape, pour intégrer facilement la reconnaissance de texte dans vos applications.
 ### [Créer un PDF consultable à partir de TIFF – Guide complet C#](./create-searchable-pdf-from-tiff-complete-c-guide/)

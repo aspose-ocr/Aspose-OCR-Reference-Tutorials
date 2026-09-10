@@ -125,6 +125,8 @@ Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengenali teks Arab secara 
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C# dan mengonversinya menjadi JSON terformat dengan contoh kode lengkap.
 ### [Cara Mengenali Teks di C# dengan Aspose OCR – Tampilkan Jumlah Karakter & Muat Gambar](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Pelajari cara mengenali teks di C# menggunakan Aspose OCR, menampilkan jumlah karakter, dan memuat gambar dengan contoh kode lengkap.
+### [Cara Menggunakan OCR di C# untuk Mengekstrak Teks Sirilik](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Ekstrak teks Sirilik dari gambar menggunakan Aspose OCR di C# dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

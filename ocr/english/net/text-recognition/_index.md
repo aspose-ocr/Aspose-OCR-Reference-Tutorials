@@ -155,6 +155,9 @@ Learn how to OCR Arabic text in C# using Aspose.OCR with this complete step-by-s
 ### [How to Recognize Text in C# with Aspose OCR – Display Character Count & Load Image](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Learn to recognize text in C# with Aspose OCR, display character count and load images seamlessly.
 
+### [How to use OCR in C# to extract Cyrillic text](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Learn how to extract Cyrillic text from images using Aspose.OCR in C# with a step‑by‑step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -162,7 +165,7 @@ Learn to recognize text in C# with Aspose OCR, display character count and load 
 
 {{< blocks/products/products-backtop-button >}}
 ### [How to Perform OCR in C# – Recognize Cyrillic Text with Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
-Learn how to use Aspose.OCR in C# to accurately recognize Cyrillic text in images with step-by-step guidance.
+Learn how to OCR PDFs using Aspose, convert them, export results, and enable searchable PDFs in your .NET applications.
 ### [Create searchable PDF from TIFF – Complete C# Guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
 Learn how to convert TIFF images into searchable PDFs using Aspose.OCR in C#. Follow our comprehensive step-by-step guide.
 ### [How to Extract OCR Text in C# – Complete Step‑by‑Step Guide](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)

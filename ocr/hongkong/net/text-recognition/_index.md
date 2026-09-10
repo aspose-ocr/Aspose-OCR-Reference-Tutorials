@@ -133,13 +133,16 @@ url: /zh-hant/net/text-recognition/
 ### [如何在 C# 中使用 Aspose OCR 文字辨識 – 顯示字元計數與載入圖像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 使用 Aspose OCR 在 C# 中辨識文字，同時顯示字元數並載入圖像，提供完整步驟與範例程式碼。
 
+### [如何在 C# 中使用 OCR 提取西里爾文字](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+使用 Aspose OCR 在 C# 中提取西里爾文字的完整指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [如何在 C# 中執行 OCR – 使用 Aspose 識別西里爾文字](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+### [如何在 C# 中執行 OCR – 使用 Aspose 識別西里爾文字](./how-to-perform-ocr-in-c-recognize-cyrillic-text/)
 學習使用 Aspose.OCR for .NET 在 C# 中辨識西里爾文字，提升多語言 OCR 能力的完整步驟指南。
 ### [從 TIFF 建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-from-tiff-complete-c-guide/)
 使用 Aspose.OCR for .NET，將 TIFF 影像轉換為可搜尋的 PDF，提供完整的 C# 實作步驟與範例。
