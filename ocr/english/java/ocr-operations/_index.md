@@ -102,6 +102,8 @@ This snippet initializes the OCR engine, loads a PDF, optionally sets the langua
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
+### [How to perform OCR on image with Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Perform OCR on images using Aspose OCR for Java, covering setup, processing, and best practices.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)

@@ -90,6 +90,8 @@ Crie um PDF pesquisável a partir de imagens usando OCR em Java com Aspose.OCR. 
 Aprenda a processar múltiplas imagens em lote usando Aspose.OCR para Java e converter todas em texto de forma eficiente.
 ### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a criar PDFs pesquisáveis usando Aspose OCR com um guia passo a passo detalhado.
+### [Como realizar OCR em imagem com Aspose OCR em Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aprenda a aplicar OCR em imagens usando Aspose OCR com Java, passo a passo.
 
 ## Perguntas Frequentes
 

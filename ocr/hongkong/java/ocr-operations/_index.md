@@ -89,6 +89,8 @@ weight: 21
 說明如何使用 Aspose.OCR for Java 進行批次影像文字轉換，提高效率與準確度。
 ### [使用 Aspose OCR 建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 一步步教你使用 Aspose OCR 將 PDF 轉換為可搜尋的文件，提高可編輯性與搜尋功能。
+### [如何在 Java 中使用 Aspose OCR 執行圖像 OCR](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+完整教學示範如何使用 Aspose OCR 在 Java 中對圖像執行文字識別。
 
 ## 常見問題
 

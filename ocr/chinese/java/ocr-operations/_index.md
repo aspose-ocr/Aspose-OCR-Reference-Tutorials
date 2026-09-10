@@ -87,6 +87,8 @@ weight: 21
 ### [在 Java 中将图像转换为文本 – 批量 OCR 处理指南](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 使用 Aspose.OCR for Java 批量处理图像并提取文本，提高效率并保持高准确率。
 ### [使用 Aspose OCR 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+### [如何使用 Aspose OCR 在 Java 中对图像执行 OCR](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+完整的 Java 示例，演示如何使用 Aspose OCR 对图像进行 OCR 并获取文本结果。
 
 ## 常见问题
 

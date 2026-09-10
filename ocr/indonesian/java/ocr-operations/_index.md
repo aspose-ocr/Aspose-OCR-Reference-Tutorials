@@ -89,6 +89,8 @@ Panduan Java untuk mengonversi gambar menjadi PDF yang dapat dicari menggunakan 
 Pelajari cara memproses banyak gambar sekaligus menjadi teks menggunakan Aspose.OCR di Java dengan efisiensi tinggi.
 ### [Membuat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan langkah‑langkah mudah.
+### [Cara melakukan OCR pada gambar dengan Aspose OCR di Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Panduan langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose OCR dengan Java.
 
 ## Pertanyaan yang Sering Diajukan
 

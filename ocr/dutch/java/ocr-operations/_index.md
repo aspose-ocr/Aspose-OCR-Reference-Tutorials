@@ -88,6 +88,8 @@ Leer hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van een afbeelding.
 Ontgrendel de kracht van batch OCR om meerdere afbeeldingen in Java naar tekst te converteren.
 ### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR een doorzoekbare PDF maakt in een eenvoudige stap‑voor‑stap handleiding.
+### [Hoe OCR uit te voeren op een afbeelding met Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Leer stap‑voor‑stap hoe u met Aspose OCR in Java tekst uit afbeeldingen haalt.
 
 ## Veelgestelde vragen
 

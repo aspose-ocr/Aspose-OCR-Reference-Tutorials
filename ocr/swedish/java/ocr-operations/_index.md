@@ -89,6 +89,8 @@ Lär dig steg‑för‑steg hur du konverterar PNG‑bilder till sökbara PDF‑
 Lär dig steg‑för‑steg hur du konverterar bildfiler till sökbara PDF‑dokument med Aspose.OCR för Java.
 ### [Konvertera bilder till text i Java – Batch‑OCR‑behandlingsguide](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Lär dig hur du batch‑processar bildfiler till text med Aspose.OCR för Java för hög effektivitet.
+### [Hur du utför OCR på bild med Aspose OCR i Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Lär dig steg‑för‑steg hur du använder Aspose OCR för att känna igen text i bilder med Java.
 
 ## Vanliga frågor
 
