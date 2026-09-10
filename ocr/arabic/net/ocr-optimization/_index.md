@@ -116,6 +116,8 @@ weight: 25
 دليل شامل لتشغيل OCR على صور PNG باستخدام وحدة معالجة الرسومات (GPU) في C# لتحقيق أداء عالي ودقة محسنة.
 ### [دليل c# OCR: التعرف على النص من الصورة مع المعالجة المسبقة](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 تعلم كيفية تحسين دقة التعرف على النص من الصور باستخدام المعالجة المسبقة في Aspose.OCR لـ .NET.
+### [التعرف على النص من صورة باستخدام Aspose OCR – برنامج تعليمي C# مع تسريع GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+تعلم كيفية استخدام Aspose OCR مع تسريع GPU في C# للتعرف على النص من الصور بسرعة ودقة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

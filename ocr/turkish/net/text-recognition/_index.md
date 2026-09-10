@@ -119,6 +119,19 @@ C# ile Aspose OCR kullanarak görüntülerden metin çıkarın ve sonuçları JS
 
 ### [c# OCR eğitimi – Görüntüleri Aranabilir PDF'lere Dönüştürme](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Görüntüleri metin tanıma ile işleyerek aranabilir PDF dosyalarına dönüştürmeyi adım adım öğrenin.
+### [c# OCR eğitimi: PNG Görüntülerinden Metin Tanıma](./c-ocr-tutorial-recognize-text-from-png-images/)
+PNG formatındaki görüntülerden metin tanımak için C# ve Aspose.OCR kullanarak adım adım rehber.
+### [c# OCR eğitimi: Görüntüden Metin Çıkarma ve Biçimlendirilmiş JSON Alma](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+C# ve Aspose.OCR kullanarak görüntülerden metin çıkarın ve sonuçları biçimlendirilmiş JSON olarak alın.
+### [C# ile Arapça OCR Nasıl Yapılır – Tam Kılavuz](./how-to-ocr-arabic-in-c-complete-guide/)
+C# ve Aspose.OCR kullanarak Arapça metin tanıma sürecini adım adım öğrenin ve projelerinizde çok dilli OCR yeteneklerini etkinleştirin.
+### [Aspose OCR ile Çince Metin Tanıma Nasıl Yapılır – Tam Kılavuz](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Aspose OCR kullanarak Çince metin tanıma sürecini adım adım öğrenin ve projelerde çok dilli OCR yeteneklerini etkinleştirin.
+### [C# ile Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-in-c-full-guide/)
+Aspose.OCR kullanarak C# ile aranabilir PDF oluşturmayı adım adım öğrenin ve projelerinize kolayca entegre edin.
+### [C# ile Aspose OCR Kullanarak Metin Tanıma – Karakter Sayısını Gösterme ve Görüntü Yükleme](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+C# ve Aspose OCR ile metni tanıyın, karakter sayısını görüntüleyin ve görüntüyü yükleyerek adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

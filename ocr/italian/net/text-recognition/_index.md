@@ -116,6 +116,19 @@ Scopri come riconoscere testo da immagini in C# con Aspose OCR, ottenendo risult
 
 ### [c# tutorial OCR – Trasforma le immagini in PDF ricercabili](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Scopri come convertire le immagini in PDF ricercabili usando Aspose.OCR per .NET, con una guida passo passo.
+### [c# tutorial OCR: Riconoscere il testo da immagini PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
+Scopri come riconoscere il testo da immagini PNG usando Aspose.OCR per .NET con un semplice tutorial passo passo.
+### [c# tutorial OCR: Estrarre testo da immagine e ottenere JSON formattato](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Scopri come estrarre testo da immagini e generare un JSON formattato usando Aspose.OCR per .NET in pochi passaggi.
+### [Come utilizzare Aspose OCR per riconoscere il testo cinese – Guida completa](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Scopri come Aspose OCR riconosce il testo cinese nelle immagini, con esempi passo passo per una precisione ottimale.
+### [Crea PDF Ricercabile in C# – Guida Completa](./create-searchable-pdf-in-c-full-guide/)
+Scopri come generare PDF ricercabili in C# con Aspose.OCR, passo passo, per integrare facilmente la ricerca di testo nei tuoi documenti.
+### [Come eseguire OCR arabo in C# – Guida completa](./how-to-ocr-arabic-in-c-complete-guide/)
+Scopri come riconoscere il testo arabo nelle immagini usando Aspose.OCR per .NET, con esempi passo passo per risultati accurati.
+### [Come riconoscere il testo in C# con Aspose OCR – Visualizzare il conteggio dei caratteri e caricare l'immagine](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Scopri come riconoscere testo in C#, visualizzare il conteggio dei caratteri e caricare immagini con Aspose OCR in pochi passaggi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

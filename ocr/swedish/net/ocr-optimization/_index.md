@@ -117,6 +117,9 @@ Utnyttja GPU-acceleration för att köra OCR på PNG-bilder med Aspose.OCR i C#.
 Lär dig bygga en OCR-förbehandlingspipeline i C# för att exakt känna igen text i bilder med Aspose.OCR.
 ### [c# OCR-handledning: Känn igen text från bild med förbehandling](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Lär dig hur du förbättrar OCR-genkänning genom att förbehandla bilder innan textidentifiering i C#.
+### [Känn igen text från bild med Aspose OCR – GPU‑accelererad C#‑handledning](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Utnyttja GPU‑acceleration för snabb textigenkänning i C# med Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -46,6 +46,9 @@ C#을 사용해 OCR 이미지의 기울기를 보정하는 전체 과정을 단�
 OCR 전처리를 위한 이미지 기울기 보정 방법을 C#으로 단계별로 안내합니다.
 ### [C#에서 이미지 기울기 보정 방법 – 완전한 OCR 전처리 가이드](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 C#과 Aspose.OCR을 활용해 이미지를 기울기 보정하고 OCR 정확도를 높이는 전체 전처리 과정을 단계별로 안내합니다.
+### [이미지 기울기 보정 방법 – OCR을 위한 완전한 C# 전처리 가이드](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+OCR 정확도를 높이기 위해 이미지의 기울기를 보정하는 C# 전처리 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -35,7 +35,7 @@ Intégrez sans effort Aspose.OCR pour .NET dans vos projets et améliorez la rec
 En conclusion, nos didacticiels de calcul de l'angle d'inclinaison vous servent de boussole dans le domaine de la reconnaissance d'images OCR. Que vous soyez un passionné de C# ou un aficionado de Java, Aspose.OCR vous fournit les outils nécessaires pour conquérir les angles d'inclinaison et élever vos projets vers de nouveaux sommets. Explorez, apprenez et révolutionnez votre parcours de développement avec nous !
 ## Tutoriels de calcul de l'angle d'inclinaison
 ### [Calculer l'angle d'inclinaison dans la reconnaissance d'images OCR](./calculate-skew-angle/)
-Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance de texte précise dans vos applications C#.
+Explore Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance de texte précise dans vos applications C#.
 ### [Calculer l'angle d'inclinaison du flux dans la reconnaissance d'image OCR](./calculate-skew-angle-from-stream/)
 Libérez la puissance d'Aspose.OCR pour .NET, une solution robuste pour la reconnaissance d'images. Apprenez à calculer les angles d'inclinaison sans effort.
 ### [Calculer l'angle d'inclinaison à partir de l'URI dans la reconnaissance d'images OCR](./calculate-skew-angle-from-uri/)
@@ -46,6 +46,8 @@ Apprenez à corriger l'inclinaison des images pour l'OCR avec Aspose.OCR en C#, 
 Apprenez à redresser les images avant OCR avec Aspose.OCR en C#, améliorant la précision de la reconnaissance.
 ### [Comment redresser une image en C# – Guide complet de prétraitement OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Apprenez à redresser les images en C# avant l'OCR pour améliorer la précision de la reconnaissance.
+### [Comment redresser une image – Guide complet de prétraitement C# pour l'OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Découvrez comment redresser les images avec C# pour améliorer la précision de l'OCR grâce à un guide complet de prétraitement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

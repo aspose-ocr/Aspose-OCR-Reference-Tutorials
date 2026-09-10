@@ -124,6 +124,19 @@ Aprenda paso a paso a reconocer texto de imágenes en C# y obtener resultados en
 
 ### [Tutorial OCR en C# – Convertir imágenes en PDFs buscables](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Aprenda a convertir imágenes en PDFs con capacidad de búsqueda usando Aspose.OCR para .NET en C#.
+### [Crear PDF buscable en C# – Guía completa](./create-searchable-pdf-in-c-full-guide/)
+Aprenda a crear PDFs buscables en C# con Aspose.OCR mediante una guía paso a paso.
+### [Tutorial OCR en C#: Reconocer texto de imágenes PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
+Aprenda a extraer texto de imágenes PNG usando Aspose.OCR en C# con una guía paso a paso.
+### [Cómo usar Aspose OCR para reconocer texto chino – Guía completa](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Aprenda paso a paso a reconocer texto en chino con Aspose OCR, optimizando la precisión y el rendimiento en sus aplicaciones .NET.
+### [Cómo hacer OCR de árabe en C# – Guía completa](./how-to-ocr-arabic-in-c-complete-guide/)
+Aprenda paso a paso a reconocer texto en árabe con Aspose OCR en C#, optimizando precisión y rendimiento en sus aplicaciones .NET.
+### [Tutorial OCR en C# – Extraer texto de una imagen y obtener JSON formateado](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Aprenda a extraer texto de imágenes y obtener resultados en JSON estructurado usando Aspose.OCR en C# con esta guía paso a paso.
+### [Cómo reconocer texto en C# con Aspose OCR – Mostrar recuento de caracteres y cargar imagen](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Aprenda a reconocer texto, mostrar el número de caracteres y cargar imágenes usando Aspose OCR en C# con esta guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

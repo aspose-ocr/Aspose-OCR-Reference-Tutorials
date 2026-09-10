@@ -106,6 +106,8 @@ weight: 25
 สำรวจ Aspose.OCR สำหรับ .NET เพิ่มความแม่นยำของ OCR ด้วยตัวกรองการประมวลผลล่วงหน้า ดาวน์โหลดเดี๋ยวนี้เพื่อการบูรณาการที่ราบรื่น
 ### [c# OCR tutorial: การจดจำข้อความจากภาพด้วยการประมวลผลล่วงหน้า](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความจากภาพโดยใช้การประมวลผลล่วงหน้าเพื่อเพิ่มความแม่นยำ
+### [จดจำข้อความจากภาพด้วย Aspose OCR – การสอน C# เร่งด้วย GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+เรียนรู้การจดจำข้อความจากภาพด้วย Aspose OCR ที่เร่งด้วย GPU ด้วย C# เพื่อประสิทธิภาพสูงสุด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

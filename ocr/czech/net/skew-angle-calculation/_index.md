@@ -46,6 +46,8 @@ Objevte, jak pomocí Aspose.OCR pro .NET snadno vyrovnat zkosení obrázku a zle
 Naučte se pomocí Aspose.OCR v C# odstranit zkosení obrázku a zlepšit přesnost OCR předzpracování.
 ### [Jak vyrovnat obrázek v C# – Kompletní průvodce předzpracováním OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Kompletní návod, jak v C# odstranit zkosení obrázku před OCR, včetně kroků předzpracování pro vyšší přesnost rozpoznávání.
+### [Jak vyrovnat zkosení obrázku – Kompletní průvodce předzpracováním v C# pro OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Objevte kompletní návod na předzpracování obrázků v C# pro OCR, včetně korekce zkosení a zvýšení přesnosti rozpoznávání.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

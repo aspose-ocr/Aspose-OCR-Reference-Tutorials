@@ -46,6 +46,9 @@ C# で画像をデスクューし、OCR の精度を向上させる手順を詳�
 C# で画像の傾きを補正し、OCR 前処理を最適化する手順を詳しく解説します。
 ### [C# で画像のデスクューする方法 – 完全な OCR 前処理ガイド](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 C# で画像をデスクューし、OCR の精度を向上させる完全ガイドです。
+### [画像のデスキュー方法 – OCR のための完全な C# 前処理ガイド](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+OCR の精度向上のため、C# で画像をデスキューする完全な前処理手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

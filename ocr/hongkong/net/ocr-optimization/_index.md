@@ -116,6 +116,8 @@ weight: 25
 利用 GPU 加速在 PNG 圖像上執行 OCR，提供完整的 C# 實作步驟與最佳化技巧。
 ### [C# OCR 教學：使用預處理辨識圖像文字](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 學習如何在 C# 中使用 Aspose.OCR 進行圖像預處理，提升文字辨識準確度。
+### [使用 Aspose OCR 進行影像文字辨識 – GPU 加速 C# 教程](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+探索使用 Aspose OCR 的 GPU 加速功能，以 C# 執行影像文字辨識，提高效能與準確度。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

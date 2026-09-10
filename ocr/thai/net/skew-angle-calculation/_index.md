@@ -46,6 +46,8 @@ url: /th/net/skew-angle-calculation/
 เรียนรู้วิธี Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
 ### [วิธีการ Deskew ภาพใน C# – คู่มือการเตรียม OCR อย่างสมบูรณ์](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 เรียนรู้ขั้นตอนการ Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
+### [วิธีแก้ไขมุมเอียงของภาพ – คู่มือการเตรียมข้อมูล C# ครบถ้วนสำหรับ OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

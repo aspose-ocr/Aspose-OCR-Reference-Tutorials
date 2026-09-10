@@ -119,6 +119,19 @@ Leer stap voor stap hoe u tekst uit afbeeldingen haalt en OCR‑resultaten als J
 
 ### [c# OCR-tutorial – Afbeeldingen omzetten in doorzoekbare PDF's](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Leer hoe u met Aspose.OCR afbeeldingen omzet in doorzoekbare PDF's in .NET.
+### [c# OCR-tutorial: Tekst herkennen uit PNG-afbeeldingen](./c-ocr-tutorial-recognize-text-from-png-images/)
+Leer hoe u met Aspose.OCR tekst uit PNG-afbeeldingen kunt extraheren in een C#-applicatie.
+### [c# OCR-tutorial: Tekst extraheren uit afbeelding en opgemaakte JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Leer hoe u met Aspose.OCR tekst uit een afbeelding haalt en het resultaat als geformatteerde JSON ontvangt in een C#‑applicatie.
+### [Hoe Aspose OCR te gebruiken om Chinese tekst te herkennen – Volledige gids](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Leer hoe u met Aspose OCR Chinese tekst nauwkeurig kunt herkennen in .NET-toepassingen.
+### [Maak doorzoekbare PDF in C# – Volledige gids](./create-searchable-pdf-in-c-full-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in C# met deze volledige stap‑voor‑stap gids.
+### [Hoe OCR Arabisch in C# – Volledige gids](./how-to-ocr-arabic-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR Arabische tekst nauwkeurig kunt herkennen in C#-toepassingen.
+### [Hoe tekst te herkennen in C# met Aspose OCR – Teken telling weergeven & Afbeelding laden](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Leer hoe u met Aspose OCR tekst herkent in C#, het aantal tekens weergeeft en afbeeldingen laadt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

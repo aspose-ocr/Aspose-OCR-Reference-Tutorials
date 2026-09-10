@@ -97,6 +97,8 @@ Apprenez à créer un pipeline de prétraitement OCR en C# pour améliorer la re
 Apprenez à exploiter le GPU pour accélérer l'OCR de fichiers PNG avec un guide complet en C#.
 ### [Tutoriel C# OCR : Reconnaître du texte à partir d'une image avec prétraitement](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Apprenez à extraire du texte d'une image en appliquant des filtres de prétraitement avec Aspose.OCR pour .NET.
+### [Reconnaître du texte à partir d'une image avec Aspose OCR – Tutoriel C# accéléré par GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

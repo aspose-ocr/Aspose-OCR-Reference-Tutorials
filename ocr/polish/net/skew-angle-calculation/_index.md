@@ -47,6 +47,9 @@ Dowiedz się, jak usunąć pochylenie obrazu w C#, aby poprawić wyniki OCR przy
 
 ### [Jak wyrównać obraz w C# – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Dowiedz się, jak skutecznie wyrównać obrazy w C# przed OCR, zwiększając dokładność rozpoznawania tekstu.
+### [Jak wyrównać obraz – Kompletny przewodnik przetwarzania wstępnego C# dla OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Poznaj kompletny przewodnik przetwarzania wstępnego w C#, aby usunąć pochylenie obrazu i poprawić wyniki OCR przy użyciu Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

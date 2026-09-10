@@ -112,6 +112,9 @@ GPU की शक्ति का उपयोग करके PNG छविय�
 .NET के लिए Aspose.OCR के साथ OCR सटीकता बढ़ाएँ। वर्तनी को सही करें, शब्दकोशों को अनुकूलित करें और त्रुटि रहित पाठ पहचान को सहजता से प्राप्त करें।
 ### [c# OCR ट्यूटोरियल: प्रीप्रोसेसिंग के साथ छवि से पाठ पहचानें](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 .NET के लिए Aspose.OCR के साथ प्रीप्रोसेसिंग द्वारा छवि से पाठ को सटीकता से पहचानें।
+### [Aspose OCR के साथ छवि से पाठ पहचान – GPU‑त्वरित C# ट्यूटोरियल](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+.NET के लिए Aspose OCR के साथ GPU-त्वरित C# कोड का उपयोग करके छवि से तेज़ी से पाठ पहचानें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -47,6 +47,8 @@ Ontdek Aspose.OCR voor .NET om moeiteloos schuine hoeken te berekenen bij OCR-be
 Leer stap voor stap hoe u afbeeldingen kunt rechtzetten voor OCR met een volledige C#-handleiding.
 ### [Hoe een afbeelding rechtzetten – Complete C#-gids voor OCR-preprocessing](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Leer stap voor stap hoe u scheve afbeeldingen corrigeert met Aspose.OCR voor .NET om OCR-preprocessing te optimaliseren.
+### [Hoe een afbeelding rechtzetten – Complete C# pre‑verwerkingsgids voor OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Leer hoe u afbeeldingen kunt rechtzetten met C# en Aspose.OCR, een essentiële stap voor nauwkeurige OCR-preprocessing.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

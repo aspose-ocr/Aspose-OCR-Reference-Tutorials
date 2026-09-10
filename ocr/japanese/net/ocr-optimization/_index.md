@@ -115,6 +115,8 @@ GPUを活用してPNG画像から高速にテキストを抽出し、C#で完全
 C#でOCR前処理パイプラインを構築し、画像からテキストを高精度で抽出する手順を解説します。
 ### [c# OCR チュートリアル: 前処理で画像からテキストを認識](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 
+### [GPU 加速 C# チュートリアル – Aspose OCR で画像からテキストを認識](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+GPU の力を活用し、C# で Aspose OCR を使用して画像から高速にテキストを抽出する方法を学びます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -86,6 +86,8 @@ weight: 25
 ### [c# OCR 教程：使用预处理识别图像中的文本](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 通过预处理步骤提升 OCR 准确性，使用 Aspose.OCR for .NET 从图像中识别文本。
 
+### [使用 Aspose OCR 进行图像文字识别 – GPU 加速 C# 教程](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+利用 GPU 加速的 Aspose OCR，在 C# 中实现高效图像文字识别，提升处理速度和准确性。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

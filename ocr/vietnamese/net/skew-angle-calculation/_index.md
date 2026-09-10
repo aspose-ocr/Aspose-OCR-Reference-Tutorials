@@ -47,6 +47,8 @@ Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong qu�
 ### [Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn xử lý trước OCR đầy đủ](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong C# để cải thiện độ chính xác OCR.
 
+### [Cách loại bỏ nghiêng ảnh – Hướng dẫn tiền xử lý C# đầy đủ cho OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Khám phá cách loại bỏ nghiêng ảnh trong quá trình tiền xử lý OCR bằng C# để nâng cao độ chính xác và hiệu quả.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

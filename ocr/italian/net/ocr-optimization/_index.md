@@ -115,6 +115,8 @@ Scopri come utilizzare la GPU per l'OCR su immagini PNG con C# e Aspose.OCR, mig
 Scopri come utilizzare una pipeline di preelaborazione OCR per riconoscere testo da immagini con C# e Aspose.OCR, migliorando precisione e velocità.
 ### [c# tutorial OCR: riconosci il testo dall'immagine con preelaborazione](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Esplora come riconoscere il testo dalle immagini usando preelaborazione per migliorare l'accuratezza OCR con Aspose.OCR per .NET.
+### [Riconoscere il testo da immagine con Aspose OCR – Tutorial C# con accelerazione GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Scopri come utilizzare Aspose OCR con accelerazione GPU in C# per riconoscere rapidamente il testo dalle immagini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

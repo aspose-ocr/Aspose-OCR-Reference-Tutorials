@@ -117,6 +117,8 @@ Kompletní průvodce nastavením předzpracování OCR a rozpoznáním textu z o
 Kompletní průvodce využitím GPU pro OCR PNG v C# s Aspose.OCR.
 ### [c# OCR tutoriál: Rozpoznání textu z obrázku s předzpracováním](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Objevte, jak pomocí Aspose.OCR pro .NET rozpoznat text z obrázku a optimalizovat výsledky předzpracováním.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – GPU‑akcelerovaný C# tutoriál](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Využijte GPU akceleraci v C# pro rychlé rozpoznání textu z obrázků pomocí Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

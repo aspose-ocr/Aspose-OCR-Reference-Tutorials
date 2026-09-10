@@ -47,6 +47,8 @@ Pelajari cara mengoreksi kemiringan gambar menggunakan C# untuk meningkatkan aku
 
 ### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pra‑Pemrosesan OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Pelajari cara mengoreksi kemiringan gambar di C# dengan langkah‑langkah pra‑pemrosesan OCR yang lengkap dan mudah diikuti.
+### [Cara Mengoreksi Kemiringan Gambar – Panduan Lengkap Pra‑pemrosesan C# untuk OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Panduan lengkap pra‑pemrosesan C# untuk mengoreksi kemiringan gambar sebelum OCR, meningkatkan akurasi dan efisiensi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

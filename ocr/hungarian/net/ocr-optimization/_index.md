@@ -89,6 +89,8 @@ Ismerje meg, hogyan építsen fel OCR előfeldolgozási folyamatot C#-ban a szö
 Ismerje meg, hogyan használhatja a GPU-t PNG képek OCR-hez C#-ban, a teljes lépésről‑lépésre útmutatóval.
 ### [c# OCR oktatóanyag: Szöveg felismerése képről előfeldolgozással](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Ismerje fel a szöveget képről előfeldolgozási lépésekkel az Aspose.OCR .NET segítségével.
+### [Szöveg felismerése képről az Aspose OCR‑val – GPU‑gyorsított C# oktatóanyag](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Fedezze fel, hogyan használhatja az Aspose OCR GPU‑gyorsított C# verzióját a képek szövegének pontos felismerésére.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

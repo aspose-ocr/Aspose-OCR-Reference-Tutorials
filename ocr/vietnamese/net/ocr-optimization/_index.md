@@ -95,6 +95,8 @@ Khám phá cách chạy OCR trên ảnh PNG bằng GPU với C#, tăng tốc đ�
 Khám phá quy trình tiền xử lý OCR để nhận dạng văn bản từ hình ảnh trong C#, nâng cao độ chính xác và hiệu suất.
 ### [c# OCR tutorial: Nhận dạng văn bản từ hình ảnh bằng tiền xử lý](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Khám phá cách nhận dạng văn bản từ hình ảnh bằng tiền xử lý trong Aspose.OCR cho .NET.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C# tăng tốc GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Tận dụng sức mạnh GPU của Aspose OCR để nhận dạng văn bản từ hình ảnh nhanh chóng trong C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

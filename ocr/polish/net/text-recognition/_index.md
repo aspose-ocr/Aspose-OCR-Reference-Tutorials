@@ -116,6 +116,19 @@ Poznaj pełny przewodnik, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspo
 
 ### [c# OCR tutorial – zamień obrazy w przeszukiwalne pliki PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Dowiedz się, jak przy użyciu Aspose.OCR w .NET przekształcić obrazy w przeszukiwalne pliki PDF w kilku prostych krokach.
+### [Jak używać Aspose OCR do rozpoznawania chińskiego tekstu – pełny przewodnik](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
+Dowiedz się, jak Aspose OCR umożliwia precyzyjne rozpoznawanie chińskich znaków w .NET, krok po kroku, z praktycznymi przykładami.
+### [c# OCR tutorial – Rozpoznawanie tekstu z obrazów PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
+Poznaj, jak w C# używać Aspose.OCR do rozpoznawania tekstu w plikach PNG, krok po kroku.
+### [Utwórz przeszukiwalny PDF w C# – Pełny przewodnik](./create-searchable-pdf-in-c-full-guide/)
+Dowiedz się, jak w C# stworzyć przeszukiwalny PDF przy użyciu Aspose.OCR, krok po kroku.
+### [Jak rozpoznać arabski w C# – Pełny przewodnik](./how-to-ocr-arabic-in-c-complete-guide/)
+Dowiedz się, jak w C# używać Aspose.OCR do rozpoznawania arabskiego tekstu, krok po kroku, z praktycznymi przykładami.
+### [c# OCR tutorial – Wyodrębnij tekst z obrazu i uzyskaj sformatowany JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Dowiedz się, jak w C# używać Aspose.OCR do wyodrębniania tekstu z obrazów i otrzymywania wyników w formacie JSON.
+### [Jak rozpoznać tekst w C# przy użyciu Aspose OCR – wyświetlanie liczby znaków i ładowanie obrazu](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Dowiedz się, jak w C# używać Aspose OCR do rozpoznawania tekstu, wyświetlania liczby znaków oraz ładowania obrazów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

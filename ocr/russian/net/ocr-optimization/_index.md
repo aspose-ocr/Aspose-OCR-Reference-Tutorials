@@ -87,6 +87,8 @@ weight: 25
 ### [c# OCR учебник: Распознавание текста с изображения с предварительной обработкой](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Узнайте, как распознавать текст на изображениях, применяя фильтры предварительной обработки с помощью Aspose.OCR для .NET.
 
+### [Распознать текст с изображения с помощью Aspose OCR – ускоренный GPU C# учебник](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Узнайте, как использовать GPU‑ускорение в Aspose OCR для C# при распознавании текста с изображений.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
