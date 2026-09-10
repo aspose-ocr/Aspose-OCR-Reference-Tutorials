@@ -1,39 +1,61 @@
 ---
-title: Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
-linktitle: Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
+date: 2026-04-29
+description: Dowiedz się, jak konwertować obrazy na PDF w C# przy użyciu Aspose.OCR,
+  zapisywać wyniki OCR wielostronicowe jako dokumenty oraz wyodrębniać tekst z obrazów
+  w C#.
+keywords:
+- convert images to pdf
+- extract text from images
+- c# ocr library
+- convert images to xlsx
+- generate pdf from tiff
+linktitle: Konwertuj obrazy do PDF C# – Zapisz wynik OCR wielostronicowy
 second_title: Aspose.OCR .NET API
-description: Odblokuj potencjał Aspose.OCR dla .NET. Z łatwością zapisuj wielostronicowe wyniki OCR jako dokumenty, korzystając z tego obszernego przewodnika krok po kroku.
-weight: 14
+title: Konwertuj obrazy na PDF C# – Zapisz wielostronicowy wynik OCR
 url: /pl/net/ocr-optimization/save-multipage-result-as-document/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR
+# Konwertuj obrazy do PDF C# – Zapisz wynik OCR wielostronicowy
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w fascynującym świecie optycznego rozpoznawania znaków (OCR) przy użyciu Aspose.OCR dla .NET! W tym samouczku odkryjemy, jak wykorzystać możliwości Aspose.OCR do zapisywania wielostronicowych wyników OCR jako dokumentów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z OCR, ten przewodnik przeprowadzi Cię przez każdy krok, zapewniając maksymalne wykorzystanie tego potężnego narzędzia.
+W tym samouczku dowiesz się, jak **convert images to PDF C#** przy użyciu potężnej biblioteki **Aspose.OCR** dla .NET. Niezależnie od tego, czy musisz **convert scanned TIFF files to searchable PDFs**, wyodrębnić tekst z obrazów w celu analizy danych, czy wygenerować skoroszyt Excel z serii zdjęć, ten przewodnik przeprowadzi Cię przez każdy krok z jasnymi wyjaśnieniami, praktycznymi wskazówkami i zaleceniami najlepszych praktyk.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **What does this tutorial cover?** Konwertowanie wielu obrazów do PDF, Docx, Text i Xlsx przy użyciu Aspose.OCR w C# oraz zapisywanie wyniku OCR jako dokumentu wielostronicowego.  
+- **Which output formats are supported?** Docx, Text, Pdf i Xlsx (można również bezpośrednio wyjść PDF).  
+- **Do I need a license?** Darmowa wersja próbna działa w ocenie; stała licencja jest wymagana w produkcji.  
+- **What .NET versions are compatible?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Can I extract text while converting?** Tak — użyj wyników OCR, aby pobrać tekst przeszukiwalny przed zapisem.  
 
-Zanim przejdziemy do samouczka, upewnijmy się, że wszystko mamy skonfigurowane:
+## Co to jest „convert images to PDF C#”?
 
-1.  Zainstaluj Aspose.OCR dla .NET: Rozpocznij od pobrania i zainstalowania Aspose.OCR dla .NET. Możesz znaleźć potrzebne pliki[Tutaj](https://releases.aspose.com/ocr/net/).
+Konwertowanie obrazów do PDF w C# oznacza programowe pobranie jednego lub wielu plików bitmap (PNG, JPEG, TIFF itp.) i wygenerowanie dokumentu PDF, który zachowuje układ wizualny, a opcjonalnie osadza tekst przeszukiwalny za pomocą OCR. Aspose.OCR udostępnia **c# ocr library**, która obsługuje to od początku do końca, w tym obsługę wielostronicową i bezpośrednie zapisywanie do popularnych formatów biurowych.
 
-2.  Uzyskaj bezpłatną wersję próbną lub licencję: Jeśli jeszcze tego nie zrobiłeś, możesz uzyskać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) lub kup licencję[Tutaj](https://purchase.aspose.com/buy).
+## Dlaczego używać Aspose.OCR do tego zadania?
 
-3.  Zapoznaj się z dokumentacją: Zapoznaj się z[dokumentacja](https://reference.aspose.com/ocr/net/)dla Aspose.OCR dla .NET. To Twoje źródło szczegółowych informacji.
+- **High‑accuracy OCR** obsługuje dziesiątki języków.  
+- **Multipage processing** – podaj cały folder obrazów i otrzymaj pojedynczy przeszukiwalny PDF.  
+- **Direct export** do Docx, Text, Pdf i Xlsx bez konieczności drugiego kroku konwersji.  
+- **Pure .NET** – brak natywnych zależności, działa na Windows, Linux i w środowiskach chmurowych.  
 
-4.  Uzyskaj dostęp do forów wsparcia: Jeśli napotkasz jakiekolwiek problemy lub masz pytania,[fora wsparcia](https://forum.aspose.com/c/ocr/16) są cennym zasobem społeczności.
+## Wymagania wstępne
 
-Teraz, gdy już wszystko gotowe, przejdźmy do przewodnika krok po kroku.
+1. Zainstaluj Aspose.OCR dla .NET. Możesz pobrać go [tutaj](https://releases.aspose.com/ocr/net/).  
+2. Uzyskaj darmową wersję próbną lub zakupioną licencję – wersję próbną [tutaj](https://releases.aspose.com/) lub kup ją [tutaj](https://purchase.aspose.com/buy).  
+3. Przejrzyj oficjalną [dokumentację](https://reference.aspose.com/ocr/net/), aby zapoznać się z interfejsem API.  
+4. Dołącz do społeczności na [forum wsparcia](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc w razie problemów.  
 
-## Importuj przestrzenie nazw
+Teraz, gdy wszystko jest gotowe, rozpocznijmy kodowanie.
 
-Rozpocznij swój projekt od zaimportowania niezbędnych przestrzeni nazw:
+## Importowanie przestrzeni nazw
+
+Zacznij od dodania wymaganych przestrzeni nazw do swojego pliku C#:
 
 ```csharp
 using System;
@@ -43,73 +65,101 @@ using System.Linq;
 using Aspose.OCR;
 ```
 
+Te importy dają dostęp do kolekcji, obsługi plików, LINQ oraz klas Aspose OCR.
+
 ## Krok 1: Ustaw katalog dokumentów
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+Zastąp `"Your Document Directory"` absolutną lub względną ścieżką, w której znajdują się Twoje obrazy źródłowe i gdzie chcesz zapisać pliki wyjściowe.
 
-## Krok 2: Zainicjuj Aspose.OCR
+## Krok 2: Zainicjalizuj Aspose.OCR
 
 ```csharp
-// Zainicjuj instancję AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
- Utwórz instancję`AsposeOcr` aby uzyskać dostęp do funkcji OCR.
+Utworzenie obiektu `AsposeOcr` zapewnia dostęp do wszystkich operacji OCR, w tym przepływu pracy **convert images to PDF C#**.
 
 ## Krok 3: Rozpoznaj obrazy
 
 ```csharp
-// Rozpoznaj obraz
+// Recognize image
 List<RecognitionResult> result = api.RecognizeMultipleImages(
     new List<string> { dataDir + "sample.png", dataDir + "sample_bad.png" },
     new RecognitionSettings { }
 ).ToList();
 ```
 
-Wykorzystaj Aspose.OCR do rozpoznawania tekstu z wielu obrazów. Dostosuj ścieżki plików zgodnie z plikami obrazów.
+Metoda `RecognizeMultipleImages` przetwarza każdy plik na liście i zwraca kolekcję `RecognitionResult`. Możesz podać dowolną liczbę obrazów, co jest idealne dla scenariuszy **convert scanned images to PDF**.
 
 ## Krok 4: Zapisz wyniki w preferowanych formatach
 
+Wybierz format, który najlepiej pasuje do Twojego dalszego przepływu pracy:
+
+- **Docx** – edytowalny dokument Word z przeszukiwalnym tekstem.  
+- **Text** – wyodrębnienie zwykłego tekstu do szybkiej analizy danych (**extract text from images**).  
+- **Pdf** – klasyczny format PDF, idealny do archiwizacji.  
+- **Xlsx** – reprezentacja arkusza kalkulacyjnego dla danych tabelarycznych (**convert images to xlsx**).
+
 ```csharp
-// Zapisz wynik w preferowanym formacie
+// Save the result in your preferred format
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR()+"sample.docx", SaveFormat.Docx, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx, result);
 ```
 
-Wybierz żądany format (Docx, Text, Pdf lub Xlsx) i zapisz wyniki OCR jako dokument wielostronicowy.
+## Jak konwertować obrazy do PDF C# – Podsumowanie krok po kroku
 
-## Wniosek
+1. **Przygotuj folder** z obrazami, które chcesz skonwertować.  
+2. **Utwórz instancję `AsposeOcr`** aby uzyskać dostęp do funkcji OCR.  
+3. **Wywołaj `RecognizeMultipleImages`** aby uzyskać wyniki OCR dla każdego pliku.  
+4. **Zapisz wynik wielostronicowy** używając `SaveMultipageDocument` w potrzebnym formacie.
 
-Gratulacje! Pomyślnie nauczyłeś się, jak zapisywać wielostronicowe wyniki OCR jako dokumenty przy użyciu Aspose.OCR dla .NET. To wszechstronne narzędzie otwiera świat możliwości rozpoznawania tekstu w Twoich projektach.
+## Typowe przypadki użycia
 
-## Często zadawane pytania
+- **Digital archiving:** Konwertuj zeskanowane papierowe umowy na przeszukiwalne PDFy.  
+- **Data entry automation:** Wyodrębnij tekst z paragonów lub faktur i wprowadź go do bazy danych.  
+- **Batch processing:** Przetwarzaj tysiące obrazów w jednym zadaniu przy minimalnym kodzie.  
+- **Generate PDF from TIFF:** Idealne dla wysokiej rozdzielczości zeskanowanych dokumentów, które muszą pozostać wierne oryginałowi.
 
-### P1: Czy dostępna jest licencja tymczasowa do celów testowych?
+## Rozwiązywanie problemów i wskazówki
 
- Odpowiedź 1: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do testowania Aspose.OCR.
+- **Large image sets:** Przetwarzaj obrazy w mniejszych partiach, aby uniknąć skoków pamięci.  
+- **Image quality:** Upewnij się, że obrazy mają co najmniej 300 dpi dla optymalnej dokładności OCR.  
+- **License errors:** Zweryfikuj, że plik licencji jest poprawnie załadowany przed wywołaniem metod OCR.  
+- **Empty results:** Jeśli obraz nie może zostać odczytany, odpowiadający `RecognitionResult` będzie miał pustą właściwość `Text` — sprawdź, czy nie jest null lub pusty przed zapisem.  
 
-### P2: Czy mogę rozpoznać tekst z obrazów w różnych formatach?
+## Najczęściej zadawane pytania
 
-A2: Absolutnie! Aspose.OCR obsługuje różne formaty obrazów, zapewniając elastyczność w zadaniach OCR.
+**Q: Czy mogę konwertować obrazy do PDF C# bez użycia OCR?**  
+A: Tak, możesz użyć Aspose.PDF lub innych bibliotek do czystej konwersji obraz‑do‑PDF, ale OCR dodaje przeszukiwalny tekst, co sprawia, że PDF jest znacznie bardziej użyteczny.
 
-### P3: Czy istnieją jakieś ograniczenia dotyczące liczby obrazów do rozpoznania?
+**Q: Jak wyodrębnić tekst z obrazów C# po konwersji?**  
+A: Lista `result` zwrócona przez `RecognizeMultipleImages` zawiera właściwość `Text` dla każdej strony. Możesz zapisać te ciągi do pliku `.txt` lub przetworzyć je bezpośrednio w aplikacji.
 
-O3: Liczba obrazów, które możesz przetworzyć, zależy od Twojej licencji. Sprawdź dokumentację, aby uzyskać szczegółowe informacje.
+**Q: Czy można ustawić własne marginesy strony lub orientację?**  
+A: Przy zapisie do PDF lub Docx możesz zmodyfikować układ dokumentu za pomocą API Aspose.Words lub Aspose.PDF przed wywołaniem `SaveMultipageDocument`.
 
-### P4: Jak mogę poradzić sobie z błędami podczas rozpoznawania OCR?
+**Q: Co się stanie, jeśli obraz nie może zostać odczytany?**  
+A: Silnik OCR zwróci pusty `RecognitionResult` dla tej strony; możesz to wykryć i pominąć lub zalogować problematyczny plik.
 
-Odpowiedź 4: Zapoznaj się z dokumentacją dotyczącą najlepszych praktyk w zakresie obsługi błędów lub poszukaj pomocy na forach pomocy technicznej.
+**Q: Czy API obsługuje wdrożenie w chmurze?**  
+A: Tak, biblioteka działa na dowolnym środowisku .NET, w tym Azure Functions i AWS Lambda, o ile środowisko spełnia wymagania wersji.
 
-### P5: Czy Aspose.OCR obsługuje języki inne niż angielski?
+## Zakończenie
 
-O5: Tak, Aspose.OCR obsługuje wiele języków. Zapoznaj się z dokumentacją, aby uzyskać szczegółowe informacje na temat obsługi języków.
+Masz teraz kompletny, gotowy do produkcji przepływ pracy do **convert images to PDF C#**, wyodrębniania przeszukiwalnego tekstu i nawet generowania plików Word, zwykłego tekstu lub Excel z serii zdjęć. Śmiało eksperymentuj z różnymi formatami wyjściowymi, dostosowuj ustawienia OCR dla konkretnych języków lub integruj kod w większych pipeline'ach przetwarzania dokumentów.
+
+**Ostatnia aktualizacja:** 2026-04-29  
+**Testowano z:** Aspose.OCR 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -79,6 +79,16 @@ Débloquez une extraction précise de texte à partir d’images avec Aspose.OCR
 Débloquez la puissance de l’OCR en Java avec Aspose.OCR. Reconnaissez le texte dans les documents PDF sans effort. Boostez vos applications avec précision et rapidité.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Débloquez une puissante reconnaissance de texte en Java avec Aspose.OCR. Reconnaissez le texte dans les images TIFF sans effort. Téléchargez dès maintenant pour une expérience OCR fluide.
+### [Reconnaître le texte d'image avec Aspose OCR – Tutoriel complet Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Créer un PDF consultable à partir d’une image avec OCR – Tutoriel Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Apprenez à convertir une image en PDF consultable en utilisant Aspose.OCR pour Java, étape par étape.
+### [Créer un PDF consultable à partir de PNG – Guide complet Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Apprenez à transformer des images PNG en PDF consultable avec Aspose.OCR pour Java, étape par étape.
+### [Convertir des images en texte en Java – Guide de traitement OCR par lots](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Apprenez à convertir des images en texte avec un traitement OCR par lots en Java, optimisant la productivité et la précision.
+### [Créer un PDF consultable avec Aspose OCR – Guide étape par étape](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Apprenez à créer des PDF consultables avec Aspose OCR grâce à un guide complet étape par étape.
 
 ## Foire aux questions
 
@@ -106,7 +116,7 @@ R : Traitez les images TIFF par blocs ou utilisez le multithreading pour optimi
 
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.OCR for Java 24.12  
-**Author:** Aspose  
+**Author:** Aspose.OCR  
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

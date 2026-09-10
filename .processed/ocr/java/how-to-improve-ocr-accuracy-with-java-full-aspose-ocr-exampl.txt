@@ -1,0 +1,7 @@
+Title: How to Improve OCR Accuracy with Java – Full Aspose OCR Example
+Slug: how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-25T23:08:41.489055
+SourceRepo: AI Search API
+Keywords: how to improve ocr, extract text ocr, set block size, aspose ocr example, ocr preprocessing pipeline
+PRNumber: 158

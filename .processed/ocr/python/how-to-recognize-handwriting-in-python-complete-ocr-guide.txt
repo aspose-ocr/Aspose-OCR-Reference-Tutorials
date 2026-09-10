@@ -1,0 +1,7 @@
+Title: How to Recognize Handwriting in Python – Complete OCR Guide
+Slug: how-to-recognize-handwriting-in-python-complete-ocr-guide
+Category: general
+ProcessedDate: 2026-06-25T23:37:42.333736
+SourceRepo: AI Search API
+Keywords: how to recognize handwriting, extract handwritten text, convert handwritten image, python ocr example, load image for ocr
+PRNumber: 159

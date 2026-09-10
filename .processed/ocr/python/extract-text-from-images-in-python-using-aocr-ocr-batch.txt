@@ -1,0 +1,7 @@
+Title: Extract Text from Images in Python Using aocr OCR Batch
+Slug: extract-text-from-images-in-python-using-aocr-ocr-batch
+Category: general
+ProcessedDate: 2026-06-25T23:37:47.486597
+SourceRepo: AI Search API
+Keywords: extract text from images
+PRNumber: 159

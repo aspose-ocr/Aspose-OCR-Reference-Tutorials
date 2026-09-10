@@ -1,0 +1,7 @@
+Title: recognize text from image with Aspose OCR – Java guide
+Slug: recognize-text-from-image-with-aspose-ocr-java-guide
+Category: ocr-operations
+ProcessedDate: 2026-06-19T15:26:27.766743
+SourceRepo: AI Search API
+Keywords: recognize text from image, convert image to docx, extract text from png, convert scanned image to spreadsheet
+PRNumber: 149

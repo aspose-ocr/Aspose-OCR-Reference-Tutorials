@@ -1,0 +1,7 @@
+Title: How to OCR PDF in Python – Create Searchable PDF from Images
+Slug: how-to-ocr-pdf-in-python-create-searchable-pdf-from-images
+Category: general
+ProcessedDate: 2026-06-07T04:07:43.145318
+SourceRepo: AI Search API
+Keywords: how to ocr pdf, create searchable pdf, add searchable text, ocr image to pdf, convert image to pdf/a
+PRNumber: 143

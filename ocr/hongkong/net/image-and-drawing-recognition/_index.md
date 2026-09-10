@@ -68,6 +68,8 @@ Aspose.OCR 提供彈性的 API，讓您能針對特定文字區域、處理圖�
 發揮 Aspose.OCR for .NET 在 OCR 圖像辨識中辨識行的潛能。開發者指南，讓圖像文字提取無縫進行。
 ### [在 OCR 圖像辨識中對圖像執行 OCR](./perform-ocr-on-image/)
 使用 Aspose.OCR for .NET 解鎖 OCR 魔法，輕鬆從圖像提取文字。探索教學以實現無縫整合。
+### [如何在 C# 中啟用表單並使用 OCR 提取表格 – 完整指南](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+使用 Aspose.OCR for .NET 在 C# 中啟用表單辨識，並高效提取表格資料，完整步驟說明。
 
 ## 常見問題
 

@@ -1,0 +1,7 @@
+Title: Convert Image to ePub in C# – Complete Step‑by‑Step Guide
+Slug: convert-image-to-epub-in-c-complete-step-by-step-guide
+Category: text-recognition
+ProcessedDate: 2026-05-31T19:26:36.443985
+SourceRepo: AI Search API
+Keywords: convert image to epub
+PRNumber: 135

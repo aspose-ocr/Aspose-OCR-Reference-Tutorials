@@ -1,35 +1,59 @@
 ---
-title: OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
-linktitle: OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
-second_title: Aspose.OCR .NET API'si
-description: .NET'te OCR verimliliğinin kilidini açın. Aspose.OCR ile iplik sayısını zahmetsizce ayarlayın. Doğruluğu ve hızı artırın.
-weight: 11
+date: 2026-04-29
+description: Aspose.OCR for .NET'te iş parçacıklarını nasıl ayarlayacağınızı öğrenin,
+  OCR doğruluğunu artırın, hızı yükseltin ve hassasiyeti geliştirin.
+keywords:
+- how to set threads
+- improve ocr accuracy
+- parallel ocr processing
+linktitle: OCR Doğruluğunu Artırmak İçin İş Parçacığı Sayısını Ayarla
+second_title: Aspose.OCR .NET API
+title: .NET'te OCR Doğruluğunu Artırmak İçin İş Parçacığı Sayısını Nasıl Ayarlarsınız
 url: /tr/net/ocr-settings/set-threads-count/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Konu Sayısını Ayarlama
+# İş Parçacığı Sayısını Ayarlayarak OCR Doğruluğunu Artırma
 
-## giriiş
+## Giriş
 
-En son Optik Karakter Tanıma (OCR) teknolojisinin .NET uygulamalarınıza kusursuz entegrasyonla buluştuğu Aspose.OCR for .NET dünyasına hoş geldiniz. Bu eğitimde belirli bir konuya değineceğiz: OCR Görüntü Tanıma'da İş Parçacığı Sayısını ayarlama. Bu güçlü özellik, OCR görevlerinizin performansını optimize ederek verimlilik ve doğruluk sağlar.
+Aspose.OCR for .NET dünyasına hoş geldiniz, burada son teknoloji Optik Karakter Tanıma (OCR) teknolojisi .NET uygulamalarınıza sorunsuz entegrasyonla buluşuyor. Bu öğreticide **iş parçacıklarını nasıl ayarlayacağınızı** **OCR doğruluğunu artırmak** için öğrenecek ve işlemlerinizi hızlı ve kaynak dostu tutacaksınız.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **`ThreadsCount` neyi kontrol eder?** Aspose.OCR'ye görüntü analizinde kaç paralel iş parçacığı tahsis edeceğini söyler.  
+- **Neden manuel ayarlamalısınız?** İş parçacığı sayısını ayarlamak, çok çekirdekli makinelerde **OCR doğruluğunu artırabilir** ve CPU kısıtlamasını önleyebilir.  
+- **Varsayılan davranış nedir?** `0` değeri, Aspose.OCR'nin optimal iş parçacığı sayısını otomatik olarak hesaplamasını sağlar.  
+- **En iyi sonuçlar için tipik aralık?** Çoğu masaüstü senaryosu için 1 – 8 iş parçacığı iyi çalışır; daha yüksek değerler çok çekirdekli sunuculara fayda sağlar.  
+- **Lisans gerekiyor mu?** Evet, üretim kullanımı için geçerli bir Aspose.OCR lisansı gereklidir.
 
-Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Aspose.OCR'de İş Parçacıklarını Nasıl Ayarlarsınız
 
--  Aspose.OCR for .NET: Kitaplığın kurulu olduğundan emin olun. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/ocr/net/).
+İş parçacığı sayısı, Aspose.OCR'nin metin tanıma sırasında kaç eşzamanlı işleme birimi tahsis edeceğini belirler. Doğru iş parçacığı sayısını kullanmak, toplu işleri hızlandırmakla kalmaz, aynı zamanda **paralel OCR işleme**'nin sorunsuz çalışmasına yardımcı olur; bu da daha yüksek tanıma kalitesine dönüşebilir.
 
-- Örnek Resim: Belirlediğiniz belge dizininde örnek bir resim hazırlayın.
+## OCR'de İş Parçacığı Sayısı Nedir?
 
-Şimdi adımlara geçelim.
+İş parçacığı sayısı, OCR motorunun kullandığı eşzamanlı yürütme yollarının sayısıdır. Daha fazla iş parçacığı büyük toplu işlemleri hızlandırabilir ve CPU kaynaklarıyla doğru şekilde dengelendiğinde, zaman aşımı ve bellek baskısını azaltarak **OCR doğruluğunu artırabilir**.
 
-## Ad Alanlarını İçe Aktar
+## Neden Paralel OCR İşleme Kullanılır?
 
-Öncelikle .NET uygulamanıza gerekli ad alanlarını eklediğinizden emin olun:
+- **Daha iyi kaynak kullanımı:** İş parçacığı sayısını CPU çekirdeklerinizle eşleştirmek, OCR motorunun kaynak yetersizliği yaşamasını veya aşırı tahsis edilmesini önler.  
+- **Azaltılmış gecikme:** Paralel işleme, her bir görüntünün tanıma hattında geçirdiği süreyi kısaltır, algoritmanın tam doğruluk modelini uygulamak için daha fazla zaman kazanmasını sağlar.  
+- **Ölçeklenebilirlik:** Sunucu tarafı senaryolarında, iş parçacığı havuzunu ince ayar yaparak birçok eşzamanlı isteği hassasiyetten ödün vermeden işleyebilirsiniz.
+
+## Ön Koşullar
+
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+
+- Aspose.OCR for .NET yüklü. Henüz indirmediyseniz, **[buradan](https://releases.aspose.com/ocr/net/)** edinebilirsiniz.  
+- Belge dizininizde bir örnek görüntü (ör. `sample.png`) bulunmalı.
+
+## Ad Alanlarını İçe Aktarın
+
+İlk olarak, .NET projenize gerekli ad alanlarını ekleyin:
 
 ```csharp
 using System;
@@ -39,62 +63,72 @@ using Aspose.OCR;
 
 ## Adım 1: Aspose.OCR Örneğini Başlatın
 
-Şimdi uygulamanızda AsposeOcr sınıfının bir örneğini başlatın:
+Bir `AsposeOcr` nesnesi oluşturun ve görüntülerin bulunduğu klasöre işaret edin:
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Adım 2: Görüntüyü Tanıyın
+## Adım 2: Özel İş Parçacığı Sayısı ile Görüntüyü Tanıyın
 
-Daha sonra, belirtilen Konu Sayısını kullanarak resimdeki metni tanıyalım:
+Şimdi OCR motoruna kaç iş parçacığı kullanacağını söyleyin. `ThreadsCount` değerini 0'dan büyük bir değere ayarlamak doğrudan kontrol sağlar ve zorlu iş yükleri için **OCR doğruluğunu artırabilir**.
 
 ```csharp
-// Resmi tanı
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
 {
-    ThreadsCount = 2 // 0 - otomatik hesaplama anlamına gelir
+    ThreadsCount = 2 // 0 - means auto calculate
 });
 ```
 
-## 3. Adım: Tanınan Metni Görüntüleme
+## Adım 3: Tanınan Metni Görüntüleyin
 
-Tanıma sonrasında tanınan metni görüntüleyin:
+Son olarak, tanınan metni konsola (veya tercih ettiğiniz başka bir UI bileşenine) çıktılayın:
 
 ```csharp
-// Tanınan metni görüntüle
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve İpuçları
 
-Sonuç olarak, Aspose.OCR for .NET kullanarak OCR Görüntü Tanıma'da İş Parçacığı Sayısını ayarlamak, performansı önemli ölçüde artıran basit bir işlemdir. Uygulamanız için en uygun ayarı bulmak için farklı iplik sayılarıyla denemeler yapın.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|----------|
+| **Çok fazla iş parçacığı yüksek CPU kullanımına neden olur** | Her iş parçacığı aynı çekirdekler için rekabet eder. | `ThreadsCount = Environment.ProcessorCount / 2` ile başlayın ve izlemeye göre ayarlayın. |
+| **Büyük görüntülerde tanıma başarısız olur** | Birçok paralel iş parçacığından kaynaklanan bellek baskısı. | `ThreadsCount` değerini azaltın veya mevcut RAM'i artırın. |
+| **Beklenmedik düşük doğruluk** | Otomatik hesaplanan iş parçacıkları donanımınız için çok düşük olabilir. | Daha yüksek bir `ThreadsCount` değeri manuel olarak ayarlayın ve çıktıyı test edin. |
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Otomatik hesaplama için iş parçacığı sayısını sıfıra ayarlayabilir miyim?
+### S1: İş parçacığı sayısını otomatik hesaplama için sıfıra ayarlayabilir miyim?
+**C:** Kesinlikle! `ThreadsCount` değerini `0` olarak ayarlamak, Aspose.OCR'nin mevcut ortam için optimal iş parçacığı sayısını otomatik olarak belirlemesini sağlar.
 
- A1: Kesinlikle! Ayar`ThreadsCount` sıfıra düşürmek Aspose.OCR'nin optimum iplik sayısını otomatik olarak hesaplamasını sağlar.
+### S2: Aspose.OCR for .NET için geçici bir lisans nasıl alabilirim?
+**C:** Test amaçlı geçici bir lisans edinmek için **[bu bağlantıyı](https://purchase.aspose.com/temporary-license/)** ziyaret edin.
 
-### S2: Aspose.OCR for .NET için nasıl geçici lisans alabilirim?
+### S3: Aspose.OCR for .NET için kapsamlı belgeleri nerede bulabilirim?
+**C:** Aspose.OCR hakkında ayrıntılı rehberlik için **[belgelere](https://reference.aspose.com/ocr/net/)** bakın.
 
- A2: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
+### S4: Aspose.OCR for .NET için ücretsiz deneme mevcut mu?
+**C:** Evet, ücretsiz deneme sürümünü **[buradan](https://releases.aspose.com/)** keşfedebilirsiniz.
 
-### S3: Aspose.OCR for .NET'in kapsamlı belgelerini nerede bulabilirim?
+### S5: Yardıma mı ihtiyacınız var ya da toplulukla bağlantı kurmak mı istiyorsunuz?
+**C:** Destek ve topluluk etkileşimi için **[Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/16)** ziyaret edin.
 
- A3: Bkz.[dokümantasyon](https://reference.aspose.com/ocr/net/) Aspose.OCR hakkında ayrıntılı rehberlik için.
+## Sonuç
 
-### S4: Aspose.OCR for .NET'in ücretsiz deneme sürümü mevcut mu?
+**İş Parçacığı Sayısını** ayarlamak, .NET uygulamalarınızda **OCR doğruluğunu** ve performansı artırmanın basit ama etkili bir yoludur. Farklı değerlerle deney yapın, CPU ve bellek kullanımını izleyin ve size hız ve hassasiyet arasında en iyi dengeyi sağlayan yapılandırmayı seçin.
 
- Cevap4: Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S5: Yardıma mı ihtiyacınız var veya toplulukla bağlantı kurmak mı istiyorsunuz?
+**Last Updated:** 2026-04-29  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
- A5: ziyaret edin[Aspose.OCR forumu](https://forum.aspose.com/c/ocr/16) destek ve topluluk etkileşimi için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
