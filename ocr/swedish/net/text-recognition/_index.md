@@ -88,6 +88,8 @@ Lär dig hur du med Aspose OCR för .NET konverterar bilder till text i en detal
 Lär dig snabbt hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med bara några rader kod.
 ### [c# OCR-handledning – Känn igen text från JPG – Komplett guide](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Lär dig steg-för-steg hur du med Aspose.OCR för .NET extraherar text från JPG-bilder med en komplett C#-kodexempel.
+### [Hur du extraherar text från JPG med en C# OCR-handledning](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Lär dig steg-för-steg hur du extraherar text från JPG-bilder med Aspose OCR i C#.
 ### [Hur du använder Aspose OCR i C# – Känn igen koreansk text från bilder](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar koreansk text från bildfiler.
 ### [Skapa sökbar PDF från TIFF – Fullständig C#-guide](./create-searchable-pdf-from-tiff-full-c-guide/)

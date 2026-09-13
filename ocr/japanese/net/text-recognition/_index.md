@@ -91,6 +91,10 @@ Aspose OCR を使用して C# アプリケーションで画像からテキス�
 Aspose.OCR を使用して、C# で JPG 画像からテキストを迅速に抽出する方法をステップバイステップで解説します。
 ### [C# で JPG からテキストを認識 – 完全 OCR チュートリアル](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Aspose.OCR を使用して、C# で JPG 画像からテキストを正確に抽出する完全ガイドです。ステップバイステップで解説します。
+### [c# OCR チュートリアル – JPG からテキストを抽出する方法](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Aspose.OCR を使用して C# で JPG 画像からテキストを抽出する手順をステップバイステップで解説します。
+### [c# で画像をテキストに変換 – 完全 OCR ガイド](./convert-image-to-text-in-c-complete-ocr-guide/)
+Aspose OCR を使用して C# アプリケーションで画像からテキストを抽出し、完全な OCR ソリューションを構築する方法を学びます。
 ### [c# で Aspose OCR を使用する – 画像から韓国語テキストを認識](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 Aspose OCR を使用して、C# で画像から韓国語テキストを簡単に抽出する手順をステップバイステップで解説します。
 ### [画像をテキストに変換 – C# 開発者向け 完全バッチ OCR ガイド](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
