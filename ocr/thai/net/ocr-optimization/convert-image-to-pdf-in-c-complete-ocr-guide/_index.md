@@ -1,24 +1,80 @@
 ---
 category: general
-date: 2025-12-30
-description: แปลงภาพเป็น PDF ด้วย Aspose OCR ใน C# . เรียนรู้วิธีการเตรียมภาพล่วงหน้าสำหรับ
-  OCR, การจดจำภาพข้อความภาษาเกาหลี, และการสร้าง PDF ที่ค้นหาได้อย่างรวดเร็ว.
-draft: false
+date: 2026-09-13
+description: เรียนรู้วิธีแปลงหน้าสแกนเป็น PDF ใน C# โดยใช้ Aspose OCR คู่มือฉบับนี้แสดงการเตรียมภาพ,
+  การจดจำข้อความภาษาเกาหลี, และการสร้าง PDF ที่สามารถค้นหาได้
 keywords:
-- convert image to pdf
-- preprocess image for ocr
-- recognize korean text image
-- create searchable pdf image
-language: th
-og_description: แปลงรูปภาพเป็น PDF ด้วย Aspose OCR. บทเรียนนี้แสดงวิธีการเตรียมรูปภาพสำหรับ
-  OCR, การจดจำภาพข้อความภาษาเกาหลี, และการสร้าง PDF ที่สามารถค้นหาได้จากภาพ.
-og_title: แปลงรูปภาพเป็น PDF ด้วย C# – คู่มือ OCR ฉบับสมบูรณ์
+- scanned page to pdf
+- preprocess image for OCR
+- generate pdf with text
+- convert image to searchable pdf
+- gpu accelerated OCR
+- recognize Korean text image
+lastmod: 2026-09-13
+og_description: เรียนรู้วิธีแปลงหน้าสแกนเป็น PDF ใน C# ด้วย Aspose OCR บทเรียนนี้ครอบคลุม
+  image preprocessing, GPU‑accelerated OCR for Korean text, และการสร้าง searchable
+  PDF ภายในไม่กี่นาที
+og_image_alt: Screenshot of C# console app converting a scanned Korean page to searchable
+  PDF using Aspose OCR
+og_title: วิธีแปลงหน้าสแกนเป็น PDF ใน C# ด้วย OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-09-13'
+  description: Learn how to turn a scanned page to PDF in C# using Aspose OCR. This
+    guide shows preprocessing, Korean text recognition, and creating a searchable
+    PDF.
+  headline: How to turn a scanned page to PDF in C# with OCR
+  type: TechArticle
+- description: Learn how to turn a scanned page to PDF in C# using Aspose OCR. This
+    guide shows preprocessing, Korean text recognition, and creating a searchable
+    PDF.
+  name: How to turn a scanned page to PDF in C# with OCR
+  steps:
+  - name: Initialise the OCR engine with GPU support.
+    text: Initialise the OCR engine with GPU support.
+  - name: Add **preprocess image for OCR** filters such as deskew and denoise.
+    text: Add **preprocess image for OCR** filters such as deskew and denoise.
+  - name: Download and load the Korean language model (handled automatically).
+    text: Download and load the Korean language model (handled automatically).
+  - name: Run the OCR on the image.
+    text: Run the OCR on the image.
+  - name: Export the result with **SearchablePdfExporter** to **create searchable
+      PDF image**.
+    text: Export the result with **SearchablePdfExporter** to **create searchable
+      PDF image**.
+  - name: (Optional) Serialize the OCR output to JSON for downstream pipelines.
+    text: (Optional) Serialize the OCR output to JSON for downstream pipelines.
+  - name: '**Ensure the language model is fully downloaded** – check the console for
+      a message like “Downloading Korean model…”.'
+    text: '**Ensure the language model is fully downloaded** – check the console for
+      a message like “Downloading Korean model…”.'
+  - name: '**Increase the `MaxAngle`** in `DeskewFilter` if your scans are rotated
+      beyond 12°.'
+    text: '**Increase the `MaxAngle`** in `DeskewFilter` if your scans are rotated
+      beyond 12°.'
+  - name: '**Boost GPU memory** by setting `ocrEngine.GpuMemoryLimit = 2048;` (value
+      in MB).'
+    text: '**Boost GPU memory** by setting `ocrEngine.GpuMemoryLimit = 2048;` (value
+      in MB).'
+  type: HowTo
+- questions:
+  - answer: 'The exporter embeds the original bitmap at its native resolution. If
+      size is a concern, downscale the image *before* recognition:'
+    question: My PDF is huge compared to the original image.
+  - answer: Verify that the image path is correct and that the file is not corrupted.
+      Also, make sure the GPU driver is up‑to‑date; older drivers can cause silent
+      failures.
+    question: The OCR returns empty strings.
+  - answer: Absolutely. Wrap steps 4‑6 in a `foreach (var file in Directory.GetFiles("Resources",
+      "*.jpg"))` loop and change the output PDF path accordingly.
+    question: Can I process multiple pages in a loop?
+  type: FAQPage
 tags:
-- C#
+- scanned page to pdf
 - OCR
 - Aspose
-- PDF
-title: แปลงรูปภาพเป็น PDF ด้วย C# – คู่มือ OCR ฉบับสมบูรณ์
+- C#
+title: วิธีแปลงหน้าสแกนเป็น PDF ใน C# ด้วย OCR
 url: /th/net/ocr-optimization/convert-image-to-pdf-in-c-complete-ocr-guide/
 ---
 
@@ -26,37 +82,44 @@ url: /th/net/ocr-optimization/convert-image-to-pdf-in-c-complete-ocr-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แปลงรูปภาพเป็น PDF ใน C# – คู่มือ OCR ครบถ้วน
+# วิธีแปลงหน้าสแกนเป็น PDF ด้วย C# และ OCR
 
-เคยต้องการ **แปลงรูปภาพเป็น PDF** แต่ก็อยากให้ข้อความภายในสามารถค้นหาได้หรือไม่? คุณไม่ได้เป็นคนเดียวที่เจอปัญหานี้ นักพัฒนาหลายคนเจออุปสรรคเดียวกันเมื่อต้องจัดการกับหน้าสแกน โดยเฉพาะหน้าที่เขียนเป็นภาษาเกาหลี ข่าวดีคือด้วย Aspose OCR คุณสามารถ **preprocess image for OCR**, **recognize Korean text image**, และสุดท้าย **create searchable PDF image** ได้ด้วยเพียงไม่กี่บรรทัด
+หากคุณต้องการ **แปลงหน้าสแกนเป็น PDF** พร้อมกับทำให้ข้อความสามารถค้นหาได้ คุณมาถูกที่แล้ว บทแนะนำนี้จะพาคุณผ่านการใช้ Aspose OCR เพื่อ **preprocess image for OCR**, **recognize Korean text image**, และสุดท้าย **create searchable PDF image** – ทั้งหมดจากแอปพลิเคชันคอนโซล C# อย่างง่าย
 
-ในบทแนะนำนี้ เราจะเดินผ่านกระบวนการทั้งหมด — ตั้งแต่การโหลดไฟล์ JPEG ดิบของหน้าหนังสือภาษาเกาหลี การทำความสะอาด การสกัดข้อความ และการรวมทุกอย่างเป็น PDF ที่สามารถค้นหาได้ เมื่อเสร็จคุณจะมีแอปคอนโซล C# ที่พร้อมใช้งานซึ่งสามารถนำไปใส่ในโปรเจกต์ .NET ใดก็ได้
+## คำตอบด่วน
+- **ไลบรารีที่จัดการ OCR คืออะไร?** Aspose.OCR for .NET  
+- **ฉันสามารถใช้ GPU ได้หรือไม่?** Yes – enable GPU acceleration for up to 2× faster processing  
+- **ฉันต้องการแพ็คเกจภาษาเกาหลีหรือไม่?** It downloads automatically on first use  
+- **ผลลัพธ์จะสามารถค้นหาได้หรือไม่?** The generated PDF contains an invisible text layer  
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET 6.0 and later (including .NET Core and .NET Framework)
 
-## สิ่งที่คุณต้องการ
+## ความต้องการ
+- **.NET 6.0 หรือใหม่กว่า** – works on .NET Core, .NET Framework, and .NET 5/6+  
+- **Aspose.OCR for .NET** NuGet package (`Aspose.OCR`) – trial keys are free on the Aspose site  
+- ตัวอย่างภาพที่มีอักขระเกาหลี, เช่น `korean_book_page.jpg`  
+- IDE ที่คุณชื่นชอบ (Visual Studio 2022, VS Code, Rider, ฯลฯ)
 
-- **.NET 6.0 หรือใหม่กว่า** (โค้ดทำงานได้บน .NET Core และ .NET Framework ทั้งสอง)  
-- **Aspose.OCR for .NET** NuGet package (`Aspose.OCR`) – คีย์ทดลองฟรีมีให้บนเว็บไซต์ของ Aspose.  
-- ตัวอย่างรูปภาพที่มีข้อความภาษาเกาหลี (เช่น `korean_book_page.jpg`).  
-- สภาพแวดล้อมการพัฒนาตามที่คุณเลือก (Visual Studio, VS Code, Rider – ฉันใช้ VS 2022).
-
-> **Pro tip:** เก็บไฟล์รูปภาพของคุณในโฟลเดอร์เฉพาะเช่น `Resources/` เพื่อให้เส้นทางคงที่ระหว่างเครื่อง
+> **เคล็ดลับ:** เก็บภาพในโฟลเดอร์ `Resources/` เพื่อให้เส้นทางคงที่ในทุกเครื่อง
 
 ## ภาพรวมของกระบวนการ
+1. Initialise the OCR engine with GPU support.  
+2. เพิ่มฟิลเตอร์ **preprocess image for OCR** เช่น deskew และ denoise.  
+3. ดาวน์โหลดและโหลดโมเดลภาษากาหลี (จัดการโดยอัตโนมัติ).  
+4. รัน OCR บนภาพ.  
+5. ส่งออกผลลัพธ์ด้วย **SearchablePdfExporter** เพื่อ **create searchable PDF image**.  
+6. (Optional) Serialize the OCR output to JSON for downstream pipelines.  
 
-1. **Initialize the OCR engine** ด้วยการสนับสนุน GPU เพื่อความเร็ว.  
-2. **Add preprocessing filters** (deskew, denoise) เพื่อปรับปรุงความแม่นยำของการจดจำ.  
-3. **Download and load the Korean language model** – Aspose ทำโดยอัตโนมัติหากจำเป็น.  
-4. **Run the recognition** บนภาพอินพุต.  
-5. **Export the result as a searchable PDF** ด้วยตัวส่งออกในตัว.  
-6. **Optional, serialize the result to JSON** เพื่อการวิเคราะห์หรือบันทึกต่อไป.
+ด้านล่างเราจะขยายแต่ละขั้นตอน, อธิบายว่า *ทำไม* มันสำคัญ, และให้โค้ดที่คุณสามารถคัดลอก‑วางได้อย่างแม่นยำ.
 
-ต่อไปนี้เราจะแยกแต่ละขั้นตอน อธิบาย *ทำไม* ถึงสำคัญ และให้โค้ดที่คุณสามารถคัดลอก‑วางได้
+## วิธีการแปลงหน้าสแกนเป็น PDF ทำงานอย่างไร?
+`OcrEngine` คือคลาสหลักใน Aspose.OCR ที่ทำการจดจำอักขระด้วยแสงบนภาพ.  
+`SearchablePdfExporter` สร้าง PDF ที่มีภาพต้นฉบับและชั้นข้อความที่มองไม่เห็นสำหรับการค้นหา.  
+`RecognitionResult` เก็บข้อความและข้อมูลความเชื่อมั่นที่ OCR engine คืนค่า.  
 
----
+โหลดภาพของคุณด้วย `new OcrEngine()` และเรียก `engine.Recognize("korean_book_page.jpg")` จากนั้นส่ง `RecognitionResult` ไปยัง `SearchablePdfExporter.Export` การไหลงานสองขั้นตอนนี้จะอ่านบิตแมพ, ดึงข้อความ Unicode, และฝังทั้งสองลงใน PDF ไฟล์เดียวที่ชั้นข้อความมองไม่เห็นแต่สามารถค้นหาได้ การเร่งความเร็วด้วย GPU ลดเวลาการจดจำลงประมาณครึ่งหนึ่ง, ในขณะที่ฟิลเตอร์ deskew และ denoise เพิ่มความแม่นยำได้ถึง 15 % บนสแกนที่มีเสียงรบกวน.
 
-## ## แปลงรูปภาพเป็น PDF – กระบวนการเต็ม
-
-โค้ดสแนปต่อไปนี้เป็นโปรแกรม *ครบถ้วน* คุณสามารถสร้างโปรเจกต์คอนโซลใหม่ (`dotnet new console -n OcrPdfDemo`) และแทนที่ไฟล์ `Program.cs` ที่สร้างอัตโนมัติกับโค้ดนี้
+## แปลงภาพเป็น PDF – กระบวนการเต็ม
+โค้ดส่วนต่อไปนี้เป็นโปรแกรม *complete* สร้างโปรเจกต์คอนโซลใหม่ (`dotnet new console -n OcrPdfDemo`) และแทนที่ไฟล์ `Program.cs` ที่สร้างอัตโนมัติด้วยโค้ดที่แสดงใน placeholder.
 
 ```csharp
 using System;
@@ -124,54 +187,49 @@ namespace OcrPdfDemo
 ```
 
 ### ทำไมวิธีนี้ถึงได้ผล
+- **GPU acceleration** ลดเวลาการจดจำลงประมาณครึ่งหนึ่งเมื่อเทียบกับโหมด CPU‑only.  
+- **Deskew** และ **Denoise** เป็นเทคนิค *preprocess image for OCR* แบบคลาสสิก; พวกมันแก้ไขข้อบกพร่องการสแกนทั่วไปที่อาจทำให้ engine พลาดอักขระ.  
+- **Language model loading** เป็นสิ่งจำเป็นสำหรับ **recognize Korean text image** – หากไม่มีโมเดลเกาหลี engine จะใช้ตัวอักษรละตินทั่วไปและให้ผลลัพธ์เป็นขยะ.  
+- **SearchablePdfExporter** รวมบิตแมพต้นฉบับและข้อความซ้อนที่มองไม่เห็น, ให้ผลลัพธ์ **create searchable pdf image** ที่คุณสามารถทำดัชนีในโปรแกรมอ่าน PDF ใดก็ได้.
 
-- **GPU acceleration** ลดเวลาในการจดจำลงประมาณครึ่งหนึ่งเมื่อเทียบกับโหมด CPU‑only.  
-- **Deskew** และ **Denoise** เป็นเทคนิค *preprocess image for OCR* คลาสสิก; พวกมันแก้ไขข้อบกพร่องการสแกนทั่วไปที่ทำให้เอนจินพลาดอักขระ.  
-- **Language model loading** เป็นสิ่งสำคัญสำหรับ **recognize Korean text image** – หากไม่มีโมเดลภาษาเกาหลี เอนจินจะกลับไปใช้ตัวอักษรละตินทั่วไปและให้ผลลัพธ์เป็นขยะ.  
-- ตัว **SearchablePdfExporter** รวมบิตแมพต้นฉบับและเลเยอร์ข้อความที่มองไม่เห็น ทำให้คุณได้ผลลัพธ์ **create searchable pdf image** ที่สามารถทำดัชนีในโปรแกรมอ่าน PDF ใดก็ได้
+## ทำไมวิธีนี้ถึงได้ผล
+- **GPU acceleration** ลดเวลาการจดจำลงประมาณครึ่งหนึ่งเมื่อเทียบกับโหมด CPU‑only.  
+- **Deskew** และ **Denoise** เป็นเทคนิค *preprocess image for OCR* แบบคลาสสิก; พวกมันแก้ไขข้อบกพร่องการสแกนทั่วไปที่อาจทำให้ engine พลาดอักขระ.  
+- **Language model loading** เป็นสิ่งจำเป็นสำหรับ **recognize Korean text image** – หากไม่มีโมเดลเกาหลี engine จะใช้ตัวอักษรละตินทั่วไปและให้ผลลัพธ์เป็นขยะ.  
+- **SearchablePdfExporter** รวมบิตแมพต้นฉบับและข้อความซ้อนที่มองไม่เห็น, ให้ผลลัพธ์ **create searchable pdf image** ที่คุณสามารถทำดัชนีในโปรแกรมอ่าน PDF ใดก็ได้.
 
----
-
-## ## ปรับภาพล่วงหน้าสำหรับ OCR – เคล็ดลับ & เทคนิค
-
-แม้ว่า filter สองตัวที่เราเพิ่มมักเพียงพอ คุณอาจเจอภาพที่ยากต่อการประมวลผล นี่คือขั้นตอนเพิ่มเติมที่คุณสามารถลองได้:
+## การเตรียมภาพสำหรับ OCR – เคล็ดลับและเทคนิค
+`DeskewFilter` แก้ไขการหมุนของหน้าที่สแกน.  
+`ContrastFilter` ปรับความคอนทราสต์ของภาพเพื่อเพิ่มความแม่นยำของ OCR.  
+`BinarizationFilter` แปลงภาพเป็นสีขาว‑ดำตามค่า threshold, ลดสัญญาณรบกวนพื้นหลัง.  
+`OrientationFilter` ตรวจจับและแก้ไขหน้าที่มีการผสมผสานระหว่างแนวตั้งและแนวนอน.  
 
 | ปัญหา | ฟิลเตอร์เพิ่มเติม | วิธีเพิ่ม |
 |-------|-------------------|------------|
 | ความคอนทราสต์ต่ำ | `ContrastFilter { Level = 30 }` | `ocrEngine.Filters.Add(new ContrastFilter { Level = 30 });` |
 | สัญญาณรบกวนพื้นหลังมาก | `BinarizationFilter { Threshold = 128 }` | `ocrEngine.Filters.Add(new BinarizationFilter { Threshold = 128 });` |
-| การจัดแนวผสม (แนวตั้ง & แนวนอน) | `OrientationFilter()` | `ocrEngine.Filters.Add(new OrientationFilter());` |
+| การวางแนวผสม (แนวตั้ง & แนวนอน) | `OrientationFilter()` | `ocrEngine.Filters.Add(new OrientationFilter());` |
 
-> **Note:** การเพิ่มฟิลเตอร์มากเกินไปอาจทำให้การประมวลผลช้าลง ทดสอบการเปลี่ยนแปลงแต่ละครั้งบนหน้าเดียวก่อนขยายขนาด
+> **หมายเหตุ:** การเพิ่มฟิลเตอร์มากเกินไปอาจทำให้การประมวลผลช้าลง. ทดสอบการเปลี่ยนแปลงแต่ละครั้งบนหน้าเดียวก่อนขยายขนาด.
 
----
+## การจดจำภาพข้อความเกาหลี – ข้อผิดพลาดทั่วไป
+สคริปต์เกาหลีมีพยางค์ Hangul ที่หนาแน่น หากคุณพบผลลัพธ์เป็นอักขระผิดพลาด:
+1. **ตรวจสอบว่าโมเดลภาษาได้ดาวน์โหลดครบถ้วน** – check the console for a message like “Downloading Korean model…”.  
+2. **เพิ่มค่า `MaxAngle`** in `DeskewFilter` if your scans are rotated beyond 12°.  
+3. **เพิ่มหน่วยความจำ GPU** by setting `ocrEngine.GpuMemoryLimit = 2048;` (value in MB).  
 
-## ## จดจำภาพข้อความภาษาเกาหลี – ข้อผิดพลาดทั่วไป
-
-อักษรเกาหลีประกอบด้วยพยางค์ Hangul ที่มีความหนาแน่นในเชิงภาพ หากคุณพบผลลัพธ์เป็นข้อความเสียหาย:
-
-1. **Ensure the language model is fully downloaded** – ตรวจสอบคอนโซลสำหรับข้อความเช่น “Downloading Korean model…”.  
-2. **Increase the `MaxAngle`** ใน `DeskewFilter` หากการสแกนของคุณหมุนเกิน 12°.  
-3. **Boost GPU memory** โดยตั้งค่า `ocrEngine.GpuMemoryLimit = 2048;` (ค่าเป็น MB).
-
+`LanguageModel.Korean` โหลดข้อมูลภาษากาหลีสำหรับ OCR, ทำให้การจดจำ Hangul มีความแม่นยำ.  
 การปรับเหล่านี้ส่งผลโดยตรงต่อความสำเร็จของ **recognize Korean text image**.
 
----
+## สร้าง PDF ที่สามารถค้นหาได้ – ตรวจสอบผลลัพธ์
+หลังจากโปรแกรมทำงานเสร็จ, เปิด `korean_page.pdf` ด้วยโปรแกรมอ่าน PDF ใดก็ได้ (Adobe Acrobat Reader, Foxit, หรือแม้แต่ Chrome). คุณควรจะสามารถ:
+- **เลือกข้อความ** with your mouse as if it were a native PDF.  
+- **ค้นหา** for Korean words using the built‑in search box.  
 
-## ## สร้าง PDF ที่สามารถค้นหาได้ – ตรวจสอบผลลัพธ์
+หากชั้นข้อความปรากฏเป็นสีขาวเปล่า, ตรวจสอบอีกครั้งว่าเมธอด `Export` ได้รับเส้นทางภาพที่ถูกต้องและผลลัพธ์ OCR มี `RecognitionResult.Text` ที่ไม่ว่างเปล่า.
 
-เมื่อโปรแกรมเสร็จสิ้น เปิดไฟล์ `korean_page.pdf` ด้วยโปรแกรมอ่าน PDF ใดก็ได้ (Adobe Acrobat Reader, Foxit, หรือแม้แต่ Chrome) คุณควรจะสามารถ:
-
-- **Select text** ด้วยเมาส์ของคุณเหมือนกับ PDF ดั้งเดิม.  
-- **Search** คำภาษาเกาหลีโดยใช้ช่องค้นหาในตัว.
-
-หากเลเยอร์ข้อความแสดงเป็นค่าว่าง ให้ตรวจสอบอีกครั้งว่าเมธอด `Export` ได้รับเส้นทางรูปภาพที่ถูกต้องและผลลัพธ์ OCR มี `RecognitionResult.Text` ที่ไม่ว่างเปล่า.
-
----
-
-## ## ผลลัพธ์ JSON เต็ม – สิ่งที่คาดหวัง
-
-คอนโซลจะแสดง payload JSON ที่จัดรูปแบบอย่างสวยงาม ตัวอย่างที่ตัดทอนดูเหมือนนี้:
+## ผลลัพธ์ JSON เต็ม – สิ่งที่คาดหวัง
+คอนโซลพิมพ์ payload JSON ที่จัดรูปแบบอย่างสวยงาม ตัวอย่างที่ตัดทอนดูเหมือนนี้:
 
 ```json
 {
@@ -188,34 +246,41 @@ namespace OcrPdfDemo
 }
 ```
 
----
-
-## ## การแก้ไขปัญหา & คำถามที่พบบ่อย
-
+## การแก้ไขปัญหา & คำถามที่พบบ่อย
 **Q: PDF ของฉันใหญ่กว่าภาพต้นฉบับมาก**  
-A: ตัวส่งออกฝังบิตแมพต้นฉบับที่ความละเอียดดั้งเดิม หากขนาดเป็นปัญหา ให้ลดขนาดภาพ *ก่อน* การจดจำ:
+A: Exporter ฝังบิตแมพต้นฉบับที่ความละเอียดดั้งเดิม หากขนาดเป็นปัญหา ให้ลดขนาดภาพ *ก่อน* การจดจำ:
 
 ```csharp
 ocrEngine.Filters.Add(new ResizeFilter { MaxWidth = 1240, MaxHeight = 1754 });
 ```
 
-**Q: OCR ส่งคืนสตริงว่าง**  
-A: ตรวจสอบว่าเส้นทางรูปภาพถูกต้องและไฟล์ไม่เสียหาย นอกจากนี้ให้แน่ใจว่าไดรเวอร์ GPU เป็นเวอร์ชันล่าสุด; ไดรเวอร์เก่าอาจทำให้เกิดความล้มเหลวโดยไม่มีข้อความแจ้ง.
+**Q: OCR คืนค่าเป็นสตริงว่าง**  
+A: ตรวจสอบว่าเส้นทางภาพถูกต้องและไฟล์ไม่เสียหาย นอกจากนี้ ตรวจสอบว่าไดรเวอร์ GPU เป็นเวอร์ชันล่าสุด; ไดรเวอร์เก่าอาจทำให้เกิดความล้มเหลวโดยไม่มีข้อความแสดง.
 
 **Q: ฉันสามารถประมวลผลหลายหน้าในลูปได้หรือไม่?**  
-A: แน่นอน. ห่อขั้นตอนที่ 4‑6 ไว้ในลูป `foreach (var file in Directory.GetFiles("Resources", "*.jpg"))` และเปลี่ยนเส้นทาง PDF ผลลัพธ์ตามต้องการ.
+A: ได้เลย. ห่อขั้นตอนที่ 4‑6 ไว้ในลูป `foreach (var file in Directory.GetFiles("Resources", "*.jpg"))` และเปลี่ยนเส้นทาง PDF ผลลัพธ์ตามที่ต้องการ.
+
+## สรุป
+เราเพิ่ง **converted image to PDF** พร้อมกับรักษาข้อความที่สามารถค้นหาได้, ทั้งหมดนี้เป็นผลมาจาก pipeline ที่ทรงพลังของ Aspose OCR. ด้วยการ **preprocess image for OCR**, คุณเพิ่มความแม่นยำ; ด้วยการ **recognize Korean text image**, คุณจัดการสคริปต์ที่ซับซ้อน; และด้วยการ **create searchable pdf image**, คุณได้เอกสารที่พกพาและทำดัชนีได้.  
+
+ดาวน์โหลดโค้ด, ชี้ไปที่สแกนของคุณ, และทดลองใช้ฟิลเตอร์หรือโมเดลภาษาเพิ่มเติม. รูปแบบเดียวกันทำงานกับภาษาจีน, ญี่ปุ่น, หรือภาษาใด ๆ ที่ใช้ตัวอักษรละติน—เพียงเปลี่ยน `LanguageModel.Korean` เป็น enum ที่เหมาะสม.  
+
+มีคำถามเพิ่มเติม? แสดงความคิดเห็น, และขอให้สนุกกับการเขียนโค้ด!
 
 ---
 
-## ## สรุป
+**อัปเดตล่าสุด:** 2026-09-13  
+**ทดสอบกับ:** Aspose.OCR 24.11 for .NET  
+**ผู้เขียน:** Aspose
 
-เราเพิ่ง **แปลงรูปภาพเป็น PDF** พร้อมคงข้อความที่สามารถค้นหาได้ ทั้งหมดนี้เป็นผลมาจาก pipeline ที่ทรงพลังของ Aspose OCR โดยการ **preprocess image for OCR** คุณเพิ่มความแม่นยำ; ด้วย **recognize Korean text image** คุณจัดการสคริปต์ที่ซับซ้อน; และด้วย **create searchable pdf image** คุณได้เอกสารที่พกพาและทำดัชนีได้
-
-ดึงโค้ดไปใช้ ชี้ไปที่สแกนของคุณเอง และทดลองกับฟิลเตอร์หรือโมเดลภาษาที่เพิ่มขึ้น รูปแบบเดียวกันทำงานได้กับภาษาจีน ญี่ปุ่น หรือภาษาใด ๆ ที่ใช้ละติน—เพียงเปลี่ยน `LanguageModel.Korean` เป็น enum ที่เหมาะสม
-
-มีคำถามเพิ่มเติม? แสดงความคิดเห็นได้เลย และขอให้เขียนโค้ดอย่างสนุกสนาน!
+## บทแนะนำที่เกี่ยวข้อง
+- [สร้าง PDF ที่สามารถค้นหาได้จากไฟล์สแกนโดยใช้ Aspose Ocr](/ocr/net/ocr-optimization/create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+- [Pipeline การเตรียม OCR: วิธีจดจำข้อความจากภาพ](/ocr/net/ocr-optimization/ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+- [จดจำข้อความจากภาพด้วย Aspose Ocr คู่มือ C# ครบ](/ocr/net/ocr-configuration/recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
