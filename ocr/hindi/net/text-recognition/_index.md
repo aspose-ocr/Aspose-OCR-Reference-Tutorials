@@ -80,53 +80,12 @@ Aspose OCR का उपयोग करके C# में इमेज से 
 ### [c# OCR ट्यूटोरियल – मिनटों में JPG से टेक्स्ट पहचानें](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 c# में Aspose.OCR का उपयोग करके JPG छवि से तेज़ी से टेक्स्ट निकालें। चरण-दर-स्टेप मार्गदर्शिका।
 ### [JPG से टेक्स्ट पहचानें C# में – पूर्ण OCR ट्यूटोरियल](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
-C# में Aspose.OCR से JPG छवि से टेक्स्ट निकालें। विस्तृत चरण-दर-चरण पूर्ण OCR गाइड।
-### [C# में Aspose OCR का उपयोग कैसे करें – छवियों से कोरियन टेक्स्ट पहचानें](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
-C# में Aspose OCR का उपयोग करके छवियों से कोरियन भाषा का टेक्स्ट तेज़ी से निकालें। चरण-दर-चरण मार्गदर्शिका।
-### [TIFF से खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-from-tiff-full-c-guide/)
-TIFF फ़ाइलों से खोज योग्य PDF बनाने के लिए Aspose.OCR का उपयोग करके पूर्ण C# चरण-दर- चरण मार्गदर्शिका।
-### [C# में इमेज को DOCX में परिवर्तित करें – पूर्ण Aspose OCR गाइड](./convert-image-to-docx-in-c-complete-aspose-ocr-guide/)
-C# में Aspose OCR का उपयोग करके इमेज को DOCX फ़ाइल में बदलें। चरण-दर-स्टेप गाइड।
-### [इमेज को टेक्स्ट में बदलें – C# डेवलपर्स के लिए पूर्ण बैच OCR गाइड](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
-C# में Aspose.OCR से इमेज को टेक्स्ट में बैच रूप में बदलने के लिए पूर्ण गाइड। आसान चरणों के साथ तेज़ परिणाम प्राप्त करें।
-### [C# में PDF को OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-ocr-pdf-in-c-step-by-step-guide/)
-C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से तेज़ी से टेक्स्ट निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
-### [c# OCR ट्यूटोरियल – PNG रसीदों से हिंदी टेक्स्ट निकालें](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
-c# में Aspose.OCR का उपयोग करके PNG रसीदों से हिंदी टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका।
-### [c# OCR ट्यूटोरियल – इमेज और DJVU फ़ाइलों से टेक्स्ट निकालें](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
-c# में Aspose.OCR का उपयोग करके इमेज और DJVU फ़ाइलों से टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका।
-### [Aspose OCR के साथ JPG में टेक्स्ट पहचानें – पूर्ण C# गाइड](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
-Aspose OCR का उपयोग करके JPG इज में टेक्स्ट पहचानने के लिए पूर्ण C# गाइड। चरण-दर-शरण निर्देश।
-### [Aspose OCR के साथ TIFF से टेक्स्ट निकालें – पूर्ण ट्यूटोरियल](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
-C# में Aspose OCR का उपयोग करके TIFF इज से टेक्स्ट निकालने की चरण-दर-स्टेप पूर्ण गाइड।
-### [c# OCR ट्यूटोरियल – Aspose OCR के साथ इमेज से टेक्स्ट निकालें](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
-Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की चरण-दर-शरण गाइड। C# में आसान OCR कार्यान्वयन सीखें।
-### [PNG से टेक्स्ट निकालें – पूर्ण Aspose OCR ट्यूटोरियल](./extract-text-from-png-complete-aspose-ocr-tutorial/)
-Aspose OCR के साथ PNG इमेज से टेक्स्ट निकालने के लिए पूर्ण C# गाइड। चरण-दर-चरण निर्देशों के साथ आसान कार्यान्वयन।
-### [C# में OCR चलाने का तरीका – Aspose OCR के साथ पूर्ण गाइड](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
-Aspose OCR के साथ C# में OCR को लागू करने की चरण-दर-स्टेप मार्गदर्शन। आसान सेटअप और उपयोग के लिए पूर्ण गाइड।
-### [C# में OCR चलाने का तरीका – PNG से अरबी टेक्स्ट निकालें](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
-C# में Aspose OCR का उपयोग करके PNG फ़ाइल से अरबी टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शन।
-### [C# में PNG से खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-png-in-c-complete-guide/)
-C# में Aspose OCR का उपयोग करके PNG फ़ाइल से खोज योग्य PDF बनाने की पूरी प्रक्रिया सीखें।
-### [C# में इमेज से टेक्स्ट निकालें – पूर्ण Aspose OCR गाइड](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
-Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की विस्तृत चरण-दर-चरण गाइड।
-### [C# में इमेज से टेक्स्ट पहचानें – OCR और JSON का पूर्ण गाइड](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
-C# में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालें और परिणाम को JSON में प्राप्त करने की पूरी प्रक्रिया सीखें।
-### [c# OCR ट्यूटोरियल – इमेज को सर्चेबल PDF में बदलें](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
-Aspose.OCR के साथ इमेज को सर्चेबल PDF में बदलने की प्रक्रिया सीखें। .NET में तेज़ OCR और PDF निर्माण।
-### [c# OCR ट्यूटोरियल: PNG छवियों से टेक्स्ट पहचानें](./c-ocr-tutorial-recognize-text-from-png-images/)
-c# में Aspose.OCR का उपयोग करके PNG छवियों से टेक्स्ट पहचानने की चरण-दर-स्टेज मार्गदर्शिका।
-### [c# OCR ट्यूटोरियल – छवि से टेक्स्ट निकालें और फ़ॉर्मेटेड JSON प्राप्त करें](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
-c# में Aspose.OCR का उपयोग करके छवि से टेक्स्ट निकालें और फ़ॉर्मेटेड JSON प्राप्त करने की चरण-दर-स्टेज गाइड।
-### [Aspose OCR का उपयोग करके चीनी टेक्स्ट को पहचानें – पूर्ण गाइड](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
-Aspose OCR के साथ .NET में चीनी टेक्स्ट पहचानने की पूरी गाइड। चरण-दर-स्टेज निर्देशों के साथ।
-### [C# में खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-c-full-guide/)
-C# में खोज योग्य PDF बनाने के लिए Aspose OCR का उपयोग करने की पूरी गाइड। चरण-दर-स्टेज निर्देशों के साथ।
-### [C# में अरबी OCR – पूर्ण गाइड](./how-to-ocr-arabic-in-c-complete-guide/)
-C# में Aspose.OCR का उपयोग करके अरबी टेक्स्ट को पहचानने की चरण-दर-स्टेज गाइड।
-### [C# में Aspose OCR के साथ टेक्स्ट पहचान – कैरेक्टर काउंट दिखाएँ और इमेज लोड करें](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
-C# में Aspose OCR का उपयोग करके टेक्स्ट पहचानें, कैरेक्टर गिनती दिखाएँ और इमेज लोड करने की प्रक्रिया सीखें।
+C# में Aspose.OCR से JPG छवि से टेक्स्ट निकालें। विस्तृत चरण-दर-स्टेप पूर्ण OCR गाइड।
+### [C# OCR ट्यूटोरियल – JPG से टेक्स्ट निकालें](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+C# में Aspose.OCR का उपयोग करके JPG छवि से टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
+### [C# में इमेज को टेक्स्ट में बदलें Aspose OCR – चरण‑दर‑चरण गाइड](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
+
+### [C# में इमेज को टेक्स्ट में बदलें Aspose OCR – चरण‑दर‑चरण गाइड](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
