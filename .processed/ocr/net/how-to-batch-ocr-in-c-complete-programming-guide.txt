@@ -1,0 +1,7 @@
+Title: How to Batch OCR in C# – Complete Programming Guide
+Slug: how-to-batch-ocr-in-c-complete-programming-guide
+Category: ocr-optimization
+ProcessedDate: 2026-05-31T19:26:50.704154
+SourceRepo: AI Search API
+Keywords: how to batch ocr, convert images to text, extract text from images, ocr multiple files, batch ocr processing
+PRNumber: 135

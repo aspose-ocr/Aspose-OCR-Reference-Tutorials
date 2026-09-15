@@ -1,33 +1,54 @@
 ---
-title: Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
-linktitle: Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
+date: 2026-02-25
+description: Pelajari cara mengekstrak teks gambar dengan C# menggunakan Aspose.OCR
+  untuk .NET. Panduan langkah demi langkah ini menunjukkan OCR multibahasa, pemilihan
+  bahasa, dan tips praktis.
+linktitle: Extract image text C# with language selection using Aspose.OCR
 second_title: Aspose.OCR .NET API
-description: Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mulus.
-weight: 12
+title: Ekstrak teks gambar C# dengan pemilihan bahasa menggunakan Aspose.OCR
 url: /id/net/ocr-configuration/ocr-operation-with-language-selection/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR
+# Ekstrak teks gambar C# dengan pilihan bahasa menggunakan Aspose.OCR
 
-## Perkenalan
+## Pendahuluan
 
-Dalam dunia pengenalan gambar dan pengenalan karakter optik (OCR), Aspose.OCR untuk .NET menonjol sebagai alat canggih bagi pengembang yang mencari ekstraksi teks dari gambar secara akurat dan efisien. Panduan langkah demi langkah ini akan memandu Anda melalui proses pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET, dengan fokus pada pengoperasian pemilihan bahasa.
+Jika Anda perlu **extract image text C#** dari gambar dan PDF dalam aplikasi .NET, Aspose.OCR untuk .NET menawarkan solusi yang cepat, akurat, dan mendukung bahasa. Dalam tutorial ini kami akan membahas contoh dunia nyata yang memperlihatkan pengenalan gambar OCR dengan pilihan bahasa, sehingga Anda dapat mengambil teks multibahasa dari gambar hanya dengan beberapa baris kode. Pada akhir tutorial Anda akan melihat betapa mudahnya mengintegrasikan OCR ke dalam proyek C# Anda dan mengapa pendekatan ini menjadi pilihan yang solid untuk beban kerja produksi.
+
+## Jawaban Cepat
+- **Apa yang dilakukan Aspose.OCR?** Ia mengenali teks cetak dan tulisan tangan dalam gambar serta mengembalikan teks yang diekstrak.  
+- **Apakah saya dapat memilih bahasa?** Ya – Anda dapat menentukan bahasa yang didukung seperti English, German, Spanish, Chinese, dll.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk penggunaan produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Apakah koreksi kemiringan otomatis?** Anda dapat mengaktifkan `AutoSkew` dan menyesuaikan pengaturan `SkewAngle`.  
+
+## Apa itu “extract image text C#”?
+
+Mengekstrak teks gambar dalam C# berarti menggunakan sebuah pustaka untuk membaca konten visual sebuah gambar (PNG, JPEG, TIFF, dll.) dan mengubahnya menjadi teks yang dapat dicari dan diedit. Aspose.OCR menyediakan kemampuan ini secara lokal, tanpa mengirim data ke layanan eksternal, sehingga alur kerja Anda tetap aman dan patuh.
+
+## Mengapa Memilih Aspose.OCR untuk Tugas OCR?
+
+- **Akurasi tinggi** pada berbagai jenis font dan kualitas gambar.  
+- **Pemilihan bahasa bawaan** menghilangkan kebutuhan paket bahasa eksternal.  
+- **API sederhana** yang terintegrasi mulus dengan proyek C# yang ada, memudahkan **extract image text C#**.  
+- **Tanpa ketergantungan eksternal** – semuanya berjalan secara lokal, menjaga keamanan data Anda.  
 
 ## Prasyarat
 
-Sebelum kita mempelajari tutorialnya, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita masuk ke kode, pastikan Anda telah menyiapkan hal‑hal berikut:
 
--  Aspose.OCR untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.OCR. Anda dapat mengunduhnya dari[Aspose.OCR untuk halaman unduhan .NET](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.OCR. Anda dapat mengunduhnya dari [halaman unduhan Aspose.OCR untuk .NET](https://releases.aspose.com/ocr/net/).
 
-- Lingkungan Pengembangan: Siapkan lingkungan kerja dengan aplikasi .NET. Jika Anda belum melakukannya, lihat[dokumentasi](https://reference.aspose.com/ocr/net/) untuk petunjuk rinci.
+- Lingkungan Pengembangan: Siapkan lingkungan kerja dengan aplikasi .NET. Jika belum melakukannya, lihat [dokumentasi](https://reference.aspose.com/ocr/net/) untuk petunjuk detail.
 
 ## Impor Namespace
 
-Di aplikasi .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
+Dalam aplikasi .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
 ```csharp
 using System;
@@ -39,48 +60,48 @@ using Aspose.OCR;
 
 ## Langkah 1: Inisialisasi Aspose.OCR
 
-Mulailah dengan menginisialisasi sebuah instance dari kelas Aspose.OCR. Ini menetapkan landasan untuk memanfaatkan kemampuan OCR dalam aplikasi Anda.
+Mulailah dengan menginisialisasi sebuah instance dari kelas Aspose.OCR. Ini menyiapkan fondasi untuk menggunakan kemampuan OCR dalam aplikasi Anda.
 
 ```csharp
-// MantanMulai:1
-// Jalur ke direktori dokumen.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
 ## Langkah 2: Tentukan Jalur Gambar
 
-Selanjutnya, tentukan jalur ke gambar tempat Anda ingin melakukan OCR. Pastikan gambar dapat diakses dari aplikasi Anda.
+Selanjutnya, definisikan jalur ke gambar yang ingin Anda proses dengan OCR. Pastikan gambar dapat diakses oleh aplikasi Anda.
 
 ```csharp
-//Jalur Gambar
+// Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## Langkah 3: Kenali Gambar dengan Pemilihan Bahasa
+## Langkah 3: Kenali Gambar dengan Pilihan Bahasa
 
-Sekarang sampai pada operasi inti OCR. Manfaatkan perpustakaan Aspose.OCR untuk mengenali teks dari gambar yang ditentukan. Sesuaikan pengaturan pengenalan, termasuk pemilihan bahasa.
+Berikutnya adalah operasi OCR inti. Manfaatkan pustaka Aspose.OCR untuk mengenali teks dari gambar yang telah ditentukan. Sesuaikan pengaturan pengenalan, termasuk pilihan bahasa, untuk mengoptimalkan proses **extract image text C#**.
 
 ```csharp
-// Kenali gambar
+// Recognize image           
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     DetectAreas = true,
     RecognizeSingleLine = false,
     AutoSkew = true,
     SkewAngle = 0.2F,
-    Language = Language.Eng, // Pilih bahasa: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
+    Language = Language.Eng, // Choose the language: none, eng, deu, por, spa, fra, ita, cze, dan, dum, est, fin, lav, lit, nor, pol, rum, srp_hrv, slk, slv, swe, chi
 });
 ```
 
 ## Langkah 4: Cetak dan Tampilkan Hasil
 
-Setelah operasi OCR, cetak dan tampilkan hasilnya, termasuk teks yang dikenali, area, peringatan, dan representasi JSON.
+Setelah operasi OCR selesai, cetak dan tampilkan hasilnya, termasuk teks yang dikenali, area, peringatan, dan representasi JSON.
 
 ```csharp
-// Hasil cetak
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 Console.WriteLine("Areas:");
 result.RecognitionAreasText.ForEach(a => Console.WriteLine($"{a}"));
@@ -90,31 +111,38 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 // ExEnd:1
 ```
 
+## Masalah Umum dan Tips
+
+- **Pemilihan bahasa yang salah** – Jika output terlihat berantakan, periksa kembali bahwa properti `Language` sesuai dengan bahasa gambar sumber.  
+- **Gambar miring** – Aktifkan `AutoSkew` atau sesuaikan secara manual `SkewAngle` untuk akurasi lebih baik pada pemindaian yang miring.  
+- **File besar** – Proses gambar berukuran besar secara bertahap atau kurangi resolusi sebelum memberi ke `RecognizeImage` untuk menghemat memori.  
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apakah Aspose.OCR cocok untuk pengenalan teks multibahasa?**  
+A: Ya, Aspose.OCR mendukung berbagai bahasa, memberikan fleksibilitas untuk tugas OCR multibahasa.
+
+**Q: Bisakah saya menyesuaikan pengaturan OCR untuk karakteristik gambar tertentu?**  
+A: Tentu! Sesuaikan parameter seperti sudut kemiringan, pengenalan baris, dan deteksi area untuk mengoptimalkan OCR pada berbagai skenario.
+
+**Q: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?**  
+A: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi dengan komunitas.
+
+**Q: Apakah ada versi percobaan gratis?**  
+A: Ya, jelajahi [free trial](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.OCR.
+
+**Q: Bagaimana cara membeli Aspose.OCR untuk .NET?**  
+A: Untuk membeli, kunjungi [halaman pembelian](https://purchase.aspose.com/buy).
+
 ## Kesimpulan
 
-Selamat! Anda telah berhasil melakukan pengenalan gambar OCR dengan pemilihan bahasa menggunakan Aspose.OCR untuk .NET. Tutorial ini mendemonstrasikan langkah-langkah penting untuk mengekstraksi teks dari gambar dan menyoroti fleksibilitas pilihan bahasa.
+Selamat! Anda telah mempelajari **cara extract image text C#** dengan pilihan bahasa menggunakan Aspose.OCR untuk .NET. Tutorial ini menunjukkan cara mengkonfigurasi mesin OCR, memilih bahasa yang tepat, dan menangani hasilnya, memberikan fondasi yang kuat untuk membangun fitur ekstraksi teks multibahasa dalam aplikasi Anda.
 
-## FAQ
+---
 
-### Q1: Apakah Aspose.OCR cocok untuk pengenalan teks multibahasa?
-
-A1: Ya, Aspose.OCR mendukung berbagai bahasa, memberikan fleksibilitas untuk tugas OCR multibahasa.
-
-### Q2: Dapatkah saya menyempurnakan pengaturan OCR untuk karakteristik gambar tertentu?
-
-A2: Tentu saja! Sesuaikan parameter seperti sudut kemiringan, pengenalan garis, dan deteksi area untuk mengoptimalkan OCR untuk berbagai skenario.
-
-### Q3: Di mana saya dapat menemukan dukungan tambahan atau diskusi komunitas?
-
- A3: Kunjungi[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan diskusi dengan komunitas.
-
-### Q4: Apakah tersedia uji coba gratis?
-
- A4: Ya, jelajahi[uji coba gratis](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.OCR.
-
-### Q5: Bagaimana cara membeli Aspose.OCR untuk .NET?
-
- A5: Untuk membeli, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

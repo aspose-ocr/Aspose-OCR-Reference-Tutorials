@@ -1,0 +1,7 @@
+Title: recognize text from image using Aspose OCR GPU
+Slug: recognize-text-from-image-using-aspose-ocr-gpu
+Category: ocr-optimization
+ProcessedDate: 2026-06-29T02:47:53.727917
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from receipt, how to enable gpu acceleration, convert image to plain text, load image for ocr
+PRNumber: 161

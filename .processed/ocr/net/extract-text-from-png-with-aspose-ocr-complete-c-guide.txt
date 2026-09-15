@@ -1,0 +1,7 @@
+Title: Extract Text from PNG with Aspose OCR – Complete C# Guide
+Slug: extract-text-from-png-with-aspose-ocr-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-07-18T14:11:15.983581
+SourceRepo: AI Search API
+Keywords: extract text from png, convert image to text, perform ocr on image, recognize cyrillic text, ocr cyrillic image
+PRNumber: 178

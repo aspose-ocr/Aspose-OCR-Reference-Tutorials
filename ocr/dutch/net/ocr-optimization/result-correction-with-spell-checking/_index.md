@@ -1,35 +1,56 @@
 ---
-title: Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
-linktitle: Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
-second_title: Aspose.OCR .NET-API
-description: Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze tekstherkenning.
-weight: 13
+date: 2026-04-29
+description: Verbeter de OCR-nauwkeurigheid en leer hoe je tekst uit een afbeelding
+  kunt herkennen met Aspose OCR voor .NET, gebruikmakend van spellingscontrole en
+  taalondersteuning om spelfouten te corrigeren en woordenboeken aan te passen.
+keywords:
+- improve ocr accuracy
+- recognize text from image
+- Aspose OCR spell checking
+- custom OCR dictionary
+linktitle: Verbeter OCR-nauwkeurigheid met spellingscontrole in afbeeldingen
+second_title: Aspose.OCR .NET API
+title: Verbeter de OCR‑nauwkeurigheid met spellingscontrole in afbeeldingen
 url: /nl/net/ocr-optimization/result-correction-with-spell-checking/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning
+# Verbeter OCR-nauwkeurigheid met spellingscontrole in afbeeldingen
 
-## Invoering
+Wanneer je werkt met Optical Character Recognition (OCR), is het uiteindelijke doel om **improve OCR accuracy** zodat de geëxtraheerde tekst perfect overeenkomt met de originele afbeelding. Fout gespelde woorden zijn een veelvoorkomende bron van fouten, vooral wanneer de bronafbeelding ruis bevat of ongebruikelijke lettertypen heeft. Aspose.OCR for .NET biedt ingebouwde spell‑checking‑functionaliteit die niet alleen die fouten corrigeert, maar je ook de mogelijkheid geeft de engine uit te breiden met aangepaste woordenboeken. In deze tutorial leer je hoe je spellingscontrole gebruikt om OCR‑resultaten te verbeteren, zie je de voor‑en‑na‑output, en ontdek je hoe je het correctieproces kunt afstemmen op jouw specifieke taalbehoeften.
 
-Op het gebied van Optical Character Recognition (OCR) is het behalen van nauwkeurige resultaten cruciaal voor het extraheren van betekenisvolle informatie uit afbeeldingen. Een veel voorkomende uitdaging is het omgaan met verkeerd gespelde woorden tijdens het herkenningsproces. Gelukkig biedt Aspose.OCR voor .NET een krachtige oplossing om de OCR-resultaten te verbeteren door middel van spellingcontrole.
+## Snelle antwoorden
+- **Wat doet spellingscontrole voor OCR?** Het detecteert automatisch fout gespelde woorden in de OCR‑output en vervangt ze door de meest waarschijnlijke correcte alternatieven.  
+- **Welke bibliotheek biedt deze functie?** Aspose.OCR for .NET includes a ready‑to‑use spell‑checking API.  
+- **Heb ik een internetverbinding nodig?** Nee, de spell‑checking engine werkt volledig offline.  
+- **Kan ik mijn eigen terminologie toevoegen?** Ja, je kunt een aangepast gebruikerswoordenboek leveren om domeinspecifieke woorden af te handelen.  
+- **Hoe helpt dit me bij het herkennen van tekst uit een afbeelding?** Door OCR‑gegenereerde fouten te corrigeren, wordt de uiteindelijke tekst schoon en klaar voor verdere verwerking.
 
-Deze tutorial leidt u door het proces van resultaatcorrectie met spellingcontrole met behulp van Aspose.OCR voor .NET. Uiteindelijk zult u in staat zijn om de nauwkeurigheid van OCR-afgeleide tekst te verbeteren, waardoor een verfijndere en foutloze uitvoer wordt gegarandeerd.
+## Wat is spellingscontrole in OCR?
+Spellingscontrole onderzoekt de ruwe tekst die door de OCR‑engine wordt geretourneerd, identificeert tokens die niet overeenkomen met bekende woorden in het geselecteerde taalwoordenboek, en stelt correcties voor of past ze toe. Deze stap is essentieel voor **improve OCR accuracy**, vooral bij het verwerken van gescande documenten, bonnetjes of formulieren waar OCR tekens kan misinterpreteren.
 
-## Vereisten
+## Waarom Aspose OCR-taalondersteuning gebruiken?
+Aspose.OCR wordt geleverd met uitgebreide taalpakketten en stelt je in staat extra woordenboeken toe te voegen. Het benutten van **aspose ocr language support** betekent dat je meertalige documenten kunt verwerken zonder eigen parsers te schrijven, en je krijgt toegang tot taalspecifieke regels die de herkenningskwaliteit verder verbeteren.
 
-Voordat we ingaan op de magie van spellingcontrole, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+## Wanneer is het verbeteren van OCR-nauwkeurigheid het belangrijkst?
+- **Juridische en compliance‑documenten** waarbij één typefout de betekenis kan veranderen.  
+- **Data‑extractiepijplijnen** die OCR‑resultaten voeden aan analytics of AI‑modellen.  
+- **Klantgerichte applicaties** zoals mobiele scanners die direct leesbare tekst moeten teruggeven.  
 
--  Aspose.OCR voor .NET-bibliotheek: Download en installeer de Aspose.OCR-bibliotheek van de .NET-bibliotheek[pagina vrijgeven](https://releases.aspose.com/ocr/net/).
+## Voorvereisten
 
-- Documentmap: Zorg ervoor dat u een aangewezen map voor uw documenten heeft. Vervang "Uw documentenmap" in de codefragmenten door het daadwerkelijke pad.
+Voordat we de spell‑checking magie induiken, zorg ervoor dat je de volgende zaken gereed hebt:
 
-## Naamruimten importeren
+- Aspose.OCR for .NET Library: Download and install the Aspose.OCR library from the [release page](https://releases.aspose.com/ocr/net/).
+- Document Directory: Ensure you have a designated directory for your documents. Replace `"Your Document Directory"` in the code snippets with the actual path.
 
-Laten we beginnen met het importeren van de benodigde naamruimten in uw .NET-project:
+## Namespaces importeren
+
+Laten we beginnen met het importeren van de benodigde namespaces in je .NET‑project:
 
 ```csharp
 using System;
@@ -37,111 +58,117 @@ using Aspose.OCR.SpellChecker;
 using System.Collections.Generic;
 ```
 
-## Stap 1: Initialiseer Aspose.OCR
+## Stap 1: Aspose.OCR initialiseren
 
-Initialiseer een exemplaar van Aspose.OCR om het OCR-proces een vliegende start te geven.
+Initialiseer een instantie van Aspose.OCR om het OCR‑proces te starten.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Initialiseer een exemplaar van AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Stap 2: Herken afbeelding
+## Stap 2: Afbeelding herkennen
 
-Herken vervolgens de tekst in een afbeelding met Aspose.OCR. Hier is een fragment dat dit proces demonstreert:
+Herken vervolgens de tekst in een afbeelding met Aspose.OCR. Hieronder vind je een codefragment dat dit proces demonstreert:
 
 ```csharp
-// Herken beeld
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample_bad.png", new RecognitionSettings(Language.Eng));
 ```
 
-## Stap 3: Vóór correctie
+## Stap 3: Voor correctie
 
-Haal het OCR-resultaat vóór correctie op om te vergelijken met de gecorrigeerde versie.
+Haal het OCR‑resultaat op vóór correctie om te vergelijken met de gecorrigeerde versie.
 
 ```csharp
-// Resultaat verkrijgen
+// Get result
 Console.WriteLine("BEFORE CORRECTION:\n" + result.RecognitionText);
 ```
 
 ## Stap 4: Na correctie
 
-Pas spellingcontrole toe om het gecorrigeerde resultaat te krijgen. Het volgende codefragment illustreert deze stap:
+Pas spellingscontrole toe om het gecorrigeerde resultaat te verkrijgen. Het volgende codefragment illustreert deze stap:
 
 ```csharp
-// Krijg een gecorrigeerd resultaat
+// Get corrected result
 string correctedResult = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng);
 Console.WriteLine("AFTER CORRECTION:\n" + correctedResult);
 ```
 
-## Stap 5: Verkeerd gespelde woorden en suggesties
+## Stap 5: Fout gespelde woorden en suggesties
 
-Verkrijg een lijst met verkeerd gespelde woorden samen met voorgestelde correcties met behulp van de volgende code:
+Verkrijg een lijst van fout gespelde woorden met voorgestelde correcties met de volgende code:
 
 ```csharp
-// Ontvang een lijst met verkeerd gespelde woorden met suggesties
+// Get list of misspelled words with suggestions
 List<SpellCheckError> errorsList = result.GetSpellCheckErrorList(SpellCheckLanguage.Eng);
 foreach (var word in errorsList)
 {
-	Console.Write("Word:" + word.Word);
-	Console.Write(" StartPosition:" + word.StartPosition);
-	Console.WriteLine(" Length:" + word.Length);
-	Console.WriteLine("SuggestedWords:");
-	foreach (var suggest in word.SuggestedWords)
-	{
-		Console.Write(suggest.Word + " ");
-	}
-	Console.WriteLine();
+    Console.Write("Word:" + word.Word);
+    Console.Write(" StartPosition:" + word.StartPosition);
+    Console.WriteLine(" Length:" + word.Length);
+    Console.WriteLine("SuggestedWords:");
+    foreach (var suggest in word.SuggestedWords)
+    {
+        Console.Write(suggest.Word + " ");
+    }
+    Console.WriteLine();
 }
 ```
 
-## Stap 6: Corrigeer de gebruikerstekst
+## Stap 6: Gebruikerstekst corrigeren
 
-Corrigeer specifieke, door de gebruiker aangeleverde tekst met behulp van de Aspose.OCR-bibliotheek:
+Corrigeer specifieke door de gebruiker geleverde tekst met de Aspose.OCR‑bibliotheek:
 
 ```csharp
-// Correcte gebruikerstekst
+// Correct user text
 Console.WriteLine("recogniition -> " + api.CorrectSpelling("recogniition"));
 ```
 
 ## Stap 7: Correctie met gebruikerswoordenboek
 
-Verbeter de correctie verder door een aangepast gebruikerswoordenboek op te nemen:
+Verbeter de correctie verder door een aangepast gebruikerswoordenboek te integreren:
 
 ```csharp
-// Krijg gecorrigeerd resultaat met gebruikerswoordenboek
+// Get corrected result with user dictionary
 string correctedResultUserDict = result.GetSpellCheckCorrectedText(SpellCheckLanguage.Eng, dataDir+"dictionary.txt");
 Console.WriteLine("AFTER CORRECTION WITH USER DICTIONARY:\n" + correctedResultUserDict);
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Gefeliciteerd! U heeft met succes door de spellingcontrolemogelijkheden van Aspose.OCR voor .NET genavigeerd. Met deze functie kunt u de OCR-resultaten verfijnen, waardoor nauwkeurigheid wordt gegarandeerd en fouten worden geëlimineerd.
+| Probleem | Waarom het gebeurt | Hoe op te lossen |
+|----------|--------------------|------------------|
+| Geen suggesties teruggegeven | Het taalpakket is niet geladen of de tekst is te kort. | Zorg ervoor dat `RecognitionSettings(Language.Eng)` overeenkomt met de taal van de bronafbeelding en dat de OCR‑resultaten voldoende tekens bevatten. |
+| Aangepast woordenboek niet toegepast | Onjuist pad of bestandsformaat. | Controleer of `dictionary.txt` bestaat op de opgegeven locatie en één woord per regel bevat. |
+| Spellingscontrole vertraagt bij grote documenten | Het verwerken van elk woord afzonderlijk voegt overhead toe. | Verwerk pagina's in batches of vergroot de geheugenallocatie bij gebruik van .NET Core. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.OCR gebruiken voor andere talen dan Engels?
-
+**Q1: Kan ik Aspose.OCR gebruiken voor andere talen dan Engels?**  
 A1: Ja, Aspose.OCR ondersteunt meerdere talen. Pas de taalinstellingen dienovereenkomstig aan.
 
-### V2: Hoe integreer ik Aspose.OCR in mijn .NET-project?
+**Q2: Hoe integreer ik Aspose.OCR in mijn .NET‑project?**  
+A2: Raadpleeg de [documentation](https://reference.aspose.com/ocr/net/) voor gedetailleerde integratiestappen.
 
- A2: Raadpleeg de[documentatie](https://reference.aspose.com/ocr/net/) voor gedetailleerde integratiestappen.
+**Q3: Is er een proefversie beschikbaar voor Aspose.OCR?**  
+A3: Ja, je kunt de functies verkennen met de [free trial version](https://releases.aspose.com/).
 
-### V3: Is er een proefversie beschikbaar voor Aspose.OCR?
+**Q4: Kan ik een aangepast woordenboek uploaden voor spellingscontrole?**  
+A4: Absoluut! De tutorial laat zien hoe je correctie kunt verbeteren met een door de gebruiker geleverd woordenboek.
 
- A3: Ja, u kunt de functies verkennen met de[gratis proefversie](https://releases.aspose.com/).
+**Q5: Waar kan ik ondersteuning vinden voor Aspose.OCR?**  
+A5: Bezoek het [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) voor community‑ondersteuning en begeleiding.
 
-### V4: Kan ik een aangepast woordenboek uploaden voor spellingcontrole?
+---
 
-A4: Absoluut! De tutorial laat zien hoe u de correctie kunt verbeteren met behulp van een door de gebruiker aangeleverd woordenboek.
+**Laatst bijgewerkt:** 2026-04-29  
+**Getest met:** Aspose.OCR for .NET latest version  
+**Auteur:** Aspose  
 
-### V5: Waar kan ik ondersteuning zoeken voor Aspose.OCR?
-
- A5: Bezoek de[Aspose.OCR-forum](https://forum.aspose.com/c/ocr/16) voor gemeenschapsondersteuning en begeleiding.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Mixed Language OCR in Java – Complete Step‑by‑Step Guide
+Slug: mixed-language-ocr-in-java-complete-step-by-step-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:45.872271
+SourceRepo: AI Search API
+Keywords: mixed language ocr, get ocr text, image to text java, java ocr example, multi language ocr
+PRNumber: 168

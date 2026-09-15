@@ -1,0 +1,7 @@
+Title: recognize text from jpg using Aspose OCR in Java
+Slug: recognize-text-from-jpg-using-aspose-ocr-in-java
+Category: ocr-basics
+ProcessedDate: 2026-06-22T19:32:50.505632
+SourceRepo: AI Search API
+Keywords: recognize text from jpg, extract text from image, convert image to text, read scanned document, load image for ocr
+PRNumber: 153

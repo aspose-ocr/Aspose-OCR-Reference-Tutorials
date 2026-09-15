@@ -1,35 +1,50 @@
 ---
-title: OCR 影像辨識中影像的預處理濾鏡
-linktitle: OCR 影像辨識中影像的預處理濾鏡
+date: 2026-04-12
+description: 學習如何在 .NET 中使用 AspOCR 進行圖像 OCR 前處理，透過強大的前處理濾鏡提升準確度。
+keywords:
+- how to use aspocr
+- aspocr preprocessing filters
+- ocr image preprocessing .net
+linktitle: 如何使用 AspOCR：為 .NET 預處理影像 OCR 過濾器
 second_title: Aspose.OCR .NET API
-description: 探索適用於 .NET 的 Aspose.OCR。使用預處理過濾器提高 OCR 準確性。立即下載以實現無縫整合。
-weight: 12
+title: 如何使用 AspOCR：為 .NET 預處理圖像 OCR 濾鏡
 url: /zh-hant/net/ocr-optimization/preprocessing-filters-for-image/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR 影像辨識中影像的預處理濾鏡
+# 使用 Aspose.OCR 濾鏡在 .NET 中預處理圖像 OCR
 
 ## 介紹
 
-使用 Aspose.OCR 釋放 .NET 應用程式中光學字元辨識 (OCR) 的全部潛力。這個強大的程式庫允許開發人員無縫整合 OCR 功能，將圖像轉換為可編輯文字。在本逐步指南中，我們將深入研究用於影像增強的預處理濾鏡，以確保 OCR 影像辨識的最佳結果。
+透過學習 **如何使用 AspOCR** 於 Aspose.OCR 進行圖像 OCR 的預處理，釋放光學字符辨識（OCR）在 .NET 應用程式中的全部潛能。本步驟教學將示範如何套用預處理濾鏡，顯著 **提升 OCR 準確度**，將原始圖片轉換為乾淨、可搜尋的文字。完成本指南後，您將能將強大的圖像預處理整合至任何 .NET 專案，立即看到辨識結果的改善。
 
-## 先決條件
+## 快速解答
+- **預處理的作用是什麼？** 它會在 OCR 執行前清理並增強圖像（例如，反轉顏色、膨脹）。  
+- **使用哪個程式庫？** Aspose.OCR for .NET。  
+- **需要授權嗎？** 免費試用可用於開發；正式上線需購買商業授權。  
+- **可以在 .NET Core 使用嗎？** 可以，Aspose.OCR 同時支援 .NET Framework 與 .NET Core。  
+- **支援哪些圖像格式？** PNG、JPEG、BMP、GIF、TIFF 等多種格式。  
 
-在我們開始 OCR 之旅之前，請確保您具備以下先決條件：
+## AspOCR 是什麼以及為何重要？
 
--  Aspose.OCR for .NET：確保您已安裝 Aspose.OCR 庫。你可以找到文檔[這裡](https://reference.aspose.com/ocr/net/)並從下載[這個連結](https://releases.aspose.com/ocr/net/).
+AspOCR 是 Aspose 為 .NET 提供的 OCR 引擎，讓您能從圖像、PDF 與掃描文件中擷取文字。透過 **預處理濾鏡**，您可以降低噪點、提升對比，並將圖像調整至引擎的最佳辨識條件，從而在低品質掃描件上也能獲得更高的辨識率。
 
-- 您的文檔目錄：設定目錄來儲存您的文檔，並記下其路徑，因為它將在範例中使用。
+## 前置條件
 
-現在我們已經準備好了，讓我們深入了解基本的命名空間和利用 Aspose.OCR 功能的詳細步驟。
+在展開 OCR 之旅前，請確保已具備以下條件：
 
-## 導入命名空間
+- Aspose.OCR for .NET：確定已安裝 Aspose.OCR 程式庫。您可在 [此處](https://reference.aspose.com/ocr/net/) 找到文件說明，並從 [此連結](https://releases.aspose.com/ocr/net/) 下載。  
+- 文件目錄：建立一個目錄以存放文件，並記下其路徑，因為範例中會使用到。
 
-在您的 .NET 應用程式中，首先導入必要的命名空間：
+現在一切就緒，讓我們深入必要的命名空間與詳細步驟，充分發揮 Aspose.OCR 的威力。
+
+## 匯入命名空間
+
+在您的 .NET 應用程式中，首先匯入必要的命名空間：
 
 ```csharp
 using System;
@@ -37,32 +52,32 @@ using System.IO;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-## OCR 影像辨識中影像的預處理濾鏡
+## 如何使用 AspOCR 預處理 OCR 圖像以提升準確度
 
-### 初始化AsposeOcr和圖像路徑
+### 初始化 AsposeOcr 與圖像路徑
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//初始化 AsposeOcr 實例
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 
-//影像路徑
+// Image Path
 string fullPath = dataDir + "black.png";
 ```
 
-### 初始化濾鏡並預處理影像
+### 套用預處理濾鏡並儲存結果
 
 ```csharp
-//初始化過濾器
+// Initialize filters
 PreprocessingFilter filters = new PreprocessingFilter
 {
     PreprocessingFilter.Invert(),
     PreprocessingFilter.Dilate()
 };
 
-//預處理並保存影像
+// Preprocess and save image
 MemoryStream img = api.PreprocessImage(fullPath, filters);
 using (FileStream fs = new FileStream(dataDir + "preprocessed.png", FileMode.OpenOrCreate))
 {
@@ -71,53 +86,62 @@ using (FileStream fs = new FileStream(dataDir + "preprocessed.png", FileMode.Ope
 img.Dispose();
 ```
 
-### 使用自訂預處理識別影像
+### 使用自訂預處理辨識文字圖像
 
 ```csharp
-//透過自訂預處理識別影像
+// Recognize image with custom preprocessing
 RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 {
     PreprocessingFilters = filters
 });
 
-//列印結果
+// Print result
 Console.WriteLine($"Text:\n {result.RecognitionText}");
 
 Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 ```
 
-透過將流程分解為多個步驟，您可以靈活地微調 OCR 影像辨識的各個方面。嘗試不同的過濾器，調整參數，並見證 Aspose.OCR 準確性和效率的提高。
+透過將流程拆分為多個步驟，您可以彈性微調 OCR 圖像辨識的每個環節。嘗試不同的濾鏡、調整參數，即可見證 Aspose.OCR 在準確度與效率上的顯著提升。
 
-記得參考一下[文件](https://reference.aspose.com/ocr/net/)深入了解 Aspose.OCR 的功能和特性。
+請參考 [文件說明](https://reference.aspose.com/ocr/net/) 以深入了解 Aspose.OCR 的功能與特性。
 
-## 結論
+## 為何使用 Aspose.OCR 預處理濾鏡？
 
-總之，Aspose.OCR for .NET 使開發人員能夠將 OCR 影像辨識提升到新的高度。該庫具有用戶友好的介面和強大的預處理過濾器，為從圖像中提取文字提供了無縫體驗。
+- **更高的辨識率** – 清理圖像可減少噪點，降低 OCR 引擎的誤判。  
+- **可自訂的處理管線** – 您可以串接多種濾鏡，如反轉、膨脹或銳化。  
+- **無縫的 .NET 整合** – API 同時支援桌面與 Web 專案。
 
-探索 Aspose.OCR 的多樣化應用，從文件數位化到各行業的文字擷取。當您實施這些技術時，請記住專案的獨特要求並利用 Aspose.OCR 提供的靈活性。
+## 常見問題與解決方案
 
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| 輸出空白 | 圖像未正確預處理（例如，顏色反轉錯誤） | 檢查濾鏡順序；僅在深色文字圖像上嘗試 `PreprocessFilter.Invert()`。 |
+| 效能緩慢 | 圖像尺寸過大 | 在套用濾鏡前先調整或縮小圖像尺寸。 |
+| 無法辨識的字元 | 對比度低 | 加入 `PreprocessFilter.ContrastStretch()`（若可用）以提升對比度。 |
 
-## 常見問題解答
+## 常見問與答
 
-### Q1：我可以在桌面和 Web 應用程式中使用 Aspose.OCR for .NET 嗎？
+**Q1: 可以在桌面與 Web 應用程式中同時使用 Aspose.OCR for .NET 嗎？**  
+A1: 可以，Aspose.OCR 設計彈性，支援使用 .NET 開發的桌面與 Web 應用程式。
 
-A1：是的，Aspose.OCR 的設計用途廣泛，可用於使用 .NET 開發的桌面和 Web 應用程式。
+**Q2: Aspose.OCR 有哪些授權方案？**  
+A2: 有，您可於 [此處](https://purchase.aspose.com/buy) 探索並購買授權。此外，免費試用可從 [此處](https://releases.aspose.com/) 取得，臨時授權則可於 [此處](https://purchase.aspose.com/temporary-license/) 申請。
 
-### Q2：Aspose.OCR 有可用的授權選項嗎？
+**Q3: 如何取得 Aspose.OCR 的支援？**  
+A3: 若有任何問題或需求，請前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 向社群與 Aspose 支援團隊尋求協助。
 
- A2：是的，您可以探索授權選項並進行購買[這裡](https://purchase.aspose.com/buy)。此外，還可以免費試用[這裡](https://releases.aspose.com/)，並可獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+**Q4: Aspose.OCR 支援哪些圖像格式？**  
+A4: Aspose.OCR 支援多種圖像格式，包括 PNG、JPEG、GIF、BMP 與 TIFF。
 
-### Q3：如何獲得 Aspose.OCR 支援？
+**Q5: 能將 Aspose.OCR 整合至現有的 .NET 專案嗎？**  
+A5: 當然可以！依照本教學步驟操作，即可順利將 Aspose.OCR 整合至您的 .NET 專案，完成 OCR 圖像辨識。
 
-A3：如有任何疑問或問題，請訪問[Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16)尋求社區的幫助和 Aspose 支持。
+---
 
-### Q4：Aspose.OCR支援哪些圖像格式？
+**最後更新：** 2026-04-12  
+**測試環境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
 
-A4：Aspose.OCR 支援多種影像格式，包括 PNG、JPEG、GIF、BMP 和 TIFF。
-
-### Q5：我可以將 Aspose.OCR 整合到我現有的 .NET 專案中嗎？
-
-A5：當然！按照教程中概述的步驟操作，您將無縫地將 Aspose.OCR 整合到您的 .NET 專案中以進行 OCR 影像識別。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

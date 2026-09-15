@@ -1,0 +1,7 @@
+Title: Apply Aspose OCR License in Java – Remove OCR Watermark
+Slug: apply-aspose-ocr-license-in-java-remove-ocr-watermark
+Category: ocr-operations
+ProcessedDate: 2026-06-07T03:19:34.577636
+SourceRepo: AI Search API
+Keywords: apply aspose ocr license, remove ocr watermark
+PRNumber: 141

@@ -1,0 +1,7 @@
+Title: Parallel OCR Processing in Java – Complete Guide
+Slug: parallel-ocr-processing-in-java-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-25T13:42:42.736027
+SourceRepo: AI Search API
+Keywords: parallel ocr processing, recognize text from tiff
+PRNumber: 132
