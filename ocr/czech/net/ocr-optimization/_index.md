@@ -145,6 +145,17 @@ Zvyšte přesnost OCR v C# předzpracováním obrázků pomocí Aspose OCR. Jedn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [c# OCR tutoriál – Rozpoznání textu z obrázku s akcelerací GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z obrázků pomocí Aspose.OCR v C#.
+### [Předzpracování obrázku pro OCR – Zvýšení přesnosti s Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Zrychlete a zlepšete přesnost OCR předzpracováním obrázků pomocí Aspose OCR.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Často kladené otázky
 
 **Q: Můžu extrahovat text z obrázkových souborů, které obsahují více jazyků?**  

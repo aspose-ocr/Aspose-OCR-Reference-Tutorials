@@ -146,6 +146,16 @@ Aprenda a pré-processar imagens para OCR em C# usando Aspose OCR, melhorando a 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Pré-processar imagem para OCR – Aumente a precisão com Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Aprenda a pré-processar imagens para melhorar a precisão do OCR usando Aspose OCR.
+### [c# OCR – Reconhecer Texto de Imagem com Aceleração GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Descubra como usar Aspose.OCR para .NET com aceleração GPU para reconhecer texto em imagens rapidamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Perguntas Frequentes
 
 **Q: Posso extrair texto de arquivos de imagem que contenham vários idiomas?**  

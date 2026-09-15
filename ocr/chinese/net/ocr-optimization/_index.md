@@ -116,6 +116,17 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [使用 Aspose OCR 预处理图像 – 提升 OCR 准确性](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+通过 Aspose OCR 的预处理功能优化图像，提高识别准确率并加速处理过程。
+### [c# OCR 教程 – 使用 GPU 加速从图像识别文本](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+利用 GPU 加速，实现高效的图像文本识别，显著提升 OCR 准确性和速度。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

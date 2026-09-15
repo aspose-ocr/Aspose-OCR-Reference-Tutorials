@@ -117,6 +117,16 @@ C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [c# OCR 튜토리얼 – GPU 가속을 통한 이미지에서 텍스트 인식](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+.NET용 Aspose.OCR의 GPU 가속 기능을 활용해 이미지에서 텍스트를 빠르고 정확하게 인식하는 방법을 안내합니다.
+### [OCR을 위한 이미지 전처리 – Aspose OCR로 정확도 향상](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+.NET용 Aspose OCR을 사용해 이미지 전처리로 OCR 정확도를 높이는 방법을 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 자주 묻는 질문
 
 **Q: 여러 언어가 포함된 이미지 파일에서 텍스트를 추출할 수 있나요?**  

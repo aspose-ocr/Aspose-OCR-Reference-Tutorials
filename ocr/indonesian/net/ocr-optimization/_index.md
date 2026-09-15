@@ -147,6 +147,16 @@ Pelajari cara pra‑pemrosesan gambar OCR di C# untuk meningkatkan akurasi denga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Jelajahi Aspose OCR untuk .NET. Pra-pemrosesan gambar meningkatkan akurasi OCR. Unduh sekarang untuk integrasi yang lancar.
+### [c# OCR tutorial – Mengenali Teks dari Gambar dengan Akselerasi GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Jelajahi integrasi OCR dengan akselerasi GPU menggunakan Aspose.OCR untuk .NET. Tingkatkan kecepatan dan akurasi pengenalan teks pada gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah saya dapat mengekstrak teks dari file gambar yang berisi banyak bahasa?**  

@@ -1,6 +1,6 @@
 ---
-title: Perform Text Recognition with Aspose.OCR .NET
-linktitle: Perform Text Recognition with Aspose.OCR .NET
+title: Text Recognition
+linktitle: Text Recognition
 second_title: Aspose.OCR .NET API
 description: Elevate your .NET applications with Aspose.OCR for precise character recognition. Discover tutorials for obtaining choices, results, and JSON formats in OCR image recognition.
 weight: 21
@@ -17,25 +17,9 @@ url: /net/text-recognition/
 
 Are you ready to take your .NET applications to the next level? Dive into the world of Text Recognition with Aspose.OCR and enhance your projects with accurate character recognition and seamless image processing.
 
-```csharp
-using Aspose.OCR;
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        var ocrEngine = new OcrEngine();
-        var image = ImageStream.FromFile("sample.jpg");
-        var result = ocrEngine.Recognize(image);
-        Console.WriteLine(result.Text);
-    }
-}
-```
-
 ## Get Choices for Recognized Characters in OCR Image Recognition
 
-In this tutorial, we'll guide you through leveraging the power of Aspose.OCR for .NET to enhance your image recognition capabilities. Learn step-by-step how to retrieve choices for recognized characters, ensuring accuracy and efficiency in your applications. Elevate your OCR experience with Aspose.OCR's cutting‑edge features.
+In this tutorial, we'll guide you through leveraging the power of Aspose.OCR for .NET to enhance your image recognition capabilities. Learn step-by-step how to retrieve choices for recognized characters, ensuring accuracy and efficiency in your applications. Elevate your OCR experience with Aspose.OCR's cutting-edge features.
 
 ## Get Recognition Result in OCR Image Recognition
 
@@ -43,7 +27,7 @@ Explore the capabilities of Aspose.OCR for .NET and transform the way you handle
 
 ## Get Result as JSON in OCR Image Recognition
 
-Unleash the full potential of Aspose.OCR for .NET by learning how to obtain OCR results in JSON format effortlessly. This step‑by‑step guide ensures a smooth journey towards enhancing your image recognition capabilities. Elevate your application's efficiency with Aspose.OCR's robust features and industry‑leading technology.
+Unleash the full potential of Aspose.OCR for .NET by learning how to obtain OCR results in JSON format effortlessly. This step-by-step guide ensures a smooth journey towards enhancing your image recognition capabilities. Elevate your application's efficiency with Aspose.OCR's robust features and industry-leading technology.
 
 ## OCR Detect Areas Mode in OCR Image Recognition
 
@@ -53,35 +37,39 @@ Efficiency is key in .NET applications, and Aspose.OCR is here to help you achie
 
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly and integrate seamlessly into your applications. This tutorial provides a comprehensive guide to recognizing text in PDFs, ensuring a seamless and efficient integration experience.
 
-## How to OCR PDF with Aspose: Convert, Export & Search
-
-Learn to OCR PDFs using Aspose, convert them, export results, and enable searchable PDFs in your .NET applications.
-
 ## Recognize Table in OCR Image Recognition
 
-Navigate the complexities of recognizing tables in OCR image recognition with Aspose.OCR for .NET. Our comprehensive guide empowers you to unlock the full potential of Aspose.OCR, ensuring accurate and efficient table recognition in your applications. Elevate your projects with the industry‑leading OCR solution.
+Navigate the complexities of recognizing tables in OCR image recognition with Aspose.OCR for .NET. Our comprehensive guide empowers you to unlock the full potential of Aspose.OCR, ensuring accurate and efficient table recognition in your applications. Elevate your projects with the industry-leading OCR solution.
 
 Ready to revolutionize your .NET applications? Dive into our Text Recognition Tutorials and harness the power of Aspose.OCR for accurate and efficient text recognition in images. Download now and embark on a journey of enhanced OCR capabilities.
-
 ## Text Recognition Tutorials
-
-
 ### [Get Choices for Recognized Characters in OCR Image Recognition](./get-choices-for-recognized-characters/)
-Enhance your .NET applications with Aspose.OCR for accurate character recognition. Follow our step‑by‑step guide to retrieve choices for recognized characters in image recognition.
+Enhance your .NET applications with Aspose.OCR for accurate character recognition. Follow our step-by-step guide to retrieve choices for recognized characters in image recognition.
 ### [Get Recognition Result in OCR Image Recognition](./get-recognition-result/)
 Explore Aspose.OCR for .NET, a powerful OCR solution for seamless text recognition in images.
-
 ### [Get Result as JSON in OCR Image Recognition](./get-result-as-json/)
-Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON format effortlessly. Enhance your image recognition with this step‑by‑step guide.
+Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON format effortlessly. Enhance your image recognition with this step-by-step guide.
+### [Convert Image to JSON with Aspose OCR C# Guide](./convert-image-to-json-with-aspose-ocr-c-guide/)
+Learn how to convert images to JSON using Aspose OCR in C#. Follow our step-by-step guide for seamless .NET integration.
 ### [OCR Detect Areas Mode in OCR Image Recognition](./ocr-detect-areas-mode/)
 Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
-
 ### [Recognize PDF in OCR Image Recognition](./recognize-pdf/)
 Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
-### [Create Searchable PDF in C# – Full Guide](./create-searchable-pdf-in-c-full-guide/)
-Learn how to generate searchable PDFs in C# using Aspose.OCR. Follow our full step-by-step guide to embed searchable text into PDF files.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [How to OCR Arabic and Hindi Text with Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
+Step-by-step guide to recognize Arabic and Hindi text using Aspose.OCR in .NET applications.
+### [How to Perform OCR in C# – Offline Text Extraction Guide](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
+Learn how to perform offline OCR in C# with Aspose.OCR, extracting text from images without internet connectivity.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Create Searchable PDF in C# – Full Guide](./create-searchable-pdf-in-c-full-guide/)
+Learn how to generate searchable PDFs in C# using Aspose.OCR. Follow our full step-by-step guide to embed searchable text into PDF files.
 ### [Convert Image to Text in C# – Complete OCR Guide](./convert-image-to-text-in-c-complete-ocr-guide/)
 Learn how to convert images to text using Aspose.OCR in C#. Follow this comprehensive guide for step-by-step OCR implementation.
 

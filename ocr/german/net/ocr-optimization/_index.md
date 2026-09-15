@@ -141,6 +141,17 @@ Erfahren Sie, wie Sie mit einer Vorverarbeitungspipeline Text aus Bildern in C# 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [c# OCR-Tutorial – Text aus Bild mit GPU-Beschleunigung erkennen](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Erfahren Sie, wie Sie mit GPU-Beschleunigung Text aus Bildern in C# erkennen.
+### [Bild für OCR vorverarbeiten – Genauigkeit mit Aspose OCR steigern](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Optimieren Sie die OCR-Genauigkeit, indem Sie Bilder vorverarbeiten und Aspose OCR nutzen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Text aus Bilddateien extrahieren, die mehrere Sprachen enthalten?**  

@@ -134,6 +134,16 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [การประมวลผลภาพล่วงหน้าสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+เรียนรู้วิธีการเตรียมภาพล่วงหน้าเพื่อเพิ่มความแม่นยำของ OCR ด้วย Aspose OCR อย่างมีประสิทธิภาพ
+### [c# OCR tutorial – จดจำข้อความจากภาพด้วยการเร่ง GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+เรียนรู้การใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความจากภาพโดยใช้การเร่งด้วย GPU เพิ่มความเร็วและความแม่นยำ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

@@ -43,28 +43,34 @@ url: /zh-hant/net/text-recognition/
 
 準備好徹底改變您的 .NET 應用程式了嗎？深入研究我們的文字辨識教學並利用 Aspose.OCR 的強大功能來準確、有效率地識別圖像中的文字。立即下載並踏上增強 OCR 功能的旅程。
 ## 文字辨識教程
-
-
 ### [在 OCR 影像辨識中取得已辨識字元的選擇](./get-choices-for-recognized-characters/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
-
 ### [OCR影像辨識中取得辨識結果](./get-recognition-result/)
 探索 Aspose.OCR for .NET，這是一款功能強大的 OCR 解決方案，可實現圖像中的無縫文字辨識。
-
 ### [在 OCR 影像辨識中取得 JSON 格式的結果](./get-result-as-json/)
 釋放 Aspose.OCR for .NET 的強大功能。學習輕鬆取得 JSON 格式的 OCR 結果。透過本逐步指南增強您的影像辨識能力。
-
 ### [OCR影像辨識中的OCR偵測區域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現高效的圖像文字識別。探索 OCR 偵測區域模式以獲得精確結果。
-
 ### [OCR影像辨識中辨識PDF](./recognize-pdf/)
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
+### [OCR影像辨識中的辨識表](./recognize-table/)
+透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [使用 Aspose OCR 進行阿拉伯文與印地文文字辨識](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
+使用 Aspose.OCR 增強您的 .NET 應用程序，以辨識阿拉伯文與印地文文字。請依照我們的逐步指南完成設定。
+### [使用 Aspose OCR C# 將影像轉換為 JSON 的指南](./convert-image-to-json-with-aspose-ocr-c-guide/)
+學習如何使用 Aspose OCR C# 將影像快速轉換為 JSON 格式，提升資料處理效率。
+### [如何在 C# 中執行 OCR – 離線文字提取指南](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
+使用 Aspose.OCR 在 C# 中離線提取文字，提升資料處理效率。
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [在 C# 中從 PNG 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-from-png-in-c-complete-guide/)
 使用 Aspose.OCR 在 C# 中將 PNG 圖像轉換為可搜尋的 PDF，提供完整步驟與範例說明。
 
-### [OCR影像辨識中的辨識表](./recognize-table/)
-透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
 ### [在 C# 中將影像轉換為文字 – 完整 OCR 指南](./convert-image-to-text-in-c-complete-ocr-guide/)
 ### [如何在 C# 中執行 OCR – 使用 Aspose OCR 從影像提取文字](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
 ### [使用 Aspose OCR 從影像提取文字 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)

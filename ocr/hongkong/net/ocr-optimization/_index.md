@@ -145,6 +145,17 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [C# OCR 教程 – 使用 GPU 加速辨識影像文字](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+利用 GPU 加速，快速且高效地從影像中辨識文字的完整 C# 教學。
+### [預處理影像以提升 OCR 準確度 – 使用 Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+了解如何使用 Aspose OCR 進行影像預處理，以提升文字辨識的準確性與效能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常見問題
 
 **Q: 我可以從包含多種語言的圖像檔案中提取文字嗎？**  

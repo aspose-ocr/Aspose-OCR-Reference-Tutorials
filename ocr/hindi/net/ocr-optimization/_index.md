@@ -143,6 +143,17 @@ C# में Aspose OCR का उपयोग करके इमेज प्�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [OCR के लिए छवि को प्रीप्रोसेस करें – Aspose OCR के साथ सटीकता बढ़ाएँ](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+.NET के लिए Aspose OCR के साथ छवि को प्रीप्रोसेस करके OCR सटीकता को बढ़ाएँ। आसान एकीकरण के लिए अभी देखें।
+### [c# OCR ट्यूटोरियल – GPU त्वरण के साथ छवि से पाठ पहचानें](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+.NET के लिए Aspose.OCR का उपयोग करके GPU त्वरण के साथ तेज़ और सटीक छवि पाठ पहचान।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

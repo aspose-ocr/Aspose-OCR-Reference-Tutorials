@@ -124,6 +124,16 @@ Hướng dẫn thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Tiền xử lý hình ảnh cho OCR – Tăng độ chính xác với Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Khám phá cách tiền xử lý hình ảnh để nâng cao độ chính xác OCR với Aspose OCR. Tối ưu hoá kết quả nhận dạng nhanh chóng.
+### [Hướng dẫn OCR C# – Nhận dạng văn bản từ hình ảnh với tăng tốc GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Tận dụng sức mạnh GPU để nhận dạng văn bản từ hình ảnh nhanh hơn với Aspose.OCR cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Câu hỏi thường gặp
 
 **Hỏi: Tôi có thể trích xuất văn bản từ tệp hình ảnh chứa nhiều ngôn ngữ không?**

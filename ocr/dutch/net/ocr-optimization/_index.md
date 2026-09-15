@@ -147,6 +147,16 @@ Verbeter de OCR-nauwkeurigheid door afbeeldingen voor te verwerken in C# met Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [c# OCR-tutorial – Tekst herkennen van afbeelding met GPU-versnelling](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Leer hoe u met Aspose.OCR en GPU-versnelling tekst uit afbeeldingen kunt herkennen voor maximale snelheid en nauwkeurigheid.
+### [Afbeelding voorbewerken voor OCR – Verhoog nauwkeurigheid met Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Verbeter OCR-nauwkeurigheid door afbeeldingen voor te bewerken met Aspose OCR. Volg onze stapsgewijze handleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Veelgestelde vragen
 
 **Q: Kan ik tekst uit afbeeldingsbestanden extraheren die meerdere talen bevatten?**  

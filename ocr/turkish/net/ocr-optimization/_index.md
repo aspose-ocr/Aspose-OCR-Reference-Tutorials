@@ -123,6 +123,16 @@ Aspose OCR ile C# uygulamalarında görüntü ön işleme yaparak OCR doğruluğ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [OCR için Görüntü Ön İşleme – Aspose OCR ile Doğruluğu Artırın](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Aspose OCR ile görüntüleri ön işleyerek OCR doğruluğunu artırın.
+### [c# OCR eğitimi – GPU Hızlandırmasıyla Görüntüden Metin Tanıma](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+GPU hızlandırmasıyla c# kullanarak görüntülerden metin tanıma yapın ve OCR performansını artırın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Sıkça Sorulan Sorular
 
 **S: Birden fazla dil içeren görüntü dosyalarından metin alabilir miyim?**

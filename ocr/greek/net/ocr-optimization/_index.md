@@ -145,6 +145,16 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Προεπεξεργασία εικόνας για OCR – Βελτιώστε την ακρίβεια με Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Αναβαθμίστε την ακρίβεια OCR με προεπεξεργασία εικόνας χρησιμοποιώντας το Aspose OCR.
+### [c# OCR σεμινάριο – Αναγνώριση κειμένου από εικόνα με επιτάχυνση GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη και ακριβή αναγνώριση κειμένου από εικόνες με το Aspose.OCR σε C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Συχνές Ερωτήσεις
 
 **Q: Can I extract text from image files that contain multiple languages?**  

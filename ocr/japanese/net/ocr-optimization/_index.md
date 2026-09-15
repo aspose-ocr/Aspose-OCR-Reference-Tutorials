@@ -144,6 +144,14 @@ Aspose OCR エンジンを利用して、C# で複数画像を一括で OCR 処�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [c# OCR チュートリアル – GPU 加速で画像からテキストを認識する](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+GPU のパワーを活用して、画像から高速かつ正確にテキストを抽出する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  

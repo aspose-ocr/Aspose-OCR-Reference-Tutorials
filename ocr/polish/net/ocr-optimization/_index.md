@@ -126,6 +126,16 @@ Zoptymalizuj obrazy przed OCR, aby uzyskać wyższą precyzję przy użyciu Aspo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Przetwarzanie wstępne obrazu dla OCR – Zwiększ dokładność z Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Popraw dokładność OCR, stosując wstępne przetwarzanie obrazu z Aspose OCR w .NET.
+### [c# tutorial OCR – Rozpoznawanie tekstu z obrazu przy użyciu przyspieszenia GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Wykorzystaj przyspieszenie GPU do szybkiego rozpoznawania tekstu na obrazach w Aspose.OCR dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

@@ -144,6 +144,16 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [معالجة مسبقة للصورة للتعرف الضوئي على الحروف – تعزيز الدقة باستخدام Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+اكتشف كيف تحسن معالجة الصورة قبل التعرف الضوئي على الحروف الدقة باستخدام Aspose OCR.
+### [دليل c# OCR – التعرف على النص من الصورة مع تسريع GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+تعلم كيفية استخدام Aspose.OCR مع C# لتسريع عملية التعرف على النص من الصور باستخدام وحدة معالجة الرسوميات (GPU).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخراج النص من ملفات صور تحتوي على لغات متعددة؟**  

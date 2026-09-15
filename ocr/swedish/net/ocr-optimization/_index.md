@@ -147,6 +147,16 @@ Lär dig hur du förbehandlar bilder för OCR i C# för att förbättra igenkän
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Förbehandla bild för OCR – Öka noggrannheten med Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Lär dig hur du förbehandlar bilder för att förbättra OCR‑noggrannheten med Aspose OCR.
+### [c# OCR-handledning – Känn igen text från bild med GPU-acceleration](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Lär dig hur du använder Aspose.OCR för .NET med GPU-acceleration för att effektivt känna igen text i bilder.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Vanliga frågor
 
 **Q: Kan jag extrahera text från bildfiler som innehåller flera språk?**  

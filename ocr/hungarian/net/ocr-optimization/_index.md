@@ -118,6 +118,16 @@ Fedezze fel, hogyan előfeldolgozhatja a képeket C#-ban az Aspose OCR segítsé
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Kép előfeldolgozása OCR-hez – Pontosság növelése az Aspose OCR segítségével](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Fedezze fel, hogyan előfeldolgozhatja a képeket az OCR pontosságának növelése érdekében az Aspose OCR használatával.
+### [c# OCR oktatóanyag – Szöveg felismerése képről GPU gyorsítással](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Fedezze fel, hogyan használhatja a GPU gyorsítást a c#-os Aspose.OCR-ban a szöveg pontos felismeréséhez képeken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  
