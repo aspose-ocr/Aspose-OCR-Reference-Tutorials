@@ -64,11 +64,10 @@ url: /el/java/advanced-ocr-techniques/
 ### [Πώς να ενεργοποιήσετε το GPU για OCR – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 ### [Πώς να εκτελέσετε OCR σε μεγάλα έγγραφα – Πλήρης οδηγός Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 ### [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Γρήγορη αναγνώριση κειμένου από εικόνα](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
-Ενεργοποιήστε την GPU για ταχύτερη OCR σε Java, βελτιώνοντας την ταχύτητα αναγνώρισης κειμένου από εικόνες.
 ### [Εξαγωγή κειμένου από εικόνα με Java – Ανάγνωση VIN από φωτογραφία](./extract-text-from-image-with-java-read-vin-from-photo/)
-Αναγνωρίστε και εξάγετε το VIN από φωτογραφίες με το Aspose.OCR για Java. Απλή ενσωμάτωση για γρήγορη ανάγνωση κωδικών οχήματος.
 ### [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
-Ενεργοποιήστε την GPU για OCR σε Java με το Aspose.OCR, ακολουθώντας τον αναλυτικό βήμα‑βήμα οδηγό μας για βέλτιστη απόδοση.
+### [Πώς να ενεργοποιήσετε την GPU και να εξάγετε κείμενο από εικόνες σε Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+Ενεργοποιήστε την GPU για ταχύτερη εξαγωγή κειμένου από εικόνες σε Java, βελτιώνοντας την απόδοση του OCR.
 ### [Αναγνώριση κειμένου από εικόνες με Java – Παράλληλο OCR Σεμινάριο](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
 Εκτελέστε ταυτόχρονη OCR σε πολλές εικόνες με Java, βελτιώνοντας την απόδοση και την ακρίβεια. Ακολουθήστε τον οδηγό μας.
 ### [Εξαγωγή κειμένου από εικόνα Java – Πλήρης οδηγός OCR με διόρθωση ορθογραφίας](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)

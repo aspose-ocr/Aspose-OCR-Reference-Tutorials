@@ -80,6 +80,7 @@ url: /ar/java/advanced-ocr-techniques/
 اكتشف كيفية التعرف على النص من الصور باستخدام Java مع معالجة OCR المتوازية لتحسين الأداء.
 ### [استخراج النص من الصورة باستخدام Java – دليل OCR كامل مع تصحيح الأخطاء الإملائية](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 دليل شامل لاستخراج النص من الصور في Java باستخدام OCR مع تصحيح إملائي لضمان دقة عالية.
+### [كيفية تمكين GPU واستخراج النص من الصور في Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
