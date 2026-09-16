@@ -51,14 +51,22 @@ Pelajari cara memproses dokumen besar dengan OCR menggunakan Aspose.OCR untuk Ja
 
 Pelajari cara mengaktifkan GPU untuk mempercepat proses OCR dan mengekstrak teks dari gambar dengan lebih cepat menggunakan Aspose.OCR.
 ### [Cara Mengaktifkan GPU untuk OCR di Java – Mengenali Teks dari Gambar dengan Cepat](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+
 Aktifkan GPU untuk mempercepat OCR di Java, mengenali teks gambar dengan cepat menggunakan Aspose.OCR.
 ### [Ekstrak teks dari gambar dengan Java – Baca VIN dari Foto](./extract-text-from-image-with-java-read-vin-from-photo/)
+
 Ekstrak nomor VIN dari foto menggunakan Aspose.OCR untuk Java. Dapatkan teks dengan cepat dan akurat.
 ### [Cara Mengaktifkan GPU untuk OCR Java – Panduan Langkah-demi-Langkah](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+
 Pelajari cara mengaktifkan GPU untuk meningkatkan kinerja OCR pada aplikasi Java Anda dengan panduan langkah demi langkah.
+### [Cara mengaktifkan GPU dan mengekstrak teks dari gambar di Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+
+Pelajari cara mengaktifkan GPU untuk mempercepat OCR dan mengekstrak teks dari gambar secara efisien menggunakan Java.
 ### [Mengenali teks dari gambar dengan Java – Tutorial OCR Paralel](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+
 Pelajari cara mengenali teks dari gambar secara paralel menggunakan Java dengan panduan langkah demi langkah.
 ### [Ekstrak Teks dari Gambar Java – Panduan OCR Lengkap dengan Koreksi Ejaan](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+
 Pelajari cara mengekstrak teks dari gambar di Java dengan OCR lengkap serta koreksi ejaan untuk hasil yang akurat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

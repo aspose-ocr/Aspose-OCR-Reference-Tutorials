@@ -79,6 +79,8 @@ Zrychlete rozpoznávání textu z obrázků pomocí paralelního OCR v Javě. Pr
 Kompletní průvodce OCR v Javě pro extrakci textu z obrázků s vysokou přesností a jednoduchou integrací.
 ### [Extrahovat text z obrázku Java – Kompletní OCR průvodce s korekcí pravopisu](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Kompletní průvodce OCR v Javě, který kromě extrakce textu z obrázků zahrnuje i automatickou korekci pravopisu.
+### [Jak povolit GPU a extrahovat text z obrázků v Javě](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+Zrychlete OCR aktivací GPU a extrahujte text z obrázků ve svých Java aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

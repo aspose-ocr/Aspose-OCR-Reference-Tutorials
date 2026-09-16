@@ -62,6 +62,8 @@ Aspose.OCR के साथ जावा में निर्बाध छव�
 ### [Aspose.OCR में अनुमत वर्ण निर्दिष्ट करना](./specify-allowed-characters/)
 ### [OCR के लिए GPU सक्षम करने का तरीका – छवियों से तेज़ टेक्स्ट निष्कर्षण](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 GPU का उपयोग करके OCR की गति बढ़ाएँ और छवियों से तेज़ी से टेक्स्ट निकालें। इस ट्यूटोरियल में चरण-दर-शरणा मार्गदर्शन है।
+### [जावा में GPU सक्षम करके छवियों से टेक्स्ट निकालना](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+जावा में GPU का उपयोग करके तेज़ OCR लागू करें और छवियों से सटीक रूप से टेक्स्ट निकालें।
 ### [बड़े दस्तावेज़ों पर OCR चलाने का पूर्ण जावा गाइड](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 जावा में बड़े दस्तावेज़ों के लिए OCR लागू करने के चरण-दर-शरणा निर्देश, तेज़ और सटीक टेक्स्ट निष्कर्षण के लिए।
 ### [जावा में इमेज प्रीप्रोसेसिंग OCR – सटीकता बढ़ाएँ और टेक्स्ट निकालें](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
