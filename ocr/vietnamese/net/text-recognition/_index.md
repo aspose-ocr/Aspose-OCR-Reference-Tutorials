@@ -61,6 +61,8 @@ Khám phá cách sử dụng Aspose OCR để nhận dạng văn bản tiếng �
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để chuyển đổi hình ảnh thành định dạng JSON một cách nhanh chóng và chính xác.
 ### [Cách thực hiện OCR trong C# – Hướng dẫn trích xuất văn bản offline](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR offline và trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Cách tải mô hình OCR và trích xuất văn bản từ PNG bằng Aspose.OCR trong C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Tải mô hình OCR và sử dụng Aspose.OCR trong C# để trích xuất nhanh chóng văn bản từ tệp PNG.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

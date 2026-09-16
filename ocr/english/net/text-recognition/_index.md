@@ -61,6 +61,7 @@ Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on reco
 Step-by-step guide to recognize Arabic and Hindi text using Aspose.OCR in .NET applications.
 ### [How to Perform OCR in C# – Offline Text Extraction Guide](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Learn how to perform offline OCR in C# with Aspose.OCR, extracting text from images without internet connectivity.
+### [How to download OCR model and extract text from PNG using Aspose.OCR in C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@ Aspose OCR を使って .NET アプリケーションでアラビア語とヒン
 Aspose.OCR を使用して画像を JSON 形式に変換する手順をステップバイステップで解説します。
 ### [C# で OCR を実行する方法 – オフラインテキスト抽出ガイド](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Aspose.OCR を使用して C# でオフライン環境下でテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して OCR モデルをダウンロードし、PNG からテキストを抽出する方法（C#）](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Aspose.OCR で OCR モデルを取得し、C# で PNG 画像からテキストを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
