@@ -61,6 +61,8 @@ Dowiedz się, jak przy pomocy Aspose OCR rozpoznawać tekst w językach arabskim
 Naucz się konwertować obrazy na format JSON przy użyciu Aspose OCR w C#. Praktyczny przewodnik krok po kroku.
 ### [Jak wykonać OCR w C# – Przewodnik offline wyodrębniania tekstu](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Dowiedz się, jak w C# przeprowadzić OCR offline, aby wyodrębnić tekst z obrazów bez połączenia z internetem.
+### [Jak pobrać model OCR i wyodrębnić tekst z PNG przy użyciu Aspose.OCR w C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Dowiedz się, jak pobrać model OCR i wyodrębnić tekst z pliku PNG w C# przy użyciu Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

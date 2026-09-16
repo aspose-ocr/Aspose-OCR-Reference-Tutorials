@@ -61,6 +61,8 @@ url: /ru/net/text-recognition/
 Узнайте, как преобразовать изображение в JSON с помощью Aspose OCR на C# в этом пошаговом руководстве.
 ### [Как выполнить OCR в C# – Руководство по офлайн-извлечению текста](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Пошаговое руководство по выполнению OCR в C# без подключения к интернету, извлекая текст из изображений локально.
+### [Как скачать модель OCR и извлечь текст из PNG с помощью Aspose.OCR в C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Пошаговое руководство по загрузке модели OCR и извлечению текста из PNG‑изображений с использованием Aspose.OCR в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

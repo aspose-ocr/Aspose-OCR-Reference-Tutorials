@@ -61,6 +61,8 @@ url: /zh/net/text-recognition/
 通过本指南学习如何使用 Aspose OCR 在 C# 中将图像转换为 JSON，提升数据处理效率。
 ### [如何在 C# 中执行 OCR – 离线文本提取指南](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 本指南展示如何在 C# 环境下离线执行 OCR，实现高效的文本提取。
+### [如何下载 OCR 模型并使用 Aspose.OCR 在 C# 中从 PNG 提取文本](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+学习如何下载 OCR 模型并使用 Aspose.OCR 在 C# 中从 PNG 图像中提取文本。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
