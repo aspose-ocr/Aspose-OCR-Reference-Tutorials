@@ -55,6 +55,20 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 釋放 .NET 中 OCR 的潛力。輕鬆從 PDF 中提取文字。立即下載以獲得無縫整合體驗。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [在 C# 中辨識印地語文字 – 完整 Aspose OCR 指南](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+使用 Aspose.OCR for .NET，完整步驟教您在 C# 應用程式中辨識印地語文字。
+### [在 C# 中從圖像提取文字 – 離線 OCR 範例](./extract-text-from-image-in-c-offline-ocr-example/)
+使用 Aspose.OCR for .NET，在離線環境下於 C# 應用程式中從圖像提取文字，提供完整步驟指引。
+### [在 C# 中將影像轉換為 ePub – 完整生成 ePub 檔案指南](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+使用 Aspose.OCR for .NET，完整步驟教您在 C# 應用程式中將圖像轉換為 ePub 檔案。
+### [在 C# 中執行 OCR – 提取文字並寫入 JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+使用 Aspose.OCR for .NET，學習在 C# 中提取文字並將 OCR 結果寫入 JSON 檔案。
+### [使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose OCR 在 C# 中從圖像提取文字，提供完整步驟指南，助您快速實作離線 OCR。
+### [在 C# 中使用 OCR – 從圖像辨識文字](./how-to-use-ocr-in-c-recognize-text-from-images/)
+使用 Aspose.OCR for .NET，在 C# 中辨識圖像文字，提供完整步驟教學。
+### [在圖像中辨識印地語文字 – 轉換為 ePub 使用 Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+使用 Aspose.OCR for .NET，將圖像中的印地語文字轉換為 ePub 檔案，提供完整步驟指南。
 ### [使用 Aspose OCR 進行阿拉伯文與印地文文字辨識](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以辨識阿拉伯文與印地文文字。請依照我們的逐步指南完成設定。
 ### [使用 Aspose OCR C# 將影像轉換為 JSON 的指南](./convert-image-to-json-with-aspose-ocr-c-guide/)
@@ -70,7 +84,6 @@ url: /zh-hant/net/text-recognition/
 {{< blocks/products/products-backtop-button >}}
 ### [在 C# 中從 PNG 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-from-png-in-c-complete-guide/)
 使用 Aspose.OCR 在 C# 中將 PNG 圖像轉換為可搜尋的 PDF，提供完整步驟與範例說明。
-
 ### [在 C# 中將影像轉換為文字 – 完整 OCR 指南](./convert-image-to-text-in-c-complete-ocr-guide/)
 ### [如何在 C# 中執行 OCR – 使用 Aspose OCR 從影像提取文字](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
 ### [使用 Aspose OCR 從影像提取文字 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
@@ -115,13 +128,10 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose OCR，從各類圖像中提取文字，提升您的 .NET 應用程式的 OCR 功能。
 ### [如何在 C# 中執行 OCR – 使用 Aspose OCR 的完整指南](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
 了解如何在 C# 中使用 Aspose OCR 完整執行文字辨識，從安裝到實作一步步教學。
-
 ### [如何在 C# 中執行 OCR – 從 PNG 提取阿拉伯文字](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
 學習如何使用 Aspose OCR 在 C# 中從 PNG 圖像提取阿拉伯文字，提供步驟說明與範例。
-
 ### [在 C# 中從圖像提取文字 – 完整 Aspose OCR 指南](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
 完整教學示範如何在 C# 中使用 Aspose OCR 從圖像提取文字，涵蓋安裝、設定與實作步驟。
-
 ### [在 C# 中從圖像提取文字 – 完整 OCR 與 JSON 指南](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 學習如何在 C# 中使用 Aspose OCR 從圖像提取文字並獲取 JSON 格式結果，完整步驟與範例說明。
 ### [C# OCR 教程 – 將影像轉換為可搜尋的 PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)

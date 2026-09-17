@@ -57,6 +57,20 @@ Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání 
 Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Rozpoznat hindský text v C# – Kompletní průvodce Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Naučte se rozpoznávat hindský text v C# pomocí Aspose OCR a integrujte jej do svých .NET aplikací.
+### [Extrahovat text z obrázku v C# – Offline OCR příklad](./extract-text-from-image-in-c-offline-ocr-example/)
+Naučte se, jak offline pomocí Aspose.OCR extrahovat text z obrázku v C# bez nutnosti internetového připojení.
+### [Převod obrázku na ePub v C# – Kompletní průvodce tvorbou ePub souboru](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Naučte se převést obrázek na ePub pomocí Aspose.OCR v C# a vytvořit plně funkční ePub soubor pro vaše aplikace.
+### [Rozpoznat hindský text z obrázků – převod do ePub s Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Naučte se rozpoznávat hindský text z obrázků a převést jej do formátu ePub pomocí Aspose OCR v C#.
+### [Jak provést OCR v C# – Extrahovat text a zapisovat JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z obrázku a uložit výsledek ve formátu JSON.
+### [Rozpoznat text z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose OCR v C# rozpoznat text z obrázku a integrovat výsledek do vašich aplikací.
+### [Jak použít OCR v C# – Rozpoznat text z obrázků](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Naučte se pomocí Aspose.OCR v C# rozpoznávat text z obrázků a integrovat výsledek do vašich aplikací.
 ### [Jak rozpoznat arabský a hindský text pomocí Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 Naučte se rozpoznávat arabský a hindský text v .NET pomocí Aspose OCR a integrovat podporu více jazyků do svých aplikací.
 ### [Jak provést OCR v C# – Offline průvodce extrakcí textu](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
@@ -139,7 +153,6 @@ Naučte se pomocí Aspose.OCR v C# převést PNG soubory do prohledávatelných 
 Naučte se, jak v C# pomocí Aspose OCR kompletně extrahovat text z obrázku a dosáhnout přesných výsledků.
 ### [Rozpoznat text z obrázku v C# – Kompletní průvodce OCR a JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Naučte se v C# rozpoznávat text z obrázků a získávat výsledky ve formátu JSON pomocí Aspose.OCR.
-
 ### [c# OCR tutoriál – Převod obrázků na prohledávatelná PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Naučte se pomocí Aspose.OCR pro .NET převést obrázky na prohledávatelná PDF soubory a snadno integrovat OCR do vašich aplikací.
 ### [c# OCR tutoriál: Rozpoznání textu z PNG obrázků](./c-ocr-tutorial-recognize-text-from-png-images/)

@@ -54,9 +54,23 @@ url: /ar/net/text-recognition/
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بالتنزيل الآن للحصول على تجربة تكامل سلسة.
+أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [التعرف على النص الهندي في C# – دليل Aspose OCR الكامل](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+تعلم كيفية التعرف على النص الهندي باستخدام Aspose.OCR في C# خطوة بخطوة للحصول على نتائج دقيقة.
+### [استخراج النص من صورة في C# – مثال OCR غير متصل](./extract-text-from-image-in-c-offline-ocr-example/)
+تعلم كيفية استخراج النص من صورة باستخدام Aspose.OCR في C# دون الحاجة إلى اتصال بالإنترنت.
+### [تحويل صورة إلى ملف ePub في C# – دليل كامل لإنشاء ملف ePub](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+تعلم كيفية تحويل صورة إلى ملف ePub باستخدام C# خطوة بخطوة لإنشاء ملفات ePub بسهولة.
+### [كيفية تنفيذ OCR في C# – استخراج النص وكتابة JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# وحفظ النتائج بتنسيق JSON بسهولة.
+### [التعرف على النص من صورة باستخدام Aspose OCR – دليل C# كامل](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في C# خطوة بخطوة للحصول على نتائج دقيقة وشاملة.
+### [كيفية استخدام OCR في C# – التعرف على النص من الصور](./how-to-use-ocr-in-c-recognize-text-from-images/)
+تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose OCR في C# للحصول على نتائج دقيقة.
+### [التعرف على النص الهندي من الصور – تحويل إلى ePub باستخدام Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+تعلم خطوة بخطوة كيفية التعرف على النص الهندي من الصور وتحويله إلى ملف ePub باستخدام Aspose OCR في C#.
 ### [كيفية التعرف الضوئي على النص العربي والهندي باستخدام Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 تعلم كيفية استخراج النص العربي والهندي من الصور باستخدام Aspose OCR خطوة بخطوة.
 ### [كيفية تنفيذ التعرف الضوئي على الحروف في C# – دليل استخراج النصوص دون اتصال](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
@@ -124,7 +138,6 @@ url: /ar/net/text-recognition/
 دليل شامل لاستخراج النص من الصور باستخدام Aspose OCR في C# خطوة بخطوة لتحقيق أفضل النتائج.
 ### [التعرف على النص من صورة في C# – دليل كامل لتقنية OCR و JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام C# وتنسيق النتائج كـ JSON باستخدام Aspose.OCR.
-
 ### [دروس OCR بلغة C# – تحويل الصور إلى ملفات PDF قابلة للبحث](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C#.
 ### [دروس OCR بلغة C#: التعرف على النص من صور PNG](./c-ocr-tutorial-recognize-text-from-png-images/)

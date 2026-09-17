@@ -97,6 +97,12 @@ Utforska Aspose.OCR för .NET. Öka OCR-noggrannheten med förbehandlingsfilter.
 Förbättra OCR-noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
 ### [Spara flersidigt resultat som dokument i OCR-bildigenkänning](./save-multipage-result-as-document/)
 Lås upp potentialen hos Aspose.OCR för .NET. Spara enkelt flersidiga OCR-resultat som dokument med denna omfattande steg-för-steg-guide.
+### [Förbehandla bild‑OCR i C# – Komplett guide med filter](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+Lär dig hur du förbehandlar bilder för OCR i C# med filter för att förbättra igenkänningsnoggrannheten i en komplett steg‑för‑steg‑guide.
+### [Hur man använder Aspose OCR med GPU – Steg‑för‑steg‑guide](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+Lär dig utnyttja GPU-acceleration för snabbare OCR med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
+### [Extrahera textbilder från PNG-filer med C# – Batch‑OCR med Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+Lär dig batch‑OCR för PNG‑bilder i C# med Aspose OCR för att snabbt extrahera text från flera filer.
 ### [Förbättra OCR‑noggrannheten i C# med Aspose – Steg‑för‑steg‑guide](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
 Lär dig hur du ökar OCR‑noggrannheten i C# med Aspose genom en detaljerad steg‑för‑steg‑guide.
 ### [Ta bort bakgrunds-OCR med Aspose OCR – Komplett GPU-guide](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)

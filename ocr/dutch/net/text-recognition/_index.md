@@ -55,6 +55,20 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Herken Hindi-tekst in C# – Complete Aspose OCR-gids](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Leer hoe u Hindi-tekst in C# kunt herkennen met Aspose OCR in deze volledige stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in C# – Offline OCR-voorbeeld](./extract-text-from-image-in-c-offline-ocr-example/)
+Leer hoe u offline OCR in C# kunt gebruiken om tekst uit afbeeldingen te extraheren met Aspose.OCR.
+### [Afbeelding converteren naar ePub in C# – Complete gids voor het genereren van een ePub‑bestand](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
+Leer hoe u met Aspose.OCR afbeeldingen omzet naar ePub‑bestanden in C#, stap voor stap.
+### [Herken Hindi-tekst uit afbeeldingen – Converteer naar ePub met Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+Leer hoe u Hindi-tekst uit afbeeldingen herkent en deze omzet naar een ePub‑bestand met Aspose OCR in C#.
+### [Hoe OCR uit te voeren in C# – Tekst extraheren en JSON schrijven](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt en de resultaten opslaat als JSON‑bestand.
+### [Herken tekst uit afbeelding met Aspose OCR – Complete C#-gids](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen haalt in deze volledige stap‑voor‑stap gids.
+### [Hoe OCR te gebruiken in C# – Tekst uit afbeeldingen herkennen](./how-to-use-ocr-in-c-recognize-text-from-images/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen kunt herkennen in deze stap‑voor‑stap gids.
 ### [Hoe OCR Arabische en Hindi-tekst met Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 Leer hoe u Arabische en Hindi-teksten nauwkeurig kunt herkennen met Aspose OCR in .NET.
 ### [Converteer afbeelding naar JSON met Aspose OCR C#-handleiding](./convert-image-to-json-with-aspose-ocr-c-guide/)
@@ -124,7 +138,6 @@ Leer stap voor stap hoe u met Aspose.OCR een doorzoekbare PDF maakt van PNG-afbe
 Leer stap voor stap hoe u met Aspose OCR tekst uit afbeeldingen haalt in C#.
 ### [Tekst herkennen uit afbeelding in C# – Complete gids voor OCR en JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Leer stap voor stap hoe u tekst uit afbeeldingen haalt en OCR‑resultaten als JSON verkrijgt met Aspose OCR in C#.
-
 ### [c# OCR-tutorial – Afbeeldingen omzetten in doorzoekbare PDF's](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Leer hoe u met Aspose.OCR afbeeldingen omzet in doorzoekbare PDF's in .NET.
 ### [c# OCR-tutorial: Tekst herkennen uit PNG-afbeeldingen](./c-ocr-tutorial-recognize-text-from-png-images/)

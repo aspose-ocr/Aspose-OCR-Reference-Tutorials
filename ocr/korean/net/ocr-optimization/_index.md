@@ -64,15 +64,19 @@ Aspose.OCR For .NET 튜토리얼 목록을 활용하면 추가 리소스에 접�
 포괄적인 가이드를 통해 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이미지 인식을 위해 직사각형을 준비하는 방법을 단계별로 알아보세요. 원활한 OCR 통합으로 .NET 애플리케이션을 향상시키세요.
 ### [OCR 이미지 인식의 이미지 전처리 필터](./preprocessing-filters-for-image/)
 .NET용 Aspose.OCR을 살펴보세요. 전처리 필터로 OCR 정확도를 높입니다. 원활한 통합을 위해 지금 다운로드하세요.
+### [C#에서 이미지 OCR 전처리 – 필터를 활용한 완전 가이드](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+.NET용 Aspose.OCR으로 이미지 전처리 필터를 적용해 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [OCR 이미지 인식에서 맞춤법 검사를 통한 결과 수정](./result-correction-with-spell-checking/)
 .NET용 Aspose.OCR을 사용하여 OCR 정확도를 향상하세요. 철자를 수정하고, 사전을 사용자 정의하고, 오류 없는 텍스트 인식을 쉽게 달성할 수 있습니다.
 ### [OCR 이미지 인식에서 여러 페이지 결과를 문서로 저장](./save-multipage-result-as-document/)
 .NET용 Aspose.OCR의 잠재력을 활용해 보세요. 이 포괄적인 단계별 가이드를 사용하여 여러 페이지의 OCR 결과를 문서로 쉽게 저장할 수 있습니다.
+### [GPU와 함께 Aspose OCR 사용 방법 – 단계별 가이드](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+GPU 가속을 활용해 Aspose OCR을 효율적으로 사용하는 방법을 단계별로 안내합니다.
+### [C#로 PNG에서 텍스트 이미지 추출 – Aspose OCR을 사용한 배치 OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
 ### [C#에서 Aspose로 OCR 정확도 향상 – 단계별 가이드](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
 .NET용 Aspose.OCR을 활용해 C#에서 OCR 정확도를 높이는 단계별 가이드.
 ### [Aspose OCR을 사용한 배경 제거 OCR – 완전 GPU 가이드](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
 GPU 가속을 활용해 Aspose OCR로 배경을 제거하고 OCR 정확도를 높이는 완전 가이드.
-
 ### [GPU와 함께 Aspose OCR을 사용한 이미지 텍스트 추출 – C# 가이드](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 .NET용 Aspose OCR과 GPU 가속을 활용해 이미지에서 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR을 사용하여 스캔 파일에서 검색 가능한 PDF 만들기](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)

@@ -95,16 +95,19 @@ Aspose.OCR for .NET とのシームレスな OCR 統合を検討してくださ�
 Aspose.OCR for .NET を使用して OCR の精度を向上させます。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
 ### [OCR画像認識で複数ページの結果をドキュメントとして保存](./save-multipage-result-as-document/)
 Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステップバイステップ ガイドを使用すると、複数ページの OCR 結果をドキュメントとして簡単に保存できます。
+### [C# で画像 OCR を前処理 – フィルタ完全ガイド](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+C# で画像 OCR の前処理フィルタを適用し、認識精度を向上させる方法をステップバイステップで解説します。
+### [C# で PNG からテキスト画像を抽出 – Aspose OCR を使用したバッチ OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+C# で PNG 画像からテキスト画像を抽出し、Aspose OCR を使ってバッチ処理で OCR を実行する方法を解説します。
+### [GPU を使用した Aspose OCR の使い方 – ステップバイステップ ガイド](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 ### [C# で Aspose を使用した OCR 精度向上 – ステップバイステップ ガイド](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
 ### [Aspose OCR を使用した背景除去 OCR – 完全 GPU ガイド](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
 GPU を活用して背景を除去しながら OCR を実行する完全ガイドです。
-
 ### [Aspose OCR と GPU を使用して画像からテキストを抽出 – C# ガイド](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 ### [Aspose OCR を使用してスキャンしたファイルから検索可能な PDF を作成](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
 Aspose OCR を活用し、スキャンした画像から検索可能な PDF を簡単に生成する方法をステップバイステップで解説します。
 ### [OCRでコントラストを強化する – 完全なC#チュートリアル](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
 画像のコントラストを調整し、OCR精度を向上させるC#完全ガイドです。
-
 ### [バッチ OCR で検索可能 PDF を作成 – C# ガイド](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Aspose.OCR for .NET を使用して、バッチ OCR で検索可能な PDF を作成する方法をステップバイステップで解説します。
 ### [C# で OCR を使用する方法 – GPU 加速で画像からテキストを抽出](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
@@ -114,7 +117,6 @@ GPUを活用してPNG画像から高速にテキストを抽出し、C#で完全
 ### [OCR前処理パイプライン – C#で画像からテキストを認識する方法](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 C#でOCR前処理パイプラインを構築し、画像からテキストを高精度で抽出する手順を解説します。
 ### [c# OCR チュートリアル: 前処理で画像からテキストを認識](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
-
 ### [GPU 加速 C# チュートリアル – Aspose OCR で画像からテキストを認識](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 GPU の力を活用し、C# で Aspose OCR を使用して画像から高速にテキストを抽出する方法を学びます。
 {{< /blocks/products/pf/tutorial-page-section >}}

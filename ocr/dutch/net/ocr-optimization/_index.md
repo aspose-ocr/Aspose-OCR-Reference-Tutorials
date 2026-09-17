@@ -112,9 +112,15 @@ Leer hoe u een preprocessing-pijplijn opzet om tekst uit afbeeldingen te herkenn
 Ontdek naadloze OCR-integratie met Aspose.OCR voor .NET. Herken tekst uit afbeeldingen met precisie.
 ### [Filters voorbewerken voor afbeeldingen in OCR-beeldherkenning](./preprocessing-filters-for-image/)
 Ontdek Aspose.OCR voor .NET. Verbeter de OCR-nauwkeurigheid met voorverwerkingsfilters. Download nu voor naadloze integratie.
+### [Voorverwerking van afbeelding OCR in C# – Complete gids met filters](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+Leer hoe u afbeeldingen voor OCR in C# kunt voorbewerken met diverse filters voor optimale nauwkeurigheid.
 ### [Resultaatcorrectie met spellingcontrole in OCR-beeldherkenning](./result-correction-with-spell-checking/)
 Verbeter de OCR-nauwkeurigheid met Aspose.OCR voor .NET. Corrigeer spellingen, pas woordenboeken aan en bereik moeiteloos foutloze tekstherkenning.
 ### [Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning](./save-multipage-result-as-document/)
+### [Hoe Aspose OCR met GPU te gebruiken – Stapsgewijze handleiding](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+Leer hoe u Aspose OCR versnelt met GPU-ondersteuning voor snellere en nauwkeurige tekstherkenning.
+### [Tekstafbeeldingen extraheren uit PNG's met C# – Batch-OCR met Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+Leer hoe u PNG-afbeeldingen batchgewijs verwerkt en tekst extraheert met Aspose OCR in C#.
 ### [c# OCR-tutorial: Tekst herkennen van afbeelding met voorbewerking](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 Leer hoe u tekst uit afbeeldingen herkent met c# en Aspose.OCR, inclusief voorbewerkingsfilters voor betere nauwkeurigheid.
 ### [Tekst herkennen van afbeelding met Aspose OCR – GPU-versnelde C#-tutorial](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
@@ -179,7 +185,6 @@ A: Aspose biedt eeuwigdurende en abonnement‑licenties. Kies het model dat het 
 **Last Updated:** 2025-12-22  
 **Getest met:** Aspose.OCR for .NET (latest stable release)  
 **Auteur:** Aspose  
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
