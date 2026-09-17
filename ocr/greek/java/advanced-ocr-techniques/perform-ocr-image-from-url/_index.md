@@ -1,5 +1,5 @@
 ---
-date: 2025-12-18
+date: 2026-02-20
 description: Αποκτήστε απρόσκοπτη εξαγωγή κειμένου από εικόνα σε Java με το Aspose.OCR.
   OCR υψηλής ακρίβειας με εύκολη ενσωμάτωση.
 linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
@@ -10,39 +10,47 @@ url: /el/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ markdown formatting, code block placeholders unchanged.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Εξαγωγή κειμένου από εικόνα μέσω URL χρησιμοποιώντας Aspose.OCR για Java
+# Εξαγωγή κειμένου από εικόνα από URL χρησιμοποιώντας το Aspose.OCR για Java
 
-## Εισαγωγή
+## Introduction
 
-Σε αυτό το βήμα‑βήμα **aspose ocr java tutorial**, θα μάθετε πώς να **εξάγετε κείμενο από αρχεία εικόνας** που φιλοξενούνται στο διαδίκτυο. Στο τέλος του οδηγού θα έχετε ένα λειτουργικό απόσπασμα Java που κατεβάζει μια εικόνα από ένα URL, εκτελεί OCR υψηλής ακρίβειας και επιστρέφει το αναγνωρισμένο κείμενο μαζί με χρήσιμα μεταδεδομένα JSON. Αυτή η προσέγγιση είναι ιδανική για web‑crawlers, pipelines επεξεργασίας εγγράφων ή οποιαδήποτε εφαρμογή που χρειάζεται να διαβάσει κείμενο από απομακρυσμένες εικόνες.
+Σε αυτό το βήμα‑βήμα **aspose ocr java tutorial**, θα μάθετε πώς να **εξάγετε κείμενο από αρχεία εικόνας** που φιλοξενούνται στο web. Στο τέλος του οδηγού θα έχετε ένα λειτουργικό απόσπασμα Java που κατεβάζει μια εικόνα από ένα URL, εκτελεί OCR υψηλής ακρίβειας και επιστρέφει το αναγνωρισμένο κείμενο μαζί με χρήσιμα μεταδεδομένα JSON. Αυτή η προσέγγιση είναι ιδανική για web‑crawlers, pipelines επεξεργασίας εγγράφων ή οποιαδήποτε εφαρμογή που χρειάζεται να **εξάγει κείμενο από web** εικόνες.
 
-## Γρήγορες Απαντήσεις
-- **Μπορεί το Aspose.OCR να εξάγει κείμενο από URL εικόνων;** Ναι – χρησιμοποιήστε `RecognizePageFromUri`.  
-- **Υποστηρίζει OCR πολλαπλές γλώσσες;** Απόλυτα· μπορείτε να ορίσετε πακέτα γλώσσας στις ρυθμίσεις.  
-- **Είναι το OCR υψηλής ακρίβειας;** Με σωστές περιοχές αναγνώρισης και απενεργοποιημένο auto‑skew, η ακρίβεια είναι μεταξύ των καλύτερων στην κατηγορία.  
-- **Τι χρειάζομαι πριν ξεκινήσω;** Java 8+, Aspose.OCR for Java και έγκυρη άδεια χρήσης για παραγωγική χρήση.  
-- **Πώς διαχειρίζομαι την άδεια;** Δείτε την ενότητα *aspose ocr licensing* παρακάτω για λεπτομέρειες.
+## Quick Answers
+- **Can Aspose.OCR extract text from image URLs?** Yes – use `RecognizePageFromUri`.  
+- **Does it support OCR multiple languages?** Absolutely; you can set language packs in the settings.  
+- **Is the OCR high accuracy?** With proper recognition areas and auto‑skew disabled, accuracy is among the best in class.  
+- **What do I need before starting?** Java 8+, Aspose.OCR for Java, and a valid license for production use.  
+- **How do I handle licensing?** See the *aspose ocr licensing* section below for details.
 
-## Τι είναι η “εξαγωγή κειμένου από εικόνα”;
+## What is “extract text from image”?
 
 Η εξαγωγή κειμένου από μια εικόνα σημαίνει τη μετατροπή της οπτικής αναπαράστασης χαρακτήρων σε μηχανικά αναγνώσιμες συμβολοσειρές. Οι μηχανές OCR (Optical Character Recognition) αναλύουν μοτίβα εικονοστοιχείων, εντοπίζουν σχήματα χαρακτήρων και παράγουν απλό κείμενο που μπορείτε να αποθηκεύσετε, να αναζητήσετε ή να επεξεργαστείτε προγραμματιστικά.
 
-## Γιατί να χρησιμοποιήσετε Aspose.OCR για OCR υψηλής ακρίβειας;
+## Why use Aspose.OCR for high‑accuracy OCR?
 
-Το Aspose.OCR προσφέρει **high accuracy OCR** μηχανή που υποστηρίζει ευρύ φάσμα μορφών εικόνας, προσαρμοσμένες περιοχές αναγνώρισης και πακέτα γλώσσας. Η βιβλιοθήκη είναι πλήρως διαχειριζόμενη, δεν απαιτεί εγγενείς εξαρτήσεις και ενσωματώνεται καθαρά σε έργα Java—κάνοντας την αξιόπιστη επιλογή για επιχειρηματική εξαγωγή κειμένου.
+Το Aspose.OCR προσφέρει **high accuracy OCR** μηχανή που υποστηρίζει ευρύ φάσμα μορφών εικόνας, προσαρμόσιμες περιοχές αναγνώρισης και πακέτα γλωσσών. Η βιβλιοθήκη είναι πλήρως διαχειριζόμενη, δεν απαιτεί εγγενείς εξαρτήσεις και ενσωματώνεται ομαλά σε έργα Java—κάνοντας την αξιόπιστη επιλογή για εξαγωγή κειμένου επιχειρησιακού επιπέδου.
 
-## Προαπαιτούμενα
+## When should you extract text from web images?
 
-1. **Περιβάλλον Ανάπτυξης Java** – Ένα λειτουργικό JDK (8 ή νεότερο) και ένα IDE ή εργαλείο κατασκευής της επιλογής σας.  
-2. **Βιβλιοθήκη Aspose.OCR** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.OCR for Java. Μπορείτε να βρείτε τη βιβλιοθήκη και τη σχετική τεκμηρίωση στον ιστότοπο [Aspose.OCR website](https://reference.aspose.com/ocr/java/).  
+- **Automated data extraction** from public websites or intranets.  
+- **Processing scanned documents** that are stored on cloud storage services.  
+- **Enhancing searchability** of image‑heavy content by generating searchable text layers.  
 
-## Εισαγωγή Πακέτων
+## Prerequisites
 
-Στο έργο Java, εισάγετε τα απαραίτητα πακέτα για το Aspose.OCR:
+1. **Java Development Environment** – A working JDK (8 or newer) and an IDE or build tool of your choice.  
+2. **Aspose.OCR Library** – Download and install the Aspose.OCR for Java library. You can find the library and related documentation on the [Aspose.OCR website](https://reference.aspose.com/ocr/java/).  
+
+## Import Packages
+
+Στο έργο Java σας, εισάγετε τα απαραίτητα πακέτα για το Aspose.OCR:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -59,7 +67,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Βήμα 1: Δημιουργία Στιγμιότυπου API
+## Step 1: Create API Instance
 
 Αρχικοποιήστε μια παρουσία της κλάσης `AsposeOCR`:
 
@@ -67,7 +75,7 @@ import java.util.ArrayList;
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Βήμα 2: Ορισμός URL Εικόνας
+## Step 2: Define Image URL
 
 Καθορίστε το URL της εικόνας από την οποία θέλετε να εκτελέσετε OCR:
 
@@ -75,9 +83,9 @@ AsposeOCR api = new AsposeOCR();
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## Βήμα 3: Ορισμός Επιλογών Αναγνώρισης
+## Step 3: Set Recognition Options
 
-Ρυθμίστε τις παραμέτρους αναγνώρισης, όπως η απενεργοποίηση του auto‑skew και ο ορισμός περιοχών αναγνώρισης:
+Διαμορφώστε τις ρυθμίσεις αναγνώρισης, όπως η απενεργοποίηση του auto‑skew και ο ορισμός περιοχών αναγνώρισης:
 
 ```java
 RecognitionSettings settings = new RecognitionSettings();
@@ -89,7 +97,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Βήμα 4: Εκτέλεση OCR
+## Step 4: Perform OCR
 
 Κληθείτε στη διαδικασία αναγνώρισης OCR:
 
@@ -102,7 +110,7 @@ try {
 }
 ```
 
-## Βήμα 5: Εκτύπωση Αποτελεσμάτων
+## Step 5: Print Results
 
 Εμφανίστε τα αποτελέσματα αναγνώρισης, συμπεριλαμβανομένου του εξαγόμενου κειμένου, του κειμένου περιοχών αναγνώρισης, της εξόδου JSON και τυχόν προειδοποιήσεων:
 
@@ -119,43 +127,47 @@ for (String warning : result.warnings) {
 }
 ```
 
-Επαναλάβετε αυτά τα βήματα για την ενσωμάτωση του Aspose.OCR στην εφαρμογή Java και την εξαγωγή κειμένου από εικόνες με ακρίβεια.
+Επαναλάβετε αυτά τα βήματα για την ενσωμάτωση του Aspose.OCR στην εφαρμογή Java σας και την ακριβή εξαγωγή κειμένου από εικόνες.
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## How to extract text from web images using Aspose.OCR?
+
+Όταν χρειάζεται να **extract text from web** πηγές, η ροή εργασίας παραμένει η ίδια: παρέχετε το απομακρυσμένο URL της εικόνας, διαμορφώνετε τυχόν ρυθμίσεις γλώσσας ή περιοχής, και καλείτε `RecognizePageFromUri`. Η βιβλιοθήκη διαχειρίζεται το κατέβασμα εσωτερικά, οπότε δεν χρειάζεται να γράψετε επιπλέον κώδικα δικτύωσης.
+
+## Common Issues and Solutions
 
 | Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
 |----------|----------------|----------|
-| **Κενό `recognitionText`** | Λανθασμένο URL ή χρονικό όριο δικτύου. | Επαληθεύστε ότι το URL είναι προσβάσιμο και προσθέστε κατάλληλη διαχείριση εξαιρέσεων. |
-| **Ακατάλληλοι χαρακτήρες** | Το auto‑skew είναι ενεργό σε περιστραμμένες εικόνες. | Διατηρήστε `settings.setAutoSkew(false)` ή παρέχετε σωστά μεταδεδομένα περιστροφής. |
-| **Έλλειψη υποστήριξης γλώσσας** | Το προεπιλεγμένο πακέτο γλώσσας περιλαμβάνει μόνο Αγγλικά. | Φορτώστε επιπλέον πακέτα γλώσσας μέσω `settings.setLanguage("fra")` (ή άλλους κωδικούς ISO). |
-| **Η άδεια δεν εφαρμόστηκε** | Η δοκιμαστική λειτουργία μπορεί να περιορίζει σελίδες. | Εφαρμόστε έγκυρη άδεια με `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
+| **Empty `recognitionText`** | Incorrect URL or network timeout. | Verify the URL is reachable and add proper exception handling. |
+| **Garbage characters** | Auto‑skew left enabled on rotated images. | Keep `settings.setAutoSkew(false)` or provide correct rotation metadata. |
+| **Missing language support** | Default language pack only includes English. | Load additional language packs via `settings.setLanguage("fra")` (or other ISO codes). |
+| **License not applied** | Trial mode may limit pages. | Apply a valid license with `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
 
-## Συχνές Ερωτήσεις
+## Frequently Asked Questions
 
-**Ε: Πόσο ακριβές είναι το Aspose.OCR στην αναγνώριση κειμένου από εικόνες;**  
-Α: Το Aspose.OCR παρέχει **high accuracy OCR**, ειδικά όταν ορίζετε ακριβείς περιοχές αναγνώρισης και απενεργοποιείτε το auto‑skew.
+**Q: How accurate is Aspose.OCR in recognizing text from images?**  
+A: Aspose.OCR delivers **high accuracy OCR**, especially when you define precise recognition areas and disable auto‑skew.
 
-**Ε: Μπορεί το Aspose.OCR να διαχειριστεί OCR πολλαπλές γλώσσες;**  
-Α: Ναι, η μηχανή υποστηρίζει πολλές γλώσσες· αρκεί να φορτώσετε το κατάλληλο πακέτο γλώσσας στο `RecognitionSettings`.
+**Q: Can Aspose.OCR handle OCR multiple languages?**  
+A: Yes, the engine supports many languages; you just need to load the appropriate language pack in `RecognitionSettings`.
 
-**Ε: Υπάρχουν ζητήματα αδειοδότησης για τη χρήση του Aspose.OCR σε εμπορικά έργα;**  
-Α: Απόλυτα. Εξετάστε τις λεπτομέρειες **aspose ocr licensing** και αποκτήστε εμπορική άδεια από [purchase.aspose.com](https://purchase.aspose.com/buy).
+**Q: Are there any licensing considerations for using Aspose.OCR in commercial projects?**  
+A: Absolutely. Review the **aspose ocr licensing** details and obtain a commercial license from [purchase.aspose.com](https://purchase.aspose.com/buy).
 
-**Ε: Πώς μπορώ να λάβω υποστήριξη για προβλήματα σχετιζόμενα με το Aspose.OCR;**  
-Α: Επισκεφθείτε το [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) για βοήθεια από την κοινότητα ή αποκτήστε premium υποστήριξη με προσωρινή άδεια από [Temporary License](https://purchase.aspose.com/temporary-license/).
+**Q: How can I get support for Aspose.OCR‑related issues?**  
+A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community help, or acquire premium support with a temporary license from [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-**Ε: Υπάρχει δωρεάν δοκιμή για το Aspose.OCR for Java;**  
-Α: Ναι, μπορείτε να εξερευνήσετε το πλήρες σύνολο λειτουργιών με δωρεάν δοκιμή στο [releases.aspose.com](https://releases.aspose.com/).
+**Q: Is there a free trial available for Aspose.OCR for Java?**  
+A: Yes, you can explore the full feature set with a free trial at [releases.aspose.com](https://releases.aspose.com/).
 
-## Συμπέρασμα
+## Conclusion
 
-Η αξιοποίηση του Aspose.OCR για Java σας προσφέρει μια **αξιόπιστη, high accuracy OCR** λύση που μπορεί να **εξάγει κείμενο από URL εικόνων** γρήγορα και αξιόπιστα. Ακολουθήστε τα παραπάνω βήματα, προσαρμόστε τις ρυθμίσεις αναγνώρισης ώστε να ταιριάζουν στη διάταξη του εγγράφου σας, και θα είστε έτοιμοι να ενσωματώσετε ισχυρές δυνατότητες εξαγωγής κειμένου σε οποιαδήποτε ροή εργασίας βασισμένη σε Java.
+Αξιοποιώντας το Aspose.OCR για Java αποκτάτε μια **robust, high accuracy OCR** λύση που μπορεί να **extract text from image** URLs γρήγορα και αξιόπιστα. Ακολουθήστε τα παραπάνω βήματα, προσαρμόστε τις ρυθμίσεις αναγνώρισης ώστε να ταιριάζουν στη διάταξη του εγγράφου σας, και θα είστε έτοιμοι να ενσωματώσετε ισχυρές δυνατότητες εξαγωγής κειμένου σε οποιαδήποτε ροή εργασίας βασισμένη σε Java.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-18  
-**Δοκιμή με:** Aspose.OCR 24.11 for Java  
-**Συγγραφέας:** Aspose  
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

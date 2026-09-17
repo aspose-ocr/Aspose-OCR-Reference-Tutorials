@@ -1,0 +1,7 @@
+Title: Improve OCR Accuracy in Python – Complete Guide
+Slug: improve-ocr-accuracy-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-19T16:20:20.560006
+SourceRepo: AI Search API
+Keywords: improve ocr accuracy, extract text from image, perform ocr on image, load image for ocr, set ocr language
+PRNumber: 151

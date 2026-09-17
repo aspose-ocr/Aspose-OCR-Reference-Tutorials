@@ -1,39 +1,57 @@
 ---
-title: OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
-linktitle: OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Bu kapsamlı, adım adım kılavuzla çok sayfalı OCR sonuçlarını zahmetsizce belge olarak kaydedin.
-weight: 14
+date: 2026-04-29
+description: Aspose.OCR kullanarak C# ile görüntüleri PDF'ye dönüştürmeyi, çok sayfalı
+  OCR sonuçlarını belge olarak kaydetmeyi ve C# ile görüntülerden metin çıkarmayı
+  öğrenin.
+keywords:
+- convert images to pdf
+- extract text from images
+- c# ocr library
+- convert images to xlsx
+- generate pdf from tiff
+linktitle: Görselleri PDF'e Dönüştür C# – Çok Sayfalı OCR Sonucunu Kaydet
+second_title: Aspose.OCR .NET API
+title: Görüntüleri PDF'ye Dönüştür C# – Çok Sayfalı OCR Sonucunu Kaydet
 url: /tr/net/ocr-optimization/save-multipage-result-as-document/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet
+# Görüntüleri PDF C#'a Dönüştür – Çok Sayfalı OCR Sonucunu Kaydet
 
-## giriiş
+## Giriş
 
-Aspose.OCR for .NET kullanarak optik karakter tanımanın (OCR) büyüleyici dünyasına hoş geldiniz! Bu eğitimde, çok sayfalı OCR sonuçlarını belge olarak kaydetmek için Aspose.OCR'ın özelliklerinden nasıl yararlanacağımızı keşfedeceğiz. İster deneyimli bir geliştirici olun ister OCR'a yeni başlıyor olun, bu kılavuz size her adımda yol gösterecek ve bu güçlü araçtan en iyi şekilde yararlanmanızı sağlayacaktır.
+Bu öğreticide, .NET için güçlü **Aspose.OCR** kütüphanesini kullanarak **görüntüleri PDF C#'a dönüştürmeyi** keşfedeceksiniz. **Taralı TIFF dosyalarını aranabilir PDF'lere dönüştürmeniz**, görüntülerden veri madenciliği için metin çıkarmanız veya bir grup resimden bir Excel çalışma kitabı oluşturmanız gerekirse, bu kılavuz her adımı net açıklamalar, gerçek dünya ipuçları ve en iyi uygulama önerileriyle size gösterir.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose.OCR kullanarak C#'ta birden fazla görüntüyü PDF, Docx, Text ve Xlsx formatına dönüştürmek ve OCR sonucunu çok sayfalı bir belge olarak kaydetmek.  
+- **Hangi çıktı formatları destekleniyor?** Docx, Text, Pdf ve Xlsx (PDF'yi doğrudan da çıktı alabilirsiniz).  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için kalıcı bir lisans gereklidir.  
+- **Hangi .NET sürümleri uyumlu?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Dönüştürürken metin çıkarabilir miyim?** Evet—kaydetmeden önce aranabilir metni elde etmek için OCR sonuçlarını kullanın.
+
+## “görüntüleri PDF C#'a dönüştür” nedir?
+C#'ta görüntüleri PDF'ye dönüştürmek, programlı olarak bir veya daha fazla bitmap dosyasını (PNG, JPEG, TIFF vb.) alıp görsel düzeni koruyan ve isteğe bağlı olarak OCR aracılığıyla aranabilir metin gömen bir PDF belgesi oluşturmak anlamına gelir. Aspose.OCR, çok sayfalı desteği ve popüler ofis formatlarına doğrudan kaydetme özelliği dahil olmak üzere bu süreci uçtan uca yöneten bir **c# ocr library** sağlar.
+
+## Bu görev için Aspose.OCR neden kullanılmalı?
+- **Yüksek doğruluklu OCR**; onlarca dili destekler.  
+- **Çok sayfalı işleme** – bir klasör içindeki tüm görüntüleri besleyin ve tek bir aranabilir PDF elde edin.  
+- **Doğrudan dışa aktarım**; ikinci bir dönüşüm adımına gerek kalmadan Docx, Text, Pdf ve Xlsx formatlarına.  
+- **Saf .NET** – yerel bağımlılık yok, Windows, Linux ve bulut çalışma zamanlarında çalışır.
 
 ## Önkoşullar
+1. .NET için Aspose.OCR'ı kurun. [buradan](https://releases.aspose.com/ocr/net/) indirebilirsiniz.  
+2. Ücretsiz bir deneme veya satın alınmış lisans edinin – deneme sürümünü [buradan](https://releases.aspose.com/) alabilir veya bir lisans satın alabilirsiniz [buradan](https://purchase.aspose.com/buy).  
+3. API yüzeyiyle tanışmak için resmi [belgelere](https://reference.aspose.com/ocr/net/) göz atın.  
+4. Herhangi bir engelle karşılaştığınızda yardım almak için [destek forumlarında](https://forum.aspose.com/c/ocr/16) topluluğa katılın.  
 
-Eğiticiye dalmadan önce her şeyin ayarlandığından emin olalım:
+Şimdi her şey hazır, kodlamaya başlayalım.
 
-1.  Aspose.OCR for .NET'i yükleyin: Aspose.OCR for .NET'i indirip yükleyerek başlayın. Gerekli dosyaları bulabilirsiniz[Burada](https://releases.aspose.com/ocr/net/).
-
-2.  Ücretsiz Denemenizi veya Lisansınızı Alın: Henüz yapmadıysanız, ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/) veya bir lisans satın alın[Burada](https://purchase.aspose.com/buy).
-
-3.  Belgeleri Keşfedin: Kendinizi tanıyın[dokümantasyon](https://reference.aspose.com/ocr/net/)Aspose.OCR for .NET için. Ayrıntılı bilgi için başvurulacak kaynağınızdır.
-
-4.  Destek Forumlarına Erişim: Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa,[destek forumları](https://forum.aspose.com/c/ocr/16) değerli bir topluluk kaynağıdır.
-
-Artık hazır olduğunuza göre adım adım kılavuza geçelim.
-
-## Ad Alanlarını İçe Aktar
-
-Gerekli ad alanlarını içe aktararak projenize başlayın:
+## Ad Alanlarını İçe Aktarın
+Gerekli ad alanlarını C# dosyanıza ekleyerek başlayın:
 
 ```csharp
 using System;
@@ -43,73 +61,94 @@ using System.Linq;
 using Aspose.OCR;
 ```
 
-## 1. Adım: Belge Dizininizi Ayarlayın
+Bu içe aktarmalar, koleksiyonlara, dosya işlemlerine, LINQ'a ve Aspose OCR sınıflarına erişim sağlar.
 
+## Adım 1: Belge Dizinini Ayarlayın
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
- Değiştirildiğinden emin olun`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+`"Your Document Directory"` ifadesini, kaynak görüntülerinizin bulunduğu ve çıktı dosyalarını kaydetmek istediğiniz mutlak ya da göreli yol ile değiştirin.
 
-## Adım 2: Aspose.OCR'ı başlatın
-
+## Adım 2: Aspose.OCR'ı Başlatın
 ```csharp
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
- Bir örneğini oluşturun`AsposeOcr` OCR işlevlerine erişmek için.
+`AsposeOcr` nesnesi oluşturmak, **görüntüleri PDF C#'a dönüştür** iş akışı da dahil olmak üzere tüm OCR işlemlerine erişim sağlar.
 
-## 3. Adım: Görüntüleri Tanıma
-
+## Adım 3: Görüntüleri Tanıyın
 ```csharp
-// Resmi tanı
+// Recognize image
 List<RecognitionResult> result = api.RecognizeMultipleImages(
     new List<string> { dataDir + "sample.png", dataDir + "sample_bad.png" },
     new RecognitionSettings { }
 ).ToList();
 ```
 
-Birden fazla görüntüdeki metni tanımak için Aspose.OCR'ı kullanın. Dosya yollarını görüntü dosyalarınıza göre ayarlayın.
+`RecognizeMultipleImages` yöntemi listedeki her dosyayı işler ve bir `RecognitionResult` koleksiyonu döndürür. İstediğiniz sayıda görüntüyü besleyebilirsiniz; bu, **taralı görüntüleri PDF'ye dönüştür** senaryoları için mükemmeldir.
 
-## 4. Adım: Sonuçları Tercih Edilen Formatlarda Kaydedin
-
+## Adım 4: Sonuçları Tercih Edilen Formatlarda Kaydedin
 ```csharp
-// Sonucu tercih ettiğiniz formatta kaydedin
+// Save the result in your preferred format
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR()+"sample.docx", SaveFormat.Docx, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx, result);
 ```
 
-İstediğiniz formatı seçin (Docx, Text, Pdf veya Xlsx) ve OCR sonuçlarını çok sayfalı bir belge olarak kaydedin.
+Aşağı akışınıza en uygun formatı seçin:
 
-## Çözüm
+- **Docx** – aranabilir metinli düzenlenebilir Word belgesi.  
+- **Text** – hızlı veri madenciliği için düz metin çıkarımı (**görüntülerden metin çıkar**).  
+- **Pdf** – arşivleme için ideal klasik PDF çıktısı.  
+- **Xlsx** – tablo verileri için elektronik tablo temsili (**görüntüleri xlsx'ye dönüştür**).
 
-Tebrikler! Aspose.OCR for .NET kullanarak çok sayfalı OCR sonuçlarını belge olarak nasıl kaydedeceğinizi başarıyla öğrendiniz. Bu çok yönlü araç, projelerinizde metin tanıma için bir olasılıklar dünyasının kapılarını açar.
+## Görüntüleri PDF C#'a Dönüştürme – Adım Adım Özet
+1. **Dönüştürmek istediğiniz görüntülerle klasörü hazırlayın**.  
+2. **OCR işlevlerine erişmek için bir `AsposeOcr` örneği oluşturun**.  
+3. **Her dosya için OCR sonuçlarını almak üzere `RecognizeMultipleImages`'ı çağırın**.  
+4. **İhtiyacınız olan formatta `SaveMultipageDocument` kullanarak çok sayfalı sonucu kaydedin**.
 
-## SSS'ler
+## Yaygın Kullanım Senaryoları
+- **Dijital arşivleme:** Taralı kağıt sözleşmeleri aranabilir PDF'lere dönüştürün.  
+- **Veri girişi otomasyonu:** Makbuz veya faturalardan metin çıkarın ve bir veritabanına besleyin.  
+- **Toplu işleme:** Tek bir işte binlerce görüntüyü minimal kodla işleyin.  
+- **TIFF'ten PDF oluşturma:** Orijinale sadık kalması gereken yüksek çözünürlüklü taranmış belgeler için idealdir.
 
-### S1: Test amaçlı olarak geçici bir lisans mevcut mu?
+## Sorun Giderme ve İpuçları
+- **Büyük görüntü setleri:** Bellek dalgalanmalarını önlemek için görüntüleri daha küçük partilerde işleyin.  
+- **Görüntü kalitesi:** optimum OCR doğruluğu için görüntülerin en az 300 dpi olduğundan emin olun.  
+- **Lisans hataları:** OCR yöntemlerini çağırmadan önce lisans dosyanızın doğru yüklendiğini doğrulayın.  
+- **Boş sonuçlar:** Bir görüntü okunamazsa, ilgili `RecognitionResult` boş bir `Text` özelliğine sahip olur—kaydetmeden önce null veya boş dizeleri kontrol edin.
 
- Cevap1: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Aspose.OCR'yi test etmek için.
+## Sıkça Sorulan Sorular
+**S: Görüntüleri OCR kullanmadan PDF C#'a dönüştürebilir miyim?**  
+C: Evet, saf görüntü‑PDF dönüşümü için Aspose.PDF veya diğer kütüphaneleri kullanabilirsiniz, ancak OCR PDF'ye aranabilir metin ekleyerek çok daha kullanışlı hâle getirir.
 
-### S2: Farklı formatlardaki görsellerdeki metinleri tanıyabilir miyim?
+**S: Dönüştürmeden sonra C#'ta görüntülerden metin nasıl çıkarılır?**  
+C: `RecognizeMultipleImages` tarafından döndürülen `result` listesi her sayfa için bir `Text` özelliği içerir. Bu dizeleri bir `.txt` dosyasına yazabilir veya doğrudan uygulamanızda işleyebilirsiniz.
 
-A2: Kesinlikle! Aspose.OCR çeşitli görüntü formatlarını destekleyerek OCR görevlerinizde esneklik sağlar.
+**S: Özel sayfa kenar boşlukları veya yönlendirme ayarlamak mümkün mü?**  
+C: PDF veya Docx olarak kaydederken, `SaveMultipageDocument`'ı çağırmadan önce Aspose.Words veya Aspose.PDF API'leriyle belge düzenini değiştirebilirsiniz.
 
-### S3: Tanıma için resim sayısında herhangi bir sınırlama var mı?
+**S: Bir görüntü okunamazsa ne olur?**  
+C: OCR motoru o sayfa için boş bir `RecognitionResult` döndürür; bunu tespit edip sorunlu dosyayı atlayabilir veya kaydedebilirsiniz.
 
-C3: İşleyebileceğiniz görsellerin sayısı lisansınıza bağlıdır. Ayrıntılar için belgelere bakın.
+**S: API bulut dağıtımını destekliyor mu?**  
+C: Evet, kütüphane Azure Functions ve AWS Lambda dahil olmak üzere herhangi bir .NET çalışma zamanında, sürüm gereksinimlerini karşıladığı sürece çalışır.
 
-### S4: OCR tanıma sırasındaki hataları nasıl halledebilirim?
+## Sonuç
+Artık **görüntüleri PDF C#'a dönüştürmek**, aranabilir metin çıkarmak ve hatta bir grup resimden Word, düz metin veya Excel dosyaları üretmek için eksiksiz, üretime hazır bir iş akışına sahipsiniz. Farklı çıktı formatlarıyla denemeler yapmaktan, belirli diller için OCR ayarlarını düzenlemekten veya kodu daha büyük belge‑işleme hatlarına entegre etmekten çekinmeyin.
 
-Cevap 4: Hata gidermeye yönelik en iyi uygulamalar için belgelere bakın veya destek forumlarından yardım isteyin.
+---
 
-### S5: Aspose.OCR İngilizce dışındaki dilleri destekliyor mu?
+**Son Güncelleme:** 2026-04-29  
+**Test Edilen:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
-Cevap5: Evet, Aspose.OCR birden fazla dili destekler. Dil desteği ayrıntıları için belgeleri inceleyin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

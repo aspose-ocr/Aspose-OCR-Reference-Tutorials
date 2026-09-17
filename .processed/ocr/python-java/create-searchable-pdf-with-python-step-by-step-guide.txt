@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with Python – Step‑by‑Step Guide
+Slug: create-searchable-pdf-with-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-05-31T21:16:21.247511
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned image pdf, convert tiff to pdf, how to run ocr, add ocr text layer
+PRNumber: 138

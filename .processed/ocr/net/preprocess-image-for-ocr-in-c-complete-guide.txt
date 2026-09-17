@@ -1,0 +1,7 @@
+Title: Preprocess Image for OCR in C# – Complete Guide
+Slug: preprocess-image-for-ocr-in-c-complete-guide
+Category: ocr-optimization
+ProcessedDate: 2026-06-16T11:22:59.849660
+SourceRepo: AI Search API
+Keywords: preprocess image for ocr, enhance image contrast, remove noise from scanned image
+PRNumber: 144

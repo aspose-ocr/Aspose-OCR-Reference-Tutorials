@@ -1,0 +1,7 @@
+Title: recognize chinese text with .NET OCR – Complete Guide
+Slug: recognize-chinese-text-with-net-ocr-complete-guide
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:47:07.256073
+SourceRepo: AI Search API
+Keywords: recognize chinese text, extract text from image, load image for ocr, run ocr on image, recognize arabic text
+PRNumber: 140

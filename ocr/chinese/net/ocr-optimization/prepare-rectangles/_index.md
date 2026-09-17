@@ -1,10 +1,11 @@
 ---
-title: 在 OCR 图像识别中准备矩形
-linktitle: 在 OCR 图像识别中准备矩形
+date: 2026-02-25
+description: 学习如何使用 Aspose.OCR for .NET 从图像中提取文本。本指南将带您了解为 OCR 图像识别准备矩形并提升识别准确率的方法。
+linktitle: Prepare Rectangles in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: 通过我们的综合指南释放 Aspose.OCR for .NET 的潜力。逐步学习如何准备用于图像识别的矩形。通过无缝 OCR 集成提升您的 .NET 应用程序。
-weight: 11
+title: 如何在 OCR 中通过划定矩形从图像提取文本
 url: /zh/net/ocr-optimization/prepare-rectangles/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,19 +16,40 @@ url: /zh/net/ocr-optimization/prepare-rectangles/
 
 ## 介绍
 
-在不断发展的技术领域，光学字符识别 (OCR) 在将图像转换为机器可读文本方面发挥着关键作用。对于寻求将 OCR 功能无缝集成到 .NET 应用程序中的开发人员来说，Aspose.OCR for .NET 是一个强大的解决方案。在本综合指南中，我们将探索使用 Aspose.OCR for .NET 在 OCR 图像识别中准备矩形的过程。
+光学字符识别（OCR）对于将视觉内容转换为可搜索、可编辑的文本至关重要。在本教程中，您将通过准备自定义矩形来**从图像中提取文本**，从而让 OCR 引擎专注于特定区域。使用 Aspose.OCR for .NET，我们将逐步演示从项目设置到获取识别文本的全部过程，帮助您在 .NET 应用程序中集成强大的图像转文本功能。
 
-## 先决条件
+## 快速答案
+- **“从图像中提取文本”是什么意思？** 指将图片中的可视字符转换为机器可读的字符串。  
+- **在 .NET 中使用哪个库？** Aspose.OCR for .NET。  
+- **开发阶段需要许可证吗？** 免费试用可用于测试；生产环境需要许可证。  
+- **可以只针对特定区域吗？** 可以，通过定义矩形来限制 OCR 范围。  
+- **支持哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是使用矩形的“从图像中提取文本”？
+当您在图像上定义矩形区域时，OCR 引擎仅处理这些区域。这可以提升准确性、缩短处理时间，并且可以忽略噪声背景或无关部分。
 
-- .NET 开发的实用知识。
-- 安装了 Aspose.OCR for .NET 库。你可以下载它[这里](https://releases.aspose.com/ocr/net/).
-- 对图像识别概念的基本了解。
+## 为什么在 OCR 前准备矩形？
+- **聚焦相关内容：** 跳过页眉、页脚或装饰性图形。  
+- **提升性能：** 较小的区域意味着更快的识别。  
+- **提高准确性：** 减少视觉噪声可获得更清晰的结果。
+
+## 这对实际项目有什么意义
+许多业务文档——收据、发票、身份证——都有混合布局，只有特定部分包含有价值的文本。使用矩形，您可以仅提取所需字段，显著减少后处理工作量，提高自动化流水线的整体可靠性。
+
+## 常见使用场景
+- **数据录入自动化：** 从扫描表单中提取特定字段。  
+- **合规检查：** 隔离并验证法律文本块。  
+- **内容索引：** 仅为图像的标题或说明建立搜索引擎索引。  
+
+## 前置条件
+
+- 熟悉 C# 和 .NET 开发。  
+- 已安装 Aspose.OCR for .NET 库——您可以在 **[此处](https://releases.aspose.com/ocr/net/)** 下载。  
+- 准备一张示例图片（例如 `sample.png`），其中包含您想要提取的文本。
 
 ## 导入命名空间
 
-让我们首先导入必要的命名空间来启动我们的 OCR 之旅：
+首先，将所需的命名空间引入作用域：
 
 ```csharp
 using System;
@@ -37,23 +59,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 第 1 步：设置您的文档目录
+## 步骤 1：设置文档目录
 
-首先指定存储文档的目录。代替`"Your Document Directory"`与您的文档的实际路径。
+指定图像文件所在位置并创建 OCR 引擎实例。
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//初始化 AsposeOcr 实例
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 步骤 2：识别具有多个矩形的图像
+## 如何使用多个矩形从图像中提取文本
 
-在此步骤中，我们将演示如何使用多个矩形从图像中识别文本。请按照以下子步骤操作：
+### 步骤 2：使用多个矩形识别图像
 
-### 2.1 定义矩形
+#### 2.1 定义矩形
+
+创建一个 `Rectangle` 对象列表，标明 OCR 引擎需要扫描的区域。
 
 ```csharp
 List<Rectangle> rects = new List<Rectangle>()
@@ -65,24 +89,26 @@ List<Rectangle> rects = new List<Rectangle>()
 };
 ```
 
-### 2.2 进行OCR识别
+#### 2.2 执行 OCR 识别
+
+将图像路径和矩形列表传递给 `RecognizeImage`。该方法返回一个字符串集合——每个条目对应一个矩形。
 
 ```csharp
-//第一个案例
+// first case
 List<string> listResult = api.RecognizeImage(dataDir + "sample.png", rects);
 
-//显示识别的文本
+// Display the recognized text
 foreach (string s in listResult)
 {
     Console.WriteLine(s);
 }
 ```
 
-## 步骤3：使用识别设置识别图像
+### 步骤 3：使用识别设置进行图像识别（替代方法）
 
-在此步骤中，我们将展示使用 RecognitionSettings 进行图像识别的替代方法：
+如果您更倾向于使用 `RecognitionSettings`，也可以通过稍有不同的 API 调用实现相同效果。
 
-### 3.1 定义识别设置
+#### 3.1 定义识别设置
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
@@ -91,41 +117,57 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 });
 ```
 
-### 3.2 显示识别的文本
+#### 3.2 显示识别文本
 
 ```csharp
-//显示识别的文本
+// Display the recognized text
 foreach (string s in result.RecognitionAreasText)
 {
     Console.WriteLine(s);
 }
 ```
 
+## 常见问题与技巧
+
+- **矩形坐标不正确：** 确保 `X`、`Y`、`Width`、`Height` 的值准确映射到目标区域。  
+- **图像质量：** 低分辨率图像可能导致 OCR 结果不佳；考虑进行预处理（例如二值化）。  
+- **结果为空：** 验证矩形内确实包含文本，否则引擎会返回空字符串。
+
+## 故障排除与最佳实践
+
+| 症状 | 可能原因 | 解决方案 |
+|------|----------|----------|
+| 没有输出或返回空字符串 | 矩形超出图像边界 | 再次检查图像尺寸和矩形坐标 |
+| 字符乱码 | 对比度差或噪声过多 | 在 OCR 前进行图像清理（灰度、阈值化） |
+| 大文件处理慢 | 矩形数量过多或图像尺寸过大 | 将图像拆分或尽可能减少矩形数量 |
+
 ## 结论
 
-恭喜！您已成功完成使用 Aspose.OCR for .NET 在 OCR 图像识别中准备矩形的过程。本指南使您能够将 OCR 无缝集成到 .NET 应用程序中，从而增强其文本识别功能。
+您现在已经掌握了如何使用 Aspose.OCR for .NET 通过自定义矩形**从图像中提取文本**。此技术为 OCR 处理提供了细粒度的控制，帮助您在应用程序中构建更快、更准确的文本提取功能。
 
-### 常见问题解答
+## 常见问答
 
-### Q1：我可以将 Aspose.OCR for .NET 与其他 .NET 框架一起使用吗？
+**问：** 我可以在其他 .NET 框架中使用 Aspose.OCR for .NET 吗？  
+**答：** 可以，Aspose.OCR for .NET 与多种 .NET 框架兼容。
 
-A1：是的，Aspose.OCR for .NET 与各种.NET 框架兼容。
+**问：** Aspose.OCR for .NET 是否提供免费试用？  
+**答：** 当然！您可以在 **[此处](https://releases.aspose.com/)** 获取免费试用。
 
-### 问题 2：Aspose.OCR for .NET 是否有免费试用版？
+**问：** 如何获取 Aspose.OCR for .NET 的支持？  
+**答：** 请访问 **[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)** 获取专门支持。
 
- A2：当然！您可以访问免费试用版[这里](https://releases.aspose.com/).
+**问：** 我可以获取临时许可证用于测试吗？  
+**答：** 可以，您可以在 **[此处](https://purchase.aspose.com/temporary-license/)** 获取临时许可证。
 
-### 问题 3：如何获得 Aspose.OCR for .NET 支持？
+**问：** 哪里可以找到 Aspose.OCR for .NET 的文档？  
+**答：** 文档可在 **[此处](https://reference.aspose.com/ocr/net/)** 查看。
 
- A3：访问[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)以获得专门的支持。
+---
 
-### Q4：我可以获得临时许可证用于测试目的吗？
+**最后更新：** 2026-02-25  
+**测试环境：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
 
- A4：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
-
-### Q5：在哪里可以找到 Aspose.OCR for .NET 的文档？
-
- A5：文档可用[这里](https://reference.aspose.com/ocr/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

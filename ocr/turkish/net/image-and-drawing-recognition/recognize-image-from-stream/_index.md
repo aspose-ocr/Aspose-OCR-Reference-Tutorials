@@ -1,33 +1,54 @@
 ---
-title: OCR Görüntü Tanıma'da Görüntüyü Akıştan Tanıma
-linktitle: OCR Görüntü Tanıma'da Görüntüyü Akıştan Tanıma
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET ile OCR büyüsünün kilidini açın. Görüntülerden zahmetsizce metin çıkarın. Adım adım rehberlik için öğreticiyi keşfedin.
-weight: 12
+date: 2026-04-12
+description: Aspose OCR for .NET ile akışlardan görüntü metni çıkarımını nasıl yapacağınızı
+  öğrenin. Bu adım adım örnek, kolay OCR metin çıkarımını gösterir.
+keywords:
+- image text extraction
+- image to memorystream
+- ocr png file
+- image stream ocr
+- read image stream c#
+linktitle: Akıştan Görüntüyü OCR Görüntü Tanıma ile Tanıma
+second_title: Aspose.OCR .NET API
+title: Aspose OCR Kullanarak Akıştan Görüntü Metni Çıkarma Nasıl Yapılır
 url: /tr/net/image-and-drawing-recognition/recognize-image-from-stream/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Görüntü Tanıma'da Görüntüyü Akıştan Tanıma
+# Aspose OCR Kullanarak Akıştan Görüntü Metni Çıkarma Nasıl Yapılır
 
-## giriiş
+Aspose.OCR for .NET ile **görüntü metni çıkarma** dünyasına hoş geldiniz. Bu öğreticide, bir görüntü akışını nasıl okuyacağınızı, bir PNG dosyası üzerinde OCR çalıştıracağınızı ve tanınan metni C# uygulamanıza nasıl alacağınızı göreceksiniz. İster bir belge‑işleme hattı, bir veri‑girişi otomasyon aracı oluşturuyor olun, ister sadece OCR ile denemeler yapıyor olun, aşağıdaki adımlar size ham bir görüntüyü dakikalar içinde aranabilir metne dönüştürmenizi sağlayacak.
 
-Aspose.OCR for .NET kullanarak optik karakter tanımanın (OCR) heyecan verici dünyasına hoş geldiniz! İster deneyimli bir geliştirici olun ister sadece OCR dünyasına dalın, bu adım adım kılavuz akışlardaki görüntüleri zahmetsizce tanıma konusunda size yol gösterecektir. Aspose.OCR for .NET, OCR işlevselliğinin .NET uygulamalarınıza kusursuz entegrasyonunu sağlayan, görüntülerden metin çıkarmayı çocuk oyuncağı haline getiren güçlü bir araçtır.
+## Hızlı Yanıtlar
+- **Bu öğreticide ne gösteriliyor?** Aspose OCR kullanarak bir akış olarak sağlanan görüntüden metin çıkarma.  
+- **Hedeflenen birincil anahtar kelime nedir?** *image text extraction* (kılavuz boyunca kullanılır).  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gereklidir.  
+- **PNG dosyalarını doğrudan işleyebilir miyim?** Evet – Aspose OCR, ek dönüşüm olmadan **ocr png file** formatlarını işler.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Görüntü Metni Çıkarma Nedir?
+Görüntü metni çıkarma (OCR olarak da adlandırılır), bir görüntüdeki görsel karakterleri düzenlenebilir, aranabilir metne dönüştürür. Aspose OCR ile, herhangi bir desteklenen görüntüyü (PNG, JPEG, BMP vb.) içeren bir `MemoryStream` besleyebilir ve tanınan dizeyi tek bir çağrıda alabilirsiniz.
+
+## Görüntü Metni Çıkarma İçin Neden Aspose OCR Seçilmeli?
+- **Geniş dil desteği** – kutudan çıkar çıkmaz onlarca dilde çalışır.  
+- **Basit API** – birkaç C# satırı, bir **image to memorystream**'i okunabilir metne dönüştürür.  
+- **Yüksek doğruluk** – gelişmiş algoritmalar gürültülü taramaları ve düşük çözünürlüklü PNG'leri işler.  
+- **Çapraz platform** – .NET Core ile Windows, Linux ve macOS'ta çalışır.
 
 ## Önkoşullar
 
-Bu OCR yolculuğuna çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
--  Aspose.OCR for .NET Library: Henüz yapmadıysanız, kütüphaneyi şuradan indirip yükleyin.[Aspose.OCR for .NET Belgeleri](https://reference.aspose.com/ocr/net/).
+- Aspose.OCR for .NET yüklü (indir: [Aspose.OCR for .NET Documentation](https://reference.aspose.com/ocr/net/)).  
+- Koddan referans alabileceğiniz bir klasöre yerleştirilmiş örnek bir görüntü dosyası (ör. **sample.png**).
 
-- Örnek Resim: Tanımak istediğiniz örnek bir resim hazırlayın (buna "sample.png" diyelim). OCR işlemi için okunabilir bir formatta olduğundan emin olun.
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-Başlamak için projenize gerekli ad alanlarını ekleyin:
+C# dosyanıza gerekli ad alanlarını ekleyin:
 
 ```csharp
 using System;
@@ -35,30 +56,25 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Şimdi örneği birden çok adıma ayıralım.
+## Adım‑Adım Kılavuz
 
-## 1. Adım: Belge Dizinini Ayarlayın
-
+### Adım 1: Belge Dizinini Ayarlayın
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
+**"Your Document Directory"** ifadesini *sample.png* dosyasını içeren gerçek klasörle değiştirin.
 
-"Belge Dizininiz"i belge dizininizin gerçek yolu ile değiştirdiğinizden emin olun.
-
-## Adım 2: Aspose.OCR'ı başlatın
-
+### Adım 2: Aspose OCR Motorunu Başlatın
 ```csharp
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
+`AsposeOcr` nesnesi oluşturmak, tüm OCR yöntemlerine erişim sağlar.
 
-OCR işlevselliğinden yararlanmak için AsposeOcr sınıfının bir örneğini oluşturun.
-
-## 3. Adım: Akıştan Görüntüyü Tanıyın
-
+### Adım 3: Görüntü Akışını Oku ve Metni Tanı
 ```csharp
-// Resmi tanı
+// Recognize image
 using (MemoryStream ms = new MemoryStream())
 using (FileStream file = new FileStream(dataDir + "sample.png", FileMode.Open, FileAccess.Read))
 {
@@ -66,51 +82,56 @@ using (FileStream file = new FileStream(dataDir + "sample.png", FileMode.Open, F
     result = api.RecognizeImage(ms);
 }
 ```
+Burada **sample.png** dosyasını açıyoruz, baytlarını bir `MemoryStream`'e kopyalıyoruz ve bu akışı `RecognizeImage`'a gönderiyoruz. Bu, tek bir akışta **image stream ocr** ve **read image stream c#** desenini gösterir.
 
-Bu adım, görüntü dosyasını belirtilen yoldan açmayı, onu bir MemoryStream'e dönüştürmeyi ve ardından metni tanımak için AsposeOcr örneğini kullanmayı içerir.
-
-## Adım 4: Tanınan Metni Görüntüleyin
-
+### Adım 4: Tanınan Metni Görüntüle
 ```csharp
-// Tanınan metni görüntüle
+// Display the recognized text
 Console.WriteLine(result);
 ```
+OCR sonucu konsola yazdırılır; ayrıca bir veritabanına veya dosyaya kaydedebilirsiniz.
 
-Tanınan metni konsola gönderin veya gerektiği gibi saklayın.
-
-## Adım 5: Yürütme Başarı Mesajı
-
+### Adım 5: Başarılı Çalışmayı Onaylayın
 ```csharp
 Console.WriteLine("RecognizeImageFromStream executed successfully");
 ```
+Basit bir onay, işlemin istisna olmadan tamamlandığını bildirir.
 
-Görüntü tanıma işleminin başarıyla yürütüldüğünü gösteren bir onay mesajı sağlayın.
+## Yaygın Sorunlar ve Çözümler
 
-## Çözüm
+| Sorun | Çözüm |
+|-------|----------|
+| *Sonuç boş* | Görüntü yolunu doğrulayın, dosyanın okunabilir olduğundan emin olun ve görüntünün net, yüksek kontrastlı metin içerdiğini onaylayın. |
+| *Desteklenmeyen görüntü formatı* | `RecognizeImage` çağrısı öncesinde kaynağı PNG veya JPEG formatına dönüştürün. |
+| *Lisans istisnası* | Geliştirme sırasında geçici bir lisans uygulayın veya üretim için tam bir lisans satın alın (aşağıya bakın). |
 
-Tebrikler! Resimlerdeki metinleri tanımak için Aspose.OCR for .NET'in gücünden başarıyla yararlandınız. Bu kitaplığın entegrasyon kolaylığı ve sağlamlığı, onu .NET uygulamalarınızdaki OCR görevleri için başvurulacak bir çözüm haline getirir.
+## Sıkça Sorulan Sorular
 
-## SSS'ler
+**Q: Aspose.OCR birden fazla dili işleyebilir mi?**  
+A: Evet, Aspose.OCR geniş bir dil yelpazesini destekler, bu da küresel OCR projeleri için uygundur.
 
-### S1: Aspose.OCR birden fazla dili destekleyebilir mi?
+**Q: Kullanabileceğim bir deneme sürümü var mı?**  
+A: Kesinlikle! Aspose.OCR for .NET'i ücretsiz deneme sürümüyle [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
 
-Cevap1: Evet, Aspose.OCR çok çeşitli dilleri destekliyor, bu da onu çeşitli OCR gereksinimleri için çok yönlü hale getiriyor.
+**Q: Sorun yaşarsam nereden yardım alabilirim?**  
+A: Topluluk ve uzman desteği için [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) adresini ziyaret edin.
 
-### S2: Deneme sürümü mevcut mu?
+**Q: Test için geçici bir lisans nasıl alabilirim?**  
+A: Değerlendirme amaçlı geçici bir lisans [burada](https://purchase.aspose.com/temporary-license/) mevcuttur.
 
- A2: Kesinlikle! Aspose.OCR for .NET'i ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+**Q: Kalıcı bir lisansı nereden satın alabilirim?**  
+A: Aspose.OCR'yi üretim araç setinize eklemek için [satın alma sayfasına](https://purchase.aspose.com/buy) gidin.
 
-### S3: Aspose.OCR desteğini nasıl alabilirim?
+## Sonuç
 
- A3: Ziyaret edin[Aspose.OCR Forumu](https://forum.aspose.com/c/ocr/16) topluluktan ve uzmanlardan özel destek için.
+Artık Aspose OCR for .NET kullanarak bir akıştan **görüntü metni çıkarma** konusunda uzmanlaştınız. Kısa API, **ocr png file** gibi herhangi bir desteklenen görüntüyü sadece birkaç kod satırıyla aranabilir metne dönüştürmenizi sağlar. Farklı görüntü kaynakları, dil paketleri ve gelişmiş ayarlarla deney yaparak OCR çıktısını belirli senaryonuza göre ince ayar yapın.
 
-### S4: Geçici lisans alabilir miyim?
+---
 
- Cevap4: Evet, geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) test amaçlı.
+**Son Güncelleme:** 2026-04-12  
+**Test Edilen Versiyon:** Aspose.OCR 24.12 for .NET  
+**Yazar:** Aspose  
 
-### S5: Aspose.OCR for .NET'i nereden satın alabilirim?
-
- Cevap5: Aspose.OCR'ı araç setinizin kalıcı bir parçası haline getirmek için şu adresi ziyaret edin:[satın alma sayfası](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
