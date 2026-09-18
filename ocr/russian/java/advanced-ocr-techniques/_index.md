@@ -61,6 +61,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Расширьте возможности своих Java-приложений с помощью Aspose.OCR для точного распознавания текста. Простая интеграция, высокая точность.
 ### [Указание разрешенных символов в Aspose.OCR](./specify-allowed-characters/)
 Легко разблокируйте извлечение текста из изображений с помощью Aspose.OCR для Java. Следуйте нашему пошаговому руководству для эффективной интеграции.
+### [Как использовать OCR с ускорением GPU в Java – пошаговое руководство](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Узнайте, как ускорить OCR с помощью GPU в Java, следуя пошаговым инструкциям для повышения производительности.
+### [Уменьшение шума изображения в OCR с Aspose – Полное руководство Java](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Узнайте, как уменьшить шум изображения при OCR с помощью Aspose в Java, следуя пошаговым инструкциям для повышения точности распознавания.
+### [Распознавание текста с изображения с помощью Aspose OCR – Полное руководство Java](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+
 ### [Как включить GPU для OCR – Быстрое извлечение текста из изображений](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Узнайте, как активировать GPU в Aspose.OCR для ускоренного извлечения текста из изображений.
 ### [Как выполнять OCR на больших документах – Полное руководство по Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
@@ -77,6 +83,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Узнайте, как выполнять параллельное распознавание изображений в Java с помощью Aspose.OCR, повышая скорость обработки.
 ### [Извлечение текста из изображения Java – Полное руководство по OCR с исправлением орфографии](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

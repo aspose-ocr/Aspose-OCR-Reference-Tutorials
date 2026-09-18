@@ -23,7 +23,7 @@ Aspose.OCR for Java mění hru, pokud jde o optické rozpoznávání znaků (OCR
 
 ## [Provádění OCR na BufferedImage v Aspose.OCR pro Java](./perform-ocr-buffered-image/)
 
-tomto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
+tomuto tutoriálu vás provedeme procesem provádění OCR na BufferedImage pomocí Aspose.OCR for Java. Naučte se, jak bez námahy extrahovat text z obrázků, a zajistit tak všestranné rozpoznávání textu. Stáhněte si nyní a vylepšete své Java aplikace.
 
 ## [Provádění OCR na obrázku z URL v Aspose.OCR pro Java](./perform-ocr-image-from-url/)
 
@@ -45,6 +45,9 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
 
+### [Jak používat OCR s GPU akcelerací v Javě – krok za krokem průvodce](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Využijte GPU akceleraci pro rychlé OCR v Javě. Tento podrobný průvodce ukazuje, jak implementovat a optimalizovat rozpoznávání textu s vysokou rychlostí.
+
 ## Závěr
 
 Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
@@ -61,6 +64,10 @@ Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle n
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce pro Javu](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Kompletní průvodce rozpoznáváním textu z obrázků v Javě pomocí Aspose OCR. Snadná integrace a vysoká přesnost.
+### [Snížení šumu obrazu v OCR pomocí Aspose – kompletní průvodce pro Javu](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Kompletní průvodce snižováním šumu obrazu pro přesnější OCR v Javě pomocí Aspose.
 ### [Jak povolit GPU pro OCR – Rychlé získávání textu z obrázků](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Zrychlete OCR aktivací GPU a rychle extrahujte text z obrázků ve svých Java aplikacích.
 ### [Jak spustit OCR na velkých dokumentech – Kompletní průvodce pro Javu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
@@ -80,6 +87,12 @@ Kompletní průvodce OCR v Javě pro extrakci textu z obrázků s vysokou přesn
 ### [Extrahovat text z obrázku Java – Kompletní OCR průvodce s korekcí pravopisu](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Kompletní průvodce OCR v Javě, který kromě extrakce textu z obrázků zahrnuje i automatickou korekci pravopisu.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -61,6 +61,13 @@ Libérez la puissance de la reconnaissance de texte avec Aspose.OCR pour Java. S
 Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Intégration facile, haute précision.
 ### [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
 Débloquez l'extraction de texte à partir d'images de manière transparente avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace.
+### [Comment utiliser l'OCR avec accélération GPU en Java – Guide étape par étape](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Utilisez l'OCR avec l'accélération GPU en Java pour une extraction de texte ultra‑rapide. Suivez notre guide étape par étape.
+### [Reconnaître le texte d'une image avec Aspose OCR – Guide complet Java](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Apprenez à extraire du texte d'une image en Java avec Aspose OCR grâce à un guide complet et détaillé.
+### [Réduire le bruit d'image dans l'OCR avec Aspose – Guide complet Java](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Apprenez à diminuer le bruit des images pour améliorer la précision OCR avec Aspose en Java. Guide complet étape par étape.
+
 ### [Comment activer le GPU pour l'OCR – Extraction rapide de texte à partir d'images](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Accélérez l'extraction de texte en activant le GPU avec Aspose.OCR pour Java. Suivez notre guide pas à pas pour une performance optimale.
 ### [Comment exécuter l'OCR sur de grands documents – Guide complet Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
@@ -78,6 +85,12 @@ Apprenez à reconnaître du texte à partir d'images en Java en utilisant l'OCR 
 ### [Extraire du texte à partir d'une image Java – Guide complet OCR avec correction orthographique](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Apprenez à extraire du texte d'images en Java avec un guide complet incluant la correction orthographique.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
