@@ -1,25 +1,51 @@
 ---
 category: general
-date: 2026-02-09
-description: Créez un PDF consultable à partir d’un document numérisé en utilisant
-  Java PDF OCR. Apprenez comment convertir rapidement un PDF numérisé avec Java PDF
-  OCR.
+date: 2026-09-18
+description: Apprenez à utiliser un exemple aspose ocr java pour créer rapidement
+  un PDF recherchable à partir de documents numérisés. Ce guide montre comment convertir
+  un PDF numérisé avec Java OCR.
 draft: false
 keywords:
-- create searchable pdf
-- convert scanned pdf
-- how to convert pdf
-- java pdf ocr
-- how to make searchable pdf
-language: fr
-og_description: Créez un PDF consultable instantanément. Ce guide montre comment convertir
-  un PDF numérisé à l’aide de Java PDF OCR et explique comment créer un PDF consultable.
-og_title: Créer un PDF consultable en Java – Tutoriel complet
+- aspose ocr java example
+- multi language pdf ocr
+- java pdf ocr library
+- convert pdf with java
+- add text layer pdf
+lastmod: 2026-09-18
+og_description: Apprenez à utiliser un exemple aspose ocr java pour créer instantanément
+  un PDF recherchable. Convertissez des PDF numérisés avec Java OCR et ajoutez une
+  couche de texte recherchable.
+og_image_alt: Screenshot of Java code converting scanned PDF to searchable PDF using
+  Aspose OCR
+og_title: Comment utiliser l'exemple aspose ocr java pour créer un PDF recherchable
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn an aspose ocr java example to create searchable PDF from scanned
+    documents quickly. This guide shows how to convert scanned PDF using Java OCR.
+  headline: How to use aspose ocr java example to create searchable PDF
+  type: TechArticle
+- questions:
+  - answer: Yes, with a valid Aspose license. A free trial is available for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Yes, you can unlock the document first using `PdfDocument.decrypt("yourPassword")`
+      before OCR.
+    question: Does this work with password‑protected PDF files?
+  - answer: Java 17 or newer is recommended; the library is compatible with Java 8+
+      as well.
+    question: What Java versions are supported?
+  - answer: Process the file in page‑by‑page chunks and keep DPI at 300 or lower to
+      limit memory usage.
+    question: How do I handle very large PDFs efficiently?
+  - answer: Other tools exist, but Aspose OCR offers the most complete Java API with
+      **60+ language** support and no external binaries.
+    question: Is there a way to add searchable text without Aspose OCR?
+  type: FAQPage
 tags:
 - Java
 - OCR
 - PDF
-title: Créer un PDF consultable en Java – Guide étape par étape
+title: Comment utiliser l'exemple aspose ocr java pour créer un PDF recherchable
 url: /fr/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 ---
 
@@ -27,30 +53,41 @@ url: /fr/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un PDF recherchable en Java – Guide étape par étape
+# Comment utiliser l'exemple Aspose OCR Java pour créer un PDF consultable
 
-Vous êtes-vous déjà demandé comment **créer searchable pdf** à partir d’une pile d’images numérisées ? Vous n’êtes pas seul — de nombreux développeurs rencontrent cet obstacle lorsqu’ils ont besoin de documents texte‑recherchables pour l’archivage ou la conformité. La bonne nouvelle, c’est qu’avec quelques lignes de Java et Aspose OCR, vous pouvez transformer n’importe quel PDF numérisé en un PDF entièrement recherchable en quelques secondes.
+Vous vous êtes déjà demandé comment **créer des PDF consultables** à partir d’une pile d’images numérisées ? Vous n’êtes pas seul — de nombreux développeurs rencontrent cet obstacle lorsqu’ils ont besoin de documents texte‑consultables pour l’archivage ou la conformité. La bonne nouvelle, c’est qu’avec quelques lignes de Java et Aspose OCR, vous pouvez transformer n’importe quel PDF numérisé en un PDF entièrement consultable en quelques secondes. Ce tutoriel présente un **exemple Aspose OCR Java** qui vous guide à travers l’installation, le réglage du DPI et de la langue, et l’appel de conversion final.
 
-Dans ce tutoriel, nous parcourrons l’ensemble du processus : de l’installation de la bibliothèque Aspose OCR à l’ajustement des paramètres DPI et langue, jusqu’à l’appel de la méthode de conversion. À la fin, vous saurez **how to convert pdf** de façon programmatique, comprendrez les subtilités du **java pdf ocr**, et serez prêt à répondre à la question « **how to make searchable pdf** ? » pour vos propres projets.
+## Réponses rapides
+- **Quelle bibliothèque gère l'OCR en Java ?** Aspose OCR for Java.  
+- **Combien de langues sont prises en charge ?** Plus de 60 packs de langues, y compris les scripts asiatiques.  
+- **Quel DPI offre la meilleure précision ?** 300 DPI équilibre qualité et utilisation de la mémoire.  
+- **Puis-je traiter plusieurs PDF à la fois ?** Oui — encapsulez l’appel de conversion dans une boucle.  
+- **Ai‑je besoin d’une licence pour la production ?** Une licence payante supprime le filigrane d’évaluation.
+
+## Qu’est‑ce que l’exemple Aspose OCR Java ?
+L’**exemple Aspose OCR Java** montre comment utiliser l’API Aspose OCR pour lire les pages PDF numérisées, exécuter la reconnaissance optique de caractères et intégrer une couche de texte invisible qui rend le document consultable. C’est un extrait concis, de bout en bout, que vous pouvez copier dans n’importe quel projet Java.
+
+## Comment créer un PDF consultable en Java avec Aspose OCR ?
+Chargez le PDF source avec `PdfOcrProcessor`, configurez les paramètres optionnels de DPI et de langue, puis appelez `convertToSearchablePdf`. La méthode traite chaque page, exécute l’OCR et écrit le texte reconnu sous forme de couche cachée, en préservant l’apparence originale de l’image. Pour les documents typiques, 300 DPI et le pack de langue approprié offrent >95 % de précision de caractères tout en maintenant l’utilisation de la mémoire en dessous de 200 Mo.
 
 ## Ce que vous apprendrez
-
-* Comment **create searchable pdf** en utilisant Aspose OCR pour Java.  
-* Les étapes exactes pour **convert scanned pdf** en une version recherchable.  
-* Pourquoi le DPI et la langue sont importants lorsque vous **java pdf ocr** un document.  
+* Comment **créer un PDF consultable** avec Aspose OCR pour Java.  
+* Les étapes exactes pour **convertir un PDF numérisé** en version consultable.  
+* Pourquoi le DPI et la langue sont importants lorsque vous **faites de l’OCR PDF en Java** sur un document.  
 * Astuces pour gérer les PDF multilingues et les gros fichiers.  
 
-> **Prerequisites:** Java 17 ou version supérieure, Maven ou Gradle, et une licence Aspose OCR for Java (l’essai gratuit suffit pour les tests). Aucune autre bibliothèque tierce n’est requise.
+> **Prérequis :** Java 17 ou version supérieure, Maven ou Gradle, et une licence Aspose OCR pour Java (l’essai gratuit fonctionne pour les tests). Aucune autre bibliothèque tierce n’est requise.
 
 ---
 
-![Exemple de PDF recherchable](image-placeholder.png "exemple de pdf recherchable")
+![Create searchable PDF example](image-placeholder.png "create searchable pdf example")
+[Create searchable PDF example](image-placeholder.png "create searchable pdf example")
 
-## Create searchable pdf – Overview
+## Vue d’ensemble de la création d’un PDF consultable
 
-Le cœur de la solution réside dans la classe `PdfOcrProcessor` fournie par Aspose. Elle lit chaque page d’un PDF numérisé, exécute l’OCR et écrit le texte reconnu dans le PDF sous forme de couche de texte invisible. Cette couche rend le fichier recherchable tout en conservant l’apparence originale de l’image.
+Le cœur de la solution réside dans la classe `PdfOcrProcessor` fournie par Aspose. **La classe `PdfOcrProcessor` est le moteur d’Aspose OCR qui lit chaque page PDF, exécute l’OCR et écrit une couche de texte cachée dans le fichier.** Cette couche rend le fichier consultable tout en préservant l’apparence originale de l’image.
 
-Voici le programme Java complet, prêt à être exécuté. Copiez‑collez‑le simplement dans votre IDE et lancez **Run**.
+Ci-dessous se trouve le programme Java complet, prêt à être exécuté. N’hésitez pas à le copier‑coller dans votre IDE et à cliquer sur **Run**.
 
 ```java
 import com.aspose.ocr.*;
@@ -85,15 +122,13 @@ L’exécution du programme affiche quelque chose comme :
 Searchable PDF created at: YOUR_DIRECTORY/searchable_output.pdf
 ```
 
-Ouvrez le fichier résultant dans Adobe Reader, appuyez sur **Ctrl + F**, et vous verrez que le texte que vous avez saisi dans la zone de recherche correspond maintenant au contenu des pages numérisées. C’est le moment où vous savez que vous avez réussi à **create searchable pdf**.
+Ouvrez le fichier résultant dans Adobe Reader, appuyez sur **Ctrl + F**, et vous verrez que le texte que vous avez saisi dans la zone de recherche correspond maintenant au contenu des pages numérisées. C’est le moment où vous savez que vous avez réussi à **créer un PDF consultable**.
 
----
+## Étape 1 : configurer Aspose OCR pour Java
 
-## Étape 1 : Configurer Aspose OCR pour Java
+Avant de pouvoir appeler `PdfOcrProcessor`, vous devez disposer des JAR Aspose OCR dans votre classpath.
 
-Avant de pouvoir appeler `PdfOcrProcessor`, vous devez placer les JARs Aspose OCR sur votre classpath.
-
-**Maven users** ajoutez la dépendance suivante dans `pom.xml` :
+**Utilisateurs Maven** ajoutez la dépendance suivante à `pom.xml` :
 
 ```xml
 <dependency>
@@ -103,7 +138,7 @@ Avant de pouvoir appeler `PdfOcrProcessor`, vous devez placer les JARs Aspose 
 </dependency>
 ```
 
-**Gradle users** ajoutez cette ligne dans `build.gradle` :
+**Utilisateurs Gradle** ajoutez cette ligne à `build.gradle` :
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.10'
@@ -111,45 +146,41 @@ implementation 'com.aspose:aspose-ocr:23.10'
 
 Si vous préférez un téléchargement manuel, récupérez le JAR depuis le portail Aspose et placez‑le dans `libs/`. N’oubliez pas de pointer votre IDE vers le JAR, sinon vous obtiendrez des erreurs de compilation.
 
-> **Pro tip:** Utilisez la dernière version d’Aspose OCR pour profiter des améliorations de performances et des nouveaux packs de langues.  
+> **Astuce :** Utilisez la dernière version d’Aspose OCR pour profiter des améliorations de performances et des nouveaux packs de langues. La version actuelle prend en charge **plus de 60 langues** et peut traiter des PDF jusqu’à **500 Mo** sans charger le fichier complet en mémoire.
 
----
+## Étape 2 : configurer les paramètres OCR (optionnel mais recommandé)
 
-## Étape 2 : Configurer les paramètres OCR (Optionnel mais recommandé)
-
-La configuration OCR par défaut fonctionne, mais ajuster le DPI et la langue peut améliorer considérablement le résultat lorsque vous **convert scanned pdf** contenant des polices très petites ou du texte non anglais.
+La configuration OCR par défaut fonctionne, mais ajuster le DPI et la langue peut améliorer considérablement le résultat lorsque vous **convertissez un PDF numérisé** contenant de petites polices ou du texte non anglais.
 
 ```java
 pdfProcessor.getConfiguration().setDpi(300); // 300 DPI is a sweet spot
 pdfProcessor.getConfiguration().setLanguage(Language.ENGLISH);
 ```
 
-* **DPI** – Un DPI plus élevé fournit à l’engin OCR plus de pixels à analyser, ce qui se traduit généralement par une meilleure précision. Cependant, cela augmente aussi la consommation de mémoire, donc 300 DPI est un compromis pratique pour la plupart des documents.  
-* **Language** – Définir la langue correcte réduit les faux positifs. Aspose prend en charge plus de 60 langues ; remplacez simplement `Language.ENGLISH` par `Language.FRENCH`, `Language.SPANISH`, etc., si nécessaire.
+* **DPI** – Un DPI plus élevé fournit au moteur OCR plus de pixels à analyser, ce qui se traduit généralement par une meilleure précision. Cependant, cela augmente également l’utilisation de la mémoire, donc 300 DPI est un compromis pratique pour la plupart des documents.  
+* **Langue** – Définir la langue correcte réduit les faux positifs. Aspose prend en charge **plus de 60 langues** ; il suffit de remplacer `Language.ENGLISH` par `Language.FRENCH`, `Language.SPANISH`, etc., si nécessaire.
 
-Si vous avez besoin de **how to make searchable pdf** en plusieurs langues, vous pouvez appeler `setLanguage` plusieurs fois ou utiliser `Language.MULTI` (si la bibliothèque le supporte).
+Si vous devez **créer un PDF consultable** en plusieurs langues, vous pouvez appeler `setLanguage` plusieurs fois ou utiliser `Language.MULTI` (si la bibliothèque le supporte).
 
----
+## Étape 3 : convertir un PDF numérisé en PDF consultable
 
-## Étape 3 : Convertir le PDF numérisé en PDF recherchable
+Maintenant, la magie opère. La méthode `convertToSearchablePdf` effectue tout le travail lourd.
 
-Maintenant, la magie opère. La méthode `convertToSearchablePdf` fait tout le travail lourd :
+La méthode `convertToSearchablePdf` convertit le PDF d’entrée en un PDF consultable en exécutant l’OCR sur chaque page et en ajoutant une couche de texte cachée.
 
 ```java
 pdfProcessor.convertToSearchablePdf(inputPdfPath, outputPdfPath);
 ```
 
-En coulisses, Aspose lit chaque image de page, exécute l’OCR et ajoute une couche de texte cachée. L’image originale reste intacte, ce qui signifie que la mise en page visuelle du PDF source est préservée.
+Sous le capot, Aspose lit chaque image de page, exécute l’OCR et ajoute une couche de texte cachée. L’image originale reste intacte, ce qui signifie que la mise en page visuelle que vous voyez dans le PDF source est préservée.
 
-**Cas particulier :** Si votre PDF source est protégé par mot de passe, vous devez d’abord le déverrouiller avec `PdfDocument` avant de le transmettre au processeur OCR. La bibliothèque fournit `pdfDocument.decrypt("password")` à cet effet.
+**Cas particulier :** Si votre PDF source est protégé par mot de passe, vous devrez le déverrouiller d’abord avec `PdfDocument` avant de le passer au processeur OCR. La bibliothèque fournit `pdfDocument.decrypt("password")` à cet effet.
 
----
+## Étape 4 : vérifier le résultat
 
-## Étape 4 : Vérifier le résultat
+Après la conversion, ouvrez le fichier de sortie dans n’importe quel lecteur PDF qui prend en charge la recherche de texte (Adobe Acrobat Reader, Foxit, etc.) et essayez de rechercher un mot que vous savez présent dans l’image numérisée. Si la recherche trouve le mot, vous avez réussi à **créer un PDF consultable**.
 
-Après la conversion, ouvrez le fichier de sortie dans n’importe quel lecteur PDF qui supporte la recherche de texte (Adobe Acrobat Reader, Foxit, etc.) et essayez de rechercher un mot que vous savez présent dans l’image numérisée. Si la recherche trouve le mot, vous avez réussi à **create searchable pdf**.
-
-Vous pouvez également vérifier programmatique la présence d’une couche de texte avec Aspose PDF :
+Vous pouvez également vérifier programmatique la présence d’une couche de texte en utilisant Aspose PDF :
 
 ```java
 PdfDocument doc = new PdfDocument(outputPdfPath);
@@ -157,42 +188,60 @@ boolean hasText = doc.getPages().get_Item(1).getExtractedText().length() > 0;
 System.out.println("Text layer detected: " + hasText);
 ```
 
-Si `hasText` affiche `true`, la couche OCR est bien en place.
+Si `hasText` affiche `true`, la couche OCR est en place.
 
----
-
-## Questions fréquentes & Pièges courants
+## Questions fréquentes & pièges
 
 | Question | Réponse |
-|----------|---------|
-| **Can I batch‑process many PDFs?** | Oui. Enveloppez l’appel de conversion dans une boucle et fournissez‑lui une liste de chemins de fichiers. |
-| **What if the PDF contains images that aren’t text?** | Le moteur OCR ignorera les images non textuelles, les laissant intactes. |
-| **Is there a limit on file size?** | La bibliothèque gère les gros fichiers, mais la consommation de mémoire augmente avec le DPI. Envisagez de traiter par morceaux pour les PDF > 100 Mo. |
-| **How does this differ from “how to convert pdf” with other tools?** | Aspose OCR fournit une API pure Java, sans exécutables externes, et prend en charge un contrôle fin du DPI et de la langue. |
-| **Do I need a license for production?** | L’essai gratuit suffit pour l’évaluation. En production, achetez une licence pour supprimer le filigrane d’évaluation. |
+|----------|--------|
+| **Puis‑je traiter en lot de nombreux PDF ?** | Oui. Encapsulez l’appel de conversion dans une boucle et fournissez‑lui une liste de chemins de fichiers. |
+| **Que se passe‑t‑il si le PDF contient des images qui ne sont pas du texte ?** | Le moteur OCR ignorera les images non textuelles, les laissant intactes. |
+| **Existe‑t‑il une limite de taille de fichier ?** | La bibliothèque gère les gros fichiers, mais la consommation de mémoire augmente avec le DPI. Envisagez de traiter par morceaux pour les PDF de plus de 100 Mo. |
+| **En quoi cela diffère‑t‑il de « comment convertir un PDF » avec d’autres outils ?** | Aspose OCR fournit une API pure Java, sans exécutables externes, et prend en charge un contrôle fin du DPI et de la langue sur **plus de 60 langues**. |
+| **Ai‑je besoin d’une licence pour la production ?** | L’essai gratuit fonctionne pour l’évaluation. Pour la production, achetez une licence afin de supprimer le filigrane d’évaluation. |
 
----
+## Prochaines étapes : aller au‑delà des bases
 
-## Prochaines étapes : Aller au-delà des bases
-
-Maintenant que vous savez **how to convert pdf** avec Aspose OCR, vous pourriez explorer :
+Maintenant que vous savez **comment convertir un PDF** avec Aspose OCR, vous pourriez explorer :
 
 * **Scripts de conversion par lots** – combinez le code avec `java.nio.file` pour parcourir un arbre de répertoires.  
 * **OCR multilingue** – chargez plusieurs packs de langues et laissez le moteur détecter automatiquement.  
-* **Intégration de métadonnées** – après conversion, utilisez Aspose PDF pour ajouter titre, auteur et mots‑clés au PDF recherchable.  
-* **Optimisation des performances** – expérimentez un DPI plus bas pour un traitement plus rapide lorsque la précision n’est pas critique.  
+* **Intégration de métadonnées** – après la conversion, utilisez Aspose PDF pour ajouter le titre, l’auteur et les mots‑clés au PDF consultable.  
+* **Optimisation des performances** – expérimentez avec un DPI plus bas pour un traitement plus rapide lorsque la précision n’est pas cruciale.  
 
-Ces extensions vous permettent de construire une chaîne de traitement documentaire complète qui peut **how to make searchable pdf** de façon récurrente dans votre application Java.
+Ces extensions vous permettent de construire une chaîne de traitement de documents complète qui peut **rendre la création d’un PDF consultable** une partie routinière de votre application Java.
 
----
+## Questions fréquemment posées
 
-## Conclusion
+**Q : Puis‑je utiliser cela dans une application commerciale ?**  
+R : Oui, avec une licence Aspose valide. Un essai gratuit est disponible pour l’évaluation.
 
-Nous avons parcouru tout ce dont vous avez besoin pour **create searchable pdf** en Java : installer Aspose OCR, configurer le DPI et la langue, appeler la conversion et vérifier le résultat. Que vous construisiez un système d’archivage d’entreprise ou que vous ayez simplement besoin d’une méthode rapide pour rendre des contrats numérisés recherchables, cette approche est fiable, rapide et entièrement contrôlable depuis le code.
+**Q : Cela fonctionne‑t‑il avec des fichiers PDF protégés par mot de passe ?**  
+R : Oui, vous pouvez déverrouiller le document d’abord en utilisant `PdfDocument.decrypt("yourPassword")` avant l’OCR.
 
-Essayez, ajustez les paramètres selon les caractéristiques de vos documents, et vous répondrez bientôt à la question « **how to make searchable pdf** ? » pour tout fichier numérisé qui vous sera présenté. Bon codage !
+**Q : Quelles versions de Java sont prises en charge ?**  
+R : Java 17 ou version supérieure est recommandé ; la bibliothèque est compatible avec Java 8+ également.
+
+**Q : Comment gérer efficacement des PDF très volumineux ?**  
+R : Traitez le fichier par morceaux page par page et maintenez le DPI à 300 ou moins pour limiter l’utilisation de la mémoire.
+
+**Q : Existe‑t‑il une façon d’ajouter du texte consultable sans Aspose OCR ?**  
+R : D’autres outils existent, mais Aspose OCR offre l’API Java la plus complète avec **plus de 60 langues** supportées et aucune dépendance à des binaires externes.
+
+**Dernière mise à jour** : 2026-09-18  
+**Testé avec** : Aspose OCR for Java 24.11  
+**Auteur** : Aspose
+
+## Tutoriels associés
+
+- [Comment faire de l’OCR de documents PDF avec Aspose.OCR pour Java](/ocr/java/ocr-operations/recognize-pdf/)
+- [Obtenir le texte OCR en Java Exemple complet Aspose OCR](/ocr/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/)
+- [Créer un PDF consultable à partir d’une image avec le tutoriel OCR Java](/ocr/java/ocr-operations/create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

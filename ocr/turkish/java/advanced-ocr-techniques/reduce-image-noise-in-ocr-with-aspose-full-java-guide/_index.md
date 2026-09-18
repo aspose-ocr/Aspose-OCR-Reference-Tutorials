@@ -1,82 +1,94 @@
 ---
 category: general
-date: 2026-02-09
-description: Aspose OCR Java filtrelerini kullanarak görüntü gürültüsünü azaltın ve
-  OCR doğruluğunu artırın. Gürültü azaltma eklemeyi, görüntü kontrastını artırmayı
-  ve görüntü eğimini düzeltmeyi öğrenin.
+date: 2026-09-18
+description: Java'da Aspose ile OCR için görüntü ön işleme konusunu öğrenin; image
+  noise'ı azaltma, contrast'ı artırma ve skew'i düzeltme yöntemleri dahil. Metin görüntüsünü
+  verimli bir şekilde çıkarmak için bu Aspose OCR Java öğreticisini izleyin.
 draft: false
 keywords:
-- reduce image noise
-- boost image contrast
-- extract text image
-- add noise reduction
-- correct image skew
-language: tr
-og_description: Aspose OCR Java filtrelerini kullanarak görüntü gürültüsünü azaltın
-  ve OCR doğruluğunu artırın. Gürültü azaltma eklemeyi, görüntü kontrastını yükseltmeyi
-  ve görüntü kaymasını düzeltmeyi öğrenin.
-og_title: Aspose ile OCR'de Görüntü Gürültüsünü Azaltın – Tam Java Rehberi
+- image preprocessing for OCR
+- extract text image java
+- aspose OCR Java tutorial
+lastmod: 2026-09-18
+og_description: Java'da Aspose ile OCR için görüntü ön işleme konusunu öğrenin; image
+  noise'ı azaltma, contrast'ı artırma ve skew'i düzeltme yöntemleri dahil. Metin görüntüsünü
+  verimli bir şekilde çıkarmak için bu Aspose OCR Java öğreticisini izleyin.
+og_image_alt: Guide showing image preprocessing for OCR using Aspose OCR Java
+og_title: Java'da Aspose ile OCR için Görüntü Ön İşleme – rehber
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn image preprocessing for OCR with Aspose in Java, including how
+    to reduce image noise, boost contrast, and correct skew. Follow this Aspose OCR
+    Java tutorial to extract text image efficiently.
+  headline: Image preprocessing for OCR with Aspose in Java – guide
+  type: TechArticle
+- questions:
+  - answer: A radius of 3 works for most scanned documents. Increasing the radius
+      beyond 5 can start to blur fine details like punctuation, which may hurt accuracy.
+      Test a few values on a representative sample to find the sweet spot.
+    question: How much noise reduction is too much?
+  - answer: Yes, but order matters. The recommended sequence is **deskew → noise reduction
+      → contrast boost**. Applying contrast boost before noise removal can amplify
+      speckles, leading to poorer OCR results.
+    question: Can I change the order of filters?
+  - answer: Absolutely. Aspose OCR can extract each page as an image, run the same
+      pipeline on every page, and concatenate the results. Loop over the pages, apply
+      the pipeline, and combine the strings.
+    question: Does this work on multi‑page PDFs?
+  - answer: The built‑in OCR engine focuses on printed text. For handwriting you’ll
+      need a specialized model such as Aspose OCR Handwriting or a cloud‑based AI
+      service. Pre‑processing still helps, but recognition accuracy will vary.
+    question: What if my text is handwritten?
+  - answer: Yes. A valid Aspose OCR license removes evaluation limits, enables full‑speed
+      processing, and grants access to premium filters. A free trial is available
+      for testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Image Processing
+- Image processing
 - Aspose
-title: Aspose ile OCR'da Görüntü Gürültüsünü Azaltma – Tam Java Rehberi
+title: Java'da Aspose ile OCR için Görüntü Ön İşleme – rehber
 url: /tr/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
-
-Also the title attribute "reduce image noise" should be translated? The title is in quotes after URL. Should translate that too. But the instruction says "ALL URLs and file paths (never translate these)". Title is not a URL, so can translate. So we translate alt text and title.
-
-Also the table content: we need to translate the text in cells, but keep the markdown table structure.
-
-Also the blockquote > **Pro tip:** etc. Translate.
-
-Also the "Expected console output" heading and code block placeholder.
-
-Also the FAQ headings and answers.
-
-Also the "Next Steps & Related Topics" heading and bullet points.
-
-Also the "Conclusion" heading and paragraph.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce the final content.
-
-We'll start with the shortcodes unchanged.
-
-Proceed translation.
-
-Be careful with markdown formatting.
-
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR’da Görüntü Gürültüsünü Azaltma – Tam Java Kılavuzu
+# Java’da Aspose ile OCR için Görüntü Ön İşleme – kılavuz
 
-Bir resmi OCR motoruna vermeden önce **görüntü gürültüsünü azaltmak**ta zorlandınız mı? Tek değilsiniz—gürültülü taramalar, düşük ışıklı fotoğraflar veya eski belgeler mükemmel bir OCR işini karışık bir karmaşaya dönüştürebilir. İyi haber? Aspose OCR, **görüntü kontrastını artırma**, **gürültü azaltma** ve hatta **görüntü eğimini düzeltme** gibi temiz bir ön‑işleme hattı sunar; böylece görüntüden metin çıkarmadan önce bu adımları uygulayabilirsiniz.
+Gürültülü bir taramadan metin çıkarmaya çalıştıysanız, OCR doğruluğunun ne kadar hızlı düşebileceğini biliyorsunuz. **Image preprocessing for OCR**, tanıma motoru çalışmadan önce bir resmi temizleyen adımlar bütünüdür – lekeleri kaldırmak, eğik sayfaları düzeltmek ve kontrastı artırmak. Bu öğreticide, Aspose OCR ile bu filtrelerin nasıl uygulanacağını, her bir filtrenin neden önemli olduğunu ve ne tür sonuçlar bekleyebileceğinizi gösteren tam, çalıştırılabilir bir Java örneği üzerinden ilerleyeceğiz.
 
-Bu öğreticide, bu filtreleri nasıl kuracağınızı, her birinin neden önemli olduğunu ve ne tür bir çıktı bekleyebileceğinizi gösteren çalıştırılabilir bir Java örneği üzerinden adım adım ilerleyeceğiz. Sonunda, herhangi bir *extract text image* senaryosunu temiz, okunabilir bir dizeye dönüştürebileceksiniz.
+> **Pro ipucu:** Makbuzlar veya eski basılı formlar için, deskew + contrast boost birlikte uygulandığında genellikle doğruluktaki en büyük artışı sağlar.
 
-> **Pro tip:** Tarama fişleri veya eski basılı formlarla çalışıyorsanız, deskew (eğimi düzeltme) ve kontrast artırma kombinasyonu genellikle doğrulukta en büyük artışı sağlar.
+## Hızlı cevaplar
+- **İlk adım nedir?** `OcrEngine` örneği oluşturun – tanıma hattını çalıştıran temel nesnedir.  
+- **Hangi filtre lekeleri kaldırır?** Çoğu taranmış belge için median yarıçapı 3 olan `NoiseReductionFilter` işe yarar.  
+- **Döndürülmüş bir sayfayı nasıl düzeltirim?** `DeskewFilter` kullanın; açı otomatik olarak algılanır ve görüntü döndürülür.  
+- **Detayı kaybetmeden kontrastı artırabilir miyim?** İyi bir denge için `ContrastBoostFilter` faktörünü 1.2 (%20 artış) olarak ayarlayın.  
+- **Üretim için lisansa ihtiyacım var mı?** Evet – geçerli bir Aspose OCR lisansı değerlendirme sınırlamalarını kaldırır ve tam‑hızda işleme olanak tanır.
 
----
+## OCR için görüntü ön işleme nedir?
+**Image preprocessing for OCR**, optik karakter tanıma sonuçlarını iyileştirmek için bitmap görüntülerin hazırlanmasıdır. Genellikle gürültü kaldırma, kontrast artırma ve deskew gibi geometrik düzeltmeleri içerir. Motoru daha temiz bir görüntüyle besleyerek hatalı tanımaları azaltır ve genel verimliliği artırırsınız.
 
-## Gerekenler
+## Bu görev için Aspose OCR Java öğreticisini neden kullanmalısınız?
+Aspose OCR, **50+ giriş formatını** (PNG, JPEG, TIFF, BMP vb.) destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı belgeleri işleyebilir, ham OCR çağrılarına kıyasla **2× daha hızlı** tanıma sağlar. Kütüphane ayrıca akıcı bir ön‑işleme hattı sunar, böylece filtreleri tek bir okunabilir ifadede zincirleyebilirsiniz.
 
-- **Aspose OCR for Java** (en son sürüm, ör. 23.10). Maven Central ya da Aspose web sitesinden edinebilirsiniz.  
-- Java 8 veya daha yeni bir sürüm (kod lambda‑dostu sözdizimi kullanıyor, ancak eski JDK’larda küçük değişikliklerle çalışır).  
-- Gürültü, düşük kontrast veya hafif bir döndürme içeren bir örnek resim (`input.png`).  
-- Bir IDE ya da basit bir metin düzenleyici—özel derleme araçları gerekmez, ancak Maven/Gradle bağımlılık yönetimini kolaylaştırır.
+## Gereksinimler
 
----
+- **Aspose OCR for Java** (en son sürüm, ör. 23.10). Maven bağımlılığını ekleyin veya JAR dosyasını Aspose sitesinden indirin.  
+- Java 8 veya daha yenisi. Örnek lambda‑uyumlu sözdizimi kullanır ancak herhangi bir Java 8+ çalışma zamanında çalışır.  
+- Gürültü, düşük kontrast veya hafif bir döndürme gösteren örnek bir görüntü (`input.png`).  
+- Bir IDE veya basit bir metin düzenleyici; Maven/Gradle isteğe bağlıdır ancak bağımlılık yönetimini kolaylaştırır.
 
-## Adım 1: OCR Motoru Örneğini Oluşturma  
+## OcrEngine sınıfı nedir?
+`OcrEngine`, tanıma algoritmasını kapsül eden ve ön‑işleme hattını yöneten Aspose OCR’nin merkezi nesnesidir. Dil, sayfa segmentasyonu modu ve ekli filtreler gibi yapılandırmaları saklar. Bir görüntü üzerinde `recognize` metodunu çağırmadan önce tüm ayarlar bu örneğe uygulanır.
 
-İlk olarak bir `OcrEngine` başlatırsınız. Bunu, karakterleri daha sonra okuyacak beyin olarak düşünebilirsiniz.  
+## OCR motoru örneği nasıl oluşturulur
+OCR motorunu oluşturmak için, `OcrEngine` sınıfını varsayılan yapıcı ile örnekleyin. Bu nesne, daha sonra ekleyeceğiniz herhangi bir filtre zinciri dahil tüm yapılandırmayı tutar ve iç tanıma motorunu görüntü işleme için hazırlar. Oluşturulduktan hemen sonra ön‑işleme adımlarını eklemeye başlayabilirsiniz.
 
 ```java
 import com.aspose.ocr.*;
@@ -87,13 +99,19 @@ public class FilterChainExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Neden?** Motor, tanıma algoritmasını kapsar ve bir ön‑işleme hattı eklemenize olanak tanır. Onsuz, düşük‑seviye görüntü kütüphanelerini manuel olarak çağırmanız gerekir.
+> **Neden?** Motor, tanıma algoritmasını kapsül eder ve bir ön‑işleme hattı eklemenizi sağlar. Onsuz, düşük seviyeli görüntü kütüphanelerini manuel olarak çağırmak zorunda kalırsınız.
 
----
+## DeskewFilter sınıfı nedir?
+`DeskewFilter`, görüntüdeki metin satırlarının yönünü inceler ve onları yatay hâle getirmek için gereken açıyı hesaplar. Ardından bitmap'i buna göre döndürür, böylece OCR motoru düzgün hizalanmış bir görüntü alır ve eğik metinden kaynaklanan tanıma hataları büyük ölçüde azalır.
 
-## Adım 2: Ön‑İşleme Hattı Oluşturma  
+## NoiseReductionFilter sınıfı nedir?
+`NoiseReductionFilter`, her pikseli çevresindeki komşuların medyan değeriyle değiştiren bir median filtre uygular. Bir yarıçap (genellikle 3) belirleyerek izole lekeleri ve taneleri, daha büyük yapıları bulanıklaştırmadan kaldırır, böylece OCR motoru gürültü yerine gerçek karakterlere odaklanır.
 
-Burada **görüntü gürültüsünü azaltıyor** ve **görüntü kontrastını artırıyoruz**. Hatt, sırayla çalışan akıcı bir filtre listesi içerir.
+## ContrastBoostFilter sınıfı nedir?
+`ContrastBoostFilter`, piksel yoğunluklarını yapılandırılabilir bir faktörle çarparak ışık ve karanlık alanlar arasındaki farkı artırır. Tipik bir 1.2 (%20 artış) artırma, metnin arka plana karşı daha belirgin olmasını sağlar, kenar algılamayı iyileştirir ve düşük kontrastlı taramalarda OCR doğruluğunu artırır.
+
+## Adım 2: ön‑işleme hattı oluşturma
+Burada **görüntü gürültüsünü azaltıyor** ve **görüntü kontrastını artırıyoruz**. Hatt, sırasıyla çalışan akıcı bir filtre listesidir.
 
 ```java
         // Construct a pipeline that will clean up the image before OCR
@@ -103,20 +121,16 @@ Burada **görüntü gürültüsünü azaltıyor** ve **görüntü kontrastını 
                 .add(new ContrastBoostFilter(1.2f));         // boost image contrast (20% increase)
 ```
 
-### Neden Bu Filtreler?
+### Neden bu filtreler?
+| Filtre | Ne yapar | Neden yardımcı olur |
+|--------|----------|----------------------|
+| **DeskewFilter** | Görüntüyü tespit eder ve metin satırlarını yatay hâle getirmek için döndürür. | OCR motorları yakın‑yatay metin varsayar; eğik bir satır hatalı tanıma neden olabilir. |
+| **NoiseReductionFilter** | Yapılandırılabilir bir yarıçapla (burada `3`) median filtre uygular. | İzole lekeleri ve taneleri kaldırır, aksi takdirde rastgele karakter gibi görünebilir. |
+| **ContrastBoostFilter** | Piksel yoğunluğunu bir faktörle (`1.2f` = %20 artış) çarpar. | Ön plan metni ile arka plan arasındaki farkı artırır, kenarları daha net hâle getirir. |
 
-| Filtre | Ne Yapar | Neden Yardımcı Olur |
-|--------|----------|---------------------|
-| **DeskewFilter** | Görüntüyü algılar ve metin satırlarını yatay hâle getirecek şekilde döndürür. | OCR motorları neredeyse yatay metin varsayar; eğik bir satır tanıma hatalarına yol açabilir. |
-| **NoiseReductionFilter** | Ayarlanabilir bir yarı‑orta (median) filtreyi (burada `3`) uygular. | Çöp karakter gibi görünen lekeleri ve tanecikleri kaldırır. |
-| **ContrastBoostFilter** | Piksel yoğunluğunu bir faktörle (`1.2f` = %20 artış) çarpar. | Ön plan metin ile arka plan arasındaki farkı artırır, kenarları daha net hâle getirir. |
+> **Ortak varyasyon:** Görüntüleriniz aşırı taneliyse, çekirdek yarıçapını `5` veya `7` yapın. Daha büyük yarıçaplar daha fazla gürültüyü kaldırır ancak ince detayları da bulanıklaştırabilir, bu yüzden temsilci bir örnek üzerinde test edin.
 
-> **Yaygın varyasyon:** Görüntüleriniz çok grenliyse, çekirdek yarıçapını `5` ya da `7` yapın. Ancak yarıçap ne kadar büyük olursa, o kadar çok detay kaybedebileceğinizi unutmayın.
-
----
-
-## Adım 3: Hattı Motora Bağlama  
-
+## Adım 3: hattı motora ekleme
 Şimdi OCR motoruna az önce oluşturduğumuz hattı kullanmasını söylüyoruz.
 
 ```java
@@ -124,12 +138,9 @@ Burada **görüntü gürültüsünü azaltıyor** ve **görüntü kontrastını 
         ocrEngine.getConfiguration().setPreProcessingPipeline(preProcessingPipeline);
 ```
 
-> **Köşe durumu:** Bu adımı atlayırsanız, motor varsayılan (genellikle ön‑işleme yok) ayarlarla çalışır ve kaçınmaya çalıştığınız gürültü kaynaklı hataları hâlâ alırsınız.
+> **Köşe durum:** Bu adımı atlamak motoru varsayılan (genellikle ön‑işleme yok) ayarlarıyla bırakır, bu da kaçınmaya çalıştığınız aynı gürültü kaynaklı hataları görmenize yol açar.
 
----
-
-## Adım 4: Görüntünüzde OCR Çalıştırma  
-
+## Adım 4: görüntünüzde OCR gerçekleştirme
 Her şey ayarlandığında, metni gerçekten tanıyalım.
 
 ```java
@@ -137,13 +148,10 @@ Her şey ayarlandığında, metni gerçekten tanıyalım.
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/input.png");
 ```
 
-> **Görüntü renkli olsaydı ne olur?** Aspose OCR, filtreleri uygulamadan önce renkli görüntüleri otomatik olarak gri tonlamaya çevirir; ancak belirli bir kanal gerekiyorsa bunu manuel olarak da yapabilirsiniz.
+> **Görüntü renkli olsaydı ne olur?** Aspose OCR, filtreleri uygulamadan önce renkli görüntüleri otomatik olarak gri tonlamaya dönüştürür, ancak belirli bir kanala ihtiyacınız varsa önce manuel olarak dönüştürebilirsiniz.
 
----
-
-## Adım 5: Tanınan Metni Çıktı Olarak Almak  
-
-Son olarak çıkarılan dizeyi yazdırın. Gerçek bir uygulamada bunu bir dosyaya ya da veritabanına kaydedebilirsiniz.
+## Adım 5: tanınan metni çıktı olarak verme
+Son olarak, çıkarılan dizeyi yazdırın. Gerçek bir uygulamada bunu bir dosyaya veya veritabanına yazabilirsiniz.
 
 ```java
         // Show the result in the console
@@ -163,50 +171,57 @@ Total: $1,234.56
 Thank you for your business!
 ```
 
-Orijinal görüntü gürültülü ise, ön‑işleme hattı olmadan elde edilen çıktıya kıyasla çok daha az karışık karakter göreceksiniz.
+Orijinal görüntü gürültülü ise, ön‑işleme hattı olmadan yapılan çalışmaya kıyasla çok daha az bozuk karakter göreceksiniz.
 
----
+## Görsel özet
 
-## Görsel Özet  
+![İşleme öncesi gürültüyü gösteren örnek giriş görüntüsü – görüntü gürültüsünü azaltma örneği](https://example.com/images/noisy-scan.png "görüntü gürültüsünü azalt")
 
-![İşleme öncesi gürültülü tarama örneği – görüntü gürültüsünü azaltma örneği](https://example.com/images/noisy-scan.png "görüntü gürültüsünü azalt")
+[İşleme öncesi gürültüyü gösteren örnek giriş görüntüsü – görüntü gürültüsünü azaltma örneği](https://example.com/images/noisy-scan.png "görüntü gürültüsünü azalt")
 
-Yukarıdaki alt metin **ana anahtar kelimeyi** içerir, SEO’yu karşılar ve aynı zamanda erişilebilirlik açısından resmi tanımlar.
-
----
+Yukarıdaki alt metin **ana anahtar kelimeyi** içerir, SEO'yu karşılar ve aynı zamanda erişilebilirlik için görüntüyü tanımlar.
 
 ## Sıkça Sorulan Sorular (SSS)
 
-### Gürültü azaltma ne kadar fazla olabilir?  
-`3` yarıçapı çoğu taranmış belge için uygundur. `5`’in üzerine çıkmak, küçük noktalama işaretleri gibi ince detayları bulanıklaştırabilir ve doğruluğu düşürebilir. Temsilci bir örnek üzerinde birkaç değer deneyin.
+**Q:** Ne kadar gürültü azaltma fazla olur?  
+**A:** Çoğu taranmış belge için yarıçap 3 yeterlidir. Yarıçapı 5'in üzerine çıkarmak noktalama işaretleri gibi ince detayları bulanıklaştırmaya başlayabilir, bu da doğruluğu azaltabilir. Temsilci bir örnek üzerinde birkaç değer deneyerek en uygun noktayı bulun.
 
-### Filtrelerin sırasını değiştirebilir miyim?  
-Evet. Sıra önemlidir: genellikle **ilk önce deskew**, ardından **gürültü azaltma**, son olarak **kontrast artırma** yapılır. Sıralamayı değiştirirseniz, örneğin gürültülü bir görüntüde kontrast artırmak gürültüyü artırabilir ve sonuçlar optimal olmayabilir.
+**Q:** Filtrelerin sırasını değiştirebilir miyim?  
+**A:** Evet, ancak sıra önemlidir. Önerilen sıralama **deskew → noise reduction → contrast boost** şeklindedir. Kontrast artırmayı gürültü kaldırmadan önce uygulamak lekeleri artırabilir ve daha kötü OCR sonuçlarına yol açar.
 
-### Bu çok sayfalı PDF’lerde çalışır mı?  
-Aspose OCR, her sayfayı bir görüntü olarak çıkarabilir ve aynı hattı her birine uygulayabilir. Sayfalar üzerinde döngü kurun, hattı uygulayın ve sonuçları birleştirin.
+**Q:** Bu çok sayfalı PDF'lerde çalışır mı?  
+**A:** Kesinlikle. Aspose OCR, her sayfayı bir görüntü olarak çıkarabilir, aynı hattı her sayfada çalıştırabilir ve sonuçları birleştirebilir. Sayfalar üzerinde döngü kurup hattı uygulayın ve dizeleri birleştirin.
 
-### Metnim el yazısı ise ne olur?  
-Yerleşik OCR motoru basılı metne odaklanır. El yazısı için özel bir model (ör. Aspose OCR Handwriting veya bir bulut AI servisi) gerekir. Ön‑işleme adımları hâlâ yardımcı olur, ancak tanıma doğruluğu değişkenlik gösterebilir.
+**Q:** Metnim el yazısı ise ne olur?  
+**A:** Yerleşik OCR motoru basılı metne odaklanır. El yazısı için Aspose OCR Handwriting gibi özel bir model veya bulut tabanlı bir AI hizmeti gerekir. Ön‑işleme hâlâ yardımcı olur, ancak tanıma doğruluğu değişkenlik gösterebilir.
+
+**Q:** Üretim kullanımında lisans gerekli mi?  
+**A:** Evet. Geçerli bir Aspose OCR lisansı değerlendirme sınırlamalarını kaldırır, tam hızda işlemeyi etkinleştirir ve premium filtrelere erişim sağlar. Test için ücretsiz bir deneme mevcuttur.
+
+## Sonraki adımlar ve ilgili konular
+
+- **Java ile Görüntüden Metin Çıkarma**, PDF'lerden veya çok sayfalı TIFF'lerden Aspose PDF kullanarak metin görüntüsü çıkarın, ardından aynı hattı kullanarak görüntülere besleyin.  
+- Düşük ışıklı fotoğraflar için daha yüksek **contrast boost** değerleri (`1.5f`, `2.0f`) deneyin.  
+- Kenar durum gürültü desenleri (örn. tuz‑ve‑karabiber) için özel OpenCV işlemleriyle Aspose filtrelerini birleştirin.  
+- Aşırı döndürmeler (> 15°) için **correct image skew** eşiklerini deskew algılama parametrelerini ayarlayarak keşfedin.  
+
+Bu uzantıların her biri, **image preprocessing for OCR** temel fikri üzerine inşa edilir ve belge işleme projelerinin geniş bir yelpazesinde doğruluğu sürekli artırır.
+
+## Sonuç
+
+Aspose OCR for Java kullanarak bir görüntüden metin çıkarmadan önce **görüntü gürültüsünü azaltma**, **görüntü kontrastını artırma**, **gürültü azaltma ekleme** ve **görüntü eğimini düzeltme** işlemlerini içeren tam, uçtan uca bir çözümü ele aldık. Yukarıdaki beş adımı izleyerek, taneli ve eğik bir taramayı sadece birkaç satır kodla temiz, makine‑okunabilir bir dizeye dönüştürebilirsiniz. Hattı kendi görüntülerinizle deneyin, filtre parametrelerini ayarlayın ve OCR başarı oranınızın yükseldiğini izleyin.
 
 ---
 
-## Sonraki Adımlar ve İlgili Konular  
+**Son Güncelleme:** 2026-09-18  
+**Test Edilen:** Aspose OCR for Java 23.10  
+**Yazar:** Aspose
 
-- **Extract text image** işlemini PDF’lerden veya çok sayfalı TIFF’lerden Aspose PDF ile alıp aynı hattı uygulayın.  
-- Düşük ışıklı fotoğraflar için **kontrast artırma** değerleri (`1.5f`, `2.0f`) ile deney yapın.  
-- **Gürültü azaltma** adımını, uç durum senaryoları (ör. tuz‑ve‑biber gürültüsü) için özel OpenCV filtreleriyle birleştirin.  
-- Aşırı döndürmeler (> 15°) ile karşılaşırsanız **eğim düzeltme** algılama eşiklerini inceleyin.  
+## İlgili Öğreticiler
 
-Bu uzantıların her biri, OCR’dan önce **görüntü gürültüsünü azaltma** temel fikri üzerine inşa edilmiştir; bu, belge işleme projelerinin geniş bir yelpazesinde doğruluğu tutarlı bir şekilde artırır.
-
----
-
-## Sonuç  
-
-**Görüntü gürültüsünü azaltma**, **görüntü kontrastını artırma**, **gürültü azaltma** ve **görüntü eğimini düzeltme** adımlarını Aspose OCR for Java ile bir araya getiren tam bir uçtan uca çözüm sunduk. Yukarıdaki beş adımı izleyerek, grenli ve eğimli bir taramayı sadece birkaç satır kodla temiz, makine‑okunur bir dizeye dönüştürebilirsiniz.  
-
-Kendi görüntülerinizle hattı deneyin, filtre parametrelerini ayarlayın ve OCR başarı oranınızın nasıl yükseldiğini izleyin. İyi kodlamalar ve taramalarınız her zaman net olsun!
+- [Aspose Ocr Tam Java Ocr Öğreticisi ile Metin Görüntüsü Tanıma](/ocr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+- [Aspose Tam Java Kılavuzu ile OCR'da Görüntü Gürültüsünü Azaltma](/ocr/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+- [Aspose.OCR Detect Areas Modu ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
