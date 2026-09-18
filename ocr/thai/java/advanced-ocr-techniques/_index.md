@@ -68,6 +68,32 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีจดจำข้อความจากรูปภาพด้วย Aspose OCR ใน Java อย่างละเอียด ดาวน์โหลดตอนนี้เพื่อเพิ่มประสิทธิภาพแอปของคุณ
 ### [ลดสัญญาณรบกวนภาพใน OCR ด้วย Aspose – คู่มือ Java ฉบับเต็ม](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 
+### [การเตรียมภาพก่อน OCR ใน Java – เพิ่มความแม่นยำและสกัดข้อความ](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+เพิ่มความแม่นยำของ OCR ด้วยการเตรียมภาพก่อนทำใน Java เพื่อสกัดข้อความได้อย่างมีประสิทธิภาพ
+
+## [วิธีรัน OCR บนเอกสารขนาดใหญ่ – คู่มือ Java ฉบับเต็ม](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+เรียนรู้วิธีประมวลผล OCR บนเอกสารขนาดใหญ่ด้วย Aspose.OCR สำหรับ Java อย่างครบถ้วนและมีประสิทธิภาพ
+
+## [วิธีเปิดใช้งาน GPU สำหรับ OCR – การสกัดข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-enable-gpu-for-ocr-fast-extraction-of-text/)
+
+ด้วย Aspose.OCR สำหรับ Java การเรียนรู้เทคนิค OCR ขั้นสูงไม่เคยง่ายอย่างนี้มาก่อน เจาะลึกบทช่วยสอนเหล่านี้ และปลดล็อกศักยภาพเต็มรูปแบบของการจดจำข้อความในโปรเจ็กต์ Java ของคุณ ยกระดับแอปพลิเคชันของคุณด้วยการผสานรวมที่ราบรื่น ความแม่นยำสูง และความสามารถในการแยกข้อความที่หลากหลาย ดาวน์โหลดตอนนี้และก้าวแรกสู่ความเป็นเลิศของ OCR ด้วย Aspose.OCR สำหรับ Java!
+### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – แยกข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+เปิดใช้งาน GPU เพื่อเร่งความเร็ว OCR ใน Java รับรู้ข้อความจากรูปภาพได้อย่างรวดเร็วและแม่นยำ ดาวน์โหลดบทเรียนเพื่อเพิ่มประสิทธิภาพแอปของคุณ
+### [แยกข้อความจากรูปภาพด้วย Java – อ่าน VIN จากรูปถ่าย](./extract-text-from-image-with-java-read-vin-from-photo/)
+แยกข้อความ VIN จากรูปภาพด้วย Aspose.OCR สำหรับ Java อย่างรวดเร็วและแม่นยำ
+### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน GPU เพื่อเพิ่มประสิทธิภาพการทำ OCR ใน Java อย่างง่ายดายตามขั้นตอน
+### [การแยกข้อความจากรูปภาพด้วย Java – บทเรียน OCR แบบขนาน](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+เรียนรู้วิธีทำ OCR แบบขนานบนภาพด้วย Java เพื่อเพิ่มความเร็วและประสิทธิภาพในการแยกข้อความ
+### [แยกข้อความจากรูปภาพด้วย Java – คู่มือ OCR ครบถ้วนพร้อมการแก้ไขการสะกด](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+เรียนรู้วิธีทำ OCR บนรูปภาพด้วย Java พร้อมการแก้ไขการสะกดเพื่อผลลัพธ์ที่แม่นยำ ดาวน์โหลดตอนนี้
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

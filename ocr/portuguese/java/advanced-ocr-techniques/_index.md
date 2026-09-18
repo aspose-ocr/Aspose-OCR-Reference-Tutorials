@@ -68,6 +68,29 @@ Aprenda a extrair texto de imagens usando Aspose OCR em Java com este guia compl
 ### [Reduzir o Ruído da Imagem no OCR com Aspose – Guia Completo em Java](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 Aprenda a diminuir o ruído das imagens para melhorar a precisão do OCR usando Aspose em Java, com passo a passo detalhado.
 
+### [Como habilitar GPU para OCR – Extração rápida de texto de imagens](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+Aprenda a ativar a aceleração GPU no Aspose.OCR para melhorar a velocidade de extração de texto de imagens.
+### [Como executar OCR em documentos grandes – Guia completo em Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Aprenda a executar OCR em documentos extensos com Aspose.OCR para Java, garantindo alta precisão e desempenho otimizado.
+### [Pré-processamento de Imagem OCR em Java – Aumente a Precisão e Extraia Texto](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Aprenda a pré-processar imagens para melhorar a precisão do OCR em Java e extrair texto de forma eficiente.
+### [Como habilitar GPU para OCR em Java – Reconheça texto de imagem rapidamente](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Acelere o OCR usando GPU em Java com Aspose.OCR. Guia passo a passo para reconhecimento rápido de texto em imagens.
+### [Extrair texto de imagem com Java – Ler VIN de foto](./extract-text-from-image-with-java-read-vin-from-photo/)
+Aprenda a extrair o número VIN de fotos usando Aspose.OCR para Java. Guia passo a passo para leitura rápida e precisa.
+### [Como habilitar GPU para OCR em Java – Guia passo a passo](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Aprenda a ativar a GPU para acelerar o OCR em Java com Aspose.OCR. Guia passo a passo para melhorar desempenho e precisão.
+### [Reconhecer texto de imagens com Java – Tutorial de OCR Paralelo](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Aprenda a reconhecer texto de imagens usando Java com OCR paralelo, aumentando a velocidade e eficiência do processamento.
+### [Extrair Texto de Imagem Java – Guia Completo de OCR com Correção Ortográfica](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Aprenda a extrair texto de imagens em Java usando OCR completo com correção ortográfica para resultados precisos.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

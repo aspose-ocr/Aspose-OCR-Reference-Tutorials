@@ -115,3 +115,14 @@ R: Processa le immagini TIFF a blocchi o utilizza il multi‑threading per mante
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Riconoscere il testo di un'immagine con Aspose OCR – Tutorial Java OCR completo](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Scopri come eseguire l'OCR completo su immagini con Aspose OCR in Java, passo‑passo per risultati accurati e rapidi.
+### [Crea PDF Ricercabile da PNG – Guida Java Completa](./create-searchable-pdf-from-png-complete-java-guide/)
+Crea rapidamente PDF ricercabili da immagini PNG con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
+### [Crea PDF Ricercabile da Immagine con OCR – Guida Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Crea rapidamente PDF ricercabili da immagini con Aspose.OCR per Java, seguendo questa guida passo‑passo completa.
+### [Convertire Immagini in Testo in Java – Guida all'Elaborazione OCR Batch](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Scopri come convertire più immagini in testo usando OCR batch in Java con Aspose.OCR, ottimizzando velocità e precisione.
+### [Creare PDF Ricercabile con Aspose OCR – Guida Passo‑Passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Scopri come trasformare PDF scansionati in documenti ricercabili con Aspose OCR, passo dopo passo, garantendo precisione e velocità.
+

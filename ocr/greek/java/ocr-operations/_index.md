@@ -113,3 +113,14 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από PNG – Πλήρης Οδηγός Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Δημιουργήστε αναζητήσιμο PDF από αρχείο PNG με πλήρη οδηγό Java, βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με OCR – Οδηγός Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Δημιουργήστε αναζητήσιμο PDF από εικόνα χρησιμοποιώντας OCR σε Java, βήμα‑βήμα οδηγίες για ακριβή εξαγωγή κειμένου.
+### [Μετατροπή Εικόνων σε Κείμενο σε Java – Οδηγός Μαζικής Επεξεργασίας OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων για εξαγωγή κειμένου με το Aspose.OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
+

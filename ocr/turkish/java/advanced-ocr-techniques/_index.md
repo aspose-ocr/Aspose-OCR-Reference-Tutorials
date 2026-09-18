@@ -74,6 +74,30 @@ Java uygulamalarınızda GPU hızlandırmasıyla OCR performansını artırın. 
 ### [Aspose ile OCR'da Görüntü Gürültüsünü Azaltma – Tam Java Kılavuzu](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 Aspose kullanarak OCR doğruluğunu artırmak için görüntü gürültüsünü nasıl azaltacağınızı adım adım öğrenin.
 
+## [GPU'yu OCR için Etkinleştirme – Görüntülerden Hızlı Metin Çıkarma](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+
+GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
+
+### [Java'da Görüntü Ön İşleme OCR – Doğruluğu Artırın ve Metni Çıkarın](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Java'da görüntü ön işleme teknikleriyle OCR doğruluğunu artırın ve metni hızlıca çıkarın.
+
+### [Büyük Belgelerde OCR Çalıştırma – Tam Java Kılavuzu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Büyük belgelerde yüksek doğrulukla OCR gerçekleştirin ve Java projelerinizde metin çıkarma sürecini optimize edin.
+### [Java ile Görüntüden Metin Çıkarma – Fotoğraftan VIN Okuma](./extract-text-from-image-with-java-read-vin-from-photo/)
+Java ile fotoğraftan VIN numarasını okuyarak görüntüden metin çıkarın. Hızlı ve doğru OCR entegrasyonu.
+### [Java OCR için GPU'yu Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Java OCR performansını artırmak için GPU desteğini nasıl etkinleştireceğinizi adım adım öğrenin.
+### [Java ile Görüntülerden Metin Tanıma – Paralel OCR Eğitimi](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Java’da paralel OCR kullanarak görüntülerden hızlı ve doğru şekilde metin tanıyın. Adım adım kılavuzla performansı artırın.
+### [Java ile Görüntüden Metin Çıkarma – Yazım Düzeltmeli Tam OCR Kılavuzu](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Java kullanarak görüntülerden metin çıkarın ve yazım hatalarını otomatik düzeltin. Adım adım tam OCR rehberi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

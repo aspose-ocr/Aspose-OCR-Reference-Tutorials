@@ -68,6 +68,29 @@ Aspose OCR के साथ छवि से पाठ निकालने क
 ### [Aspose के साथ OCR में इमेज शोर घटाएँ – पूर्ण जावा गाइड](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 Aspose का उपयोग करके OCR में इमेज शोर को कम करने की पूरी जावा गाइड। स्पष्ट पाठ पहचान के लिए चरण‑दर‑चरण निर्देश।
 
+### [OCR के लिए GPU सक्षम करने का तरीका – छवियों से तेज़ टेक्स्ट निष्कर्षण](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+GPU का उपयोग करके OCR की गति बढ़ाएँ और छवियों से तेज़ी से टेक्स्ट निकालें। इस ट्यूटोरियल में चरण-दर-शरणा मार्गदर्शन है।
+### [बड़े दस्तावेज़ों पर OCR चलाने का पूर्ण जावा गाइड](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+जावा में बड़े दस्तावेज़ों के लिए OCR लागू करने के चरण-दर-शरणा निर्देश, तेज़ और सटीक टेक्स्ट निष्कर्षण के लिए।
+### [जावा में इमेज प्रीप्रोसेसिंग OCR – सटीकता बढ़ाएँ और टेक्स्ट निकालें](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+जावा में इमेज प्रीप्रोसेसिंग के माध्यम से OCR की सटीकता बढ़ाएँ और तेज़ी से टेक्स्ट निकालें। चरण-दर-चरण मार्गदर्शिका।
+### [जावा में OCR के लिए GPU सक्षम करने का तरीका – तेज़ी से छवि से टेक्स्ट पहचानें](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+जावा में GPU का उपयोग करके OCR गति बढ़ाएँ और छवियों से तेज़ी से सटीक पाठ निकालें।
+### [जावा के साथ छवि से टेक्स्ट निकालें – फोटो से VIN पढ़ें](./extract-text-from-image-with-java-read-vin-from-photo/)
+जावा का उपयोग करके फोटो से VIN नंबर निकालें। तेज़ और सटीक टेक्स्ट पहचान के साथ अपने एप्लिकेशन को सशक्त बनाएं।
+### [जावा OCR के लिए GPU सक्षम करने की चरण‑दर‑चरण गाइड](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+जावा OCR में GPU का उपयोग करके तेज़ और सटीक टेक्स्ट निष्कर्षण प्राप्त करें। चरण‑दर‑चरण निर्देशों के साथ सेटअप करें।
+### [जावा के साथ छवियों से टेक्स्ट पहचानें – समानांतर OCR ट्यूटोरियल](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+जावा में समानांतर OCR के साथ तेज़ी से छवियों से टेक्स्ट निकालें। उच्च सटीकता और कुशल प्रोसेसिंग के लिए अब डाउनलोड करें।
+### [जावा में छवि से टेक्स्ट निकालें – वर्तनी सुधार के साथ पूर्ण OCR गाइड](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+जावा में छवियों से पाठ निकालें और वर्तनी सुधार के साथ सटीक परिणाम प्राप्त करें। चरण‑दर‑चरण पूर्ण गाइड।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

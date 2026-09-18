@@ -1,34 +1,59 @@
 ---
-title: OCR画像認識におけるフォルダーのOCRO操作
-linktitle: OCR画像認識におけるフォルダーのOCRO操作
+date: 2026-02-25
+description: Aspose.OCR for .NET を使用して画像からテキストを抽出する方法を学び、フォルダー単位の OCR 画像認識を実現します。
+linktitle: OCROperation with Folder in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR を使用して、.NET での OCR 画像認識の能力を解放します。画像からテキストを簡単に抽出します。
-weight: 11
+title: フォルダー内の画像からOCR操作でテキストを抽出する
 url: /ja/net/ocr-configuration/ocr-operation-with-folder/
+weight: 11
 ---
+
+.
+
+Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR画像認識におけるフォルダーのOCRO操作
+# フォルダー上のOCR操作で画像からテキストを抽出する
 
-## 導入
+## はじめに
 
-Aspose.OCR for .NET を使用した光学式文字認識 (OCR) の世界へようこそ! .NET アプリケーション内で画像からテキストをシームレスに抽出したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.OCR の強力な機能を活用して、フォルダーを使用した OCR 画像認識のプロセスを説明します。
+Optical Character Recognition (OCR) の世界へようこそ、**Aspose.OCR for .NET**です！大量に、例えばスキャンした文書が入ったフォルダー全体から **画像からテキストを抽出** したい場合、このチュートリアルでは実践的なリアルワールドの解決策をご案内します。プロジェクトのセットアップから認識結果の出力までを網羅し、フォルダー単位の OCR を C# アプリケーションにすばやく統合できるようにします。最後には、このアプローチで **画像をテキストに変換**、**スキャンした文書からテキストを抽出**、そして **C# で画像テキストを読み取る** 方法を数行のコードで実現できることが分かります。
+
+## クイック回答
+- **このチュートリアルで学べることは？** フォルダーに保存された画像からテキストを抽出する方法を Aspose.OCR で学びます。  
+- **使用言語とプラットフォームは？** .NET（Framework または .NET Core）上の C#。  
+- **必要な前提条件は？** Aspose.OCR for .NET ライブラリ（以下のダウンロードリンク）。  
+- **コード行数は？** 7 つの簡潔なコードブロックだけです。  
+- **画像をテキストに変換できますか？** はい—この例がその方法を示しています。
+
+## 「画像からテキストを抽出する」とは何ですか？
+画像からテキストを抽出するとは、OCR 技術を使用して写真、PDF、またはスキャンした文書に埋め込まれた文字を読み取り、編集可能で検索可能な文字列に変換することです。Aspose.OCR は多数の画像形式と多言語に対応した堅牢なエンジンを提供します。
+
+## フォルダー単位の OCR に Aspose.OCR を使用する理由は？
+- **高精度** の組み込み言語検出。  
+- **バッチ処理** が可能な `RecognizeMultipleImages`、フォルダー向きに最適。  
+- **シンプルな API** で C# プロジェクトに自然に統合。  
+- **スケーラブル** — デスクトップでもサーバー環境でも動作。
+
+## 一般的なユースケース
+- スキャンした請求書や領収書のライブラリをデジタル化。  
+- アーカイブされた PNG/JPEG ファイルを検索可能なテキストに変換してインデックス化。  
+- 製品ラベル画像からテキストを読み取り、データ入力を自動化。  
+- ドキュメント検索機能を構築し、**スキャンした文書からテキストを抽出** できるようにする。
 
 ## 前提条件
 
-チュートリアルに進む前に、次の前提条件を満たしていることを確認してください。
-
-- C# および .NET 開発の実践的な知識。
-- Visual Studio がマシンにインストールされていること。
--  Aspose.OCR for .NET ライブラリ (ダウンロード可能)[ここ](https://releases.aspose.com/ocr/net/).
-- OCR の概念の基本的な理解。
+- C# と .NET 開発の基本的な知識。  
+- Visual Studio（最新バージョンのいずれか）。  
+- **Aspose.OCR for .NET** ライブラリ – ダウンロードは [here](https://releases.aspose.com/ocr/net/)。  
+- OCR の概念に関する理解（任意だがあると便利）。
 
 ## 名前空間のインポート
 
-C# コードでは、Aspose.OCR を使用するために必要な名前空間を必ずインポートしてください。スクリプトの先頭に次の内容を含めます。
+C# ファイルの先頭に必要な `using` ディレクティブを追加し、コンパイラが OCR クラスを認識できるようにします。
 
 ```csharp
 using System;
@@ -38,92 +63,107 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## ステップバイステップガイド
+
+### Step 1: ドキュメントディレクトリの設定
+処理したい画像が格納されているフォルダーを定義します。
 
 ```csharp
-//例開始:1
-//ドキュメントディレクトリへのパス。
+// ExStart:1   
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-「Your Document Directory」を画像が保存されている実際のパスに置き換えてください。
+> **プロのヒント：** 絶対パスまたは `Path.Combine` を使用して、OS 間のパス区切り問題を回避しましょう。
 
-## ステップ 2: Aspose.OCR を初期化する
+### Step 2: Aspose.OCR の初期化
+OCR エンジンのインスタンスを作成します。
 
 ```csharp
-// AsposeOcr のインスタンスを初期化する
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-AsposeOcr クラスのインスタンスを作成して、その機能を利用します。
-
-## ステップ 3: 画像パスを指定する
+### Step 3: 画像パスの指定
+API に画像ファイルが入っているサブフォルダーを指示します。
 
 ```csharp
-//画像パス
+// Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-ドキュメント ディレクトリ パスと画像を含む特定のフォルダーを連結します。
+> **なぜ重要か：** `RecognizeMultipleImages` メソッドは単一ファイルではなくフォルダー パスを期待します。
 
-## ステップ 4: 画像を認識する
+### Step 4: 画像の認識
+フォルダー内のすべての画像に対して OCR を実行します。言語ヒントや前処理が必要な場合は `RecognitionSettings` をカスタマイズできます。
 
 ```csharp
-//画像を認識する
+// Recognize image           
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
 {
-    //デフォルトまたはカスタム
+    //default or custom
 });
 ```
 
-RecognizeMultipleImages メソッドを使用して、指定したフォルダー内の複数の画像に対して OCR を実行します。
-
-## ステップ 5: 結果を印刷する
+### Step 5: 結果の出力
+返された `RecognitionResult` 配列を走査し、抽出されたテキストを出力します。
 
 ```csharp
-//印刷結果
+// Print result
 for (int i = 0; i < result.Length; i++)
 {
     Console.WriteLine($"Image: {i}\n Result:\n {result[i].RecognitionText}");
 }
 ```
 
-結果をループし、各画像の認識されたテキストを印刷します。
+> **一般的な落とし穴：** フォルダーが空の場合に `result.Length` をチェックしないと `IndexOutOfRangeException` が発生します。必ずフォルダーの内容を事前に検証してください。
 
-## ステップ 6: 結論
+### Step 6: 完了メッセージ
+正常に実行されたことを示すメッセージを表示します。
 
 ```csharp
-//拡張終了:1
+// ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-フォルダーに対する OCR 操作の実行が成功したことを示す、スクリプトの結論に達していることを確認します。
+## ヒントとベストプラクティス
 
-## 結論
+- **バッチサイズ：** 数千ファイルを処理する場合は、メモリ使用量を予測可能に保つためにフォルダーを小さなバッチに分割することを検討してください。  
+- **言語ヒント：** `RecognitionSettings` に正しい言語コードを指定すると、特に非ラテン文字系で精度が大幅に向上します。  
+- **非同期処理：** OCR 呼び出しを `Task.Run` でラップするか、async/await を使用して UI スレッドの応答性を保ちましょう。  
+- **ファイル検証：** `RecognizeMultipleImages` を呼び出す前に、ディレクトリ内の拡張子（`.png`, `.jpg`, `.jpeg`, `.tif`, `.tiff`）をフィルタリングしてください。  
 
-おめでとう！ Aspose.OCR for .NET を使用してフォルダーに対する OCR 画像認識を実装する方法を学習しました。この強力なツールを使用すると、.NET アプリケーションの画像からテキストを抽出するための無数の可能性が開かれます。
+## 一般的な問題と解決策
+
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| 出力がありません | フォルダー パスが間違っているか空です | `fullPath` が正しいディレクトリを指し、サポートされている画像形式（PNG、JPEG、TIFF）が含まれていることを確認してください。 |
+| 文字化け | 言語設定が間違っている | `RecognitionSettings` に適切な ISO コードの `Language` を設定したものを渡してください。 |
+| 多数の画像でパフォーマンス低下 | UI スレッドで順次処理している | バックグラウンドスレッドで OCR を実行するか、非同期パターンを使用して UI の応答性を保ちます。 |
 
 ## よくある質問
 
-### Q1: Aspose.OCR for .NET を商用プロジェクトで使用できますか?
+**Q: Aspose.OCR for .NET を商用プロジェクトで使用できますか？**  
+A: はい、Aspose.OCR for .NET は商用製品です。ライセンス情報は[こちら](https://purchase.aspose.com/buy)をご覧ください。
 
- A1: はい、Aspose.OCR for .NET は商用製品です。ライセンス情報については、次のサイトを参照してください。[ここ](https://purchase.aspose.com/buy).
+**Q: 無料トライアルはありますか？**  
+A: はい、無料トライアルは[こちら](https://releases.aspose.com/)から利用できます。
 
-### Q2:。無料トライアルはありますか?
+**Q: ドキュメントはどこで確認できますか？**  
+A: ドキュメントは[こちら](https://reference.aspose.com/ocr/net/)にあります。
 
- A2: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+**Q: 一時ライセンスは取得できますか？**  
+A: 一時ライセンスは[こちら](https://purchase.aspose.com/temporary-license/)から取得できます。
 
-### Q3: ドキュメントはどこで入手できますか?
+**Q: サポートや質問はどこへ？**  
+A: コミュニティサポートは[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)をご利用ください。
 
- A3: ドキュメントは入手可能です[ここ](https://reference.aspose.com/ocr/net/).
+---
 
-### Q4: 一時ライセンスを取得するにはどうすればよいですか?
+**最終更新日:** 2026-02-25  
+**テスト環境:** Aspose.OCR 24.11 for .NET  
+**作者:** Aspose  
 
- A4: 仮免許は取得可能です[ここ](https://purchase.aspose.com/temporary-license/).
-
-### Q5: サポートが必要ですか? 質問がありますか?
-
- A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティサポートのために。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

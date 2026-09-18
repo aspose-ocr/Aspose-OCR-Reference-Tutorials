@@ -1,0 +1,7 @@
+Title: Extract Text from Image in Python – Recognize Text Fast
+Slug: extract-text-from-image-in-python-recognize-text-fast
+Category: general
+ProcessedDate: 2026-07-05T12:19:35.366003
+SourceRepo: AI Search API
+Keywords: extract text from image, how to recognize text from image, load image for ocr, create ocr engine python, set ocr language
+PRNumber: 170

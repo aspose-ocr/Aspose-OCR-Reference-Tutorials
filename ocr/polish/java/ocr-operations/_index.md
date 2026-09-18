@@ -117,3 +117,14 @@ A: Przetwarzaj obrazy TIFF w partiach lub używaj wielowątkowości, aby utrzyma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Utwórz przeszukiwalny PDF z PNG – Kompletny przewodnik Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Dowiedz się, jak przekształcić obrazy PNG w przeszukiwalne pliki PDF przy użyciu Aspose.OCR w Javie.
+### [Create Searchable PDF from Image with OCR – Java Tutorial](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić obraz w przeszukiwalny plik PDF.
+### [Konwertowanie obrazów na tekst w Javie – Przewodnik przetwarzania wsadowego OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspose.OCR w Javie.
+### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
+

@@ -1,0 +1,7 @@
+Title: Run OCR on Image – Complete C# Guide
+Slug: run-ocr-on-image-complete-c-guide
+Category: ocr-optimization
+ProcessedDate: 2026-05-28T16:24:15.686446
+SourceRepo: AI Search API
+Keywords: run ocr on image, read text from image, extract text from receipt, load image for ocr
+PRNumber: 133

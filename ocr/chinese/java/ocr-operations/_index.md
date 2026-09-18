@@ -114,3 +114,13 @@ A: 将 TIFF 图像分块处理或使用多线程，以保持内存使用的最�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [使用 Aspose OCR 识别图像文本 – 完整 Java OCR 教程](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+完整的 Java 示例，演示如何使用 Aspose OCR 识别图像中的文本并导出结果。
+### [使用 OCR 将图像创建可搜索 PDF – Java 教程](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+通过 Aspose.OCR for Java 将图像转换为可搜索的 PDF，完整步骤指南，提升文档可检索性。
+### [从 PNG 创建可搜索 PDF – 完整 Java 指南](./create-searchable-pdf-from-png-complete-java-guide/)
+通过 Aspose.OCR for Java 将 PNG 图像转换为可搜索的 PDF，完整步骤指南，提升文档可检索性。
+### [在 Java 中将图像转换为文本 – 批量 OCR 处理指南](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+使用 Aspose.OCR for Java 批量处理图像并提取文本，提高效率并保持高准确率。
+### [使用 Aspose OCR 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+
