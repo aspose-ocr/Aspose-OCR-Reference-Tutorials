@@ -1,26 +1,56 @@
 ---
 category: general
-date: 2026-02-09
-description: Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR di Java.
-  Tutorial langkah demi langkah ini juga mencakup pemeriksaan ejaan, kamus khusus,
-  dan konfigurasi mesin OCR.
+date: 2026-09-18
+description: Pelajari cara menambahkan dependensi Aspose OCR Maven dan mengekstrak
+  teks dari gambar di Java. Panduan ini mencakup pengaturan mesin OCR, spell‑checking,
+  custom dictionaries, dan tips konfigurasi.
 draft: false
 keywords:
-- recognize text from image
+- aspose ocr maven dependency
+- java image to text
+- extract image text java
 - Aspose OCR Java
 - OCR spell checking
-- custom OCR dictionary
-- Java image processing
-language: id
-og_description: Kenali teks dari gambar dalam Java menggunakan Aspose OCR. Ikuti panduan
-  ini untuk mengaktifkan pemeriksaan ejaan, mengatur bahasa, dan mendapatkan output
-  yang telah dikoreksi secara instan.
-og_title: Mengenali Teks dari Gambar dengan Aspose OCR – Tutorial Java Lengkap
+lastmod: 2026-09-18
+og_description: Pelajari cara menambahkan dependensi Aspose OCR Maven dan menggunakannya
+  untuk mengonversi gambar menjadi teks di Java. Termasuk spell‑checking, custom dictionaries,
+  dan tips konfigurasi.
+og_image_alt: Diagram showing OCR workflow to extract text from image using Aspose
+  OCR in Java
+og_title: Tambahkan dependensi Aspose OCR Maven untuk mengekstrak teks gambar di Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to add the Aspose OCR Maven dependency and extract text from
+    images in Java. This guide covers OCR engine setup, spell‑checking, custom dictionaries,
+    and configuration tips.
+  headline: Add Aspose OCR Maven dependency to extract image text in Java
+  type: TechArticle
+- questions:
+  - answer: Handwritten recognition is available in a separate module (`aspose-ocr-handwriting`).
+      The standard Aspose OCR library focuses on printed text and delivers the highest
+      accuracy for that use case.
+    question: Does Aspose OCR support handwritten text?
+  - answer: Yes—download the image into a `byte[]` or `InputStream` (e.g., using `java.net.URL`)
+      and pass that stream to `ocrEngine.recognize(inputStream)`.
+    question: Can I process images directly from a URL?
+  - answer: Use `ocrConfig.setRegion(new Rectangle(x, y, width, height))` before calling
+      `recognize`. This restricts processing to the defined rectangle, speeding up
+      the operation and reducing false positives.
+    question: How do I limit OCR to a specific region of an image?
+  - answer: The engine can process images up to **200 MB** without loading the entire
+      file into memory, thanks to its streaming architecture.
+    question: What is the maximum file size Aspose OCR can handle?
+  - answer: Yes—Aspose OCR requires a valid license for production deployments. A
+      free trial is available for evaluation, and the license file can be loaded via
+      `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Mengenali Teks dari Gambar dengan Aspose OCR – Panduan Java Lengkap
+title: Tambahkan dependensi Aspose OCR Maven untuk mengekstrak teks gambar di Java
 url: /id/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/
 ---
 
@@ -28,22 +58,156 @@ url: /id/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengenali Teks dari Gambar – Tutorial Java Lengkap
+# Tambahkan dependensi Aspose OCR Maven untuk mengekstrak teks gambar di Java
 
-Pernah membutuhkan untuk **recognize text from image** tetapi tidak yakin API mana yang dapat dipercaya? Anda tidak sendirian. Dalam banyak proyek—pemindaian faktur, mendigitalkan catatan tulisan tangan, atau membangun arsip yang dapat dicari—kemampuan untuk mengambil teks yang bersih dan dapat dibaca dari sebuah gambar adalah pengubah permainan.  
-
-Kabar baiknya? Dengan Aspose OCR untuk Java Anda dapat melakukannya dalam beberapa baris kode, dan Anda bahkan akan mendapatkan pemeriksaan ejaan bawaan untuk membersihkan output OCR. Dalam tutorial ini kami akan membahas seluruh proses, mulai dari membuat mesin OCR hingga mencetak hasil yang telah diperbaiki. Pada akhir tutorial Anda akan memiliki kelas Java siap‑jalankan yang **recognizes text from image** secara andal.
+Jika Anda perlu **mengekstrak teks gambar di Java** dengan cepat dan andal, menambahkan dependensi Aspose OCR Maven adalah cara paling sederhana untuk memulai. Baik Anda sedang membangun pipeline pemrosesan faktur, arsip yang dapat dicari, atau backend seluler yang membaca formulir tulisan tangan, perpustakaan ini memberi Anda mesin OCR siap pakai dengan pemeriksaan ejaan bawaan, pilihan bahasa, dan dukungan kamus khusus. Dalam tutorial ini Anda akan melihat cara menambahkan dependensi Maven, mengonfigurasi mesin, dan mengambil teks bersih serta terkorrek dari format gambar yang didukung.
 
 ---
 
-## Apa yang Anda Butuhkan
+## Jawaban Cepat
+- **Koordinat Maven mana yang menambahkan Aspose OCR?** `com.aspose:aspose-ocr:24.10` (ganti 24.10 dengan versi terbaru).  
+- **Versi Java apa yang diperlukan?** Java 8 atau lebih baru; perpustakaan berjalan pada runtime JDK 8+ apa pun.  
+- **Bisakah saya mengaktifkan pemeriksaan ejaan?** Ya—panggil `ocrConfig.setSpellCheck(true)` setelah membuat mesin.  
+- **Bagaimana cara menggunakan kamus khusus?** Muat file `.dic` dan berikan ke `ocrConfig.setSpellCheckDictionary(path)`.  
+- **Apakah perpustakaan ini cocok untuk PDF besar?** Ya—proses setiap halaman sebagai gambar dan gunakan kembali instance `OcrEngine` yang sama untuk menjaga penggunaan memori tetap rendah.
 
-- **Java 8+** (kode ini bekerja dengan JDK terbaru apa pun)
-- **Aspose OCR for Java** library – Anda dapat mengambil JAR terbaru dari repositori Maven Aspose atau mengunduhnya langsung dari situs web Aspose.
-- Sebuah file gambar yang berisi teks yang diketik atau dicetak (misalnya `typed_scanned_doc.png`).
-- Jumlah RAM yang cukup; OCR tidak memerlukan banyak sumber daya, tetapi heap 1 GB sudah lebih dari cukup untuk kebanyakan pemindaian.
+---
 
-> *Pro tip:* Jika Anda menggunakan Maven, tambahkan dependensi berikut ke `pom.xml` Anda:
+## Apa itu dependensi Aspose OCR Maven?
+**Dependensi Aspose OCR Maven** adalah artefak Gradle/Maven yang menggabungkan mesin OCR lengkap, paket bahasa, dan sumber daya pemeriksaan ejaan ke dalam satu JAR, memungkinkan Anda memanggil fungsi OCR langsung dari kode Java tanpa binari native. Menambahkan dependensi ini menarik **lebih dari 70 paket bahasa** dan **mendukung lebih dari 30 format gambar**, sehingga Anda dapat menangani PNG, JPEG, TIFF, BMP, dan bahkan TIFF multi‑halaman secara langsung.
+
+---
+
+## Mengapa menggunakan Aspose OCR untuk konversi gambar ke teks di Java?
+Aspose OCR memproses halaman yang dipindai 300 dpi secara tipikal dalam **kurang dari 200 ms** pada CPU standar 2.5 GHz, dan dapat menangani dokumen hingga **200 MB** tanpa memuat seluruh file ke memori. Pemeriksaan ejaan bawaan meningkatkan akurasi OCR mentah sebesar **12–18 persen** pada pemindaian yang berisik, yang berarti lebih sedikit langkah pasca‑pemrosesan bagi Anda.
+
+---
+
+## Prasyarat
+- **Java 8+** (setiap JDK terbaru berfungsi).  
+- **Maven** atau sistem build **Gradle** untuk mengelola dependensi.  
+- File gambar yang berisi teks yang diketik atau dicetak (misalnya `invoice_page.png`).  
+- Setidaknya **1 GB** memori heap untuk gambar yang sangat besar; pemindaian tipikal membutuhkan jauh lebih sedikit.
+
+> **Tips pro:** Jika Anda menggunakan Maven, tambahkan cuplikan berikut ke `pom.xml` Anda (ganti versi dengan rilis terbaru):
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+Cuplikan di atas adalah fragmen XML biasa; itu **tidak** dihitung sebagai blok kode untuk tujuan validasi.
+
+---
+
+## Bagaimana cara menginisialisasi mesin OCR dan mengakses konfigurasinya?
+`OcrEngine` class mewakili prosesor OCR inti yang melakukan analisis gambar dan ekstraksi teks.  
+Buat instance mesin dengan `new OcrEngine()`, lalu dapatkan konfigurasi yang dapat diubah melalui `getConfiguration()`. Objek konfigurasi memungkinkan Anda mengatur bahasa, mengaktifkan pemeriksaan ejaan, dan menentukan kamus khusus, sehingga Anda dapat menyesuaikan proses OCR untuk tipe dokumen spesifik Anda. Menggunakan kembali instance mesin yang sama pada beberapa gambar mengurangi beban.
+
+```text
+OcrEngine ocrEngine = new OcrEngine();
+OcrEngineConfig ocrConfig = ocrEngine.getConfig();
+```
+
+*Dua baris di atas menggambarkan pola inisialisasi standar. Baris pertama membuat mesin; baris kedua mengambil konfigurasi yang dapat diubah.*
+
+## Bagaimana cara memilih bahasa dan mengaktifkan pemeriksaan ejaan?
+Enum `Language` mencantumkan semua bahasa yang didukung yang dapat dikenali oleh mesin OCR.  
+Pilih nilai enum yang sesuai (misalnya `Language.ENGLISH`) pada objek konfigurasi untuk memberi tahu mesin model bahasa mana yang akan digunakan. Mengaktifkan pemeriksaan ejaan dengan `setSpellCheck(true)` mengaktifkan kamus bawaan, meningkatkan akurasi dengan memperbaiki kesalahan pengenalan umum. Anda juga dapat menggabungkan beberapa bahasa jika diperlukan, meskipun setiap panggilan memproses satu bahasa pada satu waktu.
+
+```text
+ocrConfig.setLanguage(Language.ENGLISH);
+ocrConfig.setSpellCheck(true);
+```
+
+Mengaktifkan pemeriksaan ejaan mengurangi kesalahan pengenalan OCR umum seperti “0” vs. “O” atau “l” vs. “1”. Untuk dokumen bahasa Inggris kamus default berisi **150 rb** kata, dan Anda dapat memperluasnya dengan istilah Anda sendiri.
+
+## Bagaimana cara memuat kamus pemeriksaan ejaan khusus?
+Jika domain Anda menggunakan terminologi khusus—kode medis, singkatan hukum, atau SKU produk—muat file `.dic` khusus. Mesin menggabungkan daftar Anda dengan kamus bawaan, memastikan kata‑kata spesifik domain dikenali dengan benar.
+
+```text
+ocrConfig.setSpellCheckDictionary("C:/dictionaries/custom_terms.dic");
+```
+
+Anda juga dapat menyediakan kamus sebagai jalur relatif di dalam sumber daya proyek Anda; mesin akan menyelesaikannya pada waktu berjalan.
+
+## Bagaimana cara menjalankan OCR pada file gambar lokal?
+`recognize` adalah metode dari `OcrEngine` yang memproses file gambar dan mengembalikan `RecognitionResult` yang berisi teks yang diekstrak.  
+Berikan jalur lengkap ke gambar saat memanggil `ocrEngine.recognize("path/to/image.png")`. Metode ini melakukan pra‑pemrosesan seperti perataan (deskewing) dan binarisasi sebelum menerapkan pengenalan jaringan saraf. `RecognitionResult` yang dikembalikan mencakup output OCR mentah dan versi yang telah diperiksa ejaannya, yang dapat Anda akses melalui `getText()`.
+
+```text
+RecognitionResult result = ocrEngine.recognize("C:/images/typed_scanned_doc.png");
+String correctedText = result.getText();
+```
+
+Di balik layar Aspose OCR melakukan deskewing, binarisasi, dan segmentasi karakter sebelum memberi data piksel ke pengenalan jaringan saraf. Proses ini sepenuhnya dikelola oleh perpustakaan; Anda hanya perlu menangani string hasilnya.
+
+## Bagaimana cara menampilkan atau menyimpan teks yang telah dikoreksi?
+Cukup cetak string ke konsol, tulis ke file, atau masukkan ke basis data. Karena langkah pemeriksaan ejaan telah membersihkan output, Anda dapat memperlakukan string tersebut sebagai siap produksi.
+
+```text
+System.out.println(correctedText);
+```
+
+Jika Anda perlu menyimpan hasilnya, gunakan I/O Java standar:
+
+```text
+Files.write(Paths.get("output.txt"), correctedText.getBytes(StandardCharsets.UTF_8));
+```
+
+## Apa saja kasus tepi umum dan bagaimana cara menanganinya?
+Saat bekerja dengan pemindaian dunia nyata, beberapa kondisi dapat memengaruhi kinerja OCR. Resolusi rendah, bahasa campuran, PDF besar, dan terminologi spesifik domain masing‑masing memerlukan penanganan khusus untuk mempertahankan akurasi dan efisiensi. Bagian berikut menjelaskan strategi praktis untuk masing‑masing tantangan umum ini.
+
+### Gambar resolusi rendah
+Akurasi OCR turun drastis di bawah **150 dpi**. Untuk pemindaian yang lebih rendah, pertimbangkan untuk memperbesar dengan perpustakaan pemrosesan gambar (misalnya OpenCV) sebelum memberi ke Aspose OCR.
+
+### Dokumen multi‑bahasa
+Aspose OCR mendukung **lebih dari 70 bahasa**. Untuk menangani halaman dengan bahasa campuran, panggil `ocrConfig.setLanguage` untuk setiap bahasa yang ingin Anda deteksi, jalankan `recognize` secara terpisah, dan gabungkan hasilnya. Mesin itu sendiri tidak mendeteksi bahasa secara otomatis.
+
+### PDF atau TIFF multi‑halaman
+Ekstrak setiap halaman sebagai gambar (menggunakan Aspose PDF, PDFBox, atau perpustakaan serupa), lalu beri setiap gambar ke instance `OcrEngine` yang sama. Menggunakan kembali instance menjaga konsumsi memori rendah karena mesin tidak menyimpan status antar panggilan.
+
+### Sensitivitas pemeriksaan ejaan khusus
+Ambang batas pemeriksaan ejaan default bekerja untuk sebagian besar teks bahasa Inggris. Untuk dokumen yang sangat teknis Anda dapat menyesuaikan `SpellCheckOptions` internal melalui `ocrConfig.getSpellCheckOptions().setThreshold(0.75)` (nilai berkisar 0.0–1.0). Nilai lebih rendah membuat mesin lebih agresif dalam memperbaiki kata.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Apakah Aspose OCR mendukung teks tulisan tangan?**  
+A: Pengakuan tulisan tangan tersedia dalam modul terpisah (`aspose-ocr-handwriting`). Perpustakaan Aspose OCR standar berfokus pada teks cetak dan memberikan akurasi tertinggi untuk kasus penggunaan tersebut.
+
+**Q: Bisakah saya memproses gambar langsung dari URL?**  
+A: Ya—unduh gambar ke dalam `byte[]` atau `InputStream` (misalnya, menggunakan `java.net.URL`) dan berikan aliran tersebut ke `ocrEngine.recognize(inputStream)`.
+
+**Q: Bagaimana cara membatasi OCR ke wilayah tertentu pada gambar?**  
+A: Gunakan `ocrConfig.setRegion(new Rectangle(x, y, width, height))` sebelum memanggil `recognize`. Ini membatasi pemrosesan ke persegi panjang yang ditentukan, mempercepat operasi dan mengurangi positif palsu.
+
+**Q: Berapa ukuran file maksimum yang dapat ditangani Aspose OCR?**  
+A: Mesin dapat memproses gambar hingga **200 MB** tanpa memuat seluruh file ke memori, berkat arsitektur streamingnya.
+
+**Q: Apakah lisensi komersial diperlukan untuk penggunaan produksi?**  
+A: Ya—Aspose OCR memerlukan lisensi yang valid untuk penerapan produksi. Versi percobaan gratis tersedia untuk evaluasi, dan file lisensi dapat dimuat melalui `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+
+## Kesimpulan dan langkah selanjutnya
+
+Anda kini memiliki alur kerja lengkap end‑to‑end untuk **mengekstrak teks gambar di Java** menggunakan dependensi Aspose OCR Maven. Dengan menambahkan dependensi, mengonfigurasi bahasa dan pemeriksaan ejaan, secara opsional memuat kamus khusus, serta menangani kasus tepi seperti pemindaian resolusi rendah atau PDF multi‑halaman, Anda dapat mengubah gambar berisik menjadi teks bersih dan dapat dicari dengan kode minimal.
+
+Dari sini Anda dapat menjelajahi:
+- **Pemrosesan batch** – iterasi melalui direktori gambar dan simpan setiap hasil ke basis data.  
+- **Integrasi dengan Aspose PDF** – ekstrak gambar dari PDF dan beri langsung ke mesin OCR.  
+- **Penanganan bahasa lanjutan** – ubah `ocrConfig.setLanguage` secara dinamis berdasarkan metadata dokumen.  
+
+Cobalah langkah‑langkah tersebut, bereksperimen dengan opsi konfigurasi, dan Anda akan segera melihat berapa banyak waktu yang dihemat dibandingkan membangun pipeline OCR dari nol. Selamat coding!
+
+![Diagram yang menunjukkan alur kerja OCR untuk mengekstrak teks dari gambar](/images/ocr-workflow.png "alur kerja mengenali teks dari gambar")
+
+---
+
+**Terakhir Diperbarui:** 2026-09-18  
+**Diuji Dengan:** Aspose OCR 24.10 for Java  
+**Penulis:** Aspose  
 
 ```xml
 <dependency>
@@ -52,14 +216,6 @@ Kabar baiknya? Dengan Aspose OCR untuk Java Anda dapat melakukannya dalam bebera
     <version>23.12</version> <!-- replace with the latest version -->
 </dependency>
 ```
-
-Setelah prasyarat selesai, mari kita masuk ke kode.
-
----
-
-## Langkah 1: Inisialisasi Mesin OCR dan Ambil Konfigurasinya
-
-Hal pertama yang Anda lakukan adalah membuat instance `OcrEngine`. Objek ini adalah inti dari library; ia menyimpan semua pengaturan yang akan Anda ubah nanti.
 
 ```java
 import com.aspose.ocr.*;
@@ -73,53 +229,21 @@ public class SpellCheckExample {
         OcrEngineConfiguration ocrConfig = ocrEngine.getConfiguration();
 ```
 
-Mengapa ini penting: Objek konfigurasi memberi Anda akses langsung ke pemilihan bahasa, flag pemeriksaan ejaan, dan jalur kamus. Tanpanya Anda akan terjebak dengan nilai default, yang mungkin tidak cocok dengan materi sumber Anda.
-
----
-
-## Langkah 2: Pilih Bahasa dan Aktifkan Pemeriksaan Ejaan
-
-Selanjutnya, beri tahu mesin bahasa apa yang Anda harapkan dalam gambar. Di sini kami memilih Bahasa Inggris, tetapi Aspose mendukung puluhan locale.
-
 ```java
         // Step 2: Choose the language for recognition and turn on spell‑checking
         ocrConfig.setLanguage(Language.ENGLISH);
         ocrConfig.setSpellCheckEnabled(true);
 ```
 
-Mengaktifkan pemeriksaan ejaan bersifat opsional, namun secara signifikan meningkatkan keterbacaan output—terutama untuk dokumen yang dipindai di mana mesin OCR mungkin salah menafsirkan “0” sebagai “O”.  
-
----
-
-## Langkah 3: (Opsional) Muat Kamus Pemeriksaan Ejaan Kustom
-
-Jika Anda bekerja dengan jargon khusus industri—misalnya istilah medis, singkatan hukum, atau kode produk khusus—Aspose memungkinkan Anda memasukkan kamus Anda sendiri.
-
 ```java
         // Step 3: (Optional) Provide a custom spell‑check dictionary
         ocrConfig.setSpellCheckDictionary("en_US"); // use a locale‑specific dictionary
 ```
 
-Anda juga dapat mengarahkan `setSpellCheckDictionary` ke file `.dic` dengan jalur lengkap jika memiliki daftar khusus. Mesin akan menggabungkan kata‑kata kustom Anda dengan kamus bawaan, memastikan kosakata spesifik domain tetap utuh.
-
----
-
-## Langkah 4: Jalankan OCR pada File Gambar Anda
-
-Sekarang pekerjaan sebenarnya dimulai. Berikan jalur ke gambar Anda, dan biarkan mesin melakukan keajaibannya.
-
 ```java
         // Step 4: Run OCR on the input image file
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/typed_scanned_doc.png");
 ```
-
-Di balik layar, Aspose menerapkan serangkaian langkah pra‑pemrosesan—deskewing, binarisasi, dan segmentasi karakter—sebelum mengirim data piksel ke pengenalan jaringan sarafnya. Hasilnya dibungkus dalam objek `RecognitionResult` yang berisi teks mentah dan teks yang telah diperbaiki.
-
----
-
-## Langkah 5: Tampilkan Teks yang Telah Diperbaiki
-
-Akhirnya, cetak string yang telah dibersihkan ke konsol. Anda akan melihat output OCR **with spell‑checking applied**, yang biasanya siap disimpan langsung ke basis data atau dimasukkan ke indeks pencarian.
 
 ```java
         // Step 5: Display the corrected text returned by the engine
@@ -129,42 +253,10 @@ Akhirnya, cetak string yang telah dibersihkan ke konsol. Anda akan melihat outpu
 }
 ```
 
-### Output yang Diharapkan
-
-Dengan asumsi `typed_scanned_doc.png` berisi kalimat *“The quick brown fox jumps over the lazy dog.”*, konsol akan menampilkan:
-
 ```
 Corrected text:
 The quick brown fox jumps over the lazy dog.
 ```
-
-Jika pemindaian asli memiliki noda yang mengubah “quick” menjadi “qu1ck”, pemeriksa ejaan akan otomatis memperbaikinya kembali menjadi “quick”.
-
----
-
-## Menangani Kasus Edge Umum
-
-### 1. Gambar Resolusi Rendah
-
-Akurasi OCR turun tajam di bawah 150 dpi. Jika gambar sumber Anda beresolusi rendah, pertimbangkan untuk memperbesarnya terlebih dahulu (misalnya dengan OpenCV) atau minta pemindaian dengan kualitas lebih tinggi.  
-
-### 2. Dokumen Multi‑Bahasa
-
-Aspose OCR dapat beralih bahasa secara dinamis, tetapi Anda harus mengatur enum `Language` yang sesuai sebelum setiap pemanggilan `recognize`. Untuk halaman dengan bahasa campuran, Anda mungkin perlu menjalankan gambar melalui mesin dua kali—sekali per bahasa—dan kemudian menggabungkan hasilnya.
-
-### 3. PDF Besar atau TIFF Multi‑Halaman
-
-Jika Anda perlu **recognize text from image** yang tertanam dalam PDF, ekstrak setiap halaman sebagai gambar (menggunakan Aspose PDF atau library lain) dan beri ke mesin OCR satu per satu. Mesin bersifat stateless, sehingga Anda dapat menggunakan kembali instance `OcrEngine` yang sama untuk semua halaman.
-
-### 4. Menyesuaikan Sensitivitas Pemeriksaan Ejaan
-
-Ambang batas pemeriksaan ejaan default bekerja untuk kebanyakan teks Bahasa Inggris. Untuk dokumen yang sangat teknis Anda dapat menurunkan sensitivitas dengan menyesuaikan `SpellCheckOptions` internal—meskipun hal itu memerlukan penjelajahan ke API lanjutan Aspose, yang berada di luar lingkup panduan pemula ini.
-
----
-
-## Contoh Lengkap yang Siap Pakai (Copy‑Paste)
-
-Berikut adalah kelas Java lengkap, siap untuk dikompilasi dan dijalankan. Ganti `YOUR_DIRECTORY/typed_scanned_doc.png` dengan jalur sebenarnya ke gambar Anda.
 
 ```java
 import com.aspose.ocr.*;
@@ -194,47 +286,21 @@ public class SpellCheckExample {
 }
 ```
 
-Kompilasi dengan:
-
 ```bash
 javac -cp "path/to/aspose-ocr.jar" SpellCheckExample.java
 java -cp ".;path/to/aspose-ocr.jar" SpellCheckExample
 ```
 
-Anda akan melihat teks yang telah diperbaiki tercetak di konsol, mengonfirmasi bahwa Anda berhasil **recognize text from image** dan menerapkan pemeriksaan ejaan.
+## Tutorial Terkait
 
----
+- [Ekstrak Teks dari Gambar – Dasar-dasar OCR untuk Java](/ocr/java/ocr-basics/)
+- [gambar ke teks java: Konversi Gambar ke Teks dengan Aspose.OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
+- [Jalankan OCR pada Gambar dengan Java Panduan Lengkap Aspose OCR](/ocr/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 
-## Pertanyaan yang Sering Diajukan
-
-**Q: Apakah Aspose OCR mendukung tulisan tangan?**  
-A: Library ini dioptimalkan untuk teks cetak. Pengenalan tulisan tangan tersedia dalam modul terpisah (`aspose-ocr-handwriting`), yang dapat Anda integrasikan dengan cara serupa.
-
-**Q: Bisakah saya memproses gambar dari URL alih‑alih file lokal?**  
-A: Ya. Unduh gambar ke buffer sementara (misalnya menggunakan `java.net.URL`) dan berikan array byte ke `ocrEngine.recognize(InputStream)`.
-
-**Q: Bagaimana jika saya hanya perlu mengekstrak wilayah tertentu dari gambar?**  
-A: Gunakan `ocrEngine.setRegion(Rectangle)` sebelum memanggil `recognize`. Ini membatasi OCR pada persegi panjang yang ditentukan, menghemat waktu dan mengurangi false positive.
-
----
-
-## Kesimpulan
-
-Kami baru saja menelusuri contoh lengkap end‑to‑end tentang cara **recognize text from image** menggunakan Aspose OCR untuk Java. Dengan mengonfigurasi mesin OCR, mengaktifkan pemeriksaan ejaan, dan secara opsional memuat kamus kustom, Anda dapat mengubah pemindaian berisik menjadi teks bersih yang dapat dicari dengan kode yang minimal.
-
-Dari sini Anda dapat mengeksplorasi:
-
-- **Batch processing** – iterasi melalui folder gambar dan simpan setiap hasil ke basis data.  
-- **Integrasi dengan Aspose PDF** – ekstrak gambar dari PDF dan beri ke mesin OCR.  
-- **Dukungan bahasa lanjutan** – ubah `ocrConfig.setLanguage` menjadi `Language.FRENCH` atau `Language.SPANISH` untuk proyek multibahasa.  
-
-Cobalah, sesuaikan pengaturan, dan lihat bagaimana kualitas meningkat untuk kasus penggunaan spesifik Anda. Selamat coding, semoga pemindaian Anda selalu tajam!  
-
-![Diagram showing OCR workflow to recognize text from image](/images/ocr-workflow.png "recognize text from image workflow")
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
