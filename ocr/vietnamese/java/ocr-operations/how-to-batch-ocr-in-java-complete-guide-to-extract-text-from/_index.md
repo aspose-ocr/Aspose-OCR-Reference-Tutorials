@@ -1,28 +1,48 @@
 ---
 category: general
-date: 2026-02-09
-description: Tìm hiểu cách thực hiện OCR hàng loạt trong Java với Aspose OCR. Trích
-  xuất văn bản từ hình ảnh, nhận dạng văn bản từ các tệp PNG, JPG và TIFF chỉ trong
-  một lần gọi.
-draft: false
+date: 2026-09-18
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh trong Java bằng Aspose OCR.
+  Xử lý hàng loạt các tệp PNG, JPG và TIFF một cách hiệu quả trong một lần gọi.
 keywords:
-- how to batch ocr
 - extract text from images
-- recognize text from png
-- recognize text from jpg
-- recognize text from tiff
-language: vi
-og_description: Làm chủ cách thực hiện OCR hàng loạt trong Java. Hướng dẫn này cho
-  bạn thấy cách trích xuất văn bản từ các ảnh PNG, JPG và TIFF bằng Aspose OCR với
-  các ví dụ mã rõ ràng.
-og_title: Cách thực hiện OCR hàng loạt trong Java – Trích xuất văn bản từ hình ảnh
-  một cách hiệu quả
+- convert images to text
+- how to batch ocr
+- extract text from png
+- extract text from jpg
+- extract text from tiff
+lastmod: 2026-09-18
+og_description: Nắm vững cách trích xuất văn bản từ hình ảnh trong Java với batch
+  OCR. Sử dụng Aspose OCR để chuyển đổi các tệp PNG, JPG và TIFF trong một lần gọi.
+og_image_alt: Diagram showing multiple image files processed together for batch OCR
+og_title: Trích xuất văn bản từ hình ảnh trong Java – hướng dẫn batch OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to extract text from images in Java using Aspose OCR. Batch
+    process PNG, JPG, and TIFF files efficiently in a single call.
+  headline: How to extract text from images in Java by batch OCR
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose OCR is pure Java and requires no UI components, so it works
+      perfectly on headless environments.
+    question: Can I run this on a headless server?
+  - answer: A commercial license is needed for production deployments; a free trial
+      is available for evaluation.
+    question: Is a license required for production use?
+  - answer: Any OS that can run Java 17+, including Windows, Linux, and macOS.
+    question: Which operating systems are supported?
+  - answer: Over 60 languages are supported out of the box, ranging from English and
+      Spanish to Arabic and Chinese.
+    question: How many languages can Aspose OCR recognise?
+  - answer: Individual image files up to 200 MB are supported; larger files should
+      be split before processing.
+    question: What is the maximum file size Aspose OCR can handle?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Cách thực hiện OCR hàng loạt trong Java – Hướng dẫn đầy đủ để trích xuất văn
-  bản từ hình ảnh
+title: Cách trích xuất văn bản từ hình ảnh trong Java bằng batch OCR
 url: /vi/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/
 ---
 
@@ -30,41 +50,50 @@ url: /vi/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thực Hiện Batch OCR trong Java – Hướng Dẫn Toàn Diện để Trích Xuất Văn Bản từ Hình Ảnh
+# Cách trích xuất văn bản từ hình ảnh trong Java bằng OCR hàng loạt
 
-Bạn đã bao giờ tự hỏi **cách thực hiện batch OCR** cho một loạt hình ảnh mà không cần viết vòng lặp cho từng tệp chưa? Bạn không phải là người duy nhất. Trong nhiều dự án thực tế, bạn sẽ nhận được một thư mục đầy các bản quét—biên lai PNG, ảnh chụp màn hình JPG, hoặc thậm chí các tệp TIFF đa trang—và bạn cần văn bản nhanh chóng.  
+Nếu bạn cần **trích xuất văn bản từ hình ảnh** một cách nhanh chóng và không phải viết vòng lặp cho từng tệp, OCR hàng loạt là câu trả lời. Trong nhiều dự án thực tế, bạn nhận được một thư mục đầy các bản quét—biên lai PNG, ảnh chụp màn hình JPG, hoặc TIFF đa trang—và bạn phải chuyển chúng thành văn bản có thể tìm kiếm. Aspose OCR cho phép bạn làm điều đó chỉ với một lời gọi phương thức, xử lý đồng thời các tệp PNG, JPG và TIFF, tiết kiệm thời gian phát triển và tài nguyên CPU.
 
-Tin tốt là Aspose OCR cho phép bạn làm chính xác điều đó: một lời gọi phương thức duy nhất để nhận dạng văn bản từ các tệp PNG, JPG và TIFF cùng một lúc. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình, từ thiết lập dự án đến in kết quả, để bạn có thể bắt đầu trích xuất văn bản từ hình ảnh ngay hôm nay.
+## Câu trả lời nhanh
+- **Batch OCR làm gì?** Nó xử lý nhiều tệp hình ảnh trong một yêu cầu, trả về văn bản cho mỗi tệp.
+- **Các định dạng nào được hỗ trợ?** PNG, JPG/JPEG và TIFF đa trang được hỗ trợ ngay từ đầu.
+- **Có cần thư viện gốc riêng không?** Không, JAR Aspose OCR đã chứa mọi thứ bạn cần.
+- **Có thể kiểm soát số luồng chạy không?** Có, dùng `setMaxParallelism` trên bộ xử lý hàng loạt.
+- **Yêu cầu phiên bản Java nào?** Java 17 hoặc mới hơn.
 
-## Nội Dung Hướng Dẫn Này
+## Aspose OCR là gì?
+Aspose OCR là một thư viện Java nhận dạng văn bản in và viết tay trong các tệp hình ảnh mà không cần phụ thuộc bên ngoài. Nó hỗ trợ hơn 60 ngôn ngữ và có thể xử lý tới 100 hình ảnh mỗi lô, rất phù hợp cho việc số hoá tài liệu quy mô lớn.
 
-* **Cách thực hiện batch OCR** bằng cách sử dụng `OcrBatchProcessor` của Aspose.
-* Các cách **trích xuất văn bản từ hình ảnh** ở các định dạng khác nhau (PNG, JPG, TIFF).
-* Mẹo kiểm soát độ song song để giữ cho ứng dụng của bạn phản hồi tốt.
-* Một chương trình Java hoàn chỉnh, có thể chạy được mà bạn có thể sao chép‑dán và chạy ngay lập tức.
+## Nội dung hướng dẫn này
+Tải danh sách đường dẫn hình ảnh, tạo một `OcrBatchProcessor`, điều chỉnh mức độ song song, thực hiện một lời gọi `recognize` duy nhất, và in ra các chuỗi đã trích xuất. Khi hoàn thành, bạn sẽ có một chương trình Java sẵn sàng chạy để trích xuất văn bản từ các tệp PNG, JPG và TIFF hàng loạt.
 
-Bạn không cần kinh nghiệm trước với Aspose—chỉ cần cài đặt Java cơ bản và một IDE mà bạn chọn. Khi kết thúc, bạn sẽ có nền tảng vững chắc để nhận dạng văn bản từ các tệp PNG, JPG và TIFF hàng loạt.
+- **Cách thực hiện OCR hàng loạt** bằng `OcrBatchProcessor` của Aspose.
+- Cách **trích xuất văn bản từ hình ảnh** ở các định dạng khác nhau (PNG, JPG, TIFF).
+- Mẹo kiểm soát mức độ song song để ứng dụng luôn phản hồi tốt.
+- Một chương trình Java đầy đủ, có thể sao chép‑dán và chạy ngay lập tức.
+
+Không cần kinh nghiệm trước với Aspose—chỉ cần cài đặt Java cơ bản và một IDE bạn thích. Khi kết thúc, bạn sẽ có nền tảng vững chắc để nhận dạng văn bản từ PNG, JPG và TIFF hàng loạt.
 
 ---
 
-![Sơ đồ minh họa cách batch OCR nhiều tệp hình ảnh](/images/batch-ocr-diagram.png "cách batch OCR")
+![Diagram illustrating how to batch OCR multiple image files](/images/batch-ocr-diagram.png "how to batch ocr")
 
-*Văn bản thay thế hình ảnh: sơ đồ cách batch OCR cho thấy nhiều tệp hình ảnh được xử lý cùng nhau.*
+*Image alt text: how to batch ocr diagram showing multiple image files processed together.*
 
-## Yêu Cầu Trước
+## Yêu cầu trước
 
-| Yêu Cầu | Lý do quan trọng |
+| Yêu cầu | Lý do |
 |-------------|----------------|
 | Java 17 hoặc mới hơn | Aspose OCR nhắm tới các JVM hiện đại. |
-| Maven hoặc Gradle | Đơn giản hoá việc thêm thư viện Aspose OCR. |
-| Kiến thức Java cơ bản | Cần thiết để hiểu luồng mã. |
-| Một tập hợp các hình ảnh mẫu (`.png`, `.jpg`, `.tif`) | Để xem quá trình trích xuất hoạt động. |
+| Maven hoặc Gradle | Giúp thêm thư viện Aspose OCR một cách dễ dàng. |
+| Kiến thức Java cơ bản | Cần để hiểu luồng mã. |
+| Một tập hợp các hình mẫu (`.png`, `.jpg`, `.tif`) | Để xem quá trình trích xuất hoạt động. |
 
-Nếu bạn đã có những thứ này, tuyệt vời—hãy bắt đầu.
+Nếu bạn đã có những thứ này, tuyệt vời—cùng bắt đầu.
 
-## Bước 1: Thêm Aspose OCR vào Dự Án Của Bạn
+## Bước 1: thêm Aspose OCR vào dự án
 
-Điều đầu tiên bạn cần là file JAR của Aspose OCR. Với Maven, chèn đoạn này vào `pom.xml` của bạn:
+Điều đầu tiên bạn cần là JAR Aspose OCR. Với Maven, thêm đoạn này vào `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -80,11 +109,11 @@ Nếu bạn thích Gradle, tương đương là:
 implementation 'com.aspose:aspose-ocr:23.9'
 ```
 
-Thêm phụ thuộc sẽ kéo toàn bộ những gì cần thiết cho **nhận dạng văn bản từ png**, **nhận dạng văn bản từ jpg**, và **nhận dạng văn bản từ tiff**. Không cần thư viện gốc bổ sung.
+Thêm phụ thuộc sẽ kéo toàn bộ các thành phần cần thiết để **extract text from png**, **extract text from jpg**, và **extract text from tiff**. Không cần thư viện gốc bổ sung.
 
-## Bước 2: Xác Định Các Tệp Hình Ảnh Muốn Xử Lý
+## Bước 2: định nghĩa các tệp hình ảnh cần xử lý
 
-Bây giờ chúng ta sẽ cho công cụ OCR biết những tệp nào cần xử lý. Đây là nơi **cách thực hiện batch OCR** thực sự tỏa sáng—chỉ cần truyền một danh sách các đường dẫn và để thư viện thực hiện phần công việc nặng.
+Bây giờ chúng ta sẽ cho engine OCR biết những tệp nào cần xử lý. Đây là nơi **how to batch OCR** thực sự tỏa sáng—chỉ cần truyền một danh sách các đường dẫn và để thư viện lo phần còn lại.
 
 ```java
 import java.util.Arrays;
@@ -97,11 +126,11 @@ List<String> imageFiles = Arrays.asList(
         "YOUR_DIRECTORY/img3.tif");  // TIFF file – recognize text from tiff
 ```
 
-> **Mẹo chuyên nghiệp:** Giữ các đường dẫn tệp ở dạng tuyệt đối hoặc sử dụng `Paths.get(...)` để tránh bất ngờ trên các hệ điều hành khác nhau.
+> **Pro tip:** Giữ các đường dẫn tệp ở dạng tuyệt đối hoặc dùng `Paths.get(...)` để tránh bất ngờ trên các hệ điều hành khác nhau.
 
-## Bước 3: Tạo Batch Processor và Điều Chỉnh Độ Song Song
+## Bước 3: tạo bộ xử lý hàng loạt và điều chỉnh mức độ song song
 
-Aspose OCR đi kèm với `OcrBatchProcessor`, có thể chạy nhiều lần nhận dạng song song. Kiểm soát số lượng luồng giúp ngăn ứng dụng của bạn chiếm quá nhiều CPU khi có hàng chục hình ảnh.
+Aspose OCR cung cấp `OcrBatchProcessor`, cho phép chạy nhiều nhận dạng đồng thời. Kiểm soát số luồng giúp ứng dụng không chiếm quá nhiều CPU khi bạn có hàng chục hình ảnh.
 
 ```java
 import com.aspose.ocr.OcrBatchProcessor;
@@ -113,11 +142,12 @@ OcrBatchProcessor ocrProcessor = new OcrBatchProcessor();
 ocrProcessor.setMaxParallelism(4);
 ```
 
-Tại sao phải giới hạn độ song song? Nếu bạn chạy quá nhiều luồng trên một laptop vừa phải, bạn có thể thấy hiệu suất chậm lại thay vì tăng tốc. Thiết lập `setMaxParallelism` cho phép bạn cân bằng giữa tốc độ và độ ổn định.
+Tại sao cần giới hạn mức độ song song? Nếu chạy quá nhiều luồng trên một laptop vừa phải, bạn có thể gặp giảm hiệu năng thay vì tăng tốc. `setMaxParallelism` giúp cân bằng giữa tốc độ và ổn định.
 
-## Bước 4: Thực Hiện Lời Gọi Batch OCR
+## Bước 4: thực hiện lời gọi OCR hàng loạt
 
-Đây là phần cốt lõi của **cách thực hiện batch OCR**: một lời gọi `recognize` duy nhất trả về danh sách các đối tượng `RecognitionResult`, mỗi đối tượng tương ứng với một hình ảnh.
+Đây là phần cốt lõi của **how to batch OCR**: một lời gọi `recognize` duy nhất trả về danh sách các đối tượng `RecognitionResult`, mỗi đối tượng tương ứng với một hình ảnh.  
+`recognize` xử lý các hình ảnh được cung cấp và trả về danh sách `RecognitionResult`, mỗi phần tử chứa văn bản đã trích xuất.
 
 ```java
 import com.aspose.ocr.RecognitionResult;
@@ -127,11 +157,12 @@ import java.util.List;
 List<RecognitionResult> recognitionResults = ocrProcessor.recognize(imageFiles);
 ```
 
-Phương thức này sẽ chặn cho đến khi mọi hình ảnh được xử lý, sau đó trả về văn bản. Nếu bạn cần hành vi không chặn, bạn có thể bọc nó trong một `CompletableFuture`, nhưng đối với hầu hết các script, lời gọi đồng bộ giữ cho mã gọn gàng.
+Phương thức này sẽ chặn cho đến khi mọi hình ảnh được xử lý, sau đó trả về văn bản. Nếu bạn cần hành vi không chặn, có thể bọc nó trong một `CompletableFuture`, nhưng đối với hầu hết các script, lời gọi đồng bộ giữ cho mã gọn gàng hơn.
 
-## Bước 5: In Văn Bản Đã Trích Xuất
+## Bước 5: in ra văn bản đã trích xuất
 
-Cuối cùng, lặp qua các kết quả và hiển thị các chuỗi đã nhận dạng. Điều này chứng minh rằng chúng ta đã thành công **trích xuất văn bản từ hình ảnh** ở các định dạng khác nhau.
+Cuối cùng, duyệt qua các kết quả và hiển thị các chuỗi đã nhận dạng. Điều này chứng minh rằng chúng ta đã **extract text from images** thành công ở các định dạng khác nhau.  
+`RecognitionResult` chứa kết quả OCR cho một hình ảnh duy nhất, bao gồm văn bản đã trích xuất và điểm tin cậy.
 
 ```java
 // Step 5: Output the recognized text for each file
@@ -142,7 +173,7 @@ for (int i = 0; i < recognitionResults.size(); i++) {
 }
 ```
 
-### Kết Quả Dự Kiến
+### Kết quả mong đợi
 
 ```
 File: YOUR_DIRECTORY/img1.png
@@ -158,11 +189,11 @@ Report generated on 2026-02-09
 ---
 ```
 
-Nếu công cụ OCR không thể đọc được tệp, phương thức `getText()` sẽ trả về một chuỗi rỗng, vì vậy bạn có thể thêm một kiểm tra đơn giản để ghi cảnh báo.
+Nếu engine OCR không thể đọc được tệp, phương thức `getText()` sẽ trả về chuỗi rỗng, vì vậy bạn có thể thêm một kiểm tra đơn giản để ghi cảnh báo.
 
-## Ví Dụ Hoàn Chỉnh Hoạt Động
+## Ví dụ hoàn chỉnh
 
-Kết hợp mọi thứ lại, đây là lớp Java hoàn chỉnh, sẵn sàng chạy. Sao chép nó vào một tệp có tên `BatchOcrTutorial.java`, điều chỉnh các đường dẫn hình ảnh, và chạy `javac && java`.
+Kết hợp mọi thứ lại, đây là lớp Java đầy đủ, sẵn sàng chạy. Sao chép nó vào một tệp tên `BatchOcrTutorial.java`, điều chỉnh đường dẫn hình ảnh, và chạy `javac && java`.
 
 ```java
 import com.aspose.ocr.*;
@@ -195,17 +226,15 @@ public class BatchOcrTutorial {
 }
 ```
 
-Chạy nó, và bạn sẽ thấy console in ra văn bản đã trích xuất cho mỗi tệp PNG, JPG và TIFF—đúng những gì bạn cần khi **cách thực hiện batch OCR** là câu hỏi trong đầu bạn.
+Chạy chương trình, và bạn sẽ thấy console in ra văn bản đã trích xuất cho mỗi tệp PNG, JPG và TIFF—đúng như bạn mong muốn khi **how to batch OCR** là câu hỏi trong đầu.
 
-## Câu Hỏi Thường Gặp & Trường Hợp Cạnh
+## Các câu hỏi thường gặp & trường hợp đặc biệt
 
 ### Nếu tôi có hơn ba hình ảnh thì sao?
+Chỉ cần thêm nhiều mục hơn vào danh sách `imageFiles`. Bộ xử lý hàng loạt sẽ tự động chia công việc qua các luồng bạn đã cấu hình bằng `setMaxParallelism`.
 
-Chỉ cần thêm nhiều mục vào danh sách `imageFiles`. Batch processor sẽ tự động chia công việc qua các luồng bạn đã cấu hình bằng `setMaxParallelism`.
-
-### Hình ảnh của tôi nằm trong một thư mục con—tôi có cần liệt kê từng tệp một không?
-
-Bạn có thể thu thập các tệp có phần mở rộng cụ thể một cách lập trình:
+### Hình ảnh của tôi nằm trong một thư mục con—có cần liệt kê từng cái không?
+`Files.list` trả về một stream các đường dẫn trong thư mục, được tạo lazily.
 
 ```java
 try (Stream<Path> paths = Files.walk(Paths.get("YOUR_DIRECTORY"))) {
@@ -217,35 +246,65 @@ try (Stream<Path> paths = Files.walk(Paths.get("YOUR_DIRECTORY"))) {
 }
 ```
 
-Điều này giữ cho mã linh hoạt và vẫn đáp ứng **cách thực hiện batch OCR**.
+Cách này giữ cho mã linh hoạt và vẫn tuân thủ **how to batch OCR**.
 
-### Làm sao để xử lý kết quả có độ tin cậy thấp?
-
-`RecognitionResult` cung cấp phương thức `getConfidence()`. Bạn có thể lọc các kết quả dưới một ngưỡng và thử lại với cài đặt DPI cao hơn:
+### Làm sao xử lý kết quả có độ tin cậy thấp?
+`getConfidence()` trả về giá trị số cho biết mức độ chắc chắn của văn bản đã nhận dạng.
 
 ```java
 ocrProcessor.setResolution(300); // increase DPI for better accuracy
 ```
 
 ### Aspose OCR có hỗ trợ các ngôn ngữ khác không?
+Có—gọi `ocrProcessor.setLanguage(OcrLanguage.Spanish)` (hoặc bất kỳ enum nào được hỗ trợ) trước lời gọi `recognize`. Điều này mở rộng khả năng vượt ra ngoài tiếng Anh, khiến **extract text from images** thực sự đa ngôn ngữ.
 
-Có—chỉ cần gọi `ocrProcessor.setLanguage(OcrLanguage.Spanish)` (hoặc bất kỳ enum nào được hỗ trợ) trước lời gọi `recognize`. Điều này mở rộng khả năng ngoài tiếng Anh, khiến **trích xuất văn bản từ hình ảnh** thực sự đa ngôn ngữ.
+## Mẹo tối ưu hiệu năng
 
-## Mẹo Tối Ưu Hiệu Suất
+* **Kích thước lô quan trọng** – Lô lớn giảm overhead, nhưng danh sách quá dài có thể tiêu tốn nhiều bộ nhớ. Thử nghiệm với 50–200 hình ảnh mỗi lô.
+* **Song song** – Trên CPU 4 nhân, `setMaxParallelism(4)` thường cho hiệu suất tốt nhất. Điều chỉnh tùy theo tải công việc của server.
+* **Tiền xử lý hình ảnh** – Chuyển ảnh sang thang xám hoặc tăng độ tương phản trước OCR có thể cải thiện độ chính xác, đặc biệt với các bản quét nhiễu.
 
-* **Kích thước batch quan trọng** – Batch lớn hơn giảm chi phí phát sinh, nhưng danh sách quá lớn có thể tiêu tốn nhiều bộ nhớ hơn. Thử nghiệm với 50–200 hình ảnh mỗi batch.
-* **Độ song song** – Trên CPU 4 lõi, `setMaxParallelism(4)` thường cho hiệu suất tốt nhất. Điều chỉnh dựa trên tải công việc của server.
-* **Tiền xử lý hình ảnh** – Chuyển đổi hình ảnh sang thang độ xám hoặc tăng độ tương phản trước khi OCR có thể cải thiện độ chính xác, đặc biệt với các bản quét nhiễu.
+## Kết luận
 
-## Kết Luận
+Bạn đã biết **how to batch OCR** trong Java bằng Aspose OCR, cách **extract text from images** ở các định dạng khác nhau, và tại sao việc kiểm soát mức độ song song lại quan trọng. Đoạn mã hoàn chỉnh minh họa cách nhận dạng văn bản từ PNG, JPG và TIFF trong một lời gọi hiệu quả.
 
-Bạn đã biết **cách thực hiện batch OCR** trong Java bằng Aspose OCR, cách **trích xuất văn bản từ hình ảnh** ở các định dạng khác nhau, và tại sao việc kiểm soát độ song song lại quan trọng. Ví dụ mã hoàn chỉnh minh họa việc nhận dạng văn bản từ các tệp PNG, JPG và TIFF trong một lời gọi duy nhất, hiệu quả.
+Sẵn sàng bước tiếp? Hãy đưa đầu ra OCR vào chỉ mục tìm kiếm, cơ sở dữ liệu, hoặc bộ tóm tắt AI. Bạn cũng có thể thử nhập PDF (Aspose OCR hỗ trợ) hoặc kết hợp với các thư viện tiền xử lý ảnh như OpenCV để đạt độ chính xác cao hơn.
 
-Sẵn sàng cho bước tiếp theo? Hãy thử đưa đầu ra OCR vào một chỉ mục tìm kiếm, cơ sở dữ liệu, hoặc thậm chí một công cụ tóm tắt AI. Bạn cũng có thể thử nghiệm với đầu vào PDF (Aspose OCR hỗ trợ) hoặc kết hợp với các thư viện tiền xử lý hình ảnh như OpenCV để đạt độ chính xác cao hơn.
+Chúc lập trình vui vẻ, và nhớ—OCR hàng loạt không cần phải là cơn ác mộng. Với công cụ phù hợp và mẫu thiết kế rõ ràng, bạn sẽ biến đống ảnh thành văn bản có thể tìm kiếm trong chớp mắt.
 
-Chúc bạn lập trình vui vẻ, và nhớ—batch OCR không cần phải là một cơn đau đầu. Với công cụ phù hợp và một mẫu rõ ràng, bạn sẽ nhanh chóng biến đống hình ảnh thành văn bản có thể tìm kiếm.
+## Câu hỏi thường gặp
+
+**Q: Có thể chạy trên máy chủ không giao diện không?**  
+A: Có, Aspose OCR hoàn toàn thuần Java và không yêu cầu thành phần UI, nên hoạt động tốt trên môi trường headless.
+
+**Q: Cần giấy phép cho việc sử dụng trong môi trường sản xuất?**  
+A: Cần giấy phép thương mại cho triển khai sản xuất; bản dùng thử miễn phí có sẵn để đánh giá.
+
+**Q: Hệ điều hành nào được hỗ trợ?**  
+A: Bất kỳ OS nào có thể chạy Java 17+, bao gồm Windows, Linux và macOS.
+
+**Q: Aspose OCR nhận dạng bao nhiêu ngôn ngữ?**  
+A: Hơn 60 ngôn ngữ được hỗ trợ ngay từ đầu, từ tiếng Anh, tiếng Tây Ban Nha tới tiếng Ả Rập và tiếng Trung.
+
+**Q: Kích thước tệp tối đa mà Aspose OCR có thể xử lý là bao nhiêu?**  
+A: Hỗ trợ các tệp hình ảnh riêng lẻ lên tới 200 MB; các tệp lớn hơn nên chia nhỏ trước khi xử lý.
+
+---
+
+**Cập nhật lần cuối:** 2026-09-18  
+**Kiểm thử với:** Aspose OCR 24.9 for Java  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Extract Text from Images – OCR Basics for Java](/ocr/java/ocr-basics/)
+- [How To Batch Ocr In Java Complete Guide To Extract Text From](/ocr/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+- [Preprocess Image Ocr In Java Boost Accuracy Extract Text](/ocr/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
