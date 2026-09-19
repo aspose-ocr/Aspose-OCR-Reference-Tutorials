@@ -85,6 +85,8 @@ Mở khóa khả năng OCR hàng loạt trong Java, giúp bạn trích xuất v�
 Mở khóa khả năng chạy OCR trên hình ảnh trong Java, hướng dẫn chi tiết từ cài đặt đến trích xuất văn bản chính xác.
 ### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn từng bước](./create-searchable-pdf-in-java-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm trong Java, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu thành dạng có thể tìm kiếm.
+### [Cách chuyển đổi hình ảnh thành văn bản trong Java với Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Mở khóa khả năng chuyển đổi hình ảnh thành văn bản trong Java bằng Aspose OCR, hướng dẫn chi tiết từng bước.
 
 ## Câu hỏi Thường gặp
 
@@ -125,4 +127,3 @@ Hướng dẫn chi tiết cách chuyển đổi ảnh thành PDF có thể tìm 
 Mở khóa khả năng chuyển đổi hàng loạt hình ảnh thành văn bản bằng OCR trong Java, tăng năng suất và độ chính xác.
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu.
-

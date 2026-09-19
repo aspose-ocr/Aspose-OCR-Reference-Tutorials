@@ -91,6 +91,8 @@ Java का उपयोग करके इमेज पर OCR लागू �
 ### [Java में सर्चेबल PDF बनाएं – चरण‑बाय‑चरण गाइड](./create-searchable-pdf-in-java-step-by-step-guide/)
 Java में Aspose.OCR का उपयोग करके सर्चेबल PDF बनाने की पूरी प्रक्रिया, सेटअप से परिणाम तक।
 
+### [Java में Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: मैं स्कैन की हुई PDF को सर्च करने लायक PDF में कैसे बदलूँ?**
@@ -130,4 +132,3 @@ PNG इमेज को सर्चेबल PDF में बदलने क�
 इमेज को OCR के साथ प्रोसेस करके सर्चेबल PDF बनाने के लिए Java में Aspose.OCR का विस्तृत मार्गदर्शन।
 ### [Java में इमेज को टेक्स्ट में बदलें – बैच OCR प्रोसेसिंग गाइड](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Java में बैच OCR के साथ इमेज को टेक्स्ट में बदलें। बड़े पैमाने पर इमेज प्रोसेसिंग के लिए गाइड।
-

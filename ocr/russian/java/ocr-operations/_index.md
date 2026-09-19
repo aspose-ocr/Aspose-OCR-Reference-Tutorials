@@ -85,6 +85,7 @@ weight: 21
 Полное руководство по пакетному OCR в Java: извлечение текста из множества изображений за один проход.
 ### [Запуск OCR на изображении с Java – Полное руководство Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Полное руководство по запуску OCR на изображении в Java с использованием Aspose.OCR, шаг за шагом.
+### [Как конвертировать изображение в текст в Java с Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 
 ## Часто задаваемые вопросы
 
@@ -126,4 +127,3 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 Пакетный OCR в Java: конвертируйте множество изображений в текст быстро и точно с помощью Aspose.OCR.
 ### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
-
