@@ -84,6 +84,7 @@ Aspose.OCR を使用した Java での強力なテキスト認識を実現しま
 Java で大量の画像からテキストを一括抽出する方法をステップバイステップで解説します。
 ### [Java で画像の OCR を実行する – 完全 Aspose OCR ガイド](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Java を使用して画像からテキストを抽出する手順を完全に解説し、Aspose OCR の設定とベストプラクティスを紹介します。
+### [Java で Aspose OCR を使用して画像をテキストに変換する方法](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 
 ## よくある質問
 
@@ -124,4 +125,3 @@ PNG 画像を OCR で認識し、検索可能な PDF に変換する手順を Ja
 Java を使用して複数画像を一括で OCR 処理し、テキストへ変換する方法をステップバイステップで解説します。
 ### [Aspose OCR で検索可能な PDF を作成 – ステップバイステップガイド](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR を使用して PDF を検索可能に変換する手順を詳しく解説します。
-

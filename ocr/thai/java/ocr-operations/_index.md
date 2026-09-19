@@ -82,6 +82,7 @@ weight: 21
 เรียนรู้วิธีประมวลผล OCR หลายไฟล์พร้อมกันใน Java เพื่อสกัดข้อความจากรูปภาพอย่างมีประสิทธิภาพ  
 ### [ทำ OCR บนรูปภาพด้วย Java – คู่มือเต็ม Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อทำ OCR บนรูปภาพอย่างเต็มรูปแบบและได้ผลลัพธ์แม่นยำ  
+### [วิธีแปลงรูปภาพเป็นข้อความใน Java ด้วย Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 ### [สร้าง PDF ที่ค้นหาได้ใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
 
@@ -119,7 +120,7 @@ weight: 21
 ### [สร้าง PDF ที่ค้นหาได้จาก PNG – คู่มือ Java ฉบับสมบูรณ์](./create-searchable-pdf-from-png-complete-java-guide/)
 แปลงไฟล์ PNG ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
 ### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย OCR – คู่มือ Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
-แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน
+แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
 ### [แปลงรูปภาพเป็นข้อความใน Java – คู่มือการประมวลผล OCR แบบกลุ่ม](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 แปลงรูปภาพเป็นข้อความใน Java ด้วยการประมวลผล OCR แบบกลุ่ม – คู่มือขั้นตอนเต็ม  
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
@@ -130,4 +131,3 @@ weight: 21
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

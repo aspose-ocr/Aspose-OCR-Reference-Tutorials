@@ -83,6 +83,8 @@ Leer hoe u meerdere afbeeldingen in één keer kunt verwerken met Aspose.OCR voo
 ### [OCR uitvoeren op afbeelding met Java – Complete Aspose OCR-gids](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Leer stap‑voor‑stap hoe u OCR toepast op afbeeldingen in Java met Aspose.OCR voor optimale nauwkeurigheid.
 ### [Maak doorzoekbare PDF in Java – Stapsgewijze gids](./create-searchable-pdf-in-java-step-by-step-guide/)
+### [Hoe afbeelding naar tekst converteren in Java met Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Leer hoe u met Aspose OCR in Java afbeeldingen naar bewerkbare tekst converteert.
 
 ## Veelgestelde vragen
 
@@ -123,4 +125,3 @@ Leer hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van een afbeelding.
 Ontgrendel de kracht van batch OCR om meerdere afbeeldingen in Java naar tekst te converteren.
 ### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR een doorzoekbare PDF maakt in een eenvoudige stap‑voor‑stap handleiding.
-

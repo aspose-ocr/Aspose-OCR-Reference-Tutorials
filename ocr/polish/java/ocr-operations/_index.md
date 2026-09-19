@@ -83,6 +83,8 @@ Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpo
 Odblokuj moc przetwarzania wsadowego obrazów w Javie z Aspose.OCR, aby szybko wyodrębnić tekst z wielu plików.
 ### [Uruchom OCR na obrazie w Javie – Kompletny przewodnik Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Odblokuj pełną moc OCR na obrazach w Javie z Aspose.OCR, uzyskaj szybkie i dokładne wyniki rozpoznawania tekstu.
+### [Jak przekonwertować obraz na tekst w Javie przy użyciu Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Szybki przewodnik, jak w Javie przy użyciu Aspose OCR zamienić obraz w tekst.
 ### [Tworzenie przeszukiwalnego PDF w Javie – przewodnik krok po kroku](./create-searchable-pdf-in-java-step-by-step-guide/)
 Dowiedz się, jak w kilku krokach przekształcić dokument PDF w przeszukiwalny plik przy użyciu Aspose.OCR dla Javy.
 
@@ -127,4 +129,3 @@ Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić obraz w przeszu
 Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspose.OCR w Javie.
 ### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
-
