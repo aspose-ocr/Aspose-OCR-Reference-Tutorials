@@ -37,15 +37,15 @@ Efficiëntie is van cruciaal belang bij .NET-toepassingen, en Aspose.OCR is er o
 
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer tekst moeiteloos uit PDF's en integreer naadloos in uw applicaties. Deze tutorial biedt een uitgebreide handleiding voor het herkennen van tekst in PDF's, waardoor een naadloze en efficiënte integratie-ervaring wordt gegarandeerd.
 
-### [Hoe PDF OCR'en in C# – Complete gids voor het extraheren van tekst uit PDF's](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
-Leer stap voor stap hoe u met Aspose.OCR PDF's OCR't in C# en tekst efficiënt uit PDF-bestanden extraheert.
-
 ## Herken tabel in OCR-beeldherkenning
 
 Navigeer door de complexiteit van het herkennen van tabellen in OCR-beeldherkenning met Aspose.OCR voor .NET. Onze uitgebreide gids stelt u in staat het volledige potentieel van Aspose.OCR te benutten, waardoor nauwkeurige en efficiënte tabelherkenning in uw toepassingen wordt gegarandeerd. Verbeter uw projecten met de toonaangevende OCR-oplossing.
 
 Klaar om een revolutie teweeg te brengen in uw .NET-applicaties? Duik in onze tekstherkenningstutorials en benut de kracht van Aspose.OCR voor nauwkeurige en efficiënte tekstherkenning in afbeeldingen. Download nu en begin aan een reis met verbeterde OCR-mogelijkheden.
 ## Tutorials voor tekstherkenning
+### [Hoe PDF OCR'en in C# – Complete gids voor het extraheren van tekst uit PDF's](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Leer stap voor stap hoe u met Aspose.OCR PDF's OCR't in C# en tekst efficiënt uit PDF-bestanden extraheert.
+
 ### [Krijg keuzes voor herkende tekens in OCR-beeldherkenning](./get-choices-for-recognized-characters/)
 Verbeter uw .NET-applicaties met Aspose.OCR voor nauwkeurige tekenherkenning. Volg onze stapsgewijze handleiding om keuzes voor herkende karakters in beeldherkenning op te halen.
 ### [Ontvang herkenningsresultaat in OCR-beeldherkenning](./get-recognition-result/)
@@ -56,10 +56,23 @@ Ontketen de kracht van Aspose.OCR voor .NET. Leer moeiteloos OCR-resultaten in J
 Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenning. Ontdek de OCR-modus voor detectiegebieden voor nauwkeurige resultaten.
 ### [Herken PDF in OCR-beeldherkenning](./recognize-pdf/)
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
-### [Hoe PDF OCR'en in C# – Complete gids voor het extraheren van tekst uit PDF's](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
-Leer stap voor stap hoe u met Aspose.OCR PDF's OCR't in C# en tekst efficiënt uit PDF-bestanden extraheert.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
+### [Tekst uit afbeelding extraheren met Aspose OCR – C# Quickstart](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Leer hoe u met Aspose OCR en C# snel tekst uit een afbeelding kunt extraheren.
+
+### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeelding en tekst herkennen van foto](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Leer hoe u met Aspose OCR en C# snel tekst uit een afbeelding kunt extraheren en foto's kunt analyseren.
+
+### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeeldingen met GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Leer hoe u met Aspose.OCR en C# GPU-versnelling gebruikt om tekst uit afbeeldingen te extraheren voor snellere OCR-prestaties.
+
+### [Hoe een bon te lezen in C# – OCR + Regex-gids](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Leer hoe u met Aspose.OCR en C# bonnen kunt uitlezen en gegevens met regex kunt extraheren.
+
+### [Hoe OCR uit te voeren op Arabische afbeeldingen – Tekst extraheren in C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Leer hoe u met Aspose.OCR Arabische tekst uit afbeeldingen haalt in C# voor nauwkeurige en efficiënte OCR.
+
 ### [Herken Hindi-tekst in C# – Complete Aspose OCR-gids](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 Leer hoe u Hindi-tekst in C# kunt herkennen met Aspose OCR in deze volledige stap‑voor‑stap gids.
 ### [Tekst extraheren uit afbeelding in C# – Offline OCR-voorbeeld](./extract-text-from-image-in-c-offline-ocr-example/)
@@ -90,16 +103,6 @@ Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een afbeelding, s
 Leer hoe u met Aspose.OCR in C# OCR-resultaten naar JSON converteert met een volledige stap‑voor‑stap handleiding.
 ### [Hoe OCR uit te voeren op multi‑page TIFF‑afbeeldingen met Aspose OCR – C#‑gids](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 Leer stap voor stap hoe u met Aspose OCR in C# OCR uitvoert op multi‑page TIFF‑bestanden voor nauwkeurige tekstextractie.
-### [Tekst uit afbeelding extraheren met Aspose OCR – C# Quickstart](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
-Leer hoe u met Aspose OCR en C# snel tekst uit een afbeelding kunt extraheren.
-### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeelding en tekst herkennen van foto](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
-Leer hoe u met Aspose OCR en C# snel tekst uit een afbeelding kunt extraheren en foto's kunt analyseren.
-### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeeldingen met GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
-Leer hoe u met Aspose.OCR en C# GPU-versnelling gebruikt om tekst uit afbeeldingen te extraheren voor snellere OCR-prestaties.
-### [Hoe een bon te lezen in C# – OCR + Regex-gids](./how-to-read-receipt-in-c-ocr-regex-guide/)
-Leer hoe u met Aspose.OCR en C# bonnen kunt uitlezen en gegevens met regex kunt extraheren.
-### [Hoe OCR uit te voeren op Arabische afbeeldingen – Tekst extraheren in C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
-Leer hoe u met Aspose.OCR Arabische tekst uit afbeeldingen haalt in C# voor nauwkeurige en efficiënte OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

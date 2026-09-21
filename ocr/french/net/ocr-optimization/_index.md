@@ -75,6 +75,13 @@ Explorez Aspose.OCR pour .NET. Améliorez la précision de l'OCR avec des filtre
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
+Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
+### [Comment améliorer la précision OCR en C# avec Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Apprenez des techniques avancées pour augmenter la précision OCR dans vos applications C# avec Aspose OCR.
+
+### [Comment faire de l'OCR asynchrone en C# – Guide complet étape par étape](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Apprenez à implémenter l'OCR asynchrone en C# avec Aspose.OCR, en suivant un guide complet et détaillé.
+
 ### [Comment utiliser Aspose OCR avec GPU – Guide étape par étape](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 Apprenez à exploiter la puissance du GPU avec Aspose OCR pour accélérer vos traitements d'image.
 ### [Prétraiter l'image OCR en C# – Guide complet avec filtres](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
@@ -142,10 +149,6 @@ Apprenez à corriger l’inclinaison des images avant l’OCR avec Aspose.OCR en
 
 ### [Extraire du texte d'une image en C# – Guide complet OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
 Apprenez à extraire du texte d'images en C# avec Aspose.OCR, en suivant un guide complet étape par étape.
-### [Comment améliorer la précision OCR en C# avec Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
-Apprenez des techniques avancées pour augmenter la précision OCR dans vos applications C# avec Aspose OCR.
-### [Comment faire de l'OCR asynchrone en C# – Guide complet étape par étape](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
-Apprenez à implémenter l'OCR asynchrone en C# avec Aspose.OCR, en suivant un guide complet et détaillé.
 
 ## Questions fréquemment posées
 
