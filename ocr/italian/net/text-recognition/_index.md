@@ -85,6 +85,20 @@ Scopri come convertire un'immagine in JSON usando OCR con C#, seguendo una guida
 Impara a generare PDF ricercabili a partire da immagini in arabo usando Aspose.OCR per .NET in questa guida passo passo.
 ### [Come eseguire OCR su immagini TIFF multi‑pagina con Aspose OCR – Guida C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 Scopri come eseguire OCR su immagini TIFF multi‑pagina usando Aspose OCR in C#, con una guida passo passo.
+### [Come fare OCR su PDF in C# – Guida completa per estrarre testo dai PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Scopri come utilizzare Aspose.OCR in C# per estrarre testo da PDF in modo semplice e completo.
+### [Estrai testo da immagine con Aspose OCR – Quickstart C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Scopri come estrarre rapidamente testo da un'immagine usando Aspose OCR con C# in pochi passaggi.
+### [Come usare OCR in C# – Estrarre testo da immagine e riconoscere testo da foto](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Impara a utilizzare Aspose.OCR in C# per estrarre testo da immagini e riconoscere il contenuto delle foto in pochi passaggi.
+### [Come usare OCR in C# – Estrarre testo da immagini con GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Impara a utilizzare Aspose.OCR in C# per estrarre testo da immagini sfruttando la GPU per prestazioni elevate.
+### [Crea PDF Ricercabile da Immagine – Guida Completa C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Impara a trasformare un'immagine in un PDF ricercabile usando Aspose.OCR con C#, passo dopo passo.
+### [Come leggere una ricevuta in C# – Guida OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Scopri come utilizzare Aspose.OCR e le espressioni regolari in C# per estrarre dati da ricevute in modo rapido ed efficace.
+### [Come eseguire OCR su immagini arabe – Estrarre testo in C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Scopri come utilizzare Aspose.OCR in C# per eseguire OCR su immagini in arabo e estrarre testo con precisione.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

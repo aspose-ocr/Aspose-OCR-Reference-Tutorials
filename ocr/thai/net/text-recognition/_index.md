@@ -50,7 +50,27 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลงรูปภาพเป็น JSON ด้วย Aspose OCR ใน C# อย่างง่ายดายและรวดเร็ว
 ### [OCR ตรวจจับโหมดพื้นที่ในการจดจำภาพ OCR](./ocr-detect-areas-mode/)
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
+### [วิธีทำ OCR PDF ใน C# – คู่มือฉบับสมบูรณ์เพื่อดึงข้อความจาก PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+เรียนรู้ขั้นตอนเต็มรูปแบบในการใช้ Aspose.OCR กับ C# เพื่อแปลง PDF เป็นข้อความอย่างแม่นยำและรวดเร็ว
+
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
+### [ดึงข้อความจากรูปภาพด้วย Aspose OCR – ควิกสตาร์ท C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย Aspose OCR ใน C# อย่างรวดเร็วตามขั้นตอนง่ายๆ
+
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพและจดจำข้อความจากภาพถ่าย](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพด้วย GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+เรียนรู้วิธีใช้ OCR กับ GPU ใน C# เพื่อดึงข้อความจากรูปภาพได้เร็วและแม่นยำ
+
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-image-complete-c-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากรูปภาพด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
+
+### [วิธีอ่านใบเสร็จใน C# – คู่มือ OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR และ Regex ใน C# เพื่อดึงข้อมูลจากใบเสร็จอย่างแม่นยำและอัตโนมัติ
+
+### [วิธีทำ OCR บนภาพภาษาอารบิก – ดึงข้อความใน C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากภาพภาษาอารบิกอย่างแม่นยำ
+
 ### [จดจำข้อความภาษาฮินดีใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 ### [ดึงข้อความจากรูปภาพใน C# – ตัวอย่าง OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-example/)
 ### [แปลงรูปภาพเป็น ePub ใน C# – คู่มือสมบูรณ์ในการสร้างไฟล์ ePub](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)

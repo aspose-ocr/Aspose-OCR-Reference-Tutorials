@@ -86,6 +86,16 @@ Aspose.OCR을 사용해 C#에서 인터넷 없이 텍스트를 추출하는 방�
 C#을 사용해 이미지에서 OCR을 수행하고 Aspose OCR의 모든 기능을 단계별로 배워보세요.
 ### [멀티 페이지 TIFF 이미지에서 OCR 실행 – Aspose OCR C# 가이드](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 C#을 사용해 멀티 페이지 TIFF 이미지에 OCR을 적용하고 결과를 추출하는 단계별 가이드입니다.
+### [C#에서 PDF OCR하기 – PDF에서 텍스트 추출을 위한 완전 가이드](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+C#와 Aspose.OCR을 활용해 PDF에서 텍스트를 정확히 추출하는 단계별 가이드를 제공합니다.
+### [Aspose OCR을 사용하여 이미지에서 텍스트 추출 – C# 퀵스타트](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+### [C#에서 OCR 사용 방법 – 이미지에서 텍스트 추출 및 사진에서 텍스트 인식](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+### [C#에서 OCR 사용 방법 – GPU를 이용한 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 단계별 가이드
+### [C#에서 영수증 읽기 – OCR + 정규식 가이드](./how-to-read-receipt-in-c-ocr-regex-guide/)
+C#와 Aspose.OCR을 사용해 영수증을 읽고 정규식으로 필요한 정보를 추출하는 단계별 가이드
+### [C#에서 아랍어 이미지 OCR 수행 – 텍스트 추출](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -55,8 +55,29 @@ Lär dig hur du konverterar en bild till JSON med OCR i C# genom en komplett ste
 Förbättra dina .NET-applikationer med Aspose.OCR för effektiv bildtextigenkänning. Utforska OCR Detect Areas Mode för exakta resultat.
 ### [Känn igen PDF i OCR-bildigenkänning](./recognize-pdf/)
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning. Ladda ner nu för en sömlös integrationsupplevelse.
+### [Hur man OCR:ar PDF i C# – Komplett guide för att extrahera text från PDF-filer](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från PDF-filer på ett komplett sätt.
+
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Extrahera text från bild med Aspose OCR – C# snabbstart](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Lär dig snabbt hur du extraherar text från en bild med Aspose OCR i C# med vår enkla snabbstartsguide.
+
+### [Hur man använder OCR i C# – Extrahera text från bild och känna igen text från foto](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bilder och känna igen text i foton.
+
+### [Hur man använder OCR i C# – Extrahera text från bilder med GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Lär dig hur du utnyttjar GPU-acceleration för att snabbt extrahera text från bilder med Aspose.OCR i C#.
+
+### [Skapa sökbar PDF från bild – Komplett C#-guide](./create-searchable-pdf-from-image-complete-c-guide/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# skapar en sökbar PDF från en bildfil.
+
+### [Hur man läser kvitto i C# – OCR + Regex-guide](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Lär dig att med Aspose.OCR och Regex extrahera data från kvitton i C# med vår steg-för-steg-guide.
+
+### [Hur man utför OCR på arabiska bilder – Extrahera text i C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Lär dig hur du med Aspose.OCR i C# kan känna igen och extrahera arabiska texter från bilder.
+
 ### [Känn igen hindi-text i C# – Komplett Aspose OCR-guide](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 Lär dig hur du med Aspose.OCR för .NET kan känna igen hindi-text i C# med en komplett steg-för-steg-guide.
 ### [Extrahera text från bild i C# – Offline OCR-exempel](./extract-text-from-image-in-c-offline-ocr-example/)

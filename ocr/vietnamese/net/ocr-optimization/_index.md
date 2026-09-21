@@ -107,6 +107,10 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xu�
 ### [Cách chỉnh nghiêng hình ảnh trong C# – Hướng dẫn tiền xử lý OCR đầy đủ](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 ### [Thực hiện OCR trên hình ảnh với tăng tốc GPU – Hướng dẫn C# đầy đủ](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Khám phá cách sử dụng GPU để tăng tốc OCR trong Aspose.OCR cho .NET với hướng dẫn C# chi tiết.
+### [Cách cải thiện độ chính xác OCR trong C# với Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Tăng độ chính xác OCR trong C# bằng cách sử dụng các kỹ thuật và cấu hình của Aspose OCR.
+### [Cách thực hiện OCR bất đồng bộ trong C# – Hướng dẫn chi tiết từng bước](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách thực hiện OCR bất đồng bộ trong C# để tăng hiệu suất và đáp ứng thời gian thực.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

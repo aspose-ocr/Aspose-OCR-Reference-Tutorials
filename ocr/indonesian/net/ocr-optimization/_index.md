@@ -80,6 +80,10 @@ Pelajari cara membuat PDF yang dapat dicari menggunakan OCR batch di C# dengan p
 Pelajari cara mempercepat OCR pada gambar menggunakan GPU dengan Aspose.OCR untuk .NET dalam panduan C# lengkap.
 ### [Ekstrak Teks dari Gambar dalam C# – Panduan OCR Lengkap](./extract-text-from-image-in-c-complete-ocr-guide/)
 Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan Aspose.OCR dalam panduan lengkap.
+### [Cara Meningkatkan Akurasi OCR di C# dengan Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Pelajari teknik meningkatkan akurasi OCR menggunakan Aspose OCR dalam proyek C# Anda.
+### [Cara Async OCR di C# – Panduan Lengkap Langkah demi Langkah](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Pelajari cara melakukan OCR secara asinkron di C# dengan Aspose.OCR, meningkatkan kinerja aplikasi Anda dengan contoh langkah demi langkah.
 
 ## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 

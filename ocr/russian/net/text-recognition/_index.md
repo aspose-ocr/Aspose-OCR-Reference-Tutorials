@@ -85,6 +85,20 @@ url: /ru/net/text-recognition/
 Научитесь преобразовывать изображения в JSON-формат с помощью OCR в C#. Подробное пошаговое руководство для .NET-разработчиков.
 ### [Как выполнить OCR на многостраничных TIFF‑изображениях с Aspose OCR – руководство C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 Научитесь обрабатывать многостраничные TIFF‑файлы с помощью Aspose OCR в C#, получая точный текст с каждой страницы.
+### [Извлечение текста из изображения с Aspose OCR – C# Quickstart](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
+Быстрое руководство по извлечению текста из изображения с помощью Aspose OCR в C#.
+### [Как использовать OCR в C# – извлечение текста из изображения и распознавание текста на фотографии](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
+Узнайте, как быстро извлечь текст из изображения и распознать текст на фотографии с помощью Aspose.OCR в C#.
+### [Как использовать OCR в C# – извлечение текста из изображений с GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+Узнайте, как ускорить извлечение текста из изображений в C# с помощью GPU и Aspose.OCR. Пошаговое руководство для эффективного OCR.
+### [Создать поисковый PDF из изображения – Полное руководство C#](./create-searchable-pdf-from-image-complete-c-guide/)
+Полное руководство по созданию поискового PDF из изображения с помощью Aspose.OCR в C#.
+### [Как выполнить OCR PDF в C# – Полное руководство по извлечению текста из PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
+Полное руководство по OCR PDF в C# с извлечением текста из PDF-файлов с помощью Aspose.OCR.
+### [Как прочитать чек в C# – Руководство по OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+Извлеките данные из чеков с помощью OCR и регулярных выражений в C# с пошаговым руководством.
+### [Как выполнить OCR на арабских изображениях – извлечение текста в C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+Узнайте, как быстро извлечь текст из арабских изображений с помощью Aspose.OCR в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

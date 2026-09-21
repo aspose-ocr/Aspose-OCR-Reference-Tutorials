@@ -109,6 +109,10 @@ GPU hızlandırmasıyla .NET'te OCR performansını artırın, C# örnek kodlar�
 C# kullanarak görüntüleri eğriltmeyi düzeltin ve OCR doğruluğunu artırın.
 ### [C# ile Görüntüden Metin Çıkarma – Tam OCR Rehberi](./extract-text-from-image-in-c-complete-ocr-guide/)
 Aspose.OCR for .NET kullanarak C# ile görüntüden metin çıkarma sürecini adım adım öğrenin.
+### [C# ile Aspose OCR ile OCR Doğruluğunu Nasıl Artırabilirsiniz](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+C# kodunda Aspose OCR kullanarak tanıma doğruluğunu artırmak için ipuçları ve teknikler.
+### [C# ile Asenkron OCR Nasıl Yapılır – Tam Adım‑Adım Kılavuz](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+C# içinde Aspose.OCR kullanarak asenkron OCR işlemlerini adım adım uygulayın ve performansı artırın.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -66,6 +66,10 @@ Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resul
 Utnyttja GPU‑acceleration för snabb OCR i C# med Aspose.OCR, steg‑för‑steg‑guide för optimal prestanda.
 ### [Extrahera text från bild i C# – Komplett OCR‑guide](./extract-text-from-image-in-c-complete-ocr-guide/)
 Lär dig steg‑för‑steg hur du extraherar text från bilder i C# med Aspose.OCR för optimal OCR‑prestanda.
+### [Hur du förbättrar OCR‑noggrannhet i C# med Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Lär dig tekniker för att öka OCR‑noggrannheten i C#‑applikationer med Aspose OCR, inklusive förbehandling och parametrar.
+### [Hur du gör asynkron OCR i C# – Komplett steg‑för‑steg‑guide](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+Lär dig hur du implementerar asynkron OCR i C# med Aspose.OCR, steg för steg för optimal prestanda.
 
 
 

@@ -72,6 +72,9 @@ weight: 25
 學習在 C# 中使用 Aspose.OCR 進行圖像去斜處理，提升 OCR 前處理的準確度與效率。
 ### [在 C# 中提取圖像文字 – 完整 OCR 教學](./extract-text-from-image-in-c-complete-ocr-guide/)
 完整 C# 範例教學，示範如何使用 Aspose.OCR 從圖像中提取文字並優化辨識結果。
+### [如何在 C# 中使用 Aspose OCR 提升 OCR 準確度](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+學習在 C# 應用程式中使用 Aspose OCR 的技巧與最佳實踐，提升文字辨識的準確率。
+### [如何在 C# 中非同步使用 OCR – 完整步驟指南](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 
 
 

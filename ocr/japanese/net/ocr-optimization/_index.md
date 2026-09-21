@@ -68,6 +68,10 @@ GPU を活用して高速に画像 OCR を行う方法を C# でステップバ�
 C# で画像のデスキュー処理を行い、OCR 前処理を完全にマスターするガイドです。
 ### [C# で画像からテキストを抽出 – 完全 OCR ガイド](./extract-text-from-image-in-c-complete-ocr-guide/)
 C# を使用して画像からテキストを正確に抽出する手順をステップバイステップで解説します。
+### [C# で Aspose OCR を使用して OCR 精度を向上させる方法](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Aspose OCR の設定と前処理テクニックで認識精度を最大化する手順を解説します。
+### [C# で非同期 OCR を実行する方法 – 完全ステップバイステップガイド](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+C# で非同期 OCR を実装し、パフォーマンスとスケーラビリティを向上させる完全ガイドです。
 
 
 

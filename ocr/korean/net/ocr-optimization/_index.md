@@ -100,6 +100,9 @@ GPU 가속을 이용해 .NET에서 이미지 OCR을 수행하고 고성능 C# �
 이미지 기울기를 보정하여 OCR 정확도를 높이는 단계별 C# 구현 방법을 안내합니다.
 ### [C#를 사용한 이미지 텍스트 추출 – 완전 OCR 가이드](./extract-text-from-image-in-c-complete-ocr-guide/)
 Aspose.OCR for .NET를 활용해 C#에서 이미지 텍스트를 정확히 추출하는 전체 단계별 가이드입니다.
+### [C#에서 Aspose OCR로 OCR 정확도 향상 방법](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Aspose OCR를 사용해 C#에서 OCR 정확도를 높이는 단계별 가이드를 제공합니다.
+### [C#에서 비동기 OCR 수행 방법 – 완전 단계별 가이드](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
