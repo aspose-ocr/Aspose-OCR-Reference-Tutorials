@@ -24,13 +24,7 @@ title: Exécuter l’OCR sur une image en C# – Tutoriel complet Aspose OCR
 url: /fr/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-"
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep shortcodes unchanged.
-
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,21 +22,7 @@ title: Aspose OCR के साथ C# में इमेज से सर्च
 url: /hi/net/text-recognition/create-searchable-pdf-from-image-with-aspose-ocr-in-c/
 ---
 
-& Tips" etc.
-
-Also the "## Frequently Asked Questions" etc.
-
-Also the Q&A.
-
-Also the final paragraph.
-
-We need to keep the shortcodes at top and bottom unchanged.
-
-Let's produce the translated content.
-
-Be careful with markdown formatting: keep headings with same number of #.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

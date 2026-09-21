@@ -24,28 +24,6 @@ title: كيفية تشغيل OCR على صور TIFF متعددة الصفحات 
 url: /ar/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-text. Keep markdown syntax.
-
-We need to translate all text, including bullet points, paragraphs, etc. Keep code block placeholders unchanged.
-
-Also need to preserve links, but there are none except maybe in the tip "Manage NuGet Packages". That's not a link. So fine.
-
-We must keep images none.
-
-Let's produce Arabic translation.
-
-We need to translate the introductory paragraph, steps, etc.
-
-Make sure to keep code block placeholders as is.
-
-Also keep the shortcodes unchanged.
-
-Let's craft.
-
-Note: For RTL, we can just write Arabic text; markdown will render.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

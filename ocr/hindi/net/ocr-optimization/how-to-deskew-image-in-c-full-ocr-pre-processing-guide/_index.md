@@ -23,18 +23,6 @@ title: C# में छवि को डेस्क्यू कैसे क�
 url: /hi/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-need to translate "## Step 2 – Initialize the OCR Engine (and Enable Automatic Resource Download)" etc.
-
-Let's produce final content.
-
-Be careful with markdown tables: translate headers and cells.
-
-Also "## TL;DR" translate maybe "## TL;DR" keep as is? It's abbreviation, maybe keep unchanged. Could translate but better keep as is? The instruction: translate all text content naturally, but technical terms can stay. TL;DR is abbreviation, maybe keep as is. We'll keep heading as "## TL;DR" unchanged.
-
-But the paragraph after TL;DR needs translation.
-
-Now produce final output with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,32 +23,6 @@ title: كيفية تصحيح انحراف الصورة في C# – دليل كا
 url: /ar/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-."
-
-Translate.
-
-Continue.
-
-List "What You’ll Need" etc.
-
-Translate bullet points.
-
-Code block placeholders remain.
-
-Image alt and title.
-
-Step headings.
-
-Blockquote translations.
-
-Table translation.
-
-At the end.
-
-Make sure to keep markdown formatting.
-
-Let's craft Arabic translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

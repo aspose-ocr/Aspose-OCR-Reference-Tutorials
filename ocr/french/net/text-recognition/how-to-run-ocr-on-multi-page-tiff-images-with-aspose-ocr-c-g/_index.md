@@ -27,15 +27,7 @@ title: Comment exécuter l’OCR sur des images TIFF multipages avec Aspose OCR 
 url: /fr/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-none.
-
-Check for any code block placeholders: CODE_BLOCK_0-7. Keep.
-
-Check for any inline code: already fine.
-
-Make sure we keep headings with same number of #.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

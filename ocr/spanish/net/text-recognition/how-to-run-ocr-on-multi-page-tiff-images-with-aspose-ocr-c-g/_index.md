@@ -26,18 +26,6 @@ title: Cómo ejecutar OCR en imágenes TIFF multipágina con Aspose OCR – Guí
 url: /es/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-the next step? Try combining this approach with a folder‑watcher service to automatically **perform OCR on image** files as they land in a drop folder, or integrate the output into a search index for instant full‑text search. The possibilities are endless, and the code you’ve just seen is a solid foundation.
-
-If you ran into any hiccups, drop a comment below or ping me on GitHub. Happy coding, and enjoy turning those stubborn TIFFs into searchable text!
-
-Then closing shortcodes.
-
-Let's translate each piece.
-
-Be careful to keep markdown formatting, code placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

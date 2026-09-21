@@ -22,16 +22,6 @@ title: 從阿拉伯文字圖像建立可搜尋 PDF – 完整指南
 url: /zh-hant/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-extract" appears truncated. Keep as is? The original ends with "extract". We'll keep same.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

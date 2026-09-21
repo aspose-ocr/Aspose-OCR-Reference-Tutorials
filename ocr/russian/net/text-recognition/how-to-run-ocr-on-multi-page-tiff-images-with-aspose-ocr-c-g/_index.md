@@ -27,20 +27,6 @@ title: Как выполнить OCR для многостраничных TIFF�
 url: /ru/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-Conclusion" translate.
-
-Paragraph translate, keep **how to run OCR**, **extract text from TIFF**, **convert TIFF to text**, **recognize text from image** unchanged.
-
-Next paragraph about next step, combine... translate, keep **perform OCR on image** maybe unchanged.
-
-Next final paragraph about comments, GitHub. Translate.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

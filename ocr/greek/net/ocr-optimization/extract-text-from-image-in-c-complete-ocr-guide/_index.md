@@ -25,9 +25,7 @@ title: Εξαγωγή κειμένου από εικόνα σε C# – Πλήρ�
 url: /el/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-to keep all code block placeholders as they were.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

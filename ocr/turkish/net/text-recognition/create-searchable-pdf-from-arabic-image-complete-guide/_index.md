@@ -26,20 +26,6 @@ title: Arapça Görüntüden Aranabilir PDF Oluşturma – Tam Kılavuz
 url: /tr/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-0}} etc. Keep them unchanged.
-
-Also need to translate the blockquote lines.
-
-Let's translate.
-
-Title: "Create Searchable PDF from Arabic Image – Complete Guide" => "Arapça Görüntüden Aranabilir PDF Oluşturma – Tam Kılavuz"
-
-Paragraphs.
-
-We'll translate naturally.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

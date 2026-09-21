@@ -25,9 +25,7 @@ title: Tekst extraheren uit afbeelding in C# – Complete OCR-gids
 url: /nl/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-accuracy**, **fix OCR errors**. Should we keep them English? They are technical phrases; keep English. So we keep them unchanged.
-
-Thus final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

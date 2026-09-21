@@ -23,16 +23,6 @@ title: Maak doorzoekbare PDF van afbeelding met Aspose OCR in C#
 url: /nl/net/text-recognition/create-searchable-pdf-from-image-with-aspose-ocr-in-c/
 ---
 
-#"
-
-Proceed paragraph by paragraph.
-
-I'll translate.
-
-Make sure to keep formatting.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

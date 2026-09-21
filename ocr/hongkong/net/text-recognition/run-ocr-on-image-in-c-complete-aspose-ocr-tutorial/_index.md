@@ -19,11 +19,7 @@ title: 在 C# 中對圖像執行 OCR – 完整 Aspose OCR 教程
 url: /zh-hant/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-changed.
-
-Make sure bold formatting remains.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

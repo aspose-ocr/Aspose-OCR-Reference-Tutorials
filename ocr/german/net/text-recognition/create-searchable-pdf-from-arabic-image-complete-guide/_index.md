@@ -26,18 +26,6 @@ title: Erstelle ein durchsuchbares PDF aus einem arabischen Bild – Komplettanl
 url: /de/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-suchbaren PDFs aus einem arabischen Bild – Komplettanleitung"
-
-- Paragraphs etc.
-
-We need to keep code block placeholders unchanged.
-
-Also there is a line "For German, ensure proper RTL formatting if needed" but we just translate normally.
-
-Make sure to keep bullet points, blockquote, etc.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

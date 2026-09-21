@@ -23,12 +23,6 @@ title: Выполнить OCR на изображении с ускорение�
 url: /ru/net/ocr-optimization/perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/
 ---
 
-". Keep quotes.
-
-Also the final backtop button shortcode.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,10 +21,6 @@ title: ทำ OCR บนรูปภาพใน C# – บทเรียน As
 url: /th/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-Be careful with Thai punctuation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

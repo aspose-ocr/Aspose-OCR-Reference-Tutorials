@@ -25,16 +25,6 @@ title: Skapa sökbar PDF från arabisk bild – Komplett guide
 url: /sv/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-**, **extract". Swedish: "Varje av dessa ämnen involverar naturligt de sekundära nyckelorden **convert image to pdf**, **extract**". But the original ends with "extract". Might be incomplete, but keep same.
-
-Now after that we have closing shortcodes.
-
-We must ensure we keep all shortcodes and code block placeholders unchanged.
-
-Now produce final output with same structure.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

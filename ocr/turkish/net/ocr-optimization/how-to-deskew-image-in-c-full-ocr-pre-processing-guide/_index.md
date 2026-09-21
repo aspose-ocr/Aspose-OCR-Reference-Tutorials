@@ -24,7 +24,7 @@ title: C#'ta Görüntüyü Eğriliğinden Düzeltme – Tam OCR Ön İşleme Reh
 url: /tr/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

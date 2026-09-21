@@ -23,8 +23,6 @@ title: ดึงข้อความจากภาพใน C# – คู่�
 url: /th/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,7 +25,7 @@ title: Ekstrak Teks dari Gambar di C# – Panduan OCR Lengkap
 url: /id/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

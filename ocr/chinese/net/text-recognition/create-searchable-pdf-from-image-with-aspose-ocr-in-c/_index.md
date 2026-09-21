@@ -20,18 +20,6 @@ title: 在 C# 中使用 Aspose OCR 将图像转换为可搜索的 PDF
 url: /zh/net/text-recognition/create-searchable-pdf-from-image-with-aspose-ocr-in-c/
 ---
 
-: "# Create Searchable PDF from Image with Aspose OCR in C#" -> Chinese.
-
-But keep code block placeholders unchanged.
-
-Also translate the table content.
-
-Make sure to keep markdown links unchanged (none present except maybe none). There's an image link.
-
-Also maintain the shortcodes.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

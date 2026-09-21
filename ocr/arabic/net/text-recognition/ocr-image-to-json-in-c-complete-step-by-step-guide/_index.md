@@ -23,9 +23,7 @@ title: تحويل صورة OCR إلى JSON في C# – دليل كامل خطو�
 url: /ar/net/text-recognition/ocr-image-to-json-in-c-complete-step-by-step-guide/
 ---
 
-unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,13 +25,7 @@ title: Szöveg kinyerése képből C#-ban – Teljes OCR útmutató
 url: /hu/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-nyvre kiterjeszthető."
-
-Then closing shortcodes unchanged.
-
-Make sure to keep all shortcodes at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

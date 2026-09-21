@@ -26,12 +26,6 @@ title: Crea PDF ricercabile da immagine araba – Guida completa
 url: /it/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-Also list items.
-
-Also code block placeholders remain.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

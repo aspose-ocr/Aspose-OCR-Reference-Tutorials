@@ -22,12 +22,6 @@ title: Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn toàn diện v�
 url: /vi/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-produce final content.
-
-Be careful to preserve markdown formatting exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

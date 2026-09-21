@@ -22,14 +22,6 @@ title: Aspose OCR을 사용하여 C#에서 이미지로부터 검색 가능한 P
 url: /ko/net/text-recognition/create-searchable-pdf-from-image-with-aspose-ocr-in-c/
 ---
 
-."
-
-We'll translate naturally.
-
-Also note "step-by-step in order - do not skip sections". So we keep order.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

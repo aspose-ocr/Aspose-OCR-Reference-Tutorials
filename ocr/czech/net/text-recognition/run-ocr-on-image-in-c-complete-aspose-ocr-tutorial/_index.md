@@ -23,7 +23,7 @@ title: Spusťte OCR na obrázku v C# – Kompletní tutoriál Aspose OCR
 url: /cs/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

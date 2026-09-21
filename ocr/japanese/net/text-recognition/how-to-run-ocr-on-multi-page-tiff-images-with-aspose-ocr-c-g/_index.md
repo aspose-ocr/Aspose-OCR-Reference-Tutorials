@@ -22,15 +22,7 @@ title: Aspose OCRでマルチページTIFF画像にOCRを実行する方法 – 
 url: /ja/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-The heading "# How to Run OCR on Multi‑Page TIFF Images with Aspose OCR" should be translated to Japanese, but maybe keep the title in English? The rule says translate all text content naturally to Japanese. So translate heading.
-
-Thus "# Aspose OCR を使用したマルチページ TIFF 画像の OCR 実行方法"
-
-Similarly subheadings.
-
-Proceed.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

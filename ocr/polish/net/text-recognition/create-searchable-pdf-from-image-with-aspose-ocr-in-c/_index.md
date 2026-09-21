@@ -23,16 +23,6 @@ title: Utwórz przeszukiwalny PDF z obrazu przy użyciu Aspose OCR w C#
 url: /pl/net/text-recognition/create-searchable-pdf-from-image-with-aspose-ocr-in-c/
 ---
 
-a comment, and happy coding!"
-
-Translate: "Masz więcej pytań dotyczących wyodrębniania tekstu lub konwersji formatów? zostaw komentarz i powodzenia w kodowaniu!"
-
-Then closing shortcodes.
-
-We must keep the final shortcodes unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

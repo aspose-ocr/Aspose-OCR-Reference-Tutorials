@@ -24,7 +24,7 @@ title: Wie man ein Bild in C# entzerrt – Vollständiger Leitfaden zur OCR‑Vo
 url: /de/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

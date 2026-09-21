@@ -23,11 +23,7 @@ title: Utför OCR på bild med GPU-acceleration – Komplett C#-guide
 url: /sv/net/ocr-optimization/perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/
 ---
 
-bottom.
-
-The final output should be the entire content with translations.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

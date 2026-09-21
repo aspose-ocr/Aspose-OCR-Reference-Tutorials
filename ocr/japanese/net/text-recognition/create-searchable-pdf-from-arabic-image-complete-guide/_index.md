@@ -22,10 +22,6 @@ title: アラビア語画像から検索可能なPDFを作成する – 完全�
 url: /ja/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-codes.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

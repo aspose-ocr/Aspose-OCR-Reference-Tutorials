@@ -22,16 +22,6 @@ title: C# 中将 OCR 图像转换为 JSON – 完整的逐步指南
 url: /zh/net/text-recognition/ocr-image-to-json-in-c-complete-step-by-step-guide/
 ---
 
-Paragraph.
-
-Translate.
-
-Then closing shortcodes.
-
-Make sure to keep all markdown syntax.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

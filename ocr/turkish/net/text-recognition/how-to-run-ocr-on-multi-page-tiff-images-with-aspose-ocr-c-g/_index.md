@@ -26,10 +26,6 @@ title: Aspose OCR ile Çok Sayfalı TIFF Görüntülerinde OCR Nasıl Çalışt�
 url: /tr/net/text-recognition/how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/
 ---
 
-careful with bullet indentation and line breaks.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

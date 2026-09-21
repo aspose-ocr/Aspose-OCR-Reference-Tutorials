@@ -25,17 +25,7 @@ title: Cómo enderezar la imagen en C# – Guía completa de preprocesamiento OC
 url: /es/net/ocr-optimization/how-to-deskew-image-in-c-full-ocr-pre-processing-guide/
 ---
 
-code and why each step matters."
-
-Translate.
-
-...
-
-Proceed similarly.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

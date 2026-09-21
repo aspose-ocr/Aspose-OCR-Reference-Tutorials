@@ -21,11 +21,7 @@ title: C#에서 이미지에 OCR 실행 – 완전한 Aspose OCR 튜토리얼
 url: /ko/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-text: we translated some but keep bold formatting.
-
-Make sure to preserve list bullet formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

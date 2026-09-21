@@ -26,12 +26,6 @@ title: Buat PDF yang Dapat Dicari dari Gambar Arab – Panduan Lengkap
 url: /id/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-need to preserve markdown formatting.
-
-Now produce final output with all translated content.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

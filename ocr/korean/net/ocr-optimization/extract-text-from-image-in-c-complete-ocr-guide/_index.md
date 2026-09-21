@@ -23,7 +23,7 @@ title: C#로 이미지에서 텍스트 추출 – 완전한 OCR 가이드
 url: /ko/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

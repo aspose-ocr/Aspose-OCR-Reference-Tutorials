@@ -23,13 +23,7 @@ title: Esegui OCR su un'immagine in C# – Tutorial completo di Aspose OCR
 url: /it/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-{{< /blocks/... >}} etc. Keep.
-
-Also final button shortcode.
-
-Make sure to preserve all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

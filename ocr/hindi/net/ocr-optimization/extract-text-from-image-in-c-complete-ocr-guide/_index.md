@@ -25,7 +25,7 @@ title: C# में छवि से टेक्स्ट निकालें
 url: /hi/net/ocr-optimization/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

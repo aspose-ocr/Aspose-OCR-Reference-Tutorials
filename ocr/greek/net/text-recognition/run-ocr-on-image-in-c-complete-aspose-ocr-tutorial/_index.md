@@ -23,37 +23,7 @@ title: Εκτέλεση OCR σε εικόνα με C# – Πλήρη εκμάθ�
 url: /el/net/text-recognition/run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
-formatting.
-
-Let's produce the translated content.
-
-We need to translate:
-
-- Title: "Run OCR on Image in C# – Complete Aspose OCR Tutorial" => Greek: "Εκτέλεση OCR σε Εικόνα με C# – Πλήρη Εκπαίδευση Aspose OCR"
-
-- Intro paragraph.
-
-- All bullet points.
-
-- Steps headings.
-
-- All explanatory text.
-
-- Table headings and cells.
-
-- Pro Tips etc.
-
-- Conclusion.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep any inline code like `dotnet add package Aspose.OCR`, `AutomaticResourceDownload`, etc.
-
-Also keep markdown links? There are none.
-
-Also keep images? None.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

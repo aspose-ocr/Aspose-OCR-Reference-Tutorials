@@ -20,16 +20,6 @@ title: C#でOCR画像をJSONに変換する – 完全ステップバイステ�
 url: /ja/net/text-recognition/ocr-image-to-json-in-c-complete-step-by-step-guide/
 ---
 
-image to json – 完全ステップバイステップガイド". But maybe keep "ocr image to json" unchanged. We'll do: "# C# で ocr image to json – 完全ステップバイステップガイド". Good.
-
-Now translate paragraphs.
-
-Let's craft translation.
-
-Will keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

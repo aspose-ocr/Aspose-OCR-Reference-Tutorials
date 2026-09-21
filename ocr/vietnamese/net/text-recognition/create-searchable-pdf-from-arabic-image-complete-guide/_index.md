@@ -26,10 +26,6 @@ title: Tạo PDF có thể tìm kiếm từ ảnh tiếng Ả Rập – Hướng
 url: /vi/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-block placeholders: they are not fenced code blocks but placeholders. The instruction says preserve all code blocks: fenced code blocks. There are none except placeholders. So fine.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

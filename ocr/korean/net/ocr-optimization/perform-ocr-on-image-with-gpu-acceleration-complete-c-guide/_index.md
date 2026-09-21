@@ -23,10 +23,6 @@ title: GPU 가속으로 이미지 OCR 수행 – 완전 C# 가이드
 url: /ko/net/ocr-optimization/perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/
 ---
 
-"Screenshot showing console output after performing OCR on image" translate.
-
-Let's do.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

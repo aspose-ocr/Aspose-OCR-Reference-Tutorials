@@ -26,9 +26,7 @@ title: Criar PDF pesquisável a partir de imagem em árabe – Guia completo
 url: /pt/net/text-recognition/create-searchable-pdf-from-arabic-image-complete-guide/
 ---
 
-we didn't translate any URLs (none present). No file paths besides `arabic_invoice.jpg` and `arabic_invoice_searchable.pdf` which we left unchanged.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
