@@ -1,0 +1,7 @@
+Title: Enable GPU Layers in Aspose AI OCR – Complete Programming Guide
+Slug: enable-gpu-layers-in-aspose-ai-ocr-complete-programming-guid
+Category: general
+ProcessedDate: 2026-06-22T19:59:47.460491
+SourceRepo: AI Search API
+Keywords: enable gpu layers, download model huggingface, improve ocr accuracy, configure llm model
+PRNumber: 154

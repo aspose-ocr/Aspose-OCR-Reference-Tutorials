@@ -1,0 +1,7 @@
+Title: gpu accelerated ocr tutorial – Java Guide to Fast Image‑to‑Text
+Slug: gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:43.019573
+SourceRepo: AI Search API
+Keywords: gpu accelerated ocr tutorial, recognize text from image java, set gpu device id, java image to text ocr
+PRNumber: 168

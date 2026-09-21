@@ -1,0 +1,7 @@
+Title: OCR Russian Text in C# – Complete Guide Using Aspose OCR
+Slug: ocr-russian-text-in-c-complete-guide-using-aspose-ocr
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:19.007349
+SourceRepo: AI Search API
+Keywords: ocr russian text, extract text from image, image to text c#, aspose ocr c#, load image for ocr
+PRNumber: 131

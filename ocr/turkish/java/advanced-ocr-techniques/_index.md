@@ -45,6 +45,12 @@ Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin
 
 Aspose.OCR for Java ile izin verilen karakterleri belirterek görüntülerden zahmetsizce metin çıkarın. Sorunsuz bir metin tanıma deneyimi sağlayan verimli entegrasyon için adım adım kılavuzumuzu izleyin. Aspose.OCR özellikleriyle Java uygulamalarınızı geliştirin.
 
+## [Aspose OCR ile Görüntüden Metin Tanıma – Tam Java Kılavuzu](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Aspose OCR kullanarak Java'da görüntülerden metin tanıma sürecini adım adım öğrenin ve yüksek doğrulukla sonuç alın.
+
+## [Java'da GPU Hızlandırmalı OCR Kullanımı – Adım Adım Kılavuz](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Java uygulamalarınızda GPU hızlandırmasıyla OCR performansını artırın. Adım adım rehberle kolayca entegre edin.
+
 ## Çözüm
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
@@ -61,6 +67,37 @@ Aspose.OCR for Java ile metin tanımanın gücünü ortaya çıkarın. Sorunsuz 
 Hassas metin tanıma için Java uygulamalarınızı Aspose.OCR ile güçlendirin. Kolay entegrasyon, yüksek doğruluk.
 ### [Aspose.OCR'da İzin Verilen Karakterleri Belirleme](./specify-allowed-characters/)
 Aspose.OCR for Java ile görüntülerden metin çıkarmanın kilidini sorunsuz bir şekilde açın. Verimli entegrasyon için adım adım kılavuzumuzu izleyin.
+### [Aspose OCR ile Görüntüden Metin Tanıma – Tam Java Kılavuzu](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Aspose OCR kullanarak Java'da görüntülerden metin tanıma sürecini adım adım öğrenin ve yüksek doğrulukla sonuç alın.
+### [Java'da GPU Hızlandırmalı OCR Kullanımı – Adım Adım Kılavuz](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Java uygulamalarınızda GPU hızlandırmasıyla OCR performansını artırın. Adım adım rehberle kolayca entegre edin.
+### [Aspose ile OCR'da Görüntü Gürültüsünü Azaltma – Tam Java Kılavuzu](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Aspose kullanarak OCR doğruluğunu artırmak için görüntü gürültüsünü nasıl azaltacağınızı adım adım öğrenin.
+
+## [GPU'yu OCR için Etkinleştirme – Görüntülerden Hızlı Metin Çıkarma](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+
+GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
+
+### [Java'da Görüntü Ön İşleme OCR – Doğruluğu Artırın ve Metni Çıkarın](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Java'da görüntü ön işleme teknikleriyle OCR doğruluğunu artırın ve metni hızlıca çıkarın.
+
+### [Büyük Belgelerde OCR Çalıştırma – Tam Java Kılavuzu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Büyük belgelerde yüksek doğrulukla OCR gerçekleştirin ve Java projelerinizde metin çıkarma sürecini optimize edin.
+### [Java ile Görüntüden Metin Çıkarma – Fotoğraftan VIN Okuma](./extract-text-from-image-with-java-read-vin-from-photo/)
+Java ile fotoğraftan VIN numarasını okuyarak görüntüden metin çıkarın. Hızlı ve doğru OCR entegrasyonu.
+### [Java OCR için GPU'yu Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Java OCR performansını artırmak için GPU desteğini nasıl etkinleştireceğinizi adım adım öğrenin.
+### [Java ile Görüntülerden Metin Tanıma – Paralel OCR Eğitimi](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Java’da paralel OCR kullanarak görüntülerden hızlı ve doğru şekilde metin tanıyın. Adım adım kılavuzla performansı artırın.
+### [Java ile Görüntüden Metin Çıkarma – Yazım Düzeltmeli Tam OCR Kılavuzu](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Java kullanarak görüntülerden metin çıkarın ve yazım hatalarını otomatik düzeltin. Adım adım tam OCR rehberi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
