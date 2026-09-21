@@ -29,9 +29,6 @@ Utforska funktionerna i Aspose.OCR för .NET och förvandla hur du hanterar text
 
 Släpp loss den fulla potentialen hos Aspose.OCR för .NET genom att lära dig hur du enkelt får OCR-resultat i JSON-format. Denna steg-för-steg-guide säkerställer en smidig resa mot att förbättra din bildigenkänningskapacitet. Öka din applikations effektivitet med Aspose.OCRs robusta funktioner och branschledande teknik.
 
-### [OCR-bild till JSON i C# – Komplett steg‑för‑steg‑guide](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
-Lär dig hur du konverterar en bild till JSON med OCR i C# genom en komplett steg‑för‑steg‑guide.
-
 ## OCR Detektera områden-läge i OCR-bildigenkänning
 
 Effektivitet är nyckeln i .NET-applikationer, och Aspose.OCR är här för att hjälpa dig uppnå just det. Dyk in i handledningen för läget OCR Detektera områden för att uppnå exakta resultat i bildtextigenkänning. Lyft dina projekt med Aspose.OCRs avancerade funktioner som ger noggrannhet och snabbhet i textigenkänning.

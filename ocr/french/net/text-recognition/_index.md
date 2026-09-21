@@ -30,9 +30,6 @@ Explorez les capacités d'Aspose.OCR pour .NET et transformez la façon dont vou
 Libérez tout le potentiel d'Aspose.OCR pour .NET en apprenant à obtenir facilement des résultats OCR au format JSON. Ce guide étape par étape garantit un parcours fluide vers l’amélioration de vos capacités de reconnaissance d’images. Améliorez l'efficacité de votre application grâce aux fonctionnalités robustes et à la technologie de pointe d'Aspose.OCR.
 
 
-### [OCR d'image au format JSON en C# – Guide complet étape par étape](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
-Apprenez à convertir les résultats OCR d'une image en JSON avec C#, grâce à un guide complet pas à pas.
-
 ## Mode de détection de zones OCR dans la reconnaissance d'images OCR
 
 L'efficacité est essentielle dans les applications .NET, et Aspose.OCR est là pour vous aider à y parvenir. Plongez dans le didacticiel du mode de détection des zones OCR pour obtenir des résultats précis en matière de reconnaissance de texte d'image. Élevez vos projets grâce aux fonctionnalités avancées d’Aspose.OCR, offrant précision et rapidité dans la reconnaissance de texte.
@@ -53,11 +50,11 @@ Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance précis
 Explorez Aspose.OCR pour .NET, une solution OCR puissante pour une reconnaissance transparente du texte dans les images.
 ### [Obtenir le résultat au format JSON dans la reconnaissance d'image OCR](./get-result-as-json/)
 Libérez la puissance d’Aspose.OCR pour .NET. Apprenez à obtenir des résultats OCR au format JSON sans effort. Améliorez votre reconnaissance d'image avec ce guide étape par étape.
+### [OCR d'image au format JSON en C# – Guide complet étape par étape](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Apprenez à convertir les résultats OCR d'une image en JSON avec C#, grâce à un guide complet pas à pas.
 ### [Convertir une image en JSON avec Aspose OCR C#](./convert-image-to-json-with-aspose-ocr-c-guide/)
 Apprenez à convertir des images en JSON en utilisant Aspose OCR avec C# pour une intégration rapide.
 ### [Mode de détection de zones OCR dans la reconnaissance d'images OCR](./ocr-detect-areas-mode/)
-### [OCR d'image au format JSON en C# – Guide complet étape par étape](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
-Apprenez à convertir les résultats OCR d'une image en JSON avec C#, grâce à un guide complet pas à pas.
 Améliorez vos applications .NET avec Aspose.OCR pour une reconnaissance efficace du texte des images. Explorez le mode de détection des zones OCR pour des résultats précis.
 ### [Reconnaître un PDF dans la reconnaissance d'images OCR](./recognize-pdf/)
 Libérez le potentiel de l’OCR dans .NET avec Aspose.OCR. Extrayez le texte des PDF sans effort. Téléchargez-le maintenant pour une expérience d'intégration transparente.
