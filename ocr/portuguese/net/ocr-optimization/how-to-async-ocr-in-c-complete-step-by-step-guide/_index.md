@@ -24,33 +24,7 @@ title: Como fazer OCR assíncrono em C# – Guia completo passo a passo
 url: /pt/net/ocr-optimization/how-to-async-ocr-in-c-complete-step-by-step-guide/
 ---
 
-, Fix -> Solução.
-
-Translate each row content.
-
-Translate "UI freezes" -> "Congelamento da UI". etc.
-
-Translate "Out‑of‑memory" -> "Falta de memória". etc.
-
-Translate "Wrong language" -> "Idioma errado". etc.
-
-Translate "Missing NuGet" -> "NuGet ausente". etc.
-
-Translate "File not found" -> "Arquivo não encontrado". etc.
-
-Translate "Step 7: Extending the Async OCR Workflow" -> "Etapa 7: Estendendo o fluxo de trabalho OCR assíncrono". etc.
-
-Translate bullet points.
-
-Translate "Conclusion" -> "Conclusão". etc.
-
-Translate rest.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep image markdown unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

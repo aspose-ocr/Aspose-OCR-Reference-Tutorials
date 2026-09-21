@@ -24,8 +24,6 @@ title: Como melhorar a precisão do OCR em C# com Aspose OCR
 url: /pt/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

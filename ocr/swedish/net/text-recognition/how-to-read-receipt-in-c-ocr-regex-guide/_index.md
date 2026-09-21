@@ -22,9 +22,7 @@ title: Hur man läser kvitto i C# – OCR + Regex‑guide
 url: /sv/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-" Not needed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

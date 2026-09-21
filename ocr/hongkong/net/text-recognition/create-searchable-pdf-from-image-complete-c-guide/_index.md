@@ -22,18 +22,6 @@ title: 從圖像建立可搜尋的 PDF – 完整 C# 指南
 url: /zh-hant/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 ---
 
-keep bold.
-
-But the instruction: translate all text content naturally. So we translate.
-
-Let's produce.
-
-Also list items.
-
-Make sure to keep code block placeholders.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

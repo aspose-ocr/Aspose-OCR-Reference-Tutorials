@@ -23,15 +23,7 @@ title: Hur man använder OCR i C# – Extrahera text från bild och känna igen 
 url: /sv/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/
 ---
 
-" incomplete; we can translate as is? The original ends with "You might". Probably incomplete but keep as is? Should translate "Du kanske". Keep as is.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

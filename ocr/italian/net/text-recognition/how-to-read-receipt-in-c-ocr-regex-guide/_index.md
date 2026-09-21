@@ -22,11 +22,7 @@ title: Come leggere una ricevuta in C# – Guida OCR + Regex
 url: /it/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-lists, blockquote, code placeholders, tables.
-
-Check for any missed bold: we kept bold phrases unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

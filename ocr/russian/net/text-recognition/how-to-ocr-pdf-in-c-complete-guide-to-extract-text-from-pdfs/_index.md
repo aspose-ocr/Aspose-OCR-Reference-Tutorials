@@ -24,15 +24,7 @@ title: Как выполнить OCR PDF в C# – Полное руковод�
 url: /ru/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-.
-
-Now produce final content with all translations.
-
-Check for any missed bold markers: In headings we keep # etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

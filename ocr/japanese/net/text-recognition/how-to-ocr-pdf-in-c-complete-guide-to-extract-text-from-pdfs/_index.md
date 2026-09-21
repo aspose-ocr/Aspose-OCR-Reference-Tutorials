@@ -22,15 +22,7 @@ title: C#でPDFをOCRする方法 – PDFからテキストを抽出する完全
 url: /ja/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-code block placeholders, etc.
-
-Check we didn't miss any list items, blockquotes.
-
-Also there is a note: "For Japanese, ensure proper RTL formatting if needed" Not relevant.
-
-Now produce final content with translations.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

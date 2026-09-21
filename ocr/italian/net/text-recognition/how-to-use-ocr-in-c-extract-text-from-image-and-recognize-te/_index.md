@@ -23,7 +23,7 @@ title: Come usare l'OCR in C# – Estrarre testo da un'immagine e riconoscere il
 url: /it/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: 이미지에서 검색 가능한 PDF 만들기 – 완전한 C# 가이드
 url: /ko/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 ---
 
-unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

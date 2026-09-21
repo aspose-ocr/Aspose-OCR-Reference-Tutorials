@@ -22,11 +22,7 @@ title: Extraer texto de una imagen con Aspose OCR – Inicio rápido en C#
 url: /es/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-Make sure to keep them unchanged.
-
-Now produce final answer with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

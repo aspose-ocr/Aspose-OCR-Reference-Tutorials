@@ -25,11 +25,7 @@ title: Comment faire de l'OCR asynchrone en C# – Guide complet étape par éta
 url: /fr/net/ocr-optimization/how-to-async-ocr-in-c-complete-step-by-step-guide/
 ---
 
-blocks/products/products-backtop-button >}}
-
-All good.
-
-Now produce final output with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

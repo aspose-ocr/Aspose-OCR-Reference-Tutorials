@@ -25,9 +25,7 @@ title: Jak wykonać OCR PDF w C# – Kompletny przewodnik po wyodrębnianiu teks
 url: /pl/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-"OCR", "Aspose", "PDF", "NuGet", "dotnet", etc fine.
-
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

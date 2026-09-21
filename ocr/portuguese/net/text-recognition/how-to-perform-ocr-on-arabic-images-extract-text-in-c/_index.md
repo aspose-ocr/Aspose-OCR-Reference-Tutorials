@@ -24,14 +24,6 @@ title: Como fazer OCR em imagens árabes – Extrair texto em C#
 url: /pt/net/text-recognition/how-to-perform-ocr-on-arabic-images-extract-text-in-c/
 ---
 
-blockquotes > **Pro tip:** ... translate.
-
-List items translate.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

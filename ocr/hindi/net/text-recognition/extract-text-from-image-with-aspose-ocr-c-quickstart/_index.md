@@ -22,14 +22,6 @@ title: Aspose OCR के साथ छवि से टेक्स्ट नि
 url: /hi/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/
 ---
 
-to **extract text from image** but weren’t sure which library..." translate.
-
-We need to keep bold formatting.
-
-Proceed.
-
-Will produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

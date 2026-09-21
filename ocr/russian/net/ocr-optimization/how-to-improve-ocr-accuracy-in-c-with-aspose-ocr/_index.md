@@ -23,11 +23,7 @@ title: Как улучшить точность OCR в C# с помощью Aspo
 url: /ru/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
-the markdown links? There are none besides maybe none.
-
-There are no markdown links.
-
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

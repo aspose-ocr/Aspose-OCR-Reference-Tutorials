@@ -23,16 +23,6 @@ title: Cómo leer recibos en C# – Guía de OCR + Expresiones regulares
 url: /es/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content.
-
-Be careful to preserve markdown formatting, code block placeholders.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

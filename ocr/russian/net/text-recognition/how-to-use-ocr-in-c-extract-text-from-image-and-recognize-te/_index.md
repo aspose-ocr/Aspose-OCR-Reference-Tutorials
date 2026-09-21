@@ -24,14 +24,6 @@ title: Как использовать OCR в C# – извлекать тек
 url: /ru/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/
 ---
 
-"Вы можете". But maybe keep as is? The instruction: translate all text content. So translate "You might" to Russian: "Вы можете". But it's incomplete; keep as is.
-
-Then closing shortcodes.
-
-Also need to translate the "Pro tip" block.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

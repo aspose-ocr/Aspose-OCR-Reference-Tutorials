@@ -20,12 +20,6 @@ title: 如何在 C# 中读取收据 – OCR + 正则表达式指南
 url: /zh/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-no images.
-
-Proceed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

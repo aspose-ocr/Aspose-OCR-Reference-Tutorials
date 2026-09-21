@@ -22,16 +22,6 @@ title: Aspose OCR을 사용하여 이미지에서 텍스트 추출 – C# 빠른
 url: /ko/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/
 ---
 
-}}
-
-All must be preserved.
-
-Now produce final output with translated Korean content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

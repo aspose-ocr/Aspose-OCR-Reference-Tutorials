@@ -22,11 +22,7 @@ title: C# में Aspose OCR के साथ OCR की सटीकता �
 url: /hi/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
-0}} etc. Keep them.
-
-Make sure we preserve bullet list formatting with hyphens.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,10 +22,6 @@ title: Jak použít OCR v C# – Extrahovat text z obrázku a rozpoznat text z f
 url: /cs/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/
 ---
 
-na fotografii". Keep quotes.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

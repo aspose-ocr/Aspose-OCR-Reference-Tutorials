@@ -22,8 +22,6 @@ title: ดึงข้อความจากภาพด้วย Aspose OCR �
 url: /th/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

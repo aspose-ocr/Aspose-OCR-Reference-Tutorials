@@ -24,12 +24,6 @@ title: Как выполнять асинхронный OCR в C# — полно
 url: /ru/net/ocr-optimization/how-to-async-ocr-in-c-complete-step-by-step-guide/
 ---
 
-showing async OCR completed and text length](/images/async-ocr-output.png "async OCR console result") - translate alt text but keep URL and title? Title is "async OCR console result". Should we translate title? It's part of markdown; we can translate alt text but keep URL unchanged. Title maybe also translate? The instruction: translate all text content. Title is text. So translate title but keep URL. So alt text becomes Russian, title becomes Russian.
-
-Now translate.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

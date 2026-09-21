@@ -24,23 +24,7 @@ title: Cómo mejorar la precisión del OCR en C# con Aspose OCR
 url: /es/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
-Next: "Got questions about a specific file type or want to see how this works with multi‑page TIFFs? Drop a comment below—happy to help you keep pushing that OCR accuracy higher!"
-
-Translate.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Check for any markdown links: none.
-
-Check for any URLs: none.
-
-Check for any code blocks: placeholders.
-
-Make sure to keep **bold** formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

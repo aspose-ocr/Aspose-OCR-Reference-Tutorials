@@ -22,16 +22,6 @@ title: 아랍어 이미지에서 OCR 수행 방법 – C#로 텍스트 추출
 url: /ko/net/text-recognition/how-to-perform-ocr-on-arabic-images-extract-text-in-c/
 ---
 
-질문이 있나요? 아래에 댓글을 남겨 주세요—코딩 즐겁게!"
-
-Finally closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Also ensure we keep the image alt text line "*Image alt text: how to perform OCR on Arabic sign*" translated accordingly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

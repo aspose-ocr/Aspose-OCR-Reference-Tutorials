@@ -25,16 +25,6 @@ title: Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή
 url: /el/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/
 ---
 
-"Πώς να Χρησιμοποιήσετε OCR σε C# – Εξαγωγή Κειμένου από Εικόνα και Αναγνώριση Κειμένου από Φωτογραφία"
-
-Proceed.
-
-Now translate paragraphs.
-
-Will keep **how to use OCR** etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

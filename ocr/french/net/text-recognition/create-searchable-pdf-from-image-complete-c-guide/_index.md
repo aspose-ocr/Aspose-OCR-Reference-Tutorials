@@ -25,18 +25,6 @@ title: Créer un PDF interrogeable à partir d'une image – Guide complet C#
 url: /fr/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 ---
 
-" etc.
-
-Make sure not to translate code block placeholders.
-
-Also keep URLs unchanged.
-
-Also keep "Aspose.OCR" unchanged.
-
-Ok.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

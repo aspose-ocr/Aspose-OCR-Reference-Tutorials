@@ -24,14 +24,6 @@ title: Cómo usar OCR en C# – Extraer texto de imágenes con GPU
 url: /es/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-images-with-gpu/
 ---
 
-many terms are English; we keep them.
-
-Let's produce the translated content.
-
-We need to keep the shortcodes at top and bottom unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

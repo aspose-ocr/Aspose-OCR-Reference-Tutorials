@@ -24,12 +24,6 @@ title: كيفية التعرف الضوئي على النص في ملفات PDF 
 url: /ar/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-the end TL;DR translate.
-
-Make sure not to translate URLs in image alt text.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,8 +26,6 @@ title: Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή
 url: /el/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-images-with-gpu/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

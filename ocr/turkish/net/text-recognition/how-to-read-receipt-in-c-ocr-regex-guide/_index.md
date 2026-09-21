@@ -22,14 +22,6 @@ title: C#'ta Makbuz Okuma – OCR + Regex Rehberi
 url: /tr/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-final backtop button shortcode.
-
-Let's produce final content.
-
-Be careful to keep all placeholders unchanged.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

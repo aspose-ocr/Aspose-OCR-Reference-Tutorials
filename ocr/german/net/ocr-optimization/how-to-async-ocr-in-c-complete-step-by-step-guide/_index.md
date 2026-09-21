@@ -24,18 +24,6 @@ title: Wie man OCR in C# asynchron verwendet – Vollständige Schritt‑für‑
 url: /de/net/ocr-optimization/how-to-async-ocr-in-c-complete-step-by-step-guide/
 ---
 
-; translate that too.
-
-Also the table content: translate Issue, Why it Happens, Fix headings and cell contents.
-
-Also bullet lists etc.
-
-Let's produce the translated markdown with same structure.
-
-We must keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

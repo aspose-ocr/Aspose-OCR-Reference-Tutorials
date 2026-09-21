@@ -25,10 +25,6 @@ title: Wie man PDFs in C# OCRt – Vollständige Anleitung zum Extrahieren von T
 url: /de/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

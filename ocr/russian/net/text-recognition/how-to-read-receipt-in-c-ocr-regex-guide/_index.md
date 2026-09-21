@@ -22,7 +22,7 @@ title: Как считывать чек в C# — руководство по 
 url: /ru/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

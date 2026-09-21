@@ -22,8 +22,6 @@ title: كيفية قراءة الإيصال في C# – دليل OCR + Regex
 url: /ar/net/text-recognition/how-to-read-receipt-in-c-ocr-regex-guide/
 ---
 
-output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,16 +20,6 @@ title: 使用 Aspose OCR 從圖像提取文字 – C# 快速入門
 url: /zh-hant/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/
 ---
 
-braces; keep unchanged.
-
-Check tables: keep markdown table syntax.
-
-Check URLs: none present.
-
-Check images: none.
-
-Now produce final output with all translated content and unchanged shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

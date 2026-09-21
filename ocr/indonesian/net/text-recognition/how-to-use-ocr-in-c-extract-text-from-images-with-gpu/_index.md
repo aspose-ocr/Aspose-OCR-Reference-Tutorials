@@ -26,11 +26,7 @@ title: Cara Menggunakan OCR di C# – Mengekstrak Teks dari Gambar dengan GPU
 url: /id/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-images-with-gpu/
 ---
 
-Use hyphens for bullet lists, numbers for ordered list.
-
-Make sure we keep the same indentation.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

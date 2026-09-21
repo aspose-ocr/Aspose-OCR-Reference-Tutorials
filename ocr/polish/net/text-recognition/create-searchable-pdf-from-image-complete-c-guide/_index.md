@@ -25,22 +25,6 @@ title: Utwórz przeszukiwalny PDF z obrazu – Kompletny przewodnik C#
 url: /pl/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 ---
 
-Next heading:
-
-## Conclusion
-
-Translate.
-
-Paragraph.
-
-Then final line.
-
-Then closing shortcodes.
-
-Make sure to keep markdown formatting.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

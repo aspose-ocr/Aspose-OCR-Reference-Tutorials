@@ -26,16 +26,6 @@ title: Comment faire de l’OCR d’un PDF en C# – Guide complet pour extraire
 url: /fr/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-pour du traitement en masse"
-
-Note the original ends with "for bulk" incomplete. Keep same.
-
-Now ensure we keep shortcodes at start and end.
-
-Also keep the backtop button shortcode.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

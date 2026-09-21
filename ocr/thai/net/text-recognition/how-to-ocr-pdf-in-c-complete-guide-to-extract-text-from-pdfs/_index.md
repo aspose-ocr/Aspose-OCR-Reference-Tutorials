@@ -23,11 +23,7 @@ title: วิธีทำ OCR PDF ด้วย C# – คู่มือคร�
 url: /th/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-.
-
-Make sure to preserve code block placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

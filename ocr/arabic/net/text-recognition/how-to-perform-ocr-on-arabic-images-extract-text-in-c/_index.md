@@ -25,11 +25,7 @@ title: كيفية إجراء OCR على الصور العربية – استخر
 url: /ar/net/text-recognition/how-to-perform-ocr-on-arabic-images-extract-text-in-c/
 ---
 
-CODE_BLOCK_0}} etc.
-
-Also ensure we keep markdown formatting: headings, lists, bold, etc.
-
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,14 +24,6 @@ title: Jak wykonać OCR na arabskich obrazach – wyodrębnić tekst w C#
 url: /pl/net/text-recognition/how-to-perform-ocr-on-arabic-images-extract-text-in-c/
 ---
 
-#"
-
-Similarly other headings.
-
-Translate paragraphs.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

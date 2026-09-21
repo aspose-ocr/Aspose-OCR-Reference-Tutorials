@@ -21,22 +21,6 @@ title: アラビア語画像でOCRを実行する方法 – C#でテキストを
 url: /ja/net/text-recognition/how-to-perform-ocr-on-arabic-images-extract-text-in-c/
 ---
 
-bottom.
-
-We need to translate the description text.
-
-Let's produce final output.
-
-We'll start with the same shortcodes at top, then translate.
-
-Make sure to keep the image markdown unchanged except alt text translation? The alt text is "how to perform OCR on Arabic sign". Should be translated but keep the URL unchanged. So alt text becomes Japanese translation.
-
-Also the blockquote > **Pro tip:** ... translate.
-
-All list items, etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

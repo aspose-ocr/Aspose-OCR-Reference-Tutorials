@@ -23,11 +23,7 @@ title: Cómo hacer OCR a PDFs en C# – Guía completa para extraer texto de PDF
 url: /es/net/text-recognition/how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/
 ---
 
-Check code block placeholders remain unchanged.
-
-Check shortcodes at top and bottom unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

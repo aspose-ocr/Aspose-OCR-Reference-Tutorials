@@ -22,16 +22,6 @@ title: 如何在 C# 中使用 OCR – 使用 GPU 从图像中提取文本
 url: /zh/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-images-with-gpu/
 ---
 
-keep code values unchanged.
-
-Also the blockquote > **Pro tip:** etc.
-
-Also the "Common question:" blockquote.
-
-Also alt text.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

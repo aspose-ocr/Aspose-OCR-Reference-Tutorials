@@ -25,8 +25,6 @@ title: Durchsuchbares PDF aus Bild erstellen – Vollständiger C#‑Leitfaden
 url: /de/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,18 +25,6 @@ title: Cách thực hiện OCR bất đồng bộ trong C# – Hướng dẫn ch
 url: /vi/net/ocr-optimization/how-to-async-ocr-in-c-complete-step-by-step-guide/
 ---
 
-console result") Keep unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep code block placeholders unchanged.
-
-Also ensure we keep markdown formatting.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,13 +24,7 @@ title: Cara Meningkatkan Akurasi OCR di C# dengan Aspose OCR
 url: /id/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
-list under "Common Pitfalls" uses numbers; keep same.
-
-Also note "5‑10 %" keep same.
-
-Make sure to preserve markdown formatting.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
