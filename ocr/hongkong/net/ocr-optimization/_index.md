@@ -62,16 +62,10 @@ weight: 25
 透過 Aspose.OCR for .NET 教學清單，您可取得更多資源，並持續關注 OCR 優化的最新進展。深入探索 Aspose.OCR for .NET 教學，體驗精確與效率的結合。
 
 ## OCR 優化教學
-### [在 OCR 圖像辨識中從 URL 執行圖像 OCR](./perform-ocr-on-image-from-url/)
-探索 Aspose.OCR for .NET 的無縫 OCR 整合，精準辨識圖像文字。
-### [在 OCR 圖像辨識中準備矩形區域](./prepare-rectangles/)
-解鎖 Aspose.OCR for .NET 的潛能，學習如何一步步準備矩形區域以進行圖像辨識，提升 .NET 應用程式的 OCR 整合。
 ### [在 OCR 圖像辨識中的圖像前處理濾鏡](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET，透過前處理濾鏡提升 OCR 精確度，立即下載以實現無縫整合。
 ### [在 OCR 圖像辨識中使用拼寫檢查進行結果校正](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
-### [在 OCR 圖像辨識中將多頁結果儲存為文件](./save-multipage-result-as-document/)
-解鎖 Aspose.OCR for .NET 的潛能，透過本完整步驟教學，輕鬆將多頁 OCR 結果儲存為文件。
 ### [使用 GPU 加速的圖像 OCR – 完整 C# 教學](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 了解如何在 Aspose.OCR for .NET 中利用 GPU 加速圖像 OCR，提升辨識速度與精度的完整 C# 範例。
 ### [在 OCR 圖像辨識中校正圖像斜角 – 完整 C# 教學](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
@@ -79,6 +73,99 @@ weight: 25
 ### [在 C# 中提取圖像文字 – 完整 OCR 教學](./extract-text-from-image-in-c-complete-ocr-guide/)
 完整 C# 範例教學，示範如何使用 Aspose.OCR 從圖像中提取文字並優化辨識結果。
 
+
+
+使用 Aspose.OCR for .NET 深入 OCR 世界。我們的教程[對 URL 中的圖像執行 OCR](./perform-ocr-on-image-from-url/)指導您完成無縫整合。精確識別圖像中的文本，使您的應用程式更加聰明。
+
+## 在 OCR 影像辨識中準備矩形
+
+您準備好釋放 Aspose.OCR for .NET 的全部潛力了嗎？我們的指南[準備矩形](./prepare-rectangles/)影像辨識是您成功的關鍵。逐步學習如何透過策略性放置矩形來優化影像辨識。利用這些不可或缺的知識來提升您的 .NET 應用程式。
+
+## OCR 影像辨識中影像的預處理濾鏡
+
+透過探索，使用 Aspose.OCR for .NET 提高 OCR 準確性[預處理過濾器](./preprocessing-filters-for-image/)。立即下載並了解如何在識別之前微調圖像。本教程確保無縫集成，提高準確性和效率。
+
+## OCR 影像辨識中的拼字檢查結果校正
+
+實現無與倫比的 OCR 準確性[Aspose.OCR for .NET](./result-correction-with-spell-checking/)。我們的拼字檢查結果校正教學讓您能夠輕鬆自訂字典、修正拼字並確保無錯誤的文字辨識。使用 Aspose.OCR 進入精確的世界。
+
+## 在 OCR 影像辨識中將多頁結果儲存為文檔
+
+使用 Aspose.OCR for .NET 輕鬆將多頁 OCR 結果儲存為文件。我們的[逐步指南](./save-multipage-result-as-document/)釋放文件創建的全部潛力。無縫整合 Aspose.OCR 並輕鬆將您的 OCR 結果轉換為多頁文件。
+
+使用 Aspose.OCR For .NET 教學列表，您可以存取其他資源並隨時了解 OCR 優化的最新進展。透過 Aspose.OCR for .NET 教學深入了解精確和高效的世界。
+## OCR 最佳化教學
+### [在 OCR 影像辨識中對 URL 中的影像執行 OCR](./perform-ocr-on-image-from-url/)
+探索與 Aspose.OCR for .NET 的無縫 OCR 整合。精確辨識圖像中的文字。
+### [在 OCR 影像辨識中準備矩形](./prepare-rectangles/)
+透過我們的綜合指南釋放 Aspose.OCR for .NET 的潛力。逐步學習如何準備用於影像辨識的矩形。透過無縫 OCR 整合提升您的 .NET 應用程式。
+### [在 OCR 影像辨識中將多頁結果儲存為文檔](./save-multipage-result-as-document/)
+釋放 Aspose.OCR for .NET 的潛能。透過這份全面的分步指南，輕鬆將多頁 OCR 結果儲存為文件。
+### [使用 Aspose OCR 搭配 GPU 的分步指南](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+了解如何在 GPU 加速環境中使用 Aspose OCR，提升辨識效能與速度。
+### [在 C# 中使用過濾器的圖像 OCR 前處理 – 完整指南](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+深入了解如何在 C# 中使用 Aspose.OCR 的過濾器進行圖像前處理，提高 OCR 準確性。
+### [使用 C# 從 PNG 提取文字圖像 – 使用 Aspose OCR 進行批次 OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+了解如何使用 Aspose OCR 在 C# 中批次處理 PNG 圖像，提取文字並提升辨識效率。
+### [在 C# 中使用 Aspose 提升 OCR 準確度 – 步驟指南](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+本指南逐步說明如何在 C# 應用程式中使用 Aspose 提升 OCR 識別的準確性。
+### [使用 Aspose OCR 移除背景 – 完整 GPU 指南](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+本指南說明如何在 GPU 環境下使用 Aspose OCR 移除影像背景，提高辨識效率。
+### [使用 Aspose OCR 與 GPU 從圖像提取文字 – C# 教程](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
+利用 Aspose OCR 結合 GPU 加速，示範在 C# 中高效提取圖像文字的完整指南。
+### [使用 Aspose OCR 從掃描檔案建立可搜尋的 PDF](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+本教學說明如何利用 Aspose OCR 將掃描檔案轉換為可搜尋的 PDF，提升文件可存取性。
+### [在 OCR 中增強對比度 – 完整 C# 教程](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+學習如何在 OCR 前處理中提升圖像對比度，提升辨識準確度。
+### [如何在 C# 中使用 OCR – 使用 GPU 加速從圖像提取文字](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+了解如何在 C# 中利用 GPU 加速執行 OCR，快速從圖像中提取高精度文字。
+### [使用批次 OCR 建立可搜尋 PDF – C# 指南](./create-searchable-pdf-with-batch-ocr-c-guide/)
+透過批次 OCR 將多頁文件轉換為可搜尋的 PDF，提升文件管理與搜尋效率。
+### [OCR 前處理管線 – 如何在 C# 中辨識影像文字](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+### [在 GPU 上對 PNG 影像執行 OCR – 完整 C# 指南](./run-ocr-on-png-with-gpu-complete-c-guide/)
+利用 GPU 加速在 PNG 圖像上執行 OCR，提供完整的 C# 實作步驟與最佳化技巧。
+### [C# OCR 教學：使用預處理辨識圖像文字](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+學習如何在 C# 中使用 Aspose.OCR 進行圖像預處理，提升文字辨識準確度。
+### [使用 Aspose OCR 進行影像文字辨識 – GPU 加速 C# 教程](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+探索使用 Aspose OCR 的 GPU 加速功能，以 C# 執行影像文字辨識，提高效能與準確度。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 OCR 影像辨識中校正圖像傾斜並提升對比度](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+### [在 C# 中將圖像轉換為 PDF – 完整 OCR 指南](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+本完整指南教您如何在 C# 中使用 Aspose.OCR 將圖像轉換為 PDF，涵蓋從 OCR 識別到 PDF 生成的全流程。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [在 C# 中使用 Aspose OCR 引擎批次 OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+使用 Aspose OCR 引擎在 C# 中批次處理 OCR 任務，提高效率與準確性。
+### [在 C# 中預處理圖像 OCR – 提升 Aspose OCR 準確度](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [C# OCR 教程 – 使用 GPU 加速辨識影像文字](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+利用 GPU 加速，快速且高效地從影像中辨識文字的完整 C# 教學。
+### [預處理影像以提升 OCR 準確度 – 使用 Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+了解如何使用 Aspose OCR 進行影像預處理，以提升文字辨識的準確性與效能。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常見問題
 
 **Q: 我可以從包含多種語言的圖像檔案中提取文字嗎？**  

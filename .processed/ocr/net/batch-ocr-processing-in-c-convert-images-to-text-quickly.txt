@@ -1,0 +1,7 @@
+Title: Batch OCR Processing in C# – Convert Images to Text Quickly
+Slug: batch-ocr-processing-in-c-convert-images-to-text-quickly
+Category: text-recognition
+ProcessedDate: 2026-06-25T22:37:00.385959
+SourceRepo: AI Search API
+Keywords: batch ocr processing, convert images to text, how to extract text from images
+PRNumber: 157

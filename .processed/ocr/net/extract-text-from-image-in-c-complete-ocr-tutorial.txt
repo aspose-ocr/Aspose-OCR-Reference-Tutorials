@@ -1,0 +1,7 @@
+Title: Extract Text from Image in C# – Complete OCR Tutorial
+Slug: extract-text-from-image-in-c-complete-ocr-tutorial
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:47:00.070284
+SourceRepo: AI Search API
+Keywords: extract text from image, load image for ocr, recognize scanned document, c# ocr tutorial
+PRNumber: 140

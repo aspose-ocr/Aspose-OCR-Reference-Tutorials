@@ -1,39 +1,62 @@
 ---
-title: Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning
-linktitle: Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning
-second_title: Aspose.OCR .NET-API
-description: Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla OCR-resultaten van meerdere pagina's moeiteloos op als documenten met deze uitgebreide stapsgewijze handleiding.
-weight: 14
+date: 2026-04-29
+description: Leer hoe je afbeeldingen naar PDF converteert met C# en Aspose.OCR, meervoudige
+  OCR-resultaten opslaat als documenten, en tekst uit afbeeldingen extraheert met
+  C#.
+keywords:
+- convert images to pdf
+- extract text from images
+- c# ocr library
+- convert images to xlsx
+- generate pdf from tiff
+linktitle: Afbeeldingen naar PDF converteren C# – Meerdere pagina's OCR‑resultaat
+  opslaan
+second_title: Aspose.OCR .NET API
+title: Afbeeldingen converteren naar PDF C# – Meerdere pagina's OCR-resultaat opslaan
 url: /nl/net/ocr-optimization/save-multipage-result-as-document/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bewaar het resultaat van meerdere pagina's als document in OCR-beeldherkenning
+# Afbeeldingen naar PDF C# converteren – Multipage OCR-resultaat opslaan
 
-## Invoering
+## Introductie
 
-Welkom in de fascinerende wereld van optische tekenherkenning (OCR) met Aspose.OCR voor .NET! In deze zelfstudie onderzoeken we hoe u de mogelijkheden van Aspose.OCR kunt benutten om OCR-resultaten van meerdere pagina's op te slaan als documenten. Of u nu een doorgewinterde ontwikkelaar bent of net begint met OCR, deze gids begeleidt u bij elke stap, zodat u het meeste uit deze krachtige tool haalt.
+In deze tutorial ontdek je hoe je **convert images to PDF C#** kunt gebruiken met de krachtige **Aspose.OCR** bibliotheek voor .NET. Of je nu **convert scanned TIFF files to searchable PDFs** moet converteren, tekst uit afbeeldingen moet extraheren voor data‑mining, of een Excel‑werkmap moet genereren uit een batch afbeeldingen, deze gids leidt je stap voor stap met duidelijke uitleg, praktijkgerichte tips en best‑practice aanbevelingen.
 
-## Vereisten
+## Snelle antwoorden
+- **Waar gaat deze tutorial over?** Meerdere afbeeldingen converteren naar PDF, Docx, Text en Xlsx met Aspose.OCR in C# en het OCR‑resultaat opslaan als een multipage‑document.  
+- **Welke uitvoerformaten worden ondersteund?** Docx, Text, Pdf, en Xlsx (je kunt ook direct PDF uitvoeren).  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een permanente licentie is vereist voor productie.  
+- **Welke .NET‑versies zijn compatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Kan ik tekst extraheren tijdens het converteren?** Ja—gebruik de OCR‑resultaten om doorzoekbare tekst op te halen voordat je opslaat.
 
-Voordat we in de tutorial duiken, zorgen we ervoor dat je alles hebt ingesteld:
+## Wat is “convert images to PDF C#”?
 
-1.  Aspose.OCR voor .NET installeren: Begin met het downloaden en installeren van Aspose.OCR voor .NET. U kunt de benodigde bestanden vinden[hier](https://releases.aspose.com/ocr/net/).
+Afbeeldingen naar PDF converteren in C# betekent programmatisch één of meer bitmap‑bestanden (PNG, JPEG, TIFF, enz.) nemen en een PDF‑document genereren dat de visuele lay-out behoudt, terwijl optioneel doorzoekbare tekst via OCR wordt ingebed. Aspose.OCR biedt een **c# ocr library** die dit end‑to‑end afhandelt, inclusief multipage‑ondersteuning en direct opslaan naar populaire office‑formaten.
 
-2.  Ontvang uw gratis proefversie of licentie: Als u dat nog niet heeft gedaan, kunt u een gratis proefversie verkrijgen[hier](https://releases.aspose.com/) of koop een licentie[hier](https://purchase.aspose.com/buy).
+## Waarom Aspose.OCR voor deze taak gebruiken?
 
-3.  Verken de documentatie: Maak uzelf vertrouwd met de[documentatie](https://reference.aspose.com/ocr/net/)voor Aspose.OCR voor .NET. Het is uw aanspreekpunt voor gedetailleerde informatie.
+- **High‑accuracy OCR** die tientallen talen ondersteunt.  
+- **Multipage processing** – voer een volledige map met afbeeldingen in en krijg één doorzoekbare PDF.  
+- **Direct export** naar Docx, Text, Pdf en Xlsx zonder een tweede conversiestap.  
+- **Pure .NET** – geen native afhankelijkheden, werkt op Windows, Linux en cloud‑runtime‑omgevingen.  
 
-4.  Toegang tot ondersteuningsforums: mocht u problemen ondervinden of vragen hebben, dan kunt u de[ondersteuningsforums](https://forum.aspose.com/c/ocr/16) zijn een waardevolle gemeenschapsbron.
+## Voorvereisten
 
-Nu u helemaal klaar bent, gaan we naar de stapsgewijze handleiding.
+1. Installeer Aspose.OCR voor .NET. Je kunt het downloaden [hier](https://releases.aspose.com/ocr/net/).  
+2. Verkrijg een gratis proefversie of een aangeschafte licentie – haal een proefversie [hier](https://releases.aspose.com/) of koop er één [hier](https://purchase.aspose.com/buy).  
+3. Bekijk de officiële [documentatie](https://reference.aspose.com/ocr/net/) om vertrouwd te raken met de API.  
+4. Word lid van de community op de [ondersteuningsforums](https://forum.aspose.com/c/ocr/16) voor hulp bij eventuele obstakels.  
 
-## Naamruimten importeren
+Nu alles klaar is, laten we beginnen met coderen.
 
-Begin uw project door de benodigde naamruimten te importeren:
+## Namespaces importeren
+
+Begin met het toevoegen van de vereiste namespaces aan je C#‑bestand:
 
 ```csharp
 using System;
@@ -43,73 +66,103 @@ using System.Linq;
 using Aspose.OCR;
 ```
 
-## Stap 1: Stel uw documentmap in
+Deze imports geven je toegang tot collecties, bestandsafhandeling, LINQ en de Aspose OCR‑klassen.
+
+## Stap 1: Stel je documentmap in
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
- Zorg ervoor dat u deze vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+Vervang `"Your Document Directory"` door het absolute of relatieve pad waar je bronafbeeldingen zich bevinden en waar je de uitvoerbestanden wilt opslaan.
 
 ## Stap 2: Initialiseer Aspose.OCR
 
 ```csharp
-// Initialiseer een exemplaar van AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
- Maak een exemplaar van`AsposeOcr` om toegang te krijgen tot de OCR-functionaliteiten.
+Het maken van een `AsposeOcr`‑object geeft je toegang tot alle OCR‑bewerkingen, inclusief de **convert images to PDF C#** workflow.
 
-## Stap 3: Herken afbeeldingen
+## Stap 3: Afbeeldingen herkennen
 
 ```csharp
-// Herken beeld
+// Recognize image
 List<RecognitionResult> result = api.RecognizeMultipleImages(
     new List<string> { dataDir + "sample.png", dataDir + "sample_bad.png" },
     new RecognitionSettings { }
 ).ToList();
 ```
 
-Gebruik Aspose.OCR om tekst uit meerdere afbeeldingen te herkennen. Pas de bestandspaden aan op basis van uw afbeeldingsbestanden.
+De `RecognizeMultipleImages`‑methode verwerkt elk bestand in de lijst en retourneert een collectie van `RecognitionResult`. Je kunt een willekeurig aantal afbeeldingen invoeren, wat perfect is voor **convert scanned images to PDF** scenario's.
 
-## Stap 4: Resultaten opslaan in voorkeursformaten
+## Stap 4: Resultaten opslaan in gewenste formaten
 
 ```csharp
-// Sla het resultaat op in het gewenste formaat
+// Save the result in your preferred format
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR()+"sample.docx", SaveFormat.Docx, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf, result);
 AsposeOcr.SaveMultipageDocument(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx, result);
 ```
 
-Kies het gewenste formaat (Docx, Tekst, Pdf of Xlsx) en sla de OCR-resultaten op als een document met meerdere pagina's.
+Kies het formaat dat het beste past bij je downstream‑workflow:
 
-## Conclusie
+- **Docx** – bewerkbaar Word‑document met doorzoekbare tekst.  
+- **Text** – platte‑tekst extractie voor snelle data‑mining (**extract text from images**).  
+- **Pdf** – de klassieke PDF‑output, ideaal voor archivering.  
+- **Xlsx** – spreadsheet‑representatie voor tabelgegevens (**convert images to xlsx**).
 
-Gefeliciteerd! U hebt met succes geleerd hoe u OCR-resultaten van meerdere pagina's kunt opslaan als documenten met Aspose.OCR voor .NET. Deze veelzijdige tool opent een wereld aan mogelijkheden voor tekstherkenning in uw projecten.
+## Hoe convert images to PDF C# – Stapsgewijze samenvatting
+
+1. **Prepare the folder** met de afbeeldingen die je wilt converteren.  
+2. **Create an `AsposeOcr` instance** om OCR‑functies te gebruiken.  
+3. **Call `RecognizeMultipleImages`** om OCR‑resultaten voor elk bestand te krijgen.  
+4. **Save the multipage result** met `SaveMultipageDocument` in het formaat dat je nodig hebt.
+
+## Veelvoorkomende gebruikssituaties
+
+- **Digital archiving:** Gescande papieren contracten omzetten naar doorzoekbare PDF's.  
+- **Data entry automation:** Tekst extraheren uit bonnen of facturen en deze in een database invoeren.  
+- **Batch processing:** Duizenden afbeeldingen verwerken in één taak met minimale code.  
+- **Generate PDF from TIFF:** Ideaal voor hoge‑resolutie gescande documenten die trouw aan het origineel moeten blijven.
+
+## Problemen oplossen & Tips
+
+- **Large image sets:** Verwerk afbeeldingen in kleinere batches om geheugenpieken te voorkomen.  
+- **Image quality:** Zorg ervoor dat afbeeldingen minimaal 300 dpi zijn voor optimale OCR‑nauwkeurigheid.  
+- **License errors:** Controleer of je licentiebestand correct is geladen voordat je OCR‑methoden aanroept.  
+- **Empty results:** Als een afbeelding niet kan worden gelezen, zal de bijbehorende `RecognitionResult` een lege `Text`‑eigenschap hebben — controleer op null of lege strings vóór het opslaan.  
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is er een tijdelijke licentie beschikbaar voor testdoeleinden?
+**Q: Kan ik images to PDF C# converteren zonder OCR?**  
+A: Ja, je kunt Aspose.PDF of andere bibliotheken gebruiken voor pure image‑to‑PDF conversie, maar OCR voegt doorzoekbare tekst toe die de PDF veel bruikbaarder maakt.
 
- A1: Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor het testen van Aspose.OCR.
+**Q: Hoe haal ik tekst uit images C# na conversie?**  
+A: De `result`‑lijst die wordt geretourneerd door `RecognizeMultipleImages` bevat een `Text`‑eigenschap voor elke pagina. Je kunt deze strings naar een `.txt`‑bestand schrijven of direct in je applicatie verwerken.
 
-### Vraag 2: Kan ik tekst uit afbeeldingen in verschillende formaten herkennen?
+**Q: Is het mogelijk om aangepaste paginamarges of oriëntatie in te stellen?**  
+A: Bij het opslaan naar PDF of Docx kun je de documentlay-out aanpassen via de Aspose.Words of Aspose.PDF API's voordat je `SaveMultipageDocument` aanroept.
 
-A2: Absoluut! Aspose.OCR ondersteunt verschillende afbeeldingsformaten, waardoor flexibiliteit bij uw OCR-taken wordt gegarandeerd.
+**Q: Wat gebeurt er als een afbeelding niet gelezen kan worden?**  
+A: De OCR‑engine retourneert een lege `RecognitionResult` voor die pagina; je kunt dit detecteren en het problematische bestand overslaan of loggen.
 
-### Vraag 3: Zijn er beperkingen op het aantal afbeeldingen voor herkenning?
+**Q: Ondersteunt de API cloud‑implementatie?**  
+A: Ja, de bibliotheek werkt op elke .NET‑runtime, inclusief Azure Functions en AWS Lambda, zolang de runtime aan de versie‑vereisten voldoet.
 
-A3: Het aantal afbeeldingen dat u kunt verwerken, is afhankelijk van uw licentie. Raadpleeg de documentatie voor meer informatie.
+## Conclusie
 
-### V4: Hoe kan ik omgaan met fouten tijdens OCR-herkenning?
+Je hebt nu een volledige, productie‑klare workflow om **convert images to PDF C#** uit te voeren, doorzoekbare tekst te extraheren, en zelfs Word-, platte‑tekst‑ of Excel‑bestanden te genereren uit een batch afbeeldingen. Voel je vrij om te experimenteren met verschillende uitvoerformaten, OCR‑instellingen aan te passen voor specifieke talen, of de code te integreren in grotere document‑verwerkingspijplijnen.
 
-A4: Raadpleeg de documentatie voor best practices voor foutafhandeling of zoek hulp op de ondersteuningsforums.
+---
 
-### V5: Ondersteunt Aspose.OCR andere talen dan Engels?
+**Laatst bijgewerkt:** 2026-04-29  
+**Getest met:** Aspose.OCR 24.11 for .NET  
+**Auteur:** Aspose  
 
-A5: Ja, Aspose.OCR ondersteunt meerdere talen. Bekijk de documentatie voor details over taalondersteuning.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

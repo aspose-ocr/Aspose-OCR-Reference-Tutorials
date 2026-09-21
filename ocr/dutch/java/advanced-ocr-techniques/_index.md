@@ -61,6 +61,35 @@ Ontgrendel de kracht van tekstherkenning met Aspose.OCR voor Java. Volg onze sta
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Eenvoudige integratie, hoge nauwkeurigheid.
 ### [Toegestane tekens opgeven in Aspose.OCR](./specify-allowed-characters/)
 Ontgrendel tekstextractie uit afbeeldingen naadloos met Aspose.OCR voor Java. Volg onze stapsgewijze handleiding voor een efficiënte integratie.
+### [Hoe OCR met GPU-versnelling te gebruiken in Java – Stapsgewijze handleiding](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Leer hoe u OCR met GPU-versnelling in Java implementeert voor snellere en nauwkeurige tekstherkenning.
+### [Tekst herkennen van afbeelding met Aspose OCR – volledige Java-gids](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+Leer hoe u tekst uit afbeeldingen haalt met Aspose OCR in Java, stap voor stap met volledige codevoorbeelden.
+### [Afbeeldingsruis verminderen in OCR met Aspose – volledige Java-gids](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+Leer hoe u ruis in afbeeldingen vermindert voor betere OCR-resultaten met Aspose in Java, stap voor stap met voorbeeldcode.
+
+### [Afbeelding voorbewerken voor OCR in Java – Verhoog nauwkeurigheid & extraheer tekst](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+Verbeter de OCR-nauwkeurigheid door afbeeldingen voor te bewerken in Java. Volg onze stapsgewijze handleiding voor optimale tekstextractie.
+### [Hoe GPU voor OCR in te schakelen – Snelle extractie van tekst uit afbeeldingen](./how-to-enable-gpu-for-ocr-fast-extraction-of-text/)
+### [Hoe OCR uit te voeren op grote documenten – Complete Java-gids](./how-to-run-ocr-on-large-documents-complete-java-guide/)
+Leer hoe u OCR toepast op grote documenten met Java voor snelle en nauwkeurige tekstextractie.
+### [Hoe GPU voor OCR in Java in te schakelen – Tekst snel herkennen uit afbeelding](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
+Versnel OCR in Java met GPU-ondersteuning voor snelle tekstherkenning uit afbeeldingen.
+### [Tekst extraheren uit afbeelding met Java – VIN lezen van foto](./extract-text-from-image-with-java-read-vin-from-photo/)
+Lees een VIN-nummer van een foto met behulp van Aspose.OCR voor Java. Snel en nauwkeurig tekst uit afbeeldingen extraheren.
+### [Hoe GPU voor Java OCR in te schakelen – Stapsgewijze handleiding](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+Leer hoe u GPU-ondersteuning activeert voor Aspose.OCR in Java voor snellere en nauwkeurigere tekstherkenning.
+### [Tekst herkennen uit afbeeldingen met Java – Parallel OCR-tutorial](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
+Leer hoe u met Java parallel OCR kunt uitvoeren om tekst uit meerdere afbeeldingen sneller te extraheren.
+### [Tekst extraheren uit afbeelding Java – Complete OCR-gids met spellingscorrectie](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+Leer hoe u tekst uit afbeeldingen haalt in Java met een volledige OCR-gids inclusief spellingscorrectie voor nauwkeurige resultaten.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

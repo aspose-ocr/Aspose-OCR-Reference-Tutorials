@@ -1,0 +1,7 @@
+Title: Extract Text from Image in ASP.NET Core Minimal API – Complete Guide
+Slug: extract-text-from-image-in-asp-net-core-minimal-api-complete
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:30.425568
+SourceRepo: AI Search API
+Keywords: extract text from image, upload image via post, read multipart form data, how to recognize text from image, perform ocr on image
+PRNumber: 131

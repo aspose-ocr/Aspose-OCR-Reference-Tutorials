@@ -36,24 +36,6 @@ OCR निकालने का मतलब है एक इमेज (या
 - **कोई बाहरी इंस्टॉलेशन नहीं**; लाइब्रेरी Windows, Linux, और macOS पर बॉक्स से बाहर काम करती है।
 - **फ्लेक्सिबल इनपुट सोर्स**—आर्काइव, फ़ोल्डर, स्ट्रीम, या इन-मेमोरी लिस्ट।
 
-## ज़रूरी शर्तें
-- .NET डेवलपमेंट पर्यावरण (विजुअल स्टूडियो 2022 या VS कोड)।
-- .NET NuGet पैकेज के लिए Aspose.OCR इंस्टॉल किया हुआ (`Install-Package Aspose.OCR`)।
-- उन इमेज या आर्काइव्स के सैंपल जिन्हें आप प्रोसेस करना चाहते हैं।
-
-## OCROperation with Archive in OCR इमेज रिकग्निशन
-Aspose.OCR के साथ OCR की दुनिया में एंट्री करें और स्टेप-दर-स्टेप आर्काइव इमेज से टेक्स्ट निकालने की विधि सीखें। यह ट्यूटोरियल .NET एप्लिकेशन्स में OCR पोर्टेबल को इस्तेमाल करने के लिए बड़े पैमाने पर जानकारी देता है। फाइलों से लेकर इम्प्लीमेंटेशन तक, टेक्स्ट एक्सट्रैक्शन के जादू को समझता है।
-
-## OCROperation with Folder in OCR Image Recognition
-Aspose.OCR के साथ .NET में OCR इमेज रिकग्निशन की ताकत को समझें। यह ट्यूटोरियल आपको फ़ोल्डरों में फाइलों में इमेज से टेक्स्ट आसानी से निकालने की जानकारी देता है। डेटा एक्सट्रैक्शन की ताकत बढ़ाएँ और अपने एप्लिकेशन की OCR पोर्टेबल को प्रोसेस करें।
-
-## OCROperation with Language Selection in OCR Image Recognition
-Aspose.OCR for .NET में **ocr language selection** को मास्टर करके अपनी OCR पोर्टेबल को नई हाइट पर ले जाएँ। यह ट्यूटोरियल अलग-अलग फाइलों में इमेज से टेक्स्ट को आसानी से निकालने की प्रोसेस को गाइड करता है। अपने एप्लिकेशन को मल्टीपल OCR पोर्टेबल से मजबूत बनाएँ।
-
-## OCROperation with List in OCR Image Recognition
-Aspose.OCR for .NET की विशाल क्षमताओं का एक्सप्लोरेशन करें और लिस्ट के साथ OCR इमेज रिकग्निशन को आसानी से करें। यह ट्यूटोरियल न केवल टेक्स्ट एक्सट्रैक्शन को बेहतर बनाता है बल्कि अलग-अलग डेटा सेट्स को ऑपरेशन में प्रोडक्टिविटी भी बढ़ाता है। लिस्ट ऑपरेशन्स के साथ OCR की क्षमता को खोजें।
-
-## OCR Configuration Tutorials
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 OCR की क्षमताओं को .NET एप्लिकेशन्स में Aspose.OCR के साथ चलाएं। आर्काइव इमेज से टेक्स्ट निकालने के स्टेप-दर-स्टेप सीखें।
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -73,7 +55,48 @@ Aspose.OCR for .NET की क्षमताओं को बढ़ाएं।
 ### टिप्स और नुकसान
 - **प्रो टिप:** इमेज बढ़ाने के लिए हमेशा इमेज को प्री-प्रोसेस करें (जैसे, डेस्क्यू, बाइनराइज़)।
 - **चेतावनी:** बड़े आर्काइव्स काफी मेमोरी खपत कर सकते हैं; बैच-वाइज प्रोसेसिंग पर विचार करें।
+### [C# में रूसी टेक्स्ट निकालें और रिसोर्स पाथ सेट करें – Aspose OCR गाइड](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके C# में रूसी भाषा के टेक्स्ट को निकालें और रिसोर्स पाथ सेट करने का तरीका सीखें।
+### [C# में OCR इमेज कैसे करें – GPU समर्थन के साथ पूर्ण गाइड](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPU समर्थन के साथ C# में इमेज OCR करने की पूरी गाइड
+### [Aspose OCR के साथ इमेज से टेक्स्ट पहचानें – पूर्ण C# गाइड](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR के साथ C# में इमेज से टेक्स्ट निकालने की पूरी गाइड
 
+अंत में, ये OCR कॉन्फ़िगरेशन ट्यूटोरियल .NET के लिए Aspose.OCR की समग्र समझ प्रदान करते हैं। चाहे आप संग्रहित छवियों, फ़ोल्डरों, भाषा चयन, या सूचियों के साथ काम कर रहे हों, ये चरण-दर-चरण मार्गदर्शिकाएँ सुनिश्चित करती हैं कि आप OCR की पूरी क्षमता का उपयोग करें, जिससे आपके एप्लिकेशन की पाठ निष्कर्षण क्षमताओं में वृद्धि हो। Aspose.OCR के साथ OCR जादू में गोता लगाएँ, अन्वेषण करें और अनलॉक करें!
+## ओसीआर कॉन्फ़िगरेशन ट्यूटोरियल
+### [.NET में एम्बेडेड रिसोर्स पढ़ें – Aspose लाइसेंस सेट करने के लिए पूर्ण गाइड](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose लाइसेंस सेट करने के लिए .NET में एम्बेडेड रिसोर्स पढ़ने का पूर्ण मार्गदर्शन।
+
+### [C# में Aspose के साथ OCR भाषा मॉडल डाउनलोड करें – पूर्ण गाइड](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose के साथ C# में OCR भाषा मॉडल डाउनलोड करने और उपयोग करने की पूरी प्रक्रिया सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR के लिए GPU सक्षम करने का चरण‑दर‑चरण गाइड](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Aspose OCR में GPU का उपयोग करके तेज़ OCR प्रदर्शन प्राप्त करने के लिए चरण‑दर‑चरण निर्देश।
+### [C# में छवि टेक्स्ट को पहचानें – Aspose के साथ अरबी OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Aspose OCR के साथ C# में अरबी छवियों से टेक्स्ट निकालने का चरण‑दर‑चरण मार्गदर्शन।
+### [C# में Aspose लाइसेंस सेट करने का पूर्ण गाइड](./how-to-set-aspose-license-in-c-complete-guide/)
+Aspose लाइसेंस को C# प्रोजेक्ट में सेट करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR में लाइसेंस कैसे लागू करें – चरण‑दर‑चरण C# गाइड](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR के लिए लाइसेंस लागू करने की प्रक्रिया को चरण‑दर‑चरण C# में सीखें।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या मैं कमर्शियल .NET एप्लीकेशन में Aspose.OCR इस्तेमाल कर सकता हूँ?**
@@ -99,6 +122,10 @@ A: API इनेबल्ड फाइलों को स्किप कर �
 
 ---
 
+अंत में, ये OCR कॉन्फ़िगरेशन ट्यूटोरियल .NET के लिए Aspose.OCR की समग्र समझ प्रदान करते हैं। चाहे आप संग्रहित छवियों, फ़ोल्डरों, भाषा चयन, या सूचियों के साथ काम कर रहे हों, ये चरण-दर-चरण मार्गदर्शिकाएँ सुनिश्चित करती हैं कि आप ओसीआर की पूरी क्षमता का उपयोग करें, जिससे आपके एप्लिकेशन की पाठ निष्कर्षण क्षमताओं में वृद्धि हो। Aspose.OCR के साथ OCR जादू में गोता लगाएँ, अन्वेषण करें और अनलॉक करें!
+## ओसीआर कॉन्फ़िगरेशन ट्यूटोरियल
+### [C# में OCR भाषा समर्थन कैसे जांचें – पूर्ण गाइड](./how-to-check-ocr-language-support-in-c-complete-guide/)
+C# में Aspose.OCR के साथ उपलब्ध भाषा समर्थन की जाँच करने की पूरी प्रक्रिया सीखें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -54,12 +54,11 @@ Lleva tus capacidades OCR a nuevos niveles dominando **ocr language selection** 
 Explora el enorme potencial de Aspose.OCR para .NET mientras realizas reconocimiento de imágenes OCR con listas de manera sencilla. Este tutorial no solo mejora la extracción de texto, sino que también incrementa la productividad al manejar conjuntos de datos diversos. Descubre la eficiencia del OCR con operaciones basadas en listas.
 
 ## Tutoriales de Configuración de OCR
+
+
+
 ### [OCROperation con Archivo en Reconocimiento de Imágenes OCR](./ocr-operation-with-archive/)
 Desbloquea el potencial del OCR en aplicaciones .NET con Aspose.OCR. Aprende a extraer texto de imágenes en archivos comprimidos paso a paso.
-### [OCROperation con Carpeta en Reconocimiento de Imágenes OCR](./ocr-operation-with-folder/)
-Desbloquea el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extrae texto sin esfuerzo de imágenes.
-### [OCROperation con Selección de Idioma en Reconocimiento de Imágenes OCR](./ocr-operation-with-language-selection/)
-Desbloquea potentes capacidades OCR con Aspose.OCR para .NET. Extrae texto de imágenes de forma fluida.
 ### [OCROperation con Lista en Reconocimiento de Imágenes OCR](./ocr-operation-with-list/)
 Desbloquea el potencial de Aspose.OCR para .NET. Realiza reconocimiento de imágenes OCR con listas de manera sencilla. Incrementa la productividad y la extracción de datos en tus aplicaciones.
 
@@ -71,7 +70,51 @@ Desbloquea el potencial de Aspose.OCR para .NET. Realiza reconocimiento de imág
 ### Consejos y trampas
 - **Consejo profesional:** Siempre preprocesa las imágenes (p. ej., enderezado, binarizado) para mejorar la precisión.  
 - **Advertencia:** Los archivos comprimidos grandes pueden consumir mucha memoria; considera procesarlos en lotes.  
+### [Extraer texto ruso y establecer la ruta de recursos en C# – Guía Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aprenda a extraer texto en ruso y configurar la ruta de recursos en C# usando Aspose.OCR.
 
+En conclusión, estos tutoriales de configuración de OCR ofrecen una comprensión integral de Aspose.OCR para .NET. Ya sea que esté trabajando con imágenes de archivo, carpetas, selección de idioma o listas, estas guías paso a paso le garantizan aprovechar todo el potencial del OCR, elevando las capacidades de extracción de texto de su aplicación. ¡Sumérgete, explora y desbloquea la magia del OCR con Aspose.OCR!
+## Tutoriales de configuración de OCR
+### [OCROperación con carpeta en reconocimiento de imágenes OCR](./ocr-operation-with-folder/)
+Desbloquee el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extraiga texto sin esfuerzo de las imágenes.
+### [OCROperación con selección de idioma en reconocimiento de imágenes OCR](./ocr-operation-with-language-selection/)
+### [Cómo hacer OCR de una imagen en C# – Guía completa con soporte GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Aprenda a reconocer texto en imágenes usando C# y Aspose.OCR, aprovechando la aceleración GPU para un rendimiento óptimo.
+### [Reconocer texto de una imagen con Aspose OCR – Guía completa en C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a reconocer texto de imágenes usando Aspose OCR en C#, con una guía paso a paso.
+### [Leer recurso incrustado en .NET – Guía completa para configurar la licencia Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aprenda a leer recursos incrustados en .NET y configurar correctamente la licencia de Aspose en sus aplicaciones.
+
+### [Descargar modelo de idioma OCR en C# con Aspose – Guía completa](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aprenda a descargar e integrar el modelo de idioma OCR en C# usando Aspose en una guía paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo habilitar GPU para Aspose OCR – Guía paso a paso](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Aprenda a activar la GPU en Aspose OCR y mejore el rendimiento del reconocimiento de texto paso a paso.
+### [Reconocer texto de imagen en C# – OCR árabe con Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Reconozca texto árabe en imágenes con C# y Aspose OCR paso a paso.
+### [Cómo establecer la licencia de Aspose en C# – Guía completa](./how-to-set-aspose-license-in-c-complete-guide/)
+Aprenda a configurar la licencia de Aspose en C# paso a paso y desbloquee todas sus funcionalidades.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cómo aplicar la licencia en Aspose OCR – Guía paso a paso en C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aprenda a aplicar la licencia de Aspose OCR en sus aplicaciones C# paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar Aspose.OCR en una aplicación .NET comercial?**  
@@ -96,6 +139,11 @@ R: Sí, el objeto `OcrResult` proporciona valores de confianza que puedes inspec
 **Autor:** Aspose  
 
 ---
+
+En conclusión, estos tutoriales de configuración de OCR ofrecen una comprensión integral de Aspose.OCR para .NET. Ya sea que esté trabajando con imágenes de archivo, carpetas, selección de idioma o listas, estas guías paso a paso le garantizan aprovechar todo el potencial del OCR, elevando las capacidades de extracción de texto de su aplicación. ¡Sumérgete, explora y desbloquea la magia del OCR con Aspose.OCR!
+## Tutoriales de configuración de OCR
+### [Cómo verificar la compatibilidad de idiomas OCR en C# – Guía completa](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Descubra cómo comprobar qué idiomas admite Aspose.OCR en C# y garantice una extracción de texto precisa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

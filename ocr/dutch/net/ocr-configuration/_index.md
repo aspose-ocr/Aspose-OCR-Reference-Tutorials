@@ -53,6 +53,9 @@ Til je OCR‑mogelijkheden naar een hoger niveau door **ocr taalselectie** onder
 Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR‑beeldherkenning ontdekt met lijsten. Deze tutorial verbetert niet alleen tekstextractie, maar verhoogt ook de productiviteit bij het verwerken van diverse datasets. Ontdek de efficiëntie van OCR met lijst‑operaties.
 
 ## OCR-configuratie-tutorials
+
+
+
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
@@ -70,7 +73,47 @@ Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldhe
 ### Tips en valkuilen
 - **Pro tip:** Pre-process altijd afbeeldingen (bijv. deskew, binariseren) om de nauwkeurigheid te verbeteren.
 - **Waarschuwing:** Grote archieven kunnen veel geheugenverbruiken; overweeg verwerking in batches.
+### [OCR-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-language-selection/)
+Ontgrendel krachtige OCR-mogelijkheden met Aspose.OCR voor .NET. Extraheer tekst naadloos uit afbeeldingen.
+### [Hoe OCR-taalondersteuning te controleren in C# – Complete gids](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Leer hoe u in C# kunt controleren welke talen door Aspose.OCR worden ondersteund.
+### [Russische tekst extraheren & bronpad instellen in C# – Aspose OCR-gids](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Leer hoe u Russische tekst uit afbeeldingen haalt en het resourcepad configureert in C# met Aspose OCR.
+### [Hoe OCR-afbeelding in C# – Complete gids met GPU-ondersteuning](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Leer stap voor stap OCR op afbeeldingen in C# uit te voeren met volledige GPU-ondersteuning voor maximale prestaties.
+### [Tekst herkennen uit afbeelding met Aspose OCR – Complete C#-gids](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Leer stap voor stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in C#.
+### [Embedded resource lezen in .NET – Complete gids voor het instellen van een Aspose-licentie](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Leer hoe u een embedded resource leest en een Aspose-licentie instelt in .NET-toepassingen.
+### [Download OCR-taalmodel in C# met Aspose – Volledige gids](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Leer hoe u het OCR-taalmodel downloadt en integreert in C#-toepassingen met Aspose.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hoe GPU in te schakelen voor Aspose OCR – Stapsgewijze gids](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Leer hoe u GPU-ondersteuning inschakelt voor Aspose OCR om de prestaties te verbeteren.
+### [Afbeeldingstekst herkennen in C# – Arabische OCR met Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Leer hoe u Arabische tekst uit afbeeldingen haalt met Aspose OCR in C#.
+### [Hoe Aspose-licentie in C# instellen – Complete gids](./how-to-set-aspose-license-in-c-complete-guide/)
+Leer hoe u de Aspose-licentie in C# instelt voor optimale functionaliteit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Hoe licentie toe te passen in Aspose OCR – Stapsgewijze C#-gids](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Leer hoe u de licentie van Aspose OCR installeert in uw C#-project, stap voor stap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Veelgestelde vragen
 
 **Q: Kan ik Aspose.OCR gebruiken in een conventionele .NET‑applicatie?**

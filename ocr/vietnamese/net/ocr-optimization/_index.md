@@ -64,22 +64,85 @@ Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với Aspos
 Sử dụng Aspose.OCR For .NET Tutorials List, bạn có thể truy cập các tài nguyên bổ sung và cập nhật những tiến trình mới nhất trong OCR tối ưu hóa. Hãy khám phá thế giới chính xác và hiệu quả của các hướng dẫn tương tự của Aspose.OCR cho .NET.
 
 ## Hướng dẫn tối ưu hóa OCR
-### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
-Khám phá tích hợp OCR liền mạch với Aspose.OCR for .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
-### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
-Mở khóa tiềm năng của Aspose.OCR for .NET với hướng dẫn toàn diện của chúng tôi. Học từng bước cách chuẩn bị các hình chữ nhật cho nhận dạng hình ảnh. Nâng cao các ứng dụng .NET của bạn với tích hợp OCR liền mạch.
-### [Preprocessing Filters for Image in OCR Image Recognition](./preprocessing-filters-for-image/)
-Khám phá Aspose.OCR for .NET. Tăng cường độ chính xác OCR với các bộ lọc tiền xử lý. Tải ngay để tích hợp liền mạch.
-### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Cải thiện độ chính xác OCR với Aspose.OCR for .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và đạt được nhận dạng văn bản không lỗi một cách dễ dàng.
-### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
-Mở khóa tiềm năng của Aspose.OCR for .NET. Lưu dễ dàng kết quả OCR đa trang dưới dạng tài liệu với hướng dẫn chi tiết từng bước này.
+### [Thực hiện OCR trên hình ảnh từ URL trong Nhận dạng hình ảnh OCR](./perform-ocr-on-image-from-url/)
+Khám phá tích hợp OCR liền mạch với Aspose.OCR cho .NET. Nhận dạng văn bản từ hình ảnh một cách chính xác.
+### [Chuẩn bị hình chữ nhật trong nhận dạng hình ảnh OCR](./prepare-rectangles/)
+Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu từng bước cách chuẩn bị hình chữ nhật để nhận dạng hình ảnh. Nâng cao ứng dụng .NET của bạn bằng tích hợp OCR liền mạch.
+### [Bộ lọc tiền xử lý cho hình ảnh trong nhận dạng hình ảnh OCR](./preprocessing-filters-for-image/)
+Khám phá Aspose.OCR cho .NET. Tăng độ chính xác của OCR bằng các bộ lọc tiền xử lý. Tải xuống ngay để tích hợp liền mạch.
+### [Tiền xử lý hình ảnh OCR trong C# – Hướng dẫn đầy đủ với các bộ lọc](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
+Khám phá cách tiền xử lý hình ảnh OCR trong C# bằng các bộ lọc để nâng cao độ chính xác và hiệu suất.
+### [Sửa kết quả bằng tính năng kiểm tra chính tả trong nhận dạng hình ảnh OCR](./result-correction-with-spell-checking/)
+Nâng cao độ chính xác của OCR với Aspose.OCR cho .NET. Sửa lỗi chính tả, tùy chỉnh từ điển và nhận dạng văn bản không có lỗi một cách dễ dàng.
+### [Lưu kết quả nhiều trang dưới dạng tài liệu trong nhận dạng hình ảnh OCR](./save-multipage-result-as-document/)
+Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng lưu kết quả OCR nhiều trang dưới dạng tài liệu với hướng dẫn từng bước toàn diện này.
+### [Cách sử dụng Aspose OCR với GPU – Hướng dẫn từng bước](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
+Khám phá cách tích hợp Aspose OCR với GPU để tăng tốc độ xử lý và cải thiện độ chính xác trong các dự án .NET.
+### [Trích xuất văn bản từ các hình PNG bằng C# – OCR hàng loạt với Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
+Hướng dẫn cách trích xuất văn bản từ nhiều file PNG đồng thời bằng C# và Aspose OCR, tăng tốc quy trình OCR hàng loạt.
+### [Cải thiện độ chính xác OCR trong C# với Aspose – Hướng dẫn từng bước](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
+### [Xóa nền OCR với Aspose OCR – Hướng dẫn GPU hoàn chỉnh](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
+Hướng dẫn chi tiết cách loại bỏ nền trong OCR bằng Aspose OCR sử dụng GPU để tăng tốc hiệu suất.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR & GPU – Hướng dẫn C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
+Tận dụng sức mạnh GPU để trích xuất văn bản nhanh chóng từ hình ảnh bằng Aspose OCR trong C#.
+### [Tạo PDF có thể tìm kiếm từ tệp quét bằng Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+Biến tài liệu quét thành PDF có thể tìm kiếm bằng Aspose OCR cho .NET, dễ dàng lưu trữ và tìm kiếm nội dung.
+### [Cách Tăng Độ Tương Phản trong OCR – Hướng Dẫn C# Hoàn Chỉnh](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
+Khám phá cách cải thiện độ tương phản ảnh để nâng cao độ chính xác OCR bằng C# trong hướng dẫn chi tiết này.
+### [Tạo PDF có thể tìm kiếm với OCR hàng loạt – Hướng dẫn C#](./create-searchable-pdf-with-batch-ocr-c-guide/)
+Biến các tài liệu thành PDF có thể tìm kiếm bằng OCR hàng loạt trong C# để nâng cao khả năng truy cập và tìm kiếm nội dung.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh với tăng tốc GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
+Tận dụng sức mạnh GPU để tăng tốc OCR trong C#, nhanh chóng trích xuất văn bản từ hình ảnh.
+### [Chạy OCR trên PNG với GPU – Hướng dẫn C# đầy đủ](./run-ocr-on-png-with-gpu-complete-c-guide/)
+Khám phá cách chạy OCR trên ảnh PNG bằng GPU với C#, tăng tốc độ và độ chính xác.
+### [Đường ống tiền xử lý OCR – Cách nhận dạng văn bản từ hình ảnh trong C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+Khám phá quy trình tiền xử lý OCR để nhận dạng văn bản từ hình ảnh trong C#, nâng cao độ chính xác và hiệu suất.
+### [c# OCR tutorial: Nhận dạng văn bản từ hình ảnh bằng tiền xử lý](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
+Khám phá cách nhận dạng văn bản từ hình ảnh bằng tiền xử lý trong Aspose.OCR cho .NET.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C# tăng tốc GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
+Tận dụng sức mạnh GPU của Aspose OCR để nhận dạng văn bản từ hình ảnh nhanh chóng trong C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
 ### [Extract Text from Image in C# – Complete OCR Guide](./extract-text-from-image-in-c-complete-ocr-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm tiền xử lý và lưu kết quả.
 ### [Cách chỉnh nghiêng hình ảnh trong C# – Hướng dẫn tiền xử lý OCR đầy đủ](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 ### [Thực hiện OCR trên hình ảnh với tăng tốc GPU – Hướng dẫn C# đầy đủ](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Khám phá cách sử dụng GPU để tăng tốc OCR trong Aspose.OCR cho .NET với hướng dẫn C# chi tiết.
 
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cách chỉnh nghiêng ảnh và tăng độ tương phản để cải thiện độ chính xác OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
+Khám phá cách xử lý ảnh để loại bỏ nghiêng và tăng độ tương phản, nâng cao độ chính xác OCR trong Aspose.OCR cho .NET.
+### [Chuyển đổi hình ảnh sang PDF trong C# – Hướng dẫn OCR toàn diện](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+Biến hình ảnh thành PDF với Aspose.OCR cho .NET, tích hợp OCR đầy đủ và lưu kết quả dưới dạng tài liệu PDF.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tiền xử lý hình ảnh OCR trong C# – Tăng độ chính xác với Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
+Khám phá cách tiền xử lý hình ảnh trong C# để nâng cao độ chính xác OCR với Aspose OCR.
+### [Cách thực hiện OCR hàng loạt bằng C# với Aspose OCR Engine](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
+Hướng dẫn thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C# và Aspose OCR Engine, tăng hiệu suất và tự động hoá quy trình.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Tiền xử lý hình ảnh cho OCR – Tăng độ chính xác với Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Khám phá cách tiền xử lý hình ảnh để nâng cao độ chính xác OCR với Aspose OCR. Tối ưu hoá kết quả nhận dạng nhanh chóng.
+### [Hướng dẫn OCR C# – Nhận dạng văn bản từ hình ảnh với tăng tốc GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
+Tận dụng sức mạnh GPU để nhận dạng văn bản từ hình ảnh nhanh hơn với Aspose.OCR cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Câu hỏi thường gặp
 
 **Hỏi: Tôi có thể trích xuất văn bản từ tệp hình ảnh chứa nhiều ngôn ngữ không?**
