@@ -107,7 +107,6 @@ weight: 25
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 ### [Предобработка изображения OCR в C# – Повышение точности с Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 Узнайте, как предобрабатывать изображения в C# для OCR, повышая точность распознавания с помощью Aspose OCR.
 ### [Как пакетно выполнять OCR в C# с движком Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
@@ -129,6 +128,15 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Выполнение OCR изображения с ускорением GPU – Полное руководство на C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Полное руководство по использованию ускорения GPU для OCR изображений в C# с Aspose.OCR.
+
+### [Как выпрямить изображение в C# – Полное руководство по предварительной обработке OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Полное руководство по выравниванию изображений перед OCR в C# с использованием Aspose.OCR.
+
+### [Извлечение текста из изображения на C# – Полное руководство по OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Полное пошаговое руководство по извлечению текста из изображений в C# с использованием Aspose.OCR, включая настройку и оптимизацию.
+
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я извлекать текст из файлов изображений, содержащих несколько языков?**  

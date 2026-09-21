@@ -65,6 +65,8 @@ weight: 25
 探索适用于 .NET 的 Aspose.OCR。使用预处理过滤器提高 OCR 准确性。立即下载以实现无缝集成。
 ### [C# 图像 OCR 预处理完整指南（含过滤器）](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
 本教程详细介绍如何在 C# 中使用 Aspose.OCR 通过各种预处理过滤器提升 OCR 准确性。
+### [如何在 C# 中去倾斜图像 – 完整 OCR 预处理指南](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+了解在 C# 中使用 Aspose.OCR 进行图像去倾斜的完整步骤，提高 OCR 准确性。
 ### [OCR 图像识别中的拼写检查结果校正](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提高 OCR 准确性。轻松纠正拼写、自定义词典并实现无差错的文本识别。
 ### [在 OCR 图像识别中将多页结果保存为文档](./save-multipage-result-as-document/)
@@ -109,7 +111,6 @@ weight: 25
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 ### [在 C# 中预处理图像 OCR – 使用 Aspose OCR 提升准确性](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 了解如何在 C# 项目中使用 Aspose OCR 进行图像预处理，以显著提升识别准确率。
 ### [使用 Aspose OCR 引擎在 C# 中批量 OCR 的方法](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
@@ -132,6 +133,12 @@ weight: 25
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [使用 GPU 加速进行图像 OCR – 完整 C# 指南](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+了解如何在 .NET 中利用 GPU 加速实现高效图像 OCR，完整的 C# 示例帮助您提升识别速度和准确性。
+
+### [在 C# 中从图像提取文本 – 完整 OCR 指南](./extract-text-from-image-in-c-complete-ocr-guide/)
+使用 Aspose.OCR for .NET 在 C# 中实现完整的图像文字提取，涵盖加载、预处理、识别及结果保存。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

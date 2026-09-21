@@ -53,6 +53,8 @@ Enhance OCR accuracy with Aspose.OCR for .NET by exploring [preprocessing filter
 
 ### [ocr preprocessing pipeline – How to Recognize Text from Image in C#](./ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
 Learn to build a preprocessing pipeline to recognize text from images using Aspose.OCR for .NET in C#.
+### [How to Deskew Image in C# – Full OCR Pre‑processing Guide](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# projects.
 
 ## Result Correction with Spell Checking in OCR Image Recognition
 
@@ -77,8 +79,10 @@ Unlock the potential of Aspose.OCR for .NET with our comprehensive guide. Learn 
 Explore Aspose.OCR for .NET. Boost OCR accuracy with preprocessing filters. Download now for seamless integration.
 ### [How to Enhance Contrast in OCR – Complete C# Tutorial](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
 Boost OCR accuracy by enhancing image contrast using Aspose.OCR in C#. Follow this complete tutorial for step-by-step guidance.
+### [How to Deskew Image in C# – Full OCR Pre‑processing Guide](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# projects.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error-free text recognition effortlessly.
+Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
 ### [How to Use Aspose OCR with GPU – Step‑by‑Step Guide](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
@@ -106,6 +110,10 @@ Learn how to preprocess images and recognize text using Aspose.OCR for .NET in C
 ### [recognize text from image with Aspose OCR – GPU‑Accelerated C# Tutorial](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Leverage GPU acceleration in C# to recognize text from images using Aspose OCR for faster, high‑accuracy results.
 {{< /blocks/products/pf/tutorial-page-section >}}
+### [Perform OCR on Image with GPU Acceleration – Complete C# Guide](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Leverage GPU acceleration in Aspose.OCR for .NET to speed up image OCR processing with a complete C# implementation.
+### [Extract Text from Image in C# – Complete OCR Guide](./extract-text-from-image-in-c-complete-ocr-guide/)
+Comprehensive guide to extract text from images using Aspose.OCR in C#, covering setup, preprocessing, and result handling.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

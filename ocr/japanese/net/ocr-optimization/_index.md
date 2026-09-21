@@ -62,6 +62,12 @@ Aspose.OCR for .NET を使用して、マルチページ OCR 結果を文書と�
 Aspose.OCR for .NET のチュートリアル一覧を利用すれば、追加リソースにアクセスでき、OCR 最適化の最新動向を常に把握できます。Aspose.OCR for .NET のチュートリアルで、精度と効率の世界に飛び込みましょう。
 
 ## OCR 最適化チュートリアル
+### [GPU 加速で画像の OCR を実行する – 完全 C# ガイド](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+GPU を活用して高速に画像 OCR を行う方法を C# でステップバイステップで解説します。
+### [画像のデスキュー – 完全 C# OCR 前処理ガイド](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+C# で画像のデスキュー処理を行い、OCR 前処理を完全にマスターするガイドです。
+### [C# で画像からテキストを抽出 – 完全 OCR ガイド](./extract-text-from-image-in-c-complete-ocr-guide/)
+C# を使用して画像からテキストを正確に抽出する手順をステップバイステップで解説します。
 
 
 

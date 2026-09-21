@@ -75,6 +75,16 @@ Aspose OCR का उपयोग करके C# में इमेज से 
 ### [Aspose OCR के साथ अरबी और हिंदी टेक्स्ट को OCR करने का तरीका](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 ### [C# में OCR कैसे करें – ऑफ़लाइन टेक्स्ट निष्कर्षण गाइड](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 C# में ऑफ़लाइन OCR का उपयोग करके टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका।
+### [C# में इमेज पर OCR चलाएँ – पूर्ण Aspose OCR ट्यूटोरियल](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+C# में इमेज पर OCR चलाने के लिए चरण-दर-चरण ट्यूटोरियल, Aspose OCR की पूरी क्षमता को अनलॉक करें।
+### [अरबी छवि से खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Aspose.OCR का उपयोग करके अरबी छवि से खोज योग्य PDF बनाने की पूरी प्रक्रिया सीखें। चरण-दर-स्टेप मार्गदर्शिका।
+### [C# में इमेज से खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Aspose OCR का उपयोग करके इमेज से खोज योग्य PDF बनाने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में OCR छवि को JSON में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके इमेज OCR को JSON परिणाम में बदलने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR के साथ मल्टी‑पेज TIFF इमेजेज पर OCR चलाने का तरीका – C# गाइड](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Aspose OCR का उपयोग करके C# में मल्टी‑पेज TIFF इमेजेज पर OCR चलाने की चरण‑दर‑स्टेज गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

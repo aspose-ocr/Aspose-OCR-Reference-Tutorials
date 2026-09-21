@@ -73,6 +73,7 @@ Libérez le potentiel d’Aspose.OCR pour .NET avec notre guide complet. Apprene
 Explorez Aspose.OCR pour .NET. Améliorez la précision de l'OCR avec des filtres de prétraitement. Téléchargez-le maintenant pour une intégration transparente.
 ### [Correction des résultats avec vérification orthographique dans la reconnaissance d'images OCR](./result-correction-with-spell-checking/)
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
+
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
 Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
 ### [Comment utiliser Aspose OCR avec GPU – Guide étape par étape](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
@@ -103,12 +104,6 @@ Apprenez à exploiter le GPU pour accélérer l'OCR de fichiers PNG avec un guid
 Apprenez à extraire du texte d'une image en appliquant des filtres de prétraitement avec Aspose.OCR pour .NET.
 ### [Reconnaître du texte à partir d'une image avec Aspose OCR – Tutoriel C# accéléré par GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Comment redresser une image et augmenter le contraste pour une meilleure précision OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 ### [Convertir une image en PDF en C# – Guide complet OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Apprenez à convertir des images en PDF avec Aspose.OCR en C#, incluant la reconnaissance de texte complète.
@@ -140,6 +135,15 @@ Apprenez à exploiter la puissance GPU pour accélérer la reconnaissance de tex
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Effectuer l'OCR sur une image avec accélération GPU – Guide complet C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Apprenez à exploiter la puissance GPU pour accélérer l'OCR d'images avec Aspose.OCR en C#.
+
+### [Comment redresser une image en C# – Guide complet de pré‑traitement OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Apprenez à corriger l’inclinaison des images avant l’OCR avec Aspose.OCR en C#.
+
+### [Extraire du texte d'une image en C# – Guide complet OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Apprenez à extraire du texte d'images en C# avec Aspose.OCR, en suivant un guide complet étape par étape.
+
 ## Questions fréquemment posées
 
 **Q : Puis-je extraire du texte à partir de fichiers image contenant plusieurs langues ?**

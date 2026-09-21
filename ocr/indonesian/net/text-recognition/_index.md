@@ -75,6 +75,16 @@ Pelajari cara melakukan OCR pada teks Arab dan Hindi dengan Aspose OCR untuk has
 Pelajari cara mengonversi gambar menjadi format JSON menggunakan Aspose OCR dengan C# dalam panduan langkah demi langkah kami.
 ### [Cara Melakukan OCR di C# – Panduan Ekstraksi Teks Offline](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Pelajari cara melakukan OCR secara offline menggunakan C# untuk mengekstrak teks dari gambar dengan mudah.
+### [Jalankan OCR pada Gambar di C# – Tutorial Lengkap Aspose OCR](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Pelajari cara menjalankan OCR pada gambar menggunakan C# dengan tutorial lengkap Aspose OCR.
+### [Buat PDF yang Dapat Dicari dari Gambar Arab – Panduan Lengkap](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Pelajari cara mengubah gambar berbahasa Arab menjadi PDF yang dapat dicari menggunakan Aspose.OCR dengan panduan langkah demi langkah.
+### [Buat PDF yang Dapat Dicari dari Gambar dengan Aspose OCR di C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Pelajari cara mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose OCR dengan contoh kode C# langkah demi langkah.
+### [OCR Gambar ke JSON di C# – Panduan Lengkap Langkah demi Langkah](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi hasil OCR gambar menjadi format JSON menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Cara Menjalankan OCR pada Gambar TIFF Multi‑Halaman dengan Aspose OCR – Panduan C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Pelajari langkah demi langkah cara melakukan OCR pada file TIFF multi‑halaman menggunakan Aspose OCR dengan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

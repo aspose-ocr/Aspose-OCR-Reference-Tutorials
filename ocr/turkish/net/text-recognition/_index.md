@@ -75,6 +75,16 @@ Aspose OCR kullanarak Arapça ve Hintçe metinleri tanıma adımlarını öğren
 Aspose OCR C# kullanarak görüntüyü JSON formatına dönüştmeyi adım adım öğrenin.
 ### [C#'ta OCR Nasıl Yapılır – Çevrimdışı Metin Çıkarma Kılavuzu](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 C# ile çevrimdışı metin çıkarma için OCR nasıl yapılır, adım adım kılavuz.
+### [C#'ta Görüntüyü JSON'a OCR Dönüştürme – Tam Adım‑Adım Kılavuz](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+C# ile görüntü OCR sonuçlarını JSON formatında almayı adım adım öğrenin.
+### [C#'ta Görüntü Üzerinde OCR Çalıştırma – Tam Aspose OCR Eğitimi](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+C# ile görüntü üzerinde OCR uygulamasını adım adım öğrenin ve Aspose OCR'ın tam gücünden faydalanın.
+### [Arapça Görüntüden Arama Yapılabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Arapça görüntülerden arama yapılabilir PDF oluşturmayı adım adım öğrenin ve Aspose.OCR .NET ile metni çıkarın.
+### [C#'ta Görüntüden Arama Yapılabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+C# ile görüntüden arama yapılabilir PDF oluşturmayı adım adım öğrenin ve Aspose OCR'ın gücünden faydalanın.
+### [Aspose OCR ile Çok Sayfalı TIFF Görüntülerinde OCR Çalıştırma – C# Rehberi](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Aspose OCR kullanarak C# ile çok sayfalı TIFF dosyalarındaki metni tanıma adımlarını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

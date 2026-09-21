@@ -62,6 +62,17 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose OCR เพื่อจดจำข้อความภาษาอาหรับและฮินดีอย่างแม่นยำในแอปพลิเคชันของคุณ
 ### [วิธีทำ OCR ใน C# – คู่มือสกัดข้อความแบบออฟไลน์](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อสกัดข้อความจากรูปภาพแบบออฟไลน์อย่างมีประสิทธิภาพ
+### [รัน OCR บนภาพใน C# – บทแนะนำ Aspose OCR ฉบับเต็ม](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อรัน OCR บนภาพอย่างครบถ้วนด้วยขั้นตอนง่าย ๆ และตัวอย่างโค้ดที่พร้อมใช้งาน
+### [วิธีรัน OCR บนภาพ TIFF หลายหน้า ด้วย Aspose OCR – คู่มือ C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อประมวลผลภาพ TIFF หลายหน้าอย่างมีประสิทธิภาพ
+### [สร้าง PDF ที่ค้นหาได้จากภาพภาษาอาหรับ – คู่มือฉบับเต็ม](./create-searchable-pdf-from-arabic-image-complete-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพภาษาอาหรับด้วย Aspose.OCR สำหรับ .NET ด้วยขั้นตอนครบถ้วนและตัวอย่างโค้ด
+### [OCR รูปภาพเป็น JSON ใน C# – คู่มือขั้นตอนเต็ม](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงผล OCR จากรูปภาพเป็น JSON ด้วย C# อย่างละเอียดด้วยขั้นตอนและตัวอย่างโค้ดที่พร้อมใช้งาน
+### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย Aspose OCR ใน C# – คู่มือฉบับเต็ม](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพด้วย Aspose OCR ใน C# อย่างละเอียดด้วยขั้นตอนและตัวอย่างโค้ดที่พร้อมใช้งาน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

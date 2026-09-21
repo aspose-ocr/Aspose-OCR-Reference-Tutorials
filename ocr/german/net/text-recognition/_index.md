@@ -74,6 +74,16 @@ Erfahren Sie, wie Sie arabischen und Hindi-Text mit Aspose OCR in .NET präzise 
 Erfahren Sie, wie Sie Bilder mit Aspose OCR in JSON konvertieren – eine Schritt‑für‑Schritt‑Anleitung für C#.
 ### [Wie man OCR in C# durchführt – Offline-Text-Extraktionsleitfaden](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Erfahren Sie, wie Sie OCR in C# offline ausführen und Text aus Bildern extrahieren können.
+### [OCR auf Bild in C# ausführen – Vollständiges Aspose OCR Tutorial](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# OCR auf Bildern ausführen – Schritt‑für‑Schritt‑Anleitung für die vollständige Implementierung.
+### [Erstellen Sie ein durchsuchbares PDF aus einem arabischen Bild – Vollständige Anleitung](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Lernen Sie, wie Sie mit Aspose.OCR ein durchsuchbares PDF aus arabischen Bilddateien erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [OCR‑Bild zu JSON in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# OCR‑Ergebnisse als JSON erhalten – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Durchsuchbares PDF aus Bild mit Aspose OCR in C# erstellen](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Lernen Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF aus Bilddateien in C# erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie Sie OCR auf mehrseitigen TIFF‑Bildern mit Aspose OCR ausführen – C#‑Leitfaden](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Erfahren Sie, wie Sie mit Aspose OCR mehrseitige TIFF‑Dateien in C# verarbeiten und Text extrahieren – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

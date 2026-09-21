@@ -59,6 +59,12 @@ Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit Aspose.OCR
 Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR‑Optimierung auf dem Laufenden bleiben. Tauchen Sie ein in die Welt von Präzision und Effizienz mit Aspose.OCR für .NET Tutorials.
 
 ## OCR‑Optimierungs‑Tutorials
+### [Text aus Bild extrahieren in C# – Vollständiger OCR‑Leitfaden](./extract-text-from-image-in-c-complete-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [OCR auf Bild mit GPU‑Beschleunigung – Vollständiger C#‑Leitfaden](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
+Nutzen Sie GPU‑Beschleunigung, um OCR‑Ergebnisse schneller zu erhalten. Schritt‑für‑Schritt‑Anleitung in C#.
+### [Wie man ein Bild in C# entzerrt – Vollständiger OCR‑Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
+Verbessern Sie die OCR‑Genauigkeit, indem Sie Bildschräglagen automatisch korrigieren. Schritt‑für‑Schritt‑Anleitung in C#.
 
 
 

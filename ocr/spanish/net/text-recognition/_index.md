@@ -49,6 +49,8 @@ Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de ca
 Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto del texto en imágenes.
 ### [Obtenga resultados como JSON en el reconocimiento de imágenes OCR](./get-result-as-json/)
 Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en formato JSON sin esfuerzo. Mejore el reconocimiento de sus imágenes con esta guía paso a paso.
+### [OCR de imagen a JSON en C# – Guía completa paso a paso](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
+Aprenda a convertir imágenes OCR a JSON en C# con Aspose OCR mediante esta guía completa paso a paso.
 ### [Modo de detección de áreas OCR en reconocimiento de imágenes OCR](./ocr-detect-areas-mode/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del texto de las imágenes. Explore el modo de detección de áreas de OCR para obtener resultados precisos.
 ### [Reconocer PDF en reconocimiento de imágenes OCR](./recognize-pdf/)
@@ -75,6 +77,14 @@ Aprenda a reconocer texto en árabe e hindi usando Aspose OCR en sus aplicacione
 Aprenda a convertir imágenes a formato JSON usando Aspose OCR en C#, paso a paso.
 ### [Cómo realizar OCR en C# – Guía de extracción de texto sin conexión](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Aprenda a ejecutar OCR en C# sin conexión, extrayendo texto de imágenes de forma rápida y segura con Aspose.OCR.
+### [Ejecutar OCR en una imagen en C# – Tutorial completo de Aspose OCR](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
+Aprenda a ejecutar OCR en una imagen con C# usando Aspose OCR en esta guía completa paso a paso.
+### [Crear PDF buscable a partir de una imagen en árabe – Guía completa](./create-searchable-pdf-from-arabic-image-complete-guide/)
+Aprenda a generar PDFs buscables a partir de imágenes en árabe usando Aspose.OCR para .NET, paso a paso.
+### [Crear PDF buscable a partir de una imagen con Aspose OCR en C#](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
+Aprenda a crear PDFs buscables a partir de imágenes usando Aspose OCR en C#, paso a paso.
+### [Cómo ejecutar OCR en imágenes TIFF de varias páginas con Aspose OCR – Guía C#](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
+Aprenda a procesar imágenes TIFF de varias páginas con Aspose OCR en C#, paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
