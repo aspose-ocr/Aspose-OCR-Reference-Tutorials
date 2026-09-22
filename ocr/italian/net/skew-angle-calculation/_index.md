@@ -50,6 +50,8 @@ Scopri come raddrizzare le immagini in C# per migliorare il riconoscimento OCR c
 ### [Come correggere l'inclinazione di un'immagine – Guida completa al pre‑processing C# per OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 Scopri come rimuovere l'inclinazione dalle immagini con una guida completa al pre‑processing C# per migliorare l'OCR.
 
+### [Rimuovi l'inclinazione dall'immagine – Guida completa alla pre‑elaborazione OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Scopri come rimuovere l'inclinazione dalle immagini per migliorare l'accuratezza dell'OCR con una guida passo passo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

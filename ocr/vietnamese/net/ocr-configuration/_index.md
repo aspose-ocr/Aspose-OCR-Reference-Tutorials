@@ -73,6 +73,8 @@ Hướng dẫn cách trích xuất văn bản tiếng Nga từ hình ảnh và c
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng hình ảnh với hỗ trợ GPU, tăng tốc hiệu suất.
 ### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn đầy đủ C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#.
+### [Tải tệp hình ảnh và trích xuất văn bản biên lai bằng GPU OCR trong C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+Sử dụng GPU OCR để nhanh chóng trích xuất nội dung biên lai từ tệp hình ảnh trong C#.
 
 ### [Đọc tài nguyên nhúng trong .NET – Hướng dẫn đầy đủ để thiết lập giấy phép Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Hướng dẫn chi tiết cách đọc tài nguyên nhúng và thiết lập giấy phép Aspose trong ứng dụng .NET.

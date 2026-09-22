@@ -103,6 +103,16 @@ Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een afbeelding, s
 Leer hoe u met Aspose.OCR in C# OCR-resultaten naar JSON converteert met een volledige stap‑voor‑stap handleiding.
 ### [Hoe OCR uit te voeren op multi‑page TIFF‑afbeeldingen met Aspose OCR – C#‑gids](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 Leer stap voor stap hoe u met Aspose OCR in C# OCR uitvoert op multi‑page TIFF‑bestanden voor nauwkeurige tekstextractie.
+### [Afbeelding naar tekst converteren met Aspose OCR – C#‑gids](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Leer hoe u met Aspose OCR en C# afbeeldingen naar bewerkbare tekst converteert in een eenvoudige stap‑voor‑stap gids.
+### [Hoe OCR uit te voeren en een doorzoekbare PDF te maken in C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert en een doorzoekbare PDF genereert voor eenvoudige tekstzoekopdrachten.
+### [Hoe OCR uit te voeren in C# – Stapsgewijze gids](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert via een eenvoudige stap‑voor‑stap gids.
+### [Hoe OCR te gebruiken in C# – Batchverwerking van PNG-afbeeldingen met Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Leer hoe u met Aspose OCR in C# meerdere PNG-afbeeldingen in batch verwerkt voor snelle en nauwkeurige tekstherkenning.
+### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Ontdek hoe u met Aspose OCR een doorzoekbare PDF maakt in C# met een duidelijke stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

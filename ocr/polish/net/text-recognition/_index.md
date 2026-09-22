@@ -102,6 +102,16 @@ Szybki przewodnik, jak w C# używać Aspose OCR z przyspieszeniem GPU do wyodrę
 Dowiedz się, jak w C# przy użyciu Aspose.OCR przekształcić obrazy w przeszukiwalne pliki PDF w kilku prostych krokach.
 ### [Jak odczytać paragon w C# – przewodnik OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
 Dowiedz się, jak w C# wykorzystać Aspose.OCR i wyrażenia regularne do odczytu danych z paragonów.
+### [Konwertuj obraz na tekst przy użyciu Aspose OCR – przewodnik C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Dowiedz się, jak w prosty sposób przekształcić obrazy w tekst przy użyciu Aspose OCR w języku C#.
+### [Jak wykonać OCR i utworzyć przeszukiwany PDF w C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Dowiedz się, jak używać Aspose.OCR w C# do przetwarzania obrazów i generowania przeszukiwalnych plików PDF.
+### [Jak używać OCR w C# – przetwarzanie wsadowe obrazów PNG przy użyciu Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Dowiedz się, jak w C# przetwarzać wsadowo obrazy PNG przy użyciu Aspose OCR, aby szybko uzyskać tekst z wielu plików.
+### [Jak wykonać OCR w C# – Przewodnik krok po kroku](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Dowiedz się, jak używać Aspose.OCR w C# do przetwarzania obrazów i tworzenia przeszukiwalnych plików PDF.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Dowiedz się, jak przy pomocy Aspose OCR w C# stworzyć przeszukiwalny plik PDF, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

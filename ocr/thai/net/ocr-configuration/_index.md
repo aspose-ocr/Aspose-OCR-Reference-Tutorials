@@ -40,6 +40,18 @@ weight: 24
 - แพคเกจ NuGet ของ Aspose.OCR for .NET ติดตั้งแล้ว (`Install-Package Aspose.OCR`).  
 - ภาพตัวอย่างหรืออาร์ไคฟ์ที่มีภาพที่คุณต้องการประมวลผล.  
 
+## OCROperation with Archive in OCR Image Recognition
+สำรวจโลกของ OCR กับ Aspose.OCR และค้นพบวิธีดึงข้อความจากภาพในอาร์ไคฟ์ขั้นตอนต่อขั้นตอน คู่มือนี้ให้ข้อมูลเชิงลึกครบถ้วนเกี่ยวกับการใช้ความสามารถของ OCR ภายในแอปพลิเคชัน .NET ตั้งแต่การติดตั้งจนถึงการนำไปใช้ ค้นพบความมหัศจรรย์ของการดึงข้อความ
+
+## OCROperation with Folder in OCR Image Recognition
+ปลดล็อกพลังของการจดจำภาพด้วย OCR ใน .NET ด้วย Aspose.OCR คู่มือนี้จะสอนคุณให้สามารถดึงข้อความจากภาพที่จัดเก็บในโฟลเดอร์ได้อย่างง่ายดาย เพิ่มประสิทธิภาพการสกัดข้อมูลและทำให้ความสามารถ OCR ของแอปพลิเคชันของคุณเป็นระบบที่ราบรื่น
+
+## OCROperation with Language Selection in OCR Image Recognition
+ยกระดับความสามารถ OCR ของคุณด้วยการเชี่ยวชาญ **ocr language selection** ใน Aspose.OCR for .NET คู่มือนี้จะนำคุณผ่านกระบวนการดึงข้อความจากภาพหลายภาษาอย่างต่อเนื่อง ทำให้แอปพลิเคชันของคุณรองรับ OCR หลายภาษาได้อย่างเต็มที่
+
+## OCROperation with List in OCR Image Recognition
+สำรวจศักยภาพอันกว้างของ Aspose.OCR for .NET ขณะทำการจดจำภาพด้วย OCR ผ่านรายการ คู่มือนี้ไม่เพียงเพิ่มประสิทธิภาพการสกัดข้อความ แต่ยังเพิ่มผลผลิตในการจัดการชุดข้อมูลที่หลากหลาย ค้นพบความคล่องตัวของ OCR ด้วยการทำงานกับรายการ
+
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -48,6 +60,8 @@ weight: 24
 ปลดล็อกความสามารถ OCR ที่ทรงพลังด้วย Aspose.OCR for .NET ดึงข้อความจากภาพหลายภาษาได้อย่างต่อเนื่อง
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 ปลดล็อกศักยภาพของ Aspose.OCR for .NET ทำการจดจำภาพด้วย OCR ผ่านรายการได้อย่างง่ายดาย เพิ่มผลผลิตและการสกัดข้อมูลในแอปพลิเคชันของคุณ
+
+### [โหลดไฟล์ภาพและดึงข้อความใบเสร็จด้วย GPU OCR ใน C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  

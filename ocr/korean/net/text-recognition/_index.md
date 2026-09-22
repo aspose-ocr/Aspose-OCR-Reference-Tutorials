@@ -95,6 +95,16 @@ GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 �
 ### [C#에서 영수증 읽기 – OCR + 정규식 가이드](./how-to-read-receipt-in-c-ocr-regex-guide/)
 C#와 Aspose.OCR을 사용해 영수증을 읽고 정규식으로 필요한 정보를 추출하는 단계별 가이드
 ### [C#에서 아랍어 이미지 OCR 수행 – 텍스트 추출](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
+### [Aspose OCR을 사용하여 이미지를 텍스트로 변환 – C# 가이드](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Aspose OCR을 활용해 C#에서 이미지의 텍스트를 손쉽게 추출하고 .NET 애플리케이션에 통합하는 단계별 가이드입니다.
+### [C#에서 OCR을 수행하고 검색 가능한 PDF 만들기](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 추출하고 검색 가능한 PDF 파일로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 OCR 사용 방법 – Aspose OCR으로 PNG 이미지 일괄 처리](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Aspose OCR을 사용하여 C#에서 PNG 이미지를 일괄 처리하고 텍스트를 추출하는 단계별 가이드입니다.
+### [C#에서 OCR 수행하기 – 단계별 가이드](./how-to-perform-ocr-in-c-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 추출하고 OCR을 수행하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR과 C#를 활용해 이미지에서 텍스트를 추출하고 검색 가능한 PDF를 만드는 과정을 상세히 설명합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -102,6 +102,16 @@ Aprenda a usar OCR em C# com aceleração GPU para extrair texto de imagens rapi
 Aprenda a extrair dados de recibos usando OCR e expressões regulares em C# com este guia passo a passo.
 ### [Como fazer OCR em imagens em árabe – extrair texto em C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 Aprenda a usar Aspose.OCR em C# para extrair texto de imagens em árabe com alta precisão e suporte a idiomas complexos.
+### [Converter imagem em texto com Aspose OCR – Guia C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Aprenda a converter imagens em texto usando Aspose OCR com C#. Siga nosso guia passo a passo para integrar OCR em seus projetos .NET.
+### [Como executar OCR e criar um PDF pesquisável em C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Aprenda a usar o Aspose.OCR para realizar OCR e gerar PDFs pesquisáveis em C# com este guia passo a passo.
+### [Como usar OCR em C# – Processamento em lote de imagens PNG com Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Aprenda a processar em lote múltiplas imagens PNG usando Aspose OCR em C#. Guia passo a passo para automatizar o OCR.
+### [Como executar OCR em C# – Guia passo a passo](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Aprenda a usar o Aspose.OCR para executar OCR em C# com este guia passo a passo.
+### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Aprenda a criar PDFs pesquisáveis usando Aspose OCR com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

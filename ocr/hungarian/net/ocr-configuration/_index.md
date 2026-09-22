@@ -69,6 +69,8 @@ Tanulja meg, hogyan nyerjen ki orosz nyelvű szöveget és állítsa be az erőf
 Ismerje meg, hogyan használhatja az Aspose.OCR-t GPU-val a C# képfelismeréshez, lépésről lépésre útmutató.
 ### [Képről szöveg felismerése az Aspose OCR-rel – Teljes C# útmutató](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Ismerje meg, hogyan használhatja az Aspose OCR-t képek szövegének felismerésére C#-ban, lépésről lépésre útmutató.
+### [Képfájl betöltése és nyugta szövegének kinyerése GPU OCR-rel C#-ban](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+Tanulja meg, hogyan használja a GPU-gyors OCR-t nyugták szövegének kinyerésére C#-ban.  
 
 ### [Beágyazott erőforrás olvasása .NET-ben – Teljes útmutató az Aspose licenc beállításához](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Ismerje meg, hogyan olvassa be a beágyazott erőforrásokat .NET-ben, és állítsa be az Aspose licencet a projektben.

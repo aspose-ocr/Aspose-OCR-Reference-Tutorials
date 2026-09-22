@@ -99,6 +99,16 @@ url: /ru/net/text-recognition/
 Извлеките данные из чеков с помощью OCR и регулярных выражений в C# с пошаговым руководством.
 ### [Как выполнить OCR на арабских изображениях – извлечение текста в C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 Узнайте, как быстро извлечь текст из арабских изображений с помощью Aspose.OCR в C#.
+### [Преобразовать изображение в текст с помощью Aspose OCR – руководство C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Узнайте, как быстро преобразовать изображение в текст в .NET с помощью Aspose OCR, используя C# в пошаговом руководстве.
+### [Как выполнить OCR и создать поисковый PDF в C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Узнайте, как с помощью Aspose.OCR выполнить распознавание текста и создать PDF, поддерживающий поиск, используя C#.
+### [Как выполнить OCR в C# – пошаговое руководство](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Узнайте, как выполнить OCR в C# с помощью Aspose OCR, следуя пошаговому руководству.
+### [Как использовать OCR в C# – пакетная обработка PNG‑изображений с Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Узнайте, как автоматически обрабатывать несколько PNG‑файлов с помощью Aspose OCR в C#.
+### [Создать поисковый PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Узнайте, как создать поисковый PDF с помощью Aspose OCR, следуя пошаговому руководству на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

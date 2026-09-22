@@ -73,6 +73,7 @@ Pelajari cara mengekstrak teks berbahasa Rusia dan mengatur jalur sumber daya da
 Pelajari cara melakukan OCR pada gambar menggunakan C# dengan dukungan GPU untuk kecepatan optimal.
 ### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan lengkap C#.
+### [Muat File Gambar & Ekstrak Teks Resi dengan GPU OCR di C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 
 ### [Membaca Embedded Resource di .NET – Panduan Lengkap Menetapkan Lisensi Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
 Pelajari cara membaca embedded resource di .NET dan mengatur lisensi Aspose secara lengkap.

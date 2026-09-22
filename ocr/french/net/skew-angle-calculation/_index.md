@@ -48,6 +48,8 @@ Apprenez à redresser les images avant OCR avec Aspose.OCR en C#, améliorant la
 Apprenez à redresser les images en C# avant l'OCR pour améliorer la précision de la reconnaissance.
 ### [Comment redresser une image – Guide complet de prétraitement C# pour l'OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 Découvrez comment redresser les images avec C# pour améliorer la précision de l'OCR grâce à un guide complet de prétraitement.
+### [Supprimer l'inclinaison d'une image – Guide complet de prétraitement OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Apprenez à éliminer l'inclinaison des images avant l'OCR pour améliorer la précision et l'efficacité de la reconnaissance de texte.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

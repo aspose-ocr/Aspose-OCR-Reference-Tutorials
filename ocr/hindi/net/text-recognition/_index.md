@@ -98,6 +98,16 @@ OCR और Regex का उपयोग करके C# में रसीद �
 C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण-दर-चरण गाइड।
 ### [अरबी छवियों पर OCR कैसे करें – C# में टेक्स्ट निकालें](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 C# में Aspose.OCR का उपयोग करके अरबी छवियों से टेक्स्ट निकालने की चरण-दर-चरण मार्गदर्शिका।
+### [Aspose OCR के साथ इमेज को टेक्स्ट में बदलें – C# गाइड](./convert-image-to-text-with-aspose-ocr-c-guide/)
+C# में Aspose OCR का उपयोग करके इमेज को टेक्स्ट में बदलने की चरण-दर-शरण मार्गदर्शिका।
+### [C# में OCR कैसे करें और खोज योग्य PDF बनाएं](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+C# में Aspose.OCR का उपयोग करके OCR करके खोज योग्य PDF बनाने की चरण-दर-शरण मार्गदर्शिका।
+### [C# में OCR का उपयोग कैसे करें – Aspose OCR के साथ PNG छवियों को बैच प्रोसेस करें](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Aspose OCR का उपयोग करके C# में PNG छवियों को बैच में प्रोसेस करने की चरण-दर-शरण मार्गदर्शिका।
+### [C# में OCR कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-perform-ocr-in-c-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके OCR करने और परिणाम प्राप्त करने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR के साथ खोज योग्य PDF बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+C# में Aspose OCR का उपयोग करके खोज योग्य PDF बनाने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

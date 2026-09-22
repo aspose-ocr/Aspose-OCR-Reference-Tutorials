@@ -99,6 +99,16 @@ Impara a trasformare un'immagine in un PDF ricercabile usando Aspose.OCR con C#,
 Scopri come utilizzare Aspose.OCR e le espressioni regolari in C# per estrarre dati da ricevute in modo rapido ed efficace.
 ### [Come eseguire OCR su immagini arabe – Estrarre testo in C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 Scopri come utilizzare Aspose.OCR in C# per eseguire OCR su immagini in arabo e estrarre testo con precisione.
+### [Converti immagine in testo con Aspose OCR – Guida C#](./convert-image-to-text-with-aspose-ocr-c-guide/)
+Scopri come trasformare un'immagine in testo usando Aspose OCR con C#. Segui la nostra guida passo passo per implementare la conversione.
+### [Come eseguire OCR e creare un PDF ricercabile in C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
+Scopri come utilizzare Aspose.OCR per eseguire OCR e generare PDF ricercabili con C# in pochi passaggi.
+### [Come utilizzare OCR in C# – Elaborazione batch di immagini PNG con Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Scopri come elaborare in batch immagini PNG con OCR in C# usando Aspose OCR per automatizzare la conversione in testo.
+### [Come eseguire OCR in C# – Guida passo‑passo](./how-to-perform-ocr-in-c-step-by-step-guide/)
+Scopri come utilizzare Aspose.OCR per eseguire OCR in C# con una guida dettagliata passo dopo passo.
+### [Crea PDF ricercabile con Aspose OCR – Guida passo‑passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Scopri come generare PDF ricercabili usando Aspose OCR con una guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

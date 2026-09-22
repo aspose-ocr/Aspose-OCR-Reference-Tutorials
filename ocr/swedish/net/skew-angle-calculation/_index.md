@@ -48,6 +48,8 @@ Lär dig steg‑för‑steg hur du rättar upp bilder i C# för att förbättra 
 Lär dig steg‑för‑steg hur du räta upp bilder i C# för att förbättra OCR‑noggrannheten och förbehandla dina projekt.
 ### [Hur man räta upp bild – Komplett C#‑förbehandlingsguide för OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 Lär dig steg‑för‑steg hur du räta upp bilder med C#‑förbehandling för att förbättra OCR‑noggrannheten.
+### [Ta bort skevning från bild – komplett OCR‑förbehandlingsguide](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Lär dig hur du tar bort skevning från bilder som en del av en fullständig OCR‑förbehandlingsprocess med Aspose.OCR för .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

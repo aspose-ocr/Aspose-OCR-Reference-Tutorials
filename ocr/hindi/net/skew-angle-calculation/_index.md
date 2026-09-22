@@ -48,6 +48,8 @@ OCR छवि पहचान में तिरछे कोणों की �
 C# में इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका।
 ### [इमेज को डेस्क्यू कैसे करें – OCR के लिए पूर्ण C# प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 .NET के लिए Aspose.OCR के साथ इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के लिए पूर्ण C# प्री‑प्रोसेसिंग गाइड।
+### [छवि से तिरछापन हटाएँ – पूर्ण OCR पूर्व‑प्रसंस्करण गाइड](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+.NET के लिए Aspose.OCR के साथ छवि से तिरछापन हटाने और OCR पूर्व‑प्रसंस्करण के पूर्ण मार्गदर्शक।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
