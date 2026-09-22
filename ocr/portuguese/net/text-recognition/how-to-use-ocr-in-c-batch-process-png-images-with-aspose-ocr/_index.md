@@ -25,9 +25,7 @@ title: Como usar OCR em C# – Processamento em lote de imagens PNG com Aspose O
 url: /pt/net/text-recognition/how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/
 ---
 
-the shortcodes at start and end.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: C#에서 OCR 수행 방법 – 단계별 가이드
 url: /ko/net/text-recognition/how-to-perform-ocr-in-c-step-by-step-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

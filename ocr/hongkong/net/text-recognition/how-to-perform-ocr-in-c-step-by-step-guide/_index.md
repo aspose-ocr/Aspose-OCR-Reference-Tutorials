@@ -21,9 +21,7 @@ title: 如何在 C# 中執行 OCR – 逐步指南
 url: /zh-hant/net/text-recognition/how-to-perform-ocr-in-c-step-by-step-guide/
 ---
 
-placeholders and formatting.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

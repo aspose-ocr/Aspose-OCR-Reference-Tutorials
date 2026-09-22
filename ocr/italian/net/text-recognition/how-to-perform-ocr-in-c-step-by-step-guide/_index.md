@@ -24,10 +24,6 @@ title: Come eseguire OCR in C# – Guida passo passo
 url: /it/net/text-recognition/how-to-perform-ocr-in-c-step-by-step-guide/
 ---
 
-to Check -> "Cosa controllare", Fix -> "Correzione". Keep content but translate.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

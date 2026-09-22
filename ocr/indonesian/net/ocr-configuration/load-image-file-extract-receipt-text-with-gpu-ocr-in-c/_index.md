@@ -25,7 +25,7 @@ title: Muat File Gambar & Ekstrak Teks Resi dengan OCR GPU di C#
 url: /id/net/ocr-configuration/load-image-file-extract-receipt-text-with-gpu-ocr-in-c/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

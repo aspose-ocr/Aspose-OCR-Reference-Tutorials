@@ -21,14 +21,6 @@ title: C#でOCRを実行し、検索可能なPDFを作成する方法
 url: /ja/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-translate all textual content, keep code block placeholders unchanged.
-
-Also need to translate "Running the App" heading etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,8 +25,6 @@ title: Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah demi Lan
 url: /id/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

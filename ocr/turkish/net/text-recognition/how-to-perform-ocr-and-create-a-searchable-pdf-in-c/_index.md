@@ -24,12 +24,6 @@ title: C#'ta OCR Nasıl Yapılır ve Aranabilir PDF Oluşturulur
 url: /tr/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-as is.
-
-Make sure we keep bullet lists formatting.
-
-Now produce final output with all translated content and unchanged shortcodes.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

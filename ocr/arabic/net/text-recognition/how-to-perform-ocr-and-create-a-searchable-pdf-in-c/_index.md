@@ -23,10 +23,6 @@ title: كيفية تنفيذ OCR وإنشاء PDF قابل للبحث باستخ
 url: /ar/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-end.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

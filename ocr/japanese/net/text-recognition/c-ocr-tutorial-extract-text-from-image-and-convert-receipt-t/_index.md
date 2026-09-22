@@ -20,7 +20,7 @@ title: C# OCRチュートリアル – 画像からテキストを抽出し、�
 url: /ja/net/text-recognition/c-ocr-tutorial-extract-text-from-image-and-convert-receipt-t/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

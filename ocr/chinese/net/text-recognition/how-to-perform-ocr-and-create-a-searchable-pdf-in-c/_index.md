@@ -21,12 +21,6 @@ title: 如何在 C# 中进行 OCR 并创建可搜索的 PDF
 url: /zh/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-translate headings and text.
-
-Make sure code block placeholders remain unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

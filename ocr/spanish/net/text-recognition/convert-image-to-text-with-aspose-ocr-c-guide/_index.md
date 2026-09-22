@@ -22,15 +22,7 @@ title: Convertir imagen a texto con Aspose OCR – guía C#
 url: /es/net/text-recognition/convert-image-to-text-with-aspose-ocr-c-guide/
 ---
 
-ose.OCR library."
-
-Translate accordingly, preserving bold.
-
-Now rest sections.
-
-Proceed.
-
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

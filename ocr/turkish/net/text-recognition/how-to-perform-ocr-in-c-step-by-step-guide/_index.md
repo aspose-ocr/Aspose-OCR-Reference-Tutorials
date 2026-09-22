@@ -24,7 +24,7 @@ title: C#'ta OCR Nasıl Yapılır – Adım Adım Rehber
 url: /tr/net/text-recognition/how-to-perform-ocr-in-c-step-by-step-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

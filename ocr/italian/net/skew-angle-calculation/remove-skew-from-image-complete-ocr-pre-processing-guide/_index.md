@@ -25,11 +25,7 @@ title: Rimuovi lo skew dall'immagine – Guida completa alla pre‑elaborazione 
 url: /it/net/skew-angle-calculation/remove-skew-from-image-complete-ocr-pre-processing-guide/
 ---
 
-.
-
-Make sure to keep bold formatting. Keep technical terms.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

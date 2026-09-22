@@ -23,7 +23,7 @@ title: 使用 Aspose OCR 建立可搜尋 PDF – 步驟指南
 url: /zh-hant/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

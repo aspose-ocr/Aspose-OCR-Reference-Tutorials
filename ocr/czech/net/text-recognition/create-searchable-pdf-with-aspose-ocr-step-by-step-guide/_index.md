@@ -25,14 +25,6 @@ title: Vytvořte prohledávatelný PDF s Aspose OCR – krok za krokem
 url: /cs/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-tutoriál Aspose OCR". Keep the dash? We'll translate.
-
-Then paragraph.
-
-Let's translate step by step.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

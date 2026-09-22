@@ -25,17 +25,7 @@ title: Criar PDF pesquisável com Aspose OCR – Guia passo a passo
 url: /pt/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-craft translation.
-
-Be careful with bullet points, keep same.
-
-Translate table content.
-
-Translate TL;DR.
-
-Also translate image alt text.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,7 @@ title: إزالة الانحراف من الصورة – دليل شامل لم�
 url: /ar/net/skew-angle-calculation/remove-skew-from-image-complete-ocr-pre-processing-guide/
 ---
 
->}}
-
-Make sure to keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

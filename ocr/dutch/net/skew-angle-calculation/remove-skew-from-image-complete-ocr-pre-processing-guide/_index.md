@@ -24,9 +24,7 @@ title: Verwijder scheefstand van afbeelding – Complete OCR‑voorverwerkingsgi
 url: /nl/net/skew-angle-calculation/remove-skew-from-image-complete-ocr-pre-processing-guide/
 ---
 
-.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

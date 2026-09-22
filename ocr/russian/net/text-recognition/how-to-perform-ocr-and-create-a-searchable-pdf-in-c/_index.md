@@ -25,16 +25,6 @@ title: Как выполнить OCR и создать PDF с возможнос
 url: /ru/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-translate everything else.
-
-Let's produce the translated content.
-
-Be careful with bullet points: maintain dash and spaces.
-
-Also maintain blockquote >.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

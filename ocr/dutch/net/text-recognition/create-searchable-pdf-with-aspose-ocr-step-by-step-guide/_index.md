@@ -26,7 +26,7 @@ title: Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze handleiding
 url: /nl/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

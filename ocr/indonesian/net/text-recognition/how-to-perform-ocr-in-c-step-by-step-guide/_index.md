@@ -25,9 +25,7 @@ title: Cara Melakukan OCR di C# – Panduan Langkah demi Langkah
 url: /id/net/text-recognition/how-to-perform-ocr-in-c-step-by-step-guide/
 ---
 
-ose website" but not a link. There's no markdown link. So fine.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

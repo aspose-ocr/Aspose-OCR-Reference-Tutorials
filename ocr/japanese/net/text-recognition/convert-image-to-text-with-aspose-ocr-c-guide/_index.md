@@ -20,9 +20,7 @@ title: Aspose OCRで画像をテキストに変換 – C# ガイド
 url: /ja/net/text-recognition/convert-image-to-text-with-aspose-ocr-c-guide/
 ---
 
-to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

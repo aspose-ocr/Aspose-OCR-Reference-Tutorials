@@ -26,9 +26,7 @@ title: Как использовать OCR в C# – пакетная обраб
 url: /ru/net/text-recognition/how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/
 ---
 
-fine.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

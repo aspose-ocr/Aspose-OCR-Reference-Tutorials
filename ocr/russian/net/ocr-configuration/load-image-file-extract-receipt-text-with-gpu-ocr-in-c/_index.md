@@ -25,10 +25,6 @@ title: Загрузка файла изображения и извлечени�
 url: /ru/net/ocr-configuration/load-image-file-extract-receipt-text-with-gpu-ocr-in-c/
 ---
 
-careful with markdown formatting, keep code fences placeholders unchanged.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

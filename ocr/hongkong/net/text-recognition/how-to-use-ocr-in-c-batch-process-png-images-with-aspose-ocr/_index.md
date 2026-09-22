@@ -22,11 +22,7 @@ title: 如何在 C# 中使用 OCR – 使用 Aspose OCR 批次處理 PNG 圖像
 url: /zh-hant/net/text-recognition/how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/
 ---
 
-Also there is a bullet list in prerequisites, we need to keep list format with hyphens.
-
-Also bullet list in Pro Tips.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

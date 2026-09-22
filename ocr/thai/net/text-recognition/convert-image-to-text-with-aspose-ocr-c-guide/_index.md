@@ -22,12 +22,6 @@ title: แปลงภาพเป็นข้อความด้วย Aspose
 url: /th/net/text-recognition/convert-image-to-text-with-aspose-ocr-c-guide/
 ---
 
-translate alt text. However preserving exactly may mean not altering alt text. Safer to keep alt text unchanged. So keep alt text as is.
-
-Similarly, code block placeholders should stay.
-
-Now produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

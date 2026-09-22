@@ -25,13 +25,7 @@ title: Crear PDF buscable con Aspose OCR – Guía paso a paso
 url: /es/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-asegurando que el texto sea buscable y que el documento sea a prueba de futuro. ¡Feliz codificación!"
-
-Now closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc unchanged.
-
-Also include backtop button shortcode unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

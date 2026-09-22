@@ -25,17 +25,7 @@ title: Jak używać OCR w C# – przetwarzanie wsadowe obrazów PNG za pomocą A
 url: /pl/net/text-recognition/how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/
 ---
 
-serve you well in any image‑processing pipeline."
-
-Translate.
-
-"Happy coding, and may your OCR jobs be fast and error‑free!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

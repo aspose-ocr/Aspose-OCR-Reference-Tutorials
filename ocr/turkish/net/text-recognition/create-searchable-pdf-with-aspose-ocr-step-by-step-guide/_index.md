@@ -25,18 +25,6 @@ title: Aspose OCR ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz
 url: /tr/net/text-recognition/create-searchable-pdf-with-aspose-ocr-step-by-step-guide/
 ---
 
-text and title should be translated. But URL stays same.
-
-So alt: "Diagram showing the flow from scanned image → OCR engine → PDF/A‑2b with embedded fonts" => "Tarama görüntüsünden → OCR motoruna → gömülü fontlarla PDF/A‑2b'ye akışı gösteren diyagram"
-
-Title: "create searchable pdf workflow" => "aranabilir pdf iş akışı"
-
-Now TL;DR section: translate bullet points.
-
-Make sure to keep code placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

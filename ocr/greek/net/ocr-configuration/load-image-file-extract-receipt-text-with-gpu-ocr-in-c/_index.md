@@ -25,8 +25,6 @@ title: Φόρτωση αρχείου εικόνας & εξαγωγή κειμέ�
 url: /el/net/ocr-configuration/load-image-file-extract-receipt-text-with-gpu-ocr-in-c/
 ---
 
-answer with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

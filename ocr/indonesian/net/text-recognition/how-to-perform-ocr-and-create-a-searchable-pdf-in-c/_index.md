@@ -25,12 +25,6 @@ title: Cara Melakukan OCR dan Membuat PDF yang Dapat Dicari di C#
 url: /id/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-for lists: we have bullet lists and numbered lists.
-
-Make sure headings have same number of #.
-
-Now produce final output with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

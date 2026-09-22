@@ -25,23 +25,7 @@ title: Cara Menggunakan OCR di C# – Memproses Batch Gambar PNG dengan Aspose O
 url: /id/net/text-recognition/how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/
 ---
 
-pressure. → translate.
-
-- **Language support:** By default the engine assumes English. Set `engine.Language = Language.French;` (or any supported language) to improve accuracy on non‑English text. → translate.
-
-- **Error handling:** The `try/catch` inside the parallel loop ensures that a corrupt file doesn’t abort the entire batch. You can also log failures to a file for later review. → translate.
-
-- **Result storage:** Instead of printing, you might write `result.Text` to a `.txt` file using `File.WriteAllText(Path.ChangeExtension(path, ".txt"))`. → translate.
-
-Next "## Conclusion" translate.
-
-Paragraphs translate.
-
-Finally shortcodes closing and backtop button.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

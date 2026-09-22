@@ -23,8 +23,6 @@ title: Jak provést OCR a vytvořit prohledávatelný PDF v C#
 url: /cs/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,9 +23,7 @@ title: 載入圖像檔案並於 C# 中使用 GPU OCR 提取收據文字
 url: /zh-hant/net/ocr-configuration/load-image-file-extract-receipt-text-with-gpu-ocr-in-c/
 ---
 
-.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

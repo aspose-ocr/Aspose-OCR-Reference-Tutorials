@@ -25,10 +25,6 @@ title: Jak przeprowadzić OCR i utworzyć przeszukiwalny PDF w C#
 url: /pl/net/text-recognition/how-to-perform-ocr-and-create-a-searchable-pdf-in-c/
 ---
 
-start and end.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

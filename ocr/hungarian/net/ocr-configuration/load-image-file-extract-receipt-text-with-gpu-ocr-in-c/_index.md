@@ -25,9 +25,7 @@ title: Képfájl betöltése és nyugtatext kinyerése GPU OCR-rel C#‑ban
 url: /hu/net/ocr-configuration/load-image-file-extract-receipt-text-with-gpu-ocr-in-c/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
