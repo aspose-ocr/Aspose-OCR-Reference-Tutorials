@@ -298,7 +298,8 @@ namespace ReceiptOcrDemo
 }
 
 --- High‑confidence words (>90) ---
-Subtotal (
+Subtotal (confidence: 97), $45.00 (confidence: 95), ...
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
