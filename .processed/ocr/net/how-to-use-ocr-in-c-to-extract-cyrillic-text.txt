@@ -1,0 +1,7 @@
+Title: How to use OCR in C# to extract Cyrillic text
+Slug: how-to-use-ocr-in-c-to-extract-cyrillic-text
+Category: text-recognition
+ProcessedDate: 2026-09-10T10:11:58.785467
+SourceRepo: AI Search API
+Keywords: how to use ocr, preprocess image for ocr, convert image to pdf, convert image to html, extract cyrillic text
+PRNumber: 215

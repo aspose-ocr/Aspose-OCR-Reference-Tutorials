@@ -1,0 +1,7 @@
+Title: recognize text from image in C# – Convert Image to Text
+Slug: recognize-text-from-image-in-c-convert-image-to-text
+Category: text-recognition
+ProcessedDate: 2026-06-19T14:51:36.126640
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from jpg, convert image to text, perform ocr on image, set ocr language
+PRNumber: 148

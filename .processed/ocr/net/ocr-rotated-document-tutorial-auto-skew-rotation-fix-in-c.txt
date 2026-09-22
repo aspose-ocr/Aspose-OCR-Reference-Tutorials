@@ -1,0 +1,7 @@
+Title: OCR Rotated Document Tutorial – Auto Skew & Rotation Fix in C#
+Slug: ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c
+Category: skew-angle-calculation
+ProcessedDate: 2026-06-03T23:27:21.419559
+SourceRepo: AI Search API
+Keywords: ocr rotated document tutorial
+PRNumber: 139

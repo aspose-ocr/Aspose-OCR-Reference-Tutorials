@@ -1,0 +1,7 @@
+Title: Configure Aspose OCR Model – Complete Python Guide
+Slug: configure-aspose-ocr-model-complete-python-guide
+Category: general
+ProcessedDate: 2026-07-15T10:31:14.991585
+SourceRepo: AI Search API
+Keywords: configure aspose ocr model, how to enable model auto‑download
+PRNumber: 176

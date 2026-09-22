@@ -52,26 +52,57 @@ weight: 24
 探索 Aspose.OCR for .NET 的广阔潜力，轻松实现基于列表的 OCR 图像识别。本教程不仅提升文本提取效率，还能在处理多样化数据集时提高生产力，揭示列表操作的高效 OCR 方案。
 
 ## OCR 配置教程
-### [使用归档进行 OCR 图像识别的 OCROperation](./ocr-operation-with-archive/)
-解锁 Aspose.OCR 在 .NET 应用中的 OCR 潜能，逐步学习如何从归档图像中提取文本。  
-### [使用文件夹进行 OCR 图像识别的 OCROperation](./ocr-operation-with-folder/)
-释放 Aspose.OCR 在 .NET 中的 OCR 图像识别能力，轻松从文件夹中的图像提取文本。  
-### [使用语言选择进行 OCR 图像识别的 OCROperation](./ocr-operation-with-language-selection/)
-利用 Aspose.OCR for .NET 的强大 OCR 功能，流畅地从图像中提取文本。  
-### [使用列表进行 OCR 图像识别的 OCROperation](./ocr-operation-with-list/)
-发挥 Aspose.OCR for .NET 的潜力，轻松实现基于列表的 OCR 图像识别，提高应用的生产力和数据提取效率。  
+### [OCR 图像识别中的 OCROperation 与 Archive](./ocr-operation-with-archive/)
+使用 Aspose.OCR 释放 .NET 应用程序中 OCR 的潜力。学习逐步从存档图像中提取文本。
+### [OCR 图像识别中的 OCROperation 与文件夹](./ocr-operation-with-folder/)
+使用 Aspose.OCR 释放 .NET 中 OCR 图像识别的强大功能。轻松从图像中提取文本。
+### [OCR 图像识别中的 OCROperation 与语言选择](./ocr-operation-with-language-selection/)
+使用 Aspose.OCR for .NET 解锁强大的 OCR 功能。无缝地从图像中提取文本。
+### [OCR 图像识别中的 OCROperation 与列表](./ocr-operation-with-list/)
+释放 Aspose.OCR for .NET 的潜力。使用列表轻松执行 OCR 图像识别。提高应用程序的生产力和数据提取。
+### [如何在 C# 中检查 OCR 语言支持 – 完整指南](./how-to-check-ocr-language-support-in-c-complete-guide/)
+了解如何使用 Aspose.OCR 在 C# 中检查支持的 OCR 语言，确保正确的语言识别。
+### [在 C# 中提取俄文文本并设置资源路径 – Aspose OCR 指南](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+使用 Aspose.OCR 在 C# 中提取俄语文本并配置资源路径，帮助您快速实现多语言 OCR。
+### [C# 中的 OCR 图像处理 – 完整指南（支持 GPU）](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+了解
+### [使用 Aspose OCR 识别图像文本 – 完整 C# 指南](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose OCR 在 C# 中完整实现图像文本识别的步骤指南。
+### [在 .NET 中读取嵌入资源 – 设置 Aspose 许可证的完整指南](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+学习如何在 .NET 项目中读取嵌入资源并正确设置 Aspose 许可证，以确保功能正常运行。
+### [使用 Aspose 下载 OCR 语言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+使用 Aspose 在 C# 中下载 OCR 语言模型的完整步骤指南。
 ### [加载图像文件并使用 GPU OCR 在 C# 中提取收据文本](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 演示如何在 C# 中使用 GPU 加速的 Aspose.OCR 加载图像文件并提取收据文本，提高识别速度和准确率。  
 
-### 常见使用场景
-- **从扫描发票中提取文本**，实现自动化会计。  
-- 为大型文档归档建立可搜索的索引库。  
-- 构建多语言数据管道，读取法语、德语或日语收据。
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### 提示与陷阱
-- **专业提示：** 始终对图像进行预处理（如去倾斜、二值化），以提升准确率。  
-- **警告：** 大型归档可能占用大量内存；建议分批处理。
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< blocks/products/products-backtop-button >}}
+### [如何为 Aspose OCR 启用 GPU – 步骤指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+通过本教程，了解在 Aspose OCR 中启用 GPU 加速的完整步骤，提升 OCR 性能。
+### [C# 中的图像文本识别 – 使用 Aspose 进行阿拉伯语 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+使用 Aspose.OCR 在 C# 应用程序中实现阿拉伯语图像文本识别的完整指南。
+### [如何在 C# 中设置 Aspose 许可证 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
+本教程详细演示在 C# 项目中配置 Aspose 许可证的完整步骤，确保功能正常运行。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [如何在 Aspose OCR 中应用许可证 – 步骤详解 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+使用 C#，一步步演示在 Aspose OCR 中申请许可证的完整过程。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 常见问题
 
 **问：我可以在商业 .NET 应用中使用 Aspose.OCR 吗？**  

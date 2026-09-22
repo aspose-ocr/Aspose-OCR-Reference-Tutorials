@@ -1,0 +1,7 @@
+Title: Korean Language OCR with Aspose: Convert Image to PDF and Extract Text in C#
+Slug: korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext
+Category: text-recognition
+ProcessedDate: 2026-05-28T16:24:37.804366
+SourceRepo: AI Search API
+Keywords: korean language ocr, convert image to pdf, load image from stream, extract plain text, export searchable pdf
+PRNumber: 133

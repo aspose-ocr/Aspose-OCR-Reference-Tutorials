@@ -53,26 +53,55 @@ Aspose.OCR for .NET에서 **OCR 언어 선택**을 마스터하여 다양한 언
 Aspose.OCR for .NET을 활용해 리스트 기반으로 OCR 이미지 인식을 수행하는 방법을 탐구합니다. 텍스트 추출을 향상시키고 다양한 데이터 세트를 효율적으로 처리하여 생산성을 높이세요.
 
 ## OCR 구성 튜토리얼
-### [아카이브와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-archive/)
-Aspose.OCR을 활용해 .NET 애플리케이션에서 아카이브 이미지의 텍스트를 단계별로 추출하는 방법을 배웁니다.  
-### [폴더와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-folder/)
-Aspose.OCR을 사용해 .NET에서 폴더에 저장된 이미지에서 텍스트를 손쉽게 추출하는 방법을 알아보세요.  
-### [언어 선택과 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-language-selection/)
-Aspose.OCR for .NET으로 강력한 OCR 기능을 활용해 이미지에서 텍스트를 원활히 추출하는 방법을 소개합니다.  
-### [리스트와 함께하는 OCR 이미지 인식 작업](./ocr-operation-with-list/)
-Aspose.OCR for .NET을 이용해 리스트 기반 OCR 이미지 인식을 손쉽게 수행하고, 애플리케이션의 생산성과 데이터 추출 효율을 높이는 방법을 제공합니다.  
+### [OCR 이미지 인식에서 아카이브를 사용한 OCOperation](./ocr-operation-with-archive/)
+Aspose.OCR을 사용하여 .NET 애플리케이션에서 OCR의 잠재력을 활용하세요. 아카이브 이미지에서 텍스트를 추출하는 방법을 단계별로 알아보세요.
+### [OCR 이미지 인식에서 폴더를 사용한 OCR 작동](./ocr-operation-with-folder/)
+Aspose.OCR을 사용하여 .NET에서 OCR 이미지 인식 기능을 활용하세요. 이미지에서 텍스트를 손쉽게 추출해 보세요.
+### [OCR 이미지 인식에서 언어 선택을 통한 OCOperation](./ocr-operation-with-language-selection/)
+.NET용 Aspose.OCR로 강력한 OCR 기능을 잠금 해제하세요. 이미지에서 텍스트를 원활하게 추출합니다.
+### [OCR 이미지 인식에서 목록을 사용한 OCOperation](./ocr-operation-with-list/)
+.NET용 Aspose.OCR의 잠재력을 활용해 보세요. 목록을 사용하여 OCR 이미지 인식을 손쉽게 수행하세요. 애플리케이션의 생산성과 데이터 추출을 향상하십시오.
+### [C#에서 OCR 언어 지원 확인하기 – 완전 가이드](./how-to-check-ocr-language-support-in-c-complete-guide/)
+C#을 사용해 Aspose.OCR에서 지원되는 언어 목록을 확인하고 활용하는 방법을 단계별로 안내합니다.
+### [C#에서 러시아어 텍스트 추출 및 리소스 경로 설정 – Aspose OCR 가이드](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+C#에서 Aspose OCR을 사용해 러시아어 텍스트를 추출하고 리소스 경로를 설정하는 방법을 단계별로 안내합니다.
+### [C#에서 GPU 지원으로 이미지 OCR하기 – 완전 가이드](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPU 가속을 활용해 C#에서 이미지 OCR을 빠르고 정확하게 수행하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 이미지에서 텍스트 인식 – 완전 C# 가이드](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+C#에서 Aspose OCR을 활용해 이미지 텍스트를 빠르고 정확하게 추출하는 전체 가이드를 제공합니다.
 ### [C#에서 GPU OCR로 이미지 파일 로드 및 영수증 텍스트 추출](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 GPU 가속 OCR을 활용해 이미지 파일에서 영수증 텍스트를 빠르게 추출하는 방법을 안내합니다.  
 
-### 일반적인 사용 사례
-- **스캔된 청구서 이미지**에서 텍스트를 추출해 자동 회계 처리.  
-- 대용량 문서 아카이브를 색인화하여 검색 가능한 저장소 구축.  
-- 프랑스어, 독일어, 일본어 영수증을 읽는 다국어 데이터 파이프라인 구축.  
+### [.NET에서 임베디드 리소스 읽기 – Aspose 라이선스 설정 완전 가이드](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose 라이선스를 설정하기 위해 .NET에서 임베디드 리소스를 읽는 방법을 단계별로 안내합니다.
+### [Aspose와 함께 C#에서 OCR 언어 모델 다운로드 – 전체 가이드](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose를 사용해 C#에서 OCR 언어 모델을 다운로드하고 적용하는 방법을 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### 팁 & 주의사항
-- **전문가 팁:** 정확도를 높이려면 항상 이미지 전처리(예: 기울기 보정, 이진화)를 수행하세요.  
-- **경고:** 대용량 아카이브는 메모리를 많이 차지할 수 있으니 배치 처리 방식을 고려하세요.  
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR에 GPU 활성화 방법 – 단계별 가이드](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Aspose OCR에서 GPU를 활성화하여 성능을 향상시키는 방법을 단계별로 안내합니다.
+### [C#에서 이미지 텍스트 인식 – Aspose를 사용한 아랍어 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Aspose OCR을 이용해 C#에서 아랍어 이미지 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose 라이선스 설정 방법 – 완전 가이드](./how-to-set-aspose-license-in-c-complete-guide/)
+Aspose 라이선스를 C#에 적용하여 기능을 활성화하는 단계별 가이드를 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Aspose OCR에서 라이선스 적용 방법 – 단계별 C# 가이드](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR에서 라이선스를 적용하는 방법을 단계별로 안내합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## 자주 묻는 질문
 
 **Q: 상용 .NET 애플리케이션에서 Aspose.OCR을 사용할 수 있나요?**  
