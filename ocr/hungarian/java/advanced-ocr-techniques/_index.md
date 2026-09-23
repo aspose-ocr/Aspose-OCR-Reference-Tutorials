@@ -71,6 +71,21 @@ Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével.
 ### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
+Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről‑lépésre útmutatónkat a hatékony integráció érdekében.
+### [Hogyan engedélyezzük a GPU-t az OCR-hez, és szöveget nyerjünk ki TIFF-fájlból](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+Tanulja meg, hogyan használhatja a GPU-t az OCR-hez és hogyan vonhat ki szöveget TIFF képekből az Aspose.OCR for Java segítségével.
+
+### [OCR végrehajtása képen az Aspose OCR – Java lépésről lépésre útmutató](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+Tanulja meg, hogyan végezhet OCR-t képen az Aspose OCR Java használatával, részletes lépésről lépésre útmutatóval.
+
+### [Hogyan kiegyenesítsük a képet OCR-hez – Teljes Java előfeldolgozási útmutató](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+
+### [Képről szöveg kinyerése az Aspose OCR – Java útmutató](./extract-text-from-image-with-aspose-ocr-java-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget képekről az Aspose OCR Java használatával, részletes lépésről-lépésre útmutatóval.
+
+### [Képek nyelvének felismerése az Aspose OCR – Java útmutató](./detect-language-image-with-aspose-ocr-java-tutorial/)
+Tanulja meg, hogyan ismerheti fel a képen lévő szöveg nyelvét az Aspose OCR Java segítségével.
+
 ### [Hogyan használjon OCR-t GPU gyorsítással Java-ban – Lépés‑ről‑lépésre útmutató](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Fedezze fel, hogyan gyorsíthatja az OCR-t GPU-val Java-ban, részletes lépésről‑lépésre útmutatóval.
 ### [Szöveg felismerése képről az Aspose OCR-rel – Teljes Java útmutató](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
@@ -98,18 +113,6 @@ Fedezze fel, hogyan végezhet teljes körű OCR-t Java-val, beleértve a helyes�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [Hogyan engedélyezzük a GPU-t az OCR-hez, és szöveget nyerjünk ki TIFF-fájlból](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
-Tanulja meg, hogyan használhatja a GPU-t az OCR-hez és hogyan vonhat ki szöveget TIFF képekből az Aspose.OCR for Java segítségével.
-### [OCR végrehajtása képen az Aspose OCR – Java lépésről lépésre útmutató](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
-Tanulja meg, hogyan végezhet OCR-t képen az Aspose OCR Java használatával, részletes lépésről lépésre útmutatóval.
-### [Hogyan kiegyenesítsük a képet OCR-hez – Teljes Java előfeldolgozási útmutató](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
-
-### [Képről szöveg kinyerése az Aspose OCR – Java útmutató](./extract-text-from-image-with-aspose-ocr-java-guide/)
-Tanulja meg, hogyan nyerhet ki szöveget képekről az Aspose OCR Java használatával, részletes lépésről-lépésre útmutatóval.
-
-### [Képek nyelvének felismerése az Aspose OCR – Java útmutató](./detect-language-image-with-aspose-ocr-java-tutorial/)
-Tanulja meg, hogyan ismerheti fel a képen lévő szöveg nyelvét az Aspose OCR Java segítségével.
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
