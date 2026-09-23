@@ -83,6 +83,7 @@ weight: 21
 دليل شامل لتطبيق OCR على الصور باستخدام Aspose OCR للـ Java، يغطي الإعدادات والبرمجة خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث في Java – دليل خطوة بخطوة](./create-searchable-pdf-in-java-step-by-step-guide/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [تحميل جميع الموارد وحزم اللغات في C# – دليل كامل](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## الأسئلة المتكررة
 
@@ -121,4 +122,3 @@ weight: 21
 ### [تحويل الصور إلى نص في Java – دليل معالجة OCR الدفعي](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 ### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
-

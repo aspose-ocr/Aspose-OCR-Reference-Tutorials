@@ -115,6 +115,9 @@ Scopri come abilitare OCR in Java con questa guida passo‑passo, configurando r
 ### [Estrarre testo da immagine in Java – Esempio OCR completo](./extract-text-from-image-in-java-complete-ocr-example/)
 Guida completa per estrarre testo da immagini usando Aspose.OCR in Java, con esempi di codice e best practice.
 
+### [Come ottenere il percorso delle risorse in Java e impostare la cartella di download](./how-to-get-resources-path-java-and-set-download-folder/)
+Scopri come determinare il percorso delle risorse in Java e configurare la cartella di download per i file scaricati.
+
 ---
 
 **Ultimo aggiornamento:** 2025-12-08  

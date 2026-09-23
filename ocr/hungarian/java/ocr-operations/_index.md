@@ -87,6 +87,7 @@ Fedezd fel, hogyan hajts végre kötegelt OCR-t Java-ban, és nyerd ki a szöveg
 Szabadítsd fel a képek szövegének kinyerését Java-ban az Aspose.OCR segítségével.
 ### [Kereshető PDF létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-searchable-pdf-in-java-step-by-step-guide/)
 Készíts könnyedén kereshető PDF-et Java-val az Aspose.OCR segítségével, részletes lépésekkel és tippekkel.
+### [Minden erőforrás és nyelvi csomag letöltése C#-ban – teljes útmutató](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## Gyakran Ismételt Kérdések
 
@@ -126,4 +127,3 @@ Szabadítsd fel a PNG képekből a kereshető PDF-ek létrehozását Java-ban az
 Tömeges képfeldolgozás Java-val az Aspose.OCR segítségével, a képek szöveggé alakításához egy lépésről‑lépésre útmutató.
 ### [Kereshető PDF létrehozása az Aspose OCR-rel – Lépésről‑lépésre útmutató](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre kereshető PDF-et az Aspose OCR segítségével, részletes lépésekkel.
-

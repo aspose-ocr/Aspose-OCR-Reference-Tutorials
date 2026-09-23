@@ -120,6 +120,9 @@ Aspose OCR を使用して画像からタミル語テキストを抽出する手
 ### [Java で画像からテキストを抽出 – 完全 OCR 例](./extract-text-from-image-in-java-complete-ocr-example/)
 Java を使用した画像からテキストを抽出する完全な OCR 実装手順をステップバイステップで解説します。
 
+### [Javaでリソースパスを取得し、ダウンロードフォルダーを設定する方法](./how-to-get-resources-path-java-and-set-download-folder/)
+Java アプリでリソースのパスを取得し、ダウンロード先フォルダーを設定する手順を解説します。
+
 ---
 
 **Last Updated:** 2025-12-08  

@@ -111,6 +111,8 @@ Naučte se, jak v Javě povolit OCR a konfigurovat knihovnu pro přesné rozpozn
 Naučte se, jak pomocí Aspose OCR extrahovat tamilský text z obrázků v několika jednoduchých krocích.
 ### [Extrahovat text z obrázku v Javě – Kompletní příklad OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Kompletní ukázka, jak v Javě pomocí Aspose.OCR extrahovat text z obrázku a optimalizovat přesnost.
+### [Jak získat cestu k prostředkům v Javě a nastavit složku pro stahování](./how-to-get-resources-path-java-and-set-download-folder/)
+Naučte se, jak získat cestu k souborům v resources a nastavit výchozí složku pro stahování souborů v Javě.
 
 ---
 
