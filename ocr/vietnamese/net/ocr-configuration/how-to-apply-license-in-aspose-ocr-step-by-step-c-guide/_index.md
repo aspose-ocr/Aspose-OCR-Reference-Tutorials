@@ -1,27 +1,57 @@
 ---
 category: general
-date: 2026-01-01
-description: Cách áp dụng giấy phép cho Aspose OCR trong C#. Tìm hiểu cách đọc tệp,
-  thiết lập giấy phép Aspose, sử dụng MemoryStream và tải giấy phép một cách hiệu
-  quả.
+date: 2026-08-28
+description: Tìm hiểu cách thiết lập giấy phép Aspose trong C# nhanh chóng. Hướng
+  dẫn này chỉ cho bạn cách đọc file bytes, tạo MemoryStream, áp dụng giấy phép và
+  xác minh cấu hình mà không gặp bất ngờ từ trial‑mode.
 draft: false
 keywords:
-- how to apply license
-- how to read file
-- set aspose license
-- how to use memorystream
-- how to load license
-language: vi
-og_description: Cách áp dụng giấy phép cho Aspose OCR trong C#. Thực hiện theo hướng
-  dẫn này để đọc tệp giấy phép, thiết lập giấy phép Aspose, sử dụng MemoryStream và
-  xác minh cấu hình.
-og_title: Cách áp dụng giấy phép trong Aspose OCR – Hướng dẫn C# đầy đủ
+- set aspose license c#
+- c# read file bytes
+- apply aspose license
+- memorystream license c#
+- aspose ocr licensing
+lastmod: 2026-08-28
+og_description: Tìm hiểu cách thiết lập giấy phép Aspose trong C# chỉ trong vài dòng.
+  Hướng dẫn bao gồm đọc file bytes, sử dụng MemoryStream và xác minh giấy phép hoạt
+  động – tất cả với Aspose.OCR 24.x.
+og_image_alt: Screenshot of a C# console app applying an Aspose OCR license using
+  MemoryStream
+og_title: Thiết lập giấy phép Aspose trong C# – hướng dẫn nhanh từng bước
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to set Aspose license in C# quickly. This guide shows you
+    how to read file bytes, create a MemoryStream, apply the license, and verify the
+    setup without trial‑mode surprises.
+  headline: How to set Aspose license in C# – complete guide
+  type: TechArticle
+- questions:
+  - answer: Yes. Place the `.lic` file in a folder outside `wwwroot`, read it during
+      `Startup.ConfigureServices`, and call `SetLicense` before any OCR operations.
+    question: Can I set the license in an ASP.NET Core web app?
+  - answer: The library reverts to trial mode, which may add watermarks or limit page
+      counts. Monitor the `License.IsLicensed` property (if available) or catch the
+      silent fallback by testing a licensed‑only feature.
+    question: What happens if the license expires?
+  - answer: It is safe as long as the service account running the application has
+      read permissions and the path is secured against unauthorized changes.
+    question: Is it safe to store the license file on a shared network drive?
+  - answer: Yes. Each Aspose component (OCR, Words, PDF, etc.) requires its own `.lic`
+      file unless you have a suite license that covers multiple products.
+    question: Do I need a separate license for each Aspose product?
+  - answer: After calling `SetLicense`, attempt an OCR operation that is only available
+      in the licensed version (e.g., enabling a custom language pack). If the operation
+      succeeds without a trial watermark, the license is active.
+    question: How can I verify that the license was applied without writing extra
+      code?
+  type: FAQPage
 tags:
-- Aspose
-- OCR
-- C#
-- Licensing
-title: Cách áp dụng giấy phép trong Aspose OCR – Hướng dẫn từng bước bằng C#
+- Aspose OCR
+- C# licensing
+- .NET OCR
+- Aspose.OCR
+title: Cách thiết lập giấy phép Aspose trong C# – hướng dẫn đầy đủ
 url: /vi/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/
 ---
 
@@ -29,24 +59,60 @@ url: /vi/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Áp Dụng Giấy Phép trong Aspose OCR – Hướng Dẫn Đầy Đủ C#
+# Cách thiết lập giấy phép Aspose trong C# – hướng dẫn đầy đủ
 
-Bạn đã bao giờ tự hỏi **cách áp dụng giấy phép** cho Aspose OCR mà không phải chạy theo các tài liệu mơ hồ chưa? Bạn không phải là người duy nhất. Hầu hết các nhà phát triển gặp cùng một vấn đề: họ có thể đọc file, nhưng không biết cách đưa nó vào thư viện đúng cách. Trong hướng dẫn này, chúng ta sẽ đi qua từng chi tiết — từ việc tải file `.lic` từ đĩa đến việc gọi `SetLicense` với một `MemoryStream`. Khi kết thúc, bạn sẽ có một giải pháp hoạt động mà bạn có thể đưa vào bất kỳ dự án .NET nào.
+Nếu bạn cần **set Aspose license C#** cho thư viện OCR và tránh các hạn chế thử nghiệm mặc định, bạn đã đến đúng nơi. Hướng dẫn này sẽ đưa bạn qua từng bước — từ việc đọc tệp `.lic` dưới dạng byte thô đến việc đưa các byte đó vào một `MemoryStream` và cuối cùng gọi `License.SetLicense`. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng hoạt động trong các ứng dụng console, dịch vụ web, Azure Functions, hoặc bất kỳ dự án .NET 6+ nào.
 
-Chúng tôi cũng sẽ đề cập đến **cách đọc file** một cách an toàn, cách **đặt giấy phép Aspose** đúng chuẩn, và lý do tại sao việc sử dụng **MemoryStream** là cách tiếp cận sạch nhất. Nếu bạn tò mò về **cách tải giấy phép** trong các môi trường khác nhau, những mẹo đó cũng được bao gồm. Không cần tham chiếu bên ngoài — chỉ cần mã sẵn sàng sao chép‑dán.
+## Câu trả lời nhanh
+- **Cách nhanh nhất để áp dụng giấy phép Aspose OCR là gì?** Tải tệp `.lic` bằng `File.ReadAllBytes`, bọc nó trong một `MemoryStream`, và gọi `new License().SetLicense(stream)`.  
+- **Tôi có cần nhúng tệp giấy phép không?** Việc nhúng là tùy chọn; đọc từ đĩa là đủ cho hầu hết các kịch bản.  
+- **Thư viện sẽ hoạt động ở chế độ thử nghiệm nếu tôi quên thiết lập giấy phép không?** Có, nó sẽ tự động chuyển sang chế độ thử nghiệm mà không báo lỗi, điều này có thể giới hạn số trang hoặc thêm watermark vào kết quả.  
+- **Các phiên bản .NET nào được hỗ trợ?** Aspose.OCR 24.x hỗ trợ .NET 6, .NET 5, .NET Core 3.1 và .NET Framework 4.6.2+.  
+- **Có cần khối `using` cho MemoryStream không?** Chắc chắn—việc bọc stream trong `using` đảm bảo giải phóng đúng cách và tránh rò rỉ tài nguyên không quản lý.
 
-## Yêu Cầu Trước
+## Set giấy phép Aspose trong C# là gì?
+`set aspose license c#` là quá trình cung cấp một tệp giấy phép Aspose OCR hợp lệ cho thư viện tại thời gian chạy để tất cả các tính năng OCR cao cấp trở nên khả dụng mà không có hạn chế chế độ thử nghiệm. Thao tác này được thực hiện thông qua lớp `Aspose.OCR.License`, lớp này nhận một `Stream` chứa các byte giấy phép.
 
-- .NET 6.0 hoặc mới hơn (mã hoạt động với .NET Core và .NET Framework đều được)
-- Gói NuGet Aspose.OCR đã được cài đặt (`Install-Package Aspose.OCR`)
-- Một file `Aspose.OCR.lic` hợp lệ được đặt ở vị trí mà ứng dụng của bạn có thể truy cập
-- Kiến thức cơ bản về C# và Visual Studio (hoặc bất kỳ IDE nào bạn ưa thích)
+## Tại sao nên thiết lập giấy phép Aspose sớm trong ứng dụng của bạn?
+Aspose.OCR hỗ trợ **hơn 50 định dạng ảnh đầu vào** (bao gồm JPEG, PNG, TIFF, BMP và PDF) và có thể xử lý **tài liệu đa trang lên tới 1 GB** mà không cần tải toàn bộ tệp vào bộ nhớ. Khi giấy phép được thiết lập đúng, bạn sẽ mở khóa OCR độ phân giải đầy đủ, các gói ngôn ngữ tùy chỉnh và các API xử lý hàng loạt mà trong chế độ thử nghiệm không khả dụng.
 
-> **Mẹo chuyên nghiệp:** Giữ file giấy phép ở ngoài thư mục kiểm soát nguồn của bạn để tránh việc commit nhầm.
+## Yêu cầu trước
+- .NET 6.0 trở lên (mã cũng chạy trên .NET Core 3.1, .NET 5 và .NET Framework 4.6.2+)
+- Gói NuGet Aspose.OCR (`Install-Package Aspose.OCR`)
+- Tệp `Aspose.OCR.lic` hợp lệ được đặt trong thư mục có thể truy cập được bởi ứng dụng
+- Kiến thức cơ bản về I/O tệp trong C# và câu lệnh `using`
 
-## Bước 1: Cách Đọc File – Tải Dữ Liệu Giấy Phép
+> **Mẹo chuyên nghiệp:** Lưu tệp giấy phép bên ngoài thư mục kiểm soát nguồn của bạn (ví dụ, trong thư mục `Licenses` được Git bỏ qua) để tránh việc vô tình commit các tệp sở hữu.
 
-Điều đầu tiên chúng ta cần là mảng byte thô của file giấy phép. Sử dụng `File.ReadAllBytes` vừa đơn giản vừa hiệu quả, và nó sẽ tự động ném ra ngoại lệ rõ ràng nếu đường dẫn sai.
+## Bước 1: Cách đọc tệp – tải byte giấy phép
+Tải tệp giấy phép trực tiếp vào một mảng byte. `File.ReadAllBytes` đọc toàn bộ tệp trong một lần gọi, ném ra `FileNotFoundException` rõ ràng nếu đường dẫn sai, và trả về một `byte[]` có thể tái sử dụng.
+
+**Câu trả lời ngắn gọn (40‑70 từ):**  
+Sử dụng `File.ReadAllBytes("<full‑path-to‑lic>")` để lấy một `byte[]` chứa dữ liệu giấy phép chính xác. Phương pháp này đọc tệp trong một thao tác duy nhất, hiệu quả, đảm bảo tay cầm tệp được đóng ngay lập tức, và cung cấp một mảng sạch mà bạn có thể truyền cho `MemoryStream` mà không cần bộ đệm bổ sung.
+
+Mảng byte hiện đã sẵn sàng cho bước tiếp theo. Giữ dữ liệu trong bộ nhớ tránh việc truy cập đĩa lặp lại và làm cho mã cấp phép an toàn khi gọi từ các dịch vụ có lưu lượng cao.
+
+## Bước 2: Cách sử dụng MemoryStream – chuẩn bị stream giấy phép
+Phương thức overload `License.SetLicense` của Aspose yêu cầu một `Stream`. Việc bọc mảng byte trong một `MemoryStream` đáp ứng yêu cầu trong khi vẫn hoàn toàn trong tiến trình.
+
+**Câu trả lời ngắn gọn (40‑70 từ):**  
+Tạo một `MemoryStream` từ mảng byte giấy phép (`new MemoryStream(licenseBytes)`) bên trong một khối `using`, sau đó truyền stream đó cho `new License().SetLicense(stream)`. `MemoryStream` chỉ tồn tại trong bộ nhớ, không gây tải I/O, và sẽ tự động được giải phóng khi khối kết thúc, ngăn ngừa rò rỉ tài nguyên.
+
+`MemoryStream` nhẹ, an toàn đa luồng cho các kịch bản chỉ đọc, và có thể tái sử dụng nếu bạn cần áp dụng cùng một giấy phép cho nhiều sản phẩm Aspose trong cùng một ứng dụng.
+
+## Bước 3: Thiết lập giấy phép Aspose – cốt lõi của set aspose license c#
+Bây giờ chúng ta đã có một `MemoryStream` đã chuẩn bị, việc áp dụng giấy phép chỉ cần một dòng lệnh. Lớp `License` nằm trong không gian tên `Aspose.OCR`, vì vậy hãy chắc chắn nhập nó.
+
+**Câu trả lời ngắn gọn (40‑70 từ):**  
+Khởi tạo `var license = new Aspose.OCR.License();` và gọi `license.SetLicense(memoryStream);`. Nếu stream chứa một giấy phép hợp lệ, chưa hết hạn, phương thức sẽ trả về im lặng; nếu không, thư viện sẽ chuyển sang chế độ thử nghiệm. Bạn có thể xác nhận thành công bằng cách kiểm tra một tính năng chỉ có trong phiên bản có giấy phép, chẳng hạn hỗ trợ ngôn ngữ tùy chỉnh.
+
+Nếu tệp giấy phép bị hỏng hoặc rỗng, `SetLicense` sẽ không ném lỗi; do đó, việc kiểm tra `licenseBytes.Length > 0` trước khi tạo stream là biện pháp phòng ngừa tốt.
+
+## Bước 4: Cách tải giấy phép – kết hợp tất cả
+Dưới đây là một chương trình console hoàn chỉnh, sẵn sàng chạy, minh họa **cách tải giấy phép** từ đĩa, bọc nó trong một `MemoryStream`, thiết lập giấy phép và in ra thông báo xác nhận.
+
+**Câu trả lời ngắn gọn (40‑70 từ):**  
+Kết hợp các bước trước thành một phương thức duy nhất: đọc byte tệp, tạo một `MemoryStream`, gọi `SetLicense`, và sau đó ghi một dòng console xác nhận thành công. Chương trình chạy trên bất kỳ runtime .NET nào, chỉ yêu cầu gói NuGet Aspose.OCR và không phụ thuộc vào các tệp cấu hình bên ngoài.
 
 ```csharp
 using System;
@@ -73,11 +139,68 @@ class LicenseHelper
 }
 ```
 
-**Tại sao điều này quan trọng:** Đọc file trực tiếp vào bộ nhớ tránh rò rỉ handle file và cung cấp cho chúng ta một mảng byte sạch sẽ để sử dụng sau này. Nó cũng giúp phương thức này tái sử dụng được trong các ứng dụng console, dịch vụ web, hoặc Azure Functions.
+### Đầu ra mong đợi
 
-## Bước 2: Cách Sử Dụng MemoryStream – Chuẩn Bị Luồng Giấy Phép
+```
+License applied successfully. You can now perform OCR operations.
+```
 
-Phương thức overload `License.SetLicense` của Aspose yêu cầu một `Stream`. Đóng gói mảng byte trong một `MemoryStream` là cách idiomatic để đáp ứng yêu cầu này mà không cần truy cập lại hệ thống file.
+Nếu bạn thấy văn bản xác nhận, engine OCR đã được cấp phép đầy đủ và sẵn sàng cho các tải công việc sản xuất.
+
+## Những lỗi thường gặp & cách tránh
+| Vấn đề | Tại sao lại xảy ra | Cách khắc phục |
+|-------|-------------------|----------------|
+| **FileNotFoundException** khi đọc giấy phép | Đường dẫn tương đối không đúng hoặc tệp không được triển khai cùng ứng dụng | Sử dụng đường dẫn tuyệt đối, hoặc nhúng giấy phép dưới dạng tài nguyên (xem phần “tải thay thế”) |
+| **License not applied but no error** | `SetLicense` tự động chuyển sang chế độ thử nghiệm nếu stream rỗng hoặc bị hỏng | Kiểm tra `licenseBytes.Length > 0` trước khi tạo `MemoryStream` và ghi cảnh báo nếu kiểm tra thất bại |
+| **MemoryStream not disposed** | Quên sử dụng `using` dẫn đến tài nguyên không quản lý tồn tại trong các dịch vụ chạy lâu dài | Luôn bọc stream trong `using` như ví dụ; CLR sẽ giải phóng bộ đệm ngay lập tức |
+
+## Thay thế: nhúng giấy phép như một tài nguyên nhúng
+Nếu bạn không muốn phân phối tệp `.lic` riêng biệt, bạn có thể nhúng trực tiếp vào assembly. Đặt **Build Action** của tệp thành **Embedded Resource**, sau đó đọc nó bằng `Assembly.GetManifestResourceStream`.
+
+**Câu trả lời ngắn gọn (40‑70 từ):**  
+Gọi `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyNamespace.Aspose.OCR.lic")` để lấy một stream, sau đó truyền stream đó cho `License.SetLicense`. Cách tiếp cận này loại bỏ phụ thuộc tệp bên ngoài và đảm bảo giấy phép đi kèm với DLL đã biên dịch, rất phù hợp cho các thư viện phân phối qua NuGet.
+
+```csharp
+using System.Reflection;
+
+public static byte[] ReadEmbeddedLicense(string resourceName)
+{
+    var assembly = Assembly.GetExecutingAssembly();
+    using Stream stream = assembly.GetManifestResourceStream(resourceName);
+    if (stream == null) throw new InvalidOperationException("Embedded license not found.");
+    using var ms = new MemoryStream();
+    stream.CopyTo(ms);
+    return ms.ToArray();
+}
+```
+
+## Kết luận
+Chúng tôi đã bao phủ mọi thứ bạn cần để **set Aspose license C#** cho sản phẩm OCR: đọc tệp giấy phép dưới dạng byte, bọc các byte đó trong một `MemoryStream`, gọi `License.SetLicense`, và xác nhận việc kích hoạt. Bằng cách tuân theo mẫu này, bạn tránh các giới hạn chế độ thử nghiệm, giữ mã nguồn sạch sẽ, và làm cho bước cấp phép có thể tái sử dụng trong các ứng dụng console, web API, Azure Functions, hoặc bất kỳ dịch vụ .NET nào.
+
+Các bước tiếp theo có thể bao gồm đọc tệp giấy phép **bằng bất đồng bộ** cho các kịch bản lưu lượng cao, hoặc áp dụng cùng mẫu cho các sản phẩm Aspose khác như `Aspose.Words` hoặc `Aspose.PDF`. Ý tưởng cốt lõi — đọc, stream, thiết lập, xác minh — vẫn giống nhau, cung cấp cho bạn chiến lược cấp phép nhất quán trên toàn bộ danh mục Aspose.
+
+---
+
+**Last Updated:** 2026-08-28  
+**Tested with:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể thiết lập giấy phép trong ứng dụng web ASP.NET Core không?**  
+A: Có. Đặt tệp `.lic` trong một thư mục bên ngoài `wwwroot`, đọc nó trong `Startup.ConfigureServices`, và gọi `SetLicense` trước bất kỳ thao tác OCR nào.
+
+**Q: Điều gì xảy ra nếu giấy phép hết hạn?**  
+A: Thư viện sẽ quay lại chế độ thử nghiệm, có thể thêm watermark hoặc giới hạn số trang. Giám sát thuộc tính `License.IsLicensed` (nếu có) hoặc phát hiện chuyển sang chế độ thử nghiệm bằng cách kiểm tra một tính năng chỉ có trong phiên bản có giấy phép.
+
+**Q: Có an toàn khi lưu tệp giấy phép trên ổ đĩa mạng chia sẻ không?**  
+A: Nó an toàn miễn là tài khoản dịch vụ chạy ứng dụng có quyền đọc và đường dẫn được bảo mật tránh các thay đổi không được phép.
+
+**Q: Tôi có cần giấy phép riêng cho mỗi sản phẩm Aspose không?**  
+A: Có. Mỗi thành phần Aspose (OCR, Words, PDF, v.v.) yêu cầu tệp `.lic` riêng trừ khi bạn có giấy phép bộ sản phẩm bao phủ nhiều sản phẩm.
+
+**Q: Làm sao tôi có thể xác minh rằng giấy phép đã được áp dụng mà không viết mã bổ sung?**  
+A: Sau khi gọi `SetLicense`, thử một thao tác OCR chỉ có trong phiên bản có giấy phép (ví dụ, bật gói ngôn ngữ tùy chỉnh). Nếu thao tác thành công mà không có watermark thử nghiệm, giấy phép đã hoạt động.
 
 ```csharp
 using System.IO;
@@ -88,12 +211,6 @@ public static MemoryStream CreateLicenseStream(byte[] licenseData)
     return new MemoryStream(licenseData);
 }
 ```
-
-**Nhận xét quan trọng:** `MemoryStream` nhẹ và giải phóng nhanh. Nó cũng cho phép bạn tái sử dụng cùng một mảng byte cho nhiều thư viện nếu bạn cần áp dụng hơn một giấy phép sản phẩm Aspose.
-
-## Bước 3: Đặt Giấy Phép Aspose – Cốt Lõi của “cách áp dụng giấy phép”
-
-Bây giờ chúng ta đã có một `MemoryStream`, việc áp dụng giấy phép chỉ cần một dòng lệnh. Lớp `License` nằm trong namespace `Aspose.OCR`, vì vậy hãy chắc chắn bạn đã thêm chỉ thị `using` thích hợp.
 
 ```csharp
 using Aspose.OCR;
@@ -107,12 +224,6 @@ public static void ApplyAsposeLicense(MemoryStream licenseStream)
     license.SetLicense(licenseStream);
 }
 ```
-
-Nếu giấy phép không hợp lệ hoặc đã hết hạn, `SetLicense` sẽ thất bại im lặng và thư viện sẽ chạy ở chế độ dùng thử. Để chắc chắn tuyệt đối, bạn có thể kiểm tra một tính năng chỉ có trong phiên bản có giấy phép (ví dụ: cài đặt độ chính xác OCR) hoặc đơn giản dựa vào thông báo xác nhận mà chúng tôi sẽ in ra sau.
-
-## Bước 4: Cách Tải Giấy Phép – Kết Hợp Tất Cả
-
-Dưới đây là chương trình console hoàn chỉnh, có thể chạy được, minh họa **cách tải giấy phép** từ đĩa, sử dụng `MemoryStream`, và xác nhận rằng giấy phép đã được áp dụng thành công.
 
 ```csharp
 using Aspose.OCR;
@@ -151,51 +262,15 @@ class LicenseDemo
 }
 ```
 
-### Kết Quả Dự Kiến
+## Hướng dẫn liên quan
 
-```
-License applied successfully. You can now perform OCR operations.
-```
-
-Nếu bạn thấy thông báo, thư viện đã được cấp giấy phép đầy đủ và sẵn sàng cho các tác vụ OCR cấp sản xuất.
-
-## Những Cạm Bẫy Thường Gặp & Cách Tránh
-
-| Vấn đề | Tại sao xảy ra | Cách khắc phục |
-|-------|----------------|----------------|
-| **FileNotFoundException** khi đọc giấy phép | Đường dẫn sai hoặc file không được triển khai cùng ứng dụng | Sử dụng đường dẫn tuyệt đối hoặc nhúng giấy phép làm tài nguyên (xem “tải thay thế” bên dưới) |
-| **Giấy phép không được áp dụng nhưng không có lỗi** | `SetLicense` im lặng chuyển sang chế độ dùng thử nếu luồng rỗng hoặc bị hỏng | Kiểm tra `licenseData.Length > 0` trước khi tạo `MemoryStream` |
-| **MemoryStream không được giải phóng** | Quên `using` khiến tài nguyên không quản lý còn tồn tại | Luôn bao `MemoryStream` trong khối `using` như ví dụ |
-
-### Thay Thế: Nhúng Giấy Phép như một Embedded Resource
-
-Nếu bạn không muốn phân phối một file `.lic` riêng biệt, hãy thêm nó vào dự án, đặt **Build Action** thành **Embedded Resource**, và đọc nó như sau:
-
-```csharp
-using System.Reflection;
-
-public static byte[] ReadEmbeddedLicense(string resourceName)
-{
-    var assembly = Assembly.GetExecutingAssembly();
-    using Stream stream = assembly.GetManifestResourceStream(resourceName);
-    if (stream == null) throw new InvalidOperationException("Embedded license not found.");
-    using var ms = new MemoryStream();
-    stream.CopyTo(ms);
-    return ms.ToArray();
-}
-```
-
-Sau đó gọi `ReadEmbeddedLicense("MyNamespace.Aspose.OCR.lic")` và tiếp tục với cùng cách tiếp cận `MemoryStream`.
-
-## Kết Luận
-
-Chúng tôi đã trình bày **cách áp dụng giấy phép** cho Aspose OCR từ đầu đến cuối: đọc file, tạo `MemoryStream`, gọi `SetLicense`, và xác nhận kích hoạt. Bằng cách làm theo các bước này, bạn loại bỏ việc đoán mò, tránh các lỗi phổ biến, và đảm bảo engine OCR của bạn chạy ở chế độ đầy đủ tính năng.
-
-Tiếp theo, bạn có thể khám phá **cách đọc file** bất đồng bộ cho các dịch vụ có lưu lượng cao, hoặc đi sâu vào các cài đặt OCR nâng cao khi giấy phép đã được tải đúng. Dù sao, quy trình vẫn giống nhau — đọc, stream, set, verify.
-
-Có câu hỏi về các trường hợp đặc biệt, chẳng hạn như tải giấy phép trong môi trường ASP.NET Core hoặc xử lý nhiều giấy phép sản phẩm Aspose? Hãy để lại bình luận bên dưới, và chúc bạn lập trình vui vẻ!
+- [Cách kiểm tra hỗ trợ ngôn ngữ OCR trong C – Hướng dẫn đầy đủ](/ocr/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide/)
+- [Cách bật GPU cho Aspose OCR – Hướng dẫn từng bước](/ocr/net/ocr-configuration/how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+- [Trích xuất văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C đầy đủ](/ocr/net/text-recognition/extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
