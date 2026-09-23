@@ -24,32 +24,6 @@ title: Πώς να ενεργοποιήσετε την GPU για OCR και ν�
 url: /el/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/
 ---
 
-blockquote > **Why this matters:** after step 1.
-
-Now we need to translate all other text.
-
-Let's produce final content.
-
-Be careful to keep code block placeholders unchanged.
-
-Also we need to translate "## Expected output" heading.
-
-Also "### Expected output" is heading.
-
-Also "## Frequently asked questions (FAQ)" etc.
-
-Also "## Conclusion".
-
-Also bullet points under "Why might the GPU not be used?" etc.
-
-Also "### Why might the GPU not be used?" is a subheading.
-
-Also "### How to fall back to CPU programmatically" etc.
-
-Also "### Reading text from TIFF in a loop" etc.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

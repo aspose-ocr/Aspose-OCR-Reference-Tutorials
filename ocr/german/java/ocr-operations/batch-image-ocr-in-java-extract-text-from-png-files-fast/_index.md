@@ -23,8 +23,6 @@ title: Batch-Bild-OCR in Java – Text schnell aus PNG-Dateien extrahieren
 url: /de/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-Let's produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

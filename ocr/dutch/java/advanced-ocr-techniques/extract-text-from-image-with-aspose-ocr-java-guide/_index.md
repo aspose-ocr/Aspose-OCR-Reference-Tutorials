@@ -20,9 +20,7 @@ title: Tekst extraheren uit afbeelding met Aspose OCR – Java-gids
 url: /nl/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/
 ---
 
-markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

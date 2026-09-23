@@ -24,11 +24,7 @@ title: Xóa Đánh Dấu Đánh Giá trong Aspose OCR – Hướng Dẫn Toàn D
 url: /vi/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
-The blockquote "Pro tip" we translated. Ensure we kept markdown formatting.
-
-Also note "RTL formatting" not needed for Vietnamese (LTR). Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

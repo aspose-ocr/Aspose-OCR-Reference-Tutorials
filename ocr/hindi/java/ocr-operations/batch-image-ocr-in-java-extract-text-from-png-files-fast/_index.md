@@ -23,14 +23,6 @@ title: जावा में बैच इमेज OCR – PNG फ़ाइल
 url: /hi/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-डायग्राम".
-
-Now ensure all shortcodes remain.
-
-Now produce final output with everything.
-
-Let's craft the final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

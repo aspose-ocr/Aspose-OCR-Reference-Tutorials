@@ -23,17 +23,7 @@ title: วิธีเปิดใช้งาน GPU สำหรับ OCR แ
 url: /th/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/
 ---
 
-.
-
-Translate bullet items.
-
-Finally closing shortcodes unchanged.
-
-Also final backtop button shortcode unchanged.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

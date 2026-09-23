@@ -23,14 +23,6 @@ title: Créer un PDF consultable à partir de fichiers numérisés – Guide Jav
 url: /fr/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-canvas that already contains raster images of each page." translate.
-
-Also "Why this matters:" keep as bold? It's preceded by > **Why this matters:**. Keep same.
-
-All code block placeholders remain.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

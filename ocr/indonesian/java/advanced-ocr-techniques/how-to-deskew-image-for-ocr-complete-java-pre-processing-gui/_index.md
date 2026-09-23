@@ -26,12 +26,6 @@ title: Cara Mengoreksi Kemiringan Gambar untuk OCR – Panduan Lengkap Pra‑pem
 url: /id/java/advanced-ocr-techniques/how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/
 ---
 
-.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

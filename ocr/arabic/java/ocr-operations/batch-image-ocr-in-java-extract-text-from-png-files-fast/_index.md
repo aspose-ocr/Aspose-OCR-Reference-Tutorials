@@ -23,16 +23,6 @@ title: التعرف الضوئي على الحروف للصور دفعةً في 
 url: /ar/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-.
-
-Now translate headings and paragraphs.
-
-Will produce Arabic text.
-
-Be careful with markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

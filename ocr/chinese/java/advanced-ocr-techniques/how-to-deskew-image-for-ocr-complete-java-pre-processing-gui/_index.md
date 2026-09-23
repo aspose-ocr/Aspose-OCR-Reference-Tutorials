@@ -21,16 +21,6 @@ title: 如何对图像进行去倾斜以用于 OCR – 完整的 Java 预处理�
 url: /zh/java/advanced-ocr-techniques/how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/
 ---
 
-but keep technical terms. I'd translate to Chinese: "校正后出现乱码输出". That's okay.
-
-But we must be careful not to translate code block placeholders.
-
-Let's produce final content.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

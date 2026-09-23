@@ -24,10 +24,6 @@ title: Come raddrizzare le immagini per OCR – Guida completa di pre‑elaboraz
 url: /it/java/advanced-ocr-techniques/how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/
 ---
 
-formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

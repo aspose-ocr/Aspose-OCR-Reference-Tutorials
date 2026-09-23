@@ -24,42 +24,6 @@ title: Создание PDF с возможностью поиска из отс
 url: /ru/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-Руководство по Java". Keep "PDF" and "Java". So "# Создание поискового PDF из отсканированных файлов – Руководство по Java"
-
-Next paragraph:
-
-Ever needed to **create searchable PDF** from a stack... Translate.
-
-We'll translate each paragraph.
-
-Need to keep **bold** formatting.
-
-Also keep code block placeholders unchanged.
-
-Also keep tables.
-
-Also keep image alt and URL unchanged.
-
-Also keep bullet lists.
-
-Also keep markdown links (none maybe). There's a link placeholder? Not in text.
-
-Let's produce translation.
-
-Be careful with "Aspose OCR" keep as is.
-
-Also "setUseGpu(true)" keep.
-
-Also "YOUR_DIRECTORY" keep.
-
-Also "input.pdf", "output.pdf".
-
-Also "searchablePdf".
-
-Also "OcrEngine", etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

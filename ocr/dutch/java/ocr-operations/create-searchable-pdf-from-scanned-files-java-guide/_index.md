@@ -24,9 +24,7 @@ title: Maak doorzoekbare PDF van gescande bestanden – Java‑gids
 url: /nl/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-should be translated. Good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

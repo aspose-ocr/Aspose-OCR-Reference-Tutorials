@@ -22,28 +22,6 @@ title: สร้าง PDF ที่ค้นหาได้จากไฟล�
 url: /th/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-ทำไมสิ่งนี้ถึงสำคัญ:**". Keep bold.
-
-Similarly for other blockquotes.
-
-Also the table header "Before (scanned)" "After (searchable)" translate.
-
-Also the note after table: "* (The image above is a placeholder; replace with a screenshot of your own PDF if you publish this tutorial.)". Translate.
-
-Also the bullet list under "Pro Tips for Production‑Ready OCR". Translate each bullet.
-
-Also the bullet list under "What’s Next?" translate.
-
-Also the final backtop button shortcode remains unchanged.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

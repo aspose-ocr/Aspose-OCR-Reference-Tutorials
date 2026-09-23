@@ -22,16 +22,6 @@ title: Crear PDF buscable a partir de archivos escaneados – Guía de Java
 url: /es/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-. So alt becomes "Ejemplo de PDF buscable". Keep image URL same.
-
-Now go through.
-
-Also there are bullet lists.
-
-Make sure to keep markdown formatting.
-
-Proceed to produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

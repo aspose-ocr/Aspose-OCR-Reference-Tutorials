@@ -20,15 +20,7 @@ title: Aspose OCRで言語画像を検出する – Javaチュートリアル
 url: /ja/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/
 ---
 
-/products-backtop-button >}}
-
-All unchanged.
-
-Now produce final content with translations.
-
-Check that we kept all code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

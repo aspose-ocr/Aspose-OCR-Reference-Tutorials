@@ -20,12 +20,6 @@ title: 如何校正影像傾斜以供 OCR – 完整的 Java 前置處理指南
 url: /zh-hant/java/advanced-ocr-techniques/how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/
 ---
 
-; we included translation.
-
-We need to ensure we didn't miss any markdown elements like horizontal rules (---). Keep them.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

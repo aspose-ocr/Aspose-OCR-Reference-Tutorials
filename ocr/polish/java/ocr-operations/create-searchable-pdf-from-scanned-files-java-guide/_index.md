@@ -23,17 +23,7 @@ title: Utwórz przeszukiwalny PDF z zeskanowanych plików – przewodnik Java
 url: /pl/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-Po (przeszukiwalny)". Good.
-
-Check note translation.
-
-Check all bullet points under "Common Questions & Edge Cases" etc.
-
-Check that we didn't translate URLs (none). File paths like `YOUR_DIRECTORY` kept.
-
-Check that we kept markdown formatting.
-
-All good.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

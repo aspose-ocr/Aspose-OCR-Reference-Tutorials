@@ -22,20 +22,6 @@ title: วิธีแก้ไขการเอียงของภาพส�
 url: /th/java/advanced-ocr-techniques/how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/
 ---
 
-and the Aspose OCR library, you can straighten, clean, and binarize your pictures so the OCR engine reads them like a pro."
-
-Translate.
-
-Continue.
-
-Now code block placeholders remain.
-
-Proceed through sections.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

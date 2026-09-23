@@ -24,12 +24,6 @@ title: Aspose OCR ile Görüntüde OCR Yapma – Java Adım Adım Kılavuzu
 url: /tr/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/
 ---
 
-phrase. The bold phrase is **perform OCR on image**. Probably keep unchanged. So translate rest.
-
-Let's go paragraph by paragraph.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

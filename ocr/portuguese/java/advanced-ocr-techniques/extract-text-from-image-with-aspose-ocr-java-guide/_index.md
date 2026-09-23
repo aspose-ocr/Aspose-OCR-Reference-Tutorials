@@ -20,15 +20,7 @@ title: Extrair Texto de Imagem com Aspose OCR – Guia Java
 url: /pt/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/
 ---
 
-payload JSON, ou alimentá‑la a um modelo de machine‑learning para validação. O céu é o limite, e agora você"
-
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc. Keep.
-
-Also there is a final shortcode for backtop button.
-
-Now produce final content with all translations, preserving code block placeholders and shortcodes.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

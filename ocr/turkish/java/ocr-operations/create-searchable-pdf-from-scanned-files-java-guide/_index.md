@@ -23,13 +23,7 @@ title: Tarama Dosyalarından Aranabilir PDF Oluşturma – Java Rehberi
 url: /tr/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-.
-
-Now produce final output with all content.
-
-Check for any missed items: Ensure all shortcodes preserved. Ensure code block placeholders unchanged. Ensure markdown links none present. Ensure images unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

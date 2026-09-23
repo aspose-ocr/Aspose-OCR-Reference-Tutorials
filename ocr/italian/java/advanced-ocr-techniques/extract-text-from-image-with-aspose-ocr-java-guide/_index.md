@@ -20,18 +20,6 @@ title: Estrai testo da immagine con Aspose OCR – Guida Java
 url: /it/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/
 ---
 
-da immagine". So bold will be **estrarre testo da immagine**.
-
-Similarly later "extract text from form" etc.
-
-Proceed.
-
-Let's craft translation.
-
-Also note "RTL formatting" not needed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

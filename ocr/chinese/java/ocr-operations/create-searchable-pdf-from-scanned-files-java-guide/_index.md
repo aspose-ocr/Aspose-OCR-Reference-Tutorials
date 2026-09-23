@@ -20,18 +20,6 @@ title: 从扫描文件创建可搜索的 PDF – Java 指南
 url: /zh/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-Ready OCR => "生产就绪 OCR 的专业技巧". Keep dash.
-
-Recap etc.
-
-Make sure to keep all shortcodes at start and end unchanged.
-
-Also keep the backtop button shortcode.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

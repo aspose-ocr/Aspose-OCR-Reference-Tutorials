@@ -26,9 +26,7 @@ title: Rimuovere la filigrana di valutazione in Aspose OCR – Guida completa al
 url: /it/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
-placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

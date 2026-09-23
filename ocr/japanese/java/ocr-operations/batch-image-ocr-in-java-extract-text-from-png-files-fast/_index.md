@@ -21,7 +21,7 @@ title: Javaによるバッチ画像OCR – PNGファイルからテキストを�
 url: /ja/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

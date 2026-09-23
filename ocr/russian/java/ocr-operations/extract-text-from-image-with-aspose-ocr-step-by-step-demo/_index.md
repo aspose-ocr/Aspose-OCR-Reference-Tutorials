@@ -24,9 +24,7 @@ title: Извлечение текста из изображения с помо
 url: /ru/java/ocr-operations/extract-text-from-image-with-aspose-ocr-step-by-step-demo/
 ---
 
-remain unchanged.
-
-Now produce final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

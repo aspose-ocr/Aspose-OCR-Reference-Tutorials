@@ -22,12 +22,6 @@ title: Criar PDF pesquisável a partir de arquivos digitalizados – Guia Java
 url: /pt/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-izados – Guia Java". Keep hyphen? We'll translate.
-
-Make sure to preserve markdown headings (#, ##, ###). Keep list bullet points.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

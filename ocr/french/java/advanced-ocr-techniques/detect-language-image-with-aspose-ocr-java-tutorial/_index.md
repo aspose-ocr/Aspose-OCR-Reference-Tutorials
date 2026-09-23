@@ -24,18 +24,6 @@ title: Détecter la langue d’une image avec Aspose OCR – Tutoriel Java
 url: /fr/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/
 ---
 
-.
-
-Translate.
-
-Now code block placeholders remain.
-
-Proceed.
-
-We need to translate the rest.
-
-Let's craft final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

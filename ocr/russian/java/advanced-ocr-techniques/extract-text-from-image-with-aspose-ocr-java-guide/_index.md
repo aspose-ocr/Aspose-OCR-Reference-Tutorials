@@ -20,9 +20,7 @@ title: Извлечение текста из изображения с помо
 url: /ru/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/
 ---
 
-keep line breaks.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

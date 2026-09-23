@@ -22,7 +22,7 @@ title: إزالة علامة التقييم المائية في Aspose OCR – �
 url: /ar/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,7 @@ title: Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – demonstracja k
 url: /pl/java/ocr-operations/extract-text-from-image-with-aspose-ocr-step-by-step-demo/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

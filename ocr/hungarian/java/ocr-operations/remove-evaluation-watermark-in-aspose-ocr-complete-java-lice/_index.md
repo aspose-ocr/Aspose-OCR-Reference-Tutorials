@@ -24,16 +24,6 @@ title: Az értékelési vízjel eltávolítása az Aspose OCR-ben – Teljes Jav
 url: /hu/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
-should stay unchanged.
-
-Also there are block shortcodes at top and bottom.
-
-We must not translate URLs, file paths, variable names, function names. So keep "License", "OcrEngine", etc.
-
-Let's translate step by step.
-
-I'll produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

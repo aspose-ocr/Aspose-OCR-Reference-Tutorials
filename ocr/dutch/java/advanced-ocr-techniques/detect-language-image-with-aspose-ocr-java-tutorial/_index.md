@@ -25,17 +25,7 @@ title: Detecteer taal van afbeelding met Aspose OCR – Java‑tutorial
 url: /nl/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/
 ---
 
-write each result to its own `.txt` file."
-
-Translate.
-
-"Happy coding, and may your OCR pipelines be ever accurate!" translate.
-
-Image alt and title: translate alt "detect language image example" to Dutch "voorbeeld van detect language image". Title same.
-
-Now produce final content with same shortcodes.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

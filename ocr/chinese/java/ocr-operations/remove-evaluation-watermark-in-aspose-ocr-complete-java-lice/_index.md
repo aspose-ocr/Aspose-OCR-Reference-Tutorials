@@ -20,7 +20,7 @@ title: 在 Aspose OCR 中去除评估水印 – 完整的 Java 许可证指南
 url: /zh/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

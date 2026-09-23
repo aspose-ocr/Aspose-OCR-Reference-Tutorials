@@ -24,8 +24,6 @@ title: Buat PDF yang Dapat Dicari dari File yang Dipindai – Panduan Java
 url: /id/java/ocr-operations/create-searchable-pdf-from-scanned-files-java-guide/
 ---
 
-final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

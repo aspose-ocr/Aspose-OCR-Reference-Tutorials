@@ -24,12 +24,6 @@ title: Выполните OCR изображения с помощью Aspose OC
 url: /ru/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/
 ---
 
-? It's not a class name. I'd translate to "пользовательский словарь". But keep code references unchanged.
-
-We'll translate naturally.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

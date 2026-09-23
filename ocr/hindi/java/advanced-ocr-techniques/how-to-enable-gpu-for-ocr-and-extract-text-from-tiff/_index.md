@@ -24,18 +24,6 @@ title: GPU को OCR के लिए कैसे सक्षम करें
 url: /hi/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/
 ---
 
-"# GPU को OCR के लिए सक्षम करना और TIFF से टेक्स्ट निकालना". Keep same heading level.
-
-Paragraph: "Ever wondered **how to enable GPU** when performing OCR on large TIFF files? ..." translate.
-
-Will keep bold formatting.
-
-Proceed.
-
-Make sure to keep markdown links unchanged (none present). Code block placeholders remain.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

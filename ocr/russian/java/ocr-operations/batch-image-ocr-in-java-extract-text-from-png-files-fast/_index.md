@@ -24,10 +24,6 @@ title: Пакетное OCR изображений в Java – быстрое �
 url: /ru/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-formatting.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

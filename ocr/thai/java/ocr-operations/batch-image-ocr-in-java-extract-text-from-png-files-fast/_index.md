@@ -23,10 +23,6 @@ title: OCR รูปภาพแบบชุดใน Java – ดึงข้�
 url: /th/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-"RTL formatting if needed" not needed.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

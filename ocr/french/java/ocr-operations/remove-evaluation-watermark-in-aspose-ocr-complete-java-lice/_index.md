@@ -25,21 +25,7 @@ title: Supprimer le filigrane d'évaluation dans Aspose OCR – Guide complet de
 url: /fr/java/ocr-operations/remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/
 ---
 
->}}
-
-We must keep them unchanged.
-
-Now produce final content.
-
-Let's translate carefully.
-
-Make sure to keep markdown formatting.
-
-Let's write French translation.
-
-Be careful with technical terms: keep them English.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

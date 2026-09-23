@@ -23,11 +23,7 @@ title: Wsadowkie OCR obrazów w Javie – szybkie wyodrębnianie tekstu z plikó
 url: /pl/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-PNG](/images/batch-ocr-diagram.png){: .center alt="Diagram przetwarzania batch image OCR"}
-
-Now close shortcodes as original.
-
-Proceed to output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

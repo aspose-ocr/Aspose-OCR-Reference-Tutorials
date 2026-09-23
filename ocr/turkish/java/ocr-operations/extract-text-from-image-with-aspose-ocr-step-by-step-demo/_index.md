@@ -23,8 +23,6 @@ title: Aspose OCR ile Görüntüden Metin Çıkarma – Adım Adım Demo
 url: /tr/java/ocr-operations/extract-text-from-image-with-aspose-ocr-step-by-step-demo/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

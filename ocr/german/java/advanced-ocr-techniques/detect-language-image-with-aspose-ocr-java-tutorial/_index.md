@@ -24,7 +24,7 @@ title: Spracherkennung im Bild mit Aspose OCR – Java‑Tutorial
 url: /de/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/
 ---
 
-Let's assemble final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

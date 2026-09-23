@@ -24,10 +24,6 @@ title: Voer OCR uit op een afbeelding met Aspose OCR – Java stap‑voor‑stap
 url: /nl/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/
 ---
 
-placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

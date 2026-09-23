@@ -21,19 +21,7 @@ title: Java 批量图像 OCR——快速提取 PNG 文件中的文本
 url: /zh/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-Java – Extract Text from PNG Files Fast" translate: "# Java 中的批量图像 OCR – 快速从 PNG 文件提取文本"
-
-Proceed.
-
-Let's translate each paragraph.
-
-Make sure to keep **bold** formatting.
-
-Also keep blockquote >.
-
-Ok.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

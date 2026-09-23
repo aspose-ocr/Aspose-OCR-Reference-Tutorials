@@ -24,20 +24,6 @@ title: OCR d'images par lot en Java – Extraire rapidement le texte des fichier
 url: /fr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/
 ---
 
-as is. So keep **batch image OCR**. Also **extract text from PNG** keep as is.
-
-Proceed.
-
-We'll translate each paragraph.
-
-Also code block placeholders remain unchanged.
-
-List items, table, etc.
-
-Make sure to keep markdown syntax.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

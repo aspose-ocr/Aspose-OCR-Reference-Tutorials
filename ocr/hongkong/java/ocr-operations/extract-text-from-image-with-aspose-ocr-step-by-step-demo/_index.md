@@ -20,10 +20,6 @@ title: 使用 Aspose OCR 從圖像提取文字 – 逐步示範
 url: /zh-hant/java/ocr-operations/extract-text-from-image-with-aspose-ocr-step-by-step-demo/
 ---
 
-header row and cells.
-
-Let's construct final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

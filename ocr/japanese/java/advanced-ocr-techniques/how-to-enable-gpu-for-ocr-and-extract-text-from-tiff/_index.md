@@ -20,12 +20,6 @@ title: GPUをOCRで有効にし、TIFFからテキストを抽出する方法
 url: /ja/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/
 ---
 
-translate code block placeholders.
-
-Also there are shortcodes at top and bottom. Keep them.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
