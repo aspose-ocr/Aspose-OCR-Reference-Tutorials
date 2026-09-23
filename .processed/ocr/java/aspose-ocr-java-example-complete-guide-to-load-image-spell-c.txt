@@ -1,0 +1,7 @@
+Title: Aspose OCR Java Example – Complete Guide to Load Image, Spell‑Correct, and Process OCR
+Slug: aspose-ocr-java-example-complete-guide-to-load-image-spell-c
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-07T03:19:27.483715
+SourceRepo: AI Search API
+Keywords: aspose ocr java example, correct ocr errors, load image ocr, set custom dictionary, process image ocr
+PRNumber: 141

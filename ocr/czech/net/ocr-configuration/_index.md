@@ -41,27 +41,12 @@ Extrahování OCR znamená předání obrázku (nebo kolekce obrázků) do Aspos
 - Nainstalovaný NuGet balíček Aspose.OCR pro .NET (`Install-Package Aspose.OCR`).  
 - Ukázkové obrázky nebo archivy obsahující obrázky, které chcete zpracovat.
 
-## OCROperation with Archive in OCR Image Recognition
-Ponořte se do světa OCR s Aspose.OCR a objevte, jak krok za krokem extrahovat text z obrázků v archivech. Tento tutoriál poskytuje komplexní pohled na využití OCR schopností v .NET aplikacích. Od instalace po implementaci odhalíte kouzlo extrakce textu.
-
-## OCROperation with Folder in OCR Image Recognition
-Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Tento tutoriál vás vybaví znalostmi pro snadnou extrakci textu z obrázků uložených ve složkách. Zvyšte efektivitu při získávání dat a zjednodušte OCR schopnosti vaší aplikace.
-
-## OCROperation with Language Selection in OCR Image Recognition
-Pozvedněte své OCR schopnosti na novou úroveň ovládnutím **ocr language selection** v Aspose.OCR pro .NET. Tento tutoriál vás provede procesem plynulé extrakce textu z obrázků v různých jazycích. Posilte svou aplikaci o vícejazyčné OCR schopnosti.
-
-## OCROperation with List in OCR Image Recognition
-Prozkoumejte obrovský potenciál Aspose.OCR pro .NET při snadném provádění rozpoznávání OCR obrázků pomocí seznamů. Tento tutoriál nejen zlepšuje extrakci textu, ale také zvyšuje produktivitu při práci s různorodými datovými sadami. Odhalte efektivitu OCR při operacích se seznamy.
-
-## Tutoriály konfigurace OCR
 ### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
 Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
-### [OCROperation se složkou v rozpoznávání OCR obrázků](./ocr-operation-with-folder/)
-Odemkněte sílu rozpoznávání OCR obrázků v .NET s Aspose.OCR. Snadno extrahujte text z obrázků.
-### [OCROperation s výběrem jazyka v rozpoznávání OCR obrázků](./ocr-operation-with-language-selection/)
-Odemkněte výkonné OCR schopnosti s Aspose.OCR pro .NET. Plynule extrahujte text z obrázků.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
+### [Načíst soubor obrázku a extrahovat text účtenky pomocí GPU OCR v C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+Ukážeme, jak využít GPU akceleraci v Aspose.OCR pro rychlé načtení obrázku a extrakci textu z účtenek v C#.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  
@@ -71,7 +56,51 @@ Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání O
 ### Tipy a úskalí
 - **Pro tip:** Vždy předzpracovávejte obrázky (např. vyrovnání, binarizaci) pro zlepšení přesnosti.  
 - **Varování:** Velké archivy mohou spotřebovat značnou paměť; zvažte zpracování po dávkách.  
+### [Extrahování ruského textu a nastavení cesty ke zdrojům v C# – průvodce Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Naučte se extrahovat ruský text a nastavit cestu ke zdrojům v Aspose.OCR pomocí C#.
+### [Jak provést OCR obrázku v C# – Kompletní průvodce s podporou GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Kompletní průvodce OCR obrázků v C# s využitím GPU pro rychlé a přesné rozpoznávání.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce v C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Kompletní průvodce rozpoznáváním textu z obrázků v C# s využitím Aspose OCR.
 
+Závěrem lze říci, že tyto konfigurační kurzy OCR nabízejí holistické pochopení Aspose.OCR pro .NET. Ať už pracujete s archivními obrázky, složkami, výběrem jazyka nebo seznamy, tyto podrobné příručky zajistí, že využijete plný potenciál OCR a zvýšíte možnosti extrakce textu vaší aplikace. Ponořte se, prozkoumejte a odemkněte kouzlo OCR s Aspose.OCR!
+## Výukové programy pro konfiguraci OCR
+### [OCROoperace se složkou v OCR rozpoznávání obrazu](./ocr-operation-with-folder/)
+Odemkněte sílu rozpoznávání obrázků OCR v .NET s Aspose.OCR. Extrahujte text z obrázků bez námahy.
+### [Operace OCRO s výběrem jazyka v rozpoznávání obrazu OCR](./ocr-operation-with-language-selection/)
+Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrahujte text z obrázků.
+### [Čtení vloženého zdroje v .NET – Kompletní průvodce nastavením licence Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Naučte se, jak načíst vložený zdroj a nastavit licenci Aspose v .NET aplikacích.
+### [Stáhněte model jazyka OCR v C# s Aspose – Kompletní průvodce](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Kompletní návod, jak stáhnout a použít model jazyka OCR v C# pomocí Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak povolit GPU pro Aspose OCR – krok za krokem](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Povolení GPU akcelerace pro Aspose OCR v .NET aplikacích. Postupujte krok za krokem a zvýšte výkon.
+### [Rozpoznání textu z obrázku v C# – arabské OCR s Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Rozpoznávejte arabský text z obrázků v C# pomocí Aspose OCR.
+### [Jak nastavit licenci Aspose v C# – Kompletní průvodce](./how-to-set-aspose-license-in-c-complete-guide/)
+Naučte se, jak v C# nastavit licenci Aspose a plně využít její funkce.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Jak použít licenci v Aspose OCR – krok za krokem průvodce v C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Naučte se, jak aktivovat licenci v Aspose OCR pro .NET aplikace pomocí C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.OCR v komerční .NET aplikaci?**  
@@ -93,6 +122,10 @@ A: Ano, objekt `OcrResult` poskytuje hodnoty důvěry, které můžete programov
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
 
+Závěrem lze říci, že tyto konfigurační kurzy OCR nabízejí holistické pochopení Aspose.OCR pro .NET. Ať už pracujete s archivními obrázky, složkami, výběrem jazyka nebo seznamy, tyto podrobné příručky zajistí, že využijete plný potenciál OCR a zvýšíte možnosti extrakce textu vaší aplikace. Ponořte se, prozkoumejte a odemkněte kouzlo OCR s Aspose.OCR!
+## Výukové programy pro konfiguraci OCR
+### [Jak zkontrolovat podporu jazyků OCR v C# – Kompletní průvodce](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Zjistěte, jak v C# ověřit, které jazyky OCR Aspose.OCR podporuje, a optimalizujte rozpoznávání textu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

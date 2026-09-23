@@ -78,10 +78,13 @@ weight: 21
 افتح قوة OCR في Java مع Aspose.OCR. تعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بالدقة والسرعة.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 افتح إمكانات التعرف القوية على النص في Java مع Aspose.OCR. تعرف على النص في صور TIFF بسهولة. حمّل الآن لتجربة OCR سلسة.
+### [كيفية تنفيذ OCR دفعيًا في Java – دليل كامل لاستخراج النص من الصور](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+### [تشغيل OCR على صورة باستخدام Java – دليل Aspose OCR كامل](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+دليل شامل لتطبيق OCR على الصور باستخدام Aspose OCR للـ Java، يغطي الإعدادات والبرمجة خطوة بخطوة.
+### [إنشاء PDF قابل للبحث في Java – دليل خطوة بخطوة](./create-searchable-pdf-in-java-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 ### [Extract Text from Image with Aspose OCR – Step‑by‑Step Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 اكتشف كيفية استخراج النص من الصور باستخدام Aspose OCR خطوة بخطوة مع مثال عملي.
-### [التعرف على نص الصورة باستخدام Aspose OCR – دليل OCR كامل للـ Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث من ملفات ممسوحة ضوئيًا – دليل Java](./create-searchable-pdf-from-scanned-files-java-guide/)
 تعلم كيفية تحويل ملفات PDF الممسوحة ضوئيًا إلى مستندات قابلة للبحث باستخدام Aspose.OCR للـ Java.
 ### [معالجة OCR للصور دفعيًا في Java – استخراج النص من ملفات PNG بسرعة](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
@@ -117,3 +120,12 @@ weight: 21
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [التعرف على نص الصورة باستخدام Aspose OCR – دليل OCR كامل للـ Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من PNG – دليل Java كامل](./create-searchable-pdf-from-png-complete-java-guide/)
+### [إنشاء PDF قابل للبحث من صورة باستخدام OCR – دليل Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+تعلم كيفية تحويل صورة إلى PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [تحويل الصور إلى نص في Java – دليل معالجة OCR الدفعي](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
+

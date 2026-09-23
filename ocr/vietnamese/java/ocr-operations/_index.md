@@ -68,6 +68,8 @@ Nói lời tạm biệt với việc trích xuất văn bản thủ công từ h
 
 [Hướng dẫn Nhận dạng TIFF](./recognize-tiff/)
 
+Kết luận, với Danh sách Tutorial Aspose.OCR cho Java, bạn có chìa khóa để khai thác tối đa tiềm năng của các thao tác OCR. Khám phá từng tutorial, tìm hiểu các tính năng, và nâng cao khả năng trích xuất văn bản của bạn. Nói lời tạm biệt với công sức thủ công và đón nhận độ chính xác cùng hiệu quả mà Aspose.OCR cho Java mang lại!
+
 ## Các tutorial Thao tác OCR
 ### [Thực hiện OCR với Detect Areas Mode trong Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Mở khóa sức mạnh của việc trích xuất văn bản từ hình ảnh với Aspose.OCR cho Java. Một tutorial toàn diện về OCR với Detect Areas Mode.
@@ -77,8 +79,12 @@ Mở khóa việc trích xuất văn bản chính xác từ hình ảnh với As
 Mở khóa sức mạnh của OCR trong Java với Aspose.OCR. Nhận dạng văn bản trong tài liệu PDF một cách dễ dàng. Tăng cường ứng dụng của bạn với độ chính xác và tốc độ.
 ### [OCR Nhận dạng Hình ảnh TIFF trong Aspose.OCR cho Java](./recognize-tiff/)
 Mở khóa khả năng nhận dạng văn bản mạnh mẽ trong Java với Aspose.OCR. Nhận dạng văn bản trong hình ảnh TIFF một cách dễ dàng. Tải xuống ngay để có trải nghiệm OCR liền mạch.
-### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Cách thực hiện OCR hàng loạt trong Java – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Mở khóa khả năng OCR hàng loạt trong Java, giúp bạn trích xuất văn bản từ nhiều hình ảnh một cách nhanh chóng và hiệu quả.
+### [Chạy OCR trên Hình ảnh với Java – Hướng dẫn đầy đủ Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Mở khóa khả năng chạy OCR trên hình ảnh trong Java, hướng dẫn chi tiết từ cài đặt đến trích xuất văn bản chính xác.
+### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn từng bước](./create-searchable-pdf-in-java-step-by-step-guide/)
+Mở khóa khả năng tạo PDF có thể tìm kiếm trong Java, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu thành dạng có thể tìm kiếm.
 ### [OCR Hình ảnh Hàng loạt trong Java – Trích xuất Văn bản từ tệp PNG nhanh](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Thực hiện OCR hàng loạt trên các tệp PNG trong Java, nhanh chóng và hiệu quả, giúp trích xuất văn bản từ nhiều hình ảnh cùng lúc.
 ### [Trích xuất Văn bản từ Hình ảnh với Aspose OCR – Hướng dẫn Thực hành Từng Bước](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
@@ -117,3 +123,14 @@ A: Xử lý các hình ảnh TIFF theo từng phần hoặc sử dụng đa lu�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Tạo PDF có thể tìm kiếm từ PNG – Hướng dẫn Java đầy đủ](./create-searchable-pdf-from-png-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi ảnh PNG thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh với OCR – Hướng dẫn Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Hướng dẫn chi tiết cách chuyển đổi ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java.
+### [Chuyển Đổi Hình Ảnh Thành Văn Bản trong Java – Hướng Dẫn Xử Lý OCR Hàng Loạt](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Mở khóa khả năng chuyển đổi hàng loạt hình ảnh thành văn bản bằng OCR trong Java, tăng năng suất và độ chính xác.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Mở khóa khả năng tạo PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu.
+

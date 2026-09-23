@@ -1,0 +1,7 @@
+Title: How to enable GPU and extract text from images in Java
+Slug: how-to-enable-gpu-and-extract-text-from-images-in-java
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-09-16T18:22:30.698520
+SourceRepo: AI Search API
+Keywords: how to enable gpu, recognize text from image, extract text from image, how to perform ocr, convert image to text
+PRNumber: 221

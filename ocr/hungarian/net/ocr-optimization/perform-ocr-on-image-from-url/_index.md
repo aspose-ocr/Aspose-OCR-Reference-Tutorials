@@ -1,50 +1,53 @@
 ---
-date: 2025-12-22
-description: Tanulja meg, hogyan ismerje fel a szöveget képről az Aspose.OCR for .NET
-  használatával, a képet szöveggé alakítva pontos OCR felismerési beállításokkal.
-linktitle: recognize text from image – Perform OCR on Image from URL
+date: 2026-02-25
+description: Tanulja meg, hogyan konvertálhatja a képet szöveggé az Aspose.OCR for
+  .NET segítségével, a képről szöveget nyerve ki pontos OCR felismerési beállításokkal.
+linktitle: convert image to text – Perform OCR on Image from URL
 second_title: Aspose.OCR .NET API
-title: Szöveg felismerése képről – OCR végrehajtása URL-ből származó képen
+title: Kép szöveggé konvertálása – OCR végrehajtása URL‑ből származó képen
 url: /hu/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+codes at start and end.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR végrehajtása képen URL-ről az OCR Képfelismerésben
+# Kép szöveggé konvertálása – OCR végrehajtása URL-ről származó képen
 
 ## Bevezetés
 
-Az Optikai Karakterfelismerés (OCR) területén az Aspose.OCR for .NET lehetővé teszi, hogy **recognize text from image** nagy pontossággal, így a fejlesztők könnyedén kinyerhetik a tartalmat a képekből. Ha OCR képességeket szeretnél integrálni .NET alkalmazásodba, és távoli forrásból szeretnél szöveget felismerni, ez a lépésről‑lépésre útmutató végigvezet a kép URL‑ről történő OCR folyamatán.
+Ha egy .NET alkalmazásban **convert image to text** funkcióra van szüksége, az Aspose.OCR for .NET megbízható módot biztosít a weben bárhol tárolt képekből szöveg kinyerésére. Ebben az útmutatóban megtanulja, hogyan ismerje fel a szöveget egy nyilvános URL-en elérhető képen, hogyan állítsa be az OCR felismerési beállításokat, és hogyan kezelje az eredményt – mindezt néhány perc alatt.
 
 ## Gyors válaszok
-- **Miről szól ez a bemutató?** Kép szövegének felismerése egy nyilvános URL‑n található képen az Aspose.OCR for .NET használatával.  
-- **Melyik elsődleges kulcsszóra fókuszál?** *recognize text from image*  
-- **Szükségem van licencre?** Próbaverzió elérhető, de a kereskedelmi licenc szükséges a termelésben való használathoz.  
+- **Miről szól ez az útmutató?** Kép szöveggé konvertálása nyilvános URL-ről az Aspose.OCR for .NET használatával.  
+- **Melyik elsődleges kulcsszóra optimalizált?** *convert image to text*  
+- **Szükség van licencre?** Próbaverzió elérhető, de a gyártó környezetben kereskedelmi licenc szükséges.  
 - **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 perc alatt elvégezhető egy alapbeállítás.
+- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 perc alatt elvégezhető egy alap beállítás.
 
-## Mi az a „recognize text from image”?
-A **recognize text from image** azt jelenti, hogy a karakterek vizuális ábrázolását szerkeszthető, kereshető szöveggé alakítjuk. Ezt a folyamatot gyakran **convert image to text**‑nek vagy **extract text from image**‑nek nevezik, és olyan felhasználási eseteket tesz lehetővé, mint a dokumentumdigitalizálás, adatbevitel automatizálása és a hozzáférhetőség javítása.
+## Mi az a „convert image to text”?
+A kép szöveggé konvertálása azt jelenti, hogy a karakterek vizuális ábrázolását szerkeszthető, kereshető karakterláncokká alakítjuk. Ez a folyamat – más néven **extract text from image** – a dokumentumdigitalizációt, adatbevitel automatizálását és a hozzáférhetőségi megoldásokat teszi lehetővé.
 
-## Miért használjuk az Aspose.OCR for .NET‑et?
-- **Magas pontosság** beépített nyelvtámogatással.  
-- **Részletes OCR felismerési beállítások** (pl. automatikus dőléskorrekció, területfelismerés).  
-- **Egyszerű API**, amely mind a .NET Framework, mind a .NET Core alatt működik.  
-- **Nincs külső függőség** – minden helyben fut.
+## Miért használja az Aspose.OCR for .NET-et a kép szöveggé konvertálásához?
+- **Magas pontosság** beépített nyelvtámogatással és opcionális **OCR language pack** kiegészítőkkel.  
+- **Részletes OCR felismerési beállítások**, például automatikus ferde korrekció, területfelismerés és több soros kezelés.  
+- **Egyszerű API**, amely a .NET Framework és a .NET Core környezetben egyaránt működik külső függőségek nélkül.  
+- **Közvetlen URL támogatás** – a **recognize text from URL** funkcióval a képet letöltés nélkül is feldolgozhatja, de lehetőség van a **download image for OCR** elvégzésére is, ha szükséges.
 
 ## Előfeltételek
 
-Mielőtt elkezdenéd a bemutatót, győződj meg róla, hogy az alábbi előfeltételek teljesülnek:
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
-- Aspose.OCR for .NET: Bizonyosodj meg arról, hogy az Aspose.OCR könyvtár be van integrálva a .NET projektedbe. Letöltheted a [kiadási oldal](https://releases.aspose.com/ocr/net/)ról.  
-- Fejlesztői környezet: Rendelkezz egy működő .NET fejlesztői környezettel a gépeden.
+- Aspose.OCR for .NET telepítve. A legújabb könyvtárat a [release page](https://releases.aspose.com/ocr/net/) oldalról töltheti le.  
+- .NET fejlesztői környezettel (Visual Studio, VS Code vagy a kedvenc IDE-je).  
+- Internetkapcsolattal a feldolgozni kívánt kép letöltéséhez.
 
-## Névterek importálása
+## Namespace-ek importálása
 
-A .NET projektedben add hozzá a szükséges névtereket az Aspose.OCR funkciók eléréséhez. Illeszd be a következő kódrészletet a projektedbe:
+Adja hozzá a szükséges namespace-eket, hogy dolgozhasson az Aspose.OCR osztályokkal:
 
 ```csharp
 using System;
@@ -55,35 +58,31 @@ using Aspose.OCR;
 using Aspose.OCR.Models;
 ```
 
-## Hogyan ismerjük fel a szöveget képen egy URL‑ről?
+## Lépésről‑lépésre útmutató a kép szöveggé konvertálásához URL‑ről
 
 ### 1. lépés: Dokumentumkönyvtár beállítása
-
-Kezdd azzal, hogy megadod azt a könyvtárat, ahol a dokumentumaid tárolva vannak. Cseréld le a `"Your Document Directory"` értéket a tényleges útvonalra.
+Határozza meg, hol tárolja az ideiglenes fájlokat vagy az eredményeket.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-### 2. lépés: Kép beszerzése a felismeréshez
-
-Add meg a kép URL‑jét, amelyen OCR‑t szeretnél végrehajtani. Győződj meg róla, hogy a kép nyilvánosan elérhető.
+### 2. lépés: Kép URL‑jének megadása
+Adjon meg egy nyilvánosan elérhető URL‑t. Ha a kép hitelesítést igényel, először **download image for OCR** kell végrehajtania, majd egy stream‑et használni.
 
 ```csharp
 string uri = "https://qph.fs.quoracdn.net/main-qimg-0ff82d0dc3543dcd3b06028f5476c2e4";
 ```
 
-### 3. lépés: AsposeOcr inicializálása
-
-Hozz létre egy AsposeOcr példányt az OCR funkciók eléréséhez.
+### 3. lépés: AsposeOcr motor inicializálása
+Hozzon létre egy példányt az OCR motorból.
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-### 4. lépés: Kép felismerése
-
-Használd az Aspose.OCR könyvtárat a megadott kép‑URL‑ről történő szövegfelismeréshez. Állítsd be a felismerési beállításokat igényeid szerint.
+### 4. lépés: OCR felismerési beállítások konfigurálása
+Finomhangolja, hogyan dolgozza fel a motor a képet. Itt engedélyezzük a területfelismerést, az automatikus ferde korrekciót, és példaként két egyedi téglalapot adunk meg a **ocr recognition settings** részeként.
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -99,9 +98,10 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 });
 ```
 
-### 5. lépés: Eredmény kiírása
+> **Pro tipp:** Ha nem szükséges egyedi területeket megadni, állítsa a `DetectAreas = false` értékre, és a motor automatikusan megtalálja a szövegdobozokat.
 
-Jelenítsd meg a felismerés eredményét, beleértve a felismert szöveget, a területeket és az esetleges figyelmeztetéseket.
+### 5. lépés: OCR eredmény kiírása
+Írassa ki a felismert szöveget, a detektált területeket, az esetleges figyelmeztetéseket és a teljes JSON payload‑ot a hibakereséshez.
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -112,9 +112,8 @@ result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
 ```
 
-### 6. lépés: Futtatás és ellenőrzés
-
-Indítsd el az alkalmazást, és ha minden helyesen van beállítva, a OCR folyamat sikeresen lefut.
+### 6. lépés: Sikeres végrehajtás megerősítése
+Egy egyszerű visszajelző üzenet jelzi, hogy a folyamat kivétel nélkül befejeződött.
 
 ```csharp
 Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
@@ -122,39 +121,34 @@ Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 
 ## Gyakori problémák és megoldások
 
-- **Image not publicly accessible** – Ellenőrizd, hogy az URL böngészőben működik-e. Ha a kép hitelesítést igényel, töltsd le először, és használd a `RecognizeImageFromStream`‑et.  
-- **Incorrect recognition areas** – Állítsd be a `Rectangle` értékeket, vagy állítsd `DetectAreas = false`‑ra, hogy a motor automatikusan felismerje a területeket.  
-- **Language not recognized** – Győződj meg arról, hogy a megfelelő nyelvi csomag telepítve van, vagy állítsd be a `Language = "eng"`‑et (vagy más ISO kódot) a `RecognitionSettings`‑ben.
+- **A kép nem érhető el nyilvánosan** – Ellenőrizze, hogy az URL böngészőben működik-e. Védett képek esetén először töltse le őket, majd hívja a `RecognizeImageFromStream` metódust.  
+- **A felismerési területek nem megfelelőek** – Módosítsa a `Rectangle` értékeket, vagy tiltsa le a `DetectAreas` beállítást, hogy a motor automatikusan detektálja a szöveget.  
+- **A nyelv nem kerül felismerésre** – Telepítse a megfelelő **OCR language pack**‑et, és állítsa be a `Language = "eng"` (vagy más ISO kód) értéket a `RecognitionSettings`‑ben.  
 
 ## Gyakran feltett kérdések
 
 ### Q1: Az Aspose.OCR alkalmas több nyelv kezelésére?
+**A:** Igen. A megfelelő **ocr language pack** hozzáadásával tucatnyi nyelven tud szöveget felismerni.
 
-**A1:** Igen, az Aspose.OCR támogatja a szöveg felismerését különböző nyelveken, így sokoldalú megoldást nyújt nemzetközi alkalmazásokhoz.
+### Q2: Használható az Aspose.OCR egyszerű‑ és több soros szöveg kinyerésére is?
+**A:** Természetesen. A `RecognizeSingleLine` beállítást a `RecognitionSettings`‑ben állíthatja át a kívánt módra.
 
-### Q2: Használhatom az Aspose.OCR‑t egy‑ és több‑soros szöveg felismerésére is?
+### Q3: Vannak licencelési lehetőségek kereskedelmi projektekhez?
+**A:** Igen, a licencelési opciókat megtekintheti és teljes licencet vásárolhat a [Aspose store](https://purchase.aspose.com/buy) oldalon.
 
-**A2:** Teljes mértékben! Az Aspose.OCR rugalmasan kezeli mind az egy‑, mind a több‑soros szövegek felismerését, az adott felhasználási esethez igazodva.
+### Q4: Elérhető ingyenes próbaverzió?
+**A:** Igen, a próbaverzió letölthető a [releases page](https://releases.aspose.com/) oldalról.
 
-### Q3: Vannak licencelési lehetőségek az Aspose.OCR‑hez?
-
-**A3:** Igen, a licencelési lehetőségeket és a vásárlást a [Aspose áruház](https://purchase.aspose.com/buy) oldalon tekintheted meg.
-
-### Q4: Elérhető ingyenes próbaverzió az Aspose.OCR‑hez?
-
-**A4:** Igen, az Aspose.OCR‑t ingyenesen kipróbálhatod a [kiadási oldal](https://releases.aspose.com/) meglátogatásával.
-
-### Q5: Hol találok támogatást vagy közösségi beszélgetéseket az Aspose.OCR‑rel kapcsolatban?
-
-**A5:** Látogasd meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) a támogatásért és a közösségi részvételért.
+### Q5: Hol találok közösségi támogatást?
+**A:** Látogassa meg a dedikált [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) segítségért és megbeszélésekért.
 
 ## Összegzés
 
-Az Aspose.OCR for .NET segítségével az OCR képességek integrálása .NET alkalmazásokba zökkenőmentes élmény. Ez a bemutató végigvezette a **recognize text from image** folyamatát URL‑ről, és szilárd alapot biztosít a szövegkinyerés kihasználásához a projektjeidben.
+Az Aspose.OCR for .NET segítségével a távoli URL‑ről történő kép szöveggé konvertálás egyszerű és rendkívül testreszabható. A fenti lépések követésével robusztus OCR képességeket integrálhat bármely .NET alkalmazásba, legyen szó egyszerű **extract text from image** funkcióról vagy összetett **ocr recognition settings** használatáról bonyolult dokumentumok esetén.
 
 ---
 
-**Last Updated:** 2025-12-22  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 

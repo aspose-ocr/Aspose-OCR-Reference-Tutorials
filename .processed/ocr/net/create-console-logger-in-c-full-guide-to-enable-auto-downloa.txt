@@ -1,0 +1,7 @@
+Title: Create Console Logger in C# – Full Guide to Enable Auto‑Download & Correct OCR Text
+Slug: create-console-logger-in-c-full-guide-to-enable-auto-downloa
+Category: ocr-optimization
+ProcessedDate: 2026-07-15T10:13:20.969939
+SourceRepo: AI Search API
+Keywords: create console logger, enable auto download, correct ocr text, auto download ai model
+PRNumber: 174
