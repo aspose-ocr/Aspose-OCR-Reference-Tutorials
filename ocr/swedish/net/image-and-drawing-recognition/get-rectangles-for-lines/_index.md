@@ -1,43 +1,49 @@
 ---
-date: 2025-12-17
-description: Lär dig hur du får OCR‑radrektanglar med Aspose.OCR för .NET för att
-  känna igen textrader i bilder och enkelt extrahera radkoordinater.
-linktitle: Get OCR Line Rectangles for Image Text Lines
+date: 2026-02-22
+description: Lär dig hur du utför layoutanalys‑OCR genom att känna igen textrader
+  i en bild och extrahera radrektanglar med Aspose.OCR för .NET.
+linktitle: Layout Analysis OCR – Get Line Rectangles from Images
 second_title: Aspose.OCR .NET API
-title: Hämta OCR‑linjerektanglar för bildtextlinjer
+title: Layoutanalys OCR – Hämta linjerektanglar från bilder
 url: /sv/net/image-and-drawing-recognition/get-rectangles-for-lines/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.11 for .NET
+
+**Author:** Aspose
+
+Now ensure we keep all shortcodes at start and end.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hämta OCR‑radrektanglar för bildtextlinjer
+# Layoutanalys OCR – Hämta linjerektanglar från bilder
 
-## Introduktion
+## Introduction
 
-I den här handledningen kommer du att upptäcka **hur du får OCR‑radrektanglar** med Aspose.OCR för .NET. I slutet av guiden kommer du att kunna **identifiera textlinjer i en bild** och **extrahera radkoordinater** för varje upptäckt rad — perfekt för efterföljande bearbetning såsom layoutanalys, dataextraktion eller anpassad rendering.
+I den här handledningen kommer du att upptäcka **hur man får OCR-linjerektanglar** med Aspose.OCR för .NET. I slutet av guiden kommer du att kunna **igenkänna textrader i en bild** och **extrahera linjekoordinater** för varje upptäckt rad—perfekt för efterföljande bearbetning såsom **layoutanalys OCR**, dataextraktion eller anpassad rendering.
 
-## Snabba svar
-- **Vad betyder “get OCR line rectangles”?** Det returnerar omgivningsrutorna för varje textlinje som upptäcks i en bild.  
-- **Vilken API‑metod används?** `AsposeOcr.GetRectangles(..., AreasType.LINES, ...)`.  
-- **Behöver jag en licens?** En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
-- **Vilka bildformat stöds?** PNG, JPEG, BMP, TIFF och fler.  
-- **Kan jag köra detta på .NET Core?** Ja, Aspose.OCR stödjer fullt ut .NET Core och .NET 5/6.
+## Quick Answers
+- **What does “get OCR line rectangles” mean?** Vad betyder “hämta OCR-linjerektanglar”? Den returnerar avgränsningsrutorna för varje textrad som upptäcks i en bild.  
+- **Which API method is used?** Vilken API‑metod används? `AsposeOcr.GetRectangles(..., AreasType.LINES, ...)`.  
+- **Do I need a license?** Behöver jag en licens? En gratis provversion fungerar för utveckling; en kommersiell licens krävs för produktion.  
+- **Supported image formats?** Vilka bildformat stöds? PNG, JPEG, BMP, TIFF, and more.  
+- **Can I run this on .NET Core?** Kan jag köra detta på .NET Core? Ja, Aspose.OCR fullt stödjer .NET Core och .NET 5/6.
 
-## Förutsättningar
+## Prerequisites
 
 Innan du dyker ner i handledningen, se till att du har följande förutsättningar på plats:
 
-- Grundläggande kunskap om C# och .NET‑utveckling.  
+- Grundläggande kunskaper i C# och .NET‑utveckling.  
 - En integrerad utvecklingsmiljö (IDE) såsom Visual Studio.  
-- Aspose.OCR för .NET‑biblioteket installerat. Du kan ladda ner det [här](https://releases.aspose.com/ocr/net/).  
+- Aspose.OCR för .NET‑biblioteket installerat. Du kan ladda ner det [here](https://releases.aspose.com/ocr/net/).  
 - En exempelbild som innehåller text för OCR‑igenkänning.
 
-## Importera namnrymder
+## Import Namespaces
 
-Se till att du har de nödvändiga namnrymderna importerade till ditt projekt. Lägg till följande rader högst upp i din C#‑fil:
+Se till att du har de nödvändiga namnutrymmena importerade till ditt projekt. Lägg till följande rader högst upp i din C#‑fil:
 
 ```csharp
 using System;
@@ -47,9 +53,11 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Nu ska vi gå igenom processen för att hämta rektanglar för rader i OCR‑bildigenkänning i enkla steg.
+Nu ska vi bryta ner processen för att hämta rektanglar för rader i OCR‑bildigenkänning i enkla steg.
 
-## Steg 1: Ställ in din dokumentkatalog
+## layout analysis ocr – Step‑by‑Step Guide
+
+### Step 1: Set Up Your Document Directory
 
 ```csharp
 // ExStart:3
@@ -59,7 +67,7 @@ string dataDir = "Your Document Directory";
 
 Byt ut `"Your Document Directory"` mot den faktiska sökvägen till mappen som innehåller din exempelbild.
 
-## Steg 2: Initiera Aspose.OCR
+### Step 2: Initialize Aspose.OCR
 
 ```csharp
 // ExStart:4
@@ -69,7 +77,7 @@ AsposeOcr api = new AsposeOcr();
 
 Skapa en instans av klassen `AsposeOcr` för att komma åt OCR‑funktionaliteten.
 
-## Steg 3: Ange bildsökväg
+### Step 3: Specify Image Path
 
 ```csharp
 // ExStart:5
@@ -77,9 +85,9 @@ string fullPath = dataDir + "sample.png";
 // ExEnd:5
 ```
 
-Definiera den fullständiga sökvägen till bilden du vill köra OCR på.
+Definiera den fullständiga sökvägen till bilden du vill utföra OCR på.
 
-## Steg 4: Känn igen bild och hämta rektanglar
+### Step 4: Recognize Image and Get Rectangles
 
 ```csharp
 // ExStart:6
@@ -87,9 +95,9 @@ List<Rectangle> lines = api.GetRectangles(fullPath, AreasType.LINES, false);
 // ExEnd:6
 ```
 
-`GetRectangles`‑metoden returnerar en lista med `Rectangle`‑objekt, där varje objekt representerar koordinaterna för en upptäckt textlinje. Detta är kärnan i **att hämta OCR‑radrektanglar**.
+Metoden `GetRectangles` returnerar en lista med `Rectangle`‑objekt, där varje objekt representerar koordinaterna för en upptäckt textrad. Detta är kärnan i **att hämta OCR‑linjerektanglar** och möjliggör **layoutanalys OCR**.
 
-## Steg 5: Skriv ut resultatet
+### Step 5: Print Result
 
 ```csharp
 // ExStart:7
@@ -98,50 +106,56 @@ lines.ForEach(a => Console.WriteLine($"x:{a.X} y:{a.Y} width:{a.Width} height:{a
 // ExEnd:7
 ```
 
-Skriv ut koordinaterna för de upptäckta områdena till konsolen. Du kommer att se värden som du senare kan använda för att **extrahera radkoordinater** för anpassad bearbetning.
+Skriv ut koordinaterna för de upptäckta områdena till konsolen. Du kommer att se värden som du senare kan använda för att **extrahera linjekoordinater** för anpassad bearbetning.
 
-## Varför använda Aspose.OCR för radrektanglar?
+## Why Use Aspose.OCR for Line Rectangles?
 
-- **Hög noggrannhet** – Avancerade algoritmer upptäcker rader även i brusiga eller snedvridna bilder.  
-- **Plattformsoberoende** – Fungerar på .NET Framework, .NET Core och .NET 5/6.  
-- **Inga externa beroenden** – Ren .NET‑bibliotek, inga inhemska DLL‑filer att distribuera.  
-- **Rikligt resultat** – Förutom radrektanglar kan du också hämta ord, tecken och förtroendescore.
+- **High accuracy** – **Hög noggrannhet** – Avancerade algoritmer upptäcker rader även i brusiga eller skeva bilder.  
+- **Cross‑platform** – **Cross‑platform** – Fungerar på .NET Framework, .NET Core och .NET 5/6.  
+- **No external dependencies** – **Inga externa beroenden** – Ren .NET‑bibliotek, inga inhemska DLL‑filer att distribuera.  
+- **Rich output** – **Rik output** – Förutom linjerektanglar kan du även hämta ord, tecken och förtroendescore.
 
-## Vanliga problem och lösningar
+## Common Issues and Solutions
 
 | Problem | Lösning |
 |-------|----------|
-| **Inga rektanglar returnerades** | Se till att bilden innehåller tydlig, horisontell text och att `AreasType.LINES` är specificerat. |
-| **Felaktiga koordinater** | Verifiera bildens DPI; lågupplösta bilder kan orsaka inexakta gränser. |
-| **Prestandaflaskhals på stora bilder** | Ändra storleken på bilden till en rimlig upplösning innan du anropar `GetRectangles`. |
-| **Licensundantag** | Använd en provlicens för testning; tillämpa en full licens för produktion för att undvika utvärderingsgränser. |
+| **No rectangles returned** | **Inga rektanglar returnerade** – Se till att bilden innehåller tydlig, horisontell text och att `AreasType.LINES` är specificerat. |
+| **Incorrect coordinates** | **Felaktiga koordinater** – Verifiera bildens DPI; lågupplösta bilder kan orsaka inexakta gränser. |
+| **Performance bottleneck on large images** | **Prestandaflaskhals på stora bilder** – Ändra storlek på bilden till en rimlig upplösning innan du anropar `GetRectangles`. |
+| **License exception** | **Licensundantag** – Använd en provlicens för testning; applicera en full licens för produktion för att undvika utvärderingsgränser. |
 
-## Vanliga frågor
+## Frequently Asked Questions
 
-**Q: Kan jag extrahera enskilda ord istället för hela rader?**  
-A: Ja, använd `AreasType.WORDS` med samma `GetRectangles`‑metod för att få ordnivå‑omgivningsrutor.
+**Q: Can I extract individual words instead of whole lines?**  
+A: Ja, använd `AreasType.WORDS` med samma `GetRectangles`‑metod för att få ordnivå‑avgränsningsrutor.
 
-**Q: Stöder API:et flersidiga PDF‑filer?**  
+**Q: Does the API support multi‑page PDFs?**  
 A: Konvertera varje PDF‑sida till en bild först, och anropa sedan `GetRectangles` på varje bild.
 
-**Q: Hur hanterar jag roterad text?**  
+**Q: How do I handle rotated text?**  
 A: Aktivera auto‑roteringsalternativet i OCR‑inställningarna eller förrotera bilden innan bearbetning.
 
-**Q: Finns det ett sätt att få förtroendescore för varje rad?**  
+**Q: Is there a way to get confidence scores for each line?**  
 A: Efter att ha fått rektanglar, anropa `api.RecognizeImage(...).Lines` för att komma åt radobjekt som inkluderar förtroendevärden.
 
-**Q: Vilka .NET‑versioner är kompatibla?**  
-A: Biblioteket fungerar med .NET Framework 4.5+, .NET Core 3.1+, och .NET 5/6.
+**Q: What .NET versions are compatible?**  
+A: Biblioteket fungerar med .NET Framework 4.5+, .NET Core 3.1+ och .NET 5/6.
 
-## Slutsats
+## Real‑World Use Cases
 
-Grattis! Du har framgångsrikt **hämtat OCR‑radrektanglar** för en bild med Aspose.OCR för .NET. Med omgivningsrutorna i handen kan du nu mata radkoaterna in i efterföljande arbetsflöden såsom anpassad rendering, dataextraktion eller layoutanalys.
+- **Document layout analysis OCR** – **Dokumentlayoutanalys OCR** – Mata in linjerektanglar i en layout‑motor för att rekonstruera kolumnstrukturer.  
+- **Automated data extraction** – **Automatiserad dataextraktion** – Använd koordinaterna för att beskära enskilda rader för efterföljande NLP‑pipelines.  
+- **Custom rendering** – **Anpassad rendering** – Överlagra avgränsningsrutor på originalbilden för visuell verifiering eller UI‑överlägg.  
+
+## Conclusion
+
+Grattis! Du har framgångsrikt **hämtat OCR‑linjerektanglar** för en bild med Aspose.OCR för .NET. Med avgränsningsrutorna i handen kan du nu mata in linjekoordinater i efterföljande arbetsflöden såsom anpassad rendering, dataextraktion eller **layoutanalys OCR**.
 
 ---
 
-**Senast uppdaterad:** 2025-12-17  
-**Testad med:** Aspose.OCR 24.11 för .NET  
-**Författare:** Aspose  
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
