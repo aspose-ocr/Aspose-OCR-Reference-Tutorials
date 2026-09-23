@@ -86,6 +86,14 @@ weight: 21
 使用 Aspose.OCR for Java 完整步驟，快速在影像上執行 OCR，提升文字提取效率。
 ### [在 Java 中建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-in-java-step-by-step-guide/)
 逐步說明如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的文件，提升文字檢索與編輯功能。
+### [批次影像 OCR（Java） – 快速從 PNG 檔案提取文字](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+示範如何在 Java 中批次處理 PNG 圖片，使用 Aspose.OCR 高效提取文字。
+### [使用 Aspose OCR 提取圖像文字 – 步驟示範](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+逐步示範如何使用 Aspose OCR 從圖像中提取文字，適用於 Java 開發者。
+### [從掃描檔案建立可搜尋 PDF – Java 教學](./create-searchable-pdf-from-scanned-files-java-guide/)
+使用 Aspose.OCR for Java 從掃描檔案建立可搜尋 PDF，快速提升文件的可搜尋性與編輯性。
+### [移除 Aspose OCR 評估水印 – 完整 Java 授權指南](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+說明如何在 Java 中移除 Aspose OCR 評估水印，完成授權設定並啟用完整功能。
 
 ## 常見問題
 

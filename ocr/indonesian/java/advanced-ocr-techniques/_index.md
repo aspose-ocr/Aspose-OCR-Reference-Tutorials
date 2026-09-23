@@ -85,6 +85,21 @@ Pelajari cara mengenali teks dari gambar secara paralel menggunakan Java dengan 
 ### [Ekstrak Teks dari Gambar Java – Panduan OCR Lengkap dengan Koreksi Ejaan](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Pelajari cara mengekstrak teks dari gambar di Java dengan OCR lengkap serta koreksi ejaan untuk hasil yang akurat.
 
+### [Melakukan OCR pada Gambar dengan Aspose OCR – Panduan Langkah-demi-Langkah Java](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+Ikuti panduan lengkap untuk melakukan OCR pada gambar menggunakan Aspose OCR untuk Java dengan langkah mudah dan akurasi tinggi.
+
+### [Mendeteksi Bahasa pada Gambar dengan Aspose OCR – Tutorial Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
+Deteksi bahasa dalam gambar secara akurat menggunakan Aspose OCR untuk Java. Tingkatkan aplikasi Anda dengan kemampuan multibahasa.
+
+### [Cara Mengaktifkan GPU untuk OCR dan Mengekstrak Teks dari TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+Aktifkan akselerasi GPU pada Aspose.OCR untuk Java dan ekstrak teks dari file TIFF dengan cepat dan akurat.
+
+### [Cara Mengoreksi Kemiringan Gambar untuk OCR – Panduan Pra‑pemrosesan Java Lengkap](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+Aktifkan pra‑pemrosesan gambar dengan membenahi kemiringan untuk OCR menggunakan Aspose.OCR di Java.
+
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Java](./extract-text-from-image-with-aspose-ocr-java-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan Java yang mudah diikuti.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -81,6 +81,14 @@ Kompletní návod, jak pomocí Aspose.OCR v Javě zpracovat více obrázků naje
 Kompletní návod, jak pomocí Aspose.OCR v Javě provést OCR na obrázcích a získat přesný text.
 ### [Vytvoření prohledávatelného PDF v Javě – průvodce krok za krokem](./create-searchable-pdf-in-java-step-by-step-guide/)
 Umožněte snadno převést PDF na prohledávatelný dokument pomocí Aspose.OCR v Javě s podrobným krok‑za‑krokem návodem.
+### [Dávkové OCR obrázků v Javě – Rychlé získání textu z PNG souborů](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Uvolněte sílu dávkového OCR pro PNG soubory v Javě a rychle extrahujte text z mnoha obrázků.
+### [Extrahování textu z obrázku pomocí Aspose OCR – krok za krokem ukázka](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Naučte se, jak pomocí Aspose OCR extrahovat text z obrázku krok za krokem a získat přesné výsledky.
+### [Vytvoření prohledávatného PDF ze skenovaných souborů – Java průvodce](./create-searchable-pdf-from-scanned-files-java-guide/)
+Naučte se převést skenované soubory do prohledávatelných PDF pomocí Aspose.OCR pro Java.
+### [Odstranění zkušebního vodoznaku v Aspose OCR – Kompletní průvodce licencí pro Javu](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Naučte se, jak odstranit evaluační vodoznak a aktivovat plnou verzi Aspose OCR v Javě pomocí licenčního klíče.
 
 ## Často kladené otázky
 

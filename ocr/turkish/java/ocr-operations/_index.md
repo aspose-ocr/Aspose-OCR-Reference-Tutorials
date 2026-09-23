@@ -116,6 +116,18 @@ A: TIFF görüntülerini parçalar halinde işleyin veya bellek kullanımını o
 {{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR ile Görüntü Metni Tanıma – Tam Java OCR Öğreticisi](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Java'da Aspose OCR kullanarak görüntüden metin tanıma sürecini adım adım öğrenin.
+### [Java'da Toplu Görüntü OCR – PNG Dosyalarından Metni Hızlı Çıkarma](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Java kullanarak birden fazla PNG dosyasını toplu olarak OCR ile işleyin ve metni hızlı bir şekilde çıkarın.
+
+### [Aspose OCR ile Görüntü Metni Çıkarma – Adım Adım Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Java'da Aspose OCR kullanarak bir görüntüden metin çıkarma sürecini adım adım gösteren öğretici.
+
+### [Tarama Dosyalarından Aranabilir PDF Oluşturma – Java Rehberi](./create-searchable-pdf-from-scanned-files-java-guide/)
+Java ile taranmış dosyalardan aranabilir PDF oluşturmayı adım adım öğrenin.
+
+### [Aspose OCR'de Değerlendirme Filigranını Kaldırma – Tam Java Lisans Rehberi](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Java uygulamanızda Aspose OCR değerlendirme filigranını kaldırmak ve tam lisansla çalışmak için adım adım kılavuz.
+
 ### [PNG'den Aranabilir PDF Oluşturma – Tam Java Kılavuzu](./create-searchable-pdf-from-png-complete-java-guide/)
 PNG görüntülerinden aranabilir PDF oluşturmayı adım adım gösteren eksiksiz Java rehberi.
 ### [Görüntüden OCR ile Aranabilir PDF Oluşturma – Java Öğreticisi](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)

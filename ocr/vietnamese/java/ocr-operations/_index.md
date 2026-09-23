@@ -85,6 +85,14 @@ Mở khóa khả năng OCR hàng loạt trong Java, giúp bạn trích xuất v�
 Mở khóa khả năng chạy OCR trên hình ảnh trong Java, hướng dẫn chi tiết từ cài đặt đến trích xuất văn bản chính xác.
 ### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn từng bước](./create-searchable-pdf-in-java-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm trong Java, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu thành dạng có thể tìm kiếm.
+### [OCR Hình ảnh Hàng loạt trong Java – Trích xuất Văn bản từ tệp PNG nhanh](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Thực hiện OCR hàng loạt trên các tệp PNG trong Java, nhanh chóng và hiệu quả, giúp trích xuất văn bản từ nhiều hình ảnh cùng lúc.
+### [Trích xuất Văn bản từ Hình ảnh với Aspose OCR – Hướng dẫn Thực hành Từng Bước](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR để trích xuất văn bản từ hình ảnh, bao gồm cấu hình và xuất kết quả chính xác.
+### [Tạo PDF có thể tìm kiếm từ tệp đã quét – Hướng dẫn Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Khám phá cách tạo PDF có thể tìm kiếm từ các tệp đã quét bằng Aspose.OCR cho Java, nhanh chóng và chính xác.
+### [Xóa Đánh Dấu Nước Đánh Giá trong Aspose OCR – Hướng Dẫn Giấy Phép Java Đầy Đủ](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Hướng dẫn chi tiết cách loại bỏ watermark đánh giá trong Aspose OCR bằng giấy phép Java đầy đủ.
 
 ## Câu hỏi Thường gặp
 

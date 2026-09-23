@@ -91,6 +91,17 @@ GPU का उपयोग करके OCR की गति बढ़ाएँ 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [GPU को सक्षम करके OCR और TIFF से टेक्स्ट निकालना](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+GPU का उपयोग करके OCR को तेज़ बनाएं और TIFF फ़ाइलों से सटीक रूप से टेक्स्ट निकालें।
+### [Aspose OCR के साथ छवि पर OCR निष्पादित करना – जावा चरण‑बद्ध गाइड](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+Aspose OCR का उपयोग करके जावा में छवि से सटीक पाठ निकालें। आसान चरण‑बद्ध निर्देशों के साथ तेज़ी से लागू करें।
+### [OCR के लिए इमेज को डेस्क्यू कैसे करें – पूर्ण जावा प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+जावा में OCR के लिए इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, जिससे पाठ पहचान की सटीकता बढ़े।
+### [Aspose OCR के साथ छवि से टेक्स्ट निकालना – जावा गाइड](./extract-text-from-image-with-aspose-ocr-java-guide/)
+Aspose OCR का उपयोग करके जावा में छवि से सटीक टेक्स्ट निकालें। सरल चरण‑बद्ध निर्देशों के साथ तेज़ी से लागू करें।
+### [Aspose OCR के साथ छवि में भाषा का पता लगाएँ – जावा ट्यूटोरियल](./detect-language-image-with-aspose-ocr-java-tutorial/)
+Aspose OCR के साथ जावा में छवि की भाषा पहचानें और सटीक रूप से निकालें। तेज़ और आसान चरण‑बद्ध गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

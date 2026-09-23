@@ -118,6 +118,18 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 {{< blocks/products/products-backtop-button >}}
 ### [Распознавание текста на изображении с Aspose OCR – Полный Java OCR туториал](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
+### [Пакетное OCR изображений в Java – Быстрое извлечение текста из PNG‑файлов](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Быстрое распознавание текста на PNG‑изображениях в Java с помощью Aspose.OCR. Пакетная обработка множества файлов.
+
+### [Извлечение текста из изображения с Aspose OCR – пошаговый демонстрационный туториал](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Пошаговый демонстрационный туториал по извлечению текста из изображений с помощью Aspose OCR.
+
+### [Создание поискового PDF из отсканированных файлов – руководство Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Пошаговый гид по преобразованию отсканированных файлов в searchable PDF с помощью Aspose.OCR для Java.
+
+### [Удаление пробного водяного знака в Aspose OCR – Полное руководство по лицензированию Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Подробное руководство по удалению пробного водяного знака и активации полной лицензии Aspose OCR в Java.
+
 ### [Создание поискового PDF из PNG – Полное руководство Java](./create-searchable-pdf-from-png-complete-java-guide/)
 Создайте поисковый PDF из PNG‑изображения с помощью Aspose.OCR для Java. Полный пошаговый гид.
 ### [Создание поискового PDF из изображения с OCR – Java‑туториал](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)

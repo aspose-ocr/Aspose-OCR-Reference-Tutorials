@@ -84,6 +84,14 @@ Aspose.OCR 로 Java에서 강력한 텍스트 인식을 구현하세요. TIFF �
 여러 이미지를 한 번에 처리하여 텍스트를 추출하는 배치 OCR 방법을 단계별로 안내합니다.
 ### [Java에서 이미지에 OCR 실행 – Aspose OCR 완전 가이드](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Java를 사용해 이미지에서 텍스트를 추출하는 전체 단계별 가이드를 제공합니다.
+### [Java에서 배치 이미지 OCR – PNG 파일의 텍스트를 빠르게 추출](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+여러 PNG 파일을 한 번에 처리하여 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용한 이미지 텍스트 추출 – 단계별 데모](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Aspose OCR을 사용해 이미지에서 텍스트 추출하는 과정을 단계별로 시연합니다.
+### [스캔 파일에서 검색 가능한 PDF 만들기 – Java 가이드](./create-searchable-pdf-from-scanned-files-java-guide/)
+스캔된 파일을 검색 가능한 PDF로 변환하는 단계별 Java 구현 방법을 안내합니다.
+### [Aspose OCR에서 평가 워터마크 제거 – 전체 Java 라이선스 가이드](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Aspose OCR의 평가 워터마크를 제거하고 정식 라이선스를 적용하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

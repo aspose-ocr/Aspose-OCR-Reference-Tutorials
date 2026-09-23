@@ -85,6 +85,14 @@ Scopri come elaborare più immagini in batch con Aspose.OCR per Java, ottimizzan
 Scopri come eseguire OCR su immagini con Java usando Aspose.OCR, con istruzioni passo‑passo per risultati rapidi e precisi.
 ### [Creare PDF ricercabile in Java – Guida passo‑passo](./create-searchable-pdf-in-java-step-by-step-guide/)
 Crea un PDF ricercabile in Java con Aspose.OCR, seguendo una guida passo‑passo per trasformare i documenti scansionati in file ricercabili.
+### [OCR di immagini batch in Java – Estrai testo da file PNG rapidamente](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Esegui OCR su più file PNG in modo rapido ed efficiente con Aspose.OCR per Java, ottimizzando il throughput delle tue applicazioni.
+### [Estrai testo da un'immagine con Aspose OCR – Demo passo‑passo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Scopri come estrarre testo da un'immagine usando Aspose OCR in una dimostrazione dettagliata passo‑passo.
+### [Crea PDF Ricercabile da File Scansionati – Guida Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Impara a trasformare file PDF scansionati in PDF ricercabili usando Aspose.OCR per Java.
+### [Rimuovere la filigrana di valutazione in Aspose OCR – Guida completa alla licenza Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Scopri come eliminare la filigrana di valutazione da Aspose OCR in Java e attivare la licenza completa per rimuovere limitazioni.
 
 ## Domande Frequenti
 

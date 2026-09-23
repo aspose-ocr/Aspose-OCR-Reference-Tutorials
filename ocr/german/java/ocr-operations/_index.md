@@ -57,6 +57,9 @@ Keine mühsame PDF‑Textextraktion mehr. Tauchen Sie in das Tutorial ein und r�
 
 [Get Started with PDF Recognition](./recognize-pdf/)
 
+### [Durchsuchbares PDF aus gescannten Dateien erstellen – Java‑Leitfaden](./create-searchable-pdf-from-scanned-files-java-guide/)
+Erfahren Sie, wie Sie gescannte PDFs in durchsuchbare Dokumente umwandeln und mit Aspose.OCR für Java optimieren.
+
 ## OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java
 Erleben Sie die nächste Stufe der Texterkennung in Java mit Aspose.OCR. Unser Tutorial zur Erkennung von Text in TIFF‑Bildern ist darauf ausgelegt, den Prozess für Sie mühelos zu gestalten. Laden Sie jetzt herunter für ein nahtloses OCR‑Erlebnis und erleben Sie die Präzision und Geschwindigkeit, die Aspose.OCR bietet.
 
@@ -81,6 +84,12 @@ Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize
 Erfahren Sie, wie Sie mehrere Bilder in Java per Batch verarbeiten und Text effizient extrahieren.
 ### [OCR auf Bild mit Java – Vollständige Aspose OCR Anleitung](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Führen Sie OCR auf Bildern mit Java aus – ein umfassender Leitfaden zur Nutzung von Aspose OCR.
+### [Batch-Bild-OCR in Java – Text schnell aus PNG-Dateien extrahieren](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Schnelles Batch-OCR für PNG-Bilder in Java – extrahieren Sie Text aus vielen Dateien effizient.
+### [Bildtext mit Aspose OCR extrahieren – Schritt‑für‑Schritt‑Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Ein praktisches Demo‑Tutorial, das die schrittweise Extraktion von Text aus Bildern mit Aspose OCR zeigt.
+### [Entfernen des Evaluationswasserzeichens in Aspose OCR – Vollständiger Java‑Lizenzleitfaden](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Erfahren Sie, wie Sie das Evaluations‑Wasserzeichen entfernen und Ihre Lizenz für Aspose OCR in Java vollständig aktivieren.
 
 ## Häufig gestellte Fragen
 

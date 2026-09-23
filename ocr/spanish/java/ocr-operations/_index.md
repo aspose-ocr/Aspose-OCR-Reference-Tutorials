@@ -86,6 +86,14 @@ Aprende a procesar múltiples imágenes con OCR en Java, extrayendo texto de for
 Aprende a ejecutar OCR en imágenes usando Java con Aspose OCR, paso a paso para obtener resultados precisos y eficientes.
 ### [Crear PDF buscable en Java – Guía paso a paso](./create-searchable-pdf-in-java-step-by-step-guide/)
 Aprende a crear PDFs buscables en Java con Aspose.OCR paso a paso.
+### [OCR por lotes de imágenes en Java – Extraer texto de archivos PNG rápido](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Desbloquea la extracción rápida de texto de múltiples archivos PNG usando Aspose.OCR en Java.
+### [Extraer texto de imagen con Aspose OCR – Demo paso a paso](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Aprende a extraer texto de imágenes usando Aspose OCR en Java con una demostración paso a paso.
+### [Crear PDF buscable a partir de archivos escaneados – Guía Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Aprende a generar PDFs buscables a partir de documentos escaneados usando Aspose.OCR en Java.
+### [Eliminar marca de agua de evaluación en Aspose OCR – Guía completa de licencia Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Desbloquea la eliminación de la marca de agua de evaluación en Aspose OCR con una guía completa de licencia para Java.
 
 ## Preguntas frecuentes
 

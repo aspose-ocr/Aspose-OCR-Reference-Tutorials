@@ -85,6 +85,14 @@ Apprenez à générer des PDF consultables en Java avec Aspose.OCR grâce à un 
 Débloquez une puissante reconnaissance de texte en Java avec Aspose.OCR. Reconnaissez le texte dans les images TIFF sans effort. Téléchargez dès maintenant pour une expérience OCR fluide.
 ### [Comment effectuer un OCR par lots en Java – Guide complet pour extraire du texte d'images](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
 Apprenez à traiter plusieurs images en une seule opération OCR avec Aspose.OCR pour Java. Guide complet pour extraire du texte efficacement.
+### [OCR d'images par lots en Java – Extraire rapidement du texte depuis des fichiers PNG](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Apprenez à traiter rapidement de multiples fichiers PNG avec Aspose.OCR en Java pour extraire le texte efficacement.
+### [Extraire du texte d'image avec Aspose OCR – Démonstration pas à pas](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Apprenez à extraire du texte d’une image en Java avec Aspose OCR grâce à ce guide détaillé pas à pas.
+### [Créer un PDF consultable à partir de fichiers numérisés – Guide Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Apprenez à transformer des fichiers numérisés en PDF consultable avec Aspose.OCR pour Java grâce à ce guide complet.
+### [Supprimer le filigrane d'évaluation dans Aspose OCR – Guide complet de licence Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Apprenez à éliminer le filigrane d'évaluation d'Aspose OCR en Java et à activer votre licence pour des résultats sans restrictions.
 
 ## Foire aux questions
 

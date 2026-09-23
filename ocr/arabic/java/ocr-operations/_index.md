@@ -83,6 +83,13 @@ weight: 21
 دليل شامل لتطبيق OCR على الصور باستخدام Aspose OCR للـ Java، يغطي الإعدادات والبرمجة خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث في Java – دليل خطوة بخطوة](./create-searchable-pdf-in-java-step-by-step-guide/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [Extract Text from Image with Aspose OCR – Step‑by‑Step Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+اكتشف كيفية استخراج النص من الصور باستخدام Aspose OCR خطوة بخطوة مع مثال عملي.
+### [إنشاء PDF قابل للبحث من ملفات ممسوحة ضوئيًا – دليل Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+تعلم كيفية تحويل ملفات PDF الممسوحة ضوئيًا إلى مستندات قابلة للبحث باستخدام Aspose.OCR للـ Java.
+### [معالجة OCR للصور دفعيًا في Java – استخراج النص من ملفات PNG بسرعة](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+### [إزالة علامة التقييم المائية في Aspose OCR – دليل الترخيص الكامل للـ Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+دليل شامل لإزالة علامة التقييم المائية من Aspose OCR باستخدام ترخيص Java الكامل.
 
 ## الأسئلة المتكررة
 
