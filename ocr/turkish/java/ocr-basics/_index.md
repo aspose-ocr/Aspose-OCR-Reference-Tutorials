@@ -110,6 +110,7 @@ Java uygulamanızda OCR özelliğini nasıl etkinleştireceğinizi adım adım �
 Aspose OCR kullanarak Tamil dilindeki metni görüntülerden nasıl çıkaracağınızı adım adım öğrenin.
 ### [Aspose.OCR ile Java’da Görüntüden Metin Çıkarma – Tam OCR Örneği](./extract-text-from-image-in-java-complete-ocr-example/)
 Aspose.OCR kullanarak Java’da tam bir OCR örneğiyle görüntüden metin çıkarın ve sonuçları yönetin.
+### [Java’da kaynak yolu nasıl alınır ve indirme klasörü nasıl ayarlanır](./how-to-get-resources-path-java-and-set-download-folder/)
 
 ---
 

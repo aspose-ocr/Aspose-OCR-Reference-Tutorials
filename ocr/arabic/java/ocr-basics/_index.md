@@ -110,6 +110,8 @@ weight: 20
 تعلم كيفية استخراج النص التاميل من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [استخراج النص من الصورة في Java – مثال OCR كامل](./extract-text-from-image-in-java-complete-ocr-example/)
 مثال كامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
+### [كيفية الحصول على مسار الموارد في Java وتعيين مجلد التنزيل](./how-to-get-resources-path-java-and-set-download-folder/)
+تعلم كيفية الحصول على مسار الموارد في Java وتحديد مجلد التحميل للملفات.
 
 ---
 

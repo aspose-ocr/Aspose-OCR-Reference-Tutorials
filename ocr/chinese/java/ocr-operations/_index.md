@@ -84,6 +84,8 @@ weight: 21
 使用 Aspose.OCR for Java 对图像执行完整的 OCR 过程，涵盖设置、语言选择和结果提取的详细步骤。
 ### [在 Java 中创建可搜索 PDF – 步骤指南](./create-searchable-pdf-in-java-step-by-step-guide/)
 使用 Aspose.OCR for Java，逐步将 PDF 转换为可搜索的文档，实现全文检索。
+### [在 C# 中下载所有资源和语言包 – 完整指南](./download-all-resources-and-language-packs-in-c-complete-guid/)
+提供在 C# 中下载所有资源和语言包的完整指南。
 
 ## 常见问题
 
@@ -124,3 +126,5 @@ A: 将 TIFF 图像分块处理或使用多线程，以保持内存使用的最�
 使用 Aspose.OCR for Java 批量处理图像并提取文本，提高效率并保持高准确率。
 ### [使用 Aspose OCR 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 
+
+{{< /blocks/products/products-backtop-button >}}

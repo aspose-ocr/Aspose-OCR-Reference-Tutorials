@@ -120,6 +120,9 @@ Aprende a extraer texto en tamil de imágenes usando Aspose OCR con esta guía p
 ### [Extraer texto de una imagen en Java – Ejemplo completo de OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Ejemplo completo que muestra cómo extraer texto de imágenes usando Aspose.OCR en Java, paso a paso.
 
+### [Cómo obtener la ruta de recursos en Java y establecer la carpeta de descarga](./how-to-get-resources-path-java-and-set-download-folder/)
+Aprende a localizar la ruta de recursos en Java y a configurar la carpeta de descarga para tus aplicaciones.
+
 ---
 
 **Última actualización:** 2025-12-08  

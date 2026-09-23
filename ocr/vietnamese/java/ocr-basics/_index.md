@@ -111,6 +111,8 @@ Kích hoạt OCR trong Java nhanh chóng với hướng dẫn chi tiết, giúp 
 Khám phá cách sử dụng Aspose OCR để nhận dạng và trích xuất văn bản Tamil từ hình ảnh một cách chính xác và nhanh chóng.
 ### [Trích xuất văn bản từ hình ảnh trong Java – Ví dụ OCR hoàn chỉnh](./extract-text-from-image-in-java-complete-ocr-example/)
 Hướng dẫn đầy đủ cách sử dụng Aspose.OCR để trích xuất văn bản từ hình ảnh trong Java, bao gồm cài đặt, tiền xử lý và tối ưu độ chính xác.
+### [Cách lấy đường dẫn tài nguyên trong Java và thiết lập thư mục tải xuống](./how-to-get-resources-path-java-and-set-download-folder/)
+Hướng dẫn cách xác định đường dẫn tài nguyên trong Java và cấu hình thư mục tải về cho ứng dụng.
 
 ---
 

@@ -125,4 +125,4 @@ Hướng dẫn chi tiết cách chuyển đổi ảnh thành PDF có thể tìm 
 Mở khóa khả năng chuyển đổi hàng loạt hình ảnh thành văn bản bằng OCR trong Java, tăng năng suất và độ chính xác.
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu.
-
+### [Tải xuống tất cả tài nguyên và gói ngôn ngữ trong C# – hướng dẫn đầy đủ](./download-all-resources-and-language-packs-in-c-complete-guid/)

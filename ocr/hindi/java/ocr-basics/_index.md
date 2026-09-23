@@ -120,7 +120,7 @@ Java में Aspose.OCR को सक्रिय करने के चर�
 
 ### [इमेज‑टू‑टेक्स्ट ट्यूटोरियल – Aspose OCR के साथ तमिल टेक्स्ट निकालें](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 ### [Java में इमेज से टेक्स्ट निकालें – पूर्ण OCR उदाहरण](./extract-text-from-image-in-java-complete-ocr-example/)
-Java में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया देखें।
+### [Java में रिसोर्सेज़ पाथ कैसे प्राप्त करें और डाउनलोड फ़ोल्डर सेट करें](./how-to-get-resources-path-java-and-set-download-folder/)
 
 ---
 

@@ -81,6 +81,8 @@ Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize
 Erfahren Sie, wie Sie mehrere Bilder in Java per Batch verarbeiten und Text effizient extrahieren.
 ### [OCR auf Bild mit Java – Vollständige Aspose OCR Anleitung](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Führen Sie OCR auf Bildern mit Java aus – ein umfassender Leitfaden zur Nutzung von Aspose OCR.
+### [Alle Ressourcen und Sprachpakete in C# herunterladen – vollständige Anleitung](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Laden Sie alle benötigten Ressourcen und Sprachpakete für Aspose OCR in C# herunter – Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 
@@ -121,4 +123,3 @@ Erstellen Sie ein durchsuchbares PDF aus einem Bild mithilfe von OCR in Java. Sc
 Erfahren Sie, wie Sie mehrere Bilder in Java stapelweise in Text umwandeln und OCR effizient verarbeiten.
 ### [Durchsuchbares PDF mit Aspose OCR erstellen – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Erstellen Sie ein durchsuchbares PDF mit Aspose OCR. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für einfache Umsetzung.
-

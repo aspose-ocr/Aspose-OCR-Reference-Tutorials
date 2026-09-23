@@ -82,6 +82,8 @@ Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize
 Learn how to batch process images with Aspose.OCR for Java, extracting text efficiently from multiple files in a single workflow.
 ### [Run OCR on Image with Java – Complete Aspose OCR Guide](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Step‑by‑step guide to run OCR on images using Aspose.OCR for Java, covering setup, configuration, and best practices.
+### [Download all resources and language packs in C# – complete guide](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Download all Aspose OCR resources and language packs for C# in one comprehensive guide.
 
 ## Frequently Asked Questions
 
@@ -135,4 +137,3 @@ Convert PNG images into searchable PDFs with Aspose.OCR for Java in a few simple
 
 ### [Create searchable PDF from image with OCR – java tutorial]({{< relref "create-searchable-pdf-from-image-with-ocr-java-tutorial" >}})
 Convert images into searchable PDFs using Aspose.OCR for Java in a few simple steps.
-

@@ -85,6 +85,8 @@ Odblokuj moc przetwarzania wsadowego obrazów w Javie z Aspose.OCR, aby szybko w
 Odblokuj pełną moc OCR na obrazach w Javie z Aspose.OCR, uzyskaj szybkie i dokładne wyniki rozpoznawania tekstu.
 ### [Tworzenie przeszukiwalnego PDF w Javie – przewodnik krok po kroku](./create-searchable-pdf-in-java-step-by-step-guide/)
 Dowiedz się, jak w kilku krokach przekształcić dokument PDF w przeszukiwalny plik przy użyciu Aspose.OCR dla Javy.
+### [Pobierz wszystkie zasoby i pakiety językowe w C# – kompletny przewodnik](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Kompletny przewodnik, jak pobrać wszystkie zasoby i pakiety językowe dla Aspose w C#.
 
 ## Najczęściej zadawane pytania
 
@@ -127,4 +129,3 @@ Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić obraz w przeszu
 Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspose.OCR w Javie.
 ### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
-
