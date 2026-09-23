@@ -43,6 +43,9 @@ Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn
 
 Bạn đã sẵn sàng cách mạng hóa các ứng dụng .NET của mình chưa? Đi sâu vào Hướng dẫn nhận dạng văn bản của chúng tôi và khai thác sức mạnh của Aspose.OCR để nhận dạng văn bản chính xác và hiệu quả trong hình ảnh. Tải xuống ngay bây giờ và bắt đầu hành trình nâng cao khả năng OCR.
 ## Hướng dẫn nhận dạng văn bản
+### [How to extract text from image using Aspose.OCR in C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+
+
 ### [Nhận lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh OCR](./get-choices-for-recognized-characters/)
 Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để nhận dạng ký tự chính xác. Làm theo hướng dẫn từng bước của chúng tôi để truy xuất các lựa chọn cho các ký tự được nhận dạng trong nhận dạng hình ảnh.
 ### [Nhận kết quả nhận dạng trong nhận dạng hình ảnh OCR](./get-recognition-result/)

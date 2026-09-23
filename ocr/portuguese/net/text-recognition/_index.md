@@ -112,6 +112,8 @@ Aprenda a processar em lote múltiplas imagens PNG usando Aspose OCR em C#. Guia
 Aprenda a usar o Aspose.OCR para executar OCR em C# com este guia passo a passo.
 ### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a criar PDFs pesquisáveis usando Aspose OCR com este guia passo a passo.
+### [Como extrair texto de imagem usando Aspose.OCR em C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Aprenda a extrair texto de imagens usando Aspose.OCR em C# com um guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -150,8 +152,8 @@ Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose.OCR com C#
 ### [Converter Imagens em Texto – Guia Completo de OCR em Lote para Desenvolvedores C#](./convert-images-to-text-complete-batch-ocr-guide-for-c-develo/)
 Aprenda a converter múltiplas imagens em texto usando OCR em lote com C#, passo a passo.
 ### [Como fazer OCR de PDF em C# – Guia passo a passo](./how-to-ocr-pdf-in-c-step-by-step-guide/)
-Aprenda a usar Aspose.OCR em C# para fazer OCR de PDFs passo a passo, extraindo texto com facilidade.
-### [Tutorial c# OCR – Extrair Texto em Hindi de Recibos PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
+Aprenda a usar Aspose.OCR em C# para fazer OCR de PDFs passo a passo, extrair texto com facilidade.
+### [Tutorial c# OCR – Extrair Texto de Hindi de Recibos PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
 Aprenda a usar Aspose.OCR em C# para extrair texto em Hindi de imagens PNG de recibos, passo a passo.
 ### [Extrair Texto de PNG – Tutorial Completo Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
 Aprenda passo a passo a extrair texto de imagens PNG usando Aspose OCR, cobrindo configuração e extração de texto.
