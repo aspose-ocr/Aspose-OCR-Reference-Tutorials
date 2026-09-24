@@ -64,6 +64,8 @@ Capai akurasi OCR yang tak tertandingi dengan [Aspose.OCR for .NET](./result-cor
 
 Simpan hasil OCR multipage sebagai dokumen dengan mudah menggunakan Aspose.OCR untuk .NET. [Panduan langkah demi langkah](./save-multipage-result-as-document/) kami membuka potensi penuh pembuatan dokumen. Integrasikan Aspose.OCR secara mulus dan ubah hasil OCR Anda menjadi dokumen multipage dengan mudah.
 
+Dengan Daftar Tutorial Aspose.OCR untuk .NET, Anda dapat mengakses sumber daya tambahan dan tetap terbarui dengan kemajuan terbaru dalam optimisasi OCR. Menyelami dunia presisi dan efisiensi dengan tutorial Aspose.OCR untuk .NET.
+
 ## Tutorial Optimisasi OCR
 
 
@@ -82,8 +84,6 @@ Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan Aspose.OCR dala
 Pelajari teknik meningkatkan akurasi OCR menggunakan Aspose OCR dalam proyek C# Anda.
 ### [Cara Async OCR di C# – Panduan Lengkap Langkah demi Langkah](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Pelajari cara melakukan OCR secara asinkron di C# dengan Aspose.OCR, meningkatkan kinerja aplikasi Anda dengan contoh langkah demi langkah.
-### [Cara OCR Gambar dengan Aspose OCR – Panduan C# yang Dipercepat GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
-Pelajari cara mengoptimalkan OCR gambar menggunakan GPU dengan C#, meningkatkan kecepatan dan akurasi secara signifikan.
 
 ## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 
@@ -126,6 +126,9 @@ Jelajahi Aspose.OCR untuk .NET. Tingkatkan akurasi OCR dengan filter pra-pemrose
 Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET. Perbaiki ejaan, sesuaikan kamus, dan dapatkan pengenalan teks bebas kesalahan dengan mudah.
 ### [Simpan Hasil Multihalaman sebagai Dokumen dalam Pengenalan Gambar OCR](./save-multipage-result-as-document/)
 Buka potensi Aspose.OCR untuk .NET. Simpan hasil OCR multi halaman dengan mudah sebagai dokumen dengan panduan langkah demi langkah yang komprehensif ini.
+### [Cara OCR Gambar dengan Aspose OCR – Panduan C# yang Dipercepat GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Pelajari cara mengoptimalkan OCR gambar menggunakan GPU dengan C#, meningkatkan kecepatan dan akurasi secara signifikan.
+
 ### [Cara Menggunakan Aspose OCR dengan GPU – Panduan Langkah‑per‑Langkah](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 Pelajari cara memanfaatkan GPU untuk meningkatkan kinerja Aspose OCR dengan panduan langkah demi langkah.
 ### [Pra-pemrosesan OCR Gambar di C# – Panduan Lengkap dengan Filter](./preprocess-image-ocr-in-c-complete-guide-with-filters/)

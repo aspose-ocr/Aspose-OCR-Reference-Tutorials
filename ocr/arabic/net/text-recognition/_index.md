@@ -55,7 +55,7 @@ url: /ar/net/text-recognition/
 ### [تحويل الصورة إلى JSON باستخدام Aspose OCR بلغة C#](./convert-image-to-json-with-aspose-ocr-c-guide/)
 تعلم كيفية تحويل الصور إلى تنسيق JSON بسهولة باستخدام Aspose OCR مع C# لتعزيز قدرات التعرف الضوئي على الحروف.
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
-قم بتحسين تطبيقات .NET الخاصة لك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
+قم بتحسين تطبيقات .NET الخاصة بك باستخدام Aspose.OCR للتعرف الفعال على نص الصورة. استكشف وضع مناطق اكتشاف التعرف الضوئي على الحروف (OCR) للحصول على نتائج دقيقة.
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [إنشاء ملف PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
@@ -66,6 +66,24 @@ url: /ar/net/text-recognition/
 
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
 أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
+### [إجراء التعرف الضوئي على الحروف في صورة باستخدام C# – دليل Aspose OCR الكامل](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على الحروف للصور باستخدام C# مع Aspose OCR خطوة بخطوة.
+
+### [كيفية التعرف على اللغة الهندية من الصور في C# – دليل خطوة بخطوة](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+تعلم كيفية استخدام Aspose.OCR لـ .NET للتعرف على النص الهندي في الصور خطوة بخطوة وتعزيز تطبيقاتك.
+
+### [إنشاء PDF قابل للبحث في C# – تحويل TIFF إلى PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+تعلم كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+
+### [تشغيل التعرف الضوئي على الحروف في صورة باستخدام Aspose OCR – دليل C# كامل](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+تعلم كيفية تشغيل التعرف الضوئي على الحروف للصور باستخدام C# مع Aspose OCR خطوة بخطوة.
+
+### [كيف تقوم بعملية OCR دفعة لملفات في C# – مثال كامل للكود](./how-to-batch-ocr-files-in-c-full-code-example/)
+تعلم كيفية معالجة ملفات متعددة باستخدام OCR في C# مع مثال كامل للكود باستخدام Aspose.OCR.
+
+### [كيفية تنفيذ التعرف الضوئي على الحروف في C# – دليل تحويل الصورة إلى JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+تعلم خطوة بخطوة تحويل صورة إلى تنسيق JSON باستخدام Aspose.OCR في C#.
+
 ### [كيفية استخدام OCR في C# – التعرف على النص من الصورة بسرعة](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
 تعلم خطوة بخطوة كيفية استخدام Aspose.OCR في C# لاستخراج النص من الصور بسرعة وكفاءة.
 
@@ -130,18 +148,6 @@ url: /ar/net/text-recognition/
 تعلم خطوة بخطوة استخراج بيانات الإيصال باستخدام OCR وRegex في C# لتحسين معالجة الفواتير.
 ### [كيفية إجراء OCR على الصور العربية – استخراج النص في C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 تعلم خطوة بخطوة كيفية استخراج النص من الصور العربية باستخدام Aspose.OCR في C# بسهولة ودقة.
-### [إجراء التعرف الضوئي على الحروف في صورة باستخدام C# – دليل Aspose OCR الكامل](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
-تعلم كيفية تنفيذ التعرف الضوئي على الحروف للصور باستخدام C# مع Aspose OCR خطوة بخطوة.
-### [كيفية التعرف على اللغة الهندية من الصور في C# – دليل خطوة بخطوة](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
-تعلم كيفية استخدام Aspose.OCR لـ .NET للتعرف على النص الهندي في الصور خطوة بخطوة وتعزيز تطبيقاتك.
-### [إنشاء PDF قابل للبحث في C# – تحويل TIFF إلى PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
-تعلم كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
-### [تشغيل التعرف الضوئي على الحروف في صورة باستخدام Aspose OCR – دليل C# كامل](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
-تعلم كيفية تشغيل التعرف الضوئي على الحروف للصور باستخدام C# مع Aspose OCR خطوة بخطوة.
-### [كيف تقوم بعملية OCR دفعة لملفات في C# – مثال كامل للكود](./how-to-batch-ocr-files-in-c-full-code-example/)
-تعلم كيفية معالجة ملفات متعددة باستخدام OCR في C# مع مثال كامل للكود باستخدام Aspose.OCR.
-### [كيفية تنفيذ التعرف الضوئي على الحروف في C# – دليل تحويل الصورة إلى JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
-تعلم خطوة بخطوة تحويل صورة إلى تنسيق JSON باستخدام Aspose.OCR في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

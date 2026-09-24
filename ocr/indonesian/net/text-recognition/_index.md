@@ -48,15 +48,31 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang a
 ### [Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR](./get-recognition-result/)
 Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks tanpa hambatan dalam gambar.
 ### [Dapatkan Hasil sebagai JSON dalam Pengenalan Gambar OCR](./get-result-as-json/)
-Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dalam format JSON dengan mudah. Tingkatkan pengenalan gambar Anda dengan panduan langkah demi langkah.
+Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dalam format JSON dengan mudah. Tingkatkan pengenalan gambar Anda dengan panduan langkah demi langkah ini.
 ### [Cara Melakukan OCR di C# – Panduan Mengonversi Gambar ke JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Pelajari cara melakukan OCR pada gambar di C# dan mengonversi hasilnya ke format JSON dengan panduan langkah demi langkah.
+
 ### [Mode Deteksi Area OCR dalam Pengenalan Gambar OCR](./ocr-detect-areas-mode/)
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)
 Buka potensi OCR di .NET dengan Aspose.OCR. Ekstrak teks dari PDF dengan mudah. Unduh sekarang untuk pengalaman integrasi yang lancar.
 ### [Kenali Tabel dalam Pengenalan Gambar OCR](./recognize-table/)
 Buka potensi Aspose.OCR untuk .NET dengan panduan komprehensif kami tentang mengenali tabel dalam pengenalan gambar OCR.
+### [Cara Mengenali Bahasa Hindi dari Gambar di C# – Panduan Langkah‑demi‑Langkah](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengenali teks Hindi dalam gambar dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Buat PDF yang Dapat Dicari di C# – Konversi TIFF ke PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+Pelajari cara mengonversi file TIFF menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C#.
+
+### [Lakukan OCR pada Gambar di C# – Panduan Lengkap Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+Pelajari cara melakukan OCR pada gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+
+### [Jalankan OCR pada Gambar dengan Aspose OCR – Panduan Lengkap C#](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Pelajari cara menjalankan OCR pada gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+
+### [Cara melakukan batch OCR file di C# – Contoh Kode Lengkap](./how-to-batch-ocr-files-in-c-full-code-example/)
+Pelajari cara memproses banyak file OCR sekaligus di C# dengan contoh kode lengkap untuk meningkatkan efisiensi aplikasi Anda.
+
 ### [Cara menggunakan OCR di C# – Mengenali Teks dari Gambar dengan Cepat](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
 Pelajari cara cepat menggunakan OCR di C# untuk mengekstrak teks dari gambar dalam beberapa langkah sederhana.
 
@@ -123,16 +139,6 @@ Pelajari cara memproses banyak gambar PNG secara batch menggunakan Aspose OCR da
 Panduan lengkap melakukan OCR di C# dengan Aspose.OCR, langkah demi langkah untuk hasil yang akurat.
 ### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Panduan lengkap membuat PDF yang dapat dicari menggunakan Aspose OCR dengan langkah‑langkah mudah.
-### [Cara Mengenali Bahasa Hindi dari Gambar di C# – Panduan Langkah‑demi‑Langkah](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
-Pelajari cara menggunakan Aspose.OCR di C# untuk mengenali teks Hindi dalam gambar dengan panduan langkah demi langkah yang mudah diikuti.
-### [Buat PDF yang Dapat Dicari di C# – Konversi TIFF ke PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
-Pelajari cara mengonversi file TIFF menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C#.
-### [Lakukan OCR pada Gambar di C# – Panduan Lengkap Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
-Pelajari cara melakukan OCR pada gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
-### [Jalankan OCR pada Gambar dengan Aspose OCR – Panduan Lengkap C#](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
-Pelajari cara menjalankan OCR pada gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
-### [Cara melakukan batch OCR file di C# – Contoh Kode Lengkap](./how-to-batch-ocr-files-in-c-full-code-example/)
-Pelajari cara memproses banyak file OCR sekaligus di C# dengan contoh kode lengkap untuk meningkatkan efisiensi aplikasi Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
