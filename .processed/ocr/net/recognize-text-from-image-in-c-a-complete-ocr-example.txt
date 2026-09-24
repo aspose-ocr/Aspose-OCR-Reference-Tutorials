@@ -1,0 +1,7 @@
+Title: recognize text from image in C# – a complete OCR example
+Slug: recognize-text-from-image-in-c-a-complete-ocr-example
+Category: text-recognition
+ProcessedDate: 2026-06-19T14:51:06.258816
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from jpg, c# ocr example, read text from image file, set ocr language
+PRNumber: 148

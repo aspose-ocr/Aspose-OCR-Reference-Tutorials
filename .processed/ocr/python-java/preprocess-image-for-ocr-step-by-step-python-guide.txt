@@ -1,0 +1,7 @@
+Title: Preprocess Image for OCR – Step‑by‑Step Python Guide
+Slug: preprocess-image-for-ocr-step-by-step-python-guide
+Category: general
+ProcessedDate: 2026-06-22T20:34:57.916467
+SourceRepo: AI Search API
+Keywords: preprocess image for ocr, extract text from image, improve ocr accuracy
+PRNumber: 155

@@ -1,0 +1,7 @@
+Title: How to run OCR on image with Aspose OCR and boost accuracy
+Slug: how-to-run-ocr-on-image-with-aspose-ocr-and-boost-accuracy
+Category: general
+ProcessedDate: 2026-09-23T02:35:21.405313
+SourceRepo: AI Search API
+Keywords: run ocr on image, extract text from invoice, improve ocr accuracy, configure ocr model
+PRNumber: 227

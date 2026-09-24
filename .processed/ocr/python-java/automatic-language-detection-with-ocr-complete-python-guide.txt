@@ -1,0 +1,7 @@
+Title: Automatic Language Detection with OCR – Complete Python Guide
+Slug: automatic-language-detection-with-ocr-complete-python-guide
+Category: general
+ProcessedDate: 2026-05-31T21:16:18.334982
+SourceRepo: AI Search API
+Keywords: automatic language detection, recognize text image, load image ocr, enable auto language detection, detect language ocr
+PRNumber: 138

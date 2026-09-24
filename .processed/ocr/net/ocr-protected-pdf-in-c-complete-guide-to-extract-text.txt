@@ -1,0 +1,7 @@
+Title: OCR protected pdf in C# – Complete Guide to Extract Text
+Slug: ocr-protected-pdf-in-c-complete-guide-to-extract-text
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:47:14.375496
+SourceRepo: AI Search API
+Keywords: ocr protected pdf, recognize pdf text, convert pdf to text, read password pdf, extract text encrypted pdf
+PRNumber: 140

@@ -79,8 +79,20 @@ Odblokuj precyzyjne wyodrębnianie tekstu z obrazów przy użyciu Aspose.OCR dla
 Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez wysiłku. Zwiększ swoje aplikacje dzięki precyzji i szybkości.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
-### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Jak wykonać wsadowe OCR w Javie – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Odblokuj moc przetwarzania wsadowego obrazów w Javie z Aspose.OCR, aby szybko wyodrębnić tekst z wielu plików.
+### [Uruchom OCR na obrazie w Javie – Kompletny przewodnik Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Odblokuj pełną moc OCR na obrazach w Javie z Aspose.OCR, uzyskaj szybkie i dokładne wyniki rozpoznawania tekstu.
+### [Tworzenie przeszukiwalnego PDF w Javie – przewodnik krok po kroku](./create-searchable-pdf-in-java-step-by-step-guide/)
+Dowiedz się, jak w kilku krokach przekształcić dokument PDF w przeszukiwalny plik przy użyciu Aspose.OCR dla Javy.
+### [Batch OCR obrazów w Javie – szybkie wyodrębnianie tekstu z plików PNG](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Szybko przetwarzaj wiele plików PNG w Javie, wykorzystując Aspose.OCR do masowego wyodrębniania tekstu.
+### [Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – krok po kroku demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Szczegółowy przewodnik, jak wyodrębnić tekst z obrazu przy użyciu Aspose OCR w Javie, krok po kroku.
+### [Tworzenie przeszukiwalnego PDF z zeskanowanych plików – przewodnik Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić zeskanowane pliki w przeszukiwalne PDF, zwiększając dostępność i edytowalność dokumentów.
+### [Usuwanie znaku wodnego wersji ewaluacyjnej w Aspose OCR – Kompletny przewodnik licencyjny Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Kompletny przewodnik, jak usunąć znak wodny wersji ewaluacyjnej w Aspose OCR w Javie, korzystając z licencji.
 
 ## Najczęściej zadawane pytania
 
@@ -113,3 +125,14 @@ A: Przetwarzaj obrazy TIFF w partiach lub używaj wielowątkowości, aby utrzyma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Utwórz przeszukiwalny PDF z PNG – Kompletny przewodnik Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Dowiedz się, jak przekształcić obrazy PNG w przeszukiwalne pliki PDF przy użyciu Aspose.OCR w Javie.
+### [Create Searchable PDF from Image with OCR – Java Tutorial](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić obraz w przeszukiwalny plik PDF.
+### [Konwertowanie obrazów na tekst w Javie – Przewodnik przetwarzania wsadowego OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspose.OCR w Javie.
+### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
+

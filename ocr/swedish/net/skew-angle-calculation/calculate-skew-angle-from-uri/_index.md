@@ -1,7 +1,8 @@
 ---
-date: 2025-12-30
+date: 2026-03-02
 description: Lär dig hur du använder OCR med Aspose.OCR för .NET för att beräkna snedvinklar
-  från en URI, vilket möjliggör exakt bildrotationsdetektering och förbättrad igenkänningsnoggrannhet.
+  från en URI, vilket hjälper dig att automatiskt rotera bilder, förbättra OCR‑noggrannheten
+  och möjliggöra batch‑OCR‑behandling.
 linktitle: How to Use OCR – Calculate Skew Angle from URI
 second_title: Aspose.OCR .NET API
 title: Hur man använder OCR – Beräkna snedvinkel från URI
@@ -17,30 +18,28 @@ weight: 12
 
 ## Introduktion
 
-Om du letar efter **how to use OCR** ​​för att förbättra dokumentbehandling, visar den här handledningen exakt det. Vi går igenom hur du använder Aspose.OCR för .NET för att beräkna snedvinkeln på en bild direkt från en URI. Att förstå snedvinkeln hjälper dig att **bestämma bildrotationsvinkel**, vilket leder till renare textdragning och högre OCR‑noggrannhet.
-
 ## Snabba svar
-- **What does “calculate skew” mean?** Det mäter rotationen av en bild så att OCR kan räta upp den innan textutdragning.
-- **Vilket bibliotek hanterar detta?** Aspose.OCR för .NET tillhandahåller en enkel `CalculateSkewFromUri`‑metod.
-- **Behöver jag en licens?** En tillfällig licens finns tillgänglig för utvärdering; en full licens krävs för produktion.
-- **Vilka bildformat stöds?** Vanliga format som PNG, JPEG, BMP och TIFF fungerar direkt.
-- **Är detta lämpligt för stora partier?** Ja – du kan anropa metoden i en loop för många URI:er.
+- **Vad betyder “calculate skew”?** Det mäter rotationen av en bild så att OCR kan räta upp den innan textutvinning.  
+- **Vilket bibliotek hanterar detta?** Aspose.OCR for .NET tillhandahåller en enkel `CalculateSkewFromUri`-metod.  
+- **Behöver jag en licens?** En tillfällig licens finns tillgänglig för utvärdering; en full licens krävs för produktion.  
+- **Vilka bildformat stöds?** Vanliga format som PNG, JPEG, BMP och TIFF fungerar direkt.  
+- **Är detta lämpligt för stora batcher?** Ja – du kan anropa metoden i en loop för många URI:er.
 
-## Vad är "hur man använder OCR" i praktiken?
+## Vad innebär “how to use OCR” i praktiken?
 
-Att använda OCR innebär att mata in en bild i en igenkänningsmotor, eventuellt förbehandla den (t.ex. räta upp den), och sedan extrahera texten. Att beräkna snedvinkeln är ett kritiskt förbehandlingssteg som justerar bilden, så att OCR‑motorn läser tecken korrekt.
+Att använda OCR innebär att mata in en bild i en igenkänningsmotor, eventuellt förbehandla den (t.ex. räta upp den), och sedan extrahera texten. Att beräkna snedvinkeln är ett kritiskt förbehandlingssteg som justerar bilden så att OCR-motorn läser tecken korrekt.
 
-## Varför beräkna skevningsvinkeln?
+## Varför beräkna snedvinkeln?
 
-- **Förbättrad noggrannhet:** Räta upp bilder ger färre igenkänningsfel.
-- **Automatiskt vänligt:** Att känna till rotationen låter dig automatiskt rotera bilder innan vidare bearbetning.
-- **Performance boost:** Minskar bör av manuell bildkorrigering.
+- **Förbättrad noggrannhet:** Rättade bilder ger färre igenkänningsfel.  
+- **Automationsvänligt:** Att känna till rotationen låter dig **auto‑rotate images** innan vidare bearbetning.  
+- **Prestandaförbättring:** Minskar behovet av manuell bildkorrigering.  
 
 ## Förutsättningar
 
-### Importera namnområden
+### Importera namnrymder
 
-Se till att följande namnrymder är refererade i ditt projekt. Detta steg är viktigt för en smidig integration med Aspose.OCR för .NET.
+Se till att följande namnrymder refereras i ditt projekt. Detta steg är nödvändigt för en smidig integration med Aspose.OCR for .NET.
 
 ```csharp
 using System;
@@ -51,9 +50,9 @@ using Aspose.OCR;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-Låt oss nu bryta ner varje exempel i flera steg.
+Nu ska vi gå igenom varje exempel i flera steg.
 
-## Steg-för-steg-guide
+## Steg‑för‑steg‑guide
 
 ### Steg 1: Initiera Aspose.OCR
 
@@ -62,16 +61,16 @@ Låt oss nu bryta ner varje exempel i flera steg.
 AsposeOcr api = new AsposeOcr();
 ```
 
-Att skapa `AsposeOcr`‑objektet ger dig åtkomst till alla OCR‑relaterade metoder, inklusive den som **calculates skew**.
+Att skapa `AsposeOcr`‑objektet ger dig tillgång till alla OCR‑relaterade metoder, inklusive den som **beräknar snedvinkeln**.
 
-### Steg 2: Beräkna skevningsvinkeln
+### Steg 2: Beräkna snedvinkeln
 
 ```csharp
 // Calculate Angle
 float angle = api.CalculateSkewFromUri("https://i.stack.imgur.com/0A4M9.png");
 ```
 
-Här anropar vi `CalculateSkewFromUri` och skickar bildens URI. Metoden returnerar ett `float` som representerar rotationsvinkeln i grader, vilket du sedan kan använda för att räta upp bilden.
+Här anropar vi `CalculateSkewFromUri` och skickar bildens URI. Metoden returnerar en `float` som representerar rotationsvinkeln i grader, som du sedan kan använda för att räta upp bilden.
 
 ### Steg 3: Visa resultatet
 
@@ -80,7 +79,7 @@ Här anropar vi `CalculateSkewFromUri` och skickar bildens URI. Metoden returner
 Console.WriteLine(angle);
 ```
 
-Att skriva ut vinkeln till konsolen ger dig omedelbar återkoppling. Du kan också lagra värdet för senare användning i bild-rotationslogik.
+Att skriva ut vinkeln till konsolen ger dig omedelbar återkoppling. Du kan också lagra värdet för senare användning i bild‑rotationslogik.
 
 ### Steg 4: Avslutningsbekräftelse
 
@@ -92,38 +91,47 @@ Console.WriteLine("CalculateSkewAngleFromUri executed successfully");
 
 Den sista raden bekräftar att exemplet kördes utan fel, vilket gör det enkelt att integrera i större arbetsflöden.
 
-## Vanliga frågor och tips
+## Auto‑rotate images med den beräknade snedvinkeln
 
-- **Nätverksfel:** Se till att URI:en är nåbar; annars kommer `CalculateSkewFromUri` att kasta ett undantag.
-- **Format som inte stöds:** Konvertera ovanliga bildtyper till PNG eller JPEG innan du anropar metoden.
-- **Precision:** För mycket små vinklar (<0,1°) kan du överväga att avrunda resultatet för att undvika brus.
+När du har snedvärdet kan du skicka det till vilket bildbehandlingsbibliotek som helst (t.ex. **System.Drawing** eller **SkiaSharp**) för att rotera bilden tillbaka till en horisontell baslinje. Detta steg kallas ofta **auto rotate images**, och det minskar dramatiskt efterföljande OCR‑fel.
+
+## Batch OCR‑behandling med snedvinkeldetektion
+
+När du bearbetar en stor samling skannade dokument kan du placera koden från stegen ovan i en `foreach`‑loop som itererar över en lista med URI:er. Detta möjliggör **batch OCR processing** där varje bild automatiskt räts upp innan textutvinning, vilket säkerställer konsekvent kvalitet i hela batchen.
+
+## Vanliga problem & tips
+
+- **Nätverksfel:** Se till att URI:en är nåbar; annars kommer `CalculateSkewFromUri` att kasta ett undantag.  
+- **Ej stödda format:** Konvertera ovanliga bildtyper till PNG eller JPEG innan du anropar metoden.  
+- **Precision:** För mycket små vinklar (< 0.1°) bör du överväga att avrunda resultatet för att undvika brus.  
+- **Prestandatips:** Cacha snedvinkeln om du behöver återanvända samma bild flera gånger.  
 
 ## Vanliga frågor
 
-### F1: Kan jag använda Aspose.OCR för .NET med andra programmeringsspråk?
+### Q1: Kan jag använda Aspose.OCR for .NET med andra programmeringsspråk?
 
-A1: Aspose.OCRjer främst .NET‑språk, men du kan utforska wrappers för andra språk.
+A1: Aspose.OCR stödjer främst .NET-språk, men du kan utforska omslag för andra språk.
 
-### F2: Finns en tillfällig licens tillgänglig för Aspose.OCR för .NET?
+### Q2: Finns en tillfällig licens tillgänglig för Aspose.OCR for .NET?
 
 A2: Ja, du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
-### F3: Hur kan jag söka hjälp eller engagera mig i samhället för att få stöd?
+### Q3: Hur kan jag söka hjälp eller engagera mig i communityn för support?
 
-A3: Besök [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) för gemenskapsstöd och diskussioner.
+A3: Besök [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) för community‑support och diskussioner.
 
-### F4: Finns det några förutsättningar innan du använder Aspose.OCR för .NET?
+### Q4: Finns det några förutsättningar innan du använder Aspose.OCR for .NET?
 
-A4: Se till att du har de nödvändiga namnrymderna importerade i ditt projekt, enligt handledningen.
+A4: Se till att du har de nödvändiga namnrymderna importerade i ditt projekt, enligt beskrivningen i handledningen.
 
-### F5: Var kan jag hitta omfattande dokumentation för Aspose.OCR för .NET?
+### Q5: Var kan jag hitta omfattande dokumentation för Aspose.OCR for .NET?
 
-A5: Se [dokumentation](https://reference.aspose.com/ocr/net/) för detaljerad information.
+A5: Se [dokumentationen](https://reference.aspose.com/ocr/net/) för detaljerad information.
 
 ---
 
-**Senast uppdaterad:** 2025-12-30
-**Testat med:** Aspose.OCR för .NET 24.11
+**Senast uppdaterad:** 2026-03-02  
+**Testat med:** Aspose.OCR for .NET 24.11  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,0 +1,7 @@
+Title: How to Enable GPU in C# OCR Engine – Complete Programming Guide
+Slug: how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide
+Category: ocr-optimization
+ProcessedDate: 2026-06-07T02:46:45.023994
+SourceRepo: AI Search API
+Keywords: how to enable gpu, how to perform ocr, recognize text from image, load image for ocr, use ocr engine c#
+PRNumber: 140

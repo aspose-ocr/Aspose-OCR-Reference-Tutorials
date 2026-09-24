@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with Aspose OCR – Full C# Guide
+Slug: create-searchable-pdf-with-aspose-ocr-full-c-guide
+Category: text-recognition
+ProcessedDate: 2026-06-25T22:37:04.058298
+SourceRepo: AI Search API
+Keywords: create searchable pdf, remove evaluation watermark, recognize text from image, convert scanned pdf, convert pdf to searchable
+PRNumber: 157
