@@ -120,6 +120,18 @@ url: /el/net/text-recognition/
 Μάθετε πώς να μετατρέψετε αρχεία TIFF σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας το Aspose.OCR, βήμα‑βήμα οδηγός.
 ### [Πώς να εκτελέσετε OCR σε C# – Εξαγωγή κειμένου από εικόνα χρησιμοποιώντας Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
 Μάθετε πώς να εκτελείτε OCR σε C# για άμεση εξαγωγή κειμένου από εικόνες με το Aspose OCR.
+### [Πώς να αναγνωρίσετε τα Χίντι από εικόνες σε C# – Οδηγός βήμα προς βήμα](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR για .NET ώστε να αναγνωρίζετε κείμενο στα Χίντι από εικόνες, βήμα προς βήμα.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης σε C# – Μετατροπή TIFF σε PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+Μάθετε πώς να δημιουργήσετε PDF με δυνατότητα αναζήτησης σε C# μετατρέποντας αρχεία TIFF σε PDF χρησιμοποιώντας το Aspose.OCR.
+### [Διενέργεια OCR σε εικόνα σε C# – Πλήρης οδηγός Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να εφαρμόζετε OCR σε εικόνες με C# χρησιμοποιώντας το Aspose.OCR, βήμα προς βήμα οδηγός.
+### [Εκτέλεση OCR σε εικόνα με Aspose OCR – Πλήρης οδηγός C#](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εκτελείτε OCR σε εικόνες με Aspose OCR χρησιμοποιώντας C#, βήμα προς βήμα οδηγός.
+### [Πώς να εκτελέσετε μαζικό OCR αρχείων σε C# – Πλήρες παράδειγμα κώδικα](./how-to-batch-ocr-files-in-c-full-code-example/)
+Μάθετε πώς να επεξεργάζεστε πολλαπλά αρχεία OCR σε C# με πλήρες παράδειγμα κώδικα.
+### [Πώς να εκτελέσετε OCR σε C# – Οδηγός μετατροπής εικόνας σε JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+Μάθετε πώς να εκτελείτε OCR σε C# και να μετατρέπετε τα αποτελέσματα εικόνας σε μορφή JSON με βήμα-βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

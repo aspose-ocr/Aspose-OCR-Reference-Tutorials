@@ -155,6 +155,9 @@ Dowiedz się, jak zwiększyć precyzję rozpoznawania tekstu w C# dzięki funkcj
 ### [Jak asynchronicznie wykonywać OCR w C# – Kompletny przewodnik krok po kroku](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Poznaj, jak asynchronicznie wykonywać OCR w C# przy użyciu Aspose.OCR, aby przyspieszyć przetwarzanie i zwiększyć wydajność aplikacji.
 
+### [Jak wykonać OCR obrazu przy użyciu Aspose OCR – przewodnik C# przyspieszony GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Dowiedz się, jak przyspieszyć OCR obrazu przy użyciu GPU w C# z Aspose OCR, zwiększając wydajność przetwarzania.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

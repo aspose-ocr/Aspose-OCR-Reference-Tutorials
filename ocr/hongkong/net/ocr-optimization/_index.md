@@ -75,6 +75,8 @@ weight: 25
 ### [如何在 C# 中使用 Aspose OCR 提升 OCR 準確度](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 學習在 C# 應用程式中使用 Aspose OCR 的技巧與最佳實踐，提升文字辨識的準確率。
 ### [如何在 C# 中非同步使用 OCR – 完整步驟指南](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+### [使用 Aspose OCR 進行圖像 OCR – GPU 加速 C# 指南](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+了解如何在 C# 中利用 GPU 加速的 Aspose OCR 進行圖像文字辨識，提升處理速度與精度。
 
 
 

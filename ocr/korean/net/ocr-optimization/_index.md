@@ -103,6 +103,8 @@ Aspose.OCR for .NET를 활용해 C#에서 이미지 텍스트를 정확히 추�
 ### [C#에서 Aspose OCR로 OCR 정확도 향상 방법](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 Aspose OCR를 사용해 C#에서 OCR 정확도를 높이는 단계별 가이드를 제공합니다.
 ### [C#에서 비동기 OCR 수행 방법 – 완전 단계별 가이드](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+### [Aspose OCR으로 이미지 OCR 수행 – GPU 가속 C# 가이드](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+GPU 가속을 활용한 Aspose OCR C# 예제로 이미지 OCR 성능을 극대화하는 방법을 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

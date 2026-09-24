@@ -76,6 +76,8 @@ Kompletní návod, jak pomocí Aspose.OCR v C# extrahovat text z obrázku s vyso
 Zvyšte přesnost OCR v C# s Aspose OCR pomocí praktických tipů a optimalizačních technik.
 ### [Jak asynchronně provádět OCR v C# – Kompletní krok‑za‑krokem průvodce](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Naučte se, jak asynchronně spouštět OCR v C# s podrobným krok‑za‑krokem návodem.
+### [Jak provést OCR obrázku s Aspose OCR – GPU‑akcelerovaný průvodce v C#](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Využijte GPU akceleraci v C# pro rychlé a přesné rozpoznávání textu z obrázků pomocí Aspose OCR.
 
 
 

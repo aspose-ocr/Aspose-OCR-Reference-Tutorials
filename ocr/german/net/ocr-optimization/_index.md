@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – umfa
 Nutzen Sie GPU‑Beschleunigung, um OCR‑Ergebnisse schneller zu erhalten. Schritt‑für‑Schritt‑Anleitung in C#.
 ### [Wie man ein Bild in C# entzerrt – Vollständiger OCR‑Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 Verbessern Sie die OCR‑Genauigkeit, indem Sie Bildschräglagen automatisch korrigieren. Schritt‑für‑Schritt‑Anleitung in C#.
+### [Wie man ein Bild mit Aspose OCR – GPU‑beschleunigter C#‑Leitfaden OCR‑verarbeitet](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Erfahren Sie, wie Sie mithilfe von GPU‑Beschleunigung und C# die OCR‑Leistung von Aspose OCR maximieren.
 
 
 

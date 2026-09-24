@@ -72,6 +72,8 @@ C# を使用して画像からテキストを正確に抽出する手順をス�
 Aspose OCR の設定と前処理テクニックで認識精度を最大化する手順を解説します。
 ### [C# で非同期 OCR を実行する方法 – 完全ステップバイステップガイド](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 C# で非同期 OCR を実装し、パフォーマンスとスケーラビリティを向上させる完全ガイドです。
+### [GPU 加速 C# ガイド – Aspose OCR で画像を OCR する方法](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+GPU を活用した高速 OCR 処理を C# で実装する手順をステップバイステップで解説します。
 
 
 

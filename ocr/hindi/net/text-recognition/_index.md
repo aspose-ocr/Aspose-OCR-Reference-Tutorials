@@ -116,6 +116,18 @@ C# में Aspose.OCR का उपयोग करके OCR करने क
 Aspose OCR के साथ C# में छवि से तेज़ी से टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका।
 ### [TIFF से खोज योग्य PDF बनाएं – Aspose OCR चरण‑दर‑चरण गाइड](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
 Aspose OCR का उपयोग करके TIFF फ़ाइल को खोज योग्य PDF में बदलने की चरण-दर- चरण मार्गदर्शिका।
+### [C# में छवियों से हिन्दी पहचान कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके छवियों से हिन्दी टेक्स्ट पहचानने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में खोज योग्य PDF बनाएं – TIFF को PDF में परिवर्तित करें](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+C# में Aspose.OCR का उपयोग करके TIFF फ़ाइलों को खोज योग्य PDF में बदलें। चरण‑दर‑शरण मार्गदर्शिका।
+### [C# में छवि पर OCR कैसे करें – पूर्ण Aspose OCR गाइड](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR का उपयोग करके C# में छवि से टेक्स्ट निकालने की पूरी मार्गदर्शिका।
+### [C# में छवि पर OCR चलाएँ – पूर्ण Aspose OCR गाइड](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR का उपयोग करके C# में छवि से टेक्स्ट निकालने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में बैच OCR फ़ाइलें कैसे करें – पूर्ण कोड उदाहरण](./how-to-batch-ocr-files-in-c-full-code-example/)
+C# में Aspose.OCR का उपयोग करके कई फ़ाइलों को बैच में प्रोसेस करने का पूर्ण कोड उदाहरण।
+### [C# में OCR कैसे करें – छवि को JSON में बदलने की गाइड](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+C# में Aspose.OCR का उपयोग करके छवि को JSON प्रारूप में बदलने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

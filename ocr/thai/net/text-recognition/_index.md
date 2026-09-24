@@ -75,6 +75,24 @@ url: /th/net/text-recognition/
 ### [ดึงข้อความจากรูปภาพใน C# – ตัวอย่าง OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-example/)
 ### [แปลงรูปภาพเป็น ePub ใน C# – คู่มือสมบูรณ์ในการสร้างไฟล์ ePub](./convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/)
 ### [วิธีทำ OCR ใน C# – ดึงข้อความและเขียนเป็น JSON](./how-to-perform-ocr-in-c-extract-text-and-write-json/)
+### [สร้าง PDF ที่ค้นหาได้ใน C# – แปลง TIFF เป็น PDF](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงไฟล์ TIFF เป็น PDF ที่ค้นหาได้อย่างง่ายดาย
+
+### [วิธีจดจำภาษาฮินดีจากรูปภาพใน C# – คู่มือทีละขั้นตอน](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความภาษาฮินดีจากรูปภาพอย่างแม่นยำตามขั้นตอน
+
+### [ทำ OCR บนรูปภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อทำ OCR บนรูปภาพอย่างละเอียดและครบถ้วน
+
+### [ทำ OCR บนรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อทำ OCR บนรูปภาพอย่างครบถ้วนและมีประสิทธิภาพ
+
+### [ทำ OCR หลายไฟล์ใน C# – ตัวอย่างโค้ดเต็ม](./how-to-batch-ocr-files-in-c-full-code-example/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อทำ OCR หลายไฟล์พร้อมกันด้วยตัวอย่างโค้ดเต็ม
+
+### [วิธีทำ OCR ใน C# – แปลงรูปภาพเป็น JSON คู่มือ](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงรูปภาพเป็น JSON อย่างง่ายและรวดเร็ว
+
 ### [จดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 ### [วิธีใช้ OCR ใน C# – จดจำข้อความจากรูปภาพ](./how-to-use-ocr-in-c-recognize-text-from-images/)
 ### [จดจำข้อความภาษาฮินดีจากรูปภาพ – แปลงเป็น ePub ด้วย Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)

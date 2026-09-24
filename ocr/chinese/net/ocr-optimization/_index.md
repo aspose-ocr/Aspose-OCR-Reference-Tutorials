@@ -145,6 +145,9 @@ weight: 25
 ### [如何在 C# 中实现异步 OCR – 完整分步指南](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 本教程详细演示在 C# 中使用 Aspose.OCR 实现异步 OCR 的完整步骤，提升性能并实现并发处理。
 
+### [使用 Aspose OCR 进行图像 OCR – GPU 加速 C# 指南](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+了解如何在 C# 中利用 GPU 加速 Aspose OCR，实现高效图像文字识别的完整步骤。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

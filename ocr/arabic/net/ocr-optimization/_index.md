@@ -73,6 +73,8 @@ weight: 25
 ### [كيفية تحسين دقة OCR في C# باستخدام Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 اكتشف طرق تحسين دقة OCR في C# مع Aspose OCR للحصول على نصوص أكثر دقة.
 ### [كيفية تنفيذ OCR غير متزامن في C# – دليل خطوة بخطوة كامل](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
+### [كيفية إجراء OCR على صورة باستخدام Aspose OCR – دليل C# مع تسريع GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+دليل خطوة بخطوة لاستخدام Aspose OCR مع تسريع GPU في C# لتحسين سرعة ودقة التعرف على النص في الصور.
 
 
 

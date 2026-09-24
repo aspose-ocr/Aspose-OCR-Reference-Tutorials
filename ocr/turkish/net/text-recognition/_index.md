@@ -116,6 +116,17 @@ Aspose.OCR for .NET ile C# uygulamanızda OCR işlemlerini adım adım öğrenin
 TIFF dosyalarından arama yapılabilir PDF oluşturmayı adım adım öğrenin ve Aspose OCR'un gücünden faydalanın.
 ### [C#'ta OCR Nasıl Yapılır – Aspose OCR Kullanarak Görüntüden Metin Çıkarma](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
 Aspose OCR ile C# uygulamanızda görüntülerden metni hızlı ve doğru bir şekilde çıkarın. Adım adım kılavuz.
+### [C#'ta Görüntülerden Hintçe Tanıma – Adım Adım Kılavuz](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
+C# ile görüntülerden Hintçe metin tanımayı adım adım öğrenin. Aspose.OCR for .NET'in gücünden faydalanın.
+### [C#'ta Aranabilir PDF Oluşturma – TIFF'i PDF'ye Dönüştür](./create-searchable-pdf-in-c-convert-tiff-to-pdf/)
+C# ile TIFF dosyalarını aranabilir PDF'ye dönüştürerek metin arama özelliği ekleyin. Aspose.OCR for .NET kullanarak adım adım öğrenin.
+### [C#'ta Görüntü Üzerinde OCR Gerçekleştirme – Tam Aspose OCR Kılavuzu](./perform-ocr-on-image-in-c-complete-aspose-ocr-guide/)
+C# ile görüntülerden tam OCR işlemi yapmayı adım adım öğrenin. Aspose OCR'ın tüm özelliklerini keşfedin.
+### [Aspose OCR ile Görüntüde OCR Çalıştırma – Tam C# Kılavuzu](./run-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+C# kullanarak görüntülerde tam OCR işlemini adım adım uygulayın ve Aspose OCR'ın tüm özelliklerinden faydalanın.
+### [C#'ta Toplu OCR Dosyalarını İşlemek – Tam Kod Örneği](./how-to-batch-ocr-files-in-c-full-code-example/)
+### [C#'ta OCR Gerçekleştirme – Görüntüyü JSON'a Dönüştürme Kılavuzu](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
+C# ile görüntüyü OCR ile işleyip sonuçları JSON formatında almayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

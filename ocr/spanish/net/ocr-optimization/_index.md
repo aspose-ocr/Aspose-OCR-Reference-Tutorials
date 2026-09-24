@@ -88,6 +88,8 @@ Aprende a extraer texto de imágenes en C# con Aspose.OCR, paso a paso, cubriend
 Aprende técnicas y configuraciones para aumentar la exactitud del OCR en aplicaciones C# usando Aspose OCR.
 ### [Cómo hacer OCR asíncrono en C# – Guía completa paso a paso](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Aprende a ejecutar OCR de forma asíncrona en C# con Aspose.OCR, mejorando el rendimiento y la capacidad de respuesta de tus aplicaciones.
+### [Cómo hacer OCR de una imagen con Aspose OCR – Guía C# acelerada por GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Aprende a utilizar la aceleración GPU en C# para procesar imágenes rápidamente con Aspose OCR.
 
 ## Prepare rectángulos en el reconocimiento de imágenes OCR
 

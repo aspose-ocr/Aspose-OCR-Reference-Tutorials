@@ -111,6 +111,8 @@ Khám phá cách sử dụng GPU để tăng tốc OCR trong Aspose.OCR cho .NET
 Tăng độ chính xác OCR trong C# bằng cách sử dụng các kỹ thuật và cấu hình của Aspose OCR.
 ### [Cách thực hiện OCR bất đồng bộ trong C# – Hướng dẫn chi tiết từng bước](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Hướng dẫn đầy đủ cách thực hiện OCR bất đồng bộ trong C# để tăng hiệu suất và đáp ứng thời gian thực.
+### [Cách OCR Hình ảnh bằng Aspose OCR – Hướng dẫn C# tăng tốc GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Khám phá cách sử dụng Aspose OCR với hỗ trợ GPU trong C# để tăng tốc độ nhận dạng hình ảnh.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

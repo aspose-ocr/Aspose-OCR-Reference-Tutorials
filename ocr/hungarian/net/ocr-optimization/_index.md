@@ -143,6 +143,9 @@ Fedezze fel, hogyan növelheti az OCR pontszámát C#-ban az Aspose OCR segíts�
 ### [Hogyan végezzen aszinkron OCR-t C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan valósíthatja meg az aszinkron OCR-t C#‑ban az Aspose.OCR for .NET segítségével, a teljes folyamatot lépésről‑lépésre.
 
+### [Hogyan OCR-eljünk képet az Aspose OCR‑val – GPU‑gyorsított C# útmutató](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Fedezze fel, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyors és pontos képfeldolgozáshoz.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

@@ -83,6 +83,8 @@ Verbeter OCR-prestaties met GPU-versnelling in C#. Volg onze stapsgewijze gids v
 Leer hoe je kantcorrectie toepast op afbeeldingen met Aspose.OCR voor .NET voor nauwkeurige tekstherkenning.
 ### [Hoe OCR‑nauwkeurigheid te verbeteren in C# met Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 Leer hoe je OCR‑nauwkeurigheid in C# kunt verhogen met Aspose OCR door geavanceerde instellingen en preprocessing‑technieken toe te passen.
+### [Hoe een afbeelding OCR’en met Aspose OCR – GPU‑versnelde C#‑gids](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
+Leer hoe je met Aspose OCR en GPU‑versnelling afbeeldingen in C# snel en nauwkeurig verwerkt.
 
 ### [Hoe asynchrone OCR in C# – Complete stap‑voor‑stap gids](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Leer hoe je asynchrone OCR in C# implementeert met Aspose.OCR, stap‑voor‑stap inclusief code‑voorbeelden en best practices.
