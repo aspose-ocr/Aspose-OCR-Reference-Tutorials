@@ -26,12 +26,6 @@ title: Как пакетно выполнять OCR файлов в C# – По
 url: /ru/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-** formatting.
-
-Proceed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,8 +22,6 @@ title: Jak provést OCR v C# – Průvodce převodem obrázku na JSON
 url: /cs/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-json-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,7 +22,7 @@ title: كيفية التعرف على اللغة الهندية من الصور 
 url: /ar/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

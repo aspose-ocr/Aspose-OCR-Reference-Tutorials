@@ -24,11 +24,7 @@ title: Hogyan OCR-eljünk képet az Aspose OCR-rel – GPU-gyorsított C# útmut
 url: /hu/net/ocr-optimization/how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-: CODE_BLOCK_0..7. Keep them.
-
-Make sure no extra spaces removed.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,18 +23,6 @@ title: ทำ OCR บนรูปภาพใน C# – คู่มือ Aspos
 url: /th/net/text-recognition/perform-ocr-on-image-in-c-complete-aspose-ocr-guide/
 ---
 
-to translate to Thai.
-
-We'll keep bold formatting.
-
-Proceed.
-
-Also need to translate blockquote > etc.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

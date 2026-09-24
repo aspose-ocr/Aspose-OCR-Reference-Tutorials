@@ -24,9 +24,7 @@ title: Wie man Hindi aus Bildern in C# erkennt – Schritt‑für‑Schritt‑An
 url: /de/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-be fine.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,7 @@ title: Voer OCR uit op afbeelding in C# – Complete Aspose OCR-gids
 url: /nl/net/text-recognition/perform-ocr-on-image-in-c-complete-aspose-ocr-guide/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

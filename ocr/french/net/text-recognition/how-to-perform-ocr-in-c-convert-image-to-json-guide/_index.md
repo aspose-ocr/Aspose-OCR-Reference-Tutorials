@@ -24,9 +24,7 @@ title: Comment réaliser l'OCR en C# – Guide de conversion d'image en JSON
 url: /fr/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-json-guide/
 ---
 
-file paths. We didn't.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

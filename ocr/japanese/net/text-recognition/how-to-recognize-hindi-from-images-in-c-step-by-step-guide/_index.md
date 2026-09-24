@@ -20,9 +20,7 @@ title: C#で画像からヒンディー語を認識する方法 – ステップ
 url: /ja/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-and bottom unchanged.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

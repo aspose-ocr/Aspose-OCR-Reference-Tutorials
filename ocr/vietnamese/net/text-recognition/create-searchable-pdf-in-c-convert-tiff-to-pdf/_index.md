@@ -22,9 +22,7 @@ title: Tạo PDF có thể tìm kiếm trong C# – Chuyển đổi TIFF sang PD
 url: /vi/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,10 +24,6 @@ title: Как распознавать хинди на изображениях 
 url: /ru/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

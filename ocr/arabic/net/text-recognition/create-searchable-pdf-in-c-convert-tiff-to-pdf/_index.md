@@ -22,14 +22,6 @@ title: إنشاء PDF قابل للبحث في C# – تحويل TIFF إلى PDF
 url: /ar/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-top-button >}} keep.
-
-Now produce final content with all translations.
-
-Check that we kept all shortcodes and code block placeholders.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

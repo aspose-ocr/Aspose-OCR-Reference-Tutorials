@@ -24,9 +24,7 @@ title: วิธีทำ OCR ไฟล์เป็นชุดใน C# – ต
 url: /th/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,16 +23,6 @@ title: Esegui OCR su immagine con Aspose OCR – Guida completa C#
 url: /it/net/text-recognition/run-ocr-on-image-with-aspose-ocr-complete-c-guide/
 ---
 
-? It's bold. Keep as is but translate.
-
-We need to keep code block fences and placeholders.
-
-Let's produce final translation.
-
-Be careful not to translate code block placeholders.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

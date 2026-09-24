@@ -24,11 +24,7 @@ title: Como fazer OCR de imagem com Aspose OCR – Guia C# com aceleração GPU
 url: /pt/net/ocr-optimization/how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-shortcodes at start and end.
-
-Also keep the backtop button shortcode.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

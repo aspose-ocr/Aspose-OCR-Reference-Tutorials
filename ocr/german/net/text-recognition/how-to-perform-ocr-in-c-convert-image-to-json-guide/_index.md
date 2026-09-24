@@ -24,14 +24,7 @@ title: Wie man OCR in C# durchführt – Leitfaden zur Umwandlung von Bildern in
 url: /de/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-json-guide/
 ---
 
-crEngine** | Sets up default language (English) and prepares internal models. |
-...
-
-We replaced with German. Keep same number of hyphens.
-
-Now final output: all content with translations.
-
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,18 +24,6 @@ title: Πώς να εκτελέσετε OCR σε C# – Οδηγός μετατ�
 url: /el/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-json-guide/
 ---
 
-c#"*". Translate: "*Κείμενο alt εικόνας: "διάγραμμα ροής εργασίας εκτέλεσης OCR που απεικονίζει τη μετατροπή εικόνας σε JSON και την εξαγωγή κειμένου από εικόνα c#"*". Keep asterisks.
-
-Then note about placeholder.
-
-Then "## Conclusion" heading.
-
-Paragraph.
-
-Now final shortcodes.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

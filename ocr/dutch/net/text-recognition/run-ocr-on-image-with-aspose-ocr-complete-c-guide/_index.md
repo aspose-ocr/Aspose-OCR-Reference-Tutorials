@@ -23,14 +23,6 @@ title: Voer OCR uit op afbeelding met Aspose OCR – Complete C#‑gids
 url: /nl/net/text-recognition/run-ocr-on-image-with-aspose-ocr-complete-c-guide/
 ---
 
-same style.
-
-Paragraphs translate.
-
-Let's do step by step.
-
-I'll produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

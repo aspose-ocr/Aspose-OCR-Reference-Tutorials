@@ -26,8 +26,6 @@ title: Cách xử lý OCR hàng loạt các tệp trong C# – Ví dụ mã đ�
 url: /vi/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

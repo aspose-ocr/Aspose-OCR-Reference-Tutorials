@@ -24,14 +24,6 @@ title: Come eseguire OCR in C# – Guida alla conversione di immagini in JSON
 url: /it/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-json-guide/
 ---
 
-un terminale."
-
-Make sure to keep markdown formatting.
-
-Now produce final translation.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

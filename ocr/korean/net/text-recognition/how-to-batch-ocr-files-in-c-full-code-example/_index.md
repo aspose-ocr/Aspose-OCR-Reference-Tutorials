@@ -24,8 +24,6 @@ title: C#에서 파일을 일괄 OCR하는 방법 – 전체 코드 예제
 url: /ko/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

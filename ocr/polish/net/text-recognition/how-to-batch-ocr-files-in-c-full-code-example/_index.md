@@ -26,14 +26,6 @@ title: Jak przetwarzać pliki OCR wsadowo w C# – Pełny przykład kodu
 url: /pl/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-.
-
-Now translate table content.
-
-Proceed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

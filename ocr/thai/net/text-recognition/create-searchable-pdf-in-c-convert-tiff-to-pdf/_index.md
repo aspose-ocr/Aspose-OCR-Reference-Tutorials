@@ -22,7 +22,7 @@ title: สร้าง PDF ที่ค้นหาได้ใน C# – แป
 url: /th/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

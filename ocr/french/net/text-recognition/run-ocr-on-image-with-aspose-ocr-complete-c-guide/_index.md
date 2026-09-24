@@ -23,10 +23,6 @@ title: Exécuter l'OCR sur une image avec Aspose OCR – Guide complet C#
 url: /fr/net/text-recognition/run-ocr-on-image-with-aspose-ocr-complete-c-guide/
 ---
 
-showing the OCR pipeline – run OCR on image, preprocess, load, recognize". Translate alt text but keep URL unchanged. Alt text is inside brackets; we can translate.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

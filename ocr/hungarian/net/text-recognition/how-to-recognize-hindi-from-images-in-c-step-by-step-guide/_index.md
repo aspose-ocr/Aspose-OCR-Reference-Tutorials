@@ -24,16 +24,6 @@ title: Hogyan ismerjünk fel hindit képekből C#-ban – Lépésről lépésre 
 url: /hu/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-etc.
-
-Also "Conclusion" etc.
-
-Also the final note.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

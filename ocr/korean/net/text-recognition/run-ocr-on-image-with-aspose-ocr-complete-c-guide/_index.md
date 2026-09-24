@@ -21,11 +21,7 @@ title: Aspose OCR로 이미지에서 OCR 실행 – 완전한 C# 가이드
 url: /ko/net/text-recognition/run-ocr-on-image-with-aspose-ocr-complete-c-guide/
 ---
 
-bold markup: **text** keep bold.
-
-Also blockquote >.
-
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

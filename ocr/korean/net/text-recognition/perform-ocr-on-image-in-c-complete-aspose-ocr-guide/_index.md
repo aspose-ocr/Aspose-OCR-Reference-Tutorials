@@ -23,7 +23,7 @@ title: C#에서 이미지에 OCR 수행 – 완전한 Aspose OCR 가이드
 url: /ko/net/text-recognition/perform-ocr-on-image-in-c-complete-aspose-ocr-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

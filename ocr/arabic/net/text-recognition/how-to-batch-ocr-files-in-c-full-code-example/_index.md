@@ -25,10 +25,6 @@ title: كيفية معالجة ملفات OCR دفعيًا في C# – مثال 
 url: /ar/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-عي". Keep.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

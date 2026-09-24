@@ -22,9 +22,7 @@ title: Vytvořte prohledávatelný PDF v C# – převod TIFF na PDF
 url: /cs/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-, YOUR_DIRECTORY, etc unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

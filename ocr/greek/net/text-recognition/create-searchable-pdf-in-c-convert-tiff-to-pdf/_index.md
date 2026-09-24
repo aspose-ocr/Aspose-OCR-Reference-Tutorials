@@ -24,15 +24,7 @@ title: Δημιουργία Αναζητήσιμου PDF σε C# – Μετατ�
 url: /el/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-.
-
-Now ensure we didn't miss any markdown formatting.
-
-We need to keep code block placeholders unchanged.
-
-Make sure we preserve the image markdown unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

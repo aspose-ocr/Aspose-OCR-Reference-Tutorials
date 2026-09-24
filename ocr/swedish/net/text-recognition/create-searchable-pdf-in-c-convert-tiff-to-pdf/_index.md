@@ -22,14 +22,6 @@ title: Skapa sökbar PDF i C# – Konvertera TIFF till PDF
 url: /sv/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-. Also the image markdown includes class attribute: {: .align-center alt="Create searchable PDF example"}; need to translate alt attribute. Keep class.
-
-Also translate table content, headings, bullet points, etc.
-
-Make sure code block placeholders remain unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

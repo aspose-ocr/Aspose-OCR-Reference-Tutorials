@@ -25,9 +25,7 @@ title: Como fazer OCR em lote de arquivos em C# – Exemplo completo de código
 url: /pt/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-. We'll keep exactly as is.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

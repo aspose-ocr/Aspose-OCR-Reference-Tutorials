@@ -23,16 +23,6 @@ title: C# में छवियों से हिंदी को पहच�
 url: /hi/net/text-recognition/how-to-recognize-hindi-from-images-in-c-step-by-step-guide/
 ---
 
-Also image alt text: "how to recognize hindi example" translate? Should we translate alt text? It's part of markdown image. The instruction says translate all text content. Alt text is text, so translate. Keep URL unchanged.
-
-Also list items etc.
-
-Let's produce final content.
-
-Be careful with bullet points, etc.
-
-Let's start constructing.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

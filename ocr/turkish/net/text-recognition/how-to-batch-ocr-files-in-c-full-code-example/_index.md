@@ -26,20 +26,6 @@ title: C#'ta OCR dosyalarını toplu işleme – Tam Kod Örneği
 url: /tr/net/text-recognition/how-to-batch-ocr-files-in-c-full-code-example/
 ---
 
-alarını işleme – Tam Kılavuz". Keep same heading level.
-
-Paragraphs: translate.
-
-Need to keep **bold** formatting.
-
-Also code block placeholders remain unchanged.
-
-Tables: translate column headers and content but keep pipe formatting. Need to translate text inside table cells.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,7 +21,7 @@ title: 在 C# 中对图像执行 OCR – 完整的 Aspose OCR 指南
 url: /zh/net/text-recognition/perform-ocr-on-image-in-c-complete-aspose-ocr-guide/
 ---
 
-no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

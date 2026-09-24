@@ -24,10 +24,6 @@ title: Cách thực hiện OCR ảnh với Aspose OCR – Hướng dẫn C# tăn
 url: /vi/net/ocr-optimization/how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

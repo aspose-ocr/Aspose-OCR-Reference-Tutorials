@@ -22,14 +22,6 @@ title: C#에서 검색 가능한 PDF 만들기 – TIFF를 PDF로 변환
 url: /ko/net/text-recognition/create-searchable-pdf-in-c-convert-tiff-to-pdf/
 ---
 
-as is.
-
-Also keep shortcodes at top and bottom.
-
-Proceed to translate.
-
-Let's produce final Korean markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

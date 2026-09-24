@@ -24,9 +24,7 @@ title: Aspose OCR ile Görüntüyü OCR'lamak – GPU Hızlandırmalı C# Kılav
 url: /tr/net/ocr-optimization/how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-besides image placeholder and maybe code blocks placeholders. Keep them unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,14 +23,6 @@ title: Uruchom OCR na obrazie za pomocą Aspose OCR – Kompletny przewodnik C#
 url: /pl/net/text-recognition/run-ocr-on-image-with-aspose-ocr-complete-c-guide/
 ---
 
-to Polish.
-
-Make sure to keep code block placeholders unchanged.
-
-Translate headings, bullet points, paragraphs, table headings, etc.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

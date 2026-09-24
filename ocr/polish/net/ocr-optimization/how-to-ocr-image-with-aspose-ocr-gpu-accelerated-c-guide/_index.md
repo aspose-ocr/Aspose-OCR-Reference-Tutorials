@@ -26,8 +26,6 @@ title: Jak wykonać OCR obrazu przy użyciu Aspose OCR – przewodnik C# przyspi
 url: /pl/net/ocr-optimization/how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

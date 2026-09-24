@@ -25,9 +25,7 @@ title: Utför OCR på bild i C# – Komplett Aspose OCR-guide
 url: /sv/net/text-recognition/perform-ocr-on-image-in-c-complete-aspose-ocr-guide/
 ---
 
-Make sure to keep all shortcodes exactly as original.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
