@@ -1,6 +1,7 @@
 ---
-date: 2025-12-09
-description: 学习如何使用 Aspose.OCR for Java 从图像中提取文本并指定允许的字符——完整的 Aspose OCR Java 教程。
+date: 2026-02-20
+description: 学习如何使用 Aspose.OCR for Java 从图像中提取文本、设置允许的字符并应用临时许可证——完整的 Aspose OCR Java
+  教程。
 linktitle: Specifying Allowed Characters in Aspose.OCR
 second_title: Aspose.OCR Java API
 title: 使用 Aspose.OCR 从图像中提取文本 – 允许的字符
@@ -8,51 +9,66 @@ url: /zh/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR 从图像中提取文本 – 允许的字符
 
-## 介绍
+## 简介
 
-从图像中提取文本是现代应用的常见需求——无论是处理发票、扫描收据，还是数字化印刷文档。**Aspose.OCR for Java** 让这项工作变得简单，提供高精度识别和灵活的配置选项，例如指定允许的字符集。在本教程中，我们将完整演示一个 **aspose ocr java tutorial**，展示如何设置库、运行 OCR，并限制字符集以满足你的需求。
+从图像中提取文本是现代应用中的常见需求——无论是处理发票、扫描收据，还是数字化打印文档。在本教程中，我们将演示一个完整的 **aspose ocr java tutorial**，展示如何使用 Aspose.OCR for Java **从图像中提取文本**、设置允许的字符，并在仅测试库时应用临时许可证。
 
-## 快速回答
+## 快速答案
 - **Aspose.OCR 的作用是什么？** 它能够高精度地从图像中提取文本，并支持自定义字符集。  
-- **需要许可证吗？** 生产环境使用必须提供临时或永久许可证。  
-- **支持哪个 JDK 版本？** 最新的 JDK 发行版均完全兼容。  
-- **可以限制识别的字符吗？** 可以——使用 allowed‑characters API 来限制输出。  
+- **我需要许可证吗？** 生产环境需要临时或永久许可证。  
+- **支持哪个 JDK 版本？** 最新的 JDK 发行版完全兼容。  
+- **我可以限制识别的字符吗？** 可以——使用 `setAllowedCharacters` API 来限制输出。  
 - **设置需要多长时间？** 基本实现大约需要 10‑15 分钟。
 
 ## 什么是“从图像中提取文本”？
-从图像中提取文本指的是将视觉文本（例如印刷或手写文字）转换为机器可读的字符串。这使得后续的搜索、索引或数据分析等任务成为可能。
+从图像中提取文本指的是将视觉文本（例如印刷或手写的文字）转换为机器可读的字符串的过程。这使得后续的搜索、索引或数据分析等任务成为可能。
 
-## 为什么使用 Aspose.OCR for Java？
-- **高精度**，支持多语言和多字体。  
-- **简洁 API**，可集成到任何 Java 项目中。  
-- **可定制**，包括字符集、语言包和图像预处理。  
-- **无外部依赖**——库自包含的。
+## 为什么选择 Aspose.OCR for Java？
+- **高精度**，支持多种语言和字体。  
+- **简洁的 API**，可集成到任何 Java 项目中。  
+- **可定制**的字符集、语言包和图像预处理。  
+- **无外部依赖**——库是自包含的。
 
-## 前置条件
+## 先决条件
 
-在开始之前，请确保你具备以下条件：
+在开始之前，请确保您具备以下条件：
 
 ### Java Development Kit (JDK)
 
-确保系统已安装最新的 Java Development Kit。可从 [here](https://www.oracle.com/java/technologies/javase-downloads.html) 下载。
+确保在系统上安装了最新的 Java Development Kit。您可以从[此处](https://www.oracle.com/java/technologies/javase-downloads.html)下载。
 
 ### Aspose.OCR for Java Library
 
-从 [download link](https://releases.aspose.com/ocr/java/) 下载并安装 Aspose.OCR for Java 库。
+从[下载链接](https://releases.aspose.com/ocr/java/)下载并安装 Aspose.OCR for Java 库。
 
 ### Aspose.OCR License
 
-要充分发挥 Aspose.OCR 的功能，需要获取有效许可证。可从 [here](https://purchase.aspose.com/buy) 获取，或通过 [temporary license](https://purchase.aspose.com/temporary-license/) 申请试用许可证。
+要充分发挥 Aspose.OCR 的功能，请获取有效许可证。您可以从[此处](https://purchase.aspose.com/buy)获取，或探索用于试用期的[临时许可证](https://purchase.aspose.com/temporary-license/)。
+
+## 如何应用临时许可证
+
+在评估产品时，临时许可证可去除评估水印并在有限时间内解锁全部功能。请在 Aspose 门户中创建许可证字符串，然后将其传递给 `AsposeOCR` 构造函数，如下面的代码示例所示。生产部署时，请用永久许可证替换临时密钥。
+
+## OCR 图像预处理技巧
+
+良好的图像质量可显著提升识别结果。在调用 OCR 引擎之前，请考虑：
+
+- 将图像转换为灰度。  
+- 增加对比度，使字符更突出。  
+- 使用二值化滤波器去除背景噪声。  
+- 将低分辨率图像调整至至少 300 dpi。
+
+这些步骤属于 **ocr image preprocessing**，可在调用 Aspose.OCR 前使用任何标准的 Java 图像库完成。
 
 ## 导入包
 
-准备好前置条件后，将必要的包导入你的 Java 项目：
+准备好先决条件后，将必要的包导入您的 Java 项目：
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -63,9 +79,9 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-## 步骤指南
+## 分步指南
 
-### 步骤 1：设置文档目录
+### Step 1: Set Your Document Directory
 
 定义一个文件夹，用于存放 OCR 处理后的结果。此路径稍后用于定位图像文件。
 
@@ -73,25 +89,25 @@ import java.io.IOException;
 String dataDir = "Your Document Directory";
 ```
 
-### 步骤 2：指定图像路径
+### Step 2: Specify the Image Path
 
-将 API 指向你想要分析的图像。
+将 API 指向您要分析的图像。
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
 ```
 
-### 步骤 3：创建 Aspose.OCR 实例
+### Step 3: Create an Aspose.OCR Instance
 
-使用你的许可证密钥实例化 OCR 引擎。密钥可以是临时或永久许可证字符串。
+使用您的许可证密钥实例化 OCR 引擎。密钥可以是临时或永久许可证字符串。
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
 ```
 
-### 步骤 4：执行 OCR 识别
+### Step 4: Perform OCR Recognition
 
-调用 `RecognizeLine` 方法从图像中提取一行文本。结果是普通字符串，可进一步处理或存储。
+调用 `RecognizeLine` 方法从图像中提取一行文本。结果是一个普通字符串，您可以进一步处理或存储。
 
 ```java
 try {
@@ -103,40 +119,40 @@ try {
 }
 ```
 
-> **专业提示：** 如果需要将输出限制为特定字符集（例如仅数字），在调用 `RecognizeLine` 之前，对 `AsposeOCR` 实例使用 `setAllowedCharacters` 方法。这样引擎会忽略不在定义集合中的字符。
+> **专业提示:** 如果您需要将输出限制在特定字符集（例如仅数字），请在调用 `RecognizeLine` 之前对 `AsposeOCR` 实例使用 `setAllowedCharacters` 方法。这可确保引擎忽略定义集合之外的任何字符。
 
 ## 常见问题及解决方案
 
 | 问题 | 原因 | 解决方案 |
 |------|------|----------|
-| **无输出或返回空字符串** | 图像路径错误或图像格式不受支持 | 检查 `imagePath` 并使用受支持的格式（JPEG、PNG、BMP） |
-| **识别错误** | 图像分辨率低或背景噪声大 | 在 OCR 前对图像进行预处理（提高对比度、二值化） |
-| **许可证未生效** | 缺少或无效的许可证密钥 | 确认许可证字符串正确并放置在 `AsposeOCR` 构造函数中 |
+| **无输出或空字符串** | 图像路径不正确或不支持的图像格式 | 验证 `imagePath` 并使用受支持的格式（JPEG、PNG、BMP） |
+| **识别错误** | 低分辨率图像或噪声背景 | 在 OCR 前对图像进行预处理（增加对比度、二值化） |
+| **许可证未应用** | 缺少或无效的许可证密钥 | 确保许可证字符串正确并放置在 `AsposeOCR` 构造函数中 |
 
-## 常见问答
+## 常见问题
 
-**问：如何获取 Aspose.OCR 的临时许可证？**  
-答：访问 [temporary license page](https://purchase.aspose.com/temporary-license/) 申请试用许可证。
+**Q: 如何获取 Aspose.OCR 的临时许可证？**  
+A: 访问[临时许可证页面](https://purchase.aspose.com/temporary-license/)请求试用许可证。
 
-**问：在哪里可以找到 Aspose.OCR 的支持？**  
-答：加入 [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) 社区获取帮助和讨论。
+**Q: 在哪里可以找到 Aspose.OCR 的支持？**  
+A: 加入[Aspose.OCR 论坛](https://forum.aspose.com/c/ocr/16)社区获取帮助和讨论。
 
-**问：能否在 Aspose.OCR 中指定允许的字符？**  
-答：可以，使用 `setAllowedCharacters` API 自定义字符集。详细请参阅官方文档。
+**Q: 我可以在 Aspose.OCR 中指定允许的字符吗？**  
+A: 可以，使用 `setAllowedCharacters` API 自定义字符集。详情请参阅官方文档。
 
-**问：Aspose.OCR 是否兼容最新的 JDK 版本？**  
-答：完全兼容——Aspose.OCR 会定期更新以适配最新的 Java 发行版。
+**Q: Aspose.OCR 与最新的 JDK 版本兼容吗？**  
+A: 完全兼容——Aspose.OCR 会定期更新，以保持与最新 Java 发行版的兼容性。
 
-**问：除了行识别，还有其他 OCR 功能吗？**  
-答：有，库支持块、段落和整页识别，还提供语言包和图像预处理选项。
+**Q: 除了行识别之外，还有其他 OCR 功能吗？**  
+A: 有，库支持块、段落和整页识别，以及语言包和图像预处理选项。
 
 ## 结论
 
-通过本 **aspose ocr java tutorial**，你已经拥有了一个能够 **从图像中提取文本** 并控制识别字符的完整解决方案。探索完整的 [documentation](https://reference.aspose.com/ocr/java/) 以发现多语言支持、定制预处理和批量处理等高级功能。
+通过本 **aspose ocr java tutorial**，您现在拥有了一个可 **从图像中提取文本** 并控制识别字符的工作方案。探索完整的[文档](https://reference.aspose.com/ocr/java/)以发现多语言支持、自定义预处理和批量处理等高级功能。
 
 ---
 
-**最后更新：** 2025-12-09  
+**最后更新：** 2026-02-20  
 **测试环境：** Aspose.OCR for Java 24.11  
 **作者：** Aspose  
 

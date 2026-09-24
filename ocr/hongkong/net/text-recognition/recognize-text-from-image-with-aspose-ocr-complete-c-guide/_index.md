@@ -1,202 +1,196 @@
 ---
 category: general
-date: 2026-02-17
-description: 學習如何在 C# 中使用 Aspose OCR 從圖像辨識文字。亦可了解如何從 JPG 提取文字、將圖像轉換為文字，以及如何高效提取圖像文字。
+date: 2026-02-09
+description: 學習如何在 C# 中使用自訂字典辨識圖像文字並擷取純文字。內含逐步程式碼與技巧。
 draft: false
 keywords:
 - recognize text from image
-- extract text from jpg
-- convert image to text
-- how to extract image text
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: zh-hant
-og_description: 學習如何在 C# 中使用 Aspose OCR 從圖片識別文字。本分步教學亦涵蓋從 JPG 提取文字以及將圖片轉換為文字。
-og_title: 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南
+og_description: 使用 Aspose OCR 在 C# 中識別圖像文字。請依照本指南提取純文字，並加入自訂詞典以提升準確度。
+og_title: 從圖像辨識文字 – 完整 C# 教學
 tags:
-- Aspose OCR
+- OCR
 - C#
-- Image Processing
-title: 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南
+- Aspose
+title: 使用 Aspose OCR 從圖片辨識文字 – 完整 C# 指南
 url: /zh-hant/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
-
-same markdown.
-
-Make sure not to alter placeholders.
-
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 教學
+# 從圖像辨識文字 – 完整 C# 教學
 
-有沒有曾經需要**從圖像辨識文字**，卻不確定該選哪個函式庫？你並不是唯一的開發者——大家常問：「如何在不自行編寫神經網路的情況下，從 jpg 提取文字？」好消息是 Aspose OCR 為你處理繁重工作，讓你只需幾行 C# 代碼就能**將圖像轉換為文字**。
+是否曾經需要 **從圖像辨識文字**，卻發現結果常常遺漏領域專屬的詞彙？你並不孤單。無論是發票掃描、徽章辨識，或只是從螢幕截圖中抽取說明文字，預設的 OCR 引擎往往無法正確辨識你的專有詞彙。  
 
-在本教學中，我們將示範一個實務範例，說明如何**從圖像辨識文字**、如何**從 jpg 提取文字**，甚至解答「**如何提取圖像文字**」的疑問。完成後，你將擁有一個可直接執行的 console 應用程式、一些實用技巧，並清楚知道在特殊情況下需要調整哪些設定。
+好消息是，只要載入 **自訂字典**，就能大幅提升準確度，並且 **一次性抽取純文字**。在本教學中，我們將一步步示範從讀取字典檔案到印出 OCR 結果的完整流程，使用 Aspose.OCR 於 C#。  
 
-## 你需要的環境
+同時，我們也會回答「**如何加入自訂字典**」的常見疑問，示範 **如何有效抽取文字**，並指出常見的陷阱，讓你不再浪費時間調整設定。
 
-在開始之前，請確保你具備以下條件：
+## 您需要的條件
 
-| 先決條件 | 原因 |
-|--------------|--------|
-| .NET 6.0 SDK (or later) | 現代語言功能與簡易專案建立 |
-| Visual Studio 2022 (or VS Code) | 快速除錯的 IDE |
-| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | 執行 OCR 的函式庫 |
-| A sample JPEG image (`sample.jpg`) | 任何包含可讀文字的圖片 |
+- **.NET 6+**（任何近期的執行環境皆可）
+- **Aspose.OCR for .NET** NuGet 套件  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- 一個 **文字檔**（`custom_dictionary.txt`），每行放一個詞彙——即你預期會出現的字詞。
+- 一張 **圖像**（`input_image.png`），內含你想辨識的文字。
 
-就這樣——不需要額外的原生相依套件，也不需要龐大的 Python 腳本。只要一個簡單的 C# console 應用程式。
+不需要額外的函式庫，也不需要外部服務。只要純粹的 C# 與 Aspose。
 
-> **Pro tip:** 如果你打算在 Linux 上執行，請確保已安裝 `libgdiplus` 套件；Aspose OCR 內部使用 GDI+。
+## 步驟 1：初始化 OCR 引擎 – 從圖像辨識文字
 
-## Step 1: 設定專案並加入 Aspose OCR
-
-首先，建立一個新的 console 專案：
-
-```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
-dotnet add package Aspose.OCR
-```
-
-`dotnet add package` 指令會下載最新的穩定版（目前為 23.9）。保持函式庫為最新，可確保取得最新的語言套件與效能改進。
-
-## Step 2: 從 Base64 字串載入授權
-
-如果你擁有付費的 Aspose 授權，通常會將其以 Base64 編碼的字串儲存在設定檔或環境變數中。這樣載入可避免將原始 `.lic` 檔案隨二進位檔一起發佈。
+首先，你需要建立一個 `OcrEngine`。這個物件負責保存所有設定，包括稍後會注入的自訂字典。
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // ---- Retrieve the Base64‑encoded license string (e.g., from appsettings.json) ----
-        // Replace the placeholder with your actual license string.
-        string licenseBase64 = "UEsDBBQAAAAIA...";
-
-        // ---- Apply the license so the OCR library runs in licensed mode ----
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Why this matters:** 在 **licensed mode** 下，Aspose OCR 會關閉評估水印並解鎖完整功能，這對於在正式環境中需要可靠 **extract text from jpg** 結果的情況至關重要。
+> **為什麼這很重要：**  
+> 沒有引擎實例，你就沒有設定語言、DPI 或自訂詞彙表的上下文。把 `OcrEngine` 想成之後會 **從圖像辨識文字** 的大腦。
 
-## Step 3: 建立 OcrEngine 實例
+## 步驟 2：讀取字典檔案 – 如何加入自訂字典
 
-授權啟用後，建立 OCR 引擎。此物件會保存所有日後可能調整的設定（語言、DPI 等）。
+接著，我們要把 **字典檔案** 的內容讀入 `HashSet<string>`。HashSet 提供 O(1) 的查找效能，非常適合引擎內部的檢查。
 
 ```csharp
-        // ---- Create an OCR engine instance ----
-        var ocrEngine = new OcrEngine();
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-如果要處理多語言文件，可設定 `ocrEngine.Language = OcrLanguage.Multilingual;`。預設為英文，對大多數螢幕截圖與掃描發票皆適用。
+> **小技巧：**  
+> 請確保字典檔案使用 UTF‑8 編碼，且避免空白行；空白行會被當作空字串，可能會擾亂引擎。
 
-## Step 4: 從 JPEG 圖片辨識文字
+## 步驟 3：載入圖像 – 如何抽取文字
 
-以下是教學的核心——將圖像傳入引擎並取得辨識後的字串。`ImageStream.FromFile` 輔助方法抽象了檔案讀取的細節，讓你專注於 OCR 流程。
+現在把要處理的圖像傳入。Aspose 使用 `ImageStream` 來抽象檔案處理。
 
 ```csharp
-        // ---- Recognize text from an image file ----
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Edge case:** 若 JPEG 檔案非常大（超過 5 MB），建議先縮小尺寸。大圖會增加記憶體負擔，且可能降低辨識準確度。使用 `System.Drawing` 或 `ImageSharp` 於呼叫 `Recognize` 前先行縮圖，通常能取得更佳結果。
+> **邊緣情況：**  
+> 若圖像尺寸大於 2000 × 2000 像素，建議先縮小。過大的圖像會拖慢辨識速度，卻不會提升準確度。
 
-## Step 5: 輸出結果
+## 步驟 4：執行 OCR 程序 – 抽取純文字
 
-最後，將擷取的文字寫入 console。實際應用中，你可能會把它存入資料庫、傳給翻譯 API，或送入搜尋索引。
+所有準備就緒後，呼叫 `Recognize`。此方法會回傳一個 `OcrResult` 物件，內含原始文字與清理過的文字。
 
 ```csharp
-        // ---- Output the recognized text to the console ----
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-### 預期輸出
+> **你會看到什麼：**  
+> 主控台會印出保留換行的乾淨文字。如果你的自訂字典裡有 “Aspose” 與 “OCR”，即使圖像稍有雜訊，這些詞彙也會以你定義的形式正確顯示。
 
-如果 `sample.jpg` 包含「Hello World!」這句話，應該會看到類似以下的輸出：
+## 完整範例程式
 
-```
-=== OCR Result ===
-Hello World!
-```
-
-輸出可能會包含換行或多餘的空白；如有需要，可使用 `string.Trim()` 或正規表示式進行清理。
-
-## Full Working Example
-
-以下是完整、可直接複製貼上的程式碼，已整合上述所有步驟。將 `YOUR_DIRECTORY` 替換為存放 `sample.jpg` 的資料夾路徑，並填入你的 Base64 授權字串。
+以下是 **完整、可直接複製貼上的** 程式碼。將 `YOUR_DIRECTORY` 替換為實際存放字典與圖像的資料夾路徑。
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Retrieve the Base64‑encoded license string (e.g., from configuration)
-        string licenseBase64 = "UEsDBBQAAAAIA..."; // <-- your license here
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Apply the license so the OCR library runs in licensed mode
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 
-        // Step 3: Create an OCR engine instance
-        var ocrEngine = new OcrEngine();
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 
-        // Optional: set language if you need non‑English text
-        // ocrEngine.Language = OcrLanguage.Multilingual;
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-        // Step 4: Recognize text from an image file (JPEG, PNG, BMP, etc.)
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
-
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-將此檔案另存為 `Program.cs`，執行 `dotnet run`，即可在 console 中看到擷取出的文字。這就是在不到 30 行程式碼內完成 **convert image to text** 流程的全部步驟。
+**預期輸出**（假設圖像內含 “Welcome to Aspose OCR Demo”）  
 
-## Common Questions & Troubleshooting
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-| 問題 | 答案 |
-|----------|--------|
-| **What if I get garbled output?** | 檢查影像品質——模糊或低對比度的照片會產生不佳結果。可先進行銳化或將 DPI 提升至 ≥300。 |
-| **Can I process PNG or BMP files?** | 當然可以。`ImageStream.FromFile` 支援 .NET `System.Drawing` 所支援的任何格式。 |
-| **How do I extract text from a multi‑page PDF?** | 先將每一頁轉為影像（例如使用 Aspose.PDF），再將每張影像餵入相同的 OCR 流程。 |
-| **Is there a free alternative?** | Aspose 提供 30 天試用版，但正式上線時仍需購買授權以避免水印。 |
-| **What about right‑to‑left languages?** | 設定 `ocrEngine.Language = OcrLanguage.Arabic;`（或相應語言）即可提升辨識準確度。 |
+如果 “Aspose” 已在你的自訂字典中，即使圖像有輕微模糊，拼寫也會完美無缺。
 
-## Next Steps: Going Beyond Basic OCR
+## 常見問題
 
-現在你已能**從圖像辨識文字**，可以考慮以下延伸應用：
+### 如何 **讀取字典檔案**，支援不同編碼？
+使用 `File.ReadAllLines(path, Encoding.UTF8)`（或 `Encoding.Unicode`）以符合檔案的編碼。這可防止隱藏字元進入 `HashSet`。
 
-1. **批次處理** – 迴圈遍歷整個 JPG 目錄，自動 **extract text from jpg** 圖片。  
-2. **後處理** – 使用正規表示式抽取電話號碼、日期或發票金額。  
-3. **結合 Azure Cognitive Services** – 將 Aspose OCR 與 Azure Form Recognizer 結合，取得結構化資料。  
-4. **效能調校** – 處理大量影像時，啟用多執行緒 (`Parallel.ForEach`) 以提升速度。  
+### 若 OCR 結果仍遺漏字典中的某個詞彙，該怎麼辦？
+確保詞彙的大小寫與字典條目相符，或設定 `ocrEngine.Configuration.IgnoreCase = true`。同時，確認圖像解析度至少為 300 dpi，以獲得最佳效果。
 
-以上每個主題皆以本教學的核心概念為基礎，最終目標都是將視覺內容轉換成可搜尋、可編輯的文字。
+### 能否 **從 PDF 抽取純文字**，而非圖像？
+可以——先使用 Aspose.PDF 把每頁轉為圖像，再將這些圖像送入相同的 OCR 流程。工作流程完全相同，只是多了一個 PDF 轉圖像的步驟。
+
+### 是否有辦法在執行時 **加入自訂字典**，支援多語言？
+絕對可以。為每種語言建立獨立的 `HashSet<string>`，在每次呼叫 `Recognize` 前切換 `ocrEngine.Configuration.CustomDictionary`。
+
+## 提升準確度的技巧與竅門
+
+- **前置處理圖像**：轉為灰階、提升對比度，或稍微套用高斯模糊以去除雜點。
+- **批次處理**：若有大量圖像，重複使用同一個 `OcrEngine` 實例；每次重新初始化會增加不必要的開銷。
+- **記錄原始 OCR 資料**：`ocrResult.TextLines` 會提供逐行的信心分數，方便後續處理或標記低信心結果。
+
+## 後續步驟
+
+既然你已掌握 **如何抽取文字** 以及 **如何加入自訂字典**，可以進一步探索以下主題：
+
+1. **整合至 ASP.NET Core** – 建立 API 端點，接受圖像並回傳 JSON 格式的 OCR 結果。  
+2. **結合 Entity Framework** – 直接將抽取出的純文字存入資料庫，以便搜尋。  
+3. **探索語言偵測** – 根據偵測到的語言代碼自動切換相應的字典。
+
+上述每個主題都以本指南為基礎，讓你能將簡單的 **從圖像辨識文字** 程式碼，轉變為可投入生產環境的服務。
 
 ---
 
-### TL;DR
-
-你現在已掌握如何在 C# 中使用 Aspose OCR **recognize text from image**。本教學說明了如何載入 Base64 授權、建立 `OcrEngine`、餵入 JPEG，並印出結果——完整的 **extract text from jpg** 與 **convert image to text** 工作流程。可自行調整語言設定、批次處理，輕鬆應對任何 **how to extract image text** 的挑戰。
-
-祝開發順利，若遇到問題，歡迎隨時留言討論！
+*祝開發順利！若遇到問題，歡迎在下方留言或查閱 Aspose.OCR 文件，了解更深入的設定選項。記住，精心打造的自訂字典往往是讓普通 OCR 變成銳利文字抽取的祕密武器。*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

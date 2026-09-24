@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-02-17
-description: Aspose OCR kullanarak C#'ta görüntüden metin tanımayı öğrenin. Ayrıca
-  jpg'den metin çıkarmayı, görüntüyü metne dönüştürmeyi ve görüntü metnini verimli
-  bir şekilde çıkarmayı görün.
+date: 2026-02-09
+description: C#'ta özel bir sözlük kullanarak görüntüden metni tanımayı ve düz metni
+  çıkarmayı öğrenin. Adım adım kod ve ipuçları içerir.
 draft: false
 keywords:
 - recognize text from image
-- extract text from jpg
-- convert image to text
-- how to extract image text
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: tr
-og_description: Aspose OCR kullanarak C#'de görüntüden metin tanımayı öğrenin. Bu
-  adım adım öğretici, jpg dosyasından metin çıkarmayı ve görüntüyü metne dönüştürmeyi
-  de kapsar.
-og_title: Aspose OCR ile görüntüden metin tanıma – Tam C# Rehberi
+og_description: Aspose OCR ile C#'ta görüntüden metin tanıyın. Düz metni çıkarmak
+  ve daha yüksek doğruluk için özel bir sözlük eklemek amacıyla bu kılavuzu izleyin.
+og_title: görüntüden metin tanıma – Tam C# Öğreticisi
 tags:
-- Aspose OCR
+- OCR
 - C#
-- Image Processing
-title: Aspose OCR ile görüntüden metin tanıma – Tam C# Rehberi
+- Aspose
+title: Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Rehberi
 url: /tr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -27,172 +26,173 @@ url: /tr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görüntüden metin tanıma Aspose OCR ile – Tam C# Kılavuzu
+# görüntüden metin tanıma – Tam C# Öğreticisi
 
-Hiç **görüntüden metin tanıma** ihtiyacı duydunuz ama hangi kütüphaneyi seçeceğinize karar veremediniz mi? Tek başınıza değilsiniz—geliştiriciler sürekli olarak “Özel bir sinir ağı yazmadan jpg'den metin nasıl çıkarılır?” sorusunu soruyor. İyi haber, Aspose OCR sizin için ağır işi yapıyor ve sadece birkaç C# satırıyla **görüntüyü metne dönüştürmenizi** sağlıyor.
+Hiç **görüntüden metin tanıma** yapmanız gerekti, ancak sonuçların alan‑spesifik kelimeleri kaçırdığını gördünüz mü? Yalnız değilsiniz. Birçok projede—fatura tarama, rozet okuma veya sadece ekran görüntülerinden altyazı çekme—varsayılan OCR motoru kelime dağarcığınız hakkında yeterince akıllı değil.  
 
-Bu öğreticide, **görüntüden metin tanıma**, **jpg'den metin çıkarma** ve hatta hâlâ akılda kalan “**görüntü metnini nasıl çıkarırım**” sorusuna yanıt veren gerçek bir örnek üzerinden ilerleyeceğiz. Sonunda çalıştırmaya hazır bir konsol uygulamanız, birkaç pratik ipucu ve kenar durumları için neyi ayarlamanız gerektiği konusunda net bir fikriniz olacak.
+İyi haber? **Özel bir sözlük** yükleyerek doğruluğu büyük ölçüde artırabilir ve elbette **düz metni** tek bir temiz adımda çıkarabilirsiniz. Bu öğreticide, bir sözlük dosyasını okumaktan OCR sonucunu yazdırmaya kadar tüm süreci Aspose.OCR kullanarak C# ile göstereceğiz.  
 
-## İhtiyacınız Olanlar
+Ayrıca “**özel sözlük nasıl eklenir**” sorusuna yanıt verecek, **metni nasıl çıkarırsınız** gösterecek ve sıkça yapılan hataları işaret ederek bir saat daha ayarlarla uğraşmamanızı sağlayacağız.
 
-| Prerequisite | Reason |
-|--------------|--------|
-| .NET 6.0 SDK (or later) | Modern dil özellikleri ve kolay proje oluşturma |
-| Visual Studio 2022 (or VS Code) | Hızlı hata ayıklama için IDE |
-| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | OCR işlemini gerçekleştiren kütüphane |
-| A sample JPEG image (`sample.jpg`) | Okunabilir metin içeren herhangi bir resim |
+## Gereksinimler
 
-Hepsi bu—ekstra yerel bağımlılıklar yok, ağır Python betikleri de yok. Sadece basit bir C# konsol uygulaması.
+- **.NET 6+** (herhangi bir güncel çalışma zamanı yeterlidir)
+- **Aspose.OCR for .NET** NuGet paketi  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- **metin dosyası** (`custom_dictionary.txt`) – her satırda bir kelime olacak şekilde, beklediğiniz terimler burada bulunur.
+- **görüntü** (`input_image.png`) – tanımak istediğiniz metni içeren dosya.
 
-> **Pro ipucu:** Bunu Linux'ta çalıştırmayı planlıyorsanız, `libgdiplus` paketinin yüklü olduğundan emin olun; Aspose OCR altında GDI+ kullanır.
+Ek bir kütüphane, harici hizmet gerekmez. Sadece saf C# ve Aspose.
 
-## Adım 1: Projeyi Kurun ve Aspose OCR'yi Ekleyin
+## Adım 1: OCR Motorunu Başlat – Görüntüden Metin Tanıma
 
-İlk olarak, yeni bir konsol projesi oluşturun:
-
-```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
-dotnet add package Aspose.OCR
-```
-
-`dotnet add package` komutu en son kararlı sürümü (şu anda 23.9) çeker. Kütüphaneyi güncel tutmak, en yeni dil paketlerini ve performans iyileştirmelerini almanızı sağlar.
-
-## Adım 2: Lisansınızı Base64 Dizesi Olarak Yükleyin
-
-Ücretli bir Aspose lisansınız varsa, genellikle bunu bir yapılandırma dosyasında veya ortam değişkeninde Base64 kodlu dize olarak saklarsınız. Bu şekilde yüklemek, ikili dosyalarınızla birlikte ham bir `.lic` dosyası göndermeyi önler.
+İlk yapmanız gereken bir `OcrEngine` oluşturmak. Bu nesne, daha sonra ekleyeceğimiz özel sözlük de dahil olmak üzere tüm yapılandırma seçeneklerini tutar.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // ---- Retrieve the Base64‑encoded license string (e.g., from appsettings.json) ----
-        // Replace the placeholder with your actual license string.
-        string licenseBase64 = "UEsDBBQAAAAIA...";
-
-        // ---- Apply the license so the OCR library runs in licensed mode ----
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Neden önemli:** **Lisanslı modda** Aspose OCR, değerlendirme filigranlarını devre dışı bırakır ve tam özellik setini açar; bu, üretim için güvenilir **jpg'den metin çıkarma** sonuçlarına ihtiyacınız olduğunda esastır.
+> **Neden önemli:**  
+> Bir motor örneği olmadan dil, DPI veya özel kelime listeleri gibi ayarlar için bir bağlamınız olmaz. `OcrEngine`, **görüntüden metin tanıma** işlemini gerçekleştirecek beyin gibidir.
 
-## Adım 3: Bir OcrEngine Örneği Oluşturun
+## Adım 2: Sözlük Dosyasını Oku – Özel Sözlük Nasıl Eklenir
 
-Lisans aktif olduğuna göre, OCR motorunu örnekleyin. Bu nesne, daha sonra (dil, DPI vb.) ayarlayabileceğiniz tüm ayarları tutar.
+Sonra, sözlük dosyasının içeriğini bir `HashSet<string>` içine **okumamız** gerekir. HashSet O(1) arama sağlar ve motorun iç kontrolleri için idealdir.
 
 ```csharp
-        // ---- Create an OCR engine instance ----
-        var ocrEngine = new OcrEngine();
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Çok dilli bir belge işliyorsanız, `ocrEngine.Language = OcrLanguage.Multilingual;` şeklinde ayarlayabilirsiniz. Varsayılan olarak İngilizce kabul eder, bu da çoğu ekran görüntüsü ve taranmış fatura için işe yarar.
+> **İpucu:**  
+> Sözlük dosyasını UTF‑8 kodlamalı tutun ve boş satırlardan kaçının; bunlar boş string olarak algılanır ve motoru şaşırtabilir.
 
-## Adım 4: JPEG Görüntünüzden Metni Tanıyın
+## Adım 3: Görüntüyü Yükle – Metni Nasıl Çıkarırsınız
 
-İşte öğreticinin özü—bir görüntüyü motorun içine beslemek ve tanınan dizeyi almak. `ImageStream.FromFile` yardımcı işlevi dosya okuma ayrıntılarını soyutlar, böylece OCR akışına odaklanabilirsiniz.
+Şimdi işlemek istediğimiz görüntüyü besliyoruz. Aspose, dosya işlemlerini soyutlamak için `ImageStream` kullanır.
 
 ```csharp
-        // ---- Recognize text from an image file ----
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Kenar durumu:** JPEG dosyanız çok büyükse (5 MB'den fazla), önce yeniden boyutlandırmayı düşünün. Büyük görüntüler bellek baskısına neden olabilir ve doğruluğu düşürebilir. `Recognize` çağırmadan önce `System.Drawing` veya `ImageSharp` kullanarak hızlı bir yeniden boyutlandırma genellikle daha iyi sonuç verir.
+> **Köşe durumu:**  
+> Görüntünüz 2000 × 2000 pikselden büyükse, önce ölçek küçültmeyi düşünün. Çok büyük görüntüler doğruluğu artırmadan tanıma süresini uzatır.
 
-## Adım 5: Sonucu Çıktılayın
+## Adım 4: OCR İşlemini Çalıştır – Düz Metni Çıkar
 
-Son olarak, çıkarılan metni konsola yazdırın. Gerçek bir uygulamada bunu bir veritabanına kaydedebilir, bir çeviri API'sine gönderebilir veya bir arama indeksine besleyebilirsiniz.
+Her şey hazır olduğunda `Recognize` metodunu çağırın. Bu metod, ham ve temizlenmiş metni içeren bir `OcrResult` nesnesi döndürür.
 
 ```csharp
-        // ---- Output the recognized text to the console ----
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-### Beklenen Çıktı
-
-`sample.jpg` dosyası “Hello World!” ifadesini içeriyorsa, aşağıdakine benzer bir şey görmelisiniz:
-
-```
-=== OCR Result ===
-Hello World!
-```
-
-Çıktı satır sonları veya ekstra boşluklar içerebilir; gerektiğinde `string.Trim()` veya düzenli ifadelerle temizleyebilirsiniz.
+> **Gördükleriniz:**  
+> Konsol, satır sonlarını koruyan temiz bir metin yazdırır. Özel sözlüğünüzde “Aspose” ve “OCR” varsa, bu kelimeler görüntü hafif gürültülü olsa bile tam olarak tanımlandığınız gibi görünür.
 
 ## Tam Çalışan Örnek
 
-Aşağıda, yukarıdaki tüm adımları içeren, kopyala‑yapıştır hazır tam program yer alıyor. `YOUR_DIRECTORY` ifadesini `sample.jpg` dosyasını içeren klasörle değiştirin ve gerçek Base64 lisans dizesini ekleyin.
+Aşağıda **tam, kopyala‑yapıştır hazır** program yer alıyor. `YOUR_DIRECTORY` kısmını sözlük ve görüntüyü sakladığınız gerçek klasör yolu ile değiştirin.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Retrieve the Base64‑encoded license string (e.g., from configuration)
-        string licenseBase64 = "UEsDBBQAAAAIA..."; // <-- your license here
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Apply the license so the OCR library runs in licensed mode
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 
-        // Step 3: Create an OCR engine instance
-        var ocrEngine = new OcrEngine();
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 
-        // Optional: set language if you need non‑English text
-        // ocrEngine.Language = OcrLanguage.Multilingual;
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-        // Step 4: Recognize text from an image file (JPEG, PNG, BMP, etc.)
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
-
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Bunu `Program.cs` olarak kaydedin, `dotnet run` komutunu çalıştırın ve konsolun çıkarılan karakterleri yazdırmasını izleyin. Bu, **görüntüyü metne dönüştürme** sürecinin tamamı, 30 satırdan az kodla.
+**Beklenen çıktı** (görüntü “Welcome to Aspose OCR Demo” içeriyorsa)  
 
-## Yaygın Sorular & Sorun Giderme
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-| Question | Answer |
-|----------|--------|
-| **Bozuk çıktı alırsam ne olur?** | Görüntü kalitesini kontrol edin—bulanık veya düşük kontrastlı fotoğraflar kötü sonuç verir. Keskinleştirme ile ön işleme yapın veya DPI'yi ≥300'e yükseltin. |
-| **PNG veya BMP dosyalarını işleyebilir miyim?** | Kesinlikle. `ImageStream.FromFile`, .NET'in `System.Drawing` tarafından desteklenen herhangi bir formatı kabul eder. |
-| **Çok sayfalı bir PDF'den metni nasıl çıkarırım?** | Her sayfayı bir görüntüye dönüştürün (ör. Aspose.PDF kullanarak) ve her görüntüyü aynı OCR akışına besleyin. |
-| **Ücretsiz bir alternatif var mı?** | Aspose 30 günlük bir deneme sunar, ancak üretim için filigranlardan kaçınmak amacıyla bir lisansa ihtiyacınız olacak. |
-| **Sağdan sola diller ne durumda?** | Doğruluğu artırmak için `ocrEngine.Language = OcrLanguage.Arabic;` (veya uygun dili) ayarlayın. |
+“Aspose” sözlüğünüzde yer alıyorsa, hafif bir bulanıklık olsa bile yazım mükemmel olur.
 
-## Sonraki Adımlar: Temel OCR'ın Ötesine Geçmek
+## Sık Sorulan Sorular
 
-Artık **görüntüden metin tanıyabildiğinize** göre, şu uzantıları düşünün:
+### **Sözlük dosyasını** farklı kodlamalarla nasıl okurum?
+`File.ReadAllLines(path, Encoding.UTF8)` (veya `Encoding.Unicode`) kullanarak dosyanın kodlamasını eşleştirin. Bu, gizli karakterlerin `HashSet` içine sızmasını önler.
 
-1. **Toplu işleme** – JPG dosyalarının bulunduğu bir klasörü döngüye alarak otomatik olarak **jpg'den metin çıkarma** işlemi yapın.
-2. **Son işlem** – Telefon numaraları, tarihleri veya fatura tutarlarını çıkarmak için düzenli ifadeler kullanın.
-3. **Azure Cognitive Services ile entegrasyon** – Yapılandırılmış veri çıkarımı için Aspose OCR'yi Azure Form Recognizer ile birleştirin.
-4. **Performans ayarı** – Büyük görüntü setlerini işlerken çoklu iş parçacığını (`Parallel.ForEach`) etkinleştirin.
+### OCR sonucu hâlâ sözlüğümdeki bir kelimeyi kaçırıyorsa ne yapmalıyım?
+Kelimenin büyük/küçük harf durumunun sözlük girdisiyle eşleştiğinden emin olun veya `ocrEngine.Configuration.IgnoreCase = true` ayarını yapın. Ayrıca en iyi sonuç için görüntü çözünürlüğünün en az 300 dpi olduğundan emin olun.
 
-Bu konuların her biri, yeni öğrendiğiniz temel kavramların üzerine doğal olarak inşa edilir ve hepsi aynı merkezi fikir etrafında döner: görsel içeriği aranabilir, düzenlenebilir metne dönüştürmek.
+### PDF yerine **düz metin çıkarabilir** miyim?
+Evet—Aspose.PDF her sayfayı bir görüntüye dönüştürüp aynı OCR boru hattına besleyebilir. İş akışı aynı; sadece bir PDF‑to‑image dönüşüm adımı eklemeniz gerekir.
+
+### Çalışma zamanında birden çok dil için **özel sözlük nasıl eklenir**?
+Kesinlikle. Dil başına ayrı bir `HashSet<string>` oluşturun ve her `Recognize` çağrısından önce `ocrEngine.Configuration.CustomDictionary` değerini değiştirin.
+
+## Daha İyi Doğruluk İçin İpuçları ve Püf Noktaları
+
+- **Görüntüyü ön‑işleyin**: Gri tonlamaya çevirin, kontrastı artırın veya hafif bir Gaussian bulanıklığı uygulayarak lekeleri giderin.
+- **Toplu işleme**: Yüzlerce görüntünüz varsa aynı `OcrEngine` örneğini yeniden kullanın; her seferinde yeniden başlatmak gereksiz yük oluşturur.
+- **Ham OCR verisini kaydedin**: `ocrResult.TextLines` satır‑satır güven skorlarını verir; bu, sonrası işleme veya düşük güvenilir sonuçları işaretleme için faydalıdır.
+
+## Sonraki Adımlar
+
+Artık **metni nasıl çıkarırsınız** ve **özel sözlük nasıl eklenir** bildiğinize göre aşağıdaki konulara göz atabilirsiniz:
+
+1. **ASP.NET Core ile bütünleştirme** – bir API uç noktası oluşturup görüntüyü alıp JSON‑formatlı OCR sonucu döndürün.  
+2. **Entity Framework ile birleştirme** – çıkarılan düz metni doğrudan aranabilir kayıtlar için bir veritabanına kaydedin.  
+3. **Dil algılama keşfi** – algılanan dil koduna göre sözlükleri otomatik değiştiren bir sistem geliştirin.
+
+Bu konular, bu kılavuzda oluşturduğunuz temelin üzerine inşa edilerek basit bir **görüntüden metin tanıma** kod parçasını üretim‑hazır bir servise dönüştürmenizi sağlar.
 
 ---
 
-### TL;DR
-
-Artık Aspose OCR kullanarak C#'ta **görüntüden metin tanıma** yöntemini biliyorsunuz. Öğreticide Base64 lisans yükleme, bir `OcrEngine` oluşturma, JPEG besleme ve sonucu yazdırma konuları ele alındı—temelde **jpg'den metin çıkarma** ve **görüntüyü metne dönüştürme** sürecinin tamamı. Dil ayarlarıyla oynayın, toplu işleyin ve herhangi bir **görüntü metnini nasıl çıkarırım** sorunu için sağlam bir çözüm elde edin.
-
-Kodlamaktan keyif alın, ve herhangi bir sorunla karşılaşırsanız yorum bırakmaktan çekinmeyin!
+*İyi kodlamalar! Bir sorunla karşılaşırsanız aşağıya yorum bırakın ya da daha derin yapılandırma seçenekleri için Aspose.OCR belgelerine göz atın. Unutmayın, iyi hazırlanmış bir özel sözlük genellikle ortalama OCR’yi bıçak gibi keskin metin çıkarımına dönüştüren gizli sosdur.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

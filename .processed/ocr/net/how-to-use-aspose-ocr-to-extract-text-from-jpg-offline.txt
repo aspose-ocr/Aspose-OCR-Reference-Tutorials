@@ -1,0 +1,7 @@
+Title: How to Use Aspose OCR to Extract Text from JPG Offline
+Slug: how-to-use-aspose-ocr-to-extract-text-from-jpg-offline
+Category: text-recognition
+ProcessedDate: 2026-05-31T19:26:47.131240
+SourceRepo: AI Search API
+Keywords: how to use aspose, extract text from jpg, load image for ocr, ocr without internet
+PRNumber: 135

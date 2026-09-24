@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-02-17
-description: เรียนรู้วิธีจดจำข้อความจากภาพใน C# ด้วย Aspose OCR ดูวิธีดึงข้อความจากไฟล์
-  JPG แปลงภาพเป็นข้อความ และวิธีดึงข้อความจากภาพอย่างมีประสิทธิภาพ.
+date: 2026-02-09
+description: เรียนรู้วิธีการจดจำข้อความจากภาพและสกัดข้อความธรรมดาโดยใช้พจนานุกรมกำหนดเองใน
+  C# รวมถึงโค้ดและเคล็ดลับแบบขั้นตอนต่อขั้นตอน
 draft: false
 keywords:
 - recognize text from image
-- extract text from jpg
-- convert image to text
-- how to extract image text
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: th
-og_description: เรียนรู้วิธีการจดจำข้อความจากภาพใน C# ด้วย Aspose OCR บทเรียนทีละขั้นตอนนี้ยังครอบคลุมการดึงข้อความจากไฟล์
-  JPG และการแปลงภาพเป็นข้อความ
-og_title: แยกข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์
+og_description: จดจำข้อความจากภาพใน C# ด้วย Aspose OCR. ทำตามคำแนะนำนี้เพื่อดึงข้อความธรรมดาและเพิ่มพจนานุกรมกำหนดเองเพื่อความแม่นยำที่ดียิ่งขึ้น.
+og_title: แปลงข้อความจากภาพ – คอร์สเต็ม C#
 tags:
-- Aspose OCR
+- OCR
 - C#
-- Image Processing
-title: ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์
+- Aspose
+title: แยกข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์
 url: /th/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -25,174 +25,177 @@ url: /th/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จดจำข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์
+# การจดจำข้อความจากภาพ – คำแนะนำเต็ม C#
 
-เคยต้อง **จดจำข้อความจากภาพ** แต่ไม่แน่ใจว่าจะเลือกไลบรารีไหนไหม? คุณไม่ได้เป็นคนเดียว—นักพัฒนามักถามว่า “จะดึงข้อความจาก jpg อย่างไรโดยไม่ต้องเขียน neural net เอง?” ข่าวดีคือ Aspose OCR ทำงานหนักให้คุณ ช่วย **แปลงภาพเป็นข้อความ** เพียงไม่กี่บรรทัดของ C#.
+เคยต้องการ **recognize text from image** แต่ผลลัพธ์มักพลาดคำเฉพาะด้านหรือไม่? คุณไม่ได้เป็นคนเดียว ในหลายโครงการ—การสแกนใบแจ้งหนี้, การอ่านป้าย, หรือเพียงดึงคำบรรยายจากภาพหน้าจอ—เครื่อง OCR เริ่มต้นก็ไม่ฉลาดพอกับคำศัพท์ของคุณ  
 
-ในบทเรียนนี้เราจะเดินผ่านตัวอย่างจริงที่แสดงวิธี **จดจำข้อความจากภาพ**, วิธี **ดึงข้อความจาก jpg**, และแม้กระทั่งตอบคำถาม “**วิธีดึงข้อความจากภาพ**” ให้คุณ เมื่อเสร็จแล้วคุณจะมีแอปคอนโซลที่พร้อมรัน, เคล็ดลับปฏิบัติหลายอย่าง, และความเข้าใจที่ชัดเจนว่าจะปรับอะไรสำหรับกรณีขอบ
+ข่าวดีคืออะไร? ด้วยการโหลด **custom dictionary** คุณสามารถปรับปรุงความแม่นยำได้อย่างมาก และแน่นอนว่า **extract plain text** ได้ในขั้นตอนเดียวที่เรียบง่าย ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการทั้งหมด ตั้งแต่การอ่านไฟล์พจนานุกรมจนถึงการพิมพ์ผลลัพธ์ OCR โดยใช้ Aspose.OCR ใน C#  
 
-## สิ่งที่คุณต้องมี
+เราจะตอบคำถามที่ค้างคา “**how to add custom dictionary**” ให้คุณ แสดงวิธี **how to extract text** อย่างมีประสิทธิภาพ และชี้ให้เห็นข้อผิดพลาดทั่วไป เพื่อให้คุณไม่ต้องเสียเวลาอีกชั่วโมงในการปรับแต่งการตั้งค่า  
 
-ก่อนที่เราจะลงลึก, ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
+## สิ่งที่คุณต้องการ
 
-| ข้อกำหนด | เหตุผล |
-|--------------|--------|
-| .NET 6.0 SDK (หรือใหม่กว่า) | ฟีเจอร์ภาษาใหม่และการสร้างโปรเจกต์ที่ง่าย |
-| Visual Studio 2022 (หรือ VS Code) | IDE สำหรับดีบักอย่างรวดเร็ว |
-| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | ไลบรารีที่ทำ OCR จริง |
-| ตัวอย่างไฟล์ JPEG (`sample.jpg`) | ภาพใด ๆ ที่มีข้อความอ่านได้ |
+- **.NET 6+** (ทำงานได้กับ runtime ล่าสุดใดก็ได้)
+- **Aspose.OCR for .NET** NuGet package  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- ไฟล์ **text file** (`custom_dictionary.txt`) ที่มีหนึ่งคำต่อหนึ่งบรรทัด – คำเหล่านี้คือคำที่คุณคาดว่าจะพบ
+- **image** (`input_image.png`) ที่มีข้อความที่คุณต้องการจดจำ  
 
-แค่นั้นเอง—ไม่มี dependency เนทีฟเพิ่มเติม, ไม่มีสคริปต์ Python ขนาดใหญ่ เพียงแอปคอนโซล C# ง่าย ๆ
+ไม่มีไลบรารีเพิ่มเติม ไม่มีบริการภายนอก เพียงแค่ C# แท้และ Aspose  
 
-> **เคล็ดลับ:** หากคุณวางแผนรันบน Linux, ตรวจสอบให้แน่ใจว่าได้ติดตั้งแพคเกจ `libgdiplus` แล้ว; Aspose OCR ใช้ GDI+ อยู่เบื้องหลัง
+## ขั้นตอนที่ 1: Initialise the OCR Engine – Recognize Text from Image
 
-## ขั้นตอนที่ 1: ตั้งค่าโปรเจกต์และเพิ่ม Aspose OCR
-
-แรกเริ่ม, สร้างโปรเจกต์คอนโซลใหม่:
-
-```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
-dotnet add package Aspose.OCR
-```
-
-คำสั่ง `dotnet add package` จะดึงเวอร์ชันเสถียรล่าสุด (ขณะนี้ 23.9) การอัปเดตไลบรารีช่วยให้คุณได้แพ็คภาษาและการปรับปรุงประสิทธิภาพใหม่ ๆ
-
-## ขั้นตอนที่ 2: โหลดใบอนุญาตจากสตริง Base64
-
-หากคุณมีใบอนุญาต Aspose แบบจ่ายเงิน, ปกติจะเก็บเป็นสตริง Base64 ในไฟล์คอนฟิกหรือ environment variable การโหลดแบบนี้ช่วยหลีกเลี่ยงการแจกจ่ายไฟล์ `.lic` ดิบพร้อมไบนารีของคุณ
+สิ่งแรกที่คุณทำคือสร้าง `OcrEngine` ขึ้นมา วัตถุนี้เก็บตัวเลือกการกำหนดค่าทั้งหมด รวมถึง **custom dictionary** ที่เราจะใส่เข้าไปในภายหลัง  
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // ---- Retrieve the Base64‑encoded license string (e.g., from appsettings.json) ----
-        // Replace the placeholder with your actual license string.
-        string licenseBase64 = "UEsDBBQAAAAIA...";
-
-        // ---- Apply the license so the OCR library runs in licensed mode ----
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **ทำไมถึงสำคัญ:** ใน **โหมดลิขสิทธิ์** Aspose OCR จะปิดการแสดงลายน้ำประเมินผลและปลดล็อกฟีเจอร์เต็มชุด ซึ่งจำเป็นเมื่อคุณต้องการผลลัพธ์ **ดึงข้อความจาก jpg** ที่เชื่อถือได้สำหรับการผลิต
+> **ทำไมเรื่องนี้ถึงสำคัญ:**  
+> หากไม่มีอินสแตนซ์ของ engine คุณจะไม่มีบริบทสำหรับการตั้งค่าเช่น ภาษา, DPI, หรือรายการคำที่กำหนดเอง คิดว่า `OcrEngine` เป็นสมองที่จะทำให้ **recognize text from image** ในภายหลัง  
 
-## ขั้นตอนที่ 3: สร้างอินสแตนซ์ OcrEngine
+## ขั้นตอนที่ 2: Read the Dictionary File – How to Add Custom Dictionary
 
-เมื่อใบอนุญาตทำงานแล้ว, สร้างเอนจิน OCR อินสแตนซ์ วัตถุนี้เก็บการตั้งค่าต่าง ๆ ที่คุณอาจปรับในภายหลัง (ภาษา, DPI, ฯลฯ)
+ต่อไป เราต้อง **read dictionary file** เนื้อหาเข้าไปใน `HashSet<string>` ชุดแฮชให้การค้นหา O(1) ซึ่งเหมาะอย่างยิ่งสำหรับการตรวจสอบภายในของ engine  
 
 ```csharp
-        // ---- Create an OCR engine instance ----
-        var ocrEngine = new OcrEngine();
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-หากคุณกำลังประมวลผลเอกสารหลายภาษา, สามารถตั้งค่า `ocrEngine.Language = OcrLanguage.Multilingual;` ได้ โดยค่าเริ่มต้นจะถือว่าเป็นภาษาอังกฤษ ซึ่งทำงานได้ดีกับภาพหน้าจอและใบแจ้งหนี้ที่สแกนส่วนใหญ่
+> **เคล็ดลับ:**  
+> เก็บไฟล์พจนานุกรมเป็น UTF‑8 และหลีกเลี่ยงบรรทัดว่าง; บรรทัดเหล่านั้นจะถูกตีความเป็นสตริงว่างและอาจทำให้ engine สับสน  
 
-## ขั้นตอนที่ 4: จดจำข้อความจากไฟล์ JPEG ของคุณ
+## ขั้นตอนที่ 3: Load the Image – How to Extract Text
 
-นี่คือหัวใจของบทเรียน—ส่งภาพให้เอนจินและดึงสตริงที่จดจำได้ ตัวช่วย `ImageStream.FromFile` จัดการอ่านไฟล์ให้คุณโฟกัสที่กระบวนการ OCR
+ตอนนี้เราจะป้อนภาพที่ต้องการประมวลผล Aspose ใช้ `ImageStream` เพื่อแยกการจัดการไฟล์ออก  
 
 ```csharp
-        // ---- Recognize text from an image file ----
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **กรณีขอบ:** หาก JPEG ของคุณใหญ่เกิน (มากกว่า 5 MB) ควรปรับขนาดก่อน ภาพขนาดใหญ่ทำให้ใช้หน่วยความจำมากและอาจลดความแม่นยำ การปรับขนาดอย่างรวดเร็วด้วย `System.Drawing` หรือ `ImageSharp` ก่อนเรียก `Recognize` มักให้ผลลัพธ์ที่ดีกว่า
+> **กรณีพิเศษ:**  
+> หากภาพของคุณใหญ่กว่า 2000 × 2000 พิกเซล ควรลดขนาดลงก่อน ภาพที่ใหญ่เกินไปอาจทำให้การจดจำช้าลงโดยไม่เพิ่มความแม่นยำ  
 
-## ขั้นตอนที่ 5: แสดงผลลัพธ์
+## ขั้นตอนที่ 4: Run the OCR Process – Extract Plain Text
 
-สุดท้าย, พิมพ์ข้อความที่ดึงได้ลงคอนโซล ในแอปจริงคุณอาจบันทึกลงฐานข้อมูล, ส่งต่อไปยัง API แปลภาษา, หรือใส่ในดัชนีการค้นหา
+เมื่อทุกอย่างพร้อมแล้ว ให้เรียก `Recognize` เมธอดนี้จะคืนค่าเป็นอ็อบเจกต์ `OcrResult` ที่เก็บข้อความดิบและข้อความที่ทำความสะอาดแล้ว  
 
 ```csharp
-        // ---- Output the recognized text to the console ----
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-### ผลลัพธ์ที่คาดหวัง
-
-หาก `sample.jpg` มีข้อความ “Hello World!” คุณควรเห็นอย่างประมาณนี้:
-
-```
-=== OCR Result ===
-Hello World!
-```
-
-ผลลัพธ์อาจมีการขึ้นบรรทัดใหม่หรือช่องว่างเพิ่ม; คุณสามารถทำความสะอาดด้วย `string.Trim()` หรือ regex หากต้องการ
+> **สิ่งที่คุณจะเห็น:**  
+> คอนโซลจะแสดงข้อความที่สะอาดและคงการขึ้นบรรทัดไว้ หากพจนานุกรมของคุณมี “Aspose” และ “OCR” คำเหล่านั้นจะปรากฏตามที่คุณกำหนดแม้ภาพจะมีสัญญาณรบกวนเล็กน้อย  
 
 ## ตัวอย่างทำงานเต็มรูปแบบ
 
-ด้านล่างเป็นโปรแกรมพร้อมคัดลอก‑วางที่รวมทุกขั้นตอนข้างต้น แทนที่ `YOUR_DIRECTORY` ด้วยโฟลเดอร์ที่เก็บ `sample.jpg` และใส่สตริง Base64 ของใบอนุญาตจริงของคุณ
+ด้านล่างเป็นโปรแกรม **complete, copy‑and‑paste ready** ที่พร้อมคัดลอกและวาง แทนที่ `YOUR_DIRECTORY` ด้วยเส้นทางโฟลเดอร์จริงที่คุณเก็บพจนานุกรมและภาพ  
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Retrieve the Base64‑encoded license string (e.g., from configuration)
-        string licenseBase64 = "UEsDBBQAAAAIA..."; // <-- your license here
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Apply the license so the OCR library runs in licensed mode
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 
-        // Step 3: Create an OCR engine instance
-        var ocrEngine = new OcrEngine();
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 
-        // Optional: set language if you need non‑English text
-        // ocrEngine.Language = OcrLanguage.Multilingual;
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-        // Step 4: Recognize text from an image file (JPEG, PNG, BMP, etc.)
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
-
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-บันทึกเป็น `Program.cs`, รัน `dotnet run`, แล้วดูคอนโซลพิมพ์อักขระที่ดึงได้ นั่นคือกระบวนการ **แปลงภาพเป็นข้อความ** ทั้งหมดในไม่ถึง 30 บรรทัดของโค้ด
+**ผลลัพธ์ที่คาดหวัง** (assuming the image contains “Welcome to Aspose OCR Demo”)  
 
-## คำถามที่พบบ่อย & การแก้ไขปัญหา
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-| คำถาม | คำตอบ |
-|----------|--------|
-| **ถ้าผลลัพธ์เป็นอักขระผสม?** | ตรวจสอบคุณภาพภาพ—ภาพเบลอหรือคอนทราสต์ต่ำให้ผลลัพธ์แย่ ใช้การปรับความคมชัดหรือเพิ่ม DPI ให้ ≥300 |
-| **ฉันสามารถประมวลผลไฟล์ PNG หรือ BMP ได้ไหม?** | ทำได้เลย. `ImageStream.FromFile` รองรับฟอร์แมตใด ๆ ที่ `System.Drawing` ของ .NET รองรับ |
-| **จะดึงข้อความจาก PDF หลายหน้าอย่างไร?** | แปลงแต่ละหน้าเป็นภาพ (เช่นใช้ Aspose.PDF) แล้วส่งแต่ละภาพเข้าสู่กระบวนการ OCR เดียวกัน |
-| **มีทางเลือกฟรีหรือไม่?** | Aspose มี trial 30‑วัน, แต่สำหรับการผลิตต้องมีใบอนุญาตเพื่อหลีกเลี่ยงลายน้ำ |
-| **ภาษาขวา‑ซ้ายล่ะ?** | ตั้งค่า `ocrEngine.Language = OcrLanguage.Arabic;` (หรือภาษาที่ต้องการ) เพื่อเพิ่มความแม่นยำ |
+หาก “Aspose” อยู่ในพจนานุกรมของคุณ การสะกดจะสมบูรณ์แบบแม้ภาพจะมีการเบลอเล็กน้อย  
 
-## ขั้นตอนต่อไป: ไปไกลกว่าการ OCR พื้นฐาน
+## คำถามที่พบบ่อย
 
-เมื่อคุณสามารถ **จดจำข้อความจากภาพ** แล้ว, ลองขยายต่อด้วย:
+### ฉันจะ **read dictionary file** ด้วยการเข้ารหัสที่ต่างกันได้อย่างไร?
 
-1. **ประมวลผลแบบชุด** – วนลูปโฟลเดอร์ของไฟล์ JPG เพื่อ **ดึงข้อความจาก jpg** อัตโนมัติ
-2. **หลังการประมวลผล** – ใช้ regex ดึงหมายเลขโทรศัพท์, วันที่, หรือยอดเงินในใบแจ้งหนี้
-3. **ผสานกับ Azure Cognitive Services** – รวม Aspose OCR กับ Azure Form Recognizer เพื่อดึงข้อมูลเชิงโครงสร้าง
-4. **ปรับประสิทธิภาพ** – เปิดใช้ multi‑threading (`Parallel.ForEach`) เมื่อจัดการชุดภาพขนาดใหญ่
+ใช้ `File.ReadAllLines(path, Encoding.UTF8)` (หรือ `Encoding.Unicode`) ให้ตรงกับการเข้ารหัสของไฟล์ วิธีนี้จะป้องกันอักขระที่ซ่อนอยู่ไม่ให้แทรกเข้าไปใน `HashSet`  
 
-หัวข้อเหล่านี้ต่อยอดจากแนวคิดหลักที่คุณเรียนรู้แล้ว, ทั้งหมดอิงกับแนวคิดเดียวกัน: แปลงเนื้อหาภาพให้เป็นข้อความที่ค้นหาและแก้ไขได้
+### ถ้าผลลัพธ์ OCR ยังพลาดคำจากพจนานุกรมของฉันจะทำอย่างไร?
+
+ตรวจสอบให้แน่ใจว่าตัวอักษรของคำตรงกับรายการในพจนานุกรม หรือกำหนด `ocrEngine.Configuration.IgnoreCase = true` นอกจากนี้ ให้ตรวจสอบว่าความละเอียดของภาพอย่างน้อย 300 dpi เพื่อผลลัพธ์ที่ดีที่สุด  
+
+### ฉันสามารถ **extract plain text** จาก PDF แทนภาพได้หรือไม่?
+
+ได้—Aspose.PDF สามารถเรนเดอร์แต่ละหน้าเป็นภาพ แล้วป้อนภาพเหล่านั้นเข้าสู่กระบวนการ OCR เดียวกัน ขั้นตอนทำงานเหมือนเดิม; คุณเพียงเพิ่มขั้นตอนแปลง PDF เป็นภาพ  
+
+### มีวิธี **how to add custom dictionary** ในเวลารันสำหรับหลายภาษาไหม?
+
+แน่นอน สร้าง `HashSet<string>` แยกตามภาษาและสลับ `ocrEngine.Configuration.CustomDictionary` ก่อนแต่ละการเรียก `Recognize`  
+
+## เคล็ดลับและเทคนิคเพื่อความแม่นยำที่ดียิ่งขึ้น
+
+- **Pre‑process the image**: แปลงเป็นระดับสีเทา, เพิ่มคอนทราสต์, หรือใช้ Gaussian blur เล็กน้อยเพื่อกำจัดจุดรบกวน  
+- **Batch processing**: หากคุณมีหลายสิบภาพ ให้ใช้อินสแตนซ์ `OcrEngine` เดียวกันซ้ำ; การเริ่มต้นใหม่ทุกครั้งจะเพิ่มภาระที่ไม่จำเป็น  
+- **Log the raw OCR data**: `ocrResult.TextLines` ให้คะแนนความเชื่อมั่นต่อบรรทัด ซึ่งมีประโยชน์สำหรับการประมวลผลต่อหรือการทำเครื่องหมายผลลัพธ์ที่ความเชื่อมั่นต่ำ  
+
+## ขั้นตอนต่อไป
+
+เมื่อคุณรู้แล้วว่า **how to extract text** และ **how to add custom dictionary** ให้พิจารณาหัวข้อต่อไปนี้:
+
+1. **Integrate with ASP.NET Core** – เปิดเผย endpoint API ที่รับภาพและคืนผลลัพธ์ OCR ในรูปแบบ JSON  
+2. **Combine with Entity Framework** – เก็บข้อความที่ดึงออกมาโดยตรงลงในฐานข้อมูลเพื่อให้ค้นหาได้  
+3. **Explore language detection** – สลับพจนานุกรมโดยอัตโนมัติตามรหัสภาษาที่ตรวจพบ  
+
+แต่ละหัวข้อนี้ต่อยอดจากพื้นฐานที่วางไว้ในคู่มือนี้ ทำให้คุณเปลี่ยนโค้ดสั้น ๆ **recognize text from image** ให้เป็นบริการที่พร้อมใช้งานในระดับผลิตภัณฑ์  
 
 ---
 
-### TL;DR
-
-คุณได้เรียนรู้วิธี **จดจำข้อความจากภาพ** ด้วย Aspose OCR ใน C# บทเรียนครอบคลุมการโหลดใบอนุญาต Base64, การสร้าง `OcrEngine`, การป้อน JPEG, และการพิมพ์ผลลัพธ์—โดยสรุปคือกระบวนการ **ดึงข้อความจาก jpg** และ **แปลงภาพเป็นข้อความ** ทั้งหมด ทดลองปรับตั้งค่าภาษา, ทำเป็นชุด, และคุณจะมีโซลูชันที่แข็งแรงสำหรับทุกความท้าทาย **วิธีดึงข้อความจากภาพ** 
-
-ขอให้สนุกกับการเขียนโค้ด, และอย่าลังเลที่จะคอมเมนต์หากเจออุปสรรคใด ๆ!
+*ขอให้สนุกกับการเขียนโค้ด! หากเจออุปสรรคใด ๆ ฝากคอมเมนต์ด้านล่างหรือดูเอกสาร Aspose.OCR เพื่อดูตัวเลือกการกำหนดค่าที่ลึกขึ้น จำไว้ว่า พจนานุกรมที่ออกแบบอย่างดีมักเป็นส่วนผสมลับที่ทำให้ OCR ธรรมดากลายเป็นการสกัดข้อความที่คมชัดเหมือนมีคมดาบ*  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

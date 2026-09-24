@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-02-17
-description: Naučte se rozpoznávat text z obrázku v C# pomocí Aspose OCR. Také se
-  podívejte, jak extrahovat text z JPG, převést obrázek na text a jak efektivně extrahovat
-  text z obrázku.
+date: 2026-02-09
+description: Naučte se rozpoznávat text z obrázku a extrahovat prostý text pomocí
+  vlastního slovníku v C#. Obsahuje krok‑za‑krokem kód a tipy.
 draft: false
 keywords:
 - recognize text from image
-- extract text from jpg
-- convert image to text
-- how to extract image text
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: cs
-og_description: Naučte se rozpoznávat text z obrázku v C# pomocí Aspose OCR. Tento
-  krok‑za‑krokem tutoriál také pokrývá extrakci textu z JPG a převod obrázku na text.
-og_title: Rozpoznání textu z obrázku pomocí Aspose OCR – kompletní průvodce C#
+og_description: Rozpoznávejte text z obrázku v C# pomocí Aspose OCR. Postupujte podle
+  tohoto návodu, abyste extrahovali prostý text a přidali vlastní slovník pro vyšší
+  přesnost.
+og_title: Rozpoznat text z obrázku – kompletní C# tutoriál
 tags:
-- Aspose OCR
+- OCR
 - C#
-- Image Processing
-title: Rozpoznat text z obrázku pomocí Aspose OCR – Kompletní průvodce C#
+- Aspose
+title: Rozpoznání textu z obrázku s Aspose OCR – Kompletní průvodce C#
 url: /cs/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -26,174 +27,177 @@ url: /cs/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# rozpoznat text z obrázku pomocí Aspose OCR – Kompletní průvodce C#
+# Rozpoznání textu z obrázku – kompletní C# tutoriál
 
-Už jste někdy potřebovali **rozpoznat text z obrázku**, ale nebyli jste si jisti, kterou knihovnu zvolit? Nejste jediní – vývojáři se stále ptají: „Jak získat text z jpg bez psaní vlastní neuronové sítě?“ Dobrou zprávou je, že Aspose OCR za vás udělá těžkou práci a umožní vám **převést obrázek na text** během několika řádků C#.
+Už jste někdy potřebovali **rozpoznat text z obrázku**, ale výsledky stále chyběly u specifických slov? Nejste v tom sami. V mnoha projektech—skenování faktur, čtení štítků nebo prosté získávání titulků ze screenshotů—výchozí OCR engine prostě není dostatečně chytrý na vaši slovní zásobu.  
 
-V tomto tutoriálu projdeme reálný příklad, který ukazuje, jak **rozpoznat text z obrázku**, jak **extrahovat text z jpg** a dokonce odpoví na otázku „**jak extrahovat text z obrázku**“. Na konci budete mít připravenou konzolovou aplikaci, několik praktických tipů a jasnou představu, co ladit pro okrajové případy.
+Dobrá zpráva? Načtením **vlastního slovníku** můžete dramaticky zlepšit přesnost a samozřejmě **extrahovat čistý text** v jednom jednoduchém kroku. V tomto tutoriálu projdeme celý proces, od načtení souboru slovníku až po vytištění výsledku OCR, pomocí Aspose.OCR v C#.  
+
+Také odpovíme na dlouholetou otázku “**jak přidat vlastní slovník**”, ukážeme vám **jak efektivně extrahovat text** a upozorníme na časté úskalí, abyste neztráceli další hodinu laděním nastavení.
 
 ## Co budete potřebovat
 
-Než se ponoříme dál, ujistěte se, že máte následující:
+- **.NET 6+** (jakékoli aktuální runtime funguje)
+- **Aspose.OCR for .NET** NuGet package  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- **textový soubor** (`custom_dictionary.txt`) obsahující jedno slovo na řádek – jsou to termíny, které očekáváte.
+- **obrázek** (`input_image.png`), který obsahuje text, který chcete rozpoznat.
 
-| Předpoklad | Důvod |
-|--------------|--------|
-| .NET 6.0 SDK (nebo novější) | Moderní jazykové funkce a snadné vytvoření projektu |
-| Visual Studio 2022 (nebo VS Code) | IDE pro rychlé ladění |
-| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | Knihovna, která skutečně provádí OCR |
-| Ukázkový JPEG obrázek (`sample.jpg`) | Jakýkoli obrázek, který obsahuje čitelný text |
+Žádné další knihovny, žádné externí služby. Pouze čistý C# a Aspose.
 
-To je vše – žádné další nativní závislosti, žádné těžké Python skripty. Pouze jednoduchá C# konzolová aplikace.
+## Krok 1: Inicializace OCR Engine – Rozpoznání textu z obrázku
 
-> **Pro tip:** Pokud plánujete spustit tuto aplikaci na Linuxu, ujistěte se, že je nainstalován balíček `libgdiplus`; Aspose OCR používá pod kapotou GDI+.
-
-## Krok 1: Nastavení projektu a přidání Aspose OCR
-
-Nejprve vytvořte nový konzolový projekt:
-
-```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
-dotnet add package Aspose.OCR
-```
-
-Příkaz `dotnet add package` stáhne nejnovější stabilní verzi (aktuálně 23.9). Udržování knihovny aktuální zajišťuje nejnovější jazykové balíčky a vylepšení výkonu.
-
-## Krok 2: Načtení licence z Base64 řetězce
-
-Pokud máte placenou licenci Aspose, obvykle ji ukládáte jako Base64‑kódovaný řetězec v konfiguračním souboru nebo proměnné prostředí. Načtení tímto způsobem zabraňuje distribuci surového souboru `.lic` spolu s binárkami.
+Prvním krokem je vytvořit `OcrEngine`. Tento objekt obsahuje všechna konfigurační nastavení, včetně vlastního slovníku, který později vložíme.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // ---- Retrieve the Base64‑encoded license string (e.g., from appsettings.json) ----
-        // Replace the placeholder with your actual license string.
-        string licenseBase64 = "UEsDBBQAAAAIA...";
-
-        // ---- Apply the license so the OCR library runs in licensed mode ----
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Proč je to důležité:** V **licencovaném režimu** Aspose OCR vypíná evaluační vodoznaky a odemyká plnou sadu funkcí, což je nezbytné, když potřebujete spolehlivé výsledky **extrahovat text z jpg** pro produkci.
+> **Proč je to důležité:**  
+> Bez instance engine nemáte kontext pro nastavení jako jazyk, DPI nebo vlastní seznamy slov. Považujte `OcrEngine` za mozek, který později **rozpozná text z obrázku**.
 
-## Krok 3: Vytvoření instance OcrEngine
+## Krok 2: Načtení souboru slovníku – Jak přidat vlastní slovník
 
-Nyní, když je licence aktivní, vytvořte instanci OCR enginu. Tento objekt obsahuje všechna nastavení, která můžete později upravit (jazyk, DPI atd.).
+Dále potřebujeme **načíst obsah souboru slovníku** do `HashSet<string>`. Hash set poskytuje O(1) vyhledávání, což je ideální pro interní kontroly engine.
 
 ```csharp
-        // ---- Create an OCR engine instance ----
-        var ocrEngine = new OcrEngine();
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Pokud zpracováváte vícejazyčný dokument, můžete nastavit `ocrEngine.Language = OcrLanguage.Multilingual;`. Ve výchozím nastavení předpokládá angličtinu, což funguje pro většinu screenshotů a naskenovaných faktur.
+> **Tip:**  
+> Udržujte soubor slovníku kódovaný v UTF‑8 a vyhněte se prázdným řádkům; budou považovány za prázdné řetězce a mohou engine zmást.
 
-## Krok 4: Rozpoznání textu z vašeho JPEG obrázku
+## Krok 3: Načtení obrázku – Jak extrahovat text
 
-Zde je jádro tutoriálu – předání obrázku enginu a získání rozpoznaného řetězce. Pomocná metoda `ImageStream.FromFile` abstrahuje detaily čtení souboru, takže se můžete soustředit na OCR tok.
+Nyní načteme obrázek, který chceme zpracovat. Aspose používá `ImageStream` k abstrakci manipulace se soubory.
 
 ```csharp
-        // ---- Recognize text from an image file ----
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Okrajový případ:** Pokud je váš JPEG velmi velký (více než 5 MB), zvažte jeho předchozí zmenšení. Velké obrázky mohou způsobit tlak na paměť a snížit přesnost. Rychlé zmenšení pomocí `System.Drawing` nebo `ImageSharp` před voláním `Recognize` často přináší lepší výsledky.
+> **Hraniční případ:**  
+> Pokud je váš obrázek větší než 2000 × 2000 pixelů, zvažte jeho nejprve zmenšení. Příliš velké obrázky mohou zpomalit rozpoznávání, aniž by zlepšily přesnost.
 
-## Krok 5: Výstup výsledku
+## Krok 4: Spuštění OCR procesu – Extrahování čistého textu
 
-Nakonec vypište extrahovaný text do konzole. Ve skutečné aplikaci jej můžete uložit do databáze, předat překladovému API nebo vložit do vyhledávacího indexu.
+Po připravení všeho zavolejte `Recognize`. Tato metoda vrací objekt `OcrResult`, který obsahuje jak surový, tak vyčištěný text.
 
 ```csharp
-        // ---- Output the recognized text to the console ----
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-### Očekávaný výstup
-
-Pokud `sample.jpg` obsahuje frázi „Hello World!“, měli byste vidět něco jako:
-
-```
-=== OCR Result ===
-Hello World!
-```
-
-Výstup může obsahovat zalomení řádků nebo nadbytečné mezery; můžete jej vyčistit pomocí `string.Trim()` nebo regulárních výrazů podle potřeby.
+> **Co uvidíte:**  
+> Konzole vytiskne čistou verzi textu se zachovanými konci řádků. Pokud váš vlastní slovník obsahuje „Aspose“ a „OCR“, tato slova se objeví přesně tak, jak jste je definovali, i když je obrázek mírně šumivý.
 
 ## Kompletní funkční příklad
 
-Níže je kompletní, připravený k zkopírování program, který zahrnuje všechny výše uvedené kroky. Nahraďte `YOUR_DIRECTORY` složkou, která obsahuje `sample.jpg`, a vložte svůj skutečný Base64 řetězec licence.
+Níže je **kompletní, připravený ke zkopírování** program. Nahraďte `YOUR_DIRECTORY` skutečnou cestou ke složce, kde máte uložený slovník a obrázek.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Retrieve the Base64‑encoded license string (e.g., from configuration)
-        string licenseBase64 = "UEsDBBQAAAAIA..."; // <-- your license here
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Apply the license so the OCR library runs in licensed mode
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 
-        // Step 3: Create an OCR engine instance
-        var ocrEngine = new OcrEngine();
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 
-        // Optional: set language if you need non‑English text
-        // ocrEngine.Language = OcrLanguage.Multilingual;
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-        // Step 4: Recognize text from an image file (JPEG, PNG, BMP, etc.)
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
-
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Uložte tento soubor jako `Program.cs`, spusťte `dotnet run` a sledujte, jak konzole vypíše extrahované znaky. To je celý **převod obrázku na text** pipeline v méně než 30 řádcích kódu.
+**Očekávaný výstup** (předpokládáme, že obrázek obsahuje „Welcome to Aspose OCR Demo”)  
 
-## Často kladené otázky a řešení problémů
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-| Otázka | Odpověď |
-|----------|--------|
-| **Co když dostanu zkomolený výstup?** | Zkontrolujte kvalitu obrázku – rozmazané nebo nízkokontrastní fotografie dávají špatné výsledky. Předzpracujte je pomocí ostření nebo zvyšte DPI na ≥300. |
-| **Mohu zpracovávat soubory PNG nebo BMP?** | Rozhodně. `ImageStream.FromFile` přijímá jakýkoli formát podporovaný .NET `System.Drawing`. |
-| **Jak extrahovat text z více‑stránkového PDF?** | Převěďte každou stránku na obrázek (např. pomocí Aspose.PDF) a každou obrázkovou stránku zadejte do stejného OCR toku. |
-| **Existuje bezplatná alternativa?** | Aspose nabízí 30‑denní zkušební verzi, ale pro produkci budete potřebovat licenci, aby se odstranily vodoznaky. |
-| **Co s jazyky psanými zprava doleva?** | Nastavte `ocrEngine.Language = OcrLanguage.Arabic;` (nebo příslušný jazyk) pro zlepšení přesnosti. |
+Pokud bylo „Aspose“ ve vašem vlastním slovníku, pravopis bude dokonalý i když byl obrázek mírně rozmazaný.
 
-## Další kroky: Přes základní OCR
+## Často kladené otázky
 
-Nyní, když můžete **rozpoznat text z obrázku**, zvažte tyto rozšíření:
+### Jak **načíst soubor slovníku** s různými kódováními?
 
-1. **Dávkové zpracování** – Procházejte adresář JPG souborů a automaticky **extrahujte text z jpg** obrázků.
-2. **Post‑zpracování** – Použijte regulární výrazy k získání telefonních čísel, dat nebo částek na fakturách.
-3. **Integrace s Azure Cognitive Services** – Kombinujte Aspose OCR s Azure Form Recognizer pro strukturovaný výstup dat.
-4. **Ladění výkonu** – Povolit multithreading (`Parallel.ForEach`) při zpracování velkých sad obrázků.
+Použijte `File.ReadAllLines(path, Encoding.UTF8)` (nebo `Encoding.Unicode`) tak, aby odpovídalo kódování souboru. Tím zabráníte skrytým znakům, které by se mohly vplístit do `HashSet`.
 
-Každé z těchto témat přirozeně navazuje na základní koncepty, které jste se právě naučili, a všechny se točí kolem jedné hlavní myšlenky: převést vizuální obsah na vyhledávatelný, editovatelný text.
+### Co když výsledek OCR stále chybí slovo z mého slovníku?
+
+Ujistěte se, že velikost písmen slova odpovídá položce ve slovníku, nebo nastavte `ocrEngine.Configuration.IgnoreCase = true`. Také ověřte, že rozlišení obrázku je alespoň 300 dpi pro nejlepší výsledky.
+
+### Mohu **extrahovat čistý text** z PDF místo obrázku?
+
+Ano—Aspose.PDF může vykreslit každou stránku jako obrázek a poté tyto obrázky předat do stejného OCR pipeline. Pracovní postup je identický; jen přidáte krok konverze PDF na obrázek.
+
+### Existuje způsob, jak **přidat vlastní slovník** za běhu pro více jazyků?
+
+Rozhodně. Vytvořte samostatný `HashSet<string>` pro každý jazyk a před každým voláním `Recognize` vyměňte `ocrEngine.Configuration.CustomDictionary`.
+
+## Tipy a triky pro lepší přesnost
+
+- **Předzpracování obrázku**: Převést na odstíny šedi, zvýšit kontrast nebo aplikovat mírné Gaussian rozostření pro odstranění šumů.  
+- **Dávkové zpracování**: Pokud máte desítky obrázků, znovu použijte stejnou instanci `OcrEngine`; opakovaná inicializace každou chvíli přidává zbytečnou zátěž.  
+- **Logování surových OCR dat**: `ocrResult.TextLines` poskytuje skóre důvěryhodnosti řádek po řádku, užitečné pro post‑processing nebo označování výsledků s nízkou důvěrou.
+
+## Další kroky
+
+Nyní, když víte **jak extrahovat text** a **jak přidat vlastní slovník**, zvažte následující témata:
+
+1. **Integrace s ASP.NET Core** – vystavit API endpoint, který přijímá obrázek a vrací OCR výsledky ve formátu JSON.  
+2. **Kombinace s Entity Framework** – uložit extrahovaný čistý text přímo do databáze pro vyhledávatelné záznamy.  
+3. **Prozkoumejte detekci jazyka** – automaticky přepínat slovníky na základě detekovaných jazykových kódů.
+
+Každé z těchto témat staví na základech položených v tomto průvodci a umožní vám proměnit jednoduchý útržek **rozpoznání textu z obrázku** na službu připravenou do produkce.
 
 ---
 
-### TL;DR
-
-Nyní víte, jak **rozpoznat text z obrázku** pomocí Aspose OCR v C#. Tutoriál pokryl načtení licence v Base64, vytvoření `OcrEngine`, předání JPEG a vytištění výsledku – v podstatě celý workflow **extrahovat text z jpg** a **převést obrázek na text**. Pohrávejte si s nastavením jazyků, dávkujte to a získáte robustní řešení pro jakýkoli **jak extrahovat text z obrázku** úkol.
-
-Šťastné kódování a klidně zanechte komentář, pokud narazíte na potíže!
+*Šťastné programování! Pokud narazíte na problém, zanechte komentář níže nebo si prohlédněte dokumentaci Aspose.OCR pro podrobnější konfigurační možnosti. Pamatujte, dobře vytvořený vlastní slovník je často tajnou ingrediencí, která promění průměrné OCR na břitko ostré extrahování textu.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

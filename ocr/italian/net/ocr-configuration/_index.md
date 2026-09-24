@@ -41,27 +41,12 @@ Estrarre OCR significa fornire un'immagine (o una collezione di immagini) ad Asp
 - Pacchetto NuGet Aspose.OCR per .NET installato (`Install-Package Aspose.OCR`).  
 - Immagini di esempio o archivi contenenti immagini che desideri elaborare.
 
-## OCROperation con Archivio nel Riconoscimento OCR delle Immagini
-Immergiti nel mondo OCR con Aspose.OCR e scopri come estrarre testo da immagini archiviate passo dopo passo. Questo tutorial fornisce approfondimenti completi su come sfruttare le capacità OCR all'interno delle applicazioni .NET. Dall'installazione all'implementazione, svela la magia dell'estrazione del testo.
-
-## OCROperation con Cartella nel Riconoscimento OCR delle Immagini
-Sblocca la potenza del riconoscimento OCR delle immagini in .NET con Aspose.OCR. Questo tutorial ti fornisce le conoscenze necessarie per estrarre testo senza sforzo da immagini memorizzate in cartelle. Aumenta l'efficienza nell'estrazione dei dati e ottimizza le capacità OCR della tua applicazione.
-
-## OCROperation con Selezione della Lingua nel Riconoscimento OCR delle Immagini
-Porta le tue capacità OCR a nuovi livelli padroneggiando **la selezione della lingua OCR** in Aspose.OCR per .NET. Questo tutorial ti guida attraverso il processo di estrazione fluida del testo da immagini in diverse lingue. Potenzia la tua applicazione con capacità OCR multilingue.
-
-## OCROperation con Lista nel Riconoscimento OCR delle Immagini
-Esplora il vasto potenziale di Aspose.OCR per .NET mentre esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Questo tutorial non solo migliora l'estrazione del testo, ma aumenta anche la produttività nella gestione di set di dati diversificati. Scopri l'efficienza dell'OCR con operazioni basate su liste.
-
-## Tutorial di Configurazione OCR
-### [OCROperation con Archivio nel Riconoscimento OCR delle Immagini](./ocr-operation-with-archive/)
-Sblocca il potenziale dell'OCR nelle applicazioni .NET con Aspose.OCR. Impara a estrarre testo da immagini archiviate passo dopo passo.
 ### [OCROperation con Cartella nel Riconoscimento OCR delle Immagini](./ocr-operation-with-folder/)
 Sblocca la potenza del riconoscimento OCR delle immagini in .NET con Aspose.OCR. Estrai testo senza sforzo da immagini.
-### [OCROperation con Selezione della Lingua nel Riconoscimento OCR delle Immagini](./ocr-operation-with-language-selection/)
-Sblocca potenti capacità OCR con Aspose.OCR per .NET. Estrai testo da immagini in modo fluido.
 ### [OCROperation con Lista nel Riconoscimento OCR delle Immagini](./ocr-operation-with-list/)
 Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscimento OCR delle immagini con le liste. Aumenta la produttività e l'estrazione dei dati nelle tue applicazioni.
+### [Carica file immagine ed estrai testo della ricevuta con OCR GPU in C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+Sfrutta la potenza dell'OCR GPU per estrarre rapidamente il testo delle ricevute da file immagine in C#.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  
@@ -71,7 +56,51 @@ Sblocca il potenziale di Aspose.OCR per .NET. Esegui senza sforzo il riconoscime
 ### Suggerimenti & Insidie
 - **Consiglio professionale:** Preprocessa sempre le immagini (ad es., raddrizza, binarizza) per migliorare la precisione.  
 - **Attenzione:** Gli archivi di grandi dimensioni possono consumare molta memoria; considera l'elaborazione a lotti.  
+### [Estrai testo russo e imposta il percorso delle risorse in C# – Guida Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Scopri come estrarre testo russo da immagini e configurare il percorso delle risorse in C# con Aspose OCR.
+### [Come eseguire OCR su immagine in C# – Guida completa con supporto GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere testo da immagini sfruttando la potenza della GPU.
+### [Riconoscere il testo da immagine con Aspose OCR – Guida completa C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere testo da immagini con una guida completa passo passo.
 
+In conclusione, questi tutorial sulla configurazione OCR offrono una comprensione olistica di Aspose.OCR per .NET. Che tu stia lavorando con immagini di archivio, cartelle, selezione della lingua o elenchi, queste guide dettagliate ti garantiscono di sfruttare tutto il potenziale dell'OCR, elevando le capacità di estrazione del testo della tua applicazione. Immergiti, esplora e sblocca la magia dell'OCR con Aspose.OCR!
+## Esercitazioni sulla configurazione dell'OCR
+### [Operazione OCR con archivio nel riconoscimento immagini OCR](./ocr-operation-with-archive/)
+Sblocca il potenziale dell'OCR nelle applicazioni .NET con Aspose.OCR. Impara passo dopo passo come estrarre il testo dalle immagini di archivio.
+### [Operazione OCR con selezione della lingua nel riconoscimento delle immagini OCR](./ocr-operation-with-language-selection/)
+Sblocca potenti funzionalità OCR con Aspose.OCR per .NET. Estrai testo dalle immagini senza problemi.
+### [Leggi risorsa incorporata in .NET – Guida completa per impostare la licenza Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Scopri come leggere una risorsa incorporata in .NET e configurare correttamente la licenza Aspose per le tue applicazioni.
+### [Scarica il modello linguistico OCR in C# con Aspose – Guida completa](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Guida completa per scaricare e utilizzare il modello linguistico OCR in C# con Aspose, migliorando l'accuratezza del riconoscimento.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Come abilitare GPU per Aspose OCR – Guida passo‑passo](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Scopri come attivare l'accelerazione GPU in Aspose OCR per migliorare le prestazioni di riconoscimento.
+### [Riconoscere il testo dell'immagine in C# – OCR arabo con Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Sblocca l'OCR arabo in C# con Aspose, estraendo testo dalle immagini in modo rapido e preciso.
+### [Come impostare la licenza Aspose in C# – Guida completa](./how-to-set-aspose-license-in-c-complete-guide/)
+Scopri come configurare correttamente la licenza Aspose in C# per sbloccare tutte le funzionalità della libreria.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Come applicare la licenza in Aspose OCR – Guida passo‑passo C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Scopri come applicare la licenza in Aspose OCR con una guida passo‑passo in C#.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Domande frequenti
 
 **D: Posso usare Aspose.OCR in un'applicazione .NET commerciale?**  
@@ -95,6 +124,10 @@ R: Sì, l'oggetto `OcrResult` fornisce valori di confidenza che puoi ispezionare
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
 
+In conclusione, questi tutorial sulla configurazione OCR offrono una comprensione olistica di Aspose.OCR per .NET. Che tu stia lavorando con immagini di archivio, cartelle, selezione della lingua o elenchi, queste guide dettagliate ti garantiscono di sfruttare tutto il potenziale dell'OCR, elevando le capacità di estrazione del testo della tua applicazione. Immergiti, esplora e sblocca la magia dell'OCR con Aspose.OCR!
+## Esercitazioni sulla configurazione dell'OCR
+### [Come verificare il supporto della lingua OCR in C# – Guida completa](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Scopri come controllare quali lingue sono supportate da Aspose.OCR in C# e garantire l'accuratezza del riconoscimento.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

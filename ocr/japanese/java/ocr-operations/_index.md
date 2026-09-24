@@ -76,10 +76,21 @@ Aspose.OCR for Java を使用した画像からのテキスト抽出の力を解
 Aspose.OCR for Java で画像からの正確なテキスト抽出を実現します。言語選択による精密な OCR をステップバイステップでご案内します。
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Aspose.OCR を使用した Java での OCR の力を解き放ちます。PDF 文書内のテキストを簡単に認識し、精度と速度でアプリケーションを強化します。
+### [Java で検索可能な PDF を作成する – ステップバイステップ ガイド](./create-searchable-pdf-in-java-step-by-step-guide/)
+Java を使用して検索可能な PDF を作成する手順を詳細に解説します。
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Aspose.OCR を使用した Java での強力なテキスト認識を実現します。TIFF 画像内のテキストを手間なく認識し、シームレスな OCR 体験を提供します。
-### [Aspose OCR で画像テキストを認識 – 完全 Java OCR チュートリアル](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Aspose OCR を使用して画像からテキストを認識する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [Java でバッチ OCR を実行する方法 – 画像からテキストを抽出する完全ガイド](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Java で大量の画像からテキストを一括抽出する方法をステップバイステップで解説します。
+### [Java で画像の OCR を実行する – 完全 Aspose OCR ガイド](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Java を使用して画像からテキストを抽出する手順を完全に解説し、Aspose OCR の設定とベストプラクティスを紹介します。
+### [スキャンしたファイルから検索可能な PDF を作成 – Java ガイド](./create-searchable-pdf-from-scanned-files-java-guide/)
+スキャンしたファイルから検索可能な PDF を作成する手順を Java で解説します。OCR を適用し、テキストレイヤーを付加する方法を学びましょう。
+### [Aspose OCR で画像からテキストを抽出 – ステップバイステップデモ](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Aspose OCR を使用して画像からテキストを抽出する手順を詳細に解説するデモチュートリアルです。
+### [Java でバッチ画像 OCR – PNG ファイルからテキストを高速抽出](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+### [Aspose OCR の評価ウォーターマークを削除 – 完全な Java ライセンスガイド](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+評価版のウォーターマークを除去し、正規ライセンスでフル機能を利用する手順を Java で解説します。
 
 ## よくある質問
 
@@ -110,3 +121,14 @@ A: TIFF 画像をチャンク単位で処理するか、マルチスレッド化
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Aspose OCR で画像テキストを認識 – 完全 Java OCR チュートリアル](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Aspose OCR を使用して画像からテキストを認識する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [PNG から検索可能な PDF を作成 – 完全 Java ガイド](./create-searchable-pdf-from-png-complete-java-guide/)
+PNG 画像を OCR で認識し、検索可能な PDF に変換する手順を Java で詳しく解説します。
+### [画像から OCR で検索可能な PDF を作成 – Java チュートリアル](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+画像を OCR で認識し、検索可能な PDF に変換する手順を Java で詳しく解説します。
+### [Java で画像をテキストに変換 – バッチ OCR 処理ガイド](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Java を使用して複数画像を一括で OCR 処理し、テキストへ変換する方法をステップバイステップで解説します。
+### [Aspose OCR で検索可能な PDF を作成 – ステップバイステップガイド](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR を使用して PDF を検索可能に変換する手順を詳しく解説します。
+

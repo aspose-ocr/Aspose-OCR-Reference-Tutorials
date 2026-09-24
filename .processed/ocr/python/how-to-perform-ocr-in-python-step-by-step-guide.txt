@@ -1,0 +1,7 @@
+Title: How to perform OCR in Python – step‑by‑step guide
+Slug: how-to-perform-ocr-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-08-15T22:19:51.094596
+SourceRepo: AI Search API
+Keywords: how to perform ocr, extract text from png, improve ocr accuracy, load image for ocr
+PRNumber: 203

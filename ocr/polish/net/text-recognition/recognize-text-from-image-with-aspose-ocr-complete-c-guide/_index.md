@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-02-17
-description: Dowiedz się, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspose OCR.
-  Zobacz także, jak wyodrębnić tekst z pliku JPG, konwertować obraz na tekst oraz
-  jak efektywnie wyodrębniać tekst z obrazu.
+date: 2026-02-09
+description: Dowiedz się, jak rozpoznawać tekst z obrazu i wyodrębniać czysty tekst
+  przy użyciu własnego słownika w C#. Zawiera kod krok po kroku oraz wskazówki.
 draft: false
 keywords:
 - recognize text from image
-- extract text from jpg
-- convert image to text
-- how to extract image text
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: pl
-og_description: Dowiedz się, jak rozpoznawać tekst z obrazu w C# przy użyciu Aspose
-  OCR. Ten krok po kroku poradnik obejmuje także wyodrębnianie tekstu z plików jpg
-  oraz konwertowanie obrazu na tekst.
-og_title: Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik
-  C#
+og_description: Rozpoznawaj tekst z obrazu w C# przy użyciu Aspose OCR. Postępuj zgodnie
+  z tym przewodnikiem, aby wyodrębnić zwykły tekst i dodać własny słownik dla lepszej
+  dokładności.
+og_title: rozpoznawanie tekstu z obrazu – Pełny samouczek C#
 tags:
-- Aspose OCR
+- OCR
 - C#
-- Image Processing
+- Aspose
 title: Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik
   C#
 url: /pl/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
@@ -29,174 +28,173 @@ url: /pl/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#
+# rozpoznawanie tekstu z obrazu – Pełny samouczek C#
 
-Kiedykolwiek potrzebowałeś **rozpoznać tekst z obrazu**, ale nie wiedziałeś, którą bibliotekę wybrać? Nie jesteś sam — programiści ciągle pytają: „Jak wyodrębnić tekst z jpg bez pisania własnej sieci neuronowej?” Dobra wiadomość jest taka, że Aspose OCR wykonuje ciężką pracę za Ciebie, pozwalając **konwertować obraz na tekst** w zaledwie kilku linijkach C#.
+Kiedykolwiek potrzebowałeś **rozpoznać tekst z obrazu**, ale wyniki pomijały specyficzne dla domeny słowa? Nie jesteś sam. W wielu projektach — skanowanie faktur, odczytywanie odznak czy po prostu wyciąganie podpisów ze zrzutów ekranu — domyślny silnik OCR po prostu nie zna Twojego słownictwa.  
 
-W tym tutorialu przejdziemy przez rzeczywisty przykład, który pokazuje, jak **rozpoznać tekst z obrazu**, jak **wyodrębnić tekst z jpg**, a nawet odpowie na pytanie „**jak wyodrębnić tekst z obrazu**”. Po zakończeniu będziesz mieć gotową do uruchomienia aplikację konsolową, kilka praktycznych wskazówek i jasny pomysł, co zmienić w przypadkach brzegowych.
+Dobra wiadomość? Ładując **niestandardowy słownik**, możesz dramatycznie poprawić dokładność i, oczywiście, **wyodrębnić czysty tekst** w jednym prostym kroku. W tym samouczku przeprowadzimy Cię przez cały proces, od odczytania pliku słownika po wydrukowanie wyniku OCR, używając Aspose.OCR w C#.  
+
+Odpowiemy także na nurtujące pytanie „**jak dodać niestandardowy słownik**”, pokażemy **jak wyodrębnić tekst** efektywnie oraz wskażemy typowe pułapki, abyś nie marnował kolejnej godziny na poprawianie ustawień.
 
 ## Co będzie potrzebne
 
-Zanim zaczniemy, upewnij się, że masz następujące elementy:
+- **.NET 6+** (dowolny aktualny runtime)
+- **Aspose.OCR for .NET** pakiet NuGet  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- **Plik tekstowy** (`custom_dictionary.txt`) zawierający po jednym słowie w linii — są to terminy, które spodziewasz się zobaczyć.
+- **Obraz** (`input_image.png`) zawierający tekst, który chcesz rozpoznać.
 
-| Prerequisite | Reason |
-|--------------|--------|
-| .NET 6.0 SDK (lub nowszy) | Nowoczesne funkcje języka i łatwe tworzenie projektów |
-| Visual Studio 2022 (lub VS Code) | IDE do szybkiego debugowania |
-| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | Biblioteka, która faktycznie wykonuje OCR |
-| Przykładowy plik JPEG (`sample.jpg`) | Dowolny obraz zawierający czytelny tekst |
+Bez dodatkowych bibliotek, bez usług zewnętrznych. Tylko czysty C# i Aspose.
 
-To wszystko — bez dodatkowych natywnych zależności, bez ciężkich skryptów Pythona. Po prostu prosta aplikacja konsolowa C#.
+## Krok 1: Inicjalizacja silnika OCR – Rozpoznawanie tekstu z obrazu
 
-> **Pro tip:** Jeśli planujesz uruchomić to na Linuksie, upewnij się, że pakiet `libgdiplus` jest zainstalowany; Aspose OCR używa GDI+ pod maską.
-
-## Krok 1: Utwórz projekt i dodaj Aspose OCR
-
-Najpierw utwórz nowy projekt konsolowy:
-
-```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
-dotnet add package Aspose.OCR
-```
-
-Polecenie `dotnet add package` pobiera najnowszą stabilną wersję (obecnie 23.9). Aktualizowanie biblioteki zapewnia najnowsze pakiety językowe i ulepszenia wydajności.
-
-## Krok 2: Załaduj licencję z łańcucha Base64
-
-Jeśli posiadasz płatną licencję Aspose, zazwyczaj przechowujesz ją jako łańcuch zakodowany w Base64 w pliku konfiguracyjnym lub zmiennej środowiskowej. Ładowanie w ten sposób unika dystrybucji surowego pliku `.lic` razem z binariami.
+Pierwszą rzeczą, którą robisz, jest utworzenie `OcrEngine`. Ten obiekt przechowuje wszystkie opcje konfiguracyjne, w tym niestandardowy słownik, który wstrzykniemy później.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // ---- Retrieve the Base64‑encoded license string (e.g., from appsettings.json) ----
-        // Replace the placeholder with your actual license string.
-        string licenseBase64 = "UEsDBBQAAAAIA...";
-
-        // ---- Apply the license so the OCR library runs in licensed mode ----
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Dlaczego to ważne:** W **trybie licencjonowanym** Aspose OCR wyłącza znaki wodne wersji ewaluacyjnej i odblokowuje pełny zestaw funkcji, co jest niezbędne, gdy potrzebujesz niezawodnych wyników **wyodrębniania tekstu z jpg** w produkcji.
+> **Dlaczego to ważne:**  
+> Bez instancji silnika nie masz kontekstu dla ustawień takich jak język, DPI czy własne listy słów. Pomyśl o `OcrEngine` jako o mózgu, który później **rozpozna tekst z obrazu**.
 
-## Krok 3: Utwórz instancję OcrEngine
+## Krok 2: Odczyt pliku słownika – Jak dodać niestandardowy słownik
 
-Teraz, gdy licencja jest aktywna, zainicjuj silnik OCR. Ten obiekt przechowuje wszystkie ustawienia, które możesz później dostosować (język, DPI itp.).
+Następnie musimy **odczytać zawartość pliku słownika** do `HashSet<string>`. Zbiór haszujący zapewnia wyszukiwanie w czasie O(1), co jest idealne dla wewnętrznych sprawdzeń silnika.
 
 ```csharp
-        // ---- Create an OCR engine instance ----
-        var ocrEngine = new OcrEngine();
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Jeśli przetwarzasz dokument wielojęzyczny, możesz ustawić `ocrEngine.Language = OcrLanguage.Multilingual;`. Domyślnie przyjmuje język angielski, co działa w większości zrzutów ekranu i zeskanowanych faktur.
+> **Pro tip:**  
+> Trzymaj plik słownika w kodowaniu UTF‑8 i unikaj pustych linii; będą one traktowane jako puste ciągi znaków i mogą wprowadzić silnik w błąd.
 
-## Krok 4: Rozpoznaj tekst z obrazu JPEG
+## Krok 3: Załadowanie obrazu – Jak wyodrębnić tekst
 
-Oto sedno tutorialu — przekazanie obrazu do silnika i pobranie rozpoznanego ciągu znaków. Pomocnicza metoda `ImageStream.FromFile` ukrywa szczegóły odczytu pliku, pozwalając skupić się na przepływie OCR.
+Teraz podajemy obraz, który ma zostać przetworzony. Aspose używa `ImageStream`, aby ukryć szczegóły obsługi plików.
 
 ```csharp
-        // ---- Recognize text from an image file ----
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Przypadek brzegowy:** Jeśli Twój JPEG jest bardzo duży (powyżej 5 MB), rozważ najpierw zmianę rozmiaru. Duże obrazy mogą powodować presję na pamięć i obniżać dokładność. Szybka zmiana rozmiaru przy użyciu `System.Drawing` lub `ImageSharp` przed wywołaniem `Recognize` często daje lepsze wyniki.
+> **Przypadek brzegowy:**  
+> Jeśli Twój obraz jest większy niż 2000 × 2000 pikseli, rozważ jego zmniejszenie. Zbyt duże obrazy mogą spowolnić rozpoznawanie bez poprawy dokładności.
 
-## Krok 5: Wyświetl wynik
+## Krok 4: Uruchomienie procesu OCR – Wyodrębnienie czystego tekstu
 
-Na koniec wypisz wyodrębniony tekst w konsoli. W prawdziwej aplikacji możesz go zapisać w bazie danych, przekazać do API tłumaczeniowego lub wprowadzić do indeksu wyszukiwania.
+Gdy wszystko jest gotowe, wywołaj `Recognize`. Metoda zwraca obiekt `OcrResult`, który zawiera zarówno surowy, jak i oczyszczony tekst.
 
 ```csharp
-        // ---- Output the recognized text to the console ----
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-### Oczekiwany wynik
-
-Jeśli `sample.jpg` zawiera frazę „Hello World!”, powinieneś zobaczyć coś w stylu:
-
-```
-=== OCR Result ===
-Hello World!
-```
-
-Wyjście może zawierać podziały linii lub dodatkowe spacje; możesz je oczyścić przy pomocy `string.Trim()` lub wyrażeń regularnych, jeśli zajdzie taka potrzeba.
+> **Co zobaczysz:**  
+> Konsola wypisze czystą wersję tekstu zachowującą podziały wierszy. Jeśli Twój niestandardowy słownik zawiera „Aspose” i „OCR”, te słowa pojawią się dokładnie tak, jak je zdefiniowano, nawet jeśli obraz jest lekko zaszumiony.
 
 ## Pełny działający przykład
 
-Poniżej znajduje się kompletny, gotowy do skopiowania program, który zawiera wszystkie opisane wyżej kroki. Zamień `YOUR_DIRECTORY` na folder zawierający `sample.jpg` i wstaw swój rzeczywisty łańcuch licencji Base64.
+Poniżej znajduje się **kompletny, gotowy do skopiowania** program. Zamień `YOUR_DIRECTORY` na rzeczywistą ścieżkę folderu, w którym przechowujesz słownik i obraz.
 
 ```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class LicenseFromString
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Retrieve the Base64‑encoded license string (e.g., from configuration)
-        string licenseBase64 = "UEsDBBQAAAAIA..."; // <-- your license here
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Apply the license so the OCR library runs in licensed mode
-        var ocrLicense = new License();
-        ocrLicense.SetLicenseFromBase64(licenseBase64);
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 
-        // Step 3: Create an OCR engine instance
-        var ocrEngine = new OcrEngine();
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 
-        // Optional: set language if you need non‑English text
-        // ocrEngine.Language = OcrLanguage.Multilingual;
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-        // Step 4: Recognize text from an image file (JPEG, PNG, BMP, etc.)
-        var recognizedText = ocrEngine
-            .Recognize(ImageStream.FromFile(@"YOUR_DIRECTORY/sample.jpg"))
-            .Text;
-
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Zapisz to jako `Program.cs`, uruchom `dotnet run` i obserwuj, jak konsola wypisuje wyodrębnione znaki. To cała **konwersja obrazu na tekst** w mniej niż 30 linijkach kodu.
+**Oczekiwany wynik** (zakładając, że obraz zawiera „Welcome to Aspose OCR Demo”)  
 
-## Często zadawane pytania i rozwiązywanie problemów
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-| Question | Answer |
-|----------|--------|
-| **Co zrobić, gdy otrzymuję zniekształcony wynik?** | Sprawdź jakość obrazu — rozmyte lub niskokontrastowe zdjęcia dają słabe wyniki. Przetwórz je wstępnie, zwiększ ostrość lub podnieś DPI do ≥300. |
-| **Czy mogę przetwarzać pliki PNG lub BMP?** | Oczywiście. `ImageStream.FromFile` akceptuje każdy format obsługiwany przez .NET `System.Drawing`. |
-| **Jak wyodrębnić tekst z wielostronicowego PDF?** | Konwertuj każdą stronę na obraz (np. przy użyciu Aspose.PDF) i podaj każdy obraz do tego samego przepływu OCR. |
-| **Czy istnieje darmowa alternatywa?** | Aspose oferuje 30‑dniowy trial, ale w produkcji potrzebna będzie licencja, aby uniknąć znaków wodnych. |
-| **A co z językami pisanymi od prawej do lewej?** | Ustaw `ocrEngine.Language = OcrLanguage.Arabic;` (lub odpowiedni język), aby poprawić dokładność. |
+Jeśli „Aspose” znajdowało się w Twoim niestandardowym słowniku, pisownia będzie idealna, nawet przy niewielkim rozmyciu obrazu.
 
-## Kolejne kroki: wyjście poza podstawowy OCR
+## Najczęściej zadawane pytania
 
-Teraz, gdy potrafisz **rozpoznawać tekst z obrazu**, rozważ następujące rozszerzenia:
+### Jak **odczytać plik słownika** z różnymi kodowaniami?
+Użyj `File.ReadAllLines(path, Encoding.UTF8)` (lub `Encoding.Unicode`), aby dopasować kodowanie pliku. Zapobiega to wnikaniu ukrytych znaków do `HashSet`.
 
-1. **Przetwarzanie wsadowe** – iteruj po katalogu plików JPG, aby automatycznie **wyodrębniać tekst z jpg**.
-2. **Post‑processing** – użyj wyrażeń regularnych do wyciągania numerów telefonów, dat lub sum faktur.
-3. **Integracja z Azure Cognitive Services** – połącz Aspose OCR z Azure Form Recognizer w celu wyodrębniania danych strukturalnych.
-4. **Optymalizacja wydajności** – włącz wielowątkowość (`Parallel.ForEach`) przy obsłudze dużych zestawów obrazów.
+### Co zrobić, gdy wynik OCR nadal pomija słowo z mojego słownika?
+Upewnij się, że wielkość liter w słowie odpowiada wpisowi w słowniku, lub ustaw `ocrEngine.Configuration.IgnoreCase = true`. Sprawdź także, czy rozdzielczość obrazu wynosi co najmniej 300 dpi dla najlepszych rezultatów.
 
-Każdy z tych tematów naturalnie rozwija podstawowe koncepcje, które właśnie poznałeś, i wszystkie opierają się na tej samej idei: przekształcanie treści wizualnej w przeszukiwalny, edytowalny tekst.
+### Czy mogę **wyodrębnić czysty tekst** z PDF zamiast z obrazu?
+Tak — Aspose.PDF może renderować każdą stronę do obrazu, a następnie te obrazy podać do tego samego potoku OCR. Workflow jest identyczny; dodajesz jedynie krok konwersji PDF‑do‑obrazu.
+
+### Czy istnieje sposób na **dodanie niestandardowego słownika** w czasie działania dla wielu języków?
+Oczywiście. Utwórz osobny `HashSet<string>` dla każdego języka i zamień `ocrEngine.Configuration.CustomDictionary` przed każdym wywołaniem `Recognize`.
+
+## Porady i sztuczki dla lepszej dokładności
+
+- **Wstępna obróbka obrazu**: konwersja do skali szarości, zwiększenie kontrastu lub delikatne rozmycie Gaussa w celu usunięcia drobnych zakłóceń.
+- **Przetwarzanie wsadowe**: jeśli masz dziesiątki obrazów, ponownie używaj tej samej instancji `OcrEngine`; ponowne inicjalizowanie przy każdym obrazie wprowadza niepotrzebny narzut.
+- **Logowanie surowych danych OCR**: `ocrResult.TextLines` dostarcza wyniki linii z oceną pewności, przydatne do post‑processingu lub flagowania wyników o niskiej pewności.
+
+## Kolejne kroki
+
+Teraz, gdy wiesz **jak wyodrębnić tekst** i **jak dodać niestandardowy słownik**, rozważ następujące tematy rozwijające:
+
+1. **Integracja z ASP.NET Core** – udostępnij endpoint API, który przyjmuje obraz i zwraca wyniki OCR w formacie JSON.  
+2. **Połączenie z Entity Framework** – zapisz wyodrębniony czysty tekst bezpośrednio w bazie danych, aby umożliwić wyszukiwanie.  
+3. **Eksploracja wykrywania języka** – automatycznie przełączaj słowniki na podstawie wykrytego kodu języka.
+
+Każdy z tych tematów bazuje na fundamentach przedstawionych w tym przewodniku, pozwalając przekształcić prosty fragment **rozpoznawania tekstu z obrazu** w usługę gotową do produkcji.
 
 ---
 
-### TL;DR
-
-Teraz wiesz, jak **rozpoznawać tekst z obrazu** przy użyciu Aspose OCR w C#. Tutorial obejmował ładowanie licencji Base64, tworzenie `OcrEngine`, podawanie pliku JPEG i wypisywanie wyniku — czyli cały przepływ **wyodrębniania tekstu z jpg** i **konwersji obrazu na tekst**. Eksperymentuj z ustawieniami języka, przetwarzaj wsadowo i będziesz mieć solidne rozwiązanie na każde wyzwanie **jak wyodrębnić tekst z obrazu**.
-
-Miłego kodowania i śmiało zostaw komentarz, jeśli napotkasz problemy!
+*Miłego kodowania! Jeśli napotkasz problem, zostaw komentarz poniżej lub zajrzyj do dokumentacji Aspose.OCR po bardziej zaawansowane opcje konfiguracyjne. Pamiętaj, że dobrze skonstruowany niestandardowy słownik często jest sekretnym składnikiem, który zamienia przeciętny OCR w precyzyjne wyodrębnianie tekstu.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

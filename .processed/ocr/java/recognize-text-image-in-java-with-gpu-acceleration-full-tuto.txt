@@ -1,0 +1,7 @@
+Title: recognize text image in Java with GPU acceleration – Full Tutorial
+Slug: recognize-text-image-in-java-with-gpu-acceleration-full-tuto
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-25T13:42:41.266982
+SourceRepo: AI Search API
+Keywords: recognize text image, extract text example, gpu accelerated ocr, load image ocr, java ocr tutorial
+PRNumber: 132
