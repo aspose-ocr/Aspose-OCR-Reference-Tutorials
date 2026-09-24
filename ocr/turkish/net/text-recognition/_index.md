@@ -108,6 +108,14 @@ Aspose OCR kullanarak C# ile birden çok PNG dosyasını toplu olarak OCR'dan ge
 C# ve Aspose.OCR kullanarak adım adım OCR işlemini nasıl gerçekleştireceğinizi öğrenin.
 ### [Aspose OCR ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR kullanarak PDF'leri aranabilir hâle getirin. C# ile adım adım kılavuz sayesinde süreci kolayca tamamlayın.
+### [C#'ta OCR Nasıl Kullanılır – Görüntüden Metni Hızlıca Tanıma](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Aspose.OCR for .NET ile C# uygulamanızda görüntülerden metni hızlıca çıkarın ve OCR yeteneklerinizi güçlendirin.
+### [C#'ta OCR Nasıl Yapılır – Tam Aspose Rehberi](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Aspose.OCR for .NET ile C# uygulamanızda OCR işlemlerini adım adım öğrenin ve metin tanımada tam kontrol sağlayın.
+### [TIFF'ten Arama Yapılabilir PDF Oluşturma – Aspose OCR Adım Adım Kılavuz](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+TIFF dosyalarından arama yapılabilir PDF oluşturmayı adım adım öğrenin ve Aspose OCR'un gücünden faydalanın.
+### [C#'ta OCR Nasıl Yapılır – Aspose OCR Kullanarak Görüntüden Metin Çıkarma](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Aspose OCR ile C# uygulamanızda görüntülerden metni hızlı ve doğru bir şekilde çıkarın. Adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

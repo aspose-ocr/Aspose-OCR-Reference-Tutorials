@@ -109,6 +109,16 @@ Tạo PDF có thể tìm kiếm bằng Aspose OCR trong C#. Hướng dẫn chi t
 Thực hiện OCR trên nhiều ảnh PNG đồng thời bằng Aspose OCR trong C#. Hướng dẫn chi tiết từng bước.
 ### [Cách thực hiện OCR trong C# – Hướng dẫn từng bước](./how-to-perform-ocr-in-c-step-by-step-guide/)
 Thực hiện OCR trong C# một cách chi tiết với hướng dẫn từng bước, giúp bạn tích hợp nhanh chóng và hiệu quả.
+### [Cách sử dụng OCR trong C# – Nhận dạng văn bản từ hình ảnh nhanh chóng](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Tìm hiểu cách tích hợp OCR trong C# để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và hiệu quả.
+### [Chạy OCR trên PNG trong C# – Hướng dẫn đầy đủ với Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Khám phá cách chạy OCR trên ảnh PNG bằng C# và Aspose, hướng dẫn chi tiết từng bước để trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đầy đủ của Aspose](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Khám phá hướng dẫn chi tiết để thực hiện OCR trong C# bằng Aspose, giúp bạn trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Cách thực hiện OCR trong C# – Trích xuất văn bản từ hình ảnh bằng Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Tìm hiểu cách thực hiện OCR trong C# để trích xuất văn bản từ hình ảnh nhanh chóng và chính xác bằng Aspose OCR.
+### [Tạo PDF có thể tìm kiếm từ TIFF – Hướng dẫn từng bước Aspose OCR](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+Biến tệp TIFF thành PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

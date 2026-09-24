@@ -109,6 +109,16 @@ Scopri come elaborare in batch immagini PNG con OCR in C# usando Aspose OCR per 
 Scopri come utilizzare Aspose.OCR per eseguire OCR in C# con una guida dettagliata passo dopo passo.
 ### [Crea PDF ricercabile con Aspose OCR – Guida passo‑passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Scopri come generare PDF ricercabili usando Aspose OCR con una guida dettagliata passo dopo passo.
+### [Come usare OCR in C# – Riconosci rapidamente il testo da un'immagine](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Scopri come utilizzare Aspose.OCR in C# per riconoscere rapidamente il testo da un'immagine in pochi passaggi.
+### [Esegui OCR su PNG in C# – Guida completa con Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Impara a utilizzare Aspose.OCR in C# per eseguire il riconoscimento OCR su immagini PNG, passo dopo passo, con esempi pratici.
+### [Come eseguire OCR in C# – Guida completa Aspose](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Scopri come utilizzare Aspose.OCR in C# per eseguire il riconoscimento OCR in modo completo, passo dopo passo, con esempi pratici.
+### [Come eseguire OCR in C# – Estrarre testo da un'immagine usando Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Scopri come utilizzare Aspose OCR in C# per estrarre testo da un'immagine in modo semplice e veloce.
+### [Crea PDF ricercabile da TIFF – Guida passo‑a‑passo Aspose OCR](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
+Impara a trasformare file TIFF in PDF ricercabili usando Aspose OCR con istruzioni dettagliate passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

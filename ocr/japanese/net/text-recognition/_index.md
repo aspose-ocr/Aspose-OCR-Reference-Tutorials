@@ -118,6 +118,15 @@ Aspose.OCR と C# を使用して PNG 画像を一括で OCR 処理する手順�
 Aspose.OCR と C# を使用して画像からテキストを抽出し、OCR を実行する手順をステップバイステップで解説します。
 ### [Aspose OCR を使用した検索可能な PDF の作成 – ステップバイステップ ガイド](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose.OCR と C# を活用し、画像からテキストを抽出して検索可能な PDF を作成する手順を詳しく解説します。
+### [C# で OCR を使用する方法 – 画像からテキストをすばやく認識する](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
+Aspose.OCR を使用して C# アプリケーションで画像からテキストを迅速に抽出する手順をご紹介します。
+### [C# で PNG に OCR を実行する – 完全ガイド with Aspose](./run-ocr-on-png-in-c-complete-guide-with-aspose/)
+Aspose.OCR を使用して C# で PNG 画像からテキストを高速かつ正確に抽出する手順をステップバイステップで解説します。
+### [C# で OCR を実行する方法 – 完全 Aspose ガイド](./how-to-perform-ocr-in-c-complete-aspose-guide/)
+Aspose.OCR を使用して C# で OCR を実行し、画像からテキストを完全に抽出する手順を詳しく解説します。
+### [C# で OCR を実行する方法 – Aspose OCR を使用して画像からテキストを抽出する](./how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/)
+Aspose.OCR を利用して C# アプリケーションで画像からテキストを迅速かつ正確に抽出する手順をステップバイステップで解説します。
+### [TIFF から検索可能な PDF を作成 – Aspose OCR ステップバイステップガイド](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
