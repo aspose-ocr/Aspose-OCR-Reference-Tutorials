@@ -22,13 +22,7 @@ title: C#에서 OCR을 수행하는 방법 – 완전한 Aspose 가이드
 url: /ko/net/text-recognition/how-to-perform-ocr-in-c-complete-aspose-guide/
 ---
 
-운 코딩 되세요!"
-
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,9 +25,7 @@ title: Crear PDF buscable a partir de TIFF – Guía paso a paso de Aspose OCR
 url: /es/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-sure to keep blank lines as appropriate.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

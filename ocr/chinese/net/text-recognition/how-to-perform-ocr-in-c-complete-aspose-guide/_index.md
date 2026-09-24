@@ -20,24 +20,6 @@ title: 如何在 C# 中进行 OCR – 完整的 Aspose 指南
 url: /zh/net/text-recognition/how-to-perform-ocr-in-c-complete-aspose-guide/
 ---
 
-: "## 结论"
-
-Paragraph:
-
-You now... translate.
-
-Will translate whole paragraph.
-
-Next final lines: "Got more questions..." translate.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,22 +23,6 @@ title: C# में OCR कैसे करें – पूर्ण Aspose ग
 url: /hi/net/text-recognition/how-to-perform-ocr-in-c-complete-aspose-guide/
 ---
 
-console." Translate.
-
-Now "Common Questions & Edge Cases". Translate.
-
-Now Q&A: translate questions and answers, but keep code references unchanged.
-
-Now "Conclusion". Translate.
-
-Now final paragraph.
-
-Make sure to keep shortcodes at start and end.
-
-Now produce final output with all translated content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

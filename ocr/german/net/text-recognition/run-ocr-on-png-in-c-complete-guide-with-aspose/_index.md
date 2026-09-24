@@ -24,14 +24,6 @@ title: OCR auf PNG in C# ausführen – Komplettanleitung mit Aspose
 url: /de/net/text-recognition/run-ocr-on-png-in-c-complete-guide-with-aspose/
 ---
 
-keep keyword? The instruction: translate all text content naturally to German, keep technical terms in English. Alt text is a description, can translate but keep primary keyword? It says alt text includes primary keyword, satisfying SEO. The primary keyword is "Run OCR on PNG". Probably keep that phrase in English. So alt text: "Run OCR on PNG Beispielausgabe, die extrahierten Rechnungs-Text zeigt". Keep "Run OCR on PNG". We'll translate accordingly.
-
-Also translate blockquote note.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

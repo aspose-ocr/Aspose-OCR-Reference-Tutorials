@@ -22,16 +22,6 @@ title: Jak použít OCR v C# – Rychle rozpoznat text z obrázku
 url: /cs/net/text-recognition/how-to-use-ocr-in-c-recognize-text-from-image-quickly/
 ---
 
-". "Why it matters" -> "Proč je to důležité". Ensure not to translate code snippets.
-
-Also "Pro tip:" -> "Tip:" maybe "Tip:".
-
-We need to keep block quotes with >.
-
-Translate all other text.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

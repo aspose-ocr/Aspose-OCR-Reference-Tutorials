@@ -25,10 +25,6 @@ title: Εκτέλεση OCR σε PNG σε C# – Πλήρης Οδηγός με 
 url: /el/net/text-recognition/run-ocr-on-png-in-c-complete-guide-with-aspose/
 ---
 
-as is. Good.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

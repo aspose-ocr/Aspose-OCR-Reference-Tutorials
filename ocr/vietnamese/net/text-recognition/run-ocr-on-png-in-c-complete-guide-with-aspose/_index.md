@@ -24,7 +24,7 @@ title: Chạy OCR trên PNG trong C# – Hướng dẫn đầy đủ với Aspos
 url: /vi/net/text-recognition/run-ocr-on-png-in-c-complete-guide-with-aspose/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

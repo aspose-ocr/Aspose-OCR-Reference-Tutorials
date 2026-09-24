@@ -21,30 +21,6 @@ title: 如何在 C# 中执行 OCR – 使用 Aspose OCR 从图像提取文本
 url: /zh/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/
 ---
 
-.
-
-Also need to translate the block of shortcodes at top and bottom, but they are shortcodes, not to be translated. Keep them unchanged.
-
-Now produce final content.
-
-Let's translate:
-
-Original headings:
-
-# How to Perform OCR in C# – Extract Text from Image Using Aspose OCR
-
-Translate: "# 如何在 C# 中执行 OCR – 使用 Aspose OCR 从图像提取文本"
-
-Similarly other headings.
-
-Now bullet points, paragraphs.
-
-Make sure to keep markdown links unchanged. There are none except maybe none. There's a link in image alt text.
-
-Now produce final output.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

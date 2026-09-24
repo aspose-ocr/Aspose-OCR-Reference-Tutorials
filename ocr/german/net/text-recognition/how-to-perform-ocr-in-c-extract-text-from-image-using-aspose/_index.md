@@ -23,7 +23,7 @@ title: Wie man OCR in C# durchführt – Text aus Bild mit Aspose OCR extrahiere
 url: /de/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

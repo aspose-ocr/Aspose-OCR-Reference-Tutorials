@@ -23,9 +23,7 @@ title: Execute OCR em PNG no C# – Guia Completo com Aspose
 url: /pt/net/text-recognition/run-ocr-on-png-in-c-complete-guide-with-aspose/
 ---
 
-Good.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

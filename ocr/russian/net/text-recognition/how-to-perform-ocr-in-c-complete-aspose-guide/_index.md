@@ -24,7 +24,7 @@ title: Как выполнить OCR в C# – полное руководст�
 url: /ru/net/text-recognition/how-to-perform-ocr-in-c-complete-aspose-guide/
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

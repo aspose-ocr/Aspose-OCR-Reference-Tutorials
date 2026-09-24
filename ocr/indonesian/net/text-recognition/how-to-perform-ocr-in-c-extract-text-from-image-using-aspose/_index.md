@@ -24,8 +24,6 @@ title: Cara Melakukan OCR di C# – Ekstrak Teks dari Gambar Menggunakan Aspose 
 url: /id/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/
 ---
 
-unchanged placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

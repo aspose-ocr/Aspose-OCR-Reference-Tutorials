@@ -24,7 +24,7 @@ title: إنشاء PDF قابل للبحث من TIFF – دليل Aspose OCR خط
 url: /ar/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,16 +23,6 @@ title: สร้าง PDF ที่ค้นหาได้จาก TIFF – �
 url: /th/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-produce final translated markdown.
-
-Let's translate.
-
-I'll produce Thai translations.
-
-Be careful with markdown formatting.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

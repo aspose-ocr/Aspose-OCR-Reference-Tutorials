@@ -24,9 +24,7 @@ title: Hogyan végezzünk OCR-t C#-ban – Szöveg kinyerése képből az Aspose
 url: /hu/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/
 ---
 
-.
-
-Let's write.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

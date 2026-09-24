@@ -25,10 +25,6 @@ title: Kereshető PDF létrehozása TIFF-ből – Aspose OCR lépésről‑lép�
 url: /hu/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

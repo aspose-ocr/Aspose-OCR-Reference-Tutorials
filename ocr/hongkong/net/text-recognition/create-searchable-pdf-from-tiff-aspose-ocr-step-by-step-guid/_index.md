@@ -22,10 +22,6 @@ title: 從 TIFF 建立可搜尋 PDF – Aspose OCR 步驟指南
 url: /zh-hant/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-unchanged.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

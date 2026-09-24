@@ -23,13 +23,7 @@ title: 从 TIFF 创建可搜索 PDF – Aspose OCR 步骤指南
 url: /zh/net/text-recognition/create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/
 ---
 
-unchanged.
-
-Now produce final output with all translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

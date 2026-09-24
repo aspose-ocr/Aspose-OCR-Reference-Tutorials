@@ -23,10 +23,6 @@ title: Cách thực hiện OCR trong C# – Trích xuất văn bản từ hình 
 url: /vi/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image-using-aspose/
 ---
 
-Make sure to keep headings same level.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
