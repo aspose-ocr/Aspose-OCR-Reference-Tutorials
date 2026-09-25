@@ -62,6 +62,25 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เสริมศักยภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความที่แม่นยำ บูรณาการได้ง่าย มีความแม่นยำสูง
 ### [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
 ปลดล็อกการแยกข้อความจากรูปภาพได้อย่างราบรื่นด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่มีประสิทธิภาพ
+## [การจดจำข้อความรูปภาพโดยใช้ Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+
+### [การเตรียมภาพสำหรับ OCR – คู่มือ Java ครบชุดเพื่อเพิ่มคอนทราสต์และดึงข้อความ](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+เรียนรู้วิธีปรับปรุงภาพเพื่อเพิ่มความคมชัดและประสิทธิภาพการจดจำข้อความด้วย Aspose.OCR ใน Java
+
+### [Fixed Thread Pool Java – OCR แบบขนานสำหรับ PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
+เรียนรู้วิธีใช้ Fixed Thread Pool ใน Java เพื่อทำ OCR แบบขนานบนไฟล์ PNG ด้วย Aspose.OCR เพิ่มประสิทธิภาพการประมวลผล
+
+### [สร้าง OCR Engine Java – จดจำข้อความจากภาพขนาดใหญ่](./create-ocr-engine-java-recognize-text-from-large-images/)
+เรียนรู้วิธีสร้าง OCR Engine ด้วย Java เพื่อจดจำข้อความจากภาพขนาดใหญ่ด้วย Aspose.OCR
+
+## [วิธีเปิดใช้งาน GPU สำหรับ OCR และแยกข้อความจากไฟล์ TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+
+## [วิธีปรับแนวภาพ (Deskew) สำหรับ OCR – คู่มือการเตรียมการล่วงหน้าภาษา Java อย่างครบถ้วน](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
+
+## [สกัดข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ Java](./extract-text-from-image-with-aspose-ocr-java-guide/)
+
+## [ตรวจจับภาษาจากภาพด้วย Aspose OCR – คู่มือ Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
+
 ### [การดำเนินการ OCR บนรูปภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยขั้นตอนสำหรับ Java](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 เรียนรู้วิธีทำ OCR บนรูปภาพด้วย Aspose OCR สำหรับ Java อย่างละเอียดตามขั้นตอน เพิ่มความแม่นยำและประสิทธิภาพของแอปพลิเคชันของคุณ
 
@@ -97,15 +116,6 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [การจดจำข้อความรูปภาพโดยใช้ Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
-ใช้ Aspose OCR GPU สำหรับ Java เพื่อจดจำข้อความจากรูปภาพอย่างรวดเร็วและแม่นยำ ปรับปรุงประสิทธิภาพแอปพลิเคชันของคุณ
-### [การเตรียมภาพสำหรับ OCR – คู่มือ Java ครบชุดเพื่อเพิ่มคอนทราสต์และดึงข้อความ](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
-เรียนรู้วิธีปรับปรุงภาพเพื่อเพิ่มความคมชัดและประสิทธิภาพการจดจำข้อความด้วย Aspose.OCR ใน Java
-### [Fixed Thread Pool Java – OCR แบบขนานสำหรับ PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
-เรียนรู้วิธีใช้ Fixed Thread Pool ใน Java เพื่อทำ OCR แบบขนานบนไฟล์ PNG ด้วย Aspose.OCR เพิ่มประสิทธิภาพการประมวลผล
-### [สร้าง OCR Engine Java – จดจำข้อความจากภาพขนาดใหญ่](./create-ocr-engine-java-recognize-text-from-large-images/)
-เรียนรู้วิธีสร้าง OCR Engine ด้วย Java เพื่อจดจำข้อความจากภาพขนาดใหญ่ด้วย Aspose.OCR
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
