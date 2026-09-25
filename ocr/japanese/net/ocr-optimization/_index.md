@@ -74,6 +74,10 @@ Aspose OCR の設定と前処理テクニックで認識精度を最大化する
 C# で非同期 OCR を実装し、パフォーマンスとスケーラビリティを向上させる完全ガイドです。
 ### [GPU 加速 C# ガイド – Aspose OCR で画像を OCR する方法](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 GPU を活用した高速 OCR 処理を C# で実装する手順をステップバイステップで解説します。
+### [GPU 加速 C# ガイド – Aspose OCR で OCR を実行する方法](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+GPU のパワーを活用し、Aspose OCR の C# API で高速 OCR を実装する手順をステップバイステップで解説します。
+### [C# でスキャンからテキストを抽出 – 完全 Aspose OCR ガイド](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+C# を使用してスキャン画像からテキストを抽出し、Aspose OCR の全機能を活用する手順を詳しく解説します。
 
 
 

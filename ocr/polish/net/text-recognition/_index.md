@@ -186,6 +186,24 @@ Dowiedz się, jak używać Aspose.OCR w C# do wyodrębniania tekstu z obrazów o
 Użyj Aspose OCR w C# do wyodrębniania tekstu z plików TIFF. Kompletny przewodnik krok po kroku.
 ### [c# OCR samouczek – wyodrębnij tekst z obrazów przy użyciu Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 Dowiedz się, jak używać Aspose OCR w C# do wyodrębniania tekstu z obrazów w różnych formatach.
+### [c# OCR samouczek: wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Poznaj, jak w C# przy pomocy Aspose OCR szybko wyodrębnić tekst z pojedynczego obrazu w kilku prostych krokach.
+
+### [Jak pobrać zasoby OCR i rozpoznać tekst z obrazu w C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
+Dowiedz się, jak pobrać niezbędne zasoby OCR i używać Aspose.OCR w C# do rozpoznawania tekstu z obrazów.
+
+### [Jak wykonać OCR arabskiego w C# – Kompletny przewodnik programistyczny](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Dowiedz się, jak w C# przy użyciu Aspose.OCR rozpoznać tekst arabski w obrazach, krok po kroku, z pełnym przykładem kodu.
+
+### [Jak zapisać JSON z OCR w C# – przewodnik krok po kroku](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# zapisać wyniki OCR w formacie JSON, korzystając z Aspose.OCR, w prostych krokach.
+
+### [Utwórz przeszukiwalny PDF z obrazu w C# – Kompletny przewodnik](./create-searchable-pdf-from-image-in-c-complete-guide/)
+Dowiedz się, jak w C# przekształcić obrazy w przeszukalne pliki PDF przy użyciu Aspose.OCR, krok po kroku.
+
+### [Jak wykonać wsadowe OCR w C# – szybkie wyodrębnianie tekstu z obrazów](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
+Dowiedz się, jak w C# przetwarzać wiele obrazów jednocześnie przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst.
+
 ### [Wyodrębnij tekst z PNG – Kompletny samouczek Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
 Użyj Aspose OCR w C# do wyodrębniania tekstu z plików PNG. Kompletny przewodnik krok po kroku.
 ### [Jak uruchomić OCR w C# – Kompletny przewodnik z Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)

@@ -77,6 +77,8 @@ weight: 25
 ### [Πώς να κάνετε async OCR σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 ### [Πώς να κάνετε OCR εικόνας με Aspose OCR – Οδηγός C# με επιτάχυνση GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 Μάθετε πώς να αξιοποιήσετε την επιτάχυνση GPU για OCR εικόνων σε C# με Aspose OCR, βελτιώνοντας την ταχύτητα και την ακρίβεια.
+### [πώς να εκτελέσετε OCR με Aspose OCR – Οδηγός C# με επιτάχυνση GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+### [Εξαγωγή κειμένου από σάρωση σε C# – Πλήρης οδηγός Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 
 
 

@@ -178,6 +178,24 @@ Aspose OCR kullanarak PNG dosyalarından metni adım adım çıkarın. C# ile ta
 Görsel ve DJVU dosyalarından metin çıkararak .NET uygulamalarınızda OCR gücünü kullanın. Adım adım rehberimizi izleyin.
 ### [c# ocr eğitimi – Aspose OCR ile Görüntülerden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 Aspose OCR kullanarak görüntülerden metin çıkarmayı adım adım öğrenin. C# ile tam bir rehber.
+### [c# OCR eğitimi – Aspose OCR Kullanarak Görüntüden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
+Aspose OCR ile C# kullanarak bir görüntüden metin çıkarın. Adım adım kılavuzla hızlı ve doğru sonuçlar elde edin.
+
+### [C# ile OCR Kaynaklarını İndirip Görüntüden Metin Tanıma](./how-to-download-ocr-resources-and-recognize-text-from-image/)
+C# kullanarak OCR kaynaklarını indirip bir görüntüden metin çıkarma adımlarını öğrenin.
+
+### [C# ile Arapça OCR – Tam Programlama Rehberi](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+C# kullanarak Arapça metin tanıma işlemlerini adım adım öğrenin ve Aspose.OCR ile etkili sonuçlar elde edin.
+
+### [C# ile OCR'dan JSON Kaydetme – Adım Adım Kılavuz](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
+Aspose.OCR for .NET kullanarak OCR sonuçlarını JSON olarak kaydetmeyi adım adım öğrenin.
+
+### [C# ile Görüntüden Aranabilir PDF Oluşturma – Tam Rehber](./create-searchable-pdf-from-image-in-c-complete-guide/)
+Aspose.OCR kullanarak C# ile görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin.
+
+### [C#'ta Toplu OCR Nasıl Yapılır – Görsellerden Metni Hızlıca Çıkarma](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
+C# ile toplu OCR işlemleri yaparak birden fazla görüntüden hızlıca metin çıkarın.
+
 ### [JPG'de Metin Tanıma – Aspose OCR ile Tam C# Kılavuzu](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
 Aspose OCR kullanarak JPG dosyalarından metin çıkarmayı adım adım öğrenin. C# ile tam bir rehber.
 ### [Aspose OCR C# ile TIFF'ten Metin Çıkarma – Tam Kılavuz](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)

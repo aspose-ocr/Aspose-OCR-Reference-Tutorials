@@ -75,6 +75,8 @@ weight: 25
 ### [كيفية تنفيذ OCR غير متزامن في C# – دليل خطوة بخطوة كامل](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 ### [كيفية إجراء OCR على صورة باستخدام Aspose OCR – دليل C# مع تسريع GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 دليل خطوة بخطوة لاستخدام Aspose OCR مع تسريع GPU في C# لتحسين سرعة ودقة التعرف على النص في الصور.
+### [كيفية إجراء OCR باستخدام Aspose OCR – دليل C# مع تسريع GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+### [استخراج النص من المسح الضوئي في C# – دليل Aspose OCR الكامل](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 
 
 

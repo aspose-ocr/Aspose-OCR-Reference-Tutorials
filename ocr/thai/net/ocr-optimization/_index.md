@@ -149,6 +149,12 @@ weight: 25
 
 ### [วิธีทำ OCR รูปภาพด้วย Aspose OCR – คู่มือ C# เร่งความเร็วด้วย GPU](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 
+### [วิธีทำ OCR ด้วย Aspose OCR – คู่มือ C# เร่งความเร็วด้วย GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+เรียนรู้วิธีใช้ Aspose OCR บน GPU ด้วย C# เพื่อเพิ่มความเร็วการประมวลผล OCR อย่างมีประสิทธิภาพ
+
+### [ดึงข้อความจากการสแกนใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีดึงข้อความจากไฟล์สแกนด้วย C# โดยใช้ Aspose OCR อย่างละเอียด ตั้งแต่การโหลดไฟล์จนถึงการบันทึกผลลัพธ์
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

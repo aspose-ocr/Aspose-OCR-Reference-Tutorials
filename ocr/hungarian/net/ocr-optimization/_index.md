@@ -146,6 +146,11 @@ Ismerje meg, hogyan valósíthatja meg az aszinkron OCR-t C#‑ban az Aspose.OCR
 ### [Hogyan OCR-eljünk képet az Aspose OCR‑val – GPU‑gyorsított C# útmutató](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 Fedezze fel, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyors és pontos képfeldolgozáshoz.
 
+### [Hogyan hajtsunk végre OCR-t az Aspose OCR‑val – GPU‑gyorsított C# útmutató](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+Ismerje meg, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyorsabb szövegfelismeréshez.
+
+### [Szöveg kinyerése beolvasásból C#‑ban – Teljes Aspose OCR útmutató](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

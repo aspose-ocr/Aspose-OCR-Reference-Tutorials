@@ -67,6 +67,10 @@ Nutzen Sie GPU‑Beschleunigung, um OCR‑Ergebnisse schneller zu erhalten. Schr
 Verbessern Sie die OCR‑Genauigkeit, indem Sie Bildschräglagen automatisch korrigieren. Schritt‑für‑Schritt‑Anleitung in C#.
 ### [Wie man ein Bild mit Aspose OCR – GPU‑beschleunigter C#‑Leitfaden OCR‑verarbeitet](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 Erfahren Sie, wie Sie mithilfe von GPU‑Beschleunigung und C# die OCR‑Leistung von Aspose OCR maximieren.
+### [Wie man OCR mit Aspose OCR – GPU‑beschleunigtem C#‑Leitfaden ausführt](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+Nutzen Sie GPU‑Beschleunigung für schnelle OCR‑Ergebnisse in C# mit Aspose OCR.
+### [Text aus Scan in C# extrahieren – Vollständiger Aspose OCR Leitfaden](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus gescannten Dokumenten vollständig extrahieren und verarbeiten.
 
 
 

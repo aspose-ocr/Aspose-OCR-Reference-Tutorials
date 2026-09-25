@@ -84,6 +84,10 @@ Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan Aspose.OCR dala
 Pelajari teknik meningkatkan akurasi OCR menggunakan Aspose OCR dalam proyek C# Anda.
 ### [Cara Async OCR di C# – Panduan Lengkap Langkah demi Langkah](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Pelajari cara melakukan OCR secara asinkron di C# dengan Aspose.OCR, meningkatkan kinerja aplikasi Anda dengan contoh langkah demi langkah.
+### [Cara melakukan OCR dengan Aspose OCR – Panduan C# yang Dipercepat GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+Pelajari cara memanfaatkan GPU untuk mempercepat OCR menggunakan Aspose OCR dalam proyek C# Anda.
+### [Ekstrak Teks dari Pemindaian dalam C# – Panduan Lengkap Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+Panduan lengkap untuk mengekstrak teks dari pemindaian menggunakan Aspose OCR dalam proyek C# Anda.
 
 ## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 

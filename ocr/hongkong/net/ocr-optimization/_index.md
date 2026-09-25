@@ -77,6 +77,9 @@ weight: 25
 ### [如何在 C# 中非同步使用 OCR – 完整步驟指南](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 ### [使用 Aspose OCR 進行圖像 OCR – GPU 加速 C# 指南](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 了解如何在 C# 中利用 GPU 加速的 Aspose OCR 進行圖像文字辨識，提升處理速度與精度。
+### [在 C# 中從掃描提取文字 – 完整 Aspose OCR 指南](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+完整教學示範如何在 C# 中使用 Aspose.OCR 處理掃描圖像，提取文字並導出多種格式。
+### [使用 Aspose OCR 執行 OCR – GPU 加速 C# 指南](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 
 
 

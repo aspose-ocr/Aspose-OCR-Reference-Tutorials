@@ -89,6 +89,10 @@ Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR res
 Learn techniques to boost OCR accuracy in C# using Aspose OCR, including preprocessing, language settings, and result validation.
 ### [How to OCR Image with Aspose OCR – GPU‑Accelerated C# Guide](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 Learn to leverage GPU acceleration in C# with Aspose OCR for faster image text extraction and improved performance.
+### [how how to perform OCR with Aspose OCR – GPU‑Accelerated C# Guide](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+Leverage GPU acceleration in C# to boost OCR performance with Aspose.OCR, covering setup, configuration, and best practices.
+### [Extract Text from Scan in C# – Complete Aspose OCR Guide](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+Comprehensive guide to extracting text from scanned documents using Aspose.OCR in C#, covering setup, preprocessing, and result handling.
 
 ### [how to async OCR in C# – Complete Step‑by‑Step Guide](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Learn how to implement asynchronous OCR processing in C# with Aspose.OCR, including async API usage and best practices.

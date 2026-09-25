@@ -115,6 +115,10 @@ C# kodunda Aspose OCR kullanarak tanıma doğruluğunu artırmak için ipuçlar�
 C# içinde Aspose.OCR kullanarak asenkron OCR işlemlerini adım adım uygulayın ve performansı artırın.
 ### [Aspose OCR ile Görüntü OCR – GPU Hızlandırmalı C# Rehberi](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 Aspose OCR ve GPU hızlandırmasıyla C# kullanarak görüntü OCR işlemini adım adım öğrenin.
+### [Aspose OCR ile OCR Nasıl Yapılır – GPU Hızlandırmalı C# Rehberi](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+GPU hızlandırmalı C# koduyla Aspose OCR kullanarak yüksek performanslı metin tanıma işlemlerini öğrenin.
+### [Tarama Görüntüsünden Metin Çıkarma C# – Tam Aspose OCR Kılavuzu](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+C# ile tarama görüntülerinden metin çıkarma sürecini adım adım öğrenin ve Aspose OCR'ın tam özelliklerini keşfedin.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

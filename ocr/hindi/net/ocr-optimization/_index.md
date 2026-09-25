@@ -160,6 +160,11 @@ Aspose.OCR के साथ C# में छवि से सटीक पाठ
 ### [Aspose OCR के साथ छवि पर OCR कैसे करें – GPU‑त्वरित C# गाइड](./how-to-ocr-image-with-aspose-ocr-gpu-accelerated-c-guide/)
 GPU‑त्वरित C# कोड के साथ Aspose OCR का उपयोग करके तेज़ी से छवि से टेक्स्ट निकालें।
 
+### [Aspose OCR के साथ OCR कैसे करें – GPU‑त्वरित C# गाइड](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
+
+### [C# में स्कैन से टेक्स्ट निकालें – पूर्ण Aspose OCR गाइड](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+C# में स्कैन की छवियों से सटीक रूप से पाठ निकालने के लिए पूर्ण Aspose OCR गाइड।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  
