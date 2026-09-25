@@ -169,58 +169,6 @@ if (!threadPool.awaitTermination(60, TimeUnit.SECONDS)) {
 
 Mẫu `awaitTermination` cho phép pool có thời gian hoàn thành công việc đang chạy trước khi chúng ta buộc dừng. Bỏ qua bước này là nguyên nhân phổ biến gây rò rỉ bộ nhớ trong các ứng dụng chạy lâu dài.
 
-## Ví dụ Hoạt động đầy đủ
-
-Kết hợp tất cả lại, dưới đây là chương trình hoàn chỉnh mà bạn có thể sao chép‑dán vào `ParallelBatchDemo.java` và chạy:
-
-```java
-import com.aspose.ocr.*;
-
-import java.util.*;
-import java.util.concurrent.*;
-
-public class ParallelBatchDemo {
-    public static void main(String[] args) throws Exception {
-        // 1️⃣ Load license (optional)
-        License license = new License();
-        license.setLicense("Aspose.OCR.lic");
-
-        // 2️⃣ Shared, thread‑safe OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 3️⃣ Fixed thread pool java – one thread per core
-        int threadCount = Runtime.getRuntime().availableProcessors();
-        ExecutorService threadPool = Executors.newFixedThreadPool(threadCount);
-
-        // 4️⃣ Files to process – extract text from png
-        List<String> imageFiles = Arrays.asList(
-                "YOUR_DIRECTORY/page1.png",
-                "YOUR_DIRECTORY/page2.png",
-                "YOUR_DIRECTORY/page3.png"
-        );
-
-        // 5️⃣ Submit tasks – parallel OCR processing
-        List<Future<String>> ocrFutures = new ArrayList<>();
-        for (String imagePath : imageFiles) {
-            ocrFutures.add(threadPool.submit(() -> {
-                OcrInput input = new OcrInput();
-                input.add(imagePath);
-                OcrResult result = ocrEngine.recognize(input);
-                return result.getText();
-            }));
-        }
-
-        // 6️⃣ Retrieve and print – convert scanned pages text
-        for (Future<String> future : ocrFutures) {
-            System.out.println("----");
-            System.out.println(future.get());
-        }
-
-        // 7️⃣ Shut down executor service cleanly
-        threadPool.shutdown();
-        if (!threadPool.awaitTermination(60, TimeUnit.SECONDS)) {
-            threadPool.shutdownNow();
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

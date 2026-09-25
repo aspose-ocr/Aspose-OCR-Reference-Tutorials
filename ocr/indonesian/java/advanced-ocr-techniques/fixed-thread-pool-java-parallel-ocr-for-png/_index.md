@@ -25,12 +25,6 @@ title: fixed thread pool Java – OCR paralel untuk PNG
 url: /id/java/advanced-ocr-techniques/fixed-thread-pool-java-parallel-ocr-for-png/
 ---
 
-block unchanged.
-
-Now produce final content.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -190,58 +184,6 @@ if (!threadPool.awaitTermination(60, TimeUnit.SECONDS)) {
 Pola `awaitTermination` memberi pool kesempatan menyelesaikan pekerjaan yang sedang berjalan sebelum dipaksa berhenti. Mengabaikan langkah ini adalah sumber umum memory leak pada aplikasi yang berjalan lama.
 
 ---
-
-## Contoh Lengkap yang Berfungsi
-
-Menggabungkan semuanya, berikut program lengkap yang dapat Anda salin‑tempel ke `ParallelBatchDemo.java` dan jalankan:
-
-```java
-import com.aspose.ocr.*;
-
-import java.util.*;
-import java.util.concurrent.*;
-
-public class ParallelBatchDemo {
-    public static void main(String[] args) throws Exception {
-        // 1️⃣ Load license (optional)
-        License license = new License();
-        license.setLicense("Aspose.OCR.lic");
-
-        // 2️⃣ Shared, thread‑safe OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 3️⃣ Fixed thread pool java – one thread per core
-        int threadCount = Runtime.getRuntime().availableProcessors();
-        ExecutorService threadPool = Executors.newFixedThreadPool(threadCount);
-
-        // 4️⃣ Files to process – extract text from png
-        List<String> imageFiles = Arrays.asList(
-                "YOUR_DIRECTORY/page1.png",
-                "YOUR_DIRECTORY/page2.png",
-                "YOUR_DIRECTORY/page3.png"
-        );
-
-        // 5️⃣ Submit tasks – parallel OCR processing
-        List<Future<String>> ocrFutures = new ArrayList<>();
-        for (String imagePath : imageFiles) {
-            ocrFutures.add(threadPool.submit(() -> {
-                OcrInput input = new OcrInput();
-                input.add(imagePath);
-                OcrResult result = ocrEngine.recognize(input);
-                return result.getText();
-            }));
-        }
-
-        // 6️⃣ Retrieve and print – convert scanned pages text
-        for (Future<String> future : ocrFutures) {
-            System.out.println("----");
-            System.out.println(future.get());
-        }
-
-        // 7️⃣ Shut down executor service cleanly
-        threadPool.shutdown();
-        if (!threadPool.awaitTermination(60, TimeUnit.SECONDS)) {
-            threadPool.shutdownNow();
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
