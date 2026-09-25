@@ -93,6 +93,16 @@ En detaljerad guide som visar hur du extraherar text från bilder med Aspose OCR
 Lär dig hur du konverterar skannade filer till sökbara PDF‑dokument med Aspose.OCR för Java.
 ### [Ta bort utvärderingsvattenstämpel i Aspose OCR – Komplett Java‑licensguide](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Lär dig hur du permanent tar bort utvärderingsvattenstämpeln och aktiverar full licens för Aspose OCR i Java.
+### [Känna igen text i bild med Aspose OCR – Java‑tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+En steg‑för‑steg‑guide för att känna igen text i bilder med Aspose OCR i Java.
+### [Bild till text Java: Extrahera Urdu‑text med Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Lär dig hur du extraherar Urdu‑text från bilder med Aspose OCR i Java.
+### [Skapa sökbar PDF från bild i Java – Steg‑för‑steg‑guide](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Lär dig hur du konverterar en bild till en sökbar PDF i Java med Aspose.OCR i en enkel steg‑för‑steg‑guide.
+### [Hur man använder OCR i Java – Extrahera text från PDF med Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Lär dig hur du använder OCR i Java för att extrahera text från PDF‑filer med Aspose.OCR.
+### [Hur man använder OCR i Java – Känn igen text från bild snabbt](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Lär dig snabbt hur du använder Aspose.OCR i Java för att känna igen text i bilder med enkla kodexempel.
 
 ## Vanliga frågor
 

@@ -91,6 +91,16 @@ Leer hoe u stap voor stap tekst uit afbeeldingen kunt extraheren met Aspose OCR 
 Maak eenvoudig doorzoekbare PDF‑bestanden van gescande documenten met Aspose.OCR in Java.
 ### [Verwijder evaluatiewatermerk in Aspose OCR – Complete Java-licentiegids](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Leer hoe u het evaluatiewatermerk verwijdert en een volledige licentie implementeert in Aspose OCR voor Java.
+### [Tekst uit afbeelding herkennen met Aspose OCR – Java-tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Leer hoe u tekst uit een afbeelding kunt herkennen met Aspose OCR in een Java‑tutorial.
+### [Afbeelding naar tekst Java: Urdu‑tekst extraheren met Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Leer hoe u Urdu‑tekst uit afbeeldingen kunt extraheren met Aspose OCR in Java.
+### [Maak doorzoekbare PDF van afbeelding in Java – Stapsgewijze gids](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt vanuit een afbeelding in Java, stap voor stap.
+### [Hoe OCR te gebruiken in Java – Tekst extraheren uit PDF met Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Leer hoe u met Aspose.OCR PDF‑bestanden kunt analyseren en tekst kunt extraheren in Java.
+### [Hoe OCR te gebruiken in Java – Tekst uit afbeelding snel herkennen](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Leer hoe u met Aspose.OCR snel tekst uit een afbeelding kunt herkennen in Java.
 
 ## Veelgestelde vragen
 

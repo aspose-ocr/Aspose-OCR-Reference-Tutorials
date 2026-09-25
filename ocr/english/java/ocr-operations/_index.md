@@ -95,6 +95,16 @@ Learn how to convert scanned files into searchable PDFs using Aspose.OCR for Jav
 
 ### [Remove Evaluation Watermark in Aspose OCR – Complete Java License Guide](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Learn how to remove the evaluation watermark by applying a valid Aspose OCR license in Java, with step‑by‑step instructions.
+### [recognize text from image with Aspose OCR – Java Tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Comprehensive Java tutorial to recognize text from images using Aspose OCR, covering setup, processing steps, and best‑practice tips.
+### [image to text java: Extract Urdu Text with Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Extract Urdu text from images using Aspose OCR for Java.
+### [Create Searchable PDF from Image in Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Create a searchable PDF from an image with Aspose OCR in Java, step‑by‑step.
+### [How to Use OCR in Java – Extract Text from PDF with Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Learn step‑by‑step how to extract text from PDF files using Aspose.OCR in Java, covering setup, OCR processing, and saving results.
+### [How to Use OCR in Java – Recognize Text from Image Quickly](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Learn how to quickly recognize text from images using Aspose.OCR for Java with simple code examples and best practices.
 
 ## Frequently Asked Questions
 

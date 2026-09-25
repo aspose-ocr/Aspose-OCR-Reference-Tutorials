@@ -86,6 +86,14 @@ Acelere la extracción de texto de imágenes en Java usando OCR paralelo con Asp
 Aprenda a extraer texto de imágenes en Java con esta guía completa de OCR, paso a paso y fácil de seguir.
 ### [Extraer texto de imagen en Java – Guía completa de OCR con corrección ortográfica](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Aprenda a extraer texto de imágenes en Java con OCR y aplicar corrección ortográfica para resultados precisos.
+### [Reconocer texto de imagen usando Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Acelere el reconocimiento de texto en imágenes con la GPU usando Aspose OCR para Java. Obtenga alta precisión y rendimiento mejorado.
+### [Pool de hilos fijo en Java – OCR paralelo para PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
+Acelere el OCR de imágenes PNG usando un pool de hilos fijo en Java para procesamiento paralelo.
+### [Preprocesar imagen para OCR – Guía completa de Java para mejorar el contraste y extraer texto](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Mejore la calidad de sus imágenes antes del OCR, aumentando el contraste y optimizando la extracción de texto con Java.
+### [Crear motor OCR Java – Reconocer texto de imágenes grandes](./create-ocr-engine-java-recognize-text-from-large-images/)
+Aprenda a crear un motor OCR en Java para reconocer texto en imágenes de gran tamaño con alta precisión y rendimiento.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

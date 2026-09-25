@@ -93,6 +93,16 @@ Szczegółowy przewodnik, jak wyodrębnić tekst z obrazu przy użyciu Aspose OC
 Dowiedz się, jak przy pomocy Aspose.OCR w Javie przekształcić zeskanowane pliki w przeszukiwalne PDF, zwiększając dostępność i edytowalność dokumentów.
 ### [Usuwanie znaku wodnego wersji ewaluacyjnej w Aspose OCR – Kompletny przewodnik licencyjny Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Kompletny przewodnik, jak usunąć znak wodny wersji ewaluacyjnej w Aspose OCR w Javie, korzystając z licencji.
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – samouczek Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Odblokuj moc rozpoznawania tekstu z obrazów w Javie przy użyciu Aspose OCR. Szybki i precyzyjny samouczek.
+### [Obraz na tekst w Javie: wyodrębnij tekst w języku urdu przy użyciu Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Dowiedz się, jak wyodrębnić tekst w języku urdu z obrazów w Javie przy użyciu Aspose OCR.
+### [Utwórz przeszukiwalny PDF z obrazu w Javie – przewodnik krok po kroku](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Odblokuj możliwość konwersji obrazu do przeszukiwalnego PDF w Javie, krok po kroku, z użyciem Aspose.OCR.
+### [Jak używać OCR w Javie – wyodrębniać tekst z PDF przy użyciu Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Odblokuj szybkie i dokładne wyodrębnianie tekstu z plików PDF w Javie przy użyciu Aspose.OCR.
+### [Jak używać OCR w Javie – szybko rozpoznawać tekst z obrazu](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Szybko rozpoznaj tekst z obrazu w Javie przy użyciu Aspose.OCR. Praktyczny przewodnik krok po kroku.
 
 ## Najczęściej zadawane pytania
 

@@ -98,6 +98,14 @@ Learn how to deskew images before OCR in Java using Aspose.OCR, improving recogn
 Learn how to extract text from images using Aspose OCR in Java with a step‑by‑step guide.
 ### [detect language image with Aspose OCR – Java Tutorial](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Detect the language of text in images using Aspose.OCR for Java. Follow step‑by‑step guide to enable language detection and improve OCR results.
+### [recognize text image using Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Leverage GPU acceleration with Aspose OCR in Java to recognize text from images faster and with high accuracy.
+### [fixed thread pool java – parallel OCR for PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
+Learn how to use a fixed thread pool in Java to run OCR on multiple PNG images in parallel for faster processing.
+### [Preprocess Image for OCR – Complete Java Guide to Boost Contrast & Extract Text](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Learn how to preprocess images in Java to enhance contrast, reduce noise, and improve OCR accuracy with Aspose.OCR.
+### [Create OCR Engine Java – Recognize Text from Large Images](./create-ocr-engine-java-recognize-text-from-large-images/)
+Learn how to build an OCR engine in Java to efficiently recognize text from large images using Aspose.OCR.
 
 ## Frequently Asked Questions
 

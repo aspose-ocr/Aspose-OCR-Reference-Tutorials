@@ -93,6 +93,16 @@ Demo langkah demi langkah mengekstrak teks dari gambar menggunakan Aspose OCR de
 Panduan praktis membuat PDF yang dapat dicari dari file hasil pemindaian menggunakan Aspose.OCR untuk Java.
 ### [Menghapus Watermark Evaluasi di Aspose OCR – Panduan Lisensi Java Lengkap](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Panduan lengkap menghilangkan watermark evaluasi pada Aspose OCR dengan lisensi Java, langkah demi langkah untuk produksi tanpa batas.
+### [Mengenali Teks dari Gambar dengan Aspose OCR – Tutorial Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Panduan singkat untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, langkah demi langkah untuk hasil akurat.
+### [Ekstrak Teks Urdu dengan Aspose OCR – Tutorial Java](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Panduan singkat mengekstrak teks Urdu dari gambar menggunakan Aspose OCR dengan Java, langkah demi langkah untuk hasil akurat.
+### [Buat PDF yang Dapat Dicari dari Gambar di Java – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Panduan langkah‑per‑langkah membuat PDF yang dapat dicari dari gambar menggunakan Aspose.OCR untuk Java.
+### [Cara Menggunakan OCR di Java – Mengekstrak Teks dari PDF dengan Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Panduan langkah demi langkah menggunakan OCR di Java untuk mengekstrak teks dari file PDF dengan Aspose.OCR.
+### [Cara Menggunakan OCR di Java – Mengenali Teks dari Gambar dengan Cepat](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Panduan singkat untuk mengenali teks dari gambar menggunakan Aspose OCR dengan Java secara cepat dan akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

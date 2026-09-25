@@ -90,6 +90,14 @@ GPU를 활용해 Java OCR 성능을 크게 향상시키는 방법을 단계별�
 Java에서 병렬 처리로 이미지 텍스트 인식을 수행하는 방법을 단계별로 안내합니다. 빠른 OCR 성능을 경험하세요.
 ### [Java에서 이미지에서 텍스트 추출 – 맞춤법 교정 포함 완전 OCR 가이드](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 맞춤법 교정 기능을 포함한 Java OCR 가이드를 통해 이미지에서 정확히 텍스트를 추출하는 방법을 단계별로 배웁니다.
+### [Java용 Aspose OCR GPU로 텍스트 이미지 인식](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Aspose OCR GPU를 활용해 Java에서 텍스트 이미지 인식을 고속으로 수행하는 방법을 안내합니다. 빠른 처리와 높은 정확도를 경험하세요.
+### [고정 스레드 풀 Java – PNG 병렬 OCR](./fixed-thread-pool-java-parallel-ocr-for-png/)
+고정 스레드 풀을 사용하여 PNG 이미지에 대해 병렬 OCR을 수행하는 방법을 안내합니다. 효율적인 처리와 높은 정확도를 제공합니다.
+### [OCR을 위한 이미지 전처리 – 대비를 높이고 텍스트를 추출하는 완전한 Java 가이드](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Java에서 이미지 대비를 향상시켜 OCR 정확도를 높이고 텍스트를 효율적으로 추출하는 방법을 단계별로 안내합니다.
+### [Java용 OCR 엔진 생성 – 대형 이미지에서 텍스트 인식](./create-ocr-engine-java-recognize-text-from-large-images/)
+Java에서 대형 이미지에 대한 OCR 엔진을 생성하고 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

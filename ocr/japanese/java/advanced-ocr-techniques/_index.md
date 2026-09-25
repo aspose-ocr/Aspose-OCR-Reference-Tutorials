@@ -43,6 +43,17 @@ Aspose.OCR を使用して Java アプリケーションを強化し、正確な
 
 ## [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 
+### [Aspose OCR GPU を使用したテキスト画像の認識 – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Aspose OCR GPU を活用し、Java でテキスト画像を高速に認識する方法をステップバイステップで解説します。
+
+### [OCR 用画像前処理 – コントラスト強化とテキスト抽出の完全 Java ガイド](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+画像のコントラストを最適化し、テキスト抽出精度を向上させるためのステップバイステップ Java ガイドです。
+
+### [固定スレッドプール Java – PNG の並列 OCR](./fixed-thread-pool-java-parallel-ocr-for-png/)
+
+### [Java で OCR エンジンを作成 – 大きな画像からテキストを認識](./create-ocr-engine-java-recognize-text-from-large-images/)
+Java で OCR エンジンを構築し、大きな画像からテキストを高速に抽出する方法をステップバイステップで解説します。
+
 ## [GPU を有効にして OCR を実行し、TIFF からテキストを抽出する方法](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 GPU を活用して高速に TIFF 画像からテキストを抽出する手順を解説します。Aspose.OCR for Java の設定方法を学びましょう。
 

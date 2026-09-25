@@ -72,6 +72,17 @@ Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével.
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
 Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről‑lépésre útmutatónkat a hatékony integráció érdekében.
+### [OCR motor létrehozása Java-ban – Szöveg felismerése nagy képeken](./create-ocr-engine-java-recognize-text-from-large-images/)
+Ismerje meg, hogyan hozhat létre OCR motor-t Java-ban, és hogyan ismerheti fel a szöveget nagy felbontású képeken.
+
+## [Szöveges kép felismerése az Aspose OCR GPU-val – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Használja az Aspose OCR GPU-t a szöveges képek gyors és pontos felismeréséhez Java-ban.
+
+## [Fix szálú pool Java – párhuzamos OCR PNG-hez](./fixed-thread-pool-java-parallel-ocr-for-png/)
+
+## [Képfeldolgozás OCR-hez – Teljes Java útmutató a kontraszt növeléséhez és a szöveg kinyeréséhez](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+Növelje a képek kontrasztját és javítsa a szövegfelismerést Java-ban egy átfogó előfeldolgozó útmutatóval.
+
 ### [Hogyan engedélyezzük a GPU-t az OCR-hez, és szöveget nyerjünk ki TIFF-fájlból](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Tanulja meg, hogyan használhatja a GPU-t az OCR-hez és hogyan vonhat ki szöveget TIFF képekből az Aspose.OCR for Java segítségével.
 

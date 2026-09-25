@@ -44,6 +44,18 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 ## [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
 
+### [在 Aspose OCR GPU 中使用 Java 辨識文字影像](./recognize-text-image-using-aspose-ocr-gpu-java/)
+利用 Aspose OCR GPU 加速 Java 應用程式的文字影像辨識，實現高效能與高精度的 OCR 處理。
+
+### [在 Java 中使用固定執行緒池進行 PNG 並行 OCR](./fixed-thread-pool-java-parallel-ocr-for-png/)
+利用固定執行緒池在 Java 中同時處理多個 PNG 圖像的 OCR，提高辨識效能。
+
+### [預處理影像以進行 OCR – 完整的 Java 指南提升對比度與文字提取](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
+透過本完整 Java 教程，學習如何預處理影像、提升對比度，從而改善 OCR 效能與文字提取準確度。
+
+### [在 Java 中建立 OCR 引擎 – 從大型影像辨識文字](./create-ocr-engine-java-recognize-text-from-large-images/)
+使用 Aspose.OCR for Java 建立自訂 OCR 引擎，處理大型影像並高效辨識文字，提升您的應用效能。
+
 ## [在 Aspose.OCR 中偵測影像語言 – Java 教程](./detect-language-image-with-aspose-ocr-java-tutorial/)
 
 ### [在 Java 中使用 Aspose OCR 執行圖像 OCR – 步驟指南](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
