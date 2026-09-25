@@ -1,0 +1,7 @@
+Title: recognize text from image in ASP.NET Core – upload for OCR
+Slug: recognize-text-from-image-in-asp-net-core-upload-for-ocr
+Category: ocr-optimization
+ProcessedDate: 2026-06-29T02:48:04.762575
+SourceRepo: AI Search API
+Keywords: recognize text from image, upload image for ocr, ocr image from stream
+PRNumber: 161

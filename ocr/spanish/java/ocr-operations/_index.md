@@ -82,8 +82,20 @@ Desbloquea el poder del OCR en Java con Aspose.OCR. Reconoce texto en documentos
 Desbloquea la creación de PDFs buscables a partir de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
 ### [OCR Reconociendo imágenes TIFF en Aspose.OCR para Java](./recognize-tiff/)
 Desbloquea un poderoso reconocimiento de texto en Java con Aspose.OCR. Reconoce texto en imágenes TIFF sin esfuerzo. Descárgalo ahora para una experiencia OCR fluida.
-### [Reconocer texto en imagen con Aspose OCR – Tutorial completo de OCR en Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Desbloquea la extracción completa de texto de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Cómo realizar OCR por lotes en Java – Guía completa para extraer texto de imágenes](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Aprende a procesar múltiples imágenes con OCR en Java, extrayendo texto de forma eficiente y automatizada.
+### [Ejecutar OCR en Imagen con Java – Guía completa de Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Aprende a ejecutar OCR en imágenes usando Java con Aspose OCR, paso a paso para obtener resultados precisos y eficientes.
+### [Crear PDF buscable en Java – Guía paso a paso](./create-searchable-pdf-in-java-step-by-step-guide/)
+Aprende a crear PDFs buscables en Java con Aspose.OCR paso a paso.
+### [OCR por lotes de imágenes en Java – Extraer texto de archivos PNG rápido](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Desbloquea la extracción rápida de texto de múltiples archivos PNG usando Aspose.OCR en Java.
+### [Extraer texto de imagen con Aspose OCR – Demo paso a paso](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Aprende a extraer texto de imágenes usando Aspose OCR en Java con una demostración paso a paso.
+### [Crear PDF buscable a partir de archivos escaneados – Guía Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Aprende a generar PDFs buscables a partir de documentos escaneados usando Aspose.OCR en Java.
+### [Eliminar marca de agua de evaluación en Aspose OCR – Guía completa de licencia Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Desbloquea la eliminación de la marca de agua de evaluación en Aspose OCR con una guía completa de licencia para Java.
 ### [Cómo usar OCR en Java – Reconocer texto de imagen rápidamente](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Aprende a reconocer texto rápidamente a partir de imágenes usando Aspose.OCR en Java con este tutorial paso a paso.
 ### [Reconocer texto de imagen con Aspose OCR – Tutorial Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
@@ -122,3 +134,14 @@ A: Procesa imágenes TIFF en fragmentos o usa multi‑threading para mantener el
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Reconocer texto en imagen con Aspose OCR – Tutorial completo de OCR en Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Desbloquea la extracción completa de texto de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Crear PDF buscable a partir de PNG – Guía completa en Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Aprende a generar un PDF buscable desde una imagen PNG usando Aspose.OCR para Java, paso a paso.
+### [Crear PDF buscable a partir de una imagen con OCR – Tutorial Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Aprende a generar un PDF buscable desde una imagen usando Aspose.OCR para Java, paso a paso.
+### [Crear PDF buscable con Aspose OCR – Guía paso a paso](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Aprende a generar PDFs buscables usando Aspose OCR con instrucciones detalladas paso a paso.
+### [Convertir imágenes a texto en Java – Guía de procesamiento OCR por lotes](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Aprende a convertir múltiples imágenes a texto en Java usando procesamiento OCR por lotes con Aspose.OCR.
+

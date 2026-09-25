@@ -1,0 +1,7 @@
+Title: Aspose OCR C# Example – Enable GPU, Set Memory Limit & Process TIF Images
+Slug: aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif
+Category: ocr-optimization
+ProcessedDate: 2026-06-03T23:27:06.768558
+SourceRepo: AI Search API
+Keywords: aspose ocr c# example, set gpu memory limit, load image for ocr, recognize text from tif
+PRNumber: 139

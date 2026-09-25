@@ -1,10 +1,10 @@
 ---
-date: 2025-12-22
-description: Tìm hiểu cách nhận dạng văn bản từ hình ảnh bằng Aspose.OCR cho .NET,
-  chuyển đổi hình ảnh thành văn bản với các cài đặt nhận dạng OCR chính xác.
-linktitle: recognize text from image – Perform OCR on Image from URL
+date: 2026-02-25
+description: Tìm hiểu cách chuyển đổi hình ảnh thành văn bản bằng Aspose.OCR cho .NET,
+  trích xuất văn bản từ hình ảnh với các cài đặt nhận dạng OCR chính xác.
+linktitle: convert image to text – Perform OCR on Image from URL
 second_title: Aspose.OCR .NET API
-title: Nhận dạng văn bản từ hình ảnh – Thực hiện OCR trên hình ảnh từ URL
+title: Chuyển Đổi Hình Ảnh Thành Văn Bản – Thực Hiện OCR Trên Hình Ảnh Từ URL
 url: /vi/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
@@ -13,38 +13,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thực hiện OCR trên Hình ảnh từ URL trong Nhận dạng Hình ảnh OCR
+# Chuyển Đổi Hình Ảnh Thành Văn Bản – Thực Hiện OCR trên Hình Ảnh từ URL
 
 ## Giới thiệu
 
-Trong lĩnh vực Nhận dạng Ký tự Quang học (OCR), Aspose.OCR cho .NET cho phép bạn **recognize text from image** một cách chính xác, giúp các nhà phát triển dễ dàng trích xuất nội dung từ hình ảnh. Nếu bạn muốn tích hợp khả năng OCR vào ứng dụng .NET và thực hiện nhận dạng văn bản từ nguồn từ xa, hướng dẫn chi tiết này sẽ chỉ cho bạn cách thực hiện OCR trên một hình ảnh từ URL.
+Nếu bạn cần **convert image to text** trong một ứng dụng .NET, Aspose.OCR for .NET cung cấp cho bạn cách đáng tin cậy để **extract text from image** từ các ảnh được lưu trữ ở bất kỳ nơi nào trên web. Trong hướng dẫn này, bạn sẽ học cách nhận dạng văn bản từ một hình ảnh có URL công khai, cấu hình các **ocr recognition settings**, và xử lý kết quả — tất cả chỉ trong vài phút.
 
-## Câu trả lời nhanh
-- **Mục tiêu của hướng dẫn này là gì?** Nhận dạng văn bản từ một hình ảnh nằm ở URL công cộng bằng Aspose.OCR cho .NET.  
-- **Từ khóa chính được nhắm tới là gì?** *recognize text from image*  
-- **Tôi có cần giấy phép không?** Có bản dùng thử, nhưng giấy phép thương mại cần thiết cho việc sử dụng trong môi trường sản xuất.  
-- **Các phiên bản .NET được hỗ trợ là gì?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Thời gian triển khai mất bao lâu?** Thông thường dưới 10 phút cho một cấu hình cơ bản.
+## Trả lời nhanh
+- **Nội dung của hướng dẫn này là gì?** Chuyển đổi hình ảnh thành văn bản từ một URL công khai bằng Aspose.OCR for .NET.  
+- **Từ khóa chính được nhắm tới là gì?** *convert image to text*  
+- **Có cần giấy phép không?** Có phiên bản dùng thử, nhưng cần giấy phép thương mại cho việc sử dụng trong môi trường sản xuất.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Thời gian triển khai khoảng bao lâu?** Thông thường dưới 10 phút cho một cấu hình cơ bản.
 
-## “recognize text from image” là gì?
-Nhận dạng văn bản từ hình ảnh có nghĩa là chuyển đổi hình ảnh chứa các ký tự thành văn bản có thể chỉnh sửa, tìm kiếm. Quá trình này thường được gọi là **convert image to text** hoặc **extract text from image**, và nó hỗ trợ các kịch bản như số hoá tài liệu, tự động hoá nhập liệu và cải thiện khả năng truy cập.
+## “convert image to text” là gì?
+Chuyển đổi hình ảnh thành văn bản có nghĩa là biến đại diện hình ảnh của các ký tự thành các chuỗi có thể chỉnh sửa và tìm kiếm. Quá trình này — còn được gọi là **extract text from image** — hỗ trợ số hoá tài liệu, tự động nhập dữ liệu và các giải pháp truy cập.
 
-## Tại sao nên sử dụng Aspose.OCR cho .NET?
-- **Độ chính xác cao** với hỗ trợ ngôn ngữ tích hợp.  
-- **Cài đặt nhận dạng OCR chi tiết** (ví dụ: tự động chỉnh nghiêng, phát hiện vùng).  
-- **API đơn giản** hoạt động trên cả .NET Framework và .NET Core.  
-- **Không phụ thuộc bên ngoài** – mọi thứ chạy cục bộ.
+## Tại sao nên dùng Aspose.OCR for .NET để convert image to text?
+- **Độ chính xác cao** với hỗ trợ ngôn ngữ tích hợp và các **OCR language pack** mở rộng tùy chọn.  
+- **Cài đặt nhận dạng OCR chi tiết** như tự động chỉnh nghiêng, phát hiện vùng, và xử lý đa dòng.  
+- **API đơn giản** hoạt động trên cả .NET Framework và .NET Core mà không cần phụ thuộc bên ngoài.  
+- **Hỗ trợ URL trực tiếp** – bạn có thể **recognize text from URL** mà không cần tải ảnh về trước, tuy nhiên cũng có tùy chọn **download image for OCR** nếu cần.
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu tutorial, hãy chắc chắn bạn đã chuẩn bị các yêu cầu sau:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-- Aspose.OCR cho .NET: Đảm bảo rằng bạn đã tích hợp thư viện Aspose.OCR vào dự án .NET của mình. Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/ocr/net/).
-- Môi trường phát triển: Có một môi trường phát triển .NET hoạt động tốt trên máy tính của bạn.
+- Aspose.OCR for .NET đã được cài đặt. Tải thư viện mới nhất từ [release page](https://releases.aspose.com/ocr/net/).  
+- Môi trường phát triển .NET (Visual Studio, VS Code, hoặc IDE yêu thích của bạn).  
+- Kết nối Internet để lấy ảnh bạn muốn xử lý.
 
-## Nhập không gian tên
+## Nhập các Namespace
 
-Trong dự án .NET của bạn, bao gồm các không gian tên cần thiết để truy cập các chức năng của Aspose.OCR. Thêm đoạn mã sau vào dự án của bạn:
+Thêm các namespace cần thiết để bạn có thể làm việc với các lớp của Aspose.OCR:
 
 ```csharp
 using System;
@@ -55,35 +56,31 @@ using Aspose.OCR;
 using Aspose.OCR.Models;
 ```
 
-## Cách nhận dạng văn bản từ hình ảnh bằng URL?
+## Hướng Dẫn Từng Bước Để Convert Image to Text Từ URL
 
-### Bước 1: Thiết lập Thư mục Tài liệu của Bạn
-
-Bắt đầu bằng cách chỉ định thư mục nơi lưu trữ tài liệu của bạn. Thay `"Your Document Directory"` bằng đường dẫn thực tế tới các tài liệu của bạn.
+### Bước 1: Thiết Lập Thư Mục Tài Liệu
+Xác định nơi bạn sẽ lưu các tệp tạm thời hoặc kết quả.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-### Bước 2: Lấy Hình ảnh để Nhận dạng
-
-Cung cấp URL của hình ảnh bạn muốn thực hiện OCR. Đảm bảo hình ảnh có thể truy cập công khai.
+### Bước 2: Cung Cấp URL Ảnh
+Cung cấp một URL công khai. Nếu ảnh yêu cầu xác thực, bạn sẽ **download image for OCR** trước và sau đó sử dụng stream thay thế.
 
 ```csharp
 string uri = "https://qph.fs.quoracdn.net/main-qimg-0ff82d0dc3543dcd3b06028f5476c2e4";
 ```
 
-### Bước 3: Khởi tạo AsposeOcr
-
-Tạo một thể hiện của lớp AsposeOcr để truy cập các chức năng OCR.
+### Bước 3: Khởi Tạo Engine AsposeOcr
+Tạo một thể hiện của engine OCR.
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Bước 4: Nhận dạng Hình ảnh
-
-Sử dụng thư viện Aspose.OCR để recognize text from image từ URL hình ảnh đã chỉ định. Điều chỉnh các cài đặt nhận dạng dựa trên yêu cầu của bạn.
+### Bước 4: Cấu Hình Cài Đặt Nhận Dạng OCR
+Tinh chỉnh cách engine xử lý ảnh. Ở đây chúng tôi bật phát hiện vùng, tự động chỉnh nghiêng, và chỉ định hai hình chữ nhật tùy chỉnh làm ví dụ cho **ocr recognition settings**.
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -99,9 +96,10 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 });
 ```
 
-### Bước 5: In Kết quả
+> **Pro tip:** Nếu bạn không cần các vùng tùy chỉnh, đặt `DetectAreas = false` và để engine tự động xác định các khối văn bản.
 
-Hiển thị kết quả nhận dạng, bao gồm văn bản đã nhận dạng, các vùng và bất kỳ cảnh báo nào.
+### Bước 5: Xuất Kết Quả OCR
+In ra văn bản đã nhận dạng, các vùng được phát hiện, bất kỳ cảnh báo nào, và toàn bộ payload JSON để gỡ lỗi.
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -112,46 +110,45 @@ result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
 ```
 
-### Bước 6: Thực thi và Xác minh
-
-Chạy ứng dụng của bạn, và nếu mọi thứ được cấu hình đúng, bạn sẽ thấy quá trình OCR được thực thi thành công.
+### Bước 6: Xác Nhận Thực Thi Thành Công
+Một thông báo xác nhận đơn giản sẽ cho bạn biết quá trình đã hoàn thành mà không có ngoại lệ.
 
 ```csharp
 Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 ```
 
-## Các vấn đề thường gặp và giải pháp
+## Các Vấn Đề Thường Gặp và Giải Pháp
 
-- **Hình ảnh không thể truy cập công khai** – Kiểm tra URL có hoạt động trong trình duyệt không. Nếu hình ảnh yêu cầu xác thực, hãy tải xuống trước và sử dụng `RecognizeImageFromStream`.  
-- **Vùng nhận dạng không chính xác** – Điều chỉnh giá trị `Rectangle` hoặc đặt `DetectAreas = false` để cho engine tự động phát hiện.  
-- **Ngôn ngữ không được nhận dạng** – Đảm bảo gói ngôn ngữ phù hợp đã được cài đặt hoặc đặt `Language = "eng"` (hoặc mã ISO khác) trong `RecognitionSettings`.
+- **Image not publicly accessible** – Kiểm tra URL có hoạt động trong trình duyệt không. Đối với ảnh được bảo vệ, hãy tải chúng về trước và gọi `RecognizeImageFromStream`.  
+- **Recognition areas are off** – Điều chỉnh các giá trị `Rectangle` hoặc tắt `DetectAreas` để để engine tự động phát hiện.  
+- **Language not recognized** – Cài đặt **OCR language pack** phù hợp và đặt `Language = "eng"` (hoặc mã ISO khác) trong `RecognitionSettings`.  
 
-## Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp
 
-### Q1: Aspose.OCR có phù hợp để xử lý nhiều ngôn ngữ không?
-A1: Có, Aspose.OCR hỗ trợ nhận dạng văn bản trong nhiều ngôn ngữ, giúp nó linh hoạt cho các ứng dụng quốc tế.
+### Q1: Aspose.OCR có phù hợp để xử lý đa ngôn ngữ không?
+**A:** Có. Bằng cách thêm **ocr language pack** tương ứng, bạn có thể nhận dạng văn bản trong hàng chục ngôn ngữ.
 
-### Q2: Tôi có thể sử dụng Aspose.OCR cho cả nhận dạng văn bản một dòng và đa dòng không?
-A2: Chắc chắn! Aspose.OCR cung cấp tính linh hoạt để nhận dạng cả văn bản một dòng và đa dòng, phù hợp với nhu cầu cụ thể của bạn.
+### Q2: Tôi có thể dùng Aspose.OCR cho cả trích xuất văn bản một dòng và đa dòng không?
+**A:** Chắc chắn. Chuyển đổi `RecognizeSingleLine` trong `RecognitionSettings` để phù hợp với kịch bản của bạn.
 
-### Q3: Có các tùy chọn giấy phép nào cho Aspose.OCR không?
-A3: Có, bạn có thể khám phá các tùy chọn giấy phép và mua hàng trên [cửa hàng Aspose](https://purchase.aspose.com/buy).
+### Q3: Có các tùy chọn giấy phép cho dự án thương mại không?
+**A:** Có, bạn có thể khám phá các tùy chọn giấy phép và mua giấy phép đầy đủ trên [Aspose store](https://purchase.aspose.com/buy).
 
-### Q4: Có bản dùng thử miễn phí cho Aspose.OCR không?
-A4: Có, bạn có thể thử Aspose.OCR miễn phí bằng cách truy cập [trang phát hành](https://releases.aspose.com/).
+### Q4: Có phiên bản dùng thử miễn phí không?
+**A:** Có, phiên bản dùng thử có thể tải về từ [releases page](https://releases.aspose.com/).
 
-### Q5: Tôi có thể tìm hỗ trợ hoặc thảo luận cộng đồng liên quan đến Aspose.OCR ở đâu?
-A5: Truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để được hỗ trợ và giao lưu với cộng đồng.
+### Q5: Tôi có thể tìm hỗ trợ cộng đồng ở đâu?
+**A:** Ghé thăm diễn đàn [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) để được giúp đỡ và thảo luận.
 
 ## Kết luận
 
-Với Aspose.OCR cho .NET, việc tích hợp khả năng OCR vào các ứng dụng .NET của bạn trở nên dễ dàng và liền mạch. Tutorial này đã hướng dẫn bạn cách **recognize text from image** bằng URL, cung cấp nền tảng vững chắc để khai thác việc trích xuất văn bản trong các dự án của mình.
+Với Aspose.OCR for .NET, việc **convert image to text** từ một URL từ xa trở nên đơn giản và có thể tùy chỉnh cao. Bằng cách làm theo các bước trên, bạn có thể tích hợp khả năng OCR mạnh mẽ vào bất kỳ ứng dụng .NET nào, dù bạn chỉ cần chức năng **extract text from image** cơ bản hay các **ocr recognition settings** nâng cao cho tài liệu phức tạp.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-22  
-**Kiểm thử với:** Aspose.OCR 24.11 cho .NET  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
