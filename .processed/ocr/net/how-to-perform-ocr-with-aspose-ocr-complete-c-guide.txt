@@ -1,0 +1,7 @@
+Title: How to Perform OCR with Aspose.OCR – Complete C# Guide
+Slug: how-to-perform-ocr-with-aspose-ocr-complete-c-guide
+Category: ocr-configuration
+ProcessedDate: 2026-07-05T10:30:05.950963
+SourceRepo: AI Search API
+Keywords: how to perform ocr, how to set language, convert png to json, load image ocr, set ocr language
+PRNumber: 167

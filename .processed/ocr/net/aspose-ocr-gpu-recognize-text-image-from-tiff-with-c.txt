@@ -1,0 +1,7 @@
+Title: Aspose OCR GPU: Recognize Text Image from TIFF with C#
+Slug: aspose-ocr-gpu-recognize-text-image-from-tiff-with-c
+Category: ocr-optimization
+ProcessedDate: 2026-05-22T08:28:11.926413
+SourceRepo: AI Search API
+Keywords: aspose ocr gpu, recognize text image, ocr tiff image, load image for ocr, extract text from tiff
+PRNumber: 129

@@ -1,0 +1,7 @@
+Title: How to OCR PDF in Python – Complete Guide
+Slug: how-to-ocr-pdf-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-16T13:50:55.318265
+SourceRepo: AI Search API
+Keywords: how to ocr pdf, extract text from pdf, run ocr on pdf, convert scanned pdf text, load pdf for ocr
+PRNumber: 146

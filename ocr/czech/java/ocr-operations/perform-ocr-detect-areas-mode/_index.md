@@ -1,11 +1,11 @@
 ---
-date: 2025-12-12
-description: Naučte se, jak provádět OCR pomocí režimu Detekce oblastí s Aspose.OCR
-  pro Javu, extrahovat text z obrázku a získat výsledky s kontrolou pravopisu. Tento
-  podrobný návod Aspose OCR pro Javu.
+date: 2026-02-12
+description: Naučte se, jak extrahovat text z obrázku v Javě pomocí Aspose.OCR, provést
+  OCR v režimu Detekce oblastí a získat výsledky OCR s kontrolou pravopisu. Tento
+  komplexní tutoriál Aspose OCR pro Javu.
 linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Jak provést OCR v režimu detekce oblastí pomocí Aspise.OCR pro Javu
+title: Extrahování textu z obrázku v Javě pomocí Aspose.OCR v režimu detekce oblastí
 url: /cs/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
@@ -14,18 +14,18 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak provést OCR pomocí režimu Detekce oblastí v Aspose.OCR
+# Extrahování textu z obrázku Java pomocí Aspose.OCR – režim Detekce oblastí
 
 ## Úvod
 
-Optické rozpoznávání znaků (OCR) je nezbytné, když potřebujete **extrahovat text z obrázkových** souborů a převést jej na prohledávatelná, editovatelná data. V tomto **Aspose OCR Java tutoriálu** projdeme praktickým příkladem, který ukazuje **jak provést OCR** pomocí výkonné funkce *Detect Areas Mode* a zároveň demonstrujeme vestavěnou funkci kontroly pravopisu. Na konci tohoto průvodce budete mít připravený úryvek kódu, který rozpozná text z dokumentu typu fotografie a vrátí čistý, opravený výstup.
+Extrahování textu z obrázku java souborů je častý problém, když potřebujete prohledávat a upravovat data z fotografií, účtenek nebo naskenovaných dokumentů. V tomto **Aspose OCR Java tutoriálu** si projdeme praktický příklad, který ukazuje **jak extrahovat text z obrázku java** pomocí výkonné funkce *Detect Areas Mode* a také předvedeme vestavěnou schopnost **ocr s kontrolou pravopisu**. Na konci tohoto průvodce budete mít připravený kód, který rozpozná text z dokumentu typu foto a vrátí čistý, opravený výstup.
 
 ## Rychlé odpovědi
-- **Co je Detect Areas Mode?** Nastavení, které optimalizuje OCR pro fotografické obrázky automatickým vyhledáváním textových bloků.  
+- **Co je Detect Areas Mode?** Nastavení, které optimalizuje OCR pro fotografické obrázky automatickým vyhledáním textových bloků.  
 - **Jaký jazyk příklad používá?** Java s knihovnou Aspose.OCR.  
 - **Potřebuji licenci pro testování?** Pro vývoj stačí bezplatná zkušební verze; pro produkci je vyžadována komerční licence.  
 - **Může být výsledek kontrolován pravopisem?** Ano – API vrací sekci „ocr with spell check“.  
-- **Jaký typ souboru se používá v demonstraci?** JPEG obrázek pojmenovaný *Receipt.jpg*.
+- **Jaký typ souboru se používá v ukázce?** JPEG obrázek pojmenovaný *Receipt.jpg*.
 
 ## Předpoklady
 
@@ -37,7 +37,7 @@ Předtím, než se pustíte do tutoriálu, ujistěte se, že máte následujíc�
 
 ## Import balíčků
 
-Ve svém Java projektu importujte potřebné balíčky pro použití Aspose.OCR. Zde je příklad:
+Ve svém Java projektu importujte potřebné balíčky pro používání Aspose.OCR. Zde je příklad:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -57,7 +57,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Krok 1: Nastavení OCR operace
+## OCR s kontrolou pravopisu v Aspose OCR Java tutoriálu
+
+Níže nastavíme OCR engine, povolíme Detect Areas Mode, spustíme rozpoznávání a nakonec zobrazíme výstup **ocr s kontrolou pravopisu**.
+
+### Krok 1: Nastavení OCR operace
 
 ```java
 // The path to the documents directory.
@@ -76,7 +80,7 @@ settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 
 V tomto kroku inicializujeme OCR engine, nasměrujeme jej na soubor s obrázkem a povolíme **Detect Areas Mode**, aby engine zacházel s obrázkem jako s typickou fotografií s rozptýlenými textovými bloky.
 
-## Krok 2: Provedení OCR a získání výsledků
+### Krok 2: Provedení OCR a získání výsledků
 
 ```java
 // Get result object
@@ -88,21 +92,21 @@ try {
 }
 ```
 
-Zde skutečně **provedeme OCR**. Volání `RecognizePage` vrací `RecognitionResult`, který obsahuje surový text, informace o rozložení a výstup po kontrole pravopisu.
+Zde skutečně **provádíme OCR**. Volání `RecognizePage` vrací `RecognitionResult`, který obsahuje surový text, informace o rozložení a výstup s kontrolou pravopisu.
 
-## Krok 3: Výpis výsledků OCR
+### Krok 3: Výpis OCR výsledků
 
 ```java
 // Print result
 printResult(result);
 ```
 
-Pomocná metoda `printResult` (poskytnutá v kompletním zdrojovém balíčku) zobrazuje řadu informací: extrahovaný text, skóre spolehlivosti, detekované odstavce, data řádek po řádku, alternativy znaků, varování, JSON payload a **OCR s kontrolou pravopisu** opravený text.
+Pomocná metoda `printResult` (poskytnutá v kompletním zdrojovém balíčku) zobrazí spoustu informací: extrahovaný text, skóre důvěry, detekované odstavce, data řádek po řádku, alternativy znaků, varování, JSON payload a **OCR s kontrolou pravopisu** opravený text.
 
-## Proč použít Detect Areas Mode?
+## Proč použít režim Detect Areas Mode?
 
 - **Optimalizováno pro fotografie** – automaticky izoluje textové oblasti, snižuje šum.  
-- **Zlepšená přesnost** – zejména u účtenek, faktur a skenovaných formulářů.  
+- **Zvýšená přesnost** – zejména u účtenek, faktur a naskenovaných formulářů.  
 - **Vestavěná kontrola pravopisu** – odstraňuje běžné OCR chyby bez dalšího zpracování.
 
 ## Běžné scénáře použití
@@ -111,7 +115,7 @@ Pomocná metoda `printResult` (poskytnutá v kompletním zdrojovém balíčku) z
 |----------|---------|
 | Zpracování účtenek | Rychlé získání názvů obchodů, částek a dat. |
 | Digitalizace faktur | Extrahování položek a daňových informací pro účetní systémy. |
-| Skenování identifikačních dokumentů | Zachycení jmen a čísel z řidičských průkazů nebo pasů. |
+| Skenování dokladů totožnosti | Zachycení jmen a čísel z řidičských průkazů nebo pasů. |
 
 ## Tipy pro řešení problémů a časté úskalí
 
@@ -121,7 +125,7 @@ Pomocná metoda `printResult` (poskytnutá v kompletním zdrojovém balíčku) z
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili **jak provést OCR** s režimem Detect Areas Mode pomocí Aspose.OCR pro Java. Tento přístup nejen extrahuje text z obrázkových souborů, ale také poskytuje kontrolovaný pravopisně čistý výstup – ideální pro následné datové pipeline nebo zobrazení v uživatelském rozhraní.
+Gratulujeme! Úspěšně jste se naučili **jak extrahovat text z obrázku java** pomocí režimu Detect Areas Mode s využitím Aspose.OCR pro Java. Tento přístup nejen extrahuje text z obrázkových souborů, ale také poskytuje pravopisně opravený, čistý výstup – ideální pro následné datové kanály nebo zobrazení v UI.
 
 ## Často kladené otázky
 
@@ -131,18 +135,18 @@ A: Ano, Aspose.OCR podporuje širokou škálu jazyků, což ho činí univerzál
 **Q: Je Aspose.OCR vhodný pro rozsáhlé OCR operace?**  
 A: Rozhodně. Knihovna je navržena pro scénáře s vysokou propustností a může být integrována do dávkových zpracovatelských pipeline.
 
-**Q: Mohu integrovat Aspose.OCR do webových aplikací?**  
+**Q: Můžu integrovat Aspose.OCR do webových aplikací?**  
 A: Ano, můžete vložit Java API do servlet‑based nebo Spring Boot webových služeb a poskytovat OCR jako REST endpoint.
 
-**Q: Poskytuje Aspose.OCR funkci kontroly pravopisu?**  
-A: Ano, jak bylo ukázáno, výsledek obsahuje sekci „ocr with spell check“, která opravuje běžné chyby rozpoznávání.
+**Q: Poskytuje Aspose.OCR funkce kontroly pravopisu?**  
+A: Ano, jak bylo demonstrováno, výsledek obsahuje sekci „ocr with spell check“, která opravuje běžné chyby rozpoznávání.
 
 **Q: Existuje komunitní fórum pro podporu Aspose.OCR?**  
 A: Ano, podporu a komunitu najdete na [Aspose.OCR fóru](https://forum.aspose.com/c/ocr/16).
 
 ---
 
-**Poslední aktualizace:** 2025-12-12  
+**Poslední aktualizace:** 2026-02-12  
 **Testováno s:** Aspose.OCR pro Java 23.12 (nejnovější v době psaní)  
 **Autor:** Aspose  
 

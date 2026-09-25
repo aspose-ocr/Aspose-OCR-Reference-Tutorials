@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-02-19
-description: دليل OCR بلغة C# – تعلم كيفية استخراج النص من الصورة، قراءة نص الصورة،
-  تحويل الصورة إلى نص، والتعرف على نص الصورة باستخدام Aspose.OCR في دقائق.
+date: 2026-01-09
+description: دروس C# OCR تُظهر كيفية استخراج النص من ملفات الصور، التعرف على النص
+  من PNG، تحويل الصورة إلى سلسلة نصية، واكتشاف اللغة تلقائيًا باستخدام Aspose.OCR.
 draft: false
 keywords:
 - c# ocr tutorial
 - extract text from image
-- read image text
-- convert image to text
-- recognize image text
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: ar
-og_description: دروس C# OCR تُظهر لك كيفية استخراج النص من الصورة، قراءة نص الصورة،
-  تحويل الصورة إلى نص، والتعرف على نص الصورة باستخدام Aspose OCR.
-og_title: دليل c# OCR – استخراج النص من الصور باستخدام Aspose OCR
+og_description: دليل C# OCR يشرح لك كيفية استخراج النص من الصور، التعرف على النص من
+  ملفات PNG، تحويل الصور إلى سلاسل نصية، واكتشاف اللغة تلقائيًا باستخدام Aspose OCR.
+og_title: دليل c# OCR – استخراج النص من الصور
 tags:
-- OCR
 - C#
+- OCR
 - Aspose
-title: 'دليل OCR بلغة C#: استخراج النص من الصور باستخدام Aspose OCR'
+- Image Processing
+title: دورة C# OCR – استخراج النص من الصور باستخدام Aspose OCR
 url: /ar/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
 ---
 
@@ -28,45 +29,32 @@ url: /ar/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspos
 
 # دليل c# ocr – استخراج النص من الصور باستخدام Aspose OCR
 
-هل تساءلت يومًا كيف **استخراج النص من صورة** بينما تبقى داخل بيئة C# النقية؟ هذا هو بالضبط ما يحله **دليل c# ocr**. في بضع خطوات فقط ستتعلم قراءة نص الصورة، تحويل الصورة إلى نص، وحتى التعرف على نص الصورة بلغات مختلفة باستخدام مكتبة Aspose.OCR.
+هل احتجت إلى **دليل c# ocr** يعمل فعليًا على ملف PNG حقيقي؟ ربما تقوم بإنشاء ماسح فواتير، أو معالج نماذج متعدد اللغات، أو مجرد فضول حول كيفية تحويل صورة نص إلى سلسلة قابلة للبحث. مهما كان السبب، فأنت في المكان الصحيح.
 
-في هذا الدليل سنستعرض كل ما تحتاجه: من تثبيت حزمة NuGet إلى التعامل مع الترخيص، ضبط اللغة، وطباعة النتائج. في النهاية ستحصل على تطبيق كونسول جاهز للتشغيل يحول أي صورة—مثل فاتورة ممسوحة أو لقطة شاشة—إلى نص قابل للبحث.
+في هذا الدليل سنوضح لك خطوة بخطوة كيفية **استخراج النص من ملف صورة**، **التعرف على النص من png**، **تحويل الصورة إلى سلسلة**، وحتى **اكتشاف اللغة تلقائيًا** — كل ذلك باستخدام مكتبة Aspose.OCR. لا مراجع غامضة، مجرد مثال كامل قابل للتنفيذ يمكنك نسخه ولصقه في Visual Studio.
 
-## ما ستحتاجه
+## ما الذي ستحتاجه
 
-- .NET 6.0 SDK أو أحدث (الكود يعمل على .NET Framework 4.7+ أيضًا)  
-- Visual Studio 2022 (أو أي محرر تفضله)  
-- ملف ترخيص Aspose.OCR *اختياري* – المكتبة تعمل في وضع التقييم، لكن الترخيص يزيل العلامات المائية.  
-- صورة عينة (مثال: `cyrillic_sample.jpg`) موجودة في مكان ما على القرص.
+- .NET 6.0 أو أحدث (الكود يعمل مع .NET Core و .NET Framework أيضًا)  
+- إشارة NuGet إلى `Aspose.OCR` (الإصدار 23.9 أو أحدث)  
+- ملف صورة (`mixed‑script.png` في هذا المثال) موجود في مكان يمكن للتطبيق قراءته  
+- فهم أساسي للغة C# (إذا كتبت برنامج "Hello World"، فأنت جاهز)
 
-لا توجد أدوات طرف ثالث أخرى مطلوبة؛ Aspose.OCR يتولى كل المعالجة الثقيلة تحت الغطاء.
+> **نصيحة محترف:** إذا لم يكن لديك ترخيص بعد، تقدم Aspose ترخيصًا مؤقتًا مجانيًا للاختبار. ما عليك سوى وضع ملف `.lic` بجوار الملف التنفيذي.
 
-![صورة عينة من دليل c# ocr تظهر نصًا سيريليًا](/images/ocr-sample.jpg "دليل c# ocr – صورة عينة لـ OCR")
+## الخطوة 1 – تثبيت حزمة Aspose.OCR عبر NuGet
 
-## دليل c# ocr – إعداد Aspose OCR
+أولاً، أضف المكتبة إلى مشروعك. افتح Package Manager Console وشغّل:
 
-أولاً، أضف حزمة Aspose.OCR إلى مشروعك:
-
-```bash
-dotnet add package Aspose.OCR
+```powershell
+Install-Package Aspose.OCR
 ```
 
-> **نصيحة احترافية:** إذا كنت تستخدم Visual Studio، يمكنك أيضًا النقر بزر الماوس الأيمن على المشروع → **Manage NuGet Packages** والبحث عن *Aspose.OCR*.
+أو، إذا كنت تفضّل الواجهة الرسومية، انقر بزر الماوس الأيمن على *Dependencies → Manage NuGet Packages* وابحث عن **Aspose.OCR**.
 
-### لماذا الترخيص مهم
+## الخطوة 2 – إعداد محرك OCR (c# ocr tutorial core)
 
-يعمل Aspose.OCR في وضع التقييم لمدة 30 يومًا بدون ترخيص. فئة `License` ببساطة تشير إلى ملف `.lic` الخاص بك؛ بمجرد ضبطه، يتوقف المحرك عن إدراج تذييلات التقييم في الناتج.
-
-```csharp
-// Optional: apply your Aspose.OCR license to unlock full features
-// new License().SetLicense("Aspose.OCR.lic");
-```
-
-إذا تخطيت هذه السطر أثناء التطوير، سيظل OCR يعمل—فقط تذكر أن إشعار التقييم سيظهر في النص المستخرج.
-
-## استخراج النص من الصورة – إنشاء محرك OCR
-
-جوهر أي **دليل c# ocr** هو كائن `OcrEngine`. فهو يجمل كامل خط أنابيب التعرف.
+الآن سننشئ كائن `OcrEngine`، نحدده لاكتشاف اللغة تلقائيًا، ونشير به إلى ملف PNG الخاص بنا.
 
 ```csharp
 using Aspose.OCR;
@@ -76,118 +64,162 @@ class Program
 {
     static void Main()
     {
-        // Step 1: (Optional) Apply your license – see above
-        // new License().SetLicense("Aspose.OCR.lic");
-
-        // Step 2: Instantiate the OCR engine
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
         var ocrEngine = new OcrEngine();
 
-        // Step 3: Choose the language you want to recognize
-        // For this demo we use Cyrillic, but you can pick English, Arabic, etc.
-        ocrEngine.Language = Language.Cyrillic;
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
 
-        // Step 4: Run OCR on the target picture
-        var result = ocrEngine.RecognizeImage(@"YOUR_DIRECTORY/cyrillic_sample.jpg");
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
 
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("Recognized text:");
-        Console.WriteLine(result.Text);
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
+
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-### ما الذي يفعله الكود فعليًا
+### لماذا نعيّن `Language = OcrLanguage.AutoDetect`
 
-- **إنشاء `OcrEngine`** ينشئ سياق معالجة جديد.  
-- **ضبط `Language`** يخبر Aspose بمجموعة الأحرف المتوقعة؛ هذا يحسن الدقة بشكل كبير لأن المحرك يمكنه تطبيق خوارزميات خاصة باللغة.  
-- **`RecognizeImage`** يحمل الملف، ينفذ سلسلة من خطوات ما قبل معالجة الصورة (تصحيح الميل، التثبيت الثنائي، إزالة الضوضاء) وأخيرًا يشغل مُعَرِّف الشبكة العصبية.  
-- **`result.Text`** يحتوي على تمثيل النص العادي—مثالي لسيناريوهات **تحويل الصورة إلى نص**.
+اكتشاف اللغة تلقائيًا يحفظك من التخمين ما إذا كانت الصورة تحتوي على الإنجليزية، الروسية، العربية، أو مزيج منها. إنه الخيار الأكثر مرونة لسيناريو **detect language automatically**، ويعمل مباشرةً لمعظم النصوص التي تدعمها Aspose.
 
-## قراءة نص الصورة – التعامل مع أنواع الملفات المختلفة
+## الخطوة 3 – تشغيل التطبيق والتحقق من المخرجات
 
-Aspose.OCR لا يقتصر على JPEGs. فهو يدعم PNG، BMP، TIFF، وحتى صفحات PDF (كصور). إذا كنت بحاجة لمعالجة دفعة، غلف الاستدعاء في حلقة بسيطة:
+قم بترجمة البرنامج وتشغيله (`dotnet run` أو اضغط **F5** في Visual Studio). إذا تم ربط كل شيء بشكل صحيح، سترى شيئًا مشابهًا لـ:
+
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
+
+تثبت هذه النتيجة أننا نجحنا في **استخراج النص من الصورة**، **التعرف على النص من png**، و**تحويل الصورة إلى سلسلة** — كل ذلك في مقتطف واحد مختصر.
+
+## الخطوة 4 – تنويعات شائعة وحالات حافة
+
+### معالجة صور متعددة
+
+إذا كنت بحاجة لمعالجة مجلد يحتوي على PNGs، غلف استدعاء التعرف داخل حلقة `foreach`:
 
 ```csharp
-string[] files = Directory.GetFiles(@"YOUR_DIRECTORY", "*.*", SearchOption.TopDirectoryOnly)
-                          .Where(f => f.EndsWith(".jpg") || f.EndsWith(".png") || f.EndsWith(".tif"))
-                          .ToArray();
-
-foreach (var file in files)
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    var res = ocrEngine.RecognizeImage(file);
-    Console.WriteLine($"--- {Path.GetFileName(file)} ---");
-    Console.WriteLine(res.Text);
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### حالة حافة: صور فارغة أو تالفة
+### تحديد لغة ثابتة
 
-إذا استلم `RecognizeImage` ملفًا فارغًا أو غير قابل للقراءة، فإنه يرمي `ArgumentException`. حارس سريع يحافظ على صلابة **دليل c# ocr** الخاص بك:
+أحيانًا تعرف اللغة مسبقًا (مثلاً الإنجليزية فقط). يمكنك استبدال `AutoDetect` بـ `OcrLanguage.English` لتسريع المعالجة:
 
 ```csharp
-if (!File.Exists(file))
+ocrEngine.Language = OcrLanguage.English;
+```
+
+### التعامل مع مسحات منخفضة الجودة
+
+توفر Aspose.OCR خيارات ما قبل المعالجة (تقليل الضوضاء، تصحيح الميل). لتصحيح سريع:
+
+```csharp
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
+```
+
+### حفظ النتيجة إلى ملف
+
+بدلاً من الطباعة على وحدة التحكم، قد ترغب في كتابة النص المستخرج إلى ملف `.txt`:
+
+```csharp
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
+
+## الخطوة 5 – مثال كامل جاهز للتنفيذ (نسخ‑لصق)
+
+فيما يلي **البرنامج الكامل** بما في ذلك المعالجة المسبقة الاختيارية ومنطق حفظ الملف. لا تتردد في تعديل المسارات.
+
+```csharp
+using Aspose.OCR;
+using System;
+using System.IO;
+
+class OcrDemo
 {
-    Console.WriteLine($"File not found: {file}");
-    continue;
+    static void Main()
+    {
+        // Initialise engine
+        var ocrEngine = new OcrEngine
+        {
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
+
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
+            }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
+    }
 }
 ```
 
-## التعرف على نص الصورة – تحسين الدقة
+### النتيجة المتوقعة
 
-أحيانًا الإعدادات الافتراضية تفوت بعض الأحرف، خاصةً في المسحات منخفضة التباين. Aspose.OCR يتيح لك تعديل بعض الخيارات:
-
-| الخاصية               | ما تفعله                              | حالة الاستخدام النموذجية |
-|------------------------|-------------------------------------------|------------------|
-| `ocrEngine.PreprocessingOptions.Deskew` | يدور الصورة لتصحيح الميل | المستندات الممسوحة |
-| `ocrEngine.PreprocessingOptions.NoiseRemoval` | يزيل البقع | الصور القديمة |
-| `ocrEngine.Language`   | نموذج اللغة (سيريلي، إنجليزي، إلخ) | OCR متعدد اللغات |
-
-مثال على تمكين تصحيح الميل:
-
-```csharp
-ocrEngine.PreprocessingOptions.Deskew = true;
-```
-
-هذه التعديلات تساعدك على **استخراج النص من صورة** غير محاذاة تمامًا، مما يزيد من معدل نجاح عملية **قراءة نص الصورة**.
-
-## النتيجة المتوقعة
-
-تشغيل الكود العيني على `cyrillic_sample.jpg` (الذي يحتوي على العبارة “Привет мир”) ينتج شيء مشابه:
+تشغيل البرنامج على PNG يحتوي على الإنجليزية، الروسية، والعربية ينتج:
 
 ```
-Recognized text:
-Привет мир
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
 ```
 
-إذا كنت في وضع التقييم، سترى أيضًا سطرًا إضافيًا:
+إذا كانت الصورة فارغة أو غير قابلة للقراءة، يُعيد المحرك سلسلة فارغة — عالج هذه الحالة بالتحقق من `string.IsNullOrWhiteSpace(extractedText)` قبل المتابعة.
 
-```
---- Evaluation version. Use a licensed copy for production. ---
-```
+## الأسئلة المتكررة (FAQs)
 
-هذا السطر يختفي بمجرد توفير ملف ترخيص صالح.
+**س: هل يدعم Aspose.OCR النص المكتوب بخط اليد؟**  
+ج: يركز على OCR المطبع. للكتابة اليدوية تحتاج نموذج ML مخصص أو خدمة مثل Azure Computer Vision.
 
-## الأخطاء الشائعة وكيفية تجنبها
+**س: هل يمكن تشغيله على Linux/macOS؟**  
+ج: بالتأكيد. Aspose.OCR متعدد المنصات؛ فقط قم بتثبيت .NET runtime لنظامك.
 
-1. **إعداد لغة خاطئ** – استخدام `Language.English` على نص سيريلي سيعيد نصًا غير مفهوم. دائمًا طابق اللغة مع المصدر.  
-2. **صور كبيرة** – معالجة صورة بدقة 10 MP قد تكون بطيئة. قلل حجم الصورة أولاً (`Bitmap.Resize`) إذا كانت السرعة أهم من الدقة المثالية.  
-3. **اعتماديات مفقودة** – Aspose.OCR يأتي مع ملفات ثنائية أصلية؛ تأكد من أن مجلد الإخراج يحتوي على `Aspose.OCR.Native.dll` (NuGet يتولى ذلك، لكن خطوط بناء مخصصة قد تحتاج إلى خطوة نسخ).
-
-## الخطوات التالية – ما بعد الأساسيات
-
-- **تحويل دفعي**: دمج الحلقة الموضحة سابقًا مع `Task.Run` غير المتزامن لتسريع المعالجة في المجلدات الكبيرة.  
-- **تصدير إلى PDF**: بعد **تحويل الصورة إلى نص**، مرر السلسلة إلى مولد PDF (مثل Aspose.PDF) لإنشاء ملفات PDF قابلة للبحث.  
-- **دمج مع Azure Functions**: حول منطق OCR إلى نقطة نهاية خالية من الخوادم تعالج التحميلات مباشرة.
-
-كل هذه الإضافات تستمر في موضوع **استخراج النص من صورة** و**قراءة نص الصورة** في تطبيقات العالم الحقيقي.
+**س: ماذا لو أردت معالجة ملفات PDF بدلاً من PNGs؟**  
+ج: حوّل كل صفحة PDF إلى صورة أولًا (مثلاً باستخدام `Aspose.PDF`) ثم مرّر الصورة إلى محرك OCR.
 
 ## الخلاصة
 
-لقد أكملت للتو **دليل c# ocr** الذي يوضح كيفية قراءة نص الصورة، تحويل الصورة إلى نص، والتعرف على نص الصورة باستخدام Aspose.OCR. المثال الكامل القابل للتنفيذ أعلاه يوضح كل خطوة—من الترخيص إلى اختيار اللغة ومعالجة الأخطاء—حتى يمكنك إدراج هذا الكود في أي مشروع .NET والبدء في استخراج النص فورًا.
+لقد أتممنا الآن **دليل c# ocr** الذي يشرح لك **استخراج النص من ملفات الصورة**، **التعرف على النص من png**، **تحويل الصورة إلى سلسلة**، و**اكتشاف اللغة تلقائيًا** باستخدام Aspose.OCR. الكود قصير، المفاهيم واضحة، ويمكنك توسيعه لمعالجة دفعات، إعدادات لغة مخصصة، أو دمجه في واجهة برمجة تطبيقات ويب.
 
-لا تتردد في تجربة لغات مختلفة، تعديل خيارات ما قبل المعالجة، أو ربط الناتج بقاعدة بيانات لأرشفة قابلة للبحث. إذا واجهت أي مشاكل، فإن وثائق Aspose مرجع قوي، لكن الكود هنا يجب أن يعمل مباشرة في معظم السيناريوهات.
+ما الخطوة التالية؟ جرّب إمداد مخرجات OCR إلى فهرس بحث، أو إلى خدمة ترجمة، أو دمجها مع Azure Cognitive Services للحصول على خطوط بيانات أكثر غنى. السماء هي الحد بمجرد إتقانك أساسيات تحويل الصورة إلى نص في C#.
 
-برمجة سعيدة، ولتكن صورك دائمًا قابلة للقراءة!
+برمجة سعيدة، ولا تنس تجربة جودة صور مختلفة — محرك OCR سيشكرك! 
+
+![دليل c# ocr – مثال على ناتج OCR على PNG متعدد النصوص](placeholder-image.png "دليل c# ocr – لقطة شاشة لنتيجة OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

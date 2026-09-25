@@ -1,0 +1,7 @@
+Title: image to text c# – Aspose OCR with disabled download
+Slug: image-to-text-c-aspose-ocr-with-disabled-download
+Category: ocr-configuration
+ProcessedDate: 2026-05-28T16:24:34.559753
+SourceRepo: AI Search API
+Keywords: image to text c#, disable automatic download, extract cyrillic text, load image ocr, aspose ocr c# example
+PRNumber: 133

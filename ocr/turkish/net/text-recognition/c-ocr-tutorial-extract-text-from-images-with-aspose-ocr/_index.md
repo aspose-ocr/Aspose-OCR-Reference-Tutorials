@@ -1,79 +1,62 @@
 ---
 category: general
-date: 2026-02-19
-description: c# ocr öğreticisi – görüntüden metin çıkarmayı, görüntü metnini okumayı,
-  görüntüyü metne dönüştürmeyi ve Aspose.OCR kullanarak görüntü metnini dakikalar
-  içinde tanımayı öğrenin.
+date: 2026-01-09
+description: c# ocr öğreticisi, görüntü dosyalarından metin çıkarmayı, png'den metin
+  tanımayı, görüntüyü dize dönüştürmeyi ve Aspose.OCR kullanarak dili otomatik olarak
+  tespit etmeyi gösterir.
 draft: false
 keywords:
 - c# ocr tutorial
 - extract text from image
-- read image text
-- convert image to text
-- recognize image text
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: tr
-og_description: c# ocr öğreticisi, görüntüden metin çıkarmayı, görüntü metnini okumayı,
-  görüntüyü metne dönüştürmeyi ve Aspose OCR kullanarak görüntü metnini tanımayı gösterir.
-og_title: c# ocr öğretici – Aspose OCR ile Görüntülerden Metin Çıkarma
+og_description: c# ocr öğreticisi, görüntülerden metin çıkarma, png dosyalarından
+  metin tanıma, görüntüleri stringe dönüştürme ve Aspose OCR kullanarak dili otomatik
+  algılama konularında size rehberlik eder.
+og_title: c# ocr öğretici – Görsellerden Metin Çıkar
 tags:
-- OCR
 - C#
+- OCR
 - Aspose
-title: 'c# ocr öğretici: Aspose OCR ile Görüntülerden Metin Çıkarma'
+- Image Processing
+title: c# ocr öğretici – Aspose OCR ile Görsellerden Metin Çıkarma
 url: /tr/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
 ---
-
-are.
-
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# ocr tutorial – Görüntülerden Metin Çıkarma Aspose OCR ile
+# c# ocr tutorial – Aspose OCR ile Görüntülerden Metin Çıkarma
 
-Saf bir C# ortamında **görüntü dosyalarından metin çıkarma** nasıl yapılır hiç merak ettiniz mi? İşte bu **c# ocr tutorial** tam da bunu çözüyor. Birkaç adımda görüntü metnini okuma, görüntüyü metne dönüştürme ve Aspose.OCR kütüphanesini kullanarak farklı dillerdeki görüntü metnini tanıma konularını öğreneceksiniz.
+Gerçek bir PNG dosyasında çalışan bir **c# ocr tutorial**'a hiç ihtiyaç duydunuz mu? Belki bir fiş tarayıcı, çok dilli form işleyici geliştiriyorsunuz ya da sadece bir metin resmini aranabilir bir dizeye nasıl dönüştüreceğinizi merak ediyorsunuzdur. Hangi durumda olursanız olun, doğru yerdesiniz.
 
-Bu rehberde her şeyi adım adım ele alacağız: NuGet paketinin kurulumu, lisansın ayarlanması, dil seçimi ve sonuçların yazdırılması. Sonunda, taranmış bir fatura ya da ekran görüntüsü gibi herhangi bir resmi aranabilir metne dönüştüren çalıştırılabilir bir konsol uygulamanız olacak.
+Bu rehberde, **extract text from image** dosyalarından, **recognize text from png**, **convert image to string** ve hatta **detect language automatically** nasıl yapılacağını adım adım göstereceğiz — tümü Aspose.OCR kütüphanesi ile. Belirsiz referanslar yok, sadece Visual Studio'ya kopyalayıp yapıştırabileceğiniz tam, çalıştırılabilir bir örnek.
 
-## Gereksinimler
+## Gerekenler
 
-- .NET 6.0 SDK veya daha yeni bir sürüm (kod .NET Framework 4.7+ üzerinde de çalışır)  
-- Visual Studio 2022 (veya tercih ettiğiniz başka bir editör)  
-- Aspose.OCR lisans dosyası *isteğe bağlı* – kütüphane değerlendirme modunda çalışır, ancak lisans su işaretlerini kaldırır.  
-- Diskte bir yerde bulunan örnek bir resim (ör. `cyrillic_sample.jpg`).
+- .NET 6.0 veya daha yeni bir sürüm (kod .NET Core ve .NET Framework ile de çalışır)  
+- `Aspose.OCR` NuGet referansı (versiyon 23.9 veya daha yeni)  
+- Bu örnekteki (`mixed‑script.png`) görüntü dosyası, uygulamanın okuyabileceği bir yerde konumlandırılmış  
+- C# temellerine bir anlayış (eğer “Hello World” yazdıysanız, hazırsınız)
 
-Başka üçüncü‑taraf araç gerekmez; Aspose.OCR arka planda tüm ağır işleri halleder.
+> **Pro tip:** Eğer hâlâ bir lisansınız yoksa, Aspose test için ücretsiz geçici bir lisans sunar. `.lic` dosyasını çalıştırılabilir dosyanızın yanına koyun.
 
----
+## 1. Adım – Aspose.OCR NuGet Paketini Yükleyin
 
-![c# ocr tutorial örnek resmi Cyrillic metin gösteriyor](/images/ocr-sample.jpg "c# ocr tutorial – OCR için örnek resim")
+İlk olarak, kütüphaneyi projenize ekleyin. Package Manager Console'u açın ve şu komutu çalıştırın:
 
-## c# ocr tutorial – Aspose OCR Kurulumu
-
-İlk olarak Aspose.OCR paketini projenize ekleyin:
-
-```bash
-dotnet add package Aspose.OCR
+```powershell
+Install-Package Aspose.OCR
 ```
 
-> **Pro ipucu:** Visual Studio kullanıyorsanız proje üzerine sağ‑tıklayıp → **Manage NuGet Packages** ve *Aspose.OCR* araması yapabilirsiniz.
+Veya UI'yi tercih ediyorsanız, *Dependencies → Manage NuGet Packages* üzerine sağ tıklayın ve **Aspose.OCR**'u arayın.
 
-### Neden bir lisans önemli
+## 2. Adım – OCR Motorunu Hazırlayın (c# ocr tutorial core)
 
-Aspose.OCR, lisans olmadan 30‑günlük değerlendirme modunda çalışır. `License` sınıfı sadece `.lic` dosyanıza işaret eder; ayarlandıktan sonra motor çıktıya değerlendirme dipnotu eklemeyi durdurur.
-
-```csharp
-// Optional: apply your Aspose.OCR license to unlock full features
-// new License().SetLicense("Aspose.OCR.lic");
-```
-
-Geliştirme sırasında bu satırı atlayabilirsiniz; OCR hâlâ çalışır—sadece çıkarılan metinde değerlendirme uyarısı görünecektir.
-
-## Görüntüden Metin Çıkarma – OCR Motorunu Oluşturma
-
-Her **c# ocr tutorial**ın çekirdeği `OcrEngine` nesnesidir. Tüm tanıma işlem hattını soyutlar.
+Şimdi bir `OcrEngine` örneği oluşturacağız, ona dili otomatik algılamasını söyleyecek ve PNG dosyamıza yönlendireceğiz.
 
 ```csharp
 using Aspose.OCR;
@@ -83,122 +66,162 @@ class Program
 {
     static void Main()
     {
-        // Step 1: (Optional) Apply your license – see above
-        // new License().SetLicense("Aspose.OCR.lic");
-
-        // Step 2: Instantiate the OCR engine
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
         var ocrEngine = new OcrEngine();
 
-        // Step 3: Choose the language you want to recognize
-        // For this demo we use Cyrillic, but you can pick English, Arabic, etc.
-        ocrEngine.Language = Language.Cyrillic;
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
 
-        // Step 4: Run OCR on the target picture
-        var result = ocrEngine.RecognizeImage(@"YOUR_DIRECTORY/cyrillic_sample.jpg");
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
 
-        // Step 5: Output the recognized text to the console
-        Console.WriteLine("Recognized text:");
-        Console.WriteLine(result.Text);
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
+
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-### Kodun Gerçekte Ne Yaptığı
+### Neden `Language = OcrLanguage.AutoDetect` ayarlıyoruz
 
-- **`OcrEngine` oluşturmak** yeni bir işleme bağlamı yaratır.  
-- **`Language` ayarlamak** Aspose‑a hangi karakter setinin beklendiğini söyler; bu, motorun dil‑özel sezgileri uygulayabilmesi sayesinde doğruluğu büyük ölçüde artırır.  
-- **`RecognizeImage`** dosyayı yükler, bir dizi görüntü‑ön‑işleme adımını (düzeltme, ikilileştirme, gürültü giderme) yürütür ve sonunda sinir‑ağ tanıyıcıyı çalıştırır.  
-- **`result.Text`** düz metin temsili tutar—**convert image to text** senaryoları için mükemmeldir.
+Otomatik dil algılama, görüntünün İngilizce, Rusça, Arapça veya karışık bir dil içerip içermediğini tahmin etmenizi önler. **detect language automatically** senaryosu için en esnek seçenektir ve Aspose tarafından desteklenen çoğu betik için kutudan çıkar çıkmaz çalışır.
 
-## Görüntü Metnini Okuma – Farklı Dosya Türlerini İşleme
+## 3. Adım – Uygulamayı Çalıştırın ve Çıktıyı Doğrulayın
 
-Aspose.OCR JPEG ile sınırlı değildir. PNG, BMP, TIFF ve hatta PDF sayfalarını (görüntü olarak) destekler. Bir toplu işlem yapmanız gerekiyorsa, çağrıyı basit bir döngüye sarabilirsiniz:
+Programı derleyip çalıştırın (`dotnet run` veya Visual Studio'da **F5** tuşuna basın). Her şey doğru bağlandıysa, aşağıdakine benzer bir çıktı göreceksiniz:
+
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
+
+Bu çıktı, **extract text from image**, **recognize text from png** ve **convert image to string** işlemlerini başarıyla gerçekleştirdiğimizi kanıtlar – hepsi tek, öz bir kod parçasında.
+
+## 4. Adım – Yaygın Varyasyonlar ve Kenar Durumları
+
+### Birden Çok Görüntüyü İşleme
+
+Eğer bir PNG dizinini işlemek istiyorsanız, tanıma çağrısını bir `foreach` döngüsü içinde sarın:
 
 ```csharp
-string[] files = Directory.GetFiles(@"YOUR_DIRECTORY", "*.*", SearchOption.TopDirectoryOnly)
-                          .Where(f => f.EndsWith(".jpg") || f.EndsWith(".png") || f.EndsWith(".tif"))
-                          .ToArray();
-
-foreach (var file in files)
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    var res = ocrEngine.RecognizeImage(file);
-    Console.WriteLine($"--- {Path.GetFileName(file)} ---");
-    Console.WriteLine(res.Text);
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### Kenar Durumu: Boş veya Bozuk Görüntüler
+### Sabit Bir Dil Belirleme
 
-`RecognizeImage` null ya da okunamayan bir dosya alırsa `ArgumentException` fırlatır. Hızlı bir kontrol, **c# ocr tutorial**ınızı sağlam tutar:
+Bazen dili önceden biliyorsunuzdur (ör. sadece İngilizce). İşleme hızını artırmak için `AutoDetect` yerine `OcrLanguage.English` kullanabilirsiniz:
 
 ```csharp
-if (!File.Exists(file))
+ocrEngine.Language = OcrLanguage.English;
+```
+
+### Düşük Kaliteli Taramalarla Baş Etme
+
+Aspose.OCR, ön işleme seçenekleri (gürültü azaltma, eğikliği düzeltme) sunar. Hızlı bir çözüm için:
+
+```csharp
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
+```
+
+### Sonucu Bir Dosyaya Kaydetme
+
+Konsola yazdırmak yerine, çıkarılan metni bir `.txt` dosyasına yazmak isteyebilirsiniz:
+
+```csharp
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
+
+## 5. Adım – Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
+
+Aşağıda, isteğe bağlı ön işleme ve dosya çıktısı mantığını içeren **complete program** yer alıyor. Yolları dilediğiniz gibi ayarlayabilirsiniz.
+
+```csharp
+using Aspose.OCR;
+using System;
+using System.IO;
+
+class OcrDemo
 {
-    Console.WriteLine($"File not found: {file}");
-    continue;
+    static void Main()
+    {
+        // Initialise engine
+        var ocrEngine = new OcrEngine
+        {
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
+
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
+            }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
+    }
 }
 ```
 
-## Görüntü Metnini Tanıma – Doğruluk İçin İnce Ayar
+### Beklenen Çıktı
 
-Bazen varsayılan ayarlar düşük kontrastlı taramalarda birkaç karakteri kaçırabilir. Aspose.OCR, ayarlayabileceğiniz birkaç parametre sunar:
-
-| Property                                       | Ne işe yarar                              | Tipik kullanım senaryosu |
-|-----------------------------------------------|-------------------------------------------|--------------------------|
-| `ocrEngine.PreprocessingOptions.Deskew`       | Görüntüyü eğimi düzeltmek için döndürür   | Tarama belgeleri |
-| `ocrEngine.PreprocessingOptions.NoiseRemoval` | Lekeleri temizler                         | Eski fotoğraflar |
-| `ocrEngine.Language`                          | Dil modeli (Cyrillic, English, vb.)       | Çok dilli OCR |
-
-Eğimi düzeltmeyi etkinleştirme örneği:
-
-```csharp
-ocrEngine.PreprocessingOptions.Deskew = true;
-```
-
-Bu ayarlamalar, **extract text from image** dosyalarının mükemmel hizalanmamış olması durumunda bile başarı oranını artırarak **read image text** işleminizi güçlendirir.
-
-## Beklenen Çıktı
-
-`cyrillic_sample.jpg` (içinde “Привет мир” ifadesi bulunan) örnek kodu çalıştırdığınızda aşağıdaki gibi bir çıktı alırsınız:
+İngilizce, Rusça ve Arapça içeren bir PNG üzerinde programı çalıştırmak şu çıktıyı verir:
 
 ```
-Recognized text:
-Привет мир
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
 ```
 
-Değerlendirme modundaysanız ayrıca şu satırı da görürsünüz:
+Görüntü boş veya okunamazsa, motor boş bir dize döndürür—devam etmeden önce `string.IsNullOrWhiteSpace(extractedText)` kontrolüyle bu durumu ele alın.
 
-```
---- Evaluation version. Use a licensed copy for production. ---
-```
+## Sık Sorulan Sorular (SSS)
 
-Bu satır, geçerli bir lisans dosyası sağladığınızda kaybolur.
+**S: Aspose.OCR el yazısı metni destekliyor mu?**  
+C: Yazdırılmış OCR üzerine odaklanır. El yazısı için ayrı bir ML modeli veya Azure Computer Vision gibi bir hizmet gerekir.
 
----
+**S: Bunu Linux/macOS'ta çalıştırabilir miyim?**  
+C: Kesinlikle. Aspose.OCR çapraz platformdur; sadece işletim sisteminiz için .NET runtime'ı kurun.
 
-## Yaygın Hatalar & Kaçınma Yöntemleri
-
-1. **Yanlış dil ayarı** – Cyrillic metin üzerinde `Language.English` kullanmak anlamsız sonuç verir. Her zaman kaynağa uygun dili seçin.  
-2. **Büyük görüntüler** – 10 MP bir fotoğraf işlemek yavaş olabilir. Hızın daha önemli olduğu durumlarda görüntüyü önce (`Bitmap.Resize`) küçültün.  
-3. **Eksik bağımlılıklar** – Aspose.OCR yerel ikili dosyalarla gelir; çıktı klasörünüzde `Aspose.OCR.Native.dll` bulunduğundan emin olun (NuGet bunu halleder, ancak özel derleme hatları bir kopyalama adımı gerektirebilir).
-
-## Sonraki Adımlar – Temelin Ötesine Geçmek
-
-- **Toplu dönüşüm**: Önceden gösterilen döngüyü asenkron `Task.Run` ile birleştirerek büyük klasörlerde hızı artırın.  
-- **PDF’ye dışa aktarım**: **convert image to text** işleminden sonra elde edilen dizeyi bir PDF oluşturucu (ör. Aspose.PDF) ile besleyerek aranabilir PDF’ler oluşturun.  
-- **Azure Functions ile bütünleştirme**: OCR mantığını, yüklemeleri anlık işleyen sunucusuz bir uç nokta haline getirin.  
-
-Tüm bu uzantılar, gerçek dünya uygulamalarında **extract text from image** ve **read image text** temalarını sürdürür.
-
----
+**S: PNG yerine PDF'leri işlemek istersem ne yapmalıyım?**  
+C: Önce her PDF sayfasını bir görüntüye dönüştürün (ör. `Aspose.PDF` kullanarak) ve ardından görüntüyü OCR motoruna besleyin.
 
 ## Sonuç
 
-Bir **c# ocr tutorial**ı tamamladınız; bu tutorial, Aspose.OCR kullanarak görüntü metnini okuma, görüntüyü metne dönüştürme ve görüntü metnini tanıma adımlarını gösteriyor. Yukarıdaki tam, çalıştırılabilir örnek, lisanslamadan dil seçimine ve hata yönetimine kadar her adımı sergiliyor; böylece bu kodu herhangi bir .NET projesine ekleyip hemen metin çıkarmaya başlayabilirsiniz.
+Az önce Aspose.OCR kullanarak **extracting text from image** dosyalarını, **recognizing text from png**, **converting the image to a string** ve **detecting language automatically** adımlarını gösteren bir **c# ocr tutorial** tamamladık. Kod kısa, kavramlar net ve bunu toplu işleme, özel dil ayarları ya da bir web API'ye entegrasyon gibi şekillerde genişletebilirsiniz.
 
-Farklı dillerle denemeler yapın, ön‑işleme seçeneklerini ayarlayın ya da çıktıyı bir veritabanına bağlayarak aranabilir arşivler oluşturun. Herhangi bir sorunla karşılaşırsanız, Aspose belgeleri sağlam bir referans sunar, ancak burada verilen kod çoğu senaryo için kutudan çıkar çıkmaz çalışmalıdır.
+Sonraki adımlar? OCR çıktısını bir arama indeksine besleyin, bir çeviri hizmetine yönlendirin veya Azure Cognitive Services ile birleştirerek daha zengin veri akışları oluşturun. C#'ta görüntü‑metin dönüşümünün temellerini kavradığınızda, olanaklar sınırsızdır.
 
-Kodlamanın tadını çıkarın, ve görüntüleriniz her zaman okunabilir olsun!
+Kodlamaktan keyif alın ve farklı görüntü kaliteleriyle denemeler yapmayı unutmayın—OCR motorunuz size teşekkür edecektir!
+
+![c# ocr tutorial – example of OCR output on a mixed‑script PNG](placeholder-image.png "c# ocr tutorial – OCR result screenshot")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
