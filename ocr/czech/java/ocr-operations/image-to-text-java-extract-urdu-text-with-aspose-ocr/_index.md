@@ -22,10 +22,6 @@ title: 'Obrázek na text v Javě: Extrahujte urdský text pomocí Aspose OCR'
 url: /cs/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-but there are none.
-
-Proceed to produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

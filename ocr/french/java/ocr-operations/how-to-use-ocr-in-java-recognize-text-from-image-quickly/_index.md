@@ -23,9 +23,7 @@ title: Comment utiliser l’OCR en Java – Reconnaître rapidement le texte d�
 url: /fr/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-formatting, headings, bullet points, blockquotes, code placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

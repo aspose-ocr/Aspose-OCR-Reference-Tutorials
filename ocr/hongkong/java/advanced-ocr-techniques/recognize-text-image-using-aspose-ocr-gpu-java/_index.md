@@ -21,11 +21,7 @@ title: 使用 Aspose OCR GPU 進行文字圖像辨識 – Java
 url: /zh-hant/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/
 ---
 
-## Performance Tips" we translated.
-
-Make sure to keep markdown formatting.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,9 +25,7 @@ title: OCR-Engine in Java erstellen – Text aus großen Bildern erkennen
 url: /de/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-translate.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Buat Mesin OCR Java – Kenali Teks dari Gambar Besar
 url: /id/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-sure alt attribute translation is correct.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

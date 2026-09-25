@@ -20,12 +20,6 @@ title: JavaでOCRエンジンを作成 – 大きな画像からテキストを�
 url: /ja/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-is a backtop button shortcode.
-
-We must ensure we preserve all shortcodes exactly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

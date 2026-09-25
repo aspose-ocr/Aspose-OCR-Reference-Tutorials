@@ -22,18 +22,6 @@ title: 'تحويل الصورة إلى نص جافا: استخراج النص ا
 url: /ar/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-.
-
-Make sure to keep **bold** and *italic* formatting.
-
-Lists translate.
-
-Tables translate.
-
-Code block placeholders remain.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,11 +26,7 @@ title: معالجة الصورة مسبقًا للتعرف الضوئي على �
 url: /ar/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-Now ensure all markdown formatting preserved.
-
-Check for any missing translation of bullet points, etc.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

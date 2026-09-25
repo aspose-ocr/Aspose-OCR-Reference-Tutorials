@@ -20,19 +20,7 @@ title: 在 Java 中從圖像建立可搜尋 PDF – 步驟指南
 url: /zh-hant/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-範例")
-
-Then closing shortcodes.
-
-Add remaining shortcodes unchanged.
-
-Now produce final content with all translations.
-
-Check for any leftover English text not to translate: code placeholders, class names, method names remain.
-
-Make sure to keep markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

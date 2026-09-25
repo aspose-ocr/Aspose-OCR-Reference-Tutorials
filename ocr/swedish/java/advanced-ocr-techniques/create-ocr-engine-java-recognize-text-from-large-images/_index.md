@@ -23,8 +23,6 @@ title: Skapa OCR-motor i Java – Känn igen text från stora bilder
 url: /sv/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

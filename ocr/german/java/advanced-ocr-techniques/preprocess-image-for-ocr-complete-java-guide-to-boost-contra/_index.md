@@ -25,12 +25,6 @@ title: Bild für OCR vorverarbeiten – Vollständiger Java‑Leitfaden zur Kont
 url: /de/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-produce final markdown with German translation.
-
-Make sure to keep markdown syntax.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

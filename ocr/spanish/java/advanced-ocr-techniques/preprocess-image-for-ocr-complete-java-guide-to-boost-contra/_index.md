@@ -26,17 +26,7 @@ title: Preprocesar imagen para OCR – Guía completa de Java para mejorar el co
 url: /es/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-: keep.
-
-Also there is a final shortcode for backtop button: keep.
-
-Now produce final content with all translations.
-
-Check we didn't translate any code block placeholders. Keep them.
-
-Make sure markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

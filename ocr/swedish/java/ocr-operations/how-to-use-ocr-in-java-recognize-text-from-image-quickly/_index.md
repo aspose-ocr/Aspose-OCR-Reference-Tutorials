@@ -22,8 +22,6 @@ title: Hur du använder OCR i Java – känna igen text från en bild snabbt
 url: /sv/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

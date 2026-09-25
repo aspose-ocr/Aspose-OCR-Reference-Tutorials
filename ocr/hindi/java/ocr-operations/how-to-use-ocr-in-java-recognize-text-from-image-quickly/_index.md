@@ -22,13 +22,7 @@ title: जावा में OCR का उपयोग कैसे करे�
 url: /hi/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-from Image Quickly" => "Java में OCR कैसे उपयोग करें – छवि से टेक्स्ट जल्दी पहचानें". We'll translate.
-
-Proceed paragraph.
-
-We'll translate each paragraph.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

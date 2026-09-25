@@ -22,15 +22,7 @@ title: إنشاء محرك OCR بلغة Java – التعرف على النص م
 url: /ar/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-Parallelize tile processing** – for ultra‑large satellite imagery, spin up a -> incomplete sentence; we keep as is? The original ends with "spin up a". We'll keep same incomplete line.
-
-Then close shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown syntax.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

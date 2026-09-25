@@ -20,24 +20,6 @@ title: 如何在 Java 中使用 OCR – 快速辨識圖像文字
 url: /zh-hant/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-Kong) uses Traditional characters, possibly with some Cantonese style but standard Traditional Chinese is fine.
-
-Let's translate.
-
-Also note: "Pro tip:" -> "專業提示：" maybe.
-
-"Expected Output" -> "預期輸出".
-
-"Common Questions and Edge Cases" -> "常見問題與邊緣情況".
-
-"Pro Tips for Production‑Ready OCR" -> "生產環境 OCR 的專業提示".
-
-"Conclusion" -> "結論".
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

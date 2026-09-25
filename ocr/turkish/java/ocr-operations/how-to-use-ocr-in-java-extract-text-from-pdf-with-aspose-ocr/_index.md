@@ -22,8 +22,6 @@ title: Java'da OCR Nasıl Kullanılır – Aspose.OCR ile PDF'den Metin Çıkarm
 url: /tr/java/ocr-operations/how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,16 +26,6 @@ title: Przetwarzanie obrazu pod OCR – Kompletny przewodnik Java zwiększający
 url: /pl/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-kontrastu". Ensure proper.
-
-Also translate table content.
-
-Translate headings, paragraphs, bullet points, etc.
-
-Do not translate code block placeholders.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

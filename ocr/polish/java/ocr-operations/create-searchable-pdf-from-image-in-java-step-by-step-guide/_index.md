@@ -24,13 +24,7 @@ title: Tworzenie przeszukiwalnego PDF z obrazu w Javie – przewodnik krok po kr
 url: /pl/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-all translations.
-
-Check for any missed bold phrases: **pdf save options**, **searchable pdf**, **image to searchable pdf**, **convert image to pdf**, **create searchable pdf**. Keep them as is.
-
-Make sure not to translate code block placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

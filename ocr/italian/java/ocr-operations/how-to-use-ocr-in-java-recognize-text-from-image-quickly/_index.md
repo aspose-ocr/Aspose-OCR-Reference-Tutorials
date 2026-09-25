@@ -24,9 +24,7 @@ title: Come usare l'OCR in Java – Riconosci rapidamente il testo da un'immagin
 url: /it/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-translations and placeholders unchanged.
-
-Let's construct final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

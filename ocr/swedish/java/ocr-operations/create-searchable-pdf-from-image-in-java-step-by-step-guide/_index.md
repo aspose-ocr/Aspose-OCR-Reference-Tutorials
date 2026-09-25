@@ -23,10 +23,6 @@ title: Skapa sökbar PDF från bild i Java – steg‑för‑steg guide
 url: /sv/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

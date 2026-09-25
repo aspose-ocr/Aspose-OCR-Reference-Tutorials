@@ -23,10 +23,6 @@ title: 'Imagen a texto Java: extraer texto urdu con Aspose OCR'
 url: /es/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-shown). So just translate surrounding text.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

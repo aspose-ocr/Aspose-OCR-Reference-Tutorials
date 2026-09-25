@@ -24,14 +24,6 @@ title: Создание поискового PDF из изображения в 
 url: /ru/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-becomes "Пример создания поискового PDF". Title maybe "пример создания поискового pdf". Keep case? We'll translate.
-
-Also table content: translate question and answer content, but keep code snippets unchanged.
-
-Also bullet list items: translate.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

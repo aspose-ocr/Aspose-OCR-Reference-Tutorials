@@ -26,8 +26,6 @@ title: Tiền xử lý hình ảnh cho OCR – Hướng dẫn Java toàn diện 
 url: /vi/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

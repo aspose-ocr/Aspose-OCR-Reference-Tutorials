@@ -20,10 +20,6 @@ title: OCR图像预处理 – 完整的Java指南：提升对比度并提取文�
 url: /zh/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-fences. So we keep them as is.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

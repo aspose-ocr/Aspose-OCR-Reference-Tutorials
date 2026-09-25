@@ -23,16 +23,6 @@ title: 'hình ảnh sang văn bản java: Trích xuất văn bản Urdu bằng A
 url: /vi/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-Happens", "How to Fix". Keep as Vietnamese.
-
-Also bullet lists.
-
-Make sure not to translate URLs, file paths, variable names, function names. So keep `Aspose.OCR.lic`, `YOUR_DIRECTORY`, etc.
-
-Also keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

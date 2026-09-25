@@ -23,16 +23,6 @@ title: 'Bild zu Text Java: Urdu-Text mit Aspose OCR extrahieren'
 url: /de/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-The same principles—**how to extract text**, **load image o". The original ends abruptly. We'll translate the part up to that point.
-
-Translate: "Als Nächstes können Sie mit größeren PDFs, verschiedenen Schriften experimentieren oder sogar den OCR‑Schritt in einen Spring‑Boot‑REST‑Endpoint integrieren. Die gleichen Prinzipien – **how to extract text**, **load image o**". The last phrase is incomplete; keep as is.
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes exactly.
-
-Let's assemble final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

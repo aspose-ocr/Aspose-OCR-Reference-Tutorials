@@ -23,26 +23,6 @@ title: Как использовать OCR в Java — быстро распоз
 url: /ru/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-of a photo ...". Translate.
-
-We need to keep **bold** formatting.
-
-Proceed.
-
-Will need to translate bullet list under "What You’ll Need". Keep bold parts.
-
-Translate blockquote >.
-
-Translate step headings.
-
-Translate code block placeholders unchanged.
-
-Translate other text.
-
-Make sure to keep markdown syntax.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

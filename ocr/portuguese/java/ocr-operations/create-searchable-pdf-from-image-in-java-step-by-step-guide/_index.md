@@ -24,15 +24,7 @@ title: Criar PDF pesquisável a partir de imagem em Java – Guia passo a passo
 url: /pt/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-exemplo de PDF pesquisável". Title: "exemplo de pdf pesquisável". Keep URL placeholder-image.png unchanged.
-
-Now closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

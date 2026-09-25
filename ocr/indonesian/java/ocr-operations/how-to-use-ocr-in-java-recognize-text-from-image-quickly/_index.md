@@ -24,10 +24,6 @@ title: Cara Menggunakan OCR di Java – Mengenali Teks dari Gambar dengan Cepat
 url: /id/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-preserve the shortcodes at top and bottom.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

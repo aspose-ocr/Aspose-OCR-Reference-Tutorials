@@ -20,8 +20,6 @@ title: JavaでOCRを使用する方法 – 画像からテキストを素早く�
 url: /ja/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

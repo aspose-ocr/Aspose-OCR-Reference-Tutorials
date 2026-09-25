@@ -24,12 +24,6 @@ title: Mengenali teks dari gambar dengan Aspose OCR – Tutorial Java
 url: /id/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/
 ---
 
-:** ... translate.
-
-Make sure to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

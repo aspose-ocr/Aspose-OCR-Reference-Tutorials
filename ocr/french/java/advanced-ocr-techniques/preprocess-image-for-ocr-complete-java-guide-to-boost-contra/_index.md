@@ -26,20 +26,6 @@ title: Prétraiter l'image pour l'OCR – Guide complet Java pour augmenter le c
 url: /fr/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-, etc.
-
-We need to translate everything else, including alt text for image? The alt text is "preprocess image for OCR example". Should translate? Probably yes, but alt text is part of markdown image syntax; we can translate the alt text but keep the URL unchanged. The title attribute also "preprocess image for OCR – before and after contrast boost" should be translated.
-
-We must keep code block placeholders unchanged.
-
-Let's produce final French translation.
-
-Check for any URLs: none except image path. Keep unchanged.
-
-Check for shortcodes: keep as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

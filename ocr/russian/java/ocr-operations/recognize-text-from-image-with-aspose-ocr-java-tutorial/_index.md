@@ -24,10 +24,6 @@ title: Распознавание текста с изображения с по
 url: /ru/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/
 ---
 
-translate.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

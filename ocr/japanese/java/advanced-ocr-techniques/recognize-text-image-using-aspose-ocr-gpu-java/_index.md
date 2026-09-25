@@ -21,17 +21,7 @@ title: Aspose OCR GPU を使用したテキスト画像の認識 – Java
 url: /ja/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/
 ---
 
-the next step? Try processing a folder of scanned PDFs, experiment with different `setLanguage` options, or combine OCR with a machine‑learning model for post‑processing. The possibilities are endless, and the performance gains from GPU acceleration make even large‑scale projects feasible."
-
-Translate.
-
-Final: "Happy coding, and feel free to drop a comment if you hit any snags!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,11 +22,7 @@ title: 'görüntüden metne java: Aspose OCR ile Urdu Metnini Çıkar'
 url: /tr/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-/products/products-backtop-button >}}
-
-All preserved.
-
-Now produce final output with translated content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

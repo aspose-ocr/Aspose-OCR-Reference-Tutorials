@@ -26,26 +26,6 @@ title: Προεπεξεργασία εικόνας για OCR – Πλήρης �
 url: /el/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-blocks/products/pf/tutorial-page-section >}}
-
-# Preprocess Image for OCR – Complete Java Guide
-
-Translate heading: "Προεπεξεργασία Εικόνας για OCR – Πλήρης Οδηγός Java"
-
-Then paragraph.
-
-Proceed.
-
-Make sure to keep **bold** formatting.
-
-Let's translate.
-
-Will produce Greek text with same markdown.
-
-Also tables: translate column headers and content.
-
-Let's do.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

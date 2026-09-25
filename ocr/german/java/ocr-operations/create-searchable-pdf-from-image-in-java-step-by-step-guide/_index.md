@@ -24,8 +24,6 @@ title: Erstelle ein durchsuchbares PDF aus einem Bild in Java – Schritt‑für
 url: /de/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

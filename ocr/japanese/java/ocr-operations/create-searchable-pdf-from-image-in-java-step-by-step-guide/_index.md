@@ -20,18 +20,6 @@ title: Javaで画像から検索可能なPDFを作成する – ステップバ�
 url: /ja/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-not alone—many developers hit that wall when they first try to turn a bitmap into a PDF that you can actually search. The good news? With Aspose OCR you can do it in a handful of lines, and the result looks exactly like the original image while still being text‑searchable."
-
-Translate accordingly, keep bold **create searchable pdf** unchanged? The phrase is technical term; maybe keep as is. Keep bold.
-
-Proceed.
-
-We'll translate each paragraph.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

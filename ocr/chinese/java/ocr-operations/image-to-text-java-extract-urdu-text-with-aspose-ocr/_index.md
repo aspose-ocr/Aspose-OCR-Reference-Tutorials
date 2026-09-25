@@ -21,11 +21,7 @@ title: 图像转文本 Java：使用 Aspose OCR 提取乌尔都语文本
 url: /zh/java/ocr-operations/image-to-text-java-extract-urdu-text-with-aspose-ocr/
 ---
 
-must preserve them.
-
-Now produce final content with all translations and placeholders unchanged. Ensure markdown formatting preserved.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

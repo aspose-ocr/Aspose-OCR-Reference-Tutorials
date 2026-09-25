@@ -24,16 +24,6 @@ title: Buat PDF yang Dapat Dicari dari Gambar di Java – Panduan Langkah demi L
 url: /id/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-maybe in text? There's no link.
-
-But there is a table.
-
-Translate table headers and cells.
-
-Also translate bullet lists.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

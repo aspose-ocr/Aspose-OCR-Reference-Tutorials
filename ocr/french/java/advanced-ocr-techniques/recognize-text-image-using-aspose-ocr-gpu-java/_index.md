@@ -25,10 +25,6 @@ title: Reconnaître le texte d’une image avec Aspose OCR GPU – Java
 url: /fr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/
 ---
 
-all translations and original placeholders.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

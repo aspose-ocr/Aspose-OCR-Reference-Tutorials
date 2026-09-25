@@ -24,18 +24,6 @@ title: Wie man OCR in Java verwendet – Text schnell aus Bildern erkennen
 url: /de/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-:
-
-Ever wondered **how to use OCR** to pull text out of a photo ... translate.
-
-We'll translate.
-
-Make sure to keep bold formatting.
-
-Proceed.
-
-Will produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

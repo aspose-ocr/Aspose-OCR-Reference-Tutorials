@@ -24,17 +24,7 @@ title: Créer un PDF interrogeable à partir d'une image en Java – Guide étap
 url: /fr/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-Translate text content.
-
-We must keep the shortcodes at top and bottom. Also keep the image alt and title.
-
-Let's produce translation.
-
-Be careful with bullet points, tables, etc.
-
-Translate headings, sentences.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,17 +20,7 @@ title: 如何在 Java 中使用 OCR —— 快速从图像识别文本
 url: /zh/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-trying this out? Drop a comment below, and let’s troubleshoot together. Happy coding, and enjoy turning those messy receipt images into clean, searchable data!"
-
-Translate: "有疑问或在实践中遇到问题？在下方留言，我们一起排查。祝编码愉快，享受将凌乱的收据图像转换为干净、可搜索数据的过程！"
-
-Finally the closing shortcodes.
-
-Now produce final content with same markdown.
-
-Make sure to preserve code block placeholders exactly as they are.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

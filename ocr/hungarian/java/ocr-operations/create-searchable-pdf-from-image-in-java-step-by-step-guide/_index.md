@@ -24,14 +24,6 @@ title: Kereshető PDF létrehozása képből Java‑ban – Lépésről‑lépé
 url: /hu/java/ocr-operations/create-searchable-pdf-from-image-in-java-step-by-step-guide/
 ---
 
-content. So yes.
-
-Also list items.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

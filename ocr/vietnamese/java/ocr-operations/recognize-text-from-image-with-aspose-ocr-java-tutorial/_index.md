@@ -22,8 +22,6 @@ title: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng 
 url: /vi/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/
 ---
 
-Proceed to produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

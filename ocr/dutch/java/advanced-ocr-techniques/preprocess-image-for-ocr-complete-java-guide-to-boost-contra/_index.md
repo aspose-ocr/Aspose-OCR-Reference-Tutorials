@@ -26,13 +26,7 @@ title: Afbeelding voor OCR voorbewerken – Complete Java-gids om contrast te ve
 url: /nl/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
-other markdown links: none.
-
-Check for any URLs: only image URL, kept unchanged.
-
-Check for any other markdown links: none.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,14 +25,6 @@ title: Créer un moteur OCR Java – Reconnaître le texte à partir de grandes 
 url: /fr/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
-block placeholders remain.
-
-Also the "## Full Working Example" etc.
-
-Make sure to keep markdown headings.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

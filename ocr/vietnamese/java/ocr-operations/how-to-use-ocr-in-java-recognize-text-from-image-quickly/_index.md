@@ -23,10 +23,6 @@ title: Cách sử dụng OCR trong Java – Nhận dạng văn bản từ hình 
 url: /vi/java/ocr-operations/how-to-use-ocr-in-java-recognize-text-from-image-quickly/
 ---
 
-content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

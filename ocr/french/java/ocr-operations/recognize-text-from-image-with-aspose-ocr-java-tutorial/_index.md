@@ -24,14 +24,6 @@ title: Reconnaître du texte à partir d'une image avec Aspose OCR – Tutoriel 
 url: /fr/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/
 ---
 
-tip:" maybe "Astuce pro :".
-
-But keep the quote formatting.
-
-Also code block placeholders remain.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
