@@ -22,11 +22,7 @@ title: วิธีบันทึก JSON จาก OCR ใน C# – คู่
 url: /th/net/text-recognition/how-to-save-json-from-ocr-in-c-step-by-step-guide/
 ---
 
-placeholders unchanged.
-
-Also ensure markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

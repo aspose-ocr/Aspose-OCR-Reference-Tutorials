@@ -23,14 +23,6 @@ title: วิธีทำ OCR ภาษาอาหรับใน C# – คู
 url: /th/net/text-recognition/how-to-ocr-arabic-in-c-complete-programming-guide/
 ---
 
-Thai text is correct.
-
-Let's craft translations.
-
-I'll write Thai.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

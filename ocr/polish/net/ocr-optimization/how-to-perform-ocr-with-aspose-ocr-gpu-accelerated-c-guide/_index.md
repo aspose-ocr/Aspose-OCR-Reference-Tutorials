@@ -26,16 +26,6 @@ title: Jak przeprowadzić OCR przy użyciu Aspose OCR – przewodnik C# przyspie
 url: /pl/net/ocr-optimization/how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-"Post‑przetwarzanie". "Hybrid mode" -> "Tryb hybrydowy". etc.
-
-Also translate bullet points.
-
-Make sure code block placeholders remain.
-
-Now produce final content with shortcodes at top and bottom unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

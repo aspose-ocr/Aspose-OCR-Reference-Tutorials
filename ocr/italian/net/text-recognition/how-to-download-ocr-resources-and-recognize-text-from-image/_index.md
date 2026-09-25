@@ -26,7 +26,7 @@ title: Come scaricare le risorse OCR e riconoscere il testo da un'immagine in C#
 url: /it/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

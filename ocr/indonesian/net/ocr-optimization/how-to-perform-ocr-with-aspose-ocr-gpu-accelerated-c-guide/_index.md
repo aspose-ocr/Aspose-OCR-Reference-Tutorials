@@ -25,19 +25,7 @@ title: Cara melakukan OCR dengan Aspose OCR – Panduan C# yang Dipercepat GPU
 url: /id/net/ocr-optimization/how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-3070 menghasilkan output serupa dengan contoh sebelumnya, mengonfirmasi bahwa **cara melakukan OCR** dengan dukungan GPU berfungsi seperti yang dijanjikan."
-
-Translate "Next Steps – Going Beyond the Basics" -> "Langkah Selanjutnya – Melampaui Dasar"
-
-Translate bullet points.
-
-Translate "Conclusion" -> "## Kesimpulan"
-
-Translate final paragraphs.
-
-Make sure to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

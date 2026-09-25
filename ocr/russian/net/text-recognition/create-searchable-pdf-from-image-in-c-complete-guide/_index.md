@@ -24,15 +24,7 @@ title: Создание поискового PDF из изображения в 
 url: /ru/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-them unchanged.
-
-Now produce final content with all translations and placeholders.
-
-Check for any missed items: The blockquote "Quick note" and "Pro tip" kept bold. The table headers translated. All code block placeholders kept.
-
-Make sure to preserve markdown formatting exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

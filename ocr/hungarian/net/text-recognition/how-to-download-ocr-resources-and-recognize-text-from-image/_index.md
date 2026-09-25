@@ -26,8 +26,6 @@ title: Hogyan töltsünk le OCR erőforrásokat, és ismerjünk fel szöveget eg
 url: /hu/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

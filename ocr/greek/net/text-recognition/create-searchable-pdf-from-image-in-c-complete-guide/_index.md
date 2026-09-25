@@ -24,7 +24,7 @@ title: Δημιουργία Αναζητήσιμου PDF από Εικόνα σ�
 url: /el/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

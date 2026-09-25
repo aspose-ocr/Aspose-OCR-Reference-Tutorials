@@ -20,18 +20,6 @@ title: Text aus Scan in C# extrahieren – Vollständiger Aspose-OCR-Leitfaden
 url: /de/net/ocr-optimization/extract-text-from-scan-in-c-complete-aspose-ocr-guide/
 ---
 
-}}
-
-All preserved.
-
-Now produce final output with translation.
-
-Be careful to keep code block placeholders unchanged.
-
-Also ensure we keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

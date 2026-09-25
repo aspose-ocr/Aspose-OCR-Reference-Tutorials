@@ -21,14 +21,6 @@ title: Εξαγωγή κειμένου από σάρωση σε C# – Πλήρ�
 url: /el/net/ocr-optimization/extract-text-from-scan-in-c-complete-aspose-ocr-guide/
 ---
 
-preserving formatting.
-
-Let's craft translation.
-
-Be careful with markdown formatting: headings, lists, code placeholders unchanged.
-
-Let's write Greek.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

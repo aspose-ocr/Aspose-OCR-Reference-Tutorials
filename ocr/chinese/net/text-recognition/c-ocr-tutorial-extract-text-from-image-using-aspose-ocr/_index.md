@@ -20,12 +20,6 @@ title: C# OCR 教程 – 使用 Aspose OCR 从图像提取文本
 url: /zh/net/text-recognition/c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/
 ---
 
-quote.
-
-Proceed step by step.
-
-Let's craft final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

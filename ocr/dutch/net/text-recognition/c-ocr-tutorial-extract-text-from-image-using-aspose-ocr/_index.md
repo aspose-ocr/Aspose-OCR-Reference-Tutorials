@@ -24,20 +24,6 @@ title: c# OCR-tutorial – Tekst extraheren uit afbeelding met Aspose OCR
 url: /nl/net/text-recognition/c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/
 ---
 
-headers and cells.
-
-Make sure to keep code block placeholders unchanged.
-
-Also translate bullet points.
-
-Also translate "Pro tip:" etc.
-
-Make sure not to translate URLs, file paths like `sample.jpg`, `.csproj`, etc.
-
-Also keep markdown links unchanged.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

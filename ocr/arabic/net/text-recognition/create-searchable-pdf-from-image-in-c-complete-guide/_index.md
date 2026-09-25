@@ -22,13 +22,7 @@ title: إنشاء ملف PDF قابل للبحث من صورة في C# – دل�
 url: /ar/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-encryption features to". We keep as is? It ends incomplete. Keep same.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

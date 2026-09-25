@@ -23,15 +23,7 @@ title: Wie man Batch-OCR in C# durchführt – Text schnell aus Bildern extrahie
 url: /de/net/text-recognition/how-to-batch-ocr-in-c-extract-text-from-images-quickly/
 ---
 
-"**Happy coding!** Feel free to tweak the parallelism, add more preprocessing steps, or wrap the whole thing in a Windows service for continuous monitoring. The sky’s the limit when you combine Aspose.OCR’s batch capabilities with a little .NET ingenuity." translate.
-
-Then closing shortcodes.
-
-Also need to translate the alt text and title in image.
-
-Now produce final content with same shortcodes and placeholders.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

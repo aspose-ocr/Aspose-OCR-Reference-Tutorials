@@ -23,13 +23,7 @@ title: Crear PDF buscable a partir de una imagen en C# – Guía completa
 url: /es/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-con las funciones de cifrado de Aspose PDF para". Keep trailing.
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

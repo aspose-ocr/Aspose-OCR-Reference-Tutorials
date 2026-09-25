@@ -23,13 +23,7 @@ title: C# ile Görüntüden Aranabilir PDF Oluşturma – Tam Rehber
 url: /tr/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-Check for any markdown links: none.
-
-Check for any images: none.
-
-All good.
-
-Now produce final content with translated text and original shortcodes.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

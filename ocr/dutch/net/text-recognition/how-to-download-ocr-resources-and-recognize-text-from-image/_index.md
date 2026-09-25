@@ -26,15 +26,7 @@ title: Hoe OCR-bronnen te downloaden en tekst uit een afbeelding te herkennen in
 url: /nl/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-shortcodes unchanged.
-
-Now produce final content with all translations and placeholders.
-
-Check for any missed bold formatting: keep **.
-
-Check for any URLs: none besides image alt and title; keep same.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

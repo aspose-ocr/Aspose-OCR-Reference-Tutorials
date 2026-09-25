@@ -18,22 +18,6 @@ title: C#でスキャン画像からテキストを抽出 – 完全なAspose OC
 url: /ja/net/ocr-optimization/extract-text-from-scan-in-c-complete-aspose-ocr-guide/
 ---
 
-"What’s Next?" heading.
-
-Also final line.
-
-Also closing shortcodes.
-
-Also backtop button shortcode.
-
-We must keep URLs unchanged.
-
-Now let's produce the translated content.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

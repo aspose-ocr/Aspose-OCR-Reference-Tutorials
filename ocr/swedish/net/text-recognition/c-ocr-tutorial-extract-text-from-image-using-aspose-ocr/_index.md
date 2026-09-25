@@ -22,9 +22,7 @@ title: c# OCR-handledning – Extrahera text från bild med Aspose OCR
 url: /sv/net/text-recognition/c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/
 ---
 
-items: The table header translation, bullet points, etc. Ensure we didn't translate code placeholders.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -26,19 +26,7 @@ title: Πώς να κατεβάσετε πόρους OCR και να αναγν�
 url: /el/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-with a translation API. Either way, the offline resources you just downloaded will keep your app fast and reliable, even when the internet is out of reach."
-
-Greek: "Στο επόμενο βήμα, μπορείτε να εξερευνήσετε **εξαγωγή κειμένου Χίντι από εικόνα** σε PDF, ή να ενσωματώσετε το αποτέλεσμα OCR με ένα API μετάφρασης. Σε κάθε περίπτωση, οι πόροι εκτός σύνδεσης που μόλις κατεβάσατε θα κρατήσουν την εφαρμογή σας γρήγορη και αξιόπιστη, ακόμη και όταν το διαδίκτυο δεν είναι διαθέσιμο."
-
-Final: "Got questions or ran into a snag? Drop a comment below, and happy coding!"
-
-Greek: "Έχετε ερωτήσεις ή αντιμετωπίσατε πρόβλημα; Αφήστε ένα σχόλιο παρακάτω, και καλή προγραμματιστική!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

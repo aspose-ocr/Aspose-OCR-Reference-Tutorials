@@ -20,13 +20,7 @@ title: C#'ta Tarama'dan Metin Çıkarma – Tam Aspose OCR Rehberi
 url: /tr/net/ocr-optimization/extract-text-from-scan-in-c-complete-aspose-ocr-guide/
 ---
 
-preserved.
-
-Now produce final output with translation.
-
-Be careful with markdown formatting, keep code block placeholders unchanged.
-
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,10 +23,6 @@ title: كيفية تنزيل موارد OCR والتعرف على النص من 
 url: /ar/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

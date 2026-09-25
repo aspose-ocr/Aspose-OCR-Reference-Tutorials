@@ -21,14 +21,6 @@ title: Extrair texto de digitalização em C# – Guia completo de OCR da Aspose
 url: /pt/net/ocr-optimization/extract-text-from-scan-in-c-complete-aspose-ocr-guide/
 ---
 
-to Portuguese "pré-processar imagem para OCR". The instruction: keep technical terms in English, but these are not technical terms per se. I'd translate them.
-
-Thus bold phrases will be translated.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

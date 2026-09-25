@@ -23,13 +23,7 @@ title: Tutoriel OCR C# – Extraire du texte d’une image avec Aspose OCR
 url: /fr/net/text-recognition/c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/
 ---
 
-unchanged.
-
-Now produce final output with all translations.
-
-Check for any missed items: code block placeholders remain. Ensure no extra spaces break markdown.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: Jak przeprowadzić wsadowe OCR w C# – Szybko wyodrębniaj tekst z obraz
 url: /pl/net/text-recognition/how-to-batch-ocr-in-c-extract-text-from-images-quickly/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

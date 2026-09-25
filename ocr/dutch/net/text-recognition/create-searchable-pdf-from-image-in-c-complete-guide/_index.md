@@ -24,7 +24,7 @@ title: Maak doorzoekbare PDF van afbeelding in C# – Complete gids
 url: /nl/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

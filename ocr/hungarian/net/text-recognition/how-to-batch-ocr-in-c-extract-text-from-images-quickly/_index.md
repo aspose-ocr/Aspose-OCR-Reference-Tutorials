@@ -23,12 +23,6 @@ title: Hogyan végezzünk kötegelt OCR-t C#-ban – Szöveg gyors kinyerése k�
 url: /hu/net/text-recognition/how-to-batch-ocr-in-c-extract-text-from-images-quickly/
 ---
 
-bullet lists.
-
-We need to keep code block placeholders unchanged.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

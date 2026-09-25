@@ -21,14 +21,6 @@ title: 如何下載 OCR 資源並在 C# 中辨識圖像文字
 url: /zh-hant/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-text: ..." line after image.
-
-Also translate the final backtop button shortcode? That's a shortcode, leave unchanged.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

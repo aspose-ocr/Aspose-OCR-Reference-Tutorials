@@ -22,13 +22,7 @@ title: Crea PDF ricercabile da immagine in C# – Guida completa
 url: /it/net/text-recognition/create-searchable-pdf-from-image-in-c-complete-guide/
 ---
 
-/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content with translation. Ensure code block placeholders remain unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

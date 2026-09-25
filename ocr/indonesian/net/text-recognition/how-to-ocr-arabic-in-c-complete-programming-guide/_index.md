@@ -25,10 +25,6 @@ title: Cara OCR Bahasa Arab di C# – Panduan Pemrograman Lengkap
 url: /id/net/text-recognition/how-to-ocr-arabic-in-c-complete-programming-guide/
 ---
 
-code block placeholders.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,10 +25,6 @@ title: Wie man Arabisch in C# OCR durchführt – Vollständiger Programmierleit
 url: /de/net/text-recognition/how-to-ocr-arabic-in-c-complete-programming-guide/
 ---
 
-fine.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

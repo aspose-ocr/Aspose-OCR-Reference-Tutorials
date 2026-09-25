@@ -25,19 +25,7 @@ title: Jak wykonać OCR arabskiego w C# – Kompletny przewodnik programistyczny
 url: /pl/net/text-recognition/how-to-ocr-arabic-in-c-complete-programming-guide/
 ---
 
-nik programistyczny". Keep same heading level.
-
-Proceed.
-
-Also bullet list in What You’ll Need: translate bullet items but keep .NET etc.
-
-Translate "Ever wondered **how to ocr arabic** from a scanned document..." etc.
-
-Proceed step by step.
-
-Will keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,10 +25,6 @@ title: Wie man OCR‑Ressourcen herunterlädt und Text aus einem Bild in C# erke
 url: /de/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-separate text; we can translate that sentence but keep the quoted phrase unchanged? The phrase is the alt text, we can keep it unchanged. So translate: "*Bild-Alt-Text: How to download OCR resources for offline processing.*" Keep the quoted phrase unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

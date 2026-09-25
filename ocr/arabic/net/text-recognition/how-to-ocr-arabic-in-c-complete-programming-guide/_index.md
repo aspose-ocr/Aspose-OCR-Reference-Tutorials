@@ -24,10 +24,6 @@ title: كيفية إجراء OCR للغة العربية في C# – دليل ب
 url: /ar/net/text-recognition/how-to-ocr-arabic-in-c-complete-programming-guide/
 ---
 
-italics markers.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

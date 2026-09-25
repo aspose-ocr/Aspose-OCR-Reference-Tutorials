@@ -25,12 +25,6 @@ title: cách thực hiện OCR với Aspose OCR – Hướng dẫn C# tăng tố
 url: /vi/net/ocr-optimization/how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/
 ---
 
-image placeholders? None.
-
-Also keep other shortcodes at bottom.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

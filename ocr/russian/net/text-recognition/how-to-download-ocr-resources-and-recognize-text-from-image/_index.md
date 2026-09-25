@@ -26,10 +26,6 @@ title: Как загрузить ресурсы OCR и распознать те
 url: /ru/net/text-recognition/how-to-download-ocr-resources-and-recognize-text-from-image/
 ---
 
-to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
