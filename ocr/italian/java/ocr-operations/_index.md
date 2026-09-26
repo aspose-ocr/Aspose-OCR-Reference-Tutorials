@@ -5,7 +5,7 @@ description: Scopri come riconoscere il testo PDF con Aspose.OCR per Java. Esplo
   e migliora l'accuratezza dell'OCR.
 linktitle: OCR Operations
 second_title: Aspose.OCR Java API
-title: Riconoscere il testo PDF – Operazioni OCR con Aspose.OCR per Java
+title: Riconoscere il Testo PDF – Operazioni OCR con Aspose.OCR per Java
 url: /it/java/ocr-operations/
 weight: 21
 ---
@@ -87,6 +87,8 @@ Scopri come eseguire OCR su immagini con Java usando Aspose.OCR, con istruzioni 
 Crea un PDF ricercabile in Java con Aspose.OCR, seguendo una guida passo‑passo per trasformare i documenti scansionati in file ricercabili.
 ### [OCR di immagini batch in Java – Estrai testo da file PNG rapidamente](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Esegui OCR su più file PNG in modo rapido ed efficiente con Aspose.OCR per Java, ottimizzando il throughput delle tue applicazioni.
+### [Come riconoscere il testo da immagini PNG usando Aspose OCR in Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Scopri come estrarre testo da immagini PNG con Aspose OCR in Java, passo‑passo per risultati rapidi e precisi.
 ### [Estrai testo da un'immagine con Aspose OCR – Demo passo‑passo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 Scopri come estrarre testo da un'immagine usando Aspose OCR in una dimostrazione dettagliata passo‑passo.
 ### [Crea PDF Ricercabile da File Scansionati – Guida Java](./create-searchable-pdf-from-scanned-files-java-guide/)
@@ -143,4 +145,3 @@ Crea rapidamente PDF ricercabili da immagini con Aspose.OCR per Java, seguendo q
 Scopri come convertire più immagini in testo usando OCR batch in Java con Aspose.OCR, ottimizzando velocità e precisione.
 ### [Creare PDF Ricercabile con Aspose OCR – Guida Passo‑Passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Scopri come trasformare PDF scansionati in documenti ricercabili con Aspose OCR, passo dopo passo, garantendo precisione e velocità.
-

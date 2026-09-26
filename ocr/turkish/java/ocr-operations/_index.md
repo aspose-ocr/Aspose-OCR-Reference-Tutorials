@@ -84,6 +84,8 @@ Java ile birden çok görüntüyü toplu olarak OCR'den geçirerek hızlı ve do
 Java kullanarak tek bir görüntüde metin tanıma adımlarını ayrıntılı olarak öğrenin ve Aspose OCR ile en yüksek doğruluğu elde edin.
 ### [Java'da Aranabilir PDF Oluşturma – Adım Adım Rehber](./create-searchable-pdf-in-java-step-by-step-guide/)
 Java ile PDF dosyalarını OCR ile aranabilir hâle getirerek metin katmanı ekleyin. Adım adım rehberimizi izleyin.
+### [Java'da PNG Görüntülerinden Metin Tanıma – Aspose OCR Kullanarak](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Java ile Aspose OCR kullanarak PNG dosyalarından metin çıkarma adımlarını öğrenin.
 
 ## Sıkça Sorulan Sorular
 
@@ -150,4 +152,3 @@ Görüntü dosyalarından OCR kullanarak aranabilir PDF oluşturmayı adım adı
 Java ile birden çok görüntüyü toplu olarak OCR ile metne dönüştürün, verimliliği artırın ve işlem süresini kısaltın.
 ### [Aspose OCR ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR kullanarak PDF dosyalarını aranabilir hâle getirin, adım adım talimatlarla hızlı ve doğru sonuçlar elde edin.
-
