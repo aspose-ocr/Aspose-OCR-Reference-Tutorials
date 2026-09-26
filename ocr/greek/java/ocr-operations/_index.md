@@ -101,6 +101,8 @@ weight: 21
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε Java με βήμα‑βήμα οδηγίες.
 ### [image to text java: Εξαγωγή κειμένου Urdu με Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Μάθετε πώς να εξάγετε κείμενο Urdu από εικόνες με το Aspose OCR σε Java.
+### [Πώς να αναγνωρίσετε κείμενο από εικόνες PNG χρησιμοποιώντας Aspose OCR σε Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες PNG με Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 
@@ -141,4 +143,3 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων για εξαγωγή κειμένου με το Aspose.OCR σε Java.
 ### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
-

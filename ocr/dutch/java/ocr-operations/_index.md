@@ -85,6 +85,8 @@ Leer stap‑voor‑stap hoe u OCR toepast op afbeeldingen in Java met Aspose.OCR
 ### [Maak doorzoekbare PDF in Java – Stapsgewijze gids](./create-searchable-pdf-in-java-step-by-step-guide/)
 ### [Batchafbeelding-OCR in Java – Tekst snel extraheren uit PNG‑bestanden](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Ontgrendel snelle batch‑OCR voor PNG‑afbeeldingen in Java. Verwerk meerdere bestanden efficiënt en haal tekst nauwkeurig uit elk bestand.
+### [Hoe tekst uit PNG‑afbeeldingen te herkennen met Aspose OCR in Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Leer hoe u met Aspose OCR in Java tekst uit PNG‑afbeeldingen kunt herkennen en extraheren.
 ### [Tekst uit afbeelding extraheren met Aspose OCR – Stapsgewijze demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 Leer hoe u stap voor stap tekst uit afbeeldingen kunt extraheren met Aspose OCR in Java.
 ### [Zoekbare PDF maken van gescande bestanden – Java‑gids](./create-searchable-pdf-from-scanned-files-java-guide/)
@@ -141,4 +143,3 @@ Leer hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van een afbeelding.
 Ontgrendel de kracht van batch OCR om meerdere afbeeldingen in Java naar tekst te converteren.
 ### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR een doorzoekbare PDF maakt in een eenvoudige stap‑voor‑stap handleiding.
-
