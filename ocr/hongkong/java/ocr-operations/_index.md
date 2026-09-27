@@ -88,6 +88,8 @@ weight: 21
 逐步說明如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的文件，提升文字檢索與編輯功能。
 ### [批次影像 OCR（Java） – 快速從 PNG 檔案提取文字](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 示範如何在 Java 中批次處理 PNG 圖片，使用 Aspose.OCR 高效提取文字。
+### [如何使用 Aspose OCR 在 Java 中識別 PNG 圖片文字](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+示範如何在 Java 中使用 Aspose OCR 識別 PNG 圖片中的文字。
 ### [使用 Aspose OCR 提取圖像文字 – 步驟示範](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 逐步示範如何使用 Aspose OCR 從圖像中提取文字，適用於 Java 開發者。
 ### [從掃描檔案建立可搜尋 PDF – Java 教學](./create-searchable-pdf-from-scanned-files-java-guide/)
@@ -143,4 +145,3 @@ A: 將 TIFF 圖片分批處理或使用多執行緒，以保持記憶體使用�
 說明如何使用 Aspose.OCR for Java 進行批次影像文字轉換，提高效率與準確度。
 ### [使用 Aspose OCR 建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 一步步教你使用 Aspose OCR 將 PDF 轉換為可搜尋的文件，提高可編輯性與搜尋功能。
-

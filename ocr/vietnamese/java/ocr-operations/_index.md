@@ -95,7 +95,7 @@ Khám phá cách tạo PDF có thể tìm kiếm từ các tệp đã quét bằ
 Hướng dẫn chi tiết cách loại bỏ watermark đánh giá trong Aspose OCR bằng giấy phép Java đầy đủ.
 ### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong Java, từ cài đặt đến xuất kết quả chính xác.
-### [image to text java: Trích xuất văn bản Urdu với Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+### [image to text java: Trích xuất Văn bản Urdu với Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Khám phá cách trích xuất văn bản Urdu từ hình ảnh bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính bản.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh trong Java – Hướng dẫn từng bước](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 Khám phá cách tạo PDF có thể tìm kiếm từ hình ảnh trong Java, hướng dẫn chi tiết từng bước để chuyển đổi và tối ưu OCR.
@@ -103,6 +103,8 @@ Khám phá cách tạo PDF có thể tìm kiếm từ hình ảnh trong Java, h�
 Hướng dẫn chi tiết cách trích xuất văn bản từ PDF bằng OCR trong Java sử dụng Aspose.OCR.
 ### [Cách sử dụng OCR trong Java – Nhận dạng văn bản từ hình ảnh nhanh chóng](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Hướng dẫn nhanh cách nhận dạng văn bản từ hình ảnh bằng OCR trong Java, tối ưu tốc độ và độ chính xác.
+### [Cách nhận dạng văn bản từ hình ảnh PNG bằng Aspose OCR trong Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Hướng dẫn chi tiết cách trích xuất văn bản từ các tệp PNG bằng Aspose OCR trong Java.
 
 ## Câu hỏi Thường gặp
 
@@ -143,4 +145,3 @@ Hướng dẫn chi tiết cách chuyển đổi ảnh thành PDF có thể tìm 
 Mở khóa khả năng chuyển đổi hàng loạt hình ảnh thành văn bản bằng OCR trong Java, tăng năng suất và độ chính xác.
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu.
-

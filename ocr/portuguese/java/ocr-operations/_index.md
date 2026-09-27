@@ -104,6 +104,8 @@ Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR para Ja
 Aprenda a usar OCR em Java para extrair texto de PDFs com Aspose.OCR, passo a passo, incluindo configuração e dicas de precisão.
 ### [Como usar OCR em Java – Reconhecer texto de imagem rapidamente](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Aprenda a reconhecer texto de imagens rapidamente usando OCR em Java, com passos simples e dicas de precisão.
+### [Como reconhecer texto de imagens PNG usando Aspose OCR em Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Aprenda a extrair texto de imagens PNG usando Aspose OCR em Java, passo a passo, com dicas de configuração e otimização.
 
 ## Perguntas Frequentes
 
@@ -144,4 +146,3 @@ Crie um PDF pesquisável a partir de imagens usando OCR em Java com Aspose.OCR. 
 Aprenda a processar múltiplas imagens em lote usando Aspose.OCR para Java e converter todas em texto de forma eficiente.
 ### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a criar PDFs pesquisáveis usando Aspose OCR com um guia passo a passo detalhado.
-
