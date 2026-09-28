@@ -126,6 +126,12 @@ Dowiedz się, jak w prosty sposób włączyć OCR w aplikacji Java, krok po krok
 Poznaj, jak przetworzyć obrazy na tekst w języku tamilskim, wykorzystując Aspose OCR w Javie.
 ### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przykład OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Pełny przykład użycia Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący licencję, korekcję pochylenia i odczyt tekstu.
+### [Rozpoznawanie tekstu z PNG w Javie – samouczek Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [Wyodrębnianie tekstu z obrazu – konwersja PNG na tekst w Javie](./extract-text-from-image-convert-png-to-text-in-java/)
+
+### [Wyodrębnianie tekstu z obrazu – szybki przewodnik Java z Aspose OCR](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Szybki samouczek pokazujący, jak w kilku krokach wyodrębnić tekst z obrazu w Javie przy użyciu biblioteki Aspose OCR.
 
 ---
 

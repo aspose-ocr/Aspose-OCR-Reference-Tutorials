@@ -115,6 +115,12 @@ Enable OCR in Java quickly with this step-by-step guide. Follow simple instructi
 Learn how to extract Tamil text from images using Aspose OCR for Java in this step‑by‑step guide.
 ### [Extract Text from Image in Java – Complete OCR Example](./extract-text-from-image-in-java-complete-ocr-example/)
 Full Java OCR walkthrough: load image, set license, configure engine, and extract text with Aspose.OCR.
+### [recognize text from png in Java – Aspose OCR tutorial](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Learn how to recognize text from PNG images using Aspose OCR for Java in a simple step-by-step guide.
+### [extract text from image – convert PNG to text in Java](./extract-text-from-image-convert-png-to-text-in-java/)
+Convert PNG images to searchable text in Java using Aspose.OCR with a simple step-by-step guide.
+### [Extract Text from Image with Aspose OCR – Java Quick Guide](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Quickly learn how to extract text from images using Aspose OCR in Java with this concise step‑by‑step guide.
 
 ---
 

@@ -111,6 +111,12 @@ weight: 20
 Ανακαλύψτε πώς να εξάγετε κείμενο στα Ταμιλικά από εικόνες χρησιμοποιώντας το Aspose OCR σε Java.
 ### [Εξαγωγή Κειμένου από Εικόνα σε Java – Πλήρες Παράδειγμα OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνα σε Java με ένα ολοκληρωμένο παράδειγμα OCR, βήμα‑βήμα οδηγίες.
+### [Αναγνώριση κειμένου από PNG σε Java – Οδηγός Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG χρησιμοποιώντας το Aspose.OCR σε Java, βήμα‑βήμα οδηγίες για γρήγορη ενσωμάτωση.
+### [Εξαγωγή κειμένου από εικόνα – μετατροπή PNG σε κείμενο σε Java](./extract-text-from-image-convert-png-to-text-in-java/)
+Μάθετε πώς να μετατρέψετε εικόνες PNG σε κείμενο χρησιμοποιώντας το Aspose.OCR για Java, βήμα‑βήμα οδηγός.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR – Γρήγορος οδηγός Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Μάθετε γρήγορα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε Java, βήμα‑βήμα οδηγίες.
 
 ---
 

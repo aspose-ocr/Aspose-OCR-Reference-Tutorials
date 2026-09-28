@@ -110,6 +110,11 @@ Aspose.OCR for Java के साथ OCR सटीकता बढ़ाएँ�
 ### [Aspose.OCR के साथ टेक्स्ट एरिया वाले रेक्टेंगल प्राप्त करना](./get-rectangles-with-text-areas/)
 Aspose.OCR for Java की शक्ति को अनलॉक करें। इस चरण‑दर‑स्टेप गाइड में इमेज से टेक्स्ट को सहजता से निकालना सीखें। प्रभावी टेक्स्ट रिकग्निशन के लिए अभी डाउनलोड करें।
 
+### [Java में PNG से टेक्स्ट पहचानें – Aspose OCR ट्यूटोरियल](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Java में PNG इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें, Aspose OCR का उपयोग करके तेज़ और सटीक परिणाम प्राप्त करें।
+
+### [Java में PNG से टेक्स्ट निकालें – इमेज को टेक्स्ट में बदलें](./extract-text-from-image-convert-png-to-text-in-java/)
+
 ### [जावा में इमेज से टेक्स्ट पढ़ें – पूर्ण Aspose OCR गाइड](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 जावा में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
 
@@ -121,6 +126,8 @@ Java में Aspose.OCR को सक्रिय करने के चर�
 ### [इमेज‑टू‑टेक्स्ट ट्यूटोरियल – Aspose OCR के साथ तमिल टेक्स्ट निकालें](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 ### [Java में इमेज से टेक्स्ट निकालें – पूर्ण OCR उदाहरण](./extract-text-from-image-in-java-complete-ocr-example/)
 Java में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया देखें।
+
+### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – जावा त्वरित गाइड](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 ---
 

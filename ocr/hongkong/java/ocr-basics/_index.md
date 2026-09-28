@@ -112,6 +112,13 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 使用 Aspose OCR 從影像中提取泰米爾文字，快速完成文字辨識。
 ### [在 Java 中從影像提取文字 – 完整 OCR 範例](./extract-text-from-image-in-java-complete-ocr-example/)
 完整示範如何在 Java 使用 Aspose.OCR 從影像提取文字，涵蓋授權設定、前處理與結果輸出。
+### [在 Java 中從 PNG 文字辨識 – Aspose OCR 教學](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+示範如何使用 Aspose.OCR for Java 讀取 PNG 圖片並提取文字，涵蓋授權設定與基本程式範例。
+
+### [從影像提取文字 – 在 Java 中將 PNG 轉換為文字](./extract-text-from-image-convert-png-to-text-in-java/)
+示範如何使用 Aspose.OCR for Java 讀取 PNG 圖片並將其內容轉換為純文字，包含授權設定與程式範例。
+
+### [使用 Aspose OCR 從影像提取文字 – Java 快速指南](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 ---
 

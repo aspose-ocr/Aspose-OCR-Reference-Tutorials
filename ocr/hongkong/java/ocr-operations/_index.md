@@ -104,6 +104,9 @@ weight: 21
 示範在 Java 中使用 Aspose.OCR 提取 PDF 文字的完整教學與範例程式碼。
 ### [如何在 Java 中使用 OCR – 快速識別圖像文字](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 示範如何在 Java 中快速使用 Aspose.OCR 識別圖像文字，提升開發效率。
+### [從 JPG 建立可搜尋 PDF – 圖像轉可搜尋 PDF Java 教學](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+學習如何使用 Aspose.OCR for Java，將 JPG 圖像轉換為可搜尋的 PDF，提供逐步程式碼範例。
+### [如何校正圖像傾斜 — 步驟式 OCR 前處理指南](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 
 ## 常見問題
 

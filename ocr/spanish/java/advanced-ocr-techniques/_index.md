@@ -94,6 +94,10 @@ Acelere el OCR de imágenes PNG usando un pool de hilos fijo en Java para proces
 Mejore la calidad de sus imágenes antes del OCR, aumentando el contraste y optimizando la extracción de texto con Java.
 ### [Crear motor OCR Java – Reconocer texto de imágenes grandes](./create-ocr-engine-java-recognize-text-from-large-images/)
 Aprenda a crear un motor OCR en Java para reconocer texto en imágenes de gran tamaño con alta precisión y rendimiento.
+### [Cómo habilitar GPU para OCR en Java – Guía completa](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Aprenda a activar la GPU para acelerar el OCR en Java con Aspose.OCR, mejorando el rendimiento y la precisión.
+### [Cómo hacer OCR de una imagen en Java – Notas manuscritas con corrección ortográfica](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Aprenda a reconocer texto manuscrito en imágenes usando Aspose.OCR para Java y aplicar corrección ortográfica para resultados precisos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

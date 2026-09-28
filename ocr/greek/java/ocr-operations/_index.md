@@ -101,6 +101,10 @@ weight: 21
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε Java με βήμα‑βήμα οδηγίες.
 ### [image to text java: Εξαγωγή κειμένου Urdu με Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Μάθετε πώς να εξάγετε κείμενο Urdu από εικόνες με το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από JPG – Οδηγός Java για Μετατροπή Εικόνας σε Αναζητήσιμο PDF](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Μάθετε πώς να μετατρέψετε εικόνες JPG σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για Java.
+### [Πώς να ευθυγραμμίσετε την κλίση εικόνας — Οδηγός προεπεξεργασίας OCR βήμα‑βήμα](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες πριν το OCR, βελτιώνοντας την ακρίβεια με βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

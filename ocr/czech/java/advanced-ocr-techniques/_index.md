@@ -94,6 +94,10 @@ Využijte Fixed Thread Pool v Javě pro paralelní zpracování OCR PNG souborů
 Zvyšte přesnost OCR v Javě předzpracováním obrázku, vylepšením kontrastu a extrakcí textu. Kompletní návod krok za krokem.
 ### [Vytvoření OCR enginu v Javě – Rozpoznání textu z velkých obrázků](./create-ocr-engine-java-recognize-text-from-large-images/)
 Vytvořte vlastní OCR engine v Javě a rozpoznávejte text na velkých obrázcích s vysokou přesností.
+### [Jak povolit GPU pro OCR v Javě – Kompletní průvodce](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Naučte se, jak v Javě aktivovat GPU akceleraci pro OCR a dosáhnout vyšší rychlosti a přesnosti rozpoznávání textu.
+### [Jak provést OCR obrázku v Javě – Ručně psané poznámky s kontrolou pravopisu](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Naučte se, jak v Javě provádět OCR ručně psaných poznámek a využít kontrolu pravopisu pro přesnější výstup.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,6 +111,11 @@ Pelajari cara mengaktifkan OCR di Java dengan panduan langkah demi langkah yang 
 Pelajari cara mengekstrak teks berbahasa Tamil dari gambar menggunakan Aspose OCR dalam panduan langkah demi langkah ini.
 ### [Ekstrak Teks dari Gambar di Java – Contoh OCR Lengkap](./extract-text-from-image-in-java-complete-ocr-example/)
 Panduan lengkap untuk mengekstrak teks dari gambar menggunakan Aspose.OCR di Java, mencakup semua langkah dari lisensi hingga hasil akhir.
+### [Mengenali teks dari PNG di Java – tutorial Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Pelajari cara mengenali teks dari file PNG menggunakan Aspose OCR di Java dengan contoh kode lengkap.
+### [Mengekstrak teks dari gambar – mengonversi PNG ke teks di Java](./extract-text-from-image-convert-png-to-text-in-java/)
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Cepat Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Panduan singkat untuk mengekstrak teks dari gambar menggunakan Aspose OCR di Java dengan contoh kode lengkap.
 
 ---
 

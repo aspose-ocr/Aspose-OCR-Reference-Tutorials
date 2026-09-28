@@ -97,6 +97,9 @@ weight: 21
 ### [تحويل الصورة إلى نص Java: استخراج النص الأردي باستخدام Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 ### [إنشاء PDF قابل للبحث من صورة في Java – دليل خطوة بخطوة](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR في بيئة Java خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من JPG – دليل Java لتحويل الصورة إلى PDF قابل للبحث](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+دليل خطوة بخطوة لإنشاء ملف PDF قابل للبحث من صورة JPG باستخدام Aspose.OCR للـ Java.
+### [كيفية تصحيح الميل في الصورة — دليل معالجة ما قبل OCR خطوة بخطوة](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 
 ## الأسئلة المتكررة
 

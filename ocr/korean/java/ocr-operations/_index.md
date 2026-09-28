@@ -101,6 +101,10 @@ Aspose OCR을 활용해 Java에서 우르두어가 포함된 이미지의 텍스
 ### [Java에서 이미지로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 ### [Java에서 OCR 사용 방법 – Aspose.OCR로 PDF에서 텍스트 추출](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
 Aspose.OCR를 활용해 Java에서 PDF 파일의 텍스트를 추출하고 검색 가능한 문서를 만드는 방법을 단계별로 안내합니다.
+### [JPG에서 검색 가능한 PDF 만들기 – 이미지에서 검색 가능한 PDF Java 가이드](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+JPG 이미지를 OCR로 처리하여 검색 가능한 PDF로 변환하는 단계별 Java 구현 방법을 안내합니다.
+### [이미지 기울기 보정 방법 — 단계별 OCR 전처리 가이드](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+이미지 기울기를 교정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

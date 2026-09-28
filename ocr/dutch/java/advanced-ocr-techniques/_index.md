@@ -91,6 +91,10 @@ Gebruik een fixed thread pool in Java om OCR parallel uit te voeren op PNG-afbee
 Leer hoe u afbeeldingen optimaliseert voor OCR in Java door contrast te verbeteren en tekst nauwkeurig te extraheren.
 ### [OCR-engine maken in Java – Tekst herkennen van grote afbeeldingen](./create-ocr-engine-java-recognize-text-from-large-images/)
 Gebruik de OCR-engine in Java om tekst nauwkeurig te extraheren uit grote afbeeldingen met hoge prestaties.
+### [GPU inschakelen voor OCR in Java – Complete gids](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Leer hoe u GPU-ondersteuning inschakelt voor Aspose.OCR in Java voor snellere en nauwkeurigere tekstherkenning.
+### [Hoe OCR-afbeelding in Java – Handgeschreven notities met spellingscontrole](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Leer hoe u handgeschreven notities in Java OCR't met spellingscontrole voor nauwkeurige tekstextractie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

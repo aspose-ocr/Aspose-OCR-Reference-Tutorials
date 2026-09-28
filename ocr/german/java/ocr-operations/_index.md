@@ -100,6 +100,10 @@ Erfahren Sie, wie Sie Urdu‑Text aus Bildern mit Aspose OCR in Java extrahieren
 Erfahren Sie, wie Sie mit Aspose.OCR in Java PDF‑Dateien analysieren und Text extrahieren, um durchsuchbare Dokumente zu erstellen.
 ### [OCR in Java verwenden – Text schnell aus Bild erkennen](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Erfahren Sie, wie Sie OCR in Java einsetzen, um Text aus Bildern schnell und effizient zu extrahieren.
+### [Erstellen durchsuchbares PDF aus JPG – Bild zu durchsuchbarem PDF Java‑Leitfaden](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Erfahren Sie, wie Sie aus JPG‑Bildern ein durchsuchbares PDF erstellen und OCR in Java anwenden.
+### [Wie man ein Bild begradigt – Schritt‑für‑Schritt OCR‑Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Erfahren Sie, wie Sie Bildschrägstellungen korrigieren und die OCR‑Genauigkeit mit einer Schritt‑für‑Schritt‑Anleitung verbessern.
 
 ## Häufig gestellte Fragen
 

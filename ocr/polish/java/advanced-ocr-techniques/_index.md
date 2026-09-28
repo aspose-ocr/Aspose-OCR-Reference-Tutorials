@@ -43,6 +43,12 @@ Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpozna
 
 ## [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 
+### [Jak wykonać OCR obrazu w Javie – Notatki odręczne z korektą pisowni](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Dowiedz się, jak przetwarzać odręczne notatki w Javie przy użyciu Aspose.OCR i wbudowanej korekty pisowni.
+
+### [Jak włączyć GPU dla OCR w Javie – Kompletny przewodnik](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Dowiedz się, jak skonfigurować GPU, aby przyspieszyć OCR w Javie przy użyciu Aspose.OCR, zwiększając wydajność i dokładność.
+
 ## [Rozpoznawanie obrazu tekstowego przy użyciu Aspose OCR GPU w Javie](./recognize-text-image-using-aspose-ocr-gpu-java/)
 Wykorzystaj moc GPU w Aspose OCR, aby szybko i dokładnie rozpoznawać tekst na obrazach w aplikacjach Java.
 

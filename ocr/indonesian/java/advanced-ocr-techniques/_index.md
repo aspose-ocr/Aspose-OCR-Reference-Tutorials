@@ -99,6 +99,10 @@ Aktifkan pra‑pemrosesan gambar dengan membenahi kemiringan untuk OCR menggunak
 
 ### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Java](./extract-text-from-image-with-aspose-ocr-java-guide/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan Java yang mudah diikuti.
+### [Cara Mengaktifkan GPU untuk OCR di Java – Panduan Lengkap](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR untuk Java, meningkatkan kecepatan dan akurasi OCR secara signifikan.
+### [Cara Melakukan OCR Gambar di Java – Catatan Tangan dengan Pemeriksaan Ejaan](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Pelajari cara OCR gambar catatan tulisan tangan di Java dengan fitur pemeriksaan ejaan untuk hasil teks yang akurat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

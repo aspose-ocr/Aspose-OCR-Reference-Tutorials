@@ -104,6 +104,10 @@ Aprende a extraer texto de imágenes con Aspose OCR en Java mediante un tutorial
 Desbloquea la extracción de texto en urdu de imágenes usando Aspose OCR para Java. Sigue este tutorial paso a paso.
 ### [Cómo usar OCR en Java – Extraer texto de PDF con Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
 Aprende a usar OCR en Java para extraer texto de archivos PDF con Aspose.OCR en una guía paso a paso.
+### [Crear PDF buscable a partir de JPG – Guía Java de Imagen a PDF buscable](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Desbloquea la creación de PDFs buscables desde imágenes JPG usando Aspose.OCR para Java. Sigue la guía paso a paso.
+### [Cómo enderezar una imagen — Guía paso a paso de pre‑procesamiento OCR](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Aprende a corregir la inclinación de imágenes antes del OCR para mejorar la precisión del reconocimiento.
 
 ## Preguntas frecuentes
 

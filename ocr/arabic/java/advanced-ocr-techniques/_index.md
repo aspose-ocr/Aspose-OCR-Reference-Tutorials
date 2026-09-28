@@ -94,6 +94,9 @@ url: /ar/java/advanced-ocr-techniques/
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – دليل جافا كامل لتعزيز التباين واستخراج النص](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
 ### [إنشاء محرك OCR Java – التعرف على النص من الصور الكبيرة](./create-ocr-engine-java-recognize-text-from-large-images/)
 إنشاء محرك OCR في Java للتعرف على النص من الصور الكبيرة بسرعة ودقة عالية.
+### [كيفية تمكين GPU للتعرف الضوئي على الحروف (OCR) في Java – دليل كامل](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+دليل شامل لتمكين GPU في Aspose.OCR لـ Java لتحسين سرعة ودقة التعرف الضوئي على الحروف.
+### [كيفية التعرف الضوئي على الحروف (OCR) لصورة في Java – ملاحظات مكتوبة بخط اليد مع تدقيق إملائي](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

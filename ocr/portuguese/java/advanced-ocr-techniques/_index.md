@@ -92,6 +92,10 @@ Acelere o OCR de PNGs usando pool de threads fixas em Java. Processamento parale
 Aprenda a melhorar o contraste de imagens e extrair texto com precisão usando Java e Aspose.OCR.
 ### [Criar mecanismo OCR Java – Reconhecer texto de imagens grandes](./create-ocr-engine-java-recognize-text-from-large-images/)
 Aprenda a criar um motor OCR em Java capaz de reconhecer texto em imagens de grande tamanho com alta precisão usando Aspose.OCR.
+### [Como habilitar GPU para OCR em Java – Guia completo](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Aprenda a ativar a aceleração GPU no Aspose.OCR para Java e melhorar o desempenho do reconhecimento de texto.
+### [Como fazer OCR de imagem em Java – Notas manuscritas com verificação ortográfica](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Aprenda a reconhecer texto manuscrito em imagens Java usando OCR com correção ortográfica para melhorar a precisão.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

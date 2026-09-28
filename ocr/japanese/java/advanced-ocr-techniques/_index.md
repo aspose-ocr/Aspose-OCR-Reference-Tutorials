@@ -43,6 +43,11 @@ Aspose.OCR を使用して Java アプリケーションを強化し、正確な
 
 ## [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 
+### [Java で OCR 用 GPU を有効にする完全ガイド](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Java アプリで GPU を活用し、高速かつ高精度な OCR を実現する手順を詳しく解説します。
+
+### [Java で画像を OCR する – 手書きメモのスペルチェック付き](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+
 ### [Aspose OCR GPU を使用したテキスト画像の認識 – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
 Aspose OCR GPU を活用し、Java でテキスト画像を高速に認識する方法をステップバイステップで解説します。
 

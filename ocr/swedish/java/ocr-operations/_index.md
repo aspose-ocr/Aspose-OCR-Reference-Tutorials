@@ -103,6 +103,10 @@ Lär dig hur du konverterar en bild till en sökbar PDF i Java med Aspose.OCR i 
 Lär dig hur du använder OCR i Java för att extrahera text från PDF‑filer med Aspose.OCR.
 ### [Hur man använder OCR i Java – Känn igen text från bild snabbt](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Lär dig snabbt hur du använder Aspose.OCR i Java för att känna igen text i bilder med enkla kodexempel.
+### [Skapa sökbar PDF från JPG – Bild till sökbar PDF Java‑guide](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Lär dig konvertera JPG‑bilder till sökbara PDF‑dokument med Aspose.OCR för Java.
+### [Hur man räta upp bild — Steg‑för‑steg OCR‑förbehandlingsguide](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Lär dig hur du räta upp bilder före OCR för att förbättra igenkänningsnoggrannheten.
 
 ## Vanliga frågor
 

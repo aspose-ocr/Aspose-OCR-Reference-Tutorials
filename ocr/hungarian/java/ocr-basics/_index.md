@@ -111,6 +111,12 @@ Ismerje meg, hogyan aktiválja az OCR funkciót Java alkalmazásában részletes
 Fedezze fel, hogyan nyerhet ki tamil nyelvű szöveget képekből az Aspose OCR segítségével.
 ### [Képről szöveg kinyerése Java-ban – Teljes OCR példa](./extract-text-from-image-in-java-complete-ocr-example/)
 Teljes útmutató a képek szöveggé alakításához Java-ban az Aspose.OCR használatával.
+### [PNG-ből szöveg felismerése Java-ban – Aspose OCR oktatóanyag](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Fedezze fel, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Képből szöveg kinyerése – PNG konvertálása szöveggé Java-ban](./extract-text-from-image-convert-png-to-text-in-java/)
+Ismerje meg, hogyan konvertálhatja a PNG képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Szöveg kinyerése képből az Aspose OCR-rel – Java gyors útmutató](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Gyorsan tanulja meg, hogyan nyerjen ki szöveget képekből az Aspose OCR Java használatával egy egyszerű útmutatóban.
 
 ---
 

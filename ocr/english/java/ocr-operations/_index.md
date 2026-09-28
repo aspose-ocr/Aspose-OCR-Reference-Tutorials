@@ -105,6 +105,10 @@ Create a searchable PDF from an image with Aspose OCR in Java, step‑by‑step.
 Learn step‑by‑step how to extract text from PDF files using Aspose.OCR in Java, covering setup, OCR processing, and saving results.
 ### [How to Use OCR in Java – Recognize Text from Image Quickly](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Learn how to quickly recognize text from images using Aspose.OCR for Java with simple code examples and best practices.
+### [Create Searchable PDF from JPG – Image to Searchable PDF Java Guide](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Learn how to convert JPG images into searchable PDFs using Aspose.OCR for Java. Step‑by‑step guide for image‑to‑PDF OCR.
+### [How to Deskew Image — Step‑by‑Step OCR Pre‑Processing Guide](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Learn how to deskew images before OCR to improve accuracy with a step‑by‑step guide using Aspose.OCR for Java.
 
 ## Frequently Asked Questions
 

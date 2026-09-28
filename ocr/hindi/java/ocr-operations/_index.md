@@ -107,6 +107,10 @@ Aspose OCR का उपयोग करके जावा में इमे�
 Aspose.OCR के साथ जावा में PDF फ़ाइलों से टेक्स्ट निकालने की चरण‑बद्ध गाइड। तेज़ और सटीक OCR लागू करें।
 ### [जावा में OCR का उपयोग कैसे करें – इमेज से तेज़ी से टेक्स्ट पहचानें](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Aspose.OCR for Java का उपयोग करके इमेज से तेज़ी से टेक्स्ट निकालें। चरण‑बद्ध गाइड और कोड उदाहरण।
+### [JPG इमेज से सर्चेबल PDF बनाएं – जावा गाइड](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+JPG इमेज को सर्चेबल PDF में बदलने के लिए Aspose.OCR for Java का उपयोग करके चरण‑बद्ध मार्गदर्शन।
+### [इमेज को डेस्क्यू कैसे करें — चरण‑बद्ध OCR प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+इमेज को सीधा करने की प्रक्रिया और OCR की सटीकता बढ़ाने के लिए चरण‑बद्ध मार्गदर्शन।
 
 ## अक्सर पूछे जाने वाले सवाल
 

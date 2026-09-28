@@ -100,6 +100,10 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR for Java เรียนรู้การคำนวณมุมเอียงแบบละเอียด ปรับปรุงการประมวลผลเอกสารได้อย่างง่ายดาย
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
+### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [สกัดข้อความจากภาพ – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
+
 ### [ข้อความจากภาพใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 คู่มือฉบับสมบูรณ์สำหรับการอ่านข้อความจากภาพใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสูง
 ### [รับข้อความ OCR ใน Java – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./get-ocr-text-in-java-complete-aspose-ocr-example/)
@@ -109,6 +113,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 เรียนรู้วิธีสกัดข้อความภาษาตามิลจากรูปภาพด้วย Aspose OCR อย่างละเอียด
 ### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
+
+### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ Java อย่างรวดเร็ว](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 ---
 

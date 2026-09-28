@@ -95,6 +95,9 @@ Gyorsan és hatékonyan nyerj ki szöveget PNG képekből Java-ban tömeges OCR 
 Ismerd meg, hogyan nyerheted ki a szöveget képekből az Aspose OCR segítségével részletes, lépésről‑lépésre útmutatóval.
 ### [Remove Evaluation Watermark in Aspose OCR – Complete Java License Guide](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Ismerd meg, hogyan távolíthatod el az értékelési vízjelet az Aspose OCR Java verziójában, és aktiváld a teljes licencet.
+### [Kereshető PDF létrehozása JPG-ből – Képből kereshető PDF Java útmutató](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Alakítsd át a JPG képeket kereshető PDF-fé Java-ban az Aspose.OCR segítségével.
+### [Képek kiegyenesítése – Lépésről‑lépésre OCR előfeldolgozási útmutató](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 
 ## Gyakran Ismételt Kérdések
 
