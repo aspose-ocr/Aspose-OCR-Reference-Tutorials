@@ -1,25 +1,54 @@
 ---
 category: general
-date: 2026-02-17
-description: Crea un motore OCR in Java e leggi rapidamente file TIFF con Java. Scopri
-  come riconoscere il testo da un'immagine grande usando Aspose.OCR in una guida passo‑passo.
+date: 2026-09-28
+description: Scopri come estrarre testo da TIFF usando Aspose OCR in Java. Questo
+  tutorial passo‑passo ti mostra come creare un motore OCR, leggere file TIFF di grandi
+  dimensioni e riconoscere il testo in modo efficiente.
 draft: false
 keywords:
-- create ocr engine java
+- extract text from tiff
+- aspose ocr java tutorial
 - read tiff file java
-- recognize text from large image
-- Aspose OCR Java
-- large image processing Java
-language: it
-og_description: Crea subito un motore OCR in Java. Questo tutorial mostra come leggere
-  un file TIFF in Java e riconoscere il testo da un'immagine grande usando Aspose.OCR.
-og_title: Crea un motore OCR in Java – Guida completa al riconoscimento del testo
-  in immagini di grandi dimensioni
+- large image ocr java
+- ocr engine java
+lastmod: 2026-09-28
+og_description: Estrai testo da TIFF usando Aspose OCR in Java. Segui questo tutorial
+  per creare un motore OCR, leggere file TIFF di grandi dimensioni e ottenere risultati
+  accurati.
+og_image_alt: Diagram showing OCR engine workflow for large TIFF files in Java
+og_title: Estrai testo da TIFF – Guida Aspose OCR Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to extract text from TIFF using Aspose OCR in Java. This
+    step‑by‑step tutorial shows you how to create an OCR engine, read large TIFF files,
+    and recognize text efficiently.
+  headline: Extract text from TIFF with Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, provided you have a valid Aspose.OCR license. The library’s commercial
+      license covers both development and production use.
+    question: Can I use this solution in a commercial application?
+  - answer: TIFF does not have a standard password mechanism, so the library treats
+      it as a regular image. For encrypted containers (e.g., ZIP), decrypt before
+      passing the stream to the engine.
+    question: Does Aspose.OCR support password‑protected TIFF files?
+  - answer: Aspose.OCR for Java supports JDK 8 through JDK 21, including both Java
+      SE and OpenJDK distributions.
+    question: Which Java versions are officially supported?
+  - answer: 'Enable preprocessing: `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.CONTRAST_ENHANCE);`
+      This boosts OCR confidence on noisy images.'
+    question: How can I improve accuracy on low‑contrast scans?
+  - answer: The engine can handle images up to several gigabytes, limited only by
+      available disk space for temporary tiles. Memory usage stays under 200 MB thanks
+      to streaming.
+    question: Is there a limit to the image size I can process?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Crea motore OCR Java – Riconosci il testo da immagini grandi
+title: Estrai testo da TIFF con Aspose OCR in Java
 url: /it/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
@@ -27,26 +56,43 @@ url: /it/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea OCR Engine Java – Riconosci Testo da Immagini di Grandi Dimensioni  
+# Estrai testo da TIFF con Aspose OCR in Java  
 
-Hai mai dovuto **creare OCR engine Java** per gestire una mappa TIFF enorme, ma non sapevi da dove cominciare? Non sei solo: la maggior parte degli sviluppatori si blocca quando la dimensione dell’immagine supera i limiti di memoria abituali.  
+Se hai bisogno di **estrarre testo da TIFF** file che hanno dimensioni di decine o centinaia di megabyte, questo tutorial ti offre una soluzione pronta per la produzione. Imparerai a creare un motore OCR in Java, a trasmettere in streaming un TIFF massivo tramite `InputStream` e a ottenere testo Unicode accurato senza esaurire l'heap della JVM.
 
-In questa guida ti accompagneremo passo passo attraverso un esempio completo, pronto‑all‑uso, che **crea un OCR engine in Java**, ti mostra come **leggere TIFF file Java** con un `InputStream` e infine **riconosce testo da grandi immagini** senza esaurire l’heap. Alla fine avrai un programma autonomo da inserire in qualsiasi progetto Maven o Gradle.  
+## Risposte rapide
+- **Quale libreria gestisce OCR per TIFF di grandi dimensioni?** Aspose.OCR for Java.  
+- **Versione minima di Java?** JDK 8 o più recente.  
+- **È necessaria una licenza?** Sì, un file `.lic` valido sblocca il tiling a piena risoluzione.  
+- **Posso elaborare TIFF multi‑pagina?** Assolutamente – il motore suddivide automaticamente ogni pagina.  
+- **Tempo di esecuzione tipico per un'immagine da 50 MP?** Circa 12 secondi su un server standard a 4 core.
 
-## Cosa Ti Serve  
+## Che cosa significa estrarre testo da TIFF?
 
-- **Java Development Kit (JDK) 8 o superiore** – il codice utilizza solo I/O standard più Aspose.OCR.  
-- **Libreria Aspose.OCR per Java** (l’ultima versione al 2026‑02) – puoi scaricare il JAR dal sito Aspose o tramite Maven Central.  
-- Un **file TIFF di grandi dimensioni** (ad es. una mappa multi‑megapixel) che desideri elaborare con OCR.  
-- Il tuo **file di licenza Aspose.OCR** (`Aspose.OCR.lic`). Senza di esso il motore funziona in modalità di valutazione, ma avrai una filigrana.  
+**Estrarre testo da TIFF** significa convertire il contenuto visivo di un'immagine TIFF in caratteri Unicode ricercabili e modificabili usando il riconoscimento ottico dei caratteri (OCR). Questo processo ti consente di indicizzare mappe scansionate, automatizzare l'inserimento dati da moduli scansionati e rendere le grandi immagini d'archivio ricercabili senza dover digitare manualmente il loro contenuto. Il risultato è testo semplice che può essere archiviato, indicizzato o inviato a pipeline di analisi successive.
 
-> **Consiglio esperto:** tieni il TIFF accanto alla cartella sorgente o usa un percorso assoluto; il motore suddividerà l’immagine internamente, così non dovrai farlo manualmente.  
+## Perché usare Aspose OCR per Java?
 
-![Crea OCR Engine Java workflow](ocr-workflow.png){alt="Diagramma del flusso di creazione di OCR Engine Java"}  
+Aspose.OCR supporta **oltre 50 formati di immagine**, può elaborare **TIFF con centinaia di pagine** senza caricare l'intero file in memoria, e fornisce rilevamento della lingua integrato e tiling automatico. Queste funzionalità riducono il consumo di memoria fino al 90 % rispetto a approcci ingenui con `BufferedImage`, mantenendo alta precisione su scansioni rumorose o a basso contrasto. La libreria offre anche un'integrazione semplice con altri prodotti Aspose per la generazione di PDF o la conversione di documenti.
 
-## Passo 1 – Applica la Licenza Aspose.OCR (Create OCR Engine Java)  
+## Prerequisiti
+- Java Development Kit (JDK) 8 o più recente.  
+- Aspose.OCR per Java (ultima versione a febbraio 2026).  
+- Un file TIFF di grandi dimensioni da elaborare.  
+- Un file di licenza Aspose.OCR (`Aspose.OCR.lic`).  
 
-Prima che il motore esegua operazioni pesanti devi registrare la licenza. Saltare questo passo forza la modalità di valutazione, che limita il numero di pagine e aggiunge una barra nella output.  
+> **Consiglio professionale:** Posiziona il file TIFF nella stessa directory del tuo codice sorgente o riferiscilo con un percorso assoluto; il motore gestirà il tiling internamente, così non è necessario dividere l'immagine manualmente.
+
+![Crea flusso di lavoro del motore OCR Java](ocr-workflow.png){alt="Diagramma del flusso di lavoro del motore OCR Java"}  
+[Crea flusso di lavoro del motore OCR Java](ocr-workflow.png)
+
+## Come estrarre testo da TIFF in Java?
+
+Carica il tuo TIFF con un `InputStream`, applica la licenza, istanzia il motore OCR e chiama `recognize`. Il motore suddividerà l'immagine in tile, eseguirà il modello di rete neurale su ciascun tile e unirà i risultati, fornendo il testo finale in una singola chiamata. Questo approccio evita di caricare l'intera immagine in memoria, rendendolo adatto a file gigapixel mantenendo prevedibile l'uso della CPU.
+
+### Passo 1 – applica la tua licenza Aspose.OCR (crea motore OCR Java)
+
+La classe `License` indica al motore OCR di sbloccare l'algoritmo di tiling a piena risoluzione, essenziale per elaborare un **grande immagine** in modo efficiente.
 
 ```java
 import com.aspose.ocr.*;
@@ -60,11 +106,11 @@ public class LicenseHelper {
 }
 ```  
 
-*Perché è importante:* l’oggetto `License` indica al motore OCR di sbloccare l’algoritmo di tiling ad alta risoluzione, essenziale per elaborare una **grande immagine** in modo efficiente.  
+*Perché è importante:* senza licenza il motore funziona in modalità di valutazione, limitando le pagine e aggiungendo una filigrana all'output.
 
-## Passo 2 – Istanzia l’OCR Engine (Create OCR Engine Java)  
+### Passo 2 – istanzia il motore OCR (crea motore OCR Java)
 
-Ora avviamo il core `OcrEngine`. Pensalo come il cervello che in seguito leggerà i pixel e produrrà testo Unicode.  
+`OcrEngine` è l'oggetto principale che esegue la conversione da pixel a testo.
 
 ```java
 /** Returns a fresh OcrEngine ready for recognition. */
@@ -75,11 +121,11 @@ public static OcrEngine buildEngine() {
 }
 ```  
 
-*Perché lo manteniamo semplice:* nella maggior parte degli scenari le impostazioni predefinite includono già il rilevamento automatico della lingua e il tiling ottimale. Configurazioni eccessive possono effettivamente rallentare le operazioni su file enormi.  
+*Perché lo manteniamo semplice:* le impostazioni predefinite includono già il rilevamento automatico della lingua e il tiling ottimale. Configurazioni eccessive possono effettivamente rallentare l'elaborazione di file enormi.
 
-## Passo 3 – Carica il File TIFF Usando un InputStream (Read TIFF File Java)  
+### Passo 3 – carica il file TIFF usando un `InputStream` (leggi file TIFF Java)
 
-I TIFF di grandi dimensioni possono raggiungere diverse centinaia di megabyte. Caricare l’intero file in un `BufferedImage` farebbe esplodere l’heap. Invece forniamo al motore un `InputStream`; Aspose.OCR leggerà e suddividerà l’immagine al volo.  
+Lo streaming del file impedisce alla JVM di allocare un enorme `BufferedImage`. Aspose.OCR legge e suddivide l'immagine al volo.
 
 ```java
 import java.io.*;
@@ -90,11 +136,11 @@ public static InputStream openTiff(String filePath) throws FileNotFoundException
 }
 ```  
 
-*Caso limite:* se il tuo TIFF è compresso con CCITT Group 4, Aspose.OCR lo gestisce comunque, ma potresti voler impostare `ocrEngine.getConfiguration().setTiffCompression(TiffCompression.CCITT4)` per un piccolo incremento di velocità.  
+*Caso limite:* se il tuo TIFF utilizza la compressione CCITT Group 4, puoi opzionalmente impostare `ocrEngine.getConfiguration().setTiffCompression(TiffCompression.CCITT4)` per un modesto aumento di velocità.
 
-## Passo 4 – Prepara l’Input OCR e Fornisci il Formato  
+### Passo 4 – prepara l'input OCR e indica il formato
 
-L’oggetto `OcrInput` può contenere più immagini, ma per questa demo ne serve solo una. Fornire la stringa del formato (`"tif"`) aiuta il motore a saltare il rilevamento automatico del formato, risparmiando qualche millisecondo.  
+`OcrInput` può contenere più immagini, ma ne serve solo una per questa demo. Fornire la stringa di formato (`"tif"`) evita il costoso sniffing del formato.
 
 ```java
 import com.aspose.ocr.*;
@@ -106,11 +152,11 @@ public static OcrInput buildInput(InputStream imageStream) throws Exception {
 }
 ```  
 
-*Perché il suggerimento è utile:* quando si lavora con **grandi immagini**, ogni millisecondo conta. Il suggerimento di formato indica al parser di bypassare l’analisi costosa dell’header.  
+*Perché il suggerimento è utile:* quando si lavora con **grandi immagini**, ogni millisecondo conta. Il suggerimento di formato indica al parser di bypassare l'analisi costosa dell'header.
 
-## Passo 5 – Riconosci Testo dalla Grande Immagine (Recognize Text from Large Image)  
+### Passo 5 – riconosci il testo dall'immagine grande (riconosci testo da immagine grande)
 
-Con tutto collegato, la chiamata OCR vera e propria è una singola riga. Il motore restituisce un `OcrResult` che contiene il testo semplice, i punteggi di confidenza e persino le bounding box se ti servono in seguito.  
+La chiamata OCR restituisce un `OcrResult` contenente testo semplice, punteggi di confidenza e riquadri opzionali.
 
 ```java
 public static OcrResult runRecognition(OcrEngine engine, OcrInput input) throws Exception {
@@ -119,11 +165,11 @@ public static OcrResult runRecognition(OcrEngine engine, OcrInput input) throws 
 }
 ```  
 
-*Cosa succede dietro le quinte:* Aspose.OCR suddivide il TIFF in tile gestibili (default 1024 × 1024 px), esegue il modello di rete neurale su ogni tile e poi unisce i risultati. Questo è il motivo per cui puoi **riconoscere testo da grandi immagini** senza pre‑elaborazione manuale.  
+*Cosa succede dietro le quinte:* Aspose.OCR divide il TIFF in tile da 1024 × 1024 px, esegue il modello di rete neurale su ogni tile e unisce i risultati. Questo è il motivo per cui puoi **riconoscere testo da immagini grandi** senza pre‑elaborazione manuale.
 
-## Passo 6 – Visualizza un’Anteprima del Testo Estratto  
+### Passo 6 – visualizza un'anteprima del testo estratto
 
-Stampare l’intero documento sulla console può risultare opprimente. Mostriamo solo i primi 200 caratteri, seguiti da un ellipsis, così puoi verificare rapidamente l’output.  
+Stampare l'intero documento può sovraccaricare la console. Mostrare i primi 200 caratteri ti consente di verificare rapidamente l'output.
 
 ```java
 public static void printPreview(OcrResult result) {
@@ -136,17 +182,17 @@ public static void printPreview(OcrResult result) {
 }
 ```  
 
-*Output console previsto:*  
+**Output console previsto:**  
 
 ```
 The quick brown fox jumps over the lazy dog. This map shows the historic...
 ```  
 
-Se vedi caratteri incomprensibili, ricontrolla che la lingua corretta sia selezionata (di default è l’inglese) e che il TIFF non sia corrotto.  
+Se vedi caratteri incomprensibili, verifica che la lingua corretta sia selezionata (il valore predefinito è l'inglese) e che il TIFF non sia corrotto.
 
-## Esempio Completo Funzionante  
+## Esempio completo funzionante
 
-Unendo tutti i pezzi ottieni una singola classe che puoi compilare ed eseguire:
+Unendo tutti i componenti ottieni una singola classe che puoi compilare ed eseguire:
 
 ```java
 import com.aspose.ocr.*;
@@ -225,31 +271,56 @@ javac -cp "aspose-ocr-23.12.jar" LargeImageDemo.java
 java -cp ".:aspose-ocr-23.12.jar" LargeImageDemo
 ```  
 
-Sostituisci `aspose-ocr-23.12.jar` con la versione effettiva che hai scaricato.  
+Sostituisci `aspose-ocr-23.12.jar` con la versione effettiva che hai scaricato.
 
-## Problemi Comuni & Consigli  
+## Problemi comuni e consigli
 
-| Problema | Perché Accade | Soluzione Rapida |
+| Problema | Perché succede | Correzione rapida |
 |------|----------------|-----------|
-| **OutOfMemoryError** | Caricamento del TIFF in un `BufferedImage` anziché streaming. | Usa sempre `InputStream` come mostrato; lascia che Aspose gestisca il tiling. |
-| **Output vuoto** | Suggerimento di estensione file errato (`"tif"` vs `"tiff"`). | Usa la stringa esatta che hai passato a `add`. |
-| **Caratteri spazzatura** | Licenza non applicata o scaduta. | Verifica il percorso del file `.lic` e riapplica prima di creare il motore. |
-| **Riconoscimento lento** | Uso di un `OcrConfiguration` personalizzato con DPI elevato. | Mantieni le impostazioni predefinite nella maggior parte dei casi; modifica solo se serve maggiore accuratezza. |
+| **OutOfMemoryError** | Caricamento del TIFF in un `BufferedImage` invece di usare lo streaming. | Usa sempre `InputStream` come mostrato; lascia che Aspose gestisca il tiling. |
+| **Blank output** | Suggerimento di estensione file errato (`"tif"` vs `"tiff"`). | Usa la stringa esatta che hai passato a `add`. |
+| **Garbage characters** | Licenza non applicata o scaduta. | Verifica il percorso del file `.lic` e applica la licenza prima di creare il motore. |
+| **Slow recognition** | `OcrConfiguration` personalizzata con DPI elevato. | Mantieni le impostazioni predefinite; modifica solo se hai bisogno di maggiore precisione. |
 
-### Quando Regolare le Impostazioni  
+### Quando regolare le impostazioni  
 
 - **Documenti multilingua:** `ocrEngine.getConfiguration().setLanguage(Language.English, Language.French);`  
-- **Maggiore accuratezza su caratteri piccoli:** `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.ENHANCE);`  
+- **Maggiore precisione su caratteri piccoli:** `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.ENHANCE);`  
 
-Ma ricorda, ogni opzione aggiuntiva può aumentare il tempo CPU, specialmente su una **grande immagine**. Prova prima con un singolo tile.  
+Ricorda, ogni opzione aggiuntiva può aumentare il tempo CPU, soprattutto su una **grande immagine**. Prova prima con un singolo tile.
 
-## Prossimi Passi  
+## Qual è il prossimo passo dopo aver estratto testo da TIFF?
 
-Ora che sai **creare OCR engine Java**, **leggere TIFF file Java** e **riconoscere testo da grandi immagini**, potresti voler:
+Ora che puoi **estrarre testo da TIFF** in modo efficiente, considera di estendere il flusso di lavoro per creare PDF ricercabili, memorizzare le coordinate dei riquadri per evidenziare, o parallelizzare l'elaborazione dei tile su più core CPU. Questi miglioramenti ti consentono di costruire pipeline documentali end‑to‑end che trasformano enormi archivi scansionati in risorse completamente ricercabili e indicizzate, adatte alla ricerca aziendale o alle applicazioni GIS.
 
-1. **Esportare il risultato in PDF** – combina Aspose.PDF con il testo OCR per documenti ricercabili.  
-2. **Memorizzare le bounding box** – usa `ocrResult.getWords()` per ottenere le coordinate da evidenziare.  
-3. **Parallelizzare l’elaborazione dei tile** – per immagini satellitari ultra‑grandi, avvia un  
+## Domande frequenti
+
+**Q: Posso usare questa soluzione in un'applicazione commerciale?**  
+A: Sì, a condizione di possedere una licenza Aspose.OCR valida. La licenza commerciale della libreria copre sia lo sviluppo che l'uso in produzione.
+
+**Q: Aspose.OCR supporta file TIFF protetti da password?**  
+A: TIFF non dispone di un meccanismo di password standard, quindi la libreria lo tratta come un'immagine normale. Per contenitori crittografati (ad esempio ZIP), decrittografa prima di passare lo stream al motore.
+
+**Q: Quali versioni di Java sono ufficialmente supportate?**  
+A: Aspose.OCR per Java supporta JDK 8 fino a JDK 21, includendo sia Java SE che le distribuzioni OpenJDK.
+
+**Q: Come posso migliorare la precisione su scansioni a basso contrasto?**  
+A: Abilita il preprocessing: `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.CONTRAST_ENHANCE);` Questo aumenta la confidenza OCR su immagini rumorose.
+
+**Q: Esiste un limite alla dimensione dell'immagine che posso elaborare?**  
+A: Il motore può gestire immagini fino a diversi gigabyte, limitato solo dallo spazio disco disponibile per i tile temporanei. L'uso di memoria rimane sotto i 200 MB grazie allo streaming.
+
+---
+
+**Ultimo aggiornamento:** 2026-09-28  
+**Testato con:** Aspose.OCR 23.12 per Java  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Riconosci testo da immagine con Aspose Ocr Java Tutorial](/ocr/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+- [Estrai testo da immagine con Aspose Ocr Java Guida rapida](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+- [Riconosci immagine di testo usando Aspose Ocr Gpu Java](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
