@@ -67,10 +67,16 @@ Oldja fel a zökkenőmentes képszöveg-kivonást Java nyelven az Aspose.OCR seg
 ### [OCR végrehajtása adott oldalon az Aspose.OCR-ben](./perform-ocr-on-page/)
 Fedezze fel az Aspose.OCR for Java erejét lépésenkénti útmutatónkkal az OCR végrehajtásáról bizonyos oldalakon. Könnyedén kivonhatja a szöveget a képekből és javíthatja Java-projektjeit.
 ### [Téglalapok előkészítése OCR-hez az Aspose.OCR-ben](./prepare-rectangles-for-ocr/)
+Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével. Kövesse lépésről‑lépésre útmutatónkat a zökkenőmentes integráció érdekében. Bővítse Java-alkalmazásait hatékony OCR-képességekkel.
 ### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
 Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről‑lépésre útmutatónkat a hatékony integráció érdekében.
+## [GPU engedélyezése OCR-hez Java-ban – Teljes útmutató](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+
+### [Hogyan végezzünk OCR-t képen Java-ban – kézírásos jegyzetek helyesírás-ellenőrzéssel](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+OCR használata kézírásos jegyzetekhez Java-ban, beépített helyesírás-ellenőrzéssel a pontos szövegkivonásért.
+
 ### [OCR motor létrehozása Java-ban – Szöveg felismerése nagy képeken](./create-ocr-engine-java-recognize-text-from-large-images/)
 Ismerje meg, hogyan hozhat létre OCR motor-t Java-ban, és hogyan ismerheti fel a szöveget nagy felbontású képeken.
 
@@ -123,11 +129,6 @@ Fedezze fel, hogyan végezhet teljes körű OCR-t Java-val, beleértve a helyes�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [GPU engedélyezése OCR-hez Java-ban – Teljes útmutató](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
-Ismerje meg, hogyan aktiválhatja a GPU-t az OCR-hez Java-ban a teljesítmény növelése érdekében.
-### [Hogyan végezzünk OCR-t képen Java-ban – kézírásos jegyzetek helyesírás-ellenőrzéssel](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
-OCR használata kézírásos jegyzetekhez Java-ban, beépített helyesírás-ellenőrzéssel a pontos szövegkivonásért.
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

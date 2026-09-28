@@ -62,6 +62,15 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Εύκολη ενσωμάτωση, υψηλή ακρίβεια.
 ### [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
+## [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Πλήρης Οδηγός](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+Μάθετε πώς να αξιοποιήσετε την GPU για επιτάχυνση του OCR σε Java με το Aspose.OCR, βήμα‑βήμα οδηγίες για βέλτιστη απόδοση.
+
+## [Πώς να κάνετε OCR εικόνας σε Java – Χειρόγραφα Σημειώματα με Έλεγχο Ορθογραφίας](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+Εκτελέστε OCR σε εικόνες με χειρόγραφα σημειώματα στην Java, προσθέτοντας έλεγχο ορθογραφίας για ακριβή εξαγωγή κειμένου.
+
+## [Αναγνώριση κειμένου σε εικόνα χρησιμοποιώντας Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
+Εκμεταλλευτείτε την ισχύ του GPU για γρήγορη αναγνώριση κειμένου σε εικόνες με Aspose OCR σε Java.
+
 ### [Σταθερό σύνολο νημάτων Java – παράλληλο OCR για PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
 Εκμεταλλευτείτε ένα σταθερό σύνολο νημάτων για ταυτόχρονη επεξεργασία PNG εικόνων με Aspose OCR σε Java.
 
@@ -105,10 +114,6 @@ url: /el/java/advanced-ocr-techniques/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-### [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Πλήρης Οδηγός](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
-Μάθετε πώς να αξιοποιήσετε την GPU για επιτάχυνση του OCR σε Java με το Aspose.OCR, βήμα‑βήμα οδηγίες για βέλτιστη απόδοση.
-### [Πώς να κάνετε OCR εικόνας σε Java – Χειρόγραφα Σημειώματα με Έλεγχο Ορθογραφίας](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
-Εκτελέστε OCR σε εικόνες με χειρόγραφα σημειώματα στην Java, προσθέτοντας έλεγχο ορθογραφίας για ακριβή εξαγωγή κειμένου.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

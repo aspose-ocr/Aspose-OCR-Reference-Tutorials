@@ -104,7 +104,11 @@ A: 영어, 스페인어, 중국어, 아라비아어 등을 포함해 30개 이�
 
 ### [Java에서 Aspose.OCR 라이선스 설정 방법](./set-license/)
 
+이 단계별 가이드를 통해 Aspose.OCR for Java의 잠재력을 활용하십시오. 라이선스를 손쉽게 설정하고 OCR 기능을 강화하세요.
+
 ### [Java에서 Aspose.OCR로 기울기 각도 계산](./calculate-skew-angle/)
+
+Aspose.OCR for Java로 OCR 정확도를 향상시키세요. 단계별로 기울기 각도 계산 방법을 배우고 문서 처리를 손쉽게 개선하십시오.
 
 ### [Aspose.OCR에서 텍스트 영역 사각형 얻기](./get-rectangles-with-text-areas/)
 
@@ -112,7 +116,7 @@ A: 영어, 스페인어, 중국어, 아라비아어 등을 포함해 30개 이�
 
 ### [이미지에서 텍스트 추출 – Java에서 PNG를 텍스트로 변환](./extract-text-from-image-convert-png-to-text-in-java/)
 
-### [Aspose OCR로 이미지에서 텍스트 추출 – Java 빠른 가이드](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Aspose.OCR for Java의 강력함을 활용하십시오. 이 단계별 가이드에서 이미지에서 텍스트를 원활히 추출하는 방법을 배우세요. 효율적인 텍스트 인식을 위해 지금 다운로드하십시오.
 
 ### [Java에서 이미지에서 텍스트 읽기 – 전체 Aspose OCR 가이드](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 
@@ -125,6 +129,8 @@ A: 영어, 스페인어, 중국어, 아라비아어 등을 포함해 30개 이�
 
 Aspose OCR을 사용하여 이미지에서 타밀어 텍스트를 정확하게 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 이미지에서 텍스트 추출 – 완전한 OCR 예제](./extract-text-from-image-in-java-complete-ocr-example/)
+
+### [Aspose OCR로 이미지에서 텍스트 추출 – Java 빠른 가이드](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 전체 흐름을 따라 이미지에서 텍스트를 추출하고, 전처리와 결과 저장까지 한 번에 배울 수 있습니다.
 

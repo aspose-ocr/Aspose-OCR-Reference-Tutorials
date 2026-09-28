@@ -96,12 +96,14 @@ weight: 20
 ## دروس أساسيات OCR
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
 اكتشف إمكانات Aspose.OCR for Java من خلال هذا الدليل خطوة بخطوة. اضبط الترخيص بسهولة وعزز قدرات OCR الخاصة بك.
-
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 حسّن دقة OCR باستخدام Aspose.OCR for Java. تعلم كيفية حساب زوايا الميل خطوة بخطوة. حسّن معالجة المستندات بسهولة.
-
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 اكتشف قوة Aspose.OCR for Java. تعلم كيفية استخراج النص من الصور بسلاسة في هذا الدليل خطوة بخطوة. حمّل الآن لتعرف على التعرف الفعال على النص.
+### [التعرف على النص من PNG في Java – دليل Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [استخراج النص من الصورة – تحويل PNG إلى نص في Java](./extract-text-from-image-convert-png-to-text-in-java/)
+
 ### [قراءة النص من الصورة في Java – دليل Aspose OCR الكامل](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 دليل شامل يشرح كيفية استخراج النص من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [استخراج نص OCR في Java – مثال كامل Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
@@ -112,12 +114,6 @@ weight: 20
 تعلم كيفية استخراج النص التاميل من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [استخراج النص من الصورة في Java – مثال OCR كامل](./extract-text-from-image-in-java-complete-ocr-example/)
 مثال كامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
-
-### [التعرف على النص من PNG في Java – دليل Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
-
-### [استخراج النص من الصورة – تحويل PNG إلى نص في Java](./extract-text-from-image-convert-png-to-text-in-java/)
-
-### [استخراج النص من الصورة في Java – مثال OCR كامل](./extract-text-from-image-in-java-complete-ocr-example/)
 
 ### [استخراج النص من الصورة باستخدام Aspose OCR – دليل Java السريع](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
