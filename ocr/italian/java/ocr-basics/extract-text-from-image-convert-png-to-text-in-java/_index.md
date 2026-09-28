@@ -25,8 +25,6 @@ title: estrarre testo da immagine – convertire PNG in testo in Java
 url: /it/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 ---
 
-Proceed to produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

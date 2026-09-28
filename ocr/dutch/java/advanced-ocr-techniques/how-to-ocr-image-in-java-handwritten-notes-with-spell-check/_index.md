@@ -25,11 +25,7 @@ title: Hoe een afbeelding OCR'en in Java – Handgeschreven notities met spellin
 url: /nl/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-translate any code block placeholders.
-
-Make sure to keep markdown formatting.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

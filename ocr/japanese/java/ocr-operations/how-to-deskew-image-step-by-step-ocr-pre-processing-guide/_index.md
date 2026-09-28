@@ -21,9 +21,7 @@ title: 画像の傾き補正方法 — ステップバイステップ OCR 前処
 url: /ja/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-. So fine.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

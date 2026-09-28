@@ -24,13 +24,7 @@ title: Extraire du texte d’une image avec Aspose OCR – Guide rapide Java
 url: /fr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/
 ---
 
-précision sur les textes non anglais. Le ciel est la limite, et le code que vous venez d'écrire est une base solide."
-
-"Happy coding, and feel free to drop any questions in the comments—I'll be glad to help!" => "Bon codage, et n'hésitez pas à poser vos questions dans les commentaires—je serai ravi d'aider !"
-
-Now ensure we keep shortcodes at bottom.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

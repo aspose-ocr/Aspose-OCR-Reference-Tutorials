@@ -24,16 +24,7 @@ title: Jak vyrovnat obrázek — krok za krokem průvodce předzpracováním
 url: /cs/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-ykové balíčky** – načíst konkrétní jazykový slovník pro zvýšení přesnosti u textu mimo angličtinu."
-- "**Advanced filters** – like `setContrastStretch` or `setBinarization` for low‑contrast scans." translate "- **Pokročilé filtry** – jako `setContrastStretch` nebo `setBinarization` pro skeny s nízkým kontrastem."
-
-"Got more questions? Drop a comment, and happy coding!" translate "Máte další otázky? Zanechte komentář a šťastné kódování!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,17 +23,7 @@ title: Java에서 이미지 OCR하는 방법 – 맞춤법 검사가 포함된 �
 url: /ko/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
->}}
-
-All unchanged.
-
-Now produce final content with translated Korean text.
-
-Check for any missed bold phrases: **load image for OCR**, **read handwritten notes**, **convert handwritten image text**. Keep them unchanged.
-
-Also ensure we didn't translate code block placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

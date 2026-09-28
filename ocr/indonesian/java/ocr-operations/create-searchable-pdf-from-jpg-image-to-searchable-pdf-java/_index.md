@@ -24,9 +24,7 @@ title: Buat PDF yang Dapat Dicari dari JPG – Panduan Java Mengubah Gambar menj
 url: /id/java/ocr-operations/create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/
 ---
 
-part of content. So final output is the translated content only.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

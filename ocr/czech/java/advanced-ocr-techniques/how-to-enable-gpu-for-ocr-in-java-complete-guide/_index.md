@@ -24,7 +24,7 @@ title: Jak povolit GPU pro OCR v Javě – Kompletní průvodce
 url: /cs/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
-construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

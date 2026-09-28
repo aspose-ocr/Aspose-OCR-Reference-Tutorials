@@ -21,14 +21,6 @@ title: Javaで画像をOCRする方法 – 手書きノートとスペルチェ�
 url: /ja/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-. But must preserve the URL unchanged. So alt text becomes Japanese translation. Title also "how to OCR image of handwritten notes". Translate title.
-
-Also translate shortcodes content? The shortcodes are just wrappers; they have no inner text. Keep them unchanged.
-
-Proceed to translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

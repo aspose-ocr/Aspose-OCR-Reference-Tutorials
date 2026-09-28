@@ -24,7 +24,7 @@ title: Tekst extraheren uit afbeelding met Aspose OCR – Java Snelgids
 url: /nl/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

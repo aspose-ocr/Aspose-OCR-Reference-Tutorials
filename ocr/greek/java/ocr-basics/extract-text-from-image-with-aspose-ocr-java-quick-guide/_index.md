@@ -24,16 +24,6 @@ title: Εξαγωγή κειμένου από εικόνα με Aspose OCR – �
 url: /el/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/
 ---
 
-", etc.
-
-Make sure to keep the same markdown formatting.
-
-Let's produce the translated content.
-
-We need to keep Greek RTL? Not needed; Greek is LTR.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

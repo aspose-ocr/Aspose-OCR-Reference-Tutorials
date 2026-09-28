@@ -25,7 +25,7 @@ title: Cara OCR Gambar di Java – Catatan Tangan dengan Pemeriksaan Ejaan
 url: /id/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

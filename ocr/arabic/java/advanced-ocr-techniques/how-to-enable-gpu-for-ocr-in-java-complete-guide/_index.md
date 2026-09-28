@@ -26,13 +26,7 @@ title: كيفية تمكين وحدة معالجة الرسومات (GPU) للت
 url: /ar/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
-for the latest **enable GPU processing** recommendations." Translate.
-
-"Happy coding, and may your GPU stay cool while it crunches text!" Translate.
-
-Then closing shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

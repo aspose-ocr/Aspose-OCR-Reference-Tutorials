@@ -24,12 +24,6 @@ title: استخراج النص من الصورة – تحويل PNG إلى نص 
 url: /ar/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 ---
 
-Be careful with bold formatting: keep **text**.
-
-Also code block placeholders remain unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

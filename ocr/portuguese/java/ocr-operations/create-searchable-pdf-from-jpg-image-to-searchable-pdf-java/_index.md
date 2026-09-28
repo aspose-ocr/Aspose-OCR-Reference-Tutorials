@@ -23,26 +23,6 @@ title: Criar PDF pesquisável a partir de JPG – Guia Java de Imagem para PDF p
 url: /pt/java/ocr-operations/create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/
 ---
 
-start? ..." translate.
-
-We need to keep bold formatting.
-
-Proceed.
-
-Will need to translate bullet list under "What You’ll Need". Keep bold parts.
-
-Translate step headings.
-
-Code block placeholders remain unchanged.
-
-Translate table content.
-
-Translate other paragraphs.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

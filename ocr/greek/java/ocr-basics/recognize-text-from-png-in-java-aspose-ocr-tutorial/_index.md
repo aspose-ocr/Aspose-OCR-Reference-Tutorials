@@ -23,16 +23,6 @@ title: Αναγνώριση κειμένου από PNG σε Java – Εκπαι
 url: /el/java/ocr-basics/recognize-text-from-png-in-java-aspose-ocr-tutorial/
 ---
 
-to recognize text from png using Aspose OCR". Should translate alt? The instruction: translate ALL text content naturally to Greek. Alt text is text content, so translate it. Title attribute also text, translate. But keep the markdown syntax.
-
-Also headings translate.
-
-Let's produce.
-
-We need to keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

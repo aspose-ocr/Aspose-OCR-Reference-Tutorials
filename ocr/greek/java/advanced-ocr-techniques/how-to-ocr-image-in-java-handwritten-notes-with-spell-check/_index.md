@@ -25,12 +25,6 @@ title: Πώς να κάνετε OCR εικόνας σε Java – Χειρόγρ�
 url: /el/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-0}} etc. Keep them.
-
-Also the shortcodes at start and end.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

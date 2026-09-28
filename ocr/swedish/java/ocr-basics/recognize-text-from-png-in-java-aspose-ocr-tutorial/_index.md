@@ -23,13 +23,7 @@ title: igenkänna text från PNG i Java – Aspose OCR-handledning
 url: /sv/java/ocr-basics/recognize-text-from-png-in-java-aspose-ocr-tutorial/
 ---
 
-file paths besides `document-page1.png` and `YOUR_DIRECTORY`. Keep them unchanged.
-
-Check for any markdown links: none.
-
-Now produce final content with same structure.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

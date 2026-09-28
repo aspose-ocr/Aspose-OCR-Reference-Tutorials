@@ -25,22 +25,6 @@ title: كيفية تصحيح إمالة الصورة — دليل خطوة بخ�
 url: /ar/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-is. It appears bold. We'll keep the bold phrase unchanged. Similarly "recognize text image". Keep those.
-
-Proceed.
-
-Will translate accordingly.
-
-Let's craft Arabic text.
-
-Be careful with RTL: just Arabic text.
-
-Now bullet list.
-
-Ok.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

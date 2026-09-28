@@ -25,22 +25,6 @@ title: Como habilitar GPU para OCR em Java – Guia completo
 url: /pt/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
-none.
-
-We must preserve the structure.
-
-Let's produce final content.
-
-We'll translate each paragraph.
-
-Be careful with bullet points: keep dash and spacing.
-
-Translate "How to Enable GPU for OCR in Java – Complete Guide" => "Como Habilitar GPU para OCR em Java – Guia Completo"
-
-Translate rest.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

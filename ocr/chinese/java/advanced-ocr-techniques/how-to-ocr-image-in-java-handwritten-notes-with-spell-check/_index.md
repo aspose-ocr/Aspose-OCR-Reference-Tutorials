@@ -21,10 +21,6 @@ title: 如何在 Java 中进行图像 OCR – 手写笔记并进行拼写检查
 url: /zh/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,18 +26,6 @@ title: Come eseguire l'OCR di un'immagine in Java – Note scritte a mano con co
 url: /it/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-ografica". Keep same heading level.
-
-Proceed section by section.
-
-Make sure to keep code block placeholders unchanged.
-
-Translate bullet points, paragraphs.
-
-Also translate table content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,17 +24,7 @@ title: tekst uit afbeelding extraheren – PNG naar tekst converteren in Java
 url: /nl/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 ---
 
-."
-
-Paragraph: "Happy coding, and may your next project be full of clean, searchable text!" Translate: "Veel plezier met coderen, en moge je volgende project vol staan met schone, doorzoekbare tekst!"
-
-Then closing shortcodes as original.
-
-Make sure to keep placeholders {{CODE_BLOCK_X}} unchanged.
-
-Also keep block shortcodes at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

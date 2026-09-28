@@ -24,36 +24,6 @@ title: Come raddrizzare l'immagine — Guida passo passo alla pre‑elaborazione
 url: /it/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-of markdown, we can translate the title string. Keep the URL unchanged.
-
-Also headings and list items need translation.
-
-We must keep code block placeholders unchanged.
-
-Also there are bold text like **how to deskew image** etc. Should translate but keep the bold markup.
-
-Also there are inline code like `OcrEngine` etc - keep as is.
-
-Also there are bullet points with file paths etc.
-
-We need to be careful with "step-by-step in order". We'll translate each section.
-
-Let's produce the final content.
-
-Start with the three opening shortcodes lines unchanged.
-
-Then heading "# How to Deskew Image — Complete OCR Pre‑Processing Tutorial" translate to Italian: "# Come correggere l'inclinazione di un'immagine — Tutorial completo di pre‑elaborazione OCR". Keep the dash and spacing.
-
-Then paragraph.
-
-We'll translate.
-
-Let's write.
-
-Be careful to preserve markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

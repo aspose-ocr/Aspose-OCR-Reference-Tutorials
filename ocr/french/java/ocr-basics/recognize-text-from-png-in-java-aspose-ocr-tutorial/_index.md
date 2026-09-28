@@ -23,26 +23,6 @@ title: reconnaître du texte à partir d'un PNG en Java – tutoriel Aspose OCR
 url: /fr/java/ocr-basics/recognize-text-from-png-in-java-aspose-ocr-tutorial/
 ---
 
-is inside {alt="..."}; we should translate the string inside quotes. Also the title attribute "recognize text from png Java example" should be translated.
-
-Also the shortcodes at top and bottom must be preserved.
-
-We must not translate URLs, file paths like `document-page1.png`, `YOUR_DIRECTORY`, etc.
-
-We must keep code blocks placeholders unchanged.
-
-We must translate "Expected output" etc.
-
-Let's produce the French version.
-
-Be careful with markdown links: none except maybe none. There's no markdown link besides shortcodes.
-
-Let's translate.
-
-Start with the same shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,11 +22,7 @@ title: วิธีแก้ไขการเอียงของภาพ —
 url: /th/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All good.
-
-Now produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

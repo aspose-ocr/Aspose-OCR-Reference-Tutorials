@@ -25,11 +25,7 @@ title: Ekstrak teks dari gambar – konversi PNG ke teks dalam Java
 url: /id/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 ---
 
-: they are {{CODE_BLOCK_X}}. Keep them.
-
-Check any other markdown like blockquote > etc. Keep translation inside.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

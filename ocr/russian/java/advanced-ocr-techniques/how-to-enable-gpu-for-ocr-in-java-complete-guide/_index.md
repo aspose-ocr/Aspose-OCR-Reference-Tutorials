@@ -25,14 +25,6 @@ title: Как включить GPU для OCR в Java – Полное руко
 url: /ru/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
-Also translate list items, headings.
-
-Let's produce final content.
-
-Be careful to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

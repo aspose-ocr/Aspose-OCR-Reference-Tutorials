@@ -20,18 +20,6 @@ title: 使用 Aspose OCR 从图像提取文本 – Java 快速指南
 url: /zh/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/
 ---
 
-translate? The rule: translate all text content naturally to Chinese, but keep technical terms in English. Title is "Extract Text from Image – Complete Java Tutorial". Should translate to Chinese: "从图像中提取文本 – 完整的 Java 教程". Keep dash? We'll translate.
-
-Proceed.
-
-Paragraphs.
-
-Will translate.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

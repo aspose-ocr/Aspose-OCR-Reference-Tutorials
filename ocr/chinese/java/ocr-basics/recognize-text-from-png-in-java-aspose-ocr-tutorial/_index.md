@@ -21,12 +21,6 @@ title: 在 Java 中识别 PNG 文本 – Aspose OCR 教程
 url: /zh/java/ocr-basics/recognize-text-from-png-in-java-aspose-ocr-tutorial/
 ---
 
-translate to "使用 Aspose OCR 识别 PNG 文本的 Java 代码". Use same for both.
-
-Now translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

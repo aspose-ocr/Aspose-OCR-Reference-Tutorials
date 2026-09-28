@@ -24,12 +24,6 @@ title: Comment redresser une image — Guide de prétraitement OCR étape pa
 url: /fr/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-translate to French: "comment redresser l'image". But need to keep the same formatting. So alt text: "exemple de redressement d'image". Title: "comment redresser l'image". But ensure not to translate file path.
-
-Also translate list items, headings, etc.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

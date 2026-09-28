@@ -25,11 +25,7 @@ title: Képből szöveg kinyerése – PNG konvertálása szöveggé Java-ban
 url: /hu/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 ---
 
-vonalat; használd a `Paths.get(...).toAbsolutePath()`-t. |
-
-Make sure alignment with dashes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

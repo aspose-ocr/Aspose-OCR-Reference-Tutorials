@@ -23,16 +23,6 @@ title: Maak doorzoekbare PDF van JPG – Afbeelding naar doorzoekbare PDF Java-g
 url: /nl/java/ocr-operations/create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/
 ---
 
-. Probably okay.
-
-Also need to translate table content.
-
-Let's produce translation.
-
-We must keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

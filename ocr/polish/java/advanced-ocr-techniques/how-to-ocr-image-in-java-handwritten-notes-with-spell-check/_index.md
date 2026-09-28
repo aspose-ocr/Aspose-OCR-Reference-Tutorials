@@ -25,13 +25,7 @@ title: Jak wykonać OCR obrazu w Javie – odręczne notatki z sprawdzaniem piso
 url: /pl/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/
 ---
 
-translations.
-
-Check we didn't translate code block placeholders.
-
-Also ensure we kept all markdown formatting.
-
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

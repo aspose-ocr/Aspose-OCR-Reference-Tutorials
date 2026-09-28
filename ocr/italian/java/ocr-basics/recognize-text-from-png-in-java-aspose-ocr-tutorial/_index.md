@@ -23,7 +23,7 @@ title: Riconoscere il testo da PNG in Java – tutorial OCR di Aspose
 url: /it/java/ocr-basics/recognize-text-from-png-in-java-aspose-ocr-tutorial/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

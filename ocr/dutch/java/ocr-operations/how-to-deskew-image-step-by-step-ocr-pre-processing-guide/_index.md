@@ -25,12 +25,6 @@ title: Hoe een afbeelding rechtzetten — Stapsgewijze OCR‑voorverwerkingsgids
 url: /nl/java/ocr-operations/how-to-deskew-image-step-by-step-ocr-pre-processing-guide/
 ---
 
-text:" to "Alt‑tekst:". Keep the phrase "how to deskew image". So: "*Alt‑tekst: how to deskew image – before and after processing.*"
-
-Similarly headings etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

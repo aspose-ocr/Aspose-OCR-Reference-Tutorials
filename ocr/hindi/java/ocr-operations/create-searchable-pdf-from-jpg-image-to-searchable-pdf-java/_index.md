@@ -23,7 +23,7 @@ title: JPG से खोज योग्य PDF बनाएं – इमेज
 url: /hi/java/ocr-operations/create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/
 ---
 
-assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
