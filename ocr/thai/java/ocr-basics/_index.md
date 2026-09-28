@@ -97,9 +97,17 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
+### [ข้อความจากภาพใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+คู่มือฉบับสมบูรณ์สำหรับการอ่านข้อความจากภาพใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสูง
+### [รับข้อความ OCR ใน Java – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+ตัวอย่างเต็มขั้นตอนการดึงข้อความ OCR ใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสุด
+### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน OCR ใน Java อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนเพื่อเริ่มต้นการจดจำข้อความ
+### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+เรียนรู้วิธีสกัดข้อความภาษาตามิลจากรูปภาพด้วย Aspose OCR อย่างละเอียด
+### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
 ### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 ### [สกัดข้อความจากภาพ – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
-### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
 ### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ Java อย่างรวดเร็ว](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 ---

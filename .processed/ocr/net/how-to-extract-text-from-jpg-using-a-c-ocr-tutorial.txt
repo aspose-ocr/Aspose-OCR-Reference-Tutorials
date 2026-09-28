@@ -1,0 +1,7 @@
+Title: How to extract text from JPG using a C# OCR tutorial
+Slug: how-to-extract-text-from-jpg-using-a-c-ocr-tutorial
+Category: text-recognition
+ProcessedDate: 2026-09-13T14:14:50.254741
+SourceRepo: AI Search API
+Keywords: extract text from jpg, load image for ocr, set ocr language, c# ocr tutorial
+PRNumber: 217

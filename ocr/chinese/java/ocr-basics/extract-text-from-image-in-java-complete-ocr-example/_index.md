@@ -1,21 +1,22 @@
 ---
 category: general
-date: 2026-02-19
-description: 使用 Java OCR 从图像中提取文本。学习一个 Java OCR 示例，该示例加载图像进行 OCR，并在几个步骤内从发票文件中提取文本。
+date: 2026-01-12
+description: 使用 Aspose OCR 在 Java 中提取图像文本。学习如何使用 Java OCR 示例从发票图像中提取文本并获取 OCR 输出文本。
 draft: false
 keywords:
 - extract text from image
+- how to extract text
 - java ocr example
-- load image for ocr
-- extract text from invoice
+- process invoice image
+- output ocr text
 language: zh
-og_description: 使用 Java OCR 从图像中提取文本。本指南展示了如何加载图像进行 OCR，并通过一个简单的 Java OCR 示例从发票中提取文本。
-og_title: 使用 Java 从图像提取文本 – 完整 OCR 示例
+og_description: 使用 Aspose OCR 在 Java 中从图像提取文本。本指南展示如何从发票图像中提取文本，包含 Java OCR 示例，并输出
+  OCR 文本。
+og_title: 在 Java 中从图像提取文本 – 完整 OCR 示例
 tags:
 - OCR
 - Java
 - Aspose
-- Image Processing
 title: 在 Java 中从图像提取文本 – 完整 OCR 示例
 url: /zh/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 ---
@@ -26,118 +27,215 @@ url: /zh/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 
 # 在 Java 中从图像提取文本 – 完整 OCR 示例
 
-是否曾经需要**从图像中提取文本**但不确定该选哪种库？你并不孤单——许多开发者在自动化发票处理或构建可搜索档案时都会遇到这个难题。好消息是，只需几行 Java 代码，你就可以加载用于 OCR 的图像，定义感兴趣区域（ROI），并提取所需的精确文本。  
+有没有想过如何在不抓狂的情况下**从图像中提取文本**？也许你手头有一堆扫描的发票，需要快速获取数字。根据我的经验，最简单的方法是让专用的 OCR 库来完成繁重的工作。本教程展示了如何使用 Aspose OCR for Java 从典型的发票图像中*提取文本*，并且演示了一个**java ocr example**，输出的 OCR 文本可以直接传入下游系统。
 
-在本教程中，我们将演示一个**java ocr example**，展示如何**load image for OCR**，设置 ROI，并使用 Aspose.OCR **extract text from invoice** 文件。完成后，你将拥有一个可直接放入任何 Java 项目的可运行程序。
+我们将逐步讲解你需要了解的所有内容：从项目设置、定义关注标题和总金额的感兴趣区域（ROI），到最终打印提取的文本。完成后，你将能够自动**处理发票图像**文件，并获取干净、可搜索的文本。
 
-## 你将学到
+> **你将获得：** 一个可直接运行的 Java 程序、每一步的清晰解释，以及处理真实发票的实用技巧。
 
-- 如何创建 `OcrEngine` 实例以及它为何重要。
-- 使用 Aspose 的 `ImageStream` 正确的**load image for OCR** 方法。
-- 设置**region of interest (ROI)**，只处理图像中包含发票金额的部分。
-- 提取识别的文本并将其打印到控制台。
-- 常见陷阱（例如，矩形坐标错误）以及快速解决方案。
+---
 
-**先决条件**
+## 前置条件
 
-- 已安装 Java 8 或更高版本。
-- 使用 Maven 或 Gradle 拉取 Aspose.OCR 库（`com.aspose:aspose-ocr`）。
-- 将示例发票图像（`invoice.png`）放置在已知目录中。
+- 已安装 Java Development Kit (JDK) 8 或更高版本。
+- 用于依赖管理的 Maven 或 Gradle（示例使用 Maven）。
+- Aspose OCR for Java 许可证（免费试用可用于测试）。
+- 将发票图像（`invoice.png`）放置在已知目录下。
 
-准备好了吗？太好了——让我们开始吧。
+如果这些听起来陌生，也别担心——大多数只需下载即可，代码在社区版下仍可编译。
 
-![使用 Java OCR 从图像提取文本](/images/extract-text-from-image-java.png "提取文本示例")
+---
 
-## 从图像提取文本 – 步骤式 Java OCR 示例
+## 步骤 1：设置 Maven 项目
 
-下面是完整的源代码。请随意将其复制粘贴到 `RoiOcrExample.java` 中并直接运行。
+首先，创建一个新的 Maven 项目（或在现有项目中添加）。在 `pom.xml` 中加入 Aspose OCR 依赖：
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-ocr</artifactId>
+        <version>23.9</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
+> **专业提示：** 保持版本号为最新；新版本通常会提升对发票中复杂字体的识别准确度。
+
+保存文件后，运行 `mvn clean install` 将库拉取到本地仓库。
+
+---
+
+## 步骤 2：加载发票图像
+
+库准备好后，我们编写一个小的 Java 类。首先创建一个 `OcrEngine` 实例，并指向要读取的图像。
 
 ```java
 import com.aspose.ocr.*;
 
-public class RoiOcrExample {
+public class RoiExample {
     public static void main(String[] args) throws Exception {
+        // Step 2: Load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png"); // <-- replace with your path
+```
 
-        // Step 1: Create an OCR engine instance.
-        // The engine holds all configuration and performs the heavy lifting.
-        OcrEngine ocrEngine = new OcrEngine();
+为什么要在加载图像**之前**创建引擎？引擎保存了语言、DPI 和 ROI 等配置。提前设置图像可确保这些设置应用于即将处理的文件。
 
-        // Step 2: Load the source image.
-        // You can point to any PNG, JPG, or TIFF file. Here we use a sample invoice.
-        String imagePath = "YOUR_DIRECTORY/invoice.png";
-        ocrEngine.setImage(ImageStream.fromFile(imagePath));
+---
 
-        // Step 3: Define the region of interest (ROI) you want to recognize.
-        // x = 120, y = 340, width = 500, height = 120 – tweak these values for your own layout.
-        Rectangle regionOfInterest = new Rectangle(120, 340, 500, 120);
-        ocrEngine.setRegionOfInterest(regionOfInterest);
+## 步骤 3：定义感兴趣区域（ROI）
 
-        // Step 4: Perform OCR on the specified ROI and retrieve the text.
-        // recognize() returns an OcrResult object; getText() extracts the plain string.
-        String extractedText = ocrEngine.recognize().getText();
+发票通常包含大量噪声——表格、标志和细小文字。将 OCR 限定在标题和总金额上，可显著提升速度和准确性。Aspose 允许使用矩形来描述这些区域。
 
-        // Step 5: Output the recognized text.
-        System.out.println("ROI text: " + extractedText);
+```java
+        // Step 3: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Apply ROI to the engine
+        engine.setRegion(region);
+```
+
+坐标单位为像素（`x`、`y`、`width`、`height`）。如果发票尺寸不一，可以动态计算这些值——例如先检查图像尺寸。这是实现批量**处理发票图像**解决方案的好扩展。
+
+---
+
+## 步骤 4：在指定区域运行 OCR
+
+设置好 ROI 后，OCR 引擎即可专注于关键区域。`recognize()` 方法返回包含提取文本的 `OcrResult`。
+
+```java
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+```
+
+在幕后，Aspose 会执行二值化、去噪和字符分割等预处理步骤。无需手动调用——只需让 `recognize()` 完成即可。
+
+---
+
+## 步骤 5：输出提取的文本
+
+最后，我们将文本打印到控制台。在实际应用中，你可能会将其存入数据库、传入下游分析管道，甚至生成可搜索的 PDF。
+
+```java
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
     }
 }
 ```
 
-### 为什么每一步都很重要
-
-1. **Creating the OCR engine** – 没有引擎就没有图像处理的上下文。如果需要多语言支持，该对象还可以让你稍后调整语言包。  
-2. **Loading the image** – `ImageStream.fromFile` 抽象化了文件格式，确保引擎正确读取字节。如果跳过此步骤，你会收到 `NullPointerException`。  
-3. **Setting the ROI** – 处理整页可能会浪费资源。通过将矩形缩小到发票总额区域，你可以加快识别速度并减少噪声。  
-4. **Calling `recognize()`** – 这就是魔法发生的地方。该方法在 ROI 上运行 OCR 算法并生成结果对象。  
-5. **Printing the output** – 在实际项目中，你可能会将文本存入数据库，但 `System.out.println` 对于快速演示来说非常合适。  
-
-## 加载用于 OCR 的图像
-
-如果你在想路径是需要绝对路径还是相对路径，答案是两者都可以——只要确保 Java 进程能够读取该文件即可。在 Windows 上，反斜杠必须转义（`C:\\images\\invoice.png`），或者也可以使用正斜杠（`C:/images/invoice.png`）。  
-
-**Pro tip:** 如果在循环中处理大量发票，请复用同一个 `OcrEngine` 实例；它会缓存内部资源并提升吞吐量。
-
-## 定义感兴趣区域（ROI）
-
-选择合适的矩形可能需要反复尝试。一个方便的方法是使用任意图形编辑器（如 GIMP 或 Paint.NET）打开图像并将鼠标悬停在目标区域——你会在状态栏看到 X/Y 坐标值。  
-
-边缘情况：某些发票布局多变。在这种情况下，你可以先对整张图像进行快速预扫描，使用正则表达式定位诸如 “Total:” 的关键字，然后动态调整 ROI。
-
-## 执行 OCR 并获取文本
-
-`recognize()` 调用是同步的——你的线程会阻塞直至引擎完成。对于大批量处理，你可能想启动线程池并并行处理图像。只需记住每个线程都需要自己的 `OcrEngine` 实例；它们不是线程安全的。
-
-## 运行并验证输出
-
-编译并运行：
-
-```bash
-javac -cp "path/to/aspose-ocr.jar" RoiOcrExample.java
-java -cp ".:path/to/aspose-ocr.jar" RoiOcrExample
-```
-
-你应该会看到类似如下的输出：
+运行程序后，你应看到类似如下的输出：
 
 ```
-ROI text: $1,254.00
+ROI text:
+Acme Corp.
+Invoice #12345
+Date: 2025-12-31
+Total Amount: $1,250.00
 ```
 
-如果输出乱码，请再次检查 ROI 坐标并确保图像质量足够高（300 dpi 或更高效果最佳）。  
+如果输出乱码，请再次检查矩形坐标或提升图像分辨率。OCR 引擎对清晰的高 DPI 扫描尤为友好。
 
-### 常见陷阱及解决方法
+---
 
-| 症状 | 可能原因 | 解决办法 |
-|------|----------|----------|
-| 空字符串 | ROI 超出图像边界 | 验证矩形值是否在图像尺寸范围内 |
-| 单词拼写错误 | 分辨率低 | 使用更高分辨率的源图像或进行图像预处理（例如二值化） |
-| `java.lang.NoClassDefFoundError` | 类路径缺少 Aspose JAR | 将 `aspose-ocr.jar` 添加到 `-cp`，或使用 Maven/Gradle 进行依赖管理 |
+## 完整工作示例
+
+下面是完整的、独立的 Java 文件，可直接复制粘贴到 `src/main/java/RoiExample.java`。无需外部代码片段——所需全部内容均在此。
+
+```java
+import com.aspose.ocr.*;
+import com.aspose.ocr.region.*;
+
+public class RoiExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create the OCR engine and load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png");
+
+        // Step 2: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Step 3: Apply the ROI configuration to the engine
+        engine.setRegion(region);
+
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
+    }
+}
+```
+
+> **注意：** 将 `YOUR_DIRECTORY` 替换为发票图像的绝对路径。如果使用相对路径，请确保工作目录与运行 `java` 命令的目录一致。
+
+---
+
+## 常见问题与边缘情况
+
+### 如果发票尺寸变化怎么办？
+
+可以动态计算 ROI：
+
+```java
+int imgWidth = engine.getImage().getWidth();
+int imgHeight = engine.getImage().getHeight();
+
+int headerHeight = imgHeight / 10;
+int totalHeight = imgHeight / 8;
+
+OcrRegion region = OcrRegion.builder()
+        .addRectangle(0, 0, imgWidth, headerHeight)
+        .addRectangle(0, imgHeight - totalHeight, imgWidth, totalHeight)
+        .build();
+```
+
+### 如何处理多语言？
+
+Aspose OCR 支持语言包。只需在调用 `recognize()` 前设置语言：
+
+```java
+engine.setLanguage(OcrLanguage.Spanish); // or OcrLanguage.English, etc.
+```
+
+### 如果 OCR 返回空字符串怎么办？
+
+常见原因包括：
+
+- 图像分辨率低（< 300 DPI）。放大或请求更高质量的扫描。
+- 背景过暗或过亮。OCR 前使用简单的对比度增强滤镜。
+- ROI 坐标错误，导致完全错过文本。
+
+---
+
+## 生产级 OCR 的技巧
+
+1. **批量处理：** 将逻辑包装在循环中，遍历发票文件目录。记录每个结果以便审计。
+2. **错误处理：** 捕获 `OcrException`，在不终止整个任务的情况下优雅地跳过损坏的图像。
+3. **性能优化：** 在多个图像之间复用同一个 `OcrEngine` 实例；为每个文件创建新引擎会产生不必要的开销。
+4. **验证：** 提取后，对总金额使用正则检查（`\$\d{1,3}(,\d{3})*(\.\d{2})?`），确保数字合理。
+
+实现这些建议后，简单的**java ocr example**将转变为面向每晚需要**处理发票图像**文件的企业的稳健、可扩展的解决方案。
+
+---
 
 ## 结论
 
-现在你已经了解如何在 Java 中使用简洁的 **java ocr example** **extract text from image**。通过正确加载图像、定义聚焦的 ROI 并调用 `recognize()`，你可以可靠地 **extract text from invoice** 文件，并将这些数据输送到下游系统。  
+我们刚刚介绍了如何使用 Aspose OCR 在 Java 中**从图像中提取文本**，并聚焦于实际的发票处理场景。通过定义感兴趣区域、运行 OCR 引擎并打印**输出 OCR 文本**，你现在拥有了构建自动化数据采集流水线的坚实基础。
 
-接下来做什么？尝试将 ROI 替换为不同的字段（日期、供应商名称），尝试使用语言包处理多语言发票，或将 OCR 步骤集成到 Spring Boot 微服务中。同样的模式也适用于收据、护照或任何需要精确文本提取的文档。  
+下一步？尝试将 ROI 扩展到包含明细表格，尝试不同的语言设置，或将提取的字符串输入 PDF 生成库以创建可搜索的文档。将 OCR 与现代 Java 工具相结合，可能性无限。
 
-如果你对该方案的扩展或处理噪声扫描有疑问，欢迎在下方留言——祝编码愉快！
+对其他文档类型的**如何提取文本**还有疑问，或需要帮助调整异常布局的 ROI？在下方留言——祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

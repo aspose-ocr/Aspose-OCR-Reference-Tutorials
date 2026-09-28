@@ -1,146 +1,246 @@
 ---
 category: general
-date: 2026-02-19
-description: Trích xuất văn bản từ hình ảnh bằng Java OCR. Tìm hiểu ví dụ Java OCR
-  tải hình ảnh để OCR và trích xuất văn bản từ các tệp hoá đơn chỉ trong vài bước.
+date: 2026-01-12
+description: Trích xuất văn bản từ hình ảnh bằng Aspose OCR trong Java. Tìm hiểu cách
+  trích xuất văn bản từ hình ảnh hoá đơn với ví dụ OCR Java và nhận kết quả văn bản
+  OCR.
 draft: false
 keywords:
 - extract text from image
+- how to extract text
 - java ocr example
-- load image for ocr
-- extract text from invoice
+- process invoice image
+- output ocr text
 language: vi
-og_description: Trích xuất văn bản từ hình ảnh bằng Java OCR. Hướng dẫn này cho thấy
-  cách tải hình ảnh cho OCR và lấy văn bản từ hoá đơn bằng một ví dụ Java OCR đơn
-  giản.
+og_description: Trích xuất văn bản từ hình ảnh bằng Aspose OCR trong Java. Hướng dẫn
+  này cho thấy cách trích xuất văn bản từ hình ảnh hoá đơn, bao gồm ví dụ OCR Java
+  và xuất văn bản OCR.
 og_title: Trích xuất văn bản từ hình ảnh trong Java – Ví dụ OCR hoàn chỉnh
 tags:
 - OCR
 - Java
 - Aspose
-- Image Processing
 title: Trích xuất văn bản từ hình ảnh trong Java – Ví dụ OCR hoàn chỉnh
 url: /vi/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản từ hình ảnh trong Java – Ví dụ OCR hoàn chỉnh
 
-Bạn đã bao giờ cần **trích xuất văn bản từ hình ảnh** nhưng không chắc nên chọn thư viện nào chưa? Bạn không đơn độc—nhiều nhà phát triển gặp khó khăn này khi tự động hoá xử lý hoá đơn hoặc xây dựng kho lưu trữ có thể tìm kiếm. Tin tốt là gì? Chỉ với vài dòng Java, bạn có thể tải một hình ảnh để OCR, xác định vùng quan tâm, và lấy chính xác văn bản bạn cần.  
+Bạn đã bao giờ tự hỏi làm thế nào để **trích xuất văn bản từ hình ảnh** mà không phải đau đầu không? Có thể bạn đang có một đống hoá đơn đã quét và cần nhanh chóng lấy ra các con số. Theo kinh nghiệm của tôi, cách dễ nhất là để một thư viện OCR chuyên dụng thực hiện công việc nặng. Hướng dẫn này sẽ chỉ cho bạn *cách trích xuất văn bản* từ một hình ảnh hoá đơn điển hình bằng Aspose OCR cho Java, và thậm chí còn trình bày một **java ocr example** mà xuất ra văn bản OCR mà bạn có thể truyền vào hệ thống downstream của mình.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua một **java ocr example** cho thấy cách **load image for OCR**, thiết lập ROI, và **extract text from invoice** bằng Aspose.OCR. Khi kết thúc, bạn sẽ có một chương trình có thể chạy được mà bạn có thể đưa vào bất kỳ dự án Java nào.
+Chúng ta sẽ đi qua mọi thứ bạn cần biết: từ việc thiết lập dự án, định nghĩa vùng quan tâm (ROI) tập trung vào phần tiêu đề và tổng số tiền, cho tới việc in ra văn bản đã trích xuất. Khi hoàn thành, bạn sẽ có thể **xử lý hình ảnh hoá đơn** một cách tự động và lấy được văn bản sạch, có thể tìm kiếm được.
 
-## Những gì bạn sẽ học
+> **Bạn sẽ nhận được:** một chương trình Java sẵn sàng chạy, giải thích rõ ràng từng bước, và các mẹo thực tiễn để xử lý hoá đơn trong môi trường thực tế.
 
-- Cách tạo một instance của `OcrEngine` và lý do tại sao nó quan trọng.  
-- Cách đúng để **load image for OCR** với `ImageStream` của Aspose.  
-- Thiết lập một **region of interest (ROI)** để bạn chỉ xử lý phần hình ảnh chứa số tiền hoá đơn.  
-- Trích xuất văn bản đã nhận dạng và in ra console.  
-- Các lỗi thường gặp (ví dụ: tọa độ hình chữ nhật sai) và cách khắc phục nhanh.
+---
 
-**Yêu cầu trước**
+## Yêu cầu trước
 
-- Java 8 hoặc mới hơn đã được cài đặt.  
-- Maven hoặc Gradle để tải thư viện Aspose.OCR (`com.aspose:aspose-ocr`).  
-- Một hình ảnh mẫu hoá đơn (`invoice.png`) được đặt trong thư mục đã biết.  
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-Đã có đầy đủ chưa? Tuyệt—hãy bắt đầu.
+- Java Development Kit (JDK) 8 hoặc mới hơn.
+- Maven hoặc Gradle để quản lý phụ thuộc (ví dụ Maven được minh họa).
+- Giấy phép Aspose OCR cho Java (bản dùng thử miễn phí đủ cho việc thử nghiệm).
+- Một hình ảnh hoá đơn (`invoice.png`) được đặt trong một thư mục đã biết.
 
-![Trích xuất văn bản từ hình ảnh bằng Java OCR](/images/extract-text-from-image-java.png "ví dụ trích xuất văn bản từ hình ảnh")
+Nếu bất kỳ mục nào ở trên bạn chưa quen, đừng lo—hầu hết đều chỉ cần tải về, và mã vẫn sẽ biên dịch được với phiên bản cộng đồng.
 
-## Trích xuất văn bản từ hình ảnh – Ví dụ OCR Java từng bước
+---
 
-Dưới đây là toàn bộ mã nguồn. Bạn có thể sao chép‑dán nó vào `RoiOcrExample.java` và chạy trực tiếp.
+## Bước 1: Thiết lập dự án Maven của bạn
+
+Đầu tiên, tạo một dự án Maven mới (hoặc thêm vào dự án hiện có). Trong file `pom.xml` của bạn, thêm phụ thuộc Aspose OCR:
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-ocr</artifactId>
+        <version>23.9</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
+> **Mẹo chuyên nghiệp:** Giữ phiên bản luôn cập nhật; các bản phát hành mới thường cải thiện độ chính xác cho các phông chữ khó trên hoá đơn.
+
+Sau khi lưu file, chạy `mvn clean install` để tải thư viện vào kho lưu trữ cục bộ của bạn.
+
+---
+
+## Bước 2: Tải hình ảnh hoá đơn
+
+Bây giờ thư viện đã sẵn sàng, hãy viết một lớp Java nhỏ. Điều đầu tiên chúng ta làm là tạo một thể hiện `OcrEngine` và chỉ tới hình ảnh bạn muốn đọc.
 
 ```java
 import com.aspose.ocr.*;
 
-public class RoiOcrExample {
+public class RoiExample {
     public static void main(String[] args) throws Exception {
+        // Step 2: Load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png"); // <-- replace with your path
+```
 
-        // Step 1: Create an OCR engine instance.
-        // The engine holds all configuration and performs the heavy lifting.
-        OcrEngine ocrEngine = new OcrEngine();
+Tại sao chúng ta tạo engine **trước** khi tải hình ảnh? Engine chứa các cấu hình như ngôn ngữ, DPI và ROI. Đặt hình ảnh sớm đảm bảo các thiết lập này áp dụng cho đúng file mà bạn sắp xử lý.
 
-        // Step 2: Load the source image.
-        // You can point to any PNG, JPG, or TIFF file. Here we use a sample invoice.
-        String imagePath = "YOUR_DIRECTORY/invoice.png";
-        ocrEngine.setImage(ImageStream.fromFile(imagePath));
+---
 
-        // Step 3: Define the region of interest (ROI) you want to recognize.
-        // x = 120, y = 340, width = 500, height = 120 – tweak these values for your own layout.
-        Rectangle regionOfInterest = new Rectangle(120, 340, 500, 120);
-        ocrEngine.setRegionOfInterest(regionOfInterest);
+## Bước 3: Định nghĩa các Vùng Quan Tâm (ROI)
 
-        // Step 4: Perform OCR on the specified ROI and retrieve the text.
-        // recognize() returns an OcrResult object; getText() extracts the plain string.
-        String extractedText = ocrEngine.recognize().getText();
+Hoá đơn thường chứa rất nhiều nhiễu—bảng, logo và chữ in nhỏ. Bằng cách thu hẹp OCR chỉ vào phần tiêu đề và tổng số tiền, bạn sẽ tăng đáng kể tốc độ và độ chính xác. Aspose cho phép bạn mô tả các vùng này bằng các hình chữ nhật.
 
-        // Step 5: Output the recognized text.
-        System.out.println("ROI text: " + extractedText);
+```java
+        // Step 3: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Apply ROI to the engine
+        engine.setRegion(region);
+```
+
+Các tọa độ được tính bằng pixel (`x`, `y`, `width`, `height`). Nếu hoá đơn của bạn có kích thước khác nhau, bạn có thể tính các giá trị này một cách động—có thể bằng cách kiểm tra kích thước hình ảnh trước. Đó là một mở rộng hay nếu bạn cần một giải pháp **process invoice image** hoạt động trên nhiều tệp.
+
+---
+
+## Bước 4: Chạy OCR trên các Vùng Đã Chỉ Định
+
+Với ROI đã được thiết lập, engine OCR có thể tập trung vào những nơi quan trọng nhất. Phương thức `recognize()` trả về một `OcrResult` chứa văn bản đã trích xuất.
+
+```java
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+```
+
+Trong nền, Aspose thực hiện một số bước tiền xử lý: nhị phân hoá, loại bỏ nhiễu và phân đoạn ký tự. Bạn không cần gọi chúng thủ công—chỉ cần để `recognize()` làm việc.
+
+---
+
+## Bước 5: Xuất Văn bản Đã Trích xuất
+
+Cuối cùng, chúng ta in văn bản ra console. Trong một ứng dụng thực tế, bạn có thể lưu vào cơ sở dữ liệu, đưa vào pipeline phân tích downstream, hoặc thậm chí tạo một PDF có thể tìm kiếm.
+
+```java
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
     }
 }
 ```
 
-### Tại sao mỗi bước lại quan trọng
-
-1. **Creating the OCR engine** – without an engine there’s no context for image processing. The object also lets you tweak language packs later if you need multi‑language support.  
-2. **Loading the image** – `ImageStream.fromFile` abstracts away the file format, ensuring the engine reads the bytes correctly. If you skip this, you’ll get a `NullPointerException`.  
-3. **Setting the ROI** – processing the whole page can be wasteful. By narrowing the rectangle to the invoice total area, you speed up recognition and reduce noise.  
-4. **Calling `recognize()`** – this is where the magic happens. The method runs the OCR algorithm over the ROI and produces a result object.  
-5. **Printing the output** – in real projects you’d probably store the text in a database, but `System.out.println` is perfect for a quick demo.
-
-## Tải hình ảnh để OCR
-
-Nếu bạn thắc mắc đường dẫn cần là tuyệt đối hay tương đối, câu trả lời là cả hai đều hoạt động—chỉ cần đảm bảo quá trình Java có thể đọc được tệp. Trên Windows, dấu gạch chéo ngược phải được escape (`C:\\images\\invoice.png`) hoặc bạn có thể dùng dấu gạch chéo xuôi (`C:/images/invoice.png`).  
-
-**Mẹo:** Nếu bạn đang xử lý nhiều hoá đơn trong một vòng lặp, hãy tái sử dụng cùng một instance của `OcrEngine`; nó sẽ cache các tài nguyên nội bộ và cải thiện tốc độ xử lý.
-
-## Xác định Region of Interest (ROI)
-
-Việc chọn đúng hình chữ nhật có thể cần một vài lần thử. Một cách tiện lợi để tìm tọa độ là mở hình ảnh trong bất kỳ trình chỉnh sửa đồ họa nào (như GIMP hoặc Paint.NET) và di chuột lên vùng cần—bạn sẽ thấy giá trị X/Y trong thanh trạng thái.  
-
-Trường hợp đặc biệt: một số hoá đơn có bố cục thay đổi. Trong trường hợp đó, bạn có thể thực hiện một lần quét nhanh toàn bộ hình ảnh, tìm các từ khóa như “Total:” bằng regex, rồi điều chỉnh ROI một cách động.
-
-## Thực hiện OCR và Lấy Văn bản
-
-Lệnh `recognize()` là đồng bộ—luồng của bạn sẽ chờ cho đến khi engine hoàn thành. Đối với các lô lớn, bạn có thể tạo một pool luồng và xử lý các hình ảnh song song. Chỉ cần nhớ mỗi luồng cần một instance riêng của `OcrEngine`; chúng không an toàn với đa luồng.
-
-## Chạy và Kiểm tra Kết quả
-
-Biên dịch và chạy:
-
-```bash
-javac -cp "path/to/aspose-ocr.jar" RoiOcrExample.java
-java -cp ".:path/to/aspose-ocr.jar" RoiOcrExample
-```
-
-Bạn sẽ thấy kết quả tương tự:
+Khi chạy chương trình, bạn sẽ thấy kết quả tương tự như:
 
 ```
-ROI text: $1,254.00
+ROI text:
+Acme Corp.
+Invoice #12345
+Date: 2025-12-31
+Total Amount: $1,250.00
 ```
 
-Nếu đầu ra bị rối, hãy kiểm tra lại tọa độ ROI và đảm bảo chất lượng hình ảnh cao (300 dpi hoặc hơn là tốt nhất).  
+Nếu đầu ra bị rối, hãy kiểm tra lại tọa độ hình chữ nhật hoặc tăng độ phân giải của hình ảnh. Các engine OCR rất thích các bản scan sắc nét, DPI cao.
 
-### Các lỗi thường gặp & Cách khắc phục
+---
 
-| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
-|------------|--------------------|----------------|
-| Empty string | ROI outside image bounds | Verify rectangle values against image dimensions |
-| Misspelled words | Low resolution | Use a higher‑resolution source or apply image preprocessing (e.g., binarization) |
-| `java.lang.NoClassDefFoundError` | Missing Aspose JAR on classpath | Add `aspose-ocr.jar` to `-cp` or use Maven/Gradle dependency management |
+## Ví dụ Hoàn chỉnh
+
+Dưới đây là file Java đầy đủ, tự chứa, bạn có thể sao chép‑dán vào `src/main/java/RoiExample.java`. Không cần bất kỳ đoạn mã bên ngoài nào—mọi thứ bạn cần đều có ở đây.
+
+```java
+import com.aspose.ocr.*;
+import com.aspose.ocr.region.*;
+
+public class RoiExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create the OCR engine and load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png");
+
+        // Step 2: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Step 3: Apply the ROI configuration to the engine
+        engine.setRegion(region);
+
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
+    }
+}
+```
+
+> **Lưu ý:** Thay `YOUR_DIRECTORY` bằng đường dẫn tuyệt đối tới hình ảnh hoá đơn của bạn. Nếu bạn dùng đường dẫn tương đối, hãy chắc chắn thư mục làm việc trùng với nơi bạn chạy lệnh `java`.
+
+---
+
+## Các Câu Hỏi Thường Gặp & Trường Hợp Cạnh
+
+### Nếu kích thước hoá đơn thay đổi thì sao?
+
+Bạn có thể tính ROI một cách động:
+
+```java
+int imgWidth = engine.getImage().getWidth();
+int imgHeight = engine.getImage().getHeight();
+
+int headerHeight = imgHeight / 10;
+int totalHeight = imgHeight / 8;
+
+OcrRegion region = OcrRegion.builder()
+        .addRectangle(0, 0, imgWidth, headerHeight)
+        .addRectangle(0, imgHeight - totalHeight, imgWidth, totalHeight)
+        .build();
+```
+
+### Làm thế nào để xử lý đa ngôn ngữ?
+
+Aspose OCR hỗ trợ các gói ngôn ngữ. Chỉ cần đặt ngôn ngữ trước khi gọi `recognize()`:
+
+```java
+engine.setLanguage(OcrLanguage.Spanish); // or OcrLanguage.English, etc.
+```
+
+### Nếu OCR trả về chuỗi rỗng thì sao?
+
+Các nguyên nhân thường gặp là:
+
+- Độ phân giải hình ảnh thấp (< 300 DPI). Tăng độ phân giải hoặc yêu cầu bản scan chất lượng cao hơn.
+- Nền quá tối hoặc quá sáng. Áp dụng bộ lọc tăng độ tương phản đơn giản trước khi OCR.
+- Tọa độ ROI không đúng, bỏ lỡ toàn bộ văn bản.
+
+---
+
+## Mẹo cho OCR Sẵn sàng Sản xuất
+
+1. **Xử lý hàng loạt:** Đặt logic trong một vòng lặp duyệt qua thư mục chứa các tệp hoá đơn. Ghi log mỗi kết quả để dễ kiểm tra.
+2. **Xử lý lỗi:** Bắt `OcrException` để bỏ qua các hình ảnh hỏng mà không làm dừng toàn bộ công việc.
+3. **Hiệu năng:** Tái sử dụng một thể hiện `OcrEngine` duy nhất cho nhiều hình ảnh; tạo engine mới cho mỗi tệp sẽ gây tốn tài nguyên không cần thiết.
+4. **Xác thực:** Sau khi trích xuất, chạy kiểm tra regex trên tổng số tiền (`\$\d{1,3}(,\d{3})*(\.\d{2})?`) để đảm bảo số liệu hợp lý.
+
+Áp dụng các đề xuất này sẽ biến một **java ocr example** đơn giản thành một giải pháp mạnh mẽ, có khả năng mở rộng cho bất kỳ doanh nghiệp nào cần **process invoice image** hàng đêm.
+
+---
 
 ## Kết luận
 
-Bạn giờ đã biết cách **extract text from image** trong Java bằng một **java ocr example** ngắn gọn. Bằng cách tải hình ảnh đúng cách, xác định ROI tập trung, và gọi `recognize()`, bạn có thể đáng tin cậy **extract text from invoice** và đưa dữ liệu đó vào các hệ thống downstream.
+Chúng ta vừa tìm hiểu cách **trích xuất văn bản từ hình ảnh** trong Java bằng Aspose OCR, tập trung vào kịch bản xử lý hoá đơn thực tế. Bằng cách định nghĩa vùng quan tâm, chạy engine OCR và in **văn bản OCR đã xuất**, bạn đã có nền tảng vững chắc để xây dựng các pipeline tự động thu thập dữ liệu.
 
-Tiếp theo bạn muốn làm gì? Hãy thử thay đổi ROI cho các trường khác (ngày, tên nhà cung cấp), thử các language pack cho hoá đơn đa ngôn ngữ, hoặc tích hợp bước OCR vào một microservice Spring Boot. Mẫu này cũng áp dụng cho biên lai, hộ chiếu, hoặc bất kỳ tài liệu nào mà bạn cần trích xuất văn bản một cách chính xác.
+Bước tiếp theo? Hãy mở rộng ROI để bao gồm bảng mục chi tiết, thử nghiệm các cài đặt ngôn ngữ khác nhau, hoặc đưa các chuỗi đã trích xuất vào thư viện tạo PDF để có tài liệu có thể tìm kiếm. Khi kết hợp OCR với các công cụ Java hiện đại, khả năng là vô hạn.
 
-Nếu bạn có câu hỏi về việc mở rộng giải pháp này hoặc xử lý các bản scan nhiễu, hãy để lại bình luận bên dưới—chúc bạn lập trình vui!  
+Bạn còn câu hỏi nào về **cách trích xuất văn bản** từ các loại tài liệu khác, hoặc cần trợ giúp tinh chỉnh ROI cho bố cục lạ? Hãy để lại bình luận bên dưới—chúc bạn lập trình vui! 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

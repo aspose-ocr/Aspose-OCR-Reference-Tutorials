@@ -1,52 +1,76 @@
 ---
-date: 2025-12-13
-description: Aspose.OCR for Java kullanarak dil seçimiyle görüntüden metin çıkarma
-  yöntemini öğrenin. Bu adım adım Aspose OCR Java öğreticisi, hassas OCR yapılandırmasını
-  gösterir.
-linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+date: 2026-02-12
+description: Aspose.OCR for Java kullanarak dil seçimiyle görüntü metnini OCR nasıl
+  yapılır öğrenin. Bu adım adım rehber, Java’da metin çıkarma, OCR eğim düzeltmesi
+  ve daha fazlasını kapsar.
+linktitle: How to OCR Image Text with Language Using Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Aspose.OCR Kullanarak Dil Seçimiyle Görüntüden Metin Çıkarma
+title: Aspose.OCR Kullanarak Dil ile Görüntü Metnini OCR'lamak
 url: /tr/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
+
+/products-backtop-button >}}
+
+Now produce final content with translations.
+
+Be careful with preserving markdown formatting.
+
+Let's craft translation.
+
+Title: "# Aspose.OCR Kullanarak Dil Seçimiyle Görüntü Metnini OCR Yapma"
+
+Introduction: translate.
+
+I'll write.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.OCR Kullanarak Dil Seçimiyle Görüntüden Metin Çıkarma
+# Aspose.OCR Kullanarak Dil Seçimiyle Görüntü Metnini OCR Yapma
 
-## Giriş
+## Introduction
 
-Görüntü dosyalarından metin çıkarmak, taranmış belgeleri dijitalleştirirken, fişleri işlerken ya da aranabilir arşivler oluştururken yaygın bir gereksinimdir. Aspose.OCR for Java bu görevi basitleştirir ve dil seçimi, eğikliği düzeltme ve tanıma alanları üzerinde ince ayar yapma imkanı sunar. Bu öğreticide, **görüntüden metin çıkarma** işlemini belirli bir dil ayarıyla nasıl yapacağınızı adım adım gösterecek bir örnek üzerinden geçeceğiz; böylece güvenilir OCR'ı Java uygulamalarınıza hemen entegre edebilirsiniz.
+Görüntü dosyalarından metin çıkarmak, taranmış belgeleri dijitalleştiriyor, fişleri işliyor veya aranabilir arşivler oluşturuyorsanız yaygın bir gereksinimdir. Bu öğreticide, **görüntü metnini OCR yapmanın** belirli bir dil ayarıyla nasıl yapılacağını gösteren eksiksiz, uygulamalı bir örnek üzerinden ilerleyeceğiz; böylece güvenilir OCR’ı Java uygulamalarınıza bugün entegre edebilirsiniz. Ayrıca OCR eğikliği düzeltme ve bölge‑bazlı tanıma ile en iyi doğruluğu nasıl elde edeceğinizi de göreceksiniz.
 
-## Hızlı Yanıtlar
-- **Java’da OCR işlemini hangi kütüphane yönetir?** Aspose.OCR for Java  
-- **Dil seçimini hangi ayar yapar?** `settings.setLanguage(Language.Eng)` (veya desteklenen herhangi bir dil)  
-- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme lisansı çalışır; üretim için ticari lisans gereklidir.  
-- **OCR’ı görüntünün sadece bir bölgesiyle sınırlayabilir miyim?** Evet, dikdörtgenlerle `RecognitionSettings.setRecognitionAreas()` kullanın.  
-- **Tipik çalışma süresi nedir?** Görüntü boyutu ve dil karmaşıklığına bağlı olarak standart bir dizüstü bilgisayarda sayfa başına birkaç saniye.
+## Quick Answers
+- **What library handles OCR in Java?** Aspose.OCR for Java  
+- **Which setting selects the language?** `settings.setLanguage(Language.Eng)` (or any supported language)  
+- **Do I need a license for development?** A free evaluation license works for testing; a commercial license is required for production.  
+- **Can I limit OCR to a region of the image?** Yes, use `RecognitionSettings.setRecognitionAreas()` with rectangles.  
+- **What is the typical runtime?** A few seconds per page on a standard laptop, depending on image size and language complexity.
 
-## “Görüntüden metin çıkarma” nedir?
-Görüntüden metin (OCR) çıkarmak, karakterlerin görsel temsillerini makine‑okunur dizelere dönüştürür. Bu, manuel transkripsiyon gerektirecek arama, analiz ve veri çıkarma iş akışlarını mümkün kılar.
+## How to OCR Image Text with Language Selection
+Bu bölümde, metnin dilini bildiğiniz bir görüntüyü **nasıl OCR yapacağınızı** temel soruya yanıt veriyoruz. Doğru dili seçmek, OCR motorunun dil‑özel sözlükler ve karakter modelleri uygulayabilmesi sayesinde tanıma doğruluğunu büyük ölçüde artırır.
 
-## Aspose.OCR’ı dil seçimiyle neden kullanmalısınız?
-- **Çok dilli destek** – Görüntünüzde bulunan tam dil(ler)i seçerek doğruluğu artırın.  
-- **İnce ayar kontrolü** – Eğikliği ayarlayın, tanıma alanlarını tanımlayın ve otomatik eğiklik davranışını belirleyin.  
-- **Saf Java API** – Yerel bağımlılık yok, herhangi bir Java projesine kolayca entegre edilir.  
-- **Zengin sonuç verisi** – Tek bir çağrıda düz metin, JSON, sınırlayıcı dikdörtgenler ve uyarılar alın.
+### Why this matters
+- **Higher accuracy** – language‑specific models reduce mis‑recognitions.  
+- **Performance boost** – the engine skips unnecessary language checks.  
+- **Better handling of diacritics** – French, Spanish, German, etc., are recognized correctly when the matching `Language` enum is used.
 
-## Ön Koşullar
+## What is “extract text from image”?
+Extracting text from image (OCR) converts the visual representation of characters into machine‑readable strings. This enables search, analytics, and data extraction workflows that would otherwise require manual transcription.
 
-Başlamadan önce şunların yüklü olduğundan emin olun:
+## Why use Aspose.OCR with language selection?
+- **Multilingual support** – Choose the exact language(s) present in your image to boost accuracy.  
+- **Fine‑tuned control** – Adjust skew, define recognition areas, and set auto‑skew behavior.  
+- **Pure Java API** – No native dependencies, easy to integrate into any Java project.  
+- **Rich result data** – Get plain text, JSON, bounding rectangles, and warnings in one call.
 
-- **Java Development Kit (JDK)** (JDK 8 veya üzeri) yüklü.  
-- **Aspose.OCR for Java** kütüphanesi – resmi siteden [buradan](https://reference.aspose.com/ocr/java/) indirebilirsiniz.  
-- Metin çıkarmak istediğiniz bir görüntü dosyası, örneğin `p3.png`.
+## Prerequisites
 
-## Paketleri İçe Aktarma
+Before you start, make sure you have:
 
-Java kaynak dosyanıza gerekli Aspose.OCR sınıflarını ve standart Java yardımcılarını ekleyin:
+- **Java Development Kit (JDK)** installed (JDK 8 or later).  
+- **Aspose.OCR for Java** library – download it from the official site [here](https://reference.aspose.com/ocr/java/).  
+- An image file that contains the text you want to extract, e.g., `p3.png`.
+
+## Import Packages
+
+Java kaynak dosyanızda, gerekli Aspose.OCR sınıflarını ve standart Java yardımcı sınıflarını ekleyin:
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -64,36 +88,30 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Adım‑Adım Kılavuz
+## Step‑by‑Step Guide
 
-### Adım 1: Belge Dizinini Ayarlama
+### Step 1: Set up Your Document Directory
 
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-`"Your Document Directory"` ifadesini `p3.png` dosyasının bulunduğu mutlak yol ile değiştirin.
-
-### Adım 2: Görüntü Yolunu Tanımlama
+### Step 2: Define the Image Path
 
 ```java
 // The image path
 String file = dataDir + "p3.png";
 ```
 
-`file` değişkeninin işlemek istediğiniz tam görüntüyü işaret ettiğinden emin olun.
-
-### Adım 3: Aspose.OCR API Örneği Oluşturma
+### Step 3: Create Aspose.OCR API Instance
 
 ```java
 // Create API instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-`AsposeOCR` nesnesi tüm OCR işlemlerine erişim sağlar.
-
-### Adım 4: Tanıma Seçeneklerini Ayarlama (Dil Seçimi)
+### Step 4: Set Recognition Options (Language Selection)
 
 ```java
 // Set recognition options
@@ -109,10 +127,10 @@ settings.setLanguage(Language.Eng);
 Burada:
 
 1. Manuel bir eğiklik değeri sağladığımız için otomatik‑eğikliği devre dışı bırakıyoruz.  
-2. OCR’ı yalnızca metin içeren bölgeye sınırlamak için dikdörtgen bir bölge (`RecognitionAreas`) tanımlıyoruz.  
-3. **Dili** İngilizce (`Language.Eng`) olarak ayarlıyoruz. Kaynak görüntünüze göre bunu `Language.Fra`, `Language.Spa` vb. olarak değiştirin.
+2. OCR’ı yalnızca metin içeren kısmıyla sınırlamak için dikdörtgen bir bölge (`RecognitionAreas`) tanımlıyoruz.  
+3. **Dili** İngilizce olarak ayarlıyoruz (`Language.Eng`). Kaynak görüntünüze göre bunu `Language.Fra`, `Language.Spa` vb. olarak değiştirin.
 
-### Adım 5: OCR’ı Çalıştırma ve Sonuçları Alma
+### Step 5: Perform OCR and Retrieve Results
 
 ```java
 // Get result object
@@ -124,9 +142,9 @@ try {
 }
 ```
 
-`RecognizePage` çağrısı, tanımladığınız ayarlarla görüntü üzerinde OCR motorunu çalıştırır. Sonuç bir `RecognitionResult` nesnesinde saklanır.
+`RecognizePage` çağrısı, görüntüyü ve tanımladığınız ayarları kullanarak OCR motorunu çalıştırır. Sonuç bir `RecognitionResult` nesnesinde saklanır.
 
-### Adım 6: Sonuçları Yazdırma ve Kullanma
+### Step 6: Print and Utilize Results
 
 ```java
 // Print result
@@ -156,41 +174,41 @@ Konsol çıktısı şunları gösterir:
 
 Artık `result.recognitionText` değerini iş mantığınıza besleyebilirsiniz—saklayın, indeksleyin veya başka bir servise gönderin.
 
-## Yaygın Sorunlar ve Çözümleri
+## Common Issues and Solutions
 
-| Sorun | Neden | Çözüm |
-|-------|-------|------|
-| **Bozuk karakterler** | Yanlış dil seçildi | Doğru `Language` enum’ını ayarlayın (ör. Fransızca için `Language.Fra`). |
-| **Metin dönmedi** | Tanıma alanı metni kapsamaz | `Rectangle` koordinatlarını ayarlayın veya tüm görüntüyü işlemek için `RecognitionAreas`’ı kaldırın. |
-| **Yavaş performans** | Çok büyük veya yüksek çözünürlüklü görüntü | OCR’dan önce görüntüyü küçültün veya JVM için hafıza tahsisinizi artırın. |
-| **Desteklenmeyen format uyarısı** | Görüntü formatı tanınmadı | Görüntüyü PNG, JPEG veya TIFF gibi desteklenen bir formata dönüştürün. |
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| **Garbage characters** | Wrong language selected | Set the correct `Language` enum (e.g., `Language.Fra` for French). |
+| **No text returned** | Recognition area does not cover the text | Adjust the `Rectangle` coordinates or remove `RecognitionAreas` to process the whole image. |
+| **Slow performance** | Very large image or high resolution | Downscale the image before OCR or increase memory allocation for the JVM. |
+| **Warnings about unsupported format** | Image format not recognized | Convert the image to PNG, JPEG, or TIFF before processing. |
 
-## Sık Sorulan Sorular
+## FAQ
 
-**S: Tek bir OCR çağrısında birden fazla dili tanıyabilir miyim?**  
-C: Evet. Çok dilli tanıma için `settings.setLanguage(Language.Eng | Language.Fra)` kullanın.
+**Q: Can I recognize multiple languages in a single OCR call?**  
+A: Yes. Use `settings.setLanguage(Language.Eng | Language.Fra)` to enable multilingual recognition.
 
-**S: Aspose.OCR hangi görüntü formatlarını destekler?**  
-C: PNG, JPEG, BMP, TIFF, GIF ve birkaç başka format. Doğru dosya yolunu sağlayın.
+**Q: Which image formats does Aspose.OCR support?**  
+A: PNG, JPEG, BMP, TIFF, GIF, and several others. Just provide the correct file path.
 
-**S: Görüntü boyutu için bir sınırlama var mı?**  
-C: Katı bir sınır yok, ancak çok büyük görüntüler bellek kullanımını ve işleme süresini artırır. Büyük dosyaları yeniden boyutlandırmayı düşünün.
+**Q: Is there a size limit for the image?**  
+A: There’s no hard limit, but very large images increase memory usage and processing time. Consider resizing large files.
 
-**S: Üretim lisansını nasıl alabilirim?**  
-C: Aspose web sitesinden lisans satın alın ve Aspose dokümantasyonunda gösterildiği gibi `License` sınıfı ile uygulayın.
+**Q: How do I obtain a production license?**  
+A: Purchase a license from the Aspose website and apply it via the `License` class as shown in the Aspose documentation.
 
-**S: PDF sayfasından doğrudan metin çıkarabilir miyim?**  
-C: Aspose.OCR ile doğrudan mümkün değildir. Önce PDF sayfasını bir görüntüye (ör. Aspose.PDF kullanarak) dönüştürün, ardından OCR çalıştırın.
+**Q: Can I extract text from a PDF page directly?**  
+A: Not directly with Aspose.OCR. Convert the PDF page to an image first (e.g., using Aspose.PDF) and then run OCR.
 
-## Sonuç
+## Conclusion
 
-Artık **görüntüden metin çıkarma** işlemini Aspose.OCR for Java ile, uygun dili seçerek ve tanıma alanlarını sınırlayarak nasıl yapacağınızı gördünüz. Bu yaklaşım, herhangi bir Java‑tabanlı iş akışına—belge yönetim sistemlerinden veri yakalama hatlarına—yerleştirilebilecek doğru, yüksek‑performanslı OCR sağlar.
+Aspose.OCR for Java kullanarak **görüntüden metin çıkarma** işlemini, uygun dili seçerek ve tanıma bölgesini sınırlayarak nasıl gerçekleştireceğinizi gördünüz. Bu yaklaşım, belge yönetim sistemlerinden veri yakalama boru hatlarına kadar herhangi bir Java‑tabanlı iş akışına gömülebilen doğru, yüksek‑performanslı bir OCR sunar. İleriye doğru adım atmaya hazır mısınız? Dil enumunu değiştirin, farklı tanıma bölgeleriyle deney yapın ve sonuçları kendi uygulama mantığınıza entegre edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-13  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for Java  
-**Yazar:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -104,14 +104,21 @@ weight: 20
 ### [Получение прямоугольников с текстовыми областями в Aspose.OCR](./get-rectangles-with-text-areas/)
 Разблокируйте мощь Aspose.OCR для Java. Узнайте, как без проблем извлекать текст из изображений в этом пошаговом руководстве. Скачайте сейчас для эффективного распознавания текста.
 
+### [Чтение текста из изображения в Java – Полное руководство по Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Полное руководство по извлечению текста из изображений в Java с использованием Aspose OCR, включая настройку, предобработку и улучшение точности.
+### [Получить OCR‑текст в Java – Полный пример Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Полный пример получения текста OCR в Java с использованием Aspose OCR, демонстрирующий настройку, предобработку и улучшение точности.
+### [Как включить OCR в Java – пошаговое руководство](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Пошаговое руководство по включению OCR в Java с Aspose.OCR, от настройки до первого распознавания.
+### [Извлечение тамильского текста из изображений с Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Научитесь извлекать тамильский текст из изображений с помощью Aspose OCR в этом пошаговом руководстве.
+### [Извлечение текста из изображения в Java – Полный пример OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Полный пример использования Aspose.OCR в Java для извлечения текста из изображений, включая настройку лицензии, коррекцию наклона и обработку результатов.
 ### [Распознавание текста из PNG в Java – руководство Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 Научитесь извлекать текст из PNG‑файлов в Java с помощью Aspose OCR, следуя пошаговым инструкциям.
 
 ### [Извлечение текста из изображения – преобразование PNG в текст на Java](./extract-text-from-image-convert-png-to-text-in-java/)
 Извлеките текст из PNG‑изображений в Java с помощью Aspose OCR, следуя пошаговым инструкциям.
-
-### [Извлечение текста из изображения в Java – полный пример OCR](./extract-text-from-image-in-java-complete-ocr-example/)
-Полный пример OCR в Java: извлечение текста из изображения с использованием Aspose.OCR от начала до конца.
 
 ### [Извлечение текста из изображения с Aspose OCR – Быстрое руководство для Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Быстрое руководство по извлечению текста из изображений с помощью Aspose OCR в Java.

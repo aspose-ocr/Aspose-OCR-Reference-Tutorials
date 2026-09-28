@@ -1,148 +1,226 @@
 ---
 category: general
-date: 2026-02-19
-description: استخراج النص من الصورة باستخدام Java OCR. تعلم مثال Java OCR يقوم بتحميل
-  صورة للـ OCR ويستخرج النص من ملفات الفواتير في بضع خطوات فقط.
+date: 2026-01-12
+description: استخراج النص من الصورة باستخدام Aspose OCR في جافا. تعلّم كيفية استخراج
+  النص من صورة فاتورة باستخدام مثال OCR بجافا واحصل على نص OCR الناتج.
 draft: false
 keywords:
 - extract text from image
+- how to extract text
 - java ocr example
-- load image for ocr
-- extract text from invoice
+- process invoice image
+- output ocr text
 language: ar
-og_description: استخراج النص من الصورة باستخدام Java OCR. يوضح هذا الدليل كيفية تحميل
-  الصورة للتعرف الضوئي على الأحرف واستخراج النص من الفواتير باستخدام مثال بسيط لـ
-  Java OCR.
-og_title: استخراج النص من صورة في جافا – مثال كامل على OCR
+og_description: استخراج النص من الصورة باستخدام Aspose OCR في Java. يوضح هذا الدليل
+  كيفية استخراج النص من صورة فاتورة، ويتضمن مثالًا على OCR بجافا، ويُخرج نص OCR.
+og_title: استخراج النص من الصورة في جافا – مثال كامل على OCR
 tags:
 - OCR
 - Java
 - Aspose
-- Image Processing
-title: استخراج النص من الصورة في جافا – مثال كامل على التعرف الضوئي على الأحرف (OCR)
+title: استخراج النص من صورة في جافا – مثال كامل على التعرف الضوئي على الأحرف
 url: /ar/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 ---
-
-craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخراج النص من صورة في جافا – مثال كامل على OCR
+# استخراج النص من الصورة في جافا – مثال كامل على OCR
 
-هل احتجت يومًا إلى **استخراج النص من صورة** لكن لم تكن متأكدًا أي مكتبة تختار؟ لست وحدك—العديد من المطورين يواجهون هذه المشكلة عند أتمتة معالجة الفواتير أو بناء أرشيفات قابلة للبحث. الخبر السار؟ ببضع أسطر من جافا يمكنك تحميل صورة للـ OCR، تعريف منطقة اهتمام، واستخراج النص الدقيق الذي تحتاجه.  
+هل تساءلت يومًا كيف **استخراج النص من الصورة** دون أن تشعر بالإحباط؟ ربما لديك مجموعة من الفواتير الممسوحة وتحتاج إلى الأرقام بسرعة. في تجربتي، أسهل طريقة هي السماح لمكتبة OCR مخصصة بالقيام بالعمل الشاق. يوضح هذا الدليل *كيفية استخراج النص* من صورة فاتورة نموذجية باستخدام Aspose OCR for Java، ويعرض أيضًا **java ocr example** الذي ينتج نص OCR يمكنك تمريره إلى نظامك اللاحق.
 
-في هذا الدرس سنستعرض **مثال java ocr** يوضح بالضبط كيف **نحمّل صورة للـ OCR**، نحدد ROI، و**نستخرج النص من ملفات الفواتير** باستخدام Aspose.OCR. في النهاية ستحصل على برنامج قابل للتنفيذ يمكنك إدراجه في أي مشروع جافا.
+سنستعرض كل ما تحتاج معرفته: من إعداد المشروع، تعريف منطقة الاهتمام (ROI) التي تركز على العنوان والمبلغ الإجمالي، إلى طباعة النص المستخرج في النهاية. بحلول النهاية، ستكون قادرًا على **process invoice image** ملفات تلقائيًا واسترجاع نص نظيف قابل للبحث.
 
-## ما ستتعلمه
+> **ما ستحصل عليه:** برنامج Java جاهز للتشغيل، شروحات واضحة لكل خطوة، ونصائح عملية للتعامل مع الفواتير الواقعية.
 
-- كيفية إنشاء كائن `OcrEngine` ولماذا هو مهم.
-- الطريقة الصحيحة **لتحميل صورة للـ OCR** باستخدام `ImageStream` من Aspose.
-- ضبط **منطقة الاهتمام (ROI)** بحيث تعالج فقط الجزء من الصورة الذي يحتوي على مبلغ الفاتورة.
-- استخراج النص المعترف به وطباعة النتيجة إلى وحدة التحكم.
-- الأخطاء الشائعة (مثل إحداثيات المستطيل الخاطئة) والحلول السريعة.
+---
 
-**المتطلبات المسبقة**
+## المتطلبات المسبقة
 
-- جافا 8 أو أحدث مثبتة.
-- Maven أو Gradle لجلب مكتبة Aspose.OCR (`com.aspose:aspose-ocr`).
-- صورة فاتورة نموذجية (`invoice.png`) موجودة في دليل معروف.
+قبل أن نغوص في التفاصيل، تأكد من وجود ما يلي:
 
-هل لديك كل ذلك؟ رائع—لنبدأ.
+- Java Development Kit (JDK) 8 أو أحدث مثبت.
+- Maven أو Gradle لإدارة التبعيات (مثال Maven موضح).
+- رخصة Aspose OCR for Java (الإصدار التجريبي المجاني يعمل للاختبار).
+- صورة فاتورة (`invoice.png`) موجودة في دليل معروف.
 
-![استخراج النص من صورة باستخدام Java OCR](/images/extract-text-from-image-java.png "مثال استخراج النص من صورة")
+إذا كان أي من هذه غير مألوف، لا تقلق—معظمها يمكن تحميله بسهولة، والكود سيظل يُترجم باستخدام نسخة المجتمع.
 
-## استخراج النص من صورة – مثال Java OCR خطوة بخطوة
+## الخطوة 1: إعداد مشروع Maven الخاص بك
 
-فيما يلي الشيفرة الكاملة. يمكنك نسخها ولصقها في `RoiOcrExample.java` وتشغيلها مباشرة.
+أولاً، أنشئ مشروع Maven جديد (أو أضف إلى مشروع موجود). في ملف `pom.xml` الخاص بك، أضف تبعية Aspose OCR:
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-ocr</artifactId>
+        <version>23.9</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
+> **نصيحة احترافية:** حافظ على تحديث رقم الإصدار؛ الإصدارات الأحدث غالبًا ما تحسن الدقة للخطوط الصعبة الموجودة في الفواتير.
+
+بعد حفظ الملف، شغّل `mvn clean install` لجلب المكتبة إلى المستودع المحلي الخاص بك.
+
+## الخطوة 2: تحميل صورة الفاتورة
+
+الآن بعد أن المكتبة جاهزة، لنكتب فئة Java صغيرة. أول شيء نفعله هو إنشاء مثال `OcrEngine` وتوجيهه إلى الصورة التي تريد قراءتها.
 
 ```java
 import com.aspose.ocr.*;
 
-public class RoiOcrExample {
+public class RoiExample {
     public static void main(String[] args) throws Exception {
+        // Step 2: Load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png"); // <-- replace with your path
+```
 
-        // Step 1: Create an OCR engine instance.
-        // The engine holds all configuration and performs the heavy lifting.
-        OcrEngine ocrEngine = new OcrEngine();
+لماذا ننشئ المحرك **قبل** تحميل الصورة؟ المحرك يحتفظ بالإعدادات مثل اللغة، DPI، و ROI. ضبط الصورة مبكرًا يضمن تطبيق تلك الإعدادات على الملف المحدد الذي ستعالجه.
 
-        // Step 2: Load the source image.
-        // You can point to any PNG, JPG, or TIFF file. Here we use a sample invoice.
-        String imagePath = "YOUR_DIRECTORY/invoice.png";
-        ocrEngine.setImage(ImageStream.fromFile(imagePath));
+## الخطوة 3: تعريف مناطق الاهتمام (ROI)
 
-        // Step 3: Define the region of interest (ROI) you want to recognize.
-        // x = 120, y = 340, width = 500, height = 120 – tweak these values for your own layout.
-        Rectangle regionOfInterest = new Rectangle(120, 340, 500, 120);
-        ocrEngine.setRegionOfInterest(regionOfInterest);
+غالبًا ما تحتوي الفواتير على الكثير من الضوضاء—جداول، شعارات، ونص صغير. من خلال تضييق OCR على العنوان فقط والمبلغ الإجمالي، تزيد السرعة والدقة بشكل كبير. Aspose يتيح لك وصف هذه المناطق بالمستطيلات.
 
-        // Step 4: Perform OCR on the specified ROI and retrieve the text.
-        // recognize() returns an OcrResult object; getText() extracts the plain string.
-        String extractedText = ocrEngine.recognize().getText();
+```java
+        // Step 3: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
 
-        // Step 5: Output the recognized text.
-        System.out.println("ROI text: " + extractedText);
+        // Apply ROI to the engine
+        engine.setRegion(region);
+```
+
+الإحداثيات بوحدات البكسل (`x`, `y`, `width`, `height`). إذا كانت فواتيرك تختلف في الحجم، يمكنك حساب هذه القيم ديناميكيًا—ربما عن طريق فحص أبعاد الصورة أولاً. هذه إضافة جيدة إذا كنت تحتاج حل **process invoice image** يعمل على دفعات.
+
+## الخطوة 4: تشغيل OCR على المناطق المحددة
+
+مع وجود ROI، يمكن لمحرك OCR تركيز انتباهه حيث يهم أكثر. طريقة `recognize()` تُعيد كائن `OcrResult` يحتوي على النص المستخرج.
+
+```java
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+```
+
+خلف الكواليس، Aspose يقوم بعدة خطوات تمهيدية: التحويل إلى ثنائي، إزالة الضوضاء، وتقسيم الأحرف. لا تحتاج إلى استدعائها يدويًا—دع `recognize()` يقوم بعمله.
+
+## الخطوة 5: إخراج النص المستخرج
+
+أخيرًا، نطبع النص إلى وحدة التحكم. في تطبيق حقيقي قد تخزنه في قاعدة بيانات، أو تمرره إلى خط أنابيب تحليلي لاحق، أو حتى تولد ملف PDF قابل للبحث.
+
+```java
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
     }
 }
 ```
 
-### لماذا كل خطوة مهمة
-
-1. **إنشاء محرك OCR** – بدون محرك لا يوجد سياق لمعالجة الصورة. الكائن يتيح لك أيضًا تعديل حزم اللغات لاحقًا إذا احتجت دعمًا متعدد اللغات.  
-2. **تحميل الصورة** – `ImageStream.fromFile` يخفف عنك التعامل مع تنسيقات الملفات، مما يضمن أن المحرك يقرأ البايتات بشكل صحيح. إذا تخطيت هذه الخطوة ستحصل على `NullPointerException`.  
-3. **تحديد ROI** – معالجة الصفحة بأكملها قد تكون مضيعة للموارد. بتضييق المستطيل إلى منطقة إجمالي الفاتورة، تسرّع التعرف وتقلل الضوضاء.  
-4. **استدعاء `recognize()`** – هنا يحدث السحر. الطريقة تنفّذ خوارزمية OCR على الـ ROI وتنتج كائن نتيجة.  
-5. **طباعة النتيجة** – في المشاريع الفعلية ربما تخزن النص في قاعدة بيانات، لكن `System.out.println` مثالي للعرض السريع.
-
-## تحميل صورة للـ OCR
-
-إذا كنت تتساءل ما إذا كان المسار يجب أن يكون مطلقًا أم نسبيًا، الجواب هو أن كلاهما يعمل—فقط تأكد أن عملية جافا يمكنها قراءة الملف. على نظام Windows، يجب هروب الشرطات العكسية (`C:\\images\\invoice.png`) أو يمكنك استخدام الشرطات المائلة (`C:/images/invoice.png`).  
-
-**نصيحة محترف:** إذا كنت تعالج العديد من الفواتير داخل حلقة، أعد استخدام نفس كائن `OcrEngine`؛ فهو يخزن الموارد الداخلية ويحسّن الإنتاجية.
-
-## تعريف منطقة الاهتمام (ROI)
-
-اختيار المستطيل المناسب قد يتطلب بعض التجربة. طريقة مفيدة للحصول على الإحداثيات هي فتح الصورة في أي محرر رسومات (مثل GIMP أو Paint.NET) وتحريك المؤشر فوق المنطقة—ستظهر قيم X/Y في شريط الحالة.  
-
-حالة خاصة: بعض الفواتير لها تخطيطات متغيرة. في هذه الحالة يمكنك إجراء مسح سريع مسبق على الصورة بأكملها، البحث عن كلمات مفتاحية مثل “Total:” باستخدام تعبير نمطي، ثم تعديل الـ ROI ديناميكيًا.
-
-## تنفيذ OCR والحصول على النص
-
-استدعاء `recognize()` متزامن—يتوقف الخيط حتى ينتهي المحرك. للدفعات الكبيرة قد ترغب في إنشاء مجموعة خيوط ومعالجة الصور بالتوازي. تذكر أن كل خيط يحتاج إلى كائن `OcrEngine` خاص به؛ فهي غير آمنة للاستخدام المتعدد الخيوط.
-
-## تشغيل البرنامج والتحقق من النتيجة
-
-قم بالترجمة والتنفيذ:
-
-```bash
-javac -cp "path/to/aspose-ocr.jar" RoiOcrExample.java
-java -cp ".:path/to/aspose-ocr.jar" RoiOcrExample
-```
-
-يجب أن ترى شيئًا مشابهًا لـ:
+عند تشغيل البرنامج، يجب أن ترى شيئًا مثل:
 
 ```
-ROI text: $1,254.00
+ROI text:
+Acme Corp.
+Invoice #12345
+Date: 2025-12-31
+Total Amount: $1,250.00
 ```
 
-إذا ظهرت النتيجة مشوشة، تحقق مرة أخرى من إحداثيات الـ ROI وتأكد من جودة الصورة (300 dpi أو أكثر هو الأفضل).  
+إذا كان الإخراج مشوشًا، تحقق مرة أخرى من إحداثيات المستطيل أو زد دقة الصورة. محركات OCR تحب المسحات الواضحة وعالية الـ DPI.
 
-### الأخطاء الشائعة وكيفية إصلاحها
+## مثال كامل يعمل
 
-| العَرَض | السبب المحتمل | الحل |
-|---------|--------------|-----|
-| سلسلة فارغة | ROI خارج حدود الصورة | تحقق من قيم المستطيل مقارنة بأبعاد الصورة |
-| كلمات مكتوبة خطأ | دقة منخفضة | استخدم مصدر بدقة أعلى أو طبّق معالجة مسبقة للصورة (مثل التحويل إلى ثنائي) |
-| `java.lang.NoClassDefFoundError` | عدم وجود ملف JAR الخاص بـ Aspose في مسار الفئة | أضف `aspose-ocr.jar` إلى `-cp` أو استخدم إدارة الاعتمادات عبر Maven/Gradle |
+فيما يلي ملف Java كامل ومستقل يمكنك نسخه ولصقه في `src/main/java/RoiExample.java`. لا حاجة لمقاطع خارجية—كل ما تحتاجه موجود هنا.
 
-## الخلاصة
+```java
+import com.aspose.ocr.*;
+import com.aspose.ocr.region.*;
 
-الآن تعرف كيف **استخراج النص من صورة** في جافا باستخدام **مثال java ocr** مختصر. بتحميل الصورة بشكل صحيح، تعريف ROI مركّز، واستدعاء `recognize()`، يمكنك بثقة **استخراج النص من ملفات الفواتير** وإرسال البيانات إلى الأنظمة اللاحقة.
+public class RoiExample {
+    public static void main(String[] args) throws Exception {
 
-ما الخطوة التالية؟ جرّب تغيير الـ ROI لحقول مختلفة (التاريخ، اسم المورد)، جرب حزم اللغات للفواتير متعددة اللغات، أو دمج خطوة OCR في خدمة ميكروية مبنية على Spring Boot. النمط نفسه يعمل مع الإيصالات، جوازات السفر، أو أي مستند تحتاج فيه إلى استخراج نص دقيق.
+        // Step 1: Create the OCR engine and load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png");
 
-إذا كان لديك أسئلة حول توسيع هذا الحل أو التعامل مع المسحات الضوضائية، اترك تعليقًا أدناه—برمجة سعيدة!
+        // Step 2: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Step 3: Apply the ROI configuration to the engine
+        engine.setRegion(region);
+
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
+    }
+}
+```
+
+> **ملاحظة:** استبدل `YOUR_DIRECTORY` بالمسار المطلق إلى صورة الفاتورة الخاصة بك. إذا كنت تستخدم مسارًا نسبيًا، تأكد من أن دليل العمل يتطابق مع المكان الذي تشغل فيه أمر `java`.
+
+## أسئلة شائعة وحالات حافة
+
+### ماذا لو تغير حجم الفاتورة؟
+
+يمكنك حساب ROI ديناميكيًا:
+
+```java
+int imgWidth = engine.getImage().getWidth();
+int imgHeight = engine.getImage().getHeight();
+
+int headerHeight = imgHeight / 10;
+int totalHeight = imgHeight / 8;
+
+OcrRegion region = OcrRegion.builder()
+        .addRectangle(0, 0, imgWidth, headerHeight)
+        .addRectangle(0, imgHeight - totalHeight, imgWidth, totalHeight)
+        .build();
+```
+
+### كيف أتعامل مع لغات متعددة؟
+
+Aspose OCR يدعم حزم اللغات. فقط اضبط اللغة قبل استدعاء `recognize()`:
+
+```java
+engine.setLanguage(OcrLanguage.Spanish); // or OcrLanguage.English, etc.
+```
+
+### ماذا لو أعاد OCR سلاسل فارغة؟
+
+الأسباب الشائعة هي:
+
+- دقة صورة منخفضة (< 300 DPI). قم بزيادة الحجم أو اطلب مسحات ذات جودة أعلى.
+- خلفيات داكنة جدًا أو فاتحة جدًا. طبق مرشح تحسين التباين البسيط قبل OCR.
+- إحداثيات ROI غير صحيحة تفوت النص تمامًا.
+
+## نصائح لـ OCR جاهز للإنتاج
+
+1. **معالجة دفعات:** غلف المنطق في حلقة تتكرر على دليل ملفات الفواتير. سجّل كل نتيجة لأغراض التدقيق.
+2. **معالجة الأخطاء:** امسك `OcrException` لتجاوز الصور التالفة بلطف دون إيقاف المهمة بالكامل.
+3. **الأداء:** أعد استخدام مثال واحد من `OcrEngine` عبر صور متعددة؛ إنشاء محرك جديد لكل ملف يضيف عبئًا غير ضروري.
+4. **التحقق:** بعد الاستخراج، شغّل فحص regex على المبلغ الإجمالي (`\$\d{1,3}(,\d{3})*(\.\d{2})?`) للتأكد من أن الرقم يبدو واقعيًا.
+
+تطبيق هذه الاقتراحات يحول **java ocr example** بسيط إلى حل قوي وقابل للتوسع لأي عمل يحتاج إلى **process invoice image** ملفات ليلية.
+
+## الخاتمة
+
+لقد غطينا للتو كيفية **استخراج النص من الصورة** في ملفات Java باستخدام Aspose OCR، مع التركيز على سيناريو عملي لمعالجة الفواتير. من خلال تعريف منطقة الاهتمام، تشغيل محرك OCR، وطباعة **output OCR text**، لديك الآن أساس قوي لبناء خطوط أنابيب التقاط البيانات تلقائيًا.
+
+الخطوات التالية؟ حاول توسيع ROI لتشمل جداول العناصر، جرب إعدادات لغات مختلفة، أو مرر السلاسل المستخرجة إلى مكتبة توليد PDF للوثائق القابلة للبحث. السماء هي الحد عندما تجمع OCR مع أدوات Java الحديثة.
+
+هل لديك المزيد من الأسئلة حول **كيفية استخراج النص** من أنواع مستندات أخرى، أو تحتاج مساعدة في تعديل ROI لتصاميم غير عادية؟ اترك تعليقًا أدناه—برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,155 +1,246 @@
 ---
 category: general
-date: 2026-02-19
-description: Extrae texto de una imagen usando Java OCR. Aprende un ejemplo de OCR
-  en Java que carga una imagen para OCR y extrae texto de archivos de facturas en
-  solo unos pocos pasos.
+date: 2026-01-12
+description: Extraiga texto de una imagen usando Aspose OCR en Java. Aprenda cómo
+  extraer texto de una imagen de factura con un ejemplo de OCR en Java y obtenga el
+  texto OCR resultante.
 draft: false
 keywords:
 - extract text from image
+- how to extract text
 - java ocr example
-- load image for ocr
-- extract text from invoice
+- process invoice image
+- output ocr text
 language: es
-og_description: Extrae texto de una imagen usando Java OCR. Esta guía muestra cómo
-  cargar una imagen para OCR y extraer texto de facturas con un ejemplo sencillo de
-  OCR en Java.
+og_description: Extraer texto de una imagen usando Aspose OCR en Java. Esta guía muestra
+  cómo extraer texto de una imagen de factura, incluye un ejemplo de OCR en Java y
+  genera el texto OCR.
 og_title: Extraer texto de una imagen en Java – Ejemplo completo de OCR
 tags:
 - OCR
 - Java
 - Aspose
-- Image Processing
 title: Extraer texto de una imagen en Java – Ejemplo completo de OCR
 url: /es/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 ---
 
-en un microservicio Spring Boot. El mismo patrón funciona para recibos, pasaportes o cualquier documento donde necesites una extracción de texto precisa."
-
-Next: "If you’ve got questions about scaling this solution or handling noisy scans, drop a comment below—happy coding!" -> "Si tienes preguntas sobre escalar esta solución o manejar escaneos ruidosos, deja un comentario abajo—¡feliz codificación!"
-
-Then closing shortcodes remain.
-
-Make sure to keep all shortcodes exactly as original.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extraer texto de una imagen en Java – Ejemplo completo de OCR
 
-¿Alguna vez necesitaste **extraer texto de una imagen** pero no estabas seguro de qué biblioteca elegir? No estás solo—muchos desarrolladores se topan con este obstáculo al automatizar el procesamiento de facturas o crear archivos buscables. ¿La buena noticia? Con unas pocas líneas de Java puedes cargar una imagen para OCR, definir una región de interés y obtener el texto exacto que necesitas.  
+¿Alguna vez te has preguntado cómo **extraer texto de una imagen** sin volverte loco? Tal vez tengas una pila de facturas escaneadas y necesites los números rápido. En mi experiencia, la forma más fácil es dejar que una biblioteca OCR dedicada haga el trabajo pesado. Este tutorial muestra *cómo extraer texto* de una imagen típica de factura usando Aspose OCR para Java, y además demuestra un **java ocr example** que devuelve el texto OCR que puedes canalizar a tu sistema downstream.
 
-En este tutorial recorreremos un **java ocr example** que muestra exactamente cómo **cargar una imagen para OCR**, establecer una ROI y **extraer texto de facturas** usando Aspose.OCR. Al final tendrás un programa ejecutable que puedes incorporar a cualquier proyecto Java.
+Recorreremos todo lo que necesitas saber: desde configurar el proyecto, definir la región de interés (ROI) que se centra en el encabezado y el importe total, hasta imprimir finalmente el texto extraído. Al final, podrás **procesar imágenes de facturas** automáticamente y obtener texto limpio y buscable.
 
-## Lo que aprenderás
+> **Lo que obtendrás:** un programa Java listo‑para‑ejecutar, explicaciones claras de cada paso y consejos prácticos para manejar facturas del mundo real.
 
-- Cómo crear una instancia de `OcrEngine` y por qué es importante.
-- La forma correcta de **cargar una imagen para OCR** con `ImageStream` de Aspose.
-- Establecer una **región de interés (ROI)** para procesar solo la parte de la imagen que contiene el importe de la factura.
-- Extraer el texto reconocido e imprimirlo en la consola.
-- Problemas comunes (p. ej., coordenadas de rectángulo incorrectas) y soluciones rápidas.
+---
 
-**Requisitos previos**
+## Prerrequisitos
 
-- Java 8 o superior instalado.
-- Maven o Gradle para obtener la biblioteca Aspose.OCR (`com.aspose:aspose-ocr`).
-- Una imagen de factura de ejemplo (`invoice.png`) ubicada en un directorio conocido.
+Antes de sumergirnos, asegúrate de contar con lo siguiente:
 
-¿Tienes todo eso? Genial—¡vamos a sumergirnos!
+- Java Development Kit (JDK) 8 o superior instalado.
+- Maven o Gradle para la gestión de dependencias (se muestra el ejemplo con Maven).
+- Una licencia de Aspose OCR para Java (la prueba gratuita funciona para pruebas).
+- Una imagen de factura (`invoice.png`) ubicada en un directorio conocido.
 
-![Extraer texto de una imagen usando Java OCR](/images/extract-text-from-image-java.png "ejemplo de extracción de texto de imagen")
+Si alguno de estos te resulta desconocido, no te preocupes: la mayoría solo requiere una descarga, y el código seguirá compilando con la edición community.
 
-## Extraer texto de una imagen – Ejemplo paso a paso de OCR en Java
+---
 
-A continuación se muestra el código fuente completo. Siéntete libre de copiar‑pegarlo en `RoiOcrExample.java` y ejecutarlo directamente.
+## Paso 1: Configura tu proyecto Maven
+
+Primero, crea un nuevo proyecto Maven (o añádelo a uno existente). En tu `pom.xml`, agrega la dependencia de Aspose OCR:
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-ocr</artifactId>
+        <version>23.9</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
+> **Consejo profesional:** Mantén el número de versión actualizado; las versiones más recientes suelen mejorar la precisión para fuentes complicadas que aparecen en facturas.
+
+Después de guardar el archivo, ejecuta `mvn clean install` para descargar la biblioteca en tu repositorio local.
+
+---
+
+## Paso 2: Carga la imagen de la factura
+
+Ahora que la biblioteca está lista, escribamos una pequeña clase Java. Lo primero que hacemos es crear una instancia de `OcrEngine` y apuntarla a la imagen que deseas leer.
 
 ```java
 import com.aspose.ocr.*;
 
-public class RoiOcrExample {
+public class RoiExample {
     public static void main(String[] args) throws Exception {
+        // Step 2: Load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png"); // <-- replace with your path
+```
 
-        // Step 1: Create an OCR engine instance.
-        // The engine holds all configuration and performs the heavy lifting.
-        OcrEngine ocrEngine = new OcrEngine();
+¿Por qué creamos el motor **antes** de cargar la imagen? El motor almacena configuraciones como idioma, DPI y ROI. Establecer la imagen antes garantiza que esos ajustes se apliquen al archivo exacto que vas a procesar.
 
-        // Step 2: Load the source image.
-        // You can point to any PNG, JPG, or TIFF file. Here we use a sample invoice.
-        String imagePath = "YOUR_DIRECTORY/invoice.png";
-        ocrEngine.setImage(ImageStream.fromFile(imagePath));
+---
 
-        // Step 3: Define the region of interest (ROI) you want to recognize.
-        // x = 120, y = 340, width = 500, height = 120 – tweak these values for your own layout.
-        Rectangle regionOfInterest = new Rectangle(120, 340, 500, 120);
-        ocrEngine.setRegionOfInterest(regionOfInterest);
+## Paso 3: Define regiones de interés (ROI)
 
-        // Step 4: Perform OCR on the specified ROI and retrieve the text.
-        // recognize() returns an OcrResult object; getText() extracts the plain string.
-        String extractedText = ocrEngine.recognize().getText();
+Las facturas suelen contener mucho ruido: tablas, logotipos y texto pequeño. Al limitar el OCR solo al encabezado y al importe total, aumentas drásticamente tanto la velocidad como la precisión. Aspose te permite describir estas zonas con rectángulos.
 
-        // Step 5: Output the recognized text.
-        System.out.println("ROI text: " + extractedText);
+```java
+        // Step 3: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Apply ROI to the engine
+        engine.setRegion(region);
+```
+
+Las coordenadas están en píxeles (`x`, `y`, `width`, `height`). Si tus facturas varían en tamaño, puedes calcular estos valores de forma dinámica—quizá verificando primero las dimensiones de la imagen. Esa es una buena extensión si necesitas una solución de **process invoice image** que funcione por lotes.
+
+---
+
+## Paso 4: Ejecuta OCR en las regiones especificadas
+
+Con la ROI establecida, el motor OCR puede centrar su atención donde realmente importa. El método `recognize()` devuelve un `OcrResult` que contiene el texto extraído.
+
+```java
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+```
+
+Detrás de escena, Aspose realiza varios pasos de preprocesamiento: binarización, eliminación de ruido y segmentación de caracteres. No tienes que llamarlos manualmente—simplemente deja que `recognize()` haga su trabajo.
+
+---
+
+## Paso 5: Muestra el texto extraído
+
+Finalmente, imprimimos el texto en la consola. En una aplicación real podrías almacenarlo en una base de datos, enviarlo a una canalización de análisis downstream o incluso generar un PDF buscable.
+
+```java
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
     }
 }
 ```
 
-### Por qué cada paso es importante
-
-1. **Crear el motor OCR** – sin un motor no hay contexto para el procesamiento de imágenes. El objeto también te permite ajustar paquetes de idiomas más adelante si necesitas soporte multilingüe.  
-2. **Cargar la imagen** – `ImageStream.fromFile` abstrae el formato del archivo, asegurando que el motor lea los bytes correctamente. Si lo omites, obtendrás una `NullPointerException`.  
-3. **Establecer la ROI** – procesar toda la página puede ser ineficiente. Al reducir el rectángulo al área del total de la factura, aceleras el reconocimiento y reduces el ruido.  
-4. **Llamar a `recognize()`** – aquí es donde ocurre la magia. El método ejecuta el algoritmo OCR sobre la ROI y produce un objeto de resultado.  
-5. **Imprimir la salida** – en proyectos reales probablemente almacenarías el texto en una base de datos, pero `System.out.println` es perfecto para una demostración rápida.
-
-## Cargar imagen para OCR
-
-Si te preguntas si la ruta debe ser absoluta o relativa, la respuesta es que ambas funcionan—solo asegúrate de que el proceso Java pueda leer el archivo. En Windows, las barras invertidas deben escaparse (`C:\\images\\invoice.png`) o puedes usar barras normales (`C:/images/invoice.png`).  
-
-**Consejo profesional:** Si estás procesando muchas facturas en un bucle, reutiliza la misma instancia de `OcrEngine`; almacena en caché recursos internos y mejora el rendimiento.
-
-## Definir región de interés (ROI)
-
-Elegir el rectángulo correcto puede requerir prueba y error. Una forma práctica de encontrar las coordenadas es abrir la imagen en cualquier editor gráfico (como GIMP o Paint.NET) y pasar el cursor sobre el área—verás los valores X/Y en la barra de estado.  
-
-Caso límite: algunas facturas tienen diseños variables. En ese escenario podrías ejecutar un escaneo rápido previo en toda la imagen, localizar palabras clave como “Total:” con una expresión regular y luego ajustar la ROI dinámicamente.
-
-## Realizar OCR y obtener texto
-
-La llamada a `recognize()` es síncrona—tu hilo se bloquea hasta que el motor termina. Para lotes grandes podrías crear un pool de hilos y procesar imágenes en paralelo. Solo recuerda que cada hilo necesita su propia instancia de `OcrEngine`; no son seguros para hilos.
-
-## Ejecutar y verificar salida
-
-Compila y ejecuta:
-
-```bash
-javac -cp "path/to/aspose-ocr.jar" RoiOcrExample.java
-java -cp ".:path/to/aspose-ocr.jar" RoiOcrExample
-```
-
-Deberías ver algo como:
+Al ejecutar el programa, deberías ver algo como:
 
 ```
-ROI text: $1,254.00
+ROI text:
+Acme Corp.
+Invoice #12345
+Date: 2025-12-31
+Total Amount: $1,250.00
 ```
 
-Si la salida se ve distorsionada, verifica nuevamente las coordenadas de la ROI y asegúrate de que la calidad de la imagen sea alta (300 dpi o más funciona mejor).  
+Si la salida se ve distorsionada, verifica nuevamente las coordenadas del rectángulo o aumenta la resolución de la imagen. Los motores OCR adoran escaneos nítidos y de alto DPI.
 
-### Problemas comunes y cómo solucionarlos
+---
 
-| Síntoma | Causa probable | Solución |
-|---------|----------------|----------|
-| Cadena vacía | ROI fuera de los límites de la imagen | Verifica los valores del rectángulo contra las dimensiones de la imagen |
-| Palabras mal escritas | Baja resolución | Utiliza una fuente de mayor resolución o aplica preprocesamiento de imagen (p. ej., binarización) |
-| `java.lang.NoClassDefFoundError` | Falta el JAR de Aspose en el classpath | Agrega `aspose-ocr.jar` a `-cp` o usa la gestión de dependencias de Maven/Gradle |
+## Ejemplo completo funcional
+
+A continuación tienes el archivo Java completo, autocontenido, que puedes copiar‑pegar en `src/main/java/RoiExample.java`. No se requieren fragmentos externos—todo lo que necesitas está aquí.
+
+```java
+import com.aspose.ocr.*;
+import com.aspose.ocr.region.*;
+
+public class RoiExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create the OCR engine and load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png");
+
+        // Step 2: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Step 3: Apply the ROI configuration to the engine
+        engine.setRegion(region);
+
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
+    }
+}
+```
+
+> **Nota:** Reemplaza `YOUR_DIRECTORY` con la ruta absoluta a tu imagen de factura. Si usas una ruta relativa, asegúrate de que el directorio de trabajo coincida con el lugar donde ejecutas el comando `java`.
+
+---
+
+## Preguntas frecuentes y casos límite
+
+### ¿Qué pasa si el tamaño de la factura cambia?
+
+Puedes calcular la ROI de forma dinámica:
+
+```java
+int imgWidth = engine.getImage().getWidth();
+int imgHeight = engine.getImage().getHeight();
+
+int headerHeight = imgHeight / 10;
+int totalHeight = imgHeight / 8;
+
+OcrRegion region = OcrRegion.builder()
+        .addRectangle(0, 0, imgWidth, headerHeight)
+        .addRectangle(0, imgHeight - totalHeight, imgWidth, totalHeight)
+        .build();
+```
+
+### ¿Cómo manejo varios idiomas?
+
+Aspose OCR soporta paquetes de idiomas. Simplemente establece el idioma antes de llamar a `recognize()`:
+
+```java
+engine.setLanguage(OcrLanguage.Spanish); // or OcrLanguage.English, etc.
+```
+
+### ¿Qué ocurre si el OCR devuelve cadenas vacías?
+
+Los culpables típicos son:
+
+- Baja resolución de la imagen (< 300 DPI). Escala o solicita escaneos de mayor calidad.
+- Fondos demasiado oscuros o claros. Aplica un filtro simple de mejora de contraste antes del OCR.
+- Coordenadas de ROI incorrectas que omiten el texto por completo.
+
+---
+
+## Consejos para un OCR listo para producción
+
+1. **Procesamiento por lotes:** Envuelve la lógica en un bucle que itere sobre un directorio de archivos de factura. Registra cada resultado para auditoría.
+2. **Manejo de errores:** Captura `OcrException` para omitir imágenes corruptas sin detener todo el trabajo.
+3. **Rendimiento:** Reutiliza una única instancia de `OcrEngine` para varias imágenes; crear un motor nuevo por archivo genera sobrecarga innecesaria.
+4. **Validación:** Después de la extracción, ejecuta una comprobación con expresión regular sobre el importe total (`\$\d{1,3}(,\d{3})*(\.\d{2})?`) para asegurarte de que el número sea realista.
+
+Implementar estas sugerencias transforma un simple **java ocr example** en una solución robusta y escalable para cualquier empresa que necesite **process invoice image** todas las noches.
+
+---
 
 ## Conclusión
 
-Ahora sabes cómo **extraer texto de una imagen** en Java usando un conciso **java ocr example**. Al cargar la imagen correctamente, definir una ROI enfocada y llamar a `recognize()`, puedes **extraer texto de facturas** de forma fiable y alimentar esos datos a sistemas posteriores.
+Acabamos de cubrir cómo **extraer texto de una imagen** en Java usando Aspose OCR, centrándonos en un escenario práctico de procesamiento de facturas. Al definir una región de interés, ejecutar el motor OCR e imprimir el **texto OCR de salida**, ahora tienes una base sólida para construir pipelines automáticos de captura de datos.
 
-¿Qué sigue? Prueba cambiar la ROI por diferentes campos (fecha, nombre del proveedor), experimenta con paquetes de idiomas para facturas multilingües, o integra el paso de OCR en un microservicio Spring Boot. El mismo patrón funciona para recibos, pasaportes o cualquier documento donde necesites una extracción de texto precisa.
+¿Próximos pasos? Prueba ampliar la ROI para incluir tablas de líneas de detalle, experimenta con diferentes configuraciones de idioma o alimenta las cadenas extraídas a una biblioteca de generación de PDF para documentos buscables. El cielo es el límite cuando combinas OCR con las herramientas modernas de Java.
 
-Si tienes preguntas sobre escalar esta solución o manejar escaneos ruidosos, deja un comentario abajo—¡feliz codificación!
+¿Tienes más preguntas sobre **cómo extraer texto** de otros tipos de documentos, o necesitas ayuda ajustando la ROI para diseños inusuales? ¡Deja un comentario abajo—feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

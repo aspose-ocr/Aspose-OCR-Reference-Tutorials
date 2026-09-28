@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2026-02-19
-description: Java OCR を使用して画像からテキストを抽出します。画像を OCR に読み込み、請求書ファイルからテキストを抽出する Java OCR
-  の例を、数ステップで学びましょう。
+date: 2026-01-12
+description: JavaでAspose OCRを使用して画像からテキストを抽出します。Java OCRの例で請求書画像からテキストを抽出する方法を学び、OCRテキストの出力を取得します。
 draft: false
 keywords:
 - extract text from image
+- how to extract text
 - java ocr example
-- load image for ocr
-- extract text from invoice
+- process invoice image
+- output ocr text
 language: ja
-og_description: Java OCR を使用して画像からテキストを抽出します。このガイドでは、OCR 用に画像を読み込む方法と、シンプルな Java OCR
-  の例で請求書からテキストを取得する方法を示します。
+og_description: JavaでAspose OCRを使用して画像からテキストを抽出します。このガイドでは、請求書画像からテキストを抽出する方法を示し、Java
+  OCRの例を含み、OCRテキストを出力します。
 og_title: Javaで画像からテキストを抽出 – 完全なOCR例
 tags:
 - OCR
 - Java
 - Aspose
-- Image Processing
 title: Javaで画像からテキストを抽出 – 完全なOCR例
 url: /ja/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 ---
@@ -28,118 +27,217 @@ url: /ja/java/ocr-basics/extract-text-from-image-in-java-complete-ocr-example/
 
 # Javaで画像からテキストを抽出 – 完全OCR例
 
-画像から **テキストを抽出** したいけど、どのライブラリを選べばいいか分からないことはありませんか？ あなたは一人ではありません。請求書処理の自動化や検索可能なアーカイブ構築で、多くの開発者が同じ壁にぶつかります。良いニュースは、数行の Java コードで OCR 用に画像を読み込み、関心領域（ROI）を定義し、必要なテキストを正確に取得できることです。
+画像ファイルから **テキストを抽出** する方法で、髪の毛を抜かずに済む方法を考えたことはありませんか？たとえば、スキャンした請求書が山積みで、数字をすぐに取り出す必要がある場合です。私の経験では、専用のOCRライブラリに任せるのが最も簡単です。このチュートリアルでは、Aspose OCR for Java を使用して典型的な請求書画像から *テキストを抽出* する方法を示し、 **java ocr example** として OCR テキストを下流システムにパイプできるサンプルも紹介します。
 
-このチュートリアルでは、Aspose.OCR を使用して **java ocr example** を実演し、**load image for OCR** の方法、ROI の設定、そして **extract text from invoice** ファイルの手順を詳しく解説します。最後まで読めば、任意の Java プロジェクトに組み込める実行可能なプログラムが手に入ります。
+プロジェクトのセットアップ、ヘッダーと合計金額にフォーカスした関心領域（ROI）の定義、そして抽出したテキストの出力まで、必要な手順をすべて解説します。最後まで読めば、**請求書画像** ファイルを自動で処理し、クリーンで検索可能なテキストを取得できるようになります。
 
-## 学べること
+> **得られるもの:** すぐに実行できる Java プログラム、各ステップの明確な説明、実務での請求書処理に役立つ実践的なヒント。
 
-- `OcrEngine` インスタンスの作成方法とその重要性
-- Aspose の `ImageStream` を使った **load image for OCR** の正しい手順
-- **region of interest (ROI)** を設定して、請求書の金額が含まれる画像部分だけを処理する方法
-- 認識されたテキストを取得し、コンソールに出力する方法
-- よくある落とし穴（例：矩形座標の誤り）とその迅速な対処法
+---
 
-**前提条件**
+## 前提条件
 
-- Java 8 以上がインストールされていること
-- Maven または Gradle で Aspose.OCR ライブラリ（`com.aspose:aspose-ocr`）を取得できること
-- `invoice.png` というサンプル請求書画像が既知のディレクトリに配置されていること
+作業を始める前に、以下が揃っていることを確認してください。
 
-すべて揃いましたか？ では、始めましょう。
+- Java Development Kit (JDK) 8 以上がインストールされていること。
+- 依存関係管理のための Maven または Gradle（例は Maven）。
+- Aspose OCR for Java のライセンス（無料トライアルでテスト可能）。
+- 既知のディレクトリに配置した請求書画像（`invoice.png`）。
 
-![Extract text from image using Java OCR](/images/extract-text-from-image-java.png "extract text from image example")
+これらに見覚えがなくても心配はいりません。ほとんどはダウンロードだけで手に入りますし、コミュニティエディションでもコードはコンパイルできます。
 
-## 画像からテキストを抽出 – ステップバイステップ Java OCR 例
+---
 
-以下に完全なソースコードを示します。`RoiOcrExample.java` にコピー＆ペーストしてそのまま実行してください。
+## 手順 1: Maven プロジェクトのセットアップ
+
+まず、Maven プロジェクトを新規作成（または既存プロジェクトに追加）します。`pom.xml` に Aspose OCR の依存関係を追加してください。
+
+```xml
+<!-- pom.xml -->
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-ocr</artifactId>
+        <version>23.9</version> <!-- Use the latest version available -->
+    </dependency>
+</dependencies>
+```
+
+> **プロのコツ:** バージョン番号は常に最新に保ちましょう。新しいリリースは、請求書に見られる特殊フォントの認識精度が向上していることが多いです。
+
+ファイルを保存したら、`mvn clean install` を実行してローカルリポジトリにライブラリを取得します。
+
+---
+
+## 手順 2: 請求書画像の読み込み
+
+ライブラリの準備ができたら、簡単な Java クラスを書きます。最初に行うのは `OcrEngine` インスタンスの作成と、読み込む画像へのパス指定です。
 
 ```java
 import com.aspose.ocr.*;
 
-public class RoiOcrExample {
+public class RoiExample {
     public static void main(String[] args) throws Exception {
+        // Step 2: Load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png"); // <-- replace with your path
+```
 
-        // Step 1: Create an OCR engine instance.
-        // The engine holds all configuration and performs the heavy lifting.
-        OcrEngine ocrEngine = new OcrEngine();
+なぜ画像の読み込み **前に** エンジンを作成するのか？エンジンは言語、DPI、ROI などの設定を保持します。画像を先に指定しておくことで、これらの設定が対象ファイルに正しく適用されます。
 
-        // Step 2: Load the source image.
-        // You can point to any PNG, JPG, or TIFF file. Here we use a sample invoice.
-        String imagePath = "YOUR_DIRECTORY/invoice.png";
-        ocrEngine.setImage(ImageStream.fromFile(imagePath));
+---
 
-        // Step 3: Define the region of interest (ROI) you want to recognize.
-        // x = 120, y = 340, width = 500, height = 120 – tweak these values for your own layout.
-        Rectangle regionOfInterest = new Rectangle(120, 340, 500, 120);
-        ocrEngine.setRegionOfInterest(regionOfInterest);
+## 手順 3: 関心領域 (ROI) の定義
 
-        // Step 4: Perform OCR on the specified ROI and retrieve the text.
-        // recognize() returns an OcrResult object; getText() extracts the plain string.
-        String extractedText = ocrEngine.recognize().getText();
+請求書にはテーブル、ロゴ、細字などノイズが多く含まれます。OCR をヘッダーと合計金額のみに絞ることで、速度と精度が大幅に向上します。Aspose では矩形で領域を指定できます。
 
-        // Step 5: Output the recognized text.
-        System.out.println("ROI text: " + extractedText);
+```java
+        // Step 3: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Apply ROI to the engine
+        engine.setRegion(region);
+```
+
+座標はピクセル単位（`x`, `y`, `width`, `height`）です。請求書のサイズがバラバラの場合は、画像サイズを取得して動的に計算すると良いでしょう。バッチ処理向けの **process invoice image** ソリューションを作る際の拡張ポイントです。
+
+---
+
+## 手順 4: 指定領域で OCR を実行
+
+ROI を設定したら、OCR エンジンは重要な部分にだけ注目します。`recognize()` メソッドは抽出されたテキストを含む `OcrResult` を返します。
+
+```java
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+```
+
+内部では Aspose が二値化、ノイズ除去、文字分割といった前処理を自動で行います。これらを手動で呼び出す必要はなく、`recognize()` に任せるだけです。
+
+---
+
+## 手順 5: 抽出テキストの出力
+
+最後に、テキストをコンソールに出力します。実際のアプリケーションではデータベースに保存したり、下流の分析パイプラインに渡したり、検索可能な PDF を生成したりすることも考えられます。
+
+```java
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
     }
 }
 ```
 
-### 各ステップが重要な理由
-
-1. **OCR エンジンの作成** – エンジンがなければ画像処理のコンテキストがありません。オブジェクトは後で多言語サポートが必要な場合に言語パックを調整することも可能です。  
-2. **画像の読み込み** – `ImageStream.fromFile` はファイル形式を抽象化し、エンジンがバイト列を正しく読み取れるようにします。これを省略すると `NullPointerException` が発生します。  
-3. **ROI の設定** – ページ全体を処理すると無駄が大きくなります。矩形を請求書の合計金額エリアに絞ることで認識速度が向上し、ノイズも減ります。  
-4. **`recognize()` の呼び出し** – ここで魔法が起きます。メソッドは ROI 上で OCR アルゴリズムを実行し、結果オブジェクトを生成します。  
-5. **出力の表示** – 実際のプロジェクトではデータベースに保存することが多いですが、デモとしては `System.out.println` が最適です。
-
-## Load Image for OCR
-
-パスは絶対でも相対でも構いませんが、Java プロセスがファイルを読み取れることを確認してください。Windows ではバックスラッシュをエスケープする必要があります（`C:\\images\\invoice.png`）またはスラッシュ表記（`C:/images/invoice.png`）でも構いません。
-
-**プロチップ:** 多数の請求書をループ処理する場合は、同じ `OcrEngine` インスタンスを再利用すると内部リソースがキャッシュされ、スループットが向上します。
-
-## Define Region of Interest (ROI)
-
-適切な矩形を決めるには試行錯誤が必要です。画像を GIMP や Paint.NET などのエディタで開き、対象領域上にカーソルを合わせるとステータスバーに X/Y 座標が表示されます。
-
-エッジケース: 請求書のレイアウトが可変の場合、まず画像全体をざっくりスキャンし、正規表現で “Total:” などのキーワードを検出してから ROI を動的に調整する方法があります。
-
-## Perform OCR and Get Text
-
-`recognize()` 呼び出しは同期的に動作し、エンジンが処理を完了するまでスレッドがブロックされます。大量バッチを処理する場合はスレッドプールを使って並列処理すると良いでしょう。ただし、各スレッドは独自の `OcrEngine` インスタンスを持つ必要があり、エンジンはスレッドセーフではありません。
-
-## Run and Verify Output
-
-コンパイルして実行:
-
-```bash
-javac -cp "path/to/aspose-ocr.jar" RoiOcrExample.java
-java -cp ".:path/to/aspose-ocr.jar" RoiOcrExample
-```
-
-以下のような出力が得られるはずです:
+プログラムを実行すると、次のような出力が得られるはずです。
 
 ```
-ROI text: $1,254.00
+ROI text:
+Acme Corp.
+Invoice #12345
+Date: 2025-12-31
+Total Amount: $1,250.00
 ```
 
-出力が文字化けしている場合は、ROI の座標を再確認し、画像品質（300 dpi 以上がベスト）を確保してください。
+出力が文字化けしている場合は、矩形座標を再確認するか、画像解像度を上げてみてください。OCR エンジンは鮮明で高 DPI のスキャンを好みます。
 
-### よくある落とし穴と対処法
+---
 
-| 症状 | 考えられる原因 | 対策 |
-|------|----------------|------|
-| 空文字列 | ROI が画像範囲外 | 矩形の値を画像サイズと照らし合わせて確認 |
-| 誤認識された単語 | 解像度が低い | 高解像度の画像を使用するか、二値化などの前処理を適用 |
-| `java.lang.NoClassDefFoundError` | クラスパスに Aspose JAR が無い | `aspose-ocr.jar` を `-cp` に追加するか、Maven/Gradle で依存管理 |
+## 完全動作サンプル
 
-## Conclusion
+以下は `src/main/java/RoiExample.java` にそのまま貼り付けて使用できる、自己完結型の Java ファイルです。外部スニペットは不要です。
 
-これで、Java で **extract text from image** を実現する簡潔な **java ocr example** が完成しました。画像を正しく読み込み、焦点を絞った ROI を定義し、`recognize()` を呼び出すだけで、請求書ファイルから確実に **extract text from invoice** でき、下流システムへデータを流し込むことができます。
+```java
+import com.aspose.ocr.*;
+import com.aspose.ocr.region.*;
 
-次は何をしますか？ ROI を日付やベンダー名など別フィールドに変更したり、言語パックを導入して多言語請求書に対応したり、OCR 処理を Spring Boot のマイクロサービスに組み込んでみてください。同様のパターンはレシート、パスポート、その他テキスト抽出が必要なドキュメントでも有効です。
+public class RoiExample {
+    public static void main(String[] args) throws Exception {
 
-このソリューションのスケーリングやノイズが多いスキャンの扱いについて質問があれば、下のコメント欄にどうぞ。ハッピーコーディング！
+        // Step 1: Create the OCR engine and load the source image
+        OcrEngine engine = new OcrEngine();
+        engine.setImage("YOUR_DIRECTORY/invoice.png");
+
+        // Step 2: Define the regions of interest (header and total amount)
+        OcrRegion region = OcrRegion.builder()
+                .addRectangle(0, 0, 800, 150)      // header area
+                .addRectangle(0, 1200, 800, 200)   // total amount area
+                .build();
+
+        // Step 3: Apply the ROI configuration to the engine
+        engine.setRegion(region);
+
+        // Step 4: Run OCR on the specified regions
+        OcrResult result = engine.recognize();
+
+        // Step 5: Output the extracted text
+        System.out.println("ROI text:");
+        System.out.println(result.getText());
+    }
+}
+```
+
+> **注意:** `YOUR_DIRECTORY` を請求書画像への絶対パスに置き換えてください。相対パスを使用する場合は、`java` コマンドを実行する作業ディレクトリが画像の場所と一致していることを確認してください。
+
+---
+
+## よくある質問とエッジケース
+
+### 請求書のサイズが変わったらどうする？
+
+ROI を動的に計算できます。
+
+```java
+int imgWidth = engine.getImage().getWidth();
+int imgHeight = engine.getImage().getHeight();
+
+int headerHeight = imgHeight / 10;
+int totalHeight = imgHeight / 8;
+
+OcrRegion region = OcrRegion.builder()
+        .addRectangle(0, 0, imgWidth, headerHeight)
+        .addRectangle(0, imgHeight - totalHeight, imgWidth, totalHeight)
+        .build();
+```
+
+### 複数言語に対応させるには？
+
+Aspose OCR は言語パックをサポートしています。`recognize()` を呼び出す前に言語を設定してください。
+
+```java
+engine.setLanguage(OcrLanguage.Spanish); // or OcrLanguage.English, etc.
+```
+
+### OCR が空文字列を返す場合の対処法は？
+
+主な原因は次の通りです。
+
+- 画像解像度が低い（300 DPI 未満）。解像度を上げるか、より高品質なスキャンを用意。
+- 背景が暗すぎる／明るすぎる。OCR 前に簡易コントラスト強調フィルタを適用。
+- ROI 座標が誤ってテキスト領域を外している。
+
+---
+
+## 本番環境向け OCR のヒント
+
+1. **バッチ処理:** ディレクトリ内の請求書ファイルをループで処理し、結果をログに残して監査可能にする。
+2. **エラーハンドリング:** `OcrException` を捕捉し、破損画像はジョブ全体を止めずにスキップ。
+3. **パフォーマンス:** 複数画像で同一の `OcrEngine` インスタンスを再利用。ファイルごとに新規作成すると余計なオーバーヘッドが発生。
+4. **検証:** 抽出後に合計金額の正規表現チェック（`\$\d{1,3}(,\d{3})*(\.\d{2})?`）を行い、数値が妥当か確認。
+
+これらを実装すれば、シンプルな **java ocr example** が、毎晩請求書画像を処理する堅牢でスケーラブルなソリューションへと進化します。
+
+---
+
+## 結論
+
+本稿では、Aspose OCR を使って Java で **画像からテキストを抽出** する方法を、実務的な請求書処理シナリオを通じて解説しました。関心領域を定義し、OCR エンジンを実行し、**出力 OCR テキスト** を表示する一連の流れを習得したことで、データ自動取得パイプラインの土台ができました。
+
+次のステップは？ ROI を拡張して明細テーブルも対象にしたり、言語設定を変えてみたり、抽出文字列を PDF 生成ライブラリに渡して検索可能文書を作成したりしてみてください。OCR と最新の Java ツールを組み合わせれば、可能性は無限に広がります。
+
+**他の文書タイプからテキストを抽出** したい、または特殊レイアウト向けに ROI を調整したいといった質問があれば、ぜひコメントで教えてください。ハッピーコーディング！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
