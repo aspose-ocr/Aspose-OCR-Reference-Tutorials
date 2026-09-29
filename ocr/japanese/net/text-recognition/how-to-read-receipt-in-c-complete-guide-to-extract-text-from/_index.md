@@ -22,20 +22,6 @@ title: C#で領収書を読み取る方法 – 画像からテキストを抽出
 url: /ja/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-shortcodes.
-
-Then heading "# How to Read Receipt in C# – Complete Guide" translate to Japanese: "# C#でレシートを読み取る方法 – 完全ガイド". Keep same heading level.
-
-Then paragraph.
-
-We need to translate natural Japanese.
-
-Proceed.
-
-Be careful to keep markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

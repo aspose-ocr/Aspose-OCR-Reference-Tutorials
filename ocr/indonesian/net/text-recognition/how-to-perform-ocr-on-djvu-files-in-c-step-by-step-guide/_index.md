@@ -24,8 +24,6 @@ title: Cara Melakukan OCR pada File DjVu di C# – Panduan Langkah demi Langkah
 url: /id/net/text-recognition/how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

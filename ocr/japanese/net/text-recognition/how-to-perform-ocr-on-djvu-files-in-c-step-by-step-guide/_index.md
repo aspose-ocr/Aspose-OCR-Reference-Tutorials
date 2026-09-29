@@ -22,16 +22,6 @@ title: C#でDjVuファイルにOCRを実行する方法 – ステップバイ�
 url: /ja/net/text-recognition/how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/
 ---
 
-ファイルに OCR を実行する方法 – 完全ガイド"
-
-Similarly other headings.
-
-Translate paragraphs.
-
-Preserve code block placeholders.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

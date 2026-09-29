@@ -24,8 +24,6 @@ title: C#에서 영수증 읽는 방법 – 이미지에서 텍스트 추출 완
 url: /ko/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-I'll write Korean translation preserving formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

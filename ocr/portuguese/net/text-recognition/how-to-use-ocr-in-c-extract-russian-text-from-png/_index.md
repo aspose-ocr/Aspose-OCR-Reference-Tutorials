@@ -22,10 +22,6 @@ title: como usar OCR em C# – Extrair texto russo de PNG
 url: /pt/net/text-recognition/how-to-use-ocr-in-c-extract-russian-text-from-png/
 ---
 
-to keep code block placeholders unchanged.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

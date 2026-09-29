@@ -22,8 +22,6 @@ title: Hur man batchar OCR i C# – Komplett guide för att extrahera text från
 url: /sv/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

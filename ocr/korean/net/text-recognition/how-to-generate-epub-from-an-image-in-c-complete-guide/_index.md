@@ -23,10 +23,6 @@ title: C#에서 이미지를 사용해 EPUB 생성하는 방법 – 완전 가�
 url: /ko/net/text-recognition/how-to-generate-epub-from-an-image-in-c-complete-guide/
 ---
 
-.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

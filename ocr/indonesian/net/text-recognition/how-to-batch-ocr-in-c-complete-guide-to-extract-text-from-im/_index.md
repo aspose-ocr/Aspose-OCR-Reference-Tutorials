@@ -22,11 +22,7 @@ title: Cara Batch OCR di C# – Panduan Lengkap untuk Mengekstrak Teks dari Gamb
 url: /id/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-blocks/products/products-backtop-button >}}
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

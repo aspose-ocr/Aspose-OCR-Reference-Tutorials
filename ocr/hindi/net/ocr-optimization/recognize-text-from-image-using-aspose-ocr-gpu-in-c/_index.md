@@ -23,18 +23,6 @@ title: Aspose OCR GPU का उपयोग करके C# में छवि
 url: /hi/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-उपयोग करके C# में इमेज से टेक्स्ट पहचानें" maybe. But we need to preserve the meaning. We'll translate.
-
-Similarly other headings.
-
-Now produce final content with all shortcodes and markdown.
-
-Let's craft translation.
-
-We'll keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

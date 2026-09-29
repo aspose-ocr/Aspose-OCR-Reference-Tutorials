@@ -25,7 +25,7 @@ title: Cómo generar EPUB a partir de una imagen en C# – Guía completa
 url: /es/net/text-recognition/how-to-generate-epub-from-an-image-in-c-complete-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

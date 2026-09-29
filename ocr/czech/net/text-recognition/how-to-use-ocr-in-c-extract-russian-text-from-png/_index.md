@@ -22,9 +22,7 @@ title: jak použít OCR v C# – Extrahovat ruský text z PNG
 url: /cs/net/text-recognition/how-to-use-ocr-in-c-extract-russian-text-from-png/
 ---
 
-" we keep.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

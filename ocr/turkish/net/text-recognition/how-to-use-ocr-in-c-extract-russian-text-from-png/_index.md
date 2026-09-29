@@ -22,12 +22,6 @@ title: C#'ta OCR nasıl kullanılır – PNG'den Rusça Metin Çıkarma
 url: /tr/net/text-recognition/how-to-use-ocr-in-c-extract-russian-text-from-png/
 ---
 
-translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

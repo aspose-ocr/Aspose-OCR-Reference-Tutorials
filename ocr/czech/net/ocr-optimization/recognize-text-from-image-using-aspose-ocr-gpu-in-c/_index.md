@@ -23,25 +23,7 @@ title: rozpoznat text z obrázku pomocí Aspose OCR GPU v C#
 url: /cs/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-ný, připravený k spuštění příklad".
-
-Translate "What This Code Does" -> "Co tento kód dělá".
-
-Translate bullet points.
-
-Translate "Going Further – From “recognize text from image” to Full‑Scale Document Pipelines" -> "Dál – Od „rozpoznání textu z obrázku“ k plnohodnotným dokumentovým pipelineům".
-
-Translate bullet list.
-
-Translate "Conclusion" -> "Závěr".
-
-Translate final paragraphs.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the image markdown unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

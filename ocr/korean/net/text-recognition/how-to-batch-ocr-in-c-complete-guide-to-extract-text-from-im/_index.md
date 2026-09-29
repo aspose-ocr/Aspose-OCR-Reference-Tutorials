@@ -22,9 +22,7 @@ title: C#에서 배치 OCR 수행 방법 – 이미지에서 텍스트 추출 �
 url: /ko/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-preserve all.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

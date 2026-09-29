@@ -23,11 +23,7 @@ title: วิธีสร้าง EPUB จากภาพใน C# – คู�
 url: /th/net/text-recognition/how-to-generate-epub-from-an-image-in-c-complete-guide/
 ---
 
-/products/products-backtop-button >}}
-
-Make sure not to translate those.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

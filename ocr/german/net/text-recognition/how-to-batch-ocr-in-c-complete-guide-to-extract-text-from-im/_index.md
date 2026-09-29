@@ -24,10 +24,6 @@ title: Wie man Batch-OCR in C# durchführt – Vollständige Anleitung zum Extra
 url: /de/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-CODE_BLOCK_0}} etc. Keep them.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

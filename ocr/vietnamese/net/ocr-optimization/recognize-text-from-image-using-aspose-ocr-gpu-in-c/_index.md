@@ -25,9 +25,7 @@ title: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR GPU trong C#
 url: /vi/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-keep code block placeholders unchanged.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

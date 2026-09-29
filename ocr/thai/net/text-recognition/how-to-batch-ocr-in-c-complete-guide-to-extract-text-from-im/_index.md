@@ -22,9 +22,7 @@ title: วิธีทำ OCR แบบแบตช์ใน C# – คู่ม
 url: /th/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-code placeholders unchanged.
-
-Now write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

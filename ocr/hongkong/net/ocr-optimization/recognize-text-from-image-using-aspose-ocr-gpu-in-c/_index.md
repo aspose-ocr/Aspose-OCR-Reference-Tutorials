@@ -21,18 +21,6 @@ title: 在 C# 中使用 Aspose OCR GPU 從圖像辨識文字
 url: /zh-hant/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-於 C# 進行影像文字辨識". Keep capitalisation? We'll translate natural.
-
-Now paragraph.
-
-We'll translate each paragraph.
-
-Let's craft translation.
-
-Be careful with code placeholders.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

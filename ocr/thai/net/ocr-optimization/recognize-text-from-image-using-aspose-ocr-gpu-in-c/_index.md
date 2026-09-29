@@ -23,14 +23,6 @@ title: แยกข้อความจากภาพโดยใช้ Aspose
 url: /th/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-.
-
-Also keep the "Pro tip:" etc.
-
-Make sure to keep markdown syntax.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

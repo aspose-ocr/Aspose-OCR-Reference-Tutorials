@@ -23,11 +23,7 @@ title: hogyan használjuk az OCR-t C#-ban – orosz szöveg kinyerése PNG-ből
 url: /hu/net/text-recognition/how-to-use-ocr-in-c-extract-russian-text-from-png/
 ---
 
-All unchanged.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

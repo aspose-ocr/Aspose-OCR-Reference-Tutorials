@@ -21,15 +21,7 @@ title: C#でAspose OCR GPUを使用して画像からテキストを認識する
 url: /ja/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-acceleration you can turn a massive scanned TIFF into clean, searchable text in seconds."
-
-Translate to Japanese.
-
-Proceed.
-
-Will keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

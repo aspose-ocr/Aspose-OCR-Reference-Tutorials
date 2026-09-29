@@ -25,26 +25,6 @@ title: reconhecer texto de imagem usando Aspose OCR GPU em C#
 url: /pt/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-We need to translate the tutorial text.
-
-Let's go section by section.
-
-First three shortcodes lines remain unchanged.
-
-Then heading "# recognize text from image using Aspose OCR GPU in C#" translate to Portuguese: "# reconhecer texto de imagem usando Aspose OCR GPU em C#". Keep same case? We'll translate.
-
-Then paragraph.
-
-We'll translate each paragraph.
-
-Make sure to keep code block placeholders unchanged.
-
-Also tables.
-
-Translate table content but keep structure.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,18 +23,6 @@ title: Comment faire de l’OCR par lots en C# – Guide complet pour extraire l
 url: /fr/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-Guide complet pour extraire du texte à partir d'images". Keep #.
-
-Then paragraph.
-
-Let's translate.
-
-Be careful with **bold** markers.
-
-Also keep code block placeholders unchanged.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

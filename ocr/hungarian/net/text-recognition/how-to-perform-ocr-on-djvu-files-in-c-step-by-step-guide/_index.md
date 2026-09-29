@@ -25,13 +25,7 @@ title: Hogyan végezzünk OCR-t DjVu fájlokon C#‑ban – Lépésről lépésr
 url: /hu/net/text-recognition/how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/
 ---
 
-How to Perform OCR on DjVu Files in C# – Complete Guide" => "Hogyan végezzünk OCR-t DjVu fájlokon C#-ban – Teljes útmutató"
-
-Paragraphs.
-
-We'll translate naturally.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

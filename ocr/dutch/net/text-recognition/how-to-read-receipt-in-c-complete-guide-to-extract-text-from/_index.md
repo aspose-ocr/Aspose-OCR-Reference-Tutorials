@@ -27,15 +27,7 @@ title: Hoe een bon te lezen in C# – Complete gids voor het extraheren van teks
 url: /nl/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-to "Oplossing / Aanbeveling". Keep bold text maybe.
-
-Also keep code snippets unchanged.
-
-Now produce final content with all translations.
-
-Be careful not to translate shortcodes at end.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

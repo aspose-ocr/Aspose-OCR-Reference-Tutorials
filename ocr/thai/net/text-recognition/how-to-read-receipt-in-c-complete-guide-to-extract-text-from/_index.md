@@ -24,14 +24,6 @@ title: วิธีอ่านใบเสร็จใน C# – คู่ม�
 url: /th/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-.
-
-We need to translate the table content: Situation, Fix / Recommendation, and the rows.
-
-Translate the step headings and other text.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

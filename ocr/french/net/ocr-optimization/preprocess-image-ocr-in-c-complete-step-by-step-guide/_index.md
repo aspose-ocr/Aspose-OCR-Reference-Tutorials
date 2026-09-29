@@ -23,10 +23,6 @@ title: Prétraiter l'OCR d'image en C# – Guide complet étape par étape
 url: /fr/net/ocr-optimization/preprocess-image-ocr-in-c-complete-step-by-step-guide/
 ---
 
-triple backticks? Actually they are placeholders for code blocks. In original they are placed as separate lines, not inside triple backticks. We must keep them as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

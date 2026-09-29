@@ -25,16 +25,6 @@ title: Reconnaître le texte d’une image en utilisant Aspose OCR GPU en C#
 url: /fr/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-content.
-
-Be careful with French punctuation: use spaces before colon? Not necessary.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

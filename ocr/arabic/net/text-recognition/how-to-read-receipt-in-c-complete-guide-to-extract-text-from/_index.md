@@ -24,12 +24,6 @@ title: كيفية قراءة الإيصال في C# – دليل كامل لاس
 url: /ar/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-"الإصلاح / التوصية". But need to preserve pipe formatting. Let's translate.
-
-Also bullet lists.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

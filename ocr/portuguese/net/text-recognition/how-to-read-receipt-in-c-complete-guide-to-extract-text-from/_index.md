@@ -24,9 +24,7 @@ title: Como Ler Recibo em C# – Guia Completo para Extrair Texto de Imagem
 url: /pt/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-they are placeholders. The requirement says preserve all code blocks fenced. There are none besides placeholders. So fine.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

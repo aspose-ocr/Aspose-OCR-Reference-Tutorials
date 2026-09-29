@@ -22,18 +22,6 @@ title: Cómo realizar OCR por lotes en C# – Guía completa para extraer texto 
 url: /es/net/text-recognition/how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/
 ---
 
-"vista previa de cómo hacer OCR por lotes" maybe. Title also translate. We'll translate.
-
-Also translate table content: headings and cells.
-
-Also translate bullet points.
-
-Also translate any quoted text.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

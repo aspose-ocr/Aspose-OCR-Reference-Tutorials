@@ -24,10 +24,6 @@ title: Preprocesar OCR de imágenes en C# – Guía completa paso a paso
 url: /es/net/ocr-optimization/preprocess-image-ocr-in-c-complete-step-by-step-guide/
 ---
 
-but keep technical terms. Alt text is textual, so translate. So alt text becomes "ejemplo de preprocesamiento de OCR de imagen". Title attribute also translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,14 +25,6 @@ title: Hogyan olvassuk be a nyugtát C#-ban – Teljes útmutató a képről sz�
 url: /hu/net/text-recognition/how-to-read-receipt-in-c-complete-guide-to-extract-text-from/
 ---
 
-; but we can translate: "Elsődleges kulcsszó akcióban". But maybe keep English? Not required. We'll translate.
-
-Also "Pro tip:" keep as is? Could translate "Pro tipp:".
-
-All other text.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

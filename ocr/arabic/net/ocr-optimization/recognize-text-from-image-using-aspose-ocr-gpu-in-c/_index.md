@@ -24,28 +24,6 @@ title: التعرف على النص من الصورة باستخدام Aspose OC
 url: /ar/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-alt text is "recognize text from image example". Should translate alt text? Probably yes, it's text content. But must preserve image markdown format. So alt text becomes Arabic translation: "مثال على التعرف على النص من صورة". Keep URL unchanged.
-
-Also translate table headers and cells.
-
-Let's produce Arabic translation.
-
-Be careful with direction: Arabic is RTL but markdown still left-to-right; we just write Arabic text.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Then heading "# recognize text from image using Aspose OCR GPU in C#" translate: "# التعرف على النص من صورة باستخدام Aspose OCR GPU في C#"
-
-Similarly other headings.
-
-Now body paragraphs.
-
-I'll translate naturally.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

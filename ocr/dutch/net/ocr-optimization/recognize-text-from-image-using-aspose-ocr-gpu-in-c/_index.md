@@ -25,8 +25,6 @@ title: tekst herkennen uit afbeelding met Aspose OCR GPU in C#
 url: /nl/net/ocr-optimization/recognize-text-from-image-using-aspose-ocr-gpu-in-c/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

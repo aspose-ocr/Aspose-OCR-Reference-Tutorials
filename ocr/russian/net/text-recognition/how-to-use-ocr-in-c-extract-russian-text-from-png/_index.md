@@ -23,14 +23,6 @@ title: Как использовать OCR в C# – извлечение рус
 url: /ru/net/text-recognition/how-to-use-ocr-in-c-extract-russian-text-from-png/
 ---
 
-title also.
-
-Similarly table content: "Situation", "What to Do", etc. Translate.
-
-List items: translate.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -27,9 +27,7 @@ title: Comment effectuer la reconnaissance optique de caractères (OCR) sur des 
 url: /fr/net/text-recognition/how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/
 ---
 
-.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

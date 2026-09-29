@@ -21,9 +21,7 @@ title: 如何使用 C# 從圖片生成 EPUB – 完整指南
 url: /zh-hant/net/text-recognition/how-to-generate-epub-from-an-image-in-c-complete-guide/
 ---
 
-Proceed.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
