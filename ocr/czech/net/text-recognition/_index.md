@@ -59,6 +59,21 @@ Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy
 Kompletní návod, jak v C# pomocí Aspose.OCR extrahovat text z PDF souborů a integrovat jej do vašich aplikací.
 ### [Rozpoznat tabulku v OCR rozpoznávání obrazu](./recognize-table/)
 Odemkněte potenciál Aspose.OCR pro .NET pomocí našeho komplexního průvodce rozpoznáváním tabulek při rozpoznávání obrázků OCR.
+### [Jak používat OCR v C# – Extrahovat ruský text z PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Naučte se pomocí Aspose.OCR v C# extrahovat ruský text z PNG souborů s vysokou přesností.
+
+### [Jak číst účtenky v C# – Kompletní průvodce extrakcí textu z obrázku](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z obrázku účtenky s vysokou přesností.
+
+### [Jak vygenerovat EPUB z obrázku v C# – Kompletní průvodce](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Naučte se pomocí Aspose.OCR v C# vytvořit soubor EPUB přímo z obrázku s podrobným návodem.
+
+### [Jak provést OCR na souborech DjVu v C# – krok za krokem průvodce](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v C# rozpoznávat text v souborech DjVu s podrobným krok za krokem návodem.
+
+### [Jak provést hromadný OCR v C# – Kompletní průvodce extrakcí textu z obrázků](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Naučte se pomocí Aspose.OCR v C# provádět hromadný OCR a extrahovat text z více obrázků najednou.
+
 ### [Jak rozpoznat hindštinu z obrázků v C# – krok za krokem průvodce](./how-to-recognize-hindi-from-images-in-c-step-by-step-guide/)
 Naučte se pomocí Aspose.OCR v .NET rozpoznávat hindské znaky z obrázků s podrobným krokovým návodem.
 
@@ -142,18 +157,6 @@ Naučte se vytvořit prohledávatelný PDF pomocí Aspose OCR pomocí podrobnéh
 Naučte se dávkově zpracovávat PNG soubory pomocí OCR v C# s Aspose OCR a získávejte text automaticky.
 ### [Jak provést OCR v C# – krok za krokem průvodce](./how-to-perform-ocr-in-c-step-by-step-guide/)
 Naučte se provádět OCR v C# pomocí podrobného krok za krokem průvodce s Aspose.OCR.
-### [Jak používat OCR v C# – Extrahovat ruský text z PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
-Naučte se pomocí Aspose.OCR v C# extrahovat ruský text z PNG souborů s vysokou přesností.
-### [Jak číst účtenky v C# – Kompletní průvodce extrakcí textu z obrázku](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
-Naučte se pomocí Aspose.OCR v C# extrahovat text z obrázku účtenky s vysokou přesností.
-### [Jak vygenerovat EPUB z obrázku v C# – Kompletní průvodce](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
-Naučte se pomocí Aspose.OCR v C# vytvořit soubor EPUB přímo z obrázku s podrobným návodem.
-### [Jak provést OCR na souborech DjVu v C# – krok za krokem průvodce](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
-Naučte se pomocí Aspose.OCR v C# rozpoznávat text v souborech DjVu s podrobným krok za krokem návodem.
-### [Jak provést hromadný OCR v C# – Kompletní průvodce extrakcí textu z obrázků](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
-Naučte se pomocí Aspose.OCR v C# provádět hromadný OCR a extrahovat text z více obrázků najednou.
-### [c# OCR tutoriál – Extrahujte text z obrázků pomocí Aspose.OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
-Naučte se pomocí Aspose.OCR v C# extrahovat text z obrázků s vysokou přesností a snadnou integrací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -215,6 +218,8 @@ Kompletní lokální průvodce pro rozpoznávání textu v PNG souborech pomocí
 Naučte se pomocí Aspose.OCR v .NET extrahovat hindský text z PNG účtenek a integrovat výsledek do vašich aplikací.
 ### [c# OCR tutoriál – Extrahování textu z obrázku a souborů DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
 Naučte se pomocí Aspose.OCR v .NET extrahovat text z obrázků i souborů DJVU a integrovat výsledek do vašich aplikací.
+### [c# OCR tutoriál – Extrahování textu z obrázků s Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Naučte se pomocí Aspose OCR v .NET extrahovat text z obrázků a integrovat výsledek do vašich aplikací.
 ### [c# OCR tutoriál – Extrahujte text z obrázku pomocí Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
 Naučte se, jak v C# pomocí Aspose OCR extrahovat text z jediného obrázku a integrovat OCR do svých aplikací.
 

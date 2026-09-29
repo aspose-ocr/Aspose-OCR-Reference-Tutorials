@@ -44,20 +44,22 @@ url: /th/net/text-recognition/
 
 นำทางความซับซ้อนของการจดจำตารางในการจดจำรูปภาพ OCR ด้วย Aspose.OCR สำหรับ .NET คู่มือที่ครอบคลุมของเราช่วยให้คุณปลดล็อกศักยภาพของ Aspose.OCR ได้อย่างเต็มที่ ทำให้มั่นใจได้ถึงการจดจำตารางที่แม่นยำและมีประสิทธิภาพในแอปพลิเคชันของคุณ ยกระดับโครงการของคุณด้วยโซลูชัน OCR ชั้นนำของอุตสาหกรรม
 
+พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
+## บทช่วยสอนการรู้จำข้อความ
 ### [วิธีทำ OCR บนไฟล์ DjVu ใน C# – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแปลงไฟล์ DjVu ให้เป็นข้อความด้วยขั้นตอนง่าย ๆ และแม่นยำ
 
+### [วิธีใช้ OCR ใน C# – ดึงข้อความรัสเซียจาก PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+
 ### [วิธีอ่านใบเสร็จใน C# – คู่มือครบถ้วนสำหรับการดึงข้อความจากรูปภาพ](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
 
-พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
-## บทช่วยสอนการรู้จำข้อความ
+### [วิธีทำ OCR แบบกลุ่มใน C# – คู่มือครบถ้วนเพื่อดึงข้อความจากรูปภาพ](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+
 ### [รับตัวเลือกสำหรับอักขระที่จดจำในการจดจำรูปภาพ OCR](./get-choices-for-recognized-characters/)
 ### [รับผลการรับรู้ในการจดจำรูปภาพ OCR](./get-recognition-result/)
 ### [รับผลลัพธ์เป็น JSON ในการรับรู้ภาพ OCR](./get-result-as-json/)
 ### [แปลงรูปภาพเป็น JSON ด้วย Aspose OCR C# Guide](./convert-image-to-json-with-aspose-ocr-c-guide/)
 เรียนรู้วิธีแปลงรูปภาพเป็น JSON ด้วย Aspose OCR ใน C# อย่างง่ายดายและรวดเร็ว
-### [c# OCR tutorial – ดึงข้อความจากรูปภาพด้วย Aspose.OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
-เรียนรู้วิธีสกัดข้อความจากรูปภาพด้วย Aspose.OCR ใน C# ผ่านขั้นตอนง่าย ๆ เพื่อเพิ่มประสิทธิภาพการจดจำ OCR ของคุณ
 ### [OCR ตรวจจับโหมดพื้นที่ในการจดจำภาพ OCR](./ocr-detect-areas-mode/)
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
 ### [วิธีทำ OCR PDF ใน C# – คู่มือฉบับสมบูรณ์เพื่อดึงข้อความจาก PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
@@ -146,9 +148,6 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีการ OCR ภาษาอาหรับใน C# ด้วย Aspose.OCR อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการแสดงผลข้อความ
 ### [วิธีทำ Batch OCR ใน C# – ดึงข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
 เรียนรู้วิธีประมวลผล OCR หลายรูปภาพพร้อมกันใน C# เพื่อดึงข้อความอย่างรวดเร็วและมีประสิทธิภาพ
-### [วิธีใช้ OCR ใน C# – ดึงข้อความรัสเซียจาก PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
-### [วิธีอ่านใบเสร็จใน C# – คู่มือครบถ้วนสำหรับการดึงข้อความจากรูปภาพ](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
-### [วิธีทำ OCR แบบกลุ่มใน C# – คู่มือครบถ้วนเพื่อดึงข้อความจากรูปภาพ](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -191,6 +190,8 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความใน JPG ด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความจากไฟล์ JPG อย่างละเอียดและครบถ้วน
 ### [c# OCR tutorial – ดึงข้อความจากรูปภาพและไฟล์ DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+### [c# OCR tutorial – ดึงข้อความจากภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อสกัดข้อความจากภาพอย่างละเอียดและครบถ้วน
 ### [ดึงข้อความจากไฟล์ TIFF ด้วย Aspose OCR C# – บทเรียนเต็ม](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อสกัดข้อความจากไฟล์ TIFF อย่างละเอียดและครบถ้วน
 ### [วิธีรัน OCR ใน C# – คู่มือฉบับสมบูรณ์กับ Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)

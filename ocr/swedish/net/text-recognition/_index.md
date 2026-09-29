@@ -66,6 +66,21 @@ Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text
 
 ### [Identifiera tabell i OCR-bildigenkänning](./recognize-table/)
 Lås upp potentialen hos Aspose.OCR för .NET med vår omfattande guide om att känna igen tabeller i OCR-bildigenkänning.
+### [Hur man använder OCR i C# – Extrahera rysk text från PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Lär dig hur du med Aspose.OCR i C# extraherar rysk text från PNG-bilder med enkel kod.
+
+### [Hur man läser kvitto i C# – Komplett guide för att extrahera text från bild](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Lär dig hur du med Aspose.OCR i C# extraherar text från kvittobilder för snabb och exakt datautvinning.
+
+### [Hur man genererar EPUB från en bild i C# – Komplett guide](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Lär dig steg-för-steg hur du skapar en EPUB-fil från en bild med Aspose.OCR i C# för enkel publicering.
+
+### [Hur man utför OCR på DjVu-filer i C# – Steg‑för‑steg‑guide](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR i C# kan läsa text från DjVu-filer med en enkel steg‑för‑steg‑guide.
+
+### [Hur man batch-OCR i C# – Komplett guide för att extrahera text från bilder](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Lär dig hur du med Aspose.OCR i C# kan batchbearbeta bilder för att snabbt extrahera text.
+
 ### [Hur du använder OCR i C# – Känn igen text från bild snabbt](./how-to-use-ocr-in-c-recognize-text-from-image-quickly/)
 Lär dig snabbt att implementera OCR i C# för att extrahera text från bilder med minimal kod.
 
@@ -146,18 +161,6 @@ Lär dig hur du med Aspose.OCR för .NET kör OCR på en bild i C# med en komple
 Lär dig att bearbeta flera filer med OCR i C# med ett komplett kodexempel för Aspose.OCR.
 ### [Hur man utför OCR i C# – Konvertera bild till JSON-guide](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Lär dig hur du med Aspose.OCR för .NET konverterar en bild till JSON-format i en enkel steg-för-steg-guide.
-### [Hur man använder OCR i C# – Extrahera rysk text från PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
-Lär dig hur du med Aspose.OCR i C# extraherar rysk text från PNG-bilder med enkel kod.
-### [Hur man läser kvitto i C# – Komplett guide för att extrahera text från bild](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
-Lär dig hur du med Aspose.OCR i C# extraherar text från kvittobilder för snabb och exakt datautvinning.
-### [Hur man genererar EPUB från en bild i C# – Komplett guide](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
-Lär dig steg-för-steg hur du skapar en EPUB-fil från en bild med Aspose.OCR i C# för enkel publicering.
-### [Hur man utför OCR på DjVu-filer i C# – Steg‑för‑steg‑guide](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
-Lär dig hur du med Aspose.OCR i C# kan läsa text från DjVu-filer med en enkel steg‑för‑steg‑guide.
-### [Hur man batch-OCR i C# – Komplett guide för att extrahera text från bilder](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
-Lär dig hur du med Aspose.OCR i C# kan batchbearbeta bilder för att snabbt extrahera text.
-### [c# OCR-handledning – Extrahera text från bilder med Aspose.OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
-Lär dig hur du med Aspose.OCR i C# extraherar text från bilder snabbt och exakt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -207,6 +210,8 @@ Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från JPG�
 Lär dig hur du med Aspose.OCR för .NET extraherar text från bild- och DJVU-filer med C#.
 ### [c# OCR-handledning – Extrahera text från TIFF med Aspose OCR](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från TIFF‑filer.
+### [c# OCR-handledning – Extrahera text från bilder med Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från bilder.
 ### [Hur man ladda ner OCR-resurser och känner igen text från bild i C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
 Lär dig att ladda ner OCR-resurser och extrahera text från en bild med Aspose OCR i C#.
 
