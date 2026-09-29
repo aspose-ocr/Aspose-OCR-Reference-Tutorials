@@ -110,3 +110,5 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [在 Java 中使用 Aspose OCR 辨識影像文字](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+使用 Aspose OCR 在 Java 中從影像中辨識文字，提升 OCR 效能與準確度。

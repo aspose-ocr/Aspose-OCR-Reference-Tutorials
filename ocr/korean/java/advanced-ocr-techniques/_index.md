@@ -102,6 +102,8 @@ Java에서 대형 이미지에 대한 OCR 엔진을 생성하고 텍스트를 �
 GPU를 활용해 Java OCR 성능을 크게 향상시키는 단계별 가이드입니다. 빠른 텍스트 추출을 경험하세요.
 ### [Java에서 이미지 OCR 수행 – 손글씨 메모와 맞춤법 검사](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Java에서 손글씨 메모 이미지를 OCR하고 맞춤법 검사를 적용하는 방법을 단계별로 안내합니다. 정확한 텍스트 추출을 경험하세요.
+### [Java에서 Aspose OCR을 사용하여 이미지에서 텍스트 인식하는 방법](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Aspose OCR을 활용해 Java에서 이미지 텍스트를 정확히 추출하는 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

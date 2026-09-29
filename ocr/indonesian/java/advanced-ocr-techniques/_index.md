@@ -67,12 +67,9 @@ Pelajari cara mempercepat OCR menggunakan GPU dalam aplikasi Java dengan panduan
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam panduan Java lengkap yang mudah diikuti.
 ### [Mengurangi Noise Gambar dalam OCR dengan Aspose – Panduan Java Lengkap](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 Pelajari cara mengurangi noise pada gambar untuk meningkatkan akurasi OCR menggunakan Aspose dalam panduan Java lengkap.
-
 ### [Cara Menjalankan OCR pada Dokumen Besar – Panduan Java Lengkap](./how-to-run-ocr-on-large-documents-complete-java-guide/)
-
 Pelajari cara memproses dokumen besar dengan OCR menggunakan Aspose.OCR untuk Java secara efisien dan akurat.
 ### [Cara Mengaktifkan GPU untuk OCR – Ekstraksi Cepat Teks dari Gambar](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
-
 Pelajari cara mengaktifkan GPU untuk mempercepat proses OCR dan mengekstrak teks dari gambar dengan lebih cepat menggunakan Aspose.OCR.
 ### [Cara Mengaktifkan GPU untuk OCR di Java – Mengenali Teks dari Gambar dengan Cepat](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
 Aktifkan GPU untuk mempercepat OCR di Java, mengenali teks gambar dengan cepat menggunakan Aspose.OCR.
@@ -84,25 +81,22 @@ Pelajari cara mengaktifkan GPU untuk meningkatkan kinerja OCR pada aplikasi Java
 Pelajari cara mengenali teks dari gambar secara paralel menggunakan Java dengan panduan langkah demi langkah.
 ### [Ekstrak Teks dari Gambar Java – Panduan OCR Lengkap dengan Koreksi Ejaan](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Pelajari cara mengekstrak teks dari gambar di Java dengan OCR lengkap serta koreksi ejaan untuk hasil yang akurat.
-
 ### [Melakukan OCR pada Gambar dengan Aspose OCR – Panduan Langkah-demi-Langkah Java](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 Ikuti panduan lengkap untuk melakukan OCR pada gambar menggunakan Aspose OCR untuk Java dengan langkah mudah dan akurasi tinggi.
-
 ### [Mendeteksi Bahasa pada Gambar dengan Aspose OCR – Tutorial Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Deteksi bahasa dalam gambar secara akurat menggunakan Aspose OCR untuk Java. Tingkatkan aplikasi Anda dengan kemampuan multibahasa.
-
 ### [Cara Mengaktifkan GPU untuk OCR dan Mengekstrak Teks dari TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Aktifkan akselerasi GPU pada Aspose.OCR untuk Java dan ekstrak teks dari file TIFF dengan cepat dan akurat.
-
 ### [Cara Mengoreksi Kemiringan Gambar untuk OCR – Panduan Pra‑pemrosesan Java Lengkap](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
 Aktifkan pra‑pemrosesan gambar dengan membenahi kemiringan untuk OCR menggunakan Aspose.OCR di Java.
-
 ### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Java](./extract-text-from-image-with-aspose-ocr-java-guide/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan Java yang mudah diikuti.
 ### [Cara Mengaktifkan GPU untuk OCR di Java – Panduan Lengkap](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR untuk Java, meningkatkan kecepatan dan akurasi OCR secara signifikan.
 ### [Cara Melakukan OCR Gambar di Java – Catatan Tangan dengan Pemeriksaan Ejaan](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Pelajari cara OCR gambar catatan tulisan tangan di Java dengan fitur pemeriksaan ejaan untuk hasil teks yang akurat.
+### [Cara mengenali teks dari gambar di Java menggunakan Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Pelajari cara mengenali teks dalam gambar menggunakan Aspose OCR pada aplikasi Java dengan langkah mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

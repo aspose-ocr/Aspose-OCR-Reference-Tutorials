@@ -98,6 +98,9 @@ url: /ar/java/advanced-ocr-techniques/
 دليل شامل لتمكين GPU في Aspose.OCR لـ Java لتحسين سرعة ودقة التعرف الضوئي على الحروف.
 ### [كيفية التعرف الضوئي على الحروف (OCR) لصورة في Java – ملاحظات مكتوبة بخط اليد مع تدقيق إملائي](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 
+### [كيفية التعرف على النص من صورة في جافا باستخدام Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+تعلم كيفية استخراج النص من الصور في جافا باستخدام Aspose OCR خطوة بخطوة بدقة عالية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

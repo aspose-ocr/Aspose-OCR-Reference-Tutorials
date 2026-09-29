@@ -63,7 +63,7 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 ### [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
 ปลดล็อกการแยกข้อความจากรูปภาพได้อย่างราบรื่นด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่มีประสิทธิภาพ
 ### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือฉบับสมบูรณ์](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
-เรียนรู้วิธีเปิดใช้ GPU เพื่อเพิ่มความเร็วของ OCR ใน Java ด้วย Aspose.OCR อย่างละเอียด
+เรียนรู้วิธีเปิดใช้งาน GPU เพื่อเพิ่มความเร็วของ OCR ใน Java ด้วย Aspose.OCR อย่างละเอียด
 
 ### [วิธีทำ OCR รูปภาพใน Java – โน้ตมือเขียนพร้อมการตรวจสอบการสะกด](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 เรียนรู้วิธี OCR รูปภาพของโน้ตมือเขียนใน Java พร้อมการตรวจสอบการสะกดเพื่อผลลัพธ์ที่แม่นยำ
@@ -115,6 +115,8 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีทำ OCR แบบขนานบนภาพด้วย Java เพื่อเพิ่มความเร็วและประสิทธิภาพในการแยกข้อความ
 ### [แยกข้อความจากรูปภาพด้วย Java – คู่มือ OCR ครบถ้วนพร้อมการแก้ไขการสะกด](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 เรียนรู้วิธีทำ OCR บนรูปภาพด้วย Java พร้อมการแก้ไขการสะกดเพื่อผลลัพธ์ที่แม่นยำ ดาวน์โหลดตอนนี้
+### [วิธีจดจำข้อความจากรูปภาพใน Java ด้วย Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+เรียนรู้วิธีจดจำข้อความจากรูปภาพใน Java ด้วย Aspose OCR อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

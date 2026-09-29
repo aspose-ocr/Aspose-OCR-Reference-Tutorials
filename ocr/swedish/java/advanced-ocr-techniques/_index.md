@@ -104,6 +104,8 @@ Lär dig extrahera text från bilder i Java med en komplett OCR‑guide och stav
 Lär dig aktivera GPU-acceleration för OCR i Java med Aspose.OCR för snabbare och exakt textigenkänning.
 ### [Hur du OCR:ar bild i Java – Handskrivna anteckningar med stavningskontroll](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Lär dig OCR på handskrivna anteckningar i Java med stavningskontroll för exakt textigenkänning.
+### [Hur du känner igen text från bild i Java med Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Lär dig hur du med Aspose OCR extraherar text från bilder i Java för snabb och exakt igenkänning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
