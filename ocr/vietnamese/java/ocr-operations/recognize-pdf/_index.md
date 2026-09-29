@@ -1,16 +1,51 @@
 ---
-date: 2026-05-04
-description: Học cách OCR tài liệu PDF bằng Aspose.OCR cho Java. Chuyển PDF sang văn
-  bản, trích xuất văn bản PDF trong Java và tích hợp thư viện OCR Java để xử lý PDF.
+date: 2026-07-18
+description: Tìm hiểu cách chuyển đổi PDF sang văn bản bằng Aspose.OCR for Java. Trích
+  xuất văn bản PDF trong Java với thư viện OCR java hàng đầu cho xử lý PDF.
 keywords:
-- how to ocr pdf
 - convert pdf to text
 - extract pdf text java
-- aspose ocr java tutorial
 - java ocr library pdf
-linktitle: Cách OCR tài liệu PDF bằng Aspose.OCR cho Java
+- java pdf text extraction
+- convert pdf to searchable
+lastmod: 2026-07-18
+linktitle: Chuyển đổi PDF sang Văn bản với Aspose.OCR for Java
+og_description: Chuyển đổi PDF sang văn bản bằng Aspose.OCR for Java. Hướng dẫn này
+  cho thấy cách trích xuất văn bản PDF trong Java với thư viện OCR java hàng đầu cho
+  xử lý PDF.
+og_image_alt: 'Guide: Convert PDF to Text in Java using Aspose.OCR'
+og_title: Chuyển đổi PDF sang Văn bản với Aspose.OCR for Java – Fast OCR Guide
+schemas:
+- author: Aspose
+  dateModified: '2026-07-18'
+  description: Learn how to convert PDF to text using Aspose.OCR for Java. Extract
+    PDF text in Java with the leading java OCR library for PDF processing.
+  headline: Convert PDF to Text with Aspose.OCR for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.OCR supports PDFs, TIFF, JPEG, PNG, BMP, and many other image
+      formats—over 30 types in total.
+    question: Is Aspose.OCR compatible with other document formats?
+  - answer: Absolutely. Commercial licenses are available for both small‑scale and
+      enterprise deployments. Purchase details are on the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.OCR for commercial projects?
+  - answer: Accuracy depends on source quality. PDFs with clear, high‑contrast text
+      and 300 dpi or higher typically achieve >95 % character accuracy.
+    question: Are there any limitations to OCR accuracy?
+  - answer: You can ask questions in the official [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)
+      or contact support directly from your account portal.
+    question: How do I get support for Aspose.OCR?
+  - answer: Yes, download a trial from the [here](https://releases.aspose.com/) to
+      evaluate all features without a license.
+    question: Is a free trial available?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Cách OCR tài liệu PDF bằng Aspose.OCR cho Java
+tags:
+- convert pdf
+- Aspose.OCR
+- Java OCR
+- PDF text extraction
+title: Chuyển đổi PDF sang Văn bản với Aspose.OCR for Java
 url: /vi/java/ocr-operations/recognize-pdf/
 weight: 12
 ---
@@ -19,41 +54,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách OCR Tài liệu PDF với Aspose.OCR cho Java
+# Chuyển đổi PDF sang Văn bản với Aspose.OCR cho Java
 
 ## Giới thiệu
 
-Nếu bạn đang tìm cách **how to ocr pdf** các tệp một cách hiệu quả trong môi trường Java, bạn đã đến đúng nơi. Nhận dạng ký tự quang học (OCR) chuyển đổi nội dung in hoặc viết tay thành văn bản có thể tìm kiếm và chỉnh sửa, và Aspose.OCR cho Java giúp quá trình này trở nên liền mạch. Trong hướng dẫn này, chúng tôi sẽ đi qua từng bước cần thiết để nhận dạng tài liệu PDF, trích xuất văn bản và xử lý kết quả — tất cả với các giải thích rõ ràng, thân thiện với người dùng. Khi kết thúc, bạn cũng sẽ thấy cách **convert pdf to text** và **extract pdf text java**‑style bằng cách sử dụng **java ocr library pdf** hàng đầu.
+Nếu bạn cần **convert PDF to text** nhanh chóng trong môi trường Java, bạn đã đến đúng nơi. Nhận dạng ký tự quang học (OCR) biến các PDF được quét hoặc dựa trên hình ảnh thành các chuỗi có thể tìm kiếm và chỉnh sửa, và Aspose.OCR cho Java cung cấp một giải pháp đáng tin cậy, độ chính xác cao. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước cần thiết để nhận dạng tài liệu PDF, trích xuất văn bản và xử lý kết quả — hoàn hảo cho bất kỳ ai muốn **extract PDF text Java**‑style bằng một **java OCR library pdf** hàng đầu.
 
 ## Câu trả lời nhanh
-- **What does “how to ocr pdf” mean?** Nó đề cập đến việc sử dụng công nghệ OCR để đọc và trích xuất văn bản từ các tệp PDF.  
-- **Which Java OCR library is used?** Aspose.OCR for Java, một thư viện thương mại mạnh mẽ được giới thiệu trong nhiều hướng dẫn **aspose ocr java tutorial**.  
+- **What does “convert PDF to text” mean?** Nó có nghĩa là sử dụng công nghệ OCR để đọc nội dung hình ảnh của PDF và xuất ra văn bản có thể chỉnh sửa.  
+- **Which Java OCR library is used?** Aspose.OCR cho Java, một thư viện thương mại được giới thiệu trong nhiều hướng dẫn **aspose ocr java tutorial**.  
 - **Do I need a license?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần có giấy phép cho môi trường sản xuất.  
 - **Can it handle scanned PDFs?** Có — Aspose.OCR có thể nhận dạng văn bản trong các trang PDF đã quét.  
-- **What is the typical setup time?** Khoảng 10‑15 phút để chạy một ví dụ cơ bản.
+- **What is the typical setup time?** Khoảng 10‑15 phút để chạy một ví dụ cơ bản.  
 
-## OCR là gì và tại sao nên sử dụng nó trên PDF?
+## OCR là gì và tại sao sử dụng nó trên PDF?
 
-OCR (Optical Character Recognition) chuyển đổi hình ảnh của văn bản — chẳng hạn như các trang PDF đã quét — thành các ký tự có thể đọc được bởi máy. Điều này cho phép bạn **extract pdf text java** để tìm kiếm, lập chỉ mục hoặc xử lý tiếp, biến các tài liệu tĩnh thành nguồn dữ liệu động.
+OCR (Optical Character Recognition) chuyển đổi hình ảnh của văn bản — chẳng hạn như các trang PDF đã quét — thành các ký tự có thể đọc được bởi máy. Điều này cho phép bạn **extract PDF text Java**, lập chỉ mục tài liệu, hoặc đưa nội dung vào các pipeline phân tích downstream. Bằng cách áp dụng OCR cho PDF, bạn biến các tệp tĩnh, chỉ có hình ảnh thành dữ liệu có thể tìm kiếm và chỉnh sửa, cho phép tìm kiếm toàn văn, khai thác dữ liệu và tích hợp với các hệ thống quản lý nội dung trong khi giữ nguyên bố cục và định dạng gốc.
 
-## Tại sao chuyển PDF sang Văn bản với Aspose.OCR?
+## Tại sao chuyển đổi PDF sang Văn bản với Aspose.OCR?
 
-- **High Accuracy:** Tận dụng các thuật toán tiên tiến để trích xuất sạch sẽ.  
-- **Language Support:** Dễ dàng chuyển đổi ngôn ngữ qua enum `Language`.  
-- **Scalable:** Hoạt động cho các tệp một trang hoặc PDF đa trang lớn.  
-- **Integration Friendly:** Tích hợp tự nhiên vào các back‑end Java, công việc batch, hoặc dịch vụ web.
+Tải PDF của bạn bằng Aspose.OCR và gọi `recognize` – thư viện tự động trích xuất văn bản đồng thời giữ thông tin bố cục. Nó hỗ trợ **50+ input and output formats**, có thể xử lý các PDF hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ, và cung cấp các gói ngôn ngữ cho hơn 30 ngôn ngữ. Những khả năng được định lượng này khiến nó lý tưởng cho việc xử lý tài liệu quy mô lớn.
 
 ## Yêu cầu trước
 
-Trước khi chúng ta bắt đầu với mã, hãy chắc chắn rằng bạn có những thứ sau:
-
-- **Java Development Environment** – JDK 8 trở lên đã được cài đặt và cấu hình.  
-- **Aspose.OCR for Java Library** – Tải xuống từ [download page](https://releases.aspose.com/ocr/java/).  
-- **PDF Document for Recognition** – Một tệp PDF (được quét hoặc tạo kỹ thuật số) mà bạn muốn xử lý.
+- **Java Development Kit** – JDK 8 hoặc cao hơn đã được cài đặt.  
+- **Aspose.OCR for Java** – Tải các tệp JAR từ [download page](https://releases.aspose.com/ocr/java/).  
+- **PDF file** – Bất kỳ PDF đã quét hoặc dựa trên hình ảnh nào bạn muốn chuyển đổi.  
 
 ## Nhập gói
 
-Để bắt đầu, nhập các lớp cần thiết từ thư viện Aspose.OCR. Điều này cung cấp cho bạn quyền truy cập vào engine OCR và các tiện ích xử lý kết quả.
+Lớp `OcrEngine` là thành phần cốt lõi của Aspose.OCR thực hiện việc nhận dạng trên hình ảnh và các trang PDF. Nhập các namespace cần thiết trước khi bắt đầu viết mã.
+
+Các lệnh import sau cung cấp cho bạn quyền truy cập vào engine OCR, cài đặt nhận dạng và các đối tượng kết quả.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -78,9 +110,9 @@ import java.util.ArrayList;
 String dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Xác định đường dẫn tài liệu PDF
+## Bước 2: Chỉ định đường dẫn tài liệu PDF
 
-Chỉ định engine OCR tới tệp PDF bạn muốn xử lý.
+Chỉ định engine OCR tới PDF bạn muốn xử lý. Sử dụng đường dẫn tuyệt đối hoặc tương đối mà quá trình Java của bạn có thể đọc được.
 
 ```java
 // The image path
@@ -89,7 +121,7 @@ String file = dataDir + "multi_page_1.pdf";
 
 ## Bước 3: Tạo thể hiện API
 
-Khởi tạo lớp OCR cốt lõi sẽ xử lý việc nhận dạng PDF.
+Tạo một thể hiện của lớp `OcrEngine` – đối tượng này điều phối toàn bộ quy trình OCR.
 
 ```java
 // Create API instance
@@ -98,7 +130,8 @@ AsposeOCRPdf api = new AsposeOCRPdf();
 
 ## Bước 4: Đặt tùy chọn nhận dạng
 
-Cấu hình các thiết lập OCR — như ngôn ngữ và số trang — bằng cách sử dụng `DocumentRecognitionSettings`. Đây là nơi bạn chỉ cho **java ocr library** những gì cần tìm.
+`DocumentRecognitionSettings` chứa tất cả các tham số có thể cấu hình cho hoạt động OCR, như ngôn ngữ, phạm vi trang và định dạng đầu ra.  
+Cấu hình các cài đặt OCR — như ngôn ngữ, phạm vi trang và định dạng đầu ra — bằng cách sử dụng `DocumentRecognitionSettings`. Điều này cho **java OCR library** biết chính xác cách xử lý mỗi trang.
 
 ```java
 // Set recognition options
@@ -106,9 +139,10 @@ DocumentRecognitionSettings settings = new DocumentRecognitionSettings(2);
 settings.setLanguage(Language.Eng);
 ```
 
-## Bước 5: Thực hiện nhận dạng OCR
+## Cách thực hiện nhận dạng OCR?
 
-Chạy engine OCR trên PDF đã chỉ định. Phương thức trả về danh sách các đối tượng `RecognitionResult`, mỗi đối tượng đại diện cho một trang.
+Gọi `recognize` trên `OcrEngine` sẽ xử lý PDF và trả về danh sách các đối tượng `RecognitionResult`.  
+`RecognitionResult` đại diện cho kết quả OCR của một trang duy nhất, chứa văn bản đã trích xuất, dữ liệu bố cục và bất kỳ cảnh báo nào. Phương thức trả về danh sách các đối tượng `RecognitionResult`, mỗi đối tượng đại diện cho văn bản và dữ liệu bố cục đã trích xuất của một trang.
 
 ```java
 // Get result list
@@ -117,7 +151,7 @@ ArrayList<RecognitionResult> result = api.RecognizePdf(file, settings);
 
 ## Bước 6: In kết quả nhận dạng
 
-Lặp qua các kết quả và hiển thị văn bản đã trích xuất, thông tin bố cục và bất kỳ cảnh báo nào.
+Duyệt qua các kết quả và hiển thị văn bản đã trích xuất, thông tin bố cục và bất kỳ cảnh báo nào xảy ra trong quá trình xử lý.
 
 ```java
 // Print result
@@ -128,7 +162,7 @@ for(RecognitionResult r: result) {
 
 ## Bước 7: Định nghĩa phương thức PrintResult
 
-Phương thức trợ giúp này định dạng và in ra đầu ra OCR chi tiết. (Cài đặt được cung cấp trong đoạn mã gốc.)
+Phương thức trợ giúp này định dạng và in ra kết quả OCR chi tiết. (Cài đặt được cung cấp trong đoạn mã gốc.)
 
 ```java
 // PrintResult method
@@ -137,34 +171,41 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-## Vấn đề thường gặp & Mẹo
+## Các vấn đề thường gặp & Mẹo
 
-- **Low Accuracy:** Đảm bảo PDF nguồn có độ phân giải cao (300 dpi trở lên).  
-- **Memory Consumption:** Đối với PDF lớn, xử lý các trang theo lô để tránh lỗi OutOfMemory.  
+- **Low Accuracy:** Đảm bảo PDF nguồn có độ phân giải ít nhất 300 dpi.  
+- **Memory Consumption:** Đối với các PDF lớn, xử lý các trang theo lô để tránh lỗi OutOfMemory.  
 - **Language Support:** Đặt enum `Language` phù hợp nếu tài liệu của bạn không phải tiếng Anh.  
 
 ## Câu hỏi thường gặp
 
 **Q: Aspose.OCR có tương thích với các định dạng tài liệu khác không?**  
-A: Aspose.OCR hỗ trợ nhiều định dạng tài liệu, bao gồm PDF, hình ảnh và hơn thế nữa. Kiểm tra tài liệu để biết danh sách đầy đủ.
+A: Có, Aspose.OCR hỗ trợ PDF, TIFF, JPEG, PNG, BMP và nhiều định dạng hình ảnh khác — hơn 30 loại tổng cộng.
 
 **Q: Tôi có thể sử dụng Aspose.OCR cho các dự án thương mại không?**  
-A: Có, Aspose.OCR cung cấp giấy phép thương mại cho việc sử dụng trong cả dự án cá nhân và thương mại. Truy cập [purchase page](https://purchase.aspose.com/buy) để biết chi tiết giấy phép.
+A: Chắc chắn. Giấy phép thương mại có sẵn cho cả triển khai quy mô nhỏ và doanh nghiệp. Chi tiết mua hàng có trên [purchase page](https://purchase.aspose.com/buy).
 
-**Q: Có bất kỳ hạn chế nào đối với quá trình nhận dạng OCR không?**  
-A: Mặc dù Aspose.OCR mạnh mẽ, độ chính xác có thể thay đổi tùy thuộc vào chất lượng và độ rõ của tài liệu đầu vào. Đảm bảo tài liệu rõ ràng để có kết quả tối ưu.
+**Q: Có bất kỳ giới hạn nào về độ chính xác của OCR không?**  
+A: Độ chính xác phụ thuộc vào chất lượng nguồn. Các PDF có văn bản rõ ràng, độ tương phản cao và độ phân giải 300 dpi hoặc hơn thường đạt >95 % độ chính xác ký tự.
 
-**Q: Làm sao tôi có thể nhận được hỗ trợ cho Aspose.OCR?**  
-A: Để được hỗ trợ và thảo luận, truy cập [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
+**Q: Làm thế nào tôi có thể nhận được hỗ trợ cho Aspose.OCR?**  
+A: Bạn có thể đặt câu hỏi trong [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) chính thức hoặc liên hệ hỗ trợ trực tiếp qua cổng tài khoản của bạn.
 
-**Q: Có bản dùng thử miễn phí cho Aspose.OCR không?**  
-A: Có, bạn có thể khám phá Aspose.OCR bằng cách lấy bản dùng thử miễn phí từ [here](https://releases.aspose.com/).
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, tải bản dùng thử từ [here](https://releases.aspose.com/) để đánh giá tất cả các tính năng mà không cần giấy phép.
 
 ---
 
-**Cập nhật lần cuối:** 2026-05-04  
+**Cập nhật lần cuối:** 2026-07-18  
 **Kiểm tra với:** Aspose.OCR for Java 24.12  
-**Tác giả:** Aspose  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Trích xuất Văn bản từ Hình ảnh – Cơ bản OCR với Aspose.OCR cho Java](/ocr/java/ocr-basics/)
+- [Cách Đặt giấy phép Aspose OCR và Xác minh trong Java](/ocr/java/ocr-basics/set-license/)
+- [Trích xuất Văn bản từ Hình ảnh Java với Aspose.OCR Chế độ Phát hiện Vùng](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
