@@ -1,0 +1,7 @@
+Title: OCR Bounding Box in Java – Extract Text from Image
+Slug: ocr-bounding-box-in-java-extract-text-from-image
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-16T12:46:41.492125
+SourceRepo: AI Search API
+Keywords: ocr bounding box, extract text from image, ocr confidence score, recognize text from jpg, read text from image
+PRNumber: 145

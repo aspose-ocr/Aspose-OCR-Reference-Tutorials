@@ -1,10 +1,15 @@
 ---
-date: 2025-12-19
-description: Erfahren Sie, wie Sie OCR für Archivbilder durchführen, Bilder in Text
-  umwandeln und Text aus Archivdateien mit Aspose.OCR für .NET extrahieren.
-linktitle: How to Perform OCR on Archive Images with Aspose.OCR for .NET
+date: 2026-04-12
+description: Erfahren Sie, wie Sie Text aus Zip-Dateien extrahieren, indem Sie OCR
+  auf Archivbildern mit Aspose.OCR für .NET durchführen, einschließlich Einrichtung,
+  Code und Fehlersuche.
+keywords:
+- extract text from zip
+- read images from zip
+- Aspose OCR .NET
+linktitle: Wie man Text aus ZIP-Archiven mit Aspose.OCR für .NET extrahiert
 second_title: Aspose.OCR .NET API
-title: Wie man OCR auf Archivbildern mit Aspose.OCR für .NET durchführt
+title: Wie man Text aus ZIP-Archiven mit Aspose.OCR für .NET extrahiert
 url: /de/net/ocr-configuration/ocr-operation-with-archive/
 weight: 10
 ---
@@ -13,33 +18,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man OCR auf Archivbildern mit Aspose.OCR für .NET durchführt
+# Wie man Text aus ZIP-Archiven mit Aspose.OCR für .NET extrahiert
 
 ## Einleitung
 
-In diesem umfassenden Tutorial erfahren Sie **wie man OCR** auf archivierten Bilddateien mithilfe der Aspose.OCR‑Bibliothek für .NET durchführt. Egal, ob Sie **Bilder in Text umwandeln** oder **Text aus Archiven** extrahieren müssen – die nachfolgende Schritt‑für‑Schritt‑Anleitung führt Sie durch alles, vom Einrichten Ihrer Entwicklungsumgebung bis zum Abrufen des erkannten Textes aus jedem Bild innerhalb eines ZIP‑Archivs.
+In diesem umfassenden Tutorial lernen Sie **how to extract text from zip** Archive zu extrahieren, indem Sie OCR auf jedes Bild im Archiv anwenden. Egal, ob Sie **convert images to text**, **read images from zip** benötigen oder ein durchsuchbares Dokumenten-Repository aufbauen möchten, führt Sie die nachfolgende Schritt‑für‑Schritt‑Anleitung durch alles – von der Installation von Aspose.OCR für .NET bis zum Ausgeben des erkannten Textes für jedes Bild in einer ZIP‑Datei.
 
-## Kurze Antworten
-- **Worum geht es im Tutorial?** Durchführung von OCR auf Archiv (ZIP)-Bildern mit Aspose.OCR für .NET.  
-- **Welches Haupt‑Keyword wird angesprochen?** *how to perform ocr*.  
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für die Evaluierung; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+## Schnelle Antworten
+- **Worum geht es in diesem Tutorial?** Extracting text from ZIP archives using Aspose.OCR for .NET.  
+- **Welches primäre Schlüsselwort wird angesprochen?** *extract text from zip*.  
+- **Benötige ich eine Lizenz?** A free trial works for evaluation; a commercial license is required for production.  
 - **Welche .NET‑Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Kann ich die Erkennungseinstellungen anpassen?** Ja – verwenden Sie `RecognitionSettings`, um die Genauigkeit zu optimieren.
+- **Kann ich die Erkennungseinstellungen anpassen?** Yes—use `RecognitionSettings` to tune accuracy for different languages or image qualities.
 
-## Was ist OCR und warum es bei Archiven verwenden?
+## Was ist OCR und warum es bei ZIP-Archiven verwenden?
 
-Optische Zeichenerkennung (OCR) wandelt gescannte Bilder oder PDFs in durchsuchbaren, editierbaren Text um. Wenn Bilder in einem Archiv (z. B. einer ZIP‑Datei) gebündelt sind, spart das gleichzeitige Extrahieren und Erkennen jedes Bildes Zeit und reduziert die Code‑Komplexität. Die `RecognizeMultipleImages`‑Methode von Aspose.OCR macht diesen Vorgang unkompliziert.
+Optische Zeichenerkennung (OCR) wandelt gescannte Bilder oder PDFs in durchsuchbaren, editierbaren Text um. Wenn diese Bilder in einer ZIP‑Datei gebündelt sind, spart das Extrahieren und Erkennen jedes Bildes in einem Durchlauf Zeit und reduziert die Code‑Komplexität. Die `RecognizeMultipleImages`‑Methode von Aspose.OCR macht diesen Prozess unkompliziert und ermöglicht Ihnen, **read images from zip** und sofort den Textinhalt zu erhalten.
 
 ## Voraussetzungen
 
 - Visual Studio 2019 oder neuer (oder jede .NET‑kompatible IDE).  
 - .NET Framework 4.5 + oder .NET Core 3.1 + installiert.  
-- Zugriff auf die Aspose.OCR für .NET‑Bibliothek (Download‑Link unten).  
+- Zugriff auf die Aspose.OCR für .NET Bibliothek (Download‑Link unten).  
 - Eine gültige Aspose.OCR‑Lizenz für den Produktionseinsatz (Testversion verfügbar).
 
 ## Namespaces importieren
 
-Stellen Sie in Ihrem .NET‑Projekt sicher, dass Sie die erforderlichen Namespaces importieren, um auf die von Aspose.OCR bereitgestellte Funktionalität zuzugreifen:
+In your .NET project, import the necessary namespaces to access the functionality provided by Aspose.OCR:
 
 ```csharp
 using System;
@@ -49,17 +54,17 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Herunterladen und Installieren von Aspose.OCR für .NET
+## Aspose.OCR für .NET herunterladen und installieren
 
-Laden Sie das neueste Paket von der Release‑Seite **[here](https://releases.aspose.com/ocr/net/)** herunter und folgen Sie den üblichen NuGet‑ oder manuellen Installationsschritten.
+Grab the latest package from the release page **[here](https://releases.aspose.com/ocr/net/)** and follow the standard NuGet or manual installation steps.
 
 ## Lizenz erwerben
 
-Erwerben Sie eine Lizenz über die **[purchase page](https://purchase.aspose.com/buy)** oder probieren Sie die **[free trial](https://releases.aspose.com/)**. Platzieren Sie die Lizenzdatei im Stammverzeichnis Ihres Projekts und laden Sie sie zur Laufzeit, wie in der Aspose‑Dokumentation beschrieben.
+Obtain a license from the **[purchase page](https://purchase.aspose.com/buy)** or try the **[free trial](https://releases.aspose.com/)**. Place the license file in your project root and load it at runtime as described in the Aspose documentation.
 
 ## Schritt 1: Dokumentverzeichnis einrichten
 
-Beginnen Sie mit der Initialisierung des Pfads zu Ihrem Dokumentverzeichnis:
+Begin by initializing the path to your document directory. This folder will contain the ZIP archive you want to process:
 
 ```csharp
 // ExStart:1
@@ -68,11 +73,11 @@ string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-> **Pro‑Tipp:** Verwenden Sie `Path.Combine` für plattformübergreifende Pfadbehandlung.
+> **Pro Tipp:** Verwenden Sie `Path.Combine` für plattformübergreifende Pfadbehandlung.
 
 ## Schritt 2: Aspose.OCR initialisieren
 
-Erstellen Sie eine Instanz der Aspose.OCR‑Klasse, um die OCR‑Operationen zu starten:
+Create an instance of the Aspose.OCR class to kick‑start the OCR operations:
 
 ```csharp
 // ExStart:3
@@ -80,9 +85,9 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:3
 ```
 
-## Schritt 3: Bildpfad angeben
+## Schritt 3: Pfad zum ZIP‑Archiv angeben
 
-Definieren Sie den vollständigen Pfad zu Ihrem Archivbild (ZIP‑Datei, die die zu lesenden Bilder enthält):
+Define the full path to your archive image (ZIP file containing the pictures you want to read):
 
 ```csharp
 // ExStart:4
@@ -90,9 +95,9 @@ string fullPath = dataDir + "OCR.zip";
 // ExEnd:4
 ```
 
-## Schritt 4: Bild erkennen
+## Schritt 4: Bilder im ZIP erkennen
 
-Führen Sie die OCR‑Erkennung für das angegebene Archiv mit Standard‑ oder benutzerdefinierten Einstellungen aus. Dieser Aufruf extrahiert automatisch jedes Bild aus der ZIP und führt OCR darauf aus:
+Execute OCR recognition on the specified archive using default or custom settings. This call automatically extracts each image from the ZIP and runs OCR on it:
 
 ```csharp
 // ExStart:5
@@ -103,11 +108,11 @@ RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new Recogniti
 // ExEnd:5
 ```
 
-> Sie können `RecognitionSettings` anpassen, um die Genauigkeit für bestimmte Sprachen oder Bildqualitäten zu verbessern.
+> Sie können `RecognitionSettings` anpassen, um die Genauigkeit für bestimmte Sprachen, DPI zu verbessern oder die Handschriftenerkennung zu aktivieren.
 
-## Schritt 5: Ergebnisse ausgeben
+## Schritt 5: Extrahierten Text ausgeben
 
-Durchlaufen Sie die Ergebnisse und geben Sie den erkannten Text für jedes Bild im Archiv aus:
+Loop through the results and print the recognized text for each image inside the archive. This is where you actually **extract text from zip**:
 
 ```csharp
 // ExStart:6
@@ -118,35 +123,37 @@ for (int i = 0; i < result.Length; i++)
 // ExEnd:6
 ```
 
-Die Ausgabe zeigt für jeden Bild‑Index den extrahierten Text und wandelt damit effektiv **Bilder in Text** um sowie **Text aus Archiven** extrahiert.
+The output shows each image index followed by the extracted string, effectively **converting images to text** and **extracting text from archive** files in a single operation.
 
-## Allgemeine Probleme & Fehlersuche
+## Warum dieser Ansatz wichtig ist
+
+- **Batchverarbeitung:** Verarbeitet beliebig viele Bilder in einem ZIP, ohne manuelle Extraktion.  
+- **Performance:** Reduziert I/O‑Overhead, indem direkt aus dem Archiv gelesen wird.  
+- **Skalierbarkeit:** Funktioniert mit großen ZIP‑Dateien und kann mit asynchronen Mustern für Hochdurchsatz‑Szenarien kombiniert werden.
+
+## Häufige Probleme & Fehlersuche
 
 | Problem | Ursache | Lösung |
-|---------|---------|--------|
-| Kein Text zurückgegeben | Bildqualität zu niedrig | Bilder vorverarbeiten (z. B. Binarisierung) oder `RecognitionSettings.Dpi` anpassen |
-| Ausnahme beim ZIP‑Lesen | Ungültiger Archivpfad | Stellen Sie sicher, dass `fullPath` auf eine gültige `.zip`‑Datei verweist und die Anwendung Lese‑Berechtigungen hat |
+|-------|-------|----------|
+| Kein Text zurückgegeben | Bildqualität zu niedrig | Bildvorverarbeitung (z. B. Binarisierung) oder `RecognitionSettings.Dpi` anpassen |
+| Ausnahme beim ZIP‑Lesen | Ungültiger Archivpfad | Überprüfen Sie, dass `fullPath` auf eine gültige `.zip`‑Datei zeigt und die Anwendung Lese‑Berechtigungen hat |
 | Lizenz nicht angewendet | Lizenzdatei fehlt oder nicht geladen | Rufen Sie `License license = new License(); license.SetLicense("Aspose.OCR.lic");` auf, bevor Sie die `AsposeOcr`‑Instanz erstellen |
 
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Aspose.OCR für .NET ohne Lizenz verwenden?**  
-A: Ja, eine kostenlose Testversion steht für die Evaluierung zur Verfügung, aber für Produktionseinsätze ist eine lizenzierte Version erforderlich.
+A: Ja, eine kostenlose Testversion ist für Evaluierungszwecke verfügbar, aber für Produktionseinsätze ist eine lizenzierte Version erforderlich.
 
 **Q: Unterstützt die Bibliothek passwortgeschützte ZIP‑Archive?**  
-A: Derzeit funktioniert `RecognizeMultipleImages` mit Standard‑ZIP‑Dateien. Für verschlüsselte Archive extrahieren Sie die Bilder zuerst mit einer Drittanbieter‑Bibliothek und übergeben dann das Bild‑Array an die OCR‑Engine.
+A: Derzeit funktioniert `RecognizeMultipleImages` mit Standard‑ZIP‑Dateien. Für verschlüsselte Archive extrahieren Sie zuerst die Bilder mit einer Drittanbieter‑Bibliothek und übergeben dann das Bild‑Array an die OCR‑Engine.
 
 **Q: Wie kann ich die Genauigkeit für handgeschriebenen Text verbessern?**  
 A: Aktivieren Sie das Flag `RecognitionSettings.EnableHandwritingRecognition` und verwenden Sie eine höhere DPI‑Einstellung (z. B. 300).
 
-**Q: Gibt es eine Möglichkeit, Konfidenzwerte für jede erkannte Zeile zu erhalten?**  
-A: Jeder `RecognitionResult` enthält eine `Confidence`‑Eigenschaft, die Sie protokollieren oder zur Filterung von Ergebnissen mit niedriger Konfidenz verwenden können.
+**Q: Gibt es eine Möglichkeit, Vertrauenswerte für jede erkannte Zeile zu erhalten?**  
+A: Jeder `RecognitionResult` enthält eine `Confidence`‑Eigenschaft, die Sie protokollieren oder zur Filterung von Ergebnissen mit niedriger Sicherheit verwenden können.
 
-## Fazit
-
-Sie verfügen nun über einen vollständigen, produktionsbereiten Workflow, um **OCR auf Archivbildern** durchzuführen, **Bilder in Text** umzuwandeln und **Text aus Archiven** zu extrahieren – alles mit Aspose.OCR für .NET. Integrieren Sie dies in Ihre Anwendungen, um durchsuchbare Dokumentenarchive, automatisierte Dateneingaben oder jedes Szenario zu ermöglichen, bei dem die massenhafte Extraktion von Bild‑Text erforderlich ist.
-
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 - **Aspose.OCR‑Forum:** Für Community‑Support und erweiterte Szenarien besuchen Sie das [Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16).  
 - **Temporäre Lizenz:** Wenn Sie eine kurzfristige Evaluierung benötigen, fordern Sie eine [temporäre Lizenz](https://purchase.aspose.com/temporary-license/) an.  
@@ -154,7 +161,7 @@ Sie verfügen nun über einen vollständigen, produktionsbereiten Workflow, um *
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-19  
+**Zuletzt aktualisiert:** 2026-04-12  
 **Getestet mit:** Aspose.OCR 24.11 für .NET  
 **Autor:** Aspose
 

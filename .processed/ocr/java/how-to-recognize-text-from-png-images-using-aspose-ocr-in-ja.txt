@@ -1,0 +1,7 @@
+Title: How to recognize text from PNG images using Aspose OCR in Java
+Slug: how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja
+Category: ocr-operations
+ProcessedDate: 2026-09-26T06:16:10.203891
+SourceRepo: AI Search API
+Keywords: recognize text from png, extract text from image, convert image to text, load image for ocr, read english text image
+PRNumber: 229
