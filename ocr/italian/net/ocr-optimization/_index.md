@@ -75,6 +75,10 @@ Scopri come sfruttare la GPU per accelerare l'OCR in C# con Aspose OCR, migliora
 Scopri come sfruttare la potenza della GPU per accelerare l'OCR in C# con Aspose OCR, migliorando velocità e precisione.
 ### [Estrai testo da scansione in C# – Guida completa Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 Scopri come estrarre testo da una scansione usando Aspose OCR in C#, con esempi completi e consigli pratici.
+### [Riconosci testo da immagine usando Aspose OCR GPU in C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Scopri come sfruttare la GPU con Aspose OCR in C# per riconoscere testo da immagini con massima velocità.
+### [Preelaborazione OCR immagine in C# – Guida completa passo‑passo](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+Scopri come pre‑elaborare le immagini per OCR in C# con Aspose.OCR, passo dopo passo, per massimizzare la precisione.
 
 
 

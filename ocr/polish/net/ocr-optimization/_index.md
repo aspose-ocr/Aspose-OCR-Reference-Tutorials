@@ -164,6 +164,11 @@ Poznaj, jak przyspieszyć OCR przy użyciu GPU w C# z Aspose OCR, zwiększając 
 ### [Wyodrębnianie tekstu ze skanu w C# – Kompletny przewodnik Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 Pełny przewodnik, jak używać Aspose OCR w C# do wyodrębniania tekstu ze skanów, z przykładami kodu i optymalizacją.
 
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR GPU w C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Wykorzystaj GPU w Aspose OCR, aby przyspieszyć rozpoznawanie tekstu z obrazów w aplikacjach C#.
+
+### [Przetwarzanie wstępne obrazu OCR w C# – Kompletny przewodnik krok po kroku](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

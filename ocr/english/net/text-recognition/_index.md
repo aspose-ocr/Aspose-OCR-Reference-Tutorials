@@ -65,6 +65,21 @@ Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effo
 Convert TIFF to a searchable PDF with Aspose OCR. Follow our step‑by‑step guide for seamless PDF creation and text extraction.
 ### [Recognize Table in OCR Image Recognition](./recognize-table/)
 Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+### [How to Use OCR in C# – Extract Russian Text from PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Extract Russian text from PNG images using Aspose.OCR in C#. Follow our step-by-step guide to achieve accurate OCR results.
+
+### [How to Read Receipt in C# – Complete Guide to Extract Text from Image](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Learn how to extract receipt text from images using Aspose.OCR in C#. Follow our comprehensive step-by-step guide.
+
+### [How to Generate EPUB from an Image in C# – Complete Guide](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Generate an EPUB from an image using Aspose.OCR in C#. Follow our step-by-step guide to create EPUB files effortlessly.
+
+### [How to Perform OCR on DjVu Files in C# – Step‑by‑Step Guide](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Perform OCR on DjVu files using Aspose.OCR in C#. Follow our step-by-step guide to extract text accurately.
+
+### [How to Batch OCR in C# – Complete Guide to Extract Text from Images](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Learn how to batch process images with Aspose.OCR in C#, extracting text efficiently from multiple files.
+
 ### [recognize hindi text in C# – Complete Aspose OCR Guide](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 Learn how to recognize Hindi text in C# using Aspose.OCR with a complete step-by-step guide.
 ### [recognize Hindi text from images – Convert to ePub with Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)

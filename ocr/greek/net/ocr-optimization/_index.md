@@ -79,6 +79,10 @@ weight: 25
 Μάθετε πώς να αξιοποιήσετε την επιτάχυνση GPU για OCR εικόνων σε C# με Aspose OCR, βελτιώνοντας την ταχύτητα και την ακρίβεια.
 ### [πώς να εκτελέσετε OCR με Aspose OCR – Οδηγός C# με επιτάχυνση GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 ### [Εξαγωγή κειμένου από σάρωση σε C# – Πλήρης οδηγός Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+### [Αναγνώριση κειμένου από εικόνα χρησιμοποιώντας Aspose OCR GPU σε C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Εκμεταλλευτείτε την επιτάχυνση GPU του Aspose OCR για γρήγορη αναγνώριση κειμένου σε C# εφαρμογές.
+### [Προεπεξεργασία εικόνας OCR σε C# – Πλήρης οδηγός βήμα‑βήμα](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να προετοιμάσετε εικόνες για OCR σε C# με αναλυτικές οδηγίες και βέλτιστες πρακτικές.
 
 
 

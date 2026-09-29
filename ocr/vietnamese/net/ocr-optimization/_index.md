@@ -115,6 +115,8 @@ Hướng dẫn đầy đủ cách thực hiện OCR bất đồng bộ trong C# 
 Khám phá cách sử dụng Aspose OCR với hỗ trợ GPU trong C# để tăng tốc độ nhận dạng hình ảnh.
 ### [Cách thực hiện OCR với Aspose OCR – Hướng dẫn C# tăng tốc GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 ### [Trích xuất văn bản từ bản quét trong C# – Hướng dẫn đầy đủ Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR GPU trong C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Khám phá cách sử dụng Aspose.OCR GPU trong C# để nhận dạng văn bản từ hình ảnh với hiệu năng cao.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

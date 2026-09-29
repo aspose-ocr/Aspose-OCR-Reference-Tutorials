@@ -78,6 +78,8 @@ GPU を活用した高速 OCR 処理を C# で実装する手順をステップ�
 GPU のパワーを活用し、Aspose OCR の C# API で高速 OCR を実装する手順をステップバイステップで解説します。
 ### [C# でスキャンからテキストを抽出 – 完全 Aspose OCR ガイド](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 C# を使用してスキャン画像からテキストを抽出し、Aspose OCR の全機能を活用する手順を詳しく解説します。
+### [C# で Aspose OCR GPU を使用して画像からテキストを認識する](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+GPU 加速を活用し、高速かつ高精度に画像テキストを認識する方法をステップバイステップで解説します。
 
 
 

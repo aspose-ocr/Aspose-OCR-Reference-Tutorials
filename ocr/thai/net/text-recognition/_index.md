@@ -46,6 +46,15 @@ url: /th/net/text-recognition/
 
 พร้อมที่จะปฏิวัติแอปพลิเคชัน .NET ของคุณแล้วหรือยัง? เจาะลึกบทช่วยสอนการรู้จำข้อความของเราและควบคุมพลังของ Aspose.OCR เพื่อการรู้จำข้อความที่แม่นยำและมีประสิทธิภาพ ดาวน์โหลดตอนนี้และเริ่มต้นการเดินทางของความสามารถ OCR ที่ได้รับการปรับปรุง
 ## บทช่วยสอนการรู้จำข้อความ
+### [วิธีทำ OCR บนไฟล์ DjVu ใน C# – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแปลงไฟล์ DjVu ให้เป็นข้อความด้วยขั้นตอนง่าย ๆ และแม่นยำ
+
+### [วิธีใช้ OCR ใน C# – ดึงข้อความรัสเซียจาก PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+
+### [วิธีอ่านใบเสร็จใน C# – คู่มือครบถ้วนสำหรับการดึงข้อความจากรูปภาพ](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+
+### [วิธีทำ OCR แบบกลุ่มใน C# – คู่มือครบถ้วนเพื่อดึงข้อความจากรูปภาพ](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+
 ### [รับตัวเลือกสำหรับอักขระที่จดจำในการจดจำรูปภาพ OCR](./get-choices-for-recognized-characters/)
 ### [รับผลการรับรู้ในการจดจำรูปภาพ OCR](./get-recognition-result/)
 ### [รับผลลัพธ์เป็น JSON ในการรับรู้ภาพ OCR](./get-result-as-json/)

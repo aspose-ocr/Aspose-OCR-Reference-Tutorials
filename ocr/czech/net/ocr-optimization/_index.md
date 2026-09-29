@@ -82,6 +82,8 @@ Využijte GPU akceleraci v C# pro rychlé a přesné rozpoznávání textu z obr
 Využijte GPU akceleraci pro rychlé a přesné OCR v C# pomocí Aspose OCR.
 ### [Extrahovat text ze skenu v C# – Kompletní průvodce Aspose OCR](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
 Kompletní návod, jak pomocí Aspose OCR v C# extrahovat text ze skenovaných dokumentů s vysokou přesností.
+### [Rozpoznat text z obrázku pomocí Aspose OCR GPU v C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z obrázků v C# s Aspose OCR.
 
 
 

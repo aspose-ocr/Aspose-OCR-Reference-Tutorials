@@ -77,6 +77,10 @@ weight: 25
 دليل خطوة بخطوة لاستخدام Aspose OCR مع تسريع GPU في C# لتحسين سرعة ودقة التعرف على النص في الصور.
 ### [كيفية إجراء OCR باستخدام Aspose OCR – دليل C# مع تسريع GPU](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 ### [استخراج النص من المسح الضوئي في C# – دليل Aspose OCR الكامل](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+### [التعرف على النص من الصورة باستخدام Aspose OCR GPU في C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+استفد من تسريع GPU لاستخراج النص من الصور باستخدام Aspose OCR في بيئة C#.
+### [معالجة مسبقة لصورة OCR في C# – دليل شامل خطوة بخطوة](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+اكتشف خطوات إعداد فلاتر ما قبل المعالجة لتحسين OCR على الصور باستخدام Aspose.OCR في C#.
 
 
 

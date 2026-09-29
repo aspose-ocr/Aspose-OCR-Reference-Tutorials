@@ -74,6 +74,10 @@ Lär dig hur du implementerar asynkron OCR i C# med Aspose.OCR, steg för steg f
 Utnyttja GPU‑acceleration för snabb OCR i C# med Aspose OCR. Följ steg‑för‑steg‑instruktioner för optimal prestanda.
 ### [Hur man utför OCR med Aspose OCR – GPU‑accelererad C#‑guide](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 ### [Extrahera text från skanning i C# – Komplett Aspose OCR‑guide](./extract-text-from-scan-in-c-complete-aspose-ocr-guide/)
+### [Känn igen text från bild med Aspose OCR GPU i C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
+Lär dig hur du använder Aspose OCR GPU för att snabbt känna igen text i bilder med C#.
+### [Förbehandla bild‑OCR i C# – Komplett steg‑för‑steg‑guide](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
+Lär dig hur du förbehandlar bilder för OCR i C# med en komplett steg‑för‑steg‑guide som förbättrar igenkänningsnoggrannheten.
 
 
 

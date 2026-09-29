@@ -61,6 +61,21 @@ Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby efektywnie rozpoznawać t
 Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików PDF bez wysiłku. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Rozpoznaj tabelę w rozpoznawaniu obrazu OCR](./recognize-table/)
 Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi na temat rozpoznawania tabel w rozpoznawaniu obrazów OCR.
+### [Jak używać OCR w C# – wyodrębnić rosyjski tekst z PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# wyodrębnić rosyjski tekst z obrazów PNG.
+
+### [Jak odczytać paragon w C# – Kompletny przewodnik po wyodrębnianiu tekstu z obrazu](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Poznaj, jak przy użyciu Aspose.OCR w C# wyodrębnić tekst z paragonu, aby automatyzować przetwarzanie danych.
+
+### [Jak wygenerować EPUB z obrazu w C# – Kompletny przewodnik](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# przekształcić obraz w plik EPUB, krok po kroku, aby tworzyć e‑książki z obrazów.
+
+### [Jak wykonać OCR na plikach DjVu w C# – przewodnik krok po kroku](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# przeprowadzić OCR na plikach DjVu, krok po kroku, aby wyodrębnić tekst.
+
+### [Jak wykonać OCR wsadowe w C# – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# przetwarzać wiele obrazów jednocześnie, aby efektywnie wyodrębniać tekst.
+
 ### [Rozpoznaj tekst w języku hindi w C# – Kompletny przewodnik Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 Dowiedz się, jak rozpoznawać tekst w języku hindi w aplikacjach C# przy użyciu Aspose.OCR, krok po kroku.
 ### [Wyodrębnij tekst z obrazu w C# – Przykład OCR offline](./extract-text-from-image-in-c-offline-ocr-example/)

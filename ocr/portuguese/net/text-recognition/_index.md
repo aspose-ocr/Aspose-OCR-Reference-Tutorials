@@ -60,6 +60,21 @@ Aprenda a usar Aspose.OCR em C# para extrair texto de imagens offline com um gui
 Desbloqueie o potencial do OCR em .NET com Aspose.OCR. Extraia texto de PDFs sem esforço. Baixe agora para uma experiência de integração perfeita.
 ### [Reconhecer tabela no reconhecimento de imagem OCR](./recognize-table/)
 Desbloqueie o potencial do Aspose.OCR para .NET com nosso guia completo sobre reconhecimento de tabelas no reconhecimento de imagem OCR.
+### [Como usar OCR em C# – Extrair texto russo de PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
+Aprenda a extrair texto em russo de imagens PNG usando Aspose.OCR em C# com este guia passo a passo.
+
+### [Como ler recibos em C# – Guia completo para extrair texto de imagens](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
+Aprenda a extrair texto de recibos em imagens usando Aspose.OCR com C#. Siga nosso guia passo a passo para resultados precisos.
+
+### [Como gerar EPUB a partir de uma imagem em C# – Guia completo](./how-to-generate-epub-from-an-image-in-c-complete-guide/)
+Aprenda a criar arquivos EPUB a partir de imagens usando Aspose.OCR em C#, com um guia passo a passo completo.
+
+### [Como Realizar OCR em Arquivos DjVu em C# – Guia Passo a Passo](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
+Aprenda a extrair texto de arquivos DjVu usando Aspose.OCR em C# com este guia detalhado passo a passo.
+
+### [Como fazer OCR em lote em C# – Guia completo para extrair texto de imagens](./how-to-batch-ocr-in-c-complete-guide-to-extract-text-from-im/)
+Aprenda a processar múltiplas imagens simultaneamente com OCR em C#, extraindo texto de forma eficiente em lote.
+
 ### [Reconhecer texto em hindi em C# – Guia completo do Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
 Aprenda a reconhecer texto em hindi usando C# com o Aspose OCR, passo a passo para integrar OCR hindi em suas aplicações .NET.
 ### [Reconhecer texto em hindi a partir de imagens – Converter para ePub com Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
