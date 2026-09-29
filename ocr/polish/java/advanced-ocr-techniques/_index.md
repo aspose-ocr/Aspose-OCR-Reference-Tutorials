@@ -110,6 +110,9 @@ Dowiedz się, jak wyodrębnić tekst z obrazu w Javie przy użyciu Aspose OCR, z
 ### [Wykrywanie języka obrazu przy użyciu Aspose OCR – samouczek Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Dowiedz się, jak wykrywać język tekstu na obrazie przy użyciu Aspose OCR w Javie, zapewniając precyzyjną identyfikację języka.
 
+### [Jak rozpoznać tekst z obrazu w Javie przy użyciu Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Dowiedz się, jak w Javie rozpoznawać tekst z obrazów przy użyciu biblioteki Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

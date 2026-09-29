@@ -98,6 +98,8 @@ Vytvořte vlastní OCR engine v Javě a rozpoznávejte text na velkých obrázc�
 Naučte se, jak v Javě aktivovat GPU akceleraci pro OCR a dosáhnout vyšší rychlosti a přesnosti rozpoznávání textu.
 ### [Jak provést OCR obrázku v Javě – Ručně psané poznámky s kontrolou pravopisu](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Naučte se, jak v Javě provádět OCR ručně psaných poznámek a využít kontrolu pravopisu pro přesnější výstup.
+### [Jak rozpoznat text z obrázku v Javě pomocí Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Rozpoznávejte text z obrázků v Javě s Aspose OCR pro vysokou přesnost a jednoduchou integraci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

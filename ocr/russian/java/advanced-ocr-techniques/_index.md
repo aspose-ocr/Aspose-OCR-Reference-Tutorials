@@ -108,6 +108,9 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Узнайте, как выполнять параллельное распознавание изображений в Java с помощью Aspose.OCR, повышая скорость обработки.
 ### [Извлечение текста из изображения Java – Полное руководство по OCR с исправлением орфографии](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 
+### [Как распознать текст с изображения в Java с помощью Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Пошаговое руководство по распознаванию текста с изображения в Java с использованием Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -98,6 +98,8 @@ Exploitez la puissance GPU d'Aspose OCR pour Java afin de reconnaître rapidemen
 Améliorez la qualité des images en augmentant le contraste avant l'OCR avec Aspose.OCR pour Java. Suivez notre guide complet.
 ### [Créer un moteur OCR Java – Reconnaître le texte à partir de grandes images](./create-ocr-engine-java-recognize-text-from-large-images/)
 Apprenez à créer un moteur OCR Java capable de traiter de grandes images et d'extraire le texte avec précision et efficacité.
+### [Comment reconnaître le texte d'une image en Java avec Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Apprenez à extraire le texte d'une image en Java avec Aspose OCR grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
