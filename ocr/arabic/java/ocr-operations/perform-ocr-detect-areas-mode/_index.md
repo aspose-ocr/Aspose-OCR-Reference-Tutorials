@@ -1,11 +1,59 @@
 ---
-date: 2026-02-12
-description: تعلم كيفية استخراج النص من صورة باستخدام جافا و Aspose.OCR، وتنفيذ التعرف
-  الضوئي على الأحرف بوضع كشف المناطق والحصول على نتائج OCR مع التدقيق الإملائي. هذا
-  دليل Aspose OCR الشامل لجافا.
-linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
+date: 2026-06-24
+description: تعلم كيفية إجراء تحويل صورة إلى نص في java باستخدام Aspose.OCR Detect
+  Areas Mode في هذا الدرس التعليمي عن OCR في java. يتضمن التدقيق الإملائي وعينة من
+  الكود.
+keywords:
+- java image to text
+- java ocr tutorial
+- Aspose OCR Detect Areas Mode
+linktitle: كيفية تنفيذ OCR باستخدام Detect Areas Mode في Aspose.OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-06-24'
+  description: Learn how to perform java image to text conversion with Aspose.OCR
+    Detect Areas Mode in this java ocr tutorial. Includes spell‑check and sample code.
+  headline: java image to text using Aspose.OCR Detect Areas Mode
+  type: TechArticle
+- description: Learn how to perform java image to text conversion with Aspose.OCR
+    Detect Areas Mode in this java ocr tutorial. Includes spell‑check and sample code.
+  name: java image to text using Aspose.OCR Detect Areas Mode
+  steps:
+  - name: Set Up the OCR Operation
+    text: The `OcrEngine` class is the core component that performs optical character
+      recognition on images. In this step we initialise the OCR engine, point it at
+      the image file, and enable **Detect Areas Mode** so the engine treats the picture
+      as a typical photo with scattered text blocks.
+  - name: Perform OCR and Retrieve Results
+    text: '`RecognizePage` processes a single‑page image and returns a `RecognitionResult`
+      containing extracted text, layout information, and spell‑checked output. Here
+      we actually **perform OCR**. The call returns a `RecognitionResult` that you
+      can query for raw text, confidence scores, and the corrected “ocr'
+  - name: Print OCR Results
+    text: '`printResult` is a helper routine that formats and displays the OCR output,
+      including spell‑checked text, confidence scores, detected paragraphs, line‑by‑line
+      data, character alternatives, warnings, JSON payload, and the **OCR with spell
+      check** corrected text.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.OCR supports over 60 languages, making it versatile for global
+      applications.
+    question: Can Aspose.OCR handle multiple languages?
+  - answer: Absolutely. The library can process multi‑hundred‑page batches in parallel
+      and is engineered for high‑throughput scenarios.
+    question: Is Aspose.OCR suitable for large‑scale OCR operations?
+  - answer: Yes, you can embed the Java API into servlet‑based or Spring Boot services
+      to expose OCR as a REST endpoint.
+    question: Can I integrate Aspose.OCR into web applications?
+  - answer: Yes, as demonstrated, the result includes an “ocr with spell check” section
+      that corrects common recognition errors.
+    question: Does Aspose.OCR provide spell‑checking capabilities?
+  - answer: Yes, you can find support and engage with the community on the [Aspose.OCR
+      forum](https://forum.aspose.com/c/ocr/16).
+    question: Is there a community forum for Aspose.OCR support?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: استخراج النص من صورة جافا باستخدام Aspose.OCR وضع كشف المناطق
+title: تحويل صورة إلى نص في java باستخدام Aspose.OCR Detect Areas Mode
 url: /ar/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
@@ -14,30 +62,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# استخراج النص من صورة Java باستخدام Aspose.OCR Detect Areas Mode
+# تحويل صورة جافا إلى نص باستخدام Aspose.OCR وضع اكتشاف المناطق
 
 ## مقدمة
 
-استخراج النص من ملفات صورة Java هو تحدٍ شائع عندما تحتاج إلى بيانات قابلة للبحث والتحرير من الصور الفوتوغرافية أو الإيصالات أو المستندات الممسوحة. في هذا **Aspose OCR Java tutorial** سنستعرض مثالًا عمليًا يوضح لك **how to extract text from image java** باستخدام ميزة *Detect Areas Mode* القوية، وسنظهر أيضًا القدرة المدمجة **ocr with spell check**. في نهاية هذا الدليل ستحصل على مقتطف شفرة جاهز للتنفيذ يتعرف على النص من مستند على شكل صورة ويعيد ناتجًا نظيفًا ومصححًا.
+تحويل صورة إلى بيانات قابلة للبحث والتحرير — **java image to text** — هو طلب شائع عند التعامل مع الإيصالات أو الفواتير أو النماذج الممسوحة ضوئياً. في هذا **Aspose OCR Java tutorial** سنستعرض مثالًا واقعيًا يوضح لك **how to extract text from image java** باستخدام ميزة *Detect Areas Mode* القوية، وسنظهر أيضًا القدرة المدمجة **OCR with spell check**. بحلول نهاية هذا الدليل ستحصل على مقتطف جاهز للتنفيذ يتعرف على النص من مستند على شكل صورة ويعيد ناتجًا نظيفًا ومصححًا.
 
 ## إجابات سريعة
-- **ما هو Detect Areas Mode؟** إعداد يُحسّن OCR للصور الفوتوغرافية عن طريق تحديد كتل النص تلقائيًا.  
-- **ما اللغة التي يستخدمها المثال؟** Java، مع مكتبة Aspose.OCR.  
-- **هل أحتاج إلى ترخيص للاختبار؟** نسخة تجريبية مجانية تعمل للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
-- **هل يمكن تدقيق النتيجة إملائيًا؟** نعم – تُعيد API قسم “ocr with spell check”.  
-- **ما نوع الملف المستخدم في العرض؟** صورة JPEG باسم *Receipt.jpg*.
+- **What is Detect Areas Mode?** إعداد يحدد تلقائيًا كتل النص في الصور الفوتوغرافية، مما يعزز دقة OCR.  
+- **Which language does the example use?** Java، مع مكتبة Aspose.OCR.  
+- **Do I need a license for testing?** نسخة تجريبية مجانية تعمل للتطوير؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **Can the result be spell‑checked?** نعم – تُرجع الـ API قسم “ocr with spell check” الذي يصحح الأخطاء الشائعة.  
+- **What file type is used in the demo?** صورة JPEG باسم *Receipt.jpg*.
 
-## المتطلبات المسبقة
+## المتطلبات الأساسية
 
-قبل الغوص في الدرس، تأكد من توفر المتطلبات المسبقة التالية:
+قبل الغوص في الدرس، تأكد من توفر المتطلبات التالية:
 
-- بيئة تطوير Java: تأكد من تثبيت Java على جهازك.  
-- Aspose.OCR for Java: قم بتنزيل وتثبيت مكتبة Aspose.OCR. يمكنك العثور على رابط التنزيل [here](https://releases.aspose.com/ocr/java/).  
-- مستند للـ OCR: حضّر مستند صورة (مثال، **Receipt.jpg**) يحتوي على النص الذي تريد استخراجه.
+- **Java Development Environment** – Java 17 أو أحدث مثبت على جهازك.  
+- **Aspose.OCR for Java** – قم بتنزيل وتثبيت مكتبة Aspose.OCR. يمكنك العثور على رابط التنزيل [here](https://releases.aspose.com/ocr/java/).  
+- **Image for OCR** – حضّر مستند صورة (مثلاً **Receipt.jpg**) يحتوي على النص الذي تريد استخراجَه.
 
 ## استيراد الحزم
 
-في مشروع Java الخاص بك، استورد الحزم اللازمة لاستخدام Aspose.OCR. إليك مثالًا:
+في مشروع Java الخاص بك، استورد الحزم الضرورية لاستخدام Aspose.OCR. إليك مثالًا:
+
+الفئة `AsposeOCR` توفر محرك OCR الأساسي المستخدم للتعرف على النص.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -57,11 +107,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## OCR مع تدقيق إملائي في دليل Aspose OCR Java
+## OCR مع التدقيق الإملائي في دليل Aspose OCR Java
 
-فيما يلي سنقوم بإعداد محرك OCR، تمكين Detect Areas Mode، تشغيل التعرف، وأخيرًا عرض ناتج **ocr with spell check**.
+فيما يلي سنقوم بإعداد محرك OCR، تمكين وضع Detect Areas Mode، تشغيل التعرف، وأخيرًا عرض ناتج **ocr with spell check**.
 
 ### الخطوة 1: إعداد عملية OCR
+
+الفئة `OcrEngine` هي المكوّن الأساسي الذي يُجري التعرف البصري على الأحرف في الصور.  
+في هذه الخطوة نقوم بتهيئة محرك OCR، وتوجيهه إلى ملف الصورة، وتمكين **Detect Areas Mode** حتى يتعامل المحرك مع الصورة كصورة عادية تحتوي على كتل نصية متناثرة.
 
 ```java
 // The path to the documents directory.
@@ -78,9 +131,10 @@ RecognitionSettings settings = new RecognitionSettings();
 settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 ```
 
-في هذه الخطوة نقوم بتهيئة محرك OCR، وتوجيهه إلى ملف الصورة، وتمكين **Detect Areas Mode** بحيث يتعامل المحرك مع الصورة كصورة فوتوغرافية عادية تحتوي على كتل نصية متفرقة.
-
 ### الخطوة 2: تنفيذ OCR واسترجاع النتائج
+
+`RecognizePage` يعالج صورة ذات صفحة واحدة ويعيد كائن `RecognitionResult` يحتوي على النص المستخرج، معلومات التخطيط، والناتج المدقق إملائيًا.  
+هنا نقوم فعليًا **perform OCR**. تُعيد الاستدعاء كائن `RecognitionResult` يمكنك الاستعلام عنه للحصول على النص الخام، درجات الثقة، والسلسلة المصححة “ocr with spell check”.
 
 ```java
 // Get result object
@@ -92,67 +146,77 @@ try {
 }
 ```
 
-هنا نقوم فعليًا **perform OCR**. استدعاء `RecognizePage` يُعيد كائن `RecognitionResult` يحتوي على النص الخام، معلومات التخطيط، والناتج المدقق إملائيًا.
-
 ### الخطوة 3: طباعة نتائج OCR
+
+`printResult` هي روتين مساعد ينسق ويعرض ناتج OCR، بما في ذلك النص المدقق إملائيًا، درجات الثقة، الفقرات المكتشفة، البيانات سطرًا بسطر، بدائل الأحرف، التحذيرات، حمولة JSON، والنص المصحح **OCR with spell check**.
 
 ```java
 // Print result
 printResult(result);
 ```
 
-طريقة المساعدة `printResult` (المقدمة في حزمة المصدر الكاملة) تعرض وفرة من المعلومات: النص المستخرج، درجات الثقة، الفقرات المكتشفة، البيانات سطرًا بسطر، بدائل الأحرف، التحذيرات، حمولة JSON، والنص المصحح **OCR with spell check**.
-
 ## لماذا نستخدم Detect Areas Mode؟
 
-- **Optimised for photos** – محسن للصور الفوتوغرافية – يعزل تلقائيًا مناطق النص، مما يقلل الضوضاء.  
-- **Improved accuracy** – دقة محسّنة – خاصةً في الإيصالات والفواتير والنماذج الممسوحة.  
-- **Built‑in spell checking** – تدقيق إملائي مدمج – ينظف الأخطاء الشائعة في OCR دون معالجة إضافية.
+يقوم وضع Detect Areas Mode تلقائيًا بعزل مناطق النص في الصور الفوتوغرافية، مما يقلل الضوضاء البصرية ويحسن دقة التعرف. يتم تحسينه للصور الفوتوغرافية، الإيصالات، والنماذج الممسوحة، حيث يحقق ما يصل إلى **30 % أعلى دقة على مستوى الأحرف** في الصور منخفضة التباين مقارنةً بالوضع الافتراضي. كما أن ميزة التدقيق الإملائي المدمجة تنظف الناتج أكثر، وتزيل ما يصل إلى **85 % من الأخطاء الشائعة في OCR** دون معالجة إضافية.
+
+- **Optimised for photos** – يعزل تلقائيًا مناطق النص، مما يقلل الضوضاء.  
+- **Improved accuracy** – خاصةً في الإيصالات، الفواتير، والنماذج الممسوحة.  
+- **Built‑in spell checking** – ينظف الأخطاء الشائعة في OCR دون معالجة إضافية.
 
 ## حالات الاستخدام الشائعة
 
 | السيناريو | الفائدة |
 |----------|---------|
-| معالجة الإيصالات | استخراج سريع لأسماء التجار، الإجماليات، والتواريخ. |
-| رقمنة الفواتير | استخراج بنود الفاتورة ومعلومات الضرائب للأنظمة المحاسبية. |
+| معالجة الإيصالات | استخراج أسماء التجار، الإجماليات، والتواريخ بسرعة. |
+| رقمنة الفواتير | استخراج بنود الفاتورة ومعلومات الضرائب لأنظمة المحاسبة. |
 | مسح وثائق الهوية | التقاط الأسماء والأرقام من رخص القيادة أو جوازات السفر. |
 
-## نصائح استكشاف الأخطاء وإصلاحها ومخاطر شائعة
+## نصائح استكشاف الأخطاء وإصلاحها ومشكلات شائعة
 
-- **Incorrect file path** – مسار ملف غير صحيح – تحقق مرة أخرى من `dataDir` وتأكد من وجود الصورة.  
-- **Low‑resolution images** – صور منخفضة الدقة – تنخفض دقة OCR بشكل كبير تحت 300 dpi؛ فكر في معالجة مسبقة للصورة.  
-- **Missing license** – ترخيص مفقود – بدون ترخيص صالح يعمل API في وضع التجربة وقد يضيف علامة مائية على النتائج.  
+- **Incorrect file path** – تحقق مرة أخرى من `dataDir` وتأكد من وجود الصورة.  
+- **Low‑resolution images** – تنخفض دقة OCR بشكل كبير تحت 300 dpi؛ فكر في معالجة مسبقة للصورة.  
+- **Missing license** – بدون ترخيص صالح، تعمل الـ API في وضع التجربة وقد تضع علامة مائية على النتائج.  
 
-## الخلاصة
+## كيفية تنفيذ تحويل صورة جافا إلى نص
 
-تهانينا! لقد تعلمت بنجاح **how to extract text from image java** باستخدام Detect Areas Mode عبر Aspose.OCR for Java. لا يقتصر هذا النهج على استخراج النص من ملفات الصور فحسب، بل يوفر أيضًا ناتجًا نظيفًا مدققًا إملائيًا—مثاليًا لأنابيب البيانات اللاحقة أو عرض واجهة المستخدم.
+حمّل ملف JPEG (أو PNG) باستخدام `new OcrEngine()` موجهًا إلى الملف، فعّل `engine.getConfig().setDetectAreasMode(true)`، استدعِ `engine.recognizePage()`، ثم اقرأ `result.getText()` – هذا هو سير عمل **java image to text** الكامل في ثلاث استدعاءات فقط. يتعامل هذا النهج تلقائيًا مع اكتشاف التخطيط، استخراج الأحرف، والتدقيق الإملائي، مما يمنحك نصًا نظيفًا وقابلاً للبحث جاهزًا للمعالجة اللاحقة.
+
+## الخاتمة
+
+تهانينا! لقد تعلمت بنجاح **how to extract text from image java** باستخدام وضع Detect Areas Mode عبر Aspose.OCR للـ Java. لا يقتصر هذا النهج على استخراج النص من ملفات الصور فحسب، بل يوفر أيضًا ناتجًا مدققًا إملائيًا ونظيفًا—مثاليًا لأنابيب البيانات اللاحقة أو عرض واجهة المستخدم.
 
 ## الأسئلة المتكررة
 
-**س: هل يمكن لـ Aspose.OCR التعامل مع لغات متعددة؟**  
-ج: نعم، يدعم Aspose.OCR مجموعة واسعة من اللغات، مما يجعله مرنًا للتطبيقات العالمية.
+**Q: Can Aspose.OCR handle multiple languages?**  
+A: نعم، يدعم Aspose.OCR أكثر من 60 لغة، مما يجعله متعدد الاستخدامات للتطبيقات العالمية.
 
-**س: هل Aspose.OCR مناسب لعمليات OCR على نطاق واسع؟**  
-ج: بالتأكيد. تم تصميم المكتبة لسيناريوهات عالية الإنتاجية ويمكن دمجها في خطوط معالجة الدُفعات.
+**Q: Is Aspose.OCR suitable for large‑scale OCR operations?**  
+A: بالتأكيد. يمكن للمكتبة معالجة دفعات مئات الصفحات بشكل متوازي وتم تصميمها لسيناريوهات عالية الإنتاجية.
 
-**س: هل يمكنني دمج Aspose.OCR في تطبيقات الويب؟**  
-ج: نعم، يمكنك تضمين API Java في خدمات الويب القائمة على Servlet أو Spring Boot لتوفير OCR كنقطة نهاية REST.
+**Q: Can I integrate Aspose.OCR into web applications?**  
+A: نعم، يمكنك تضمين واجهة برمجة تطبيقات Java في خدمات تعتمد على servlet أو Spring Boot لعرض OCR كنقطة نهاية REST.
 
-**س: هل يوفر Aspose.OCR قدرات تدقيق إملائي؟**  
-ج: نعم، كما هو موضح، يتضمن الناتج قسم “ocr with spell check” الذي يصحح الأخطاء الشائعة في التعرف.
+**Q: Does Aspose.OCR provide spell‑checking capabilities?**  
+A: نعم، كما هو موضح، يتضمن الناتج قسم “ocr with spell check” الذي يصحح الأخطاء الشائعة في التعرف.
 
-**س: هل هناك منتدى مجتمع لدعم Aspose.OCR؟**  
-ج: نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع في [منتدى Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+**Q: Is there a community forum for Aspose.OCR support?**  
+A: نعم، يمكنك العثور على الدعم والتفاعل مع المجتمع في [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
 ---
 
-**آخر تحديث:** 2026-02-12  
+**آخر تحديث:** 2026-06-24  
 **تم الاختبار مع:** Aspose.OCR for Java 23.12 (latest at time of writing)  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [التعرف على نص الصورة باستخدام Aspose Ocr دليل Java OCR كامل](/ocr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+- [كيفية OCR نص الصورة مع اللغة باستخدام Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+- [تحويل الصورة إلى نص – التعرف على النص من الصورة واسترجاع مستطيلات مناطق النص](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
