@@ -1,22 +1,23 @@
 ---
 category: general
-date: 2026-02-22
-description: recognize text from image using Aspose OCR in C#. Learn how to load tiff
-  image, create OCR engine, and extract text from image efficiently.
+date: 2026-02-09
+description: Learn how to recognize text from image and extract plain text using a
+  custom dictionary in C#. Includes step‑by‑step code and tips.
 draft: false
 keywords:
 - recognize text from image
-- load tiff image
-- extract text from image
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: en
-og_description: recognize text from image step‑by‑step. Learn to load tiff image,
-  create OCR engine, and extract text from image with Aspose OCR in C#.
-og_title: recognize text from image – Full C# Aspose OCR Tutorial
+og_description: recognize text from image in C# with Aspose OCR. Follow this guide
+  to extract plain text and add a custom dictionary for better accuracy.
+og_title: recognize text from image – Full C# Tutorial
 tags:
+- OCR
 - C#
-- Aspose OCR
-- Image Processing
+- Aspose
 title: recognize text from image with Aspose OCR – Complete C# Guide
 url: /net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -25,203 +26,173 @@ url: /net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# recognize text from image – Full C# Aspose OCR Tutorial
+# recognize text from image – Full C# Tutorial
 
-Ever needed to **recognize text from image** but felt stuck at the first line of code? You're not alone. In many projects—invoice scanning, digitizing archives, or building a searchable PDF library—getting clean text out of a picture is the first hurdle.  
+Ever needed to **recognize text from image** but the results kept missing domain‑specific words? You're not alone. In many projects—invoice scanning, badge reading, or simply pulling captions from screenshots—the default OCR engine just isn't smart enough about your vocabulary.  
 
-Good news: with Aspose OCR you can load a TIFF image, spin up an OCR engine, and **extract text from image** in just a handful of lines. In this tutorial we’ll walk through the entire flow, from loading a high‑resolution TIFF file to printing the recognized text and processing time.
+The good news? By loading a **custom dictionary** you can dramatically improve accuracy and, of course, **extract plain text** in one clean step. In this tutorial we'll walk through the whole process, from reading a dictionary file to printing the OCR result, using Aspose.OCR in C#.  
 
-We'll also cover a few “what if” scenarios, like disabling GPU acceleration or handling multi‑page TIFFs, so you won’t be surprised when your real‑world data looks a bit different. By the end, you’ll have a ready‑to‑run console app that **recognize text from image** reliably.
+We'll also answer the lingering “**how to add custom dictionary**” question, show you **how to extract text** efficiently, and point out common pitfalls so you don't waste another hour tweaking settings.
 
-## Prerequisites
+## What You’ll Need
 
-- .NET 6.0 SDK or later (the code works with .NET Core and .NET Framework as well)
-- Aspose.OCR NuGet package (`dotnet add package Aspose.OCR`)
-- A TIFF file you want to process (the sample uses `high_res_page.tif`)
-- Any IDE you like—Visual Studio, Rider, or VS Code will do
+- **.NET 6+** (any recent runtime works)
+- **Aspose.OCR for .NET** NuGet package  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- A **text file** (`custom_dictionary.txt`) containing one word per line – these are the terms you expect to see.
+- An **image** (`input_image.png`) that contains the text you want to recognize.
 
-No additional native libraries are required; Aspose handles everything internally, including optional GPU support.
+No additional libraries, no external services. Just pure C# and Aspose.
 
-## Step 1: Load a TIFF image
+## Step 1: Initialise the OCR Engine – Recognize Text from Image
 
-The first thing you have to do is bring the image data into memory. Aspose provides a static `Image.Load` method that works with most common formats, TIFF included.
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Models;
-
-// Load the TIFF file – replace the path with your own image location
-var inputImage = Image.Load(@"YOUR_DIRECTORY/high_res_page.tif");
-```
-
-**Why this matters:** TIFF files often contain multiple pages or high‑resolution data that other libraries choke on. Aspose’s loader reads the file correctly and keeps the pixel depth intact, which is crucial for accurate OCR later on.
-
-*Pro tip:* If you’re dealing with a multi‑page TIFF, you can loop through `inputImage.Frames` and process each frame individually. That way you won’t miss any text hidden on later pages.
-
-## Step 2: Create an OCR engine
-
-Now that the image is in memory, you need an engine that knows how to read characters. The `OcrEngine` class is where you configure language, GPU usage, and other options.
-
-```csharp
-// Initialize the OCR engine with desired settings
-var ocrEngine = new OcrEngine
-{
-    // Enable GPU acceleration for faster processing (optional, requires compatible hardware)
-    UseGpu = true,
-    // Set the language to English – you can change this to Language.French, etc.
-    Language = Language.English
-};
-```
-
-**Why this matters:** Enabling GPU (`UseGpu = true`) can cut processing time dramatically on supported machines, but it’s perfectly safe to leave it off if you’re running on a CI server or a low‑end laptop. Also, picking the right language improves character recognition because the engine loads language‑specific dictionaries.
-
-*Watch out:* If you forget to set `Language`, the engine defaults to English, which might produce odd results on non‑Latin scripts.
-
-## Step 3: Recognize text from image
-
-With the engine ready, the actual OCR call is a single method: `Recognize`. It returns an `OcrResult` object containing the extracted text and performance metrics.
-
-```csharp
-// Perform OCR on the loaded image
-var ocrResult = ocrEngine.Recognize(inputImage);
-```
-
-The `OcrResult` gives you two handy properties:
-
-- `Text` – the plain‑text representation of everything the engine could read.
-- `ProcessingTime` – how long the OCR took, measured in milliseconds.
-
-## Step 4: Review the results
-
-Finally, let’s output what we got. In a real application you might write the text to a database, but for demo purposes a console write‑out is enough.
-
-```csharp
-// Show how long the OCR took and the recognized text
-Console.WriteLine($"Recognized in {ocrResult.ProcessingTime} ms");
-Console.WriteLine("=== Extracted Text Start ===");
-Console.WriteLine(ocrResult.Text);
-Console.WriteLine("=== Extracted Text End ===");
-```
-
-**Expected output** (your text will differ, of course):
-
-```
-Recognized in 842 ms
-=== Extracted Text Start ===
-Invoice #12345
-Date: 2024‑01‑15
-Total: $1,250.00
-...
-=== Extracted Text End ===
-```
-
-If the output looks garbled, double‑check that the image is clear and that you selected the correct language. You can also tweak `ocrEngine` properties like `PreprocessOptions` for noise reduction.
-
-## Handling Edge Cases
-
-### 1. No GPU? No problem.
-
-```csharp
-ocrEngine.UseGpu = false; // fallback to CPU‑only processing
-```
-
-CPU processing is slower (often 2‑3×), but it works on every Windows, Linux, or macOS machine.
-
-### 2. Multi‑page TIFFs
-
-```csharp
-foreach (var frame in inputImage.Frames)
-{
-    var pageResult = ocrEngine.Recognize(frame);
-    Console.WriteLine(pageResult.Text);
-}
-```
-
-Each frame is treated as a separate image, so you’ll get a chunk of text per page.
-
-### 3. Different languages
-
-```csharp
-ocrEngine.Language = Language.Spanish; // or Language.French, Language.German, etc.
-```
-
-Switching languages loads the appropriate character set and dictionary, dramatically improving accuracy for non‑English documents.
-
-## Full Working Example
-
-Below is the complete program you can copy‑paste into a new console project (`dotnet new console`). It includes all the pieces we discussed, plus a few safety checks.
+The first thing you do is spin up an `OcrEngine`. This object holds all configuration options, including the custom dictionary we’ll inject later.
 
 ```csharp
 using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
 using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the TIFF image you want to process
-        // -------------------------------------------------
-        const string imagePath = @"YOUR_DIRECTORY/high_res_page.tif";
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
+```
 
-        if (!System.IO.File.Exists(imagePath))
-        {
-            Console.WriteLine($"Error: File not found at {imagePath}");
-            return;
-        }
+> **Why this matters:**  
+> Without an engine instance you have no context for settings like language, DPI, or custom word lists. Think of `OcrEngine` as the brain that will later **recognize text from image**.
 
-        var inputImage = Image.Load(imagePath);
+## Step 2: Read the Dictionary File – How to Add Custom Dictionary
 
-        // -------------------------------------------------
-        // Step 2: Create and configure the OCR engine
-        // -------------------------------------------------
-        var ocrEngine = new OcrEngine
-        {
-            UseGpu = true,                 // optional – set to false if GPU not available
-            Language = Language.English    // change if you need another language
-        };
+Next, we need to **read dictionary file** contents into a `HashSet<string>`. A hash set gives O(1) lookup, which is perfect for the engine’s internal checks.
 
-        // -------------------------------------------------
-        // Step 3: Perform OCR on the loaded image
-        // -------------------------------------------------
-        var ocrResult = ocrEngine.Recognize(inputImage);
+```csharp
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+```
 
-        // -------------------------------------------------
-        // Step 4: Display processing time and extracted text
-        // -------------------------------------------------
-        Console.WriteLine($"Recognized in {ocrResult.ProcessingTime} ms");
-        Console.WriteLine("=== Extracted Text Start ===");
-        Console.WriteLine(ocrResult.Text);
-        Console.WriteLine("=== Extracted Text End ===");
+> **Pro tip:**  
+> Keep the dictionary file UTF‑8 encoded and avoid blank lines; they’ll be treated as empty strings and could confuse the engine.
 
-        // Keep console window open when debugging
-        Console.WriteLine("\nPress any key to exit...");
-        Console.ReadKey();
+## Step 3: Load the Image – How to Extract Text
+
+Now we feed the image we want to process. Aspose uses `ImageStream` to abstract away file handling.
+
+```csharp
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+```
+
+> **Edge case:**  
+> If your image is larger than 2000 × 2000 pixels, consider down‑scaling it first. Oversized images can slow down recognition without improving accuracy.
+
+## Step 4: Run the OCR Process – Extract Plain Text
+
+With everything prepared, call `Recognize`. The method returns an `OcrResult` object that holds both raw and cleaned text.
+
+```csharp
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Save the file, run `dotnet run`, and watch the console spit out the recognized text. That’s it—your **recognize text from image** pipeline is up and running.
+> **What you’ll see:**  
+> The console prints a clean, line‑break‑preserving version of the text. If your custom dictionary contains “Aspose” and “OCR”, those words will appear exactly as you defined them, even if the image is slightly noisy.
+
+## Full Working Example
+
+Below is the **complete, copy‑and‑paste ready** program. Replace `YOUR_DIRECTORY` with the actual folder path where you stored the dictionary and image.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**Expected output** (assuming the image contains “Welcome to Aspose OCR Demo”)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+If “Aspose” was in your custom dictionary, the spelling will be perfect even if the image had a slight blur.
 
 ## Frequently Asked Questions
 
-**Q: Does this work with PNG or JPEG?**  
-A: Absolutely. `Image.Load` auto‑detects the format, so you can replace the `.tif` extension with `.png`, `.jpg`, or even `.bmp`. The OCR engine treats them the same way.
+### How do I **read dictionary file** with different encodings?
+Use `File.ReadAllLines(path, Encoding.UTF8)` (or `Encoding.Unicode`) to match the file’s encoding. This prevents hidden characters from sneaking into the `HashSet`.
 
-**Q: My output contains a lot of stray symbols.**  
-A: Try enabling pre‑processing: `ocrEngine.PreprocessOptions = new PreprocessOptions { RemoveNoise = true, Deskew = true };`. This cleans up the image before recognition.
+### What if the OCR result still misses a word from my dictionary?
+Make sure the word’s case matches the dictionary entry, or set `ocrEngine.Configuration.IgnoreCase = true`. Also, verify that the image resolution is at least 300 dpi for best results.
 
-**Q: Can I get the bounding boxes for each word?**  
-A: Yes. `ocrResult.Regions` contains `OcrRegion` objects with coordinates. Loop through them if you need to highlight words in a UI.
+### Can I **extract plain text** from a PDF instead of an image?
+Yes—Aspose.PDF can render each page to an image, then feed those images into the same OCR pipeline. The workflow is identical; you just add a PDF‑to‑image conversion step.
 
-## Conclusion
+### Is there a way to **how to add custom dictionary** at runtime for multiple languages?
+Absolutely. Create a separate `HashSet<string>` per language and swap `ocrEngine.Configuration.CustomDictionary` before each `Recognize` call.
 
-We’ve just shown you how to **recognize text from image** using Aspose OCR in C#. Starting from loading a TIFF file, then **create OCR engine**, running the recognition, and finally displaying the results—each step is concise, fully explained, and ready to copy into your own project.  
+## Tips & Tricks for Better Accuracy
 
-From here you might explore batch processing of folders, storing results in a searchable index, or combining OCR with translation APIs. Whatever you choose, the core pattern stays the same: load the image, configure the engine, recognize, and handle the output.
+- **Pre‑process the image**: Convert to grayscale, increase contrast, or apply a slight Gaussian blur to remove speckles.
+- **Batch processing**: If you have dozens of images, reuse the same `OcrEngine` instance; re‑initialising each time adds unnecessary overhead.
+- **Log the raw OCR data**: `ocrResult.TextLines` gives you line‑by‑line confidence scores, useful for post‑processing or flagging low‑confidence results.
 
-Got more questions about loading TIFF images, extracting text from image, or tweaking the OCR engine? Drop a comment below, and happy coding!
+## Next Steps
+
+Now that you know **how to extract text** and **how to add custom dictionary**, consider these follow‑up topics:
+
+1. **Integrate with ASP.NET Core** – expose an API endpoint that accepts an image and returns JSON‑formatted OCR results.  
+2. **Combine with Entity Framework** – store extracted plain text directly into a database for searchable records.  
+3. **Explore language detection** – switch dictionaries automatically based on detected language codes.
+
+Each of these builds on the foundation laid in this guide, letting you turn a simple **recognize text from image** snippet into a production‑ready service.
+
+---
+
+*Happy coding! If you hit a snag, drop a comment below or check the Aspose.OCR documentation for deeper configuration options. Remember, a well‑crafted custom dictionary is often the secret sauce that turns mediocre OCR into razor‑sharp text extraction.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

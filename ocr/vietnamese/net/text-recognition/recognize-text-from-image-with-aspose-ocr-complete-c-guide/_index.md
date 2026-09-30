@@ -1,229 +1,203 @@
 ---
 category: general
-date: 2026-02-22
-description: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#. Tìm hiểu cách
-  tải ảnh TIFF, tạo engine OCR và trích xuất văn bản từ hình ảnh một cách hiệu quả.
+date: 2026-02-09
+description: Học cách nhận dạng văn bản từ hình ảnh và trích xuất văn bản thuần bằng
+  từ điển tùy chỉnh trong C#. Bao gồm mã từng bước và các mẹo.
 draft: false
 keywords:
 - recognize text from image
-- load tiff image
-- extract text from image
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: vi
-og_description: Nhận dạng văn bản từ hình ảnh từng bước một. Học cách tải ảnh TIFF,
-  tạo công cụ OCR và trích xuất văn bản từ hình ảnh bằng Aspose OCR trong C#.
-og_title: Nhận dạng văn bản từ hình ảnh – Hướng dẫn đầy đủ C# Aspose OCR
+og_description: Nhận dạng văn bản từ hình ảnh trong C# với Aspose OCR. Hãy làm theo
+  hướng dẫn này để trích xuất văn bản thuần và thêm từ điển tùy chỉnh nhằm cải thiện
+  độ chính xác.
+og_title: Nhận dạng văn bản từ hình ảnh – Hướng dẫn C# đầy đủ
 tags:
+- OCR
 - C#
-- Aspose OCR
-- Image Processing
-title: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C# đầy đủ
+- Aspose
+title: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn đầy đủ C#
 url: /vi/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
-.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# nhận dạng văn bản từ hình ảnh – Hướng dẫn đầy đủ C# Aspose OCR
+# Nhận dạng văn bản từ hình ảnh – Hướng dẫn đầy đủ C#
 
-Bạn đã bao giờ cần **nhận dạng văn bản từ hình ảnh** nhưng lại bị kẹt ngay ở dòng code đầu tiên? Bạn không phải là người duy nhất. Trong nhiều dự án—quét hoá đơn, số hoá tài liệu lưu trữ, hoặc xây dựng thư viện PDF có thể tìm kiếm—việc lấy được văn bản sạch từ một bức ảnh là rào cản đầu tiên.  
+Bạn đã bao giờ cần **nhận dạng văn bản từ hình ảnh** nhưng kết quả luôn thiếu các từ chuyên ngành? Bạn không phải là người duy nhất. Trong nhiều dự án—quét hoá đơn, đọc thẻ, hoặc chỉ đơn giản là lấy chú thích từ ảnh chụp màn hình—động cơ OCR mặc định không đủ thông minh để hiểu từ vựng của bạn.  
 
-Tin tốt: với Aspose OCR bạn có thể tải một ảnh TIFF, khởi tạo một engine OCR, và **trích xuất văn bản từ hình ảnh** chỉ trong vài dòng code. Trong hướng dẫn này chúng ta sẽ đi qua toàn bộ quy trình, từ việc tải một file TIFF độ phân giải cao đến việc in ra văn bản đã nhận dạng và thời gian xử lý.
+Tin tốt? Bằng cách tải **từ điển tùy chỉnh** bạn có thể cải thiện độ chính xác một cách đáng kể và, dĩ nhiên, **trích xuất văn bản thuần** trong một bước sạch sẽ. Trong hướng dẫn này chúng ta sẽ đi qua toàn bộ quy trình, từ việc đọc tệp từ điển đến in kết quả OCR, sử dụng Aspose.OCR trong C#.  
 
-Chúng ta cũng sẽ đề cập một vài kịch bản “nếu như” như tắt tăng tốc GPU hoặc xử lý TIFF đa trang, để bạn không bị bất ngờ khi dữ liệu thực tế có chút khác biệt. Khi hoàn thành, bạn sẽ có một ứng dụng console sẵn sàng chạy để **nhận dạng văn bản từ hình ảnh** một cách đáng tin cậy.
+Chúng tôi cũng sẽ trả lời câu hỏi còn tồn tại “**cách thêm từ điển tùy chỉnh**”, chỉ cho bạn **cách trích xuất văn bản** một cách hiệu quả, và chỉ ra các bẫy thường gặp để bạn không phải lãng phí thêm một giờ để điều chỉnh cài đặt.
 
-## Yêu cầu trước
+## Những gì bạn cần
 
-- .NET 6.0 SDK hoặc mới hơn (code cũng chạy được với .NET Core và .NET Framework)
-- Gói NuGet Aspose.OCR (`dotnet add package Aspose.OCR`)
-- Một file TIFF bạn muốn xử lý (ví dụ trong mẫu là `high_res_page.tif`)
-- Bất kỳ IDE nào bạn thích—Visual Studio, Rider, hoặc VS Code đều được
+- **.NET 6+** (bất kỳ runtime mới nào cũng hoạt động)
+- **Aspose.OCR for .NET** gói NuGet  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- Một **tệp văn bản** (`custom_dictionary.txt`) chứa một từ mỗi dòng – đây là các thuật ngữ bạn mong đợi.
+- Một **hình ảnh** (`input_image.png`) chứa văn bản bạn muốn nhận dạng.
 
-Không cần thư viện gốc bổ sung; Aspose tự xử lý mọi thứ bên trong, kể cả hỗ trợ GPU tùy chọn.
+Không cần thư viện bổ sung, không dịch vụ bên ngoài. Chỉ cần C# thuần và Aspose.
 
-## Bước 1: Tải ảnh TIFF
+## Bước 1: Khởi tạo Engine OCR – Nhận dạng văn bản từ hình ảnh
 
-Điều đầu tiên bạn phải làm là đưa dữ liệu ảnh vào bộ nhớ. Aspose cung cấp phương thức tĩnh `Image.Load` hoạt động với hầu hết các định dạng phổ biến, bao gồm TIFF.
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Models;
-
-// Load the TIFF file – replace the path with your own image location
-var inputImage = Image.Load(@"YOUR_DIRECTORY/high_res_page.tif");
-```
-
-**Tại sao điều này quan trọng:** File TIFF thường chứa nhiều trang hoặc dữ liệu độ phân giải cao mà các thư viện khác không xử lý được. Trình tải của Aspose đọc file một cách chính xác và giữ nguyên độ sâu pixel, điều này rất quan trọng để OCR chính xác sau này.
-
-*Mẹo:* Nếu bạn đang làm việc với TIFF đa trang, có thể lặp qua `inputImage.Frames` và xử lý từng frame riêng biệt. Như vậy bạn sẽ không bỏ sót bất kỳ văn bản nào ẩn trên các trang sau.
-
-## Bước 2: Tạo engine OCR
-
-Bây giờ ảnh đã ở trong bộ nhớ, bạn cần một engine biết cách đọc ký tự. Lớp `OcrEngine` là nơi bạn cấu hình ngôn ngữ, việc sử dụng GPU và các tùy chọn khác.
-
-```csharp
-// Initialize the OCR engine with desired settings
-var ocrEngine = new OcrEngine
-{
-    // Enable GPU acceleration for faster processing (optional, requires compatible hardware)
-    UseGpu = true,
-    // Set the language to English – you can change this to Language.French, etc.
-    Language = Language.English
-};
-```
-
-**Tại sao điều này quan trọng:** Bật GPU (`UseGpu = true`) có thể giảm thời gian xử lý đáng kể trên các máy hỗ trợ, nhưng bạn hoàn toàn có thể tắt nếu đang chạy trên máy CI hoặc laptop cấu hình thấp. Ngoài ra, chọn đúng ngôn ngữ sẽ cải thiện độ nhận dạng ký tự vì engine sẽ tải các từ điển đặc thù cho ngôn ngữ đó.
-
-*Lưu ý:* Nếu bạn quên đặt `Language`, engine sẽ mặc định là tiếng Anh, có thể cho ra kết quả lạ trên các script không phải Latin.
-
-## Bước 3: Nhận dạng văn bản từ hình ảnh
-
-Với engine đã sẵn sàng, lời gọi OCR thực tế chỉ là một phương thức duy nhất: `Recognize`. Nó trả về một đối tượng `OcrResult` chứa văn bản đã trích xuất và các chỉ số hiệu năng.
-
-```csharp
-// Perform OCR on the loaded image
-var ocrResult = ocrEngine.Recognize(inputImage);
-```
-
-`OcrResult` cung cấp hai thuộc tính hữu ích:
-
-- `Text` – chuỗi văn bản thuần mà engine có thể đọc được.
-- `ProcessingTime` – thời gian OCR mất, tính bằng mili giây.
-
-## Bước 4: Xem lại kết quả
-
-Cuối cùng, hãy in ra những gì chúng ta nhận được. Trong một ứng dụng thực tế bạn có thể ghi văn bản vào cơ sở dữ liệu, nhưng cho mục đích demo việc in ra console là đủ.
-
-```csharp
-// Show how long the OCR took and the recognized text
-Console.WriteLine($"Recognized in {ocrResult.ProcessingTime} ms");
-Console.WriteLine("=== Extracted Text Start ===");
-Console.WriteLine(ocrResult.Text);
-Console.WriteLine("=== Extracted Text End ===");
-```
-
-**Kết quả mong đợi** (văn bản của bạn sẽ khác, tất nhiên):
-
-```
-Recognized in 842 ms
-=== Extracted Text Start ===
-Invoice #12345
-Date: 2024‑01‑15
-Total: $1,250.00
-...
-=== Extracted Text End ===
-```
-
-Nếu kết quả trông rối mắt, hãy kiểm tra lại ảnh có đủ rõ nét và bạn đã chọn đúng ngôn ngữ. Bạn cũng có thể tinh chỉnh các thuộc tính của `ocrEngine` như `PreprocessOptions` để giảm nhiễu.
-
-## Xử lý các trường hợp đặc biệt
-
-### 1. Không có GPU? Không sao.
-
-```csharp
-ocrEngine.UseGpu = false; // fallback to CPU‑only processing
-```
-
-Xử lý bằng CPU chậm hơn (thường 2‑3×), nhưng nó hoạt động trên mọi máy Windows, Linux, hoặc macOS.
-
-### 2. TIFF đa trang
-
-```csharp
-foreach (var frame in inputImage.Frames)
-{
-    var pageResult = ocrEngine.Recognize(frame);
-    Console.WriteLine(pageResult.Text);
-}
-```
-
-Mỗi frame được xem như một ảnh riêng, vì vậy bạn sẽ nhận được một đoạn văn bản cho mỗi trang.
-
-### 3. Ngôn ngữ khác
-
-```csharp
-ocrEngine.Language = Language.Spanish; // or Language.French, Language.German, etc.
-```
-
-Chuyển đổi ngôn ngữ sẽ tải bộ ký tự và từ điển phù hợp, cải thiện đáng kể độ chính xác cho tài liệu không phải tiếng Anh.
-
-## Ví dụ hoàn chỉnh
-
-Dưới đây là chương trình đầy đủ mà bạn có thể sao chép‑dán vào một dự án console mới (`dotnet new console`). Nó bao gồm tất cả các phần chúng ta đã thảo luận, cộng thêm một vài kiểm tra an toàn.
+Điều đầu tiên bạn làm là khởi tạo một `OcrEngine`. Đối tượng này chứa tất cả các tùy chọn cấu hình, bao gồm cả từ điển tùy chỉnh mà chúng ta sẽ chèn sau này.
 
 ```csharp
 using System;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
 using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // Step 1: Load the TIFF image you want to process
-        // -------------------------------------------------
-        const string imagePath = @"YOUR_DIRECTORY/high_res_page.tif";
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
+```
 
-        if (!System.IO.File.Exists(imagePath))
-        {
-            Console.WriteLine($"Error: File not found at {imagePath}");
-            return;
-        }
+> **Tại sao điều này quan trọng:**  
+> Không có một thể hiện engine, bạn sẽ không có ngữ cảnh cho các cài đặt như ngôn ngữ, DPI, hoặc danh sách từ tùy chỉnh. Hãy nghĩ `OcrEngine` như bộ não sẽ sau này **nhận dạng văn bản từ hình ảnh**.
 
-        var inputImage = Image.Load(imagePath);
+## Bước 2: Đọc tệp từ điển – Cách thêm từ điển tùy chỉnh
 
-        // -------------------------------------------------
-        // Step 2: Create and configure the OCR engine
-        // -------------------------------------------------
-        var ocrEngine = new OcrEngine
-        {
-            UseGpu = true,                 // optional – set to false if GPU not available
-            Language = Language.English    // change if you need another language
-        };
+Tiếp theo, chúng ta cần **đọc nội dung tệp từ điển** vào một `HashSet<string>`. HashSet cung cấp thời gian tra cứu O(1), rất phù hợp cho các kiểm tra nội bộ của engine.
 
-        // -------------------------------------------------
-        // Step 3: Perform OCR on the loaded image
-        // -------------------------------------------------
-        var ocrResult = ocrEngine.Recognize(inputImage);
+```csharp
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+```
 
-        // -------------------------------------------------
-        // Step 4: Display processing time and extracted text
-        // -------------------------------------------------
-        Console.WriteLine($"Recognized in {ocrResult.ProcessingTime} ms");
-        Console.WriteLine("=== Extracted Text Start ===");
-        Console.WriteLine(ocrResult.Text);
-        Console.WriteLine("=== Extracted Text End ===");
+> **Mẹo chuyên nghiệp:**  
+> Giữ tệp từ điển được mã hoá UTF‑8 và tránh các dòng trống; chúng sẽ được coi là chuỗi rỗng và có thể làm engine bối rối.
 
-        // Keep console window open when debugging
-        Console.WriteLine("\nPress any key to exit...");
-        Console.ReadKey();
+## Bước 3: Tải hình ảnh – Cách trích xuất văn bản
+
+Bây giờ chúng ta cung cấp hình ảnh cần xử lý. Aspose sử dụng `ImageStream` để trừu tượng hoá việc xử lý tệp.
+
+```csharp
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+```
+
+> **Trường hợp đặc biệt:**  
+> Nếu hình ảnh của bạn lớn hơn 2000 × 2000 pixel, hãy cân nhắc giảm kích thước trước. Hình ảnh quá lớn có thể làm chậm quá trình nhận dạng mà không cải thiện độ chính xác.
+
+## Bước 4: Chạy quy trình OCR – Trích xuất văn bản thuần
+
+Khi mọi thứ đã sẵn sàng, gọi `Recognize`. Phương thức này trả về một đối tượng `OcrResult` chứa cả văn bản thô và văn bản đã được làm sạch.
+
+```csharp
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Lưu file, chạy `dotnet run`, và xem console xuất ra văn bản đã nhận dạng. Đó là tất cả—pipeline **nhận dạng văn bản từ hình ảnh** của bạn đã sẵn sàng hoạt động.
+> **Bạn sẽ thấy:**  
+> Console in ra phiên bản văn bản sạch, giữ nguyên các ngắt dòng. Nếu từ điển tùy chỉnh của bạn chứa “Aspose” và “OCR”, những từ này sẽ xuất hiện chính xác như bạn đã định nghĩa, ngay cả khi hình ảnh có chút nhiễu.
+
+## Ví dụ làm việc đầy đủ
+
+Dưới đây là chương trình **đầy đủ, sẵn sàng sao chép‑dán**. Thay thế `YOUR_DIRECTORY` bằng đường dẫn thư mục thực tế nơi bạn lưu trữ từ điển và hình ảnh.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**Kết quả mong đợi** (giả sử hình ảnh chứa “Welcome to Aspose OCR Demo”)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+Nếu “Aspose” có trong từ điển tùy chỉnh của bạn, chính tả sẽ hoàn hảo ngay cả khi hình ảnh có chút mờ.
 
 ## Câu hỏi thường gặp
 
-**H: Điều này có hoạt động với PNG hoặc JPEG không?**  
-Đ: Hoàn toàn có. `Image.Load` tự động phát hiện định dạng, vì vậy bạn có thể thay đổi phần mở rộng `.tif` thành `.png`, `.jpg`, hoặc thậm chí `.bmp`. Engine OCR xử lý chúng giống nhau.
+### Làm thế nào để tôi **đọc tệp từ điển** với các mã hoá khác nhau?
 
-**H: Kết quả của tôi chứa rất nhiều ký tự lạ.**  
-Đ: Hãy bật tiền xử lý: `ocrEngine.PreprocessOptions = new PreprocessOptions { RemoveNoise = true, Deskew = true };`. Điều này sẽ làm sạch ảnh trước khi nhận dạng.
+Sử dụng `File.ReadAllLines(path, Encoding.UTF8)` (hoặc `Encoding.Unicode`) để phù hợp với mã hoá của tệp. Điều này ngăn các ký tự ẩn xâm nhập vào `HashSet`.
 
-**H: Tôi có thể lấy các bounding box cho mỗi từ không?**  
-Đ: Có. `ocrResult.Regions` chứa các đối tượng `OcrRegion` với tọa độ. Bạn có thể lặp qua chúng nếu muốn đánh dấu từ trong giao diện người dùng.
+### Nếu kết quả OCR vẫn bỏ lỡ một từ trong từ điển của tôi thì sao?
 
-## Kết luận
+Đảm bảo chữ hoa/thường của từ khớp với mục trong từ điển, hoặc đặt `ocrEngine.Configuration.IgnoreCase = true`. Ngoài ra, kiểm tra độ phân giải hình ảnh ít nhất 300 dpi để có kết quả tốt nhất.
 
-Chúng ta vừa trình bày cách **nhận dạng văn bản từ hình ảnh** bằng Aspose OCR trong C#. Bắt đầu từ việc tải file TIFF, sau đó **tạo engine OCR**, chạy nhận dạng, và cuối cùng hiển thị kết quả—mỗi bước đều ngắn gọn, được giải thích chi tiết, và sẵn sàng sao chép vào dự án của bạn.  
+### Tôi có thể **trích xuất văn bản thuần** từ PDF thay vì hình ảnh không?
 
-Từ đây bạn có thể khám phá xử lý hàng loạt thư mục, lưu kết quả vào chỉ mục tìm kiếm, hoặc kết hợp OCR với các API dịch thuật. Dù bạn chọn gì, mẫu cơ bản vẫn giữ nguyên: tải ảnh, cấu hình engine, nhận dạng, và xử lý đầu ra.
+Có—Aspose.PDF có thể render mỗi trang thành hình ảnh, sau đó đưa các hình ảnh này vào cùng quy trình OCR. Quy trình làm việc giống hệt; bạn chỉ cần thêm bước chuyển PDF sang hình ảnh.
 
-Có thêm câu hỏi về tải ảnh TIFF, trích xuất văn bản từ hình ảnh, hoặc tinh chỉnh engine OCR? Hãy để lại bình luận bên dưới, chúc bạn lập trình vui vẻ!
+### Có cách nào để **thêm từ điển tùy chỉnh** tại thời gian chạy cho nhiều ngôn ngữ không?
+
+Chắc chắn. Tạo một `HashSet<string>` riêng cho mỗi ngôn ngữ và hoán đổi `ocrEngine.Configuration.CustomDictionary` trước mỗi lần gọi `Recognize`.
+
+## Mẹo & Thủ thuật để Cải thiện Độ chính xác
+
+- **Tiền xử lý hình ảnh**: Chuyển sang thang độ xám, tăng độ tương phản, hoặc áp dụng một chút Gaussian blur để loại bỏ nhiễu.
+- **Xử lý hàng loạt**: Nếu bạn có hàng chục hình ảnh, hãy tái sử dụng cùng một thể hiện `OcrEngine`; việc khởi tạo lại mỗi lần sẽ tạo ra chi phí không cần thiết.
+- **Ghi lại dữ liệu OCR thô**: `ocrResult.TextLines` cung cấp điểm tin cậy từng dòng, hữu ích cho việc hậu xử lý hoặc đánh dấu các kết quả có độ tin cậy thấp.
+
+## Các bước tiếp theo
+
+Bây giờ bạn đã biết **cách trích xuất văn bản** và **cách thêm từ điển tùy chỉnh**, hãy xem xét các chủ đề tiếp theo này:
+
+1. **Tích hợp với ASP.NET Core** – mở một endpoint API nhận hình ảnh và trả về kết quả OCR dạng JSON.  
+2. **Kết hợp với Entity Framework** – lưu văn bản thuần đã trích xuất trực tiếp vào cơ sở dữ liệu để có thể tìm kiếm.  
+3. **Khám phá phát hiện ngôn ngữ** – tự động chuyển đổi từ điển dựa trên mã ngôn ngữ được phát hiện.
+
+Mỗi mục này dựa trên nền tảng đã được đặt ra trong hướng dẫn này, cho phép bạn biến một đoạn mã **nhận dạng văn bản từ hình ảnh** đơn giản thành một dịch vụ sẵn sàng cho môi trường sản xuất.
+
+---
+
+*Chúc lập trình vui vẻ! Nếu gặp khó khăn, hãy để lại bình luận bên dưới hoặc kiểm tra tài liệu Aspose.OCR để biết các tùy chọn cấu hình sâu hơn. Hãy nhớ, một từ điển tùy chỉnh được xây dựng tốt thường là bí quyết giúp OCR trung bình trở thành việc trích xuất văn bản sắc nét.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

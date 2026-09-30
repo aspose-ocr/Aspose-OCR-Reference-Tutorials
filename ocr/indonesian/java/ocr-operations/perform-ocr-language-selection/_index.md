@@ -1,11 +1,11 @@
 ---
-date: 2025-12-13
-description: Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR untuk
-  Java dengan pemilihan bahasa. Tutorial Aspose OCR Java langkah demi langkah ini
-  menunjukkan konfigurasi OCR yang tepat.
-linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+date: 2026-02-12
+description: Pelajari cara melakukan OCR teks gambar dengan pilihan bahasa menggunakan
+  Aspose.OCR untuk Java. Panduan langkah demi langkah ini mencakup ekstraksi teks
+  Java, koreksi kemiringan OCR, dan lainnya.
+linktitle: How to OCR Image Text with Language Using Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Cara Mengekstrak Teks dari Gambar dengan Pilihan Bahasa Menggunakan Aspose.OCR
+title: Cara OCR Teks Gambar dengan Bahasa Menggunakan Aspose.OCR
 url: /id/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
@@ -14,34 +14,42 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengekstrak Teks dari Gambar dengan Pemilihan Bahasa Menggunakan Aspose.OCR
+# Cara OCR Teks Gambar dengan Bahasa Menggunakan Aspose.OCR
 
 ## Pendahuluan
 
-Mengekstrak teks dari file gambar adalah kebutuhan umum, baik Anda sedang mendigitalkan dokumen yang dipindai, memproses struk, atau membangun arsip yang dapat dicari. Aspose.OCR untuk Java membuat tugas ini menjadi sederhana dan memberi Anda kontrol detail atas pemilihan bahasa, koreksi kemiringan, dan area pengenalan. Dalam tutorial ini kami akan memandu Anda melalui contoh lengkap, langkah‑demi‑langkah yang menunjukkan **cara mengekstrak teks dari gambar** dengan pengaturan bahasa tertentu, sehingga Anda dapat mengintegrasikan OCR yang handal ke dalam aplikasi Java Anda hari ini.
+Mengekstrak teks dari file gambar adalah kebutuhan umum, baik Anda mendigitalkan dokumen yang dipindai, memproses kwitansi, atau membangun arsip yang dapat dicari. Dalam tutorial ini kami akan memandu Anda melalui contoh lengkap, hands‑on, yang menunjukkan **cara OCR teks gambar** dengan pengaturan bahasa tertentu, sehingga Anda dapat mengintegrasikan OCR yang handal ke dalam aplikasi Java Anda hari ini. Anda juga akan melihat cara menangani koreksi kemiringan OCR dan pengenalan berbasis wilayah untuk akurasi optimal.
 
 ## Jawaban Cepat
 - **Perpustakaan apa yang menangani OCR di Java?** Aspose.OCR untuk Java  
 - **Pengaturan mana yang memilih bahasa?** `settings.setLanguage(Language.Eng)` (atau bahasa lain yang didukung)  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi evaluasi gratis cukup untuk pengujian; lisensi komersial diperlukan untuk produksi.  
-- **Bisakah saya membatasi OCR ke wilayah gambar?** Ya, gunakan `RecognitionSettings.setRecognitionAreas()` dengan persegi panjang.  
+- **Bisakah saya membatasi OCR ke wilayah tertentu pada gambar?** Ya, gunakan `RecognitionSettings.setRecognitionAreas()` dengan persegi panjang.  
 - **Berapa lama waktu eksekusi biasanya?** Beberapa detik per halaman pada laptop standar, tergantung ukuran gambar dan kompleksitas bahasa.
 
-## Apa itu “mengekstrak teks dari gambar”?
+## Cara OCR Teks Gambar dengan Pemilihan Bahasa
+Pada bagian ini kami menjawab pertanyaan inti **bagaimana cara OCR** sebuah gambar ketika Anda mengetahui bahasa teksnya. Memilih bahasa yang tepat secara dramatis meningkatkan akurasi pengenalan karena mesin OCR dapat menerapkan kamus dan model karakter yang spesifik bahasa.
+
+### Mengapa ini penting
+- **Akurasi lebih tinggi** – model khusus bahasa mengurangi kesalahan pengenalan.  
+- **Peningkatan performa** – mesin melewati pemeriksaan bahasa yang tidak diperlukan.  
+- **Penanganan diakritik yang lebih baik** – bahasa Prancis, Spanyol, Jerman, dll., dikenali dengan benar ketika enum `Language` yang cocok digunakan.
+
+## Apa itu “ekstrak teks dari gambar”?
 Mengekstrak teks dari gambar (OCR) mengubah representasi visual karakter menjadi string yang dapat dibaca mesin. Ini memungkinkan pencarian, analitik, dan alur kerja ekstraksi data yang sebaliknya memerlukan transkripsi manual.
 
 ## Mengapa menggunakan Aspose.OCR dengan pemilihan bahasa?
-- **Dukungan multibahasa** – Pilih bahasa yang tepat dalam gambar Anda untuk meningkatkan akurasi.  
-- **Kontrol detail** – Sesuaikan kemiringan, tentukan area pengenalan, dan atur perilaku auto‑skew.  
+- **Dukungan multibahasa** – Pilih bahasa yang tepat(s) yang ada pada gambar Anda untuk meningkatkan akurasi.  
+- **Kontrol terperinci** – Sesuaikan kemiringan, definisikan wilayah pengenalan, dan atur perilaku auto‑skew.  
 - **API Java murni** – Tanpa ketergantungan native, mudah diintegrasikan ke proyek Java apa pun.  
-- **Data hasil yang kaya** – Dapatkan teks biasa, JSON, persegi panjang pembatas, dan peringatan dalam satu panggilan.
+- **Data hasil yang kaya** – Dapatkan teks polos, JSON, persegi panjang pembatas, dan peringatan dalam satu panggilan.
 
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memiliki:
 
 - **Java Development Kit (JDK)** terpasang (JDK 8 atau lebih baru).  
-- **Perpustakaan Aspose.OCR untuk Java** – unduh dari situs resmi [di sini](https://reference.aspose.com/ocr/java/).  
+- **Aspose.OCR untuk Java** library – unduh dari situs resmi [di sini](https://reference.aspose.com/ocr/java/).  
 - Sebuah file gambar yang berisi teks yang ingin Anda ekstrak, misalnya `p3.png`.
 
 ## Impor Paket
@@ -82,9 +90,9 @@ Ganti `"Your Document Directory"` dengan jalur absolut tempat `p3.png` berada.
 String file = dataDir + "p3.png";
 ```
 
-Pastikan variabel `file` mengarah ke gambar yang tepat yang ingin Anda proses.
+Pastikan variabel `file` mengarah ke gambar tepat yang ingin Anda proses.
 
-### Langkah 3: Buat Instance API Aspose.OCR
+### Langkah 3: Buat Instansi API Aspose.OCR
 
 ```java
 // Create API instance
@@ -108,9 +116,9 @@ settings.setLanguage(Language.Eng);
 
 Di sini kami:
 
-1. Menonaktifkan auto‑skew karena kami menyediakan nilai kemiringan manual.  
-2. Menentukan wilayah persegi panjang (`RecognitionAreas`) untuk membatasi OCR hanya pada bagian gambar yang benar‑benar berisi teks.  
-3. Menetapkan **bahasa** ke Inggris (`Language.Eng`). Ubah menjadi `Language.Fra`, `Language.Spa`, dll., tergantung pada gambar sumber Anda.
+1. Menonaktifkan auto‑skew karena kami menyediakan nilai skew manual.  
+2. Mendefinisikan wilayah persegi panjang (`RecognitionAreas`) untuk membatasi OCR hanya pada bagian gambar yang memang berisi teks.  
+3. Menetapkan **bahasa** ke Inggris (`Language.Eng`). Ubah ini menjadi `Language.Fra`, `Language.Spa`, dll., tergantung pada gambar sumber Anda.
 
 ### Langkah 5: Jalankan OCR dan Dapatkan Hasil
 
@@ -151,44 +159,44 @@ Output konsol menampilkan:
 - Teks lengkap yang diekstrak (`recognitionText`).  
 - Teks untuk setiap persegi panjang yang didefinisikan (`recognitionAreasText`).  
 - Koordinat persegi panjang pembatas.  
-- Representasi JSON untuk memudahkan pemrosesan lanjutan.  
-- Sudut kemiringan yang terdeteksi dan peringatan apa pun.
+- Representasi JSON untuk pemrosesan lebih lanjut yang mudah.  
+- Sudut kemiringan yang terdeteksi dan setiap peringatan.
 
-Sekarang Anda dapat memasukkan `result.recognitionText` ke dalam logika bisnis Anda—menyimpannya, mengindeksnya, atau mengirimkannya ke layanan lain.
+Sekarang Anda dapat memasukkan `result.recognitionText` ke dalam logika bisnis Anda—menyimpannya, mengindeksnya, atau mengirimnya ke layanan lain.
 
 ## Masalah Umum dan Solusinya
 
 | Masalah | Penyebab | Solusi |
-|---------|----------|--------|
-| **Karakter sampah** | Bahasa yang dipilih salah | Atur enum `Language` yang tepat (misalnya `Language.Fra` untuk bahasa Prancis). |
+|-------|-------|-----|
+| **Karakter sampah** | Bahasa yang dipilih salah | Atur enum `Language` yang benar (misalnya `Language.Fra` untuk bahasa Prancis). |
 | **Tidak ada teks yang dikembalikan** | Area pengenalan tidak mencakup teks | Sesuaikan koordinat `Rectangle` atau hapus `RecognitionAreas` untuk memproses seluruh gambar. |
-| **Performa lambat** | Gambar sangat besar atau resolusi tinggi | Turunkan resolusi gambar sebelum OCR atau tingkatkan alokasi memori JVM. |
-| **Peringatan format tidak didukung** | Format gambar tidak dikenali | Konversi gambar ke PNG, JPEG, atau TIFF sebelum diproses. |
+| **Performa lambat** | Gambar sangat besar atau resolusi tinggi | Turunkan skala gambar sebelum OCR atau tingkatkan alokasi memori untuk JVM. |
+| **Peringatan tentang format yang tidak didukung** | Format gambar tidak dikenali | Konversi gambar ke PNG, JPEG, atau TIFF sebelum diproses. |
 
-## Pertanyaan yang Sering Diajukan
+## FAQ
 
-**T: Bisakah saya mengenali beberapa bahasa dalam satu panggilan OCR?**  
-J: Ya. Gunakan `settings.setLanguage(Language.Eng | Language.Fra)` untuk mengaktifkan pengenalan multibahasa.
+**T: Dapatkah saya mengenali banyak bahasa dalam satu panggilan OCR?**  
+J: Ya. Gunakan `settings.setLanguage(Language.Eng \| Language.Fra)` untuk mengaktifkan pengenalan multibahasa.
 
-**T: Format gambar apa saja yang didukung Aspose.OCR?**  
-J: PNG, JPEG, BMP, TIFF, GIF, dan beberapa lainnya. Cukup berikan jalur file yang benar.
+**T: Format gambar apa yang didukung Aspose.OCR?**  
+J: PNG, JPEG, BMP, TIFF, GIF, dan beberapa lainnya. Cukup berikan jalur file yang tepat.
 
 **T: Apakah ada batas ukuran untuk gambar?**  
-J: Tidak ada batas keras, tetapi gambar yang sangat besar meningkatkan penggunaan memori dan waktu proses. Pertimbangkan untuk mengubah ukuran file besar.
+J: Tidak ada batas keras, tetapi gambar yang sangat besar meningkatkan penggunaan memori dan waktu pemrosesan. Pertimbangkan untuk mengubah ukuran file besar.
 
 **T: Bagaimana cara mendapatkan lisensi produksi?**  
 J: Beli lisensi dari situs Aspose dan terapkan melalui kelas `License` seperti yang ditunjukkan dalam dokumentasi Aspose.
 
-**T: Bisakah saya mengekstrak teks langsung dari halaman PDF?**  
+**T: Dapatkah saya mengekstrak teks dari halaman PDF secara langsung?**  
 J: Tidak secara langsung dengan Aspose.OCR. Konversi halaman PDF ke gambar terlebih dahulu (misalnya, menggunakan Aspose.PDF) lalu jalankan OCR.
 
 ## Kesimpulan
 
-Anda kini telah melihat cara **mengekstrak teks dari gambar** menggunakan Aspose.OCR untuk Java sambil memilih bahasa yang tepat dan membatasi pengenalan ke wilayah tertentu. Pendekatan ini memberikan OCR yang akurat dan berperforma tinggi yang dapat disematkan ke dalam alur kerja berbasis Java apa pun—dari sistem manajemen dokumen hingga pipeline penangkapan data.
+Anda kini telah melihat cara **mengekstrak teks dari gambar** menggunakan Aspose.OCR untuk Java sambil memilih bahasa yang tepat dan membatasi pengenalan ke wilayah tertentu. Pendekatan ini memberikan OCR yang akurat dan berperforma tinggi yang dapat disematkan ke dalam alur kerja berbasis Java apa pun—dari sistem manajemen dokumen hingga pipeline penangkapan data. Siap melanjutkan? Coba ganti enum bahasa, eksperimen dengan wilayah pengenalan yang berbeda, dan integrasikan hasilnya ke dalam logika aplikasi Anda sendiri.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-13  
+**Terakhir Diperbarui:** 2026-02-12  
 **Diuji Dengan:** Aspose.OCR 24.11 untuk Java  
 **Penulis:** Aspose  
 
