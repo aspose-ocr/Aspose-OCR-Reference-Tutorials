@@ -193,31 +193,6 @@ Aspose читает исходный файл через обёртку `OcrInpu
 
 ---
 
-## Полный рабочий пример (Все шаги в одном файле)
-
-Ниже приведён полный Java‑класс, который вы можете скопировать и вставить в свою IDE. Замените `YOUR_DIRECTORY` на реальный путь к папке.
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure PDF‑specific OCR options
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Load the scanned PDF (image‑only) into an OcrInput object
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

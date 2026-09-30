@@ -189,31 +189,6 @@ Aspose 通过 `OcrInput` 包装器读取源文件。你可以一次添加多个�
 
 ---
 
-## 完整工作示例（所有步骤合并在一个文件中）
-
-下面是完整的 Java 类，可直接复制到 IDE 中使用。请将 `YOUR_DIRECTORY` 替换为实际文件夹路径。
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure PDF‑specific OCR options
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Load the scanned PDF (image‑only) into an OcrInput object
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

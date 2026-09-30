@@ -189,31 +189,6 @@ Snížení DPI zmenší velikost souboru přibližně na polovinu, ale otestujte
 
 ---
 
-## Kompletní funkční příklad (všechny kroky v jednom souboru)
-
-Níže je kompletní třída Java, kterou můžete zkopírovat a vložit do svého IDE. Nahraďte `YOUR_DIRECTORY` skutečnou cestou ke složce.
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure PDF‑specific OCR options
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Load the scanned PDF (image‑only) into an OcrInput object
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

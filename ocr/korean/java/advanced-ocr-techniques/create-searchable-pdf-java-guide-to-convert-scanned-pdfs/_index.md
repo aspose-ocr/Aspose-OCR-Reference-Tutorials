@@ -189,31 +189,6 @@ DPI를 낮추면 파일 크기가 대략 절반으로 감소하지만 가독성�
 
 ---
 
-## 전체 작업 예제 (한 파일에 모든 단계 포함)
-
-아래는 IDE에 복사‑붙여넣기 할 수 있는 완전한 Java 클래스입니다. `YOUR_DIRECTORY`를 실제 폴더 경로로 바꾸세요.
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure PDF‑specific OCR options
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Load the scanned PDF (image‑only) into an OcrInput object
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

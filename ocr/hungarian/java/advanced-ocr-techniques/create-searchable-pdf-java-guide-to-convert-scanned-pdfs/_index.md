@@ -25,15 +25,7 @@ title: Kereshető PDF létrehozása – Java útmutató a beolvasott PDF-ek konv
 url: /hu/java/advanced-ocr-techniques/create-searchable-pdf-java-guide-to-convert-scanned-pdfs/
 ---
 
-content.
-
-Check that we didn't miss any markdown elements.
-
-We need to ensure we kept the placeholder {{CODE_BLOCK_X}} unchanged.
-
-Also ensure we kept the image alt and title translation; alt text changed, title changed.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -196,31 +188,6 @@ A DPI csökkentése nagyjából felére csökkenti a fájlméretet, de teszteld 
 Ezeknek a problémáknak a kezelése biztosítja, hogy a **create searchable pdf** folyamatod robusztus legyen a valós dokumentumgyűjteményekben.
 
 ---
-
-## Teljes működő példa (Minden lépés egy fájlban)
-
-Az alábbiakban a teljes Java osztályt találod, amelyet beilleszthetsz az IDE-dbe. Cseréld ki a `YOUR_DIRECTORY`-t a tényleges mappára.
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure PDF‑specific OCR options
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Load the scanned PDF (image‑only) into an OcrInput object
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -191,31 +191,6 @@ Résoudre ces problèmes garantit que votre pipeline **create searchable pdf** e
 
 ---
 
-## Exemple complet fonctionnel (Toutes les étapes dans un seul fichier)
-
-Voici la classe Java complète que vous pouvez copier‑coller dans votre IDE. Remplacez `YOUR_DIRECTORY` par le chemin réel du dossier.
-
-```java
-import com.aspose.ocr.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
-public class PdfToSearchableDemo {
-    public static void main(String[] args) throws Exception {
-
-        // 1️⃣ Initialise le moteur OCR
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure les options OCR spécifiques aux PDF
-        PdfOcrOptions pdfOcrOptions = new PdfOcrOptions();
-        pdfOcrOptions.setOutputDpi(300);                 // higher DPI improves accuracy
-        pdfOcrOptions.setCompressImages(true);           // reduce output size
-        pdfOcrOptions.setEmbedOriginalImages(true);      // keep original visual fidelity
-
-        // 3️⃣ Charge le PDF numérisé (image‑only) dans un objet OcrInput
-        OcrInput ocrInput = new OcrInput();
-        ocrInput.add("YOUR_DIRECTORY/input.pdf");        // <-- your source file
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
