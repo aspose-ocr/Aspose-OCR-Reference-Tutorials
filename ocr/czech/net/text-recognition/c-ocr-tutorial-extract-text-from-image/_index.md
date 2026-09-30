@@ -22,15 +22,7 @@ title: c# OCR tutoriál – extrahovat text z obrázku
 url: /cs/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-né kódování!"
-
-Then closing shortcodes unchanged.
-
-Now ensure we didn't translate any code block placeholders or shortcodes.
-
-Also ensure we kept markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

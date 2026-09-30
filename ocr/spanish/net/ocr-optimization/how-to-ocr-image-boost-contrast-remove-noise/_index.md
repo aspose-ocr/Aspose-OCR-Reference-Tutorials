@@ -23,11 +23,7 @@ title: 'cómo hacer OCR de una imagen: aumentar el contraste, eliminar el ruido'
 url: /es/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-sure to keep code block placeholders unchanged.
-
-Also ensure alt attribute translation: alt="ejemplo de cómo hacer OCR de imagen". Keep braces.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

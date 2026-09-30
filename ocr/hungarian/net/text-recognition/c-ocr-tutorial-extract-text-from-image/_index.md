@@ -23,20 +23,6 @@ title: c# OCR útmutató – szöveg kinyerése képből
 url: /hu/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-.
-
-Also translate "Alt text: c# OCR tutorial showing extracted text from a JPEG image." -> "Alt szöveg: c# OCR bemutató, amely a JPEG képről kinyert szöveget mutatja."
-
-Make sure not to translate URLs inside markdown links, but there are none except image link.
-
-Also preserve markdown links format.
-
-Let's craft translation.
-
-Also note "step-by-step in order" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

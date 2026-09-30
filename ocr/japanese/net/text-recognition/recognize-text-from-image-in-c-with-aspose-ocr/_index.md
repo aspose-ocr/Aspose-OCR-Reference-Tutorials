@@ -21,8 +21,6 @@ title: C# と Aspose OCR を使用して画像からテキストを認識する
 url: /ja/net/text-recognition/recognize-text-from-image-in-c-with-aspose-ocr/
 ---
 
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

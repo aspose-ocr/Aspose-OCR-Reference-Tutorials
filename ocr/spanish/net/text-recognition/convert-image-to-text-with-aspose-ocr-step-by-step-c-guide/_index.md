@@ -24,10 +24,6 @@ title: Convertir imagen a texto con Aspose OCR – Guía paso a paso en C#
 url: /es/net/text-recognition/convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/
 ---
 
-.
-
-Let's produce final Spanish translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

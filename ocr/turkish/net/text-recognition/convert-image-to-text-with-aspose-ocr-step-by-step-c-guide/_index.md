@@ -24,8 +24,6 @@ title: Aspose OCR ile Görüntüyü Metne Dönüştür – Adım Adım C# Rehber
 url: /tr/net/text-recognition/convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/
 ---
 
-Let's assemble final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

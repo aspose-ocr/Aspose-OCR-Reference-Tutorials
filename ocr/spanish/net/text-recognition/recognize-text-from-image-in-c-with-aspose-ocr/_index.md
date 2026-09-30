@@ -25,14 +25,6 @@ title: Reconocer texto de una imagen en C# con Aspose OCR
 url: /es/net/text-recognition/recognize-text-from-image-in-c-with-aspose-ocr/
 ---
 
-the table content.
-
-Also translate the "Expected Console Output" heading.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

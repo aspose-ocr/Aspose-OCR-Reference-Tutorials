@@ -24,26 +24,6 @@ title: Converti immagine in testo con Aspose OCR – Guida passo‑passo C#
 url: /it/net/text-recognition/convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/
 ---
 
-For Italian, ensure proper RTL formatting if needed" - not needed.
-
-We must keep code block placeholders unchanged.
-
-Let's produce the translated markdown.
-
-Check for any URLs inside text? There's none besides image placeholder.
-
-We need to translate the bullet list under "What You’ll Learn". Also "Prerequisites" list.
-
-Also blockquote "Pro tip". Also "Common mistake". etc.
-
-Make sure to keep markdown syntax.
-
-Let's craft translation.
-
-Start with the same shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

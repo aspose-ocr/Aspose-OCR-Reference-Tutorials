@@ -25,9 +25,7 @@ title: Πώς να κάνετε ομαδική OCR εικόνων JPEG σε C# �
 url: /el/net/text-recognition/how-to-batch-ocr-jpeg-images-in-c-complete-guide/
 ---
 
-: none. Ensure code block placeholders remain unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

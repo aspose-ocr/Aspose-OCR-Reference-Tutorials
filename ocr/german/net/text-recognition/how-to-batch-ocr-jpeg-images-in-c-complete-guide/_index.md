@@ -25,7 +25,7 @@ title: Wie man JPEG‑Bilder in C# stapelweise OCR verarbeitet – Komplettanlei
 url: /de/net/text-recognition/how-to-batch-ocr-jpeg-images-in-c-complete-guide/
 ---
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

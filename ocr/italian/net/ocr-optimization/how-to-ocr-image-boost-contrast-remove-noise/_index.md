@@ -23,10 +23,6 @@ title: 'Come fare OCR su un''immagine: aumentare il contrasto, rimuovere il rumo
 url: /it/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

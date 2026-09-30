@@ -23,13 +23,7 @@ title: 'Cara OCR Gambar: Tingkatkan Kontras, Hapus Noise'
 url: /id/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-.  Wrap the same logic in an ASP.NET Core controller, accept an `IFormFile`, and return the OCR result as JSON.  Remember to dispose of `Image` objects to" -> The sentence is cut off; keep as is. Translate up to that point.
-
-Now close shortcodes as given.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

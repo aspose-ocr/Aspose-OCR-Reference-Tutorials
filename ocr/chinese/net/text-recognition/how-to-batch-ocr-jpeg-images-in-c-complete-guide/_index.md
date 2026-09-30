@@ -22,7 +22,7 @@ title: 如何在 C# 中批量 OCR JPEG 图像 – 完整指南
 url: /zh/net/text-recognition/how-to-batch-ocr-jpeg-images-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

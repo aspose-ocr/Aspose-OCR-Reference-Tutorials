@@ -23,7 +23,7 @@ title: 'Jak provést OCR obrázku: zvýšit kontrast, odstranit šum'
 url: /cs/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

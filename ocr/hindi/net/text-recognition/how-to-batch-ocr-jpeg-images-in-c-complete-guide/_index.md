@@ -24,22 +24,6 @@ title: C# में JPEG इमेजेज का बैच OCR कैसे �
 url: /hi/net/text-recognition/how-to-batch-ocr-jpeg-images-in-c-complete-guide/
 ---
 
-टेक्स्ट निकाल सकें** और **jpg को txt में बदल सकें** कुछ ही लाइनों के कोड से।"
-
-Need to keep bold formatting.
-
-Next paragraph: "If you’ve ever stared at a directory ...". Translate.
-
-Proceed similarly.
-
-Make sure bullet list items are translated but keep code formatting for file patterns.
-
-Also code placeholders remain.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

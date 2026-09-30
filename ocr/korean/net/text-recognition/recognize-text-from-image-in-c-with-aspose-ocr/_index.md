@@ -23,16 +23,6 @@ title: C#와 Aspose OCR을 사용한 이미지 텍스트 인식
 url: /ko/net/text-recognition/recognize-text-from-image-in-c-with-aspose-ocr/
 ---
 
-etc. Keep code block placeholders unchanged.
-
-Also translate alt text of image? The alt text is "Screenshot of console showing recognized text from image". Should translate that alt text? The rule: translate all text content. Alt text is text content, so translate to Korean, but keep the markdown image syntax unchanged. The title attribute "recognize text from image result screenshot" also should be translated? That's inside quotes after image path. That's also text. Should translate.
-
-Also translate "recognize text from image" phrase appears many times; keep as is? It's part of text, but phrase is English; maybe keep as English because it's a phrase, but rule says translate all text content naturally to Korean, keep technical terms in English. "recognize text from image" is a phrase describing functionality, not a technical term. Could translate to "이미지에서 텍스트 인식". We'll translate.
-
-Also keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

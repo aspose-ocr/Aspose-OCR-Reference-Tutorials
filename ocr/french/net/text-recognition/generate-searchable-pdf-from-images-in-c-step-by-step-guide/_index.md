@@ -25,7 +25,7 @@ title: Générer un PDF interrogeable à partir d'images en C# – Guide étape 
 url: /fr/net/text-recognition/generate-searchable-pdf-from-images-in-c-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

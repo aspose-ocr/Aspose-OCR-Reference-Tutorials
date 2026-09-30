@@ -24,13 +24,7 @@ title: c# OCR οδηγός – εξαγωγή κειμένου από εικόν
 url: /el/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-στις σύγχρονες εφαρμογές C#. Έχετε ερωτήσεις ή μια δύσκολη εικόνα που δεν συνεργάζεται; Αφήστε ένα σχόλιο παρακάτω—καλή προγραμματιστική!"
-
-Then the closing shortcodes.
-
-Make sure to keep the shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

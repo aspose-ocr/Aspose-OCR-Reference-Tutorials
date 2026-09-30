@@ -22,9 +22,7 @@ title: Tutorial de OCR em C# – extrair texto de imagem
 url: /pt/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

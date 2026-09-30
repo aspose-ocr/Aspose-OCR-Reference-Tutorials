@@ -23,22 +23,6 @@ title: 'как распознать изображение: увеличить �
 url: /ru/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-.
-
-We must not translate shortcodes, which are the blocks at top and bottom.
-
-We must keep markdown links unchanged; there are none besides maybe none.
-
-We need to translate the text inside code block placeholders? Those are placeholders, not actual code, so we should leave them unchanged.
-
-We need to translate the "Expected output:" and the code block placeholder after.
-
-Also translate the "Common Questions & Tips" etc.
-
-Make sure to keep the same structure.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

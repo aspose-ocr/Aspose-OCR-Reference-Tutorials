@@ -22,10 +22,6 @@ title: c# OCR ट्यूटोरियल – छवि से टेक्�
 url: /hi/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-Text From Image" heading etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,8 +25,6 @@ title: Создание поискового PDF из изображений в 
 url: /ru/net/text-recognition/generate-searchable-pdf-from-images-in-c-step-by-step-guide/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

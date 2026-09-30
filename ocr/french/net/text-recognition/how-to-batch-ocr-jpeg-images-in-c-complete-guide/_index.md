@@ -26,7 +26,7 @@ title: Comment effectuer une OCR par lots d'images JPEG en C# – Guide complet
 url: /fr/net/text-recognition/how-to-batch-ocr-jpeg-images-in-c-complete-guide/
 ---
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

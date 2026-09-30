@@ -20,8 +20,6 @@ title: c# OCR 教學 – 從圖片提取文字
 url: /zh-hant/net/text-recognition/c-ocr-tutorial-extract-text-from-image/
 ---
 
-with same formatting.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

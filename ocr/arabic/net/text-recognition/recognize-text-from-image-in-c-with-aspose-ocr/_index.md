@@ -23,11 +23,7 @@ title: التعرف على النص من الصورة في C# باستخدام A
 url: /ar/net/text-recognition/recognize-text-from-image-in-c-with-aspose-ocr/
 ---
 
-/products-backtop-button >}}
-
-All preserved.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

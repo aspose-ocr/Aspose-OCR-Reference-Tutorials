@@ -22,13 +22,7 @@ title: 'Hur man OCR:ar en bild: öka kontrasten, ta bort brus'
 url: /sv/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-for any URLs: only /images/ocr-demo.png, keep unchanged.
-
-Also there is a link? No.
-
-Now produce Swedish translation.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

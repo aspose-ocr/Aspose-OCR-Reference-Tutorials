@@ -23,16 +23,6 @@ title: 'hogyan OCR-eljünk képet: kontraszt növelése, zaj eltávolítása'
 url: /hu/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-last sentence is incomplete; we keep as is.
-
-Translate: "Természetesen. Csomagold be ugyanazt a logikát egy ASP.NET Core vezérlőbe, fogadj egy `IFormFile`-t, és az OCR eredményt JSON-ként add vissza. Ne felejtsd el a `Image` objektumokat eldobni, hogy"
-
-Now after that we have closing shortcodes.
-
-We must ensure we keep all shortcodes exactly as original.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

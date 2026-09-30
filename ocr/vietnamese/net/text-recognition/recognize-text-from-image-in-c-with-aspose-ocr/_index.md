@@ -25,13 +25,7 @@ title: Nhận dạng văn bản từ hình ảnh trong C# với Aspose OCR
 url: /vi/net/text-recognition/recognize-text-from-image-in-c-with-aspose-ocr/
 ---
 
-vui vẻ!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

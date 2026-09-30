@@ -24,14 +24,6 @@ title: Μετατροπή εικόνας σε κείμενο με Aspose OCR –
 url: /el/net/text-recognition/convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/
 ---
 
-Pro tip" etc.
-
-Let's produce the translated content.
-
-Need to keep the shortcodes exactly as they appear.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

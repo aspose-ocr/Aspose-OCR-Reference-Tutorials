@@ -22,26 +22,6 @@ title: 'วิธีทำ OCR รูปภาพ: เพิ่มความ�
 url: /th/net/ocr-optimization/how-to-ocr-image-boost-contrast-remove-noise/
 ---
 
-ตัวอย่างการ OCR รูปภาพ". But need to keep same format: ![how to ocr image example]...{alt="how to ocr image example"} The alt attribute is inside curly braces after image. Should translate both alt text inside brackets and alt attribute? Probably yes. We'll translate alt text and alt attribute.
-
-Also translate headings, paragraphs, bullet points, etc. Keep code block placeholders unchanged.
-
-We must not translate URLs, file paths, variable names, function names. So in code placeholders we keep as is.
-
-Let's produce final content with same structure.
-
-We need to keep the shortcodes at top and bottom unchanged.
-
-Let's translate.
-
-We'll produce Thai translation.
-
-Be careful with markdown links: none present except maybe none. There's no markdown links.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
