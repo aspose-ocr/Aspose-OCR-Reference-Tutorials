@@ -78,6 +78,10 @@ Apprenez à appliquer les filtres de prétraitement sur les images en C# pour am
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
+Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
+### [Comment OCR une image : augmenter le contraste, supprimer le bruit](./how-to-ocr-image-boost-contrast-remove-noise/)
+Apprenez à améliorer le contraste et éliminer le bruit avant l’OCR pour une précision accrue.
+
 ### [Reconnaître le texte d'une image avec Aspose OCR GPU en C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
 Utilisez le GPU d’Aspose OCR pour accélérer la reconnaissance de texte d'images en C# avec des performances optimisées.
 
@@ -163,8 +167,6 @@ Apprenez à corriger l’inclinaison des images avant l’OCR avec Aspose.OCR en
 
 ### [Extraire du texte d'une image en C# – Guide complet OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
 Apprenez à extraire du texte d'images en C# avec Aspose.OCR, en suivant un guide complet étape par étape.
-### [Comment OCR une image : augmenter le contraste, supprimer le bruit](./how-to-ocr-image-boost-contrast-remove-noise/)
-Apprenez à améliorer le contraste et éliminer le bruit avant l’OCR pour une précision accrue.
 
 ## Questions fréquemment posées
 
