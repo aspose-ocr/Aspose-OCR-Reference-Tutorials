@@ -142,6 +142,16 @@ C# kullanarak görüntülerde tam OCR işlemini adım adım uygulayın ve Aspose
 ### [C#'ta Toplu OCR Dosyalarını İşlemek – Tam Kod Örneği](./how-to-batch-ocr-files-in-c-full-code-example/)
 ### [C#'ta OCR Gerçekleştirme – Görüntüyü JSON'a Dönüştürme Kılavuzu](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 C# ile görüntüyü OCR ile işleyip sonuçları JSON formatında almayı adım adım öğrenin.
+### [c# OCR eğitimi – görüntüden metin çıkarma](./c-ocr-tutorial-extract-text-from-image/)
+c# ile Aspose.OCR kullanarak bir görüntüden metin nasıl çıkarılır, adım adım öğrenin.
+### [Aspose OCR ile Görüntüyü Metne Dönüştürme – Adım Adım C# Rehberi](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR kullanarak C# ile bir görüntüyü metne dönüştürmeyi adım adım öğrenin.
+### [C# ile Görüntülerden Aranabilir PDF Oluşturma – Adım Adım Rehber](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Aspose.OCR kullanarak C# ile görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin.
+### [C# ile JPEG Görüntülerini Toplu OCR İşleme – Tam Kılavuz](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Aspose.OCR ile C# kullanarak JPEG görüntülerini toplu olarak OCR'dan geçirip metni çıkarmayı adım adım öğrenin.
+### [C# ile Aspose OCR kullanarak görüntüden metin tanıma](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Aspose OCR kullanarak C# ile bir görüntüden metin nasıl tanınır, adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

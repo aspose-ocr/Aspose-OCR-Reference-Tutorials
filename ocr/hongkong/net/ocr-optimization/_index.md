@@ -82,6 +82,8 @@ weight: 25
 ### [使用 Aspose OCR 執行 OCR – GPU 加速 C# 指南](./how-to-perform-ocr-with-aspose-ocr-gpu-accelerated-c-guide/)
 ### [在 C# 中使用 Aspose OCR GPU 辨識圖像文字](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
 利用 GPU 加速的 Aspose OCR，在 C# 應用程式中快速且高精度地提取圖像文字。
+### [如何對圖像執行 OCR：提升對比度與去除噪點](./how-to-ocr-image-boost-contrast-remove-noise/)
+學習使用 Aspose.OCR for .NET 提升圖像對比度並去除噪點，以獲得更高的 OCR 準確度。
 
 
 

@@ -93,6 +93,8 @@ Leer hoe je met Aspose OCR in C# tekst uit gescande documenten haalt, met volled
 Gebruik de GPU-versnelling van Aspose OCR in C# om tekst uit afbeeldingen snel en nauwkeurig te extraheren.
 ### [Afbeelding preprocessen voor OCR in C# – Complete stapsgewijze gids](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Leer hoe je afbeeldingen stap‑voor‑stap kunt voorbereiden voor OCR in C# met uitgebreide preprocessingsopties.
+### [Hoe OCR op afbeelding: contrast verhogen en ruis verwijderen](./how-to-ocr-image-boost-contrast-remove-noise/)
+Verbeter OCR‑resultaten door het contrast te verhogen en ruis te verwijderen met Aspose.OCR voor .NET.
 
 ### [Hoe asynchrone OCR in C# – Complete stap‑voor‑stap gids](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Leer hoe je asynchrone OCR in C# implementeert met Aspose.OCR, stap‑voor‑stap inclusief code‑voorbeelden en best practices.

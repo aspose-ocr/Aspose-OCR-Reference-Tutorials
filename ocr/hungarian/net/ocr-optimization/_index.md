@@ -157,6 +157,9 @@ Ismerje meg, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyors
 ### [Szöveg felismerése képről Aspose OCR GPU-val C#-ban](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
 Fedezze fel, hogyan használhatja az Aspose OCR GPU-t C#-ban a képek szövegének gyors és pontos felismeréséhez.
 
+### [Hogyan OCR-ozzon képet: kontraszt növelése, zaj eltávolítása](./how-to-ocr-image-boost-contrast-remove-noise/)
+Fedezze fel, hogyan növelheti a kontrasztot és távolíthatja el a zajt az OCR pontosságának javítása érdekében.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

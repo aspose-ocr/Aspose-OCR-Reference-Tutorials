@@ -98,6 +98,8 @@ Aprende a extraer texto de documentos escaneados en C# usando Aspose OCR, con ej
 Acelera el reconocimiento OCR con GPU en C# usando Aspose OCR para obtener resultados rápidos y precisos.
 ### [Preprocesar OCR de Imagen en C# – Guía Completa Paso a Paso](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Aprende a aplicar filtros y técnicas de preprocesamiento en C# para mejorar la precisión del OCR con Aspose.OCR paso a paso.
+### [Cómo hacer OCR en una imagen: aumentar contraste y eliminar ruido en Reconocimiento de Imágenes OCR](./how-to-ocr-image-boost-contrast-remove-noise/)
+Aprende a mejorar la precisión del OCR ajustando el contraste y eliminando el ruido de la imagen antes del reconocimiento.
 
 ## Prepare rectángulos en el reconocimiento de imágenes OCR
 

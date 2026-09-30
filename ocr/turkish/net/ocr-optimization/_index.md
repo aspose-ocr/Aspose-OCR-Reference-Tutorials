@@ -123,6 +123,8 @@ C# ile tarama görüntülerinden metin çıkarma sürecini adım adım öğrenin
 Aspose OCR GPU desteğiyle C# uygulamalarında yüksek hızlı ve doğru metin tanıma yapın.
 ### [C# ile Görüntü OCR Ön İşleme – Tam Adım‑Adım Kılavuz](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Aspose.OCR for .NET ile C#’ta görüntü OCR ön işleme adımlarını adım adım öğrenin ve doğruluğu artırın.
+### [Görüntüyü OCR ile İşleme: Kontrastı Artırma, Gürültüyü Kaldırma](./how-to-ocr-image-boost-contrast-remove-noise/)
+Aspose.OCR for .NET ile görüntünün kontrastını artırın ve gürültüyü temizleyerek OCR doğruluğunu yükseltin.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

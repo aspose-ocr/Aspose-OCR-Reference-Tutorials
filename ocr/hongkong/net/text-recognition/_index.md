@@ -146,6 +146,16 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR for .NET，示範如何在 C# 中批次處理 OCR 檔案的完整程式碼範例。
 ### [在 C# 中執行 OCR – 將圖像轉換為 JSON 指南](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 使用 Aspose.OCR for .NET，學習如何在 C# 中將影像 OCR 結果轉換為 JSON 格式的完整步驟指南。
+### [在 C# 中從圖像生成可搜尋 PDF – 步驟式指南](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+使用 Aspose.OCR for .NET，學習如何在 C# 中將圖像轉換為可搜尋的 PDF，提供完整步驟說明。
+### [C# OCR 教程 – 從圖像提取文字](./c-ocr-tutorial-extract-text-from-image/)
+使用 Aspose.OCR for .NET，學習如何在 C# 中從圖像提取文字，快速實作 OCR 功能。
+### [使用 Aspose OCR 轉換圖像為文字 – 步驟式 C# 教程](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+學習如何使用 Aspose OCR 在 C# 中將圖像轉換為文字，提供完整的步驟說明。
+### [使用 Aspose OCR 在 C# 中從圖像辨識文字](./recognize-text-from-image-in-c-with-aspose-ocr/)
+學習如何使用 Aspose OCR 在 C# 中從圖像中辨識文字，提供完整步驟說明。
+### [如何在 C# 中批次 OCR JPEG 圖像 – 完整指南](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+使用 Aspose.OCR 在 C# 中批量處理 JPEG 圖像，實現高效文字辨識的完整步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -154,6 +154,16 @@ Pelajari cara memproses banyak gambar PNG secara batch menggunakan Aspose OCR da
 Panduan lengkap melakukan OCR di C# dengan Aspose.OCR, langkah demi langkah untuk hasil yang akurat.
 ### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Panduan lengkap membuat PDF yang dapat dicari menggunakan Aspose OCR dengan langkah‑langkah mudah.
+### [Tutorial OCR C# – Ekstrak Teks dari Gambar](./c-ocr-tutorial-extract-text-from-image/)
+Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengekstrak teks secara akurat dari gambar dalam beberapa langkah mudah.
+### [Mengonversi Gambar ke Teks dengan Aspose OCR – Panduan Langkah‑per‑Langkah C#](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Pelajari cara mengonversi gambar menjadi teks menggunakan Aspose OCR dengan contoh kode C# langkah demi langkah.
+### [Buat PDF yang Dapat Dicari dari Gambar dalam C# – Panduan Langkah‑per‑Langkah](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Pelajari cara mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR dengan contoh kode C# langkah demi langkah.
+### [Cara Memproses Batch OCR Gambar JPEG di C# – Panduan Lengkap](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Pelajari cara melakukan OCR secara batch pada gambar JPEG menggunakan C# dengan Aspose.OCR dalam panduan lengkap langkah demi langkah.
+### [Mengenali Teks dari Gambar dengan C# menggunakan Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam C# dengan contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

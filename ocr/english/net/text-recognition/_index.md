@@ -149,6 +149,16 @@ Master OCR on images using Aspose.OCR for .NET with this comprehensive C# guide,
 Run OCR on images using Aspose OCR for .NET with a thorough C# guide, detailing setup, execution, and result extraction.
 ### [How to batch OCR files in C# – Full Code Example](./how-to-batch-ocr-files-in-c-full-code-example/)
 Learn to process multiple files with Aspose.OCR in C# using a complete batch OCR code example.
+### [c# ocr tutorial – extract text from image](./c-ocr-tutorial-extract-text-from-image/)
+Learn how to extract text from images using C# and Aspose.OCR in this step-by-step tutorial.
+### [Convert Image to Text with Aspose OCR – Step‑by‑Step C# Guide](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Convert images to text using Aspose OCR in C#. Follow this step-by-step guide to integrate image-to-text conversion into your .NET applications.
+### [recognize text from image in C# with Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Step-by-step guide to recognize text from images using Aspose OCR in C#, including setup and result extraction.
+### [Generate Searchable PDF from Images in C# – Step‑by‑Step Guide](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Create searchable PDFs from images using Aspose.OCR in C#. Follow this step-by-step guide to integrate PDF generation into your .NET apps.
+### [How to Batch OCR JPEG Images in C# – Complete Guide](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Learn to process multiple JPEG images with Aspose.OCR in C#, batch OCR them efficiently in this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

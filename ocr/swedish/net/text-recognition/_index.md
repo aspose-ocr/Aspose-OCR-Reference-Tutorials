@@ -162,6 +162,16 @@ Lär dig att bearbeta flera filer med OCR i C# med ett komplett kodexempel för 
 ### [Hur man utför OCR i C# – Konvertera bild till JSON-guide](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Lär dig hur du med Aspose.OCR för .NET konverterar en bild till JSON-format i en enkel steg-för-steg-guide.
 
+### [c# OCR-handledning – extrahera text från bild](./c-ocr-tutorial-extract-text-from-image/)
+Lär dig hur du använder Aspose.OCR i C# för att extrahera text från bilder med enkla steg.
+### [Konvertera bild till text med Aspose OCR – Steg‑för‑steg C#‑guide](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Lär dig hur du med Aspose OCR i C# konverterar bilder till text med en tydlig steg‑för‑steg‑guide.
+### [Känn igen text från bild i C# med Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Lär dig hur du med Aspose OCR i C# extraherar text från en bild i en tydlig steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bilder i C# – Steg‑för‑steg‑guide](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Lär dig hur du genererar en sökbar PDF från bilder i C# med en tydlig steg‑för‑steg‑guide.
+### [Batch-OCR av JPEG-bilder i C# – Komplett guide](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Lär dig hur du med Aspose.OCR i C# batchbearbetar JPEG-bilder för effektiv textigenkänning i en komplett steg‑för‑steg‑guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

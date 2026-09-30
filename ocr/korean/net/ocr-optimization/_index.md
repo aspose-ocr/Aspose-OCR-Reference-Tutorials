@@ -113,6 +113,8 @@ C#을 사용해 스캔 이미지에서 텍스트를 정확히 추출하고, 결�
 GPU 가속을 활용해 고속으로 이미지에서 텍스트를 추출하는 방법을 안내합니다.
 ### [C#에서 이미지 OCR 전처리 – 완전 단계별 가이드](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 C#을 사용해 이미지 OCR 전처리를 수행하는 전체 과정과 팁을 단계별로 안내합니다.
+### [이미지 OCR 방법: 대비 강화 및 노이즈 제거](./how-to-ocr-image-boost-contrast-remove-noise/)
+Aspose.OCR를 사용해 이미지 대비를 높이고 노이즈를 제거하여 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

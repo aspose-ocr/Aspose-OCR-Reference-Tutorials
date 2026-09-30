@@ -92,6 +92,8 @@ Panduan lengkap untuk mengekstrak teks dari pemindaian menggunakan Aspose OCR da
 Gunakan akselerasi GPU Aspose OCR untuk mengenali teks dari gambar secara cepat dalam aplikasi C#.
 ### [Pra‑proses Gambar OCR di C# – Panduan Lengkap Langkah‑demi‑Langkah](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Pelajari cara pra‑proses gambar untuk OCR di C# dengan langkah‑demi‑langkah lengkap, meningkatkan akurasi pengenalan teks.
+### [Cara OCR Gambar: Tingkatkan Kontras, Hapus Noise](./how-to-ocr-image-boost-contrast-remove-noise/)
+Pelajari cara meningkatkan kontras dan menghilangkan noise pada gambar sebelum OCR untuk hasil yang lebih akurat.
 
 ## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 

@@ -148,6 +148,16 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีการ OCR ภาษาอาหรับใน C# ด้วย Aspose.OCR อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการแสดงผลข้อความ
 ### [วิธีทำ Batch OCR ใน C# – ดึงข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
 เรียนรู้วิธีประมวลผล OCR หลายรูปภาพพร้อมกันใน C# เพื่อดึงข้อความอย่างรวดเร็วและมีประสิทธิภาพ
+### [c# OCR บทช่วยสอน – ดึงข้อความจากรูปภาพ](./c-ocr-tutorial-extract-text-from-image/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากรูปภาพอย่างแม่นยำในขั้นตอนง่ายๆ
+### [แปลงรูปภาพเป็นข้อความด้วย Aspose OCR – คู่มือ C# ทีละขั้นตอน](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็นข้อความด้วย Aspose OCR ใน C# ผ่านขั้นตอนง่ายๆ เพื่อการจดจำที่แม่นยำ
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือทีละขั้นตอน](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากรูปภาพโดยใช้ Aspose.OCR กับ C# ผ่านขั้นตอนง่ายๆ เพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
+### [วิธีทำ OCR รูปภาพ JPEG แบบเป็นชุดใน C# – คู่มือฉบับสมบูรณ์](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อประมวลผลรูป JPEG หลายไฟล์พร้อมกันอย่างมีประสิทธิภาพ
+### [รับรู้ข้อความจากรูปภาพใน C# ด้วย Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อรับรู้ข้อความจากรูปภาพอย่างละเอียดและครบถ้วนในขั้นตอนง่ายๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

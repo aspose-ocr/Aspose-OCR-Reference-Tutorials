@@ -147,6 +147,16 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# Bilder vollständig OCR‑verarbeiten
 Erweitern Sie Ihre .NET-Anwendungen mit Aspose.OCR, um mehrere Dateien im Batch zu verarbeiten. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man OCR in C# ausführt – Bild in JSON konvertieren – Schritt‑für‑Schritt‑Anleitung](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Erweitern Sie Ihre .NET‑Anwendungen mit Aspose.OCR, um Bilder per OCR zu verarbeiten und das Ergebnis im JSON‑Format zu erhalten.
+### [C# OCR-Tutorial – Text aus Bild extrahieren](./c-ocr-tutorial-extract-text-from-image/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren und in Ihre .NET-Anwendung integrieren.
+### [Bild in Text konvertieren mit Aspose OCR – Schritt‑für‑Schritt C#‑Leitfaden](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Durchsuchbares PDF aus Bildern in C# – Schritt‑für‑Schritt‑Leitfaden](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# aus Bildern ein durchsuchbares PDF erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man JPEG-Bilder stapelweise per OCR in C# verarbeitet – Vollständiger Leitfaden](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR mehrere JPEG-Bilder in C# stapelweise verarbeiten und Text extrahieren.
+### [Text aus Bild in C# mit Aspose OCR erkennen](./recognize-text-from-image-in-c-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – ein kompakter Schritt‑für‑Schritt‑Leitfaden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

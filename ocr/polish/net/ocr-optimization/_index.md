@@ -169,6 +169,9 @@ Wykorzystaj GPU w Aspose OCR, aby przyspieszyć rozpoznawanie tekstu z obrazów 
 
 ### [Przetwarzanie wstępne obrazu OCR w C# – Kompletny przewodnik krok po kroku](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 
+### [Jak wykonać OCR obrazu: zwiększ kontrast i usuń szumy](./how-to-ocr-image-boost-contrast-remove-noise/)
+Dowiedz się, jak poprawić jakość OCR poprzez zwiększenie kontrastu i usunięcie szumów z obrazu.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**
