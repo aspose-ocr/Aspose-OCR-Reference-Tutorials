@@ -61,6 +61,20 @@ Aspose.OCR के साथ जावा में निर्बाध छव�
 सटीक पाठ पहचान के लिए Aspose.OCR के साथ अपने जावा एप्लिकेशन को सशक्त बनाएं। आसान एकीकरण, उच्च सटीकता।
 ### [Aspose.OCR में अनुमत वर्ण निर्दिष्ट करना](./specify-allowed-characters/)
 जावा के लिए Aspose.OCR के साथ छवियों से पाठ निष्कर्षण को सहजता से अनलॉक करें। कुशल एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+### [जावा OCR के लिए GPU सक्षम करने का तरीका – छवि से पाठ पहचानें](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+जावा OCR में GPU का उपयोग करके तेज़ और सटीक पाठ पहचान प्राप्त करें। चरण-दर-श...
+
+### [जावा में OCR का उपयोग कैसे करें – PDF से पाठ निकालें (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+जावा में Aspose OCR के साथ PDF से तेज़ और सटीक पाठ निकालें। चरण‑दर‑श...
+
+### [जावा में मल्टी‑लैंग्वेज OCR के लिए Aspose का उपयोग कैसे करें](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+
+### [Aspose OCR के साथ हस्तलिखित नोट्स की OCR – त्रुटियों को ठीक करें](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Aspose OCR का उपयोग करके हस्तलिखित नोट्स की पहचान करें और त्रुटियों को स्वचालित रूप से सुधारें। तेज़ और सटीक परिणाम प्राप्त करें।
+
+### [सर्चेबल PDF बनाना – जावा गाइड स्कैन किए गए PDFs को परिवर्तित करने के लिए](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+जावा में Aspose OCR का उपयोग करके स्कैन किए गए PDFs को सर्चेबल PDF में बदलें। आसान चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [जावा में GPU त्वरण के साथ OCR का उपयोग कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 जावा में GPU त्वरण के साथ OCR को लागू करने के लिए चरण‑दर‑चरण मार्गदर्शिका। तेज़ और सटीक पाठ पहचान के लिए अभी डाउनलोड करें।
 ### [Aspose OCR के साथ छवि से पाठ पहचान – पूर्ण जावा गाइड](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)

@@ -104,6 +104,12 @@ Erfahren Sie, wie Sie OCR in Java einsetzen, um Text aus Bildern schnell und eff
 Erfahren Sie, wie Sie aus JPG‑Bildern ein durchsuchbares PDF erstellen und OCR in Java anwenden.
 ### [Wie man ein Bild begradigt – Schritt‑für‑Schritt OCR‑Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Erfahren Sie, wie Sie Bildschrägstellungen korrigieren und die OCR‑Genauigkeit mit einer Schritt‑für‑Schritt‑Anleitung verbessern.
+### [Aspose OCR Java: Bild zu HTML konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Konvertieren Sie Bilder mit Aspose OCR für Java in HTML, Schritt für Schritt, inklusive Codebeispiele und Optimierungstipps.
+### [Wie man OCR in Java verwendet – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Ein umfassender Leitfaden, der die OCR‑Verwendung in Java Schritt für Schritt erklärt.
+### [Wie man OCR in Java durchführt – Vollständiges Aspose OCR‑Tutorial](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Ein umfassendes Tutorial, das die komplette OCR‑Durchführung in Java mit Aspose OCR Schritt für Schritt erklärt.
 
 ## Häufig gestellte Fragen
 

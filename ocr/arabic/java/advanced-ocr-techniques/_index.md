@@ -65,6 +65,21 @@ url: /ar/java/advanced-ocr-techniques/
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
 أطلق العنان لاستخراج النص من الصور بسلاسة باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل الفعال.
+### [كيفية تمكين GPU لتقنية OCR في Java – التعرف على النص من الصورة](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+تعلم كيفية تفعيل معالجة GPU لتسريع التعرف الضوئي على الحروف في Java واستخراج النص من الصور بكفاءة عالية.
+
+### [كيفية استخدام OCR في Java – استخراج النص من PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+اكتشف كيفية استخراج النص من ملفات PDF باستخدام Aspose OCR في Java بسهولة ودقة عالية.
+
+### [كيفية استخدام Aspose للتعرف الضوئي على الحروف متعدد اللغات في Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+اكتشف كيفية تنفيذ التعرف الضوئي على الحروف متعدد اللغات باستخدام Aspose في Java لاستخراج نصوص دقيقة من صور متعددة اللغات.
+
+### [التعرف الضوئي على الملاحظات المكتوبة بخط اليد – إصلاح الأخطاء باستخدام Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+تعلم كيفية معالجة الملاحظات المكتوبة بخط اليد وإصلاح الأخطاء باستخدام Aspose OCR في Java.
+
+### [إنشاء PDF قابل للبحث – دليل Java لتحويل ملفات PDF الممسوحة ضوئياً](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+تعلم كيفية تحويل ملفات PDF الممسوحة ضوئياً إلى PDF قابل للبحث باستخدام Aspose.OCR في Java بسهولة ودقة.
+
 ### [كيفية استخدام OCR مع تسريع GPU في Java – دليل خطوة بخطوة](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 تعلم كيفية تسريع عمليات OCR باستخدام GPU في Java خطوة بخطوة لاستخراج النص بسرعة ودقة.
 ### [التعرف على النص من الصورة باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)

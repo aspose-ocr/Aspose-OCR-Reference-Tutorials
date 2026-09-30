@@ -98,6 +98,16 @@ Exploitez la puissance GPU d'Aspose OCR pour Java afin de reconnaître rapidemen
 Améliorez la qualité des images en augmentant le contraste avant l'OCR avec Aspose.OCR pour Java. Suivez notre guide complet.
 ### [Créer un moteur OCR Java – Reconnaître le texte à partir de grandes images](./create-ocr-engine-java-recognize-text-from-large-images/)
 Apprenez à créer un moteur OCR Java capable de traiter de grandes images et d'extraire le texte avec précision et efficacité.
+### [Comment activer le GPU pour l'OCR Java – Reconnaître le texte à partir d'une image](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Apprenez à activer l'accélération GPU dans Aspose.OCR pour Java afin d'améliorer la vitesse et la précision de la reconnaissance de texte d'images.
+### [Comment utiliser l'OCR en Java – Extraire du texte d'un PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Découvrez comment extraire du texte d'un PDF en Java avec Aspose.OCR, offrant une reconnaissance précise et une intégration simple.
+### [Comment utiliser Aspose pour l'OCR multilingue en Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Apprenez à exploiter Aspose pour reconnaître du texte dans plusieurs langues avec Java, garantissant précision et performance.
+### [OCR de notes manuscrites – Corriger les erreurs avec Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Apprenez à extraire et corriger les erreurs des notes manuscrites avec Aspose OCR pour Java, assurant une reconnaissance précise.
+### [Créer un PDF recherchable – Guide Java pour convertir les PDF numérisés](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Apprenez à transformer des PDF scannés en fichiers PDF consultables avec Aspose.OCR pour Java, garantissant une extraction précise du texte.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

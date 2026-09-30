@@ -61,6 +61,20 @@ Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langka
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
 ### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 Buka kunci ekstraksi teks dari gambar secara lancar dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien.
+## [Cara Mengaktifkan GPU untuk OCR Java – Mengenali Teks dari Gambar](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+
+### [Cara Menggunakan OCR di Java – Ekstrak Teks dari PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Pelajari cara mengekstrak teks dari file PDF menggunakan Aspose OCR di Java dengan mudah dan akurasi tinggi.
+
+### [Cara Menggunakan Aspose untuk OCR Multi‑Bahasa di Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Pelajari cara mengekstrak teks dalam berbagai bahasa menggunakan Aspose OCR di Java dengan akurasi tinggi.
+
+### [OCR catatan tulisan tangan – Perbaiki Kesalahan dengan Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Ekstrak teks dari catatan tulisan tangan dan perbaiki kesalahan dengan Aspose OCR secara akurat.
+
+### [Buat PDF yang Dapat Dicari – Panduan Java untuk Mengonversi PDF yang Dipindai](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Pelajari cara mengubah PDF yang dipindai menjadi PDF yang dapat dicari menggunakan Aspose.OCR di Java dengan mudah dan akurasi tinggi.
+
 ### [Cara Menggunakan OCR dengan Akselerasi GPU di Java – Panduan Langkah‑per‑Langkah](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Pelajari cara mempercepat OCR menggunakan GPU dalam aplikasi Java dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Mengenali Teks dari Gambar dengan Aspose OCR – Panduan Java Lengkap](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)

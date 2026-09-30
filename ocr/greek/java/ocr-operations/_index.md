@@ -105,6 +105,12 @@ weight: 21
 Μάθετε πώς να μετατρέψετε εικόνες JPG σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για Java.
 ### [Πώς να ευθυγραμμίσετε την κλίση εικόνας — Οδηγός προεπεξεργασίας OCR βήμα‑βήμα](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Μάθετε πώς να ευθυγραμμίσετε εικόνες πριν το OCR, βελτιώνοντας την ακρίβεια με βήμα‑βήμα οδηγίες.
+### [Πώς να χρησιμοποιήσετε το OCR σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να χρησιμοποιήσετε το OCR σε Java με έναν πλήρη οδηγό βήμα‑βήμα.
+### [Aspose OCR Java: Μετατροπή Εικόνας σε HTML – Πλήρης Οδηγός Βήμα‑βήμα](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Μάθετε πώς να μετατρέψετε εικόνες σε HTML χρησιμοποιώντας Aspose.OCR για Java, με πλήρη βήμα‑βήμα οδηγίες.
+### [Πώς να εκτελέσετε OCR σε Java – Πλήρης Οδηγός Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Αποκτήστε πλήρη οδηγίες για την εκτέλεση OCR σε Java με το Aspose OCR, βήμα‑βήμα, από αρχή έως τελειότητα.
 
 ## Συχνές Ερωτήσεις
 

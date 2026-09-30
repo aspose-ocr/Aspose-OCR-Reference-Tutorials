@@ -98,6 +98,12 @@ Ismerd meg, hogyan távolíthatod el az értékelési vízjelet az Aspose OCR Ja
 ### [Kereshető PDF létrehozása JPG-ből – Képből kereshető PDF Java útmutató](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
 Alakítsd át a JPG képeket kereshető PDF-fé Java-ban az Aspose.OCR segítségével.
 ### [Képek kiegyenesítése – Lépésről‑lépésre OCR előfeldolgozási útmutató](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+### [Hogyan használjunk OCR-t Java-ban – Teljes lépésről‑lépésre útmutató](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Ismerd meg, hogyan alkalmazhatod az OCR-t Java-ban részletes, könnyen követhető lépésekkel a fejlett szövegfelismeréshez.
+### [Aspose OCR Java: Kép konvertálása HTML-re – Teljes lépésről‑lépésre útmutató](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Fedezd fel, hogyan konvertálhatod a képeket HTML formátumba az Aspose OCR Java segítségével, lépésről lépésre útmutató.
+### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes Aspose OCR útmutató](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Fedezd fel, hogyan használhatod az Aspose OCR-t Java-ban a teljes körű szövegfelismeréshez lépésről lépésre.
 
 ## Gyakran Ismételt Kérdések
 

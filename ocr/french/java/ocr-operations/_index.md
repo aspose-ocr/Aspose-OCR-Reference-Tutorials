@@ -107,6 +107,12 @@ Apprenez à transformer une image en PDF consultable avec Aspose.OCR pour Java g
 Apprenez à transformer des images JPG en PDF recherchables avec Aspose.OCR pour Java, étape par étape.
 ### [Comment redresser une image — Guide de pré‑traitement OCR étape par étape](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Apprenez à corriger l’inclinaison des images avant l’OCR avec un guide complet étape par étape.
+### [Comment utiliser l'OCR en Java – Guide complet étape par étape](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Apprenez à utiliser l'OCR en Java grâce à ce guide complet, étape par étape, pour extraire du texte avec précision.
+### [Aspose OCR Java : Convertir une image en HTML – Guide complet étape par étape](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Apprenez à convertir des images en HTML avec Aspose OCR pour Java grâce à ce guide complet étape par étape.
+### [Comment réaliser l'OCR en Java – Tutoriel complet Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Apprenez à réaliser l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 

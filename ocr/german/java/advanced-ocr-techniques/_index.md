@@ -55,6 +55,8 @@ Mit Aspose.OCR für Java war die Beherrschung fortgeschrittener OCR-Techniken no
 ## Fortgeschrittene Tutorials zu OCR-Techniken
 ### [Durchführen von OCR für BufferedImage in Aspose.OCR für Java](./perform-ocr-buffered-image/)
 Führen Sie mit Aspose.OCR für Java mühelos OCR für BufferedImage durch. Extrahieren Sie nahtlos Text aus Bildern. Laden Sie es jetzt herunter und genießen Sie ein vielseitiges Texterkennungserlebnis.
+### [OCR handschriftliche Notizen – Fehler beheben mit Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+
 ### [Durchführen von OCR für Bilder von einer URL in Aspose.OCR für Java](./perform-ocr-image-from-url/)
 Nutzen Sie mit Aspose.OCR die nahtlose Bildtextextraktion in Java. Hochpräzise OCR mit einfacher Integration.
 ### [Durchführen von OCR auf einer bestimmten Seite in Aspose.OCR](./perform-ocr-on-page/)
@@ -65,6 +67,15 @@ Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. B
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
+### [GPU für Java-OCR aktivieren – Text aus Bild erkennen](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Erfahren Sie, wie Sie GPU-Unterstützung für Aspose.OCR in Java aktivieren, um die Texterkennung aus Bildern zu beschleunigen.
+
+### [Wie man OCR in Java verwendet – Text aus PDF extrahieren (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus PDF-Dateien extrahieren und die OCR-Funktion nutzen.
+
+### [Wie man Aspose für mehrsprachige OCR in Java verwendet](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Erfahren Sie, wie Sie mit Aspose in Java OCR für mehrere Sprachen durchführen und Text aus mehrsprachigen Bildern extrahieren.
+
 ### [Fixed Thread Pool Java – parallele OCR für PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)
 Nutzen Sie einen Fixed Thread Pool in Java, um PNG‑Bilder parallel zu verarbeiten und OCR effizient auszuführen.
 

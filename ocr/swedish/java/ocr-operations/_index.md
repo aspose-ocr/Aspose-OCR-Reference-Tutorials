@@ -107,6 +107,12 @@ Lär dig snabbt hur du använder Aspose.OCR i Java för att känna igen text i b
 Lär dig konvertera JPG‑bilder till sökbara PDF‑dokument med Aspose.OCR för Java.
 ### [Hur man räta upp bild — Steg‑för‑steg OCR‑förbehandlingsguide](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Lär dig hur du räta upp bilder före OCR för att förbättra igenkänningsnoggrannheten.
+### [Hur man använder OCR i Java – Komplett steg‑för‑steg‑guide](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+En fullständig guide som visar hur du implementerar OCR i Java med Aspose.OCR, steg för steg från installation till kodexempel.
+### [Aspose OCR Java: Konvertera bild till HTML – Fullständig steg‑för‑steg‑guide](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Lär dig hur du med Aspose OCR för Java konverterar bilder till HTML med en komplett steg‑för‑steg‑guide.
+### [Hur man utför OCR i Java – Komplett Aspose OCR‑handledning](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+En fullständig guide som visar hur du utför OCR i Java med Aspose OCR, från installation till kodexempel och bästa praxis.
 
 ## Vanliga frågor
 

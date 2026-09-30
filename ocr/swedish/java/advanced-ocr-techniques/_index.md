@@ -104,6 +104,14 @@ Lär dig extrahera text från bilder i Java med en komplett OCR‑guide och stav
 Lär dig aktivera GPU-acceleration för OCR i Java med Aspose.OCR för snabbare och exakt textigenkänning.
 ### [Hur du OCR:ar bild i Java – Handskrivna anteckningar med stavningskontroll](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Lär dig OCR på handskrivna anteckningar i Java med stavningskontroll för exakt textigenkänning.
+### [Hur du aktiverar GPU för Java OCR – Läs text från bild](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Lär dig aktivera GPU för att påskynda OCR i Java med Aspose.OCR och förbättra textigenkänningens hastighet och noggrannhet.
+### [Hur man använder OCR i Java – Extrahera text från PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Lär dig hur du använder Aspose.OCR för Java för att extrahera text från PDF-filer. Enkla steg för effektiv PDF‑OCR.
+### [Hur du använder Aspose för flerspråkig OCR i Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Lär dig använda Aspose för OCR på flera språk i Java, med steg‑för‑steg‑instruktioner för hög noggrannhet.
+### [OCR för handskrivna anteckningar – Åtgärda fel med Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Lär dig hur du korrigerar fel i handskrivna anteckningar med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide för förbättrad noggrannhet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

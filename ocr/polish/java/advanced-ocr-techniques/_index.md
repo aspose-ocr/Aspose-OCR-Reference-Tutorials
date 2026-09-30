@@ -43,6 +43,21 @@ Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpozna
 
 ## [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 
+### [Jak używać OCR w Javie – wyodrębniać tekst z PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Użyj Aspose.OCR w Javie, aby wyodrębnić tekst z plików PDF z wysoką dokładnością i prostą integracją.
+
+### [Jak używać Aspose do wielojęzycznego OCR w Javie](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Użyj Aspose, aby wykonywać OCR w wielu językach w aplikacjach Java, zapewniając wysoką dokładność i prostą integrację.
+
+### [OCR notatek odręcznych – napraw błędy przy użyciu Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Poprawiaj błędy w rozpoznawaniu notatek odręcznych, wykorzystując Aspose OCR w Javie. Uzyskaj dokładniejsze wyniki OCR.
+
+### [Tworzenie przeszukiwalnego PDF – przewodnik Java do konwertowania zeskanowanych PDF](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Konwertuj zeskanowane pliki PDF na przeszukiwalne dokumenty PDF w Javie przy użyciu Aspose.OCR, zapewniając wysoką dokładność i łatwą integrację.
+
+## [Jak włączyć GPU w Aspose.OCR dla Java – Rozpoznawanie tekstu z obrazu](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Skonfiguruj akcelerację GPU w Aspose.OCR dla Java, aby przyspieszyć rozpoznawanie tekstu z obrazów i zwiększyć wydajność aplikacji.
+
 ### [Jak wykonać OCR obrazu w Javie – Notatki odręczne z korektą pisowni](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Dowiedz się, jak przetwarzać odręczne notatki w Javie przy użyciu Aspose.OCR i wbudowanej korekty pisowni.
 

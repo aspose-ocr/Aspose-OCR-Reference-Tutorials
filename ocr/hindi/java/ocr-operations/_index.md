@@ -111,6 +111,12 @@ Aspose.OCR for Java का उपयोग करके इमेज से त�
 JPG इमेज को सर्चेबल PDF में बदलने के लिए Aspose.OCR for Java का उपयोग करके चरण‑बद्ध मार्गदर्शन।
 ### [इमेज को डेस्क्यू कैसे करें — चरण‑बद्ध OCR प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 इमेज को सीधा करने की प्रक्रिया और OCR की सटीकता बढ़ाने के लिए चरण‑बद्ध मार्गदर्शन।
+### [Java में OCR का उपयोग कैसे करें – पूर्ण चरण‑बद्ध गाइड](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Java में OCR को लागू करने के लिए चरण‑बद्ध मार्गदर्शिका, कोड उदाहरणों और सर्वोत्तम प्रथाओं के साथ।
+### [Aspose OCR Java: इमेज को HTML में बदलें – पूर्ण चरण‑बद्ध गाइड](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Aspose OCR for Java का उपयोग करके इमेज को HTML फॉर्मेट में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java में OCR कैसे करें – पूर्ण Aspose OCR ट्यूटोरियल](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Java में Aspose OCR का उपयोग करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

@@ -107,6 +107,12 @@ Panduan singkat untuk mengenali teks dari gambar menggunakan Aspose OCR dengan J
 Panduan lengkap untuk mengonversi file JPG menjadi PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
 ### [Cara Memperbaiki Kemiringan Gambar — Panduan Pra‑Pemrosesan OCR Langkah‑per‑Langkah](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Panduan langkah demi langkah untuk menghilangkan kemiringan gambar sebelum OCR, meningkatkan akurasi pengenalan teks.
+### [Cara Menggunakan OCR di Java – Panduan Lengkap Langkah‑per‑Langkah](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Panduan menyeluruh untuk mengimplementasikan OCR di Java, mencakup instalasi, konfigurasi, dan contoh kode langkah demi langkah.
+### [Aspose OCR Java: Mengonversi Gambar ke HTML – Panduan Lengkap Langkah‑per‑Langkah](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Panduan lengkap mengonversi gambar menjadi file HTML menggunakan Aspose OCR untuk Java, langkah demi langkah untuk hasil yang akurat.
+### [Cara Melakukan OCR di Java – Tutorial Lengkap Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Panduan lengkap untuk melakukan OCR di Java menggunakan Aspose OCR, mencakup instalasi, konfigurasi, dan contoh kode langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

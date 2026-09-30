@@ -107,6 +107,12 @@ Szybko rozpoznaj tekst z obrazu w Javie przy użyciu Aspose.OCR. Praktyczny prze
 Szybki tutorial, jak zamienić plik JPG w przeszukiwalny PDF przy użyciu Aspose.OCR w Javie.
 ### [Jak prostować obraz — Przewodnik krok po kroku przetwarzania wstępnego OCR](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Odblokuj moc prostowania obrazów przed OCR, krok po kroku, aby poprawić dokładność i jakość rozpoznawania.
+### [Jak używać OCR w Javie – Kompletny przewodnik krok po kroku](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Pełny przewodnik po używaniu OCR w Javie, krok po kroku, obejmujący wszystkie niezbędne ustawienia i przykłady.
+### [Aspose OCR Java: konwertowanie obrazu do HTML – pełny przewodnik krok po kroku](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Odblokuj moc konwersji obrazu do HTML w Javie z Aspose.OCR. Kompletny przewodnik krok po kroku.
+### [Jak wykonać OCR w Javie – Kompletny samouczek Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Pełny przewodnik po wykonywaniu OCR w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
 
 ## Najczęściej zadawane pytania
 

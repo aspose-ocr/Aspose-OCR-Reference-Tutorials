@@ -105,6 +105,12 @@ Leer hoe u met Aspose.OCR snel tekst uit een afbeelding kunt herkennen in Java.
 Leer hoe u een JPG-afbeelding omzet naar een doorzoekbare PDF met Aspose.OCR voor Java.
 ### [Hoe een afbeelding rechtzetten — Stapsgewijze OCR-preprocessinggids](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Ontgrendel de kracht van beeldcorrectie met een stapsgewijze gids voor het rechtzetten van afbeeldingen vóór OCR.
+### [Hoe OCR te gebruiken in Java – Complete stapsgewijze gids](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Ontdek een volledige stapsgewijze handleiding voor het implementeren van OCR in Java met Aspose.OCR.
+### [Aspose OCR Java: Afbeelding naar HTML converteren – volledige stap‑voor‑stap‑gids](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Leer hoe u afbeeldingen omzet naar HTML met Aspose OCR voor Java in een volledige stap‑voor‑stap‑handleiding.
+### [Hoe OCR in Java uit te voeren – Complete Aspose OCR‑tutorial](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Leer stap‑voor‑stap hoe u OCR in Java implementeert met Aspose OCR, van configuratie tot tekst‑extractie.
 
 ## Veelgestelde vragen
 

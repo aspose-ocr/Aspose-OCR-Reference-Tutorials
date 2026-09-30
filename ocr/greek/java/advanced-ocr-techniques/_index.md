@@ -62,6 +62,17 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Εύκολη ενσωμάτωση, υψηλή ακρίβεια.
 ### [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 Ξεκλειδώστε την εξαγωγή κειμένου από εικόνες χωρίς προβλήματα με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση.
+## [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Αναγνώριση κειμένου από εικόνα](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+
+## [Πώς να χρησιμοποιήσετε το OCR σε Java – Εξαγωγή κειμένου από PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Εκμεταλλευτείτε το Aspose OCR για Java ώστε να εξάγετε κείμενο από αρχεία PDF με ακρίβεια και ευκολία.
+
+## [Πώς να χρησιμοποιήσετε το Aspose για OCR πολλαπλών γλωσσών σε Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Εκτελέστε OCR σε εικόνες με κείμενα σε πολλές γλώσσες χρησιμοποιώντας το Aspose OCR για Java, με υψηλή ακρίβεια και ευκολία.
+
+### [OCR χειρόγραφων σημειώσεων – Διόρθωση σφαλμάτων με Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+Διορθώστε σφάλματα σε χειρόγραφες σημειώσεις χρησιμοποιώντας το Aspose OCR για ακριβή εξαγωγή κειμένου.
+
 ## [Πώς να ενεργοποιήσετε την GPU για OCR σε Java – Πλήρης Οδηγός](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Μάθετε πώς να αξιοποιήσετε την GPU για επιτάχυνση του OCR σε Java με το Aspose.OCR, βήμα‑βήμα οδηγίες για βέλτιστη απόδοση.
 

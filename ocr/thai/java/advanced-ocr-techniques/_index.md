@@ -122,6 +122,17 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – จดจำข้อความจากรูปภาพ](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+เรียนรู้วิธีเปิดใช้ GPU เพื่อเพิ่มความเร็วในการทำ OCR บน Java และจดจำข้อความจากรูปภาพได้อย่างแม่นยำ
+### [วิธีใช้ OCR ใน Java – ดึงข้อความจาก PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน Java เพื่อดึงข้อความจากไฟล์ PDF อย่างแม่นยำและรวดเร็ว
+### [วิธีใช้ Aspose สำหรับ OCR หลายภาษาใน Java](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+เรียนรู้วิธีใช้ Aspose ทำ OCR หลายภาษาใน Java อย่างง่ายดายและแม่นยำ
+### [OCR บันทึกมือเขียน – แก้ไขข้อผิดพลาดด้วย Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR เพื่อประมวลผลบันทึกมือเขียนและแก้ไขข้อผิดพลาดในการจดจำข้อความ
+### [สร้าง PDF ที่ค้นหาได้ – คู่มือ Java เพื่อแปลง PDF สแกน](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+เรียนรู้วิธีแปลง PDF สแกนเป็น PDF ที่ค้นหาได้ใน Java ด้วย Aspose.OCR อย่างง่ายดายและแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

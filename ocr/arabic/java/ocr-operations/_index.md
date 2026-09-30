@@ -100,6 +100,12 @@ weight: 21
 ### [إنشاء PDF قابل للبحث من JPG – دليل Java لتحويل الصورة إلى PDF قابل للبحث](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
 دليل خطوة بخطوة لإنشاء ملف PDF قابل للبحث من صورة JPG باستخدام Aspose.OCR للـ Java.
 ### [كيفية تصحيح الميل في الصورة — دليل معالجة ما قبل OCR خطوة بخطوة](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+### [كيفية استخدام OCR في Java – دليل شامل خطوة بخطوة](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+دليل كامل يشرح كيفية تطبيق OCR في Java خطوة بخطوة من الإعداد إلى التنفيذ.
+### [Aspose OCR Java: تحويل الصورة إلى HTML – دليل كامل خطوة بخطوة](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+دليل شامل يوضح كيفية تحويل الصور إلى HTML باستخدام Aspose OCR للـ Java خطوة بخطوة.
+### [كيفية تنفيذ OCR في Java – دليل كامل لـ Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+دليل شامل يشرح خطوة بخطوة كيفية تنفيذ OCR في Java باستخدام Aspose OCR من الإعداد إلى التنفيذ.
 
 ## الأسئلة المتكررة
 

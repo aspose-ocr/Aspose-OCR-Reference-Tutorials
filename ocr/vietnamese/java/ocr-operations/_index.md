@@ -107,6 +107,12 @@ Hướng dẫn nhanh cách nhận dạng văn bản từ hình ảnh bằng OCR 
 Khám phá cách chuyển đổi ảnh JPG thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java, nhanh chóng và chính xác.
 ### [Cách chỉnh nghiêng ảnh — Hướng dẫn tiền xử lý OCR từng bước](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trước khi OCR, cải thiện độ chính xác và hiệu suất xử lý.
+### [Cách sử dụng OCR trong Java – Hướng dẫn đầy đủ từng bước](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách tích hợp và sử dụng OCR trong Java, từ cài đặt đến triển khai thực tế.
+### [Aspose OCR Java: Chuyển Đổi Hình Ảnh Sang HTML – Hướng Dẫn Toàn Diện Từng Bước](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Khám phá cách chuyển đổi hình ảnh thành HTML trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
+### [Cách Thực Hiện OCR trong Java – Hướng Dẫn Toàn Diện Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Hướng dẫn chi tiết cách thực hiện OCR trong Java bằng Aspose OCR, từ cài đặt đến triển khai thực tế.
 
 ## Câu hỏi Thường gặp
 

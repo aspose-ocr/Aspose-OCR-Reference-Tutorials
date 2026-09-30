@@ -105,6 +105,12 @@ Aspose.OCR를 활용해 Java에서 PDF 파일의 텍스트를 추출하고 검�
 JPG 이미지를 OCR로 처리하여 검색 가능한 PDF로 변환하는 단계별 Java 구현 방법을 안내합니다.
 ### [이미지 기울기 보정 방법 — 단계별 OCR 전처리 가이드](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 이미지 기울기를 교정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
+### [Java에서 OCR 사용 방법 – 전체 단계별 가이드](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Java 애플리케이션에 OCR을 통합하는 전체 과정을 단계별로 안내합니다.
+### [Aspose OCR Java: 이미지 HTML로 변환 – 전체 단계별 가이드](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Aspose OCR for Java를 사용해 이미지 파일을 HTML로 변환하는 전체 과정과 단계별 구현 방법을 안내합니다.
+### [Java에서 OCR 수행하기 – 전체 Aspose OCR 튜토리얼](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Aspose OCR을 사용해 Java에서 OCR을 전체적으로 구현하는 단계별 가이드를 제공합니다.
 
 ## 자주 묻는 질문
 

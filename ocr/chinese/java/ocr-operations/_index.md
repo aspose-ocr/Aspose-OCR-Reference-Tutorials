@@ -106,6 +106,12 @@ weight: 21
 演示如何使用 Aspose.OCR for Java 将 JPG 图像转换为可搜索的 PDF 文件，实现图像到 PDF 的 OCR 处理。
 ### [如何校正倾斜图像 — 逐步 OCR 预处理指南](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 使用 Aspose.OCR for Java 进行图像去倾斜的完整步骤指南，提升 OCR 前处理效果。
+### [如何在 Java 中使用 OCR – 完整分步指南](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+本教程提供从安装 Aspose.OCR 到实现完整 OCR 流程的详细步骤，帮助您在 Java 项目中快速集成文本识别。
+### [Aspose OCR Java：将图像转换为 HTML – 完整分步指南](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+完整的 Java 示例，演示如何使用 Aspose OCR 将图像转换为 HTML 并导出结果。
+### [如何在 Java 中执行 OCR – 完整 Aspose OCR 教程](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+完整的 Java 示例，展示如何使用 Aspose OCR 完成整个 OCR 流程并导出结果。
 
 ## 常见问题
 

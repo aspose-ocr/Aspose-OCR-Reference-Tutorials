@@ -62,8 +62,22 @@ Odemkněte sílu Aspose.OCR for Java pomocí našeho podrobného průvodce prov�
 Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Vylepšete své aplikace Java o efektivní funkce OCR.
 ### [Rozpoznávání čar v Aspose.OCR pro Javu](./recognize-lines/)
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
+## [OCR ručně psaných poznámek – Oprava chyb s Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+
 ### [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 Odemkněte bez problémů extrakci textu z obrázků pomocí Aspose.OCR pro Java. Pro efektivní integraci postupujte podle našeho podrobného průvodce.
+### [Jak používat Aspose pro vícejazyčný OCR v Javě](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+Získejte text z obrázků v různých jazycích pomocí Aspose.OCR v Javě. Jednoduchá integrace a vysoká přesnost.
+
+### [Jak povolit GPU pro Java OCR – Rozpoznat text z obrázku](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+Povolením GPU urychlíte OCR v Javě a získáte vysokou přesnost při rozpoznávání textu z obrázků.
+
+### [Jak používat OCR v Javě – Extrahovat text z PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+Získejte text z PDF souborů pomocí Aspose.OCR v Javě. Jednoduchá integrace a vysoká přesnost.
+
+### [Vytvoření prohledávatelného PDF – Java průvodce převodem naskenovaných PDF](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+Naučte se pomocí Aspose.OCR v Javě převést naskenované PDF na prohledávatelný dokument s vysokou přesností.
+
 ### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní průvodce pro Javu](./recognize-text-from-image-with-aspose-ocr-full-java-guide/)
 Kompletní průvodce rozpoznáváním textu z obrázků v Javě pomocí Aspose OCR. Snadná integrace a vysoká přesnost.
 ### [Snížení šumu obrazu v OCR pomocí Aspose – kompletní průvodce pro Javu](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)

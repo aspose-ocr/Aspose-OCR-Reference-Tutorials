@@ -104,6 +104,11 @@ weight: 21
 ### [สร้าง PDF ที่ค้นหาได้จาก JPG – คำแนะนำ Java สำหรับแปลงภาพเป็น PDF ที่ค้นหาได้](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
 เรียนรู้วิธีแปลงไฟล์ JPG เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java  
 ### [วิธีทำ Deskew ภาพ — คู่มือการเตรียม OCR ขั้นตอนต่อขั้นตอน](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+### [วิธีใช้ OCR ใน Java – คู่มือเต็มขั้นตอน](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีการใช้ OCR ใน Java ตั้งแต่การตั้งค่าเริ่มต้นจนถึงการประมวลผลขั้นสูงในคู่มือเต็มขั้นตอน  
+### [แปลงภาพเป็น HTML ด้วย Aspose OCR – คู่มือเต็มขั้นตอนสำหรับ Java](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+เรียนรู้วิธีแปลงภาพเป็นไฟล์ HTML อย่างละเอียดด้วย Aspose OCR for Java  
+### [วิธีทำ OCR ใน Java – คู่มือเต็มขั้นตอน Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

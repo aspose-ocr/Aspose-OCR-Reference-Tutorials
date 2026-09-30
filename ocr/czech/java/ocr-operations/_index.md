@@ -98,6 +98,12 @@ Naučte se, jak pomocí Aspose OCR extrahovat text z obrázku krok za krokem a z
 Naučte se převést skenované soubory do prohledávatelných PDF pomocí Aspose.OCR pro Java.
 ### [Odstranění zkušebního vodoznaku v Aspose OCR – Kompletní průvodce licencí pro Javu](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Naučte se, jak odstranit evaluační vodoznak a aktivovat plnou verzi Aspose OCR v Javě pomocí licenčního klíče.
+### [Jak používat OCR v Javě – Kompletní průvodce krok za krokem](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Kompletní návod, jak implementovat OCR v Javě od nastavení až po zpracování výsledků, krok za krokem.
+### [Aspose OCR Java: Převod obrázku na HTML – Kompletní krok‑za‑krokem průvodce](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Naučte se převést obrázky do HTML pomocí Aspose.OCR pro Java s podrobným návodem krok za krokem.
+### [Jak provést OCR v Javě – Kompletní tutoriál Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Kompletní průvodce, jak implementovat OCR v Javě pomocí Aspose OCR, od nastavení až po získání výsledků.
 
 ## Často kladené otázky
 

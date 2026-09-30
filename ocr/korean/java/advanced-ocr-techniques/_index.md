@@ -66,6 +66,16 @@ Java용 Aspose.OCR을 사용하여 텍스트 인식 기능을 활용하세요. �
 
 ### [Aspose.OCR에서 허용되는 문자 지정](./specify-allowed-characters/)
 Java용 Aspose.OCR을 사용하여 이미지에서 텍스트 추출을 원활하게 잠금 해제하세요. 효율적인 통합을 위한 단계별 가이드를 따르세요.
+### [Java OCR에 GPU 활성화 – 이미지에서 텍스트 인식](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
+
+### [Java에서 OCR 사용 방법 – PDF에서 텍스트 추출 (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
+
+### [Java에서 Aspose를 사용한 다국어 OCR 사용 방법](./how-to-use-aspose-for-multi-language-ocr-in-java/)
+
+### [OCR 손글씨 메모 – Aspose OCR로 오류 수정](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
+
+### [검색 가능한 PDF 만들기 – 스캔된 PDF를 변환하는 Java 가이드](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
+
 ### [Java에서 GPU 가속을 이용한 OCR 사용 방법 – 단계별 가이드](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 GPU 가속을 활용해 Java에서 OCR 성능을 크게 향상시키는 방법을 단계별로 안내합니다.
 
