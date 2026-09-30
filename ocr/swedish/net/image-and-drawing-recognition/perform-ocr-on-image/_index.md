@@ -10,13 +10,7 @@ url: /sv/net/image-and-drawing-recognition/perform-ocr-on-image/
 weight: 14
 ---
 
-Author:** Aspose -> same
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes and placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

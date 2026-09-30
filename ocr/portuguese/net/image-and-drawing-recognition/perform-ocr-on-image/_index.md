@@ -10,37 +10,7 @@ url: /pt/net/image-and-drawing-recognition/perform-ocr-on-image/
 weight: 14
 ---
 
-}} etc. Keep them.
-
-We need to translate "Quick Answers" etc.
-
-Let's produce final markdown.
-
-Make sure not to translate URLs.
-
-Also note "step-by-step in order - do not skip sections". So keep order.
-
-Let's translate.
-
-Portuguese translation:
-
-- "How to OCR Image – Perform OCR on Image in OCR Image Recognition" => "Como fazer OCR em Imagem – Realizar OCR em Imagem no Reconhecimento de Imagem OCR"
-
-- "Introduction" => "Introdução"
-
-- etc.
-
-Let's craft.
-
-Be careful with bullet list items: "What library should I use?" => "Qual biblioteca devo usar?" etc.
-
-Translate table headers: "Symptom" => "Sintoma", "Likely Cause" => "Causa Provável", "Fix" => "Correção".
-
-Translate FAQ questions and answers.
-
-Make sure to keep code block placeholders.
-
-Let's write final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

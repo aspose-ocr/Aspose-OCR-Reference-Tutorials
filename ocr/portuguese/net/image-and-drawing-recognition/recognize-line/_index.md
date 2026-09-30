@@ -9,19 +9,7 @@ url: /pt/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
 
-22 -> same.
-
-**Tested With:** Aspose.OCR 24.12 for .NET -> same.
-
-**Author:** Aspose -> same.
-
-Then closing shortcodes.
-
-Also include backtop button shortcode unchanged.
-
-Make sure to keep all markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

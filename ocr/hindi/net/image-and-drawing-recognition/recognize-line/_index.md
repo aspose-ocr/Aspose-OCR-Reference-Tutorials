@@ -9,7 +9,7 @@ url: /hi/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
 
- answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

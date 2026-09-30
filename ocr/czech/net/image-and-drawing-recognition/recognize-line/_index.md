@@ -9,28 +9,6 @@ url: /cs/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
 
-Q5: Jaké jsou systémové požadavky pro Aspose.OCR pro .NET?"
-
-Answer translate, keep link.
-
-## Conclusion => "Závěr"
-
-Paragraph translate.
-
---- then metadata lines: keep as is.
-
-**Last Updated:** 2026-02-22 (keep)
-
-**Tested With:** Aspose.OCR 24.12 for .NET (keep)
-
-**Author:** Aspose (keep)
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

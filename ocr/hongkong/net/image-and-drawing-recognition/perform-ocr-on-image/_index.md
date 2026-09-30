@@ -8,7 +8,7 @@ url: /zh-hant/net/image-and-drawing-recognition/perform-ocr-on-image/
 weight: 14
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

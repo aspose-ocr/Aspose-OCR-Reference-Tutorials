@@ -9,13 +9,7 @@ url: /sv/net/image-and-drawing-recognition/get-rectangles-for-lines/
 weight: 10
 ---
 
-.11 for .NET
-
-**Author:** Aspose
-
-Now ensure we keep all shortcodes at start and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

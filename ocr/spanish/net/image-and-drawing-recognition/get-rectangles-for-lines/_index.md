@@ -9,10 +9,6 @@ url: /es/net/image-and-drawing-recognition/get-rectangles-for-lines/
 weight: 10
 ---
 
-.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

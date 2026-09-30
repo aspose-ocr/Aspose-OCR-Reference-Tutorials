@@ -10,7 +10,7 @@ url: /vi/net/image-and-drawing-recognition/recognize-image-without-text-area-det
 weight: 13
 ---
 
- produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

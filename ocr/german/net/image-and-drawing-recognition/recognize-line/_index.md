@@ -9,11 +9,7 @@ url: /de/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
 
- times; keep unchanged.
-
-Make sure code block placeholders remain.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

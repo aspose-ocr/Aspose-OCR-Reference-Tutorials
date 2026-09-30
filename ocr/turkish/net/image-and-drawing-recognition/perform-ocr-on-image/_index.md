@@ -9,30 +9,6 @@ url: /tr/net/image-and-drawing-recognition/perform-ocr-on-image/
 weight: 14
 ---
 
-"
-
-But maybe keep "OCR Image" as is? The phrase "How to OCR Image" maybe translate to "Görüntüyü OCR Nasıl Yapılır". We'll translate naturally.
-
-Proceed.
-
-Paragraphs.
-
-Make sure not to translate URLs.
-
-In Quick Answers list, translate questions and answers.
-
-E.g., "What library should I use?" => "Hangi kütüphaneyi kullanmalıyım?" etc.
-
-In bullet list items keep code snippets unchanged.
-
-Tables: translate column headers and cells.
-
-FAQs: translate Q and A.
-
-Make sure to keep markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

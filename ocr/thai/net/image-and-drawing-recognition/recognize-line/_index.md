@@ -9,15 +9,7 @@ url: /th/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
 
- closing shortcodes.
-
-Also the backtop button shortcode unchanged.
-
-Now produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
