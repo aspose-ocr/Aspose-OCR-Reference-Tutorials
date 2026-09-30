@@ -1,0 +1,7 @@
+Title: Perform OCR on Image with Python – Complete Guide
+Slug: perform-ocr-on-image-with-python-complete-guide
+Category: general
+ProcessedDate: 2026-07-05T12:19:31.772415
+SourceRepo: AI Search API
+Keywords: perform ocr on image, load image for ocr, how to use ocr python, extract text from scanned form, ocr recognize image python
+PRNumber: 170

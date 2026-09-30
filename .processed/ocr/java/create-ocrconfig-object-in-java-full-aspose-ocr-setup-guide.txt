@@ -1,0 +1,7 @@
+Title: Create OCRConfig Object in Java – Full Aspose OCR Setup Guide
+Slug: create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-25T23:08:44.250822
+SourceRepo: AI Search API
+Keywords: create ocrconfig object
+PRNumber: 158

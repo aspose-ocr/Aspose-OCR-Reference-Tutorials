@@ -1,9 +1,9 @@
 ---
-date: 2025-12-21
-description: 學習如何使用 Aspose.OCR for .NET 執行 OCR，並從圖像中擷取文字。此一步一步的指南展示多語言文字辨識與語言選擇。
-linktitle: How to Perform OCR with Language Selection in Aspose.OCR
+date: 2026-02-25
+description: 學習如何在 C# 中使用 Aspose.OCR for .NET 提取圖片文字。本分步指南展示多語言 OCR、語言選擇及實用技巧。
+linktitle: Extract image text C# with language selection using Aspose.OCR
 second_title: Aspose.OCR .NET API
-title: 如何在 Aspose.OCR 中使用語言選擇執行 OCR
+title: 使用 Aspose.OCR 在 C# 中提取圖像文字並選擇語言
 url: /zh-hant/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
@@ -12,36 +12,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Aspose.OCR 中執行具語言選擇的 OCR
+# 使用 Aspose.OCR 進行語言選擇的 C# 圖像文字提取
 
-## 簡介
+## 介紹
 
-如果您需要 **how to perform OCR** 圖像並從圖像檔案中提取文字，Aspose.OCR for .NET 提供快速、精確且具語言感知的解決方案。在本教學中，我們將透過一個實際範例示範具語言選擇的 OCR 圖像辨識，讓您只需幾行程式碼即可從圖片中擷取多語言文字。
+如果您需要在 .NET 應用程式中 **提取圖像文字 C#**，Aspose.OCR for .NET 提供快速、精確且具語言感知的解決方案。本教學將示範一個真實案例，說明如何使用語言選擇進行 OCR 圖像辨識，讓您只需幾行程式碼即可從圖像中提取多語言文字。完成後，您將了解如何輕鬆將 OCR 整合至 C# 專案，以及為何此方式是生產環境的可靠選擇。
 
-## 快速解答
-- **What does Aspose.OCR do?** 它會辨識圖像中的印刷文字與手寫文字，並回傳擷取出的文字。  
-- **Can I choose the language?** 是的 – 您可以指定任何支援的語言，例如 English、German、Spanish、Chinese 等。  
-- **Do I need a license for development?** 免費試用版可用於評估；正式使用則需要授權。  
-- **Which .NET versions are supported?** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
-- **Is skew correction automatic?** 您可以啟用 `AutoSkew`，並微調 `SkewAngle` 設定。
+## 快速回答
+- **Aspose.OCR 的功能是什麼？** 它能辨識圖像中的印刷文字與手寫文字，並回傳提取出的文字。  
+- **可以選擇語言嗎？** 可以 – 您可以指定任何支援的語言，如英文、德文、西班牙文、中文等。  
+- **開發階段需要授權嗎？** 免費試用可用於評估；正式上線需購買授權。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **傾斜校正會自動執行嗎？** 您可以啟用 `AutoSkew`，並微調 `SkewAngle` 設定。  
 
-## 為什麼選擇 Aspose.OCR 進行 OCR 任務？
+## 什麼是「extract image text C#」？
 
-- **High accuracy** 在多種字型與圖像品質下皆具高準確度。  
-- **Built‑in language selection** 消除對外部語言套件的需求。  
-- **Simple API** 可順利整合至現有的 C# 專案。  
-- **No external dependencies** – 所有功能皆在本機執行，確保資料安全。
+在 C# 中提取圖像文字指的是使用函式庫讀取圖像（PNG、JPEG、TIFF 等）的視覺內容，並將其轉換為可搜尋、可編輯的文字。Aspose.OCR 在本機提供此功能，無需將資料傳送至外部服務，確保工作流程的安全與合規。
 
-## 前提條件
+## 為何選擇 Aspose.OCR 進行 OCR 任務？
 
-在深入程式碼之前，請確保已具備以下前置條件：
+- **高精度**，適用於多種字型與圖像品質。  
+- **內建語言選擇**，免除外部語言套件的需求。  
+- **簡易 API**，可無縫整合至現有 C# 專案，讓 **extract image text C#** 變得直觀。  
+- **無外部相依** – 全部在本機執行，資料安全有保障。  
 
-- Aspose.OCR for .NET：確保已安裝 Aspose.OCR 程式庫。您可從 [Aspose.OCR for .NET download page](https://releases.aspose.com/ocr/net/) 下載。  
-- Development Environment：建立具 .NET 應用程式的工作環境。若尚未完成，請參考 [documentation](https://reference.aspose.com/ocr/net/) 取得詳細說明。
+## 前置條件
+
+在開始撰寫程式碼之前，請先確保具備以下條件：
+
+- Aspose.OCR for .NET：請確認已安裝 Aspose.OCR 函式庫。您可從 [Aspose.OCR for .NET 下載頁面](https://releases.aspose.com/ocr/net/) 取得。  
+- 開發環境：建立一個可執行的 .NET 應用程式。若尚未設定，請參考 [文件說明](https://reference.aspose.com/ocr/net/) 取得詳細步驟。  
 
 ## 匯入命名空間
 
-在您的 .NET 應用程式中，首先匯入必要的命名空間：
+在 .NET 應用程式中，先匯入必要的命名空間：
 
 ```csharp
 using System;
@@ -53,7 +57,7 @@ using Aspose.OCR;
 
 ## 步驟 1：初始化 Aspose.OCR
 
-首先建立 Aspose.OCR 類別的實例，為在應用程式中使用 OCR 功能做好準備。
+先建立 Aspose.OCR 類別的實例，為後續的 OCR 功能做好準備。
 
 ```csharp
 // ExStart:1
@@ -64,18 +68,18 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 步驟 2：指定影像路徑
+## 步驟 2：指定圖像路徑
 
-接著，定義要執行 OCR 的影像路徑，確保影像可被應用程式存取。
+接著，定義要執行 OCR 的圖像路徑，確保程式能存取該圖像。
 
 ```csharp
 // Image Path
 string fullPath = dataDir + "sample.png";
 ```
 
-## 步驟 3：使用語言選擇辨識影像
+## 步驟 3：使用語言選擇辨識圖像
 
-現在進入核心的 OCR 操作。使用 Aspose.OCR 程式庫辨識指定影像中的文字，並調整辨識設定，包括語言選擇。
+現在執行核心的 OCR 操作。利用 Aspose.OCR 函式庫辨識指定圖像的文字，並透過語言選擇等設定微調 **extract image text C#** 的流程。
 
 ```csharp
 // Recognize image           
@@ -91,7 +95,7 @@ RecognitionResult result = api.RecognizeImage(fullPath, new RecognitionSettings
 
 ## 步驟 4：列印與顯示結果
 
-OCR 完成後，列印並顯示結果，包括辨識出的文字、區域、警告以及 JSON 表示。
+OCR 完成後，列印並顯示結果，包括辨識文字、區域、警告訊息以及 JSON 表示。
 
 ```csharp
 // Print result
@@ -106,41 +110,36 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 
 ## 常見問題與技巧
 
-- **Incorrect language selection** – 若輸出文字呈現亂碼，請再次確認 `Language` 屬性與來源影像的語言相符。  
-- **Skewed images** – 啟用 `AutoSkew` 或手動調整 `SkewAngle`，以提升斜掃描圖像的辨識準確度。  
-- **Large files** – 將大型影像分段處理或降低解析度後再傳入 `RecognizeImage`，以節省記憶體。
+- **語言選擇不正確** – 若輸出文字呈現亂碼，請再次確認 `Language` 屬性與來源圖像的語言相符。  
+- **圖像傾斜** – 啟用 `AutoSkew` 或手動調整 `SkewAngle`，可提升斜掃描圖像的辨識精度。  
+- **大型檔案** – 可將大圖分塊處理，或在送入 `RecognizeImage` 前降低解析度，以節省記憶體。  
+
+## 常見問答
+
+**Q: Aspose.OCR 是否適用於多語言文字辨識？**  
+A: 是，Aspose.OCR 支援多種語言，能靈活應對多語言 OCR 任務。
+
+**Q: 我可以針對特定圖像特性微調 OCR 設定嗎？**  
+A: 當然可以！調整傾斜角度、行辨識、區域偵測等參數，即可優化不同情境的 OCR 效果。
+
+**Q: 我該去哪裡取得更多支援或參與社群討論？**  
+A: 前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 與社群交流取得支援。
+
+**Q: 有免費試用版嗎？**  
+A: 有，請探索 [免費試用](https://releases.aspose.com/) 體驗 Aspose.OCR 的功能。
+
+**Q: 我要如何購買 Aspose.OCR for .NET？**  
+A: 前往 [購買頁面](https://purchase.aspose.com/buy) 完成購買。
 
 ## 結論
 
-恭喜！您已學會使用 Aspose.OCR for .NET 進行具語言選擇的 **how to perform OCR**。本教學示範了如何從影像檔案中擷取文字、客製化辨識設定，並輕鬆處理多語言內容。
-
-## 常見問題解答
-
-### 問題 1：Aspose.OCR 是否適用於多語言文字辨識？
-
-A1：是的，Aspose.OCR 支援多種語言，為多語言 OCR 任務提供彈性。
-
-### 問題 2：我可以針對特定影像特徵微調 OCR 設定嗎？
-
-A2：當然可以！調整斜角、行辨識、區域偵測等參數，以優化不同情境下的 OCR 效果。
-
-### 問題 3：在哪裡可以找到更多支持或社群討論？
-
-A3：請前往 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 獲取支援並與社群討論。
-
-### 問題 4：是否有免費試用版？
-
-A4：是的，請探索 [free trial](https://releases.aspose.com/) 體驗 Aspose.OCR 的功能。
-
-### 問題 5：如何購買 Aspose.OCR for .NET？
-
-A5：購買請前往 [purchase page](https://purchase.aspose.com/buy)。
+恭喜您！您已學會如何使用 Aspose.OCR for .NET 以語言選擇方式 **提取圖像文字 C#**。本教學示範了如何設定 OCR 引擎、選擇適當語言以及處理結果，為在應用程式中建置多語言文字提取功能奠定了堅實基礎。
 
 ---
 
-**上次更新：** 2025-12-21
-**測試版本：** Aspose.OCR 24.11 for .NET
-**作者：** Aspose
+**最後更新：** 2026-02-25  
+**測試版本：** Aspose.OCR 24.11 for .NET  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

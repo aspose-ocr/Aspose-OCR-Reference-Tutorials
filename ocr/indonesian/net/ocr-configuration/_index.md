@@ -54,24 +54,58 @@ Bawa kemampuan OCR Anda ke tingkat baru dengan menguasai **ocr language selectio
 Jelajahi potensi besar Aspose.OCR untuk .NET saat Anda dengan mudah melakukan pengenalan gambar OCR menggunakan daftar. Tutorial ini tidak hanya meningkatkan ekstraksi teks tetapi juga meningkatkan produktivitas dalam menangani kumpulan data yang beragam. Temukan efisiensi OCR dengan operasi daftar.
 
 ## Tutorial Konfigurasi OCR
+
+
+
 ### [OCROperation dengan Arsip dalam Pengenalan Gambar OCR](./ocr-operation-with-archive/)
 Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari gambar arsip langkah demi langkah.
 ### [OCROperation dengan Folder dalam Pengenalan Gambar OCR](./ocr-operation-with-folder/)
 Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks dengan mudah dari gambar.
-### [OCROperation dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR](./ocr-operation-with-language-selection/)
-Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar secara mulus.
-### [OCROperation dengan Daftar dalam Pengenalan Gambar OCR](./ocr-operation-with-list/)
-Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan daftar secara mudah. Tingkatkan produktivitas dan ekstraksi data dalam aplikasi Anda.
+### [Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR](./ocr-operation-with-language-selection/)
+Buka kemampuan OCR yang kuat dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mulus.
+### [Operasi OCRO dengan Daftar dalam Pengenalan Gambar OCR](./ocr-operation-with-list/)
+Buka potensi Aspose.OCR untuk .NET. Lakukan pengenalan gambar OCR dengan mudah menggunakan daftar. Tingkatkan produktivitas dan ekstraksi data dalam aplikasi Anda.
+### [Cara Memeriksa Dukungan Bahasa OCR di C# – Panduan Lengkap](./how-to-check-ocr-language-support-in-c-complete-guide/)
+Pelajari cara memeriksa bahasa yang didukung OCR di Aspose.OCR untuk C# dengan panduan lengkap langkah demi langkah.
+### [Ekstrak teks Rusia & atur jalur sumber daya di C# – Panduan Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Pelajari cara mengekstrak teks berbahasa Rusia dan mengatur jalur sumber daya dalam aplikasi C# menggunakan Aspose OCR.
+### [Cara OCR Gambar di C# – Panduan Lengkap dengan Dukungan GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+Pelajari cara melakukan OCR pada gambar menggunakan C# dengan dukungan GPU untuk kecepatan optimal.
+### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan lengkap C#.
+### [Muat File Gambar & Ekstrak Teks Resi dengan GPU OCR di C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 
-### Kasus Penggunaan Umum
-- **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  
-- Mengindeks arsip dokumen besar untuk repositori yang dapat dicari.  
-- Membangun pipeline data multibahasa yang membaca kwitansi dalam bahasa Prancis, Jerman, atau Jepang.  
+### [Membaca Embedded Resource di .NET – Panduan Lengkap Menetapkan Lisensi Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Pelajari cara membaca embedded resource di .NET dan mengatur lisensi Aspose secara lengkap.
+### [Unduh Model Bahasa OCR di C# dengan Aspose – Panduan Lengkap](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Pelajari cara mengunduh model bahasa OCR untuk C# menggunakan Aspose dalam panduan lengkap ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
 
-### Tips & Jebakan
-- **Tips pro:** Selalu pra‑proses gambar (mis., luruskan, binarisasi) untuk meningkatkan akurasi.  
-- **Peringatan:** Arsip besar dapat mengonsumsi memori yang signifikan; pertimbangkan pemrosesan secara batch.  
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< blocks/products/products-backtop-button >}}
+### [Cara Mengaktifkan GPU untuk Aspose OCR – Panduan Langkah demi Langkah](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Pelajari cara mengaktifkan GPU pada Aspose OCR untuk meningkatkan kinerja pemrosesan gambar secara signifikan.
+### [Mengenali teks gambar di C# – OCR Arab dengan Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Pelajari cara mengekstrak teks Arab dari gambar menggunakan Aspose OCR dalam aplikasi C#.
+### [Cara Mengatur Lisensi Aspose di C# – Panduan Lengkap](./how-to-set-aspose-license-in-c-complete-guide/)
+Pelajari cara mengatur lisensi Aspose di C# secara lengkap untuk mengaktifkan semua fitur produk.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Cara Menerapkan Lisensi di Aspose OCR – Panduan Langkah demi Langkah C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Pelajari cara mengaktifkan lisensi Aspose OCR dalam aplikasi C# Anda dengan panduan langkah demi langkah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Dapatkah saya menggunakan Aspose.OCR dalam aplikasi .NET komersial?**  
