@@ -24,10 +24,6 @@ title: OCR рукописных заметок – исправление ош�
 url: /ru/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-What if you skip this?" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

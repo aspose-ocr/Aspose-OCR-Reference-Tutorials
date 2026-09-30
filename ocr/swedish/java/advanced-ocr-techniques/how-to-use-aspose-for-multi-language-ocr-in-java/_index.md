@@ -22,19 +22,7 @@ title: Hur man använder Aspose för flerspråkig OCR i Java
 url: /sv/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-Keep quotes.
-
-Now closing shortcodes.
-
-Finally the backtop button shortcode.
-
-Now produce final content with all translations.
-
-Check for any leftover English text: "Pro tip" changed to "Proffstips". Good.
-
-Make sure to preserve markdown formatting exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,8 +24,6 @@ title: OCR használata Java-ban – Teljes lépésről lépésre útmutató
 url: /hu/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-all translations, preserving everything else.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

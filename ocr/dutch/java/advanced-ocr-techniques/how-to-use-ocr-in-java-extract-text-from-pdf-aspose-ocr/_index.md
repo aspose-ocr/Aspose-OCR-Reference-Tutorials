@@ -23,9 +23,7 @@ title: Hoe OCR in Java te gebruiken – Tekst uit PDF extraheren (Aspose OCR)
 url: /nl/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-, code block placeholders unchanged.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

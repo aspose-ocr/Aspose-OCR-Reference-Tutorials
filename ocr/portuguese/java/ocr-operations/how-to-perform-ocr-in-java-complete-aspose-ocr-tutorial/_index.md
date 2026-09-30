@@ -24,24 +24,6 @@ title: Como realizar OCR em Java – Tutorial completo de OCR da Aspose
 url: /pt/java/ocr-operations/how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/
 ---
 
-. Keep colon.
-
-Also translate "Why this matters:" etc.
-
-Also "Edge case:".
-
-Also "Step 1: Add Aspose OCR Dependency" etc.
-
-Also "Frequently Asked Questions (FAQ)" to "Perguntas Frequentes (FAQ)". Keep (FAQ) maybe.
-
-Also "Q:" and "A:" keep.
-
-Also "Conclusion" to "Conclusão".
-
-Also "Happy coding, and may your OCR results always be crystal‑clear!" to Portuguese.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

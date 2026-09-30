@@ -22,13 +22,7 @@ title: Cara Menggunakan OCR di Java – Panduan Lengkap Langkah demi Langkah
 url: /id/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-with all translations.
-
-Check for any missed items: The "step‑by‑step" hyphen; keep same.
-
-Make sure to keep the code block placeholders exactly as they are.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,20 +23,6 @@ title: Hur man aktiverar GPU för Java OCR – känna igen text från en bild
 url: /sv/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
 
-## Gå vidare – Nästa steg"
-
-Bullet points translate.
-
-Next heading "## Conclusion" -> "## Slutsats"
-
-Paragraph translate.
-
-Image markdown: alt text "Diagram showing GPU‑accelerated OCR pipeline – how to enable GPU for Java OCR" translate to Swedish: "Diagram som visar GPU‑accelererad OCR-pipeline – hur man aktiverar GPU för Java OCR". Title attribute also translate similarly.
-
-Now ensure we keep shortcodes at end.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

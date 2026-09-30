@@ -23,20 +23,6 @@ title: Java OCR için GPU'yu Nasıl Etkinleştirirsiniz – Görüntüden Metin 
 url: /tr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
 
-accelerated OCR pipeline – how to enable GPU for Java OCR". Must translate alt text but keep URL unchanged. Title also translate.
-
-- The final shortcodes remain.
-
-We must ensure not to translate URLs, file paths, code block placeholders.
-
-Also keep markdown formatting.
-
-Let's produce translation.
-
-Be careful with Turkish characters.
-
-Let's start.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

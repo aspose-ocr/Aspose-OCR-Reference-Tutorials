@@ -24,11 +24,7 @@ title: Wie man Aspose für mehrsprachige OCR in Java verwendet
 url: /de/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-translation of URLs, file paths, variable names. We didn't translate any code block content because they are placeholders.
-
-Make sure to keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

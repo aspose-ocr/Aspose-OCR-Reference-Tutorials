@@ -24,11 +24,7 @@ title: 'aspose ocr java: Chuyển đổi hình ảnh sang HTML – Hướng dẫ
 url: /vi/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
-.
-
-All good.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,22 +22,6 @@ title: OCR ghi chú viết tay – Sửa lỗi với Aspose OCR
 url: /vi/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-Translate "Pro tip:" to "Mẹo chuyên nghiệp:" maybe.
-
-In blockquote "What if you skip this?" translate.
-
-In "Tip:" etc.
-
-In "Expected Output" headings.
-
-In table.
-
-In final note.
-
-Also the image alt text: "Screenshot showing corrected OCR output for handwritten notes". Translate alt text but keep URL unchanged. So alt text becomes Vietnamese.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,12 +24,6 @@ title: 'aspose ocr java: Преобразование изображения в 
 url: /ru/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
-, but keep markdown.
-
-Also note "Ensure proper RTL formatting if needed" - Russian is LTR, so fine.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

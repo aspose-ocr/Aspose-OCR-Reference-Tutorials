@@ -22,21 +22,7 @@ title: Java'da OCR Nasıl Kullanılır – Tam Adım Adım Rehber
 url: /tr/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-neği, ön işleme ve sonucu gösteriyor")
-
-Now final shortcodes remain.
-
-Now produce final content with all translations.
-
-Check for any missed bold phrases: keep them unchanged.
-
-Check for any other markdown links: none.
-
-Check for any code block placeholders: they remain.
-
-Check for any URLs: only image URL, unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

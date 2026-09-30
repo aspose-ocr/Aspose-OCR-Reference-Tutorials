@@ -24,25 +24,7 @@ title: Comment activer le GPU pour l'OCR Java – Reconnaître le texte à parti
 url: /fr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
 
-to Enable GPU for Java OCR – Recognize Text from Image
-
-Translate heading: "Comment activer le GPU pour l'OCR Java – Reconnaître du texte à partir d'une image"
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Proceed.
-
-Will keep code block placeholders unchanged.
-
-Tables: translate header and description but keep code values unchanged.
-
-Proceed.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

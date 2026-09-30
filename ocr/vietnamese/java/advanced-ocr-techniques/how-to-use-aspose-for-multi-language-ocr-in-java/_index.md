@@ -23,18 +23,6 @@ title: Cách sử dụng Aspose cho OCR đa ngôn ngữ trong Java
 url: /vi/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-*extract text from image* files that aren’t monolingual." => Vietnamese.
-
-Proceed.
-
-Make sure to keep bold and italics.
-
-Now go through each section.
-
-Will produce final output with same structure.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

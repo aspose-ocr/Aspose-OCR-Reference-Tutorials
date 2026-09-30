@@ -23,10 +23,6 @@ title: วิธีใช้ OCR ใน Java – แยกข้อความ�
 url: /th/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-keep dash and spacing.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,11 +23,7 @@ title: Cách sử dụng OCR trong Java – Trích xuất văn bản từ PDF (A
 url: /vi/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-sure to keep them unchanged.
-
-Also ensure any markdown formatting preserved.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,9 +20,7 @@ title: OCR 手寫筆記 – 使用 Aspose OCR 修正錯誤
 url: /zh-hant/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-**) unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

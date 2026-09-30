@@ -24,10 +24,6 @@ title: Πώς να χρησιμοποιήσετε το Aspose για OCR πολ�
 url: /el/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-the whole content with same shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

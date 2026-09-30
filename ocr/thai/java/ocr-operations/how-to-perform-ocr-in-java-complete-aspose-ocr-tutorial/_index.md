@@ -22,12 +22,6 @@ title: วิธีทำ OCR ใน Java – บทเรียน Aspose OCR �
 url: /th/java/ocr-operations/how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/
 ---
 
-says translate all text content naturally to Thai, but keep technical terms in English. I'd translate surrounding text but keep the bold English phrases unchanged. So keep **how to perform OCR**, etc.
-
-Thus in translation, keep bold English unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

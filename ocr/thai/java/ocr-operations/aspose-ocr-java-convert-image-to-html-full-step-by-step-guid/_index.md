@@ -22,22 +22,6 @@ title: 'aspose ocr java: แปลงภาพเป็น HTML – คู่ม
 url: /th/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
-0}} etc. Those are not actual code blocks but placeholders. Should keep them unchanged. Also the shortcodes at top and bottom must remain.
-
-We need to translate the tutorial text, including bullet points, etc.
-
-Let's produce the translated content.
-
-Be careful with markdown formatting.
-
-Also note the note: "For Thai, ensure proper RTL formatting if needed" but Thai is LTR, so fine.
-
-Let's translate.
-
-We'll keep the shortcodes exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

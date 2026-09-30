@@ -22,9 +22,7 @@ title: OCR 손글씨 메모 – Aspose OCR로 오류 수정
 url: /ko/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-Also keep blockquote formatting >.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

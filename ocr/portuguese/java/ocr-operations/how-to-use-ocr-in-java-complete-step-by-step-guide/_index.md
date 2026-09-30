@@ -22,8 +22,6 @@ title: Como usar OCR em Java – Guia completo passo a passo
 url: /pt/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

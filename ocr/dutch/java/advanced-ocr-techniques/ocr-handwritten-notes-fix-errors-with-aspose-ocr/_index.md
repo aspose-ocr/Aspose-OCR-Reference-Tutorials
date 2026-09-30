@@ -24,12 +24,6 @@ title: OCR handgeschreven notities – Fouten corrigeren met Aspose OCR
 url: /nl/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-.
-
-Also preserve blockquote formatting >.
-
-Now produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

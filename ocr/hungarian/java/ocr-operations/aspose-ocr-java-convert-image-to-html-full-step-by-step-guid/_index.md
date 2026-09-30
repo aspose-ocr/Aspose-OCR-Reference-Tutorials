@@ -24,11 +24,7 @@ title: 'aspose ocr java: Kép konvertálása HTML-re – Teljes lépésről‑l�
 url: /hu/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
-fine.
-
-Now produce final output with all translations.
-
-Let's write it.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

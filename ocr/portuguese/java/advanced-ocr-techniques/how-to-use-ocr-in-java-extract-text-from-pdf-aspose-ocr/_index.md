@@ -24,14 +24,6 @@ title: Como usar OCR em Java – Extrair texto de PDF (Aspose OCR)
 url: /pt/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-markdown.
-
-Be careful with bullet points, maintain dash and spacing.
-
-Also keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

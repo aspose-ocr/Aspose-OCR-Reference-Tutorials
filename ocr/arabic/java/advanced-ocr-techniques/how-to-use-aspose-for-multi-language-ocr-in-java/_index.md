@@ -22,17 +22,7 @@ title: كيفية استخدام Aspose للتعرف الضوئي على الن�
 url: /ar/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-Aspose OCR يُظهر كود Java". Keep alt attribute.
-
-Then closing shortcodes.
-
-Proceed to produce final content.
-
-Be careful to keep code block placeholders unchanged.
-
-Also ensure markdown formatting preserved.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

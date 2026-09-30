@@ -24,24 +24,6 @@ title: Wie man OCR in Java ausführt – Vollständiges Aspose OCR‑Tutorial
 url: /de/java/ocr-operations/how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/
 ---
 
-we might keep as is. The rule: keep technical terms in English. "convert image to text" is a phrase, maybe keep as is. We'll keep the bold markup.
-
-Also "recognize text from image" etc. Keep as is.
-
-Also "extract text from PNG" keep as is.
-
-Also "how to read text" keep as is.
-
-Also "extract text from png" keep as is.
-
-Also "how to perform OCR" keep as is.
-
-Also "image preprocessing for OCR" keep as is.
-
-Alright.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

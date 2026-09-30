@@ -23,7 +23,7 @@ title: Hogyan használjuk az Aspose‑t többnyelvű OCR‑hez Java‑ban
 url: /hu/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

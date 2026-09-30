@@ -21,14 +21,6 @@ title: JavaでOCRを使用する方法 – PDFからテキストを抽出する�
 url: /ja/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-keep them.
-
-Also ensure we don't translate URLs inside markdown links. There are no markdown links besides maybe none. There's image with title.
-
-Also there are shortcodes at top and bottom.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

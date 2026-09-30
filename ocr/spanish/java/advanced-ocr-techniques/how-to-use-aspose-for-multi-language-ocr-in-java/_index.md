@@ -23,19 +23,7 @@ title: Cómo usar Aspose para OCR multilingüe en Java
 url: /es/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
-.
-
-Check shortcodes: unchanged.
-
-Check markdown links: none present.
-
-Check table: we changed header cells, but keep pipe formatting.
-
-Check any inline code: keep same.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

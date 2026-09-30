@@ -23,17 +23,7 @@ title: Как использовать OCR в Java — Полное пошаго
 url: /ru/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-– пример Java, показывающий предобработку и результат". Keep URL unchanged.
-
-Then closing shortcodes unchanged.
-
-Now produce final output with everything.
-
-Check we didn't miss any markdown formatting.
-
-Make sure to keep horizontal rules "---". Keep code placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

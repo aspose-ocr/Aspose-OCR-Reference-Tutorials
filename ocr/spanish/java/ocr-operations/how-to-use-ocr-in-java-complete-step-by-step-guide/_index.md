@@ -22,7 +22,7 @@ title: Cómo usar OCR en Java – Guía completa paso a paso
 url: /es/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-Now produce final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

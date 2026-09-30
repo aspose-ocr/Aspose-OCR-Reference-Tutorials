@@ -23,19 +23,7 @@ title: Wie man die GPU für Java-OCR aktiviert – Text aus Bild erkennen
 url: /de/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
 
-Alt text is "Diagram showing GPU‑accelerated OCR pipeline – how to enable GPU for Java OCR". Must translate alt text but keep markdown syntax. So alt text becomes German: "Diagramm, das die GPU‑beschleunigte OCR‑Pipeline zeigt – wie man GPU für Java OCR aktiviert". Keep URL unchanged.
-
-Add title attribute also translate: "how to enable gpu for Java OCR" -> "wie man gpu für Java OCR aktiviert". Keep quotes.
-
-Then closing shortcodes unchanged.
-
-Finally backtop button shortcode unchanged.
-
-Now produce final content with all translations.
-
-Check that we didn't translate code block placeholders. Keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

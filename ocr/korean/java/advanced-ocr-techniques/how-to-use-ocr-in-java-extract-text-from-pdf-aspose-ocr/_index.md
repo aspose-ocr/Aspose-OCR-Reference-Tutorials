@@ -23,13 +23,7 @@ title: Java에서 OCR 사용 방법 – PDF에서 텍스트 추출 (Aspose OCR)
 url: /ko/java/advanced-ocr-techniques/how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/
 ---
 
-.
-
-Now produce final output with all translations, preserving placeholders.
-
-Be careful with markdown formatting: headings, lists, bold, code block placeholders remain as is.
-
-Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

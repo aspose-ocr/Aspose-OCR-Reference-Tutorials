@@ -24,10 +24,6 @@ title: OCR χειρόγραφων σημειώσεων – Διόρθωση σφ
 url: /el/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
-image alt text: "Screenshot showing corrected OCR output for handwritten notes". Translate alt text: "Στιγμιότυπο οθόνης που δείχνει το διορθωμένο αποτέλεσμα OCR για χειρόγραφες σημειώσεις". Keep URL unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

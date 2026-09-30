@@ -22,19 +22,7 @@ title: Come usare l'OCR in Java – Guida completa passo‑a‑passo
 url: /it/java/ocr-operations/how-to-use-ocr-in-java-complete-step-by-step-guide/
 ---
 
-to keep the English phrase inside bold, as it's a keyword. Probably keep as is.
-
-Similarly other bold phrases: **load image for OCR**, **improve OCR accuracy**, **how to use OCR** etc. Keep them unchanged.
-
-Thus translate surrounding text but keep bold phrases unchanged.
-
-Proceed.
-
-Will translate each section.
-
-Make sure to keep code block placeholders as they are.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

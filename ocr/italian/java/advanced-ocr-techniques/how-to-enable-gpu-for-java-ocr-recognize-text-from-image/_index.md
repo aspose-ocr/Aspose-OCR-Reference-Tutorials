@@ -23,11 +23,7 @@ title: Come abilitare la GPU per OCR Java – Riconoscere il testo da un'immagin
 url: /it/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
 
-to keep code block placeholders unchanged.
-
-Also ensure markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
