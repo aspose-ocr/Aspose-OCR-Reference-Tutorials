@@ -8,15 +8,10 @@ url: /ja/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
-codes.
 
-Then backtop button shortcode.
 
-Now produce final content.
 
-Be careful to preserve markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

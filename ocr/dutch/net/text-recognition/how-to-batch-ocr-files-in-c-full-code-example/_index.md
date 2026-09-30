@@ -218,8 +218,6 @@ Voer `dotnet run` uit vanuit de projectmap en zie hoe de console vult met de ge√
 
 ---
 
-![voorbeeld van batch OCR](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -23,7 +23,6 @@ title: Nhận dạng văn bản Hindi trong C# – Hướng dẫn đầy đủ v
 url: /vi/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

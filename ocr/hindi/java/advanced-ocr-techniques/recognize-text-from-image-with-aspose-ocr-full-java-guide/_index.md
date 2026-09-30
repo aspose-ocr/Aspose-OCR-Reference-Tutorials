@@ -24,17 +24,12 @@ title: Aspose OCR के साथ छवि से टेक्स्ट पह
 url: /hi/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/
 ---
 
-}}
 
-Make sure to preserve them.
 
-Now produce final content with all translations.
 
-Check for any missed items: Ensure we kept all markdown formatting, code block placeholders, links (none except maybe in text). No URLs to translate.
 
-Make sure to keep the markdown syntax.
 
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

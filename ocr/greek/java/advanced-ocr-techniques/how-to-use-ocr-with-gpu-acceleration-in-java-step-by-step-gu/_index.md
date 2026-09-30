@@ -25,9 +25,8 @@ title: Πώς να χρησιμοποιήσετε OCR με επιτάχυνση 
 url: /el/java/advanced-ocr-techniques/how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/
 ---
 
-didn't translate any URLs, code placeholders, shortcodes.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

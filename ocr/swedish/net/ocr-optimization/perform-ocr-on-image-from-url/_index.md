@@ -9,7 +9,7 @@ url: /sv/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

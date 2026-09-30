@@ -23,7 +23,6 @@ title: Kereshető PDF létrehozása Java-ban – Lépésről lépésre útmutat�
 url: /hu/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

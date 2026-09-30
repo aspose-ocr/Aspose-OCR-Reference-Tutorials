@@ -23,11 +23,9 @@ title: Hoe OCR-tekst te extraheren – Complete gids
 url: /nl/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-text: The code block after final_cleanup is truncated; we keep as is.
 
-Make sure to keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,11 +10,8 @@ url: /ru/java/ocr-basics/calculate-skew-angle/
 weight: 11
 ---
 
- is.
 
-Make sure to preserve tables.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

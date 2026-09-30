@@ -8,9 +8,8 @@ url: /zh/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
- list formatting.
 
-Proceed to final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

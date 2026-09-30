@@ -27,7 +27,7 @@ title: Lister les modèles mis en cache – comment visualiser le dossier de cac
 url: /fr/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

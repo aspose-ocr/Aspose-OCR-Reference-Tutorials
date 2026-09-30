@@ -22,9 +22,8 @@ title: OCR 텍스트 추출 방법 – 완전 가이드
 url: /ko/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-exactly.
 
-Let's craft the final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

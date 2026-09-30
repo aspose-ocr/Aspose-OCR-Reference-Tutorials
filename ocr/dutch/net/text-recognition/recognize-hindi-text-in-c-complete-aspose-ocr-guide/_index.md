@@ -24,15 +24,10 @@ title: Herken Hindi-tekst in C# – Complete Aspose OCR-gids
 url: /nl/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
-Make sure to keep **bold**.
 
-Proceed.
 
-We must keep code block placeholders unchanged.
 
-Also keep table.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

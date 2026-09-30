@@ -24,20 +24,13 @@ title: Как удалить файлы в Python – учебник по очи
 url: /ru/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-4. Delete each one safely (**delete file python**). -> "4. Безопасно удалить каждый файл (**delete file python**)."
-5. Confirm that the cache is empty, giving you peace of mind. -> "5. Подтвердить, что кэш пуст, что даст вам уверенность."
 
-## Conclusion -> "## Заключение"
 
-Paragraph translate.
 
-Next steps paragraph translate.
 
-Final call to action paragraph translate.
 
-Now ensure all shortcodes remain.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: Preprocesar OCR de imágenes en C# – Guía completa con filtros
 url: /es/net/ocr-optimization/preprocess-image-ocr-in-c-complete-guide-with-filters/
 ---
 
-produce final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

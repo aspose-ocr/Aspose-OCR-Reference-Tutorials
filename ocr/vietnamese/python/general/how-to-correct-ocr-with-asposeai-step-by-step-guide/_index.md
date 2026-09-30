@@ -25,21 +25,14 @@ title: Cách sửa lỗi OCR bằng AsposeAI – Hướng dẫn từng bước
 url: /vi/python/general/how-to-correct-ocr-with-asposeai-step-by-step-guide/
 ---
 
-** etc. Keep them unchanged.
 
-Also "Pro tip" maybe translate "Mẹo". Keep "Pro tip:" maybe translate to "Mẹo:".
 
-But we need to keep the asterisk formatting? It's a blockquote with "*Pro tip:*". We can translate the content after colon.
 
-Let's translate.
 
-Also "Edge case:" translate "Trường hợp đặc biệt:".
 
-Also "Frequently asked questions & troubleshooting" -> "Câu hỏi thường gặp & khắc phục sự cố".
 
-Make sure to keep code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

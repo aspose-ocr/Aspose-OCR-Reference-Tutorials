@@ -25,23 +25,14 @@ title: come correggere l'OCR con AsposeAI – guida passo passo
 url: /it/python/general/how-to-correct-ocr-with-asposeai-step-by-step-guide/
 ---
 
-quotes, but keep any code snippets unchanged.
 
-We need to translate "how to correct ocr – a complete AsposeAI tutorial" heading etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce translation.
 
-Be careful with bullet points: translate but keep code formatting like `aspose-ocr` unchanged.
 
-Also translate "Pro tip", "Edge case", etc.
 
-Make sure to keep URLs unchanged.
 
-Also preserve the shortcodes at start and end exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

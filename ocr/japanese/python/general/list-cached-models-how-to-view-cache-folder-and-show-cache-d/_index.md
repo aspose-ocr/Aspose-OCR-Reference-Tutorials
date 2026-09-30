@@ -21,19 +21,12 @@ title: キャッシュされたモデルの一覧 – キャッシュフォル�
 url: /ja/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-alt text should be translated. Title inside quotes also text, translate.
 
-But must not translate URLs. So keep URL unchanged.
 
-Thus:
 
-![list cached models screenshot] -> alt text translate to "list cached models スクリーンショット"? maybe "キャッシュされたモデルの一覧 スクリーンショット". Title "list cached models – console output showing models and cache path" translate.
 
-Also the caption "*Alt text:* *list cached models – console output displaying cached model names and the cache directory path.*" Translate.
 
-Ok.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

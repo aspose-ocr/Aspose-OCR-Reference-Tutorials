@@ -22,18 +22,12 @@ title: Oprava chyb OCR pomocí Aspose OCR a HuggingFace – Kompletní průvodce
 url: /cs/python/general/correct-ocr-errors-with-aspose-ocr-huggingface-full-guide/
 ---
 
-PDFs or scanned books. -> "Dávkovým zpracováním PDF nebo skenovaných knih."
-- Combining the corrected text with downstream NLP tasks (summarization, entity extraction). -> "Kombinací opraveného textu s následnými NLP úkoly (shrnutí, extrakce entit)."
 
-"Happy coding, and may your OCR results be flawless!" translate: "Šťastné kódování a ať jsou vaše výsledky OCR bezchybné!"
 
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc. Keep.
 
-Also final backtop button shortcode.
 
-Make sure we keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

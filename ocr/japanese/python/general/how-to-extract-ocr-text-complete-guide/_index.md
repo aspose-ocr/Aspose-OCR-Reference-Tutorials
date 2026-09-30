@@ -20,13 +20,9 @@ title: OCRテキストの抽出方法 – 完全ガイド
 url: /ja/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-.
 
-Now produce final translated content with same structure.
 
-Make sure to keep blank lines as needed.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

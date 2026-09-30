@@ -8,7 +8,6 @@ url: /ja/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
- content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

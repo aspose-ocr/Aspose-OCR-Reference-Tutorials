@@ -24,11 +24,9 @@ title: 'Учебник по OCR на Python: извлечение текста �
 url: /ru/python/general/python-ocr-tutorial-extract-text-from-images-with-aspose/
 ---
 
-.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

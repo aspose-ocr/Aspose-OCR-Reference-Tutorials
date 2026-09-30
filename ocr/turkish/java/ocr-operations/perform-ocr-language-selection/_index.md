@@ -10,21 +10,13 @@ url: /tr/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
 
-/products-backtop-button >}}
 
-Now produce final content with translations.
 
-Be careful with preserving markdown formatting.
 
-Let's craft translation.
 
-Title: "# Aspose.OCR Kullanarak Dil Seçimiyle Görüntü Metnini OCR Yapma"
 
-Introduction: translate.
 
-I'll write.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

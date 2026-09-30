@@ -26,11 +26,8 @@ title: listar modelos em cache – como visualizar a pasta de cache e mostrar o 
 url: /pt/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-output showing models and cache path". Translate to Portuguese: "list cached models – saída de console mostrando modelos e o caminho do cache". Keep "list cached models" unchanged.
 
-Now translate all paragraphs.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

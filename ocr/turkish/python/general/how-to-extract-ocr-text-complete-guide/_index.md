@@ -24,11 +24,9 @@ title: OCR Metnini Nasıl Çıkarılır – Tam Rehber
 url: /tr/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-any images: none.
 
-All good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

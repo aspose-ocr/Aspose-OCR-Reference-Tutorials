@@ -24,13 +24,10 @@ title: Jak wyodrębnić tekst OCR – Kompletny przewodnik
 url: /pl/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-with same structure.
 
-Make sure to keep shortcodes at top and bottom unchanged.
 
-Also ensure no extra spaces that could break formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

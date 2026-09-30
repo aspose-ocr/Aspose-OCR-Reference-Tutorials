@@ -8,15 +8,10 @@ url: /zh-hant/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
-Then closing shortcodes unchanged.
 
-Also include backtop button shortcode unchanged.
 
-Now produce final content with translations.
 
-Be careful to preserve markdown formatting, code block placeholders, shortcodes.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

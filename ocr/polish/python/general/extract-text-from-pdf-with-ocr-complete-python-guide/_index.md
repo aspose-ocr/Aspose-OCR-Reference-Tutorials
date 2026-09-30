@@ -23,13 +23,9 @@ title: Wyodrębnij tekst z PDF przy użyciu OCR – Kompletny przewodnik Pythona
 url: /pl/python/general/extract-text-from-pdf-with-ocr-complete-python-guide/
 ---
 
-tekstu z PDF przy użyciu OCR – Kompletny przewodnik w Pythonie"
 
-Proceed paragraph.
 
-Let's translate step by step.
 
-I'll write final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,7 +24,6 @@ title: Hur man tar bort filer i Python – guide för att rensa modellcache
 url: /sv/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,11 +20,8 @@ title: Pythonでファイルを削除する方法 – モデルキャッシュ�
 url: /ja/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-. Probably keep them as is? The original includes them as bold phrases: **list directory files python**, **filter files by extension**, **delete file python**. Should we translate those? The instruction says keep technical terms in English, but these are not standard technical terms; they are phrase references. Might keep them as is to preserve the reference. In original they are bold. Probably keep them unchanged.
 
-Thus we translate surrounding text but keep those bold phrases unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

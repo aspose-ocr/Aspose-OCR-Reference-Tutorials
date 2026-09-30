@@ -24,7 +24,7 @@ title: Come eseguire OCR batch in Java – Guida completa per estrarre testo dal
 url: /it/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/
 ---
 
->}}{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,17 +10,12 @@ url: /hu/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
-top-button >}}
 
-Make sure to keep spacing.
 
-Now produce final content with all translations.
 
-Check for any missed items: The code block placeholders remain unchanged.
 
-Make sure to keep markdown formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

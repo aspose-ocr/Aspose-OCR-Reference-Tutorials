@@ -11,9 +11,8 @@ url: /hu/java/ocr-basics/calculate-skew-angle/
 weight: 11
 ---
 
- block placeholders remain as is.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

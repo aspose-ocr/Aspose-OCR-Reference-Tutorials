@@ -23,11 +23,9 @@ title: Cara Mengekstrak Teks OCR – Panduan Lengkap
 url: /id/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-= re.sub(r"\s+", " ", txt).strip` and then blank line then `{{< /blocks/...`. The code block is not closed with triple backticks in original; maybe truncated. We must preserve original exactly. So we keep as is.
 
-Now translate.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

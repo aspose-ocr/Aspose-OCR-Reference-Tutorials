@@ -24,11 +24,9 @@ title: Python में फ़ाइलें कैसे हटाएँ – �
 url: /hi/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-}}
 
-Make sure to keep all shortcodes.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

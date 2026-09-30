@@ -17,9 +17,8 @@ title: 如何使用 Aspose 运行 OCR – 添加后处理器的完整指南
 url: /zh/python/general/how-to-run-ocr-with-aspose-complete-guide-to-adding-a-postpr/
 ---
 
-or missing elements.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

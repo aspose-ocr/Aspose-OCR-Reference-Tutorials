@@ -24,15 +24,10 @@ title: Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní Java prů
 url: /cs/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/
 ---
 
-ocr-workflow.png "recognize text from image workflow")
 
-Translate alt: "Diagram ukazující OCR workflow pro rozpoznání textu z obrázku". Title: "workflow rozpoznání textu z obrázku". Keep URL same.
 
-Now closing shortcodes.
 
-We must ensure we keep all shortcodes exactly as original.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

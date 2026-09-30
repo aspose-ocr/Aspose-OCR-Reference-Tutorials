@@ -9,15 +9,10 @@ url: /ar/java/advanced-ocr-techniques/recognize-lines/
 weight: 14
 ---
 
- as is, but translate rest. We'll produce: "# مثال Aspose OCR Java – التعرف على الأسطر في الصور". That seems fine.
 
-Proceed section by section.
 
-First shortcodes remain.
 
-Now translation.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

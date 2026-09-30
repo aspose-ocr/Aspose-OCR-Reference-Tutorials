@@ -24,13 +24,10 @@ title: Come estrarre il testo OCR – Guida completa
 url: /it/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-We keep them.
 
-Now produce final output with translated content.
 
-Be careful to keep markdown formatting.
 
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

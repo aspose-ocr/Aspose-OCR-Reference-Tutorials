@@ -9,9 +9,7 @@ url: /nl/java/advanced-ocr-techniques/recognize-lines/
 weight: 14
 ---
 
- markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

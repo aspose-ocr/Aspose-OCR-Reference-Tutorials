@@ -27,9 +27,7 @@ title: elencare i modelli nella cache – come visualizzare la cartella della ca
 url: /it/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-translate step by step.
 
-I'll craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

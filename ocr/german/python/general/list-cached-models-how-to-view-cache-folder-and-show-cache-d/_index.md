@@ -26,9 +26,8 @@ title: Zwischengespeicherte Modelle auflisten – Wie man den Cache‑Ordner anz
 url: /de/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
->}}
 
-Now produce final content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

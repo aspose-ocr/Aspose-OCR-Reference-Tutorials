@@ -9,9 +9,7 @@ url: /it/java/advanced-ocr-techniques/recognize-lines/
 weight: 14
 ---
 
- translate URLs.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,11 +9,8 @@ url: /ko/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
-Now produce final content.
 
-Be careful with dash characters. Keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

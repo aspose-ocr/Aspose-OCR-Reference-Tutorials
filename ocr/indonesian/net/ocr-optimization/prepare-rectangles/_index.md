@@ -10,9 +10,8 @@ url: /id/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
 
- Asked Questions" -> "## Pertanyaan yang Sering Diajukan". Ensure markdown formatting preserved.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

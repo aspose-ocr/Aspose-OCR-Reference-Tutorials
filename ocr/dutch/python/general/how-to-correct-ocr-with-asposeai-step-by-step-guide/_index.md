@@ -25,9 +25,8 @@ title: Hoe OCR te corrigeren met AsposeAI – stap‑voor‑stap gids
 url: /nl/python/general/how-to-correct-ocr-with-asposeai-step-by-step-guide/
 ---
 
-block placeholders, etc.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

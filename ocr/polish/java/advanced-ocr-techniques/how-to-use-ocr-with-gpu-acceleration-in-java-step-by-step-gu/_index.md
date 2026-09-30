@@ -24,19 +24,12 @@ title: Jak używać OCR z przyspieszeniem GPU w Javie – Przewodnik krok po kro
 url: /pl/java/advanced-ocr-techniques/how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/
 ---
 
-w Javie – Kompletny samouczek programistyczny"
 
-Proceed.
 
-Paragraphs.
 
-Let's translate.
 
-Make sure to keep **bold** formatting.
 
-Also keep code block placeholders unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -27,9 +27,7 @@ title: önbelleğe alınan modelleri listele – önbellek klasörünü nasıl g
 url: /tr/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-translate.
 
-Proceed to write final answer.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

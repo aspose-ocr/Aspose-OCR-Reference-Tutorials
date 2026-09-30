@@ -22,13 +22,9 @@ title: Hur man extraherar OCR‑text – Komplett guide
 url: /sv/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
--backtop-button >}}
 
-We keep them unchanged.
 
-We need to ensure we didn't miss any text after the code block: The code block ends with `txt = re.sub(r"\s+", " ", txt).strip` then the closing tags. That is fine.
 
-Now produce final output with all translated content and unchanged elements.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

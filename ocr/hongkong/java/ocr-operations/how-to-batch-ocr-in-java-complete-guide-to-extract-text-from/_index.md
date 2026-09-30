@@ -20,17 +20,11 @@ title: 如何在 Java 中批量 OCR – 圖像文字提取完整指南
 url: /zh-hant/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/
 ---
 
-.
 
-Proceed.
 
-Make sure to keep bold formatting.
 
-Also note "Pro tip:" inside blockquote.
 
-Proceed.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /ar/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

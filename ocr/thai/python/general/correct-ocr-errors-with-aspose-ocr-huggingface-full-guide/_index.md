@@ -20,25 +20,15 @@ title: แก้ไขข้อผิดพลาด OCR ด้วย Aspose OCR
 url: /th/python/general/correct-ocr-errors-with-aspose-ocr-huggingface-full-guide/
 ---
 
-Aspose OCR & HuggingFace Tutorial
 
-Translate: "# แก้ไขข้อผิดพลาด OCR – คู่มือเต็ม Aspose OCR & HuggingFace"
 
-But keep the dash? We'll translate.
 
-Next paragraph:
 
-Ever needed to **...**. Translate.
 
-We'll translate each paragraph.
 
-Need to keep bold formatting.
 
-Proceed.
 
-I'll write Thai translation, preserving markdown.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

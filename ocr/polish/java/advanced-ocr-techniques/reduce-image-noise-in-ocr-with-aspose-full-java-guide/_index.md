@@ -25,9 +25,8 @@ title: Redukcja szumu obrazu w OCR przy użyciu Aspose – Kompletny przewodnik 
 url: /pl/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
-translated.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,6 @@ title: Hogyan töröljünk fájlokat Pythonban – modell gyorsítótár törlé
 url: /hu/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

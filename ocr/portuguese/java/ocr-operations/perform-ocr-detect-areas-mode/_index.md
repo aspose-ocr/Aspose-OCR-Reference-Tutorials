@@ -10,9 +10,7 @@ url: /pt/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
 
-.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,15 +22,10 @@ title: สร้าง PDF ที่ค้นหาได้ใน Java – ค�
 url: /th/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 ---
 
-17" keep.
 
-Ok.
 
-Let's produce final content.
 
-Be careful to keep line breaks.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

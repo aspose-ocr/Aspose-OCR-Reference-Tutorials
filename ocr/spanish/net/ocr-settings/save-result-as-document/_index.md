@@ -9,15 +9,11 @@ url: /es/net/ocr-settings/save-result-as-document/
 weight: 10
 ---
 
- y consejos"
 
-"Frequently Asked Questions" -> "Preguntas frecuentes"
 
-"Last Updated" etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

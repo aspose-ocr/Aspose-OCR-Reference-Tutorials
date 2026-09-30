@@ -19,7 +19,6 @@ title: Cách chạy OCR với Aspose – Hướng dẫn toàn diện về cách 
 url: /vi/python/general/how-to-run-ocr-with-aspose-complete-guide-to-adding-a-postpr/
 ---
 
-to produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

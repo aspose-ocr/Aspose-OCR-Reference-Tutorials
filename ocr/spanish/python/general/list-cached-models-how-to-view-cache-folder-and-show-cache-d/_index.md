@@ -26,21 +26,14 @@ title: Listar modelos en caché – cómo ver la carpeta de caché y mostrar el 
 url: /es/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-"# list cached models – quick guide to view cache directory" translate to Spanish: "# listar modelos en caché – guía rápida para ver el directorio de caché". Keep same heading level.
 
-Then paragraph.
 
-Translate.
 
-Make sure to keep bold formatting **text**.
 
-Proceed.
 
-Also table: translate column headers and content.
 
-Proceed.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

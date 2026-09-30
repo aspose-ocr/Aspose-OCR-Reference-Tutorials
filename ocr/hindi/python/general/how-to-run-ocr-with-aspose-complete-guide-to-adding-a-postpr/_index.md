@@ -19,9 +19,8 @@ title: Aspose के साथ OCR कैसे चलाएँ – पोस्
 url: /hi/python/general/how-to-run-ocr-with-aspose-complete-guide-to-adding-a-postpr/
 ---
 
-to keep markdown syntax.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

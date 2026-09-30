@@ -23,7 +23,6 @@ title: OCR टेक्स्ट निकालने का पूर्ण �
 url: /hi/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

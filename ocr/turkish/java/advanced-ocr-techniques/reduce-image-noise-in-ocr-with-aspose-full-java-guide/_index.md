@@ -25,31 +25,18 @@ title: Aspose ile OCR'da Görüntü Gürültüsünü Azaltma – Tam Java Rehber
 url: /tr/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
-Also the title attribute "reduce image noise" should be translated? The title is in quotes after URL. Should translate that too. But the instruction says "ALL URLs and file paths (never translate these)". Title is not a URL, so can translate. So we translate alt text and title.
 
-Also the table content: we need to translate the text in cells, but keep the markdown table structure.
 
-Also the blockquote > **Pro tip:** etc. Translate.
 
-Also the "Expected console output" heading and code block placeholder.
 
-Also the FAQ headings and answers.
 
-Also the "Next Steps & Related Topics" heading and bullet points.
 
-Also the "Conclusion" heading and paragraph.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's produce the final content.
 
-We'll start with the shortcodes unchanged.
 
-Proceed translation.
 
-Be careful with markdown formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,9 +24,8 @@ title: Εξαγωγή κειμένου από εικόνα σε C# – Παρά�
 url: /el/net/text-recognition/extract-text-from-image-in-c-offline-ocr-example/
 ---
 
-didn't translate any code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

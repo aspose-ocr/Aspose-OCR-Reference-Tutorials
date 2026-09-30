@@ -25,19 +25,12 @@ title: Comment corriger l’OCR avec AsposeAI – guide étape par étape
 url: /fr/python/general/how-to-correct-ocr-with-asposeai-step-by-step-guide/
 ---
 
-translate code placeholders.
 
-Let's craft full translation.
 
-Be careful with bullet points: keep dash and spacing.
 
-Also note "set context size" and "set gpu layers" are configuration knobs; keep as is (English) because technical terms.
 
-Also "Prerequisites" heading.
 
-Proceed.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

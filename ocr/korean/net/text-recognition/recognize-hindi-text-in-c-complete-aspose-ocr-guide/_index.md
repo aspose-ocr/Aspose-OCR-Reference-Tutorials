@@ -22,11 +22,8 @@ title: C#에서 힌디어 텍스트를 인식하기 – 완전한 Aspose OCR 가
 url: /ko/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
-: keep **text** but translate inside.
 
-Also code block placeholders remain unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

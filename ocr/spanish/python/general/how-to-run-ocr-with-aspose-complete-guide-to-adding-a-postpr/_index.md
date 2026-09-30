@@ -19,13 +19,9 @@ title: Cómo ejecutar OCR con Aspose – Guía completa para agregar un postproc
 url: /es/python/general/how-to-run-ocr-with-aspose-complete-guide-to-adding-a-postpr/
 ---
 
-.
 
-Check for any markdown links: none besides image.
 
-Make sure to keep shortcodes exactly.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

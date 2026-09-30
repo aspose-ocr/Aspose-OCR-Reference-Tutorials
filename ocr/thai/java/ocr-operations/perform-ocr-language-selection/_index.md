@@ -10,9 +10,7 @@ url: /th/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -218,8 +218,6 @@ Jalankan `dotnet run` dari folder proyek dan saksikan console terisi dengan teks
 
 ---
 
-![how to batch OCR example](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

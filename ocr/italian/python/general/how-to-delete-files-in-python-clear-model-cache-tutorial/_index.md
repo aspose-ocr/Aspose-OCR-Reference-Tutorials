@@ -24,15 +24,11 @@ title: come eliminare file in Python – tutorial per svuotare la cache del mode
 url: /it/python/general/how-to-delete-files-in-python-clear-model-cache-tutorial/
 ---
 
-cross‑platform way. By the end you’ll have a one‑liner script you can drop into any project, plus a handful of tips for handling edge cases."
 
-Translate accordingly.
 
-Proceed similarly for rest.
 
-Make sure to keep markdown formatting.
 
-Let's write final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

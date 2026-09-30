@@ -9,19 +9,13 @@ url: /nl/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
- (keep same)
 
-**Tested With:** Aspose.OCR 24.11 for .NET
 
-**Author:** Aspose
 
-Then closing shortcodes.
 
-Make sure to keep all markdown formatting, code block placeholders unchanged.
 
-Also note requirement: "For Dutch, ensure proper RTL formatting if needed" but Dutch is LTR, ignore.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,7 +9,7 @@ url: /id/net/ocr-settings/specify-allowed-characters/
 weight: 13
 ---
 
- final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

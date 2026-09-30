@@ -22,7 +22,7 @@ title: Maak doorzoekbare PDF in Java – Stapsgewijze handleiding
 url: /nl/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 ---
 
-produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,9 +9,8 @@ url: /id/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
- unchanged.
 
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

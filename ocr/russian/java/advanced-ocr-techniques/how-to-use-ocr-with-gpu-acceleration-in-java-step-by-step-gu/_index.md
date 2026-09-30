@@ -24,9 +24,7 @@ title: Как использовать OCR с ускорением на GPU в J
 url: /ru/java/advanced-ocr-techniques/how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/
 ---
 
-as in original.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

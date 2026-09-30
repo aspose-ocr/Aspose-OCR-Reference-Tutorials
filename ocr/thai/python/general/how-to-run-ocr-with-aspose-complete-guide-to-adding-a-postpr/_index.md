@@ -19,9 +19,8 @@ title: วิธีใช้ OCR กับ Aspose – คู่มือฉบ�
 url: /th/python/general/how-to-run-ocr-with-aspose-complete-guide-to-adding-a-postpr/
 ---
 
-formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

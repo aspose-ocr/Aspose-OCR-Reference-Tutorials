@@ -25,15 +25,10 @@ title: Reduza o ruído da imagem no OCR com Aspose – Guia completo em Java
 url: /pt/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
-Need", etc.
 
-Now produce final content.
 
-Let's write translation.
 
-Be careful with bullet lists, keep markdown.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

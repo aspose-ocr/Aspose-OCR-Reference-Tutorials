@@ -9,13 +9,10 @@ url: /ja/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
- markdown, it's text. Should translate it. Eg: [Aspose.OCR for .NET download page] => translate to Japanese maybe "Aspose.OCR for .NET ダウンロードページ". Keep link unchanged.
 
-Similarly other link texts.
 
-Proceed.
 
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

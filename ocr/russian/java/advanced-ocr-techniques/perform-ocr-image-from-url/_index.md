@@ -9,11 +9,8 @@ url: /ru/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
- heading level.
 
-Proceed.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

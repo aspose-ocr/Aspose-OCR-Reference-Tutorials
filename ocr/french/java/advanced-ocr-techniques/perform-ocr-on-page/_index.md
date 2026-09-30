@@ -10,7 +10,7 @@ url: /fr/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -8,11 +8,8 @@ url: /zh-hant/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
- any code block placeholders.
 
-Also ensure markdown formatting preserved.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

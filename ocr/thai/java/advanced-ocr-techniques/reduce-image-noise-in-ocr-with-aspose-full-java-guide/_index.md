@@ -23,7 +23,7 @@ title: ลดสัญญาณรบกวนภาพใน OCR ด้วย A
 url: /th/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

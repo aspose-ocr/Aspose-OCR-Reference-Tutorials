@@ -21,19 +21,12 @@ title: 使用 Aspose 減少 OCR 圖像噪聲 – 完整 Java 指南
 url: /zh-hant/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
-reduce image noise")
 
-We need to translate alt text? The alt text is part of markdown; we should translate it, but keep URL unchanged. The title attribute "reduce image noise" also should be translated? It's inside quotes after URL. Should translate? Probably yes, but keep URL unchanged. Title is part of markdown; we can translate.
 
-Also there are bullet lists.
 
-Let's translate.
 
-Be careful with technical terms: keep them in English.
 
-Let's start.
 
-We'll produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

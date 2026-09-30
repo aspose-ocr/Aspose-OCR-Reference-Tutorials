@@ -25,15 +25,10 @@ title: Πώς να διορθώσετε το OCR με το AsposeAI – βήμα
 url: /el/python/general/how-to-correct-ocr-with-asposeai-step-by-step-guide/
 ---
 
-.
 
-We'll translate each paragraph.
 
-Make sure to keep bold formatting.
 
-Proceed step by step.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -23,7 +23,7 @@ title: 'Python OCR Eğitimi: Aspose ile Görüntülerden Metin Çıkarma'
 url: /tr/python/general/python-ocr-tutorial-extract-text-from-images-with-aspose/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,7 +9,7 @@ url: /ko/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
 
- to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

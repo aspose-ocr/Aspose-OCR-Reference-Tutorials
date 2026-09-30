@@ -23,19 +23,13 @@ title: Wie man OCR-Text extrahiert – Vollständiger Leitfaden
 url: /de/python/general/how-to-extract-ocr-text-complete-guide/
 ---
 
-a line "Provide ONLY the translated content, no explanations." That's instruction for us, not part of content.
 
-Thus final output should be the same structure with translations.
 
-Make sure to keep placeholders and shortcodes unchanged.
 
-Let's write the translation.
 
-Be careful with markdown formatting: headings with #.
 
-Also ensure we keep the blockquote syntax >.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

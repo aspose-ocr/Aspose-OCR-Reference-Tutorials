@@ -27,9 +27,7 @@ title: список кэшированных моделей – как прос
 url: /ru/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

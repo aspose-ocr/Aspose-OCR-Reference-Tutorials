@@ -28,7 +28,7 @@ title: Reconnaître le texte hindi à partir d'images – Convertir en ePub avec
 url: /fr/net/text-recognition/recognize-hindi-text-from-images-convert-to-epub-with-aspose/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

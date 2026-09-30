@@ -21,19 +21,13 @@ title: 如何在 Java 中使用 GPU 加速的 OCR – 步驟指南
 url: /zh-hant/java/advanced-ocr-techniques/how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/
 ---
 
--diagram.png "how to use ocr diagram")
 
-Translate alt and title: alt "如何使用 OCR 圖解", title "如何使用 OCR 圖解". Keep URL unchanged.
 
-Then closing shortcodes.
 
-Now produce final content with same structure.
 
-Check we didn't translate code block placeholders.
 
-Make sure headings have same number of #.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

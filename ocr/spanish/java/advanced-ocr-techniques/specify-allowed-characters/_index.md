@@ -10,13 +10,9 @@ url: /es/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
- be translated but keep formatting.
 
-Make sure to keep URLs unchanged.
 
-Also keep "Aspose.OCR" etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

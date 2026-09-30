@@ -25,9 +25,7 @@ title: Comment utiliser l’OCR avec accélération GPU en Java – Guide étape
 url: /fr/java/advanced-ocr-techniques/how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/
 ---
 
-.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

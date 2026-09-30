@@ -24,11 +24,8 @@ title: OCR futtatása képen Java-val – Teljes Aspose OCR útmutató
 url: /hu/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/
 ---
 
-optional) → szöveg kinyerése PNG". Keep "language configuration" maybe keep English because it's a term? Could translate to "nyelvi konfiguráció". But it's a phrase. Let's translate to Hungarian: "nyelvi konfiguráció". So final line: "OCR futtatása képen → nyelvi konfiguráció → automatikus nyelvfelismerés OCR (optional) → szöveg kinyerése PNG". Keep optional in parentheses.
 
-Now ensure we didn't translate any code placeholders.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

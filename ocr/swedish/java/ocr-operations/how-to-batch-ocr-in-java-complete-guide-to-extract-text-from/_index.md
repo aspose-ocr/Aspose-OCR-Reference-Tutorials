@@ -22,11 +22,8 @@ title: Hur man batchar OCR i Java – Komplett guide för att extrahera text fr�
 url: /sv/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/
 ---
 
-Make sure code block placeholders remain.
 
-Also translate image alt text: "how to batch ocr diagram showing multiple image files processed together." Keep alt text in Swedish.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

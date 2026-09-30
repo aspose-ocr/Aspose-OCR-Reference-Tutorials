@@ -23,29 +23,17 @@ title: Jak provádět hromadné OCR v Javě – Kompletní průvodce extrakcí t
 url: /cs/java/ocr-operations/how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/
 ---
 
-translate.
 
-Paragraph.
 
-Next heading "## Performance Tips"
 
-Translate.
 
-Bullet list items translate.
 
-Next heading "## Conclusion"
 
-Translate.
 
-Paragraphs.
 
-Finally closing shortcodes.
 
-Also there is a backtop button shortcode at end.
 
-Make sure to keep all markdown formatting.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

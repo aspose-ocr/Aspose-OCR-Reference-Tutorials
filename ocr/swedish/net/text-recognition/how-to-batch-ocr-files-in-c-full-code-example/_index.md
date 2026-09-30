@@ -218,8 +218,6 @@ Kör `dotnet run` från projektmappen och se hur konsolen fylls med den extraher
 
 ---
 
-![how to batch OCR example](alt="exempel på batch OCR")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

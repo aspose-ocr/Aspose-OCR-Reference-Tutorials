@@ -8,15 +8,11 @@ url: /zh/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
- Updated:" keep date.
 
-"Tested With:" translate.
 
-"Author:" translate.
 
-Now produce final content with same markdown.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

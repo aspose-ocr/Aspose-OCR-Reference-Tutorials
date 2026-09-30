@@ -22,13 +22,9 @@ title: Исправление ошибок OCR с помощью Aspose OCR и H
 url: /ru/python/general/correct-ocr-errors-with-aspose-ocr-huggingface-full-guide/
 ---
 
-formatting: keep headings with #. Keep code block placeholders unchanged.
 
-Let's translate.
 
-I'll write Russian text.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

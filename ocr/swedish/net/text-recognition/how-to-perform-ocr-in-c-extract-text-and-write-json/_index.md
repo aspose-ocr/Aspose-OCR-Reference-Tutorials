@@ -22,31 +22,18 @@ title: Hur man utför OCR i C# – Extrahera text och skriv JSON
 url: /sv/net/text-recognition/how-to-perform-ocr-in-c-extract-text-and-write-json/
 ---
 
-Now "Sometimes OCR returns low confidence for noisy scans. You can filter symbols before exporting:" => translate.
 
-Now "Large Files & Memory" => "Stora filer & minne".
 
-Now "Processing a multi‑megabyte PNG can spike memory usage. Consider streaming the image in chunks or using `OcrEngine.RecognizeAsync` (available in newer Aspose versions) to keep the UI responsive." => translate.
 
-Now "Step 5: Extend the Solution (Optional)" => "Steg 5: Utöka lösningen (valfritt)".
 
-Now bullet points.
 
-Now "All these extensions follow the same how to perform OCR pattern we established—initialize, recognize, export, and persist." => translate.
 
-Now "Frequently Asked Questions" => "Vanliga frågor".
 
-Now Q&A.
 
-Now "Conclusion" => "Slutsats".
 
-Now final paragraph.
 
-Now ensure we keep shortcodes at start and end.
 
-Now produce final content.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

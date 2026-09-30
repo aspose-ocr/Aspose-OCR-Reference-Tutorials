@@ -9,9 +9,7 @@ url: /hi/java/advanced-ocr-techniques/recognize-lines/
 weight: 14
 ---
 
-.
 
-Now produce final.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

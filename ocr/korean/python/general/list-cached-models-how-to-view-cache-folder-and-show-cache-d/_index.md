@@ -23,11 +23,8 @@ title: 캐시된 모델 목록 – 캐시 폴더 보기 및 캐시 디렉터리 
 url: /ko/python/general/list-cached-models-how-to-view-cache-folder-and-show-cache-d/
 ---
 
-. We should keep them unchanged.
 
-Also there is a blockquote > **Pro tip:** ... keep translation.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
