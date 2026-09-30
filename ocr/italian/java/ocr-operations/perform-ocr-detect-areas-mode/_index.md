@@ -1,11 +1,11 @@
 ---
-date: 2025-12-12
-description: Scopri come eseguire l'OCR con la modalità Rileva Aree usando Aspose.OCR
-  per Java, estrarre il testo dall'immagine e ottenere risultati con correzione ortografica.
-  Questo tutorial passo‑passo di Aspose OCR per Java.
+date: 2026-02-12
+description: Scopri come estrarre testo da un'immagine in Java usando Aspose.OCR,
+  eseguire l'OCR con la modalità Rileva Aree e ottenere i risultati dell'OCR con correzione
+  ortografica. Questo è un tutorial completo di Aspose OCR per Java.
 linktitle: How to Perform OCR with Detect Areas Mode in Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Come eseguire l'OCR con la modalità Rileva Aree usando Aspise.OCR per Java
+title: Estrai testo da immagine Java con Aspose.OCR modalità di rilevamento aree
 url: /it/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
@@ -14,28 +14,28 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come eseguire OCR con la modalità Rileva Aree in Aspose.OCR
+# Estrai testo da immagine Java con Aspose.OCR Detect Areas Mode
 
 ## Introduzione
 
-Il riconoscimento ottico dei caratteri (OCR) è fondamentale quando è necessario **estrarre testo da file immagine** e trasformarlo in dati ricercabili e modificabili. In questo **tutorial Java di Aspose OCR** vedremo un esempio pratico che mostra **come eseguire OCR** utilizzando la potente funzionalità *Detect Areas Mode*, e dimostreremo anche la capacità di correzione ortografica integrata. Alla fine di questa guida avrai a disposizione uno snippet di codice pronto all'uso che riconosce il testo da un documento di tipo foto e restituisce un output pulito e corretto.
+Estrarre testo da file immagine Java è una sfida comune quando hai bisogno di dati ricercabili e modificabili da foto, ricevute o documenti scansionati. In questo **Aspose OCR Java tutorial** ti guideremo attraverso un esempio pratico che mostra **come estrarre testo da immagine java** usando la potente *Detect Areas Mode* funzionalità, e dimostreremo anche la capacità integrata **ocr with spell check**. Alla fine di questa guida avrai uno snippet di codice pronto all'uso che riconosce il testo da un documento di tipo foto e restituisce un output pulito e corretto.
 
 ## Risposte rapide
-- **Che cos'è la modalità Detect Areas?** Un'impostazione che ottimizza l'OCR per immagini fotografiche individuando automaticamente i blocchi di testo.  
-- **Quale linguaggio viene usato nell'esempio?** Java, con la libreria Aspose.OCR.  
-- **È necessaria una licenza per i test?** Una versione di prova gratuita è sufficiente per lo sviluppo; è richiesta una licenza commerciale per la produzione.  
-- **Il risultato può essere controllato ortograficamente?** Sì – l'API restituisce una sezione “ocr with spell check”.  
-- **Quale tipo di file viene usato nella demo?** Un'immagine JPEG denominata *Receipt.jpg*.
+- **Cos'è Detect Areas Mode?** Un'impostazione che ottimizza l'OCR per immagini fotografiche individuando automaticamente i blocchi di testo.  
+- **Quale linguaggio utilizza l'esempio?** Java, con la libreria Aspose.OCR.  
+- **È necessaria una licenza per i test?** Una versione di prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Il risultato può essere corretto ortograficamente?** Sì – l'API restituisce una sezione “ocr with spell check”.  
+- **Quale tipo di file è usato nella demo?** Un'immagine JPEG chiamata *Receipt.jpg*.
 
 ## Prerequisiti
 
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 
-- Ambiente di sviluppo Java: verifica di avere Java installato sulla tua macchina.  
-- Aspose.OCR per Java: scarica e installa la libreria Aspose.OCR. Puoi trovare il link per il download [qui](https://releases.aspose.com/ocr/java/).  
-- Documento per OCR: prepara un documento immagine (ad es. **Receipt.jpg**) che contenga il testo da estrarre.
+- Ambiente di sviluppo Java: Assicurati di avere Java installato sulla tua macchina.  
+- Aspose.OCR per Java: Scarica e installa la libreria Aspose.OCR. Puoi trovare il link per il download [qui](https://releases.aspose.com/ocr/java/).  
+- Documento per OCR: Prepara un documento immagine (ad es., **Receipt.jpg**) che contiene il testo che desideri estrarre.
 
-## Importare i pacchetti
+## Importa pacchetti
 
 Nel tuo progetto Java, importa i pacchetti necessari per utilizzare Aspose.OCR. Ecco un esempio:
 
@@ -57,7 +57,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Passo 1: Configurare l'operazione OCR
+## OCR con correzione ortografica in Aspose OCR Java Tutorial
+
+Di seguito configureremo il motore OCR, abiliteremo Detect Areas Mode, eseguiremo il riconoscimento e infine mostreremo l'output **ocr with spell check**.
+
+### Passo 1: Configura l'operazione OCR
 
 ```java
 // The path to the documents directory.
@@ -74,9 +78,9 @@ RecognitionSettings settings = new RecognitionSettings();
 settings.setDetectAreasMode(DetectAreasMode.PHOTO);
 ```
 
-In questo passaggio inizializziamo il motore OCR, lo puntiamo al file immagine e abilitiamo **Detect Areas Mode** affinché il motore tratti l'immagine come una tipica foto con blocchi di testo sparsi.
+In questo passo inizializziamo il motore OCR, lo indirizziamo al file immagine e abilitiamo **Detect Areas Mode** affinché il motore tratti l'immagine come una tipica foto con blocchi di testo sparsi.
 
-## Passo 2: Eseguire OCR e recuperare i risultati
+### Passo 2: Esegui OCR e recupera i risultati
 
 ```java
 // Get result object
@@ -88,62 +92,62 @@ try {
 }
 ```
 
-Qui eseguiamo effettivamente **OCR**. La chiamata `RecognizePage` restituisce un `RecognitionResult` che contiene il testo grezzo, le informazioni di layout e l'output corretto ortograficamente.
+Qui eseguiamo effettivamente **perform OCR**. La chiamata `RecognizePage` restituisce un `RecognitionResult` che contiene il testo grezzo, le informazioni di layout e l'output corretto ortograficamente.
 
-## Passo 3: Stampare i risultati OCR
+### Passo 3: Stampa i risultati OCR
 
 ```java
 // Print result
 printResult(result);
 ```
 
-Il metodo di supporto `printResult` (fornito nel pacchetto sorgente completo) visualizza una grande quantità di informazioni: testo estratto, punteggi di confidenza, paragrafi rilevati, dati riga per riga, alternative dei caratteri, avvisi, payload JSON e il testo corretto **OCR with spell check**.
+Il metodo di supporto `printResult` (fornito nel pacchetto sorgente completo) visualizza una grande quantità di informazioni: testo estratto, punteggi di confidenza, paragrafi rilevati, dati riga per riga, alternative di carattere, avvisi, payload JSON e il testo corretto **OCR with spell check**.
 
-## Perché usare la modalità Detect Areas?
+## Perché utilizzare Detect Areas Mode?
 
-- **Ottimizzata per le foto** – isola automaticamente le regioni di testo, riducendo il rumore.  
-- **Precisione migliorata** – soprattutto su ricevute, fatture e moduli scannerizzati.  
-- **Correzione ortografica integrata** – pulisce gli errori comuni di OCR senza elaborazioni aggiuntive.
+- **Ottimizzato per foto** – isola automaticamente le regioni di testo, riducendo il rumore.  
+- **Precisione migliorata** – soprattutto su ricevute, fatture e moduli scansionati.  
+- **Correzione ortografica integrata** – pulisce gli errori OCR comuni senza elaborazioni aggiuntive.
 
 ## Casi d'uso comuni
 
-| Scenario | Vantaggio |
+| Scenario | Beneficio |
 |----------|-----------|
-| Elaborazione di ricevute | Estrazione rapida di nomi dei commercianti, totali e date. |
-| Digitalizzazione di fatture | Estrarre voci di linea e informazioni fiscali per i sistemi contabili. |
-| Scansione di documenti d'identità | Catturare nomi e numeri da patenti di guida o passaporti. |
+| Elaborazione delle ricevute | Estrai rapidamente i nomi dei commercianti, i totali e le date. |
+| Digitalizzazione delle fatture | Estrai le voci di linea e le informazioni fiscali per i sistemi contabili. |
+| Scansione di documenti d'identità | Cattura nomi e numeri da patenti di guida o passaporti. |
 
 ## Suggerimenti per la risoluzione dei problemi e ostacoli comuni
 
-- **Percorso file errato** – verifica `dataDir` e assicurati che l'immagine esista.  
-- **Immagini a bassa risoluzione** – la precisione dell'OCR diminuisce drasticamente sotto i 300 dpi; considera una pre‑elaborazione dell'immagine.  
+- **Percorso file errato** – verifica nuovamente `dataDir` e assicurati che l'immagine esista.  
+- **Immagini a bassa risoluzione** – la precisione dell'OCR diminuisce drasticamente sotto i 300 dpi; considera il pre‑processing dell'immagine.  
 - **Licenza mancante** – senza una licenza valida l'API funziona in modalità prova e potrebbe aggiungere filigrane ai risultati.  
 
 ## Conclusione
 
-Complimenti! Hai appreso con successo **come eseguire OCR** con la modalità Detect Areas usando Aspose.OCR per Java. Questo approccio non solo estrae testo da file immagine, ma fornisce anche un output corretto ortograficamente, ideale per pipeline di dati a valle o per la visualizzazione in interfacce utente.
+Congratulazioni! Hai imparato con successo **come estrarre testo da immagine java** con Detect Areas Mode usando Aspose.OCR per Java. Questo approccio non solo estrae testo da file immagine, ma fornisce anche un output corretto ortograficamente e pulito—perfetto per pipeline di dati a valle o per la visualizzazione UI.
 
 ## Domande frequenti
 
-**D: Aspose.OCR può gestire più lingue?**  
-R: Sì, Aspose.OCR supporta un'ampia gamma di lingue, rendendolo versatile per applicazioni globali.
+**Q: Aspose.OCR può gestire più lingue?**  
+A: Sì, Aspose.OCR supporta un'ampia gamma di lingue, rendendolo versatile per applicazioni globali.
 
-**D: Aspose.OCR è adatto a operazioni OCR su larga scala?**  
-R: Assolutamente. La libreria è progettata per scenari ad alto throughput e può essere integrata in pipeline di elaborazione batch.
+**Q: Aspose.OCR è adatto per operazioni OCR su larga scala?**  
+A: Assolutamente. La libreria è progettata per scenari ad alto throughput e può essere integrata in pipeline di elaborazione batch.
 
-**D: Posso integrare Aspose.OCR in applicazioni web?**  
-R: Sì, puoi incorporare l'API Java in servizi servlet‑based o Spring Boot per fornire OCR come endpoint REST.
+**Q: Posso integrare Aspose.OCR in applicazioni web?**  
+A: Sì, puoi incorporare l'API Java in servizi web basati su servlet o Spring Boot per fornire OCR come endpoint REST.
 
-**D: Aspose.OCR offre funzionalità di correzione ortografica?**  
-R: Sì, come dimostrato, il risultato include una sezione “ocr with spell check” che corregge gli errori di riconoscimento più comuni.
+**Q: Aspose.OCR offre funzionalità di correzione ortografica?**  
+A: Sì, come dimostrato, il risultato include una sezione “ocr with spell check” che corregge gli errori di riconoscimento comuni.
 
-**D: Esiste un forum della community per il supporto di Aspose.OCR?**  
-R: Sì, puoi trovare supporto e interagire con la community sul [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
+**Q: Esiste un forum della community per il supporto di Aspose.OCR?**  
+A: Sì, puoi trovare supporto e interagire con la community sul [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16).
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-12  
-**Testato con:** Aspose.OCR per Java 23.12 (ultima versione al momento della stesura)  
+**Ultimo aggiornamento:** 2026-02-12  
+**Testato con:** Aspose.OCR for Java 23.12 (latest at time of writing)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
