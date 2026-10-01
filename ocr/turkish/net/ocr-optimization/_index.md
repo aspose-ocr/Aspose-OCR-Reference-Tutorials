@@ -76,6 +76,12 @@ Aspose.OCR for .NET ile C#'ta görüntü OCR ön işleme filtrelerini kullanarak
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazımları düzeltin, sözlükleri özelleştirin ve hatasız metin tanıma işlemini zahmetsizce gerçekleştirin.
 ### [OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet](./save-multipage-result-as-document/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Bu kapsamlı, adım adım kılavuzla çok sayfalı OCR sonuçlarını zahmetsizce belge olarak kaydedin.
+### [C#'ta Aspose OCR için GPU'yu Etkinleştirme – Hızlı Görüntüden Düz Metne](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+C# uygulamanızda GPU hızlandırmalı OCR kullanarak görüntüleri hızlıca düz metne dönüştürün.
+
+### [C#'ta OCR'ı İyileştirme – Görüntüleri Düzleştirme, Gürültü Azaltma ve Döndürme](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+C# ile OCR performansını artırmak için görüntüleri düzleştirme, gürültüyü azaltma ve döndürme tekniklerini öğrenin.
+
 ### [Aspose OCR'ı GPU ile Kullanma – Adım Adım Kılavuz](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 GPU desteğiyle Aspose OCR'ı nasıl kullanacağınızı adım adım öğrenin ve performansı artırın.
 ### [C# ile PNG'lerden Metin Görüntülerini Çıkarma – Aspose OCR Kullanarak Toplu OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)

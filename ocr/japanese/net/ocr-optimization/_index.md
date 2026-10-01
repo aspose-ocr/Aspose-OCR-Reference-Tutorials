@@ -82,6 +82,10 @@ C# を使用してスキャン画像からテキストを抽出し、Aspose OCR 
 GPU 加速を活用し、高速かつ高精度に画像テキストを認識する方法をステップバイステップで解説します。
 ### [画像の OCR 方法：コントラストを上げ、ノイズを除去](./how-to-ocr-image-boost-contrast-remove-noise/)
 コントラストを強化し、ノイズ除去フィルタを適用して OCR 精度を向上させる手順を解説します。
+### [C# で Aspose OCR の GPU を有効にする方法 – 高速画像からプレーンテキストへ](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+GPU を活用して OCR 処理を高速化し、画像からテキストへの変換を最適化する手順を解説します。
+### [C# で OCR を改善する方法 – デスキュー、デノイズ、画像回転](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+画像のデスキュー、デノイズ、回転処理を行い、OCR 精度を向上させる手順を C# で解説します。
 
 
 

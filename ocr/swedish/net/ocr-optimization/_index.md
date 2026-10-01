@@ -80,6 +80,10 @@ Lär dig hur du använder Aspose OCR GPU för att snabbt känna igen text i bild
 Lär dig hur du förbehandlar bilder för OCR i C# med en komplett steg‑för‑steg‑guide som förbättrar igenkänningsnoggrannheten.
 ### [Förbättra OCR på bild: öka kontrast, ta bort brus](./how-to-ocr-image-boost-contrast-remove-noise/)
 Lär dig hur du ökar kontrast och tar bort brus i bilder för att förbättra OCR‑noggrannheten med Aspose.OCR för .NET.
+### [Hur du förbättrar OCR i C# – Raka upp, brusreducera & rotera bilder](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Lär dig förbättra OCR‑noggrannheten i C# genom att räta upp, reducera brus och rotera bilder för optimal igenkänning.
+### [Hur du aktiverar GPU för Aspose OCR i C# – Snabb bild till ren text](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Lär dig hur du använder GPU‑acceleration i Aspose OCR med C# för att snabbt konvertera bilder till ren text.
 
 
 

@@ -160,6 +160,12 @@ Fedezze fel, hogyan használhatja az Aspose OCR GPU-t C#-ban a képek szövegén
 ### [Hogyan OCR-ozzon képet: kontraszt növelése, zaj eltávolítása](./how-to-ocr-image-boost-contrast-remove-noise/)
 Fedezze fel, hogyan növelheti a kontrasztot és távolíthatja el a zajt az OCR pontosságának javítása érdekében.
 
+### [Hogyan engedélyezzük a GPU-t az Aspose OCR‑hez C#‑ban – Gyors kép szöveggé alakítása](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Ismerje meg, hogyan használhatja a GPU-t az Aspose OCR C#‑ban a képek gyors szöveggé konvertálásához.
+
+### [Hogyan javítsuk az OCR-t C#‑ban – Kép kiegyenesítése, zajszűrés és forgatás](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Fedezze fel, hogyan lehet javítani az OCR pontosságát C#‑ban a képek kiegyenesítésével, zajszűrésével és forgatásával.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

@@ -160,6 +160,16 @@ Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen kunt extraheren en integr
 Leer hoe u met Aspose.OCR in C# doorzoekbare PDF's maakt van afbeeldingen met een eenvoudige stap‑voor‑stap handleiding.
 ### [Hoe batch-OCR JPEG-afbeeldingen in C# – Complete C#-gids](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 Leer hoe u met Aspose.OCR in C# meerdere JPEG-afbeeldingen in één batch verwerkt voor efficiënte tekstherkenning.
+### [Herken Hindi-tekst in C# met Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+Leer hoe u Hindi-tekst in C# kunt herkennen met Aspose OCR voor nauwkeurige OCR-resultaten.
+### [Hoe maak je doorzoekbare PDF van JPG – Stapsgewijze handleiding](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van een JPG-afbeelding met een eenvoudige stap‑voor‑stap gids.
+### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeelding met Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+Ontdek stap‑voor‑stap hoe u met Aspose OCR in C# tekst uit een afbeelding extraheert voor nauwkeurige OCR-resultaten.
+### [Tekst herkennen uit afbeelding in C# met Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen haalt voor nauwkeurige OCR-resultaten.
+### [Batch OCR-afbeeldingen in C# – Volledige gids voor tekstextractie](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+Leer hoe u met Aspose.OCR in C# meerdere afbeeldingen batchgewijs verwerkt en tekst efficiënt extraheert.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

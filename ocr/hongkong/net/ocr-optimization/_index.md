@@ -84,6 +84,10 @@ weight: 25
 利用 GPU 加速的 Aspose OCR，在 C# 應用程式中快速且高精度地提取圖像文字。
 ### [如何對圖像執行 OCR：提升對比度與去除噪點](./how-to-ocr-image-boost-contrast-remove-noise/)
 學習使用 Aspose.OCR for .NET 提升圖像對比度並去除噪點，以獲得更高的 OCR 準確度。
+### [在 C# 中啟用 GPU 以加速 Aspose OCR – 快速將圖像轉為純文字](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+說明如何在 C# 中啟用 GPU 加速 Aspose OCR，提升圖像文字辨識速度與效能。
+### [在 C# 中提升 OCR – 去斜、去噪與旋轉圖像](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+說明如何透過去斜、去噪與旋轉圖像技術提升 Aspose.OCR 在 C# 中的辨識準確度與效能。
 
 
 

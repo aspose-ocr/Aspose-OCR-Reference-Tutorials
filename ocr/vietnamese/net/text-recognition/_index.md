@@ -60,6 +60,9 @@ Khai phá tiềm năng của OCR trong .NET với Aspose.OCR. Trích xuất văn
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để OCR PDF và trích xuất văn bản một cách nhanh chóng và chính xác.
 ### [Nhận dạng bảng trong nhận dạng hình ảnh OCR](./recognize-table/)
 Khai phá tiềm năng của Aspose.OCR cho .NET với hướng dẫn toàn diện của chúng tôi về nhận dạng bảng trong nhận dạng hình ảnh OCR.
+### [Nhận dạng văn bản Hindi trong C# bằng Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+Khám phá cách nhận dạng văn bản Hindi trong C# bằng Aspose OCR, nâng cao khả năng xử lý ngôn ngữ đa dạng trong ứng dụng của bạn.
+
 ### [Cách sử dụng OCR trong C# – Trích xuất văn bản tiếng Nga từ PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
 Hướng dẫn từng bước sử dụng Aspose.OCR trong C# để trích xuất văn bản tiếng Nga từ tệp PNG một cách chính xác.
 
@@ -232,6 +235,18 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR với C# để trích xu�
 Hướng dẫn chi tiết cách sử dụng Aspose OCR với C# để trích xuất văn bản từ tệp TIFF một cách nhanh chóng và chính xác.
 ### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh với Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR với C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh bằng Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+Học cách nhanh chóng trích xuất văn bản từ hình ảnh trong C# bằng Aspose OCR, nâng cao khả năng OCR của ứng dụng.
+
+### [Cách tạo PDF có thể tìm kiếm từ JPG – Hướng dẫn từng bước](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi ảnh JPG thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET.
+
+### [Nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+Học cách sử dụng Aspose OCR trong C# để nhận dạng nhanh chóng văn bản từ hình ảnh, nâng cao khả năng OCR của ứng dụng.
+
+### [Xử lý hàng loạt ảnh OCR trong C# – Hướng dẫn đầy đủ để trích xuất văn bản](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+Học cách thực hiện OCR hàng loạt trên nhiều ảnh trong C# để trích xuất nhanh chóng văn bản, nâng cao hiệu suất ứng dụng.
+
 ### [Cách chạy OCR trong C# – Hướng dẫn đầy đủ với Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)
 Hướng dẫn chi tiết cách thực hiện OCR trong C# bằng Aspose OCR, bao gồm cài đặt, mã mẫu và tối ưu hoá kết quả.
 ### [Cách chạy OCR trong C# – Trích xuất văn bản tiếng Ả Rập từ PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)

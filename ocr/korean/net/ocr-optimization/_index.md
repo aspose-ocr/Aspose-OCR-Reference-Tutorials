@@ -115,6 +115,10 @@ GPU 가속을 활용해 고속으로 이미지에서 텍스트를 추출하는 �
 C#을 사용해 이미지 OCR 전처리를 수행하는 전체 과정과 팁을 단계별로 안내합니다.
 ### [이미지 OCR 방법: 대비 강화 및 노이즈 제거](./how-to-ocr-image-boost-contrast-remove-noise/)
 Aspose.OCR를 사용해 이미지 대비를 높이고 노이즈를 제거하여 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR을 위한 GPU 활성화 방법 – 빠른 이미지에서 일반 텍스트 변환](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+GPU 가속을 활용해 이미지 OCR 속도를 크게 높이고 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 OCR을 개선하는 방법 – 이미지 기울기 보정, 노이즈 제거 및 회전](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+이미지를 기울기 보정하고 노이즈를 제거하며 회전시켜 OCR 정확도를 높이는 단계별 가이드.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

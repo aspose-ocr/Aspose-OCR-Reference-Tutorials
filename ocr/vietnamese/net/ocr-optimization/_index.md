@@ -119,6 +119,8 @@ Khám phá cách sử dụng Aspose OCR với hỗ trợ GPU trong C# để tăn
 Khám phá cách sử dụng Aspose.OCR GPU trong C# để nhận dạng văn bản từ hình ảnh với hiệu năng cao.
 ### [Cách OCR hình ảnh: tăng độ tương phản, loại bỏ nhiễu](./how-to-ocr-image-boost-contrast-remove-noise/)
 Tăng cường chất lượng ảnh bằng cách điều chỉnh độ tương phản và loại bỏ nhiễu trước khi thực hiện OCR với Aspose.OCR cho .NET.
+### [Cách bật GPU cho Aspose OCR trong C# – Chuyển ảnh nhanh sang văn bản thuần](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+### [Cách cải thiện OCR trong C# – Cân chỉnh, Loại bỏ nhiễu & Xoay ảnh](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

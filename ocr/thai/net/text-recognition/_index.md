@@ -66,6 +66,9 @@ url: /th/net/text-recognition/
 เรียนรู้ขั้นตอนเต็มรูปแบบในการใช้ Aspose.OCR กับ C# เพื่อแปลง PDF เป็นข้อความอย่างแม่นยำและรวดเร็ว
 
 ### [จดจำตารางในการจดจำรูปภาพ OCR](./recognize-table/)
+### [จดจำข้อความภาษาฮินดีใน C# ด้วย Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความภาษาฮินดีจากรูปภาพอย่างแม่นยำ
+
 ### [ดึงข้อความจากรูปภาพด้วย Aspose OCR – ควิกสตาร์ท C#](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
 เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย Aspose OCR ใน C# อย่างรวดเร็วตามขั้นตอนง่ายๆ
 
@@ -202,6 +205,18 @@ url: /th/net/text-recognition/
 ### [c# OCR tutorial – ดึงข้อความจากรูปภาพและไฟล์ DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
 ### [c# OCR tutorial – ดึงข้อความจากภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อสกัดข้อความจากภาพอย่างละเอียดและครบถ้วน
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพด้วย Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
+เรียนรู้วิธีใช้ OCR ใน C# เพื่อดึงข้อความจากรูปภาพด้วย Aspose OCR อย่างแม่นยำ
+
+### [จดจำข้อความจากรูปภาพใน C# ด้วย Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
+
+### [วิธีสร้าง PDF ที่ค้นหาได้จาก JPG – คู่มือขั้นตอนโดยละเอียด](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ JPG ให้เป็น PDF ที่สามารถค้นหาและคัดลอกข้อความได้ด้วย Aspose.OCR ในขั้นตอนง่ายๆ
+
+### [การทำ OCR รูปภาพเป็นชุดใน C# – คู่มือเต็มสำหรับการดึงข้อความ](./batch-ocr-images-in-c-full-guide-to-extract-text/)
+เรียนรู้วิธีประมวลผลรูปภาพหลายไฟล์พร้อมกันด้วย Aspose.OCR ใน C# เพื่อดึงข้อความอย่างมีประสิทธิภาพ
+
 ### [ดึงข้อความจากไฟล์ TIFF ด้วย Aspose OCR C# – บทเรียนเต็ม](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อสกัดข้อความจากไฟล์ TIFF อย่างละเอียดและครบถ้วน
 ### [วิธีรัน OCR ใน C# – คู่มือฉบับสมบูรณ์กับ Aspose OCR](./how-to-run-ocr-in-c-complete-guide-with-aspose-ocr/)

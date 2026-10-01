@@ -95,6 +95,10 @@ Gebruik de GPU-versnelling van Aspose OCR in C# om tekst uit afbeeldingen snel e
 Leer hoe je afbeeldingen stap‑voor‑stap kunt voorbereiden voor OCR in C# met uitgebreide preprocessingsopties.
 ### [Hoe OCR op afbeelding: contrast verhogen en ruis verwijderen](./how-to-ocr-image-boost-contrast-remove-noise/)
 Verbeter OCR‑resultaten door het contrast te verhogen en ruis te verwijderen met Aspose.OCR voor .NET.
+### [Hoe GPU in te schakelen voor Aspose OCR in C# – Snelle afbeelding naar platte tekst](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Leer hoe je de GPU-ondersteuning voor Aspose OCR in C# activeert voor razendsnelle omzetting van afbeeldingen naar platte tekst.
+### [Hoe OCR te verbeteren in C# – Kantcorrectie, ruisonderdrukking en rotatie van afbeeldingen](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Leer technieken voor kantcorrectie, ruisonderdrukking en rotatie om OCR-nauwkeurigheid in C# aanzienlijk te verhogen.
 
 ### [Hoe asynchrone OCR in C# – Complete stap‑voor‑stap gids](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Leer hoe je asynchrone OCR in C# implementeert met Aspose.OCR, stap‑voor‑stap inclusief code‑voorbeelden en best practices.

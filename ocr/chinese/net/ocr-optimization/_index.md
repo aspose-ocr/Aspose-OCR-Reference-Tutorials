@@ -160,6 +160,10 @@ weight: 25
 ### [在 C# 中预处理图像 OCR – 完整分步指南](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 一步步教您在 C# 环境下对图像进行预处理，提高 OCR 识别率，并生成高质量文本输出。
 
+### [如何在 C# 中为 Aspose OCR 启用 GPU – 快速将图像转换为纯文本](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+
+### [如何在 C# 中提升 OCR – 去倾斜、去噪声与旋转图像](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

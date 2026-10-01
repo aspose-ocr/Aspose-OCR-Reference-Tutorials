@@ -94,6 +94,10 @@ Gunakan akselerasi GPU Aspose OCR untuk mengenali teks dari gambar secara cepat 
 Pelajari cara pra‑proses gambar untuk OCR di C# dengan langkah‑demi‑langkah lengkap, meningkatkan akurasi pengenalan teks.
 ### [Cara OCR Gambar: Tingkatkan Kontras, Hapus Noise](./how-to-ocr-image-boost-contrast-remove-noise/)
 Pelajari cara meningkatkan kontras dan menghilangkan noise pada gambar sebelum OCR untuk hasil yang lebih akurat.
+### [Cara Mengaktifkan GPU untuk Aspose OCR di C# – Konversi Gambar Cepat ke Teks Biasa](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Pelajari cara memanfaatkan GPU untuk mempercepat proses OCR Aspose di C#, menghasilkan teks dari gambar dengan kecepatan tinggi.
+### [Cara Meningkatkan OCR di C# – Memperbaiki Kemiringan, Mengurangi Noise, dan Memutar Gambar](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Pelajari teknik deskew, denoise, dan rotasi gambar untuk meningkatkan akurasi OCR Aspose.OCR di C#.
 
 ## Siapkan Persegi Panjang dalam Pengenalan Gambar OCR
 

@@ -94,6 +94,10 @@ Aproveite a aceleração GPU do Aspose OCR para reconhecer texto em imagens rapi
 Aprenda a aplicar filtros e técnicas de pré‑processamento em imagens para melhorar a precisão do OCR usando Aspose.OCR em C#.
 ### [Como fazer OCR em imagem: aumentar contraste, remover ruído](./how-to-ocr-image-boost-contrast-remove-noise/)
 Aumente o contraste e remova ruído de imagens antes de aplicar OCR com Aspose.OCR para .NET.
+### [Como habilitar GPU para Aspose OCR em C# – Imagem rápida para texto simples](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Aprenda a usar a aceleração GPU com Aspose OCR em C# para processar imagens rapidamente e obter texto puro.
+### [Como melhorar OCR em C# – Corrigir inclinação, remover ruído e girar imagens](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Explore técnicas avançadas de pré‑processamento para melhorar a precisão do OCR, incluindo correção de inclinação, remoção de ruído e rotação de imagens.
 
 
 

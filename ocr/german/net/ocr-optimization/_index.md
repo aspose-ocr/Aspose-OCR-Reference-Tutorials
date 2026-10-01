@@ -73,6 +73,10 @@ Nutzen Sie GPU‑Beschleunigung für schnelle OCR‑Ergebnisse in C# mit Aspose 
 Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus gescannten Dokumenten vollständig extrahieren und verarbeiten.
 ### [Wie man ein Bild OCR verarbeitet: Kontrast erhöhen, Rauschen entfernen](./how-to-ocr-image-boost-contrast-remove-noise/)
 Steigern Sie die OCR‑Genauigkeit, indem Sie den Bildkontrast erhöhen und Bildrauschen entfernen.
+### [Wie man OCR in C# verbessert – Entzerren, Rauschen entfernen & Bilder drehen](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Optimieren Sie die OCR‑Genauigkeit in C# durch Entzerren, Rauschunterdrückung und Bildrotation für klare Texterkennung.
+### [Wie man GPU für Aspose OCR in C# aktiviert – Schnelle Bild‑zu‑Klartext‑Umwandlung](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Erfahren Sie, wie Sie die GPU‑Beschleunigung für Aspose OCR in C# aktivieren und Bilder blitzschnell in Klartext umwandeln.
 
 
 
