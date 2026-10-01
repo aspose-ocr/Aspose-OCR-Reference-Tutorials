@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-02-24
-description: บทเรียน OCR ด้วย C# ที่แสดงวิธีดึงข้อความจากภาพโดยใช้ Aspose OCR – คู่มือครบถ้วนแบบขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา
-  .NET
+date: 2026-01-09
+description: บทเรียน OCR ด้วย C# ที่แสดงวิธีดึงข้อความจากไฟล์รูปภาพ, จดจำข้อความจาก
+  PNG, แปลงรูปภาพเป็นสตริง, และตรวจจับภาษาด้วยการใช้ Aspose.OCR โดยอัตโนมัติ
 draft: false
 keywords:
 - c# ocr tutorial
-- how to extract text from image
-- Aspose OCR C#
-- OCR region of interest
-- image text extraction C#
+- extract text from image
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: th
-og_description: บทเรียน OCR ด้วย C# ที่แสดงวิธีดึงข้อความจากภาพโดยใช้ Aspose OCR –
-  คู่มือครบถ้วนแบบขั้นตอนต่อขั้นตอนสำหรับนักพัฒนา .NET
-og_title: 'บทเรียน OCR ด้วย C#: แยกข้อความจากรูปภาพด้วย Aspose OCR'
+og_description: บทเรียน OCR ด้วย C# ที่สอนวิธีดึงข้อความจากภาพ, จดจำข้อความจากไฟล์
+  PNG, แปลงภาพเป็นสตริง, และตรวจจับภาษาอัตโนมัติด้วย Aspose OCR.
+og_title: c# OCR tutorial – ดึงข้อความจากรูปภาพ
 tags:
 - C#
 - OCR
 - Aspose
 - Image Processing
-title: 'บทเรียน OCR ด้วย C#: ดึงข้อความจากภาพด้วย Aspose OCR'
+title: บทเรียน OCR ด้วย C# – แยกข้อความจากรูปภาพด้วย Aspose OCR
 url: /th/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
 ---
 
@@ -29,198 +29,197 @@ url: /th/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspos
 
 # c# ocr tutorial – ดึงข้อความจากรูปภาพด้วย Aspose OCR
 
-เคยสงสัยไหมว่าจะดึงข้อความจากไฟล์รูปภาพในแอปพลิเคชัน C# อย่างไร? คุณไม่ได้เป็นคนเดียว ในหลายโครงการจริง—เช่น เครื่องสแกนพาสปอร์ต, ตัวประมวลผลใบแจ้งหนี้, หรือแม้แต่เครื่องอ่านใบเสร็จง่ายๆ—การได้ผลลัพธ์ OCR ที่เชื่อถือได้เป็นอุปสรรคประจำวัน  
+เคยต้องการ **c# ocr tutorial** ที่ทำงานได้จริงกับไฟล์ PNG ในโลกจริงหรือไม่? บางทีคุณอาจกำลังสร้างเครื่องสแกนใบเสร็จ, ตัวประมวลผลฟอร์มหลายภาษา, หรือแค่สงสัยว่าจะเปลี่ยนรูปภาพของข้อความให้เป็นสตริงที่ค้นหาได้อย่างไร ไม่ว่ากรณีใด คุณมาถูกที่แล้ว
 
-**c# ocr tutorial** นี้จะพาคุณผ่านโซลูชันเชิงปฏิบัติด้วย Aspose OCR โดยแสดงอย่างชัดเจน **วิธีดึงข้อความจากรูปภาพ** จำกัดการสแกนไปยังพื้นที่ที่สนใจ (ROI) และแสดงผล—all ในไม่กี่บรรทัดของโค้ด  
+ในคู่มือนี้เราจะสาธิตขั้นตอนต่อขั้นตอนว่าอย่างไรที่จะ **extract text from image** ไฟล์, **recognize text from png**, **convert image to string**, และแม้กระทั่ง **detect language automatically**—ทั้งหมดด้วยไลบรารี Aspose.OCR ไม่มีการอ้างอิงที่คลุมเครือ เพียงตัวอย่างที่สมบูรณ์และสามารถรันได้ที่คุณสามารถคัดลอก‑วางลงใน Visual Studio
 
-เราจะครอบคลุมทุกอย่างที่คุณต้องการ: แพ็คเกจ NuGet, คำสั่ง `using` ที่จำเป็น, การตั้งค่า ROI, การกำหนดค่า options, และการตรวจสอบผลลัพธ์อย่างรวดเร็ว เมื่อเสร็จแล้วคุณจะมีแอปคอนโซลที่รันได้ซึ่งดึงชื่อจากสแกนพาสปอร์ต (หรือรูปภาพใดๆ ที่คุณชี้) ไม่มีของอัดแน่น เพียงคำตอบที่ชัดเจนและครบถ้วนที่คุณสามารถคัดลอก‑วางและรันได้
+## สิ่งที่คุณต้องการ
 
-## Prerequisites
+- .NET 6.0 หรือใหม่กว่า (โค้ดทำงานได้กับ .NET Core และ .NET Framework ด้วย)  
+- อ้างอิง NuGet ไปยัง `Aspose.OCR` (เวอร์ชัน 23.9 หรือใหม่กว่า)  
+- ไฟล์รูปภาพ (`mixed‑script.png` ในตัวอย่างนี้) ที่วางไว้ในตำแหน่งที่แอปสามารถอ่านได้  
+- ความเข้าใจพื้นฐานของ C# (ถ้าคุณเคยเขียน “Hello World” คุณพร้อมแล้ว)
 
-ก่อนที่เราจะดำเนินการต่อ โปรดตรวจสอบว่าคุณมี:
+> **เคล็ดลับ:** หากคุณยังไม่มีลิขสิทธิ์ Aspose มีลิขสิทธิ์ชั่วคราวฟรีสำหรับการทดสอบ เพียงวางไฟล์ `.lic` ข้างๆไฟล์ executable ของคุณ
 
-- .NET 6+ SDK (หรือ .NET Framework 4.7+ หากคุณชอบ runtime รุ่นเก่า)
-- Visual Studio 2022 หรือโปรแกรมแก้ไขใดๆ ที่รองรับ C#
-- การเชื่อมต่ออินเทอร์เน็ตเพื่อดึงแพ็คเกจ **Aspose.OCR** จาก NuGet
-- ไฟล์รูปภาพ (เช่น `passport_scan.png`) ที่มีข้อความที่อ่านได้
+## ขั้นตอนที่ 1 – ติดตั้งแพคเกจ NuGet Aspose.OCR
 
-> **Pro tip:** หากคุณกำลังทดลองในเครื่องของคุณเอง ให้วางไฟล์ PNG หรือ JPEG ขนาดเล็กลงในโฟลเดอร์ชื่อ `Images` ภายในโปรเจกต์ของคุณ – จะทำให้เส้นทางสั้นและโค้ดเป็นระเบียบ
+ขั้นแรก เพิ่มไลบรารีลงในโปรเจกต์ของคุณ เปิด Package Manager Console แล้วรัน:
 
-## Step 1: Install Aspose OCR and Add Namespaces
-
-อย่างแรกที่ต้องทำคือเราต้องการไลบรารี OCR เปิดเทอร์มินัลของคุณ (หรือ Package Manager Console) แล้วรัน:
-
-```bash
-dotnet add package Aspose.OCR
+```powershell
+Install-Package Aspose.OCR
 ```
 
-เมื่อติดตั้งแพ็คเกจแล้ว ให้เพิ่มคำสั่ง `using` ที่จำเป็นที่ด้านบนของไฟล์ `Program.cs`:
+หรือ หากคุณชอบใช้ UI ให้คลิกขวาที่ *Dependencies → Manage NuGet Packages* แล้วค้นหา **Aspose.OCR**.
 
-```csharp
-using Aspose.OCR;          // Core OCR engine
-using System.Drawing;     // Rectangle struct for ROI
-```
+## ขั้นตอนที่ 2 – เตรียม OCR Engine (c# ocr tutorial core)
 
-สองบรรทัดนี้จะทำให้คุณเข้าถึง `OcrEngine`, `OcrOptions` และประเภท `Rectangle` ที่เราจะใช้เพื่อจำกัดพื้นที่สแกน
-
-## Step 2: Create the OCR Engine Instance
-
-Engine คือหัวใจของกระบวนการ คิดว่าเป็น “สมอง” ที่อ่านพิกเซลและแปลงเป็นอักขระ การเริ่มต้นใช้งานนั้นง่ายมาก:
-
-```csharp
-// Step 2: Instantiate the OCR engine – this object does the heavy lifting.
-OcrEngine ocrEngine = new OcrEngine();
-```
-
-> **Why this matters:** `OcrEngine` ตัวเดียวสามารถนำกลับมาใช้ใหม่สำหรับหลายภาพได้ ซึ่งช่วยประหยัดหน่วยความจำและหลีกเลี่ยงการตรวจสอบลิขสิทธิ์ซ้ำหลายครั้ง
-
-## Step 3: Define the Region of Interest (ROI)
-
-การสแกนภาพความละเอียดสูงทั้งหมดอาจเสียเปล่า โดยเฉพาะเมื่อคุณรู้ว่าข้อความอยู่ที่ไหน (เช่น ฟิลด์ชื่อบนพาสปอร์ต) การระบุ **region of interest** จะบอก engine ให้ละเลยทุกอย่างที่อยู่นอกสี่เหลี่ยม
-
-```csharp
-// Step 3: Set the ROI – adjust X, Y, Width, Height to match your image layout.
-Rectangle regionOfInterest = new Rectangle(150, 300, 800, 200);
-```
-
-- **X** และ **Y** แทนมุมบนซ้ายของสี่เหลี่ยม
-- **Width** และ **Height** กำหนดขนาดของกล่อง
-
-หากคุณไม่แน่ใจเกี่ยวกับตัวเลขที่แน่นอน การทดสอบด้วยโปรแกรมแก้ไขภาพใดๆ (เช่น Paint.NET) จะช่วยให้คุณระบุตำแหน่งพิกัดได้อย่างแม่นยำ
-
-## Step 4: Configure OCR Options and Attach the ROI
-
-ต่อไปเราจะผูก ROI กับอ็อบเจกต์ `OcrOptions` ซึ่งอ็อบเจกต์นี้ยังให้คุณปรับภาษา, ความเร็วการตรวจจับ, และอื่นๆ แต่สำหรับบทเรียนนี้เราจะเก็บไว้ในระดับพื้นฐาน
-
-```csharp
-// Step 4: Prepare OCR options and assign the ROI we just defined.
-OcrOptions ocrOptions = new OcrOptions { Roi = regionOfInterest };
-```
-
-> **Edge case:** หากคุณละเว้น ROI, Aspose OCR จะสแกนภาพทั้งหมด ซึ่งอาจทำให้เวลาในการประมวลผลเพิ่มขึ้นและอาจสร้างสัญญาณรบกวนเพิ่มเติมในผลลัพธ์
-
-## Step 5: Run the OCR Engine on Your Image
-
-เมื่อทุกอย่างเชื่อมต่อเรียบร้อย ถึงเวลาที่จะให้ engine จดจำข้อความจริงๆ ให้ระบุพาธไปยังรูปภาพของคุณพร้อมกับ options ที่เราสร้างไว้
-
-```csharp
-// Step 5: Perform OCR on the target image using the configured options.
-OcrResult ocrResult = ocrEngine.RecognizeImage(
-    "Images/passport_scan.png", // Adjust this path to your file location
-    ocrOptions);
-```
-
-เมธอดนี้จะคืนค่าอ็อบเจกต์ `OcrResult` ที่บรรจุสตริงที่ดึงออกมา, คะแนนความมั่นใจ, และแม้กระทั่งกล่องขอบเขตของแต่ละคำ (หากคุณต้องการใช้ในภายหลัง)
-
-## Step 6: Output the Extracted Text
-
-สุดท้าย แสดงผลลัพธ์ออกมา ในแอปจริงคุณอาจเก็บลงฐานข้อมูล แต่สำหรับบทเรียนนี้การพิมพ์ลงคอนโซลก็เพียงพอ
-
-```csharp
-// Step 6: Show the extracted text in the console.
-Console.WriteLine("Extracted name: " + ocrResult.Text);
-```
-
-เมื่อคุณรันโปรแกรม คุณควรเห็นอะไรประมาณนี้:
-
-```
-Extracted name: JOHN DOE
-```
-
-หากผลลัพธ์เป็นค่าว่างหรือแปลกประหลาด ให้ตรวจสอบพิกัด ROI อีกครั้งและตรวจสอบให้แน่ใจว่าภาพต้นฉบับชัดเจน (คอนทราสต์สูง, เบลอเล็กน้อย)
-
-## Full Working Example
-
-ด้านล่างเป็นไฟล์ `Program.cs` เต็มรูปแบบพร้อมคอมไพล์ บันทึกไว้ในโปรเจกต์คอนโซล, วางรูปภาพของคุณในโฟลเดอร์ `Images`, แล้วกด **F5**
+ตอนนี้เราจะสร้างอินสแตนซ์ `OcrEngine` บอกให้มันตรวจจับภาษาด้วยตนเอง และชี้ไปที่ไฟล์ PNG ของเรา.
 
 ```csharp
 using Aspose.OCR;
-using System.Drawing;
+using System;
 
-namespace OcrDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            // Step 1: Create an OCR engine instance
-            OcrEngine ocrEngine = new OcrEngine();
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
+        var ocrEngine = new OcrEngine();
 
-            // Step 2: Define the region of interest (ROI) where the text is expected
-            // (x, y, width, height) – adjust these values for your own image
-            Rectangle regionOfInterest = new Rectangle(150, 300, 800, 200);
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
 
-            // Step 3: Prepare OCR options and assign the ROI
-            OcrOptions ocrOptions = new OcrOptions { Roi = regionOfInterest };
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
 
-            // Step 4: Perform OCR on the target image using the configured options
-            OcrResult ocrResult = ocrEngine.RecognizeImage(
-                "Images/passport_scan.png",
-                ocrOptions);
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
 
-            // Step 5: Display the extracted text
-            Console.WriteLine("Extracted name: " + ocrResult.Text);
-        }
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-> **Expected output:**  
-> `Extracted name: JOHN DOE` (หรือข้อความใดก็ได้ที่อยู่ใน ROI ที่กำหนด)
+### ทำไมเราถึงตั้งค่า `Language = OcrLanguage.AutoDetect`
 
-## Common Questions & Edge Cases
+การตรวจจับภาษาด้วยอัตโนมัติช่วยคุณไม่ต้องเดาว่าภาพมีภาษาอังกฤษ, รัสเซีย, อาหรับ หรือผสมกัน เป็นตัวเลือกที่ยืดหยุ่นที่สุดสำหรับสถานการณ์ **detect language automatically** และทำงานได้ทันทีสำหรับสคริปต์ส่วนใหญ่ที่ Aspose รองรับ.
 
-### What if my image is in a different format?
+## ขั้นตอนที่ 3 – รันแอปพลิเคชันและตรวจสอบผลลัพธ์
 
-Aspose OCR รองรับ PNG, JPEG, BMP, TIFF, และแม้กระทั่ง PDF เพียงเปลี่ยนส่วนขยายไฟล์ในพาธ; engine จะตรวจจับรูปแบบโดยอัตโนมัติ
+คอมไพล์และรันโปรแกรม (`dotnet run` หรือกด **F5** ใน Visual Studio) หากทุกอย่างเชื่อมต่อถูกต้อง คุณจะเห็นอะไรประมาณนี้:
 
-### Can I process multiple images in a loop?
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
 
-แน่นอน `OcrEngine` สามารถนำกลับมาใช้ใหม่ได้:
+ผลลัพธ์นั้นพิสูจน์ว่าเราสามารถ **extract text from image**, **recognize text from png**, และ **convert image to string** ได้สำเร็จ – ทั้งหมดในโค้ดสั้น ๆ เพียงส่วนเดียว
+
+## ขั้นตอนที่ 4 – รูปแบบทั่วไปและกรณีขอบ
+
+### การจัดการหลายภาพ
+
+หากคุณต้องการประมวลผลไดเรกทอรีของ PNG ให้ใส่การเรียกการจดจำไว้ในลูป `foreach`:
 
 ```csharp
-foreach (var file in Directory.GetFiles("Images", "*.png"))
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    var result = ocrEngine.RecognizeImage(file, ocrOptions);
-    Console.WriteLine($"{Path.GetFileName(file)} → {result.Text}");
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### How do I improve accuracy for non‑Latin scripts?
+### การระบุภาษาคงที่
 
-ตั้งค่าคุณสมบัติ language บน `OcrOptions`:
+บางครั้งคุณอาจรู้ภาษาล่วงหน้า (เช่น ภาษาอังกฤษเท่านั้น) คุณสามารถแทนที่ `AutoDetect` ด้วย `OcrLanguage.English` เพื่อเร่งการประมวลผล:
 
 ```csharp
-ocrOptions.Language = Language.English; // or Language.Russian, Language.ChineseSimplified, etc.
+ocrEngine.Language = OcrLanguage.English;
 ```
 
-### What if the ROI is wrong and I miss the text?
+### การจัดการกับสแกนคุณภาพต่ำ
 
-คุณสามารถขยายสี่เหลี่ยมหรือยกเลิก ROI ทั้งหมดเพื่อให้ engine สแกนภาพทั้งหมดได้ โปรดจำไว้ว่า การสแกนเต็มภาพอาจทำให้เวลาในการประมวลผลเพิ่มขึ้น
+Aspose.OCR มีตัวเลือกการเตรียมข้อมูลล่วงหน้า (ลดสัญญาณรบกวน, ปรับแนว) สำหรับการแก้ไขอย่างเร็ว:
 
-## Pro Tips for a Smooth Experience
+```csharp
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
+```
 
-- **Cache the engine:** การสร้าง `OcrEngine` ใหม่สำหรับแต่ละภาพจะเพิ่มภาระงาน เก็บอินสแตนซ์เดียวไว้ตลอดเวลาที่แอปทำงาน
-- **Pre‑process the image:** ขั้นตอนง่ายๆ เช่น แปลงเป็น grayscale หรือเพิ่มคอนทราสต์ สามารถเพิ่มอัตราการรู้จำได้อย่างมาก
-- **Handle null results:** ตรวจสอบ `ocrResult?.Text` ก่อนใช้งานเสมอเพื่อหลีกเลี่ยง `NullReferenceException`
-- **License matters:** เวอร์ชันฟรีจะใส่ลายน้ำหลังจาก 200 ตัวอักษรแรก ลงทะเบียนไลเซนส์ทดลองหรือเชิงพาณิชย์หากต้องการผลลัพธ์ระดับผลิตภัณฑ์
+### การบันทึกผลลัพธ์ลงไฟล์
 
-## Next Steps
+แทนที่จะพิมพ์ลงคอนโซล คุณอาจต้องการเขียนข้อความที่ดึงออกไปยังไฟล์ `.txt`:
 
-เมื่อคุณเชี่ยวชาญพื้นฐานของ **c# ocr tutorial** แล้ว ลองสำรวจต่อ:
+```csharp
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
 
-- **How to extract text from image** แบบเป็นชุด (batch processing)
-- ใช้ **Aspose OCR** เพื่อตรวจจับตารางหรือข้อมูลเชิงโครงสร้าง
-- ผสานผล OCR กับฐานข้อมูลหรือ Web API
-- รวม OCR กับไลบรารี **image pre‑processing** อย่าง `OpenCvSharp`
+## ขั้นตอนที่ 5 – ตัวอย่างทำงานเต็มรูปแบบ (พร้อมคัดลอก‑วาง)
 
-หัวข้อเหล่านี้ต่อยอดจากพื้นฐานที่คุณสร้างไว้ ทำให้คุณแปลงสแกนดิบให้เป็นข้อมูลที่ค้นหาได้และนำไปใช้ได้จริง
+ด้านล่างเป็น **complete program** พร้อมตรรกะการเตรียมข้อมูลล่วงหน้าและการบันทึกไฟล์ คุณสามารถปรับเปลี่ยนเส้นทางได้ตามต้องการ.
 
----
+```csharp
+using Aspose.OCR;
+using System;
+using System.IO;
 
-*พร้อมนำไปใช้ใน production หรือยัง? ดึงซอร์สเต็มจากรีโพ GitHub ของฉัน ปรับ ROI ให้เข้ากับเอกสารของคุณเอง แล้วดูข้อความปรากฏเหมือนเวทมนตร์*  
+class OcrDemo
+{
+    static void Main()
+    {
+        // Initialise engine
+        var ocrEngine = new OcrEngine
+        {
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
 
-Happy coding!
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
+            }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
+    }
+}
+```
+
+### ผลลัพธ์ที่คาดหวัง
+
+การรันโปรแกรมบน PNG ที่มีภาษาอังกฤษ, รัสเซีย, และอาหรับ จะได้ผลลัพธ์ดังนี้:
+
+```
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
+```
+
+หากภาพว่างหรืออ่านไม่ออก เครื่องจะคืนค่าเป็นสตริงว่าง — ให้จัดการกรณีนี้โดยตรวจสอบ `string.IsNullOrWhiteSpace(extractedText)` ก่อนดำเนินการต่อ
+
+## คำถามที่พบบ่อย (FAQs)
+
+**Q: Aspose.OCR รองรับข้อความที่เขียนด้วยมือหรือไม่?**  
+A: มันมุ่งเน้นที่ OCR พิมพ์เท่านั้น สำหรับการเขียนด้วยมือคุณต้องใช้โมเดล ML เฉพาะหรือบริการเช่น Azure Computer Vision.
+
+**Q: ฉันสามารถรันนี้บน Linux/macOS ได้หรือไม่?**  
+A: แน่นอน Aspose.OCR รองรับหลายแพลตฟอร์ม; เพียงติดตั้ง .NET runtime สำหรับ OS ของคุณ.
+
+**Q: ถ้าฉันต้องประมวลผล PDF แทน PNG จะทำอย่างไร?**  
+A: แปลงแต่ละหน้าของ PDF เป็นภาพก่อน (เช่น ใช้ `Aspose.PDF`) แล้วจึงส่งภาพไปยัง OCR engine.
+
+## สรุป
+
+เราเพิ่งเสร็จสิ้น **c# ocr tutorial** ที่พาคุณผ่านการ **extracting text from image** ไฟล์, **recognizing text from png**, **converting the image to a string**, และ **detecting language automatically** ด้วย Aspose.OCR โค้ดสั้น แนวคิดชัดเจน และคุณสามารถขยายเป็นการประมวลผลเป็นชุด การตั้งค่าภาษาแบบกำหนดเอง หรือแม้แต่รวมเข้ากับ Web API
+
+ขั้นตอนต่อไป? ลองนำผลลัพธ์ OCR ไปใส่ในดัชนีการค้นหา ส่งไปยังบริการแปลภาษา หรือรวมกับ Azure Cognitive Services เพื่อสร้างสายข้อมูลที่สมบูรณ์ยิ่งขึ้น ท้องฟ้าเป็นขอบเขตเมื่อคุณเชี่ยวชาญพื้นฐานของการแปลงภาพเป็นข้อความใน C#.
+
+ขอให้สนุกกับการเขียนโค้ด และอย่าลืมทดลองกับคุณภาพภาพที่ต่างกัน— OCR engine ของคุณจะขอบคุณคุณ!
+
+![c# ocr tutorial – ตัวอย่างผลลัพธ์ OCR บน PNG ที่มีหลายสคริปต์](placeholder-image.png "c# ocr tutorial – ภาพหน้าจอผลลัพธ์ OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

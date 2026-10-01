@@ -1,33 +1,50 @@
 ---
-title: OCR画像認識で使用できる文字を指定する
-linktitle: OCR画像認識で使用できる文字を指定する
+description: Aspose.OCR for .NET を使用して許可文字を指定し、数字画像を効率的に認識する方法を学びましょう。OCR を数字のみに制限するステップバイステップのガイドに従ってください。
+linktitle: Specify Allowed Characters OCR – Using Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-description: Aspose.OCR を使用して、.NET で正確な OCR をロック解除します。画像からテキストを簡単に認識します。今すぐダウンロードして、革新的な開発エクスペリエンスを体験してください。
-weight: 13
+title: 許可文字を指定する OCR – Aspose.OCR for .NET を使用
 url: /ja/net/ocr-settings/specify-allowed-characters/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR画像認識で使用できる文字を指定する
+# 許可文字 OCR の指定 – Aspose.OCR for .NET の使用
 
-## 導入
+このチュートリアルでは、Aspose.OCR for .NET を使用して **specify allowed characters ocr** の方法を学び、OCR の出力を必要な文字だけに制限できるようにします。これは、シリアル番号、請求書 ID、バーコードのような文字列など、**recognize digits image** ファイルを認識する必要がある場合に特に便利です。セットアップ、コード、実用的なシナリオを順に説明するので、すぐにこの手法を適用できます。
 
-テクノロジーが進化し続ける中で、光学式文字認識 (OCR) が革新的なツールとして台頭し、機械が画像からテキストを理解できるようになりました。 Aspose.OCR for .NET は強力なソリューションとして際立っており、.NET アプリケーションで堅牢な OCR 機能を求める開発者にシームレスな統合を提供します。
+## クイック回答
+- **“specify allowed characters ocr” は何をしますか？** OCR を事前に定義した文字セットに限定し、対象データの精度を向上させます。  
+- **どの文字を許可できますか？** 必要な組み合わせなら何でも構いません—数字、文字、またはカスタム記号（例: “0123456789”）。  
+- **なぜ文字を制限するのですか？** 期待される文字セットが分かっている場合、誤認識を減らし、処理速度を向上させます。  
+- **ライセンスは必要ですか？** 開発には無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+
+## “specify allowed characters ocr” とは何ですか？
+
+OCR が画像をスキャンすると、可能性のあるすべての文字のアルファベットに対して視覚パターンを照合しようとします。**specify allowed characters ocr** を使用すると、エンジンにホワイトリスト外の文字を無視させることができ、制約されたデータセットの認識精度が劇的に向上します。
+
+## Aspose.OCR を使用して digits image を認識する理由は？
+
+Aspose.OCR は .NET 開発者向けにクリーンで流暢な API を提供します。組み込みの `AllowedCharacters` オプションにより、カスタムの後処理ロジックを書かずに数字のみのシナリオに集中できます。これは次のような用途に最適です：
+
+- メーター読み取り、請求書番号、または製品コードの読み取り。  
+- スキャンされたフォームから取得したユーザー入力データの検証。  
+- 文字セットが事前に分かっているバッチ処理の高速化。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+コードに入る前に、以下を確認してください：
 
-- .NET 開発に関する実践的な知識。
--  .NET ライブラリの Aspose.OCR。ダウンロードできます[ここ](https://releases.aspose.com/ocr/net/).
-- Visual Studio またはその他の推奨される .NET 開発環境に精通していること。
+- .NET 開発の実務知識。  
+- **Aspose.OCR for .NET** ライブラリ。こちらからダウンロードできます [here](https://releases.aspose.com/ocr/net/)。  
+- Visual Studio（またはお好みの .NET IDE）。
 
 ## 名前空間のインポート
 
-.NET プロジェクトで、Aspose.OCR for .NET の機能を効果的に活用するために必要な名前空間をインポートします。
+.NET プロジェクトで、Aspose.OCR の機能を利用するために必要な名前空間をインポートします：
 
 ```csharp
 using System;
@@ -35,43 +52,45 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-ここで、チュートリアルを一連の包括的な手順に分割してみましょう。
+それでは、チュートリアルを一連の包括的な手順に分解していきましょう。
 
-## ステップ 1: OCR 画像認識で使用できる文字を指定する
+## allowed characters OCR の指定方法 – ステップバイステップ ガイド
 
-まず、ドキュメント ディレクトリへのパスを設定します。
+### 手順 1: 画像フォルダーへのパスを設定する
+
+まず、サンプル画像が保存されている場所を定義します。
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## ステップ 2: 許可されたシンボルを使用して Aspose.OCR を初期化する
+### 手順 2: Aspose.OCR を数字のみのホワイトリストで初期化する
 
-許可されるシンボルを指定して、AsposeOcr のインスタンスを作成します。この場合、数字 (0 ～ 9) を許可します。
+`AsposeOcr` インスタンスを作成し、許可したい文字を渡します—この例ではすべての数字です。
 
 ```csharp
 AsposeOcr api = new AsposeOcr("0123456789");
 ```
 
-## ステップ 3: 画像を認識する
+### 手順 3: 数字を含む単一行を認識する
 
-AsposeOcr インスタンスを利用して画像からテキストを認識します。
+`RecognizeLine` メソッドを使用して、数字のみが含まれる画像からテキストを抽出します。
 
 ```csharp
 string result = api.RecognizeLine(dataDir + "0001460985.Jpeg");
 ```
 
-## ステップ 4: 認識されたテキストを表示する
+### 手順 4: 認識した数字を出力する
 
-認識されたテキストをコンソールに出力します。
+結果をコンソールに出力して、出力を確認できるようにします。
 
 ```csharp
 Console.WriteLine(result);
 ```
 
-## ステップ 5: 2 番目のケース - 特定の設定で画像を認識する
+### 手順 5: より細かい制御のために RecognitionSettings を使用する
 
-別の AsposeOcr インスタンスを、今回はより具体的な設定で初期化します。
+単一行認識を強制するなど、より細かい制御が必要な場合は、`RecognitionSettings` を受け取るオーバーロードを使用できます。
 
 ```csharp
 AsposeOcr api2 = new AsposeOcr();
@@ -82,49 +101,54 @@ RecognitionResult result2 = api2.RecognizeImage(dataDir + "0001460985.Jpeg",
     });
 ```
 
-## ステップ 6: 2 番目の大文字と小文字が認識されたテキストを表示する
-
-番目のケースで認識されたテキストをコンソールに出力します。
+### 手順 6: セカンドケースの結果を表示する
 
 ```csharp
 Console.WriteLine(result2.RecognitionText);
 ```
 
-## ステップ 7: 実行の成功
-
-最後に、SpecifyAllowedCharacters チュートリアルが正常に実行されたことを確認します。
+### 手順 7: 実行成功を確認する
 
 ```csharp
 Console.WriteLine("SpecifyAllowedCharacters executed successfully");
 ```
 
-これらの手順に従うことで、Aspose.OCR for .NET を使用した OCR 画像認識で許可される文字を指定する機能のロックが解除されました。
+これらの手順に従うことで、**specify allowed characters ocr** の方法と、Aspose.OCR for .NET を使用して **recognize digits image** コンテンツを効率的に認識する方法を学びました。
 
-## 結論
+## よくある落とし穴とトラブルシューティング
 
-Aspose.OCR for .NET を使用すると、開発者は OCR 機能をアプリケーションにシームレスに統合でき、さまざまなドメインで革新的なソリューションへの扉が開きます。 OCR のパワーを活用し、正確なテキスト認識でプロジェクトを強化します。
+- **結果が空:** 画像の品質が十分であることを確認してください（コントラストがはっきり、ノイズが最小）。  
+- **誤った文字が返される:** ホワイトリスト文字列が期待する文字と完全に一致しているか再確認してください。  
+- **ファイルが見つからない:** `dataDir` が正しいフォルダーを指しているか、ファイル名の大文字小文字が正確か確認してください。
 
 ## よくある質問
 
-### Q1: Aspose.OCR for .NET は初心者と経験豊富な開発者の両方に適していますか?
+### Q1: Aspose.OCR for .NET は初心者と経験豊富な開発者の両方に適していますか？
 
-A1: もちろんです！ Aspose.OCR for .NET は、あらゆるスキル レベルの開発者に対応し、シームレスな統合のための直感的な機能を提供します。
+**A:** もちろんです！API は初心者にも直感的に使えるよう設計されており、上級ユーザー向けの高度なオプションも提供しています。
 
-### Q2: 複数の言語の文字を認識するために Aspose.OCR for .NET を使用できますか?
+### Q2: Aspose.OCR for .NET で複数言語の文字を認識できますか？
 
-A2: はい、Aspose.OCR はさまざまな言語での認識をサポートしているため、さまざまなアプリケーションに多用途に使用できます。
+**A:** はい、Aspose.OCR は幅広い言語をサポートしています。言語パックと allowed‑characters 機能を組み合わせて多言語シナリオに対応できます。
 
-### Q3: Aspose.OCR for .NET はどのくらいの頻度で更新されますか?
+### Q3: Aspose.OCR for .NET はどのくらいの頻度で更新されますか？
 
- A3: 最新テクノロジーとの互換性を確保し、潜在的な問題に対処するために、アップデートが定期的にリリースされます。チェックしてください[ドキュメンテーション](https://reference.aspose.com/ocr/net/)最新情報については。
+**A:** 新機能の追加、精度向上、互換性確保のために定期的にアップデートがリリースされます。最新バージョンの詳細は [documentation](https://reference.aspose.com/ocr/net/) をご確認ください。
 
-### Q4: Aspose.OCR for .NET の無料トライアルはありますか?
+### Q4: Aspose.OCR for .NET の無料トライアルはありますか？
 
-A4: はい、Aspose.OCR をダウンロードすると、その機能を調べることができます。[無料トライアル](https://releases.aspose.com/).
+**A:** はい、[free trial](https://releases.aspose.com/) をダウンロードして機能をお試しいただけます。
 
-### Q5: どこで支援を求めたり、コミュニティに連絡してサポートを求めたりできますか?
+### Q5: サポートやコミュニティへの問い合わせはどこでできますか？
 
- A5: にアクセスしてください。[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16)コミュニティに参加し、専門家の支援を受けることができます。
+**A:** [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) を訪れて質問したり、経験を共有したり、Aspose エンジニアや他の開発者から支援を受けたりできます。
+
+---
+
+**最終更新日:** 2026-02-15  
+**テスト環境:** Aspose.OCR 24.11 for .NET  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

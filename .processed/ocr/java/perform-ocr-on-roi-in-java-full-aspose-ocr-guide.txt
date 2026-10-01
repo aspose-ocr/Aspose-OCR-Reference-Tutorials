@@ -1,0 +1,7 @@
+Title: Perform OCR on ROI in Java – Full Aspose OCR Guide
+Slug: perform-ocr-on-roi-in-java-full-aspose-ocr-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-19T15:26:23.514394
+SourceRepo: AI Search API
+Keywords: perform ocr on roi, recognize text in region
+PRNumber: 149

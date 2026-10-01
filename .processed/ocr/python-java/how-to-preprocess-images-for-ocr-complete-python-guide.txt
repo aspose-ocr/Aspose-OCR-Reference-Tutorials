@@ -1,0 +1,7 @@
+Title: How to Preprocess Images for OCR – Complete Python Guide
+Slug: how-to-preprocess-images-for-ocr-complete-python-guide
+Category: general
+ProcessedDate: 2026-06-07T04:07:40.365553
+SourceRepo: AI Search API
+Keywords: how to preprocess images for ocr, binarize image using otsu, how to deskew scanned documents, how to improve ocr accuracy, extract text from german image
+PRNumber: 143

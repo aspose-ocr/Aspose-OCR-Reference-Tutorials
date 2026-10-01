@@ -1,0 +1,7 @@
+Title: Download all resources and language packs in C# – complete guide
+Slug: download-all-resources-and-language-packs-in-c-complete-guid
+Category: ocr-operations
+ProcessedDate: 2026-09-23T02:31:52.739685
+SourceRepo: AI Search API
+Keywords: download all resources, how to bulk download, download language pack, download language data, auto download resources
+PRNumber: 226

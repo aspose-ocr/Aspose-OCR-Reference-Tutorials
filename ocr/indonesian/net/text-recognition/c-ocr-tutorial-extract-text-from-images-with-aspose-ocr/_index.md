@@ -1,26 +1,27 @@
 ---
 category: general
-date: 2026-02-24
-description: Tutorial OCR C# yang menunjukkan cara mengekstrak teks dari gambar menggunakan
-  Aspose OCR – panduan lengkap, langkah demi langkah untuk pengembang .NET.
+date: 2026-01-09
+description: tutorial c# ocr yang menunjukkan cara mengekstrak teks dari file gambar,
+  mengenali teks dari png, mengonversi gambar menjadi string, dan mendeteksi bahasa
+  secara otomatis menggunakan Aspose.OCR.
 draft: false
 keywords:
 - c# ocr tutorial
-- how to extract text from image
-- Aspose OCR C#
-- OCR region of interest
-- image text extraction C#
+- extract text from image
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: id
-og_description: tutorial c# ocr yang menunjukkan cara mengekstrak teks dari gambar
-  menggunakan Aspose OCR – panduan lengkap, langkah demi langkah untuk pengembang
-  .NET
-og_title: 'tutorial OCR c#: Ekstrak Teks dari Gambar dengan Aspose OCR'
+og_description: tutorial OCR c# yang memandu Anda melalui proses mengekstrak teks
+  dari gambar, mengenali teks dari file png, mengonversi gambar menjadi string, dan
+  mendeteksi bahasa secara otomatis menggunakan Aspose OCR.
+og_title: Tutorial OCR C# – Ekstrak Teks dari Gambar
 tags:
 - C#
 - OCR
 - Aspose
 - Image Processing
-title: 'c# tutorial OCR: Ekstrak Teks dari Gambar dengan Aspose OCR'
+title: tutorial OCR c# – Ekstrak Teks dari Gambar dengan Aspose OCR
 url: /id/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
 ---
 
@@ -28,200 +29,199 @@ url: /id/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# ocr tutorial – Ekstrak Teks dari Gambar Menggunakan Aspose OCR
+# tutorial c# ocr – Ekstrak Teks dari Gambar dengan Aspose OCR
 
-Pernah bertanya-tanya bagaimana cara mengekstrak teks dari file gambar dalam aplikasi C#? Anda tidak sendirian. Dalam banyak proyek dunia nyata—misalnya pemindai paspor, pemroses faktur, atau bahkan pembaca struk sederhana—mendapatkan hasil OCR yang dapat diandalkan adalah tantangan harian.  
+Pernah membutuhkan **tutorial c# ocr** yang benar‑benar bekerja pada file PNG dunia nyata? Mungkin Anda sedang membuat pemindai struk, pemroses formulir multibahasa, atau hanya penasaran bagaimana mengubah gambar teks menjadi string yang dapat dicari. Apa pun kasusnya, Anda berada di tempat yang tepat.
 
-Tutorial **c# ocr tutorial** ini akan memandu Anda melalui solusi praktis dengan Aspose OCR, menunjukkan secara tepat **cara mengekstrak teks dari gambar**, membatasi pemindaian ke area yang diinginkan, dan menampilkan hasilnya—semua dalam beberapa baris kode.  
+Dalam panduan ini kami akan menunjukkan langkah‑demi‑langkah cara **mengekstrak teks dari gambar**, **mengenali teks dari png**, **mengonversi gambar menjadi string**, dan bahkan **mendeteksi bahasa secara otomatis**—semua dengan pustaka Aspose.OCR. Tanpa referensi yang samar, hanya contoh lengkap yang dapat dijalankan yang dapat Anda salin‑tempel ke Visual Studio.
 
-Kami akan membahas semua yang Anda perlukan: paket NuGet, pernyataan `using` yang diperlukan, penyiapan ROI, konfigurasi opsi, dan pemeriksaan cepat atas output. Pada akhir tutorial, Anda akan memiliki aplikasi console yang dapat dijalankan untuk mengambil nama dari pemindaian paspor (atau gambar apa pun yang Anda tunjuk). Tanpa basa‑basi, hanya jawaban yang jelas dan lengkap yang dapat Anda salin‑tempel dan jalankan.
+## Apa yang Anda Butuhkan
 
-## Prasyarat
+- .NET 6.0 atau lebih baru (kode ini juga bekerja dengan .NET Core dan .NET Framework)  
+- Referensi NuGet ke `Aspose.OCR` (versi 23.9 atau lebih baru)  
+- File gambar (`mixed‑script.png` dalam contoh ini) ditempatkan di lokasi yang dapat dibaca aplikasi  
+- Pemahaman dasar tentang C# (jika Anda sudah menulis “Hello World”, Anda sudah siap)
 
-Sebelum kita mulai, pastikan Anda memiliki:
+> **Tip profesional:** Jika Anda belum memiliki lisensi, Aspose menawarkan lisensi sementara gratis untuk pengujian. Cukup letakkan file `.lic` di samping executable Anda.
 
-- .NET 6+ SDK (atau .NET Framework 4.7+ jika Anda lebih suka runtime lama)
-- Visual Studio 2022 atau editor apa pun yang mendukung C#
-- Akses internet untuk mengunduh paket NuGet **Aspose.OCR**
-- File gambar (misalnya `passport_scan.png`) yang berisi teks yang dapat dibaca
+## Langkah 1 – Instal Paket NuGet Aspose.OCR
 
-> **Pro tip:** Jika Anda bereksperimen secara lokal, letakkan file PNG atau JPEG kecil ke dalam folder bernama `Images` di dalam proyek Anda – ini membuat path pendek dan kode lebih rapi.
+Pertama, tambahkan pustaka ke proyek Anda. Buka Package Manager Console dan jalankan:
 
-## Langkah 1: Instal Aspose OCR dan Tambahkan Namespace
-
-Hal pertama yang harus dilakukan adalah menginstal pustaka OCR. Buka terminal Anda (atau Package Manager Console) dan jalankan:
-
-```bash
-dotnet add package Aspose.OCR
+```powershell
+Install-Package Aspose.OCR
 ```
 
-Setelah paket terpasang, tambahkan direktif `using` yang diperlukan di bagian atas `Program.cs` Anda:
+Atau, jika Anda lebih suka UI, klik kanan *Dependencies → Manage NuGet Packages* dan cari **Aspose.OCR**.
 
-```csharp
-using Aspose.OCR;          // Core OCR engine
-using System.Drawing;     // Rectangle struct for ROI
-```
+## Langkah 2 – Siapkan Mesin OCR (inti tutorial c# ocr)
 
-Kedua baris ini memberi Anda akses ke `OcrEngine`, `OcrOptions`, dan tipe `Rectangle` yang akan kita gunakan untuk membatasi area pemindaian.
-
-## Langkah 2: Buat Instance OcrEngine
-
-Engine adalah inti dari proses. Anggaplah sebagai “otak” yang membaca piksel dan mengubahnya menjadi karakter. Inisialisasinya sangat sederhana:
-
-```csharp
-// Step 2: Instantiate the OCR engine – this object does the heavy lifting.
-OcrEngine ocrEngine = new OcrEngine();
-```
-
-> **Mengapa ini penting:** Satu `OcrEngine` dapat dipakai ulang untuk beberapa gambar, yang menghemat memori dan menghindari pemeriksaan lisensi berulang.
-
-## Langkah 3: Definisikan Region of Interest (ROI)
-
-Memindai seluruh gambar resolusi tinggi dapat sia‑sia, terutama bila Anda sudah tahu persis di mana teks berada (misalnya, bidang nama pada paspor). Dengan menentukan **region of interest**, Anda memberi tahu engine untuk mengabaikan semua yang berada di luar persegi panjang.
-
-```csharp
-// Step 3: Set the ROI – adjust X, Y, Width, Height to match your image layout.
-Rectangle regionOfInterest = new Rectangle(150, 300, 800, 200);
-```
-
-- **X** dan **Y** mewakili sudut kiri‑atas persegi panjang.
-- **Width** dan **Height** menentukan ukuran kotak.
-
-Jika Anda tidak yakin dengan angka pastinya, lakukan tes visual cepat dengan editor gambar apa pun (seperti Paint.NET) untuk menemukan koordinatnya.
-
-## Langkah 4: Konfigurasikan OcrOptions dan Lampirkan ROI
-
-Sekarang kita mengikat ROI ke objek `OcrOptions`. Objek ini juga memungkinkan Anda menyesuaikan bahasa, kecepatan deteksi, dan lain‑lain, tetapi untuk tutorial ini kita tetap minimal.
-
-```csharp
-// Step 4: Prepare OCR options and assign the ROI we just defined.
-OcrOptions ocrOptions = new OcrOptions { Roi = regionOfInterest };
-```
-
-> **Kasus tepi:** Jika Anda menghilangkan ROI, Aspose OCR akan memindai seluruh gambar, yang dapat meningkatkan waktu pemrosesan dan menghasilkan noise tambahan pada hasil.
-
-## Langkah 5: Jalankan OcrEngine pada Gambar Anda
-
-Setelah semuanya terhubung, saatnya melakukan pengenalan teks sebenarnya. Berikan path ke gambar Anda dan opsi yang baru saja kita buat.
-
-```csharp
-// Step 5: Perform OCR on the target image using the configured options.
-OcrResult ocrResult = ocrEngine.RecognizeImage(
-    "Images/passport_scan.png", // Adjust this path to your file location
-    ocrOptions);
-```
-
-Metode ini mengembalikan objek `OcrResult` yang berisi string yang diekstrak, skor kepercayaan, dan bahkan kotak pembatas untuk setiap kata (jika Anda membutuhkannya nanti).
-
-## Langkah 6: Tampilkan Teks yang Diekstrak
-
-Akhirnya, tampilkan hasilnya. Dalam aplikasi nyata Anda mungkin menyimpannya ke basis data, tetapi untuk tutorial ini output console sederhana sudah cukup.
-
-```csharp
-// Step 6: Show the extracted text in the console.
-Console.WriteLine("Extracted name: " + ocrResult.Text);
-```
-
-Saat Anda menjalankan program, Anda akan melihat sesuatu seperti:
-
-```
-Extracted name: JOHN DOE
-```
-
-Jika output kosong atau berantakan, periksa kembali koordinat ROI dan pastikan gambar sumber jelas (kontras tinggi, blur minimal).
-
-## Contoh Lengkap yang Berfungsi
-
-Berikut adalah seluruh file `Program.cs` yang siap dikompilasi. Simpan dalam proyek console, letakkan gambar Anda di folder `Images`, dan tekan **F5**.
+Sekarang kami akan membuat instance `OcrEngine`, memberi tahu untuk mendeteksi bahasa secara otomatis, dan menunjuk ke file PNG kami.
 
 ```csharp
 using Aspose.OCR;
-using System.Drawing;
+using System;
 
-namespace OcrDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            // Step 1: Create an OCR engine instance
-            OcrEngine ocrEngine = new OcrEngine();
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
+        var ocrEngine = new OcrEngine();
 
-            // Step 2: Define the region of interest (ROI) where the text is expected
-            // (x, y, width, height) – adjust these values for your own image
-            Rectangle regionOfInterest = new Rectangle(150, 300, 800, 200);
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
 
-            // Step 3: Prepare OCR options and assign the ROI
-            OcrOptions ocrOptions = new OcrOptions { Roi = regionOfInterest };
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
 
-            // Step 4: Perform OCR on the target image using the configured options
-            OcrResult ocrResult = ocrEngine.RecognizeImage(
-                "Images/passport_scan.png",
-                ocrOptions);
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
 
-            // Step 5: Display the extracted text
-            Console.WriteLine("Extracted name: " + ocrResult.Text);
-        }
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-> **Output yang diharapkan:**  
-> `Extracted name: JOHN DOE` (atau teks apa pun yang berada di ROI yang Anda tentukan).
+### Mengapa kami mengatur `Language = OcrLanguage.AutoDetect`
 
-## Pertanyaan Umum & Kasus Tepi
+Deteksi bahasa otomatis menyelamatkan Anda dari menebak apakah gambar berisi bahasa Inggris, Rusia, Arab, atau campuran. Ini adalah opsi paling fleksibel untuk skenario **mendeteksi bahasa secara otomatis**, dan berfungsi langsung untuk sebagian besar skrip yang didukung Aspose.
 
-### Bagaimana jika gambar saya berformat berbeda?
+## Langkah 3 – Jalankan Aplikasi dan Verifikasi Output
 
-Aspose OCR mendukung PNG, JPEG, BMP, TIFF, bahkan PDF. Cukup ubah ekstensi file pada path; engine akan mendeteksi format secara otomatis.
+Kompilasi dan jalankan program (`dotnet run` atau tekan **F5** di Visual Studio). Jika semuanya terhubung dengan benar, Anda akan melihat sesuatu seperti:
 
-### Bisakah saya memproses banyak gambar dalam loop?
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
 
-Tentu saja. `OcrEngine` dapat dipakai ulang:
+Output tersebut membuktikan bahwa kami berhasil **mengekstrak teks dari gambar**, **mengenali teks dari png**, dan **mengonversi gambar menjadi string** – semua dalam satu potongan kode yang singkat.
+
+## Langkah 4 – Variasi Umum & Kasus Tepi
+
+### Menangani Banyak Gambar
+
+Jika Anda perlu memproses sebuah direktori PNG, bungkus panggilan pengenalan dalam loop `foreach`:
 
 ```csharp
-foreach (var file in Directory.GetFiles("Images", "*.png"))
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    var result = ocrEngine.RecognizeImage(file, ocrOptions);
-    Console.WriteLine($"{Path.GetFileName(file)} → {result.Text}");
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### Bagaimana cara meningkatkan akurasi untuk skrip non‑Latin?
+### Menentukan Bahasa Tetap
 
-Setel properti bahasa pada `OcrOptions`:
+Kadang‑kadang Anda sudah mengetahui bahasa sebelumnya (misalnya hanya Bahasa Inggris). Anda dapat mengganti `AutoDetect` dengan `OcrLanguage.English` untuk mempercepat pemrosesan:
 
 ```csharp
-ocrOptions.Language = Language.English; // or Language.Russian, Language.ChineseSimplified, etc.
+ocrEngine.Language = OcrLanguage.English;
 ```
 
-### Bagaimana jika ROI salah dan saya kehilangan teks?
+### Menangani Pemindaian Berkualitas Rendah
 
-Anda dapat memperbesar persegi panjang atau menghilangkan ROI sepenuhnya agar engine memindai seluruh gambar. Ingat bahwa memindai gambar penuh dapat meningkatkan waktu pemrosesan.
+Aspose.OCR menawarkan opsi pra‑pemrosesan (pengurangan noise, deskew). Untuk perbaikan cepat:
 
-## Pro Tips untuk Pengalaman Lancar
+```csharp
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
+```
 
-- **Cache engine:** Membuat `OcrEngine` baru untuk setiap gambar menambah overhead. Pertahankan satu instance selama aplikasi berjalan.
-- **Pra‑proses gambar:** Langkah sederhana seperti mengubah ke grayscale atau meningkatkan kontras dapat secara dramatis meningkatkan tingkat pengenalan.
-- **Tangani hasil null:** Selalu periksa `ocrResult?.Text` sebelum menggunakannya untuk menghindari `NullReferenceException`.
-- **Lisensi penting:** Versi gratis menambahkan watermark setelah 200 karakter pertama. Daftarkan lisensi percobaan atau komersial jika Anda membutuhkan output produksi.
+### Menyimpan Hasil ke File
 
-## Langkah Selanjutnya
+Alih‑alih mencetak ke konsol, Anda mungkin ingin menulis teks yang diekstrak ke file `.txt`:
 
-Setelah menguasai dasar‑dasar **c# ocr tutorial**, pertimbangkan untuk mengeksplor:
+```csharp
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
 
-- **Cara mengekstrak teks dari gambar** secara massal (pemrosesan batch)
-- Menggunakan **Aspose OCR** untuk mendeteksi tabel atau data terstruktur
-- Mengintegrasikan hasil OCR dengan basis data atau API web
-- Menggabungkan OCR dengan pustaka **pra‑proses gambar** seperti `OpenCvSharp`
+## Langkah 5 – Contoh Lengkap yang Berfungsi (Siap Salin‑Tempel)
 
-Masing‑masing topik ini membangun di atas fondasi yang baru saja Anda buat, memungkinkan Anda mengubah pemindaian mentah menjadi data yang dapat dicari dan diproses.
+Berikut adalah **program lengkap** termasuk pra‑pemrosesan opsional dan logika output ke file. Silakan sesuaikan jalur file sesuai kebutuhan.
 
----
+```csharp
+using Aspose.OCR;
+using System;
+using System.IO;
 
-*Siap menerapkan ini ke produksi? Ambil source lengkap dari repositori GitHub saya, sesuaikan ROI untuk dokumen Anda, dan saksikan teks muncul seolah‑olah sihir.*  
+class OcrDemo
+{
+    static void Main()
+    {
+        // Initialise engine
+        var ocrEngine = new OcrEngine
+        {
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
 
-Selamat coding!
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
+            }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
+    }
+}
+```
+
+### Output yang Diharapkan
+
+Menjalankan program pada PNG yang berisi Bahasa Inggris, Rusia, dan Arab menghasilkan:
+
+```
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
+```
+
+Jika gambar kosong atau tidak dapat dibaca, mesin mengembalikan string kosong—tangani kasus tersebut dengan memeriksa `string.IsNullOrWhiteSpace(extractedText)` sebelum melanjutkan.
+
+## Pertanyaan yang Sering Diajukan (FAQ)
+
+**Q: Apakah Aspose.OCR mendukung teks tulisan tangan?**  
+A: Fokusnya pada OCR cetak. Untuk tulisan tangan Anda memerlukan model ML khusus atau layanan seperti Azure Computer Vision.
+
+**Q: Bisakah saya menjalankannya di Linux/macOS?**  
+A: Tentu saja. Aspose.OCR bersifat lintas‑platform; cukup instal runtime .NET untuk OS Anda.
+
+**Q: Bagaimana jika saya perlu memproses PDF alih‑alih PNG?**  
+A: Konversi setiap halaman PDF menjadi gambar terlebih dahulu (misalnya dengan `Aspose.PDF`) lalu berikan gambar tersebut ke mesin OCR.
+
+## Kesimpulan
+
+Kami baru saja menyelesaikan **tutorial c# ocr** yang memandu Anda melalui **mengekstrak teks dari gambar**, **mengenali teks dari png**, **mengonversi gambar menjadi string**, dan **mendeteksi bahasa secara otomatis** menggunakan Aspose.OCR. Kodenya singkat, konsepnya jelas, dan Anda dapat memperluasnya menjadi pemrosesan batch, pengaturan bahasa khusus, atau bahkan mengintegrasikannya ke API web.
+
+Langkah selanjutnya? Coba alirkan output OCR ke indeks pencarian, kirim ke layanan terjemahan, atau gabungkan dengan Azure Cognitive Services untuk pipeline data yang lebih kaya. Langit adalah batasnya setelah Anda menguasai dasar‑dasar konversi gambar‑ke‑teks di C#.
+
+Selamat coding, dan jangan lupa bereksperimen dengan kualitas gambar yang berbeda—mesin OCR Anda akan berterima kasih!
+
+![c# ocr tutorial – contoh output OCR pada PNG skrip campuran](placeholder-image.png "c# ocr tutorial – tangkapan layar hasil OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

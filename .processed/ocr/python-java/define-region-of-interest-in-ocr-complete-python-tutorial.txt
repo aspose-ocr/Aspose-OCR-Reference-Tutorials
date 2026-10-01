@@ -1,0 +1,7 @@
+Title: Define region of interest in OCR – Complete Python Tutorial
+Slug: define-region-of-interest-in-ocr-complete-python-tutorial
+Category: general
+ProcessedDate: 2026-06-16T13:51:07.225635
+SourceRepo: AI Search API
+Keywords: define region of interest, load image for ocr, how to specify roi, extract id card text, extract spanish text image
+PRNumber: 146
