@@ -84,14 +84,17 @@ Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# pro
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+### [How to Enable GPU for Aspose OCR in C# – Fast Image to Plain Text](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+Learn how to accelerate OCR processing by enabling GPU support in Aspose OCR for C#, achieving faster image-to-text conversion.
+
+### [How to Improve OCR in C# – Deskew, Denoise & Rotate Images](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+Learn to enhance OCR accuracy in C# by applying deskew, denoise, and rotation techniques to improve image quality before recognition.
+
 ### [recognize text from image using Aspose OCR GPU in C#](./recognize-text-from-image-using-aspose-ocr-gpu-in-c/)
 Leverage GPU acceleration with Aspose.OCR in C# to recognize text from images faster and more efficiently.
 ### [how to ocr image: boost contrast, remove noise](./how-to-ocr-image-boost-contrast-remove-noise/)
 Learn how to enhance OCR accuracy by boosting image contrast and removing noise using Aspose.OCR for .NET.
-### [How to Enable GPU for Aspose OCR in C# – Fast Image to Plain Text](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
-Learn how to accelerate OCR processing by enabling GPU support in Aspose OCR for C#, achieving faster image-to-text conversion.
-### [How to Improve OCR in C# – Deskew, Denoise & Rotate Images](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
-Learn to enhance OCR accuracy in C# by applying deskew, denoise, and rotation techniques to improve image quality before recognition.
 
 ### [Preprocess Image OCR in C# – Complete Step‑by‑Step Guide](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Step‑by‑step guide to preprocess images for OCR in C#, boosting accuracy with filters and best practices using Aspose.OCR.

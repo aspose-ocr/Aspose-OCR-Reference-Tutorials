@@ -18,7 +18,7 @@ weight: 25
 
 ## Giriiş
 
-Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğertenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
+Bu kılavuzda Aspose.OCR for .NET ile **resimden metin çıkar** dosyalarından metnin nasıl çıkarılacağını keşfedeceksiniz. Belge işleme hattı oluşturduğunuzda ya da bir alıştırma akıllı arama eklerseniz, OCR'ı ustalaşmak çok önemlidir. Görüntüleri yükleme bölgeleri tanımlamaları, ön işleme filtreleri uygulaması, sonuçların yazım denetimi ile düzeltme ve son olarak çok sayfalı çıktıları kaydetme gibi her aşamayı adım adım gösteriyorz. Tüm öğretenler net, adım adım OCR ile desteklenir, böylece çözümü hemen uygulayabilirsiniz.
 
 ## Hızlı Yanıtlar
 - **“görüntüden metin çıkar” ne anlama geliyor?** Görseldeki karakterler aranabilir, düzenlenebilir metne dönüştürülebilir.
@@ -76,6 +76,12 @@ Aspose.OCR for .NET ile C#'ta görüntü OCR ön işleme filtrelerini kullanarak
 Aspose.OCR for .NET ile OCR doğruluğunu artırın. Yazımları düzeltin, sözlükleri özelleştirin ve hatasız metin tanıma işlemini zahmetsizce gerçekleştirin.
 ### [OCR Görüntü Tanıma'da Çok Sayfalı Sonucu Belge Olarak Kaydet](./save-multipage-result-as-document/)
 Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Bu kapsamlı, adım adım kılavuzla çok sayfalı OCR sonuçlarını zahmetsizce belge olarak kaydedin.
+### [C#'ta Aspose OCR için GPU'yu Etkinleştirme – Hızlı Görüntüden Düz Metne](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
+C# uygulamanızda GPU hızlandırmalı OCR kullanarak görüntüleri hızlıca düz metne dönüştürün.
+
+### [C#'ta OCR'ı İyileştirme – Görüntüleri Düzleştirme, Gürültü Azaltma ve Döndürme](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
+C# ile OCR performansını artırmak için görüntüleri düzleştirme, gürültüyü azaltma ve döndürme tekniklerini öğrenin.
+
 ### [Aspose OCR'ı GPU ile Kullanma – Adım Adım Kılavuz](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 GPU desteğiyle Aspose OCR'ı nasıl kullanacağınızı adım adım öğrenin ve performansı artırın.
 ### [C# ile PNG'lerden Metin Görüntülerini Çıkarma – Aspose OCR Kullanarak Toplu OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
@@ -125,10 +131,6 @@ Aspose OCR GPU desteğiyle C# uygulamalarında yüksek hızlı ve doğru metin t
 Aspose.OCR for .NET ile C#’ta görüntü OCR ön işleme adımlarını adım adım öğrenin ve doğruluğu artırın.
 ### [Görüntüyü OCR ile İşleme: Kontrastı Artırma, Gürültüyü Kaldırma](./how-to-ocr-image-boost-contrast-remove-noise/)
 Aspose.OCR for .NET ile görüntünün kontrastını artırın ve gürültüyü temizleyerek OCR doğruluğunu yükseltin.
-### [C#'ta Aspose OCR için GPU'yu Etkinleştirme – Hızlı Görüntüden Düz Metne](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
-C# uygulamanızda GPU hızlandırmalı OCR kullanarak görüntüleri hızlıca düz metne dönüştürün.
-### [C#'ta OCR'ı İyileştirme – Görüntüleri Düzleştirme, Gürültü Azaltma ve Döndürme](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
-C# ile OCR performansını artırmak için görüntüleri düzleştirme, gürültüyü azaltma ve döndürme tekniklerini öğrenin.
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
