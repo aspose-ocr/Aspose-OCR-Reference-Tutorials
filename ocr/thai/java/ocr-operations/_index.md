@@ -110,12 +110,12 @@ weight: 21
 เรียนรู้วิธีแปลงภาพเป็นไฟล์ HTML อย่างละเอียดด้วย Aspose OCR for Java  
 ### [วิธีทำ OCR ใน Java – คู่มือเต็มขั้นตอน Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ## คำถามที่พบบ่อย
 
@@ -155,4 +155,3 @@ weight: 21
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

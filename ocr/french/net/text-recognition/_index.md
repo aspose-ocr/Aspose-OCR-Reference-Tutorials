@@ -176,12 +176,12 @@ Apprenez à traiter plusieurs images JPEG en lot avec Aspose.OCR en C#. Suivez n
 ### [Reconnaître le texte d'une image en C# avec Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
 Apprenez à extraire le texte d'une image en C# avec Aspose OCR grâce à notre guide étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Convertir une image en texte en C# – Guide complet OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
 Convertissez vos images en texte avec Aspose.OCR en C#. Suivez notre guide complet pour une reconnaissance précise et efficace.
 ### [Comment effectuer l'OCR en C# – Extraire du texte d'une image avec Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
@@ -279,12 +279,12 @@ Apprenez à créer un PDF consultable en C# avec Aspose.OCR. Suivez notre guide 
 ### [Tutoriel C# OCR – Extraire du texte d'une image et obtenir du JSON formaté](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
 Apprenez à extraire du texte d'images et à obtenir les résultats OCR au format JSON structuré avec Aspose.OCR en C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Comment effectuer l'OCR en C# – Reconnaître le texte cyrillique avec Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Apprenez à utiliser Aspose.OCR en C# pour reconnaître du texte cyrillique dans vos images, avec un guide pas à pas.
 ### [Comment extraire du texte OCR en C# – Guide complet étape par étape](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
@@ -294,12 +294,12 @@ Apprenez à convertir des fichiers TIFF en PDF consultable avec Aspose.OCR en C#
 ### [Reconnaître du texte PNG avec Aspose OCR .NET – Guide complet d’OCR local](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Apprenez à reconnaître du texte à partir d'images PNG en utilisant Aspose OCR .NET avec un guide complet d'OCR local.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tutoriel C# OCR : Extraire du texte d'une image avec Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Apprenez à extraire du texte d'images en utilisant Aspose OCR avec C# dans vos applications .NET.
 ### [Tutoriel C# OCR : Extraire du texte d'images et exporter au format JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)

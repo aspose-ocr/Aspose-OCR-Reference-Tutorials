@@ -116,12 +116,12 @@ Erfahren Sie, wie Sie mit Aspose.OCR für Java handschriftliche Notizen aus Bild
 ### [GPU für OCR in Java aktivieren – Komplettanleitung](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Erfahren Sie, wie Sie GPU-Beschleunigung für Aspose.OCR in Java aktivieren und die Texterkennungsgeschwindigkeit steigern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [GPU für OCR aktivieren und Text aus TIFF extrahieren](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Erfahren Sie, wie Sie GPU-Unterstützung aktivieren, um OCR auf TIFF-Bildern schnell und genau durchzuführen.
 ### [Durchführen von OCR auf Bild mit Aspose OCR – Java Schritt‑für‑Schritt‑Leitfaden](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

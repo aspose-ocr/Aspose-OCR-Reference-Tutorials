@@ -118,12 +118,12 @@ Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR untuk Java, meningkatk
 ### [Cara Melakukan OCR Gambar di Java – Catatan Tangan dengan Pemeriksaan Ejaan](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Pelajari cara OCR gambar catatan tulisan tangan di Java dengan fitur pemeriksaan ejaan untuk hasil teks yang akurat.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Mengenali Gambar Teks menggunakan Aspose OCR GPU untuk Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
 Gunakan Aspose OCR berbasis GPU untuk mengenali teks dalam gambar dengan kecepatan tinggi di Java. Tingkatkan performa OCR proyek Anda.
 ### [Fixed Thread Pool Java – OCR Paralel untuk PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)

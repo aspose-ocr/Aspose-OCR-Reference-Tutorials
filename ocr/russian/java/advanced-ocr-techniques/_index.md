@@ -117,12 +117,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 ### [Создание поискового PDF – Руководство Java по конвертации отсканированных PDF](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
 Узнайте, как преобразовать отсканированные PDF в поисковые PDF с помощью Aspose.OCR для Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как включить GPU для OCR в Java – Полное руководство](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Узнайте, как активировать GPU для ускорения OCR в Java с помощью Aspose.OCR, следуя пошаговому полному руководству.
 ### [Как выполнить OCR изображения в Java – Рукописные заметки с проверкой орфографии](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)

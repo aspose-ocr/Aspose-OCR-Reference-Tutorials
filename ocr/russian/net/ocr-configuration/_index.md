@@ -81,32 +81,32 @@ weight: 24
 Узнайте, как читать встроенные ресурсы в .NET и правильно установить лицензию Aspose для вашего приложения.
 ### [Скачивание модели языка OCR в C# с Aspose – Полное руководство](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Полное руководство по загрузке модели языка OCR в C# с использованием Aspose.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как включить GPU для Aspose OCR – пошаговое руководство](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Узнайте, как активировать поддержку GPU в Aspose OCR для ускорения распознавания изображений в .NET.
 ### [Распознавание текста изображения на C# – арабский OCR с Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 Узнайте, как распознавать арабский текст на изображениях в C# с помощью Aspose OCR.
 ### [Как установить лицензию Aspose в C# – Полное руководство](./how-to-set-aspose-license-in-c-complete-guide/)
 Узнайте, как правильно установить лицензию Aspose в C# для полного доступа к функциям библиотеки.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как применить лицензию в Aspose OCR – пошаговое руководство C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Узнайте, как применить лицензию Aspose OCR в C# шаг за шагом.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Часто задаваемые вопросы
 
 **В: Могу ли я использовать Aspose.OCR в коммерческом приложении .NET?**

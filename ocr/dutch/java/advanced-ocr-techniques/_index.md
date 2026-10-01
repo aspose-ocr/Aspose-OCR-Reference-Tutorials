@@ -106,12 +106,12 @@ Leer hoe u handgeschreven notities kunt OCR'en en fouten kunt corrigeren met Asp
 ### [Zoekbare PDF maken – Java-gids voor het converteren van gescande PDF's](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
 Leer hoe u met Aspose.OCR in Java gescande PDF's omzet naar doorzoekbare PDF's voor efficiënte tekstextractie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [GPU inschakelen voor OCR en tekst uit TIFF extraheren](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Leer hoe u GPU-ondersteuning activeert voor OCR en efficiënt tekst uit TIFF-bestanden haalt met Aspose.OCR voor Java.
 ### [OCR uitvoeren op afbeelding met Aspose OCR – Java stap‑voor‑stap‑handleiding](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

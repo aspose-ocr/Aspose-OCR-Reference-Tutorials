@@ -115,12 +115,12 @@ Tăng cường độ tương phản và chuẩn bị hình ảnh để OCR chín
 ### [Tạo Engine OCR Java – Nhận dạng Văn bản từ Hình ảnh Lớn](./create-ocr-engine-java-recognize-text-from-large-images/)
 Tận dụng Aspose.OCR để xây dựng engine OCR tùy chỉnh, nhận dạng văn bản chính xác từ hình ảnh lớn trong Java.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách bật GPU cho OCR và trích xuất văn bản từ TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Khai thác sức mạnh GPU để OCR nhanh hơn và trích xuất văn bản chính xác từ tệp TIFF.
 ### [Thực hiện OCR trên hình ảnh với Aspose OCR cho Java – Hướng dẫn từng bước](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

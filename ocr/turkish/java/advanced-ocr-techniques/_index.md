@@ -126,12 +126,12 @@ Java projelerinizde Aspose ile birden çok dili tanıyan OCR'ı etkinleştirin v
 ### [El Yazısı Notlarda OCR – Aspose OCR ile Hataları Düzeltme](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
 Aspose OCR kullanarak el yazısı notlarda OCR yapın ve tanıma hatalarını etkili bir şekilde düzeltin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Java’da OCR için GPU’yu Etkinleştirme – Tam Kılavuz](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Java projelerinizde OCR performansını artırmak için GPU kullanımını etkinleştirin. Adım adım rehberle yüksek hız ve doğruluk elde edin.
 ### [Java’da Görüntüyü OCR Yapma – El Yazısı Notlarıyla Yazım Denetimi](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)

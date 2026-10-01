@@ -88,12 +88,12 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 ### [使用 Aspose 下載 OCR 語言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 了解如何使用 Aspose 在 C# 中下載並整合 OCR 語言模型，以提升文字辨識準確度。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中辨識影像文字 – 使用 Aspose 進行阿拉伯語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 本教學示範如何在 C# 應用程式中使用 Aspose OCR 進行阿拉伯語文字的辨識。
 ### [如何為 Aspose OCR 啟用 GPU – 步驟指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
@@ -101,21 +101,21 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 ### [在 C# 中設定 Aspose 授權 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
 本教學說明如何在 C# 應用程式中設定 Aspose 授權，確保功能完整運作。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 Aspose OCR 中套用授權 – 步驟式 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 了解如何在 Aspose OCR 中使用 C# 設定授權，以確保您的應用程式合法運行。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## 常見問題解答
 
 **問：我可以在商業 .NET 應用程式中使用 Aspose.OCR 嗎？ ** 答：可以，一旦您獲得有效的 Aspose 許可證，該庫即可完全支援商業用途。

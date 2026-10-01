@@ -73,12 +73,12 @@ weight: 24
 Μάθετε πώς να διαβάζετε ενσωματωμένους πόρους σε .NET και να ρυθμίζετε την άδεια Aspose με βήμα-βήμα οδηγίες.
 ### [Λήψη μοντέλου γλώσσας OCR σε C# με το Aspose – Πλήρης Οδηγός](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Μάθετε πώς να κατεβάσετε και να ενσωματώσετε το μοντέλο γλώσσας OCR σε εφαρμογές C# χρησιμοποιώντας το Aspose, βήμα-βήμα.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να ενεργοποιήσετε το GPU για το Aspose OCR – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Ανακαλύψτε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose OCR για .NET, βήμα‑βήμα, βελτιώνοντας την απόδοση της αναγνώρισης.
 ### [Αναγνώριση κειμένου εικόνας σε C# – Αραβικό OCR με Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,20 +86,20 @@ weight: 24
 ### [Πώς να ορίσετε την άδεια Aspose σε C# – Πλήρης οδηγός](./how-to-set-aspose-license-in-c-complete-guide/)
 Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose σε εφαρμογές C# βήμα‑βήμα, εξασφαλίζοντας πλήρη λειτουργικότητα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να Εφαρμόσετε Άδεια στο Aspose OCR – Βήμα‑βήμα Οδηγός C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose OCR σε εφαρμογές C# βήμα‑βήμα.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.OCR σε εμπορική εφαρμογή .NET;**  
@@ -127,6 +127,7 @@ A: Ναι, το αντικείμενο `OcrResult` παρέχει τιμές ε�
 ## Οδηγίες διαμόρφωσης OCR
 ### [Πώς να Ελέγξετε την Υποστήριξη Γλώσσας OCR σε C# – Πλήρης Οδηγός](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Μάθετε πώς να ελέγξετε ποιες γλώσσες υποστηρίζει το Aspose.OCR σε εφαρμογές C#, βήμα προς βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

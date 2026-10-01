@@ -140,43 +140,43 @@ Lär dig hur du förbättrar OCR-genkänning genom att förbehandla bilder innan
 ### [Känn igen text från bild med Aspose OCR – GPU‑accelererad C#‑handledning](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Utnyttja GPU‑acceleration för snabb textigenkänning i C# med Aspose OCR.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur man räta upp bild och ökar kontrast för bättre OCR‑noggrannhet](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 Lär dig att räta upp bilder och justera kontrast för att förbättra OCR‑precision i dina .NET‑applikationer.
 ### [Konvertera bild till PDF i C# – Komplett OCR‑guide](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Lär dig konvertera bilder till PDF i C# med fullständig OCR-funktionalitet för exakt textigenkänning.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur man batch-OCR i C# med Aspose OCR-motorn](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Lär dig bearbeta flera bilder samtidigt med Aspose OCR i C#. Effektiv batch-OCR för dina .NET-applikationer.
 ### [Förbehandla bild‑OCR i C# – öka noggrannheten med Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 Lär dig hur du förbehandlar bilder för OCR i C# för att förbättra igenkänningsprecisionen med Aspose OCR.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Förbehandla bild för OCR – Öka noggrannheten med Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Lär dig hur du förbehandlar bilder för att förbättra OCR‑noggrannheten med Aspose OCR.
 ### [c# OCR-handledning – Känn igen text från bild med GPU-acceleration](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Lär dig hur du använder Aspose.OCR för .NET med GPU-acceleration för att effektivt känna igen text i bilder.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Vanliga frågor
 
 **Q: Kan jag extrahera text från bildfiler som innehåller flera språk?**  
@@ -198,7 +198,7 @@ A: Aspose erbjuder eviga och prenumerationslicenser. Välj den modell som bäst 
 
 **Senast uppdaterad:** 2025-12-22  
 **Testad med:** Aspose.OCR för .NET (senaste stabila versionen)  
-**Författare:** Aspose  
+**Författare:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

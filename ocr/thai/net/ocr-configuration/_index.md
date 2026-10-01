@@ -81,12 +81,12 @@ weight: 24
 เรียนรู้วิธีอ่านทรัพยากรฝังในแอป .NET และตั้งค่าใบอนุญาต Aspose อย่างครบถ้วน
 ### [ดาวน์โหลดโมเดลภาษาของ OCR ใน C# ด้วย Aspose – คู่มือเต็ม](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 เรียนรู้วิธีดาวน์โหลดและใช้งานโมเดลภาษาของ OCR ใน C# ด้วย Aspose อย่างละเอียดครบทุกขั้นตอน
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีเปิดใช้งาน GPU สำหรับ Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 เรียนรู้วิธีเปิดใช้งาน GPU ใน Aspose OCR เพื่อเพิ่มประสิทธิภาพการประมวลผลภาพอย่างง่ายดาย
 ### [การจดจำข้อความรูปภาพใน C# – OCR ภาษาอาหรับด้วย Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -94,20 +94,20 @@ weight: 24
 ### [วิธีตั้งค่าใบอนุญาต Aspose ใน C# – คู่มือฉบับสมบูรณ์](./how-to-set-aspose-license-in-c-complete-guide/)
 เรียนรู้ขั้นตอนการตั้งค่าใบอนุญาต Aspose ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์ทั้งหมดของผลิตภัณฑ์
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีการใช้ไลเซนส์ใน Aspose OCR – คู่มือ C# ขั้นตอนต่อขั้นตอน](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 เรียนรู้วิธีการตั้งค่าไลเซนส์สำหรับ Aspose OCR ใน C# อย่างละเอียดและง่ายดาย
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้ Aspose.OCR ในแอปพลิเคชัน .NET เชิงพาณิชย์ได้หรือไม่?**  
@@ -133,6 +133,7 @@ A: มี, วัตถุ `OcrResult` จะให้ค่าความเ�
 ## บทช่วยสอนการกำหนดค่า OCR
 ### [วิธีตรวจสอบการสนับสนุนภาษาของ OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-check-ocr-language-support-in-c-complete-guide/)
 เรียนรู้วิธีตรวจสอบว่าภาษาใดบ้างที่รองรับโดย Aspose.OCR ใน C# อย่างละเอียดและง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

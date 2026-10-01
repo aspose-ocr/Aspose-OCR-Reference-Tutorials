@@ -111,12 +111,12 @@ GPU का उपयोग करके OCR की गति बढ़ाएँ 
 ### [जावा में इमेज पर OCR कैसे करें – हस्तलेख नोट्स के साथ स्पेल चेक](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 जावा में Aspose.OCR का उपयोग करके हस्तलेख नोट्स पर OCR करें और स्पेल चेक के साथ सटीक पाठ निकालें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [GPU को सक्षम करके OCR और TIFF से टेक्स्ट निकालना](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 GPU का उपयोग करके OCR को तेज़ बनाएं और TIFF फ़ाइलों से सटीक रूप से टेक्स्ट निकालें।
 ### [Aspose OCR के साथ छवि पर OCR निष्पादित करना – जावा चरण‑बद्ध गाइड](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

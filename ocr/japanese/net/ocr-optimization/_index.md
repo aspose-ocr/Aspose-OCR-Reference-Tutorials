@@ -143,41 +143,41 @@ C#でOCR前処理パイプラインを構築し、画像からテキストを高
 ### [c# OCR チュートリアル: 前処理で画像からテキストを認識](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
 ### [GPU 加速 C# チュートリアル – Aspose OCR で画像からテキストを認識](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 GPU の力を活用し、C# で Aspose OCR を使用して画像から高速にテキストを抽出する方法を学びます。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [画像の傾き補正とコントラスト強化で OCR 精度を向上させる方法](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 画像の傾きを修正し、コントラストを上げる手順を解説し、OCR の認識精度を高めます。
 ### [C# で画像を PDF に変換する – 完全 OCR ガイド](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 画像を PDF に変換し、Aspose.OCR を使用してテキスト抽出と検索可能な PDF を作成する完全ガイドです。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# で Aspose OCR エンジンを使用したバッチ OCR の方法](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Aspose OCR エンジンを利用して、C# で複数画像を一括で OCR 処理する方法をステップバイステップで解説します。
 ### [C# で画像 OCR を前処理し、Aspose OCR で精度を向上させる](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 画像前処理手法を活用し、C# で Aspose OCR の認識精度を最大化する方法を解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR チュートリアル – GPU 加速で画像からテキストを認識する](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 GPU のパワーを活用して、画像から高速かつ正確にテキストを抽出する方法を学びます。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  
@@ -199,7 +199,7 @@ A: Aspose は永続ライセンスとサブスクリプションライセンス�
 
 **最終更新日:** 2025-12-22  
 **テスト環境:** Aspose.OCR for .NET（最新安定版）  
-**作成者:** Aspose  
+**作成者:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,12 +71,12 @@ Aspose लाइसेंस सेट करने के लिए .NET मे
 
 ### [C# में Aspose के साथ OCR भाषा मॉडल डाउनलोड करें – पूर्ण गाइड](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Aspose के साथ C# में OCR भाषा मॉडल डाउनलोड करने और उपयोग करने की पूरी प्रक्रिया सीखें।
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR के लिए GPU सक्षम करने का चरण‑दर‑चरण गाइड](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Aspose OCR में GPU का उपयोग करके तेज़ OCR प्रदर्शन प्राप्त करने के लिए चरण‑दर‑चरण निर्देश।
 ### [C# में छवि टेक्स्ट को पहचानें – Aspose के साथ अरबी OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -84,21 +84,21 @@ Aspose OCR के साथ C# में अरबी छवियों से 
 ### [C# में Aspose लाइसेंस सेट करने का पूर्ण गाइड](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose लाइसेंस को C# प्रोजेक्ट में सेट करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR में लाइसेंस कैसे लागू करें – चरण‑दर‑चरण C# गाइड](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aspose OCR के लिए लाइसेंस लागू करने की प्रक्रिया को चरण‑दर‑चरण C# में सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: क्या मैं कमर्शियल .NET एप्लीकेशन में Aspose.OCR इस्तेमाल कर सकता हूँ?**
@@ -128,6 +128,7 @@ A: API इनेबल्ड फाइलों को स्किप कर �
 ## ओसीआर कॉन्फ़िगरेशन ट्यूटोरियल
 ### [C# में OCR भाषा समर्थन कैसे जांचें – पूर्ण गाइड](./how-to-check-ocr-language-support-in-c-complete-guide/)
 C# में Aspose.OCR के साथ उपलब्ध भाषा समर्थन की जाँच करने की पूरी प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

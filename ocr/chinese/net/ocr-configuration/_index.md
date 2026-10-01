@@ -75,12 +75,12 @@ weight: 24
 ### [加载图像文件并使用 GPU OCR 在 C# 中提取收据文本](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 演示如何在 C# 中使用 GPU 加速的 Aspose.OCR 加载图像文件并提取收据文本，提高识别速度和准确率。  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何为 Aspose OCR 启用 GPU – 步骤指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 通过本教程，了解在 Aspose OCR 中启用 GPU 加速的完整步骤，提升 OCR 性能。
 ### [C# 中的图像文本识别 – 使用 Aspose 进行阿拉伯语 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -88,21 +88,21 @@ weight: 24
 ### [如何在 C# 中设置 Aspose 许可证 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
 本教程详细演示在 C# 项目中配置 Aspose 许可证的完整步骤，确保功能正常运行。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 Aspose OCR 中应用许可证 – 步骤详解 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 使用 C#，一步步演示在 Aspose OCR 中申请许可证的完整过程。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## 常见问题
 
 **问：我可以在商业 .NET 应用中使用 Aspose.OCR 吗？**  

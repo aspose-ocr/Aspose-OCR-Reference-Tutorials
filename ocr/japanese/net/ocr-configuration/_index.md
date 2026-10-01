@@ -72,32 +72,32 @@ Aspose OCR を使用して、C# で画像からテキストを正確に抽出す
 Aspose ライセンスを設定するために、.NET アプリケーションで埋め込みリソースを読み取る方法をステップバイステップで解説します。
 ### [Aspose を使用した C# での OCR 言語モデルのダウンロード – 完全ガイド](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Aspose を活用し、C# で OCR 言語モデルをダウンロードし設定する手順を詳しく解説します。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# で画像テキストを認識 – Aspose のアラビア語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 Aspose OCR を使用して、C# アプリケーションでアラビア語の画像テキストを抽出する方法を学びます。
 ### [Aspose OCR の GPU を有効化する方法 – ステップバイステップ ガイド](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Aspose OCR で GPU を有効にし、パフォーマンスを向上させる手順を詳しく解説します。
 ### [C# で Aspose ライセンスを設定する方法 – 完全ガイド](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose のライセンスを C# アプリケーションに設定し、フル機能を有効化する手順を詳しく解説します。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR のライセンス適用方法 – ステップバイステップ C# ガイド](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aspose OCR のライセンスを適用し、.NET アプリケーションで OCR 機能を有効にする手順を詳しく解説します。
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## よくある質問
 
 **Q: Aspose.OCR を商用 .NET アプリケーションで使用できますか？**
@@ -130,6 +130,7 @@ A: はい、`OcrResult` オブジェクトが各単語の信頼度スコアを�
 ## OCR設定チュートリアル
 ### [C# で OCR 言語サポートを確認する方法 – 完全ガイド](./how-to-check-ocr-language-support-in-c-complete-guide/)
 C# で Aspose.OCR の対応言語を確認し、適切な設定方法を学びます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

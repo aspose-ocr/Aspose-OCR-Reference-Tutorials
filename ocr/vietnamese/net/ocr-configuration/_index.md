@@ -81,12 +81,12 @@ Hướng dẫn chi tiết cách đọc tài nguyên nhúng và thiết lập gi�
 ### [Tải mô hình ngôn ngữ OCR trong C# với Aspose – Hướng dẫn đầy đủ](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Hướng dẫn chi tiết cách tải và sử dụng mô hình ngôn ngữ OCR trong C# với Aspose.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Nhận dạng văn bản hình ảnh trong C# – OCR tiếng Ả Rập với Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 Mở khóa khả năng OCR tiếng Ả Rập trong C# với Aspose, trích xuất văn bản từ hình ảnh một cách chính xác.
 ### [Cách bật GPU cho Aspose OCR – Hướng dẫn từng bước](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
@@ -94,20 +94,20 @@ Kích hoạt GPU cho Aspose OCR với hướng dẫn chi tiết từng bước �
 ### [Cách thiết lập giấy phép Aspose trong C# – Hướng dẫn đầy đủ](./how-to-set-aspose-license-in-c-complete-guide/)
 Hướng dẫn chi tiết cách cấu hình giấy phép Aspose trong C# để kích hoạt đầy đủ các tính năng.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách áp dụng giấy phép trong Aspose OCR – Hướng dẫn C# từng bước](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách cài đặt giấy phép Aspose OCR trong dự án C# của bạn.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Câu hỏi thường gặp
 
 **Q: Can I use Aspose.OCR in a commercial .NET application?**  

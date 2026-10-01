@@ -113,12 +113,12 @@ Naučte se, jak v Javě aktivovat GPU akceleraci pro OCR a dosáhnout vyšší r
 ### [Jak provést OCR obrázku v Javě – Ručně psané poznámky s kontrolou pravopisu](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Naučte se, jak v Javě provádět OCR ručně psaných poznámek a využít kontrolu pravopisu pro přesnější výstup.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak povolit GPU pro OCR a extrahovat text z TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Povolením GPU zrychlíte OCR a extrahujete text z TIFF souborů s vysokou přesností.
 ### [Provádění OCR na obrázku s Aspose OCR – Java krok za krokem](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

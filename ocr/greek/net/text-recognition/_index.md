@@ -161,12 +161,12 @@ url: /el/net/text-recognition/
 ### [Πώς να επεξεργαστείτε μαζικά εικόνες JPEG με OCR σε C# – Πλήρης Οδηγός](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες JPEG με OCR σε C#, βήμα‑βήμα, για αποδοτική εξαγωγή κειμένου.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να κάνετε OCR PDF σε C# – Οδηγός βήμα‑βήμα](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Μάθετε πώς να εξάγετε κείμενο από PDF χρησιμοποιώντας Aspose.OCR σε C# με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 ### [Μετατροπή εικόνας σε κείμενο σε C# – Πλήρης οδηγός OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
@@ -268,12 +268,12 @@ url: /el/net/text-recognition/
 ### [Πώς να αναγνωρίσετε κείμενο σε C# με Aspose OCR – Εμφάνιση αριθμού χαρακτήρων & Φόρτωση εικόνας](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Μάθετε πώς να αναγνωρίζετε κείμενο σε C# με Aspose OCR, εμφανίζοντας τον αριθμό χαρακτήρων και φορτώνοντας εικόνα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να εκτελέσετε OCR σε C# – Αναγνώριση κυριλλικού κειμένου με το Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για αναγνώριση κυριλλικού κειμένου σε εικόνες.
 ### [Δημιουργία αναζητήσιμου PDF από TIFF – Πλήρης οδηγός C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -283,12 +283,12 @@ url: /el/net/text-recognition/
 ### [Αναγνώριση κειμένου PNG με Aspose OCR .NET – Πλήρης Οδηγός Τοπικού OCR](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Μάθετε βήμα‑βήμα πώς να αναγνωρίζετε κείμενο PNG τοπικά με το Aspose OCR για .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR σεμινάριο: Εξαγωγή κειμένου από εικόνα με Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
 ### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες και εξαγωγή σε JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)

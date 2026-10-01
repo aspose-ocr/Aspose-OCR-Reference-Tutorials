@@ -168,12 +168,12 @@ Pelajari cara melakukan OCR secara batch pada gambar JPEG menggunakan C# dengan 
 ### [Mengenali Teks dari Gambar dengan C# menggunakan Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam C# dengan contoh kode praktis.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cara OCR PDF di C# – Panduan Langkah‑per‑Langkah](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 Pelajari cara mengonversi PDF menjadi teks menggunakan Aspose.OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
 ### [Mengonversi Gambar ke Teks dalam C# – Panduan OCR Lengkap](./convert-image-to-text-in-c-complete-ocr-guide/)
@@ -273,12 +273,12 @@ Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C# dan meng
 ### [Cara Mengenali Teks di C# dengan Aspose OCR – Tampilkan Jumlah Karakter & Muat Gambar](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Pelajari cara mengenali teks di C# menggunakan Aspose OCR, menampilkan jumlah karakter, dan memuat gambar dengan contoh kode lengkap.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cara Melakukan OCR di C# – Mengenali Teks Sirilik dengan Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Pelajari cara menggunakan Aspose OCR di C# untuk mengenali teks Sirilik dengan akurasi tinggi.
 ### [Buat PDF yang Dapat Dicari dari TIFF – Panduan Lengkap C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -288,12 +288,12 @@ Pelajari cara mengekstrak teks OCR menggunakan C# dengan panduan langkah demi la
 ### [Mengenali teks PNG dengan Aspose OCR .NET – Panduan OCR Lokal Lengkap](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Panduan lengkap untuk melakukan OCR pada file PNG secara lokal menggunakan Aspose OCR di .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tutorial OCR C#: Ekstrak Teks dari Gambar dengan Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam aplikasi C# dengan langkah-langkah mudah.
 ### [Tutorial OCR C# – Ekstrak Teks dari Gambar dan Ekspor ke JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
@@ -306,6 +306,7 @@ Pelajari cara mengenali teks berbahasa Rusia dalam PDF multi‑halaman menggunak
 Pelajari cara mengenali teks bahasa Cina secara offline menggunakan Aspose.OCR dengan contoh lengkap dalam C#.
 ### [Ekstrak Teks dari Gambar dan Konversi ke JSONL – Panduan C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Ekstrak teks dari gambar dan ubah menjadi JSONL dengan mudah menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

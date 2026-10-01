@@ -70,12 +70,12 @@ Aspose OCR kullanarak C# ile görüntülerden metin çıkarmayı adım adım ö�
 Aspose lisansını ayarlamak için .NET'te gömülü kaynağı nasıl okuyacağınızı adım adım öğrenin.
 ### [Aspose ile C#'ta OCR Dil Modeli İndirme – Tam Kılavuz](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Aspose kullanarak C# projelerinizde OCR dil modeli nasıl indirilir ve uygulanır öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR için GPU'yu Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Aspose OCR'de GPU desteğini etkinleştirerek performansı artırın. Adım adım kurulum ve yapılandırma talimatları.
 ### [C#'ta Görüntü Metni Tanıma – Aspose ile Arapça OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -83,20 +83,20 @@ Aspose OCR kullanarak C# uygulamalarında Arapça metin çıkarımını adım ad
 ### [C#'ta Aspose Lisansını Ayarlama – Tam Kılavuz](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose lisansını C# projelerinizde nasıl ayarlayacağınızı adım adım öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR'de Lisans Nasıl Uygulanır – Adım Adım C# Kılavuzu](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aspose OCR için lisansı C# dilinde adım adım nasıl uygulayacağınızı öğrenin.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Sıkça Sorulan Sorular
 
 **S: Aspose.OCR’ı ticari bir .NET uygulamasında kullanabilir miyim?**  
@@ -124,6 +124,7 @@ Sonuç olarak, bu OCR yapılandırma eğitimleri Aspose.OCR for .NET'in bütüns
 ## OCR Yapılandırma Eğitimleri
 ### [C#'ta OCR Dil Desteğini Nasıl Kontrol Edilir – Tam Kılavuz](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Aspose.OCR for .NET'te C# kullanarak OCR dil desteğini nasıl kontrol edeceğinizi adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

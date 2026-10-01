@@ -22,9 +22,13 @@ title: Como fazer OCR de Árabe em C# – Guia Completo
 url: /pt/net/text-recognition/how-to-ocr-arabic-in-c-complete-guide/
 ---
 
-{{< blocks/products/p >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/p >}}
+
+
 
 # Como fazer OCR de Árabe em C# – Guia Completo
 

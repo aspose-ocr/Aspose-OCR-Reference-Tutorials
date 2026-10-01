@@ -109,12 +109,12 @@ Aprenda a corregir errores en notas manuscritas usando Aspose OCR para obtener r
 ### [Crear PDF buscable – Guía Java para convertir PDFs escaneados](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
 Aprenda a convertir PDFs escaneados en documentos PDF buscables usando Aspose.OCR para Java, con alta precisión y fácil integración.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cómo habilitar GPU para OCR y extraer texto de TIFF](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
 Aprenda a activar la GPU para OCR y extraer texto de archivos TIFF con alta precisión usando Aspose.OCR para Java.
 ### [Realizar OCR en una imagen con Aspose OCR – Guía paso a paso en Java](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)

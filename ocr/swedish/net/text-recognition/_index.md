@@ -175,12 +175,12 @@ Lär dig hur du med Aspose OCR i C# extraherar text från en bild i en tydlig st
 Lär dig hur du genererar en sökbar PDF från bilder i C# med en tydlig steg‑för‑steg‑guide.
 ### [Batch-OCR av JPEG-bilder i C# – Komplett guide](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 Lär dig hur du med Aspose.OCR i C# batchbearbetar JPEG-bilder för effektiv textigenkänning i en komplett steg‑för‑steg‑guide.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [OCR:a PDF med Aspose: Konvertera, Exportera och Sök](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 Lär dig hur du OCR:ar PDF-filer med Aspose, konverterar dem, exporterar resultatet och söker i texten.
 ### [Konvertera bild till text i C# – Komplett OCR-guide](./convert-image-to-text-in-c-complete-ocr-guide/)
@@ -273,12 +273,12 @@ Lär dig hur du med Aspose.OCR för .NET extraherar text från bilder och får r
 ### [Hur man känner igen text i C# med Aspose OCR – Visa teckenantal & ladda bild](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Lär dig hur du med Aspose OCR i C# kan känna igen text, visa teckenantal och ladda bild i din .NET-applikation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur man utför OCR i C# – Känn igen kyrillisk text med Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen kyrillisk text i dina bilder.
 ### [Skapa sökbar PDF från TIFF – Komplett C#-guide](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -288,12 +288,12 @@ Lär dig steg-för-steg hur du extraherar OCR‑text i C# med Aspose.OCR för sm
 ### [Känn igen text i PNG med Aspose OCR .NET – Fullständig lokal OCR-guide](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Lär dig steg-för-steg hur du utför lokal OCR på PNG-filer med Aspose OCR för .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR-handledning: Extrahera text från bild med Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Lär dig hur du med C# och Aspose OCR extraherar text från bilder i enkla steg.
 ### [c# OCR-handledning – Extrahera text från bilder och exportera till JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
@@ -306,6 +306,7 @@ Lär dig hur du med Aspose OCR i C# extraherar rysk text från flersidiga PDF-fi
 Lär dig hur du offline känner igen kinesisk text med Aspose.OCR i C# med en komplett steg-för-steg-guide.
 ### [Extrahera text från bild och konvertera till JSONL – C#-guide](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Lär dig hur du med Aspose.OCR i C# extraherar text från en bild och sparar resultatet i JSONL-format.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

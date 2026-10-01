@@ -74,12 +74,12 @@ Scopri come leggere una risorsa incorporata in .NET e configurare correttamente 
 ### [Scarica il modello linguistico OCR in C# con Aspose – Guida completa](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Guida completa per scaricare e utilizzare il modello linguistico OCR in C# con Aspose, migliorando l'accuratezza del riconoscimento.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Come abilitare GPU per Aspose OCR – Guida passo‑passo](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Scopri come attivare l'accelerazione GPU in Aspose OCR per migliorare le prestazioni di riconoscimento.
 ### [Riconoscere il testo dell'immagine in C# – OCR arabo con Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -87,20 +87,20 @@ Sblocca l'OCR arabo in C# con Aspose, estraendo testo dalle immagini in modo rap
 ### [Come impostare la licenza Aspose in C# – Guida completa](./how-to-set-aspose-license-in-c-complete-guide/)
 Scopri come configurare correttamente la licenza Aspose in C# per sbloccare tutte le funzionalità della libreria.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Come applicare la licenza in Aspose OCR – Guida passo‑passo C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Scopri come applicare la licenza in Aspose OCR con una guida passo‑passo in C#.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Domande frequenti
 
 **D: Posso usare Aspose.OCR in un'applicazione .NET commerciale?**  
@@ -128,6 +128,7 @@ In conclusione, questi tutorial sulla configurazione OCR offrono una comprension
 ## Esercitazioni sulla configurazione dell'OCR
 ### [Come verificare il supporto della lingua OCR in C# – Guida completa](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Scopri come controllare quali lingue sono supportate da Aspose.OCR in C# e garantire l'accuratezza del riconoscimento.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
