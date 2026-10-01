@@ -159,12 +159,12 @@ url: /th/net/text-recognition/
 ### [รับรู้ข้อความจากรูปภาพใน C# ด้วย Aspose OCR](./recognize-text-from-image-in-c-with-aspose-ocr/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อรับรู้ข้อความจากรูปภาพอย่างละเอียดและครบถ้วนในขั้นตอนง่ายๆ
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [แปลงภาพเป็นข้อความใน C# – คู่มือ OCR ฉบับสมบูรณ์](./convert-image-to-text-in-c-complete-ocr-guide/)
 เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย C# อย่างละเอียด ด้วย Aspose.OCR พร้อมขั้นตอนครบถ้วนเพื่อการจดจำที่แม่นยำ
 ### [ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
@@ -228,12 +228,12 @@ url: /th/net/text-recognition/
 ### [วิธีจดจำข้อความใน C# ด้วย Aspose OCR – แสดงจำนวนอักขระและโหลดภาพ](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากภาพ พร้อมแสดงจำนวนอักขระและการโหลดภาพอย่างง่ายดาย
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [จดจำข้อความ PNG ด้วย Aspose OCR .NET – คู่มือ OCR ภายในเครื่องเต็มรูปแบบ](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 เรียนรู้วิธีใช้ Aspose OCR .NET เพื่อจดจำข้อความจากไฟล์ PNG อย่างครบถ้วนในสภาพแวดล้อมแบบออฟไลน์
 ### [วิธีทำ OCR ใน C# – จดจำข้อความ Cyrillic ด้วย Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
@@ -243,12 +243,12 @@ url: /th/net/text-recognition/
 ### [วิธีดึงข้อความ OCR ใน C# – คู่มือขั้นตอนเต็ม](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีดึงข้อความ OCR จากรูปภาพใน C# อย่างละเอียดตามขั้นตอนครบถ้วน
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [บทแนะนำ c# OCR: ดึงข้อความจากภาพด้วย Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากภาพอย่างแม่นยำในขั้นตอนง่ายๆ
 ### [บทแนะนำ c# OCR: ดึงข้อความจากภาพและส่งออกเป็น JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)

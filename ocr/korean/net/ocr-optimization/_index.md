@@ -116,42 +116,42 @@ C#을 사용해 이미지 OCR 전처리를 수행하는 전체 과정과 팁을 
 ### [이미지 OCR 방법: 대비 강화 및 노이즈 제거](./how-to-ocr-image-boost-contrast-remove-noise/)
 Aspose.OCR를 사용해 이미지 대비를 높이고 노이즈를 제거하여 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [이미지 기울기 보정 및 대비 강화로 OCR 정확도 향상](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 .NET용 Aspose.OCR로 이미지 기울기를 보정하고 대비를 강화하여 OCR 정확도를 크게 향상시키는 방법을 알아보세요.
 ### [C#에서 이미지를 PDF로 변환 – 완전한 OCR 가이드](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 .NET용 Aspose.OCR을 사용해 이미지를 PDF로 변환하고 OCR을 적용하는 전체 가이드를 확인하세요.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C#에서 이미지 전처리 OCR – Aspose OCR으로 정확도 향상](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose OCR 엔진으로 배치 OCR 수행 방법](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 .NET용 Aspose.OCR 엔진을 사용해 C#에서 배치 OCR을 구현하는 방법을 단계별로 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR 튜토리얼 – GPU 가속을 통한 이미지에서 텍스트 인식](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 .NET용 Aspose.OCR의 GPU 가속 기능을 활용해 이미지에서 텍스트를 빠르고 정확하게 인식하는 방법을 안내합니다.
 ### [OCR을 위한 이미지 전처리 – Aspose OCR로 정확도 향상](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 .NET용 Aspose OCR을 사용해 이미지 전처리로 OCR 정확도를 높이는 방법을 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## 자주 묻는 질문
 
 **Q: 여러 언어가 포함된 이미지 파일에서 텍스트를 추출할 수 있나요?**  
@@ -173,7 +173,7 @@ A: Aspose는 영구 라이선스와 구독 라이선스를 제공하며, 배포 
 
 **Last Updated:** 2025-12-22  
 **Tested With:** Aspose.OCR for .NET (latest stable release)  
-**Author:** Aspose  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -169,12 +169,12 @@ C# में Aspose.OCR का उपयोग करके छवि को JSO
 ### [C# में छवि से खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-image-in-c-complete-guide/)
 ### [C# में बैच OCR कैसे करें – छवियों से तेज़ी से टेक्स्ट निकालें](./how-to-batch-ocr-in-c-extract-text-from-images-quickly/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में छवि को टेक्स्ट में परिवर्तित करें – पूर्ण OCR गाइड](./convert-image-to-text-in-c-complete-ocr-guide/)
 C# में इमेज को टेक्स्ट में बदलने के लिए Aspose.OCR के साथ चरण-दर-स्तर पूर्ण गाइड।
 ### [C# में OCR कैसे करें – Aspose OCR के साथ इमेज से टेक्स्ट निकालें](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
@@ -247,12 +247,12 @@ C# में Aspose.OCR का उपयोग करके अरबी टे�
 ### [C# में Aspose OCR के साथ टेक्स्ट पहचान – कैरेक्टर काउंट दिखाएँ और इमेज लोड करें](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 C# में Aspose OCR का उपयोग करके टेक्स्ट पहचानें, कैरेक्टर गिनती दिखाएँ और इमेज लोड करने की प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में OCR कैसे करें – Aspose के साथ सिरिलिक टेक्स्ट पहचानें](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aspose OCR का उपयोग करके C# में सिरिलिक अक्षरों को पहचानने की चरण-दर-स्टेप मार्गदर्शिका।
 ### [TIFF से खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -262,12 +262,12 @@ Aspose OCR का उपयोग करके C# में OCR टेक्स�
 ### [Aspose OCR .NET के साथ PNG टेक्स्ट पहचान – पूर्ण स्थानीय OCR गाइड](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Aspose OCR .NET का उपयोग करके PNG फ़ाइलों से टेक्स्ट निकालने की पूरी स्थानीय गाइड। चरण‑दर‑चरण निर्देश।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR ट्यूटोरियल: Aspose OCR के साथ छवि से टेक्स्ट निकालें](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने के लिए चरण-दर-स्टेप मार्गदर्शिका।
 ### [c# OCR ट्यूटोरियल – छवियों से टेक्स्ट निकालें और JSON में निर्यात करें](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)

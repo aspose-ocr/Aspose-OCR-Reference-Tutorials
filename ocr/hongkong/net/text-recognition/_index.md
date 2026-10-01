@@ -157,12 +157,12 @@ url: /zh-hant/net/text-recognition/
 ### [如何在 C# 中批次 OCR JPEG 圖像 – 完整指南](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 使用 Aspose.OCR 在 C# 中批量處理 JPEG 圖像，實現高效文字辨識的完整步驟說明。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中從 PNG 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-from-png-in-c-complete-guide/)
 使用 Aspose.OCR 在 C# 中將 PNG 圖像轉換為可搜尋的 PDF，提供完整步驟與範例說明。
 ### [在 C# 中將影像轉換為文字 – 完整 OCR 指南](./convert-image-to-text-in-c-complete-ocr-guide/)
@@ -248,12 +248,12 @@ url: /zh-hant/net/text-recognition/
 ### [如何在 C# 中使用 Aspose OCR 文字辨識 – 顯示字元計數與載入圖像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 使用 Aspose OCR 在 C# 中辨識文字，同時顯示字元數並載入圖像，提供完整步驟與範例程式碼。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 C# 中執行 OCR – 使用 Aspose 識別西里爾文字](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 學習使用 Aspose.OCR for .NET 在 C# 中辨識西里爾文字，提升多語言 OCR 能力的完整步驟指南。
 ### [從 TIFF 建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -263,12 +263,12 @@ url: /zh-hant/net/text-recognition/
 ### [使用 Aspose OCR .NET 辨識 PNG 文字 – 完整本機 OCR 指南](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 使用 Aspose.OCR for .NET 完整步驟，在本機環境中辨識 PNG 圖片文字，提升文字提取效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# OCR 教程：使用 Aspose OCR 從圖像提取文字](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 學習如何使用 Aspose OCR 在 C# 中從圖像中提取文字，提升您的文字辨識應用程式。
 ### [C# OCR 教程 – 從圖像提取文字並匯出為 JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
@@ -281,6 +281,7 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 在離線環境中以 C# 完整辨識中文文字，提供詳細步驟與範例。
 ### [從影像提取文字並轉換為 JSONL – C# 教學](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 使用 Aspose.OCR 在 C# 中將影像文字提取並轉換為 JSONL 格式，提供完整步驟與範例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

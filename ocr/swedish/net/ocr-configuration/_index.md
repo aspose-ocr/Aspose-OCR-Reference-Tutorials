@@ -81,12 +81,12 @@ Lär dig att känna igen text i bilder med Aspose OCR i en komplett C#-guide.
 Lär dig hur du läser inbäddade resurser i .NET och konfigurerar Aspose-licensen korrekt.
 ### [Ladda ner OCR-språkmodell i C# med Aspose – Fullständig guide](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Lär dig hur du laddar ner och använder OCR-språkmodeller i C# med Aspose för optimal textigenkänning.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur du aktiverar GPU för Aspose OCR – Steg‑för‑steg‑guide](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Lär dig hur du aktiverar GPU-stöd i Aspose OCR för att förbättra prestanda i dina .NET‑applikationer.
 ### [Känn igen bildtext i C# – Arabisk OCR med Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -94,20 +94,20 @@ Lås upp arabisk OCR i .NET med Aspose. Lär dig att känna igen bildtext i C# e
 ### [Hur du ställer in Aspose-licens i C# – Komplett guide](./how-to-set-aspose-license-in-c-complete-guide/)
 Lär dig steg för steg hur du konfigurerar Aspose-licensen i C# för att aktivera full funktionalitet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur du tillämpar licens i Aspose OCR – Steg‑för‑steg C#‑guide](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Lär dig hur du aktiverar licensen för Aspose OCR i C# med en tydlig steg‑för‑steg‑guide.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.OCR i en kommersiell .NET-applikation?**  
@@ -135,6 +135,7 @@ Sammanfattningsvis erbjuder dessa OCR-konfigurationshandledningar en holistisk f
 ## Handledning för OCR-konfiguration
 ### [Hur man kontrollerar OCR-språkstöd i C# – Komplett guide](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Lär dig hur du verifierar vilka språk som stöds av OCR i C# med en komplett guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

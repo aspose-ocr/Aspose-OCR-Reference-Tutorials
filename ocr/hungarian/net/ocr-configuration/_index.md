@@ -76,12 +76,12 @@ Tanulja meg, hogyan használja a GPU-gyors OCR-t nyugták szövegének kinyerés
 Ismerje meg, hogyan olvassa be a beágyazott erőforrásokat .NET-ben, és állítsa be az Aspose licencet a projektben.
 ### [OCR nyelvi modell letöltése C#-ban az Aspose segítségével – Teljes útmutató](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Töltsön le OCR nyelvi modellt C#-ban az Aspose segítségével, és ismerje meg a teljes folyamatot a beállítástól a használatig.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan engedélyezzük a GPU-t az Aspose OCR-hez – Lépésről‑lépésre útmutató](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Ismerje meg, hogyan használhatja a GPU gyorsítást az Aspose OCR .NET-ben a teljesítmény növelése érdekében.
 ### [Képszöveg felismerése C#‑ban – Arab OCR az Aspose‑szal](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -89,20 +89,20 @@ Ismerje meg, hogyan használhatja az Aspose OCR‑t arab nyelvű képek szöveg�
 ### [Hogyan állítsuk be az Aspose licencet C#‑ban – Teljes útmutató](./how-to-set-aspose-license-in-c-complete-guide/)
 Ismerje meg, hogyan konfigurálja az Aspose licencet C#‑ban a zökkenőmentes működéshez.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan alkalmazzon licencet az Aspose OCR-ben – Lépésről‑lépésre C# útmutató](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Ismerje meg, hogyan aktiválhatja a licencet az Aspose OCR .NET könyvtárban C# nyelven, részletes lépésekkel.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.OCR-t kereskedelmi .NET alkalmazásban?**  

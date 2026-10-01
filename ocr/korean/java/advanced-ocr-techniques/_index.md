@@ -113,12 +113,12 @@ GPU를 활용해 Java OCR 성능을 크게 향상시키는 단계별 가이드�
 ### [Java에서 이미지 OCR 수행 – 손글씨 메모와 맞춤법 검사](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Java에서 손글씨 메모 이미지를 OCR하고 맞춤법 검사를 적용하는 방법을 단계별로 안내합니다. 정확한 텍스트 추출을 경험하세요.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR을 사용하여 이미지에서 OCR 수행 – Java 단계별 가이드](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 Aspose OCR을 활용해 Java에서 이미지 OCR을 단계별로 수행하는 방법을 안내합니다. 손쉽게 텍스트를 추출하세요.
 ### [GPU를 사용하여 OCR을 활성화하고 TIFF에서 텍스트 추출하기](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)

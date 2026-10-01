@@ -150,12 +150,12 @@ Aspose.OCR을 활용해 이미지에서 검색 가능한 PDF를 만들고 .NET �
 C#를 사용해 JPEG 이미지를 일괄적으로 OCR 처리하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose OCR을 사용해 이미지에서 텍스트 인식](./recognize-text-from-image-in-c-with-aspose-ocr/)
 Aspose OCR을 활용해 C#에서 이미지의 텍스트를 추출하는 방법을 단계별로 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose를 사용한 PDF OCR: 변환, 내보내기 및 검색](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 Aspose를 활용해 PDF를 OCR하고, 텍스트를 변환·내보내기·검색하는 방법을 단계별로 안내합니다.
 ### [C#에서 이미지 텍스트 변환 – 완전한 OCR 가이드](./convert-image-to-text-in-c-complete-ocr-guide/)
@@ -244,12 +244,12 @@ Aspose.OCR를 활용해 .NET에서 아랍어 텍스트를 정확히 인식하는
 ### [C#에서 Aspose OCR로 텍스트 인식하기 – 문자 수 표시 및 이미지 로드](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Aspose OCR을 사용해 C#에서 이미지 로드, 문자 수를 표시하며 텍스트를 인식하는 단계별 가이드를 제공합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C#에서 OCR 수행하기 – Aspose로 키릴 문자 인식하기](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aspose OCR을 사용하여 C#에서 키릴 문자 텍스트를 인식하는 방법을 단계별로 안내합니다.
 ### [TIFF에서 검색 가능한 PDF 만들기 – 완전 C# 가이드](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -258,12 +258,12 @@ Aspose.OCR을 사용하여 TIFF 파일을 검색 가능한 PDF로 변환하는 �
 Aspose.OCR을 사용하여 C#에서 OCR 텍스트를 추출하는 전체 단계별 가이드를 확인하세요.
 ### [Aspose OCR .NET으로 PNG 텍스트 인식 – 전체 로컬 OCR 가이드](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Aspose OCR .NET을 사용해 PNG 이미지에서 텍스트를 인식하는 전체 로컬 OCR 가이드를 단계별로 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# OCR 튜토리얼: Aspose OCR로 이미지에서 텍스트 추출](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR를 사용해 C#에서 이미지의 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [C# OCR 튜토리얼 – 이미지에서 텍스트 추출 및 JSON으로 내보내기](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
@@ -276,6 +276,7 @@ Aspose OCR C#를 사용해 러시아어 텍스트를 다중 페이지 PDF에서 
 오프라인에서 중국어 텍스트를 인식하는 완전한 C# OCR 튜토리얼로 Aspose.OCR을 활용하는 방법을 단계별로 안내합니다.
 ### [이미지에서 텍스트 추출 및 JSONL 변환 – C# 가이드](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 이미지에서 텍스트를 추출하고 JSONL 형식으로 변환하는 방법을 C#으로 단계별 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

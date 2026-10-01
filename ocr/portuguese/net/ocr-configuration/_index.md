@@ -73,12 +73,12 @@ Concluindo, esses tutoriais de configuração de OCR oferecem uma compreensão h
 Aprenda a ler recursos incorporados em .NET e configurar a licença Aspose de forma simples e eficaz.
 ### [Download do Modelo de Idioma OCR em C# com Aspose – Guia Completo](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Baixe o modelo de idioma OCR em C# usando Aspose e siga o guia completo para integrar reconhecimento de texto multilíngue.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como habilitar GPU para Aspose OCR – Guia passo a passo](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Habilite a GPU para melhorar o desempenho do Aspose OCR em suas aplicações .NET.
 ### [Reconhecer texto de imagem em C# – OCR em árabe com Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,20 +86,20 @@ Aprenda a extrair texto árabe de imagens usando OCR em C# com Aspose.
 ### [Como definir a licença Aspose em C# – Guia completo](./how-to-set-aspose-license-in-c-complete-guide/)
 Aprenda a configurar a licença Aspose em projetos C# passo a passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como Aplicar Licença no Aspose OCR – Guia passo a passo em C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aprenda a aplicar a licença do Aspose OCR em projetos C# de forma simples e rápida.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Perguntas Frequentes
 
 **Q: Posso usar Aspose.OCR em uma aplicação .NET comercial?**  
@@ -129,6 +129,7 @@ Concluindo, esses tutoriais de configuração de OCR oferecem uma compreensão h
 ## Tutoriais de configuração de OCR
 ### [Como Verificar o Suporte a Idiomas de OCR em C# – Guia Completo](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Aprenda a verificar o suporte a idiomas de OCR em C# com Aspose.OCR e garantir a extração correta de texto.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -113,12 +113,12 @@ Lär dig använda Aspose för OCR på flera språk i Java, med steg‑för‑ste
 ### [OCR för handskrivna anteckningar – Åtgärda fel med Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
 Lär dig hur du korrigerar fel i handskrivna anteckningar med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide för förbättrad noggrannhet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Känn igen text i bild med Aspose OCR GPU – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
 Utnyttja GPU-acceleration för att känna igen text i bilder med Aspose OCR i Java. Snabb och exakt textextraktion.
 ### [Fast trådpool i Java – parallell OCR för PNG](./fixed-thread-pool-java-parallel-ocr-for-png/)

@@ -168,12 +168,12 @@ Aspose.OCR と C# を使用して、画像から検索可能な PDF を作成す
 ### [C# で JPEG 画像を一括 OCR する完全ガイド](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 Aspose.OCR と C# を使用して、複数の JPEG 画像を一括で OCR 処理し、テキストを抽出する手順を詳しく解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# で画像からテキストを認識する – OCR と JSON の完全ガイド](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Aspose.OCR を使用して C# で画像からテキストを抽出し、結果を JSON 形式で取得する手順をステップバイステップで解説します。
 ### [TIFF から検索可能な PDF を作成 – 完全 C# ガイド](./create-searchable-pdf-from-tiff-full-c-guide/)
@@ -254,12 +254,12 @@ Aspose OCR を活用し、.NET アプリケーションで中国語テキスト�
 ### [C# でアラビア語 OCR を行う方法 – 完全ガイド](./how-to-ocr-arabic-in-c-complete-guide/)
 Aspose.OCR を使用して C# でアラビア語テキストを正確に抽出し、ステップバイステップで実装する方法を解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# で OCR を実行する方法 – Aspose でキリル文字を認識する](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aspose.OCR を使用して C# でキリル文字を認識する手順をステップバイステップで解説します。
 ### [TIFF から検索可能な PDF を作成 – 完全 C# ガイド](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -269,12 +269,12 @@ Aspose.OCR を使用して C# で OCR テキストを抽出する手順をステ
 ### [PNG 画像のテキスト認識 – Aspose OCR .NET 完全ローカル OCR ガイド](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Aspose.OCR を使用して PNG 画像からテキストをローカルで認識する完全ガイドです。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [c# OCR チュートリアル: Aspose OCR で画像からテキストを抽出する](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR を使用して C# アプリケーションで画像からテキストを抽出し、簡単に処理する方法をステップバイステップで解説します。
 ### [c# OCR チュートリアル – 画像からテキストを抽出し JSON にエクスポート](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)

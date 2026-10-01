@@ -73,12 +73,12 @@ Odemkněte výkonné možnosti OCR s Aspose.OCR pro .NET. Bezproblémově extrah
 Naučte se, jak načíst vložený zdroj a nastavit licenci Aspose v .NET aplikacích.
 ### [Stáhněte model jazyka OCR v C# s Aspose – Kompletní průvodce](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Kompletní návod, jak stáhnout a použít model jazyka OCR v C# pomocí Aspose.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak povolit GPU pro Aspose OCR – krok za krokem](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Povolení GPU akcelerace pro Aspose OCR v .NET aplikacích. Postupujte krok za krokem a zvýšte výkon.
 ### [Rozpoznání textu z obrázku v C# – arabské OCR s Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,21 +86,21 @@ Rozpoznávejte arabský text z obrázků v C# pomocí Aspose OCR.
 ### [Jak nastavit licenci Aspose v C# – Kompletní průvodce](./how-to-set-aspose-license-in-c-complete-guide/)
 Naučte se, jak v C# nastavit licenci Aspose a plně využít její funkce.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak použít licenci v Aspose OCR – krok za krokem průvodce v C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Naučte se, jak aktivovat licenci v Aspose OCR pro .NET aplikace pomocí C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.OCR v komerční .NET aplikaci?**  
@@ -126,6 +126,7 @@ Závěrem lze říci, že tyto konfigurační kurzy OCR nabízejí holistické p
 ## Výukové programy pro konfiguraci OCR
 ### [Jak zkontrolovat podporu jazyků OCR v C# – Kompletní průvodce](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Zjistěte, jak v C# ověřit, které jazyky OCR Aspose.OCR podporuje, a optimalizujte rozpoznávání textu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

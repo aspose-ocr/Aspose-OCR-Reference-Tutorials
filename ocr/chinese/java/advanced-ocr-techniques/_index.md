@@ -118,12 +118,12 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 ### [创建可搜索 PDF – Java 指南：将扫描的 PDF 转换为可搜索](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
 使用 Aspose.OCR for Java 将扫描的 PDF 转换为可搜索的 PDF，实现高精度文本提取和快速搜索功能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [使用 Aspose OCR GPU 识别文本图像 – Java](./recognize-text-image-using-aspose-ocr-gpu-java/)
 利用 Aspose OCR GPU 加速在 Java 中的文本图像识别，实现高效、精准的 OCR 处理。
 

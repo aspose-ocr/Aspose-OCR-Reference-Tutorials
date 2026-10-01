@@ -186,12 +186,12 @@ url: /zh/net/text-recognition/
 ### [如何在 C# 中批量 OCR JPEG 图像 – 完整指南](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 使用 Aspose.OCR 在 C# 中批量处理 JPEG 图像，实现高效的文本识别。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [使用 Aspose OCR 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 使用 Aspose.OCR 在 C# 中完整演示如何从图像中提取文本，提供分步指南，实现高效准确的文字识别。
 ### [在 C# 中从图像提取文本 – 完整 Aspose OCR 指南](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
@@ -261,12 +261,12 @@ url: /zh/net/text-recognition/
 ### [如何在 C# 中使用 Aspose OCR 识别文本 – 显示字符计数并加载图像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 通过 Aspose OCR 在 C# 中识别图像文本，显示字符计数并加载图像，帮助您轻松实现文本提取。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 C# 中执行 OCR – 使用 Aspose 识别西里尔文文本](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 使用 Aspose.OCR for .NET，在 C# 中轻松识别西里尔字母文本，提升多语言 OCR 能力。
 ### [从 TIFF 创建可搜索 PDF – 完整 C# 指南](./create-searchable-pdf-from-tiff-complete-c-guide/)
@@ -275,12 +275,12 @@ url: /zh/net/text-recognition/
 ### [使用 Aspose OCR .NET 识别 PNG 文本 – 完整本地 OCR 指南](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 通过 Aspose OCR .NET 完整指南，学习在本地环境中识别 PNG 图像中的文本。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [使用 Aspose OCR C# 识别俄文文本 – 完整多页 PDF 指南](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 通过本完整指南，使用 Aspose OCR C# 在多页 PDF 中识别俄文文本，实现高效提取与处理。
 ### [C# OCR 教程：使用 Aspose OCR 从图像提取文本](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)

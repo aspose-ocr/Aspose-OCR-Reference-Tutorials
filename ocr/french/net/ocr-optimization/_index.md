@@ -132,33 +132,33 @@ Apprenez à extraire du texte d'une image en appliquant des filtres de prétrait
 ### [Convertir une image en PDF en C# – Guide complet OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Apprenez à convertir des images en PDF avec Aspose.OCR en C#, incluant la reconnaissance de texte complète.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Prétraiter l'image OCR en C# – Améliorer la précision avec Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 ### [Comment effectuer une OCR par lots en C# avec le moteur OCR d'Aspose](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Apprenez à traiter plusieurs images en une seule opération OCR en C# avec le moteur Aspose OCR.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Prétraiter l'image pour l'OCR – Augmenter la précision avec Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Découvrez comment prétraiter vos images pour améliorer la précision de l'OCR avec Aspose OCR.
 ### [Tutoriel OCR C# – Reconnaître du texte à partir d'une image avec accélération GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Apprenez à exploiter la puissance GPU pour accélérer la reconnaissance de texte sur images avec Aspose.OCR pour .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Effectuer l'OCR sur une image avec accélération GPU – Guide complet C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Apprenez à exploiter la puissance GPU pour accélérer l'OCR d'images avec Aspose.OCR en C#.
 
@@ -189,7 +189,7 @@ R : Aspose propose des licences perpétuelles et d’abonnement. Choisissez le m
 
 **Dernière mise à jour :** 22/12/2025
 **Testé avec :** Aspose.OCR pour .NET (dernière version stable)
-**Auteur :** Aspose 
+**Auteur :** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

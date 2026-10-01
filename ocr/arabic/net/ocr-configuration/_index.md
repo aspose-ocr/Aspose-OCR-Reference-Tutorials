@@ -73,12 +73,12 @@ weight: 24
 تعلم كيفية قراءة الموارد المضمنة في .NET وتعيين ترخيص Aspose خطوة بخطوة.
 ### [تنزيل نموذج لغة OCR في C# باستخدام Aspose – دليل كامل](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 تعلم كيفية تنزيل نموذج لغة OCR واستخدامه في تطبيقات C# مع Aspose خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [كيفية تمكين وحدة معالجة الرسومات (GPU) لـ Aspose OCR – دليل خطوة بخطوة](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 تعلم كيفية تفعيل GPU لتسريع عمليات التعرف الضوئي على الحروف باستخدام Aspose OCR خطوة بخطوة.
 ### [التعرف على نص الصورة في C# – التعرف الضوئي على الحروف العربية باستخدام Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,20 +86,20 @@ weight: 24
 ### [كيفية تعيين ترخيص Aspose في C# – دليل كامل](./how-to-set-aspose-license-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية إعداد ترخيص Aspose في تطبيقات C# لضمان تشغيل المكتبة بدون قيود.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [كيفية تطبيق الترخيص في Aspose OCR – دليل خطوة بخطوة C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 تعلم كيفية تطبيق الترخيص في Aspose OCR باستخدام C# خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.OCR في تطبيق .NET تجاري؟**  
@@ -129,6 +129,7 @@ weight: 24
 ## دروس تكوين التعرف الضوئي على الحروف
 ### [كيفية التحقق من دعم لغات OCR في C# – دليل كامل](./how-to-check-ocr-language-support-in-c-complete-guide/)
 تعرف على طريقة فحص اللغات المدعومة في OCR باستخدام C# خطوة بخطوة باستخدام Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

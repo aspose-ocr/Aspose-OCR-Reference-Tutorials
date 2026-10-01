@@ -76,32 +76,32 @@ GPU 가속 OCR을 활용해 이미지 파일에서 영수증 텍스트를 빠르
 Aspose 라이선스를 설정하기 위해 .NET에서 임베디드 리소스를 읽는 방법을 단계별로 안내합니다.
 ### [Aspose와 함께 C#에서 OCR 언어 모델 다운로드 – 전체 가이드](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Aspose를 사용해 C#에서 OCR 언어 모델을 다운로드하고 적용하는 방법을 단계별로 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR에 GPU 활성화 방법 – 단계별 가이드](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Aspose OCR에서 GPU를 활성화하여 성능을 향상시키는 방법을 단계별로 안내합니다.
 ### [C#에서 이미지 텍스트 인식 – Aspose를 사용한 아랍어 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 Aspose OCR을 이용해 C#에서 아랍어 이미지 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose 라이선스 설정 방법 – 완전 가이드](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose 라이선스를 C#에 적용하여 기능을 활성화하는 단계별 가이드를 제공합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose OCR에서 라이선스 적용 방법 – 단계별 C# 가이드](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aspose OCR에서 라이선스를 적용하는 방법을 단계별로 안내합니다.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## 자주 묻는 질문
 
 **Q: 상용 .NET 애플리케이션에서 Aspose.OCR을 사용할 수 있나요?**  
