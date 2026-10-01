@@ -24,9 +24,7 @@ title: كيفية تحسين OCR في C# – تصحيح الميل، إزالة 
 url: /ar/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-unchanged.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

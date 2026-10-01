@@ -23,14 +23,6 @@ title: 如何從 JPG 建立可搜尋 PDF – 步驟教學
 url: /zh-hant/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-Now ensure we didn't miss any markdown elements.
-
-Check headings: we have #, ##, ###, etc.
-
-We need to keep the shortcodes at top and bottom exactly.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

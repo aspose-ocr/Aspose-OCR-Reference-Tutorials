@@ -24,24 +24,6 @@ title: Как улучшить OCR в C# – выравнивание, удал�
 url: /ru/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-, check out the open‑source `ImageSharp` library’s `Rotate` API. For deeper noise‑reduction, the `Accord.NET` framework offers custom filters you can chain before OCR."
-
-Translate.
-
----
-
-"That’s it! You now have a solid, production‑ready approach to **how to improve OCR** in C#. Play with the settings, throw in a few more images, and watch the recognition quality climb. Happy coding!"
-
-Translate, keep **how to improve OCR** unchanged.
-
-Finally closing shortcodes.
-
-We must ensure we keep all shortcodes at bottom.
-
-Now produce final translated markdown.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

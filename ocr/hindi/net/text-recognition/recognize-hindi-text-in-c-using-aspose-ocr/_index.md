@@ -24,7 +24,7 @@ title: Aspose OCR का उपयोग करके C# में हिंद�
 url: /hi/net/text-recognition/recognize-hindi-text-in-c-using-aspose-ocr/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

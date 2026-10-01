@@ -23,12 +23,6 @@ title: วิธีสร้าง PDF ที่ค้นหาได้จา�
 url: /th/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-.
-
-Make sure we keep the table markdown with pipes.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

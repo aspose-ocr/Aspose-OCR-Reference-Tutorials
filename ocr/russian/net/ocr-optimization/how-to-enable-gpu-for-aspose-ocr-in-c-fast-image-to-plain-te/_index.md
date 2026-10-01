@@ -25,22 +25,6 @@ title: Как включить GPU для Aspose OCR в C# — быстрое п
 url: /ru/net/ocr-optimization/how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/
 ---
 
-terms in English.
-
-We must ensure we keep all headings, lists, tables, etc.
-
-We need to translate everything except code block placeholders and shortcodes. Also the table content: "Issue", "Why it Happens", "Quick Fix" etc. Should we translate those? Yes, translate text content, but keep the table formatting. So translate the column headers and rows.
-
-Also translate the description text.
-
-We must preserve markdown syntax.
-
-Let's produce the translated version.
-
-We need to keep the shortcodes exactly as they are.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

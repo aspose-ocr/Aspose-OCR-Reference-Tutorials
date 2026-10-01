@@ -24,11 +24,7 @@ title: Jak używać OCR w C# – wyodrębniaj tekst z obrazu za pomocą Aspose O
 url: /pl/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/
 ---
 
-Jeśli ten przewodnik był pomocny, wystaw gwiazdkę na GitHubie, podziel się nim z zespołem lub zostaw komentarz poniżej z własnymi trikami OCR. Szczęśliwego kodowania!*"
-
-Then closing shortcodes unchanged.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

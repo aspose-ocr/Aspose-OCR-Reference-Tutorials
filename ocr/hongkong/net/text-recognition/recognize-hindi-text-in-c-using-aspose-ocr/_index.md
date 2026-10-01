@@ -21,8 +21,6 @@ title: 使用 Aspose OCR 在 C# 中辨識印地文文字
 url: /zh-hant/net/text-recognition/recognize-hindi-text-in-c-using-aspose-ocr/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

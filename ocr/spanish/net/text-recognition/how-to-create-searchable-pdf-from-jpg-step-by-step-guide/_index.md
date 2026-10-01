@@ -25,10 +25,6 @@ title: Cómo crear un PDF buscable a partir de JPG – Guía paso a paso
 url: /es/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-final output with same structure.
-
-Let's do it.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

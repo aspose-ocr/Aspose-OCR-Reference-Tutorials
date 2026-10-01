@@ -24,13 +24,7 @@ title: OCR por lotes de imágenes en C# – Guía completa para extraer texto
 url: /es/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-". Title attribute "Batch OCR images workflow" -> "Flujo de trabajo de OCR por lotes de imágenes". Keep alt and title.
-
-Now ensure shortcodes at end.
-
-We must keep the final shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

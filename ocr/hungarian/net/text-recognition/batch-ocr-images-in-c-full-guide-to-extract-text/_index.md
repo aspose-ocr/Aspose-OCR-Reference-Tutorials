@@ -24,9 +24,7 @@ title: Kötegelt OCR képek C#-ban – Teljes útmutató a szöveg kinyeréséhe
 url: /hu/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-Make sure we didn't translate any code or placeholders.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

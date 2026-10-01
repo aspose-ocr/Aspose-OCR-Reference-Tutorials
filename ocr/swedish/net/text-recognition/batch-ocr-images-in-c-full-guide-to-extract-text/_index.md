@@ -24,21 +24,7 @@ title: Batch OCR-bilder i C# – Fullständig guide för att extrahera text
 url: /sv/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All good.
-
-Now ensure we didn't miss any markdown links (none). Ensure we didn't translate code placeholders.
-
-Check for any other bold phrases: **batch OCR images**, **extract text from images**, **convert image to text**, **recognize text from image**, **read files from directory**. Keep them unchanged.
-
-Check the table: we kept code unchanged.
-
-Check the quote blocks.
-
-Everything good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

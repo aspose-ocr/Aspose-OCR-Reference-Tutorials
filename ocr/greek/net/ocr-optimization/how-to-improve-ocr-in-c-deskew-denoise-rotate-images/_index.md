@@ -27,14 +27,6 @@ title: Πώς να βελτιώσετε το OCR σε C# – Διόρθωση κ
 url: /el/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-ραματιστείτε με τις ρυθμίσεις, προσθέστε μερικές ακόμη εικόνες, και παρακολουθήστε την ποιότητα της αναγνώρισης να βελτιώνεται. Καλή προγραμματιστική!"
-
-Then closing shortcodes.
-
-We must keep the final shortcodes unchanged.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

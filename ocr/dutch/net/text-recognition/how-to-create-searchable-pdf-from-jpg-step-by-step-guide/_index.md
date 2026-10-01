@@ -25,8 +25,6 @@ title: Hoe maak je een doorzoekbare PDF van JPG – Stapsgewijze handleiding
 url: /nl/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

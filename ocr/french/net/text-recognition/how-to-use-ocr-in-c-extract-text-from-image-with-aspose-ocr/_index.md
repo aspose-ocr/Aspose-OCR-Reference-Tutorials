@@ -24,11 +24,7 @@ title: Comment utiliser l'OCR en C# – Extraire du texte d’une image avec Asp
 url: /fr/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/
 ---
 
-sure to keep them unchanged.
-
-Also ensure we didn't translate any code block placeholders.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

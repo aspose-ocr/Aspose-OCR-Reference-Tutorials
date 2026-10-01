@@ -25,9 +25,7 @@ title: C#'ta Aspose OCR için GPU'yu Nasıl Etkinleştirirsiniz – Hızlı Gör
 url: /tr/net/ocr-optimization/how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/
 ---
 
-Make sure markdown formatting preserved.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,9 +24,7 @@ title: Dávkové OCR obrázky v C# – Kompletní průvodce extrakcí textu
 url: /cs/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-ku a převod obrázku na text". That's okay.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

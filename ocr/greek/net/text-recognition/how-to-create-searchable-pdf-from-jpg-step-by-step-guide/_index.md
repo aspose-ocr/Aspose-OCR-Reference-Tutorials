@@ -25,13 +25,7 @@ title: Πώς να δημιουργήσετε αναζητήσιμο PDF από 
 url: /el/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-/products/products-backtop-button >}}
-
-All unchanged.
-
-Now produce final output with all translated content, preserving formatting.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,16 +25,6 @@ title: Comment créer un PDF consultable à partir d’un JPG – Guide étape p
 url: /fr/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-"Alt text:" line after image? Actually there is a line "*Alt text: Diagram showing how to create searchable PDF from a JPG using OCR.*" That's a separate line. Should translate that line.
-
-We need to translate "## What You'll Need" etc.
-
-Make sure not to translate code placeholders like `input.jpg`, `output.pdf`, etc.
-
-Also keep variable names unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

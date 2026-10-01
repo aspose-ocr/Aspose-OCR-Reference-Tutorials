@@ -24,9 +24,7 @@ title: Cómo mejorar OCR en C# – Enderezar, eliminar ruido y rotar imágenes
 url: /es/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-Make sure we preserve bullet list formatting.
-
-Now produce final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

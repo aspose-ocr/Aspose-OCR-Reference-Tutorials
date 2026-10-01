@@ -23,10 +23,6 @@ title: igenkänna text från bild i C# med Aspose OCR
 url: /sv/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

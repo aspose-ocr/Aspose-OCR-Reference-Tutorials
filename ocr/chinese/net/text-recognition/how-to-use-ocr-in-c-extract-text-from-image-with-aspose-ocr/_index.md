@@ -20,10 +20,6 @@ title: 如何在 C# 中使用 OCR – 使用 Aspose OCR 从图像提取文本
 url: /zh/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/
 ---
 
-" but Chinese is LTR, ignore.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

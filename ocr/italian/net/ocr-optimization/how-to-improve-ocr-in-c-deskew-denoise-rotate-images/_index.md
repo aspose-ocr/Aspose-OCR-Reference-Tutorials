@@ -25,10 +25,6 @@ title: Come migliorare l'OCR in C# – Raddrizzare, ridurre il rumore e ruotare 
 url: /it/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-bullet points.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

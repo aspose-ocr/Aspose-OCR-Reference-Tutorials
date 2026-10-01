@@ -21,10 +21,6 @@ title: 如何在 C# 中改进 OCR——去倾斜、去噪声和旋转图像
 url: /zh/net/ocr-optimization/how-to-improve-ocr-in-c-deskew-denoise-rotate-images/
 ---
 
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

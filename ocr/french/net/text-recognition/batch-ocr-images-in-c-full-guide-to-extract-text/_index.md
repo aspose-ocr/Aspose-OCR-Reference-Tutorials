@@ -24,11 +24,7 @@ title: OCR d'images par lots en C# – Guide complet pour extraire le texte
 url: /fr/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-Check that we didn't translate variable names.
-
-Check that we kept markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

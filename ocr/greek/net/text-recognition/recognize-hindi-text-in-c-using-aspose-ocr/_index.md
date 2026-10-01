@@ -25,9 +25,7 @@ title: Αναγνώριση κειμένου Χίντι σε C# χρησιμοπ
 url: /el/net/text-recognition/recognize-hindi-text-in-c-using-aspose-ocr/
 ---
 
-placeholders.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

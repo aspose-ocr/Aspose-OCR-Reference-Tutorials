@@ -23,12 +23,6 @@ title: Rozpoznat text z obrázku v C# pomocí Aspose OCR
 url: /cs/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-column headers and rows.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

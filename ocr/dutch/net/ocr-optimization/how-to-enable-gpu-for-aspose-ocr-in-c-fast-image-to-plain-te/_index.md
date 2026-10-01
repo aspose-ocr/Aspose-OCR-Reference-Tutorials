@@ -25,13 +25,6 @@ title: Hoe GPU voor Aspose OCR in C# in te schakelen – Snelle afbeelding naar 
 url: /nl/net/ocr-optimization/how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/
 ---
 
-| Out‑dated driver or missing CUDA runtime | Install the latest NVIDIA driver and CUDA toolkit |
-...
-
-We'll translate header cells.
-
-Now produce final output with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

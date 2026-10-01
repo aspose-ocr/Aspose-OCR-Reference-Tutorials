@@ -25,9 +25,7 @@ title: Jak vytvořit prohledávatelný PDF z JPG – krok za krokem
 url: /cs/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-CODE_BLOCK_0}} etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

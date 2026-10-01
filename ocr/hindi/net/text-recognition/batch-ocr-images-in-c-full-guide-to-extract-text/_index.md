@@ -24,24 +24,6 @@ title: C# में बैच OCR इमेज – टेक्स्ट नि�
 url: /hi/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-blocks/products/products-backtop-button >}}
-
-All preserved.
-
-Now ensure we didn't miss any markdown formatting like lists, tables, blockquotes.
-
-We have a list under "What You'll Need". Keep bullet list.
-
-We have a table.
-
-We have blockquotes.
-
-We have code block placeholders.
-
-All good.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

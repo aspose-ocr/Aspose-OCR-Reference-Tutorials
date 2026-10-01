@@ -24,9 +24,7 @@ title: Cách Tạo PDF Có Thể Tìm Kiếm Từ JPG – Hướng Dẫn Từng 
 url: /vi/net/text-recognition/how-to-create-searchable-pdf-from-jpg-step-by-step-guide/
 ---
 
-We didn't.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

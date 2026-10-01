@@ -20,15 +20,7 @@ title: Aspose OCR を使用して C# で画像からテキストを認識する
 url: /ja/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-only image link.
-
-Check that we didn't translate URLs.
-
-Check that we kept bold markup.
-
-Check that we didn't translate variable names etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

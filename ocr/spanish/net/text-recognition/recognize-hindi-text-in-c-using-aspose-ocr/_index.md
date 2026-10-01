@@ -24,15 +24,7 @@ title: reconocer texto hindi en C# usando Aspose OCR
 url: /es/net/text-recognition/recognize-hindi-text-in-c-using-aspose-ocr/
 ---
 
-codes: {{< /blocks/products/pf/tutorial-page-section >}} etc. Keep.
-
-Also final button shortcode.
-
-Now produce final content with all translations.
-
-Be careful to keep code block placeholders unchanged. Also keep markdown formatting.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,7 @@ title: C# में Aspose OCR का उपयोग करके छवि स
 url: /hi/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

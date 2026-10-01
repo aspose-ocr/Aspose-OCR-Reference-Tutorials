@@ -24,10 +24,6 @@ title: Szöveg felismerése képről C#-ban az Aspose OCR használatával
 url: /hu/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-remain.
-
-Now produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

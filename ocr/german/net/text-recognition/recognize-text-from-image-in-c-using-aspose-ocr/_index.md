@@ -24,11 +24,7 @@ title: Text aus Bild in C# mit Aspose OCR erkennen
 url: /de/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
 
-how to extract text using Aspose**". Already.
-
-Now produce final translated markdown with all modifications.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

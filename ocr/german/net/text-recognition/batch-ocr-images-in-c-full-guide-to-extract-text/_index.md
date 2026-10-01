@@ -24,14 +24,6 @@ title: Batch-OCR-Bilder in C# – Vollständige Anleitung zur Textextraktion
 url: /de/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-: CODE_BLOCK_0,1,2,3,4. Keep them.
-
-Check for any other markdown elements: bullet lists, tables, blockquote.
-
-All good.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

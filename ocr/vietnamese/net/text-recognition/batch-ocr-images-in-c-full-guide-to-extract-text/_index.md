@@ -24,14 +24,6 @@ title: OCR Hình ảnh Hàng loạt trong C# – Hướng Dẫn Toàn Diện Đ�
 url: /vi/net/text-recognition/batch-ocr-images-in-c-full-guide-to-extract-text/
 ---
 
-content.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
