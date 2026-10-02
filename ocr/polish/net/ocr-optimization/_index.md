@@ -61,9 +61,6 @@ Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed OCR, zw
 ### [Jak poprawić OCR w C# – prostowanie, odszumianie i obracanie obrazów](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 Dowiedz się, jak zwiększyć jakość OCR w C# poprzez prostowanie, odszumianie i obracanie obrazów przed rozpoznawaniem.
 
-### [Jak używać filtrów w Aspose OCR – zwiększ wydobycie tekstu](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
-Dowiedz się, jak zastosować filtry w Aspose OCR, aby poprawić dokładność i szybkość wyodrębniania tekstu z obrazów.
-
 ## Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR
 
 Funkcja dodatkowa OCR dzięki [Aspose.OCR for .NET](./result-correction-with-spell-checking/). Nasz samouczek o korekcji wyników przy użyciu sprawdzania pisowni umożliwia rozszerzenie słowników, poprawianie błędów ortograficznych i zapewnianie wykrywania tekstu bez błędów. Zanurz się w świecie precyzji z Aspose.OCR.
@@ -75,6 +72,9 @@ Bezproblemowo zapisz wielostronne wyniki OCR jako dokumenty przy użyciu Aspose.
 Dodatek z listami samouczków Aspose.OCR Dla .NET można uzyskać dostęp do dodatkowych zasobów i być na bieżąco z najnowszymi wydaniami w aktualizacjach OCR. Zanurz się w świecie precyzji i wydajności dzięki samouczkom Aspose.OCR dla .NET.
 
 ## Poradniki optymalizacji OCR
+### [Jak używać filtrów w Aspose OCR – zwiększ wydobycie tekstu](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Dowiedz się, jak zastosować filtry w Aspose OCR, aby poprawić dokładność i szybkość wyodrębniania tekstu z obrazów.
+
 ### [Wykonaj OCR na obrazie z adresu URL w Rozpoznawaniu obrazu OCR](./perform-ocr-on-image-from-url/)
 Poznaj bezproblemową integrację OCR z Aspose.OCR dla .NET. Precyzyjne rozpoznawanie tekstu na obrazach.
 ### [Przygotuj prostokąty w rozpoznawaniu obrazu OCR](./prepare-rectangles/)
@@ -83,8 +83,13 @@ Odblokuj potencjał Aspose.OCR dla .NET dzięki naszemu obszernemu przewodnikowi
 Przeglądaj Aspose.OCR dla .NET. Zwiększ dokładność OCR dzięki filtrom przetwarzania wstępnego. Pobierz teraz, aby zapewnić bezproblemową integrację.
 ### [Przetwarzanie wstępne obrazu OCR w C# – Kompletny przewodnik z filtrami](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
 Poznaj pełny przewodnik po przetwarzaniu wstępnym obrazów OCR w C# z użyciem filtrów, aby zwiększyć dokładność.
+### [Korekta wyników poprzez sprawdzanie pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
+Zwiększ dokładność OCR dzięki Aspose.OCR dla .NET. Poprawiaj pisownię, dostosowuj słowniki i bezproblemowo rozpoznawaj tekst bez błędów.
 ### [Zapisz wynik wielostronicowy jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR dla .NET. Z łatwością zapisuj wielostronicowe wyniki OCR jako dokumenty, korzystając z tego obszernego przewodnika krok po kroku.
+### [Aspose OCR GPU: szybkie rozpoznawanie tekstu w C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+Wykorzystaj GPU do przyspieszenia OCR w C# przy użyciu Aspose OCR.
+
 ### [Jak używać Aspose OCR z GPU – przewodnik krok po kroku](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 Dowiedz się, jak przyspieszyć OCR przy użyciu GPU w Aspose OCR, krok po kroku, zwiększając wydajność i dokładność.
 ### [Wyodrębnianie tekstu z obrazów PNG w C# – Batch OCR przy użyciu Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
@@ -114,11 +119,6 @@ Poznaj, jak wykorzystać przyspieszenie GPU w C# do rozpoznawania tekstu z obraz
 
 
 
-### [Jak używać filtrów w Aspose OCR – zwiększ wydobycie tekstu](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
-Dowiedz się, jak zastosować filtry w Aspose OCR, aby poprawić dokładność i szybkość wyodrębniania tekstu z obrazów.
-
-### [Korekcja wyników z sprawdzaniem pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
-Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, dostosowuj słowniki i osiągaj rozpoznawanie tekstu bez błędów bez wysiłku.
 
 
 
@@ -189,9 +189,6 @@ Wykorzystaj moc GPU do przyspieszenia OCR w C#, zwiększając wydajność przetw
 
 ### [Wyodrębnianie tekstu z obrazu – Kompletny przewodnik C# OCR z redukcją szumów](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Pełny przewodnik po OCR w C#, obejmujący redukcję szumów, optymalizację przetwarzania i zapisywanie wyników.
-
-### [Aspose OCR GPU: szybkie rozpoznawanie tekstu w C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
-Wykorzystaj GPU do przyspieszenia OCR w C# przy użyciu Aspose OCR.
 
 ## Często zadawane pytania
 
