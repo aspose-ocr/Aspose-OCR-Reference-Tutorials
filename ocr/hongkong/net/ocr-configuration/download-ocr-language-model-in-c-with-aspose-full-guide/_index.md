@@ -24,7 +24,6 @@ url: /zh-hant/net/ocr-configuration/download-ocr-language-model-in-c-with-aspose
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/p/tutorial-page-section >}}
 
 # 下載 OCR 語言模型 – 完整 Aspose OCR 指南
 
