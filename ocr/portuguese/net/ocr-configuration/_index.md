@@ -53,6 +53,8 @@ Desbloqueie o potencial do Aspose.OCR para .NET. Realize reconhecimento de image
 Aprenda a usar OCR acelerado por GPU para extrair texto de recibos a partir de arquivos de imagem em C#.
 ### [Criar PDF pesquisável em C# – Guia de conversão OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Aprenda a converter documentos em PDF pesquisáveis usando Aspose.OCR em C#.
+### [Como habilitar OCR em C# – Converta PDF em texto facilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Desbloqueie o OCR em C# para converter PDFs em texto de forma simples e rápida.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

@@ -307,6 +307,12 @@ Dowiedz się, jak przy użyciu Aspose OCR w C# konwertować wielostronicowe plik
 Dowiedz się, jak asynchronicznie wyodrębniać tekst z obrazów przy użyciu Aspose.OCR w C# w kilku prostych krokach.
 ### [Jak używać OCR w C# – wyodrębnić arabski tekst (kompletny przewodnik)](./how-to-ocr-arabic-complete-c-guide-for-extract-tex/)
 Dowiedz się, jak przy pomocy Aspose.OCR w C# wyodrębnić arabski tekst z obrazów w kilku prostych krokach.
+### [Wyodrębnij tekst z obrazu w C# – Kompletny przewodnik krok po kroku](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Ucz się, jak w prosty sposób wyodrębnić tekst z obrazu w C# przy użyciu Aspose.OCR, krok po kroku.
+### [Utwórz przeszukiwany PDF ze skanowanych obrazów za pomocą Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Użyj Aspose OCR, aby przekształcić zeskanowane obrazy w przeszukiwalny plik PDF, zachowując jakość i umożliwiając wyszukiwanie tekstu.
+### [Konwertuj obraz na JSON przy użyciu Aspose OCR – przewodnik krok po kroku](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Ucz się, jak łatwo konwertować obrazy do formatu JSON przy użyciu Aspose OCR, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

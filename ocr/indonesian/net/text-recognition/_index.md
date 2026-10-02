@@ -315,6 +315,12 @@ Ubah PDF multi halaman menjadi HTML menggunakan Aspose OCR di C#. Ikuti panduan 
 ### [Cara OCR Arab – Panduan Lengkap C# untuk Mengekstrak Teks Arab](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks Arab dari gambar dengan panduan langkah demi langkah.
 
+### [Buat PDF yang Dapat Dicari dari Gambar yang Dipindai dengan Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Pelajari cara mengonversi gambar hasil pemindaian menjadi PDF yang dapat dicari menggunakan Aspose OCR dalam .NET.
+### [Ekstrak Teks dari Gambar di C# – Panduan Lengkap Langkah demi Langkah](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan lengkap langkah demi langkah.
+### [Mengonversi Gambar ke JSON dengan Aspose OCR – Panduan Langkah demi Langkah](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Pelajari cara mengonversi gambar menjadi JSON menggunakan Aspose OCR dalam .NET dengan panduan langkah demi langkah.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

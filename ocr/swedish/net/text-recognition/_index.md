@@ -315,6 +315,12 @@ Lär dig hur du asynkront extraherar text från bildfiler med Aspose.OCR i C# f�
 ### [Hur du OCR:ar arabiska – Komplett C#-guide för att extrahera arabisk text](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera arabiska texter från bildfiler.
 
+### [Extrahera text från bild i C# – Komplett steg‑för‑steg‑guide](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR extraherar text från bilder i C# med en detaljerad steg‑för‑steg‑instruktion.
+### [Skapa sökbar PDF från skannade bilder med Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Lär dig hur du med Aspose OCR omvandlar skannade bilder till sökbara PDF-filer för enkel textåtkomst.
+### [Konvertera bild till JSON med Aspose OCR – steg‑för‑steg‑guide](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Lär dig hur du konverterar en bild till JSON med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

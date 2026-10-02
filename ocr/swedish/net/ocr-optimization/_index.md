@@ -188,6 +188,9 @@ Lär dig hur du använder Aspose.OCR för .NET med GPU-acceleration för att eff
 Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer med Aspose.OCR.
 ### [Extrahera text från bild – Komplett C# OCR‑guide med brusreducering](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
+### [Hur man använder filter i Aspose OCR – Öka textutvinning](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Lär dig använda filter i Aspose OCR för att förbättra textigenkänning och öka noggrannheten.
+### [Aspose OCR GPU: Snabb textigenkänning med C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 
 ## Vanliga frågor
 

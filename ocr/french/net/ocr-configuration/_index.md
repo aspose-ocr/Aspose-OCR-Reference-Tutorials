@@ -74,6 +74,8 @@ Apprenez à utiliser l'OCR GPU d'Aspose pour lire les reçus à partir d'images 
 
 ### [Créer un PDF consultable en C# – Guide de conversion OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Apprenez à transformer des documents PDF en fichiers consultables grâce à l’OCR avec Aspose.OCR en C#.
+### [Comment activer l'OCR en C# – Convertir facilement un PDF en texte](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Apprenez à activer l'OCR en C# pour convertir rapidement des PDF en texte exploitable.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

@@ -71,6 +71,8 @@ Extract Russian text and set resource path in C# using Aspose OCR for .NET appli
 Learn how to load an image and extract receipt text using GPU‑accelerated OCR in C# with Aspose.OCR.
 ### [Create searchable pdf in C# – OCR conversion guide](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Learn how to convert PDFs into searchable documents using Aspose.OCR in C#, covering OCR processing and PDF generation.
+### [How to Enable OCR in C# – Convert PDF to Text Easily](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Learn how to enable OCR in C# and convert PDF files to searchable text using Aspose.OCR.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

@@ -65,6 +65,7 @@ Lås upp möjligheten att skapa sökbara PDF-filer med OCR i C# med Aspose.OCR.
 
 ### [Ladda bildfil och extrahera kvittotext med GPU‑OCR i C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Använd GPU‑accelererad OCR för snabb kvittotextutvinning i C#‑applikationer.
+### [Hur man aktiverar OCR i C# – Konvertera PDF till text enkelt](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

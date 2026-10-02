@@ -64,6 +64,8 @@ Dowiedz się, jak przy użyciu Aspose.OCR przekształcić obrazy w przeszukiwaln
 
 ### [Wczytaj plik obrazu i wyodrębnij tekst paragonu przy użyciu GPU OCR w C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Wczytaj obraz i przyspiesz rozpoznawanie paragonu dzięki GPU OCR w C#.
+### [Jak włączyć OCR w C# – Łatwe konwertowanie PDF na tekst](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Dowiedz się, jak używać Aspose.OCR w C# do konwersji PDF na tekst w kilku prostych krokach.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

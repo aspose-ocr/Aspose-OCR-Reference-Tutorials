@@ -295,6 +295,12 @@ url: /ru/net/text-recognition/
 Узнайте, как конвертировать многостраничные PDF в HTML с помощью Aspose OCR и C# для .NET приложений.
 ### [Как распознать арабский – Полное руководство C# по извлечению арабского текста](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Узнайте, как использовать Aspose.OCR в C# для точного извлечения арабского текста из изображений.
+### [Извлечение текста из изображения на C# – Полное пошаговое руководство](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Извлеките текст из изображений с помощью Aspose.OCR в C#. Подробное пошаговое руководство.
+### [Создание поискового PDF из отсканированных изображений с Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Научитесь преобразовывать отсканированные изображения в PDF с поддержкой поиска, используя возможности Aspose OCR.
+### [Преобразование изображения в JSON с Aspose OCR – пошаговое руководство](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Научитесь преобразовывать изображения в JSON-формат с помощью Aspose OCR, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

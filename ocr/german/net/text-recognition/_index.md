@@ -299,6 +299,12 @@ Erfahren Sie, wie Sie mehrseitige PDF‑Dateien mit Aspose OCR in HTML umwandeln
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bilddateien asynchron extrahieren und in Ihre .NET‑Anwendungen integrieren.
 ### [Wie man arabisches OCR verwendet – Vollständiger C#‑Leitfaden zum Extrahieren arabischen Textes](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# arabischen Text aus Bildern extrahieren und Ihre .NET‑Anwendungen erweitern.
+### [Text aus Bild in C# extrahieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Lernen Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Erstellen Sie ein durchsuchbares PDF aus gescannten Bildern mit Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR gescannte Bilder in durchsuchbare PDFs umwandeln und nahtlos in Ihre .NET-Anwendungen integrieren.
+### [Bild in JSON konvertieren mit Aspose OCR – Schritt‑für‑Schritt‑Anleitung](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR Bilder in JSON konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

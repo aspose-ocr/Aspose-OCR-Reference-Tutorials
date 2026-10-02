@@ -64,6 +64,7 @@ weight: 24
 ### [โหลดไฟล์ภาพและดึงข้อความใบเสร็จด้วย GPU OCR ใน C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 ### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือการแปลง OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 เรียนรู้วิธีแปลงไฟล์ PDF ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียด
+### [วิธีเปิดใช้งาน OCR ใน C# – แปลง PDF เป็นข้อความได้ง่าย](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  

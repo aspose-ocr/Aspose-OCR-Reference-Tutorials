@@ -71,6 +71,9 @@ Explore l'intégration transparente de l'OCR avec Aspose.OCR pour .NET. Reconnai
 Libérez le potentiel d’Aspose.OCR pour .NET avec notre guide complet. Apprenez étape par étape comment préparer des rectangles pour la reconnaissance d'images. Améliorez vos applications .NET grâce à une intégration OCR transparente.
 ### [Filtres de prétraitement pour l'image dans la reconnaissance d'image OCR](./preprocessing-filters-for-image/)
 Explorez Aspose.OCR pour .NET. Améliorez la précision de l'OCR avec des filtres de prétraitement. Téléchargez-le maintenant pour une intégration transparente.
+### [Comment utiliser les filtres dans Aspose OCR – Optimiser l'extraction de texte](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Apprenez à appliquer les filtres d'Aspose OCR pour améliorer la précision et la vitesse d'extraction du texte.
+
 ### [Prétraiter l'image OCR en C# – Guide complet étape par étape](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Apprenez à appliquer les filtres de prétraitement sur les images en C# pour améliorer la précision OCR, avec un guide détaillé pas à pas.
 
@@ -79,6 +82,9 @@ Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les faut
 
 ### [Enregistrer le résultat multipage en tant que document dans la reconnaissance d'image OCR](./save-multipage-result-as-document/)
 Libérez le potentiel d’Aspose.OCR pour .NET. Enregistrez sans effort les résultats OCR de plusieurs pages sous forme de documents grâce à ce guide complet étape par étape.
+### [Aspose OCR GPU : reconnaissance rapide de texte avec C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+Utilisez le GPU pour accélérer la reconnaissance de texte avec Aspose OCR et C#, obtenez des performances élevées sur de grands volumes d'images.
+
 ### [Reconnaître du texte à partir d'une image avec OCR accéléré GPU en C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
 Utilisez l'OCR accéléré par GPU en C# pour extraire rapidement du texte d'images avec une précision élevée.
 

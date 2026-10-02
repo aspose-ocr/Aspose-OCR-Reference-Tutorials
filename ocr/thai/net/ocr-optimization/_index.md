@@ -61,6 +61,8 @@ weight: 25
 
 
 
+### [วิธีใช้ฟิลเตอร์ใน Aspose OCR – เพิ่มประสิทธิภาพการแยกข้อความ](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+
 ### [การแก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดใน OCR Image Recognition](./result-correction-with-spell-checking/)
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR สำหรับ .NET แก้ไขการสะกด, ปรับแต่งพจนานุกรม, และบรรลุการจดจำข้อความที่ปราศจากข้อผิดพลาดอย่างง่ายดาย.
 ### [บันทึกผลลัพธ์หลายหน้าเป็นเอกสารใน OCR Image Recognition](./save-multipage-result-as-document/)
@@ -174,6 +176,8 @@ weight: 25
 
 ### [ดึงข้อความจากภาพ – คู่มือ OCR C# ฉบับเต็มพร้อมการลดสัญญาณรบกวน](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อลดสัญญาณรบกวนและดึงข้อความจากภาพอย่างแม่นยำ
+
+### [Aspose OCR GPU: การจดจำข้อความอย่างเร็วด้วย C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 
 ## คำถามที่พบบ่อย
 

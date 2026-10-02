@@ -296,6 +296,12 @@ C# में Aspose.OCR से इमेज फ़ाइलों से टे�
 C# में Aspose OCR का उपयोग करके मल्टी‑पेज PDF को HTML में बदलने की चरण‑दर‑स्टेप गाइड।
 ### [अरबी OCR कैसे करें – अरबी टेक्स्ट निकालने के लिए पूर्ण C# गाइड](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 C# में Aspose.OCR का उपयोग करके अरबी टेक्स्ट निकालने की विस्तृत चरण‑दर‑स्टेप गाइड।
+### [Aspose OCR के साथ छवि को JSON में बदलें – चरण‑दर‑चरण मार्गदर्शिका](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR का उपयोग करके छवि को JSON प्रारूप में बदलने की चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में छवि से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके छवि से सटीक टेक्स्ट निकालने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR के साथ स्कैन की गई छवियों से खोज योग्य PDF बनाएं](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Aspose OCR का उपयोग करके स्कैन की गई छवियों को खोज योग्य PDF में बदलने की चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

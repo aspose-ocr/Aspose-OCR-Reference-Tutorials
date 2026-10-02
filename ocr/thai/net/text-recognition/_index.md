@@ -282,6 +282,12 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลง PDF หลายหน้าเป็น HTML ด้วย Aspose OCR ใน C# เพื่อการประมวลผลที่รวดเร็วและแม่นยำ
 ### [วิธีใช้ OCR ภาษาอาหรับ – คู่มือ C# ครบถ้วนสำหรับการดึงข้อความภาษาอาหรับ](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความภาษาอาหรับจากรูปภาพอย่างแม่นยำและมีประสิทธิภาพ
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือขั้นตอนเต็ม](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย C# อย่างละเอียดตามขั้นตอนที่ชัดเจน
+### [สร้าง PDF ที่สามารถค้นหาได้จากภาพสแกนด้วย Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพสแกนโดยใช้ Aspose OCR เพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
+### [แปลงรูปภาพเป็น JSON ด้วย Aspose OCR – คู่มือขั้นตอนเต็ม](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+เรียนรู้วิธีแปลงภาพเป็น JSON อย่างง่ายด้วย Aspose OCR ผ่านขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

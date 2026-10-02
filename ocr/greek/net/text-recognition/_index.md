@@ -308,6 +308,12 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από εικόνες ασύγχρονα χρησιμοποιώντας OCR σε C# με απλά βήματα.
 ### [Πώς να κάνετε OCR Αραβικών – Πλήρης C# Οδηγός για Εξαγωγή Αραβικού Κειμένου](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Ανακαλύψτε πώς να εξάγετε αραβικό κείμενο από εικόνες χρησιμοποιώντας OCR σε C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Πλήρης οδηγός βήμα‑βήμα](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose.OCR σε C# με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης από σαρωμένες εικόνες με Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Μετατρέψτε σαρωμένες εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας το Aspose.OCR για .NET. Ακολουθήστε τον βήμα‑βήμα οδηγό μας.
+### [Μετατροπή εικόνας σε JSON με Aspose OCR – οδηγός βήμα‑βήμα](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε JSON χρησιμοποιώντας το Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

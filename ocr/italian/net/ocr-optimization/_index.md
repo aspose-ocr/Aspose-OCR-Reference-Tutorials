@@ -188,6 +188,10 @@ Scopri come utilizzare Aspose.OCR per .NET con accelerazione GPU per riconoscere
 Scopri come sfruttare la potenza GPU per accelerare l'OCR in C# con Aspose.OCR, migliorando velocità e precisione.
 ### [Estrai testo da immagine – Guida completa OCR in C# con riduzione del rumore](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Scopri come estrarre testo da immagini usando C# e Aspose.OCR, includendo tecniche di riduzione del rumore per massimizzare la precisione.
+### [Come utilizzare i filtri in Aspose OCR – Potenzia l'estrazione del testo](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Scopri come applicare i filtri di pre‑elaborazione in Aspose OCR per migliorare l'accuratezza e la velocità dell'estrazione del testo.
+### [Aspose OCR GPU: Riconoscimento Veloce del Testo con C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+Scopri come sfruttare la GPU per accelerare il riconoscimento OCR con Aspose in C#.
 
 ## Domande Frequenti
 

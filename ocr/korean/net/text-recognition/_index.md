@@ -300,6 +300,12 @@ C#와 Aspose OCR을 사용하여 다중 페이지 PDF를 HTML로 변환하는 �
 ### [아랍어 OCR 방법 – 아랍어 텍스트 추출을 위한 완전한 C# 가이드](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 C#와 Aspose.OCR을 사용해 아랍어 텍스트를 정확히 추출하는 단계별 완전 가이드
 
+### [C#에서 이미지 텍스트 추출 – 완전 단계별 가이드](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Aspose.OCR를 사용하여 C#에서 이미지의 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR로 스캔 이미지에서 검색 가능한 PDF 만들기](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Aspose OCR를 활용해 스캔한 이미지에서 검색 가능한 PDF를 생성하는 단계별 가이드를 확인하세요.
+### [이미지를 JSON으로 변환 – Aspose OCR 단계별 가이드](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR를 사용하여 이미지를 JSON 형식으로 변환하는 단계별 가이드를 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

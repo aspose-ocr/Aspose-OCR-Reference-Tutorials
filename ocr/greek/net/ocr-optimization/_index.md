@@ -187,6 +187,10 @@ weight: 25
 ### [recognize text from image using GPU‑accelerated OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
 ### [Εξαγωγή κειμένου από εικόνα – Πλήρης οδηγός C# OCR με μείωση θορύβου](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Μάθετε πώς να βελτιώσετε την ακρίβεια OCR με τεχνικές μείωσης θορύβου σε C# εφαρμογές.
+### [Aspose OCR GPU: Γρήγορη αναγνώριση κειμένου με C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+Ανακαλύψτε πώς να εκμεταλλευτείτε την επιτάχυνση GPU του Aspose OCR για ταχύτατη αναγνώριση κειμένου σε εφαρμογές C#.
+### [Πώς να χρησιμοποιήσετε φίλτρα στο Aspose OCR – Ενισχύστε την εξαγωγή κειμένου](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Μάθετε πώς να εφαρμόζετε φίλτρα προεπεξεργασίας στο Aspose OCR για βελτιωμένη ακρίβεια εξαγωγής κειμένου.
 
 ## Συχνές Ερωτήσεις
 

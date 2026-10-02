@@ -319,6 +319,12 @@ url: /ar/net/text-recognition/
 ### [OCR لملف PDF متعدد الصفحات – تحويل إلى HTML باستخدام C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
 ### [كيفية التعرف الضوئي على الحروف العربية – دليل C# كامل لاستخراج النص العربي](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 تعلم خطوة بخطوة كيفية استخدام Aspose.OCR في C# لاستخراج النص العربي من الصور بدقة وسهولة.
+### [استخراج النص من صورة في C# – دليل خطوة بخطوة كامل](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# من خلال دليل مفصل خطوة بخطوة.
+### [إنشاء PDF قابل للبحث من صور ممسوحة ضوئيًا باستخدام Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+تعلم كيفية تحويل الصور الممسوحة ضوئيًا إلى ملفات PDF قابلة للبحث باستخدام Aspose OCR في .NET.
+### [تحويل الصورة إلى JSON باستخدام Aspose OCR – دليل خطوة بخطوة](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+تعلم كيفية تحويل الصور إلى تنسيق JSON باستخدام Aspose OCR في .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

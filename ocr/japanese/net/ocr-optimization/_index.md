@@ -119,6 +119,12 @@ Aspose.OCR for .NET とのシームレスな OCR 統合を検討してくださ�
 Aspose.OCR for .NET を使用して OCR の精度を向上させます。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
 ### [OCR画像認識で複数ページの結果をドキュメントとして保存](./save-multipage-result-as-document/)
 Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステップバイステップ ガイドを使用すると、複数ページの OCR 結果をドキュメントとして簡単に保存できます。
+### [Aspose OCR GPU：C# で高速テキスト認識](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+GPU を活用し、C# で高速かつ高精度なテキスト認識を実現する方法を解説します。
+
+### [Aspose OCR でフィルタを使用する方法 – テキスト抽出を強化](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+フィルタの適用方法を学び、テキスト抽出精度と速度を向上させる手順をステップバイステップで解説します。
+
 ### [C# で画像 OCR を前処理 – フィルタ完全ガイド](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
 C# で画像 OCR の前処理フィルタを適用し、認識精度を向上させる方法をステップバイステップで解説します。
 ### [C# で PNG からテキスト画像を抽出 – Aspose OCR を使用したバッチ OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)

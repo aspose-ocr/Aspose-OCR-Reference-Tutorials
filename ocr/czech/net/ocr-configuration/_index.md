@@ -49,6 +49,8 @@ Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání O
 Ukážeme, jak využít GPU akceleraci v Aspose.OCR pro rychlé načtení obrázku a extrakci textu z účtenek v C#.
 ### [Vytvořit prohledávatelný PDF v C# – průvodce konverzí OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Naučte se, jak pomocí Aspose.OCR převést skenované dokumenty na prohledávatelná PDF soubory v C#.
+### [Jak povolit OCR v C# – Jednoduše převést PDF na text](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Naučte se, jak pomocí Aspose.OCR v C# převést PDF soubory na editovatelný text během několika kroků.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

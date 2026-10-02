@@ -101,6 +101,8 @@ Aspose OCR에서 라이선스를 적용하는 방법을 단계별로 안내합�
 
 ### [C#에서 검색 가능한 PDF 만들기 – OCR 변환 가이드](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Aspose.OCR을 사용해 C#에서 이미지 파일을 OCR로 변환하여 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 OCR 사용하기 – PDF를 텍스트로 손쉽게 변환](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+C# 애플리케이션에서 OCR을 활성화하고 PDF 파일을 텍스트로 변환하는 간단한 단계별 가이드.  
 
 
 

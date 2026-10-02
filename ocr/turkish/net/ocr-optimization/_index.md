@@ -170,6 +170,10 @@ GPU hızlandırmasıyla c# kullanarak görüntülerden metin tanıma yapın ve O
 GPU hızlandırmalı OCR ile C# uygulamalarında görüntülerden yüksek doğrulukta metin çıkarın.
 ### [Görüntüden Metin Çıkarma – Tam C# OCR Kılavuzu ve Gürültü Azaltma](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Gürültü azaltma teknikleriyle C# kullanarak görüntülerden metin çıkarma sürecini adım adım öğrenin.
+### [Aspose OCR GPU: C# ile Hızlı Metin Tanıma](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+Aspose OCR GPU desteğiyle C# kullanarak yüksek hızlı metin tanıma gerçekleştirin.
+### [Aspose OCR'de Filtreleri Nasıl Kullanılır – Metin Çıkarma Performansını Artırın](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+Aspose OCR'de filtreleri kullanarak metin çıkarma doğruluğunu ve hızını nasıl artıracağınızı öğrenin.
 
 ## Sıkça Sorulan Sorular
 

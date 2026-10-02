@@ -310,6 +310,12 @@ Aspose.OCR for .NET を使用して、マルチページPDFをHTMLに変換す�
 Aspose.OCR を利用して C# で画像からテキストを非同期に抽出する手順をステップバイステップで解説します。
 ### [アラビア語 OCR の方法 – アラビア語テキスト抽出の完全 C# ガイド](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Aspose.OCR を使用して C# でアラビア語テキストを抽出する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出する – 完全ステップバイステップガイド](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Aspose.OCR を使用して C# アプリケーションで画像からテキストを抽出する方法を段階的に学びます。
+### [Aspose OCR でスキャン画像から検索可能な PDF を作成する](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Aspose OCR を活用し、スキャンした画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
+### [Aspose OCR で画像を JSON に変換する – 完全ステップバイステップガイド](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR を使用して画像認識結果を JSON 形式にエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

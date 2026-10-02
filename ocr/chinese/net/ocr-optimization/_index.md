@@ -170,6 +170,11 @@ weight: 25
 ### [从图像提取文本 – 完整的 C# OCR 指南（含噪声消除）](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 完整的 C# OCR 指南，涵盖噪声消除和文本提取，帮助提升识别准确率。
 
+### [Aspose OCR GPU：使用 C# 实现快速文本识别](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+利用 GPU 加速 Aspose OCR，在 C# 中实现高速文本识别，提升大批量图像处理效率。
+
+### [如何在 Aspose OCR 中使用过滤器 – 提升文本提取](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

@@ -101,6 +101,8 @@ weight: 24
 
 
 ### [在 C# 中创建可搜索 PDF – OCR 转换指南](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+### [如何在 C# 中启用 OCR – 轻松将 PDF 转换为文本](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+快速演示如何在 C# 项目中使用 Aspose.OCR 将 PDF 文件转换为可编辑的文本。  
 
 
 

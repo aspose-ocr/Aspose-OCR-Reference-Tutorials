@@ -308,6 +308,12 @@ Leer hoe u met Aspose.OCR een meerpagina-PDF naar HTML converteert in C#, voor n
 ### [Hoe OCR Arabisch – Complete C#-gids voor het extraheren van Arabische tekst](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 Leer hoe u met Aspose.OCR Arabische tekst uit afbeeldingen kunt extraheren met een volledige C#-handleiding.
 
+### [Afbeelding converteren naar JSON met Aspose OCR – stapsgewijze handleiding](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Leer hoe u met Aspose OCR afbeeldingen omzet naar JSON-formaat met een duidelijke stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in C# – Complete stapsgewijze handleiding](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.OCR tekst uit afbeeldingen haalt in C# met een volledige stap‑voor‑stap gids.
+### [Maak doorzoekbare PDF van gescande afbeeldingen met Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Leer hoe u met Aspose OCR gescande afbeeldingen omzet naar doorzoekbare PDF's voor eenvoudige tekstzoekfunctionaliteit.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

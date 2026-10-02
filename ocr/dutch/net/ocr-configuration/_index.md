@@ -68,6 +68,8 @@ Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldhe
 Leer hoe je een afbeelding laadt en bontekst extraheert met GPU‑versnelde OCR in C#.
 ### [Zoekbare PDF maken in C# – OCR-conversiegids](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Leer hoe je met Aspose.OCR een doorzoekbare PDF maakt in C#, inclusief OCR-conversie en configuratie.
+### [Hoe OCR in C# in te schakelen – PDF eenvoudig naar tekst converteren](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Leer hoe je met Aspose.OCR PDF-bestanden omzet naar bewerkbare tekst in C# met eenvoudige stappen.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.
