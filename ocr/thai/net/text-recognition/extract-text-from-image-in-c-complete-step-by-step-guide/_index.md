@@ -23,9 +23,7 @@ title: ดึงข้อความจากภาพใน C# – คู่�
 url: /th/net/text-recognition/extract-text-from-image-in-c-complete-step-by-step-guide/
 ---
 
-sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

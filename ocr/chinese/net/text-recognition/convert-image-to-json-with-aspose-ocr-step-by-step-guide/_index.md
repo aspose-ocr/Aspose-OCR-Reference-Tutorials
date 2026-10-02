@@ -19,27 +19,7 @@ title: 使用 Aspose OCR 将图像转换为 JSON – 步骤指南
 url: /zh/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-to Chinese: "问题", "原因", "快速解决方案". Keep table formatting.
-
-Rows: translate content, keep code snippets.
-
-Next heading: "## Next Steps: Convert Image to Data Formats (CSV, Database)"
-
-Paragraph: translate.
-
-Bullet points: translate each bullet, keep code names.
-
-Next heading: "## Conclusion"
-
-Paragraph: translate.
-
-Final call to action: translate.
-
-Then closing shortcodes.
-
-Make sure to preserve all markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

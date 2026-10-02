@@ -21,7 +21,7 @@ title: Afbeelding converteren naar JSON met Aspose OCR – stap‑voor‑stap gi
 url: /nl/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

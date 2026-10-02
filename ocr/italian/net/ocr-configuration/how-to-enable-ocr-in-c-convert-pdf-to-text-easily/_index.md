@@ -23,11 +23,7 @@ title: Come abilitare l'OCR in C# – Converti PDF in testo facilmente
 url: /it/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-top-button >}}
-
-All preserved.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

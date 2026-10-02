@@ -23,16 +23,6 @@ title: Jak povolit OCR v C# – Snadno převést PDF na text
 url: /cs/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-formatting.
-
-Will keep markdown links unchanged (none present except maybe in text? There's no link). There's a link in image alt? No.
-
-Will keep code block placeholders.
-
-Will translate table.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

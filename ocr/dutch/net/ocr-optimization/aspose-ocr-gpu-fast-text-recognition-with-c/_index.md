@@ -23,19 +23,7 @@ title: 'Aspose OCR GPU: Snelle Tekstherkenning met C#'
 url: /nl/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-and `dotnet add package Aspose.OCR.Gpu`), and run `dotnet run`. You should see the character count and the mode (GPU/CPU) printed to the console."
-
-Translate.
-
-Visual Summary heading: "Visual Summary" -> "Visueel Overzicht". Image markdown alt text translate.
-
-Conclusion heading: "Conclusion" -> "Conclusie". Paragraph.
-
-List items under "From here you might explore:" translate bullet points.
-
-Now produce final content with all shortcodes at start and end unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

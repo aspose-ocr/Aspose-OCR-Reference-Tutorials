@@ -24,21 +24,7 @@ title: Maak een doorzoekbare PDF van gescande afbeeldingen met Aspose OCR
 url: /nl/net/text-recognition/create-searchable-pdf-from-scanned-images-with-aspose-ocr/
 ---
 
-een limiet op het aantal pagina's?**"
-
-**A:** translate.
-
-Finally "## Conclusion" -> "## Conclusie"
-
-Paragraph: "You now know how to **create searchable PDF**" -> "Je weet nu hoe je **doorzoekbare PDF** kunt maken"
-
-Then close shortcodes.
-
-Also need to translate the backtop button shortcode? It's a shortcode, keep unchanged.
-
-Now produce final content with same shortcodes.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

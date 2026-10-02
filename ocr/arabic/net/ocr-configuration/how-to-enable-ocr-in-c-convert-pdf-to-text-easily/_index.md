@@ -23,12 +23,6 @@ title: كيفية تمكين OCR في C# – تحويل PDF إلى نص بسهو
 url: /ar/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-C#" translate to Arabic: "لقطة شاشة لتكوين محرك OCR تُظهر كيفية تمكين OCR في C#". Keep same path.
-
-Table headers and cells translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,7 +21,7 @@ title: Aspose OCR을 사용하여 이미지를 JSON으로 변환하기 – 단�
 url: /ko/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

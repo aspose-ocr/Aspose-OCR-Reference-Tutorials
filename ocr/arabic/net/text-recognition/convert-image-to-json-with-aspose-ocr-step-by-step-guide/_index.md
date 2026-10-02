@@ -21,13 +21,7 @@ title: تحويل الصورة إلى JSON باستخدام Aspose OCR – دل�
 url: /ar/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-.
-
-Make sure to keep markdown formatting, code blocks placeholders, etc.
-
-We have not included any code block besides placeholder. That's fine.
-
-Now produce final output with everything translated, preserving structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

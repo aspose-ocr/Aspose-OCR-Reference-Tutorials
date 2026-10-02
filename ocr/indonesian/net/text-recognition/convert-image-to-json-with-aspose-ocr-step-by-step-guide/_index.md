@@ -21,7 +21,7 @@ title: Mengonversi gambar ke JSON dengan Aspose OCR – Panduan Langkah demi Lan
 url: /id/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

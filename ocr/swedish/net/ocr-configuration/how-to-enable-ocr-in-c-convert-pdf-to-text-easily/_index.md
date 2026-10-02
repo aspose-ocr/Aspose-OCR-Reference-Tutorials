@@ -23,12 +23,6 @@ title: Hur man aktiverar OCR i C# – Konvertera PDF till text enkelt
 url: /sv/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-rest.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

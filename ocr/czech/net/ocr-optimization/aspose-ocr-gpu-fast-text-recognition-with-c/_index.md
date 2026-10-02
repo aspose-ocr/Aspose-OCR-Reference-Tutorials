@@ -24,9 +24,7 @@ title: 'Aspose OCR GPU: Rychlé rozpoznávání textu v C#'
 url: /cs/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-/products-backtop-button >}} keep unchanged.
-
-Now produce final content with all translations and placeholders unchanged.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

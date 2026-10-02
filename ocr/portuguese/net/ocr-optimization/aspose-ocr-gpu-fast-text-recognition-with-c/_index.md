@@ -24,14 +24,6 @@ title: 'Aspose OCR GPU: Reconhecimento de Texto Rápido com C#'
 url: /pt/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-Exemplo Aspose OCR GPU mostrando saída do console com contagem de caracteres". Title attribute maybe also translate: "aspose ocr gpu" maybe keep same as it's a label. Could translate to "aspose ocr gpu". It's same.
-
-Proceed.
-
-Now produce final translation.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

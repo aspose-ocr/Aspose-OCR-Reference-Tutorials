@@ -25,18 +25,6 @@ title: Extrahování textu z obrázku v C# – Kompletní průvodce krok za krok
 url: /cs/net/text-recognition/extract-text-from-image-in-c-complete-step-by-step-guide/
 ---
 
-Start with shortcodes unchanged.
-
-Then heading.
-
-Then paragraph.
-
-Translate while preserving bold (**). Keep bold.
-
-Also keep code block placeholders.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

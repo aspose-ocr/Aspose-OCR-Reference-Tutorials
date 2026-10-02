@@ -25,9 +25,7 @@ title: Kereshető PDF létrehozása beolvasott képekből az Aspose OCR használ
 url: /hu/net/text-recognition/create-searchable-pdf-from-scanned-images-with-aspose-ocr/
 ---
 
-sure to keep markdown formatting.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

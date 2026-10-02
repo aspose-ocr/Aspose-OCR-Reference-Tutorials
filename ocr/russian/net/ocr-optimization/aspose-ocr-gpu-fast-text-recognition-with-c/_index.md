@@ -25,14 +25,6 @@ title: 'Aspose OCR GPU: Быстрое распознавание текста �
 url: /ru/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-same. Let's translate alt: "Пример Aspose OCR GPU, показывающий вывод консоли с количеством символов". Title keep "aspose ocr gpu". That's fine.
-
-Now translate.
-
-We need to keep table formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

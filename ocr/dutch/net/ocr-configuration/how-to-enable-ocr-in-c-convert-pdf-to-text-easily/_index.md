@@ -23,19 +23,7 @@ title: Hoe OCR in C# inschakelen – Converteer PDF eenvoudig naar tekst
 url: /nl/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-. So we keep **how to enable OCR** unchanged.
-
-Similarly **convert PDF to text**, **extract text**, **recognize PDF** etc. Keep them unchanged.
-
-Proceed.
-
-Translate rest.
-
-Let's craft.
-
-Also code block placeholders remain.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

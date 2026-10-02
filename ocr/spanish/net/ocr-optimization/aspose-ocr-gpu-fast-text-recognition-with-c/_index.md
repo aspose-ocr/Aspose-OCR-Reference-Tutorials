@@ -24,7 +24,7 @@ title: 'Aspose OCR GPU: Reconocimiento rápido de texto con C#'
 url: /es/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

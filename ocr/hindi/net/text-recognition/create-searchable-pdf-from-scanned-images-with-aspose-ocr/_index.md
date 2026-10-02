@@ -24,7 +24,7 @@ title: Aspose OCR के साथ स्कैन किए गए चित्
 url: /hi/net/text-recognition/create-searchable-pdf-from-scanned-images-with-aspose-ocr/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -21,11 +21,7 @@ title: Bild in JSON mit Aspose OCR konvertieren – Schritt‑für‑Schritt‑A
 url: /de/net/text-recognition/convert-image-to-json-with-aspose-ocr-step-by-step-guide/
 ---
 
-blocks placeholder.
-
-Check for any missed markdown links: none.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

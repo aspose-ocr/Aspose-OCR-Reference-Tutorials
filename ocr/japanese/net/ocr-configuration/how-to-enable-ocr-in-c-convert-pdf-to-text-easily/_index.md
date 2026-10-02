@@ -21,14 +21,6 @@ title: C#でOCRを有効にする方法 – PDFを簡単にテキストへ変換
 url: /ja/net/ocr-configuration/how-to-enable-ocr-in-c-convert-pdf-to-text-easily/
 ---
 
-: "C#でOCRを有効にする方法を示すOCRエンジン設定のスクリーンショット". Keep path unchanged.
-
-Also "Alt text: Diagram illustrating how to enable OCR in C# using Aspose.OCR." This is plain text after image. Translate.
-
-Also "Expected output" etc.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

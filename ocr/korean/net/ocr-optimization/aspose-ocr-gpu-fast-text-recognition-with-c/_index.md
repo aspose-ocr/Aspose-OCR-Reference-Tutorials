@@ -23,8 +23,6 @@ title: 'Aspose OCR GPU: C#를 사용한 빠른 텍스트 인식'
 url: /ko/net/ocr-optimization/aspose-ocr-gpu-fast-text-recognition-with-c/
 ---
 
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
