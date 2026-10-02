@@ -1,0 +1,7 @@
+Title: Convert Image to Searchable PDF using Aspose OCR – Complete C# Guide
+Slug: convert-image-to-searchable-pdf-using-aspose-ocr-complete-c
+Category: text-recognition
+ProcessedDate: 2026-06-16T11:23:10.990198
+SourceRepo: AI Search API
+Keywords: convert image to searchable pdf
+PRNumber: 144

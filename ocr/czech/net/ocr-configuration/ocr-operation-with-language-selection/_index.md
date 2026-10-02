@@ -1,11 +1,11 @@
 ---
-date: 2025-12-21
-description: Naučte se provádět OCR a extrahovat text z obrázku pomocí Aspose.OCR
-  pro .NET. Tento krok‑za‑krokem průvodce ukazuje rozpoznávání vícejazyčného textu
-  a výběr jazyka.
-linktitle: How to Perform OCR with Language Selection in Aspose.OCR
+date: 2026-02-25
+description: Naučte se, jak extrahovat text z obrázku v C# pomocí Aspose.OCR pro .NET.
+  Tento krok‑za‑krokem průvodce ukazuje vícejazyčné OCR, výběr jazyka a praktické
+  tipy.
+linktitle: Extract image text C# with language selection using Aspose.OCR
 second_title: Aspose.OCR .NET API
-title: Jak provést OCR s výběrem jazyka v Aspose.OCR
+title: Extrahování textu z obrázku v C# s výběrem jazyka pomocí Aspose.OCR
 url: /cs/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
@@ -14,33 +14,37 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak provést OCR s výběrem jazyka v Aspose.OCR
+# Extrahování textu z obrázku C# s výběrem jazyka pomocí Aspose.OCR
 
 ## Úvod
 
-Pokud potřebujete **jak provést OCR** na obrázcích a extrahovat text z obrazových souborů v .NET aplikaci, Aspose.OCR pro .NET poskytuje rychlé, přesné a jazykově uvědomělé řešení. V tomto tutoriálu projdeme reálný příklad, který demonstruje rozpoznávání obrázků pomocí OCR s výběrem jazyka, takže můžete získat vícejazyčný text z obrázků pomocí několika řádků kódu.
+Pokud potřebujete **extract image text C#** z obrázků a PDF v .NET aplikaci, Aspose.OCR pro .NET nabízí rychlé, přesné a jazykově‑vědomé řešení. V tomto tutoriálu projdeme reálný příklad, který demonstruje OCR rozpoznávání obrázků s výběrem jazyka, takže můžete získat vícejazyčný text z obrázků pomocí několika řádků kódu. Na konci uvidíte, jak snadné je integrovat OCR do vašich C# projektů a proč je tento přístup solidní volbou pro produkční zatížení.
 
 ## Rychlé odpovědi
-- **Co dělá Aspose.OCR?** Rozpoznává tištěný a ručně psaný text na obrázcích a vrací extrahovaný text.  
-- **Mohu si vybrat jazyk?** Ano – můžete specifikovat libovolný podporovaný jazyk, jako je angličtina, němčina, španělština, čínština atd.  
+- **Co Aspose.OCR dělá?** Rozpoznává tištěný i ručně psaný text na obrázcích a vrací extrahovaný text.  
+- **Mohu si vybrat jazyk?** Ano – můžete specifikovat libovolný podporovaný jazyk, například English, German, Spanish, Chinese, atd.  
 - **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro hodnocení; licence je vyžadována pro produkční použití.  
-- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Je korekce sklonu automatická?** Můžete povolit `AutoSkew` a jemně doladit nastavení `SkewAngle`.
+- **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Je korekce sklonu automatická?** Můžete povolit `AutoSkew` a doladit nastavení `SkewAngle`.  
+
+## Co je “extract image text C#”?
+
+Extrahování textu z obrázku v C# znamená použití knihovny k přečtení vizuálního obsahu obrázku (PNG, JPEG, TIFF, atd.) a jeho převodu na prohledávatelný, editovatelný text. Aspose.OCR poskytuje tuto schopnost lokálně, bez odesílání dat na externí služby, což udržuje váš pracovní tok bezpečný a v souladu s předpisy.
 
 ## Proč zvolit Aspose.OCR pro úlohy OCR?
 
 - **Vysoká přesnost** napříč různými fonty a kvalitou obrázků.  
 - **Vestavěný výběr jazyka** eliminuje potřebu externích jazykových balíčků.  
-- **Jednoduché API**, které se čistě integruje s existujícími C# projekty.  
-- **Žádné externí závislosti** – vše běží lokálně, což udržuje vaše data v bezpečí.
+- **Jednoduché API**, které se čistě integruje do existujících C# projektů, což usnadňuje **extract image text C#**.  
+- **Žádné externí závislosti** – vše běží lokálně, takže jsou vaše data zabezpečena.  
 
-## Předpoklady
+## Požadavky
 
-Než se ponoříme do kódu, ujistěte se, že máte následující předpoklady připravené:
+Než se ponoříme do kódu, ujistěte se, že máte následující předpoklady:
 
 - Aspose.OCR pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.OCR. Můžete si ji stáhnout ze [stránky ke stažení Aspose.OCR pro .NET](https://releases.aspose.com/ocr/net/).
 
-- Vývojové prostředí: Nastavte si pracovní prostředí s .NET aplikací. Pokud jste to ještě neudělali, podívejte se na [dokumentaci](https://reference.aspose.com/ocr/net/) pro podrobné instrukce.
+- Vývojové prostředí: Nastavte si funkční prostředí s .NET aplikací. Pokud jste tak ještě neučinili, podívejte se do [dokumentace](https://reference.aspose.com/ocr/net/) pro podrobné instrukce.
 
 ## Importujte jmenné prostory
 
@@ -78,7 +82,7 @@ string fullPath = dataDir + "sample.png";
 
 ## Krok 3: Rozpoznání obrázku s výběrem jazyka
 
-Nyní přichází hlavní operace OCR. Využijte knihovnu Aspose.OCR k rozpoznání textu ze zadaného obrázku. Upravte nastavení rozpoznávání, včetně výběru jazyka.
+Nyní přichází jádro operace OCR. Využijte knihovnu Aspose.OCR k rozpoznání textu ze zadaného obrázku. Nastavte parametry rozpoznávání, včetně výběru jazyka, pro doladění procesu **extract image text C#**.
 
 ```csharp
 // Recognize image           
@@ -110,38 +114,35 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 ## Časté problémy a tipy
 
 - **Nesprávný výběr jazyka** – Pokud výstup vypadá poškozeně, zkontrolujte, že vlastnost `Language` odpovídá jazyku zdrojového obrázku.  
-- **Šikmé obrázky** – Povolte `AutoSkew` nebo ručně upravte `SkewAngle` pro lepší přesnost u nakloněných skenů.  
-- **Velké soubory** – Zpracovávejte velké obrázky po částech nebo snižte rozlišení před předáním do `RecognizeImage`, abyste šetřili paměť.
-
-## Závěr
-
-Gratulujeme! Naučili jste se **jak provést OCR** s výběrem jazyka pomocí Aspose.OCR pro .NET. Tento tutoriál vám ukázal, jak extrahovat text z obrazových souborů, přizpůsobit nastavení rozpoznávání a snadno pracovat s vícejazyčným obsahem.
+- **Nákloněné obrázky** – Povolte `AutoSkew` nebo ručně upravte `SkewAngle` pro lepší přesnost u nakloněných skenů.  
+- **Velké soubory** – Zpracovávejte velké obrázky po částech nebo snižte rozlišení před předáním do `RecognizeImage`, abyste šetřili paměť.  
 
 ## Často kladené otázky
 
-### Q1: Je Aspose.OCR vhodný pro rozpoznávání vícejazyčného textu?
+**Q: Je Aspose.OCR vhodný pro rozpoznávání vícejazyčného textu?**  
+A: Ano, Aspose.OCR podporuje různé jazyky, což poskytuje flexibilitu pro vícejazyčné OCR úlohy.
 
-Ano, Aspose.OCR podporuje různé jazyky, což poskytuje flexibilitu pro vícejazyčné úlohy OCR.
+**Q: Mohu doladit nastavení OCR pro specifické charakteristiky obrázku?**  
+A: Rozhodně! Můžete upravit parametry jako úhel sklonu, rozpoznávání řádků a detekci oblastí, aby OCR byl optimalizován pro různé scénáře.
 
-### Q2: Mohu jemně doladit nastavení OCR pro konkrétní charakteristiky obrázku?
+**Q: Kde najdu další podporu nebo komunitní diskuse?**  
+A: Navštivte [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pro podporu a diskuse s komunitou.
 
-Rozhodně! Upravte parametry jako úhel sklonu, rozpoznávání řádků a detekci oblastí, abyste optimalizovali OCR pro různé scénáře.
+**Q: Je k dispozici bezplatná zkušební verze?**  
+A: Ano, vyzkoušejte [bezplatnou zkušební verzi](https://releases.aspose.com/) a objevte možnosti Aspose.OCR.
 
-### Q3: Kde mohu najít další podporu nebo diskuse v komunitě?
+**Q: Jak mohu zakoupit Aspose.OCR pro .NET?**  
+A: Pro nákup navštivte [stránku nákupu](https://purchase.aspose.com/buy).
 
-Navštivte [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) pro podporu a diskuse s komunitou.
+## Závěr
 
-### Q4: Je k dispozici bezplatná zkušební verze?
+Gratulujeme! Naučili jste se **jak extrahovat text z obrázku C#** s výběrem jazyka pomocí Aspose.OCR pro .NET. Tento tutoriál vám ukázal, jak nakonfigurovat OCR engine, vybrat vhodný jazyk a zpracovat výsledky, čímž získáte pevný základ pro vytváření funkcí vícejazyčného extrahování textu ve vašich aplikacích.
 
-Ano, prozkoumejte [free trial](https://releases.aspose.com/) a vyzkoušejte možnosti Aspose.OCR.
+---
 
-### Q5: Jak mohu zakoupit Aspose.OCR pro .NET?
-
-Pro nákup navštivte [purchase page](https://purchase.aspose.com/buy).
-
-**Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.OCR 24.11 for .NET  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

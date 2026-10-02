@@ -1,0 +1,7 @@
+Title: recognize text in ROI with Aspose OCR – Java Tutorial
+Slug: recognize-text-in-roi-with-aspose-ocr-java-tutorial
+Category: ocr-operations
+ProcessedDate: 2026-05-31T20:44:52.160338
+SourceRepo: AI Search API
+Keywords: recognize text in roi, extract text from region, extract text from form image
+PRNumber: 136
