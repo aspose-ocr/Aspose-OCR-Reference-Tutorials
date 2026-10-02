@@ -1,0 +1,7 @@
+Title: Aspose OCR License Tutorial – Java Setup Guide
+Slug: aspose-ocr-license-tutorial-java-setup-guide
+Category: ocr-operations
+ProcessedDate: 2026-07-05T11:17:52.848461
+SourceRepo: AI Search API
+Keywords: aspose ocr license tutorial
+PRNumber: 168

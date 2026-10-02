@@ -1,11 +1,11 @@
 ---
-date: 2026-01-02
+date: 2026-03-07
 description: Dowiedz się, jak uzyskać wyniki OCR i wyodrębnić tekst z obrazu przy
   użyciu Aspose.OCR dla .NET. Zawiera rozpoznawanie tekstu wielojęzycznego oraz instrukcje,
   jak korzystać z Aspose.
-linktitle: How to Get OCR Results with Aspose.OCR for .NET
+linktitle: How to Extract Text from Image Using Aspose.OCR for .NET
 second_title: Aspose.OCR .NET API
-title: Jak uzyskać wyniki OCR przy użyciu Aspose.OCR dla .NET
+title: Jak wyodrębnić tekst z obrazu za pomocą Aspose.OCR dla .NET
 url: /pl/net/text-recognition/get-recognition-result/
 weight: 11
 ---
@@ -14,33 +14,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak uzyskać wyniki OCR przy użyciu Aspose.OCR dla .NET
+# Jak wyodrębnić tekst z obrazu przy użyciu Aspose.OCR dla .NET
 
 ## Wprowadzenie
 
-Jeśli potrzebujesz **how to get ocr** wyników szybko i niezawodnie, Aspose.OCR dla .NET jest solidnym wyborem. Ten tutorial przeprowadzi Cię przez wyodrębnianie tekstu z plików obrazów, konfigurowanie ustawień rozpoznawania oraz obsługę rozpoznawania tekstu wielojęzycznego — wszystko z klarownymi, krok po kroku przykładami kodu. Po zakończeniu zrozumiesz, jak używać Aspose, zobaczysz pełny wynik rozpoznawania i będziesz wiedział, gdzie znaleźć oficjalną dokumentację Aspose OCR dla głębszej eksploracji.
+Jeśli potrzebujesz **wyodrębnić tekst z obrazu** szybko i niezawodnie, Aspose.OCR dla .NET jest solidnym wyborem. W tym samouczku przeprowadzimy Cię przez konfigurację biblioteki, ustawienia rozpoznawania oraz pobranie pełnego wyniku OCR — w tym wielojęzycznego wyjścia i danych o układzie. Po zakończeniu będziesz wiedział, jak **wyodrębnić tekst z obrazu**, jak **rozpoznawać tekst z obrazu** w różnych językach oraz gdzie znaleźć oficjalną dokumentację Aspose OCR dla głębszej eksploracji.
 
 ## Szybkie odpowiedzi
-- **What does “how to get ocr” mean?** Odnosi się do pobierania rozpoznanego tekstu i powiązanych danych z obrazu przy użyciu silnika OCR.  
-- **Which library should I use?** Aspose.OCR for .NET oferuje prosty interfejs API i wsparcie wielojęzyczne.  
-- **Do I need a license?** Dostępna jest darmowa wersja próbna; licencja jest wymagana do użytku produkcyjnego.  
-- **What .NET versions are supported?** .NET Framework 4.5+ oraz .NET Core/5/6+.  
-- **Can I extract text from image in other languages?** Tak — Aspose.OCR obsługuje rozpoznawanie tekstu wielojęzycznego od razu.
+- **Co oznacza „wyodrębnić tekst z obrazu”?** Odnosi się to do pobrania czytelnych znaków, które silnik OCR wykrywa w obrazie.  
+- **Którą bibliotekę powinienem użyć?** Aspose.OCR dla .NET oferuje prostą API, wsparcie wielojęzyczne oraz **aspose ocr trial**, który możesz wypróbować od razu.  
+- **Czy potrzebna jest licencja?** Dostępna jest darmowa wersja próbna; licencja jest wymagana w środowisku produkcyjnym.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+ oraz .NET Core/5/6+.  
+- **Czy mogę poprawić dokładność OCR?** Tak — wybierając właściwy język i dostosowując DPI możesz **improve ocr accuracy**.
 
-## Czym jest OCR i dlaczego używać Aspose.OCR?
+## Jak wyodrębnić tekst z obrazu przy użyciu Aspose.OCR?
 
-Optical Character Recognition (OCR) konwertuje drukowany lub odręczny tekst na obrazach na edytowalne, przeszukiwalne ciągi znaków. Aspose.OCR upraszcza ten proces dla programistów .NET, udostępniając wysokopoziomowe API, wbudowane modele językowe oraz łatwe w użyciu ustawienia. Niezależnie od tego, czy tworzysz pipeline przetwarzania dokumentów, narzędzie automatyzacji wprowadzania danych, czy funkcję wyszukiwania wielojęzycznego, Aspose.OCR pomaga **extract text from image** plików przy minimalnym kodzie.
+Optical Character Recognition (OCR) konwertuje drukowany lub odręczny tekst na zdjęciach na edytowalne, przeszukiwalne ciągi znaków. Aspose.OCR upraszcza ten proces dla programistów .NET, udostępniając wysokopoziomową API, wbudowane modele językowe i łatwe w użyciu ustawienia. Niezależnie od tego, czy budujesz pipeline przetwarzania dokumentów, narzędzie automatyzacji wprowadzania danych, czy wielojęzyczną funkcję wyszukiwania, Aspose.OCR pomaga **wyodrębnić tekst z obrazu** przy minimalnej ilości kodu.
+
+## Dlaczego warto używać Aspose.OCR do tego zadania?
+
+- **Pełne wsparcie językowe** – rozpoznawaj tekst z obrazu w dziesiątkach języków bez dodatkowych pakietów.  
+- **Proste API** – kilka linii kodu przenosi Cię od zeskanowanego pliku do strukturalnego wyjścia JSON.  
+- **Przyjazny wersji próbnej** – rozpocznij od **aspose ocr trial**, aby ocenić przed zakupem.  
+- **Kontrola wydajności** – dostosuj DPI lub **convert scanned image**, aby przyspieszyć przetwarzanie dużych plików.
 
 ## Wymagania wstępne
 
-Zanim rozpoczniesz, upewnij się, że masz:
+Zanim zaczniesz, upewnij się, że masz:
 
-- **.NET Framework** (lub .NET Core/5/6) zainstalowany na swoim komputerze.  
-- **Aspose.OCR for .NET** – pobierz bibliotekę ze strony oficjalnych wydań [here](https://releases.aspose.com/ocr/net/).
+- **.NET Framework** (lub .NET Core/5/6) zainstalowany na komputerze.  
+- **Aspose.OCR dla .NET** – pobierz bibliotekę ze strony oficjalnego wydania [tutaj](https://releases.aspose.com/ocr/net/).  
 
 ## Importowanie przestrzeni nazw
 
-W swojej aplikacji .NET rozpocznij od zaimportowania wymaganych przestrzeni nazw:
+W aplikacji .NET rozpocznij od zaimportowania wymaganych przestrzeni nazw:
 
 ```csharp
 using System;
@@ -50,7 +57,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentu
+## Krok 1: Ustaw katalog dokumentu
 
 Określ folder zawierający obraz, który chcesz przetworzyć:
 
@@ -58,7 +65,7 @@ Określ folder zawierający obraz, który chcesz przetworzyć:
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Zainicjalizuj Aspose.OCR
+## Krok 2: Zainicjuj Aspose.OCR
 
 Utwórz instancję silnika OCR:
 
@@ -68,7 +75,7 @@ AsposeOcr api = new AsposeOcr();
 
 ## Krok 3: Określ ścieżkę obrazu
 
-Wskaż dokładny plik obrazu, który chcesz rozpoznać:
+Wskaż dokładny plik obrazu, który ma zostać rozpoznany:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
@@ -76,7 +83,7 @@ string fullPath = dataDir + "sample.png";
 
 ## Krok 4: Skonfiguruj ustawienia rozpoznawania
 
-Dostosuj ustawienia do swojego scenariusza — niezależnie od tego, czy potrzebujesz domyślnego zachowania, czy niestandardowych opcji, takich jak wybór języka dla rozpoznawania tekstu wielojęzycznego:
+Dostosuj ustawienia do swojego scenariusza — czy to domyślne zachowanie, czy niestandardowe opcje, takie jak wybór języka dla wielojęzycznego rozpoznawania tekstu:
 
 ```csharp
 RecognitionSettings settings = new RecognitionSettings
@@ -86,7 +93,7 @@ RecognitionSettings settings = new RecognitionSettings
 };
 ```
 
-## Krok 5: Wykonaj rozpoznawanie obrazu
+## Krok 5: Przeprowadź rozpoznawanie obrazu
 
 Uruchom proces OCR i przechwyć wynik:
 
@@ -96,7 +103,7 @@ RecognitionResult result = api.RecognizeImage(fullPath, settings);
 
 ## Krok 6: Wyświetl wynik rozpoznawania
 
-Wyświetl pełny wynik rozpoznawania, który zawiera wyodrębniony tekst, informacje o układzie, reprezentację JSON oraz ewentualne ostrzeżenia:
+Pokaż pełne wyjście rozpoznawania, które zawiera wyodrębniony tekst, informacje o układzie, reprezentację JSON oraz ewentualne ostrzeżenia:
 
 ```csharp
 PrintRecognitionResult(result);
@@ -104,42 +111,44 @@ PrintRecognitionResult(result);
 
 ## Typowe problemy i rozwiązania
 
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| **No text returned** | Nieprawidłowa ścieżka obrazu lub nieobsługiwany format | Sprawdź `fullPath` i upewnij się, że obraz jest obsługiwanym typem (PNG, JPEG, BMP). |
-| **Incorrect language detection** | Domyślne ustawienia języka mogą nie pasować do obrazu | Ustaw `settings.Language` na odpowiedni język(y), aby uzyskać lepszą dokładność. |
-| **Performance slowdown on large images** | Obrazy wysokiej rozdzielczości zwiększają czas przetwarzania | Zmień rozmiar obrazu przed rozpoznaniem lub dostosuj `settings.Dpi` do niższej wartości. |
+| Problem | Powód | Rozwiązanie |
+|---------|-------|-------------|
+| **Brak zwróconego tekstu** | Nieprawidłowa ścieżka obrazu lub nieobsługiwany format | Zweryfikuj `fullPath` i upewnij się, że obraz jest w obsługiwanym formacie (PNG, JPEG, BMP). |
+| **Nieprawidłowe wykrycie języka** | Domyślne ustawienia języka mogą nie pasować do obrazu | Ustaw `settings.Language` na odpowiedni język(y), aby uzyskać lepszą dokładność. |
+| **Spowolnienie przy dużych obrazach** | Obrazy wysokiej rozdzielczości zwiększają czas przetwarzania | Zmniejsz rozmiar obrazu przed rozpoznaniem lub ustaw `settings.Dpi` na niższą wartość. |
+| **Niska dokładność przy zeskanowanych dokumentach** | Zeskanowane obrazy mogą zawierać szumy | Skorzystaj z kroków wstępnego przetwarzania, takich jak binaryzacja, lub ustaw `settings.Preprocess = true`, aby **improve ocr accuracy**. |
+| **Potrzeba obsługi zeskanowanego PDF** | PDF musi zostać najpierw skonwertowany na obrazy | **Convert scanned image** strony do PNG/JPEG przy użyciu biblioteki PDF‑to‑image, a następnie przekaż każdy obraz do Aspose.OCR. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### Q1: Czy Aspose.OCR może rozpoznawać tekst w różnych językach?
+### Q1: Czy Aspose.OCR potrafi rozpoznawać tekst w różnych językach?
 
-A1: Tak, Aspose.OCR obsługuje rozpoznawanie tekstu wielojęzycznego, zapewniając wszechstronność dla szerokiego zakresu zastosowań.
+A1: Tak, Aspose.OCR obsługuje wielojęzyczne rozpoznawanie tekstu, zapewniając wszechstronność dla szerokiego zakresu zastosowań.
 
-### Q2: Czy dostępna jest darmowa wersja próbna Aspose.OCR dla .NET?
+### Q2: Czy dostępna jest darmowa wersja próbna Aspose.OCR?
 
-A2: Oczywiście! Możesz uzyskać dostęp do darmowej wersji próbnej [here](https://releases.aspose.com/).
+A2: Oczywiście! Możesz uzyskać darmowy **aspose ocr trial** [tutaj](https://releases.aspose.com/).
 
-### Q3: Gdzie mogę znaleźć kompleksową dokumentację Aspose.OCR?
+### Q3: Gdzie mogę znaleźć pełną dokumentację Aspose.OCR?
 
-A3: Odwołaj się do dokumentacji [here](https://reference.aspose.com/ocr/net/) po szczegółowe informacje i wytyczne dotyczące użycia.
+A3: Odwiedź dokumentację [tutaj](https://reference.aspose.com/ocr/net/), aby uzyskać szczegółowe informacje i wytyczne dotyczące użycia.
 
 ### Q4: Jak mogę uzyskać wsparcie dla Aspose.OCR?
 
-A4: Odwiedź [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od społeczności i ekspertów Aspose.
+A4: Wejdź na [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16), aby uzyskać pomoc od społeczności i ekspertów Aspose.
 
-### Q5: Czy mogę uzyskać tymczasową licencję dla Aspose.OCR?
+### Q5: Czy mogę uzyskać tymczasową licencję na Aspose.OCR?
 
-A5: Tak, możesz nabyć tymczasową licencję [here](https://purchase.aspose.com/temporary-license/).
+A5: Tak, tymczasową licencję możesz nabyć [tutaj](https://purchase.aspose.com/temporary-license/).
 
-## Podsumowanie
+## Zakończenie
 
-W tym przewodniku omówiliśmy **how to get OCR** wyniki przy użyciu Aspose.OCR dla .NET, od konfiguracji środowiska po wyświetlenie szczegółowego raportu rozpoznawania. Masz teraz solidne podstawy do **extract text from image** plików, obsługi scenariuszy wielojęzycznych oraz integracji OCR w swoich projektach .NET. Zapoznaj się z oficjalną dokumentacją Aspose OCR, aby poznać zaawansowane funkcje, takie jak własne pakiety językowe, przetwarzanie regionu zainteresowania oraz rozpoznawanie wsadowe.
+W tym przewodniku omówiliśmy **jak wyodrębnić tekst z obrazu** przy użyciu Aspose.OCR dla .NET, od konfiguracji środowiska po wyświetlenie szczegółowego raportu rozpoznawania. Masz teraz solidne podstawy, aby **wyodrębnić tekst z obrazu**, obsługiwać scenariusze wielojęzyczne i integrować OCR w swoich projektach .NET. Zapoznaj się z oficjalną dokumentacją Aspose OCR, aby poznać zaawansowane funkcje, takie jak własne pakiety językowe, przetwarzanie regionu zainteresowania oraz rozpoznawanie wsadowe.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-02  
-**Testowano z:** Aspose.OCR 23.12 for .NET  
+**Ostatnia aktualizacja:** 2026-03-07  
+**Testowano z:** Aspose.OCR 23.12 dla .NET  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

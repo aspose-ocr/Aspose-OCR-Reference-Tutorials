@@ -1,0 +1,7 @@
+Title: How to Use OCR in Python – Extract Text from Images
+Slug: how-to-use-ocr-in-python-extract-text-from-images
+Category: general
+ProcessedDate: 2026-06-16T13:50:47.480788
+SourceRepo: AI Search API
+Keywords: how to use ocr, extract text from image, read text from png, convert image to text, ocr image to text python
+PRNumber: 146

@@ -57,7 +57,7 @@ weight: 22
 
 ## Image and Drawing Recognition Tutorials
 ### [Get Rectangles for Lines in OCR Image Recognition](./get-rectangles-for-lines/)
-Εξερευνήστε το Aspose.OCR για .NET, το κλειδί σας για ακριβή αναγνώριση εικόνας OCR. Απελευθερώστε τη δύναμη της εξαγωγής κειμένου χωρίς κόπο.
+Εξερευνήστε το Aspose.OCR για .NET, το κλειδί σας για ακριβή αναγνώριση εικόνας OCR. Απελευθέρωστε τη δύναμη της εξαγωγής κειμένου χωρίς κόπο.
 ### [Get Rectangles for Paragraphs in OCR Image Recognition](./get-rectangles-for-paragraphs/)
 Αποκτήστε προχωρημένες δυνατότητες OCR με το Aspose.OCR για .NET. Εξάγετε τα πλαίσια παραγράφων χωρίς κόπο.
 ### [Recognize Image from Stream in OCR Image Recognition](./recognize-image-from-stream/)
@@ -68,6 +68,8 @@ weight: 22
 Απελευθερώστε το δυναμικό του Aspose.OCR για .NET στην αναγνώριση γραμμών σε OCR εικόνες. Ένας οδηγός για προγραμματιστές για αβίαστη εξαγωγή κειμένου από εικόνες.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Αποκτήστε τη μαγεία του OCR με το Aspose.OCR για .NET, εξάγοντας κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το tutorial για αβίαστη ενσωμάτωση.
+### [Πώς να ενεργοποιήσετε φόρμες και να εξάγετε πίνακες με OCR σε C# – Πλήρης οδηγός](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Μάθετε πώς να ενεργοποιήσετε την αναγνώριση φορμών και να εξάγετε πίνακες από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
 
 ## Frequently Asked Questions
 
