@@ -177,6 +177,10 @@ GPU のパワーを活用して、画像から高速かつ正確にテキスト�
 
 
 
+### [GPU 加速 OCR を使用して C# で画像からテキストを認識する](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+GPU の高速処理を活用し、C# で画像からテキストを高速かつ高精度に抽出する方法を解説します。
+### [画像からテキスト抽出 – ノイズ除去を含む完全 C# OCR ガイド](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+ノイズ除去手法を活用し、C# で画像から高精度にテキストを抽出する完全ガイドです。
 
 ## よくある質問
 

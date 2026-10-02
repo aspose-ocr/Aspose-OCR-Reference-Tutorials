@@ -290,6 +290,12 @@ Aspose OCR का उपयोग करके C# में रूसी भा�
 C# में छवि से टेक्स्ट निकालें और उसे JSONL फ़ॉर्मेट में सहेजने की चरण-दर-चरण गाइड।
 ### [ऑफ़लाइन चीनी टेक्स्ट पहचान – पूर्ण C# OCR ट्यूटोरियल](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
 ऑफ़लाइन चीनी भाषा के टेक्स्ट को पहचानने के लिए C# में पूर्ण OCR ट्यूटोरियल।
+### [C# में OCR का उपयोग कैसे करें – इमेज फ़ाइलों से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+C# में Aspose.OCR से इमेज फ़ाइलों से टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
+### [ओसीआर मल्टी पेज पीडीएफ – C# Aspose OCR के साथ HTML में परिवर्तित करें](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+C# में Aspose OCR का उपयोग करके मल्टी‑पेज PDF को HTML में बदलने की चरण‑दर‑स्टेप गाइड।
+### [अरबी OCR कैसे करें – अरबी टेक्स्ट निकालने के लिए पूर्ण C# गाइड](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+C# में Aspose.OCR का उपयोग करके अरबी टेक्स्ट निकालने की विस्तृत चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

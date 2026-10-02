@@ -100,6 +100,8 @@ Ismerje meg, hogyan aktiválhatja a licencet az Aspose OCR .NET könyvtárban C#
 
 
 
+### [Kereshető PDF létrehozása C#‑ban – OCR konverziós útmutató](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et C#‑ban az Aspose.OCR segítségével.  
 
 
 

@@ -178,6 +178,12 @@ Dowiedz się, jak poprawić jakość OCR poprzez zwiększenie kontrastu i usuni�
 ### [Jak włączyć GPU dla Aspose OCR w C# – szybkie przetwarzanie obrazu na tekst](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
 Dowiedz się, jak przyspieszyć OCR wykorzystując GPU w C# dla szybkiego konwertowania obrazów na tekst.
 
+### [Rozpoznawanie tekstu z obrazu przy użyciu przyspieszonego OCR na GPU w C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Wykorzystaj moc GPU do przyspieszenia OCR w C#, zwiększając wydajność przetwarzania obrazów.
+
+### [Wyodrębnianie tekstu z obrazu – Kompletny przewodnik C# OCR z redukcją szumów](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Pełny przewodnik po OCR w C#, obejmujący redukcję szumów, optymalizację przetwarzania i zapisywanie wyników.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

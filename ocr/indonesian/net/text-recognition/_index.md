@@ -306,6 +306,14 @@ Pelajari cara mengenali teks berbahasa Rusia dalam PDF multi‑halaman menggunak
 Pelajari cara mengenali teks bahasa Cina secara offline menggunakan Aspose.OCR dengan contoh lengkap dalam C#.
 ### [Ekstrak Teks dari Gambar dan Konversi ke JSONL – Panduan C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Ekstrak teks dari gambar dan ubah menjadi JSONL dengan mudah menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari File Gambar](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari file gambar dengan mudah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar secara Asinkron](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar secara asinkron dengan contoh kode praktis.
+### [OCR multi halaman PDF – Konversi ke HTML dengan C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Ubah PDF multi halaman menjadi HTML menggunakan Aspose OCR di C#. Ikuti panduan langkah demi langkah untuk konversi yang mudah.
+### [Cara OCR Arab – Panduan Lengkap C# untuk Mengekstrak Teks Arab](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks Arab dari gambar dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

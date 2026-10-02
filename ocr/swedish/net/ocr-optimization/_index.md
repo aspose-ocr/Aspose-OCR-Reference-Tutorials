@@ -53,6 +53,14 @@ Dyka ner i OCR‑världen med Aspose.OCR för .NET. Vår handledning om [perform
 
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET genom att utforska [preprocessing filters](./preprocessing-filters-for-image/). Ladda ner nu och upptäck hur du finjusterar dina bilder innan igenkänning. Denna handledning säkerställer sömlös integration, vilket ökar noggrannhet och effektivitet.
 
+## Känn igen text från bild med GPU‑accelererad OCR i C#
+
+Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer med Aspose.OCR.
+
+## Extrahera text från bild – Komplett C# OCR‑guide med brusreducering
+
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
+
 ## OCR‑optimeringshandledningar
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text från bilder med precision.
@@ -176,6 +184,10 @@ Lär dig hur du använder Aspose.OCR för .NET med GPU-acceleration för att eff
 
 
 
+### [Känn igen text från bild med GPU‑accelererad OCR i C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer med Aspose.OCR.
+### [Extrahera text från bild – Komplett C# OCR‑guide med brusreducering](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
 
 ## Vanliga frågor
 

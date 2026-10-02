@@ -156,6 +156,10 @@ Tận dụng sức mạnh GPU để nhận dạng văn bản từ hình ảnh nh
 
 
 
+### [Nhận dạng văn bản từ hình ảnh bằng OCR tăng tốc GPU trong C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Tận dụng sức mạnh GPU để tăng tốc độ và độ chính xác OCR khi nhận dạng văn bản từ hình ảnh trong C#.
+### [Trích xuất văn bản từ hình ảnh – Hướng dẫn C# OCR đầy đủ với giảm nhiễu](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm giảm nhiễu và cải thiện độ chính xác.
 
 ## Câu hỏi thường gặp
 

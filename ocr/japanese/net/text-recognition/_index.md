@@ -302,6 +302,14 @@ Aspose OCR を使用して C# でロシア語テキストをマルチページ P
 Aspose.OCR を使用して、オフライン環境で中国語テキストを正確に認識する方法をステップバイステップで解説します。
 ### [画像からテキストを抽出しJSONLに変換 – C# ガイド](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、画像からテキストを抽出しJSONL形式で取得する方法をステップバイステップで解説します。
+### [C# で OCR を使用する方法 – 画像ファイルからテキストを抽出する](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Aspose.OCR を利用して C# で画像ファイルからテキストを抽出する手順をステップバイステップで解説します。
+### [OCRマルチページPDF – C# Aspose OCRでHTMLに変換](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Aspose.OCR for .NET を使用して、マルチページPDFをHTMLに変換する手順をステップバイステップで解説します。
+### [C# で OCR を使用する方法 – 画像から非同期でテキストを抽出する](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Aspose.OCR を利用して C# で画像からテキストを非同期に抽出する手順をステップバイステップで解説します。
+### [アラビア語 OCR の方法 – アラビア語テキスト抽出の完全 C# ガイド](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Aspose.OCR を使用して C# でアラビア語テキストを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

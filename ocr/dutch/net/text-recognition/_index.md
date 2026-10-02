@@ -299,6 +299,14 @@ Leer hoe u Russische tekst in meer‑pagina PDF's herkent met Aspose OCR en C# i
 Leer hoe u tekst uit een afbeelding haalt en deze omzet naar JSONL-formaat met C# en Aspose.OCR.
 ### [Herken Chinese tekst offline – Complete C# OCR-tutorial](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
 Leer hoe u offline Chinese tekst kunt herkennen met Aspose.OCR in C#, stap voor stap met volledige codevoorbeelden.
+### [Hoe OCR in C# te gebruiken – Tekst uit afbeeldingsbestanden extraheren](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingsbestanden kunt extraheren.
+### [Hoe OCR in C# te gebruiken – Tekst asynchroon uit afbeelding extraheren](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen asynchroon kunt extraheren voor efficiënte verwerking.
+### [OCR meerpagina-PDF – Converteren naar HTML met C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Leer hoe u met Aspose.OCR een meerpagina-PDF naar HTML converteert in C#, voor naadloze integratie in uw .NET-applicaties.
+### [Hoe OCR Arabisch – Complete C#-gids voor het extraheren van Arabische tekst](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Leer hoe u met Aspose.OCR Arabische tekst uit afbeeldingen kunt extraheren met een volledige C#-handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

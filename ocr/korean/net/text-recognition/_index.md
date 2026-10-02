@@ -291,6 +291,14 @@ Aspose OCR C#를 사용해 러시아어 텍스트를 다중 페이지 PDF에서 
 오프라인에서 중국어 텍스트를 인식하는 완전한 C# OCR 튜토리얼로 Aspose.OCR을 활용하는 방법을 단계별로 안내합니다.
 ### [이미지에서 텍스트 추출 및 JSONL 변환 – C# 가이드](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 이미지에서 텍스트를 추출하고 JSONL 형식으로 변환하는 방법을 C#으로 단계별 안내합니다.
+### [C#에서 OCR 사용 방법 – 이미지 파일에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+C#와 Aspose.OCR을 활용해 이미지 파일에서 텍스트를 손쉽게 추출하는 단계별 가이드를 확인하세요.
+### [C#에서 OCR 사용 방법 – 이미지에서 비동기적으로 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+C#와 Aspose.OCR을 사용해 이미지에서 비동기적으로 텍스트를 추출하는 단계별 가이드를 확인하세요.
+### [OCR 다중 페이지 PDF – C# Aspose OCR로 HTML 변환](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+C#와 Aspose OCR을 사용하여 다중 페이지 PDF를 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [아랍어 OCR 방법 – 아랍어 텍스트 추출을 위한 완전한 C# 가이드](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+C#와 Aspose.OCR을 사용해 아랍어 텍스트를 정확히 추출하는 단계별 완전 가이드
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

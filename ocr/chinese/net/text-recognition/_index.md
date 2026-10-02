@@ -308,6 +308,14 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 在离线环境下实现中文文本识别的完整 C# 教程，涵盖从安装到代码实现的全部步骤。
 ### [从图像提取文本并转换为 JSONL – C# 指南](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 使用 Aspose.OCR 在 .NET 中提取图像文本并将其转换为 JSONL 格式，提供详细的分步指南。
+### [如何在 C# 中使用 OCR – 从图像文件提取文本](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+使用 Aspose.OCR 在 C# 中轻松提取图像文件的文本，实现快速 OCR 处理。
+### [如何在 C# 中使用 OCR – 异步提取图像文本](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+使用 Aspose.OCR 在 C# 中异步提取图像文件的文本，实现高效 OCR 处理。
+### [OCR 多页 PDF – 使用 C# Aspose OCR 转换为 HTML](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+使用 Aspose.OCR 将多页 PDF 转换为 HTML，提供 C# 示例代码，帮助您在 .NET 项目中实现高效转换。
+### [如何 OCR 阿拉伯语 – 完整的 C# 指南，提取阿拉伯文本](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+使用 Aspose.OCR 在 C# 中轻松提取阿拉伯语文本，实现高效 OCR 处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

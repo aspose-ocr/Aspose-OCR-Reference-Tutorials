@@ -312,6 +312,13 @@ url: /ar/net/text-recognition/
 تعلم كيفية التعرف على النص الصيني دون اتصال باستخدام Aspose.OCR في C# خطوة بخطوة.
 ### [استخراج النص من الصورة وتحويله إلى JSONL – دليل C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 تعلم استخراج النص من الصور وتحويله إلى تنسيق JSONL باستخدام Aspose.OCR في C#.
+### [كيفية استخدام OCR في C# – استخراج النص من ملفات الصور](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+تعلم كيفية استخراج النص من ملفات الصور باستخدام OCR في C# خطوة بخطوة.
+### [كيفية استخدام OCR في C# – استخراج النص من الصورة بشكل غير متزامن](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# بطريقة غير متزامنة لتحسين أداء تطبيقاتك.
+### [OCR لملف PDF متعدد الصفحات – تحويل إلى HTML باستخدام C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+### [كيفية التعرف الضوئي على الحروف العربية – دليل C# كامل لاستخراج النص العربي](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+تعلم خطوة بخطوة كيفية استخدام Aspose.OCR في C# لاستخراج النص العربي من الصور بدقة وسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

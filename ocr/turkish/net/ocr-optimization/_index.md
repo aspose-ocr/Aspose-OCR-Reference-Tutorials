@@ -166,6 +166,10 @@ GPU hızlandırmasıyla c# kullanarak görüntülerden metin tanıma yapın ve O
 
 
 
+### [C#'ta GPU Hızlandırmalı OCR ile Görüntüden Metin Tanıma](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+GPU hızlandırmalı OCR ile C# uygulamalarında görüntülerden yüksek doğrulukta metin çıkarın.
+### [Görüntüden Metin Çıkarma – Tam C# OCR Kılavuzu ve Gürültü Azaltma](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Gürültü azaltma teknikleriyle C# kullanarak görüntülerden metin çıkarma sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

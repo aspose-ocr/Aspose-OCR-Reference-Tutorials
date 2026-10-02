@@ -300,6 +300,14 @@ Tanulja meg, hogyan ismerje fel az orosz nyelvű szöveget többoldalas PDF-ekbe
 Ismerje meg, hogyan ismerhet fel offline kínai szöveget C#-ban az Aspose.OCR segítségével.
 ### [Szöveg kinyerése képből és konvertálása JSONL formátumba – C# útmutató](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Tanulja meg, hogyan nyerhet ki szöveget képekből és konvertálhatja JSONL formátumba C#-ban az Aspose.OCR segítségével.
+### [OCR többoldalas PDF – HTML-re konvertálás C# Aspose OCR használatával](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Tanulja meg, hogyan konvertálhat többoldalas PDF-et HTML formátumba C# és Aspose.OCR segítségével.
+### [Hogyan használjuk az OCR-t C#-ban – Szöveg kinyerése képfájlokból](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képekből történő szövegkivonáshoz lépésről-lépésre útmutatóval.
+### [Hogyan használjuk az OCR-t C#-ban – Szöveg kinyerése képfájlokból aszinkron módon](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban aszinkron módon a képek szövegének hatékony kinyeréséhez.
+### [Hogyan OCR-elj arab nyelven – Teljes C# útmutató arab szöveg kinyeréséhez](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Ismerje meg, hogyan használja az Aspose.OCR-t arab szöveg felismerésére C#-ban, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

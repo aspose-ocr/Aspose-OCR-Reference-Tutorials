@@ -61,6 +61,8 @@ Entfesseln Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahie
 Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
 ### [Bilddatei laden & Belegtext mit GPU‑OCR in C# extrahieren](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Nutzen Sie GPU‑beschleunigte OCR, um Belegtexte aus Bilddateien in C# schnell zu extrahieren.
+### [Durchsuchbare PDF in C# erstellen – OCR-Konvertierungsleitfaden](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR PDFs in C# durchsuchbar machen und OCR-Konvertierung implementieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

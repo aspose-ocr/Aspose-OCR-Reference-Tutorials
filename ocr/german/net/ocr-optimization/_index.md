@@ -187,6 +187,10 @@ Optimieren Sie die OCR-Genauigkeit, indem Sie Bilder vorverarbeiten und Aspose O
 
 
 
+### [Texterkennung aus Bild mit GPU‑beschleunigtem OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Nutzen Sie GPU‑Beschleunigung, um Text aus Bildern schnell und präzise mit Aspose.OCR in C# zu erkennen.
+### [Textextraktion aus Bild – Vollständiger C#‑OCR‑Leitfaden mit Rauschunterdrückung](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren und Rauschen reduzieren für maximale Genauigkeit.
 
 ## Häufig gestellte Fragen
 

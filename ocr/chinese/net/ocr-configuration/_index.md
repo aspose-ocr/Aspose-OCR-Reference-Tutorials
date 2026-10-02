@@ -100,6 +100,7 @@ weight: 24
 
 
 
+### [在 C# 中创建可搜索 PDF – OCR 转换指南](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 
 
 

@@ -291,6 +291,14 @@ Erfahren Sie, wie Sie mehrseitige PDFs mit russischem Text mithilfe von Aspose O
 Erfahren Sie, wie Sie chinesischen Text offline mit C# und Aspose.OCR erkennen und verarbeiten.
 ### [Text aus Bild extrahieren und in JSONL konvertieren – C#‑Leitfaden](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR Text aus Bildern extrahieren und im JSONL‑Format speichern – Schritt‑für‑Schritt‑Anleitung für C#.
+### [Wie man OCR in C# verwendet – Text aus Bilddateien extrahieren](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bilddateien extrahieren und in Ihre .NET‑Anwendungen integrieren.
+### [OCR-Multi-Page-PDF – Konvertierung zu HTML mit C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Erfahren Sie, wie Sie mehrseitige PDF‑Dateien mit Aspose OCR in HTML umwandeln und in Ihre .NET‑Anwendungen integrieren.
+### [Wie man OCR in C# verwendet – Text aus Bilddateien asynchron extrahieren](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bilddateien asynchron extrahieren und in Ihre .NET‑Anwendungen integrieren.
+### [Wie man arabisches OCR verwendet – Vollständiger C#‑Leitfaden zum Extrahieren arabischen Textes](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# arabischen Text aus Bildern extrahieren und Ihre .NET‑Anwendungen erweitern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -184,6 +184,9 @@ weight: 25
 
 
 
+### [recognize text from image using GPU‑accelerated OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+### [Εξαγωγή κειμένου από εικόνα – Πλήρης οδηγός C# OCR με μείωση θορύβου](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Μάθετε πώς να βελτιώσετε την ακρίβεια OCR με τεχνικές μείωσης θορύβου σε C# εφαρμογές.
 
 ## Συχνές Ερωτήσεις
 

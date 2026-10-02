@@ -287,6 +287,14 @@ url: /ru/net/text-recognition/
 Полное руководство по офлайн-распознаванию китайского текста с помощью Aspose.OCR и C#.
 ### [Извлечение текста из изображения и конвертация в JSONL – Руководство на C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Научитесь извлекать текст из изображений и сохранять результаты в формате JSONL с помощью Aspose.OCR и C#.
+### [Как использовать OCR в C# – извлечение текста из файлов изображений](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Узнайте, как использовать Aspose.OCR в C# для извлечения текста из изображений. Пошаговое руководство для .NET-разработчиков.
+### [Как использовать OCR в C# – асинхронное извлечение текста из изображения](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Узнайте, как асинхронно извлекать текст из изображений с помощью Aspose.OCR в C#. Пошаговое руководство для .NET‑разработчиков.
+### [OCR многостраничный PDF – преобразование в HTML с C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Узнайте, как конвертировать многостраничные PDF в HTML с помощью Aspose OCR и C# для .NET приложений.
+### [Как распознать арабский – Полное руководство C# по извлечению арабского текста](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Узнайте, как использовать Aspose.OCR в C# для точного извлечения арабского текста из изображений.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,8 @@ Pelajari cara mengaktifkan lisensi Aspose OCR dalam aplikasi C# Anda dengan pand
 
 
 
+### [Buat PDF yang dapat dicari di C# – Panduan konversi OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+Panduan langkah demi langkah membuat PDF dapat dicari dengan menggunakan Aspose.OCR di C#.
 
 
 

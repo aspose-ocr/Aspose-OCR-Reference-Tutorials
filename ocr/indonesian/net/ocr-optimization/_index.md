@@ -190,6 +190,10 @@ Jelajahi integrasi OCR dengan akselerasi GPU menggunakan Aspose.OCR untuk .NET. 
 
 
 
+### [Mengenali teks dari gambar menggunakan OCR berbasis GPU di C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Gunakan akselerasi GPU dengan Aspose.OCR untuk C# guna meningkatkan kecepatan dan akurasi ekstraksi teks dari gambar.
+### [Ekstrak Teks dari Gambar – Panduan Lengkap OCR C# dengan Reduksi Noise](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Panduan lengkap untuk mengekstrak teks dari gambar menggunakan C#, termasuk teknik reduksi noise untuk meningkatkan akurasi OCR.
 
 ## Pertanyaan yang Sering Diajukan
 

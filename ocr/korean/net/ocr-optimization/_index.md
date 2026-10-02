@@ -155,6 +155,9 @@ C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 �
 
 
 
+### [GPU 가속 OCR을 사용한 C# 이미지 텍스트 인식](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+GPU 가속 OCR을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 추출하는 방법을 단계별로 안내합니다.
+### [이미지에서 텍스트 추출 – 노이즈 감소를 포함한 완전한 C# OCR 가이드](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 
 ## 자주 묻는 질문
 

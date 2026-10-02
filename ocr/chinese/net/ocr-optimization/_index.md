@@ -164,6 +164,12 @@ weight: 25
 
 ### [如何在 C# 中提升 OCR – 去倾斜、去噪声与旋转图像](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 
+### [使用 GPU 加速的 OCR 在 C# 中识别图像文字](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+使用 GPU 加速的 OCR 在 C# 中实现图像文字识别，提高处理速度和准确率。
+
+### [从图像提取文本 – 完整的 C# OCR 指南（含噪声消除）](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+完整的 C# OCR 指南，涵盖噪声消除和文本提取，帮助提升识别准确率。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

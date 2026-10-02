@@ -274,6 +274,14 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความรัสเซียในไฟล์ PDF หลายหน้าอย่างละเอียดและแม่นยำ
 ### [จดจำข้อความจีนแบบออฟไลน์ – คำแนะนำ OCR ด้วย C# ฉบับสมบูรณ์](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
 ### [สกัดข้อความจากภาพและแปลงเป็น JSONL – คู่มือ C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากไฟล์รูปภาพ](./how-to-use-ocr-in-c-extract-text-from-image/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากไฟล์รูปภาพอย่างง่ายดายและแม่นยำ
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพแบบอะซิงโครนัส](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากไฟล์รูปภาพแบบอะซิงโครนัสอย่างง่ายดายและมีประสิทธิภาพ
+### [OCR หลายหน้า PDF – แปลงเป็น HTML ด้วย C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+เรียนรู้วิธีแปลง PDF หลายหน้าเป็น HTML ด้วย Aspose OCR ใน C# เพื่อการประมวลผลที่รวดเร็วและแม่นยำ
+### [วิธีใช้ OCR ภาษาอาหรับ – คู่มือ C# ครบถ้วนสำหรับการดึงข้อความภาษาอาหรับ](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความภาษาอาหรับจากรูปภาพอย่างแม่นยำและมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

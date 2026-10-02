@@ -311,6 +311,14 @@ Naučte se rozpoznávat ruský text v PDF s více stránkami pomocí Aspose OCR 
 Naučte se, jak pomocí Aspose.OCR v C# offline rozpoznávat čínské znaky s vysokou přesností.
 ### [Extrahovat text z obrázku a převést do JSONL – C# průvodce](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z obrázku a uložit jej ve formátu JSONL.
+### [Jak používat OCR v C# – Extrahovat text z obrázkových souborů](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z různých typů obrázků a integrovat OCR do svých .NET aplikací.
+### [OCR vícestránkový PDF – převod do HTML v C# s Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Naučte se převést vícestránkové PDF na HTML pomocí Aspose OCR v C# a získat výstup ve formátu HTML.
+### [Jak používat OCR v C# – Asynchronně extrahovat text z obrázku](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Naučte se, jak pomocí Aspose.OCR v C# asynchronně extrahovat text z obrázků a integrovat OCR do svých .NET aplikací.
+### [Jak provést OCR arabštiny – Kompletní průvodce C# pro extrakci arabského textu](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat arabský text z obrázků a integrovat OCR do svých .NET aplikací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

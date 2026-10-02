@@ -301,6 +301,14 @@ Siga o guia passo a passo para extrair texto russo de PDFs de várias páginas c
 Aprenda a reconhecer texto chinês offline em C# usando Aspose.OCR, com um tutorial passo a passo para integração rápida.
 ### [Extrair Texto de Imagem e Converter para JSONL – Guia C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Aprenda a extrair texto de imagens e convertê-lo para JSONL usando Aspose.OCR em C#. Guia passo a passo.
+### [Como usar OCR em C# – Extrair texto de arquivos de imagem](./how-to-use-ocr-in-c-extract-text-from-image/)
+Aprenda a usar o Aspose.OCR em C# para extrair texto de arquivos de imagem de forma simples e eficaz.
+### [Como usar OCR em C# – Extrair texto de imagem de forma assíncrona](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Aprenda a usar o Aspose.OCR em C# para extrair texto de imagens de maneira assíncrona e eficiente.
+### [OCR de PDF multipágina – Converter para HTML com C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Converta PDFs multipágina em HTML usando Aspose.OCR com C#. Siga o guia passo a passo para transformar documentos em conteúdo web.
+### [Como fazer OCR em árabe – Guia completo em C# para extrair texto árabe](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Aprenda a usar Aspose.OCR em C# para reconhecer e extrair texto em árabe de imagens com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

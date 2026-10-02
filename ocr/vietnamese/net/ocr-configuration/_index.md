@@ -105,6 +105,8 @@ Hướng dẫn chi tiết cách cài đặt giấy phép Aspose OCR trong dự �
 
 
 
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn chuyển đổi OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+Hướng dẫn tạo PDF có thể tìm kiếm trong C# bằng Aspose.OCR, chuyển đổi hình ảnh thành văn bản có thể tìm kiếm.
 
 
 

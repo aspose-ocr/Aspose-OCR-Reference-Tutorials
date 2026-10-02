@@ -305,6 +305,14 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận d�
 Khám phá cách nhận dạng văn bản tiếng Trung offline bằng C# với Aspose.OCR, hướng dẫn chi tiết từng bước.
 ### [Trích xuất văn bản từ hình ảnh và chuyển sang JSONL – Hướng dẫn C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh và lưu kết quả dưới dạng JSONL.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ tệp hình ảnh](./how-to-use-ocr-in-c-extract-text-from-image/)
+Tìm hiểu cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ các tệp hình ảnh một cách nhanh chóng và chính xác.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh bất đồng bộ](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Tìm hiểu cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh một cách bất đồng bộ, tăng hiệu suất và đáp ứng nhanh.
+### [Cách sử dụng OCR tiếng Ả Rập – Hướng dẫn C# đầy đủ để trích xuất văn bản tiếng Ả Rập](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Tìm hiểu cách sử dụng Aspose.OCR trong C# để trích xuất văn bản tiếng Ả Rập từ hình ảnh một cách chính xác và hiệu quả.
+### [OCR đa trang PDF – Chuyển đổi sang HTML bằng C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Biến đổi PDF đa trang thành HTML bằng Aspose OCR trong C#, giúp tích hợp nội dung web một cách nhanh chóng và chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

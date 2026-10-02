@@ -306,6 +306,14 @@ Lär dig hur du med Aspose OCR i C# extraherar rysk text från flersidiga PDF-fi
 Lär dig hur du offline känner igen kinesisk text med Aspose.OCR i C# med en komplett steg-för-steg-guide.
 ### [Extrahera text från bild och konvertera till JSONL – C#-guide](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
 Lär dig hur du med Aspose.OCR i C# extraherar text från en bild och sparar resultatet i JSONL-format.
+### [Hur du använder OCR i C# – Extrahera text från bildfiler](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bildfiler enkelt och effektivt.
+### [OCR flersidig PDF – Konvertera till HTML med C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Lär dig hur du konverterar en flersidig PDF till HTML med Aspose.OCR i C#.
+### [Hur du använder OCR i C# – Extrahera text från bild asynkront](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Lär dig hur du asynkront extraherar text från bildfiler med Aspose.OCR i C# för förbättrad prestanda.
+### [Hur du OCR:ar arabiska – Komplett C#-guide för att extrahera arabisk text](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera arabiska texter från bildfiler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
