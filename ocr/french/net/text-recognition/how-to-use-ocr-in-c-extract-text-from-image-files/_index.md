@@ -24,13 +24,7 @@ title: Comment utiliser l'OCR en C# – Extraire du texte à partir de fichiers 
 url: /fr/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-'OCR](ocr-process.png "Diagramme montrant le flux de travail OCR depuis le chargement de l'image jusqu'à l'extraction du texte")
-
-Now produce final content.
-
-Check for any other links: none.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,7 +23,7 @@ title: Szöveg felismerése képről GPU‑gyorsított OCR‑rel C#‑ban
 url: /hu/net/ocr-optimization/recognize-text-from-image-using-gpu-accelerated-ocr-in-c/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

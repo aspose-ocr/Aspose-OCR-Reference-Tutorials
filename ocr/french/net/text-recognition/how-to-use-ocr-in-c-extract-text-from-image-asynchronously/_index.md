@@ -23,8 +23,6 @@ title: Comment utiliser l'OCR en C# – Extraire du texte d’une image de mani�
 url: /fr/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,7 +24,7 @@ title: Reconocer texto de una imagen usando OCR acelerado por GPU en C#
 url: /es/net/ocr-optimization/recognize-text-from-image-using-gpu-accelerated-ocr-in-c/
 ---
 
-Let's write it.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

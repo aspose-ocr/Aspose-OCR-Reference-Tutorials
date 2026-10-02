@@ -25,11 +25,7 @@ title: C# में खोज योग्य PDF बनाएं – OCR रू
 url: /hi/net/ocr-configuration/create-searchable-pdf-in-c-ocr-conversion-guide/
 ---
 
-codes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

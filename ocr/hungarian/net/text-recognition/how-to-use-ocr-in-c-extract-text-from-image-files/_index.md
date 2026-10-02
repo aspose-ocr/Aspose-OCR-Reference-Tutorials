@@ -24,12 +24,6 @@ title: Hogyan használjunk OCR-t C#-ban – Szöveg kinyerése képfájlokból
 url: /hu/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-](url)". It doesn't say not to translate alt. But to be safe, we can translate alt text to Hungarian, but keep URL unchanged. The title attribute also should be translated? It's a string. Could translate. But might be considered part of image markdown. Probably okay.
-
-We'll translate alt and title.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

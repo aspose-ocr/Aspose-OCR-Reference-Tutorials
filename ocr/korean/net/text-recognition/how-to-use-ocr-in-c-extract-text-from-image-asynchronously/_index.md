@@ -21,11 +21,7 @@ title: C#에서 OCR 사용 방법 – 이미지를 비동기적으로 텍스트 
 url: /ko/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
--backtop-button >}}
-
-Make sure no extra spaces.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

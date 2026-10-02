@@ -19,13 +19,7 @@ title: 如何在 C# 中使用 OCR – 异步从图像提取文本
 url: /zh/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-, and happy coding!" translate.
-
-Then closing shortcodes.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

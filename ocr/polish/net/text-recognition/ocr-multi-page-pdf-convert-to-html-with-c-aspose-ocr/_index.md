@@ -25,10 +25,6 @@ title: OCR wielostronicowego PDF – konwersja do HTML przy użyciu C# Aspose OC
 url: /pl/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

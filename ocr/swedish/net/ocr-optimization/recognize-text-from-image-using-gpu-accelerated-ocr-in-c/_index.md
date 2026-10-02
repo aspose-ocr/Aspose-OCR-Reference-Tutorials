@@ -23,24 +23,6 @@ title: Igenkänn text från bild med GPU‑accelererad OCR i C#
 url: /sv/net/ocr-optimization/recognize-text-from-image-using-gpu-accelerated-ocr-in-c/
 ---
 
-Translate.
-
-Next: "Next steps? Try chaining this code with a PDF generator to create searchable PDFs, or feed the extracted strings into a natural‑language processing pipeline. You could also experiment with `GpuMode.Auto` to make your app adaptable to environments without a GPU."
-
-Translate.
-
-Next: "Happy coding, and may your OCR runs be lightning‑quick!" translate.
-
-Image markdown remains same.
-
-Close shortcodes.
-
-Now produce final content.
-
-Be careful with Swedish characters.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

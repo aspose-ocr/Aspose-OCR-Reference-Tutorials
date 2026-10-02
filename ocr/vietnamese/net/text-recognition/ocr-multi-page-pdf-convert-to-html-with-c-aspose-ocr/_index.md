@@ -23,12 +23,6 @@ title: OCR đa trang PDF – Chuyển sang HTML với C# Aspose OCR
 url: /vi/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-ose OCR" title.
-
-Let's translate.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

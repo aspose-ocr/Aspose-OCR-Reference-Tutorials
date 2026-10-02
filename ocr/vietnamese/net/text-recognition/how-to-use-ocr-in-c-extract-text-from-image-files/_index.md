@@ -24,12 +24,6 @@ title: Cách sử dụng OCR trong C# – Trích xuất văn bản từ các t�
 url: /vi/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-block placeholders are not actual code; they are placeholders. Keep them.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

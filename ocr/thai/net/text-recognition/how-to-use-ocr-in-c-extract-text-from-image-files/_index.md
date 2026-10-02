@@ -22,10 +22,6 @@ title: วิธีใช้ OCR ใน C# – ดึงข้อความจ
 url: /th/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-must match). Might be safer to keep alt text unchanged, as it's part of the image markdown. However translation of alt text is content, but they said preserve exactly all images. That likely means keep the markdown syntax, not necessarily the alt text. But to be safe, we might keep alt text unchanged. However translation of alt text is optional. I'd keep alt text unchanged to avoid mismatch.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,10 +24,6 @@ title: como fazer OCR em árabe – Guia completo em C# para extrair texto árab
 url: /pt/net/text-recognition/how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/
 ---
 
-Also bullet lists.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,9 +21,7 @@ title: C#'ta OCR Nasıl Kullanılır – Görüntüden Metni Asenkron Olarak Ç�
 url: /tr/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-headings levels.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

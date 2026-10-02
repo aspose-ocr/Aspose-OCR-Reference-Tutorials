@@ -23,8 +23,6 @@ title: Как использовать OCR в C# — асинхронно изв
 url: /ru/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

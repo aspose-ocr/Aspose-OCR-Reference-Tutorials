@@ -24,12 +24,6 @@ title: Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή
 url: /el/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-URL remains same. So alt text becomes Greek, title also Greek.
-
-Let's translate alt text: "Διάγραμμα χρήσης OCR". Title: "Διάγραμμα που δείχνει τη ροή εργασίας OCR από τη φόρτωση της εικόνας έως την εξαγωγή κειμένου".
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

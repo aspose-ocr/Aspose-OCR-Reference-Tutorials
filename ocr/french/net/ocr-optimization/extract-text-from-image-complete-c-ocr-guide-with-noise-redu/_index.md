@@ -25,11 +25,7 @@ title: Extraire du texte à partir d'une image – Guide complet OCR en C# avec 
 url: /fr/net/ocr-optimization/extract-text-from-image-complete-c-ocr-guide-with-noise-redu/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

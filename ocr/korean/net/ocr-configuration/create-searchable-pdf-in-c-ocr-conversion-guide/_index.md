@@ -23,19 +23,7 @@ title: C#에서 검색 가능한 PDF 만들기 – OCR 변환 가이드
 url: /ko/net/ocr-configuration/create-searchable-pdf-in-c-ocr-conversion-guide/
 ---
 
-is part of markdown; we should translate alt text but keep URL unchanged. The title also. So translate alt and title.
-
-Proceed.
-
-List items under "What You’ll Learn" translate each bullet.
-
-Prerequisites list.
-
-Then rest.
-
-Make sure code block placeholders remain as is.
-
-Proceed to produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,19 +25,7 @@ title: ocr pdf multi halaman – Konversi ke HTML dengan C# Aspose OCR
 url: /id/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-blocks/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now ensure we didn't translate any code block placeholders. Good.
-
-Check for any markdown links: none besides image.
-
-Check for any URLs: image path kept.
-
-Check for any other shortcodes: none.
-
-Now produce final content with translation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

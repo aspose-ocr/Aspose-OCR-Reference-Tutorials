@@ -24,7 +24,7 @@ title: Text aus Bild extrahieren – Vollständiger C#‑OCR‑Leitfaden mit Rau
 url: /de/net/ocr-optimization/extract-text-from-image-complete-c-ocr-guide-with-noise-redu/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

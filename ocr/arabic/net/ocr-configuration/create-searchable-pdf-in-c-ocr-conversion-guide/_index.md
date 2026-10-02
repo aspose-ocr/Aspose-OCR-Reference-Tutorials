@@ -23,8 +23,6 @@ title: إنشاء ملف PDF قابل للبحث في C# – دليل تحويل
 url: /ar/net/ocr-configuration/create-searchable-pdf-in-c-ocr-conversion-guide/
 ---
 
-craft the Arabic translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

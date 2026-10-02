@@ -25,8 +25,6 @@ title: Vytvořte prohledávatelný PDF v C# – průvodce konverzí OCR
 url: /cs/net/ocr-configuration/create-searchable-pdf-in-c-ocr-conversion-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

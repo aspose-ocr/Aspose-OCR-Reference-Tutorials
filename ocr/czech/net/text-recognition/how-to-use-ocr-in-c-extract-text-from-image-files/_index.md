@@ -24,9 +24,7 @@ title: Jak použít OCR v C# – Extrahovat text z obrázkových souborů
 url: /cs/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-and end.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

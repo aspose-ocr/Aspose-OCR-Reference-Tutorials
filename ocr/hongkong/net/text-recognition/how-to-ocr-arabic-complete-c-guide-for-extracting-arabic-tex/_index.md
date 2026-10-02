@@ -20,13 +20,7 @@ title: 如何 OCR 阿拉伯文 – 完整 C# 指南：提取阿拉伯文字
 url: /zh-hant/net/text-recognition/how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/
 ---
 
-kept all code block placeholders unchanged.
-
-Also ensure we didn't translate any URLs, file paths, variable names.
-
-Check for any leftover English text: headings, etc. Should be translated.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

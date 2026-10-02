@@ -25,8 +25,6 @@ title: Crea PDF ricercabile in C# – Guida alla conversione OCR
 url: /it/net/ocr-configuration/create-searchable-pdf-in-c-ocr-conversion-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

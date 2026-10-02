@@ -22,9 +22,7 @@ title: Wie man OCR in C# verwendet – Text aus Bild asynchron extrahieren
 url: /de/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-or file paths: we kept receipt.jpg, YOUR_DIRECTORY/receipt.jpg, etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

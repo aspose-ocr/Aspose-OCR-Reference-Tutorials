@@ -25,9 +25,7 @@ title: OCR PDF multi-pages – Convertir en HTML avec C# Aspose OCR
 url: /fr/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-text** remains.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

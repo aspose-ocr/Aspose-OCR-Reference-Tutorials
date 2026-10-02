@@ -23,12 +23,6 @@ title: OCR de PDF multipágina – Convertir a HTML con C# Aspose OCR
 url: /es/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-instruction says preserve URLs, file paths, but alt text is not a URL. Should translate alt text and title? Probably yes, because they are text. But the title contains English phrase; we can translate to Spanish while preserving the URL. So alt text: "ocr multi page pdf conversion flow diagram" -> "diagrama de flujo de conversión de ocr multi page pdf". Title: "ocr multi page pdf conversion flow" -> "flujo de conversión de ocr multi page pdf". Keep the URL unchanged.
-
-Now translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

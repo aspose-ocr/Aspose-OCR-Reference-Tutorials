@@ -25,12 +25,6 @@ title: Wie man Arabisch OCR durchführt – Vollständiger C#‑Leitfaden zum Ex
 url: /de/net/text-recognition/how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/
 ---
 
-Check for any URLs: there is image URL /images/ocr-arabic-output.png, keep unchanged. Also maybe other URLs none.
-
-Translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,10 +24,6 @@ title: Comment faire de l'OCR arabe – Guide complet C# pour extraire le texte 
 url: /fr/net/text-recognition/how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/
 ---
 
->, tables, lists.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

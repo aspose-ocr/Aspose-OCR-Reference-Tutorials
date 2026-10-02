@@ -25,10 +25,6 @@ title: ocr flersidig pdf – Konvertera till HTML med C# Aspose OCR
 url: /sv/net/text-recognition/ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/
 ---
 
-careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

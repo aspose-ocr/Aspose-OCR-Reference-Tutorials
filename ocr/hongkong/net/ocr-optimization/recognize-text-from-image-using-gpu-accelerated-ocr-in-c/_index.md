@@ -20,19 +20,7 @@ title: 使用 GPU 加速的 OCR 在 C# 中辨識圖像文字
 url: /zh-hant/net/ocr-optimization/recognize-text-from-image-using-gpu-accelerated-ocr-in-c/
 ---
 
-and hand the heavy lifting to your GPU, turning a sluggish operation into a near‑instant one."
-
-Translate.
-
-Proceed similarly.
-
-Make sure to keep **bold** formatting.
-
-Proceed step by step.
-
-Also code block placeholders remain.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

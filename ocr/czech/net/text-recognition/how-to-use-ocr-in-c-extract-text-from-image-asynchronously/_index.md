@@ -21,9 +21,7 @@ title: Jak použít OCR v C# – Asynchronně extrahovat text z obrázku
 url: /cs/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-.
-
-Now produce final content with translation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,15 +22,7 @@ title: Cómo usar OCR en C# – Extraer texto de una imagen de forma asíncrona
 url: /es/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
-the documents you need to read." translate.
-
-Next: "Got questions or hit a snag? Drop a comment below, and happy coding!" translate.
-
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc unchanged.
-
-Also include backtop button shortcode unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,11 +24,7 @@ title: Arapça OCR Nasıl Yapılır – Arapça Metin Çıkarma İçin Tam C# Re
 url: /tr/net/text-recognition/how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/
 ---
 
-produce final content with all translations.
-
-Check that we didn't alter any code block placeholders, shortcodes, links (none besides image). Ensure markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

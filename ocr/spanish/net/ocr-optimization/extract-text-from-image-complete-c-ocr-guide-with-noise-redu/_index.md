@@ -23,10 +23,6 @@ title: Extraer texto de una imagen – Guía completa de OCR en C# con reducció
 url: /es/net/ocr-optimization/extract-text-from-image-complete-c-ocr-guide-with-noise-redu/
 ---
 
-careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

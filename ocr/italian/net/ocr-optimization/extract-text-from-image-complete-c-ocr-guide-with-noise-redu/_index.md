@@ -24,16 +24,6 @@ title: Estrai testo da immagine – Guida completa OCR in C# con riduzione del r
 url: /it/net/ocr-optimization/extract-text-from-image-complete-c-ocr-guide-with-noise-redu/
 ---
 
-"# Extract Text from Image – Complete C# OCR Guide". Translate: "Estrai Testo da Immagine – Guida Completa OCR in C#". Keep "C#" as is.
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep bold formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

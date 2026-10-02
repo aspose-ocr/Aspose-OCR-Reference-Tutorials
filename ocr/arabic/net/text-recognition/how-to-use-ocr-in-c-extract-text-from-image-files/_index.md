@@ -22,11 +22,7 @@ title: كيفية استخدام OCR في C# – استخراج النص من م
 url: /ar/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-top-button >}}
-
-Make sure to keep them unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

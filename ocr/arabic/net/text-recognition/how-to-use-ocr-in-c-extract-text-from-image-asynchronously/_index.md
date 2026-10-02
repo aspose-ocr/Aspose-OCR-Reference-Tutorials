@@ -21,11 +21,7 @@ title: كيفية استخدام OCR في C# – استخراج النص من ا
 url: /ar/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-asynchronously/
 ---
 
--backtop-button >}}
-
-All good.
-
-Now produce final output with same formatting.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

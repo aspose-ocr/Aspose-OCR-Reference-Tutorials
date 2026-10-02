@@ -21,18 +21,6 @@ title: 如何在 C# 中使用 OCR – 從圖像檔案提取文字
 url: /zh-hant/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-image-files/
 ---
 
-OCR in C# – Extract Text from Image Files" etc.
-
-We must keep the same structure.
-
-Let's produce translated content.
-
-Be careful with markdown blockquote > lines.
-
-Also need to translate "Pro tip:" etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
