@@ -26,7 +26,7 @@ weight: 25
 - **.NET Core はサポートされていますか？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6+ で完全にサポートされています。
 
 ## 「画像からテキストを抽出する」とは？
-画像からテキスト抽出するとは、光学文字認識（OCR）を使用してビットマップ上に表示された文字を読み取り、プレーンテキストまたは書式付きドキュメントとして出力することです。Aspose.OCR は高度なアルゴリズムを活用し、さまざまなフォント、言語、画像品質に対応します。
+画像からテキストを抽出するとは、光学文字認識（OCR）を使用してビットマップ上に表示された文字を読み取り、プレーンテキストまたは書式付きドキュメントとして出力することです。Aspose.OCR は高度なアルゴリズムを活用し、さまざまなフォント、言語、画像品質に対応します。
 
 ## なぜ Aspose.OCR for .NET を使用するのか？
 - **高精度** – 高度な認識エンジンによりエラーが低減されます。  
@@ -119,6 +119,12 @@ Aspose.OCR for .NET とのシームレスな OCR 統合を検討してくださ�
 Aspose.OCR for .NET を使用して OCR の精度を向上させます。スペルを修正し、辞書をカスタマイズし、エラーのないテキスト認識を簡単に実現します。
 ### [OCR画像認識で複数ページの結果をドキュメントとして保存](./save-multipage-result-as-document/)
 Aspose.OCR for .NET の可能性を解き放ちます。この包括的なステップバイステップ ガイドを使用すると、複数ページの OCR 結果をドキュメントとして簡単に保存できます。
+### [Aspose OCR GPU：C# で高速テキスト認識](./aspose-ocr-gpu-fast-text-recognition-with-c/)
+GPU を活用し、C# で高速かつ高精度なテキスト認識を実現する方法を解説します。
+
+### [Aspose OCR でフィルタを使用する方法 – テキスト抽出を強化](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+フィルタの適用方法を学び、テキスト抽出精度と速度を向上させる手順をステップバイステップで解説します。
+
 ### [C# で画像 OCR を前処理 – フィルタ完全ガイド](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
 C# で画像 OCR の前処理フィルタを適用し、認識精度を向上させる方法をステップバイステップで解説します。
 ### [C# で PNG からテキスト画像を抽出 – Aspose OCR を使用したバッチ OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
@@ -181,10 +187,6 @@ GPU のパワーを活用して、画像から高速かつ正確にテキスト�
 GPU の高速処理を活用し、C# で画像からテキストを高速かつ高精度に抽出する方法を解説します。
 ### [画像からテキスト抽出 – ノイズ除去を含む完全 C# OCR ガイド](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 ノイズ除去手法を活用し、C# で画像から高精度にテキストを抽出する完全ガイドです。
-### [Aspose OCR GPU：C# で高速テキスト認識](./aspose-ocr-gpu-fast-text-recognition-with-c/)
-GPU を活用し、C# で高速かつ高精度なテキスト認識を実現する方法を解説します。
-### [Aspose OCR でフィルタを使用する方法 – テキスト抽出を強化](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
-フィルタの適用方法を学び、テキスト抽出精度と速度を向上させる手順をステップバイステップで解説します。
 
 ## よくある質問
 

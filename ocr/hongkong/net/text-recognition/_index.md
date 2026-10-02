@@ -27,7 +27,7 @@ url: /zh-hant/net/text-recognition/
 
 ## 在 OCR 影像辨識中取得 JSON 格式的結果
 
-釋放 Aspose.OCR for .NET 的強大功能。學習輕鬆取得 JSON 格式的 OCR 結果。透過本逐步指南增強您的影像辨識能力。
+透過學習如何輕鬆獲得 JSON 格式的 OCR 結果，釋放 Aspose.OCR for .NET 的全部潛力。本逐步指南可確保您順利增強影像辨識能力。利用 Aspose.OCR 強大的功能和業界領先的技術來提高應用程式的效率。
 
 ## OCR影像辨識中的OCR偵測區域模式
 
@@ -51,6 +51,7 @@ url: /zh-hant/net/text-recognition/
 釋放 Aspose.OCR for .NET 的強大功能。學習輕鬆取得 JSON 格式的 OCR 結果。透過本逐步指南增強您的影像辨識能力。
 ### [使用 Aspose OCR 將影像轉換為 JSON – 步驟說明指南](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 學習如何使用 Aspose OCR 將影像資料轉換為 JSON 格式，提供清晰的步驟指引。
+
 ### [OCR影像辨識中的OCR偵測區域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現高效的圖像文字識別。探索 OCR 偵測區域模式以獲得精確結果。
 ### [OCR影像辨識中辨識PDF](./recognize-pdf/)
@@ -59,6 +60,12 @@ url: /zh-hant/net/text-recognition/
 學習如何使用 Aspose.OCR 將 TIFF 影像轉換為可搜尋的 PDF，提供完整的步驟說明與範例。
 ### [OCR影像辨識中的辨識表](./recognize-table/)
 透過我們關於 OCR 影像辨識中表格辨識的綜合指南，釋放 Aspose.OCR for .NET 的潛力。
+### [在 C# 中從影像提取文字 – 完整步驟指南](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+提供完整的逐步說明，教您如何在 C# 中使用 Aspose.OCR 從影像中提取文字。
+
+### [使用 Aspose OCR 從掃描影像建立可搜尋 PDF](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+學習如何使用 Aspose OCR 將掃描的影像轉換為可搜尋的 PDF，提升文件的可讀性與搜尋功能。
+
 ### [如何在 C# 中使用 OCR – 從 PNG 提取俄文文字](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
 使用 Aspose.OCR for .NET，透過 C# 從 PNG 圖片中提取俄文文字，步驟完整且易於實作。
 
@@ -301,10 +308,6 @@ url: /zh-hant/net/text-recognition/
 學習如何使用 Aspose OCR for .NET 將多頁 PDF 轉換為 HTML，提升文件呈現與可存取性。
 ### [如何 OCR 阿拉伯文 – 完整 C# 指南，提取阿拉伯文字](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
 使用 Aspose.OCR 在 C# 中完整提取阿拉伯文字，遵循本步驟指南快速上手。
-### [在 C# 中從影像提取文字 – 完整步驟指南](./extract-text-from-image-in-c-complete-step-by-step-guide/)
-提供完整的逐步說明，教您如何在 C# 中使用 Aspose.OCR 從影像中提取文字。
-### [使用 Aspose OCR 從掃描影像建立可搜尋 PDF](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
-學習如何使用 Aspose OCR 將掃描的影像轉換為可搜尋的 PDF，提升文件的可讀性與搜尋功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

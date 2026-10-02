@@ -41,13 +41,18 @@ OCR の抽出とは、画像（または画像のコレクション）を Aspose
 - 処理したい画像を含むサンプル画像またはアーカイブ。
 
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
+Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を引き出し、アーカイブ画像からテキストを段階的に抽出する方法を学びます。
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
+Aspose.OCR で .NET の OCR 画像認識を活用し、フォルダー内の画像からテキストを簡単に抽出する方法を習得します。
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
+Aspose.OCR for .NET の強力な OCR 機能を活用し、画像からシームレスにテキストを抽出する方法を学びます。
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
+Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR 画像認識を手軽に実行し、アプリケーションの生産性とデータ抽出を向上させます。
+### [C# で OCR を有効化する方法 – PDF を簡単にテキストへ変換](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+
 ### [C# で GPU OCR を使用して画像ファイルを読み込み、レシートテキストを抽出](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 GPU を活用した OCR で画像ファイルからレシートテキストを高速に抽出し、C# で実装する方法を解説します。
 ### [C# で検索可能な PDF を作成 – OCR 変換ガイド](./create-searchable-pdf-in-c-ocr-conversion-guide/)
-### [C# で OCR を有効化する方法 – PDF を簡単にテキストへ変換](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  
