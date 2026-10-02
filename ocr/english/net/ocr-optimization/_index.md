@@ -84,6 +84,13 @@ Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# pro
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
+Unlock the potential of Aspose.OCR for .NET. Effortlessly save multipage OCR results as documents with this comprehensive step-by-step guide.
+### [Recognize Text from Image Using GPU‑Accelerated OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
+Leverage GPU acceleration to boost OCR performance in C# with Aspose.OCR, achieving faster text extraction from images.
+
+### [Extract Text from Image – Complete C# OCR Guide with Noise Reduction](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
+Learn a full C# OCR workflow with Aspose.OCR, including noise reduction techniques for higher accuracy.
+
 ### [How to Enable GPU for Aspose OCR in C# – Fast Image to Plain Text](./how-to-enable-gpu-for-aspose-ocr-in-c-fast-image-to-plain-te/)
 Learn how to accelerate OCR processing by enabling GPU support in Aspose OCR for C#, achieving faster image-to-text conversion.
 
@@ -176,10 +183,6 @@ Leverage GPU acceleration to boost OCR speed and accuracy when recognizing text 
 
 
 
-### [Recognize Text from Image Using GPU‑Accelerated OCR in C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
-Leverage GPU acceleration to boost OCR performance in C# with Aspose.OCR, achieving faster text extraction from images.
-### [Extract Text from Image – Complete C# OCR Guide with Noise Reduction](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
-Learn a full C# OCR workflow with Aspose.OCR, including noise reduction techniques for higher accuracy.
 
 ## Frequently Asked Questions
 
