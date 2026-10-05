@@ -89,8 +89,7 @@ weight: 25
 تعلم كيفية تسريع عملية OCR باستخدام GPU في C# للحصول على نص سريع ودقيق من الصور.
 ### [كيفية تحسين OCR في C# – تصحيح الميل، إزالة الضوضاء وتدوير الصور](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 تعلم تحسين OCR في C# عبر تصحيح الميل، إزالة الضوضاء وتدوير الصور للحصول على نص أكثر دقة.
-
-
+### [تحويل الصورة إلى PDF باستخدام OCR مع Aspose OCR في C# – دليل خطوة بخطوة](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
 
  انغمس في عالم التعرف الضوئي على الحروف باستخدام Aspose.OCR لـ .NET. برنامجنا التعليمي على[أداء التعرف الضوئي على الحروف (OCR) على الصور من URL](./perform-ocr-on-image-from-url/) يرشدك من خلال التكامل السلس. يمكنك التعرف على النص من الصور بدقة، مما يجعل تطبيقاتك أكثر ذكاءً.
 
@@ -151,39 +150,20 @@ weight: 25
 ### [التعرف على النص من صورة باستخدام Aspose OCR – برنامج تعليمي C# مع تسريع GPU](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 تعلم كيفية استخدام Aspose OCR مع تسريع GPU في C# للتعرف على النص من الصور بسرعة ودقة.
 
-
-
-
-
-
 ### [كيفية تصحيح انحراف الصورة وتعزيز التباين لتحسين دقة التعرف الضوئي على الحروف](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 تعلم خطوات تصحيح الميل وزيادة التباين لتحسين نتائج OCR باستخدام Aspose.OCR لـ .NET.
 ### [تحويل الصورة إلى PDF في C# – دليل شامل للتعرف الضوئي على الحروف](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 تعلم كيفية تحويل الصور إلى ملفات PDF باستخدام C# و Aspose.OCR مع تطبيق كامل لتقنية OCR.
-
-
-
-
-
 
 ### [كيفية تنفيذ التعرف الضوئي على الحروف دفعة واحدة في C# باستخدام محرك Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 تعلم كيفية معالجة مجموعة من الصور دفعة واحدة باستخدام Aspose OCR في بيئة C# لزيادة الإنتاجية والدقة.
 ### [معالجة مسبقة لصورة OCR في C# – تعزيز الدقة باستخدام Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 اكتشف كيفية تحسين دقة OCR عبر معالجة الصور مسبقًا في C# باستخدام Aspose OCR.
 
-
-
-
-
-
 ### [معالجة مسبقة للصورة للتعرف الضوئي على الحروف – تعزيز الدقة باستخدام Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 اكتشف كيف تحسن معالجة الصورة قبل التعرف الضوئي على الحروف الدقة باستخدام Aspose OCR.
 ### [دليل c# OCR – التعرف على النص من الصورة مع تسريع GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 تعلم كيفية استخدام Aspose.OCR مع C# لتسريع عملية التعرف على النص من الصور باستخدام وحدة معالجة الرسوميات (GPU).
-
-
-
-
 
 ### [التعرف على النص من الصورة باستخدام OCR المدعوم بـ GPU في C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
 اكتشف كيفية تحسين سرعة OCR باستخدام معالج الرسوميات في C# للحصول على نتائج أسرع ودقة أعلى.

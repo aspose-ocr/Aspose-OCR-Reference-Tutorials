@@ -117,40 +117,22 @@ Dowiedz się, jak rozpoznać tekst z obrazu w C# przy użyciu przetwarzania wst�
 ### [Rozpoznaj tekst z obrazu przy użyciu Aspose OCR – przyspieszony GPU w C#](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Poznaj, jak wykorzystać przyspieszenie GPU w C# do rozpoznawania tekstu z obrazów przy użyciu Aspose OCR.
 
-
-
-
-
-
 ### [Jak wyprostować obraz i zwiększyć kontrast, aby poprawić dokładność OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 Popraw jakość OCR poprzez prostowanie obrazu i podnoszenie kontrastu, co zwiększa precyzję rozpoznawania tekstu.
 ### [Konwertuj obraz do PDF w C# – Kompletny przewodnik OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Dowiedz się, jak przekształcić obrazy w pliki PDF przy użyciu Aspose.OCR w C#, zapewniając pełną kontrolę nad procesem OCR.
 
-
-
-
-
+### [Obraz do PDF OCR z Aspose OCR w C#: przewodnik krok po kroku](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
 
 ### [Jak wykonać wsadowe OCR w C# z silnikiem Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Poznaj technikę przetwarzania wielu obrazów jednocześnie przy użyciu Aspose OCR w C#.
 ### [Przetwarzanie wstępne obrazu OCR w C# – zwiększ dokładność z Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 Zoptymalizuj obrazy przed OCR, aby uzyskać wyższą precyzję przy użyciu Aspose OCR w C#.
 
-
-
-
-
-
 ### [Przetwarzanie wstępne obrazu dla OCR – Zwiększ dokładność z Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Popraw dokładność OCR, stosując wstępne przetwarzanie obrazu z Aspose OCR w .NET.
 ### [c# tutorial OCR – Rozpoznawanie tekstu z obrazu przy użyciu przyspieszenia GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Wykorzystaj przyspieszenie GPU do szybkiego rozpoznawania tekstu na obrazach w Aspose.OCR dla .NET.
-
-
-
-
-
 
 ### [Wykonaj OCR na obrazie z przyspieszeniem GPU – Kompletny przewodnik C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Poznaj, jak przyspieszyć OCR na obrazach wykorzystując GPU w C# z Aspose.OCR, aby zwiększyć wydajność przetwarzania.
@@ -199,7 +181,7 @@ A: Tak, Aspose.OCR wyposażony w gry komputerowe i może być skonfigurowany do 
 A: Filtry takie jak binaryzacja, odszumianie i prostowanie oczyszczania obrazu, redukując szumy i wyrównując tekst, co prowadzi do wskaźników rozpoznawania.
 
 **Q: Czy istnieje limit liczby stron, które można przetworzyć w jednym przebiegu?**
-A: Nie ma ograniczonego limitu; Zależność od zasobów systemowych. W związku z bardzo dużymi partycjami rozstrzygającymi w partiach.
+A: Nie ma ograniczonego limitu; Zależność od zasobów systemowych. W związku z bardzo dużymi partiami rozstrzygającymi w partiach.
 
 **Q: Czy mogę zintegrować silnik OCR z usługą opartą na chmurze?**
 O: Oczywiście. API jest niezależne od platformy i działa w Azure Functions, AWS Lambda (przez .NET Core) lub w innym środowisku chmurowym.

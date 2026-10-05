@@ -102,40 +102,20 @@ weight: 25
 ### [Распознать текст с изображения с помощью Aspose OCR – ускоренный GPU C# учебник](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Узнайте, как использовать GPU‑ускорение в Aspose OCR для C# при распознавании текста с изображений.
 
-
-
-
-
-
 ### [Как выровнять изображение и повысить контраст для лучшей точности OCR](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 Узнайте, как выравнивать изображения и улучшать контраст, чтобы повысить точность распознавания текста с помощью Aspose.OCR для .NET.
 ### [Конвертировать изображение в PDF на C# – Полное руководство по OCR](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Пошаговое руководство по преобразованию изображений в PDF с использованием Aspose.OCR в C# для полного OCR процесса.
-
-
-
-
 
 ### [Предобработка изображения OCR в C# – Повышение точности с Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 Узнайте, как предобрабатывать изображения в C# для OCR, повышая точность распознавания с помощью Aspose OCR.
 ### [Как пакетно выполнять OCR в C# с движком Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Узнайте, как обрабатывать множество изображений за один проход, используя Aspose OCR в C#.
 
-
-
-
-
-
-
 ### [Предобработка изображения для OCR – Повышение точности с Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Узнайте, как предобрабатывать изображения для OCR с Aspose OCR, повышая точность распознавания.
 ### [c# OCR учебник – Распознавание текста с изображения с ускорением GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Узнайте, как использовать GPU ускорение для распознавания текста на изображениях с помощью Aspose.OCR в C#.
-
-
-
-
-
 
 ### [Выполнение OCR изображения с ускорением GPU – Полное руководство на C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Полное руководство по использованию ускорения GPU для OCR изображений в C# с Aspose.OCR.
@@ -166,16 +146,10 @@ weight: 25
 ### [Как улучшить OCR в C# – исправление наклона, удаление шума и вращение изображений](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 Узнайте, как повысить точность OCR в C#, применяя выравнивание, удаление шума и вращение изображений перед распознаванием.
 
-### [Распознавание текста из изображения с использованием ускоренного GPU‑OCR в C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
-Узнайте, как применять GPU‑ускоренный OCR в C# для быстрого и точного извлечения текста из изображений.
-
-### [Извлечение текста из изображения – Полное руководство по OCR на C# с уменьшением шума](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
-Подробный пошаговый гид по извлечению текста из изображений в C# с применением шумоподавления для повышения точности OCR.
-
-### [Aspose OCR GPU: Быстрое распознавание текста с C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
-Узнайте, как ускорить OCR с помощью GPU и C# для быстрого распознавания текста в приложениях .NET.
-
 ### [Как использовать фильтры в Aspose OCR – ускорить извлечение текста](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+
+### [Изображение в PDF OCR с Aspose OCR на C#: пошаговое руководство](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+Пошаговое руководство по преобразованию изображений в PDF с OCR, используя Aspose OCR в C#.
 
 ## Часто задаваемые вопросы
 

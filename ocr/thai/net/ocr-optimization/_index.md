@@ -179,6 +179,10 @@ weight: 25
 
 ### [Aspose OCR GPU: การจดจำข้อความอย่างเร็วด้วย C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 
+### [แปลงภาพเป็น PDF ด้วย OCR ของ Aspose OCR ใน C#: คู่มือขั้นตอนต่อขั้นตอน](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+
+แปลงภาพเป็น PDF ที่ค้นหาได้ด้วย OCR โดยใช้ Aspose OCR ใน C# อย่างละเอียด
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

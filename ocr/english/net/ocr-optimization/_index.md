@@ -158,35 +158,8 @@ Learn to deskew images and enhance contrast to improve OCR results with Aspose.O
 ### [Convert Image to PDF in C# – Complete OCR Guide](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Convert images to searchable PDFs using Aspose.OCR for .NET with a comprehensive step-by-step guide.
 
-
-
-
-
-
-
-### [How to Batch OCR in C# with Aspose OCR Engine](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
-Learn how to process multiple images efficiently using Aspose OCR Engine in C# for high-throughput OCR tasks.
-### [preprocess image ocr in C# – Boost Accuracy with Aspose OCR](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
-Boost OCR accuracy in C# by preprocessing images with Aspose OCR. Learn techniques to enhance recognition results efficiently.
-
-
-
-
-
-
-
-### [Preprocess Image for OCR – Boost Accuracy with Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-Boost OCR accuracy by preprocessing images with Aspose OCR. Learn techniques to enhance recognition results.
-### [c# ocr tutorial – Recognize Text from Image with GPU Acceleration](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
-Leverage GPU acceleration to boost OCR speed and accuracy when recognizing text from images using Aspose.OCR for .NET.
-
-
-
-
-
-
-### [Aspose OCR GPU: Fast Text Recognition with C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
-Leverage GPU acceleration in Aspose.OCR for .NET to achieve rapid text recognition using C#.
+### [Image to PDF OCR with Aspose OCR in C#: step‑by‑step guide](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+Convert images to searchable PDFs using Aspose OCR in C# with a detailed step‑by‑step guide.
 
 ## Frequently Asked Questions
 
