@@ -126,7 +126,7 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-### Full Working Example
+### Full working example
 Below is the complete script you can copy‑paste into `extract_invoice.py`. It assumes the two Aspose packages are installed and the image resides at `YOUR_DIRECTORY/invoice.png`.
 
 ```python
@@ -178,7 +178,7 @@ You’ll see the raw dump, the tidied version, and a file named `invoice_extract
 - **PDF documents:** Use `pdf2image` to turn each page into a PNG, then feed each PNG through the script. This implements the “convert pdf to images for ocr” workflow.
 - **Custom dictionaries:** Pass a list of domain‑specific terms to `AsposeAI` via `set_custom_dictionary()` to improve spell‑check accuracy for invoices, medical reports, etc.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does this work with PDFs directly?**  
 A: Not directly. Convert each PDF page to an image first (e.g., with `pdf2image`) and then run the OCR script on each PNG.
@@ -199,13 +199,20 @@ A: Yes. Use `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])`
 
 ![Extract text from image example](extract_text_image.png "Extract text from image with Aspose OCR")
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-02-27  
 **Tested With:** Aspose OCR 23.12, Aspose OCR AI 23.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

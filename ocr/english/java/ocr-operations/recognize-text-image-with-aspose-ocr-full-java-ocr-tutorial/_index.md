@@ -36,7 +36,7 @@ If you’re looking for a **java ocr example** that lets you **extract text from
 - **How do I extract text from image?** Call `ocrEngine.recognize(imagePath)` and read `ocrResult.getText()`.  
 - **Can I create a searchable PDF?** Yes – after extraction you can embed the text layer into a PDF with Aspose.PDF (not shown here).
 
-## What You’ll Need
+## What you’ll need
 
 Before we dive, make sure you have:
 
@@ -55,7 +55,7 @@ Before we dive, make sure you have:
 
 That’s it—no extra native binaries or complex configuration files.
 
-![Diagram showing OCR pipeline for recognize text image using Aspose OCR Java](https://example.com/ocr-pipeline.png "recognize text image using Aspose OCR Java")
+![Diagram showing OCR pipeline for recognize text image using Aspose OCR Java](/ocr-pipeline.png "recognize text image using Aspose OCR Java")
 
 *Image alt text: recognize text image using Aspose OCR Java*
 
@@ -73,7 +73,7 @@ The first thing we do is create an `OcrEngine` instance. Aspose provides a build
 import com.aspose.ocr.*;
 
 public class GpuOcrDemo {
-    public static void main(String[] args) throws Exception {
+    public static main(String[] args) throws Exception {
 
         // Build the OCR engine:
         // • Language: English
@@ -180,7 +180,7 @@ public class GpuOcrDemo {
 
 Save this as `GpuOcrDemo.java`, compile with `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java`, and run using `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo`. If everything is set up correctly, you’ll see the extracted text printed out—proof that you’ve successfully **recognize text image** with Aspose OCR.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I generate a searchable PDF directly from this example?**  
 A: Yes. After extracting the text, use Aspose.PDF to create a PDF and embed the OCR text layer, turning the file into a searchable PDF.
