@@ -1,8 +1,9 @@
 ---
 category: general
-date: 2025-12-27
-description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR i popraw błędy OCR.
-  Dowiedz się, jak załadować obraz do OCR i szybko naprawić błędy.
+date: 2026-02-27
+description: Dowiedz się, jak poprawiać błędy OCR i wyodrębniać tekst z obrazu przy
+  użyciu Aspose OCR w Pythonie. Ten przewodnik pokazuje, jak wczytać obraz do OCR
+  i oczyścić wyniki.
 draft: false
 keywords:
 - extract text from image
@@ -10,16 +11,16 @@ keywords:
 - how to correct ocr errors
 - Aspose OCR Python
 - OCR post‑processing
-language: pl
-og_description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR i natychmiast popraw
-  błędy OCR. Skorzystaj z tego samouczka, aby załadować obraz do OCR i oczyścić wyniki.
-og_title: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik
+og_description: Dowiedz się, jak poprawiać błędy OCR i wyodrębniać tekst z obrazu
+  przy użyciu Aspose OCR w Pythonie. Postępuj zgodnie z tym samouczkiem krok po kroku.
+og_title: Jak korygować błędy OCR – wyodrębnić tekst z obrazu przy użyciu Aspose OCR
 tags:
 - OCR
 - Python
 - Aspose
 - Text Extraction
-title: Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Przewodnik krok po kroku
+title: Jak naprawić błędy OCR – wyodrębnić tekst z obrazu przy użyciu Aspose OCR –
+  przewodnik krok po kroku
 url: /pl/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
@@ -27,55 +28,49 @@ url: /pl/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Przewodnik krok po kroku
+# Jak poprawić błędy OCR – wyodrębnić tekst z obrazu przy użyciu Aspose OCR – przewodnik krok po kroku
 
-Kiedykolwiek potrzebowałeś **wyodrębnić tekst z obrazu**, ale wynik OCR był nieczytelny? Nie jesteś sam. W wielu projektach automatyzacji — myśl o przetwarzaniu faktur, skanowaniu paragonów czy digitalizacji starych dokumentów — pierwszą przeszkodą jest uzyskanie czystego, przeszukiwalnego tekstu ze zdjęcia.  
+Jeśli kiedykolwiek potrzebowałeś **wyodrębnić tekst z obrazu** w projekcie Python i musiałeś zmagać się z niechlujnym wynikiem OCR, jesteś we właściwym miejscu. W wielu scenariuszach automatyzacji — przetwarzanie faktur, skanowanie paragonów czy digitalizacja dokumentów historycznych — pierwszym wyzwaniem jest przekształcenie zdjęcia w czysty, przeszukiwalny tekst. Ten samouczek pokazuje **jak poprawić błędy OCR** przy użyciu AI‑napędzanego sprawdzania pisowni Aspose, a także omawia niezbędne kroki do **załadowania obrazu do OCR** i uzyskania wiarygodnych wyników.
 
-W tym tutorialu przeprowadzimy Cię przez kompletny, gotowy do uruchomienia przykład, który pokaże, jak **załadować obraz do OCR**, uruchomić rozpoznawanie i **skorygować błędy OCR** przy użyciu AI‑napędzanego sprawdzania pisowni od Aspose. Po zakończeniu będziesz mieć jedną skrypt, który zamieni PNG faktury w wypolerowany, przeszukiwalny tekst gotowy do dalszych etapów przetwarzania.
+## Szybkie odpowiedzi
+- **Jaką bibliotekę powinienem użyć?** Aspose OCR for Python
+- **Czy mogę automatycznie naprawiać literówki?** Tak, wbudowany procesor AI spell‑check
+- **Czy potrzebna jest licencja?** Wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji
+- **Czy jest kompatybilny z Python‑3?** Działa z Python 3.8 i nowszymi
+- **Czy mogę przetwarzać pliki PDF?** Najpierw konwertuj strony PDF na obrazy (zobacz „convert pdf to images for ocr”)
 
-## Czego się nauczysz
+## Co oznacza „jak poprawić błędy OCR”?
+Poprawianie błędów OCR polega na wzięciu surowego ciągu znaków wygenerowanego przez silnik OCR i automatycznym naprawieniu literówek, nieprawidłowo umieszczonych znaków oraz problemów formatowania, tak aby tekst mógł być niezawodnie wykorzystywany dalej (wyszukiwanie, analizy lub wprowadzanie danych).
 
-- Jak zainstalować i zaimportować biblioteki Aspose OCR i AI w Pythonie.  
-- Dokładny kod potrzebny do **załadowania obrazu do OCR** (bez zgadywania).  
-- Jak uruchomić silnik OCR i przechwycić surowy ciąg znaków.  
-- Dlaczego OCR często generuje literówki i jak wbudowany procesor sprawdzania pisowni może **automatycznie skorygować błędy OCR**.  
-- Porady dotyczące obsługi przypadków brzegowych, takich jak wielostronicowe PDF‑y czy skany o niskiej rozdzielczości.
+## Dlaczego warto używać Aspose OCR dla Pythona?
+Aspose OCR łączy szybki, dokładny silnik rozpoznawania z opcjonalnym AI post‑procesorem, który zajmuje się sprawdzaniem pisowni i podstawowymi poprawkami gramatycznymi. To kompletny **aspose ocr tutorial** w jednym pakiecie, pozwalający przejść od obrazu do czystego tekstu bez narzędzi zewnętrznych.
 
-> **Wymagania wstępne:** Python 3.8+, ważna licencja Aspose OCR (lub darmowa wersja próbna) oraz plik obrazu (np. `invoice.png`), który chcesz przetworzyć.
+## Wymagania wstępne
+- Python 3.8+ zainstalowany
+- Ważna licencja Aspose OCR (lub darmowa wersja próbna)
+- Plik obrazu, np. `invoice.png`, który chcesz przetworzyć
+- Opcjonalnie: `pdf2image`, jeśli musisz **convert pdf to images for OCR**
 
----
+## Przewodnik krok po kroku
 
-## Wyodrębnianie tekstu z obrazu – Konfiguracja Aspose OCR
-
-Zanim zaczniemy cokolwiek robić, potrzebujemy odpowiednich pakietów. Aspose udostępnia swój silnik OCR jako moduł instalowalny przez pip.
-
+### Krok 1: Zainstaluj Aspose OCR i AI post‑processor
 ```bash
 pip install aspose-ocr
 ```
-
-Jeśli chcesz także użyć AI post‑processora, zainstaluj pakiet towarzyszący:
 
 ```bash
 pip install aspose-ocr-ai
 ```
 
-> **Pro tip:** Aktualizuj pakiety na bieżąco. Na moment pisania najnowsze wersje to `aspose-ocr 23.12` oraz `aspose-ocr-ai 23.12`.
+> **Porada:** Utrzymuj pakiety w najnowszych wersjach. W momencie pisania najnowsze wersje to `aspose-ocr 23.12` i `aspose-ocr-ai 23.12`.
 
-Po zainstalowaniu bibliotek, zaimportuj klasy, których będziesz używać:
-
+### Krok 2: Zaimportuj wymagane klasy
 ```python
 # Step 1: Import the OCR and AI classes
 from aspose.ocr import OcrEngine, AsposeAI
 ```
 
-> **Dlaczego to ważne:** Importowanie konkretnych klas utrzymuje przestrzeń nazw w czystości i jasno wskazuje, które komponenty odpowiadają za rozpoznawanie, a które za post‑processing.
-
----
-
-## Załaduj obraz do OCR – Przygotowanie PNG faktury
-
-Kolejnym logicznym krokiem jest wskazanie silnikowi pliku, który ma odczytać. Tu wkracza w grę słowo kluczowe **load image for OCR**.
-
+### Krok 3: Utwórz silnik i **załaduj obraz do OCR**
 ```python
 # Step 2: Create an OCR engine instance
 ocr_engine = OcrEngine()
@@ -84,22 +79,16 @@ ocr_engine = OcrEngine()
 ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 ```
 
-> **Wyjaśnienie:** `OcrEngine()` tworzy nowy silnik z domyślnymi ustawieniami (język angielski, auto‑rotacja itp.). Metoda `load_image()` przyjmuje ścieżkę do pliku, strumień lub nawet tablicę bajtów — dzięki czemu możesz podawać obrazy z dysku, sieci lub bufora w pamięci.
+> **Wyjaśnienie:** `load_image()` przyjmuje ścieżkę, strumień lub tablicę bajtów, więc możesz podawać obrazy z dysku, sieci lub bufora w pamięci.
 
-### Typowe pułapki przy ładowaniu obrazów
-
+#### Typowe pułapki przy ładowaniu obrazów
 | Problem | Objaw | Rozwiązanie |
-|---------|-------|--------------|
-| Niska rozdzielczość (<300 DPI) | Zniekształcone znaki, brakujące liczby | Przeskaluj obraz do 300 dpi lub wyższej przed załadowaniem |
-| Nieprawidłowy tryb kolorów (CMYK) | Niepoprawne kształty znaków | Przekonwertuj na RGB przy pomocy Pillow (`Image.convert("RGB")`) |
-| Wielostronicowy PDF | Przetwarzana tylko pierwsza strona | Konwertuj każdą stronę na obraz i iteruj po nich |
+|---------|-------|-------------|
+| Niska rozdzielczość DPI (<300) | Zniekształcone znaki, brakujące liczby | Przeskaluj do ≥ 300 dpi przed załadowaniem |
+| Tryb kolorów CMYK | Nieprawidłowe kształty znaków | Konwertuj do RGB przy użyciu Pillow (`Image.convert("RGB")`) |
+| PDF wielostronicowy | Przetwarzana tylko pierwsza strona | **Convert PDF to images for OCR** przy użyciu `pdf2image` i iteruj po każdej stronie |
 
----
-
-## Wykonaj OCR i uzyskaj surowy tekst
-
-Teraz, gdy silnik wie, gdzie znajduje się obraz, możemy go odczytać.
-
+### Krok 4: Uruchom OCR, aby uzyskać surowy ciąg znaków
 ```python
 # Step 4: Perform OCR to extract raw text
 raw_text = ocr_engine.recognize()
@@ -107,24 +96,16 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-Wywołanie `recognize()` zwraca zwykły ciąg znaków Pythona. W wielu rzeczywistych scenariuszach wynik będzie zawierał zbędne spacje, błędnie odczytane znaki lub przerwane podziały wierszy — szczególnie w przypadku paragonów używających skondensowanych czcionek.
-
-> **Dlaczego najpierw pobieramy `raw_text`:** Daje to punkt odniesienia do porównania z wersją oczyszczoną później, co jest przydatne przy debugowaniu lub audycie.
-
----
-
-## Jak skorygować błędy OCR – Użycie Aspose AI Spell‑Check
-
-Aspose dostarcza lekką nakładkę AI, która może uruchomić procesor sprawdzania pisowni na surowym wyniku. To bezpośrednio odpowiada na pytanie **how to correct OCR errors**.
-
+### Krok 5: Zainicjuj procesor AI spell‑check (rdzeń **jak poprawić błędy OCR**)
 ```python
 # Step 5: Initialise the AI post‑processor and choose a spell‑check processor
 ai_processor = AsposeAI()
 ai_processor.set_post_processor("spell_check")
 ```
 
-Możesz zamienić `"spell_check"` na inne procesory, takie jak `"grammar_check"` czy `"named_entity_recognition"`, jeśli Twój przypadek użycia tego wymaga.
+Możesz zamienić `"spell_check"` na `"grammar_check"` lub `"named_entity_recognition"` dla innych zastosowań.
 
+### Krok 6: Oczyść wynik OCR
 ```python
 # Step 6: Clean the OCR output using the selected post‑processor
 clean_text = ai_processor.run_postprocessor(raw_text)
@@ -134,21 +115,12 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### Co robi Spell‑Check „pod maską”
+**Co robi spell‑check:** tokenizuje tekst, sprawdza każdy token w angielskim słowniku (lub własnym, który dostarczysz), ocenia alternatywy lekkim modelem językowym i zwraca najbardziej prawdopodobną korektę.
 
-1. **Tokenizacja** – Dzieli surowy ciąg na słowa i znaki interpunkcyjne.  
-2. **Sprawdzanie w słowniku** – Porównuje każdy token ze słownikiem angielskim (lub własnym, który możesz dostarczyć).  
-3. **Ocena kontekstowa** – Używa małego modelu językowego, aby ocenić, czy korekta pasuje do otaczających słów.  
-4. **Zastąpienie** – Zwraca nowy ciąg z najbardziej prawdopodobnymi korektami.
+#### Języki nieangielskie
+Podaj kod języka przy tworzeniu `AsposeAI`, np. `AsposeAI(language="fr")` dla francuskiego.
 
-> **Przypadek brzegowy:** Jeśli język źródłowy nie jest angielski, przekaż odpowiedni kod języka przy tworzeniu `AsposeAI()` (np. `AsposeAI(language="fr")`).
-
----
-
-## Zweryfikuj i użyj oczyszczonego tekstu
-
-W tym momencie masz dwie zmienne: `raw_text` (bezpośredni wynik OCR) oraz `clean_text` (wersja po sprawdzeniu pisowni). Którą zachowasz, zależy od potrzeb dalszego przetwarzania.
-
+### Krok 7: Zapisz oczyszczony wynik
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
 with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
@@ -157,13 +129,8 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-Jeśli wynik trafia do wyszukiwarki, bazy danych lub modelu uczenia maszynowego, zawsze preferuj **oczyszczoną** wersję — w przeciwnym razie rozprzestrzenisz szum OCR w całym pipeline.
-
----
-
-## Pełny działający przykład
-
-Poniżej znajduje się kompletny skrypt, który możesz skopiować do pliku o nazwie `extract_invoice.py`. Zakłada on, że już zainstalowałeś dwa pakiety Aspose i masz obraz w `YOUR_DIRECTORY/invoice.png`.
+### Pełny działający przykład
+Poniżej znajduje się kompletny skrypt, który możesz skopiować do pliku `extract_invoice.py`. Zakłada, że dwa pakiety Aspose są zainstalowane, a obraz znajduje się w `YOUR_DIRECTORY/invoice.png`.
 
 ```python
 # extract_invoice.py
@@ -207,39 +174,41 @@ Uruchom go poleceniem:
 python extract_invoice.py
 ```
 
-Powinieneś zobaczyć surowy dump, a następnie bardziej schludną wersję, a plik o nazwie `invoice_extracted.txt` pojawi się w tym samym folderze.
+Zobaczysz surowy dump, uporządkowaną wersję oraz plik o nazwie `invoice_extracted.txt` w tym samym folderze.
+
+## Jak poprawić błędy OCR w innych scenariuszach?
+- **Przetwarzanie wsadowe:** Umieść logikę w funkcji i użyj `concurrent.futures.ThreadPoolExecutor`, aby równolegle przetwarzać wiele obrazów.
+- **Dokumenty PDF:** Użyj `pdf2image`, aby zamienić każdą stronę na PNG, a następnie przekaż każdy PNG do skryptu. To realizuje przepływ „convert pdf to images for ocr”.
+- **Własne słowniki:** Przekaż listę terminów specyficznych dla domeny do `AsposeAI` za pomocą `set_custom_dictionary()`, aby zwiększyć dokładność sprawdzania pisowni dla faktur, raportów medycznych itp.
+
+## Najczęściej zadawane pytania
+
+**P: Czy to działa bezpośrednio z plikami PDF?**  
+O: Nie bezpośrednio. Najpierw skonwertuj każdą stronę PDF na obraz (np. przy pomocy `pdf2image`), a potem uruchom skrypt OCR na każdym PNG.
+
+**P: Mój język źródłowy nie jest angielski — czy mogę nadal używać spell‑check?**  
+O: Tak. Zainicjuj `AsposeAI(language="de")` dla niemieckiego, `"es"` dla hiszpańskiego i tak dalej.
+
+**P: Co zrobić, gdy silnik OCR niepoprawnie wykrywa struktury tabel?**  
+O: Włącz analizę układu za pomocą `ocr_engine.set_layout_analysis(True)`. Poprawi to wykrywanie tabel kosztem nieco większego czasu przetwarzania.
+
+**P: Jak efektywnie obsłużyć bardzo duże partie?**  
+O: Przetwarzaj obrazy w partiach, zapisuj każdy wynik do bazy danych lub kolejki wiadomości i rozważ użycie async I/O lub multiprocessing, aby maksymalnie wykorzystać CPU.
+
+**P: Czy można dostosować słownik spell‑check?**  
+O: Tak. Użyj `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])` przed uruchomieniem post‑procesora.
 
 ---
 
-## Najczęściej zadawane pytania (FAQ)
-
-**Q: Czy to działa z PDF‑ami?**  
-A: Nie bezpośrednio. Konwertuj każdą stronę PDF na obraz (np. przy pomocy `pdf2image`) i iteruj skrypt po otrzymanych PNG‑ach.
-
-**Q: Mój język nie jest angielski — czy mogę nadal używać sprawdzania pisowni?**  
-A: Tak. Przekaż żądany kod języka do `AsposeAI(language="de")` dla niemieckiego, `"es"` dla hiszpańskiego itd.
-
-**Q: Co zrobić, gdy silnik OCR błędnie wykryje układ tabeli?**  
-A: Aspose OCR oferuje flagę `set_layout_analysis(True)`. Włączenie jej poprawia wykrywanie tabel, ale może wydłużyć czas przetwarzania.
-
-**Q: Jak obsłużyć bardzo duże partie dokumentów?**  
-A: Umieść logikę w funkcji i użyj puli wątków lub async IO, aby równolegle przetwarzać wiele plików na wielu rdzeniach lub maszynach.
-
----
-
-## Podsumowanie
-
-Pokazaliśmy, jak **wyodrębnić tekst z obrazu** przy użyciu Aspose OCR, jak **załadować obraz do OCR** oraz najprostszy sposób **skorygowania błędów OCR** za pomocą wbudowanego AI spell‑check. Kompletny, uruchamialny skrypt demonstruje przepływ od załadowania PNG faktury po zapisanie czystego, przeszukiwalnego pliku `.txt`.
-
-Śmiało eksperymentuj: zamień spell‑check na korektę gramatyczną, podaj wynik do klasyfikatora NLP lub zintegrować proces z większym systemem zarządzania dokumentami. Niebo jest granicą, gdy masz niezawodny, poprawiony tekst.
-
-Masz więcej pytań o OCR, Aspose lub automatyzację w Pythonie? Zostaw komentarz poniżej i powodzenia w kodowaniu! 
-
----
-
-![Przykład wyodrębniania tekstu z obrazu](extract_text_image.png "Extract text from image with Aspose OCR")
+![Extract text from image example](extract_text_image.png "Extract text from image with Aspose OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-27  
+**Testowano z:** Aspose OCR 23.12, Aspose OCR AI 23.12  
+**Autor:** Aspose
