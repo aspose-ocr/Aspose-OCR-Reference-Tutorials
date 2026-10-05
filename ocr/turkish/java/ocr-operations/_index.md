@@ -77,16 +77,13 @@ Aspose.OCR for Java ile görüntülerden hassas metin çıkarımının kilidini 
 ### [Aspose.OCR for Java'da PDF Belgelerini OCR ile Tanıma](./recognize-pdf/)
 Aspose.OCR ile Java'da OCR gücünü açığa çıkarın. PDF belgelerinde metni sorunsuz bir şekilde tanıyın. Uygulamalarınızı hassasiyet ve hızla güçlendirin.
 ### [Aspose.OCR for Java'da TIFF Görüntülerini OCR ile Tanıma](./recognize-tiff/)
+Aspose.OCR ile Java'dda güçlü metin tanımanın kilidini açın. TIFF görüntülerinde metni sorunsuz bir şekilde tanıyın. Kesintisiz bir OCR deneyimi için şimdi indirin.
 ### [Java'da Toplu OCR Nasıl Yapılır – Görsellerden Metin Çıkarma İçin Tam Rehber](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
 Java ile birden çok görüntüyü toplu olarak OCR'den geçirerek hızlı ve doğru metin çıkarımı yapın.
 ### [Java ile Görüntüde OCR Çalıştırma – Tam Aspose OCR Rehberi](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Java kullanarak tek bir görüntüde metin tanıma adımlarını ayrıntılı olarak öğrenin ve Aspose OCR ile en yüksek doğruluğu elde edin.
 ### [Java'da Aranabilir PDF Oluşturma – Adım Adım Rehber](./create-searchable-pdf-in-java-step-by-step-guide/)
 Java ile PDF dosyalarını OCR ile aranabilir hâle getirerek metin katmanı ekleyin. Adım adım rehberimizi izleyin.
-### [Aspose OCR Java ile Görüntüyü Metne Dönüştürme – Adım Adım Kılavuz](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
-Aspose OCR Java ile görüntüyü metne dönüştürme adımlarını öğrenin ve doğru OCR sonuçları elde edin.
-### [Java ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-java-step-by-step-guide/)
-Java ve Aspose.OCR kullanarak PDF'leri aranabilir hâle getirme sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
@@ -119,6 +116,12 @@ A: TIFF görüntülerini parçalar halinde işleyin veya bellek kullanımını o
 {{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR ile Görüntü Metni Tanıma – Tam Java OCR Öğreticisi](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Java'da Aspose OCR kullanarak görüntüden metin tanıma sürecini adım adım öğrenin.
+### [Aspose OCR Java ile Görüntüyü Metne Dönüştürme – Adım Adım Kılavuz](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Aspose OCR Java ile görüntüyü metne dönüştürme adımlarını öğrenin ve doğru OCR sonuçları elde edin.
+
+### [Java ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-java-step-by-step-guide/)
+Java ve Aspose.OCR kullanarak PDF'leri aranabilir hâle getirme sürecini adım adım öğrenin.
+
 ### [Java'da OCR Nasıl Kullanılır – Tam Adım Adım Kılavuz](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
 Java'da OCR'ı baştan sona uygulayarak metin çıkarma sürecini adım adım öğrenin.
 
