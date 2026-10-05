@@ -5,7 +5,7 @@ second_title: "Aspose.OCR .NET API"
 description: "Learn how to extract text from image using Aspose.OCR for .NET. This guide walks you through preparing rectangles for OCR image recognition and boosting accuracy."
 weight: 11
 url: /net/ocr-optimization/prepare-rectangles/
-date: 2025-12-22
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -32,6 +32,14 @@ When you define rectangular zones on an image, the OCR engine processes only tho
 - **Focus on relevant content:** Skip headers, footers, or decorative graphics.  
 - **Boost performance:** Smaller regions mean faster recognition.  
 - **Improve accuracy:** Less visual noise leads to cleaner results.
+
+## Why this matters for real‑world projects
+Many business documents—receipts, invoices, ID cards—contain mixed layouts where only certain parts hold valuable text. By using rectangles, you can extract just the needed fields, dramatically cutting down on post‑processing work and increasing overall reliability of your automation pipeline.
+
+## Common use cases
+- **Data entry automation:** Pull specific fields from scanned forms.  
+- **Compliance checks:** Isolate and verify legal text blocks.  
+- **Content indexing:** Index only the headline or caption of an image for search engines.  
 
 ## Prerequisites
 
@@ -125,6 +133,14 @@ foreach (string s in result.RecognitionAreasText)
 - **Image quality:** Low‑resolution images may yield poor OCR results; consider pre‑processing (e.g., binarization).  
 - **Empty results:** Verify that the rectangles actually contain text; otherwise the engine returns empty strings.
 
+## Troubleshooting and Best Practices
+
+| Symptom | Likely Cause | Remedy |
+|---------|--------------|--------|
+| No output or empty strings | Rectangles outside image bounds | Double‑check image dimensions and rectangle coordinates |
+| Garbled characters | Poor contrast or noise | Apply image cleaning (grayscale, threshold) before OCR |
+| Slow performance on large files | Too many rectangles or very large image | Split the image or reduce rectangle count where possible |
+
 ## Conclusion
 
 You’ve now learned how to **extract text from image** by preparing custom rectangles with Aspose.OCR for .NET. This technique gives you fine‑grained control over OCR processing, helping you build faster, more accurate text‑extraction features in your applications.
@@ -148,7 +164,7 @@ You’ve now learned how to **extract text from image** by preparing custom rect
 
 ---
 
-**Last Updated:** 2025-12-22  
+**Last Updated:** 2026-02-25  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 

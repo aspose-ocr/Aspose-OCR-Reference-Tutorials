@@ -1,21 +1,18 @@
 ---
 category: general
-date: 2026-02-27
-description: Předzpracujte OCR obrázku k extrakci textu z obrázku pomocí Aspose OCR
-  v Javě. Naučte se, jak zlepšit přesnost OCR a efektivně převést text naskenovaného
-  obrázku.
+date: 2026-01-07
+description: Předzpracování OCR obrázku pro zlepšení přesnosti OCR a extrakci textu
+  z obrázku pomocí Aspose OCR – krok za krokem průvodce pro vývojáře.
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: cs
-og_description: Předzpracování OCR obrazu pro extrakci textu z obrázku pomocí Aspose
-  OCR. Tento průvodce ukazuje, jak zlepšit přesnost OCR a převést text naskenovaného
-  obrázku v Javě.
-og_title: Předzpracování OCR obrázků v Javě – Zvyšte přesnost a extrahujte text
+og_description: Preprocess image OCR to improve OCR accuracy and extract text image
+  using Aspose OCR. Complete Java tutorial with code.
+og_title: Předzpracování OCR obrazu v Javě – Zvyšte přesnost
 tags:
 - OCR
 - Java
@@ -28,170 +25,200 @@ url: /cs/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accurac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Předzpracování OCR obrazu – Kompletní průvodce v Javě
+# Předzpracování OCR obrázku v Javě – Kompletní průvodce
 
-Už jste někdy bojovali s **předzpracováním OCR obrazu**, aby text, který získáte, vypadal bezchybně? Nejste v tom sami. V mnoha projektech je surový sken plný nakřivení, šmouh nebo nízkého kontrastu a tyto drobné nedokonalosti mohou zmařit celý proces extrakce.
+Už jste někdy bojovali s **preprocess image OCR**, protože vaše skeny vypadají jako chaotický sprašek a šikmý text? Nejste v tom sami. Většina vývojářů narazí na problém, když je surový obrázek šumivý, nakřivený nebo jen málo kontrastní, a OCR engine místo očekávaných vět vypíše nesmysly.  
 
-Dobrá zpráva? Použitím několika kroků předzpracování – deskew, denoise a binarizace – můžete dramaticky zlepšit výsledky OCR. V tomto tutoriálu projdeme **java OCR example**, který přesně ukazuje, jak **extract text from image** soubory, zvýšit přesnost a nakonec **convert scanned image text** na čisté, prohledávatelné řetězce.
+Dobrou zprávou je, že několik kroků předzpracování může dramaticky **improve OCR accuracy**, proměnit roztřesený snímek v čistý, strojově čitelný text. V tomto tutoriálu vás provedeme přesně **how to preprocess OCR** pomocí Aspose OCR pro Javu a uvidíte, jak spolehlivě **extract text image** obsah.  
 
-> **Co získáte:** připravený Java program používající Aspose OCR, vysvětlení, proč je každé nastavení důležité, a tipy pro řešení okrajových případů, jako jsou silně natočené stránky nebo skeny s nízkým rozlišením.
+Probereme vše, co potřebujete: požadované knihovny, krok‑za‑krokem kód, proč každá volba má význam, a tipy na okrajové případy, na které můžete narazit. Na konci budete mít připravený program, který vezme šumivý JPEG, vyčistí jej a vytiskne extrahovaný text do konzole.
 
 ---
 
 ## Co budete potřebovat
 
-- **Java Development Kit (JDK) 8** nebo novější.  
-- **Aspose.OCR for Java** knihovna (nejnovější verze v době psaní, 23.10).  
-- Ukázkový soubor TIFF/PNG/JPEG, který chcete načíst – pojmenujte jej `input.tif`.  
-- Váš oblíbený IDE (IntelliJ IDEA, Eclipse, VS Code… jakýkoli bude stačit).
+- Java Development Kit (JDK) 8 nebo novější nainstalovaný.
+- Maven nebo Gradle pro správu závislostí (ukážeme Maven úryvek).
+- Licence Aspose OCR pro Java (bezplatná zkušební verze funguje pro testování).
+- Ukázkový obrázek, např. `skewed-noisy.jpg`, umístěný v známém adresáři.
 
-Žádné další nativní závislosti ani externí nástroje nejsou vyžadovány; Aspose OCR engine provádí veškerou těžkou práci.
+To je vše—žádné další knihovny pro zpracování obrázků nejsou potřeba, protože Aspose OCR obsahuje vestavěné možnosti předzpracování.
 
 ---
 
-## Předzpracování OCR obrazu – Nastavení enginu
+## Krok 1: Nastavte Aspose OCR ve svém projektu
 
-Nejprve vytvoříme instanci `OcrEngine`. Tento objekt obsahuje konfiguraci, která bude řídit veškeré následné předzpracování.
+Nejprve přidejte závislost Aspose OCR do souboru `pom.xml`. Tím se načte jádro engine a pomocníci pro zpracování obrázků, které později použijeme.
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+Pokud dáváte přednost Gradlu, ekvivalent je:
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **Tip:** Udržujte své závislosti aktuální; novější verze často obsahují chytřejší algoritmy pro deskew, které dále **improve OCR accuracy**.
+
+---
+
+## Předzpracování OCR obrázku – Krok 2: Načtení obrázku
+
+Nyní, když je knihovna na místě, můžeme vytvořit instanci `OcrEngine` a nasměrovat ji na obrázek, který chcete vyčistit.
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**Proč je to důležité:** Engine je vstupní branou ke všem funkcím – pokud tento krok přeskočíte, žádné z pozdějších nastavení se nikdy neprojeví. Představte si to jako otevření nářadí před tím, než začnete kladivem bušit.
+Proč nejprve vytváříme engine? Aspose OCR spojuje pipeline předzpracování přímo s enginem, takže všechny volby nastavené později ovlivní stejný obrazový proud. Tím se zajistí, že operace **extract text image** funguje na vyčištěné verzi, ne na surovém souboru.
 
 ---
 
-## Povolení deskew pro opravu rotace
+## Zlepšení přesnosti OCR – Krok 3: Konfigurace možností předzpracování
 
-Naskenované stránky jsou zřídka dokonale zarovnané. Mírný náklon může způsobit špatné rozpoznání znaků. Povolení deskew říká enginu, aby automaticky detekoval a otočil obrázek zpět na 0°.
+Magie se odehrává v `ImageProcessingOptions`. Každý příznak cílí na běžnou vadu, která poškozuje výkon OCR.
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*Pro tip:* Deskew funguje nejlépe na obrázcích, kde jsou řádky textu jasně viditelné. Pokud pracujete s ručně psanou poznámkou, můžete experimentovat s metodou `setDeskewAngleTolerance` (není zde ukázáno) pro jemné doladění citlivosti.
+- **Deskew**: Detekuje úhel rotace a otočí obrázek zpět do vodorovné polohy. Bez toho může OCR engine špatně interpretovat znaky.
+- **Despeckle**: Odstraňuje náhodný šum, který může být zaměněn za interpunkci nebo osamělé písmena.
+- **Contrast Boost**: Zesiluje rozdíl mezi popředím (text) a pozadím, což je klíčový faktor v **how to preprocess OCR** pro slabé tisky.
+
+Klidně přepínejte tyto příznaky podle zdrojového materiálu. Například perfektně naskenovaný dokument nemusí potřebovat `setDespeckle(true)`, což ušetří několik milisekund.
 
 ---
 
-## Použití odstraňování šumu pro odstranění šumu
+## Extrahování textu z obrázku – Krok 4: Spuštění OCR na předzpracovaném obrázku
 
-Šum – ty náhodné skvrny nebo pozadí – mate algoritmus OCR. Zapnutí denoise vyhladí obrázek, zachová tahy a odfiltruje irelevantní pixely.
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**Okrajový případ:** U extrémně nízkého rozlišení skenů (méně než 150 dpi) může agresivní denoise vymazat slabé znaky. V takových případech můžete snížit `setDenoiseLevel` (výchozí je medium) nebo krok úplně vynechat.
-
----
-
-## Úprava prahu binarizace pro lepší kontrast
-
-Binarizace převádí odstíny šedi na černobílý obraz, čímž zesiluje kontrast mezi inkoustem a papírem. Hodnota prahu (0‑255) určuje, kde dojde k rozdělení. Hodnota 180 funguje dobře pro většinu čistých skenů, ale může být potřeba ji upravit.
+Po vyčištění obrázku nakonec požádáme Aspose OCR o rozpoznání textu.
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*Proč 180?* Je dostatečně vysoká, aby tmavý text zůstal černý, zatímco světlé pozadí se změnilo na bílé, což pomáhá OCR enginu soustředit se na skutečné znaky. Pokud je váš zdroj vybledlý starý dokument, zkuste nižší hodnotu, např. 120.
-
----
-
-## Zpracování obrazu a extrakce textu
-
-Nyní, když je engine připravený, předáme mu cestu k souboru. Metoda `processImage` vrací objekt `OcrResult` obsahující rozpoznaný text a skóre důvěry.
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**Co když soubor není nalezen?** Metoda vyhodí `IOException`. V produkčním kódu byste tento volání zabalili do try‑catch bloku a zalogovali přátelskou chybovou zprávu.
-
----
-
-## Ověření výstupu
-
-Nakonec vytiskneme získaný řetězec do konzole. Zde můžete vidět, zda předzpracování skutečně pomohlo.
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-Očekávaný výstup (zkrácený pro stručnost):
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-Pokud výsledek stále obsahuje nečitelné znaky, vraťte se k nastavení prahu nebo zvažte aplikaci vlastního filtru (např. morfologické otevření) před předáním obrázku do Aspose OCR.
+Volání `recognize()` interně použije pipeline předzpracování, kterou jsme nakonfigurovali, a poté provede segmentaci znaků a rozpoznání. Výsledkem je řetězec prostého textu, který můžete předat do následných procesů – indexování vyhledávání, automatizace zadávání dat, jakékoliv použití.
 
 ---
 
-## Jak extrahovat text z obrazu pomocí Aspose OCR
+## Jak předzpracovat OCR – Běžné úskalí a okrajové případy
 
-Výše uvedený kód je **java OCR example**, který demonstruje celý pipeline – od načtení obrázku po vytištění čistého textu. Protože veškeré předzpracování je řízeno přes objekt `Config`, můžete jednotlivé kroky měnit nebo vynechat bez přepisování hlavní logiky.
+### 1. Velikost obrázku má význam
+Velmi velké obrázky (např. > 5 MP) mohou způsobit tlak na paměť. Pokud narazíte na `OutOfMemoryError`, nejprve změňte velikost obrázku pomocí `processingOptions.setResizeFactor(0.5f)`.
 
-**Rychlý kontrolní seznam pro extrakci:**
+### 2. Barva vs. odstíny šedi
+Aspose OCR funguje nejlépe s obrázky ve stupních šedi. Pokud je váš zdroj barevný, povolte `processingOptions.setConvertToGrayscale(true)` před deskew.
 
-1. **Načtěte** obraz pomocí `processImage`.  
-2. **Povolte** `Deskew` a `Denoise`, pokud je zdroj naskenovaný dokument.  
-3. **Doladěte** `BinarizationThreshold` na základě vizuální kontroly.  
-4. **Přečtěte** `ocrResult.getText()` a uložte jej kam potřebujete – databáze, soubor nebo UI.
+### 3. Vícestránkové PDF
+Při práci s PDF extrahujte každou stránku jako obrázek a spusťte stejnou pipeline ve smyčce. API poskytuje `PdfImageExtractor` pro tento účel.
 
----
-
-## Tipy pro zlepšení přesnosti OCR v Javě
-
-- **Rozlišení má význam:** Snažte se skenovat alespoň 300 dpi. Vyšší DPI poskytuje enginu více pixelových dat.
-- **Barva vs. odstíny šedi:** Před zpracováním převádějte barevné skeny na odstíny šedi; snižuje to dobu zpracování bez ztráty přesnosti.
-- **Dávkové zpracování:** Pokud máte desítky souborů, znovu použijte jedinou instanci `OcrEngine` – opakované vytváření přidává režii.
-- **Jazykové balíčky:** Aspose OCR podporuje více jazyků; nastavte `ocrEngine.getConfig().setLanguage(OcrLanguage.English)` (nebo jiný) pro zlepšení rozpoznávání ne‑anglických textů.
-
----
-
-## Převod textu ze skenovaného obrazu na editovatelné řetězce
-
-Jakmile máte surový řetězec, můžete jej dále čistit – odstranit zalomení řádků, normalizovat mezery nebo použít kontrolu pravopisu. Metody `String` v Javě a knihovny jako Apache Commons Text to usnadňují.
+### 4. Podpora jazyků
+Pokud váš text není anglický, nastavte jazyk explicitně:
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-Nyní je text připraven k uložení jako soubor `.txt`, vložení do PDF nebo předání do následného NLP pipeline.
+Přeskočení tohoto kroku může snížit **improve OCR accuracy**, protože engine se snaží uhodnout znakovou sadu.
 
-![příklad předzpracování OCR obrazu](/images/preprocess-ocr-demo.png "příklad předzpracování OCR obrazu ukazující výstup v konzoli")
+---
 
-*Screenshot výše ilustruje výstup v konzoli po spuštění kompletního Java programu.*
+## Kompletní funkční příklad (připravený ke zkopírování)
+
+Níže je kompletní program, připravený ke kompilaci a spuštění. Nahraďte zástupnou cestu skutečnou cestou k vašemu obrázku.
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**Expected output** (truncated for brevity):
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+Pokud vidíte nesrozumitelné znaky, dvojitě zkontrolujte, že cesta k obrázku je správná a že předzpracovací příznaky odpovídají stavu obrázku.
+
+---
+
+## Vizuální souhrn
+
+<img src="preprocess-ocr.png" alt="preprocess image OCR demonstration" style="max-width:100%;">
+
+Diagram ilustruje tok: **Load → Deskew → Despeckle → Contrast Boost → Recognize → Extract Text**. Každý blok odpovídá výše uvedeným úryvkům kódu.
 
 ---
 
 ## Závěr
 
-Právě jste se naučili, jak **předzpracovat OCR obrazu** v Javě, povolit deskew, denoise a binarizaci pro **extract text from image** soubory s mnohem vyšší spolehlivostí. Úpravou několika konfiguračních příznaků můžete **improve OCR accuracy**, zvládnout obtížné skeny a nakonec **convert scanned image text** na čisté, prohledávatelné řetězce – vše v kompaktním, samostatném **java OCR example**.
+Právě jsme prošli praktickým způsobem, jak **preprocess image OCR** v Javě pomocí Aspose OCR, pokrývajícím vše od nastavení projektu po jemné ladění možností, které **improve OCR accuracy**. Aplikací deskew, despeckle a contrast‑boost proměníte šumivý, nakřivený JPEG na čistý, prohledávatelný text – přesně to, co potřebujete, když chcete **extract text image** data pro následné aplikace.  
 
-Jste připraveni na další krok? Zkuste vložit získaný text do databáze, generovat prohledávatelné PDF pomocí Aspose PDF nebo experimentovat s vícejazyčnou podporou. Stejný pipeline předzpracování funguje pro PDF, PNG i JPEG, takže můžete tento vzor rozšířit na jakýkoli projekt digitalizace dokumentů.
+Co dál? Zkuste experimentovat s dalšími funkcemi předzpracování, jako je `setBinarizationThreshold` pro binární obrázky, nebo řetězit více obrázků do jedné dávky. Můžete také integrovat výsledek s Apache Tika pro indexování, nebo jej předat jazykovému modelu pro analýzu sentimentu. Možnosti jsou neomezené, jakmile zvládnete základy **how to preprocess OCR**.  
 
-Šťastné kódování a ať jsou vaše OCR výsledky vždy krystalicky čisté!
+Máte otázky ohledně konkrétního typu souboru nebo jazyka? Zanechte komentář níže a šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

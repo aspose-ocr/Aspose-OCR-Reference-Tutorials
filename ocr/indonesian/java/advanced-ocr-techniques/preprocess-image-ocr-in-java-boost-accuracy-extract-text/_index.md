@@ -1,21 +1,18 @@
 ---
 category: general
-date: 2026-02-27
-description: Pra-proses OCR gambar untuk mengekstrak teks dari gambar menggunakan
-  Aspose OCR di Java. Pelajari cara meningkatkan akurasi OCR dan mengonversi teks
-  gambar yang dipindai secara efisien.
+date: 2026-01-07
+description: Pra‑proses gambar OCR untuk meningkatkan akurasi OCR dan mengekstrak
+  teks gambar dengan Aspose OCR – panduan langkah demi langkah untuk pengembang.
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: id
-og_description: Pra-proses OCR gambar untuk mengekstrak teks dari gambar dengan Aspose
-  OCR. Panduan ini menunjukkan cara meningkatkan akurasi OCR dan mengonversi teks
-  gambar yang dipindai dalam Java.
-og_title: Pra-proses OCR Gambar di Java – Tingkatkan Akurasi & Ekstrak Teks
+og_description: Pra-proses OCR gambar untuk meningkatkan akurasi OCR dan mengekstrak
+  teks gambar menggunakan Aspose OCR. Tutorial Java lengkap dengan kode.
+og_title: Pra-proses OCR Gambar dalam Java – Tingkatkan Akurasi
 tags:
 - OCR
 - Java
@@ -28,172 +25,202 @@ url: /id/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accurac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pra‑pemrosesan Gambar OCR – Panduan Java Lengkap
+# Pra‑pemrosesan Gambar OCR di Java – Panduan Lengkap
 
-Pernah mengalami kesulitan **pra‑pemrosesan gambar OCR** sehingga teks yang Anda ekstrak terlihat sempurna? Anda tidak sendirian. Dalam banyak proyek, hasil scan mentah dipenuhi dengan kemiringan, bintik‑bintik, atau kontras rendah, dan ketidaksempurnaan kecil itu dapat merusak seluruh alur ekstraksi.
+Pernah mengalami kesulitan dengan **pra‑pemrosesan gambar OCR** karena hasil scan Anda tampak berantakan dengan bintik‑bintik dan teks miring? Anda tidak sendirian. Kebanyakan pengembang menemui masalah ketika gambar mentah berisik, miring, atau kontrasnya rendah, sehingga mesin OCR menghasilkan karakter acak alih‑alih kalimat yang diharapkan.  
 
-Kabar baiknya? Dengan menerapkan beberapa langkah pra‑pemrosesan—deskew, denoise, dan binarisasi—Anda dapat secara dramatis meningkatkan hasil OCR. Dalam tutorial ini kami akan membimbing Anda melalui **contoh java OCR** yang menunjukkan secara tepat cara **mengekstrak teks dari gambar**, meningkatkan akurasi, dan akhirnya **mengonversi teks gambar yang dipindai** menjadi string bersih yang dapat dicari.
+Kabar baiknya, beberapa langkah pra‑pemrosesan dapat secara dramatis **meningkatkan akurasi OCR**, mengubah foto yang goyah menjadi teks bersih yang dapat dibaca mesin. Dalam tutorial ini kami akan menunjukkan **cara mempraproses OCR** menggunakan Aspose OCR untuk Java, dan Anda akan melihat cara **mengekstrak teks gambar** secara andal.
 
-> **Apa yang akan Anda dapatkan:** program Java siap‑jalankan menggunakan Aspose OCR, penjelasan mengapa setiap pengaturan penting, serta tips menangani kasus tepi seperti halaman yang sangat diputar atau scan beresolusi rendah.
+Kami akan membahas semua yang Anda perlukan: pustaka yang diperlukan, kode langkah‑demi‑langkah, mengapa setiap opsi penting, serta tips untuk kasus‑kasus tepi yang mungkin Anda temui. Pada akhir tutorial Anda akan memiliki program siap‑jalankan yang mengambil JPEG berisik, membersihkannya, dan mencetak teks yang diekstrak ke konsol.
 
 ---
 
 ## Apa yang Anda Butuhkan
 
-- **Java Development Kit (JDK) 8** atau yang lebih baru.  
-- **Aspose.OCR for Java** library (versi terbaru pada saat penulisan, 23.10).  
-- Sebuah file contoh TIFF/PNG/JPEG yang ingin Anda baca—misalnya `input.tif`.  
-- IDE favorit Anda (IntelliJ IDEA, Eclipse, VS Code… semua dapat dipakai).
+Sebelum kita mulai, pastikan Anda memiliki:
 
-Tidak ada ketergantungan native tambahan atau alat eksternal yang diperlukan; mesin Aspose OCR menangani semua proses berat.
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.
+- Maven atau Gradle untuk mengelola dependensi (kami akan menampilkan contoh Maven).
+- Lisensi Aspose OCR untuk Java (versi percobaan gratis cukup untuk pengujian).
+- Contoh gambar, misalnya `skewed-noisy.jpg`, ditempatkan di direktori yang diketahui.
+
+Itu saja—tidak perlu pustaka pemrosesan gambar tambahan karena Aspose OCR sudah dilengkapi dengan kemampuan pra‑pemrosesan bawaan.
 
 ---
 
-## Pra‑pemrosesan Gambar OCR – Menyiapkan Engine
+## Langkah 1: Siapkan Aspose OCR di Proyek Anda
 
-Pertama, kita buat instance `OcrEngine`. Objek ini menyimpan konfigurasi yang akan mengendalikan semua pra‑pemrosesan selanjutnya.
+Pertama, tambahkan dependensi Aspose OCR ke dalam `pom.xml`. Ini akan mengunduh mesin inti serta pembantu pemrosesan gambar yang akan kita gunakan nanti.
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+Jika Anda lebih suka Gradle, setaraannya adalah:
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **Pro tip:** Jaga agar dependensi Anda selalu terbaru; versi yang lebih baru biasanya menyertakan algoritma deskew yang lebih cerdas sehingga **meningkatkan akurasi OCR**.
+
+---
+
+## Pra‑pemrosesan Gambar OCR – Langkah 2: Muat Gambar
+
+Setelah pustaka tersedia, kita dapat membuat instance `OcrEngine` dan menunjuk ke gambar yang ingin Anda bersihkan.
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**Mengapa ini penting:** Engine adalah gerbang ke setiap fitur—jika Anda melewatkan langkah ini, tidak ada pengaturan berikutnya yang akan berpengaruh. Anggap saja seperti membuka kotak perkakas sebelum mulai memaku.
+Mengapa kita menginstansiasi engine terlebih dahulu? Aspose OCR mengaitkan pipeline pra‑pemrosesan langsung ke engine, sehingga opsi apa pun yang Anda atur kemudian akan memengaruhi aliran gambar yang sama. Ini memastikan operasi **ekstrak teks gambar** bekerja pada versi yang sudah dibersihkan, bukan pada file mentah.
 
 ---
 
-## Aktifkan Deskew untuk Mengoreksi Rotasi
+## Tingkatkan Akurasi OCR – Langkah 3: Konfigurasikan Opsi Pra‑pemrosesan
 
-Halaman yang dipindai jarang berada dalam posisi sempurna. Sedikit kemiringan dapat menyebabkan karakter terbaca salah. Mengaktifkan deskew memberi tahu engine untuk mendeteksi secara otomatis dan memutar gambar kembali ke 0°.
+Keajaiban terjadi pada `ImageProcessingOptions`. Setiap flag menargetkan cacat umum yang mengurangi performa OCR.
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*Pro tip:* Deskew bekerja paling baik pada gambar di mana baris teks terlihat jelas. Jika Anda berurusan dengan catatan tulisan tangan, Anda mungkin ingin bereksperimen dengan metode `setDeskewAngleTolerance` (tidak ditampilkan di sini) untuk menyesuaikan sensitivitas.
+- **Deskew**: Mendeteksi sudut rotasi dan memutar gambar kembali ke posisi horizontal. Tanpa ini, mesin OCR dapat salah menafsirkan karakter.
+- **Despeckle**: Menghilangkan noise acak yang dapat disalahartikan sebagai tanda baca atau huruf terpisah.
+- **Contrast Boost**: Memperkuat perbedaan antara latar depan (teks) dan latar belakang, yang merupakan faktor kunci **cara mempraproses OCR** untuk cetakan yang pudar.
+
+Silakan aktifkan atau nonaktifkan flag ini sesuai dengan materi sumber Anda. Misalnya, dokumen yang dipindai dengan sempurna mungkin tidak memerlukan `setDespeckle(true)`, sehingga menghemat beberapa milidetik.
 
 ---
 
-## Terapkan Denoising untuk Menghilangkan Noise
+## Ekstrak Teks Gambar – Langkah 4: Jalankan OCR pada Gambar yang Telah Dipraproses
 
-Noise—bintik‑bintik acak atau grain latar belakang—membingungkan algoritma OCR. Mengaktifkan denoising memperhalus gambar, mempertahankan goresan sambil membuang piksel yang tidak relevan.
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**Kasus tepi:** Untuk scan beresolusi sangat rendah (di bawah 150 dpi), denoising yang agresif dapat menghapus karakter yang lemah. Dalam situasi tersebut, Anda dapat menurunkan `setDenoiseLevel` (default adalah medium) atau melewatkan langkah ini sepenuhnya.
-
----
-
-## Sesuaikan Ambang Binarisasi untuk Kontras Lebih Baik
-
-Binarisasi mengubah gambar grayscale menjadi hitam‑putih, menajamkan kontras antara tinta dan kertas. Nilai ambang (0‑255) menentukan di mana pemotongan terjadi. Nilai 180 bekerja baik untuk kebanyakan scan bersih, namun Anda mungkin perlu menyesuaikannya.
+Setelah gambar dibersihkan, kita akhirnya meminta Aspose OCR untuk mengenali teks.
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*Mengapa 180?* Nilai ini cukup tinggi untuk menjaga teks gelap tetap hitam sambil mengubah latar belakang terang menjadi putih, yang membantu engine OCR fokus pada karakter sebenarnya. Jika sumber Anda adalah dokumen lama yang pudar, coba nilai lebih rendah seperti 120.
-
----
-
-## Proses Gambar dan Ekstrak Teks
-
-Setelah engine siap, kita beri jalur file. Metode `processImage` mengembalikan objek `OcrResult` yang berisi teks yang dikenali serta skor kepercayaan.
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**Bagaimana jika file tidak ditemukan?** Metode ini melempar `IOException`. Pada kode produksi Anda sebaiknya membungkus pemanggilan ini dalam blok try‑catch dan mencatat pesan error yang ramah.
-
----
-
-## Verifikasi Output
-
-Akhirnya, kita cetak string yang diekstrak ke konsol. Di sinilah Anda dapat melihat apakah pra‑pemrosesan benar‑benar membantu.
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-Output yang diharapkan (dipotong untuk singkat):
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-Jika hasil masih berisi karakter sampah, tinjau kembali ambang atau pertimbangkan menerapkan filter khusus (misalnya, morphological opening) sebelum memberi gambar ke Aspose OCR.
+Pemanggilan `recognize()` secara internal menerapkan pipeline pra‑pemrosesan yang telah kita konfigurasi, kemudian melakukan segmentasi karakter dan pengenalan. Hasilnya adalah string teks biasa yang dapat Anda alirkan ke proses selanjutnya—indeks pencarian, otomatisasi entri data, apa saja yang Anda butuhkan.
 
 ---
 
-## Cara Mengekstrak Teks dari Gambar Menggunakan Aspose OCR
+## Cara Mempraproses OCR – Kesalahan Umum & Kasus Tepi
 
-Kode di atas adalah **contoh java OCR** yang mendemonstrasikan seluruh alur—dari memuat gambar hingga mencetak teks bersih. Karena semua pra‑pemrosesan ditangani melalui objek `Config`, Anda dapat menambah atau menghapus langkah individu tanpa menulis ulang logika inti.
+### 1. Ukuran Gambar Penting
+Gambar sangat besar (mis., > 5 MP) dapat menimbulkan tekanan memori. Jika Anda mendapatkan `OutOfMemoryError`, ubah ukuran gambar terlebih dahulu dengan `processingOptions.setResizeFactor(0.5f)`.
 
-**Daftar periksa cepat untuk ekstraksi:**
+### 2. Warna vs. Grayscale
+Aspose OCR bekerja paling baik dengan gambar grayscale. Jika sumber Anda berwarna, aktifkan `processingOptions.setConvertToGrayscale(true)` sebelum deskew.
 
-1. **Muat** gambar dengan `processImage`.  
-2. **Aktifkan** `Deskew` dan `Denoise` bila sumbernya dokumen yang dipindai.  
-3. **Sesuaikan** `BinarizationThreshold` berdasarkan inspeksi visual.  
-4. **Baca** `ocrResult.getText()` dan simpan ke mana pun Anda butuhkan—database, file, atau UI.
+### 3. PDF Multi‑Halaman
+Saat menangani PDF, ekstrak tiap halaman sebagai gambar dan jalankan pipeline yang sama dalam loop. API menyediakan `PdfImageExtractor` untuk keperluan tersebut.
 
----
-
-## Tips Meningkatkan Akurasi OCR di Java
-
-- **Resolusi penting:** Usahakan setidaknya 300 dpi saat memindai. DPI yang lebih tinggi memberi engine lebih banyak data piksel untuk diproses.  
-- **Warna vs. grayscale:** Konversi scan berwarna ke grayscale sebelum diproses; ini mengurangi waktu pemrosesan tanpa mengorbankan akurasi.  
-- **Pemrosesan batch:** Jika Anda memiliki puluhan file, gunakan kembali satu instance `OcrEngine`—membuatnya berulang kali menambah beban.  
-- **Paket bahasa:** Aspose OCR mendukung banyak bahasa; atur `ocrEngine.getConfig().setLanguage(OcrLanguage.English)` (atau bahasa lain) untuk meningkatkan pengenalan teks non‑English.
-
----
-
-## Mengonversi Teks Gambar yang Dipindai menjadi String yang Dapat Diedit
-
-Setelah Anda memiliki string mentah, Anda mungkin ingin membersihkannya lebih lanjut—menghapus break baris, menormalkan spasi, atau menerapkan pemeriksaan ejaan. Metode `String` Java serta pustaka seperti Apache Commons Text memudahkan hal ini.
+### 4. Dukungan Bahasa
+Jika teks Anda bukan bahasa Inggris, tetapkan bahasa secara eksplisit:
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-Sekarang teks siap disimpan sebagai file `.txt`, dimasukkan ke PDF, atau diteruskan ke pipeline NLP selanjutnya.
+Melewatkan langkah ini dapat menurunkan **meningkatkan akurasi OCR** karena mesin berusaha menebak set karakter.
 
 ---
 
-![contoh OCR gambar pra‑pemrosesan](/images/preprocess-ocr-demo.png "contoh OCR gambar pra‑pemrosesan yang menampilkan output konsol")
+## Contoh Lengkap yang Siap Pakai (Copy‑Paste)
 
-*Tangkap layar di atas menggambarkan output konsol setelah menjalankan program Java lengkap.*
+Berikut adalah program lengkap, siap untuk dikompilasi dan dijalankan. Ganti path placeholder dengan lokasi gambar Anda yang sebenarnya.
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**Output yang diharapkan** (dipotong untuk singkat):
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+Jika Anda melihat karakter yang kacau, periksa kembali bahwa path gambar sudah benar dan bahwa flag pra‑pemrosesan sesuai dengan kondisi gambar.
+
+---
+
+## Ringkasan Visual
+
+<img src="preprocess-ocr.png" alt="demonstrasi pra‑pemrosesan gambar OCR" style="max-width:100%;">
+
+Diagram menunjukkan alur: **Muat → Deskew → Despeckle → Contrast Boost → Recognize → Ekstrak Teks**. Setiap blok berkorespondensi dengan potongan kode di atas.
 
 ---
 
 ## Kesimpulan
 
-Anda baru saja mempelajari cara **pra‑pemrosesan gambar OCR** di Java, dengan mengaktifkan deskew, denoise, dan binarisasi untuk **mengekstrak teks dari gambar** secara jauh lebih andal. Dengan menyesuaikan beberapa flag konfigurasi, Anda dapat **meningkatkan akurasi OCR**, menangani scan yang sulit, dan pada akhirnya **mengonversi teks gambar yang dipindai** menjadi string bersih yang dapat dicari—semua dalam **contoh java OCR** yang ringkas dan mandiri.
+Kami baru saja menelusuri cara praktis untuk **pra‑pemrosesan gambar OCR** di Java menggunakan Aspose OCR, mencakup semua mulai dari penyiapan proyek hingga penyetelan opsi yang **meningkatkan akurasi OCR**. Dengan menerapkan deskew, despeckle, dan contrast‑boost, Anda mengubah JPEG berisik dan miring menjadi teks bersih yang dapat dicari—tepat apa yang Anda butuhkan ketika ingin **mengekstrak data teks gambar** untuk aplikasi selanjutnya.
 
-Siap untuk langkah selanjutnya? Cobalah mengirim teks yang diekstrak ke database, menghasilkan PDF yang dapat dicari dengan Aspose PDF, atau bereksperimen dengan dukungan multibahasa. Pipeline pra‑pemrosesan yang sama bekerja untuk PDF, PNG, dan JPEG, sehingga Anda dapat menskalakan pola ini ke proyek digitalisasi dokumen apa pun.
+Apa selanjutnya? Cobalah bereksperimen dengan fitur pra‑pemrosesan lain seperti `setBinarizationThreshold` untuk gambar biner, atau rangkai beberapa gambar menjadi satu batch job. Anda juga dapat mengintegrasikan hasilnya dengan Apache Tika untuk pengindeksan, atau mengirimkannya ke model bahasa untuk analisis sentimen. Langit adalah batasnya setelah Anda menguasai dasar‑dasar **cara mempraproses OCR**.
 
-Selamat coding, semoga hasil OCR Anda selalu jernih!
+Punya pertanyaan tentang tipe file atau bahasa tertentu? Tinggalkan komentar di bawah, dan selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

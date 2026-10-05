@@ -1,27 +1,24 @@
 ---
 category: general
-date: 2026-02-27
-description: Preprocessa l'OCR dell'immagine per estrarre il testo dall'immagine usando
-  Aspose OCR in Java. Scopri come migliorare l'accuratezza dell'OCR e convertire il
-  testo delle immagini scansionate in modo efficiente.
+date: 2026-01-07
+description: Preprocessa l'OCR dell'immagine per migliorare l'accuratezza dell'OCR
+  ed estrarre il testo dall'immagine con Aspose OCR – guida passo‑passo per sviluppatori.
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: it
-og_description: Preprocessa l'OCR dell'immagine per estrarre il testo dall'immagine
-  con Aspose OCR. Questa guida mostra come migliorare l'accuratezza dell'OCR e convertire
-  il testo di un'immagine scansionata in Java.
-og_title: Preprocessa OCR di immagini in Java – Aumenta la precisione ed estrai il
-  testo
+og_description: Preprocessa l'OCR dell'immagine per migliorare l'accuratezza dell'OCR
+  ed estrarre il testo dall'immagine usando Aspose OCR. Tutorial Java completo con
+  codice.
+og_title: Preelabora OCR di immagini in Java – Aumenta la precisione
 tags:
 - OCR
 - Java
 - Image Processing
-title: Preprocessare l'OCR delle immagini in Java – Incrementa l'accuratezza ed estrai
+title: Preprocessare l'OCR delle immagini in Java – Aumentare l'accuratezza ed estrarre
   il testo
 url: /it/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/
 ---
@@ -30,170 +27,202 @@ url: /it/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accurac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Preprocessare OCR di Immagine – Guida Completa Java
+# Preprocess Image OCR in Java – Guida Completa
 
-Ti è mai capitato di **preprocessare OCR di immagine** in modo che il testo estratto sia impeccabile? Non sei solo. In molti progetti, la scansione grezza è piena di inclinazioni, macchie o basso contrasto, e quelle piccole imperfezioni possono sabotare l'intera pipeline di estrazione.
+Hai mai avuto difficoltà con **preprocess image OCR** perché le tue scansioni sembrano un mucchio di macchie e testo inclinato? Non sei solo. La maggior parte degli sviluppatori si blocca quando l'immagine grezza è rumorosa, inclinata o a basso contrasto, e il motore OCR restituisce nonsense invece delle frasi attese.  
 
-La buona notizia? Applicando una serie di passaggi di preprocessing—deskew, denoise e binarizzazione—puoi migliorare drasticamente i risultati OCR. In questo tutorial percorreremo un **java OCR example** che mostra esattamente come **estrarre testo da immagine** file, aumentare la precisione e infine **convertire il testo di un'immagine scansionata** in stringhe pulite e ricercabili.
+La buona notizia è che pochi passaggi di pre‑elaborazione possono migliorare drasticamente **l'accuratezza OCR**, trasformando uno scatto traballante in testo pulito e leggibile dalla macchina. In questo tutorial vedremo passo passo **come preprocessare OCR** usando Aspose OCR per Java, e vedrai come **estrarre testo da immagine** in modo affidabile.
 
-> **Cosa otterrai:** un programma Java pronto‑all'uso che utilizza Aspose OCR, una spiegazione del perché ogni impostazione è importante e consigli per gestire casi limite come pagine fortemente ruotate o scansioni a bassa risoluzione.
-
----
-
-## Cosa ti serve
-
-- **Java Development Kit (JDK) 8** o più recente.  
-- Libreria **Aspose.OCR for Java** (l'ultima versione al momento della stesura, 23.10).  
-- Un file di esempio TIFF/PNG/JPEG che desideri leggere—chiamalo `input.tif`.  
-- Il tuo IDE preferito (IntelliJ IDEA, Eclipse, VS Code… qualsiasi vada bene).
-
-Nessuna dipendenza nativa aggiuntiva o strumenti esterni sono richiesti; il motore Aspose OCR si occupa di tutto il lavoro pesante.
+Copriamo tutto ciò di cui hai bisogno: librerie richieste, codice passo‑a‑passo, perché ogni opzione è importante e consigli per i casi limite che potresti incontrare. Alla fine avrai un programma pronto all'uso che prende un JPEG rumoroso, lo pulisce e stampa il testo estratto sulla console.
 
 ---
 
-## Preprocessare OCR di Immagine – Configurare il Motore
+## Cosa Ti Serve
 
-Per prima cosa, creiamo un'istanza di `OcrEngine`. Questo oggetto contiene la configurazione che guiderà tutti i successivi passaggi di preprocessing.
+Prima di iniziare, assicurati di avere:
+
+- Java Development Kit (JDK) 8 o versioni successive installato.  
+- Maven o Gradle per gestire le dipendenze (mostreremo lo snippet Maven).  
+- Una licenza Aspose OCR per Java (la versione di prova gratuita è sufficiente per i test).  
+- Un'immagine di esempio, ad esempio `skewed-noisy.jpg`, posizionata in una directory nota.
+
+Tutto qui—nessuna libreria di elaborazione immagini aggiuntiva è necessaria perché Aspose OCR include funzionalità di pre‑elaborazione integrate.
+
+---
+
+## Passo 1: Configura Aspose OCR nel Progetto
+
+Per prima cosa, aggiungi la dipendenza Aspose OCR al tuo `pom.xml`. Questo importerà il motore principale e gli helper di elaborazione immagini che utilizzeremo più avanti.
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+Se preferisci Gradle, l'equivalente è:
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **Pro tip:** Mantieni le dipendenze aggiornate; le versioni più recenti includono algoritmi di deskew più intelligenti che migliorano ulteriormente **l'accuratezza OCR**.
+
+---
+
+## Preprocess Image OCR – Passo 2: Carica l'Immagine
+
+Ora che la libreria è a posto, possiamo creare un'istanza di `OcrEngine` e puntarla all'immagine che desideri pulire.
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**Perché è importante:** Il motore è il punto di accesso a ogni funzionalità—se salti questo passaggio, nessuna delle impostazioni successive avrà effetto. Pensalo come aprire la cassetta degli attrezzi prima di iniziare a martellare.
+Perché istanziamo prima il motore? Aspose OCR lega la pipeline di pre‑elaborazione direttamente al motore, quindi tutte le opzioni impostate successivamente influenzano lo stesso flusso di immagine. Questo garantisce che l'operazione **estrarre testo da immagine** lavori sulla versione pulita, non sul file grezzo.
 
 ---
 
-## Abilitare Deskew per Correggere la Rotazione
+## Migliora l'Accuratezza OCR – Passo 3: Configura le Opzioni di Pre‑elaborazione
 
-Le pagine scansionate raramente sono perfettamente allineate. Una leggera inclinazione può far leggere erroneamente i caratteri. Abilitare deskew indica al motore di auto‑rilevare e ruotare l'immagine a 0°.
+La magia avviene in `ImageProcessingOptions`. Ogni flag mira a un difetto comune che penalizza le prestazioni OCR.
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*Consiglio professionale:* Deskew funziona al meglio su immagini in cui le linee di testo sono chiaramente visibili. Se stai trattando una nota scritta a mano, potresti sperimentare il metodo `setDeskewAngleTolerance` (non mostrato qui) per regolare finemente la sensibilità.
+- **Deskew**: Rileva l'angolo di rotazione e ruota l'immagine nuovamente in orizzontale. Senza di esso, il motore OCR può interpretare erroneamente i caratteri.  
+- **Despeckle**: Elimina il rumore casuale che può essere scambiato per punteggiatura o lettere isolate.  
+- **Contrast Boost**: Amplifica la differenza tra primo piano (testo) e sfondo, fattore chiave in **come preprocessare OCR** per stampe sbiadite.
+
+Sentiti libero di attivare o disattivare questi flag in base al materiale di partenza. Per esempio, un documento perfettamente scansionato potrebbe non aver bisogno di `setDespeckle(true)`, risparmiando qualche millisecondo.
 
 ---
 
-## Applicare Denoising per Rimuovere il Rumore
+## Estrarre Testo da Immagine – Passo 4: Esegui OCR sull'Immagine Pre‑elaborata
 
-Il rumore—quelle macchie casuali o granulosità di sfondo—confonde l'algoritmo OCR. Attivare il denoising leviga l'immagine, preservando i tratti mentre elimina i pixel irrilevanti.
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**Caso limite:** Per scansioni a risoluzione estremamente bassa (meno di 150 dpi), un denoising aggressivo può cancellare i caratteri deboli. In tali casi, potresti ridurre il `setDenoiseLevel` (il valore predefinito è medio) o saltare completamente questo passaggio.
-
----
-
-## Regolare la Soglia di Binarizzazione per un Contrasto Migliore
-
-La binarizzazione converte l'immagine in scala di grigi in bianco‑e‑nero, accentuando il contrasto tra inchiostro e carta. Il valore di soglia (0‑255) determina dove avviene il taglio. Un valore di 180 funziona bene per la maggior parte delle scansioni pulite, ma potresti doverlo regolare.
+Con l'immagine pulita, chiediamo finalmente ad Aspose OCR di riconoscere il testo.
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*Perché 180?* È sufficientemente alto da mantenere il testo scuro nero mentre trasforma gli sfondi chiari in bianco, il che aiuta il motore OCR a concentrarsi sui veri caratteri. Se la tua sorgente è un vecchio documento sbiadito, prova un valore più basso come 120.
-
----
-
-## Elaborare l'Immagine ed Estrarre il Testo
-
-Ora che il motore è pronto, gli forniamo il percorso del file. Il metodo `processImage` restituisce un oggetto `OcrResult` contenente il testo riconosciuto e i punteggi di confidenza.
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**E se il file non viene trovato?** Il metodo lancia un `IOException`. Nel codice di produzione avresti avvolto questa chiamata in un blocco try‑catch e registrato un messaggio di errore amichevole.
-
----
-
-## Verificare l'Uscita
-
-Infine, stampiamo la stringa estratta sulla console. Qui puoi vedere se il preprocessing ha effettivamente aiutato.
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-Output previsto (troncato per brevità):
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-Se il risultato contiene ancora caratteri spazzatura, rivedi la soglia o considera l'applicazione di un filtro personalizzato (ad esempio, apertura morfologica) prima di fornire l'immagine a Aspose OCR.
+La chiamata `recognize()` applica internamente la pipeline di pre‑elaborazione configurata, poi esegue la segmentazione dei caratteri e il riconoscimento. Il risultato è una stringa di testo semplice che puoi inviare a processi successivi—indicizzazione di ricerca, automazione di inserimento dati, quello che ti serve.
 
 ---
 
-## Come Estrarre Testo da Immagine Utilizzando Aspose OCR
+## Come Preprocessare OCR – Problemi Comuni & Casi Limite
 
-Il codice sopra è un **java OCR example** che dimostra l'intera pipeline—dal caricamento dell'immagine alla stampa di testo pulito. Poiché tutto il preprocessing è gestito tramite l'oggetto `Config`, puoi inserire o rimuovere singoli passaggi senza riscrivere la logica di base.
+### 1. Le Dimensioni dell'Immagine Contano
+Immagini molto grandi (es. > 5 MP) possono provocare pressione sulla memoria. Se ottieni `OutOfMemoryError`, ridimensiona prima l'immagine usando `processingOptions.setResizeFactor(0.5f)`.
 
-**Checklist rapida per l'estrazione:**
+### 2. Colore vs. Scala di Grigi
+Aspose OCR funziona al meglio con immagini in scala di grigi. Se la tua sorgente è a colori, abilita `processingOptions.setConvertToGrayscale(true)` prima del deskew.
 
-1. **Carica** l'immagine con `processImage`.  
-2. **Abilita** `Deskew` e `Denoise` se la sorgente è un documento scansionato.  
-3. **Regola** il `BinarizationThreshold` in base all'ispezione visiva.  
-4. **Leggi** `ocrResult.getText()` e salvalo dove ti serve—database, file o UI.
+### 3. PDF Multi‑Pagina
+Quando lavori con PDF, estrai ogni pagina come immagine ed esegui la stessa pipeline in un ciclo. L'API fornisce `PdfImageExtractor` a questo scopo.
 
----
-
-## Suggerimenti per Migliorare la Precisione OCR in Java
-
-- **La risoluzione è importante:** Punta ad almeno 300 dpi durante la scansione. DPI più alti forniscono al motore più dati pixel per lavorare.  
-- **Colore vs. scala di grigi:** Converti le scansioni a colori in scala di grigi prima del processing; riduce il tempo di elaborazione senza compromettere la precisione.  
-- **Elaborazione batch:** Se hai decine di file, riutilizza una singola istanza di `OcrEngine`—crearla ripetutamente aggiunge overhead.  
-- **Pacchetti lingua:** Aspose OCR supporta più lingue; imposta `ocrEngine.getConfig().setLanguage(OcrLanguage.English)` (o un altro) per migliorare il riconoscimento di testi non‑inglesi.
-
----
-
-## Convertire il Testo di Immagini Scansionate in Stringhe Modificabili
-
-Una volta ottenuta la stringa grezza, potresti volerla pulire ulteriormente—rimuovere interruzioni di riga, normalizzare gli spazi bianchi o applicare il controllo ortografico. I metodi `String` di Java e librerie come Apache Commons Text rendono questo un gioco da ragazzi.
+### 4. Supporto Lingua
+Se il tuo testo non è in inglese, imposta esplicitamente la lingua:
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-Ora il testo è pronto per essere salvato come file `.txt`, inserito in un PDF o inviato a una pipeline NLP a valle.
+Saltare questo passaggio può ridurre **l'accuratezza OCR** perché il motore tenta di indovinare il set di caratteri.
 
-![esempio di preprocessare OCR di immagine](/images/preprocess-ocr-demo.png "esempio di preprocessare OCR di immagine che mostra l'output della console")
+---
 
-*Lo screenshot sopra illustra l'output della console dopo aver eseguito l'intero programma Java.*
+## Esempio Completo (Pronto per Copia‑Incolla)
+
+Di seguito trovi il programma completo, pronto per essere compilato ed eseguito. Sostituisci il percorso segnaposto con la posizione reale della tua immagine.
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**Output atteso** (troncato per brevità):
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+Se vedi caratteri incomprensibili, verifica che il percorso dell'immagine sia corretto e che i flag di pre‑elaborazione corrispondano alle condizioni dell'immagine.
+
+---
+
+## Riepilogo Visivo
+
+<img src="preprocess-ocr.png" alt="dimostrazione di preprocess image OCR" style="max-width:100%;">
+
+Il diagramma illustra il flusso: **Load → Deskew → Despeckle → Contrast Boost → Recognize → Extract Text**. Ogni blocco corrisponde ai frammenti di codice mostrati sopra.
 
 ---
 
 ## Conclusione
 
-Hai appena imparato come **preprocessare OCR di immagine** in Java, abilitando deskew, denoise e binarizzazione per **estrarre testo da immagine** file con molta maggiore affidabilità. Regolando alcune flag di configurazione, puoi **migliorare la precisione OCR**, gestire scansioni difficili e, infine, **convertire il testo di un'immagine scansionata** in stringhe pulite e ricercabili—tutto all'interno di un compatto e autonomo **java OCR example**.
+Abbiamo appena percorso un metodo pratico per **preprocessare image OCR** in Java usando Aspose OCR, coprendo tutto, dall'impostazione del progetto alla messa a punto di opzioni che **migliorano l'accuratezza OCR**. Applicando deskew, despeckle e contrast‑boost, trasformi un JPEG rumoroso e inclinato in testo pulito e ricercabile—esattamente ciò di cui hai bisogno quando vuoi **estrarre testo da immagine** per applicazioni successive.
 
-Pronto per il passo successivo? Prova a inserire il testo estratto in un database, genera PDF ricercabili con Aspose PDF, o sperimenta il supporto multilingue. La stessa pipeline di preprocessing funziona per PDF, PNG e JPEG, così puoi scalare questo modello in qualsiasi progetto di digitalizzazione dei documenti.
+Qual è il prossimo passo? Prova a sperimentare con altre funzionalità di pre‑elaborazione come `setBinarizationThreshold` per immagini binarie, o concatena più immagini in un unico batch. Potresti anche integrare il risultato con Apache Tika per l'indicizzazione, o alimentarlo a un modello linguistico per l'analisi del sentiment. Il cielo è il limite una volta che hai padroneggiato le basi di **come preprocessare OCR**.
 
-Buon coding, e che i tuoi risultati OCR siano sempre cristallini!
+Hai domande su un tipo di file o lingua specifica? Lascia un commento qui sotto, e buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

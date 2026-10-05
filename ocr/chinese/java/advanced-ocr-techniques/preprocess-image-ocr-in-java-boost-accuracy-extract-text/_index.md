@@ -1,17 +1,16 @@
 ---
 category: general
-date: 2026-02-27
-description: 使用 Aspose OCR 在 Java 中预处理图像 OCR，以从图像中提取文本。了解如何提升 OCR 准确率并高效转换扫描图像文本。
+date: 2026-01-07
+description: 使用 Aspose OCR 进行图像预处理以提升 OCR 准确率并提取文本图像——面向开发者的分步指南。
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: zh
-og_description: 使用 Aspose OCR 对图像进行预处理，以提取图像中的文本。本指南展示了如何提升 OCR 准确率并在 Java 中转换扫描图像文本。
-og_title: 在 Java 中预处理图像 OCR – 提升准确率并提取文本
+og_description: 使用 Aspose OCR 对图像进行预处理，以提升 OCR 准确率并提取文本图像。完整的 Java 教程及代码。
+og_title: 在 Java 中预处理图像 OCR——提升准确率
 tags:
 - OCR
 - Java
@@ -24,172 +23,202 @@ url: /zh/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accurac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 预处理图像 OCR – 完整 Java 指南
+# 在 Java 中预处理图像 OCR – 完整指南
 
-是否曾为 **预处理图像 OCR** 而苦恼，导致提取的文本不够完美？你并不孤单。在许多项目中，原始扫描件常常出现倾斜、斑点或对比度低等问题，而这些细微瑕疵会破坏整个提取流程。
+是否曾因 **preprocess image OCR** 而苦恼，因为你的扫描件看起来像一堆斑点和倾斜的文字？你并不孤单。大多数开发者在原始图像噪声大、倾斜或对比度低时会碰壁，OCR 引擎会输出乱码而不是预期的句子。  
 
-好消息是？只需通过几步预处理——去倾斜、去噪和二值化，就能显著提升 OCR 效果。在本教程中，我们将演示一个 **java OCR 示例**，展示如何 **从图像中提取文本**、提升准确率，并最终 **将扫描图像文本** 转换为干净、可搜索的字符串。
+好消息是，少量的预处理步骤可以显著 **improve OCR accuracy**，将模糊的快照转化为干净、机器可读的文本。在本教程中，我们将逐步演示如何使用 Aspose OCR for Java **how to preprocess OCR**，并展示如何可靠地 **extract text image** 内容。  
 
-> **你将获得：** 一个可直接运行的使用 Aspose OCR 的 Java 程序、每个设置背后的原理说明，以及处理极度旋转页面或低分辨率扫描等边缘情况的技巧。
+我们将覆盖所有必需内容：所需库、逐步代码、每个选项的重要性以及可能遇到的边缘情况提示。完成后，你将拥有一个可直接运行的程序，能够处理噪声 JPEG，进行清理，并将提取的文本打印到控制台。
 
 ---
 
 ## 你需要的准备
 
-- **Java Development Kit (JDK) 8** 或更高版本。  
-- **Aspose.OCR for Java** 库（撰写时的最新版本 23.10）。  
-- 一个你想读取的示例 TIFF/PNG/JPEG 文件，例如 `input.tif`。  
-- 你喜欢的 IDE（IntelliJ IDEA、Eclipse、VS Code… 任意一种均可）。
+在开始之前，请确保拥有：
 
-无需额外的本地依赖或外部工具；Aspose OCR 引擎会完成所有繁重工作。
+- 已安装 Java Development Kit (JDK) 8 或更高版本。
+- 使用 Maven 或 Gradle 管理依赖（我们将展示 Maven 代码片段）。
+- Aspose OCR for Java 许可证（免费试用可用于测试）。
+- 示例图像，例如 `skewed-noisy.jpg`，放置在已知目录下。
+
+就是这样——无需额外的图像处理库，因为 Aspose OCR 已内置预处理功能。
 
 ---
 
-## 预处理图像 OCR – 初始化引擎
+## 步骤 1：在项目中设置 Aspose OCR
 
-首先，创建一个 `OcrEngine` 实例。该对象保存将驱动后续所有预处理的配置。
+首先，将 Aspose OCR 依赖添加到你的 `pom.xml` 中。这会引入核心引擎以及后面将使用的图像处理助手。
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+如果你更喜欢 Gradle，等价的写法是：
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **专业提示：** 保持依赖最新；较新版本通常包含更智能的去倾斜算法，进一步 **improve OCR accuracy**。
+
+---
+
+## 预处理图像 OCR – 步骤 2：加载图像
+
+库已就绪后，我们可以创建 `OcrEngine` 实例并指向要清理的图像。
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**为什么重要：** 引擎是所有功能的入口——如果跳过这一步，后面的设置将永远不会生效。把它想象成在动手敲锤子前先打开工具箱。
+为什么要先实例化引擎？Aspose OCR 将预处理管道直接绑定到引擎，因此后续设置的任何选项都会作用于同一图像流。这保证了 **extract text image** 操作在已清理的版本上执行，而不是原始文件。
 
 ---
 
-## 启用去倾斜以校正旋转
+## 提升 OCR 准确率 – 步骤 3：配置预处理选项
 
-扫描的页面很少能完美对齐。轻微的倾斜会导致字符识别错误。启用去倾斜后，引擎会自动检测并将图像旋转回 0°。
+魔法发生在 `ImageProcessingOptions` 中。每个标志针对一种常见缺陷，这些缺陷会影响 OCR 性能。
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*小技巧：* 去倾斜在文本行清晰可见的图像上效果最佳。如果处理的是手写笔记，可能需要尝试 `setDeskewAngleTolerance` 方法（此处未展示）来微调灵敏度。
+- **Deskew**：检测旋转角度并将图像旋转回水平。若不使用此功能，OCR 引擎可能会误判字符。
+- **Despeckle**：清除可能被误认为标点或杂散字母的随机噪声。
+- **Contrast Boost**：增强前景（文本）与背景的差异，这是对淡印文字进行 **how to preprocess OCR** 的关键因素。
+
+可根据源材料自由切换这些标志。例如，完美扫描的文档可能不需要 `setDespeckle(true)`，从而节省几毫秒。
 
 ---
 
-## 应用去噪以消除噪点
+## 提取文本图像 – 步骤 4：在预处理后的图像上运行 OCR
 
-噪点——那些随机的斑点或背景颗粒——会干扰 OCR 算法。开启去噪可以平滑图像，保留笔画的同时剔除无关像素。
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**边缘情况：** 对于极低分辨率的扫描（低于 150 dpi），过度去噪可能会抹掉微弱字符。此时可以降低 `setDenoiseLevel`（默认是中等）或直接跳过此步骤。
-
----
-
-## 调整二值化阈值以提升对比度
-
-二值化将灰度图像转换为黑白图，强化墨水与纸张之间的对比度。阈值（0‑255）决定了切割点的位置。180 的阈值对大多数干净的扫描效果良好，但你可能需要自行微调。
+图像清理完成后，我们最终让 Aspose OCR 识别文本。
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*为什么是 180？* 该值足够高，能够保持深色文字为黑色，同时将浅色背景转为白色，帮助 OCR 引擎聚焦真实字符。如果源文件是褪色的旧文档，可以尝试更低的阈值，如 120。
-
----
-
-## 处理图像并提取文本
-
-引擎准备就绪后，传入文件路径。`processImage` 方法返回一个包含识别文本和置信度分数的 `OcrResult` 对象。
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**如果文件未找到会怎样？** 该方法会抛出 `IOException`。在生产代码中，你应当将此调用包装在 try‑catch 块中，并记录友好的错误信息。
-
----
-
-## 验证输出
-
-最后，将提取的字符串打印到控制台。你可以在这里看到预处理是否真正起到了作用。
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-预期输出（为简洁起见已截断）：
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-如果结果仍然包含乱码字符，请重新检查阈值或考虑在将图像交给 Aspose OCR 之前应用自定义滤波器（例如形态学开运算）。
+`recognize()` 调用内部会应用我们配置的预处理管道，然后执行字符分割和识别。结果是一个纯文本字符串，可用于后续流程——搜索索引、数据录入自动化，等等。
 
 ---
 
-## 使用 Aspose OCR 从图像中提取文本
+## 如何预处理 OCR – 常见陷阱与边缘情况
 
-上面的代码是一个 **java OCR 示例**，演示了完整的流水线——从加载图像到打印干净文本。由于所有预处理都通过 `Config` 对象完成，你可以在不改动核心逻辑的情况下随意增删各个步骤。
+### 1. 图像尺寸重要
+非常大的图像（例如 > 5 MP）可能导致内存压力。如果出现 `OutOfMemoryError`，请先使用 `processingOptions.setResizeFactor(0.5f)` 调整图像大小。
 
-**提取检查清单：**
+### 2. 彩色 vs. 灰度
+Aspose OCR 在灰度图像上表现最佳。如果源图像为彩色，请在去倾斜前启用 `processingOptions.setConvertToGrayscale(true)`。
 
-1. 使用 `processImage` **加载** 图像。  
-2. 若源文件为扫描件，**启用** `Deskew` 和 `Denoise`。  
-3. 根据目视检查**调优** `BinarizationThreshold`。  
-4. 调用 `ocrResult.getText()` 并将其存储到需要的地方——数据库、文件或 UI。
+### 3. 多页 PDF
+处理 PDF 时，将每页提取为图像并在循环中运行相同的管道。API 提供了 `PdfImageExtractor` 用于此目的。
 
----
-
-## 提升 Java 中 OCR 准确率的技巧
-
-- **分辨率很重要：** 扫描时至少保持 300 dpi。更高的 DPI 为引擎提供更多像素信息。  
-- **彩色 vs. 灰度：** 在处理前将彩色扫描转换为灰度，可降低处理时间且不影响准确率。  
-- **批量处理：** 若需处理 dozens of 文件，复用同一个 `OcrEngine` 实例——频繁创建会增加开销。  
-- **语言包：** Aspose OCR 支持多语言；通过 `ocrEngine.getConfig().setLanguage(OcrLanguage.English)`（或其他语言）可提升非英文文本的识别率。
-
----
-
-## 将扫描图像文本转换为可编辑字符串
-
-得到原始字符串后，你可能还想进一步清理——去除换行、规范空白或进行拼写检查。Java 的 `String` 方法以及 Apache Commons Text 等库可以轻松完成这些工作。
+### 4. 语言支持
+如果文本不是英文，请显式设置语言：
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-现在文本已准备好保存为 `.txt` 文件、插入 PDF，或送入下游的 NLP 流程。
+跳过此步骤可能会降低 **improve OCR accuracy**，因为引擎会尝试猜测字符集。
 
 ---
 
-![预处理图像 OCR 示例](/images/preprocess-ocr-demo.png "预处理图像 OCR 示例，显示控制台输出")
+## 完整可运行示例（复制粘贴即可）
 
-*上图展示了运行完整 Java 程序后的控制台输出效果。*
+下面是完整程序，已准备好编译运行。请将占位路径替换为实际图像位置。
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**预期输出**（为简洁起见已截断）：
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+如果看到乱码，请再次确认图像路径正确且预处理标志与图像状态匹配。
+
+---
+
+## 可视化摘要
+
+<img src="preprocess-ocr.png" alt="预处理图像 OCR 演示" style="max-width:100%;">
+
+该图示说明了流程：**Load → Deskew → Despeckle → Contrast Boost → Recognize → Extract Text**。每个模块对应上面的代码片段。
 
 ---
 
 ## 结论
 
-你已经学会了如何在 Java 中 **预处理图像 OCR**，通过启用去倾斜、去噪和二值化来 **从图像文件中提取文本**，并显著提升可靠性。只需微调几个配置标志，就能 **提高 OCR 准确率**、处理棘手的扫描件，最终 **将扫描图像文本** 转换为干净、可搜索的字符串——全部在一个紧凑的 **java OCR 示例** 中实现。
+我们刚刚演示了使用 Aspose OCR 在 Java 中 **preprocess image OCR** 的实用方法，涵盖了从项目设置到细调选项的全部内容，这些选项能够 **improve OCR accuracy**。通过应用去倾斜、去噪点和对比度提升，你可以将噪声、倾斜的 JPEG 转换为干净、可搜索的文本——这正是当你想要为下游应用 **extract text image** 数据时所需的。  
 
-准备好下一步了吗？尝试将提取的文本写入数据库、使用 Aspose PDF 生成可搜索的 PDF，或实验多语言支持。同一预处理流水线同样适用于 PDF、PNG 和 JPEG，帮助你在任何文档数字化项目中实现规模化。
+接下来可以做什么？尝试使用其他预处理功能，例如针对二值图像的 `setBinarizationThreshold`，或将多张图像串联为单个批处理作业。你也可以将结果与 Apache Tika 集成进行索引，或输入到语言模型进行情感分析。一旦掌握了 **how to preprocess OCR** 的基础，想象空间无限。  
 
-祝编码愉快，愿你的 OCR 结果始终晶莹剔透！
+对特定文件类型或语言有疑问？在下方留言吧，祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

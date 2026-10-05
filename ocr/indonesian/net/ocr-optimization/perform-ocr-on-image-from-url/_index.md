@@ -1,10 +1,10 @@
 ---
-date: 2025-12-22
-description: Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR untuk
-  .NET, mengonversi gambar menjadi teks dengan pengaturan pengenalan OCR yang tepat.
-linktitle: recognize text from image – Perform OCR on Image from URL
+date: 2026-02-25
+description: Pelajari cara mengonversi gambar menjadi teks menggunakan Aspose.OCR
+  untuk .NET, mengekstrak teks dari gambar dengan pengaturan pengenalan OCR yang tepat.
+linktitle: convert image to text – Perform OCR on Image from URL
 second_title: Aspose.OCR .NET API
-title: Mengenali teks dari gambar – Lakukan OCR pada gambar dari URL
+title: Ubah Gambar menjadi Teks – Lakukan OCR pada Gambar dari URL
 url: /id/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
@@ -13,39 +13,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lakukan OCR pada Gambar dari URL dalam Pengenalan Gambar OCR
+# Mengonversi Gambar ke Teks – Lakukan OCR pada Gambar dari URL
 
-## Pendahuluan
+## Introduction
 
-Dalam ranah Optical Character Recognition (OCR), Aspose.OCR untuk .NET memungkinkan Anda **recognize text from image** dengan presisi, memberi kekuatan kepada pengembang untuk mengekstrak konten dari gambar dengan mudah. Jika Anda ingin mengintegrasikan kemampuan OCR ke dalam aplikasi .NET Anda dan melakukan pengenalan teks dari sumber remote, panduan langkah‑demi‑langkah ini akan memandu Anda melalui proses melakukan OCR pada gambar dari sebuah URL.
+Jika Anda perlu **convert image to text** dalam aplikasi .NET, Aspose.OCR untuk .NET memberikan cara yang dapat diandalkan untuk mengekstrak teks dari gambar yang dihosting di mana saja di web. Dalam tutorial ini Anda akan belajar cara mengenali teks dari gambar yang terletak pada URL publik, mengonfigurasi pengaturan pengenalan OCR, dan menangani hasilnya—semua dalam beberapa menit.
 
-## Jawaban Cepat
-- **Apa yang dibahas dalam tutorial ini?** Mengenali teks dari gambar yang terletak pada URL publik menggunakan Aspose.OCR untuk .NET.  
-- **Kata kunci utama yang ditargetkan?** *recognize text from image*  
-- **Apakah saya memerlukan lisensi?** Tersedia versi percobaan, tetapi lisensi komersial diperlukan untuk penggunaan produksi.  
+## Quick Answers
+- **Apa yang dibahas dalam tutorial ini?** Mengonversi gambar ke teks dari URL publik menggunakan Aspose.OCR untuk .NET.  
+- **Kata kunci utama apa yang ditargetkan?** *convert image to text*  
+- **Apakah saya memerlukan lisensi?** Versi percobaan tersedia, tetapi lisensi komersial diperlukan untuk penggunaan produksi.  
 - **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk pengaturan dasar.
+- **Berapa lama waktu implementasinya?** Biasanya kurang dari 10 menit untuk pengaturan dasar.
 
-## Apa itu “recognize text from image”?
-Mengenali teks dari gambar berarti mengubah representasi visual karakter menjadi teks yang dapat diedit dan dapat dicari. Proses ini sering disebut **convert image to text** atau **extract text from image**, dan mendukung skenario seperti digitalisasi dokumen, otomatisasi entri data, dan peningkatan aksesibilitas.
+## Apa itu “convert image to text”?
+Mengonversi gambar ke teks berarti mengubah representasi visual karakter menjadi string yang dapat diedit dan dapat dicari. Proses ini—juga dikenal sebagai **extract text from image**—menjadi dasar digitalisasi dokumen, otomatisasi entri data, dan solusi aksesibilitas.
 
-## Mengapa menggunakan Aspose.OCR untuk .NET?
-- **Akurasi tinggi** dengan dukungan bahasa bawaan.  
-- **Pengaturan pengenalan OCR yang halus** (mis., auto‑skew, deteksi area).  
-- **API sederhana** yang bekerja dengan .NET Framework dan .NET Core.  
-- **Tanpa dependensi eksternal** – semuanya berjalan secara lokal.
+## Mengapa menggunakan Aspose.OCR untuk .NET untuk mengonversi gambar ke teks?
+- **High accuracy** dengan dukungan bahasa bawaan dan ekstensi **OCR language pack** opsional.  
+- **Fine‑grained OCR recognition settings** seperti auto‑skew, deteksi area, dan penanganan multi‑line.  
+- **Simple API** yang bekerja dengan .NET Framework maupun .NET Core tanpa dependensi eksternal.  
+- **Direct URL support** – Anda dapat **recognize text from URL** tanpa mengunduh gambar terlebih dahulu, meskipun Anda juga memiliki opsi untuk **download image for OCR** jika diperlukan.
 
 ## Prasyarat
 
-Sebelum menyelami tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum memulai, pastikan Anda memiliki:
 
-- Aspose.OCR untuk .NET: Pastikan Anda telah mengintegrasikan pustaka Aspose.OCR ke dalam proyek .NET Anda. Anda dapat mengunduhnya dari [halaman rilis](https://releases.aspose.com/ocr/net/).
-
-- Lingkungan Pengembangan: Miliki lingkungan pengembangan .NET yang berfungsi di mesin Anda.
+- Aspose.OCR untuk .NET terpasang. Dapatkan pustaka terbaru dari [release page](https://releases.aspose.com/ocr/net/).  
+- Lingkungan pengembangan .NET (Visual Studio, VS Code, atau IDE pilihan Anda).  
+- Akses internet untuk mengambil gambar yang ingin Anda proses.
 
 ## Impor Namespace
 
-Di proyek .NET Anda, sertakan namespace yang diperlukan untuk mengakses fungsionalitas Aspose.OCR. Tambahkan cuplikan kode berikut ke proyek Anda:
+Tambahkan namespace yang diperlukan agar Anda dapat bekerja dengan kelas Aspose.OCR:
 
 ```csharp
 using System;
@@ -56,35 +56,31 @@ using Aspose.OCR;
 using Aspose.OCR.Models;
 ```
 
-## Cara mengenali teks dari gambar menggunakan URL?
+## Panduan Langkah‑per‑Langkah untuk Mengonversi Gambar ke Teks dari URL
 
 ### Langkah 1: Siapkan Direktori Dokumen Anda
-
-Mulailah dengan menentukan direktori tempat dokumen Anda disimpan. Ganti `"Your Document Directory"` dengan jalur sebenarnya ke dokumen Anda.
+Tentukan di mana Anda akan menyimpan file sementara atau hasil.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-### Langkah 2: Dapatkan Gambar untuk Pengenalan
-
-Berikan URL gambar yang ingin Anda lakukan OCR. Pastikan gambar dapat diakses secara publik.
+### Langkah 2: Sediakan URL Gambar
+Berikan URL yang dapat diakses publik. Jika gambar memerlukan autentikasi, Anda harus terlebih dahulu **download image for OCR** dan kemudian menggunakan stream sebagai gantinya.
 
 ```csharp
 string uri = "https://qph.fs.quoracdn.net/main-qimg-0ff82d0dc3543dcd3b06028f5476c2e4";
 ```
 
-### Langkah 3: Inisialisasi AsposeOcr
-
-Buat instance dari kelas AsposeOcr untuk mengakses fungsionalitas OCR.
+### Langkah 3: Inisialisasi Mesin AsposeOcr
+Buat instance dari mesin OCR.
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Langkah 4: Kenali Gambar
-
-Manfaatkan pustaka Aspose.OCR untuk mengenali teks dari URL gambar yang ditentukan. Sesuaikan pengaturan pengenalan sesuai kebutuhan Anda.
+### Langkah 4: Konfigurasikan Pengaturan Pengenalan OCR
+Sesuaikan cara mesin memproses gambar. Di sini kami mengaktifkan deteksi area, auto‑skew, dan menentukan dua persegi panjang khusus sebagai contoh **ocr recognition settings**.
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -100,9 +96,10 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 });
 ```
 
-### Langkah 5: Cetak Hasil
+> **Pro tip:** Jika Anda tidak memerlukan area khusus, set `DetectAreas = false` dan biarkan mesin secara otomatis menemukan blok teks.
 
-Tampilkan hasil pengenalan, termasuk teks yang dikenali, area, dan peringatan apa pun.
+### Langkah 5: Keluarkan Hasil OCR
+Cetak teks yang dikenali, area yang terdeteksi, peringatan apa pun, dan payload JSON lengkap untuk debugging.
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -113,9 +110,8 @@ result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
 ```
 
-### Langkah 6: Jalankan dan Verifikasi
-
-Jalankan aplikasi Anda, dan jika semuanya telah diatur dengan benar, Anda akan melihat proses OCR berhasil dijalankan.
+### Langkah 6: Konfirmasi Eksekusi Berhasil
+Pesan konfirmasi sederhana memberi tahu Anda bahwa proses selesai tanpa pengecualian.
 
 ```csharp
 Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
@@ -123,35 +119,35 @@ Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 
 ## Masalah Umum dan Solusinya
 
-- **Gambar tidak dapat diakses secara publik** – Verifikasi URL berfungsi di browser. Jika gambar memerlukan autentikasi, unduh terlebih dahulu dan gunakan `RecognizeImageFromStream`.
-- **Area pengenalan tidak tepat** – Sesuaikan nilai `Rectangle` atau setel `DetectAreas = false` agar mesin mendeteksi secara otomatis.
-- **Bahasa tidak dikenali** – Pastikan paket bahasa yang sesuai terpasang atau setel `Language = "eng"` (atau kode ISO lain) dalam `RecognitionSettings`.
+- **Image not publicly accessible** – Verifikasi URL berfungsi di browser. Untuk gambar yang dilindungi, unduh terlebih dahulu dan panggil `RecognizeImageFromStream`.  
+- **Recognition areas are off** – Sesuaikan nilai `Rectangle` atau nonaktifkan `DetectAreas` agar mesin auto‑detect.  
+- **Language not recognized** – Instal **OCR language pack** yang sesuai dan set `Language = "eng"` (atau kode ISO lain) di `RecognitionSettings`.  
 
 ## Pertanyaan yang Sering Diajukan
 
 ### Q1: Apakah Aspose.OCR cocok untuk menangani banyak bahasa?
-A1: Ya, Aspose.OCR mendukung pengenalan teks dalam berbagai bahasa, menjadikannya serbaguna untuk aplikasi internasional.
+**A:** Ya. Dengan menambahkan **ocr language pack** yang relevan, Anda dapat mengenali teks dalam puluhan bahasa.
 
-### Q2: Bisakah saya menggunakan Aspose.OCR untuk pengenalan teks satu baris maupun banyak baris?
-A2: Tentu saja! Aspose.OCR menyediakan fleksibilitas untuk mengenali teks satu baris maupun banyak baris, menyesuaikan dengan kasus penggunaan Anda.
+### Q2: Bisakah saya menggunakan Aspose.OCR untuk ekstraksi teks satu baris maupun multi‑baris?
+**A:** Tentu saja. Aktifkan atau nonaktifkan `RecognizeSingleLine` di `RecognitionSettings` sesuai kebutuhan Anda.
 
-### Q3: Apakah ada opsi lisensi yang tersedia untuk Aspose.OCR?
-A3: Ya, Anda dapat menjelajahi opsi lisensi dan melakukan pembelian di [Aspose store](https://purchase.aspose.com/buy).
+### Q3: Apakah ada opsi lisensi untuk proyek komersial?
+**A:** Ya, Anda dapat menjelajahi opsi lisensi dan membeli lisensi penuh di [Aspose store](https://purchase.aspose.com/buy).
 
-### Q4: Apakah ada percobaan gratis untuk Aspose.OCR?
-A4: Ya, Anda dapat mencoba Aspose.OCR secara gratis dengan mengunjungi [halaman rilis](https://releases.aspose.com/).
+### Q4: Apakah tersedia versi percobaan gratis?
+**A:** Ya, versi percobaan dapat diunduh dari [releases page](https://releases.aspose.com/).
 
-### Q5: Di mana saya dapat menemukan dukungan atau diskusi komunitas terkait Aspose.OCR?
-A5: Kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk dukungan dan berinteraksi dengan komunitas.
+### Q5: Di mana saya dapat menemukan dukungan komunitas?
+**A:** Kunjungi [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) yang khusus untuk bantuan dan diskusi.
 
 ## Kesimpulan
 
-Dengan Aspose.OCR untuk .NET, mengintegrasikan kemampuan OCR ke dalam aplikasi .NET Anda menjadi pengalaman yang mulus. Tutorial ini telah memandu Anda melalui proses **recognize text from image** menggunakan URL, memberikan dasar yang kuat untuk memanfaatkan ekstraksi teks dalam proyek Anda.
+Dengan Aspose.OCR untuk .NET, mengonversi gambar ke teks dari URL remote menjadi mudah dan sangat dapat disesuaikan. Dengan mengikuti langkah-langkah di atas, Anda dapat mengintegrasikan kemampuan OCR yang kuat ke dalam aplikasi .NET apa pun, baik Anda memerlukan fungsi **extract text from image** sederhana maupun **ocr recognition settings** lanjutan untuk dokumen yang kompleks.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-22  
-**Diuji Dengan:** Aspose.OCR 24.11 untuk .NET  
+**Terakhir Diperbarui:** 2026-02-25  
+**Diuji Dengan:** Aspose.OCR 24.11 for .NET  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

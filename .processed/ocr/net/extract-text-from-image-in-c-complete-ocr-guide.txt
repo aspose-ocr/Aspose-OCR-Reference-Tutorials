@@ -1,0 +1,7 @@
+Title: Extract Text from Image in C# – Complete OCR Guide
+Slug: extract-text-from-image-in-c-complete-ocr-guide
+Category: text-recognition
+ProcessedDate: 2026-07-21T18:14:02.001797
+SourceRepo: AI Search API
+Keywords: extract text from image, convert png to text, c# ocr example, load image for ocr, recognize cyrillic text
+PRNumber: 181

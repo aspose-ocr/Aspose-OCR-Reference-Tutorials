@@ -1,201 +1,226 @@
 ---
 category: general
-date: 2026-02-27
-description: معالجة مسبقة لتقنية OCR للصور لاستخراج النص من الصورة باستخدام Aspose
-  OCR في جافا. تعلم كيفية تحسين دقة OCR وتحويل نص الصورة الممسوحة ضوئياً بفعالية.
+date: 2026-01-07
+description: معالجة صورة OCR مسبقًا لتحسين دقة OCR واستخراج النص من الصورة باستخدام
+  Aspose OCR – دليل خطوة بخطوة للمطورين.
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: ar
-og_description: معالجة مسبقة لتقنية OCR للصور لاستخراج النص من الصورة باستخدام Aspose
-  OCR. يوضح هذا الدليل كيفية تحسين دقة OCR وتحويل نص الصورة الممسوحة ضوئياً في Java.
-og_title: معالجة مسبقة لتقنية OCR للصور في جافا – تحسين الدقة واستخراج النص
+og_description: معالجة مسبقة لصورة OCR لتحسين دقة OCR واستخراج نص الصورة باستخدام
+  Aspose OCR. دليل Java كامل مع الكود.
+og_title: معالجة مسبقة لتقنية OCR للصور في جافا – زيادة الدقة
 tags:
 - OCR
 - Java
 - Image Processing
-title: معالجة مسبقة لتقنية OCR للصور في جافا – تعزيز الدقة واستخراج النص
+title: معالجة مسبقة لتقنية OCR للصور في جافا – تحسين الدقة واستخراج النص
 url: /ar/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/
 ---
 
-مثال على معالجة OCR للصور". Title also translate.
-
-Proceed.
-
-Let's craft final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة OCR للصور – دليل Java كامل
+# معالجة صورة OCR في جافا – دليل شامل
 
-هل واجهت صعوبة في **معالجة OCR للصور** بحيث يصبح النص المستخرج خالٍ من العيوب؟ لست وحدك. في كثير من المشاريع، يكون المسح الضوئي الخام مليئًا بالانحراف، والبقع، أو انخفاض التباين، وهذه العيوب الصغيرة يمكن أن تفسد عملية استخراج النص بالكامل.
+هل واجهت صعوبة في **معالجة صورة OCR** لأن مسحاتك تبدو كفوضى من البقع والنص المائل؟ لست وحدك. معظم المطورين يصطدمون بالحائط عندما تكون الصورة الخام مليئة بالضوضاء أو مائلة أو ذات تباين منخفض، وتنتج محرك OCR نصًا غير مفهوم بدلاً من الجمل المتوقعة.  
 
-الخبر السار؟ من خلال تطبيق عدد قليل من خطوات المعالجة المسبقة—إزالة الانحراف، إزالة الضوضاء، وتثبيت الثنائي—يمكنك تحسين نتائج OCR بشكل كبير. في هذا الدرس سنستعرض **مثال Java OCR** يوضح بالضبط كيف **استخراج النص من ملفات الصورة**، زيادة الدقة، وأخيرًا **تحويل نص الصورة الممسوحة** إلى سلاسل نصية نظيفة قابلة للبحث.
+الخبر السار هو أن بعض خطوات ما قبل المعالجة يمكنها تحسين **دقة OCR** بشكل كبير، وتحويل لقطة غير مستقرة إلى نص نظيف يمكن للآلة قراءته. في هذا الدرس سنستعرض بالضبط **كيفية معالجة OCR** باستخدام Aspose OCR لجافا، وسترى كيف يمكنك **استخراج نص الصورة** بشكل موثوق.
 
-> **ما ستحصل عليه:** برنامج Java جاهز للتنفيذ باستخدام Aspose OCR، شرح لماذا كل إعداد مهم، ونصائح للتعامل مع الحالات الخاصة مثل الصفحات المدورة بشدة أو المسحات منخفضة الدقة.
-
----
-
-## ما ستحتاجه
-
-- **Java Development Kit (JDK) 8** أو أحدث.  
-- مكتبة **Aspose.OCR for Java** (أحدث نسخة وقت كتابة هذا الدليل، 23.10).  
-- ملف TIFF/PNG/JPEG تجريبي تريد قراءته—سميه `input.tif`.  
-- بيئة التطوير المفضلة لديك (IntelliJ IDEA، Eclipse، VS Code… أيًا كان).
-
-لا توجد تبعيات أصلية إضافية أو أدوات خارجية مطلوبة؛ محرك Aspose OCR يتولى كل الأعمال الثقيلة.
+سنغطي كل ما تحتاجه: المكتبات المطلوبة، كود خطوة بخطوة، لماذا كل خيار مهم، ونصائح للحالات الخاصة التي قد تواجهها. في النهاية ستحصل على برنامج جاهز للتنفيذ يأخذ صورة JPEG مشوشة، ينظفها، ويطبع النص المستخرج على وحدة التحكم.
 
 ---
 
-## معالجة OCR للصور – إعداد المحرك
+## ما الذي ستحتاجه
 
-أولاً، نقوم بإنشاء كائن `OcrEngine`. هذا الكائن يحمل التكوين الذي سيقود جميع خطوات المعالجة المسبقة اللاحقة.
+قبل أن نبدأ، تأكد من وجود ما يلي:
+
+- مجموعة تطوير جافا (JDK) 8 أو أحدث مثبتة.
+- Maven أو Gradle لإدارة التبعيات (سنظهر مقتطف Maven).
+- رخصة Aspose OCR لجافا (الإصدار التجريبي المجاني يكفي للاختبار).
+- صورة نموذجية، مثلاً `skewed-noisy.jpg`، موجودة في دليل معروف.
+
+هذا كل شيء—لا تحتاج إلى مكتبات معالجة صورة إضافية لأن Aspose OCR يأتي مع قدرات ما قبل المعالجة مدمجة.
+
+---
+
+## الخطوة 1: إعداد Aspose OCR في مشروعك
+
+أولاً، أضف تبعية Aspose OCR إلى ملف `pom.xml`. سيؤدي ذلك إلى جلب محرك الأساس ومساعدي معالجة الصورة الذين سنستخدمهم لاحقًا.
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+إذا كنت تفضل Gradle، فالمكافئ هو:
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **نصيحة احترافية:** حافظ على تحديث تبعياتك؛ الإصدارات الأحدث غالبًا ما تتضمن خوارزميات تصحيح الميل (deskew) أكثر ذكاءً تُحسّن **دقة OCR**.
+
+---
+
+## معالجة صورة OCR – الخطوة 2: تحميل الصورة
+
+الآن بعد أن أصبحت المكتبة جاهزة، يمكننا إنشاء كائن `OcrEngine` وتوجيهه إلى الصورة التي تريد تنظيفها.
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**لماذا هذا مهم:** المحرك هو البوابة إلى كل ميزة—إذا تخطيت هذه الخطوة، لن تُطبق أي من الإعدادات اللاحقة. فكر فيه كفتح صندوق الأدوات قبل أن تبدأ بالطرق.
+لماذا ننشئ المحرك أولاً؟ لأن Aspose OCR يربط خط أنابيب ما قبل المعالجة مباشرة بالمحرك، لذا أي خيار تضبطه لاحقًا سيؤثر على نفس تدفق الصورة. هذا يضمن أن عملية **استخراج نص الصورة** تعمل على النسخة المنقحة، وليس على الملف الخام.
 
 ---
 
-## تفعيل إزالة الانحراف لتصحيح الدوران
+## تحسين دقة OCR – الخطوة 3: ضبط خيارات ما قبل المعالجة
 
-الصفحات الممسوحة نادرًا ما تكون محاذاةً تمامًا. الميل الطفيف يمكن أن يتسبب في قراءة الأحرف بشكل خاطئ. تفعيل إزالة الانحراف يخبر المحرك باكتشاف الصورة تلقائيًا وتدويرها إلى 0°.
+السحر يحدث في `ImageProcessingOptions`. كل علم يستهدف عيبًا شائعًا يضر بأداء OCR.
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*نصيحة محترف:* تعمل إزالة الانحراف بأفضل شكل على الصور التي تكون فيها خطوط النص واضحة. إذا كنت تتعامل مع ملاحظة مكتوبة بخط اليد، قد ترغب في تجربة طريقة `setDeskewAngleTolerance` (غير معروضة هنا) لضبط الحساسية.
+- **Deskew**: يكتشف زاوية الدوران ويعيد تدوير الصورة لتصبح أفقية. بدون ذلك قد يخطئ محرك OCR في تفسير الأحرف.
+- **Despeckle**: يزيل الضوضاء العشوائية التي قد تُخطئ كعلامات ترقيم أو أحرف متفرقة.
+- **Contrast Boost**: يعزز الفرق بين المقدمة (النص) والخلفية، وهو عامل رئيسي في **كيفية معالجة OCR** للطباعة الخفيفة.
+
+يمكنك تشغيل أو إيقاف هذه العلامات حسب مادة المصدر. على سبيل المثال، قد لا تحتاج مستندًا مُمسوحًا بشكل مثالي إلى `setDespeckle(true)`، مما يوفر بضع مللي ثانية.
 
 ---
 
-## تطبيق إزالة الضوضاء لحذف التشويش
+## استخراج نص الصورة – الخطوة 4: تشغيل OCR على الصورة المعالجة
 
-الضوضاء—تلك البقع العشوائية أو حبيبات الخلفية—تربك خوارزمية OCR. تشغيل إزالة الضوضاء ينعم الصورة، محافظًا على الخطوط مع حذف البكسلات غير ذات الصلة.
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**حالة خاصة:** بالنسبة للمسحات ذات الدقة المنخفضة جدًا (أقل من 150 dpi)، قد يؤدي إزالة الضوضاء القوية إلى محو الأحرف الباهتة. في مثل هذه الحالات، يمكنك خفض `setDenoiseLevel` (الإعداد الافتراضي متوسط) أو تخطي هذه الخطوة تمامًا.
-
----
-
-## ضبط عتبة التثبيت الثنائي للحصول على تباين أفضل
-
-التثبيت الثنائي يحول الصورة الرمادية إلى أبيض وأسود، مما يعزز التباين بين الحبر والورق. قيمة العتبة (0‑255) تحدد مكان القطع. قيمة 180 تعمل جيدًا لمعظم المسحات النظيفة، لكن قد تحتاج إلى تعديلها.
+بعد تنظيف الصورة، نطلب من Aspose OCR أخيرًا التعرف على النص.
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*لماذا 180؟* إنها قيمة عالية بما يكفي لجعل النص الداكن أسود بينما يتحول الخلفية الفاتحة إلى أبيض، مما يساعد محرك OCR على التركيز على الأحرف الفعلية. إذا كان المصدر مستندًا قديمًا باهتًا، جرّب قيمة أقل مثل 120.
-
----
-
-## معالجة الصورة واستخراج النص
-
-الآن بعد أن تم إعداد المحرك، نمرره مسار الملف. طريقة `processImage` تُعيد كائن `OcrResult` يحتوي على النص المُعترف به ودرجات الثقة.
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**ماذا لو لم يُعثر على الملف؟** تُطلق الطريقة استثناءً من نوع `IOException`. في الكود الإنتاجي، ستُغلف هذه الدعوة بكتلة try‑catch وتُسجل رسالة خطأ ودية.
-
----
-
-## التحقق من النتيجة
-
-أخيرًا، نطبع السلسلة المستخرجة إلى وحدة التحكم. هنا يمكنك رؤية ما إذا كانت المعالجة المسبقة قد ساعدت فعلاً.
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-الناتج المتوقع (مقتطع للختصر):
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-إذا ما زال الناتج يحتوي على أحرف غير مفهومة، أعد مراجعة العتبة أو فكر في تطبيق مرشح مخصص (مثل الفتح المورفولوجي) قبل تمرير الصورة إلى Aspose OCR.
+نداء `recognize()` يطبق داخليًا خط أنابيب ما قبل المعالجة الذي ضبطناه، ثم يقوم بتقسيم الأحرف والتعرف عليها. النتيجة هي سلسلة نصية عادية يمكنك تمريرها إلى عمليات لاحقة—فهرسة بحث، أتمتة إدخال بيانات، وما إلى ذلك.
 
 ---
 
-## كيفية استخراج النص من الصورة باستخدام Aspose OCR
+## كيفية معالجة OCR – المشكلات الشائعة والحالات الخاصة
 
-الكود أعلاه هو **مثال Java OCR** يوضح كامل سير العمل—من تحميل الصورة إلى طباعة نص نظيف. لأن جميع خطوات المعالجة تُدار عبر كائن `Config`، يمكنك إضافة أو إزالة أي خطوة دون الحاجة لإعادة كتابة المنطق الأساسي.
+### 1. حجم الصورة مهم
+الصور الكبيرة جدًا (مثلاً > 5 MP) قد تسبب ضغطًا على الذاكرة. إذا واجهت `OutOfMemoryError`، قلل حجم الصورة أولًا باستخدام `processingOptions.setResizeFactor(0.5f)`.
 
-**قائمة سريعة للتحقق قبل الاستخراج:**
+### 2. اللون مقابل التدرج الرمادي
+يعمل Aspose OCR بأفضل شكل مع الصور ذات التدرج الرمادي. إذا كان مصدر الصورة ملونًا، فعّل `processingOptions.setConvertToGrayscale(true)` قبل عملية تصحيح الميل.
 
-1. **تحميل** الصورة باستخدام `processImage`.  
-2. **تفعيل** `Deskew` و `Denoise` إذا كان المصدر مستندًا ممسوحًا.  
-3. **ضبط** `BinarizationThreshold` بناءً على الفحص البصري.  
-4. **قراءة** `ocrResult.getText()` وتخزينه أينما تحتاج—قاعدة بيانات، ملف، أو واجهة مستخدم.
+### 3. ملفات PDF متعددة الصفحات
+عند التعامل مع PDFs، استخرج كل صفحة كصورة وشغّل نفس الخط أنابيب في حلقة. توفر الواجهة `PdfImageExtractor` لهذا الغرض.
 
----
-
-## نصائح لتحسين دقة OCR في Java
-
-- **الدقة مهمة:** استهدف على الأقل 300 dpi عند المسح. كلما ارتفعت الـ DPI زادت بيانات البكسل المتاحة للمحرك.  
-- **الألوان مقابل الرمادي:** حوّل المسحات الملونة إلى رمادي قبل المعالجة؛ ذلك يقلل زمن المعالجة دون الإضرار بالدقة.  
-- **المعالجة الدفعية:** إذا كان لديك العشرات من الملفات، أعد استخدام كائن `OcrEngine` واحد—إنشاءه مرارًا يضيف عبئًا غير ضروري.  
-- **حزم اللغات:** يدعم Aspose OCR عدة لغات؛ اضبط `ocrEngine.getConfig().setLanguage(OcrLanguage.English)` (أو غيرها) لتحسين التعرف على النصوص غير الإنجليزية.
-
----
-
-## تحويل نص الصورة الممسوحة إلى سلاسل قابلة للتحرير
-
-بعد حصولك على السلسلة الخام، قد ترغب في تنظيفها أكثر—إزالة فواصل الأسطر، توحيد الفراغات، أو تطبيق التدقيق الإملائي. طرق `String` في Java ومكتبات مثل Apache Commons Text تجعل ذلك سهلًا.
+### 4. دعم اللغات
+إذا لم يكن النص باللغة الإنجليزية، اضبط اللغة صراحةً:
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-الآن النص جاهز للحفظ كملف `.txt`، إدراجه في PDF، أو تمريره إلى خط أنابيب NLP لاحق.
+تجاوز هذه الخطوة قد يقلل من **تحسين دقة OCR** لأن المحرك سيحاول تخمين مجموعة الأحرف.
 
 ---
 
-![مثال على معالجة OCR للصور](/images/preprocess-ocr-demo.png "مثال على معالجة OCR للصور يظهر ناتج وحدة التحكم")
+## مثال كامل جاهز للتنفيذ (انسخه‑الصقه)
 
-*توضح اللقطة أعلاه ناتج وحدة التحكم بعد تشغيل برنامج Java الكامل.*
+فيما يلي البرنامج الكامل، جاهز للترجمة والتشغيل. استبدل مسار العنصر النائب بموقع صورتك الفعلي.
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**الناتج المتوقع** (مقتطع للختصار):
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+إذا رأيت أحرفًا مشوشة، تأكد من صحة مسار الصورة وأن علامات ما قبل المعالجة تتطابق مع حالة الصورة.
 
 ---
 
-## الخلاصة
+## ملخص بصري
 
-لقد تعلمت الآن كيفية **معالجة OCR للصور** في Java، مفعِّلًا إزالة الانحراف، إزالة الضوضاء، وتثبيت الثنائي لت **استخراج النص من ملفات الصورة** بدقة أعلى بكثير. من خلال تعديل بعض العلامات في التكوين، يمكنك **تحسين دقة OCR**، التعامل مع المسحات الصعبة، وفي النهاية **تحويل نص الصورة الممسوحة** إلى سلاسل نظيفة قابلة للبحث—كل ذلك ضمن **مثال Java OCR** مختصر ومستقل.
+<img src="preprocess-ocr.png" alt="preprocess image OCR demonstration" style="max-width:100%;">
 
-هل أنت مستعد للخطوة التالية؟ جرّب تخزين النص المستخرج في قاعدة بيانات، إنشاء ملفات PDF قابلة للبحث باستخدام Aspose PDF، أو تجربة الدعم متعدد اللغات. نفس خط أنابيب المعالجة يعمل مع PDFs، PNGs، و JPEGs، لذا يمكنك توسيع هذا النمط إلى أي مشروع رقمنة مستندات.
+الرسم البياني يوضح التدفق: **تحميل → تصحيح الميل → إزالة البقع → تعزيز التباين → التعرف → استخراج النص**. كل صندوق يتطابق مع مقتطفات الكود أعلاه.
 
-برمجة سعيدة، ولتكن نتائج OCR دائمًا واضحة كالبلور!
+---
+
+## الخاتمة
+
+لقد استعرضنا طريقة عملية لـ **معالجة صورة OCR** في جافا باستخدام Aspose OCR، بدءًا من إعداد المشروع وحتى ضبط الخيارات التي **تحسن دقة OCR**. من خلال تطبيق تصحيح الميل، إزالة البقع، وتعزيز التباين، تحول صورة JPEG مشوشة ومائلة إلى نص نظيف قابل للبحث—وهو بالضبط ما تحتاجه عندما تريد **استخراج نص الصورة** لتطبيقات لاحقة.
+
+ما الخطوة التالية؟ جرّب ميزات ما قبل المعالجة الأخرى مثل `setBinarizationThreshold` للصور الثنائية، أو ربط عدة صور في مهمة دفعة واحدة. يمكنك أيضًا دمج النتيجة مع Apache Tika للفهرسة، أو تمريرها إلى نموذج لغة لتحليل المشاعر. السماء هي الحد عندما تتقن أساسيات **كيفية معالجة OCR**.
+
+هل لديك أسئلة حول نوع ملف معين أو لغة معينة؟ اترك تعليقًا أدناه، ونتمنى لك برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

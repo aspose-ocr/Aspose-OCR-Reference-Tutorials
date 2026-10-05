@@ -1,22 +1,18 @@
 ---
 category: general
-date: 2026-02-27
-description: Tiền xử lý OCR hình ảnh để trích xuất văn bản từ hình ảnh bằng Aspose
-  OCR trong Java. Tìm hiểu cách cải thiện độ chính xác của OCR và chuyển đổi văn bản
-  hình ảnh đã quét một cách hiệu quả.
+date: 2026-01-07
+description: Tiền xử lý hình ảnh OCR để cải thiện độ chính xác của OCR và trích xuất
+  văn bản từ hình ảnh với Aspose OCR – hướng dẫn chi tiết từng bước cho nhà phát triển.
 draft: false
 keywords:
 - preprocess image OCR
-- extract text from image
+- extract text image
 - improve OCR accuracy
-- java OCR example
-- convert scanned image text
+- how to preprocess OCR
 language: vi
-og_description: Tiền xử lý OCR hình ảnh để trích xuất văn bản từ hình ảnh bằng Aspose
-  OCR. Hướng dẫn này chỉ cách cải thiện độ chính xác của OCR và chuyển đổi văn bản
-  từ ảnh quét trong Java.
-og_title: Tiền xử lý OCR hình ảnh trong Java – Tăng độ chính xác & Trích xuất văn
-  bản
+og_description: Tiền xử lý hình ảnh OCR để cải thiện độ chính xác OCR và trích xuất
+  văn bản từ hình ảnh bằng Aspose OCR. Hướng dẫn Java đầy đủ kèm mã nguồn.
+og_title: Tiền xử lý OCR hình ảnh trong Java – Tăng độ chính xác
 tags:
 - OCR
 - Java
@@ -29,170 +25,202 @@ url: /vi/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accurac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tiền xử lý OCR hình ảnh – Hướng dẫn Java đầy đủ
+# Tiền xử lý OCR hình ảnh trong Java – Hướng dẫn đầy đủ
 
-Bạn đã bao giờ gặp khó khăn trong việc **tiền xử lý OCR hình ảnh** để văn bản trích xuất ra trông hoàn hảo chưa? Bạn không phải là người duy nhất. Trong nhiều dự án, bản quét thô đầy các góc nghiêng, đốm nhiễu hoặc độ tương phản thấp, và những khuyết điểm nhỏ bé này có thể phá hỏng toàn bộ quy trình trích xuất.
+Bạn đã bao giờ gặp khó khăn với **preprocess image OCR** vì các bản scan của mình trông như một đống đốm và văn bản nghiêng không đúng? Bạn không phải là người duy nhất. Hầu hết các nhà phát triển đều gặp bế tắc khi ảnh gốc bị nhiễu, lệch góc, hoặc chỉ có độ tương phản thấp, và engine OCR lại trả về những ký tự vô nghĩa thay vì các câu mong đợi.  
 
-Tin tốt là gì? Bằng cách áp dụng một vài bước tiền xử lý—deskew, denoise và binarization—bạn có thể cải thiện đáng kể kết quả OCR. Trong hướng dẫn này, chúng ta sẽ đi qua một **java OCR example** cho thấy cách **extract text from image** từ các tệp tin, tăng độ chính xác và cuối cùng **convert scanned image text** thành các chuỗi sạch, có thể tìm kiếm được.
+Tin tốt là chỉ với một vài bước tiền xử lý, bạn có thể **cải thiện độ chính xác của OCR** một cách đáng kể, biến một bức ảnh mờ nhạt thành văn bản sạch, có thể đọc được bởi máy. Trong tutorial này, chúng ta sẽ đi qua **cách tiền xử lý OCR** bằng Aspose OCR cho Java, và bạn sẽ thấy cách **extract text image** một cách đáng tin cậy.
 
-> **Bạn sẽ nhận được:** một chương trình Java sẵn sàng chạy sử dụng Aspose OCR, giải thích lý do mỗi thiết lập quan trọng, và các mẹo xử lý các trường hợp khó như trang bị xoay mạnh hoặc quét độ phân giải thấp.
+Chúng ta sẽ bao phủ mọi thứ bạn cần: các thư viện cần thiết, mã nguồn từng bước, lý do mỗi tùy chọn quan trọng, và các mẹo cho những trường hợp đặc biệt mà bạn có thể gặp. Khi hoàn thành, bạn sẽ có một chương trình sẵn sàng chạy, nhận một file JPEG nhiễu, làm sạch nó, và in ra văn bản đã trích xuất trên console.
 
 ---
 
 ## Những gì bạn cần
 
-- **Java Development Kit (JDK) 8** trở lên.  
-- Thư viện **Aspose.OCR for Java** (phiên bản mới nhất tại thời điểm viết, 23.10).  
-- Một tệp mẫu TIFF/PNG/JPEG bạn muốn đọc—gọi nó là `input.tif`.  
-- IDE yêu thích của bạn (IntelliJ IDEA, Eclipse, VS Code… bất kỳ nào cũng được).
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
-Không cần bất kỳ phụ thuộc native hay công cụ bên ngoài nào; engine Aspose OCR sẽ thực hiện mọi công việc nặng.
+- Java Development Kit (JDK) 8 hoặc mới hơn.
+- Maven hoặc Gradle để quản lý phụ thuộc (chúng tôi sẽ đưa ví dụ cho Maven).
+- Giấy phép Aspose OCR cho Java (bản dùng thử miễn phí đủ cho việc thử nghiệm).
+- Một ảnh mẫu, ví dụ `skewed-noisy.jpg`, được đặt trong một thư mục đã biết.
+
+Đó là tất cả—không cần thư viện xử lý ảnh bổ sung nào vì Aspose OCR đã tích hợp sẵn các tính năng tiền xử lý.
 
 ---
 
-## Tiền xử lý OCR hình ảnh – Cài đặt Engine
+## Bước 1: Cài đặt Aspose OCR vào dự án của bạn
 
-Đầu tiên, chúng ta tạo một thể hiện `OcrEngine`. Đối tượng này chứa cấu hình sẽ điều khiển tất cả các bước tiền xử lý tiếp theo.
+Đầu tiên, thêm phụ thuộc Aspose OCR vào file `pom.xml`. Điều này sẽ kéo engine cốt lõi và các helper xử lý ảnh mà chúng ta sẽ dùng sau.
+
+```xml
+<!-- pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.12</version> <!-- use the latest version available -->
+</dependency>
+```
+
+Nếu bạn thích Gradle, tương đương là:
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.12'
+```
+
+> **Pro tip:** Giữ các phụ thuộc luôn cập nhật; các phiên bản mới thường bao gồm các thuật toán deskew thông minh hơn, giúp **cải thiện độ chính xác của OCR** hơn nữa.
+
+---
+
+## Tiền xử lý OCR – Bước 2: Tải ảnh lên
+
+Bây giờ thư viện đã sẵn sàng, chúng ta có thể tạo một thể hiện `OcrEngine` và chỉ định nó tới ảnh bạn muốn làm sạch.
 
 ```java
 import com.aspose.ocr.*;
 
-public class PreprocessDemo {
+public class PreprocessExample {
     public static void main(String[] args) throws Exception {
 
-        // Step 1: Instantiate the OCR engine
+        // Step 2: Create an OCR engine instance
         OcrEngine ocrEngine = new OcrEngine();
 
-        // The rest of the configuration follows...
+        // Load the image you want to preprocess
+        // Replace "YOUR_DIRECTORY" with the actual folder path
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
 ```
 
-**Tại sao điều này quan trọng:** Engine là cổng vào mọi tính năng—nếu bỏ qua bước này, các thiết lập sau sẽ không bao giờ có hiệu lực. Hãy nghĩ nó như mở hộp dụng cụ trước khi bắt đầu dùng búa.
+Tại sao chúng ta phải khởi tạo engine trước? Aspose OCR gắn pipeline tiền xử lý trực tiếp vào engine, vì vậy bất kỳ tùy chọn nào bạn thiết lập sau này sẽ ảnh hưởng đến cùng một luồng ảnh. Điều này đảm bảo hoạt động **extract text image** diễn ra trên phiên bản đã được làm sạch, không phải file gốc.
 
 ---
 
-## Bật Deskew để sửa góc xoay
+## Cải thiện độ chính xác OCR – Bước 3: Cấu hình các tùy chọn tiền xử lý
 
-Các trang quét hiếm khi được căn chỉnh hoàn hảo. Một góc nghiêng nhẹ có thể khiến ký tự bị đọc sai. Bật deskew yêu cầu engine tự động phát hiện và xoay ảnh trở lại 0°.
+Phép màu xảy ra trong `ImageProcessingOptions`. Mỗi cờ bật/tắt nhắm vào một khuyết điểm phổ biến làm giảm hiệu suất OCR.
 
 ```java
-        // Step 2: Turn on automatic deskew
-        ocrEngine.getConfig().setDeskewEnabled(true);
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+
+        // Straighten rotated text – essential for skewed scans
+        processingOptions.setDeskew(true);
+
+        // Remove isolated pixels that look like speckles
+        processingOptions.setDespeckle(true);
+
+        // Boost contrast by 30% – helps low‑contrast prints
+        processingOptions.setContrastBoost(1.3f);
 ```
 
-*Pro tip:* Deskew hoạt động tốt nhất trên các ảnh mà các dòng văn bản rõ ràng. Nếu bạn đang xử lý một ghi chú viết tay, có thể thử nghiệm phương thức `setDeskewAngleTolerance` (không hiển thị ở đây) để tinh chỉnh độ nhạy.
+- **Deskew**: Phát hiện góc quay và xoay ảnh trở lại vị trí ngang. Nếu không có bước này, engine OCR có thể nhận dạng sai ký tự.
+- **Despeckle**: Loại bỏ nhiễu ngẫu nhiên có thể bị nhầm thành dấu câu hoặc các ký tự lẻ.
+- **Contrast Boost**: Tăng độ tương phản giữa nền (nền) và tiền cảnh (văn bản), là yếu tố then chốt trong **how to preprocess OCR** cho các bản in mờ.
+
+Bạn có thể bật/tắt các cờ này tùy theo nguồn ảnh. Ví dụ, một tài liệu được scan hoàn hảo có thể không cần `setDespeckle(true)`, giúp tiết kiệm vài mili giây.
 
 ---
 
-## Áp dụng Denoising để loại bỏ nhiễu
+## Extract Text Image – Bước 4: Chạy OCR trên ảnh đã tiền xử lý
 
-Nhiễu—những đốm ngẫu nhiên hoặc hạt nền—làm rối thuật toán OCR. Bật denoising làm mượt ảnh, giữ lại các nét chữ trong khi loại bỏ các pixel không liên quan.
-
-```java
-        // Step 3: Enable denoising to clean up speckles
-        ocrEngine.getConfig().setDenoiseEnabled(true);
-```
-
-**Trường hợp đặc biệt:** Đối với các bản quét độ phân giải cực thấp (dưới 150 dpi), denoising mạnh có thể xóa bỏ các ký tự mờ. Trong những trường hợp này, bạn có thể giảm mức `setDenoiseLevel` (mặc định là medium) hoặc bỏ qua bước này hoàn toàn.
-
----
-
-## Điều chỉnh Ngưỡng Binarization để tăng độ tương phản
-
-Binarization chuyển ảnh xám thành đen‑trắng, tăng độ tương phản giữa mực và giấy. Giá trị ngưỡng (0‑255) quyết định điểm cắt. Giá trị 180 hoạt động tốt cho hầu hết các bản quét sạch, nhưng bạn có thể cần điều chỉnh.
+Sau khi ảnh đã được làm sạch, chúng ta cuối cùng yêu cầu Aspose OCR nhận dạng văn bản.
 
 ```java
-        // Step 4: Set a custom binarization threshold
-        ocrEngine.getConfig().setBinarizationThreshold(180);
-```
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
 
-*Tại sao lại là 180?* Nó đủ cao để giữ chữ đen tối trong khi biến nền sáng thành trắng, giúp engine OCR tập trung vào các ký tự thực. Nếu nguồn của bạn là tài liệu cũ phai màu, hãy thử giá trị thấp hơn như 120.
-
----
-
-## Xử lý ảnh và Trích xuất Văn bản
-
-Bây giờ engine đã sẵn sàng, chúng ta truyền đường dẫn tệp vào. Phương thức `processImage` trả về một đối tượng `OcrResult` chứa văn bản đã nhận dạng và điểm tin cậy.
-
-```java
-        // Step 5: Process the image file
-        OcrResult ocrResult = ocrEngine.processImage("YOUR_DIRECTORY/input.tif");
-```
-
-**Nếu tệp không tồn tại thì sao?** Phương thức sẽ ném ra một `IOException`. Trong mã production, bạn nên bọc lời gọi này trong khối try‑catch và ghi lại thông báo lỗi thân thiện.
-
----
-
-## Xác minh Kết quả
-
-Cuối cùng, chúng ta in chuỗi đã trích xuất ra console. Đây là nơi bạn có thể thấy liệu tiền xử lý đã thực sự giúp ích hay chưa.
-
-```java
-        // Step 6: Output the recognized text
-        System.out.println("=== OCR Result ===");
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
         System.out.println(ocrResult.getText());
     }
 }
 ```
 
-Kết quả mong đợi (rút gọn để ngắn gọn):
-
-```
-=== OCR Result ===
-The quick brown fox jumps over the lazy dog.
-```
-
-Nếu kết quả vẫn chứa các ký tự rác, hãy xem lại ngưỡng hoặc cân nhắc áp dụng bộ lọc tùy chỉnh (ví dụ: mở rộng hình thái) trước khi đưa ảnh vào Aspose OCR.
+Lệnh `recognize()` nội bộ sẽ áp dụng pipeline tiền xử lý mà chúng ta đã cấu hình, sau đó thực hiện phân đoạn ký tự và nhận dạng. Kết quả là một chuỗi văn bản thuần túy mà bạn có thể đưa vào các quy trình tiếp theo—đánh chỉ mục tìm kiếm, tự động nhập dữ liệu, bất cứ gì bạn muốn.
 
 ---
 
-## Cách Trích xuất Văn bản từ Ảnh bằng Aspose OCR
+## Cách tiền xử lý OCR – Những sai lầm thường gặp & Trường hợp đặc biệt
 
-Mã trên là một **java OCR example** minh họa toàn bộ quy trình—từ tải ảnh đến in ra văn bản sạch. Vì tất cả các bước tiền xử lý được quản lý qua đối tượng `Config`, bạn có thể bật hoặc tắt các bước riêng lẻ mà không cần viết lại logic cốt lõi.
+### 1. Kích thước ảnh quan trọng
+Các ảnh rất lớn (ví dụ > 5 MP) có thể gây áp lực bộ nhớ. Nếu bạn gặp `OutOfMemoryError`, hãy thu nhỏ ảnh trước bằng cách dùng `processingOptions.setResizeFactor(0.5f)`.
 
-**Danh sách nhanh các bước cần kiểm tra:**
+### 2. Màu vs. Đen trắng
+Aspose OCR hoạt động tốt nhất với ảnh đen trắng. Nếu nguồn ảnh của bạn có màu, hãy bật `processingOptions.setConvertToGrayscale(true)` trước khi deskew.
 
-1. **Load** ảnh bằng `processImage`.  
-2. **Enable** `Deskew` và `Denoise` nếu nguồn là tài liệu quét.  
-3. **Tune** `BinarizationThreshold` dựa trên quan sát trực quan.  
-4. **Read** `ocrResult.getText()` và lưu nó ở nơi bạn cần—cơ sở dữ liệu, tệp, hoặc UI.
+### 3. PDF đa trang
+Khi làm việc với PDF, hãy trích xuất mỗi trang thành ảnh và chạy cùng một pipeline trong một vòng lặp. API cung cấp `PdfImageExtractor` cho mục đích này.
 
----
-
-## Mẹo Cải thiện Độ chính xác OCR trong Java
-
-- **Resolution matters:** Hãy quét với ít nhất 300 dpi. DPI cao hơn cung cấp cho engine nhiều dữ liệu pixel hơn.  
-- **Color vs. grayscale:** Chuyển các bản quét màu sang grayscale trước khi xử lý; giảm thời gian xử lý mà không ảnh hưởng đến độ chính xác.  
-- **Batch processing:** Nếu bạn có hàng chục tệp, hãy tái sử dụng một thể hiện `OcrEngine` duy nhất—tạo mới liên tục sẽ gây tốn tài nguyên.  
-- **Language packs:** Aspose OCR hỗ trợ nhiều ngôn ngữ; đặt `ocrEngine.getConfig().setLanguage(OcrLanguage.English)` (hoặc ngôn ngữ khác) để cải thiện nhận dạng cho văn bản không phải tiếng Anh.
-
----
-
-## Chuyển Văn bản Ảnh Quét thành Chuỗi Có Thể Chỉnh sửa
-
-Khi đã có chuỗi thô, bạn có thể muốn làm sạch hơn—loại bỏ ngắt dòng, chuẩn hoá khoảng trắng, hoặc áp dụng kiểm tra chính tả. Các phương thức `String` của Java và thư viện như Apache Commons Text giúp việc này trở nên dễ dàng.
+### 4. Hỗ trợ ngôn ngữ
+Nếu văn bản của bạn không phải tiếng Anh, hãy đặt ngôn ngữ một cách rõ ràng:
 
 ```java
-String cleaned = ocrResult.getText()
-                          .replaceAll("\\s+", " ")
-                          .trim();
-System.out.println("Cleaned text: " + cleaned);
+ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-Bây giờ văn bản đã sẵn sàng để lưu dưới dạng tệp `.txt`, chèn vào PDF, hoặc đưa vào pipeline NLP tiếp theo.
+Bỏ qua bước này có thể làm giảm **improve OCR accuracy** vì engine sẽ cố gắng đoán bộ ký tự.
 
-![ví dụ OCR tiền xử lý hình ảnh](/images/preprocess-ocr-demo.png "ví dụ OCR tiền xử lý hình ảnh hiển thị đầu ra console")
+---
 
-*Ảnh chụp màn hình trên minh họa đầu ra console sau khi chạy toàn bộ chương trình Java.*
+## Ví dụ hoàn chỉnh (Sẵn sàng sao chép‑dán)
+
+Dưới đây là chương trình đầy đủ, sẵn sàng biên dịch và chạy. Thay thế đường dẫn placeholder bằng vị trí ảnh thực tế của bạn.
+
+```java
+import com.aspose.ocr.*;
+
+public class PreprocessExample {
+    public static void main(String[] args) throws Exception {
+
+        // Step 1: Create an OCR engine instance
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load the image to be processed
+        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/skewed-noisy.jpg"));
+
+        // Step 3: Configure image preprocessing options
+        ImageProcessingOptions processingOptions = ocrEngine.getImageProcessingOptions();
+        processingOptions.setDeskew(true);          // straighten rotated text
+        processingOptions.setDespeckle(true);      // remove isolated pixels
+        processingOptions.setContrastBoost(1.3f);   // boost contrast by 30%
+        // Optional: processingOptions.setConvertToGrayscale(true);
+
+        // Step 4: Run OCR on the preprocessed image
+        OcrResult ocrResult = ocrEngine.recognize();
+
+        // Step 5: Output the recognized text
+        System.out.println("=== Extracted Text ===");
+        System.out.println(ocrResult.getText());
+    }
+}
+```
+
+**Kết quả mong đợi** (rút gọn để tiện):
+
+```
+=== Extracted Text ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+...
+```
+
+Nếu bạn thấy các ký tự lộn xộn, hãy kiểm tra lại đường dẫn ảnh và chắc chắn rằng các cờ tiền xử lý phù hợp với điều kiện của ảnh.
+
+---
+
+## Tóm tắt bằng hình ảnh
+
+<img src="preprocess-ocr.png" alt="preprocess image OCR demonstration" style="max-width:100%;">
+
+Sơ đồ minh họa luồng: **Load → Deskew → Despeckle → Contrast Boost → Recognize → Extract Text**. Mỗi khối tương ứng với các đoạn mã ở trên.
 
 ---
 
 ## Kết luận
 
-Bạn vừa học cách **tiền xử lý OCR hình ảnh** trong Java, bật deskew, denoise và binarization để **extract text from image** với độ tin cậy cao hơn nhiều. Bằng cách tinh chỉnh một vài cờ cấu hình, bạn có thể **improve OCR accuracy**, xử lý các bản quét khó, và cuối cùng **convert scanned image text** thành các chuỗi sạch, có thể tìm kiếm—tất cả trong một **java OCR example** gọn gàng, tự chứa.
+Chúng ta vừa đi qua một cách thực tế để **preprocess image OCR** trong Java bằng Aspose OCR, bao gồm mọi thứ từ cài đặt dự án đến tinh chỉnh các tùy chọn giúp **cải thiện độ chính xác của OCR**. Bằng cách áp dụng deskew, despeckle và contrast‑boost, bạn biến một JPEG nhiễu, lệch góc thành văn bản sạch, có thể tìm kiếm—đúng những gì bạn cần khi muốn **extract text image** cho các ứng dụng downstream.
 
-Sẵn sàng cho bước tiếp theo? Hãy đưa văn bản đã trích xuất vào cơ sở dữ liệu, tạo PDF có thể tìm kiếm bằng Aspose PDF, hoặc thử nghiệm hỗ trợ đa ngôn ngữ. Quy trình tiền xử lý này cũng hoạt động với PDF, PNG và JPEG, vì vậy bạn có thể mở rộng mẫu này cho bất kỳ dự án số hoá tài liệu nào.
+Tiếp theo bạn muốn làm gì? Hãy thử nghiệm các tính năng tiền xử lý khác như `setBinarizationThreshold` cho ảnh nhị phân, hoặc xâu chuỗi nhiều ảnh thành một batch job. Bạn cũng có thể tích hợp kết quả với Apache Tika để đánh chỉ mục, hoặc đưa vào mô hình ngôn ngữ để phân tích cảm xúc. Khi đã nắm vững các nguyên tắc cơ bản của **how to preprocess OCR**, mọi khả năng đều mở ra.
 
-Chúc lập trình vui vẻ, và hy vọng kết quả OCR của bạn luôn trong suốt như pha lê!
+Có câu hỏi về loại file hay ngôn ngữ cụ thể? Hãy để lại bình luận bên dưới, và chúc bạn coding vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

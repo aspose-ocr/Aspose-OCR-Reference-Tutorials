@@ -1,33 +1,50 @@
 ---
-title: Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
-linktitle: Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
-second_title: Aspose.OCR .NET API'si
-description: Aspose.OCR for .NET'in potansiyelini ortaya çıkarın. Resimlerdeki metni kolayca tanıyın ve sonuçları çeşitli belge formatlarında kaydedin.
-weight: 10
+description: Aspose.OCR for .NET ile OCR sonuçlarını nasıl kaydedeceğinizi öğrenin
+  – görüntüyü PDF'ye dönüştürün, PNG'den metin çıkarın ve tanınan metni DOCX, TXT,
+  PDF veya XLSX olarak kaydedin.
+linktitle: How to Save OCR Result as Document
+second_title: Aspose.OCR .NET API
+title: OCR Sonucunu Belge Olarak Kaydetme
 url: /tr/net/ocr-settings/save-result-as-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sonucu OCR Görüntü Tanıma'da Belge Olarak Kaydet
+# OCR Sonucunu Belge Olarak Kaydetme
 
-## giriiş
+## Giriş
 
-Aspose.OCR for .NET ile optik karakter tanımanın (OCR) heyecan verici dünyasına hoş geldiniz! Bu kapsamlı eğitimde, resimlerdeki metni tanımak için Aspose.OCR kullanmanın inceliklerini inceleyeceğiz ve sonuçların çeşitli belge formatlarında nasıl kaydedileceğini göstereceğiz.
+Bu öğreticide Aspose.OCR for .NET kullanarak **OCR sonucunu nasıl kaydedeceğinizi** keşfedeceksiniz. Bir görüntüdeki metni tanımayı, ardından bu metni DOCX, TXT, PDF ve XLSX gibi popüler belge formatlarına dönüştürmeyi adım adım göstereceğiz. Sonunda, resimlerden veri çıkarımını otomatikleştirip, bu verileri aranabilir ve düzenlenebilir dosyalar olarak saklayabileceksiniz—arşivleme, raporlama veya sonraki işlemler için mükemmel.
+
+## Hızlı Cevaplar
+- **“how to save ocr” ne anlama geliyor?** Bir görüntüden tanınan metni DOCX, PDF vb. bir dosya formatında kalıcı hale getirmeyi ifade eder.  
+- **Hangi formatlara dışa aktarabilirim?** DOCX, TXT, PDF ve XLSX kutudan çıktığı gibi desteklenir.  
+- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim kullanımı için ticari lisans gereklidir.  
+- **Görüntüyü doğrudan PDF'ye dönüştürebilir miyim?** Evet—OCR sonucunu PDF olarak kaydederek aranabilir bir PDF belge elde edebilirsiniz.  
+- **PNG destekleniyor mu?** Kesinlikle; aynı API ile **PNG** görüntülerinden metin **çıkarabilirsiniz**.
+
+## OCR Nedir ve Sonuçları Neden Belge Olarak Kaydetmeliyiz?
+
+Optik Karakter Tanıma (OCR), görüntüler içindeki basılı veya el yazısı metni makine tarafından okunabilir dizelere dönüştürür. Bu dizeleri belge olarak kaydetmek şunları yapmanızı sağlar:
+
+* Uyumluluk için aranabilir PDF'ler oluşturun.  
+* Veri analizi için elektronik tabloları (XLSX) doldurun.  
+* Düzenlenebilir raporlar (DOCX) oluşturun.  
+* Hızlı arama için düz metin günlüklerini (TXT) arşivleyin.
 
 ## Önkoşullar
 
-Bu OCR yolculuğuna çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce, şunların kurulu olduğundan emin olun:
 
--  .NET için Aspose.OCR. Aspose.OCR kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR for .NET yüklü. **[buradan](https://releases.aspose.com/ocr/net/)** indirebilirsiniz.  
+- Kaynak görüntüleri ve çıktı belgelerini tutacak bir klasör. Koddaki `dataDir` değişkenini bu klasöre işaret edecek şekilde güncelleyin.
 
--  Belge Dizini: Belgeleriniz için belirlenmiş bir dizine sahip olun ve bu dizini güncelleyin.`dataDir` buna göre sağlanan koddaki değişken.
+## Namespace'leri İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Gerekli ad alanlarını içe aktararak başlayın. Bunlar kodunuzu OCR yetenekleriyle güçlendirecek yapı taşlarıdır.
+Dosya I/O ve Aspose OCR sınıflarına erişmek için birkaç .NET namespace'ine ihtiyacımız var.
 
 ```csharp
 using System;
@@ -35,76 +52,76 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Şimdi örneği birden çok adıma ayıralım:
+### Adım 1: Aspose.OCR'ı Başlatma
 
-## Adım 1: Aspose.OCR'ı başlatın
+Çalışma dizininizin yolunu ayarlayın ve OCR motorunun bir örneğini oluşturun.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// AsposeOcr örneğini başlat
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Bu adım Aspose.OCR API'sini başlatarak ortamı hazırlar.
+### Adım 2: Görüntüyü Tanıma
 
-## Adım 2: Görüntüyü Tanıyın
+Görüntü dosyasını (ör. PNG) tanıyıcıya gönderin. Burada **metin görüntülerini tanır** ve bir `RecognitionResult` nesnesine dönüştürürüz.
 
 ```csharp
-// Resmi tanı
+// Recognize image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });
 ```
 
-Burada, belirtilen görselin içindeki metni tanımak için Aspose.OCR'ı kullanıyoruz ("sample.png"yi görsel dosyanızla değiştirin).
+### Adım 3: Sonucu Farklı Formatlarda Kaydetme
 
-## 3. Adım: Sonucu Farklı Formatlarda Kaydedin
+Şimdi tanınan metni dışa aktarıyoruz. İş akışınıza uygun formatı seçin—**görüntüyü PDF'ye dönüştürmeniz**, **PNG'den metin çıkarmanız** ya da bir elektronik tablo oluşturmanız gerekebilir.
 
 ```csharp
-// Sonucu tercih ettiğiniz formatta kaydedin
+// Save the result in your preferred format
 result.Save(RunExamples.GetDataDir_OCR() + "sample.docx", SaveFormat.Docx);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.txt", SaveFormat.Text);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx);
 ```
 
-Bu adımı ihtiyaçlarınıza göre özelleştirin. Aspose.OCR, tanınan metni DOCX, TXT, PDF ve XLSX gibi çeşitli belge formatlarında kaydetmenize olanak tanır.
+### Adım 4: Başarı Mesajını Görüntüleme
 
-## Adım 4: Başarı Mesajını Görüntüleyin
+Basit bir konsol mesajı, işlemin hatasız tamamlandığını onaylar.
 
 ```csharp
 Console.WriteLine("SaveResultAsDocument executed successfully");
 ```
 
-İşlemin herhangi bir aksama olmadan tamamlandığını bildiren basit bir onay mesajı.
+## Yaygın Tuzaklar ve İpuçları
 
-Bu adımları izleyerek Aspose.OCR for .NET'in resimlerdeki metni tanıma ve sonuçları farklı belge formatlarında kaydetme gücünden başarıyla yararlandınız.
+- **Dosya yolları:** Her zaman mutlak yollar kullanın veya `dataDir`'in bir yol ayırıcı (`\` veya `/`) ile bittiğinden emin olun.  
+- **Görüntü kalitesi:** Daha yüksek çözünürlüklü görüntüler doğruluğu artırır; daha iyi sonuçlar için ön işleme (eğikliği düzeltme, gürültü azaltma) düşünün.  
+- **Lisans modu:** Değerlendirme modunda çıktı bir filigran içerebilir; bunu kaldırmak için geçerli bir lisans uygulayın.
 
-## Çözüm
+## Sıkça Sorulan Sorular
 
-Sonuç olarak Aspose.OCR for .NET, görüntülerde metin tanıma konusunda birçok olanak sunuyor. İster veri çıkarıyor olun ister aranabilir belgeler oluşturuyor olun Aspose.OCR, sezgisel API'si ile süreci basitleştirir.
+**S1. Aspose.OCR farklı görüntü formatlarıyla uyumlu mu?**  
+C1: Evet, Aspose.OCR geniş bir görüntü formatı yelpazesini destekler, OCR görevlerinizde esneklik sağlar.
 
-## SSS'ler
+**S2. Daha iyi doğruluk için tanıma ayarlarını özelleştirebilir miyim?**  
+C2: Kesinlikle! Aspose.OCR, belirli gereksinimlerinize göre OCR sürecini ince ayar yapmanızı sağlayan `RecognitionSettings` sunar.
 
-### S1. Aspose.OCR farklı görüntü formatlarıyla uyumlu mu?
+**S3. Ücretsiz deneme mevcut mu?**  
+C3: Evet, ücretsiz deneme ile **[buradan](https://releases.aspose.com/)** başlayabilirsiniz.
 
-Cevap1: Evet, Aspose.OCR çok çeşitli görüntü formatlarını destekleyerek OCR görevlerinizde esneklik sağlar.
+**S4. Aspose.OCR için geçici bir lisans nasıl alabilirim?**  
+C4: Geçici lisansları **[buradan](https://purchase.aspose.com/temporary-license/)** alabilirsiniz.
 
-### S2: Daha iyi doğruluk için tanıma ayarlarını özelleştirebilir miyim?
+**S5. Yardım almak ya da toplulukla iletişime geçmek için nereden ulaşabilirim?**  
+C5: Destek ve tartışmalar için **[Aspose Forum](https://forum.aspose.com/c/ocr/16)** üzerinden Aspose.OCR topluluğuna katılın.
 
-A2: Kesinlikle! Aspose.OCR, OCR sürecine özel gereksinimlerinize göre ince ayar yapmak için tanıma ayarları sağlar.
+---
 
-### S3: Ücretsiz deneme sürümü mevcut mu?
+**Son Güncelleme:** 2026-02-12  
+**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
+**Yazar:** Aspose  
 
- C3: Evet, ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
-
-### S4: Aspose.OCR için nasıl geçici lisans alabilirim?
-
- Cevap4: Geçici lisanslar alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Nereden yardım isteyebilirim veya toplulukla bağlantı kurabilirim?
-
- Cevap5: Aspose.OCR topluluğuna şu adresten katılın:[Aspose Forumu](https://forum.aspose.com/c/ocr/16) Destek ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
