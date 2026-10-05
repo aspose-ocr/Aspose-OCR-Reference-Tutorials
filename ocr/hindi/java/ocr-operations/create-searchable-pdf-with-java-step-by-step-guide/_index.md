@@ -24,20 +24,6 @@ title: जावा के साथ खोज योग्य PDF बनाए�
 url: /hi/java/ocr-operations/create-searchable-pdf-with-java-step-by-step-guide/
 ---
 
-able PDF". We'll keep as is.
-
-Paragraph: "Ever needed to **create searchable PDF** from a paper scan but weren't sure where to start? ..." Translate.
-
-We'll go step by step.
-
-Make sure to keep markdown formatting like **bold**.
-
-Let's craft translation.
-
-Be careful with links: there are none besides code block placeholders. There's a markdown link in the "Pro tip" maybe not. Actually there is no link.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

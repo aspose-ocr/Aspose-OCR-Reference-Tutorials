@@ -21,7 +21,7 @@ title: Java에서 OCR 사용 방법 – Aspose를 이용한 병렬 처리
 url: /ko/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

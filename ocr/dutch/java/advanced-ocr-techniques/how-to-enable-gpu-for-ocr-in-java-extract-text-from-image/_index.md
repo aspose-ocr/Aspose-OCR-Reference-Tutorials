@@ -24,8 +24,6 @@ title: Hoe GPU in te schakelen voor OCR in Java – Tekst uit afbeelding extrahe
 url: /nl/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

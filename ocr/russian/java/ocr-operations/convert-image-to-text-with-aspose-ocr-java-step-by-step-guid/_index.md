@@ -24,12 +24,6 @@ title: Преобразование изображения в текст с по
 url: /ru/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/
 ---
 
-URL unchanged. So alt text "convert image to text example" -> "пример конвертации изображения в текст". Title same.
-
-Also table content: translate.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

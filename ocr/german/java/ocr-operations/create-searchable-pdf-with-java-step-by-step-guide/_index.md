@@ -24,8 +24,6 @@ title: Erstelle durchsuchbare PDF mit Java – Schritt‑für‑Schritt‑Anleit
 url: /de/java/ocr-operations/create-searchable-pdf-with-java-step-by-step-guide/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

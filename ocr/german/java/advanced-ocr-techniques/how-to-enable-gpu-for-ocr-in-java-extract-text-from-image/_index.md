@@ -24,10 +24,6 @@ title: Wie man GPU für OCR in Java aktiviert – Text aus Bild extrahieren
 url: /de/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/
 ---
 
-translate bullet points etc.
-
-Now produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

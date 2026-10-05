@@ -19,16 +19,6 @@ title: JavaでOCRを使用する方法 – Asposeによる並列処理
 url: /ja/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-.
-
-Tables: translate column headers and content.
-
-Code block placeholders remain unchanged.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

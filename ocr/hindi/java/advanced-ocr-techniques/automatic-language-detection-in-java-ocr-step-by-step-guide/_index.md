@@ -22,7 +22,7 @@ title: जावा OCR में स्वचालित भाषा पह�
 url: /hi/java/advanced-ocr-techniques/automatic-language-detection-in-java-ocr-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

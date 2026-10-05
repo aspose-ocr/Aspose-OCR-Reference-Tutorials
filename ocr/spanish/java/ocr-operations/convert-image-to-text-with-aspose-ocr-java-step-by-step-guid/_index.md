@@ -23,7 +23,7 @@ title: Convertir imagen a texto con Aspose OCR Java – Guía paso a paso
 url: /es/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/
 ---
 
-produce final content with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

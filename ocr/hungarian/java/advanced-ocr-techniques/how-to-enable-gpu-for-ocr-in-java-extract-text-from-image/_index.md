@@ -25,9 +25,7 @@ title: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Szöveg kinyerése
 url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/
 ---
 
-, file paths. We kept `high-res-photo.jpg` unchanged. Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

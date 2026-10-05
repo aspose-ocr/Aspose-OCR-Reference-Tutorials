@@ -21,28 +21,6 @@ title: Cara Menggunakan OCR di Java – Pemrosesan Paralel dengan Aspose
 url: /id/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-Add Aspose OCR". Translate.
-
-Then "### Why this matters". Translate.
-
-Paragraph.
-
-Then "### How to do it". Translate.
-
-Then code placeholders.
-
-Then blockquote pro tip.
-
-Then next sections similarly.
-
-We must translate all text, including table content.
-
-Let's translate step by step.
-
-Will keep code block placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

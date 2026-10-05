@@ -21,11 +21,7 @@ title: जावा में OCR का उपयोग कैसे करे�
 url: /hi/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-blockquote "What you’ll walk away with" translate. Keep blockquote formatting.
-
-Also ensure we keep any markdown syntax like **bold** unchanged where English phrase inside. For Hindi translation, we can keep bold for Hindi text as needed.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

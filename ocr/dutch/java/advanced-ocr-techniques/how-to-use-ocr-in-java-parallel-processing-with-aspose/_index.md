@@ -23,12 +23,6 @@ title: Hoe OCR te gebruiken in Java – Parallelle verwerking met Aspose
 url: /nl/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-gebruiken*"
-
-Make sure to keep asterisks.
-
-Now produce final content with all sections.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

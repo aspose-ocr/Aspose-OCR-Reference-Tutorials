@@ -24,11 +24,7 @@ title: Konwertuj obraz na tekst przy użyciu Aspose OCR Java – przewodnik krok
 url: /pl/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/
 ---
 
--button >}}
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

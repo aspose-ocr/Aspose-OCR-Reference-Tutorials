@@ -22,13 +22,7 @@ title: تحويل الصورة إلى نص باستخدام Aspose OCR Java – 
 url: /ar/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/
 ---
 
--backtop-button >}}
-
-All good.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,16 +24,6 @@ title: Kép szöveggé alakítása Aspose OCR Java segítségével – Lépésr�
 url: /hu/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/
 ---
 
-Also translate bullet points, etc.
-
-Let's produce final content.
-
-Make sure not to translate URLs like https://downloads.aspose.com/ocr/java.
-
-Also not to translate file names like typed-note.png.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

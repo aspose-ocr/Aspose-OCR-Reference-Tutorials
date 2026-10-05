@@ -23,7 +23,7 @@ title: Skapa sökbar PDF med Java – Steg‑för‑steg‑guide
 url: /sv/java/ocr-operations/create-searchable-pdf-with-java-step-by-step-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

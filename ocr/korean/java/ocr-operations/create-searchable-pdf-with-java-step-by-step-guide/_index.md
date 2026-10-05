@@ -22,18 +22,6 @@ title: Java로 검색 가능한 PDF 만들기 – 단계별 가이드
 url: /ko/java/ocr-operations/create-searchable-pdf-with-java-step-by-step-guide/
 ---
 
-/products-backtop-button >}}
-
-All preserved.
-
-Now ensure we didn't miss any code block placeholders: CODE_BLOCK_0-10. Keep them unchanged.
-
-Check for any markdown links: none.
-
-Check for any other shortcodes: only the opening and closing ones.
-
-Now produce final content with translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

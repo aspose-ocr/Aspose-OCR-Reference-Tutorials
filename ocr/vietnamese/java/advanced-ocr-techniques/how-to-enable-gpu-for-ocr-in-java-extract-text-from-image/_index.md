@@ -25,15 +25,7 @@ title: Cách bật GPU cho OCR trong Java – Trích xuất văn bản từ hìn
 url: /vi/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/
 ---
 
-/products/products-backtop-button >}}
-
-All unchanged.
-
-Make sure we didn't miss any markdown links. There are none besides maybe none.
-
-Check for any other code placeholders: CODE_BLOCK_0 ... CODE_BLOCK_8. Keep them.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

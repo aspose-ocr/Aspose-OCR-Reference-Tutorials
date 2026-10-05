@@ -23,10 +23,6 @@ title: Criar PDF pesquisável com Java – Guia passo a passo
 url: /pt/java/ocr-operations/create-searchable-pdf-with-java-step-by-step-guide/
 ---
 
-them.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

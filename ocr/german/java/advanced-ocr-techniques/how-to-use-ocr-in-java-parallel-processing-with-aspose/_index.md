@@ -23,22 +23,6 @@ title: Wie man OCR in Java verwendet – Parallelverarbeitung mit Aspose
 url: /de/java/advanced-ocr-techniques/how-to-use-ocr-in-java-parallel-processing-with-aspose/
 ---
 
-sections: translate bullet points, etc.
-
-Make sure to keep markdown formatting.
-
-Also note "## Recap – What We Covered" translate.
-
-"## Next Steps" translate.
-
-"### Happy coding!" translate maybe "### Viel Spaß beim Coden!"
-
-But keep heading level.
-
-Also final shortcodes.
-
-Let's construct final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,13 +20,7 @@ title: Java OCR 自动语言检测——逐步指南
 url: /zh/java/advanced-ocr-techniques/automatic-language-detection-in-java-ocr-step-by-step-guide/
 ---
 
-**automatic language detection** 的强大功能！"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
