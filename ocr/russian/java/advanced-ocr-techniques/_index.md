@@ -127,6 +127,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Узнайте, как активировать GPU для ускорения OCR в Java с помощью Aspose.OCR, следуя пошаговому полному руководству.
 ### [Как выполнить OCR изображения в Java – Рукописные заметки с проверкой орфографии](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Извлекайте текст из рукописных заметок в Java с помощью Aspose.OCR и проверяйте орфографию для повышения точности.
+### [Как использовать OCR в Java – Параллельная обработка с Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Узнайте, как ускорить OCR в Java с помощью параллельной обработки в Aspose.OCR, повышая производительность и точность распознавания.
+### [Как включить GPU для OCR в Java – Извлечение текста из изображения](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Узнайте, как активировать GPU в Aspose.OCR для Java, чтобы ускорить извлечение текста из изображений и повысить производительность.
+### [Автоматическое определение языка в OCR на Java – пошаговое руководство](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Узнайте, как автоматически определять язык текста при распознавании в Aspose.OCR для Java, повышая точность и удобство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -111,6 +111,10 @@ Java 애플리케이션에 OCR을 통합하는 전체 과정을 단계별로 안
 Aspose OCR for Java를 사용해 이미지 파일을 HTML로 변환하는 전체 과정과 단계별 구현 방법을 안내합니다.
 ### [Java에서 OCR 수행하기 – 전체 Aspose OCR 튜토리얼](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Aspose OCR을 사용해 Java에서 OCR을 전체적으로 구현하는 단계별 가이드를 제공합니다.
+### [Aspose OCR Java로 이미지 텍스트 변환 – 단계별 가이드](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Aspose OCR Java를 사용해 이미지 파일을 텍스트로 변환하는 과정을 단계별로 안내합니다.
+### [Java로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-with-java-step-by-step-guide/)
+Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 생성하는 전체 과정을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

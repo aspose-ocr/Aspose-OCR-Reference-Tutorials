@@ -132,6 +132,11 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีใช้ Aspose OCR เพื่อประมวลผลบันทึกมือเขียนและแก้ไขข้อผิดพลาดในการจดจำข้อความ
 ### [สร้าง PDF ที่ค้นหาได้ – คู่มือ Java เพื่อแปลง PDF สแกน](./create-searchable-pdf-java-guide-to-convert-scanned-pdfs/)
 เรียนรู้วิธีแปลง PDF สแกนเป็น PDF ที่ค้นหาได้ใน Java ด้วย Aspose.OCR อย่างง่ายดายและแม่นยำ
+### [วิธีใช้ OCR ใน Java – การประมวลผลแบบขนานกับ Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+### [การตรวจจับภาษาที่อัตโนมัติใน OCR ของ Java – คู่มือขั้นตอนต่อขั้นตอน](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+เรียนรู้วิธีให้ Aspose.OCR ตรวจจับภาษาของข้อความโดยอัตโนมัติใน Java เพื่อเพิ่มความแม่นยำของการแยกข้อความ
+### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – ดึงข้อความจากรูปภาพ](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+เรียนรู้วิธีใช้ GPU เพื่อเพิ่มความเร็วของ OCR ใน Java และดึงข้อความจากรูปภาพได้อย่างมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

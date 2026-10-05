@@ -104,6 +104,10 @@ Ismerd meg, hogyan alkalmazhatod az OCR-t Java-ban részletes, könnyen követhe
 Fedezd fel, hogyan konvertálhatod a képeket HTML formátumba az Aspose OCR Java segítségével, lépésről lépésre útmutató.
 ### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes Aspose OCR útmutató](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Fedezd fel, hogyan használhatod az Aspose OCR-t Java-ban a teljes körű szövegfelismeréshez lépésről lépésre.
+### [Kép szöveggé konvertálása Aspose OCR Java‑val – Lépésről lépésre útmutató](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Fedezd fel, hogyan konvertálhatsz képeket szöveggé az Aspose OCR Java segítségével, részletes lépésekkel.
+### [Kereshető PDF létrehozása Java-val – Lépésről lépésre útmutató](./create-searchable-pdf-with-java-step-by-step-guide/)
+Ismerd meg, hogyan hozhatsz létre kereshető PDF-et Java és Aspose.OCR segítségével, részletes lépésekkel.
 
 ## Gyakran Ismételt Kérdések
 

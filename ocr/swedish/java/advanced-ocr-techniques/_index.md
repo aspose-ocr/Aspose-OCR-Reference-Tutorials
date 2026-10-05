@@ -127,6 +127,12 @@ Utnyttja en fast trådpool i Java för att köra OCR parallellt på PNG-bilder o
 Optimera bildens kontrast för bättre OCR med vår kompletta Java-guide. Förbättra textigenkänning och extrahera text effektivt.
 ### [Skapa OCR-motor i Java – Känn igen text från stora bilder](./create-ocr-engine-java-recognize-text-from-large-images/)
 Skapa en OCR-motor i Java för att känna igen text i stora bilder med hög noggrannhet och prestanda.
+### [Hur man använder OCR i Java – Parallell bearbetning med Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Utnyttja parallell bearbetning för OCR i Java med Aspose för snabbare och effektivare textextraktion.
+### [Hur man aktiverar GPU för OCR i Java – Extrahera text från bild](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Utnyttja GPU för att påskynda OCR i Java med Aspose. Extrahera text från bilder snabbt och exakt.
+### [Automatisk språkdetektering i Java OCR – Steg‑för‑steg‑guide](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Lär dig hur du automatiskt identifierar språk i OCR med Aspose för Java. Följ vår steg‑för‑steg‑guide för exakt textigenkänning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

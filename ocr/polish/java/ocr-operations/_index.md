@@ -113,6 +113,10 @@ Pełny przewodnik po używaniu OCR w Javie, krok po kroku, obejmujący wszystkie
 Odblokuj moc konwersji obrazu do HTML w Javie z Aspose.OCR. Kompletny przewodnik krok po kroku.
 ### [Jak wykonać OCR w Javie – Kompletny samouczek Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Pełny przewodnik po wykonywaniu OCR w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Konwertowanie obrazu na tekst przy użyciu Aspose OCR Java – przewodnik krok po kroku](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Odblokuj moc konwersji obrazów na tekst w Javie z Aspose OCR. Przewodnik krok po kroku zapewnia szybkie i dokładne wyniki.
+### [Tworzenie przeszukiwalnego PDF w Javie – przewodnik krok po kroku](./create-searchable-pdf-with-java-step-by-step-guide/)
+Kompletny przewodnik, jak w Javie stworzyć przeszukiwalny plik PDF przy użyciu Aspose.OCR.
 
 ## Najczęściej zadawane pytania
 

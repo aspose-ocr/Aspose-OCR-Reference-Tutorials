@@ -127,6 +127,12 @@ Aspose OCR का उपयोग करके जावा में छवि 
 Aspose OCR का उपयोग करके जावा में छवि से सटीक टेक्स्ट निकालें। सरल चरण‑बद्ध निर्देशों के साथ तेज़ी से लागू करें।
 ### [Aspose OCR के साथ छवि में भाषा का पता लगाएँ – जावा ट्यूटोरियल](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Aspose OCR के साथ जावा में छवि की भाषा पहचानें और सटीक रूप से निकालें। तेज़ और आसान चरण‑बद्ध गाइड।
+### [जावा में OCR का उपयोग कैसे करें – Aspose के साथ समानांतर प्रोसेसिंग](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Aspose के साथ जावा में समानांतर OCR प्रोसेसिंग लागू करके तेज़ और कुशल पाठ निष्कर्षण प्राप्त करें।
+### [जावा में OCR के लिए GPU सक्षम करना – छवि से टेक्स्ट निकालें](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+जावा में Aspose.OCR के साथ GPU का उपयोग करके तेज़ और सटीक टेक्स्ट निष्कर्षण कैसे करें।
+### [जावा OCR में स्वचालित भाषा पहचान – चरण‑दर‑चरण गाइड](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+जावा में Aspose.OCR के साथ स्वचालित भाषा पहचान को लागू करके विभिन्न भाषाओं के पाठ को सटीक रूप से निकालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

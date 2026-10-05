@@ -116,6 +116,12 @@ A: TIFF görüntülerini parçalar halinde işleyin veya bellek kullanımını o
 {{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR ile Görüntü Metni Tanıma – Tam Java OCR Öğreticisi](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Java'da Aspose OCR kullanarak görüntüden metin tanıma sürecini adım adım öğrenin.
+### [Aspose OCR Java ile Görüntüyü Metne Dönüştürme – Adım Adım Kılavuz](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Aspose OCR Java ile görüntüyü metne dönüştürme adımlarını öğrenin ve doğru OCR sonuçları elde edin.
+
+### [Java ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-java-step-by-step-guide/)
+Java ve Aspose.OCR kullanarak PDF'leri aranabilir hâle getirme sürecini adım adım öğrenin.
+
 ### [Java'da OCR Nasıl Kullanılır – Tam Adım Adım Kılavuz](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
 Java'da OCR'ı baştan sona uygulayarak metin çıkarma sürecini adım adım öğrenin.
 

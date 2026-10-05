@@ -125,6 +125,12 @@ Apprenez à redresser les images avant l'OCR avec Aspose.OCR pour Java grâce à
 Apprenez à extraire du texte d'une image avec Aspose OCR en Java grâce à un guide complet et simple à suivre.
 ### [Détection de la langue d'une image avec Aspose OCR – Tutoriel Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Détectez automatiquement la langue du texte dans une image en Java avec Aspose OCR. Guide étape par étape pour une extraction précise.
+### [Comment utiliser l'OCR en Java – Traitement parallèle avec Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Apprenez à exploiter le traitement parallèle pour accélérer l'OCR en Java avec Aspose.OCR, améliorant les performances de vos applications.
+### [Comment activer le GPU pour l'OCR en Java – Extraire du texte à partir d'une image](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Apprenez à activer l'accélération GPU avec Aspose.OCR pour Java afin d'améliorer les performances d'extraction de texte à partir d'images.
+### [Détection automatique de la langue en OCR Java – Guide étape par étape](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Apprenez à détecter automatiquement la langue lors de l'OCR en Java avec Aspose.OCR grâce à un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

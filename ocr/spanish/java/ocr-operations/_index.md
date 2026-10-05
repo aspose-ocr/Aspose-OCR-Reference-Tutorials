@@ -114,6 +114,10 @@ Aprende a implementar OCR en Java con una guía paso a paso que cubre configurac
 Desbloquea la conversión de imágenes a HTML usando Aspose OCR para Java. Sigue este tutorial paso a paso.
 ### [Cómo realizar OCR en Java – Tutorial completo de Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Desbloquea la realización completa de OCR en Java con Aspose OCR. Sigue este tutorial paso a paso.
+### [Crear PDF buscable con Java – Guía paso a paso](./create-searchable-pdf-with-java-step-by-step-guide/)
+Desbloquea la creación de PDFs buscables con Java usando Aspose.OCR. Sigue esta guía paso a paso.
+### [Convertir imagen a texto con Aspose OCR Java – Guía paso a paso](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Desbloquea la conversión de imágenes a texto con Aspose OCR para Java. Sigue esta guía paso a paso.
 
 ## Preguntas frecuentes
 

@@ -124,7 +124,12 @@ Dowiedz się, jak wyodrębnić tekst z obrazu w Javie przy użyciu Aspose OCR, z
 
 ### [Wykrywanie języka obrazu przy użyciu Aspose OCR – samouczek Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Dowiedz się, jak wykrywać język tekstu na obrazie przy użyciu Aspose OCR w Javie, zapewniając precyzyjną identyfikację języka.
-
+### [Jak używać OCR w Javie – przetwarzanie równoległe z Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Wykorzystaj przetwarzanie równoległe, aby przyspieszyć OCR w Javie przy użyciu Aspose.OCR. Łatwa integracja i wysoką wydajność.
+### [Jak włączyć GPU dla OCR w Javie – wyodrębnić tekst z obrazu](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Skorzystaj z przyspieszenia GPU, aby przyspieszyć OCR w Javie i efektywnie wyodrębniać tekst z obrazów.
+### [Automatyczne wykrywanie języka w OCR w Javie – przewodnik krok po kroku](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Poznaj, jak automatycznie wykrywać język tekstu podczas OCR w Javie, zwiększając dokładność i wydajność przetwarzania.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

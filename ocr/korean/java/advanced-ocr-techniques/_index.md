@@ -129,6 +129,12 @@ Java에서 OCR 정확도를 높기 위해 이미지 기울기를 교정하는 �
 Aspose OCR을 활용해 Java에서 이미지의 텍스트를 손쉽게 추출하는 단계별 가이드를 제공합니다.
 ### [Java용 Aspose.OCR을 사용한 이미지 언어 감지 – Java 튜토리얼](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Aspose OCR을 활용해 Java에서 이미지의 언어를 자동으로 감지하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose와 병렬 처리로 OCR 사용](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Aspose OCR을 활용해 Java에서 병렬 처리로 이미지 텍스트 추출 속도를 높이는 방법을 단계별로 안내합니다.
+### [Java에서 GPU를 사용하도록 OCR 활성화하기 – 이미지에서 텍스트 추출](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Java용 Aspose.OCR에서 GPU 가속을 활용해 이미지 텍스트 추출 속도와 정확성을 높이는 방법을 단계별로 안내합니다.
+### [Java OCR에서 자동 언어 감지 – 단계별 가이드](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Java용 Aspose.OCR을 사용하여 이미지의 언어를 자동으로 감지하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

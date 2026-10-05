@@ -113,6 +113,10 @@ Apprenez à utiliser l'OCR en Java grâce à ce guide complet, étape par étape
 Apprenez à convertir des images en HTML avec Aspose OCR pour Java grâce à ce guide complet étape par étape.
 ### [Comment réaliser l'OCR en Java – Tutoriel complet Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Apprenez à réaliser l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Convertir une image en texte avec Aspose OCR Java – Guide étape par étape](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Apprenez à convertir des images en texte avec Aspose OCR Java grâce à ce guide complet étape par étape.
+### [Créer un PDF consultable avec Java – Guide étape par étape](./create-searchable-pdf-with-java-step-by-step-guide/)
+Apprenez à créer un PDF consultable en Java grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 

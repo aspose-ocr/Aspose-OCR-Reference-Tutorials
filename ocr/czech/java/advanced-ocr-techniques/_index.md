@@ -129,6 +129,12 @@ Naučte se, jak pomocí Aspose.OCR v Javě vyrovnat zkreslené obrázky pro pře
 Kompletní průvodce pro extrakci textu z obrázků pomocí Aspose OCR v Javě.
 ### [Detekce jazyka obrázku pomocí Aspose OCR – Java tutoriál](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Detekujte jazyk textu v obrázku pomocí Aspose OCR v Javě a získejte přesné výsledky.
+### [Jak používat OCR v Javě – paralelní zpracování s Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+Zrychlete OCR v Javě pomocí paralelního zpracování s Aspose a dosáhněte vyšší propustnosti při extrakci textu.
+### [Jak povolit GPU pro OCR v Javě – Extrahovat text z obrázku](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+Zrychlete OCR v Javě využitím GPU a extrahujte text z obrázků s vysokou rychlostí a přesností.
+### [Automatické rozpoznávání jazyka v Java OCR – krok za krokem](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
+Zrychlete OCR v Javě pomocí automatického rozpoznávání jazyka. Podrobný průvodce krok za krokem pro přesnou extrakci textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

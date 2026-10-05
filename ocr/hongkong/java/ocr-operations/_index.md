@@ -113,6 +113,10 @@ weight: 21
 示篯如何使用 Aspose OCR for Java 將圖像轉換為 HTML，提供完整步驟與範例。
 ### [如何在 Java 中執行 OCR – 完整 Aspose OCR 教學](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 完成文字識別的全過程。
+### [使用 Aspose OCR Java 轉換影像為文字 – 步驟指南](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+本教學示範如何使用 Aspose OCR for Java 將各種影像檔案轉換為可編輯文字，提供完整步驟與範例。
+### [使用 Java 建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-with-java-step-by-step-guide/)
+完整的步驟說明，教你如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的文件。
 
 ## 常見問題
 

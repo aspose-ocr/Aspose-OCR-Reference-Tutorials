@@ -113,6 +113,10 @@ weight: 21
 
 
 
+### [แปลงรูปภาพเป็นข้อความด้วย Aspose OCR Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+แปลงรูปภาพเป็นข้อความด้วย Aspose OCR for Java อย่างละเอียดตามขั้นตอน  
+### [สร้าง PDF ที่ค้นหาได้ด้วย Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-with-java-step-by-step-guide/)
+เรียนรู้วิธีแปลง PDF สแกนให้เป็น PDF ที่ค้นหาได้โดยใช้ Aspose.OCR for Java อย่างละเอียด
 
 
 

@@ -129,6 +129,11 @@ url: /ar/java/advanced-ocr-techniques/
 اكتشف كيفية استخراج النص من صورة باستخدام Aspose OCR في Java خطوة بخطوة، مع تحقيق دقة عالية وسهولة التكامل.
 ### [اكتشاف لغة الصورة باستخدام Aspose OCR – دليل جافا](./detect-language-image-with-aspose-ocr-java-tutorial/)
 تعلم كيفية اكتشاف لغة النص في الصور باستخدام Aspose OCR في بيئة جافا واستخراج النص بدقة.
+### [كيفية استخدام OCR في Java – المعالجة المتوازية مع Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
+تعلم كيفية تحسين أداء OCR في Java باستخدام المعالجة المتوازية مع Aspose لزيادة السرعة والكفاءة.
+### [كيفية تمكين GPU للتعرف الضوئي على الحروف في Java – استخراج النص من الصورة](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+تعلم كيفية تسريع OCR في Java باستخدام GPU لاستخراج النص من الصور بسرعة وكفاءة.
+### [الكشف التلقائي عن اللغة في OCR لجافا – دليل خطوة بخطوة](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

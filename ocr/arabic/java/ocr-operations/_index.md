@@ -106,6 +106,9 @@ weight: 21
 دليل شامل يوضح كيفية تحويل الصور إلى HTML باستخدام Aspose OCR للـ Java خطوة بخطوة.
 ### [كيفية تنفيذ OCR في Java – دليل كامل لـ Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 دليل شامل يشرح خطوة بخطوة كيفية تنفيذ OCR في Java باستخدام Aspose OCR من الإعداد إلى التنفيذ.
+### [Convert Image to Text with Aspose OCR Java – Step‑by‑Step Guide](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+### [إنشاء PDF قابل للبحث باستخدام Java – دليل خطوة بخطوة](./create-searchable-pdf-with-java-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

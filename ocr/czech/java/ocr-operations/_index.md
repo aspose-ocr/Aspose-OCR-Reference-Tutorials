@@ -104,6 +104,10 @@ Kompletní návod, jak implementovat OCR v Javě od nastavení až po zpracován
 Naučte se převést obrázky do HTML pomocí Aspose.OCR pro Java s podrobným návodem krok za krokem.
 ### [Jak provést OCR v Javě – Kompletní tutoriál Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Kompletní průvodce, jak implementovat OCR v Javě pomocí Aspose OCR, od nastavení až po získání výsledků.
+### [Převod obrázku na text s Aspose OCR Java – krok za krokem průvodce](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Naučte se, jak pomocí Aspose OCR pro Java převést obrázky na editovatelný text v několika jednoduchých krocích.
+### [Vytvoření prohledávatelného PDF pomocí Javy – krok za krokem průvodce](./create-searchable-pdf-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.OCR pro Java vytvořit prohledávatelný PDF soubor v několika jednoduchých krocích.
 
 ## Často kladené otázky
 
