@@ -51,6 +51,10 @@ Sfrutta la potenza dell'OCR GPU per estrarre rapidamente il testo delle ricevute
 Scopri come trasformare documenti PDF in PDF ricercabili usando Aspose.OCR con C#.
 ### [Come abilitare OCR in C# – Converti PDF in testo facilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Scopri come attivare OCR in C# per convertire rapidamente PDF in testo leggibile.
+### [Come salvare JSON dall'OCR in C# – Guida completa passo‑per‑passo](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Scopri come esportare i risultati OCR in formato JSON usando Aspose.OCR con C# in pochi semplici passaggi.
+### [Riconoscere testo cinese offline – Guida completa C#](./recognize-chinese-text-offline-complete-c-guide/)
+Scopri come riconoscere testo cinese offline in C# usando Aspose.OCR, passo dopo passo.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

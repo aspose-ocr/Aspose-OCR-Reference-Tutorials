@@ -109,6 +109,9 @@ Hướng dẫn chi tiết cách cài đặt giấy phép Aspose OCR trong dự �
 Hướng dẫn tạo PDF có thể tìm kiếm trong C# bằng Aspose.OCR, chuyển đổi hình ảnh thành văn bản có thể tìm kiếm.
 ### [Cách bật OCR trong C# – Chuyển PDF sang Văn bản một cách dễ dàng](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Hướng dẫn bật OCR trong C# để chuyển đổi PDF thành văn bản nhanh chóng và chính xác.
+### [Nhận dạng văn bản tiếng Trung offline – Hướng dẫn C# đầy đủ](./recognize-chinese-text-offline-complete-c-guide/)
+### [Cách lưu JSON từ OCR trong C# – Hướng dẫn chi tiết từng bước](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu kết quả OCR dưới dạng JSON trong C# bằng Aspose.OCR.
 
 
 

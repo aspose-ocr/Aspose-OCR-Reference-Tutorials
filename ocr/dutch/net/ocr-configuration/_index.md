@@ -70,6 +70,10 @@ Leer hoe je een afbeelding laadt en bontekst extraheert met GPU‑versnelde OCR 
 Leer hoe je met Aspose.OCR een doorzoekbare PDF maakt in C#, inclusief OCR-conversie en configuratie.
 ### [Hoe OCR in C# in te schakelen – PDF eenvoudig naar tekst converteren](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Leer hoe je met Aspose.OCR PDF-bestanden omzet naar bewerkbare tekst in C# met eenvoudige stappen.
+### [Herken Chinese tekst offline – Complete C#-gids](./recognize-chinese-text-offline-complete-c-guide/)
+Leer hoe je Chinese tekens offline kunt herkennen met Aspose.OCR in een volledige C#-handleiding.
+### [Hoe JSON van OCR op te slaan in C# – Complete stapsgewijze handleiding](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Leer hoe je JSON-output van OCR opslaat in C# met een volledige stap‑voor‑stap gids.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

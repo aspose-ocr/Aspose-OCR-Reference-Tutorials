@@ -199,6 +199,12 @@ Dowiedz się, jak zastosować filtry i techniki wstępnego przetwarzania, aby po
 ### [Jak wykonać wsadowe OCR w C# – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Dowiedz się, jak przetwarzać wiele obrazów jednocześnie przy użyciu Aspose.OCR w C#, zwiększając wydajność i dokładność.
 
+### [Jak włączyć GPU dla OCR w C# – Rozpoznawanie tekstu](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Dowiedz się, jak wykorzystać akcelerację GPU w Aspose.OCR dla .NET, aby przyspieszyć rozpoznawanie tekstu w aplikacjach C#.
+
+### [Jak wykonać OCR w C# – Kompletny przewodnik z przetwarzaniem wstępnym](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Pełny przewodnik po OCR w C# z krok po kroku instrukcjami, w tym technikami przetwarzania wstępnego dla lepszej dokładności.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

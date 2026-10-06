@@ -186,6 +186,12 @@ Fedezze fel, hogyan növelheti az OCR pontosságát képek előfeldolgozásával
 ### [c# OCR oktatóanyag – Kötegelt OCR a képek szövegének kinyeréséhez](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Fedezze fel, hogyan végezhet kötegelt OCR feldolgozást C#‑ban az Aspose.OCR for .NET segítségével, több képet egyszerre kinyerve.
 
+### [GPU engedélyezése OCR-hez C#-ban – Szövegfelismerés](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Ismerje meg, hogyan használhatja a GPU-t az OCR gyorsításához C# alkalmazásban, a szöveg pontos felismeréséhez.
+
+### [Hogyan hajtsunk végre OCR-t C#‑ban – Teljes útmutató előfeldolgozással](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Fedezze fel a teljes OCR folyamatot C#‑ban, beleértve az előfeldolgozási lépéseket a maximális pontosságért.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

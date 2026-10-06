@@ -326,6 +326,12 @@ C# uygulamanıza Aspose OCR lisansını nasıl gömeceğinizi adım adım öğre
 ### [C# ile Aranabilir PDF Oluşturma – Görüntüleri Dikey Olarak Birleştirme](./create-searchable-pdf-in-c-combine-images-vertically/)
 Görselleri dikey birleştirerek aranabilir PDF oluşturmayı adım adım öğrenin.
 
+### [Aspose OCR ile Arapça Metin Tanıma – Çok Dilli Kılavuz](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Arapça metinleri tanıma ve çok dilli OCR özelliklerini kullanma konusunda adım adım rehber.
+### [C#'ta Arama Yapılabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-in-c-step-by-step-guide/)
+C# kullanarak PDF'leri arama yapılabilir hale getirmenin adımlarını öğrenin ve Aspose.OCR ile kolayca uygulayın.
+### [C# ile Görüntüyü ePub'a Dönüştürme – Adım Adım Kılavuz](./convert-image-to-epub-in-c-step-by-step-guide/)
+Görüntüleri ePub formatına dönüştürmeyi öğrenin ve C# ile dijital yayınlar oluşturun.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

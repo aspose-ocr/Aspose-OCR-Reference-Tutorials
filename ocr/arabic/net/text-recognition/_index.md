@@ -337,6 +337,12 @@ url: /ar/net/text-recognition/
 ### [تعرف على النص من صورة في C# – تضمين ترخيص Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 تعلم كيفية دمج ترخيص Aspose OCR في تطبيق C# لاستخراج النص من الصور بسهولة.
 
+### [التعرف على النص العربي باستخدام Aspose OCR – دليل متعدد اللغات](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+تعلم كيفية التعرف على النص العربي باستخدام Aspose OCR ضمن دليل متعدد اللغات خطوة بخطوة.
+### [إنشاء ملف PDF قابل للبحث في C# – دليل خطوة بخطوة](./create-searchable-pdf-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C# من خلال دليل شامل خطوة بخطوة.
+### [تحويل الصورة إلى ePub في C# – دليل خطوة بخطوة](./convert-image-to-epub-in-c-step-by-step-guide/)
+تعلم كيفية تحويل الصور إلى ملفات ePub باستخدام Aspose.OCR في C# من خلال دليل شامل خطوة بخطوة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -192,6 +192,10 @@ Learn how to leverage GPU acceleration in C# with Aspose.OCR to extract text fro
 Learn how to preprocess images in C# using Aspose.OCR to significantly improve OCR accuracy with step‑by‑step techniques.
 ### [How to Batch OCR in C# – Complete Guide for Extracting Text from Images](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Learn how to process multiple images in batch using Aspose.OCR for .NET, improving efficiency and accuracy.
+### [How to Enable GPU for OCR in C# – Recognize Text](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Learn how to accelerate OCR processing by enabling GPU support in Aspose.OCR for .NET using C#.
+### [How to Perform OCR in C# – Complete Guide with Pre‑processing](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Step‑by‑step guide to perform OCR in C# using Aspose.OCR, covering preprocessing techniques for higher accuracy.
 
 ## Frequently Asked Questions
 

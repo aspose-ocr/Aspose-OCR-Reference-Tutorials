@@ -300,6 +300,12 @@ url: /th/net/text-recognition/
 เรียนรู้ขั้นตอนการใช้งาน Aspose OCR ใน C# เพื่อรัน OCR อย่างเต็มที่ด้วยคำแนะนำที่ละเอียดและครบถ้วน
 ### [จดจำข้อความจากรูปภาพใน C# – ฝังลิขสิทธิ์ Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 เรียนรู้วิธีฝังลิขสิทธิ์ Aspose OCR ในโค้ด C# เพื่อให้การจดจำข้อความจากรูปภาพทำงานได้อย่างเต็มประสิทธิภาพ
+### [จดจำข้อความอาหรับด้วย Aspose OCR – คู่มือหลายภาษา](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+เรียนรู้วิธีจดจำข้อความอาหรับในหลายภาษาโดยใช้ Aspose OCR ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือทีละขั้นตอน](./create-searchable-pdf-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย C# โดยใช้ Aspose.OCR ตามขั้นตอนง่าย ๆ
+### [แปลงภาพเป็น ePub ใน C# – คู่มือทีละขั้นตอน](./convert-image-to-epub-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงภาพเป็นไฟล์ ePub ด้วย C# โดยใช้ Aspose.OCR ผ่านขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,10 @@ Apprenez à utiliser l'OCR GPU d'Aspose pour lire les reçus à partir d'images 
 Apprenez à transformer des documents PDF en fichiers consultables grâce à l’OCR avec Aspose.OCR en C#.
 ### [Comment activer l'OCR en C# – Convertir facilement un PDF en texte](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Apprenez à activer l'OCR en C# pour convertir rapidement des PDF en texte exploitable.
+### [Reconnaître le texte chinois hors ligne – Guide complet C#](./recognize-chinese-text-offline-complete-c-guide/)
+Apprenez à extraire du texte chinois hors ligne avec Aspose.OCR en C#, étape par étape.
+### [Comment enregistrer le JSON à partir de l'OCR en C# – Guide complet étape par étape](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Apprenez à extraire les résultats OCR au format JSON et à les enregistrer en C# avec un guide détaillé.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

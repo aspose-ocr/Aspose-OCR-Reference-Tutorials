@@ -197,6 +197,10 @@ Využijte GPU pro rychlé OCR v .NET, získejte vysoký výkon při extrakci tex
 Naučte se, jak pomocí Aspose.OCR optimalizovat předzpracování obrázků v C# pro maximální přesnost rozpoznávání.
 ### [Jak provádět hromadné OCR v C# – Kompletní průvodce extrahování textu z obrázků](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Naučte se zpracovávat velké množství obrázků najednou pomocí Aspose.OCR v C# a efektivně získávat text.
+### [Jak povolit GPU pro OCR v C# – Rozpoznávání textu](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Naučte se, jak využít GPU akceleraci v Aspose.OCR pro .NET pro rychlejší a přesnější rozpoznávání textu.
+### [Jak provést OCR v C# – Kompletní průvodce s předzpracováním](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Kompletní návod na provedení OCR v C# s podrobným popisem předzpracování pro zvýšení přesnosti rozpoznání.
 
 ## Často kladené otázky
 

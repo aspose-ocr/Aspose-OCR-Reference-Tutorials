@@ -168,6 +168,10 @@ GPU 가속을 활용해 이미지에서 텍스트를 빠르고 정확하게 추�
 이미지 전처리 기법을 활용해 OCR 정확도를 크게 높이는 방법을 단계별로 안내합니다.
 ### [C#에서 배치 OCR 수행 방법 – 이미지에서 텍스트 추출을 위한 완전 가이드](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 C#으로 다수의 이미지를 한 번에 OCR 처리하고 텍스트를 추출하는 단계별 완전 가이드입니다.
+### [C#에서 GPU를 사용하도록 OCR 활성화하기 – 텍스트 인식](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+GPU 가속을 활용해 OCR 속도와 정확성을 높이는 방법을 단계별로 안내합니다.
+### [C#에서 OCR 수행하기 – 전처리 포함 완전 가이드](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+C# 프로젝트에 전처리 단계와 함께 OCR을 적용하는 전체 과정을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

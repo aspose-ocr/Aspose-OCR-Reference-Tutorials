@@ -70,6 +70,8 @@ Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyeli
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
 ### [C# ile Formları Etkinleştirme ve OCR ile Tabloları Çıkarma – Tam Kılavuz](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
 C# kullanarak OCR ile formları etkinleştirin ve tabloları kolayca çıkarın. Adım adım rehber.
+### [C# ile Tabloyu CSV Olarak Kaydet – Tam Aspose OCR Rehberi](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR for .NET kullanarak tablo verilerini CSV dosyasına dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

@@ -104,6 +104,10 @@ Ismerje meg, hogyan aktiválhatja a licencet az Aspose OCR .NET könyvtárban C#
 Ismerje meg, hogyan hozhat létre kereshető PDF-et C#‑ban az Aspose.OCR segítségével.  
 ### [Hogyan engedélyezzük az OCR-t C#‑ban – PDF könnyű szöveggé konvertálása](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Fedezze fel, hogyan konvertálhat PDF-et szöveggé C#‑ban az Aspose.OCR segítségével.  
+### [Hogyan mentse el a JSON-t OCR-ből C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Tanulja meg, hogyan menthet JSON‑t az OCR eredményből C#‑ban, részletes, lépésről‑lépésre útmutatóval.  
+### [Kínai szöveg offline felismerése – Teljes C# útmutató](./recognize-chinese-text-offline-complete-c-guide/)
+Ismerje meg, hogyan lehet offline módon kínai szöveget felismerni C#-ban az Aspose.OCR segítségével.  
 
 
 

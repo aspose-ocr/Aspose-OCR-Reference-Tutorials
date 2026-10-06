@@ -348,6 +348,12 @@ Aprenda paso a paso a ejecutar OCR con Aspose OCR en C#, desde la configuración
 
 ### [Reconocer texto de una imagen en C# – incrustar licencia de Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Aprenda a integrar la licencia de Aspose OCR en su aplicación C# para reconocer texto en imágenes sin restricciones.
+### [Reconocer texto árabe con Aspose OCR – Guía multilingüe](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Aprenda a reconocer texto árabe usando Aspose OCR en .NET, con soporte multilingüe y ejemplos paso a paso.
+### [Crear PDF buscable en C# – Guía paso a paso](./create-searchable-pdf-in-c-step-by-step-guide/)
+Aprenda a crear PDFs buscables en C# con Aspose.OCR, siguiendo una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
+### [Convertir imagen a ePub en C# – Guía paso a paso](./convert-image-to-epub-in-c-step-by-step-guide/)
+Aprenda a convertir imágenes a formato ePub en C# con Aspose.OCR siguiendo una guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

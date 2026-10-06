@@ -196,6 +196,9 @@ Lär dig hur du använder GPU-acceleration för att snabba upp textutdragning fr
 ### [Förbehandla bild‑OCR i C# – Komplett guide för att öka noggrannheten](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
 ### [Batch-OCR i C# – Komplett guide för att extrahera text från bilder](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Lär dig hur du bearbetar flera bilder samtidigt med Aspose.OCR i C# för snabb och exakt textutdragning.
+### [Hur du utför OCR i C# – Komplett guide med förbehandling](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Lär dig steg‑för‑steg hur du utför OCR i C# med omfattande förbehandlingssteg för bästa noggrannhet.
+### [Hur du aktiverar GPU för OCR i C# – Känn igen text](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
 
 ## Vanliga frågor
 

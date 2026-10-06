@@ -184,6 +184,11 @@ weight: 25
 ### [C# 批量 OCR 教程 – 提取图像文本的完整指南](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 了解如何使用 Aspose.OCR for .NET 在 C# 中批量处理图像，实现高效文本提取。
 
+### [如何在 C# 中启用 GPU 进行 OCR – 文本识别](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+通过本教程了解如何在 C# 中启用 GPU 加速 OCR，实现更快的文本识别。
+
+### [如何在 C# 中执行 OCR – 完整指南与预处理](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

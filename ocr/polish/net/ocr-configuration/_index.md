@@ -66,6 +66,10 @@ Dowiedz się, jak przy użyciu Aspose.OCR przekształcić obrazy w przeszukiwaln
 Wczytaj obraz i przyspiesz rozpoznawanie paragonu dzięki GPU OCR w C#.
 ### [Jak włączyć OCR w C# – Łatwe konwertowanie PDF na tekst](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Dowiedz się, jak używać Aspose.OCR w C# do konwersji PDF na tekst w kilku prostych krokach.
+### [Jak zapisać JSON z OCR w C# – Kompletny przewodnik krok po kroku](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić wyniki OCR i zapisać je jako JSON przy użyciu Aspose.OCR w C#.
+### [Rozpoznawanie chińskiego tekstu offline – Kompletny przewodnik C#](./recognize-chinese-text-offline-complete-c-guide/)
+Kompletny przewodnik, jak offline rozpoznawać chiński tekst w C# przy użyciu Aspose.OCR.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

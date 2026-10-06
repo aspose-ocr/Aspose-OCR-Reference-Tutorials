@@ -331,6 +331,12 @@ Chuyển đổi tệp Djvu sang văn bản trong C# bằng Aspose OCR. Hướng 
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để chạy OCR một cách toàn diện và hiệu quả.
 ### [Nhận dạng văn bản từ ảnh trong C# – nhúng giấy phép Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Hướng dẫn chi tiết cách nhúng giấy phép Aspose OCR vào dự án C# để thực hiện nhận dạng văn bản từ ảnh.
+### [Nhận dạng văn bản tiếng Ả Rập với Aspose OCR – Hướng dẫn đa ngôn ngữ](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Khám phá cách nhận dạng văn bản tiếng Ả Rập bằng Aspose OCR trong môi trường đa ngôn ngữ, hướng dẫn chi tiết từng bước.
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn từng bước](./create-searchable-pdf-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose.OCR trong C#, từ xử lý hình ảnh đến xuất file PDF.
+### [Chuyển đổi hình ảnh sang ePub trong C# – Hướng dẫn từng bước](./convert-image-to-epub-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành định dạng ePub bằng Aspose.OCR trong C#, từng bước một.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

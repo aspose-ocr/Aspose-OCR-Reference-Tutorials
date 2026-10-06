@@ -204,6 +204,10 @@ Pelajari cara mempercepat proses OCR pada gambar menggunakan GPU dengan Aspose.O
 Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan di C# untuk meningkatkan akurasi OCR secara signifikan.
 ### [Cara Batch OCR di C# – Panduan Lengkap untuk Mengekstrak Teks dari Gambar](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Pelajari cara melakukan OCR secara batch di C#, mengoptimalkan proses ekstraksi teks dari banyak gambar dengan mudah.
+### [Cara Mengaktifkan GPU untuk OCR di C# – Mengenali Teks](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Pelajari cara mengaktifkan akselerasi GPU dalam Aspose.OCR untuk .NET menggunakan C# agar proses pengenalan teks lebih cepat.
+### [Cara Melakukan OCR di C# – Panduan Lengkap dengan Pra‑pemrosesan](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Panduan lengkap melakukan OCR di C# dengan langkah‑langkah pra‑pemrosesan untuk meningkatkan akurasi dan kecepatan pengenalan teks.
 
 ## Pertanyaan yang Sering Diajukan
 

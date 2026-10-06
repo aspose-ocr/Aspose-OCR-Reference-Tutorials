@@ -193,6 +193,12 @@ GPU 加速を活用して、C# で画像から高速かつ高精度にテキス�
 ### [C# でバッチ OCR を実行する方法 – 画像からテキスト抽出の完全ガイド](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 C# を使用して大量の画像を一括で OCR 処理し、テキストを抽出する手順をステップバイステップで解説します。
 
+### [C# で GPU を有効にして OCR を実行する – Recognize Text](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+GPU を活用して OCR の速度と精度を向上させる手順をステップバイステップで解説します。
+
+### [C# で OCR を実行する方法 – 前処理付き完全ガイド](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+C# で Aspose.OCR を使用し、前処理手順を組み合わせて高精度な OCR を実装する完全ガイドです。
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  

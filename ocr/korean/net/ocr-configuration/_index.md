@@ -103,6 +103,10 @@ Aspose OCR에서 라이선스를 적용하는 방법을 단계별로 안내합�
 Aspose.OCR을 사용해 C#에서 이미지 파일을 OCR로 변환하여 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다.
 ### [C#에서 OCR 사용하기 – PDF를 텍스트로 손쉽게 변환](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 C# 애플리케이션에서 OCR을 활성화하고 PDF 파일을 텍스트로 변환하는 간단한 단계별 가이드.  
+### [C#에서 OCR 결과를 JSON으로 저장하는 방법 – 완전 단계별 가이드](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+OCR 인식 결과를 JSON 파일로 저장하는 전체 과정을 C# 코드와 함께 자세히 설명합니다.  
+### [오프라인에서 중국어 텍스트 인식 – 완전 C# 가이드](./recognize-chinese-text-offline-complete-c-guide/)
+C#을 사용해 오프라인 환경에서 중국어 텍스트를 정확히 인식하고 처리하는 전체 단계별 가이드를 제공합니다.  
 
 
 

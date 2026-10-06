@@ -53,6 +53,9 @@ Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR �
 ### [C# で GPU OCR を使用して画像ファイルを読み込み、レシートテキストを抽出](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 GPU を活用した OCR で画像ファイルからレシートテキストを高速に抽出し、C# で実装する方法を解説します。
 ### [C# で検索可能な PDF を作成 – OCR 変換ガイド](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+### [C# で OCR から JSON を保存する方法 – 完全ステップバイステップガイド](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+### [オフラインで中国語テキストを認識する – 完全 C# ガイド](./recognize-chinese-text-offline-complete-c-guide/)
+Aspose.OCR を使用してオフライン環境で中国語テキストを認識し、C# で実装する完全ガイドです。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

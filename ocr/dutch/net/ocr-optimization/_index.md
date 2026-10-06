@@ -204,6 +204,10 @@ Gebruik GPU-versnelling om OCR-prestaties te verbeteren en tekst nauwkeurig uit 
 
 ### [Hoe batch-OCR uit te voeren in C# – Complete gids voor het extraheren van tekst uit afbeeldingen](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Leer hoe je in C# batch‑OCR implementeert om efficiënt tekst uit meerdere afbeeldingen te extraheren.
+### [Hoe OCR in C# uit te voeren – Complete gids met pre‑processing](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Leer stap‑voor‑stap hoe je OCR in C# implementeert, inclusief pre‑processing filters voor optimale nauwkeurigheid.
+### [Hoe GPU voor OCR in C# in te schakelen – Tekst herkennen](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Leer hoe je GPU-versnelling activeert voor Aspose.OCR in C# om de herkenningssnelheid en nauwkeurigheid te verbeteren.
 
 ## Veelgestelde vragen
 

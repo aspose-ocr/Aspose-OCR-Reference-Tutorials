@@ -337,6 +337,12 @@ Transformez vos fichiers Djvu en texte avec Aspose OCR en C#. Suivez notre guide
 Apprenez à exécuter l'OCR avec Aspose OCR en C# grâce à notre guide complet étape par étape.
 ### [Reconnaître du texte à partir d'une image en C# – intégrer la licence Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Apprenez à intégrer votre licence Aspose OCR dans une application C# pour reconnaître du texte à partir d'images.
+### [Reconnaître le texte arabe avec Aspose OCR – Guide multilingue](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Découvrez comment reconnaître du texte arabe avec Aspose OCR dans un guide multilingue, étape par étape, pour vos applications .NET.
+### [Créer un PDF consultable en C# – Guide étape par étape](./create-searchable-pdf-in-c-step-by-step-guide/)
+Apprenez à générer un PDF consultable à partir d'images en C# avec Aspose.OCR, grâce à un guide détaillé étape par étape.
+### [Convertir une image en ePub en C# – Guide étape par étape](./convert-image-to-epub-in-c-step-by-step-guide/)
+Apprenez à transformer une image en fichier ePub avec C# grâce à un guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -337,6 +337,12 @@ Learn how to extract text from images offline using Aspose.OCR for .NET in C#. F
 Learn how to convert Djvu files to plain text using Aspose OCR in C#. Follow this complete step‑by‑step guide for seamless conversion.
 ### [how to run OCR with Aspose OCR in C# – Complete Guide](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
 Learn how to run OCR using Aspose OCR in C# with this comprehensive step‑by‑step guide.
+### [recognize arabic text with Aspose OCR – Multi‑Language Guide](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Learn to recognize Arabic text with Aspose OCR in .NET using this multi‑language guide for accurate multilingual OCR.
+### [Create Searchable PDF in C# – Step‑by‑Step Guide](./create-searchable-pdf-in-c-step-by-step-guide/)
+Create searchable PDFs in C# using Aspose.OCR. Follow this step‑by‑step guide to generate PDFs with embedded text for easy searching.
+### [Convert Image to ePub in C# – Step‑by‑Step Guide](./convert-image-to-epub-in-c-step-by-step-guide/)
+Convert images to ePub format in C# using Aspose.OCR. Follow this step‑by‑step guide to create ePub files from images effortlessly.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

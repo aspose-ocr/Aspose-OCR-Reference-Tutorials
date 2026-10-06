@@ -334,6 +334,12 @@ url: /zh/net/text-recognition/
 通过本完整指南，学习在 C# 中使用 Aspose OCR 进行图像文字识别的全部步骤。
 ### [在 C# 中从图像识别文本 – 嵌入 Aspose OCR 许可证](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 使用 Aspose.OCR for .NET 在 C# 中从图像识别文本并嵌入许可证，确保合法使用并提升识别效果。
+### [使用 Aspose OCR 识别阿拉伯文本 – 多语言指南](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+通过本指南学习如何使用 Aspose OCR 在 .NET 中识别阿拉伯语文本，支持多语言处理。
+### [使用 C# 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-in-c-step-by-step-guide/)
+通过本分步指南，使用 Aspose.OCR for .NET 在 C# 中创建可搜索的 PDF 文档，提升文档检索效率。
+### [在 C# 中将图像转换为 ePub – 步骤指南](./convert-image-to-epub-in-c-step-by-step-guide/)
+通过本分步指南，使用 Aspose.OCR for .NET 将图像转换为 ePub 格式，轻松创建电子书。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,11 +65,13 @@ weight: 22
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Αποκτήστε το δυναμικό της αναγνώρισης κειμένου με το Aspose.OCR για .NET. Αναγνωρίστε κείμενο από εικόνες χωρίς κόπο.
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
-Απελευθερώστε το δυναμικό του Aspose.OCR για .NET στην αναγνώριση γραμμών σε OCR εικόνες. Ένας οδηγός για προγραμματιστές για αβίαστη εξαγωγή κειμένου από εικόνες.
+Απελευθέστε το δυναμικό του Aspose.OCR για .NET στην αναγνώριση γραμμών σε OCR εικόνες. Ένας οδηγός για προγραμματιστές για αβίαστη εξαγωγή κειμένου από εικόνες.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Αποκτήστε τη μαγεία του OCR με το Aspose.OCR για .NET, εξάγοντας κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το tutorial για αβίαστη ενσωμάτωση.
 ### [Πώς να ενεργοποιήσετε φόρμες και να εξάγετε πίνακες με OCR σε C# – Πλήρης οδηγός](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
 Μάθετε πώς να ενεργοποιήσετε την αναγνώριση φορμών και να εξάγετε πίνακες από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
+### [Save Table as CSV in C# – Complete Aspose OCR Guide](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να εξάγετε πίνακες από εικόνες OCR και να τους αποθηκεύσετε ως CSV με C# και Aspose.OCR.
 
 ## Frequently Asked Questions
 

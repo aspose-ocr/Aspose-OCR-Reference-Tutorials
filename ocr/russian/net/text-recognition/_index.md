@@ -313,6 +313,12 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по запуску OCR с помощью Aspose OCR в C#, охватывающее настройку, обработку изображений и получение результатов.
 ### [Распознать текст с изображения в C# – внедрить лицензию Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Встроите лицензию Aspose OCR в C# проект для распознавания текста с изображений.
+### [Распознать арабский текст с Aspose OCR – Многоязычное руководство](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Узнайте, как распознавать арабский текст в .NET с помощью Aspose OCR, используя многоязычную поддержку для точных результатов.
+### [Создать поисковый PDF в C# – пошаговое руководство](./create-searchable-pdf-in-c-step-by-step-guide/)
+Научитесь создавать поисковые PDF файлы в C# с помощью Aspose.OCR, следуя подробному пошаговому руководству.
+### [Конвертировать изображение в ePub на C# – пошаговое руководство](./convert-image-to-epub-in-c-step-by-step-guide/)
+Научитесь преобразовывать изображения в ePub‑книги с помощью C# и Aspose.OCR, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

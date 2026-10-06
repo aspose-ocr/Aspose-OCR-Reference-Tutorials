@@ -49,6 +49,10 @@ GPU-त्वरित OCR का उपयोग करके इमेज फ�
 ### [C# में खोज योग्य PDF बनाएं – OCR रूपांतरण गाइड](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 ### [C# में OCR सक्षम कैसे करें – PDF को आसानी से टेक्स्ट में बदलें](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aspose.OCR का उपयोग करके C# में PDF फ़ाइलों को टेक्स्ट में बदलने की आसान प्रक्रिया सीखें।
+### [C# में OCR से JSON सहेजने की पूरी चरण‑दर‑चरण गाइड](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+C# में OCR से JSON सहेजने की पूरी चरण‑दर‑चरण गाइड। Aspose.OCR के साथ परिणाम को JSON फ़ाइल में एक्सपोर्ट करें।
+### [ऑफ़लाइन चीनी टेक्स्ट पहचान – पूर्ण C# गाइड](./recognize-chinese-text-offline-complete-c-guide/)
+ऑफ़लाइन चीनी भाषा के टेक्स्ट को C# में Aspose.OCR से पहचानने की पूरी गाइड।
 
 ### कॉमन यूज़ केस
 - **टेक्स्ट इमेज निकालें** स्कैन किए गए इनवॉइस से टेक्स्ट निकालें ताकि ऑटोमेटेड अकाउंटिंग हो सके।

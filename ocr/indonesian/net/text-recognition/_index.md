@@ -333,6 +333,12 @@ Pelajari cara mengonversi file Djvu menjadi teks menggunakan Aspose OCR di C# de
 Pelajari cara menjalankan OCR menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah untuk hasil akurat.
 ### [Mengenali Teks dari Gambar di C# – Menyematkan Lisensi Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Pelajari cara menyematkan lisensi Aspose OCR dalam aplikasi C# untuk mengenali teks dari gambar secara akurat.
+### [Mengenali Teks Arab dengan Aspose OCR – Panduan Multi‑Bahasa](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Pelajari cara mengenali teks Arab menggunakan Aspose OCR dalam panduan multi‑bahasa yang mudah diikuti.
+### [Buat PDF yang Dapat Dicari di C# – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-in-c-step-by-step-guide/)
+Buat PDF yang dapat dicari menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami untuk menghasilkan PDF searchable dengan mudah.
+### [Konversi Gambar ke ePub di C# – Panduan Langkah‑per‑Langkah](./convert-image-to-epub-in-c-step-by-step-guide/)
+Pelajari cara mengonversi gambar menjadi file ePub menggunakan C# dengan panduan langkah demi langkah kami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

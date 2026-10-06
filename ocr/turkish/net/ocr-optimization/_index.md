@@ -179,6 +179,10 @@ Aspose OCR'de filtreleri kullanarak metin çıkarma doğruluğunu ve hızını n
 C# kullanarak görüntü OCR ön işleme tekniklerini öğrenin ve tanıma doğruluğunu en üst seviyeye çıkarın.
 ### [C#'ta Toplu OCR Nasıl Yapılır – Görüntülerden Metin Çıkarma için Tam Kılavuz](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 C# ile toplu OCR işlemleri yaparak birden çok görüntüyü hızlıca metne dönüştürün ve sonuçları yönetin.
+### [C#'ta OCR için GPU'yu Etkinleştirme – Metin Tanıma](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Aspose.OCR for .NET ile GPU desteğini etkinleştirerek OCR performansını artırın ve metin tanımayı hızlandırın.
+### [C#'ta OCR Nasıl Yapılır – Ön İşleme ile Tam Kılavuz](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Aspose.OCR for .NET ile C#’ta OCR işlemini adım adım öğrenin, ön işleme teknikleriyle doğruluğu artırın.
 
 ## Sıkça Sorulan Sorular
 

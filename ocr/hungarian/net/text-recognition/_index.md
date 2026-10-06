@@ -326,6 +326,12 @@ Tanulja meg, hogyan konvertálhatja a Djvu fájlokat szöveggé C#‑ban az Aspo
 Tanulja meg, hogyan futtathatja az OCR-t az Aspose OCR segítségével C#‑ban, lépésről‑lépésre útmutatóval.
 ### [Szöveg felismerése képről C#‑ban – Aspose OCR licenc beágyazása](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Ismerje meg, hogyan ágyazhatja be az Aspose OCR licencet C#‑ban a képről történő szövegfelismeréshez.
+### [Arab szöveg felismerése az Aspose OCR segítségével – Többnyelvű útmutató](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Fedezze fel, hogyan ismerheti fel az arab nyelvű szöveget az Aspose OCR többnyelvű támogatásával .NET környezetben.
+### [Kereshető PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-searchable-pdf-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF‑eket C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Kép konvertálása ePub formátumba C#‑ban – Lépésről‑lépésre útmutató](./convert-image-to-epub-in-c-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat képeket ePub formátumba C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

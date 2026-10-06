@@ -76,6 +76,8 @@ Buka keajaiban OCR dengan Aspose.OCR untuk .NET, ekstrak teks dari gambar dengan
 
 ### [Cara Mengaktifkan Formulir dan Mengekstrak Tabel dengan OCR di C# – Panduan Lengkap](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
 Pelajari cara mengaktifkan pengenalan formulir dan mengekstrak tabel dari gambar menggunakan Aspose.OCR di C# secara menyeluruh.
+### [Simpan Tabel sebagai CSV di C# – Panduan Lengkap Aspose OCR](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mengekstrak tabel dari gambar dan menyimpannya sebagai file CSV menggunakan Aspose.OCR di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

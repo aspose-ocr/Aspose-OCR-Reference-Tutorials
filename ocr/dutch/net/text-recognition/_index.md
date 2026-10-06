@@ -326,6 +326,12 @@ Leer hoe u Djvu-bestanden naar platte tekst converteert in C# met Aspose OCR in 
 Leer stap voor stap hoe u met Aspose OCR in C# OCR-taken uitvoert, van configuratie tot resultaatverwerking, in deze volledige gids.
 ### [Tekst herkennen uit afbeelding in C# – Aspose OCR-licentie insluiten](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Leer hoe u met Aspose OCR in C# een afbeelding verwerkt en de licentie insluit voor onbeperkte OCR-functionaliteit.
+### [Arabische tekst herkennen met Aspose OCR – Meertalige gids](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Leer Arabische tekst herkennen met Aspose OCR in een meertalige gids. Volg de stapsgewijze handleiding voor nauwkeurige resultaten.
+### [Maak doorzoekbare PDF in C# – Stapsgewijze handleiding](./create-searchable-pdf-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in C# met onze stapsgewijze handleiding.
+### [Afbeelding converteren naar ePub in C# – Stapsgewijze handleiding](./convert-image-to-epub-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR afbeeldingen naar ePub-conversies in C# kunt omzetten met een duidelijke stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

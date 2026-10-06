@@ -314,6 +314,12 @@ Aspose OCR का उपयोग करके C# में Djvu फ़ाइल
 Aspose OCR का उपयोग करके C# में OCR चलाने की पूरी प्रक्रिया सीखें और अपने एप्लिकेशन में सहजता से एकीकृत करें।
 ### [C# में इमेज से टेक्स्ट पहचानें – Aspose OCR लाइसेंस एम्बेड करें](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Aspose OCR लाइसेंस को एम्बेड करके C# में इमेज से टेक्स्ट निकालने की प्रक्रिया सीखें।
+### [Aspose OCR के साथ अरबी टेक्स्ट पहचानें – बहु‑भाषा गाइड](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Aspose OCR का उपयोग करके .NET में अरबी भाषा के टेक्स्ट को पहचानने के चरण‑दर‑स्टेप मार्गदर्शन। बहु‑भाषा समर्थन को अनलॉक करें।
+### [C# में खोज योग्य PDF बनाएं – चरण‑दर‑स्टेप गाइड](./create-searchable-pdf-in-c-step-by-step-guide/)
+Aspose.OCR का उपयोग करके .NET में खोज योग्य PDF बनाने की प्रक्रिया को चरण‑दर‑स्टेप सीखें।
+### [C# में इमेज को ePub में बदलें – चरण‑दर‑स्टेप गाइड](./convert-image-to-epub-in-c-step-by-step-guide/)
+Aspose.OCR का उपयोग करके C# में इमेज को ePub फ़ॉर्मेट में बदलने की चरण‑दर‑स्टेप प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

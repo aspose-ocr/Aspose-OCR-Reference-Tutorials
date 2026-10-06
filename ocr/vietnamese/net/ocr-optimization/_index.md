@@ -169,6 +169,9 @@ Khám phá cách tối ưu hoá OCR bằng tiền xử lý ảnh trong C#, nâng
 Khám phá cách sử dụng OCR C# với hỗ trợ GPU để tăng tốc độ và độ chính xác khi trích xuất văn bản từ hình ảnh.
 ### [Hướng dẫn OCR hàng loạt trong C# – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Tìm hiểu cách thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C# và Aspose.OCR, tăng năng suất và độ chính xác.
+### [Cách bật GPU cho OCR trong C# – Nhận dạng văn bản](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Khám phá cách kích hoạt GPU để tăng tốc OCR trong C# với Aspose.OCR, cải thiện tốc độ và độ chính xác khi nhận dạng văn bản.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đầy đủ với tiền xử lý](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 
 ## Câu hỏi thường gặp
 

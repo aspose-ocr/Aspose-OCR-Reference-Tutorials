@@ -201,6 +201,10 @@ Nutzen Sie die GPU‑Beschleunigung, um OCR‑Ergebnisse schneller zu erhalten u
 Verarbeiten Sie mehrere Bilder gleichzeitig und extrahieren Sie Text effizient mit Batch‑OCR in C#.
 ### [Bildvorverarbeitung für OCR in C# – Komplettanleitung zur Steigerung der Genauigkeit](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
 Erfahren Sie, wie Sie Bildvorverarbeitung in C# einsetzen, um die OCR‑Genauigkeit signifikant zu erhöhen.
+### [GPU für OCR in C# aktivieren – Text erkennen](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für .NET aktivieren, um die Texterkennung in C# zu beschleunigen.
+### [Wie man OCR in C# ausführt – Vollständiger Leitfaden mit Vorverarbeitung](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Erfahren Sie, wie Sie OCR in C# implementieren, inklusive umfassender Vorverarbeitung für maximale Erkennungsgenauigkeit.
 
 ## Häufig gestellte Fragen
 

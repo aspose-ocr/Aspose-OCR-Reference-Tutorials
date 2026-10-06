@@ -328,6 +328,12 @@ Aspose OCR を使用して C# で Djvu ファイルをテキストに変換す�
 Aspose OCR を使って C# で画像からテキストを抽出し、OCR を実行する手順をステップバイステップで解説します。
 ### [C# で画像からテキストを認識 – Aspose OCR ライセンスを埋め込む](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Aspose OCR のライセンスを埋め込み、C# で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C#で画像をePubに変換する – ステップバイステップガイド](./convert-image-to-epub-in-c-step-by-step-guide/)
+Aspose.OCR を使用して C# で画像を ePub 形式に変換し、デジタル出版を簡単に実装する方法をステップバイステップで解説します。
+### [Aspose OCR を使用したアラビア語テキストの認識 – マルチランゲージガイド](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Aspose OCR のマルチランゲージ機能を活用し、.NET アプリケーションでアラビア語テキストを正確に認識する手順を解説します。
+### [C#で検索可能なPDFを作成する – ステップバイステップガイド](./create-searchable-pdf-in-c-step-by-step-guide/)
+Aspose.OCR を使用して C# で検索可能な PDF を作成し、テキスト抽出とインデックス化を実装する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

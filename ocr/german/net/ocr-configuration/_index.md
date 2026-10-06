@@ -65,6 +65,9 @@ Nutzen Sie GPU‑beschleunigte OCR, um Belegtexte aus Bilddateien in C# schnell 
 Erfahren Sie, wie Sie mit Aspose.OCR PDFs in C# durchsuchbar machen und OCR-Konvertierung implementieren.
 ### [Wie man OCR in C# aktiviert – PDF einfach in Text umwandeln](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Erfahren Sie, wie Sie mit Aspose.OCR PDF‑Dateien in C# schnell in durchsuchbaren Text konvertieren.
+### [Wie man JSON aus OCR in C# speichert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Speichern Sie OCR‑Ergebnisse als JSON in C# mit einer detaillierten Schritt‑für‑Schritt‑Anleitung.
+### [Chinesischen Text offline erkennen – Vollständige C#‑Anleitung](./recognize-chinese-text-offline-complete-c-guide/)
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

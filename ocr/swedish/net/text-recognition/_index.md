@@ -333,6 +333,12 @@ Lär dig hur du extraherar text från bilder i C# med offline OCR i en detaljera
 Lär dig hur du konverterar Djvu-filer till ren text i C# med Aspose OCR i en steg-för‑steg guide.
 ### [Hur man kör OCR med Aspose OCR i C# – Komplett guide](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
 Lär dig steg‑för‑steg hur du använder Aspose OCR i C# för att köra OCR‑processer och få bästa resultat.
+### [Känn igen arabisk text med Aspose OCR – flerspråkig guide](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Lär dig hur du med Aspose OCR kan känna igen arabisk text i flerspråkiga scenarier med steg-för-steg-instruktioner.
+### [Skapa sökbar PDF i C# – Steg‑för‑steg‑guide](./create-searchable-pdf-in-c-step-by-step-guide/)
+Lär dig hur du skapar sökbara PDF-filer i C# med Aspose.OCR genom en enkel steg‑för‑steg‑guide.
+### [Konvertera bild till ePub i C# – Steg‑för‑steg‑guide](./convert-image-to-epub-in-c-step-by-step-guide/)
+Lär dig hur du konverterar en bild till ePub-format i C# med en enkel steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

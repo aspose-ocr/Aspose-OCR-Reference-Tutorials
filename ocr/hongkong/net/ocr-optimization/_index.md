@@ -192,6 +192,9 @@ weight: 25
 ### [在 C# 中的圖像 OCR 前處理 – 完整指南提升準確度](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
 深入了解如何在 C# 使用 Aspose.OCR 進行圖像前處理，提升 OCR 準確率與效能的完整步驟說明。
 ### [C# 批次 OCR 教學 – 完整圖像文字提取指南](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+### [如何在 C# 中啟用 GPU 進行 OCR – 文字辨識](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+說明如何在 C# 使用 Aspose.OCR 啟用 GPU 加速，提高文字辨識效能。
+### [如何在 C# 中執行 OCR – 完整指南與前處理](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 
 ## 常見問題
 

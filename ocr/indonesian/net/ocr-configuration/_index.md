@@ -107,6 +107,10 @@ Pelajari cara mengaktifkan lisensi Aspose OCR dalam aplikasi C# Anda dengan pand
 Panduan langkah demi langkah membuat PDF dapat dicari dengan menggunakan Aspose.OCR di C#.
 ### [Cara Mengaktifkan OCR di C# – Mengonversi PDF ke Teks dengan Mudah](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Pelajari cara mengaktifkan OCR di C# untuk mengonversi file PDF menjadi teks secara cepat dan akurat.
+### [Cara Menyimpan JSON dari OCR di C# – Panduan Lengkap Langkah‑per‑Langkah](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Pelajari cara menyimpan hasil OCR sebagai JSON di C# dengan contoh lengkap langkah demi langkah menggunakan Aspose.OCR.
+### [Mengenali Teks Cina Secara Offline – Panduan Lengkap C#](./recognize-chinese-text-offline-complete-c-guide/)
+Pelajari cara mengenali teks Cina secara offline menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
 
 
 

@@ -190,6 +190,10 @@ Apprenez à exploiter la puissance GPU pour accélérer l'extraction de texte à
 Apprenez à appliquer des filtres de prétraitement pour augmenter la précision de l’OCR avec Aspose.OCR en C#.
 ### [Comment réaliser un OCR par lots en C# – Guide complet pour extraire du texte d'images](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
 Apprenez à traiter plusieurs images simultanément avec Aspose.OCR en C#, optimisant le débit et la précision.
+### [Comment activer le GPU pour l'OCR en C# – Reconnaître le texte](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+Apprenez à activer l'accélération GPU dans Aspose.OCR pour .NET afin d'améliorer les performances de reconnaissance de texte.
+### [Comment effectuer l'OCR en C# – Guide complet avec prétraitement](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+Suivez notre guide complet pour réaliser l'OCR en C# avec des étapes de prétraitement afin d'optimiser la précision.
 
 ## Questions fréquemment posées
 

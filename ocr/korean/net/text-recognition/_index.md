@@ -319,6 +319,12 @@ Aspose OCR을 활용해 C#에서 OCR을 실행하는 전체 과정을 단계별�
 ### [C#에서 이미지 텍스트 인식 – Aspose OCR 라이선스 삽입](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
 Aspose OCR 라이선스를 삽입하여 C#에서 이미지 텍스트를 인식하는 방법을 단계별로 안내합니다.
 
+### [Aspose OCR로 아랍어 텍스트 인식 – 다국어 가이드](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Aspose OCR를 사용하여 .NET에서 아랍어 텍스트를 인식하고 다국어 지원 기능을 활용하는 방법을 단계별로 안내합니다.
+### [C#으로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-in-c-step-by-step-guide/)
+Aspose.OCR를 사용하여 .NET에서 검색 가능한 PDF를 생성하고 통합하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지 ePub으로 변환 – 단계별 가이드](./convert-image-to-epub-in-c-step-by-step-guide/)
+Aspose.OCR를 활용해 C#에서 이미지를 ePub 형식으로 변환하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
