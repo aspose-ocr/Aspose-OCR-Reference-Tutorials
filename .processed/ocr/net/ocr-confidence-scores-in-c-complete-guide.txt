@@ -1,0 +1,7 @@
+Title: OCR confidence scores in C# – Complete Guide
+Slug: ocr-confidence-scores-in-c-complete-guide
+Category: ocr-optimization
+ProcessedDate: 2026-05-31T19:26:32.746898
+SourceRepo: AI Search API
+Keywords: ocr confidence scores, extract text from image, ocr bounding boxes, perform ocr on jpg, read receipt image
+PRNumber: 135

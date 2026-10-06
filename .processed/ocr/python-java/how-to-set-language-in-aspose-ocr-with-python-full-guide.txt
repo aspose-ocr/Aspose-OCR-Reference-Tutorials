@@ -1,0 +1,7 @@
+Title: How to Set Language in Aspose OCR with Python – Full Guide
+Slug: how-to-set-language-in-aspose-ocr-with-python-full-guide
+Category: general
+ProcessedDate: 2026-07-05T12:19:09.658500
+SourceRepo: AI Search API
+Keywords: how to set language, how to use ocr, how to extract text, extract text png, image to text python
+PRNumber: 170

@@ -60,6 +60,8 @@ Szabadítsd fel a szövegfelismerés lehetőségét az Aspose.OCR for .NET segí
 Szabadítsd fel az Aspose.OCR for .NET lehetőségét a sorok felismerésében az OCR képfelismerésben. Fejlesztőknek szóló útmutató a képek zökkenőmentes szövegkinyeréshez.
 ### [OCR végrehajtása képen az OCR képfelismerésben](./perform-ocr-on-image/)
 Szabadítsd fel az OCR varázslatát az Aspose.OCR for .NET segítségével, könnyedén nyerj szöveget a képekből. Fedezd fel az oktatóanyagot a zökkenőmentes integrációért.
+### [Hogyan engedélyezzük az űrlapokat és extraháljunk táblázatokat OCR-rel C#‑ban – Teljes útmutató](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Fedezd fel, hogyan használhatod az Aspose.OCR-t űrlapok engedélyezésére és táblázatok kinyerésére C#‑ban, lépésről‑lépésre útmutatóval.
 ### [Táblázat mentése CSV-be C#-ban – Teljes Aspose OCR útmutató](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 Ismerd meg, hogyan mentheted el a táblázatot CSV formátumban C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutató.
 

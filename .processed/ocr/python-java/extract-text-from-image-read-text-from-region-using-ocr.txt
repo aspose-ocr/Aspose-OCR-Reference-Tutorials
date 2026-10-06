@@ -1,0 +1,7 @@
+Title: Extract Text from Image – Read Text from Region Using OCR
+Slug: extract-text-from-image-read-text-from-region-using-ocr
+Category: general
+ProcessedDate: 2026-07-05T12:19:17.129660
+SourceRepo: AI Search API
+Keywords: extract text from image, read text from region, load image for ocr, extract text from invoice, ocr on region
+PRNumber: 170

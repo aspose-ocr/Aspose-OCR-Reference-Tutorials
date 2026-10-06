@@ -1,0 +1,7 @@
+Title: recognize text from image in Java with GPU‑accelerated OCR
+Slug: recognize-text-from-image-in-java-with-gpu-accelerated-ocr
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-19T15:26:20.647075
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from png, how to recognize text, gpu accelerated ocr, java ocr tutorial
+PRNumber: 149

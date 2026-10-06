@@ -67,7 +67,8 @@ Aspose.OCR for .NET के साथ टेक्स्ट रिकग्नि
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
 Aspose.OCR की क्षमता को लाइन पहचानने में अनलॉक करें। इमेज से टेक्स्ट एक्सट्रैक्शन के लिए डेवलपर गाइड।
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
-Aspose.OCR के साथ OCR जादू को अनलॉक करें और इमेज से टेक्स्ट को सहजता से निकालें। सहज इंटीग्रेशन के लिए ट्यूटोरियल देखें।
+### [How to Enable Forms and Extract Tables with OCR in C# – Complete Guide](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Aspose.OCR के साथ फ़ॉर्म सक्षम करें और C# में टेबल्स को निकालें। पूर्ण गाइड।
 ### [C# में टेबल को CSV के रूप में सहेजें – Aspose OCR पूर्ण गाइड](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 Aspose OCR का उपयोग करके इमेज में टेबल को पहचानें और उसे CSV फ़ाइल में निर्यात करें।
 

@@ -74,6 +74,8 @@ Aspose.OCR 提供灵活的 API，允许您定位特定文本区域、处理图�
 ### [对图像执行 OCR（OCR 图像识别）](./perform-ocr-on-image/)
 使用 Aspose.OCR for .NET 解锁 OCR 魔力，轻松从图像中提取文本。浏览教程，实现无缝集成。
 
+### [如何在 C# 中启用表单并使用 OCR 提取表格 – 完整指南](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+使用 Aspose.OCR for .NET 在 C# 中启用表单识别并提取表格数据，完整步骤指南。
 ### [在 C# 中将表格保存为 CSV – 完整 Aspose OCR 指南](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 演示如何使用 Aspose.OCR 将图像中的表格识别并导出为 CSV 文件，适用于 C# 开发者。
 

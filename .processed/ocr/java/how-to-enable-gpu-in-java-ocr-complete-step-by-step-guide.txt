@@ -1,0 +1,7 @@
+Title: How to enable GPU in Java OCR – Complete Step‑by‑Step Guide
+Slug: how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-07T03:19:16.699418
+SourceRepo: AI Search API
+Keywords: how to enable gpu, extract text from jpeg, convert image to text, java ocr example, gpu accelerated ocr
+PRNumber: 141
