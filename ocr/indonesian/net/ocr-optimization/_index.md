@@ -198,6 +198,12 @@ Panduan lengkap untuk mengekstrak teks dari gambar menggunakan C#, termasuk tekn
 Manfaatkan akselerasi GPU Aspose OCR untuk mengenali teks secara cepat menggunakan C# dalam aplikasi .NET Anda.
 ### [Cara Menggunakan Filter di Aspose OCR – Tingkatkan Ekstraksi Teks](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Pelajari cara menerapkan filter Aspose OCR untuk meningkatkan akurasi dan kecepatan ekstraksi teks dari gambar.
+### [c# OCR tutorial – Ekstrak Teks dari Gambar dengan Akselerasi GPU](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Pelajari cara mempercepat proses OCR pada gambar menggunakan GPU dengan Aspose.OCR untuk .NET, meningkatkan kecepatan dan akurasi secara signifikan.
+### [Pra-pemrosesan Gambar OCR di C# – Panduan Lengkap untuk Meningkatkan Akurasi](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan di C# untuk meningkatkan akurasi OCR secara signifikan.
+### [Cara Batch OCR di C# – Panduan Lengkap untuk Mengekstrak Teks dari Gambar](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Pelajari cara melakukan OCR secara batch di C#, mengoptimalkan proses ekstraksi teks dari banyak gambar dengan mudah.
 
 ## Pertanyaan yang Sering Diajukan
 

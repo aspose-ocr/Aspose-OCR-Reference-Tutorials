@@ -314,6 +314,18 @@ Ismerje meg, hogyan nyerhet ki szöveget képekből C#‑ban az Aspose.OCR segí
 Tanulja meg, hogyan alakíthat beolvasott képeket kereshető PDF-fé az Aspose OCR .NET segítségével.
 ### [Kép konvertálása JSON formátumba az Aspose OCR‑rel – lépésről‑lépésre útmutató](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat képet JSON formátumba az Aspose OCR segítségével .NET környezetben, részletes lépésről‑lépésre útmutatóval.
+### [Kereshető PDF létrehozása C#‑ban – Kép PDF-re OCR](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+Az Aspose.OCR segítségével tárja fel az OCR-ben rejlő lehetőségeket a .NET-ben. Könnyedén bontsa ki a szöveget a PDF-ekből. Töltse le most a zökkenőmentes integrációs élményért.
+### [Kereshető PDF létrehozása C#‑ban – Képek függőleges kombinálása](./create-searchable-pdf-in-c-combine-images-vertically/)
+Ismerje meg, hogyan kombinálhatja a képeket függőlegesen, és hozhat létre kereshető PDF-et C#‑ban az Aspose.OCR segítségével.
+### [Szöveg kinyerése képből C#‑ban – Offline OCR lépésről‑lépésre útmutató](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#‑ban offline OCR használatával, lépésről‑lépésre útmutatóval.
+### [Djvu konvertálása szöveggé C#‑ban az Aspose OCR segítségével – Teljes útmutató](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+Tanulja meg, hogyan konvertálhatja a Djvu fájlokat szöveggé C#‑ban az Aspose OCR használatával, lépésről‑lépésre útmutatóval.
+### [OCR futtatása C#‑ban az Aspose OCR segítségével – Teljes útmutató](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+Tanulja meg, hogyan futtathatja az OCR-t az Aspose OCR segítségével C#‑ban, lépésről‑lépésre útmutatóval.
+### [Szöveg felismerése képről C#‑ban – Aspose OCR licenc beágyazása](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+Ismerje meg, hogyan ágyazhatja be az Aspose OCR licencet C#‑ban a képről történő szövegfelismeréshez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -321,6 +321,19 @@ Pelajari cara mengonversi gambar hasil pemindaian menjadi PDF yang dapat dicari 
 Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan lengkap langkah demi langkah.
 ### [Mengonversi Gambar ke JSON dengan Aspose OCR – Panduan Langkah demi Langkah](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 Pelajari cara mengonversi gambar menjadi JSON menggunakan Aspose OCR dalam .NET dengan panduan langkah demi langkah.
+### [Buat PDF yang Dapat Dicari dengan C# – OCR Gambar ke PDF](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+Buat PDF yang dapat dicari dari gambar menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami untuk mengonversi gambar menjadi PDF dengan OCR.
+### [Buat PDF yang Dapat Dicari dengan C# – Menggabungkan Gambar Secara Vertikal](./create-searchable-pdf-in-c-combine-images-vertically/)
+Gabungkan beberapa gambar secara vertikal dan ubah menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C#.
+### [Ekstrak Teks dari Gambar di C# – Panduan OCR Offline Langkah‑demi‑Langkah](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+Ekstrak teks dari gambar menggunakan OCR offline di C#. Ikuti panduan langkah demi langkah kami untuk hasil akurat.
+### [Konversi Djvu ke Teks di C# dengan Aspose OCR – Tutorial Lengkap](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+Pelajari cara mengonversi file Djvu menjadi teks menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara Menjalankan OCR dengan Aspose OCR di C# – Panduan Lengkap](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+Pelajari cara menjalankan OCR menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah untuk hasil akurat.
+### [Mengenali Teks dari Gambar di C# – Menyematkan Lisensi Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+Pelajari cara menyematkan lisensi Aspose OCR dalam aplikasi C# untuk mengenali teks dari gambar secara akurat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

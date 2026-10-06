@@ -189,6 +189,15 @@ GPU‑सहायता प्राप्त OCR के साथ तेज़
 ### [Aspose OCR GPU: C# के साथ तेज़ टेक्स्ट पहचान](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 GPU त्वरण के साथ Aspose OCR का उपयोग करके C# में तेज़ और सटीक टेक्स्ट पहचान कैसे करें, सीखें।
 
+### [c# OCR ट्यूटोरियल – GPU त्वरण के साथ छवियों से पाठ निकालें](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+GPU त्वरण के साथ छवियों से तेज़ी से पाठ निकालें और Aspose.OCR की शक्ति को बढ़ाएँ।
+
+### [C# में इमेज OCR पूर्व‑प्रसंस्करण – सटीकता बढ़ाने के लिए पूर्ण गाइड](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+इमेज OCR की सटीकता बढ़ाने के लिए प्री‑प्रोसेसिंग तकनीकों को C# में लागू करने का विस्तृत मार्गदर्शन।
+
+### [C# में बैच OCR कैसे करें – छवियों से पाठ निकालने के लिए पूर्ण गाइड](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Aspose.OCR for .NET के साथ C# में बैच OCR लागू करें और कई छवियों से तेज़ी से पाठ निकालें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

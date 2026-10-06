@@ -64,15 +64,15 @@ Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met Aspose.OCR v
 Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR‑optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET tutorials.
 
 ## OCR-optimalisatie tutorials
-
-
-
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids. Leer stap‑voor‑stap hoe je rechthoeken voorbereidt voor beeldherkenning. Til je .NET‑applicaties naar een hoger niveau met naadloze OCR‑integratie.
 ### [Hoe OCR te gebruiken in C# – Tekst uit afbeeldingen halen met GPU-versnelling](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
 Leer hoe u OCR in C# kunt inzetten met GPU-versnelling om snel tekst uit afbeeldingen te extraheren.
 ### [Maak doorzoekbare PDF met batch-OCR – C#-gids](./create-searchable-pdf-with-batch-ocr-c-guide/)
 Leer hoe u met batch-OCR doorzoekbare PDF's maakt in C# met Aspose.OCR.
+### [Preprocess Image OCR in C# – Complete gids voor het verbeteren van de nauwkeurigheid](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Leer hoe je met C# beeld‑preprocessing toepast om OCR‑nauwkeurigheid aanzienlijk te verhogen.
+
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met deze uitgebreide stap‑voor‑stap gids.
 ### [Tekst extraheren uit afbeelding in C# – Complete OCR-gids](./extract-text-from-image-in-c-complete-ocr-guide/)
@@ -198,6 +198,12 @@ Leer hoe je met Aspose.OCR in C# tekst uit afbeeldingen haalt en ruis vermindert
 Maak gebruik van GPU-versnelling voor razendsnelle OCR in C# met Aspose OCR, ideaal voor grote volumes en realtime toepassingen.
 ### [Hoe filters te gebruiken in Aspose OCR – Verbeter tekstextractie](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Leer hoe je filters toepast in Aspose OCR om de nauwkeurigheid van tekstextractie aanzienlijk te verhogen.
+
+### [c# OCR-tutorial – Tekst extraheren uit afbeeldingen met GPU-versnelling](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Gebruik GPU-versnelling om OCR-prestaties te verbeteren en tekst nauwkeurig uit afbeeldingen te halen met Aspose.OCR voor .NET.
+
+### [Hoe batch-OCR uit te voeren in C# – Complete gids voor het extraheren van tekst uit afbeeldingen](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Leer hoe je in C# batch‑OCR implementeert om efficiënt tekst uit meerdere afbeeldingen te extraheren.
 
 ## Veelgestelde vragen
 

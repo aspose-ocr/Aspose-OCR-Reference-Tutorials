@@ -314,6 +314,18 @@ url: /el/net/text-recognition/
 Μετατρέψτε σαρωμένες εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας το Aspose.OCR για .NET. Ακολουθήστε τον βήμα‑βήμα οδηγό μας.
 ### [Μετατροπή εικόνας σε JSON με Aspose OCR – οδηγός βήμα‑βήμα](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε εικόνες σε JSON χρησιμοποιώντας το Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης σε C# – OCR εικόνας σε PDF](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+Μάθετε πώς να μετατρέψετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR σε C#.
+### [Απόσπαση κειμένου από εικόνα σε C# – Offline OCR βήμα‑βήμα οδηγός](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+Αποκτήστε κείμενο από εικόνα σε C# με offline OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Μετατροπή Djvu σε κείμενο σε C# με Aspose OCR – Πλήρης οδηγός](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+Μάθετε πώς να μετατρέψετε αρχεία Djvu σε κείμενο χρησιμοποιώντας Aspose OCR σε C# με βήμα‑βήμα οδηγίες.
+### [Πώς να εκτελέσετε OCR με το Aspose OCR σε C# – Πλήρης οδηγός](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+Μάθετε πώς να εκτελέσετε OCR με το Aspose OCR σε C# βήμα‑βήμα, εξασφαλίζοντας ακριβή αναγνώριση κειμένου.
+### [Αναγνώριση κειμένου από εικόνα σε C# – ενσωμάτωση άδειας Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+Μάθετε πώς να ενσωματώσετε την άδεια Aspose OCR σε εφαρμογή C# για αναγνώριση κειμένου από εικόνα.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης σε C# – Συνδυασμός εικόνων κατακόρυφα](./create-searchable-pdf-in-c-combine-images-vertically/)
+Μάθετε πώς να δημιουργήσετε PDF με δυνατότητα αναζήτησης συνδυάζοντας εικόνες κατακόρυφα χρησιμοποιώντας Aspose.OCR σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

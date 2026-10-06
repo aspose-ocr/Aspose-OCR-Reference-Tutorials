@@ -70,8 +70,6 @@ Kibontakoztatja az Aspose.OCR-ben rejlő lehetőségeket .NET-hez átfogó útmu
 Fedezze fel az Aspose.OCR-t .NET-hez. Növelje az OCR pontosságát előfeldolgozó szűrőkkel. Töltse le most a zökkenőmentes integráció érdekében.
 ### [Képek előfeldolgozása OCR-ben C#‑ban – Teljes útmutató szűrőkkel](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
 Ismerje meg, hogyan használhatja a szűrőket a képek előfeldolgozásához C#‑ban, hogy javítsa az OCR pontosságát és teljesítményét.
-### [Eredményjavítás helyesírás-ellenőrzéssel az OCR képfelismerésben](./result-correction-with-spell-checking/)
-Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Helyesírások javítása, szótárak testreszabása és hibamentes szövegfelismerés problémamentesen.
 ### [Mentse el a többoldalas eredményt dokumentumként az OCR képfelismerésben](./save-multipage-result-as-document/)
 Engedje ki az Aspose.OCR-ben rejlő lehetőségeket a .NET számára. Ezzel az átfogó, lépésenkénti útmutatóval könnyedén mentheti a többoldalas OCR-eredményeket dokumentumként.
 ### [Szűrők használata az Aspose OCR-ben – Szövegkinyerés fokozása](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
@@ -84,6 +82,8 @@ Fedezze fel, hogyan használhatja a GPU‑gyorsított OCR‑t C#‑ban a szöveg
 
 ### [Szöveg kinyerése képről – Teljes C# OCR útmutató zajcsökkentéssel](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Fedezze fel, hogyan csökkentheti a zajt és növelheti az OCR pontosságát egy átfogó C# útmutatóval a szöveg képről történő kinyeréséhez.
+### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
+Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
 
 ### [Hogyan használja az Aspose OCR-t GPU-val – Lépésről‑lépésre útmutató](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 Fedezze fel, hogyan gyorsíthatja az OCR-t GPU-val az Aspose OCR segítségével, részletes lépésről‑lépésre útmutatóval.
@@ -176,6 +176,15 @@ Ismerje meg, hogyan használhatja a GPU-t az Aspose OCR C#‑ban a képek gyors 
 
 ### [Hogyan javítsuk az OCR-t C#‑ban – Kép kiegyenesítése, zajszűrés és forgatás](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 Fedezze fel, hogyan lehet javítani az OCR pontosságát C#‑ban a képek kiegyenesítésével, zajszűrésével és forgatásával.
+
+### [c# OCR oktatóanyag – Szöveg kinyerése képekből GPU gyorsítással](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Fedezze fel, hogyan használhatja a GPU gyorsítást a képek szövegének kinyeréséhez C#-ban az Aspose.OCR for .NET segítségével.
+
+### [Képelőfeldolgozás OCR C#‑ban – Teljes útmutató a pontosság növeléséhez](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Fedezze fel, hogyan növelheti az OCR pontosságát képek előfeldolgozásával C#‑ban az Aspose.OCR for .NET segítségével.
+
+### [c# OCR oktatóanyag – Kötegelt OCR a képek szövegének kinyeréséhez](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Fedezze fel, hogyan végezhet kötegelt OCR feldolgozást C#‑ban az Aspose.OCR for .NET segítségével, több képet egyszerre kinyerve.
 
 ## Gyakran Ismételt Kérdések
 

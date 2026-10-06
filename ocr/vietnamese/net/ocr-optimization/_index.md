@@ -163,6 +163,12 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xu�
 ### [Aspose OCR GPU: Nhận dạng văn bản nhanh bằng C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 Tận dụng GPU để tăng tốc độ nhận dạng ký tự bằng Aspose OCR trong C#, đạt hiệu suất cao và độ chính xác tốt.
 ### [Cách sử dụng bộ lọc trong Aspose OCR – Tăng cường trích xuất văn bản](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
+### [Tiền xử lý hình ảnh OCR trong C# – Hướng dẫn toàn diện để tăng độ chính xác](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
+Khám phá cách tối ưu hoá OCR bằng tiền xử lý ảnh trong C#, nâng cao độ chính xác và hiệu suất.
+### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh với tăng tốc GPU](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
+Khám phá cách sử dụng OCR C# với hỗ trợ GPU để tăng tốc độ và độ chính xác khi trích xuất văn bản từ hình ảnh.
+### [Hướng dẫn OCR hàng loạt trong C# – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-batch-ocr-in-c-complete-guide-for-extracting-text-fro/)
+Tìm hiểu cách thực hiện OCR hàng loạt trên nhiều hình ảnh bằng C# và Aspose.OCR, tăng năng suất và độ chính xác.
 
 ## Câu hỏi thường gặp
 

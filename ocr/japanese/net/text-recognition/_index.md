@@ -316,6 +316,18 @@ Aspose.OCR を使用して C# アプリケーションで画像からテキス�
 Aspose OCR を活用し、スキャンした画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
 ### [Aspose OCR で画像を JSON に変換する – 完全ステップバイステップガイド](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR を使用して画像認識結果を JSON 形式にエクスポートする手順を詳しく解説します。
+### [C# で検索可能な PDF を作成 – 画像から PDF への OCR](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+Aspose.OCR を使用して画像から PDF を作成し、検索可能な PDF を生成する方法をステップバイステップで解説します。
+### [C# で検索可能な PDF を作成 – 画像を縦に結合](./create-searchable-pdf-in-c-combine-images-vertically/)
+Aspose.OCR を使用して、画像を縦に結合し、検索可能な PDF を作成する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出 – オフライン OCR ステップバイステップガイド](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+Aspose.OCR を使用して C# で画像からテキスト抽出し、オフライン OCR をステップバイステップで実装する方法を解説します。
+### [C# で Djvu をテキストに変換 – Aspose OCR 完全チュートリアル](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+Aspose OCR を使用して C# で Djvu ファイルをテキストに変換する方法をステップバイステップで解説します。
+### [C# で Aspose OCR を使用して OCR を実行する – 完全ガイド](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+Aspose OCR を使って C# で画像からテキストを抽出し、OCR を実行する手順をステップバイステップで解説します。
+### [C# で画像からテキストを認識 – Aspose OCR ライセンスを埋め込む](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+Aspose OCR のライセンスを埋め込み、C# で画像からテキストを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
