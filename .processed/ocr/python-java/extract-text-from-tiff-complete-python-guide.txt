@@ -1,0 +1,7 @@
+Title: Extract Text from TIFF – Complete Python Guide
+Slug: extract-text-from-tiff-complete-python-guide
+Category: general
+ProcessedDate: 2026-06-16T13:51:03.395398
+SourceRepo: AI Search API
+Keywords: extract text from tiff, convert tiff to text
+PRNumber: 146

@@ -1,0 +1,7 @@
+Title: Perform OCR on Image in Python – Full Text Extraction Guide
+Slug: perform-ocr-on-image-in-python-full-text-extraction-guide
+Category: general
+ProcessedDate: 2026-06-19T16:20:16.624428
+SourceRepo: AI Search API
+Keywords: perform ocr on image, recognize text from jpeg, detect text from image, extract text from scanned image, load image for ocr
+PRNumber: 151

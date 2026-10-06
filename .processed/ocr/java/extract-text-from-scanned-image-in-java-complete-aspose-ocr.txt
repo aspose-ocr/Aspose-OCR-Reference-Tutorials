@@ -1,0 +1,7 @@
+Title: Extract Text from Scanned Image in Java – Complete Aspose OCR Guide
+Slug: extract-text-from-scanned-image-in-java-complete-aspose-ocr
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-07T03:19:20.407406
+SourceRepo: AI Search API
+Keywords: extract text from scanned image, recognize text from tiff
+PRNumber: 141

@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from Images in Java – Complete Batch OCR Guide
+Slug: create-searchable-pdf-from-images-in-java-complete-batch-ocr
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-19T15:26:24.899397
+SourceRepo: AI Search API
+Keywords: create searchable pdf, batch ocr processing, images to searchable pdf, batch convert images, ocr language spanish
+PRNumber: 149
