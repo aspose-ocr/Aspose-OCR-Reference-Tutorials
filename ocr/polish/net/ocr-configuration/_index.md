@@ -45,7 +45,7 @@ Wyodrębnianie OCR polega na przekazaniu obrazu (lub zestawu obrazów) do Aspose
 Zanurz się w świat OCR z Aspose.OCR i odkryj, jak krok po kroku wyodrębniać tekst z obrazów znajdujących się w archiwach. Ten samouczek dostarcza kompleksowych informacji o wykorzystaniu możliwości OCR w aplikacjach .NET. Od instalacji po implementację, odkryj magię wyodrębniania tekstu.
 
 ## OCROperation with Folder in OCR Image Recognition
-Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Ten samouczek wyposaży Cię w wiedzę niezbędną do łatwego wyodrębniania tekstu z obrazów przechowywanych w folderach. Zwiększ efektywność ekstrakcji danych i usprawnij możliwości OCR w swojej aplikacji.
+Odblokuj moc rozpoznawania obrazu OCR w .NET dzięki Aspose.OCR. Ten samouczek wyposaży Cię w wiedzę niezbędną do łatwego wyodrębniać tekst z obrazów przechowywanych w folderach. Zwiększ efektywność ekstrakcji danych i usprawnij możliwości OCR w swojej aplikacji.
 
 ## OCROperation with Language Selection in OCR Image Recognition
 Podnieś możliwości OCR na wyższy poziom, opanowując **ocr language selection** w Aspose.OCR dla .NET. Ten samouczek poprowadzi Cię przez proces płynnego wyodrębniania tekstu z obrazów w różnych językach. Wzbogaci Twoją aplikację o wielojęzyczne funkcje OCR.
@@ -53,7 +53,6 @@ Podnieś możliwości OCR na wyższy poziom, opanowując **ocr language selectio
 ## OCROperation with List in OCR Image Recognition
 Poznaj ogromny potencjał Aspose.OCR dla .NET, wykonując rozpoznawanie obrazu OCR przy użyciu list. Ten samouczek nie tylko usprawnia wyodrębnianie tekstu, ale także zwiększa produktywność przy obsłudze różnorodnych zestawów danych. Odkryj efektywność OCR w operacjach na listach.
 
-## Samouczki konfiguracji OCR
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Uzyskaj potężne możliwości OCR z Aspose.OCR dla .NET. Bezproblemowo wyodrębniaj tekst z obrazów w różnych językach.
 
@@ -70,6 +69,11 @@ Dowiedz się, jak używać Aspose.OCR w C# do konwersji PDF na tekst w kilku pro
 Dowiedz się, jak wyodrębnić wyniki OCR i zapisać je jako JSON przy użyciu Aspose.OCR w C#.
 ### [Rozpoznawanie chińskiego tekstu offline – Kompletny przewodnik C#](./recognize-chinese-text-offline-complete-c-guide/)
 Kompletny przewodnik, jak offline rozpoznawać chiński tekst w C# przy użyciu Aspose.OCR.
+### [Jak sprawdzić dostępność modelu OCR w C# – przewodnik krok po kroku](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# zweryfikować dostępność modelu OCR przed przetwarzaniem obrazów.
+
+### [Jak utworzyć silnik OCR w C# – przewodnik konfiguracji offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Dowiedz się, jak skonfigurować własny silnik OCR w C# bez połączenia z internetem, krok po kroku.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

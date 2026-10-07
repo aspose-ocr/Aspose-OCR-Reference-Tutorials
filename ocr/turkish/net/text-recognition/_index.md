@@ -332,6 +332,13 @@ Arapça metinleri tanıma ve çok dilli OCR özelliklerini kullanma konusunda ad
 C# kullanarak PDF'leri arama yapılabilir hale getirmenin adımlarını öğrenin ve Aspose.OCR ile kolayca uygulayın.
 ### [C# ile Görüntüyü ePub'a Dönüştürme – Adım Adım Kılavuz](./convert-image-to-epub-in-c-step-by-step-guide/)
 Görüntüleri ePub formatına dönüştürmeyi öğrenin ve C# ile dijital yayınlar oluşturun.
+### [Aspose OCR ile Görüntüde OCR Çalıştırma – Çince Metni Tanıma](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aspose OCR kullanarak bir görüntüde Çince metni tanıma adımlarını öğrenin ve .NET uygulamalarınıza entegre edin.
+### [c# OCR eğitimi: Görüntülerden Arapça Metin Çıkarma](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Aspose OCR kullanarak görüntülerden Arapça metin çıkarmayı adım adım öğrenin ve .NET uygulamalarınıza entegre edin.
+### [Aspose OCR ile Görüntüden Excel Oluşturma – Adım Adım Rehber](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR kullanarak bir görüntüden Excel dosyası oluşturmayı adım adım öğrenin ve .NET projelerinize entegre edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

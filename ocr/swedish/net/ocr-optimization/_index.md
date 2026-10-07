@@ -199,6 +199,10 @@ Lär dig hur du bearbetar flera bilder samtidigt med Aspose.OCR i C# för snabb 
 ### [Hur du utför OCR i C# – Komplett guide med förbehandling](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Lär dig steg‑för‑steg hur du utför OCR i C# med omfattande förbehandlingssteg för bästa noggrannhet.
 ### [Hur du aktiverar GPU för OCR i C# – Känn igen text](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
+### [Hur man räta upp bild för OCR – Steg‑för‑steg C#‑guide](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Steg‑för‑steg‑guide för att räta upp bilder i C# och maximera OCR‑precision med Aspose.OCR.
+### [Korrekt bildrotation i C# – Fullständig guide för OCR‑noggrannhet](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Lär dig hur du rättar bildrotation i C# för att maximera OCR‑noggrannheten med praktiska exempel och kod.
 
 ## Vanliga frågor
 

@@ -200,6 +200,10 @@ weight: 25
 تعلم كيفية تمكين GPU لتسريع عملية OCR في C# وتحسين دقة التعرف على النص.
 ### [كيفية إجراء OCR في C# – دليل كامل مع ما قبل المعالجة](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 دليل شامل يوضح خطوات تنفيذ OCR في C# مع تطبيق فلاتر ما قبل المعالجة لتحسين الدقة.
+### [تصحيح دوران الصورة في C# – دليل كامل لتحسين دقة OCR](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+دليل شامل لتصحيح دوران الصور باستخدام C# وتحسين دقة OCR مع Aspose.OCR.
+### [تصحيح دوران الصورة في C# – دليل خطوة بخطوة لتحسين OCR](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+تعلم كيفية تصحيح دوران الصور باستخدام C# لتحسين دقة OCR مع Aspose.OCR.
 
 ## الأسئلة المتكررة
 

@@ -339,6 +339,12 @@ Lär dig hur du med Aspose OCR kan känna igen arabisk text i flerspråkiga scen
 Lär dig hur du skapar sökbara PDF-filer i C# med Aspose.OCR genom en enkel steg‑för‑steg‑guide.
 ### [Konvertera bild till ePub i C# – Steg‑för‑steg‑guide](./convert-image-to-epub-in-c-step-by-step-guide/)
 Lär dig hur du konverterar en bild till ePub-format i C# med en enkel steg‑för‑steg‑guide.
+### [Kör OCR på bild med Aspose OCR – Känn igen kinesisk text](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Lär dig hur du med Aspose OCR för .NET utför OCR på en bild och känner igen kinesisk text på några enkla steg.
+### [c# OCR-handledning: Extrahera arabisk text från bilder](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Lär dig hur du med Aspose OCR för .NET extraherar arabisk text från bilder i en C#-applikation med enkla steg.
+### [Skapa Excel från bild med Aspose OCR – Steg‑för‑steg‑guide](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Lär dig hur du med Aspose OCR för .NET omvandlar en bild till en Excel-fil i en enkel steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

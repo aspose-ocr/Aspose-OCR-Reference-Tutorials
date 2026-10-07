@@ -332,6 +332,12 @@ Fedezze fel, hogyan ismerheti fel az arab nyelvű szöveget az Aspose OCR többn
 Ismerje meg, hogyan hozhat létre kereshető PDF‑eket C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [Kép konvertálása ePub formátumba C#‑ban – Lépésről‑lépésre útmutató](./convert-image-to-epub-in-c-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat képeket ePub formátumba C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [OCR futtatása képen az Aspose OCR-rel – Kínai szöveg felismerése](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t kínai szöveg felismerésére képeken C#-ban, lépésről-lépésre útmutatóval.
+### [c# OCR oktatóanyag – Arab szöveg kinyerése képekből](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Ismerje meg, hogyan nyerhet ki arab nyelvű szöveget képekből C#-ban az Aspose OCR használatával, részletes lépésről-lépésre útmutatóval.
+### [Excel létrehozása képből az Aspose OCR-rel – Lépésről‑lépésre útmutató](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre Excel-fájlt képekből az Aspose OCR segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

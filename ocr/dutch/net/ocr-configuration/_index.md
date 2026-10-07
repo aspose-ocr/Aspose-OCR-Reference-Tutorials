@@ -74,6 +74,10 @@ Leer hoe je met Aspose.OCR PDF-bestanden omzet naar bewerkbare tekst in C# met e
 Leer hoe je Chinese tekens offline kunt herkennen met Aspose.OCR in een volledige C#-handleiding.
 ### [Hoe JSON van OCR op te slaan in C# – Complete stapsgewijze handleiding](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 Leer hoe je JSON-output van OCR opslaat in C# met een volledige stap‑voor‑stap gids.
+### [Hoe een OCR-engine te maken in C# – Offline installatiegids](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Leer stap‑voor‑stap hoe je een offline OCR‑engine in C# opzet met Aspose.OCR, zonder internetverbinding.
+### [Hoe de beschikbaarheid van een OCR‑model te controleren in C# – Stapsgewijze gids](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Leer stap‑voor‑stap hoe je de beschikbaarheid van OCR‑modellen controleert in C# met Aspose.OCR.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

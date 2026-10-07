@@ -337,6 +337,12 @@ Khám phá cách nhận dạng văn bản tiếng Ả Rập bằng Aspose OCR tr
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose.OCR trong C#, từ xử lý hình ảnh đến xuất file PDF.
 ### [Chuyển đổi hình ảnh sang ePub trong C# – Hướng dẫn từng bước](./convert-image-to-epub-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành định dạng ePub bằng Aspose.OCR trong C#, từng bước một.
+### [Chạy OCR trên hình ảnh với Aspose OCR – Nhận dạng văn bản tiếng Trung](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng văn bản tiếng Trung trong hình ảnh, với hướng dẫn chi tiết từng bước.
+### [Hướng dẫn OCR C#: Trích xuất văn bản tiếng Ả Rập từ hình ảnh](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản tiếng Ả Rập từ hình ảnh một cách nhanh chóng và chính xác.
+### [Tạo Excel từ hình ảnh với Aspose OCR – Hướng dẫn từng bước](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Khám phá cách sử dụng Aspose OCR để chuyển đổi hình ảnh thành tệp Excel một cách nhanh chóng và chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

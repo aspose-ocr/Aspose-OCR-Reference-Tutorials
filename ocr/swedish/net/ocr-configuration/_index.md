@@ -68,6 +68,10 @@ Använd GPU‑accelererad OCR för snabb kvittotextutvinning i C#‑applikatione
 ### [Hur man aktiverar OCR i C# – Konvertera PDF till text enkelt](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 ### [Hur man sparar JSON från OCR i C# – Komplett steg‑för‑steg‑guide](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 ### [Känn igen kinesisk text offline – Komplett C#‑guide](./recognize-chinese-text-offline-complete-c-guide/)
+### [Hur man skapar OCR‑motor i C# – Offline‑installationsguide](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Lär dig skapa en OCR-motor i C# med offline‑installation och konfiguration för Aspose.OCR.
+### [Hur man kontrollerar OCR-modellens tillgänglighet i C# – Steg‑för‑steg‑guide](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Lär dig hur du verifierar om en OCR-modell är tillgänglig i C# innan du påbörjar bildigenkänning.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

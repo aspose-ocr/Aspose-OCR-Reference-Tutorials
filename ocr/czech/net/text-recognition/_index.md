@@ -343,6 +343,11 @@ Naučte se rozpoznávat arabský text v různých jazycích pomocí Aspose OCR a
 Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF soubor v C# s podrobným návodem.
 ### [Převod obrázku na ePub v C# – krok‑po‑kroku průvodce](./convert-image-to-epub-in-c-step-by-step-guide/)
 Naučte se převést obrázek do formátu ePub pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
+### [Spusťte OCR na obrázku pomocí Aspose OCR – Rozpoznání čínského textu](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Naučte se, jak pomocí Aspose OCR rozpoznat čínské znaky na obrázcích ve vašich .NET aplikacích.
+### [Vytvořte Excel z obrázku pomocí Aspose OCR – průvodce krok za krokem](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Naučte se, jak pomocí Aspose OCR převést obrázek do souboru Excel v několika jednoduchých krocích.
+### [c# OCR tutoriál – Extrahování arabského textu z obrázků](./c-ocr-tutorial-extract-arabic-text-from-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Erfahren Sie, wie Sie mit Aspose.OCR PDF‑Dateien in C# schnell in durchsuchbar
 ### [Wie man JSON aus OCR in C# speichert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 Speichern Sie OCR‑Ergebnisse als JSON in C# mit einer detaillierten Schritt‑für‑Schritt‑Anleitung.
 ### [Chinesischen Text offline erkennen – Vollständige C#‑Anleitung](./recognize-chinese-text-offline-complete-c-guide/)
+### [Wie man die Verfügbarkeit von OCR‑Modellen in C# prüft – Schritt‑für‑Schritt‑Anleitung](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie in C# prüfen, ob ein OCR‑Modell verfügbar ist, und es bei Bedarf laden.
+### [Wie man eine OCR-Engine in C# erstellt – Offline-Setup-Anleitung](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Erfahren Sie, wie Sie eine OCR-Engine in C# offline einrichten und konfigurieren, ohne Internetverbindung.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

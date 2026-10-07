@@ -111,6 +111,9 @@ Pelajari cara mengaktifkan OCR di C# untuk mengonversi file PDF menjadi teks sec
 Pelajari cara menyimpan hasil OCR sebagai JSON di C# dengan contoh lengkap langkah demi langkah menggunakan Aspose.OCR.
 ### [Mengenali Teks Cina Secara Offline – Panduan Lengkap C#](./recognize-chinese-text-offline-complete-c-guide/)
 Pelajari cara mengenali teks Cina secara offline menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Cara Membuat Mesin OCR di C# – Panduan Penyiapan Offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Panduan langkah demi langkah membuat mesin OCR di C# dengan konfigurasi offline tanpa koneksi internet.
+### [Cara Memeriksa Ketersediaan Model OCR di C# – Panduan Langkah‑demi‑Langkah](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 
 
 

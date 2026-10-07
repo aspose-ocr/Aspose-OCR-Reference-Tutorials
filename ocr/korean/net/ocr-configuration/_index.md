@@ -107,6 +107,10 @@ C# 애플리케이션에서 OCR을 활성화하고 PDF 파일을 텍스트로 �
 OCR 인식 결과를 JSON 파일로 저장하는 전체 과정을 C# 코드와 함께 자세히 설명합니다.  
 ### [오프라인에서 중국어 텍스트 인식 – 완전 C# 가이드](./recognize-chinese-text-offline-complete-c-guide/)
 C#을 사용해 오프라인 환경에서 중국어 텍스트를 정확히 인식하고 처리하는 전체 단계별 가이드를 제공합니다.  
+### [C#에서 OCR 엔진 만들기 – 오프라인 설정 가이드](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+C#에서 오프라인으로 OCR 엔진을 설정하고 사용하는 방법을 단계별로 안내합니다.  
+### [C#에서 OCR 모델 가용성 확인 방법 – 단계별 가이드](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+C# 코드에서 OCR 모델이 사용 가능한지 확인하고, 필요 시 로드하는 방법을 단계별로 안내합니다.  
 
 
 

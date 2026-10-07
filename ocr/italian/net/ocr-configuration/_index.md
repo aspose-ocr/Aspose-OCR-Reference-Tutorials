@@ -55,6 +55,10 @@ Scopri come attivare OCR in C# per convertire rapidamente PDF in testo leggibile
 Scopri come esportare i risultati OCR in formato JSON usando Aspose.OCR con C# in pochi semplici passaggi.
 ### [Riconoscere testo cinese offline – Guida completa C#](./recognize-chinese-text-offline-complete-c-guide/)
 Scopri come riconoscere testo cinese offline in C# usando Aspose.OCR, passo dopo passo.
+### [Come verificare la disponibilità del modello OCR in C# – Guida passo‑passo](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Scopri come verificare se un modello OCR è disponibile in C# prima di avviare il riconoscimento, con esempi pratici.
+### [Come creare un motore OCR in C# – Guida di configurazione offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Impara a creare un motore OCR in C# con configurazione offline, passo dopo passo, per progetti .NET autonomi.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

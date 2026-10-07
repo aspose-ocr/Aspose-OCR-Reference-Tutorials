@@ -208,6 +208,10 @@ Leer hoe je in C# batch‑OCR implementeert om efficiënt tekst uit meerdere afb
 Leer stap‑voor‑stap hoe je OCR in C# implementeert, inclusief pre‑processing filters voor optimale nauwkeurigheid.
 ### [Hoe GPU voor OCR in C# in te schakelen – Tekst herkennen](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
 Leer hoe je GPU-versnelling activeert voor Aspose.OCR in C# om de herkenningssnelheid en nauwkeurigheid te verbeteren.
+### [Correcte afbeeldingrotatie in C# – Volledige gids voor OCR-nauwkeurigheid](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Leer hoe je afbeeldingrotatie corrigeert in C# om OCR‑nauwkeurigheid te maximaliseren.
+### [Hoe afbeelding rechtzetten voor OCR – Stapsgewijze C#‑gids](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Leer hoe je afbeeldingen corrigeert voor optimale OCR‑nauwkeurigheid met een eenvoudige C#‑implementatie.
 
 ## Veelgestelde vragen
 

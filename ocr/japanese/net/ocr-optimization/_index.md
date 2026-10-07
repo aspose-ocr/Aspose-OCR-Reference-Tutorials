@@ -198,6 +198,10 @@ GPU を活用して OCR の速度と精度を向上させる手順をステッ�
 
 ### [C# で OCR を実行する方法 – 前処理付き完全ガイド](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 C# で Aspose.OCR を使用し、前処理手順を組み合わせて高精度な OCR を実装する完全ガイドです。
+### [C# で画像回転を正しく修正 – OCR 精度向上の完全ガイド](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+画像の回転を自動検出・修正し、OCR の認識精度を最大化する手順をステップバイステップで解説します。
+### [C# で画像のデスキュー – OCR のステップバイステップガイド](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+画像の傾きを自動検出・補正し、OCR の精度を最大化する手順を解説します。
 
 ## よくある質問
 

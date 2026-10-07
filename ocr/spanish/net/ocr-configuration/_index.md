@@ -69,6 +69,10 @@ Aprende a generar PDFs buscables en C# usando Aspose.OCR para convertir imágene
 Aprende a guardar los resultados de OCR en formato JSON usando C#, con ejemplos claros y código listo para usar.
 ### [Reconocer texto chino sin conexión – Guía completa en C#](./recognize-chinese-text-offline-complete-c-guide/)
 Aprende a reconocer texto chino sin conexión usando Aspose.OCR en C#, con ejemplos paso a paso.
+### [Cómo crear un motor OCR en C# – Guía de configuración sin conexión](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Aprende a crear e integrar un motor OCR en C# sin necesidad de conexión a internet, paso a paso.
+### [Cómo comprobar la disponibilidad del modelo OCR en C# – Guía paso a paso](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Aprende a verificar si un modelo OCR está disponible en tiempo de ejecución usando Aspose.OCR y C# paso a paso.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

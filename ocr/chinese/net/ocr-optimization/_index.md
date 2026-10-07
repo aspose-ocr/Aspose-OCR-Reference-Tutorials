@@ -189,6 +189,12 @@ weight: 25
 
 ### [如何在 C# 中执行 OCR – 完整指南与预处理](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 
+### [在 C# 中纠正图像旋转 – OCR 精准度完整指南](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+了解如何在 C# 中检测并纠正图像旋转，以提升 OCR 识别准确率。
+
+### [在 C# 中纠正图像倾斜 – OCR 完整指南](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+学习如何在 C# 中检测并纠正图像倾斜，以提升 OCR 识别准确率的完整步骤指南。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

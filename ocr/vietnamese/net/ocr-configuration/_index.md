@@ -112,6 +112,9 @@ Hướng dẫn bật OCR trong C# để chuyển đổi PDF thành văn bản nh
 ### [Nhận dạng văn bản tiếng Trung offline – Hướng dẫn C# đầy đủ](./recognize-chinese-text-offline-complete-c-guide/)
 ### [Cách lưu JSON từ OCR trong C# – Hướng dẫn chi tiết từng bước](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu kết quả OCR dưới dạng JSON trong C# bằng Aspose.OCR.
+### [Cách tạo Engine OCR trong C# – Hướng dẫn cài đặt offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Hướng dẫn chi tiết cách tạo engine OCR trong C# và cấu hình môi trường offline để nhận dạng hình ảnh mà không cần kết nối internet.
+### [Cách Kiểm Tra Tính Khả Dụng Của Mô Hình OCR trong C# – Hướng Dẫn Từng Bước](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 
 
 

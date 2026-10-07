@@ -319,6 +319,12 @@ url: /ru/net/text-recognition/
 Научитесь создавать поисковые PDF файлы в C# с помощью Aspose.OCR, следуя подробному пошаговому руководству.
 ### [Конвертировать изображение в ePub на C# – пошаговое руководство](./convert-image-to-epub-in-c-step-by-step-guide/)
 Научитесь преобразовывать изображения в ePub‑книги с помощью C# и Aspose.OCR, следуя подробному пошаговому руководству.
+### [Создать Excel из изображения с Aspose OCR – пошаговое руководство](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Научитесь преобразовывать изображения в файлы Excel с помощью Aspose OCR, следуя подробному пошаговому руководству.
+### [Запуск OCR на изображении с Aspose OCR – Распознавание китайского текста](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Научитесь распознавать китайский текст на изображениях с помощью Aspose OCR в .NET.
+### [c# OCR руководство: извлечение арабского текста из изображений](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Научитесь извлекать арабский текст из изображений в C# с использованием Aspose OCR. Пошаговое руководство для быстрого внедрения.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

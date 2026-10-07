@@ -205,6 +205,10 @@ Erfahren Sie, wie Sie Bildvorverarbeitung in C# einsetzen, um die OCR‑Genauigk
 Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für .NET aktivieren, um die Texterkennung in C# zu beschleunigen.
 ### [Wie man OCR in C# ausführt – Vollständiger Leitfaden mit Vorverarbeitung](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Erfahren Sie, wie Sie OCR in C# implementieren, inklusive umfassender Vorverarbeitung für maximale Erkennungsgenauigkeit.
+### [Bildrotation in C# korrigieren – Vollständiger Leitfaden zur OCR‑Genauigkeit](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Erfahren Sie, wie Sie Bildrotationen in C# korrigieren, um die OCR‑Genauigkeit zu maximieren.
+### [Bildentzerrung für OCR – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Erfahren Sie, wie Sie Bilder für OCR entzerren, um die Erkennungsgenauigkeit zu maximieren, mit praktischen C#‑Beispielen.
 
 ## Häufig gestellte Fragen
 

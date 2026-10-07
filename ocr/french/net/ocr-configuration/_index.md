@@ -80,6 +80,10 @@ Apprenez à activer l'OCR en C# pour convertir rapidement des PDF en texte explo
 Apprenez à extraire du texte chinois hors ligne avec Aspose.OCR en C#, étape par étape.
 ### [Comment enregistrer le JSON à partir de l'OCR en C# – Guide complet étape par étape](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 Apprenez à extraire les résultats OCR au format JSON et à les enregistrer en C# avec un guide détaillé.
+### [Comment créer un moteur OCR en C# – Guide d'installation hors ligne](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Apprenez à configurer un moteur OCR en C# pour une utilisation hors ligne, sans dépendances externes.
+### [Comment vérifier la disponibilité du modèle OCR en C# – Guide étape par étape](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Apprenez à vérifier si un modèle OCR est disponible dans votre application C# avant de lancer la reconnaissance.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

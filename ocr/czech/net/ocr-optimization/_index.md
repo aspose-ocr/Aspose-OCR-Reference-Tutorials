@@ -201,6 +201,10 @@ Naučte se zpracovávat velké množství obrázků najednou pomocí Aspose.OCR 
 Naučte se, jak využít GPU akceleraci v Aspose.OCR pro .NET pro rychlejší a přesnější rozpoznávání textu.
 ### [Jak provést OCR v C# – Kompletní průvodce s předzpracováním](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Kompletní návod na provedení OCR v C# s podrobným popisem předzpracování pro zvýšení přesnosti rozpoznání.
+### [Opravit rotaci obrázku v C# – Kompletní průvodce pro přesnost OCR](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Naučte se, jak správně otočit obrázek v C# pro zlepšení přesnosti OCR pomocí Aspose.OCR.
+### [Jak vyrovnat obrázek pro OCR – krok‑za‑krokem průvodce v C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Naučte se, jak pomocí Aspose.OCR odstranit sklon obrázku a zlepšit přesnost rozpoznávání textu v C#.
 
 ## Často kladené otázky
 

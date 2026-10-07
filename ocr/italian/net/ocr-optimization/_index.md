@@ -202,6 +202,10 @@ Scopri come processare più immagini contemporaneamente con Aspose.OCR in C#, mi
 Scopri come sfruttare la GPU per accelerare il riconoscimento OCR in C# con Aspose.OCR, migliorando velocità e precisione.
 ### [Come eseguire OCR in C# – Guida completa con pre‑elaborazione](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Scopri come implementare OCR in C# con una guida passo‑passo, includendo tecniche di pre‑elaborazione per massimizzare precisione.
+### [Correzione Rotazione Immagine in C# – Guida Completa per la Precisione OCR](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Scopri come correggere la rotazione delle immagini in C# per migliorare l'accuratezza dell'OCR con Aspose.OCR.
+### [Come correggere l'inclinazione dell'immagine per OCR – Guida passo‑passo C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Scopri come raddrizzare le immagini prima dell'OCR con Aspose.OCR usando C# per migliorare la precisione.
 
 ## Domande Frequenti
 

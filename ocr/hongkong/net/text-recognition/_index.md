@@ -326,6 +326,12 @@ url: /zh-hant/net/text-recognition/
 學習如何使用 Aspose.OCR for .NET 在 C# 中將 PDF 轉換為可搜尋的文件，提升文件檢索與管理效率。
 ### [在 C# 中將影像轉換為 ePub – 步驟指南](./convert-image-to-epub-in-c-step-by-step-guide/)
 學習如何使用 Aspose.OCR 在 .NET 中將影像轉換為 ePub 電子書，提供完整的步驟說明。
+### [使用 Aspose OCR 在影像上執行 OCR – 識別中文文字](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+使用 Aspose OCR 在 .NET 中對影像執行中文文字辨識，提供完整步驟提升識別精度。
+### [C# OCR 教學：從影像提取阿拉伯文字](./c-ocr-tutorial-extract-arabic-text-from-images/)
+了解如何使用 Aspose OCR 在 .NET 中透過 C# 從圖像中提取阿拉伯文字，提升文字辨識效率。
+### [使用 Aspose OCR 從影像建立 Excel – 步驟指南](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+學習如何使用 Aspose OCR 將影像內容轉換為 Excel 檔案，提供完整的逐步操作說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

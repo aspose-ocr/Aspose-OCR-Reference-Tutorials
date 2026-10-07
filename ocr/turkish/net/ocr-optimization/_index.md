@@ -183,6 +183,10 @@ C# ile toplu OCR işlemleri yaparak birden çok görüntüyü hızlıca metne d�
 Aspose.OCR for .NET ile GPU desteğini etkinleştirerek OCR performansını artırın ve metin tanımayı hızlandırın.
 ### [C#'ta OCR Nasıl Yapılır – Ön İşleme ile Tam Kılavuz](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Aspose.OCR for .NET ile C#’ta OCR işlemini adım adım öğrenin, ön işleme teknikleriyle doğruluğu artırın.
+### [C#'ta Görüntü Döndürmeyi Düzeltme – OCR Doğruluğu İçin Tam Kılavuz](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+C# ile görüntü döndürmeyi düzelterek OCR doğruluğunu artırın. Adım adım rehberimizle doğru açı ayarını öğrenin.
+### [C# ile Görüntü Döndürmeyi Düzeltme – OCR İçin Adım‑Adım Kılavuz](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+C# kodu ile eğik görüntüleri düzleştirerek OCR performansını yükseltin. Basit adımlarla uygulamayı keşfedin.
 
 ## Sıkça Sorulan Sorular
 

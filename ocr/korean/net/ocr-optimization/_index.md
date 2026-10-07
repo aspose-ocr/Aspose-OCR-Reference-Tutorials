@@ -172,6 +172,10 @@ C#으로 다수의 이미지를 한 번에 OCR 처리하고 텍스트를 추출�
 GPU 가속을 활용해 OCR 속도와 정확성을 높이는 방법을 단계별로 안내합니다.
 ### [C#에서 OCR 수행하기 – 전처리 포함 완전 가이드](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 C# 프로젝트에 전처리 단계와 함께 OCR을 적용하는 전체 과정을 단계별로 안내합니다.
+### [C#에서 이미지 회전 교정 – OCR 정확도를 위한 전체 가이드](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+C#에서 이미지 회전을 교정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
+### [OCR을 위한 이미지 기울기 보정 – 단계별 C# 가이드](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+이미지 기울기를 교정하여 OCR 정확도를 높이는 방법을 C# 코드와 함께 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

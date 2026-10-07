@@ -56,6 +56,10 @@ GPU を活用した OCR で画像ファイルからレシートテキストを�
 ### [C# で OCR から JSON を保存する方法 – 完全ステップバイステップガイド](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 ### [オフラインで中国語テキストを認識する – 完全 C# ガイド](./recognize-chinese-text-offline-complete-c-guide/)
 Aspose.OCR を使用してオフライン環境で中国語テキストを認識し、C# で実装する完全ガイドです。
+### [C# で OCR エンジンを作成する – オフラインセットアップガイド](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+C# でオフライン OCR エンジンを構築し、セットアップ手順と必要な構成を学びます。
+### [C# で OCR モデルの利用可否を確認する方法 – ステップバイステップガイド](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+C# で OCR モデルが利用可能かどうかを確認し、適切にハンドリングする手順を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

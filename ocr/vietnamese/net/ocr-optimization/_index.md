@@ -172,6 +172,8 @@ Tìm hiểu cách thực hiện OCR hàng loạt trên nhiều hình ảnh bằn
 ### [Cách bật GPU cho OCR trong C# – Nhận dạng văn bản](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
 Khám phá cách kích hoạt GPU để tăng tốc OCR trong C# với Aspose.OCR, cải thiện tốc độ và độ chính xác khi nhận dạng văn bản.
 ### [Cách thực hiện OCR trong C# – Hướng dẫn đầy đủ với tiền xử lý](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+### [Correct Image Rotation in C# – Full Guide to OCR Accuracy](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+### [Cách điều chỉnh nghiêng hình ảnh cho OCR – Hướng dẫn chi tiết C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 
 ## Câu hỏi thường gặp
 

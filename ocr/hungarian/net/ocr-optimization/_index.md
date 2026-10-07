@@ -192,6 +192,12 @@ Ismerje meg, hogyan használhatja a GPU-t az OCR gyorsításához C# alkalmazás
 ### [Hogyan hajtsunk végre OCR-t C#‑ban – Teljes útmutató előfeldolgozással](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Fedezze fel a teljes OCR folyamatot C#‑ban, beleértve az előfeldolgozási lépéseket a maximális pontosságért.
 
+### [Kép forgatásának helyes beállítása C#‑ban – Teljes útmutató az OCR pontosságához](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+Ismerje meg, hogyan korrigálja a kép forgatását C#‑ban az OCR pontosság növelése érdekében.
+
+### [Kép kiegyenesítése OCR-hez – Lépésről‑lépésre C# útmutató](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Fedezze fel, hogyan korrigálja a kép dőlését C#‑ban az OCR pontosság növelése érdekében.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

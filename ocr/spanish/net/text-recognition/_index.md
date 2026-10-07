@@ -354,6 +354,12 @@ Aprenda a reconocer texto árabe usando Aspose OCR en .NET, con soporte multilin
 Aprenda a crear PDFs buscables en C# con Aspose.OCR, siguiendo una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
 ### [Convertir imagen a ePub en C# – Guía paso a paso](./convert-image-to-epub-in-c-step-by-step-guide/)
 Aprenda a convertir imágenes a formato ePub en C# con Aspose.OCR siguiendo una guía paso a paso.
+### [Ejecutar OCR en una imagen con Aspose OCR – Reconocer texto chino](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aprenda a usar Aspose OCR en .NET para reconocer texto chino en imágenes, con pasos claros y ejemplos prácticos.
+### [Tutorial OCR en C# – Extraer texto árabe de imágenes](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Aprenda a extraer texto en árabe de imágenes usando Aspose OCR en C# con ejemplos claros y paso a paso.
+### [Crear Excel a partir de una imagen con Aspose OCR – Guía paso a paso](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Aprenda a crear archivos Excel a partir de imágenes usando Aspose OCR con una guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

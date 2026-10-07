@@ -59,6 +59,10 @@ C# ile PDF dosyalarından metin çıkarmak için OCR’u nasıl etkinleştirece�
 C# koduyla OCR sonuçlarını JSON formatında kaydedin ve veri işleme akışınızı kolaylaştırın.
 ### [Çevrimdışı Çince Metin Tanıma – Tam C# Kılavuzu](./recognize-chinese-text-offline-complete-c-guide/)
 Çince metinleri çevrimdışı olarak tanıma ve JSON’a kaydetme adımlarını C# ile öğrenin.
+### [C#'ta OCR Motoru Nasıl Oluşturulur – Çevrimdışı Kurulum Kılavuzu](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+C# ile offline ortamda OCR motoru kurup yapılandırmayı adım adım öğrenin.
+### [C#'ta OCR Modeli Kullanılabilirliğini Kontrol Et – Adım Adım Kılavuz](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+C# ile OCR modelinin mevcut olup olmadığını kontrol etmeyi adım adım öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

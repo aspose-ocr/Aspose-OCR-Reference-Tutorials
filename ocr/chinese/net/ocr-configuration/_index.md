@@ -105,6 +105,10 @@ weight: 24
 快速演示如何在 C# 项目中使用 Aspose.OCR 将 PDF 文件转换为可编辑的文本。  
 ### [如何在 C# 中保存 OCR JSON – 完整分步指南](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
 ### [离线识别中文文本 – 完整 C# 指南](./recognize-chinese-text-offline-complete-c-guide/)
+### [如何在 C# 中创建 OCR 引擎 – 离线设置指南](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+离线设置 Aspose.OCR 引擎的完整步骤，帮助在 C# 项目中本地运行 OCR 功能。  
+### [如何在 C# 中检查 OCR 模型可用性 – 步骤指南](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+逐步演示如何在 C# 项目中检查 OCR 模型是否可用，确保引擎准备就绪。  
 
 
 

@@ -306,6 +306,11 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย C# โดยใช้ Aspose.OCR ตามขั้นตอนง่าย ๆ
 ### [แปลงภาพเป็น ePub ใน C# – คู่มือทีละขั้นตอน](./convert-image-to-epub-in-c-step-by-step-guide/)
 เรียนรู้วิธีแปลงภาพเป็นไฟล์ ePub ด้วย C# โดยใช้ Aspose.OCR ผ่านขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
+### [รัน OCR บนภาพด้วย Aspose OCR – จดจำข้อความภาษาจีน](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+เรียนรู้วิธีใช้ Aspose OCR เพื่อจดจำข้อความภาษาจีนจากภาพด้วยขั้นตอนง่ายๆ
+### [บทแนะนำ c# OCR: ดึงข้อความภาษาอาหรับจากภาพ](./c-ocr-tutorial-extract-arabic-text-from-images/)
+เรียนรู้วิธีใช้ Aspose OCR เพื่อดึงข้อความภาษาอาหรับจากภาพด้วย C# อย่างง่ายและละเอียดในขั้นตอนทีละขั้นตอน
+### [สร้าง Excel จากภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

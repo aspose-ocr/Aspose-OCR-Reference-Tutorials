@@ -108,6 +108,10 @@ Fedezze fel, hogyan konvertálhat PDF-et szöveggé C#‑ban az Aspose.OCR segí
 Tanulja meg, hogyan menthet JSON‑t az OCR eredményből C#‑ban, részletes, lépésről‑lépésre útmutatóval.  
 ### [Kínai szöveg offline felismerése – Teljes C# útmutató](./recognize-chinese-text-offline-complete-c-guide/)
 Ismerje meg, hogyan lehet offline módon kínai szöveget felismerni C#-ban az Aspose.OCR segítségével.  
+### [Hogyan hozzunk létre OCR motor C#‑ban – Offline beállítási útmutató](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Ismerje meg, hogyan állíthatja be offline módon az OCR motort C#‑ban az Aspose.OCR segítségével.  
+### [Hogyan ellenőrizhetjük az OCR modell elérhetőségét C#‑ban – Lépésről‑lépésre útmutató](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Ismerje meg, hogyan ellenőrizheti, hogy az OCR modell elérhető‑e C# alkalmazásban, és hogyan kezelje a hiányzó modelleket.  
 
 
 

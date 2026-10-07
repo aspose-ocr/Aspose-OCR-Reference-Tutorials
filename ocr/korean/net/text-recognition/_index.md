@@ -325,6 +325,12 @@ Aspose OCR를 사용하여 .NET에서 아랍어 텍스트를 인식하고 다국
 Aspose.OCR를 사용하여 .NET에서 검색 가능한 PDF를 생성하고 통합하는 방법을 단계별로 안내합니다.
 ### [C#에서 이미지 ePub으로 변환 – 단계별 가이드](./convert-image-to-epub-in-c-step-by-step-guide/)
 Aspose.OCR를 활용해 C#에서 이미지를 ePub 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [c# OCR 튜토리얼 – 이미지에서 아랍어 텍스트 추출](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Aspose OCR를 사용하여 C#에서 이미지에서 아랍어 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR로 이미지에서 OCR 실행 – 중국어 텍스트 인식](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aspose OCR를 사용하여 이미지에서 중국어 텍스트를 인식하는 방법을 단계별로 안내합니다.
+### [Aspose OCR로 이미지에서 Excel 만들기 – 단계별 가이드](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR를 활용해 이미지 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -339,6 +339,12 @@ Pelajari cara mengenali teks Arab menggunakan Aspose OCR dalam panduan multi‑b
 Buat PDF yang dapat dicari menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami untuk menghasilkan PDF searchable dengan mudah.
 ### [Konversi Gambar ke ePub di C# – Panduan Langkah‑per‑Langkah](./convert-image-to-epub-in-c-step-by-step-guide/)
 Pelajari cara mengonversi gambar menjadi file ePub menggunakan C# dengan panduan langkah demi langkah kami.
+### [Jalankan OCR pada Gambar dengan Aspose OCR – Kenali Teks Cina](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Pelajari cara menggunakan Aspose OCR untuk mengenali teks berbahasa Cina dalam gambar dengan langkah-langkah mudah.
+### [Tutorial OCR C#: Ekstrak Teks Arab dari Gambar](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Pelajari cara mengekstrak teks berbahasa Arab dari gambar menggunakan Aspose OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
+### [Buat Excel dari Gambar dengan Aspose OCR – Panduan Langkah demi Langkah](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Pelajari cara mengonversi gambar menjadi file Excel menggunakan Aspose OCR dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

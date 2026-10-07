@@ -343,6 +343,14 @@ Learn to recognize Arabic text with Aspose OCR in .NET using this multi‑langua
 Create searchable PDFs in C# using Aspose.OCR. Follow this step‑by‑step guide to generate PDFs with embedded text for easy searching.
 ### [Convert Image to ePub in C# – Step‑by‑Step Guide](./convert-image-to-epub-in-c-step-by-step-guide/)
 Convert images to ePub format in C# using Aspose.OCR. Follow this step‑by‑step guide to create ePub files from images effortlessly.
+### [Create Excel from Image with Aspose OCR – Step‑by‑Step Guide](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
+Learn how to generate Excel files from images using Aspose OCR in a detailed step-by-step guide for .NET developers.
+### [Run OCR on Image with Aspose OCR – Recognize Chinese Text](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Learn how to use Aspose OCR for .NET to recognize Chinese text in images with a step-by-step guide.
+### [c# ocr tutorial – Extract Arabic Text from Images](./c-ocr-tutorial-extract-arabic-text-from-images/)
+Extract Arabic text from images using Aspose OCR in C#. Follow our step-by-step guide to integrate OCR capabilities into your .NET applications.
+### [How to Use OCR: Batch PNG Text Extraction with C#](./how-to-use-ocr-batch-png-text-extraction-with-c/)
+Learn how to batch extract text from PNG images using Aspose OCR in C#. Follow our step-by-step guide for efficient processing.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

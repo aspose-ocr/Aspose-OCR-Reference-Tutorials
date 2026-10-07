@@ -55,6 +55,10 @@ Naučte se, jak pomocí Aspose.OCR v C# převést PDF soubory na editovatelný t
 Naučte se, jak uložit výsledky OCR jako JSON v C# pomocí Aspose.OCR.
 ### [Rozpoznat čínský text offline – Kompletní průvodce C#](./recognize-chinese-text-offline-complete-c-guide/)
 Kompletní návod, jak offline rozpoznávat čínské znaky v C# pomocí Aspose.OCR.
+### [Jak vytvořit OCR engine v C# – Offline průvodce nastavením](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Naučte se, jak vytvořit vlastní OCR engine v C# a nastavit jej pro offline použití bez internetového připojení.
+### [Jak zkontrolovat dostupnost OCR modelu v C# – krok za krokem průvodce](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+Zjistěte, jak programově ověřit, zda je OCR model dostupný, a jak reagovat, pokud není, pomocí Aspose.OCR v C#.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

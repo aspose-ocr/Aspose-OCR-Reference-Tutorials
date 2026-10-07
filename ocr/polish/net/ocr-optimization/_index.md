@@ -205,6 +205,9 @@ Dowiedz się, jak wykorzystać akcelerację GPU w Aspose.OCR dla .NET, aby przys
 ### [Jak wykonać OCR w C# – Kompletny przewodnik z przetwarzaniem wstępnym](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Pełny przewodnik po OCR w C# z krok po kroku instrukcjami, w tym technikami przetwarzania wstępnego dla lepszej dokładności.
 
+### [Jak wyprostować obraz do OCR – Przewodnik krok po kroku w C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+Dowiedz się, jak prawidłowo wyprostować obrazy w C#, aby zwiększyć precyzję OCR przy użyciu Aspose.OCR.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

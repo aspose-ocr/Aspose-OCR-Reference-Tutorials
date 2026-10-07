@@ -195,6 +195,10 @@ weight: 25
 ### [如何在 C# 中啟用 GPU 進行 OCR – 文字辨識](./how-to-enable-gpu-for-ocr-in-c-recognize-text/)
 說明如何在 C# 使用 Aspose.OCR 啟用 GPU 加速，提高文字辨識效能。
 ### [如何在 C# 中執行 OCR – 完整指南與前處理](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
+### [在 C# 中校正圖像旋轉 – 完整指南提升 OCR 準確度](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
+學習如何在 C# 中校正圖像旋轉角度，提升 OCR 識別精度與效能。
+### [在 C# 中校正圖像傾斜 – OCR 步驟指南](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
+學習在 C# 中使用 Aspose.OCR 校正圖像傾斜角度，提升 OCR 識別精度與效能。
 
 ## 常見問題
 
