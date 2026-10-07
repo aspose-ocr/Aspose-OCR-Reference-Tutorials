@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from Scanned Files – Complete C# Guide
+Slug: create-searchable-pdf-from-scanned-files-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-07-05T10:30:02.317263
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned pdf, ocr scanned pdf, load pdf as image, extract text from pdf
+PRNumber: 167

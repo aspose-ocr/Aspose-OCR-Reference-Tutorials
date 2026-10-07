@@ -40,19 +40,6 @@ OCR の抽出とは、画像（または画像のコレクション）を Aspose
 - Aspose.OCR for .NET NuGet パッケージがインストール済み（`Install-Package Aspose.OCR`）。  
 - 処理したい画像を含むサンプル画像またはアーカイブ。
 
-## OCR 画像認識におけるアーカイブの OCR 操作
-Aspose.OCR を使用してアーカイブ内の画像からテキストを抽出する方法をステップバイステップで解説します。このチュートリアルでは、インストールから実装まで、.NET アプリケーションで OCR 機能を活用するための包括的な知見を提供します。
-
-## OCR 画像認識におけるフォルダーの OCR 操作
-Aspose.OCR を利用し、フォルダーに保存された画像からテキストを簡単に抽出する方法を学びます。データ抽出の効率を向上させ、アプリケーションの OCR 機能を最適化します。
-
-## OCR 画像認識における言語選択の OCR 操作
-Aspose.OCR for .NET で **ocr language selection** をマスターし、異なる言語の画像からシームレスにテキストを抽出する手順を案内します。多言語 OCR 機能でアプリケーションを強化しましょう。
-
-## OCR 画像認識におけるリストの OCR 操作
-Aspose.OCR for .NET のリスト機能を活用し、リストベースで OCR 画像認識を実行する方法を紹介します。テキスト抽出を強化し、多様なデータセットの処理効率を向上させます。
-
-## OCR 設定チュートリアル
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を引き出し、アーカイブ画像からテキストを段階的に抽出する方法を学びます。
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
@@ -61,6 +48,14 @@ Aspose.OCR で .NET の OCR 画像認識を活用し、フォルダー内の画�
 Aspose.OCR for .NET の強力な OCR 機能を活用し、画像からシームレスにテキストを抽出する方法を学びます。
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR 画像認識を手軽に実行し、アプリケーションの生産性とデータ抽出を向上させます。
+### [C# で OCR を有効化する方法 – PDF を簡単にテキストへ変換](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+
+### [C# で GPU OCR を使用して画像ファイルを読み込み、レシートテキストを抽出](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+GPU を活用した OCR で画像ファイルからレシートテキストを高速に抽出し、C# で実装する方法を解説します。
+### [C# で検索可能な PDF を作成 – OCR 変換ガイド](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+### [C# で OCR から JSON を保存する方法 – 完全ステップバイステップガイド](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+### [オフラインで中国語テキストを認識する – 完全 C# ガイド](./recognize-chinese-text-offline-complete-c-guide/)
+Aspose.OCR を使用してオフライン環境で中国語テキストを認識し、C# で実装する完全ガイドです。
 ### [C# で OCR エンジンを作成する – オフラインセットアップガイド](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
 C# でオフライン OCR エンジンを構築し、セットアップ手順と必要な構成を学びます。
 ### [C# で OCR モデルの利用可否を確認する方法 – ステップバイステップガイド](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
@@ -74,6 +69,44 @@ C# で OCR モデルが利用可能かどうかを確認し、適切にハンド
 ### ヒントと落とし穴
 - **Pro tip:** 画像を事前に前処理（デスキュー、二値化など）して精度を向上させましょう。  
 - **Warning:** 大容量のアーカイブはメモリを大量に消費する可能性があります。バッチ処理を検討してください。
+### [C# でロシア語テキストを抽出しリソースパスを設定 – Aspose OCR ガイド](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+Aspose.OCR を使用して C# でロシア語テキストを抽出し、リソースパスを設定する方法をステップバイステップで解説します。
+### [C#で画像をOCRする方法 – GPUサポート付き完全ガイド](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+GPUを活用し、高速かつ正確に画像からテキストを抽出するC#向け完全ガイドです。
+### [Aspose OCRで画像からテキストを認識する – 完全C#ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR を使用して、C# で画像からテキストを正確に抽出する手順を詳しく解説します。
+
+結論として、これらの OCR 構成チュートリアルは、Aspose.OCR for .NET の全体的な理解を提供します。アーカイブ画像、フォルダー、言語選択、またはリストを操作する場合でも、これらのステップバイステップのガイドにより、OCR の可能性を最大限に活用し、アプリケーションのテキスト抽出機能を向上させることができます。 Aspose.OCR で、飛び込んで探索し、OCR の魔法を解き放ちましょう!
+## OCR設定チュートリアル
+### [.NET の埋め込みリソースの読み取り – Aspose ライセンス設定 完全ガイド](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+Aspose ライセンスを設定するために、.NET アプリケーションで埋め込みリソースを読み取る方法をステップバイステップで解説します。
+### [Aspose を使用した C# での OCR 言語モデルのダウンロード – 完全ガイド](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+Aspose を活用し、C# で OCR 言語モデルをダウンロードし設定する手順を詳しく解説します。
+
+
+
+
+
+
+### [C# で画像テキストを認識 – Aspose のアラビア語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+Aspose OCR を使用して、C# アプリケーションでアラビア語の画像テキストを抽出する方法を学びます。
+### [Aspose OCR の GPU を有効化する方法 – ステップバイステップ ガイド](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+Aspose OCR で GPU を有効にし、パフォーマンスを向上させる手順を詳しく解説します。
+### [C# で Aspose ライセンスを設定する方法 – 完全ガイド](./how-to-set-aspose-license-in-c-complete-guide/)
+Aspose のライセンスを C# アプリケーションに設定し、フル機能を有効化する手順を詳しく解説します。
+
+
+
+
+
+
+### [Aspose OCR のライセンス適用方法 – ステップバイステップ C# ガイド](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR のライセンスを適用し、.NET アプリケーションで OCR 機能を有効にする手順を詳しく解説します。
+
+
+
+
+
 
 ## よくある質問
 
@@ -102,6 +135,11 @@ A: はい、`OcrResult` オブジェクトが各単語の信頼度スコアを�
 **最終更新日:** 2025年12月21日
 **テスト環境:** Aspose.OCR 24.11 for .NET
 **作成者:** Aspose
+
+結論として、これらの OCR 構成チュートリアルは、Aspose.OCR for .NET の全体的な理解を提供します。アーカイブ画像、フォルダー、言語選択、またはリストを操作する場合でも、これらのステップバイステップのガイドにより、OCR の可能性を最大限に活用し、アプリケーションのテキスト抽出機能を向上させることができます。 Aspose.OCR で、飛び込んで探索し、OCR の魔法を解き放ちましょう!
+## OCR設定チュートリアル
+### [C# で OCR 言語サポートを確認する方法 – 完全ガイド](./how-to-check-ocr-language-support-in-c-complete-guide/)
+C# で Aspose.OCR の対応言語を確認し、適切な設定方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Extract Text from Form with Aspose OCR Java – Complete Guide
+Slug: extract-text-from-form-with-aspose-ocr-java-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-25T13:42:49.983463
+SourceRepo: AI Search API
+Keywords: extract text from form
+PRNumber: 132

@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with Java OCR – Complete Guide
+Slug: create-searchable-pdf-with-java-ocr-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-25T13:42:52.902850
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert pdf to searchable pdf, load pdf for ocr, ocr pdf with gpu
+PRNumber: 132
