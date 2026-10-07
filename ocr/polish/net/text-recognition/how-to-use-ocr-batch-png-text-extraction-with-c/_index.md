@@ -266,16 +266,6 @@ Jeśli otrzymujesz zniekształcony tekst, rozważ:
 
 ---
 
-## Rozszerzenie przykładu: zapisywanie wyodrębnionego tekstu do plików
-
-Jeśli wolisz mieć plik `.txt` dla każdego obrazu, zmodyfikuj zwrotną funkcję:
-
-```csharp
-await ocrBatchProcessor.ProcessAsync(imagePaths, (imagePath, ocrResult) =>
-{
-    string txtPath = Path.ChangeExtension(imagePath, ".txt");
-    File
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

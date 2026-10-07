@@ -265,16 +265,6 @@ If you get garbled output, consider:
 
 ---
 
-## Extending the Example: Save Extracted Text to Files
-
-If you’d rather have a `.txt` file per image, tweak the callback:
-
-```csharp
-await ocrBatchProcessor.ProcessAsync(imagePaths, (imagePath, ocrResult) =>
-{
-    string txtPath = Path.ChangeExtension(imagePath, ".txt");
-    File
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
