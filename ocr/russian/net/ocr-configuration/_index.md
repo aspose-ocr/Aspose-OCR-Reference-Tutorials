@@ -115,6 +115,7 @@ weight: 24
 
 ### [Как проверить доступность модели OCR в C# – пошаговое руководство](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Узнайте, как программно проверить наличие модели OCR перед использованием в приложениях C#.
+### [Встраивание шрифтов в PDF — создание поисковых PDF из JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 
 
 

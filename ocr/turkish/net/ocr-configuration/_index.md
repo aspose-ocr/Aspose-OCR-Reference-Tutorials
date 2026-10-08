@@ -63,6 +63,8 @@ C# koduyla OCR sonuçlarını JSON formatında kaydedin ve veri işleme akışı
 C# ile offline ortamda OCR motoru kurup yapılandırmayı adım adım öğrenin.
 ### [C#'ta OCR Modeli Kullanılabilirliğini Kontrol Et – Adım Adım Kılavuz](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 C# ile OCR modelinin mevcut olup olmadığını kontrol etmeyi adım adım öğrenin.
+### [PDF'ye Yazı Tipi Göm – JPEG'den Aranabilir PDF'ler Oluştur](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+JPEG görüntülerini PDF'ye gömülü yazı tipleriyle dönüştürerek aranabilir PDF dosyaları oluşturun.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

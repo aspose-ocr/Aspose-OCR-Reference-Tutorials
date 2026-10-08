@@ -205,6 +205,8 @@ Kompletní návod na provedení OCR v C# s podrobným popisem předzpracování 
 Naučte se, jak správně otočit obrázek v C# pro zlepšení přesnosti OCR pomocí Aspose.OCR.
 ### [Jak vyrovnat obrázek pro OCR – krok‑za‑krokem průvodce v C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Naučte se, jak pomocí Aspose.OCR odstranit sklon obrázku a zlepšit přesnost rozpoznávání textu v C#.
+### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce čištěním a zvýšením kontrastu pro extrakci textu](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Kompletní návod, jak předzpracovat obrázky v C# pro OCR, včetně čištění, zvýšení kontrastu a optimalizace rozpoznání textu.
 
 ## Často kladené otázky
 

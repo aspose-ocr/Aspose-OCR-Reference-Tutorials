@@ -63,6 +63,8 @@ Desbloqueie o reconhecimento de texto chinês offline em .NET usando Aspose.OCR.
 Aprenda a configurar e usar um motor OCR local em C# sem dependências online.
 ### [Como Verificar a Disponibilidade do Modelo OCR em C# – Guia Passo a Passo](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Descubra como verificar se um modelo OCR está disponível antes de usá‑lo em sua aplicação C#.
+### [Incorporar fontes em PDF – Criar PDFs pesquisáveis a partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Aprenda a incorporar fontes em PDFs gerados a partir de imagens JPEG, tornando-os pesquisáveis e editáveis.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

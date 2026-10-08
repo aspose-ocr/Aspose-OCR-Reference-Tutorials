@@ -72,6 +72,8 @@ Speichern Sie OCR‑Ergebnisse als JSON in C# mit einer detaillierten Schritt‑
 Erfahren Sie, wie Sie in C# prüfen, ob ein OCR‑Modell verfügbar ist, und es bei Bedarf laden.
 ### [Wie man eine OCR-Engine in C# erstellt – Offline-Setup-Anleitung](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
 Erfahren Sie, wie Sie eine OCR-Engine in C# offline einrichten und konfigurieren, ohne Internetverbindung.
+### [Schriftarten in PDF einbetten – Durchsuchbare PDFs aus JPEG erstellen](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Erfahren Sie, wie Sie Schriftarten einbetten und aus JPEG‑Bildern durchsuchbare PDFs erzeugen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

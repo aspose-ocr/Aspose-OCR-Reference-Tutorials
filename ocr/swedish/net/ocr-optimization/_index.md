@@ -203,6 +203,8 @@ Lär dig steg‑för‑steg hur du utför OCR i C# med omfattande förbehandling
 Steg‑för‑steg‑guide för att räta upp bilder i C# och maximera OCR‑precision med Aspose.OCR.
 ### [Korrekt bildrotation i C# – Fullständig guide för OCR‑noggrannhet](./correct-image-rotation-in-c-full-guide-to-ocr-accuracy/)
 Lär dig hur du rättar bildrotation i C# för att maximera OCR‑noggrannheten med praktiska exempel och kod.
+### [Förbehandla bild‑OCR i C# – Komplett guide för ren, kontrastförstärkt textutvinning](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Lär dig steg‑för‑steg hur du rengör och förbättrar bildkontrast för optimal OCR‑igenkänning i C#.
 
 ## Vanliga frågor
 

@@ -345,6 +345,20 @@ Pelajari cara menggunakan Aspose OCR untuk mengenali teks berbahasa Cina dalam g
 Pelajari cara mengekstrak teks berbahasa Arab dari gambar menggunakan Aspose OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
 ### [Buat Excel dari Gambar dengan Aspose OCR – Panduan Langkah demi Langkah](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Pelajari cara mengonversi gambar menjadi file Excel menggunakan Aspose OCR dengan panduan lengkap langkah demi langkah.
+### [Konversi TIFF ke Teks di C# – Ekstrak Teks Gambar Pindai](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Ubah file TIFF menjadi teks dengan Aspose.OCR di C#. Ikuti panduan langkah demi langkah untuk mengekstrak teks dari gambar yang dipindai.
+### [Konversi TIFF ke Teks di C# Menggunakan Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Ubah file TIFF menjadi teks dengan Aspose OCR di C#. Ikuti panduan langkah demi langkah untuk konversi yang mudah.
+### [Mengenali Teks dari Gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Panduan lengkap C# untuk mengenali teks dari gambar menggunakan Aspose OCR, langkah demi langkah dengan contoh kode.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar](./how-to-use-ocr-in-c-extract-text-from-image/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar dengan panduan langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Resi dengan Cepat](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Pelajari cara cepat mengekstrak teks dari resi menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Ekstrak teks dari gambar di C# – Aspose OCR langkah demi langkah](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan panduan langkah demi langkah.
+### [Cara Mendapatkan OCR di C# – Mengenali Teks dari Stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengenali teks langsung dari aliran data dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

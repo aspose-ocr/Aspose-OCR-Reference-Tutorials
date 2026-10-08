@@ -339,6 +339,18 @@ Aprenda a usar Aspose OCR para reconhecer texto chinês em imagens, com instruç
 Aprenda a extrair texto árabe de imagens usando Aspose OCR em C#, com um guia passo a passo para integrar OCR em suas aplicações .NET.
 ### [Criar Excel a partir de Imagem com Aspose OCR – Guia passo a passo](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Aprenda a gerar arquivos Excel a partir de imagens usando Aspose OCR em .NET, com instruções detalhadas passo a passo.
+### [Converter TIFF para Texto em C# – Extrair Texto de Imagem Digitalizada](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Aprenda a converter arquivos TIFF em texto usando Aspose.OCR for .NET, extraindo rapidamente o conteúdo de imagens digitalizadas.
+### [Reconhecer texto de imagem com Aspose OCR – Guia completo em C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Aprenda passo a passo como reconhecer texto de imagens usando Aspose OCR em C#, com um guia completo e exemplos práticos.
+### [Como usar OCR em C# – Extrair texto de recibos rapidamente](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Aprenda passo a passo como usar OCR em C# para extrair texto de recibos rapidamente com Aspose.OCR.
+### [Converter TIFF para Texto em C# usando Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Descubra como transformar arquivos TIFF em texto com Aspose OCR em C#, facilitando a extração de conteúdo de imagens digitalizadas.
+### [Extrair texto de imagem em C# – Aspose OCR passo a passo](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Aprenda passo a passo como extrair texto de imagens em C# usando Aspose OCR, com exemplos claros e fáceis de seguir.
+### [Como obter OCR em C# – Reconhecer texto a partir de stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Aprenda a usar Aspose.OCR em C# para reconhecer texto diretamente de um stream, facilitando a integração em aplicativos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

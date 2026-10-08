@@ -212,6 +212,8 @@ Leer hoe je GPU-versnelling activeert voor Aspose.OCR in C# om de herkenningssne
 Leer hoe je afbeeldingrotatie corrigeert in C# om OCR‑nauwkeurigheid te maximaliseren.
 ### [Hoe afbeelding rechtzetten voor OCR – Stapsgewijze C#‑gids](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Leer hoe je afbeeldingen corrigeert voor optimale OCR‑nauwkeurigheid met een eenvoudige C#‑implementatie.
+### [Preprocess Image OCR in C# – Complete gids voor schone, contrast‑versterkte tekstelextractie](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Leer hoe je afbeeldingen voor OCR kunt voorbereiden in C#, met reiniging en contrastverhoging voor optimale teksterkenning.
 
 ## Veelgestelde vragen
 

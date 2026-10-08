@@ -60,6 +60,8 @@ Aspose.OCR を使用してオフライン環境で中国語テキストを認識
 C# でオフライン OCR エンジンを構築し、セットアップ手順と必要な構成を学びます。
 ### [C# で OCR モデルの利用可否を確認する方法 – ステップバイステップガイド](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 C# で OCR モデルが利用可能かどうかを確認し、適切にハンドリングする手順を解説します。
+### [PDF にフォントを埋め込む – JPEG から検索可能な PDF を作成](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+JPEG 画像からフォントを埋め込み、検索可能な PDF を作成する方法を学びます。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

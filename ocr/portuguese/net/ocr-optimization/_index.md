@@ -212,6 +212,8 @@ Aprenda passo a passo a realizar OCR em C# com técnicas avançadas de pré‑pr
 Aprenda a corrigir a rotação de imagens em C# para melhorar a precisão do OCR com Aspose.OCR.
 ### [Como Corrigir Inclinação de Imagem para OCR – Guia Passo a Passo em C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Aprenda a corrigir a inclinação de imagens em C# para melhorar a precisão do OCR com Aspose.OCR.
+### [Pré‑processar Imagem OCR em C# – Guia Completo para Extração de Texto Limpo e com Contraste Aprimorado](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Aprenda a limpar imagens, melhorar contraste e extrair texto com alta precisão usando Aspose.OCR em C#.
 
 ## Perguntas Frequentes
 

@@ -111,6 +111,8 @@ C#을 사용해 오프라인 환경에서 중국어 텍스트를 정확히 인�
 C#에서 오프라인으로 OCR 엔진을 설정하고 사용하는 방법을 단계별로 안내합니다.  
 ### [C#에서 OCR 모델 가용성 확인 방법 – 단계별 가이드](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 C# 코드에서 OCR 모델이 사용 가능한지 확인하고, 필요 시 로드하는 방법을 단계별로 안내합니다.  
+### [PDF에 글꼴 삽입 – JPEG에서 검색 가능한 PDF 만들기](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+JPEG 이미지를 PDF로 변환하고 글꼴을 삽입해 검색 가능한 PDF를 만드는 방법을 안내합니다.
 
 
 

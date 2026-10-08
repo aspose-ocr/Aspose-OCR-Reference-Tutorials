@@ -351,6 +351,20 @@ Learn how to use Aspose OCR for .NET to recognize Chinese text in images with a 
 Extract Arabic text from images using Aspose OCR in C#. Follow our step-by-step guide to integrate OCR capabilities into your .NET applications.
 ### [How to Use OCR: Batch PNG Text Extraction with C#](./how-to-use-ocr-batch-png-text-extraction-with-c/)
 Learn how to batch extract text from PNG images using Aspose OCR in C#. Follow our step-by-step guide for efficient processing.
+### [Convert TIFF to Text in C# – Extract Scanned Image Text](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Convert scanned TIFF images to searchable text using Aspose.OCR in C#. Follow our step-by-step guide to extract text efficiently.
+### [recognize text from picture with Aspose OCR – Complete C# Guide](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Learn how to recognize text from pictures using Aspose OCR in C#. Follow our complete step-by-step guide.
+### [How to Use OCR in C# – Extract Text from Image](./how-to-use-ocr-in-c-extract-text-from-image/)
+Learn how to extract text from images using OCR in C#. Follow our step-by-step guide for efficient text extraction.
+### [How to Use OCR in C# – Extract Text from Receipts Quickly](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Learn how to quickly extract text from receipts using Aspose.OCR in C#. Follow our concise step-by-step guide.
+### [Convert TIFF to Text in C# Using Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Convert scanned TIFF images to searchable text using Aspose OCR in C#. Follow our step-by-step guide to extract text efficiently.
+### [extract text from image in C# – Aspose OCR step‑by‑step](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Learn how to extract text from images using Aspose OCR in C# with this detailed step-by-step guide.
+### [How to Get OCR in C# – Recognize Text from Stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Learn how to perform OCR on image streams in C# using Aspose.OCR. Follow our step-by-step guide to recognize text directly from streams.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -331,6 +331,21 @@ Aspose OCR를 사용하여 C#에서 이미지에서 아랍어 텍스트를 추�
 Aspose OCR를 사용하여 이미지에서 중국어 텍스트를 인식하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR로 이미지에서 Excel 만들기 – 단계별 가이드](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR를 활용해 이미지 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 TIFF를 텍스트로 변환 – 스캔 이미지 텍스트 추출](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Aspose.OCR를 사용해 C#에서 TIFF 파일을 텍스트로 변환하고 스캔된 이미지의 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR을 사용하여 TIFF를 텍스트로 변환](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Aspose OCR를 활용해 C#에서 TIFF 파일을 텍스트로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose OCR로 사진에서 텍스트 인식 – 완전한 C# 가이드](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Aspose OCR을 활용해 C#에서 사진의 텍스트를 추출하는 방법을 단계별로 안내하는 완전 가이드입니다.
+### [C#에서 OCR 사용 방법 – 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-image/)
+Aspose.OCR를 활용해 C#에서 이미지의 텍스트를 손쉽게 추출하는 단계별 가이드입니다.
+### [C#에서 OCR 사용 방법 – 영수증에서 텍스트를 빠르게 추출](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Aspose.OCR를 활용해 C#에서 영수증의 텍스트를 빠르게 추출하는 단계별 가이드입니다.
+### [C#에서 이미지에서 텍스트 추출 – Aspose OCR 단계별 가이드](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Aspose OCR를 사용해 C#에서 이미지의 텍스트를 단계별로 추출하는 방법을 안내합니다.
+### [C#에서 OCR 가져오기 – 스트림에서 텍스트 인식](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Aspose.OCR를 활용해 C#에서 스트림 데이터를 사용해 텍스트를 인식하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

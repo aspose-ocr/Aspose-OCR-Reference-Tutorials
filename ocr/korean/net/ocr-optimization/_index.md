@@ -176,6 +176,8 @@ C# 프로젝트에 전처리 단계와 함께 OCR을 적용하는 전체 과정�
 C#에서 이미지 회전을 교정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [OCR을 위한 이미지 기울기 보정 – 단계별 C# 가이드](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 이미지 기울기를 교정하여 OCR 정확도를 높이는 방법을 C# 코드와 함께 단계별로 안내합니다.
+### [C#에서 이미지 OCR 전처리 – 깨끗하고 대비 강화된 텍스트 추출 완전 가이드](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+C#을 사용해 이미지 전처리와 대비 향상으로 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

@@ -196,6 +196,8 @@ Learn how to process multiple images in batch using Aspose.OCR for .NET, improvi
 Learn how to accelerate OCR processing by enabling GPU support in Aspose.OCR for .NET using C#.
 ### [How to Perform OCR in C# – Complete Guide with Pre‑processing](./how-to-perform-ocr-in-c-complete-guide-with-pre-processing/)
 Step‑by‑step guide to perform OCR in C# using Aspose.OCR, covering preprocessing techniques for higher accuracy.
+### [Preprocess Image OCR in C# – Complete Guide to Clean, Contrast‑Boosted Text Extraction](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Learn how to clean and enhance images in C# for OCR, boosting contrast and improving text extraction accuracy with Aspose.OCR.
 
 ## Frequently Asked Questions
 

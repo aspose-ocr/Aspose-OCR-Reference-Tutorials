@@ -109,6 +109,7 @@ weight: 24
 离线设置 Aspose.OCR 引擎的完整步骤，帮助在 C# 项目中本地运行 OCR 功能。  
 ### [如何在 C# 中检查 OCR 模型可用性 – 步骤指南](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 逐步演示如何在 C# 项目中检查 OCR 模型是否可用，确保引擎准备就绪。  
+### [在 PDF 中嵌入字体 – 将 JPEG 转换为可搜索的 PDF](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 
 
 

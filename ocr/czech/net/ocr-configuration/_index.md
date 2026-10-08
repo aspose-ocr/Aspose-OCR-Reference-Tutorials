@@ -59,6 +59,8 @@ Kompletní návod, jak offline rozpoznávat čínské znaky v C# pomocí Aspose.
 Naučte se, jak vytvořit vlastní OCR engine v C# a nastavit jej pro offline použití bez internetového připojení.
 ### [Jak zkontrolovat dostupnost OCR modelu v C# – krok za krokem průvodce](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Zjistěte, jak programově ověřit, zda je OCR model dostupný, a jak reagovat, pokud není, pomocí Aspose.OCR v C#.
+### [Vložení fontů do PDF – Vytvořte prohledávatelná PDF z JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Naučte se, jak vložit fonty do PDF a převést JPEG obrázky na prohledávatelná PDF pomocí Aspose.PDF.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

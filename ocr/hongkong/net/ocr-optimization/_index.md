@@ -199,6 +199,8 @@ weight: 25
 學習如何在 C# 中校正圖像旋轉角度，提升 OCR 識別精度與效能。
 ### [在 C# 中校正圖像傾斜 – OCR 步驟指南](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 學習在 C# 中使用 Aspose.OCR 校正圖像傾斜角度，提升 OCR 識別精度與效能。
+### [在 C# 中前處理圖像 OCR – 完整指南：清理與提升對比的文字提取](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+深入了解如何在 C# 中使用 Aspose.OCR 前處理圖像，清理噪點、提升對比，提升文字辨識準確度。
 
 ## 常見問題
 

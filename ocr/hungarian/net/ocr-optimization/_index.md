@@ -18,7 +18,7 @@ weight: 25
 
 ## Bevezetés
 
-Ebben az útmutatóban megtudhatja, hogyan **extract text from image** fájlokból használja az Aspose.OCR for .NET-et. Akár dokumentumfeldolgozó csővezetéket épít, akár intelligens keresést ad hozzá egy alkalmazáshoz, az OCR elsajátítása elengedhetetlen. Végigvezetjük a folyamat minden lépésén – képek betöltése, régiók meghatározása, előfeldolgozó szűrők alkalmazása, az eredmények helyesírás‑ellenőrzéssel történő javítása, és végül a többoldalas kimenetek mentése. Minden oktatóanyag világos, lépésről‑lépésre követhető OCR formátumban van bemutatva, így azonnal megvalósíthatja a megoldást.
+Ebben az útmutatóban megtudhatja, hogyan **extract text from image** fájlokból használja az Aspose.OCR for .NET-et. Akár dokumentumfeldolgozó csővezetéket épít, akár intelligens keresést ad hozzá egy alkalmazáshoz, az OCR elsajátítása elengedhetetlen. Végigvezetjük a folyamat minden lépésén – képek betöltése, régiók meghatározása, előfeldolgozó szűrök alkalmazása, az eredmények helyesírás‑ellenőrzéssel történő javítása, és végül a többoldalas kimenetek mentése. Minden oktatóanyag világos, lépésről‑lépésre követhető OCR formátumban van bemutatva, így azonnal megvalósíthatja a megoldást.
 
 ## Gyors válaszok
 - **What does “extract text from image” mean?** A képben megjelenő vizuális karakterek kereshető, szerkeszthető szöveggé alakítása.  
@@ -197,6 +197,9 @@ Ismerje meg, hogyan korrigálja a kép forgatását C#‑ban az OCR pontosság n
 
 ### [Kép kiegyenesítése OCR-hez – Lépésről‑lépésre C# útmutató](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Fedezze fel, hogyan korrigálja a kép dőlését C#‑ban az OCR pontosság növelése érdekében.
+
+### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes útmutató a tiszta, kontrasztnövelt szöveg kinyeréséhez](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+Fedezze fel, hogyan tisztítsa meg a képeket és növelje a kontrasztot a pontos OCR eredményekért C#‑ban.
 
 ## Gyakran Ismételt Kérdések
 

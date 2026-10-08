@@ -195,6 +195,9 @@ weight: 25
 ### [在 C# 中纠正图像倾斜 – OCR 完整指南](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 学习如何在 C# 中检测并纠正图像倾斜，以提升 OCR 识别准确率的完整步骤指南。
 
+### [在 C# 中预处理图像 OCR – 完整指南：清洁、对比度提升的文本提取](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+深入了解如何在 C# 中使用 Aspose.OCR 进行图像预处理，提升对比度并提高清晰文本的识别准确率。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

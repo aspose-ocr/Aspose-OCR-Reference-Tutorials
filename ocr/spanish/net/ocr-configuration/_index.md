@@ -73,6 +73,8 @@ Aprende a reconocer texto chino sin conexión usando Aspose.OCR en C#, con ejemp
 Aprende a crear e integrar un motor OCR en C# sin necesidad de conexión a internet, paso a paso.
 ### [Cómo comprobar la disponibilidad del modelo OCR en C# – Guía paso a paso](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Aprende a verificar si un modelo OCR está disponible en tiempo de ejecución usando Aspose.OCR y C# paso a paso.
+### [Incrustar fuentes en PDF – Crear PDFs buscables a partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Aprende a incrustar fuentes en PDFs y convertir imágenes JPEG en documentos PDF buscables con Aspose.PDF.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

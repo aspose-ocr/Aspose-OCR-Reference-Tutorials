@@ -338,6 +338,20 @@ Leer hoe u met Aspose OCR Chinese tekst in afbeeldingen kunt herkennen en verwer
 Leer hoe u met Aspose OCR Arabische tekst uit afbeeldingen haalt in een C#-applicatie. Stapsgewijze handleiding voor snelle integratie.
 ### [Excel maken van afbeelding met Aspose OCR – Stapsgewijze gids](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR afbeeldingen omzet naar Excel‑bestanden in een eenvoudige stap‑voor‑stap handleiding.
+### [TIFF naar tekst converteren in C# – Tekst uit gescande afbeelding extraheren](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Leer hoe u met Aspose.OCR TIFF-bestanden omzet naar tekst in C#, zodat u gemakkelijk tekst uit gescande afbeeldingen haalt.
+### [TIFF naar tekst converteren in C# met Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Leer hoe u met Aspose OCR TIFF-bestanden omzet naar tekst in C#, voor eenvoudige extractie van gescande afbeeldingen.
+### [Herken tekst van afbeelding met Aspose OCR – Complete C#-gids](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Leer stap voor stap hoe u met Aspose OCR tekst uit afbeeldingen haalt in C#, inclusief volledige codevoorbeelden.
+### [Hoe OCR te gebruiken in C# – Tekst uit afbeelding extraheren](./how-to-use-ocr-in-c-extract-text-from-image/)
+Leer hoe u met Aspose.OCR OCR in C# toepast om tekst uit afbeeldingen te extraheren, met duidelijke stappen en voorbeeldcode.
+### [Hoe OCR te gebruiken in C# – Snel tekst uit bonnen extraheren](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Leer hoe u met Aspose.OCR snel tekst uit kassabonnen haalt in C#, met duidelijke stappen en voorbeeldcode.
+### [Tekst uit afbeelding extraheren in C# – Aspose OCR stap‑voor‑stap](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Leer stap voor stap hoe u met Aspose OCR tekst uit afbeeldingen haalt in C#, inclusief voorbeeldcode.
+### [Hoe OCR te krijgen in C# – Tekst herkennen vanuit stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Leer hoe u met Aspose.OCR tekst uit een stream haalt in C#, met duidelijke stappen en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

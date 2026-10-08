@@ -187,6 +187,8 @@ Aspose.OCR for .NET ile C#’ta OCR işlemini adım adım öğrenin, ön işleme
 C# ile görüntü döndürmeyi düzelterek OCR doğruluğunu artırın. Adım adım rehberimizle doğru açı ayarını öğrenin.
 ### [C# ile Görüntü Döndürmeyi Düzeltme – OCR İçin Adım‑Adım Kılavuz](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 C# kodu ile eğik görüntüleri düzleştirerek OCR performansını yükseltin. Basit adımlarla uygulamayı keşfedin.
+### [C#'ta Görüntü OCR Ön İşleme – Temiz, Kontrast Artırılmış Metin Çıkarma için Tam Kılavuz](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+C# ile görüntüleri ön işleme, kontrast artırma ve temiz metin çıkarma adımlarını adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

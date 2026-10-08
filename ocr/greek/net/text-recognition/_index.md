@@ -338,6 +338,18 @@ url: /el/net/text-recognition/
 Αποκτήστε τα βήματα για εξαγωγή αραβικού κειμένου από εικόνες με το Aspose OCR σε .NET εφαρμογές.
 ### [Δημιουργία Excel από εικόνα με Aspose OCR – Οδηγός βήμα‑βήμα](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε αρχείο Excel από εικόνα χρησιμοποιώντας το Aspose OCR σε .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Μετατροπή TIFF σε Κείμενο σε C# – Εξαγωγή Κειμένου από Σαρωμένη Εικόνα](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Μάθετε πώς να μετατρέψετε αρχεία TIFF σε κείμενο χρησιμοποιώντας C# και Aspose.OCR, εξάγοντας κείμενο από σαρωμένες εικόνες.
+### [Μετατροπή TIFF σε κείμενο σε C# με Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Μάθετε πώς να μετατρέψετε αρχεία TIFF σε κείμενο με C# και Aspose OCR, βήμα προς βήμα οδηγός.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Πλήρης οδηγός C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε C#, βήμα προς βήμα οδηγός για .NET.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή κειμένου από αποδείξεις γρήγορα](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Μάθετε πώς να εξάγετε κείμενο από αποδείξεις γρήγορα χρησιμοποιώντας OCR σε C# με το Aspose.OCR.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Aspose OCR βήμα‑βήμα](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας Aspose OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να αποκτήσετε OCR σε C# – Αναγνώριση κειμένου από ροή](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για να αναγνωρίζετε κείμενο απευθείας από ροή δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -360,6 +360,20 @@ Aprenda a usar Aspose OCR en .NET para reconocer texto chino en imágenes, con p
 Aprenda a extraer texto en árabe de imágenes usando Aspose OCR en C# con ejemplos claros y paso a paso.
 ### [Crear Excel a partir de una imagen con Aspose OCR – Guía paso a paso](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Aprenda a crear archivos Excel a partir de imágenes usando Aspose OCR con una guía paso a paso.
+### [Convertir TIFF a Texto en C# – Extraer Texto de Imagen Escaneada](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Convierta archivos TIFF a texto en C# y extraiga fácilmente el contenido de imágenes escaneadas usando Aspose.OCR.
+### [Convertir TIFF a Texto en C# usando Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Convierta archivos TIFF a texto en C# de forma sencilla con Aspose OCR.
+### [Reconocer texto de una imagen con Aspose OCR – Guía completa en C#](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Aprenda paso a paso cómo reconocer texto en imágenes usando Aspose OCR con C#, optimizando sus aplicaciones .NET.
+### [Cómo usar OCR en C# – Extraer texto de una imagen](./how-to-use-ocr-in-c-extract-text-from-image/)
+Aprenda a utilizar OCR en C# para extraer texto de imágenes de forma sencilla y eficaz con Aspose.OCR.
+### [Cómo usar OCR en C# – Extraer texto de recibos rápidamente](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Aprenda a usar OCR en C# para extraer texto de recibos rápidamente y mejorar sus aplicaciones .NET.
+### [Extraer texto de una imagen en C# – Aspose OCR paso a paso](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Aprenda paso a paso cómo extraer texto de imágenes en C# usando Aspose OCR, mejorando la precisión de sus aplicaciones .NET.
+### [Cómo obtener OCR en C# – Reconocer texto desde un flujo](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Aprenda a reconocer texto directamente desde un flujo de datos usando Aspose.OCR en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

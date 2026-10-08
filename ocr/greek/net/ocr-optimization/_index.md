@@ -205,6 +205,7 @@ weight: 25
 Μάθετε πώς να διορθώσετε την περιστροφή εικόνας σε C# για βέλτιστη ακρίβεια OCR με Aspose.OCR.
 ### [Πώς να διορθώσετε την κλίση εικόνας για OCR – Οδηγός βήμα‑βήμα C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Μάθετε πώς να ευθυγραμμίσετε εικόνες για βέλτιστη αναγνώριση OCR με C# χρησιμοποιώντας Aspose.OCR.
+### [Preprocess Image OCR in C# – Complete Guide to Clean, Contrast‑Boosted Text Extraction](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 
 ## Συχνές Ερωτήσεις
 

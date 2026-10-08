@@ -329,6 +329,20 @@ Erfahren Sie, wie Sie mit Aspose OCR chinesischen Text aus Bildern extrahieren u
 Erfahren Sie, wie Sie mit Aspose OCR arabischen Text aus Bildern in C# extrahieren.
 ### [Excel aus Bild mit Aspose OCR – Schritt‑für‑Schritt‑Anleitung](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose OCR Excel-Dateien aus Bildern erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [TIFF in Text konvertieren in C# – Gescannten Bildtext extrahieren](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
+Lernen Sie, wie Sie mit Aspose.OCR TIFF‑Dateien in C# in lesbaren Text umwandeln und gescannte Bildinhalte extrahieren.
+### [TIFF in Text konvertieren in C# mit Aspose OCR](./convert-tiff-to-text-in-c-using-aspose-ocr/)
+Lernen Sie, wie Sie mit Aspose OCR TIFF‑Dateien in C# in lesbaren Text umwandeln.
+### [Text aus Bild mit Aspose OCR erkennen – Vollständiger C#‑Leitfaden](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – ein umfassender Leitfaden für Entwickler.
+### [Text aus Bild in C# extrahieren – Aspose OCR Schritt‑für‑Schritt](./extract-text-from-image-in-c-aspose-ocr-step-by-step/)
+Lernen Sie, wie Sie mit Aspose OCR in C# Text aus Bildern Schritt für Schritt extrahieren.
+### [Wie man OCR in C# verwendet – Text aus Bild extrahieren](./how-to-use-ocr-in-c-extract-text-from-image/)
+Lernen Sie, wie Sie OCR in C# einsetzen, um Text aus Bildern zu extrahieren und in Ihre Anwendung zu integrieren.
+### [Wie man OCR in C# verwendet – Text schnell aus Belegen extrahieren](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Quittungen schnell extrahieren und in Ihre Anwendung integrieren.
+### [Wie man OCR in C# verwendet – Text aus Stream erkennen](./how-to-get-ocr-in-c-recognize-text-from-stream/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text direkt aus einem Stream erkennen und in Ihre Anwendung integrieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

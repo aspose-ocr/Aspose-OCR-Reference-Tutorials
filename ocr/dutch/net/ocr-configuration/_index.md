@@ -78,6 +78,8 @@ Leer hoe je JSON-output van OCR opslaat in C# met een volledige stap‑voor‑st
 Leer stap‑voor‑stap hoe je een offline OCR‑engine in C# opzet met Aspose.OCR, zonder internetverbinding.
 ### [Hoe de beschikbaarheid van een OCR‑model te controleren in C# – Stapsgewijze gids](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Leer stap‑voor‑stap hoe je de beschikbaarheid van OCR‑modellen controleert in C# met Aspose.OCR.
+### [Lettertypen insluiten in PDF – Doorzoekbare PDF's maken van JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Leer hoe je lettertypen in PDF's insluit en JPEG-afbeeldingen omzet naar doorzoekbare PDF-documenten met Aspose.PDF.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

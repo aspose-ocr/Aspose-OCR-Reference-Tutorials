@@ -59,6 +59,8 @@ Scopri come riconoscere testo cinese offline in C# usando Aspose.OCR, passo dopo
 Scopri come verificare se un modello OCR è disponibile in C# prima di avviare il riconoscimento, con esempi pratici.
 ### [Come creare un motore OCR in C# – Guida di configurazione offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
 Impara a creare un motore OCR in C# con configurazione offline, passo dopo passo, per progetti .NET autonomi.
+### [Incorporare i Font in PDF – Creare PDF Ricercabili da JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Scopri come incorporare i font in PDF e trasformare immagini JPEG in PDF ricercabili con Aspose.PDF per .NET.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

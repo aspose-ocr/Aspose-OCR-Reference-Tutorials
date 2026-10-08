@@ -84,6 +84,8 @@ Apprenez à extraire les résultats OCR au format JSON et à les enregistrer en 
 Apprenez à configurer un moteur OCR en C# pour une utilisation hors ligne, sans dépendances externes.
 ### [Comment vérifier la disponibilité du modèle OCR en C# – Guide étape par étape](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Apprenez à vérifier si un modèle OCR est disponible dans votre application C# avant de lancer la reconnaissance.
+### [Intégrer des polices dans PDF – Créer des PDF recherchables à partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Apprenez à intégrer des polices dans un PDF et à le rendre searchable à partir d'images JPEG.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

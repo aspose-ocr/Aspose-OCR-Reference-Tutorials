@@ -114,6 +114,8 @@ Pelajari cara mengenali teks Cina secara offline menggunakan Aspose.OCR di C# de
 ### [Cara Membuat Mesin OCR di C# – Panduan Penyiapan Offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
 Panduan langkah demi langkah membuat mesin OCR di C# dengan konfigurasi offline tanpa koneksi internet.
 ### [Cara Memeriksa Ketersediaan Model OCR di C# – Panduan Langkah‑demi‑Langkah](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+### [Sematkan Font dalam PDF – Buat PDF yang Dapat Dicari dari JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Pelajari cara menyematkan font ke PDF dan mengubah gambar JPEG menjadi PDF yang dapat dicari dengan Aspose.PDF.
 
 
 

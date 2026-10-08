@@ -74,6 +74,8 @@ Dowiedz się, jak w C# zweryfikować dostępność modelu OCR przed przetwarzani
 
 ### [Jak utworzyć silnik OCR w C# – przewodnik konfiguracji offline](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
 Dowiedz się, jak skonfigurować własny silnik OCR w C# bez połączenia z internetem, krok po kroku.
+### [Osadzanie czcionek w PDF – Tworzenie przeszukiwalnych PDF‑ów z JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Dowiedz się, jak osadzić czcionki w plikach PDF, aby przekształcić obrazy JPEG w przeszukiwalne dokumenty PDF.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

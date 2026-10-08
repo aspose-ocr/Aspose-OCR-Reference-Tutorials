@@ -112,6 +112,8 @@ Ismerje meg, hogyan lehet offline módon kínai szöveget felismerni C#-ban az A
 Ismerje meg, hogyan állíthatja be offline módon az OCR motort C#‑ban az Aspose.OCR segítségével.  
 ### [Hogyan ellenőrizhetjük az OCR modell elérhetőségét C#‑ban – Lépésről‑lépésre útmutató](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 Ismerje meg, hogyan ellenőrizheti, hogy az OCR modell elérhető‑e C# alkalmazásban, és hogyan kezelje a hiányzó modelleket.  
+### [Betűtípusok beágyazása PDF-be – Kereshető PDF-ek létrehozása JPEG-ből](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat PDF-be, és alakíthatja a JPEG képeket kereshető PDF-dokumentumokká az Aspose.PDF segítségével.  
 
 
 
