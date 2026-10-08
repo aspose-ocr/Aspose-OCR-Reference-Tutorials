@@ -1,0 +1,7 @@
+Title: Perform OCR on Image with C# – Complete Step‑by‑Step Guide
+Slug: perform-ocr-on-image-with-c-complete-step-by-step-guide
+Category: text-recognition
+ProcessedDate: 2026-05-22T08:28:16.889000
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from png, recognize text from image, load image for ocr
+PRNumber: 129

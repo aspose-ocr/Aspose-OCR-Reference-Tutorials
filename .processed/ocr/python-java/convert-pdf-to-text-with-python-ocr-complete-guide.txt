@@ -1,0 +1,7 @@
+Title: Convert PDF to Text with Python OCR – Complete Guide
+Slug: convert-pdf-to-text-with-python-ocr-complete-guide
+Category: general
+ProcessedDate: 2026-07-05T12:19:20.784370
+SourceRepo: AI Search API
+Keywords: convert pdf to text, extract text from pdf, batch ocr processing, load pdf for ocr, recognize scanned pdf
+PRNumber: 170

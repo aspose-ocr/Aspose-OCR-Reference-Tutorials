@@ -1,0 +1,7 @@
+Title: OCR PNG Image in Python – Full Step‑by‑Step Guide
+Slug: ocr-png-image-in-python-full-step-by-step-guide
+Category: general
+ProcessedDate: 2026-06-07T04:07:41.788934
+SourceRepo: AI Search API
+Keywords: ocr png image, extract text from image, python ocr example, read ancient greek, recognize image text
+PRNumber: 143
