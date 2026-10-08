@@ -230,34 +230,6 @@ A: Uruchom pętlę `Parallel.ForEach` i używaj jednego obiektu `OcrEngine` – 
 **Q: Czy to działa z mobilnymi zdjęciami zrobionymi pod kątem?**  
 A: Silnik zawiera podstawowe prostowanie, ale przy mocno nachylonych obrazach warto najpierw przetworzyć je przy użyciu biblioteki do przetwarzania obrazów (np. OpenCV), aby wyprostować paragon.
 
-## Pełny działający przykład (kopiuj‑wklej)
-
-Poniżej znajduje się *cały* program, który możesz wkleić do `Program.cs`. Nie są potrzebne żadne inne pliki poza licencją i obrazem paragonu.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

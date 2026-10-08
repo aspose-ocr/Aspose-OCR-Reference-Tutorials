@@ -226,34 +226,6 @@ A: Gebruik een `Parallel.ForEach`‑lus en hergebruik één `OcrEngine`‑instan
 **Q: Werkt dit met mobiele foto’s die onder een hoek zijn genomen?**  
 A: De engine bevat basis‑deskewing, maar bij sterk scheve afbeeldingen kun je eerst een beeldverwerkingsbibliotheek (bijv. OpenCV) gebruiken om de kassabon recht te zetten.
 
-## Volledig werkend voorbeeld (Kopie‑Plak)
-
-Hieronder staat het *complete* programma dat je in `Program.cs` kunt plakken. Er zijn geen andere bestanden nodig, behalve de licentie en een kassabon‑afbeelding.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

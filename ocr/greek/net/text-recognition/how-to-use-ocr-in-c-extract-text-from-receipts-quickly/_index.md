@@ -231,34 +231,6 @@ A: Εκκινήστε έναν βρόχο `Parallel.ForEach` και επαναχ
 **Q: Λειτουργεί αυτό με φωτογραφίες κινητού που έχουν ληφθεί υπό γωνία;**  
 A: Η μηχανή περιλαμβάνει βασική διόρθωση κλίσης, αλλά για πολύ κεκλιμένες εικόνες ίσως χρειαστεί προεπεξεργασία με βιβλιοθήκη επεξεργασίας εικόνας (π.χ., OpenCV) για να ευθυγραμμίσετε την απόδειξη πρώτα.
 
-## Πλήρες Παράδειγμα Λειτουργίας (Αντιγραφή‑Επικόλληση)
-
-Παρακάτω είναι το *ολόκληρο* πρόγραμμα που μπορείτε να τοποθετήσετε στο `Program.cs`. Δεν απαιτούνται άλλα αρχεία εκτός από την άδεια και μια εικόνα απόδειξης.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

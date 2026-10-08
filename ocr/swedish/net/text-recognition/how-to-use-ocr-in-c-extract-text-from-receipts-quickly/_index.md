@@ -225,34 +225,6 @@ A: Skapa en `Parallel.ForEach`‑loop och återanvänd en enda `OcrEngine`‑ins
 **Q: Fungerar detta med mobilfoton tagna i vinkeln?**  
 A: Motorn innehåller grundläggande deskewing, men för kraftigt snedvridna bilder kan du förbehandla med ett bildbehandlingsbibliotek (t.ex. OpenCV) för att räta upp kvittot först.
 
-## Fullt fungerande exempel (kopiera‑klistra in)
-
-Nedan är det *hela* programmet som du kan klistra in i `Program.cs`. Inga andra filer krävs förutom licensen och en kvittobild.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

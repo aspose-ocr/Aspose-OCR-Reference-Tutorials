@@ -224,34 +224,6 @@ foreach (var word in layout["Words"])
 **س: هل يعمل هذا مع صور هاتفية مأخوذة بزاوية؟**  
 ج: المحرك يتضمن تصحيحًا بسيطًا للانحراف، لكن للصور المائلة بشدة قد تحتاج إلى معالجة مسبقة باستخدام مكتبة معالجة صور (مثل OpenCV) لتصحيح الإيصال أولًا.
 
-## مثال كامل يعمل (انسخه‑الصقه)
-
-فيما يلي البرنامج *الكامل* الذي يمكنك وضعه في `Program.cs`. لا تحتاج إلى ملفات أخرى سوى الترخيص وصورة إيصال.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

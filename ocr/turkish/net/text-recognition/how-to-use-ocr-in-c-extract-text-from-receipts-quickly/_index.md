@@ -225,34 +225,6 @@ C: Bir `Parallel.ForEach` döngüsü başlatın ve tek bir `OcrEngine` örneğin
 **S: Açılı bir açıyla çekilmiş mobil fotoğraflarla çalışır mı?**  
 C: Motor temel deskew (eğri düzeltme) içerir, ancak çok eğik görüntüler için önce bir görüntü işleme kütüphanesi (ör. OpenCV) ile düzeltme yapmanız önerilir.
 
-## Tam Çalışan Örnek (Kopyala‑Yapıştır)
-
-Aşağıda `Program.cs` içine bırakabileceğiniz *tam* program yer alıyor. Lisans dosyası ve bir makbuz görüntüsü dışında başka bir dosyaya ihtiyacınız yok.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

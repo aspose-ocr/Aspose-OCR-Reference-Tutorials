@@ -223,34 +223,6 @@ A: Spusťte smyčku `Parallel.ForEach` a znovu použijte jedinou instanci `OcrEn
 **Q: Funguje to s mobilními fotografiemi pořízenými pod úhlem?**  
 A: Engine obsahuje základní deskewing, ale u výrazně nakloněných obrázků můžete předzpracovat pomocí knihovny pro zpracování obrazu (např. OpenCV), abyste nejprve narovnali účtenku.
 
-## Kompletní funkční příklad (kopíruj‑vložit)
-
-Níže je *celý* program, který můžete vložit do `Program.cs`. Žádné další soubory nejsou potřeba kromě licence a obrázku účtenky.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

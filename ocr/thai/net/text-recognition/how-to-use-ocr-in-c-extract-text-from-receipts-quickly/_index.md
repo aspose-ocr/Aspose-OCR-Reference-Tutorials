@@ -222,34 +222,6 @@ foreach (var word in layout["Words"])
 **ถาม: วิธีนี้ทำงานกับรูปถ่ายจากมือถือที่ถ่ายเอียงได้หรือไม่?**  
 ตอบ: เอนจินมีฟังก์ชัน deskew พื้นฐาน แต่สำหรับภาพที่เอียงมาก คุณอาจต้องทำการประมวลผลล่วงหน้าด้วยไลบรารีประมวลผลภาพ (เช่น OpenCV) เพื่อทำให้ใบเสร็จตรงก่อน.
 
-## ตัวอย่างทำงานเต็ม (คัดลอก‑วาง)
-
-ด้านล่างเป็นโปรแกรม *ทั้งหมด* ที่คุณสามารถวางลงใน `Program.cs` ไม่ต้องมีไฟล์อื่นนอกจากใบอนุญาตและรูปภาพใบเสร็จ.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

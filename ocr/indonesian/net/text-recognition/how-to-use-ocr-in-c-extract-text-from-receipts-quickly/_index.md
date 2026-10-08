@@ -226,34 +226,6 @@ A: Buat loop `Parallel.ForEach` dan gunakan satu instance `OcrEngine` – ia thr
 **Q: Apakah ini bekerja dengan foto ponsel yang diambil dengan sudut miring?**  
 A: Mesin sudah menyertakan deskewing dasar, tetapi untuk gambar yang sangat miring Anda mungkin perlu pra‑proses dengan pustaka pemrosesan gambar (mis., OpenCV) untuk meluruskan resi terlebih dahulu.
 
-## Contoh Lengkap yang Siap Pakai (Copy‑Paste)
-
-Berikut adalah program *seluruhnya* yang dapat Anda letakkan di `Program.cs`. Tidak ada file lain yang diperlukan selain lisensi dan gambar resi.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

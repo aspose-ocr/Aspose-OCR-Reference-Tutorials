@@ -223,34 +223,6 @@ A: Inicia un bucle `Parallel.ForEach` y reutiliza una única instancia de `OcrEn
 **Q: ¿Funciona esto con fotos móviles tomadas en ángulo?**  
 A: El motor incluye desalineación básica, pero para imágenes muy sesgadas podrías pre‑procesarlas con una biblioteca de procesamiento de imágenes (p.ej., OpenCV) para enderezar el recibo primero.
 
-## Ejemplo completo (copiar‑pegar)
-
-A continuación está el programa *completo* que puedes colocar en `Program.cs`. No se requieren otros archivos aparte de la licencia y una imagen de recibo.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -227,34 +227,6 @@ A: 启动一个 `Parallel.ForEach` 循环并复用同一个 `OcrEngine` 实例 �
 **Q: 这能处理倾斜拍摄的手机照片吗？**  
 A: 引擎自带基本的去倾斜功能，但对于严重倾斜的图像，你可能需要先使用图像处理库（例如 OpenCV）进行预处理，将收据校正。
 
-## 完整可运行示例（复制粘贴）
-
-下面是可以直接粘贴到 `Program.cs` 的 *完整* 程序。除许可证和收据图像外，无需其他文件。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

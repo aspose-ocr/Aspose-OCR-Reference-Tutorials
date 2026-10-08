@@ -228,34 +228,6 @@ A: Starten Sie eine `Parallel.ForEach`‑Schleife und verwenden Sie eine einzeln
 **Q: Funktioniert das mit mobilen Fotos, die schräg aufgenommen wurden?**  
 A: Die Engine enthält eine grundlegende Entzerrung, aber bei stark verzerrten Bildern sollten Sie sie zunächst mit einer Bildverarbeitungsbibliothek (z. B. OpenCV) vorverarbeiten, um die Quittung zu begradigen.
 
-## Vollständiges funktionierendes Beispiel (Copy‑Paste)
-
-Unten finden Sie das *gesamte* Programm, das Sie in `Program.cs` einfügen können. Keine weiteren Dateien sind erforderlich, außer der Lizenz und einem Quittungsbild.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

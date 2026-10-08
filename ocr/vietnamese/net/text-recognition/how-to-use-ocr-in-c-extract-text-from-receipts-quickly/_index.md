@@ -228,34 +228,6 @@ A: Tạo một vòng lặp `Parallel.ForEach` và tái sử dụng một thể h
 **Q: Điều này có hoạt động với ảnh chụp bằng điện thoại di động ở góc nghiêng không?**  
 A: Engine bao gồm chức năng cân chỉnh cơ bản, nhưng với ảnh nghiêng mạnh bạn có thể tiền xử lý bằng thư viện xử lý ảnh (ví dụ, OpenCV) để làm thẳng biên lai trước.
 
-## Ví dụ Hoạt động Đầy đủ (Sao chép‑Dán)
-
-Dưới đây là toàn bộ chương trình bạn có thể đặt vào `Program.cs`. Không cần tệp nào khác ngoại trừ giấy phép và ảnh biên lai.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

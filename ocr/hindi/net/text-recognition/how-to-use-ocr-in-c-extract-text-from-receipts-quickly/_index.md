@@ -225,34 +225,6 @@ A: एक `Parallel.ForEach` लूप चलाएँ और एक ही `Ocr
 **Q: क्या यह एंगल वाले मोबाइल फ़ोटो के साथ काम करता है?**  
 A: इंजन बेसिक डेस्क्यूइंग शामिल करता है, लेकिन बहुत ज़्यादा स्क्यू वाली इमेज के लिए आप पहले OpenCV जैसी इमेज‑प्रोसेसिंग लाइब्रेरी से इमेज को स्ट्रेटेन कर सकते हैं।
 
-## Full Working Example (Copy‑Paste)
-
-नीचे पूरा प्रोग्राम है जिसे आप `Program.cs` में पेस्ट कर सकते हैं। लाइसेंस फ़ाइल और एक रसीद इमेज के अलावा कोई अन्य फ़ाइल आवश्यक नहीं है।
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

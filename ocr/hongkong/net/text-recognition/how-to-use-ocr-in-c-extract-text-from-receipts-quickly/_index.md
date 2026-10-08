@@ -225,34 +225,6 @@ A: 建立 `Parallel.ForEach` 迴圈，重複使用單一 `OcrEngine` 實例—�
 **Q: 這能處理角度偏斜的手機相片嗎？**  
 A: 引擎內建基本的去斜功能，但對於嚴重傾斜的影像，建議先使用影像處理函式庫（例如 OpenCV）進行校正，再交給 OCR。
 
-## 完整可執行範例（直接複製貼上）
-
-以下為完整程式碼，可直接貼入 `Program.cs`。除授權檔與收據影像外，無需其他檔案。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

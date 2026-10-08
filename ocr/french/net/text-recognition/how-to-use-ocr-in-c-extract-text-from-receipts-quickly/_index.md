@@ -226,34 +226,6 @@ R : Lancez une boucle `Parallel.ForEach` et réutilisez une seule instance de 
 **Q : Cela fonctionne‑t‑il avec des photos mobiles prises sous un angle ?**  
 R : Le moteur inclut une correction de base de l’inclinaison, mais pour des images fortement penchées vous pouvez pré‑traiter avec une bibliothèque de traitement d’image (par ex., OpenCV) afin de redresser le ticket au préalable.
 
-## Exemple complet (Copier‑Coller)
-
-Voici le *programme entier* que vous pouvez coller dans `Program.cs`. Aucun autre fichier n’est requis en dehors de la licence et d’une image de ticket.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

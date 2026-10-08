@@ -226,34 +226,6 @@ A: Spin up a `Parallel.ForEach` loop and reuse a single `OcrEngine` instance –
 **Q: Does this work with mobile photos taken at an angle?**  
 A: The engine includes basic deskewing, but for heavily skewed images you might pre‑process with an image‑processing library (e.g., OpenCV) to straighten the receipt first.
 
-## Full Working Example (Copy‑Paste)
-
-Below is the *entire* program you can drop into `Program.cs`. No other files are required besides the license and a receipt image.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

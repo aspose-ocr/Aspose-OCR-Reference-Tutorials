@@ -225,34 +225,6 @@ foreach (var word in layout["Words"])
 **В: Работает ли это с фотографиями, снятыми под углом?**  
 О: Движок включает базовую коррекцию наклона, но для сильно искривлённых изображений имеет смысл предварительно обработать их библиотекой обработки изображений (например, OpenCV), чтобы выпрямить чек.
 
-## Полный рабочий пример (копировать‑вставить)
-
-Ниже представлен *полный* код программы, который можно поместить в `Program.cs`. Других файлов не требуется, кроме лицензии и изображения чека.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

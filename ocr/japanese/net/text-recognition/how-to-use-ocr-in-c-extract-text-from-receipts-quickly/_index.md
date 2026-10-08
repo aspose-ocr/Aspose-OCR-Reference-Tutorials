@@ -225,34 +225,6 @@ A: `Parallel.ForEach` ループを立ち上げ、単一の `OcrEngine` インス
 **Q: 角度がついたモバイル写真でも動作しますか？**  
 A: エンジンには基本的なデスキュー機能が含まれていますが、画像が大きく傾いている場合は、画像処理ライブラリ（例: OpenCV）で事前に補正し、レシートを真っ直ぐにしてから処理すると良いでしょう。
 
-## 完全な動作例（コピー＆ペースト）
-
-以下は `Program.cs` に貼り付けられる *全体* のプログラムです。ライセンスファイルとレシート画像以外に必要なファイルはありません。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

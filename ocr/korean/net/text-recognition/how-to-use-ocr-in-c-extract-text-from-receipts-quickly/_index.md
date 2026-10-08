@@ -229,34 +229,6 @@ A: `Parallel.ForEach` 루프를 사용하고 단일 `OcrEngine` 인스턴스를 
 **Q: 각도가 있는 모바일 사진에서도 작동하나요?**  
 A: 엔진에는 기본적인 기울기 보정 기능이 포함되어 있지만, 심하게 기울어진 이미지의 경우 이미지 처리 라이브러리(예: OpenCV)를 사용해 영수증을 먼저 정렬하는 것이 좋습니다.
 
-## 전체 작동 예제 (복사‑붙여넣기)
-
-아래는 `Program.cs`에 그대로 넣을 수 있는 *전체* 프로그램입니다. 라이선스 파일과 영수증 이미지 외에 다른 파일은 필요하지 않습니다.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // OCR 엔진 생성 및 구성
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ 평가 모드로 실행 중 – 라이선스를 찾을 수 없습니다.");
-        }
-
-        // 처리할 이미지 로드 (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

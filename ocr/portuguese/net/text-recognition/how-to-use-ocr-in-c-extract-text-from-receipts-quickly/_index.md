@@ -223,34 +223,6 @@ A: Crie um loop `Parallel.ForEach` e reutilize uma única instância de `OcrEngi
 **Q: Isso funciona com fotos tiradas em dispositivos móveis em ângulo?**  
 A: O motor inclui correção básica de inclinação, mas para imagens muito inclinadas você pode pré‑processar com uma biblioteca de processamento de imagens (por exemplo, OpenCV) para endireitar o recibo primeiro.
 
-## Exemplo Completo (Copiar‑Colar)
-
-Abaixo está o programa *inteiro* que você pode colocar em `Program.cs`. Nenhum outro arquivo é necessário além da licença e de uma imagem de recibo.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

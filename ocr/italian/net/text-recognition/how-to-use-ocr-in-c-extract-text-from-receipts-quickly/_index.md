@@ -231,34 +231,6 @@ A: Avvia un ciclo `Parallel.ForEach` e riutilizza una singola istanza di `OcrEng
 **Q: Funziona con foto mobili scattate di lato?**  
 A: Il motore include una correzione di base dell'inclinazione, ma per immagini molto inclinate potresti pre‑processare con una libreria di elaborazione immagini (ad es., OpenCV) per raddrizzare prima la ricevuta.
 
-## Esempio completo funzionante (copia‑incolla)
-
-Di seguito trovi il programma *intero* che puoi inserire in `Program.cs`. Non sono necessari altri file oltre alla licenza e a un'immagine di ricevuta.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.OCR;
-using Aspose.OCR.Image;
-
-class Program
-{
-    static void Main()
-    {
-        // Create and configure the OCR engine
-        var ocrEngine = new OcrEngine();
-        try
-        {
-            ocrEngine.SetLicense("Aspose.OCR.lic");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("⚠️ Running in trial mode – license not found.");
-        }
-
-        // Load the image to be processed (load image for OCR)
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
