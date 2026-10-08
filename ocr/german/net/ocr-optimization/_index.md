@@ -56,6 +56,8 @@ Erreichen Sie unvergleichliche OCR‑Genauigkeit mit [Aspose.OCR for .NET](./res
 ## Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung
 Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit Aspose.OCR für .NET. Unser [Schritt-für-Schritt-Anleitung](./save-multipage-result-as-document/) erschließt das volle Potenzial der Dokumentenerstellung. Integrieren Sie Aspose.OCR nahtlos und verwandeln Sie Ihre OCR‑Ergebnisse mühelos in mehrseitige Dokumente.
 
+Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR‑Optimierung auf dem Laufenden bleiben. Tauchen Sie ein in die Welt von Präzision und Effizienz mit Aspose.OCR für .NET Tutorials.
+
 ## OCR‑Optimierungs‑Tutorials
 ### [Text aus Bild extrahieren in C# – Vollständiger OCR‑Leitfaden](./extract-text-from-image-in-c-complete-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
