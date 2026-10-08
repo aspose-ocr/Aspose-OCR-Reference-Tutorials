@@ -25,17 +25,12 @@ title: java ocr voorbeeld – Tekstafbeelding herkennen met Aspose OCR – Volle
 url: /nl/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/
 ---
 
- => "Auteur". Keep dates unchanged.
 
-Now close shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to keep code block placeholders unchanged.
 
-Also ensure markdown formatting preserved.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

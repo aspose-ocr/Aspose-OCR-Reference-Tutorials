@@ -258,5 +258,5 @@ Viel Spaß beim Coden und mögen Ihre OCR‑Ergebnisse stets kristallklar sein!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{ /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
