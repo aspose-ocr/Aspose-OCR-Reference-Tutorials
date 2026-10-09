@@ -11,7 +11,7 @@ url: /sv/net/text-recognition/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textigennning
+# Textigenkänning
 
 ## Introduktion
 
