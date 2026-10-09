@@ -64,8 +64,6 @@ weight: 25
 ## OCR 優化教學
 ### [在 OCR 圖像辨識中的圖像前處理濾鏡](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET，透過前處理濾鏡提升 OCR 精確度，立即下載以實現無縫整合。
-### [在 OCR 圖像辨識中使用拼寫檢查進行結果校正](./result-correction-with-spell-checking/)
-使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
 ### [使用 GPU 加速的圖像 OCR – 完整 C# 教學](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 了解如何在 Aspose.OCR for .NET 中利用 GPU 加速圖像 OCR，提升辨識速度與精度的完整 C# 範例。
 ### [在 OCR 圖像辨識中校正圖像斜角 – 完整 C# 教學](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
@@ -201,6 +199,12 @@ weight: 25
 學習在 C# 中使用 Aspose.OCR 校正圖像傾斜角度，提升 OCR 識別精度與效能。
 ### [在 C# 中前處理圖像 OCR – 完整指南：清理與提升對比的文字提取](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 深入了解如何在 C# 中使用 Aspose.OCR 前處理圖像，清理噪點、提升對比，提升文字辨識準確度。
+### [如何在 C# 中對中文圖像執行 OCR – 完整指南](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+### [在 OCR 圖像辨識中使用拼寫檢查進行結果校正](./result-correction-with-spell-checking/)
+使用 Aspose.OCR for .NET 增強 OCR 精度，校正拼寫、客製化字典，輕鬆實現無誤的文字辨識。
+### [如何在 C# 中去斜圖像並執行 OCR – 完整指南](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+學習在 C# 使用 Aspose.OCR 進行圖像去斜處理並執行 OCR，提升辨識精度的完整步驟指南。
+### [Aspose OCR 範例 – 在 C# 中啟用拼寫檢查並修正錯誤](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
 
 ## 常見問題
 

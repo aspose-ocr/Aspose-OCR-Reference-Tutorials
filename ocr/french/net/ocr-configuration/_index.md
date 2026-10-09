@@ -87,6 +87,9 @@ Apprenez à vérifier si un modèle OCR est disponible dans votre application C#
 ### [Intégrer des polices dans PDF – Créer des PDF recherchables à partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Apprenez à intégrer des polices dans un PDF et à le rendre searchable à partir d'images JPEG.
 
+### [Lire du texte à partir de PNG – extraire du texte cyrillique avec Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Apprenez à extraire du texte cyrillique d'images PNG en utilisant Aspose OCR dans vos applications .NET.
+
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
 ### Cas d'utilisation courants

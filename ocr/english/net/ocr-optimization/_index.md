@@ -71,6 +71,8 @@ Using Aspose.OCR For .NET Tutorials Listing, you can access additional resources
 Learn how to fix image rotation in C# to boost OCR accuracy with Aspose.OCR.
 ### [How to Deskew Image for OCR – Step‑by‑Step C# Guide](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Learn how to correct image skew in C# to improve OCR accuracy using Aspose.OCR's deskew filter.
+### [How to Deskew Image and Run OCR in C# – Complete Guide](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Learn to deskew images and perform OCR in C# using Aspose.OCR, improving accuracy for tilted documents.
 ### [Perform OCR on Image from URL in OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Explore seamless OCR integration with Aspose.OCR for .NET. Recognize text from images with precision.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
@@ -198,6 +200,10 @@ Learn how to accelerate OCR processing by enabling GPU support in Aspose.OCR for
 Step‑by‑step guide to perform OCR in C# using Aspose.OCR, covering preprocessing techniques for higher accuracy.
 ### [Preprocess Image OCR in C# – Complete Guide to Clean, Contrast‑Boosted Text Extraction](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Learn how to clean and enhance images in C# for OCR, boosting contrast and improving text extraction accuracy with Aspose.OCR.
+### [Aspose OCR Example – Enable Spellcheck and Fix Errors in C#](./aspose-ocr-example-enable-spell-check-and-fix-errors-in-c/)
+Learn how to enable spellcheck and automatically fix OCR errors in C# using Aspose.OCR.
+### [How to Perform OCR on Chinese Images – Complete C# Guide](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Step‑by‑step guide to recognize Chinese text in images using Aspose.OCR for .NET, covering language settings, preprocessing, and result handling.
 
 ## Frequently Asked Questions
 

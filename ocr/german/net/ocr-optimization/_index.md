@@ -211,6 +211,12 @@ Erfahren Sie, wie Sie Bildrotationen in C# korrigieren, um die OCR‑Genauigkeit
 Erfahren Sie, wie Sie Bilder für OCR entzerren, um die Erkennungsgenauigkeit zu maximieren, mit praktischen C#‑Beispielen.
 ### [Bildvorverarbeitung für OCR in C# – Komplett‑Leitfaden zur sauberen, kontrastverstärkten Textextraktion](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Erfahren Sie, wie Sie Bilder in C# vorverarbeiten, Kontrast steigern und saubere Textergebnisse mit Aspose.OCR erzielen.
+### [Wie man ein Bild entzerrt und OCR in C# ausführt – Komplettanleitung](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Erfahren Sie, wie Sie Bilder mit Entzerrungsfilter vorbereiten und anschließend OCR in C# durchführen.
+### [Aspose OCR Beispiel – Rechtschreibprüfung aktivieren und Fehler in C# beheben](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Lernen Sie, wie Sie die Rechtschreibprüfung einschalten und OCR‑Fehler in C# automatisch korrigieren.
+### [Wie man OCR auf chinesischen Bildern ausführt – Komplettanleitung für C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Erfahren Sie, wie Sie chinesische Bildtexte mit Aspose.OCR in C# präzise erkennen und verarbeiten.
 
 ## Häufig gestellte Fragen
 

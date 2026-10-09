@@ -178,6 +178,11 @@ C#에서 이미지 회전을 교정하여 OCR 정확도를 높이는 방법을 �
 이미지 기울기를 교정하여 OCR 정확도를 높이는 방법을 C# 코드와 함께 단계별로 안내합니다.
 ### [C#에서 이미지 OCR 전처리 – 깨끗하고 대비 강화된 텍스트 추출 완전 가이드](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 C#을 사용해 이미지 전처리와 대비 향상으로 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
+### [Aspose OCR 예제 – C#에서 맞춤법 검사 활성화 및 오류 수정](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+C# 코드에서 Aspose OCR을 사용해 맞춤법 검사를 활성화하고 인식 오류를 자동으로 교정하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지 기울기 보정 및 OCR 실행 – 완전 가이드](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+### [중국어 이미지에서 OCR 수행 – 완전 C# 가이드](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Aspose.OCR for .NET를 사용해 중국어 이미지에서 텍스트를 정확히 추출하고, C# 코드로 전체 과정을 구현하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

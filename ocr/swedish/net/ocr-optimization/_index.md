@@ -205,6 +205,12 @@ Steg‑för‑steg‑guide för att räta upp bilder i C# och maximera OCR‑pre
 Lär dig hur du rättar bildrotation i C# för att maximera OCR‑noggrannheten med praktiska exempel och kod.
 ### [Förbehandla bild‑OCR i C# – Komplett guide för ren, kontrastförstärkt textutvinning](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Lär dig steg‑för‑steg hur du rengör och förbättrar bildkontrast för optimal OCR‑igenkänning i C#.
+### [Hur du räta upp en bild och kör OCR i C# – Komplett guide](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR för att räta upp bilder och utföra OCR i C# för bästa noggrannhet.
+### [Aspose OCR‑exempel – Aktivera stavningskontroll och rätta fel i C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Lär dig hur du aktiverar stavningskontroll i Aspose.OCR för C# och automatiskt korrigerar igenkända fel för bättre OCR‑noggrannhet.
+### [Hur du utför OCR på kinesiska bilder – Komplett C#‑guide](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR för att känna igen kinesisk text i bilder med C#.
 
 ## Vanliga frågor
 

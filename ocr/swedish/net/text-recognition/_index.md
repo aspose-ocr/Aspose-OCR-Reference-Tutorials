@@ -360,6 +360,14 @@ Lär dig steg-för-steg hur du med Aspose OCR i C# extraherar text från bilder 
 ### [Hur man får OCR i C# – Känn igen text från en ström](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Lär dig steg‑för‑steg hur du med Aspose.OCR för .NET kan känna igen text från en ström i C#.
 
+### [Känn igen text från bild i C# – Komplett Aspose OCR-guide](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Lär dig att känna igen text från bilder i C# med Aspose OCR i en komplett steg-för-steg-guide.
+### [Hur du skapar ePub från bilder i C# – Steg-för-steg-guide](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Lär dig att skapa ePub-filer från bilder i C# med en detaljerad steg-för-steg-guide.
+### [Extrahera text från PNG i C# – Fullständig OCR-guide](./extract-text-from-png-in-c-full-ocr-guide/)
+Lär dig att extrahera text från PNG-bilder i C# med Aspose OCR i en komplett steg-för-steg-guide.
+### [Hur man använder OCR i C# – Extrahera text från bilder offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Lär dig hur du offline extraherar text från bilder i C# med Aspose.OCR i en steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

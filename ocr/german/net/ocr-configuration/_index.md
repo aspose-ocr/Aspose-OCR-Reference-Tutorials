@@ -74,6 +74,8 @@ Erfahren Sie, wie Sie in C# prüfen, ob ein OCR‑Modell verfügbar ist, und es 
 Erfahren Sie, wie Sie eine OCR-Engine in C# offline einrichten und konfigurieren, ohne Internetverbindung.
 ### [Schriftarten in PDF einbetten – Durchsuchbare PDFs aus JPEG erstellen](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Erfahren Sie, wie Sie Schriftarten einbetten und aus JPEG‑Bildern durchsuchbare PDFs erzeugen.
+### [Text aus PNG lesen – Kyrillischen Text mit Aspose OCR extrahieren](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR kyrillischen Text aus PNG‑Dateien zuverlässig extrahieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

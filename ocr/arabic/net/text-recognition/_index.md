@@ -363,6 +363,14 @@ url: /ar/net/text-recognition/
 دليل شامل خطوة بخطوة لاستخدام Aspose OCR لاستخراج النص من الصور في C# بسهولة.
 ### [كيفية الحصول على OCR في C# – التعرف على النص من الدفق](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 تعلم كيفية استخدام Aspose.OCR في C# للتعرف على النص مباشرة من تدفق البيانات.
+### [كيفية إنشاء ePub من الصور في C# – دليل خطوة بخطوة](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+تعلم كيفية تحويل مجموعة من الصور إلى ملف ePub باستخدام C# خطوة بخطوة.
+### [التعرف على النص من الصورة في C# – دليل Aspose OCR الكامل](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+تعلم كيفية التعرف على النص من الصور باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [استخراج النص من PNG في C# – دليل OCR الكامل](./extract-text-from-png-in-c-full-ocr-guide/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية استخدام OCR في C# – استخراج النص من الصور دون اتصال](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# دون الحاجة إلى اتصال بالإنترنت خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

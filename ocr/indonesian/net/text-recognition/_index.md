@@ -359,6 +359,16 @@ Pelajari cara cepat mengekstrak teks dari resi menggunakan Aspose.OCR di C# deng
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan panduan langkah demi langkah.
 ### [Cara Mendapatkan OCR di C# – Mengenali Teks dari Stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Pelajari cara menggunakan Aspose.OCR di C# untuk mengenali teks langsung dari aliran data dengan panduan langkah demi langkah.
+### [Mengenali Teks Hindi dalam C# – Panduan Lengkap Aspose OCR](./recognize-hindi-text-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mengenali teks Hindi dalam aplikasi C# menggunakan Aspose OCR dengan panduan lengkap langkah demi langkah.
+### [Cara Membuat ePub dari Gambar di C# – Panduan Langkah demi Langkah](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Pelajari cara mengonversi gambar menjadi file ePub menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Mengenali Teks dari Gambar di C# – Panduan Lengkap Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Ekstrak Teks dari PNG di C# – Panduan OCR Lengkap](./extract-text-from-png-in-c-full-ocr-guide/)
+Pelajari cara mengekstrak teks dari file PNG menggunakan Aspose.OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar Secara Offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Pelajari cara menggunakan OCR di C# untuk mengekstrak teks dari gambar secara offline dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

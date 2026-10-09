@@ -74,6 +74,7 @@ Lär dig skapa en OCR-motor i C# med offline‑installation och konfiguration f�
 Lär dig hur du verifierar om en OCR-modell är tillgänglig i C# innan du påbörjar bildigenkänning.
 ### [Bädda in teckensnitt i PDF – Skapa sökbara PDF-filer från JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Lär dig hur du bäddar in teckensnitt i PDF och konverterar JPEG‑bilder till sökbara PDF‑dokument med Aspose.PDF.
+### [Läs text från PNG – extrahera kyrillisk text med Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

@@ -365,6 +365,14 @@ Convert scanned TIFF images to searchable text using Aspose OCR in C#. Follow ou
 Learn how to extract text from images using Aspose OCR in C# with this detailed step-by-step guide.
 ### [How to Get OCR in C# – Recognize Text from Stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Learn how to perform OCR on image streams in C# using Aspose.OCR. Follow our step-by-step guide to recognize text directly from streams.
+### [How to Create ePub from Images in C# – Step-by-Step Guide](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Learn to generate ePub files from images using C# with Aspose.OCR in this comprehensive step-by-step tutorial.
+### [recognize text from image in C# – Complete Aspose OCR Guide](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Learn how to extract text from images using C# and Aspose.OCR with this comprehensive step-by-step guide.
+### [Extract Text from PNG in C# – Full OCR Guide](./extract-text-from-png-in-c-full-ocr-guide/)
+Learn how to extract text from PNG images using C# and Aspose.OCR with this comprehensive step-by-step guide.
+### [How to Use OCR in C# – Extract Text from Images Offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Learn how to extract text from images offline using OCR in C# with Aspose.OCR in this step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

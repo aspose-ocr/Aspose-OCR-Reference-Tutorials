@@ -206,6 +206,13 @@ weight: 25
 ### [Πώς να διορθώσετε την κλίση εικόνας για OCR – Οδηγός βήμα‑βήμα C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 Μάθετε πώς να ευθυγραμμίσετε εικόνες για βέλτιστη αναγνώριση OCR με C# χρησιμοποιώντας Aspose.OCR.
 ### [Preprocess Image OCR in C# – Complete Guide to Clean, Contrast‑Boosted Text Extraction](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
+### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spellchecking/)
+### [Πώς να διορθώσετε την κλίση εικόνας και να εκτελέσετε OCR σε C# – Πλήρης Οδηγός](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες και να εφαρμόσετε OCR με Aspose.OCR σε C# βήμα‑βήμα.
+### [Παράδειγμα Aspose OCR – Ενεργοποίηση ορθογραφικού ελέγχου και διόρθωση σφαλμάτων σε C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ενεργοποιήστε τον ορθογραφικό έλεγχο στο Aspose OCR και διορθώστε σφάλματα κειμένου σε εφαρμογές C#.
+### [Πώς να εκτελέσετε OCR σε κινεζικές εικόνες – Πλήρης οδηγός C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Μάθετε πώς να αναγνωρίζετε κινεζικό κείμενο σε εικόνες με Aspose.OCR και C# βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

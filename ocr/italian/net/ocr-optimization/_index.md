@@ -208,6 +208,12 @@ Scopri come correggere la rotazione delle immagini in C# per migliorare l'accura
 Scopri come raddrizzare le immagini prima dell'OCR con Aspose.OCR usando C# per migliorare la precisione.
 ### [Preprocessare l'OCR di Immagine in C# – Guida Completa per Pulire e Aumentare il Contrasto nell'Estrazione del Testo](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Scopri come pulire le immagini e migliorare il contrasto per un'estrazione OCR più accurata con C# e Aspose.OCR.
+### [Come raddrizzare l'immagine ed eseguire OCR in C# – Guida completa](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Scopri come rimuovere l'inclinazione dalle immagini e applicare l'OCR con Aspose.OCR in C# passo‑passo.
+### [Esempio Aspose OCR – Abilita il controllo ortografico e correggi gli errori in C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Scopri come attivare il controllo ortografico in Aspose OCR e correggere automaticamente gli errori di riconoscimento in C#.
+### [Come eseguire OCR su immagini cinesi – Guida completa C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Scopri come riconoscere testo cinese da immagini usando Aspose.OCR in C#, con esempi passo‑passo e consigli di ottimizzazione.
 
 ## Domande Frequenti
 

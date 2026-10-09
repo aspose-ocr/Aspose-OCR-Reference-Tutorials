@@ -76,6 +76,8 @@ Dowiedz się, jak w C# zweryfikować dostępność modelu OCR przed przetwarzani
 Dowiedz się, jak skonfigurować własny silnik OCR w C# bez połączenia z internetem, krok po kroku.
 ### [Osadzanie czcionek w PDF – Tworzenie przeszukiwalnych PDF‑ów z JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Dowiedz się, jak osadzić czcionki w plikach PDF, aby przekształcić obrazy JPEG w przeszukiwalne dokumenty PDF.
+### [Odczytaj tekst z PNG – wyodrębnij tekst cyrylicą przy użyciu Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Dowiedz się, jak wyodrębnić tekst cyrylicą z plików PNG przy użyciu Aspose OCR w .NET.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

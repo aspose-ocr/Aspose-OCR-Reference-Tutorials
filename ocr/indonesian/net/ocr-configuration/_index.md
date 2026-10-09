@@ -116,6 +116,7 @@ Panduan langkah demi langkah membuat mesin OCR di C# dengan konfigurasi offline 
 ### [Cara Memeriksa Ketersediaan Model OCR di C# – Panduan Langkah‑demi‑Langkah](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 ### [Sematkan Font dalam PDF – Buat PDF yang Dapat Dicari dari JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Pelajari cara menyematkan font ke PDF dan mengubah gambar JPEG menjadi PDF yang dapat dicari dengan Aspose.PDF.
+### [Baca teks dari PNG – ekstrak teks Sirilik dengan Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 
 
 

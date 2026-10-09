@@ -214,6 +214,12 @@ Pelajari cara memperbaiki rotasi gambar di C# untuk meningkatkan akurasi OCR den
 Pelajari cara menghilangkan kemiringan gambar di C# untuk meningkatkan akurasi OCR dengan langkah‑langkah praktis.
 ### [Pra‑proses Gambar OCR di C# – Panduan Lengkap untuk Pembersihan dan Peningkatan Kontras Ekstraksi Teks](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Pelajari cara membersihkan gambar, meningkatkan kontras, dan mengekstrak teks dengan akurasi tinggi menggunakan Aspose.OCR di C#.
+### [Cara Membetulkan Kemiringan Gambar dan Menjalankan OCR di C# – Panduan Lengkap](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Pelajari cara mengoreksi kemiringan gambar dan melakukan OCR dengan Aspose.OCR di C# secara menyeluruh.
+### [Contoh Aspose OCR – Aktifkan Pemeriksaan Ejaan dan Perbaiki Kesalahan di C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Pelajari cara mengaktifkan pemeriksaan ejaan dan memperbaiki kesalahan OCR dalam C# menggunakan Aspose.OCR.
+### [Cara Melakukan OCR pada Gambar Cina – Panduan Lengkap C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Pelajari cara mengoptimalkan OCR untuk gambar berbahasa Cina menggunakan Aspose.OCR di C#, termasuk penyiapan bahasa dan peningkatan akurasi.
 
 ## Pertanyaan yang Sering Diajukan
 

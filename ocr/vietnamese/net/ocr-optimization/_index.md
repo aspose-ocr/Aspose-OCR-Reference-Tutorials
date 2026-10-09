@@ -176,6 +176,12 @@ Khám phá cách kích hoạt GPU để tăng tốc OCR trong C# với Aspose.OC
 ### [Cách điều chỉnh nghiêng hình ảnh cho OCR – Hướng dẫn chi tiết C#](./how-to-deskew-image-for-ocr-step-by-step-c-guide/)
 ### [Tiền xử lý OCR hình ảnh trong C# – Hướng dẫn toàn diện để làm sạch và tăng độ tương phản cho việc trích xuất văn bản](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Khám phá cách tiền xử lý ảnh để cải thiện độ chính xác OCR trong C#, bao gồm làm sạch, tăng độ tương phản và tối ưu hoá trích xuất văn bản.
+### [Cách chỉnh góc ảnh và chạy OCR trong C# – Hướng dẫn đầy đủ](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Hướng dẫn chi tiết cách loại bỏ nghiêng ảnh và thực hiện OCR bằng C# với Aspose.OCR, nâng cao độ chính xác.
+### [Ví dụ Aspose OCR – Bật Kiểm tra Chính tả và Sửa Lỗi trong C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Hướng dẫn cách bật tính năng kiểm tra chính tả và sửa lỗi OCR trong C# bằng Aspose.OCR, nâng cao độ chính xác kết quả.
+### [Cách thực hiện OCR trên ảnh tiếng Trung – Hướng dẫn đầy đủ C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Hướng dẫn chi tiết cách nhận dạng ký tự tiếng Trung trong ảnh bằng Aspose.OCR và C#, nâng cao độ chính xác.
 
 ## Câu hỏi thường gặp
 

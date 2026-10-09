@@ -75,6 +75,8 @@ Aprende a crear e integrar un motor OCR en C# sin necesidad de conexión a inter
 Aprende a verificar si un modelo OCR está disponible en tiempo de ejecución usando Aspose.OCR y C# paso a paso.
 ### [Incrustar fuentes en PDF – Crear PDFs buscables a partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Aprende a incrustar fuentes en PDFs y convertir imágenes JPEG en documentos PDF buscables con Aspose.PDF.
+### [Leer texto de PNG – extraer texto cirílico con Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aprende a extraer texto cirílico de imágenes PNG usando Aspose OCR en tus aplicaciones .NET.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

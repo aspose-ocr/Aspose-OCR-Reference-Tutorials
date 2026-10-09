@@ -61,6 +61,8 @@ Naučte se, jak vytvořit vlastní OCR engine v C# a nastavit jej pro offline po
 Zjistěte, jak programově ověřit, zda je OCR model dostupný, a jak reagovat, pokud není, pomocí Aspose.OCR v C#.
 ### [Vložení fontů do PDF – Vytvořte prohledávatelná PDF z JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Naučte se, jak vložit fonty do PDF a převést JPEG obrázky na prohledávatelná PDF pomocí Aspose.PDF.
+### [Číst text z PNG – extrahovat cyrilický text pomocí Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR načíst PNG soubor a získat cyrilický text s vysokou přesností.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

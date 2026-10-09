@@ -61,6 +61,8 @@ Scopri come verificare se un modello OCR è disponibile in C# prima di avviare i
 Impara a creare un motore OCR in C# con configurazione offline, passo dopo passo, per progetti .NET autonomi.
 ### [Incorporare i Font in PDF – Creare PDF Ricercabili da JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Scopri come incorporare i font in PDF e trasformare immagini JPEG in PDF ricercabili con Aspose.PDF per .NET.
+### [Leggi testo da PNG – estrai testo cirillico con Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Sblocca il potenziale di Aspose OCR per estrarre testo cirillico da immagini PNG.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

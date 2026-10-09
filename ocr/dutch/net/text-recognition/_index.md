@@ -352,6 +352,14 @@ Leer hoe u met Aspose.OCR snel tekst uit kassabonnen haalt in C#, met duidelijke
 Leer stap voor stap hoe u met Aspose OCR tekst uit afbeeldingen haalt in C#, inclusief voorbeeldcode.
 ### [Hoe OCR te krijgen in C# – Tekst herkennen vanuit stream](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Leer hoe u met Aspose.OCR tekst uit een stream haalt in C#, met duidelijke stappen en voorbeeldcode.
+### [Hoe maak je een ePub van afbeeldingen in C# – Stapsgewijze gids](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Leer hoe u in C# een ePub-bestand kunt maken van afbeeldingen met een duidelijke stapsgewijze handleiding.
+### [Herken tekst uit afbeelding in C# – Complete Aspose OCR-gids](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Leer hoe u tekst uit een afbeelding kunt herkennen met Aspose OCR in C#. Volg de volledige gids voor nauwkeurige resultaten.
+### [Tekst extraheren uit PNG in C# – Volledige OCR-gids](./extract-text-from-png-in-c-full-ocr-guide/)
+Leer hoe u tekst uit PNG-afbeeldingen kunt extraheren met Aspose OCR in C#. Volg de volledige gids voor nauwkeurige resultaten.
+### [Hoe OCR te gebruiken in C# – Tekst extraheren uit afbeeldingen offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Leer hoe u offline OCR in C# kunt toepassen om tekst nauwkeurig uit afbeeldingen te extraheren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

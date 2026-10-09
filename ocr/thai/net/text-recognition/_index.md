@@ -323,6 +323,12 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีดึงข้อความจากภาพด้วย Aspose OCR ใน C# อย่างละเอียดตามขั้นตอนเพื่อการประมวลผลที่แม่นยำ
 ### [วิธีรับ OCR ใน C# – จดจำข้อความจากสตรีม](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 เรียนรู้วิธีรับ OCR ใน C# เพื่อจดจำข้อความจากสตรีมอย่างง่ายดายด้วยขั้นตอนที่ชัดเจน
+### [จดจำข้อความจากรูปภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีจดจำข้อความจากรูปภาพใน C# อย่างละเอียดด้วย Aspose OCR พร้อมขั้นตอนครบถ้วน
+### [ดึงข้อความจาก PNG ใน C# – คู่มือ OCR ฉบับเต็ม](./extract-text-from-png-in-c-full-ocr-guide/)
+### [วิธีสร้าง ePub จากรูปภาพใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพแบบออฟไลน์](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากรูปภาพโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต ด้วยขั้นตอนง่าย ๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

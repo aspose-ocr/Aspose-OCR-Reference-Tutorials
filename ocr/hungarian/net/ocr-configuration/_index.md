@@ -114,6 +114,8 @@ Ismerje meg, hogyan állíthatja be offline módon az OCR motort C#‑ban az Asp
 Ismerje meg, hogyan ellenőrizheti, hogy az OCR modell elérhető‑e C# alkalmazásban, és hogyan kezelje a hiányzó modelleket.  
 ### [Betűtípusok beágyazása PDF-be – Kereshető PDF-ek létrehozása JPEG-ből](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Ismerje meg, hogyan ágyazhat be betűtípusokat PDF-be, és alakíthatja a JPEG képeket kereshető PDF-dokumentumokká az Aspose.PDF segítségével.  
+### [PNG‑ből szöveg olvasása – cirill szöveg kinyerése az Aspose OCR-rel](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Tanulja meg, hogyan nyerjen ki cirill karaktereket PNG képekből az Aspose OCR .NET használatával.  
 
 
 

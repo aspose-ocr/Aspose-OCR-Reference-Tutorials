@@ -65,6 +65,8 @@ C# ile offline ortamda OCR motoru kurup yapılandırmayı adım adım öğrenin.
 C# ile OCR modelinin mevcut olup olmadığını kontrol etmeyi adım adım öğrenin.
 ### [PDF'ye Yazı Tipi Göm – JPEG'den Aranabilir PDF'ler Oluştur](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 JPEG görüntülerini PDF'ye gömülü yazı tipleriyle dönüştürerek aranabilir PDF dosyaları oluşturun.
+### [png'den metin oku – Aspose OCR ile Kiril metni çıkarma](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aspose OCR kullanarak PNG dosyalarından Kiril alfabesindeki metni doğru ve hızlı bir şekilde çıkarın.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

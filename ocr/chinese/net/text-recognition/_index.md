@@ -360,6 +360,14 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 在 C# 中快速从收据中提取文本，提高处理效率。
 ### [在 C# 中使用 OCR – 从流中识别文本](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 使用 Aspose.OCR 在 C# 中从流读取图像并提取文本，提供详细分步指南。
+### [在 C# 中从图像识别文本 – 完整 Aspose OCR 指南](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+使用 Aspose.OCR for .NET，在 C# 项目中实现从图像中精准识别文本的完整步骤指南。
+### [在 C# 中从图像创建 ePub – 步骤指南](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+通过本分步指南，使用 Aspose.OCR 将图像转换为 ePub 电子书，轻松实现高效电子出版。
+### [在 C# 中从 PNG 提取文本 – 完整 OCR 指南](./extract-text-from-png-in-c-full-ocr-guide/)
+通过本分步指南，使用 Aspose.OCR 在 C# 项目中从 PNG 图像精准提取文本。
+### [在 C# 中使用 OCR – 离线提取图像文本](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+使用 Aspose.OCR 在 C# 项目中离线提取图像文本，提供完整的步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

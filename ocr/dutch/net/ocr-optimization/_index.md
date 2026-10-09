@@ -64,6 +64,8 @@ Sla moeiteloos multipagina‑OCR‑resultaten op als documenten met Aspose.OCR v
 Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en op de hoogte blijven van de nieuwste ontwikkelingen op het gebied van OCR‑optimalisatie. Duik in de wereld van precisie en efficiëntie met Aspose.OCR voor .NET tutorials.
 
 ## OCR-optimalisatie tutorials
+### [Hoe een afbeelding rechtzetten en OCR uitvoeren in C# – Complete gids](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Leer stap‑voor‑stap hoe je een scheve afbeelding corrigeert en vervolgens OCR toepast met Aspose.OCR in C#.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids. Leer stap‑voor‑stap hoe je rechthoeken voorbereidt voor beeldherkenning. Til je .NET‑applicaties naar een hoger niveau met naadloze OCR‑integratie.
 ### [Hoe OCR te gebruiken in C# – Tekst uit afbeeldingen halen met GPU-versnelling](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)
@@ -214,6 +216,10 @@ Leer hoe je afbeeldingrotatie corrigeert in C# om OCR‑nauwkeurigheid te maxima
 Leer hoe je afbeeldingen corrigeert voor optimale OCR‑nauwkeurigheid met een eenvoudige C#‑implementatie.
 ### [Preprocess Image OCR in C# – Complete gids voor schone, contrast‑versterkte tekstelextractie](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Leer hoe je afbeeldingen voor OCR kunt voorbereiden in C#, met reiniging en contrastverhoging voor optimale teksterkenning.
+### [Aspose OCR‑voorbeeld – Spellcheck inschakelen en fouten corrigeren in C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Leer hoe je spellcheck inschakelt en OCR‑fouten corrigeert in C# met Aspose.OCR.
+### [Hoe OCR op Chinese afbeeldingen uit te voeren – Complete C# gids](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Leer stap‑voor‑stap hoe je Chinese tekens herkent met Aspose.OCR in C# en optimale resultaten behaalt.
 
 ## Veelgestelde vragen
 

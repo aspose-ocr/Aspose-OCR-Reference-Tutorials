@@ -339,6 +339,14 @@ url: /ru/net/text-recognition/
 Узнайте, как быстро извлечь текст из чеков в C# с помощью Aspose.OCR, следуя простому пошаговому руководству.
 ### [Как получить OCR в C# – Распознать текст из потока](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Научитесь быстро распознавать текст из потока в C# с помощью Aspose.OCR.
+### [Как создать ePub из изображений в C# – Пошаговое руководство](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Создайте ePub из изображений в C# с помощью пошагового руководства, используя возможности Aspose.OCR.
+### [Распознать текст с изображения в C# – Полное руководство Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Полное пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose.OCR.
+### [Извлечь текст из PNG в C# – Полное руководство по OCR](./extract-text-from-png-in-c-full-ocr-guide/)
+Полное руководство по извлечению текста из PNG‑изображений в C# с использованием Aspose.OCR.
+### [Как использовать OCR в C# – извлекать текст из изображений офлайн](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Полное руководство по использованию OCR в C# для извлечения текста из изображений без подключения к сети.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

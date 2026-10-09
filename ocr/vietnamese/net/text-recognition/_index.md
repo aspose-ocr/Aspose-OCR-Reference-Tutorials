@@ -355,6 +355,14 @@ Hướng dẫn nhanh cách sử dụng OCR trong C# để trích xuất văn b�
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
 ### [Cách sử dụng OCR trong C# – Nhận dạng văn bản từ luồng](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản trực tiếp từ luồng dữ liệu một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Khám phá cách nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR một cách dễ dàng.
+### [Cách tạo ePub từ hình ảnh trong C# – Hướng dẫn từng bước](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển hình ảnh thành file ePub bằng C#, giúp bạn tạo sách điện tử một cách nhanh chóng và dễ dàng.
+### [Trích xuất văn bản từ PNG trong C# – Hướng dẫn OCR đầy đủ](./extract-text-from-png-in-c-full-ocr-guide/)
+Khám phá cách trích xuất văn bản từ tệp PNG trong C# bằng Aspose.OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR một cách dễ dàng.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh mà không cần kết nối internet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

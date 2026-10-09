@@ -62,6 +62,8 @@ C# でオフライン OCR エンジンを構築し、セットアップ手順と
 C# で OCR モデルが利用可能かどうかを確認し、適切にハンドリングする手順を解説します。
 ### [PDF にフォントを埋め込む – JPEG から検索可能な PDF を作成](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 JPEG 画像からフォントを埋め込み、検索可能な PDF を作成する方法を学びます。
+### [png からテキストを読み取る – Aspose OCR でキリル文字テキストを抽出](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aspose OCR を使用して PNG 画像からキリル文字テキストを抽出し、.NET アプリで利用する方法を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

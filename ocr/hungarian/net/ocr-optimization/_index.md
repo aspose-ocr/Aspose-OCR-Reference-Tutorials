@@ -201,6 +201,15 @@ Fedezze fel, hogyan korrigálja a kép dőlését C#‑ban az OCR pontosság nö
 ### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes útmutató a tiszta, kontrasztnövelt szöveg kinyeréséhez](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Fedezze fel, hogyan tisztítsa meg a képeket és növelje a kontrasztot a pontos OCR eredményekért C#‑ban.
 
+### [Hogyan kiegyenesítsen képet és futtassa az OCR‑t C#‑ban – Teljes útmutató](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Ismerje meg, hogyan lehet a képet kiegyenesíteni és OCR‑t végrehajtani C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre.
+
+### [Aspose OCR példa – helyesírás-ellenőrzés engedélyezése és hibák javítása C#‑ban](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ismerje meg, hogyan engedélyezheti a helyesírás-ellenőrzést és javíthatja a felismerési hibákat C#‑ban az Aspose.OCR segítségével.
+
+### [Hogyan hajtson végre OCR-t kínai képeken – Teljes C# útmutató](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Fedezze fel, hogyan ismerje fel a kínai nyelvű szöveget képeken C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

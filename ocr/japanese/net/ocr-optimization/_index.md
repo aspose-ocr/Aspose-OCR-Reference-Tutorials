@@ -204,6 +204,12 @@ C# で Aspose.OCR を使用し、前処理手順を組み合わせて高精度�
 画像の傾きを自動検出・補正し、OCR の精度を最大化する手順を解説します。
 ### [C# で画像 OCR を前処理 – クリーンでコントラスト強化されたテキスト抽出の完全ガイド](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 C# で画像を前処理し、コントラストを高めて OCR の精度を最大化する手順をステップバイステップで解説します。
+### [C# で画像をデスキューし OCR を実行する方法 – 完全ガイド](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+画像の傾きを補正し、Aspose.OCR を使用して正確にテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR の例 – C# でスペルチェックを有効にしエラーを修正する](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Aspose.OCR を使用して C# でスペルチェックを有効にし、認識エラーを自動修正する手順を解説します。
+### [C# で中国語画像の OCR を実行する完全ガイド](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+C# を使用して中国語の画像からテキストを抽出する手順をステップバイステップで解説します。
 
 ## よくある質問
 

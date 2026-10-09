@@ -207,6 +207,12 @@ Naučte se, jak správně otočit obrázek v C# pro zlepšení přesnosti OCR po
 Naučte se, jak pomocí Aspose.OCR odstranit sklon obrázku a zlepšit přesnost rozpoznávání textu v C#.
 ### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce čištěním a zvýšením kontrastu pro extrakci textu](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 Kompletní návod, jak předzpracovat obrázky v C# pro OCR, včetně čištění, zvýšení kontrastu a optimalizace rozpoznání textu.
+### [Jak narovnat obrázek a spustit OCR v C# – Kompletní průvodce](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# odstranit sklon obrázku a provést OCR s vysokou přesností v několika krocích.
+### [Příklad Aspose OCR – Povolit kontrolu pravopisu a opravit chyby v C#](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+Ukázkový kód, který zapíná kontrolu pravopisu v Aspose.OCR a automaticky opravuje rozpoznané chyby v C#.
+### [Jak provést OCR na čínských obrázcích – Kompletní průvodce v C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Naučte se rozpoznávat čínské znaky z obrázků pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
 
 ## Často kladené otázky
 

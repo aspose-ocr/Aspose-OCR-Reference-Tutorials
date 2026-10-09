@@ -362,6 +362,14 @@ Naučte se rychle extrahovat text z účtenek v C# pomocí Aspose.OCR.
 Naučte se krok za krokem, jak v C# pomocí Aspose OCR extrahovat text z obrázku.
 ### [Jak získat OCR v C# – Rozpoznat text ze streamu](./how-to-get-ocr-in-c-recognize-text-from-stream/)
 Naučte se, jak v C# pomocí Aspose.OCR rozpoznat text přímo ze streamu.
+### [Jak vytvořit ePub z obrázků v C# – krok za krokem průvodce](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
+Naučte se pomocí Aspose.PDF vytvořit ePub soubor z obrázků v C# pomocí podrobného průvodce.
+### [Rozpoznat text z obrázku v C# – Kompletní průvodce Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-guide/)
+Naučte se rozpoznávat text z obrázku v C# pomocí Aspose OCR v podrobném průvodci.
+### [Extrahovat text z PNG v C# – Kompletní průvodce OCR](./extract-text-from-png-in-c-full-ocr-guide/)
+Naučte se extrahovat text z PNG souborů v C# pomocí Aspose.OCR v podrobném průvodci.
+### [Jak používat OCR v C# – Extrahovat text z obrázků offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
+Naučte se, jak offline pomocí Aspose.OCR v C# extrahovat text z obrázků a integrovat jej do svých aplikací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

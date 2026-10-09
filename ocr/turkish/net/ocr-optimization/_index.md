@@ -189,6 +189,12 @@ C# ile görüntü döndürmeyi düzelterek OCR doğruluğunu artırın. Adım ad
 C# kodu ile eğik görüntüleri düzleştirerek OCR performansını yükseltin. Basit adımlarla uygulamayı keşfedin.
 ### [C#'ta Görüntü OCR Ön İşleme – Temiz, Kontrast Artırılmış Metin Çıkarma için Tam Kılavuz](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 C# ile görüntüleri ön işleme, kontrast artırma ve temiz metin çıkarma adımlarını adım adım öğrenin.
+### [C# ile Görüntüyü Düzleştir ve OCR Çalıştırma – Tam Kılavuz](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+Görüntüyü eğriltme hatasından arındırıp, Aspose.OCR for .NET ile C# içinde tam OCR sürecini adım adım uygulayın.
+### [Aspose OCR Örneği – C#'ta Yazım Denetimini Etkinleştir ve Hataları Düzelt](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+C# ile Aspose OCR kullanarak yazım denetimini etkinleştirip tanıma hatalarını otomatik düzeltin.
+### [Çince Görüntülerde OCR Nasıl Yapılır – Tam C# Kılavuzu](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+Aspose.OCR for .NET ile Çince görüntülerde yüksek doğruluklu OCR yapın ve adım adım rehberimizi izleyin.
 
 ## Sıkça Sorulan Sorular
 

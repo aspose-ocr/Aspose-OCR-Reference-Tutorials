@@ -198,6 +198,14 @@ weight: 25
 ### [在 C# 中预处理图像 OCR – 完整指南：清洁、对比度提升的文本提取](./preprocess-image-ocr-in-c-complete-guide-to-clean-contrast-b/)
 深入了解如何在 C# 中使用 Aspose.OCR 进行图像预处理，提升对比度并提高清晰文本的识别准确率。
 
+### [如何在 C# 中去倾斜图像并运行 OCR – 完整指南](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
+本教程详细讲解在 C# 中使用 Aspose.OCR 对图像去倾斜并执行 OCR 的完整步骤，提升识别准确率。
+
+### [Aspose OCR 示例 – 在 C# 中启用拼写检查并修复错误](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+
+### [如何在 C# 中对中文图像执行 OCR – 完整指南](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
+本教程详细演示在 C# 使用 Aspose.OCR 对中文图像进行 OCR 的完整步骤，包括预处理、语言设置和结果保存。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

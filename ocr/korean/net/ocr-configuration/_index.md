@@ -113,6 +113,8 @@ C#에서 오프라인으로 OCR 엔진을 설정하고 사용하는 방법을 �
 C# 코드에서 OCR 모델이 사용 가능한지 확인하고, 필요 시 로드하는 방법을 단계별로 안내합니다.  
 ### [PDF에 글꼴 삽입 – JPEG에서 검색 가능한 PDF 만들기](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 JPEG 이미지를 PDF로 변환하고 글꼴을 삽입해 검색 가능한 PDF를 만드는 방법을 안내합니다.
+### [png에서 텍스트 읽기 – Aspose OCR로 키릴 문자 추출](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aspose OCR를 사용해 PNG 이미지에서 키릴 문자 텍스트를 추출하는 방법을 단계별로 안내합니다.  
 
 
 

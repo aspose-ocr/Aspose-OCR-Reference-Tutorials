@@ -83,6 +83,8 @@ Step-by-step guide to build and configure an offline OCR engine in C# using Aspo
 Learn how to programmatically verify OCR model availability in C# using Aspose.OCR, with sample code and best practices.
 ### [Embed Fonts in PDF – Make Searchable PDFs from JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Create searchable PDFs from JPEG images by embedding fonts using Aspose.PDF for .NET.
+### [read text from png – extract Cyrillic text with Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Learn how to read Cyrillic text from PNG images using Aspose.OCR in .NET, covering image loading, language setting, and extracting accurate results.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

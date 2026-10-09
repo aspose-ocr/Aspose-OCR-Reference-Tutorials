@@ -65,6 +65,8 @@ Aprenda a configurar e usar um motor OCR local em C# sem dependências online.
 Descubra como verificar se um modelo OCR está disponível antes de usá‑lo em sua aplicação C#.
 ### [Incorporar fontes em PDF – Criar PDFs pesquisáveis a partir de JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Aprenda a incorporar fontes em PDFs gerados a partir de imagens JPEG, tornando-os pesquisáveis e editáveis.
+### [Ler texto de PNG – extrair texto cirílico com Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Desbloqueie o OCR para extrair texto cirílico de imagens PNG usando Aspose OCR de forma simples e eficaz.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

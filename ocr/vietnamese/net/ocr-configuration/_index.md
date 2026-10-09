@@ -117,6 +117,7 @@ Hướng dẫn chi tiết cách tạo engine OCR trong C# và cấu hình môi t
 ### [Cách Kiểm Tra Tính Khả Dụng Của Mô Hình OCR trong C# – Hướng Dẫn Từng Bước](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
 ### [Nhúng phông chữ vào PDF – Tạo PDF có thể tìm kiếm từ JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Nhúng phông chữ vào PDF để tạo tài liệu có thể tìm kiếm từ hình ảnh JPEG một cách dễ dàng.
+### [Đọc văn bản từ PNG – trích xuất văn bản Cyrillic bằng Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 
 
 
