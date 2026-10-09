@@ -37,6 +37,9 @@ url: /ar/net/text-recognition/
 
 أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. قم باستخراج النص من ملفات PDF بسهولة ودمجها بسلاسة في تطبيقاتك. يوفر هذا البرنامج التعليمي دليلاً شاملاً للتعرف على النص في ملفات PDF، مما يضمن تجربة تكامل سلسة وفعالة.
 
+### [How to perform OCR in C# – extract text from images](./how-to-perform-ocr-in-c-extract-text-from-images/)
+
+
 ### [كيفية التعرف الضوئي على PDF في C# – دليل كامل لاستخراج النص من ملفات PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
 تعلم خطوة بخطوة استخراج النص من ملفات PDF باستخدام Aspose.OCR في C# بسهولة.
 

@@ -43,6 +43,9 @@ url: /zh-hant/net/text-recognition/
 
 準備好徹底改變您的 .NET 應用程式了嗎？深入研究我們的文字辨識教學並利用 Aspose.OCR 的強大功能來準確、有效率地識別圖像中的文字。立即下載並踏上增強 OCR 功能的旅程。
 ## 文字辨識教程
+### [How to perform OCR in C# – extract text from images](./how-to-perform-ocr-in-c-extract-text-from-images/)
+
+
 ### [在 OCR 影像辨識中取得已辨識字元的選擇](./get-choices-for-recognized-characters/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
 ### [OCR影像辨識中取得辨識結果](./get-recognition-result/)
