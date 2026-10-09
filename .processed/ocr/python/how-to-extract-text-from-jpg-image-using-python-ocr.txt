@@ -1,0 +1,7 @@
+Title: How to extract text from JPG image using Python OCR
+Slug: how-to-extract-text-from-jpg-image-using-python-ocr
+Category: general
+ProcessedDate: 2026-09-29T10:18:34.201236
+SourceRepo: AI Search API
+Keywords: extract text from jpg image
+PRNumber: 233

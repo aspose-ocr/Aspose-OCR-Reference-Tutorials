@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-03-07
-description: تعلم كيفية التعرف على النص الهندي وتحميل الصورة للتعرف الضوئي على الأحرف
-  باستخدام Aspose.OCR في C#. إعداد خطوة بخطوة، الكود، والنصائح.
+date: 2026-02-09
+description: تعلم كيفية التعرف على النص الهندي واستخراج النص من الصورة باستخدام Aspose
+  OCR. يتضمن خطوات تنزيل حزم اللغات وقراءة النص الأردي.
 draft: false
 keywords:
-- recognize Hindi text
-- load image for OCR
-- Aspose OCR C#
-- Hindi language pack
-- OCR engine settings
+- recognize hindi text
+- extract text from image
+- download language packs
+- read urdu text
+- extract plain text
 language: ar
-og_description: اكتشف كيفية التعرف على النص الهندي باستخدام Aspose OCR في C#. يتضمن
-  تحميل الصورة للتعرف الضوئي على الأحرف، إعداد حزمة اللغة، ونصائح لأفضل الممارسات.
-og_title: التعرف على النص الهندي – دليل Aspose OCR الكامل
+og_description: تعلم كيفية التعرف على النص الهندي واستخراج النص من الصورة باستخدام
+  Aspose OCR. يتضمن خطوات تنزيل حزم اللغات وقراءة النص الأردي.
+og_title: التعرف على النص الهندي في C# – دليل Aspose OCR الكامل
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
-- Hindi
+- Multilingual OCR
 title: التعرف على النص الهندي في C# – دليل Aspose OCR الكامل
 url: /ar/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
@@ -27,198 +26,173 @@ url: /ar/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التعرف على النص الهندي – دليل Aspose OCR الكامل
+# التعرف على النص الهندي في C# – دليل Aspose OCR الكامل
 
-هل احتجت يومًا إلى **التعرف على النص الهندي** من إيصال ممسوح ضوئيًا لكنك لم تكن متأكدًا من أين تبدأ؟ لست وحدك. في العديد من التطبيقات التي تستهدف الهند، قد يبدو استخراج الأحرف الهندية بشكل موثوق كمطاردة هدف متحرك. لحسن الحظ، تجعل Aspose.OCR الأمر سهلًا—بمجرد أن تعرف الخطوات الصحيحة لـ **load image for OCR** وتوجيه المحرك إلى موارد اللغة الهندية.
+هل احتجت يوماً إلى **التعرف على النص الهندي** من إيصال ممسوح ضوئياً لكنك لم تكن متأكدًا أي مكتبة يمكنها التعامل معه؟ لست وحدك. في هذا الدرس سنظهر لك كيفية استخراج النص من ملفات الصور، تنزيل حزم اللغات المطلوبة، وحتى **قراءة النص الأردي** بعينة شفرة واحدة مرتبة.
 
-في هذا الدليل سنستعرض كل ما تحتاجه للحصول على خط أنابيب OCR يعمل في C#. في النهاية ستحصل على برنامج قابل للتنفيذ يقوم بتنزيل حزمة اللغة الهندية، يحمل صورة، يشغل التعرف، ويطبع النص الناتج على وحدة التحكم. لا روابط غامضة مثل “انظر الوثائق”—فقط حل مستقل يمكنك إدراجه في أي مشروع .NET.
+سنستعرض كل ما تحتاجه لتبدأ العمل: تثبيت Aspose.OCR، تكوين الدعم متعدد اللغات، تحميل صورة، وأخيرًا استخراج **النص العادي**. في النهاية ستحصل على مقتطف قابل لإعادة الاستخدام يمكنك إدراجه في أي مشروع .NET.
+
+---
 
 ## ما ستحتاجه
 
-- **.NET 6+** (أو .NET Framework 4.7.2+). الـ API هو نفسه عبر الإصدارات، لكن وقت التشغيل الأحدث يمنحك أداءً أفضل.
-- حزمة **Aspose.OCR for .NET** على NuGet. قم بتثبيتها باستخدام `dotnet add package Aspose.OCR`.
-- **حزمة اللغة الهندية** – تقوم Aspose بتوفيرها كمورد قابل للتنزيل، غير مدمجة بشكل افتراضي.
-- ملف صورة يحتوي على نص هندي (مثال: `hindi_receipt.jpg`). أي صيغة شائعة (JPG, PNG, BMP) تعمل.
-- بيئة تطوير متكاملة جيدة (Visual Studio, Rider, أو VS Code).  
+- **.NET 6.0 أو أحدث** – الشيفرة تستهدف ميزات C# الحديثة، لكن .NET Framework 4.7+ يعمل أيضاً.  
+- **حزمة Aspose.OCR عبر NuGet** – ثبّتها باستخدام `dotnet add package Aspose.OCR`.  
+- صورة تحتوي على أحرف هندية أو أردية (مثال: `hindi_receipt.png`).  
+- بيئة تطوير (Visual Studio، VS Code، Rider – ما تفضله).  
 
-هذا كل شيء—لا محركات OCR خارجية، لا مفاتيح سحابة، فقط مكتبة محلية.
+لا تحتاج إلى خطوط نظام إضافية أو محركات OCR خارجية؛ Aspose يتولى كل شيء داخليًا، بما في ذلك **تنزيل حزم اللغات** في المرة الأولى التي تطلبها فيها.
 
-## الخطوة 1: تنزيل حزمة اللغة الهندية – إعداد الموارد
+---
 
-قبل أن يتمكن محرك OCR من فهم أحرف الديفاناغاري، يجب عليك جلب موارد اللغة الهندية. هذه عملية مرة واحدة عادةً ما تُجرى أثناء تثبيت التطبيق أو في CI/CD.
+## الخطوة 1: إعداد محرك OCR لـ **التعرف على النص الهندي**
+
+أول ما نقوم به هو إنشاء نسخة من `OcrEngine`. هذا الكائن هو قلب المكتبة – يحمل الإعدادات، يقوم بالمعالجة الثقيلة، ويعيد كائن النتيجة.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-// Define where you want to keep the language files
-string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-
-// Download the Hindi pack if it isn’t already there
-if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-{
-    ResourceManager.Download(Language.Hindi, resourcesPath);
-    Console.WriteLine("✅ Hindi language pack downloaded.");
-}
-else
-{
-    Console.WriteLine("🔄 Hindi language pack already present.");
-}
+// Create the OCR engine – think of it as your multilingual detective.
+var ocrEngine = new OcrEngine();
 ```
 
-**لماذا هذا مهم:** يعتمد محرك OCR على نماذج مخصصة للغة لتحويل أنماط البكسل إلى أحرف Unicode. بدون حزمة اللغة الهندية، ستحصل على مخرجات لاتينية مشوهة أو لا شيء على الإطلاق.
+لماذا ننشئه هنا؟ لأن المحرك يخزن موارد اللغة في الذاكرة، لذا ستحمل الحزم مرة واحدة فقط طوال عمر التطبيق. إذا أنشأت محركات متعددة، ستضيع النطاق الترددي والذاكرة.
 
-> **نصيحة احترافية:** احفظ الحزمة في مجلد يمكن الكتابة فيه على الجهاز الهدف. إذا كنت تنشر إلى Azure App Service، استخدم المجلد `D:\home\site\wwwroot\Resources`.
+---
 
-## الخطوة 2: تكوين محرك OCR – الإشارة إلى الموارد
+## الخطوة 2: طلب حزم الهندية والأردية – **تنزيل حزم اللغات** عند الحاجة
 
-الآن بعد أن أصبحت الموارد في مكانها، أنشئ كائن `OcrEngine` وأخبره بمكان البحث عن ملفات اللغة. هذا هو المكان الذي نحدد فيه **اللغة الأساسية** للتعرف.
+تُوزّع Aspose بيانات اللغة بشكل منفصل لتبقي المكتبة الأساسية خفيفة. بتعيين خاصية `Language` نخبر المحرك أي الحزم يجب جلبها. في التشغيل الأول سيقوم تلقائيًا **بتنزيل حزم اللغات**؛ وفي التشغيلات اللاحقة سيعيد استخدام الملفات المخزنة مؤقتًا.
 
 ```csharp
-// Initialize the OCR engine
-OcrEngine ocrEngine = new OcrEngine();
-
-// Tell the engine where the language resources live
-ocrEngine.Settings.ResourcesPath = resourcesPath;
-
-// Select Hindi as the active language
-ocrEngine.Settings.Language = Language.Hindi;
-
-// Optional: tweak accuracy settings (e.g., enable word‑level detection)
-ocrEngine.Settings.EnableWordDetection = true;
+// Tell the engine which languages we expect.
+// This triggers a one‑time download of the Hindi and Urdu packs.
+ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 ```
 
-**لماذا نقوم بذلك:** `ResourcesPath` هو الجسر بين المحرك والملفات التي تم تنزيلها. إذا تخطيت هذه الخطوة، سيتراجع المحرك إلى نماذجه المدمجة (الإنجليزية فقط)، ولن تتمكن من **recognize Hindi text** بشكل صحيح.
+> **نصيحة محترف:** إذا كنت تحتاج الهندية فقط، احذف `OcrLanguage.Urdu` من المصفوفة. إضافة لغات إضافية يزيد من حجم التنزيل الأولي لكنه يمنحك مرونة لمعالجة مستندات مختلطة اللغات.
 
-## الخطوة 3: تحميل الصورة لـ OCR – تزويد المحرك بالمدخل الصحيح
+---
 
-مع جاهزية المحرك، الخطوة التالية هي **load image for OCR**. توفر Aspose مساعدًا مريحًا `ImageStream.FromFile` يدعم معظم صيغ الصور الشائعة.
+## الخطوة 3: تحميل الصورة و **استخراج النص من الصورة**
+
+الآن نوجه المحرك إلى الـ bitmap التي تحتوي على الأحرف التي نريد قراءتها. `ImageStream.FromFile` يعمل مع أي صيغة شائعة (PNG، JPEG، BMP).
 
 ```csharp
-// Path to the image containing Hindi text
-string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+// Load the receipt image – replace the path with your own file location.
+var image = ImageStream.FromFile(@"YOUR_DIRECTORY/hindi_receipt.png");
 
-// Load the image into the OCR engine
-ocrEngine.Image = ImageStream.FromFile(imagePath);
-Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+// Perform OCR – this step does the actual recognition work.
+var ocrResult = ocrEngine.Recognize(image);
 ```
 
-**المشكلات الشائعة:**  
-- **الصور الكبيرة** يمكن أن تبطئ المعالجة. إذا كنت تتعامل مع مسحات عالية الدقة، فكر في تقليل الحجم أولاً (`ImageProcessor.Resize`).  
-- **الاتجاه غير الصحيح** (مسحات مدورة) سيتسبب في نتائج سيئة. استخدم `ocrEngine.Image.Rotate(90)` إذا لزم الأمر.
+في الخلفية، يطبع خط أنابيب OCR الصورة، يمررها عبر شبكة عصبية مدربة على الخطوط الهندية والأردية، ثم ينتج سلسلة Unicode. تُعيد الطريقة كائن `OcrResult` يحتوي على كل من **النص العادي** واللغة التي يعتقد أنها موجودة.
 
-## الخطوة 4: تشغيل التعرف – استخراج النص
+---
 
-الآن نطلب من المحرك فعليًا قراءة البكسلات وتحويلها إلى سلاسل Unicode.
+## الخطوة 4: استرجاع اللغة المكتشفة و **استخراج النص العادي**
+
+كائن النتيجة يعطينا معلوماتين مفيدتين: اللغة التي تم تحديدها بأعلى ثقة، والنص القابل للقراءة.
 
 ```csharp
-// Perform OCR
-ocrEngine.Recognize();
+// Show what language the engine thinks it saw.
+Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
 
-// Retrieve the recognized text
-string recognizedText = ocrEngine.Text;
-
-// Output to console
-Console.WriteLine("\n--- Recognized Hindi Text ---");
-Console.WriteLine(recognizedText);
-Console.WriteLine("--- End of Output ---");
+// Print the plain text – this is the final output you’ll likely store or process.
+Console.WriteLine(ocrResult.PlainText);
 ```
 
-**ما المتوقع:** إذا كانت الصورة واضحة، يجب أن ترى الأحرف الهندية مطبوعة تمامًا كما تظهر على الإيصال. على سبيل المثال، قد ينتج إيصال نموذجي:
+إذا كان الإيصال يحتوي على كل من الهندية والأردية، سيُظهر المحرك اللغة السائدة لكل جزء. يمكنك أيضًا التكرار على `ocrResult.Regions` للحصول على تحكم أدق، لكن الخاصية البسيطة `PlainText` تكفي لمعظم الحالات.
 
-```
-बिल क्रमांक: 12345
-तारीख: 05/03/2026
-रकम: ₹ 1,250.00
-धन्यवाद!
-```
+---
 
-إذا حصلت على نص غير مفهوم، تحقق مرة أخرى من أن حزمة اللغة تم تنزيلها بشكل صحيح وأن `ocrEngine.Settings.Language` تم تعيينها إلى `Language.Hindi`.
+## مثال كامل جاهز للعمل
 
-## الخطوة 5: تجميع كل شيء – برنامج كامل قابل للتنفيذ
-
-فيما يلي ملف المصدر الكامل الذي يمكنك نسخه ولصقه في مشروع وحدة تحكم. يتضمن جميع الخطوات السابقة، بالإضافة إلى معالجة أخطاء بسيطة.
+فيما يلي البرنامج الكامل جاهز للنسخ واللصق. يتضمن جميع توجيهات `using`، معالجة الأخطاء، وتعليقات تحتاجها لتشغيله فورًا.
 
 ```csharp
-// Program.cs
 using System;
-using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-class Program
+class MultiLangExample
 {
     static void Main()
     {
-        // 1️⃣ Define paths
-        string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+        // 1️⃣ Create an OCR engine instance
+        var ocrEngine = new OcrEngine();
 
-        // 2️⃣ Download Hindi language pack if missing
-        if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-        {
-            ResourceManager.Download(Language.Hindi, resourcesPath);
-            Console.WriteLine("✅ Hindi language pack downloaded.");
-        }
+        // 2️⃣ Request Hindi and Urdu language packs (downloads if missing)
+        ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 
-        // 3️⃣ Set up OCR engine
-        OcrEngine ocrEngine = new OcrEngine
-        {
-            Settings =
-            {
-                ResourcesPath = resourcesPath,
-                Language = Language.Hindi,
-                EnableWordDetection = true
-            }
-        };
+        // 3️⃣ Load the image that contains the text to be recognized
+        var imagePath = @"YOUR_DIRECTORY/hindi_receipt.png";
+        var image = ImageStream.FromFile(imagePath);
 
-        // 4️⃣ Load the image (this is where we **load image for OCR**)
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"❌ Image not found: {imagePath}");
-            return;
-        }
-        ocrEngine.Image = ImageStream.FromFile(imagePath);
-        Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+        // 4️⃣ Perform OCR – this will automatically download language packs the first time
+        var ocrResult = ocrEngine.Recognize(image);
 
-        // 5️⃣ Recognize Hindi text
-        ocrEngine.Recognize();
-
-        // 6️⃣ Show results
-        Console.WriteLine("\n--- Recognized Hindi Text ---");
-        Console.WriteLine(ocrEngine.Text);
-        Console.WriteLine("--- End of Output ---");
+        // 5️⃣ Display the detected language and the extracted plain text
+        Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
+        Console.WriteLine("---- Extracted Text ----");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-احفظه كـ `Program.cs`، شغّل `dotnet run`، ويجب أن ترى النص الهندي مطبوعًا على وحدة التحكم.
+### ناتج وحدة التحكم المتوقع
 
-## الأسئلة المتكررة (FAQ)
+```
+Detected language: Hindi
+---- Extracted Text ----
+कुल राशि: ₹ 1,250.00
+दिनांक: 05/08/2023
+धन्यवाद!
+```
 
-### هل يمكنني التعرف على لغات متعددة في تشغيل واحد؟
+إذا احتوت الصورة أيضًا على الأردية، قد ترى `Detected language: Urdu` لتلك الأقسام، وسيعكس النص Unicode الخط المناسب.
 
-نعم. اضبط `ocrEngine.Settings.Language` إلى مصفوفة، مثال: `new[] { Language.Hindi, Language.English }`. سيحاول المحرك اكتشاف الأحرف من كلا الخطين.
+---
 
-### ماذا لو كانت صورتي غير واضحة؟
+## نظرة بصرية (نص بديل للصورة)
 
-فكر في المعالجة المسبقة باستخدام `ImageProcessor`—طبق تحسين الحدة أو تعزيز التباين قبل إسنادها إلى `ocrEngine.Image`.
+<img src="assets/ocr_flowchart.png" alt="مخطط يوضح كيفية التعرف على النص الهندي من صورة باستخدام Aspose OCR، بما في ذلك خطوات تنزيل حزم اللغات واستخراج النص العادي">
 
-### هل يعمل هذا على Linux/macOS؟
+المخطط يوضح تدفق البيانات من تحميل الصورة مرورًا باسترجاع حزمة اللغة إلى استخراج النص النهائي.
 
-بالطبع. Aspose.OCR متعدد المنصات؛ فقط تأكد من وجود الاعتمادات الأصلية (عادةً ما تكون مدمجة مع حزمة NuGet).
+---
 
-### كيف أحسن الدقة للإيصالات منخفضة الدقة؟
+## الأخطاء الشائعة & النصائح
 
-زد DPI (النقاط في البوصة) أثناء المسح، أو أعد تحجيم الصورة برمجيًا إلى ما لا يقل عن 300 DPI قبل OCR.
+| المشكلة | السبب | طريقة الحل |
+|-------|--------|------------|
+| **حزم اللغة مفقودة** | التشغيل الأول بدون إنترنت أو جدار حماية محجوب. | تأكد من أن الجهاز يستطيع الوصول إلى `https://download.aspose.com/ocr/` أو نزّل الحزم يدويًا من بوابة Aspose وضعها في مجلد التخزين المؤقت الافتراضي (`%LOCALAPPDATA%\Aspose\OCR`). |
+| **حروف غير مفهومة** | الصورة منخفضة الدقة أو مضغوطة بشدة. | عالج مسبقًا باستخدام `ocrEngine.Configuration.ImagePreprocessOptions` – زد التباين، طبّق التحويل إلى ثنائي. |
+| **فشل الكشف عن لغات مختلطة** | قائمة اللغات لا تشمل جميع الخطوط الموجودة. | أضف أي لغات إضافية إلى `Configuration.Language` (مثال: `OcrLanguage.English`). |
+| **بطء الأداء عند دفعات كبيرة** | المحرك يعيد تحميل الحزم لكل ملف. | أعد استخدام نسخة واحدة من `OcrEngine` عبر عدة عمليات التعرف. |
+| **نتيجة `null` غير متوقعة** | مسار الصورة غير صحيح أو الملف غير قابل للقراءة. | تحقق من وجود الملف باستخدام `File.Exists(imagePath)` قبل استدعاء `FromFile`. |
+
+---
+
+## الخطوات التالية
+
+الآن بعد أن أصبحت قادرًا على **التعرف على النص الهندي** و **قراءة النص الأردي**، فكر في هذه التوسعات:
+
+- **معالجة دفعات** – كرّر عبر مجلد من الإيصالات واكتب كل نتيجة إلى ملف CSV.  
+- **درجات الثقة** – افحص `ocrResult.Regions[i].Confidence` لتصفية السطور ذات الشكوك العالية.  
+- **التكامل مع Azure Blob Storage** – اسحب الصور مباشرة من السحابة لإنشاء خط أنابيب بدون خادم.  
+- **دمج مع واجهات برمجة تطبيقات الترجمة** – ترجم النص الهندي أو الأردي تلقائيًا إلى الإنجليزية للتحليلات اللاحقة.
+
+جميع هذه الأفكار تستخدم نفس المقتطف الأساسي، لذا أنت جاهز للتجربة السريعة.
+
+---
 
 ## الخلاصة
 
-لقد غطينا كل ما تحتاجه لـ **recognize Hindi text** باستخدام Aspose.OCR—من تنزيل حزمة اللغة الهندية، تكوين المحرك، **load image for OCR** بشكل صحيح، إلى استخراج وطباعة النتيجة. المقتطف البرمجي الكامل أعلاه جاهز للإدراج في أي تطبيق وحدة تحكم C#، وتساعد النصائح الاختيارية في التعامل مع الحالات الشائعة مثل المسحات غير الواضحة أو المستندات متعددة اللغات.
+غطّينا كل ما تحتاجه لـ **التعرف على النص الهندي** باستخدام Aspose OCR، من تثبيت الحزمة و **تنزيل حزم اللغات** إلى تحميل صورة و **استخراج النص العادي**. المثال الكامل يعمل فورًا، والشروحات توضح *لماذا* كل خطوة مهمة، لا فقط *كيف* تُكتب.
 
-هل أنت مستعد للخطوة التالية؟ جرّب تمرير ناتج OCR إلى واجهة برمجة تطبيقات ترجمة، أو احفظ البيانات المستخرجة في قاعدة بيانات للتحليل. يمكنك أيضًا تجربة لغات هندية أخرى—تدعم Aspose التاميل، البنغالية، وغيرها—عن طريق استبدال `Language.Hindi` بالقيمة المطلوبة من الـ enum.
-
-برمجة سعيدة، ولتكن نتائج OCR دائمًا واضحة!
+جرّبه مع مستنداتك، عدّل قائمة اللغات، وشاهد المحرك يخرج أحرف Unicode مباشرة من بيانات البكسل. إذا واجهت أي صعوبات، راجع جدول “الأخطاء الشائعة” أو اترك تعليقًا أدناه – برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

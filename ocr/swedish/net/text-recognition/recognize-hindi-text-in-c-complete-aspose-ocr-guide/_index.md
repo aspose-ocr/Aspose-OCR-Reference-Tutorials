@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-03-07
-description: Lär dig hur du känner igen hindi‑text och laddar bild för OCR med Aspose.OCR
-  i C#. Steg‑för‑steg‑inställning, kod och tips.
+date: 2026-02-09
+description: Lär dig hur du känner igen hindi‑text och extraherar text från en bild
+  med Aspose OCR. Inkluderar steg för att ladda ner språkpaket och läsa urdu‑text.
 draft: false
 keywords:
-- recognize Hindi text
-- load image for OCR
-- Aspose OCR C#
-- Hindi language pack
-- OCR engine settings
+- recognize hindi text
+- extract text from image
+- download language packs
+- read urdu text
+- extract plain text
 language: sv
-og_description: Upptäck hur du känner igen hindi‑text med Aspose OCR i C#. Inkluderar
-  inläsning av bild för OCR, installation av språkpaket och bästa praxis‑tips.
-og_title: Igenkänna hindi‑text – Fullständig Aspose OCR‑handledning
+og_description: Lär dig hur du känner igen hindi‑text och extraherar text från en
+  bild med Aspose OCR. Inkluderar steg för att ladda ner språkpaket och läsa urdu‑text.
+og_title: känn igen hindi‑text i C# – komplett Aspose OCR‑guide
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
-- Hindi
-title: Känn igen hindi‑text i C# – Komplett Aspose OCR‑guide
+- Multilingual OCR
+title: igenkänna hindi‑text i C# – komplett Aspose OCR‑guide
 url: /sv/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
@@ -27,194 +26,173 @@ url: /sv/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# känna igen hindi‑text – Full Aspose OCR‑handledning
+# igenkänna hindi‑text i C# – Komplett Aspose OCR‑guide
 
-Har du någonsin behövt **känna igen hindi‑text** från ett skannat kvitto men inte vetat var du ska börja? Du är inte ensam. I många Indien‑inriktade appar kan det kännas som att jaga ett rörligt mål att extrahera hindi‑tecken på ett pålitligt sätt. Lyckligtvis gör Aspose.OCR det till en barnlek—när du bara vet de rätta stegen för att **ladda bild för OCR** och peka mot hindi‑språkresurserna.
+Har du någonsin behövt **igenkänna hindi‑text** från ett skannat kvitto men varit osäker på vilket bibliotek som kan hantera det? Du är inte ensam. I den här handledningen visar vi hur du extraherar text från bildfiler, laddar ner de nödvändiga språkpaketen och till och med **läser urdu‑text** med ett enda, snyggt kodexempel.
 
-I den här guiden går vi igenom allt du behöver för att få en fungerande OCR‑pipeline i C#. I slutet har du ett körbart program som laddar ner hindi‑språkpaketet, läser in en bild, kör igenkänning och skriver ut den resulterande texten i konsolen. Inga vaga “se dokumentationen”-länkar—bara en självständig lösning som du kan slänga in i vilket .NET‑projekt som helst.
+Vi går igenom allt du behöver för att komma igång: installera Aspose.OCR, konfigurera flerspråkigt stöd, ladda en bild och slutligen hämta resultatet **extract plain text**. I slutet har du ett återanvändbart kodsnutt som du kan klistra in i vilket .NET‑projekt som helst.
+
+---
 
 ## Vad du behöver
 
-- **.NET 6+** (eller .NET Framework 4.7.2+). API‑et är detsamma i alla versioner, men den nyare runtime‑miljön ger bättre prestanda.
-- **Aspose.OCR för .NET** NuGet‑paket. Installera med `dotnet add package Aspose.OCR`.
-- Ett **hindi‑språkpaket** – Aspose levererar det som en nedladdningsbar resurs, inte inbakat som standard.
-- En bildfil som innehåller hindi‑text (t.ex. `hindi_receipt.jpg`). Alla vanliga format (JPG, PNG, BMP) fungerar.
-- En bra IDE (Visual Studio, Rider eller VS Code).  
+- **.NET 6.0 eller senare** – koden riktar sig mot moderna C#‑funktioner, men .NET Framework 4.7+ fungerar också.  
+- **Aspose.OCR NuGet‑paket** – installera det via `dotnet add package Aspose.OCR`.  
+- En bild som innehåller hindi‑ eller urdu‑tecken (t.ex. `hindi_receipt.png`).  
+- En utvecklingsmiljö (Visual Studio, VS Code, Rider – vad du än föredrar).  
 
-Det är allt—inga externa OCR‑motorer, inga moln‑nycklar, bara ett lokalt bibliotek.
+Inga extra systemtypsnitt eller OCR‑motorer krävs; Aspose hanterar allt internt, inklusive **download language packs** första gången du begär dem.
 
-## Steg 1: Ladda ner hindi‑språkpaketet – Ställ in resurser
+---
 
-Innan OCR‑motorn kan förstå Devanagari‑tecken måste du hämta hindi‑språkresurserna. Detta är en engångsåtgärd som vanligtvis utförs under installation av applikationen eller i CI/CD.
+## Steg 1: Ställ in OCR‑motorn för att **recognize hindi text**
+
+Det första vi gör är att skapa en instans av `OcrEngine`. Detta objekt är bibliotekets hjärta – det innehåller konfiguration, utför det tunga arbetet och returnerar resultatobjektet.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-// Define where you want to keep the language files
-string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-
-// Download the Hindi pack if it isn’t already there
-if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-{
-    ResourceManager.Download(Language.Hindi, resourcesPath);
-    Console.WriteLine("✅ Hindi language pack downloaded.");
-}
-else
-{
-    Console.WriteLine("🔄 Hindi language pack already present.");
-}
+// Create the OCR engine – think of it as your multilingual detective.
+var ocrEngine = new OcrEngine();
 ```
 
-**Varför detta är viktigt:** OCR‑motorn förlitar sig på språk‑specifika modeller för att mappa pixelmönster till Unicode‑tecken. Utan hindi‑paketet får du förvrängd latin‑utdata eller inget alls.
+Varför instansiera den här? Eftersom motorn cachar språkresurser, så du bara laddar ner paketen en gång per applikationslivstid. Om du startar flera motorer slösar du bandbredd och minne.
 
-> **Pro tip:** Cachera paketet i en mapp som är skriv‑bar på målmaskinen. Om du distribuerar till Azure App Service, använd mappen `D:\home\site\wwwroot\Resources`.
+---
 
-## Steg 2: Konfigurera OCR‑motorn – Peka på resurserna
+## Steg 2: Begär Hindi‑ och Urdu‑paket – **download language packs** vid behov
 
-Nu när resurserna finns på plats, skapa en `OcrEngine`‑instans och tala om för den var språkfilerna finns. Här anger vi också **primärspråket** för igenkänning.
+Aspose levererar språkdata separat för att hålla kärnbiblioteket lättviktigt. Genom att sätta `Language`‑egenskapen talar vi om för motorn vilka paket som ska hämtas. Första körningen laddar automatiskt ner **download language packs**; efterföljande körningar återanvänder de cachade filerna.
 
 ```csharp
-// Initialize the OCR engine
-OcrEngine ocrEngine = new OcrEngine();
-
-// Tell the engine where the language resources live
-ocrEngine.Settings.ResourcesPath = resourcesPath;
-
-// Select Hindi as the active language
-ocrEngine.Settings.Language = Language.Hindi;
-
-// Optional: tweak accuracy settings (e.g., enable word‑level detection)
-ocrEngine.Settings.EnableWordDetection = true;
+// Tell the engine which languages we expect.
+// This triggers a one‑time download of the Hindi and Urdu packs.
+ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 ```
 
-**Varför vi gör detta:** `ResourcesPath` är bryggan mellan motorn och de nedladdade filerna. Hoppar du över detta steg så faller motorn tillbaka på sina inbyggda (endast engelska) modeller, och du kommer inte kunna **känna igen hindi‑text** korrekt.
+> **Pro tip:** Om du bara behöver Hindi, ta bort `OcrLanguage.Urdu` från arrayen. Att lägga till extra språk ökar den initiala nedladdningsstorleken men ger dig flexibilitet för dokument med blandade språk.
 
-## Steg 3: Ladda bild för OCR – Mata motorn med rätt indata
+---
 
-Med motorn klar är nästa steg att **ladda bild för OCR**. Aspose erbjuder en praktisk hjälpfunktion `ImageStream.FromFile` som stödjer de flesta vanliga bildformat.
+## Steg 3: Ladda bilden och **extract text from image**
+
+Nu pekar vi motorn på bitmapen som innehåller tecknen vi vill läsa. `ImageStream.FromFile` fungerar med alla vanliga format (PNG, JPEG, BMP).
 
 ```csharp
-// Path to the image containing Hindi text
-string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+// Load the receipt image – replace the path with your own file location.
+var image = ImageStream.FromFile(@"YOUR_DIRECTORY/hindi_receipt.png");
 
-// Load the image into the OCR engine
-ocrEngine.Image = ImageStream.FromFile(imagePath);
-Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+// Perform OCR – this step does the actual recognition work.
+var ocrResult = ocrEngine.Recognize(image);
 ```
 
-**Vanliga fallgropar:**  
-- **Stora bilder** kan göra bearbetningen långsam. Om du hanterar högupplösta skanningar, överväg att först ner­sampela (`ImageProcessor.Resize`).  
-- **Fel orientering** (roterade skanningar) ger dåliga resultat. Använd `ocrEngine.Image.Rotate(90)` om det behövs.
+Bakom kulisserna normaliserar OCR‑pipeline bilden, kör den genom ett neuralt nätverk tränat på hindi‑ och urdu‑skript, och producerar sedan en Unicode‑sträng. Metoden returnerar ett `OcrResult` som innehåller både **extract plain text** och språket den tror att den hittade.
 
-## Steg 4: Kör igenkänningen – Extrahera texten
+---
 
-Nu ber vi faktiskt motorn läsa pixlarna och omvandla dem till Unicode‑strängar.
+## Steg 4: Hämta detekterat språk och **extract plain text**
+
+Resultatobjektet ger oss två användbara bitar information: språket som identifierades med högst förtroende, och den rena, människoläsbara texten.
 
 ```csharp
-// Perform OCR
-ocrEngine.Recognize();
+// Show what language the engine thinks it saw.
+Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
 
-// Retrieve the recognized text
-string recognizedText = ocrEngine.Text;
-
-// Output to console
-Console.WriteLine("\n--- Recognized Hindi Text ---");
-Console.WriteLine(recognizedText);
-Console.WriteLine("--- End of Output ---");
+// Print the plain text – this is the final output you’ll likely store or process.
+Console.WriteLine(ocrResult.PlainText);
 ```
 
-**Vad du kan förvänta dig:** Om bilden är tydlig bör du se hindi‑tecknen skrivas ut exakt som de står på kvittot. Till exempel kan ett exempelkvitto ge följande utskrift:
+Om kvittot innehåller både Hindi och Urdu kommer motorn att rapportera det dominerande språket för varje segment. Du kan också iterera över `ocrResult.Regions` för mer finmaskig kontroll, men den enkla `PlainText`‑egenskapen fungerar för de flesta användningsfall.
 
-```
-बिल क्रमांक: 12345
-तारीख: 05/03/2026
-रकम: ₹ 1,250.00
-धन्यवाद!
-```
+---
 
-Om du får nonsens, dubbelkolla att språkpaketet är korrekt nedladdat och att `ocrEngine.Settings.Language` är satt till `Language.Hindi`.
+## Fullständigt fungerande exempel
 
-## Steg 5: Slå ihop allt – Komplett, körbart program
-
-Nedan är den fullständiga källfilen som du kan kopiera‑klistra in i ett konsolprojekt. Den innehåller alla stegen ovan samt minimal felhantering.
+Nedan är det kompletta, kopiera‑och‑klistra‑klara programmet. Det inkluderar alla using‑satser, felhantering och kommentarer du behöver för att köra det direkt.
 
 ```csharp
-// Program.cs
 using System;
-using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-class Program
+class MultiLangExample
 {
     static void Main()
     {
-        // 1️⃣ Define paths
-        string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+        // 1️⃣ Create an OCR engine instance
+        var ocrEngine = new OcrEngine();
 
-        // 2️⃣ Download Hindi language pack if missing
-        if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-        {
-            ResourceManager.Download(Language.Hindi, resourcesPath);
-            Console.WriteLine("✅ Hindi language pack downloaded.");
-        }
+        // 2️⃣ Request Hindi and Urdu language packs (downloads if missing)
+        ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 
-        // 3️⃣ Set up OCR engine
-        OcrEngine ocrEngine = new OcrEngine
-        {
-            Settings =
-            {
-                ResourcesPath = resourcesPath,
-                Language = Language.Hindi,
-                EnableWordDetection = true
-            }
-        };
+        // 3️⃣ Load the image that contains the text to be recognized
+        var imagePath = @"YOUR_DIRECTORY/hindi_receipt.png";
+        var image = ImageStream.FromFile(imagePath);
 
-        // 4️⃣ Load the image (this is where we **load image for OCR**)
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"❌ Image not found: {imagePath}");
-            return;
-        }
-        ocrEngine.Image = ImageStream.FromFile(imagePath);
-        Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+        // 4️⃣ Perform OCR – this will automatically download language packs the first time
+        var ocrResult = ocrEngine.Recognize(image);
 
-        // 5️⃣ Recognize Hindi text
-        ocrEngine.Recognize();
-
-        // 6️⃣ Show results
-        Console.WriteLine("\n--- Recognized Hindi Text ---");
-        Console.WriteLine(ocrEngine.Text);
-        Console.WriteLine("--- End of Output ---");
+        // 5️⃣ Display the detected language and the extracted plain text
+        Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
+        Console.WriteLine("---- Extracted Text ----");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Spara den som `Program.cs`, kör `dotnet run`, så bör du se hindi‑texten skrivas ut i konsolen.
+### Förväntad konsolutmatning
 
-## Vanliga frågor (FAQ)
+```
+Detected language: Hindi
+---- Extracted Text ----
+कुल राशि: ₹ 1,250.00
+दिनांक: 05/08/2023
+धन्यवाद!
+```
 
-### Kan jag känna igen flera språk i ett och samma körning?
-Ja. Sätt `ocrEngine.Settings.Language` till en array, t.ex. `new[] { Language.Hindi, Language.English }`. Motorn försöker då identifiera tecken från båda skriftsystemen.
+Om bilden också innehåller Urdu kan du se `Detected language: Urdu` för de sektionerna, och Unicode‑texten kommer att återspegla det korrekta skriptet.
 
-### Vad händer om min bild är suddig?
-Överväg förbehandling med `ImageProcessor`—applicera skärpning eller kontrastförbättring innan du tilldelar den till `ocrEngine.Image`.
+---
 
-### Fungerar detta på Linux/macOS?
-Absolut. Aspose.OCR är plattformsoberoende; se bara till att de inhemska beroendena finns (vanligtvis med i NuGet‑paketet).
+## Visuell översikt (Bild‑alt‑text)
 
-### Hur förbättrar jag noggrannheten för lågupplösta kvitton?
-Öka DPI (dots per inch) vid skanning, eller resampla bilden programatiskt till minst 300 DPI innan OCR.
+<img src="assets/ocr_flowchart.png" alt="Flödesschema som visar hur man känner igen hindi‑text från en bild med Aspose OCR, inklusive steg för att ladda ner språkpaket och extrahera ren text">
+
+Diagrammet illustrerar dataflödet från bildladdning via språkpaketshämtning till den slutgiltiga textutvinningen.
+
+---
+
+## Vanliga fallgropar & tips
+
+| Issue | Why it Happens | How to Fix It |
+|-------|----------------|---------------|
+| **Missing language packs** | Första körningen utan internet eller med brandvägg som blockerar. | Se till att maskinen kan nå `https://download.aspose.com/ocr/` eller ladda ner paketen manuellt från Asposes portal och placera dem i standardcache‑mappen (`%LOCALAPPDATA%\Aspose\OCR`). |
+| **Garbage characters** | Bilden har låg upplösning eller är kraftigt komprimerad. | Förprocessa med `ocrEngine.Configuration.ImagePreprocessOptions` – öka kontrast, tillämpa binarisering. |
+| **Mixed‑language detection fails** | Språklistan innehåller inte alla förekommande skript. | Lägg till ytterligare språk i `Configuration.Language` (t.ex. `OcrLanguage.English`). |
+| **Performance lag on large batches** | Motorn laddar om paketen för varje fil. | Återanvänd en enda `OcrEngine`‑instans för flera igenkänningar. |
+| **Unexpected `null` result** | Bildens sökväg är fel eller filen är oläsbar. | Verifiera att filen finns och använd `File.Exists(imagePath)` innan du anropar `FromFile`. |
+
+---
+
+## Nästa steg
+
+Nu när du kan **recognize hindi text** och **read urdu text**, överväg dessa tillägg:
+
+- **Batch processing** – loopa igenom en mapp med kvitton och skriv varje resultat till en CSV.  
+- **Confidence scores** – inspektera `ocrResult.Regions[i].Confidence` för att filtrera rader med låg säkerhet.  
+- **Integration with Azure Blob Storage** – hämta bilder direkt från molnet för en serverlös pipeline.  
+- **Combine with translation APIs** – översätt automatiskt den extraherade hindi‑ eller urdu‑texten till engelska för efterföljande analys.
+
+Alla dessa idéer återanvänder samma kärnkodsnutt, så du är redan redo för snabb experimentering.
+
+---
 
 ## Slutsats
 
-Vi har gått igenom allt du behöver för att **känna igen hindi‑text** med Aspose.OCR—från att ladda ner hindi‑språkpaketet, konfigurera motorn, korrekt **ladda bild för OCR**, till att extrahera och skriva ut resultatet. Kodsnutten ovan är klar att slängas in i vilken C#‑konsolapp som helst, och de valfria tipsen hjälper dig hantera vanliga edge‑cases som suddiga skanningar eller flerspråkiga dokument.
+Vi har gått igenom allt du behöver för att **recognize hindi text** med Aspose OCR, från att installera paketet och **download language packs** till att ladda en bild och **extract plain text**. Det fullständiga exemplet körs direkt, och förklaringarna ger dig insikt i *varför* varje steg är viktigt, inte bara *hur* du skriver det.
 
-Redo för nästa steg? Prova att skicka OCR‑utdata till ett översättnings‑API, eller lagra den extraherade datan i en databas för analys. Du kan också experimentera med andra indiska språk—Aspose stödjer tamil, bengali och fler—genom att byta `Language.Hindi` mot önskat enum‑värde.
-
-Lycka till med kodandet, och må dina OCR‑resultat alltid vara skarpa!
+Prova det med dina egna dokument, justera språklistan och se hur motorn drar Unicode‑tecken direkt från pixeldata. Om du stöter på problem, gå tillbaka till tabellen “Vanliga fallgropar” eller lämna en kommentar nedan – lycka till med kodandet!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

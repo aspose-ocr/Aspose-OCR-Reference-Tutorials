@@ -52,18 +52,32 @@ weight: 24
 ## OCROperation with List in OCR Image Recognition
 สำรวจศักยภาพอันกว้างของ Aspose.OCR for .NET ขณะทำการจดจำภาพด้วย OCR ผ่านรายการ คู่มือนี้ไม่เพียงเพิ่มประสิทธิภาพการสกัดข้อความ แต่ยังเพิ่มผลผลิตในการจัดการชุดข้อมูลที่หลากหลาย ค้นพบความคล่องตัวของ OCR ด้วยการทำงานกับรายการ
 
-## บทเรียนการกำหนดค่า OCR
 ### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
 ปลดล็อกศักยภาพของ OCR ในแอปพลิเคชัน .NET ด้วย Aspose.OCR เรียนรู้วิธีดึงข้อความจากภาพในอาร์ไคฟ์อย่างเป็นขั้นตอน
-
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 ปลดล็อกพลังของการจดจำภาพด้วย OCR ใน .NET ด้วย Aspose.OCR ดึงข้อความจากภาพในโฟลเดอร์ได้อย่างง่ายดาย
-
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 ปลดล็อกความสามารถ OCR ที่ทรงพลังด้วย Aspose.OCR for .NET ดึงข้อความจากภาพหลายภาษาได้อย่างต่อเนื่อง
-
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-ปลดล็อกศักยภาพของ Aspose.OCR for .NET ทำการจดจำภาพด้วย OCR ผ่านรายการได้อย่างง่ายดาย เพิ่มผลผลิตและการสกัดข้อมูลในแอปพลิเคชันของคุณ
+ปลดล็อกศักยภาพของ Aspose.OCR for .NET ทำการจจำภาพด้วย OCR ผ่านรายการได้อย่างง่ายดาย เพิ่มผลผลิตและการสกัดข้อมูลในแอปพลิเคชันของคุณ
+
+### [วิธีบันทึก JSON จาก OCR ใน C# – คู่มือขั้นตอนเต็ม](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกผลลัพธ์ OCR เป็นไฟล์ JSON ใน C# อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการเขียนไฟล์
+
+### [การจดจำข้อความจีนแบบออฟไลน์ – คู่มือ C# ฉบับเต็ม](./recognize-chinese-text-offline-complete-c-guide/)
+เรียนรู้วิธีจดจำข้อความภาษาจีนแบบออฟไลน์ใน C# อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการประมวลผล
+
+### [โหลดไฟล์ภาพและดึงข้อความใบเสร็จด้วย GPU OCR ใน C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือการแปลง OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียด
+### [วิธีเปิดใช้งาน OCR ใน C# – แปลง PDF เป็นข้อความได้ง่าย](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+
+### [วิธีสร้าง OCR Engine ใน C# – คู่มือการตั้งค่าแบบออฟไลน์](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+
+### [วิธีตรวจสอบการพร้อมใช้งานของโมเดล OCR ใน C# – คู่มือขั้นตอนโดยละเอียด](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+
+### [ฝังฟอนต์ใน PDF – สร้าง PDF ที่ค้นหาได้จาก JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+ฝังฟอนต์ใน PDF เพื่อให้ไฟล์ที่สร้างจากภาพ JPEG สามารถค้นหาและคัดลอกข้อความได้อย่างง่ายดาย
 
 ### [อ่านข้อความจาก PNG – ดึงข้อความ Cyrillic ด้วย Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 
@@ -75,13 +89,49 @@ weight: 24
 ### เคล็ดลับและข้อควรระวัง
 - **เคล็ดลับ:** ควรทำการประมวลผลล่วงหน้าภาพเสมอ (เช่น แก้การเอียง, ทำไบนาไรซ์) เพื่อเพิ่มความแม่นยำ.  
 - **คำเตือน:** อาร์ไคฟ์ขนาดใหญ่อาจใช้หน่วยความจำมาก; ควรพิจารณาประมวลผลเป็นชุด.  
+### [สกัดข้อความรัสเซียและตั้งค่าเส้นทางทรัพยากรใน C# – คู่มือ Aspose OCR](./extract-russian-text-set-resource-path-in-c-aspose-ocr-guide/)
+สกัดข้อความรัสเซียจากรูปภาพและกำหนดเส้นทางทรัพยากรใน C# ด้วย Aspose OCR อย่างง่ายดาย
+### [วิธีทำ OCR รูปภาพใน C# – คู่มือฉบับสมบูรณ์พร้อมการสนับสนุน GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแยกข้อความจากรูปภาพด้วยการเร่งความเร็วจาก GPU อย่างเต็มที่
+### [การจดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างครบถ้วน
+### [อ่านทรัพยากรฝังใน .NET – คู่มือฉบับสมบูรณ์ในการตั้งค่าใบอนุญาต Aspose](./read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+เรียนรู้วิธีอ่านทรัพยากรฝังในแอป .NET และตั้งค่าใบอนุญาต Aspose อย่างครบถ้วน
+### [ดาวน์โหลดโมเดลภาษาของ OCR ใน C# ด้วย Aspose – คู่มือเต็ม](./download-ocr-language-model-in-c-with-aspose-full-guide/)
+เรียนรู้วิธีดาวน์โหลดและใช้งานโมเดลภาษาของ OCR ใน C# ด้วย Aspose อย่างละเอียดครบทุกขั้นตอน
+
+
+
+
+
+
+### [วิธีเปิดใช้งาน GPU สำหรับ Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน GPU ใน Aspose OCR เพื่อเพิ่มประสิทธิภาพการประมวลผลภาพอย่างง่ายดาย
+### [การจดจำข้อความรูปภาพใน C# – OCR ภาษาอาหรับด้วย Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
+ปลดล็อกศักยภาพการจดจำข้อความรูปภาพภาษาอาหรับใน C# ด้วย Aspose OCR อย่างง่ายดาย
+### [วิธีตั้งค่าใบอนุญาต Aspose ใน C# – คู่มือฉบับสมบูรณ์](./how-to-set-aspose-license-in-c-complete-guide/)
+เรียนรู้ขั้นตอนการตั้งค่าใบอนุญาต Aspose ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์ทั้งหมดของผลิตภัณฑ์
+
+
+
+
+
+
+
+### [วิธีการใช้ไลเซนส์ใน Aspose OCR – คู่มือ C# ขั้นตอนต่อขั้นตอน](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+เรียนรู้วิธีการตั้งค่าไลเซนส์สำหรับ Aspose OCR ใน C# อย่างละเอียดและง่ายดาย
+
+
+
+
+
 
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้ Aspose.OCR ในแอปพลิเคชัน .NET เชิงพาณิชย์ได้หรือไม่?**  
 A: ได้, เมื่อคุณได้ลิขสิทธิ์ Aspose ที่ถูกต้อง ไลบรารีจะได้รับการสนับสนุนเต็มรูปแบบสำหรับการใช้งานเชิงพาณิชย์.
 
-**Q: การเลือกภาษาของ OCR ทำงานกับสคริปต์จากขวาไปซ้ายได้หรือไม่?**  
+**Q: การเลือกภาษของ OCR ทำงานกับสคริปต์จากขวาไปซ้ายได้หรือไม่?**  
 A: แน่นอน. Aspose.OCR รองรับภาษาอาหรับ, ฮีบรู, และภาษาที่เขียนจากขวาไปซ้ายอื่น ๆ.
 
 **Q: ฉันจะจัดการกับ PDF ที่มีภาพอย่างไร?**  
@@ -96,6 +146,11 @@ A: มี, วัตถุ `OcrResult` จะให้ค่าความเ�
 **Last Updated:** 2025-12-21  
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose
+
+โดยสรุป บทช่วยสอนการกำหนดค่า OCR เหล่านี้นำเสนอความเข้าใจแบบองค์รวมของ Aspose.OCR สำหรับ .NET ไม่ว่าคุณจะทำงานกับรูปภาพ โฟลเดอร์ การเลือกภาษา หรือรายการที่เก็บถาวร คำแนะนำทีละขั้นตอนเหล่านี้ช่วยให้คุณควบคุมศักยภาพของ OCR ได้อย่างเต็มที่ ซึ่งจะช่วยยกระดับความสามารถในการแยกข้อความของแอปพลิเคชันของคุณ ดำดิ่ง สำรวจ และปลดล็อคเวทมนตร์ OCR ด้วย Aspose.OCR!
+## บทช่วยสอนการกำหนดค่า OCR
+### [วิธีตรวจสอบการสนับสนุนภาษาของ OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-check-ocr-language-support-in-c-complete-guide/)
+เรียนรู้วิธีตรวจสอบว่าภาษาใดบ้างที่รองรับโดย Aspose.OCR ใน C# อย่างละเอียดและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

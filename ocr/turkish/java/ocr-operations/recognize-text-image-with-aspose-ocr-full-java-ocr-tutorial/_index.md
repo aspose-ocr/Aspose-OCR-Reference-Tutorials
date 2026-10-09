@@ -1,9 +1,9 @@
 ---
 category: general
-date: 2025-12-27
-description: Aspose OCR kullanarak Java’da metin görüntüsünü nasıl tanıyacağınızı
-  öğrenin. Bu rehber, metni nasıl çıkaracağınızı, OCR ön işleme nasıl yapılacağını
-  kapsar ve tam bir Java OCR örneği içerir.
+date: 2026-02-27
+description: Aspose OCR ile bir Java OCR örneği nasıl yapılır, görüntüden metin nasıl
+  çıkarılır, OCR ön işleme nasıl yapılır ve Java’da OCR ile aranabilir PDF nasıl oluşturulur,
+  öğrenin.
 draft: false
 keywords:
 - recognize text image
@@ -11,17 +11,15 @@ keywords:
 - java ocr example
 - how to preprocess ocr
 - aspose ocr java tutorial
-language: tr
-og_description: Java'da Aspose OCR kullanarak metin görüntüsünü tanıyın. Adım adım
-  öğretici, metni nasıl çıkaracağınızı, OCR'yi nasıl ön işleme yapacağınızı ve bir
-  Java OCR örneğini nasıl çalıştıracağınızı gösterir.
-og_title: Aspose OCR ile Metin Görüntüsünü Tanıma – Tam Java Rehberi
+og_description: Java'da Aspose OCR kullanarak OCR örneği – görüntüden metin çıkarma,
+  OCR ön işleme ve OCR ile aranabilir PDF oluşturma adım adım rehberi.
+og_title: java ocr örneği – Aspose OCR ile Metin Görüntüsü Tanıma
 tags:
 - OCR
 - Java
 - Aspose
 - GPU
-title: Aspose OCR ile metin görüntüsünü tanıma – Tam Java OCR Öğreticisi
+title: java ocr örneği – Aspose OCR ile Metin Görüntüsünü Tanıma – Tam Java OCR Öğreticisi
 url: /tr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/
 ---
 
@@ -29,16 +27,23 @@ url: /tr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# metin görüntüsü tanıma – Tam Aspose OCR Java Öğreticisi
+# java ocr örneği – Metin Görüntüsü Tanıma – Tam Aspose OCR Java Öğreticisi
 
-Hiç **metin görüntüsü tanıma** ihtiyacı duydunuz mu ama hangi kütüphanenin GPU hızı ve sağlam doğruluk sağlayacağını bilemediniz mi? Yalnız değilsiniz. Birçok projede darboğaz OCR algoritması değil, kurulumdur—özellikle yüksek çözünürlüklü taramalardan **nasıl metin çıkarılır** sorusunu, milyon satır kod yazmadan çözmek istediğinizde.
+Eğer **java ocr örneği** arıyorsanız ve **görüntüden metin çıkarma** işlemini hızlı ve güvenilir bir şekilde yapmak istiyorsanız, doğru yerdesiniz. Birçok gerçek‑dünya projesinde en büyük engel OCR motoru değil, doğru yapılandırmayı elde etmektir—özellikle GPU hızlandırması ve yüksek doğruluk istediğinizde. Bu öğretici, **OCR ön işleme nasıl yapılır** gösteren, Aspose OCR’ın akıcı builder’ını kullanan ve ileride **OCR ile aranabilir PDF** oluşturma ipuçları veren tam, çalıştırılabilir bir Java programı üzerinden sizi yönlendirecek.
 
-Bu öğreticide, Aspose OCR’ın akıcı builder'ını kullanan bir **java ocr örneği** üzerinden ilerleyecek, **ocr ön işleme nasıl yapılır** konusunu adaptif eşik filtrelemesiyle gösterecek ve GPU‑destekli bir makinede **metin görüntüsü tanıma** için tam adımları göstereceğiz. Sonunda, çıkarılan metni konsola yazdıran çalıştırılabilir bir programınız olacak, ayrıca yaygın hatalar ve ileri düzey ipuçları da sunulacak.
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose OCR kullanarak GPU kurulumu ve adaptif eşik ön işleme dahil, tam bir java ocr örneği.  
+- **GPU’ya ihtiyacım var mı?** Hayır, ancak (`enableGpu(true)`) etkinleştirildiğinde desteklenen donanımda işlem süresi büyük ölçüde hızlanır.  
+- **Hangi dil gösteriliyor?** İngilizce, ancak builder aracılığıyla istediğiniz desteklenen dile geçiş yapabilirsiniz.  
+- **Görüntüden metin nasıl çıkarılır?** `ocrEngine.recognize(imagePath)` çağırın ve `ocrResult.getText()` değerini okuyun.  
+- **Aranabilir bir PDF oluşturabilir miyim?** Evet – çıkarma sonrası metin katmanını Aspose.PDF ile bir PDF’e gömebilirsiniz (burada gösterilmemiştir).
 
-## İhtiyacınız Olanlar
+## Gereksinimler
 
-- **Java Development Kit (JDK) 11 veya daha yeni** – Aspose OCR, Java 8+ destekler ancak JDK 11 en iyi modül yönetimini sağlar.
-- **Aspose.OCR for Java** JAR (Aspose web sitesinden indirin veya Maven/Gradle üzerinden ekleyin).  
+Başlamadan önce şunların yüklü olduğundan emin olun:
+
+- **Java Development Kit (JDK) 11 veya üzeri** – Aspose OCR Java 8+ destekler, ancak JDK 11 en iyi modül yönetimini sağlar.  
+- **Aspose.OCR for Java** JAR (Aspose web sitesinden indirin veya Maven/Gradle ile ekleyin).  
   Maven örneği:
   ```xml
   <dependency>
@@ -47,18 +52,24 @@ Bu öğreticide, Aspose OCR’ın akıcı builder'ını kullanan bir **java ocr 
       <version>23.10</version>
   </dependency>
   ```
-- **GPU‑uyumlu bir sürücü** (GPU hızlandırmasını etkinleştirmeyi planlıyorsanız CUDA 11+). GPU’nuz yoksa `enableGpu(false)` ayarlayın ve kod CPU’ya geri dönecektir.
-- **Örnek yüksek çözünürlüklü bir görüntü** (`sample-highres.png`) referans alabileceğiniz bir klasöre yerleştirin, ör. `C:/ocr-demo/`.
+- **GPU‑uyumlu bir sürücü** (GPU hızlandırması etkinleştirecekseniz CUDA 11+). GPU’nuz yoksa `enableGpu(false)` ayarlayın; kod CPU’ya geri dönecektir.  
+- **Yüksek çözünürlüklü bir örnek görüntü** (`sample-highres.png`) referans alabileceğiniz bir klasöre koyun, örn. `C:/ocr-demo/`.
 
-Hepsi bu kadar—ekstra yerel ikili dosyalar veya karmaşık yapılandırma dosyaları yok.
+Hepsi bu—ekstra yerel ikili dosyalar veya karmaşık yapılandırma dosyalarına gerek yok.
 
-![Aspose OCR Java kullanarak metin görüntüsü tanıma için OCR işlem hattını gösteren diyagram](https://example.com/ocr-pipeline.png "Aspose OCR Java kullanarak metin görüntüsü tanıma")
+![Diagram showing OCR pipeline for recognize text image using Aspose OCR Java](https://example.com/ocr-pipeline.png "recognize text image using Aspose OCR Java")
 
-*Görsel alt metni: Aspose OCR Java kullanarak metin görüntüsü tanıma*
+*Image alt text: recognize text image using Aspose OCR Java*
 
-## Adım 1: OCR Motorunu Kurun – doğru seçeneklerle metin görüntüsü tanıma
+## Bu java ocr örneğinin önemi
 
-İlk yaptığımız şey bir `OcrEngine` örneği oluşturmaktır. Aspose, yapılandırma çağrılarını zincirlemenize olanak tanıyan bir builder deseni sunar; bu da kodun hem okunabilir hem de esnek olmasını sağlar.
+- **Hız:** GPU hızlandırması büyük görüntülerde işlem süresini saniyelerden kesir saniyelere indirebilir.  
+- **Doğruluk:** Doğru dili seçmek ve **OCR ön işleme nasıl yapılır** (adaptif eşik) uygulamak karakter tanımasını büyük ölçüde artırır.  
+- **Esneklik:** Aynı motor daha sonra **OCR ile aranabilir PDF** oluşturmak için kullanılabilir, böylece belgeleriniz ekstra araçlar olmadan aranabilir hâle gelir.
+
+## Adım 1: OCR Motorunu Kurun – metin görüntüsü tanıma için doğru seçenekleri ayarlama
+
+İlk olarak bir `OcrEngine` örneği oluştururuz. Aspose, yapılandırma çağrılarını zincirlemenize izin veren bir builder deseni sunar; bu da kodun hem okunabilir hem de esnek olmasını sağlar.
 
 ```java
 import com.aspose.ocr.*;
@@ -78,13 +89,13 @@ public class GpuOcrDemo {
 ```
 
 **Neden önemli:**  
-- **Dil seçimi**, motorun hangi karakter kümesini bekleyeceğini belirler ve doğruluğu büyük ölçüde artırır.  
-- **GPU hızlandırması**, büyük görüntülerde işleme süresini saniyelerden saniyenin kesirlerine düşürebilir.  
-- **Adaptif eşik ön işleme**, düzensiz aydınlatmayı yönetmek için klasik bir hiledir—tarama belgeleri için **ocr ön işleme nasıl yapılır** sorusuyla karşılaştığınız tam o problemdir.
+- **Dil seçimi** motorun hangi karakter setini bekleyeceğini belirler ve doğruluğu büyük ölçüde artırır.  
+- **GPU hızlandırması** büyük görüntülerde işlem süresini saniyelerden kesir saniyelere indirebilir.  
+- **Adaptif‑eşik ön işleme**, düzensiz aydınlatmayı yönetmek için klasik bir hiledir—tam da **OCR ön işleme nasıl yapılır** sorusunun cevabıdır ve taranmış belgelerde karşılaşılan sorunları çözer.
 
-## Adım 2: Metin Görüntüsü Tanıma – OCR'ı Çalıştırma
+## Adım 2: Metin Görüntüsü Tanıma – OCR’u Çalıştırma
 
-Motor hazır olduğuna göre, ona görüntümüzü veriyoruz. `recognize` yöntemi, ham metni, güven skorlarını ve gerekirse daha sonra kullanabileceğiniz sınırlama kutusu verilerini içeren bir `OcrResult` nesnesi döndürür.
+Motor hazır olduğunda görüntüyü ona veririz. `recognize` metodu, ham metin, güven skorları ve gerekirse sınırlayıcı kutu verilerini içeren bir `OcrResult` nesnesi döndürür.
 
 ```java
         // Path to the high‑resolution image you want to analyze
@@ -94,11 +105,11 @@ Motor hazır olduğuna göre, ona görüntümüzü veriyoruz. `recognize` yönte
         OcrResult ocrResult = ocrEngine.recognize(imagePath);
 ```
 
-**Önemli nokta:** `recognize` çağrısı eşzamanlıdır; OCR tamamlanana kadar bloklar. Eğer onlarca dosya işliyorsanız bunu bir iş parçacığı havuzunda sarmayı düşünün, ancak tek bir görüntü için basitlik kazanır.
+**Önemli nokta:** `recognize` çağrısı eşzamanlıdır; OCR bitene kadar bloklanır. Eğer onlarca dosya işliyorsanız bunu bir iş parçacığı havuzunda sarmayı düşünün, ancak tek bir görüntü için basitlik kazanır.
 
-## Adım 3: Metni Çıkarma ve Görüntüleme – sonuçtan metin nasıl çıkarılır
+## Adım 3: Metni Çıkarın ve Görüntüleyin – sonuçtan metin nasıl çıkarılır
 
-Son olarak, sonuçtan düz metni alıp yazdırıyoruz. Ayrıca bir dosyaya yazabilir, bir arama indeksine besleyebilir veya bir çeviri API'sine gönderebilirsiniz.
+Son olarak, sonuçtan düz metni alıp ekrana basarız. Metni bir dosyaya yazabilir, bir arama indeksine besleyebilir veya bir çeviri API’sine gönderebilirsiniz.
 
 ```java
         // Print the extracted text to the console
@@ -121,25 +132,25 @@ The OCR engine recognized it successfully!
 Confidence: 0.97
 ```
 
-Eğer çıktı bozuk görünüyorsa, görüntünün net olduğundan ve **ocr ön işleme nasıl yapılır** adımının (adaptif eşik) görüntünün aydınlatma koşullarıyla eşleştiğinden emin olun.
+Çıktı bozuk görünüyorsa, görüntünün net olduğundan ve **OCR ön işleme nasıl yapılır** adımının (adaptif eşik) görüntünün aydınlatma koşullarıyla eşleştiğinden emin olun.
 
-## Yaygın Tuzaklar ve Pro İpuçları (java ocr örneği)
+## Yaygın Tuzaklar & Pro İpuçları (java ocr örneği)
 
-| Sorun | Neden Olur | Çözüm |
-|-------|------------|-------|
-| **GPU algılanmadı** | CUDA sürücüleri eksik veya uyumsuz GPU | CUDA 11+ kurun, `nvidia-smi` çalıştığını doğrulayın veya `.enableGpu(false)` ayarlayın |
-| **Karanlık arka planlarda düşük doğruluk** | Adaptif eşik aşırı pürüzsüzleştirebilir | Eşiğe uygulamadan önce `PreprocessFilter.GaussianBlur` deneyin |
-| **Büyük görüntülerde bellek yetersizliği** | GPU bellek sınırı | OCR'dan önce görüntüyü maksimum 2000 px genişliğe yeniden boyutlandırın veya CPU modunu kullanın |
-| **Yanlış dil** | Varsayılan İngilizce, ancak belge çok dilli | `.setLanguage(Language.French)` çağırın veya `Language.Multilingual` kullanın |
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|-----|
+| **GPU algılanmadı** | CUDA sürücüleri eksik veya GPU uyumsuz | CUDA 11+ kurun, `nvidia-smi` çalıştığını doğrulayın veya `.enableGpu(false)` ayarlayın |
+| **Karanlık arka planlarda düşük doğruluk** | Adaptif eşik aşırı yumuşatabilir | Eşik öncesi `PreprocessFilter.GaussianBlur` deneyin |
+| **Büyük görüntülerde bellek hatası** | GPU bellek sınırı | OCR’dan önce görüntüyü maksimum 2000 px genişliğe yeniden boyutlandırın veya CPU modunu kullanın |
+| **Yanlış dil** | Varsayılan İngilizce, belge çok dilli | `.setLanguage(Language.French)` ya da `Language.Multilingual` kullanın |
 
-**Pro ipucu:** **java ocr örneği** oluştururken toplu işleme için `OcrEngine` örneğini her dosya için yeniden oluşturmak yerine önbelleğe alın. Builder ucuzdur, ancak yerel GPU bağlamı yeniden oluşturulması maliyetli olabilir.
+**Pro ipucu:** **java ocr örneği** için toplu işleme yapıyorsanız, her dosya için `OcrEngine` yeniden oluşturmak yerine bir örnek önbelleğe alın. Builder hafiftir, ancak yerel GPU bağlamı yeniden oluşturulması maliyetli olabilir.
 
-## Örneği Genişletmek – metin görüntüsü tanıdıktan sonra ne yapmalı?
+## Örneği Genişletmek – metin görüntüsü tanıdıktan sonra ne yapılabilir?
 
-1. **PDF/A'ya Dışa Aktar** – Aspose OCR, tanınan metni gizli bir katman olarak gömebilir, böylece aranabilir PDF'ler oluşturur.  
-2. **Tesseract ile Entegre Et** – Aspose tarafından henüz desteklenmeyen diller için bir yedekleme ihtiyacınız varsa, sonuçları zincirleyin.  
-3. **Gerçek zamanlı video OCR** – Bir webcam'ten kareler yakalayın, aynı motorla besleyin ve canlı altyazıları gösterin.  
-4. **Son işleme** – Yaygın OCR hatalarını (`"0"` vs `"O"`) temizlemek için düzenli ifadeler kullanın, özellikle **metin nasıl çıkarılır** sorusuyla alt veri analitiği için çıktıyı hazırlarken.
+1. **OCR ile aranabilir PDF oluşturma** – Aspose OCR, tanınan metni gizli bir katman olarak gömebilir, taranmış PDF’leri tam anlamıyla aranabilir hâle getirir.  
+2. **Aspose.PDF ile birleştirme** – OCR çıktısını PDF üretimiyle birleştirerek uçtan uca belge iş akışları oluşturun.  
+3. **Gerçek‑zamanlı video OCR** – Web kamerasından kareler yakalayın, aynı motoru besleyin ve canlı altyazılar gösterin.  
+4. **Son‑işleme** – Yaygın OCR hatalarını (`"0"` vs `"O"`) temizlemek için düzenli ifadeler kullanın, özellikle **metin nasıl çıkarılır** sorusunun ardından analiz için.
 
 ## Tam Kaynak Kodu (kopyalamaya hazır)
 
@@ -169,15 +180,30 @@ public class GpuOcrDemo {
 }
 ```
 
-`GpuOcrDemo.java` olarak kaydedin, `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` ile derleyin ve `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` ile çalıştırın. Her şey doğru ayarlandıysa, çıkarılan metni ekranda göreceksiniz—Aspose OCR ile **metin görüntüsü tanıma** işlemini başarıyla gerçekleştirdiğinizin kanıtı.
+Bunu `GpuOcrDemo.java` olarak kaydedin, `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java` ile derleyin ve `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo` ile çalıştırın. Her şey doğru kurulduysa, çıkarılan metin ekrana basılacak—bu da **metin görüntüsü tanıma** işlemini Aspose OCR ile başarıyla tamamladığınızın kanıtıdır.
 
-## Sonuç
+## Sık Sorulan Sorular
 
-Tam bir **java ocr örneği** üzerinden geçtik; bu örnek yüksek çözünürlüklü bir resimden **metin nasıl çıkarılır** gösteriyor, adaptif eşik ile **ocr ön işleme nasıl yapılır** gösteriyor ve hızlı **metin görüntüsü tanıma** performansı için GPU hızlandırmasını kullanıyor. Kod bağımsızdır, açıklamalar *ne* ve *neden* yönlerini kapsar ve artık çözümü toplu işler, aranabilir PDF'ler veya hatta gerçek zamanlı video akışları gibi senaryolara genişletmek için sağlam bir temele sahipsiniz.
+**S: Bu örnekten doğrudan aranabilir bir PDF oluşturabilir miyim?**  
+C: Evet. Metni çıkardıktan sonra Aspose.PDF kullanarak bir PDF oluşturup OCR metin katmanını gömebilirsiniz, böylece dosya aranabilir hâle gelir.
 
-Bir sonraki adıma hazır mısınız? Dili İspanyolcaya değiştirin, farklı ön işleme filtreleriyle deney yapın veya OCR çıktısını doğal dil işleme hattıyla birleştirerek belgeleri otomatik etiketleyin. Gökyüzü sınırdır ve Aspose OCR size oraya ulaşmak için araçları sunar.
+**S: CUDA‑uyumlu bir GPU’m yoksa ne yapmalıyım?**  
+C: `.enableGpu(true)` yerine `.enableGpu(false)` yapın; motor CPU moduna geçer ve yalnızca hafif bir performans kaybı olur.
 
-Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın veya Aspose forumlarını kontrol edin—yardım etmeye istekli canlı bir topluluk var. Kodlamaktan keyif alın ve görüntüleri aranabilir metne dönüştürmenin tadını çıkarın!
+**S: Çok‑dilli belgelerle nasıl başa çıkılır?**  
+C: `Language.Multilingual` kullanın veya her belge için uygun dil enum’unu `recognize` çağrısından önce ayarlayın.
+
+**S: Birçok görüntüyü verimli şekilde toplu‑işlem yapabilir miyim?**  
+C: Evet. Tek bir `OcrEngine` örneği oluşturun, görüntü listenizi döngüye alın ve isteğe bağlı olarak `recognize` çağrılarını paralelleştirmek için bir iş parçacığı havuzu kullanın.
+
+**S: Daha gelişmiş ön işleme filtrelerini nereden bulabilirim?**  
+C: `PreprocessFilter` enum’u `GaussianBlur`, `MedianFilter`, `ContrastStretch` gibi seçenekler içerir. Görüntü setiniz için en iyisini denemek faydalı olur.
+
+---
+
+**Son Güncelleme:** 2026-02-27  
+**Test Edilen Versiyon:** Aspose.OCR 23.10 for Java  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

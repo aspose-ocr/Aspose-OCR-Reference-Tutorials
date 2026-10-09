@@ -1,0 +1,7 @@
+Title: How to Deskew Image – Complete Guide for OCR Preprocessing
+Slug: how-to-deskew-image-complete-guide-for-ocr-preprocessing
+Category: general
+ProcessedDate: 2026-07-05T12:19:28.112709
+SourceRepo: AI Search API
+Keywords: how to deskew image, preprocess image for ocr, extract text from image, convert scan to text, correct image rotation
+PRNumber: 170

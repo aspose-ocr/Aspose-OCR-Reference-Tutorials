@@ -1,0 +1,7 @@
+Title: Preload OCR Resources in Aspose.OCR – Complete Setup Guide
+Slug: preload-ocr-resources-in-aspose-ocr-complete-setup-guide
+Category: ocr-optimization
+ProcessedDate: 2026-06-22T18:56:04.252973
+SourceRepo: AI Search API
+Keywords: preload ocr resources, setup ocr engine, download ocr data
+PRNumber: 152

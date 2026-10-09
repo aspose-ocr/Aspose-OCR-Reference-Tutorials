@@ -1,224 +1,203 @@
 ---
 category: general
-date: 2026-03-07
-description: เรียนรู้วิธีจดจำข้อความภาษาฮินดีและโหลดภาพสำหรับ OCR ด้วย Aspose.OCR
-  ใน C# การตั้งค่าแบบขั้นตอนต่อขั้นตอน โค้ดและเคล็ดลับ
+date: 2026-02-09
+description: เรียนรู้วิธีการรู้จำข้อความภาษาฮินดีและดึงข้อความจากภาพโดยใช้ Aspose
+  OCR รวมถึงขั้นตอนการดาวน์โหลดแพ็กภาษาและอ่านข้อความภาษาอูรดู
 draft: false
 keywords:
-- recognize Hindi text
-- load image for OCR
-- Aspose OCR C#
-- Hindi language pack
-- OCR engine settings
+- recognize hindi text
+- extract text from image
+- download language packs
+- read urdu text
+- extract plain text
 language: th
-og_description: ค้นพบวิธีการจดจำข้อความภาษาฮินดีด้วย Aspose OCR ใน C# รวมถึงการโหลดภาพสำหรับ
-  OCR การตั้งค่าแพ็คเกจภาษา และเคล็ดลับการปฏิบัติที่ดีที่สุด
-og_title: การจดจำข้อความฮินดี – บทเรียน Aspose OCR ฉบับเต็ม
+og_description: เรียนรู้วิธีการรู้จำข้อความภาษาฮินดีและดึงข้อความจากภาพโดยใช้ Aspose
+  OCR รวมขั้นตอนการดาวน์โหลดแพ็คเกจภาษาและอ่านข้อความอูรดู.
+og_title: จดจำข้อความฮินดีใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
-- Hindi
+- Multilingual OCR
 title: จดจำข้อความฮินดีใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์
 url: /th/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
+
+
+
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จดจำข้อความฮินดี – คู่มือ Aspose OCR ฉบับเต็ม
+# recognize hindi text in C# – Complete Aspose OCR Guide
 
-เคยต้องการ **recognize Hindi text** จากใบเสร็จที่สแกนแล้วแต่ไม่แน่ใจว่าจะเริ่มต้นอย่างไร? คุณไม่ได้เป็นคนเดียว ในหลายแอปที่มุ่งเน้นอินเดีย การดึงอักขระฮินดีอย่างแม่นยำอาจรู้สึกเหมือนตามเป้าหมายที่เคลื่อนที่ อย่างไรก็ตาม Aspose.OCR ทำให้เป็นเรื่องง่าย—เมื่อคุณรู้ขั้นตอนที่ถูกต้องเพื่อ **load image for OCR** และชี้เครื่องยนต์ไปที่ทรัพยากรภาษา Hindi
+เคยต้อง **recognize hindi text** จากใบเสร็จสแกนแล้วไม่แน่ใจว่าคลังไหนจะจัดการได้หรือไม่? คุณไม่ได้อยู่คนเดียว ในบทเรียนนี้เราจะสาธิตวิธีดึงข้อความจากไฟล์ภาพ ดาวน์โหลดแพ็คภาษาที่จำเป็น และแม้กระทั่ง **read urdu text** ด้วยโค้ดตัวอย่างที่เรียบง่ายและเป็นระเบียบ
 
-ในคู่มือนี้เราจะพาคุณผ่านทุกอย่างที่ต้องการเพื่อสร้าง pipeline OCR ที่ทำงานได้ใน C# จนจบคุณจะได้โปรแกรมที่รันได้ซึ่งดาวน์โหลด Hindi language pack, โหลดภาพ, ทำการจดจำ, และพิมพ์ข้อความที่ได้ลงคอนโซล ไม่ต้องอ้างอิง “ดูเอกสาร” ที่คลุมเครือ—เพียงโซลูชันที่พร้อมใช้ที่คุณสามารถใส่ลงในโปรเจกต์ .NET ใดก็ได้
+เราจะเดินผ่านทุกขั้นตอนที่คุณต้องการเพื่อให้พร้อมใช้งาน: การติดตั้ง Aspose.OCR, การกำหนดค่าการสนับสนุนหลายภาษา, การโหลดภาพ, และสุดท้ายการดึงผล **extract plain text** เมื่อเสร็จสิ้นคุณจะมีสแนปช็อตที่สามารถนำไปใช้ในโปรเจกต์ .NET ใดก็ได้
 
-## สิ่งที่คุณต้องการ
+---
 
-- **.NET 6+** (หรือ .NET Framework 4.7.2+) API เหมือนกันทุกเวอร์ชัน แต่ runtime ใหม่ให้ประสิทธิภาพดีกว่า
-- **Aspose.OCR for .NET** NuGet package ติดตั้งด้วย `dotnet add package Aspose.OCR`
-- **Hindi language pack** – Aspose แจกเป็นทรัพยากรที่ดาวน์โหลดได้ ไม่ได้รวมมาในแพคเกจโดยอัตโนมัติ
-- ไฟล์ภาพที่มีข้อความฮินดี (เช่น `hindi_receipt.jpg`) รองรับฟอร์แมตทั่วไป (JPG, PNG, BMP)
-- IDE ที่ดี (Visual Studio, Rider, หรือ VS Code)  
+## What You’ll Need
 
-แค่นั้น—ไม่มี OCR engine ภายนอก, ไม่มีคีย์คลาวด์, เพียงไลบรารีโลคัล
+- **.NET 6.0 หรือใหม่กว่า** – โค้ดนี้ใช้คุณลักษณะของ C# รุ่นใหม่ แต่ .NET Framework 4.7+ ก็ทำงานได้เช่นกัน  
+- **Aspose.OCR NuGet package** – ติดตั้งโดยใช้ `dotnet add package Aspose.OCR`  
+- ภาพที่มีอักขระ Hindi หรือ Urdu (เช่น `hindi_receipt.png`)  
+- สภาพแวดล้อมการพัฒนา (Visual Studio, VS Code, Rider – ตามที่คุณถนัด)
 
-## Step 1: Download the Hindi Language Pack – Set Up Resources
+ไม่ต้องติดตั้งฟอนต์ระบบหรือเอนจิน OCR เพิ่มเติม; Aspose จัดการทุกอย่างภายใน รวมถึง **download language packs** ครั้งแรกที่คุณเรียกใช้
 
-ก่อนที่ OCR engine จะเข้าใจอักขระ Devanagari คุณต้องดึง Hindi language resources นี้เป็นการทำงานครั้งเดียว ปกติทำระหว่างการติดตั้งแอปหรือในขั้นตอน CI/CD
+---
+
+## Step 1: Set Up the OCR Engine to **recognize hindi text**
+
+สิ่งแรกที่เราทำคือสร้างอินสแตนซ์ของ `OcrEngine` วัตถุนี้เป็นหัวใจของไลบรารี – เก็บการตั้งค่า, ทำงานหนัก, และคืนผลลัพธ์
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-// Define where you want to keep the language files
-string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-
-// Download the Hindi pack if it isn’t already there
-if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-{
-    ResourceManager.Download(Language.Hindi, resourcesPath);
-    Console.WriteLine("✅ Hindi language pack downloaded.");
-}
-else
-{
-    Console.WriteLine("🔄 Hindi language pack already present.");
-}
+// Create the OCR engine – think of it as your multilingual detective.
+var ocrEngine = new OcrEngine();
 ```
 
-**Why this matters:** OCR engine พึ่งพาโมเดลเฉพาะภาษาเพื่อแมปแพทเทิร์นพิกเซลเป็นอักขระ Unicode หากไม่มี Hindi pack คุณจะได้ผลลัพธ์เป็นอักขระละตินที่บิดเบือนหรือไม่มีเลย
+ทำไมต้องสร้างที่นี่? เพราะเอนจินจะเก็บแคชของทรัพยากรภาษาไว้ ดังนั้นคุณจะดาวน์โหลดแพ็คเพียงครั้งเดียวต่ออายุการใช้งานของแอปพลิเคชัน หากสร้างหลายเอนจินจะทำให้แบนด์วิดท์และหน่วยความจำเสียเปล่า
 
-> **Pro tip:** แคชแพคไว้ในโฟลเดอร์ที่สามารถเขียนได้บนเครื่องเป้าหมาย หากคุณกำลังดีพลอยไปยัง Azure App Service ให้ใช้โฟลเดอร์ `D:\home\site\wwwroot\Resources`
+---
 
-## Step 2: Configure the OCR Engine – Point to Resources
+## Step 2: Request Hindi and Urdu Packs – **download language packs** on demand
 
-เมื่อทรัพยากรพร้อมแล้ว สร้างอินสแตนซ์ `OcrEngine` และบอกให้มันรู้ตำแหน่งไฟล์ภาษา นี่คือจุดที่เราตั้ง **primary language** สำหรับการจดจำ
+Aspose แยกข้อมูลภาษาออกจากไลบรารีหลักเพื่อให้ขนาดเล็กลง โดยการตั้งค่า `Language` เราบอกเอนจินว่าจะดึงแพ็คใดเข้ามา การรันครั้งแรกจะ **download language packs** อัตโนมัติ; ครั้งต่อมาจะใช้ไฟล์ที่แคชไว้
 
 ```csharp
-// Initialize the OCR engine
-OcrEngine ocrEngine = new OcrEngine();
-
-// Tell the engine where the language resources live
-ocrEngine.Settings.ResourcesPath = resourcesPath;
-
-// Select Hindi as the active language
-ocrEngine.Settings.Language = Language.Hindi;
-
-// Optional: tweak accuracy settings (e.g., enable word‑level detection)
-ocrEngine.Settings.EnableWordDetection = true;
+// Tell the engine which languages we expect.
+// This triggers a one‑time download of the Hindi and Urdu packs.
+ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 ```
 
-**Why we do this:** `ResourcesPath` เป็นสะพานเชื่อมระหว่าง engine กับไฟล์ที่ดาวน์โหลด หากข้ามขั้นตอนนี้ engine จะย้อนกลับไปใช้โมเดลในตัว (เฉพาะอังกฤษ) และคุณจะไม่สามารถ **recognize Hindi text** ได้อย่างถูกต้อง
+> **Pro tip:** หากคุณต้องการเฉพาะ Hindi ให้ลบ `OcrLanguage.Urdu` ออกจากอาเรย์ การเพิ่มภาษาจะทำให้ขนาดการดาวน์โหลดเริ่มต้นใหญ่ขึ้น แต่ให้ความยืดหยุ่นสำหรับเอกสารหลายภาษา
 
-## Step 3: Load Image for OCR – Feed the Engine the Right Input
+---
 
-เมื่อ engine พร้อม ขั้นตอนต่อไปคือ **load image for OCR** Aspose มี helper `ImageStream.FromFile` ที่รองรับฟอร์แมตภาพส่วนใหญ่
+## Step 3: Load the Image and **extract text from image**
+
+ต่อไปเราชี้เอนจินไปที่บิตแมพที่บรรจุอักขระที่ต้องการอ่าน `ImageStream.FromFile` รองรับรูปแบบทั่วไป (PNG, JPEG, BMP)
 
 ```csharp
-// Path to the image containing Hindi text
-string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+// Load the receipt image – replace the path with your own file location.
+var image = ImageStream.FromFile(@"YOUR_DIRECTORY/hindi_receipt.png");
 
-// Load the image into the OCR engine
-ocrEngine.Image = ImageStream.FromFile(imagePath);
-Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+// Perform OCR – this step does the actual recognition work.
+var ocrResult = ocrEngine.Recognize(image);
 ```
 
-**Common pitfalls:**  
-- **Large images** ทำให้การประมวลผลช้า หากต้องจัดการสแกนความละเอียดสูง ควรลดขนาดก่อน (`ImageProcessor.Resize`)  
-- **Incorrect orientation** (ภาพสแกนที่หมุน) จะทำให้ผลลัพธ์แย่ ใช้ `ocrEngine.Image.Rotate(90)` หากจำเป็น
+เบื้องหลังกระบวนการ OCR จะทำการปรับรูปภาพ, ส่งผ่านเครือข่ายประสาทเทียมที่ฝึกด้วยสคริปต์ Hindi และ Urdu, แล้วสร้างสตริง Unicode วิธีนี้คืนค่า `OcrResult` ที่มีทั้ง **extract plain text** และภาษาที่ระบบคิดว่าเจอ
 
-## Step 4: Run the Recognition – Extract the Text
+---
 
-ตอนนี้เราจะสั่ง engine อ่านพิกเซลและแปลงเป็นสตริง Unicode
+## Step 4: Retrieve Detected Language and **extract plain text**
+
+อ็อบเจ็กต์ผลลัพธ์ให้ข้อมูลสองส่วนที่มีประโยชน์: ภาษาที่ถูกระบุด้วยความมั่นใจสูงสุด, และข้อความที่อ่านได้อย่างเป็นธรรมชาติ
 
 ```csharp
-// Perform OCR
-ocrEngine.Recognize();
+// Show what language the engine thinks it saw.
+Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
 
-// Retrieve the recognized text
-string recognizedText = ocrEngine.Text;
-
-// Output to console
-Console.WriteLine("\n--- Recognized Hindi Text ---");
-Console.WriteLine(recognizedText);
-Console.WriteLine("--- End of Output ---");
+// Print the plain text – this is the final output you’ll likely store or process.
+Console.WriteLine(ocrResult.PlainText);
 ```
 
-**What to expect:** หากภาพชัดเจน คุณจะเห็นอักขระฮินดีพิมพ์ออกมาตรงตามที่ปรากฏบนใบเสร็จ ตัวอย่างใบเสร็จอาจแสดงผลดังนี้
+หากใบเสร็จมีทั้ง Hindi และ Urdu เอนจินจะรายงานภาษาที่โดดเด่นสำหรับแต่ละส่วน คุณยังสามารถวนลูป `ocrResult.Regions` เพื่อควบคุมระดับละเอียดได้ แต่คุณสมบัติ `PlainText` อย่างง่ายก็เพียงพอสำหรับการใช้งานส่วนใหญ่
 
-```
-बिल क्रमांक: 12345
-तारीख: 05/03/2026
-रकम: ₹ 1,250.00
-धन्यवाद!
-```
+---
 
-หากได้ผลเป็นอักขระไร้ความหมาย ตรวจสอบว่าแพคภาษาได้ดาวน์โหลดอย่างถูกต้องและ `ocrEngine.Settings.Language` ตั้งเป็น `Language.Hindi`
+## Full Working Example
 
-## Step 5: Wrap It All Up – Complete, Runnable Program
-
-ด้านล่างเป็นไฟล์ซอร์สเต็มที่คุณสามารถคัดลอก‑วางลงในโปรเจกต์คอนโซล รวมทุกขั้นตอนข้างต้นพร้อมการจัดการข้อผิดพลาดขั้นพื้นฐาน
+ด้านล่างเป็นโปรแกรมเต็มรูปแบบพร้อมคัดลอกและวางรวมถึงคำสั่ง `using` ทั้งหมด, การจัดการข้อผิดพลาด, และคอมเมนต์ที่จำเป็นเพื่อให้รันได้ทันที
 
 ```csharp
-// Program.cs
 using System;
-using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Resources;
+using Aspose.OCR.Models;
 
-class Program
+class MultiLangExample
 {
     static void Main()
     {
-        // 1️⃣ Define paths
-        string resourcesPath = Path.Combine(Environment.CurrentDirectory, "Resources");
-        string imagePath = Path.Combine(Environment.CurrentDirectory, "hindi_receipt.jpg");
+        // 1️⃣ Create an OCR engine instance
+        var ocrEngine = new OcrEngine();
 
-        // 2️⃣ Download Hindi language pack if missing
-        if (!Directory.Exists(Path.Combine(resourcesPath, "Hindi")))
-        {
-            ResourceManager.Download(Language.Hindi, resourcesPath);
-            Console.WriteLine("✅ Hindi language pack downloaded.");
-        }
+        // 2️⃣ Request Hindi and Urdu language packs (downloads if missing)
+        ocrEngine.Configuration.Language = new[] { OcrLanguage.Hindi, OcrLanguage.Urdu };
 
-        // 3️⃣ Set up OCR engine
-        OcrEngine ocrEngine = new OcrEngine
-        {
-            Settings =
-            {
-                ResourcesPath = resourcesPath,
-                Language = Language.Hindi,
-                EnableWordDetection = true
-            }
-        };
+        // 3️⃣ Load the image that contains the text to be recognized
+        var imagePath = @"YOUR_DIRECTORY/hindi_receipt.png";
+        var image = ImageStream.FromFile(imagePath);
 
-        // 4️⃣ Load the image (this is where we **load image for OCR**)
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"❌ Image not found: {imagePath}");
-            return;
-        }
-        ocrEngine.Image = ImageStream.FromFile(imagePath);
-        Console.WriteLine($"🖼️ Loaded image: {Path.GetFileName(imagePath)}");
+        // 4️⃣ Perform OCR – this will automatically download language packs the first time
+        var ocrResult = ocrEngine.Recognize(image);
 
-        // 5️⃣ Recognize Hindi text
-        ocrEngine.Recognize();
-
-        // 6️⃣ Show results
-        Console.WriteLine("\n--- Recognized Hindi Text ---");
-        Console.WriteLine(ocrEngine.Text);
-        Console.WriteLine("--- End of Output ---");
+        // 5️⃣ Display the detected language and the extracted plain text
+        Console.WriteLine("Detected language: " + ocrResult.DetectedLanguage);
+        Console.WriteLine("---- Extracted Text ----");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-บันทึกเป็น `Program.cs` รัน `dotnet run` แล้วคุณควรเห็นข้อความฮินดีพิมพ์ออกที่คอนโซล
+### Expected Console Output
 
-## Frequently Asked Questions (FAQ)
+```
+Detected language: Hindi
+---- Extracted Text ----
+कुल राशि: ₹ 1,250.00
+दिनांक: 05/08/2023
+धन्यवाद!
+```
 
-### Can I recognize multiple languages in one run?
+หากภาพมี Urdu ด้วย คุณอาจเห็น `Detected language: Urdu` สำหรับส่วนนั้น และข้อความ Unicode จะสะท้อนสคริปต์ที่เหมาะสม
 
-ได้ คุณสามารถตั้ง `ocrEngine.Settings.Language` เป็นอาเรย์ เช่น `new[] { Language.Hindi, Language.English }` engine จะพยายามตรวจจับอักขระจากทั้งสองสคริปต์
+---
 
-### What if my image is blurry?
+## Visual Overview (Image Alt Text)
 
-ลองทำพรี‑โปรเซสด้วย `ImageProcessor`—ใช้การชาร์ปหรือเพิ่มคอนทราสต์ก่อนกำหนดให้ `ocrEngine.Image`
+<img src="assets/ocr_flowchart.png" alt="แผนภาพแสดงขั้นตอนการ recognize hindi text จากภาพโดยใช้ Aspose OCR รวมถึงขั้นตอนดาวน์โหลดแพ็คภาษาและการ extract plain text">
 
-### Does this work on Linux/macOS?
+แผนภาพนี้แสดงการไหลของข้อมูลตั้งแต่การโหลดภาพจนถึงการดึงข้อความสุดท้ายหลังจากดึงแพ็คภาษา
 
-แน่นอน Aspose.OCR รองรับหลายแพลตฟอร์ม; เพียงตรวจสอบให้มี native dependencies อยู่ (โดยทั่วไปรวมอยู่ใน NuGet package)
+---
 
-### How do I improve accuracy for low‑resolution receipts?
+## Common Pitfalls & Tips
 
-เพิ่ม DPI (dots per inch) ระหว่างสแกน หรือทำการรีแซมพล์ภาพโปรแกรมให้มีอย่างน้อย 300 DPI ก่อน OCR
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **Missing language packs** | การรันครั้งแรกไม่มีอินเทอร์เน็ตหรือไฟร์วอลล์บล็อก | ตรวจสอบให้เครื่องสามารถเข้าถึง `https://download.aspose.com/ocr/` หรือดาวน์โหลดแพ็คด้วยตนเองจากพอร์ทัลของ Aspose แล้ววางในโฟลเดอร์แคชเริ่มต้น (`%LOCALAPPDATA%\Aspose\OCR`) |
+| **Garbage characters** | ภาพความละเอียดต่ำหรือบีบอัดมากเกินไป | ทำการพรีโปรเซสด้วย `ocrEngine.Configuration.ImagePreprocessOptions` – เพิ่มความคอนทราสต์, ใช้การไบนารีเซชัน |
+| **Mixed‑language detection fails** | รายการภาษาที่กำหนดไม่ได้รวมสคริปต์ทั้งหมดที่มี | เพิ่มภาษาที่ต้องการใน `Configuration.Language` (เช่น `OcrLanguage.English`) |
+| **Performance lag on large batches** | เอนจินโหลดแพ็คใหม่สำหรับแต่ละไฟล์ | ใช้อินสแตนซ์ `OcrEngine` เดียวกันสำหรับการจดจำหลายไฟล์ |
+| **Unexpected `null` result** | เส้นทางภาพผิดหรือไฟล์ไม่สามารถอ่านได้ | ตรวจสอบว่าไฟล์มีอยู่โดยใช้ `File.Exists(imagePath)` ก่อนเรียก `FromFile` |
+
+---
+
+## Next Steps
+
+ตอนนี้คุณสามารถ **recognize hindi text** และ **read urdu text** แล้ว ลองขยายต่อด้วยแนวคิดต่อไปนี้:
+
+- **Batch processing** – วนลูปโฟลเดอร์ใบเสร็จและบันทึกผลแต่ละรายการลง CSV  
+- **Confidence scores** – ตรวจสอบ `ocrResult.Regions[i].Confidence` เพื่อตัดบรรทัดที่ความมั่นใจต่ำออก  
+- **Integration with Azure Blob Storage** – ดึงภาพโดยตรงจากคลาวด์เพื่อสร้าง pipeline แบบ serverless  
+- **Combine with translation APIs** – แปลข้อความ Hindi หรือ Urdu ที่ดึงมาเป็นอังกฤษอัตโนมัติสำหรับการวิเคราะห์ต่อไป
+
+แนวคิดทั้งหมดใช้สแนปช็อตหลักเดียวกัน ดังนั้นคุณพร้อมสำหรับการทดลองอย่างรวดเร็วแล้ว
+
+---
 
 ## Conclusion
 
-เราได้ครอบคลุมทุกอย่างที่คุณต้องการเพื่อ **recognize Hindi text** ด้วย Aspose.OCR—from การดาวน์โหลด Hindi language pack, การตั้งค่า engine, การ **load image for OCR** อย่างถูกต้อง, ไปจนถึงการดึงและพิมพ์ผลลัพธ์ โค้ดเต็มที่แสดงด้านบนพร้อมใช้ในแอปคอนโซล C# ใดก็ได้ และเคล็ดลับเสริมช่วยจัดการกรณีขอบทั่วไปเช่นภาพเบลอหรือเอกสารหลายภาษา
+เราได้ครอบคลุมทุกอย่างที่คุณต้องการเพื่อ **recognize hindi text** ด้วย Aspose OCR ตั้งแต่การติดตั้งแพ็คเกจและ **download language packs** ไปจนถึงการโหลดภาพและ **extract plain text** ตัวอย่างเต็มทำงานได้ทันที และคำอธิบายช่วยให้คุณเข้าใจ *ทำไม* แต่ละขั้นตอนสำคัญ ไม่ใช่แค่ *วิธี* พิมพ์
 
-พร้อมก้าวต่อไปหรือยัง? ลองส่งผลลัพธ์ OCR ไปยัง API แปลภาษา, หรือเก็บข้อมูลที่ดึงมาไว้ในฐานข้อมูลเพื่อวิเคราะห์ คุณยังสามารถทดลองกับภาษาภาษาอินเดียอื่น ๆ—Aspose รองรับ Tamil, Bengali, และอื่น ๆ—โดยเปลี่ยน `Language.Hindi` เป็นค่า enum ที่ต้องการ
-
-ขอให้เขียนโค้ดสนุกและผลลัพธ์ OCR ของคุณคมชัดเสมอ!
+ลองใช้กับเอกสารของคุณเอง ปรับรายการภาษา แล้วดูเอนจินดึงอักขระ Unicode ตรงจากพิกเซล หากเจออุปสรรคใด ๆ กลับไปตรวจสอบตาราง “Common Pitfalls” หรือแสดงความคิดเห็นด้านล่าง – Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
