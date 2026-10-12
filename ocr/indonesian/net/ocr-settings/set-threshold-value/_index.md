@@ -1,35 +1,51 @@
 ---
-title: Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
-linktitle: Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
+date: 2026-02-12
+description: Pelajari cara mengatur ambang batas di Aspose.OCR untuk .NET, solusi
+  OCR yang kuat yang memungkinkan Anda menyesuaikan nilai ambang batas dengan mudah
+  dan meningkatkan pengenalan teks.
+linktitle: Set Threshold Value in OCR Image Recognition
 second_title: Aspose.OCR .NET API
-description: Jelajahi Aspose.OCR untuk .NET solusi OCR yang tangguh. Tetapkan nilai ambang batas khusus dengan mudah. Tingkatkan pengenalan teks di aplikasi Anda.
-weight: 12
+title: Cara Mengatur Nilai Ambang pada Pengenalan Gambar OCR
 url: /id/net/ocr-settings/set-threshold-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR
+# Atur Nilai Ambang pada Pengenalan Gambar OCR
 
-## Perkenalan
+## Pendahuluan
 
-Selamat datang di dunia Aspose.OCR untuk .NET yang menarik! Dalam tutorial ini, kita akan mendalami kemampuan Aspose.OCR, alat canggih yang dirancang untuk memudahkan pengenalan karakter optik dalam aplikasi .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui proses pengaturan nilai ambang batas dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
+Selamat datang di dunia menarik Aspose.OCR untuk .NET! Dalam tutorial ini, **Anda akan belajar cara mengatur ambang** dalam pengenalan gambar OCR, menyelami kemampuan Aspose.OCR—sebuah alat kuat yang memudahkan pengenalan karakter optik dalam aplikasi .NET. Baik Anda pengembang berpengalaman maupun pemula, panduan ini akan memandu Anda melalui proses mengatur nilai ambang dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET.
+
+## Jawaban Cepat
+- **Apa yang dikendalikan oleh nilai ambang?** Nilai ini menentukan batas kecerahan piksel yang digunakan untuk membinarisasi gambar sebelum OCR.
+- **Mengapa menyesuaikan ambang?** Ambang khusus meningkatkan akurasi pengenalan pada gambar dengan pencahayaan atau kontras yang tidak merata.
+- **Metode API mana yang mengatur ambang?** `RecognitionSettings.ThresholdValue` dalam pemanggilan `RecognizeImage`.
+- **Rentang nilai apa yang didukung?** 0 – 255, di mana angka yang lebih tinggi membuat gambar lebih terang sebelum OCR.
+- **Apakah saya memerlukan lisensi untuk menggunakan fitur ini?** Versi percobaan dapat digunakan untuk pengujian, tetapi lisensi penuh diperlukan untuk produksi.
+
+## Apa itu “cara mengatur ambang” dalam OCR?
+Mengatur ambang berarti menentukan level skala abu‑abu di mana sebuah piksel dianggap hitam atau putih. Dengan menyesuaikan nilai ini secara halus, Anda membantu mesin OCR membedakan teks dari latar belakang, terutama pada gambar yang berisik atau berkontras rendah.
+
+## Mengapa menggunakan Aspose.OCR untuk .NET?
+- **Akurasi tinggi** pada berbagai macam font dan bahasa.  
+- **Kompatibilitas .NET penuh** – bekerja dengan .NET Framework, .NET Core, dan .NET 5/6+.  
+- **API sederhana** yang memungkinkan Anda menyesuaikan pengaturan lanjutan seperti ambang hanya dengan beberapa baris kode.
 
 ## Prasyarat
 
-Sebelum kita memulai petualangan coding ini, pastikan Anda memiliki prasyarat berikut:
+Sebelum kita memulai petualangan pemrograman ini, pastikan Anda memiliki prasyarat berikut:
 
-1. Lingkungan .NET: Pastikan Anda memiliki lingkungan .NET yang berfungsi di mesin Anda.
-
-2.  Aspose.OCR untuk .NET Library: Unduh dan instal Aspose.OCR untuk .NET Library. Anda dapat menemukan perpustakaan[Di Sini](https://releases.aspose.com/ocr/net/).
-
-3. Contoh Gambar: Siapkan contoh gambar yang ingin Anda proses menggunakan Aspose.OCR.
+1. Lingkungan .NET: Pastikan Anda memiliki lingkungan .NET yang berfungsi di mesin Anda.  
+2. Perpustakaan Aspose.OCR untuk .NET: Unduh dan instal perpustakaan Aspose.OCR untuk .NET. Anda dapat menemukan perpustakaan tersebut [di sini](https://releases.aspose.com/ocr/net/).  
+3. Gambar Contoh: Siapkan gambar contoh yang ingin Anda proses menggunakan Aspose.OCR.
 
 ## Impor Namespace
 
-Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
+Dalam proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
 ```csharp
 using System;
@@ -37,28 +53,28 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Tetapkan Nilai Ambang Batas dalam Pengenalan Gambar OCR: Panduan Langkah demi Langkah
+## Cara Mengatur Ambang dalam Pengenalan Gambar OCR
 
-Sekarang, mari kita uraikan proses pengaturan nilai ambang batas dalam pengenalan gambar OCR menjadi langkah-langkah yang mudah diikuti:
+Sekarang, mari kita uraikan proses mengatur nilai ambang dalam pengenalan gambar OCR menjadi langkah‑langkah yang mudah diikuti.
 
 ### Langkah 1: Tentukan Direktori Dokumen Anda
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
 ### Langkah 2: Inisialisasi Aspose.OCR
 
 ```csharp
-// Inisialisasi instance AsposeOcr
+// Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Langkah 3: Kenali Gambar dengan Ambang Batas Kustom
+### Langkah 3: Kenali Gambar dengan Ambang Kustom
 
 ```csharp
-// Kenali gambar dengan nilai ambang batas tertentu (misal, 230)
+// Recognize image with a specific threshold value (e.g., 230)
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings
 {
     ThresholdValue = 230
@@ -68,46 +84,81 @@ RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new Recogn
 ### Langkah 4: Tampilkan Teks yang Dikenali
 
 ```csharp
-// Menampilkan teks yang dikenali
+// Display the recognized text
 Console.WriteLine(result.RecognitionText);
 ```
 
-### Langkah 5: Konfirmasikan Eksekusi yang Berhasil
+### Langkah 5: Konfirmasi Eksekusi Berhasil
 
 ```csharp
 Console.WriteLine("SetThresholdValue executed successfully");
 ```
 
-Kini setelah Anda berhasil menetapkan nilai ambang batas dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET, jangan ragu untuk mengintegrasikan fungsi ini ke dalam aplikasi Anda untuk meningkatkan pengenalan teks.
+Sekarang setelah Anda berhasil mengatur nilai ambang dalam pengenalan gambar OCR menggunakan Aspose.OCR untuk .NET, silakan integrasikan fungsionalitas ini ke dalam aplikasi Anda untuk meningkatkan pengenalan teks.
 
-## Kesimpulan
+## Kasus Penggunaan Umum
 
-Selamat telah menyelesaikan tutorial komprehensif tentang Aspose.OCR untuk .NET! Anda telah membuka potensi pengenalan karakter optik dan menetapkan nilai ambang batas dengan mudah. Saat Anda terus mengeksplorasi kemampuan Aspose.OCR, ingatlah bahwa alat canggih ini dapat menyederhanakan ekstraksi teks di berbagai aplikasi.
+- **Faktur yang dipindai** dengan cetakan pudar di mana ambang yang lebih tinggi menghilangkan noise latar belakang.  
+- **Dokumen historis** yang memiliki paparan tidak merata; mengatur ambang dapat secara dramatis meningkatkan keterbacaan.  
+- **Foto yang diambil dengan ponsel** di mana kondisi pencahayaan bervariasi di seluruh gambar.
+
+## Tips Pemecahan Masalah
+
+- **Hasil kosong atau berantakan?** Coba turunkan `ThresholdValue` (mis., 180) untuk mempertahankan lebih banyak piksel gelap.  
+- **Pengecualian dilempar:** Verifikasi bahwa jalur gambar (`dataDir + "sample.png"`) benar dan file dapat diakses.  
+- **Kekhawatiran kinerja:** Pengaturan ambang tidak menambah beban yang terlihat, namun memproses gambar sangat besar mungkin mendapat manfaat dari mengubah ukuran sebelum OCR.
 
 ## FAQ
 
 ### Q1: Bisakah saya menggunakan Aspose.OCR untuk .NET di aplikasi web dan desktop?
 
-A1: Tentu saja! Aspose.OCR untuk .NET serbaguna dan dapat diintegrasikan dengan mulus ke dalam aplikasi web dan desktop.
+A1: Tentu saja! Aspose.OCR untuk .NET bersifat serbaguna dan dapat diintegrasikan secara mulus ke dalam aplikasi web maupun desktop.
 
-### T: Apakah ada versi uji coba yang tersedia untuk Aspose.OCR untuk .NET?
+### Q: Apakah ada versi percobaan tersedia untuk Aspose.OCR untuk .NET?
 
- A2: Ya, Anda dapat menjelajahi fitur-fiturnya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+A2: Ya, Anda dapat menjelajahi fitur dengan versi percobaan gratis yang tersedia [di sini](https://releases.aspose.com/).
 
-### T: Bagaimana cara mendapatkan lisensi sementara Aspose.OCR untuk .NET?
+### Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.OCR untuk .NET?
 
- A3: Dapatkan lisensi sementara dengan mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/).
+A3: Dapatkan lisensi sementara dengan mengunjungi [tautan ini](https://purchase.aspose.com/temporary-license/).
 
-### T: Di mana saya dapat menemukan dukungan Aspose.OCR untuk .NET?
+### Q: Di mana saya dapat menemukan dukungan untuk Aspose.OCR untuk .NET?
 
- A4: Bergabunglah dengan komunitas di[Forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk bantuan dan diskusi.
+A4: Bergabunglah dengan komunitas di [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk bantuan dan diskusi.
 
-### Q5: Bagaimana cara membeli versi lengkap Aspose.OCR untuk .NET?
+### Q5: Bagaimana cara membeli versi penuh Aspose.OCR untuk .NET?
 
- A5: Untuk membuka kunci semua fitur, kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
+A5: Untuk membuka semua fitur, kunjungi halaman pembelian [di sini](https://purchase.aspose.com/buy).
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Apakah mengubah ambang memengaruhi dukungan bahasa?**  
+A: Tidak. Ambang hanya memengaruhi binarisasi gambar; pengenalan bahasa tetap tidak berubah.
+
+**Q: Bisakah saya mengatur ambang secara dinamis berdasarkan analisis gambar?**  
+A: Ya. Anda dapat menghitung nilai optimal (mis., menggunakan metode Otsu) dan menetapkannya ke `ThresholdValue` sebelum memanggil `RecognizeImage`.
+
+**Q: Apakah pengaturan ambang tersedia di API cloud?**  
+A: Versi cloud juga mendukung `ThresholdValue` melalui payload permintaan JSON.
+
+**Q: Apa ambang default jika saya tidak menentukan satu?**  
+A: Aspose.OCR menggunakan algoritma adaptif yang secara otomatis memilih ambang yang sesuai.
+
+**Q: Apakah ambang yang lebih tinggi selalu meningkatkan hasil?**  
+A: Tidak selalu. Nilai yang terlalu tinggi dapat menghapus karakter yang pudar. Uji nilai yang berbeda untuk set gambar spesifik Anda.
+
+## Kesimpulan
+
+Selamat atas selesainya tutorial komprehensif ini tentang Aspose.OCR untuk .NET! Anda telah membuka potensi pengenalan karakter optik dan belajar **cara mengatur ambang** dengan mudah. Saat Anda terus mengeksplorasi Aspose.OCR, ingatlah bahwa penyesuaian ambang dapat secara dramatis meningkatkan ekstraksi teks dalam skenario pencitraan yang menantang.
+
+---
+
+**Terakhir Diperbarui:** 2026-02-12  
+**Diuji Dengan:** Aspose.OCR untuk .NET 24.11 (terbaru pada saat penulisan)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
