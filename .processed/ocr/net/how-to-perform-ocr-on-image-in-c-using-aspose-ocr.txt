@@ -1,0 +1,7 @@
+Title: How to perform OCR on image in C# using Aspose.OCR
+Slug: how-to-perform-ocr-on-image-in-c-using-aspose-ocr
+Category: text-recognition
+ProcessedDate: 2026-10-12T06:36:06.325807
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from jpg, recognize text from picture, load image for ocr, install system.drawing.common package
+PRNumber: 247
