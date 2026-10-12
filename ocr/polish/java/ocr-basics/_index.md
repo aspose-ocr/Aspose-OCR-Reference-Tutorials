@@ -133,6 +133,9 @@ Pełny przykład użycia Aspose.OCR w Javie do wyodrębniania tekstu z obrazów,
 ### [Wyodrębnianie tekstu z obrazu – szybki przewodnik Java z Aspose OCR](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Szybki samouczek pokazujący, jak w kilku krokach wyodrębnić tekst z obrazu w Javie przy użyciu biblioteki Aspose OCR.
 
+### [Jak wykonać OCR na obrazie PNG w Javie](./how-to-perform-ocr-on-a-png-image-in-java/)
+Szybki przewodnik, jak używać Aspose.OCR do rozpoznawania tekstu na obrazach PNG w Javie.
+
 ---
 
 **Last Updated:** 2025-12-08  

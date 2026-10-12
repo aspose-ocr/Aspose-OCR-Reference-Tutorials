@@ -123,6 +123,9 @@ weight: 20
 ### [Извлечение текста из изображения с Aspose OCR – Быстрое руководство для Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Быстрое руководство по извлечению текста из изображений с помощью Aspose OCR в Java.
 
+### [Как выполнить OCR на PNG‑изображении в Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Пошаговое руководство по выполнению OCR на PNG‑изображениях в Java с использованием Aspose.OCR.
+
 ---
 
 **Последнее обновление:** 2025-12-08  

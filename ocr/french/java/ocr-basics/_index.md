@@ -109,6 +109,9 @@ Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte 
 ### [Reconnaître du texte à partir d'un PNG en Java – Tutoriel Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 Apprenez à extraire du texte d’un fichier PNG en Java avec Aspose OCR grâce à ce guide détaillé.
 
+### [Comment effectuer l'OCR sur une image PNG en Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Apprenez à réaliser l'OCR sur une image PNG en Java avec Aspose OCR grâce à ce guide détaillé.
+
 ### [extraire du texte d'une image – convertir PNG en texte en Java](./extract-text-from-image-convert-png-to-text-in-java/)
 Apprenez à convertir une image PNG en texte brut avec Aspose.OCR pour Java grâce à ce guide pas à pas.
 
