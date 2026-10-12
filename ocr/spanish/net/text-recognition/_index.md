@@ -167,7 +167,7 @@ Aprenda a ejecutar OCR y generar PDFs buscables con Aspose.OCR en C#. Siga nuest
 ### [Crear PDF buscable con Aspose OCR – Guía paso a paso](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a crear PDFs buscables usando Aspose OCR con una guía paso a paso. Integre fácilmente esta funcionalidad en sus aplicaciones .NET.
 ### [Cómo usar OCR en C# – Procesamiento por lotes de imágenes PNG con Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
-Aprenda a procesar múltiples imágenes PNG en lote usando OCR con Aspose en C#. Guía paso a paso para automatizar la extracción de texto.
+Aprenda a procesar múltiples imágenes PNG en lote usando OCR con Aspose en C#. Guía paso a paso para automatizar la extracción del texto.
 ### [Cómo realizar OCR en C# – Guía paso a paso](./how-to-perform-ocr-in-c-step-by-step-guide/)
 Aprenda a ejecutar OCR en C# con una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
 ### [Generar PDF buscable a partir de imágenes en C# – Guía paso a paso](./generate-searchable-pdf-from-images-in-c-step-by-step-guide/)
@@ -206,7 +206,7 @@ Aprenda a extraer texto de imágenes JPEG usando Aspose.OCR en C#. Siga nuestra 
 ### [OCR de imagen coreana: Guía completa para extraer texto de fotos](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
 Aprenda a extraer texto de imágenes en coreano usando Aspose.OCR. Guía completa paso a paso para reconocer caracteres coreanos en fotos.
 ### [Tutorial OCR en C# – Procesamiento por lotes de OCR para TIFF escaneados](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
-Aprenda a procesar por lotes archivos TIFF escaneados con Aspose.OCR en C#. Guía paso a paso para automatizar la extracción de texto.
+Aprenda a procesar por lotes archivos TIFF escaneados con Aspose.OCR en C#. Guía paso a paso para automatizar la extracción del texto.
 ### [Convertir imagen a texto en C# con Aspose OCR – Guía paso a paso](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
 Aprenda a convertir imágenes a texto usando Aspose OCR en C#. Siga nuestra guía paso a paso para integrar OCR en sus aplicaciones .NET.
 ### [c# OCR tutorial – Reconocer texto de JPG en minutos](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
@@ -259,12 +259,12 @@ Aprenda a extraer texto de archivos PNG usando Aspose OCR con esta guía complet
 Aprenda paso a paso a ejecutar OCR en C# usando Aspose OCR, desde la configuración hasta la obtención de resultados precisos.
 ### [Cómo ejecutar OCR en C# – Extraer texto árabe de PNG](./how-to-run-ocr-in-c-extract-arabic-text-from-png/)
 Aprenda a extraer texto árabe de imágenes PNG usando OCR en C# con Aspose OCR.
-### [Extraer texto de imagen en C# – Guía completa de Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
-Aprenda paso a paso a extraer texto de imágenes en C# usando Aspose OCR, desde la configuración hasta obtener resultados precisos.
+### [Extraer texto de imagen con Aspose OCR – Guía completa en C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a extraer texto de imágenes usando Aspose OCR con una guía completa paso a paso en C#.
 ### [Crear PDF buscable a partir de PNG en C# – Guía completa](./create-searchable-pdf-from-png-in-c-complete-guide/)
 Aprenda a generar PDFs buscables desde imágenes PNG usando Aspose OCR en C#, paso a paso.
-### [Reconocer texto de imagen en C# – Guía completa de OCR y JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
-Aprenda paso a paso a reconocer texto de imágenes en C# y obtener resultados en formato JSON con Aspose OCR.
+### [Reconocer texto de imagen – Guía de OCR sin conexión para desarrolladores C#](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)
+Aprenda a reconocer texto de imágenes en C# usando OCR sin conexión con Aspose, siguiendo esta guía paso a paso.
 ### [Tutorial OCR en C# – Convertir imágenes en PDFs buscables](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Aprenda a convertir imágenes en PDFs con capacidad de búsqueda usando Aspose.OCR para .NET en C#.
 ### [Crear PDF buscable en C# – Guía completa](./create-searchable-pdf-in-c-full-guide/)
@@ -322,11 +322,11 @@ Aprenda a extraer texto de imágenes de forma asíncrona usando Aspose.OCR en C#
 ### [OCR de PDF multipágina – Convertir a HTML con C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
 Aprenda a convertir PDFs multipágina a HTML usando Aspose OCR en C#, manteniendo el formato y el texto reconocido.
 
-### [Cómo hacer OCR en árabe – Guía completa en C# para extraer texto árabe](./how-to-ocr-arabic-complete-c-guide-for-extracting-arabic-tex/)
-Aprenda a extraer texto en árabe con Aspose.OCR en C#, siguiendo una guía paso a paso para lograr reconocimiento preciso.
+### [Cómo hacer OCR en árabe – Guía completa en C# para extraer texto árabe](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Aprenda a extraer texto árabe en imágenes usando Aspose.OCR en C#, siguiendo una guía paso a paso para lograr reconocimiento preciso.
 
-### [Extraer texto de una imagen en C# – Guía completa paso a paso](./extract-text-from-image-in-c-complete-step-by-step-guide/)
-Aprenda a extraer texto de imágenes en C# con Aspose.OCR siguiendo una guía paso a paso completa.
+### [Cómo extraer texto de una imagen en C# – Guía completa paso a paso](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Aprenda a extraer texto de una imagen en C# con Aspose.OCR siguiendo una guía paso a paso completa.
 ### [Crear PDF buscable a partir de imágenes escaneadas con Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
 Aprenda a generar PDFs buscables a partir de imágenes escaneadas usando Aspose OCR en .NET.
 ### [Convertir imagen a JSON con Aspose OCR – guía paso a paso](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
@@ -337,7 +337,88 @@ Cree PDFs buscables en C# a partir de imágenes usando Aspose.OCR, con una guía
 ### [Crear PDF buscable en C# – Combinar imágenes verticalmente](./create-searchable-pdf-in-c-combine-images-vertically/)
 Cree PDFs buscables en C# combinando imágenes verticalmente con Aspose.OCR, siguiendo una guía paso a paso.
 
-### [Extraer texto de una imagen en C# – Guía paso a paso de OCR sin conexión](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+### [Extraer texto de una imagen en C# – Guía completa de OCR sin conexión](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
+Aprenda a extraer texto de imágenes en C# usando OCR sin conexión con esta guía paso a paso.
+
+### [Convertir Djvu a texto en C# con Aspose OCR – Tutorial completo](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
+Aprenda a convertir archivos Djvu a texto en C# usando Aspose OCR con esta guía paso a paso.
+
+### [Cómo ejecutar OCR con Aspose OCR en C# – Guía completa](./how-to-run-ocr-with-aspose-ocr-in-c-complete-guide/)
+Aprenda paso a paso a ejecutar OCR con Aspose OCR en C#, desde la configuración hasta la obtención de resultados precisos.
+
+### [Reconocer texto de una imagen en C# – incrustar licencia de Aspose OCR](./recognize-text-from-image-in-c-embed-aspose-ocr-license/)
+Aprenda a integrar la licencia de Aspose OCR en su aplicación C# para reconocer texto en imágenes sin restricciones.
+### [Reconocer texto árabe con Aspose OCR – Guía multilingüe](./recognize-arabic-text-with-aspose-ocr-multi-language-guide/)
+Aprenda a reconocer texto árabe usando Aspose OCR en .NET, con soporte multilingüe y ejemplos paso a paso.
+### [Crear PDF buscable en C# – Guía paso a paso](./create-searchable-pdf-in-c-step-by-step-guide/)
+Aprenda a crear PDFs buscables en C# con Aspose.OCR, siguiendo una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
+### [Convertir imagen a ePub en C# – Guía paso a paso](./convert-image-to-epub-in-c-step-by-step-guide/)
+Aprenda a convertir imágenes a formato ePub en C# con Aspose.OCR siguiendo una guía paso a paso.
+### [Ejecutar OCR en una imagen con Aspose OCR – Reconocer texto chino](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
+Aprenda a usar Aspose OCR en .NET para reconocer texto chino en imágenes, con pasos claros y ejemplos prácticos.
+### [Tutorial OCR en C# – Extraer texto de una imagen y obtener JSON formateado](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
+Aprenda a extraer texto de imágenes y obtener resultados en JSON estructurado usando Aspose.OCR en C# con esta guía paso a paso.
+### [Cómo reconocer texto en C# con Aspose OCR – Mostrar recuento de caracteres y cargar imagen](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
+Aprenda a reconocer texto, mostrar el número de caracteres y cargar imágenes usando Aspose OCR en C# con esta guía paso a paso.
+
+
+
+
+
+
+
+### [Cómo realizar OCR en C# – Reconocer texto cirílico con Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+Aprenda a usar Aspose.OCR en C# para reconocer texto en cirílico con alta precisión y facilidad.
+### [Crear PDF buscable a partir de TIFF – Guía completa en C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
+Aprenda a crear PDFs buscables a partir de archivos TIFF usando Aspose.OCR en C# con esta guía paso a paso.
+### [Cómo extraer texto OCR en C# – Guía completa paso a paso](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Aprenda a extraer texto OCR en C# con una guía paso a paso que cubre todo el proceso de forma clara y sencilla.
+### [Reconocer texto PNG con Aspose OCR .NET – Guía completa de OCR local](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Aprenda a reconocer texto en archivos PNG usando Aspose OCR para .NET con esta guía completa de OCR local.
+
+
+
+
+
+
+
+### [Tutorial c# OCR: Extraer texto de una imagen con Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
+Aprenda a extraer texto de imágenes usando Aspose OCR en C# con este tutorial paso a paso.
+### [Tutorial c# OCR: Extraer texto de imágenes y exportar a JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
+Aprenda a extraer texto de imágenes y exportarlo en formato JSON usando Aspose OCR en C# con este tutorial paso a paso.
+### [Cómo hacer OCR de una imagen en C# – Convertir JPG a ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+Aprenda a extraer texto de una imagen JPG y guardarlo como ePub usando Aspose OCR en C#.
+### [Reconocer texto ruso con Aspose OCR C# – Guía completa de PDF multipágina](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
+Aprenda a reconocer texto ruso en PDFs multipágina usando Aspose OCR con C# en esta guía paso a paso.
+### [Reconocer texto chino sin conexión – Tutorial completo de OCR en C#](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
+Aprenda a reconocer texto chino sin conexión usando Aspose.OCR en C#, con un tutorial paso a paso y ejemplos completos.
+### [Extraer texto de imagen y convertir a JSONL – Guía C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
+Aprenda a extraer texto de imágenes y convertirlo a formato JSONL usando Aspose.OCR en C#.
+### [Cómo usar OCR en C# – Extraer texto de archivos de imagen](./how-to-use-ocr-in-c-extract-text-from-image-files/)
+Aprenda a utilizar Aspose.OCR en C# para extraer texto de archivos de imagen de forma sencilla y eficiente.
+
+### [Cómo usar OCR en C# – Extraer texto de una imagen de forma asíncrona](./how-to-use-ocr-in-c-extract-text-from-image-asynchronously/)
+Aprenda a extraer texto de imágenes de forma asíncrona usando Aspose.OCR en C#, mejorando el rendimiento de sus aplicaciones.
+
+### [OCR de PDF multipágina – Convertir a HTML con C# Aspose OCR](./ocr-multi-page-pdf-convert-to-html-with-c-aspose-ocr/)
+Aprenda a convertir PDFs multipágina a HTML usando Aspose OCR en C#, manteniendo el formato y el texto reconocido.
+
+### [Cómo hacer OCR en árabe – Guía completa en C# para extraer texto árabe](./how-to-ocr-arabic-in-c-complete-programming-guide/)
+Aprenda a extraer texto árabe en imágenes usando Aspose.OCR en C#, siguiendo una guía paso a paso para lograr reconocimiento preciso.
+
+### [Cómo extraer texto de una imagen en C# – Guía completa paso a paso](./extract-text-from-image-in-c-complete-step-by-step-guide/)
+Aprenda a extraer texto de una imagen en C# con Aspose.OCR siguiendo una guía paso a paso completa.
+### [Crear PDF buscable a partir de imágenes escaneadas con Aspose OCR](./create-searchable-pdf-from-scanned-images-with-aspose-ocr/)
+Aprenda a generar PDFs buscables a partir de imágenes escaneadas usando Aspose OCR en .NET.
+### [Convertir imagen a JSON con Aspose OCR – guía paso a paso](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
+Aprenda a convertir imágenes a JSON usando Aspose OCR con esta guía paso a paso.
+### [Crear PDF buscable en C# – Imagen a PDF OCR](./create-searchable-pdf-in-c-image-to-pdf-ocr/)
+Cree PDFs buscables en C# a partir de imágenes usando Aspose.OCR, con una guía paso a paso para integrar OCR en sus documentos.
+
+### [Crear PDF buscable en C# – Combinar imágenes verticalmente](./create-searchable-pdf-in-c-combine-images-vertically/)
+Cree PDFs buscables en C# combinando imágenes verticalmente con Aspose.OCR, siguiendo una guía paso a paso.
+
+### [Extraer texto de una imagen en C# – Guía completa de OCR sin conexión](./extract-text-from-image-in-c-offline-ocr-step-by-step-guide/)
 Aprenda a extraer texto de imágenes en C# usando OCR sin conexión con esta guía paso a paso.
 
 ### [Convertir Djvu a texto en C# con Aspose OCR – Tutorial completo](./convert-djvu-to-text-in-c-with-aspose-ocr-complete-tutorial/)
@@ -382,6 +463,9 @@ Aprenda a reconocer texto a partir de imágenes en C# con Aspose OCR mediante un
 Aprenda a extraer texto de archivos PNG usando C# con Aspose OCR mediante una guía paso a paso.
 ### [Cómo usar OCR en C# – Extraer texto de imágenes sin conexión](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 Aprenda a usar OCR en C# para extraer texto de imágenes sin conexión, siguiendo una guía paso a paso.
+
+### [Cómo realizar OCR en imagen en C# usando Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+Aprenda a ejecutar OCR en una imagen con C# usando Aspose.OCR paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,9 @@ Aspose.OCR for .NET ile OCR görüntü tanımada tabloları tanımanın karmaş�
 
 .NET uygulamalarınızda devrim yaratmaya hazır mısınız? Metin Tanıma Eğitimlerimize dalın ve görüntülerde doğru ve etkili metin tanıma için Aspose.OCR'ın gücünden yararlanın. Hemen indirin ve gelişmiş OCR yetenekleri yolculuğuna çıkın.
 ## Metin Tanıma Eğitimleri
+### [How to perform OCR on image in C# using Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+
+
 ### [OCR Görüntü Tanıma'da Tanınan Karakterler İçin Seçenekler Alın](./get-choices-for-recognized-characters/)
 Doğru karakter tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Görüntü tanımada tanınan karakterlere ilişkin seçeneklere ulaşmak için adım adım kılavuzumuzu izleyin.
 ### [OCR Görüntü Tanıma'da Tanıma Sonucunu Alın](./get-recognition-result/)
