@@ -371,6 +371,9 @@ Aspose.OCR を使用して .NET アプリケーションで PNG 画像からテ�
 ### [C# で OCR を使用する方法 – オフラインで画像からテキストを抽出](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 Aspose.OCR を使用して、C# アプリケーションでインターネット接続なしに画像からテキストを抽出する手順をステップバイステップで解説します。
 
+### [C# で Aspose OCR を使用して画像の OCR を実行する方法](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+Aspose.OCR を使用して C# で画像の OCR を実行する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
