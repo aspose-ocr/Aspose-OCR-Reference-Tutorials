@@ -109,6 +109,8 @@ weight: 21
 ### [Convert Image to Text with Aspose OCR Java – Step‑by‑Step Guide](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 ### [إنشاء PDF قابل للبحث باستخدام Java – دليل خطوة بخطوة](./create-searchable-pdf-with-java-step-by-step-guide/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [تحميل صورة للتعرف الضوئي على الأحرف في Java – دليل خطوة بخطوة](./load-image-for-ocr-in-java-step-by-step-guide/)
+### [إنشاء PDF قابل للبحث – دليل OCR للـ Java](./create-searchable-pdf-java-ocr-guide/)
 
 ## الأسئلة المتكررة
 

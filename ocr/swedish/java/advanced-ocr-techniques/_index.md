@@ -38,8 +38,10 @@ Upptäck kraften i Aspose.OCR för Java i vår guide om hur du utför OCR på sp
 Förbered rektanglar effektivt för OCR med Aspose.OCR för Java med hjälp av vår omfattande guide. Förbättra dina Java-applikationer genom att låsa upp den fulla potentialen för textigenkänning. Följ steg-för-steg-instruktionerna för sömlös integration och förbättrade OCR-funktioner.
 
 ## [Identifiera linjer i Aspose.OCR för Java](./recognize-lines/)
+Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Enkel integration, hög noggrannhet.
 
-Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Denna handledning guidar dig genom enkel integrering och hög noggrannhet i att känna igen linjer. Lyft dina projekt med effektiviteten och tillförlitligheten hos Aspose.OCR.
+### [Känn igen handskriven text – Komplett guide för att förbättra OCR‑noggrannheten](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Lär dig hur du identifierar handskriven text och ökar OCR‑precisionen med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide.
 
 ## [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 
@@ -133,6 +135,10 @@ Utnyttja parallell bearbetning för OCR i Java med Aspose för snabbare och effe
 Utnyttja GPU för att påskynda OCR i Java med Aspose. Extrahera text från bilder snabbt och exakt.
 ### [Automatisk språkdetektering i Java OCR – Steg‑för‑steg‑guide](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Lär dig hur du automatiskt identifierar språk i OCR med Aspose för Java. Följ vår steg‑för‑steg‑guide för exakt textigenkänning.
+### [Kör OCR på bild med Java – GPU-drivet textutdrag](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Utnyttja GPU-acceleration för snabb och exakt OCR på bilder i Java med Aspose.OCR.
+### [Hur du kör OCR på högupplösta bilder – Komplett Java-guide](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Utnyttja Aspose.OCR för Java för att exakt extrahera text från högupplösta bilder med optimal prestanda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

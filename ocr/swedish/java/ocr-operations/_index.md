@@ -116,6 +116,10 @@ En fullständig guide som visar hur du utför OCR i Java med Aspose OCR, från i
 ### [Konvertera bild till text med Aspose OCR Java – Steg‑för‑steg‑guide](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 ### [Skapa sökbar PDF med Java – Steg‑för‑steg‑guide](./create-searchable-pdf-with-java-step-by-step-guide/)
 En komplett steg‑för‑steg‑guide för att skapa sökbara PDF‑filer med Aspose.OCR för Java.
+### [Ladda bild för OCR i Java – Steg‑för‑steg‑guide](./load-image-for-ocr-in-java-step-by-step-guide/)
+En detaljerad guide som visar hur du laddar en bild och utför OCR med Aspose.OCR i Java.
+### [Skapa sökbar PDF – Java OCR‑guide](./create-searchable-pdf-java-ocr-guide/)
+En steg‑för‑steg‑guide för att skapa sökbara PDF‑filer med Aspose.OCR i Java.
 
 ## Vanliga frågor
 

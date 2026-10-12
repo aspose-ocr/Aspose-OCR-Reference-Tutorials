@@ -144,6 +144,12 @@ Gunakan Fixed Thread Pool di Java untuk melakukan OCR secara paralel pada gambar
 Pelajari cara meningkatkan kontras gambar dan menyiapkan gambar untuk OCR dengan panduan Java lengkap ini.
 ### [Buat Mesin OCR Java – Mengenali Teks dari Gambar Besar](./create-ocr-engine-java-recognize-text-from-large-images/)
 Gunakan Aspose.OCR untuk membuat mesin OCR Java yang dapat mengenali teks pada gambar berukuran besar dengan efisiensi tinggi.
+### [Jalankan OCR pada Gambar dengan Java – Ekstraksi Teks Berbasis GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Ekstrak teks dari gambar menggunakan GPU dengan Aspose.OCR untuk Java, meningkatkan kecepatan dan akurasi proses OCR.
+### [Cara Menjalankan OCR pada Gambar Resolusi Tinggi – Panduan Lengkap Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Ekstrak teks dari gambar resolusi tinggi dengan cepat menggunakan Aspose.OCR untuk Java. Panduan lengkap untuk hasil akurat.
+### [Mengenali Teks Tangan – Panduan Lengkap untuk Meningkatkan Akurasi OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Pelajari cara mengenali teks tulisan tangan dengan akurasi tinggi menggunakan Aspose.OCR untuk Java. Tingkatkan hasil OCR Anda secara signifikan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -130,6 +130,19 @@ Wykorzystaj przetwarzanie równoległe, aby przyspieszyć OCR w Javie przy użyc
 Skorzystaj z przyspieszenia GPU, aby przyspieszyć OCR w Javie i efektywnie wyodrębniać tekst z obrazów.
 ### [Automatyczne wykrywanie języka w OCR w Javie – przewodnik krok po kroku](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Poznaj, jak automatycznie wykrywać język tekstu podczas OCR w Javie, zwiększając dokładność i wydajność przetwarzania.
+Wykonuj OCR na BufferedImage bez wysiłku dzięki Aspose.OCR dla Java. Płynnie wyodrębniaj tekst z obrazów. Pobierz teraz, aby uzyskać wszechstronne możliwości rozpoznawania tekstu.
+Odblokuj płynną ekstrakcję tekstu obrazu w Javie za pomocą Aspose.OCR. Wysoka dokładność OCR z łatwą integracją.
+Odblokuj moc Aspose.OCR dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego wykonywania OCR na określonych stronach. Wyodrębnij tekst z obrazów bez wysiłku i ulepsz swoje projekty Java.
+Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Ulepsz swoje aplikacje Java dzięki wydajnym funkcjom OCR.
+Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
+Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+### [Wykonywanie OCR na obrazie w Javie – Wydobywanie tekstu przy użyciu GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Wykonuj OCR na obrazach w Javie, wykorzystując moc GPU do szybkiego i dokładnego wyodrębniania tekstu.
+### [Jak uruchomić OCR na obrazach wysokiej rozdzielczości – Kompletny przewodnik Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Wykonuj OCR na obrazach wysokiej rozdzielczości w Javie, zapewniając szybkie i dokładne wyodrębnianie tekstu.
+### [Rozpoznawanie tekstu odręcznego – Kompletny przewodnik zwiększający dokładność OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Poznaj techniki rozpoznawania tekstu odręcznego w Aspose.OCR dla Java, aby znacznie zwiększyć dokładność OCR w swoich aplikacjach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

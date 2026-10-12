@@ -115,6 +115,9 @@ weight: 21
 ### [使用 Java 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-java-step-by-step-guide/)
 ### [使用 Aspose OCR Java 将图像转换为文本 – 步骤指南](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 详细的分步教程，演示如何使用 Aspose OCR for Java 将图像文件转换为可编辑的文本。
+### [在 Java 中加载图像进行 OCR – 步骤指南](./load-image-for-ocr-in-java-step-by-step-guide/)
+详细演示如何在 Java 项目中加载图像并使用 Aspose.OCR 进行文字识别的完整步骤。
+### [创建可搜索 PDF – Java OCR 指南](./create-searchable-pdf-java-ocr-guide/)
 
 ## 常见问题
 

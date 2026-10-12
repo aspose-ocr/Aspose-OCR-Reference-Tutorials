@@ -119,6 +119,8 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 示範如何使用 Aspose.OCR for Java 讀取 PNG 圖片並將其內容轉換為純文字，包含授權設定與程式範例。
 
 ### [使用 Aspose OCR 從影像提取文字 – Java 快速指南](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+### [在 Java 中提取圖像文字 – Java OCR 教學](./extract-text-from-image-in-java-java-ocr-tutorial/)
+學習如何使用 Aspose.OCR for Java 從圖像中提取文字，涵蓋設定、前處理與結果輸出。
 
 ---
 

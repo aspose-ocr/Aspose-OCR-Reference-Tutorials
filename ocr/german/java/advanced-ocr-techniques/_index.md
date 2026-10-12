@@ -141,6 +141,11 @@ Erfahren Sie, wie Sie Bilder vor dem OCR mit Java begradigen, um die Erkennungsg
 Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren – ein umfassender Leitfaden.
 ### [Sprache im Bild erkennen mit Aspose OCR – Java‑Tutorial](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Erfahren Sie, wie Sie mit Aspose OCR die Sprache in Bildern erkennen und Java‑Anwendungen erweitern.
+### [OCR für Bild mit Java ausführen – GPU-gestützte Textextraktion](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Nutzen Sie GPU-Beschleunigung, um mit Aspose.OCR für Java Text aus Bildern schnell und präzise zu extrahieren.
+### [Durchführen von OCR auf hochauflösenden Bildern – Vollständiger Java-Leitfaden](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Nutzen Sie Aspose.OCR für Java, um OCR auf hochauflösenden Bildern schnell und präzise durchzuführen.
+### [Handschriftlichen Text erkennen – Vollständiger Leitfaden zur Steigerung der OCR-Genauigkeit](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

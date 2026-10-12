@@ -117,6 +117,10 @@ Apprenez à réaliser l'OCR en Java avec Aspose OCR grâce à ce guide complet �
 Apprenez à convertir des images en texte avec Aspose OCR Java grâce à ce guide complet étape par étape.
 ### [Créer un PDF consultable avec Java – Guide étape par étape](./create-searchable-pdf-with-java-step-by-step-guide/)
 Apprenez à créer un PDF consultable en Java grâce à ce guide complet étape par étape.
+### [Charger une image pour l'OCR en Java – Guide étape par étape](./load-image-for-ocr-in-java-step-by-step-guide/)
+Apprenez à charger des images dans Aspose.OCR pour Java avant de lancer la reconnaissance optique de caractères.
+### [Créer un PDF consultable – Guide OCR Java](./create-searchable-pdf-java-ocr-guide/)
+Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à ce guide complet.
 
 ## Foire aux questions
 

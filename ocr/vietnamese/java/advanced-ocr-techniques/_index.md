@@ -140,6 +140,12 @@ Hướng dẫn chi tiết từng bước để trích xuất văn bản từ hì
 Hướng dẫn chi tiết cách cân chỉnh hình ảnh trước khi OCR bằng Java, nâng cao độ chính xác và hiệu suất.
 ### [Phát hiện ngôn ngữ trong hình ảnh bằng Aspose OCR – Hướng dẫn Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Khám phá cách sử dụng Aspose OCR trong Java để tự động phát hiện ngôn ngữ của hình ảnh và trích xuất văn bản một cách chính xác.
+### [Thực hiện OCR trên hình ảnh với Java – Trích xuất văn bản bằng GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Tận dụng sức mạnh GPU để trích xuất văn bản nhanh chóng từ hình ảnh trong Java bằng Aspose.OCR.
+### [Cách chạy OCR trên hình ảnh độ phân giải cao – Hướng dẫn Java đầy đủ](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Tận dụng Aspose.OCR cho Java để xử lý OCR trên hình ảnh độ phân giải cao một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản viết tay – Hướng dẫn toàn diện để nâng cao độ chính xác OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Nhận dạng văn bản viết tay một cách chính xác, nâng cao hiệu suất OCR cho dự án Java của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

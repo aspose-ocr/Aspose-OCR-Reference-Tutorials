@@ -127,6 +127,12 @@ url: /el/java/advanced-ocr-techniques/
 Εκτελέστε ταυτόχρονη OCR σε πολλές εικόνες με Java, βελτιώνοντας την απόδοση και την ακρίβεια. Ακολουθήστε τον οδηγό μας.
 ### [Εξαγωγή κειμένου από εικόνα Java – Πλήρης οδηγός OCR με διόρθωση ορθογραφίας](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Ανακαλύψτε πώς να εξάγετε κείμενο από εικόνες σε Java με πλήρη οδηγό OCR και ενσωματωμένη διόρθωση ορθογραφίας για ακριβή αποτελέσματα.
+### [Εκτέλεση OCR σε εικόνα με Java – Εξαγωγή κειμένου με GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Αξιοποιήστε την ισχύ του GPU για γρήγορη και ακριβή εξαγωγή κειμένου από εικόνες με το Aspose.OCR για Java.
+### [Πώς να εκτελέσετε OCR σε εικόνες υψηλής ανάλυσης – Πλήρης οδηγός Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Αξιοποιήστε το Aspose.OCR για Java για γρήγορη και ακριβή εξαγωγή κειμένου από εικόνες υψηλής ανάλυσης.
+### [Αναγνώριση χειρόγραφου κειμένου – Πλήρης Οδηγός για Βελτίωση της Ακρίβειας OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Αναγνωρίστε χειρόγραφο κείμενο με υψηλή ακρίβεια, ακολουθώντας τον πλήρη οδηγό μας για βελτιωμένη απόδοση OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

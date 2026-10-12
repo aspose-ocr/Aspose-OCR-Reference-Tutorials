@@ -117,6 +117,10 @@ weight: 21
 แปลงรูปภาพเป็นข้อความด้วย Aspose OCR for Java อย่างละเอียดตามขั้นตอน  
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-with-java-step-by-step-guide/)
 เรียนรู้วิธีแปลง PDF สแกนให้เป็น PDF ที่ค้นหาได้โดยใช้ Aspose.OCR for Java อย่างละเอียด
+### [โหลดภาพสำหรับ OCR ใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./load-image-for-ocr-in-java-step-by-step-guide/)
+เรียนรู้วิธีโหลดภาพและเตรียมสำหรับการทำ OCR ด้วย Aspose.OCR ใน Java อย่างละเอียด  
+### [สร้าง PDF ที่ค้นหาได้ – คู่มือ OCR สำหรับ Java](./create-searchable-pdf-java-ocr-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java อย่างง่ายและแม่นยำ  
 
 
 

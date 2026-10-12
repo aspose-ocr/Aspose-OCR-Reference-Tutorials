@@ -120,6 +120,8 @@ Hướng dẫn đầy đủ cách sử dụng Aspose.OCR để trích xuất vă
 
 ### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Hướng dẫn nhanh Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Hướng dẫn nhanh cách sử dụng Aspose OCR trong Java để trích xuất văn bản từ hình ảnh một cách hiệu quả.
+### [Trích xuất Văn bản từ Hình ảnh trong Java – Hướng dẫn OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Khám phá cách trích xuất văn bản từ hình ảnh trong Java bằng Aspose.OCR, hướng dẫn chi tiết từng bước để tích hợp OCR vào ứng dụng của bạn.
 
 ---
 

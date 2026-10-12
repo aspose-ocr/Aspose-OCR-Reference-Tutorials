@@ -135,6 +135,12 @@ Zrychlete OCR v Javě pomocí paralelního zpracování s Aspose a dosáhněte v
 Zrychlete OCR v Javě využitím GPU a extrahujte text z obrázků s vysokou rychlostí a přesností.
 ### [Automatické rozpoznávání jazyka v Java OCR – krok za krokem](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Zrychlete OCR v Javě pomocí automatického rozpoznávání jazyka. Podrobný průvodce krok za krokem pro přesnou extrakci textu.
+### [Spuštění OCR na obrázku v Javě – GPU poháněná extrakce textu](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Využijte GPU pro rychlé a přesné OCR v Javě, extrahujte text z obrázků s vysokou rychlostí.
+### [Jak spustit OCR na vysokém rozlišení obrázků – Kompletní průvodce pro Javu](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Využijte výkonný OCR na vysokém rozlišení obrázků v Javě s podrobným průvodcem a optimalizovaným výkonem.
+### [Rozpoznávání rukopisu – Kompletní průvodce pro zvýšení přesnosti OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Zvyšte přesnost OCR rozpoznáváním rukopisu pomocí podrobného průvodce a optimalizovaných technik.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

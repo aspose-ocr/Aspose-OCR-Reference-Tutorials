@@ -115,6 +115,9 @@ Aspose OCR を使用して Java で OCR を実装する完全なチュートリ�
 Aspose OCR を使用して画像からテキストへ変換する手順を詳しく解説します。
 ### [Java で検索可能な PDF を作成 – ステップバイステップガイド](./create-searchable-pdf-with-java-step-by-step-guide/)
 Java を使用して検索可能な PDF を作成する手順を詳しく解説します。ステップバイステップで実装方法を学びましょう。
+### [Create Searchable PDF – Java OCR Guide](./create-searchable-pdf-java-ocr-guide/)
+Aspose.OCR for Java を使用して検索可能な PDF を作成する手順をステップバイステップで解説します。
+### [Java で OCR 用画像を読み込む – ステップバイステップガイド](./load-image-for-ocr-in-java-step-by-step-guide/)
 
 ## よくある質問
 

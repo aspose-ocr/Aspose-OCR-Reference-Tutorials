@@ -136,6 +136,12 @@ Java용 Aspose.OCR에서 GPU 가속을 활용해 이미지 텍스트 추출 속�
 ### [Java OCR에서 자동 언어 감지 – 단계별 가이드](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Java용 Aspose.OCR을 사용하여 이미지의 언어를 자동으로 감지하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
 
+### [Java로 이미지에서 OCR 실행 – GPU 기반 텍스트 추출](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+GPU 가속을 활용해 Java에서 이미지 OCR을 빠르고 정확하게 수행합니다.
+### [고해상도 이미지에서 OCR 실행 – 완전 Java 가이드](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Java용 Aspose.OCR을 사용해 고해상도 이미지에서 빠르고 정확하게 OCR을 수행하는 방법을 단계별로 안내합니다.
+### [손글씨 인식 – OCR 정확도 향상을 위한 완전 가이드](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Java용 Aspose.OCR을 활용해 손글씨 텍스트를 정확하게 인식하고 OCR 성능을 극대화하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

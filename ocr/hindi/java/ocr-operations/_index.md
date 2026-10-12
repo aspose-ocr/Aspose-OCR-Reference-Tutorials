@@ -119,6 +119,10 @@ Java में OCR को लागू करने के लिए चरण�
 Aspose OCR for Java का उपयोग करके इमेज को HTML फॉर्मेट में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [Java में OCR कैसे करें – पूर्ण Aspose OCR ट्यूटोरियल](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
 Java में Aspose OCR का उपयोग करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
+### [Java में OCR के लिए इमेज लोड करें – चरण‑दर‑चरण गाइड](./load-image-for-ocr-in-java-step-by-step-guide/)
+Java में इमेज को लोड करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
+### [सर्चेबल PDF बनाएं – Java OCR गाइड](./create-searchable-pdf-java-ocr-guide/)
+Java में Aspose.OCR का उपयोग करके सर्चेबल PDF बनाने की प्रक्रिया सीखें। तेज़ और सटीक OCR लागू करें।
 
 ## अक्सर पूछे जाने वाले सवाल
 

@@ -43,6 +43,15 @@ Aspose.OCR を使用して Java アプリケーションを強化し、正確な
 
 ## [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
 
+### [Java で画像に対して OCR を実行 – GPU 搭載テキスト抽出](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Aspose.OCR for Java の GPU 対応機能を活用し、画像から高速かつ高精度にテキストを抽出する方法をステップバイステップで解説します。
+
+### [高解像度画像で OCR を実行する方法 – 完全な Java ガイド](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Aspose.OCR for Java の高解像度画像対応機能を活用し、迅速かつ正確にテキストを抽出する手順を詳しく解説します。
+
+### [手書き文字の認識 – OCR 精度向上の完全ガイド](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Aspose.OCR for Java を使用して手書き文字を高精度で認識し、OCR の精度を大幅に向上させる方法をステップバイステップで解説します。
+
 ## [Java OCR で GPU を有効化する方法 – 画像からテキストを認識](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
 
 ## [Java で OCR を使用する方法 – PDF からテキストを抽出する (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)

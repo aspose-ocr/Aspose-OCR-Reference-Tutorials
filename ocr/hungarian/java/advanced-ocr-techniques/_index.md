@@ -71,7 +71,6 @@ Fedezze fel a szövegfelismerés erejét az Aspose.OCR for Java segítségével.
 ### [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 Engedélyezze Java-alkalmazásait az Aspose.OCR segítségével a pontos szövegfelismerés érdekében. Könnyű integráció, nagy pontosság.
 ### [Engedélyezett karakterek megadása az Aspose.OCR-ben](./specify-allowed-characters/)
-Az Aspose.OCR for Java segítségével zökkenőmentesen oldja fel a szövegkivonást a képekből. Kövesse lépésről‑lépésre útmutatónkat a hatékony integráció érdekében.
 ### [Hogyan használjon OCR-t Java-ban – Párhuzamos feldolgozás az Aspose-szal](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Fedezze fel, hogyan végezhet párhuzamos OCR feldolgozást Java-ban az Aspose.OCR segítségével, a teljesítmény és pontosság növelése érdekében.
 
@@ -145,6 +144,11 @@ Olvassa ki a jármű VIN-kódját fényképről Java és Aspose.OCR segítségé
 Fedezze fel, hogyan végezhet párhuzamos OCR-t Java-val a képek szövegének gyors kinyeréséhez.
 ### [Szöveg kinyerése képből Java – Teljes OCR útmutató helyesírási javítással](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
 Fedezze fel, hogyan végezhet teljes körű OCR-t Java-val, beleértve a helyesírási javítást a képek szövegének pontos kinyeréséhez.
+### [OCR végrehajtása képen Java-val – GPU-alapú szövegkinyerés](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Használja a GPU-t a gyors és pontos szövegkinyeréshez Java-val az Aspose.OCR segítségével.
+### [OCR futtatása nagy felbontású képeken – Teljes Java útmutató](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Fedezze fel, hogyan használhatja az Aspose.OCR for Java-t nagy felbontású képek pontos és gyors szövegkinyeréséhez.
+### [Kézírás felismerése – Teljes útmutató az OCR pontosságának növeléséhez](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

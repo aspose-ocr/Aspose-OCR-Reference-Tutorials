@@ -132,6 +132,12 @@ Scopri come eseguire l'OCR in Java sfruttando l'elaborazione parallela con Aspos
 Scopri come attivare l'accelerazione GPU in Aspose.OCR per Java per migliorare le prestazioni di estrazione del testo dalle immagini.
 ### [Rilevamento automatico della lingua in OCR Java – Guida passo‑passo](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Scopri come rilevare automaticamente la lingua durante l'OCR in Java con Aspose, migliorando l'accuratezza del riconoscimento del testo.
+### [Esecuzione dell'OCR su immagine con Java – Estrazione del testo con GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Sfrutta la potenza della GPU per estrarre testo da immagini con Java usando Aspose.OCR. Alta precisione e velocità.
+### [Come eseguire l'OCR su immagini ad alta risoluzione – Guida completa Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Scopri come utilizzare Aspose.OCR per Java per eseguire l'OCR su immagini ad alta risoluzione con precisione e velocità.
+### [Riconoscere il testo scritto a mano – Guida completa per migliorare la precisione OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+Scopri come riconoscere il testo scritto a mano con Aspose.OCR per Java, migliorando l'accuratezza dell'OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

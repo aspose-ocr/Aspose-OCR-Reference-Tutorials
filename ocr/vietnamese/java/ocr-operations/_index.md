@@ -117,6 +117,10 @@ Hướng dẫn chi tiết cách thực hiện OCR trong Java bằng Aspose OCR, 
 Hướng dẫn chi tiết cách sử dụng Aspose OCR Java để chuyển đổi hình ảnh sang văn bản, bao gồm cấu hình và xuất kết quả chính xác.
 ### [Tạo PDF có thể tìm kiếm với Java – Hướng dẫn từng bước](./create-searchable-pdf-with-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong Java bằng Aspose.OCR, bao gồm cấu hình OCR và lưu tài liệu với lớp văn bản.
+### [Tải ảnh để OCR trong Java – Hướng dẫn từng bước](./load-image-for-ocr-in-java-step-by-step-guide/)
+Khám phá cách tải ảnh và chuẩn bị cho OCR trong Java một cách chi tiết, từ cấu hình đến thực thi.
+### [Tạo PDF có thể tìm kiếm – Hướng dẫn OCR Java](./create-searchable-pdf-java-ocr-guide/)
+Khám phá cách tạo PDF có thể tìm kiếm bằng OCR trong Java, từ cấu hình đến lưu tài liệu với lớp văn bản có thể tìm kiếm.
 
 ## Câu hỏi Thường gặp
 

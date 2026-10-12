@@ -118,6 +118,10 @@ Desbloquea la realización completa de OCR en Java con Aspose OCR. Sigue este tu
 Desbloquea la creación de PDFs buscables con Java usando Aspose.OCR. Sigue esta guía paso a paso.
 ### [Convertir imagen a texto con Aspose OCR Java – Guía paso a paso](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 Desbloquea la conversión de imágenes a texto con Aspose OCR para Java. Sigue esta guía paso a paso.
+### [Cargar imagen para OCR en Java – Guía paso a paso](./load-image-for-ocr-in-java-step-by-step-guide/)
+Aprende a cargar imágenes y prepararlas para OCR en Java con Aspose.OCR paso a paso.
+### [Crear PDF buscable – Guía OCR Java](./create-searchable-pdf-java-ocr-guide/)
+Desbloquea la creación de PDFs buscables con Aspose.OCR en Java. Sigue esta guía paso a paso.
 
 ## Preguntas frecuentes
 
