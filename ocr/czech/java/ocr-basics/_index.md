@@ -120,6 +120,9 @@ Kompletní ukázka, jak v Javě pomocí Aspose.OCR extrahovat text z obrázku a 
 ### [Extrahovat text z obrázku pomocí Aspose OCR – rychlý průvodce pro Javu](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Rychlý návod, jak pomocí Aspose OCR v Javě extrahovat text z obrázku.
 
+### [Jak provést OCR na PNG obrázku v Javě](./how-to-perform-ocr-on-a-png-image-in-java/)
+Naučte se provést OCR na PNG obrázku v Javě pomocí Aspose.OCR.
+
 ---
 
 **Last Updated:** 2025-12-08  
