@@ -23,7 +23,7 @@ title: วิธีทำ OCR แบบแบตช์ใน C# – คู่ม
 url: /th/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

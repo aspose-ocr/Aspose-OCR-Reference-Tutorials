@@ -23,13 +23,7 @@ title: Känn igen arabisk text från PNG med Aspose OCR – C#‑guide
 url: /sv/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-/products-backtop-button >}}
-
-All good.
-
-Make sure we preserve all code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

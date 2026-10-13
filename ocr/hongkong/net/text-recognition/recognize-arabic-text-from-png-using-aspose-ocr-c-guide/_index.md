@@ -20,30 +20,6 @@ title: 使用 Aspose OCR 從 PNG 識別阿拉伯文字 – C# 指南
 url: /zh-hant/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-are list items.
-
-Also there are inline code like `Language.Arabic`.
-
-We must not translate those.
-
-Also there are URLs in blockquote tip about proxy: `nuget.config`. That's fine.
-
-Also there are code block placeholders for code blocks: they are not actual code but placeholders. Keep them.
-
-Also there are images? Not present.
-
-Now produce final content.
-
-Let's go step by step.
-
-I'll produce translation.
-
-Be careful with bullet points: keep dash and indentation.
-
-Also ensure headings levels remain.
-
-Now produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

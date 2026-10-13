@@ -21,9 +21,7 @@ title: Aspose OCR を使用して PNG からアラビア語テキストを認識
 url: /ja/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-for any markdown links: none present. Ensure we didn't translate any code placeholders. Good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

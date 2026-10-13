@@ -23,19 +23,7 @@ title: 创建可搜索的 PDF – 将图像转换为 EPUB 并添加文本
 url: /zh/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-.
-
-Continue.
-
-Make sure to keep bold formatting.
-
-Proceed through all sections.
-
-Tables: translate column headers and content.
-
-Code block placeholders remain.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

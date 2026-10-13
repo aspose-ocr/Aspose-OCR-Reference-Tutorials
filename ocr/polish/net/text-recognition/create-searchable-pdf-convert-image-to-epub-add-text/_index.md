@@ -25,19 +25,7 @@ title: Utwórz przeszukiwalny PDF – konwertuj obraz na EPUB i dodaj tekst
 url: /pl/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-and content but keep .NET etc.
-
-Then code block placeholder.
-
-Then note.
-
-Proceed.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep shortcodes at end.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

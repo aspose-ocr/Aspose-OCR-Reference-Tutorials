@@ -24,18 +24,6 @@ title: 'Samouczek OCR na żywo: wykrywanie tekstu w wideo w C#'
 url: /pl/net/text-recognition/live-ocr-tutorial-detect-text-in-video-with-c/
 ---
 
-table format.
-
-Translate "Question" to "Pytanie", "Answer" to "Odpowiedź". Then translate each question and answer.
-
-Also translate bullet list items.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the "TL;DR" heading.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -26,8 +26,6 @@ title: Δημιουργία Αναζητήσιμου PDF – Μετατροπή 
 url: /el/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

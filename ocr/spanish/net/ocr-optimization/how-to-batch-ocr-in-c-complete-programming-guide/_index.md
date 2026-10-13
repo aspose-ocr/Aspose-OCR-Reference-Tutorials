@@ -24,15 +24,7 @@ title: Cómo procesar OCR por lotes en C# – Guía completa de programación
 url: /es/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-unchanged.
-
-Now produce final content with translations.
-
-Check for any URLs: none.
-
-Make sure to keep markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

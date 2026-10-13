@@ -23,9 +23,7 @@ title: Aspose OCR kullanarak PNG'den Arapça metni tanıma – C# Rehberi
 url: /tr/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-, not actual fences. Should be fine.
-
-Now produce final output with all translated content, preserving formatting.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

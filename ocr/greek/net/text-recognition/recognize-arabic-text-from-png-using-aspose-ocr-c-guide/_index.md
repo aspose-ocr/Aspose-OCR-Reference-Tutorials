@@ -24,12 +24,6 @@ title: Αναγνώριση αραβικού κειμένου από PNG χρη�
 url: /el/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-Processor", "Parallel.ForEach", "OcrEnginePool", etc.
-
-Also keep code block placeholders unchanged.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

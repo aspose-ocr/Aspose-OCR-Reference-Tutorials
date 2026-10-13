@@ -25,11 +25,7 @@ title: Crea PDF Ricercabile – Converti Immagine in EPUB e Aggiungi Testo
 url: /it/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-top button.
-
-Make sure we keep blank lines as needed.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

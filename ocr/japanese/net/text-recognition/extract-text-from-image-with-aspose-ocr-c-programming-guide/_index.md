@@ -20,10 +20,6 @@ title: Aspose OCRで画像からテキストを抽出する – C#プログラ�
 url: /ja/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-programming-guide/
 ---
 
-Check for italic "*Why this matters:*" we kept same.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,17 +25,7 @@ title: Comment réaliser une OCR par lots en C# – Guide complet de programmati
 url: /fr/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-top-button >}}
-
-We must keep them unchanged.
-
-Now produce final content with all translations and placeholders.
-
-Check that we didn't miss any markdown elements.
-
-Make sure code block placeholders are on their own lines as original.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

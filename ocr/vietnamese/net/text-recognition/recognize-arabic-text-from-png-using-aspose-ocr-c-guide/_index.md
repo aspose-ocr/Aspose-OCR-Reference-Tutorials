@@ -24,14 +24,6 @@ title: Nhận dạng văn bản tiếng Ả Rập từ PNG bằng Aspose OCR –
 url: /vi/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-We must keep them unchanged.
-
-Now produce final output with translated content.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,13 +25,7 @@ title: Cách thực hiện OCR hàng loạt trong C# – Hướng dẫn lập tr
 url: /vi/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-for any images: none.
-
-Check for any other placeholders: none.
-
-Make sure to keep blockquote markers >.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

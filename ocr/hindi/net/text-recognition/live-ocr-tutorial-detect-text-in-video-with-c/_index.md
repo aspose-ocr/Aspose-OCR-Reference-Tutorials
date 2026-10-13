@@ -24,9 +24,7 @@ title: 'लाइव OCR ट्यूटोरियल: C# के साथ व
 url: /hi/net/text-recognition/live-ocr-tutorial-detect-text-in-video-with-c/
 ---
 
-Make sure to keep bold formatting (**text**) unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

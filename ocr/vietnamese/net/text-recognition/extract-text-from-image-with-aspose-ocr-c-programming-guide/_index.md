@@ -24,11 +24,7 @@ title: Trích xuất văn bản từ hình ảnh bằng Aspose OCR – Hướng 
 url: /vi/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-programming-guide/
 ---
 
-" block is a blockquote >. Keep same.
-
-Make sure to preserve markdown formatting, code block placeholders unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

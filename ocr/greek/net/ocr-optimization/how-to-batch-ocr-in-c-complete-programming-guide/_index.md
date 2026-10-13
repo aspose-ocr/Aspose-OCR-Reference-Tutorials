@@ -25,17 +25,7 @@ title: Πώς να κάνετε ομαδική OCR σε C# – Πλήρης Οδ
 url: /el/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-blocks/products/products-backtop-button >}}
-
-Make sure we keep them unchanged.
-
-Now produce final content with all translations.
-
-Check for any missed markdown: blockquote > lines, headings, lists.
-
-Make sure bold formatting preserved.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

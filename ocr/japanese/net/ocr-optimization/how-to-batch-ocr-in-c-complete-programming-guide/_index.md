@@ -21,16 +21,6 @@ title: C#でOCRをバッチ処理する方法 – 完全プログラミングガ
 url: /ja/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-.
-
-Also keep "Pro tip:", "Edge case:", etc.
-
-Translate "Expected Output", "Handling Common Gotchas", etc.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

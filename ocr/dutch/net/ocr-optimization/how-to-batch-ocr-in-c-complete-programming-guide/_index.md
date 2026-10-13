@@ -23,7 +23,7 @@ title: Hoe batch‑OCR in C# uit te voeren – Complete programmeergids
 url: /nl/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-Now produce final output with all translated content. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

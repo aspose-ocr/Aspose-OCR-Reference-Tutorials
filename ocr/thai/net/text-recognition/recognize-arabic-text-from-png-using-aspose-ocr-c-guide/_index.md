@@ -22,18 +22,6 @@ title: รู้จำข้อความอาหรับจาก PNG ด�
 url: /th/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-รณ์"
-
-Similarly other headings.
-
-List items: translate.
-
-Code block placeholders remain.
-
-Also blockquotes > need translation inside.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

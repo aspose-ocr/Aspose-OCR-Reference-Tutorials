@@ -25,9 +25,7 @@ title: 'Canlı OCR Eğitimi: C# ile Videoda Metin Algılama'
 url: /tr/net/text-recognition/live-ocr-tutorial-detect-text-in-video-with-c/
 ---
 
-same structure.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

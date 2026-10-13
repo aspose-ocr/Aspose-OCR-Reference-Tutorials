@@ -23,11 +23,7 @@ title: 'การสอน OCR สด: ตรวจจับข้อควา�
 url: /th/net/text-recognition/live-ocr-tutorial-detect-text-in-video-with-c/
 ---
 
-language** but original bullet had **set OCR language**. Good.
-
-Now produce final content with all translations and placeholders.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

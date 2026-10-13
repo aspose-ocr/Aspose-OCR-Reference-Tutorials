@@ -23,11 +23,7 @@ title: C#에서 배치 OCR 수행 방법 – 완전한 프로그래밍 가이드
 url: /ko/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-and "Edge case". Keep them as blockquote >.
-
-Make sure to keep code placeholders exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

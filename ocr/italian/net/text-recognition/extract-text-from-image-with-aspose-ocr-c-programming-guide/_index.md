@@ -24,9 +24,7 @@ title: Estrai testo da immagine con Aspose OCR – Guida alla programmazione C#
 url: /it/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-programming-guide/
 ---
 
-code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

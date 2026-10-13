@@ -24,17 +24,7 @@ title: Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Pemrograman C#
 url: /id/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-programming-guide/
 ---
 
-/products/products-backtop-button >}}
-
-All good.
-
-Now produce final content with translations.
-
-Check for any missed items: The "Pro tip" blockquote already translated. Ensure we keep blockquote formatting >.
-
-Also ensure we keep code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

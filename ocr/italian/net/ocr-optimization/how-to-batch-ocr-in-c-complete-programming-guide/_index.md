@@ -24,11 +24,7 @@ title: Come fare OCR in batch in C# – Guida completa alla programmazione
 url: /it/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
-top-button >}}
-
-Make sure not to translate those.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

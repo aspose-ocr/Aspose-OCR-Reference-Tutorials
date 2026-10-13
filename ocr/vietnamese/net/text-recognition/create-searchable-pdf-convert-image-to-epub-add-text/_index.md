@@ -25,7 +25,7 @@ title: Tạo PDF có thể tìm kiếm – Chuyển hình ảnh sang EPUB & Thê
 url: /vi/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,21 +22,7 @@ title: 製作可搜尋的 PDF – 將圖片轉換成 EPUB 並加入文字
 url: /zh-hant/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-PDF，並檢視 **檔案 → 屬性 → 說明**，會在 **字型** 分頁下看到隱藏的文字串流，證實可搜尋層已存在。"
-
-## Common Questions & Edge Cases
-
-"Common Questions & Edge Cases" -> "常見問題與特殊情況"
-
-**Q: Does this work with non‑English languages?** -> "**問：此方法能支援非英語語言嗎？**"
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes unchanged.
-
-Also ensure we keep code block placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

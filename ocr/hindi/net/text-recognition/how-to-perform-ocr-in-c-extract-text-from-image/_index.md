@@ -23,10 +23,6 @@ title: C# में OCR कैसे करें – छवि से टेक
 url: /hi/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 ---
 
-section.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

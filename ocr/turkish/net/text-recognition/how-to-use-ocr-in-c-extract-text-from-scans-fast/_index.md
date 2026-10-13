@@ -23,14 +23,6 @@ title: C#'ta OCR Nasıl Kullanılır – Taramalardan Metni Hızlıca Çıkar
 url: /tr/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-scans-fast/
 ---
 
-note the "Quick Checklist" bullet points.
-
-Also "Common Pitfalls & Pro Tips (c# OCR tutorial)" table.
-
-Also note the last row of table is cut off: "Use `Path.GetFullPath` to normalise, or prefix with `@"\\?\"` on Windows if paths exceed". The original ends abruptly. Keep as is.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

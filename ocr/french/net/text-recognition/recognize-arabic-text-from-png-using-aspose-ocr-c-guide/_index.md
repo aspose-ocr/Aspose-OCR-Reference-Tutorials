@@ -24,12 +24,6 @@ title: Reconnaître le texte arabe à partir d’un PNG avec Aspose OCR – Guid
 url: /fr/net/text-recognition/recognize-arabic-text-from-png-using-aspose-ocr-c-guide/
 ---
 
-Tip:", etc.
-
-We need to translate them.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

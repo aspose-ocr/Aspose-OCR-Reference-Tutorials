@@ -20,46 +20,6 @@ title: 如何在 C# 中使用 OCR – 快速從掃描檔提取文字
 url: /zh-hant/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-scans-fast/
 ---
 
-.
-
-Continue.
-
-Now the table "What You’ll Need". Translate header and cells.
-
-Now the "Overview of the Solution" heading.
-
-Then bullet list.
-
-Image alt and title.
-
-Step headings.
-
-Code block placeholders.
-
-Edge case note.
-
-Expected Output heading.
-
-Code block placeholder.
-
-Step 4 heading.
-
-Full Working Example heading.
-
-Quick Checklist heading.
-
-Checklist bullet points.
-
-Common Pitfalls & Pro Tips heading and table.
-
-Now ensure we keep markdown formatting.
-
-Let's craft translation.
-
-Note: Use Traditional Chinese characters, Hong Kong style (e.g., "程式" maybe). Keep technical terms in English.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

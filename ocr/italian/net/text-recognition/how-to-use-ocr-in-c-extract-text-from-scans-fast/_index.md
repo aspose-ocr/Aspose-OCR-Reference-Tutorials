@@ -23,20 +23,6 @@ title: Come usare l'OCR in C# – Estrai il testo dalle scansioni rapidamente
 url: /it/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-scans-fast/
 ---
 
-Should we translate? The instruction says translate all text content naturally to Italian, but keep technical terms in English. "how to use OCR" is phrase, but "OCR" is technical term, "how to use" could be translated. However it's inside bold, we can translate the phrase but keep OCR. So maybe **come usare OCR**. Let's do that.
-
-Proceed.
-
-We'll translate each paragraph.
-
-Make sure not to translate code block placeholders.
-
-Also tables: need translate column headers and content.
-
-Let's rewrite.
-
-I'll produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

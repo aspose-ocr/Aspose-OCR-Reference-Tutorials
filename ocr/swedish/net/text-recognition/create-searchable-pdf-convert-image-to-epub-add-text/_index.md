@@ -25,13 +25,7 @@ title: Skapa sökbar PDF – Konvertera bild till EPUB och lägg till text
 url: /sv/net/text-recognition/create-searchable-pdf-convert-image-to-epub-add-text/
 ---
 
-.
-
-Now ensure we didn't miss any text. At the top there is a line break after heading. Keep same.
-
-Make sure to preserve markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

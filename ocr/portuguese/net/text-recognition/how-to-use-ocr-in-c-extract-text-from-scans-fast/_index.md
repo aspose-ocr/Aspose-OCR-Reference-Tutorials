@@ -22,10 +22,6 @@ title: Como usar OCR em C# – Extraia texto de digitalizações rapidamente
 url: /pt/net/text-recognition/how-to-use-ocr-in-c-extract-text-from-scans-fast/
 ---
 
-sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

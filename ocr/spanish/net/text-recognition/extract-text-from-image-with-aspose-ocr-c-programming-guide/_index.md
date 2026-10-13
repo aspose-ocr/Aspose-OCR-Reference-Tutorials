@@ -24,21 +24,7 @@ title: Extraer texto de una imagen con Aspose OCR – Guía de programación en 
 url: /es/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-programming-guide/
 ---
 
-example")
-
-Then closing shortcodes.
-
-Now produce final content with translations.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep markdown formatting.
-
-Let's write Spanish translation.
-
-Be careful with bullet points and tables.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
