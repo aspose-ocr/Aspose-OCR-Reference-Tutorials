@@ -223,6 +223,26 @@ class Program
         // Optional: Median filter per granulosità elevata
         // preprocessingPipeline.Add(new MedianFilter { KernelSize = 3 });
 
+        // -------------------------------------------------
+        // Step 3: Configure and run the OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Image = imageStream,
+            PreProcessingFilters = preprocessingPipeline,
+            Language = Language.English
+        };
+
+        ocrEngine.Recognize();
+
+        // -------------------------------------------------
+        // Step 4: Print the extracted text
+        // -------------------------------------------------
+        Console.WriteLine(ocrEngine.Text);
+    }
+}
+```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

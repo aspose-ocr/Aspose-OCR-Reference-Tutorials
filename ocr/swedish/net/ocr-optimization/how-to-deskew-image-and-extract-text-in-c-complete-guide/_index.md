@@ -23,20 +23,6 @@ title: Hur man räta upp en bild och extrahera text i C# – Komplett guide
 url: /sv/net/ocr-optimization/how-to-deskew-image-and-extract-text-in-c-complete-guide/
 ---
 
-## Full Working Example".
-
-Also code block after that continues until the closing shortcodes.
-
-We must keep the code block content unchanged.
-
-Now translate.
-
-Let's write Swedish translation.
-
-Be careful with punctuation, keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -235,6 +221,26 @@ class Program
 
         // Valfritt: Medianfilter för tungt korn
         // preprocessingPipeline.Add(new MedianFilter { KernelSize = 3 });
+
+        // -------------------------------------------------
+        // Step 3: Configure and run the OCR engine
+        // -------------------------------------------------
+        OcrEngine ocrEngine = new OcrEngine
+        {
+            Image = imageStream,
+            PreProcessingFilters = preprocessingPipeline,
+            Language = Language.English
+        };
+
+        ocrEngine.Recognize();
+
+        // -------------------------------------------------
+        // Step 4: Print the extracted text
+        // -------------------------------------------------
+        Console.WriteLine(ocrEngine.Text);
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
