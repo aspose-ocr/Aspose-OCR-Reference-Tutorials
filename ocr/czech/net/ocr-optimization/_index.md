@@ -213,6 +213,7 @@ Naučte se, jak pomocí Aspose.OCR v C# odstranit sklon obrázku a provést OCR 
 Ukázkový kód, který zapíná kontrolu pravopisu v Aspose.OCR a automaticky opravuje rozpoznané chyby v C#.
 ### [Jak provést OCR na čínských obrázcích – Kompletní průvodce v C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Naučte se rozpoznávat čínské znaky z obrázků pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
+### [Jak provést dávkové OCR v C# – Kompletní programovací průvodce](./how-to-batch-ocr-in-c-complete-programming-guide/)
 
 ## Často kladené otázky
 

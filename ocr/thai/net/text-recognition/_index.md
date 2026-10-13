@@ -329,6 +329,15 @@ url: /th/net/text-recognition/
 ### [วิธีสร้าง ePub จากรูปภาพใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-epub-from-images-in-c-step-by-step-guide/)
 ### [วิธีใช้ OCR ใน C# – ดึงข้อความจากรูปภาพแบบออฟไลน์](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากรูปภาพโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต ด้วยขั้นตอนง่าย ๆ
+### [จดจำข้อความอาหรับจาก PNG ด้วย Aspose OCR – คู่มือ C#](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+เรียนรู้วิธีจดจำข้อความอาหรับจากไฟล์ PNG ด้วย Aspose OCR ใน C# อย่างละเอียดและง่ายดาย
+### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือการเขียนโปรแกรม C#](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากสแกนอย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากไฟล์สแกนได้อย่างรวดเร็วและแม่นยำในไม่กี่ขั้นตอน
+### [วิธีทำ OCR ใน C# – ดึงข้อความจากภาพ](./how-to-perform-ocr-in-c-extract-text-from-image/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพอย่างรวดเร็วและแม่นยำ
+### [สร้าง PDF ที่ค้นหาได้ – แปลงภาพเป็น EPUB และเพิ่มข้อความ](./create-searchable-pdf-convert-image-to-epub-add-text/)
+### [บทแนะนำ Live OCR: ตรวจจับข้อความในวิดีโอด้วย C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

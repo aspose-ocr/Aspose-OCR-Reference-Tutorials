@@ -354,6 +354,18 @@ C# में Aspose OCR का उपयोग करके PNG छवियो�
 
 ### [C# में OCR का उपयोग – ऑफ़लाइन इमेज से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 ऑफ़लाइन इमेज से टेक्स्ट निकालने के लिए C# में Aspose OCR का उपयोग करने की चरण-दर-स्टेप गाइड।
+### [Aspose OCR का उपयोग करके PNG से अरबी टेक्स्ट पहचानें – C# गाइड](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Aspose OCR के साथ C# में PNG फ़ाइल से अरबी टेक्स्ट को पहचानने की चरण‑दर‑शरण मार्गदर्शिका।
+### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – C# प्रोग्रामिंग गाइड](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में OCR कैसे करें – इमेज से टेक्स्ट निकालें](./how-to-perform-ocr-in-c-extract-text-from-image/)
+C# में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की चरण‑दर‑शरण मार्गदर्शिका।
+### [C# में OCR का उपयोग कैसे करें – स्कैन से तेज़ी से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+C# में OCR का उपयोग करके स्कैन की गई छवियों से तेज़ी से टेक्स्ट निकालें। Aspose.OCR के साथ चरण‑दर‑शरण मार्गदर्शिका।
+### [सर्चेबल PDF बनाएं – इमेज को EPUB में बदलें और टेक्स्ट जोड़ें](./create-searchable-pdf-convert-image-to-epub-add-text/)
+इमेज को EPUB में बदलकर सर्चेबल PDF बनाएं और टेक्स्ट जोड़ें। Aspose.OCR के साथ चरण‑दर‑शरण गाइड।
+### [लाइव OCR ट्यूटोरियल: C# के साथ वीडियो में टेक्स्ट पहचानें](./live-ocr-tutorial-detect-text-in-video-with-c/)
+C# में लाइव OCR का उपयोग करके वीडियो से टेक्स्ट पहचानने की चरण‑दर‑शरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

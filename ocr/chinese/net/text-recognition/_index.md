@@ -368,6 +368,15 @@ url: /zh/net/text-recognition/
 通过本分步指南，使用 Aspose.OCR 在 C# 项目中从 PNG 图像精准提取文本。
 ### [在 C# 中使用 OCR – 离线提取图像文本](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 使用 Aspose.OCR 在 C# 项目中离线提取图像文本，提供完整的步骤指南。
+### [使用 Aspose OCR 识别 PNG 中的阿拉伯文本 – C# 指南](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+### [使用 Aspose OCR 从图像提取文本 – C# 编程指南](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+### [如何在 C# 中执行 OCR – 从图像提取文本](./how-to-perform-ocr-in-c-extract-text-from-image/)
+### [如何在 C# 中使用 OCR – 快速从扫描中提取文本](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+通过本指南快速在 C# 中使用 Aspose.OCR 从扫描图像提取文本，提高识别效率。
+### [创建可搜索 PDF – 将图像转换为 EPUB 并添加文本](./create-searchable-pdf-convert-image-to-epub-add-text/)
+使用 Aspose.OCR 将图像转换为 EPUB 并生成可搜索的 PDF，轻松添加文本层。
+### [实时 OCR 教程：使用 C# 检测视频中的文本](./live-ocr-tutorial-detect-text-in-video-with-c/)
+学习如何使用 Aspose.OCR 在 C# 中实时检测视频流中的文本，实现视频 OCR 功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

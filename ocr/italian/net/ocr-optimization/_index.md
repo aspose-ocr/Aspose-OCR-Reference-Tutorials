@@ -214,6 +214,10 @@ Scopri come rimuovere l'inclinazione dalle immagini e applicare l'OCR con Aspose
 Scopri come attivare il controllo ortografico in Aspose OCR e correggere automaticamente gli errori di riconoscimento in C#.
 ### [Come eseguire OCR su immagini cinesi – Guida completa C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Scopri come riconoscere testo cinese da immagini usando Aspose.OCR in C#, con esempi passo‑passo e consigli di ottimizzazione.
+### [Come raddrizzare l'immagine ed estrarre testo in C# – Guida completa](./how-to-deskew-image-and-extract-text-in-c-complete-guide/)
+Scopri come correggere l'inclinazione delle immagini e ottenere testo preciso con Aspose.OCR in C#.
+### [Come eseguire OCR in batch in C# – Guida completa di programmazione](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Scopri come elaborare più immagini contemporaneamente con Aspose.OCR in C#, ottimizzando le prestazioni e gestendo grandi volumi.
 
 ## Domande Frequenti
 

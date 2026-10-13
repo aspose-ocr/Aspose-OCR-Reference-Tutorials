@@ -204,6 +204,10 @@ Learn how to clean and enhance images in C# for OCR, boosting contrast and impro
 Learn how to enable spellcheck and automatically fix OCR errors in C# using Aspose.OCR.
 ### [How to Perform OCR on Chinese Images – Complete C# Guide](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Step‑by‑step guide to recognize Chinese text in images using Aspose.OCR for .NET, covering language settings, preprocessing, and result handling.
+### [How to Deskew Image and Extract Text in C# – Complete Guide](./how-to-deskew-image-and-extract-text-in-c-complete-guide/)
+Learn to deskew images and extract accurate text using Aspose.OCR in C#. Follow the step‑by‑step guide for optimal results.
+### [How to batch OCR in C# – Complete Programming Guide](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Master batch OCR processing in C# with Aspose.OCR. Learn to handle multiple images efficiently in a single program.
 
 ## Frequently Asked Questions
 

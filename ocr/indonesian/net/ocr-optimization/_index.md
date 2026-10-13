@@ -220,6 +220,8 @@ Pelajari cara mengoreksi kemiringan gambar dan melakukan OCR dengan Aspose.OCR d
 Pelajari cara mengaktifkan pemeriksaan ejaan dan memperbaiki kesalahan OCR dalam C# menggunakan Aspose.OCR.
 ### [Cara Melakukan OCR pada Gambar Cina – Panduan Lengkap C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Pelajari cara mengoptimalkan OCR untuk gambar berbahasa Cina menggunakan Aspose.OCR di C#, termasuk penyiapan bahasa dan peningkatan akurasi.
+### [Cara melakukan batch OCR di C# – Panduan Pemrograman Lengkap](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Pelajari cara memproses banyak gambar sekaligus dengan Aspose.OCR di C#, meningkatkan efisiensi dan akurasi.
 
 ## Pertanyaan yang Sering Diajukan
 

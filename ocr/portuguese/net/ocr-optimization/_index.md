@@ -220,6 +220,8 @@ Aprenda a corrigir a inclinação de imagens e aplicar OCR usando Aspose.OCR em 
 Aprenda a habilitar a verificação ortográfica no Aspose OCR e corrigir erros de reconhecimento em C# passo a passo.
 ### [Como Realizar OCR em Imagens Chinesas – Guia Completo em C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Aprenda a reconhecer texto em imagens chinesas usando Aspose.OCR em C#, passo a passo, para alta precisão.
+### [Como fazer OCR em lote em C# – Guia de programação completo](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Aprenda a processar múltiplas imagens simultaneamente usando Aspose.OCR em C#, com código completo e dicas de desempenho.
 
 ## Perguntas Frequentes
 

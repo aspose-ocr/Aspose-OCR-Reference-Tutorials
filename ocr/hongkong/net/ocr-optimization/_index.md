@@ -205,6 +205,8 @@ weight: 25
 ### [如何在 C# 中去斜圖像並執行 OCR – 完整指南](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
 學習在 C# 使用 Aspose.OCR 進行圖像去斜處理並執行 OCR，提升辨識精度的完整步驟指南。
 ### [Aspose OCR 範例 – 在 C# 中啟用拼寫檢查並修正錯誤](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
+### [如何在 C# 中批次執行 OCR – 完整程式設計指南](./how-to-batch-ocr-in-c-complete-programming-guide/)
+一步步教您在 C# 中批次處理 OCR，提升效率與精確度。
 
 ## 常見問題
 

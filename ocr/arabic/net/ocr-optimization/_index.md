@@ -212,6 +212,8 @@ weight: 25
 ### [كيفية تصحيح ميل الصورة وتشغيل OCR في C# – دليل شامل](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
 ### [كيفية إجراء OCR على الصور الصينية – دليل شامل C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 تعلم خطوة بخطوة كيفية استخراج النص من الصور الصينية باستخدام Aspose.OCR في C# مع إعدادات متقدمة للغة الصينية.
+### [كيفية تنفيذ OCR دفعي في C# – دليل برمجة كامل](./how-to-batch-ocr-in-c-complete-programming-guide/)
+دليل شامل يوضح كيفية تنفيذ OCR على دفعات باستخدام C# لتحسين الإنتاجية ودقة النتائج.
 
 ## الأسئلة المتكررة
 

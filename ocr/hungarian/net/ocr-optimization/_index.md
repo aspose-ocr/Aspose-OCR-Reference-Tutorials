@@ -210,6 +210,12 @@ Ismerje meg, hogyan engedélyezheti a helyesírás-ellenőrzést és javíthatja
 ### [Hogyan hajtson végre OCR-t kínai képeken – Teljes C# útmutató](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Fedezze fel, hogyan ismerje fel a kínai nyelvű szöveget képeken C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre.
 
+### [Képek kiegyenesítése és szöveg kinyerése C#‑ban – Teljes útmutató](./how-to-deskew-image-and-extract-text-in-c-complete-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t képek kiegyenesítésére és szöveg kinyerésére C#‑ban, a legjobb pontosság érdekében.
+
+### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Ismerje meg, hogyan hajthat végre kötegelt OCR feldolgozást C#‑ban az Aspose.OCR for .NET segítségével, lépésről‑lépésre útmutatóval.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

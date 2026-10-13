@@ -211,6 +211,10 @@ Lär dig steg‑för‑steg hur du använder Aspose.OCR för att räta upp bilde
 Lär dig hur du aktiverar stavningskontroll i Aspose.OCR för C# och automatiskt korrigerar igenkända fel för bättre OCR‑noggrannhet.
 ### [Hur du utför OCR på kinesiska bilder – Komplett C#‑guide](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Lär dig steg‑för‑steg hur du använder Aspose.OCR för att känna igen kinesisk text i bilder med C#.
+### [Hur du räta upp en bild och extraherar text i C# – Komplett guide](./how-to-deskew-image-and-extract-text-in-c-complete-guide/)
+Lär dig att räta upp bilder och extrahera text med Aspose.OCR i C#. En steg‑för‑steg‑guide för förbättrad OCR‑noggrannhet.
+### [Hur du batchar OCR i C# – Komplett guide](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Lär dig att köra OCR i batchläge med Aspose.OCR för .NET i C#. En steg‑för‑steg‑programmeringsguide för hög prestanda.
 
 ## Vanliga frågor
 

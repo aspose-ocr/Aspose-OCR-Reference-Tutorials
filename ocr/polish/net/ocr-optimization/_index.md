@@ -217,6 +217,9 @@ Pełny przewodnik, jak prostować obrazy i wykonywać OCR w C# przy użyciu Aspo
 ### [Jak wykonać OCR na chińskich obrazach – Kompletny przewodnik C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Pełny przewodnik, jak rozpoznać chiński tekst na obrazach przy użyciu Aspose.OCR w C#.
 
+### [Jak wykonywać OCR wsadowo w C# – Kompletny przewodnik programistyczny](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Poznaj techniki przetwarzania wielu obrazów jednocześnie w C# przy użyciu Aspose.OCR, krok po kroku od konfiguracji po zapis wyników.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

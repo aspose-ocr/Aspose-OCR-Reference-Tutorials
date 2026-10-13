@@ -360,6 +360,18 @@ Scopri come riconoscere testo da immagini in C# con Aspose.OCR, seguendo una gui
 Scopri come estrarre testo da file PNG in C# usando Aspose.OCR con una guida passo passo completa.
 ### [Come usare OCR in C# – Estrarre testo da immagini offline](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 Scopri come estrarre testo da immagini offline in C# usando Aspose.OCR, con esempi passo passo per integrare l'OCR senza connessione.
+### [Riconoscere testo arabo da PNG usando Aspose OCR – Guida C#](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Scopri come riconoscere testo arabo da immagini PNG con Aspose OCR in C#. Segui la guida passo passo per integrare il riconoscimento nella tua app.
+### [Estrai testo da immagine con Aspose OCR – Guida di programmazione C#](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Scopri come estrarre testo da immagini usando Aspose OCR in C#. Segui la guida passo passo per integrare l'OCR nella tua applicazione.
+### [Come usare OCR in C# – Estrarre testo da scansioni rapidamente](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+Scopri come utilizzare Aspose.OCR in C# per estrarre rapidamente testo da scansioni, con una guida passo passo per integrare l'OCR nella tua applicazione.
+### [Come eseguire OCR in C# – Estrarre testo da immagine](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Scopri come eseguire OCR in C# per estrarre testo da immagini, con una guida passo passo per integrare l'OCR nella tua applicazione.
+### [Crea PDF Ricercabile – Converti Immagine in EPUB e Aggiungi Testo](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Scopri come creare PDF ricercabili convertendo immagini in EPUB e aggiungendo testo con Aspose.OCR per .NET.
+### [Tutorial OCR Live: Rileva testo in video con C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Scopri come utilizzare Aspose.OCR in C# per rilevare testo in tempo reale da flussi video, con esempi pratici passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

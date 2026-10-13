@@ -370,6 +370,18 @@ Aspose.OCR を使用して、C# で画像から ePub 電子書籍を作成する
 Aspose.OCR を使用して .NET アプリケーションで PNG 画像からテキストを正確に抽出する手順をステップバイステップで解説します。
 ### [C# で OCR を使用する方法 – オフラインで画像からテキストを抽出](./how-to-use-ocr-in-c-extract-text-from-images-offline/)
 Aspose.OCR を使用して、C# アプリケーションでインターネット接続なしに画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して PNG からアラビア文字を認識する – C# ガイド](./recognize-arabic-text-from-png-using-aspose-ocr-c-guide/)
+Aspose OCR と C# を使い、PNG 画像からアラビア語テキストを正確に抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して画像からテキストを抽出する – C# ガイド](./extract-text-from-image-with-aspose-ocr-c-programming-guide/)
+Aspose OCR と C# を使用して、画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C# で OCR を使用する方法 – 画像からテキストを抽出](./how-to-perform-ocr-in-c-extract-text-from-image/)
+C# と Aspose.OCR を使用して、画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C# で OCR を使用する方法 – スキャンからテキストを高速に抽出](./how-to-use-ocr-in-c-extract-text-from-scans-fast/)
+C# と Aspose.OCR を使い、スキャン画像からテキストを迅速に抽出する手順をステップバイステップで解説します。
+### [検索可能な PDF を作成 – 画像を EPUB に変換してテキストを追加](./create-searchable-pdf-convert-image-to-epub-add-text/)
+Aspose.OCR を使用して画像を EPUB に変換し、テキストを埋め込んで検索可能な PDF を作成する手順を解説します。
+### [ライブ OCR チュートリアル: C# でビデオ内のテキストを検出する](./live-ocr-tutorial-detect-text-in-video-with-c/)
+Aspose.OCR と C# を使用して、ビデオストリームからリアルタイムでテキストを検出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -195,6 +195,8 @@ Görüntüyü eğriltme hatasından arındırıp, Aspose.OCR for .NET ile C# iç
 C# ile Aspose OCR kullanarak yazım denetimini etkinleştirip tanıma hatalarını otomatik düzeltin.
 ### [Çince Görüntülerde OCR Nasıl Yapılır – Tam C# Kılavuzu](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Aspose.OCR for .NET ile Çince görüntülerde yüksek doğruluklu OCR yapın ve adım adım rehberimizi izleyin.
+### [C#'ta toplu OCR nasıl yapılır – Tam Programlama Kılavuzu](./how-to-batch-ocr-in-c-complete-programming-guide/)
+C# ile toplu OCR işlemleri yaparak birden çok görüntüyü otomatik olarak işleyin ve sonuçları kaydedin.
 
 ## Sıkça Sorulan Sorular
 

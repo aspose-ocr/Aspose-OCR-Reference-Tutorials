@@ -211,6 +211,9 @@ Aspose.OCR を使用して C# でスペルチェックを有効にし、認識�
 ### [C# で中国語画像の OCR を実行する完全ガイド](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 C# を使用して中国語の画像からテキストを抽出する手順をステップバイステップで解説します。
 
+### [C# でバッチ OCR を実行する方法 – 完全プログラミングガイド](./how-to-batch-ocr-in-c-complete-programming-guide/)
+C# で大量の画像を一括処理し、OCR を実行する手順をステップバイステップで解説します。
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  

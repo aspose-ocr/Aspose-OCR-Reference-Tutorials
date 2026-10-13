@@ -182,6 +182,8 @@ Hướng dẫn chi tiết cách loại bỏ nghiêng ảnh và thực hiện OCR
 Hướng dẫn cách bật tính năng kiểm tra chính tả và sửa lỗi OCR trong C# bằng Aspose.OCR, nâng cao độ chính xác kết quả.
 ### [Cách thực hiện OCR trên ảnh tiếng Trung – Hướng dẫn đầy đủ C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Hướng dẫn chi tiết cách nhận dạng ký tự tiếng Trung trong ảnh bằng Aspose.OCR và C#, nâng cao độ chính xác.
+### [Cách thực hiện OCR hàng loạt trong C# – Hướng dẫn lập trình đầy đủ](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# sử dụng Aspose.OCR, bao gồm cấu hình, xử lý đa ảnh và lưu kết quả.
 
 ## Câu hỏi thường gặp
 

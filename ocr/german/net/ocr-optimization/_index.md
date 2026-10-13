@@ -56,8 +56,6 @@ Erreichen Sie unvergleichliche OCR‑Genauigkeit mit [Aspose.OCR for .NET](./res
 ## Mehrseitiges Ergebnis als Dokument speichern in OCR-Bilderkennung
 Speichern Sie mühelos mehrseitige OCR‑Ergebnisse als Dokumente mit Aspose.OCR für .NET. Unser [Schritt-für-Schritt-Anleitung](./save-multipage-result-as-document/) erschließt das volle Potenzial der Dokumentenerstellung. Integrieren Sie Aspose.OCR nahtlos und verwandeln Sie Ihre OCR‑Ergebnisse mühelos in mehrseitige Dokumente.
 
-Mit der Aspose.OCR für .NET Tutorial‑Auflistung können Sie auf zusätzliche Ressourcen zugreifen und über die neuesten Fortschritte in der OCR‑Optimierung auf dem Laufenden bleiben. Tauchen Sie ein in die Welt von Präzision und Effizienz mit Aspose.OCR für .NET Tutorials.
-
 ## OCR‑Optimierungs‑Tutorials
 ### [Text aus Bild extrahieren in C# – Vollständiger OCR‑Leitfaden](./extract-text-from-image-in-c-complete-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – umfassende Schritt‑für‑Schritt‑Anleitung.
@@ -217,6 +215,8 @@ Erfahren Sie, wie Sie Bilder mit Entzerrungsfilter vorbereiten und anschließend
 Lernen Sie, wie Sie die Rechtschreibprüfung einschalten und OCR‑Fehler in C# automatisch korrigieren.
 ### [Wie man OCR auf chinesischen Bildern ausführt – Komplettanleitung für C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Erfahren Sie, wie Sie chinesische Bildtexte mit Aspose.OCR in C# präzise erkennen und verarbeiten.
+### [Batch-OCR in C# – Vollständiger Programmierleitfaden](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mehrere Bilder in C# stapelweise mit Aspose.OCR verarbeiten und Ergebnisse effizient speichern.
 
 ## Häufig gestellte Fragen
 
