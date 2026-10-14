@@ -23,9 +23,7 @@ title: 이미지에서 EPUB 파일 만들기 – 완전한 C# OCR 가이드
 url: /ko/net/text-recognition/create-epub-file-from-image-complete-c-ocr-guide/
 ---
 
-.
-
-Now produce final answer with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

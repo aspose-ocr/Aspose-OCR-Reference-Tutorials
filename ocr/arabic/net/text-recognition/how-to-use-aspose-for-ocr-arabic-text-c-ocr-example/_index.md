@@ -23,12 +23,6 @@ title: كيفية استخدام Aspose للتعرف الضوئي على الن�
 url: /ar/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-codes at the end.
-
-Now produce final content.
-
-Let's construct.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

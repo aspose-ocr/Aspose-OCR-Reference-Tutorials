@@ -21,15 +21,7 @@ title: Aspose OCRで画像からテキストを認識する – 完全なC#非�
 url: /ja/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-メントからテキストを抽出**. Keep consistency.
-
-Finally closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

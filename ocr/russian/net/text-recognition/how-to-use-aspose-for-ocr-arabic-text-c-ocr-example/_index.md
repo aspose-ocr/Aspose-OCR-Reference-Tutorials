@@ -26,12 +26,6 @@ title: Как использовать Aspose для OCR арабского те
 url: /ru/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-grayscale"? Probably translate: "Что если мое изображение в градациях серого". Keep incomplete.
-
-We keep the shortcodes at end.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

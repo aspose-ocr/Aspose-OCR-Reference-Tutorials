@@ -24,16 +24,6 @@ title: Αναγνώριση κειμένου από εικόνα με Aspose OCR
 url: /el/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-a handful of practical tips that save you headaches later."
-
-Translate.
-
-Proceed similarly for each section.
-
-Need to keep code block placeholders.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

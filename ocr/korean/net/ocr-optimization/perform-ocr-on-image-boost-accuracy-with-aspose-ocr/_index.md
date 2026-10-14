@@ -21,10 +21,6 @@ title: 이미지에서 OCR 수행 – Aspose OCR로 정확도 향상
 url: /ko/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-later "## ## Preprocess Image Before OCR – Building the Pipeline". Keep same.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

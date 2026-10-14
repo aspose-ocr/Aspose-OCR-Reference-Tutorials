@@ -22,7 +22,7 @@ title: Proveďte OCR na obrázku – zvyšte přesnost s Aspose OCR
 url: /cs/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

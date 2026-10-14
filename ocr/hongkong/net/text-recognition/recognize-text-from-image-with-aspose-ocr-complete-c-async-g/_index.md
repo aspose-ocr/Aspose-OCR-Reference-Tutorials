@@ -22,14 +22,6 @@ title: 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 非同步指南
 url: /zh-hant/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-text is text content, so we should translate it. But we must not change URL. So alt text "recognize text from image workflow diagram" should be translated to Traditional Chinese (Hong Kong). We'll translate to "從圖像辨識文字工作流程圖". Keep width attribute unchanged.
-
-Also translate table headers and content.
-
-We need to keep code block placeholders unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

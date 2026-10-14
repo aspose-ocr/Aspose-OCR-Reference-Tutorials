@@ -21,11 +21,7 @@ title: 從圖像建立 EPUB 檔案 – 完整 C# OCR 指南
 url: /zh-hant/net/text-recognition/create-epub-file-from-image-complete-c-ocr-guide/
 ---
 
-content with translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

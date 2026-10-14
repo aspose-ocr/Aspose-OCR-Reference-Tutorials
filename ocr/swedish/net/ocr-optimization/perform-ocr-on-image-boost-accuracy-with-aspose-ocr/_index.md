@@ -22,9 +22,7 @@ title: Utför OCR på bild – Öka noggrannheten med Aspose OCR
 url: /sv/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

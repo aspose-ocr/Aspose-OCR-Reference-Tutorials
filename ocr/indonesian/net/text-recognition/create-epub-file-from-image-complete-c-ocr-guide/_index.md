@@ -25,29 +25,7 @@ title: Buat File EPUB dari Gambar – Panduan OCR C# Lengkap
 url: /id/net/text-recognition/create-epub-file-from-image-complete-c-ocr-guide/
 ---
 
-, complete with the title you set. The file size is typically a few hundred kilobytes, depending on image resolution."
-
-Translate.
-
-Then "## Frequently Asked Questions (FAQs)"
-
-Translate.
-
-Then Q&A.
-
-Translate each Q and A.
-
-Make sure to keep code formatting like backticks unchanged.
-
-Also keep bullet list formatting: there are bullet points using hyphens.
-
-Now produce final content with same shortcodes at start and end.
-
-Let's craft translation.
-
-Be careful to keep markdown syntax.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

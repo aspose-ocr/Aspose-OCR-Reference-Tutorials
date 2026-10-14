@@ -25,14 +25,6 @@ title: Reconnaître le texte d’une image avec Aspose OCR – Guide complet C# 
 url: /fr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-unchanged.
-
-Check for any markdown links: none.
-
-Check for any other code blocks: placeholders only.
-
-Now produce final content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

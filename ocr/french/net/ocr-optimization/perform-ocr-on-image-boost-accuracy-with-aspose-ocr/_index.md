@@ -24,9 +24,7 @@ title: Effectuer une OCR sur une image – Améliorer la précision avec Aspose 
 url: /fr/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-markdown formatting exactly, including headings levels. Keep code block placeholders unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

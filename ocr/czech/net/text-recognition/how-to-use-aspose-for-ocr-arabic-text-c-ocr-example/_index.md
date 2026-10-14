@@ -23,16 +23,6 @@ title: Jak použít Aspose pro OCR arabského textu – příklad OCR v C#
 url: /cs/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-ose: Vytvoření OCR enginu". Keep the dash and colon.
-
-Similarly for other steps.
-
-Also there are blockquotes with "Pro tip:" etc. Translate.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

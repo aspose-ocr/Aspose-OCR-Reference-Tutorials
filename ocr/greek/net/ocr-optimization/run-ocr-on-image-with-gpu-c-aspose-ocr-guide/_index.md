@@ -24,8 +24,6 @@ title: Εκτέλεση OCR σε εικόνα με GPU – Οδηγός OCR C# A
 url: /el/net/ocr-optimization/run-ocr-on-image-with-gpu-c-aspose-ocr-guide/
 ---
 
-produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

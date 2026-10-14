@@ -25,10 +25,6 @@ title: Cách sử dụng Aspose để OCR văn bản tiếng Ả Rập – Ví d
 url: /vi/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

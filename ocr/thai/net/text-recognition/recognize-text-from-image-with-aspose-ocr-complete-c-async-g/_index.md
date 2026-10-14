@@ -22,17 +22,7 @@ title: แยกข้อความจากภาพด้วย Aspose OCR �
 url: /th/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-ate the async OCR flow into an ASP.NET Core Web API for on‑the‑fly document processing." translate.
-
-Then closing shortcodes unchanged.
-
-Make sure to keep all placeholders unchanged.
-
-Now produce final content with translation.
-
-Check for any markdown links: none besides image.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

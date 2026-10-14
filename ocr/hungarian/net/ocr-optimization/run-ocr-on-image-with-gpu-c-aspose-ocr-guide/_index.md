@@ -24,10 +24,6 @@ title: OCR futtatása képen GPU-val – C# Aspose OCR útmutató
 url: /hu/net/ocr-optimization/run-ocr-on-image-with-gpu-c-aspose-ocr-guide/
 ---
 
-we keep code block placeholders unchanged.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,12 +23,6 @@ title: Εκτελέστε OCR σε εικόνα – Αυξήστε την ακρ
 url: /el/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-are not actual code blocks but placeholders. They should stay as is.
-
-Also there are block shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

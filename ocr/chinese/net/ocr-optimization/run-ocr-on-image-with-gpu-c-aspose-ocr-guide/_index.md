@@ -21,8 +21,6 @@ title: 使用 GPU 对图像进行 OCR – C# Aspose OCR 指南
 url: /zh/net/ocr-optimization/run-ocr-on-image-with-gpu-c-aspose-ocr-guide/
 ---
 
-with same markdown structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

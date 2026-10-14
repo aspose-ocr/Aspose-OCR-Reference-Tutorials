@@ -24,17 +24,7 @@ title: Ejecutar OCR en una imagen con GPU – Guía de OCR en C# con Aspose
 url: /es/net/ocr-optimization/run-ocr-on-image-with-gpu-c-aspose-ocr-guide/
 ---
 
-Then paragraph.
-
-We'll translate.
-
-Let's write.
-
-Be careful with bold **text** keep same.
-
-Also keep code block placeholders.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

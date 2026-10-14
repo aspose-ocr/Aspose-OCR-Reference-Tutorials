@@ -24,11 +24,7 @@ title: Spusťte OCR na obrázku s GPU – C# Aspose OCR průvodce
 url: /cs/net/ocr-optimization/run-ocr-on-image-with-gpu-c-aspose-ocr-guide/
 ---
 
-blocks: placeholders only.
-
-All good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

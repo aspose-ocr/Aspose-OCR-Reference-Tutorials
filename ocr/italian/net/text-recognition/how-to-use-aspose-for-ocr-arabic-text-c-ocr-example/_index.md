@@ -25,17 +25,7 @@ title: Come utilizzare Aspose per l'OCR del testo arabo – Esempio OCR in C#
 url: /it/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-(or "Esempio OCR C#").
-
-I'll write: "# Come usare Aspose per OCR di testo arabo – Esempio OCR C#"
-
-Next paragraph.
-
-Translate accordingly.
-
-Proceed.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

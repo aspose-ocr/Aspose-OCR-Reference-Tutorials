@@ -24,10 +24,6 @@ title: Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng 
 url: /vi/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-translate cell content.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

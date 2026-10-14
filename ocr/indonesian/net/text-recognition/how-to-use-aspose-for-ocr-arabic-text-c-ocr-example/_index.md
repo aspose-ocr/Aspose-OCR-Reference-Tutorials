@@ -24,10 +24,6 @@ title: Cara Menggunakan Aspose untuk OCR Teks Arab – Contoh OCR C#
 url: /id/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-is grayscale" is cut off. Keep as is? It's part of FAQ; we can translate the part we have.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

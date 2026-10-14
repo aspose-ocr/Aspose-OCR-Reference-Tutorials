@@ -21,14 +21,6 @@ title: ทำ OCR บนรูปภาพ – เพิ่มความแม
 url: /th/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-output:" etc.
-
-Make sure to preserve markdown formatting.
-
-Also keep shortcodes at top and bottom unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

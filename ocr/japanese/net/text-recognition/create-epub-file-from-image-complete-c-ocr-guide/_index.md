@@ -21,15 +21,7 @@ title: 画像からEPUBファイルを作成 – 完全なC# OCRガイド
 url: /ja/net/text-recognition/create-epub-file-from-image-complete-c-ocr-guide/
 ---
 
-create EPUB file** from a scanned picture but weren't sure where to start? You're not the only one; developers constantly ask, “How do I turn a JPEG of a page into a proper e‑book?”" => Japanese translation.
-
-- etc.
-
-Make sure to keep **bold** formatting.
-
-Also keep code block placeholders unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

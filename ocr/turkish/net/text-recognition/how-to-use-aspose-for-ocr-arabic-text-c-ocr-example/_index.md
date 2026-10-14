@@ -25,9 +25,7 @@ title: Aspose ile Arapça Metin OCR Kullanımı – C# OCR Örneği
 url: /tr/net/text-recognition/how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/
 ---
 
-"Expected Output" etc.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -25,14 +25,6 @@ title: Rozpoznaj tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik
 url: /pl/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-quote >.
-
-Check bullet lists.
-
-Check table formatting: we need to keep pipe characters.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,15 +22,7 @@ title: 使用 Aspose OCR 从图像识别文本 – 完整的 C# 异步指南
 url: /zh/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-async-g/
 ---
 
-: translate column headers and content but keep pipe formatting.
-
-Make sure to keep URLs unchanged.
-
-At end, image markdown unchanged.
-
-Finally shortcodes closing.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

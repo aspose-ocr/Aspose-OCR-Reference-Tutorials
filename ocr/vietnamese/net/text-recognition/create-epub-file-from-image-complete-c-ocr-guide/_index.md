@@ -25,8 +25,6 @@ title: Tạo tệp EPUB từ hình ảnh – Hướng dẫn OCR C# toàn diện
 url: /vi/net/text-recognition/create-epub-file-from-image-complete-c-ocr-guide/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

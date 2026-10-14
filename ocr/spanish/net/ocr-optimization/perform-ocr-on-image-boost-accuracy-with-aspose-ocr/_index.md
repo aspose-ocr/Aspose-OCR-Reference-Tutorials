@@ -23,12 +23,6 @@ title: Realizar OCR en una imagen – Mejora la precisión con Aspose OCR
 url: /es/net/ocr-optimization/perform-ocr-on-image-boost-accuracy-with-aspose-ocr/
 ---
 
-.
-
-We must ensure we keep all shortcodes exactly as original.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
