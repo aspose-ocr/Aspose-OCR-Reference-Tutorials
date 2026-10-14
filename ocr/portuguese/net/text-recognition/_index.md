@@ -371,6 +371,14 @@ Aprenda a converter imagens em PDFs pesquisáveis, gerar EPUBs e inserir texto u
 Aprenda a usar OCR em C# para extrair texto de imagens com Aspose.OCR. Siga o guia passo a passo para integrar OCR em seu aplicativo.
 ### [Tutorial ao Vivo de OCR: Detectar Texto em Vídeo com C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Aprenda a detectar texto em vídeos em tempo real usando Aspose.OCR com C#. Siga o passo a passo para integrar OCR ao vivo.
+### [Como usar Aspose para OCR de texto árabe – Exemplo em C#](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Aprenda a reconhecer texto árabe usando Aspose.OCR em C#, com exemplo passo a passo para integrar OCR árabe em suas aplicações .NET.
+### [Como usar Aspose OCR para converter imagem em JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Aprenda a converter imagens em JSON usando Aspose OCR, com um guia passo a passo para integrar resultados de OCR em seus aplicativos .NET.
+### [Criar arquivo EPUB a partir de imagem – Guia completo de OCR em C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+Aprenda a gerar arquivos EPUB a partir de imagens usando Aspose.OCR em C#, com um guia passo a passo.
+### [Reconhecer texto a partir de imagem com Aspose OCR – Guia completo C# assíncrono](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Aprenda a reconhecer texto em imagens usando Aspose OCR em C# de forma assíncrona com este guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

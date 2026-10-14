@@ -208,6 +208,10 @@ Apprenez à activer la vérification orthographique dans Aspose.OCR et à corrig
 Apprenez à reconnaître le texte chinois dans les images avec Aspose.OCR en C#, incluant la configuration linguistique et les filtres de prétraitement.
 ### [Comment réaliser un OCR par lots en C# – Guide complet de programmation](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Apprenez à traiter plusieurs images simultanément avec Aspose.OCR en C#, incluant le code complet et les meilleures pratiques.
+### [Effectuer l'OCR sur une image – Améliorer la précision avec Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Optimisez la reconnaissance d'image en augmentant la précision grâce à Aspose OCR.
+### [Exécuter l'OCR sur une image avec GPU – Guide C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Exécutez l'OCR sur une image en tirant parti du GPU avec Aspose.OCR pour .NET en C#.
 
 ## Questions fréquemment posées
 

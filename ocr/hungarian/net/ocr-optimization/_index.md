@@ -216,6 +216,12 @@ Ismerje meg, hogyan használhatja az Aspose.OCR-t képek kiegyenesítésére és
 ### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Ismerje meg, hogyan hajthat végre kötegelt OCR feldolgozást C#‑ban az Aspose.OCR for .NET segítségével, lépésről‑lépésre útmutatóval.
 
+### [GPU-val történő OCR futtatása képen – C# Aspose OCR útmutató](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Ismerje meg, hogyan használhatja a GPU gyorsítást az OCR-hoz C#-ban az Aspose.OCR segítségével.
+
+### [OCR végrehajtása képen – Pontosság növelése az Aspose OCR segítségével](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Fedezze fel, hogyan növelheti az OCR pontosságát képeken az Aspose OCR használatával.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

@@ -52,11 +52,12 @@ Aspose.OCR के साथ .NET में OCR की क्षमता को 
 .NET के लिए Aspose.OCR का अन्वेषण करें, जो छवियों में निर्बाध पाठ पहचान के लिए एक शक्तिशाली OCR समाधान है।
 
 ### [OCR छवि पहचान में JSON के रूप में परिणाम प्राप्त करें](./get-result-as-json/)
-.NET के लिए Aspose.OCR की शक्ति को उजागर करें। JSON प्रारूप में OCR परिणाम सहजता से प्राप्त करना सीखें। इस चरण-दर-स्टेप मार्गदर्शिका के साथ अपनी छवि पहचान बढ़ाएँ।
 ### [छवि को JSON में परिवर्तित करने के लिए Aspose OCR C# गाइड](./convert-image-to-json-with-aspose-ocr-c-guide/)
 Aspose OCR का उपयोग करके C# में छवि को JSON में बदलने की चरण-दर-स्टेप मार्गदर्शिका।
 ### [JSON को OCR से C# में सहेजें – चरण‑दर‑स्टेप गाइड](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
 C# में OCR से JSON सहेजने के लिए चरण-दर-स्टेप मार्गदर्शिका। Aspose.OCR का उपयोग करके JSON परिणाम सुरक्षित करें।
+### [इमेज को JSON में बदलने के लिए Aspose OCR का उपयोग कैसे करें](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+इमेज को JSON फ़ॉर्मेट में बदलने के लिए Aspose OCR का उपयोग करने की चरण-दर-चरण मार्गदर्शिका।
 ### [ओसीआर छवि पहचान में ओसीआर डिटेक्ट एरिया मोड](./ocr-detect-areas-mode/)
 कुशल छवि पाठ पहचान के लिए Aspose.OCR के साथ अपने .NET अनुप्रयोगों को बेहतर बनाएं। सटीक परिणामों के लिए ओसीआर डिटेक्ट एरिया मोड का अन्वेषण करें।
 
@@ -366,6 +367,12 @@ C# में OCR का उपयोग करके स्कैन की ग�
 इमेज को EPUB में बदलकर सर्चेबल PDF बनाएं और टेक्स्ट जोड़ें। Aspose.OCR के साथ चरण‑दर‑शरण गाइड।
 ### [लाइव OCR ट्यूटोरियल: C# के साथ वीडियो में टेक्स्ट पहचानें](./live-ocr-tutorial-detect-text-in-video-with-c/)
 C# में लाइव OCR का उपयोग करके वीडियो से टेक्स्ट पहचानने की चरण‑दर‑शरण मार्गदर्शिका।
+### [Aspose के साथ OCR अरबी टेक्स्ट – C# OCR उदाहरण](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Aspose.OCR का उपयोग करके .NET में अरबी टेक्स्ट को पहचानने के लिए चरण-दर-स्तर मार्गदर्शिका।
+### [इमेज से EPUB फ़ाइल बनाएं – पूर्ण C# OCR गाइड](./create-epub-file-from-image-complete-c-ocr-guide/)
+इमेज को EPUB फ़ाइल में बदलने के लिए Aspose.OCR के साथ C# में पूर्ण चरण-दर-स्टेप मार्गदर्शिका।
+### [इमेज से टेक्स्ट पहचानें Aspose OCR के साथ – पूर्ण C# Async गाइड](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Aspose OCR का उपयोग करके असिंक्रोनस C# में इमेज से टेक्स्ट निकालने की पूरी चरण-दर-स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

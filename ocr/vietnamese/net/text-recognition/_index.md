@@ -375,6 +375,14 @@ Hướng dẫn chi tiết cách dùng Aspose.OCR trong C# để trích xuất v�
 Biến hình ảnh thành PDF có thể tìm kiếm, chuyển sang EPUB và chèn văn bản một cách dễ dàng với Aspose.OCR cho .NET.
 ### [Hướng dẫn OCR trực tiếp: Phát hiện văn bản trong video bằng C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Khám phá cách sử dụng Aspose.OCR trong C# để phát hiện và trích xuất văn bản từ video thời gian thực một cách nhanh chóng và chính xác.
+### [Cách sử dụng Aspose OCR để chuyển đổi hình ảnh sang JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Tìm hiểu cách sử dụng Aspose OCR để chuyển đổi hình ảnh thành định dạng JSON một cách nhanh chóng và dễ dàng.
+### [Cách sử dụng Aspose để OCR văn bản tiếng Ả Rập – Ví dụ C# OCR](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Khám phá cách sử dụng Aspose OCR với văn bản tiếng Ả Rập trong C#. Hướng dẫn từng bước để nhận dạng chính xác.
+### [Tạo tệp EPUB từ hình ảnh – Hướng dẫn OCR C# đầy đủ](./create-epub-file-from-image-complete-c-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển đổi hình ảnh thành tệp EPUB một cách nhanh chóng.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn Async C# đầy đủ](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# bất đồng bộ để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -215,6 +215,8 @@ weight: 25
 Μάθετε πώς να αναγνωρίζετε κινεζικό κείμενο σε εικόνες με Aspose.OCR και C# βήμα‑βήμα.
 ### [Πώς να εκτελέσετε μαζικό OCR σε C# – Πλήρης Οδηγός Προγραμματισμού](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Μάθετε πώς να επεξεργάζεστε πολλές εικόνες OCR σε C# με βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
+### [Εκτέλεση OCR σε εικόνα – Βελτιώστε την ακρίβεια με το Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+### [Εκτέλεση OCR σε εικόνα με GPU – C# Aspose OCR Οδηγός](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 
 ## Συχνές Ερωτήσεις
 

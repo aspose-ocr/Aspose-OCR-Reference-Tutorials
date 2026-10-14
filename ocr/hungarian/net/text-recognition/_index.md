@@ -29,6 +29,10 @@ Fedezze fel az Aspose.OCR for .NET képességeit, és alakítsa át a képek sz�
 
 Engedje szabadjára az Aspose.OCR for .NET-ben rejlő teljes potenciálját azáltal, hogy megtanulja, hogyan szerezhet könnyedén JSON formátumú OCR-eredményeket. Ez a lépésenkénti útmutató zökkenőmentes utazást tesz lehetővé a képfelismerő képességek fejlesztése felé. Növelje alkalmazása hatékonyságát az Aspose.OCR robusztus funkcióival és iparágvezető technológiájával.
 
+
+### [Hogyan használja az Aspose-t OCR arab szöveghez – C# OCR példa](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Ismerje meg, hogyan használhatja az Aspose-t arab nyelvű szövegek OCR-feldolgozásához C#-ban, lépésről‑lépésre útmutatóval.
+
 ## OCR Területek észlelése mód az OCR képfelismerésben
 
 A hatékonyság kulcsfontosságú a .NET-alkalmazásokban, és az Aspose.OCR segít Önnek ennek elérésében. Merüljön el az OCR Detect Areas Mode oktatóanyagában, hogy precíz eredményeket érjen el a képszöveg felismerésben. Emelje fel projektjeit az Aspose.OCR fejlett funkcióival, amelyek pontosságot és gyorsaságot biztosítanak a szövegfelismerésben.
@@ -58,6 +62,8 @@ Engedje szabadjára az Aspose.OCR erejét .NET-hez. Ismerje meg, hogyan szerezhe
 ### [OCR végrehajtása C#‑ban – Kép JSON‑ba konvertálása útmutató](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Ismerje meg, hogyan konvertálhatja az OCR által felismert szöveget JSON formátumba C#‑ban az Aspose.OCR segítségével.
 
+### [Hogyan használja az Aspose OCR-t a kép JSON formátumba konvertálásához](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Ismerje meg, hogyan konvertálhat képeket JSON formátumba az Aspose OCR segítségével .NET-ben, lépésről‑lépésre útmutatóval.
 ### [OCR Területek észlelése mód az OCR képfelismerésben](./ocr-detect-areas-mode/)
 Bővítse .NET-alkalmazásait az Aspose.OCR segítségével a hatékony képszövegfelismerés érdekében. Fedezze fel az OCR területfelismerési módot a pontos eredményekért.
 ### [A PDF felismerése az OCR képfelismerésben](./recognize-pdf/)
@@ -372,6 +378,10 @@ Ismerje meg, hogyan vonhat ki szöveget gyorsan beolvasott képekből C#-ban az 
 Tanulja meg, hogyan alakíthatja a képeket kereshető PDF-fé konvertálva EPUB formátumba, és adhat hozzá szöveget C#-ban az Aspose OCR segítségével.
 ### [Élő OCR oktatóanyag: Szöveg felismerése videóban C#-val](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t élő videó szövegfelismerésére C#-ban, valós időben.
+### [EPUB fájl létrehozása képből – Teljes C# OCR útmutató](./create-epub-file-from-image-complete-c-ocr-guide/)
+Készítsen EPUB fájlt képekből C#-ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Képről szöveg felismerése az Aspose OCR segítségével – Teljes C# Aszinkron útmutató](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Ismerje meg, hogyan használhatja az Aspose OCR-t aszinkron módon C#-ban a képek szövegének felismeréséhez, lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

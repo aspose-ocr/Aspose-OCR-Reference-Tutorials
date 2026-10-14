@@ -382,6 +382,14 @@ Naučte se rychle extrahovat text ze skenovaných dokumentů pomocí Aspose.OCR 
 Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF převodem obrázku na EPUB a přidáním textu.
 ### [Live OCR tutoriál: Detekce textu ve videu pomocí C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Naučte se v reálném čase rozpoznávat text ve videu pomocí Aspose.OCR a C#.
+### [Jak použít Aspose pro OCR arabského textu – příklad v C#](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Naučte se, jak pomocí Aspose.OCR rozpoznávat arabský text v C# a získat přesné výsledky.
+### [Jak použít Aspose OCR k převodu obrázku na JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Naučte se, jak pomocí Aspose.OCR převést obrázek do formátu JSON a získat strukturované výsledky OCR.
+### [Vytvořte soubor EPUB z obrázku – kompletní průvodce OCR v C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+Naučte se pomocí Aspose.OCR v C# převést obrázek do formátu EPUB a vytvořit plně funkční e-knihu.
+### [Rozpoznat text z obrázku pomocí Aspose OCR – kompletní asynchronní průvodce v C#](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Naučte se asynchronně rozpoznávat text z obrázků v C# pomocí Aspose OCR a získat rychlé a přesné výsledky.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -215,6 +215,10 @@ Lär dig steg‑för‑steg hur du använder Aspose.OCR för att känna igen kin
 Lär dig att räta upp bilder och extrahera text med Aspose.OCR i C#. En steg‑för‑steg‑guide för förbättrad OCR‑noggrannhet.
 ### [Hur du batchar OCR i C# – Komplett guide](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Lär dig att köra OCR i batchläge med Aspose.OCR för .NET i C#. En steg‑för‑steg‑programmeringsguide för hög prestanda.
+### [Kör OCR på bild med GPU – C# Aspose OCR‑guide](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C# med Aspose OCR.
+### [Utför OCR på bild – Öka noggrannheten med Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Upplev förbättrad OCR‑noggrannhet med Aspose OCR när du bearbetar bilder.
 
 ## Vanliga frågor
 

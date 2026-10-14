@@ -207,6 +207,9 @@ weight: 25
 ### [Aspose OCR 範例 – 在 C# 中啟用拼寫檢查並修正錯誤](./aspose-ocr-example-enable-spellcheck-and-fix-errors-in-c/)
 ### [如何在 C# 中批次執行 OCR – 完整程式設計指南](./how-to-batch-ocr-in-c-complete-programming-guide/)
 一步步教您在 C# 中批次處理 OCR，提升效率與精確度。
+### [在 OCR 圖像辨識中執行圖像 OCR – 使用 Aspose OCR 提升精確度](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+### [在 OCR 圖像辨識中使用 GPU 執行圖像 OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+利用 GPU 加速 Aspose.OCR for .NET，提升圖像文字辨識效能與速度。
 
 ## 常見問題
 

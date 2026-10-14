@@ -370,6 +370,14 @@ Leer hoe u met Aspose.OCR in C# snel tekst uit gescande documenten kunt extraher
 Leer hoe u een doorzoekbare PDF maakt, afbeeldingen naar EPUB converteert en tekst toevoegt met Aspose.OCR voor .NET.
 ### [Live OCR-tutorial: Tekst detecteren in video met C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Leer hoe u met Aspose.OCR realtime tekst uit video’s kunt detecteren met C#.
+### [Hoe Aspose te gebruiken voor OCR Arabische tekst – C# OCR-voorbeeld](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Leer hoe u met Aspose.OCR Arabische tekst in C# kunt herkennen en verwerken.
+### [Hoe Aspose OCR te gebruiken om afbeelding naar JSON te converteren](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Leer hoe u met Aspose.OCR een afbeelding naar JSON-formaat converteert voor eenvoudige integratie.
+### [Maak EPUB-bestand van afbeelding – Complete C# OCR-gids](./create-epub-file-from-image-complete-c-ocr-guide/)
+Leer hoe u met Aspose.OCR een EPUB-bestand maakt van een afbeelding met C#.
+### [Herken tekst van afbeelding met Aspose OCR – Complete C# Async-gids](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Leer asynchroon tekst uit afbeeldingen te herkennen met Aspose OCR in C# met deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

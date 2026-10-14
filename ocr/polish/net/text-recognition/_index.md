@@ -373,6 +373,14 @@ Dowiedz się, jak przy użyciu Aspose.OCR przekształcić obrazy w przeszukiwaln
 Dowiedz się, jak w C# wykonać OCR i wyodrębnić tekst z obrazu przy użyciu Aspose.OCR. Przewodnik krok po kroku.
 ### [Live OCR: wykrywanie tekstu w wideo w C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Naucz się wykrywać tekst wideo w czasie rzeczywistym przy użyciu Aspose.OCR i C#. Praktyczny przewodnik krok po kroku.
+### [Jak używać Aspose do OCR tekstu arabskiego – przykład w C#](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Poznaj, jak rozpoznawać arabski tekst w .NET przy użyciu Aspose.OCR w przykładzie C#.
+### [Jak używać Aspose OCR do konwersji obrazu na JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Dowiedz się, jak przy użyciu Aspose OCR przekształcić obraz w format JSON, aby łatwo przetwarzać wyniki OCR w aplikacjach .NET.
+### [Utwórz plik EPUB z obrazu – Kompletny przewodnik OCR w C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+Utwórz plik EPUB z obrazu przy użyciu Aspose.OCR w C#. Kompletny przewodnik krok po kroku.
+### [Rozpoznaj tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C# async](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Poznaj, jak asynchronicznie rozpoznawać tekst z obrazów w C# przy użyciu Aspose OCR. Kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

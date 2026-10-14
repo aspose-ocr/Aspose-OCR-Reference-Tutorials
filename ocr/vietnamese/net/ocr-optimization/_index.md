@@ -184,6 +184,9 @@ Hướng dẫn cách bật tính năng kiểm tra chính tả và sửa lỗi OC
 Hướng dẫn chi tiết cách nhận dạng ký tự tiếng Trung trong ảnh bằng Aspose.OCR và C#, nâng cao độ chính xác.
 ### [Cách thực hiện OCR hàng loạt trong C# – Hướng dẫn lập trình đầy đủ](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# sử dụng Aspose.OCR, bao gồm cấu hình, xử lý đa ảnh và lưu kết quả.
+### [Chạy OCR trên hình ảnh với GPU – Hướng dẫn C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Tận dụng sức mạnh GPU để tăng tốc quá trình OCR trên hình ảnh bằng Aspose.OCR trong C#.
+### [Thực hiện OCR trên hình ảnh – Tăng độ chính xác với Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 
 ## Câu hỏi thường gặp
 

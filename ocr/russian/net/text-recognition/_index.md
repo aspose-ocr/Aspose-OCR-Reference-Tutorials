@@ -359,6 +359,14 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по использованию Aspose.OCR в C# для извлечения текста из изображений.
 ### [Live OCR Tutorial: Обнаружение текста в видео с C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Узнайте, как в реальном времени распознавать текст в видеопотоке с помощью Aspose.OCR и C#.
+### [Как использовать Aspose для OCR арабского текста – пример на C#](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Узнайте, как распознавать арабский текст с помощью Aspose.OCR в C# и интегрировать результаты в свои .NET‑приложения.
+### [Как использовать Aspose OCR для преобразования изображения в JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Научитесь конвертировать изображения в JSON с помощью Aspose OCR, следуя пошаговому руководству.
+### [Создать EPUB‑файл из изображения – Полное руководство по OCR на C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+Создайте EPUB‑файл из изображения с помощью Aspose.OCR на C#, следуя пошаговому полному руководству.
+### [Распознать текст с изображения с помощью Aspose OCR – Полное руководство по асинхронному C#](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Освойте асинхронный OCR в C# с Aspose, получая текст из изображений быстро и эффективно.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

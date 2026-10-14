@@ -382,6 +382,12 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل صورة إلى ملف EPUB ثم دمج النص لإنشاء PDF قابل للبحث باستخدام Aspose.OCR.
 ### [دليل OCR مباشر: اكتشاف النص في الفيديو باستخدام C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 تعلم كيفية استخدام Aspose.OCR في C# لاكتشاف النص في مقاطع الفيديو في الوقت الحقيقي.
+### [كيفية استخدام Aspose للتعرف الضوئي على النص العربي – مثال C# OCR](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة النص العربي في تطبيقات C# واستخراج النتائج بدقة وسهولة.
+### [كيفية استخدام Aspose OCR لتحويل الصورة إلى JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+تعلم كيفية تحويل الصور إلى تنسيق JSON بسهولة باستخدام Aspose OCR في تطبيقات .NET.
+### [إنشاء ملف EPUB من صورة – دليل كامل لـ OCR باستخدام C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+اكتشف كيفية تحويل صورة إلى ملف EPUB باستخدام Aspose.OCR في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,7 +59,8 @@ weight: 25
 
 ## บทเรียนการเพิ่มประสิทธิภาพ OCR
 
-
+### [ทำ OCR บนภาพ – เพิ่มความแม่นยำด้วย Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+เรียนรู้วิธีเพิ่มความแม่นยำของ OCR บนภาพด้วย Aspose OCR ผ่านเทคนิคการปรับแต่งขั้นสูง.
 
 ### [วิธีใช้ฟิลเตอร์ใน Aspose OCR – เพิ่มประสิทธิภาพการแยกข้อความ](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 
@@ -210,6 +211,9 @@ weight: 25
 
 ### [วิธีทำ OCR แบบกลุ่มใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./how-to-batch-ocr-in-c-complete-programming-guide/)
 เรียนรู้วิธีประมวลผล OCR หลายไฟล์พร้อมกันใน C# ด้วย Aspose.OCR พร้อมตัวอย่างโค้ดเต็ม
+
+### [ทำ OCR บนภาพด้วย GPU – คำแนะนำ C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+เรียนรู้วิธีใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose.OCR ใน C#.
 
 ## คำถามที่พบบ่อย
 

@@ -222,6 +222,12 @@ C# में Aspose.OCR का उपयोग करके चीनी भा�
 ### [C# में बैच OCR कैसे लागू करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-batch-ocr-in-c-complete-programming-guide/)
 C# में बैच OCR कैसे लागू करें, चरण‑दर‑चरण पूर्ण प्रोग्रामिंग गाइड।
 
+### [GPU के साथ छवि पर OCR चलाएँ – C# Aspose OCR गाइड](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+GPU का उपयोग करके तेज़ OCR निष्पादन के लिए C# में Aspose OCR का गाइड।
+
+### [छवि पर OCR निष्पादित करें – Aspose OCR के साथ सटीकता बढ़ाएँ](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Aspose OCR का उपयोग करके छवि पर तेज़ और सटीक OCR चलाएँ, परिणामों की सटीकता बढ़ाएँ।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

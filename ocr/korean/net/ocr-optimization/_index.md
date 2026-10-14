@@ -185,6 +185,10 @@ C# 코드에서 Aspose OCR을 사용해 맞춤법 검사를 활성화하고 인�
 Aspose.OCR for .NET를 사용해 중국어 이미지에서 텍스트를 정확히 추출하고, C# 코드로 전체 과정을 구현하는 단계별 가이드입니다.
 ### [C#에서 배치 OCR 수행 – 전체 프로그래밍 가이드](./how-to-batch-ocr-in-c-complete-programming-guide/)
 C#에서 배치 OCR을 구현하는 전체 가이드로, 대량 이미지 처리와 결과 저장 방법을 단계별로 안내합니다.
+### [이미지에서 OCR 수행 – Aspose OCR로 정확도 향상](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Aspose OCR을 사용하여 이미지에서 텍스트를 추출하고 정확도를 높이는 방법을 단계별로 안내합니다.
+### [GPU로 이미지 OCR 실행 – C# Aspose OCR 가이드](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+GPU 가속을 활용하여 이미지 OCR을 수행하고, C#에서 Aspose OCR을 최적화하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

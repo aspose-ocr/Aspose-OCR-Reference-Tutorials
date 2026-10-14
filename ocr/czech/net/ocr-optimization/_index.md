@@ -214,6 +214,10 @@ Ukázkový kód, který zapíná kontrolu pravopisu v Aspose.OCR a automaticky o
 ### [Jak provést OCR na čínských obrázcích – Kompletní průvodce v C#](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 Naučte se rozpoznávat čínské znaky z obrázků pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
 ### [Jak provést dávkové OCR v C# – Kompletní programovací průvodce](./how-to-batch-ocr-in-c-complete-programming-guide/)
+### [Spustit OCR na obrázku s GPU – C# Aspose OCR průvodce](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Využijte GPU pro zrychlené OCR v C# s Aspose.OCR a dosáhněte vyšší výkon a přesnost.
+### [Provést OCR na obrázku – Zvýšit přesnost s Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Zlepšete přesnost rozpoznávání textu na obrázcích pomocí pokročilých nastavení Aspose OCR.
 
 ## Často kladené otázky
 

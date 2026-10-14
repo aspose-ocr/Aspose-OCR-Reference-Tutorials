@@ -217,6 +217,10 @@ Lernen Sie, wie Sie die Rechtschreibprüfung einschalten und OCR‑Fehler in C# 
 Erfahren Sie, wie Sie chinesische Bildtexte mit Aspose.OCR in C# präzise erkennen und verarbeiten.
 ### [Batch-OCR in C# – Vollständiger Programmierleitfaden](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mehrere Bilder in C# stapelweise mit Aspose.OCR verarbeiten und Ergebnisse effizient speichern.
+### [OCR auf Bild ausführen – Genauigkeit steigern mit Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Steigern Sie die OCR‑Genauigkeit, indem Sie Bild‑OCR mit Aspose OCR ausführen und Optimierungstechniken anwenden.
+### [OCR auf Bild mit GPU ausführen – C# Aspose OCR‑Leitfaden](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Nutzen Sie die GPU‑Beschleunigung, um OCR‑Ergebnisse in C# schneller zu erzielen und die Erkennungsgenauigkeit zu steigern.
 
 ## Häufig gestellte Fragen
 

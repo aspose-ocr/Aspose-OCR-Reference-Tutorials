@@ -213,6 +213,10 @@ C# を使用して中国語の画像からテキストを抽出する手順を�
 
 ### [C# でバッチ OCR を実行する方法 – 完全プログラミングガイド](./how-to-batch-ocr-in-c-complete-programming-guide/)
 C# で大量の画像を一括処理し、OCR を実行する手順をステップバイステップで解説します。
+### [画像で OCR を実行 – Aspose OCR で精度向上](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Aspose OCR を使用して画像からテキストを抽出し、精度を向上させる方法を解説します。
+### [GPU で画像の OCR を実行 – C# Aspose OCR ガイド](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+GPU を活用して高速に画像からテキストを抽出する方法を C# で解説します。
 
 ## よくある質問
 

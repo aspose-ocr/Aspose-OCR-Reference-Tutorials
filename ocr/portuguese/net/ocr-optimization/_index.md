@@ -67,6 +67,8 @@ Salve facilmente resultados de OCR multipágina como documentos com Aspose.OCR p
 Usando a Listagem de Tutoriais Aspose.OCR para .NET, você pode acessar recursos adicionais e manter-se atualizado sobre os últimos avanços em otimização de OCR. Mergulhe no mundo da precisão e eficiência com os tutoriais Aspose.OCR para .NET.
 
 ## Tutoriais de Otimização de OCR
+### [Executar OCR em Imagem – Aumentar Precisão com Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Melhore a precisão do OCR em imagens usando técnicas avançadas com Aspose OCR.
 ### [Executar OCR em Imagem a partir de URL em Reconhecimento de Imagem OCR](./perform-ocr-on-image-from-url/)
 Explore integração de OCR sem atritos com Aspose.OCR para .NET. Reconheça texto de imagens com precisão.
 ### [Preparar Retângulos em Reconhecimento de Imagem OCR](./prepare-rectangles/)
@@ -222,6 +224,8 @@ Aprenda a habilitar a verificação ortográfica no Aspose OCR e corrigir erros 
 Aprenda a reconhecer texto em imagens chinesas usando Aspose.OCR em C#, passo a passo, para alta precisão.
 ### [Como fazer OCR em lote em C# – Guia de programação completo](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Aprenda a processar múltiplas imagens simultaneamente usando Aspose.OCR em C#, com código completo e dicas de desempenho.
+### [Executar OCR em Imagem com GPU – Guia C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Aprenda a acelerar o reconhecimento de texto usando GPU com Aspose.OCR para .NET em projetos C#.
 
 ## Perguntas Frequentes
 

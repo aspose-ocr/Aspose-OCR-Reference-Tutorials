@@ -61,6 +61,8 @@ Aprenda a convertir imágenes a JSON con Aspose.OCR en C# mediante una guía pas
 
 ### [OCR de imagen a JSON en C# – Guía completa paso a paso](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
 Aprenda a convertir imágenes OCR a JSON en C# con Aspose OCR mediante esta guía completa paso a paso.
+### [Cómo usar Aspose OCR para convertir una imagen a JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Aprenda a convertir imágenes a formato JSON usando Aspose OCR en .NET, con una guía paso a paso para integrar resultados estructurados.
 ### [Modo de detección de áreas OCR en reconocimiento de imágenes OCR](./ocr-detect-areas-mode/)
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento eficiente del texto de las imágenes. Explore el modo de detección de áreas de OCR para obtener resultados precisos.
 
@@ -392,6 +394,12 @@ Aprenda a utilizar OCR en C# para extraer texto de documentos escaneados de form
 Aprenda a realizar OCR en C# para extraer texto de imágenes rápidamente y de forma sencilla.
 ### [Tutorial de OCR en vivo: Detectar texto en video con C#](./live-ocr-tutorial-detect-text-in-video-with-c/)
 Aprenda a detectar texto en video en tiempo real usando OCR con C#.
+### [Cómo usar Aspose para OCR de texto árabe – ejemplo en C#](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Aprenda a reconocer texto árabe con Aspose.OCR en C#, siguiendo una guía paso a paso para integrar OCR árabe en sus aplicaciones .NET.
+### [Crear archivo EPUB a partir de una imagen – Guía completa de OCR en C#](./create-epub-file-from-image-complete-c-ocr-guide/)
+Aprenda a generar archivos EPUB a partir de imágenes usando Aspose.OCR en C#, con una guía paso a paso para integrar OCR y crear ebooks.
+### [Reconocer texto de imagen con Aspose OCR – Guía completa C# asincrónica](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Aprenda a reconocer texto de imágenes usando Aspose OCR en C# de forma asíncrona con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

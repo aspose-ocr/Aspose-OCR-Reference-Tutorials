@@ -222,6 +222,10 @@ Leer hoe je spellcheck inschakelt en OCR‑fouten corrigeert in C# met Aspose.OC
 Leer stap‑voor‑stap hoe je Chinese tekens herkent met Aspose.OCR in C# en optimale resultaten behaalt.
 ### [Hoe batch-OCR in C# – Complete programmeergids](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Leer hoe je meerdere afbeeldingen in één batch verwerkt met Aspose.OCR in C#, inclusief code‑voorbeelden en optimalisatietips.
+### [OCR uitvoeren op afbeelding met GPU – C# Aspose OCR-gids](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Versnel OCR-prestaties door GPU-versnelling te gebruiken in C# met Aspose.OCR. Volg deze stap‑voor‑stap gids.
+### [OCR uitvoeren op afbeelding – Verbeter de nauwkeurigheid met Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Verhoog de OCR‑nauwkeurigheid met geavanceerde instellingen in Aspose OCR voor .NET.
 
 ## Veelgestelde vragen
 

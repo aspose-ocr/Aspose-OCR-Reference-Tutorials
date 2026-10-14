@@ -366,6 +366,14 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 將影像轉換為 EPUB，然後加入文字以生成可搜尋的 PDF，提供完整步驟與範例代碼。
 ### [即時 OCR 教學：使用 C# 偵測影片文字](./live-ocr-tutorial-detect-text-in-video-with-c/)
 透過 Aspose.OCR 在 C# 中即時偵測影片中的文字，提供完整步驟與範例代碼。
+### [如何使用 Aspose 進行阿拉伯文字 OCR – C# 範例](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+使用 Aspose.OCR 在 .NET 中辨識阿拉伯文字，提供完整的 C# 範例說明。
+### [如何使用 Aspose OCR 將影像轉換為 JSON](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+學習如何使用 Aspose OCR 將影像轉換為 JSON 格式，快速取得結構化的 OCR 結果。
+### [從影像建立 EPUB 檔案 – 完整 C# OCR 教學](./create-epub-file-from-image-complete-c-ocr-guide/)
+使用 Aspose.OCR 於 .NET 中將影像轉換為 EPUB 檔案，完整的 C# 步驟指南。
+### [使用 Aspose OCR 從影像辨識文字 – 完整 C# 非同步指南](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+透過本完整的 C# 非同步範例，學習如何使用 Aspose OCR 從影像快速取得文字。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -208,6 +208,10 @@ Step‑by‑step guide to recognize Chinese text in images using Aspose.OCR for 
 Learn to deskew images and extract accurate text using Aspose.OCR in C#. Follow the step‑by‑step guide for optimal results.
 ### [How to batch OCR in C# – Complete Programming Guide](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Master batch OCR processing in C# with Aspose.OCR. Learn to handle multiple images efficiently in a single program.
+### [Run OCR on Image with GPU – C# Aspose OCR Guide](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+Leverage GPU acceleration to speed up OCR processing in C# using Aspose.OCR, boosting performance for large image batches.
+### [Perform OCR on Image – Boost Accuracy with Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Boost OCR accuracy on images using Aspose OCR with advanced preprocessing and configuration tips.
 
 ## Frequently Asked Questions
 

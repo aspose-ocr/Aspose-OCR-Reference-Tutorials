@@ -197,6 +197,10 @@ C# ile Aspose OCR kullanarak yazım denetimini etkinleştirip tanıma hataların
 Aspose.OCR for .NET ile Çince görüntülerde yüksek doğruluklu OCR yapın ve adım adım rehberimizi izleyin.
 ### [C#'ta toplu OCR nasıl yapılır – Tam Programlama Kılavuzu](./how-to-batch-ocr-in-c-complete-programming-guide/)
 C# ile toplu OCR işlemleri yaparak birden çok görüntüyü otomatik olarak işleyin ve sonuçları kaydedin.
+### [Görüntüde OCR Gerçekleştirme – Aspose OCR ile Doğruluğu Artırın](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+Aspose OCR ile görüntüde OCR uygulayın, doğruluğu artırın ve sonuçları optimize edin.
+### [GPU ile Görüntüde OCR Çalıştırma – C# Aspose OCR Rehberi](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
+GPU hızlandırmalı OCR ile görüntülerden metin çıkarın, C# ve Aspose OCR kullanarak performansı artırın.
 
 ## Sıkça Sorulan Sorular
 

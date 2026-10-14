@@ -49,6 +49,8 @@ Doğru karakter tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştiri
 Görüntülerdeki kusursuz metin tanımaya yönelik güçlü bir OCR çözümü olan Aspose.OCR for .NET'i keşfedin.
 ### [OCR Görüntü Tanıma'da Sonucu JSON Olarak Al](./get-result-as-json/)
 Aspose.OCR for .NET'in gücünü açığa çıkarın. OCR sonuçlarını JSON formatında zahmetsizce almayı öğrenin. Bu adım adım kılavuzla görüntü tanıma yeteneğinizi geliştirin.
+### [Aspose OCR ile Görüntüyü JSON'a Dönüştürme](./how-to-use-aspose-ocr-to-convert-image-to-json/)
+Aspose OCR for .NET kullanarak görüntüleri JSON formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [OCR Görüntü Tanıma'da OCR Algılama Alanları Modu](./ocr-detect-areas-mode/)
 Etkili görüntü metni tanıma için .NET uygulamalarınızı Aspose.OCR ile geliştirin. Kesin sonuçlar için OCR Tespit Alanları Modunu keşfedin.
 ### [OCR Görüntü Tanıma'da PDF'yi tanıma](./recognize-pdf/)
@@ -372,6 +374,12 @@ C# ile OCR kullanarak tarama dosyalarından metni hızlıca çıkarın ve .NET p
 Görsel dosyaları EPUB'a dönüştürüp metin ekleyerek arama yapılabilir PDF oluşturmayı adım adım öğrenin.
 ### [Canlı OCR Eğitimi: C# ile Videoda Metin Algılama](./live-ocr-tutorial-detect-text-in-video-with-c/)
 C# kullanarak video akışında gerçek zamanlı metin algılamayı öğrenin ve uygulamalarınıza canlı OCR yeteneği ekleyin.
+### [Aspose ile OCR Arapça Metin Kullanımı – C# OCR Örneği](./how-to-use-aspose-for-ocr-arabic-text-c-ocr-example/)
+Arapça metinlerde yüksek doğrulukla OCR gerçekleştirmek için Aspose.OCR for .NET ve C# örnek kodunu öğrenin.
+### [Görüntüden EPUB Dosyası Oluşturma – Tam C# OCR Kılavuzu](./create-epub-file-from-image-complete-c-ocr-guide/)
+Görüntülerden EPUB dosyaları oluşturmayı ve C# ile tam OCR entegrasyonunu adım adım öğrenin.
+### [Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Async Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
+Aspose OCR ve C# async kullanarak görüntülerden metin çıkarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
