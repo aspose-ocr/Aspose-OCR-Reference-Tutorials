@@ -25,26 +25,6 @@ title: Hoe Aspose OCR te gebruiken om een afbeelding naar JSON te converteren
 url: /nl/net/text-recognition/how-to-use-aspose-ocr-to-convert-image-to-json/
 ---
 
-talen, maar je moet de `Language`‑eigenschap dienovereenkomstig instellen (bijv. `ocrEngine.Configuration.Language = Language.English;`)."
-
-Next heading:
-
-## Full Working Example (Copy‑Paste Ready)
-
-Translate: "## Volledig werkend voorbeeld (Klaar om te kopiëren‑plakken)"
-
-Code block: keep as is.
-
-But there is a truncated line at end: "throw new InvalidOperationException("OCR". The original truncated. We'll keep as is.
-
-After code block, we have closing shortcodes.
-
-We need to ensure we keep the shortcodes exactly.
-
-Now produce final content with translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -269,7 +249,15 @@ class JsonOutputExample
         // 5️⃣ Run OCR – this is where we actually extract text from image
         var ocrResult = ocrEngine.Recognize(inputImage);
         if (ocrResult == null)
-            throw new InvalidOperationException("OCR
+            throw new InvalidOperationException("OCR recognition failed.");
+
+        // 6️⃣ Save the JSON result to a file
+        var outputPath = @"YOUR_DIRECTORY/result.json";
+        File.WriteAllText(outputPath, ocrResult.Text);
+        Console.WriteLine($"JSON output saved to: {outputPath}");
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

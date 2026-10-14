@@ -24,20 +24,6 @@ title: Jak použít Aspose OCR k převodu obrázku na JSON
 url: /cs/net/text-recognition/how-to-use-aspose-ocr-to-convert-image-to-json/
 ---
 
-klad (připravený ke zkopírování)"
-
-Then code block: keep unchanged.
-
-But note the code block is truncated: ends with `throw new InvalidOperationException("OCR` and then the content stops. We should keep as is.
-
-After code block, there are closing shortcodes and back button.
-
-We must keep them unchanged.
-
-Now produce final content with translations and unchanged elements.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -262,7 +248,15 @@ class JsonOutputExample
         // 5️⃣ Run OCR – this is where we actually extract text from image
         var ocrResult = ocrEngine.Recognize(inputImage);
         if (ocrResult == null)
-            throw new InvalidOperationException("OCR
+            throw new InvalidOperationException("OCR recognition failed.");
+
+        // 6️⃣ Save the JSON result to a file
+        var outputPath = @"YOUR_DIRECTORY/result.json";
+        File.WriteAllText(outputPath, ocrResult.Text);
+        Console.WriteLine($"JSON output saved to: {outputPath}");
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
