@@ -1,204 +1,205 @@
 ---
 category: general
-date: 2026-03-15
-description: Reconnaître le texte d’une image en C# et extraire le texte russe hors
-  ligne. Apprenez comment charger une image pour l’OCR et lire le texte de l’image
-  avec Aspose OCR.
+date: 2026-02-09
+description: Apprenez à reconnaître le texte à partir d’une image et à extraire le
+  texte brut en utilisant un dictionnaire personnalisé en C#. Inclut du code étape
+  par étape et des astuces.
 draft: false
 keywords:
 - recognize text from image
-- extract russian text
-- how to read image text
-- how to extract text from picture
-- load image for ocr
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: fr
-og_description: Reconnaître le texte d’une image en C# et extraire le texte russe
-  hors ligne. Suivez ce tutoriel étape par étape pour charger l’image pour l’OCR et
-  lire le texte de l’image.
-og_title: Reconnaître du texte à partir d'une image avec Aspose OCR – Guide complet
-  C#
+og_description: Reconnaître du texte à partir d'une image en C# avec Aspose OCR. Suivez
+  ce guide pour extraire du texte brut et ajouter un dictionnaire personnalisé afin
+  d'améliorer la précision.
+og_title: Reconnaître le texte d’une image – Tutoriel complet C#
 tags:
-- C#
 - OCR
+- C#
 - Aspose
 title: Reconnaître le texte à partir d'une image avec Aspose OCR – Guide complet C#
 url: /fr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
->}}
 
-Make sure to keep them unchanged.
 
-Now produce final output with all translations.
 
-Check for any leftover English text: "C# Guide" we translated "Guide complet C#". Good.
 
-Check code block placeholders: keep as is.
 
-Check image alt translation.
-
-Check table formatting: keep markdown table.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# reconnaître du texte à partir d'une image avec Aspose OCR – Guide complet C#
+# reconnaître du texte à partir d'une image – Tutoriel complet C#
 
-Vous avez déjà eu besoin de **reconnaître du texte à partir d'une image** mais votre application ne peut pas dépendre d'une connexion internet ? Vous n'êtes pas seul. Dans de nombreux scénarios d'entreprise — pensez aux kiosques, aux terminaux de point de vente ou aux serveurs isolés — vous devez **extraire du texte russe** sans faire appel à un service cloud. Ce tutoriel vous montre exactement comment **charger une image pour l'OCR**, configurer Aspose OCR en mode hors ligne, et enfin **lire le texte de l'image** à la volée.
+Vous avez déjà eu besoin de **reconnaître du texte à partir d'une image** mais les résultats manquaient constamment de mots spécifiques à votre domaine ? Vous n'êtes pas seul. Dans de nombreux projets—numérisation de factures, lecture de badges, ou simplement extraction de légendes à partir de captures d'écran—le moteur OCR par défaut n'est tout simplement pas assez intelligent concernant votre vocabulaire.  
 
-Nous allons parcourir un exemple réel qui commence avec un PNG contenant des caractères cyrilliques et se termine par la sortie texte brut affichée dans la console. À la fin, vous pourrez insérer cet extrait dans n'importe quel projet .NET et disposer d'un reconnaisseur hors ligne pleinement fonctionnel. Aucun raccourci caché « voir la documentation » — seulement une solution complète, exécutable, et le raisonnement derrière chaque ligne.
+La bonne nouvelle ? En chargeant un **custom dictionary** vous pouvez améliorer considérablement la précision et, bien sûr, **extract plain text** en une seule étape propre. Dans ce tutoriel, nous parcourrons l’ensemble du processus, de la lecture d’un fichier de dictionnaire à l’impression du résultat OCR, en utilisant Aspose.OCR en C#.  
 
-## Ce dont vous avez besoin
+Nous répondrons également à la question persistante « **how to add custom dictionary** », vous montrerons **how to extract text** efficacement, et soulignerons les pièges courants afin que vous ne perdiez pas une heure supplémentaire à ajuster les paramètres.
 
-- **.NET 6 ou version ultérieure** (l'API fonctionne également avec .NET Framework 4.6+, mais .NET 6 est le meilleur choix).
-- **Aspose.OCR for .NET** package NuGet (version 23.9 ou plus récente).  
+## Ce dont vous aurez besoin
+
+- **.NET 6+** (any recent runtime works)
+- **Aspose.OCR for .NET** NuGet package  
   ```bash
   dotnet add package Aspose.OCR
   ```
-- Un dossier contenant les **ressources linguistiques hors ligne** que vous avez téléchargées depuis le portail Aspose (par ex., `Resources/Russian`).
-- Un fichier image, par exemple `russian_page.png`, qui contient le texte que vous souhaitez extraire.
+- Un **text file** (`custom_dictionary.txt`) contenant un mot par ligne – ce sont les termes que vous vous attendez à voir.
+- Une **image** (`input_image.png`) qui contient le texte que vous voulez reconnaître.
 
-C’est tout — aucun service supplémentaire, aucune clé API, rien d'autre à installer.
+Aucune bibliothèque supplémentaire, aucun service externe. Juste du pur C# et Aspose.
 
-## Étape 1 : créer l'instance du moteur OCR  
+## Étape 1 : Initialise le OCR Engine – Recognize Text from Image
 
-Tout d'abord, nous instancions la classe principale qui pilote tout.
+La première chose à faire est d’instancier un `OcrEngine`. Cet objet conserve toutes les options de configuration, y compris le dictionnaire personnalisé que nous injecterons plus tard.
 
 ```csharp
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-class OfflineResourcesExample
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine instance
+        // Initialise the OCR engine – this is where recognition starts
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Pourquoi c'est important :** `OcrEngine` est la porte d'accès à toutes les options de configuration. En le créant tôt, nous gardons la durée de vie de l'objet courte, ce qui réduit la pression mémoire sur les machines modestes.
+> **Why this matters:**  
+> Sans instance de moteur vous n’avez aucun contexte pour des paramètres comme la langue, le DPI ou les listes de mots personnalisées. Pensez à `OcrEngine` comme le cerveau qui reconnaîtra plus tard **reconnaître du texte à partir d'une image**.
 
-## Étape 2 : pointer le moteur vers vos ressources hors ligne  
+## Étape 2 : Lire le fichier de dictionnaire – How to Add Custom Dictionary
 
-Aspose OCR est fourni avec un pack de ressources hors ligne optionnel. Vous devez indiquer au moteur où le trouver et activer explicitement le mode hors ligne.
+Ensuite, nous devons **read dictionary file** le contenu dans un `HashSet<string>`. Un hash set offre une recherche en O(1), ce qui est parfait pour les vérifications internes du moteur.
 
 ```csharp
-        // Step 2: Point the engine to the offline resources folder
-        ocrEngine.Configuration.ResourcesPath = @"YOUR_DIRECTORY";
-        ocrEngine.Configuration.UseOfflineResources = true; // enforce offline mode
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-- **ResourcesPath** – Remplacez `YOUR_DIRECTORY` par le chemin absolu ou relatif contenant le modèle linguistique (par ex., `Resources/Russian`).
-- **UseOfflineResources** – Mettre cette valeur à `true` garantit que le moteur ne se connecte jamais à Internet, ce qui est crucial dans les environnements fortement soumis à la conformité.
+> **Pro tip:**  
+> Gardez le fichier de dictionnaire encodé en UTF‑8 et évitez les lignes vides ; elles seront interprétées comme des chaînes vides et pourraient perturber le moteur.
 
-> **Astuce :** Conservez le dossier de ressources à côté de votre exécutable ; cela simplifie le déploiement et évite les problèmes de résolution de chemins.
+## Étape 3 : Charger l'image – How to Extract Text
 
-## Étape 3 : sélectionner le modèle de langue  
-
-Comme nous nous concentrons sur le russe, nous choisissons la valeur d'énumération correspondante. Si vous devez plus tard passer à l'anglais ou à l'arabe, il suffit de modifier cette ligne.
+Nous chargeons maintenant l'image que nous voulons traiter. Aspose utilise `ImageStream` pour abstraire la gestion des fichiers.
 
 ```csharp
-        // Step 3: Select the language model you want to use (e.g., Russian)
-        ocrEngine.Configuration.Language = Language.Russian;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-**Pourquoi c'est important :** L'algorithme OCR utilise des jeux de caractères et des modèles statistiques spécifiques à chaque langue. Choisir la bonne langue améliore considérablement la précision, surtout pour les scripts cyrilliques.
+> **Edge case:**  
+> Si votre image dépasse 2000 × 2000 pixels, pensez à la réduire d’abord. Les images surdimensionnées peuvent ralentir la reconnaissance sans améliorer la précision.
 
-## Étape 4 : charger l'image à traiter  
+## Étape 4 : Exécuter le processus OCR – Extract Plain Text
 
-Nous chargeons maintenant l'image en mémoire. C'est ici que la partie **charger une image pour l'OCR** se produit.
-
-```csharp
-        // Step 4: Load the image that contains the text to recognize
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_page.png");
-```
-
-Assurez‑vous que le chemin du fichier correspond à l'emplacement de votre image de test. Si l'image est volumineuse, vous pouvez la redimensionner avant de la transmettre au moteur, mais pour la plupart des pages numérisées, la valeur par défaut fonctionne bien.
-
-## Étape 5 : effectuer la reconnaissance  
-
-Une fois tout configuré, l'appel réel de reconnaissance se fait via une seule méthode.
+Une fois tout préparé, appelez `Recognize`. La méthode renvoie un objet `OcrResult` qui contient à la fois le texte brut et le texte nettoyé.
 
 ```csharp
-        // Step 5: Perform OCR on the loaded image
-        OcrResult ocrResult = ocrEngine.Recognize(sourceImage);
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-`Recognize` renvoie un objet `OcrResult` contenant la chaîne extraite, les scores de confiance, et même les données de boîte englobante si vous en avez besoin plus tard.
-
-## Étape 6 : afficher le texte reconnu  
-
-Enfin, nous affichons le résultat dans la console — parfait pour un débogage rapide ou pour rediriger la sortie ailleurs.
-
-```csharp
-        // Step 6: Output the recognized text
-        Console.WriteLine(ocrResult.Text);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Lorsque vous exécutez le programme, vous devriez voir quelque chose comme :
+> **What you’ll see:**  
+> La console affiche une version propre du texte, en conservant les sauts de ligne. Si votre dictionnaire personnalisé contient « Aspose » et « OCR », ces mots apparaîtront exactement comme définis, même si l’image est légèrement bruitée.
 
-```
-Это пример текста на русском языке.
-Он будет распознан без подключения к сети.
-```
+## Exemple complet fonctionnel
 
-C’est le flux complet de **reconnaître du texte à partir d'une image**.
-
-![recognize text from image example output](ocr-result.png){: .center-image width="600" alt="exemple de sortie de reconnaissance de texte à partir d'une image"}
-
-## Comment extraire du texte russe lorsque vous avez plusieurs langues  
-
-Si votre application doit **extraire du texte russe** *et* du texte anglais de la même image, vous pouvez activer une liste de secours :
+Voici le programme **complet, prêt à copier‑coller**. Remplacez `YOUR_DIRECTORY` par le chemin réel du dossier où vous avez stocké le dictionnaire et l’image.
 
 ```csharp
-ocrEngine.Configuration.Language = Language.Russian | Language.English;
-```
-
-Le moteur essaiera d'abord le russe, puis l'anglais, en renvoyant une chaîne fusionnée unique. Cela est pratique pour les reçus bilingues ou la signalétique multilingue.
-
-## Pièges courants et comment les éviter
-
-| Problème | Symptôme | Solution |
-|----------|----------|----------|
-| Chemin `ResourcesPath` incorrect | `FileNotFoundException` à l'exécution | Vérifiez que le dossier contient les fichiers `*.bin` pour la langue choisie. |
-| `UseOfflineResources` manquant | Requêtes HTTP inattendues | Définissez `UseOfflineResources = true` pour garantir le fonctionnement hors ligne. |
-| Image volumineuse (>5 MP) | Reconnaissance lente ou erreurs de mémoire insuffisante | Redimensionnez avec `Bitmap` avant d'appeler `Recognize`. |
-| Les caractères cyrilliques apparaissent comme du bruit | Langue sélectionnée incorrecte | Assurez‑vous que `Language.Russian` est défini ; vérifiez également que l'image est enregistrée dans un format sans perte (PNG). |
-
-## Extension de l'exemple : enregistrer les résultats OCR dans un fichier  
-
-Parfois, vous devez conserver le texte extrait. Voici une petite addition :
-
-```csharp
+using System;
+using System.Collections.Generic;
 using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-// ... after Console.WriteLine
-File.WriteAllText(@"output.txt", ocrResult.Text, System.Text.Encoding.UTF8);
-Console.WriteLine("Text saved to output.txt");
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
 ```
 
-Le fichier contiendra des caractères cyrilliques encodés en Unicode, prêts pour le traitement en aval (indexation de recherche, traduction, etc.).
+**Résultat attendu** (en supposant que l’image contienne « Welcome to Aspose OCR Demo »)  
 
-## Récapitulatif
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-- Nous **reconnaissons du texte à partir d'une image** en utilisant Aspose OCR en pur C#.
-- Le tutoriel a couvert **comment lire le texte d'une image**, **charger une image pour l'OCR**, et **extraire du texte russe** avec des ressources hors ligne.
-- Toutes les étapes sont autonomes : de l'installation du package NuGet à un programme complet et exécutable.
+Si « Aspose » était présent dans votre dictionnaire personnalisé, l’orthographe sera parfaite même si l’image était légèrement floue.
 
-## Et après ?
+## FAQ – Questions fréquentes
 
-- **Expérimentez avec d'autres langues** (`Language.French`, `Language.ChineseSimplified`, …) en changeant la valeur de l'énumération.
-- **Ajustez les paramètres OCR** comme `Resolution` ou `PageSegMode` pour les PDF numérisés.
-- **Intégrez avec une API web** pour exposer le reconnaisseur en tant que microservice — n'oubliez pas de conserver le drapeau hors ligne si vous avez toujours besoin de garanties hors ligne.
+### Comment **read dictionary file** avec différents encodages ?
+Utilisez `File.ReadAllLines(path, Encoding.UTF8)` (ou `Encoding.Unicode`) pour correspondre à l’encodage du fichier. Cela empêche les caractères cachés de s’infiltrer dans le `HashSet`.
 
-N'hésitez pas à ajuster le code, ajouter la gestion des erreurs, ou l'intégrer à votre propre pipeline de traitement d'images. Si vous rencontrez un problème, les forums de la communauté Aspose sont un bon endroit pour poser des questions, mais vous disposez maintenant d'une base solide qui fonctionne immédiatement.
+### Que faire si le résultat OCR manque toujours un mot de mon dictionnaire ?
+Assurez‑vous que la casse du mot correspond à l’entrée du dictionnaire, ou définissez `ocrEngine.Configuration.IgnoreCase = true`. Vérifiez également que la résolution de l’image est d’au moins 300 dpi pour de meilleurs résultats.
 
-Bon codage, et que vos images soient toujours d'une netteté cristalline !
+### Puis‑je **extract plain text** d’un PDF au lieu d’une image ?
+Oui—Aspose.PDF peut rendre chaque page en image, puis transmettre ces images au même pipeline OCR. Le flux de travail est identique ; il suffit d’ajouter une étape de conversion PDF‑vers‑image.
+
+### Existe‑t‑il une façon de **how to add custom dictionary** à l’exécution pour plusieurs langues ?
+Absolument. Créez un `HashSet<string>` distinct par langue et échangez `ocrEngine.Configuration.CustomDictionary` avant chaque appel à `Recognize`.
+
+## Astuces & Bonnes pratiques pour une meilleure précision
+
+- **Pré‑traitez l'image** : convertissez en niveaux de gris, augmentez le contraste, ou appliquez un léger flou gaussien pour éliminer les taches.
+- **Traitement par lots** : si vous avez des dizaines d’images, réutilisez la même instance de `OcrEngine` ; ré‑initialiser à chaque fois ajoute une surcharge inutile.
+- **Consignez les données OCR brutes** : `ocrResult.TextLines` vous donne les scores de confiance ligne par ligne, utiles pour le post‑traitement ou le signalement des résultats à faible confiance.
+
+## Prochaines étapes
+
+Maintenant que vous savez **how to extract text** et **how to add custom dictionary**, explorez les sujets suivants :
+
+1. **Intégrer avec ASP.NET Core** – exposez un point d’API qui accepte une image et renvoie les résultats OCR au format JSON.  
+2. **Combiner avec Entity Framework** – stockez le texte extrait directement dans une base de données pour des enregistrements recherchables.  
+3. **Explorer la détection de langue** – changez de dictionnaire automatiquement en fonction des codes de langue détectés.
+
+Chacune de ces étapes s’appuie sur les bases posées dans ce guide, vous permettant de transformer un simple extrait **reconnaître du texte à partir d'une image** en un service prêt pour la production.
+
+---
+
+*Bon codage ! Si vous rencontrez un problème, laissez un commentaire ci‑dessous ou consultez la documentation Aspose.OCR pour des options de configuration plus avancées. Souvenez‑vous, un dictionnaire personnalisé bien conçu est souvent le secret qui transforme un OCR moyen en une extraction de texte ultra‑précise.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

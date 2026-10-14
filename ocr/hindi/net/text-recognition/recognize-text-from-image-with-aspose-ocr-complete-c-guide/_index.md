@@ -1,195 +1,202 @@
 ---
 category: general
-date: 2026-03-15
-description: C# में छवि से टेक्स्ट को पहचानें और ऑफ़लाइन रूसी टेक्स्ट निकालें। OCR
-  के लिए छवि कैसे लोड करें और Aspose OCR के साथ छवि का टेक्स्ट पढ़ें, यह सीखें।
+date: 2026-02-09
+description: सी# में कस्टम डिक्शनरी का उपयोग करके छवि से टेक्स्ट को पहचानना और साधारण
+  टेक्स्ट निकालना सीखें। इसमें चरण‑दर‑चरण कोड और टिप्स शामिल हैं।
 draft: false
 keywords:
 - recognize text from image
-- extract russian text
-- how to read image text
-- how to extract text from picture
-- load image for ocr
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: hi
-og_description: C# में छवि से पाठ को पहचानें और ऑफ़लाइन रूसी पाठ निकालें। OCR के लिए
-  छवि लोड करने और छवि का पाठ पढ़ने के लिए इस चरण‑दर‑चरण ट्यूटोरियल का पालन करें।
-og_title: Aspose OCR के साथ छवि से टेक्स्ट पहचानें – पूर्ण C# गाइड
+og_description: C# में Aspose OCR के साथ छवि से टेक्स्ट पहचानें। साधारण टेक्स्ट निकालने
+  और बेहतर सटीकता के लिए एक कस्टम शब्दकोश जोड़ने हेतु इस गाइड का पालन करें।
+og_title: छवि से टेक्स्ट पहचानें – पूर्ण C# ट्यूटोरियल
 tags:
-- C#
 - OCR
+- C#
 - Aspose
-title: Aspose OCR के साथ छवि से टेक्स्ट पहचानें – पूर्ण C# गाइड
+title: Aspose OCR के साथ छवि से पाठ पहचानें – पूर्ण C# गाइड
 url: /hi/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
-the table? No.
-
-Proceed.
-
-Let's craft translation.
-
-Be careful with bullet points: keep dash.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose OCR के साथ छवि से टेक्स्ट पहचानें – पूर्ण C# गाइड
+# छवि से पाठ पहचानें – पूर्ण C# ट्यूटोरियल
 
-क्या आपको कभी **छवि से टेक्स्ट पहचानने** की ज़रूरत पड़ी है लेकिन आपका ऐप इंटरनेट कनेक्शन पर निर्भर नहीं हो सकता? आप अकेले नहीं हैं। कई एंटरप्राइज़ परिदृश्यों में—जैसे कियोस्क, पॉइंट‑ऑफ़‑सेल टर्मिनल, या अलग‑थलग सर्वर—आपको **रूसी टेक्स्ट निकालना** है बिना क्लाउड सेवा के उपयोग के। यह ट्यूटोरियल आपको दिखाता है कि **OCR के लिए छवि लोड करें**, Aspose OCR को ऑफ़लाइन मोड के लिए कॉन्फ़िगर करें, और अंत में **छवि का टेक्स्ट रीयल‑टाइम पढ़ें**।
+क्या आपको कभी **छवि से पाठ पहचानने** की जरूरत पड़ी है लेकिन परिणाम डोमेन‑विशिष्ट शब्दों को मिस कर रहे थे? आप अकेले नहीं हैं। कई प्रोजेक्ट्स में—इनवॉइस स्कैनिंग, बैज रीडिंग, या बस स्क्रीनशॉट से कैप्शन निकालना—डिफ़ॉल्ट OCR इंजन आपके शब्दावली के बारे में पर्याप्त स्मार्ट नहीं है।  
 
-हम एक वास्तविक उदाहरण के माध्यम से चलेंगे जिसमें एक PNG फ़ाइल जिसमें साइरिलिक अक्षर हैं, से शुरू करके कंसोल में साधारण‑टेक्स्ट आउटपुट तक पहुँचेंगे। अंत तक, आप इस स्निपेट को किसी भी .NET प्रोजेक्ट में डाल सकते हैं और एक पूरी तरह कार्यशील ऑफ़लाइन पहचानकर्ता प्राप्त करेंगे। कोई छिपे “डॉक्यूमेंट देखें” शॉर्टकट नहीं—सिर्फ एक पूर्ण, चलाने योग्य समाधान और प्रत्येक लाइन के पीछे की तर्कसंगतता।
+अच्छी खबर? एक **कस्टम डिक्शनरी** लोड करके आप सटीकता को नाटकीय रूप से सुधार सकते हैं और, बेशक, **सादा पाठ निकाल सकते** हैं एक ही साफ़ कदम में। इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे, शब्दकोश फ़ाइल पढ़ने से लेकर OCR परिणाम प्रिंट करने तक, Aspose.OCR को C# में उपयोग करके।  
 
-## What You’ll Need
+हम “**कस्टम डिक्शनरी कैसे जोड़ें**” वाले सवाल का जवाब भी देंगे, आपको **पाठ कैसे निकालें** दिखाएंगे, और सामान्य pitfalls को उजागर करेंगे ताकि आप सेटिंग्स को ट्यून करने में एक घंटे भी न बर्बाद करें।
 
-- **.NET 6 या बाद का संस्करण** (API .NET Framework 4.6+ के साथ भी काम करता है, लेकिन .NET 6 सबसे उपयुक्त है)।
-- **Aspose.OCR for .NET** NuGet पैकेज (वर्ज़न 23.9 या नया)।  
+## आपको क्या चाहिए
+
+- **.NET 6+** (कोई भी नया रनटाइम काम करेगा)
+- **Aspose.OCR for .NET** NuGet पैकेज  
   ```bash
   dotnet add package Aspose.OCR
   ```
-- एक फ़ोल्डर जिसमें **ऑफ़लाइन भाषा संसाधन** हों जो आपने Aspose के पोर्टल से डाउनलोड किए हैं (उदाहरण के लिए `Resources/Russian`)।
-- एक इमेज फ़ाइल, जैसे `russian_page.png`, जिसमें वह टेक्स्ट हो जिसे आप निकालना चाहते हैं।
+- एक **टेक्स्ट फ़ाइल** (`custom_dictionary.txt`) जिसमें प्रत्येक पंक्ति में एक शब्द हो – ये वही शब्द हैं जो आप देखना चाहते हैं।
+- एक **छवि** (`input_image.png`) जिसमें वह पाठ हो जिसे आप पहचानना चाहते हैं।
 
-बस इतना ही—कोई अतिरिक्त सेवा, कोई API कुंजी, और कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+कोई अतिरिक्त लाइब्रेरी नहीं, कोई बाहरी सेवा नहीं। सिर्फ शुद्ध C# और Aspose।
 
-## Step 1: Create the OCR Engine Instance  
+## चरण 1: OCR इंजन को प्रारंभ करें – छवि से पाठ पहचानें
 
-सबसे पहले हम वह कोर क्लास बनाते हैं जो सब कुछ चलाता है।
+पहला काम है `OcrEngine` को स्पिन‑अप करना। यह ऑब्जेक्ट सभी कॉन्फ़िगरेशन विकल्पों को रखता है, जिसमें वह कस्टम डिक्शनरी भी शामिल है जिसे हम बाद में इंजेक्ट करेंगे।
 
 ```csharp
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-class OfflineResourcesExample
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine instance
+        // Initialise the OCR engine – this is where recognition starts
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**क्यों महत्वपूर्ण है:** `OcrEngine` सभी कॉन्फ़िगरेशन विकल्पों का गेटवे है। इसे जल्दी बनाकर हम ऑब्जेक्ट की लाइफ़टाइम को छोटा रख सकते हैं, जिससे लो‑एंड मशीनों पर मेमोरी दबाव कम होता है।
+> **Why this matters:**  
+> बिना इंजन इंस्टेंस के आपके पास भाषा, DPI, या कस्टम शब्द सूचियों जैसी सेटिंग्स के लिए कोई संदर्भ नहीं रहता। `OcrEngine` को वह दिमाग समझें जो बाद में **छवि से पाठ पहचानने** के लिए उपयोग होगा।
 
-## Step 2: Point the Engine to Your Offline Resources  
+## चरण 2: शब्दकोश फ़ाइल पढ़ें – कस्टम डिक्शनरी कैसे जोड़ें
 
-Aspose OCR एक वैकल्पिक ऑफ़लाइन रिसोर्स पैक के साथ आता है। आपको इंजन को बताना होगा कि वह इसे कहाँ से पाए और स्पष्ट रूप से ऑफ़लाइन मोड को सक्षम करना होगा।
+अब हमें **शब्दकोश फ़ाइल** की सामग्री को `HashSet<string>` में पढ़ना है। एक हैश सेट O(1) लुकअप देता है, जो इंजन की आंतरिक जाँचों के लिए परफेक्ट है।
 
 ```csharp
-        // Step 2: Point the engine to the offline resources folder
-        ocrEngine.Configuration.ResourcesPath = @"YOUR_DIRECTORY";
-        ocrEngine.Configuration.UseOfflineResources = true; // enforce offline mode
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-- **ResourcesPath** – `YOUR_DIRECTORY` को उस पूर्ण या सापेक्ष पाथ से बदलें जिसमें भाषा मॉडल हो (उदाहरण के लिए `Resources/Russian`)।
-- **UseOfflineResources** – इसे `true` सेट करने से इंजन कभी भी इंटरनेट से कनेक्ट नहीं होगा, जो कंप्लायंस‑हेवी वातावरण में अत्यंत आवश्यक है।
+> **Pro tip:**  
+> शब्दकोश फ़ाइल को UTF‑8 एन्कोडेड रखें और खाली पंक्तियों से बचें; उन्हें खाली स्ट्रिंग्स माना जाएगा और इंजन को भ्रमित कर सकते हैं।
 
-> **प्रो टिप:** रिसोर्स फ़ोल्डर को अपने एक्सीक्यूटेबल के बगल में रखें; इससे डिप्लॉयमेंट आसान हो जाता है और पाथ‑रिज़ॉल्यूशन की समस्याएँ नहीं आतीं।
+## चरण 3: छवि लोड करें – टेक्स्ट कैसे निकालें
 
-## Step 3: Select the Language Model  
-
-चूंकि हम रूसी पर फोकस कर रहे हैं, हम संबंधित enum वैल्यू चुनते हैं। यदि बाद में आपको अंग्रेज़ी या अरबी की ज़रूरत पड़े, तो बस इस एक लाइन को बदल दें।
+अब हम उस छवि को फीड करते हैं जिसे हम प्रोसेस करना चाहते हैं। Aspose फ़ाइल हैंडलिंग को एब्स्ट्रैक्ट करने के लिए `ImageStream` का उपयोग करता है।
 
 ```csharp
-        // Step 3: Select the language model you want to use (e.g., Russian)
-        ocrEngine.Configuration.Language = Language.Russian;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-**क्यों जरूरी है:** OCR एल्गोरिद्म भाषा‑विशिष्ट कैरेक्टर सेट और सांख्यिकीय मॉडल का उपयोग करता है। सही भाषा चुनने से सटीकता में काफी सुधार होता है, विशेषकर साइरिलिक स्क्रिप्ट के लिए।
+> **Edge case:**  
+> यदि आपकी छवि 2000 × 2000 पिक्सेल से बड़ी है, तो पहले उसे डाउन‑स्केल करने पर विचार करें। बहुत बड़ी छवियां पहचान को धीमा कर सकती हैं बिना सटीकता बढ़ाए।
 
-## Step 4: Load the Image You Want to Process  
+## चरण 4: OCR प्रक्रिया चलाएँ – प्लेन टेक्स्ट निकालें
 
-अब हम चित्र को मेमोरी में लाते हैं। यही वह जगह है जहाँ **OCR के लिए छवि लोड** की प्रक्रिया होती है।
-
-```csharp
-        // Step 4: Load the image that contains the text to recognize
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_page.png");
-```
-
-सुनिश्चित करें कि फ़ाइल पाथ आपके टेस्ट इमेज के स्थान से मेल खाता हो। यदि इमेज बड़ी है, तो आप इसे इंजन को फ़ीड करने से पहले रीसाइज़ करना चाह सकते हैं, लेकिन अधिकांश स्कैन किए गए पेज़ों के लिए डिफ़ॉल्ट ठीक काम करता है।
-
-## Step 5: Perform the Recognition  
-
-सब कुछ सेट होने के बाद, वास्तविक पहचान कॉल एक ही मेथड में होती है।
+सब कुछ तैयार होने पर, `Recognize` को कॉल करें। यह मेथड एक `OcrResult` ऑब्जेक्ट रिटर्न करता है जिसमें कच्चा और साफ़ किया हुआ दोनों पाठ रहता है।
 
 ```csharp
-        // Step 5: Perform OCR on the loaded image
-        OcrResult ocrResult = ocrEngine.Recognize(sourceImage);
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-`Recognize` एक `OcrResult` ऑब्जेक्ट लौटाता है जिसमें निकाला गया स्ट्रिंग, कॉन्फिडेंस स्कोर, और यदि बाद में चाहिए तो बाउंडिंग‑बॉक्स डेटा भी शामिल होता है।
-
-## Step 6: Output the Recognized Text  
-
-अंत में, हम परिणाम को कंसोल में प्रिंट करते हैं—त्वरित डिबगिंग या आउटपुट को कहीं और पाइप करने के लिए परफेक्ट।
-
-```csharp
-        // Step 6: Output the recognized text
-        Console.WriteLine(ocrResult.Text);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-जब आप प्रोग्राम चलाएंगे, तो आपको कुछ इस तरह दिखना चाहिए:
+> **What you’ll see:**  
+> कंसोल एक साफ़, लाइन‑ब्रेक‑सहेजने वाला संस्करण प्रिंट करेगा। यदि आपके कस्टम डिक्शनरी में “Aspose” और “OCR” हैं, तो ये शब्द ठीक वैसे ही दिखेंगे जैसा आपने परिभाषित किया है, भले ही छवि थोड़ा शोरयुक्त हो।
 
-```
-Это пример текста на русском языке.
-Он будет распознан без подключения к сети.
-```
+## पूर्ण कार्यशील उदाहरण
 
-यही **छवि से टेक्स्ट पहचानने** का पूरा फ्लो है।
-
-![recognize text from image example output](ocr-result.png){: .center-image width="600" alt="छवि से टेक्स्ट पहचानने का उदाहरण आउटपुट"}
-
-## How to Extract Russian Text When You Have Multiple Languages  
-
-यदि आपके एप्लिकेशन को **रूसी टेक्स्ट** *और* अंग्रेज़ी टेक्स्ट एक ही इमेज से निकालना है, तो आप एक फॉलबैक लिस्ट सक्षम कर सकते हैं:
+नीचे **पूरा, कॉपी‑एंड‑पेस्ट तैयार** प्रोग्राम दिया गया है। `YOUR_DIRECTORY` को उस वास्तविक फ़ोल्डर पाथ से बदलें जहाँ आपने शब्दकोश और छवि रखी है।
 
 ```csharp
-ocrEngine.Configuration.Language = Language.Russian | Language.English;
-```
-
-इंजन पहले रूसी, फिर अंग्रेज़ी को ट्राई करेगा और एक ही मर्ज्ड स्ट्रिंग लौटाएगा। यह द्विभाषी रसीदों या मिश्रित‑भाषा साइनज के लिए उपयोगी है।
-
-## Common Pitfalls and How to Avoid Them  
-
-| Issue | Symptom | Fix |
-|-------|----------|-----|
-| गलत `ResourcesPath` | रनटाइम पर `FileNotFoundException` | सुनिश्चित करें कि फ़ोल्डर में चुनी गई भाषा के `*.bin` फ़ाइलें मौजूद हों। |
-| `UseOfflineResources` नहीं सेट | अनपेक्षित HTTP अनुरोध | `UseOfflineResources = true` सेट करें ताकि ऑफ़लाइन ऑपरेशन गारंटी हो। |
-| बड़ी इमेज (>5 MP) | धीमी पहचान या मेमोरी‑ओवरफ़्लो त्रुटि | `Recognize` कॉल करने से पहले `Bitmap` से डाउनस्केल करें। |
-| साइरिलिक अक्षर गड़बड़ दिख रहे हैं | गलत भाषा चयन | सुनिश्चित करें कि `Language.Russian` सेट है; साथ ही इमेज को लॉसलेस फॉर्मेट (PNG) में सेव करें। |
-
-## Extending the Example: Saving OCR Results to a File  
-
-कभी‑कभी आपको निकाले गए टेक्स्ट को स्थायी रूप से रखना पड़ता है। यहाँ एक छोटा जोड़ है:
-
-```csharp
+using System;
+using System.Collections.Generic;
 using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-// ... after Console.WriteLine
-File.WriteAllText(@"output.txt", ocrResult.Text, System.Text.Encoding.UTF8);
-Console.WriteLine("Text saved to output.txt");
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
 ```
 
-फ़ाइल में यूनिकोड‑एन्कोडेड साइरिलिक अक्षर होंगे, जो डाउनस्ट्रीम प्रोसेसिंग (सर्च इंडेक्सिंग, ट्रांसलेशन, आदि) के लिए तैयार हैं।
+**अपेक्षित आउटपुट** (मान लेते हैं कि छवि में “Welcome to Aspose OCR Demo” लिखा है)  
 
-## Recap  
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-- हमने **छवि से टेक्स्ट पहचानने** के लिए Aspose OCR को शुद्ध C# में उपयोग किया।
-- ट्यूटोरियल ने **इमेज टेक्स्ट पढ़ना**, **OCR के लिए छवि लोड करना**, और **ऑफ़लाइन रिसोर्सेज के साथ रूसी टेक्स्ट निकालना** को कवर किया।
-- सभी चरण स्व-निहित हैं: NuGet इंस्टॉलेशन से लेकर एक पूर्ण, चलाने योग्य प्रोग्राम तक।
+यदि “Aspose” आपके कस्टम डिक्शनरी में था, तो स्पेलिंग बिल्कुल सही होगी भले ही छवि में हल्का ब्लर हो।
 
-## What’s Next?  
+## अक्सर पूछे जाने वाले प्रश्न
 
-- **अन्य भाषाओं के साथ प्रयोग करें** (`Language.French`, `Language.ChineseSimplified`, …) enum वैल्यू बदलकर।
-- **OCR सेटिंग्स** जैसे `Resolution` या `PageSegMode` को स्कैन किए गए PDFs के लिए समायोजित करें।
-- **वेब API के साथ इंटीग्रेट** करें ताकि पहचानकर्ता को माइक्रोसर्विस के रूप में एक्सपोज़ किया जा सके—बस ऑफ़लाइन फ़्लैग को याद रखें यदि आपको अभी भी ऑफ़लाइन गारंटी चाहिए।
+### मैं विभिन्न एन्कोडिंग्स के साथ **शब्दकोश फ़ाइल कैसे पढ़ूँ**?
 
-कोड को अपनी जरूरतों के अनुसार बदलें, एरर हैंडलिंग जोड़ें, या इसे अपने इमेज‑प्रोसेसिंग पाइपलाइन में प्लग‑इन करें। अगर कोई समस्या आती है, तो Aspose कम्युनिटी फ़ोरम मददगार हो सकता है, लेकिन अब आपके पास एक ठोस बेसलाइन है जो बॉक्स से बाहर काम करती है।
+`File.ReadAllLines(path, Encoding.UTF8)` (या `Encoding.Unicode`) का उपयोग करके फ़ाइल की एन्कोडिंग से मेल करें। यह छिपे हुए कैरेक्टर्स को `HashSet` में घुसने से रोकता है।
 
-हैप्पी कोडिंग, और आपकी इमेजेस हमेशा क्रिस्टल‑क्लियर रहें!
+### यदि OCR परिणाम अभी भी मेरे शब्दकोश से कोई शब्द मिस कर रहा है तो क्या करें?
+
+सुनिश्चित करें कि शब्द का केस शब्दकोश एंट्री से मेल खाता है, या `ocrEngine.Configuration.IgnoreCase = true` सेट करें। साथ ही, बेहतर परिणामों के लिए छवि रेज़ोल्यूशन कम से कम 300 dpi रखें।
+
+### क्या मैं छवि के बजाय PDF से **प्लेन टेक्स्ट निकाल सकता** हूँ?
+
+हां—Aspose.PDF प्रत्येक पेज को छवि में रेंडर कर सकता है, फिर उन छवियों को उसी OCR पाइपलाइन में फीड करें। वर्कफ़्लो बिल्कुल समान है; आपको केवल PDF‑से‑छवि रूपांतरण कदम जोड़ना होगा।
+
+### क्या कई भाषाओं के लिए रनटाइम पर **कस्टम डिक्शनरी कैसे जोड़ें** का कोई तरीका है?
+
+बिल्कुल। प्रत्येक भाषा के लिए एक अलग `HashSet<string>` बनाएं और प्रत्येक `Recognize` कॉल से पहले `ocrEngine.Configuration.CustomDictionary` को स्वैप करें।
+
+## बेहतर सटीकता के लिए टिप्स और ट्रिक्स
+
+- **छवि को प्री‑प्रोसेस करें**: ग्रेस्केल में बदलें, कंट्रास्ट बढ़ाएँ, या स्पीकल्स हटाने के लिए हल्का Gaussian ब्लर लागू करें।
+- **बैच प्रोसेसिंग**: यदि आपके पास दर्जनों छवियां हैं, तो वही `OcrEngine` इंस्टेंस पुनः उपयोग करें; हर बार री‑इनिशियलाइज़ करने से अनावश्यक ओवरहेड बढ़ता है।
+- **कच्चा OCR डेटा लॉग करें**: `ocrResult.TextLines` आपको लाइन‑बाय‑लाइन कॉन्फिडेंस स्कोर देता है, जो पोस्ट‑प्रोसेसिंग या लो‑कॉन्फिडेंस परिणामों को फ़्लैग करने में उपयोगी है।
+
+## अगले कदम
+
+अब जब आप **पाठ कैसे निकालें** और **कस्टम डिक्शनरी कैसे जोड़ें** जानते हैं, तो इन फॉलो‑अप टॉपिक्स पर विचार करें:
+
+1. **ASP.NET Core के साथ इंटीग्रेट करें** – एक API एंडपॉइंट एक्सपोज़ करें जो छवि स्वीकार करे और JSON‑फ़ॉर्मेटेड OCR परिणाम रिटर्न करे।  
+2. **Entity Framework के साथ संयोजन करें** – निकाले गए सादा पाठ को सीधे डेटाबेस में स्टोर करें ताकि खोज योग्य रिकॉर्ड बन सकें।  
+3. **भाषा डिटेक्शन एक्सप्लोर करें** – डिटेक्टेड लैंग्वेज कोड के आधार पर डिक्शनरी को ऑटोमैटिकली स्विच करें।
+
+इनमें से प्रत्येक इस गाइड में स्थापित बुनियाद पर निर्मित है, जिससे आप एक साधारण **छवि से पाठ पहचानें** स्निपेट को प्रोडक्शन‑रेडी सर्विस में बदल सकते हैं।
+
+---
+
+*हैप्पी कोडिंग! यदि आप किसी समस्या में फँसते हैं, तो नीचे कमेंट करें या गहरी कॉन्फ़िगरेशन विकल्पों के लिए Aspose.OCR डॉक्यूमेंटेशन देखें। याद रखें, एक अच्छी तरह से तैयार कस्टम डिक्शनरी अक्सर वही सीक्रेट सॉस होती है जो औसत OCR को तेज़, सटीक टेक्स्ट एक्सट्रैक्शन में बदल देती है।*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-03-15
-description: 在 C# 中辨識圖像文字並離線提取俄文。了解如何載入圖像以進行 OCR，並使用 Aspose OCR 讀取圖像文字。
+date: 2026-02-09
+description: 學習如何在 C# 中使用自訂字典辨識圖像文字並擷取純文字。內含逐步程式碼與技巧。
 draft: false
 keywords:
 - recognize text from image
-- extract russian text
-- how to read image text
-- how to extract text from picture
-- load image for ocr
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: zh-hant
-og_description: 在 C# 中辨識圖像文字並離線提取俄文文字。請按照此一步一步的教學載入圖像進行 OCR，並讀取圖像文字。
-og_title: 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南
+og_description: 使用 Aspose OCR 在 C# 中識別圖像文字。請依照本指南提取純文字，並加入自訂詞典以提升準確度。
+og_title: 從圖像辨識文字 – 完整 C# 教學
 tags:
-- C#
 - OCR
+- C#
 - Aspose
-title: 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 指南
+title: 使用 Aspose OCR 從圖片辨識文字 – 完整 C# 指南
 url: /zh-hant/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -24,162 +24,173 @@ url: /zh-hant/net/text-recognition/recognize-text-from-image-with-aspose-ocr-com
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose OCR 從圖像辨識文字 – 完整 C# 教學
+# 從圖像辨識文字 – 完整 C# 教學
 
-是否曾需要**從圖像辨識文字**，但您的應用程式無法依賴網路連線？您並不孤單。在許多企業情境——例如資訊站、銷售點終端機或獨立伺服器——您必須**提取俄文文字**而不連接雲端服務。本教學將完整示範如何**載入圖像以供 OCR**、設定 Aspose OCR 為離線模式，最後即時**讀取圖像文字**。
+是否曾經需要 **從圖像辨識文字**，卻發現結果常常遺漏領域專屬的詞彙？你並不孤單。無論是發票掃描、徽章辨識，或只是從螢幕截圖中抽取說明文字，預設的 OCR 引擎往往無法正確辨識你的專有詞彙。  
 
-我們將示範一個真實案例，從包含西里爾字元的 PNG 開始，最終在主控台印出純文字結果。完成後，您即可將此程式碼片段放入任何 .NET 專案，取得完整的離線辨識功能。沒有隱藏的「請參考文件」捷徑——只有完整、可執行的解決方案以及每行程式碼背後的說明。
+好消息是，只要載入 **自訂字典**，就能大幅提升準確度，並且 **一次性抽取純文字**。在本教學中，我們將一步步示範從讀取字典檔案到印出 OCR 結果的完整流程，使用 Aspose.OCR 於 C#。  
+
+同時，我們也會回答「**如何加入自訂字典**」的常見疑問，示範 **如何有效抽取文字**，並指出常見的陷阱，讓你不再浪費時間調整設定。
 
 ## 您需要的條件
 
-- **.NET 6 或更新版本**（API 亦支援 .NET Framework 4.6+，但 .NET 6 為最佳選擇）。
-- **Aspose.OCR for .NET** NuGet 套件（版本 23.9 或更新）。  
+- **.NET 6+**（任何近期的執行環境皆可）
+- **Aspose.OCR for .NET** NuGet 套件  
   ```bash
   dotnet add package Aspose.OCR
   ```
-- 一個資料夾，內含您從 Aspose 入口網站下載的**離線語言資源**（例如 `Resources/Russian`）。
-- 一個圖像檔案，例如 `russian_page.png`，其中包含您想要擷取的文字。
+- 一個 **文字檔**（`custom_dictionary.txt`），每行放一個詞彙——即你預期會出現的字詞。
+- 一張 **圖像**（`input_image.png`），內含你想辨識的文字。
 
-就這樣——不需要額外服務、API 金鑰，亦無需安裝其他東西。
+不需要額外的函式庫，也不需要外部服務。只要純粹的 C# 與 Aspose。
 
-## 步驟 1：建立 OCR 引擎實例  
+## 步驟 1：初始化 OCR 引擎 – 從圖像辨識文字
 
-首先，我們實例化驅動全部功能的核心類別。
+首先，你需要建立一個 `OcrEngine`。這個物件負責保存所有設定，包括稍後會注入的自訂字典。
 
 ```csharp
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-class OfflineResourcesExample
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine instance
+        // Initialise the OCR engine – this is where recognition starts
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**為什麼重要：** `OcrEngine` 是所有設定選項的入口。提前建立它可縮短物件的生命週期，減少低階機器的記憶體壓力。
+> **為什麼這很重要：**  
+> 沒有引擎實例，你就沒有設定語言、DPI 或自訂詞彙表的上下文。把 `OcrEngine` 想成之後會 **從圖像辨識文字** 的大腦。
 
-## 步驟 2：指向離線資源  
+## 步驟 2：讀取字典檔案 – 如何加入自訂字典
 
-Aspose OCR 附帶可選的離線資源包。您必須告訴引擎資源所在位置，並明確啟用離線模式。
+接著，我們要把 **字典檔案** 的內容讀入 `HashSet<string>`。HashSet 提供 O(1) 的查找效能，非常適合引擎內部的檢查。
 
 ```csharp
-        // Step 2: Point the engine to the offline resources folder
-        ocrEngine.Configuration.ResourcesPath = @"YOUR_DIRECTORY";
-        ocrEngine.Configuration.UseOfflineResources = true; // enforce offline mode
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-- **ResourcesPath** – 將 `YOUR_DIRECTORY` 替換為包含語言模型的絕對或相對路徑（例如 `Resources/Russian`）。
-- **UseOfflineResources** – 設為 `true` 可保證引擎永不連線至網路，這對合規要求嚴格的環境至關重要。
+> **小技巧：**  
+> 請確保字典檔案使用 UTF‑8 編碼，且避免空白行；空白行會被當作空字串，可能會擾亂引擎。
 
-> **小技巧：** 將資源資料夾放在可執行檔旁邊，可簡化部署並避免路徑解析的麻煩。
+## 步驟 3：載入圖像 – 如何抽取文字
 
-## 步驟 3：選擇語言模型  
-
-因為我們聚焦於俄文，所以選取對應的列舉值。若日後需要切換成英文或阿拉伯文，只要更改這一行即可。
+現在把要處理的圖像傳入。Aspose 使用 `ImageStream` 來抽象檔案處理。
 
 ```csharp
-        // Step 3: Select the language model you want to use (e.g., Russian)
-        ocrEngine.Configuration.Language = Language.Russian;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-**為什麼重要：** OCR 演算法使用語言特定的字元集與統計模型。選對語言能顯著提升準確度，尤其是西里爾字母。
+> **邊緣情況：**  
+> 若圖像尺寸大於 2000 × 2000 像素，建議先縮小。過大的圖像會拖慢辨識速度，卻不會提升準確度。
 
-## 步驟 4：載入要處理的圖像  
+## 步驟 4：執行 OCR 程序 – 抽取純文字
 
-現在將圖片載入記憶體。這就是**載入圖像以供 OCR**的步驟。
-
-```csharp
-        // Step 4: Load the image that contains the text to recognize
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_page.png");
-```
-
-請確保檔案路徑與測試圖像所在位置相符。若圖像過大，建議在送入引擎前先調整大小，但對大多數掃描頁面而言，預設即可。
-
-## 步驟 5：執行辨識  
-
-所有設定完成後，實際的辨識呼叫只需一個方法。
+所有準備就緒後，呼叫 `Recognize`。此方法會回傳一個 `OcrResult` 物件，內含原始文字與清理過的文字。
 
 ```csharp
-        // Step 5: Perform OCR on the loaded image
-        OcrResult ocrResult = ocrEngine.Recognize(sourceImage);
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-`Recognize` 會回傳一個 `OcrResult` 物件，內含擷取的字串、信心分數，甚至在需要時的邊界框資料。
-
-## 步驟 6：輸出辨識文字  
-
-最後，我們將結果印到主控台——非常適合快速除錯或將輸出導向其他地方。
-
-```csharp
-        // Step 6: Output the recognized text
-        Console.WriteLine(ocrResult.Text);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-執行程式時，您應該會看到類似以下的結果：
+> **你會看到什麼：**  
+> 主控台會印出保留換行的乾淨文字。如果你的自訂字典裡有 “Aspose” 與 “OCR”，即使圖像稍有雜訊，這些詞彙也會以你定義的形式正確顯示。
 
-```
-Это пример текста на русском языке.
-Он будет распознан без подключения к сети.
-```
+## 完整範例程式
 
-這就是完整的**從圖像辨識文字**流程。
-
-![recognize text from image example output](ocr-result.png){: .center-image width="600" alt="辨識圖像文字範例輸出"}
-
-## 當有多種語言時如何提取俄文文字  
-
-如果您的應用程式需要同時**提取俄文文字***與*英文文字，您可以啟用備援語言清單：
+以下是 **完整、可直接複製貼上的** 程式碼。將 `YOUR_DIRECTORY` 替換為實際存放字典與圖像的資料夾路徑。
 
 ```csharp
-ocrEngine.Configuration.Language = Language.Russian | Language.English;
-```
-
-引擎會先嘗試俄文，若失敗再嘗試英文，最後回傳合併後的單一字串。這對雙語收據或混合語言標示非常實用。
-
-## 常見問題與避免方法  
-
-| 問題 | 徵兆 | 解決方法 |
-|------|------|----------|
-| 錯誤的 `ResourcesPath` | 執行時拋出 `FileNotFoundException` | 確認資料夾內含有選定語言的 `*.bin` 檔案。 |
-| 缺少 `UseOfflineResources` | 意外的 HTTP 請求 | 將 `UseOfflineResources = true` 設為離線運作。 |
-| 大型圖像 (>5 MP) | 辨識緩慢或記憶體不足錯誤 | 在呼叫 `Recognize` 前使用 `Bitmap` 縮小圖像。 |
-| 西里爾字元顯示為亂碼 | 語言設定不正確 | 確保設定 `Language.Russian`；同時確認圖像以無損格式 (PNG) 儲存。 |
-
-## 擴充範例：將 OCR 結果儲存至檔案  
-
-有時您需要將擷取的文字持久化。以下是一個快速的加入方式：
-
-```csharp
+using System;
+using System.Collections.Generic;
 using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-// ... after Console.WriteLine
-File.WriteAllText(@"output.txt", ocrResult.Text, System.Text.Encoding.UTF8);
-Console.WriteLine("Text saved to output.txt");
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
 ```
 
-此檔案會以 Unicode 編碼保存西里爾字元，方便後續處理（搜尋索引、翻譯等）。
+**預期輸出**（假設圖像內含 “Welcome to Aspose OCR Demo”）  
 
-## 重點回顧  
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-- 我們使用 Aspose OCR 於純 C# 中**從圖像辨識文字**。  
-- 教學涵蓋**如何讀取圖像文字**、**載入圖像以供 OCR**，以及使用離線資源**提取俄文文字**。  
-- 所有步驟皆自成一體：從 NuGet 安裝到完整、可執行的程式。
+如果 “Aspose” 已在你的自訂字典中，即使圖像有輕微模糊，拼寫也會完美無缺。
 
-## 接下來可以做什麼？  
+## 常見問題
 
-- **嘗試其他語言**（`Language.French`、`Language.ChineseSimplified` 等），只要替換列舉值即可。  
-- **調整 OCR 設定**，例如 `Resolution` 或 `PageSegMode`，以因應掃描 PDF。  
-- **整合至 Web API**，將辨識器以微服務方式公開——只要記得保留離線旗標，即可在仍需離線保證的情況下使用。
+### 如何 **讀取字典檔案**，支援不同編碼？
+使用 `File.ReadAllLines(path, Encoding.UTF8)`（或 `Encoding.Unicode`）以符合檔案的編碼。這可防止隱藏字元進入 `HashSet`。
 
-歡迎自行調整程式碼、加入錯誤處理，或將其嵌入您自己的影像處理管線。若遇到問題，Aspose 社群論壇是求助的好去處，但您現在已擁有一個即插即用的穩固基礎。
+### 若 OCR 結果仍遺漏字典中的某個詞彙，該怎麼辦？
+確保詞彙的大小寫與字典條目相符，或設定 `ocrEngine.Configuration.IgnoreCase = true`。同時，確認圖像解析度至少為 300 dpi，以獲得最佳效果。
 
-祝開發順利，願您的圖像永遠清晰如晶！  
+### 能否 **從 PDF 抽取純文字**，而非圖像？
+可以——先使用 Aspose.PDF 把每頁轉為圖像，再將這些圖像送入相同的 OCR 流程。工作流程完全相同，只是多了一個 PDF 轉圖像的步驟。
+
+### 是否有辦法在執行時 **加入自訂字典**，支援多語言？
+絕對可以。為每種語言建立獨立的 `HashSet<string>`，在每次呼叫 `Recognize` 前切換 `ocrEngine.Configuration.CustomDictionary`。
+
+## 提升準確度的技巧與竅門
+
+- **前置處理圖像**：轉為灰階、提升對比度，或稍微套用高斯模糊以去除雜點。
+- **批次處理**：若有大量圖像，重複使用同一個 `OcrEngine` 實例；每次重新初始化會增加不必要的開銷。
+- **記錄原始 OCR 資料**：`ocrResult.TextLines` 會提供逐行的信心分數，方便後續處理或標記低信心結果。
+
+## 後續步驟
+
+既然你已掌握 **如何抽取文字** 以及 **如何加入自訂字典**，可以進一步探索以下主題：
+
+1. **整合至 ASP.NET Core** – 建立 API 端點，接受圖像並回傳 JSON 格式的 OCR 結果。  
+2. **結合 Entity Framework** – 直接將抽取出的純文字存入資料庫，以便搜尋。  
+3. **探索語言偵測** – 根據偵測到的語言代碼自動切換相應的字典。
+
+上述每個主題都以本指南為基礎，讓你能將簡單的 **從圖像辨識文字** 程式碼，轉變為可投入生產環境的服務。
+
+---
+
+*祝開發順利！若遇到問題，歡迎在下方留言或查閱 Aspose.OCR 文件，了解更深入的設定選項。記住，精心打造的自訂字典往往是讓普通 OCR 變成銳利文字抽取的祕密武器。*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

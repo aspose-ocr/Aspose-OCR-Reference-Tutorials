@@ -1,0 +1,7 @@
+Title: python batch ocr tutorial: Process Multiple PNGs Efficiently
+Slug: python-batch-ocr-tutorial-process-multiple-pngs-efficiently
+Category: general
+ProcessedDate: 2026-06-22T20:35:17.073270
+SourceRepo: AI Search API
+Keywords: python batch ocr tutorial
+PRNumber: 155

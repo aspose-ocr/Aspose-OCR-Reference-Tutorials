@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-03-15
-description: Mengenali teks dari gambar dalam C# dan mengekstrak teks Rusia secara
-  offline. Pelajari cara memuat gambar untuk OCR dan membaca teks gambar dengan Aspose
-  OCR.
+date: 2026-02-09
+description: Pelajari cara mengenali teks dari gambar dan mengekstrak teks biasa menggunakan
+  kamus khusus di C#. Termasuk kode langkah demi langkah dan tips.
 draft: false
 keywords:
 - recognize text from image
-- extract russian text
-- how to read image text
-- how to extract text from picture
-- load image for ocr
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: id
-og_description: Mengenali teks dari gambar dalam C# dan mengekstrak teks Rusia secara
-  offline. Ikuti tutorial langkah demi langkah ini untuk memuat gambar untuk OCR dan
-  membaca teks gambar.
-og_title: Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#
+og_description: Kenali teks dari gambar dalam C# dengan Aspose OCR. Ikuti panduan
+  ini untuk mengekstrak teks biasa dan tambahkan kamus khusus untuk akurasi yang lebih
+  baik.
+og_title: Mengenali teks dari gambar – Tutorial C# Lengkap
 tags:
-- C#
 - OCR
+- C#
 - Aspose
-title: Mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#
+title: Mengenali Teks dari Gambar dengan Aspose OCR – Panduan Lengkap C#
 url: /id/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -28,162 +27,177 @@ url: /id/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# mengenali teks dari gambar dengan Aspose OCR – Panduan Lengkap C#
+# mengenali teks dari gambar – Tutorial C# Lengkap
 
-Pernah perlu **mengenali teks dari gambar** tetapi aplikasi Anda tidak dapat mengandalkan koneksi internet? Anda tidak sendirian. Dalam banyak skenario perusahaan—misalnya kios, terminal point‑of‑sale, atau server terisolasi—Anda harus **mengekstrak teks Rusia** tanpa menghubungi layanan cloud. Tutorial ini menunjukkan secara tepat cara **memuat gambar untuk OCR**, mengonfigurasi Aspose OCR dalam mode offline, dan akhirnya **membaca teks gambar** secara langsung.
+Pernah perlu **mengenali teks dari gambar** tetapi hasilnya terus melewatkan kata‑kunci khusus domain? Anda tidak sendirian. Dalam banyak proyek—pemindaian faktur, pembacaan lencana, atau sekadar mengambil keterangan dari tangkapan layar—mesin OCR default tidak cukup pintar mengenai kosakata Anda.  
 
-Kami akan menelusuri contoh dunia nyata yang dimulai dengan file PNG berisi karakter Cyrillic dan berakhir dengan output teks biasa yang dicetak ke konsol. Pada akhir tutorial, Anda dapat menambahkan potongan kode ini ke proyek .NET apa pun dan memiliki pengenalan offline yang berfungsi penuh. Tanpa jalan pintas “lihat dokumentasi”—hanya solusi lengkap yang dapat dijalankan serta penjelasan di balik setiap baris.
+Berita baik? Dengan memuat **kamus khusus** Anda dapat secara dramatis meningkatkan akurasi dan tentu saja, **mengekstrak teks biasa** dalam satu langkah bersih. Dalam tutorial ini kami akan membimbing Anda melalui seluruh proses, mulai dari membaca file kamus hingga mencetak hasil OCR, menggunakan Aspose.OCR dalam C#.  
+
+Kami juga akan menjawab pertanyaan yang terus mengganggu “**cara menambahkan kamus khusus**”, menunjukkan **cara mengekstrak teks** secara efisien, dan menyoroti jebakan umum agar Anda tidak membuang waktu lagi mengatur pengaturan.
 
 ## Apa yang Anda Butuhkan
 
-- **.NET 6 atau lebih baru** (API juga bekerja dengan .NET Framework 4.6+ tetapi .NET 6 adalah pilihan ideal).
-- **Aspose.OCR untuk .NET** paket NuGet (versi 23.9 atau lebih baru).  
+- **.NET 6+** (setiap runtime terbaru dapat digunakan)
+- **Aspose.OCR for .NET** paket NuGet  
   ```bash
   dotnet add package Aspose.OCR
   ```
-- Sebuah folder yang berisi **sumber daya bahasa offline** yang Anda unduh dari portal Aspose (misalnya `Resources/Russian`).
-- Sebuah file gambar, contohnya `russian_page.png`, yang berisi teks yang ingin Anda ekstrak.
+- Sebuah **file teks** (`custom_dictionary.txt`) yang berisi satu kata per baris – ini adalah istilah yang Anda harapkan muncul.
+- Sebuah **gambar** (`input_image.png`) yang berisi teks yang ingin Anda kenali.
 
-Itu saja—tidak ada layanan tambahan, tidak ada kunci API, tidak ada hal lain yang perlu diinstal.
+Tidak ada pustaka tambahan, tidak ada layanan eksternal. Hanya C# murni dan Aspose.
 
-## Langkah 1: Buat Instance OcrEngine  
+## Langkah 1: Inisialisasi OCR Engine – Mengenali Teks dari Gambar
 
-Pertama kita menginstansiasi kelas inti yang mengendalikan semuanya.
+Hal pertama yang Anda lakukan adalah membuat sebuah `OcrEngine`. Objek ini menyimpan semua opsi konfigurasi, termasuk kamus khusus yang akan kami sisipkan nanti.
 
 ```csharp
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Config;
+using Aspose.OCR.Models;
 
-class OfflineResourcesExample
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine instance
+        // Initialise the OCR engine – this is where recognition starts
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Mengapa ini penting:** `OcrEngine` adalah gerbang ke semua opsi konfigurasi. Dengan membuatnya di awal, kita menjaga masa hidup objek tetap singkat, yang mengurangi tekanan memori pada mesin berdaya rendah.
+> **Mengapa ini penting:**  
+> Tanpa instance engine Anda tidak memiliki konteks untuk pengaturan seperti bahasa, DPI, atau daftar kata khusus. Anggap `OcrEngine` sebagai otak yang nantinya akan **mengenali teks dari gambar**.
 
-## Langkah 2: Arahkan Engine ke Sumber Daya Offline Anda  
+## Langkah 2: Membaca File Kamus – Cara Menambahkan Kamus Khusus
 
-Aspose OCR menyediakan paket sumber daya offline opsional. Anda harus memberi tahu engine di mana menemukan paket tersebut dan secara eksplisit mengaktifkan mode offline.
+Selanjutnya, kita perlu **membaca isi file kamus** ke dalam `HashSet<string>`. Hash set memberikan pencarian O(1), yang sempurna untuk pemeriksaan internal engine.
 
 ```csharp
-        // Step 2: Point the engine to the offline resources folder
-        ocrEngine.Configuration.ResourcesPath = @"YOUR_DIRECTORY";
-        ocrEngine.Configuration.UseOfflineResources = true; // enforce offline mode
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-- **ResourcesPath** – Ganti `YOUR_DIRECTORY` dengan jalur absolut atau relatif yang berisi model bahasa (misalnya `Resources/Russian`).
-- **UseOfflineResources** – Menetapkan nilai ini ke `true` menjamin engine tidak pernah mengakses internet, yang sangat penting untuk lingkungan dengan kepatuhan ketat.
+> **Tips profesional:**  
+> Simpan file kamus dalam format UTF‑8 dan hindari baris kosong; mereka akan diperlakukan sebagai string kosong dan dapat membingungkan engine.
 
-> **Pro tip:** Simpan folder sumber daya di samping executable Anda; ini menyederhanakan deployment dan menghindari masalah resolusi jalur.
+## Langkah 3: Memuat Gambar – Cara Mengekstrak Teks
 
-## Langkah 3: Pilih Model Bahasa  
-
-Karena kita fokus pada bahasa Rusia, kita pilih nilai enum yang sesuai. Jika nanti Anda perlu beralih ke bahasa Inggris atau Arab, cukup ubah satu baris ini.
+Sekarang kami memberikan gambar yang ingin diproses. Aspose menggunakan `ImageStream` untuk mengabstraksi penanganan file.
 
 ```csharp
-        // Step 3: Select the language model you want to use (e.g., Russian)
-        ocrEngine.Configuration.Language = Language.Russian;
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-**Mengapa penting:** Algoritma OCR menggunakan set karakter dan model statistik khusus bahasa. Memilih bahasa yang tepat secara dramatis meningkatkan akurasi, terutama untuk skrip Cyrillic.
+> **Kasus tepi:**  
+> Jika gambar Anda lebih besar dari 2000 × 2000 piksel, pertimbangkan untuk memperkecilnya terlebih dahulu. Gambar berukuran besar dapat memperlambat pengenalan tanpa meningkatkan akurasi.
 
-## Langkah 4: Muat Gambar yang Akan Diproses  
+## Langkah 4: Menjalankan Proses OCR – Mengekstrak Teks Biasa
 
-Sekarang kita membawa gambar ke memori. Di sinilah bagian **memuat gambar untuk OCR** terjadi.
-
-```csharp
-        // Step 4: Load the image that contains the text to recognize
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_page.png");
-```
-
-Pastikan jalur file sesuai dengan lokasi gambar uji Anda. Jika gambar berukuran besar, Anda mungkin ingin mengubah ukurannya sebelum memberi ke engine, tetapi untuk kebanyakan halaman yang dipindai, pengaturan default sudah cukup.
-
-## Langkah 5: Lakukan Pengenalan  
-
-Dengan semua komponen terhubung, pemanggilan pengenalan sebenarnya hanyalah satu metode.
+Setelah semuanya siap, panggil `Recognize`. Metode ini mengembalikan objek `OcrResult` yang berisi teks mentah dan teks yang telah dibersihkan.
 
 ```csharp
-        // Step 5: Perform OCR on the loaded image
-        OcrResult ocrResult = ocrEngine.Recognize(sourceImage);
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-`Recognize` mengembalikan objek `OcrResult` yang berisi string yang diekstrak, skor kepercayaan, dan bahkan data kotak pembatas jika Anda membutuhkannya nanti.
-
-## Langkah 6: Tampilkan Teks yang Dikenali  
-
-Akhirnya, kita mencetak hasil ke konsol—sempurna untuk debugging cepat atau mengalirkan output ke tempat lain.
-
-```csharp
-        // Step 6: Output the recognized text
-        Console.WriteLine(ocrResult.Text);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Saat Anda menjalankan program, Anda akan melihat sesuatu seperti:
+> **Apa yang akan Anda lihat:**  
+> Konsol mencetak versi teks yang bersih, mempertahankan pemisah baris. Jika kamus khusus Anda berisi “Aspose” dan “OCR”, kata‑kata tersebut akan muncul persis seperti yang Anda definisikan, bahkan jika gambar sedikit berisik.
 
-```
-Это пример текста на русском языке.
-Он будет распознан без подключения к сети.
-```
+## Contoh Lengkap yang Berfungsi
 
-Itulah alur **mengenali teks dari gambar** secara lengkap.
-
-![contoh output pengenalan teks dari gambar](ocr-result.png){: .center-image width="600" alt="contoh output pengenalan teks dari gambar"}
-
-## Cara Mengekstrak Teks Rusia Saat Anda Memiliki Banyak Bahasa  
-
-Jika aplikasi Anda perlu **mengekstrak teks Rusia** *dan* teks Inggris dari gambar yang sama, Anda dapat mengaktifkan daftar fallback:
+Berikut adalah program **lengkap, siap disalin‑tempel**. Ganti `YOUR_DIRECTORY` dengan jalur folder sebenarnya tempat Anda menyimpan kamus dan gambar.
 
 ```csharp
-ocrEngine.Configuration.Language = Language.Russian | Language.English;
-```
-
-Engine akan pertama mencoba Rusia, kemudian Inggris, mengembalikan satu string gabungan. Ini berguna untuk kwitansi dwibahasa atau tanda yang berisi campuran bahasa.
-
-## Kesalahan Umum dan Cara Menghindarinya  
-
-| Masalah | Gejala | Solusi |
-|-------|----------|-----|
-| `ResourcesPath` salah | `FileNotFoundException` saat runtime | Pastikan folder berisi file `*.bin` untuk bahasa yang dipilih. |
-| `UseOfflineResources` tidak diaktifkan | Permintaan HTTP yang tidak diharapkan | Set `UseOfflineResources = true` untuk menjamin operasi offline. |
-| Gambar besar (>5 MP) | Pengenalan lambat atau error out‑of‑memory | Perkecil dengan `Bitmap` sebelum memanggil `Recognize`. |
-| Karakter Cyrillic muncul sebagai sampah | Bahasa yang dipilih tidak tepat | Pastikan `Language.Russian` sudah diset; juga pastikan gambar disimpan dalam format lossless (PNG). |
-
-## Memperluas Contoh: Menyimpan Hasil OCR ke File  
-
-Kadang Anda perlu menyimpan teks yang diekstrak. Berikut tambahan singkatnya:
-
-```csharp
+using System;
+using System.Collections.Generic;
 using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-// ... after Console.WriteLine
-File.WriteAllText(@"output.txt", ocrResult.Text, System.Text.Encoding.UTF8);
-Console.WriteLine("Text saved to output.txt");
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
 ```
 
-File akan berisi karakter Cyrillic yang dienkode Unicode, siap untuk pemrosesan lanjutan (indeks pencarian, terjemahan, dll.).
+**Output yang diharapkan** (asumsi gambar berisi “Welcome to Aspose OCR Demo”)  
 
-## Ringkasan  
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
 
-- Kami **mengenali teks dari gambar** menggunakan Aspose OCR dengan C# murni.
-- Tutorial mencakup **cara membaca teks gambar**, **memuat gambar untuk OCR**, dan **mengekstrak teks Rusia** dengan sumber daya offline.
-- Semua langkah bersifat mandiri: dari instalasi NuGet hingga program lengkap yang dapat dijalankan.
+Jika “Aspose” ada dalam kamus khusus Anda, ejaannya akan sempurna bahkan jika gambar sedikit blur.
 
-## Apa Selanjutnya?  
+## Pertanyaan yang Sering Diajukan
 
-- **Bereksperimen dengan bahasa lain** (`Language.French`, `Language.ChineseSimplified`, …) dengan mengganti nilai enum.
-- **Sesuaikan pengaturan OCR** seperti `Resolution` atau `PageSegMode` untuk PDF yang dipindai.
-- **Integrasikan dengan API web** untuk mengekspos pengenalan sebagai microservice—ingat tetap gunakan flag offline jika Anda masih memerlukan jaminan offline.
+### Bagaimana cara **membaca file kamus** dengan enkoding yang berbeda?
 
-Silakan ubah kode, tambahkan penanganan error, atau sambungkan ke pipeline pemrosesan gambar Anda sendiri. Jika menemukan kendala, forum komunitas Aspose adalah tempat yang baik untuk bertanya, tetapi Anda kini memiliki dasar yang solid dan siap pakai.
+Gunakan `File.ReadAllLines(path, Encoding.UTF8)` (atau `Encoding.Unicode`) untuk menyesuaikan enkoding file. Ini mencegah karakter tersembunyi masuk ke dalam `HashSet`.
 
-Selamat coding, semoga gambar Anda selalu jernih!
+### Bagaimana jika hasil OCR masih melewatkan kata dari kamus saya?
+
+Pastikan kapitalisasi kata sesuai dengan entri kamus, atau atur `ocrEngine.Configuration.IgnoreCase = true`. Juga, pastikan resolusi gambar setidaknya 300 dpi untuk hasil terbaik.
+
+### Bisakah saya **mengekstrak teks biasa** dari PDF alih-alih gambar?
+
+Ya—Aspose.PDF dapat merender setiap halaman menjadi gambar, lalu memasukkan gambar‑gambar tersebut ke dalam pipeline OCR yang sama. Alur kerja identik; Anda hanya menambahkan langkah konversi PDF‑ke‑gambar.
+
+### Apakah ada cara untuk **menambahkan kamus khusus** pada runtime untuk banyak bahasa?
+
+Tentu saja. Buat `HashSet<string>` terpisah per bahasa dan ganti `ocrEngine.Configuration.CustomDictionary` sebelum setiap pemanggilan `Recognize`.
+
+## Tips & Trik untuk Akurasi Lebih Baik
+
+- **Pra‑proses gambar**: Konversi ke skala abu‑abu, tingkatkan kontras, atau terapkan sedikit blur Gaussian untuk menghilangkan bintik‑bintik.
+- **Pemrosesan batch**: Jika Anda memiliki puluhan gambar, gunakan kembali instance `OcrEngine` yang sama; inisialisasi ulang setiap kali menambah beban yang tidak perlu.
+- **Catat data OCR mentah**: `ocrResult.TextLines` memberikan skor kepercayaan per baris, berguna untuk pasca‑pemrosesan atau menandai hasil dengan kepercayaan rendah.
+
+## Langkah Selanjutnya
+
+Sekarang Anda sudah tahu **cara mengekstrak teks** dan **cara menambahkan kamus khusus**, pertimbangkan topik‑topik lanjutan berikut:
+
+1. **Integrate with ASP.NET Core** – expose endpoint API yang menerima gambar dan mengembalikan hasil OCR berformat JSON.  
+2. **Combine with Entity Framework** – simpan teks biasa yang diekstrak langsung ke dalam basis data untuk catatan yang dapat dicari.  
+3. **Explore language detection** – ganti kamus secara otomatis berdasarkan kode bahasa yang terdeteksi.
+
+Masing‑masing hal ini dibangun di atas fondasi yang ditetapkan dalam panduan ini, memungkinkan Anda mengubah potongan kode **mengenali teks dari gambar** sederhana menjadi layanan siap produksi.
+
+---
+
+*Selamat coding! Jika Anda mengalami kendala, tinggalkan komentar di bawah atau periksa dokumentasi Aspose.OCR untuk opsi konfigurasi yang lebih mendalam. Ingat, kamus khusus yang dirancang dengan baik sering menjadi bumbu rahasia yang mengubah OCR biasa menjadi ekstraksi teks yang tajam.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
