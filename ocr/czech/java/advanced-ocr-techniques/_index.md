@@ -141,6 +141,12 @@ Využijte GPU pro rychlé a přesné OCR v Javě, extrahujte text z obrázků s 
 Využijte výkonný OCR na vysokém rozlišení obrázků v Javě s podrobným průvodcem a optimalizovaným výkonem.
 ### [Rozpoznávání rukopisu – Kompletní průvodce pro zvýšení přesnosti OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Zvyšte přesnost OCR rozpoznáváním rukopisu pomocí podrobného průvodce a optimalizovaných technik.
+### [Jak nakonfigurovat GPU pro OCR – rozpoznávání textu z obrázku](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Naučte se, jak nastavit GPU pro zrychlené OCR a rozpoznávat text z obrázků pomocí Aspose.OCR pro Java.
+### [Vytvoření prohledávatelného PDF v Javě – Kompletní průvodce](./create-searchable-pdf-with-java-complete-guide/)
+Kompletní návod, jak v Javě vytvořit prohledávatelný PDF soubor pomocí Aspose.OCR, s podrobnými kroky a ukázkovým kódem.
+### [Jak vyrovnat obrázek pro OCR – Průvodce předzpracováním v Javě](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Naučte se, jak vyrovnat (deskew) obrázky před OCR v Javě a zlepšit přesnost rozpoznávání textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

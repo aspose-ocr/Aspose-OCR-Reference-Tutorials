@@ -121,6 +121,12 @@ Kompletny przewodnik, jak w Javie stworzyć przeszukiwalny plik PDF przy użyciu
 Kompletny przewodnik, jak załadować obraz i wykonać OCR w Javie przy użyciu Aspose.OCR.
 ### [Tworzenie przeszukiwalnego PDF – przewodnik OCR w Javie](./create-searchable-pdf-java-ocr-guide/)
 Dowiedz się, jak przy użyciu Aspose.OCR w Javie przekształcić dokumenty PDF w przeszukiwalne pliki PDF.
+### [Jak włączyć OCR w Javie z Aspose – Kompletny przewodnik krok po kroku](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Kompletny przewodnik krok po kroku, jak włączyć OCR w Javie przy użyciu Aspose, aby uzyskać pełną funkcjonalność.
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR Java – Kompletny przewodnik](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
+### [Wyodrębnianie tekstu hindi z obrazów – przykład OCR w Javie](./extract-hindi-text-from-images-java-ocr-example/)
+Odblokuj możliwość wyodrębniania tekstu w języku hindi z obrazów przy użyciu Aspose.OCR w Javie.
 
 ## Najczęściej zadawane pytania
 

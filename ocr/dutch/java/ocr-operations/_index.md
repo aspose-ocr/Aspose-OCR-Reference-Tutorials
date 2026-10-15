@@ -119,6 +119,12 @@ Leer hoe u afbeeldingen omzet naar bewerkbare tekst met Aspose OCR voor Java in 
 Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt, inclusief OCR‑instellingen en exportopties.
 ### [Afbeelding laden voor OCR in Java – Stapsgewijze handleiding](./load-image-for-ocr-in-java-step-by-step-guide/)
 Leer hoe u afbeeldingen laadt en voorbereidt voor OCR in Java met Aspose.OCR, stap voor stap.
+### [Hoe OCR in Java inschakelen met Aspose – Complete stap‑voor‑stap‑gids](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Leer hoe u OCR in Java activeert met Aspose via een volledige stap‑voor‑stap‑handleiding.
+### [Tekst uit afbeelding herkennen met Aspose OCR Java – volledige gids](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑handleiding.
+### [Hindi‑tekst uit afbeeldingen extraheren – Java OCR‑voorbeeld](./extract-hindi-text-from-images-java-ocr-example/)
+Leer hoe u Hindi‑tekst uit afbeeldingen kunt extraheren met Aspose.OCR in Java, inclusief voorbeeldcode en taalselectie‑tips.
 
 ## Veelgestelde vragen
 

@@ -121,6 +121,12 @@ weight: 21
 เรียนรู้วิธีโหลดภาพและเตรียมสำหรับการทำ OCR ด้วย Aspose.OCR ใน Java อย่างละเอียด  
 ### [สร้าง PDF ที่ค้นหาได้ – คู่มือ OCR สำหรับ Java](./create-searchable-pdf-java-ocr-guide/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java อย่างง่ายและแม่นยำ  
+### [จดจำข้อความจากภาพด้วย Aspose OCR Java – คู่มือเต็ม](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java อย่างละเอียดและแม่นยำ  
+### [วิธีเปิดใช้งาน OCR ใน Java ด้วย Aspose – คู่มือขั้นตอนเต็ม](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+
+### [สกัดข้อความภาษาฮินดีจากภาพ – ตัวอย่าง OCR ด้วย Java](./extract-hindi-text-from-images-java-ocr-example/)
+เรียนรู้วิธีสกัดข้อความภาษาฮินดีจากภาพโดยใช้ Aspose.OCR for Java พร้อมตัวอย่างโค้ดเต็ม
 
 
 

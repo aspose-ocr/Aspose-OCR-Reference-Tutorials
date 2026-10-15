@@ -121,6 +121,12 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong Java bằn
 Khám phá cách tải ảnh và chuẩn bị cho OCR trong Java một cách chi tiết, từ cấu hình đến thực thi.
 ### [Tạo PDF có thể tìm kiếm – Hướng dẫn OCR Java](./create-searchable-pdf-java-ocr-guide/)
 Khám phá cách tạo PDF có thể tìm kiếm bằng OCR trong Java, từ cấu hình đến lưu tài liệu với lớp văn bản có thể tìm kiếm.
+### [Cách bật OCR trong Java với Aspose – Hướng dẫn chi tiết từng bước](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Hướng dẫn toàn diện cách kích hoạt OCR trong Java bằng Aspose, bao gồm các bước cấu hình và triển khai chi tiết.
+### [Nhận dạng Văn bản từ Hình ảnh với Aspose OCR Java – Hướng dẫn đầy đủ](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR Java để nhận dạng văn bản từ hình ảnh, bao gồm các bước cấu hình và tối ưu hoá kết quả.
+### [Trích xuất văn bản Hindi từ hình ảnh – Ví dụ OCR Java](./extract-hindi-text-from-images-java-ocr-example/)
+Hướng dẫn chi tiết cách trích xuất văn bản Hindi từ hình ảnh bằng Aspose.OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

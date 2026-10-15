@@ -45,7 +45,13 @@ Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhậ
 
 Dễ dàng trích xuất văn bản từ hình ảnh bằng cách chỉ định các ký tự được phép bằng Aspose.OCR cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp hiệu quả, đảm bảo trải nghiệm nhận dạng văn bản liền mạch. Nâng cao các ứng dụng Java của bạn với khả năng Aspose.OCR.
 
-## Phần kết luận
+## [Cách chỉnh nghiêng ảnh cho OCR – Hướng dẫn tiền xử lý Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Hướng dẫn chi tiết cách loại bỏ nghiêng ảnh trước khi OCR trong Java, nâng cao độ chính xác và hiệu suất nhận dạng văn bản.
+
+## [Cách cấu hình GPU cho OCR – nhận dạng văn bản từ hình ảnh](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+
+## [Tạo PDF có thể tìm kiếm với Java – Hướng dẫn đầy đủ](./create-searchable-pdf-with-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong Java bằng Aspose.PDF, bao gồm các bước cấu hình và trích xuất văn bản.
 
 Với Aspose.OCR cho Java, việc thành thạo các kỹ thuật OCR nâng cao chưa bao giờ dễ dàng hơn thế. Đi sâu vào các hướng dẫn này và khám phá toàn bộ tiềm năng của tính năng nhận dạng văn bản trong các dự án Java của bạn. Nâng cao ứng dụng của bạn với khả năng tích hợp liền mạch, độ chính xác cao và khả năng trích xuất văn bản linh hoạt. Hãy tải xuống ngay bây giờ và thực hiện bước đầu tiên hướng tới sự xuất sắc của OCR với Aspose.OCR cho Java!
 ## Hướng dẫn kỹ thuật OCR nâng cao

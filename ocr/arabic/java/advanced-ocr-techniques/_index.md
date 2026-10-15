@@ -140,6 +140,12 @@ url: /ar/java/advanced-ocr-techniques/
 استخدم Aspose.OCR لتشغيل OCR على صور عالية الدقة في Java مع دليل شامل يوضح الخطوات للحصول على أداء ودقة متقدمة.
 ### [التعرف على النص المكتوب بخط اليد – دليل كامل لتعزيز دقة OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 اكتشف كيفية تحسين دقة التعرف الضوئي على الحروف للنصوص المكتوبة بخط اليد باستخدام Aspose.OCR لجافا.
+### [كيفية تكوين وحدة معالجة الرسومات (GPU) للتعرف الضوئي على الحروف – استخراج النص من الصورة](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+تعلم كيفية إعداد GPU لتسريع عملية التعرف الضوئي على الحروف واستخراج النص من الصور بكفاءة عالية.
+### [إنشاء PDF قابل للبحث باستخدام Java – دليل كامل](./create-searchable-pdf-with-java-complete-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث في Java باستخدام Aspose.PDF، مع خطوات واضحة وإعدادات متقدمة.
+### [كيفية تصحيح إمالة الصورة للتعرف الضوئي على الحروف – دليل ما قبل المعالجة لجافا](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+تعلم كيفية تصحيح إمالة الصور قبل عملية OCR في Java لتحسين دقة استخراج النص.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

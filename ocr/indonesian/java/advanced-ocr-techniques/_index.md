@@ -45,6 +45,9 @@ Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat
 
 Ekstrak teks dari gambar dengan mudah dengan menentukan karakter yang diizinkan dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien, memastikan pengalaman pengenalan teks yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan Aspose.OCR.
 
+### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-with-java-complete-guide/)
+Buat PDF dapat dicari menggunakan Java dengan panduan lengkap kami, memanfaatkan Aspose.OCR untuk ekstraksi teks yang akurat.
+
 ## Kesimpulan
 
 Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!
@@ -150,6 +153,10 @@ Ekstrak teks dari gambar menggunakan GPU dengan Aspose.OCR untuk Java, meningkat
 Ekstrak teks dari gambar resolusi tinggi dengan cepat menggunakan Aspose.OCR untuk Java. Panduan lengkap untuk hasil akurat.
 ### [Mengenali Teks Tangan – Panduan Lengkap untuk Meningkatkan Akurasi OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Pelajari cara mengenali teks tulisan tangan dengan akurasi tinggi menggunakan Aspose.OCR untuk Java. Tingkatkan hasil OCR Anda secara signifikan.
+### [Cara Mengonfigurasi GPU untuk OCR – Mengenali Teks dari Gambar](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Pelajari cara mengatur GPU untuk meningkatkan akurasi OCR dan mempercepat proses pengenalan teks dari gambar.
+### [Cara Memperbaiki Kemiringan Gambar untuk OCR – Panduan Pra‑Pemrosesan Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Pelajari cara memperbaiki kemiringan gambar sebelum OCR menggunakan Java untuk meningkatkan akurasi ekstraksi teks.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

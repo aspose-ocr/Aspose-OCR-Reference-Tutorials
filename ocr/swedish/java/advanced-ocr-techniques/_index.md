@@ -43,14 +43,11 @@ Styr dina Java-applikationer med Aspose.OCR för exakt textigenkänning. Enkel i
 ### [Känn igen handskriven text – Komplett guide för att förbättra OCR‑noggrannheten](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Lär dig hur du identifierar handskriven text och ökar OCR‑precisionen med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide.
 
+## [Hur du räta upp bild för OCR – Java‑förbehandlingsguide](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+
+Lär dig att räta upp snedvridna bilder innan OCR med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för förbättrad textigenkänning.
+
 ## [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
-
-Extrahera text från bilder utan ansträngning genom att ange tillåtna tecken med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration, vilket säkerställer en sömlös textigenkänningsupplevelse. Förbättra dina Java-applikationer med Aspose.OCR-funktioner.
-
-## Slutsats
-
-Med Aspose.OCR för Java har det aldrig varit enklare att behärska avancerade OCR-tekniker. Dyk in i dessa handledningar och lås upp den fulla potentialen för textigenkänning i dina Java-projekt. Höj dina applikationer med sömlös integration, hög noggrannhet och mångsidiga textextraheringsmöjligheter. Ladda ner nu och ta det första steget mot OCR-excellens med Aspose.OCR för Java!
-## Handledningar för avancerade OCR-tekniker
 ### [Utför OCR på bild med Aspose OCR – Java steg‑för‑steg‑guide](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 Lär dig steg för steg hur du utför OCR på en bild med Aspose OCR i Java för exakt och snabb textutvinning.
 
@@ -140,6 +137,11 @@ Utnyttja GPU-acceleration för snabb och exakt OCR på bilder i Java med Aspose.
 ### [Hur du kör OCR på högupplösta bilder – Komplett Java-guide](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
 Utnyttja Aspose.OCR för Java för att exakt extrahera text från högupplösta bilder med optimal prestanda.
 
+### [Skapa sökbar PDF med Java – Komplett guide](./create-searchable-pdf-with-java-complete-guide/)
+Skapa en sökbar PDF från bilder med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för fullständig PDF‑generering.
+
+## [Hur du konfigurerar GPU för OCR – känna igen text från bild](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Konfigurera GPU för att påskynda OCR och förbättra textigenkänning från bilder med Aspose.OCR för Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

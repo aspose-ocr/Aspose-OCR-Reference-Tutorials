@@ -133,6 +133,12 @@ url: /el/java/advanced-ocr-techniques/
 Αξιοποιήστε το Aspose.OCR για Java για γρήγορη και ακριβή εξαγωγή κειμένου από εικόνες υψηλής ανάλυσης.
 ### [Αναγνώριση χειρόγραφου κειμένου – Πλήρης Οδηγός για Βελτίωση της Ακρίβειας OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Αναγνωρίστε χειρόγραφο κείμενο με υψηλή ακρίβεια, ακολουθώντας τον πλήρη οδηγό μας για βελτιωμένη απόδοση OCR.
+### [Πώς να διαμορφώσετε GPU για OCR – αναγνώριση κειμένου από εικόνα](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Διαμορφώστε το GPU για επιτάχυνση OCR και αναγνώριση κειμένου από εικόνες με το Aspose.OCR για Java.
+### [Πώς να διορθώσετε την κλίση εικόνας για OCR – Οδηγός προεπεξεργασίας Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες πριν το OCR χρησιμοποιώντας το Aspose.OCR για Java, βελτιώνοντας την ακρίβεια εξαγωγής κειμένου.
+### [Δημιουργία Αναζητήσιμου PDF με Java – Πλήρης Οδηγός](./create-searchable-pdf-with-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR για Java. Οδηγός βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

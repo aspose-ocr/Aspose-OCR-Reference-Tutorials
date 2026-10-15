@@ -140,6 +140,12 @@ Realice OCR en imágenes usando Java con aceleración GPU para una extracción d
 Aprenda a ejecutar OCR en imágenes de alta resolución con Java, obteniendo resultados rápidos y precisos.
 ### [Reconocer texto manuscrito – Guía completa para mejorar la precisión del OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Mejore la precisión del OCR reconociendo texto manuscrito con esta guía completa.
+### [Cómo configurar GPU para OCR – reconocer texto de imagen](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Aprenda a habilitar la GPU para acelerar el reconocimiento de texto en imágenes con Aspose.OCR para Java.
+### [Crear PDF buscable con Java – Guía completa](./create-searchable-pdf-with-java-complete-guide/)
+Aprenda a generar PDFs buscables en Java usando Aspose.OCR, paso a paso, con ejemplos claros y alta precisión.
+### [Cómo enderezar una imagen para OCR – Guía de pre‑procesamiento en Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Aprenda a corregir la inclinación de imágenes antes del OCR en Java, mejorando la precisión del reconocimiento de texto.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

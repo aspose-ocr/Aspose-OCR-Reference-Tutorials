@@ -149,6 +149,12 @@ Használja a GPU-t a gyors és pontos szövegkinyeréshez Java-val az Aspose.OCR
 ### [OCR futtatása nagy felbontású képeken – Teljes Java útmutató](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
 Fedezze fel, hogyan használhatja az Aspose.OCR for Java-t nagy felbontású képek pontos és gyors szövegkinyeréséhez.
 ### [Kézírás felismerése – Teljes útmutató az OCR pontosságának növeléséhez](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+### [GPU konfigurálása OCR-hez – szöveg felismerése képről](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Tanulja meg, hogyan konfigurálja a GPU-t az OCR-hez, hogy gyorsan és pontosan ismerje fel a képek szövegét Java-ban.
+### [Kereshető PDF létrehozása Java-val – Teljes útmutató](./create-searchable-pdf-with-java-complete-guide/)
+Készítsen kereshető PDF-et Java segítségével részletes lépésről-lépésre útmutatóval.
+### [Kép dőlésének korrigálása OCR-hez – Java előfeldolgozási útmutató](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Tanulja meg, hogyan állítsa egyenesre a képeket az OCR pontosságának javítása érdekében Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

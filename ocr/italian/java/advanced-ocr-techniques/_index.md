@@ -138,6 +138,12 @@ Sfrutta la potenza della GPU per estrarre testo da immagini con Java usando Aspo
 Scopri come utilizzare Aspose.OCR per Java per eseguire l'OCR su immagini ad alta risoluzione con precisione e velocità.
 ### [Riconoscere il testo scritto a mano – Guida completa per migliorare la precisione OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Scopri come riconoscere il testo scritto a mano con Aspose.OCR per Java, migliorando l'accuratezza dell'OCR.
+### [Come correggere l'inclinazione dell'immagine per OCR – Guida di pre‑elaborazione Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Scopri come correggere l'inclinazione delle immagini prima dell'OCR in Java per migliorare la precisione del riconoscimento del testo.
+### [Come configurare la GPU per OCR – riconoscere il testo da un'immagine](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Scopri come impostare la GPU per migliorare le prestazioni OCR e riconoscere rapidamente il testo nelle immagini.
+### [Creare PDF Ricercabile con Java – Guida Completa](./create-searchable-pdf-with-java-complete-guide/)
+Impara a generare PDF ricercabili in Java usando Aspose.OCR, con esempi passo passo per estrarre e incorporare testo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

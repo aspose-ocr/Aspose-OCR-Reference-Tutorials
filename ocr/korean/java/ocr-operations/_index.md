@@ -119,6 +119,12 @@ Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 생성하는 전체 과�
 Java 애플리케이션에서 이미지를 로드하고 OCR을 수행하는 방법을 단계별로 안내합니다.
 ### [검색 가능한 PDF 만들기 – Java OCR 가이드](./create-searchable-pdf-java-ocr-guide/)
 Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 생성하는 단계별 가이드를 제공합니다.
+### [Aspose와 Java에서 OCR 활성화하기 – 완전 단계별 가이드](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Java 애플리케이션에서 Aspose OCR을 설정하고 사용하기 위한 전체 단계별 안내입니다.
+### [Aspose OCR을 사용한 이미지 텍스트 인식 – 전체 Java 가이드](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 전체 가이드를 단계별로 안내합니다.
+### [이미지에서 힌디어 텍스트 추출 – Java OCR 예제](./extract-hindi-text-from-images-java-ocr-example/)
+Aspose.OCR for Java를 사용해 이미지에서 힌디어 텍스트를 정확하게 추출하는 단계별 가이드.
 
 ## 자주 묻는 질문
 

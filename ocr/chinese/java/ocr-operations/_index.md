@@ -118,6 +118,11 @@ weight: 21
 ### [在 Java 中加载图像进行 OCR – 步骤指南](./load-image-for-ocr-in-java-step-by-step-guide/)
 详细演示如何在 Java 项目中加载图像并使用 Aspose.OCR 进行文字识别的完整步骤。
 ### [创建可搜索 PDF – Java OCR 指南](./create-searchable-pdf-java-ocr-guide/)
+### [如何在 Java 中使用 Aspose 启用 OCR – 完整分步指南](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+本教程提供在 Java 环境下使用 Aspose 完整启用 OCR 的逐步操作，帮助您快速实现文本识别。
+### [使用 Aspose OCR Java 识别图像文本 – 完整指南](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+完整示例演示如何使用 Aspose OCR for Java 从图像中提取文本并导出结果。
+### [从图像中提取印地语文本 – Java OCR 示例](./extract-hindi-text-from-images-java-ocr-example/)
 
 ## 常见问题
 

@@ -142,6 +142,13 @@ GPU 가속을 활용해 Java에서 이미지 OCR을 빠르고 정확하게 수�
 Java용 Aspose.OCR을 사용해 고해상도 이미지에서 빠르고 정확하게 OCR을 수행하는 방법을 단계별로 안내합니다.
 ### [손글씨 인식 – OCR 정확도 향상을 위한 완전 가이드](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Java용 Aspose.OCR을 활용해 손글씨 텍스트를 정확하게 인식하고 OCR 성능을 극대화하는 방법을 단계별로 안내합니다.
+### [GPU를 구성하여 OCR 수행 – 이미지에서 텍스트 인식](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+GPU를 설정하여 OCR 성능을 향상시키고 이미지에서 텍스트를 정확히 인식하는 방법을 안내합니다.
+### [Java로 검색 가능한 PDF 만들기 – 완전 가이드](./create-searchable-pdf-with-java-complete-guide/)
+Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 손쉽게 생성하고 텍스트 인식을 구현하는 완전 가이드입니다.
+### [OCR을 위한 이미지 기울기 보정 – Java 전처리 가이드](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Java 전처리 단계에서 이미지 기울기를 보정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -158,6 +158,12 @@ Java ile yüksek çözünürlüklü görüntülerde OCR uygulayarak metin çıka
 ### [El yazısı metni tanıma – OCR Doğruluğunu Artırmak İçin Tam Kılavuz](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 
 Java ve Aspose.OCR ile el yazısı metinlerini yüksek doğrulukla tanıyın, OCR performansını artırın.
+### [GPU'yu OCR için yapılandırma – Görüntüden metin tanıma](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+GPU desteğiyle OCR performansını artırın ve görüntülerden hızlı ve doğru metin çıkarın.
+### [Java ile Arama Yapılabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-java-complete-guide/)
+Java kullanarak arama yapılabilir PDF oluşturun. Metni tanıyın ve PDF'yi düzenlenebilir hâle getirin. Hemen indirin.
+### [OCR için Görüntüyü Düzeltme – Java Ön İşleme Kılavuzu](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Java ile OCR ön işleme adımlarında görüntüyü eğriltme (deskew) işlemini nasıl yapacağınızı öğrenin. Metin tanıma doğruluğunu artırın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

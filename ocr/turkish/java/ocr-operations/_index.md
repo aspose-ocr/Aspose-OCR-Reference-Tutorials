@@ -87,6 +87,11 @@ Java kullanarak tek bir görüntüde metin tanıma adımlarını ayrıntılı ol
 Java ile PDF dosyalarını OCR ile aranabilir hâle getirerek metin katmanı ekleyin. Adım adım rehberimizi izleyin.
 ### [Java’da Görüntüyü OCR İçin Yükleme – Adım Adım Kılavuz](./load-image-for-ocr-in-java-step-by-step-guide/)
 Java uygulamanıza görüntü yükleyerek OCR işlemini nasıl gerçekleştireceğinizi adım adım öğrenin.
+### [Java'da Aspose ile OCR'ı Etkinleştirme – Tam Adım‑Adım Kılavuz](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Java uygulamanıza Aspose OCR'ı ekleyerek tam adım adım nasıl etkinleştireceğinizi öğrenin.
+### [Aspose OCR Java ile Görüntü Metni Tanıma – Tam Kılavuz](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+### [Görsellerden Hint Metni Çıkarma – Java OCR Örneği](./extract-hindi-text-from-images-java-ocr-example/)
+Java ve Aspose.OCR kullanarak görsellerden Hint dilinde metin çıkarma adımlarını öğrenin.
 
 ## Sıkça Sorulan Sorular
 

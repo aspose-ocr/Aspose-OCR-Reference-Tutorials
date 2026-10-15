@@ -142,6 +142,12 @@ Wykonuj OCR na obrazach w Javie, wykorzystując moc GPU do szybkiego i dokładne
 Wykonuj OCR na obrazach wysokiej rozdzielczości w Javie, zapewniając szybkie i dokładne wyodrębnianie tekstu.
 ### [Rozpoznawanie tekstu odręcznego – Kompletny przewodnik zwiększający dokładność OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Poznaj techniki rozpoznawania tekstu odręcznego w Aspose.OCR dla Java, aby znacznie zwiększyć dokładność OCR w swoich aplikacjach.
+### [Jak skonfigurować GPU dla OCR – rozpoznawanie tekstu z obrazu](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Dowiedz się, jak skonfigurować GPU, aby przyspieszyć rozpoznawanie tekstu w Aspose.OCR dla Java.
+### [Tworzenie przeszukiwalnego PDF w Javie – Kompletny przewodnik](./create-searchable-pdf-with-java-complete-guide/)
+Dowiedz się, jak w pełni wykorzystać Aspose.OCR do tworzenia przeszukiwalnych plików PDF w Javie.
+### [Jak wyprostować obraz dla OCR – Przewodnik przetwarzania wstępnego w Javie](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Dowiedz się, jak wyprostować obrazy przed OCR w Javie, aby zwiększyć dokładność rozpoznawania tekstu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

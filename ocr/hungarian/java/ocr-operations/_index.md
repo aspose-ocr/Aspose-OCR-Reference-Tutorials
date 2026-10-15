@@ -74,11 +74,8 @@ Búcsúzz el a TIFF képek manuális szövegkinyerésétől. Hagyd, hogy az Aspo
 
 ## OCR műveletek tutorialok
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
-Szabadítsd fel a képekből történő szövegkinyerés erejét az Aspose.OCR for Java segítségével. Átfogó tutorial a Detect Areas Mode OCR-hoz.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
-Szabadítsd fel a képek pontos szövegkinyerését az Aspose.OCR for Java segítségével. Kövesd lépésről lépésre útmutatónkat a nyelvválasztással történő pontos OCR-hoz.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
-Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget PDF dokumentumokban. Növeld alkalmazásaidat pontossággal és sebességgel.
 ### [Kereshető PDF létrehozása beolvasott fájlokból – Java útmutató](./create-searchable-pdf-from-scanned-files-java-guide/)
 Könnyedén alakíts beolvasott fájlokat kereshető PDF‑vé Java‑ban az Aspose.OCR segítségével, gyors és pontos megoldás.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
@@ -111,6 +108,9 @@ Ismerd meg, hogyan hozhatsz létre kereshető PDF-et Java és Aspose.OCR segíts
 ### [Kép betöltése OCR-hez Java-ban – Lépésről‑lépésre útmutató](./load-image-for-ocr-in-java-step-by-step-guide/)
 Ismerd meg, hogyan tölts be képet Java-ban az Aspose.OCR használatával, és hajts végre pontos szövegfelismerést.
 ### [Kereshető PDF létrehozása – Java OCR útmutató](./create-searchable-pdf-java-ocr-guide/)
+### [Hogyan engedélyezzük az OCR-t Java-ban az Aspose segítségével – Teljes lépésről‑lépésre útmutató](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+### [Képről szöveg felismerése Aspose OCR Java-val – Teljes útmutató](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+### [Hindi szöveg kinyerése képekből – Java OCR példa](./extract-hindi-text-from-images-java-ocr-example/)
 
 ## Gyakran Ismételt Kérdések
 

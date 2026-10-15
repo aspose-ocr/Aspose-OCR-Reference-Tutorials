@@ -113,6 +113,11 @@ weight: 21
 Подробный пошаговый туториал по загрузке изображений в Aspose.OCR для Java перед распознаванием текста.
 ### [Создание поискового PDF – руководство по OCR в Java](./create-searchable-pdf-java-ocr-guide/)
 Научитесь преобразовывать PDF в поисковые файлы с помощью Aspose.OCR для Java, шаг за шагом.
+### [Как включить OCR в Java с Aspose – Полное пошаговое руководство](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Подробный гид по включению OCR в Java‑приложениях с использованием Aspose, шаг за шагом.
+### [Распознавание текста с изображения с помощью Aspose OCR Java – Полное руководство](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
+### [Извлечение текста на хинди из изображений – пример OCR на Java](./extract-hindi-text-from-images-java-ocr-example/)
 
 ## Часто задаваемые вопросы
 

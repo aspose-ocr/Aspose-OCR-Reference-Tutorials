@@ -146,6 +146,12 @@ Nutzen Sie GPU-Beschleunigung, um mit Aspose.OCR für Java Text aus Bildern schn
 ### [Durchführen von OCR auf hochauflösenden Bildern – Vollständiger Java-Leitfaden](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
 Nutzen Sie Aspose.OCR für Java, um OCR auf hochauflösenden Bildern schnell und präzise durchzuführen.
 ### [Handschriftlichen Text erkennen – Vollständiger Leitfaden zur Steigerung der OCR-Genauigkeit](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
+### [GPU für OCR konfigurieren – Text aus Bild erkennen](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+Lernen Sie, wie Sie die GPU für Aspose.OCR konfigurieren, um Text aus Bildern schnell und präzise zu erkennen.
+### [Erstellen von durchsuchbaren PDFs mit Java – Komplettanleitung](./create-searchable-pdf-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java durchsuchbare PDFs erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man ein Bild für OCR begradigt – Java-Vorverarbeitungsleitfaden](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
+Erfahren Sie, wie Sie Bilder in Java vor der OCR begradigen, um die Erkennungsgenauigkeit zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
