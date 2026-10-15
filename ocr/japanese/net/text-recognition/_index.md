@@ -390,6 +390,22 @@ Aspose.OCR を使用して C# でアラビア語テキストを認識する方�
 Aspose.OCR と C# を使用して画像から EPUB ファイルを生成し、OCR 結果を電子書籍に組み込む手順をステップバイステップで解説します。
 ### [Aspose OCR を使用した画像からのテキスト認識 – 完全な C# 非同期ガイド](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
 Aspose.OCR と C# の非同期機能を活用して、画像からテキストを認識する完全ガイドです。
+### [PNG からテキストを抽出 – OCR で画像からテキストを読み取る](./extract-text-from-png-read-text-from-image-with-ocr/)
+Aspose.OCR を使用して PNG 画像からテキストを抽出し、OCR による文字認識方法をステップバイステップで学びます。
+### [C# で OCR を実行する方法 – 画像からアラビア語テキストを抽出](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+Aspose.OCR を使用して C# で画像からアラビア語テキストを抽出する手順をステップバイステップで解説します。
+### [スキャンしたファイルから検索可能な PDF を作成 – ステップバイステップ C# ガイド](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+Aspose.OCR を使用して、スキャン画像から検索可能な PDF を作成し、C# で実装する方法をステップバイステップで解説します。
+### [C# で PNG 画像を一括 OCR する – 完全ガイド](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Aspose.OCR を使用して C# で複数の PNG 画像を一括で OCR 処理し、テキスト抽出を自動化する手順をステップバイステップで解説します。
+### [OCR の使い方：C# で画像を HTML に変換する](./how-to-use-ocr-convert-image-to-html-in-c/)
+Aspose.OCR を使用して C# で画像を HTML に変換し、Web コンテンツに組み込む手順をステップバイステップで解説します。
+### [Aspose OCR で画像からテキストを抽出 – ステップバイステップガイド](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR を使用して画像からテキストを抽出する手順をステップバイステップで解説します。簡単に文字情報を取得できます。
+### [OCR エンジンで JSON を解析する方法 – C# 完全ステップバイステップガイド](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+Aspose.OCR を使用して C# で OCR エンジンから取得した JSON データを解析する手順をステップバイステップで解説します。
+### [C# OCR チュートリアル：画像（WebP、写真）からテキストを抽出 – クイックガイド](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+Aspose.OCR を使用して C# で WebP や写真画像からテキストを抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -370,6 +370,22 @@ Erfahren Sie, wie Sie mit Aspose.OCR arabischen Text in C# erkennen und verarbei
 Erfahren Sie, wie Sie mit Aspose.OCR in C# aus Bildern EPUB-Dateien erstellen – eine umfassende Schritt‑für‑Schritt‑Anleitung.
 ### [Text aus Bild mit Aspose OCR erkennen – Vollständiger C# Async‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
 Lernen Sie, wie Sie mit Aspose OCR in C# asynchron Text aus Bildern extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Text aus PNG extrahieren – Text aus Bild mit OCR lesen](./extract-text-from-png-read-text-from-image-with-ocr/)
+### [Text aus Bild extrahieren mit Aspose OCR – Schritt‑für‑Schritt‑Anleitung](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+Lernen Sie, wie Sie mit Aspose OCR Text aus Bildern extrahieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man OCR in C# durchführt – Arabischen Text aus Bildern extrahieren](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+Erfahren Sie, wie Sie mit Aspose.OCR arabischen Text aus Bildern in C# extrahieren.
+### [Durchsuchbares PDF aus gescannten Dateien erstellen – Schritt‑für‑Schritt C#‑Leitfaden](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# gescannte Dokumente in durchsuchbare PDFs umwandeln.
+### [Wie man PNG‑Bilder stapelweise per OCR in C# verarbeitet – Komplettanleitung](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR mehrere PNG‑Dateien in C# automatisiert erkennen und die Ergebnisse effizient verarbeiten.
+### [Wie man OCR verwendet: Bild in HTML konvertieren in C#](./how-to-use-ocr-convert-image-to-html-in-c/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# ein Bild einlesen und den erkannten Text als HTML ausgeben.
+### [JSON mit OCR-Engine C# parsen – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+Erfahren Sie, wie Sie JSON-Daten mithilfe der Aspose.OCR‑Engine in C# effizient parsen und verarbeiten.
+### [C# OCR‑Tutorial: Text aus Bildern (WebP, Foto) extrahieren – Schnell‑Leitfaden](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+Erfahren Sie, wie Sie mit Aspose.OCR Text aus WebP‑ und Fotobildern schnell extrahieren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -380,6 +380,22 @@ Scopri come trasformare rapidamente le immagini in JSON usando Aspose OCR con es
 Impara a generare file EPUB a partire da immagini usando Aspose.OCR in C#, con esempi pratici passo passo.
 ### [Riconosci testo da immagine con Aspose OCR – Guida completa C# asincrona](./recognize-text-from-image-with-aspose-ocr-complete-c-async-g/)
 Scopri come riconoscere testo da immagini usando Aspose OCR in C# con operazioni asincrone, passo passo.
+### [Estrai testo da PNG – Leggi testo da immagine con OCR](./extract-text-from-png-read-text-from-image-with-ocr/)
+Scopri come estrarre testo da file PNG usando Aspose.OCR per .NET, con una guida passo passo per leggere il contenuto delle immagini.
+### [Estrai testo da immagine con Aspose OCR – Guida passo‑passo](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+Scopri come estrarre testo da immagini usando Aspose OCR con una guida dettagliata passo‑passo.
+### [Come eseguire OCR in C# – Estrarre testo arabo dalle immagini](./how-to-perform-ocr-in-c-extract-arabic-text-from-images/)
+Impara a utilizzare Aspose.OCR per .NET per riconoscere e estrarre testo arabo da immagini con C# in pochi passaggi.
+### [Crea PDF ricercabile da file scansionati – Guida passo‑passo C#](./create-searchable-pdf-from-scanned-files-step-by-step-c-guid/)
+Impara a trasformare file scansionati in PDF ricercabili usando Aspose.OCR per .NET con una guida dettagliata in C#.
+### [Come eseguire OCR batch di immagini PNG in C# – Guida completa](./how-to-batch-ocr-png-images-in-c-complete-guide/)
+Scopri come elaborare in batch immagini PNG con Aspose.OCR in C#, passo dopo passo per ottimizzare il riconoscimento del testo.
+### [Come utilizzare OCR: Convertire immagine in HTML in C#](./how-to-use-ocr-convert-image-to-html-in-c/)
+Scopri come trasformare un'immagine in HTML usando Aspose.OCR per .NET con una guida passo passo in C#.
+### [Come analizzare JSON con OCR Engine C# – Guida completa passo‑passo](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
+Impara a utilizzare OCR Engine in C# per analizzare JSON, con una guida completa passo‑passo per integrare facilmente i risultati.
+### [c# OCR tutorial: Estrai testo da immagini (WebP, foto) – Guida rapida](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
+Scopri come estrarre rapidamente testo da immagini WebP e foto usando Aspose.OCR in C# con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
