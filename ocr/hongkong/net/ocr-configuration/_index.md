@@ -75,6 +75,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 使用 Aspose.PDF 將 JPEG 轉換為可搜尋的 PDF，並嵌入所需字體以確保文字可索引。
 ### [從 PNG 讀取文字 – 使用 Aspose OCR 提取西里爾文字](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 使用 Aspose.OCR 在 .NET 中從 PNG 圖像提取西里爾文字，實現高精度文字辨識。
+### [在 C# 中設定 GPU 裝置以執行 OCR – 完整程式設計指南](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+說明如何在 C# 中設定 GPU 裝置以加速 Aspose.OCR，提升辨識效能的完整程式設計指南。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

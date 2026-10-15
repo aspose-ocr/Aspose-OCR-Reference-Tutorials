@@ -396,6 +396,16 @@ Scopri come trasformare un'immagine in HTML usando Aspose.OCR per .NET con una g
 Impara a utilizzare OCR Engine in C# per analizzare JSON, con una guida completa passo‑passo per integrare facilmente i risultati.
 ### [c# OCR tutorial: Estrai testo da immagini (WebP, foto) – Guida rapida](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Scopri come estrarre rapidamente testo da immagini WebP e foto usando Aspose.OCR in C# con questa guida passo passo.
+### [Come eseguire OCR giapponese con Aspose OCR in C# – Guida completa](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Scopri come riconoscere testo giapponese nelle immagini usando Aspose OCR con C#. Segui la nostra guida passo passo per risultati precisi.
+### [Crea PDF ricercabile da immagine con OCR – Guida C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Crea PDF ricercabile da immagini usando Aspose.OCR in C#. Segui la nostra guida passo passo per risultati precisi.
+### [Crea docx da immagine con Aspose OCR – Guida passo‑a‑passo C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Crea un documento DOCX da un'immagine usando Aspose OCR in C#. Segui la nostra guida passo passo per risultati precisi.
+### [Estrai tabella da immagine con Aspose OCR – Guida completa C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Scopri come estrarre tabelle da immagini con Aspose OCR in C#. Segui la nostra guida passo passo per risultati precisi.
+### [Estrai testo da immagine in C# – Guida completa OCR offline](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Impara a estrarre testo da immagini in C# usando Aspose.OCR in modalità offline con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -397,6 +397,16 @@ Dowiedz się, jak przy użyciu Aspose OCR wyodrębnić tekst z dowolnego obrazu 
 Dowiedz się, jak przy użyciu Aspose.OCR w C# przetworzyć wyniki OCR do formatu JSON w prostych krokach.
 ### [c# OCR tutorial: Wyodrębnij tekst z obrazów (WebP, zdjęcie) – szybki przewodnik](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Dowiedz się, jak przy użyciu Aspose.OCR w C# wyodrębnić tekst z obrazów WebP i zdjęć w szybkim przewodniku krok po kroku.
+### [Wyodrębnij tabelę z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Dowiedz się, jak przy pomocy Aspose OCR w C# wyodrębnić tabelę z obrazu, krok po kroku, z praktycznymi przykładami.
+### [Jak rozpoznać japoński za pomocą Aspose OCR w C# – Kompletny przewodnik](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Poznaj, jak używać Aspose OCR w C# do rozpoznawania japońskiego tekstu w obrazach, krok po kroku, z praktycznymi przykładami.
+### [Utwórz przeszukiwalny PDF z obrazu przy użyciu OCR – przewodnik C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Dowiedz się, jak przy pomocy Aspose.OCR w C# stworzyć przeszukiwalny plik PDF z obrazu, krok po kroku.
+### [Utwórz docx z obrazu przy użyciu Aspose OCR – przewodnik C# krok po kroku](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Dowiedz się, jak przy pomocy Aspose OCR w C# wygenerować plik docx z obrazu, krok po kroku, z praktycznymi przykładami.
+### [Wyodrębnij tekst z obrazu w C# – Kompletny przewodnik offline OCR](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Dowiedz się, jak przy pomocy Aspose OCR w C# wyodrębnić tekst z obrazu w trybie offline, krok po kroku, z praktycznymi przykładami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

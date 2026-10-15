@@ -61,6 +61,8 @@ weight: 24
 تعلم كيفية إدراج الخطوط في ملفات PDF وتحويل صور JPEG إلى ملفات PDF قابلة للبحث باستخدام Aspose.PDF.
 ### [قراءة النص من PNG – استخراج النص السيريلي باستخدام Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 تعلم كيفية استخراج النص السيريلي من ملفات PNG باستخدام مكتبة Aspose OCR في .NET.
+### [تعيين جهاز GPU لتقنية OCR في C# – دليل برمجة كامل](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+تعلم كيفية تكوين جهاز GPU لتسريع عملية OCR باستخدام Aspose.OCR في تطبيقات C#.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

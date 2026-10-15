@@ -118,6 +118,8 @@ Hướng dẫn chi tiết cách tạo engine OCR trong C# và cấu hình môi t
 ### [Nhúng phông chữ vào PDF – Tạo PDF có thể tìm kiếm từ JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Nhúng phông chữ vào PDF để tạo tài liệu có thể tìm kiếm từ hình ảnh JPEG một cách dễ dàng.
 ### [Đọc văn bản từ PNG – trích xuất văn bản Cyrillic bằng Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+### [Cài đặt thiết bị GPU cho OCR trong C# – Hướng dẫn lập trình đầy đủ](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách cấu hình thiết bị GPU để tăng tốc độ nhận dạng OCR trong C# bằng Aspose.OCR.
 
 
 

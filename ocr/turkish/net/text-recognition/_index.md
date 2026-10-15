@@ -396,6 +396,16 @@ C# ve Aspose.OCR kullanarak bir görüntüyü HTML formatına dönüştürmeyi a
 Aspose OCR kullanarak bir görüntüden metin çıkarma sürecini adım adım öğrenin.
 ### [OCR Motoru C# ile JSON Ayrıştırma – Tam Adım Adım Kılavuz](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
 OCR motoru kullanarak C# içinde JSON verilerini nasıl ayrıştıracağınızı adım adım öğrenin.
+### [C# ile Aspose OCR kullanarak Japonca OCR nasıl yapılır – Tam Kılavuz](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+C# ortamında Aspose OCR ile Japonca metin tanıma adımlarını ayrıntılı olarak öğrenin.
+### [OCR ile Görüntüden Aranabilir PDF Oluşturma – C# Kılavuzu](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Aspose.OCR for .NET kullanarak görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin.
+### [Aspose OCR ile Görüntüden Tablo Çıkarma – Tam C# Kılavuzu](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak görüntülerden tablo çıkarmayı adım adım öğrenin ve .NET uygulamalarınızda tablo tanımayı etkinleştirin.
+### [C# ile Görüntüden Metin Çıkarma – Tam Çevrimdışı OCR Kılavuzu](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+C# ile Aspose OCR kullanarak çevrimdışı şekilde görüntülerden metin çıkarmayı adım adım öğrenin ve .NET uygulamalarınızda tablo tanımayı etkinleştirin.
+### [Aspose OCR ile Görüntüden docx Oluşturma – Adım Adım C# Kılavuzu](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR kullanarak görüntülerden docx dosyası oluşturmayı adım adım öğrenin ve .NET uygulamalarınızda belge üretimini kolaylaştırın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

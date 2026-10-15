@@ -64,6 +64,7 @@ C# で OCR モデルが利用可能かどうかを確認し、適切にハンド
 JPEG 画像からフォントを埋め込み、検索可能な PDF を作成する方法を学びます。
 ### [png からテキストを読み取る – Aspose OCR でキリル文字テキストを抽出](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Aspose OCR を使用して PNG 画像からキリル文字テキストを抽出し、.NET アプリで利用する方法を解説します。
+### [C# で OCR の GPU デバイスを設定する – 完全プログラミングガイド](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

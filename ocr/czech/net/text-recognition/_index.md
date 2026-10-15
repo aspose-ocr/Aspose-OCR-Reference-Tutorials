@@ -406,6 +406,16 @@ Naučte se, jak pomocí Aspose OCR extrahovat text z obrázku krok za krokem v .
 Naučte se pomocí Aspose.OCR v C# parsovat JSON výstup z OCR a získat strukturovaná data krok za krokem.
 ### [c# OCR tutoriál: Extrahovat text z obrázků (WebP, Fotka) – Rychlý průvodce](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Naučte se pomocí Aspose.OCR v C# rychle extrahovat text z obrázků ve formátu WebP i fotografií.
+### [Extrahujte tabulku z obrázku pomocí Aspose OCR – Kompletní průvodce C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose OCR extrahovat tabulky z obrázků v C# aplikacích.
+### [Jak provést OCR japonštiny pomocí Aspose OCR v C# – Kompletní průvodce](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Kompletní návod, jak rozpoznávat japonský text pomocí Aspose OCR v C# aplikacích.
+### [Vytvořte prohledávatelný PDF z obrázku pomocí OCR – průvodce C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Naučte se, jak pomocí Aspose.OCR vytvořit prohledávatelný PDF soubor z obrázku v C# aplikacích.
+### [Extrahujte text z obrázku v C# – Kompletní offline OCR průvodce](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Kompletní průvodce, jak offline pomocí Aspose.OCR v C# extrahovat text z obrázků bez připojení k internetu.
+### [Vytvořte DOCX z obrázku pomocí Aspose OCR – krok za krokem průvodce v C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Kompletní návod, jak pomocí Aspose OCR v C# převést obrázek na soubor DOCX s textem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

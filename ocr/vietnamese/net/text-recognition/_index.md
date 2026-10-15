@@ -399,6 +399,16 @@ Nâng cao các ứng dụng .NET của bạn với Aspose.OCR để trích xuấ
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để phân tích kết quả JSON một cách dễ dàng và hiệu quả.
 ### [Hướng dẫn OCR C#: Trích xuất văn bản từ hình ảnh (WebP, Ảnh) – Hướng dẫn nhanh](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhanh chóng trích xuất văn bản từ hình ảnh WebP và ảnh chụp.
+### [Trích xuất bảng từ hình ảnh bằng Aspose OCR – Hướng dẫn đầy đủ C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất bảng từ hình ảnh, bao gồm cài đặt, cấu hình và xử lý kết quả.
+### [Cách OCR tiếng Nhật với Aspose OCR trong C# – Hướng dẫn đầy đủ](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng văn bản tiếng Nhật, bao gồm cài đặt, cấu hình và xử lý kết quả.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh bằng OCR – Hướng dẫn C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Biến hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET, hướng dẫn chi tiết từng bước trong C#.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR offline đầy đủ](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách offline, bao gồm cài đặt, cấu hình và xử lý kết quả.
+### [Tạo docx từ hình ảnh bằng Aspose OCR – Hướng dẫn C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để tạo file docx từ hình ảnh, bao gồm cài đặt, cấu hình và xử lý kết quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

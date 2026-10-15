@@ -85,6 +85,8 @@ Learn how to programmatically verify OCR model availability in C# using Aspose.O
 Create searchable PDFs from JPEG images by embedding fonts using Aspose.PDF for .NET.
 ### [read text from png – extract Cyrillic text with Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Learn how to read Cyrillic text from PNG images using Aspose.OCR in .NET, covering image loading, language setting, and extracting accurate results.
+### [Set GPU Device for OCR in C# – Complete Programming Guide](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Learn how to configure GPU acceleration for OCR in C# using Aspose.OCR for faster, more efficient text extraction.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

@@ -52,6 +52,8 @@ Scopri come rimuovere l'inclinazione dalle immagini con una guida completa al pr
 
 ### [Rimuovi l'inclinazione dall'immagine – Guida completa alla pre‑elaborazione OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Scopri come rimuovere l'inclinazione dalle immagini per migliorare l'accuratezza dell'OCR con una guida passo passo.
+### [Come raddrizzare l'immagine e pulire le scansioni – Guida completa C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Scopri come raddrizzare le immagini e migliorare le scansioni con Aspose.OCR per .NET in una guida passo‑passo in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -82,6 +82,8 @@ Leer stap‑voor‑stap hoe je de beschikbaarheid van OCR‑modellen controleert
 Leer hoe je lettertypen in PDF's insluit en JPEG-afbeeldingen omzet naar doorzoekbare PDF-documenten met Aspose.PDF.
 ### [Tekst lezen uit PNG – Cyrillische tekst extraheren met Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Leer hoe je met Aspose OCR tekst uit PNG‑bestanden met Cyrillische tekens kunt extraheren.
+### [GPU-apparaat instellen voor OCR in C# – Complete programmeergids](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Ontgrendel GPU-versnelling voor OCR in C#. Leer hoe je een GPU-apparaat instelt voor optimale prestaties.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

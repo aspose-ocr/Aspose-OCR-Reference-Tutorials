@@ -67,6 +67,8 @@ Descubra como verificar se um modelo OCR está disponível antes de usá‑lo em
 Aprenda a incorporar fontes em PDFs gerados a partir de imagens JPEG, tornando-os pesquisáveis e editáveis.
 ### [Ler texto de PNG – extrair texto cirílico com Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Desbloqueie o OCR para extrair texto cirílico de imagens PNG usando Aspose OCR de forma simples e eficaz.
+### [Definir Dispositivo GPU para OCR em C# – Guia de Programação Completo](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Aprenda a configurar o dispositivo GPU no Aspose.OCR usando C# para acelerar o reconhecimento de imagens.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

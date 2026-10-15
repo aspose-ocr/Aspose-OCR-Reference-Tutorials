@@ -393,6 +393,16 @@ url: /el/net/text-recognition/
 Μάθετε πώς να επεξεργάζεστε και να εξάγετε δεδομένα JSON χρησιμοποιώντας την μηχανή OCR του Aspose σε C# με οδηγίες βήμα‑βήμα.
 ### [c# OCR σεμινάριο: Εξαγωγή κειμένου από εικόνες (WebP, Φωτογραφία) – Γρήγορος οδηγός](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες WebP και φωτογραφίες με Aspose.OCR σε C# σε έναν γρήγορο βήμα‑βήμα οδηγό.
+### [Πώς να κάνετε OCR ιαπωνικών με το Aspose OCR σε C# – Πλήρης Οδηγός](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+Μάθετε βήμα προς βήμα πώς να αναγνωρίζετε ιαπωνικό κείμενο σε C# χρησιμοποιώντας το Aspose OCR.
+### [Δημιουργία αναζητήσιμου PDF από εικόνα με OCR – Οδηγός C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+Μάθετε πώς να δημιουργείτε αναζητήσιμα PDF από εικόνες χρησιμοποιώντας το Aspose.OCR σε C#.
+### [Εξαγωγή πίνακα από εικόνα με Aspose OCR – Πλήρης οδηγός C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εξάγετε πίνακες από εικόνες χρησιμοποιώντας το Aspose OCR σε C#, βήμα προς βήμα οδηγός.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Πλήρης offline οδηγός OCR](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας πλήρη offline OCR λύση του Aspose.
+### [Δημιουργία docx από εικόνα με Aspose OCR – Οδηγός βήμα‑βήμα C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αρχεία docx χρησιμοποιώντας το Aspose OCR σε C# με αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

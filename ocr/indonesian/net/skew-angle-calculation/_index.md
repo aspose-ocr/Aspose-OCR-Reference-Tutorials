@@ -51,6 +51,8 @@ Pelajari cara mengoreksi kemiringan gambar di C# dengan langkah‑langkah pra‑
 Panduan lengkap pra‑pemrosesan C# untuk mengoreksi kemiringan gambar sebelum OCR, meningkatkan akurasi dan efisiensi.
 ### [Hapus Kemiringan dari Gambar – Panduan Lengkap Pra‑pemrosesan OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Pelajari cara menghilangkan kemiringan gambar secara efektif sebagai langkah pra‑pemrosesan OCR dengan Aspose.OCR untuk .NET.
+### [Cara Mengoreksi Kemiringan Gambar dan Membersihkan Scan – Panduan Lengkap C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Panduan lengkap C# untuk mengoreksi kemiringan gambar dan membersihkan hasil scan secara efisien menggunakan Aspose.OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

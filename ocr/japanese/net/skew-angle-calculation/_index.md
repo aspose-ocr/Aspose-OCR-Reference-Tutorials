@@ -51,6 +51,8 @@ OCR の精度向上のため、C# で画像をデスキューする完全な前�
 
 ### [画像のスキュー除去 – 完全な OCR 前処理ガイド](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 画像のスキューを除去し、OCR の精度を向上させる完全な前処理手順を学びましょう。
+### [画像のデスクューとスキャンのクリーンアップ – 完全 C# ガイド](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+C# で画像の傾きを補正し、スキャン画像をきれいにする手順をステップバイステップで解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -65,7 +65,6 @@ url: /ar/net/text-recognition/
 تعلم خطوة بخطوة كيفية تنفيذ OCR وإنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C#.
 
 ### [التعرف على الجدول في التعرف على الصور OCR](./recognize-table/)
-أطلق العنان لإمكانات Aspose.OCR لـ .NET من خلال دليلنا الشامل حول التعرف على الجداول في التعرف على الصور باستخدام OCR.
 ### [التعرف على النص الهندي في C# باستخدام Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
 تعلم كيفية التعرف على النص الهندي في تطبيقات C# باستخدام مكتبة Aspose OCR خطوة بخطوة.
 
@@ -404,6 +403,16 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج وتحليل نتائج OCR بصيغة JSON باستخدام محرك OCR في C# خطوة بخطوة.
 ### [دليل سريع لتقنية OCR بلغة C#: استخراج النص من الصور (WebP، صورة)](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 اكتشف طريقة استخراج النص من صور WebP والصور باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية التعرف الضوئي على النص الياباني باستخدام Aspose OCR في C# – دليل كامل](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+تعلم خطوة بخطوة كيفية التعرف على النص الياباني باستخدام Aspose OCR في C# واحصل على نتائج دقيقة وسهلة.
+### [إنشاء ملف PDF قابل للبحث من صورة باستخدام OCR – دليل C#](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+تعلم كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [إنشاء ملف docx من صورة باستخدام Aspose OCR – دليل خطوة بخطوة C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+تعلم كيفية تحويل صورة إلى ملف docx باستخدام Aspose OCR في C# خطوة بخطوة.
+### [استخراج جدول من صورة باستخدام Aspose OCR – دليل كامل C#](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+تعلم خطوة بخطوة كيفية استخراج الجداول من الصور باستخدام Aspose OCR في C# لتحقيق نتائج دقيقة وسهلة.
+### [استخراج النص من صورة في C# – دليل OCR كامل دون اتصال](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# بدون الحاجة للإنترنت.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

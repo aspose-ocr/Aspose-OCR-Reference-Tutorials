@@ -395,6 +395,15 @@ Aspose OCR을 사용해 이미지에서 텍스트를 추출하는 방법을 단�
 ### [C# OCR 튜토리얼: 이미지(WebP, 사진)에서 텍스트 추출 – 빠른 가이드](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 C#와 Aspose.OCR을 사용해 WebP 및 사진 이미지에서 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
 
+### [C#에서 Aspose OCR을 사용하여 일본어 OCR 수행 방법 – 전체 가이드](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+C#와 Aspose OCR을 활용해 일본어 텍스트를 정확히 인식하는 전체 가이드를 확인하세요.
+### [OCR을 사용하여 이미지에서 검색 가능한 PDF 만들기 – C# 가이드](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+이미지를 OCR로 처리해 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 이미지에서 테이블 추출 – 전체 C# 가이드](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+### [C#에서 이미지 텍스트 추출 – 완전한 오프라인 OCR 가이드](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+C#와 Aspose.OCR을 사용해 인터넷 연결 없이 이미지에서 텍스트를 추출하는 전체 가이드를 확인하세요.
+### [Aspose OCR을 사용하여 이미지에서 docx 만들기 – 단계별 C# 가이드](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+Aspose OCR과 C#를 활용해 이미지 파일을 Word docx 문서로 변환하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

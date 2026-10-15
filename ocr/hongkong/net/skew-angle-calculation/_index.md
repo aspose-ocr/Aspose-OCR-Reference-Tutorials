@@ -51,6 +51,8 @@ url: /zh-hant/net/skew-angle-calculation/
 ### [從影像中移除傾斜 – 完整的 OCR 前處理指南](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 深入了解如何使用 Aspose.OCR for .NET 進行影像去傾斜的完整前處理步驟，提升 OCR 準確度與效率。
 
+### [如何校正影像並清理掃描 – 完整 C# 指南](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+深入了解如何使用 Aspose.OCR for .NET 校正影像傾斜並清理掃描文件，提高文字辨識準確度。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

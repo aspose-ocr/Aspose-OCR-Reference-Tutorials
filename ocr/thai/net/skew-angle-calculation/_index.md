@@ -49,6 +49,8 @@ url: /th/net/skew-angle-calculation/
 ### [วิธีแก้ไขมุมเอียงของภาพ – คู่มือการเตรียมข้อมูล C# ครบถ้วนสำหรับ OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 ### [การลบการเอียงจากภาพ – คู่มือการเตรียม OCR อย่างสมบูรณ์](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 
+### [วิธีแก้ไขมุมเอียงของภาพและทำความสะอาดสแกน – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+เรียนรู้วิธีแก้ไขมุมเอียงของภาพและทำความสะอาดสแกนด้วย C# อย่างละเอียดเพื่อเพิ่มความแม่นยำของ OCR
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -389,6 +389,16 @@ C# में कई PNG छवियों को एक साथ OCR करन
 C# में Aspose.OCR का उपयोग करके छवि को HTML में परिवर्तित करने की चरण‑दर‑स्टेप गाइड।
 ### [c# OCR ट्यूटोरियल: छवियों (WebP, फ़ोटो) से टेक्स्ट निकालें – त्वरित गाइड](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 Aspose.OCR के साथ C# में WebP और फ़ोटो छवियों से तेज़ी से टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
+### [Aspose OCR के साथ छवि से तालिका निकालें – पूर्ण C# गाइड](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+C# में Aspose OCR का उपयोग करके छवि से तालिका निकालने की पूरी प्रक्रिया सीखें।
+### [C# में Aspose OCR के साथ जापानी OCR कैसे करें – पूर्ण गाइड](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+C# में Aspose OCR का उपयोग करके जापानी भाषा की छवियों से सटीक टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [OCR के साथ छवि से खोज योग्य PDF बनाएं – C# गाइड](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+छवि को OCR के साथ प्रोसेस करके खोज योग्य PDF बनाना सीखें, C# में Aspose.OCR का उपयोग करके।
+### [छवि से टेक्स्ट निकालें C# – पूर्ण ऑफ़लाइन OCR गाइड](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+C# में ऑफ़लाइन OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [Aspose OCR के साथ छवि से docx बनाएं – चरण‑दर‑चरण C# गाइड](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+C# में Aspose OCR का उपयोग करके इमेज से docx फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

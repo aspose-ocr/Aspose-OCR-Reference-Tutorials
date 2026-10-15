@@ -75,6 +75,8 @@ Lär dig hur du verifierar om en OCR-modell är tillgänglig i C# innan du påb�
 ### [Bädda in teckensnitt i PDF – Skapa sökbara PDF-filer från JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 Lär dig hur du bäddar in teckensnitt i PDF och konverterar JPEG‑bilder till sökbara PDF‑dokument med Aspose.PDF.
 ### [Läs text från PNG – extrahera kyrillisk text med Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+### [Ställ in GPU‑enhet för OCR i C# – Komplett programmeringsguide](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Lär dig hur du konfigurerar GPU‑enhet för OCR i C# med en komplett programmeringsguide.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

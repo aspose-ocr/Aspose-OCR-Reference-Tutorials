@@ -78,6 +78,8 @@ Dowiedz się, jak skonfigurować własny silnik OCR w C# bez połączenia z inte
 Dowiedz się, jak osadzić czcionki w plikach PDF, aby przekształcić obrazy JPEG w przeszukiwalne dokumenty PDF.
 ### [Odczytaj tekst z PNG – wyodrębnij tekst cyrylicą przy użyciu Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Dowiedz się, jak wyodrębnić tekst cyrylicą z plików PNG przy użyciu Aspose OCR w .NET.
+### [Ustawienie urządzenia GPU dla OCR w C# – Kompletny przewodnik programistyczny](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Pełny przewodnik, jak skonfigurować GPU w Aspose.OCR dla C#, aby przyspieszyć rozpoznawanie obrazu.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

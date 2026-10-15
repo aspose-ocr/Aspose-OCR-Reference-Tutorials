@@ -50,6 +50,8 @@ url: /zh/net/skew-angle-calculation/
 ### [从图像中去除倾斜 – 完整的 OCR 预处理指南](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 提供完整的 OCR 预处理步骤，帮助您从图像中去除倾斜，提高识别准确率。
 
+### [如何去倾斜图像并清理扫描 – 完整 C# 指南](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+使用 Aspose.OCR for .NET 在 C# 中实现图像去倾斜和扫描清理的完整指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

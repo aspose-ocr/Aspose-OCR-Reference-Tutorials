@@ -67,6 +67,8 @@ C# ile OCR modelinin mevcut olup olmadığını kontrol etmeyi adım adım öğr
 JPEG görüntülerini PDF'ye gömülü yazı tipleriyle dönüştürerek aranabilir PDF dosyaları oluşturun.
 ### [png'den metin oku – Aspose OCR ile Kiril metni çıkarma](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Aspose OCR kullanarak PNG dosyalarından Kiril alfabesindeki metni doğru ve hızlı bir şekilde çıkarın.
+### [C#'ta OCR için GPU Aygıtı Ayarlama – Tam Programlama Kılavuzu](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Aspose.OCR’da GPU cihazını yapılandırarak OCR performansını artırın ve C# kod örnekleriyle tam bir rehber izleyin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

@@ -63,6 +63,8 @@ Zjistěte, jak programově ověřit, zda je OCR model dostupný, a jak reagovat,
 Naučte se, jak vložit fonty do PDF a převést JPEG obrázky na prohledávatelná PDF pomocí Aspose.PDF.
 ### [Číst text z PNG – extrahovat cyrilický text pomocí Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Naučte se, jak pomocí Aspose OCR načíst PNG soubor a získat cyrilický text s vysokou přesností.
+### [Nastavení GPU zařízení pro OCR v C# – Kompletní programovací průvodce](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Naučte se, jak konfigurovat GPU pro zrychlení OCR pomocí Aspose.OCR v C# aplikacích.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

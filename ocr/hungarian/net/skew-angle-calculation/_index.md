@@ -52,6 +52,9 @@ Fedezze fel, hogyan lehet a képet egyenesre igazítani C# előfeldolgozással a
 
 ### [Ferdeség eltávolítása a képről – Teljes OCR előfeldolgozási útmutató](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Ismerje meg, hogyan távolíthatja el a ferdeséget a képekről az OCR előfeldolgozás során az Aspose.OCR for .NET segítségével.
+### [Hogyan korrigálja a kép ferdeségét és tisztítsa meg a szkenneléseket – Teljes C# útmutató](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Fedezze fel, hogyan távolíthatja el a kép ferdeségét és tisztíthatja meg a szkenneléseket C#-ban az Aspose.OCR segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

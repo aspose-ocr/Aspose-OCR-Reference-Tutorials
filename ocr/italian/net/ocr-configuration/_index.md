@@ -63,6 +63,8 @@ Impara a creare un motore OCR in C# con configurazione offline, passo dopo passo
 Scopri come incorporare i font in PDF e trasformare immagini JPEG in PDF ricercabili con Aspose.PDF per .NET.
 ### [Leggi testo da PNG – estrai testo cirillico con Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Sblocca il potenziale di Aspose OCR per estrarre testo cirillico da immagini PNG.
+### [Imposta il dispositivo GPU per OCR in C# – Guida completa alla programmazione](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Scopri come configurare la GPU per migliorare le prestazioni OCR in C# con Aspose.OCR.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

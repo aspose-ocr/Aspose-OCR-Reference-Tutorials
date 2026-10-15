@@ -50,6 +50,8 @@ C# ile görüntüleri düzeltmeyi öğrenin ve OCR ön işleme sürecinizi müke
 OCR doğruluğunu artırmak için görüntüleri nasıl düzelteceğinizi ve C# ile ön işleme adımlarını öğrenin.
 ### [Görüntüden Eğimi Kaldırma – Tam OCR Ön İşleme Rehberi](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 OCR ön işlem adımlarında görüntü eğimini kaldırarak tanıma doğruluğunu artırın.
+### [Görüntüyü Düzeltme ve Tarama Sonuçlarını Temizleme – Tam C# Kılavuzu](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+C# kullanarak görüntüleri eğimden arındırma ve tarama dosyalarını temizleme adımlarını öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

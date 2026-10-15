@@ -50,6 +50,8 @@ C# में इमेज को डेस्क्यू करने और OC
 .NET के लिए Aspose.OCR के साथ इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के लिए पूर्ण C# प्री‑प्रोसेसिंग गाइड।
 ### [छवि से तिरछापन हटाएँ – पूर्ण OCR पूर्व‑प्रसंस्करण गाइड](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 .NET के लिए Aspose.OCR के साथ छवि से तिरछापन हटाने और OCR पूर्व‑प्रसंस्करण के पूर्ण मार्गदर्शक।
+### [इमेज को डेस्क्यू और स्कैन को साफ़ करने का पूर्ण C# गाइड](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+.NET के लिए Aspose.OCR का उपयोग करके इमेज को डेस्क्यू और स्कैन को साफ़ करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

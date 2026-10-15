@@ -50,6 +50,8 @@ url: /el/net/skew-angle-calculation/
 
 ### [Αφαίρεση Λοξότητας από Εικόνα – Πλήρης Οδηγός Προεπεξεργασίας OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Μάθετε πώς να αφαιρέσετε τη λοξότητα από εικόνες πριν την OCR, βελτιώνοντας την ακρίβεια και την αποδοτικότητα της αναγνώρισης κειμένου.
+### [Πώς να διορθώσετε την κλίση εικόνας και να καθαρίσετε σαρώσεις – Πλήρης οδηγός C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Μάθετε πώς να αφαιρέσετε την κλίση από εικόνες και να βελτιώσετε την ποιότητα των σαρώσεων με Aspose.OCR για .NET σε C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

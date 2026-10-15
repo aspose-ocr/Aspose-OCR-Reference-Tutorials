@@ -400,6 +400,20 @@ url: /zh/net/text-recognition/
 通过本分步指南，使用 Aspose OCR 从图像中提取文本，轻松集成到您的 .NET 应用程序，实现高效文字识别。
 ### [C# OCR 教程：从图像（WebP、照片）提取文本 – 快速指南](./c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/)
 使用 Aspose.OCR 在 C# 中从 WebP 或照片图像提取文本，提供快速分步指南。
+### [使用 OCR 将图像转换为可搜索 PDF – C# 指南](./create-searchable-pdf-from-image-with-ocr-c-guide/)
+使用 Aspose.OCR 将图像转换为可搜索的 PDF，提供分步 C# 示例，帮助您轻松实现 OCR 功能。
+
+### [使用 Aspose OCR 从图像创建 docx – 步骤详解 C# 指南](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
+通过本分步 C# 指南，学习使用 Aspose OCR 将图像转换为可编辑的 docx 文档，提升文档处理效率。
+
+### [在 C# 中使用 Aspose OCR 进行日文 OCR 的完整指南](./how-to-ocr-japanese-with-aspose-ocr-in-c-full-guide/)
+通过本完整指南，学习在 C# 项目中使用 Aspose OCR 高效识别日文文本，涵盖设置、代码示例和最佳实践。
+
+### [使用 Aspose OCR 从图像提取表格 – 完整 C# 指南](./extract-table-from-image-with-aspose-ocr-complete-c-guide/)
+使用 Aspose OCR 在 C# 中完整演示如何从图像中提取表格，提供分步代码示例。
+
+### [在 C# 中从图像提取文本 – 完整离线 OCR 指南](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
+使用 Aspose.OCR 完整离线指南，在 C# 项目中从图像中提取文本，提供详细步骤和代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

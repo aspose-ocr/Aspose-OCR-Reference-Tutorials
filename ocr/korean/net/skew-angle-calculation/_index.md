@@ -51,6 +51,8 @@ OCR 정확도를 높이기 위해 이미지의 기울기를 보정하는 C# 전�
 
 ### [이미지에서 기울기 제거 – 완전한 OCR 전처리 가이드](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 OCR 전처리 단계에서 이미지의 기울기를 제거하는 완전 가이드를 확인하세요.
+### [이미지 기울기 보정 및 스캔 정리 방법 – 완전한 C# 가이드](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+C#을 사용해 이미지의 기울기를 보정하고 스캔 품질을 향상시키는 전체 단계별 가이드.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

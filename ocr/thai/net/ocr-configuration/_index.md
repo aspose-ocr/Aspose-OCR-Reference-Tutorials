@@ -81,6 +81,8 @@ weight: 24
 
 ### [อ่านข้อความจาก PNG – ดึงข้อความ Cyrillic ด้วย Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 
+### [ตั้งค่าอุปกรณ์ GPU สำหรับ OCR ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  
 - ทำดัชนีอาร์ไคฟ์เอกสารขนาดใหญ่เพื่อเป็นคลังข้อมูลที่ค้นหาได้.  

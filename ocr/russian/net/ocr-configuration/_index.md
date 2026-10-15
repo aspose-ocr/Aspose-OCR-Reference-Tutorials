@@ -117,6 +117,8 @@ weight: 24
 Узнайте, как программно проверить наличие модели OCR перед использованием в приложениях C#.
 ### [Встраивание шрифтов в PDF — создание поисковых PDF из JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 ### [Чтение текста из PNG – извлечение кириллического текста с Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+### [Установить GPU-устройство для OCR в C# – Полное руководство по программированию](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Настройте использование GPU в Aspose.OCR для ускорения распознавания, используя C# и полный пример кода.
 
 
 

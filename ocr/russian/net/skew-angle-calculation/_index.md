@@ -51,6 +51,8 @@ url: /ru/net/skew-angle-calculation/
 ### [Удалить перекос изображения – Полное руководство по предобработке OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Узнайте, как полностью удалить перекос изображения перед OCR, используя Aspose.OCR для .NET, для повышения точности распознавания.
 
+### [Как исправить перекос изображения и очистить сканы – Полное руководство на C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Полное руководство по исправлению перекоса изображений и очистке сканов с использованием Aspose.OCR для .NET на C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -50,6 +50,8 @@ Erfahren Sie, wie Sie Bildverzerrungen in C# entfernen und die OCR-Genauigkeit d
 Erfahren Sie, wie Sie Bilder mit C# vorverarbeiten, um Schräglagen zu korrigieren und die OCR-Genauigkeit zu steigern.
 ### [Schräglage aus Bild entfernen – Vollständiger OCR-Vorverarbeitungsleitfaden](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Erfahren Sie, wie Sie Schräglagen aus Bildern entfernen und die OCR-Genauigkeit mit einer umfassenden Vorverarbeitung steigern.
+### [Wie man Bilder deskewt und Scans bereinigt – Vollständiger C# Leitfaden](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR Bilder korrigieren und gescannte Dokumente bereinigen – Schritt für Schritt in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
