@@ -1,0 +1,7 @@
+Title: Create license instance in Python – Step‑by‑Step Guide
+Slug: create-license-instance-in-python-step-by-step-guide
+Category: general
+ProcessedDate: 2026-05-31T21:16:16.891744
+SourceRepo: AI Search API
+Keywords: create license instance, configure license path
+PRNumber: 138
