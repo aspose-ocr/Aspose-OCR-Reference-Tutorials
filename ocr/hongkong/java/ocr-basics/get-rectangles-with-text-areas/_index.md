@@ -1,9 +1,9 @@
 ---
-date: 2025-12-10
-description: 學習如何使用 Aspose.OCR for Java 從圖像中識別文字並提取段落。一步一步的指南，附有程式碼範例。
+date: 2026-02-09
+description: 學習如何使用 Aspose OCR Java 函式庫將圖像轉換為文字，並擷取文字區域矩形。一步一步的指南，附有程式碼範例。
 linktitle: Recognize Text from Image and Retrieve Text Area Rectangles
 second_title: Aspose.OCR Java API
-title: 從圖片辨識文字並取得文字區域矩形
+title: 將圖像轉換為文字 – 從圖像辨識文字並取得文字區域矩形
 url: /zh-hant/java/ocr-basics/get-rectangles-with-text-areas/
 weight: 12
 ---
@@ -12,23 +12,25 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從圖像識別文字並取得文字區域矩形
+# 轉換圖像為文字 – 從圖像辨識文字並取得文字區域矩形
 
 ## 介紹
 
-如果您需要在 Java 應用程式中 **從圖像識別文字**，Aspose.OCR for Java 提供快速且高精度的解決方案。本教學將逐步說明如何從圖像中擷取段落、取得每個文字區域的邊界矩形，並將座標輸出至主控台。完成後，您將了解此方法的原理、如何整合此函式庫，以及可以在哪裡延伸以符合自己的使用情境。
+如果您需要在 Java 應用程式中 **convert image to text** 與 **recognize text from image**，Aspose.OCR for Java 提供快速且高精度的解決方案。本教學將逐步說明如何從圖像中擷取段落、取得每個文字區域的邊界矩形，並將座標輸出至主控台。完成後，您將了解此方法的原理、如何整合此函式庫，以及可自行擴充的應用情境。
 
 ## 快速答覆
-- **「從圖像識別文字」是什麼意思？** 代表將圖片中的視覺字符轉換為可編輯的字串資料。  
-- **哪個 Java 函式庫負責此功能？** Aspose.OCR for Java。  
-- **開發階段需要授權嗎？** 可使用測試授權；正式上線需購買正式授權。  
+- **「recognize text from image」是什麼意思？** 代表將圖片中的視覺字元轉換成可編輯的字串資料。  
+- **哪個函式庫在 Java 中負責此功能？** Aspose.OCR for Java。  
+- **開發時需要授權嗎？** 可取得暫時授權供測試使用；正式上線則需購買完整授權。  
 - **可以擷取段落而非單字嗎？** 可以 – 使用 `AreasType.PARAGRAPHS` 取得段落層級的矩形。  
-- **程式碼是否相容於 Java 11 以上？** 完全相容，API 支援 Java 11 及更高版本。
+- **程式碼是否相容於 Java 11 以上？** 完全相容，API 支援 Java 11 及更新版本。
 
-## Aspose.OCR 中的「從圖像識別文字」是什麼？
-Aspose.OCR 的 `RecognizePage` 方法會分析位圖、套用 OCR 演算法，並回傳辨識後的字串。當您要求文字區域時，函式庫同時會計算每個文字區塊的精確 `Rectangle` 座標，讓您日後能輕鬆標示或處理特定區段。
+## Aspose.OCR 中的「convert image to text」是什麼？
 
-## 為什麼選擇 Aspose.OCR for Java？
+Aspose.OCR 的 `RecognizePage` 方法會分析位圖、套用 OCR 演算法，並回傳辨識出的字串。當您要求取得文字區域時，函式庫同時會計算每個文字區塊的精確 `Rectangle` 座標，方便日後高亮或進一步處理特定區段。
+
+## 為何選擇這個 **java ocr library**？
+
 - **高精度** – 支援多種語言與複雜字型。  
 - **易於整合** – 單一 JAR 即可加入完整 OCR 功能。  
 - **彈性輸出** – 可取得原始文字、格式化 HTML，或精確的文字區域矩形。  
@@ -37,7 +39,7 @@ Aspose.OCR 的 `RecognizePage` 方法會分析位圖、套用 OCR 演算法，�
 ## 前置條件
 
 - 已在電腦上安裝 **Java Development Kit**（JDK 11 或更新版本）。  
-- 取得 **Aspose.OCR for Java** 函式庫 – 可從官方網站[此處](https://releases.aspose.com/ocr/java/)下載。  
+- 下載 **Aspose.OCR for Java** 函式庫，請至官方網站 [here](https://releases.aspose.com/ocr/java/) 取得。  
 - 具備 IDE 或建置工具（Maven/Gradle）以管理 JAR 相依性。
 
 ## 匯入套件
@@ -60,10 +62,10 @@ import java.util.ArrayList;
 ## 步驟說明
 
 ### 步驟 1：設定專案
-建立新的 Java 專案（或在既有專案中加入），並將 Aspose.OCR JAR 放入 classpath。若使用 Maven，請依下載套件內說明加入相依性。
+建立新的 Java 專案（或在既有專案中加入），將 Aspose.OCR JAR 放入 classpath。若使用 Maven，請依下載套件中的說明加入相依性。
 
 ### 步驟 2：定義文件目錄與圖像路徑
-指定範例圖像所在位置：
+指定範例圖像所在的位置：
 
 ```java
 // The path to the documents directory.
@@ -74,15 +76,15 @@ String imagePath = dataDir + "p3.png";
 ```
 
 ### 步驟 3：建立 Aspose.OCR 實例
-建立 OCR 引擎：
+建立 OCR 引擎物件：
 
 ```java
-// Create Aspose.OCR instance
+// Create AsposeOCR instance
 AsposeOCR api = new AsposeOCR();
 ```
 
-### 步驟 4：在圖像中辨識文字
-呼叫 `RecognizePage` 將圖片轉換為純文字。此步驟示範核心的 **從圖像識別文字** 功能：
+### 步驟 4：辨識圖像中的文字
+呼叫 `RecognizePage` 將圖片轉換為純文字。此步驟示範核心的 **recognize text image java** 功能：
 
 ```java
 try {
@@ -95,7 +97,7 @@ try {
 ```
 
 ### 步驟 5：取得文字區域的矩形
-現在取得每個段落（或其他區域類型）的邊界矩形。這就是 **從圖像擷取段落** 並取得其座標的地方：
+現在取得每個段落（或其他區域類型）的邊界矩形。這就是 **extract paragraphs from image** 並取得其座標的地方：
 
 ```java
 // Get rectangles with text areas in the image.
@@ -111,36 +113,36 @@ for (Rectangle r : rectResult) {
 
 | 症狀 | 可能原因 | 解決方式 |
 |------|----------|----------|
-| `IOException` 發生於 `RecognizePage` | 檔案路徑錯誤或缺少讀取權限 | 確認 `imagePath` 指向已存在的 PNG/JPG，且應用程式具備檔案系統存取權限。 |
+| `IOException` on `RecognizePage` | 檔案路徑錯誤或缺少讀取權限 | 確認 `imagePath` 指向已存在的 PNG/JPG，且應用程式具備檔案系統存取權限。 |
 | 結果字串為空 | 圖像品質低或語言不支援 | 前處理圖像（提升對比、二值化）或使用 `api.setLanguage("eng")` 指定正確語言。 |
-| 未返回矩形 | 使用了錯誤的 `AreasType`（例如 `WORDS` 而期待段落） | 改為 `AreasType.PARAGRAPHS` 或視需求改用 `AreasType.LINES`。 |
+| 未返回矩形 | 使用錯誤的 `AreasType`（例如使用 `WORDS` 卻期待段落） | 改為 `AreasType.PARAGRAPHS` 或視需求改用 `AreasType.LINES`。 |
 
 ## 常見問答
 
 **Q: Aspose.OCR 是否相容於 Java 11？**  
-A: 是的，Aspose.OCR 可在 Java 11 及之後的版本執行。
+A: 是的，Aspose.OCR 可在 Java 11 及更新版本上執行。
 
-**Q: 可以在個人與商業專案中使用 Aspose.OCR 嗎？**  
-A: 可以，任何類型的專案皆可使用。授權細節請參閱[此處](https://purchase.aspose.com/buy)。
+**Q: 我可以在個人與商業專案中使用 Aspose.OCR 嗎？**  
+A: 可以，任何類型的專案皆可使用。授權細節請參閱 [here](https://purchase.aspose.com/buy)。
 
-**Q: 如何取得評估用的臨時授權？**  
-A: 可於[此處](https://purchase.aspose.com/temporary-license/)取得臨時授權。
+**Q: 如何取得評估用的暫時授權？**  
+A: 可於此取得暫時授權 [here](https://purchase.aspose.com/temporary-license/)。
 
 **Q: 哪裡可以找到社群支援或官方協助？**  
-A: 請前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 參與討論與支援。
+A: 請前往 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 參與討論與求助。
 
 **Q: Aspose.OCR 支援多執行緒嗎？**  
-A: 支援，函式庫為執行緒安全，可在並行環境中使用以提升效能。
+A: 支援，函式庫為執行緒安全，可在並行環境下提升效能。
 
 ## 結論
 
-本教學說明了如何使用 Aspose.OCR for Java **從圖像識別文字**、擷取段落，並取得每個文字區塊的精確矩形。這些功能可協助您建立可搜尋的 PDF、在 UI 之上高亮文字，或將結構化資料傳遞至後續流程。建議進一步探索 API，以自訂語言設定、處理不同圖像格式，或整合雲端儲存服務。
+在本 **aspose ocr java tutorial** 中，您學會了如何使用 Aspose.OCR for Java **convert image to text**、擷取段落，並取得每個文字區塊的精確矩形。這些功能可協助您建立可搜尋的 PDF、在 UI 上高亮文字，或將結構化資料輸入後續流程。建議進一步探索 API，客製化語言設定、處理不同圖像格式，或整合雲端儲存服務。
 
 ---
 
-**最後更新：** 2025-12-10  
-**測試環境：** Aspose.OCR 23.10 for Java  
-**作者：** Aspose  
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.OCR 23.10 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

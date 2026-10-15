@@ -1,0 +1,7 @@
+Title: How to perform OCR on image using Aspose OCR and AI post‑processor in Python
+Slug: how-to-perform-ocr-on-image-using-aspose-ocr-and-ai-post-pro
+Category: general
+ProcessedDate: 2026-09-26T06:20:47.411014
+SourceRepo: AI Search API
+Keywords: perform ocr on image, load image for ocr, recognize text from receipt
+PRNumber: 230
