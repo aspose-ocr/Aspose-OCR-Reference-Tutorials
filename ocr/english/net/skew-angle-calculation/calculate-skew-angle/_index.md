@@ -1,6 +1,6 @@
 ---
-title: How to Deskew Image – Calculate Skew Angle for OCR
-linktitle: How to Deskew Image – Calculate Skew Angle for OCR
+title: Use Aspose.OCR for .NET to Deskew Images and Calculate Skew Angle
+linktitle: Use Aspose.OCR for .NET to Deskew Images and Calculate Skew Angle
 second_title: Aspose.OCR .NET API
 description: Learn how to deskew image using Aspose.OCR for .NET, calculate skew angle, and improve OCR accuracy with effective OCR image preprocessing steps.
 weight: 10
@@ -13,13 +13,13 @@ keywords:
 - improve ocr accuracy
 schemas:
 - type: TechArticle
-  headline: How to Deskew Image – Calculate Skew Angle for OCR
+  headline: Use Aspose.OCR for .NET to Deskew Images and Calculate Skew Angle
   description: Learn how to deskew image using Aspose.OCR for .NET, calculate skew
     angle, and improve OCR accuracy with effective OCR image preprocessing steps.
   dateModified: '2026-05-24'
   author: Aspose
 - type: HowTo
-  name: How to Deskew Image – Calculate Skew Angle for OCR
+  name: Use Aspose.OCR for .NET to Deskew Images and Calculate Skew Angle
   description: Learn how to deskew image using Aspose.OCR for .NET, calculate skew
     angle, and improve OCR accuracy with effective OCR image preprocessing steps.
   steps:
@@ -59,7 +59,7 @@ schemas:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Deskew Image – Calculate Skew Angle for OCR
+# Use Aspose.OCR for .NET to Deskew Images and Calculate Skew Angle
 
 Welcome to the world of Aspose.OCR for .NET, a powerful library that lets you add **ocr image preprocessing** directly into your C# projects. In this tutorial we’ll show **how to deskew image** by calculating its skew angle, a crucial step that dramatically **improve(s) OCR accuracy**. By the end you’ll understand the whole workflow, from loading an image to retrieving the rotation value and applying it to your document.
 
@@ -85,7 +85,7 @@ Before we embark on this exciting journey, let's ensure your development environ
 Download the latest release from the [Aspose.OCR for .NET releases page](https://releases.aspose.com/ocr/net/).  
 *Pro tip:* After downloading, add a reference to `Aspose.OCR.dll` in your Visual Studio project and set “Copy Local” to true.
 
-### 2. Set Up Your Document Directory
+### 2. set up your document directory
 
 Create a folder that will hold the images you want to process and store its absolute path in a variable called `dataDir`. This keeps the code clean and makes it easy to switch environments.
 
@@ -109,7 +109,7 @@ Now that we've set the stage, let's break down the example into multiple steps.
 
 Load your image with `AsposeOcr`, call `CalculateSkew`, and retrieve the rotation angle in a single, straightforward call. The method returns the angle in degrees, allowing you to rotate the image later using any graphics library of your choice.
 
-### Step 1: Initialize Aspose.OCR
+### Step 1: initialize Aspose.OCR
 
 `AsposeOcr` is the core class of the library that performs OCR operations, and its `CalculateSkew` method returns the image’s tilt angle.  
 
@@ -121,7 +121,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-### Step 2: Calculate Skew Angle
+### Step 2: calculate skew angle
 
 `CalculateSkew` analyses the visual content of the supplied image, detects the dominant text baseline, and returns the angle required to deskew the picture. The method works best with high‑contrast, binarized images but also handles colour photographs gracefully.
 
@@ -133,7 +133,7 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Step 3: Display the Result
+### Step 3: display the result
 
 After the calculation, you can output the angle to the console, log file, or UI component. This immediate feedback helps you verify that the preprocessing step is working as expected before you hand the image off to the OCR engine.
 
@@ -142,7 +142,7 @@ After the calculation, you can output the angle to the console, log file, or UI 
 float angle = api.CalculateSkew(dataDir + "skew_image.png");
 ```
 
-### Step 4: Wrap‑Up Confirmation
+### Step 4: wrap‑Up confirmation
 
 Finally, confirm that the operation completed without exceptions. In production code you would typically wrap the whole flow in a `try/catch` block and log any issues for later analysis.
 
@@ -151,18 +151,18 @@ Finally, confirm that the operation completed without exceptions. In production 
 Console.WriteLine(angle);
 ```
 
-## Why This Matters – Improve OCR Accuracy
+## Why this matters – improve OCR accuracy
 
 A deskewed image reduces the need for complex post‑processing and dramatically improves the confidence scores returned by OCR engines. By integrating this step into your preprocessing pipeline, you can achieve **up to 20 % higher recognition rates** on documents that were originally scanned at a 2‑5° tilt.
 
-## Common Pitfalls & Troubleshooting
+## Common pitfalls & troubleshooting
 
 - **Incorrect image path** – Verify that `dataDir` ends with a path separator (`\` or `/`) appropriate for your OS.  
 - **Unsupported image formats** – `CalculateSkew` works best with PNG, JPEG, or TIFF. Convert other formats (e.g., BMP) to one of these before calling the method.  
 - **License not applied** – Without a valid license, the API runs in evaluation mode and may embed a watermark in the OCR output.  
 - **Very large images** – For files larger than 200 MB, consider down‑sampling before calling `CalculateSkew` to keep processing time under 300 ms.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.OCR compatible with both Windows and Linux environments?**  
 A: Yes, Aspose.OCR for .NET runs natively on Windows, Linux, and macOS under .NET Core, .NET 5, and .NET 6.

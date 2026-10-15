@@ -1,6 +1,6 @@
 ---
-title: "How to Improve OCR – Set Allowed Characters with Aspose.OCR for .NET"
-linktitle: "How to Improve OCR – Set Allowed Characters with Aspose.OCR for .NET"
+title: "Configure Aspose.OCR for .NET to Set Allowed Characters and Improve OCR Accuracy"
+linktitle: "Configure Aspose.OCR for .NET to Set Allowed Characters and Improve OCR Accuracy"
 second_title: "Aspose.OCR .NET API"
 description: "Learn how to improve OCR by setting allowed characters with Aspose.OCR for .NET, enabling accurate digit recognition and faster processing. Follow a step‑by‑step guide."
 weight: 13
@@ -90,7 +90,7 @@ In this tutorial you’ll discover **how to improve OCR** results by **specifyin
 Before you start, ensure you have:
 
 - Basic .NET development experience.  
-- **Aspose.OCR for .NET** library – download it from the official site **[here](https://releases.aspose.com/ocr/net/)**.  
+- **Aspose.OCR for .NET** library – download it from the official site **[Aspose.OCR for .NET download page](https://releases.aspose.com/ocr/net/)**.  
 - Visual Studio 2019+ (or any compatible .NET IDE).  
 
 ## Import Namespaces
@@ -176,7 +176,7 @@ By following these steps, you’ve learned **how to improve OCR** accuracy by li
 - **File not found:** Ensure `dataDir` points to the correct folder and that the file name matches the case‑sensitive file system.  
 - **Performance lag:** For large batches, reuse a single `AsposeOcr` instance instead of creating a new one per image.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Is Aspose.OCR for .NET suitable for both beginners and experienced developers?
 **A:** Absolutely. The API offers a single‑line setup for quick tasks and advanced `RecognitionSettings` for power users, covering all skill levels.

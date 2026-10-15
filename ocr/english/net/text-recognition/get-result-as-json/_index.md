@@ -1,6 +1,6 @@
 ---
-title: c# image recognition: OCR Result as JSON with Aspose OCR
-linktitle: c# image recognition: OCR Result as JSON with Aspose OCR
+title: 'C# Image Recognition: Generate OCR Result as JSON with Aspose OCR'
+linktitle: 'C# Image Recognition: Generate OCR Result as JSON with Aspose OCR'
 second_title: Aspose.OCR .NET API
 description: Learn how to use Aspose OCR for .NET to extract text from images and get OCR result JSON. Step‑by‑step C# image recognition guide.
 weight: 12
@@ -63,7 +63,7 @@ Define the path where your image files reside. Keeping the path in a variable ma
 string dataDir = "Your Document Directory";
 ```
 
-## Step 2: Initialize Aspose.OCR
+## Step 2: initialize Aspose.OCR
 
 The `AsposeOcr` class is the engine’s entry point; it loads the native OCR libraries and provides the `RecognizeImage` method.
 
@@ -71,7 +71,7 @@ The `AsposeOcr` class is the engine’s entry point; it loads the native OCR lib
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Step 3: Recognize Image
+## Step 3: recognize image
 
 Call the `RecognizeImage` method to process the picture and obtain a `RecognitionResult` object. This object holds the raw text, confidence scores, and layout coordinates.
 
@@ -89,7 +89,7 @@ Console.WriteLine(result.GetJson());
 
 The printed JSON contains the recognized text, confidence scores, and layout information—perfect for feeding into other services.
 
-## Step 5: Finalize Execution
+## Step 5: finalize execution
 
 Signal successful completion and release any unmanaged resources:
 
@@ -97,7 +97,7 @@ Signal successful completion and release any unmanaged resources:
 Console.WriteLine("GetResultAsJson executed successfully");
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 
 | Issue | Solution |
 |-------|----------|
@@ -105,22 +105,22 @@ Console.WriteLine("GetResultAsJson executed successfully");
 | **Low confidence scores** | Adjust `RecognitionSettings` (e.g., language, DPI) to improve accuracy. |
 | **Performance bottleneck** | Reuse the `AsposeOcr` instance for multiple images instead of recreating it each time. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is a free trial available for Aspose.OCR for .NET?**  
-A: Yes, you can access a free trial [here](https://releases.aspose.com/).
+A: Yes, you can access a free trial on the **Aspose OCR free trial page**.
 
 **Q: Where can I find the documentation for Aspose.OCR for .NET?**  
-A: The documentation is available [here](https://reference.aspose.com/ocr/net/).
+A: The documentation is available on the **Aspose OCR .NET documentation**.
 
 **Q: How can I obtain a temporary license for Aspose.OCR for .NET?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) for temporary license options.
+A: Visit the **temporary license page** for temporary license options.
 
 **Q: Where can I get community support for Aspose.OCR for .NET?**  
 A: Engage with the community on the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
 
 **Q: Can I purchase a license for Aspose.OCR for .NET?**  
-A: Yes, you can buy a license [here](https://purchase.aspose.com/buy).
+A: Yes, you can buy a license on the **Aspose OCR license purchase page**.
 
 ## Conclusion
 

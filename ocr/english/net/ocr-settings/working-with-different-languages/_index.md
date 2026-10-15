@@ -1,5 +1,5 @@
 ---
-title: "ocr c# example – Recognize Text Image with Aspose OCR in .NET"
+title: "How to Recognize Text Image with Aspose OCR in .NET (C# Example)"
 linktitle: Working with Different Languages in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 description: "Learn an ocr c# example to recognize text image using Aspose OCR for .NET, extract text from images in multiple languages, and try the free OCR trial today."
@@ -26,22 +26,20 @@ schemas:
     .NET, extract text from images in multiple languages, and try the free OCR trial
     today.
   steps:
-  - name: '**Install Aspose OCR** – download the latest package from the official
-      site **[here](https://releases.aspose.com/ocr/net/)**.'
-    text: '**Install Aspose OCR** – download the latest package from the official
-      site **[here](https://releases.aspose.com/ocr/net/)**.'
+  - name: '**Install Aspose OCR** – download the latest package from the official site **[Aspose OCR .NET download page](https://releases.aspose.com/ocr/net/)**.'
+    text: '**Install Aspose OCR** – download the latest package from the official site **[Aspose OCR .NET download page](https://releases.aspose.com/ocr/net/)**.'
   - name: '**Acquire a License** – purchase a permanent license or use a temporary
       one via the **[purchase page](https://purchase.aspose.com/buy)** or a temporary
-      license **[here](https://purchase.aspose.com/temporary-license/)**.'
+      license **[Aspose OCR temporary license page](https://purchase.aspose.com/temporary-license/)**.'
     text: '**Acquire a License** – purchase a permanent license or use a temporary
       one via the **[purchase page](https://purchase.aspose.com/buy)** or a temporary
-      license **[here](https://purchase.aspose.com/temporary-license/)**.'
+      license **[Aspose OCR temporary license page](https://purchase.aspose.com/temporary-license/)**.'
   - name: '**Set Up Your Development Environment** – create a new C# project and add
       a reference to the Aspose.OCR library. Detailed setup instructions are available
-      **[here](https://reference.aspose.com/ocr/net/)**.'
+      **[Aspose OCR .NET API reference](https://reference.aspose.com/ocr/net/)**.'
     text: '**Set Up Your Development Environment** – create a new C# project and add
       a reference to the Aspose.OCR library. Detailed setup instructions are available
-      **[here](https://reference.aspose.com/ocr/net/)**.'
+      **[Aspose OCR .NET API reference](https://reference.aspose.com/ocr/net/)**.'
 - type: FAQPage
   questions:
   - question: How do I install Aspose OCR via NuGet?
@@ -90,9 +88,9 @@ Aspose.OCR delivers **95 %+ accuracy on printed text** across 40+ supported la
 
 Before we dive in, make sure you have the following:
 
-1. **Install Aspose OCR** – download the latest package from the official site **[here](https://releases.aspose.com/ocr/net/)**.  
-2. **Acquire a License** – purchase a permanent license or use a temporary one via the **[purchase page](https://purchase.aspose.com/buy)** or a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.  
-3. **Set Up Your Development Environment** – create a new C# project and add a reference to the Aspose.OCR library. Detailed setup instructions are available **[here](https://reference.aspose.com/ocr/net/)**.
+1. **Install Aspose OCR** – download the latest package from the official site **[Aspose OCR .NET download page](https://releases.aspose.com/ocr/net/)**.  
+2. **Acquire a License** – purchase a permanent license or use a temporary one via the **[purchase page](https://purchase.aspose.com/buy)** or a temporary license **[Aspose OCR temporary license page](https://purchase.aspose.com/temporary-license/)**.  
+3. **Set Up Your Development Environment** – create a new C# project and add a reference to the Aspose.OCR library. Detailed setup instructions are available **[Aspose OCR .NET API reference](https://reference.aspose.com/ocr/net/)**.
 
 ## Import Namespaces
 
@@ -106,7 +104,7 @@ using System;
 
 Now let’s walk through the step‑by‑step guide.
 
-## Step 1: Define the Document Directory
+## Step 1: define the document directory
 
 `dataDir` is a string that points to the folder holding the image files you want to process. Keeping the path configurable lets you reuse the same code for different batches.
 
@@ -117,7 +115,7 @@ string dataDir = "Your Document Directory";
 
 Make sure `dataDir` points to the folder that contains the images you want to process.
 
-## Step 2: Initialize AsposeOcr
+## Step 2: initialize asposeOcr
 
 `AsposeOcr` is the core class that provides methods such as `RecognizeImage`. Instantiating it once and reusing the object improves performance, especially for batch jobs.
 
@@ -128,7 +126,7 @@ AsposeOcr api = new AsposeOcr();
 
 Creating an `AsposeOcr` object gives you access to all OCR functions.
 
-## Step 3: Recognize Image
+## Step 3: recognize image
 
 `RecognizeImage` reads the supplied image file, applies language‑specific models, and returns the extracted text as a string. You can optionally pass a language code to force detection for better results.
 
@@ -139,7 +137,7 @@ string result = api.RecognizeImage(dataDir + "SpanishOCR.bmp");
 
 The `RecognizeImage` method reads the file and returns the extracted text. In this example we process a Spanish‑language image, but you can swap in any supported language file.
 
-## Step 4: Display Recognized Text
+## Step 4: display recognized text
 
 `Console.WriteLine` prints the OCR result to the console, but you could also write it to a file, a database, or pass it to a translation service.
 
@@ -150,7 +148,7 @@ Console.WriteLine(result);
 
 You can now see the extracted string in the console, or store it for further processing (e.g., saving to a database or feeding into a translation service).
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Incorrect language detection** – If the result looks garbled, specify the language explicitly using `api.RecognizeImage(path, language)`.  
 - **Low‑resolution images** – OCR accuracy drops with blurry images; aim for at least 300 dpi.  
@@ -158,7 +156,7 @@ You can now see the extracted string in the console, or store it for further pro
 - **Color inversion** – Inverting a dark‑on‑light image can improve results; use `api.InvertColors()` before recognition.  
 - **Batch processing** – Wrap the recognition loop in a `Parallel.ForEach` to leverage multi‑core CPUs, but ensure the `AsposeOcr` instance is thread‑safe (it is).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I install Aspose OCR via NuGet?**  
 A: Run `Install-Package Aspose.OCR` in the Package Manager Console. This is the quickest way to add the library to your project.
