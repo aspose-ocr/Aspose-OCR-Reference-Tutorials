@@ -67,8 +67,6 @@ Effortlessly extract text from images by specifying allowed characters with Aspo
 
 ## [how to configure gpu for OCR – recognize text from image](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
 Enable GPU acceleration in Aspose.OCR for Java to speed up text recognition from images.
-### [Create Searchable PDF with Java – Complete Guide](./create-searchable-pdf-with-java-complete-guide/)
-Learn how to generate searchable PDFs from images using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
 
 ## Conclusion
 

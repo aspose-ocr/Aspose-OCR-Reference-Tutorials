@@ -48,9 +48,6 @@ Ekstrak teks dari gambar dengan mudah dengan menentukan karakter yang diizinkan 
 ### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-with-java-complete-guide/)
 Buat PDF dapat dicari menggunakan Java dengan panduan lengkap kami, memanfaatkan Aspose.OCR untuk ekstraksi teks yang akurat.
 
-### [Cara Mengonfigurasi GPU untuk OCR – Mengenali Teks dari Gambar](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
-Pelajari cara mengatur GPU untuk meningkatkan akurasi OCR dan mempercepat proses pengenalan teks dari gambar.
-
 ## Kesimpulan
 
 Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!

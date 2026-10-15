@@ -48,6 +48,13 @@ Extraheer moeiteloos tekst uit afbeeldingen door toegestane tekens op te geven m
 ## [Hoe een afbeelding rechtzetten voor OCR – Java pre‑verwerkingsgids](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Leer hoe u afbeeldingen corrigeert voor OCR met Java, zodat tekst nauwkeurig wordt herkend.
 
+## [GPU configureren voor OCR – tekst uit afbeelding herkennen](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+
+Leer hoe u GPU instelt voor Aspose.OCR in Java om tekst uit afbeeldingen snel en nauwkeurig te herkennen.
+
+## [Zoekbare PDF maken met Java – Complete gids](./create-searchable-pdf-with-java-complete-guide/)
+Leer hoe u met Aspose.OCR voor Java doorzoekbare PDF's maakt, inclusief volledige stappen en hoge nauwkeurigheid.
+
 Met Aspose.OCR voor Java is het beheersen van geavanceerde OCR-technieken nog nooit zo eenvoudig geweest. Duik in deze tutorials en ontgrendel het volledige potentieel van tekstherkenning in uw Java-projecten. Verbeter uw toepassingen met naadloze integratie, hoge nauwkeurigheid en veelzijdige mogelijkheden voor tekstextractie. Download nu en zet de eerste stap naar uitmuntende OCR met Aspose.OCR voor Java!
 ## Tutorials voor geavanceerde OCR-technieken
 ### [OCR uitvoeren op BufferedImage in Aspose.OCR voor Java](./perform-ocr-buffered-image/)
@@ -147,3 +154,4 @@ Leer hoe u de taal van een afbeelding detecteert met Aspose OCR in Java, voor au
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

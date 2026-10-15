@@ -64,6 +64,11 @@ Aprenda a reconhecer texto manuscrito e aumente a precisão do OCR com Aspose.OC
 
 ### [Especificando caracteres permitidos em Aspose.OCR](./specify-allowed-characters/)
 Desbloqueie a extração de texto de imagens perfeitamente com Aspose.OCR para Java. Siga nosso guia passo a passo para uma integração eficiente.
+## [Executando OCR em Imagem com Java – Extração de Texto com GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
+Acelere a extração de texto de imagens usando GPU com Aspose.OCR para Java. Alta velocidade e precisão para seus projetos.
+## [Como Executar OCR em Imagens de Alta Resolução – Guia Completo em Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
+Aprenda a executar OCR em imagens de alta resolução usando Aspose.OCR para Java, garantindo alta precisão e desempenho otimizado.
+
 ### [Como usar OCR em Java – Processamento Paralelo com Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Aprenda a acelerar o OCR em Java usando processamento paralelo com Aspose.OCR, melhorando desempenho e eficiência.
 
@@ -137,6 +142,13 @@ Aprenda a corrigir a inclinação de imagens antes do OCR usando Java, melhorand
 Aprenda a extrair texto de imagens usando Aspose OCR em Java com este guia passo a passo.
 ### [Detectar idioma da imagem com Aspose OCR – Tutorial Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Aprenda a detectar o idioma de texto em imagens usando Aspose OCR em Java, com um guia passo a passo simples e eficaz.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 ### [Como configurar GPU para OCR – reconhecer texto a partir de imagem](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
 Aprenda a habilitar a GPU para acelerar o OCR com Aspose.OCR, reconhecendo texto em imagens de forma eficiente.
 ### [Criar PDF pesquisável com Java – Guia completo](./create-searchable-pdf-with-java-complete-guide/)
@@ -150,3 +162,4 @@ Aprenda a corrigir a inclinação de imagens antes do OCR usando Aspose.OCR para
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
