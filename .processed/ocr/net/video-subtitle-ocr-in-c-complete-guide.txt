@@ -1,0 +1,7 @@
+Title: Video Subtitle OCR in C# – Complete Guide
+Slug: video-subtitle-ocr-in-c-complete-guide
+Category: text-recognition
+ProcessedDate: 2026-06-03T23:27:28.421320
+SourceRepo: AI Search API
+Keywords: video subtitle ocr, extract frames from video, read text from video, extract text from mp4
+PRNumber: 139

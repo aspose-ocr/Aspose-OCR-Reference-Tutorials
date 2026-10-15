@@ -1,0 +1,7 @@
+Title: How to Perform OCR on Receipts – Spell Checker Guide
+Slug: how-to-perform-ocr-on-receipts-spell-checker-guide
+Category: general
+ProcessedDate: 2026-06-19T15:49:29.748548
+SourceRepo: AI Search API
+Keywords: how to perform ocr, extract text from receipt, run spell checker, perform ocr on image, load image for ocr
+PRNumber: 150
