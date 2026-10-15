@@ -23,9 +23,7 @@ title: Skapa sökbar PDF från skannade filer – Steg‑för‑steg C#‑guide
 url: /sv/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
-sure we keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

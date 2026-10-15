@@ -25,12 +25,6 @@ title: Hoe OCR uit te voeren in C# – Arabische tekst uit afbeeldingen extraher
 url: /nl/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-OCR uitvoeren")
-
-Then closing shortcodes.
-
-Now produce final content with all translations and unchanged placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,9 +23,7 @@ title: 'c# OCR öğreticisi: Görsellerden (WebP, Fotoğraf) Metin Çıkarma –
 url: /tr/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-for any missed bold or code. Keep bold formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

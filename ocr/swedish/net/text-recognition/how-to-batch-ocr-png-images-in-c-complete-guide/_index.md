@@ -23,11 +23,7 @@ title: Hur man batch-OCR:ar PNG‑bilder i C# – Komplett guide
 url: /sv/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-Edge case", "Common pitfall". Should we translate those? Probably keep them as English? The rule says keep technical terms in English, but these are not technical terms. We can translate them: "Proffstips", "Tips", "Kantfall", "Vanligt fallgropp". Already translated.
-
-Make sure we keep markdown formatting: headings, blockquote >, tables, code block placeholders unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

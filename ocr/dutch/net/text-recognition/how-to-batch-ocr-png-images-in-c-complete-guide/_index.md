@@ -23,9 +23,7 @@ title: Hoe PNG-afbeeldingen batchgewijs OCR'en in C# – Complete gids
 url: /nl/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-Check table formatting: need to keep markdown table with pipes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

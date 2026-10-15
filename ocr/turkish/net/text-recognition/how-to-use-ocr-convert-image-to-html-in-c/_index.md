@@ -23,12 +23,6 @@ title: 'OCR Nasıl Kullanılır: Görüntüyü C#''ta HTML''e Dönüştürme'
 url: /tr/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-.
-
-Also preserve bullet list.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

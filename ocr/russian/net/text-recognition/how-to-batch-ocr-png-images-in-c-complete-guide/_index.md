@@ -23,8 +23,6 @@ title: Как пакетно выполнять OCR PNG‑изображений
 url: /ru/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

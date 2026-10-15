@@ -24,11 +24,7 @@ title: 'Как использовать OCR: преобразовать изоб
 url: /ru/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-placeholders unchanged.
-
-Also keep the final shortcodes.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

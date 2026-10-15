@@ -22,9 +22,7 @@ title: 'OCR 사용 방법: C#에서 이미지를 HTML로 변환하기'
 url: /ko/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-any inline code: we kept backticks.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

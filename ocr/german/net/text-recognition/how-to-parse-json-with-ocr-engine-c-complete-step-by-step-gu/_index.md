@@ -25,11 +25,7 @@ title: Wie man JSON mit OCR‑Engine C# parst – Vollständige Schritt‑für�
 url: /de/net/text-recognition/how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/
 ---
 
-bold formatting: keep **...**.
-
-Also blockquote > lines.
-
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

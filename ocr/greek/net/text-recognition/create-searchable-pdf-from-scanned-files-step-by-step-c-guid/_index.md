@@ -25,11 +25,7 @@ title: Δημιουργία PDF με δυνατότητα αναζήτησης �
 url: /el/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
->}}
-
-We must keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

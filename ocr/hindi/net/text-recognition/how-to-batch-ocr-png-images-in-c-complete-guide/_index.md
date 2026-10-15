@@ -23,15 +23,7 @@ title: C# में PNG इमेजेज का बैच OCR कैसे क
 url: /hi/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-Similarly **Pro tip:** translate to Hindi: **Pro tip:** -> **प्रो टिप:** maybe keep "Pro tip" as English? It's a phrase, but could translate. We'll translate to Hindi: "प्रो टिप". Similarly **Why not use `SearchOption.AllDirectories`?** translate: "क्यों न `SearchOption.AllDirectories` का उपयोग करें?" Keep bold.
-
-**Edge case:** translate to "एज केस". **Tip:** translate to "टिप". **Common pitfall:** translate to "सामान्य गलती". **Expected output:** translate.
-
-Also headings like "Step‑by‑Step Explanation" we translated.
-
-Now produce final content with all translations.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

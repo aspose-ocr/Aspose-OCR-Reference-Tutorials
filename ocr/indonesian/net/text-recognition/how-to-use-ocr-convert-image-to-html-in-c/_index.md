@@ -24,7 +24,7 @@ title: 'Cara Menggunakan OCR: Mengonversi Gambar ke HTML dalam C#'
 url: /id/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

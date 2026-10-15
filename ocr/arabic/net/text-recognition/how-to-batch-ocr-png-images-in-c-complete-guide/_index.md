@@ -22,13 +22,7 @@ title: كيفية تنفيذ OCR لصور PNG على دفعات في C# – دل
 url: /ar/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-All preserved.
-
-Now produce final content with Arabic translation. Ensure code blocks placeholders unchanged.
-
-Also need to translate the "Expected output:" blockquote label but keep formatting.
-
-Let's assemble final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

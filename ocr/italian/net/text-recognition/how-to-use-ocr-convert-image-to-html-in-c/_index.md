@@ -24,26 +24,6 @@ title: 'Come utilizzare l''OCR: convertire un''immagine in HTML in C#'
 url: /it/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-? You're not the only one—developers constantly need to **extract text from image** files, especially when dealing ..."
-
-Translate.
-
-Let's produce Italian.
-
-Make sure to keep bold formatting.
-
-Proceed.
-
-Also bullet list under "What you’ll need". Translate bullet points but keep bullet characters.
-
-Also blockquote >.
-
-Also code block placeholders remain.
-
-Also the "Pro tip:" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

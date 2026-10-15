@@ -22,10 +22,6 @@ title: استخراج النص من PNG – قراءة النص من الصور�
 url: /ar/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-from png example" should be translated? The alt text is part of markdown; we should translate visible text but keep URL. So alt text becomes Arabic: "مثال استخراج النص من png". Title also translate.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

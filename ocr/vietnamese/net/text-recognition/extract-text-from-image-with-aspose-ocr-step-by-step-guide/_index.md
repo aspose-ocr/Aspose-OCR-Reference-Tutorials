@@ -24,10 +24,6 @@ title: Trích xuất văn bản từ hình ảnh bằng Aspose OCR – Hướng 
 url: /vi/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-_5}} placeholder. So keep.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

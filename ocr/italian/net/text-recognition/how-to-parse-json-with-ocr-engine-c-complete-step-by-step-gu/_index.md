@@ -25,11 +25,7 @@ title: Come analizzare JSON con OCR Engine C# – Guida completa passo‑a‑pas
 url: /it/net/text-recognition/how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/
 ---
 
-.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

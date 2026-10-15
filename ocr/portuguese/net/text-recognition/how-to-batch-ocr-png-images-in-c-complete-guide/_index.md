@@ -23,17 +23,7 @@ title: Como fazer OCR em lote de imagens PNG em C# – Guia completo
 url: /pt/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-top-button >}}
-
-We must keep them unchanged.
-
-Now ensure we didn't miss any markdown elements: code blocks placeholders remain. No actual code blocks to translate.
-
-Check for any other markdown like blockquote > lines we translated.
-
-Make sure we keep the same number of headings.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

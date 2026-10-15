@@ -20,12 +20,6 @@ title: C# OCR 教學：從圖像（WebP、相片）提取文字 – 快速指南
 url: /zh-hant/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-the payoff?" etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

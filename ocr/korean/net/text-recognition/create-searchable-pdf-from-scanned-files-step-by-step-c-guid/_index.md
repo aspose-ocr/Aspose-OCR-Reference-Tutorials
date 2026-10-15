@@ -23,14 +23,6 @@ title: 스캔 파일에서 검색 가능한 PDF 만들기 – 단계별 C# 가�
 url: /ko/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
-/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content.
-
-Let's construct translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

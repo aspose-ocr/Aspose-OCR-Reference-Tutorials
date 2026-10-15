@@ -23,11 +23,7 @@ title: Wie man PNG‑Bilder stapelweise OCR in C# durchführt – Vollständiger
 url: /de/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-produce final content with translations, preserving all markdown.
-
-Check for any missed items: The image alt text and title changed. Ensure code block placeholders remain unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,12 +23,6 @@ title: Jak provést OCR v C# – Extrahovat arabský text z obrázků
 url: /cs/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-bold? It's a blockquote > **Pro tip:** ... Keep bold.
-
-Proceed.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

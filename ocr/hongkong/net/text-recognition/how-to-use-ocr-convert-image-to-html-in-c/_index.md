@@ -20,36 +20,6 @@ title: 如何使用 OCR：在 C# 中將圖像轉換為 HTML
 url: /zh-hant/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-expect.
-
-## Full, Ready‑to‑Run Example
-
-Translate.
-
-Code block placeholder.
-
-### Expected Output
-
-Translate.
-
-Code block placeholders.
-
-## Frequently Asked Questions (FAQ)
-
-Translate.
-
-Each Q/A.
-
-## Conclusion
-
-Translate.
-
-List of further steps.
-
-Finally closing shortcodes.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

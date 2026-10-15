@@ -25,7 +25,7 @@ title: Buat PDF yang dapat dicari dari file hasil pemindaian – Panduan C# lang
 url: /id/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

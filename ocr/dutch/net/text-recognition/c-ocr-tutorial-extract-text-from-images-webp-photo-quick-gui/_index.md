@@ -24,11 +24,7 @@ title: 'c# OCR-tutorial: Tekst extraheren uit afbeeldingen (WebP, foto) – Snel
 url: /nl/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-for any other code blocks: placeholders only.
-
-Check for any bold phrases: we translated accordingly.
-
-Now produce final content with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

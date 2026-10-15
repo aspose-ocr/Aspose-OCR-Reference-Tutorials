@@ -19,7 +19,7 @@ title: 如何在 C# 中批次 OCR PNG 圖像 – 完整指南
 url: /zh-hant/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

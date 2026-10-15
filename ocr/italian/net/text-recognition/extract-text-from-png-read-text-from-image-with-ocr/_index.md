@@ -24,13 +24,7 @@ title: Estrai testo da PNG – Leggi il testo da un'immagine con OCR
 url: /it/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-? Should translate alt text but keep file name. So alt text can be Italian: "estrai testo da png esempio". Title attribute also.
-
-Proceed.
-
-At end shortcodes.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

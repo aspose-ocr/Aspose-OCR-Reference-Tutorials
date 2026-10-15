@@ -22,14 +22,6 @@ title: 'C# OCR 튜토리얼: 이미지(WebP, 사진)에서 텍스트 추출 – 
 url: /ko/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-final output with translated Korean text, preserving markdown.
-
-Let's craft translation.
-
-Be careful with bold and blockquote formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

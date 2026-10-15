@@ -23,8 +23,6 @@ title: Cara Memproses OCR PNG Secara Batch di C# – Panduan Lengkap
 url: /id/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-Now produce final output with all content translated.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

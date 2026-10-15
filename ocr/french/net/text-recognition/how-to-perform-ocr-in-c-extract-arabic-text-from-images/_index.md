@@ -25,8 +25,6 @@ title: Comment réaliser l'OCR en C# – Extraire du texte arabe à partir d'ima
 url: /fr/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,19 +24,7 @@ title: 'Hoe OCR te gebruiken: afbeelding naar HTML converteren in C#'
 url: /nl/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-changed both alt texts.
-
-Check bullet list formatting: we used bullet points with •.
-
-Check blockquote formatting: we kept >.
-
-Check bold formatting: we kept **.
-
-Check italic *how to use OCR* etc.
-
-Check that we didn't translate shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

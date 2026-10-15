@@ -24,11 +24,7 @@ title: Como Realizar OCR em C# – Extrair Texto Árabe de Imagens
 url: /pt/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-.
-
-Make sure no extra spaces changed.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

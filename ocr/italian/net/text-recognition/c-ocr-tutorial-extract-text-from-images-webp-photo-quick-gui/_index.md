@@ -23,11 +23,7 @@ title: 'c# tutorial OCR: estrarre testo da immagini (WebP, foto) – Guida rapid
 url: /it/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-inside fences. That's fine.
-
-Make sure we preserve bullet list formatting.
-
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

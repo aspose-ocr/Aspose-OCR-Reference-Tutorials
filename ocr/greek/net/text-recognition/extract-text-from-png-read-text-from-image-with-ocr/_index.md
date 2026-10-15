@@ -24,10 +24,6 @@ title: Εξαγωγή κειμένου από PNG – Ανάγνωση κειμ�
 url: /el/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-the table: translate content but keep pipe separators.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

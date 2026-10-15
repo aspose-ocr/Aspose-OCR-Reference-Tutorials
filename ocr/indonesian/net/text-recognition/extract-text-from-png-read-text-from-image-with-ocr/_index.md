@@ -23,11 +23,7 @@ title: Ekstrak Teks dari PNG – Baca Teks dari Gambar dengan OCR
 url: /id/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-"## Langkah 1: Instal Aspose.OCR dan Siapkan Proyek". Keep colon.
-
-Proceed.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

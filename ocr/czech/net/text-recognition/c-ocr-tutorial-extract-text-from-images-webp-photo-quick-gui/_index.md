@@ -24,11 +24,7 @@ title: 'c# OCR tutoriál: Extrahování textu z obrázků (WebP, fotografie) –
 url: /cs/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-didn't miss any markdown formatting. Keep code block placeholders unchanged.
-
-Check for any URLs: none.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

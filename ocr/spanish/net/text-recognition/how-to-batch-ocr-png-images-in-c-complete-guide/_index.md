@@ -23,11 +23,7 @@ title: Cómo hacer OCR por lotes de imágenes PNG en C# – Guía completa
 url: /es/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-. alt text is inside brackets, we can translate. Title inside quotes also translate.
-
-Proceed.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

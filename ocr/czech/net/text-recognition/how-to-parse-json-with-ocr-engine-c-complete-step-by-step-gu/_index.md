@@ -24,9 +24,7 @@ title: Jak parsovat JSON pomocí OCR enginu v C# – Kompletní krok‑za‑krok
 url: /cs/net/text-recognition/how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/
 ---
 
-.
-
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,12 +24,6 @@ title: Extraire le texte d’une image avec Aspose OCR – Guide étape par éta
 url: /fr/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-. Should translate as well. Keep file name same.
-
-Proceed.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

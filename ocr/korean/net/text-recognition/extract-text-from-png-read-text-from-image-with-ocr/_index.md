@@ -22,10 +22,6 @@ title: PNG에서 텍스트 추출 – OCR로 이미지에서 텍스트 읽기
 url: /ko/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-translate column headers and content.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

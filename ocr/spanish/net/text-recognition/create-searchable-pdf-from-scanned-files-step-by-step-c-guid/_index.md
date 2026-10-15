@@ -23,7 +23,7 @@ title: Crear PDF buscable a partir de archivos escaneados – Guía paso a paso 
 url: /es/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,10 +23,6 @@ title: Jak wykonać wsadowe OCR obrazów PNG w C# – Kompletny przewodnik
 url: /pl/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-markdown syntax.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

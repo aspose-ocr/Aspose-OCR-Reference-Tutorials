@@ -24,14 +24,6 @@ title: Aspose OCR ile Görüntüden Metin Çıkarma – Adım Adım Kılavuz
 url: /tr/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-but weren’t sure which library..." translate.
-
-We'll produce Turkish.
-
-Let's go through.
-
-I'll write final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

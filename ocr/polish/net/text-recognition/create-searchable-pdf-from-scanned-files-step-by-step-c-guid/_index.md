@@ -25,9 +25,7 @@ title: Utwórz przeszukiwalny PDF ze skanowanych plików – przewodnik krok po 
 url: /pl/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
-keep the placeholder {{CODE_BLOCK_X}} unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

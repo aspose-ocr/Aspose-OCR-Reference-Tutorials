@@ -23,11 +23,7 @@ title: 如何使用 OCR 引擎 C# 解析 JSON – 完整的逐步指南
 url: /zh/net/text-recognition/how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/
 ---
 
-shortcode.
-
-Make sure to preserve all markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

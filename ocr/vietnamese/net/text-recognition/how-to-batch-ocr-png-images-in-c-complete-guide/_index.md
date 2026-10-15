@@ -23,11 +23,7 @@ title: Cách thực hiện OCR hàng loạt cho ảnh PNG trong C# – Hướng 
 url: /vi/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-markdown formatting.
-
-Check for any other markdown links: none.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

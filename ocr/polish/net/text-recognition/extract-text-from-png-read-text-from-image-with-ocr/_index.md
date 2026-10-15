@@ -24,7 +24,7 @@ title: Wyodrębnij tekst z PNG – Odczytaj tekst z obrazu za pomocą OCR
 url: /pl/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

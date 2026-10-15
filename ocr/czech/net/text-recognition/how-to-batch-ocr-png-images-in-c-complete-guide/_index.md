@@ -23,9 +23,7 @@ title: Jak dávkově provádět OCR PNG obrázků v C# – Kompletní průvodce
 url: /cs/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-code or placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

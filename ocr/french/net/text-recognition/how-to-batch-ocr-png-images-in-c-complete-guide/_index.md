@@ -23,13 +23,7 @@ title: Comment effectuer une OCR par lots d'images PNG en C# – Guide complet
 url: /fr/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
-markdown formatting, code blocks placeholders unchanged.
-
-Also need to preserve the horizontal rules as "---". Already.
-
-Check for any other links: none.
-
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

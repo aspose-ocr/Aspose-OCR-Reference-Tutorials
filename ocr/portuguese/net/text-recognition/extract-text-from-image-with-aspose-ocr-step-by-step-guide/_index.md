@@ -24,19 +24,7 @@ title: Extrair texto de imagem com Aspose OCR – Guia passo a passo
 url: /pt/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-Next paragraph: "The diagram above illustrates the pipeline: **create OCR engine → apply median filter → load image for OCR → run OCR recognition → get text**. It’s a quick reference you can pin to your desk."
-
-Translate.
-
-Next "## Wrapping Up" translate: "## Conclusão". Paragraph translate.
-
-List of suggestions bullet points translate.
-
-Finally shortcodes closing.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

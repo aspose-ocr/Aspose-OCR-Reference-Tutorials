@@ -20,17 +20,7 @@ title: OCRの使い方：C#で画像をHTMLに変換する
 url: /ja/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-Now ensure we didn't translate any code block placeholders or URLs. The image alt text is translated, but the URL remains same.
-
-Check for any other URLs: none.
-
-Check for file paths: menu.jpg, menu.html appear in code blocks? They are inside code placeholders, not visible. In text we have `menu.html` and `menu.jpg`. Those are code formatting, we keep as is.
-
-Check for variable names: OcrEngine, OutputFormat.Html, etc. Not translated.
-
-Check for bold markup: keep.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

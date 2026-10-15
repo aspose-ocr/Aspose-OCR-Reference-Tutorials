@@ -24,8 +24,6 @@ title: Szöveg kinyerése képből az Aspose OCR-rel – Lépésről lépésre �
 url: /hu/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,13 +21,7 @@ title: 从扫描文件创建可搜索的 PDF – C# 步骤指南
 url: /zh/net/text-recognition/create-searchable-pdf-from-scanned-files-step-by-step-c-guid/
 ---
 
--button >}}
-
-Make sure to keep them.
-
-Now produce final output with translated Chinese content, preserving all placeholders.
-
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

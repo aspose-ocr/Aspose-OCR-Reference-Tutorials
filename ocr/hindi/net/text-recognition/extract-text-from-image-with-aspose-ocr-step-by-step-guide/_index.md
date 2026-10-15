@@ -23,22 +23,6 @@ title: Aspose OCR के साथ छवि से टेक्स्ट नि
 url: /hi/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-Translate.
-
-Will keep bold formatting.
-
-Proceed.
-
-Need to translate blockquote "Quick preview:" etc.
-
-Tables: translate content inside cells, but keep markdown table structure.
-
-List items: translate.
-
-Make sure code block placeholders remain.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,20 +22,6 @@ title: ดึงข้อความจากภาพด้วย Aspose OCR �
 url: /th/net/text-recognition/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-coding, and may your images always be readable!
-
-Translate.
-
-Then closing shortcodes and backtop button.
-
-Now produce final content.
-
-Be careful to keep code block placeholders unchanged.
-
-Also ensure markdown formatting preserved.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

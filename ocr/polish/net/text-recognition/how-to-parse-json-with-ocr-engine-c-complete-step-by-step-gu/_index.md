@@ -26,13 +26,7 @@ title: Jak parsować JSON przy użyciu silnika OCR w C# – Kompletny przewodnik
 url: /pl/net/text-recognition/how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/
 ---
 
-/products-backtop-button >}}
-
-All unchanged.
-
-Make sure to keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

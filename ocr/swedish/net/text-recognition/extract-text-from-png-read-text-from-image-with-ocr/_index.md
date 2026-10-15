@@ -22,8 +22,6 @@ title: Extrahera text från PNG – Läs text från bild med OCR
 url: /sv/net/text-recognition/extract-text-from-png-read-text-from-image-with-ocr/
 ---
 
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

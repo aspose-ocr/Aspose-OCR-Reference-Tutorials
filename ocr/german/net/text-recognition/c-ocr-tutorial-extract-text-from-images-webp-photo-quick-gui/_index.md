@@ -22,14 +22,6 @@ title: 'c# OCR‑Tutorial: Text aus Bildern extrahieren (WebP, Foto) – Schnell
 url: /de/net/text-recognition/c-ocr-tutorial-extract-text-from-images-webp-photo-quick-gui/
 ---
 
-German, but maybe should keep English. Let's revert to original bold phrase unchanged: **convert image to text**. So keep that.
-
-Similarly **extract text from image** earlier we translated; maybe keep original phrase. Keep original bold phrase unchanged.
-
-Thus revert those.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

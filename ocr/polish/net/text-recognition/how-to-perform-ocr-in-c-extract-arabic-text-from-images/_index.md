@@ -23,15 +23,7 @@ title: Jak wykonać OCR w C# – wyodrębnić arabski tekst z obrazów
 url: /pl/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-/products/products-backtop-button >}}
-
-All done.
-
-Check for any other markdown links: none.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

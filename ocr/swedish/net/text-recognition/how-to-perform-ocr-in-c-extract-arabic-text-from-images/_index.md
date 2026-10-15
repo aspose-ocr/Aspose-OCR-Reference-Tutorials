@@ -23,9 +23,7 @@ title: Hur man utför OCR i C# – Extrahera arabisk text från bilder
 url: /sv/net/text-recognition/how-to-perform-ocr-in-c-extract-arabic-text-from-images/
 ---
 
-for any missed bold formatting: keep **...**.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,15 +24,7 @@ title: 'Wie man OCR verwendet: Bild in HTML in C# konvertieren'
 url: /de/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-Bild in HTML zu konvertieren](/images/ocr-process.png){alt="Diagramm, das zeigt, wie man OCR verwendet, um ein Bild in HTML zu konvertieren"}
-
-Proceed.
-
-Translate the rest.
-
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,18 +24,6 @@ title: 'Hur man använder OCR: Konvertera bild till HTML i C#'
 url: /sv/net/text-recognition/how-to-use-ocr-convert-image-to-html-in-c/
 ---
 
-top-button >}}
-
-Make sure to keep them.
-
-Now produce final content.
-
-Let's craft Swedish translation.
-
-Be careful with bold and italics.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
