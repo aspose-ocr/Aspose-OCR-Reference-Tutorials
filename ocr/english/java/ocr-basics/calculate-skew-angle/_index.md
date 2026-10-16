@@ -91,7 +91,7 @@ Load the library and you get a one‑line API that returns the exact tilt of any
 ## Prerequisites
 
 - **Java Development Kit** – JDK 8 or later (Java 11+ recommended for better module support).  
-- **Aspose.OCR for Java** – Download the latest JAR from the official site [here](https://reference.aspose.com/ocr/java/).  
+- **Aspose.OCR for Java** – Download the latest JAR from the official Aspose.OCR for Java download page [Aspose.OCR for Java download page](https://reference.aspose.com/ocr/java/).  
 - **Sample Image** – Any scanned image (e.g., `p3.png`) that exhibits a visible tilt.  
 - **License** – Temporary trial license for testing or a full commercial license for production use.
 
@@ -101,31 +101,31 @@ Load your image, call the skew‑calculation method, and capture the returned an
 
 Below is a step‑by‑step walkthrough. Each step is described before the placeholder that originally held the code example.
 
-### Step 1: Import Packages
+### Step 1: import packages
 
 `AsposeOCR` is the core class that exposes OCR and image‑analysis functions. `java.io.File` is used only for path handling.
 
 **Definition anchor:** `AsposeOCR` is Aspose.OCR's primary class that provides methods for text extraction, skew detection, and image preprocessing.  
 
-### Step 2: Set Up Document Directory
+### Step 2: set up document directory
 
 Store the folder path in a variable so you can reuse it for multiple images or switch environments without code changes.
 
 **Definition anchor:** `dataDir` is a `String` variable that points to the directory containing the source images you intend to process.
 
-### Step 3: Specify Image Path
+### Step 3: specify image path
 
 Combine the directory with the file name to build the absolute path required by the API.
 
 **Definition anchor:** `imagePath` is a `String` that holds the full file system location of the image you will analyze.
 
-### Step 4: Create API Instance
+### Step 4: create API instance
 
 Instantiate the `AsposeOCR` object once per application run; it loads the native libraries internally.
 
 **Definition anchor:** `ocrEngine` is an instance of `AsposeOCR` that gives you access to all OCR‑related methods, including `CalcSkewImage`.
 
-### Step 5: Calculate Skew Angle
+### Step 5: calculate skew angle
 
 Wrap the call in a try‑catch block to handle I/O problems gracefully. The method returns a `double` that you can log, store, or pass to a rotation routine.
 
@@ -144,7 +144,7 @@ Here’s the concise workflow (no additional code block is added to keep the ori
 
 By chaining the **calculate skew angle java** step with this **rotate image degrees java** routine, you build a fully automated deskewing pipeline that can be wrapped in a simple `for` loop to handle hundreds of pages per minute.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -152,7 +152,7 @@ By chaining the **calculate skew angle java** step with this **rotate image degr
 | `IOException` | Image file not found or unreadable | Check file name (`p3.png`) and file permissions |
 | Unexpected angle (e.g., 0° on a clearly skewed image) | Low‑contrast or noisy image | Pre‑process the image (increase contrast, binarize) before calling `CalcSkewImage` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can Aspose.OCR correct the skew angle automatically?
 
@@ -168,7 +168,7 @@ By chaining the **calculate skew angle java** step with this **rotate image degr
 
 ### Q4: How can I obtain a temporary license for Aspose.OCR?
 
-**A:** Visit [this link](https://purchase.aspose.com/temporary-license/) to request a 30‑day trial license that works for evaluation and development.
+**A:** Visit the Aspose temporary license request page [ Aspose temporary license request page](https://purchase.aspose.com/temporary-license/) to request a 30‑day trial license that works for evaluation and development.
 
 ### Q5: Where can I ask for help or discuss issues related to Aspose.OCR?
 
@@ -192,7 +192,7 @@ You now have a complete, production‑ready recipe for **how to rotate scanned d
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -201,9 +201,9 @@ You now have a complete, production‑ready recipe for **how to rotate scanned d
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -234,3 +234,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

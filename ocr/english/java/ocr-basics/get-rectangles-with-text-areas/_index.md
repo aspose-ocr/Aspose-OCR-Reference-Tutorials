@@ -47,9 +47,9 @@ schemas:
     answer: Yes, Aspose.OCR works with Java 11 and later versions.
   - question: Can I use Aspose.OCR for both personal and commercial projects?
     answer: Yes, you can use it in any type of project. For licensing details, visit
-      [here](https://purchase.aspose.com/buy).
+      [the Aspose purchase page](https://purchase.aspose.com/buy).
   - question: How do I obtain a temporary license for evaluation?
-    answer: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    answer: You can obtain a temporary license [from the Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
   - question: Where can I find community support or official assistance?
     answer: For support and discussions, visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
   - question: Does Aspose.OCR support multithreading?
@@ -87,7 +87,7 @@ Aspose.OCR supports **30+ languages** and can process images up to **50 MB** w
 ## Prerequisites
 
 - **Java Development Kit** (JDK 11 or newer) installed on your machine.  
-- **Aspose.OCR for Java** library – download it from the official site [here](https://releases.aspose.com/ocr/java/).  
+- **Aspose.OCR for Java** library – download it from the official Aspose OCR Java release page.  
 - An IDE or build tool (Maven/Gradle) to manage the JAR dependency.
 
 ## Import Packages
@@ -109,7 +109,7 @@ import java.util.ArrayList;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Up Your Project
+### Step 1: set up your project
 Create a new Java project (or add to an existing one) and place the Aspose.OCR JAR on the classpath. If you use Maven, add the dependency as described in the download package.
 
 ```java
@@ -120,7 +120,7 @@ String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p3.png";
 ```
 
-### Step 2: Define Document Directory and Image Path
+### Step 2: define document directory and image path
 Specify where your sample image resides:
 
 ```java
@@ -128,7 +128,7 @@ Specify where your sample image resides:
 AsposeOCR api = new AsposeOCR();
 ```
 
-### Step 3: Create AsposeOCR Instance
+### Step 3: create asposeOCR instance
 `AsposeOCR` is the main class that provides OCR functionality.
 
 Instantiate the OCR engine:
@@ -156,12 +156,12 @@ for (Rectangle r : rectResult) {
 }
 ```
 
-### Step 5: Get Rectangles with Text Areas
+### Step 5: get rectangles with text areas
 Retrieve the bounding rectangles for each paragraph (or other area types). This step returns a collection of `Rectangle` objects that precisely enclose the detected text blocks, enabling you to highlight or further process individual sections.
 
 CODE_BLOCK_PLACEHOLDER_5_END
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -169,16 +169,16 @@ CODE_BLOCK_PLACEHOLDER_5_END
 | Empty result string | Low‑quality image or unsupported language | Pre‑process the image (increase contrast, binarize) or specify the correct language using `api.setLanguage("eng")`. |
 | No rectangles returned | Using wrong `AreasType` (e.g., `WORDS` when expecting paragraphs) | Switch to `AreasType.PARAGRAPHS` or `AreasType.LINES` as needed. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.OCR compatible with Java 11?**  
 A: Yes, Aspose.OCR works with Java 11 and later versions.
 
 **Q: Can I use Aspose.OCR for both personal and commercial projects?**  
-A: Yes, you can use it in any type of project. For licensing details, visit [here](https://purchase.aspose.com/buy).
+A: Yes, you can use it in any type of project. For licensing details, visit [the Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Q: How do I obtain a temporary license for evaluation?**  
-A: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: You can obtain a temporary license [from the Aspose temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Where can I find community support or official assistance?**  
 A: For support and discussions, visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).
@@ -196,7 +196,7 @@ In this **aspose ocr java tutorial** you learned how to **convert image to text*
 **Tested With:** Aspose.OCR 23.10 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -204,7 +204,9 @@ In this **aspose ocr java tutorial** you learned how to **convert image to text*
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Convert Image to Text in Java using Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

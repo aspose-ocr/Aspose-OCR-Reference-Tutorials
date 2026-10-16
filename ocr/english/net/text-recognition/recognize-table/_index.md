@@ -80,7 +80,7 @@ Aspose.OCR delivers **high‑accuracy table detection across 50+ image formats**
 
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-1. **Aspose.OCR for .NET** – Ensure you have the library installed. If not, you can download it [here](https://releases.aspose.com/ocr/net/).
+1. **Aspose.OCR for .NET** – Ensure you have the library installed. If not, you can download it from the [Aspose.OCR .NET download page](https://releases.aspose.com/ocr/net/).
 2. **Development Environment** – A working .NET development setup (Visual Studio, VS Code, or Rider) targeting .NET 5+ or .NET Core 3.1+.
 3. **Image for OCR** – An image file that contains the table you want to recognize. Store it in a folder that your project can access (e.g., `Data/`).
 
@@ -100,7 +100,7 @@ Now, let's break down the process of recognizing tables in OCR image recognition
 
 Load the image, enable table‑specific settings, run the OCR engine, and retrieve the structured text—all in three concise steps. This direct workflow lets you **extract table from image** with minimal code and maximum reliability.
 
-### Step 1: Initialize Aspose.OCR
+### Step 1: initialize Aspose.OCR
 
 `AsposeOcr` is the core class that represents the OCR engine. It provides methods for loading images, configuring recognition options, and retrieving results.
 
@@ -132,7 +132,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "table.png", new Recogni
 
 Here we call `RecognizeImage` to perform OCR on the specified image. The `LinesFiltration` flag is ideal when the **entire image is a table**, while `DetectAreas` can be used for auto‑detecting table regions.
 
-### Step 3: Display the Recognized Text
+### Step 3: display the recognized text
 
 `RecognitionResult.RecognitionText` contains the plain‑text representation of the detected table. You can print it, store it, or further parse it into CSV or Excel formats.
 
@@ -143,7 +143,7 @@ Console.WriteLine(result.RecognitionText);
 
 Print the recognized text to the console or store it for further processing. This step lets you verify that the **extract table from image** operation succeeded and that the **convert table image text** output looks correct.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -167,7 +167,7 @@ A2: Yes, Aspose.OCR provides various settings to fine‑tune the recognition pro
 
 ### Q3: How can I get a temporary license for Aspose.OCR?
 
-A3: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
+A3: Obtain a temporary license from the [temporary license request page](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
 
 ### Q4: Where can I find community support for Aspose.OCR?
 
@@ -175,9 +175,9 @@ A4: Join the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to connect wi
 
 ### Q5: Is there a free trial available for Aspose.OCR?
 
-A5: Yes, you can access the free trial [here](https://releases.aspose.com/) to explore the features before making a purchase.
+A5: Yes, you can access the free trial on the [Aspose.OCR free trial page](https://releases.aspose.com/) to explore the features before making a purchase.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Does the API work with .NET Core?**  
 A: Absolutely. Aspose.OCR is fully compatible with .NET Core, .NET 5, and later versions.
@@ -202,10 +202,9 @@ A: After obtaining `result.RecognitionText`, you can parse the rows and columns 
 - [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
