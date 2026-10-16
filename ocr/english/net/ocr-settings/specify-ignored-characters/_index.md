@@ -1,5 +1,5 @@
 ---
-title: ignore characters ocr – OCR Image Recognition Settings: Specify Ignored Characters
+title: 'Configure Ignored Characters in Aspose.OCR – OCR Image Recognition Settings: Specify Ignored Characters'
 linktitle: OCR Image Recognition Settings - Specify Ignored Characters
 second_title: Aspere.OCR .NET API
 description: Learn how to ignore characters ocr using Aspose.OCR for .NET by configuring OCR image recognition settings and specifying ignored characters for cleaner results.
@@ -27,11 +27,11 @@ In modern digital workflows, **ignore characters ocr** is the most effective way
 - **Which version supports this?** All recent Aspose.OCR for .NET releases (tested with the latest 2026 build).  
 - **Do I need a license?** A temporary or full license is required for production use.
 
-## What Are OCR Image Recognition Settings?
+## What are OCR image recognition settings?
 
 OCR image recognition settings are a collection of parameters that guide the engine’s interpretation of visual data. They let you specify the language model, adjust DPI handling, define character whitelists or blacklists, and configure options like IgnoredCharacters. By fine‑tuning these values you can significantly improve accuracy and reduce the need for manual correction.
 
-## Why Specify Ignored Characters?
+## Why specify ignored characters?
 
 When you tell the engine to **ignore characters ocr**, you immediately reduce noise, speed up validation, and improve multilingual handling. Ignored characters are stripped from the result set, so downstream parsers deal with only the symbols that truly belong in your document. This translates into up to a 30 % reduction in manual correction time for structured forms.
 
@@ -41,7 +41,7 @@ Before diving into the code, ensure you have the following:
 
 1. **Aspose.OCR Installation** – Download the library from the [download page](https://releases.aspose.com/ocr/net/).  
 2. **Document Directory Setup** – Create a folder for your sample images and note its full path; you’ll update the `dataDir` variable accordingly.  
-3. **Temporary License (Optional)** – If you’re evaluating, obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+3. **Temporary License (Optional)** – If you’re evaluating, obtain a temporary license from the **temporary license page**([https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/)).
 
 ## Import Namespaces
 
@@ -54,9 +54,9 @@ using Aspose.OCR;
 using System;
 ```
 
-## Step‑by‑Step Guide to Configure Ignored Characters
+## Step‑by‑Step guide to configure ignored characters
 
-### Step 1: Set Up Your Document Directory
+### Step 1: set up your document directory
 
 Define the folder that contains the images you want to process. Replace the placeholder with the actual path on your machine.
 
@@ -65,7 +65,7 @@ Define the folder that contains the images you want to process. Replace the plac
 string dataDir = "Your Document Directory";
 ```
 
-### Step 2: Initialize Aspose.OCR
+### Step 2: initialize Aspose.OCR
 
 Create an instance of the OCR engine. This object will be used to apply the recognition settings.
 
@@ -74,7 +74,7 @@ Create an instance of the OCR engine. This object will be used to apply the reco
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Step 3: Recognize Image with Ignored Characters
+### Step 3: recognize image with ignored characters
 
 `RecognitionSettings` configures OCR processing, allowing you to set language, DPI, and ignored characters.  
 `IgnoredCharacters` specifies a list of characters that the engine will omit from the output.
@@ -89,7 +89,7 @@ RecognitionResult result = api.RecognizeImage(dataDir + "SpanishOCR.bmp", new Re
 });
 ```
 
-### Step 4: Display Recognized Text
+### Step 4: display recognized text
 
 Output the OCR result to the console. You’ll see the recognized text **without** the ignored characters.
 
@@ -98,7 +98,7 @@ Output the OCR result to the console. You’ll see the recognized text **without
 Console.WriteLine(result.RecognitionText);
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why It Happens | Fix |
 |-------|----------------|-----|
@@ -106,13 +106,13 @@ Console.WriteLine(result.RecognitionText);
 | No output is returned | Wrong file path or unsupported image format | Verify `dataDir` and ensure the image is a supported format (BMP, PNG, JPEG). |
 | License exception | Running without a valid license in a non‑trial build | Apply a temporary or purchased license before calling the API. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR for .NET in non‑commercial projects?**  
 A: Yes, both commercial and non‑commercial projects are allowed. See the [licensing details](https://purchase.aspose.com/buy) for specifics.
 
 **Q: Is there a free trial available?**  
-A: Absolutely! You can download a free trial [here](https://releases.aspose.com/) and evaluate all features before purchasing.
+A: Absolutely! You can download a free trial from the **Aspose OCR releases page**([https://releases.aspose.com/](https://releases.aspose.com/)) and evaluate all features before purchasing.
 
 **Q: How can I get support for Aspose.OCR?**  
 A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to ask questions and receive help from the community and Aspose engineers.
@@ -121,7 +121,7 @@ A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) to ask questi
 A: A wide range of languages is supported; consult the official documentation for the full list.
 
 **Q: Can I purchase a temporary license for short‑term testing?**  
-A: Yes, temporary licenses are available [here](https://purchase.aspose.com/temporary-license/) and are perfect for proof‑of‑concept projects.
+A: Yes, temporary licenses are available on the **temporary license page**([https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/)) and are perfect for proof‑of‑concept projects.
 
 {{< blocks/products/products-backtop-button >}}
 

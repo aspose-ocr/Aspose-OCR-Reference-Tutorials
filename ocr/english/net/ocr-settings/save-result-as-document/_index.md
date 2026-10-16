@@ -1,5 +1,5 @@
 ---
-title: How to Save OCR Result as Document
+title: How to Save OCR Result as Document with Aspose.OCR for .NET
 linktitle: How to Save OCR Result as Document
 second_title: Aspose.OCR .NET API
 description: Learn how to save OCR results with Aspose.OCR for .NET – a step‑by‑step guide on how to save ocr output, convert image to searchable pdf, extract text from png, and export to DOCX, TXT, PDF, or XLSX.
@@ -80,7 +80,7 @@ OCR (Optical Character Recognition) converts printed or handwritten text inside 
 
 Before we begin, ensure you have:
 
-- Aspose.OCR for .NET installed. You can download it **[here](https://releases.aspose.com/ocr/net/)**.  
+- Aspose.OCR for .NET installed. You can download it **[download Aspose.OCR for .NET](https://releases.aspose.com/ocr/net/)**.  
 - A folder on your machine that will hold the source images and the output documents. Update the `dataDir` variable in the code to point to this folder.
 
 ## Import Namespaces
@@ -93,7 +93,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-### Step 1: Initialize Aspose.OCR
+### Step 1: initialize Aspose.OCR
 
 AsposeOcr is the primary class that performs OCR operations. Set the path to your working directory and create an instance of the OCR engine.
 
@@ -105,7 +105,7 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Step 2: Recognize Image
+### Step 2: recognize image
 
 RecognitionResult holds the text and layout information extracted from the image. Pass the image file (e.g., a PNG) to the recognizer. This is where we **recognize text images** and turn them into a `RecognitionResult`.
 
@@ -114,7 +114,7 @@ RecognitionResult holds the text and layout information extracted from the image
 RecognitionResult result = api.RecognizeImage(dataDir + "sample.png", new RecognitionSettings { });
 ```
 
-### Step 3: Save Result in Different Formats
+### Step 3: save result in different formats
 
 Now we export the recognized text. Choose the format that fits your workflow—whether you need to **convert image to searchable pdf**, **extract text from png**, or generate a spreadsheet.
 
@@ -126,7 +126,7 @@ result.Save(RunExamples.GetDataDir_OCR() + "sample.pdf", SaveFormat.Pdf);
 result.Save(RunExamples.GetDataDir_OCR() + "sample.xlsx", SaveFormat.Xlsx);
 ```
 
-### Step 4: Display Success Message
+### Step 4: display success message
 
 A simple console message confirms that the process completed without errors.
 
@@ -134,13 +134,13 @@ A simple console message confirms that the process completed without errors.
 Console.WriteLine("SaveResultAsDocument executed successfully");
 ```
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **File paths:** Always use absolute paths or ensure `dataDir` ends with a path separator (`\` or `/`).  
 - **Image quality:** Higher‑resolution images improve accuracy; consider preprocessing (deskew, denoise) for better results.  
 - **License mode:** In evaluation mode the output may contain a watermark; apply a valid license to remove it.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1. Is Aspose.OCR compatible with different image formats?**  
 A1: Yes, Aspose.OCR supports over 30 image formats—including PNG, JPEG, TIFF, BMP, and GIF—ensuring flexibility in your OCR tasks.
@@ -149,10 +149,10 @@ A1: Yes, Aspose.OCR supports over 30 image formats—including PNG, JPEG, TIFF, 
 A2: Absolutely! Aspose.OCR provides `RecognitionSettings` to fine‑tune the OCR process according to your specific requirements.
 
 **Q3: Is there a free trial available?**  
-A3: Yes, you can get started with a free trial **[here](https://releases.aspose.com/)**.
+A3: Yes, you can get started with a free trial **[download Aspose.OCR free trial](https://releases.aspose.com/)**.
 
 **Q4: How can I obtain a temporary license for Aspose.OCR?**  
-A4: Temporary licenses can be obtained **[here](https://purchase.aspose.com/temporary-license/)**.
+A4: Temporary licenses can be obtained **[obtain a temporary Aspose.OCR license](https://purchase.aspose.com/temporary-license/)**.
 
 **Q5: Where can I seek help or connect with the community?**  
 A5: Join the Aspose.OCR community at **[Aspose Forum](https://forum.aspose.com/c/ocr/16)** for support and discussions.
