@@ -1,8 +1,8 @@
 ---
-title: "How to Extract OCR – OCR Configuration"
+title: "Extract Text with Aspose.OCR – OCR Configuration Guide"
 linktitle: OCR Configuration
 second_title: Aspose.OCR .NET API
-description: "Learn how to extract OCR in .NET apps with Aspose.OCR. Explore OCR image recognition tutorials, including archive, folder, language selection, and list operations."
+description: "Learn how to extract text using Aspose.OCR in .NET apps and perform OCR image recognition with archives, folders, language selection, and list operations."
 weight: 24
 url: /net/ocr-configuration/
 date: 2025-12-21
@@ -16,16 +16,16 @@ date: 2025-12-21
 
 ## Introduction
 
-If you’re looking to **how to extract OCR** data from images in your .NET projects, you’ve come to the right place. Aspose.OCR for .NET makes OCR image recognition simple, fast, and highly customizable. In this guide we’ll walk through the core configuration scenarios—working with archives, folders, language selection, and list‑based processing—so you can start extracting text from images with confidence.
+If you’re looking to **extract OCR** data from images in your .NET projects, you’ve come to the right place. Aspose.OCR for .NET makes OCR image recognition simple, fast, and highly customizable. In this guide we’ll walk through the core configuration scenarios—working with archives, folders, language selection, and list‑based processing—so you can start extracting text from images with confidence.
 
 ## Quick Answers
-- **What does “how to extract OCR” mean?** It refers to using an OCR engine to read and convert image‑based text into editable strings.  
+- **What does “extract OCR” mean?** It refers to using an OCR engine to read and convert image‑based text into editable strings.  
 - **Which library is recommended for .NET?** Aspose.OCR provides a rich API for OCR image recognition without external dependencies.  
 - **Do I need a license?** A free trial works for evaluation; a commercial license is required for production use.  
 - **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
 - **Can I process multiple languages?** Yes—use the OCR language selection feature to handle multilingual documents.
 
-## What is “how to extract OCR” in .NET?
+## What is “extract OCR” in .NET?
 Extracting OCR means feeding an image (or a collection of images) to Aspose.OCR, which analyzes the visual content, identifies characters, and returns the recognized text. This process powers scenarios such as digitizing scanned contracts, reading receipts, or indexing PDFs.
 
 ## Why use Aspose.OCR for OCR image recognition?
@@ -39,6 +39,16 @@ Extracting OCR means feeding an image (or a collection of images) to Aspose.OCR,
 - Aspose.OCR for .NET NuGet package installed (`Install-Package Aspose.OCR`).  
 - Sample images or archives containing images you wish to process.
 
+```csharp
+using Aspose.OCR;
+
+var engine = new OcrEngine();
+engine.Image = ImageStream.FromFile("sample.jpg");
+engine.Language = Language.English;
+var result = engine.Process();
+Console.WriteLine(result.Text);
+```
+
 ## OCROperation with Archive in OCR Image Recognition
 Dive into the world of OCR with Aspose.OCR and discover how to extract text from archive images step by step. This tutorial provides comprehensive insights into leveraging OCR capabilities within .NET applications. From installation to implementation, unravel the magic of text extraction.
 
@@ -46,35 +56,35 @@ Dive into the world of OCR with Aspose.OCR and discover how to extract text from
 Unlock the power of OCR image recognition in .NET with Aspose.OCR. This tutorial equips you with the knowledge to extract text effortlessly from images stored in folders. Boost efficiency in data extraction and streamline your application's OCR capabilities.
 
 ## OCROperation with Language Selection in OCR Image Recognition
-Take your OCR capabilities to new heights by mastering **ocr language selection** in Aspose.OCR for .NET. This tutorial guides you through the process of seamlessly extracting text from images in different languages. Empower your application with multilingual OCR capabilities.
+Take your OCR capabilities to new heights by mastering **OCR language selection** in Aspose.OCR for .NET. This tutorial guides you through the process of seamlessly extracting text from images in different languages. Empower your application with multilingual OCR capabilities.
 
 ## OCROperation with List in OCR Image Recognition
 Explore the vast potential of Aspose.OCR for .NET as you effortlessly perform OCR image recognition with lists. This tutorial not only enhances text extraction but also boosts productivity in handling diverse data sets. Uncover the efficiency of OCR with list operations.
 
-## OCR Configuration Tutorials
-### [OCROperation with Archive in OCR Image Recognition](./ocr-operation-with-archive/)
-Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extract text from archive images step-by-step.
-### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
+## OCR configuration tutorials
+### {{< relref "ocr-operation-with-archive/_index.md" >}}
+Unlock the potential of OCR in .NET applications with Aspose.OCR. Learn to extract text from archive images step‑by‑step.
+### {{< relref "ocr-operation-with-folder/_index.md" >}}
 Unlock the power of OCR image recognition in .NET with Aspose.OCR. Extract text effortlessly from images.
-### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
+### {{< relref "ocr-operation-with-language-selection/_index.md" >}}
 Unlock powerful OCR capabilities with Aspose.OCR for .NET. Extract text from images seamlessly.
-### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
+### {{< relref "ocr-operation-with-list/_index.md" >}}
 Unlock the potential of Aspose.OCR for .NET. Effortlessly perform OCR image recognition with lists. Boost productivity and data extraction in your applications.
-### [How to Use OcrEngine in C# – Complete OCR Guide](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+### {{< relref "how-to-use-ocrengine-in-c-complete-ocr-guide/_index.md" >}}
 Learn to implement OcrEngine in C# for comprehensive OCR processing with Aspose.OCR.
-### [Create Searchable PDF from an Image – Full Step‑by‑Step Guide](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+### {{< relref "create-searchable-pdf-from-an-image-full-step-by-step-guide/_index.md" >}}
 Learn how to convert images into searchable PDFs using Aspose.OCR and Aspose.PDF in a detailed step‑by‑step guide.
 
-### Common Use Cases
+### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  
 - Index large document archives for searchable repositories.  
 - Build multilingual data pipelines that read receipts in French, German, or Japanese.  
 
-### Tips & Pitfalls
+### Tips & pitfalls
 - **Pro tip:** Always preprocess images (e.g., deskew, binarize) to improve accuracy.  
 - **Warning:** Large archives may consume significant memory; consider processing in batches.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR in a commercial .NET application?**  
 A: Yes, once you obtain a valid Aspose license the library is fully supported for commercial use.

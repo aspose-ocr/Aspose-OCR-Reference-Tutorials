@@ -71,7 +71,7 @@ Before we dive in, make sure you have:
 
 No additional NuGet packages are required for the core logic, but you’ll need the OCR library’s DLLs referenced in your project.
 
-## Project Setup (Quick Start)
+## Project setup (Quick start)
 
 1. Open your favorite IDE (Visual Studio, VS Code, Rider…).
 2. Create a new console project:
@@ -91,7 +91,7 @@ No additional NuGet packages are required for the core logic, but you’ll need 
 
 That’s it—your environment is ready for the **how to use OcrEngine** walkthrough.
 
-## Step 1: Import Namespaces & Initialize the Engine
+## Step 1: import namespaces & initialize the engine
 
 The first thing you do when you want to **use OcrEngine** is bring the required namespaces into scope and create an instance. This object is the entry point for every OCR operation.
 
@@ -119,7 +119,7 @@ namespace OcrEngineDemo
 
 > **Pro tip:** If your OCR library implements `IDisposable`, wrap the engine in a `using` block to guarantee proper cleanup.
 
-## Step 2: Choose the Language for Recognition
+## Step 2: choose the language for recognition
 
 Most OCR engines need to know which language model to apply. For the classic “how to use OcrEngine” example we’ll stick with English, but you can swap `OcrLanguage.English` for any supported locale.
 
@@ -154,7 +154,7 @@ Now we point the engine at the file we want to process. `ImageStream.FromFile` a
 
 **Edge case:** If the file is larger than a few hundred megabytes, consider streaming it page‑by‑page to avoid memory pressure. Most libraries expose a `LoadPage(int index)` method for that scenario.
 
-## Step 4: Perform OCR on All Pages at Once
+## Step 4: perform OCR on all pages at once
 
 The heart of **how to use OcrEngine** is the `RecognizeMultiPage` call. It returns a collection whose elements each contain the text for a single page.
 
@@ -172,7 +172,7 @@ The heart of **how to use OcrEngine** is the `RecognizeMultiPage` call. It retur
 
 If you only need the first page, replace the call with `engine.RecognizeSinglePage()`—the same pattern still applies.
 
-## Step 5: Iterate Through Each Page’s Result and Display Text
+## Step 5: iterate through each page’s result and display text
 
 Finally, we loop over the results, printing each page’s extracted text to the console. This mirrors the typical “how to use OcrEngine” output scenario.
 
@@ -201,18 +201,18 @@ Assuming `multipage.tif` contains three scanned pages, you’ll see something li
 
 ```
 --- Page 1 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The quick brown fox jumps over the lazy dog.
 
 --- Page 2 ---
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Pack my box with five dozen liquor jugs.
 
 --- Page 3 ---
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Sphinx of black quartz, judge my vow.
 ```
 
 If the OCR engine fails to recognize a page, the corresponding `Text` property will be an empty string—always check for that in production code.
 
-## Handling Common Variations & Edge Cases
+## Handling common variations & edge cases
 
 ### 1. Switching to a Different Language
 
@@ -222,7 +222,7 @@ engine.Language = OcrLanguage.Spanish; // just change the enum value
 
 The rest of the workflow stays identical—this is the beauty of the **how to use OcrEngine** pattern.
 
-### 2. Processing PDFs Instead of TIFFs
+### 2. processing pDFs instead of tIFFs
 
 ```csharp
 engine.Image = ImageStream.FromFile("Resources/document.pdf");
@@ -230,7 +230,7 @@ engine.Image = ImageStream.FromFile("Resources/document.pdf");
 
 Most libraries auto‑detect the container format, so you don’t need extra code.
 
-### 3. Disposing Resources Properly
+### 3. disposing resources properly
 
 If `OcrEngine` implements `IDisposable`, wrap the whole block:
 
@@ -244,7 +244,7 @@ var result = engine.RecognizeMultiPage();
 
 This ensures native handles are released, preventing memory leaks in long‑running services.
 
-### 4. Large Documents – Page‑by‑Page Streaming
+### 4. large documents – page‑by‑Page streaming
 
 ```csharp
 int totalPages = engine.GetPageCount(); // hypothetical method
@@ -259,7 +259,7 @@ for (int i = 0; i < totalPages; i++)
 
 Streaming reduces peak memory usage at the cost of a slight performance hit—choose what fits your scenario.
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 ```csharp
 using System;
@@ -309,9 +309,7 @@ Next steps you might explore include:
 
 Got a twist you’re curious about—like handling handwritten notes or integrating
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 

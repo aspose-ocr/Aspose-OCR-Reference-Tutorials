@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-06
-description: Learn how to create searchable PDF and convert image to PDF with OCR.
-  Includes layer addition, compression settings, and full C# code.
+description: Learn how to generate a searchable PDF and convert an image to PDF using Aspose.OCR and Aspose.Pdf with OCR. Includes layer addition, compression settings, and full C# code.
 draft: false
 keywords:
 - create searchable pdf
@@ -11,18 +10,15 @@ keywords:
 - how to add layer
 - how to set compression
 language: en
-og_description: Create searchable PDF from an image using OCR. This guide shows how
-  to add a hidden text layer, set compression, and convert image to PDF.
+og_description: Create searchable PDF from an image using OCR. This guide shows how to add a hidden text layer, set compression, and convert image to PDF.
 og_title: Create Searchable PDF – Complete C# Tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-06-06'
-  description: Learn how to create searchable PDF and convert image to PDF with OCR.
-    Includes layer addition, compression settings, and full C# code.
+  description: Learn how to generate a searchable PDF and convert an image to PDF using Aspose.OCR and Aspose.Pdf with OCR. Includes layer addition, compression settings, and full C# code.
   headline: Create Searchable PDF from an Image – Full Step‑by‑Step Guide
   type: TechArticle
-- description: Learn how to create searchable PDF and convert image to PDF with OCR.
-    Includes layer addition, compression settings, and full C# code.
+- description: Learn how to generate a searchable PDF and convert an image to PDF using Aspose.OCR and Aspose.Pdf with OCR. Includes layer addition, compression settings, and full C# code.
   name: Create Searchable PDF from an Image – Full Step‑by‑Step Guide
   steps:
   - name: Prerequisites
@@ -43,7 +39,7 @@ tags:
 - PDF
 - C#
 - Aspose
-title: Create Searchable PDF from an Image – Full Step‑by‑Step Guide
+title: Generate Searchable PDF from an Image with Aspose.OCR – Full Step‑by‑Step Guide
 url: /net/ocr-configuration/create-searchable-pdf-from-an-image-full-step-by-step-guide/
 ---
 
@@ -57,7 +53,7 @@ Ever wondered how to **create searchable PDF** from a scanned invoice without sp
 
 In this tutorial we’ll walk through the exact steps to **convert image to PDF**, run OCR on it, add a hidden text layer, and even tweak compression settings. By the end you’ll have a ready‑to‑use C# snippet that you can drop into any .NET project.
 
-## What You’ll Learn
+## What you’ll learn
 
 - Set up an OCR engine and understand **how to OCR image** files.
 - Use **how to add layer** options to embed a searchable text overlay.
@@ -148,7 +144,7 @@ ocrResult.Save(@"C:\Docs\invoice_searchable.pdf", pdfOptions);
 
 When you open `invoice_searchable.pdf` in Adobe Reader or any modern viewer, you’ll see the original image, but you can now select, copy, and search the text as if it were a native PDF.
 
-### Full Working Example
+### Full working example
 
 Putting it all together, here’s the complete, ready‑to‑run program:
 
@@ -199,7 +195,7 @@ namespace SearchablePdfDemo
 
 Open the resulting file, press **Ctrl F**, type a word you see in the invoice, and watch the viewer jump to it instantly. That’s the core of **create searchable pdf** in action.
 
-## Common Pitfalls & How to Avoid Them
+## Common pitfalls & how to avoid them
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -230,15 +226,13 @@ Ready for the next challenge? Try adding watermarks, merging multiple searchable
 
 *If you found this guide helpful, give it a ⭐, share it with teammates, or drop a comment with your own tweaks. Happy coding!*
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to OCR PDF in .NET with Aspose.OCR](/ocr/english/net/text-recognition/recognize-pdf/)
-- [Convert Images to PDF C# – Save Multipage OCR Result](/ocr/english/net/ocr-optimization/save-multipage-result-as-document/)
-- [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/english/net/image-and-drawing-recognition/perform-ocr-on-image/)
+- [How to OCR PDF in .NET with Aspose.OCR]({{< relref "ocr/english/net/text-recognition/recognize-pdf/_index.md" >}})
+- [Convert Images to PDF C# – Save Multipage OCR Result]({{< relref "ocr/english/net/ocr-optimization/save-multipage-result-as-document/_index.md" >}})
+- [How to OCR Image – Perform OCR on Image in OCR Image Recognition]({{< relref "ocr/english/net/image-and-drawing-recognition/perform-ocr-on-image/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
