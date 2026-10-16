@@ -1,6 +1,6 @@
 ---
-title: "How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR"
-linktitle: How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR
+title: "How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR for Java"
+linktitle: "How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR for Java"
 second_title: Aspose.OCR Java API
 description: "Learn how to improve OCR accuracy with Aspose.OCR for Java by recognizing page rectangles, extracting text from images, and optimizing OCR for forms and invoices."
 weight: 13
@@ -14,7 +14,7 @@ keywords:
 - process invoices ocr
 schemas:
 - type: TechArticle
-  headline: How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR
+  headline: How to Improve OCR Accuracy by Recognizing Page Rectangles in Aspose.OCR for Java
   description: Learn how to improve OCR accuracy with Aspose.OCR for Java by recognizing
     page rectangles, extracting text from images, and optimizing OCR for forms and
     invoices.
@@ -53,7 +53,7 @@ In modern document‑automation pipelines, **recognize page rectangles** is the 
 
 Recognize page rectangles means supplying a list of `java.awt.Rectangle` objects so the OCR engine processes only those specific regions on a page. This focused approach tells Aspose.OCR exactly where text lives, eliminating background clutter and allowing the engine to work faster while preserving layout fidelity, which directly **improves OCR accuracy**.
 
-## Why Prepare Rectangles for OCR Text Recognition?
+## Why prepare rectangles for OCR text recognition?
 
 Preparing rectangles concentrates the OCR engine on genuine text zones, which reduces processing time by up to 60 % and raises character‑recognition rates by roughly 15 % on noisy forms. Tight bounding boxes also prevent stray graphics from being mis‑interpreted as characters, making the output far more reliable for invoices, receipts, and structured forms.
 
@@ -62,7 +62,7 @@ Preparing rectangles concentrates the OCR engine on genuine text zones, which re
 Before you start, make sure you have:
 
 - **Java Development Kit (JDK)** – Aspose.OCR for Java works with JDK 17 or later. Download it from the Oracle website.  
-- **Aspose.OCR for Java library** – Get the latest JAR from the official download page [here](https://releases.aspose.com/ocr/java/). Follow the installation guide [here](https://reference.aspose.com/ocr/java/).  
+- **Aspose.OCR for Java library** – Get the latest JAR from the official download page [Aspose.OCR Java download page](https://releases.aspose.com/ocr/java/). Follow the installation guide [Aspose.OCR Java installation guide](https://reference.aspose.com/ocr/java/).  
 - **Development Environment** – Any Java IDE (IntelliJ IDEA, Eclipse, VS Code, etc.) will do.
 
 ## Import Packages
@@ -71,7 +71,7 @@ In your Java source file, import the required Aspose.OCR classes and standard Ja
 
 > *We import `java.awt.Rectangle` because the OCR API expects rectangles that define the regions to scan.*
 
-## Step 1: Set Up License
+## Step 1: set up license
 
 `SetLicense` loads your Aspose.OCR license file and removes all evaluation restrictions, enabling full‑feature OCR text recognition.
 
@@ -79,7 +79,7 @@ In your Java source file, import the required Aspose.OCR classes and standard Ja
 SetLicense.main(null);
 ```
 
-## Step 2: Define Document Directory and Image Path
+## Step 2: define document directory and image path
 
 Specify the folder that contains the image you want to process. The path can be absolute or relative to your project root.
 
@@ -88,7 +88,7 @@ String dataDir = "Your Document Directory";
 String imagePath = dataDir + "p.png";
 ```
 
-## Step 3: Create Aspose.OCR Instance
+## Step 3: create Aspose.OCR instance
 
 `AsposeOCR` is the primary class that provides access to OCR operations such as `RecognizePage`. Creating an instance gives you a ready‑to‑use engine.
 
@@ -96,7 +96,7 @@ String imagePath = dataDir + "p.png";
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Step 4: Prepare Rectangles with Texts
+## Step 4: prepare rectangles with texts
 
 Each `Rectangle(x, y, width, height)` tells Aspose.OCR exactly where to look for text. Adjust the coordinates to match the layout of your source image.
 
@@ -108,7 +108,7 @@ rectArray.add(new Rectangle(923, 2045, 465, 102));
 rectArray.add(new Rectangle(104, 2147, 2076, 819));
 ```
 
-## Step 5: Perform OCR Recognition
+## Step 5: perform OCR recognition
 
 `RecognizePage` processes only the defined rectangles and returns the extracted string. The console output lets you verify the **ocr text recognition** result instantly.
 
@@ -121,7 +121,7 @@ try {
 }
 ```
 
-## Common Issues and Tips
+## Common issues and tips
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
@@ -130,7 +130,7 @@ try {
 | **License not applied** | `SetLicense` not called before OCR | Ensure `SetLicense.main(null);` runs before any API calls. |
 | **Performance lag** | Too many large rectangles | Limit the number of rectangles and keep them as tight as possible around the text. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** *Is Aspose.OCR compatible with other programming languages?*  
 **A:** Yes, Aspose.OCR also supports .NET, C++, and Python. Check the official docs for language‑specific samples.
@@ -139,7 +139,7 @@ try {
 **A:** Absolutely. Purchase a commercial license via the [Aspose store](https://purchase.aspose.com/buy).
 
 **Q:** *Is there a free trial available?*  
-**A:** Yes, you can download a trial version [here](https://releases.aspose.com/).
+**A:** Yes, you can download a trial version [Aspose OCR Java trial download](https://releases.aspose.com/).
 
 **Q:** *How do I obtain a temporary license for evaluation?*  
 **A:** Temporary licenses are provided through the [Aspose temporary‑license portal](https://purchase.aspose.com/temporary-license/).
@@ -157,8 +157,6 @@ You’ve now learned how to **recognize page rectangles** with Aspose.OCR for Ja
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -173,11 +171,13 @@ import java.util.ArrayList;
 
 ## Related Tutorials
 
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-- [Aspose OCR Java Example – Recognizing Lines in Images](/ocr/java/advanced-ocr-techniques/recognize-lines/)
-- [Java Optical Character Recognition: OCR Specific Page](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
-
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "ocr/java/ocr-operations/perform-ocr-detect-areas-mode/_index.md" >}})
+- [Aspose OCR Java Example – Recognizing Lines in Images]({{< relref "ocr/java/advanced-ocr-techniques/recognize-lines/_index.md" >}})
+- [Java Optical Character Recognition: OCR Specific Page]({{< relref "ocr/java/advanced-ocr-techniques/perform-ocr-on-page/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

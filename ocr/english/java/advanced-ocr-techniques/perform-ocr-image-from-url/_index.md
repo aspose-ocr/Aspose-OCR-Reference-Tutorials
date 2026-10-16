@@ -1,5 +1,5 @@
 ---
-title: Extract text from URL using Aspose.OCR for Java
+title: Perform OCR on image from URL using Aspose.OCR for Java
 linktitle: Performing OCR on Image from URL in Aspose.OCR for Java
 second_title: Aspose.OCR Java API
 description: Learn how to extract text from URL with Aspose.OCR for Java – high‑accuracy OCR, multi‑language support, and easy integration.
@@ -69,7 +69,7 @@ Aspose.OCR supports **50+ input and output formats**—including PNG, JPEG, BMP,
 - **Valid License** – Required for production; a free trial works for evaluation.  
 - **Commercial License** – For purchasing a license, visit the [Aspose purchase page](https://purchase.aspose.com/buy).
 
-## Step 1: Create API Instance
+## Step 1: create API instance
 
 The `AsposeOCR` class is the main entry point that provides OCR functionality.  
 
@@ -88,7 +88,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 ```
 
-## Step 2: Define Image URL
+## Step 2: define image URL
 
 You pass the image URL directly to the OCR method, which handles downloading internally.  
 
@@ -96,7 +96,7 @@ You pass the image URL directly to the OCR method, which handles downloading int
 AsposeOCR api = new AsposeOCR();
 ```
 
-## Step 3: Set Recognition Options
+## Step 3: set recognition options
 
 `RecognitionSettings` lets you configure language, auto‑skew, and custom recognition rectangles.  
 
@@ -104,7 +104,7 @@ AsposeOCR api = new AsposeOCR();
 String uri = "https://www.example.com/your-image.png";
 ```
 
-## Step 4: Perform OCR
+## Step 4: perform OCR
 
 `RecognizePageFromUri` performs the download and OCR in one call, returning a result object.  
 
@@ -118,7 +118,7 @@ rectangles.add(new Rectangle(90, 186, 775, 95));
 settings.setRecognitionAreas(rectangles);
 ```
 
-## Step 5: Print Results
+## Step 5: print results
 
 `RecognitionResult` contains the extracted text, per‑area strings, and a JSON summary.  
 
@@ -139,7 +139,7 @@ You should extract text from web images whenever you need searchable, indexable 
 
 Provide the remote image URL to `RecognizePageFromUri`, configure any language or area settings you need, and call the method. The library downloads the image, runs the OCR engine, and returns the recognized text and JSON metadata—all in a single call without extra networking code.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -148,7 +148,7 @@ Provide the remote image URL to `RecognizePageFromUri`, configure any language o
 | **Missing language support** | Default language pack only includes English. | Load additional language packs via `settings.setLanguage("fra")` (or other ISO codes). |
 | **License not applied** | Trial mode may limit pages. | Apply a valid license with `License license = new License(); license.setLicense("Aspose.OCR.lic");` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How accurate is Aspose.OCR in recognizing text from images?**  
 A: Aspose.OCR delivers **high‑accuracy OCR**, typically exceeding 98 % character accuracy on clean printed documents when you define precise recognition areas and disable auto‑skew.
@@ -171,18 +171,13 @@ A: Yes, you can download a fully‑featured trial from [releases.aspose.com](htt
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
 - [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [How to OCR Image Text with Language Using Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -196,3 +191,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
