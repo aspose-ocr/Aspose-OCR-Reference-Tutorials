@@ -48,7 +48,7 @@ tags:
 - .NET OCR
 - Java OCR
 - document processing
-title: Aspose OCR Tutorial – Mastering Optical Character Recognition
+title: Learn to Extract Text with Aspose OCR – Mastering Optical Character Recognition
 url: /
 weight: 11
 ---
@@ -74,8 +74,29 @@ The Aspose OCR tutorial teaches developers how to use the Aspose.OCR library to 
 ## How to set up Aspose OCR for .NET?
 The `OcrEngine` class performs the OCR analysis on an image. Install the Aspose.OCR NuGet package, add `using Aspose.OCR;`, and obtain a trial or licensed key from the Aspose portal. Then create an `OcrEngine` instance, load your image with `LoadImage`, and call `Recognize`. This simple flow gets text extraction working in under five minutes.
 
+```csharp
+using Aspose.OCR;
+
+var ocrEngine = new OcrEngine();
+ocrEngine.LoadImage("sample.png");
+ocrEngine.Recognize();
+Console.WriteLine(ocrEngine.Text);
+```
+
 ## How to set up Aspose OCR for Java?
 The `License` class registers your Aspose OCR license with the library. Install the Aspose.OCR JAR, import `com.aspose.ocr.*`, and set the license using `License license = new License(); license.setLicense("Aspose.OCR.lic");`. Then create an `OcrEngine` instance, provide the image path via `setImage`, and invoke `recognize`. This mirrors the .NET flow and enables text extraction quickly.
+
+```java
+import com.aspose.ocr.*;
+
+License license = new License();
+license.setLicense("Aspose.OCR.lic");
+
+OcrEngine ocrEngine = new OcrEngine();
+ocrEngine.setImage("sample.png");
+ocrEngine.recognize();
+System.out.println(ocrEngine.getText());
+```
 
 ## Why choose Aspose OCR for your projects?
 Aspose OCR combines high accuracy with cross‑platform support, offering a single engine that works in .NET, Java, and other environments without external dependencies. It provides extensive configuration options, scalable performance for both desktop and server scenarios, and regular updates backed by dedicated support, making it a reliable choice for any document‑processing project.
@@ -83,7 +104,7 @@ Aspose OCR combines high accuracy with cross‑platform support, offering a sing
 ## Quantified Benefits
 Aspose.OCR supports **30+ languages**, including complex scripts like Arabic and Hindi, and can process images up to **200 MB** without loading the entire file into memory. On a typical 300 DPI page, the engine delivers results in **under 0.5 seconds** on a standard 2.5 GHz CPU, handling batch jobs of **500+ pages per minute** when parallelized.
 
-## Common Use Cases
+## Common use cases
 - **Document management systems** – Automatically index scanned contracts, invoices, and reports.  
 - **Data‑entry automation** – Extract fields from forms or receipts without manual typing.  
 - **Mobile scanning apps** – Provide on‑device OCR for real‑time translation or note‑taking.  
@@ -101,12 +122,12 @@ Unlock the full potential of OCR image recognition with Aspose.OCR for .NET. Fro
 
 These are links to some useful resources:
 
-- [Skew Angle Calculation](./net/skew-angle-calculation/)
-- [Image and Drawing Recognition](./net/image-and-drawing-recognition/)
-- [Text Recognition](./net/text-recognition/)
-- [OCR Configuration](./net/ocr-configuration/)
-- [OCR Optimization](./net/ocr-optimization/)
-- [OCR Settings](./net/ocr-settings/)
+- [Skew Angle Calculation]({{< relref "net/skew-angle-calculation" >}})
+- [Image and Drawing Recognition]({{< relref "net/image-and-drawing-recognition" >}})
+- [Text Recognition]({{< relref "net/text-recognition" >}})
+- [OCR Configuration]({{< relref "net/ocr-configuration" >}})
+- [OCR Optimization]({{< relref "net/ocr-optimization" >}})
+- [OCR Settings]({{< relref "net/ocr-settings" >}})
 
 ## Aspose.OCR for Java Tutorials
 {{% alert color="primary" %}}
@@ -115,11 +136,11 @@ Unleash the power of text extraction in Java applications with Aspose.OCR! Our J
 
 These are links to some useful resources:
 
-- [OCR Basics](./java/ocr-basics/)
-- [OCR Operations](./java/ocr-operations/)
-- [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
+- [OCR Basics]({{< relref "java/ocr-basics" >}})
+- [OCR Operations]({{< relref "java/ocr-operations" >}})
+- [Advanced OCR Techniques]({{< relref "java/advanced-ocr-techniques" >}})
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Typical Cause | Quick Fix |
 |-------|---------------|-----------|
 | **Garbage characters in output** | Low‑contrast or noisy image | Enable `PreprocessOptions.NoiseRemoval` and increase contrast before recognition. |
@@ -127,7 +148,7 @@ These are links to some useful resources:
 | **Handwritten text not recognized** | Handwriting language pack missing | Install the handwriting language pack and set `RecognitionOptions.Language = Language.HANDWRITING`. |
 | **Performance slowdown on large batches** | Processing images sequentially on a single thread | Parallelize OCR calls with `Task.Run` or use the asynchronous API if available. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR in a commercial application?**  
 A: Yes. A valid Aspose license is required for production use, but you can start with a free trial to evaluate the features.
@@ -154,10 +175,11 @@ A: Convert each PDF page to an image (e.g., using Aspose.PDF) and feed the image
 
 **Last Updated:** 2026-07-18  
 **Tested With:** Aspose.OCR latest release (as of 2026)  
-**Author:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -36,7 +36,7 @@ schemas:
   - answer: You can ask questions in the official [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16)
       or contact support directly from your account portal.
     question: How do I get support for Aspose.OCR?
-  - answer: Yes, download a trial from the [here](https://releases.aspose.com/) to
+  - answer: Yes, download a trial from the [Aspose.OCR trial download page](https://releases.aspose.com/) to
       evaluate all features without a license.
     question: Is a free trial available?
   type: FAQPage
@@ -46,7 +46,7 @@ tags:
 - Aspose.OCR
 - Java OCR
 - PDF text extraction
-title: Convert PDF to Text with Aspose.OCR for Java
+title: Learn to Convert PDF to Text with Aspose.OCR for Java
 url: /java/ocr-operations/recognize-pdf/
 weight: 12
 ---
@@ -102,7 +102,7 @@ import java.awt.*;
 import java.util.ArrayList;
 ```
 
-## Step 1: Set Up Your Project
+## Step 1: set up your project
 
 Place the Aspose.OCR JAR files in your project’s `lib` folder (or add them via Maven/Gradle) and define the path to your working directory.
 
@@ -111,7 +111,7 @@ Place the Aspose.OCR JAR files in your project’s `lib` folder (or add them via
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Specify PDF Document Path
+## Step 2: specify PDF document path
 
 Point the OCR engine to the PDF you wish to process. Use an absolute or relative path that your Java process can read.
 
@@ -120,7 +120,7 @@ Point the OCR engine to the PDF you wish to process. Use an absolute or relative
 String file = dataDir + "multi_page_1.pdf";
 ```
 
-## Step 3: Create API Instance
+## Step 3: create API instance
 
 Instantiate the `OcrEngine` class – this object orchestrates the entire OCR workflow.
 
@@ -129,7 +129,7 @@ Instantiate the `OcrEngine` class – this object orchestrates the entire OCR wo
 AsposeOCRPdf api = new AsposeOCRPdf();
 ```
 
-## Step 4: Set Recognition Options
+## Step 4: set recognition options
 
 `DocumentRecognitionSettings` holds all configurable parameters for the OCR operation, such as language, page range, and output format.  
 Configure the OCR settings—such as language, page range, and output format—using `DocumentRecognitionSettings`. This tells the **java OCR library** exactly how to treat each page.
@@ -150,7 +150,7 @@ Calling `recognize` on the `OcrEngine` processes the PDF and returns a list of `
 ArrayList<RecognitionResult> result = api.RecognizePdf(file, settings);
 ```
 
-## Step 6: Print Recognition Results
+## Step 6: print recognition results
 
 Iterate through the results and display the extracted text, layout information, and any warnings that occurred during processing.
 
@@ -161,7 +161,7 @@ for(RecognitionResult r: result) {
 }
 ```
 
-## Step 7: Define PrintResult Method
+## Step 7: define printResult method
 
 The helper method formats and prints the detailed OCR output. (The implementation is provided in the original code snippet.)
 
@@ -172,13 +172,13 @@ static void printResult(RecognitionResult result) {
 }
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 
 - **Low Accuracy:** Ensure the source PDF has a resolution of at least 300 dpi.  
 - **Memory Consumption:** For large PDFs, process pages in batches to avoid OutOfMemory errors.  
 - **Language Support:** Set the appropriate `Language` enum if your document isn’t English.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.OCR compatible with other document formats?**  
 A: Yes, Aspose.OCR supports PDFs, TIFF, JPEG, PNG, BMP, and many other image formats—over 30 types in total.
@@ -193,7 +193,7 @@ A: Accuracy depends on source quality. PDFs with clear, high‑contrast text and
 A: You can ask questions in the official [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) or contact support directly from your account portal.
 
 **Q: Is a free trial available?**  
-A: Yes, download a trial from the [here](https://releases.aspose.com/) to evaluate all features without a license.
+A: Yes, download a trial from the [Aspose.OCR trial download page](https://releases.aspose.com/) to evaluate all features without a license.
 
 ---
 
@@ -203,9 +203,9 @@ A: Yes, download a trial from the [here](https://releases.aspose.com/) to evalua
 
 ## Related Tutorials
 
-- [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/java/ocr-basics/)
-- [How to Set Aspose OCR License and Verify It in Java](/ocr/java/ocr-basics/set-license/)
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
+- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "/ocr/java/ocr-basics/" >}})
+- [How to Set Aspose OCR License and Verify It in Java]({{< relref "/ocr/java/ocr-basics/set-license/" >}})
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
