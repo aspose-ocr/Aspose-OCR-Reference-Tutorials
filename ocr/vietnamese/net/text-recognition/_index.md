@@ -409,6 +409,18 @@ Biến hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET, 
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách offline, bao gồm cài đặt, cấu hình và xử lý kết quả.
 ### [Tạo docx từ hình ảnh bằng Aspose OCR – Hướng dẫn C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để tạo file docx từ hình ảnh, bao gồm cài đặt, cấu hình và xử lý kết quả.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản tiếng Ả Rập từ JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản tiếng Ả Rập từ hình ảnh JPG một cách chính xác và nhanh chóng.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh trong C# – Hướng dẫn đầy đủ](./create-searchable-pdf-from-image-in-c-full-guide/)
+Biến đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR trong C#. Hướng dẫn chi tiết từng bước để tạo PDF dễ tìm kiếm.
+### [Hướng dẫn OCR C# – Trích xuất văn bản Urdu từ ảnh PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản Urdu từ ảnh PNG một cách nhanh chóng và chính xác.
+### [Cách thực hiện OCR hàng loạt trong C# – Trích xuất văn bản từ hình ảnh nhanh chóng](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Khám phá cách sử dụng Aspose.OCR trong C# để thực hiện OCR hàng loạt, trích xuất nhanh văn bản từ nhiều hình ảnh.
+### [Cách tạo PDF/A từ hình ảnh đã quét trong C# – Hướng dẫn từng bước](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Hướng dẫn chi tiết cách tạo PDF/A từ các hình ảnh quét bằng Aspose.OCR trong C#, giúp tài liệu của bạn trở nên tìm kiếm được.
+### [Nhận dạng văn bản viết tay trong C# bằng Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản viết tay một cách chính xác và nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

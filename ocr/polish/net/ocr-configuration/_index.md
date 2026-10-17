@@ -80,6 +80,8 @@ Dowiedz się, jak osadzić czcionki w plikach PDF, aby przekształcić obrazy JP
 Dowiedz się, jak wyodrębnić tekst cyrylicą z plików PNG przy użyciu Aspose OCR w .NET.
 ### [Ustawienie urządzenia GPU dla OCR w C# – Kompletny przewodnik programistyczny](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Pełny przewodnik, jak skonfigurować GPU w Aspose.OCR dla C#, aby przyspieszyć rozpoznawanie obrazu.
+### [Rozpoznawanie tekstu z obrazu w C# – jak rozpoznać język Kannada przy użyciu Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Dowiedz się, jak używać Aspose OCR w C# do rozpoznawania tekstu w języku Kannada z obrazów.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

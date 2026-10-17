@@ -120,6 +120,8 @@ Nhúng phông chữ vào PDF để tạo tài liệu có thể tìm kiếm từ 
 ### [Đọc văn bản từ PNG – trích xuất văn bản Cyrillic bằng Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 ### [Cài đặt thiết bị GPU cho OCR trong C# – Hướng dẫn lập trình đầy đủ](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách cấu hình thiết bị GPU để tăng tốc độ nhận dạng OCR trong C# bằng Aspose.OCR.
+### [Nhận dạng văn bản từ hình ảnh trong C# – cách nhận dạng tiếng Kannada với Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng ký tự Kannada từ hình ảnh.
 
 
 

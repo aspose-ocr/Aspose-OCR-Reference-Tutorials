@@ -52,6 +52,8 @@ OCR doğruluğunu artırmak için görüntüleri nasıl düzelteceğinizi ve C# 
 OCR ön işlem adımlarında görüntü eğimini kaldırarak tanıma doğruluğunu artırın.
 ### [Görüntüyü Düzeltme ve Tarama Sonuçlarını Temizleme – Tam C# Kılavuzu](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
 C# kullanarak görüntüleri eğimden arındırma ve tarama dosyalarını temizleme adımlarını öğrenin.
+### [C#'ta Görüntüyü Düzeltme (Deskew) Nasıl Yapılır – Aspose OCR Kullanarak Tam Kılavuz](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Aspose OCR ile C#'ta görüntü düzeltme işlemini adım adım öğrenin ve OCR doğruluğunu artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -65,6 +65,8 @@ Naučte se, jak vložit fonty do PDF a převést JPEG obrázky na prohledávatel
 Naučte se, jak pomocí Aspose OCR načíst PNG soubor a získat cyrilický text s vysokou přesností.
 ### [Nastavení GPU zařízení pro OCR v C# – Kompletní programovací průvodce](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Naučte se, jak konfigurovat GPU pro zrychlení OCR pomocí Aspose.OCR v C# aplikacích.
+### [Rozpoznat text z obrázku v C# – jak rozpoznat kannadštinu s Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Naučte se, jak pomocí Aspose OCR rozpoznat kannadský text z obrázku v C# aplikaci.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

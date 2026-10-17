@@ -89,6 +89,8 @@ Apprenez à intégrer des polices dans un PDF et à le rendre searchable à part
 
 ### [Lire du texte à partir de PNG – extraire du texte cyrillique avec Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 Apprenez à extraire du texte cyrillique d'images PNG en utilisant Aspose OCR dans vos applications .NET.
+### [Reconnaître du texte à partir d'une image en C# – comment reconnaître le Kannada avec Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Apprenez à extraire du texte en Kannada à partir d'images en C# avec Aspose OCR.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 

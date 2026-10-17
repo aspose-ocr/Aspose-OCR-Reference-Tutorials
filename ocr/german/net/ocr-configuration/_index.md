@@ -78,6 +78,8 @@ Erfahren Sie, wie Sie Schriftarten einbetten und aus JPEG‑Bildern durchsuchbar
 Erfahren Sie, wie Sie mit Aspose OCR kyrillischen Text aus PNG‑Dateien zuverlässig extrahieren.
 ### [GPU-Gerät für OCR in C# festlegen – Vollständiger Programmierleitfaden](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie die GPU für die OCR-Verarbeitung in C# konfigurieren, um die Leistung zu maximieren.
+### [Texterkennung aus Bild in C# – Wie man Kannada mit Aspose OCR erkennt](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren und die Kannada‑Schrift zuverlässig erkennen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

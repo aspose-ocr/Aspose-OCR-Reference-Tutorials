@@ -79,6 +79,8 @@ Aprende a incrustar fuentes en PDFs y convertir imágenes JPEG en documentos PDF
 Aprende a extraer texto cirílico de imágenes PNG usando Aspose OCR en tus aplicaciones .NET.
 ### [Configurar dispositivo GPU para OCR en C# – Guía completa de programación](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Aprende a configurar el dispositivo GPU para acelerar el OCR en C# usando Aspose.OCR, con ejemplos completos de programación.
+### [Reconocer texto de una imagen en C# – cómo reconocer Kannada con Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Aprende a extraer texto en idioma Kannada de imágenes usando Aspose OCR en C#.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

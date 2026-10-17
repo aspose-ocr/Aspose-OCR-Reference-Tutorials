@@ -419,6 +419,21 @@ Learn how to extract tables from images using Aspose OCR in C#. Follow our compr
 Learn how to perform offline OCR on images using Aspose.OCR in C#. Follow our complete step-by-step guide for accurate text extraction.
 ### [Create docx from image with Aspose OCR – Step‑by‑Step C# Guide](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Learn how to generate DOCX files from images using Aspose OCR in C#. Follow our step-by-step guide for seamless document creation.
+### [c# ocr tutorial – Extract Urdu Text from PNG Images](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Learn how to extract Urdu text from PNG images using Aspose OCR in C#. Follow our step-by-step guide to integrate OCR capabilities into your .NET applications.
+### [How to Use OCR in C# – Extract Arabic Text from JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Learn how to extract Arabic text from JPG images using Aspose OCR in C#. Follow our step-by-step guide for accurate results.
+### [Create Searchable PDF from Image in C# – Full Guide](./create-searchable-pdf-from-image-in-c-full-guide/)
+Create a searchable PDF from images using Aspose.OCR in C#. Follow our comprehensive guide to integrate PDF conversion into your .NET applications.
+
+### [How to Batch OCR in C# – Extract Text from Images Fast](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Learn how to batch process images for fast OCR extraction in C# using Aspose.OCR, boosting efficiency in your .NET applications.
+
+### [How to Create PDF/A from Scanned Images in C# – Step‑by‑Step Guide](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Learn how to generate PDF/A files from scanned images in C# using Aspose.OCR with this step‑by‑step guide.
+
+### [recognize handwritten text in C# using Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Learn how to recognize handwritten text in C# using Aspose OCR. Follow our step-by-step guide to integrate handwriting recognition into your .NET applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,9 @@ Apprenez à éliminer l'inclinaison des images avant l'OCR pour améliorer la pr
 
 ### [Comment redresser une image et nettoyer les numérisations – Guide complet C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
 Apprenez à redresser les images et à nettoyer les scans avec Aspose.OCR en C#, pour des résultats précis et sans artefacts.
+### [Comment redresser une image en C# – Guide complet avec Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Apprenez à redresser des images en C# avec Aspose OCR, améliorez la précision de votre reconnaissance de texte.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

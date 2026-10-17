@@ -77,6 +77,8 @@ Lär dig hur du bäddar in teckensnitt i PDF och konverterar JPEG‑bilder till 
 ### [Läs text från PNG – extrahera kyrillisk text med Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 ### [Ställ in GPU‑enhet för OCR i C# – Komplett programmeringsguide](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Lär dig hur du konfigurerar GPU‑enhet för OCR i C# med en komplett programmeringsguide.
+### [Känn igen text från bild i C# – hur man känner igen Kannada med Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Lär dig hur du med Aspose OCR i C# kan känna igen Kannada‑text från en bild.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

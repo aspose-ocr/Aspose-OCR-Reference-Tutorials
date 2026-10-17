@@ -114,6 +114,8 @@ weight: 24
 使用 Aspose OCR 从 PNG 图像中读取并提取西里尔字母文本。  
 ### [在 C# 中为 OCR 设置 GPU 设备 – 完整编程指南](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 了解如何在 C# 中使用 Aspose.OCR 设置 GPU 设备以加速 OCR 处理的完整编程指南。  
+### [在 C# 中识别图像文字 – 使用 Aspose OCR 识别卡纳达语](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+使用 Aspose OCR 在 .NET 中轻松识别卡纳达语图像文字，提升多语言 OCR 能力。  
 
 
 

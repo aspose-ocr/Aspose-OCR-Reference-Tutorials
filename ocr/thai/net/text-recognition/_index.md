@@ -374,6 +374,19 @@ url: /th/net/text-recognition/
 
 ### [สร้าง docx จากภาพด้วย Aspose OCR – คู่มือขั้นตอนต่อขั้นตอน C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 เรียนรู้วิธีสร้างไฟล์ docx จากภาพด้วย Aspose OCR ใน C# อย่างละเอียดเพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
+### [จดจำข้อความลายมือใน C# ด้วย Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อจดจำข้อความลายมือจากรูปภาพอย่างแม่นยำ
+
+### [วิธีใช้ OCR ใน C# – ดึงข้อความภาษาอาหรับจาก JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความภาษาอาหรับจากไฟล์ JPG อย่างแม่นยำและง่ายดาย
+### [บทเรียน OCR C# – ดึงข้อความภาษาอูรดูจากภาพ PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความภาษาอูรดูจากไฟล์ PNG อย่างแม่นยำและง่ายดาย
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือเต็ม](./create-searchable-pdf-from-image-in-c-full-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อสร้าง PDF ที่ค้นหาได้จากรูปภาพ ด้วยคำแนะนำทีละขั้นตอนแบบครบถ้วน
+### [วิธีสร้าง PDF/A จากภาพสแกนใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อสร้างไฟล์ PDF/A จากภาพสแกนด้วยขั้นตอนละเอียดและง่ายต่อการทำตาม
+### [วิธีทำ OCR แบบกลุ่มใน C# – ดึงข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อทำ OCR แบบกลุ่มและดึงข้อความจากรูปภาพหลายไฟล์ได้อย่างรวดเร็ว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

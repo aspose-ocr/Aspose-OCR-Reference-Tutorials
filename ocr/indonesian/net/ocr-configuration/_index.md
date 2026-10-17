@@ -119,6 +119,8 @@ Pelajari cara menyematkan font ke PDF dan mengubah gambar JPEG menjadi PDF yang 
 ### [Baca teks dari PNG – ekstrak teks Sirilik dengan Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 ### [Set GPU Device for OCR in C# – Complete Programming Guide](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Mengatur perangkat GPU untuk OCR di C# menggunakan Aspose.OCR untuk kinerja lebih cepat.
+### [Mengenali teks dari gambar di C# – cara mengenali Kannada dengan Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Pelajari cara mengenali teks Kannada dari gambar menggunakan Aspose OCR dalam aplikasi C#.
 
 
 
