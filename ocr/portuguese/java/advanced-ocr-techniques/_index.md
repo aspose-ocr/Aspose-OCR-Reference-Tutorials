@@ -142,13 +142,6 @@ Aprenda a corrigir a inclinação de imagens antes do OCR usando Java, melhorand
 Aprenda a extrair texto de imagens usando Aspose OCR em Java com este guia passo a passo.
 ### [Detectar idioma da imagem com Aspose OCR – Tutorial Java](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Aprenda a detectar o idioma de texto em imagens usando Aspose OCR em Java, com um guia passo a passo simples e eficaz.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Como configurar GPU para OCR – reconhecer texto a partir de imagem](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
 Aprenda a habilitar a GPU para acelerar o OCR com Aspose.OCR, reconhecendo texto em imagens de forma eficiente.
 ### [Criar PDF pesquisável com Java – Guia completo](./create-searchable-pdf-with-java-complete-guide/)
