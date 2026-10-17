@@ -424,6 +424,16 @@ Lär dig att konvertera skannade bilder till PDF/A i C# med Aspose.OCR i en deta
 Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder och snabbt extraherar text i en C#-applikation.
 ### [Känn igen handskriven text i C# med Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Lär dig hur du med Aspose OCR för .NET känner igen handskriven text i C#-applikationer.
+### [c# OCR-exempel – Extrahera text från bilder med Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Lär dig hur du med C# och Aspose OCR extraherar text från bilder i enkla steg.
+### [Extrahera text från bild i C# – Fullständig guide](./extract-text-from-image-in-c-full-guide/)
+Lär dig hur du med Aspose OCR och C# extraherar text från bilder i en komplett steg‑för‑steg‑guide.
+### [Extrahera text från bild i C# – Asynkron OCR‑handledning](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Lär dig hur du med C# och asynkron Aspose OCR extraherar text från bilder i enkla steg.
+### [Extrahera text från formulär med Aspose OCR – Steg‑för‑steg‑guide](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Lär dig hur du med Aspose OCR extraherar text från formulär i en tydlig steg‑för‑steg‑guide.
+### [Hur du använder Aspose – Extrahera text från PDF i C# – Komplett guide](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Lär dig steg‑för‑steg hur du med Aspose OCR och C# extraherar text från PDF‑filer för en smidig integration i dina .NET‑applikationer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

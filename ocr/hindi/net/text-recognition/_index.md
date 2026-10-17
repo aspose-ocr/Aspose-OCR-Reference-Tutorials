@@ -411,6 +411,16 @@ Aspose.OCR का उपयोग करके C# में कई छविय�
 Aspose.OCR का उपयोग करके C# में स्कैन की गई छवियों से PDF/A फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
 ### [C# में Aspose OCR का उपयोग करके हस्तलिखित टेक्स्ट को पहचानें](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Aspose OCR के साथ C# में हस्तलिखित टेक्स्ट को पहचानने की चरण‑दर‑स्टेप मार्गदर्शिका।
+### [c# OCR उदाहरण – Aspose OCR के साथ छवियों से टेक्स्ट निकालें](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Aspose OCR का उपयोग करके C# में छवियों से टेक्स्ट निकालने का सरल उदाहरण देखें।
+### [Aspose OCR के साथ फ़ॉर्म से टेक्स्ट निकालें – चरण‑दर‑चरण गाइड](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR का उपयोग करके फ़ॉर्म से टेक्स्ट निकालने के चरण‑दर‑चरण निर्देश देखें। .NET में फ़ॉर्म डेटा को आसानी से प्रोसेस करें।
+### [C# में छवि से टेक्स्ट निकालें – पूर्ण गाइड](./extract-text-from-image-in-c-full-guide/)
+Aspose OCR का उपयोग करके C# में छवियों से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप मार्गदर्शिका।
+### [Aspose का उपयोग कैसे करें – C# में PDF से टेक्स्ट निकालें – पूर्ण गाइड](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+
+### [C# में छवि से टेक्स्ट निकालें – असिंक्रोनस OCR ट्यूटोरियल](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Aspose OCR का उपयोग करके C# में असिंक्रोनस रूप से छवियों से टेक्स्ट निकालने का चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

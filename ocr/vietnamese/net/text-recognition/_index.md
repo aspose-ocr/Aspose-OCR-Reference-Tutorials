@@ -421,6 +421,15 @@ Khám phá cách sử dụng Aspose.OCR trong C# để thực hiện OCR hàng l
 Hướng dẫn chi tiết cách tạo PDF/A từ các hình ảnh quét bằng Aspose.OCR trong C#, giúp tài liệu của bạn trở nên tìm kiếm được.
 ### [Nhận dạng văn bản viết tay trong C# bằng Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản viết tay một cách chính xác và nhanh chóng.
+### [Ví dụ C# OCR – Trích xuất văn bản từ hình ảnh với Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ biểu mẫu với Aspose OCR – Hướng dẫn từng bước](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Khám phá cách sử dụng Aspose OCR để trích xuất văn bản từ biểu mẫu một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ](./extract-text-from-image-in-c-full-guide/)
+Khám phá cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chi tiết.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR bất đồng bộ](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Học cách thực hiện OCR bất đồng bộ trong C# để trích xuất văn bản từ hình ảnh một cách hiệu quả.
+### [Cách sử dụng Aspose – Trích xuất văn bản từ PDF trong C# – Hướng dẫn đầy đủ](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

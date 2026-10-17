@@ -435,6 +435,16 @@ Aspose.OCR を使用して C# でスキャン画像から PDF/A を作成し、�
 
 ### [C# で手書きテキストを認識する – Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Aspose OCR を使用して C# で手書き文字を認識し、画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose の使用方法 – C# で PDF からテキストを抽出する – 完全ガイド](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Aspose を活用して C# で PDF からテキストを抽出する手順を詳しく解説した完全ガイドです。
+### [C# OCR 例 – Aspose OCR で画像からテキストを抽出する](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Aspose OCR を使用して C# で画像からテキストを抽出する手順を示すシンプルな例です。
+### [Aspose OCR を使用したフォームからのテキスト抽出 – ステップバイステップガイド](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Aspose OCR を活用し、フォーム画像からテキストを抽出する手順を段階的に解説します。
+### [C# で画像からテキストを抽出する – 完全ガイド](./extract-text-from-image-in-c-full-guide/)
+Aspose OCR と C# を使用して画像からテキストを抽出する手順を詳細に解説する完全ガイドです。
+### [C# で画像からテキストを抽出する – 非同期 OCR チュートリアル](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Aspose OCR の非同期機能を使用して、C# で画像からテキストを高速に抽出する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -431,6 +431,16 @@ url: /zh/net/text-recognition/
 
 ### [在 C# 中使用 Aspose OCR 识别手写文本](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 使用 Aspose OCR 在 C# 中识别手写文本，增强您的 .NET 应用程序的 OCR 功能。
+### [使用 Aspose OCR 从表单提取文本 – 步骤指南](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+通过本分步指南，学习如何使用 Aspose OCR 从表单中提取文本，实现高效的表单文字识别。
+### [C# OCR 示例 – 使用 Aspose OCR 从图像提取文本](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+通过 C# 示例演示如何使用 Aspose OCR 从图像中提取文本，帮助您快速实现文字识别功能。
+### [C# 中从图像提取文本 – 完整指南](./extract-text-from-image-in-c-full-guide/)
+通过完整的 C# 示例，学习使用 Aspose OCR 从图像中提取文本，快速集成文字识别功能。
+### [如何使用 Aspose – 在 C# 中从 PDF 提取文本 – 完整指南](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+通过本完整指南，学习使用 Aspose 在 C# 中从 PDF 中提取文本，实现高效的文档文字识别。
+### [在 C# 中从图像提取文本 – 异步 OCR 教程](./extract-text-from-image-in-c-async-ocr-tutorial/)
+使用 Aspose OCR 的异步功能，在 C# 中高效提取图像文本，实现非阻塞的文字识别流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

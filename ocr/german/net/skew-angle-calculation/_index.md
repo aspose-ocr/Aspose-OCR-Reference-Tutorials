@@ -54,6 +54,9 @@ Erfahren Sie, wie Sie Schräglagen aus Bildern entfernen und die OCR-Genauigkeit
 Erfahren Sie, wie Sie mit Aspose.OCR Bilder korrigieren und gescannte Dokumente bereinigen – Schritt für Schritt in C#.
 ### [Wie man ein Bild in C# begradigt – Vollständige Anleitung mit Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Erfahren Sie, wie Sie Bilder in C# mithilfe von Aspose OCR automatisch begradigen und die OCR-Genauigkeit steigern.
+### [Wie man ein Bild in C# mit Aspose OCR entschrägt – Vollständige Anleitung](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder entschrägen und die OCR-Genauigkeit steigern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

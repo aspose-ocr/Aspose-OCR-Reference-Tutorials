@@ -420,6 +420,16 @@ Ismerje meg, hogyan végezhet kötegelt OCR-t C#-ban, hogy gyorsan kinyerje a sz
 Ismertesse, hogyan hozhat létre PDF/A fájlokat beolvasott képekből C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [Kézírásos szöveg felismerése C#-ban az Aspose OCR használatával](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Tanulja meg, hogyan ismerhet fel kézírásos szöveget C#-ban az Aspose OCR segítségével, lépésről-lépésre útmutatóval.
+### [c# OCR példa – Szöveg kinyerése képekből az Aspose OCR segítségével](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Ismerje meg, hogyan használhatja a C#-ot az Aspose OCR-rel a képek szövegének gyors és pontos kinyeréséhez.
+### [Képről szöveg kinyerése C#-ban – Teljes útmutató](./extract-text-from-image-in-c-full-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Képről szöveg kinyerése C#-ban – Aszinkron OCR oktatóanyag](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Ismerje meg, hogyan használhatja az aszinkron OCR-t C#-ban a képek szövegének gyors és hatékony kinyeréséhez.
+### [Űrlapból szöveg kinyerése Aspose OCR segítségével – Lépésről‑lépésre útmutató](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget űrlapokból az Aspose OCR használatával .NET környezetben, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose – PDF‑ből szöveg kinyerése C#‑ban – Teljes útmutató](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Ismerje meg, hogyan nyerhet ki szöveget PDF‑fájlokból C#‑ban az Aspose segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
