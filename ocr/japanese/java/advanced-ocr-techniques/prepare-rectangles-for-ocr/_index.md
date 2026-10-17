@@ -9,17 +9,12 @@ url: /ja/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
- blocks/products/products-backtop-button >}}
 
-All unchanged.
 
-Now produce final content.
 
-Be careful to keep code block placeholders unchanged.
 
-Also keep blockquote > line.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -64,8 +64,6 @@ weight: 21
 
 Πείτε αντίο στην χειροκίνητη εξαγωγή κειμένου από εικόνες TIFF. Αφήστε το Aspose.OCR να το κάνει για εσάς. Βυθιστείτε στο tutorial και ξεκλειδώστε ισχυρή αναγνώριση κειμένου σε Java.
 
-[TIFF Recognition Tutorial](./recognize-tiff/)
-
 Συμπερασματικά, με τη Λίστα Tutorials του Aspose.OCR για Java, έχετε τα κλειδιά για να αξιοποιήσετε πλήρως τις δυνατότητες των λειτουργιών OCR. Εξερευνήστε κάθε tutorial, ανακαλύψτε τις δυνατότητες και αναβαθμίστε τις ικανότητες εξαγωγής κειμένου σας. Πείτε αντίο στις χειροκίνητες προσπάθειες και αγκαλιάστε την ακρίβεια και την αποδοτικότητα που προσφέρει το Aspose.OCR για Java!
 
 ## OCR Operations Tutorials
@@ -75,9 +73,55 @@ weight: 21
 Αποκτήστε ακριβή εξαγωγή κειμένου από εικόνες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για ακριβές OCR με επιλογή γλώσσας.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Αποκτήστε τη δύναμη του OCR σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε έγγραφα PDF άψογα. Ενισχύστε τις εφαρμογές σας με ακρίβεια και ταχύτητα.
+### [Πώς να χρησιμοποιήσετε το OCR σε Java – Εξαγωγή κειμένου από PDF με το Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Μάθετε πώς να εφαρμόσετε OCR σε Java για εξαγωγή κειμένου από PDF χρησιμοποιώντας το Aspose.OCR.
+### [Πώς να χρησιμοποιήσετε το OCR σε Java – Αναγνωρίστε κείμενο από εικόνα γρήγορα](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Μάθετε πώς να εφαρμόσετε OCR σε Java για γρήγορη εξαγωγή κειμένου από εικόνες με απλά βήματα.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα σε Java – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για Java, με λεπτομερείς βήμα‑βήμα οδηγίες.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Αποκτήστε ισχυρή αναγνώριση κειμένου σε Java με το Aspose.OCR. Αναγνωρίστε κείμενο σε εικόνες TIFF άψογα. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR.
-### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Πώς να κάνετε ομαδικό OCR σε Java – Πλήρης οδηγός για εξαγωγή κειμένου από εικόνες](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Αποκτήστε τη δυνατότητα επεξεργασίας πολλαπλών εικόνων με OCR σε Java, εξάγοντας κείμενο αποδοτικά και ακριβώς.
+### [Εκτέλεση OCR σε εικόνα με Java – Πλήρης οδηγός Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την εκτέλεση OCR σε εικόνες με Java χρησιμοποιώντας το Aspose OCR.
+### [Δημιουργία αναζητήσιμου PDF σε Java – Οδηγός βήμα‑βήμα](./create-searchable-pdf-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF με Aspose.OCR για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Ομαδική OCR Εικόνας σε Java – Γρήγορη Εξαγωγή Κειμένου από Αρχεία PNG](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Εκτελέστε OCR σε πολλαπλές εικόνες PNG ταυτόχρονα με το Aspose.OCR για Java, βελτιώνοντας την ταχύτητα και την ακρίβεια.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR – Βήμα‑βήμα Επίδειξη](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Ακολουθήστε το βήμα‑βήμα tutorial για την εξαγωγή κειμένου από εικόνες χρησιμοποιώντας το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένα Αρχεία – Οδηγός Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία PDF σε αναζητήσιμο PDF χρησιμοποιώντας το Aspose.OCR για Java.
+### [Αφαίρεση Υδατογράμματος Αξιολόγησης στο Aspose OCR – Πλήρης Οδηγός Άδειας Java](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Μάθετε πώς να αφαιρέσετε το υδατογράφημα αξιολόγησης και να ενεργοποιήσετε την πλήρη άδεια Aspose OCR σε εφαρμογές Java.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Java Tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε Java με βήμα‑βήμα οδηγίες.
+### [image to text java: Εξαγωγή κειμένου Urdu με Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο Urdu από εικόνες με το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από JPG – Οδηγός Java για Μετατροπή Εικόνας σε Αναζητήσιμο PDF](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Μάθετε πώς να μετατρέψετε εικόνες JPG σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR για Java.
+### [Πώς να ευθυγραμμίσετε την κλίση εικόνας — Οδηγός προεπεξεργασίας OCR βήμα‑βήμα](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+Μάθετε πώς να ευθυγραμμίσετε εικόνες πριν το OCR, βελτιώνοντας την ακρίβεια με βήμα‑βήμα οδηγίες.
+### [Πώς να χρησιμοποιήσετε το OCR σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Μάθετε πώς να χρησιμοποιήσετε το OCR σε Java με έναν πλήρη οδηγό βήμα‑βήμα.
+### [Aspose OCR Java: Μετατροπή Εικόνας σε HTML – Πλήρης Οδηγός Βήμα‑βήμα](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Μάθετε πώς να μετατρέψετε εικόνες σε HTML χρησιμοποιώντας Aspose.OCR για Java, με πλήρη βήμα‑βήμα οδηγίες.
+### [Πώς να εκτελέσετε OCR σε Java – Πλήρης Οδηγός Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Αποκτήστε πλήρη οδηγίες για την εκτέλεση OCR σε Java με το Aspose OCR, βήμα‑βήμα, από αρχή έως τελειότητα.
+### [Μετατροπή εικόνας σε κείμενο με Aspose OCR Java – Οδηγός βήμα‑βήμα](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Μάθετε πώς να μετατρέπετε εικόνες σε κείμενο με το Aspose OCR για Java, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία Αναζητήσιμου PDF με Java – Οδηγός βήμα‑βήμα](./create-searchable-pdf-with-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose.OCR για Java, βήμα‑βήμα.
+### [Φόρτωση εικόνας για OCR σε Java – Οδηγός βήμα‑βήμα](./load-image-for-ocr-in-java-step-by-step-guide/)
+Μάθετε πώς να φορτώνετε εικόνες για OCR σε Java με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Δημιουργία Αναζητήσιμου PDF – Οδηγός OCR για Java](./create-searchable-pdf-java-ocr-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο αρχείο χρησιμοποιώντας Aspose.OCR για Java.
+### [Εξαγωγή κειμένου Hindi από εικόνες – Παράδειγμα OCR σε Java](./extract-hindi-text-from-images-java-ocr-example/)
+Μάθετε πώς να εξάγετε κείμενο Hindi από εικόνες χρησιμοποιώντας το Aspose.OCR σε Java.
+### [Πώς να ενεργοποιήσετε το OCR σε Java με το Aspose – Πλήρης οδηγός βήμα‑βήμα](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Μάθετε πώς να ενεργοποιήσετε το OCR σε Java χρησιμοποιώντας το Aspose, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR Java – Πλήρης Οδηγός](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
 ### [Πώς να Εκτελέσετε OCR με το Aspose OCR σε Java – Οδηγός Βήμα‑βήμα](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Ανακαλύψτε έναν πλήρη οδηγό βήμα‑βήμα για την υλοποίηση OCR με το Aspose OCR σε Java, καλύπτοντας όλες τις βασικές ρυθμίσεις.
@@ -111,3 +155,14 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF από PNG – Πλήρης Οδηγός Java](./create-searchable-pdf-from-png-complete-java-guide/)
+Δημιουργήστε αναζητήσιμο PDF από αρχείο PNG με πλήρη οδηγό Java, βήμα‑βήμα οδηγίες και βέλτιστες πρακτικές.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με OCR – Οδηγός Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+Δημιουργήστε αναζητήσιμο PDF από εικόνα χρησιμοποιώντας OCR σε Java, βήμα‑βήμα οδηγίες για ακριβή εξαγωγή κειμένου.
+### [Μετατροπή Εικόνων σε Κείμενο σε Java – Οδηγός Μαζικής Επεξεργασίας OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων για εξαγωγή κειμένου με το Aspose.OCR σε Java.
+### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
+

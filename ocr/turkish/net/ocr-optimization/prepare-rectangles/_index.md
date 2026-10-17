@@ -10,7 +10,7 @@ url: /tr/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
 
- with same formatting.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

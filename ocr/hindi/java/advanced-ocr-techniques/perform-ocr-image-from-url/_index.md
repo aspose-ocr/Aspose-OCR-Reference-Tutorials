@@ -9,21 +9,13 @@ url: /hi/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
- and Q/A.
 
-Translate "Conclusion".
 
-Translate "Last Updated", "Tested With", "Author".
 
-Make sure to keep URLs unchanged.
 
-Now produce final content.
 
-Let's craft translation.
 
-Be careful with Hindi punctuation.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

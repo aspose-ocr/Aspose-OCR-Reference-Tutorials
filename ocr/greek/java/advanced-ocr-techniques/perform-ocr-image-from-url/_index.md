@@ -10,9 +10,8 @@ url: /el/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
- markdown formatting, code block placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

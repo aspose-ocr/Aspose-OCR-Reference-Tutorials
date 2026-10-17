@@ -9,9 +9,8 @@ url: /hu/net/ocr-configuration/ocr-operation-with-folder/
 weight: 11
 ---
 
- unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,10 @@ Aspose.OCR มี API ที่ยืดหยุ่นให้คุณกำ�
 ปลดปล่อยศักยภาพของ Aspose.OCR สำหรับ .NET ในการจดจำบรรทัดใน OCR Image Recognition – คู่มือสำหรับนักพัฒนาที่ต้องการสกัดข้อความจากรูปภาพอย่างราบรื่น
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 ปลดล็อกความมหัศจรรย์ของ OCR ด้วย Aspose.OCR สำหรับ .NET – สกัดข้อความจากรูปภาพได้อย่างง่ายดาย สำรวจบทแนะนำเพื่อการบูรณาการที่ราบรื่น
+### [วิธีเปิดใช้งานฟอร์มและสกัดตารางด้วย OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อเปิดใช้งานการจดจำฟอร์มและสกัดข้อมูลตารางจากภาพอย่างละเอียด
+### [บันทึกตารางเป็น CSV ใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีบันทึกข้อมูลตารางเป็นไฟล์ CSV ด้วย Aspose.OCR ใน C# อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 
