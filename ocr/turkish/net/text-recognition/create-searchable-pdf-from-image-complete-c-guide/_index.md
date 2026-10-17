@@ -1,23 +1,25 @@
 ---
 category: general
-date: 2026-03-23
-description: Aspose OCR kullanarak görüntüden aranabilir PDF oluşturun. Yüksek sıkıştırmalı
-  TIFF'i PDF'ye dönüştürmeyi ve dakikalar içinde görüntü metnini tanımayı öğrenin.
+date: 2026-02-13
+description: Aspose.OCR kullanarak görüntüden aranabilir PDF oluşturun. Görüntüyü
+  PDF'ye dönüştürmeyi, görüntüden metin çıkarmayı, PDF'ye yazı tipleri eklemeyi ve
+  PNG'den metin tanımayı öğrenin.
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: tr
-og_description: Aspose OCR ile görüntüden aranabilir PDF oluşturun. Bu öğreticide
-  TIFF'i PDF'ye dönüştürme, aranabilir bir metin katmanı ekleme ve yüksek sıkıştırma
-  uygulama gösterilmektedir.
-og_title: Görüntüden Aranabilir PDF Oluşturma – Tam C# Rehberi
+og_description: Aspose.OCR ile görüntüden aranabilir PDF oluşturun. Bu kılavuz, görüntüyü
+  PDF'ye dönüştürmeyi, yazı tiplerini gömmeyi ve PNG'den metni zahmetsizce çıkarmayı
+  gösterir.
+og_title: Görüntüden Aranabilir PDF Oluşturma – Adım Adım C# Öğreticisi
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: Görüntüden Aranabilir PDF Oluşturma – Tam C# Rehberi
 url: /tr/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -27,170 +29,200 @@ url: /tr/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görüntüden Aranabilir PDF Oluşturma – Tam C# Kılavuzu
+# Görüntüden Aranabilir PDF Oluşturma – Tam C# Rehberi
 
-Tarayıcıdan bir belgeyi **create searchable pdf** oluşturmanız gerektiğinde nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—birçok geliştirici TIFF taramalarını aranabilir PDF'lere dönüştürürken aynı sorunla karşılaşıyor. İyi haber? Aspose OCR ile **convert tiff to pdf** yapabilir, üzerine gizli bir metin katmanı ekleyebilir ve **high compression pdf** seçenekleriyle dosya boyutunu bile sıkıştırabilirsiniz, hepsi birkaç satır C# koduyla.
+Hiç taranmış bir PNG'den **aranabilir PDF** oluşturmanız gerekti ama nereden başlayacağınızı bilmiyor muydunuz? Yalnız değilsiniz. Birçok projede—fatura dijitalleştirme veya eski kılavuzları arşivleme gibi—bir resmi gerçekten arayabileceğiniz bir PDF'ye dönüştürebilmek oyunu değiştiren bir özellik.  
 
-Bu öğreticide tüm süreci adım adım inceleyeceğiz: doğru NuGet paketlerini kurmaktan, bir TIFF görüntüsü yüklemeye, metnini tanımaya ve sonunda aranabilir bir PDF dışa aktarmaya kadar. Sonunda **recognize image text** yapan çalıştırılabilir bir konsol uygulamanız olacak ve indeksleme için hazır, kompakt, aranabilir bir PDF üretecek. Ekstra araçlar yok, manuel OCR adımları yok—sadece temiz kod ve biraz açıklama.
+Bu öğreticide **görüntüyü PDF'ye dönüştürme**, **görüntüden metin çıkarma**, gerekli yazı tiplerini gömme ve sonunda tamamen aranabilir bir PDF dosyası elde etme adımlarını adım adım göstereceğiz. Belirsiz referanslar yok, sadece bugün Visual Studio'ya kopyalayıp yapıştırabileceğiniz tam, çalıştırılabilir bir örnek.
 
-## Gereksinimler ve İhtiyacınız Olanlar
+> **Ne elde edeceksiniz:** `input.png` dosyasını okuyan, OCR çalıştıran, yazı tiplerini gömen, orijinal raster görüntüyü arka plan olarak tutan ve `output.pdf` dosyasını yazan bir C# konsol uygulaması. Sonunda her satırın *neden* önemli olduğunu ve kendi senaryolarınız için nasıl ayarlayabileceğinizi anlayacaksınız.
 
-- **.NET 6+** (or .NET Framework 4.6+). API her iki platformda da çalışır, ancak .NET 6 size en yeni çalışma zamanı iyileştirmelerini sunar.  
-- **Visual Studio 2022** veya tercih ettiğiniz herhangi bir IDE.  
-- **Aspose.OCR** ve **Aspose.OCR.Gpu** NuGet paketleri (GPU paketi isteğe bağlıdır ancak desteklenen donanımlarda tanıma hızını artırır).  
-- Kontrol ettiğiniz bir klasöre yerleştirilmiş örnek bir TIFF dosyası (ör., `invoice.tif`).  
+---
 
-Bu öğelere zaten sahipseniz, harika—bir sonraki adıma geçin. Yoksa, aşağıdaki kurulum adımı her şeyi kapsayacak.
+## Önkoşullar
 
-## Adım 1: Aspose OCR Paketlerini Kurun
+- .NET 6.0 SDK veya daha yenisi (kod .NET Framework 4.7+ ile de çalışır).  
+- Aspose.OCR for .NET – NuGet üzerinden alabilirsiniz (`Install-Package Aspose.OCR`).  
+- Kontrol ettiğiniz bir klasörde bulunan örnek PNG görüntüsü (`input.png`).  
+- C# konsol projeleri hakkında temel bilgi (eğer hiç oluşturmadıysanız, Visual Studio → **Create a new project** → **Console App** → **C#** yolunu izleyin).
 
-Başlamak için, projenizin klasörünü bir terminalde açın ve şu komutu çalıştırın:
+> **İpucu:** Aspose ücretsiz bir deneme lisansı sunar; `.lic` dosyasını çalıştırılabilir dosyanızın yanına koymanız yeterli, kütüphane filigran olmadan çalışır.
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+## Adım 1: OCR Motorunu Kurun – PNG'den Metin Tanıma
 
-Bu komutlar hem temel OCR motorunu hem de GPU hızlandırma kütüphanesini çeker. İkincisi zorunlu değildir; motor uyumlu bir GPU bulamazsa CPU moduna geri dönecektir.
-
-> **Pro tip:** Üretim ortamını hedeflerken, beklenmedik kırılma değişikliklerinden kaçınmak için `csproj` dosyanızda paket sürümlerini kilitleyin.
-
-## Adım 2: Proje İskeletini Oluşturun
-
-Yeni bir konsol uygulaması oluşturun (eğer henüz yoksa):
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-Otomatik oluşturulan `Program.cs` dosyasını daha sonra gösterilecek tam kodla değiştirin. Program şunları yapacak:
-
-1. GPU desteğiyle bir `OcrEngine` başlatır.  
-2. TIFF görüntüsünü yükler.  
-3. OCR çalıştırır ve başarısızlıkta zarif bir şekilde durur.  
-4. **PdfExportOptions**'ı aranabilir bir katman ve **high compression** için yapılandırır.  
-5. Çıktı dosyasını yazar.
-
-## Adım 3: Tam Kodu Yazın (Tam Örnek)
-
-Aşağıda *tam* kaynak dosyası yer alıyor. `Program.cs` içine kopyalayıp yapıştırın. Yorumlar, her satırın “ne” değil, “neden” olduğunu açıklar.
+İlk olarak, PNG dosyasındaki karakterleri gerçekten okuyabilen bir OCR motoruna ihtiyacımız var. Aspose.OCR bunu oldukça basit hâle getiriyor.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**Neden önemli:**  
+`Language` ayarı, motorun hangi karakter setini bekleyeceğini belirtir. Bunu atlayarsanız motor, aksanlı karakterleri veya sayıları yanlış yorumlayabilecek genel bir moda geçer. Çok dilli belgeler için `OcrLanguage.English | OcrLanguage.French` gibi virgülle ayrılmış bir liste verebilirsiniz.
+
+## Adım 2: Görüntüyü Yükleyin ve Tanıyın – Görüntüden Metin Çıkarma
+
+Motor hazır olduğuna göre, işlemek istediğimiz PNG'yi ona veriyoruz.
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**Arka planda neler oluyor?**  
+`RecognizeImage` bitmap'i tarar, metin bloklarını belirler ve sonucu `ocrEngine` içinde saklar. Sadece ham dizeye ihtiyacınız varsa daha sonra `ocrEngine.Text`'e erişebilirsiniz, ancak aranabilir bir PDF için dönüşümü Aspose'a bırakacağız.
+
+> **Köşe durumu:** PNG'niz çok büyükse (10 MB üzerindeyse) bellek tükenebilir. Bu durumda önce görüntüyü yeniden boyutlandırmayı veya veriyi akış olarak göndermek için `OcrEngine.RecognizeImage(Stream)` kullanmayı düşünün.
+
+## Adım 3: PDF Dışa Aktarım Seçeneklerini Yapılandırın – PDF'e Yazı Tipi Gömme
+
+Aranabilir bir PDF, yazı tipleri gömülmemişse işe yaramaz; belge, gerekli tipografileri olmayan makinelerde bozuk görünür. Aspose bu ayarı basit bir seçenek nesnesiyle kontrol etmemizi sağlar.
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**Neden yazı tipleri gömülür?**  
+`EmbedFonts` `true` olduğunda PDF, yazı tipi verisini dosyanın içinde taşır. Bu, Chrome, Adobe Reader veya bir mobil uygulama gibi herhangi bir görüntüleyicinin, hedef sistemde font bulunmasa bile metni tam olarak istediği gibi göstermesini sağlar.
+
+**`KeepOriginalImage` değerini `false` ne zaman ayarlamalısınız?**  
+Sadece çıkarılan metni istiyor ve daha küçük bir dosya istiyorsanız, bu seçeneği kapatmak arka plan görüntüsünü kaldırır ve “temiz” sadece metin içeren bir PDF oluşturur.
+
+## Adım 4: Aranabilir PDF Olarak Dışa Aktarın – Görüntüyü PDF'ye Dönüştürün
+
+OCR sonuçları ve PDF seçenekleri hazır olduğunda, tek satırlık bir komutla aranabilir PDF'i diske yazdırıyoruz.
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**Gördükleriniz:**  
+`output.pdf` dosyasını herhangi bir görüntüleyicide açtığınızda metni seçebilir, kopyalayabilir ve `Ctrl + F` ile PNG'de sadece pikseller olarak bulunan kelimeleri arayabilirsiniz.
+
+## Tam Çalışan Örnek
+
+Aşağıda hemen derleyip çalıştırabileceğiniz tam program yer alıyor. `YOUR_DIRECTORY` kısmını `input.png` dosyanızın bulunduğu klasörle değiştirin.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### Bunun Neden Çalıştığı
-
-- **GPU acceleration** modern kartlarda tanıma süresini saniyelerden milisaniyelere düşürebilir—toplu işleme için kullanışlıdır.  
-- **IncludeTextLayer** OCR‑türetilen metni görünmez şekilde gömer, PDF görüntüleyicilerin belgeyi görselini değiştirmeden aramasını sağlar.  
-- **High compression** görüntü akışında Flate (ZIP) sıkıştırması kullanır, kayıpsızdır ancak dosya boyutunu büyük ölçüde küçültür—binlerce faturayı arşivlemek için idealdir.
-
-## Adım 4: Uygulamayı Çalıştırın ve Çıktıyı Doğrulayın
-
-Proje klasörünün içinde bir terminal açın ve şu komutu çalıştırın:
-
-```bash
-dotnet run
-```
-
-Her şey doğru kurulduysa, şunu göreceksiniz:
+**Konsolda beklenen çıktı:**
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-`invoice.pdf` dosyasını herhangi bir PDF okuyucusunda (Adobe Acrobat, Edge veya bir tarayıcı) açın. Orijinal TIFF'te bulunduğunu bildiğiniz bir kelimeyi aramayı deneyin—ör., “Total”. Görüntünün bir parçası olmasına rağmen görüntüleyici kelimeyi vurgulamalıdır. Bu, bir **searchable pdf**'in özelliğidir.
+`output.pdf` dosyasını açın ve `input.png` içinde bulunduğunu bildiğiniz bir kelimeyi aramayı deneyin. Eğer vurgulanıyorsa, **görüntüden aranabilir pdf oluşturma** işlemini başarıyla tamamlamışsınız demektir.
 
-### Beklenen Dosya Boyutu
+## Yaygın Sorular & Profesyonel İpuçları
 
-Tipik bir taranmış fatura (≈300 KB TIFF) `PdfCompression.High` uygulandıktan sonra genellikle **~80 KB**'a küçülür. Tam boyut, görüntünün karmaşıklığına bağlıdır, ancak belirgin bir azalma fark edeceksiniz.
+### “Bir çalıştırmada birden fazla görüntüyü işleyebilir miyim?”
 
-## Adım 5: Yaygın Varyasyonlar ve Kenar Durumları
+Kesinlikle. Tanıma ve dışa aktarma mantığını bir döngü içinde sarabilirsiniz, örneğin `Directory.GetFiles(..., "*.png")` kullanarak. Her PDF'e benzersiz bir ad vermeyi unutmayın, örneğin `Path.GetFileNameWithoutExtension(img) + ".pdf"`.
 
-| Durum | Ne Ayarlanmalı | Neden |
-|-----------|----------------|-----|
-| **GPU yok** | `new OcrEngine(GpuMode.Enabled)` ifadesini `new OcrEngine(GpuMode.Disabled)` ile değiştirin | Motorun GPU başlatma girişimini engeller, bu da kısa bir gecikmeye neden olabilir. |
-| **Birden fazla sayfa (çok sayfalı TIFF)** | `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` olarak ayarlayın | Tüm çerçeveleri yükler; Aspose her sayfayı işler ve çok sayfalı bir PDF oluşturur. |
-| **İngilizce dışındaki OCR dili gerekiyor** | `ocrEngine.Language = Language.French;` (veya desteklenen herhangi bir dil) | İngilizce dışı belgelerde doğruluğu artırır. |
-| **Gizli katman yerine görünür metin katmanı istiyorsunuz** | `pdfExportOptions.IncludeTextLayer = false;` ve manuel olarak `TextFragment` nesneleri ekleyin. | OCR metninin görüntünün üstünde seçilebilir metin olarak görünmesini istediğinizde faydalıdır. |
-| **Ultra‑küçük PDF'ler** | Tanımadan önce `PdfCompression.High` ile `ImageResolution = 150` DPI'yi birleştirin. | Daha düşük DPI, görüntü verisini azaltır, PDF'i daha da küçültür ancak görsel kalite pahasına. |
+### “Belgem hem İngilizce hem de İspanyolca metin içeriyorsa ne yapmalıyım?”
 
-> **Not:** Üretime ölçeklendirmeden önce kenar durumlarını her zaman küçük bir örnek üzerinde test edin. OCR doğruluğu görüntü kalitesi, gürültü ve dile göre değişebilir.
+Dil özelliğini birleşik bir bayrak olarak ayarlayın:
 
-## Adım 6: Üretime Hazır Uygulamalar İçin İpuçları
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
 
-1. **Error Logging** – `Console.WriteLine` yerine daha uygun bir günlükleme çerçevesi (Serilog, NLog) kullanarak tanılamayı kolaylaştırın.  
-2. **Batch Processing** – Çekirdek mantığı, giriş/çıkış yollarını kabul eden bir metoda sarın, ardından bir TIFF dosyaları dizini üzerinde yineleyin.  
-3. **Async I/O** – Aspose OCR kendisi eşzamanlı olsa da, dosya yükleme ve kaydetme işlemleri UI thread'lerini yanıt verir tutmak için async yapılabilir.  
-4. **Security** – Bu işlevi bir web API üzerinden sunuyorsanız, dosya yollarını doğrulayın ve kötüye kullanımı önlemek için dosya boyutlarını sınırlayın.  
-5. **Version Pinning** – Derlemeler arasında tutarlı davranışı garanti etmek için kesin sürüm numaralarını kullanın (`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`).
+Aspose, her iki alfabeden karakterleri algılamaya çalışacaktır.
+
+### “PDF dosyası çok büyük—nasıl küçültebilirim?”
+
+İki hızlı yöntem:
+
+1. `pdfOptions.KeepOriginalImage = false` ayarıyla raster arka planı kaldırın.  
+2. `pdfOptions.ImageCompression = ImageCompression.Jpeg;` (bu özelliği eklemeniz gerekir) kullanarak gömülü görüntüyü sıkıştırın.
+
+### “Üretim ortamında lisansa ihtiyacım var mı?”
+
+Deneme sürümü test için yeterlidir, ancak ticari dağıtımda bir lisans satın almalı ve uygulamanızın başında kaydetmelisiniz:
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+## Çözümü Genişletmek
+
+Artık **aranabilir PDF oluşturma** konusunu bildiğinize göre, şunları eklemek isteyebilirsiniz:
+
+- **Filigran ekleme** – OCR sonrası `PdfDocument` (Aspose.PDF) kullanarak üzerine metin yerleştirin.  
+- **PDF'leri toplu işleme** – birden fazla aranabilir PDF'i `PdfFileEditor` ile tek bir dosyada birleştirin.  
+- **Azure Blob Storage ile bütünleştirme** – görüntü ve PDF akışlarını doğrudan buluttan okuyup yazarak yerel dosya I/O'sunu ortadan kaldırın.
+
+Bu uzantıların her biri aynı modeli izler: OCR sonucunu alın, sonraki kütüphaneyi yapılandırın ve işlemleri zincirleyin.
 
 ## Sonuç
 
-Tarayıcı görüntülerinden **searchable pdf** dosyaları **create searchable pdf** yapan, **convert tiff to pdf** ve **high compression pdf** ayarlarıyla **recognize image text** doğruluğu sağlayan **tam, uçtan uca bir çözüm** oluşturduk. Ortaya çıkan **searchable pdf from image** hafif, aranabilir ve indeksleme, arşivleme veya e‑keşif gibi sonraki iş akışları için hazır.
+Aspose.OCR ve C# kullanarak bir PNG görüntüsünden **aranabilir PDF** oluşturmayı öğrendiniz. OCR motorunu başlatıp metni tanıdıktan, `SearchablePdfOptions` ile **PDF'e yazı tiplerini gömerek** dışa aktarma adımlarını izleyerek, hem görsel olarak orijinaliyle aynı hem de tamamen aranabilir bir dosya elde ettiniz.  
 
-Bir fatura yığını mı var? Metodu bir döngüye yerleştirin, bir klasöre yönlendirin ve Aspose OCR'nin işi halletmesine izin verin. Farklı sıkıştırma seviyeleri veya dil paketleriyle deneme yapmak ister misiniz? Kod, bu seçenekleri saniyeler içinde değiştirecek kadar modülerdir.
+Şimdi toplu dönüşümler, farklı diller veya daha sıkı sıkıştırma gibi denemeler yapabilirsiniz—iş akışınıza en uygun olanı seçin. Sorunlarla karşılaşırsanız Aspose forumları ve API dokümantasyonu iyi kaynaklardır, ancak yukarıdaki temel adımlar tipik kullanım senaryolarının %90'ını kapsar.
 
----
-
-*Hazır mısınız?* Bir filigran eklemeyi, meta veri gömmeyi veya birden fazla OCR‑işlenmiş PDF'yi birleştirmeyi deneyin. Aspose paketi birçok uzantı sunar—dökümanları keşfedin ve ilerlemeyi sürdürün. Kodlamanın tadını çıkarın!
-
-![Create searchable PDF from image example screenshot](https://example.com/images/create-searchable-pdf.png "create searchable pdf example")
+Kodlamanın tadını çıkarın, PDF'leriniz her zaman aranabilir olsun!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

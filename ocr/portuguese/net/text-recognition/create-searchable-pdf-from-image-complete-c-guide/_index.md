@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-03-23
-description: Crie PDF pesquisável a partir de imagem usando o Aspose OCR. Aprenda
-  como converter TIFF para PDF com alta compressão e reconhecer o texto da imagem
-  em minutos.
+date: 2026-02-13
+description: Crie PDF pesquisável a partir de imagem usando Aspose.OCR. Aprenda a
+  converter imagem em PDF, extrair texto da imagem, incorporar fontes no PDF e reconhecer
+  texto de PNG.
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: pt
-og_description: Criar PDF pesquisável a partir de imagem com Aspose OCR. Este tutorial
-  mostra como converter TIFF para PDF, adicionar uma camada de texto pesquisável e
-  aplicar alta compressão.
-og_title: Criar PDF pesquisável a partir de imagem – Guia completo de C#
+og_description: Crie PDF pesquisável a partir de imagem com Aspose.OCR. Este guia
+  mostra como converter imagem em PDF, incorporar fontes e extrair texto de PNG sem
+  esforço.
+og_title: Criar PDF pesquisável a partir de imagem – Tutorial passo a passo em C#
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: Criar PDF pesquisável a partir de imagem – Guia completo de C#
 url: /pt/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -30,168 +31,214 @@ url: /pt/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 
 # Criar PDF pesquisável a partir de imagem – Guia completo em C#
 
-Já precisou **criar PDF pesquisável** a partir de um documento escaneado, mas não sabia por onde começar? Você não está sozinho — muitos desenvolvedores enfrentam o mesmo obstáculo ao transformar escaneamentos TIFF em PDFs pesquisáveis. A boa notícia? Com Aspose OCR você pode **converter tiff para pdf**, adicionar uma camada de texto oculta por cima e ainda reduzir o tamanho do arquivo com opções de **high compression pdf**, tudo em algumas linhas de C#.
+Já precisou **criar PDF pesquisável** a partir de um PNG digitalizado, mas não sabia por onde começar? Você não está sozinho. Em muitos projetos — pense em digitalização de faturas ou arquivamento de manuais antigos — poder transformar uma imagem em um PDF que realmente pode ser pesquisado é um divisor de águas.  
 
-Neste tutorial, percorreremos todo o processo: desde a instalação dos pacotes NuGet corretos, carregamento de uma imagem TIFF, reconhecimento do seu texto e, finalmente, exportação de um PDF pesquisável. Ao final, você terá um aplicativo de console executável que **recognize image text** e produz um PDF compacto e pesquisável pronto para indexação. Sem ferramentas extras, sem etapas manuais de OCR — apenas código limpo e um pouco de explicação.
+Neste tutorial, percorreremos os passos exatos para **converter imagem em PDF**, **extrair texto da imagem**, incorporar as fontes necessárias e, finalmente, obter um arquivo PDF totalmente pesquisável. Sem referências vagas, apenas um exemplo completo e executável que você pode copiar‑colar no Visual Studio hoje.
 
-## Pré-requisitos e o que você precisará
+> **O que você receberá:** um aplicativo de console C# que lê `input.png`, executa OCR, incorpora fontes, mantém a imagem raster original como plano de fundo e grava `output.pdf`. Ao final, você entenderá *por que* cada linha importa e como ajustá‑la para seus próprios cenários.
 
-- **.NET 6+** (ou .NET Framework 4.6+). A API funciona em ambos, mas o .NET 6 oferece as melhorias mais recentes de runtime.  
-- **Visual Studio 2022** ou qualquer IDE de sua preferência.  
-- Pacotes NuGet **Aspose.OCR** e **Aspose.OCR.Gpu** (o pacote GPU é opcional, mas acelera o reconhecimento em hardware suportado).  
-- Um arquivo TIFF de exemplo (por exemplo, `invoice.tif`) colocado em uma pasta que você controla.  
+---
 
-Se você já tem esses itens, ótimo — siga em frente. Caso contrário, a etapa de instalação abaixo cobrirá tudo.
+## Pré‑requisitos
 
-## Etapa 1: Instalar pacotes Aspose OCR
+- .NET 6.0 SDK ou posterior (o código também funciona com .NET Framework 4.7+).  
+- Aspose.OCR for .NET – você pode obtê‑lo no NuGet (`Install-Package Aspose.OCR`).  
+- Uma imagem PNG de exemplo (`input.png`) colocada em uma pasta que você controla.  
+- Familiaridade básica com projetos de console C# (se nunca criou um, basta abrir o Visual Studio → **Create a new project** → **Console App** → **C#**).
 
-Para começar, abra a pasta do seu projeto em um terminal e execute:
+> **Dica:** Aspose oferece uma licença de teste gratuita; basta colocar o arquivo `.lic` ao lado do seu executável e a biblioteca funcionará sem marcas d’água.
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+---
 
-Esses comandos trazem tanto o motor OCR central quanto a biblioteca de aceleração GPU. Esta última não é obrigatória; o motor retornará ao modo CPU se não encontrar uma GPU compatível.  
+## Etapa 1: Configurar o mecanismo de OCR – Reconhecer texto do PNG
 
-> **Dica profissional:** Ao direcionar um ambiente de produção, fixe as versões dos pacotes no seu `csproj` para evitar alterações inesperadas que quebrem o código.
-
-## Etapa 2: Configurar a estrutura do projeto
-
-Crie um novo aplicativo de console (se ainda não tiver um):
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-Substitua o `Program.cs` gerado automaticamente pelo código completo mostrado mais adiante. O programa irá:
-
-1. Inicializar um `OcrEngine` com suporte a GPU.  
-2. Carregar a imagem TIFF.  
-3. Executar OCR e abortar graciosamente em caso de falha.  
-4. Configurar **PdfExportOptions** para uma camada pesquisável e **high compression**.  
-5. Gravar o arquivo de saída.
-
-## Etapa 3: Escrever o código completo (exemplo completo)
-
-Abaixo está o arquivo fonte *inteiro*. Copie‑e cole em `Program.cs`. Os comentários explicam o “porquê” de cada linha, não apenas o “o quê”.
+A primeira coisa que precisamos é um mecanismo de OCR que realmente leia os caracteres em um arquivo PNG. Aspose.OCR torna isso simples.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**Por que isso importa:**  
+Definir `Language` informa ao mecanismo qual conjunto de caracteres esperar. Se você pular isso, o mecanismo usará um modo genérico que pode interpretar erroneamente caracteres acentuados ou números. Para documentos multilíngues, você pode passar uma lista separada por vírgulas como `OcrLanguage.English | OcrLanguage.French`.
+
+---
+
+## Etapa 2: Carregar e reconhecer a imagem – Extrair texto da imagem
+
+Agora que o mecanismo está pronto, alimentamos ele com o PNG que queremos processar.
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**O que está acontecendo nos bastidores?**  
+`RecognizeImage` escaneia o bitmap, identifica blocos de texto e armazena o resultado em `ocrEngine`. Você pode acessar `ocrEngine.Text` mais tarde se precisar apenas da string bruta, mas para um PDF pesquisável deixaremos o Aspose fazer a conversão diretamente.
+
+> **Caso extremo:** Se o seu PNG for muito grande (mais de 10 MB) você pode ficar sem memória. Nesse caso, considere redimensionar a imagem primeiro ou usar `OcrEngine.RecognizeImage(Stream)` para transmitir os dados.
+
+---
+
+## Etapa 3: Configurar opções de exportação PDF – Incorporar fontes no PDF
+
+Um PDF pesquisável não é útil se as fontes não estiverem incorporadas; o documento ficaria quebrado em máquinas que não possuam as tipografias necessárias. Aspose nos permite alternar isso com um simples objeto de opções.
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**Por que incorporar fontes?**  
+Quando `EmbedFonts` é `true`, o PDF carrega os dados da fonte dentro do arquivo. Isso garante que qualquer visualizador — Chrome, Adobe Reader ou um app móvel — exiba o texto exatamente como pretendido, mesmo quando o sistema de destino não possui a fonte.
+
+**Quando você definiria `KeepOriginalImage` como `false`?**  
+Se precisar apenas do texto extraído e quiser um arquivo menor, desativar isso remove a imagem de fundo, deixando um PDF “limpo” contendo apenas texto.
+
+---
+
+## Etapa 4: Exportar para PDF pesquisável – Converter imagem em PDF
+
+Com os resultados do OCR e as opções de PDF preparados, o passo final é uma única linha que grava o PDF pesquisável no disco.
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**O que você verá:**  
+Abrindo `output.pdf` em qualquer visualizador, você pode selecionar texto, copiar‑colar e até executar uma busca (`Ctrl + F`) para localizar palavras que originalmente existiam apenas como pixels no PNG.
+
+---
+
+## Exemplo completo em funcionamento
+
+Abaixo está o programa completo que você pode compilar e executar imediatamente. Substitua `YOUR_DIRECTORY` pela pasta que contém `input.png`.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### Por que isso funciona
-
-- **GPU acceleration** pode reduzir o tempo de reconhecimento de segundos para milissegundos em placas modernas — útil para processamento em lote.  
-- **IncludeTextLayer** incorpora o texto derivado do OCR de forma invisível, permitindo que visualizadores de PDF pesquisem o documento sem alterar sua aparência visual.  
-- **High compression** usa compressão Flate (ZIP) no fluxo de imagem, que é sem perdas mas reduz drasticamente o tamanho do arquivo — ideal para arquivar milhares de faturas.
-
-## Etapa 4: Executar a aplicação e verificar a saída
-
-Abra um terminal dentro da pasta do projeto e execute:
-
-```bash
-dotnet run
-```
-
-Se tudo estiver configurado corretamente, você verá:
+**Saída esperada no console:**
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-Abra `invoice.pdf` em qualquer leitor de PDF (Adobe Acrobat, Edge ou até mesmo um navegador). Tente pesquisar por uma palavra que você sabe que aparece no TIFF original — por exemplo, “Total”. O visualizador deve destacar a palavra mesmo que ela faça parte da imagem. Esse é o sinal distintivo de um **searchable pdf**.
-
-### Tamanho de arquivo esperado
-
-Uma fatura escaneada típica (≈300 KB TIFF) costuma reduzir para **~80 KB** após aplicar `PdfCompression.High`. O tamanho exato depende da complexidade da imagem, mas você notará uma redução clara.
-
-## Etapa 5: Variações comuns e casos de borda
-
-| Situação | O que ajustar | Por quê |
-|-----------|----------------|-----|
-| **GPU não disponível** | Altere `new OcrEngine(GpuMode.Enabled)` para `new OcrEngine(GpuMode.Disabled)` | Impede que o motor tente inicializar a GPU, o que pode causar um pequeno atraso. |
-| **Múltiplas páginas (TIFF multipágina)** | Defina `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` | Carrega todos os quadros; Aspose processará cada página e gerará um PDF multipágina. |
-| **Necessita de idioma OCR diferente do inglês** | `ocrEngine.Language = Language.French;` (ou qualquer idioma suportado) | Melhora a precisão para documentos que não são em inglês. |
-| **Deseja sobreposição de texto visível em vez de camada oculta** | `pdfExportOptions.IncludeTextLayer = false;` e adicione manualmente objetos `TextFragment`. | Útil quando você deseja que o texto OCR apareça como texto selecionável sobre a imagem. |
-| **PDFs ultra‑pequenos** | Combine `PdfCompression.High` com `ImageResolution = 150` DPI antes do reconhecimento. | DPI mais baixo reduz os dados da imagem, diminuindo ainda mais o PDF ao custo da fidelidade visual. |
-
-> **Nota:** Sempre teste casos de borda em uma amostra pequena antes de escalar para produção. A precisão do OCR pode variar com a qualidade da imagem, ruído e idioma.
-
-## Etapa 6: Dicas para implementações prontas para produção
-
-1. **Error Logging** – Substitua `Console.WriteLine` por um framework de logging adequado (Serilog, NLog) para diagnósticos mais fáceis.  
-2. **Batch Processing** – Envolva a lógica central em um método que aceita caminhos de entrada/saída e, em seguida, itere sobre um diretório de arquivos TIFF.  
-3. **Async I/O** – Embora o Aspose OCR seja síncrono, o carregamento e salvamento de arquivos podem ser assíncronos para manter as threads da UI responsivas.  
-4. **Security** – Se você expor essa funcionalidade via uma API web, valide os caminhos dos arquivos e limite os tamanhos dos arquivos para evitar abusos.  
-5. **Version Pinning** – Use números de versão exatos (`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`) para garantir comportamento consistente em todas as compilações.
-
-## Conclusão
-
-Acabamos de criar uma **solução completa, de ponta a ponta** que **create searchable pdf** arquivos a partir de imagens escaneadas, **convert tiff to pdf**, e faz isso com configurações de **high compression pdf** enquanto **recognize image text** com precisão. O **searchable pdf from image** resultante é leve, pesquisável e pronto para fluxos de trabalho subsequentes, como indexação, arquivamento ou e‑discovery.
-
-Tem um lote de faturas? Conecte o método em um loop, aponte para uma pasta e deixe o Aspose OCR fazer o trabalho pesado. Quer experimentar diferentes níveis de compressão ou pacotes de idioma? O código é modular o suficiente para trocar essas opções em segundos.
+Abra `output.pdf` e tente buscar uma palavra que você sabe que aparece em `input.png`. Se ele destacar, você criou com sucesso **PDF pesquisável** a partir de uma imagem.
 
 ---
 
-*Pronto para evoluir?* Tente adicionar uma marca d'água, incorporar metadados ou até mesmo juntar vários PDFs processados por OCR. A suíte Aspose oferece muitas extensões — explore a documentação e mantenha o ritmo. Feliz codificação!
+## Perguntas comuns & Dicas avançadas
 
-![Captura de tela do exemplo de criação de PDF pesquisável a partir de imagem](https://example.com/images/create-searchable-pdf.png "exemplo de pdf pesquisável")
+### “Posso processar várias imagens em uma única execução?”
+
+Com certeza. Envolva a lógica de reconhecimento e exportação em um loop, talvez usando `Directory.GetFiles(..., "*.png")`. Apenas lembre‑se de dar a cada PDF um nome único, por exemplo, `Path.GetFileNameWithoutExtension(img) + ".pdf"`.
+
+### “E se meu documento contiver texto em inglês e espanhol?”
+
+Defina a propriedade de idioma para uma flag combinada:
+
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
+
+Aspose então tentará detectar caracteres de ambos os alfabetos.
+
+### “O arquivo PDF está enorme — como posso reduzi‑lo?”
+
+Duas dicas rápidas:
+
+1. Defina `pdfOptions.KeepOriginalImage = false` para remover o fundo raster.  
+2. Use `pdfOptions.ImageCompression = ImageCompression.Jpeg;` (você precisará adicionar a propriedade) para comprimir a imagem incorporada.
+
+### “Preciso de licença para uso em produção?”
+
+A versão de teste funciona bem para testes, mas para implantação comercial você deve adquirir uma licença e registrá‑la logo no início da sua aplicação:
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+---
+
+## Expandindo a solução
+
+Agora que você sabe como **criar PDF pesquisável**, pode querer:
+
+- **Adicionar marca d’água** – use `PdfDocument` do Aspose.PDF para sobrepor texto após o OCR.  
+- **Processamento em lote de PDFs** – combine vários PDFs pesquisáveis em um só usando `PdfFileEditor`.  
+- **Integrar com Azure Blob Storage** – leia/escreva os fluxos de imagem e PDF diretamente da nuvem, eliminando I/O local de arquivos.
+
+Cada uma dessas extensões segue o mesmo padrão: obtenha o resultado do OCR, configure a próxima biblioteca e encadeie as operações.
+
+---
+
+## Conclusão
+
+Você acabou de aprender como **criar PDF pesquisável** a partir de uma imagem PNG usando Aspose.OCR em C#. Ao inicializar o mecanismo de OCR, reconhecer o texto, configurar `SearchablePdfOptions` para **incorporar fontes no PDF** e exportar, você obtém um arquivo que é visualmente idêntico ao original e totalmente pesquisável.  
+
+A partir daqui, sinta‑se à vontade para experimentar conversões em lote, diferentes idiomas ou compressão mais agressiva — o que melhor se encaixar no seu fluxo de trabalho. Se encontrar alguma dificuldade, os fóruns da Aspose e a documentação da API são ótimos recursos, mas os passos principais acima cobrem 90 % dos casos de uso típicos.
+
+Feliz codificação, e que seus PDFs estejam sempre pesquisáveis!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

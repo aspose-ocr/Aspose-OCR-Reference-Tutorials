@@ -1,0 +1,7 @@
+Title: Aspose OCR Java Example – Extract Text from Image with GPU
+Slug: aspose-ocr-java-example-extract-text-from-image-with-gpu
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-29T03:19:35.799361
+SourceRepo: AI Search API
+Keywords: aspose ocr java example, extract text from image java, set gpu memory limit
+PRNumber: 162

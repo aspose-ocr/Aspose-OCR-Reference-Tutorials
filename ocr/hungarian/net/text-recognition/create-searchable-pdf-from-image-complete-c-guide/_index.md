@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-03-23
-description: Készíts kereshető PDF-et képből az Aspose OCR segítségével. Tanulja meg,
-  hogyan konvertálhat TIFF-et PDF-be magas tömörítéssel, és hogyan ismerheti fel a
-  kép szövegét percek alatt.
+date: 2026-02-13
+description: Kereshető PDF létrehozása képből az Aspose.OCR használatával. Tanulja
+  meg, hogyan konvertáljon képet PDF-be, hogyan vonjon ki szöveget a képből, hogyan
+  ágyazzon be betűtípusokat a PDF-be, és hogyan ismerje fel a szöveget PNG‑ből.
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: hu
-og_description: Készíts kereshető PDF-et képből az Aspose OCR-rel. Ez az útmutató
-  bemutatja, hogyan konvertálhatunk TIFF-et PDF-be, adhatunk hozzá kereshető szövegréteget,
-  és alkalmazhatunk magas tömörítést.
-og_title: Kereshető PDF létrehozása képből – Teljes C# útmutató
+og_description: Kereshető PDF létrehozása képből az Aspose.OCR-rel. Ez az útmutató
+  megmutatja, hogyan konvertálhatja a képet PDF-be, ágyazhat betűtípusokat, és könnyedén
+  kinyerheti a szöveget PNG-ből.
+og_title: Kereshető PDF létrehozása képből – Lépésről lépésre C# oktatóanyag
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: Kereshető PDF létrehozása képből – Teljes C# útmutató
 url: /hu/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -28,170 +29,216 @@ url: /hu/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kereshető PDF létrehozása képből – Teljes C# útmutató
+# Készíts kereshető PDF-et képből – Teljes C# útmutató
 
-Valaha is szükséged volt **create searchable pdf** létrehozására egy beolvasott dokumentumból, de nem tudtad, hol kezdjed? Nem vagy egyedül – sok fejlesztő ütközik ugyanabba a falba, amikor TIFF beolvasásokat alakít át kereshető PDF‑ekké. A jó hír? Az Aspose OCR segítségével **convert tiff to pdf**, egy rejtett szövegréteget helyezhetsz a kép fölé, és még a **high compression pdf** opciókkal is lecsökkentheted a fájlméretet, mindezt néhány C# sorban.
+Valaha szükséged volt **kereshető PDF** létrehozására egy beolvasott PNG-ből, de nem tudtad, hol kezdjed? Nem vagy egyedül. Sok projektben – gondolj a számlák digitalizálására vagy a régi kézikönyvek archiválására – az, hogy egy képet PDF‑vé alakíthatsz, amelyben tényleg kereshetsz, igazi áttörés.  
 
-Ebben az útmutatóban végigvezetünk a teljes folyamaton: a megfelelő NuGet csomagok telepítésétől, a TIFF kép betöltésén, a szövegfelismerésen, egészen a kereshető PDF exportálásáig. A végére egy futtatható konzolalkalmazásod lesz, amely **recognize image text**, és egy kompakt, kereshető PDF‑et hoz létre, készen az indexelésre. Nincs szükség extra eszközökre, nincs kézi OCR lépés – csak tiszta kód és egy kis magyarázat.
+Ebben az útmutatóban lépésről lépésre végigvezetünk a **kép PDF‑vé konvertálásának**, **szöveg kinyerésének a képből**, a szükséges betűtípusok beágyazásának, és végül egy teljesen kereshető PDF fájl létrehozásának. Nincsenek homályos hivatkozások, csak egy teljes, futtatható példa, amelyet ma be tudsz másolni a Visual Studio‑ba.
 
-## Előfeltételek és szükséges eszközök
+> **Mit kapsz:** egy C# konzolos alkalmazás, amely beolvassa a `input.png`‑t, OCR‑t futtat, betűtípusokat ágyaz be, az eredeti raszteres képet háttérként megtartja, és a `output.pdf`‑t írja ki. A végére megérted, *miért* fontos minden sor, és hogyan tudod testre szabni a saját eseteidhez.
 
-- **.NET 6+** (vagy .NET Framework 4.6+). Az API mindkettőn működik, de a .NET 6 a legújabb futtatókörnyezet‑fejlesztéseket hozza.  
-- **Visual Studio 2022** vagy bármely kedvenc IDE.  
-- **Aspose.OCR** és **Aspose.OCR.Gpu** NuGet csomagok (a GPU csomag opcionális, de felgyorsítja a felismerést a támogatott hardveren).  
-- Egy minta TIFF fájl (pl. `invoice.tif`) egy általad kezelt mappában.  
+---
 
-Ha már megvannak ezek, nagyszerű – ugorj előre. Ha nem, az alábbi telepítési lépés mindent lefed.
+## Előfeltételek
 
-## 1. lépés: Aspose OCR csomagok telepítése
+- .NET 6.0 SDK vagy újabb (a kód .NET Framework 4.7+‑vel is működik).  
+- Aspose.OCR for .NET – letöltheted a NuGet‑ről (`Install-Package Aspose.OCR`).  
+- Egy minta PNG kép (`input.png`) egy általad irányított mappában.  
+- Alapvető ismeretek a C# konzolos projektekhez (ha még sosem hoztál létre ilyet, nyisd meg a Visual Studio‑t → **Create a new project** → **Console App** → **C#**).
 
-Kezdésként nyisd meg a projekt mappádat egy terminálban, és futtasd:
+> **Tipp:** Az Aspose ingyenes próbalicencet kínál; csak helyezd a `.lic` fájlt a futtatható fájl mellé, és a könyvtár vízjel nélkül fog működni.
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+---
 
-Ezek a parancsok letöltik a mag OCR motorját és a GPU gyorsító könyvtárat is. Az utóbbi nem kötelező; ha nem talál kompatibilis GPU‑t, a motor CPU módra vált vissza.  
+## 1. lépés: Az OCR motor beállítása – Szöveg felismerése PNG‑ből
 
-> **Pro tipp:** Gyártási környezetben rögzítsd a csomagverziókat a `csproj`‑odban, hogy elkerüld a váratlan tör breaking változásokat.
-
-## 2. lépés: A projekt vázának felállítása
-
-Hozz létre egy új konzolalkalmazást (ha még nincs):
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-Cseréld le a generált `Program.cs`‑t a később bemutatott teljes kóddal. A program a következőket teszi:
-
-1. Inicializál egy `OcrEngine`‑t GPU támogatással.  
-2. Betölti a TIFF képet.  
-3. Futtatja az OCR‑t, és hiba esetén elegánsan leáll.  
-4. Beállítja a **PdfExportOptions**‑t egy kereshető réteghez és **high compression**‑hez.  
-5. Kiírja a kimeneti fájlt.
-
-## 3. lépés: A teljes kód megírása (teljes példa)
-
-Az alábbiakban a *teljes* forrásfájl látható. Másold be a `Program.cs`‑be. A megjegyzések a „miért” magyarázatát adják, nem csak a „mi”‑t.
+Az első dolog, amire szükségünk van, egy OCR motor, amely ténylegesen be tudja olvasni a karaktereket egy PNG fájlban. Az Aspose.OCR ezt egyszerűvé teszi.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**Miért fontos ez:**  
+`Language` beállítása megmondja a motornak, milyen karakterkészletet várjon. Ha kihagyod, a motor egy általános módra vált, amely félreértheti a diakritikus karaktereket vagy számokat. Többnyelvű dokumentumok esetén megadhatsz vesszővel elválasztott listát, például `OcrLanguage.English | OcrLanguage.French`.
+
+---
+
+## 2. lépés: Kép betöltése és felismerése – Szöveg kinyerése a képből
+
+Miután a motor készen áll, betápláljuk a feldolgozni kívánt PNG‑t.
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**Mi történik a háttérben?**  
+`RecognizeImage` beolvassa a bitmapet, azonosítja a szövegrészeket, és az eredményt az `ocrEngine`‑ben tárolja. Később elérheted az `ocrEngine.Text`‑et, ha csak a nyers karakterláncra van szükséged, de egy kereshető PDF‑hez hagyjuk, hogy az Aspose közvetlenül végezze a konverziót.
+
+> **Szélsőséges eset:** Ha a PNG nagy (több mint 10 MB), memóriahiányba ütközhetsz. Ebben az esetben fontold meg a kép átméretezését először, vagy használd az `OcrEngine.RecognizeImage(Stream)`‑t az adat streaminghez.
+
+---
+
+## 3. lépés: PDF export beállítások konfigurálása – Betűtípusok beágyazása a PDF‑be
+
+Egy kereshető PDF nem hasznos, ha a betűtípusok nincsenek beágyazva; a dokumentum töröttnek tűnhet olyan gépeken, ahol hiányzik a szükséges betűkészlet. Az Aspose egy egyszerű opcióobjektummal teszi lehetővé ennek beállítását.
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**Miért ágyazzuk be a betűtípusokat?**  
+Ha az `EmbedFonts` `true`, a PDF a betűtípus adatokat a fájlba ágyazza. Ez biztosítja, hogy bármely megjelenítő – Chrome, Adobe Reader vagy mobilalkalmazás – pontosan a tervezett módon jelenítse meg a szöveget, még ha a célrendszeren hiányzik is a betűtípus.
+
+**Mikor állítanád a `KeepOriginalImage` értékét `false`‑ra?**  
+Ha csak a kinyert szövegre van szükséged, és kisebb fájlt szeretnél, ennek kikapcsolása eltávolítja a háttérképet, így egy „tiszta”, csak szöveget tartalmazó PDF-et kapsz.
+
+---
+
+## 4. lépés: Exportálás kereshető PDF‑be – Kép konvertálása PDF‑vé
+
+Miután az OCR eredmények és a PDF beállítások készen vannak, az utolsó lépés egy egyetlen soros kód, amely a kereshető PDF‑et a lemezre írja.
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**Mit fogsz látni:**  
+`output.pdf` megnyitása bármely megjelenítőben lehetővé teszi a szöveg kijelölését, másolását, és akár keresést (`Ctrl + F`) is futtathatsz, hogy megtaláld azokat a szavakat, amelyek eredetileg csak pixelekként voltak jelen a PNG‑ben.
+
+---
+
+## Teljes működő példa
+
+Az alábbiakban a teljes program látható, amelyet azonnal lefordíthatsz és futtathatsz. Cseréld le a `YOUR_DIRECTORY`‑t arra a mappára, amely tartalmazza a `input.png`‑t.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### Miért működik ez
-
-- **GPU acceleration** a modern kártyákon a felismerési időt másodpercekből ezredmásodpercekre csökkentheti – hasznos tömeges feldolgozásnál.  
-- **IncludeTextLayer** láthatatlanul beágyazza az OCR‑ból származó szöveget, lehetővé téve, hogy a PDF‑olvasók a dokumentumot kereshetővé tegyék anélkül, hogy a vizuális megjelenést megváltoztatnák.  
-- **High compression** Flate (ZIP) tömörítést használ a képadatfolyamon, ami veszteségmentes, de drámaian csökkenti a fájlméretet – ideális több ezer számla archiválásához.
-
-## 4. lépés: Az alkalmazás futtatása és a kimenet ellenőrzése
-
-Nyiss egy terminált a projekt mappájában, és futtasd:
-
-```bash
-dotnet run
-```
-
-Ha minden helyesen van beállítva, a következőt fogod látni:
+**Várható kimenet a konzolon:**  
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-Nyisd meg az `invoice.pdf`‑et bármely PDF‑olvasóban (Adobe Acrobat, Edge vagy akár egy böngésző). Próbálj keresni egy olyan szót, amely biztosan szerepel az eredeti TIFF‑ben – például a „Total”. A nézőnek ki kell emelnie a szót, még akkor is, ha az a kép része. Ez a **searchable pdf** jellegzetessége.
-
-### Várható fájlméret
-
-Egy tipikus beolvasott számla (≈300 KB TIFF) gyakran **~80 KB** méretre zsugorodik a `PdfCompression.High` alkalmazása után. A pontos méret a kép komplexitásától függ, de egyértelmű csökkenést fogsz észrevenni.
-
-## 5. lépés: Gyakori variációk és szélhelyzetek
-
-| Helyzet | Mit kell módosítani | Miért |
-|-----------|----------------|-----|
-| **Nincs GPU elérhető** | `new OcrEngine(GpuMode.Enabled)` helyett `new OcrEngine(GpuMode.Disabled)` | Megakadályozza, hogy a motor megpróbálja inicializálni a GPU‑t, ami rövid késleltetést okozhat. |
-| **Többoldalas (multi‑page TIFF)** | `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` | Betölti az összes keretet; az Aspose minden oldalt feldolgoz, és egy többoldalas PDF‑et generál. |
-| **OCR nyelv angolon kívül** | `ocrEngine.Language = Language.French;` (vagy bármely támogatott nyelv) | Javítja a pontosságot nem‑angol dokumentumok esetén. |
-| **Látható szövegréteg a rejtett helyett** | `pdfExportOptions.IncludeTextLayer = false;` és manuálisan adj hozzá `TextFragment` objektumokat. | Hasznos, ha azt szeretnéd, hogy az OCR szöveg választható szövegként jelenjen meg a kép fölött. |
-| **Ultra‑kicsi PDF‑ek** | Kombináld a `PdfCompression.High`‑t az `ImageResolution = 150` DPI beállítással a felismerés előtt. | Az alacsonyabb DPI csökkenti a képadatot, tovább zsugorítva a PDF‑et a vizuális minőség rovására. |
-
-> **Megjegyzés:** Mindig tesztelj szélhelyzeteket egy kis mintán, mielőtt a termelésbe lépnél. Az OCR pontossága változhat a kép minősége, zajszint és nyelv függvényében.
-
-## 6. lépés: Tippek a termelés‑kész megvalósításhoz
-
-1. **Hibakeresés naplózása** – Cseréld le a `Console.WriteLine`‑t egy megfelelő naplózási keretrendszerre (Serilog, NLog) a könnyebb diagnosztikához.  
-2. **Kötegelt feldolgozás** – Tedd a központi logikát egy metódusba, amely bemeneti/kimeneti útvonalakat fogad, majd iterálj egy TIFF fájlok könyvtárán.  
-3. **Aszinkron I/O** – Bár az Aspose OCR szinkron, a fájlok betöltése és mentése aszinkron lehet, hogy a UI szálak reagálók maradjanak.  
-4. **Biztonság** – Ha ezt a funkciót web‑API‑ként teszed elérhetővé, ellenőrizd a fájlútvonalakat és korlátozd a fájlméreteket a visszaélések elkerülése érdekében.  
-5. **Verzió rögzítése** – Használj pontos verziószámokat (`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`) a következetes viselkedés biztosításához minden buildnél.
-
-## Összegzés
-
-Épp most építettünk egy **complete, end‑to‑end solution**‑t, amely **create searchable pdf** fájlokat generál beolvasott képekből, **convert tiff to pdf**, és mindezt **high compression pdf** beállításokkal, miközben **recognize image text** pontosan. Az eredmény egy könnyű, kereshető **searchable pdf from image**, amely készen áll a további munkafolyamatokra, mint például indexelés, archiválás vagy e‑discovery.
-
-Van egy csomó számlád? Kapcsold be a metódust egy ciklusba, mutasd meg egy mappára, és hagyd, hogy az Aspose OCR végezze a nehéz munkát. Kísérletezni szeretnél különböző tömörítési szintekkel vagy nyelvi csomagokkal? A kód elég moduláris ahhoz, hogy ezeket percek alatt cserélhesd.
+Nyisd meg az `output.pdf`‑t, és próbálj meg keresni egy olyan szót, amely biztosan szerepel az `input.png`‑ben. Ha kiemeli, sikeresen **kereshető PDF-et hoztál létre** a képből.
 
 ---
 
-*Készen állsz a szintlépésre?* Próbálj meg vízjelet hozzáadni, metaadatokat beágyazni, vagy akár több OCR‑feldolgozott PDF‑et egyesíteni. Az Aspose csomag számos kiterjesztést kínál – fedezd fel a dokumentációt, és tartsd fenn a lendületet. Boldog kódolást!
+## Gyakori kérdések és profi tippek
 
-![Create searchable PDF from image example screenshot](https://example.com/images/create-searchable-pdf.png "create searchable pdf example")
+### „Feldolgozhatok több képet egy futtatás során?”
+
+Természetesen. Csomagold a felismerési és exportálási logikát egy ciklusba, például a `Directory.GetFiles(..., "*.png")` használatával. Ne feledd, hogy minden PDF‑nek egyedi nevet adj, pl. `Path.GetFileNameWithoutExtension(img) + ".pdf"`.
+
+### „Mi van, ha a dokumentum angol és spanyol szöveget is tartalmaz?”
+
+Állítsd be a nyelv tulajdonságot egy kombinált zászlóra:
+
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
+
+Az Aspose ekkor megpróbálja felismerni a karaktereket mindkét ábécéből.
+
+### „A PDF fájl hatalmas – hogyan tudom csökkenteni a méretét?”
+
+Két gyors trükk:
+
+1. Állítsd be a `pdfOptions.KeepOriginalImage = false` értéket, hogy eltávolítsd a raszteres háttérképet.  
+2. Használd a `pdfOptions.ImageCompression = ImageCompression.Jpeg;` beállítást (ehhez hozzá kell adni a tulajdonságot), hogy tömörítsd a beágyazott képet.
+
+### „Szükség van licencre a termelésben való használathoz?”
+
+A próba jól működik teszteléshez, de kereskedelmi bevetésnél licencet kell vásárolni és a program elején regisztrálni:
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+---
+
+## A megoldás bővítése
+
+Most, hogy tudod, hogyan **kereshető PDF-et készíts**, lehet, hogy szeretnél:
+
+- **Vízjel hozzáadása** – használd az `PdfDocument`‑et az Aspose.PDF‑ből, hogy szöveget helyezz a képre az OCR után.  
+- **Kötegelt PDF feldolgozás** – több kereshető PDF-et egyesíts egybe a `PdfFileEditor` használatával.  
+- **Integráció Azure Blob Storage‑szal** – olvasd/írd a képet és a PDF adatfolyamokat közvetlenül a felhőből, ezzel kiküszöbölve a helyi fájl I/O‑t.
+
+Ezek a kiterjesztések mind ugyanazt a mintát követik: szerezz OCR eredményt, konfiguráld a következő könyvtárat, és láncold össze a műveleteket.
+
+---
+
+## Összegzés
+
+Most megtanultad, hogyan **készíts kereshető PDF-et** egy PNG képből az Aspose.OCR használatával C#‑ban. Az OCR motor inicializálásával, a szöveg felismerésével, a `SearchablePdfOptions` **betűtípusok PDF‑be beágyazására** való konfigurálásával és az exportálással egy olyan fájlt kapsz, amely vizuálisan megegyezik az eredetivel, és teljesen kereshető.
+
+Innen nyugodtan kísérletezhetsz kötegelt konverziókkal, különböző nyelvekkel vagy szorosabb tömörítéssel – bármi, ami a munkafolyamatodhoz illik. Ha problémákba ütközöl, az Aspose fórumok és API dokumentációk jó források, de a fenti alaplépések lefedik a tipikus esetek 90 %-át.
+
+Boldog kódolást, és legyenek a PDF-jeid mindig kereshetők!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

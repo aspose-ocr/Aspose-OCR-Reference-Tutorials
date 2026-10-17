@@ -1,0 +1,7 @@
+Title: recognize chinese text in C# – Complete Programming Guide
+Slug: recognize-chinese-text-in-c-complete-programming-guide
+Category: text-recognition
+ProcessedDate: 2026-06-22T18:56:07.994941
+SourceRepo: AI Search API
+Keywords: recognize chinese text, extract text from image, read simplified chinese, c# image to text, recognize text from png
+PRNumber: 152

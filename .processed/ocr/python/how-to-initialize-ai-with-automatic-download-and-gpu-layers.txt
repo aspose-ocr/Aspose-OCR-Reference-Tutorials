@@ -1,0 +1,7 @@
+Title: How to initialize AI with automatic download and GPU layers
+Slug: how-to-initialize-ai-with-automatic-download-and-gpu-layers
+Category: general
+ProcessedDate: 2026-08-12T18:30:11.075764
+SourceRepo: AI Search API
+Keywords: how to initialize ai, enable automatic download, set model path, auto download model, set gpu layers
+PRNumber: 201

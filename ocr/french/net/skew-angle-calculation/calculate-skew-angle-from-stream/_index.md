@@ -1,12 +1,12 @@
 ---
-date: 2025-12-30
-description: Apprenez ce tutoriel de reconnaissance d'images en C# pour calculer les
-  angles d'inclinaison à partir d'un flux en utilisant Aspose.OCR. Découvrez comment
-  calculer l'inclinaison et lire une image depuis un flux.
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-03-02
+description: Apprenez à calculer l’inclinaison et à lire une image depuis un flux
+  en C# avec Aspose.OCR. Ce guide étape par étape vous montre comment calculer l’angle
+  d’inclinaison à partir d’un flux en C#.
+linktitle: How to Calculate Skew Angle from Stream in C#
 second_title: Aspose.OCR .NET API
-title: c# Tutoriel de reconnaissance d'images – Calculer l'angle d'inclinaison à partir
-  du flux
+title: Comment calculer l'angle d'inclinaison à partir d'un flux en C# – Tutoriel
+  de reconnaissance d'images
 url: /fr/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -15,38 +15,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriel de reconnaissance d'images c# – Calcul de l'angle d'inclinaison depuis un flux
+# Comment calculer l'angle d'inclinaison à partir d'un flux en C# – Tutoriel de reconnaissance d'image
 
 ## Introduction
 
-Bienvenue dans le monde passionnant d'Aspose.OCR pour .NET ! Dans ce **tutoriel de reconnaissance d'images c#**, nous vous guiderons à travers le calcul de l'angle d'inclinaison d'une image directement depuis un flux. Que vous construisiez une chaîne de traitement de documents, une application mobile de numérisation, ou toute solution nécessitant de redresser des images inclinées, ce guide vous offre un chemin clair, étape par étape, pour accomplir la tâche.
+Bienvenue dans le monde passionnant d'Aspose.OCR pour .NET ! Dans ce **tutoriel de reconnaissance d'image c#** vous apprendrez **comment calculer l'inclinaison** à partir d'un flux d'image et pourquoi cette étape est cruciale pour des résultats OCR fiables. Que vous construisiez un pipeline de traitement de documents, une application de numérisation mobile, ou toute solution nécessitant de redresser des pages inclinées, ce guide vous accompagne à travers tout le processus en quelques minutes seulement.
 
-## Quick Answers
-- **Que couvre ce tutoriel ?** Calcul de l'angle d'inclinaison depuis un flux en utilisant Aspose.OCR en C#.
-- **Pourquoi la détection d'inclinaison est‑elle importante ?** Elle améliore la précision de l'OCR en alignant le texte avant la reconnaissance.
-- **Quelles sont les principales prérequis ?** Aspose.OCR pour .NET installé et une image d'exemple inclinée.
-- **Quels mots‑clés secondaires sont abordés ?** *how to calculate skew* et *read image from stream*.
-- **Combien de temps prend l'implémentation ?** Environ 5‑10 minutes pour un prototype fonctionnel.
+## Réponses rapides
+- **Quel est le sujet de ce tutoriel ?** Calcul de l'angle d'inclinaison à partir d'un flux en utilisant Aspose.OCR en C#.
+- **Pourquoi la détection d'inclinaison est‑elle importante ?** Elle améliore la précision de l'OCR en alignant le texte avant la reconnaissance.
+- **Quelles sont les principales conditions préalables ?** Aspose.OCR pour .NET installé et une image d'exemple inclinée.
+- **Quels mots‑clés secondaires sont abordés ?** *comment calculer l'inclinaison* et *lire une image depuis un flux c#*.
+- **Combien de temps prend l'implémentation ?** Environ 5‑10 minutes pour un prototype fonctionnel.
 
-## Qu’est‑ce qu’un tutoriel de reconnaissance d’images c# ?
-Un **tutoriel de reconnaissance d'images c#** vous apprend à appliquer des techniques de vision par ordinateur—comme l'OCR, le scan de codes‑barres ou la correction d’inclinaison—en utilisant des bibliothèques C#. Ici nous nous concentrons sur la correction d’inclinaison, une étape de pré‑traitement courante qui redresse les lignes de texte inclinées avant l’exécution de l’OCR.
+## Comment calculer l'inclinaison à partir d'un flux d'image
 
-## Pourquoi utiliser Aspose.OCR pour la reconnaissance d’images c# ?
-Aspose.OCR propose une API pure .NET sans dépendances externes, une haute précision et des utilitaires intégrés tels que `CalculateSkew`. Elle fonctionne sous Windows, Linux et macOS, et s’intègre facilement avec les autres produits Aspose.
+Avant de plonger dans le code, clarifions ce que signifie réellement « calculer l'inclinaison ». Lorsqu'un document numérisé est incliné, les lignes de texte ne sont plus horizontales. L'**angle d'inclinaison** indique de combien de degrés l'image doit être pivotée pour être de niveau. Aspose.OCR fournit une méthode intégrée `CalculateSkew` qui analyse le bitmap et renvoie cet angle, vous évitant d'écrire vous‑même des algorithmes complexes de traitement d'image.
+
+## Pourquoi utiliser Aspose.OCR pour la reconnaissance d'image c# ?
+
+Aspose.OCR propose une API .NET pure sans dépendances externes, une grande précision, et des utilitaires tels que `CalculateSkew`. Elle fonctionne sous Windows, Linux et macOS, et s'intègre parfaitement aux autres produits Aspose, ce qui en fait un choix solide pour les pipelines OCR de niveau entreprise.
 
 ## Prérequis
 
-Avant de plonger dans le code, assurez‑vous d’avoir :
+Avant de commencer à coder, assurez-vous d'avoir :
 
-1. **Aspose.OCR pour .NET** installé. Téléchargez‑le depuis le site officiel [ici](https://releases.aspose.com/ocr/net/).
-2. Un dossier qui servira de répertoire de documents. Remplacez `"Your Document Directory"` dans le code d’exemple par le chemin réel sur votre machine.
+1. **Aspose.OCR pour .NET** installé. Téléchargez-le depuis le site officiel [ici](https://releases.aspose.com/ocr/net/).
+2. Un dossier qui servira de répertoire de documents. Remplacez `"Your Document Directory"` dans le code d'exemple par le chemin réel sur votre machine.
 3. Un fichier image contenant une inclinaison notable (par ex., une page numérisée). Enregistrez‑le sous le nom **skew_image.png** dans le répertoire de documents.
 
-Tout est prêt, commençons à coder.
+Maintenant que tout est prêt, commençons à coder.
 
-## Import Namespaces
+## Importer les espaces de noms
 
-Tout d’abord, importez les espaces de noms requis pour la gestion des fichiers et la bibliothèque Aspose.OCR.
+Tout d'abord, importez les espaces de noms requis pour la gestion des fichiers et la bibliothèque Aspose.OCR.
 
 ```csharp
 using System;
@@ -68,9 +70,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Étape 2 : Calculer l’angle d’inclinaison (how to calculate skew)
+## Étape 2 : Calculer l'angle d'inclinaison (comment calculer l'inclinaison)
 
-Nous allons maintenant **calculer l'angle d'inclinaison** depuis le flux d'image. Cela démontre la capacité de *read image from stream*.
+Nous allons maintenant **calculer l'angle d'inclinaison** à partir du flux d'image. Cela montre la capacité de *lire une image depuis un flux c#*.
 
 ```csharp
 // Calculate Angle
@@ -86,7 +88,7 @@ using (FileStream file = new FileStream(dataDir + "skew_image.png", FileMode.Ope
 
 ## Étape 3 : Afficher le résultat
 
-Enfin, affichez l’angle détecté dans la console afin de vérifier le résultat.
+Enfin, affichez l'angle détecté dans la console afin de pouvoir vérifier le résultat.
 
 ```csharp
 // Display the result
@@ -97,43 +99,43 @@ Console.WriteLine(angle);
 
 | Problème | Raison | Solution |
 |----------|--------|----------|
-| **`ArgumentNullException`** | Le chemin de l’image est incorrect ou le fichier est manquant. | Vérifiez `dataDir` et assurez‑vous que `skew_image.png` existe. |
-| **Angle incorrect** | L’image est trop bruitée ou de basse résolution. | Pré‑traitez l’image (par ex., binarisez‑la) avant d’appeler `CalculateSkew`. |
-| **Erreur de permission** | L’application n’a pas les droits de lecture sur le fichier. | Exécutez l’application avec les permissions de système de fichiers appropriées. |
+| **`ArgumentNullException`** | Le chemin de l'image est incorrect ou le fichier est manquant. | Vérifiez `dataDir` et assurez‑vous que `skew_image.png` existe. |
+| **Angle incorrect** | L'image est trop bruitée ou de basse résolution. | Pré‑traitez l'image (par ex., binarisez) avant d'appeler `CalculateSkew`. |
+| **Erreur d'autorisation** | L'application n'a pas les droits de lecture sur le fichier. | Exécutez l'application avec les autorisations de système de fichiers appropriées. |
 
 ## Conclusion
 
-Félicitations ! Vous venez de terminer un **tutoriel de reconnaissance d'images c#** qui montre comment **calculer l’inclinaison** et **lire une image depuis un flux** en utilisant Aspose.OCR pour .NET. Cette technique simple mais puissante peut être intégrée à des flux de travail OCR plus larges pour améliorer considérablement la précision d’extraction du texte.
+Félicitations ! Vous venez de terminer un **tutoriel de reconnaissance d'image c#** qui montre comment **calculer l'inclinaison** et **lire une image depuis un flux** en utilisant Aspose.OCR pour .NET. Cette technique simple mais puissante peut être intégrée à des flux de travail OCR plus vastes pour améliorer considérablement la précision de l'extraction de texte.
 
-Explorez davantage les fonctionnalités d’Aspose.OCR en consultant la [documentation](https://reference.aspose.com/ocr/net/) officielle.
+Explorez davantage les fonctionnalités d'Aspose.OCR en consultant la [documentation](https://reference.aspose.com/ocr/net/) officielle.
 
-## FAQ's
+## Foire aux questions
 
 ### Q1 : Aspose.OCR est‑il compatible avec tous les frameworks .NET ?
 
-R1 : Aspose.OCR prend en charge un large éventail de frameworks .NET, garantissant la compatibilité avec différentes versions.
+**R1 :** Aspose.OCR prend en charge un large éventail de frameworks .NET, garantissant la compatibilité avec différentes versions.
 
 ### Q2 : Puis‑je utiliser Aspose.OCR pour des projets commerciaux ?
 
-R2 : Absolument ! Aspose.OCR propose des licences commerciales, que vous pouvez acheter [ici](https://purchase.aspose.com/buy).
+**R2 :** Absolument ! Aspose.OCR propose des licences commerciales, que vous pouvez acheter [ici](https://purchase.aspose.com/buy).
 
-### Q3 : Existe‑t‑il un essai gratuit disponible ?
+### Q3 : Existe‑t‑il une version d'essai gratuite ?
 
-R3 : Oui, vous pouvez explorer Aspose.OCR avec un essai gratuit [ici](https://releases.aspose.com/).
+**R3 :** Oui, vous pouvez explorer Aspose.OCR avec une version d'essai gratuite [ici](https://releases.aspose.com/).
 
 ### Q4 : Comment obtenir des licences temporaires pour les tests ?
 
-R4 : Obtenez des licences temporaires pour les tests via [ce lien](https://purchase.aspose.com/temporary-license/).
+**R4 :** Obtenez des licences temporaires pour les tests via [ce lien](https://purchase.aspose.com/temporary-license/).
 
-### Q5 : Besoin d’assistance ou avez‑vous des questions spécifiques ?
+### Q5 : Besoin d'assistance ou avez‑vous des questions spécifiques ?
 
-R5 : Visitez le [forum](https://forum.aspose.com/c/ocr/16) de la communauté Aspose.OCR pour obtenir de l’aide de la part d’experts et d’autres développeurs.
+**R5 :** Consultez le [forum](https://forum.aspose.com/c/ocr/16) de la communauté Aspose.OCR pour obtenir de l'aide d'experts et d'autres développeurs.
 
 ---
 
-**Last Updated:** 2025-12-30  
-**Tested With:** Aspose.OCR for .NET (latest release)  
-**Author:** Aspose  
+**Dernière mise à jour** : 2026-03-02  
+**Testé avec** : Aspose.OCR for .NET (latest release)  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

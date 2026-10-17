@@ -1,20 +1,22 @@
 ---
 category: general
-date: 2026-03-23
-description: 使用 Aspose OCR 從影像建立可搜尋的 PDF。了解如何將 TIFF 轉換為高壓縮的 PDF，並在數分鐘內辨識影像文字。
+date: 2026-02-13
+description: 使用 Aspose.OCR 從圖像建立可搜尋的 PDF。學習如何將圖像轉換為 PDF、從圖像擷取文字、在 PDF 中嵌入字型，以及辨識 PNG
+  圖片中的文字。
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: zh-hant
-og_description: 使用 Aspose OCR 從圖像建立可搜尋的 PDF。本教學示範如何將 TIFF 轉換為 PDF、加入可搜尋的文字層，並套用高壓縮。
-og_title: 從圖片建立可搜尋 PDF – 完整 C# 指南
+og_description: 使用 Aspose.OCR 從圖像建立可搜尋的 PDF。本指南將示範如何將圖像轉換為 PDF、嵌入字型，並輕鬆從 PNG 提取文字。
+og_title: 從圖像建立可搜尋 PDF – 步驟式 C# 教學
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: 從圖像建立可搜尋的 PDF – 完整 C# 指南
 url: /zh-hant/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -24,170 +26,216 @@ url: /zh-hant/net/text-recognition/create-searchable-pdf-from-image-complete-c-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從圖像建立可搜尋 PDF – 完整 C# 指南
+# 從圖像建立可搜尋的 PDF – 完整 C# 教學
 
-有沒有需要 **建立可搜尋 pdf**，卻不知道從哪裡開始？你並不孤單——許多開發者在將 TIFF 掃描檔轉成可搜尋 PDF 時都卡在同一個問題上。好消息是：使用 Aspose OCR，你可以 **convert tiff to pdf**，在上面加上一層隱藏文字，甚至透過 **high compression pdf** 選項壓縮檔案大小，全部只需幾行 C# 程式碼。
+是否曾需要 **從掃描的 PNG 建立可搜尋的 PDF**，卻不知從何下手？您並不孤單。無論是發票數位化或是舊手冊歸檔，能將圖片轉成可搜尋的 PDF 都是顛覆性的改變。  
 
-在本教學中，我們將完整示範整個流程：從安裝 NuGet 套件、載入 TIFF 圖像、辨識文字，到最後匯出可搜尋的 PDF。完成後，你會得到一個可執行的 console 應用程式，能 **recognize image text**，並產生一個緊湊、可搜尋的 PDF，隨時可供索引使用。全程不需要額外工具或手動 OCR 步驟——只要乾淨的程式碼加上一點說明即可。
+在本教學中，我們將一步步說明 **將影像轉成 PDF**、**從影像擷取文字**、嵌入必要字型，最終產生完整的可搜尋 PDF 檔案。沒有模糊的參考，只有可直接複製貼上到 Visual Studio 執行的完整範例。
 
-## 前置條件與所需項目
+> **您將獲得：** 一個 C# 主控台應用程式，讀取 `input.png`、執行 OCR、嵌入字型、保留原始點陣圖作為背景，並輸出 `output.pdf`。完成後，您將了解每一行程式碼的意義，以及如何依需求自行調整。
 
-- **.NET 6+**（或 .NET Framework 4.6+）。API 兩者皆支援，但 .NET 6 提供最新的執行時改進。  
-- **Visual Studio 2022** 或任何你慣用的 IDE。  
-- **Aspose.OCR** 與 **Aspose.OCR.Gpu** NuGet 套件（GPU 套件為可選，能在支援的硬體上加速辨識）。  
-- 一個範例 TIFF 檔（例如 `invoice.tif`），放在你可控制的資料夾內。  
+---
 
-如果你已經具備上述項目，直接跳到下一步。若尚未安裝，以下的安裝步驟會一次搞定。
+## 前置條件
 
-## 第一步：安裝 Aspose OCR 套件
+- .NET 6.0 SDK 或更新版本（程式碼亦相容 .NET Framework 4.7+）。  
+- Aspose.OCR for .NET – 可從 NuGet 取得 (`Install-Package Aspose.OCR`)。  
+- 一張範例 PNG 圖片（`input.png`），放在您自行管理的資料夾內。  
+- 基本的 C# 主控台專案概念（若從未建立過，只要開啟 Visual Studio → **建立新專案** → **主控台應用程式** → **C#** 即可）。
 
-首先，在終端機中切換到專案資料夾，執行：
+> **小技巧：** Aspose 提供免費試用授權；只要把 `.lic` 檔案放在可執行檔旁邊，函式庫即可在不加浮水印的情況下運作。
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+---
 
-上述指令會同時下載核心 OCR 引擎與 GPU 加速函式庫。GPU 套件並非必須；若找不到相容的 GPU，引擎會自動回退至 CPU 模式。  
+## 步驟 1：設定 OCR 引擎 – 從 PNG 辨識文字
 
-> **小技巧：** 在正式環境中，請在 `csproj` 中鎖定套件版本，以避免意外的破壞性變更。
-
-## 第二步：建立專案骨架
-
-建立一個新的 console 應用程式（如果尚未有的話）：
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-將自動產生的 `Program.cs` 替換成稍後完整示範的程式碼。此程式將會：
-
-1. 使用 GPU 支援初始化 `OcrEngine`。  
-2. 載入 TIFF 圖像。  
-3. 執行 OCR，若失敗則優雅地中止。  
-4. 設定 **PdfExportOptions** 以產生可搜尋圖層並啟用 **high compression**。  
-5. 寫入輸出檔案。
-
-## 第三步：撰寫完整程式碼（完整範例）
-
-以下為 **全部** 原始檔案內容。請直接複製貼上至 `Program.cs`。註解說明了每一行「為什麼」而不只是「做什麼」。
+首先，我們需要一個能讀取 PNG 內字元的 OCR 引擎。Aspose.OCR 讓這件事變得相當簡單。
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**為什麼這很重要：**  
+設定 `Language` 讓引擎知道要辨識哪種字符集。若省略此設定，引擎會使用通用模式，可能會誤判帶重音符號的字元或數字。若文件包含多語言，可傳入逗號分隔的列表，例如 `OcrLanguage.English | OcrLanguage.French`。
+
+---
+
+## 步驟 2：載入並辨識影像 – 從影像擷取文字
+
+引擎準備好後，將目標 PNG 傳入引擎進行處理。
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**背後發生了什麼？**  
+`RecognizeImage` 會掃描位圖、辨識文字區塊，並將結果存入 `ocrEngine`。之後若只需要原始字串，可直接存取 `ocrEngine.Text`；但若要產生可搜尋的 PDF，則交由 Aspose 完成轉換。
+
+> **例外情況：** 若 PNG 檔案過大（超過 10 MB），可能會發生記憶體不足。此時可先縮小影像，或改用 `OcrEngine.RecognizeImage(Stream)` 以串流方式讀取資料。
+
+---
+
+## 步驟 3：設定 PDF 匯出選項 – 在 PDF 中嵌入字型
+
+如果字型未嵌入，可搜尋的 PDF 將無法正確顯示；文件在缺少相應字體的機器上會變形。Aspose 允許我們透過簡單的選項物件切換此功能。
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**為什麼要嵌入字型？**  
+當 `EmbedFonts` 為 `true` 時，PDF 會把字型資料寫入檔案本身。這確保任何檢視器（Chrome、Adobe Reader 或行動裝置 App）都能正確呈現文字，即使目標系統沒有安裝該字型。
+
+**什麼時候會把 `KeepOriginalImage` 設為 `false`？**  
+如果只需要文字且想減小檔案大小，關閉此選項會移除背景影像，產生「純文字」的 PDF。
+
+---
+
+## 步驟 4：匯出為可搜尋的 PDF – 轉換影像為 PDF
+
+有了 OCR 結果與 PDF 選項，最後只需要一行程式碼即可將可搜尋的 PDF 寫入磁碟。
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**您將看到的結果：**  
+在任何檢視器開啟 `output.pdf`，皆可選取文字、複製貼上，甚至使用 `Ctrl + F` 搜尋原本只存在於 PNG 像素中的單字。
+
+---
+
+## 完整範例程式
+
+以下是可直接編譯執行的完整程式碼。請將 `YOUR_DIRECTORY` 替換成放置 `input.png` 的資料夾路徑。
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### 為什麼這樣寫會有效
-
-- **GPU 加速** 能將辨識時間從秒級縮短至毫秒級，對大量處理非常有幫助。  
-- **IncludeTextLayer** 會把 OCR 產生的文字隱藏嵌入 PDF，讓 PDF 閱讀器能搜尋文件內容，同時不改變圖像的外觀。  
-- **High compression** 會對圖像串流使用 Flate（ZIP）壓縮，屬於無損壓縮卻能大幅縮小檔案大小——非常適合大量發票的歸檔。
-
-## 第四步：執行應用程式並驗證輸出
-
-在專案資料夾內的終端機執行：
-
-```bash
-dotnet run
-```
-
-若一切設定正確，畫面會顯示：
+**預期的主控台輸出：**
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-使用任何 PDF 閱讀器（Adobe Acrobat、Edge，或瀏覽器）開啟 `invoice.pdf`。搜尋原始 TIFF 中確定會出現的關鍵字，例如 “Total”。即使文字是圖像的一部份，閱讀器仍會高亮顯示，這正是 **searchable pdf** 的特徵。
-
-### 預期檔案大小
-
-一張約 300 KB 的掃描發票，經過 `PdfCompression.High` 後通常會縮減至 **約 80 KB**。實際大小會受圖像複雜度影響，但明顯的縮減是可以預期的。
-
-## 第五步：常見變化與例外情況
-
-| 情境 | 需要調整的地方 | 原因 |
-|-----------|----------------|-----|
-| **沒有 GPU 可用** | 將 `new OcrEngine(GpuMode.Enabled)` 改為 `new OcrEngine(GpuMode.Disabled)` | 防止引擎嘗試初始化 GPU，避免短暫延遲。 |
-| **多頁（multi‑page TIFF）** | 設定 `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` | 載入所有頁框；Aspose 會逐頁處理並產生多頁 PDF。 |
-| **需要非英文的 OCR 語言** | `ocrEngine.Language = Language.French;`（或任何支援的語言） | 提升非英文文件的辨識準確度。 |
-| **想要可見的文字覆蓋層而非隱藏層** | `pdfExportOptions.IncludeTextLayer = false;` 並手動加入 `TextFragment` 物件。 | 當你希望 OCR 文字以可選取的形式顯示在圖像上方時使用。 |
-| **極小的 PDF** | 結合 `PdfCompression.High` 與在辨識前設定 `ImageResolution = 150` DPI。 | 降低 DPI 減少圖像資料，進一步縮小 PDF 大小，但會犧牲畫質。 |
-
-> **注意：** 在大規模部署前，請先在小樣本上測試各種例外情況。OCR 的準確度會受圖像品質、雜訊與語言等因素影響。
-
-## 第六步：製作上線環境的最佳實踐
-
-1. **錯誤記錄** – 用正式的日誌框架（Serilog、NLog）取代 `Console.WriteLine`，方便除錯。  
-2. **批次處理** – 把核心邏輯封裝成接受輸入/輸出路徑的方法，然後遍歷資料夾內的 TIFF 檔。  
-3. **非同步 I/O** – 雖然 Aspose OCR 本身是同步的，但檔案的讀寫可以使用 async，以免阻塞 UI 執行緒。  
-4. **安全性** – 若透過 Web API 暴露此功能，務必驗證檔案路徑並限制檔案大小，以防濫用。  
-5. **版本鎖定** – 使用確切的版本號（`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`）確保不同建置間行為一致。
-
-## 結論
-
-我們剛剛完成了一個 **完整、端對端的解決方案**，能 **create searchable pdf**、**convert tiff to pdf**，同時使用 **high compression pdf** 設定，並且 **recognize image text** 準確無誤。最終產出的 **searchable pdf from image** 輕量、可搜尋，適合後續的索引、歸檔或 e‑discovery 工作流程。
-
-有一堆發票要處理？把這個方法放進迴圈，指向資料夾，讓 Aspose OCR 完全接管。想嘗試不同的壓縮等級或語言套件？程式碼模組化設計，幾秒鐘內即可切換。
+開啟 `output.pdf`，搜尋您知道出現在 `input.png` 中的單字。若能被標示，即代表已成功 **從影像建立可搜尋的 PDF**。
 
 ---
 
-*想更上一層樓嗎？* 嘗試加入浮水印、嵌入中繼資料，或甚至把多個 OCR 處理過的 PDF 合併。Aspose 系列提供豐富的擴充功能——探索文件、持續前進。祝開發順利！
+## 常見問題與進階小技巧
 
-![Create searchable PDF from image example screenshot](https://example.com/images/create-searchable-pdf.png "create searchable pdf example")
+### 「可以一次處理多張影像嗎？」
+
+當然可以。將辨識與匯出邏輯包在迴圈中，例如使用 `Directory.GetFiles(..., "*.png")`。別忘了為每個 PDF 指定唯一名稱，例如 `Path.GetFileNameWithoutExtension(img) + ".pdf"`。
+
+### 「如果文件同時包含英文與西班牙文該怎麼辦？」
+
+將語言屬性設為組合旗標：
+
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
+
+Aspose 會嘗試同時偵測兩種字母表的字符。
+
+### 「PDF 檔案太大，怎麼壓縮？」
+
+兩個快速技巧：
+
+1. 設定 `pdfOptions.KeepOriginalImage = false` 以移除點陣背景。  
+2. 使用 `pdfOptions.ImageCompression = ImageCompression.Jpeg;`（需自行加入此屬性）壓縮嵌入的影像。
+
+### 「正式上線需要授權嗎？」
+
+試用版可用於測試，但若要商業部署，必須購買授權並在程式啟動時盡早註冊：
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+---
+
+## 延伸應用
+
+既然已掌握 **建立可搜尋的 PDF**，您可能想進一步：
+
+- **加入浮水印** – 使用 Aspose.PDF 的 `PdfDocument` 在 OCR 後覆蓋文字。  
+- **批次處理 PDF** – 使用 `PdfFileEditor` 將多個可搜尋的 PDF 合併成一本。  
+- **結合 Azure Blob Storage** – 直接從雲端讀寫影像與 PDF 串流，省去本機檔案 I/O。
+
+上述每項延伸皆遵循相同模式：取得 OCR 結果、設定下一個函式庫的參數，然後串接操作。
+
+---
+
+## 結論
+
+您剛剛學會如何使用 Aspose.OCR 於 C# 中 **從 PNG 影像建立可搜尋的 PDF**。透過初始化 OCR 引擎、辨識文字、設定 `SearchablePdfOptions` 以 **在 PDF 中嵌入字型**，最後匯出，即可得到外觀與原始影像相同、且可全文搜尋的檔案。  
+
+接下來，您可以嘗試批次轉換、支援更多語言或更高壓縮率，依照工作流程自行調整。若遇到問題，Aspose 論壇與 API 文件都是不錯的資源，而上述核心步驟已涵蓋約 90 % 的常見情境。
+
+祝開發順利，願您的 PDF 永遠可搜尋！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

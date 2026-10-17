@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-23
-description: Vytvořte prohledávatelný PDF z obrázku pomocí Aspose OCR. Naučte se,
-  jak převést TIFF na PDF s vysokou kompresí a rozpoznat text na obrázku během několika
-  minut.
+date: 2026-02-13
+description: Vytvořte vyhledávatelný PDF z obrázku pomocí Aspose.OCR. Naučte se převést
+  obrázek na PDF, extrahovat text z obrázku, vložit písma do PDF a rozpoznat text
+  z PNG.
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: cs
-og_description: Vytvořte prohledávatelný PDF z obrázku pomocí Aspose OCR. Tento tutoriál
-  ukazuje, jak převést TIFF na PDF, přidat prohledávatelnou textovou vrstvu a použít
-  vysokou kompresi.
-og_title: Vytvořte prohledávatelný PDF z obrázku – kompletní průvodce C#
+og_description: Vytvořte prohledávatelný PDF z obrázku pomocí Aspose.OCR. Tento návod
+  ukazuje, jak převést obrázek na PDF, vložit písma a snadno extrahovat text z PNG.
+og_title: Vytvořte prohledávatelný PDF z obrázku – krok za krokem C# tutoriál
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: Vytvořte prohledávatelný PDF z obrázku – kompletní C# průvodce
 url: /cs/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -28,170 +28,216 @@ url: /cs/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření prohledávatelného PDF z obrázku – Kompletní průvodce C#  
+# Vytvoření prohledávatelného PDF z obrázku – Kompletní C# průvodce
 
-Ever needed to **create searchable pdf** from a scanned document but weren't sure where to start? You're not the only one—many developers hit the same wall when turning TIFF scans into searchable PDFs. The good news? With Aspose OCR you can **convert tiff to pdf**, slap a hidden text layer on top, and even squeeze the file size with **high compression pdf** options, all in a handful of lines of C#.
+Už jste někdy potřebovali **vytvořit prohledávatelné PDF** ze skenovaného PNG, ale nevedeli jste, kde začít? Nejste v tom sami. V mnoha projektech – například digitalizace faktur nebo archivace starých příruček – je schopnost převést obrázek na PDF, které lze skutečně prohledávat, skutečným průlomem.  
 
-V tomto tutoriálu projdeme celý proces: od instalace správných NuGet balíčků, načtení TIFF obrázku, rozpoznání jeho textu až po export prohledávatelného PDF. Na konci budete mít spustitelnou konzolovou aplikaci, která **recognize image text** a vytváří kompaktní, prohledávatelné PDF připravené k indexaci. Žádné další nástroje, žádné ruční OCR kroky – jen čistý kód a trochu vysvětlení.
+V tomto tutoriálu projdeme přesně kroky k **převodu obrázku na PDF**, **extrakci textu z obrázku**, vložení potřebných fontů a nakonec získáme plně prohledávatelný PDF soubor. Žádné vágní odkazy, jen kompletní, spustitelný příklad, který můžete dnes zkopírovat a vložit do Visual Studia.
 
-## Požadavky a co budete potřebovat
+> **Co získáte:** C# konzolovou aplikaci, která načte `input.png`, spustí OCR, vloží fonty, zachová původní rastrový obrázek jako pozadí a zapíše `output.pdf`. Na konci pochopíte *proč* je každý řádek důležitý a jak jej upravit pro své vlastní scénáře.
 
-- **.NET 6+** (nebo .NET Framework 4.6+). API funguje na obou, ale .NET 6 poskytuje nejnovější vylepšení runtime.  
-- **Visual Studio 2022** nebo jakékoli IDE, které preferujete.  
-- **Aspose.OCR** a **Aspose.OCR.Gpu** NuGet balíčky (balíček GPU je volitelný, ale urychluje rozpoznávání na podporovaném hardwaru).  
-- Ukázkový TIFF soubor (např. `invoice.tif`) umístěný ve složce, kterou ovládáte.  
+---
 
-Pokud už tyto položky máte, skvělé – můžete pokračovat dál. Pokud ne, krok instalace níže pokryje vše.
+## Požadavky
 
-## Krok 1: Instalace balíčků Aspose OCR
+- .NET 6.0 SDK nebo novější (kód funguje také s .NET Framework 4.7+).  
+- Aspose.OCR pro .NET – můžete jej získat z NuGet (`Install-Package Aspose.OCR`).  
+- Ukázkový PNG obrázek (`input.png`) umístěný ve složce, kterou ovládáte.  
+- Základní znalost C# konzolových projektů (pokud jste takový ještě nevytvořili, otevřete Visual Studio → **Create a new project** → **Console App** → **C#**).
 
-Nejprve otevřete složku projektu v terminálu a spusťte:
+> **Tip:** Aspose nabízí bezplatnou zkušební licenci; stačí umístit soubor `.lic` vedle spustitelného souboru a knihovna bude fungovat bez vodoznaků.
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+---
 
-Tyto příkazy stáhnou jak jádro OCR engine, tak knihovnu pro GPU akceleraci. Poslední není povinná; engine přejde do CPU režimu, pokud nenajde kompatibilní GPU.
+## Krok 1: Nastavení OCR enginu – Rozpoznání textu z PNG
 
-> **Tip:** Při cílení na produkční prostředí uzamkněte verze balíčků ve vašem `csproj`, aby nedošlo k neočekávaným breaking changes.
-
-## Krok 2: Nastavení kostry projektu
-
-Vytvořte novou konzolovou aplikaci (pokud ji ještě nemáte):
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-Replace the autogenerated `Program.cs` with the full code shown later. The program will:
-
-1. Inicializovat `OcrEngine` s podporou GPU.  
-2. Načíst TIFF obrázek.  
-3. Spustit OCR a při selhání elegantně ukončit.  
-4. Nakonfigurovat **PdfExportOptions** pro prohledávatelnou vrstvu a **high compression**.  
-5. Zapsat výstupní soubor.
-
-## Krok 3: Napište kompletní kód (úplný příklad)
-
-Níže je *celý* zdrojový soubor. Zkopírujte jej do `Program.cs`. Komentáře vysvětlují „proč“ za každým řádkem, ne jen „co“.
+Prvním, co potřebujeme, je OCR engine, který dokáže skutečně přečíst znaky v PNG souboru. Aspose.OCR to dělá velmi jednoduše.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**Proč je to důležité:**  
+Nastavení `Language` říká enginu, jakou znakovou sadu má očekávat. Pokud to přeskočíte, engine použije výchozí generický režim, který může špatně interpretovat diakritické znaky nebo čísla. Pro vícejazyčné dokumenty můžete předat čárkou oddělený seznam, např. `OcrLanguage.English | OcrLanguage.French`.
+
+---
+
+## Krok 2: Načtení a rozpoznání obrázku – Extrakce textu z obrázku
+
+Nyní, když je engine připravený, předáme mu PNG, který chceme zpracovat.
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**Co se děje pod kapotou?**  
+`RecognizeImage` prohledá bitmapu, identifikuje textové bloky a uloží výsledek do `ocrEngine`. Později můžete přistupovat k `ocrEngine.Text`, pokud potřebujete jen surový řetězec, ale pro prohledávatelný PDF necháme převod provést přímo Aspose.
+
+> **Hraniční případ:** Pokud je váš PNG obrovský (více než 10 MB), můžete narazit na nedostatek paměti. V takovém případě zvažte nejprve změnu velikosti obrázku nebo použijte `OcrEngine.RecognizeImage(Stream)` pro streamování dat.
+
+---
+
+## Krok 3: Konfigurace možností exportu PDF – Vložení fontů do PDF
+
+Prohledávatelný PDF není užitečný, pokud nejsou fonty vloženy; dokument by vypadal poškozeně na počítačích, které nemají požadované typy písma. Aspose nám umožňuje toto nastavit pomocí jednoduchého objektu možností.
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**Proč vkládat fonty?**  
+Když je `EmbedFonts` nastaveno na `true`, PDF nese data fontu uvnitř souboru. To zajišťuje, že jakýkoli prohlížeč – Chrome, Adobe Reader nebo mobilní aplikace – zobrazí text přesně tak, jak má být, i když cílový systém font nemá.
+
+**Kdy nastavit `KeepOriginalImage` na `false`?**  
+Pokud potřebujete jen extrahovaný text a chcete menší soubor, vypnutí této volby odstraní pozadí obrázku a vytvoří „čistý“ PDF pouze s textem.
+
+---
+
+## Krok 4: Export do prohledávatelného PDF – Převod obrázku na PDF
+
+S výsledky OCR a připravenými PDF možnostmi je posledním krokem jednorázový příkaz, který zapíše prohledávatelný PDF na disk.
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**Co uvidíte:**  
+Po otevření `output.pdf` v libovolném prohlížeči můžete vybrat text, kopírovat jej a dokonce spustit hledání (`Ctrl + F`) pro nalezení slov, která původně existovala jen jako pixely v PNG.
+
+---
+
+## Kompletní funkční příklad
+
+Níže je celý program, který můžete okamžitě zkompilovat a spustit. Nahraďte `YOUR_DIRECTORY` složkou, která obsahuje `input.png`.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### Proč to funguje
-
-- **GPU acceleration** může zkrátit dobu rozpoznávání ze sekund na milisekundy na moderních kartách – užitečné pro hromadné zpracování.  
-- **IncludeTextLayer** vloží OCR‑odvozený text neviditelně, což umožní PDF prohlížečům prohledávat dokument, aniž by se změnil jeho vizuální vzhled.  
-- **High compression** používá Flate (ZIP) kompresi na image stream, což je bezztrátové, ale výrazně zmenšuje velikost souboru – ideální pro archivaci tisíců faktur.
-
-## Krok 4: Spusťte aplikaci a ověřte výstup
-
-Otevřete terminál ve složce projektu a spusťte:
-
-```bash
-dotnet run
-```
-
-Pokud je vše nastaveno správně, uvidíte:
+**Očekávaný výstup v konzoli:**
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-Otevřete `invoice.pdf` v libovolném PDF čtečce (Adobe Acrobat, Edge nebo i v prohlížeči). Zkuste vyhledat slovo, o kterém víte, že se v originálním TIFF nachází – např. „Total“. Prohlížeč by měl slovo zvýraznit, i když je součástí obrázku. To je znak **searchable pdf**.
-
-### Očekávaná velikost souboru
-
-Typická naskenovaná faktura (≈300 KB TIFF) se po použití `PdfCompression.High` často zmenší na **~80 KB**. Přesná velikost závisí na složitosti obrázku, ale všimnete si výrazného zmenšení.
-
-## Krok 5: Běžné varianty a okrajové případy
-
-| Situation | What to Adjust | Why |
-|-----------|----------------|-----|
-| **Žádná GPU k dispozici** | Změňte `new OcrEngine(GpuMode.Enabled)` na `new OcrEngine(GpuMode.Disabled)` | Zabrání engine v pokusu o inicializaci GPU, což může způsobit krátké zpoždění. |
-| **Více stránek (multi‑page TIFF)** | Nastavte `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` | Načte všechny snímky; Aspose zpracuje každou stránku a vygeneruje multi‑page PDF. |
-| **Potřebujete OCR jazyk jiný než angličtinu** | `ocrEngine.Language = Language.French;` (nebo jakýkoli podporovaný jazyk) | Zvyšuje přesnost u dokumentů v jiných jazycích než angličtině. |
-| **Chcete viditelný textový překryv místo skryté vrstvy** | `pdfExportOptions.IncludeTextLayer = false;` a ručně přidejte objekty `TextFragment`. | Užitečné, když chcete, aby OCR text byl viditelný a vybíratelný nad obrázkem. |
-| **Ultra‑malé PDF** | Kombinujte `PdfCompression.High` s `ImageResolution = 150` DPI před rozpoznáním. | Nižší DPI snižuje množství obrazových dat, což dále zmenšuje PDF na úkor vizuální kvality. |
-
-> **Poznámka:** Vždy testujte okrajové případy na malém vzorku před nasazením do produkce. Přesnost OCR se může lišit podle kvality obrázku, šumu a jazyka.
-
-## Krok 6: Tipy pro produkčně připravené implementace
-
-1. **Error Logging** – Nahraďte `Console.WriteLine` vhodným logovacím frameworkem (Serilog, NLog) pro snadnější diagnostiku.  
-2. **Batch Processing** – Zabalte hlavní logiku do metody, která přijímá vstupní/výstupní cesty, a poté iterujte přes adresář souborů TIFF.  
-3. **Async I/O** – I když je Aspose OCR sám o sobě synchronní, načítání a ukládání souborů může být asynchronní, aby UI vlákna zůstala responzivní.  
-4. **Security** – Pokud tuto funkci vystavujete přes webové API, validujte cesty k souborům a omezte velikosti souborů, aby nedošlo k zneužití.  
-5. **Version Pinning** – Používejte přesná čísla verzí (`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`) pro zajištění konzistentního chování napříč sestaveními.
-
-## Závěr
-
-Právě jsme vytvořili **kompletní, end‑to‑end řešení**, které **create searchable pdf** soubory ze skenovaných obrázků, **convert tiff to pdf**, a to s nastavením **high compression pdf**, přičemž **recognize image text** přesně. Výsledné **searchable pdf from image** je lehké, prohledávatelné a připravené pro následné pracovní postupy jako indexování, archivace nebo e‑discovery.
-
-Máte dávku faktur? Zapojte metodu do smyčky, nasměrujte ji na složku a nechte Aspose OCR udělat těžkou práci. Chcete experimentovat s různými úrovněmi komprese nebo jazykovými balíčky? Kód je dostatečně modulární, aby se tyto možnosti daly vyměnit během několika sekund.
+Otevřete `output.pdf` a zkuste vyhledat slovo, o kterém víte, že se v `input.png` nachází. Pokud se zvýrazní, úspěšně jste **vytvořili searchable PDF** z obrázku.
 
 ---
 
-*Připraveni posunout se dál?* Zkuste přidat vodoznak, vložit metadata nebo dokonce spojit více OCR‑zpracovaných PDF dohromady. Sada Aspose nabízí mnoho rozšíření – prozkoumejte dokumentaci a udržujte tempo. Šťastné kódování!
+## Často kladené otázky a profesionální tipy
 
-![Create searchable PDF from image example screenshot](https://example.com/images/create-searchable-pdf.png "create searchable pdf example")
+### „Mohu zpracovat více obrázků v jednom běhu?“
+
+Určitě. Zabalte logiku rozpoznání a exportu do smyčky, například pomocí `Directory.GetFiles(..., "*.png")`. Jen nezapomeňte každému PDF přiřadit jedinečný název, např. `Path.GetFileNameWithoutExtension(img) + ".pdf"`.
+
+### „Co když můj dokument obsahuje jak anglický, tak španělský text?“
+
+Nastavte vlastnost jazyka na kombinovaný příznak:
+
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
+
+Aspose se pak pokusí detekovat znaky z obou abeced.
+
+### „PDF soubor je obrovský – jak ho zmenšit?“
+
+Dva rychlé triky:
+
+1. Nastavte `pdfOptions.KeepOriginalImage = false`, čímž odstraníte rastrové pozadí.  
+2. Použijte `pdfOptions.ImageCompression = ImageCompression.Jpeg;` (budete muset přidat tuto vlastnost) pro kompresi vloženého obrázku.
+
+### „Potřebuji licenci pro produkční použití?“
+
+Zkušební verze funguje dobře pro testování, ale pro komerční nasazení musíte zakoupit licenci a zaregistrovat ji co nejdříve ve své aplikaci:
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+---
+
+## Rozšíření řešení
+
+Nyní, když víte, jak **vytvořit searchable PDF**, můžete chtít:
+
+- **Přidat vodoznak** – použijte `PdfDocument` z Aspose.PDF k překrytí textu po OCR.  
+- **Dávkové zpracování PDF** – sloučte více searchable PDF do jednoho pomocí `PdfFileEditor`.  
+- **Integrace s Azure Blob Storage** – čtěte/zapisujte obrázky a PDF streamy přímo z cloudu, čímž eliminujete lokální I/O.
+
+Každé z těchto rozšíření následuje stejný vzor: získáte výsledek OCR, nakonfigurujete další knihovnu a spojíte operace do řetězce.
+
+---
+
+## Závěr
+
+Právě jste se naučili, jak **vytvořit searchable PDF** z PNG obrázku pomocí Aspose.OCR v C#. Inicializací OCR enginu, rozpoznáním textu, konfigurací `SearchablePdfOptions` pro **vložení fontů do PDF** a exportem získáte soubor, který je vizuálně identický s originálem a zároveň plně prohledávatelný.  
+
+Od zde můžete experimentovat s dávkovými konverzemi, různými jazyky nebo silnější kompresí – co nejlépe vyhovuje vašemu workflow. Pokud narazíte na problémy, fóra Aspose a API dokumentace jsou skvělé zdroje, ale výše uvedené kroky pokryjí 90 % typických případů použití.
+
+Šťastné kódování a ať jsou vaše PDF vždy prohledávatelná!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

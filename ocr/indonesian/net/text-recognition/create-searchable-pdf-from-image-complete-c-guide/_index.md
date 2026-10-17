@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-03-23
-description: Buat PDF yang dapat dicari dari gambar menggunakan Aspose OCR. Pelajari
-  cara mengonversi TIFF ke PDF dengan kompresi tinggi dan mengenali teks gambar dalam
-  hitungan menit.
+date: 2026-02-13
+description: Buat PDF yang dapat dicari dari gambar menggunakan Aspose.OCR. Pelajari
+  cara mengonversi gambar ke PDF, mengekstrak teks dari gambar, menyematkan font dalam
+  PDF, dan mengenali teks dari PNG.
 draft: false
 keywords:
 - create searchable pdf
-- convert tiff to pdf
-- high compression pdf
-- recognize image text
-- searchable pdf from image
+- convert image to pdf
+- extract text from image
+- embed fonts in pdf
+- recognize text from png
 language: id
-og_description: Buat PDF yang dapat dicari dari gambar dengan Aspose OCR. Tutorial
-  ini menunjukkan cara mengonversi TIFF ke PDF, menambahkan lapisan teks yang dapat
-  dicari, dan menerapkan kompresi tinggi.
-og_title: Buat PDF yang Dapat Dicari dari Gambar – Panduan Lengkap C#
+og_description: Buat PDF yang dapat dicari dari gambar dengan Aspose.OCR. Panduan
+  ini menunjukkan cara mengonversi gambar ke PDF, menyematkan font, dan mengekstrak
+  teks dari PNG dengan mudah.
+og_title: Buat PDF yang Dapat Dicari dari Gambar – Tutorial C# Langkah demi Langkah
 tags:
-- Aspose OCR
 - C#
+- OCR
+- Aspose
 - PDF generation
 title: Buat PDF yang Dapat Dicari dari Gambar – Panduan Lengkap C#
 url: /id/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
@@ -30,168 +31,214 @@ url: /id/net/text-recognition/create-searchable-pdf-from-image-complete-c-guide/
 
 # Buat PDF yang Dapat Dicari dari Gambar – Panduan Lengkap C#
 
-Pernah membutuhkan untuk **create searchable pdf** dari dokumen yang dipindai tetapi tidak yakin harus mulai dari mana? Anda bukan satu-satunya—banyak pengembang mengalami hal yang sama saat mengubah pemindaian TIFF menjadi PDF yang dapat dicari. Kabar baik? Dengan Aspose OCR Anda dapat **convert tiff to pdf**, menambahkan lapisan teks tersembunyi di atasnya, dan bahkan memperkecil ukuran file dengan opsi **high compression pdf**, semuanya dalam beberapa baris kode C#.
+Pernahkah Anda perlu **membuat PDF yang dapat dicari** dari PNG yang dipindai tetapi tidak yakin harus mulai dari mana? Anda tidak sendirian. Dalam banyak proyek—misalnya digitalisasi faktur atau pengarsipan manual lama—kemampuan mengubah gambar menjadi PDF yang dapat Anda cari benar‑benar merupakan perubahan besar.  
 
-Dalam tutorial ini kami akan membahas seluruh proses: mulai dari menginstal paket NuGet yang tepat, memuat gambar TIFF, mengenali teksnya, dan akhirnya mengekspor PDF yang dapat dicari. Pada akhir tutorial Anda akan memiliki aplikasi console yang dapat dijalankan yang **recognize image text** dan menghasilkan PDF yang kompak, dapat dicari, siap untuk diindeks. Tanpa alat tambahan, tanpa langkah OCR manual—hanya kode bersih dan sedikit penjelasan.
+Dalam tutorial ini kami akan memandu Anda melalui langkah‑langkah tepat untuk **mengonversi gambar ke PDF**, **mengekstrak teks dari gambar**, menyematkan font yang diperlukan, dan akhirnya menghasilkan file PDF yang sepenuhnya dapat dicari. Tanpa referensi yang samar, hanya contoh lengkap yang dapat dijalankan yang dapat Anda salin‑tempel ke Visual Studio hari ini.
 
-## Prasyarat & Apa yang Anda Butuhkan
+> **Apa yang akan Anda dapatkan:** aplikasi konsol C# yang membaca `input.png`, menjalankan OCR, menyematkan font, mempertahankan gambar raster asli sebagai latar belakang, dan menulis `output.pdf`. Pada akhirnya Anda akan memahami *mengapa* setiap baris penting dan bagaimana menyesuaikannya untuk skenario Anda sendiri.
 
-- **.NET 6+** (atau .NET Framework 4.6+). API berfungsi pada keduanya, tetapi .NET 6 memberikan perbaikan runtime terbaru.  
-- **Visual Studio 2022** atau IDE apa pun yang Anda sukai.  
-- Paket NuGet **Aspose.OCR** dan **Aspose.OCR.Gpu** (paket GPU bersifat opsional tetapi mempercepat pengenalan pada perangkat keras yang didukung).  
-- File TIFF contoh (misalnya `invoice.tif`) ditempatkan di folder yang Anda kontrol.  
+---
 
-Jika Anda sudah memiliki semua ini, bagus—lewati saja. Jika belum, langkah instalasi di bawah ini akan mencakup semuanya.
+## Prasyarat
 
-## Langkah 1: Instal Paket Aspose OCR
+- .NET 6.0 SDK atau yang lebih baru (kode ini juga berfungsi dengan .NET Framework 4.7+).  
+- Aspose.OCR untuk .NET – Anda dapat mengunduhnya dari NuGet (`Install-Package Aspose.OCR`).  
+- Sebuah contoh gambar PNG (`input.png`) yang ditempatkan di folder yang Anda kontrol.  
+- Pengetahuan dasar tentang proyek konsol C# (jika Anda belum pernah membuatnya, cukup buka Visual Studio → **Create a new project** → **Console App** → **C#**).
 
-To start, open your project folder in a terminal and run:
+> **Tip:** Aspose menawarkan lisensi percobaan gratis; cukup letakkan file `.lic` di samping executable Anda dan pustaka akan berfungsi tanpa watermark.
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu
-```
+---
 
-Perintah ini mengunduh baik mesin OCR inti maupun pustaka akselerasi GPU. Yang terakhir tidak wajib; mesin akan kembali ke mode CPU jika tidak menemukan GPU yang kompatibel.  
+## Langkah 1: Siapkan Mesin OCR – Kenali Teks dari PNG
 
-> **Pro tip:** Saat menargetkan lingkungan produksi, kunci versi paket di `csproj` Anda untuk menghindari perubahan yang merusak secara tak terduga.
-
-## Langkah 2: Siapkan Kerangka Proyek
-
-Create a new console app (if you don’t already have one):
-
-```bash
-dotnet new console -n PdfExportDemo
-cd PdfExportDemo
-```
-
-Ganti `Program.cs` yang dihasilkan secara otomatis dengan kode lengkap yang ditampilkan nanti. Program akan:
-
-1. Menginisialisasi `OcrEngine` dengan dukungan GPU.  
-2. Memuat gambar TIFF.  
-3. Menjalankan OCR dan menghentikan secara elegan jika gagal.  
-4. Mengonfigurasi **PdfExportOptions** untuk lapisan yang dapat dicari dan **high compression**.  
-5. Menulis file output.
-
-## Langkah 3: Tulis Kode Lengkap (Contoh Penuh)
-
-Berikut adalah file sumber *seluruhnya*. Salin‑tempel ke dalam `Program.cs`. Komentar menjelaskan “mengapa” di balik setiap baris, bukan hanya “apa”.
+Hal pertama yang kita butuhkan adalah mesin OCR yang dapat benar‑benar membaca karakter dalam file PNG. Aspose.OCR membuat hal ini sederhana.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Export;
-using System;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
 
-class PdfExport
+// Initialize the OCR engine with English language support
+OcrEngine ocrEngine = new OcrEngine
+{
+    // Primary language – you can add more if needed
+    Language = OcrLanguage.English
+};
+```
+
+**Mengapa ini penting:**  
+Menetapkan `Language` memberi tahu mesin set karakter apa yang diharapkan. Jika Anda melewatkannya, mesin akan menggunakan mode umum yang mungkin salah mengartikan karakter aksen atau angka. Untuk dokumen multibahasa, Anda dapat memberikan daftar dipisahkan koma seperti `OcrLanguage.English | OcrLanguage.French`.
+
+---
+
+## Langkah 2: Muat dan Kenali Gambar – Ekstrak Teks dari Gambar
+
+Setelah mesin siap, kami memberinya PNG yang ingin diproses.
+
+```csharp
+// Path to the source image; adjust as needed
+string inputPath = @"YOUR_DIRECTORY/input.png";
+
+// Perform OCR – this populates the engine's internal text representation
+ocrEngine.RecognizeImage(inputPath);
+```
+
+**Apa yang terjadi di balik layar?**  
+`RecognizeImage` memindai bitmap, mengidentifikasi blok teks, dan menyimpan hasilnya di `ocrEngine`. Anda dapat mengakses `ocrEngine.Text` nanti jika hanya membutuhkan string mentah, tetapi untuk PDF yang dapat dicari kami akan membiarkan Aspose menangani konversinya secara langsung.
+
+> **Kasus khusus:** Jika PNG Anda sangat besar (lebih dari 10 MB) Anda mungkin kehabisan memori. Dalam hal ini, pertimbangkan untuk mengubah ukuran gambar terlebih dahulu atau menggunakan `OcrEngine.RecognizeImage(Stream)` untuk men-stream data.
+
+---
+
+## Langkah 3: Konfigurasikan Opsi Ekspor PDF – Sematkan Font dalam PDF
+
+PDF yang dapat dicari tidak berguna jika font tidak disematkan; dokumen akan terlihat rusak pada mesin yang tidak memiliki jenis huruf yang diperlukan. Aspose memungkinkan kami mengatur ini dengan objek opsi sederhana.
+
+```csharp
+// Define how the searchable PDF should be built
+SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+{
+    // Guarantees the PDF renders correctly everywhere
+    EmbedFonts = true,
+
+    // Keeps the original raster image as a visual background
+    KeepOriginalImage = true
+};
+```
+
+**Mengapa menyematkan font?**  
+Ketika `EmbedFonts` bernilai `true`, PDF membawa data font di dalam file. Ini memastikan bahwa setiap penampil—Chrome, Adobe Reader, atau aplikasi seluler—menampilkan teks persis seperti yang dimaksud, bahkan ketika sistem target tidak memiliki font tersebut.
+
+**Kapan Anda akan mengatur `KeepOriginalImage` menjadi `false`?**  
+Jika Anda hanya membutuhkan teks yang diekstrak dan menginginkan file yang lebih kecil, mematikan opsi ini akan menghapus gambar latar belakang, meninggalkan PDF “bersih” hanya teks.
+
+---
+
+## Langkah 4: Ekspor ke PDF yang Dapat Dicari – Konversi Gambar ke PDF
+
+Dengan hasil OCR dan opsi PDF yang sudah disiapkan, langkah terakhir adalah satu baris kode yang menulis PDF yang dapat dicari ke disk.
+
+```csharp
+// Destination path for the generated PDF
+string outputPath = @"YOUR_DIRECTORY/output.pdf";
+
+// Export the OCR result as a searchable PDF
+ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+// Let the user know we’re done
+Console.WriteLine("Searchable PDF created.");
+```
+
+**Apa yang akan Anda lihat:**  
+Membuka `output.pdf` di penampil apa pun, Anda dapat memilih teks, menyalin‑tempelnya, dan bahkan menjalankan pencarian (`Ctrl + F`) untuk menemukan kata‑kata yang awalnya hanya berupa piksel dalam PNG.
+
+---
+
+## Contoh Lengkap yang Berfungsi
+
+Berikut adalah program lengkap yang dapat Anda kompilasi dan jalankan segera. Ganti `YOUR_DIRECTORY` dengan folder yang berisi `input.png`.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Output;
+
+class Program
 {
     static void Main()
     {
-        // ------------------------------------------------------------
-        // 1️⃣ Initialise OCR engine with GPU acceleration.
-        //    GpuMode.Enabled tells Aspose to use the GPU if one is present.
-        //    If no compatible GPU exists, the engine automatically falls back
-        //    to CPU mode—no extra code required.
-        // ------------------------------------------------------------
-        using (OcrEngine ocrEngine = new OcrEngine(GpuMode.Enabled))
+        // 1️⃣ Initialize OCR engine – set language to English
+        OcrEngine ocrEngine = new OcrEngine
         {
-            // ------------------------------------------------------------
-            // 2️⃣ Load the source image.
-            //    ImageStream.FromFile supports many formats; here we use TIFF.
-            // ------------------------------------------------------------
-            string inputPath = @"YOUR_DIRECTORY\invoice.tif";
-            ocrEngine.Image = ImageStream.FromFile(inputPath);
+            Language = OcrLanguage.English
+        };
 
-            // ------------------------------------------------------------
-            // 3️⃣ Perform OCR recognition.
-            //    Recognize() returns false if the engine cannot read the image.
-            //    Exiting early prevents us from creating an empty PDF.
-            // ------------------------------------------------------------
-            if (!ocrEngine.Recognize())
-            {
-                Console.WriteLine("OCR failed – check the image path and format.");
-                return;
-            }
+        // 2️⃣ Recognize text from the PNG image
+        string inputPath = @"YOUR_DIRECTORY/input.png";
+        ocrEngine.RecognizeImage(inputPath);
 
-            // ------------------------------------------------------------
-            // 4️⃣ Configure PDF export options.
-            //    IncludeTextLayer = true adds an invisible, searchable text layer.
-            //    CompressionLevel = High reduces file size dramatically.
-            // ------------------------------------------------------------
-            PdfExportOptions pdfExportOptions = new PdfExportOptions
-            {
-                IncludeTextLayer = true,
-                CompressionLevel = PdfCompression.High
-            };
+        // 3️⃣ Prepare PDF options – embed fonts & keep raster background
+        SearchablePdfOptions pdfOptions = new SearchablePdfOptions
+        {
+            EmbedFonts = true,
+            KeepOriginalImage = true
+        };
 
-            // ------------------------------------------------------------
-            // 5️⃣ Save the searchable PDF.
-            //    The output will be a compact, searchable PDF ready for indexing.
-            // ------------------------------------------------------------
-            string outputPath = @"YOUR_DIRECTORY\invoice.pdf";
-            ocrEngine.Save(outputPath, pdfExportOptions);
-            Console.WriteLine($"Searchable PDF saved to: {outputPath}");
-        }
+        // 4️⃣ Export to a searchable PDF file
+        string outputPath = @"YOUR_DIRECTORY/output.pdf";
+        ocrEngine.ExportToSearchablePdf(outputPath, pdfOptions);
+
+        // 5️⃣ Notify the user
+        Console.WriteLine("Searchable PDF created.");
     }
 }
 ```
 
-### Mengapa Ini Berfungsi
-
-- **GPU acceleration** dapat memotong waktu pengenalan dari detik menjadi milidetik pada kartu modern—berguna untuk pemrosesan massal.  
-- **IncludeTextLayer** menyematkan teks hasil OCR secara tak terlihat, memungkinkan penampil PDF mencari dokumen tanpa mengubah tampilan visualnya.  
-- **High compression** menggunakan kompresi Flate (ZIP) pada aliran gambar, yang lossless tetapi mengurangi ukuran file secara dramatis—ideal untuk mengarsipkan ribuan faktur.
-
-## Langkah 4: Jalankan Aplikasi dan Verifikasi Output
-
-Buka terminal di dalam folder proyek dan jalankan:
-
-```bash
-dotnet run
-```
-
-Jika semuanya telah dikonfigurasi dengan benar, Anda akan melihat:
+**Output yang diharapkan di konsol:**
 
 ```
-Searchable PDF saved to: YOUR_DIRECTORY\invoice.pdf
+Searchable PDF created.
 ```
 
-Buka `invoice.pdf` di pembaca PDF apa pun (Adobe Acrobat, Edge, atau bahkan browser). Coba cari kata yang Anda tahu muncul di TIFF asli—misalnya “Total”. Penampil harus menyorot kata tersebut meskipun itu bagian dari gambar. Itu adalah ciri khas **searchable pdf**.
-
-### Ukuran File yang Diharapkan
-
-Faktur yang dipindai biasanya (≈300 KB TIFF) sering menyusut menjadi **~80 KB** setelah menerapkan `PdfCompression.High`. Ukuran pasti tergantung pada kompleksitas gambar, tetapi Anda akan melihat pengurangan yang jelas.
-
-## Langkah 5: Variasi Umum & Kasus Tepi
-
-| Situasi | Apa yang Diubah | Mengapa |
-|-----------|----------------|-----|
-| **Tidak ada GPU tersedia** | Ubah `new OcrEngine(GpuMode.Enabled)` menjadi `new OcrEngine(GpuMode.Disabled)` | Mencegah mesin mencoba inisialisasi GPU, yang dapat menyebabkan penundaan singkat. |
-| **Beberapa halaman (TIFF multi‑halaman)** | Set `ocrEngine.Image = ImageStream.FromFile("multi.tif", PageRange.All);` | Memuat semua frame; Aspose akan memproses setiap halaman dan menghasilkan PDF multi‑halaman. |
-| **Butuh bahasa OCR selain Inggris** | `ocrEngine.Language = Language.French;` (atau bahasa lain yang didukung) | Meningkatkan akurasi untuk dokumen non‑Inggris. |
-| **Ingin overlay teks terlihat alih-alih lapisan tersembunyi** | `pdfExportOptions.IncludeTextLayer = false;` dan tambahkan objek `TextFragment` secara manual. | Berguna ketika Anda ingin teks OCR muncul sebagai teks yang dapat dipilih di atas gambar. |
-| **PDF ultra‑kecil** | Gabungkan `PdfCompression.High` dengan `ImageResolution = 150` DPI sebelum pengenalan. | DPI yang lebih rendah mengurangi data gambar, lebih mengecilkan PDF dengan mengorbankan kualitas visual. |
-
-> **Catatan:** Selalu uji kasus tepi pada sampel kecil sebelum memperluas ke produksi. Akurasi OCR dapat bervariasi tergantung pada kualitas gambar, noise, dan bahasa.
-
-## Langkah 6: Tips untuk Implementasi Siap Produksi
-
-1. **Error Logging** – Ganti `Console.WriteLine` dengan kerangka logging yang tepat (Serilog, NLog) untuk diagnostik yang lebih mudah.  
-2. **Batch Processing** – Bungkus logika inti dalam metode yang menerima jalur input/output, lalu iterasi melalui direktori file TIFF.  
-3. **Async I/O** – Meskipun Aspose OCR sendiri bersifat sinkron, memuat dan menyimpan file dapat dilakukan secara async untuk menjaga thread UI tetap responsif.  
-4. **Security** – Jika Anda mengekspos fungsi ini melalui API web, validasi jalur file dan batasi ukuran file untuk mencegah penyalahgunaan.  
-5. **Version Pinning** – Gunakan nomor versi yang tepat (`<PackageReference Include="Aspose.OCR" Version="23.12.0" />`) untuk menjamin perilaku konsisten di seluruh build.
-
-## Kesimpulan
-
-Kami baru saja membangun **solusi lengkap, end‑to‑end** yang **create searchable pdf** dari gambar yang dipindai, **convert tiff to pdf**, dan melakukannya dengan pengaturan **high compression pdf** sambil **recognize image text** secara akurat. **searchable pdf from image** yang dihasilkan ringan, dapat dicari, dan siap untuk alur kerja hilir seperti pengindeksan, pengarsipan, atau e‑discovery.
-
-Punya sekumpulan faktur? Sambungkan metode ke dalam loop, arahkan ke folder, dan biarkan Aspose OCR melakukan pekerjaan berat. Ingin bereksperimen dengan tingkat kompresi atau paket bahasa yang berbeda? Kode cukup modular untuk menukar opsi tersebut dalam hitungan detik.
+Buka `output.pdf` dan coba cari kata yang Anda tahu muncul di `input.png`. Jika kata tersebut disorot, Anda telah berhasil **membuat PDF yang dapat dicari** dari sebuah gambar.
 
 ---
 
-*Siap untuk naik level?* Coba tambahkan watermark, sematkan metadata, atau bahkan gabungkan beberapa PDF yang diproses OCR menjadi satu. Suite Aspose menawarkan banyak ekstensi—telusuri dokumentasinya dan pertahankan momentum. Selamat coding!
+## Pertanyaan Umum & Tips Pro
 
-![Contoh screenshot PDF yang dapat dicari dari gambar](https://example.com/images/create-searchable-pdf.png "contoh pdf yang dapat dicari")
+### “Bisakah saya memproses banyak gambar dalam satu kali jalankan?”
+
+Tentu saja. Bungkus logika pengenalan dan ekspor dalam sebuah loop, mungkin menggunakan `Directory.GetFiles(..., "*.png")`. Ingatlah untuk memberi setiap PDF nama yang unik, misalnya `Path.GetFileNameWithoutExtension(img) + ".pdf"`.
+
+### “Bagaimana jika dokumen saya berisi teks dalam bahasa Inggris dan Spanyol?”
+
+Atur properti bahasa ke flag gabungan:
+
+```csharp
+ocrEngine.Language = OcrLanguage.English | OcrLanguage.Spanish;
+```
+
+Aspose kemudian akan mencoba mendeteksi karakter dari kedua alfabet.
+
+### “File PDF terlalu besar—bagaimana cara memperkecilnya?”
+
+Dua trik cepat:
+
+1. Atur `pdfOptions.KeepOriginalImage = false` untuk menghilangkan latar belakang raster.  
+2. Gunakan `pdfOptions.ImageCompression = ImageCompression.Jpeg;` (Anda perlu menambahkan properti ini) untuk mengompres gambar yang disematkan.
+
+### “Apakah saya memerlukan lisensi untuk penggunaan produksi?”
+
+Versi percobaan berfungsi baik untuk pengujian, tetapi untuk penyebaran komersial Anda harus membeli lisensi dan mendaftarkannya di awal aplikasi Anda:
+
+```csharp
+Aspose.OCR.License license = new Aspose.OCR.License();
+license.SetLicense("Aspose.OCR.lic");
+```
+
+---
+
+## Memperluas Solusi
+
+Sekarang Anda tahu cara **membuat PDF yang dapat dicari**, Anda mungkin ingin:
+
+- **Menambahkan watermark** – gunakan `PdfDocument` dari Aspose.PDF untuk menimpa teks setelah OCR.  
+- **Memproses PDF secara batch** – gabungkan beberapa PDF yang dapat dicari menjadi satu menggunakan `PdfFileEditor`.  
+- **Integrasikan dengan Azure Blob Storage** – baca/tulis aliran gambar dan PDF langsung dari cloud, menghilangkan I/O file lokal.
+
+Setiap ekstensi ini mengikuti pola yang sama: dapatkan hasil OCR, konfigurasikan pustaka berikutnya, dan rangkaian operasi.
+
+---
+
+## Kesimpulan
+
+Anda baru saja belajar cara **membuat PDF yang dapat dicari** dari gambar PNG menggunakan Aspose.OCR di C#. Dengan menginisialisasi mesin OCR, mengenali teks, mengkonfigurasi `SearchablePdfOptions` untuk **menyematkan font dalam PDF**, dan mengekspor, Anda mendapatkan file yang secara visual identik dengan aslinya dan sepenuhnya dapat dicari.  
+
+Mulai dari sini, silakan bereksperimen dengan konversi batch, bahasa yang berbeda, atau kompresi yang lebih ketat—apa pun yang sesuai dengan alur kerja Anda. Jika Anda menemukan kejanggalan, forum Aspose dan dokumentasi API adalah sumber yang solid, tetapi langkah‑langkah inti di atas akan mencakup 90 % dari kasus penggunaan umum.
+
+Selamat coding, dan semoga PDF Anda selalu dapat dicari!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
