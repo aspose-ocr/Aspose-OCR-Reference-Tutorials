@@ -1,0 +1,7 @@
+Title: Detect Language from Image in C# – Complete Programming Guide
+Slug: detect-language-from-image-in-c-complete-programming-guide
+Category: ocr-configuration
+ProcessedDate: 2026-06-16T11:23:07.305380
+SourceRepo: AI Search API
+Keywords: detect language from image, recognize text from image c#
+PRNumber: 144

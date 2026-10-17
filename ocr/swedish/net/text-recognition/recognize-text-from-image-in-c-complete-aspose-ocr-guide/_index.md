@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-03-26
-description: Lär dig hur du känner igen text från en bild med Aspose OCR i C#. Inkluderar
-  steg för att extrahera text från png och snabbt konvertera bild till text i C#.
+date: 2026-03-07
+description: Känn igen text från bild snabbt med Aspose OCR. Lär dig hur du konverterar
+  djvu till text, extraherar text från bild och laddar bild för OCR i en steg‑för‑steg
+  C#‑handledning.
 draft: false
 keywords:
 - recognize text from image
-- extract text from png
-- convert image to text c#
-- Aspose OCR C#
-- image to text conversion
+- convert djvu to text
+- how to extract text from image
+- extract text from djvu
+- load image for OCR
 language: sv
-og_description: Känn igen text från bild i C# med Aspose OCR. Steg‑för‑steg‑kod för
-  att extrahera text från png och konvertera bild till text i C# på ett effektivt
-  sätt.
-og_title: igenkänna text från bild i C# – Komplett Aspose OCR-guide
+og_description: Igenkänna text från en bild i C# med Aspose OCR. Denna guide visar
+  hur du konverterar djvu till text, extraherar text från en bild och laddar en bild
+  för OCR med praktiska tips.
+og_title: igenkänna text från bild – Fullständig C# Aspose OCR-handledning
 tags:
 - C#
-- OCR
-- Aspose
-- Image Processing
-title: Igenkänn text från bild i C# – Komplett Aspose OCR‑guide
+- Aspose OCR
+- Document Processing
+title: igenkänna text från bild i C# – Komplett Aspose OCR‑guide
 url: /sv/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
 
@@ -28,197 +28,198 @@ url: /sv/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# känna igen text från bild i C# – Komplett Aspose OCR-guide
+# känna igen text från bild – Fullständig C# Aspose OCR-handledning
 
-Har du någonsin behövt **känna igen text från bild** men varit osäker på vilket bibliotek du ska välja? Du är inte ensam. I många verkliga applikationer—tänk kvittoskannrar, ID‑verifiering eller enkla PDF‑till‑redigerbar‑text‑konverterare—kan det kännas som att leta efter en nål i en höstack att få pålitliga OCR‑resultat i C#.
+Har du någonsin behövt **känna igen text från bild** men varit osäker på vilket bibliotek som ger pålitliga resultat? Du är inte ensam. Oavsett om du arbetar med skannade fakturor, historiska DJVU‑filer eller en enkel PNG‑skärmdump kan det kännas som att avkoda ett gammalt manuskript.
 
-Den goda nyheten? Med Aspose OCR kan du **extract text from png** filer på några få rader, och hela processen att **convert image to text C#**‑stil blir nästan trivial. I den här handledningen går vi igenom varje steg, förklarar varför varje del är viktig, och ger dig ett färdigt exempel som du kan klistra in i ditt eget projekt.
+Poängen är den – Aspose OCR gör hela processen till en barnlek. I den här guiden går vi igenom hur du **konverterar djvu till text**, **extraherar text från bild** och **laddar bild för OCR** med ett kompakt C#‑program. I slutet har du en körbar konsolapp som skriver ut den igenkända strängen till konsolen, och du förstår “varför” bakom varje rad.
 
-## Vad du behöver
+## Vad du kommer att lära dig
 
-- .NET 6 (eller någon nyare .NET‑runtime) – API‑et fungerar både med .NET Core och .NET Framework.  
-- En utvärderings‑ eller kommersiell licens för Aspose OCR – den kostnadsfria versionen lägger till ett vattenmärke om du inte inaktiverar det.  
-- En PNG‑bild som du vill bearbeta (t.ex. `sample.png`).  
-- Visual Studio 2022 eller någon C#‑redigerare du föredrar.  
+- Hur du sätter upp Aspose OCR‑motorn i ett .NET‑projekt.  
+- Den exakta koden som behövs för att **ladda bild för OCR** från en DJVU‑fil.  
+- Varför du ska anropa `Recognize()` innan du läser `Text`.  
+- Vanliga fallgropar (flersidiga DJVU, format som inte stöds) och hur du undviker dem.  
+- Snabba sätt att **konvertera djvu till text** för batch‑bearbetning.
 
-Om du har kryssat i dessa rutor är du redo. Annars, hämta en snabb kopia av biblioteket från [Aspose OCR download page](https://downloads.aspose.com/ocr) och håll `.lic`‑filen till hands.
+Allt du behöver är ett aktuellt .NET‑SDK (≥ 6.0) och en Aspose OCR‑licens (gratis provversion räcker för testning). Inga externa tjänster, inga REST‑anrop – bara ren C#.
 
-## Steg 1: Installera Aspose OCR NuGet‑paketet
+## Förutsättningar
 
-Det enklaste sättet att lägga till Aspose OCR i ditt projekt är via NuGet. Öppna Package Manager Console och kör:
+| Krav | Orsak |
+|-------------|--------|
+| .NET 6 SDK eller senare | Moderna språkfunktioner och bättre prestanda. |
+| Aspose.OCR NuGet‑paket (`Install-Package Aspose.OCR`) | Tillhandahåller `OcrEngine`‑klassen vi ska använda. |
+| En DJVU‑fil (t.ex. `sample.djvu`) | Demonstrerar **konvertera djvu till text**. |
+| Grundläggande kunskap om C#‑konsolappar | Gör stegen mer naturliga. |
 
-```powershell
-Install-Package Aspose.OCR
+Om någon av dessa saknas, pausa och installera dem nu; annars kommer koden inte att kompilera.
+
+## Steg 1 – Installera Aspose.OCR och skapa projektet
+
+Börja med att skapa ett nytt konsolprojekt och hämta OCR‑biblioteket.
+
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
+dotnet add package Aspose.OCR
 ```
 
-> **Pro tip:** Om du kör i en CI/CD‑pipeline, lägg till paketreferensen i din `.csproj` så att byggen förblir reproducerbara.
+*Proffstips:* Använd flaggan `--framework net6.0` om du vill låsa mål‑frameworket explicit.
 
-Att installera paketet löser alla nödvändiga beroenden, så du slipper leta efter inhemska DLL‑filer senare.
+## Steg 2 – Initiera OCR‑motorn och ladda DJVU‑bilden
 
-## Steg 2: Ladda din utvärderingslicens (och inaktivera vattenmärket)
-
-Aspose OCR levereras med en provlicens som sätter ett svagt vattenmärke på utdata‑bilden. Eftersom vi bara är intresserade av den extraherade texten kan vi stänga av det:
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.License;
-
-// Load the license file – replace the path with your actual location
-var ocrLicense = new License();
-ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-
-// Turn off the preview watermark (only works with evaluation licenses)
-ocrLicense.Options.DisableWatermark = true;
-```
-
-**Varför detta är viktigt:** Utan en giltig licens fungerar motorn fortfarande, men vattenmärket kan störa efterföljande bildbehandling om du någonsin bestämmer dig för att spara den annoterade bilden.
-
-## Steg 3: Skapa OCR‑motorinstansen
-
-`OcrEngine` är hjärtat i operationen. Den innehåller konfiguration som språk, igenkänningsläge och prestandajusteringar.
-
-```csharp
-// Initialise the OCR engine with default settings
-var ocrEngine = new OcrEngine();
-
-// Optional: set language to English if you know the image contains only English text
-ocrEngine.Language = Language.English;
-```
-
-> **Edge case:** Om din bild innehåller blandade språk kan du skicka en array som `new[] { Language.English, Language.Spanish }`. Motorn kommer att försöka upptäcka varje region automatiskt.
-
-## Steg 4: Ladda PNG‑bilden du vill bearbeta
-
-Aspose OCR fungerar med många format, men här fokuserar vi på PNG eftersom det bevarar förlustfri kvalitet – en nyckelfaktor när **extract text from png**.
-
-```csharp
-// Load the image from disk – ensure the path is correct
-var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
-
-// You can also load from a stream if the image is coming from a web request
-// var ocrImage = OcrImage.FromStream(myStream);
-```
-
-> **Varför PNG?** PNG‑filer behåller varje pixel intakt, så OCR‑algoritmer får en tydligare bild av tecken jämfört med kraftigt komprimerade JPEG‑filer.
-
-## Steg 5: Känn igen texten
-
-Nu händer magin. Metoden `Recognize` kör OCR‑pipen och returnerar ett `OcrResult`‑objekt.
-
-```csharp
-// Perform the recognition
-OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
-```
-
-Om du behöver justera noggrannheten kan du aktivera `ocrEngine.Options.UseAdvancedSegmentation = true;` – detta hjälper på bilder med snedvriden text eller brusiga bakgrunder.
-
-## Steg 6: Visa (eller lagra) den extraherade texten
-
-Till sist, skriv ut resultatet till konsolen, en fil eller någon efterföljande tjänst.
-
-```csharp
-// Write the recognized text to the console
-Console.WriteLine("=== Recognized Text ===");
-Console.WriteLine(ocrResult.Text);
-
-// Optionally, save to a .txt file
-System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
-```
-
-**Förväntad output** (förutsatt att `sample.png` innehåller “Hello World!”):
-
-```
-=== Recognized Text ===
-Hello World!
-```
-
-Det är allt som behövs för att **convert image to text C#**‑stil med Aspose OCR.
-
-## Fullt, färdigt‑att‑köra‑exempel
-
-Nedan är det kompletta programmet som knyter ihop alla delar. Kopiera, klistra in och tryck F5.
+Motorn behöver en bildkälla. Aspose.OCR kan läsa många format, inklusive DJVU, så vi pekar helt enkelt på filvägen.
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.License;
+using Aspose.OCR.Image;
 
-class OcrTutorial
+// Step 2: Create the OCR engine instance
+var ocrEngine = new OcrEngine();
+
+// Load the DJVU file – the first page is used by default
+// This demonstrates “load image for OCR” and also “convert djvu to text”
+ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
+```
+
+**Varför detta är viktigt:**  
+- `OcrEngine` är startpunkten; att skapa den en gång och återanvända den minskar minnes‑churn.  
+- `ImageStream.FromFile` abstraherar bort filformatet, så du senare kan ersätta DJVU‑filen med en PNG eller TIFF utan att ändra någon annan kod – perfekt för “hur man extraherar text från bild” i olika scenarier.
+
+## Steg 3 – Kör igenkänningsprocessen
+
+Att anropa `Recognize()` startar det tunga arbetet. Under huven använder Aspose en neuronnäts‑baserad klassificerare som fungerar på både tryckt och handskriven text.
+
+```csharp
+// Step 3: Perform OCR on the loaded image
+ocrEngine.Recognize();
+```
+
+*Edge‑case‑notering:* Om din DJVU innehåller flera sidor laddar `ImageStream.FromFile` fortfarande bara den första sidan. För att bearbeta alla sidor måste du loopa över `ImageStream.FromFile(...).Pages`. För de flesta snabba uppgifter räcker den första sidan.
+
+## Steg 4 – Hämta och visa den igenkända texten
+
+Efter igenkänning fyller motorn egenskapen `Text` med en ren‑text‑sträng. Du kan nu skriva ut den till konsolen, en fil eller skicka den vidare till ett annat system.
+
+```csharp
+// Step 4: Get the OCR result
+string recognizedText = ocrEngine.Text;
+
+// Output the result
+Console.WriteLine("=== Recognized Text ===");
+Console.WriteLine(recognizedText);
+```
+
+Typisk utskrift ser ut så här:
+
+```
+=== Recognized Text ===
+This is a sample DJVU page.
+It contains several lines of text,
+including numbers like 12345.
+```
+
+Om utskriften är förvrängd, dubbelkolla att källbilden inte har låg upplösning; Aspose rekommenderar 300 dpi eller högre för bästa precision.
+
+## Fullt fungerande exempel
+
+Sätter vi ihop allt får vi en enda fil (`Program.cs`) som du kan klistra in i projektet du skapade tidigare.
+
+```csharp
+// Program.cs
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Load the evaluation license
-        var ocrLicense = new License();
-        ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-        ocrLicense.Options.DisableWatermark = true; // hide the preview watermark
-
-        // 2️⃣ Create the OCR engine
-        var ocrEngine = new OcrEngine
+        static void Main(string[] args)
         {
-            Language = Language.English // set language if known
-        };
+            // 1️⃣ Create OCR engine
+            var ocrEngine = new OcrEngine();
 
-        // 3️⃣ Load the PNG image you want to read
-        var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
+            // 2️⃣ Load the DJVU file (first page only)
+            // Replace the path with your actual file location
+            ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
 
-        // 4️⃣ Recognize text from the image
-        OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
+            // 3️⃣ Run the recognition
+            ocrEngine.Recognize();
 
-        // 5️⃣ Output the extracted text
-        Console.WriteLine("=== Recognized Text ===");
-        Console.WriteLine(ocrResult.Text);
+            // 4️⃣ Retrieve and print the text
+            string recognizedText = ocrEngine.Text;
 
-        // 6️⃣ (Optional) Save the text to a file for later use
-        System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
+            Console.WriteLine("=== Recognized Text ===");
+            Console.WriteLine(recognizedText);
+        }
     }
 }
 ```
 
-> **Tip:** Omge OCR‑anropet med ett `try/catch`‑block för att hantera korrupta filer på ett smidigt sätt. Biblioteket kastar `Aspose.OCR.Exceptions.OcrException` för format som inte stöds.
+Kör den med:
 
-## Vanliga frågor & fallgropar
-
-### “Vad händer om min PNG innehåller mycket brus?”
-
-Aktivera förbehandling:
-
-```csharp
-ocrEngine.Options.UseNoiseRemoval = true;
-ocrEngine.Options.Deskew = true; // auto‑correct slight rotation
+```bash
+dotnet run
 ```
 
-Dessa flaggor förbättrar noggrannheten på skannade kvitton eller fotograferade dokument.
+Du bör se den extraherade strängen skrivas ut i terminalen. Detta är det enklaste sättet att **känna igen text från bild** med Aspose OCR.
 
-### “Kan jag bearbeta bilder i en loop?”
+## Steg 5 – Avancerat: Konvertera flera DJVU‑sidor till textfiler
 
-Absolut. Återanvänd samma `OcrEngine`‑instans för bättre prestanda:
+Om du behöver **konvertera djvu till text** i bulk, utöka föregående kod med en loop:
 
 ```csharp
-foreach (var file in Directory.GetFiles(@"C:\Batch", "*.png"))
+var djvuPath = @"YOUR_DIRECTORY/multi_page.djvu";
+var stream = ImageStream.FromFile(djvuPath);
+
+for (int i = 0; i < stream.PageCount; i++)
 {
-    var img = OcrImage.FromFile(file);
-    var result = ocrEngine.Recognize(img);
-    Console.WriteLine($"{Path.GetFileName(file)} → {result.Text}");
+    ocrEngine.Image = stream.GetPage(i);
+    ocrEngine.Recognize();
+
+    var pageText = ocrEngine.Text;
+    System.IO.File.WriteAllText(
+        $"page_{i + 1}.txt",
+        pageText);
 }
 ```
 
-### “Finns det en gräns för bildstorlek?”
+*Varför detta fungerar:* `GetPage(i)` returnerar ett `Image`‑objekt för den begärda sidan, vilket låter dig återanvända samma `OcrEngine`‑instans. Varje sidas text hamnar i sin egen `.txt`‑fil, vilket ger dig en ren **konvertera djvu till text**‑pipeline.
 
-Motorn fungerar med bilder upp till flera megapixlar, men mycket stora filer kan förbruka mycket minne. Om du får `OutOfMemoryException` bör du överväga att skala ner bilden innan du matar den till motorn.
+## Vanliga frågor & fallgropar
 
-## Visuell sammanfattning
+- **Kan jag extrahera text från en JPEG istället för DJVU?**  
+  Absolut. Byt bara filändelsen i `FromFile`. Samma kod **hur man extraherar text från bild** gäller eftersom Aspose abstraherar formatet.
 
-![känna igen text från bild med Aspose OCR i C#](image.png "exempel på känna igen text från bild")
+- **Vad händer om OCR‑resultatet innehåller extra radbrytningar?**  
+  Använd `String.Replace("\r\n", " ")` eller ett reguljärt uttryck för att normalisera whitespace.
 
-*Skärmbilden ovan visar konsolutdata efter att ha kört det kompletta programmet.*
+- **Behöver jag en licens för produktionsbruk?**  
+  Gratisprovversionen fungerar upp till 100 sidor. För obegränsad användning köper du en licens och anropar `License license = new License(); license.SetLicense("Aspose.OCR.lic");` innan du skapar motorn.
 
-## Sammanfattning
+- **Är motorn trådsäker?**  
+  Nej. Skapa en separat `OcrEngine` per tråd eller skydda åtkomst med en låsning.
 
-Vi har gått igenom allt du behöver för att **recognize text from image** med Aspose OCR, från att installera NuGet‑paketet till att hantera brusiga PNG‑filer och spara resultaten. I slutet av den här guiden bör du kunna **extract text from png**‑filer och **convert image to text C#**‑stil med självförtroende.
+## Tips för bättre precision
 
-Nästa steg? Försök att skicka OCR‑resultatet till en naturlig språk‑processor, eller kombinera det med en PDF‑generator för att skapa sökbara PDF‑filer i realtid. Om du är nyfiken på flerspråkigt stöd, byt `Language.English` mot `Language.AutoDetect` och se motorn hantera flera skript automatiskt.
+1. **Öka DPI** – Om du styr källkonverteringen, exportera bilder med 300 dpi eller högre.  
+2. **Förbehandla bilden** – En enkel binarisering (`ocrEngine.Image = ImageProcessing.Binarize(ocrEngine.Image)`) kan förbättra resultat på brusiga skanningar.  
+3. **Ange språk** – `ocrEngine.Language = Language.English;` begränsar teckenuppsättningen och snabbar upp igenkänningen.
 
-Har du en knepig bild som vägrar samarbeta? Lämna en kommentar nedan så felsöker vi tillsammans. Lycka till med kodandet!
+## Slutsats
+
+Du har nu ett komplett, körklart exempel som **känner igen text från bild** med Aspose OCR, och du har sett hur du **konverterar djvu till text**, **hur du extraherar text från bild**, samt det korrekta sättet att **ladda bild för OCR**. Koden är självständig, fungerar på alla .NET 6+‑miljöer och kan utökas för batch‑bearbetning av flersidiga DJVU‑dokument.
+
+Nästa steg kan vara att utforska:
+
+- Lägga till **språkdetection** för flerspråkiga DJVU‑filer.  
+- Integrera OCR‑utdata med ett sökindex (t.ex. Elasticsearch).  
+- Använda Asposes PDF‑konvertering för att göra den extraherade texten sökbar i PDF‑filer.
+
+Ge det ett försök, justera DPI, experimentera med olika bildformat, och låt OCR‑motorn göra det tunga arbetet åt dig. Lycka till med kodandet!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,12 +1,11 @@
 ---
-date: 2025-12-22
-description: Apprenez à reconnaître le texte à partir d’une image en utilisant Aspose.OCR
-  pour .NET, en convertissant l’image en texte avec des paramètres de reconnaissance
-  OCR précis.
-linktitle: recognize text from image – Perform OCR on Image from URL
+date: 2026-02-25
+description: Apprenez à convertir une image en texte avec Aspose.OCR pour .NET, en
+  extrayant le texte de l'image grâce à des paramètres de reconnaissance OCR précis.
+linktitle: convert image to text – Perform OCR on Image from URL
 second_title: Aspose.OCR .NET API
-title: Reconnaître le texte d’une image – Effectuer une OCR sur une image à partir
-  d’une URL
+title: Convertir l'image en texte – Effectuer une reconnaissance optique de caractères
+  sur l'image depuis une URL
 url: /fr/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
@@ -15,39 +14,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Effectuer l'OCR sur une image depuis une URL dans la reconnaissance d'image OCR
+# Convertir une image en texte – Effectuer une OCR sur une image depuis une URL
 
 ## Introduction
 
-Dans le domaine de la reconnaissance optique de caractères (OCR), Aspose.OCR pour .NET vous permet de **reconnaître du texte à partir d'une image** avec précision, offrant aux développeurs la capacité d'extraire du contenu d'images sans effort. Si vous souhaitez intégrer des fonctionnalités OCR dans votre application .NET et effectuer la reconnaissance de texte depuis une source distante, ce guide pas à pas vous accompagnera tout au long du processus d'exécution d'OCR sur une image à partir d'une URL.
+Si vous devez **convertir une image en texte** dans une application .NET, Aspose.OCR pour .NET vous offre un moyen fiable d’extraire du texte à partir d’images hébergées n’importe où sur le web. Dans ce tutoriel, vous apprendrez à reconnaître le texte d’une image située à une URL publique, à configurer les paramètres de reconnaissance OCR et à gérer le résultat — le tout en quelques minutes seulement.
 
-## Réponses rapides
-- **Que couvre ce tutoriel ?** Reconnaître du texte à partir d'une image située à une URL publique en utilisant Aspose.OCR pour .NET.
-- **Quel mot clé principal est ciblé ?** *reconnaître le texte de l'image*
-- **Dois-je avoir une licence ?** Un essai est disponible, mais une licence commerciale est requise pour une utilisation en production.
-- **Quelles versions de .NET sont prises en charge ?** .NET Framework4.5+, .NETCore3.1+, .NET5/6+.
-- **Combien de temps prend la mise en œuvre ?** Typiquement moins de 10minutes pour une configuration de base.
+## Quick Answers
+- **Que couvre ce tutoriel ?** Conversion d’une image en texte depuis une URL publique à l’aide d’Aspose.OCR pour .NET.  
+- **Quel mot‑clé principal est ciblé ?** *convert image to text*  
+- **Ai‑je besoin d’une licence ?** Une version d’essai est disponible, mais une licence commerciale est requise pour une utilisation en production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Combien de temps prend l’implémentation ?** Généralement moins de 10 minutes pour une configuration de base.
 
-## Qu'est-ce que « reconnaître le texte à partir d'une image » ?
-Reconnaître du texte à partir d'une image signifie convertir la représentation visuelle des caractères en texte éditable et interrogeable. Ce processus est souvent appelé **convertir une image en texte** ou **extraire du texte d'une image**, et il alimente des scénarios tels que la numérisation de documents, l'automatisation de la saisie de données et l'amélioration de l'accessibilité.
+## Qu’est‑ce que le “convert image to text” ?
+Convertir une image en texte signifie transformer la représentation visuelle des caractères en chaînes éditables et recherchables. Ce processus — également appelé **extract text from image** — alimente la numérisation de documents, l’automatisation de la saisie de données et les solutions d’accessibilité.
 
-## Pourquoi utiliser Aspose.OCR pour .NET ?
-- **Haute précision** avec prise en charge linguistique intégrée.
-- **Paramètres de reconnaissance OCR à granularité fine** (par exemple, inclinaison automatique, détection de zone).
-- **API simple** qui fonctionne à la fois avec .NET Framework et .NET Core.
-- **Aucune dépendance externe** – tout s'exécute localement.
+## Pourquoi utiliser Aspose.OCR pour .NET pour convertir une image en texte ?
+- **Haute précision** avec prise en charge intégrée des langues et extensions optionnelles **OCR language pack**.  
+- **Paramètres de reconnaissance OCR granulaire** tels que l’auto‑décalage, la détection de zones et la gestion multi‑ligne.  
+- **API simple** qui fonctionne à la fois avec .NET Framework et .NET Core sans dépendances externes.  
+- **Support direct des URL** – vous pouvez **recognize text from URL** sans télécharger l’image au préalable, bien que vous ayez également la possibilité de **download image for OCR** si nécessaire.
 
 ## Prérequis
 
-Avant de Sous-marin dans le tutoriel, assurez-vous d'avoir les prérequis suivants :
+Avant de commencer, assurez‑vous d’avoir :
 
-- Aspose.OCR pour .NET : assurez-vous d'avoir la bibliothèque Aspose.OCR intégrée à votre projet .NET. Vous pouvez le télécharger depuis la [page de version](https://releases.aspose.com/ocr/net/).
+- Aspose.OCR pour .NET installé. Téléchargez la dernière bibliothèque depuis la [release page](https://releases.aspose.com/ocr/net/).  
+- Un environnement de développement .NET (Visual Studio, VS Code ou votre IDE préféré).  
+- Un accès Internet pour récupérer l’image que vous souhaitez traiter.
 
-- Environnement de développement : disposez d'un environnement de développement .NET fonctionnel installé sur votre machine.
+## Import Namespaces
 
-## Importer des espaces de noms
-
-Dans votre projet .NET, incluez les espaces de noms nécessaires pour accéder aux fonctionnalités Aspose.OCR. Ajoutez le fragment de code suivant à votre projet :
+Ajoutez les espaces de noms requis afin de pouvoir travailler avec les classes Aspose.OCR :
 
 ```csharp
 using System;
@@ -58,35 +57,31 @@ using Aspose.OCR;
 using Aspose.OCR.Models;
 ```
 
-## Comment reconnaître le texte d'une image à l'aide d'une URL ?
+## Guide étape par étape pour convertir une image en texte depuis une URL
 
-### Étape 1 : Configurez votre répertoire de documents
-
-Commencez par préciser le répertoire où vos documents sont stockés. Remplacez `"Your Document Directory"` par le chemin réel vers vos documents.
+### Étape 1 : Configurer votre répertoire de documents
+Définissez l’endroit où vous stockerez les fichiers temporaires ou les résultats.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-### Étape 2 : Obtenez l'image pour la reconnaissance
-
-Fournissez l'URL de l'image sur laquelle vous souhaitez exécuter l'OCR. Assurez-vous que l'image est accessible publiquement.
+### Étape 2 : Fournir l’URL de l’image
+Indiquez une URL accessible publiquement. Si l’image nécessite une authentification, vous devrez d’abord **download image for OCR** puis utiliser un flux à la place.
 
 ```csharp
 string uri = "https://qph.fs.quoracdn.net/main-qimg-0ff82d0dc3543dcd3b06028f5476c2e4";
 ```
 
-### Étape 3 : Initialiser AsposeOcr
-
-Créez une instance de la classe AsposeOcr pour aux fonctionnalités OCR.
+### Étape 3 : Initialiser le moteur AsposeOcr
+Créez une instance du moteur OCR.
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Étape 4 : Reconnaître l'image
-
-Utilisez la bibliothèque Aspose.OCR pour reconnaître le texte à partir de l'URL d'image spécifiée. Ajustez les paramètres de reconnaissance selon vos besoins.
+### Étape 4 : Configurer les paramètres de reconnaissance OCR
+Affinez la façon dont le moteur traite l’image. Ici nous activons la détection de zones, l’auto‑skew et spécifions deux rectangles personnalisés à titre d’exemple de **ocr recognition settings**.
 
 ```csharp
 RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSettings
@@ -102,9 +97,10 @@ RecognitionResult result = api.RecognizeImageFromUri(uri, new RecognitionSetting
 });
 ```
 
-### Étape 5 : Imprimer le résultat
+> **Pro tip :** Si vous n’avez pas besoin de zones personnalisées, définissez `DetectAreas = false` et laissez le moteur localiser automatiquement les blocs de texte.
 
-Affichez le résultat de la reconnaissance, incluant le texte reconnu, les zones détectées et les éventuels avertissements.
+### Étape 5 : Produire le résultat OCR
+Affichez le texte reconnu, les zones détectées, les éventuels avertissements et la charge JSON complète pour le débogage.
 
 ```csharp
 Console.WriteLine($"Text:\n {result.RecognitionText}");
@@ -115,9 +111,8 @@ result.Warnings.ForEach(w => Console.WriteLine($"{w}"));
 Console.WriteLine($"JSON: {result.GetJson()}");
 ```
 
-### Étape 6 : Exécuter et vérifier
-
-Exécutez votre application, et si tout est correctement configuré, vous devriez voir le processus OCR s'exécuter avec succès.
+### Étape 6 : Confirmer l’exécution réussie
+Un simple message de confirmation vous indique que le processus s’est terminé sans exception.
 
 ```csharp
 Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
@@ -125,41 +120,36 @@ Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 
 ## Problèmes courants et solutions
 
-- **Image non accessible au public** – Vérifiez que l'URL fonctionne dans un navigateur. Si l'image nécessite une authentification, téléchargez‑la d'abord et utilisez `RecognizeImageFromStream`.
-- **Zones de reconnaissance incorrectes** – Ajustez les valeurs du `Rectangle` ou définissez `DetectAreas = false` pour laisser le moteur détecter automatiquement.
-- **Langue non reconnue** – Assurez-vous que le pack de langue approprié est installé ou défini `Language = "eng"` (ou autre code ISO) dans `RecognitionSettings`.
+- **Image non accessible publiquement** – Vérifiez que l’URL fonctionne dans un navigateur. Pour les images protégées, téléchargez‑les d’abord et appelez `RecognizeImageFromStream`.  
+- **Les zones de reconnaissance sont incorrectes** – Ajustez les valeurs de `Rectangle` ou désactivez `DetectAreas` pour laisser le moteur détecter automatiquement.  
+- **Langue non reconnue** – Installez le **OCR language pack** approprié et définissez `Language = "eng"` (ou un autre code ISO) dans `RecognitionSettings`.  
 
-## Questions fréquemment posées
+## FAQ
 
-### Q1 : Aspose.OCR est-il adapté à la gestion de plusieurs langues ?
+### Q1 : Aspose.OCR convient‑il à la gestion de plusieurs langues ?
+**R :** Oui. En ajoutant le **ocr language pack** correspondant, vous pouvez reconnaître du texte dans des dizaines de langues.
 
-A1 : Oui, Aspose.OCR prend en charge la reconnaissance de texte dans différentes langues, ce qui le rend polyvalent pour les applications internationales.
+### Q2 : Puis‑je utiliser Aspose.OCR pour l’extraction de texte à ligne unique et multi‑ligne ?
+**R :** Absolument. Activez ou désactivez `RecognizeSingleLine` dans `RecognitionSettings` selon votre scénario.
 
-### Q2 : Puis-je utiliser Aspose.OCR pour la reconnaissance de texte sur une seule ligne et sur plusieurs lignes ?
+### Q3 : Existe‑t‑il des options de licence pour les projets commerciaux ?
+**R :** Oui, vous pouvez explorer les options de licence et acheter une licence complète sur la [Aspose store](https://purchase.aspose.com/buy).
 
-R2 : Absolument ! Aspose.OCR offre une grande flexibilité pour la reconnaissance de texte sur une seule ligne ou sur plusieurs lignes, s’adaptant ainsi à votre cas d’utilisation spécifique.
+### Q4 : Une version d’essai gratuite est‑elle disponible ?
+**R :** Oui, une version d’essai est téléchargeable depuis la [releases page](https://releases.aspose.com/).
 
-### Q3 : Existe-t-il des options de licence pour Aspose.OCR ?
-
-R3 : Oui, vous pouvez consulter les options de licence et effectuer des achats sur la [boutique Aspose](https://purchase.aspose.com/buy).
-
-### Q4 : Existe-t-il une version d’essai gratuite d’Aspose.OCR ?
-
-R4 : Oui, vous pouvez essayer Aspose.OCR gratuitement en consultant la [page des versions](https://releases.aspose.com/).
-
-### Q5 : Où puis-je trouver de l’aide ou des discussions communautaires concernant Aspose.OCR ?
-
-R5 : Rendez-vous sur le [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pour obtenir de l’aide et interagir avec la communauté.
+### Q5 : Où puis‑je trouver du support communautaire ?
+**R :** Consultez le forum dédié [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) pour obtenir de l’aide et participer aux discussions.
 
 ## Conclusion
 
-Avec Aspose.OCR pour .NET, l'intégration de capacités OCR dans vos applications .NET devient une expérience fluide. Ce tutoriel vous a guidé à travers le processus de **reconnaître du texte à partir d'une image** en utilisant une URL, vous offrant une base solide pour exploiter l'extraction de texte dans vos projets.
+Avec Aspose.OCR pour .NET, convertir une image en texte depuis une URL distante est simple et hautement personnalisable. En suivant les étapes ci‑dessus, vous pouvez intégrer des capacités OCR robustes dans n’importe quelle application .NET, que vous ayez besoin d’une fonctionnalité basique **extract text from image** ou de paramètres avancés **ocr recognition settings** pour des documents complexes.
 
 ---
 
-**Dernière mise à jour :** 2025-12-22
-**Testé avec :** Aspose.OCR 24.11 pour .NET
-**Auteur :** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-03-26
-description: تعلم كيفية التعرف على النص من الصورة باستخدام Aspose OCR في C#. يتضمن
-  خطوات استخراج النص من ملف PNG وتحويل الصورة إلى نص في C# بسرعة.
+date: 2026-03-07
+description: التعرف على النص من الصورة بسرعة باستخدام Aspose OCR. تعلّم كيفية تحويل
+  DjVu إلى نص، استخراج النص من الصورة، وتحميل الصورة للتعرف الضوئي على الأحرف في دليل
+  خطوة‑بخطوة بلغة C#.
 draft: false
 keywords:
 - recognize text from image
-- extract text from png
-- convert image to text c#
-- Aspose OCR C#
-- image to text conversion
+- convert djvu to text
+- how to extract text from image
+- extract text from djvu
+- load image for OCR
 language: ar
-og_description: التعرف على النص من الصورة في C# باستخدام Aspose OCR. كود خطوة بخطوة
-  لاستخراج النص من ملف PNG وتحويل الصورة إلى نص في C# بكفاءة.
-og_title: التعرف على النص من الصورة في C# – دليل Aspose OCR الكامل
+og_description: التعرف على النص من الصورة في C# باستخدام Aspose OCR. يوضح هذا الدليل
+  كيفية تحويل djvu إلى نص، استخراج النص من الصورة، وتحميل الصورة للتعرف الضوئي على
+  الأحرف مع نصائح عملية.
+og_title: التعرف على النص من الصورة – دليل Aspose OCR الكامل بلغة C#
 tags:
 - C#
-- OCR
-- Aspose
-- Image Processing
+- Aspose OCR
+- Document Processing
 title: التعرف على النص من الصورة في C# – دليل Aspose OCR الكامل
 url: /ar/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
@@ -27,205 +28,198 @@ url: /ar/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التعرف على النص من صورة في C# – دليل Aspose OCR الكامل
+# التعرف على النص من الصورة – دليل كامل C# Aspose OCR
 
-هل احتجت يومًا إلى **التعرف على النص من صورة** لكن لم تكن متأكدًا أي مكتبة تختار؟ لست وحدك. في العديد من التطبيقات الواقعية—مثل ماسحات الإيصالات، والتحقق من الهوية، أو محولات PDF إلى نص قابل للتحرير البسيطة—يمكن أن يبدو الحصول على نتائج OCR موثوقة في C# كالبحث عن إبرة في كومة قش.  
+هل احتجت يوماً إلى **التعرف على النص من الصورة** لكنك لم تكن متأكدًا أي مكتبة ستعطيك نتائج موثوقة؟ لست وحدك. سواء كنت تتعامل مع فواتير ممسوحة ضوئيًا، ملفات DJVU تاريخية، أو مجرد لقطة شاشة PNG، قد يشعر استخراج الأحرف الدقيقة وكأنه فك شفرة نص قديم.
 
-الخبر السار؟ مع Aspose OCR يمكنك **استخراج النص من png** في بضع أسطر فقط، وتصبح عملية **تحويل الصورة إلى نص C#** شبه بسيطة. في هذا الدرس سنستعرض كل خطوة، نشرح لماذا كل جزء مهم، ونقدم لك مثالًا جاهزًا للتنفيذ يمكنك إدراجه في مشروعك.
+الأمر ببساطة—Aspose OCR يجعل العملية كلها سهلة. في هذا الدليل سنستعرض كيفية **تحويل djvu إلى نص**، **استخراج النص من الصورة**، و**تحميل الصورة للتعرف الضوئي على الأحرف (OCR)** باستخدام برنامج C# مختصر. في النهاية ستحصل على تطبيق كونسول يعمل ويطبع السلسلة التي تم التعرف عليها في الكونسول، وستفهم “السبب” وراء كل سطر.
 
-## ما ستحتاجه
+## ما ستتعلمه
 
-- .NET 6 (أو أي بيئة تشغيل .NET حديثة) – الواجهة البرمجية تعمل مع .NET Core و .NET Framework على حد سواء.  
-- رخصة تقييم أو تجارية لـ Aspose OCR – النسخة المجانية تضيف علامة مائية ما لم تقم بتعطيلها.  
-- صورة PNG تريد معالجتها (مثال: `sample.png`).  
-- Visual Studio 2022 أو أي محرر C# تفضله.  
+- كيفية إعداد محرك Aspose OCR في مشروع .NET.  
+- الكود الدقيق اللازم **لتحميل الصورة للتعرف الضوئي على الأحرف** من ملف DJVU.  
+- لماذا يجب استدعاء `Recognize()` قبل قراءة `Text`.  
+- الأخطاء الشائعة (DJVU متعدد الصفحات، صيغ غير مدعومة) وكيفية تجنبها.  
+- طرق سريعة **لتحويل djvu إلى نص** للمعالجة الدفعة.
 
-إذا كان لديك كل ما سبق، فأنت جاهز. وإلا، احصل على نسخة سريعة من المكتبة من [صفحة تنزيل Aspose OCR](https://downloads.aspose.com/ocr) واحتفظ بملف `.lic` في متناول يدك.
+كل ما تحتاجه هو .NET SDK حديث (≥ 6.0) ورخصة Aspose OCR (الإصدار التجريبي المجاني يكفي للاختبار). لا خدمات خارجية، لا استدعاءات REST—فقط C# نقي.
 
----
+## المتطلبات المسبقة
 
-## الخطوة 1: تثبيت حزمة Aspose OCR عبر NuGet
+| المتطلب | السبب |
+|-------------|--------|
+| .NET 6 SDK أو أحدث | ميزات لغة حديثة وأداء أفضل. |
+| حزمة Aspose.OCR من NuGet (`Install-Package Aspose.OCR`) | توفر الفئة `OcrEngine` التي سنستخدمها. |
+| ملف DJVU (مثال: `sample.djvu`) | يوضح **تحويل djvu إلى نص**. |
+| إلمام أساسي بتطبيقات كونسول C# | يجعل الخطوات تتدفق بصورة طبيعية. |
 
-أسهل طريقة لجلب Aspose OCR إلى مشروعك هي عبر NuGet. افتح وحدة تحكم مدير الحزم وشغّل:
+إذا كان أي من هذه غير موجود، توقف وقم بتثبيته الآن؛ وإلا لن يتم تجميع الكود.
 
-```powershell
-Install-Package Aspose.OCR
+## الخطوة 1 – تثبيت Aspose.OCR وإنشاء المشروع
+
+أولاً، أنشئ مشروع كونسول جديد وأضف مكتبة OCR.
+
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
+dotnet add package Aspose.OCR
 ```
 
-> **نصيحة احترافية:** إذا كنت تستخدم خط أنابيب CI/CD، أضف إشارة الحزمة إلى ملف `.csproj` الخاص بك حتى تظل عمليات البناء قابلة للتكرار.
+*نصيحة محترف:* استخدم العلامة `--framework net6.0` إذا أردت تثبيت إطار العمل الهدف بشكل صريح.
 
-تثبيت الحزمة يحل جميع الاعتمادات المطلوبة، لذا لن تحتاج للبحث عن ملفات DLL الأصلية لاحقًا.
+## الخطوة 2 – تهيئة محرك OCR وتحميل صورة DJVU
 
-## الخطوة 2: تحميل رخصة التقييم (وتعطيل العلامة المائية)
-
-Aspose OCR يأتي مع رخصة تجريبية تُدرج علامة مائية خفيفة على الصورة الناتجة. بما أننا نهتم فقط بالنص المستخرج، يمكننا إيقافها:
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.License;
-
-// Load the license file – replace the path with your actual location
-var ocrLicense = new License();
-ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-
-// Turn off the preview watermark (only works with evaluation licenses)
-ocrLicense.Options.DisableWatermark = true;
-```
-
-**لماذا هذا مهم:** بدون رخصة صالحة لا يزال المحرك يعمل، لكن العلامة المائية قد تتداخل مع معالجة الصورة لاحقًا إذا قررت حفظ الصورة المشروحة.
-
-## الخطوة 3: إنشاء كائن OcrEngine
-
-الـ `OcrEngine` هو قلب العملية. يحتفظ بإعدادات مثل اللغة، وضع التعرف، وتعديلات الأداء.
-
-```csharp
-// Initialise the OCR engine with default settings
-var ocrEngine = new OcrEngine();
-
-// Optional: set language to English if you know the image contains only English text
-ocrEngine.Language = Language.English;
-```
-
-> **حالة خاصة:** إذا كانت صورتك تحتوي على لغات مختلطة، يمكنك تمرير مصفوفة مثل `new[] { Language.English, Language.Spanish }`. سيحاول المحرك اكتشاف كل منطقة تلقائيًا.
-
-## الخطوة 4: تحميل صورة PNG التي تريد معالجتها
-
-Aspose OCR يعمل مع العديد من الصيغ، لكننا نركز هنا على PNG لأنه يحافظ على جودة غير مضغوطة—عامل أساسي عند **استخراج النص من png**.
-
-```csharp
-// Load the image from disk – ensure the path is correct
-var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
-
-// You can also load from a stream if the image is coming from a web request
-// var ocrImage = OcrImage.FromStream(myStream);
-```
-
-> **لماذا PNG؟** ملفات PNG تحتفظ بكل بكسل دون فقدان، لذا تكون خوارزميات OCR أكثر وضوحًا في قراءة الأحرف مقارنةً بملفات JPEG المضغوطة بشدة.
-
-## الخطوة 5: التعرف على النص
-
-الآن يحدث السحر. طريقة `Recognize` تشغل خط أنابيب OCR وتعيد كائن `OcrResult`.
-
-```csharp
-// Perform the recognition
-OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
-```
-
-إذا احتجت لضبط الدقة، يمكنك تمكين `ocrEngine.Options.UseAdvancedSegmentation = true;` – هذا يساعد في الصور التي تحتوي على نص مائل أو خلفيات صاخبة.
-
-## الخطوة 6: عرض (أو حفظ) النص المستخرج
-
-أخيرًا، أخرج النتيجة إلى وحدة التحكم، ملف، أو أي خدمة لاحقة.
-
-```csharp
-// Write the recognized text to the console
-Console.WriteLine("=== Recognized Text ===");
-Console.WriteLine(ocrResult.Text);
-
-// Optionally, save to a .txt file
-System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
-```
-
-**المخرجات المتوقعة** (بافتراض أن `sample.png` يحتوي على “Hello World!”):
-
-```
-=== Recognized Text ===
-Hello World!
-```
-
-هذا كل ما يتعلق بـ **تحويل الصورة إلى نص C#** باستخدام Aspose OCR.
-
----
-
-## مثال كامل وجاهز للتنفيذ
-
-فيما يلي البرنامج الكامل الذي يربط كل جزء معًا. انسخه، الصقه، واضغط F5.
+المحرك يحتاج إلى مصدر صورة. Aspose.OCR يمكنه قراءة صيغ متعددة، بما فيها DJVU، لذا نوجهه ببساطة إلى مسار الملف.
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.License;
+using Aspose.OCR.Image;
 
-class OcrTutorial
+// Step 2: Create the OCR engine instance
+var ocrEngine = new OcrEngine();
+
+// Load the DJVU file – the first page is used by default
+// This demonstrates “load image for OCR” and also “convert djvu to text”
+ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
+```
+
+**لماذا هذا مهم:**  
+- `OcrEngine` هو نقطة الدخول؛ إنشاؤه مرة واحدة وإعادة استخدامه يقلل من استهلاك الذاكرة.  
+- `ImageStream.FromFile` يخفف عنك تفاصيل الصيغة، بحيث يمكنك لاحقًا استبدال ملف DJVU بـ PNG أو TIFF دون تعديل أي كود آخر—مثالي لـ “كيفية استخراج النص من الصورة” في سيناريوهات مختلفة.
+
+## الخطوة 3 – تشغيل عملية التعرف
+
+استدعاء `Recognize()` يشغل العملية الثقيلة. تحت الغطاء، Aspose يستخدم مصنفًا قائمًا على الشبكات العصبية يعمل على النص المطبوع والمكتوب يدويًا.
+
+```csharp
+// Step 3: Perform OCR on the loaded image
+ocrEngine.Recognize();
+```
+
+*ملاحظة حالة حافة:* إذا كان ملف DJVU يحتوي على صفحات متعددة، فإن `ImageStream.FromFile` لا يزال يحمل الصفحة الأولى فقط. لمعالجة جميع الصفحات تحتاج إلى حلقة حول `ImageStream.FromFile(...).Pages`. بالنسبة لمعظم المهام السريعة، تكون الصفحة الأولى كافية.
+
+## الخطوة 4 – استرجاع وعرض النص المعترف به
+
+بعد عملية التعرف، يملأ المحرك الخاصية `Text` بسلسلة نصية عادية. يمكنك الآن طباعتها على الكونسول، أو حفظها في ملف، أو تمريرها إلى نظام آخر.
+
+```csharp
+// Step 4: Get the OCR result
+string recognizedText = ocrEngine.Text;
+
+// Output the result
+Console.WriteLine("=== Recognized Text ===");
+Console.WriteLine(recognizedText);
+```
+
+الناتج النموذجي يكون كالتالي:
+
+```
+=== Recognized Text ===
+This is a sample DJVU page.
+It contains several lines of text,
+including numbers like 12345.
+```
+
+إذا كان الناتج مشوشًا، تحقق من أن صورة المصدر ليست منخفضة الدقة؛ توصيّة Aspose هي 300 dpi أو أعلى للحصول على أفضل دقة.
+
+## مثال كامل يعمل
+
+بدمج كل ما سبق، إليك ملف واحد (`Program.cs`) يمكنك لصقه في المشروع الذي أنشأته مسبقًا.
+
+```csharp
+// Program.cs
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Load the evaluation license
-        var ocrLicense = new License();
-        ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-        ocrLicense.Options.DisableWatermark = true; // hide the preview watermark
-
-        // 2️⃣ Create the OCR engine
-        var ocrEngine = new OcrEngine
+        static void Main(string[] args)
         {
-            Language = Language.English // set language if known
-        };
+            // 1️⃣ Create OCR engine
+            var ocrEngine = new OcrEngine();
 
-        // 3️⃣ Load the PNG image you want to read
-        var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
+            // 2️⃣ Load the DJVU file (first page only)
+            // Replace the path with your actual file location
+            ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
 
-        // 4️⃣ Recognize text from the image
-        OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
+            // 3️⃣ Run the recognition
+            ocrEngine.Recognize();
 
-        // 5️⃣ Output the extracted text
-        Console.WriteLine("=== Recognized Text ===");
-        Console.WriteLine(ocrResult.Text);
+            // 4️⃣ Retrieve and print the text
+            string recognizedText = ocrEngine.Text;
 
-        // 6️⃣ (Optional) Save the text to a file for later use
-        System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
+            Console.WriteLine("=== Recognized Text ===");
+            Console.WriteLine(recognizedText);
+        }
     }
 }
 ```
 
-> **نصيحة:** احط استدعاء OCR بكتلة `try/catch` للتعامل مع الملفات التالفة بلطف. المكتبة ترمي `Aspose.OCR.Exceptions.OcrException` للملفات غير المدعومة.
+شغّله باستخدام:
 
----
-
-## أسئلة شائعة ومشكلات محتملة
-
-### “ماذا لو كانت صورة PNG تحتوي على الكثير من الضوضاء؟”
-
-```csharp
-ocrEngine.Options.UseNoiseRemoval = true;
-ocrEngine.Options.Deskew = true; // auto‑correct slight rotation
+```bash
+dotnet run
 ```
 
-هذه العلامات تحسن الدقة على الإيصالات الممسوحة أو المستندات الملتقطة بالتصوير.
+يجب أن ترى السلسلة المستخرجة مطبوعة في الطرفية. هذه أبسط طريقة **للتعرف على النص من الصورة** باستخدام Aspose OCR.
 
-### “هل يمكنني معالجة الصور في حلقة؟”
+## الخطوة 5 – متقدم: تحويل صفحات DJVU متعددة إلى ملفات نصية
 
-بالطبع. فقط أعد استخدام نفس كائن `OcrEngine` للحصول على أداء أفضل:
+إذا كنت بحاجة إلى **تحويل djvu إلى نص** بشكل جماعي، وسّع الكود السابق بحلقة:
 
 ```csharp
-foreach (var file in Directory.GetFiles(@"C:\Batch", "*.png"))
+var djvuPath = @"YOUR_DIRECTORY/multi_page.djvu";
+var stream = ImageStream.FromFile(djvuPath);
+
+for (int i = 0; i < stream.PageCount; i++)
 {
-    var img = OcrImage.FromFile(file);
-    var result = ocrEngine.Recognize(img);
-    Console.WriteLine($"{Path.GetFileName(file)} → {result.Text}");
+    ocrEngine.Image = stream.GetPage(i);
+    ocrEngine.Recognize();
+
+    var pageText = ocrEngine.Text;
+    System.IO.File.WriteAllText(
+        $"page_{i + 1}.txt",
+        pageText);
 }
 ```
 
-### “هل هناك حد لحجم الصورة؟”
+*لماذا يعمل هذا:* `GetPage(i)` تُعيد كائن `Image` للصفحة المطلوبة، مما يتيح لك إعادة استخدام نفس نسخة `OcrEngine`. نص كل صفحة يُحفظ في ملف `.txt` خاص به، مما يمنحك خط أنابيب **تحويل djvu إلى نص** نظيف.
 
-المحرك يعمل مع صور تصل إلى عدة ميغابكسل، لكن الملفات الكبيرة جدًا قد تستهلك الكثير من الذاكرة. إذا واجهت `OutOfMemoryException`، فكر في تصغير حجم الصورة قبل تمريرها إلى المحرك.
+## أسئلة شائعة ومشكلات محتملة
 
----
+- **هل يمكنني استخراج النص من JPEG بدلًا من DJVU؟**  
+  بالتأكيد. فقط غيّر امتداد الملف في `FromFile`. نفس الكود **كيفية استخراج النص من الصورة** ينطبق لأن Aspose يخفف عنك الصيغة.
 
-## ملخص بصري
+- **ماذا أفعل إذا احتوى ناتج OCR على فواصل أسطر زائدة؟**  
+  استخدم `String.Replace("\r\n", " ")` أو تعبيرًا نمطيًا لتطبيع الفراغات.
 
-![recognize text from image using Aspose OCR in C#](image.png "recognize text from image example")
+- **هل أحتاج رخصة للاستخدام في الإنتاج؟**  
+  النسخة التجريبية مجانية حتى 100 صفحة. للاستخدام غير المحدود، اشترِ رخصة واستدعِ `License license = new License(); license.SetLicense("Aspose.OCR.lic");` قبل إنشاء المحرك.
 
-*تُظهر لقطة الشاشة أعلاه مخرجات وحدة التحكم بعد تشغيل البرنامج الكامل.*
+- **هل المحرك آمن للاستخدام متعدد الخيوط؟**  
+  لا. أنشئ نسخة منفصلة من `OcrEngine` لكل خيط أو احمِ الوصول بقفل.
 
----
+## نصائح لتحسين الدقة
+
+1. **زيادة DPI** – إذا كنت تتحكم في تحويل المصدر، احرص على إخراج الصور بدقة 300 dpi أو أعلى.  
+2. **معالجة مسبقة للصورة** – البينارايزيشن البسيط (`ocrEngine.Image = ImageProcessing.Binarize(ocrEngine.Image)`) يمكن أن يحسّن النتائج على المسحات الضوضائية.  
+3. **تحديد اللغة** – `ocrEngine.Language = Language.English;` يحد من مجموعة الأحرف ويسرّع عملية التعرف.
 
 ## الخلاصة
 
-لقد غطينا كل ما تحتاجه **للتعرف على النص من صورة** باستخدام Aspose OCR، من تثبيت حزمة NuGet إلى معالجة PNG الضوضائي وحفظ النتائج. بنهاية هذا الدليل يجب أن تكون قادرًا على **استخراج النص من png** والقيام بـ **تحويل الصورة إلى نص C#** بثقة.
+أصبح لديك الآن مثال كامل وجاهز للتنفيذ **للتعرف على النص من الصورة** باستخدام Aspose OCR، وقد رأيت كيف **تحويل djvu إلى نص**، **كيفية استخراج النص من الصورة**، والطريقة الصحيحة **لتحميل الصورة للتعرف الضوئي على الأحرف**. الكود مستقل، يعمل على أي بيئة تشغيل .NET 6+، ويمكن توسيعه لمعالجة دفعات من مستندات DJVU متعددة الصفحات.
 
-الخطوات التالية؟ جرّب تمرير نتيجة OCR إلى معالج لغة طبيعية، أو دمجها مع مولد PDF لإنشاء ملفات PDF قابلة للبحث مباشرة. إذا كنت مهتمًا بالدعم متعدد اللغات، استبدل `Language.English` بـ `Language.AutoDetect` وشاهد المحرك يتعامل مع عدة نصوص تلقائيًا.
+الخطوات التالية قد تشمل:
 
-هل لديك صورة صعبة ترفض التعاون؟ اترك تعليقًا أدناه، وسنحل المشكلة معًا. برمجة سعيدة!
+- إضافة **اكتشاف اللغة** لملفات DJVU متعددة اللغات.  
+- دمج ناتج OCR مع فهرس بحث (مثال: Elasticsearch).  
+- استخدام تحويل Aspose إلى PDF لتحويل النص المستخرج إلى ملفات PDF قابلة للبحث.
+
+جرّبه، عدّل الـ DPI، جرب صيغ صور مختلفة، ودع محرك OCR يقوم بالعمل الشاق نيابةً عنك. برمجة سعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

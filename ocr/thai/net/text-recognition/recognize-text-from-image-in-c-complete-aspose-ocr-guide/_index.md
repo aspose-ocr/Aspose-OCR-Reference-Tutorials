@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-03-26
-description: เรียนรู้วิธีจดจำข้อความจากภาพโดยใช้ Aspose OCR ใน C# รวมขั้นตอนการดึงข้อความจากไฟล์
-  PNG และแปลงภาพเป็นข้อความใน C# อย่างรวดเร็ว.
+date: 2026-03-07
+description: จดจำข้อความจากภาพอย่างรวดเร็วด้วย Aspose OCR. เรียนรู้วิธีแปลง djvu เป็นข้อความ,
+  ดึงข้อความจากภาพ, และโหลดภาพสำหรับ OCR ในบทแนะนำ C# ทีละขั้นตอน.
 draft: false
 keywords:
 - recognize text from image
-- extract text from png
-- convert image to text c#
-- Aspose OCR C#
-- image to text conversion
+- convert djvu to text
+- how to extract text from image
+- extract text from djvu
+- load image for OCR
 language: th
-og_description: จดจำข้อความจากภาพใน C# ด้วย Aspose OCR. โค้ดขั้นตอนต่อขั้นตอนเพื่อดึงข้อความจากไฟล์
-  PNG และแปลงภาพเป็นข้อความใน C# อย่างมีประสิทธิภาพ.
-og_title: แยกข้อความจากภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์
+og_description: จดจำข้อความจากภาพใน C# ด้วย Aspose OCR คู่มือนี้แสดงวิธีแปลง djvu
+  เป็นข้อความ ดึงข้อความจากภาพ และโหลดภาพสำหรับ OCR พร้อมเคล็ดลับที่เป็นประโยชน์
+og_title: แยกข้อความจากภาพ – บทเรียน OCR ด้วย Aspose เต็มรูปแบบสำหรับ C#
 tags:
 - C#
-- OCR
-- Aspose
-- Image Processing
+- Aspose OCR
+- Document Processing
 title: แยกข้อความจากภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์
 url: /th/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
@@ -27,207 +26,198 @@ url: /th/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จดจำข้อความจากภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์
+# จดจำข้อความจากรูปภาพ – คู่มือเต็ม C# Aspose OCR
 
-เคยต้องการ **recognize text from image** แต่ไม่แน่ใจว่าจะเลือกไลบรารีไหนไหม? คุณไม่ได้เป็นคนเดียว ในแอปพลิเคชันจริงหลายๆ ตัว—เช่น เครื่องสแกนใบเสร็จ, การตรวจสอบบัตรประจำตัว, หรือเครื่องแปลง PDF เป็นข้อความที่แก้ไขได้—การได้ผลลัพธ์ OCR ที่เชื่อถือได้ใน C# อาจรู้สึกเหมือนการตามหาสิ่งที่เล็กที่สุดในกองฟาง  
+เคยต้องการ **recognize text from image** แต่ไม่แน่ใจว่าห้องสมุดใดจะให้ผลลัพธ์ที่เชื่อถือได้หรือไม่? คุณไม่ได้อยู่คนเดียว ไม่ว่าจะเป็นใบแจ้งหนี้ที่สแกน, ไฟล์ DJVU เก่า, หรือภาพ PNG อย่างง่าย การสกัดตัวอักษรที่แม่นยำอาจรู้สึกเหมือนการถอดรหัสสคริปต์โบราณ
 
-ข่าวดีคืออะไร? ด้วย Aspose OCR คุณสามารถ **extract text from png** ไฟล์ได้ในไม่กี่บรรทัด, และกระบวนการทั้งหมดของ **convert image to text C#**‑style จะกลายเป็นเรื่องง่ายเกือบจะไม่มีความซับซ้อน. ในบทแนะนำนี้ เราจะเดินผ่านทุกขั้นตอน, อธิบายว่าทำไมแต่ละส่วนถึงสำคัญ, และให้ตัวอย่างที่พร้อมใช้งานที่คุณสามารถนำไปใส่ในโปรเจคของคุณได้
+เรื่องคือ—Aspose OCR ทำให้กระบวนการทั้งหมดง่ายเหมือนเค้ก ในคู่มือนี้เราจะอธิบายวิธี **convert djvu to text**, **extract text from image**, และ **load image for OCR** ด้วยโปรแกรม C# สั้น ๆ เมื่อเสร็จคุณจะมีแอปคอนโซลที่รันได้ซึ่งพิมพ์สตริงที่จดจำได้ลงคอนโซล และคุณจะเข้าใจ “เหตุผล” เบื้องหลังแต่ละบรรทัด
 
-## สิ่งที่คุณต้องการ
+## สิ่งที่คุณจะได้เรียนรู้
 
-- .NET 6 (หรือ .NET runtime ล่าสุดใดก็ได้) – API ทำงานได้กับ .NET Core และ .NET Framework อย่างเท่าเทียม  
-- ใบอนุญาตประเมินหรือเชิงพาณิชย์สำหรับ Aspose OCR – เวอร์ชันฟรีจะใส่ลายน้ำหากคุณไม่ได้ปิดมัน  
-- ภาพ PNG ที่คุณต้องการประมวลผล (เช่น `sample.png`)  
-- Visual Studio 2022 หรือโปรแกรมแก้ไข C# ใดก็ได้ที่คุณชอบ  
+- วิธีตั้งค่า Aspose OCR engine ในโครงการ .NET.  
+- โค้ดที่จำเป็นเพื่อ **load image for OCR** จากไฟล์ DJVU.  
+- ทำไมคุณต้องเรียก `Recognize()` ก่อนอ่าน `Text`.  
+- ข้อผิดพลาดทั่วไป (DJVU หลายหน้า, ฟอร์แมตที่ไม่รองรับ) และวิธีหลีกเลี่ยง.  
+- วิธีรวดเร็วในการ **convert djvu to text** สำหรับการประมวลผลแบบกลุ่ม  
 
-หากคุณมีทั้งหมดนี้แล้ว คุณพร้อมใช้งานแล้ว หากไม่, ให้ดาวน์โหลดไลบรารีจาก [Aspose OCR download page](https://downloads.aspose.com/ocr) และเก็บไฟล์ `.lic` ไว้ใกล้มือ
+คุณต้องการเพียง .NET SDK ล่าสุด (≥ 6.0) และใบอนุญาต Aspose OCR (รุ่นทดลองฟรีใช้สำหรับการทดสอบ) ไม่ต้องใช้บริการภายนอก, ไม่ต้องเรียก REST—เพียง C# ธรรมดา
 
----
+## ข้อกำหนดเบื้องต้น
 
-## ขั้นตอนที่ 1: ติดตั้งแพคเกจ Aspose OCR NuGet
+| Requirement | Reason |
+|-------------|--------|
+| .NET 6 SDK or later | ฟีเจอร์ภาษาใหม่และประสิทธิภาพที่ดีกว่า. |
+| Aspose.OCR NuGet package (`Install-Package Aspose.OCR`) | ให้คลาส `OcrEngine` ที่เราจะใช้. |
+| A DJVU file (e.g., `sample.djvu`) | แสดงตัวอย่าง **convert djvu to text**. |
+| Basic familiarity with C# console apps | ทำให้ขั้นตอนดำเนินไปอย่างเป็นธรรมชาติ. |
 
-วิธีที่ง่ายที่สุดในการนำ Aspose OCR เข้ามาในโปรเจคของคุณคือผ่าน NuGet. เปิด Package Manager Console แล้วรัน:
+หากขาดอย่างใดอย่างหนึ่ง ให้หยุดและติดตั้งตอนนี้; มิฉะนั้นโค้ดจะไม่คอมไพล์
 
-```powershell
-Install-Package Aspose.OCR
+## ขั้นตอนที่ 1 – ติดตั้ง Aspose.OCR และสร้างโปรเจกต์
+
+แรกเริ่ม สร้างโปรเจกต์คอนโซลใหม่และดึงไลบรารี OCR เข้ามา
+
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
+dotnet add package Aspose.OCR
 ```
 
-> **Pro tip:** หากคุณอยู่บน pipeline CI/CD, ให้เพิ่มการอ้างอิงแพคเกจในไฟล์ `.csproj` เพื่อให้การสร้างซ้ำได้
+*เคล็ดลับ:* ใช้แฟล็ก `--framework net6.0` หากคุณต้องการระบุเฟรมเวิร์กเป้าหมายอย่างชัดเจน.
 
-การติดตั้งแพคเกจจะจัดการกับการพึ่งพาที่จำเป็นทั้งหมด, ดังนั้นคุณจะไม่ต้องตามหา DLL แบบเนทีฟในภายหลัง
+## ขั้นตอนที่ 2 – เริ่มต้น OCR Engine และโหลดภาพ DJVU
 
-## ขั้นตอนที่ 2: โหลดใบอนุญาตประเมินของคุณ (และปิดลายน้ำ)
-
-Aspose OCR มาพร้อมกับใบอนุญาตทดลองที่ใส่ลายน้ำอ่อนบนภาพผลลัพธ์. เนื่องจากเราสนใจเฉพาะข้อความที่สกัดออกมา, เราจึงสามารถปิดมันได้:
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.License;
-
-// Load the license file – replace the path with your actual location
-var ocrLicense = new License();
-ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-
-// Turn off the preview watermark (only works with evaluation licenses)
-ocrLicense.Options.DisableWatermark = true;
-```
-
-**Why this matters:** หากไม่มีใบอนุญาตที่ถูกต้อง, เอนจินยังทำงานได้, แต่ลายน้ำอาจรบกวนการประมวลผลภาพต่อไปหากคุณบันทึกภาพที่มีการทำเครื่องหมาย
-
-## ขั้นตอนที่ 3: สร้างอินสแตนซ์ของ OCR Engine
-
-`OcrEngine` คือหัวใจของการทำงาน. มันเก็บการตั้งค่าเช่น ภาษา, โหมดการจดจำ, และการปรับประสิทธิภาพ
-
-```csharp
-// Initialise the OCR engine with default settings
-var ocrEngine = new OcrEngine();
-
-// Optional: set language to English if you know the image contains only English text
-ocrEngine.Language = Language.English;
-```
-
-> **Edge case:** หากภาพของคุณมีหลายภาษา, คุณสามารถส่งอาร์เรย์เช่น `new[] { Language.English, Language.Spanish }`. เอนจินจะพยายามตรวจจับแต่ละส่วนโดยอัตโนมัติ
-
-## ขั้นตอนที่ 4: โหลดภาพ PNG ที่คุณต้องการประมวลผล
-
-Aspose OCR รองรับหลายรูปแบบ, แต่ที่นี่เรามุ่งเน้นที่ PNG เนื่องจากรักษาคุณภาพ lossless—เป็นปัจจัยสำคัญเมื่อ **extracting text from png**.
-
-```csharp
-// Load the image from disk – ensure the path is correct
-var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
-
-// You can also load from a stream if the image is coming from a web request
-// var ocrImage = OcrImage.FromStream(myStream);
-```
-
-> **Why PNG?** ไฟล์ PNG เก็บพิกเซลทั้งหมดไว้ครบถ้วน, ทำให้อัลกอริทึม OCR มองเห็นตัวอักษรได้ชัดเจนกว่าภาพ JPEG ที่บีบอัดอย่างหนัก
-
-## ขั้นตอนที่ 5: จดจำข้อความ
-
-ตอนนี้จุดมหัศจรรย์เกิดขึ้น. เมธอด `Recognize` ทำงานผ่าน pipeline OCR และคืนค่าอ็อบเจกต์ `OcrResult`
-
-```csharp
-// Perform the recognition
-OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
-```
-
-หากต้องการปรับความแม่นยำ, คุณสามารถเปิด `ocrEngine.Options.UseAdvancedSegmentation = true;` – จะช่วยในภาพที่มีข้อความเอียงหรือพื้นหลังที่มีเสียงรบกวน
-
-## ขั้นตอนที่ 6: แสดง (หรือเก็บ) ข้อความที่สกัดออกมา
-
-สุดท้าย, ส่งผลลัพธ์ไปยังคอนโซล, ไฟล์, หรือบริการใดๆ ต่อไป
-
-```csharp
-// Write the recognized text to the console
-Console.WriteLine("=== Recognized Text ===");
-Console.WriteLine(ocrResult.Text);
-
-// Optionally, save to a .txt file
-System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
-```
-
-**Expected output** (สมมติว่า `sample.png` มีข้อความ “Hello World!”):
-
-```
-=== Recognized Text ===
-Hello World!
-```
-
-นี่คือทั้งหมดสำหรับการ **convert image to text C#** แบบใช้ Aspose OCR
-
----
-
-## ตัวอย่างเต็มพร้อมรัน
-
-ด้านล่างเป็นโปรแกรมเต็มที่เชื่อมทุกส่วนเข้าด้วยกัน. คัดลอก, วาง, แล้วกด F5
+Engine ต้องการแหล่งภาพ Aspose.OCR สามารถอ่านหลายฟอร์แมต รวมถึง DJVU ดังนั้นเราจึงชี้ไปที่เส้นทางไฟล์
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.License;
+using Aspose.OCR.Image;
 
-class OcrTutorial
+// Step 2: Create the OCR engine instance
+var ocrEngine = new OcrEngine();
+
+// Load the DJVU file – the first page is used by default
+// This demonstrates “load image for OCR” and also “convert djvu to text”
+ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
+```
+
+**ทำไมเรื่องนี้สำคัญ:**  
+- `OcrEngine` เป็นจุดเริ่มต้น; การสร้างครั้งเดียวและใช้ซ้ำช่วยลดการใช้หน่วยความจำ.  
+- `ImageStream.FromFile` ทำให้ไม่ต้องกังวลฟอร์แมตไฟล์, ดังนั้นคุณสามารถเปลี่ยนไฟล์ DJVU เป็น PNG หรือ TIFF ภายหลังโดยไม่ต้องแก้โค้ดอื่น—เหมาะสำหรับ “how to extract text from image” ในสถานการณ์ต่าง ๆ.
+
+## ขั้นตอนที่ 3 – เรียกกระบวนการจดจำ
+
+การเรียก `Recognize()` จะเริ่มทำงานหนัก ภายใน Aspose ใช้ตัวจำแนกแบบเครือข่ายประสาทที่ทำงานกับข้อความพิมพ์และลายมือได้
+
+```csharp
+// Step 3: Perform OCR on the loaded image
+ocrEngine.Recognize();
+```
+
+*หมายเหตุกรณีขอบ:* หาก DJVU ของคุณมีหลายหน้า, `ImageStream.FromFile` จะโหลดเฉพาะหน้าที่หนึ่งเท่านั้น. เพื่อประมวลผลทุกหน้า คุณต้องวนลูป `ImageStream.FromFile(...).Pages`. สำหรับงานดูอย่างเร็ว ส่วนใหญ่หน้าแรกก็พอ.
+
+## ขั้นตอนที่ 4 – ดึงและแสดงข้อความที่จดจำได้
+
+หลังการจดจำ, engine จะใส่ค่าใน property `Text` เป็นสตริงข้อความธรรมดา. ตอนนี้คุณสามารถเขียนลงคอนโซล, ไฟล์, หรือส่งต่อไปยังระบบอื่นได้
+
+```csharp
+// Step 4: Get the OCR result
+string recognizedText = ocrEngine.Text;
+
+// Output the result
+Console.WriteLine("=== Recognized Text ===");
+Console.WriteLine(recognizedText);
+```
+
+ผลลัพธ์ทั่วไปจะเป็นเช่นนี้:
+
+```
+=== Recognized Text ===
+This is a sample DJVU page.
+It contains several lines of text,
+including numbers like 12345.
+```
+
+หากผลลัพธ์เป็นอักขระผิดรูป, ตรวจสอบว่าภาพต้นทางไม่ใช่ความละเอียดต่ำ; Aspose แนะนำ 300 dpi หรือสูงกว่าเพื่อความแม่นยำสูงสุด
+
+## ตัวอย่างทำงานเต็มรูปแบบ
+
+รวมทั้งหมดเข้าด้วยกัน นี่คือไฟล์เดียว (`Program.cs`) ที่คุณสามารถวางลงในโปรเจกต์ที่สร้างไว้ก่อนหน้า
+
+```csharp
+// Program.cs
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrDemo
 {
-    static void Main()
+    class Program
     {
-        // 1️⃣ Load the evaluation license
-        var ocrLicense = new License();
-        ocrLicense.SetLicense(@"C:\Licenses\Aspose.OCR.Eval.lic");
-        ocrLicense.Options.DisableWatermark = true; // hide the preview watermark
-
-        // 2️⃣ Create the OCR engine
-        var ocrEngine = new OcrEngine
+        static void Main(string[] args)
         {
-            Language = Language.English // set language if known
-        };
+            // 1️⃣ Create OCR engine
+            var ocrEngine = new OcrEngine();
 
-        // 3️⃣ Load the PNG image you want to read
-        var ocrImage = OcrImage.FromFile(@"C:\Images\sample.png");
+            // 2️⃣ Load the DJVU file (first page only)
+            // Replace the path with your actual file location
+            ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/input.djvu");
 
-        // 4️⃣ Recognize text from the image
-        OcrResult ocrResult = ocrEngine.Recognize(ocrImage);
+            // 3️⃣ Run the recognition
+            ocrEngine.Recognize();
 
-        // 5️⃣ Output the extracted text
-        Console.WriteLine("=== Recognized Text ===");
-        Console.WriteLine(ocrResult.Text);
+            // 4️⃣ Retrieve and print the text
+            string recognizedText = ocrEngine.Text;
 
-        // 6️⃣ (Optional) Save the text to a file for later use
-        System.IO.File.WriteAllText(@"C:\Output\extracted.txt", ocrResult.Text);
+            Console.WriteLine("=== Recognized Text ===");
+            Console.WriteLine(recognizedText);
+        }
     }
 }
 ```
 
-> **Tip:** ห่อการเรียก OCR ด้วยบล็อก `try/catch` เพื่อจัดการไฟล์ที่เสียหายอย่างราบรื่น. ไลบรารีจะโยน `Aspose.OCR.Exceptions.OcrException` สำหรับฟอร์แมตที่ไม่รองรับ
+รันด้วย:
 
----
-
-## คำถามทั่วไป & ปัญหาที่พบบ่อย
-
-### “ถ้า PNG ของฉันมีเสียงรบกวนมาก?”
-
-เปิดการประมวลผลล่วงหน้า:
-
-```csharp
-ocrEngine.Options.UseNoiseRemoval = true;
-ocrEngine.Options.Deskew = true; // auto‑correct slight rotation
+```bash
+dotnet run
 ```
 
-แฟล็กเหล่านี้ช่วยเพิ่มความแม่นยำบนใบเสร็จสแกนหรือเอกสารที่ถ่ายภาพ
+คุณควรเห็นสตริงที่สกัดออกมาพิมพ์บนเทอร์มินัล นี่คือวิธีที่ง่ายที่สุดในการ **recognize text from image** ด้วย Aspose OCR
 
-### “ฉันสามารถประมวลผลภาพในลูปได้ไหม?”
+## ขั้นตอนที่ 5 – ขั้นสูง: แปลงหลายหน้าของ DJVU เป็นไฟล์ข้อความ
 
-แน่นอน. เพียงใช้ `OcrEngine` อินสแตนซ์เดียวกันซ้ำเพื่อประสิทธิภาพที่ดีกว่า:
+หากคุณต้องการ **convert djvu to text** เป็นจำนวนมาก, ขยายโค้ดก่อนหน้าด้วยลูป:
 
 ```csharp
-foreach (var file in Directory.GetFiles(@"C:\Batch", "*.png"))
+var djvuPath = @"YOUR_DIRECTORY/multi_page.djvu";
+var stream = ImageStream.FromFile(djvuPath);
+
+for (int i = 0; i < stream.PageCount; i++)
 {
-    var img = OcrImage.FromFile(file);
-    var result = ocrEngine.Recognize(img);
-    Console.WriteLine($"{Path.GetFileName(file)} → {result.Text}");
+    ocrEngine.Image = stream.GetPage(i);
+    ocrEngine.Recognize();
+
+    var pageText = ocrEngine.Text;
+    System.IO.File.WriteAllText(
+        $"page_{i + 1}.txt",
+        pageText);
 }
 ```
 
-### “มีขนาดจำกัดของภาพหรือไม่?”
+*ทำไมวิธีนี้ถึงได้ผล:* `GetPage(i)` คืนค่าอ็อบเจกต์ `Image` ของหน้าที่ร้องขอ, ทำให้คุณใช้ `OcrEngine` เดียวกันซ้ำได้. ข้อความของแต่ละหน้าจะบันทึกลงไฟล์ `.txt` ของตนเอง, ให้คุณมี pipeline **convert djvu to text** ที่สะอาด
 
-เอนจินทำงานกับภาพขนาดหลายเมกะพิกเซล, แต่ไฟล์ขนาดใหญ่มากอาจใช้หน่วยความจำมาก. หากเจอ `OutOfMemoryException`, ควรลดขนาดภาพก่อนส่งให้เอนจิน
+## คำถามทั่วไป & สิ่งที่ควรระวัง
 
----
+- **สามารถสกัดข้อความจาก JPEG แทน DJVU ได้หรือไม่?**  
+  แน่นอน. เพียงเปลี่ยนส่วนขยายไฟล์ใน `FromFile`. โค้ดเดียวกัน **how to extract text from image** ใช้ได้เพราะ Aspose ทำให้ฟอร์แมตเป็นนามธรรม.
 
-## สรุปภาพรวม
+- **ถ้าผลลัพธ์ OCR มีการขึ้นบรรทัดใหม่เกินไปจะทำอย่างไร?**  
+  ใช้ `String.Replace("\r\n", " ")` หรือ regular expression เพื่อทำให้ช่องว่างเป็นมาตรฐาน.
 
-![จดจำข้อความจากภาพโดยใช้ Aspose OCR ใน C#](image.png "ตัวอย่างการจดจำข้อความจากภาพ")
+- **ต้องการใบอนุญาตสำหรับการใช้งานในผลิตจริงหรือไม่?**  
+  รุ่นทดลองฟรีใช้ได้ถึง 100 หน้า. หากต้องการไม่จำกัด ให้ซื้อใบอนุญาตและเรียก `License license = new License(); license.SetLicense("Aspose.OCR.lic");` ก่อนสร้าง engine.
 
-*ภาพหน้าจอด้านบนแสดงผลลัพธ์คอนโซลหลังจากรันโปรแกรมเต็ม*
+- **Engine นี้ปลอดภัยต่อการทำงานหลายเธรดหรือไม่?**  
+  ไม่. สร้าง `OcrEngine` แยกสำหรับแต่ละเธรดหรือปกป้องการเข้าถึงด้วย lock.
 
----
+## เคล็ดลับเพื่อความแม่นยำที่ดียิ่งขึ้น
+
+1. **เพิ่ม DPI** – หากคุณควบคุมการแปลงต้นทาง, ส่งออกภาพที่ 300 dpi หรือสูงกว่า.  
+2. **ทำการประมวลผลล่วงหน้าภาพ** – การทำ binarization อย่างง่าย (`ocrEngine.Image = ImageProcessing.Binarize(ocrEngine.Image)`) สามารถปรับปรุงผลลัพธ์บนสแกนที่มีเสียงรบกวน.  
+3. **ระบุภาษา** – `ocrEngine.Language = Language.English;` จะจำกัดชุดอักขระและเร่งการจดจำ.
 
 ## สรุป
 
-เราได้ครอบคลุมทุกอย่างที่คุณต้องการเพื่อ **recognize text from image** ด้วย Aspose OCR, ตั้งแต่การติดตั้งแพคเกจ NuGet ไปจนถึงการจัดการ PNG ที่มีเสียงรบกวนและการบันทึกผลลัพธ์. หลังจากอ่านคู่มือนี้แล้วคุณควรจะสามารถ **extract text from png** ไฟล์และ **convert image to text C#**‑style ได้อย่างมั่นใจ  
+ตอนนี้คุณมีตัวอย่างที่ครบถ้วนและพร้อมรันที่ **recognize text from image** ด้วย Aspose OCR, และคุณได้เห็นวิธี **convert djvu to text**, **how to extract text from image**, และวิธีที่ถูกต้องในการ **load image for OCR**. โค้ดเป็นอิสระ, ทำงานบน .NET 6+ ใดก็ได้, และสามารถขยายเพื่อประมวลผลหลายหน้าของเอกสาร DJVU เป็นชุดได้
 
-ขั้นตอนต่อไป? ลองส่งผลลัพธ์ OCR ไปยังตัวประมวลผลภาษาธรรมชาติ, หรือรวมกับตัวสร้าง PDF เพื่อสร้าง PDF ที่ค้นหาได้ทันที. หากคุณสนใจการสนับสนุนหลายภาษา, เปลี่ยน `Language.English` เป็น `Language.AutoDetect` แล้วดูเอนจินจัดการหลายสคริปต์โดยอัตโนมัติ  
+ต่อไปคุณอาจสำรวจ:
 
-มีภาพที่ยากต่อการประมวลผล? แสดงความคิดเห็นด้านล่าง, แล้วเราจะช่วยแก้ไขร่วมกัน. Happy coding!
+- เพิ่ม **language detection** สำหรับไฟล์ DJVU หลายภาษา.  
+- รวมผลลัพธ์ OCR กับดัชนีการค้นหา (เช่น Elasticsearch).  
+- ใช้การแปลง PDF ของ Aspose เพื่อเปลี่ยนข้อความที่สกัดเป็น PDF ที่ค้นหาได้.
+
+ลองทำดู, ปรับ DPI, ทดลองกับฟอร์แมตภาพต่าง ๆ, แล้วให้ OCR engine ทำงานหนักให้คุณ. ขอให้เขียนโค้ดอย่างสนุก!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -40,6 +40,21 @@ url: /hi/net/skew-angle-calculation/
 .NET के लिए Aspose.OCR की शक्ति को उजागर करें, जो छवि पहचान के लिए एक मजबूत समाधान है। आसानी से तिरछे कोणों की गणना करना सीखें।
 ### [ओसीआर छवि पहचान में यूआरआई से तिरछा कोण की गणना करें](./calculate-skew-angle-from-uri/)
 OCR छवि पहचान में तिरछे कोणों की आसानी से गणना करने के लिए .NET के लिए Aspose.OCR का अन्वेषण करें। अपनी परियोजनाओं को सटीकता और दक्षता के साथ बढ़ाएं।
+### [OCR के लिए इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-for-ocr-complete-c-guide/)
+.NET के लिए Aspose.OCR का उपयोग करके इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें और OCR सटीकता बढ़ाएँ।
+### [इमेज को डेस्क्यू कैसे करें – OCR प्री‑प्रोसेसिंग के लिए पूर्ण C# गाइड](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+.NET के लिए Aspose.OCR के साथ इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, OCR प्री‑प्रोसेसिंग को आसान बनाएं।
+### [C# में इमेज को डेस्क्यू कैसे करें – पूर्ण OCR प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+C# में इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका।
+### [इमेज को डेस्क्यू कैसे करें – OCR के लिए पूर्ण C# प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+.NET के लिए Aspose.OCR के साथ इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के लिए पूर्ण C# प्री‑प्रोसेसिंग गाइड।
+### [छवि से तिरछापन हटाएँ – पूर्ण OCR पूर्व‑प्रसंस्करण गाइड](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+.NET के लिए Aspose.OCR के साथ छवि से तिरछापन हटाने और OCR पूर्व‑प्रसंस्करण के पूर्ण मार्गदर्शक।
+### [इमेज को डेस्क्यू और स्कैन को साफ़ करने का पूर्ण C# गाइड](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+.NET के लिए Aspose.OCR का उपयोग करके इमेज को डेस्क्यू और स्कैन को साफ़ करने की पूरी प्रक्रिया सीखें।
+
+### [C# में इमेज को डेस्क्यू कैसे करें – Aspose OCR का उपयोग करके पूर्ण गाइड](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Aspose OCR के साथ C# में इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें और अपने OCR परिणामों की सटीकता बढ़ाएँ।
 ### [Aspose OCR के साथ इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 .NET के लिए Aspose OCR का उपयोग करके इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, C# कोड उदाहरणों के साथ।
 {{< /blocks/products/pf/tutorial-page-section >}}
