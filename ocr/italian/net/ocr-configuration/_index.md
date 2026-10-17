@@ -65,6 +65,8 @@ Scopri come incorporare i font in PDF e trasformare immagini JPEG in PDF ricerca
 Sblocca il potenziale di Aspose OCR per estrarre testo cirillico da immagini PNG.
 ### [Imposta il dispositivo GPU per OCR in C# – Guida completa alla programmazione](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Scopri come configurare la GPU per migliorare le prestazioni OCR in C# con Aspose.OCR.
+### [Riconoscere testo da immagine in C# – come riconoscere il Kannada con Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Scopri come estrarre testo in lingua Kannada da immagini usando Aspose OCR in C#.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

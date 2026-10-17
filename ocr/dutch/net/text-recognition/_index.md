@@ -403,6 +403,18 @@ Leer stap voor stap hoe u met Aspose.OCR een doorzoekbare PDF maakt vanuit een a
 Leer stap voor stap hoe u offline OCR gebruikt om tekst uit afbeeldingen te extraheren met Aspose.OCR in C#.
 ### [Maak docx van afbeelding met Aspose OCR – Stapsgewijze C#-gids](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Leer stap voor stap hoe u met Aspose OCR een DOCX-bestand maakt vanuit een afbeelding in C#.
+### [Hoe OCR te gebruiken in C# – Arabische tekst uit JPG extraheren](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Leer hoe u met Aspose.OCR in C# Arabische tekst uit JPG-afbeeldingen kunt extraheren en integreren in uw .NET-applicaties.
+### [Maak doorzoekbare PDF van afbeelding in C# – Volledige gids](./create-searchable-pdf-from-image-in-c-full-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een afbeelding, stap voor stap.
+### [c# OCR-tutorial – Urdu-tekst extraheren uit PNG-afbeeldingen](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Leer hoe u met Aspose OCR in C# Urdu-tekst uit PNG-afbeeldingen kunt extraheren en integreren in uw .NET-applicaties.
+### [Hoe batch-OCR uit te voeren in C# – Tekst snel extraheren uit afbeeldingen](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Leer hoe u met Aspose.OCR in C# batch-OCR kunt uitvoeren om snel tekst uit meerdere afbeeldingen te extraheren.
+### [Hoe PDF/A te maken van gescande afbeeldingen in C# – Stapsgewijze handleiding](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Leer hoe u met Aspose.OCR in C# PDF/A-bestanden maakt van gescande afbeeldingen, stap voor stap.
+### [Handgeschreven tekst herkennen in C# met Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Leer hoe u met Aspose OCR in C# handgeschreven tekst uit afbeeldingen kunt herkennen en integreren in uw .NET-applicaties.
 
 ### [c# OCR-voorbeeld – Tekst extraheren uit afbeeldingen met Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
 Leer hoe u met Aspose OCR en C# tekst uit afbeeldingen kunt halen in een eenvoudig voorbeeld.

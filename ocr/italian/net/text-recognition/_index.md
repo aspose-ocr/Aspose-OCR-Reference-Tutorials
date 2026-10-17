@@ -406,6 +406,18 @@ Crea un documento DOCX da un'immagine usando Aspose OCR in C#. Segui la nostra g
 Scopri come estrarre tabelle da immagini con Aspose OCR in C#. Segui la nostra guida passo passo per risultati precisi.
 ### [Estrai testo da immagine in C# – Guida completa OCR offline](./extract-text-from-image-in-c-complete-offline-ocr-guide/)
 Impara a estrarre testo da immagini in C# usando Aspose.OCR in modalità offline con questa guida passo passo.
+### [Come utilizzare OCR in C# – Estrarre testo arabo da JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Scopri come estrarre testo arabo da immagini JPG usando Aspose.OCR in C#. Segui la guida passo passo.
+### [Crea PDF ricercabile da immagine in C# – Guida completa](./create-searchable-pdf-from-image-in-c-full-guide/)
+Impara a trasformare immagini in PDF ricercabili usando Aspose.OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+### [c# OCR tutorial – Estrai testo Urdu da immagini PNG](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Scopri come estrarre testo in lingua urdu da file PNG usando Aspose.OCR in C#. Segui la guida passo passo per integrare l'OCR nella tua app.
+### [Come fare OCR batch in C# – Estrarre testo dalle immagini rapidamente](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Scopri come elaborare più immagini contemporaneamente con Aspose.OCR in C#, per estrarre testo rapidamente e migliorare le prestazioni della tua app.
+### [Come creare PDF/A da immagini scannerizzate in C# – Guida passo‑passo](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Scopri come creare PDF/A da immagini scannerizzate usando Aspose.OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+### [Riconoscere testo scritto a mano in C# usando Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Scopri come estrarre testo scritto a mano da immagini con Aspose OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
 ### [Come usare Aspose – Estrarre testo da PDF in C# – Guida completa](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
 Scopri come estrarre testo da PDF con Aspose in C# grazie a una guida completa passo passo.
 ### [Esempio C# OCR – Estrai testo dalle immagini con Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)

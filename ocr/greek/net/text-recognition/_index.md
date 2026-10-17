@@ -403,6 +403,18 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας πλήρη offline OCR λύση του Aspose.
 ### [Δημιουργία docx από εικόνα με Aspose OCR – Οδηγός βήμα‑βήμα C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Μάθετε πώς να μετατρέψετε εικόνες σε αρχεία docx χρησιμοποιώντας το Aspose OCR σε C# με αυτόν τον πλήρη οδηγό.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή αραβικού κειμένου από JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Μάθετε πώς να εξάγετε αραβικό κείμενο από αρχεία JPG χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου Urdu από PNG εικόνες](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Μάθετε πώς να εξάγετε κείμενο Urdu από εικόνες PNG χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης από εικόνα σε C# – Πλήρης οδηγός](./create-searchable-pdf-from-image-in-c-full-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR σε C#.
+### [Πώς να κάνετε μαζική OCR σε C# – Γρήγορη εξαγωγή κειμένου από εικόνες](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες και να εξάγετε κείμενο γρήγορα με Aspose.OCR σε C#.
+### [Πώς να δημιουργήσετε PDF/A από σαρωμένες εικόνες σε C# – Οδηγός βήμα προς βήμα](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Μάθετε πώς να δημιουργήσετε PDF/A από σαρωμένες εικόνες σε C# χρησιμοποιώντας το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Αναγνώριση χειρόγραφου κειμένου σε C# με χρήση Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Μάθετε πώς να αναγνωρίζετε χειρόγραφο κείμενο σε εφαρμογές C# χρησιμοποιώντας το Aspose OCR.
 ### [c# OCR παράδειγμα – Εξαγωγή κειμένου από εικόνες με Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
 ### [Εξαγωγή κειμένου από φόρμα με Aspose OCR – Οδηγός βήμα προς βήμα](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)

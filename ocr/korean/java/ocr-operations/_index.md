@@ -125,6 +125,8 @@ Java 애플리케이션에서 Aspose OCR을 설정하고 사용하기 위한 전
 Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 전체 가이드를 단계별로 안내합니다.
 ### [이미지에서 힌디어 텍스트 추출 – Java OCR 예제](./extract-hindi-text-from-images-java-ocr-example/)
 Aspose.OCR for Java를 사용해 이미지에서 힌디어 텍스트를 정확하게 추출하는 단계별 가이드.
+### [Aspose OCR을 사용한 Java OCR 단계별 가이드](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Aspose OCR을 사용해 Java에서 OCR을 단계별로 수행하는 방법을 자세히 안내합니다.
 
 ## 자주 묻는 질문
 

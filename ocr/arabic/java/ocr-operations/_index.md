@@ -116,6 +116,8 @@ weight: 21
 ### [التعرف على نص الصورة باستخدام Aspose OCR للـ Java – دليل كامل](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 ### [استخراج نص هندي من الصور – مثال OCR للـ Java](./extract-hindi-text-from-images-java-ocr-example/)
 دليل خطوة بخطوة لاستخراج النص الهندي من الصور باستخدام Aspose.OCR للـ Java مع تحسين الدقة للغة الهندية.
+### [كيفية تنفيذ OCR باستخدام Aspose OCR في Java – دليل خطوة بخطوة](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+دليل شامل يوضح خطوات تنفيذ OCR باستخدام Aspose OCR في Java من البداية حتى النهاية.
 
 ## الأسئلة المتكررة
 

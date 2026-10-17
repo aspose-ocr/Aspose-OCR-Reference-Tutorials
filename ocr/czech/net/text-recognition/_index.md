@@ -416,6 +416,18 @@ Naučte se, jak pomocí Aspose.OCR vytvořit prohledávatelný PDF soubor z obr�
 Kompletní průvodce, jak offline pomocí Aspose.OCR v C# extrahovat text z obrázků bez připojení k internetu.
 ### [Vytvořte DOCX z obrázku pomocí Aspose OCR – krok za krokem průvodce v C#](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Kompletní návod, jak pomocí Aspose OCR v C# převést obrázek na soubor DOCX s textem.
+### [c# OCR tutoriál – Extrahování urdského textu z PNG obrázků](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat urdský text z PNG obrázků a integrovat OCR do svých aplikací.
+### [Jak používat OCR v C# – Extrahovat arabský text z JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat arabský text z JPG obrázků a integrovat OCR do svých aplikací.
+### [Vytvořte prohledávatelný PDF z obrázku v C# – Kompletní průvodce](./create-searchable-pdf-from-image-in-c-full-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor a integrovat OCR do svých aplikací.
+### [Jak provádět hromadné OCR v C# – Rychlé extrahování textu z obrázků](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Naučte se, jak pomocí Aspose.OCR v C# provádět hromadné OCR a rychle extrahovat text z obrázků.
+### [Jak vytvořit PDF/A ze skenovaných obrázků v C# – krok za krokem průvodce](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Naučte se, jak pomocí Aspose.OCR v C# vytvořit PDF/A z naskenovaných obrázků a integrovat OCR do vašich aplikací.
+### [Rozpoznat rukopisný text v C# pomocí Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# rozpoznat rukopisný text z obrázků a integrovat OCR do svých aplikací.
 ### [c# OCR příklad – Extrahujte text z obrázků pomocí Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
 Ukázkový kód v C# ukazuje, jak pomocí Aspose OCR extrahovat text z obrázků ve vašich .NET aplikacích.
 ### [Extrahujte text z formuláře pomocí Aspose OCR – krok za krokem](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)

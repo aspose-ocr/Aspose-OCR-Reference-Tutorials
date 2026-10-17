@@ -218,6 +218,8 @@ Naučte se rozpoznávat čínské znaky z obrázků pomocí Aspose.OCR v C# s po
 Využijte GPU pro zrychlené OCR v C# s Aspose.OCR a dosáhněte vyšší výkon a přesnost.
 ### [Provést OCR na obrázku – Zvýšit přesnost s Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Zlepšete přesnost rozpoznávání textu na obrázcích pomocí pokročilých nastavení Aspose OCR.
+### [Vytvořit konzolový logger v C# – Kompletní průvodce pro povolení automatického stahování a opravu OCR textu](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Naučte se vytvořit konzolový logger, který automaticky stahuje a opravuje OCR text ve vašich .NET aplikacích.
 
 ## Často kladené otázky
 

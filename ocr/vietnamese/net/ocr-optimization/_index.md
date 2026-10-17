@@ -187,6 +187,8 @@ Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# sử d�
 ### [Chạy OCR trên hình ảnh với GPU – Hướng dẫn C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 Tận dụng sức mạnh GPU để tăng tốc quá trình OCR trên hình ảnh bằng Aspose.OCR trong C#.
 ### [Thực hiện OCR trên hình ảnh – Tăng độ chính xác với Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
+### [Tạo Logger Console trong C# – Hướng Dẫn Đầy Đủ Để Kích Hoạt Tự Động Tải Xuống & Sửa Đoạn Văn Bản OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Hướng dẫn chi tiết cách tạo logger console trong C#, tự động tải xuống và sửa lỗi văn bản OCR một cách hiệu quả.
 
 ## Câu hỏi thường gặp
 

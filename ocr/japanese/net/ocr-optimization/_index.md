@@ -217,6 +217,8 @@ C# で大量の画像を一括処理し、OCR を実行する手順をステッ�
 Aspose OCR を使用して画像からテキストを抽出し、精度を向上させる方法を解説します。
 ### [GPU で画像の OCR を実行 – C# Aspose OCR ガイド](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 GPU を活用して高速に画像からテキストを抽出する方法を C# で解説します。
+### [C# でコンソールロガーを作成 – 自動ダウンロードと OCR テキスト修正を有効にする完全ガイド](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+C# コンソールロガーを構築し、OCR テキストの自動ダウンロードと修正機能を実装する手順を解説します。
 
 ## よくある質問
 

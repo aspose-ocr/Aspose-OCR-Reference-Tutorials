@@ -127,6 +127,8 @@ weight: 21
 
 ### [สกัดข้อความภาษาฮินดีจากภาพ – ตัวอย่าง OCR ด้วย Java](./extract-hindi-text-from-images-java-ocr-example/)
 เรียนรู้วิธีสกัดข้อความภาษาฮินดีจากภาพโดยใช้ Aspose.OCR for Java พร้อมตัวอย่างโค้ดเต็ม
+### [วิธีทำ OCR ด้วย Aspose OCR ใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+เรียนรู้วิธีใช้ Aspose OCR ใน Java อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการสกัดข้อความจากไฟล์ต่าง ๆ  
 
 
 

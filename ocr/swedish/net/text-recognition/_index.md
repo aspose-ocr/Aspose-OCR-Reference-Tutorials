@@ -412,6 +412,18 @@ Lär dig steg-för-steg hur du extraherar tabeller från bilder med Aspose OCR i
 Lär dig steg-för-steg hur du offline extraherar text från bilder i C# med Aspose.OCR för precisa resultat.
 ### [Skapa docx från bild med Aspose OCR – Steg‑för‑steg C#‑guide](./create-docx-from-image-with-aspose-ocr-step-by-step-c-guide/)
 Lär dig hur du konverterar en bild till ett docx‑dokument med Aspose OCR i C# med vår detaljerade steg‑för‑steg‑guide.
+### [Hur man använda OCR i C# – Extrahera arabisk text från JPG](./how-to-use-ocr-in-c-extract-arabic-text-from-jpg/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera arabisk text från JPG-bilder.
+### [c# OCR-handledning – Extrahera urdu-text från PNG-bilder](./c-ocr-tutorial-extract-urdu-text-from-png-images/)
+Lär dig hur du med Aspose OCR för .NET extraherar urdu-text från PNG-bilder i en C#-applikation.
+### [Skapa sökbar PDF från bild i C# – Fullständig guide](./create-searchable-pdf-from-image-in-c-full-guide/)
+Lär dig steg-för-steg hur du med Aspose.OCR för .NET skapar en sökbar PDF från en bildfil.
+### [Hur man skapar PDF/A från skannade bilder i C# – Steg‑för‑steg‑guide](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
+Lär dig att konvertera skannade bilder till PDF/A i C# med Aspose.OCR i en detaljerad steg‑för‑steg‑guide.
+### [Hur man batch-OCR i C# – Extrahera text från bilder snabbt](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
+Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder och snabbt extraherar text i en C#-applikation.
+### [Känn igen handskriven text i C# med Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
+Lär dig hur du med Aspose OCR för .NET känner igen handskriven text i C#-applikationer.
 ### [c# OCR-exempel – Extrahera text från bilder med Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
 Lär dig hur du med C# och Aspose OCR extraherar text från bilder i enkla steg.
 ### [Extrahera text från bild i C# – Fullständig guide](./extract-text-from-image-in-c-full-guide/)

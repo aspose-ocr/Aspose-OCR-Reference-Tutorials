@@ -52,6 +52,9 @@ Aprenda a eliminar la inclinación de imágenes con C#, mejorando la precisión 
 Aprenda a eliminar la inclinación de imágenes como paso previo esencial para OCR con Aspose.OCR para .NET.
 ### [Cómo enderezar una imagen y limpiar escaneos – Guía completa en C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
 Aprenda a corregir la inclinación y mejorar la calidad de escaneos usando Aspose.OCR para .NET en C#.
+### [Cómo enderezar una imagen en C# – Guía completa usando Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Aprenda a enderezar imágenes en C# con Aspose OCR para mejorar la precisión del OCR.
+
 ### [Cómo corregir la inclinación de una imagen en C# con Aspose OCR – Guía completa](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Aprenda a eliminar la inclinación de imágenes en C# usando Aspose OCR con esta guía paso a paso.
 {{< /blocks/products/pf/tutorial-page-section >}}

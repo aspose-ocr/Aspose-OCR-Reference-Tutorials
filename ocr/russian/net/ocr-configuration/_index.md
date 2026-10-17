@@ -119,6 +119,8 @@ weight: 24
 ### [Чтение текста из PNG – извлечение кириллического текста с Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
 ### [Установить GPU-устройство для OCR в C# – Полное руководство по программированию](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Настройте использование GPU в Aspose.OCR для ускорения распознавания, используя C# и полный пример кода.
+### [Распознавание текста с изображения в C# – как распознать каннада с Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Узнайте, как с помощью Aspose OCR распознать текст на каннада в C# из изображений.
 
 
 

@@ -118,6 +118,8 @@ Ismerje meg, hogyan ágyazhat be betűtípusokat PDF-be, és alakíthatja a JPEG
 Tanulja meg, hogyan nyerjen ki cirill karaktereket PNG képekből az Aspose OCR .NET használatával.  
 ### [GPU eszköz beállítása OCR-hez C#-ban – Teljes programozási útmutató](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Ismerje meg, hogyan állíthatja be a GPU-t az OCR felgyorsításához C#-ban az Aspose.OCR használatával.
+### [Szöveg felismerése képről C#-ban – hogyan ismerjük fel a kannada nyelvet az Aspose OCR-rel](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t kannada nyelvű szövegek felismerésére C# alkalmazásokban.  
 
 
 

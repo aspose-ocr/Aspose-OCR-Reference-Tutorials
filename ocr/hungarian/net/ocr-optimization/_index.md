@@ -222,6 +222,9 @@ Ismerje meg, hogyan használhatja a GPU gyorsítást az OCR-hoz C#-ban az Aspose
 ### [OCR végrehajtása képen – Pontosság növelése az Aspose OCR segítségével](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Fedezze fel, hogyan növelheti az OCR pontosságát képeken az Aspose OCR használatával.
 
+### [Konzol naplózó létrehozása C#‑ban – Teljes útmutató az automatikus letöltés és az OCR szöveg javításának engedélyezéséhez](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Lépésről‑lépésre bemutatjuk, hogyan hozhat létre konzol naplózót C#‑ban, amely automatikusan letölti és javítja az OCR‑rel kinyert szöveget.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

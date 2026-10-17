@@ -226,6 +226,8 @@ Aprenda a reconhecer texto em imagens chinesas usando Aspose.OCR em C#, passo a 
 Aprenda a processar múltiplas imagens simultaneamente usando Aspose.OCR em C#, com código completo e dicas de desempenho.
 ### [Executar OCR em Imagem com GPU – Guia C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 Aprenda a acelerar o reconhecimento de texto usando GPU com Aspose.OCR para .NET em projetos C#.
+### [Criar Logger de Console em C# – Guia Completo para Habilitar Download Automático e Corrigir Texto de OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Aprenda a implementar um logger de console em C# que permite download automático e corrige texto OCR para melhorar a precisão.
 
 ## Perguntas Frequentes
 

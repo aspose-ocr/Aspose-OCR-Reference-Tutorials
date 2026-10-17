@@ -118,6 +118,8 @@ weight: 21
 ### [Распознавание текста с изображения с помощью Aspose OCR Java – Полное руководство](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
 ### [Извлечение текста на хинди из изображений – пример OCR на Java](./extract-hindi-text-from-images-java-ocr-example/)
+### [Как выполнить OCR с Aspose OCR в Java – пошаговое руководство](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Подробный пошаговый гайд по использованию Aspose OCR в Java для распознавания текста.
 
 ## Часто задаваемые вопросы
 

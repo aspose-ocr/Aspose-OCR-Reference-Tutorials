@@ -123,6 +123,8 @@ weight: 21
 Μάθετε πώς να ενεργοποιήσετε το OCR σε Java χρησιμοποιώντας το Aspose, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Αναγνώριση κειμένου από εικόνα με Aspose OCR Java – Πλήρης Οδηγός](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Πώς να Εκτελέσετε OCR με το Aspose OCR σε Java – Οδηγός Βήμα‑βήμα](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Ανακαλύψτε έναν πλήρη οδηγό βήμα‑βήμα για την υλοποίηση OCR με το Aspose OCR σε Java, καλύπτοντας όλες τις βασικές ρυθμίσεις.
 
 ## Συχνές Ερωτήσεις
 

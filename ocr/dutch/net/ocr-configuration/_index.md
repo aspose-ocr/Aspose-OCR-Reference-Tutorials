@@ -84,6 +84,8 @@ Leer hoe je lettertypen in PDF's insluit en JPEG-afbeeldingen omzet naar doorzoe
 Leer hoe je met Aspose OCR tekst uit PNG‑bestanden met Cyrillische tekens kunt extraheren.
 ### [GPU-apparaat instellen voor OCR in C# – Complete programmeergids](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 Ontgrendel GPU-versnelling voor OCR in C#. Leer hoe je een GPU-apparaat instelt voor optimale prestaties.
+### [Tekst herkennen uit afbeelding in C# – hoe Kannada te herkennen met Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Leer hoe je met Aspose OCR Kannada‑teksten uit afbeeldingen kunt extraheren in C#.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.
