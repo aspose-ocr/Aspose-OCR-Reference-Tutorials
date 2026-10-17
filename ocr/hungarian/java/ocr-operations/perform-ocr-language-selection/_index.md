@@ -1,11 +1,11 @@
 ---
-date: 2025-12-13
-description: Tanulja meg, hogyan lehet szöveget kinyerni képből az Aspose.OCR for
-  Java segítségével nyelvválasztással. Ez a lépésről‑lépésre Aspose OCR Java útmutató
-  pontos OCR konfigurációt mutat be.
-linktitle: How to Extract Text from Image with Language Selection Using Aspose.OCR
+date: 2026-02-12
+description: Tanulja meg, hogyan OCR-ozhat képek szövegét nyelvválasztással az Aspose.OCR
+  for Java használatával. Ez a lépésről‑lépésre útmutató lefedi a szöveg kinyerését
+  Java-ban, az OCR dőléskorrekciót és még sok mást.
+linktitle: How to OCR Image Text with Language Using Aspose.OCR
 second_title: Aspose.OCR Java API
-title: Hogyan lehet szöveget kinyerni képből nyelvválasztással az Aspose.OCR segítségével
+title: Hogyan OCR-eljük a képen lévő szöveget nyelvvel az Aspose.OCR segítségével
 url: /hu/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
@@ -14,29 +14,37 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan vonjunk ki szöveget képből nyelvválasztással az Aspose.OCR használatával
+# Hogyan OCR-eljünk képszöveget nyelvvel az Aspose.OCR segítségével
 
 ## Bevezetés
 
-A szöveg kinyerése képfájlokból gyakori igény, legyen szó beolvasott dokumentumok digitalizálásáról, nyugták feldolgozásáról vagy kereshető archívumok építéséről. Az Aspose.OCR for Java egyszerűvé teszi ezt a feladatot, és finomhangolt vezérlést biztosít a nyelvválasztás, a dőléskorrekció és a felismerési területek felett. Ebben az útmutatóban egy teljes, gyakorlati példán keresztül mutatjuk be, **hogyan vonjunk ki szöveget képből** egy adott nyelvi beállítással, hogy még ma megbízható OCR-t integrálhasson Java‑alkalmazásaiba.
+A szöveg kinyerése képfájlokból gyakori igény, legyen szó beolvasott dokumentumok digitalizálásáról, nyugták feldolgozásáról vagy kereshető archívumok építéséről. Ebben az oktatóanyagban egy teljes, gyakorlati példán keresztül mutatjuk be, **hogyan OCR-eljünk képszöveget** egy adott nyelvi beállítással, így már ma integrálhat megbízható OCR-t Java‑alkalmazásaiba. Emellett megismerheti az OCR dőléskorrekció és a terület‑alapú felismerés kezelését a legjobb pontosság érdekében.
 
 ## Gyors válaszok
-- **Melyik könyvtár kezeli az OCR-t Java‑ban?** Aspose.OCR for Java  
+- **Melyik könyvtár kezeli az OCR‑t Java‑ban?** Aspose.OCR for Java  
 - **Melyik beállítás választja ki a nyelvet?** `settings.setLanguage(Language.Eng)` (vagy bármely támogatott nyelv)  
-- **Szükségem van licencre fejlesztéshez?** Egy ingyenes értékelő licenc működik teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
-- **Korlátozhatom az OCR‑t a kép egy régiójára?** Igen, használja a `RecognitionSettings.setRecognitionAreas()`‑t téglalapokkal.  
+- **Szükségem van licencre fejlesztéshez?** Egy ingyenes értékelő licenc elegendő a teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Korlátozhatom az OCR‑t a kép egy régiójára?** Igen, használd a `RecognitionSettings.setRecognitionAreas()` metódust téglalapokkal.  
 - **Mi a tipikus futási idő?** Néhány másodperc oldalanként egy átlagos laptopon, a kép méretétől és a nyelv összetettségétől függően.
 
+## Hogyan OCR-eljünk képszöveget nyelvválasztással
+Ebben a részben a fő kérdésre válaszolunk: **hogyan OCR-eljünk egy képet**, ha ismerjük a szöveg nyelvét. A megfelelő nyelv kiválasztása drámaian javítja a felismerés pontosságát, mivel az OCR‑motor nyelvspecifikus szótárakat és karaktermodelleket alkalmaz.
+
+### Miért fontos ez
+- **Magasabb pontosság** – a nyelvspecifikus modellek csökkentik a hibás felismeréseket.  
+- **Teljesítményjavulás** – a motor kihagyja a felesleges nyelvellenőrzéseket.  
+- **Jobb diakritikus kezelés** – a francia, spanyol, német stb. nyelvek helyesen ismerhetők fel, ha a megfelelő `Language` enumot használjuk.
+
 ## Mi az a „szöveg kinyerése képből”?
-A képből történő szöveg kinyerése (OCR) a karakterek vizuális ábrázolását gép‑olvasható karakterláncokká alakítja. Ez lehetővé teszi a keresést, az elemzést és az adatkinyerési munkafolyamatokat, amelyek egyébként manuális átírást igényelnének.
+A szöveg kinyerése képből (OCR) a karakterek vizuális ábrázolását géppel olvasható karakterláncokká alakítja. Ez lehetővé teszi a keresést, az elemzést és az adatkinyerési munkafolyamatokat, amelyek egyébként manuális átírást igényelnének.
 
 ## Miért használjuk az Aspose.OCR‑t nyelvválasztással?
-- **Többnyelvű támogatás** – Válassza ki a képen jelen lévő pontos nyelvet vagy nyelveket a pontosság növelése érdekében.  
-- **Finomhangolt vezérlés** – Állítsa be a dőlést, definiálja a felismerési területeket, és szabályozza az automatikus dőléskorrekciót.  
+- **Többnyelvű támogatás** – Válassza ki a képen jelenlévő pontos nyelvet (nyelveket) a pontosság növelése érdekében.  
+- **Finomhangolt vezérlés** – Állítsa be a dőlést, határozza meg a felismerési területeket, és konfigurálja az automatikus dőlést.  
 - **Tiszta Java API** – Nincsenek natív függőségek, könnyen integrálható bármely Java projektbe.  
-- **Gazdag eredményadatok** – Egy hívással kapja meg a sima szöveget, JSON‑t, körülhatároló téglalapokat és figyelmeztetéseket.
+- **Gazdag eredményadat** – Egy hívásban kapja meg a sima szöveget, JSON‑t, határoló téglalapokat és figyelmeztetéseket.
 
-## Előkövetelmények
+## Előfeltételek
 
 Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
 
@@ -71,7 +79,7 @@ import java.util.ArrayList;
 String dataDir = "Your Document Directory";
 ```
 
-Cserélje le a `"Your Document Directory"`‑t az abszolút útra, ahol a `p3.png` található.
+Cserélje le a `"Your Document Directory"` szöveget arra az abszolút útvonalra, ahol a `p3.png` található.
 
 ### 2. lépés: Kép útvonalának meghatározása
 
@@ -80,7 +88,7 @@ Cserélje le a `"Your Document Directory"`‑t az abszolút útra, ahol a `p3.pn
 String file = dataDir + "p3.png";
 ```
 
-Győződjön meg róla, hogy a `file` változó a pontosan feldolgozni kívánt képre mutat.
+Győződjön meg arról, hogy a `file` változó a pontosan feldolgozni kívánt képre mutat.
 
 ### 3. lépés: Aspose.OCR API példány létrehozása
 
@@ -106,11 +114,11 @@ settings.setLanguage(Language.Eng);
 
 Itt:
 
-1. Letiltjuk az automatikus dőléskorrekciót, mivel manuális dőlésszöget adunk meg.  
+1. Letiltjuk az automatikus dőlést, mert manuális dőlést adunk meg.  
 2. Meghatározunk egy téglalap alakú régiót (`RecognitionAreas`), hogy az OCR csak a tényleges szöveget tartalmazó képrészre korlátozódjon.  
-3. Beállítjuk a **nyelvet** angolra (`Language.Eng`). Ezt módosítsa `Language.Fra`, `Language.Spa` stb.-re a forráskép nyelvétől függően.
+3. **language**‑t angolra (`Language.Eng`) állítjuk. Cserélje ezt `Language.Fra`, `Language.Spa` stb.-re a forráskép nyelvének megfelelően.
 
-### 5. lépés: OCR végrehajtása és eredmények lekérése
+### 5. lépés: OCR végrehajtása és az eredmények lekérése
 
 ```java
 // Get result object
@@ -122,7 +130,7 @@ try {
 }
 ```
 
-A `RecognizePage` hívás elindítja az OCR motorát a megadott képpel és beállításokkal. Az eredmény egy `RecognitionResult` objektumban tárolódik.
+A `RecognizePage` hívás elindítja az OCR motorját a megadott képpel és beállításokkal. Az eredmény egy `RecognitionResult` objektumban tárolódik.
 
 ### 6. lépés: Eredmények kiírása és felhasználása
 
@@ -147,48 +155,48 @@ System.out.println("OCROperationWithLanguageSelection: execution complete");
 A konzol kimenete a következőket mutatja:
 
 - A teljes kinyert szöveg (`recognitionText`).  
-- Szöveg minden definiált téglalaphoz (`recognitionAreasText`).  
-- Körülhatároló téglalap koordináták.  
-- JSON ábrázolás az egyszerű további feldolgozáshoz.  
-- Detektált dőlésszög és esetleges figyelmeztetések.
+- Az egyes téglalapokhoz tartozó szöveg (`recognitionAreasText`).  
+- A határoló téglalap koordinátái.  
+- Egy JSON ábrázolás a könnyű további feldolgozáshoz.  
+- A detektált dőlésszög és esetleges figyelmeztetések.
 
-Most már a `result.recognitionText`‑et átadhatja az üzleti logikájának – tárolhatja, indexelheti vagy továbbíthatja egy másik szolgáltatásnak.
+Most már a `result.recognitionText`‑et beillesztheti az üzleti logikájába – tárolhatja, indexelheti vagy továbbíthatja egy másik szolgáltatásnak.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **Rossz karakterek** | Helytelen nyelv kiválasztva | Állítsa be a megfelelő `Language` enum‑ot (pl. `Language.Fra` a francia nyelvhez). |
-| **Nem tér vissza szöveg** | A felismerési terület nem fedi le a szöveget | Állítsa be a `Rectangle` koordinátákat, vagy távolítsa el a `RecognitionAreas`‑t a teljes kép feldolgozásához. |
-| **Lassú teljesítmény** | Nagyon nagy kép vagy magas felbontás | Kicsinyítse a képet OCR előtt, vagy növelje a JVM memória kiosztását. |
-| **Figyelmeztetések a nem támogatott formátumról** | A képformátum nem ismerhető | Konvertálja a képet PNG, JPEG vagy TIFF formátumba a feldolgozás előtt. |
+| **Garbage characters** | Wrong language selected | Set the correct `Language` enum (e.g., `Language.Fra` for French). |
+| **No text returned** | Recognition area does not cover the text | Adjust the `Rectangle` coordinates or remove `RecognitionAreas` to process the whole image. |
+| **Slow performance** | Very large image or high resolution | Downscale the image before OCR or increase memory allocation for the JVM. |
+| **Warnings about unsupported format** | Image format not recognized | Convert the image to PNG, JPEG, or TIFF before processing. |
 
-## Gyakran Ismételt Kérdések
+## GyIK
 
-**K: Tudok több nyelvet felismerni egyetlen OCR hívásban?**  
-A: Igen. Használja a `settings.setLanguage(Language.Eng | Language.Fra)`‑t a többnyelvű felismerés engedélyezéséhez.
+**Q: Felismerhetek több nyelvet egyetlen OCR hívásban?**  
+A: Igen. Használja a `settings.setLanguage(Language.Eng | Language.Fra)` kifejezést a többnyelvű felismerés engedélyezéséhez.
 
-**K: Mely képformátumokat támogatja az Aspose.OCR?**  
-A: PNG, JPEG, BMP, TIFF, GIF és több más. Csak adja meg a helyes fájl útvonalat.
+**Q: Milyen képformátumokat támogat az Aspose.OCR?**  
+A: PNG, JPEG, BMP, TIFF, GIF és több más formátum. Csak adja meg a helyes fájlútvonalat.
 
-**K: Van méretkorlát a képre?**  
-A: Nincs szigorú korlát, de a nagyon nagy képek növelik a memóriahasználatot és a feldolgozási időt. Fontolja meg a nagy fájlok átméretezését.
+**Q: Van méretkorlátja a képnek?**  
+A: Nincs szigorú korlát, de nagyon nagy képek növelik a memóriahasználatot és a feldolgozási időt. Fontolja meg a nagy fájlok átméretezését.
 
-**K: Hogyan szerezzek termelési licencet?**  
-A: Vásároljon licencet az Aspose weboldaláról, és alkalmazza a `License` osztályon keresztül, ahogy az Aspose dokumentációban látható.
+**Q: Hogyan szerezzek be egy éles licencet?**  
+A: Vásároljon licencet az Aspose weboldaláról, és alkalmazza a `License` osztályon keresztül, ahogy az Aspose dokumentációjában szerepel.
 
-**K: Kinyerhetek szöveget közvetlenül egy PDF oldalról?**  
-A: Nem közvetlenül az Aspose.OCR‑rel. Először konvertálja a PDF oldalt képpé (pl. az Aspose.PDF használatával), majd futtassa az OCR‑t.
+**Q: Kinyerhetek szöveget közvetlenül egy PDF oldalról?**  
+A: Nem közvetlenül az Aspose.OCR-rel. Először konvertálja a PDF oldalt képpé (például az Aspose.PDF használatával), majd futtassa az OCR‑t.
 
-## Összegzés
+## Következtetés
 
-Most már látta, hogyan **vonjon ki szöveget képből** az Aspose.OCR for Java segítségével, miközben a megfelelő nyelvet választja ki és a felismerést meghatározott régiókra korlátozza. Ez a megközelítés pontos, nagy teljesítményű OCR‑t biztosít, amely bármely Java‑alapú munkafolyamatba beágyazható – legyen szó dokumentumkezelő rendszerekről vagy adatgyűjtő csővezetékekről.
+Most már látta, hogyan **szöveget nyerhet ki képből** az Aspose.OCR for Java segítségével, miközben a megfelelő nyelvet választja ki és a felismerést meghatározott régiókra korlátozza. Ez a megközelítés pontos, nagy teljesítményű OCR‑t biztosít, amely beágyazható bármely Java‑alapú munkafolyamatba – legyen szó dokumentumkezelő rendszerekről vagy adatgyűjtő csővezetékekről. Készen áll a továbblépésre? Próbálja ki a nyelv‑enum cseréjét, kísérletezzen különböző felismerési területekkel, és integrálja az eredményeket saját alkalmazáslogikájába.
 
 ---
 
-**Utoljára frissítve:** 2025-12-13  
-**Tesztelve a következővel:** Aspose.OCR 24.11 for Java  
-**Szerző:** Aspose  
+**Last Updated:** 2026-02-12  
+**Tested With:** Aspose.OCR 24.11 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

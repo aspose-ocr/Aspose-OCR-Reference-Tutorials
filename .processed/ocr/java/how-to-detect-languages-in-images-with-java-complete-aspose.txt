@@ -1,0 +1,7 @@
+Title: How to Detect Languages in Images with Java – Complete Aspose OCR Guide
+Slug: how-to-detect-languages-in-images-with-java-complete-aspose
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-19T15:26:22.090194
+SourceRepo: AI Search API
+Keywords: how to detect languages, how to extract image text, extract image text java
+PRNumber: 149

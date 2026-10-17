@@ -1,20 +1,21 @@
 ---
 category: general
-date: 2026-03-21
-description: c# OCR 教學：學習如何從圖片中提取文字、掃描發票，並在 c# 中使用 Aspose OCR 及 GPU 加速載入圖片。
+date: 2026-01-09
+description: c# OCR 教學，示範如何從圖像檔案提取文字、從 PNG 識別文字、將圖像轉換為字串，並使用 Aspose.OCR 自動偵測語言。
 draft: false
 keywords:
-- c# OCR tutorial
+- c# ocr tutorial
 - extract text from image
-- ocr invoice scanning
-- how to ocr image
-- load image in c#
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: zh-hant
-og_description: C# OCR 教學：逐步指南，從圖像提取文字、執行 OCR 發票掃描，並學習如何在 C# 中使用 GPU 加速進行圖像 OCR。
-og_title: c# OCR 教學 – 使用 Aspose OCR 從圖像提取文字
+og_description: C# OCR 教學，一步步帶領你從圖像中提取文字、辨識 PNG 檔案中的文字、將圖像轉換為字串，並使用 Aspose OCR 自動偵測語言。
+og_title: C# OCR 教學 – 從圖像提取文字
 tags:
-- OCR
 - C#
+- OCR
+- Aspose
 - Image Processing
 title: C# OCR 教學 – 使用 Aspose OCR 從圖像提取文字
 url: /zh-hant/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
@@ -24,257 +25,199 @@ url: /zh-hant/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# OCR 教學 – 使用 Aspose OCR 從影像中擷取文字
+# c# ocr 教學 – 使用 Aspose OCR 從影像中擷取文字
 
-有沒有想過如何以 **c# OCR 教學** 的方式解決像是將掃描發票轉換成可編輯文字的實際問題？你並不孤單。許多開發者在需要 *從影像中擷取文字* 時會卡住，最終寫出脆弱的解析器，一遇到有雜訊的掃描檔就會失效。
+有沒有需要一個實際可用於真實 PNG 檔案的 **c# ocr 教學**？也許你正在開發收據掃描器、多語言表單處理器，或只是好奇如何把文字圖片轉換成可搜尋的字串。無論是哪種情況，你都來對地方了。
 
-事實上——Aspose.OCR 讓整個流程變得輕而易舉，尤其在啟用 GPU 加速時更是如此。在本指南中，你將會看到如何在 C# 中 **如何對影像進行 OCR**、正確地在 C# 中載入影像，甚至在不抓狂的情況下處理常見的發票掃描怪癖。
+在本指南中，我們將一步一步示範如何 **extract text from image** 檔案、**recognize text from png**、**convert image to string**，甚至 **detect language automatically**——全部使用 Aspose.OCR 函式庫。沒有模糊的參考，只有完整、可執行的範例，你可以直接複製貼上到 Visual Studio。
 
-完成本教學後，你將擁有一個可執行的主控台應用程式，能讀取 TIFF 發票、在 GPU 上執行 OCR，並輸出乾淨的純文字。沒有魔法，只有你可以直接複製貼上並調整的實用程式碼。
+## 需要的條件
 
----
+- .NET 6.0 或更新版本（程式碼同樣支援 .NET Core 與 .NET Framework）  
+- NuGet 參考 `Aspose.OCR`（版本 23.9 或更新）  
+- 一個影像檔案（本例中的 `mixed‑script.png`），放在程式可讀取的位置  
+- 基本的 C# 語法了解（只要寫過「Hello World」就足夠）
 
-## 需要的環境
+> **Pro tip:** 若尚未取得授權，Aspose 提供免費的臨時授權供測試使用。只要把 `.lic` 檔案放在可執行檔旁邊即可。
 
-- **.NET 6.0**（或更新版本）– 目前的 LTS 版，確保未來相容。
-- **Aspose.OCR for .NET** NuGet 套件 – 版本 23.10（撰寫時的最新版本）。
-- **支援 GPU 的機器**（可選，但建議使用）– 若未偵測到相容的 GPU，程式會自動回退至 CPU。
-- 範例影像，例如 `large_invoice.tif`。任何支援的格式（PNG、JPEG、TIFF、PDF）皆可使用。
+## 第一步 – 安裝 Aspose.OCR NuGet 套件
 
-如果尚未安裝 NuGet 套件，請執行：
+首先，將函式庫加入專案。開啟 Package Manager Console 並執行：
 
-```bash
-dotnet add package Aspose.OCR
+```powershell
+Install-Package Aspose.OCR
 ```
 
-既然已完成前置作業，讓我們深入實作步驟。
+或是使用 UI，右鍵點選 *Dependencies → Manage NuGet Packages*，搜尋 **Aspose.OCR**。
 
-## 步驟 1：建立新的主控台專案並加入 Aspose.OCR
+## 第二步 – 準備 OCR 引擎 (c# ocr 教學核心)
 
-首先，建立一個全新的主控台應用程式，以保持教學的獨立性。
-
-```bash
-dotnet new console -n OcrInvoiceDemo
-cd OcrInvoiceDemo
-dotnet add package Aspose.OCR
-```
-
-> **小技巧：** 使用 `-n` 參數為專案命名，使其具備意義；當你之後加入更多模組時，解決方案會保持整潔。
-
-`Program.cs` 檔案是 Visual Studio 產生的，我們將把它當作練習場。開啟後，移除預設的 `Console.WriteLine` 行——我們會以 OCR 邏輯取代它。
-
-## 步驟 2：在 C# 中載入影像 – 正確做法
-
-載入影像看似簡單，但若處理不當會導致記憶體泄漏或檔案被鎖定。`System.Drawing.Image` 類別在大多數情況下都能正常使用，但必須將其包在 `using` 區塊中以確保釋放。
+現在我們要建立 `OcrEngine` 實例，設定自動偵測語言，並指向 PNG 檔案。
 
 ```csharp
-using System;
-using System.Drawing;
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using System;
 
-namespace OcrInvoiceDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            // 👉 Step 2: Load the image you want to OCR.
-            // Replace the path with the actual location of your invoice file.
-            const string imagePath = @"C:\Invoices\large_invoice.tif";
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
+        var ocrEngine = new OcrEngine();
 
-            // The using statement ensures the image gets disposed automatically.
-            using var inputImage = Image.FromFile(imagePath);
-            
-            // Continue to the OCR engine setup…
-        }
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
+
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
+
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
+
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-留意註解 `// 👉 Step 2:` —— 它對應本教學的步驟編號，方便日後閱讀程式碼的人快速定位。
+### 為什麼要設定 `Language = OcrLanguage.AutoDetect`
 
-## 步驟 3：使用 GPU 加速初始化 OCR 引擎
+自動語言偵測可避免你必須猜測影像是英文、俄文、阿拉伯文或混合語言。這是 **detect language automatically** 情境下最彈性的選擇，且對 Aspose 支援的大多數文字腳本皆可直接使用。
 
-Aspose.OCR 允許你在建構時選擇處理模式。`OcrEngineMode.Gpu` 會在偵測到顯示卡時使用 GPU；若未偵測到，則會靜默回退至 CPU，無需自行撰寫額外的回退邏輯。
+## 第三步 – 執行應用程式並驗證輸出
+
+編譯並執行程式（`dotnet run` 或在 Visual Studio 按 **F5**）。若一切設定正確，你會看到類似以下的結果：
+
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
+
+此輸出證明我們成功 **extract text from image**、**recognize text from png**，以及 **convert image to string**——全部在一段簡潔的程式碼中完成。
+
+## 第四步 – 常見變化與邊緣情況
+
+### 處理多張影像
+
+如果需要處理整個 PNG 目錄，可將辨識呼叫包在 `foreach` 迴圈中：
 
 ```csharp
-// 👉 Step 3: Create the OCR engine.
-// The constructor argument selects GPU mode; it's the fastest option for large invoices.
-var ocrEngine = new OcrEngine(OcrEngineMode.Gpu);
-```
-
-> **為什麼使用 GPU？**  
-> 高解析度發票的 OCR 會消耗大量 CPU。將運算交給 GPU 可將執行時間從數秒縮短至毫秒級，特別是在批次處理時更為顯著。
-
-## 步驟 4：執行 OCR 並從影像擷取文字
-
-現在魔法發生了。呼叫 `Recognize` 取得純文字。Aspose 會回傳一個 `OcrResult` 物件，內含原始文字、信心分數，甚至每個字元的邊界框，若之後需要可自行使用。
-
-```csharp
-// 👉 Step 4: Perform the OCR operation.
-OcrResult ocrResult = ocrEngine.Recognize(inputImage);
-
-// Display the extracted text.
-Console.WriteLine("=== OCR Output ===");
-Console.WriteLine(ocrResult.Text);
-```
-
-執行程式後，你應該會看到類似以下的輸出：
-
-```
-=== OCR Output ===
-Invoice #12345
-Date: 03/15/2026
-Total: $1,234.56
-...
-```
-
-若輸出呈現雜亂，請再次確認影像具備高對比度，且 OCR 語言設定正確（預設為英文）。你也可以微調 `ocrEngine.Settings` 以提升準確度，但預設設定已足以應付大多數列印發票。
-
-## 步驟 5：處理 OCR 發票掃描的邊緣案例
-
-發票形態多樣——有些是多頁的，有些包含表格或手寫備註。以下提供幾個快速調整方式，讓你不必重寫整個流程。
-
-### 5.1 多頁 PDF 或 TIFF
-
-若來源檔案包含多頁，需遍歷每一頁並將結果串接起來。
-
-```csharp
-using var multiPageImage = Image.FromFile(@"C:\Invoices\multi_page_invoice.tif");
-
-// Aspose can split multi‑page TIFFs into separate images.
-for (int i = 0; i < multiPageImage.GetFrameCount(FrameDimension.Page); i++)
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    multiPageImage.SelectActiveFrame(FrameDimension.Page, i);
-    using var page = (Image)multiPageImage.Clone();
-    var pageResult = ocrEngine.Recognize(page);
-    Console.WriteLine($"--- Page {i + 1} ---");
-    Console.WriteLine(pageResult.Text);
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### 5.2 低解析度掃描
+### 指定固定語言
 
-若 DPI 低於 150，請在送入引擎前先將影像放大。這會顯著提升字元辨識率。
+有時你已知影像的語言（例如僅英文），可將 `AutoDetect` 改為 `OcrLanguage.English` 以加速處理：
 
 ```csharp
-// Simple nearest‑neighbor scaling – replace with a better algorithm if needed.
-var highRes = new Bitmap(inputImage, new Size(inputImage.Width * 2, inputImage.Height * 2));
-var highResResult = ocrEngine.Recognize(highRes);
-Console.WriteLine(highResResult.Text);
+ocrEngine.Language = OcrLanguage.English;
 ```
 
-### 5.3 自訂語言套件
+### 處理低品質掃描
 
-預設情況下 Aspose 使用英文。若需其他語言，請從 Aspose 官方網站下載相應的語言套件並註冊：
+Aspose.OCR 提供前處理選項（降噪、去斜）。快速解決方式如下：
 
 ```csharp
-ocrEngine.Settings.Language = OcrLanguage.Spanish; // example for Spanish invoices
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
 ```
 
-這些調整讓你的 **ocr invoice scanning** 解決方案足以應付正式環境的工作負載。
+### 將結果儲存至檔案
 
-## 完整範例程式
-
-以下是結合上述所有步驟的完整可執行程式。將其複製到 `Program.cs`，調整檔案路徑，然後按 **F5** 執行。
+若不想輸出到主控台，可將擷取的文字寫入 `.txt` 檔案：
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete c# OCR tutorial – Aspose OCR with GPU acceleration
-// ---------------------------------------------------------------
-using System;
-using System.Drawing;
-using System.Drawing.Imaging;
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
+
+## 第五步 – 完整可執行範例（可直接複製貼上）
+
+以下是 **complete program**，包含可選的前處理與檔案輸出邏輯。請自行調整路徑。
+
+```csharp
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using System;
+using System.IO;
 
-namespace OcrInvoiceDemo
+class OcrDemo
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Initialise engine
+        var ocrEngine = new OcrEngine
         {
-            // -----------------------------------------------------------------
-            // Step 1: Initialize the OCR engine (GPU mode)
-            // -----------------------------------------------------------------
-            var ocrEngine = new OcrEngine(OcrEngineMode.Gpu);
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
 
-            // -----------------------------------------------------------------
-            // Step 2: Load the image you want to process
-            // -----------------------------------------------------------------
-            const string imagePath = @"C:\Invoices\large_invoice.tif";
-
-            // Using ensures the image is disposed properly.
-            using var inputImage = Image.FromFile(imagePath);
-
-            // -----------------------------------------------------------------
-            // Step 3: Run OCR and extract plain text
-            // -----------------------------------------------------------------
-            OcrResult ocrResult = ocrEngine.Recognize(inputImage);
-
-            // -----------------------------------------------------------------
-            // Step 4: Output the result
-            // -----------------------------------------------------------------
-            Console.WriteLine("=== OCR Output ===");
-            Console.WriteLine(ocrResult.Text);
-
-            // -----------------------------------------------------------------
-            // Optional: Demonstrate handling a multi‑page TIFF (comment out if not needed)
-            // -----------------------------------------------------------------
-            // HandleMultiPageTiff(@"C:\Invoices\multi_page_invoice.tif", ocrEngine);
-        }
-
-        // ---------------------------------------------------------------
-        // Helper for multi‑page TIFFs – shows how to iterate pages
-        // ---------------------------------------------------------------
-        static void HandleMultiPageTiff(string path, OcrEngine engine)
-        {
-            using var multiPage = Image.FromFile(path);
-            int pageCount = multiPage.GetFrameCount(FrameDimension.Page);
-
-            for (int i = 0; i < pageCount; i++)
-            {
-                multiPage.SelectActiveFrame(FrameDimension.Page, i);
-                using var page = (Image)multiPage.Clone();
-                var result = engine.Recognize(page);
-                Console.WriteLine($"\n--- Page {i + 1} ---");
-                Console.WriteLine(result.Text);
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
             }
-        }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
     }
 }
 ```
 
-**預期輸出**（為簡潔起見已截斷）：
+### 預期輸出
+
+在包含英文、俄文與阿拉伯文的 PNG 上執行程式，會得到：
 
 ```
-=== OCR Output ===
-Invoice #98765
-Date: 02/28/2026
-Bill To: Acme Corp.
-Subtotal: $2,500.00
-Tax (8%): $200.00
-Total: $2,700.00
-...
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
 ```
 
-執行程式並確認主控台印出發票上的文字。若得到空字串，請再次確認影像路徑正確且檔案未損毀。
+若影像為空白或無法辨識，引擎會回傳空字串——請在後續處理前檢查 `string.IsNullOrWhiteSpace(extractedText)`。
 
-## 常見問題 (FAQ)
+## 常見問題 (FAQs)
 
-**Q: 這在 Linux 上能運作嗎？**  
-A: 能。Aspose.OCR 為跨平台套件。只要在 Linux 上安裝 .NET 執行環境，即可使用相同的 NuGet 套件。GPU 加速則需要相容 CUDA 的顯示卡與相應驅動程式。
+**Q: Aspose.OCR 支援手寫文字嗎？**  
+A: 它專注於印刷文字的 OCR。若需辨識手寫文字，需使用專門的機器學習模型或像 Azure Computer Vision 之類的服務。
 
-**Q: 若沒有 GPU 該怎麼辦？**  
-A: `OcrEngineMode.Gpu` 建構子會在未偵測到相容 GPU 時自動回退至 CPU。仍能取得準確結果，只是會稍微慢一些。
+**Q: 我可以在 Linux/macOS 上執行嗎？**  
+A: 當然可以。Aspose.OCR 為跨平台套件，只要安裝相應的 .NET 執行環境即可。
 
-**Q: 能否對手寫筆記進行 OCR？**  
-A: Aspose 的預設模型針對印刷文字。若要辨識手寫，需要專門的模型或其他服務（例如 Azure Form Recognizer）。不過，你仍可使用相同程式碼，只是信心分數可能較低。
+**Q: 若要處理 PDF 而非 PNG，該怎麼做？**  
+A: 先將每頁 PDF 轉成影像（例如使用 `Aspose.PDF`），再將影像送入 OCR 引擎。
 
 ## 結論
 
-你剛剛完成了一個 **c# OCR 教學**，示範了如何 *從影像中擷取文字*、執行 **ocr invoice scanning**，以及了解 **how to o
+我們剛完成一個 **c# ocr 教學**，帶你走過 **extracting text from image** 檔案、**recognizing text from png**、**converting the image to a string**，以及使用 Aspose.OCR **detecting language automatically** 的完整流程。程式碼簡潔、概念清晰，你可以將其擴展為批次處理、客製語言設定，甚至整合到 Web API 中。
+
+接下來的步驟是什麼？試著把 OCR 輸出送入搜尋索引、翻譯服務，或與 Azure Cognitive Services 結合，打造更豐富的資料管線。只要掌握了 C# 圖片轉文字的基礎，未來的可能性無限。
+
+祝開發順利，別忘了嘗試不同品質的影像——你的 OCR 引擎會感謝你的！ 
+
+![c# ocr 教學 – 混合文字 PNG 的 OCR 輸出範例](placeholder-image.png "c# ocr 教學 – OCR 結果截圖")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

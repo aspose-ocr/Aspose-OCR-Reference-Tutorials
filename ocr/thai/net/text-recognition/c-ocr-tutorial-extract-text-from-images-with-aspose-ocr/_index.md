@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-21
-description: 'บทเรียน OCR ด้วย C#: เรียนรู้วิธีดึงข้อความจากภาพ, สแกนใบแจ้งหนี้และโหลดภาพใน
-  C# ด้วย Aspose OCR ที่ใช้การเร่งความเร็วด้วย GPU.'
+date: 2026-01-09
+description: บทเรียน OCR ด้วย C# ที่แสดงวิธีดึงข้อความจากไฟล์รูปภาพ, จดจำข้อความจาก
+  PNG, แปลงรูปภาพเป็นสตริง, และตรวจจับภาษาด้วยการใช้ Aspose.OCR โดยอัตโนมัติ
 draft: false
 keywords:
-- c# OCR tutorial
+- c# ocr tutorial
 - extract text from image
-- ocr invoice scanning
-- how to ocr image
-- load image in c#
+- recognize text from png
+- convert image to string
+- detect language automatically
 language: th
-og_description: 'บทเรียน OCR ด้วย C#: คู่มือขั้นตอนต่อขั้นตอนในการดึงข้อความจากภาพ,
-  ทำการสแกนใบแจ้งหนี้ด้วย OCR และเรียนรู้วิธีทำ OCR ภาพใน C# ด้วยการเร่งความเร็วด้วย
-  GPU.'
-og_title: บทเรียน OCR ด้วย C# – แยกข้อความจากภาพด้วย Aspose OCR
+og_description: บทเรียน OCR ด้วย C# ที่สอนวิธีดึงข้อความจากภาพ, จดจำข้อความจากไฟล์
+  PNG, แปลงภาพเป็นสตริง, และตรวจจับภาษาอัตโนมัติด้วย Aspose OCR.
+og_title: c# OCR tutorial – ดึงข้อความจากรูปภาพ
 tags:
-- OCR
 - C#
+- OCR
+- Aspose
 - Image Processing
-title: บทเรียน OCR ด้วย C# – ดึงข้อความจากรูปภาพด้วย Aspose OCR
+title: บทเรียน OCR ด้วย C# – แยกข้อความจากรูปภาพด้วย Aspose OCR
 url: /th/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/
 ---
 
@@ -27,259 +27,199 @@ url: /th/net/text-recognition/c-ocr-tutorial-extract-text-from-images-with-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# OCR tutorial – สกัดข้อความจากภาพด้วย Aspose OCR
+# c# ocr tutorial – ดึงข้อความจากรูปภาพด้วย Aspose OCR
 
-เคยสงสัยไหมว่า **c# OCR tutorial** จะนำไปใช้แก้ปัญหาในโลกจริงอย่างการแปลงใบแจ้งหนี้ที่สแกนเป็นข้อความที่แก้ไขได้อย่างไร? คุณไม่ได้เป็นคนเดียวที่เจอเรื่องนี้ นักพัฒนาจำนวนมากเจออุปสรรคเมื่อต้อง *extract text from image* และจบลงด้วยการเขียน parser ที่เปราะบางซึ่งพังทันทีที่สแกนมีสัญญาณรบกวน
+เคยต้องการ **c# ocr tutorial** ที่ทำงานได้จริงกับไฟล์ PNG ในโลกจริงหรือไม่? บางทีคุณอาจกำลังสร้างเครื่องสแกนใบเสร็จ, ตัวประมวลผลฟอร์มหลายภาษา, หรือแค่สงสัยว่าจะเปลี่ยนรูปภาพของข้อความให้เป็นสตริงที่ค้นหาได้อย่างไร ไม่ว่ากรณีใด คุณมาถูกที่แล้ว
 
-เรื่องนี้คือ—Aspose.OCR ทำให้กระบวนการทั้งหมดง่ายดายเหมือนชิ้นเค้ก โดยเฉพาะเมื่อคุณเปิดใช้งานการเร่งความเร็วด้วย GPU ในคู่มือนี้คุณจะได้เห็นอย่างชัดเจนว่า **how to ocr image** ทำอย่างไรใน C#, โหลดภาพใน c# อย่างถูกต้อง, และแม้กระทั่งจัดการกับข้อผิดพลาดทั่วไปของการสแกนใบแจ้งหนี้โดยไม่ต้องบิดผมจนเสีย
-
-เมื่อจบการสอนนี้คุณจะมีแอปคอนโซลที่สามารถรันได้ซึ่งอ่านใบแจ้งหนี้ในรูปแบบ TIFF, ทำ OCR บน GPU, และพิมพ์ผลลัพธ์ข้อความธรรมดาที่สะอาด. ไม่มีเวทมนตร์, เพียงโค้ดที่มั่นคงที่คุณสามารถคัดลอก‑วางและปรับใช้ได้.
-
----
+ในคู่มือนี้เราจะสาธิตขั้นตอนต่อขั้นตอนว่าอย่างไรที่จะ **extract text from image** ไฟล์, **recognize text from png**, **convert image to string**, และแม้กระทั่ง **detect language automatically**—ทั้งหมดด้วยไลบรารี Aspose.OCR ไม่มีการอ้างอิงที่คลุมเครือ เพียงตัวอย่างที่สมบูรณ์และสามารถรันได้ที่คุณสามารถคัดลอก‑วางลงใน Visual Studio
 
 ## สิ่งที่คุณต้องการ
 
-- **.NET 6.0** (หรือใหม่กว่า) – เวอร์ชัน LTS ปัจจุบัน ทำให้คุณพร้อมสำหรับอนาคต.
-- **Aspose.OCR for .NET** NuGet package – เวอร์ชัน 23.10 (ล่าสุด ณ เวลาที่เขียน).
-- เครื่องที่ **GPU‑enabled** (ไม่บังคับแต่แนะนำ) – โค้ดจะกลับไปใช้ CPU หากไม่พบ GPU ที่เข้ากัน.
-- ภาพตัวอย่าง เช่น `large_invoice.tif`. รูปแบบใดก็ได้ที่รองรับ (PNG, JPEG, TIFF, PDF) จะทำงาน.
+- .NET 6.0 หรือใหม่กว่า (โค้ดทำงานได้กับ .NET Core และ .NET Framework ด้วย)  
+- อ้างอิง NuGet ไปยัง `Aspose.OCR` (เวอร์ชัน 23.9 หรือใหม่กว่า)  
+- ไฟล์รูปภาพ (`mixed‑script.png` ในตัวอย่างนี้) ที่วางไว้ในตำแหน่งที่แอปสามารถอ่านได้  
+- ความเข้าใจพื้นฐานของ C# (ถ้าคุณเคยเขียน “Hello World” คุณพร้อมแล้ว)
 
-ถ้าคุณยังไม่ได้ติดตั้ง NuGet package, ให้รัน:
+> **เคล็ดลับ:** หากคุณยังไม่มีลิขสิทธิ์ Aspose มีลิขสิทธิ์ชั่วคราวฟรีสำหรับการทดสอบ เพียงวางไฟล์ `.lic` ข้างๆไฟล์ executable ของคุณ
 
-```bash
-dotnet add package Aspose.OCR
+## ขั้นตอนที่ 1 – ติดตั้งแพคเกจ NuGet Aspose.OCR
+
+ขั้นแรก เพิ่มไลบรารีลงในโปรเจกต์ของคุณ เปิด Package Manager Console แล้วรัน:
+
+```powershell
+Install-Package Aspose.OCR
 ```
 
-ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นแล้ว, มาเริ่มขั้นตอนจริงกัน.
+หรือ หากคุณชอบใช้ UI ให้คลิกขวาที่ *Dependencies → Manage NuGet Packages* แล้วค้นหา **Aspose.OCR**.
 
----
+## ขั้นตอนที่ 2 – เตรียม OCR Engine (c# ocr tutorial core)
 
-## ขั้นตอนที่ 1: สร้างโปรเจคคอนโซลใหม่และเพิ่ม Aspose.OCR
-
-แรกเริ่ม, สร้างแอปคอนโซลใหม่เพื่อให้บทเรียนนี้เป็นอิสระ.
-
-```bash
-dotnet new console -n OcrInvoiceDemo
-cd OcrInvoiceDemo
-dotnet add package Aspose.OCR
-```
-
-> **เคล็ดลับ:** ใช้ flag `-n` เพื่อให้โปรเจคของคุณมีชื่อที่มีความหมาย; จะทำให้โซลูชันเป็นระเบียบเมื่อคุณเริ่มเพิ่มโมดูลเพิ่มเติมในภายหลัง.
-
-ไฟล์ `Program.cs` ที่ Visual Studio สร้างขึ้นจะเป็นสนามทดลองของเรา. เปิดไฟล์และลบบรรทัด `Console.WriteLine` เริ่มต้น – เราจะเปลี่ยนเป็นตรรกะ OCR.
-
-## ขั้นตอนที่ 2: โหลดภาพใน C# – วิธีที่ถูกต้อง
-
-การโหลดภาพอาจดูง่าย, แต่ทำผิดอาจทำให้เกิด memory leak หรือไฟล์ถูกล็อก. คลาส `System.Drawing.Image` ทำงานได้ดีในหลายกรณี, แต่คุณต้องห่อมันในบล็อก `using` เพื่อรับประกันการปล่อยทรัพยากร.
+ตอนนี้เราจะสร้างอินสแตนซ์ `OcrEngine` บอกให้มันตรวจจับภาษาด้วยตนเอง และชี้ไปที่ไฟล์ PNG ของเรา.
 
 ```csharp
-using System;
-using System.Drawing;
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using System;
 
-namespace OcrInvoiceDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            // 👉 Step 2: Load the image you want to OCR.
-            // Replace the path with the actual location of your invoice file.
-            const string imagePath = @"C:\Invoices\large_invoice.tif";
+        // Step 2.1: Initialise the OCR engine – this is the heart of the c# ocr tutorial
+        var ocrEngine = new OcrEngine();
 
-            // The using statement ensures the image gets disposed automatically.
-            using var inputImage = Image.FromFile(imagePath);
-            
-            // Continue to the OCR engine setup…
-        }
+        // Step 2.2: Let the engine decide which language(s) are present.
+        // AutoDetect is the default, but we set it explicitly for clarity.
+        ocrEngine.Language = OcrLanguage.AutoDetect;
+
+        // Step 2.3: Path to the image you want to process.
+        // Replace with your own path if needed.
+        string imagePath = @"C:\Images\mixed-script.png";
+
+        // Step 2.4: Run the recognition.
+        string recognizedText = ocrEngine.RecognizeImage(imagePath);
+
+        // Step 2.5: Output the result – this is where we **convert image to string**.
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-สังเกตคอมเมนต์ `// 👉 Step 2:` – มันสะท้อนเลขขั้นตอนในบทเรียนของเราและช่วยให้ผู้ที่อ่านโค้ดในภายหลังเข้าใจง่าย.
+### ทำไมเราถึงตั้งค่า `Language = OcrLanguage.AutoDetect`
 
-## ขั้นตอนที่ 3: เริ่มต้น OCR Engine ด้วยการเร่งความเร็ว GPU
+การตรวจจับภาษาด้วยอัตโนมัติช่วยคุณไม่ต้องเดาว่าภาพมีภาษาอังกฤษ, รัสเซีย, อาหรับ หรือผสมกัน เป็นตัวเลือกที่ยืดหยุ่นที่สุดสำหรับสถานการณ์ **detect language automatically** และทำงานได้ทันทีสำหรับสคริปต์ส่วนใหญ่ที่ Aspose รองรับ.
 
-Aspose.OCR ให้คุณเลือกโหมดการประมวลผลขณะสร้างอ็อบเจ็กต์. `OcrEngineMode.Gpu` บอกไลบรารีให้ใช้การ์ดกราฟิกหากตรวจพบ; หากไม่, จะกลับไปใช้ CPU อย่างเงียบ ๆ, ดังนั้นคุณไม่ต้องเขียนตรรกะ fallback เพิ่ม.
+## ขั้นตอนที่ 3 – รันแอปพลิเคชันและตรวจสอบผลลัพธ์
+
+คอมไพล์และรันโปรแกรม (`dotnet run` หรือกด **F5** ใน Visual Studio) หากทุกอย่างเชื่อมต่อถูกต้อง คุณจะเห็นอะไรประมาณนี้:
+
+```
+=== Recognized Text ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+```
+
+ผลลัพธ์นั้นพิสูจน์ว่าเราสามารถ **extract text from image**, **recognize text from png**, และ **convert image to string** ได้สำเร็จ – ทั้งหมดในโค้ดสั้น ๆ เพียงส่วนเดียว
+
+## ขั้นตอนที่ 4 – รูปแบบทั่วไปและกรณีขอบ
+
+### การจัดการหลายภาพ
+
+หากคุณต้องการประมวลผลไดเรกทอรีของ PNG ให้ใส่การเรียกการจดจำไว้ในลูป `foreach`:
 
 ```csharp
-// 👉 Step 3: Create the OCR engine.
-// The constructor argument selects GPU mode; it's the fastest option for large invoices.
-var ocrEngine = new OcrEngine(OcrEngineMode.Gpu);
-```
-
-> **ทำไมต้อง GPU?**  
-> OCR บนใบแจ้งหนี้ความละเอียดสูงอาจใช้ CPU มาก. การย้ายงานไปยัง GPU ลดระยะเวลาการทำงานจากหลายวินาทีเหลือส่วนเล็ก, โดยเฉพาะเมื่อประมวลผลเป็นชุด.
-
-## ขั้นตอนที่ 4: รัน OCR และสกัดข้อความจากภาพ
-
-ตอนนี้จุดมุ่งหมายเริ่มทำงาน. เรียก `Recognize` แล้วดึงข้อความธรรมดา. Aspose คืนค่าอ็อบเจ็กต์ `OcrResult` ที่มีข้อความดิบ, คะแนนความมั่นใจ, และแม้แต่กรอบบาวด์ดิ้งต่ออักขระหากคุณต้องการในภายหลัง.
-
-```csharp
-// 👉 Step 4: Perform the OCR operation.
-OcrResult ocrResult = ocrEngine.Recognize(inputImage);
-
-// Display the extracted text.
-Console.WriteLine("=== OCR Output ===");
-Console.WriteLine(ocrResult.Text);
-```
-
-เมื่อคุณรันโปรแกรม, คุณควรเห็นผลลัพธ์ประมาณนี้:
-
-```
-=== OCR Output ===
-Invoice #12345
-Date: 03/15/2026
-Total: $1,234.56
-...
-```
-
-หากผลลัพธ์ดูเป็นอักขระผสม, ตรวจสอบอีกครั้งว่าภาพมีคอนทราสต์สูงและภาษาของ OCR ตั้งค่าอย่างถูกต้อง (English เป็นค่าเริ่มต้น). คุณยังสามารถปรับ `ocrEngine.Settings` เพื่อความแม่นยำที่ดีกว่า, แต่ค่าตั้งต้นทำงานได้ดีสำหรับใบแจ้งหนี้ที่พิมพ์ส่วนใหญ่.
-
-## ขั้นตอนที่ 5: จัดการกรณีขอบของการสแกน OCR ใบแจ้งหนี้
-
-ใบแจ้งหนี้มีหลายรูปแบบ—บางใบเป็นหลายหน้า, บางใบมีตารางหรือโน้ตมือ. นี่คือการปรับเล็กน้อยที่คุณทำได้โดยไม่ต้องเขียน pipeline ใหม่ทั้งหมด.
-
-### 5.1 PDF หรือ TIFF หลายหน้า
-
-หากไฟล์ต้นทางของคุณมีหลายหน้า, คุณต้องวนลูปแต่ละหน้าและต่อผลลัพธ์เข้าด้วยกัน.
-
-```csharp
-using var multiPageImage = Image.FromFile(@"C:\Invoices\multi_page_invoice.tif");
-
-// Aspose can split multi‑page TIFFs into separate images.
-for (int i = 0; i < multiPageImage.GetFrameCount(FrameDimension.Page); i++)
+foreach (var file in Directory.GetFiles(@"C:\Images", "*.png"))
 {
-    multiPageImage.SelectActiveFrame(FrameDimension.Page, i);
-    using var page = (Image)multiPageImage.Clone();
-    var pageResult = ocrEngine.Recognize(page);
-    Console.WriteLine($"--- Page {i + 1} ---");
-    Console.WriteLine(pageResult.Text);
+    string text = ocrEngine.RecognizeImage(file);
+    Console.WriteLine($"[{Path.GetFileName(file)}] => {text}");
 }
 ```
 
-### 5.2 การสแกนความละเอียดต่ำ
+### การระบุภาษาคงที่
 
-หาก DPI ต่ำกว่า 150, ให้ขยายภาพก่อนส่งไปยัง engine. วิธีนี้จะเพิ่มความแม่นยำของการจดจำอักขระอย่างมาก.
+บางครั้งคุณอาจรู้ภาษาล่วงหน้า (เช่น ภาษาอังกฤษเท่านั้น) คุณสามารถแทนที่ `AutoDetect` ด้วย `OcrLanguage.English` เพื่อเร่งการประมวลผล:
 
 ```csharp
-// Simple nearest‑neighbor scaling – replace with a better algorithm if needed.
-var highRes = new Bitmap(inputImage, new Size(inputImage.Width * 2, inputImage.Height * 2));
-var highResResult = ocrEngine.Recognize(highRes);
-Console.WriteLine(highResResult.Text);
+ocrEngine.Language = OcrLanguage.English;
 ```
 
-### 5.3 แพ็คภาษาที่กำหนดเอง
+### การจัดการกับสแกนคุณภาพต่ำ
 
-โดยค่าเริ่มต้น Aspose ใช้ภาษาอังกฤษ. สำหรับภาษาอื่น, ดาวน์โหลดแพ็คภาษาที่เหมาะสมจากเว็บไซต์ของ Aspose แล้วลงทะเบียน:
+Aspose.OCR มีตัวเลือกการเตรียมข้อมูลล่วงหน้า (ลดสัญญาณรบกวน, ปรับแนว) สำหรับการแก้ไขอย่างเร็ว:
 
 ```csharp
-ocrEngine.Settings.Language = OcrLanguage.Spanish; // example for Spanish invoices
+ocrEngine.ImagePreprocessingOptions.Deskew = true;
+ocrEngine.ImagePreprocessingOptions.RemoveNoise = true;
 ```
 
-การปรับเหล่านี้ทำให้โซลูชัน **ocr invoice scanning** ของคุณแข็งแรงพอสำหรับงานผลิตจริง.
+### การบันทึกผลลัพธ์ลงไฟล์
 
-## ตัวอย่างทำงานเต็มรูปแบบ
-
-ด้านล่างเป็นโปรแกรมที่สมบูรณ์พร้อมรันที่รวมทุกขั้นตอนข้างต้น. คัดลอกไปยัง `Program.cs`, ปรับเส้นทางไฟล์, แล้วกด **F5**.
+แทนที่จะพิมพ์ลงคอนโซล คุณอาจต้องการเขียนข้อความที่ดึงออกไปยังไฟล์ `.txt`:
 
 ```csharp
-// ---------------------------------------------------------------
-// Complete c# OCR tutorial – Aspose OCR with GPU acceleration
-// ---------------------------------------------------------------
-using System;
-using System.Drawing;
-using System.Drawing.Imaging;
+File.WriteAllText(@"C:\Output\recognized.txt", recognizedText);
+```
+
+## ขั้นตอนที่ 5 – ตัวอย่างทำงานเต็มรูปแบบ (พร้อมคัดลอก‑วาง)
+
+ด้านล่างเป็น **complete program** พร้อมตรรกะการเตรียมข้อมูลล่วงหน้าและการบันทึกไฟล์ คุณสามารถปรับเปลี่ยนเส้นทางได้ตามต้องการ.
+
+```csharp
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using System;
+using System.IO;
 
-namespace OcrInvoiceDemo
+class OcrDemo
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        // Initialise engine
+        var ocrEngine = new OcrEngine
         {
-            // -----------------------------------------------------------------
-            // Step 1: Initialize the OCR engine (GPU mode)
-            // -----------------------------------------------------------------
-            var ocrEngine = new OcrEngine(OcrEngineMode.Gpu);
+            // Auto‑detect language (detect language automatically)
+            Language = OcrLanguage.AutoDetect,
 
-            // -----------------------------------------------------------------
-            // Step 2: Load the image you want to process
-            // -----------------------------------------------------------------
-            const string imagePath = @"C:\Invoices\large_invoice.tif";
-
-            // Using ensures the image is disposed properly.
-            using var inputImage = Image.FromFile(imagePath);
-
-            // -----------------------------------------------------------------
-            // Step 3: Run OCR and extract plain text
-            // -----------------------------------------------------------------
-            OcrResult ocrResult = ocrEngine.Recognize(inputImage);
-
-            // -----------------------------------------------------------------
-            // Step 4: Output the result
-            // -----------------------------------------------------------------
-            Console.WriteLine("=== OCR Output ===");
-            Console.WriteLine(ocrResult.Text);
-
-            // -----------------------------------------------------------------
-            // Optional: Demonstrate handling a multi‑page TIFF (comment out if not needed)
-            // -----------------------------------------------------------------
-            // HandleMultiPageTiff(@"C:\Invoices\multi_page_invoice.tif", ocrEngine);
-        }
-
-        // ---------------------------------------------------------------
-        // Helper for multi‑page TIFFs – shows how to iterate pages
-        // ---------------------------------------------------------------
-        static void HandleMultiPageTiff(string path, OcrEngine engine)
-        {
-            using var multiPage = Image.FromFile(path);
-            int pageCount = multiPage.GetFrameCount(FrameDimension.Page);
-
-            for (int i = 0; i < pageCount; i++)
-            {
-                multiPage.SelectActiveFrame(FrameDimension.Page, i);
-                using var page = (Image)multiPage.Clone();
-                var result = engine.Recognize(page);
-                Console.WriteLine($"\n--- Page {i + 1} ---");
-                Console.WriteLine(result.Text);
+            // Optional: improve accuracy on noisy scans
+            ImagePreprocessingOptions = {
+                Deskew = true,
+                RemoveNoise = true
             }
-        }
+        };
+
+        // Input image – change to your own file
+        string inputPath = @"C:\Images\mixed-script.png";
+
+        // Perform OCR
+        string extractedText = ocrEngine.RecognizeImage(inputPath);
+
+        // Display on console (convert image to string)
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(extractedText);
+
+        // Save to a text file for later use
+        string outputPath = Path.ChangeExtension(inputPath, ".txt");
+        File.WriteAllText(outputPath, extractedText);
+        Console.WriteLine($"\nText saved to: {outputPath}");
     }
 }
 ```
 
-**ผลลัพธ์ที่คาดหวัง** (ตัดบางส่วนเพื่อความกระชับ):
+### ผลลัพธ์ที่คาดหวัง
+
+การรันโปรแกรมบน PNG ที่มีภาษาอังกฤษ, รัสเซีย, และอาหรับ จะได้ผลลัพธ์ดังนี้:
 
 ```
-=== OCR Output ===
-Invoice #98765
-Date: 02/28/2026
-Bill To: Acme Corp.
-Subtotal: $2,500.00
-Tax (8%): $200.00
-Total: $2,700.00
-...
+=== OCR Result ===
+Hello World!
+Привет мир!
+مرحبا بالعالم!
+
+Text saved to: C:\Images\mixed-script.txt
 ```
 
-รันโปรแกรมและตรวจสอบว่าคอนโซลพิมพ์ข้อความที่คุณเห็นบนใบแจ้งหนี้. หากได้สตริงว่าง, ตรวจสอบอีกครั้งว่าเส้นทางภาพถูกต้องและไฟล์ไม่เสียหาย.
+หากภาพว่างหรืออ่านไม่ออก เครื่องจะคืนค่าเป็นสตริงว่าง — ให้จัดการกรณีนี้โดยตรวจสอบ `string.IsNullOrWhiteSpace(extractedText)` ก่อนดำเนินการต่อ
 
-## คำถามที่พบบ่อย (FAQ)
+## คำถามที่พบบ่อย (FAQs)
 
-**Q: ทำงานบน Linux ได้หรือไม่?**  
-A: ได้. Aspose.OCR รองรับหลายแพลตฟอร์ม. เพียงติดตั้ง .NET runtime สำหรับ Linux แล้วใช้ NuGet package เดียวกันก็ทำงาน. การเร่งด้วย GPU ต้องการ GPU ที่เข้ากันกับ CUDA และไดรเวอร์ที่เหมาะสม.
+**Q: Aspose.OCR รองรับข้อความที่เขียนด้วยมือหรือไม่?**  
+A: มันมุ่งเน้นที่ OCR พิมพ์เท่านั้น สำหรับการเขียนด้วยมือคุณต้องใช้โมเดล ML เฉพาะหรือบริการเช่น Azure Computer Vision.
 
-**Q: ถ้าไม่มี GPU จะทำอย่างไร?**  
-A: คอนสตรัคเตอร์ `OcrEngineMode.Gpu` จะกลับไปใช้ CPU อัตโนมัติเมื่อไม่พบ GPU ที่เข้ากัน. คุณยังคงได้ผลลัพธ์ที่แม่นยำ; เพียงแต่ใช้เวลานานขึ้นเล็กน้อย.
+**Q: ฉันสามารถรันนี้บน Linux/macOS ได้หรือไม่?**  
+A: แน่นอน Aspose.OCR รองรับหลายแพลตฟอร์ม; เพียงติดตั้ง .NET runtime สำหรับ OS ของคุณ.
 
-**Q: สามารถ OCR โน้ตมือได้หรือไม่?**  
-A: โมเดลเริ่มต้นของ Aspose มุ่งเน้นที่ข้อความพิมพ์. สำหรับลายมือคุณต้องใช้โมเดลเฉพาะหรือบริการอื่น (เช่น Azure Form Recognizer). อย่างไรก็ตามคุณยังสามารถลองโค้ดเดียวกันได้—แต่คาดว่าจะได้คะแนนความมั่นใจต่ำกว่า.
+**Q: ถ้าฉันต้องประมวลผล PDF แทน PNG จะทำอย่างไร?**  
+A: แปลงแต่ละหน้าของ PDF เป็นภาพก่อน (เช่น ใช้ `Aspose.PDF`) แล้วจึงส่งภาพไปยัง OCR engine.
 
 ## สรุป
 
-คุณเพิ่งทำสำเร็จ **c# OCR tutorial** ที่แสดงวิธี *extract text from image* ไฟล์, ทำ **ocr invoice scanning**, และเข้าใจ **how to o
+เราเพิ่งเสร็จสิ้น **c# ocr tutorial** ที่พาคุณผ่านการ **extracting text from image** ไฟล์, **recognizing text from png**, **converting the image to a string**, และ **detecting language automatically** ด้วย Aspose.OCR โค้ดสั้น แนวคิดชัดเจน และคุณสามารถขยายเป็นการประมวลผลเป็นชุด การตั้งค่าภาษาแบบกำหนดเอง หรือแม้แต่รวมเข้ากับ Web API
+
+ขั้นตอนต่อไป? ลองนำผลลัพธ์ OCR ไปใส่ในดัชนีการค้นหา ส่งไปยังบริการแปลภาษา หรือรวมกับ Azure Cognitive Services เพื่อสร้างสายข้อมูลที่สมบูรณ์ยิ่งขึ้น ท้องฟ้าเป็นขอบเขตเมื่อคุณเชี่ยวชาญพื้นฐานของการแปลงภาพเป็นข้อความใน C#.
+
+ขอให้สนุกกับการเขียนโค้ด และอย่าลืมทดลองกับคุณภาพภาพที่ต่างกัน— OCR engine ของคุณจะขอบคุณคุณ!
+
+![c# ocr tutorial – ตัวอย่างผลลัพธ์ OCR บน PNG ที่มีหลายสคริปต์](placeholder-image.png "c# ocr tutorial – ภาพหน้าจอผลลัพธ์ OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

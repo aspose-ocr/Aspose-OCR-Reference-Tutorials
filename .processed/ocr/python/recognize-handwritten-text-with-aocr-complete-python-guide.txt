@@ -1,0 +1,7 @@
+Title: recognize handwritten text with Aocr – Complete Python Guide
+Slug: recognize-handwritten-text-with-aocr-complete-python-guide
+Category: general
+ProcessedDate: 2026-05-31T20:54:22.874880
+SourceRepo: AI Search API
+Keywords: recognize handwritten text, extract text from image, load image for ocr, handwritten text extraction, how to enable handwritten
+PRNumber: 137
