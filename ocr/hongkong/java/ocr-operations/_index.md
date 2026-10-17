@@ -132,6 +132,8 @@ weight: 21
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 從圖像中識別文字。
 ### [從圖像中提取印地語文字 – Java OCR 範例](./extract-hindi-text-from-images-java-ocr-example/)
 展示如何使用 Aspose.OCR for Java 從圖像中識別印地語文字的完整範例。
+### [如何在 Java 中使用 Aspose OCR 進行 OCR – 步驟指南](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+完整的分步教學，示範如何在 Java 中使用 Aspose OCR 進行文字識別。
 
 ## 常見問題
 

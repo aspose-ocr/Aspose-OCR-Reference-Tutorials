@@ -92,6 +92,8 @@ Java uygulamanıza Aspose OCR'ı ekleyerek tam adım adım nasıl etkinleştirec
 ### [Aspose OCR Java ile Görüntü Metni Tanıma – Tam Kılavuz](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 ### [Görsellerden Hint Metni Çıkarma – Java OCR Örneği](./extract-hindi-text-from-images-java-ocr-example/)
 Java ve Aspose.OCR kullanarak görsellerden Hint dilinde metin çıkarma adımlarını öğrenin.
+### [Aspose OCR ile Java’da OCR Nasıl Yapılır – Adım Adım Kılavuz](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Java’da Aspose OCR kullanarak adım adım OCR işlemini nasıl gerçekleştireceğinizi öğrenin.
 
 ## Sıkça Sorulan Sorular
 

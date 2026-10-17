@@ -129,6 +129,8 @@ Java एप्लिकेशन में Aspose OCR को सेटअप औ
 Aspose OCR Java का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [इमेज से हिंदी टेक्स्ट निकालें – Java OCR उदाहरण](./extract-hindi-text-from-images-java-ocr-example/)
 Java में Aspose.OCR का उपयोग करके इमेज से हिंदी टेक्स्ट निकालने का पूर्ण कोड उदाहरण।
+### [Aspose OCR के साथ Java में OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Aspose OCR का उपयोग करके Java में OCR लागू करने की पूरी प्रक्रिया, चरण‑दर‑चरण कोड उदाहरणों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

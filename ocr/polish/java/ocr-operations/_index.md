@@ -127,6 +127,8 @@ Kompletny przewodnik krok po kroku, jak włączyć OCR w Javie przy użyciu Aspo
 Kompletny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
 ### [Wyodrębnianie tekstu hindi z obrazów – przykład OCR w Javie](./extract-hindi-text-from-images-java-ocr-example/)
 Odblokuj możliwość wyodrębniania tekstu w języku hindi z obrazów przy użyciu Aspose.OCR w Javie.
+### [Jak wykonać OCR przy użyciu Aspose OCR w Javie – przewodnik krok po kroku](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Kompletny przewodnik krok po kroku, jak zastosować Aspose OCR w Javie, aby uzyskać wysokiej jakości wyniki OCR.
 
 ## Najczęściej zadawane pytania
 

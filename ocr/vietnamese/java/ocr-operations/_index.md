@@ -127,6 +127,8 @@ Hướng dẫn toàn diện cách kích hoạt OCR trong Java bằng Aspose, bao
 Hướng dẫn chi tiết cách sử dụng Aspose OCR Java để nhận dạng văn bản từ hình ảnh, bao gồm các bước cấu hình và tối ưu hoá kết quả.
 ### [Trích xuất văn bản Hindi từ hình ảnh – Ví dụ OCR Java](./extract-hindi-text-from-images-java-ocr-example/)
 Hướng dẫn chi tiết cách trích xuất văn bản Hindi từ hình ảnh bằng Aspose.OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
+### [Cách Thực Hiện OCR với Aspose OCR trong Java – Hướng Dẫn Từng Bước](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Khám phá hướng dẫn chi tiết từng bước để thực hiện OCR với Aspose OCR trong Java, từ cấu hình đến kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

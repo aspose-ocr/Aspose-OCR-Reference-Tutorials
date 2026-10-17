@@ -117,6 +117,8 @@ Naučte se, jak v Javě aktivovat OCR pomocí Aspose, krok po kroku, včetně na
 Kompletní návod, jak pomocí Aspose OCR v Javě rozpoznat a extrahovat text z obrázků, včetně ukázek kódu a nastavení.
 ### [Extrahování hindského textu z obrázků – Java OCR příklad](./extract-hindi-text-from-images-java-ocr-example/)
 Ukázkový tutoriál, jak pomocí Aspose.OCR pro Java extrahovat hindský text z obrázků s vysokou přesností.
+### [Jak provést OCR s Aspose OCR v Javě – krok za krokem průvodce](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Kompletní návod, jak v Javě použít Aspose OCR k rozpoznání textu, včetně nastavení, kódu a ukládání výsledků.
 
 ## Často kladené otázky
 

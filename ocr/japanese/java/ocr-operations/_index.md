@@ -123,6 +123,7 @@ Aspose.OCR for Java を使用して検索可能な PDF を作成する手順を�
 Aspose OCR Java を使用して画像からテキストを抽出する方法を完全に解説します。
 ### [画像からヒンディー語テキストを抽出 – Java OCR 例](./extract-hindi-text-from-images-java-ocr-example/)
 Aspose.OCR for Java を使用して、画像内のヒンディー語テキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用した Java の OCR 実行方法 – ステップバイステップガイド](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 
 ## よくある質問
 

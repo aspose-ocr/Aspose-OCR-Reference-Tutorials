@@ -124,6 +124,8 @@ Entdecken Sie die vollständige Anleitung zur Texterkennung aus Bildern mit Aspo
 Erfahren Sie, wie Sie OCR in Java mit Aspose aktivieren, inklusive vollständiger Schritt‑für‑Schritt‑Anleitung.
 ### [Hindi-Text aus Bildern extrahieren – Java OCR‑Beispiel](./extract-hindi-text-from-images-java-ocr-example/)
 Ein Beispiel, das zeigt, wie man mit Aspose.OCR für Java Hindi‑Text aus Bilddateien erkennt und extrahiert.
+### [Wie man OCR mit Aspose OCR in Java durchführt – Schritt‑für‑Schritt‑Anleitung](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Entdecken Sie die Leistungsfähigkeit von OCR mit Aspose OCR in Java. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung, um OCR effizient durchzuführen.
 
 ## Häufig gestellte Fragen
 
