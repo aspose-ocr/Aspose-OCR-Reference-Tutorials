@@ -10,7 +10,6 @@ url: /hi/java/ocr-basics/get-rectangles-with-text-areas/
 weight: 12
 ---
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

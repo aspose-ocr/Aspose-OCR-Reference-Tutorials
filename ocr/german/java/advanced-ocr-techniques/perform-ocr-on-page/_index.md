@@ -10,11 +10,8 @@ url: /de/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
- German translation.
 
-Be careful with bold formatting.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

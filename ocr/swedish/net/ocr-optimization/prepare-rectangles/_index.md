@@ -10,11 +10,9 @@ url: /sv/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
 
- code block placeholders: CODE_BLOCK_0 to CODE_BLOCK_5.
 
-Make sure we preserve markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
