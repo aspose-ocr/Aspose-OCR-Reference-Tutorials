@@ -212,6 +212,8 @@ Master batch OCR processing in C# with Aspose.OCR. Learn to handle multiple imag
 Leverage GPU acceleration to speed up OCR processing in C# using Aspose.OCR, boosting performance for large image batches.
 ### [Perform OCR on Image – Boost Accuracy with Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Boost OCR accuracy on images using Aspose OCR with advanced preprocessing and configuration tips.
+### [Create Console Logger in C# – Full Guide to Enable Auto‑Download & Correct OCR Text](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Learn how to build a C# console logger that automatically downloads OCR results and corrects text for improved accuracy.
 
 ## Frequently Asked Questions
 

@@ -215,6 +215,8 @@ weight: 25
 ### [ทำ OCR บนภาพด้วย GPU – คำแนะนำ C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 เรียนรู้วิธีใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose.OCR ใน C#.
 
+### [สร้าง Console Logger ใน C# – คู่มือเต็มเพื่อเปิดใช้งานการดาวน์โหลดอัตโนมัติและแก้ไขข้อความ OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

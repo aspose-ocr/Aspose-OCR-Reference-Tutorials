@@ -222,6 +222,8 @@ Scopri come elaborare più immagini contemporaneamente con Aspose.OCR in C#, ott
 Scopri come migliorare l'accuratezza dell'OCR su immagini con Aspose OCR, ottimizzando i parametri e i filtri per risultati più precisi.
 ### [Esegui OCR su Immagine con GPU – Guida C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 Scopri come sfruttare la GPU per accelerare l'OCR su immagini con Aspose.OCR in C#, migliorando velocità e precisione.
+### [Crea Logger Console in C# – Guida Completa per Abilitare il Download Automatico e Correggere il Testo OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Impara a creare un logger console in C# che scarica automaticamente i risultati OCR e corregge il testo per una precisione ottimale.
 
 ## Domande Frequenti
 

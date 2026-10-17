@@ -226,6 +226,9 @@ Poznaj techniki przetwarzania wielu obrazów jednocześnie w C# przy użyciu Asp
 ### [Uruchom OCR na obrazie z GPU – przewodnik C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 Wykorzystaj GPU do przyspieszenia OCR w C# przy użyciu Aspose.OCR, uzyskując wyższą wydajność przetwarzania obrazów.
 
+### [Utwórz logger konsolowy w C# – Pełny przewodnik włączania automatycznego pobierania i korekty tekstu OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Pełny przewodnik tworzenia loggera konsolowego w C#, umożliwiającego automatyczne pobieranie i korektę tekstu OCR.
+
 ## Często zadawane pytania
 
 **Q: Czy można wyodrębnić teksty z plików graficznych wielu języków?**

@@ -219,6 +219,8 @@ Lär dig att köra OCR i batchläge med Aspose.OCR för .NET i C#. En steg‑fö
 Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C# med Aspose OCR.
 ### [Utför OCR på bild – Öka noggrannheten med Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Upplev förbättrad OCR‑noggrannhet med Aspose OCR när du bearbetar bilder.
+### [Skapa konsolloggare i C# – Fullständig guide för att möjliggöra automatisk nedladdning och korrigera OCR‑text](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Lär dig hur du bygger en konsolloggare i C# som automatiskt laddar ner och rättar OCR‑text.
 
 ## Vanliga frågor
 

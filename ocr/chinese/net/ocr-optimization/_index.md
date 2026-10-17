@@ -215,6 +215,9 @@ weight: 25
 ### [在图像上执行 OCR – 使用 Aspose OCR 提升准确性](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 通过本教程了解如何在图像上执行 OCR，并使用 Aspose OCR 的高级功能提升识别准确率。
 
+### [在 C# 中创建控制台日志记录器 – 完整指南，实现自动下载并纠正 OCR 文本](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+本教程详细讲解如何在 C# 控制台应用中实现日志记录、自动下载 OCR 结果并进行文本纠正。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

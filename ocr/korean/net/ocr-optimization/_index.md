@@ -189,6 +189,8 @@ C#에서 배치 OCR을 구현하는 전체 가이드로, 대량 이미지 처리
 Aspose OCR을 사용하여 이미지에서 텍스트를 추출하고 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [GPU로 이미지 OCR 실행 – C# Aspose OCR 가이드](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 GPU 가속을 활용하여 이미지 OCR을 수행하고, C#에서 Aspose OCR을 최적화하는 방법을 단계별로 안내합니다.
+### [C# 콘솔 로거 만들기 – 자동 다운로드 및 OCR 텍스트 교정을 위한 전체 가이드](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+자동 다운로드 기능과 OCR 텍스트 교정을 지원하는 C# 콘솔 로거를 단계별로 구현하는 전체 가이드입니다.
 
 ## 자주 묻는 질문
 

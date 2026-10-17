@@ -226,6 +226,8 @@ Leer hoe je meerdere afbeeldingen in één batch verwerkt met Aspose.OCR in C#, 
 Versnel OCR-prestaties door GPU-versnelling te gebruiken in C# met Aspose.OCR. Volg deze stap‑voor‑stap gids.
 ### [OCR uitvoeren op afbeelding – Verbeter de nauwkeurigheid met Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Verhoog de OCR‑nauwkeurigheid met geavanceerde instellingen in Aspose OCR voor .NET.
+### [Console Logger maken in C# – Volledige gids om automatisch te downloaden & OCR‑tekst te corrigeren](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+Leer hoe je een console‑logger implementeert die OCR‑resultaten automatisch downloadt en tekstcorrecties toepast.
 
 ## Veelgestelde vragen
 
