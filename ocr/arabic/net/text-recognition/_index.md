@@ -423,6 +423,14 @@ url: /ar/net/text-recognition/
 ### [كيفية إنشاء PDF/A من صور ممسوحة ضوئياً في C# – دليل خطوة بخطوة](./how-to-create-pdf-a-from-scanned-images-in-c-step-by-step-gu/)
 ### [التعرف على النص المكتوب يدوياً في C# باستخدام Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 تعلم كيفية التعرف على النص المكتوب يدوياً باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [كيفية التعرف الضوئي على النص العربي في C# – دليل خطوة بخطوة](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة النص العربي في تطبيقات C# خطوة بخطوة.
+### [كيفية استخدام Aspose – تحويل الصورة إلى ePub في C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+تعلم كيفية تحويل الصور إلى ملفات ePub باستخدام Aspose في بيئة C# خطوة بخطوة.
+### [التعرف على النص من PNG – دليل Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام Aspose OCR في C# والحصول على النتائج بصيغة JSON‑L بسهولة.
+### [كيفية تنفيذ OCR دفعي في C# – استخراج النص من PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+تعلم كيفية معالجة مجموعة من ملفات PNG لاستخراج النص باستخدام Aspose OCR في C# بسهولة وفعالية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

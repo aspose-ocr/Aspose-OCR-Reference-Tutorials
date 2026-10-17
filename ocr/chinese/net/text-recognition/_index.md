@@ -431,6 +431,14 @@ url: /zh/net/text-recognition/
 
 ### [在 C# 中使用 Aspose OCR 识别手写文本](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 使用 Aspose OCR 在 C# 中识别手写文本，增强您的 .NET 应用程序的 OCR 功能。
+### [如何在 C# 中进行阿拉伯语 OCR – 分步指南](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中实现阿拉伯语文字识别，按照我们的分步指南轻松完成。
+### [如何使用 Aspose – 在 C# 中将图像转换为 ePub](./how-to-use-aspose-convert-image-to-epub-in-c/)
+使用 Aspose 在 C# 中将图像转换为 ePub 格式，提供分步指南帮助您轻松实现电子书生成。
+### [从 PNG 识别文本 – Aspose OCR C# JSON‑L 教程](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+使用 Aspose.OCR 在 C# 中从 PNG 图像获取 JSON‑L 格式的识别结果，提供分步指南提升图像文本处理能力。
+### [如何在 C# 中批量 OCR – 从 PNG 提取文本](./how-to-batch-ocr-in-c-extract-text-from-png/)
+使用 Aspose.OCR 在 C# 中批量处理 PNG 图像，提取文本并获取 JSON‑L 结果，提供分步指南提升效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -415,6 +415,14 @@ Leer hoe u met Aspose.OCR in C# batch-OCR kunt uitvoeren om snel tekst uit meerd
 Leer hoe u met Aspose.OCR in C# PDF/A-bestanden maakt van gescande afbeeldingen, stap voor stap.
 ### [Handgeschreven tekst herkennen in C# met Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Leer hoe u met Aspose OCR in C# handgeschreven tekst uit afbeeldingen kunt herkennen en integreren in uw .NET-applicaties.
+### [Hoe OCR Arabisch in C# – Stapsgewijze handleiding](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Leer hoe u Arabische tekst nauwkeurig kunt herkennen met Aspose.OCR in C#, stap voor stap.
+### [Hoe Aspose te gebruiken – Converteer afbeelding naar ePub in C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Leer hoe u met Aspose een afbeelding omzet naar een ePub-bestand in C# met een eenvoudige stap‑voor‑stap handleiding.
+### [Herken tekst uit PNG – Aspose OCR C# JSON‑L tutorial](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Leer hoe u tekst uit PNG‑afbeeldingen kunt extraheren met Aspose OCR in C# en de resultaten als JSON‑L ontvangt.
+### [Hoe batch-OCR in C# – Tekst uit PNG extraheren](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Leer hoe u meerdere PNG‑bestanden in één batch kunt verwerken met Aspose.OCR in C# en tekst efficiënt kunt extraheren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

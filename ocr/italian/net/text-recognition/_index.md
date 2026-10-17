@@ -418,6 +418,14 @@ Scopri come elaborare più immagini contemporaneamente con Aspose.OCR in C#, per
 Scopri come creare PDF/A da immagini scannerizzate usando Aspose.OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
 ### [Riconoscere testo scritto a mano in C# usando Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Scopri come estrarre testo scritto a mano da immagini con Aspose OCR in C#. Segui la guida passo passo per integrare la funzionalità nella tua app.
+### [Come fare OCR arabo in C# – Guida passo‑passo](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Scopri come utilizzare Aspose.OCR per .NET per riconoscere testo arabo in C# con una guida dettagliata passo‑passo.
+### [Come usare Aspose – Convertire immagine in ePub con C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Scopri come convertire immagini in file ePub usando Aspose.OCR per .NET con C# in pochi passaggi.
+### [Riconoscere testo da PNG – tutorial Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Impara a estrarre testo da file PNG usando Aspose.OCR per .NET e ottenere i risultati in formato JSON‑L passo passo.
+### [Come fare OCR batch in C# – Estrarre testo da PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Scopri come elaborare più immagini PNG in batch con Aspose.OCR per .NET, estraendo testo in modo efficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

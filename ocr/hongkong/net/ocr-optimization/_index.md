@@ -212,6 +212,8 @@ weight: 25
 利用 GPU 加速 Aspose.OCR for .NET，提升圖像文字辨識效能與速度。
 ### [在 C# 中建立主控台記錄器 – 完整指南，啟用自動下載與校正 OCR 文字](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 完整指南教您在 C# 中建立主控台記錄器，實現自動下載並校正 OCR 識別文字。
+### [在 C# 中使用 GPU 執行圖像 OCR – 完整程式設計指南](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+使用 GPU 加速在 C# 中的圖像 OCR，提升辨識速度與精度的完整程式指南。
 
 ## 常見問題
 

@@ -214,6 +214,8 @@ Optimisez la reconnaissance d'image en augmentant la précision grâce à Aspose
 Exécutez l'OCR sur une image en tirant parti du GPU avec Aspose.OCR pour .NET en C#.
 ### [Créer un journal console en C# – Guide complet pour activer le téléchargement automatique et corriger le texte OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Apprenez à implémenter un logger console en C# qui télécharge automatiquement les résultats OCR et corrige le texte.
+### [Exécuter l'OCR sur une image avec GPU en C# – Guide complet de programmation](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Apprenez à exploiter le GPU pour accélérer l'OCR d'images en C# avec Aspose.OCR, étape par étape.
 
 ## Questions fréquemment posées
 

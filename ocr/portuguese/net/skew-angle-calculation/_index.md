@@ -58,6 +58,8 @@ Aprenda a corrigir a inclinação de imagens e melhorar digitalizações usando 
 ### [Como corrigir a inclinação de imagem em C# – Guia completo usando Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Aprenda a remover a inclinação de imagens em C# com Aspose OCR, aumentando a precisão do reconhecimento de texto.
 
+### [Como Desinclinar Imagem com Aspose OCR – Guia Completo C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Aprenda a remover a inclinação de imagens usando Aspose OCR em C#, garantindo reconhecimento preciso e eficiente.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

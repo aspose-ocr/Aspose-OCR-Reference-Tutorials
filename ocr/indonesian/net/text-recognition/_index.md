@@ -427,6 +427,14 @@ Pelajari cara melakukan OCR secara batch di C# untuk mengekstrak teks dari banya
 Pelajari cara membuat PDF/A dari gambar yang dipindai menggunakan Aspose.OCR di C#. Ikuti panduan langkah demi langkah kami.
 ### [Mengenali Teks Tulisan Tangan di C# dengan Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Pelajari cara mengenali teks tulisan tangan di C# dengan Aspose OCR. Ikuti panduan langkah demi langkah kami.
+### [Cara OCR Bahasa Arab di C# – Panduan Langkah demi Langkah](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Pelajari cara melakukan OCR teks Arab menggunakan C# dengan Aspose.OCR melalui panduan langkah demi langkah yang mudah diikuti.
+### [Cara Menggunakan Aspose – Mengonversi Gambar ke ePub di C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Pelajari cara mengonversi gambar menjadi file ePub menggunakan Aspose di C# dengan panduan langkah demi langkah.
+### [Mengenali teks dari PNG – tutorial Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Pelajari cara mengenali teks dari file PNG menggunakan Aspose OCR di C# dan mengeluarkan hasil dalam format JSON‑L.
+### [Cara batch OCR di C# – Ekstrak teks dari PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Pelajari cara melakukan OCR secara batch pada file PNG menggunakan C# dan Aspose.OCR dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

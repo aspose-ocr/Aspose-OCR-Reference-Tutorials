@@ -228,6 +228,8 @@ Versnel OCR-prestaties door GPU-versnelling te gebruiken in C# met Aspose.OCR. V
 Verhoog de OCR‑nauwkeurigheid met geavanceerde instellingen in Aspose OCR voor .NET.
 ### [Console Logger maken in C# – Volledige gids om automatisch te downloaden & OCR‑tekst te corrigeren](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Leer hoe je een console‑logger implementeert die OCR‑resultaten automatisch downloadt en tekstcorrecties toepast.
+### [OCR uitvoeren op afbeelding met GPU in C# – Complete programmeergids](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Leer hoe je GPU-versnelling inzet voor snelle en nauwkeurige OCR in C# met Aspose.OCR.
 
 ## Veelgestelde vragen
 

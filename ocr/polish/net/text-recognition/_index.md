@@ -419,6 +419,14 @@ Poznaj, jak w C# przy pomocy Aspose.OCR wyodrębnić tekst w języku Urdu z plik
 Użyj Aspose.OCR w C#, aby przetwarzać wiele obrazów jednocześnie i szybko wyodrębniać tekst. Przewodnik krok po kroku.
 ### [Rozpoznaj odręczny tekst w C# przy użyciu Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Poznaj, jak w C# rozpoznać odręczny tekst przy pomocy Aspose OCR w kilku prostych krokach.
+### [Jak rozpoznać arabski w C# – Przewodnik krok po kroku](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Dowiedz się, jak używać Aspose.OCR w C# do rozpoznawania tekstu arabskiego w kilku prostych krokach.
+### [Jak używać Aspose – konwertować obraz do ePub w C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Dowiedz się, jak przy użyciu Aspose w C# konwertować obrazy do formatu ePub w kilku prostych krokach.
+### [Rozpoznaj tekst z PNG – samouczek Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# rozpoznawać tekst z plików PNG i uzyskiwać wyniki w formacie JSON‑L.
+### [Jak wykonać wsadowe OCR w C# – wyodrębnić tekst z PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Dowiedz się, jak w C# przetwarzać wiele plików PNG jednocześnie przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

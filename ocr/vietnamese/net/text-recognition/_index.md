@@ -421,6 +421,14 @@ Khám phá cách sử dụng Aspose.OCR trong C# để thực hiện OCR hàng l
 Hướng dẫn chi tiết cách tạo PDF/A từ các hình ảnh quét bằng Aspose.OCR trong C#, giúp tài liệu của bạn trở nên tìm kiếm được.
 ### [Nhận dạng văn bản viết tay trong C# bằng Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản viết tay một cách chính xác và nhanh chóng.
+### [Cách OCR tiếng Ả Rập trong C# – Hướng dẫn từng bước](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhận dạng tiếng Ả Rập trong C#. Làm theo hướng dẫn chi tiết từng bước.
+### [Cách sử dụng Aspose – Chuyển đổi hình ảnh sang ePub trong C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Biến hình ảnh thành tài liệu ePub trong C# bằng Aspose. Hướng dẫn chi tiết từng bước để tạo ePub từ ảnh.
+### [Nhận dạng văn bản từ PNG – Hướng dẫn Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản từ tệp PNG và xuất kết quả dưới dạng JSON‑L. Hướng dẫn chi tiết từng bước.
+### [Cách thực hiện OCR hàng loạt trong C# – Trích xuất văn bản từ PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để thực hiện OCR hàng loạt trên PNG và trích xuất văn bản nhanh chóng. Hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

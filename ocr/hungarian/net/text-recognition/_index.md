@@ -420,6 +420,14 @@ Ismerje meg, hogyan végezhet kötegelt OCR-t C#-ban, hogy gyorsan kinyerje a sz
 Ismertesse, hogyan hozhat létre PDF/A fájlokat beolvasott képekből C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [Kézírásos szöveg felismerése C#-ban az Aspose OCR használatával](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Tanulja meg, hogyan ismerhet fel kézírásos szöveget C#-ban az Aspose OCR segítségével, lépésről-lépésre útmutatóval.
+### [Arab szöveg OCR-olása C#‑ban – Lépésről‑lépésre útmutató](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t arab nyelvű szövegek felismerésére C#‑ban, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose – Kép konvertálása ePub formátumba C#‑ban](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Ismerje meg, hogyan konvertálhat képeket ePub fájlokká C#‑ban az Aspose segítségével, lépésről‑lépésre útmutatóval.
+### [Szöveg felismerése PNG‑ből – Aspose OCR C# JSON‑L útmutató](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Ismerje meg, hogyan olvashat szöveget PNG képekből C#‑ban az Aspose OCR segítségével, és kapja meg az eredményt JSON‑L formátumban.
+### [Kötegelt OCR C#‑ban – Szöveg kinyerése PNG‑ből](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Ismerje meg, hogyan végezhet tömeges OCR‑t PNG képeken C#‑ban, és nyerje ki a szöveget hatékonyan JSON‑L formátumban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

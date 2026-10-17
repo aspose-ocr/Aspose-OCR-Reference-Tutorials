@@ -428,6 +428,14 @@ Naučte se, jak pomocí Aspose.OCR v C# provádět hromadné OCR a rychle extrah
 Naučte se, jak pomocí Aspose.OCR v C# vytvořit PDF/A z naskenovaných obrázků a integrovat OCR do vašich aplikací.
 ### [Rozpoznat rukopisný text v C# pomocí Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Naučte se, jak pomocí Aspose OCR v C# rozpoznat rukopisný text z obrázků a integrovat OCR do svých aplikací.
+### [Jak provést OCR arabštiny v C# – krok za krokem průvodce](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.OCR pro .NET rozpoznávat arabský text v C# s podrobným krok za krokem návodem.
+### [Jak použít Aspose – převést obrázek na ePub v C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Naučte se pomocí Aspose.OCR převést obrázek do formátu ePub v C# a integrovat jej do svých aplikací.
+### [Rozpoznat text z PNG – Aspose OCR C# JSON‑L tutoriál](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Naučte se, jak pomocí Aspose.OCR v C# získat rozpoznaný text z PNG souboru ve formátu JSON‑L.
+### [Jak dávkově provádět OCR v C# – Extrahovat text z PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Naučte se, jak dávkově provádět OCR v C# a extrahovat text z více souborů PNG pomocí Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -417,6 +417,14 @@ Aspose.OCR를 사용하여 C#에서 스캔된 이미지로 PDF/A를 생성하는
 ### [C#에서 Aspose OCR을 사용한 손글씨 텍스트 인식](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Aspose OCR을 사용해 C#에서 손글씨 텍스트를 인식하는 단계별 가이드를 제공합니다.
 
+### [C#에서 아랍어 OCR 수행 방법 – 단계별 가이드](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 아랍어 텍스트를 정확히 인식하는 방법을 단계별로 안내합니다.
+### [Aspose 사용 방법 – C#에서 이미지 ePub 변환](./how-to-use-aspose-convert-image-to-epub-in-c/)
+C#와 Aspose를 사용하여 이미지를 ePub 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [PNG에서 텍스트 인식 – Aspose OCR C# JSON‑L 튜토리얼](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+C#와 Aspose.OCR을 사용해 PNG 이미지에서 텍스트를 추출하고 결과를 JSON‑L 형식으로 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 배치 OCR 수행 – PNG에서 텍스트 추출](./how-to-batch-ocr-in-c-extract-text-from-png/)
+C#와 Aspose.OCR을 사용해 PNG 이미지를 배치 처리하여 텍스트를 추출하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

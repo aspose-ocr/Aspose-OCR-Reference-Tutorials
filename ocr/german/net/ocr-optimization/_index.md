@@ -223,6 +223,8 @@ Steigern Sie die OCR‑Genauigkeit, indem Sie Bild‑OCR mit Aspose OCR ausführ
 Nutzen Sie die GPU‑Beschleunigung, um OCR‑Ergebnisse in C# schneller zu erzielen und die Erkennungsgenauigkeit zu steigern.
 ### [Konsolen‑Logger in C# erstellen – Vollständige Anleitung zum automatischen Download & Korrektur von OCR‑Texten](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Erstellen Sie einen Konsolen‑Logger in C# zur automatischen Protokollierung, automatischen Downloads und Korrektur von OCR‑Texten.
+### [OCR auf Bild mit GPU in C# ausführen – Vollständiger Programmierleitfaden](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie OCR mit GPU‑Beschleunigung in C# implementieren und die Erkennungsleistung erheblich steigern.
 
 ## Häufig gestellte Fragen
 

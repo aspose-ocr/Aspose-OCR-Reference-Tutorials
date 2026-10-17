@@ -1,6 +1,6 @@
 ---
-title: Textigenkänning
-linktitle: Textigenkänning
+title: Textigennänning
+linktitle: Textigennänning
 second_title: Aspose.OCR .NET API
 description: Förhöj dina .NET-applikationer med Aspose.OCR för exakt teckenigenkänning. Upptäck självstudier för att få val, resultat och JSON-format i OCR-bildigenkänning.
 weight: 21
@@ -424,6 +424,14 @@ Lär dig att konvertera skannade bilder till PDF/A i C# med Aspose.OCR i en deta
 Lär dig hur du med Aspose.OCR för .NET batchbearbetar bilder och snabbt extraherar text i en C#-applikation.
 ### [Känn igen handskriven text i C# med Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Lär dig hur du med Aspose OCR för .NET känner igen handskriven text i C#-applikationer.
+### [Hur man OCR:ar arabiska i C# – Steg‑för‑steg‑guide](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Lär dig att känna igen arabiska tecken i C# med Aspose.OCR genom en detaljerad steg‑för‑steg‑guide.
+### [Hur man använder Aspose – Konvertera bild till ePub i C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Lär dig konvertera en bild till ePub-format med Aspose i C# med vår steg‑för‑steg‑guide.
+### [Känn igen text från PNG – Aspose OCR C# JSON‑L handledning](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Lär dig hur du med Aspose OCR i C# extraherar text från PNG-filer och får resultat i JSON‑L‑format.
+### [Hur man batch-OCR i C# – Extrahera text från PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Lär dig hur du med Aspose OCR i C# batchbearbetar PNG-filer för att extrahera text effektivt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

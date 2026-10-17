@@ -221,6 +221,8 @@ Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C# med Aspose OCR.
 Upplev förbättrad OCR‑noggrannhet med Aspose OCR när du bearbetar bilder.
 ### [Skapa konsolloggare i C# – Fullständig guide för att möjliggöra automatisk nedladdning och korrigera OCR‑text](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Lär dig hur du bygger en konsolloggare i C# som automatiskt laddar ner och rättar OCR‑text.
+### [Kör OCR på bild med GPU i C# – Komplett programmeringsguide](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Utnyttja GPU-acceleration för snabb OCR i C# med Aspose.OCR. Följ vår steg‑för‑steg‑guide för optimal prestanda.
 
 ## Vanliga frågor
 

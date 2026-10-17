@@ -54,6 +54,8 @@ Lär dig hur du tar bort skevning från bilder som en del av en fullständig OCR
 
 ### [Hur du räta upp en bild i C# – Komplett guide med Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Lär dig steg för steg att räta upp bilder i C# med Aspose OCR för förbättrad OCR-precision.
+### [Hur du räta upp en bild med Aspose OCR – Komplett C#-guide](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg för steg hur du använder Aspose OCR i C# för att automatiskt räta upp snedvridna bilder.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

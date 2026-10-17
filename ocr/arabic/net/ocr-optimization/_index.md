@@ -218,6 +218,8 @@ weight: 25
 استفد من قوة GPU لتسريع عملية OCR في تطبيقات C# باستخدام Aspose.OCR. دليل خطوة بخطوة لتفعيل المعالجة على وحدة الرسوميات.
 ### [إجراء OCR على صورة – تعزيز الدقة باستخدام Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 ### [إنشاء مسجل وحدة تحكم في C# – دليل كامل لتمكين التحميل التلقائي وتصحيح نص OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+### [تشغيل OCR على صورة باستخدام GPU في C# – دليل برمجة كامل](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+استفد من تسريع GPU لتنفيذ OCR على الصور باستخدام C# مع دليل برمجة شامل خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

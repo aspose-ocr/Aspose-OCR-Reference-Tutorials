@@ -411,6 +411,14 @@ Aspose.OCR का उपयोग करके C# में कई छविय�
 Aspose.OCR का उपयोग करके C# में स्कैन की गई छवियों से PDF/A फ़ाइल बनाने की पूरी प्रक्रिया सीखें।
 ### [C# में Aspose OCR का उपयोग करके हस्तलिखित टेक्स्ट को पहचानें](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Aspose OCR के साथ C# में हस्तलिखित टेक्स्ट को पहचानने की चरण‑दर‑स्टेप मार्गदर्शिका।
+### [C# में अरबी OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Aspose.OCR के साथ C# में अरबी भाषा के टेक्स्ट को पहचानने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose का उपयोग कैसे करें – C# में इमेज को ePub में बदलें](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Aspose का उपयोग करके C# में इमेज को ePub फ़ॉर्मेट में बदलने की चरण‑दर‑स्टेप मार्गदर्शिका।
+### [PNG से टेक्स्ट पहचानें – Aspose OCR C# JSON‑L ट्यूटोरियल](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Aspose OCR का उपयोग करके PNG छवियों से JSON‑L प्रारूप में टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
+### [C# में बैच OCR कैसे करें – PNG से टेक्स्ट निकालें](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Aspose.OCR के साथ C# में PNG फ़ाइलों की बैच OCR करके टेक्स्ट निकालने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,8 @@ Leer hoe u met Aspose.OCR voor .NET scheve afbeeldingen verwijdert en de OCR-pre
 Leer hoe u afbeeldingen kunt deskewen en scans kunt opschonen met Aspose.OCR in C# voor optimale OCR-resultaten.
 ### [Hoe een afbeelding rechtzetten in C# – Complete gids met Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Leer hoe u met Aspose OCR afbeeldingen kunt rechtzetten in C#, stap voor stap.
+### [Hoe een afbeelding rechtzetten met Aspose OCR – Complete C#-gids](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Leer hoe u met Aspose OCR en C# afbeeldingen kunt rechtzetten voor nauwkeurige OCR-resultaten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

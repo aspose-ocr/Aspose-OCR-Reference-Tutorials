@@ -418,6 +418,14 @@ C# ile toplu OCR işlemleri yaparak birden çok görüntüden hızlıca metin ç
 C# ve Aspose.OCR kullanarak taranmış görüntülerden PDF/A dosyaları oluşturmayı adım adım öğrenin.
 ### [Aspose OCR kullanarak C# ile el yazısı metni tanıma](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Aspose OCR ile C# içinde el yazısı metinlerini tanıma adımlarını öğrenin ve projelerinize entegre edin.
+### [C#'ta Arapça OCR Nasıl Yapılır – Adım Adım Kılavuz](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+C# ile Arapça metinleri OCR ile tanıma ve işleme adımlarını öğrenin.
+### [Aspose Nasıl Kullanılır – Görüntüyü C#'ta ePub'a Dönüştürme](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Aspose ile C# kullanarak bir görüntüyü ePub formatına dönüştürmeyi adım adım öğrenin.
+### [PNG'den Metin Tanıma – Aspose OCR C# JSON‑L Eğitimi](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+PNG dosyalarından metin çıkarma ve sonuçları JSON formatında alma adımlarını C# ile öğrenin.
+### [C#'ta Toplu OCR Nasıl Yapılır – PNG'den Metin Çıkarma](./how-to-batch-ocr-in-c-extract-text-from-png/)
+C# ile birden fazla PNG dosyasından toplu olarak metin çıkarma ve OCR işlemini otomatikleştirme adımlarını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,9 @@ Khám phá cách loại bỏ góc nghiêng trong hình ảnh để cải thiện
 Khám phá cách sử dụng Aspose.OCR cho .NET để chỉnh nghiêng ảnh và làm sạch bản quét trong C# một cách hiệu quả.
 ### [Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn đầy đủ sử dụng Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Khám phá cách sử dụng Aspose OCR trong C# để chỉnh nghiêng ảnh một cách nhanh chóng và chính xác.
+### [Cách chỉnh nghiêng ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Khám phá cách sử dụng Aspose OCR trong C# để tự động chỉnh nghiêng ảnh, nâng cao độ chính xác nhận dạng văn bản.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
