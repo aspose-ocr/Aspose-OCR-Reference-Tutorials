@@ -59,7 +59,7 @@ tags:
 - OCR
 - C#
 - Aspose
-title: How to extract text from JPG using a C# OCR tutorial
+title: Extract text from JPG using Aspose.OCR in C# – step‑by‑step tutorial
 url: /net/text-recognition/how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/
 ---
 
@@ -293,17 +293,16 @@ From here you can:
 
 Feel free to adapt the code to your own projects, and share your results in the comments or on social media. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image in C# – Offline OCR with Aspose (Step‑by‑Step Guide)](/ocr/english/net/text-recognition/extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
-- [Extract Text from Image in C# – Complete Aspose OCR Guide](/ocr/english/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/)
+- [Extract image text C# with language selection using Aspose.OCR]({{< relref "ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/" >}})
+- [Extract Text from Image in C# – Offline OCR with Aspose (Step‑by‑Step Guide)]({{< relref "ocr/english/net/text-recognition/extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/" >}})
+- [Extract Text from Image in C# – Complete Aspose OCR Guide]({{< relref "ocr/english/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
