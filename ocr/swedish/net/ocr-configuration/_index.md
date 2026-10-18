@@ -79,6 +79,8 @@ Lär dig hur du bäddar in teckensnitt i PDF och konverterar JPEG‑bilder till 
 Lär dig hur du konfigurerar GPU‑enhet för OCR i C# med en komplett programmeringsguide.
 ### [Känn igen text från bild i C# – hur man känner igen Kannada med Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Lär dig hur du med Aspose OCR i C# kan känna igen Kannada‑text från en bild.
+### [Skapa stavningskontrollprocessor med Aspose OCR AI – Fullständig guide](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Skapa en stavningskontrollprocessor med Aspose OCR AI. En komplett guide för att implementera AI‑driven stavningskontroll i .NET‑applikationer.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

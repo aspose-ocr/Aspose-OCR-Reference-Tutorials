@@ -118,6 +118,8 @@ Aspose OCR를 사용해 PNG 이미지에서 키릴 문자 텍스트를 추출하
 ### [C#에서 OCR을 위한 GPU 장치 설정 – 완전 프로그래밍 가이드](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 C# 애플리케이션에서 Aspose.OCR의 GPU 장치를 설정하고 최적화된 인식 성능을 구현하는 방법을 단계별로 안내합니다.  
 ### [C#에서 이미지 텍스트 인식 – Aspose OCR로 칸나다어 인식하기](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+### [Aspose OCR AI를 사용한 맞춤법 검사 프로세서 만들기 – 전체 가이드](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI를 활용해 맞춤법 검사 프로세서를 구현하고 전체 흐름을 단계별로 안내합니다.  
 
 
 

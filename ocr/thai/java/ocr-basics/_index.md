@@ -117,6 +117,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ Java อย่างรวดเร็ว](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 ### [สกัดข้อความจากภาพใน Java – บทเรียน OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
 เรียนรู้วิธีสกัดข้อความจากไฟล์ภาพด้วย Aspose.OCR ใน Java อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับปรุงความแม่นยำ
+### [ทำ OCR บนรูปภาพใน Java – สกัดข้อความจาก JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+ทำ OCR บนไฟล์ JPG ด้วย Java ใช้ Aspose.OCR เพื่อสกัดข้อความจากรูปภาพอย่างแม่นยำ
 
 ---
 

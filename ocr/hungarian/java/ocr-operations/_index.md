@@ -113,6 +113,8 @@ Ismerd meg, hogyan tölts be képet Java-ban az Aspose.OCR használatával, és 
 ### [Hindi szöveg kinyerése képekből – Java OCR példa](./extract-hindi-text-from-images-java-ocr-example/)
 ### [Hogyan végezzünk OCR-t az Aspose OCR-rel Java-ban – Lépésről‑lépésre útmutató](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Részletes útmutató az OCR végrehajtásához az Aspose OCR Java API-val, lépésről‑lépésre.
+### [Kereshető PDF létrehozása az Aspose.OCR segítségével – Java útmutató](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR Java könyvtárral.
 
 ## Gyakran Ismételt Kérdések
 

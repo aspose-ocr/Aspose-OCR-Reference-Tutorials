@@ -72,6 +72,8 @@ Entdecken Sie die Magie von OCR mit Aspose.OCR für .NET und extrahieren Sie Tex
 Erfahren Sie, wie Sie Formulare aktivieren und Tabellen mit OCR in C# extrahieren – vollständige Anleitung.
 ### [Tabelle als CSV speichern in C# – Vollständiger Aspose OCR Leitfaden](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR Tabellen extrahieren und als CSV-Datei in C# speichern.
+### [Tabellen aus Bildern mit Aspose OCR extrahieren (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Erfahren Sie, wie Sie Tabellen aus Bilddateien mit Aspose OCR für .NET extrahieren und weiterverarbeiten.
 
 ## Häufig gestellte Fragen
 

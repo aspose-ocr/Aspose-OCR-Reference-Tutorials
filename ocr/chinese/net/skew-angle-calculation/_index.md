@@ -54,6 +54,7 @@ url: /zh/net/skew-angle-calculation/
 使用 Aspose.OCR for .NET 在 C# 中实现图像去倾斜和扫描清理的完整指南。
 ### [在 C# 中去倾斜图像 – 使用 Aspose OCR 的完整指南](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 本指南详细演示如何使用 Aspose OCR 在 C# 中对图像进行去倾斜处理，提高识别准确性。
+### [如何在 C# 中使用 Aspose OCR 进行图像去倾斜 – 完整指南](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 ### [使用 Aspose OCR 对图像去倾斜 – 完整 C# 指南](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

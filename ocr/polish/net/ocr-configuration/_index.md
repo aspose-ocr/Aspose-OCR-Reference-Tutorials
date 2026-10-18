@@ -82,6 +82,8 @@ Dowiedz się, jak wyodrębnić tekst cyrylicą z plików PNG przy użyciu Aspose
 Pełny przewodnik, jak skonfigurować GPU w Aspose.OCR dla C#, aby przyspieszyć rozpoznawanie obrazu.
 ### [Rozpoznawanie tekstu z obrazu w C# – jak rozpoznać język Kannada przy użyciu Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Dowiedz się, jak używać Aspose OCR w C# do rozpoznawania tekstu w języku Kannada z obrazów.
+### [Utwórz procesor sprawdzania pisowni z Aspose OCR AI – Pełny przewodnik](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Pełny przewodnik tworzenia procesora sprawdzania pisowni przy użyciu Aspose OCR AI.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

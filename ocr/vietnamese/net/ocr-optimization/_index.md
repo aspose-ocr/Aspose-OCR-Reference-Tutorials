@@ -189,6 +189,10 @@ Tận dụng sức mạnh GPU để tăng tốc quá trình OCR trên hình ản
 ### [Thực hiện OCR trên hình ảnh – Tăng độ chính xác với Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 ### [Tạo Logger Console trong C# – Hướng Dẫn Đầy Đủ Để Kích Hoạt Tự Động Tải Xuống & Sửa Đoạn Văn Bản OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Hướng dẫn chi tiết cách tạo logger console trong C#, tự động tải xuống và sửa lỗi văn bản OCR một cách hiệu quả.
+### [Trích xuất văn bản từ hình ảnh bằng C# – Hướng dẫn OCR toàn diện](./extract-text-from-image-with-c-complete-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR với C# để trích xuất văn bản từ hình ảnh, bao gồm các bước cấu hình và tối ưu hoá.
+### [Cách cải thiện OCR với Aspose OCR – Hướng dẫn C# toàn diện](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách nâng cao độ chính xác OCR bằng Aspose OCR trong C#, bao gồm các kỹ thuật tối ưu và ví dụ thực tế.
 ### [Chạy OCR trên hình ảnh với GPU trong C# – Hướng dẫn lập trình đầy đủ](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Khám phá cách chạy OCR trên hình ảnh bằng GPU trong C# với hướng dẫn lập trình đầy đủ, tăng tốc độ và độ chính xác.
 

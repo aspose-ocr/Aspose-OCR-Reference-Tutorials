@@ -229,6 +229,11 @@ Wykorzystaj GPU do przyspieszenia OCR w C# przy użyciu Aspose.OCR, uzyskując w
 ### [Utwórz logger konsolowy w C# – Pełny przewodnik włączania automatycznego pobierania i korekty tekstu OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Pełny przewodnik tworzenia loggera konsolowego w C#, umożliwiającego automatyczne pobieranie i korektę tekstu OCR.
 
+### [Wyodrębnianie tekstu z obrazu w C# – Kompletny przewodnik OCR](./extract-text-from-image-with-c-complete-ocr-guide/)
+Kompletny przewodnik pokazujący, jak używać Aspose.OCR w C# do wyodrębniania tekstu z obrazów, w tym konfigurację, przetwarzanie i zapis wyników.
+
+### [Jak poprawić OCR przy użyciu Aspose OCR – Kompletny przewodnik C#](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Kompletny przewodnik w C# pokazujący, jak zwiększyć dokładność OCR przy użyciu Aspose OCR.
 ### [Uruchom OCR na obrazie z GPU w C# – Kompletny przewodnik programistyczny](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Poznaj, jak przyspieszyć OCR na obrazie wykorzystując GPU w C# z Aspose.OCR – pełny przewodnik krok po kroku.
 

@@ -56,6 +56,9 @@ Scopri come rimuovere l'inclinazione dalle immagini per migliorare l'accuratezza
 Scopri come raddrizzare le immagini e migliorare le scansioni con Aspose.OCR per .NET in una guida passo‑passo in C#.
 ### [Come raddrizzare l'immagine in C# – Guida completa con Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Scopri come raddrizzare le immagini in C# con Aspose OCR, migliorando la precisione del riconoscimento del testo.
+### [Come correggere l'inclinazione di un'immagine in C# con Aspose OCR – Guida completa](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Scopri come raddrizzare le immagini con Aspose OCR in C#, migliorando l'accuratezza del riconoscimento del testo.
+
 ### [Come correggere l'inclinazione di un'immagine con Aspose OCR – Guida completa C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Scopri come rimuovere l'inclinazione dalle immagini usando Aspose OCR in C#, passo passo per risultati precisi.
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -122,6 +122,8 @@ Nhúng phông chữ vào PDF để tạo tài liệu có thể tìm kiếm từ 
 Hướng dẫn chi tiết cách cấu hình thiết bị GPU để tăng tốc độ nhận dạng OCR trong C# bằng Aspose.OCR.
 ### [Nhận dạng văn bản từ hình ảnh trong C# – cách nhận dạng tiếng Kannada với Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng ký tự Kannada từ hình ảnh.
+### [Tạo Bộ Xử Lý Kiểm Tra Chính Tả với Aspose OCR AI – Hướng Dẫn Đầy Đủ](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Hướng dẫn chi tiết cách xây dựng bộ xử lý kiểm tra chính tả sử dụng công nghệ AI của Aspose OCR trong .NET.
 
 
 

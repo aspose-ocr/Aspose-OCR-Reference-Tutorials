@@ -58,6 +58,8 @@ Apprenez à redresser des images en C# avec Aspose OCR, améliorez la précision
 ### [Comment redresser une image avec Aspose OCR – Guide complet C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Apprenez à redresser des images avec Aspose OCR en C#, pour améliorer la précision de la reconnaissance de texte.
 
+### [Comment redresser une image en C# avec Aspose OCR – Guide complet](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Apprenez à redresser des images en C# avec Aspose OCR grâce à ce guide complet et pratique.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

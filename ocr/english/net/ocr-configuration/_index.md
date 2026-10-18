@@ -89,6 +89,8 @@ Learn how to read Cyrillic text from PNG images using Aspose.OCR in .NET, coveri
 Learn how to configure GPU acceleration for OCR in C# using Aspose.OCR for faster, more efficient text extraction.
 ### [recognize text from image in C# – how to recognize Kannada with Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Learn how to extract Kannada text from images using Aspose OCR in C#.
+### [Create Spell Check Processor with Aspose OCR AI – Full Guide](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Build a spell‑check processor using Aspose OCR AI in .NET. Follow the full guide to implement AI‑powered spelling correction.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

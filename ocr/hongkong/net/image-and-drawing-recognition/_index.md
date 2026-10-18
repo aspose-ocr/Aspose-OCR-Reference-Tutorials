@@ -72,6 +72,8 @@ Aspose.OCR 提供彈性的 API，讓您能針對特定文字區域、處理圖�
 使用 Aspose.OCR for .NET 在 C# 中啟用表單辨識，並高效提取表格資料，完整步驟說明。
 ### [在 C# 中將表格保存為 CSV – 完整 Aspose OCR 指南](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 使用 Aspose.OCR for .NET，將 OCR 識別的表格資料匯出為 CSV 檔案，完整步驟說明。
+### [使用 Aspose OCR 從圖像提取表格 (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+使用 Aspose OCR 的 C# API 從圖像中辨識並提取表格資料，快速將表格轉換為結構化文字。
 
 ## 常見問題
 

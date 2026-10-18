@@ -71,6 +71,8 @@ Aspose OCR kullanarak PNG dosyalarından Kiril alfabesindeki metni doğru ve hı
 Aspose.OCR’da GPU cihazını yapılandırarak OCR performansını artırın ve C# kod örnekleriyle tam bir rehber izleyin.
 ### [C# ile görüntüden metin tanıma – Aspose OCR ile Kannada dili nasıl tanınır](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Aspose OCR kullanarak C# içinde Kannada dilindeki metinleri doğru şekilde tanıyın ve çıkarın.
+### [Aspose OCR AI ile Yazım Denetimi İşlemcisi Oluşturma – Tam Kılavuz](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI kullanarak tam özellikli bir yazım denetimi işlemcisi geliştirin ve .NET uygulamalarınızda metin doğruluğunu artırın.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

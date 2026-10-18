@@ -231,6 +231,11 @@ Aspose OCR का उपयोग करके छवि पर तेज़ औ
 ### [C# में कंसोल लॉगर बनाएं – ऑटो‑डाउनलोड और OCR टेक्स्ट सुधार को सक्षम करने के लिए पूर्ण गाइड](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 इस गाइड में कंसोल लॉगर सेटअप करके OCR टेक्स्ट को स्वचालित रूप से डाउनलोड और सुधारना सीखें।
 
+### [C# के साथ छवि से टेक्स्ट निकालें – पूर्ण OCR गाइड](./extract-text-from-image-with-c-complete-ocr-guide/)
+C# में Aspose.OCR का उपयोग करके छवि से सटीक रूप से पाठ निकालने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+
+### [Aspose OCR के साथ OCR सुधारें – पूर्ण C# गाइड](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose OCR का उपयोग करके C# में OCR सटीकता बढ़ाने के चरण‑दर‑चरण निर्देश।
 ### [GPU के साथ C# में इमेज पर OCR चलाएँ – पूर्ण प्रोग्रामिंग गाइड](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 GPU की शक्ति का उपयोग करके C# में तेज़ OCR निष्पादन के लिए पूर्ण मार्गदर्शिका।
 

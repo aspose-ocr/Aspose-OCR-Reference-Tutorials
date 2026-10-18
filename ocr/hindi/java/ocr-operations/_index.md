@@ -131,6 +131,8 @@ Aspose OCR Java का उपयोग करके इमेज से टे�
 Java में Aspose.OCR का उपयोग करके इमेज से हिंदी टेक्स्ट निकालने का पूर्ण कोड उदाहरण।
 ### [Aspose OCR के साथ Java में OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Aspose OCR का उपयोग करके Java में OCR लागू करने की पूरी प्रक्रिया, चरण‑दर‑चरण कोड उदाहरणों के साथ।
+### [Aspose.OCR के साथ सर्चेबल PDF बनाएं – Java गाइड](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Aspose.OCR for Java का उपयोग करके PDF को सर्चेबल बनाना और टेक्स्ट लेयर जोड़ना सीखें।
 
 ## अक्सर पूछे जाने वाले सवाल
 

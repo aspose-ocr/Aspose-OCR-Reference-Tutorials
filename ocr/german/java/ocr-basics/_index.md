@@ -124,6 +124,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR PNG‑Bilder in Java in Klartext umwandeln 
 Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern schnell extrahieren – kompakte Schritt‑für‑Schritt‑Anleitung.
 ### [Text aus Bild in Java extrahieren – Java OCR‑Tutorial](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus Bildern extrahieren und OCR‑Funktionen optimal nutzen.
+### [OCR auf Bild in Java durchführen – Text aus JPG extrahieren](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java Text aus JPG‑Bildern extrahieren und OCR‑Ergebnisse schnell erhalten.
 
 ---
 

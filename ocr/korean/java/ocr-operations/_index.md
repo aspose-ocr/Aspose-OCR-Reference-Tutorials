@@ -127,6 +127,8 @@ Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 전체 �
 Aspose.OCR for Java를 사용해 이미지에서 힌디어 텍스트를 정확하게 추출하는 단계별 가이드.
 ### [Aspose OCR을 사용한 Java OCR 단계별 가이드](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Aspose OCR을 사용해 Java에서 OCR을 단계별로 수행하는 방법을 자세히 안내합니다.
+### [Aspose.OCR으로 검색 가능한 PDF 만들기 – Java 가이드](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Aspose.OCR을 사용해 Java에서 검색 가능한 PDF를 생성하고 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

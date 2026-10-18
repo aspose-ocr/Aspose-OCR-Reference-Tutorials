@@ -120,6 +120,8 @@ Tanulja meg, hogyan nyerjen ki cirill karaktereket PNG képekből az Aspose OCR 
 Ismerje meg, hogyan állíthatja be a GPU-t az OCR felgyorsításához C#-ban az Aspose.OCR használatával.
 ### [Szöveg felismerése képről C#-ban – hogyan ismerjük fel a kannada nyelvet az Aspose OCR-rel](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t kannada nyelvű szövegek felismerésére C# alkalmazásokban.  
+### [Spell Check processzor létrehozása az Aspose OCR AI-val – Teljes útmutató](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Ismerje meg, hogyan hozhat létre helyesírás-ellenőrző processzort az Aspose OCR AI segítségével .NET-ben.  
 
 
 

@@ -387,6 +387,21 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อสร้างไฟล์ PDF/A จากภาพสแกนด้วยขั้นตอนละเอียดและง่ายต่อการทำตาม
 ### [วิธีทำ OCR แบบกลุ่มใน C# – ดึงข้อความจากรูปภาพอย่างรวดเร็ว](./how-to-batch-ocr-in-c-extract-text-from-images-fast/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อทำ OCR แบบกลุ่มและดึงข้อความจากรูปภาพหลายไฟล์ได้อย่างรวดเร็ว
+### [ตัวอย่าง C# OCR – ดึงข้อความจากรูปภาพด้วย Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพอย่างง่ายดายในขั้นตอนสั้นๆ
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือเต็ม](./extract-text-from-image-in-c-full-guide/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย C# อย่างละเอียดด้วย Aspose OCR ผ่านคู่มือเต็มขั้นตอน
+### [วิธีใช้ Aspose – ดึงข้อความจาก PDF ใน C# – คู่มือเต็ม](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+เรียนรู้ขั้นตอนเต็มในการใช้ Aspose เพื่อดึงข้อความจากไฟล์ PDF ด้วย C# อย่างละเอียดและง่ายดาย
+### [ดึงข้อความจากแบบฟอร์มด้วย Aspose OCR – คู่มือทีละขั้นตอน](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+### [ดึงข้อความจากรูปภาพใน C# – บทเรียน OCR แบบอะซิงโครนัส](./extract-text-from-image-in-c-async-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพแบบอะซิงโครนัสอย่างง่ายดาย
+### [จดจำข้อความรูปภาพด้วย Aspose OCR ใน C#](./recognize-text-image-with-aspose-ocr-in-c/)
+### [จดจำข้อความจากรูปภาพใน C# – บทช่วยสอน Aspose OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+### [ดึงข้อความจากรูปภาพใน C# – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือ OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-guide/)
+### [ตรวจจับภาษาในภาพด้วย Aspose OCR – บทช่วยสอน C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+### [วิธีทำ OCR แบบกลุ่มใน C# – แปลงไฟล์ TIFF หลายหน้าเป็นข้อความ](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
 ### [วิธีทำ OCR ภาษาอารบิกใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-ocr-arabic-in-c-step-by-step-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความภาษาอารบิกอย่างแม่นยำตามขั้นตอนง่ายๆ
 ### [วิธีใช้ Aspose – แปลงภาพเป็น ePub ใน C#](./how-to-use-aspose-convert-image-to-epub-in-c/)

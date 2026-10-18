@@ -71,6 +71,8 @@ Desbloqueie o OCR para extrair texto cirílico de imagens PNG usando Aspose OCR 
 Aprenda a configurar o dispositivo GPU no Aspose.OCR usando C# para acelerar o reconhecimento de imagens.
 ### [Reconhecer texto de imagem em C# – como reconhecer Kannada com Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Desbloqueie o reconhecimento de texto em Kannada a partir de imagens usando Aspose OCR em C#.
+### [Criar Processador de Verificação Ortográfica com Aspose OCR AI – Guia Completo](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aprenda a criar um processador de verificação ortográfica usando a IA do Aspose OCR, integrando reconhecimento de texto avançado em suas aplicações.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

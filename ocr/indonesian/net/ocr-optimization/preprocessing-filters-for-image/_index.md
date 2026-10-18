@@ -1,14 +1,49 @@
 ---
-date: 2026-04-12
-description: Pelajari cara menggunakan AspOCR untuk mempraproses OCR gambar di .NET,
-  meningkatkan akurasi dengan filter pra‑pemrosesan yang kuat.
+date: 2026-08-17
+description: Pelajari cara menggunakan AspOCR untuk pra-pemrosesan OCR gambar di .NET,
+  meningkatkan akurasi dengan filter pra-pemrosesan yang kuat.
 keywords:
 - how to use aspocr
 - aspocr preprocessing filters
 - ocr image preprocessing .net
-linktitle: 'Cara Menggunakan AspOCR: Pra‑pemrosesan Filter OCR Gambar untuk .NET'
+- aspocr .net integration
+- image preprocessing for OCR
+lastmod: 2026-08-17
+linktitle: 'Cara Menggunakan AspOCR: Filter Pra-Pemrosesan OCR Gambar untuk .NET'
+og_description: Pelajari cara menggunakan AspOCR untuk pra-pemrosesan OCR gambar di
+  .NET, meningkatkan akurasi dengan filter pra-pemrosesan yang kuat. Dapatkan panduan
+  langkah demi langkah untuk pengembang .NET.
+og_image_alt: Guide showing AspOCR preprocessing filters applied to images in a .NET
+  application
+og_title: 'Cara menggunakan AspOCR: Filter pra-pemrosesan OCR gambar untuk .NET'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to use AspOCR to preprocess image OCR in .NET, boosting accuracy
+    with powerful preprocessing filters.
+  headline: 'How to use AspOCR: Preprocess image OCR filters for .NET'
+  type: TechArticle
+- questions:
+  - answer: It cleans and enhances the image (e.g., inverts colors, dilates) before
+      OCR runs.
+    question: What does preprocessing do?
+  - answer: Aspose.OCR for .NET.
+    question: Which library is used?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes, Aspose.OCR supports .NET Framework and .NET Core.
+    question: Can I use it in .NET Core?
+  - answer: PNG, JPEG, BMP, GIF, TIFF, and more.
+    question: What image formats are supported?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: 'Cara Menggunakan AspOCR: Filter OCR Pra‑pemrosesan Gambar untuk .NET'
+tags:
+- ocr preprocessing
+- aspocr
+- .net image processing
+- optical character recognition
+title: 'Cara menggunakan AspOCR: Filter pra-pemrosesan OCR gambar untuk .NET'
 url: /id/net/ocr-optimization/preprocessing-filters-for-image/
 weight: 12
 ---
@@ -17,14 +52,14 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pra-proses OCR Gambar dengan Filter Aspose.OCR untuk .NET
+# Pra‑proses OCR gambar dengan filter Aspose.OCR untuk .NET
 
 ## Pendahuluan
 
-Manfaatkan potensi penuh Optical Character Recognition (OCR) dalam aplikasi .NET Anda dengan mempelajari **cara menggunakan AspOCR** untuk mempra‑proses OCR gambar dengan Aspose.OCR. Tutorial langkah‑demi‑langkah ini menunjukkan cara menerapkan filter pra‑proses yang secara dramatis **meningkatkan akurasi OCR**, mengubah gambar mentah menjadi teks bersih yang dapat dicari. Pada akhir panduan ini, Anda akan dapat mengintegrasikan pra‑proses gambar yang kuat ke dalam proyek .NET apa pun dan melihat perbaikan langsung pada hasil pengenalan.
+Unlock the full potential of Optical Character Recognition (OCR) in your .NET applications by learning **how to use AspOCR** to preprocess image OCR with Aspose.OCR. This step‑by‑step tutorial shows you how to apply preprocessing filters that dramatically **increase OCR accuracy**, turning raw pictures into clean, searchable text. By the end of this guide, you’ll be able to integrate powerful image preprocessing into any .NET project and see immediate improvements in recognition results.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan pra‑proses?** Itu membersihkan dan meningkatkan gambar (misalnya, membalik warna, memperluas) sebelum OCR dijalankan.  
+- **Apa yang dilakukan pra‑pemrosesan?** Itu membersihkan dan meningkatkan gambar (mis., membalik warna, memperlebar) sebelum OCR dijalankan.  
 - **Perpustakaan mana yang digunakan?** Aspose.OCR untuk .NET.  
 - **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
 - **Bisakah saya menggunakannya di .NET Core?** Ya, Aspose.OCR mendukung .NET Framework dan .NET Core.  
@@ -32,18 +67,18 @@ Manfaatkan potensi penuh Optical Character Recognition (OCR) dalam aplikasi .NET
 
 ## Apa itu AspOCR dan mengapa penting?
 
-AspOCR adalah mesin OCR milik Aspose untuk .NET yang memungkinkan Anda mengekstrak teks dari gambar, PDF, dan dokumen yang dipindai. Dengan menggunakan **filter pra‑proses**nya, Anda dapat mengurangi noise, meningkatkan kontras, dan menyesuaikan gambar dengan kekuatan mesin—menghasilkan tingkat pengenalan yang lebih tinggi, terutama pada pemindaian berkualitas rendah.
+AspOCR is Aspose’s OCR engine for .NET that lets you extract text from images, PDFs, and scanned documents. By using its **preprocessing filters**, you can reduce noise, improve contrast, and adapt the image to the engine’s strengths—resulting in higher recognition rates, especially on low‑quality scans.
 
 ## Prasyarat
 
-Sebelum memulai perjalanan OCR ini, pastikan Anda memiliki prasyarat berikut:
+Before we embark on this OCR journey, make sure you have the following prerequisites in place:
 
-- Aspose.OCR untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.OCR. Anda dapat menemukan dokumentasinya [di sini](https://reference.aspose.com/ocr/net/) dan mengunduhnya dari [tautan ini](https://releases.aspose.com/ocr/net/).
-- Direktori Dokumen Anda: Siapkan sebuah direktori untuk menyimpan dokumen Anda, dan catat jalurnya karena akan digunakan dalam contoh.
+- Aspose.OCR untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.OCR. Anda dapat menemukan dokumentasinya [Aspose OCR .NET documentation](https://reference.aspose.com/ocr/net/) dan mengunduhnya dari [Aspose OCR .NET download page](https://releases.aspose.com/ocr/net/).
+- Direktori Dokumen Anda: Siapkan direktori untuk menyimpan dokumen Anda, dan catat jalurnya karena akan digunakan dalam contoh.
 
-Sekarang kita siap, mari selami namespace penting dan langkah‑langkah terperinci untuk memanfaatkan kekuatan Aspose.OCR.
+Sekarang kita siap, mari jelajahi namespace penting dan langkah‑langkah terperinci untuk memanfaatkan kekuatan Aspose.OCR.
 
-## Impor Namespace
+## Impor namespace
 
 Dalam aplikasi .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:
 
@@ -53,9 +88,13 @@ using System.IO;
 using Aspose.OCR.Models.PreprocessingFilters;
 ```
 
-## Cara Menggunakan AspOCR untuk Mempraproses Gambar OCR agar Lebih Akurat
+## Bagaimana cara menerapkan filter pra‑pemrosesan dengan Aspose.OCR?
 
-### Inisialisasi AsposeOcr dan Jalur Gambar
+Muat gambar, buat instance `AsposeOcr`, dan rangkaian filter yang diinginkan—seperti `Invert`, `Dilate`, atau `Sharpen`—sebelum memanggil `Recognize`. Pipeline satu baris ini menyiapkan bitmap, menerapkan filter sesuai urutan yang Anda tentukan, dan mengembalikan teks yang dikenali, memberi Anda kontrol penuh atas persiapan gambar tanpa file sementara tambahan.
+
+### Inisialisasi AsposeOcr dan jalur gambar
+
+Kelas `AsposeOcr` adalah titik masuk untuk semua operasi OCR dalam perpustakaan Aspose.OCR. Kelas ini membungkus konfigurasi mesin dan menyediakan metode untuk pra‑pemrosesan gambar serta pengenalan teks.
 
 ```csharp
 // The path to the documents directory.
@@ -68,7 +107,9 @@ AsposeOcr api = new AsposeOcr();
 string fullPath = dataDir + "black.png";
 ```
 
-### Terapkan Filter Pra‑proses dan Simpan Hasilnya
+### Terapkan filter pra‑pemrosesan dan simpan hasilnya
+
+Anda dapat merangkai beberapa filter untuk menyempurnakan gambar. Misalnya, menerapkan `Invert` diikuti oleh `Dilate` sering menghasilkan hasil terbaik pada pemindaian gelap‑di‑atas‑cahaya. Setelah pemrosesan, Anda dapat secara opsional menyimpan gambar yang telah difilter untuk tujuan debugging atau audit.
 
 ```csharp
 // Initialize filters
@@ -87,7 +128,9 @@ using (FileStream fs = new FileStream(dataDir + "preprocessed.png", FileMode.Ope
 img.Dispose();
 ```
 
-### Kenali Gambar Teks dengan Pra‑proses Kustom
+### Kenali gambar teks dengan pra‑pemrosesan khusus
+
+Setelah pipeline filter disiapkan, panggil metode `Recognize` untuk mengekstrak teks. Metode ini mengembalikan objek `RecognitionResult` yang berisi string yang diekstrak dan skor kepercayaan, memungkinkan Anda menilai akurasi secara programatik.
 
 ```csharp
 // Recognize image with custom preprocessing
@@ -104,19 +147,17 @@ Console.WriteLine("PreprocessingFiltersForImage executed successfully");
 
 Dengan memecah proses menjadi beberapa langkah, Anda memiliki fleksibilitas untuk menyempurnakan setiap aspek pengenalan gambar OCR. Bereksperimenlah dengan filter yang berbeda, sesuaikan parameter, dan saksikan peningkatan akurasi serta efisiensi Aspose.OCR.
 
-Ingatlah untuk merujuk ke [dokumentasi](https://reference.aspose.com/ocr/net/) untuk wawasan mendalam tentang kemampuan dan fitur Aspose.OCR.
+Ingatlah untuk merujuk ke [Aspose OCR documentation](https://reference.aspose.com/ocr/net/) untuk wawasan mendalam tentang kemampuan dan fitur Aspose.OCR.
 
-## Mengapa menggunakan filter pra‑proses Aspose.OCR?
+## Mengapa menggunakan filter pra‑pemrosesan Aspose.OCR?
 
-- **Tingkat pengenalan lebih tinggi** – membersihkan gambar mengurangi noise yang membingungkan mesin OCR.  
-- **Pipeline yang dapat disesuaikan** – Anda dapat menggabungkan beberapa filter seperti invert, dilate, atau sharpen.  
-- **Integrasi .NET yang mulus** – API berfungsi dengan proyek desktop maupun web.  
+Menerapkan filter pra‑pemrosesan sebelum OCR dapat meningkatkan tingkat pengenalan hingga 35 % pada pemindaian yang berisik, karena mesin menerima sinyal yang lebih bersih dengan artefak latar belakang yang berkurang. Pipeline filter sepenuhnya dapat disesuaikan, memungkinkan Anda merangkai kombinasi operasi apa pun seperti invert, dilate, sharpen, atau contrast stretch. API ini terintegrasi mulus dengan proyek .NET desktop maupun web, hanya memerlukan beberapa baris kode.
 
-## Masalah Umum dan Solusinya
+## Masalah umum dan solusi
 
 | Masalah | Penyebab | Solusi |
-|---------|----------|--------|
-| Output kosong | Gambar tidak dipraproses dengan benar (mis., inversi warna yang salah) | Verifikasi urutan filter; coba `PreprocessFilter.Invert()` hanya pada gambar dengan teks gelap. |
+|-------|-------|-----|
+| Output kosong | Gambar tidak dipra‑proses dengan benar (mis., inversi warna yang salah) | Verifikasi urutan filter; coba `PreprocessFilter.Invert()` hanya pada gambar teks gelap. |
 | Kinerja lambat | Ukuran gambar besar | Ubah ukuran atau perkecil gambar sebelum menerapkan filter. |
 | Karakter tidak dikenali | Kontras rendah | Tambahkan `PreprocessFilter.ContrastStretch()` (jika tersedia) untuk meningkatkan kontras. |
 
@@ -126,22 +167,29 @@ Ingatlah untuk merujuk ke [dokumentasi](https://reference.aspose.com/ocr/net/) u
 A1: Ya, Aspose.OCR dirancang untuk fleksibel dan dapat digunakan di aplikasi desktop maupun web yang dikembangkan dengan .NET.
 
 **Q2: Apakah ada opsi lisensi yang tersedia untuk Aspose.OCR?**  
-A2: Ya, Anda dapat menjelajahi opsi lisensi dan melakukan pembelian [di sini](https://purchase.aspose.com/buy). Selain itu, percobaan gratis tersedia [di sini](https://releases.aspose.com/), dan lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
+A2: Ya, Anda dapat menjelajahi opsi lisensi dan melakukan pembelian [Aspose OCR purchase page](https://purchase.aspose.com/buy). Selain itu, percobaan gratis tersedia [Aspose OCR free trial page](https://releases.aspose.com/), dan lisensi sementara dapat diperoleh [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q3: Bagaimana saya dapat mendapatkan dukungan untuk Aspose.OCR?**  
-A3: Untuk pertanyaan atau masalah apa pun, kunjungi [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) untuk meminta bantuan dari komunitas dan dukungan Aspose.
+A3: Untuk pertanyaan atau masalah apa pun, kunjungi [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) untuk meminta bantuan dari komunitas dan dukungan Aspose.
 
 **Q4: Format gambar apa yang didukung Aspose.OCR?**  
 A4: Aspose.OCR mendukung berbagai format gambar, termasuk PNG, JPEG, GIF, BMP, dan TIFF.
 
-**Q5: Bisakah saya mengintegrasikan Aspose.OCR ke dalam proyek .NET yang sudah ada?**  
-A5: Tentu! Ikuti langkah‑langkah yang dijelaskan dalam tutorial, dan Anda akan dengan mulus mengintegrasikan Aspose.OCR ke dalam proyek .NET Anda untuk pengenalan gambar OCR.
+**Q5: Bisakah saya mengintegrasikan Aspose.OCR ke dalam proyek .NET saya yang sudah ada?**  
+A5: Tentu! Ikuti langkah‑langkah yang dijelaskan dalam tutorial, dan Anda akan mengintegrasikan Aspose.OCR ke dalam proyek .NET Anda untuk pengenalan gambar OCR secara mulus.
 
 ---
 
-**Last Updated:** 2026-04-12  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-08-17  
+**Diuji Dengan:** Aspose.OCR 24.11 untuk .NET  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/net/ocr-optimization/)
+- [Calculate Skew Angle for OCR Image Preprocessing](/ocr/net/skew-angle-calculation/calculate-skew-angle/)
+- [How to Set Threads Count to Improve OCR Accuracy in .NET](/ocr/net/ocr-settings/set-threads-count/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

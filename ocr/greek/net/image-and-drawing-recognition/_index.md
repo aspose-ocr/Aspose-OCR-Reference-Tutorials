@@ -72,6 +72,8 @@ weight: 22
 Μάθετε πώς να ενεργοποιήσετε την αναγνώριση φορμών και να εξάγετε πίνακες από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
 ### [Save Table as CSV in C# – Complete Aspose OCR Guide](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 Μάθετε πώς να εξάγετε πίνακες από εικόνες OCR και να τους αποθηκεύσετε ως CSV με C# και Aspose.OCR.
+### [Πώς να εξάγετε πίνακες από εικόνες χρησιμοποιώντας το Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Ανακαλύψτε πώς να εντοπίζετε και να εξάγετε πίνακες από εικόνες με το Aspose OCR για .NET, βήμα‑βήμα σε C#.
 
 ## Frequently Asked Questions
 

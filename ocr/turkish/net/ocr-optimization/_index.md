@@ -203,6 +203,10 @@ Aspose OCR ile görüntüde OCR uygulayın, doğruluğu artırın ve sonuçları
 GPU hızlandırmalı OCR ile görüntülerden metin çıkarın, C# ve Aspose OCR kullanarak performansı artırın.
 ### [C#'ta Konsol Günlüğü Oluşturma – OCR Metnini Otomatik İndirme ve Düzeltme İçin Tam Rehber](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Aspose.OCR ile OCR metnini otomatik indirip düzelten bir konsol logger nasıl oluşturulur, adım adım anlatıyoruz.
+### [C# ile Görüntüden Metin Çıkarma – Tam OCR Kılavuzu](./extract-text-from-image-with-c-complete-ocr-guide/)
+C# kullanarak görüntülerden metin çıkarmayı adım adım öğrenin ve OCR doğruluğunu en üst düzeye çıkarın.
+### [Aspose OCR ile OCR'ı Geliştirme – Tam C# Kılavuzu](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose OCR ile OCR doğruluğunu artırmak için kapsamlı adımlar ve ipuçları.
 ### [GPU ile Görüntüde OCR Çalıştırma (C#) – Tam Programlama Kılavuzu](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 GPU hızlandırmalı OCR ile C# uygulamalarında görüntüden metin çıkarma sürecini adım adım öğrenin.
 
