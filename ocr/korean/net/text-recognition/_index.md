@@ -43,6 +43,9 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 
 .NET 애플리케이션을 혁신할 준비가 되셨나요? 텍스트 인식 튜토리얼을 살펴보고 이미지의 정확하고 효율적인 텍스트 인식을 위해 Aspose.OCR의 기능을 활용하세요. 지금 다운로드하여 향상된 OCR 기능을 경험해 보세요.
 ## 텍스트 인식 튜토리얼
+### [How to perform OCR on an image in C# with Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
+
+
 ### [OCR 이미지 인식에서 인식된 문자에 대한 선택 가져오기](./get-choices-for-recognized-characters/)
 정확한 문자 인식을 위해 Aspose.OCR로 .NET 애플리케이션을 강화하세요. 이미지 인식에서 인식된 문자에 대한 선택 항목을 검색하려면 단계별 가이드를 따르세요.
 
