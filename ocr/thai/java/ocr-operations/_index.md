@@ -78,17 +78,62 @@ weight: 21
 ปลดล็อกพลังของ OCR ใน Java ด้วย Aspose.OCR Recognize ข้อความในเอกสาร PDF อย่างง่ายดาย เพิ่มแอปพลิเคชันของคุณด้วยความแม่นยำและความเร็ว  
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 ปลดล็อกการจดจำข้อความที่ทรงพลังใน Java ด้วย Aspose.OCR Recognize ข้อความในภาพ TIFF อย่างไม่มีอุปสรรค ดาวน์โหลดเลยเพื่อประสบการณ์ OCR ที่ไร้รอยต่อ  
-### [จดจำข้อความจากภาพด้วย Aspose OCR – คำแนะนำเต็มสำหรับ Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java  
+### [วิธีทำ Batch OCR ใน Java – คู่มือเต็มสำหรับการสกัดข้อความจากรูปภาพ](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+เรียนรู้วิธีประมวลผล OCR หลายไฟล์พร้อมกันใน Java เพื่อสกัดข้อความจากรูปภาพอย่างมีประสิทธิภาพ  
+### [ทำ OCR บนรูปภาพด้วย Java – คู่มือเต็ม Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อทำ OCR บนรูปภาพอย่างเต็มรูปแบบและได้ผลลัพธ์แม่นยำ  
+### [สร้าง PDF ที่ค้นหาได้ใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-in-java-step-by-step-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
+### [OCR ภาพชุดใน Java – ดึงข้อความจากไฟล์ PNG อย่างรวดเร็ว](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+เรียนรู้วิธีประมวลผลหลายไฟล์ PNG พร้อมกันด้วย Aspose.OCR for Java เพื่อสกัดข้อความได้อย่างรวดเร็วและมีประสิทธิภาพ  
+### [Extract Text from Image with Aspose OCR – Step‑by‑Step Demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+### [สร้าง PDF ที่ค้นหาได้จากไฟล์สแกน – คู่มือ Java](./create-searchable-pdf-from-scanned-files-java-guide/)
+เรียนรู้วิธีแปลงไฟล์สแกนเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java  
+### [ลบลายน้ำการประเมินใน Aspose OCR – คู่มือใบอนุญาต Java ฉบับเต็ม](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+วิธีลบลายน้ำการประเมินและเปิดใช้งานใบอนุญาตเต็มใน Aspose OCR สำหรับ Java
+### [วิธีใช้ OCR ใน Java – ดึงข้อความจาก PDF ด้วย Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+เรียนรู้ขั้นตอนการใช้ OCR ใน Java เพื่อดึงข้อความจากไฟล์ PDF ด้วย Aspose.OCR อย่างละเอียดและง่ายดาย  
+### [จดจำข้อความจากภาพด้วย Aspose OCR – Java Tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+เรียนรู้วิธีจดจำข้อความจากภาพด้วย Aspose OCR ใน Java อย่างละเอียดและง่ายดาย  
+### [image to text java: ดึงข้อความอูรดูด้วย Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+เรียนรู้วิธีดึงข้อความภาษาอูรดูจากภาพด้วย Aspose OCR ใน Java อย่างละเอียดและง่ายดาย  
+### [สร้าง PDF ที่ค้นหาได้จากภาพใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
+### [วิธีใช้ OCR ใน Java – ดึงข้อความจากภาพอย่างรวดเร็ว](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+เรียนรู้วิธีใช้ OCR ใน Java เพื่อดึงข้อความจากภาพอย่างรวดเร็วและแม่นยำในไม่กี่ขั้นตอน
+### [สร้าง PDF ที่ค้นหาได้จาก JPG – คำแนะนำ Java สำหรับแปลงภาพเป็น PDF ที่ค้นหาได้](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+เรียนรู้วิธีแปลงไฟล์ JPG เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java  
+### [วิธีทำ Deskew ภาพ — คู่มือการเตรียม OCR ขั้นตอนต่อขั้นตอน](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+### [วิธีใช้ OCR ใน Java – คู่มือเต็มขั้นตอน](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีการใช้ OCR ใน Java ตั้งแต่การตั้งค่าเริ่มต้นจนถึงการประมวลผลขั้นสูงในคู่มือเต็มขั้นตอน  
+### [แปลงภาพเป็น HTML ด้วย Aspose OCR – คู่มือเต็มขั้นตอนสำหรับ Java](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+เรียนรู้วิธีแปลงภาพเป็นไฟล์ HTML อย่างละเอียดด้วย Aspose OCR for Java  
+### [วิธีทำ OCR ใน Java – คู่มือเต็มขั้นตอน Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+
+
+
+
+### [แปลงรูปภาพเป็นข้อความด้วย Aspose OCR Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+แปลงรูปภาพเป็นข้อความด้วย Aspose OCR for Java อย่างละเอียดตามขั้นตอน  
+### [สร้าง PDF ที่ค้นหาได้ด้วย Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-with-java-step-by-step-guide/)
+เรียนรู้วิธีแปลง PDF สแกนให้เป็น PDF ที่ค้นหาได้โดยใช้ Aspose.OCR for Java อย่างละเอียด
+### [โหลดภาพสำหรับ OCR ใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./load-image-for-ocr-in-java-step-by-step-guide/)
+เรียนรู้วิธีโหลดภาพและเตรียมสำหรับการทำ OCR ด้วย Aspose.OCR ใน Java อย่างละเอียด  
+### [สร้าง PDF ที่ค้นหาได้ – คู่มือ OCR สำหรับ Java](./create-searchable-pdf-java-ocr-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java อย่างง่ายและแม่นยำ  
+### [จดจำข้อความจากภาพด้วย Aspose OCR Java – คู่มือเต็ม](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java อย่างละเอียดและแม่นยำ  
+### [วิธีเปิดใช้งาน OCR ใน Java ด้วย Aspose – คู่มือขั้นตอนเต็ม](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+
+### [สกัดข้อความภาษาฮินดีจากภาพ – ตัวอย่าง OCR ด้วย Java](./extract-hindi-text-from-images-java-ocr-example/)
+เรียนรู้วิธีสกัดข้อความภาษาฮินดีจากภาพโดยใช้ Aspose.OCR for Java พร้อมตัวอย่างโค้ดเต็ม
+### [วิธีทำ OCR ด้วย Aspose OCR ใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+เรียนรู้วิธีใช้ Aspose OCR ใน Java อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการสกัดข้อความจากไฟล์ต่าง ๆ  
 ### [สร้าง PDF ค้นหาได้ด้วย Aspose.OCR – คู่มือ Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน Java เพื่อแปลง PDF สแกนให้เป็นไฟล์ PDF ค้นหาได้อย่างง่ายดาย  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 
 ## คำถามที่พบบ่อย
 
@@ -112,3 +157,19 @@ weight: 21
 **Last Updated:** 2025-12-10  
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose
+### [จดจำข้อความจากภาพด้วย Aspose OCR – คำแนะนำเต็มสำหรับ Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java  
+### [สร้าง PDF ที่ค้นหาได้จาก PNG – คู่มือ Java ฉบับสมบูรณ์](./create-searchable-pdf-from-png-complete-java-guide/)
+แปลงไฟล์ PNG ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
+### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย OCR – คู่มือ Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน
+### [แปลงรูปภาพเป็นข้อความใน Java – คู่มือการประมวลผล OCR แบบกลุ่ม](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+แปลงรูปภาพเป็นข้อความใน Java ด้วยการประมวลผล OCR แบบกลุ่ม – คู่มือขั้นตอนเต็ม  
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

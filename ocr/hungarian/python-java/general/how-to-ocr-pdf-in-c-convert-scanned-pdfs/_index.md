@@ -1,0 +1,211 @@
+---
+category: general
+date: 2026-03-18
+description: Hogyan OCR-elj PDF-et C#-ban – tanulja meg, hogyan konvertáljon beolvasott
+  PDF-et, hozzon létre kereshető PDF-et, adjon vízjelet a PDF-hez, és nyerjen ki szöveget
+  a PDF-ből egy egyszerű OcrEngine munkafolyamat segítségével.
+draft: false
+keywords:
+- how to ocr pdf
+- convert scanned pdf
+- create searchable pdf
+- add watermark pdf
+- extract text from pdf
+language: hu
+og_description: Hogyan OCR-elj PDF-et C#-ban? Ez az útmutató megmutatja, hogyan konvertálj
+  beolvasott PDF-et, hozz létre kereshető PDF-et, adj vízjelet a PDF-hez, és nyerj
+  ki szöveget a PDF-ből az OcrEngine segítségével.
+og_title: Hogyan OCR-elj PDF-et C#-ban – Gyors, teljes útmutató
+tags:
+- OCR
+- PDF
+- C#
+- Document Processing
+title: Hogyan OCR-elj PDF-et C#-ban – Szkennelt PDF-ek konvertálása
+url: /hu/python-java/general/how-to-ocr-pdf-in-c-convert-scanned-pdfs/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hogyan OCR-elj PDF-et C#‑ban – Szkennelt PDF-ek konvertálása
+
+Valaha szükséged volt **how to OCR PDF**‑re, de egy szkennelt fájl akadt, ami nem akart együttműködni? Nem vagy egyedül. Sok valós projektben – gondolj a számlák digitalizálására vagy a történelmi jelentések archiválására – egy csomó kép kerül egy PDF‑be, és az egyetlen módja, hogy kereshetővé tedd őket, ha OCR‑t futtatsz rajtuk.  
+
+Jó hír? Néhány C#‑sorral **convert scanned PDF**‑t **create searchable PDF**‑vé alakíthatsz, egy finom vízjelet adhatsz hozzá, és még a nyers szöveget is kinyerheted további feldolgozáshoz. Az alábbiakban egy teljes, azonnal futtatható példát láthatsz, amely pontosan ezt teszi.
+
+## Amit ez a bemutató lefed
+
+* Hogyan **how to OCR PDF** használja a `OcrEngine` osztályt.  
+* A szkennelt PDF átalakítása **create searchable PDF**‑vé.  
+* Vízjel hozzáadása az első oldalhoz (**add watermark pdf**).  
+* Nyers szöveges karakterláncok kinyerése az eredményből (**extract text from pdf**).  
+* Gyakori buktatók – például többoldalas dokumentumok kezelése vagy alacsony felbontású szkennelés.
+
+Nincsenek külső dokumentációs hivatkozások, nincsenek félkész kódrészletek. Minden, amire szükséged van, itt van.
+
+## Előfeltételek
+
+* .NET 6.0 vagy újabb (a kód .NET 5‑tel is lefordítható).  
+* Egy hivatkozás az OCR könyvtárra, amely biztosítja a `OcrEngine` és `ImageFormats` osztályokat (pl. `Aspose.OCR` vagy egy hasonló csomag).  
+* `input.pdf` nevű bemeneti PDF, amelyet egy általad irányított mappában helyezel el.  
+* Alapvető ismeretek a C# konzolos alkalmazásokról.
+
+Ha már megvannak ezek, nagyszerű – vágjunk bele.
+
+## 1. lépés: A projekt beállítása és a függőségek importálása
+
+Hozz létre egy új konzolos projektet, és add hozzá az OCR csomagot a NuGet‑en keresztül:
+
+```bash
+dotnet new console -n OcrPdfDemo
+cd OcrPdfDemo
+dotnet add package Aspose.OCR
+```
+
+Most nyisd meg a `Program.cs`‑t. A tetején importáld a szükséges névtereket:
+
+```csharp
+using System;
+using Aspose.OCR;          // OcrEngine lives here
+using Aspose.OCR.Image;   // ImageFormats enum
+```
+
+*Miért fontos*: A megfelelő névterek importálása lehetővé teszi a fordító számára, hogy megtalálja a `OcrEngine`‑t. Ennek kihagyása `CS0246` hibát eredményez, és leállítja a fordítást.
+
+## 2. lépés: Az OCR motor inicializálása
+
+A motor a folyamat szíve. Egyszer példányosítod, majd minden oldalhoz újra felhasználod.
+
+```csharp
+// Step 2: Initialize the OCR engine
+OcrEngine engine = new OcrEngine();
+```
+
+*Pro tipp*: Ha sok PDF‑et szeretnél egymás után feldolgozni, fontold meg ugyanannak a `engine` példánynak a újrahasználatát, hogy elkerüld az ismétlődő licencellenőrzéseket.
+
+## 3. lépés: A forrás PDF betöltése
+
+Mondd meg a motornak, melyik fájlon dolgozzon. A `SetImageFromFile` metódus bármilyen kép‑ vagy PDF‑forrást elfogad.
+
+```csharp
+// Step 3: Load the scanned PDF you want to OCR
+engine.SetImageFromFile(@"YOUR_DIRECTORY\input.pdf");
+```
+
+> **Miért kritikus ez a lépés** – A motornak bitmap ábrázolásra van szüksége minden oldalról. Amikor PDF‑et adsz neki, belsőleg rasterizálja az egyes oldalakat az alapértelmezett DPI‑en (általában 300). Ha a forrás PDF már szöveges, a motor egyszerűen változatlanul továbbadja, ezzel időt takarítva meg.
+
+## 4. lépés: OCR felismerés futtatása
+
+Most jön a nehéz munka. A `Recognize` metódus minden oldalt beolvas, glifeket nyer ki, és egy kereshető réteget épít.
+
+```csharp
+// Step 4: Perform OCR on the loaded document
+engine.Recognize();
+```
+
+*Gyakori kérdés*: *Mi van, ha a PDF‑nek 50 oldala van?*  
+A `Recognize` alapértelmezés szerint az egész dokumentumot feldolgozza. Memória‑korlátozott környezetben beállíthatod a `engine.PageIndex` és `engine.PageCount` értékeket, hogy oldalanként dolgozz.
+
+## 5. lépés: Kereshető PDF mentése (Vízjel az 1. oldalon)
+
+Az eredményt PDF‑ként mentjük. Az első oldal automatikusan vízjelet kap, mivel az OCR könyvtár alapértelmezés szerint egy „Generated by Aspose.OCR” réteget ad hozzá. Ha egyedi vízjelet szeretnél, a mentés előtt módosíthatod a `engine.Watermark` tulajdonságot.
+
+```csharp
+// Step 5: Save the OCR‑processed PDF with a watermark on page 1
+engine.Save(@"YOUR_DIRECTORY\output.pdf", ImageFormats.Pdf);
+```
+
+E hívás után egy **create searchable PDF** áll rendelkezésedre, ahol a szöveget kiválaszthatod, másolhatod és keresheted, akárcsak egy natív PDF‑ben.
+
+## 6. lépés: Nyers szöveg kinyerése (Opcionális, de hasznos)
+
+Ha szeretnél **extract text from pdf**‑t is indexeléshez vagy további elemzéshez, a motor hozzáférést biztosít a nyers karakterlánchoz.
+
+```csharp
+// Step 6: Pull the recognized text into a string
+string extractedText = engine.Text;
+Console.WriteLine("=== Extracted Text Start ===");
+Console.WriteLine(extractedText);
+Console.WriteLine("=== Extracted Text End ===");
+```
+
+A `engine.Text` tulajdonság az összes oldal szövegét fűzi össze, megőrizve a sortöréseket. Ha oldalankénti részletezésre van szükséged, szétválaszthatod `\f` (form feed) karakterrel.
+
+## Teljes működő példa
+
+Az alábbiakban a teljes program látható. Másold be a `Program.cs`‑be, cseréld le a `YOUR_DIRECTORY`‑t egy abszolút vagy relatív útvonalra, és futtasd a `dotnet run` parancsot.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1️⃣ Initialize the OCR engine
+            OcrEngine engine = new OcrEngine();
+
+            // 2️⃣ Load the source PDF to be processed
+            // Make sure the file exists; otherwise you'll get a FileNotFoundException.
+            string inputPath = @"YOUR_DIRECTORY\input.pdf";
+            engine.SetImageFromFile(inputPath);
+
+            // 3️⃣ Perform OCR recognition on the loaded document
+            engine.Recognize();
+
+            // 4️⃣ Save the recognized document as a PDF (watermark appears on page 1)
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+            engine.Save(outputPath, ImageFormats.Pdf);
+
+            // 5️⃣ (Optional) Extract plain text for further use
+            string extractedText = engine.Text;
+            Console.WriteLine("=== Extracted Text Start ===");
+            Console.WriteLine(extractedText);
+            Console.WriteLine("=== Extracted Text End ===");
+
+            Console.WriteLine($"OCR complete! Searchable PDF saved to: {outputPath}");
+        }
+    }
+}
+```
+
+### Várt kimenet
+
+A program futtatása kiírja a kinyert szöveget a konzolra, és létrehozza az `output.pdf`‑t. Nyisd meg a PDF‑et bármely nézőben (Adobe Acrobat, Edge, stb.), és próbálj meg keresni egy szót, amely az eredeti szkenben szerepelt – láthatod, hogy most már kereshető. Az első oldal a alapértelmezett vízjelet mutatja, ezzel megerősítve, hogy a **add watermark pdf** lépés sikeres volt.
+
+## Gyakran Ismételt Kérdések és Különleges Esetek
+
+| Question | Answer |
+|----------|--------|
+| **Mi van, ha a szken alacsony felbontású?** | Növeld a DPI‑t a felismerés előtt: `engine.ImageInfo.DpiX = engine.ImageInfo.DpiY = 600;` Ez több részletet ad az OCR motor számára. |
+| **Választhatok egyedi vízjelet?** | Igen. Állítsd be a `engine.Watermark = "Confidential – Processed on " + DateTime.Now.ToShortDateString();` értéket a `Save` előtt. |
+| **Hogyan kezeljem a jelszóval védett PDF-eket?** | Használd a `engine.LoadPassword = "yourPassword";` értéket a `SetImageFromFile` előtt. |
+| **Van mód az OCR korlátozására bizonyos oldalakra?** | Állítsd be a `engine.PageIndex = 2;` és `engine.PageCount = 5;` értékeket, hogy csak a 3‑7. oldalakat dolgozd fel. |
+| **Mi van, ha az eredeti képeket érintetlenül kell hagynom?** | OCR után egy PDF könyvtár (pl. `Aspose.PDF`) segítségével egyesítheted az eredeti PDF‑et az OCR réteggel, hogy megőrizd a képek hűségét. |
+
+## Tippek és Legjobb Gyakorlatok
+
+* **Pro tipp:** Futtasd az OCR‑t egy háttérszálon, ha UI‑alkalmazásba integrálod – különben a felhasználói felület lefagy.  
+* **Vigyázz:** Vegyes raster és vektor tartalmú PDF-ek. A motor csak a raster oldalakat OCR‑eli; a vektoros szöveg automatikusan kiválasztható marad.  
+* **Teljesítményjavítás:** Cache-eld az OCR nyelvi adatokat (`engine.Language = OcrLanguage.English;`), hogy ne kelljen minden dokumentumnál újratölteni.
+
+## Összegzés
+
+Most már egy teljes, vég‑végi megoldásod van a **how to OCR PDF** C#‑ban. Az `OcrEngine` inicializálásával, egy szkennelt fájl betöltésével, a szöveg felismerésével, egy **create searchable pdf** mentésével, vízjel hozzáadásával és opcionálisan a **extract text from pdf** kinyerésével bármely képalapú PDF‑et kereshető, indexelhető erőforrássá alakíthatsz.
+
+Következő lépések? Próbáld meg összekapcsolni ezt a munkafolyamatot egy dokumentumkezelő rendszerrel, vagy kísérletezz különböző nyelvekkel (`engine.Language = OcrLanguage.French;`). Továbbá felfedezheted a kötegelt feldolgozást több fájlra egy mappában – egyszerűen iterálj a lépéseken egy új `engine` példányt használva minden alkalommal.
+
+Boldog kódolást, és legyenek a PDF‑eid mindig kereshetők! 
+
+![How to OCR PDF example showing input and output files](https://example.com/ocr-pdf-demo.png "how to ocr pdf")
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
