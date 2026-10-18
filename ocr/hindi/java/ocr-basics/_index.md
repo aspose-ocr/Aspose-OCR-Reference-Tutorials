@@ -130,6 +130,8 @@ Java में Aspose.OCR का उपयोग करके इमेज स�
 ### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – जावा त्वरित गाइड](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 ### [Java में इमेज से टेक्स्ट निकालें – Java OCR ट्यूटोरियल](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Java में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [Java में टेक्स्ट इमेज को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Aspose.OCR का उपयोग करके Java में टेक्स्ट इमेज को पहचानने के लिए पूर्ण चरण‑दर‑स्टेप गाइड।
 
 ---
 

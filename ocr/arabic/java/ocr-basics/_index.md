@@ -118,6 +118,8 @@ weight: 20
 ### [استخراج النص من الصورة باستخدام Aspose OCR – دليل Java السريع](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 ### [استخراج النص من الصورة في Java – دليل OCR للـ Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
 تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في Java خطوة بخطوة.
+### [التعرف على النص في الصورة باستخدام Java – دليل Aspose OCR الكامل](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
 
 ---
 

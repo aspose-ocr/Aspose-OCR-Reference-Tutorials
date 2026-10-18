@@ -118,6 +118,8 @@ Lär dig hur du med Aspose.OCR för Java konverterar PNG‑bilder till ren text 
 Lär dig snabbt hur du med Aspose OCR för Java extraherar text från en bild i några enkla steg.
 ### [Extrahera text från bild i Java – Java OCR‑handledning](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Lär dig hur du extraherar text från bilder i Java med Aspose.OCR i denna steg‑för‑steg‑handledning.
+### [Känna igen textbild i Java – Komplett Aspose OCR-guide](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+En fullständig guide för att känna igen text i bilder med Aspose.OCR för Java, inklusive kodexempel och bästa praxis.
 
 ---
 

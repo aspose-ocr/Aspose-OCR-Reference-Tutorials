@@ -127,6 +127,8 @@ Apprenez à extraire du texte d’une image en Java avec un exemple complet d’
 Apprenez à extraire rapidement du texte d’une image en Java avec Aspose OCR grâce à ce guide concis.
 ### [Extraire du texte d'une image en Java – Tutoriel OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Apprenez à extraire du texte d'images en Java avec Aspose.OCR grâce à ce tutoriel complet.
+### [Reconnaître le texte d'image en Java – Guide complet Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Apprenez à reconnaître du texte dans les images avec Aspose OCR en Java grâce à ce guide complet, incluant configuration, pré‑traitement et extraction.
 
 ---
 

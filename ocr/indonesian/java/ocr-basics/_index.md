@@ -118,6 +118,8 @@ Pelajari cara mengenali teks dari file PNG menggunakan Aspose OCR di Java dengan
 Panduan singkat untuk mengekstrak teks dari gambar menggunakan Aspose OCR di Java dengan contoh kode lengkap.
 ### [Ekstrak Teks dari Gambar di Java – Tutorial OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di Java dengan contoh kode lengkap dan langkah‑langkah mudah.
+### [Mengenali Gambar Teks di Java – Panduan Lengkap Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Panduan lengkap untuk mengenali teks dalam gambar menggunakan Aspose OCR di Java, mencakup semua langkah penting.
 
 ---
 
