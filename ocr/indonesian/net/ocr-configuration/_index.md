@@ -123,6 +123,8 @@ Mengatur perangkat GPU untuk OCR di C# menggunakan Aspose.OCR untuk kinerja lebi
 Pelajari cara mengenali teks Kannada dari gambar menggunakan Aspose OCR dalam aplikasi C#.
 ### [Buat Processor Pemeriksa Ejaan dengan Aspose OCR AI – Panduan Lengkap](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Panduan lengkap membuat processor pemeriksa ejaan menggunakan Aspose OCR AI untuk meningkatkan akurasi teks dalam aplikasi Anda.
+### [Periksa Bendera Lisensi di Aspose OCR – Panduan Cepat untuk Memverifikasi Lisensi](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Panduan singkat untuk memeriksa flag lisensi Aspose OCR dan memastikan lisensi Anda terdeteksi dengan benar.
 
 
 

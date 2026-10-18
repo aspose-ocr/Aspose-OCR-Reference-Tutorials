@@ -69,6 +69,8 @@ Naučte se, jak konfigurovat GPU pro zrychlení OCR pomocí Aspose.OCR v C# apli
 Naučte se, jak pomocí Aspose OCR rozpoznat kannadský text z obrázku v C# aplikaci.
 ### [Vytvoření procesoru pro kontrolu pravopisu s Aspose OCR AI – kompletní průvodce](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Kompletní průvodce vytvořením procesoru pro kontrolu pravopisu pomocí Aspose OCR AI.
+### [Zkontrolujte licenční příznak v Aspose OCR – Rychlý průvodce ověřením licence](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Rychle zjistěte, zda je Aspose OCR správně licencováno, a odstraňte problémy s licenčním příznakem.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

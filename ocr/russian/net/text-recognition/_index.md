@@ -436,6 +436,14 @@ url: /ru/net/text-recognition/
 Узнайте, как использовать Aspose в C# для конвертации изображений в формат ePub.
 ### [Как пакетно выполнять OCR в C# – извлекать текст из PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Извлеките текст из множества PNG‑изображений с помощью Aspose OCR в C# в пакетном режиме.
+### [Как выполнить OCR на PNG‑изображениях в C# – пошаговое руководство](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.OCR выполнить оптическое распознавание текста на PNG‑изображениях в C# шаг за шагом.
+### [Как использовать OCR в C# – Быстро извлечь текст из PNG‑изображений](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Узнайте, как быстро извлечь текст из PNG‑изображений с помощью OCR в C#.
+### [Как использовать Aspose OCR в C# – Полное руководство](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Изучите, как использовать Aspose OCR в C# с нуля, следуя полному пошаговому руководству по интеграции OCR в ваши .NET‑проекты.
+### [Извлечь текст из изображения C# – Полное пошаговое руководство](./extract-text-from-image-c-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.OCR извлечь текст из изображений в C# с нуля, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

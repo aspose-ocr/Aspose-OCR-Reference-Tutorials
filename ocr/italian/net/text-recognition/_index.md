@@ -449,6 +449,14 @@ Scopri come convertire immagini in file ePub usando Aspose.OCR per .NET con C# i
 Impara a estrarre testo da file PNG usando Aspose.OCR per .NET e ottenere i risultati in formato JSON‑L passo passo.
 ### [Come fare OCR batch in C# – Estrarre testo da PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Scopri come elaborare più immagini PNG in batch con Aspose.OCR per .NET, estraendo testo in modo efficiente.
+### [Come eseguire OCR su immagini PNG in C# – Guida passo‑passo](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Scopri come utilizzare Aspose.OCR per .NET per riconoscere testo da immagini PNG in C# con una guida dettagliata passo dopo passo.
+### [Come utilizzare Aspose OCR in C# – Guida completa](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Scopri come integrare Aspose OCR in C# con una guida completa passo‑passo per riconoscere testo in immagini.
+### [Come estrarre testo da immagine C# – Guida completa passo‑passo](./extract-text-from-image-c-complete-step-by-step-guide/)
+Scopri come estrarre testo da immagini in C# con Aspose.OCR grazie a una guida completa passo‑passo.
+### [Come utilizzare OCR in C# – Estrarre testo da immagini PNG rapidamente](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Scopri come usare Aspose.OCR in C# per estrarre rapidamente testo da immagini PNG con una guida passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

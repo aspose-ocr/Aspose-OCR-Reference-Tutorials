@@ -70,6 +70,9 @@ Scopri come estrarre testo in lingua Kannada da immagini usando Aspose OCR in C#
 ### [Crea Processore di Controllo Ortografico con Aspose OCR AI – Guida Completa](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Scopri come creare un processore di correzione ortografica usando l'AI di Aspose OCR, passo dopo passo, con esempi pratici.
 
+### [Verifica del flag di licenza in Aspose OCR – Guida rapida per verificare la licenza](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Scopri come controllare il flag di licenza in Aspose OCR per assicurarti che la tua applicazione sia correttamente licenziata.
+
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  
 - Indicizzare grandi archivi di documenti per repository ricercabili.  

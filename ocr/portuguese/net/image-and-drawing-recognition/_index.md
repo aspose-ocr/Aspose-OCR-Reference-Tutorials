@@ -74,6 +74,8 @@ Aprenda a ativar o reconhecimento de formulários e extrair tabelas de documento
 Aprenda a salvar tabelas extraídas como CSV usando Aspose.OCR em C#. Guia passo a passo para exportar dados de forma simples.
 ### [Como Extrair Tabelas de Imagens usando Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Desbloqueie a extração de tabelas de imagens com Aspose OCR para .NET, facilitando a captura de dados estruturados.
+### [Criar Excel a partir de Imagem com C# – Guia Completo do Aspose OCR](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aprenda a gerar arquivos Excel a partir de imagens usando Aspose.OCR e C#, passo a passo.
 
 ## Perguntas Frequentes
 

@@ -84,6 +84,8 @@ Pełny przewodnik, jak skonfigurować GPU w Aspose.OCR dla C#, aby przyspieszyć
 Dowiedz się, jak używać Aspose OCR w C# do rozpoznawania tekstu w języku Kannada z obrazów.
 ### [Utwórz procesor sprawdzania pisowni z Aspose OCR AI – Pełny przewodnik](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Pełny przewodnik tworzenia procesora sprawdzania pisowni przy użyciu Aspose OCR AI.
+### [Sprawdź flagę licencji w Aspose OCR – szybki przewodnik weryfikacji licencji](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Dowiedz się, jak sprawdzić flagę licencji w Aspose OCR, aby upewnić się, że biblioteka jest prawidłowo licencjonowana.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

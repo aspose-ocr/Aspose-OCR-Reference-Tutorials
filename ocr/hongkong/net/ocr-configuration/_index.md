@@ -81,6 +81,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 使用 Aspose OCR 在 .NET 中辨識卡納達語圖像文字，提供 C# 範例程式碼與設定說明。
 ### [使用 Aspose OCR AI 建立拼寫檢查處理器 – 完整指南](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 使用 Aspose OCR AI 在 .NET 中建立完整的拼寫檢查處理器，提升文字辨識與校正功能。
+### [檢查 Aspose OCR 授權旗標 – 快速指南驗證授權](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+說明如何在 Aspose OCR 中檢查授權旗標，確保您的應用程式正確驗證授權狀態。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

@@ -122,6 +122,8 @@ Ismerje meg, hogyan állíthatja be a GPU-t az OCR felgyorsításához C#-ban az
 Ismerje meg, hogyan használhatja az Aspose.OCR-t kannada nyelvű szövegek felismerésére C# alkalmazásokban.  
 ### [Spell Check processzor létrehozása az Aspose OCR AI-val – Teljes útmutató](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Ismerje meg, hogyan hozhat létre helyesírás-ellenőrző processzort az Aspose OCR AI segítségével .NET-ben.  
+### [Licencjelző ellenőrzése az Aspose OCR-ben – Gyors útmutató a licenc ellenőrzéséhez](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Ismerje meg, hogyan ellenőrizheti a licenc állapotát az Aspose OCR használatakor, hogy biztosítsa a megfelelő működést.  
 
 
 

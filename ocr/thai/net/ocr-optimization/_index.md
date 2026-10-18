@@ -225,6 +225,14 @@ weight: 25
 ### [รัน OCR บนภาพด้วย GPU ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 เรียนรู้วิธีใช้ GPU เพื่อเร่งการประมวลผล OCR บนภาพด้วย C# ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบของ Aspose.OCR.
 
+### [จดจำข้อความจากภาพด้วย Aspose OCR GPU ใน C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+เรียนรู้การใช้ GPU เพื่อเร่งความเร็ว OCR ใน C# ด้วย Aspose OCR
+
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือการเขียนโปรแกรมเต็ม](./create-searchable-pdf-in-c-full-programming-guide/)
+
+### [ดึงข้อความจากภาพใน C# – คู่มือ Auto‑Rotate OCR & Deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพโดยอัตโนมัติหมุนและแก้ไขการเอียง เพิ่มความแม่นยำของ OCR
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

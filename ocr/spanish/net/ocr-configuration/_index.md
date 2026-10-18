@@ -83,6 +83,8 @@ Aprende a configurar el dispositivo GPU para acelerar el OCR en C# usando Aspose
 Aprende a extraer texto en idioma Kannada de imágenes usando Aspose OCR en C#.
 ### [Crear procesador de corrección ortográfica con Aspose OCR AI – Guía completa](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Aprende a crear un procesador de corrección ortográfica usando la IA de Aspose OCR, paso a paso, para mejorar la precisión del texto.
+### [Comprobar la bandera de licencia en Aspose OCR – Guía rápida para verificar la licencia](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Aprende a validar rápidamente la licencia de Aspose OCR y asegurar que tu aplicación está correctamente licenciada.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

@@ -123,6 +123,7 @@ weight: 24
 Узнайте, как с помощью Aspose OCR распознать текст на каннада в C# из изображений.
 ### [Создание процессора проверки орфографии с Aspose OCR AI – Полное руководство](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Полное руководство по созданию процессора орфографической проверки с использованием AI‑модулей Aspose OCR.
+### [Проверка флага лицензии в Aspose OCR – Быстрое руководство по проверке лицензирования](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 
 
 

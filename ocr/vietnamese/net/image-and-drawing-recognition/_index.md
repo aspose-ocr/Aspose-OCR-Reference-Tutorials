@@ -75,6 +75,8 @@ Mở khóa khả năng nhận dạng biểu mẫu và trích xuất bảng trong
 Mở khóa khả năng lưu bảng dưới dạng CSV trong C# với Aspose OCR, hướng dẫn chi tiết từng bước.
 ### [Cách trích xuất bảng từ hình ảnh bằng Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Mở khóa khả năng trích xuất bảng từ hình ảnh bằng Aspose OCR cho .NET, hỗ trợ C# để lấy dữ liệu bảng một cách chính xác.
+### [Tạo Excel từ hình ảnh với C# – Hướng dẫn đầy đủ Aspose OCR](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Biến hình ảnh thành tệp Excel bằng Aspose.OCR và C#. Hướng dẫn chi tiết từng bước để trích xuất dữ liệu và tạo bảng tính.
 
 ## Câu hỏi thường gặp
 

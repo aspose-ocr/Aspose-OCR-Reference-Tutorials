@@ -91,6 +91,8 @@ Learn how to configure GPU acceleration for OCR in C# using Aspose.OCR for faste
 Learn how to extract Kannada text from images using Aspose OCR in C#.
 ### [Create Spell Check Processor with Aspose OCR AI – Full Guide](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Build a spell‑check processor using Aspose OCR AI in .NET. Follow the full guide to implement AI‑powered spelling correction.
+### [check license flag in Aspose OCR – Quick Guide to Verify Licensing](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Learn how to verify the Aspose.OCR license flag in .NET to ensure proper licensing.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

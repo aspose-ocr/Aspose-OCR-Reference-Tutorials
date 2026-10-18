@@ -80,6 +80,8 @@ Aspose.OCR を使用して C# アプリでフォーム認識を有効にし、�
 Aspose.OCR を使用して画像から抽出したテーブルデータを C# で CSV ファイルに保存する手順を解説します。
 ### [Aspose OCR を使用して画像からテーブルを抽出する方法 (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Aspose OCR for .NET を活用し、画像内の表を検出・抽出する手順をステップバイステップで解説します。
+### [C# で画像から Excel を作成 – 完全 Aspose OCR ガイド](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aspose.OCR と C# を活用し、画像データから Excel ファイルを生成する手順をステップバイステップで解説します。
 
 ## Frequently Asked Questions
 

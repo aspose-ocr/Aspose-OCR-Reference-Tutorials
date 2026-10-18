@@ -83,6 +83,9 @@ Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren und die 
 ### [Erstellen Sie einen Rechtschreibprüfungsprozessor mit Aspose OCR KI – Vollständige Anleitung](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Erfahren Sie, wie Sie mit Aspose OCR KI einen leistungsstarken Rechtschreibprüfungsprozessor implementieren.
 
+### [Lizenz-Flag in Aspose OCR prüfen – Schnellleitfaden zur Lizenzüberprüfung](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Erfahren Sie, wie Sie das Lizenz-Flag von Aspose OCR prüfen und sicherstellen, dass Ihre Anwendung korrekt lizenziert ist.
+
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  
 - Große Dokumentenarchive für durchsuchbare Repositorien indexieren.  

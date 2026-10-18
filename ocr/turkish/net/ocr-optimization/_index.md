@@ -209,6 +209,12 @@ C# kullanarak görüntülerden metin çıkarmayı adım adım öğrenin ve OCR d
 Aspose OCR ile OCR doğruluğunu artırmak için kapsamlı adımlar ve ipuçları.
 ### [GPU ile Görüntüde OCR Çalıştırma (C#) – Tam Programlama Kılavuzu](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 GPU hızlandırmalı OCR ile C# uygulamalarında görüntüden metin çıkarma sürecini adım adım öğrenin.
+### [C# ile Aspose OCR GPU kullanarak görüntüden metin tanıma](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Aspose OCR GPU'nun yüksek performansını C# uygulamanızda kullanarak görüntülerden hızlı ve doğru metin çıkarın.
+### [C# ile aranabilir PDF oluşturma – Tam Programlama Kılavuzu](./create-searchable-pdf-in-c-full-programming-guide/)
+Aspose.OCR for .NET kullanarak C# içinde aranabilir PDF'ler oluşturmayı adım adım öğrenin.
+### [C# ile Görüntüden Metin Çıkarma – Otomatik Döndürme OCR ve Düzleştirme Rehberi](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+C# uygulamanızda otomatik döndürme ve eğrilik düzeltme ile OCR doğruluğunu artırarak görüntülerden metin çıkarın.
 
 ## Sıkça Sorulan Sorular
 

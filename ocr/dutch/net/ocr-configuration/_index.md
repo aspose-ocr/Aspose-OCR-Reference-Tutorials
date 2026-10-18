@@ -88,6 +88,8 @@ Ontgrendel GPU-versnelling voor OCR in C#. Leer hoe je een GPU-apparaat instelt 
 Leer hoe je met Aspose OCR Kannada‑teksten uit afbeeldingen kunt extraheren in C#.
 ### [Maak een spellingscontroleprocessor met Aspose OCR AI – Volledige gids](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Leer hoe je met Aspose OCR AI een spellingscontroleprocessor bouwt om tekst nauwkeurig te analyseren en te corrigeren in .NET‑toepassingen.
+### [Controleer licentievlag in Aspose OCR – Snelle gids om licenties te verifiëren](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Leer hoe je de licentievlag controleert en verifieert dat Aspose OCR correct is gelicentieerd.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

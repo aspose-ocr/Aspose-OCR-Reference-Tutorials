@@ -459,6 +459,14 @@ Naučte se pomocí Aspose.OCR převést obrázek do formátu ePub v C# a integro
 Naučte se, jak pomocí Aspose.OCR v C# získat rozpoznaný text z PNG souboru ve formátu JSON‑L.
 ### [Jak dávkově provádět OCR v C# – Extrahovat text z PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Naučte se, jak dávkově provádět OCR v C# a extrahovat text z více souborů PNG pomocí Aspose.OCR.
+### [Jak provést OCR na PNG obrázcích v C# – krok‑za‑krokem průvodce](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v .NET rozpoznávat text v PNG souborech s podrobným krok‑za‑krokem návodem.
+### [Jak použít OCR v C# – Rychle extrahovat text z PNG obrázků](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Naučte se rychle extrahovat text z PNG souborů pomocí Aspose.OCR v C# s praktickým krok‑za‑krokem návodem.
+### [Jak používat Aspose OCR v C# – Kompletní průvodce](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Kompletní návod, jak v .NET s C# využít Aspose OCR pro přesné rozpoznávání textu a práci s výsledky.
+### [Extrahovat text z obrázku v C# – kompletní krok‑za‑krokem průvodce](./extract-text-from-image-c-complete-step-by-step-guide/)
+Získejte podrobný návod, jak pomocí Aspose.OCR v .NET extrahovat text z obrázků v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

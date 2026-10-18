@@ -456,6 +456,17 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 在 C# 中从 PNG 图像获取 JSON‑L 格式的识别结果，提供分步指南提升图像文本处理能力。
 ### [如何在 C# 中批量 OCR – 从 PNG 提取文本](./how-to-batch-ocr-in-c-extract-text-from-png/)
 使用 Aspose.OCR 在 C# 中批量处理 PNG 图像，提取文本并获取 JSON‑L 结果，提供分步指南提升效率。
+### [如何在 C# 中对 PNG 图像进行 OCR – 分步指南](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中轻松对 PNG 图像进行光学字符识别，遵循我们的分步指南，实现高效准确的文本提取。
+
+### [如何在 C# 中使用 OCR – 快速提取 PNG 图像文本](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+使用 Aspose.OCR 在 C# 中快速提取 PNG 图像的文本，遵循本分步指南，实现高效准确的 OCR 处理。
+
+### [如何在 C# 中使用 Aspose OCR – 完整指南](./how-to-use-aspose-ocr-in-c-complete-guide/)
+使用 Aspose OCR 在 C# 中实现完整的光学字符识别指南，帮助您快速集成并提取文本。
+
+### [从图像提取文本 C# – 完整分步指南](./extract-text-from-image-c-complete-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中完整分步提取图像文本，帮助您快速集成并实现高效准确的 OCR。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

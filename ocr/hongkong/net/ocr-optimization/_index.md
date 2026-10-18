@@ -218,6 +218,12 @@ weight: 25
 完整教學示範如何使用 C# 與 Aspose OCR 提升辨識精度，涵蓋設定、前處理、最佳化與結果儲存。
 ### [在 C# 中使用 GPU 執行圖像 OCR – 完整程式設計指南](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 使用 GPU 加速在 C# 中的圖像 OCR，提升辨識速度與精度的完整程式指南。
+### [在 C# 中使用 Aspose OCR GPU 從圖像辨識文字](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+利用 Aspose OCR GPU 加速 C# 應用的圖像文字辨識，提升效能與精確度。
+### [在 C# 中建立可搜尋 PDF – 完整程式設計指南](./create-searchable-pdf-in-c-full-programming-guide/)
+使用 Aspose.OCR for .NET，從圖像生成可搜尋 PDF，完整步驟教學，提升文件可讀性與搜尋功能。
+### [在 C# 中從圖像提取文字 – 自動旋轉 OCR 與去斜指南](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+使用 Aspose.OCR for .NET 在 C# 中自動旋轉與去斜圖像，提升文字辨識準確度的完整指南。
 
 ## 常見問題
 

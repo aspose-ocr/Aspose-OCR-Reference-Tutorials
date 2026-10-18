@@ -64,8 +64,6 @@ Alcance precisão incomparável no OCR com [Aspose.OCR para .NET](./result-corre
 
 Salve facilmente resultados de OCR multipágina como documentos com Aspose.OCR para .NET. Nosso [guia passo a passo](./save-multipage-result-as-document/) desbloqueia todo o potencial da criação de documentos. Integre Aspose.OCR de forma fluida e transforme seus resultados de OCR em documentos multipágina com facilidade.
 
-Usando a Listagem de Tutoriais Aspose.OCR para .NET, você pode acessar recursos adicionais e manter-se atualizado sobre os últimos avanços em otimização de OCR. Mergulhe no mundo da precisão e eficiência com os tutoriais Aspose.OCR para .NET.
-
 ## Tutoriais de Otimização de OCR
 ### [Executar OCR em Imagem – Aumentar Precisão com Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 Melhore a precisão do OCR em imagens usando técnicas avançadas com Aspose OCR.
@@ -234,6 +232,12 @@ Aprenda passo a passo a extrair texto de imagens usando C# e Aspose.OCR, cobrind
 Aprenda a otimizar o OCR usando Aspose OCR com um guia completo em C#, cobrindo configuração, ajustes e melhores práticas.
 ### [Executar OCR em Imagem com GPU em C# – Guia de Programação Completo](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Aproveite o poder da GPU para acelerar o OCR em imagens usando Aspose.OCR para .NET com C#.
+### [Criar PDF pesquisável em C# – Guia de Programação Completo](./create-searchable-pdf-in-c-full-programming-guide/)
+Aprenda a gerar PDFs pesquisáveis usando Aspose.OCR em C#, passo a passo, com código completo.
+### [Reconhecer texto de imagem com Aspose OCR GPU em C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Aproveite o poder da GPU para acelerar o reconhecimento de texto em imagens usando Aspose.OCR com C#.
+### [Extrair Texto de Imagem em C# – Guia de OCR com Auto‑Rotação e Correção de Inclinação](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Aprenda a usar Aspose.OCR para rotacionar automaticamente imagens e corrigir inclinação ao extrair texto em C#.
 
 ## Perguntas Frequentes
 

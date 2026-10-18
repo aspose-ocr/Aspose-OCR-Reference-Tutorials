@@ -472,6 +472,14 @@ Aprenda a reconocer texto árabe en C# usando Aspose.OCR con esta guía paso a p
 Aprenda a convertir imágenes a formato ePub usando Aspose en C#, con una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
 ### [Cómo hacer OCR por lotes en C# – Extraer texto de PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Aprenda a procesar múltiples imágenes PNG con OCR en C# usando Aspose, extrayendo texto de forma eficiente por lotes.
+### [Cómo realizar OCR en imágenes PNG en C# – Guía paso a paso](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Aprenda a usar Aspose.OCR para .NET y extraer texto de archivos PNG con una guía detallada paso a paso.
+### [Cómo usar OCR en C# – Extraer texto de imágenes PNG rápidamente](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Aprenda a usar Aspose.OCR en C# para extraer texto de imágenes PNG de forma rápida y sencilla.
+### [Cómo usar Aspose OCR en C# – Guía completa](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Aprenda a integrar Aspose OCR en C# con esta guía completa paso a paso.
+### [Cómo extraer texto de una imagen en C# – Guía completa paso a paso](./extract-text-from-image-c-complete-step-by-step-guide/)
+Aprenda a extraer texto de imágenes usando Aspose.OCR en C# con esta guía detallada paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

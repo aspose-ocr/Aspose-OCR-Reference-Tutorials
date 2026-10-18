@@ -451,6 +451,14 @@ Biến hình ảnh thành tài liệu ePub trong C# bằng Aspose. Hướng dẫ
 Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản từ tệp PNG và xuất kết quả dưới dạng JSON‑L. Hướng dẫn chi tiết từng bước.
 ### [Cách thực hiện OCR hàng loạt trong C# – Trích xuất văn bản từ PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Nâng cao ứng dụng .NET của bạn với Aspose.OCR để thực hiện OCR hàng loạt trên PNG và trích xuất văn bản nhanh chóng. Hướng dẫn chi tiết.
+### [Cách thực hiện OCR trên hình ảnh PNG trong C# – Hướng dẫn chi tiết từng bước](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Thực hiện OCR trên ảnh PNG bằng C# với Aspose.OCR qua hướng dẫn chi tiết từng bước, giúp bạn nhanh chóng trích xuất văn bản.
+### [Trích xuất văn bản từ hình ảnh C# – Hướng dẫn chi tiết từng bước](./extract-text-from-image-c-complete-step-by-step-guide/)
+Thực hiện trích xuất văn bản từ hình ảnh bằng C# với Aspose.OCR qua hướng dẫn chi tiết từng bước, giúp bạn nhanh chóng lấy nội dung văn bản.
+### [Cách sử dụng Aspose OCR trong C# – Hướng dẫn toàn diện](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Khám phá cách sử dụng Aspose OCR trong C# với hướng dẫn chi tiết, giúp bạn triển khai OCR nhanh chóng và hiệu quả.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ ảnh PNG nhanh chóng](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Thực hiện OCR trên ảnh PNG bằng C# nhanh chóng với Aspose.OCR qua hướng dẫn chi tiết, giúp bạn nhanh chóng trích xuất văn bản.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

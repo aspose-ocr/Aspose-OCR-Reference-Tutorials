@@ -410,6 +410,10 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน C# และรับผลลัพธ์เป็น JSON‑L อย่างง่ายดาย
 ### [วิธีทำ OCR แบบกลุ่มใน C# – ดึงข้อความจาก PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 เรียนรู้วิธีประมวลผล OCR หลายไฟล์ PNG พร้อมกันใน C# เพื่อดึงข้อความอย่างมีประภาพ
+### [วิธีทำ OCR บนภาพ PNG ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากภาพ PNG อย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+### [วิธีใช้ Aspose OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-aspose-ocr-in-c-complete-guide/)
+### [สกัดข้อความจากภาพ C# – คู่มือขั้นตอนโดยละเอียด](./extract-text-from-image-c-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -448,6 +448,15 @@ C#와 Aspose를 사용하여 이미지를 ePub 형식으로 변환하는 방법�
 C#와 Aspose.OCR을 사용해 PNG 이미지에서 텍스트를 추출하고 결과를 JSON‑L 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [C#에서 배치 OCR 수행 – PNG에서 텍스트 추출](./how-to-batch-ocr-in-c-extract-text-from-png/)
 C#와 Aspose.OCR을 사용해 PNG 이미지를 배치 처리하여 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 PNG 이미지에 OCR 수행하기 – 단계별 가이드](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 PNG 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose OCR 사용 방법 – 완전 가이드](./how-to-use-aspose-ocr-in-c-complete-guide/)
+C#와 Aspose OCR을 활용해 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#에서 이미지 텍스트 추출 – 완전 단계별 가이드](./extract-text-from-image-c-complete-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 추출하는 방법을 완전하게 단계별로 안내합니다.
+### [C#에서 OCR 사용 방법 – PNG 이미지에서 텍스트를 빠르게 추출하기](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+C#와 Aspose.OCR을 활용해 PNG 이미지에서 텍스트를 빠르게 추출하는 단계별 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

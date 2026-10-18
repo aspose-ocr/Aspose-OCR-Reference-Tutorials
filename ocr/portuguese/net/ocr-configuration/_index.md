@@ -73,6 +73,8 @@ Aprenda a configurar o dispositivo GPU no Aspose.OCR usando C# para acelerar o r
 Desbloqueie o reconhecimento de texto em Kannada a partir de imagens usando Aspose OCR em C#.
 ### [Criar Processador de Verificação Ortográfica com Aspose OCR AI – Guia Completo](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Aprenda a criar um processador de verificação ortográfica usando a IA do Aspose OCR, integrando reconhecimento de texto avançado em suas aplicações.
+### [Verificar sinalizador de licença no Aspose OCR – Guia rápido para validar licenciamento](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Aprenda a checar o sinalizador de licença no Aspose OCR para garantir que sua aplicação esteja corretamente licenciada.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

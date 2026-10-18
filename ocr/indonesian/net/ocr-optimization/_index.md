@@ -234,6 +234,12 @@ Panduan lengkap mengekstrak teks dari gambar menggunakan C# dan Aspose.OCR, menc
 Panduan lengkap untuk meningkatkan akurasi OCR menggunakan Aspose OCR dengan contoh kode C# yang komprehensif.
 ### [Jalankan OCR pada Gambar dengan GPU di C# – Panduan Pemrograman Lengkap](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Manfaatkan GPU untuk mempercepat OCR pada gambar menggunakan Aspose.OCR di C#, lengkap dengan contoh kode.
+### [Mengenali teks dari gambar dengan Aspose OCR GPU di C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Gunakan Aspose OCR GPU untuk mempercepat pengenalan teks dari gambar dalam aplikasi C# Anda.
+### [Buat PDF yang dapat dicari di C# – Panduan Pemrograman Lengkap](./create-searchable-pdf-in-c-full-programming-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan Aspose.OCR di C#, lengkap dengan contoh kode dan langkah-langkah implementasi.
+### [Ekstrak Teks dari Gambar di C# – Panduan OCR Auto‑Rotate & Deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Pelajari cara otomatis memutar dan mengoreksi kemiringan gambar sebelum OCR dengan Aspose.OCR di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

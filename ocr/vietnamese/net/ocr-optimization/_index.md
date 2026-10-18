@@ -195,6 +195,11 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR với C# để trích xu�
 Hướng dẫn chi tiết cách nâng cao độ chính xác OCR bằng Aspose OCR trong C#, bao gồm các kỹ thuật tối ưu và ví dụ thực tế.
 ### [Chạy OCR trên hình ảnh với GPU trong C# – Hướng dẫn lập trình đầy đủ](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Khám phá cách chạy OCR trên hình ảnh bằng GPU trong C# với hướng dẫn lập trình đầy đủ, tăng tốc độ và độ chính xác.
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn lập trình đầy đủ](./create-searchable-pdf-in-c-full-programming-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm từ hình ảnh bằng Aspose.OCR trong C#, bao gồm các bước xử lý và lưu kết quả.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR GPU trong C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR tự xoay & chỉnh nghiêng](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Hướng dẫn chi tiết cách tự động xoay và chỉnh nghiêng ảnh trước khi OCR, nâng cao độ chính xác trong C#.
 
 ## Câu hỏi thường gặp
 

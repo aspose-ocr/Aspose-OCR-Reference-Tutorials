@@ -74,6 +74,8 @@ weight: 22
 تعلم كيفية حفظ الجداول المستخرجة كملفات CSV باستخدام Aspose.OCR في C# خطوة بخطوة.
 ### [كيفية استخراج الجداول من الصور باستخدام Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 اكتشف كيفية استخراج الجداول من الصور باستخدام Aspose OCR في C# بسهولة ودقة.
+### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+دليل شامل لإنشاء ملف Excel من صورة باستخدام C# و Aspose.OCR، يغطي استخراج النص وتحويله إلى خلايا جدولية.
 
 ## الأسئلة المتكررة
 

@@ -445,6 +445,14 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG σε μορφή JSON‑L χρησιμοποιώντας το Aspose OCR με C#.
 ### [Πώς να κάνετε ομαδικό OCR σε C# – Εξαγωγή κειμένου από PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Μάθετε πώς να επεξεργάζεστε πολλαπλές εικόνες PNG με Aspose.OCR σε C#, εξάγοντας κείμενο σε παρτίδες εύκολα.
+### [Πώς να εκτελέσετε OCR σε εικόνες PNG σε C# – Οδηγός βήμα προς βήμα](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+Μάθετε πώς να αναγνωρίζετε κείμενο σε εικόνες PNG χρησιμοποιώντας Aspose.OCR σε C# με έναν απλό οδηγό βήμα προς βήμα.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή κειμένου από PNG εικόνες γρήγορα](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες PNG γρήγορα χρησιμοποιώντας Aspose OCR σε C# με έναν σύντομο οδηγό βήμα προς βήμα.
+### [Πώς να χρησιμοποιήσετε το Aspose OCR σε C# – Πλήρης Οδηγός](./how-to-use-aspose-ocr-in-c-complete-guide/)
+Μάθετε πώς να ενσωματώσετε το Aspose OCR σε εφαρμογές C# με έναν ολοκληρωμένο οδηγό βήμα προς βήμα.
+### [Εξαγωγή κειμένου από εικόνα C# – Πλήρης οδηγός βήμα προς βήμα](./extract-text-from-image-c-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C# με έναν ολοκληρωμένο οδηγό βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

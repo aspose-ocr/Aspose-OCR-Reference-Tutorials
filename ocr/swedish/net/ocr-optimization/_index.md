@@ -227,6 +227,11 @@ En fullständig guide för att extrahera text från bilder med C# och Aspose.OCR
 Lär dig avancerade tekniker för att förbättra OCR‑noggrannheten med Aspose OCR i en komplett C#‑guide.
 ### [Kör OCR på bild med GPU i C# – Komplett programmeringsguide](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Utnyttja GPU-acceleration för snabb OCR i C# med Aspose.OCR. Följ vår steg‑för‑steg‑guide för optimal prestanda.
+### [Känn igen text från bild med Aspose OCR GPU i C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Utnyttja GPU-acceleration för snabb OCR i C# med Aspose OCR. Öka prestanda och noggrannhet för bildigenkänning.
+### [Skapa sökbar PDF i C# – Fullständig programmeringsguide](./create-searchable-pdf-in-c-full-programming-guide/)
+### [Extrahera text från bild i C# – Automatisk rotation OCR & deskew‑guide](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Lär dig hur du automatiskt roterar och räta upp bilder för exakt OCR med C# och Aspose.OCR.
 
 ## Vanliga frågor
 

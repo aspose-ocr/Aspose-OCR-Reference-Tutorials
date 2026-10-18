@@ -83,6 +83,8 @@ Lås upp OCR‑magin med Aspose.OCR för .NET och extrahera text från bilder ut
 ### [Hur du aktiverar formulär och extraherar tabeller med OCR i C# – Komplett guide](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
 ### [Hur du extraherar tabeller från bilder med Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Lär dig att identifiera och extrahera tabellstrukturer från bildfiler med Aspose OCR i C#.
+### [Skapa Excel från bild med C# – Fullständig Aspose OCR‑guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Lär dig hur du konverterar en bild till ett Excel‑ark med Aspose.OCR och C#, steg‑för‑steg‑instruktioner.
 
 ## Vanliga frågor
 

@@ -124,6 +124,8 @@ Hướng dẫn chi tiết cách cấu hình thiết bị GPU để tăng tốc �
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng ký tự Kannada từ hình ảnh.
 ### [Tạo Bộ Xử Lý Kiểm Tra Chính Tả với Aspose OCR AI – Hướng Dẫn Đầy Đủ](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Hướng dẫn chi tiết cách xây dựng bộ xử lý kiểm tra chính tả sử dụng công nghệ AI của Aspose OCR trong .NET.
+### [Kiểm tra cờ giấy phép trong Aspose OCR – Hướng dẫn nhanh để xác minh giấy phép](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Hướng dẫn nhanh cách kiểm tra trạng thái giấy phép Aspose OCR trong ứng dụng .NET của bạn.
 
 
 

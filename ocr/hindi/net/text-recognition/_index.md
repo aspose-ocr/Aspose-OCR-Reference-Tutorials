@@ -442,6 +442,14 @@ Aspose का उपयोग करके C# में इमेज को ePub
 Aspose OCR का उपयोग करके PNG छवियों से JSON‑L प्रारूप में टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
 ### [C# में बैच OCR कैसे करें – PNG से टेक्स्ट निकालें](./how-to-batch-ocr-in-c-extract-text-from-png/)
 Aspose.OCR के साथ C# में PNG फ़ाइलों की बैच OCR करके टेक्स्ट निकालने की चरण‑दर‑चरण गाइड।
+### [C# में PNG छवियों पर OCR कैसे करें – चरण‑दर‑चरण मार्गदर्शिका](./how-to-perform-ocr-on-png-images-in-c-step-by-step-guide/)
+C# में PNG फ़ाइलों से टेक्स्ट निकालने के लिए Aspose.OCR का उपयोग करके चरण‑दर‑चरण प्रक्रिया सीखें।
+### [C# में Aspose OCR का उपयोग कैसे करें – पूर्ण मार्गदर्शिका](./how-to-use-aspose-ocr-in-c-complete-guide/)
+C# में Aspose OCR को लागू करने की पूरी चरण‑दर‑चरण गाइड, जिससे आप आसानी से टेक्स्ट निकाल सकें और OCR क्षमताओं को अनलॉक कर सकें।
+### [C# में छवि से टेक्स्ट निकालें – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./extract-text-from-image-c-complete-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
+### [C# में OCR का उपयोग कैसे करें – PNG छवियों से तेज़ी से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
+C# में PNG छवियों से तेज़ी से टेक्स्ट निकालने के लिए Aspose.OCR का उपयोग करने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,8 @@ weight: 24
 ### [在 C# 中识别图像文字 – 使用 Aspose OCR 识别卡纳达语](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 使用 Aspose OCR 在 .NET 中轻松识别卡纳达语图像文字，提升多语言 OCR 能力。  
 ### [使用 Aspose OCR AI 创建拼写检查处理器 – 完整指南](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+### [检查 Aspose OCR 许可证标志 – 验证许可的快速指南](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+快速了解如何检查 Aspose.OCR 的许可证标志，以确认授权状态并避免未授权错误。
 
 
 

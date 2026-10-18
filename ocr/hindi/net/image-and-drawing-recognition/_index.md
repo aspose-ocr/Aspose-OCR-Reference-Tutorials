@@ -72,6 +72,8 @@ Aspose.OCR के साथ फ़ॉर्म सक्षम करें औ�
 Aspose OCR का उपयोग करके इमेज में टेबल को पहचानें और उसे CSV फ़ाइल में निर्यात करें।
 ### [Aspose OCR (C#) का उपयोग करके इमेज से टेबल निकालें](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Aspose.OCR for .NET के साथ इमेज से टेबल निकालें। टेबल एक्सट्रैक्शन को सहजता से अनलॉक करें।
+### [C# के साथ इमेज से Excel बनाएं – पूर्ण Aspose OCR गाइड](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके इमेज से डेटा निकालें और C# में Excel फ़ाइल बनाएं।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

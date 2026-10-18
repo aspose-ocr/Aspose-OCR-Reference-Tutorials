@@ -65,6 +65,8 @@ Fedezd fel, hogyan használhatod az Aspose.OCR-t űrlapok engedélyezésére és
 Ismerd meg, hogyan mentheted el a táblázatot CSV formátumban C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutató.
 ### [Táblázatok kinyerése képekből az Aspose OCR segítségével (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Fedezd fel, hogyan nyerheted ki a táblázatokat képekből C#-ban az Aspose OCR használatával.
+### [Excel létrehozása képből C#-ban – Teljes Aspose OCR útmutató](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Készíts Excel fájlt képekből C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
 
 ## Gyakran Ismételt Kérdések
 

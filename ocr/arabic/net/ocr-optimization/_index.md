@@ -224,6 +224,12 @@ weight: 25
 دليل شامل يوضح كيفية تحسين OCR باستخدام Aspose OCR مع C#، بما في ذلك الفلاتر ومعالجة النتائج.
 ### [تشغيل OCR على صورة باستخدام GPU في C# – دليل برمجة كامل](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 استفد من تسريع GPU لتنفيذ OCR على الصور باستخدام C# مع دليل برمجة شامل خطوة بخطوة.
+### [التعرف على النص من صورة باستخدام Aspose OCR GPU في C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+استفد من وحدة معالجة الرسوميات لتسريع OCR في C# باستخدام Aspose OCR GPU وتحسين الدقة والسرعة.
+### [إنشاء PDF قابل للبحث في C# – دليل برمجة كامل](./create-searchable-pdf-in-c-full-programming-guide/)
+تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose.PDF for .NET في C# خطوة بخطوة.
+### [استخراج النص من صورة في C# – دليل OCR مع التدوير التلقائي وتصحيح الميل](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+دليل شامل لتطبيق OCR مع تدوير تلقائي وتصحيح الميل لتحسين دقة استخراج النص.
 
 ## الأسئلة المتكررة
 

@@ -74,6 +74,8 @@ C# kullanarak OCR ile formları etkinleştirin ve tabloları kolayca çıkarın.
 Aspose.OCR for .NET kullanarak tablo verilerini CSV dosyasına dönüştürmeyi adım adım öğrenin.
 ### [Aspose OCR (C#) ile Görüntülerden Tablo Çıkarma](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Aspose OCR kullanarak görüntülerdeki tablo yapılarını algılayın ve metin olarak çıkarın. C# kod örnekleriyle adım adım rehber.
+### [C# ile Görüntüden Excel Oluşturma – Tam Aspose OCR Rehberi](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aspose.OCR for .NET kullanarak bir görüntüyü Excel dosyasına dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

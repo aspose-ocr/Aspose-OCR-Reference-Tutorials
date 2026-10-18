@@ -73,6 +73,8 @@ Aspose.OCR’da GPU cihazını yapılandırarak OCR performansını artırın ve
 Aspose OCR kullanarak C# içinde Kannada dilindeki metinleri doğru şekilde tanıyın ve çıkarın.
 ### [Aspose OCR AI ile Yazım Denetimi İşlemcisi Oluşturma – Tam Kılavuz](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Aspose OCR AI kullanarak tam özellikli bir yazım denetimi işlemcisi geliştirin ve .NET uygulamalarınızda metin doğruluğunu artırın.
+### [Aspose OCR'de lisans bayrağını kontrol et – Lisans Doğrulama İçin Hızlı Kılavuz](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Aspose OCR lisansının etkin olup olmadığını kontrol etmek için bayrak değerini nasıl okuyacağınızı adım adım gösterir.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

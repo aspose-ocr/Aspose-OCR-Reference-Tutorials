@@ -233,6 +233,15 @@ Fedezze fel, hogyan javíthatja az OCR pontosságát az Aspose OCR segítségév
 ### [OCR futtatása képen GPU-val C#-ban – Teljes programozási útmutató](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
 Ismerje meg, hogyan használhatja a GPU gyorsítást az OCR-hez C#-ban az Aspose.OCR for .NET segítségével a maximális teljesítményért.
 
+### [Szöveg felismerése képről Aspose OCR GPU-val C#-ban](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Fedezze fel, hogyan használhatja az Aspose OCR GPU-t C#-ban a képek gyors szövegfelismeréshez.
+
+### [Kereshető PDF létrehozása C#‑ban – Teljes programozási útmutató](./create-searchable-pdf-in-c-full-programming-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF‑et C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
+
+### [Szöveg kinyerése képről C#‑ban – Automatikus forgatás OCR és kiegyenesítés útmutató](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Fedezze fel, hogyan használhatja az automatikus forgatást és kiegyenesítést az OCR‑ban C#‑ban a szöveg pontos kinyeréséhez.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  
