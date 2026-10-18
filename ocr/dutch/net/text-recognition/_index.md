@@ -416,6 +416,18 @@ Leer hoe u met Aspose.OCR in C# PDF/A-bestanden maakt van gescande afbeeldingen,
 ### [Handgeschreven tekst herkennen in C# met Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Leer hoe u met Aspose OCR in C# handgeschreven tekst uit afbeeldingen kunt herkennen en integreren in uw .NET-applicaties.
 
+### [c# OCR-voorbeeld – Tekst extraheren uit afbeeldingen met Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Leer hoe u met Aspose OCR en C# tekst uit afbeeldingen kunt halen in een eenvoudig voorbeeld.
+### [Tekst extraheren uit formulier met Aspose OCR – Stapsgewijze handleiding](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Leer hoe u met Aspose OCR tekst uit formulieren haalt in een eenvoudige stapsgewijze handleiding.
+### [Maak doorzoekbare PDF van afbeelding – Complete C#-gids](./create-searchable-pdf-from-image-complete-c-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van een afbeelding met C# in deze volledige gids.
+### [Hoe Aspose te gebruiken – Tekst uit PDF extraheren in C# – Complete gids](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Leer hoe u met Aspose OCR tekst uit PDF's haalt in C# met deze volledige stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in C# – Volledige gids](./extract-text-from-image-in-c-full-guide/)
+Leer hoe u met Aspose OCR en C# tekst uit afbeeldingen haalt in een uitgebreide stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in C# – Async OCR-tutorial](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Leer hoe u met Aspose OCR en C# asynchroon tekst uit afbeeldingen haalt in een stapsgewijze handleiding.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

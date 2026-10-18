@@ -419,6 +419,16 @@ Poznaj, jak w C# przy pomocy Aspose.OCR wyodrębnić tekst w języku Urdu z plik
 Użyj Aspose.OCR w C#, aby przetwarzać wiele obrazów jednocześnie i szybko wyodrębniać tekst. Przewodnik krok po kroku.
 ### [Rozpoznaj odręczny tekst w C# przy użyciu Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Poznaj, jak w C# rozpoznać odręczny tekst przy pomocy Aspose OCR w kilku prostych krokach.
+### [Przykład C# OCR – Wyodrębnianie tekstu z obrazów przy użyciu Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Poznaj prosty przykład w C#, który pokazuje, jak używać Aspose OCR do wyodrębniania tekstu z obrazów w aplikacjach .NET.
+### [Wyodrębnianie tekstu z formularza przy użyciu Aspose OCR – przewodnik krok po kroku](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić tekst z formularzy przy użyciu Aspose OCR w prostym przewodniku krok po kroku.
+### [Wyodrębnianie tekstu z obrazu w C# – Kompletny przewodnik](./extract-text-from-image-in-c-full-guide/)
+Poznaj kompletny przewodnik w C#, który pokazuje, jak wyodrębnić tekst z obrazów przy użyciu Aspose OCR.
+### [Jak używać Aspose – wyodrębnić tekst z PDF w C# – kompletny przewodnik](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose w .NET wyodrębnić tekst z plików PDF w C#. Kompletny przewodnik krok po kroku.
+### [Wyodrębnianie tekstu z obrazu w C# – Asynchroniczny samouczek OCR](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Poznaj, jak asynchronicznie wyodrębniać tekst z obrazów w C# przy użyciu Aspose.OCR, zwiększając wydajność aplikacji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

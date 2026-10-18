@@ -55,6 +55,8 @@ OCR の精度向上のため、C# で画像をデスキューする完全な前�
 C# で画像の傾きを補正し、スキャン画像をきれいにする手順をステップバイステップで解説します。
 ### [C# で画像をデスクューする方法 – Aspose OCR を使用した完全ガイド](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 Aspose OCR を活用し、C# で画像の傾きを補正する手順を詳しく解説します。
+### [C# で Aspose OCR を使用して画像をデスキューする方法 – 完全ガイド](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

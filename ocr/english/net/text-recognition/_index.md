@@ -434,6 +434,16 @@ Learn how to generate PDF/A files from scanned images in C# using Aspose.OCR wit
 
 ### [recognize handwritten text in C# using Aspose OCR](./recognize-handwritten-text-in-c-using-aspose-ocr/)
 Learn how to recognize handwritten text in C# using Aspose OCR. Follow our step-by-step guide to integrate handwriting recognition into your .NET applications.
+### [How to Use Aspose – Extract Text from PDF in C# – Complete Guide](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
+Step-by-step guide to extract text from PDF files using Aspose.OCR in C#. Learn the complete process for .NET applications.
+### [c# ocr example – Extract Text from Images with Aspose OCR](./c-ocr-example-extract-text-from-images-with-aspose-ocr/)
+Learn how to extract text from images using Aspose OCR in C#. Follow our step-by-step guide to implement OCR in your .NET applications.
+### [Extract Text from Form with Aspose OCR – Step‑by‑Step Guide](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
+Learn how to extract text from forms using Aspose OCR in .NET with this detailed step‑by‑step guide.
+### [Extract Text from Image in C# – Full Guide](./extract-text-from-image-in-c-full-guide/)
+Comprehensive step-by-step guide to extract text from images using Aspose.OCR in C#. Boost your .NET app's OCR capabilities.
+### [Extract Text from Image in C# – Async OCR Tutorial](./extract-text-from-image-in-c-async-ocr-tutorial/)
+Learn how to perform asynchronous OCR in C# to extract text from images efficiently using Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
