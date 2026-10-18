@@ -130,6 +130,8 @@ Aprenda a reconhecer texto em imagens usando Aspose OCR para Java com um guia co
 Aprenda a extrair texto em Hindi de imagens usando Aspose.OCR para Java com um exemplo prático passo a passo.
 ### [Como Realizar OCR com Aspose OCR em Java – Guia Passo a Passo](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Aprenda passo a passo a usar Aspose OCR em Java para extrair texto de imagens e PDFs com alta precisão.
+### [Criar PDF pesquisável com Aspose.OCR – Guia Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Aprenda a gerar PDFs pesquisáveis usando Aspose.OCR em Java, passo a passo, com dicas de configuração e melhores práticas.
 
 ## Perguntas Frequentes
 

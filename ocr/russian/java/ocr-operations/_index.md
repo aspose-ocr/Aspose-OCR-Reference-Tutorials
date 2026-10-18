@@ -120,6 +120,8 @@ weight: 21
 ### [Извлечение текста на хинди из изображений – пример OCR на Java](./extract-hindi-text-from-images-java-ocr-example/)
 ### [Как выполнить OCR с Aspose OCR в Java – пошаговое руководство](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Подробный пошаговый гайд по использованию Aspose OCR в Java для распознавания текста.
+### [Create Searchable PDF with Aspose.OCR – Java Guide](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Пошаговое руководство по созданию searchable PDF с Aspose.OCR в Java, включая настройку OCR и сохранение PDF с поисковым слоем.
 
 ## Часто задаваемые вопросы
 

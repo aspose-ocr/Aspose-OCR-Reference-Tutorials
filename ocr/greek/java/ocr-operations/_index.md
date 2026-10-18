@@ -125,6 +125,8 @@ weight: 21
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
 ### [Πώς να Εκτελέσετε OCR με το Aspose OCR σε Java – Οδηγός Βήμα‑βήμα](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Ανακαλύψτε έναν πλήρη οδηγό βήμα‑βήμα για την υλοποίηση OCR με το Aspose OCR σε Java, καλύπτοντας όλες τις βασικές ρυθμίσεις.
+### [Δημιουργία Αναζητήσιμου PDF με Aspose.OCR – Οδηγός Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF με το Aspose.OCR για Java, βήμα‑βήμα οδηγίες για ακριβή OCR.
 
 ## Συχνές Ερωτήσεις
 

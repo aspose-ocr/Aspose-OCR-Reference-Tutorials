@@ -119,6 +119,8 @@ Kompletní návod, jak pomocí Aspose OCR v Javě rozpoznat a extrahovat text z 
 Ukázkový tutoriál, jak pomocí Aspose.OCR pro Java extrahovat hindský text z obrázků s vysokou přesností.
 ### [Jak provést OCR s Aspose OCR v Javě – krok za krokem průvodce](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Kompletní návod, jak v Javě použít Aspose OCR k rozpoznání textu, včetně nastavení, kódu a ukládání výsledků.
+### [Vytvoření prohledávatelného PDF s Aspose.OCR – Java průvodce](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Naučte se, jak pomocí Aspose.OCR pro Java převést skenované PDF na prohledávatelný dokument s textovou vrstvou.
 
 ## Často kladené otázky
 

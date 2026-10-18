@@ -118,6 +118,7 @@ weight: 21
 دليل خطوة بخطوة لاستخراج النص الهندي من الصور باستخدام Aspose.OCR للـ Java مع تحسين الدقة للغة الهندية.
 ### [كيفية تنفيذ OCR باستخدام Aspose OCR في Java – دليل خطوة بخطوة](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 دليل شامل يوضح خطوات تنفيذ OCR باستخدام Aspose OCR في Java من البداية حتى النهاية.
+### [إنشاء PDF قابل للبحث باستخدام Aspose.OCR – دليل Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 
 ## الأسئلة المتكررة
 

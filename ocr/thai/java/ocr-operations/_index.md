@@ -129,6 +129,8 @@ weight: 21
 เรียนรู้วิธีสกัดข้อความภาษาฮินดีจากภาพโดยใช้ Aspose.OCR for Java พร้อมตัวอย่างโค้ดเต็ม
 ### [วิธีทำ OCR ด้วย Aspose OCR ใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 เรียนรู้วิธีใช้ Aspose OCR ใน Java อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการสกัดข้อความจากไฟล์ต่าง ๆ  
+### [สร้าง PDF ค้นหาได้ด้วย Aspose.OCR – คู่มือ Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน Java เพื่อแปลง PDF สแกนให้เป็นไฟล์ PDF ค้นหาได้อย่างง่ายดาย  
 
 
 

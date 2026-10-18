@@ -94,6 +94,8 @@ Java uygulamanıza Aspose OCR'ı ekleyerek tam adım adım nasıl etkinleştirec
 Java ve Aspose.OCR kullanarak görsellerden Hint dilinde metin çıkarma adımlarını öğrenin.
 ### [Aspose OCR ile Java’da OCR Nasıl Yapılır – Adım Adım Kılavuz](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Java’da Aspose OCR kullanarak adım adım OCR işlemini nasıl gerçekleştireceğinizi öğrenin.
+### [Aspose.OCR ile Aranabilir PDF Oluşturma – Java Rehberi](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Aspose.OCR for Java kullanarak PDF dosyalarını aranabilir hale getirme adımlarını öğrenin.
 
 ## Sıkça Sorulan Sorular
 
