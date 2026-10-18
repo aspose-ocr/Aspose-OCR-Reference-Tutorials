@@ -1,6 +1,6 @@
 ---
-title: Perform Text Recognition with Aspose.OCR .NET API
-linktitle: Perform Text Recognition with Aspose.OCR .NET API
+title: Perform OCR Text Recognition with Aspose.OCR .NET API
+linktitle: Perform OCR Text Recognition with Aspose.OCR .NET API
 second_title: Aspose.OCR .NET API
 description: Elevate your .NET applications with Aspose.OCR for precise character recognition. Discover tutorials for obtaining choices, results, and JSON formats in OCR image recognition.
 weight: 21
