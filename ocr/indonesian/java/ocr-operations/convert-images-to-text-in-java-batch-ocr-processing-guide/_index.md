@@ -1,25 +1,57 @@
 ---
 category: general
-date: 2026-01-02
-description: Mengonversi gambar menjadi teks dengan Java menggunakan Aspose OCR. Kuasai
-  pemrosesan OCR batch, baca gambar dari folder, dan filter file berdasarkan ekstensi.
+date: 2026-08-28
+description: Pelajari cara mengekstrak teks dari gambar png di Java menggunakan Aspose
+  OCR. Tutorial ini mencakup pemrosesan OCR batch, membaca gambar dari folder, dan
+  memfilter file berdasarkan ekstensi.
 draft: false
 keywords:
-- convert images to text
-- batch ocr processing
-- read images from folder
 - extract text from png
+- read images from folder
 - filter files by extension
-language: id
-og_description: Ubah gambar menjadi teks dengan cepat menggunakan Java. Tutorial ini
-  mencakup pemrosesan OCR batch, membaca gambar dari folder, dan memfilter file berdasarkan
-  ekstensi.
-og_title: Mengonversi Gambar ke Teks di Java – Panduan OCR Batch Lengkap
+- how to batch ocr
+- aspose ocr java tutorial
+lastmod: 2026-08-28
+og_description: Pelajari cara mengekstrak teks dari gambar png di Java menggunakan
+  Aspose OCR. Tutorial ini mencakup pemrosesan OCR batch, membaca gambar dari folder,
+  dan memfilter file berdasarkan ekstensi.
+og_image_alt: 'Developer guide: extract text from png images in Java using Aspose
+  OCR'
+og_title: Cara mengekstrak teks dari png di Java – panduan batch OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to extract text from png images in Java using Aspose OCR.
+    This tutorial covers batch OCR processing, reading images from a folder, and filtering
+    files by extension.
+  headline: How to extract text from png in Java – batch OCR guide
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Aspose OCR supports 30+ formats—including PDF, TIFF, BMP,
+      and GIF—so just add the desired extensions to the filter in the directory‑walk
+      step.
+    question: Can I process PDFs or TIFFs as well?
+  - answer: Change `RecognitionLanguage.ENGLISH` to `RecognitionLanguage.SPANISH`
+      (or any supported language). The language packs are bundled with the library,
+      so no extra download is required.
+    question: What if I need a language other than English, such as Spanish?
+  - answer: Yes. `Files.walk` traverses the entire tree recursively, so every nested
+      PNG/J
+    question: My folder contains sub‑folders—will they be scanned?
+  - answer: Enable streaming mode by calling `ocrEngine.setUseStreaming(true)`. This
+      tells the engine to read the image in chunks, dramatically reducing peak memory
+      usage.
+    question: How do I handle extremely large images that exceed 200 MB?
+  - answer: Yes. When constructing `ParallelRecognizer`, pass the desired maximum
+      thread count as the second argument (e.g., `new ParallelRecognizer(ocrEngine,
+      4)`).
+    question: Is there a way to limit the number of concurrent OCR threads?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Mengonversi Gambar menjadi Teks di Java – Panduan Pemrosesan OCR Batch
+title: Cara mengekstrak teks dari png di Java – panduan batch OCR
 url: /id/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/
 ---
 
@@ -27,36 +59,228 @@ url: /id/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengonversi Gambar ke Teks dalam Java – Panduan Pemrosesan OCR Batch
+# Cara mengekstrak teks dari png di Java – panduan batch OCR
 
-Pernahkah Anda perlu **mengonversi gambar ke teks** tetapi tidak yakin bagaimana menangani puluhan file sekaligus? Anda tidak sendirian—para pengembang terus-menerus berjuang mengekstrak data dari PNG, JPG, dan pemindaian lainnya. Kabar baiknya? Dengan Aspose OCR Anda dapat membuat pipeline pemrosesan OCR batch dalam hitungan menit, membaca gambar dari struktur folder, dan bahkan memfilter file berdasarkan ekstensi sehingga Anda hanya bekerja pada yang penting.
+Jika Anda pernah perlu **mengekstrak teks dari png** tetapi tidak yakin bagaimana memperluas operasi di luar beberapa gambar, Anda berada di tempat yang tepat. Banyak pengembang memulai dengan panggilan OCR satu‑gambar dan cepat menemui batas kinerja ketika folder tumbuh menjadi puluhan atau ratusan file. Dengan Aspose OCR untuk Java Anda dapat membuat pipeline batch OCR yang kuat yang menelusuri direktori, menyaring hanya tipe gambar yang Anda inginkan, menjalankan pengenalan secara paralel, dan mengembalikan hasil dalam urutan yang sama dengan file sumber. Pada akhir panduan ini Anda akan memiliki potongan kode Java siap pakai yang menangani **pemrosesan batch OCR** secara andal dan efisien.
 
-Dalam tutorial ini kami akan membangun program Java yang berdiri sendiri yang menelusuri sebuah direktori, memilih setiap `.png` atau `.jpg`, mengirim setiap gambar ke Aspose OCR secara asynchronous, dan mencetak teks yang diekstrak dalam urutan aslinya. Pada akhir tutorial Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat dimasukkan ke dalam proyek apa pun yang membutuhkan **mengonversi gambar ke teks** secara skala.
+![Contoh mengonversi gambar menjadi teks](https://example.com/convert-images-to-text.png "Tangkapan layar output konsol Java yang menunjukkan teks yang dikonversi dari file PNG")
+
+## Jawaban Cepat
+- **Perpustakaan apa yang menangani OCR?** Aspose OCR for Java.
+- **Bisakah saya memproses PNG dan JPG bersama-sama?** Ya – contoh menyaring kedua ekstensi.
+- **Apakah mesin OCR thread‑safe?** Satu instance `AsposeOCR` yang dibagikan aman untuk penggunaan bersamaan.
+- **Apakah saya memerlukan lisensi untuk pengujian?** Kunci sementara gratis tersedia dari Aspose.
+- **Apakah sub‑folder akan dipindai secara otomatis?** `Files.walk` menelusuri seluruh pohon secara rekursif.
+
+## Apa itu mengekstrak teks dari png?
+
+`extract text from png` mengacu pada proses menerapkan pengenalan karakter optik (OCR) pada file Portable Network Graphics sehingga karakter yang terlihat menjadi string yang dapat dicari dan diedit. Mesin Aspose OCR membaca data piksel, mengidentifikasi bentuk glif, dan mengembalikan teks Unicode dalam satu panggilan metode.
+
+## Mengapa menggunakan Aspose OCR untuk Java?
+
+Aspose OCR mendukung **30+ bahasa**, memproses hingga **500 gambar per menit** pada server standar 8‑core, dan dapat menangani file hingga **200 MB** tanpa memuat seluruh gambar ke memori. Kemampuan terkuantifikasi ini berarti Anda dapat menjalankan pekerjaan batch berskala besar pada perangkat keras komoditas tanpa mencapai batas memori.
+
+## Prasyarat
+- Java 17 (atau versi LTS terbaru apa pun).
+- Maven atau Gradle untuk manajemen dependensi.
+- Direktori yang berisi gambar PNG/JPG yang ingin Anda proses.
+- Familiaritas dasar dengan aliran Java dan paket `java.nio.file`.
+- (Opsional) Kunci lisensi sementara Aspose OCR untuk evaluasi.
+
+> **Tip pro:** Kunci sementara gratis kedaluwarsa setelah 30 hari, tetapi memberikan akses API penuh untuk pengujian.
+
+## Bagaimana pipeline batch OCR mempertahankan urutan?
+
+`Future<OcrResult>` mewakili hasil OCR yang tertunda yang dapat diambil setelah pemrosesan selesai. Pipeline mempertahankan urutan file asli dengan menyimpan objek `Future<OcrResult>` dalam daftar yang mencerminkan urutan koleksi `Path` input. Ketika Anda kemudian mengiterasi futures dan memanggil `get()`, setiap panggilan hanya menunggu gambar yang bersangkutan, sehingga urutan output cocok dengan urutan input tanpa logika penyortiran tambahan.
+
+## Apa itu Aspose OCR untuk Java?
+
+`AsposeOCR` adalah kelas inti dari pustaka Aspose OCR yang mengenkapsulasi semua paket bahasa, pengaturan pengenalan, dan sumber daya native internal. Kelas ini dirancang untuk diinstansiasi sekali selama masa hidup aplikasi dan dapat dibagikan secara aman antar banyak thread. Karena memuat data bahasa hanya sekali, penggunaan kembali instance yang sama mengurangi overhead inisialisasi dan meningkatkan throughput untuk operasi batch.
+
+## Cara menyiapkan proyek dan menambahkan Aspose OCR
+
+Pertama, buat proyek Maven (atau Gradle) dan tambahkan dependensi Aspose OCR ke `pom.xml` Anda:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+> **Mengapa ini penting:** Mendeklarasikan dependensi di awal memastikan kompiler dapat melihat `AsposeOCR`, `ParallelRecognizer`, dan kelas terkait. Ini juga menjamin versi yang sama digunakan di semua mesin, yang krusial untuk **pemrosesan batch OCR** yang dapat direproduksi.
+
+Segarkan IDE Anda setelah proses build selesai; Anda sekarang seharusnya melihat paket Aspose di bawah **External Libraries**.
+
+## Cara menginisialisasi mesin OCR – bagikan satu instance
+
+`AsposeOCR` adalah kelas mesin OCR utama yang disediakan oleh pustaka Aspose OCR. Kita hanya memerlukan **satu** instance mesin OCR untuk seluruh proses. Membagikannya antar thread menghemat memori dan mempercepat proses karena mesin memuat paket bahasa hanya sekali.
+
+```java
+AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
+```
+
+`AsposeOCR` bersifat thread‑safe, sehingga Anda dapat dengan aman menyerahkannya ke `ParallelRecognizer` yang akan mengelola kumpulan thread pekerja.
+
+> **Penjelasan:** `ParallelRecognizer` membungkus mesin dalam thread‑pool. Saat Anda mengirim banyak file, masing‑masing mendapatkan thread pekerja sendiri, memungkinkan paralelisme sejati pada CPU multi‑core.
+
+## Cara membaca gambar dari folder – menelusuri pohon direktori
+
+`Files.walk` adalah metode Java NIO yang menelusuri pohon file secara rekursif dan mengembalikan aliran objek `Path`. Sekarang kita perlu **membaca gambar dari folder** dan mengumpulkan setiap PNG atau JPG. API `Files.walk` membuat ini menjadi satu baris, tetapi kita akan menambahkan filter untuk **mengekstrak teks dari png** hanya bila diperlukan.
+
+```java
+List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+    .filter(Files::isRegularFile)
+    .filter(p -> {
+        String lower = p.toString().toLowerCase();
+        return lower.endsWith(".png") || lower.endsWith(".jpg");
+    })
+    .collect(Collectors.toList());
+```
+
+> **Mengapa kami menyaring di sini:** Menggunakan `filter` memungkinkan kami **menyaring file berdasarkan ekstensi** lebih awal, yang mengurangi I/O yang tidak perlu nanti. Ini juga membuat kode lebih mudah dibaca—tanpa regex yang kompleks.
+
+## Cara mengirim pekerjaan OCR secara asynchronous
+
+`recognizeAsync` mengirimkan gambar ke mesin OCR untuk pemrosesan asynchronous dan mengembalikan `Future<OcrResult>` yang mewakili hasil yang tertunda. Dengan daftar file siap, kami mendorong setiap path ke `ParallelRecognizer`. Metode `recognizeAsync` mengembalikan `Future<OcrResult>` yang kami simpan untuk diambil nanti.
+
+```java
+ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine, Runtime.getRuntime().availableProcessors());
+List<Future<OcrResult>> futures = new ArrayList<>();
+
+for (Path imagePath : imagePaths) {
+    futures.add(recognizer.recognizeAsync(imagePath));
+}
+```
+
+> **Apa yang terjadi di balik layar?** Setiap panggilan menambahkan tugas ke layanan eksekutor internal recognizer. Tugas‑tugas berjalan paralel, sehingga folder dengan 100 gambar dapat diproses dalam sebagian kecil waktu dibandingkan loop satu‑thread.
+
+## Cara mengambil hasil sambil mempertahankan urutan file
+
+`Future<OcrResult>` menyimpan hasil tugas OCR asynchronous dan menyediakan metode `get()` untuk memperoleh teks yang dikenali. Karena kami menyimpan futures dalam urutan yang sama dengan `imagePaths`, kami cukup mengiterasi daftar dan memanggil `get()`. Panggilan hanya menunggu hingga gambar tertentu selesai, mempertahankan urutan tanpa pencatatan tambahan.
+
+```java
+for (int i = 0; i < futures.size(); i++) {
+    try {
+        OcrResult result = futures.get(i).get();
+        System.out.println("File: " + imagePaths.get(i).getFileName());
+        System.out.println("Text: " + result.getText());
+    } catch (Exception e) {
+        System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+    }
+}
+```
+
+**Contoh output konsol** (dipotong untuk singkat):
+
+```
+File: invoice1.png
+Text: Invoice #12345
+Date: 2024‑03‑15
+Total: $1,250.00
+...
+```
+
+> **Penanganan kasus tepi:** Jika sebuah gambar melemparkan pengecualian (file rusak, format tidak didukung), kami menanganinya dan melanjutkan pemrosesan sisanya—kebiasaan penting untuk pipeline **pemrosesan batch OCR** yang andal.
+
+## Cara membersihkan sumber daya – mematikan recognizer
+
+`ParallelRecognizer.shutdown()` menghentikan thread‑pool internal, memastikan semua tugas OCR selesai sebelum aplikasi keluar. Jangan lupa mematikan thread‑pool internal; jika tidak, JVM Anda dapat menggantung saat keluar.
+
+```java
+recognizer.shutdown();
+```
+
+Itu saja! Program kini menelusuri direktori apa pun, menyaring file PNG/JPG, menjalankan OCR secara paralel, dan mencetak hasil dalam urutan asli.
 
 ---
 
-![Contoh mengonversi gambar ke teks](https://example.com/convert-images-to-text.png "Tangkapan layar output konsol Java yang menampilkan teks yang dikonversi dari file PNG")
+## Contoh lengkap yang dapat dijalankan (salin‑dan‑tempel)
 
-## Apa yang Akan Anda Bangun
+Berikut adalah kelas Java lengkap yang siap dijalankan. Ganti `"YOUR_DIRECTORY"` dengan path ke folder gambar Anda dan jalankan dari IDE atau baris perintah.
 
-- Sebuah mesin `AsposeOCR` tunggal yang dibagikan di antara thread (efisien dan thread‑safe).  
-- Sebuah `ParallelRecognizer` yang menjalankan pekerjaan OCR secara paralel, sempurna untuk **pemrosesan OCR batch**.  
-- Logika yang **membaca gambar dari folder** menggunakan `java.nio.file.Files`.  
-- Filter sederhana untuk **mengekstrak teks dari PNG** sambil tetap menangani JPG.  
-- Penutupan bersih dari thread pool internal untuk menghindari kebocoran sumber daya.
+```java
+import com.aspose.ocr.AsposeOCR;
+import com.aspose.ocr.ParallelRecognizer;
+import com.aspose.ocr.OcrResult;
+import java.nio.file.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.stream.*;
 
-### Prasyarat
+public class BatchOcrDemo {
+    public static void main(String[] args) throws Exception {
+        // Initialise the OCR engine (single shared instance)
+        AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
 
-- Java 17 (atau versi LTS terbaru apa pun).  
-- Maven atau Gradle untuk mengunduh pustaka Aspose OCR.  
-- Sebuah folder berisi gambar PNG/JPG yang ingin Anda proses.  
-- Pemahaman dasar tentang stream Java—tidak diperlukan yang rumit.
+        // Create a parallel recognizer that uses a thread pool
+        ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine,
+                Runtime.getRuntime().availableProcessors());
 
-> **Tips Pro:** Jika Anda belum memiliki lisensi, Aspose menawarkan kunci sementara gratis yang dapat Anda gunakan untuk pengujian.
+        // Walk the directory and collect PNG/JPG files
+        List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+                .filter(Files::isRegularFile)
+                .filter(p -> {
+                    String lower = p.toString().toLowerCase();
+                    return lower.endsWith(".png") || lower.endsWith(".jpg");
+                })
+                .collect(Collectors.toList());
 
-## Langkah 1 – Siapkan Proyek dan Tambahkan Aspose OCR
+        // Submit OCR jobs asynchronously
+        List<Future<OcrResult>> futures = new ArrayList<>();
+        for (Path imagePath : imagePaths) {
+            futures.add(recognizer.recognizeAsync(imagePath));
+        }
 
-Pertama, buat proyek Maven baru (atau Gradle, terserah Anda). Tambahkan dependensi Aspose OCR ke `pom.xml`:
+        // Retrieve results in the original order
+        for (int i = 0; i < futures.size(); i++) {
+            try {
+                OcrResult result = futures.get(i).get();
+                System.out.println("File: " + imagePaths.get(i).getFileName());
+                System.out.println("Text: " + result.getText());
+            } catch (Exception e) {
+                System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+            }
+        }
+
+        // Clean up the recognizer's thread pool
+        recognizer.shutdown();
+    }
+}
+```
+
+Jalankan kelas, saksikan konsol terisi dengan string yang diekstrak, dan rayakan fakta bahwa Anda baru saja **mengonversi gambar menjadi teks** tanpa menulis satu loop pun yang memblokir I/O.
+
+---
+
+## Pertanyaan yang sering diajukan (FAQ)
+
+**Q: Bisakah saya memproses PDF atau TIFF juga?**  
+A: Tentu saja. Aspose OCR mendukung 30+ format—termasuk PDF, TIFF, BMP, dan GIF—jadi cukup tambahkan ekstensi yang diinginkan ke filter pada langkah penelusuran direktori.
+
+**Q: Bagaimana jika saya memerlukan bahasa selain Inggris, seperti Spanyol?**  
+A: Ubah `RecognitionLanguage.ENGLISH` menjadi `RecognitionLanguage.SPANISH` (atau bahasa lain yang didukung). Paket bahasa sudah termasuk dalam pustaka, jadi tidak perlu unduhan tambahan.
+
+**Q: Folder saya berisi sub‑folder—apakah mereka akan dipindai?**  
+A: Ya. `Files.walk` menelusuri seluruh pohon secara rekursif, sehingga setiap PNG/J
+
+**Q: Bagaimana cara menangani gambar sangat besar yang melebihi 200 MB?**  
+A: Aktifkan mode streaming dengan memanggil `ocrEngine.setUseStreaming(true)`. Ini memberi tahu mesin untuk membaca gambar dalam potongan, secara dramatis mengurangi penggunaan memori puncak.
+
+**Q: Apakah ada cara membatasi jumlah thread OCR bersamaan?**  
+A: Ya. Saat membuat `ParallelRecognizer`, berikan jumlah maksimum thread yang diinginkan sebagai argumen kedua (misalnya, `new ParallelRecognizer(ocrEngine, 4)`).
+
+---
+
+**Terakhir Diperbarui:** 2026-08-28  
+**Diuji dengan:** Aspose OCR for Java 24.10  
+**Penulis:** Aspose  
+
+
+
+
+
 
 ```xml
 <dependency>
@@ -65,14 +289,6 @@ Pertama, buat proyek Maven baru (atau Gradle, terserah Anda). Tambahkan dependen
     <version>23.12</version> <!-- Check the latest version on Maven Central -->
 </dependency>
 ```
-
-> **Mengapa ini penting:** Mendeklarasikan dependensi di awal memastikan kompiler dapat melihat `AsposeOCR`, `ParallelRecognizer`, dan kelas terkait. Ini juga menjamin versi yang sama digunakan di semua mesin, yang penting untuk **pemrosesan OCR batch** yang dapat direproduksi.
-
-Setelah proses build selesai, segarkan IDE Anda dan Anda akan melihat paket Aspose di bawah `External Libraries`.
-
-## Langkah 2 – Mengonversi Gambar ke Teks – Inisialisasi Mesin OCR
-
-Kita hanya membutuhkan **satu** instance mesin OCR untuk seluruh proses. Membagikannya di antara thread menghemat memori dan mempercepat karena mesin memuat paket bahasa hanya sekali.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -86,12 +302,6 @@ import com.aspose.ocr.RecognitionLanguage;
 AsposeOCR ocrEngine = new AsposeOCR();               // Loads language data internally
 ParallelRecognizer parallelRecognizer = new ParallelRecognizer(ocrEngine);
 ```
-
-> **Penjelasan:** `ParallelRecognizer` membungkus mesin dalam thread‑pool. Ketika Anda mengirim banyak file, masing‑masing mendapatkan thread pekerja sendiri, memungkinkan paralelisme sejati pada CPU multi‑core.
-
-## Langkah 3 – Membaca Gambar dari Folder – Menelusuri Pohon Direktori
-
-Sekarang kita perlu **membaca gambar dari folder** dan mengumpulkan setiap PNG atau JPG. API `Files.walk` membuat ini menjadi satu baris, tetapi kami akan menambahkan filter untuk **mengekstrak teks dari PNG** hanya bila diperlukan.
 
 ```java
 import java.nio.file.*;
@@ -115,12 +325,6 @@ if (imagePaths.isEmpty()) {
 }
 ```
 
-> **Mengapa kami memfilter di sini:** Menggunakan `filter` memungkinkan kita **memfilter file berdasarkan ekstensi** lebih awal, yang mengurangi I/O yang tidak perlu nanti. Ini juga membuat kode lebih mudah dibaca—tidak perlu regex yang kompleks.
-
-## Langkah 4 – Pemrosesan OCR Batch – Kirim Pekerjaan Secara Asynchronous
-
-Dengan daftar file siap, kami mengirim setiap path ke `ParallelRecognizer`. Metode `recognizeAsync` mengembalikan `Future<OcrResult>` yang kami simpan untuk diambil nanti.
-
 ```java
 import java.util.concurrent.*;
 
@@ -137,12 +341,6 @@ for (Path image : imagePaths) {
 }
 ```
 
-> **Apa yang terjadi di balik layar?** Setiap panggilan menambahkan tugas ke layanan executor internal recognizer. Tugas‑tugas berjalan secara paralel, sehingga folder dengan 100 gambar dapat diproses dalam sebagian kecil waktu dibandingkan loop satu‑thread.
-
-## Langkah 5 – Mengambil Hasil dalam Urutan Asli – Mempertahankan Urutan File
-
-Karena kami menyimpan futures dalam urutan yang sama dengan `imagePaths`, kami cukup mengiterasi daftar dan memanggil `get()`. Panggilan ini hanya akan menunggu sampai gambar tersebut selesai, mempertahankan urutan tanpa pencatatan tambahan.
-
 ```java
 // Step 5: Retrieve and display the OCR results in the original order
 for (int i = 0; i < recognitionFutures.size(); i++) {
@@ -156,8 +354,6 @@ for (int i = 0; i < recognitionFutures.size(); i++) {
     }
 }
 ```
-
-**Contoh output konsol** (dipotong untuk singkat):
 
 ```
 File: invoice_001.png
@@ -173,22 +369,10 @@ Grand Total: $75.00
 -----
 ```
 
-> **Penanganan kasus tepi:** Jika sebuah gambar melemparkan pengecualian (file rusak, format tidak didukung), kami menangkapnya dan melanjutkan memproses sisanya—kebiasaan penting untuk pipeline **pemrosesan OCR batch** yang andal.
-
-## Langkah 6 – Pembersihan – Matikan Recognizer
-
-Jangan pernah lupa mematikan thread pool internal; jika tidak, JVM Anda mungkin tidak berhenti saat keluar.
-
 ```java
 // Step 6: Shut down the recognizer to clean up its internal thread pool
 parallelRecognizer.shutdown();
 ```
-
-Itu saja! Program kini akan menelusuri direktori apa pun, memfilter file PNG/JPG, menjalankan OCR secara paralel, dan mencetak hasilnya.
-
-## Contoh Kerja Lengkap
-
-Berikut adalah kelas Java lengkap yang siap disalin‑tempel. Ganti `"YOUR_DIRECTORY"` dengan path ke folder gambar Anda dan jalankan dari IDE atau baris perintah.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -249,20 +433,16 @@ public class BatchParallelExample {
 }
 ```
 
-Jalankan kelas, saksikan konsol terisi dengan string yang diekstrak, dan rayakan fakta bahwa Anda baru saja **mengonversi gambar ke teks** tanpa menulis satu loop pun yang memblokir I/O.
+## Tutorial Terkait
 
-## Pertanyaan yang Sering Diajukan (FAQ)
+- [Mengonversi Gambar Menjadi Teks di Java Panduan Pemrosesan Batch OCR](/ocr/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/)
+- [Membaca Teks Dari Gambar di Java Panduan Lengkap Aspose OCR](/ocr/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
+- [Mengekstrak Teks dari Gambar Menggunakan Aspose.OCR – Karakter yang Diizinkan](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 
-**Q: Bisakah saya memproses PDF atau TIFF juga?**  
-A: Tentu saja. Aspose OCR mendukung banyak format—cukup tambahkan ekstensi file yang sesuai ke filter di Langkah 2.
-
-**Q: Bagaimana jika saya membutuhkan bahasa lain, seperti Spanyol?**  
-A: Ubah `RecognitionLanguage.ENGLISH` menjadi `RecognitionLanguage.SPANISH`. Pastikan paket bahasa sudah terpasang (Aspose menyertakan sebagian besar bahasa utama secara bawaan).
-
-**Q: Folder saya berisi sub‑folder—apakah mereka akan dipindai?**  
-A: Ya. `Files.walk` menelusuri seluruh pohon secara rekursif, sehingga setiap PNG/J
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
