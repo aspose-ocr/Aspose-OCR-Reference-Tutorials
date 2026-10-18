@@ -68,6 +68,12 @@ Uvolněte potenciál rozpoznávání textu s Aspose.OCR pro .NET. Rozpoznávejte
 Uvolněte potenciál Aspose.OCR pro .NET při rozpoznávání řádků v OCR rozpoznávání obrazu. Průvodce vývojáře k bezproblémové extrakci textu z obrázků.
 ### [Provedení OCR na obrázku v OCR rozpoznávání obrazu](./perform-ocr-on-image/)
 Odemkněte OCR magii s Aspose.OCR pro .NET a snadno extrahujte text z obrázků. Prozkoumejte tutoriál pro plynulou integraci.
+### [Jak povolit formuláře a extrahovat tabulky pomocí OCR v C# – Kompletní průvodce](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Naučte se aktivovat rozpoznávání formulářů a získávat tabulky z obrázků pomocí Aspose.OCR v C#.
+### [Uložit tabulku jako CSV v C# – Kompletní průvodce Aspose OCR](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# převést rozpoznanou tabulku na CSV soubor pro snadnou analýzu dat.
+### [Jak extrahovat tabulky z obrázků pomocí Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Naučte se, jak pomocí Aspose OCR v C# detekovat a extrahovat tabulky z obrázků do strukturovaných dat.
 ### [Vytvořit Excel z obrázku pomocí C# – Kompletní průvodce Aspose OCR](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
 Ukažte, jak pomocí Aspose.OCR a C# převést obrázek do Excelu a získat strukturovaná data.
 
