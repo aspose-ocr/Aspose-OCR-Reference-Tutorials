@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2026-04-01
-description: 对图像进行 OCR 预处理以提升 OCR 准确率。了解如何使用 Aspose.OCR 实现自动去倾斜、去噪以及黑白转换。
+date: 2026-01-15
+description: 对图像进行 OCR 预处理，以快速将扫描件转换为文本。了解如何去除扫描噪声并使用 Aspose OCR 滤镜提升 OCR 准确率。
 draft: false
 keywords:
-- preprocess image for OCR
-- improve OCR accuracy
-- black and white OCR
-- Aspose OCR preprocessing
-- image deskew C#
-- OCR noise reduction
+- preprocess image for ocr
+- convert scan to text
+- extract text from scan
+- remove noise from scan
+- improve ocr accuracy
 language: zh
-og_description: 对图像进行 OCR 预处理，以提升 OCR 准确率。本分步指南展示了在 C# 中的自动去倾斜、去噪声和黑白转换。
-og_title: 为 OCR 预处理图像 – 使用 Aspose.OCR 提升准确率
+og_description: 对图像进行预处理，以快速将扫描转换为文本。了解如何使用简洁的 C# 代码去除扫描噪声并提升 OCR 准确率。
+og_title: 为 OCR 预处理图像 – 使用 Aspose OCR 提升准确率
 tags:
-- OCR
+- Aspose OCR
 - C#
-- Image Processing
-title: 为 OCR 预处理图像 – 使用 Aspose.OCR 提升准确率
+- Image Preprocessing
+title: 为 OCR 预处理图像 – 使用 Aspose OCR 提升准确率
 url: /zh/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/
 ---
 
@@ -25,209 +24,152 @@ url: /zh/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 预处理图像用于 OCR – 使用 Aspose.OCR 提升准确率
+# 预处理图像用于 OCR – 完整的 C# 教程
 
-有没有想过，为什么即使源图像看起来不错，OCR 的结果却像一团乱麻？ 这通常是因为缺少了一个关键步骤：**preprocess image for OCR**。  
-在本教程中，我们将逐步演示如何清理倾斜、噪声较大的图片，让引擎像专业人士一样读取。结束时，你会明显感受到 **improve OCR accuracy** 的提升，并熟悉 Aspose.OCR 提供的 **black and white OCR** 技术。
+是否曾经需要**预处理图像用于 OCR**，却不确定哪些滤镜真的能产生效果？你并不孤单——扫描的页面常常倾斜、斑点或噪声过多，这会干扰任何 OCR 引擎。  
 
-## 您将学习的内容
+好消息是，只需几个精心挑选的步骤，就能**将扫描转换为文本**，并且你会明显感受到识别质量的提升。在本指南中，我们将演示如何加载倾斜的 TIFF，去除视觉杂乱，最终提取干净的文本——这样你就可以**去除扫描文件中的噪声**并**提升 OCR 准确率**，无需在海量文档中苦苦寻找答案。
 
-我们将从安装 Aspose.OCR NuGet 包开始，讲解如何配置 `PreprocessOptions` 实现自动去倾斜、去噪和二值化。还会提供处理极端旋转或低对比度扫描等边缘情况的实用技巧，确保在任何情况下都能保持高识别质量。无需外部文档，完整方案就在这里。
+## 本教程涵盖内容
+
+- 在 C# 中设置 Aspose OCR 引擎  
+- 加载真实场景的扫描图像（比如倾斜的发票或褪色的表单）  
+- 应用 Deskew、Denoise 和 Binarization 滤镜来**预处理图像用于 OCR**  
+- 运行 OCR 引擎以**从扫描中提取文本**并将结果输出到控制台  
+- 处理多页 PDF 或低对比度文档等边缘情况的技巧  
+
+完成后，你将拥有一个可直接放入任意 .NET 项目的独立程序，立即**将扫描转换为文本**。
 
 ### 前置条件
 
-- .NET 6.0 或更高（示例在 .NET 6 下编译，旧版本亦可运行）
-- 基本的 C# 与 Visual Studio（或任意 IDE）使用经验
-- 一张倾斜或噪声较大的图像，假设文件名为 `skewed_noisy.jpg`
+- .NET 6.0 或更高版本（代码同样适用于 .NET Core 和 .NET Framework）  
+- Aspose.OCR NuGet 包（`Install-Package Aspose.OCR`）  
+- 一个名为 `skewed_scan.tif` 的示例 TIFF，放置在你可控的文件夹中  
+- 基础的 C# 认识——不需要高级技巧  
 
-如果你已经满足以上条件，让我们开始吧。
+如果你已经具备上述条件，下面开始吧。
 
-## 预处理图像用于 OCR – 为什么预处理很重要
+## 预处理图像用于 OCR – 步骤详解
 
-把 OCR 引擎想象成挑剔的读者：如果页面倾斜、斑点多或灰度过低，它会在文字上卡壳。预处理主要解决以下三大“坏蛋”：
+下面我们将整个过程拆分为五个逻辑步骤。每个章节都有明确的标题、简短的**为什么**说明，以及可直接复制粘贴的完整代码片段。
 
-1. **Rotation** – 自动去倾斜，使页面水平。  
-2. **Noise** – 去噪去除那些看起来像字符的杂散像素。  
-3. **Contrast** – 二值化（黑白转换）为引擎提供清晰的前景/背景分离。
+### 步骤 1：初始化 OCR 引擎
 
-它们共同构成了提升 **improve OCR accuracy** 的工作流核心。
-
-![预处理图像用于 OCR 示例](https://example.com/ocr-preprocess.png "预处理图像用于 OCR 示例")
-
-*(Alt text: “预处理图像用于 OCR 示例，展示二值化前后对比”)*
-
-## 步骤 1：安装 Aspose.OCR
-
-首先，获取库。打开终端（或 Package Manager Console），运行：
-
-```bash
-dotnet add package Aspose.OCR
-```
-
-或者，如果你更喜欢 Visual Studio UI，右键 **Dependencies → Manage NuGet Packages**，搜索 **Aspose.OCR**，点击 **Install**。该包已包含所有必需内容，包括用于预处理的 `Filters` 命名空间。
-
-## 步骤 2：创建 OCR 引擎
-
-库准备好后，我们可以实例化一个 `OcrEngine`。这个对象是所有识别工作的入口。
+引擎是整个操作的核心；没有它就无法进行识别。一次创建后在多张图片间复用也更高效。
 
 ```csharp
 using Aspose.OCR;
+using Aspose.OCR.Models;
 using Aspose.OCR.Filters;
-using System;
 
 class PreprocessDemo
 {
     static void Main()
     {
-        // Step 2: Initialize the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
+        // Create a single OCR engine instance – this is cheap and reusable
+        var ocrEngine = new OcrEngine();
+```
 
-        // The rest of the steps follow...
+*为什么重要：* Aspose OCR 在实例化 `OcrEngine` 时会加载语言包和自适应算法，提前初始化可以避免后续的隐藏延迟。
+
+### 步骤 2：加载并检查扫描文档
+
+需要将引擎指向实际的图像文件。使用 `OcrImage.FromFile` 可以得到一个可以链式调用滤镜的对象。
+
+```csharp
+        // Load the skewed, noisy scan – adjust the path to match your environment
+        var originalImage = OcrImage.FromFile(@"YOUR_DIRECTORY/skewed_scan.tif");
+```
+
+*为什么重要：* 直接把原始扫描送入 OCR 通常会得到一堆垃圾，因为引擎期望的是相对干净的输入。这一步正是**去除扫描中的噪声**的最佳时机。
+
+### 步骤 3：应用 Deskew、Denoise 与 Binarization 滤镜
+
+真正的魔法就在这里。我们链式调用三个滤镜：
+
+1. **DeskewFilter** – 纠正旋转的页面。  
+2. **DenoiseFilter** – 平滑斑点和颗粒。  
+3. **BinarizationFilter** – 强制使用黑白调色板，这是大多数 OCR 引擎的最爱。
+
+```csharp
+        // Chain the preprocessing filters
+        var preprocessedImage = originalImage
+            .Apply(new DeskewFilter())          // corrects rotation
+            .Apply(new DenoiseFilter())         // reduces visual noise
+            .Apply(new BinarizationFilter());   // converts to B/W
+```
+
+*为什么重要：* 倾斜的文字会被误判为独立字符，随机的点可能被当作标点。通过这三步**预处理图像用于 OCR**，可以显著**提升 OCR 准确率**。
+
+> **专业提示：** 如果你的扫描已经基本是正的，可以跳过 `DeskewFilter`，省去几毫秒的处理时间。
+
+### 步骤 4：识别文本并将扫描转换为文本
+
+现在我们把处理好的图像交给 OCR 引擎。这里以英语为例，任何受支持的语言都可以同样使用。
+
+```csharp
+        // Perform OCR on the processed image using English language
+        var ocrResult = ocrEngine.Recognize(preprocessedImage, Language.English);
+```
+
+*为什么重要：* 引擎此时处理的是高对比、无噪声的位图，置信度分数会大幅提升。这正是**从扫描中提取文本**的关键时刻。
+
+### 步骤 5：输出识别结果并验证
+
+简单的 `Console.WriteLine` 可以显示原始字符串。在实际应用中，你可能会写入文件、数据库，或传递给下游的 NLP 流程。
+
+```csharp
+        // Output the recognized text to the console
+        System.Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-为什么要先创建引擎？因为引擎保存全局设置（语言、区域等），并且关键的 `PreprocessOptions` 也在这里配置。
-
-## 步骤 3：配置预处理选项
-
-魔法就在这里。我们将启用三个标志：
-
-- `AutoDeskew` – 自动检测并纠正旋转。  
-- `DenoiseLevel = DenoiseLevel.Medium` – 在清除噪声和保留细节之间取得平衡。  
-- `Binarize` – 强制输出黑白图像，即经典的 **black and white OCR** 方法。
-
-```csharp
-// Step 3: Set up preprocessing to clean the image
-PreprocessOptions preprocessOptions = new PreprocessOptions
-{
-    AutoDeskew = true,                     // Correct rotation automatically
-    DenoiseLevel = DenoiseLevel.Medium,   // Reduce noise while preserving details
-    Binarize = true                        // Convert to black‑and‑white for better recognition
-};
-
-// Attach options to the engine
-ocrEngine.PreprocessOptions = preprocessOptions;
-```
-
-**为什么使用这些设置？** 自动去倾斜可以处理大多数常见倾斜（最高约 15°）。中等去噪适用于普通扫描文档；如果扫描件噪点非常多，可提升为 `High`，但要注意可能会丢失细小字符。二值化是 **black and white OCR** 的基石——它去除细微的灰度梯度，防止识别器产生混淆。
-
-## 步骤 4：在噪声图像上运行识别
-
-引擎准备好后，传入问题图像的路径。`Recognize` 方法返回一个 `OcrResult` 对象，包含提取的文本和置信度分数。
-
-```csharp
-// Step 4: Recognize text from a skewed and noisy image
-// Replace the path with your actual image location
-var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-// Output the raw text
-Console.WriteLine("=== OCR Output ===");
-Console.WriteLine(ocrResult.Text);
-```
-
-如果一切顺利，你应该在控制台看到整洁的文本块。若需要数值化的 **improve OCR accuracy** 指标，`ocrResult.Confidence` 也可直接获取。
-
-## 步骤 5：验证结果并微调以获得更高准确率
-
-看到输出固然好，但仍可能出现少量误读，尤其是特殊字体时。以下是几项快速检查：
-
-1. **检查置信度** – 低于 0.7 的值通常表明存在问题区域。可以记录下来，并决定是否使用更高的 `DenoiseLevel` 重新处理。  
-2. **调整二值化阈值** – Aspose 允许通过 `PreprocessOptions.BinarizationThreshold` 自定义阈值。数值越低保留的灰度越多，数值越高则二值化越严格。  
-3. **裁剪或缩放** – 若图像过大，先将分辨率降至约 150 DPI 再交给引擎，这不仅加快处理速度，还可能提升准确率。
-
-```csharp
-// Example: Increase denoise for a very dirty scan
-ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-
-// Re‑run recognition
-var refinedResult = ocrEngine.Recognize("YOUR_DIRECTORY/very_dirty.jpg");
-Console.WriteLine(refinedResult.Text);
-```
-
-## 额外提示：使用黑白 OCR 获得更佳效果
-
-有时开发者会说“只用灰度就行”，但 **black and white OCR** 往往表现更佳，尤其是光照不均的原稿。通过强制二值化，你可以去除引擎可能误认的细微阴影。
-
-如果想进一步实验，也可以自行生成二值图像并传给引擎：
-
-```csharp
-// Generate a binary bitmap manually (optional)
-Bitmap binaryBitmap = ocrEngine.PreprocessOptions.ApplyFilters(
-    Image.FromFile("YOUR_DIRECTORY/skewed_noisy.jpg")
-);
-
-// Pass the bitmap directly
-var bitmapResult = ocrEngine.Recognize(binaryBitmap);
-Console.WriteLine(bitmapResult.Text);
-```
-
-这样你就可以完全掌控预处理管道，便于集成自定义滤镜或第三方图像库。
-
-## 完整工作示例
-
-将所有步骤组合起来，下面是一个可直接运行的控制台应用示例，复制粘贴到新的 C# 项目即可：
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Filters;
-using System;
-
-class PreprocessDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Initialize OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure preprocessing (auto‑deskew, denoise, binarize)
-        PreprocessOptions preprocessOptions = new PreprocessOptions
-        {
-            AutoDeskew = true,
-            DenoiseLevel = DenoiseLevel.Medium,
-            Binarize = true
-        };
-        ocrEngine.PreprocessOptions = preprocessOptions;
-
-        // 3️⃣ Recognize the image (replace with your file path)
-        var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-        // 4️⃣ Show the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(ocrResult.Text);
-
-        // 5️⃣ Optional: tweak settings if confidence is low
-        if (ocrResult.Confidence < 0.7)
-        {
-            Console.WriteLine("\nLow confidence detected – increasing denoise level.");
-            ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-            var retryResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-            Console.WriteLine("=== Refined Output ===");
-            Console.WriteLine(retryResult.Text);
-        }
-    }
-}
-```
-
-**预期的控制台输出**
+**预期输出**（简单发票示例）：
 
 ```
-=== OCR Output ===
-The quick brown fox jumps over the lazy dog.
-
-=== Refined Output ===
-The quick brown fox jumps over the lazy dog.
+Invoice #12345
+Date: 01/12/2024
+Total Amount: $1,234.56
+Thank you for your business!
 ```
 
-*实际文本当然会有所不同，但你应能看到同样整洁的格式化效果。*
+如果文本出现乱码，请检查原始扫描的分辨率（300 dpi 是一个不错的基准），并考虑调低或调高 `DenoiseFilter` 的强度。
+
+---
+
+![preprocess image for OCR example](https://example.com/images/preprocess-ocr.png "preprocess image for OCR example")
+
+*上图展示了在应用三种滤镜前后扫描页面的对比效果。*
+
+## 进一步去除扫描文件噪声的技巧
+
+- **扫描前提升 DPI** – 300 dpi 或更高可以为滤镜提供更多数据。  
+- **裁剪边缘** – 多余的白边会干扰二值化步骤。  
+- **使用 `ContrastFilter`** 若文档褪色，可在 `BinarizationFilter` 前插入。  
+- **批量处理** – 将上述代码包装在 `foreach` 循环中，可自动处理数十个文件。
+
+## 常见问题与边缘情况
+
+**如果文档有多页怎么办？**  
+将加载步骤放入循环，分别读取每页为独立的 `OcrImage`。Aspose OCR 也可以直接接受 PDF 流。
+
+**能识别除英语之外的语言吗？**  
+可以——只需将 `Language.English` 替换为 `Language.French`、`Language.Spanish` 等，前提是已安装对应语言包。
+
+**如何获取置信度分数？**  
+`ocrResult` 包含每个字符的 `Confidence` 属性。你可以遍历 `ocrResult.Regions`，记录低置信度的区域以便人工复核。
+
+**如果扫描是彩色的怎么办？**  
+这些滤镜同样适用于彩色图像，内部会在二值化前转换为灰度。不过，手动先使用 `new GrayscaleFilter()` 转为灰度有时可以提升速度。
 
 ## 结论
 
-我们已经演示了如何使用 Aspose.OCR **preprocess image for OCR**，并解释了自动去倾斜、去噪和黑白转换在 **improve OCR accuracy** 中的关键作用。按照上述代码，你即可在噪声、倾斜的扫描件上获得可靠的识别结果，而无需翻阅大量文档。
+现在你拥有了一个完整、可直接运行的示例，能够**预处理图像用于 OCR**、**去除扫描中的噪声**，并使用 Aspose OCR **将扫描转换为文本**。通过串联 Deskew、Denoise 与 Binarization 滤镜，你将始终**提升 OCR 准确率**，让后续的数据抽取更加可靠。
 
-接下来可以尝试结合语言特定设置（例如 `ocrEngine.Language = Language.English`），或将清理后的位图输入下游的 NLP 模型。你也可以调节 `BinarizationThreshold`，为低对比度的收据或手写笔记微调 **black and white OCR** 效果。
+准备好下一步了吗？尝试将输出写入 CSV、推送到搜索索引，或尝试其他 Aspose 滤镜如 `ContrastFilter`、`SharpenFilter`。当你将稳健的预处理与强大的 OCR 引擎结合时，可能性无穷。
 
-如果遇到任何问题，欢迎留言讨论，或分享你自己的提升 OCR 准确率的技巧。祝编码愉快，文字永远清晰可读！
+祝编码愉快，愿你的扫描始终清晰！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,28 @@
 ---
 category: general
-date: 2026-04-01
-description: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف (OCR) لتحسين دقة التعرف.
-  تعلّم كيفية تطبيق تصحيح الميل التلقائي، إزالة الضوضاء، وتحويل الصورة إلى أبيض وأسود
-  باستخدام Aspose.OCR.
+date: 2026-01-15
+description: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف (OCR) لتحويل المسح الضوئي
+  إلى نص بسرعة. تعلم كيفية إزالة الضوضاء من المسح الضوئي وتحسين دقة OCR باستخدام فلاتر
+  Aspose OCR.
 draft: false
 keywords:
-- preprocess image for OCR
-- improve OCR accuracy
-- black and white OCR
-- Aspose OCR preprocessing
-- image deskew C#
-- OCR noise reduction
+- preprocess image for ocr
+- convert scan to text
+- extract text from scan
+- remove noise from scan
+- improve ocr accuracy
 language: ar
-og_description: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف (OCR) لتحسين دقة OCR.
-  يوضح هذا الدليل خطوة بخطوة تصحيح الميل تلقائيًا، إزالة الضوضاء، وتحويل الصورة إلى
-  أبيض وأسود باستخدام C#.
-og_title: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تعزيز الدقة باستخدام Aspose.OCR
+og_description: قم بتهيئة الصورة مسبقًا للتعرف الضوئي على الأحرف (OCR) لتحويل المسح
+  الضوئي إلى نص بسرعة. اكتشف كيفية إزالة الضوضاء من المسح الضوئي وتحسين دقة OCR باستخدام
+  كود C# بسيط.
+og_title: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – زيادة الدقة باستخدام Aspose
+  OCR
 tags:
-- OCR
+- Aspose OCR
 - C#
-- Image Processing
-title: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تحسين الدقة باستخدام Aspose.OCR
+- Image Preprocessing
+title: معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تعزيز الدقة باستخدام Aspose
+  OCR
 url: /ar/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/
 ---
 
@@ -29,209 +30,152 @@ url: /ar/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – تحسين الدقة باستخدام Aspose.OCR
+# معالجة الصورة قبل OCR – دليل كامل بلغة C#
 
-هل تساءلت يومًا لماذا تبدو نتائج التعرف الضوئي على الحروف (OCR) فوضوية رغم أن صورة المصدر تبدو جيدة؟ أنت على الأرجح تفتقد خطوة حاسمة: **preprocess image for OCR**.  
-في هذا الدرس سنستعرض بالضبط كيفية تنظيف صورة مائلة ومشوَّشة حتى يتمكن المحرك من قراءتها باحتراف. في النهاية ستلاحظ قفزة ملحوظة في **improve OCR accuracy** وستعتاد على تقنية **black and white OCR** التي تجعلها Aspose.OCR أمرًا بسيطًا.
+هل احتجت يوماً إلى **معالجة الصورة قبل OCR** لكن لم تكن متأكداً أي الفلاتر تُحدث فرقاً فعلياً؟ لست وحدك—الصفحات الممسوحة ضوئياً غالباً ما تكون مائلة، مليئة بالبقع، أو صاخبة، وهذا يعطل أي محرك OCR.  
 
-## ما ستتعلمه
+الخبر السار هو أن بضع خطوات مختارة بعناية يمكنها **تحويل المسح إلى نص** بشكل موثوق، وستلاحظ قفزة ملحوظة في جودة التعرف. في هذا الدليل سنستعرض تحميل ملف TIFF مائل، إزالة الفوضى البصرية، وأخيراً استخراج نص نظيف—حتى تتمكن من **إزالة الضوضاء من ملفات المسح** و**تحسين دقة OCR** دون الحاجة لتقليب وثائق لا نهائية.
 
-سنغطي كل شيء بدءًا من تثبيت حزمة Aspose.OCR NuGet إلى تكوين `PreprocessOptions` التي تقوم تلقائيًا بإزالة الميل، وإزالة الضوضاء، وتحويل صورتك إلى ثنائية. ستحصل أيضًا على نصائح عملية للتعامل مع الحالات الخاصة—مثل الدوران الشديد أو المسحات منخفضة التباين—حتى تتمكن من الحفاظ على جودة التعرف عالية مهما كان. لا حاجة إلى وثائق خارجية؛ الحل الكامل موجود هنا.
+## ما يغطيه هذا الدرس
+
+- إعداد محرك Aspose OCR في C#  
+- تحميل صورة ممسوحة ضوئياً من الواقع (مثل فاتورة مائلة أو نموذج باهت)  
+- تطبيق فلاتر Deskew و Denoise و Binarization لـ **معالجة الصورة قبل OCR**  
+- تشغيل محرك OCR لـ **استخراج النص من المسح** وعرضه في وحدة التحكم  
+- نصائح للتعامل مع الحالات الخاصة مثل ملفات PDF متعددة الصفحات أو المستندات ذات التباين المنخفض  
+
+بنهاية الدرس ستحصل على برنامج مستقل يمكنك إدراجه في أي مشروع .NET والبدء في **تحويل المسح إلى نص** فوراً.
 
 ### المتطلبات المسبقة
 
-- .NET 6.0 أو أحدث (العينة تُجمع باستخدام .NET 6، لكن الإصدارات الأقدم تعمل أيضًا)
-- إلمام أساسي بـ C# و Visual Studio (أو أي بيئة تطوير تفضلها)
-- ملف صورة مائل أو مشوَّش (سنسميه `skewed_noisy.jpg`)
+- .NET 6.0 أو أحدث (الكود يعمل على .NET Core و .NET Framework أيضاً)  
+- حزمة NuGet الخاصة بـ Aspose.OCR (`Install-Package Aspose.OCR`)  
+- ملف TIFF تجريبي اسمه `skewed_scan.tif` موجود في مجلد يمكنك التحكم فيه  
+- إلمام أساسي بـ C#—لا تحتاج إلى حيل متقدمة  
 
 إذا كان لديك كل ذلك، فلنبدأ.
 
-## معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – لماذا المعالجة المسبقة مهمة
+## معالجة الصورة قبل OCR – خطوة بخطوة
 
-تخيل محرك OCR كقارئ صعب الإرضاء: إذا كانت الصفحة مائلة، أو مليئة بالبقع، أو رمادية جدًا، سيتعثر في الكلمات. المعالجة المسبقة تتعامل مع ثلاثة أعداء شائعين:
+نقسم العملية إلى خمس خطوات منطقية. كل قسم يحتوي على عنوان واضح، شرح مختصر **لماذا** هذه الخطوة مهمة، ومقتطف كود كامل يمكنك نسخه ولصقه.
 
-1. **Rotation** – يقوم Auto‑deskew بتصحيح الميل لتصبح الخطوط أفقية.  
-2. **Noise** – يزيل Denoising البكسلات العشوائية التي قد تبدو كحروف عشوائية.  
-3. **Contrast** – التحويل إلى ثنائي (تحويل إلى أبيض وأسود) يمنح المحرك فصلًا واضحًا بين المقدمة والخلفية.
+### الخطوة 1: تهيئة محرك OCR
 
-معًا يشكلون العمود الفقري لأي سير عمل يرغب في **improve OCR accuracy**.
-
-![preprocess image for OCR example](https://example.com/ocr-preprocess.png "preprocess image for OCR example")
-
-*(نص بديل: “preprocess image for OCR example showing before and after binarization”)*
-
-## الخطوة 1: تثبيت Aspose.OCR
-
-أولًا وقبل كل شيء—احصل على المكتبة. افتح الطرفية (أو Package Manager Console) وشغّل:
-
-```bash
-dotnet add package Aspose.OCR
-```
-
-أو، إذا كنت تفضّل واجهة Visual Studio، انقر بزر الماوس الأيمن على **Dependencies → Manage NuGet Packages**, ابحث عن **Aspose.OCR**, ثم اضغط **Install**. الحزمة تضم كل ما تحتاجه، بما في ذلك مساحة الاسم `Filters` المستخدمة في المعالجة المسبقة.
-
-## الخطوة 2: إنشاء محرك OCR
-
-الآن بعد أن أصبحت المكتبة موجودة، يمكننا إنشاء نسخة من `OcrEngine`. هذا الكائن هو نقطة الدخول لجميع عمليات التعرف.
+المحرك هو قلب العملية؛ بدونّه لا يتم التعرف على شيء. إن إنشاؤه مرة واحدة وإعادة استخدامه عبر صور متعددة يكون أكثر كفاءة.
 
 ```csharp
 using Aspose.OCR;
+using Aspose.OCR.Models;
 using Aspose.OCR.Filters;
-using System;
 
 class PreprocessDemo
 {
     static void Main()
     {
-        // Step 2: Initialize the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
+        // Create a single OCR engine instance – this is cheap and reusable
+        var ocrEngine = new OcrEngine();
+```
 
-        // The rest of the steps follow...
+*لماذا هذا مهم:* Aspose OCR يأتي مع حزم لغات وخوارزميات تكيفية تُحمَّل عند إنشاء `OcrEngine`. تهيئته مبكراً يجنبك تأخيرًا غير متوقع لاحقاً.
+
+### الخطوة 2: تحميل وفحص المستند الممسوح
+
+تحتاج إلى توجيه المحرك إلى ملف الصورة الفعلي. استخدام `OcrImage.FromFile` يمنحك كائنًا يمكن ربطه بالفلاتر.
+
+```csharp
+        // Load the skewed, noisy scan – adjust the path to match your environment
+        var originalImage = OcrImage.FromFile(@"YOUR_DIRECTORY/skewed_scan.tif");
+```
+
+*لماذا هذا مهم:* إدخال مسح خام مباشرة إلى OCR عادةً ما ينتج عنه نفايات لأن المحرك يتوقع مدخلًا نظيفًا إلى حد ما. هذه هي النقطة المثالية لـ **إزالة الضوضاء من المسح** قبل التعرف.
+
+### الخطوة 3: تطبيق فلاتر Deskew و Denoise و Binarization
+
+هنا يحدث السحر الحقيقي. نربط ثلاث فلاتر:
+
+1. **DeskewFilter** – يُصحّح الصفحات المائلة.  
+2. **DenoiseFilter** – يُزيل البقع والحبوب.  
+3. **BinarizationFilter** – يحول الصورة إلى لوحة أبيض‑أسود، وهو ما تفضله معظم محركات OCR.
+
+```csharp
+        // Chain the preprocessing filters
+        var preprocessedImage = originalImage
+            .Apply(new DeskewFilter())          // corrects rotation
+            .Apply(new DenoiseFilter())         // reduces visual noise
+            .Apply(new BinarizationFilter());   // converts to B/W
+```
+
+*لماذا هذا مهم:* سطر نص مائل يُفسَّر كحروف منفصلة، والنقاط العشوائية قد تُخطئ كعلامات ترقيم. عبر **معالجة الصورة قبل OCR** بهذه الخطوات الثلاث ستحقق **تحسين دقة OCR** بشكل كبير.
+
+> **نصيحة احترافية:** إذا كانت مسحاتك مستقيمة إلى حد كبير، يمكنك تخطي `DeskewFilter` لتوفير بضع مليثانية.
+
+### الخطوة 4: التعرف على النص وتحويل المسح إلى نص
+
+الآن نُسلم الصورة المُنقّاة إلى محرك OCR. سنطلب اللغة الإنجليزية، لكن أي لغة مدعومة تعمل بنفس الطريقة.
+
+```csharp
+        // Perform OCR on the processed image using English language
+        var ocrResult = ocrEngine.Recognize(preprocessedImage, Language.English);
+```
+
+*لماذا هذا مهم:* الآن يعمل المحرك على صورة ذات تباين عالي وخالية من الضوضاء، لذا تكون درجات الثقة أعلى بكثير. هذه هي اللحظة التي تقوم فيها فعلياً بـ **استخراج النص من المسح**.
+
+### الخطوة 5: إخراج النص المُعترف به والتحقق من النتائج
+
+استخدام `Console.WriteLine` سريعًا يعرض السلسلة الخام. في تطبيق حقيقي قد تكتبها إلى ملف، قاعدة بيانات، أو تمرّرها إلى خط أنابيب NLP لاحق.
+
+```csharp
+        // Output the recognized text to the console
+        System.Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-لماذا ننشئ المحرك أولًا؟ المحرك يحتفظ بالإعدادات العامة (اللغة، المنطقة، إلخ) وبشكل أساسي `PreprocessOptions` التي سنقوم بتكوينها لاحقًا.
-
-## الخطوة 3: تكوين خيارات المعالجة المسبقة
-
-هنا يحدث السحر. سنفعل ثلاثة إعدادات:
-
-- `AutoDeskew` – يكتشف ويصحح الميل تلقائيًا.
-- `DenoiseLevel = DenoiseLevel.Medium` – يوازن بين إزالة الضوضاء والحفاظ على التفاصيل الدقيقة.
-- `Binarize` – يفرض إخراجًا أبيض وأسود، وهو النهج الكلاسيكي لـ **black and white OCR**.
-
-```csharp
-// Step 3: Set up preprocessing to clean the image
-PreprocessOptions preprocessOptions = new PreprocessOptions
-{
-    AutoDeskew = true,                     // Correct rotation automatically
-    DenoiseLevel = DenoiseLevel.Medium,   // Reduce noise while preserving details
-    Binarize = true                        // Convert to black‑and‑white for better recognition
-};
-
-// Attach options to the engine
-ocrEngine.PreprocessOptions = preprocessOptions;
-```
-
-**لماذا هذه الإعدادات؟** Auto‑deskew يتعامل مع معظم الانحناءات الشائعة (حتى ~15°). مستوى الضوضاء المتوسط يناسب المستندات الممسوحة النموذجية؛ يمكنك رفعه إلى `High` للمسحات المشبعة جدًا، لكن احذر من فقدان الأحرف الصغيرة. التحويل إلى ثنائي هو أساس **black and white OCR**—يزيل التدرجات الرمادية الدقيقة التي تربك المحرك.
-
-## الخطوة 4: تشغيل التعرف على صورة مشوشة
-
-مع تحضير المحرك، قدم له مسار الصورة المشكلة. طريقة `Recognize` تُعيد كائن `OcrResult` يحتوي على النص المستخرج ودرجات الثقة.
-
-```csharp
-// Step 4: Recognize text from a skewed and noisy image
-// Replace the path with your actual image location
-var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-// Output the raw text
-Console.WriteLine("=== OCR Output ===");
-Console.WriteLine(ocrResult.Text);
-```
-
-إذا سارت الأمور بسلاسة، سترى كتلة نص نظيفة في وحدة التحكم. كما يتيح المحرك الوصول إلى `ocrResult.Confidence` إذا احتجت مقياسًا رقميًا لـ **improve OCR accuracy**.
-
-## الخطوة 5: التحقق من النتيجة وضبطها للحصول على دقة أفضل
-
-رؤية المخرجات أمر رائع، لكن قد تلاحظ بعض الأخطاء—خاصةً مع الخطوط غير المعتادة. إليك بعض الفحوصات السريعة:
-
-1. **Inspect Confidence** – القيم التي تقل عن 0.7 غالبًا ما تشير إلى منطقة مشكلة. يمكنك تسجيلها وتقرير ما إذا كنت ستعيد المعالجة بمستوى `DenoiseLevel` أعلى.
-2. **Adjust Binarization Threshold** – يتيح لك Aspose تمرير عتبة مخصصة عبر `PreprocessOptions.BinarizationThreshold`. الأرقام الأقل تحتفظ بالمزيد من الرمادي، والأرقام الأعلى تفرض أبيض وأسود أكثر صرامة.
-3. **Crop or Resize** – إذا كانت الصورة ضخمة، قلل حجمها إلى ~150 DPI قبل تمريرها إلى المحرك؛ هذا يسرّع المعالجة ويمكن أن يزيد الدقة فعليًا.
-
-```csharp
-// Example: Increase denoise for a very dirty scan
-ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-
-// Re‑run recognition
-var refinedResult = ocrEngine.Recognize("YOUR_DIRECTORY/very_dirty.jpg");
-Console.WriteLine(refinedResult.Text);
-```
-
-## إضافي: استخدام Black and White OCR للحصول على نتائج أفضل
-
-أحيانًا قد تسمع المطورين يقولون “اكتفِ بالتحويل إلى تدرج الرمادي”—لكن نهج **black and white OCR** غالبًا ما يتفوق عليه، خاصةً عندما يكون للمواد المصدر إضاءة غير متساوية. بفرض صورة ثنائية، تزيل الظلال الدقيقة التي قد يخطئ المحرك في اعتبارها أحرفًا.
-
-إذا رغبت في تجربة المزيد، يمكنك إنشاء الصورة الثنائية بنفسك وتمريرها إلى المحرك:
-
-```csharp
-// Generate a binary bitmap manually (optional)
-Bitmap binaryBitmap = ocrEngine.PreprocessOptions.ApplyFilters(
-    Image.FromFile("YOUR_DIRECTORY/skewed_noisy.jpg")
-);
-
-// Pass the bitmap directly
-var bitmapResult = ocrEngine.Recognize(binaryBitmap);
-Console.WriteLine(bitmapResult.Text);
-```
-
-هذا يمنحك سيطرة كاملة على خط أنابيب المعالجة المسبقة، وهو مفيد عندما تحتاج إلى دمج فلاتر مخصصة أو مكتبات صور من طرف ثالث.
-
-## مثال كامل يعمل
-
-بجمع كل ذلك، إليك تطبيق وحدة تحكم جاهز للتشغيل يمكنك نسخه ولصقه في مشروع C# جديد:
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Filters;
-using System;
-
-class PreprocessDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Initialize OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure preprocessing (auto‑deskew, denoise, binarize)
-        PreprocessOptions preprocessOptions = new PreprocessOptions
-        {
-            AutoDeskew = true,
-            DenoiseLevel = DenoiseLevel.Medium,
-            Binarize = true
-        };
-        ocrEngine.PreprocessOptions = preprocessOptions;
-
-        // 3️⃣ Recognize the image (replace with your file path)
-        var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-        // 4️⃣ Show the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(ocrResult.Text);
-
-        // 5️⃣ Optional: tweak settings if confidence is low
-        if (ocrResult.Confidence < 0.7)
-        {
-            Console.WriteLine("\nLow confidence detected – increasing denoise level.");
-            ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-            var retryResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-            Console.WriteLine("=== Refined Output ===");
-            Console.WriteLine(retryResult.Text);
-        }
-    }
-}
-```
-
-**المخرجات المتوقعة في وحدة التحكم**
+**الناتج المتوقع** (مثال لفاتورة بسيطة):
 
 ```
-=== OCR Output ===
-The quick brown fox jumps over the lazy dog.
-
-=== Refined Output ===
-The quick brown fox jumps over the lazy dog.
+Invoice #12345
+Date: 01/12/2024
+Total Amount: $1,234.56
+Thank you for your business!
 ```
 
-*بالطبع سيختلف النص الفعلي لديك، لكن يجب أن تلاحظ نفس التنسيق النظيف.*
+إذا كان النص مشوّهًا، تحقق من دقة المسح الأصلية (300 dpi تُعد قاعدة جيدة) وفكّر في تعديل قوة `DenoiseFilter`.
 
-## الخاتمة
+---
 
-لقد أوضحنا لك الآن كيفية **preprocess image for OCR** باستخدام Aspose.OCR، ولماذا كل خطوة—auto‑deskew، denoise، وتحويل إلى أبيض وأسود—تلعب دورًا محوريًا في **improve OCR accuracy**. باتباع الكود أعلاه ستحصل على نتائج موثوقة على مسحات مشوشة ومائلة دون الحاجة للبحث في الوثائق.
+![معالجة الصورة قبل OCR مثال](https://example.com/images/preprocess-ocr.png "معالجة الصورة قبل OCR مثال")
 
-ما الخطوة التالية؟ جرّب دمج هذا الخط الأنابيب مع إعدادات خاصة باللغة (مثال: `ocrEngine.Language = Language.English`) أو مرّر الصورة المنقحة إلى نموذج NLP لاحق. يمكنك أيضًا تجربة `BinarizationThreshold` لضبط تأثير **black and white OCR** للوصلات منخفضة التباين أو الملاحظات المكتوبة يدويًا.
+*الصورة أعلاه توضح مقارنة قبل‑وبعد لصفحة ممسوحة بعد تطبيق الفلاتر الثلاثة.*
 
-لا تتردد في ترك تعليق إذا واجهت أي صعوبات، أو مشاركة حيلك الخاصة للحصول على دقة أعلى من OCR. برمجة سعيدة، ولتكن نصوصك دائمًا قابلة للقراءة!
+## نصائح إضافية لإزالة الضوضاء من ملفات المسح
+
+- **زيادة DPI قبل المسح** – 300 dpi أو أعلى تُعطي الفلاتر بيانات أكثر للعمل معها.  
+- **قص الهوامش** – المساحات البيضاء غير الضرورية قد تُربك خطوة البيناريزيشن.  
+- **استخدام `ContrastFilter`** إذا كان المستند باهتًا؛ يمكن إدراجه قبل `BinarizationFilter`.  
+- **المعالجة الدفعة** – غلف الكود أعلاه داخل حلقة `foreach` لمعالجة عشرات الملفات تلقائيًا.
+
+## أسئلة شائعة وحالات خاصة
+
+**ماذا لو كان المستند يحتوي على عدة صفحات؟**  
+قم بلف خطوة التحميل داخل حلقة تقرأ كل صفحة كـ `OcrImage` منفصل. Aspose OCR يمكنه أيضًا استقبال تدفقات PDF مباشرة.
+
+**هل يمكنني التعرف على لغات غير الإنجليزية؟**  
+نعم—ما عليك سوى استبدال `Language.English` بـ `Language.French` أو `Language.Spanish`، بشرط تثبيت حزمة اللغة المطلوبة.
+
+**هل هناك طريقة للحصول على درجات الثقة؟**  
+`ocrResult` يحتوي على خاصية `Confidence` لكل حرف. يمكنك التجول عبر `ocrResult.Regions` لتسجيل المواقع ذات الثقة المنخفضة للمراجعة اليدوية.
+
+**ماذا لو كان المسح ملونًا؟**  
+الفلاتر تعمل على الصور الملونة أيضًا؛ فهي تتحول داخليًا إلى تدرج رمادي قبل البيناريزيشن. ومع ذلك، تحويلها إلى تدرج رمادي بنفسك (`new GrayscaleFilter()`) قد يسرّع العملية أحيانًا.
+
+## الخلاصة
+
+أصبح لديك الآن مثال كامل وجاهز للتنفيذ يقوم بـ **معالجة الصورة قبل OCR**، **إزالة الضوضاء من المسح**، و**تحويل المسح إلى نص** باستخدام Aspose OCR. عبر ربط فلاتر Deskew و Denoise و Binarization ستحقق باستمرار **تحسين دقة OCR**، مما يجعل استخراج البيانات اللاحق أكثر موثوقية.
+
+هل أنت مستعد للخطوة التالية؟ جرّب إرسال الناتج إلى كاتب CSV، أو إدخاله في فهرس بحث، أو تجربة فلاتر Aspose أخرى مثل `ContrastFilter` أو `SharpenFilter`. السماء هي الحد عندما تجمع بين معالجة مسبقة قوية ومحرك OCR قوي.
+
+برمجة سعيدة، ولتظل مسحاتك دائمًا واضحة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

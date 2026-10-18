@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-04-01
-description: ทำการเตรียมภาพสำหรับ OCR เพื่อปรับปรุงความแม่นยำของ OCR เรียนรู้วิธีการใช้การปรับแนวอัตโนมัติ,
-  การลดสัญญาณรบกวน, และการแปลงเป็นสีขาว‑ดำด้วย Aspose.OCR.
+date: 2026-01-15
+description: ทำการประมวลผลล่วงหน้าภาพสำหรับ OCR เพื่อแปลงการสแกนเป็นข้อความอย่างรวดเร็ว
+  เรียนรู้วิธีกำจัดสัญญาณรบกวนจากการสแกนและปรับปรุงความแม่นยำของ OCR ด้วยฟิลเตอร์
+  Aspose OCR.
 draft: false
 keywords:
-- preprocess image for OCR
-- improve OCR accuracy
-- black and white OCR
-- Aspose OCR preprocessing
-- image deskew C#
-- OCR noise reduction
+- preprocess image for ocr
+- convert scan to text
+- extract text from scan
+- remove noise from scan
+- improve ocr accuracy
 language: th
-og_description: ทำการประมวลผลภาพล่วงหน้าสำหรับ OCR เพื่อปรับปรุงความแม่นยำของ OCR
-  คู่มือแบบขั้นตอนต่อขั้นตอนนี้แสดงการแก้ไขการเอียงอัตโนมัติ, การลดสัญญาณรบกวน, และการแปลงเป็นสีขาว‑ดำด้วย
-  C#
-og_title: เตรียมภาพล่วงหน้าสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose.OCR
+og_description: ทำการประมวลผลล่วงหน้าภาพสำหรับ OCR เพื่อแปลงการสแกนเป็นข้อความอย่างรวดเร็ว
+  ค้นหาวิธีกำจัดสัญญาณรบกวนจากการสแกนและปรับปรุงความแม่นยำของ OCR ด้วยโค้ด C# ง่าย
+  ๆ
+og_title: เตรียมภาพสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose OCR
 tags:
-- OCR
+- Aspose OCR
 - C#
-- Image Processing
-title: เตรียมภาพสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose.OCR
+- Image Preprocessing
+title: เตรียมภาพสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose OCR
 url: /th/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/
 ---
 
@@ -28,209 +28,152 @@ url: /th/net/ocr-optimization/preprocess-image-for-ocr-boost-accuracy-with-aspos
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เตรียมภาพสำหรับ OCR – เพิ่มความแม่นยำด้วย Aspose.OCR
+# การเตรียมภาพสำหรับ OCR – คำแนะนำเต็มรูปแบบด้วย C#
 
-เคยสงสัยไหมว่าทำไมผลลัพธ์ OCR ของคุณถึงดูเป็นกองอักขระสับสนแม้ว่าภาพต้นฉบับจะดูดี? คุณอาจพลาดขั้นตอนสำคัญ: **preprocess image for OCR**.  
-ในบทเรียนนี้เราจะพาไปดูวิธีทำความสะอาดภาพที่เอียงหรือมีสัญญาณรบกวนเพื่อให้เครื่องอ่านได้อย่างมืออาชีพ. เมื่อทำครบคุณจะเห็นการกระโดดขึ้นอย่างชัดเจนใน **improve OCR accuracy** และคุ้นเคยกับเทคนิค **black and white OCR** ที่ Aspose.OCR ทำให้เป็นเรื่องง่าย.
+เคยต้อง **เตรียมภาพสำหรับ OCR** แต่ไม่แน่ใจว่าตัวกรองใดทำให้ผลลัพธ์ดีขึ้นจริงหรือไม่? คุณไม่ได้อยู่คนเดียว—หน้าสแกนมักจะเอียง มีจุดรบกวน หรือมีสัญญาณรบกวนมาก ซึ่งทำให้เครื่อง OCR ใด ๆ ทำงานได้ยาก  
 
-## สิ่งที่คุณจะได้เรียนรู้
+ข่าวดีคือเพียงไม่กี่ขั้นตอนที่เลือกอย่างดีสามารถ **แปลงสแกนเป็นข้อความ** ได้อย่างน่าเชื่อถือ และคุณจะเห็นการปรับปรุงคุณภาพการจดจำอย่างชัดเจน ในคู่มือนี้เราจะอธิบายการโหลดไฟล์ TIFF ที่เอียง การกำจัดสิ่งรบกวนที่มองเห็นได้ และสุดท้ายการดึงข้อความที่สะอาดออกมา—เพื่อให้คุณ **กำจัดสัญญาณรบกวนจากไฟล์สแกน** และ **ปรับปรุงความแม่นยำของ OCR** โดยไม่ต้องค้นหาเอกสารอ้างอิงที่ยาวเหยียด
 
-เราจะครอบคลุมตั้งแต่การติดตั้งแพคเกจ NuGet ของ Aspose.OCR ไปจนถึงการกำหนดค่า `PreprocessOptions` ที่ทำการ auto‑deskew, denoise, และ binarize ภาพของคุณ. คุณยังจะได้รับเคล็ดลับการจัดการกรณีขอบ – เช่น การหมุนมากเกินไปหรือสแกนที่คอนทราสต์ต่ำ – เพื่อให้คุณรักษาคุณภาพการจดจำได้สูงไม่ว่ากรณีใด. ไม่ต้องอ้างอิงเอกสารภายนอก; โซลูชันทั้งหมดอยู่ที่นี่.
+## สิ่งที่บทเรียนนี้ครอบคลุม
+
+- การตั้งค่า Aspose OCR engine ใน C#  
+- การโหลดภาพสแกนจริง (เช่น ใบแจ้งหนี้ที่เอียงหรือแบบฟอร์มที่ซีด)  
+- การใช้ตัวกรอง Deskew, Denoise, และ Binarization เพื่อ **เตรียมภาพสำหรับ OCR**  
+- การรัน OCR engine เพื่อ **ดึงข้อความจากสแกน** และแสดงผลบนคอนโซล  
+- เคล็ดลับการจัดการกรณีพิเศษ เช่น PDF หลายหน้า หรือเอกสารที่คอนทราสต์ต่ำ  
+
+เมื่อทำครบแล้วคุณจะได้โปรแกรมที่พร้อมใช้งานซึ่งสามารถนำไปใส่ในโครงการ .NET ใด ๆ และเริ่ม **แปลงสแกนเป็นข้อความ** ได้ทันที
 
 ### ข้อกำหนดเบื้องต้น
 
-- .NET 6.0 หรือใหม่กว่า (ตัวอย่างคอมไพล์ด้วย .NET 6, แต่เวอร์ชันเก่าก็ทำงานได้)
-- ความคุ้นเคยพื้นฐานกับ C# และ Visual Studio (หรือ IDE ใดก็ได้ที่คุณชอบ)
-- ไฟล์ภาพที่เอียงหรือมีสัญญาณรบกวน (เราจะเรียกมันว่า `skewed_noisy.jpg`)
+- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ทำงานบน .NET Core และ .NET Framework ด้วย)  
+- แพ็กเกจ NuGet Aspose.OCR (`Install-Package Aspose.OCR`)  
+- ตัวอย่างไฟล์ TIFF ชื่อ `skewed_scan.tif` ที่วางไว้ในโฟลเดอร์ที่คุณควบคุม  
+- ความคุ้นเคยพื้นฐานกับ C#—ไม่ต้องมีเทคนิคขั้นสูง  
 
-ถ้าคุณมีทั้งหมดนี้แล้ว, ไปต่อกันเลย.
+ถ้าคุณมีทั้งหมดนี้แล้ว ไปต่อกันเลย
 
-## เตรียมภาพสำหรับ OCR – ทำไมการ Pre‑Processing ถึงสำคัญ
+## การเตรียมภาพสำหรับ OCR – ขั้นตอนโดยละเอียด
 
-ลองนึกถึงเครื่อง OCR เป็นผู้อ่านที่เข้มงวด: ถ้าหน้ากระดาษเอียง, มีจุดรบกวน, หรือสีเทามากเกินไป, มันจะติดขัดกับคำ. การ Pre‑Processing จัดการกับศัตรูสามประการทั่วไป:
+ด้านล่างเราจะแบ่งกระบวนการออกเป็นห้าขั้นตอนที่เป็นตรรกะ แต่ละส่วนมีหัวข้อชัดเจน คำอธิบายสั้น ๆ เกี่ยวกับ **เหตุผล** ที่ขั้นตอนนั้นสำคัญ และโค้ดเต็มที่คุณสามารถคัดลอก‑วางได้
 
-1. **Rotation** – Auto‑deskew ทำให้หน้ากระดาษตรงแนวนอน.  
-2. **Noise** – Denoising กำจัดพิกเซลรบกวนที่อาจดูเหมือนอักขระ.  
-3. **Contrast** – Binarizing (การแปลงเป็นสีขาว‑ดำ) ให้เครื่องแยกพื้นหน้า‑หลังได้ชัดเจน.
+### ขั้นตอนที่ 1: เริ่มต้น OCR Engine
 
-รวมกันเป็นกระดูกสันหลังของเวิร์กโฟลว์ใด ๆ ที่ต้องการ **improve OCR accuracy**.
-
-![ตัวอย่างการเตรียมภาพสำหรับ OCR](https://example.com/ocr-preprocess.png "ตัวอย่างการเตรียมภาพสำหรับ OCR")
-
-*(ข้อความแทนภาพ: “ตัวอย่างการเตรียมภาพสำหรับ OCR แสดงก่อนและหลังการทำ Binarization”)*
-
-## ขั้นตอนที่ 1: ติดตั้ง Aspose.OCR
-
-เริ่มต้นด้วยการดาวน์โหลดไลบรารี. เปิดเทอร์มินัล (หรือ Package Manager Console) แล้วรัน:
-
-```bash
-dotnet add package Aspose.OCR
-```
-
-หรือ, ถ้าคุณชอบใช้ UI ของ Visual Studio, คลิกขวาที่ **Dependencies → Manage NuGet Packages**, ค้นหา **Aspose.OCR**, แล้วคลิก **Install**. แพคเกจนี้รวมทุกอย่างที่คุณต้องการ, รวมถึง namespace `Filters` ที่ใช้สำหรับการ Pre‑processing.
-
-## ขั้นตอนที่ 2: สร้าง OCR Engine
-
-เมื่อไลบรารีพร้อม, เราสามารถสร้างอินสแตนซ์ `OcrEngine` ได้. วัตถุนี้เป็นจุดเริ่มต้นสำหรับการจดจำทั้งหมด.
+Engine คือหัวใจของการทำงาน; หากไม่มีมันจะไม่มีการจดจำใด ๆ การสร้างมันครั้งเดียวและใช้ซ้ำหลายภาพยังช่วยประหยัดทรัพยากรอีกด้วย
 
 ```csharp
 using Aspose.OCR;
+using Aspose.OCR.Models;
 using Aspose.OCR.Filters;
-using System;
 
 class PreprocessDemo
 {
     static void Main()
     {
-        // Step 2: Initialize the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
+        // Create a single OCR engine instance – this is cheap and reusable
+        var ocrEngine = new OcrEngine();
+```
 
-        // The rest of the steps follow...
+*เหตุผลที่สำคัญ:* Aspose OCR มาพร้อมกับ language packs และอัลกอริทึมแบบปรับตัวที่โหลดเมื่อคุณสร้าง `OcrEngine` การเริ่มต้นล่วงหน้าช่วยหลีกเลี่ยงความหน่วงที่ซ่อนอยู่ในภายหลัง
+
+### ขั้นตอนที่ 2: โหลดและตรวจสอบเอกสารสแกน
+
+คุณต้องบอก engine ให้ชี้ไปที่ไฟล์ภาพจริง การใช้ `OcrImage.FromFile` จะให้คุณได้อ็อบเจกต์ที่สามารถต่อเชื่อมกับตัวกรองต่าง ๆ ได้
+
+```csharp
+        // Load the skewed, noisy scan – adjust the path to match your environment
+        var originalImage = OcrImage.FromFile(@"YOUR_DIRECTORY/skewed_scan.tif");
+```
+
+*เหตุผลที่สำคัญ:* การป้อนสแกนดิบตรงเข้าสู่ OCR มักให้ผลลัพธ์เป็นขยะ เพราะ engine คาดหวังอินพุตที่ค่อนข้างสะอาด นี่คือจุดที่เหมาะสมที่สุดสำหรับการ **กำจัดสัญญาณรบกวนจากสแกน** ก่อนทำการจดจำ
+
+### ขั้นตอนที่ 3: ใช้ตัวกรอง Deskew, Denoise, และ Binarization
+
+นี่คือจุดที่ “เวทมนตร์” เกิดขึ้น เราจะต่อเชื่อมตัวกรองสามตัว:
+
+1. **DeskewFilter** – ทำให้หน้าที่หมุนเอียงกลับเป็นแนวตรง  
+2. **DenoiseFilter** – กำจัดจุดรบกวนและเม็ดสี  
+3. **BinarizationFilter** – แปลงเป็นโทนสีขาว‑ดำ ซึ่งเป็นสิ่งที่ OCR ส่วนใหญ่ชอบ
+
+```csharp
+        // Chain the preprocessing filters
+        var preprocessedImage = originalImage
+            .Apply(new DeskewFilter())          // corrects rotation
+            .Apply(new DenoiseFilter())         // reduces visual noise
+            .Apply(new BinarizationFilter());   // converts to B/W
+```
+
+*เหตุผลที่สำคัญ:* เส้นข้อความที่เอียงจะถูกตีความเป็นอักขระแยกกัน และจุดรบกวนอาจถูกมองว่าเป็นเครื่องหมายวรรคตอน การ **เตรียมภาพสำหรับ OCR** ด้วยสามขั้นตอนนี้จะทำให้ **ปรับปรุงความแม่นยำของ OCR** อย่างมหาศาล
+
+> **เคล็ดลับ:** หากสแกนของคุณส่วนใหญ่เป็นแนวตรงอยู่แล้ว คุณสามารถข้าม `DeskewFilter` เพื่อประหยัดเวลาเพียงไม่กี่มิลลิวินาทีได้
+
+### ขั้นตอนที่ 4: จดจำข้อความและแปลงสแกนเป็นข้อความ
+
+ตอนนี้เราจะส่งภาพที่ทำความสะอาดแล้วให้ OCR engine เราจะขอให้จดจำภาษาอังกฤษ แต่คุณสามารถใช้ภาษาอื่นที่รองรับได้เช่นกัน
+
+```csharp
+        // Perform OCR on the processed image using English language
+        var ocrResult = ocrEngine.Recognize(preprocessedImage, Language.English);
+```
+
+*เหตุผลที่สำคัญ:* Engine ทำงานกับบิตแมพที่คอนทราสต์สูงและปราศจากสัญญาณรบกวน ทำให้คะแนนความเชื่อมั่นสูงขึ้นอย่างมาก นี่คือจุดที่คุณ **ดึงข้อความจากสแกน** อย่างแท้จริง
+
+### ขั้นตอนที่ 5: แสดงข้อความที่จดจำได้และตรวจสอบผลลัพธ์
+
+การใช้ `Console.WriteLine` อย่างง่ายจะแสดงสตริงดิบ ในแอปจริงคุณอาจบันทึกลงไฟล์ ฐานข้อมูล หรือส่งต่อไปยัง pipeline NLP ต่อไป
+
+```csharp
+        // Output the recognized text to the console
+        System.Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-ทำไมต้องสร้าง Engine ก่อน? Engine จะเก็บการตั้งค่าทั่วไป (ภาษา, ภูมิภาค, ฯลฯ) และสำคัญที่สุดคือ `PreprocessOptions` ที่เราจะกำหนดต่อไป.
-
-## ขั้นตอนที่ 3: กำหนดค่า Preprocess Options
-
-นี่คือจุดที่เวทมนต์เกิดขึ้น. เราจะเปิดใช้สามแฟล็ก:
-
-- `AutoDeskew` – ตรวจจับและแก้ไขการหมุนโดยอัตโนมัติ.
-- `DenoiseLevel = DenoiseLevel.Medium` – สมดุลระหว่างการทำความสะอาดสัญญาณรบกวนและการรักษารายละเอียดละเอียด.
-- `Binarize` – บังคับให้ผลลัพธ์เป็นสีขาว‑ดำ, วิธี **black and white OCR** แบบคลาสสิก.
-
-```csharp
-// Step 3: Set up preprocessing to clean the image
-PreprocessOptions preprocessOptions = new PreprocessOptions
-{
-    AutoDeskew = true,                     // Correct rotation automatically
-    DenoiseLevel = DenoiseLevel.Medium,   // Reduce noise while preserving details
-    Binarize = true                        // Convert to black‑and‑white for better recognition
-};
-
-// Attach options to the engine
-ocrEngine.PreprocessOptions = preprocessOptions;
-```
-
-**ทำไมต้องตั้งค่าแบบนี้?** Auto‑deskew จัดการกับการเอียงทั่วไป (สูงสุดประมาณ ~15°). ระดับ Medium สำหรับการสแกนเอกสารทั่วไป; คุณสามารถเปลี่ยนเป็น `High` สำหรับสแกนที่มีสัญญาณรบกวนมาก, แต่ต้องระวังการสูญเสียอักขระเล็ก. การ Binarization เป็นหัวใจของ **black and white OCR** — มันลบกราเดียนสีเทาอ่อนที่ทำให้เครื่องสับสน.
-
-## ขั้นตอนที่ 4: รันการจดจำบนภาพที่มีสัญญาณรบกวน
-
-เมื่อ Engine พร้อม, ส่งพาธของภาพที่มีปัญหาให้มัน. เมธอด `Recognize` จะคืนค่าเป็นอ็อบเจกต์ `OcrResult` ที่บรรจุข้อความที่สกัดและคะแนนความเชื่อมั่น.
-
-```csharp
-// Step 4: Recognize text from a skewed and noisy image
-// Replace the path with your actual image location
-var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-// Output the raw text
-Console.WriteLine("=== OCR Output ===");
-Console.WriteLine(ocrResult.Text);
-```
-
-ถ้าทุกอย่างทำงานเรียบร้อย, คุณควรเห็นบล็อกข้อความที่สะอาดในคอนโซล. Engine ยังเปิดให้เข้าถึง `ocrResult.Confidence` หากคุณต้องการตัวเลขวัด **improve OCR accuracy**.
-
-## ขั้นตอนที่ 5: ตรวจสอบผลลัพธ์และปรับแต่งเพื่อความแม่นยำที่ดียิ่งขึ้น
-
-การเห็นผลลัพธ์เป็นเรื่องดี, แต่คุณอาจยังพบการอ่านผิดบางส่วน — โดยเฉพาะกับฟอนต์แปลก. นี่คือเช็คลิสต์สั้น ๆ:
-
-1. **ตรวจสอบ Confidence** – ค่าต่ำกว่า 0.7 มักบ่งบอกพื้นที่ที่มีปัญหา. คุณสามารถบันทึกค่าเหล่านี้และตัดสินใจว่าจะทำ Pre‑process ใหม่ด้วย `DenoiseLevel` ที่สูงขึ้นหรือไม่.
-2. **ปรับ Threshold ของ Binarization** – Aspose ให้คุณส่งค่า Threshold ที่กำหนดเองผ่าน `PreprocessOptions.BinarizationThreshold`. ค่าต่ำจะเก็บสีเทามากกว่า, ค่าสูงจะทำให้สีขาว‑ดำเข้มข้นกว่า.
-3. **Crop หรือ Resize** – ถ้าภาพใหญ่เกินไป, ลดขนาดลงประมาณ ~150 DPI ก่อนส่งให้ Engine; จะช่วยเร่งการประมวลผลและอาจเพิ่มความแม่นยำได้.
-
-```csharp
-// Example: Increase denoise for a very dirty scan
-ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-
-// Re‑run recognition
-var refinedResult = ocrEngine.Recognize("YOUR_DIRECTORY/very_dirty.jpg");
-Console.WriteLine(refinedResult.Text);
-```
-
-## โบนัส: ใช้ Black and White OCR เพื่อผลลัพธ์ที่ดีกว่า
-
-บางครั้งคุณอาจได้ยินนักพัฒนาบอกว่า “ใช้ Grayscale ก็พอ” — แต่วิธี **black and white OCR** มักให้ผลดีกว่า, โดยเฉพาะเมื่อแหล่งข้อมูลมีแสงไม่สม่ำเสมอ. การบังคับให้เป็นภาพไบนารีจะลบเงาอ่อนที่เครื่องอาจเข้าใจว่าเป็นอักขระ.
-
-หากคุณต้องการทดลองต่อ, คุณสามารถสร้างภาพไบนารีด้วยตนเองแล้วส่งให้ Engine:
-
-```csharp
-// Generate a binary bitmap manually (optional)
-Bitmap binaryBitmap = ocrEngine.PreprocessOptions.ApplyFilters(
-    Image.FromFile("YOUR_DIRECTORY/skewed_noisy.jpg")
-);
-
-// Pass the bitmap directly
-var bitmapResult = ocrEngine.Recognize(binaryBitmap);
-Console.WriteLine(bitmapResult.Text);
-```
-
-วิธีนี้ให้คุณควบคุมขั้นตอน Pre‑processing ทั้งหมด, ซึ่งมีประโยชน์เมื่อคุณต้องรวมฟิลเตอร์กำหนดเองหรือไลบรารีภาพของบุคคลที่สาม.
-
-## ตัวอย่างทำงานเต็มรูปแบบ
-
-รวมทุกอย่างเข้าด้วยกัน, นี่คือแอปคอนโซลที่พร้อมรันที่คุณสามารถคัดลอก‑วางลงในโปรเจกต์ C# ใหม่:
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Filters;
-using System;
-
-class PreprocessDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Initialize OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Configure preprocessing (auto‑deskew, denoise, binarize)
-        PreprocessOptions preprocessOptions = new PreprocessOptions
-        {
-            AutoDeskew = true,
-            DenoiseLevel = DenoiseLevel.Medium,
-            Binarize = true
-        };
-        ocrEngine.PreprocessOptions = preprocessOptions;
-
-        // 3️⃣ Recognize the image (replace with your file path)
-        var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-
-        // 4️⃣ Show the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(ocrResult.Text);
-
-        // 5️⃣ Optional: tweak settings if confidence is low
-        if (ocrResult.Confidence < 0.7)
-        {
-            Console.WriteLine("\nLow confidence detected – increasing denoise level.");
-            ocrEngine.PreprocessOptions.DenoiseLevel = DenoiseLevel.High;
-            var retryResult = ocrEngine.Recognize("YOUR_DIRECTORY/skewed_noisy.jpg");
-            Console.WriteLine("=== Refined Output ===");
-            Console.WriteLine(retryResult.Text);
-        }
-    }
-}
-```
-
-**ผลลัพธ์ที่คาดหวังในคอนโซล**
+**ผลลัพธ์ที่คาดหวัง** (ตัวอย่างสำหรับใบแจ้งหนี้ง่าย ๆ):
 
 ```
-=== OCR Output ===
-The quick brown fox jumps over the lazy dog.
-
-=== Refined Output ===
-The quick brown fox jumps over the lazy dog.
+Invoice #12345
+Date: 01/12/2024
+Total Amount: $1,234.56
+Thank you for your business!
 ```
 
-*ข้อความจริงของคุณจะต่างกันแน่นอน, แต่คุณควรเห็นรูปแบบที่สะอาดเช่นเดียวกัน.*
+หากข้อความดูเป็นอักขระผสมกัน ให้ตรวจสอบความละเอียดของสแกนต้นฉบับ (300 dpi เป็นค่ามาตรฐานที่ดี) และลองปรับความแรงของ `DenoiseFilter` ดู
+
+---
+
+![ตัวอย่างการเตรียมภาพสำหรับ OCR](https://example.com/images/preprocess-ocr.png "ตัวอย่างการเตรียมภาพสำหรับ OCR")
+
+*รูปด้านบนแสดงภาพก่อนและหลังของหน้าสแกนหลังจากใช้ตัวกรองทั้งสาม*
+
+## เคล็ดลับเพิ่มเติมเพื่อกำจัดสัญญาณรบกวนจากไฟล์สแกน
+
+- **เพิ่ม DPI ก่อนสแกน** – 300 dpi หรือสูงกว่าให้ข้อมูลมากพอสำหรับตัวกรอง  
+- **ครอบตัดขอบ** – พื้นที่สีขาวที่ไม่จำเป็นอาจทำให้ขั้นตอน Binarization สับสน  
+- **ใช้ `ContrastFilter`** หากเอกสารซีด; สามารถใส่ก่อน `BinarizationFilter` ได้  
+- **ประมวลผลเป็นชุด** – ห่อโค้ดด้านบนในลูป `foreach` เพื่อจัดการไฟล์หลายสิบไฟล์โดยอัตโนมัติ
+
+## คำถามที่พบบ่อยและกรณีพิเศษ
+
+**ถ้าเอกสารของฉันมีหลายหน้า จะทำอย่างไร?**  
+ให้ห่อขั้นตอนการโหลดในลูปที่อ่านแต่ละหน้าเป็น `OcrImage` แยกกัน Aspose OCR ยังรับสตรีม PDF โดยตรงได้อีกด้วย
+
+**ฉันสามารถจดจำภาษาอื่นนอกจากอังกฤษได้หรือไม่?**  
+ได้—เพียงเปลี่ยน `Language.English` เป็น `Language.French`, `Language.Spanish` เป็นต้น หากได้ติดตั้ง language pack นั้นไว้
+
+**มีวิธีดูคะแนนความเชื่อมั่นหรือไม่?**  
+`ocrResult` มีคุณสมบัติ `Confidence` สำหรับแต่ละอักขระ คุณสามารถวนลูป `ocrResult.Regions` เพื่อล็อกตำแหน่งที่ความเชื่อมั่นต่ำเพื่อทำการตรวจสอบด้วยตนเอง
+
+**ถ้าสแกนเป็นสีจะทำอย่างไร?**  
+ตัวกรองทำงานกับภาพสีได้เช่นกัน; ภายในจะทำการแปลงเป็นระดับสีเทาก่อนทำ Binarization อย่างไรก็ตาม การแปลงเป็นสีเทาด้วยตนเอง (`new GrayscaleFilter()`) บางครั้งอาจทำให้เร็วขึ้น
 
 ## สรุป
 
-เราได้แสดงวิธี **preprocess image for OCR** ด้วย Aspose.OCR, และอธิบายว่าขั้นตอนแต่ละอย่าง — auto‑deskew, denoise, และการแปลงเป็นสีขาว‑ดำ — มีบทบาทสำคัญในการ **improve OCR accuracy**. ด้วยโค้ดที่ให้ไว้ คุณจะได้ผลลัพธ์ที่เชื่อถือได้บนสแกนที่เอียงหรือมีสัญญาณรบกวนโดยไม่ต้องค้นหาเอกสารเพิ่มเติม.
+คุณมีตัวอย่างที่สมบูรณ์และพร้อมรันแล้วสำหรับ **เตรียมภาพสำหรับ OCR**, **กำจัดสัญญาณรบกวนจากสแกน**, และ **แปลงสแกนเป็นข้อความ** ด้วย Aspose OCR โดยการต่อเชื่อม Deskew, Denoise, และ Binarization filter คุณจะ **ปรับปรุงความแม่นยำของ OCR** อย่างสม่ำเสมอ ทำให้การสกัดข้อมูลต่อจากนั้นมีความน่าเชื่อถือมากขึ้น
 
-ต่อไปคุณจะทำอะไร? ลองผสาน pipeline นี้กับการตั้งค่าภาษาเฉพาะ (เช่น `ocrEngine.Language = Language.English`) หรือส่งบิตแมพที่ทำความสะอาดแล้วไปยังโมเดล NLP ต่อไป. คุณยังสามารถทดลองปรับ `BinarizationThreshold` เพื่อจูนเอฟเฟกต์ **black and white OCR** สำหรับใบเสร็จที่คอนทราสต์ต่ำหรือโน้ตมือเขียน.
+พร้อมก้าวต่อไปหรือยัง? ลองส่งผลลัพธ์ไปยังตัวเขียน CSV, ใส่ในดัชนีการค้นหา, หรือทดลองใช้ตัวกรอง Aspose อื่น ๆ เช่น `ContrastFilter` หรือ `SharpenFilter` ความเป็นไปได้ไม่มีที่สิ้นสุดเมื่อคุณผสานการเตรียมภาพที่ดีเข้ากับ OCR engine ที่ทรงพลัง
 
-หากคุณเจอปัญหาใด ๆ หรือมีเทคนิคของคุณเองในการเพิ่มความแม่นยำของ OCR, อย่าลังเลที่จะแสดงความคิดเห็น. Happy coding, และขอให้ข้อความของคุณอ่านได้ชัดเจนเสมอ!
+ขอให้เขียนโค้ดอย่างสนุกและสแกนของคุณเป็นภาพที่คมชัดเสมอ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

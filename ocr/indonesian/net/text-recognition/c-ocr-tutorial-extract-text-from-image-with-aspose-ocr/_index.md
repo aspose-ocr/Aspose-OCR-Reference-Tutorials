@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-01
-description: Tutorial OCR c# yang menunjukkan cara mengekstrak teks dari gambar menggunakan
-  Aspose OCR. Menyertakan contoh kode OCR lengkap c# dan tips untuk proyek gambar
-  ke teks c#.
+date: 2026-01-01
+description: Tutorial OCR C# yang menunjukkan cara mengekstrak teks dari gambar, melakukan
+  OCR pada file JPG menggunakan Aspose OCR. Pelajari cara memuat gambar untuk OCR
+  dan mendapatkan hasil yang akurat.
 draft: false
 keywords:
 - c# ocr tutorial
 - extract text from image
-- image to text c#
-- ocr sample code c#
-- c# ocr example
+- perform ocr on jpg
+- load image for ocr
 language: id
-og_description: Tutorial OCR C# yang memandu Anda mengekstrak teks dari gambar menggunakan
-  Aspose OCR. Kode contoh OCR lengkap C# dan tips praktis disertakan.
-og_title: Tutorial OCR C# – Ekstrak Teks dari Gambar dengan Aspose OCR
+og_description: Tutorial OCR C# yang memandu Anda melalui pengekstrakan teks dari
+  gambar, melakukan OCR pada JPG, dan memuat gambar untuk OCR menggunakan Aspose.
+og_title: c# tutorial OCR – Ekstrak Teks dari Gambar dengan Aspose OCR
 tags:
 - OCR
 - C#
 - Aspose
-title: Tutorial OCR C# – Ekstrak Teks dari Gambar dengan Aspose OCR
+title: 'tutorial OCR c#: Ekstrak Teks dari Gambar dengan Aspose OCR'
 url: /id/net/text-recognition/c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/
 ---
 
@@ -27,192 +26,176 @@ url: /id/net/text-recognition/c-ocr-tutorial-extract-text-from-image-with-aspose
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# ocr tutorial – Ekstrak Teks dari Gambar dengan Aspose OCR
+# Tutorial c# OCR – Ekstrak Teks dari Gambar dengan Aspose OCR
 
-Pernah membutuhkan **c# ocr tutorial** yang benar‑benar membawa Anda dari nol hingga solusi yang berfungsi dalam hitungan menit? Anda tidak sendirian. Banyak pengembang menemui kebuntuan ketika mencoba mengubah foto struk, kontrak yang dipindai, atau bahkan tangkapan layar menjadi teks yang dapat diedit.
+Mencari **c# ocr tutorial** yang benar‑benar berfungsi? Dalam panduan ini kami akan menunjukkan cara **mengekstrak teks dari gambar** dan **melakukan OCR pada file JPG** menggunakan pustaka Aspose.OCR. Baik Anda sedang membangun pemindai struk, pengarsip dokumen, atau sekadar penasaran membaca teks dari foto, langkah‑langkah di bawah ini akan membawa Anda dari nol hingga kode yang berfungsi dalam hitungan menit.
 
-Dalam panduan ini kami akan menunjukkan secara tepat cara **mengekstrak teks dari gambar** file menggunakan pustaka Aspose OCR, dan kami akan melakukannya dengan contoh bersih yang dapat dijalankan yang dapat Anda salin‑tempel langsung ke Visual Studio. Pada akhir tutorial Anda akan memiliki **c# ocr example** lengkap yang dapat Anda sesuaikan untuk skenario “image to text c#” apa pun yang Anda temui.
+Kami akan membahas semua yang Anda perlukan: menginstal paket, memuat gambar untuk OCR, mengonfigurasi sumber daya bahasa, menjalankan mesin pengenalan, dan menangani jebakan paling umum. Pada akhir tutorial Anda akan memiliki aplikasi konsol mandiri yang mencetak teks yang dikenali ke konsol—tanpa layanan eksternal.
 
-> **Apa yang akan Anda dapatkan**  
-> • A fully functional C# console app yang membaca file PNG (atau JPG) dan mencetak teks yang dikenali.  
-> • Pemahaman tentang setiap langkah—mengapa kami membuat engine, mengapa kami memanggil `Recognize`, dan cara menangani hasilnya.  
-> • Tips untuk mengatasi jebakan umum seperti font yang hilang, gambar beresolusi rendah, dan lisensi.
+## Apa yang Anda Butuhkan
 
-## Prasyarat
+- .NET 6.0 atau lebih baru (kode ini juga bekerja dengan .NET Framework 4.6+)  
+- Visual Studio 2022, VS Code, atau editor C# apa pun yang Anda sukai  
+- File gambar yang berisi teks Rusia (Cyrillic), misalnya `receipt_ru.jpg`  
+- Koneksi internet untuk pertama kali dijalankan (Aspose akan mengunduh sumber daya bahasa secara otomatis)  
 
-| Persyaratan | Mengapa penting |
-|-------------|-----------------|
-| .NET 6 SDK (or later) | Fitur bahasa modern dan kinerja yang lebih baik. |
-| Visual Studio 2022 (or VS Code) | Kemudahan IDE—editor C# apa pun sudah cukup. |
-| Aspose.OCR for .NET NuGet package | Engine OCR yang melakukan pekerjaan berat. |
-| An image file (`sample.png`) you want to read | Sumber teks. |
+Jika Anda sudah memiliki semua ini, bagus—mari kita mulai.
 
-Anda dapat menginstal paket NuGet dengan perintah berikut:
+## Langkah 1: Instal Aspose.OCR dan Buat Proyek Baru
+
+Pertama‑tama, tambahkan paket NuGet Aspose.OCR ke proyek Anda. Buka terminal di folder solusi Anda dan jalankan:
 
 ```bash
 dotnet add package Aspose.OCR
 ```
 
-> **Pro tip:** Jika Anda menargetkan .NET Framework alih‑alih .NET 6, paket yang sama tetap berfungsi—cukup sesuaikan file proyeknya.
+> **Pro tip:** Gunakan flag `--version` untuk mengunci ke rilis stabil terbaru, misalnya `Aspose.OCR 23.9.0`.
 
-![tutorial c# ocr mengekstrak teks dari gambar](image-placeholder.png)
+Selanjutnya, buat proyek konsol sederhana (lewatkan langkah ini jika Anda sudah memilikinya):
 
-*Alt text: tutorial c# ocr mengekstrak teks dari gambar*
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
+```
 
----
+Sekarang Anda memiliki kanvas bersih di mana Anda dapat menempelkan kode contoh lengkap nanti.
 
-## c# ocr tutorial – Inisialisasi Aspose OCR Engine
+## Langkah 2: Muat Gambar untuk OCR
 
-Hal pertama yang kita butuhkan adalah sebuah instance dari `OcrEngine`. Anggaplah itu sebagai “otak” yang akan menganalisis piksel dan mengubahnya menjadi karakter.
+Memuat gambar adalah langkah fungsional pertama dalam **c# ocr tutorial** apa pun. Aspose.OCR menerima jalur file, aliran, atau bahkan `Bitmap`. Untuk contoh kami, kami akan tetap sederhana dan memuat dari disk:
 
 ```csharp
 using Aspose.OCR;
 using System;
 
-class OcrTutorial
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an instance of the OCR engine
-        var ocrEngine = new OcrEngine();
+        // Step 2: Load the image you want to process.
+        // Replace the path with the actual location of your JPG file.
+        var inputImage = OcrImage.FromFile(@"YOUR_DIRECTORY/receipt_ru.jpg");
 
-        // The rest of the steps go here...
+        // The rest of the tutorial continues below...
     }
 }
 ```
 
-> **Mengapa ini penting:** Membuat instance engine menyiapkan sumber daya internal (seperti file data bahasa). Jika Anda melewatkannya, pemanggilan `Recognize` akan melempar `NullReferenceException`.
+> **Mengapa ini penting:** Dengan memuat gambar secara eksplisit, Anda memberi mesin target yang jelas, yang meningkatkan akurasi—terutama saat menangani PDF multi‑halaman atau input berformat campuran.
 
-## Menerapkan mengekstrak teks dari gambar menggunakan Aspose OCR
+## Langkah 3: Konfigurasi Bahasa dan Unduh Sumber Daya Otomatis
 
-Setelah engine siap, kami memberikan path ke gambar yang ingin dibaca. Aspose OCR mendukung PNG, JPEG, BMP, dan beberapa format lain secara bawaan.
-
-```csharp
-// Step 2: Recognize text from an image file
-var result = ocrEngine.Recognize(@"YOUR_DIRECTORY/sample.png");
-```
-
-> **Kasus khusus:** Jika gambar Anda berada di share jaringan, gunakan path UNC (`\\server\share\sample.png`) atau baca file ke dalam `MemoryStream` terlebih dahulu. Engine juga dapat bekerja dengan stream.
-
-## image to text c# – Ekstrak string yang dikenali
-
-Metode `Recognize` mengembalikan objek `OcrResult`. Properti `Text`‑nya berisi string lengkap yang diekstrak oleh engine OCR.
+Aspose.OCR dilengkapi dengan paket bahasa yang dapat diunduh sesuai permintaan. Mengaktifkan unduhan otomatis memastikan mesin mengambil data bahasa Rusia pada kali pertama Anda menjalankan kode.
 
 ```csharp
-// Step 3: Extract the recognized text from the result
-string recognizedText = result.Text;
+        // Step 3: Create the OCR engine and configure settings.
+        var ocrEngine = new OcrEngine();
+
+        // Enable automatic download of language resources.
+        ocrEngine.Settings.AutoDownloadResources = true;
+
+        // Set the language to Russian (Cyrillic). You can change this to OcrLanguage.English, etc.
+        ocrEngine.Settings.Language = OcrLanguage.Russian;
 ```
 
-> **Bagaimana jika teks kosong?** Gambar beresolusi rendah atau yang memiliki banyak noise dapat menyebabkan engine mengembalikan string kosong. Pemeriksaan cepat membantu Anda memutuskan apakah harus mencoba lagi dengan sumber yang berkualitas lebih tinggi.
+> **Penjelasan:**  
+> • `AutoDownloadResources = true` menghilangkan langkah manual mengunduh file `.dat`.  
+> • Menetapkan `Language` memberi tahu mesin kumpulan karakter apa yang diharapkan, secara dramatis meningkatkan kecepatan dan akurasi pengenalan.
 
-## ocr sample code c# – Output ke konsol
+## Langkah 4: Jalankan OCR dan Dapatkan Teks yang Diakui
 
-Akhirnya, kami menampilkan teks. Dalam aplikasi dunia nyata Anda mungkin menulis ke file, basis data, atau bahkan mengirim string ke API terjemahan.
+Sekarang pekerjaan berat terjadi. Metode `Recognize` memproses gambar dan mengembalikan objek `OcrResult` yang berisi string yang diekstrak.
 
 ```csharp
-// Step 4: Output the extracted text to the console
-Console.WriteLine("=== OCR Result ===");
-Console.WriteLine(recognizedText);
+        // Step 4: Perform OCR on the loaded image.
+        var ocrResult = ocrEngine.Recognize(inputImage);
+
+        // Step 5: Output the recognized text to the console.
+        Console.WriteLine("Recognized text:");
+        Console.WriteLine(ocrResult.Text);
 ```
 
-Menggabungkan semuanya, berikut adalah **program lengkap yang dapat dijalankan**:
+Saat Anda mengeksekusi program, Anda akan melihat sesuatu seperti:
+
+```
+Recognized text:
+Счет № 12345
+Дата: 01/01/2026
+Сумма: 1 250,00 ₽
+```
+
+> **Apa yang diharapkan:** Output tepatnya tergantung pada kualitas gambar sumber, tetapi mesin berbasis jaringan saraf Aspose biasanya menangani struk bersih dan formulir cetak dengan fidelitas tinggi.
+
+## Contoh Lengkap yang Berfungsi
+
+Berikut adalah **kode lengkap yang dapat dijalankan** yang menggabungkan semua langkah. Salin‑tempel ke `Program.cs`, ganti `YOUR_DIRECTORY` dengan jalur folder yang sebenarnya, dan jalankan `dotnet run`.
 
 ```csharp
 using Aspose.OCR;
 using System;
 
-class OcrTutorial
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an instance of the OCR engine
+        // Step 1: Create an OCR engine instance.
         var ocrEngine = new OcrEngine();
 
-        // Step 2: Recognize text from an image file
-        var result = ocrEngine.Recognize(@"YOUR_DIRECTORY/sample.png");
+        // Step 2: Enable automatic download of language resources.
+        ocrEngine.Settings.AutoDownloadResources = true;
 
-        // Step 3: Extract the recognized text from the result
-        string recognizedText = result.Text;
+        // Step 3: Set the language to Russian (Cyrillic) for recognition.
+        ocrEngine.Settings.Language = OcrLanguage.Russian;
 
-        // Step 4: Output the extracted text to the console
-        Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(recognizedText);
+        // Step 4: Load the image containing Russian text.
+        var inputImage = OcrImage.FromFile(@"YOUR_DIRECTORY/receipt_ru.jpg");
+
+        // Step 5: Perform OCR on the loaded image.
+        var ocrResult = ocrEngine.Recognize(inputImage);
+
+        // Step 6: Output the recognized text.
+        Console.WriteLine("Recognized text:");
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-### Output yang diharapkan
+> **Tip:** Jika Anda perlu **mengekstrak teks dari gambar** dengan format selain JPG (PNG, BMP, TIFF), cukup ubah ekstensi file—Aspose menangani semuanya.
 
-Jika `sample.png` berisi kalimat “Hello, Aspose OCR!”, Anda akan melihat sesuatu seperti:
+## Langkah 5: Kendala Umum & Pro Tips
 
-```
-=== OCR Result ===
-Hello, Aspose OCR!
-```
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Karakter sampah** | Gambar beresolusi rendah atau kompresi berat | Gunakan sumber yang berkualitas lebih tinggi, atau pra‑proses dengan `Bitmap` (mis., tingkatkan kontras) |
+| **Bahasa tidak dikenali** | Paket bahasa tidak diunduh | Pastikan `AutoDownloadResources` bernilai `true` dan mesin memiliki akses internet pada kali pertama |
+| **Null `ocrResult.Text`** | Jalur gambar salah atau file tidak ada | Verifikasi jalur, gunakan `File.Exists` sebelum memuat |
+| **Keterlambatan kinerja** | Batch besar gambar diproses secara berurutan | Pakai satu instance `OcrEngine` untuk semua pemanggilan |
 
-Perhatikan baris kosong setelah header—memudahkan pembacaan output konsol.
+### Bonus: Membaca Banyak File dalam Loop
 
----
-
-## c# ocr example – Jebakan umum dan tips praktik terbaik
-
-### 1. Kualitas gambar penting
-- **Resolution**: Targetkan setidaknya 300 dpi. Apa pun yang lebih rendah dapat membingungkan engine.
-- **Contrast**: Teks gelap pada latar belakang terang bekerja paling baik. Inversi warna jika diperlukan dengan pustaka pemrosesan gambar sederhana.
-
-### 2. Konfigurasi bahasa
-Aspose OCR secara default menggunakan bahasa Inggris. Jika Anda membutuhkan bahasa lain (misalnya, Spanyol), atur secara eksplisit:
+Jika Anda perlu **melakukan OCR pada JPG** di sebuah folder, bungkus logika dalam `foreach`:
 
 ```csharp
-ocrEngine.Language = Language.Spanish;
-```
-
-### 3. Lisensi
-Versi gratis menandai setiap halaman dengan watermark “Powered by Aspose.OCR”. Untuk produksi, terapkan lisensi Anda:
-
-```csharp
-var license = new License();
-license.SetLicense(@"YOUR_DIRECTORY/Aspose.OCR.lic");
-```
-
-### 4. Menangani dokumen besar
-Jika Anda memiliki ratusan halaman, proseslah dalam loop dan gunakan kembali instance `OcrEngine` yang sama untuk menghindari alokasi memori berlebih.
-
-```csharp
-foreach (var file in Directory.GetFiles(@"YOUR_DIRECTORY", "*.png"))
+string[] files = Directory.GetFiles(@"YOUR_DIRECTORY", "*.jpg");
+foreach (var file in files)
 {
-    var result = ocrEngine.Recognize(file);
-    // process result...
+    var img = OcrImage.FromFile(file);
+    var result = ocrEngine.Recognize(img);
+    Console.WriteLine($"File: {Path.GetFileName(file)}");
+    Console.WriteLine(result.Text);
+    Console.WriteLine(new string('-', 40));
 }
 ```
 
-### 5. Output debug
-Ketika hasil OCR terlihat berantakan, aktifkan logging:
-
-```csharp
-ocrEngine.Logger = new ConsoleLogger(); // writes detailed info to console
-```
-
----
-
-## Langkah Selanjutnya – Memperluas proyek image to text c# Anda
-
-Setelah Anda memiliki **c# ocr example** yang solid, pertimbangkan untuk menjelajahi:
-
-- **Batch processing**: Gabungkan loop di atas dengan paralelisme (`Parallel.ForEach`) untuk meningkatkan kecepatan.
-- **Post‑processing**: Gunakan regular expressions untuk membersihkan kesalahan OCR umum (misalnya, “0” vs “O”).
-- **Integration**: Salurkan output OCR ke Azure Cognitive Services untuk terjemahan, atau ke indeks pencarian untuk pengambilan dokumen.
-- **Alternative libraries**: Jika Anda membutuhkan stack sepenuhnya open‑source, lihat Tesseract melalui paket NuGet `Tesseract.Net.SDK`.
-
----
+Pola ini skalabel dengan baik untuk pipeline pemrosesan struk.
 
 ## Kesimpulan
 
-Kami telah membahas **c# ocr tutorial** lengkap yang menunjukkan cara **mengekstrak teks dari gambar** menggunakan Aspose OCR, mulai dari inisialisasi engine hingga mencetak string akhir. Program singkat di atas adalah **ocr sample code c#** siap‑jalankan yang dapat Anda masukkan ke proyek .NET mana pun.
+Anda baru saja menyelesaikan **c# ocr tutorial** yang menunjukkan cara **mengekstrak teks dari gambar**, **melakukan OCR pada JPG**, dan **memuat gambar untuk OCR** menggunakan Aspose.OCR. Program contoh ini memperlihatkan alur lengkap—dari menginstal paket NuGet hingga mencetak teks Cyrillic yang dikenali—sehingga Anda dapat menyalinnya ke proyek .NET mana pun secara langsung.
 
-Silakan bereksperimen—ganti gambar, ubah bahasa, atau hubungkan output ke alur kerja yang lebih besar. Konsep inti tetap sama, dan kini Anda memiliki fondasi yang dapat diandalkan untuk tantangan **image to text c#** apa pun.
+Siap untuk langkah berikutnya? Coba ganti `OcrLanguage.Russian` dengan `OcrLanguage.English` untuk mengenali struk berbahasa Inggris, atau bereksperimen dengan opsi `OcrEngine.Settings` (mis., `PageSegmentationMode`, `ImagePreprocessing`) untuk menyempurnakan akurasi. Anda juga dapat mengintegrasikan output ke basis data, menghasilkan PDF, atau mengirimnya ke API terjemahan.
 
-Ada pertanyaan atau menemukan gambar yang sulit? Tinggalkan komentar, dan selamat coding!
+Jika Anda mengalami kendala, periksa dokumentasi Aspose.OCR atau tinggalkan komentar di bawah. Selamat coding, semoga hasil OCR Anda selalu jernih!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
