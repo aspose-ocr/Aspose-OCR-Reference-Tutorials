@@ -438,6 +438,8 @@ Apprenez à extraire le texte de fichiers PDF en C# avec Aspose grâce à ce gui
 ### [Extraire du texte d'une image en C# – Tutoriel OCR asynchrone](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Apprenez à extraire du texte d'images en C# de façon asynchrone avec Aspose OCR grâce à ce guide pratique.
 
+### [Reconnaître le texte d'une image avec Aspose OCR en C#](./recognize-text-image-with-aspose-ocr-in-c/)
+Apprenez à extraire du texte d'images en utilisant Aspose OCR avec C#, étape par étape.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

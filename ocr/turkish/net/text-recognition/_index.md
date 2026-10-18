@@ -429,6 +429,8 @@ Aspose kullanarak C# ile PDF dosyalarından metin çıkarmayı adım adım öğr
 ### [C# ile Görüntüden Metin Çıkarma – Asenkron OCR Eğitimi](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Aspose.OCR kullanarak C# ile asenkron şekilde görüntülerden metin çıkarma adımlarını öğrenin.
 
+### [C#'ta Aspose OCR ile Metin Görüntüsü Tanıma](./recognize-text-image-with-aspose-ocr-in-c/)
+C# kullanarak Aspose OCR ile görüntülerden metin çıkarma adımlarını öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

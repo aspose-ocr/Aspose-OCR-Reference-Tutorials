@@ -421,6 +421,8 @@ url: /zh-hant/net/text-recognition/
 示範如何在 C# 中使用 Aspose OCR 從圖像提取文字，快速實現文字辨識功能。
 ### [使用 Aspose OCR 從表單提取文字 – 步驟指南](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
 示範如何使用 Aspose OCR 從表單中提取文字，提供完整的步驟說明，提升您的 .NET 應用程式文字辨識能力。
+### [在 C# 中使用 Aspose OCR 辨識文字影像](./recognize-text-image-with-aspose-ocr-in-c/)
+透過本教學學習如何在 C# 應用程式中使用 Aspose OCR 進行文字影像辨識。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

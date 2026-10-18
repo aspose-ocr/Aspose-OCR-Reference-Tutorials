@@ -435,6 +435,8 @@ Lär dig hur du med Aspose OCR extraherar text från formulär i en tydlig steg�
 ### [Hur du använder Aspose – Extrahera text från PDF i C# – Komplett guide](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
 Lär dig steg‑för‑steg hur du med Aspose OCR och C# extraherar text från PDF‑filer för en smidig integration i dina .NET‑applikationer.
 
+### [Känn igen text i bild med Aspose OCR i C#](./recognize-text-image-with-aspose-ocr-in-c/)
+Lär dig hur du använder Aspose OCR i C# för att känna igen text i bilder med enkel kod.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -396,6 +396,7 @@ url: /th/net/text-recognition/
 ### [ดึงข้อความจากแบบฟอร์มด้วย Aspose OCR – คู่มือทีละขั้นตอน](./extract-text-from-form-with-aspose-ocr-step-by-step-guide/)
 ### [ดึงข้อความจากรูปภาพใน C# – บทเรียน OCR แบบอะซิงโครนัส](./extract-text-from-image-in-c-async-ocr-tutorial/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพแบบอะซิงโครนัสอย่างง่ายดาย
+### [จดจำข้อความรูปภาพด้วย Aspose OCR ใน C#](./recognize-text-image-with-aspose-ocr-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

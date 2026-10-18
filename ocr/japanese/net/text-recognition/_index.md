@@ -446,6 +446,8 @@ Aspose OCR と C# を使用して画像からテキストを抽出する手順�
 ### [C# で画像からテキストを抽出する – 非同期 OCR チュートリアル](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Aspose OCR の非同期機能を使用して、C# で画像からテキストを高速に抽出する手順を解説します。
 
+### [C# で Aspose OCR を使用してテキスト画像を認識する](./recognize-text-image-with-aspose-ocr-in-c/)
+Aspose OCR を利用し、C# アプリケーションで画像内のテキストを正確に抽出する手順を解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

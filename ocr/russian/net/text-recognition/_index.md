@@ -416,6 +416,8 @@ url: /ru/net/text-recognition/
 ### [Извлечение текста из изображения на C# – Асинхронный учебник OCR](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Узнайте, как выполнять асинхронное распознавание текста из изображений в C# с помощью Aspose.OCR.
 
+### [Распознать изображение текста с Aspose OCR на C#](./recognize-text-image-with-aspose-ocr-in-c/)
+Научитесь распознавать текст на изображениях с помощью Aspose OCR в C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

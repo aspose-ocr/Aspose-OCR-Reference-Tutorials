@@ -429,6 +429,8 @@ Aspose.OCR를 사용하여 C#에서 비동기 방식으로 이미지의 텍스�
 Aspose OCR을 사용하여 양식 이미지에서 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
 ### [이미지에서 검색 가능한 PDF 만들기 – 완전한 C# 가이드](./create-searchable-pdf-from-image-complete-c-guide/)
 Aspose.OCR를 사용하여 이미지를 검색 가능한 PDF로 변환하는 전체 C# 단계별 가이드를 확인하세요.
+### [C#에서 Aspose OCR로 텍스트 이미지 인식](./recognize-text-image-with-aspose-ocr-in-c/)
+C#에서 Aspose OCR을 활용해 텍스트 이미지 인식 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -439,6 +439,8 @@ Kompletní průvodce ukazuje, jak pomocí Aspose v C# extrahovat text z PDF soub
 ### [Extrahujte text z obrázku v C# – Asynchronní OCR tutoriál](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Naučte se, jak asynchronně extrahovat text z obrázků v C# pomocí Aspose.OCR.
 
+### [Rozpoznat textový obrázek pomocí Aspose OCR v C#](./recognize-text-image-with-aspose-ocr-in-c/)
+Naučte se rozpoznávat text na obrázcích pomocí Aspose OCR v jazyce C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

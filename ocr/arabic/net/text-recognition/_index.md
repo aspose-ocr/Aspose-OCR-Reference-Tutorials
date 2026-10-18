@@ -434,6 +434,8 @@ url: /ar/net/text-recognition/
 ### [كيفية استخدام Aspose – استخراج النص من PDF في C# – دليل كامل](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية استخراج النص من ملفات PDF باستخدام Aspose في C# لتحقيق نتائج دقيقة وسهلة.
 
+### [التعرف على نص الصورة باستخدام Aspose OCR في C#](./recognize-text-image-with-aspose-ocr-in-c/)
+تعرف على كيفية التعرف على نص من صورة باستخدام Aspose OCR في C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

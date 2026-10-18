@@ -431,6 +431,8 @@ Tanulja meg, hogyan nyerhet ki szöveget űrlapokból az Aspose OCR használatá
 ### [Hogyan használja az Aspose – PDF‑ből szöveg kinyerése C#‑ban – Teljes útmutató](./how-to-use-aspose-extract-text-from-pdf-in-c-complete-guide/)
 Ismerje meg, hogyan nyerhet ki szöveget PDF‑fájlokból C#‑ban az Aspose segítségével, részletes lépésről‑lépésre útmutatóval.
 
+### [Szövegkép felismerése Aspose OCR segítségével C#-ban](./recognize-text-image-with-aspose-ocr-in-c/)
+Ismerje meg, hogyan ismerheti fel a szöveges képeket az Aspose OCR C# környezetben.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -422,6 +422,8 @@ Aspose OCR का उपयोग करके C# में छवियों �
 ### [C# में छवि से टेक्स्ट निकालें – असिंक्रोनस OCR ट्यूटोरियल](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Aspose OCR का उपयोग करके C# में असिंक्रोनस रूप से छवियों से टेक्स्ट निकालने का चरण‑दर‑स्टेप गाइड।
 
+### [C# में Aspose OCR के साथ टेक्स्ट इमेज पहचानें](./recognize-text-image-with-aspose-ocr-in-c/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की चरण-दर-चरण गाइड।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

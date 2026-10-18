@@ -442,6 +442,7 @@ url: /zh/net/text-recognition/
 ### [在 C# 中从图像提取文本 – 异步 OCR 教程](./extract-text-from-image-in-c-async-ocr-tutorial/)
 使用 Aspose OCR 的异步功能，在 C# 中高效提取图像文本，实现非阻塞的文字识别流程。
 
+### [在 C# 中使用 Aspose OCR 识别文本图像](./recognize-text-image-with-aspose-ocr-in-c/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

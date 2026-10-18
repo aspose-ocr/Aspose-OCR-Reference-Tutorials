@@ -438,6 +438,8 @@ Pelajari cara mengekstrak teks dari formulir menggunakan Aspose OCR dengan pandu
 Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan lengkap langkah demi langkah.
 ### [Ekstrak Teks dari Gambar dalam C# – Tutorial OCR Asinkron](./extract-text-from-image-in-c-async-ocr-tutorial/)
 Pelajari cara mengekstrak teks dari gambar secara asinkron menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Mengenali gambar teks dengan Aspose OCR di C#](./recognize-text-image-with-aspose-ocr-in-c/)
+Pelajari cara mengenali teks dalam gambar menggunakan Aspose OCR dengan bahasa C# secara mudah.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
