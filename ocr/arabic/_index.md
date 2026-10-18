@@ -1,14 +1,52 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-05-04
-description: تعرّف على كيفية استخدام دليل Aspose OCR للتعرف الضوئي على الأحرف – إرشادات
-  خطوة بخطوة لـ .NET و Java، تشمل الإعداد، التكوين، وتقنيات OCR المتقدمة.
+date: 2026-07-18
+description: تعلم كيفية استخدام دليل Aspose OCR للتعرف الضوئي على الأحرف – دليل خطوة
+  بخطوة لـ .NET و Java، يغطي الإعداد، التكوين، وتقنيات OCR المتقدمة.
 keywords:
-- aspose ocr tutorial
-- ocr for .net
-- ocr for java
+- aspose OCR tutorial
+- OCR for .NET
+- OCR for Java
+- optical character recognition
+- image text extraction
+lastmod: 2026-07-18
 linktitle: دروس Aspose.OCR
-title: دليل Aspose OCR – التعرف الضوئي على الأحرف
+og_description: يظهر دليل Aspose OCR للمطورين على .NET و Java كيفية استخراج النص من
+  الصور بدقة عالية. تعلم الإعداد، التكوين، والتقنيات المتقدمة في هذا الدليل خطوة بخطوة.
+og_image_alt: 'Guide: Aspose OCR tutorial for .NET and Java image text extraction'
+og_title: دروس Aspose OCR – إتقان OCR لـ .NET & Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-18'
+  description: Learn how to use the Aspose OCR tutorial for Optical Character Recognition
+    – step‑by‑step .NET and Java guides, covering setup, configuration, and advanced
+    OCR techniques.
+  headline: Aspose OCR Tutorial – Mastering Optical Character Recognition
+  type: TechArticle
+- questions:
+  - answer: Yes. A valid Aspose license is required for production use, but you can
+      start with a free trial to evaluate the features.
+    question: Can I use Aspose.OCR in a commercial application?
+  - answer: Common formats such as JPEG, PNG, BMP, TIFF, and GIF are fully supported.
+      The library also handles multi‑page TIFFs.
+    question: Which image formats are supported?
+  - answer: Use the OCR preprocessing options—such as noise removal, contrast enhancement,
+      and skew correction—available in the configuration tutorials.
+    question: How do I improve recognition accuracy on low‑quality scans?
+  - answer: Aspose.OCR includes limited support for cursive handwriting; for best
+      results, enable the handwriting language pack and adjust the recognition settings.
+    question: Is there a way to extract text from handwritten documents?
+  - answer: Detailed API docs are available on the Aspose website under the OCR product
+      section, linked from each tutorial page.
+    question: Where can I find API reference documentation?
+  type: FAQPage
+tags:
+- aspose OCR
+- OCR tutorial
+- .NET OCR
+- Java OCR
+- document processing
+title: دروس Aspose OCR – إتقان التعرف الضوئي على الأحرف
 url: /ar/
 weight: 11
 ---
@@ -17,101 +55,105 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دورة Aspose OCR – إتقان التعرف الضوئي على الأحرف
+# Aspose OCR Tutorial – إتقان التعرف الضوئي على الأحرف
 
-إذا كنت تبحث عن استخراج النص من الصور أو المستندات الممسوحة بسرعة ودقة، **دورة Aspose OCR** هي خريطة الطريق الخاصة بك. في هذا الدليل سنستعرض كيف يمكّن Aspose.OCR مطوري .NET و Java من تحويل الصور إلى نص قابل للبحث والتحرير—سواء كنت تبني نظام إدارة مستندات، أداة أتمتة إدخال بيانات، أو تطبيق مسح ضوئي للهواتف المحمولة. ستكتشف لماذا يبرز Aspose.OCR، وتطلع على أكثر الموارد فائدة، وتحصل على نصائح للحصول على أفضل النتائج فورًا.
+إذا كنت تبحث عن استخراج النص من الصور أو المستندات الممسوحة ضوئيًا بسرعة ودقة، **دروس Aspose OCR** هو خريطة الطريق الخاصة بك. في هذا الدليل سنستعرض كيف يمنح Aspose.OCR المطورين على .NET و Java القدرة على تحويل الصور إلى نص قابل للبحث والتحرير—سواء كنت تبني نظام إدارة مستندات، أداة أتمتة إدخال بيانات، أو تطبيق مسح ضوئي للهواتف المحمولة. ستكتشف لماذا يبرز Aspose.OCR، وتطلع على أكثر الموارد فائدة، وتحصل على نصائح للحصول على أفضل النتائج فورًا.
 
 ## إجابات سريعة
-- **ما الذي يفعله Aspose.OCR؟** يقرأ النص المطبوع أو المكتوب يدويًا من الصور ويعيد سلاسل Unicode.  
+- **ماذا يفعل Aspose.OCR؟** يقرأ النص المطبوع أو المكتوب يدويًا من الصور ويعيد سلاسل Unicode.  
 - **ما المنصات التي يغطيها؟** يتضمن الدليل أقسامًا مخصصة لمطوري .NET و Java.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
-- **هل يمكنني تخصيص إعدادات OCR؟** نعم—خيارات مثل اختيار اللغة، ومعالجة ما قبل الصورة، وتصحيح الميل قابلة للتكوين بالكامل.  
-- **هل يتم صيانة المكتبة بنشاط؟** تصدر Aspose تحديثات منتظمة وتوفر وثائق ودعمًا واسعًا.
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتقييم؛ الترخيص التجاري مطلوب للإنتاج.  
+- **هل يمكنني تخصيص إعدادات OCR؟** نعم—خيارات مثل اختيار اللغة، معالجة ما قبل الصورة، وتصحيح الانحراف قابلة للتكوين بالكامل.  
+- **هل المكتبة مُصانة بنشاط؟** تصدر Aspose تحديثات منتظمة وتوفر وثائق ودعمًا واسعًا.
 
-## ما هو دليل Aspose OCR؟
-**دليل Aspose OCR** يعلمك كيفية استخدام مكتبة Aspose.OCR لتحويل النص البصري إلى أحرف قابلة للقراءة آليًا. باتباع التعليمات خطوة بخطوة، ستتعلم إعداد SDK، ضبط معلمات التعرف، ودمج OCR في تطبيقات العالم الحقيقي.
+## ما هو درس Aspose OCR؟
+يعلم درس Aspose OCR المطورين كيفية استخدام مكتبة Aspose.OCR لتحويل النص البصري إلى أحرف قابلة للقراءة آليًا. باتباع التعليمات خطوة بخطوة، ستتعلم إعداد SDK، ضبط معلمات التعرف، وتكامل OCR في تطبيقات العالم الحقيقي.
+
+## كيفية إعداد Aspose OCR لـ .NET؟
+فئة `OcrEngine` تقوم بتحليل OCR على الصورة. قم بتثبيت حزمة Aspose.OCR عبر NuGet، أضف `using Aspose.OCR;`، واحصل على مفتاح تجريبي أو مرخص من بوابة Aspose. ثم أنشئ كائن `OcrEngine`، حمّل صورتك باستخدام `LoadImage`، واستدعِ `Recognize`. هذا التدفق البسيط يجعل استخراج النص يعمل في أقل من خمس دقائق.
+
+## كيفية إعداد Aspose OCR لـ Java؟
+فئة `License` تسجل ترخيص Aspose OCR مع المكتبة. قم بتثبيت ملف JAR الخاص بـ Aspose.OCR، استورد `com.aspose.ocr.*`، واضبط الترخيص باستخدام `License license = new License(); license.setLicense("Aspose.OCR.lic");`. ثم أنشئ كائن `OcrEngine`، قدم مسار الصورة عبر `setImage`، واستدعِ `recognize`. هذا يعكس تدفق .NET ويمكنك من استخراج النص بسرعة.
 
 ## لماذا تختار Aspose OCR لمشاريعك؟
-- **دقة عالية** – الخوارزميات المتقدمة تتعامل مع الصور الضوضائية، الصفحات المائلة، واللغات المتعددة.  
-- **دعم متعدد المنصات** – نفس المحرك الأساسي يعمل على .NET و Java وغيرها، بحيث يمكنك إعادة استخدام الكود عبر الأنظمة.  
-- **عدم وجود تبعيات خارجية** – لا تحتاج إلى ملفات ثنائية أصلية أو محركات OCR من طرف ثالث، مما يبسط النشر.  
-- **خيارات تكوين غنية** – التحكم في المعالجة المسبقة، حزم اللغات، وصيغ الإخراج لتتناسب مع أي حالة استخدام.  
-- **أداء قابل للتوسع** – يعمل بنفس الكفاءة على سطح المكتب، الخادم، والبيئات الحاوية.
+يجمع Aspose OCR بين الدقة العالية ودعم متعدد المنصات، مقدماً محركًا واحدًا يعمل على .NET و Java وبيئات أخرى دون تبعيات خارجية. يوفر خيارات تكوين واسعة، أداءً قابلًا للتوسع لكل من سيناريوهات سطح المكتب والخادم، وتحديثات منتظمة مدعومة بدعم مخصص، مما يجعله خيارًا موثوقًا لأي مشروع معالجة مستندات.
+
+## الفوائد الكمية
+يدعم Aspose.OCR **أكثر من 30 لغة**، بما في ذلك الخطوط المعقدة مثل العربية والهندية، ويمكنه معالجة صور تصل إلى **200 ميغابايت** دون تحميل الملف بالكامل في الذاكرة. على صفحة نموذجية بدقة 300 DPI، يقدم المحرك النتائج في **أقل من 0.5 ثانية** على معالج قياسي 2.5 GHz، ويتعامل مع دفعات **أكثر من 500 صفحة في الدقيقة** عند تشغيله بشكل متوازي.
 
 ## حالات الاستخدام الشائعة
-- **أنظمة إدارة الوثائق** – فهرسة العقود الممسوحة، الفواتير، والتقارير تلقائيًا.  
+- **أنظمة إدارة المستندات** – فهرسة العقود، الفواتير، والتقارير الممسوحة ضوئيًا تلقائيًا.  
 - **أتمتة إدخال البيانات** – استخراج الحقول من النماذج أو الإيصالات دون كتابة يدوية.  
-- **تطبيقات المسح الضوئي على الهواتف** – توفير OCR على الجهاز للترجمة الفورية أو تدوين الملاحظات.  
+- **تطبيقات المسح الضوئي للهواتف المحمولة** – توفير OCR على الجهاز للترجمة الفورية أو تدوين الملاحظات.  
 - **ترحيل الأنظمة القديمة** – تحويل السجلات الورقية المؤرشفة إلى أرشيفات رقمية قابلة للبحث.
 
 ## المتطلبات المسبقة
-- بيئة تطوير لـ **.NET** (مثل Visual Studio 2022) أو **Java** (مثل IntelliJ IDEA أو Eclipse).  
-- وقت تشغيل .NET 6+ أو Java 11+ مثبت.  
-- نسخة تجريبية أو حزمة مرخصة من Aspose.OCR تم تحميلها من موقع Aspose.
+- بيئة تطوير **.NET** (مثل Visual Studio 2022) أو **Java** (مثل IntelliJ IDEA أو Eclipse).  
+- .NET 6+ أو Java 11+ مثبتة.  
+- حزمة تجريبية أو مرخصة من Aspose.OCR تم تنزيلها من موقع Aspose.
 
 ## دروس Aspose.OCR لـ .NET
 {{% alert color="primary" %}}
-افتح الإمكانات الكاملة للتعرف على الصور باستخدام OCR مع Aspose.OCR لـ .NET. من حساب زاوية الميل بدقة إلى التعرف على النص وتحسينه، توفر دروسنا الشاملة إرشادات خطوة بخطوة. ارتقِ بدقة وكفاءة مشاريعك بسهولة، مع ضمان دمج سلس لتقنيات OCR المتقدمة. غص في عالم Aspose.OCR لـ .NET وغير طريقة استخراج النص لديك.
+اكتشف الإمكانات الكاملة للتعرف على الصور عبر OCR باستخدام Aspose.OCR لـ .NET. من حساب زاوية الانحراف بدقة إلى التعرف على النص وتحسينه، توفر دروسنا الشاملة إرشادات خطوة بخطوة. ارتقِ بدقة وكفاءة مشاريعك بسهولة، مع ضمان تكامل سلس لتقنيات OCR المتقدمة. اغمر نفسك في عالم Aspose.OCR لـ .NET وغيّر طريقة استخراج النص لديك.
 {{% /alert %}}
 
-These are links to some useful resources:
+هذه بعض الروابط المفيدة:
 
-- [Skew Angle Calculation](./net/skew-angle-calculation/)
-- [Image and Drawing Recognition](./net/image-and-drawing-recognition/)
-- [Text Recognition](./net/text-recognition/)
-- [OCR Configuration](./net/ocr-configuration/)
-- [OCR Optimization](./net/ocr-optimization/)
-- [OCR Settings](./net/ocr-settings/)
+- [حساب زاوية الانحراف](./net/skew-angle-calculation/)
+- [التعرف على الصور والرسومات](./net/image-and-drawing-recognition/)
+- [التعرف على النص](./net/text-recognition/)
+- [إعدادات OCR](./net/ocr-configuration/)
+- [تحسين OCR](./net/ocr-optimization/)
+- [إعدادات OCR](./net/ocr-settings/)
 
 ## دروس Aspose.OCR لـ Java
 {{% alert color="primary" %}}
-أطلق قوة استخراج النص في تطبيقات Java مع Aspose.OCR! صفحة دروس Java هي بوابتك لإتقان قدرات OCR بسهولة. استكشف أدلة شاملة تغطي التعرف على النص، التكوين، والتحسين. ارتقِ بمشاريع Java الخاصة بك من خلال تمكين الدقة والكفاءة في Aspose.OCR، وضمان دمج سلس ونتائج دقيقة. استكشف الدروس اليوم ومكّن تطبيقات Java الخاصة بك من تقنية OCR المتطورة.
+أطلق قوة استخراج النص في تطبيقات Java مع Aspose.OCR! صفحة دروس Java هي بوابتك لإتقان قدرات OCR بسهولة. استكشف أدلة شاملة تغطي التعرف على النص، التكوين، والتحسين. ارتقِ بمشاريع Java الخاصة بك من خلال تمكين الدقة والكفاءة التي يقدمها Aspose.OCR، وضمان تكامل سلس ونتائج دقيقة. استكشف الدروس اليوم ومكّن تطبيقات Java الخاصة بك بأحدث تقنيات OCR.
 {{% /alert %}}
 
-These are links to some useful resources:
+هذه بعض الروابط المفيدة:
 
-- [OCR Basics](./java/ocr-basics/)
-- [OCR Operations](./java/ocr-operations/)
-- [Advanced OCR Techniques](./java/advanced-ocr-techniques/)
+- [أساسيات OCR](./java/ocr-basics/)
+- [عمليات OCR](./java/ocr-operations/)
+- [تقنيات OCR المتقدمة](./java/advanced-ocr-techniques/)
 
 ## المشكلات الشائعة والحلول
 | المشكلة | السبب الشائع | الإصلاح السريع |
 |-------|---------------|-----------|
-| **حروف غير صالحة في المخرجات** | صورة منخفضة التباين أو ضوضاء | فعّل `PreprocessOptions.NoiseRemoval` وزد التباين قبل التعرف. |
-| **نتائج نص مائلة** | الصورة غير محاذاة بشكل صحيح | استخدم دليل **Skew Angle Calculation** لاكتشاف وتصحيح الدوران تلقائيًا. |
-| **النص المكتوب يدويًا غير مُعترف به** | حزمة لغة الكتابة اليدوية مفقودة | ثبّت حزمة لغة الكتابة اليدوية واضبط `RecognitionOptions.Language = Language.HANDWRITING`. |
-| **تباطؤ الأداء عند دفعات كبيرة** | معالجة الصور تسلسليًا على خيط واحد | قم بتوازي استدعاءات OCR باستخدام `Task.Run` أو استخدم API غير متزامن إذا كان متاحًا. |
+| **حروف غير صالحة في المخرجات** | صورة منخفضة التباين أو صاخبة | فعّل `PreprocessOptions.NoiseRemoval` وزد التباين قبل التعرف. |
+| **نتائج نص مائلة** | الصورة غير محاذاة بشكل صحيح | استخدم درس **Skew Angle Calculation** لاكتشاف وتصحيح الدوران تلقائيًا. |
+| **النص المكتوب يدويًا غير معترف به** | حزمة لغة الخط اليدوي مفقودة | ثبّت حزمة لغة الخط اليدوي واضبط `RecognitionOptions.Language = Language.HANDWRITING`. |
+| **تباطؤ الأداء عند دفعات كبيرة** | معالجة الصور بشكل متسلسل على خيط واحد | قم بتوازي استدعاءات OCR باستخدام `Task.Run` أو استخدم واجهة برمجة التطبيقات غير المتزامنة إذا كانت متاحة. |
 
-## الأسئلة المتداولة
+## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.OCR في تطبيق تجاري؟**  
-ج: نعم. يلزم وجود ترخيص Aspose صالح للاستخدام في الإنتاج، ولكن يمكنك البدء بنسخة تجريبية مجانية لتقييم الميزات.
+ج: نعم. يلزم وجود ترخيص Aspose صالح للاستخدام في الإنتاج، لكن يمكنك البدء بنسخة تجريبية مجانية لتقييم الميزات.
 
-**س: ما صيغ الصور المدعومة؟**  
-ج: الصيغ الشائعة مثل JPEG, PNG, BMP, TIFF, و GIF مدعومة بالكامل. المكتبة تدعم أيضًا ملفات TIFF متعددة الصفحات.
+**س: ما هي صيغ الصور المدعومة؟**  
+ج: الصيغ الشائعة مثل JPEG، PNG، BMP، TIFF، و GIF مدعومة بالكامل. المكتبة تتعامل أيضًا مع ملفات TIFF متعددة الصفحات.
 
 **س: كيف أحسن دقة التعرف على المسحات منخفضة الجودة؟**  
-ج: استخدم خيارات ما قبل المعالجة في OCR—مثل إزالة الضوضاء، تحسين التباين، وتصحيح الميل—المتاحة في دروس التكوين.
+ج: استخدم خيارات ما قبل المعالجة في OCR—مثل إزالة الضوضاء، تحسين التباين، وتصحيح الانحراف—المتوفرة في دروس التكوين.
 
 **س: هل هناك طريقة لاستخراج النص من المستندات المكتوبة يدويًا؟**  
-ج: Aspose.OCR يتضمن دعمًا محدودًا للخط اليدوي المتصل؛ للحصول على أفضل النتائج، فعّل حزمة لغة الكتابة اليدوية واضبط إعدادات التعرف.
+ج: يدعم Aspose.OCR دعمًا محدودًا للخط اليدوي المتصل؛ للحصول على أفضل النتائج، فعّل حزمة لغة الخط اليدوي واضبط إعدادات التعرف.
 
 **س: أين يمكنني العثور على وثائق مرجع API؟**  
-ج: وثائق API التفصيلية متاحة على موقع Aspose ضمن قسم منتج OCR، ومربوطة من كل صفحة دليل.
+ج: وثائق API التفصيلية متاحة على موقع Aspose تحت قسم منتجات OCR، ومربوطة من كل صفحة درس.
 
-**س: هل يعمل Aspose.OCR على حاويات لينكس؟**  
-ج: نعم. المكتبة مستقلة عن المنصة وتعمل داخل حاويات Docker طالما تم تثبيت وقت تشغيل .NET أو Java.
+**س: هل يعمل Aspose.OCR على حاويات Linux؟**  
+ج: نعم. المكتبة مستقلة عن المنصة وتعمل داخل حاويات Docker طالما أن بيئة تشغيل .NET أو Java موجودة.
 
 **س: كيف يمكنني معالجة ملفات PDF متعددة الصفحات باستخدام Aspose.OCR؟**  
-ج: حوّل كل صفحة PDF إلى صورة (مثلاً باستخدام Aspose.PDF) ومرّر الصور إلى محرك OCR بالتتابع.
+ج: حوّل كل صفحة PDF إلى صورة (مثلاً باستخدام Aspose.PDF) ومرّر الصور إلى محرك OCR بشكل متسلسل.
 
-**Last Updated:** 2026-05-04  
-**Tested With:** أحدث إصدار من Aspose.OCR (حتى 2026)  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**آخر تحديث:** 2026-07-18  
+**تم الاختبار مع:** أحدث إصدار من Aspose.OCR (حتى عام 2026)  
+**المؤلف:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
