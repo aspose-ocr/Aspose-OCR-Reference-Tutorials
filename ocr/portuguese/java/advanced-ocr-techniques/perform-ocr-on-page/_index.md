@@ -9,27 +9,17 @@ url: /pt/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
-Frequently Asked Questions" => "Perguntas Frequentes"
 
-Then Q&A.
 
-"FAQ (Additional)" => "FAQ (Adicional)"
 
-More Q&A.
 
-"Conclusion" => "Conclusão"
 
-Paragraph.
 
-Then footer.
 
-"Last Updated:" etc.
 
-All good.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

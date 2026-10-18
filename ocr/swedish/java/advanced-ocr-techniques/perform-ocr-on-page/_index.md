@@ -9,9 +9,7 @@ url: /sv/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
- unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

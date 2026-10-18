@@ -9,11 +9,9 @@ url: /sv/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
--button >}}
 
-Make sure to keep markdown formatting.
 
-Now produce final output with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

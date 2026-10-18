@@ -9,19 +9,13 @@ url: /cs/java/advanced-ocr-techniques/perform-ocr-image-from-url/
 weight: 11
 ---
 
-"**Author:** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes at start and end.
 
-Now produce final content with translation.
 
-Check that we didn't translate any URLs.
 
-Make sure code block placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
