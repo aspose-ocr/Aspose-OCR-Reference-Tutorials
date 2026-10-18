@@ -45,6 +45,9 @@ Aprenda paso a paso cómo aplicar OCR a PDFs en C# y extraer su texto de forma c
 Navegue por las complejidades del reconocimiento de tablas en el reconocimiento de imágenes OCR con Aspose.OCR para .NET. Nuestra guía completa le permite desbloquear todo el potencial de Aspose.OCR, garantizando un reconocimiento de tablas preciso y eficiente en sus aplicaciones. Mejore sus proyectos con la solución OCR líder en la industria.
 
 ## Tutoriales de reconocimiento de texto
+### [How to perform OCR on an image in C# with Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
+
+
 ### [Crear PDF buscable a partir de TIFF – Guía paso a paso de Aspose OCR](./create-searchable-pdf-from-tiff-aspose-ocr-step-by-step-guid/)
 Aprenda a generar PDFs buscables a partir de archivos TIFF usando Aspose.OCR en .NET con esta guía paso a paso.
 

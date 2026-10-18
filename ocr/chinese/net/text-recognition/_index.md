@@ -455,3 +455,7 @@ url: /zh/net/text-recognition/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### 新增的教程条目
+
+### [如何在 C# 中使用 Aspose OCR 对图像执行 OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)

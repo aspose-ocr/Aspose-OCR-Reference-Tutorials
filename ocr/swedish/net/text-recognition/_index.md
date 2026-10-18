@@ -43,6 +43,9 @@ Navigera i komplexiteten med att känna igen tabeller i OCR-bildigenkänning med
 
 Är du redo att revolutionera dina .NET-applikationer? Dyk in i våra självstudier för textigenkänning och utnyttja kraften i Aspose.OCR för korrekt och effektiv textigenkänning i bilder. Ladda ner nu och ge dig ut på en resa med förbättrade OCR-funktioner.
 ## Handledning för textigenkänning
+### [How to perform OCR on an image in C# with Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
+
+
 ### [Hur man sparar JSON från OCR i C# – Steg‑för‑steg‑guide](./how-to-save-json-from-ocr-in-c-step-by-step-guide/)
 Lär dig hur du sparar OCR-resultat som JSON i C# med en enkel steg‑för‑steg‑guide.
 
