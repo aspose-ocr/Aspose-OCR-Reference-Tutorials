@@ -9,9 +9,8 @@ url: /pl/java/
 weight: 10
 ---
 
-, links, code blocks (none except inline). No code fences. Ensure we kept bold formatting.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

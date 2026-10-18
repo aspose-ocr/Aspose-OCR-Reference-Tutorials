@@ -10,19 +10,12 @@ url: /de/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
 
- "Detect Areas Mode" unchanged.
 
-Similarly for other headings.
 
-Translate paragraphs.
 
-Be careful with code snippets like "Receipt.jpg" keep same.
 
-Translate bullet list items.
 
-Translate "Quick Answers" etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

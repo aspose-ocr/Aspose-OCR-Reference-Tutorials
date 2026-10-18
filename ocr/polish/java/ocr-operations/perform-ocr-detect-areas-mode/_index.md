@@ -11,13 +11,9 @@ url: /pl/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
 
- phrase. We'll translate.
 
-Make sure not to translate code placeholders.
 
-Also keep URLs unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
