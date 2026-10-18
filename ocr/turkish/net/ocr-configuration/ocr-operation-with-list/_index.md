@@ -9,17 +9,11 @@ url: /tr/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
- => "Giriş"
 
-Translate rest.
 
-Make sure to keep code block placeholders unchanged.
 
-Also translate table.
 
-Translate FAQ.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

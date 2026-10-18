@@ -10,7 +10,7 @@ url: /nl/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
