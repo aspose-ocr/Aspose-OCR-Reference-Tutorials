@@ -444,6 +444,12 @@ url: /ru/net/text-recognition/
 Изучите, как использовать Aspose OCR в C# с нуля, следуя полному пошаговому руководству по интеграции OCR в ваши .NET‑проекты.
 ### [Извлечь текст из изображения C# – Полное пошаговое руководство](./extract-text-from-image-c-complete-step-by-step-guide/)
 Узнайте, как с помощью Aspose.OCR извлечь текст из изображений в C# с нуля, следуя полному пошаговому руководству.
+### [Изображение чека в текст — кириллический OCR с Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Преобразуйте изображения чеков в текст на кириллице с помощью Aspose.OCR для .NET. Следуйте пошаговому руководству для точного распознавания.
+### [Как конвертировать OCR в JSON и XML на C# – Запись JSON-файла](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Научитесь сохранять результаты OCR в формате JSON, записывая их в файл с помощью C#.
+### [c# OCR‑руководство – извлечение арабского текста с Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Извлеките арабский текст из изображений с помощью Aspose OCR в C#. Следуйте пошаговому руководству для точного распознавания.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

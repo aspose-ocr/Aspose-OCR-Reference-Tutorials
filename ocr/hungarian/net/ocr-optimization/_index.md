@@ -242,6 +242,12 @@ Ismerje meg, hogyan hozhat létre kereshető PDF‑et C#‑ban az Aspose.OCR seg
 ### [Szöveg kinyerése képről C#‑ban – Automatikus forgatás OCR és kiegyenesítés útmutató](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Fedezze fel, hogyan használhatja az automatikus forgatást és kiegyenesítést az OCR‑ban C#‑ban a szöveg pontos kinyeréséhez.
 
+### [Szöveg felismerése PNG-ből az Aspose OCR‑rel – GPU‑gyorsított kötegelt bemutató](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demó, amely GPU‑gyorsítással kötegelt PNG‑képek szövegfelismerését mutatja be az Aspose OCR használatával.
+
+### [Kereshető PDF létrehozása Aspose OCR-rel C#-ban](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et Aspose OCR és C# segítségével, lépésről‑lépésre útmutatóval.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

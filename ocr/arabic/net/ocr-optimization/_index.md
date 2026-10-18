@@ -56,6 +56,7 @@ weight: 25
 تعلم كيفية تصحيح ميل الصور باستخدام C# لتحسين دقة OCR مع دليل شامل خطوة بخطوة.
 ### [كيفية استخدام الفلاتر في Aspose OCR – تعزيز استخراج النص](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 تعلم كيفية تطبيق فلاتر ما قبل المعالجة في Aspose OCR لتحسين دقة استخراج النص وزيادة السرعة.
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تعزيز الدقة باستخدام Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 
 ## تصحيح النتائج باستخدام التدقيق الإملائي في التعرف على الصور باستخدام OCR
 
@@ -179,8 +180,6 @@ weight: 25
 
 
 
-### [معالجة مسبقة للصورة للتعرف الضوئي على الحروف – تعزيز الدقة باستخدام Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-اكتشف كيف تحسن معالجة الصورة قبل التعرف الضوئي على الحروف الدقة باستخدام Aspose OCR.
 ### [دليل c# OCR – التعرف على النص من الصورة مع تسريع GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 تعلم كيفية استخدام Aspose.OCR مع C# لتسريع عملية التعرف على النص من الصور باستخدام وحدة معالجة الرسوميات (GPU).
 
@@ -230,6 +229,10 @@ weight: 25
 تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose.PDF for .NET في C# خطوة بخطوة.
 ### [استخراج النص من صورة في C# – دليل OCR مع التدوير التلقائي وتصحيح الميل](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 دليل شامل لتطبيق OCR مع تدوير تلقائي وتصحيح الميل لتحسين دقة استخراج النص.
+### [التعرف على النص من PNG باستخدام Aspose OCR – عرض تجريبي للمعالجة الدفعية باستخدام GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+اكتشف كيفية معالجة مجموعة من ملفات PNG بسرعة باستخدام GPU مع Aspose OCR في مثال عملي.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR في C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR مع C# خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

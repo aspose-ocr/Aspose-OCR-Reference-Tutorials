@@ -247,6 +247,11 @@ Aspose.OCR का उपयोग करके C# में खोज योग�
 
 ### [C# में छवि से पाठ निकालें – ऑटो‑रोटेट OCR और डेस्क्यू गाइड](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 ऑटो‑रोटेशन और डेस्क्यू फ़िल्टर के साथ तेज़, सटीक OCR के लिए चरण‑दर‑चरण मार्गदर्शन।
+### [Aspose OCR के साथ PNG से टेक्स्ट पहचानें – GPU‑त्वरित बैच डेमो](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+GPU‑त्वरित बैच प्रोसेसिंग के साथ PNG छवियों से तेज़ और सटीक टेक्स्ट निकालें।
+
+### [C# में Aspose OCR के साथ खोज योग्य PDF बनाएं](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Aspose OCR का उपयोग करके C# में खोज योग्य PDF उत्पन्न करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

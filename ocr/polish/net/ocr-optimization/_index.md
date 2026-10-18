@@ -71,7 +71,6 @@ Dowiedz się, jak włączyć sprawdzanie pisowni i automatycznie korygować bł�
 ### [Zapisz wielostronicowy wynik jako dokument w rozpoznawaniu obrazu OCR](./save-multipage-result-as-document/)
 Odblokuj potencjał Aspose.OCR for .NET. Bezproblemowo zapisz wielostronicowe wyniki OCR jako dokumenty dzięki temu kompleksowemu przewodnikowi krok po kroku.
 
-## Poradniki optymalizacji OCR
 ### [Jak używać filtrów w Aspose OCR – zwiększ wydobycie tekstu](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Dowiedz się, jak zastosować filtry w Aspose OCR, aby poprawić dokładność i szybkość wyodrębniania tekstu z obrazów.
 
@@ -243,6 +242,9 @@ Dowiedz się, jak generować przeszukiwalne pliki PDF w C# przy użyciu Aspose.O
 
 ### [Wyodrębnianie tekstu z obrazu w C# – przewodnik po automatycznym obracaniu OCR i prostowaniu](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Poznaj, jak używać Aspose.OCR w C# do automatycznego obracania i prostowania obrazów przed rozpoznaniem tekstu.
+### [Rozpoznawanie tekstu z PNG przy użyciu Aspose OCR – Demo wsadowe przyspieszone GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR w C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 
 ## Często zadawane pytania
 

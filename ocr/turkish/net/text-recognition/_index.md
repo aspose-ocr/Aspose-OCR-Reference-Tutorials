@@ -458,6 +458,12 @@ C# ile PNG formatındaki görüntülerden metni hızlıca çıkarın ve Aspose.O
 C# ile görüntülerden metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR'ın gücünden faydalanın.
 ### [C#'ta Aspose OCR Nasıl Kullanılır – Tam Kılavuz](./how-to-use-aspose-ocr-in-c-complete-guide/)
 C# ile Aspose OCR'ı adım adım kullanarak metin tanımada tam bir rehber elde edin.
+### [Fiş Görüntüsünden Metne – Aspose ile Kiril OCR](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Aspose kullanarak Kiril alfabesindeki fiş görüntülerini metne dönüştürmeyi adım adım öğrenin.
+### [C#'ta OCR'yi JSON ve XML'e Dönüştürme – JSON Dosyası Yazma](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+C# ile OCR sonuçlarını JSON ve XML formatına dönüştürüp JSON dosyası oluşturmayı adım adım öğrenin.
+### [C# OCR Eğitimi – Aspose OCR ile Arapça Metin Çıkarma](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Aspose OCR kullanarak C# ile Arapça metinleri nasıl çıkaracağınızı adım adım öğrenin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

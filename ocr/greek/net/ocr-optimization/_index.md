@@ -231,6 +231,10 @@ weight: 25
 Μάθετε πώς να εκμεταλλευτείτε την επιτάχυνση GPU του Aspose OCR σε C# για γρήγορη και ακριβή εξαγωγή κειμένου από εικόνες.
 ### [Εξαγωγή κειμένου από εικόνα σε C# – Οδηγός αυτόματης περιστροφής OCR & διόρθωσης κλίσης](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Μάθετε πώς να εφαρμόσετε αυτόματη περιστροφή και διόρθωση κλίσης σε OCR με Aspose.OCR for .NET σε C#.
+### [Αναγνώριση κειμένου από PNG με Aspose OCR – Παράδειγμα παρτίδας με επιτάχυνση GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Δείτε πώς να επεξεργαστείτε μαζικά PNG χρησιμοποιώντας GPU για γρήγορο OCR με Aspose OCR.
+### [Δημιουργία αναζητήσιμου PDF με Aspose OCR σε C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με C#.
 
 ## Συχνές Ερωτήσεις
 

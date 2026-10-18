@@ -200,6 +200,8 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm từ hình ảnh
 ### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR GPU trong C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
 ### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR tự xoay & chỉnh nghiêng](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Hướng dẫn chi tiết cách tự động xoay và chỉnh nghiêng ảnh trước khi OCR, nâng cao độ chính xác trong C#.
+### [Nhận dạng văn bản từ PNG bằng Aspose OCR – Demo xử lý hàng loạt tăng tốc GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+### [Tạo PDF có thể tìm kiếm với Aspose OCR trong C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 
 ## Câu hỏi thường gặp
 

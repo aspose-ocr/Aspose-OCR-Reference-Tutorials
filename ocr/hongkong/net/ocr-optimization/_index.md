@@ -224,6 +224,10 @@ weight: 25
 使用 Aspose.OCR for .NET，從圖像生成可搜尋 PDF，完整步驟教學，提升文件可讀性與搜尋功能。
 ### [在 C# 中從圖像提取文字 – 自動旋轉 OCR 與去斜指南](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 使用 Aspose.OCR for .NET 在 C# 中自動旋轉與去斜圖像，提升文字辨識準確度的完整指南。
+### [使用 Aspose OCR 從 PNG 識別文字 – GPU 加速批次示範](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+展示如何利用 GPU 加速批次處理 PNG 圖像的文字辨識，提升效能與準確度。
+### [使用 Aspose OCR 在 C# 中建立可搜尋 PDF](./create-searchable-pdf-with-aspose-ocr-in-c/)
+示範如何使用 Aspose OCR 於 C# 產生可搜尋的 PDF 文件，提升文件可讀性與搜尋功能。
 
 ## 常見問題
 

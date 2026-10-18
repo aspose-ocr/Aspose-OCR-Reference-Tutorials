@@ -55,6 +55,8 @@ Enhance OCR accuracy with Aspose.OCR for .NET by exploring [preprocessing filter
 Learn to build a preprocessing pipeline to recognize text from images using Aspose.OCR for .NET in C#.
 ### [How to Deskew Image in C# – Full OCR Pre‑processing Guide](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# projects.
+### [Preprocess Image for OCR – Boost Accuracy with Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Learn how to preprocess images to improve OCR accuracy using Aspose.OCR for .NET.
 
 ## Result Correction with Spell Checking in OCR Image Recognition
 
@@ -176,8 +178,6 @@ Boost OCR accuracy in C# by preprocessing images with Aspose OCR. Learn techniqu
 
 
 
-### [Preprocess Image for OCR – Boost Accuracy with Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-Boost OCR accuracy by preprocessing images with Aspose OCR. Learn techniques to enhance recognition results.
 ### [c# ocr tutorial – Recognize Text from Image with GPU Acceleration](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Leverage GPU acceleration to boost OCR speed and accuracy when recognizing text from images using Aspose.OCR for .NET.
 
@@ -226,6 +226,10 @@ Leverage GPU acceleration to recognize text from images using Aspose OCR in C# f
 Learn how to generate searchable PDFs in C# using Aspose.OCR, covering setup, OCR processing, and PDF creation in a full programming guide.
 ### [Extract Text from Image in C# – Auto‑Rotate OCR & Deskew Guide](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Learn how to automatically rotate and deskew images before OCR in C# using Aspose.OCR for improved accuracy.
+### [recognize text from png with Aspose OCR – GPU‑Accelerated Batch Demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demonstrates GPU‑accelerated batch processing to recognize text from PNG images using Aspose OCR for .NET.
+### [Create Searchable PDF with Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Learn how to generate searchable PDF files from images using Aspose OCR in C#.
 
 ## Frequently Asked Questions
 

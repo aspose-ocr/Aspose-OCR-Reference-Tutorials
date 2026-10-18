@@ -458,6 +458,12 @@ Poznaj pełny przewodnik, jak wykorzystać Aspose OCR w C# do precyzyjnego rozpo
 Poznaj, jak używać Aspose.OCR w .NET do wyodrębniania tekstu z obrazów, krok po kroku, zapewniając wysoką dokładność.
 ### [Jak używać OCR w C# – Szybkie wyodrębnianie tekstu z obrazów PNG](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 Dowiedz się, jak w prosty sposób używać Aspose.OCR w C# do szybkiego wyodrębniania tekstu z plików PNG.
+### [Obraz paragonu do tekstu – OCR cyrylicy z Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Konwertuj obrazy paragonów zapisane cyrylicą na tekst przy użyciu Aspose.OCR w .NET.
+### [Jak przekonwertować OCR do JSON i XML w C# – Zapisz plik JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Dowiedz się, jak w C# przekształcić wyniki OCR do formatu JSON i XML oraz zapisać je w pliku JSON.
+### [c# OCR samouczek – wyodrębnić arabski tekst z Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Dowiedz się, jak w C# przy użyciu Aspose OCR wyodrębnić tekst arabski z obrazów, zapewniając wysoką dokładność i obsługę języka arabskiego.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

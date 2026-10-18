@@ -414,6 +414,12 @@ url: /th/net/text-recognition/
 ### [วิธีใช้ OCR ใน C# – ดึงข้อความจากภาพ PNG อย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 ### [วิธีใช้ Aspose OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-aspose-ocr-in-c-complete-guide/)
 ### [สกัดข้อความจากภาพ C# – คู่มือขั้นตอนโดยละเอียด](./extract-text-from-image-c-complete-step-by-step-guide/)
+### [ภาพใบเสร็จเป็นข้อความ – OCR Cyrillic ด้วย Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+เรียนรู้วิธีแปลงภาพใบเสร็จเป็นข้อความด้วย OCR Cyrillic โดยใช้ Aspose อย่างง่ายดายและแม่นยำ
+### [วิธีแปลง OCR เป็น JSON & XML ใน C# – เขียนไฟล์ JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+เรียนรู้วิธีแปลงผลลัพธ์ OCR เป็นรูปแบบ JSON หรือ XML ด้วย C# และบันทึกเป็นไฟล์ JSON อย่างง่าย
+### [บทแนะนำ OCR ด้วย C# – ดึงข้อความอารบิกด้วย Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+เรียนรู้วิธีดึงข้อความภาษาอารบิกจากภาพด้วย Aspose OCR ใน C# ผ่านขั้นตอนที่ง่ายและแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

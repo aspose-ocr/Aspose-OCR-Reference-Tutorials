@@ -232,6 +232,10 @@ Využijte GPU akceleraci v Aspose OCR pro rychlé rozpoznání textu z obrázků
 Vytvořte prohledávatelný PDF pomocí Aspose.OCR v C# s podrobným krok‑za‑krokem návodem.
 ### [Extrahovat text z obrázku v C# – Průvodce automatickým otočením OCR a deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Naučte se automaticky otáčet a vyrovnávat obrázky před OCR pomocí Aspose.OCR v C#.
+### [Vytvořit prohledávatelný PDF pomocí Aspose OCR v C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Naučte se, jak pomocí Aspose OCR v C# vytvořit prohledávatelný PDF dokument z obrázků.
+### [Rozpoznat text z PNG pomocí Aspose OCR – GPU‑akcelerovaný dávkový demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Ukázkový projekt, který využívá GPU akceleraci pro hromadné rozpoznávání textu z PNG souborů pomocí Aspose OCR.
 
 ## Často kladené otázky
 

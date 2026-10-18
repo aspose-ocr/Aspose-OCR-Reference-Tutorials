@@ -55,6 +55,8 @@ Aumente a precisão do OCR com Aspose.OCR para .NET explorando [filtros de pré�
 
 ### [Pré‑processar Imagem OCR em C# – Guia Completo para Aumentar a Precisão](./preprocess-image-ocr-in-c-complete-guide-to-boost-accuracy/)
 Aprenda a aplicar filtros e técnicas de pré‑processamento em C# para melhorar a precisão do OCR com Aspose.OCR.
+### [Pré‑processar Imagem para OCR – Aumente a Precisão com Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Aprenda a aplicar filtros e técnicas de pré‑processamento para melhorar a precisão do OCR com Aspose.OCR.
 
 ## Correção de Resultado com Verificação Ortográfica em Reconhecimento de Imagem OCR
 
@@ -183,8 +185,6 @@ Aprenda a pré-processar imagens para OCR em C# usando Aspose OCR, melhorando a 
 
 
 
-### [Pré-processar imagem para OCR – Aumente a precisão com Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-Aprenda a pré-processar imagens para melhorar a precisão do OCR usando Aspose OCR.
 ### [c# OCR – Reconhecer Texto de Imagem com Aceleração GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Descubra como usar Aspose.OCR para .NET com aceleração GPU para reconhecer texto em imagens rapidamente.
 
@@ -238,6 +238,10 @@ Aprenda a gerar PDFs pesquisáveis usando Aspose.OCR em C#, passo a passo, com c
 Aproveite o poder da GPU para acelerar o reconhecimento de texto em imagens usando Aspose.OCR com C#.
 ### [Extrair Texto de Imagem em C# – Guia de OCR com Auto‑Rotação e Correção de Inclinação](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Aprenda a usar Aspose.OCR para rotacionar automaticamente imagens e corrigir inclinação ao extrair texto em C#.
+### [Reconhecer texto de PNG com Aspose OCR – Demonstração em lote acelerada por GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demonstração em lote usando GPU para reconhecer texto em arquivos PNG com Aspose.OCR, aumentando velocidade e precisão.
+### [Criar PDF pesquisável com Aspose OCR em C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose OCR com C#.
 
 ## Perguntas Frequentes
 

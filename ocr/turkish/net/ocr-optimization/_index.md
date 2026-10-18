@@ -215,6 +215,9 @@ Aspose OCR GPU'nun yüksek performansını C# uygulamanızda kullanarak görünt
 Aspose.OCR for .NET kullanarak C# içinde aranabilir PDF'ler oluşturmayı adım adım öğrenin.
 ### [C# ile Görüntüden Metin Çıkarma – Otomatik Döndürme OCR ve Düzleştirme Rehberi](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 C# uygulamanızda otomatik döndürme ve eğrilik düzeltme ile OCR doğruluğunu artırarak görüntülerden metin çıkarın.
+### [Aspose OCR ile PNG'den Metin Tanıma – GPU Hızlandırmalı Toplu Demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Aspose OCR kullanarak PNG dosyalarından toplu olarak metin tanıma ve GPU hızlandırmasıyla performansı artırma.
+### [C# ile Aspose OCR kullanarak Aranabilir PDF Oluşturma](./create-searchable-pdf-with-aspose-ocr-in-c/)
 
 ## Sıkça Sorulan Sorular
 

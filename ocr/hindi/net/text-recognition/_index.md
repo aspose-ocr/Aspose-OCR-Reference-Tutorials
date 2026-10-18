@@ -450,6 +450,12 @@ C# में Aspose OCR को लागू करने की पूरी च
 C# में Aspose.OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें।
 ### [C# में OCR का उपयोग कैसे करें – PNG छवियों से तेज़ी से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 C# में PNG छवियों से तेज़ी से टेक्स्ट निकालने के लिए Aspose.OCR का उपयोग करने की चरण‑दर‑चरण गाइड।
+### [रसीद छवि से टेक्स्ट – सायरिलिक OCR Aspose के साथ](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Aspose के साथ सायरिलिक रसीद छवियों को टेक्स्ट में बदलने की चरण-दर-स्टेप मार्गदर्शिका।
+### [C# में OCR को JSON और XML में बदलें – JSON फ़ाइल लिखें](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+C# का उपयोग करके OCR परिणाम को JSON फ़ाइल में लिखने और XML में बदलने की चरण-दर-स्टेप प्रक्रिया सीखें।
+### [C# OCR ट्यूटोरियल – Aspose OCR के साथ अरबी टेक्स्ट निकालें](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Aspose OCR का उपयोग करके C# में अरबी टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका। अपने .NET एप्लिकेशन में अरबी OCR को सहजता से एकीकृत करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

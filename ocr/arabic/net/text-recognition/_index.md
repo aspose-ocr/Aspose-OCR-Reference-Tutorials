@@ -462,6 +462,12 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في C# خطوة بخطوة للحصول على نتائج دقيقة.
 ### [كيفية استخدام OCR في C# – استخراج النص من صور PNG بسرعة](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 تعلم خطوة بخطوة كيفية استخراج النص من صور PNG باستخدام Aspose.OCR في C# بسرعة وكفاءة.
+### [صورة الإيصال إلى نص – OCR سيريلي مع Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+تعلم تحويل صور الإيصالات المكتوبة بالسيريلي إلى نص باستخدام Aspose OCR في .NET.
+### [كيفية تحويل OCR إلى JSON و XML في C# – كتابة ملف JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+تعلم كيفية تحويل نتائج OCR إلى صيغتي JSON و XML في C# وحفظ النتائج في ملف JSON بسهولة.
+### [دليل c# OCR – استخراج النص العربي باستخدام Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+تعلم كيفية استخراج النص العربي من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

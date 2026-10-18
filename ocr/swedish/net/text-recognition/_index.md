@@ -464,6 +464,12 @@ Lär dig att använda Aspose OCR i C# med vår kompletta steg‑för‑steg‑gu
 ### [Extrahena text från bild C# – Komplett steg‑för‑steg‑guide](./extract-text-from-image-c-complete-step-by-step-guide/)
 Lär dig att använda Aspose.OCR för .NET för att extrahera text från bilder med en komplett steg‑för‑steg‑guide.
 
+### [Kvitto bild till text – Kyrillisk OCR med Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Lär dig att konvertera kvitto‑bilder med kyrillisk text till redigerbar text med Aspose OCR i .NET.
+### [Hur du konverterar OCR till JSON & XML i C# – Skriv JSON-fil](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Lär dig att konvertera OCR-resultat till JSON och XML i C# och spara dem som en JSON-fil.
+### [c# OCR-handledning – Extrahera arabisk text med Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Lär dig hur du med Aspose OCR i .NET extraherar arabisk text från bilder i en steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

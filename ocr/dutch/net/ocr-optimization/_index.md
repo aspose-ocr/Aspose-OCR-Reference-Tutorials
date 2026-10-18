@@ -240,6 +240,10 @@ Gebruik de GPU‑versnelling van Aspose OCR in C# om tekst uit afbeeldingen snel
 Leer hoe je met Aspose.OCR een doorzoekbare PDF genereert in C#, stap‑voor‑stap met code‑voorbeelden.
 ### [Tekst extraheren uit afbeelding in C# – Auto‑rotatie OCR‑ en kantcorrectiegids](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Leer hoe je automatisch rotatie en kantcorrectie toepast bij OCR in C# voor nauwkeurige tekstextractie uit afbeeldingen.
+### [Tekst herkennen van PNG met Aspose OCR – GPU‑versnelde batchdemo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Ontdek hoe je met GPU‑versnelling grote hoeveelheden PNG‑bestanden snel kunt verwerken en tekst kunt extraheren met Aspose OCR.
+### [Zoekbare PDF maken met Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Genereer een doorzoekbare PDF vanuit afbeeldingen met Aspose OCR en C#. Volg de stapsgewijze handleiding.
 
 ## Veelgestelde vragen
 

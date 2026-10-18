@@ -55,6 +55,8 @@ Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET dengan menjelajahi [preproce
 
 ### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pre‑processing OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 Pelajari cara menghilangkan kemiringan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi.
+### [Pra‑pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Pelajari cara menerapkan pra‑pemrosesan gambar untuk meningkatkan akurasi OCR menggunakan Aspose.OCR.
 
 ## Koreksi Hasil dengan Pemeriksaan Ejaan dalam OCR Image Recognition
 
@@ -181,8 +183,6 @@ Pelajari cara pra‑pemrosesan gambar OCR di C# untuk meningkatkan akurasi denga
 
 
 
-### [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-Jelajahi Aspose OCR untuk .NET. Pra-pemrosesan gambar meningkatkan akurasi OCR. Unduh sekarang untuk integrasi yang lancar.
 ### [c# OCR tutorial – Mengenali Teks dari Gambar dengan Akselerasi GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Jelajahi integrasi OCR dengan akselerasi GPU menggunakan Aspose.OCR untuk .NET. Tingkatkan kecepatan dan akurasi pengenalan teks pada gambar.
 
@@ -240,6 +240,10 @@ Gunakan Aspose OCR GPU untuk mempercepat pengenalan teks dari gambar dalam aplik
 Pelajari cara membuat PDF yang dapat dicari menggunakan Aspose.OCR di C#, lengkap dengan contoh kode dan langkah-langkah implementasi.
 ### [Ekstrak Teks dari Gambar di C# – Panduan OCR Auto‑Rotate & Deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Pelajari cara otomatis memutar dan mengoreksi kemiringan gambar sebelum OCR dengan Aspose.OCR di C#.
+### [Mengenali teks dari PNG dengan Aspose OCR – Demo Batch Dipercepat GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demonstrasi batch akselerasi GPU untuk mengenali teks dari file PNG menggunakan Aspose OCR, meningkatkan kecepatan pemrosesan secara signifikan.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR di C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Panduan langkah demi langkah untuk menghasilkan PDF yang dapat dicari menggunakan Aspose OCR dalam proyek C# Anda.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -449,6 +449,12 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 在 C# 中從影像提取文字，提供完整的逐步操作說明。
 ### [如何在 C# 中使用 OCR – 快速從 PNG 圖像提取文字](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 使用 Aspose.OCR 在 C# 中快速從 PNG 圖像提取文字，提供簡明的操作說明。
+### [收據影像轉文字 – Aspose 支援的西里爾文字 OCR](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+使用 Aspose OCR 處理收據影像，將西里爾文字轉換為可編輯文字，提供完整步驟說明。
+### [如何在 C# 中將 OCR 轉換為 JSON 與 XML – 寫入 JSON 檔案](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+學習使用 Aspose.OCR for .NET 在 C# 中將 OCR 輸出轉換為 JSON 與 XML，並將結果寫入 JSON 檔案。
+### [C# OCR 教程 – 使用 Aspose OCR 提取阿拉伯文字](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+學習如何在 C# 中使用 Aspose OCR 進行阿拉伯文字的辨識與提取，提升多語言 OCR 能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

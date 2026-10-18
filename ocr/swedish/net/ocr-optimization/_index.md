@@ -232,6 +232,9 @@ Utnyttja GPU-acceleration för snabb OCR i C# med Aspose OCR. Öka prestanda och
 ### [Skapa sökbar PDF i C# – Fullständig programmeringsguide](./create-searchable-pdf-in-c-full-programming-guide/)
 ### [Extrahera text från bild i C# – Automatisk rotation OCR & deskew‑guide](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 Lär dig hur du automatiskt roterar och räta upp bilder för exakt OCR med C# och Aspose.OCR.
+### [Känn igen text från PNG med Aspose OCR – GPU‑accelererad batch‑demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demonstration av GPU‑accelererad batch‑bearbetning för att känna igen text i PNG‑bilder med Aspose OCR.
+### [Skapa sökbar PDF med Aspose OCR i C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 
 ## Vanliga frågor
 

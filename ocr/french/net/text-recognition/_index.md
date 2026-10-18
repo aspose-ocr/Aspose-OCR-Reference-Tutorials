@@ -466,6 +466,12 @@ Découvrez comment exploiter Aspose OCR en C# avec notre guide complet, étape p
 Apprenez à extraire du texte d'une image en C# grâce à notre guide complet étape par étape.
 ### [Comment utiliser l'OCR en C# – Extraire rapidement du texte d'images PNG](./how-to-use-ocr-in-c-extract-text-from-png-images-quickly/)
 Apprenez à extraire rapidement du texte d'images PNG en C# avec Aspose.OCR grâce à ce guide pratique.
+### [Image de reçu en texte – OCR cyrillique avec Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Transformez les images de reçus cyrilliques en texte avec Aspose.OCR pour .NET. Suivez notre guide pas à pas pour extraire facilement le contenu.
+### [Comment convertir l'OCR en JSON et XML en C# – Écrire un fichier JSON](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Apprenez à convertir les résultats OCR en JSON et XML avec C#, puis à enregistrer le fichier JSON. Suivez notre guide pas à pas.
+### [Tutoriel C# OCR – Extraire du texte arabe avec Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Apprenez à extraire du texte arabe à partir d'images en utilisant Aspose OCR avec C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

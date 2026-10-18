@@ -457,6 +457,12 @@ Leer hoe u met Aspose.OCR snel tekst uit PNG‑afbeeldingen in C# kunt extrahere
 Leer stap voor stap hoe u Aspose OCR in C# kunt integreren voor nauwkeurige tekstherkenning in uw applicaties.
 ### [Tekst extraheren uit afbeelding C# – Complete stapsgewijze gids](./extract-text-from-image-c-complete-step-by-step-guide/)
 Leer hoe u met Aspose.OCR tekst nauwkeurig uit afbeeldingen haalt in C# met een volledige stap‑voor‑stap handleiding.
+### [Bonafbeelding naar tekst – Cyrillisch OCR met Aspose](./receipt-image-to-text-cyrillic-ocr-with-aspose/)
+Leer hoe u met Aspose.OCR Cyrillic-teksten uit bonafbeeldingen haalt en deze in uw .NET-applicatie verwerkt.
+### [Hoe OCR naar JSON & XML te converteren in C# – JSON-bestand schrijven](./how-to-convert-ocr-to-json-xml-in-c-write-json-file/)
+Leer hoe u OCR-resultaten in JSON- en XML-formaat kunt omzetten en een JSON-bestand kunt schrijven met C# en Aspose.OCR.
+### [c# OCR-tutorial – Arabische tekst extraheren met Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
+Leer hoe u met Aspose.OCR Arabische tekst uit afbeeldingen haalt in een C#-applicatie.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

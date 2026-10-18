@@ -231,6 +231,12 @@ GPU 加速を活用し、C# で高速かつ高精度に画像テキストを抽�
 Aspose.OCR for .NET を使用して、C# で検索可能な PDF を作成する手順を詳細に解説します。
 ### [C# で画像からテキストを抽出 – 自動回転 OCR とデスクューガイド](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
 C# で自動回転とデスクュー処理を使用し、画像からテキストを抽出する手順を解説します。
+### [OCR 用画像前処理 – Aspose.OCR で精度向上](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Aspose.OCR を使用して画像を前処理し、OCR の精度を高める方法をステップバイステップで解説します。
+### [GPU 加速バッチデモで PNG からテキストを認識 – Aspose OCR](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+GPU を活用したバッチ処理で PNG 画像から高速にテキストを抽出するデモです。Aspose OCR の性能を体感できます。
+### [C# で Aspose OCR を使用して検索可能 PDF を作成する](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Aspose OCR を活用し、C# で画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
 
 ## よくある質問
 
