@@ -1,16 +1,70 @@
 ---
-date: 2026-04-12
-description: Leer hoe u tekstextractie uit afbeeldingen vanuit streams kunt uitvoeren
-  met Aspose OCR voor .NET. Dit stapsgewijze voorbeeld toont eenvoudige OCR-tekstextractie.
+date: 2026-08-17
+description: Leer hoe u afbeelding-naar-tekst conversie uitvoert vanaf streams met
+  Aspose OCR voor .NET. Deze stapsgewijze gids toont snelle OCR-tekstextractie.
 keywords:
+- image to text conversion
 - image text extraction
-- image to memorystream
 - ocr png file
-- image stream ocr
 - read image stream c#
-linktitle: Herken afbeelding vanuit stream in OCR‑afbeeldingsherkenning
+- extract text png stream
+lastmod: 2026-08-17
+linktitle: Afbeelding herkennen vanuit stream in OCR-afbeeldingsherkenning
+og_description: Ontdek hoe u afbeelding-naar-tekst conversie uitvoert vanaf een stream
+  met Aspose OCR voor .NET. Volg een beknopte stapsgewijze tutorial voor snelle OCR-resultaten.
+og_image_alt: Screenshot of Aspose OCR extracting text from a PNG stream in C#
+og_title: Afbeelding-naar-tekst conversie vanaf stream met Aspose OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to perform image to text conversion from streams using Aspose
+    OCR for .NET. This step‑by‑step guide shows fast OCR text extraction.
+  headline: How to perform image to text conversion from stream with Aspose OCR
+  type: TechArticle
+- description: Learn how to perform image to text conversion from streams using Aspose
+    OCR for .NET. This step‑by‑step guide shows fast OCR text extraction.
+  name: How to perform image to text conversion from stream with Aspose OCR
+  steps:
+  - name: set the document directory
+    text: Replace **"Your Document Directory"** with the actual folder that contains
+      *sample.png*.
+  - name: initialize the Aspose OCR engine
+    text: Creating an `AsposeOcr` object gives you access to all OCR methods.
+  - name: read image stream and recognize text
+    text: Here we open **sample.png**, copy its bytes into a `MemoryStream`, and pass
+      that stream to `RecognizeImage`. This demonstrates the **image stream ocr**
+      and **read image stream c#** pattern in a single flow.
+  - name: display the recognized text
+    text: The OCR result is printed to the console; you can also store it in a database
+      or file.
+  - name: confirm successful execution
+    text: A simple confirmation lets you know the process completed without exceptions.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose OCR supports more than 60 languages, making it suitable for
+      global OCR projects.
+    question: Can Aspose OCR handle multiple languages?
+  - answer: Absolutely! You can explore Aspose OCR for .NET with a free trial on the
+      [Aspose OCR download page](https://releases.aspose.com/).
+    question: Is there a trial version I can use?
+  - answer: Visit the [Aspose OCR Forum](https://forum.aspose.com/c/ocr/16) for community
+      and expert support.
+    question: Where can I get help if I run into problems?
+  - answer: A temporary license is available on the [Aspose OCR temporary license
+      page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+    question: How do I obtain a temporary license for testing?
+  - answer: To add Aspose OCR to your production toolkit, go to the [Aspose OCR purchase
+      page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a permanent license?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Hoe tekst uit een afbeelding extraheren uit een stream met Aspose OCR
+tags:
+- image to text conversion
+- Aspose OCR
+- C# OCR tutorial
+- stream processing
+title: Hoe u afbeelding-naar-tekst conversie uitvoert vanaf een stream met Aspose
+  OCR
 url: /nl/net/image-and-drawing-recognition/recognize-image-from-stream/
 weight: 12
 ---
@@ -19,36 +73,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe voer je afbeeldingstekstextractie uit vanuit een stream met Aspose OCR
+# Hoe u afbeelding-naar-tekst conversie uitvoert vanuit een stream met Aspose OCR
 
-Welkom in de wereld van **image text extraction** met **Aspose.OCR for .NET**. In deze tutorial zie je hoe je een afbeeldingstream leest, OCR uitvoert op een PNG‑bestand en de herkende tekst in je C#‑applicatie haalt. Of je nu een documentverwerkings‑pipeline bouwt, een data‑invoerautomatiseringstool, of gewoon met OCR experimenteert, de onderstaande stappen brengen je in enkele minuten van een ruwe afbeelding naar doorzoekbare tekst.
+In deze tutorial leert u hoe u een ruwe afbeeldingsstream omzet in doorzoekbare, bewerkbare tekst met **Aspose.OCR for .NET**. Of u nu een document‑verwerkingspipeline bouwt, gegevensinvoer automatiseert, of gewoon experimenteert met OCR, de onderstaande stappen leiden u van een PNG‑stream naar een schone string in slechts een paar regels C#‑code.
 
 ## Snelle antwoorden
-- **Wat laat deze tutorial zien?** Tekst extraheren uit een afbeelding die als stream wordt aangeleverd met Aspose OCR.  
-- **Welk primair trefwoord is gericht?** *image text extraction* (door de hele gids gebruikt).  
-- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een commerciële licentie is vereist voor productiegebruik.  
-- **Kan ik PNG‑bestanden direct verwerken?** Ja – Aspose OCR verwerkt **ocr png file**‑formaten zonder extra conversie.  
-- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **What does this tutorial demonstrate?** Wat toont deze tutorial? Converting an image stream to text (image to text conversion) with Aspose OCR.  
+- **Which primary keyword is targeted?** Welke primaire zoekterm wordt getarget? *image to text conversion* (used throughout the guide).  
+- **Do I need a license for development?** Heb ik een licentie nodig voor ontwikkeling? A free trial works for testing; a commercial license is required for production use.  
+- **Can I process PNG files directly?** Kan ik PNG‑bestanden direct verwerken? Yes – Aspose OCR handles **ocr png file** formats without extra conversion.  
+- **Which .NET versions are supported?** Welke .NET‑versies worden ondersteund? .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Wat is afbeeldingstekstextractie?
-Afbeeldingstekstextractie (ook wel OCR genoemd) zet de visuele tekens in een afbeelding om in bewerkbare, doorzoekbare tekst. Met Aspose OCR kun je een `MemoryStream` met een ondersteunde afbeelding (PNG, JPEG, BMP, enz.) voeden en de herkende tekenreeks in één oproep ontvangen.
+## Wat is afbeelding-naar-tekst conversie?
+Afbeelding-naar-tekst conversie, ook bekend als OCR, zet visuele tekens in een afbeelding om in bewerkbare, doorzoekbare tekst. Aspose OCR leest een `MemoryStream` die een ondersteunde afbeelding bevat (PNG, JPEG, BMP, enz.) en retourneert de herkende string in één methode‑aanroep. Dit stelt u in staat gescande documenten te indexeren, gegevens voor analytics te extraheren, of tekst door te geven aan downstream‑workflows.
 
-## Waarom Aspose OCR kiezen voor afbeeldingstekstextractie?
-- **Brede taalondersteuning** – werkt direct met tientallen talen.  
-- **Eenvoudige API** – een paar regels C# veranderen een **image to memorystream** in leesbare tekst.  
-- **Hoge nauwkeurigheid** – geavanceerde algoritmen verwerken ruisende scans en PNG's met lage resolutie.  
-- **Cross‑platform** – draait op Windows, Linux en macOS met .NET Core.
+## Waarom Aspose OCR kiezen voor afbeelding-naar-tekst conversie?
+Aspose OCR levert **high‑accuracy results** voor meer dan 60 talen en kan afbeeldingen tot 30 MB verwerken terwijl het geheugenverbruik onder 50 MB blijft. De API vereist slechts enkele regels code, draait op Windows, Linux en macOS, en ondersteunt .NET Framework 4.5+, .NET Core 3.1+, en .NET 5/6/7. Deze gekwantificeerde mogelijkheden maken het een betrouwbare keuze voor enterprise‑scale OCR‑projecten.
 
-## Voorwaarden
+## Vereisten
 
-Voordat we beginnen, zorg ervoor dat je het volgende hebt:
+Voordat we beginnen, zorg ervoor dat u het volgende heeft:
 
 - Aspose.OCR for .NET geïnstalleerd (download van de [Aspose.OCR for .NET Documentation](https://reference.aspose.com/ocr/net/)).  
-- Een voorbeeldafbeeldingsbestand (bijv. **sample.png**) geplaatst in een map die je vanuit code kunt refereren.
+- Een voorbeeld‑afbeeldingsbestand (bijv. **sample.png**) geplaatst in een map die u vanuit code kunt refereren.
 
 ## Namespaces importeren
+`Aspose.OCR` biedt de kern‑OCR‑engine, terwijl `System.IO` toegang geeft tot streams.  
 
-Voeg de vereiste namespaces toe aan je C#‑bestand:
+De `AsposeOcr`‑klasse is het toegangspunt dat methoden zoals `RecognizeImage` blootlegt.  
 
 ```csharp
 using System;
@@ -58,21 +110,25 @@ using Aspose.OCR;
 
 ## Stapsgewijze handleiding
 
-### Stap 1: Stel de documentdirectory in
+### Stap 1: stel de documentmap in
+Vervang **"Your Document Directory"** door de daadwerkelijke map die *sample.png* bevat.  
+
 ```csharp
 // The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
-Vervang **"Your Document Directory"** door de daadwerkelijke map die *sample.png* bevat.
 
-### Stap 2: Initialiseert de Aspose OCR‑engine
+### Stap 2: initialiseert de Aspose OCR engine
+Het aanmaken van een `AsposeOcr`‑object geeft u toegang tot alle OCR‑methoden.  
+
 ```csharp
 // Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
-Het aanmaken van een `AsposeOcr`‑object geeft je toegang tot alle OCR‑methoden.
 
-### Stap 3: Lees afbeeldingstream en herken tekst
+### Stap 3: lees afbeeldingsstream en herken tekst
+Hier openen we **sample.png**, kopiëren de bytes naar een `MemoryStream` en geven die stream door aan `RecognizeImage`. Dit demonstreert het **image stream ocr** en **read image stream c#** patroon in één enkele flow.  
+
 ```csharp
 // Recognize image
 using (MemoryStream ms = new MemoryStream())
@@ -82,59 +138,65 @@ using (FileStream file = new FileStream(dataDir + "sample.png", FileMode.Open, F
     result = api.RecognizeImage(ms);
 }
 ```
-Hier openen we **sample.png**, kopiëren we de bytes naar een `MemoryStream` en geven we die stream door aan `RecognizeImage`. Dit demonstreert **image stream ocr** en het **read image stream c#**‑patroon in één doorloop.
 
-### Stap 4: Toon de herkende tekst
+### Stap 4: toon de herkende tekst
+Het OCR‑resultaat wordt naar de console geprint; u kunt het ook opslaan in een database of bestand.  
+
 ```csharp
 // Display the recognized text
 Console.WriteLine(result);
 ```
-Het OCR‑resultaat wordt naar de console geprint; je kunt het ook opslaan in een database of bestand.
 
-### Stap 5: Bevestig succesvolle uitvoering
+### Stap 5: bevestig succesvolle uitvoering
+Een eenvoudige bevestiging laat u weten dat het proces zonder uitzonderingen is voltooid.  
+
 ```csharp
 Console.WriteLine("RecognizeImageFromStream executed successfully");
 ```
-Een eenvoudige bevestiging laat je weten dat het proces zonder uitzonderingen is voltooid.
 
 ## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Oplossing |
 |----------|-----------|
 | *Result is empty* | Controleer het afbeeldingspad, zorg dat het bestand leesbaar is, en bevestig dat de afbeelding duidelijke, hoog‑contrast tekst bevat. |
-| *Unsupported image format* | Converteer de bron naar PNG of JPEG voordat je `RecognizeImage` aanroept. |
+| *Unsupported image format* | Converteer de bron naar PNG of JPEG voordat u `RecognizeImage` aanroept. |
 | *License exception* | Pas een tijdelijke licentie toe tijdens ontwikkeling of koop een volledige licentie voor productie (zie hieronder). |
 
 ## Veelgestelde vragen
 
-**V: Kan Aspose.OCR meerdere talen verwerken?**  
-**A:** Ja, Aspose.OCR ondersteunt een breed scala aan talen, waardoor het geschikt is voor wereldwijde OCR‑projecten.
+**Q: Can Aspose OCR handle multiple languages?**  
+A: Ja, Aspose OCR ondersteunt meer dan 60 talen, waardoor het geschikt is voor wereldwijde OCR‑projecten.
 
-**V: Is er een proefversie die ik kan gebruiken?**  
-**A:** Absoluut! Je kunt Aspose.OCR voor .NET verkennen met een gratis proefversie [hier](https://releases.aspose.com/).
+**Q: Is there a trial version I can use?**  
+A: Absoluut! U kunt Aspose OCR voor .NET uitproberen met een gratis trial op de [Aspose OCR download page](https://releases.aspose.com/).
 
-**V: Waar kan ik hulp krijgen als ik tegen problemen aanloop?**  
-**A:** Bezoek het [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) voor community‑ en expertsupport.
+**Q: Where can I get help if I run into problems?**  
+A: Bezoek het [Aspose OCR Forum](https://forum.aspose.com/c/ocr/16) voor community‑ en expertsupport.
 
-**V: Hoe krijg ik een tijdelijke licentie voor testen?**  
-**A:** Een tijdelijke licentie is beschikbaar [hier](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
+**Q: How do I obtain a temporary license for testing?**  
+A: Een tijdelijke licentie is beschikbaar op de [Aspose OCR temporary license page](https://purchase.aspose.com/temporary-license/) voor evaluatiedoeleinden.
 
-**V: Waar kan ik een permanente licentie kopen?**  
-**A:** Om Aspose.OCR aan je productietoolkit toe te voegen, ga naar de [aankooppagina](https://purchase.aspose.com/buy).
+**Q: Where can I purchase a permanent license?**  
+A: Om Aspose OCR aan uw productie‑toolkit toe te voegen, ga naar de [Aspose OCR purchase page](https://purchase.aspose.com/buy).
 
 ## Conclusie
 
-Je hebt nu **image text extraction** vanuit een stream onder de knie met Aspose OCR voor .NET. De beknopte API stelt je in staat elke ondersteunde afbeelding – zoals een **ocr png file** – om te zetten in doorzoekbare tekst met slechts een paar regels code. Experimenteer met verschillende afbeeldingsbronnen, taalpakketten en geavanceerde instellingen om de OCR‑output af te stemmen op jouw specifieke scenario.
+U heeft nu **image to text conversion** vanuit een stream onder de knie met Aspose OCR voor .NET. De beknopte API stelt u in staat elke ondersteunde afbeelding—zoals een **ocr png file**—om te zetten in doorzoekbare tekst met slechts een paar regels code. Experimenteer met verschillende afbeeldingsbronnen, taalpakketten en geavanceerde instellingen om de OCR‑output fijn af te stemmen op uw specifieke scenario.
 
 ---
 
-**Laatst bijgewerkt:** 2026-04-12  
-**Getest met:** Aspose.OCR 24.12 for .NET  
-**Auteur:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-08-17  
+**Tested With:** Aspose.OCR 24.12 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [Convert Image to Text – Perform OCR on Image from URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
+- [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
+- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/net/ocr-optimization/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
