@@ -122,6 +122,8 @@ Leer in een paar stappen hoe je met Aspose OCR in Java tekst uit afbeeldingen ha
 Leer hoe je met Aspose.OCR tekst uit afbeeldingen haalt in Java met deze stap‑voor‑stap tutorial.
 ### [OCR op afbeelding uitvoeren in Java – Tekst uit JPG extraheren](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Leer hoe je met Aspose.OCR in Java tekst uit een JPG‑afbeelding haalt met eenvoudige stappen en optimale nauwkeurigheid.
+### [Compileer Java‑project met Maven en voer uit vanaf de opdrachtregel](./compile-java-project-maven-and-run-from-command-line/)
+Leer hoe je een Java‑project bouwt met Maven en het vanaf de commandoregel uitvoert in een paar eenvoudige stappen.
 
 ---
 

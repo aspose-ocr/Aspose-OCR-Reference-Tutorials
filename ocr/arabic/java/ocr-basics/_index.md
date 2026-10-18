@@ -121,6 +121,9 @@ weight: 20
 ### [إجراء OCR على صورة في Java – استخراج النص من JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 تعلم كيفية استخدام Aspose.OCR في Java لاستخراج النص من ملفات JPG بدقة وسهولة.
 
+### [تجميع مشروع جافا باستخدام Maven وتشغيله من سطر الأوامر](./compile-java-project-maven-and-run-from-command-line/)
+دليل خطوة بخطوة لتجميع مشروع Java باستخدام Maven وتشغيله من سطر الأوامر.
+
 ---
 
 **آخر تحديث:** 2025-12-08  
