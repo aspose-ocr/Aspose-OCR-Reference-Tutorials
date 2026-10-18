@@ -230,6 +230,8 @@ Ismerje meg, hogyan használja a C# nyelvet az Aspose.OCR teljes körű szövegk
 
 ### [Hogyan javítsa az OCR-t az Aspose OCR-rel – Teljes C# útmutató](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Fedezze fel, hogyan javíthatja az OCR pontosságát az Aspose OCR segítségével egy teljes C# útmutatóban.
+### [OCR futtatása képen GPU-val C#-ban – Teljes programozási útmutató](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Ismerje meg, hogyan használhatja a GPU gyorsítást az OCR-hez C#-ban az Aspose.OCR for .NET segítségével a maximális teljesítményért.
 
 ## Gyakran Ismételt Kérdések
 

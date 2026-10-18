@@ -81,6 +81,8 @@ Learn how to deskew images and clean up scans using Aspose.OCR for .NET in a com
 Master deskewing images in C# with Aspose OCR, boosting OCR accuracy and simplifying image preprocessing.
 ### [How to Deskew Image in C# with Aspose OCR – Full Guide](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Master deskewing images in C# with Aspose OCR, boosting OCR accuracy and streamlining your image processing workflow.
+### [How to Deskew Image with Aspose OCR – Complete C# Guide](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Learn to deskew images using Aspose.OCR for .NET with a comprehensive C# guide, improving OCR accuracy and efficiency.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

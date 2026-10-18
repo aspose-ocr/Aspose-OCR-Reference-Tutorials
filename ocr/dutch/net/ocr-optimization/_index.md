@@ -232,6 +232,8 @@ Leer hoe je een console‑logger implementeert die OCR‑resultaten automatisch 
 Volledige gids voor het extraheren van tekst uit afbeeldingen met C# en Aspose.OCR, inclusief voorbeeldcode en optimalisatietips.
 ### [Hoe OCR te verbeteren met Aspose OCR – Complete C#-gids](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Verbeter OCR-prestaties met Aspose OCR in C#. Volledige stap‑voor‑stap gids met voorbeeldcode en optimalisatietips.
+### [OCR uitvoeren op afbeelding met GPU in C# – Complete programmeergids](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Leer hoe je GPU-versnelling inzet voor snelle en nauwkeurige OCR in C# met Aspose.OCR.
 
 ## Veelgestelde vragen
 

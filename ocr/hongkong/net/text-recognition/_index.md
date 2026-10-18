@@ -433,6 +433,14 @@ url: /zh-hant/net/text-recognition/
 示範如何使用 Aspose.OCR 在 C# 中批次處理多頁 TIFF，將其轉換為文字內容。
 ### [在 C# 中從影像提取文字 – 離線 OCR 指南](./extract-text-from-image-in-c-offline-ocr-guide/)
 示範如何在 C# 中使用 Aspose.OCR 進行離線文字提取，涵蓋設定與結果處理。
+### [如何在 C# 中進行阿拉伯文 OCR – 步驟指南](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中實現阿拉伯文文字辨識，提供完整的逐步教學。
+### [如何使用 Aspose – 在 C# 中將圖像轉換為 ePub](./how-to-use-aspose-convert-image-to-epub-in-c/)
+使用 Aspose 在 C# 中將圖像轉換為 ePub，提供完整的步驟指南。
+### [從 PNG 識別文字 – Aspose OCR C# JSON‑L 教程](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+使用 Aspose.OCR 在 C# 中從 PNG 圖像取得 JSON‑L 格式的文字辨識結果，提供逐步指南。
+### [如何在 C# 中批次 OCR – 從 PNG 提取文字](./how-to-batch-ocr-in-c-extract-text-from-png/)
+使用 Aspose.OCR 在 C# 中批次處理 PNG 圖像以提取文字，提供完整的步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

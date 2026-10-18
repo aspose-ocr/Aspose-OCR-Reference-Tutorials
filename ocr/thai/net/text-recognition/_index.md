@@ -402,6 +402,14 @@ url: /th/net/text-recognition/
 ### [ดึงข้อความจากรูปภาพใน C# – คู่มือ OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-guide/)
 ### [ตรวจจับภาษาในภาพด้วย Aspose OCR – บทช่วยสอน C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
 ### [วิธีทำ OCR แบบกลุ่มใน C# – แปลงไฟล์ TIFF หลายหน้าเป็นข้อความ](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+### [วิธีทำ OCR ภาษาอารบิกใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อจดจำข้อความภาษาอารบิกอย่างแม่นยำตามขั้นตอนง่ายๆ
+### [วิธีใช้ Aspose – แปลงภาพเป็น ePub ใน C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+เรียนรู้วิธีแปลงไฟล์ภาพเป็น ePub ด้วย Aspose ใน C# อย่างง่ายดายและมีประสิทธิภาพ
+### [จดจำข้อความจาก PNG – Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+เรียนรู้วิธีจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน C# และรับผลลัพธ์เป็น JSON‑L อย่างง่ายดาย
+### [วิธีทำ OCR แบบกลุ่มใน C# – ดึงข้อความจาก PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+เรียนรู้วิธีประมวลผล OCR หลายไฟล์ PNG พร้อมกันใน C# เพื่อดึงข้อความอย่างมีประภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

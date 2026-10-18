@@ -457,6 +457,14 @@ Learn how to detect language from images using Aspose OCR in C#. Follow our step
 Learn how to batch process multi-page TIFF files into text using Aspose.OCR in C#.
 ### [Extract Text from Image in C# – Offline OCR Guide](./extract-text-from-image-in-c-offline-ocr-guide/)
 Learn how to perform offline OCR to extract text from images using Aspose OCR in C#. Follow the step-by-step guide for .NET developers.
+### [recognize text from png – Aspose OCR C# JSON‑L tutorial](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Learn how to extract text from PNG images using Aspose OCR in C# and output results in JSON‑L format.
+### [How to OCR Arabic in C# – Step‑by‑Step Guide](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Learn how to perform Arabic OCR in C# using Aspose.OCR with a detailed step‑by‑step guide.
+### [How to Use Aspose – Convert Image to ePub in C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Learn how to convert images to ePub format using Aspose in C#. Follow our step‑by‑step guide for seamless conversion.
+### [How to batch OCR in C# – Extract text from PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Learn how to perform batch OCR on multiple PNG images using Aspose.OCR in C#, extracting text efficiently.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

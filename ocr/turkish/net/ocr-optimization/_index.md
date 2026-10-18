@@ -207,6 +207,8 @@ Aspose.OCR ile OCR metnini otomatik indirip düzelten bir konsol logger nasıl o
 C# kullanarak görüntülerden metin çıkarmayı adım adım öğrenin ve OCR doğruluğunu en üst düzeye çıkarın.
 ### [Aspose OCR ile OCR'ı Geliştirme – Tam C# Kılavuzu](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Aspose OCR ile OCR doğruluğunu artırmak için kapsamlı adımlar ve ipuçları.
+### [GPU ile Görüntüde OCR Çalıştırma (C#) – Tam Programlama Kılavuzu](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+GPU hızlandırmalı OCR ile C# uygulamalarında görüntüden metin çıkarma sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

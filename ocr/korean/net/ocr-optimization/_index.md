@@ -195,6 +195,8 @@ GPU 가속을 활용하여 이미지 OCR을 수행하고, C#에서 Aspose OCR을
 C# 코드 예제로 이미지에서 텍스트를 추출하고, 전처리와 결과 저장까지 전체 OCR 과정을 단계별로 안내합니다.
 ### [Aspose OCR로 OCR을 개선하는 방법 – 전체 C# 가이드](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Aspose OCR와 C#을 활용해 OCR 정확도를 높이고, 전처리와 결과 저장까지 전체 과정을 단계별로 안내합니다.
+### [C#에서 GPU를 사용한 이미지 OCR 실행 – 완전 프로그래밍 가이드](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+GPU 가속을 활용해 C#에서 이미지 OCR을 빠르고 정확하게 수행하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

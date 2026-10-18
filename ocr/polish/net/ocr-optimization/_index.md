@@ -234,6 +234,8 @@ Kompletny przewodnik pokazujący, jak używać Aspose.OCR w C# do wyodrębniania
 
 ### [Jak poprawić OCR przy użyciu Aspose OCR – Kompletny przewodnik C#](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Kompletny przewodnik w C# pokazujący, jak zwiększyć dokładność OCR przy użyciu Aspose OCR.
+### [Uruchom OCR na obrazie z GPU w C# – Kompletny przewodnik programistyczny](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Poznaj, jak przyspieszyć OCR na obrazie wykorzystując GPU w C# z Aspose.OCR – pełny przewodnik krok po kroku.
 
 ## Często zadawane pytania
 

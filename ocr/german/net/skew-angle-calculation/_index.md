@@ -57,6 +57,8 @@ Erfahren Sie, wie Sie Bilder in C# mithilfe von Aspose OCR automatisch begradige
 ### [Wie man ein Bild in C# mit Aspose OCR entschrägt – Vollständige Anleitung](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder entschrägen und die OCR-Genauigkeit steigern.
 
+### [Wie man ein Bild mit Aspose OCR begradigt – Vollständiger C#-Leitfaden](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Entdecken Sie, wie Sie Bilder mit Aspose OCR in C# mühelos begradigen und die OCR-Genauigkeit steigern.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

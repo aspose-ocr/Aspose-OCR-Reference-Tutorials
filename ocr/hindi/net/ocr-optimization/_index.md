@@ -236,6 +236,8 @@ C# में Aspose.OCR का उपयोग करके छवि से स
 
 ### [Aspose OCR के साथ OCR सुधारें – पूर्ण C# गाइड](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Aspose OCR का उपयोग करके C# में OCR सटीकता बढ़ाने के चरण‑दर‑चरण निर्देश।
+### [GPU के साथ C# में इमेज पर OCR चलाएँ – पूर्ण प्रोग्रामिंग गाइड](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+GPU की शक्ति का उपयोग करके C# में तेज़ OCR निष्पादन के लिए पूर्ण मार्गदर्शिका।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

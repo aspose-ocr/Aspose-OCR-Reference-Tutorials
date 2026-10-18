@@ -443,6 +443,14 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xu�
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để xử lý hàng loạt các trang TIFF và chuyển chúng thành văn bản.
 ### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR offline](./extract-text-from-image-in-c-offline-ocr-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR offline và trích xuất văn bản từ hình ảnh một cách nhanh chóng.
+### [Cách OCR tiếng Ả Rập trong C# – Hướng dẫn từng bước](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhận dạng tiếng Ả Rập trong C#. Làm theo hướng dẫn chi tiết từng bước.
+### [Cách sử dụng Aspose – Chuyển đổi hình ảnh sang ePub trong C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Biến hình ảnh thành tài liệu ePub trong C# bằng Aspose. Hướng dẫn chi tiết từng bước để tạo ePub từ ảnh.
+### [Nhận dạng văn bản từ PNG – Hướng dẫn Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để nhận dạng văn bản từ tệp PNG và xuất kết quả dưới dạng JSON‑L. Hướng dẫn chi tiết từng bước.
+### [Cách thực hiện OCR hàng loạt trong C# – Trích xuất văn bản từ PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Nâng cao ứng dụng .NET của bạn với Aspose.OCR để thực hiện OCR hàng loạt trên PNG và trích xuất văn bản nhanh chóng. Hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ url: /zh-hant/net/skew-angle-calculation/
 ### [如何在 C# 中校正影像 – 使用 Aspose OCR 的完整指南](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
 完整步驟教您使用 Aspose OCR 在 C# 中校正影像，提高 OCR 準確度。
 ### [如何在 C# 中使用 Aspose OCR 進行影像去斜 – 完整指南](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+### [使用 Aspose OCR 進行影像去斜 – 完整 C# 指南](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+完整指南教您如何使用 Aspose OCR 在 C# 中去除影像斜角，提升 OCR 準確度。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

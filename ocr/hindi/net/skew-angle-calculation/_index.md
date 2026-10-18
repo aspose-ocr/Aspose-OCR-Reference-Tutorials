@@ -57,6 +57,8 @@ C# में इमेज को डेस्क्यू करने और OC
 Aspose OCR के साथ C# में इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें और अपने OCR परिणामों की सटीकता बढ़ाएँ।
 ### [C# में Aspose OCR के साथ इमेज को डेस्क्यू कैसे करें – पूर्ण मार्गदर्शिका](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Aspose OCR का उपयोग करके C# में इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, जिससे आपके OCR परिणाम सटीक हों।
+### [Aspose OCR के साथ इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+.NET के लिए Aspose OCR का उपयोग करके इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, C# कोड उदाहरणों के साथ।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

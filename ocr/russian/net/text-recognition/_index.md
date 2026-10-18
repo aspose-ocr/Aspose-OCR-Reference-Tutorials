@@ -428,6 +428,14 @@ url: /ru/net/text-recognition/
 Узнайте, как с помощью Aspose OCR определить язык текста на изображении в приложениях C#.
 ### [Как выполнить пакетный OCR в C# – Преобразовать многостраничный TIFF в текст](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
 Узнайте, как с помощью Aspose.OCR обработать многостраничный TIFF и извлечь текст из всех страниц в C#.
+### [Распознать текст из PNG – Aspose OCR C# JSON‑L руководство](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Научитесь извлекать текст из PNG‑изображений с помощью Aspose OCR в C#, получая результаты в формате JSON‑L.
+### [Как распознать арабский в C# – пошаговое руководство](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Узнайте, как использовать Aspose.OCR для .NET, чтобы распознавать арабский текст в C# с пошаговыми инструкциями.
+### [Как использовать Aspose – преобразовать изображение в ePub в C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Узнайте, как использовать Aspose в C# для конвертации изображений в формат ePub.
+### [Как пакетно выполнять OCR в C# – извлекать текст из PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Извлеките текст из множества PNG‑изображений с помощью Aspose OCR в C# в пакетном режиме.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

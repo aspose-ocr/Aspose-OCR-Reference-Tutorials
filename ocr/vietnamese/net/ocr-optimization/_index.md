@@ -193,6 +193,8 @@ Hướng dẫn chi tiết cách tạo logger console trong C#, tự động tả
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR với C# để trích xuất văn bản từ hình ảnh, bao gồm các bước cấu hình và tối ưu hoá.
 ### [Cách cải thiện OCR với Aspose OCR – Hướng dẫn C# toàn diện](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Hướng dẫn chi tiết cách nâng cao độ chính xác OCR bằng Aspose OCR trong C#, bao gồm các kỹ thuật tối ưu và ví dụ thực tế.
+### [Chạy OCR trên hình ảnh với GPU trong C# – Hướng dẫn lập trình đầy đủ](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Khám phá cách chạy OCR trên hình ảnh bằng GPU trong C# với hướng dẫn lập trình đầy đủ, tăng tốc độ và độ chính xác.
 
 ## Câu hỏi thường gặp
 

@@ -218,6 +218,8 @@ Apprenez à implémenter un logger console en C# qui télécharge automatiquemen
 Apprenez à extraire du texte d’une image en C# avec Aspose.OCR, du chargement à la sauvegarde, grâce à un guide complet pas à pas.
 ### [Comment améliorer l'OCR avec Aspose OCR – Guide complet C#](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Apprenez à optimiser vos résultats OCR avec Aspose OCR grâce à un guide complet en C#, incluant prétraitement, réglages et sauvegarde.
+### [Exécuter l'OCR sur une image avec GPU en C# – Guide complet de programmation](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Apprenez à exploiter le GPU pour accélérer l'OCR d'images en C# avec Aspose.OCR, étape par étape.
 
 ## Questions fréquemment posées
 

@@ -216,6 +216,8 @@ weight: 25
 完整教學示範如何使用 C# 與 Aspose.OCR 進行圖像文字提取，涵蓋設定、前處理與結果儲存。
 ### [如何使用 Aspose OCR 改善 OCR – 完整 C# 指南](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 完整教學示範如何使用 C# 與 Aspose OCR 提升辨識精度，涵蓋設定、前處理、最佳化與結果儲存。
+### [在 C# 中使用 GPU 執行圖像 OCR – 完整程式設計指南](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+使用 GPU 加速在 C# 中的圖像 OCR，提升辨識速度與精度的完整程式指南。
 
 ## 常見問題
 

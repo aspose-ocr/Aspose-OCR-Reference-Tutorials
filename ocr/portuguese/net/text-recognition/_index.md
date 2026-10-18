@@ -442,6 +442,14 @@ Aprenda a extrair texto de imagens usando Aspose OCR em C# com este exemplo comp
 Aprenda a processar arquivos TIFF multipáginas em lote usando Aspose.OCR para C#, convertendo cada página em texto de forma automática.
 ### [Extrair texto de imagem em C# – Guia de OCR offline](./extract-text-from-image-in-c-offline-ocr-guide/)
 Aprenda a extrair texto de imagens em C# usando OCR offline com Aspose.OCR, passo a passo.
+### [Como fazer OCR de Árabe em C# – Guia passo a passo](./how-to-ocr-arabic-in-c-step-by-step-guide/)
+Aprenda a reconhecer texto em árabe com Aspose.OCR para .NET usando C# em um guia passo a passo.
+### [Como usar Aspose – Converter imagem para ePub em C#](./how-to-use-aspose-convert-image-to-epub-in-c/)
+Aprenda a converter imagens em arquivos ePub usando Aspose em C# com este guia passo a passo.
+### [Reconhecer texto de PNG – tutorial Aspose OCR C# JSON‑L](./recognize-text-from-png-aspose-ocr-c-json-l-tutorial/)
+Aprenda a extrair texto de imagens PNG usando Aspose OCR em C# e obter resultados no formato JSON‑L.
+### [Como fazer OCR em lote em C# – Extrair texto de PNG](./how-to-batch-ocr-in-c-extract-text-from-png/)
+Aprenda a processar múltiplas imagens PNG em lote usando Aspose.OCR em C#, extraindo texto de forma eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -232,6 +232,8 @@ Pelajari cara membuat logger konsol di C# yang secara otomatis mengunduh hasil O
 Panduan lengkap mengekstrak teks dari gambar menggunakan C# dan Aspose.OCR, mencakup semua langkah penting.
 ### [Cara Meningkatkan OCR dengan Aspose OCR – Panduan C# Lengkap](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Panduan lengkap untuk meningkatkan akurasi OCR menggunakan Aspose OCR dengan contoh kode C# yang komprehensif.
+### [Jalankan OCR pada Gambar dengan GPU di C# – Panduan Pemrograman Lengkap](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Manfaatkan GPU untuk mempercepat OCR pada gambar menggunakan Aspose.OCR di C#, lengkap dengan contoh kode.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -225,6 +225,8 @@ Lär dig hur du bygger en konsolloggare i C# som automatiskt laddar ner och rät
 En fullständig guide för att extrahera text från bilder med C# och Aspose.OCR, steg‑för‑steg med kodexempel.
 ### [Hur du förbättrar OCR med Aspose OCR – Komplett C#‑guide](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Lär dig avancerade tekniker för att förbättra OCR‑noggrannheten med Aspose OCR i en komplett C#‑guide.
+### [Kör OCR på bild med GPU i C# – Komplett programmeringsguide](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Utnyttja GPU-acceleration för snabb OCR i C# med Aspose.OCR. Följ vår steg‑för‑steg‑guide för optimal prestanda.
 
 ## Vanliga frågor
 

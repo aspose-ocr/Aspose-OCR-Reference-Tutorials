@@ -56,6 +56,8 @@ url: /th/net/skew-angle-calculation/
 
 ### [วิธีแก้ไขมุมเอียงของภาพใน C# ด้วย Aspose OCR – คู่มือเต็ม](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 เรียนรู้วิธีการแก้ไขมุมเอียงของภาพใน C# ด้วย Aspose OCR อย่างละเอียดและครบถ้วน
+### [วิธีทำให้ภาพไม่เอียงด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้ขั้นตอนการแก้ไขมุมเอียงของภาพด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

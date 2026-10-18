@@ -222,6 +222,8 @@ weight: 25
 
 ### [วิธีปรับปรุง OCR ด้วย Aspose OCR – คู่มือ C# ครบถ้วน](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 เรียนรู้เทคนิคการเพิ่มประสิทธิภาพ OCR ด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
+### [รัน OCR บนภาพด้วย GPU ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+เรียนรู้วิธีใช้ GPU เพื่อเร่งการประมวลผล OCR บนภาพด้วย C# ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบของ Aspose.OCR.
 
 ## คำถามที่พบบ่อย
 

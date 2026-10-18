@@ -224,6 +224,8 @@ Naučte se vytvořit konzolový logger, který automaticky stahuje a opravuje OC
 Kompletní návod, jak pomocí C# a Aspose.OCR provést extrakci textu z obrázku s maximální přesností.
 ### [Jak zlepšit OCR pomocí Aspose OCR – Kompletní průvodce v C#](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 Kompletní návod, jak optimalizovat OCR pomocí Aspose OCR v C#, včetně tipů na nastavení a zvýšení přesnosti.
+### [Spustit OCR na obrázku s GPU v C# – Kompletní programovací průvodce](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Využijte GPU akceleraci pro rychlé OCR v C# pomocí Aspose.OCR a získejte podrobný krok‑za‑krokem návod.
 
 ## Často kladené otázky
 

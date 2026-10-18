@@ -223,6 +223,8 @@ weight: 25
 
 ### [如何使用 Aspose OCR 改进 OCR – 完整 C# 指南](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
 深入了解如何使用 Aspose OCR 提升识别精度，完整的 C# 实战指南，涵盖预处理、参数优化及结果保存。
+### [在 C# 中使用 GPU 运行 OCR – 完整编程指南](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+了解如何利用 GPU 加速 Aspose.OCR for .NET，在 C# 中实现高效图像 OCR 的完整编程示例。
 
 ## 常见问题
 
