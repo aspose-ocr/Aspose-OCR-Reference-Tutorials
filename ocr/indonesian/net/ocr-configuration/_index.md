@@ -121,6 +121,8 @@ Pelajari cara menyematkan font ke PDF dan mengubah gambar JPEG menjadi PDF yang 
 Mengatur perangkat GPU untuk OCR di C# menggunakan Aspose.OCR untuk kinerja lebih cepat.
 ### [Mengenali teks dari gambar di C# – cara mengenali Kannada dengan Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Pelajari cara mengenali teks Kannada dari gambar menggunakan Aspose OCR dalam aplikasi C#.
+### [Buat Processor Pemeriksa Ejaan dengan Aspose OCR AI – Panduan Lengkap](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Panduan lengkap membuat processor pemeriksa ejaan menggunakan Aspose OCR AI untuk meningkatkan akurasi teks dalam aplikasi Anda.
 
 
 

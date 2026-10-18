@@ -80,6 +80,8 @@ Erfahren Sie, wie Sie mit Aspose OCR kyrillischen Text aus PNG‑Dateien zuverl�
 Erfahren Sie, wie Sie die GPU für die OCR-Verarbeitung in C# konfigurieren, um die Leistung zu maximieren.
 ### [Texterkennung aus Bild in C# – Wie man Kannada mit Aspose OCR erkennt](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern in C# extrahieren und die Kannada‑Schrift zuverlässig erkennen.
+### [Erstellen Sie einen Rechtschreibprüfungsprozessor mit Aspose OCR KI – Vollständige Anleitung](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR KI einen leistungsstarken Rechtschreibprüfungsprozessor implementieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

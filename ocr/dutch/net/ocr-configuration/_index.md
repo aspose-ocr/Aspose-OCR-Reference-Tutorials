@@ -86,6 +86,8 @@ Leer hoe je met Aspose OCR tekst uit PNG‑bestanden met Cyrillische tekens kunt
 Ontgrendel GPU-versnelling voor OCR in C#. Leer hoe je een GPU-apparaat instelt voor optimale prestaties.
 ### [Tekst herkennen uit afbeelding in C# – hoe Kannada te herkennen met Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Leer hoe je met Aspose OCR Kannada‑teksten uit afbeeldingen kunt extraheren in C#.
+### [Maak een spellingscontroleprocessor met Aspose OCR AI – Volledige gids](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Leer hoe je met Aspose OCR AI een spellingscontroleprocessor bouwt om tekst nauwkeurig te analyseren en te corrigeren in .NET‑toepassingen.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

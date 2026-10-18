@@ -67,6 +67,8 @@ Aspose OCR を使用して PNG 画像からキリル文字テキストを抽出�
 ### [C# で OCR の GPU デバイスを設定する – 完全プログラミングガイド](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
 ### [C# で画像からテキストを認識 – Aspose OCR でカンナダ語を認識する方法](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Aspose OCR を使用して C# アプリでカンナダ語画像のテキスト抽出手順を学びます。
+### [Aspose OCR AI を使用したスペルチェックプロセッサの作成 – 完全ガイド](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI を活用し、スペルチェックプロセッサを作成してテキストの正確性を向上させる完全ガイドです。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

@@ -67,6 +67,8 @@ Sblocca il potenziale di Aspose OCR per estrarre testo cirillico da immagini PNG
 Scopri come configurare la GPU per migliorare le prestazioni OCR in C# con Aspose.OCR.
 ### [Riconoscere testo da immagine in C# – come riconoscere il Kannada con Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Scopri come estrarre testo in lingua Kannada da immagini usando Aspose OCR in C#.
+### [Crea Processore di Controllo Ortografico con Aspose OCR AI – Guida Completa](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Scopri come creare un processore di correzione ortografica usando l'AI di Aspose OCR, passo dopo passo, con esempi pratici.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

@@ -67,6 +67,8 @@ Naučte se, jak pomocí Aspose OCR načíst PNG soubor a získat cyrilický text
 Naučte se, jak konfigurovat GPU pro zrychlení OCR pomocí Aspose.OCR v C# aplikacích.
 ### [Rozpoznat text z obrázku v C# – jak rozpoznat kannadštinu s Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Naučte se, jak pomocí Aspose OCR rozpoznat kannadský text z obrázku v C# aplikaci.
+### [Vytvoření procesoru pro kontrolu pravopisu s Aspose OCR AI – kompletní průvodce](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Kompletní průvodce vytvořením procesoru pro kontrolu pravopisu pomocí Aspose OCR AI.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

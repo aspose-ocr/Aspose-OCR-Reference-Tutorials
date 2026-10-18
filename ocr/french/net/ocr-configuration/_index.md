@@ -91,6 +91,8 @@ Apprenez à intégrer des polices dans un PDF et à le rendre searchable à part
 Apprenez à extraire du texte cyrillique d'images PNG en utilisant Aspose OCR dans vos applications .NET.
 ### [Reconnaître du texte à partir d'une image en C# – comment reconnaître le Kannada avec Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Apprenez à extraire du texte en Kannada à partir d'images en C# avec Aspose OCR.
+### [Créer un processeur de vérification orthographique avec Aspose OCR AI – Guide complet](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Apprenez à créer un processeur de correction orthographique basé sur l'IA d'Aspose OCR pour améliorer la précision du texte extrait.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 
