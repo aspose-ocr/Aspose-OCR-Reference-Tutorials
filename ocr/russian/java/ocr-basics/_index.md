@@ -127,6 +127,9 @@ weight: 20
 ### [Выполнить OCR на изображении в Java – извлечь текст из JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Быстрое руководство по использованию Aspose.OCR в Java для извлечения текста из JPG‑изображений.
 
+### [Скомпилировать Java‑проект Maven и запустить из командной строки](./compile-java-project-maven-and-run-from-command-line/)
+Скомпилируйте Java‑проект с помощью Maven и запустите его из командной строки.
+
 ---
 
 **Последнее обновление:** 2025-12-08  

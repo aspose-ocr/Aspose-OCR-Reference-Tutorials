@@ -124,6 +124,9 @@ Lär dig hur du extraherar text från bilder i Java med Aspose.OCR i denna steg�
 ### [Utför OCR på bild i Java – Extrahera text från JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Lär dig hur du använder Aspose.OCR för Java för att läsa text från JPG‑bilder med enkla kodexempel.
 
+### [Kompilera Java‑projekt med Maven och kör från kommandoraden](./compile-java-project-maven-and-run-from-command-line/)
+Lär dig hur du bygger ett Java‑projekt med Maven och kör det från kommandoraden i några enkla steg.
+
 ---
 
 **Last Updated:** 2025-12-08  

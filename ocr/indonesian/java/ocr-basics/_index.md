@@ -120,6 +120,8 @@ Panduan singkat untuk mengekstrak teks dari gambar menggunakan Aspose OCR di Jav
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di Java dengan contoh kode lengkap dan langkah‑langkah mudah.
 ### [Melakukan OCR pada Gambar di Java – Ekstrak Teks dari JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Pelajari cara menggunakan Aspose.OCR untuk Java guna mengekstrak teks dari file JPG dengan mudah dan akurat.
+### [Kompilasi proyek Java dengan Maven dan jalankan dari baris perintah](./compile-java-project-maven-and-run-from-command-line/)
+Panduan langkah demi langkah untuk mengompilasi proyek Java menggunakan Maven dan menjalankannya lewat command line.
 
 ---
 
