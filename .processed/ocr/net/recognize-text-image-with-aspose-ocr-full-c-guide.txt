@@ -1,0 +1,7 @@
+Title: recognize text image with Aspose OCR – Full C# Guide
+Slug: recognize-text-image-with-aspose-ocr-full-c-guide
+Category: text-recognition
+ProcessedDate: 2026-06-19T14:51:28.670675
+SourceRepo: AI Search API
+Keywords: recognize text image, convert image to epub, image to txt ocr, export ocr excel
+PRNumber: 148

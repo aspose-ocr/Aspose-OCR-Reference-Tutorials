@@ -1,0 +1,7 @@
+Title: Extract Text from Image Using OCR – Complete Java Guide
+Slug: extract-text-from-image-using-ocr-complete-java-guide
+Category: general
+ProcessedDate: 2026-06-26T00:08:09.263025
+SourceRepo: AI Search API
+Keywords: extract text from image using ocr, convert image to searchable text
+PRNumber: 160

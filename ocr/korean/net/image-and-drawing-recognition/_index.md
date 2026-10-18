@@ -67,7 +67,10 @@ Aspose.OCR을 사용해 전체 이미지를 한 번에 스캔하고 텍스트를
 ### [라인 인식하기](./recognize-line/)
 특정 라인만 선택적으로 인식하는 방법을 단계별로 안내합니다.
 ### [이미지에 OCR 수행하기](./perform-ocr-on-image/)
-Aspose.OCR으로 이미지 전체에 OCR을 적용하고 텍스트를 추출하는 과정을 확인하세요.
+### [C#에서 양식을 활성화하고 OCR로 테이블 추출하는 방법 – 완전 가이드](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+C#에서 Aspose.OCR을 사용해 양식을 인식하고 테이블 데이터를 추출하는 전체 과정을 안내합니다.
+### [C#에서 표를 CSV로 저장하기 – 전체 Aspose OCR 가이드](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR를 사용하여 이미지에서 추출한 표 데이터를 CSV 파일로 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR을 사용하여 이미지에서 표 추출하기 (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
 Aspose OCR을 활용해 이미지 내 표를 감지하고 텍스트로 변환하는 방법을 단계별로 안내합니다.
 

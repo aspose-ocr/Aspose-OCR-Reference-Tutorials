@@ -1,0 +1,7 @@
+Title: Extract text from tiff using Aspose OCR Java – Guide
+Slug: extract-text-from-tiff-using-aspose-ocr-java-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:44.491905
+SourceRepo: AI Search API
+Keywords: extract text from tiff, aspose ocr java example, parallel ocr processing
+PRNumber: 168
