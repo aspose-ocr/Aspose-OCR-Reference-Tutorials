@@ -10,13 +10,10 @@ url: /fr/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
- => "# Extraire du texte à partir d'images avec Aspose.OCR – Caractères autorisés"
 
-Proceed.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

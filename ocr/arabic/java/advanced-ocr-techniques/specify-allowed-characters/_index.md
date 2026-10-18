@@ -9,15 +9,11 @@ url: /ar/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
 
-ستخراج النص من الصور باستخدام Aspose.OCR – الأحرف المسموح بها"
 
-Similarly other headings.
 
-Proceed.
 
-Make sure to keep code fences unchanged? There are no actual code fences, only placeholders. So fine.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

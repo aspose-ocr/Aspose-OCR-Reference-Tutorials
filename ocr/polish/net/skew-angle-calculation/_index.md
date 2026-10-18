@@ -40,6 +40,24 @@ Poznaj Aspose.OCR dla .NET, potężne rozwiązanie OCR do dokładnego rozpoznawa
 Uwolnij moc Aspose.OCR dla .NET, solidnego rozwiązania do rozpoznawania obrazów. Dowiedz się, jak bez wysiłku obliczać kąty skośne.
 ### [Oblicz kąt pochylenia z URI w rozpoznawaniu obrazu OCR](./calculate-skew-angle-from-uri/)
 Przeglądaj Aspose.OCR dla .NET, aby bez wysiłku obliczyć kąty skosu w rozpoznawaniu obrazów OCR. Ulepsz swoje projekty z precyzją i wydajnością.
+### [Jak wyrównać obraz pod OCR – Kompletny przewodnik C#](./how-to-deskew-image-for-ocr-complete-c-guide/)
+Odkryj, jak przy użyciu Aspose.OCR dla .NET skutecznie wyrównać obraz pod OCR w C#. Zwiększ precyzję i wydajność rozpoznawania tekstu.
+### [Jak wyrównać obraz – Kompletny przewodnik C# dla przetwarzania wstępnego OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Dowiedz się, jak usunąć pochylenie obrazu w C#, aby poprawić wyniki OCR przy użyciu Aspose.OCR.
+
+### [Jak wyrównać obraz w C# – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Dowiedz się, jak skutecznie wyrównać obrazy w C# przed OCR, zwiększając dokładność rozpoznawania tekstu.
+### [Jak wyrównać obraz – Kompletny przewodnik przetwarzania wstępnego C# dla OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Poznaj kompletny przewodnik przetwarzania wstępnego w C#, aby usunąć pochylenie obrazu i poprawić wyniki OCR przy użyciu Aspose.OCR.
+
+### [Usuwanie pochylenia z obrazu – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Dowiedz się, jak skutecznie usuwać pochylenie z obrazów przed OCR, zwiększając dokładność i wydajność rozpoznawania.
+### [Jak wyprostować obraz i oczyścić skany – Kompletny przewodnik C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Poznaj techniki wyprostowywania obrazów i usuwania szumów w skanach przy użyciu Aspose.OCR w C#.
+### [Jak wyprostować obraz w C# – Kompletny przewodnik używający Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Poznaj pełny przewodnik, jak wyprostować obraz w C# przy użyciu Aspose OCR, zwiększając precyzję i wydajność rozpoznawania.
+### [Jak wyrównać obraz w C# przy użyciu Aspose OCR – Pełny przewodnik](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Kompletny przewodnik po deskewowaniu obrazów w C# z Aspose OCR, zwiększający precyzję i wydajność rozpoznawania tekstu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -9,7 +9,6 @@ url: /ru/net/ocr-configuration/ocr-operation-with-list/
 weight: 13
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
