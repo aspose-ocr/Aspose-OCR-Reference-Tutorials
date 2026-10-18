@@ -32,7 +32,7 @@ tags:
 - Cyrillic
 - Image processing
 - PDF conversion
-title: How to use OCR in C# to extract Cyrillic text
+title: How to use Aspose.OCR in C# to extract Cyrillic text
 url: /net/text-recognition/how-to-use-ocr-in-c-to-extract-cyrillic-text/
 ---
 
@@ -172,16 +172,16 @@ Open any of the files to verify that the Cyrillic characters have been correctly
 You now know **how to use OCR** in C# to **extract Cyrillic text**, **preprocess image for OCR**, and **convert image to PDF** or **convert image to HTML** in a few concise steps. The complete example demonstrates a production‑
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Use AspOCR: Preprocess Image OCR Filters for .NET](/ocr/english/net/ocr-optimization/preprocessing-filters-for-image/)
-- [How to Extract OCR Text in C# – Complete Step‑by‑Step Guide](/ocr/english/net/text-recognition/how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
-- [How to Use Aspose OCR for JSON Result in Image Recognition](/ocr/english/net/text-recognition/get-result-as-json/)
+- [How to Use Aspose OCR: Preprocess Image OCR Filters for .NET]({{< relref "ocr/english/net/ocr-optimization/preprocessing-filters-for-image/_index.md" >}})
+- [How to Extract OCR Text in C# – Complete Step‑by‑Step Guide]({{< relref "ocr/english/net/text-recognition/how-to-extract-ocr-text-in-c-complete-step-by-step-guide/_index.md" >}})
+- [How to Use Aspose OCR for JSON Result in Image Recognition]({{< relref "ocr/english/net/text-recognition/get-result-as-json/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
