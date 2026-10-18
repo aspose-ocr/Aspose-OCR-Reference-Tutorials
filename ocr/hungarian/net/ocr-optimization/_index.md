@@ -225,6 +225,12 @@ Fedezze fel, hogyan növelheti az OCR pontosságát képeken az Aspose OCR haszn
 ### [Konzol naplózó létrehozása C#‑ban – Teljes útmutató az automatikus letöltés és az OCR szöveg javításának engedélyezéséhez](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Lépésről‑lépésre bemutatjuk, hogyan hozhat létre konzol naplózót C#‑ban, amely automatikusan letölti és javítja az OCR‑rel kinyert szöveget.
 
+### [Szöveg kinyerése képből C#‑val – Teljes OCR útmutató](./extract-text-from-image-with-c-complete-ocr-guide/)
+Ismerje meg, hogyan használja a C# nyelvet az Aspose.OCR teljes körű szövegkinyeréshez képekről.
+
+### [Hogyan javítsa az OCR-t az Aspose OCR-rel – Teljes C# útmutató](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Fedezze fel, hogyan javíthatja az OCR pontosságát az Aspose OCR segítségével egy teljes C# útmutatóban.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

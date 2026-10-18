@@ -448,6 +448,17 @@ Aspose OCR の非同期機能を使用して、C# で画像からテキストを
 
 ### [C# で Aspose OCR を使用してテキスト画像を認識する](./recognize-text-image-with-aspose-ocr-in-c/)
 Aspose OCR を利用し、C# アプリケーションで画像内のテキストを正確に抽出する手順を解説します。
+### [C# で画像からテキストを認識する – 完全 Aspose OCR チュートリアル](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Aspose.OCR を使用して C# で画像からテキストを認識する完全ガイドです。ステップバイステップで実装方法を学びます。
+### [Aspose OCR を使用した画像からの言語検出 – C# チュートリアル](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Aspose OCR を利用して画像内のテキスト言語を自動検出し、C# で実装する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出する – 完全 Aspose OCR 例](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Aspose.OCR を使用して C# で画像からテキストを抽出する完全ガイドです。ステップバイステップで実装方法を学びます。
+### [C# でバッチ OCR を実行する – マルチページ TIFF をテキストに変換する](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Aspose.OCR を使用して C# でマルチページ TIFF を一括で OCR 処理し、テキストへ変換する手順をステップバイステップで解説します。
+### [C# で画像からテキストを抽出する – オフライン OCR ガイド](./extract-text-from-image-in-c-offline-ocr-guide/)
+Aspose.OCR を使用して C# でオフライン環境で画像からテキストを抽出する方法をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

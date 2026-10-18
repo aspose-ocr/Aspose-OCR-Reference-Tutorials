@@ -218,6 +218,12 @@ weight: 25
 ### [在 C# 中创建控制台日志记录器 – 完整指南，实现自动下载并纠正 OCR 文本](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 本教程详细讲解如何在 C# 控制台应用中实现日志记录、自动下载 OCR 结果并进行文本纠正。
 
+### [使用 C# 从图像提取文本 – 完整 OCR 指南](./extract-text-from-image-with-c-complete-ocr-guide/)
+通过本完整指南，使用 C# 和 Aspose.OCR 实现高精度图像文本提取，涵盖预处理、区域设置及结果保存。
+
+### [如何使用 Aspose OCR 改进 OCR – 完整 C# 指南](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+深入了解如何使用 Aspose OCR 提升识别精度，完整的 C# 实战指南，涵盖预处理、参数优化及结果保存。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

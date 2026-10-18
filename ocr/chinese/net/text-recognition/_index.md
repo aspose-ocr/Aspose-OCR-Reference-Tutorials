@@ -443,6 +443,12 @@ url: /zh/net/text-recognition/
 使用 Aspose OCR 的异步功能，在 C# 中高效提取图像文本，实现非阻塞的文字识别流程。
 
 ### [在 C# 中使用 Aspose OCR 识别文本图像](./recognize-text-image-with-aspose-ocr-in-c/)
+### [在 C# 中从图像识别文本 – 完整 Aspose OCR 教程](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+### [在 C# 中从图像提取文本 – 完整 Aspose OCR 示例](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+### [使用 Aspose OCR 从图像检测语言 – C# 教程](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+### [如何在 C# 中批量 OCR – 将多页 TIFF 转换为文本](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+### [在 C# 中从图像提取文本 – 离线 OCR 指南](./extract-text-from-image-in-c-offline-ocr-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

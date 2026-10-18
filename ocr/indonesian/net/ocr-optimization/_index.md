@@ -228,6 +228,10 @@ Manfaatkan akselerasi GPU untuk meningkatkan kecepatan OCR pada gambar menggunak
 Tingkatkan akurasi OCR pada gambar dengan teknik optimalisasi menggunakan Aspose OCR.
 ### [Buat Logger Konsol di C# – Panduan Lengkap untuk Mengaktifkan Unduhan Otomatis & Memperbaiki Teks OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Pelajari cara membuat logger konsol di C# yang secara otomatis mengunduh hasil OCR dan memperbaiki teks untuk akurasi maksimal.
+### [Ekstrak Teks dari Gambar dengan C# – Panduan OCR Lengkap](./extract-text-from-image-with-c-complete-ocr-guide/)
+Panduan lengkap mengekstrak teks dari gambar menggunakan C# dan Aspose.OCR, mencakup semua langkah penting.
+### [Cara Meningkatkan OCR dengan Aspose OCR – Panduan C# Lengkap](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Panduan lengkap untuk meningkatkan akurasi OCR menggunakan Aspose OCR dengan contoh kode C# yang komprehensif.
 
 ## Pertanyaan yang Sering Diajukan
 

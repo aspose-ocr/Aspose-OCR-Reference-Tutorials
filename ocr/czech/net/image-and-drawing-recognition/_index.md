@@ -72,6 +72,8 @@ Odemkněte OCR magii s Aspose.OCR pro .NET a snadno extrahujte text z obrázků.
 Naučte se aktivovat rozpoznávání formulářů a získávat tabulky z obrázků pomocí Aspose.OCR v C#.
 ### [Uložit tabulku jako CSV v C# – Kompletní průvodce Aspose OCR](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# převést rozpoznanou tabulku na CSV soubor pro snadnou analýzu dat.
+### [Jak extrahovat tabulky z obrázků pomocí Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Naučte se, jak pomocí Aspose OCR v C# detekovat a extrahovat tabulky z obrázků do strukturovaných dat.
 
 ## Často kladené otázky
 

@@ -431,6 +431,17 @@ Scopri come estrarre testo da immagini in modo asincrono con Aspose OCR in C#, c
 
 ### [Riconosci immagine di testo con Aspose OCR in C#](./recognize-text-image-with-aspose-ocr-in-c/)
 Scopri come riconoscere il testo in un'immagine usando Aspose OCR con C# in modo semplice ed efficace.
+### [Riconosci testo da immagine in C# – Tutorial completo Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Scopri come riconoscere testo da un'immagine usando C# con Aspose OCR in una guida completa passo passo.
+### [Rileva la lingua da immagine con Aspose OCR – Tutorial C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Scopri come rilevare automaticamente la lingua di un'immagine usando Aspose OCR in C#, con una guida passo passo.
+### [Estrai testo da immagine in C# – Esempio completo Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Scopri come estrarre testo da un'immagine usando C# con Aspose OCR in un esempio completo passo passo.
+### [Come eseguire OCR batch in C# – Convertire TIFF multi‑pagina in testo](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Scopri come elaborare più pagine TIFF in un'unica operazione OCR con C# usando Aspose.OCR, ottenendo testo per ogni pagina.
+### [Estrai testo da immagine in C# – Guida OCR offline](./extract-text-from-image-in-c-offline-ocr-guide/)
+Scopri come estrarre testo da un'immagine in C# usando Aspose.OCR in modalità offline, passo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

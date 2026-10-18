@@ -218,6 +218,10 @@ weight: 25
 استفد من قوة GPU لتسريع عملية OCR في تطبيقات C# باستخدام Aspose.OCR. دليل خطوة بخطوة لتفعيل المعالجة على وحدة الرسوميات.
 ### [إجراء OCR على صورة – تعزيز الدقة باستخدام Aspose OCR](./perform-ocr-on-image-boost-accuracy-with-aspose-ocr/)
 ### [إنشاء مسجل وحدة تحكم في C# – دليل كامل لتمكين التحميل التلقائي وتصحيح نص OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
+### [استخراج النص من الصورة باستخدام C# – دليل OCR كامل](./extract-text-from-image-with-c-complete-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR مع C# لاستخراج النص من الصور بدقة عالية وتطبيق الفلاتر ومعالجة النتائج.
+### [كيفية تحسين OCR باستخدام Aspose OCR – دليل C# كامل](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية تحسين OCR باستخدام Aspose OCR مع C#، بما في ذلك الفلاتر ومعالجة النتائج.
 
 ## الأسئلة المتكررة
 

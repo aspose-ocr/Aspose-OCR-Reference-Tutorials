@@ -424,6 +424,17 @@ Aspose OCR का उपयोग करके C# में असिंक्�
 
 ### [C# में Aspose OCR के साथ टेक्स्ट इमेज पहचानें](./recognize-text-image-with-aspose-ocr-in-c/)
 Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की चरण-दर-चरण गाइड।
+### [C# में छवि से टेक्स्ट पहचानें – पूर्ण Aspose OCR ट्यूटोरियल](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+C# में Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [Aspose OCR के साथ छवि से भाषा पहचानें – C# ट्यूटोरियल](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Aspose OCR का उपयोग करके छवि से भाषा पहचानने की प्रक्रिया सीखें। C# में चरण-दर-स्टेज मार्गदर्शिका।
+### [C# में छवि से टेक्स्ट निकालें – पूर्ण Aspose OCR उदाहरण](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+C# में Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने का पूर्ण उदाहरण देखें। विस्तृत चरण-दर-स्टेप मार्गदर्शिका।
+### [C# में बैच OCR कैसे करें – मल्टी‑पेज TIFF को टेक्स्ट में बदलें](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+C# में Aspose OCR का उपयोग करके मल्टी‑पेज TIFF फ़ाइलों को बैच में टेक्स्ट में बदलने की चरण‑दर‑स्टेप गाइड।
+### [C# में छवि से टेक्स्ट निकालें – ऑफ़लाइन OCR गाइड](./extract-text-from-image-in-c-offline-ocr-guide/)
+ऑफ़लाइन OCR के साथ C# में छवि से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

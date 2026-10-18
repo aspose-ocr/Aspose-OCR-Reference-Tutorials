@@ -441,6 +441,17 @@ Naučte se, jak asynchronně extrahovat text z obrázků v C# pomocí Aspose.OCR
 
 ### [Rozpoznat textový obrázek pomocí Aspose OCR v C#](./recognize-text-image-with-aspose-ocr-in-c/)
 Naučte se rozpoznávat text na obrázcích pomocí Aspose OCR v jazyce C#.
+### [Rozpoznat text z obrázku v C# – Kompletní tutoriál Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Kompletní průvodce rozpoznáním textu z obrázku v C# pomocí Aspose OCR, krok za krokem s ukázkovým kódem.
+### [Extrahovat text z obrázku v C# – Kompletní příklad Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Kompletní ukázka, jak pomocí Aspose OCR v C# extrahovat text z obrázku, včetně podrobného kódu a nastavení.
+### [Detekovat jazyk z obrázku pomocí Aspose OCR – C# tutoriál](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Naučte se, jak pomocí Aspose OCR v C# rozpoznat jazyk textu v obrázku a získat tak lepší výsledky zpracování.
+### [Jak provést hromadné OCR v C# – převést vícestránkový TIFF na text](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Naučte se, jak pomocí Aspose.OCR v C# provádět hromadné OCR a převádět vícestránkové soubory TIFF na text.
+### [Extrahovat text z obrázku v C# – Offline OCR průvodce](./extract-text-from-image-in-c-offline-ocr-guide/)
+Kompletní offline průvodce, jak pomocí Aspose OCR v C# extrahovat text z obrázku bez připojení k internetu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

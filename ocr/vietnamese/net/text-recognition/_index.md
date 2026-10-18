@@ -433,6 +433,17 @@ Học cách thực hiện OCR bất đồng bộ trong C# để trích xuất v�
 
 ### [Nhận dạng hình ảnh văn bản với Aspose OCR trong C#](./recognize-text-image-with-aspose-ocr-in-c/)
 Hướng dẫn từng bước để nhận dạng văn bản trong hình ảnh bằng Aspose OCR sử dụng C#.
+### [Phát hiện ngôn ngữ từ hình ảnh bằng Aspose OCR – Hướng dẫn C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Khám phá cách sử dụng Aspose OCR trong C# để phát hiện ngôn ngữ từ hình ảnh một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh, bao gồm các bước cấu hình và xử lý kết quả.
+### [Trích xuất văn bản từ hình ảnh trong C# – Ví dụ đầy đủ Aspose OCR](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm các bước cấu hình và xử lý kết quả.
+### [Cách thực hiện OCR hàng loạt trong C# – Chuyển đổi TIFF đa trang sang văn bản](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để xử lý hàng loạt các trang TIFF và chuyển chúng thành văn bản.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR offline](./extract-text-from-image-in-c-offline-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR offline và trích xuất văn bản từ hình ảnh một cách nhanh chóng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

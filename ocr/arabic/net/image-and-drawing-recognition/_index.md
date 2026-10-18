@@ -72,6 +72,8 @@ weight: 22
 تعلم كيفية تمكين النماذج واستخراج الجداول من المستندات باستخدام OCR في C# مع Aspose.OCR خطوة بخطوة.
 ### [حفظ الجدول كملف CSV في C# – دليل Aspose OCR الكامل](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 تعلم كيفية حفظ الجداول المستخرجة كملفات CSV باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [كيفية استخراج الجداول من الصور باستخدام Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+اكتشف كيفية استخراج الجداول من الصور باستخدام Aspose OCR في C# بسهولة ودقة.
 
 ## الأسئلة المتكررة
 

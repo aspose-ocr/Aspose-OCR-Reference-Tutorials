@@ -217,6 +217,12 @@ weight: 25
 
 ### [สร้าง Console Logger ใน C# – คู่มือเต็มเพื่อเปิดใช้งานการดาวน์โหลดอัตโนมัติและแก้ไขข้อความ OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 
+### [ดึงข้อความจากภาพด้วย C# – คู่มือ OCR ครบถ้วน](./extract-text-from-image-with-c-complete-ocr-guide/)
+เรียนรู้ขั้นตอนการดึงข้อความจากภาพด้วย C# อย่างครบถ้วนโดยใช้ Aspose.OCR สำหรับ .NET
+
+### [วิธีปรับปรุง OCR ด้วย Aspose OCR – คู่มือ C# ครบถ้วน](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+เรียนรู้เทคนิคการเพิ่มประสิทธิภาพ OCR ด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

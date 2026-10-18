@@ -433,6 +433,17 @@ Ismerje meg, hogyan nyerhet ki szöveget PDF‑fájlokból C#‑ban az Aspose se
 
 ### [Szövegkép felismerése Aspose OCR segítségével C#-ban](./recognize-text-image-with-aspose-ocr-in-c/)
 Ismerje meg, hogyan ismerheti fel a szöveges képeket az Aspose OCR C# környezetben.
+### [Képről szöveg felismerése C#-ban – Teljes Aspose OCR oktatóanyag](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+Ismerje meg, hogyan ismerhet fel szöveget képekről C#-ban az Aspose OCR teljes körű útmutatójával.
+### [Képről nyelv felismerése Aspose OCR használatával – C# oktatóanyag](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+Bővítse .NET-alkalmazásait az Aspose OCR segítségével a képről történő nyelvfelismeréshez.
+### [Képről szöveg kinyerése C#-ban – Teljes Aspose OCR példa](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+Ismerje meg, hogyan nyerhet ki szöveget képekről C#-ban az Aspose OCR teljes példájával.
+### [Képről szöveg kinyerése C#-ban – Offline OCR útmutató](./extract-text-from-image-in-c-offline-ocr-guide/)
+Ismerje meg, hogyan végezhet offline OCR-t C#-ban, szöveg kinyerése képekről internetkapcsolat nélkül.
+### [Kötegelt OCR C#-ban – Többoldalas TIFF szöveggé konvertálása](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
+Tanulja meg, hogyan végezhet tömeges OCR-t C#-ban, és konvertálhat többoldalas TIFF fájlokat szöveggé az Aspose.OCR segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

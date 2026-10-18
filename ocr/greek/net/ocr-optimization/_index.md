@@ -22,7 +22,7 @@ weight: 25
 
 ## Γρήγορες Απαντήσεις
 - **What does “extract text from image” mean?** Μετατροπή των οπτικών χαρακτήρων σε μια εικόνα σε αναζητήσιμο, επεξεργάσιμο κείμενο.  
-- **Which library is recommended?** Το Aspose.OCR for .NET παρέχει OCR υψηλής ακρίβειας με εκτενείς επιλογές προεπεξεργασίας.  
+- **Which library is recommended?** Το Aspose.OCR for .NET παρέχει OCR υψηλής ακρίβειας με εκτενείς επιλογές προεπεργασίας.  
 - **Do I need a license?** Διατίθεται δωρεάν δοκιμαστική έκδοση· απαιτείται εμπορική άδεια για παραγωγική χρήση.  
 - **Can I process multi‑page documents?** Ναι, μπορείτε να αποθηκεύσετε τα αποτελέσματα OCR ως πολυσέλιδα PDF ή άλλα μορφότυπα εγγράφων.  
 - **Is .NET Core supported?** Πλήρης υποστήριξη σε .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
@@ -219,6 +219,10 @@ weight: 25
 ### [Εκτέλεση OCR σε εικόνα με GPU – C# Aspose OCR Οδηγός](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 ### [Δημιουργία Καταγραφέα Κονσόλας σε C# – Πλήρης Οδηγός για Ενεργοποίηση Αυτόματης Λήψης & Διόρθωση Κειμένου OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Μάθετε πώς να δημιουργήσετε έναν καταγραφέα κονσόλας σε C# που κατεβάζει αυτόματα και διορθώνει το κείμενο OCR.
+### [Εξαγωγή κειμένου από εικόνα με C# – Πλήρης οδηγός OCR](./extract-text-from-image-with-c-complete-ocr-guide/)
+Πλήρης οδηγός για εξαγωγή κειμένου από εικόνα με C# χρησιμοποιώντας Aspose.OCR.
+### [Πώς να βελτιώσετε το OCR με Aspose OCR – Πλήρης οδηγός C#](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Ανακαλύψτε βήμα‑βήμα τεχνικές βελτιστοποίησης OCR με Aspose OCR σε πλήρη οδηγό C#.
 
 ## Συχνές Ερωτήσεις
 

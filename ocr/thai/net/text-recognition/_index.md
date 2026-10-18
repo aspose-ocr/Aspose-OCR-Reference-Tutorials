@@ -397,6 +397,11 @@ url: /th/net/text-recognition/
 ### [ดึงข้อความจากรูปภาพใน C# – บทเรียน OCR แบบอะซิงโครนัส](./extract-text-from-image-in-c-async-ocr-tutorial/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากรูปภาพแบบอะซิงโครนัสอย่างง่ายดาย
 ### [จดจำข้อความรูปภาพด้วย Aspose OCR ใน C#](./recognize-text-image-with-aspose-ocr-in-c/)
+### [จดจำข้อความจากรูปภาพใน C# – บทช่วยสอน Aspose OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/)
+### [ดึงข้อความจากรูปภาพใน C# – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./extract-text-from-image-in-c-complete-aspose-ocr-example/)
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือ OCR แบบออฟไลน์](./extract-text-from-image-in-c-offline-ocr-guide/)
+### [ตรวจจับภาษาในภาพด้วย Aspose OCR – บทช่วยสอน C#](./detect-language-from-image-with-aspose-ocr-c-tutorial/)
+### [วิธีทำ OCR แบบกลุ่มใน C# – แปลงไฟล์ TIFF หลายหน้าเป็นข้อความ](./how-to-batch-ocr-in-c-convert-multi-page-tiff-to-text/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
