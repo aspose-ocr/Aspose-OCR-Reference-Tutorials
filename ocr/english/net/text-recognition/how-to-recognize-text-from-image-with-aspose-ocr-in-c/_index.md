@@ -30,7 +30,7 @@ tags:
 - OCR
 - C#
 - Aspose
-title: How to recognize text from image with Aspose.OCR in C#
+title: How to extract and recognize text from image using Aspose.OCR in C#
 url: /net/text-recognition/how-to-recognize-text-from-image-with-aspose-ocr-in-c/
 ---
 
@@ -198,17 +198,16 @@ You now have a complete guide to recognize text from image using Aspose.OCR in C
 
 Feel free to experiment with additional languages, larger batches, or post‑processing logic. If you need to read Cyrillic text image in a different context—such as a web API or a Windows service—the same pattern applies. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [recognize text image with Aspose OCR for multiple languages](/ocr/english/net/ocr-settings/working-with-different-languages/)
-- [ocr preprocessing pipeline – How to Recognize Text from Image in C#](/ocr/english/net/ocr-optimization/ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+- [Extract image text C# with language selection using Aspose.OCR]({{< relref "/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/" >}})
+- [recognize text image with Aspose OCR for multiple languages]({{< relref "/ocr/english/net/ocr-settings/working-with-different-languages/" >}})
+- [ocr preprocessing pipeline – How to Recognize Text from Image in C#]({{< relref "/ocr/english/net/ocr-optimization/ocr-preprocessing-pipeline-how-to-recognize-text-from-image/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
