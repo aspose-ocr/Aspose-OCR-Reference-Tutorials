@@ -57,7 +57,7 @@ tags:
 - C#
 - JSON
 - Image processing
-title: How to convert an OCR image to JSON in C# with Aspose.OCR
+title: Convert an OCR image to JSON in C# using Aspose.OCR API
 url: /net/text-recognition/how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/
 ---
 
@@ -274,16 +274,15 @@ From here you might explore:
 Feel free to experiment with different languages, image formats, and output options to fit your project’s needs. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [recognize text from image in C# – Complete Guide to OCR and JSON](/ocr/english/net/text-recognition/recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
-- [Convert Image to Text in C# with Aspose OCR – Step‑by‑Step Guide](/ocr/english/net/text-recognition/convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+- [Recognize text from image in C# – Complete Guide to OCR and JSON]({{< relref "ocr/english/net/text-recognition/recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso.md" >}})
+- [Convert Image to Text in C# with Aspose OCR – Step‑by‑Step Guide]({{< relref "ocr/english/net/text-recognition/convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid.md" >}})
+- [How to Extract Text from Image Using Aspose.OCR for .NET]({{< relref "ocr/english/net/text-recognition/get-recognition-result.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
