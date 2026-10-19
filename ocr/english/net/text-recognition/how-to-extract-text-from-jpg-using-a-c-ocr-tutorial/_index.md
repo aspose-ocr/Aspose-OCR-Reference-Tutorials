@@ -59,7 +59,7 @@ tags:
 - OCR
 - C#
 - Aspose
-title: Extract text from JPG using Aspose.OCR in C# – step‑by‑step tutorial
+title: Extract text from JPG using Aspose.OCR C# API – step‑by‑step tutorial
 url: /net/text-recognition/how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/
 ---
 
@@ -303,6 +303,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
