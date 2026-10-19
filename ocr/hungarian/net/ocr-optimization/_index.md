@@ -151,9 +151,6 @@ Ismerje meg, hogyan lehet a képet kiegyenesíteni C#‑ban az OCR pontosságán
 ### [Szöveg kinyerése képből C#‑ban – Teljes OCR útmutató](./extract-text-from-image-in-c-complete-ocr-guide/)
 Fedezze fel a teljes OCR folyamatot C#‑ban a szöveg kinyeréséhez képekről, részletes példákkal és beállításokkal.
 
-### [Hogyan javítható az OCR pontossága C#-ban az Aspose OCR-rel](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
-Fedezze fel, hogyan növelheti az OCR pontszámát C#-ban az Aspose OCR segítségével.
-
 ### [Hogyan végezzen aszinkron OCR-t C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan valósíthatja meg az aszinkron OCR-t C#‑ban az Aspose.OCR for .NET segítségével, a teljes folyamatot lépésről‑lépésre.
 
@@ -251,6 +248,8 @@ Ismerje meg, hogyan hozhat létre kereshető PDF-et Aspose OCR és C# segítség
 ### [Hogyan javítsuk az OCR‑t – Szöveg kinyerése képekből az Aspose segítségével](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Fedezze fel, hogyan növelheti az OCR pontosságát és hatékonyságát az Aspose segítségével a képek szövegének kinyeréséhez.
 
+### [Hogyan javítsa az OCR pontosságát C#-ban az Aspose OCR-rel](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Fedezze fel, hogyan növelheti az OCR pontosságát C# kóddal az Aspose OCR használatával.
 ### [Hogyan korrigálja a kép dőlését és növelje az OCR pontosságát C#‑ban – Lépésről‑lépésre útmutató](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Ismerje meg, hogyan egyenesítheti a képet és javíthatja az OCR pontosságát C#‑ban az Aspose.OCR használatával.
 

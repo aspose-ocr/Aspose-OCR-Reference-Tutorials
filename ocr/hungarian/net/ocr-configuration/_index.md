@@ -128,6 +128,8 @@ Ismerje meg, hogyan ellenőrizheti a licenc állapotát az Aspose OCR használat
 Fedezze fel, hogyan aktiválhatja a GPU-t az OCR-hez C#‑ban a teljesítmény fokozásához.  
 ### [Hogyan töltsük le az OCR nyelvi csomagot orosz nyelvhez – Teljes útmutató](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Lépésről‑lépésre bemutatja, hogyan telepíthető és használható az orosz nyelvi csomag az Aspose.OCR‑ban.  
+### [Hogyan tiltsuk le az OCR-t C#-ban – Offline Aspose OCR útmutató](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Ismerje meg, hogyan kapcsolhatja ki az OCR funkciót C# alkalmazásban offline környezetben az Aspose OCR használatával.  
 ### [Kép betöltése OCR-hez C#-ban – Teljes Aspose OCR és helyesírás-ellenőrző útmutató](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Ismerje meg, hogyan töltsön be képet C#-ban, és alkalmazzon teljes körű OCR- és helyesírás-ellenőrző funkciókat az Aspose OCR segítségével.  
 

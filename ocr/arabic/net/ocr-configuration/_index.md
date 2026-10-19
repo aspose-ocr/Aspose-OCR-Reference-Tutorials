@@ -73,6 +73,8 @@ weight: 24
 تعلم كيفية تفعيل معالجة GPU في Aspose.OCR باستخدام C# لتحسين سرعة ودقة التعرف على النص.
 ### [كيفية تنزيل حزمة لغة OCR للغة الروسية – دليل كامل](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 تعلم خطوة بخطوة كيفية تحميل حزمة اللغة الروسية لاستخدام OCR مع Aspose.OCR.
+### [كيفية تعطيل OCR في C# – دليل Aspose OCR غير المتصل](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+تعلم كيفية إيقاف تشغيل OCR في تطبيقات C# باستخدام Aspose OCR دون اتصال بالإنترنت.
 ### [تحميل صورة للتعرف الضوئي على الأحرف في C# – دليل كامل لـ Aspose OCR وتدقيق الإملاء](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 تعلم كيفية تحميل صورة وإجراء OCR مع تدقيق إملائي باستخدام Aspose OCR في C# خطوة بخطوة.
 

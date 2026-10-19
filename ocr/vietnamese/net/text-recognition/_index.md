@@ -479,6 +479,16 @@ Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng chính xác
 Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# để trích xuất văn bản từ nhiều hình ảnh một cách hiệu quả.
 ### [Trích xuất văn bản từ TIFF bằng Aspose OCR Engine – Ví dụ hoàn chỉnh](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR để trích xuất văn bản từ tệp TIFF một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR toàn diện](./extract-text-from-image-in-c-complete-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ TIFF bằng Batch OCR trong C# – Hướng dẫn toàn diện](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR để trích xuất văn bản từ tệp TIFF bằng chế độ Batch OCR trong C#, nhanh chóng và hiệu quả.
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn toàn diện](./create-searchable-pdf-in-c-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để tạo PDF có thể tìm kiếm, giúp người dùng dễ dàng tra cứu nội dung.
+### [Nhận dạng văn bản từ PNG trong C# – Hướng dẫn OCR toàn diện & Kiểm tra chính tả](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp PNG và thực hiện kiểm tra chính tả một cách hiệu quả.
+### [Chuyển đổi hình ảnh sang JSON – Hướng dẫn OCR C# cho biên lai](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Biến đổi hình ảnh biên lai thành JSON nhanh chóng bằng Aspose.OCR trong C#.
 ### [Cách thực hiện OCR trong C# – Nhận dạng văn bản từ hình ảnh](./how-to-perform-ocr-in-c-recognize-text-from-image/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và chính xác.
 ### [Tạo PDF có thể tìm kiếm từ tài liệu quét – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)

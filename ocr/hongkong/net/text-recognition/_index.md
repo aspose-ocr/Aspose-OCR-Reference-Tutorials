@@ -471,6 +471,16 @@ url: /zh-hant/net/text-recognition/
 本教學說明如何在 C# 應用程式中使用 Aspose OCR 進行中文文字的識別與提取。
 ### [使用 Aspose OCR 引擎從 TIFF 提取文字 – 完整範例](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 示範如何使用 Aspose.OCR 引擎從 TIFF 圖像中完整提取文字，提供步驟說明與範例程式碼。
+### [在 C# 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-in-c-complete-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 建立可搜尋的 PDF，涵蓋設定、執行與結果處理。
+### [在 C# 中從圖像提取文字 – 完整 OCR 指南](./extract-text-from-image-in-c-complete-ocr-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 從圖像中提取文字，涵蓋設定、執行與結果處理。
+### [在 C# 中使用批次 OCR 從 TIFF 提取文字 – 完整指南](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+示範如何在 C# 使用 Aspose.OCR 以批次方式從 TIFF 圖像提取文字，涵蓋設定、執行與結果處理。
+### [在 C# 中從 PNG 文字辨識 – 完整 OCR 與拼寫檢查指南](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 從 PNG 圖像提取文字並進行拼寫檢查，涵蓋設定、執行與結果處理。
+### [將影像轉換為 JSON – C# 收據 OCR 教程](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+使用 Aspose.OCR 在 C# 中將收據影像轉換為 JSON 格式，提供完整步驟指南。
 ### [如何在 C# 中執行 OCR – 從影像辨識文字](./how-to-perform-ocr-in-c-recognize-text-from-image/)
 使用 Aspose.OCR 在 C# 中輕鬆執行 OCR，從影像中快速提取文字。
 ### [從掃描文件建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-from-scanned-document-complete-c-guide/)

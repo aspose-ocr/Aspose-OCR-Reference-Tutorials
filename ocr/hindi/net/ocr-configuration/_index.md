@@ -73,6 +73,8 @@ Aspose OCR लाइसेंस की स्थिति कैसे जा�
 C# एप्लिकेशन में Aspose.OCR के साथ GPU का उपयोग करके तेज़ OCR प्रोसेसिंग कैसे सेट करें, सीखें।
 ### [रूसी के लिए OCR भाषा पैक कैसे डाउनलोड करें – पूर्ण गाइड](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 रूसी OCR भाषा पैक डाउनलोड करने और सेट करने की पूरी प्रक्रिया सीखें।
+### [C# में OCR को कैसे निष्क्रिय करें – ऑफ़लाइन Aspose OCR गाइड](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Aspose OCR को ऑफ़लाइन मोड में C# एप्लिकेशन से निष्क्रिय करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 ### [C# में इमेज लोड करना – पूर्ण Aspose OCR और स्पेल‑चेक गाइड](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 C# में इमेज लोड करके OCR और स्पेल‑चेक कैसे करें, इसका पूरा मार्गदर्शन।
 

@@ -86,6 +86,8 @@ weight: 24
 Μάθετε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose.OCR για .NET, βελτιώνοντας την ταχύτητα αναγνώρισης εικόνας.
 ### [Πώς να κατεβάσετε το πακέτο γλώσσας OCR για Ρωσικά – Πλήρης οδηγός](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Μάθετε βήμα‑βήμα πώς να κατεβάσετε και να εγκαταστήσετε το πακέτο γλώσσας OCR για Ρωσικά στο Aspose.OCR.
+### [Πώς να απενεργοποιήσετε το OCR σε C# – Offline οδηγός Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Μάθετε πώς να απενεργοποιήσετε το OCR σε εφαρμογές C# χωρίς σύνδεση, χρησιμοποιώντας το Aspose OCR.
 ### [Φόρτωση εικόνας για OCR σε C# – Πλήρης Οδηγός Aspose OCR & Ορθογραφικού Ελέγχου](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Μάθετε πώς να φορτώνετε εικόνες για OCR σε C# και να ενσωματώνετε ορθογραφικό έλεγχο με το Aspose OCR.
 

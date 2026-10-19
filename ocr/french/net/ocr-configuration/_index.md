@@ -107,6 +107,9 @@ Apprenez à configurer le GPU pour accélérer l'OCR avec Aspose.OCR en C#, incl
 ### [Charger une image pour l'OCR en C# – Guide complet Aspose OCR & vérification orthographique](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Apprenez à charger des images et à effectuer la vérification orthographique avec Aspose OCR en C#.
 
+### [Comment désactiver l'OCR en C# – Guide hors ligne Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode hors ligne avec Aspose OCR.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.

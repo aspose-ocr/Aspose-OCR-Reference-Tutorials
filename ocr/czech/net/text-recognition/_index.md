@@ -487,6 +487,16 @@ Naučte se, jak pomocí Aspose OCR v C# rozpoznat čínský text a integrovat je
 Naučte se, jak pomocí Aspose.OCR v C# zpracovat velké množství obrázků najednou a extrahovat z nich text efektivně.
 ### [Extrahovat text z TIFF pomocí Aspose OCR Engine – kompletní příklad](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Naučte se, jak pomocí Aspose OCR Engine extrahovat text z TIFF souborů v kompletním příkladu.
+### [Extrahovat text z obrázku v C# – Kompletní průvodce OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Kompletní průvodce pro extrakci textu z obrázků v C# pomocí Aspose.OCR, včetně výkonných...
+### [Extrahovat text z TIFF pomocí dávkového OCR v C# – Kompletní průvodce](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Kompletní průvodce pro extrakci textu z TIFF souborů pomocí dávkového OCR v C# s Aspose.OCR, včetně nastavení a získání výsledků.
+### [Vytvořit prohledávatelný PDF v C# – Kompletní průvodce](./create-searchable-pdf-in-c-complete-guide/)
+Kompletní průvodce vytvořením prohledávatelného PDF v C# pomocí Aspose.OCR, včetně nastavení a získání výsledků.
+### [Rozpoznat text z PNG v C# – Kompletní průvodce OCR a kontrolou pravopisu](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Kompletní průvodce rozpoznáváním textu z PNG souborů v C# s OCR a kontrolou pravopisu.
+### [Převod obrázku na JSON – C# OCR tutoriál pro účtenky](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Naučte se převést obrázek účtenky na JSON pomocí Aspose.OCR v C# a získat strukturovaná data pro další zpracování.
 ### [Jak provést OCR v C# – Rozpoznat text z obrázku](./how-to-perform-ocr-in-c-recognize-text-from-image/)
 Naučte se pomocí Aspose.OCR pro .NET snadno rozpoznat text z obrázku v C# a integrovat OCR do svých aplikací.
 ### [Vytvořte prohledávatelný PDF ze skenovaného dokumentu – Kompletní průvodce C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
