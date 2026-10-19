@@ -1,0 +1,7 @@
+Title: Perform OCR on Image in C# – Complete Aspose Guide
+Slug: perform-ocr-on-image-in-c-complete-aspose-guide
+Category: text-recognition
+ProcessedDate: 2026-06-29T02:48:19.400982
+SourceRepo: AI Search API
+Keywords: perform ocr on image, recognize text from image, write json to file, extract text from invoice, load image for ocr
+PRNumber: 161
