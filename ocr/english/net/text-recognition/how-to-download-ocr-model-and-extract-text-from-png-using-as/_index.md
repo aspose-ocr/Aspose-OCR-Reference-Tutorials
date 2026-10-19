@@ -32,7 +32,7 @@ tags:
 - Aspose.OCR
 - C#
 - image-processing
-title: How to download the Aspose.OCR model and extract text from PNG in C#
+title: Download Aspose.OCR Model and Extract Text from PNG Using C#
 url: /net/text-recognition/how-to-download-ocr-model-and-extract-text-from-png-using-as/
 ---
 
@@ -233,11 +233,11 @@ Feel free to adapt the code for your own projects, and happy coding!
 
 ## What should you learn next?
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Extract Text from Image in C# – Offline OCR with Aspose (Step‑by‑Step Guide)](/ocr/english/net/text-recognition/extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+- {{< relref "ocr/english/net/text-recognition/extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/" >}}Extract Text from Image in C# – Offline OCR with Aspose (Step‑by‑Step Guide){{< /relref >}}
+- {{< relref "ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/" >}}Extract image text C# with language selection using Aspose.OCR{{< /relref >}}
+- {{< relref "ocr/english/net/text-recognition/get-recognition-result/" >}}How to Extract Text from Image Using Aspose.OCR for .NET{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button / >}}
