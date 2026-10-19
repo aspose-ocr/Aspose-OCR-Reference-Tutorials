@@ -1,0 +1,7 @@
+Title: image to text C# – Complete Guide with Aspose OCR
+Slug: image-to-text-c-complete-guide-with-aspose-ocr
+Category: text-recognition
+ProcessedDate: 2026-06-22T18:56:21.854946
+SourceRepo: AI Search API
+Keywords: image to text c#, extract text png, how to recognize text, read scanned pages, set ocr language
+PRNumber: 152
