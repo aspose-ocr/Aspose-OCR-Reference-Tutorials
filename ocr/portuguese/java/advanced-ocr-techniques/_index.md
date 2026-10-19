@@ -159,13 +159,6 @@ Execute OCR em imagens PNG usando Java com Aspose.OCR. Extraia texto rapidamente
 Aprenda a definir regiões de interesse para OCR em Java, melhorando a precisão e desempenho. Guia passo a passo com Aspose.OCR.
 ### [Pré-processar imagem para OCR – Aumente a precisão da extração de texto em Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Melhore a precisão do OCR pré-processando imagens em Java com Aspose.OCR. Guia passo a passo para otimizar a extração de texto.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Como configurar GPU para OCR – reconhecer texto a partir de imagem](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
 Aprenda a habilitar a GPU para acelerar o OCR com Aspose.OCR, reconhecendo texto em imagens de forma eficiente.
 ### [Criar PDF pesquisável com Java – Guia completo](./create-searchable-pdf-with-java-complete-guide/)
@@ -177,6 +170,8 @@ Aprenda a corrigir a inclinação de imagens antes do OCR usando Aspose.OCR para
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}
 
