@@ -151,6 +151,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 ### [image to text java – Полное руководство по предобработке OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
 ### [Как выполнять OCR TIFF – Потоковая обработка больших TIFF и извлечение текстовых плиток в Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Узнайте, как обрабатывать большие TIFF‑файлы потоково и извлекать текстовые плитки с помощью Aspose.OCR для Java.
+### [Как включить GPU для OCR в Java – Полное руководство](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Узнайте, как активировать GPU для ускорения OCR в Aspose.OCR для Java. Пошаговое руководство для повышения производительности.
+### [Создание фиксированного пула потоков для параллельного OCR в Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Узнайте, как создать фиксированный пул потоков для параллельного выполнения OCR с Aspose.OCR в Java, повышая производительность обработки изображений.
+### [Повышение точности OCR в Java – Полное руководство по Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Узнайте, как улучшить точность распознавания текста в Java с помощью Aspose OCR, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -127,6 +127,11 @@ Naučte se, jak pomocí Aspose.OCR pro Java převést PDF na prohledávatelný d
 Rychlý návod, jak pomocí Aspose.OCR pro Java převést obrázek na text pomocí jednoduchého kódu.
 ### [Extrahování textu z obrázku v Javě – načtení obrázku pro OCR](./extract-text-from-image-java-load-image-for-ocr/)
 Naučte se načíst obrázek a použít Aspose.OCR v Javě pro rychlé a přesné rozpoznání textu.
+### [Aspose OCR Java příklad: Extrahování textu z oblasti](./aspose-ocr-java-example-extract-text-from-a-region/)
+Ukázkový kód v Javě, který pomocí Aspose.OCR extrahuje text z určené oblasti obrázku.
+
+### [Extrahování textu z HEIC – Kompletní Java průvodce](./extract-text-from-heic-complete-java-guide/)
+Kompletní návod, jak pomocí Aspose.OCR pro Java extrahovat text z obrázků ve formátu HEIC.
 
 ## Často kladené otázky
 

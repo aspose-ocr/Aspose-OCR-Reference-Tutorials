@@ -124,6 +124,10 @@ weight: 21
 ### [إنشاء PDF قابل للبحث باستخدام OCR في Java – دليل خطوة بخطوة](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
 دليل شامل يوضح كيفية تحويل ملفات PDF إلى مستندات قابلة للبحث باستخدام Aspose.OCR للـ Java.
 ### [استخراج النص من صورة Java – تحميل الصورة للتعرف الضوئي على الأحرف](./extract-text-from-image-java-load-image-for-ocr/)
+### [مثال Aspose OCR للـ Java: استخراج النص من منطقة](./aspose-ocr-java-example-extract-text-from-a-region/)
+دليل يوضح كيفية استخراج النص من منطقة محددة في صورة باستخدام Aspose OCR للـ Java.
+### [استخراج النص من HEIC – دليل Java كامل](./extract-text-from-heic-complete-java-guide/)
+دليل شامل يوضح كيفية استخراج النص من ملفات HEIC باستخدام Aspose.OCR للـ Java.
 
 ## الأسئلة المتكررة
 

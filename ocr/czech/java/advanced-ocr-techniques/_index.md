@@ -155,6 +155,12 @@ Zvyšte výkon OCR nastavením maximálního počtu vláken v Aspose OCR pro Jav
 Kompletní průvodce předzpracováním OCR v Javě – převod obrázku na text s optimalizací kvality.
 ### [Jak provést OCR TIFF – Streamování velkých TIFF souborů a extrakce textových dlaždic v Javě](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Zpracujte velké TIFF soubory a extrahujte textové dlaždice pomocí Aspose.OCR pro Java.
+### [Jak povolit GPU pro Java OCR – Kompletní tutoriál](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Naučte se, jak aktivovat GPU akceleraci v Aspose.OCR pro Java a výrazně zrychlit rozpoznávání textu.
+### [Vytvoření pevného thread poolu pro paralelní OCR v Javě](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Naučte se, jak vytvořit pevný thread pool pro paralelní zpracování OCR v Javě a zvýšit výkon rozpoznávání textu.
+### [Zlepšení přesnosti OCR v Javě – Kompletní průvodce Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Zvyšte přesnost rozpoznávání textu v Javě pomocí podrobného průvodce Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,9 +42,6 @@ Siapkan persegi panjang secara efisien untuk OCR dengan Aspose.OCR untuk Java me
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Tutorial ini memandu Anda melalui integrasi yang mudah dan akurasi tinggi dalam mengenali garis. Tingkatkan proyek Anda dengan efisiensi dan keandalan Aspose.OCR.
 
 ## [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
-
-Ekstrak teks dari gambar dengan mudah dengan menentukan karakter yang diizinkan dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang efisien, memastikan pengalaman pengenalan teks yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan Aspose.OCR.
-
 ### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-with-java-complete-guide/)
 Buat PDF dapat dicari menggunakan Java dengan panduan lengkap kami, memanfaatkan Aspose.OCR untuk ekstraksi teks yang akurat.
 
@@ -165,6 +162,15 @@ Tingkatkan kecepatan OCR dengan mengatur jumlah thread maksimum di Aspose OCR un
 Panduan lengkap untuk mempersiapkan gambar sebelum OCR di Java, meningkatkan akurasi dan kecepatan ekstraksi teks.
 ### [Cara OCR TIFF – Streaming TIFF Besar dan Mengekstrak Tile Teks di Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Ekstrak teks dari file TIFF berukuran besar secara efisien dengan streaming dan tile teks menggunakan Aspose.OCR untuk Java.
+### [Membuat Fixed Thread Pool untuk OCR Paralel di Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Aktifkan OCR paralel dengan membuat Fixed Thread Pool di Java menggunakan Aspose.OCR, meningkatkan kecepatan pemrosesan.
+
+## [Cara Mengaktifkan GPU untuk OCR Java – Tutorial Lengkap](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Aktifkan akselerasi GPU untuk OCR Java dengan Aspose.OCR, meningkatkan kecepatan dan akurasi proses pengenalan teks.
+
+## [Meningkatkan Akurasi OCR di Java – Panduan Lengkap Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+
+Tingkatkan akurasi OCR dalam aplikasi Java Anda dengan panduan lengkap Aspose OCR, mencakup teknik dan pengaturan optimal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

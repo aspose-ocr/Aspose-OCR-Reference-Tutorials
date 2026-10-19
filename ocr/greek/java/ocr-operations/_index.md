@@ -56,8 +56,6 @@ weight: 21
 
 Τέλος με τις δυσκολίες στην εξαγωγή κειμένου PDF. Βυθιστείτε στο tutorial και εξοπλιστείτε με τη γνώση για να αναγνωρίζετε κείμενο σε έγγραφα PDF άψογα, εξασφαλίζοντας ομαλή ροή εργασίας.
 
-[Get Started with PDF Recognition](./recognize-pdf/)
-
 ## OCR Αναγνώριση Εικόνων TIFF στο Aspose.OCR για Java
 
 Ζήστε το επόμενο επίπεδο αναγνώρισης κειμένου σε Java με το Aspose.OCR. Το tutorial μας για την αναγνώριση κειμένου σε εικόνες TIFF έχει σχεδιαστεί ώστε η διαδικασία να είναι αβίαστη για εσάς. Κατεβάστε το τώρα για μια αδιάσπαστη εμπειρία OCR και δείτε την ακρίβεια και την ταχύτητα που προσφέρει το Aspose.OCR.
@@ -69,6 +67,8 @@ weight: 21
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Αποκτήστε τη δύναμη της εξαγωγής κειμένου από εικόνες με το Aspose.OCR για Java. Ένα ολοκληρωμένο tutorial για OCR με Detect Areas Mode.
+### [Aspose OCR Java Example: Extract Text from a Region](./aspose-ocr-java-example-extract-text-from-a-region/)
+Μάθετε πώς να εξάγετε κείμενο από συγκεκριμένη περιοχή εικόνας χρησιμοποιώντας Aspose OCR σε Java.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Αποκτήστε ακριβή εξαγωγή κειμένου από εικόνες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για ακριβές OCR με επιλογή γλώσσας.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
@@ -133,6 +133,8 @@ weight: 21
 Δημιουργήστε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR για Java, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Εξαγωγή κειμένου από εικόνα Java – Φόρτωση εικόνας για OCR](./extract-text-from-image-java-load-image-for-ocr/)
 Μάθετε πώς να φορτώνετε εικόνα σε Java και να εφαρμόζετε OCR με Aspose.OCR για εξαγωγή κειμένου.
+### [Εξαγωγή Κειμένου από HEIC – Πλήρης Οδηγός Java](./extract-text-from-heic-complete-java-guide/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία HEIC χρησιμοποιώντας Aspose.OCR σε Java, βήμα‑βήμα οδηγίες.
 
 ## Συχνές Ερωτήσεις
 

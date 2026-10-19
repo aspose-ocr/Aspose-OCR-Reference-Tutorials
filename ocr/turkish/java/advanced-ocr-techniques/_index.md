@@ -172,6 +172,12 @@ Aspose OCR Java'da iş parçacığı sayısını ayarlayarak OCR performansını
 Java uygulamalarınızda OCR ön işleme adımlarını tam olarak öğrenin ve metin tanıma doğruluğunu artırın.
 ### [TIFF'te OCR Nasıl Yapılır – Java'da Büyük TIFF'leri Akıtma ve Metin Döşemelerini Çıkarma](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Java'da büyük TIFF dosyalarını akıtıp metin döşemelerini çıkarmak için adım adım rehber.
+### [Java OCR için GPU'yu Etkinleştirme – Tam Kılavuz](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Java OCR'da GPU desteğini etkinleştirerek yüksek performanslı metin tanıma elde edin. Adım adım kılavuz.
+### [Java'da Paralel OCR için Sabit İş Parçacığı Havuzu Oluşturma](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Java'da paralel OCR işlemleri için sabit iş parçacığı havuzu oluşturarak performansı artırın. Adım adım kılavuz.
+### [Java'da OCR Doğruluğunu Artırma – Tam Aspose OCR Kılavuzu](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Java projelerinizde OCR doğruluğunu artırmak için adım adım tam kılavuz. Aspose OCR ile yüksek hassasiyet elde edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

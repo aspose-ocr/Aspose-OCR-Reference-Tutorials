@@ -74,7 +74,8 @@ weight: 21
 ## OCR 操作教學
 ### [在 Aspose.OCR 中使用 Detect Areas Mode 執行 OCR](./perform-ocr-detect-areas-mode/)
 釋放 Aspose.OCR for Java 從影像提取文字的威力。關於 Detect Areas Mode 的完整 OCR 教學。
-
+### [Aspose OCR Java 範例：從區域提取文字](./aspose-ocr-java-example-extract-text-from-a-region/)
+示範如何使用 Aspose OCR for Java 從影像的特定區域提取文字。
 ### [在 Aspose.OCR 中使用語言選擇執行 OCR](./perform-ocr-language-selection/)
 釋放 Aspose.OCR for Java 從影像精準提取文字的能力。依照我們的步驟指南，使用語言選擇達成精確 OCR。
 
@@ -141,6 +142,8 @@ weight: 21
 完整教學示範如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的文件，步驟清晰易懂。
 ### [從影像提取文字（Java）– 載入影像以進行 OCR](./extract-text-from-image-java-load-image-for-ocr/)
 示範如何在 Java 中載入影像並使用 Aspose.OCR 進行文字提取。
+### [從 HEIC 提取文字 – 完整 Java 教學](./extract-text-from-heic-complete-java-guide/)
+示篯如何使用 Aspose.OCR for Java 從 HEIC 圖片中提取文字，完整步驟教學。
 
 ## 常見問題
 

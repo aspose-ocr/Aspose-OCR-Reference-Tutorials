@@ -136,6 +136,10 @@ weight: 21
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Java OCR – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
 เรียนรู้วิธีแปลง PDF สแกนเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
 ### [ดึงข้อความจากภาพ Java – โหลดภาพสำหรับ OCR](./extract-text-from-image-java-load-image-for-ocr/)
+### [Aspose OCR Java Example: Extract Text from a Region](./aspose-ocr-java-example-extract-text-from-a-region/)
+
+### [Extract Text from HEIC – Complete Java Guide](./extract-text-from-heic-complete-java-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ HEIC ด้วย Aspose.OCR for Java อย่างละเอียดและครบถ้วน
 
 
 

@@ -147,7 +147,6 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 
 ### [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
-
 ### [使用 GPU 加速的 Java OCR 進行圖像文字辨識](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
 利用 GPU 加速，使用 Aspose.OCR for Java 高效從圖像中提取文字，提升辨識速度與精度。
 
@@ -159,6 +158,12 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 
 ### [如何在 Java 中 OCR TIFF – 串流大型 TIFF 並提取文字瓦片](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 使用 Aspose.OCR for Java 串流處理大型 TIFF 檔案，並將圖像分割為文字瓦片以高效提取文字。
+### [在 Java 中為平行 OCR 建立固定執行緒池](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+使用 Aspose.OCR for Java，透過固定執行緒池實現多執行緒平行 OCR，提高處理效能。
+### [如何為 Java OCR 啟用 GPU – 完整教學](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+在 Java 中使用 Aspose.OCR 啟用 GPU 加速，提升 OCR 效能的完整步驟指南。
+### [在 Java 中提升 OCR 準確度 – 完整 Aspose OCR 指南](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+使用 Aspose.OCR for Java，透過最佳化設定與技巧提升 OCR 準確度，完整步驟指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

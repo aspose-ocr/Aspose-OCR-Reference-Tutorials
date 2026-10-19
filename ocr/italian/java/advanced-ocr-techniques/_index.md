@@ -45,13 +45,6 @@ Potenzia le tue applicazioni Java con Aspose.OCR per un riconoscimento preciso d
 
 Estrai facilmente il testo dalle immagini specificando i caratteri consentiti con Aspose.OCR per Java. Segui la nostra guida passo passo per un'integrazione efficiente, garantendo un'esperienza di riconoscimento del testo senza interruzioni. Migliora le tue applicazioni Java con le funzionalità Aspose.OCR.
 
-## [Come utilizzare l'OCR con accelerazione GPU in Java – Guida passo‑passo](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
-Scopri come accelerare l'OCR con GPU in Java per prestazioni elevate. Segui la nostra guida passo‑passo per un'integrazione rapida.
-
-## Conclusione
-
-Con Aspose.OCR per Java, padroneggiare le tecniche OCR avanzate non è mai stato così facile. Tuffati in questi tutorial e sblocca tutto il potenziale del riconoscimento del testo nei tuoi progetti Java. Migliora le tue applicazioni con integrazione perfetta, elevata precisione e funzionalità versatili di estrazione del testo. Scaricalo ora e fai il primo passo verso l'eccellenza dell'OCR con Aspose.OCR per Java!
-## Tutorial sulle tecniche OCR avanzate
 ### [Esecuzione dell'OCR su BufferedImage in Aspose.OCR per Java](./perform-ocr-buffered-image/)
 Esegui l'OCR su BufferedImage senza sforzo con Aspose.OCR per Java. Estrai testo dalle immagini senza problemi. Scaricalo ora per un'esperienza versatile di riconoscimento del testo.
 ### [Esecuzione dell'OCR sull'immagine dall'URL in Aspose.OCR per Java](./perform-ocr-image-from-url/)
@@ -152,6 +145,13 @@ Imposta il numero massimo di thread per migliorare le prestazioni dell'OCR in Ja
 Scopri come ottimizzare le immagini prima dell'OCR in Java per ottenere risultati più accurati e veloci.
 ### [Come fare OCR su TIFF – Trasmetti grandi TIFF ed estrai riquadri di testo in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Elabora file TIFF di grandi dimensioni in Java, sfruttando lo streaming per estrarre rapidamente le tessere di testo con Aspose.OCR.
+
+### [Creare un pool di thread fisso per OCR parallelo in Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Scopri come utilizzare un pool di thread fisso per eseguire OCR in parallelo, migliorando le prestazioni delle tue applicazioni Java.
+
+## [Migliora l'accuratezza OCR in Java – Guida completa Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+
+Scopri come aumentare la precisione dell'OCR in Java con Aspose OCR, seguendo questa guida dettagliata passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

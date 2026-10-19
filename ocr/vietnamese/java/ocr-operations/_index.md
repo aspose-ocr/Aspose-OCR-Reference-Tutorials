@@ -137,6 +137,10 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose.OC
 Nhanh chóng chuyển đổi hình ảnh thành văn bản bằng Aspose OCR cho Java, tối ưu hiệu suất và độ chính xác.
 ### [Trích xuất văn bản từ hình ảnh Java – tải hình ảnh cho OCR](./extract-text-from-image-java-load-image-for-ocr/)
 Hướng dẫn cách tải hình ảnh và sử dụng Aspose.OCR cho Java để trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Ví dụ Aspose OCR Java: Trích xuất văn bản từ một vùng](./aspose-ocr-java-example-extract-text-from-a-region/)
+Hướng dẫn cách sử dụng Aspose OCR cho Java để trích xuất văn bản từ một khu vực cụ thể trong hình ảnh.
+### [Trích xuất Văn bản từ HEIC – Hướng dẫn Java đầy đủ](./extract-text-from-heic-complete-java-guide/)
+Khám phá cách trích xuất văn bản từ tệp HEIC bằng Aspose.OCR cho Java, từ cấu hình đến xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

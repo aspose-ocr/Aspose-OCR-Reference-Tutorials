@@ -158,6 +158,12 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 ### [在 Aspose.OCR for Java 中设置最大线程 – 加速 OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
 ### [在 Java 中将图像转换为文本 – 完整的 OCR 预处理指南](./image-to-text-java-complete-ocr-pre-processing-guide/)
 ### [在 Java 中对 TIFF 进行 OCR – 流式处理大型 TIFF 并提取文本块](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+### [如何为 Java OCR 启用 GPU – 完整教程](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+完整教程教您在 Java 中为 Aspose.OCR 启用 GPU 加速，实现更快的 OCR 处理。
+### [在 Java 中创建固定线程池以实现并行 OCR](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+使用 Aspose.OCR for Java 创建固定线程池，实现并行 OCR，提升处理效率。
+### [在 Java 中提升 OCR 准确率 – 完整 Aspose OCR 指南](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+使用 Aspose.OCR for Java 提升 OCR 准确率的完整指南，帮助您实现更高精度的文本识别。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

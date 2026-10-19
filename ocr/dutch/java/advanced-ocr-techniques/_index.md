@@ -154,6 +154,12 @@ Stel het maximale aantal threads in voor Aspose OCR Java om de OCR-snelheid te v
 ### [Afbeelding naar tekst Java – Complete OCR-preprocessengids](./image-to-text-java-complete-ocr-pre-processing-guide/)
 Leer hoe u afbeeldingen optimaliseert vóór OCR in Java voor maximale nauwkeurigheid en snelheid.
 ### [OCR uitvoeren op TIFF – Grote TIFF's streamen en teksttegels extraheren in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+### [Hoe GPU voor Java OCR in te schakelen – Complete tutorial](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Leer hoe u GPU-ondersteuning inschakelt voor Aspose.OCR in Java voor snellere en nauwkeurigere tekstherkenning.
+### [Maak een vaste threadpool voor parallelle OCR in Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Leer hoe u een vaste threadpool maakt om OCR-taken parallel uit te voeren in Java met Aspose.OCR.
+### [Verbeter OCR-nauwkeurigheid in Java – Complete Aspose OCR-gids](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Leer hoe u de OCR-nauwkeurigheid in Java kunt verbeteren met deze volledige Aspose OCR-gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

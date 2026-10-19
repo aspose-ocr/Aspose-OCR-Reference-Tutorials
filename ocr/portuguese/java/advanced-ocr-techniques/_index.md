@@ -145,6 +145,12 @@ Aprenda a configurar o número máximo de threads no Aspose OCR para Java e melh
 Aprenda a preparar imagens para OCR em Java, otimizando qualidade e precisão com técnicas avançadas de pré‑processamento.
 ### [Como fazer OCR em TIFF – Transmitir TIFFs grandes e extrair blocos de texto em Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Processamento eficiente de arquivos TIFF grandes em Java, extraindo blocos de texto com OCR usando Aspose.OCR.
+### [Criar Pool de Threads Fixas para OCR Paralelo em Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Aprenda a criar um pool de threads fixas para executar OCR em paralelo, melhorando o desempenho em aplicações Java.
+### [Como habilitar GPU para OCR Java – Tutorial Completo](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Aprenda a ativar a aceleração GPU no Aspose.OCR para Java e melhorar o desempenho do reconhecimento de texto.
+### [Melhorar a Precisão do OCR em Java – Guia Completo Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Aprenda a otimizar a precisão do OCR em Java com Aspose OCR, seguindo este guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -131,11 +131,6 @@ Skorzystaj z przyspieszenia GPU, aby przyspieszyć OCR w Javie i efektywnie wyod
 ### [Automatyczne wykrywanie języka w OCR w Javie – przewodnik krok po kroku](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
 Poznaj, jak automatycznie wykrywać język tekstu podczas OCR w Javie, zwiększając dokładność i wydajność przetwarzania.
 Wykonuj OCR na BufferedImage bez wysiłku dzięki Aspose.OCR dla Java. Płynnie wyodrębniaj tekst z obrazów. Pobierz teraz, aby uzyskać wszechstronne możliwości rozpoznawania tekstu.
-Odblokuj płynną ekstrakcję tekstu obrazu w Javie za pomocą Aspose.OCR. Wysoka dokładność OCR z łatwą integracją.
-Odblokuj moc Aspose.OCR dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego wykonywania OCR na określonych stronach. Wyodrębnij tekst z obrazów bez wysiłku i ulepsz swoje projekty Java.
-Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Ulepsz swoje aplikacje Java dzięki wydajnym funkcjom OCR.
-Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
-Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
 ### [Wykonywanie OCR na obrazie w Javie – Wydobywanie tekstu przy użyciu GPU](./run-ocr-on-image-with-java-gpu-powered-text-extraction/)
 Wykonuj OCR na obrazach w Javie, wykorzystując moc GPU do szybkiego i dokładnego wyodrębniania tekstu.
 ### [Jak uruchomić OCR na obrazach wysokiej rozdzielczości – Kompletny przewodnik Java](./how-to-run-ocr-on-high-resolution-images-complete-java-guide/)
@@ -155,6 +150,29 @@ Zwiększ wydajność OCR, ustawiając maksymalną liczbę wątków w Aspose.OCR 
 ### [image to text java – Kompletny przewodnik przetwarzania wstępnego OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
 Poznaj techniki wstępnego przetwarzania obrazów, aby maksymalizować dokładność OCR w Javie przy użyciu Aspose.OCR.
 ### [Wykonywanie OCR na TIFF – strumieniowanie dużych TIFF i wyodrębnianie fragmentów tekstu w Javie](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+### [Wykonywanie OCR na obrazie z adresu URL w Aspose.OCR dla Java](./perform-ocr-image-from-url/)
+Odblokuj płynną ekstrakcję tekstu obrazu w Javie za pomocą Aspose.OCR. Wysoka dokładność OCR z łatwą integracją.
+
+### [Wykonywanie OCR na określonej stronie w Aspose.OCR](./perform-ocr-on-page/)
+Odblokuj moc Aspose.OCR dla Java, korzystając z naszego przewodnika krok po kroku dotyczącego wykonywania OCR na określonych stronach. Wyodrębnij tekst z obrazów bez wysiłku i ulepsz swoje projekty Java.
+
+### [Przygotowanie prostokątów do OCR w Aspose.OCR](./prepare-rectangles-for-ocr/)
+Odblokuj moc rozpoznawania tekstu dzięki Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Ulepsz swoje aplikacje Java dzięki wydajnym funkcjom OCR.
+
+### [Rozpoznawanie linii w Aspose.OCR dla Java](./recognize-lines/)
+Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Łatwa integracja, wysoka dokładność.
+
+### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
+Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
+
+### [Jak włączyć GPU dla OCR w Javie – Kompletny samouczek](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Dowiedz się, jak skonfigurować GPU, aby przyspieszyć OCR w aplikacjach Java przy użyciu Aspose.OCR.
+
+### [Utwórz stałą pulę wątków dla równoległego OCR w Javie](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Dowiedz się, jak skonfigurować stałą pulę wątków, aby przyspieszyć przetwarzanie OCR równolegle w aplikacjach Java.
+
+### [Popraw dokładność OCR w Javie – Kompletny przewodnik Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Dowiedz się, jak zwiększyć dokładność OCR w aplikacjach Java, korzystając z pełnego przewodnika Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

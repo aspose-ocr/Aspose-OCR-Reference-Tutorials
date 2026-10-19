@@ -135,6 +135,10 @@ Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 만드는 전체 과정�
 Aspose OCR Java를 사용해 이미지를 신속하게 텍스트로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 이미지 텍스트 추출 – OCR을 위한 이미지 로드](./extract-text-from-image-java-load-image-for-ocr/)
 Java에서 이미지를 로드하고 Aspose.OCR을 사용해 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR Java 예제: 영역에서 텍스트 추출](./aspose-ocr-java-example-extract-text-from-a-region/)
+Aspose OCR for Java를 사용해 이미지의 특정 영역에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [HEIC에서 텍스트 추출 – 전체 Java 가이드](./extract-text-from-heic-complete-java-guide/)
+Aspose.OCR for Java를 사용해 HEIC 이미지에서 텍스트를 추출하는 전체 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

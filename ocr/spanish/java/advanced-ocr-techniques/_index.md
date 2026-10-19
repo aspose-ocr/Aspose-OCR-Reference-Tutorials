@@ -159,6 +159,12 @@ Aprenda a habilitar la GPU para acelerar el reconocimiento de texto en imágenes
 Aprenda a generar PDFs buscables en Java usando Aspose.OCR, paso a paso, con ejemplos claros y alta precisión.
 ### [Cómo enderezar una imagen para OCR – Guía de pre‑procesamiento en Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Aprenda a corregir la inclinación de imágenes antes del OCR en Java, mejorando la precisión del reconocimiento de texto.
+### [Cómo habilitar GPU para OCR en Java – Tutorial completo](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Aprenda a activar la aceleración GPU en Aspose.OCR para Java y mejore el rendimiento del reconocimiento de texto.
+### [Crear pool de hilos fijos para OCR paralelo en Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Aprenda a crear un pool de hilos fijos y ejecutar OCR en paralelo, mejorando el rendimiento de sus aplicaciones Java.
+### [Mejorar la precisión del OCR en Java – Guía completa de Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Aprenda técnicas avanzadas para aumentar la exactitud del OCR en Java con Aspose OCR y optimice la extracción de texto.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

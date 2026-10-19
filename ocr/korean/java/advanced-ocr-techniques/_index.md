@@ -157,6 +157,12 @@ Aspose OCR Java의 스레드 수를 최적화하여 OCR 처리 속도를 높이�
 ### [Java에서 대용량 TIFF 스트리밍 및 텍스트 타일 추출을 통한 OCR 방법](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 Java용 Aspose.OCR을 사용해 대용량 TIFF 파일을 스트리밍하고 텍스트 타일을 추출하여 효율적으로 OCR을 수행합니다.
 
+### [Java OCR을 위한 GPU 활성화 방법 – 완전 튜토리얼](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Java용 Aspose.OCR에서 GPU 가속을 설정하여 OCR 성능을 극대화하는 방법을 단계별로 안내합니다.
+### [Java에서 병렬 OCR을 위한 고정 스레드 풀 생성](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Java용 Aspose.OCR을 활용해 병렬 OCR 처리를 위해 고정 스레드 풀을 설정하고 효율적으로 텍스트를 추출하는 방법을 안내합니다.
+### [Java용 Aspose.OCR에서 OCR 정확도 향상 – 완전 가이드](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Java용 Aspose.OCR을 활용해 OCR 정확도를 극대화하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

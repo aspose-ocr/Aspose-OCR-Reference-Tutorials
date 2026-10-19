@@ -145,6 +145,12 @@ url: /ar/java/advanced-ocr-techniques/
 دليل شامل لإنشاء ملفات PDF قابلة للبحث في Java باستخدام Aspose.PDF، مع خطوات واضحة وإعدادات متقدمة.
 ### [كيفية تصحيح إمالة الصورة للتعرف الضوئي على الحروف – دليل ما قبل المعالجة لجافا](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 تعلم كيفية تصحيح إمالة الصور قبل عملية OCR في Java لتحسين دقة استخراج النص.
+### [كيفية تمكين GPU لتقنية OCR في Java – دليل كامل](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+تعلم كيفية تفعيل وحدة معالجة الرسومات لتسريع عملية التعرف الضوئي على الحروف في تطبيقات Java باستخدام Aspose.OCR.
+### [إنشاء مجموعة مؤشرات ثابتة للمعالجة المتوازية للـ OCR في Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+تعلم كيفية إنشاء مجموعة مؤشرات ثابتة لتسريع عمليات التعرف الضوئي على الحروف المتوازية في تطبيقات Java باستخدام Aspose.OCR.
+### [تحسين دقة OCR في Java – دليل كامل لـ Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+اكتشف طرق تحسين دقة OCR في Java باستخدام Aspose.OCR عبر دليل شامل يوضح الخطوات والتقنيات الفعّالة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

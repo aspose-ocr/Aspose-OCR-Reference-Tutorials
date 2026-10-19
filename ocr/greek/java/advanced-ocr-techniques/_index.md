@@ -139,6 +139,12 @@ url: /el/java/advanced-ocr-techniques/
 Μάθετε πώς να ευθυγραμμίσετε εικόνες πριν το OCR χρησιμοποιώντας το Aspose.OCR για Java, βελτιώνοντας την ακρίβεια εξαγωγής κειμένου.
 ### [Δημιουργία Αναζητήσιμου PDF με Java – Πλήρης Οδηγός](./create-searchable-pdf-with-java-complete-guide/)
 Μάθετε πώς να μετατρέψετε έγγραφα σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR για Java. Οδηγός βήμα‑βήμα.
+### [Πώς να ενεργοποιήσετε το GPU για OCR σε Java – Πλήρης Οδηγός](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Μάθετε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose.OCR για Java, βελτιώνοντας την ταχύτητα και την ακρίβεια της αναγνώρισης κειμένου.
+### [Δημιουργία Σταθερής Πισίνας Νημάτων για Παράλληλο OCR σε Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Μάθετε πώς να δημιουργήσετε μια σταθερή πισίνα νημάτων για να εκτελείτε OCR παράλληλα σε Java, βελτιώνοντας την απόδοση.
+### [Βελτιώστε την ακρίβεια OCR σε Java – Πλήρης Οδηγός Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Μάθετε πώς να αυξήσετε την ακρίβεια του OCR σε Java με το Aspose OCR, εφαρμόζοντας βέλτιστες πρακτικές και ρυθμίσεις.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

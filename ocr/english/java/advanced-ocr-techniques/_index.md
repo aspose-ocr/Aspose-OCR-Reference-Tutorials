@@ -155,6 +155,12 @@ Accelerate OCR processing with GPU support in Java, boosting speed and accuracy 
 Learn how to process large multi‑page TIFF files and extract text from individual tiles using Aspose.OCR for Java.
 ### [image to text java – Complete OCR Pre‑Processing Guide](./image-to-text-java-complete-ocr-pre-processing-guide/)
 Comprehensive guide to OCR pre‑processing in Java, covering image cleanup, deskewing, noise reduction, and preparation for accurate text extraction.
+### [Improve OCR Accuracy in Java – Complete Aspose OCR Guide](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+Learn comprehensive techniques to boost OCR accuracy in Java using Aspose OCR, covering preprocessing, language settings, and custom dictionaries.
+### [how to enable gpu for Java OCR – Complete Tutorial](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+Learn how to enable GPU acceleration for Aspose.OCR in Java to boost OCR performance and accuracy.
+### [Create Fixed Thread Pool for Parallel OCR in Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+Learn how to create a fixed thread pool to run OCR tasks in parallel, boosting performance in Java applications.
 
 ## Frequently Asked Questions
 

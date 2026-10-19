@@ -150,6 +150,12 @@ Aspose OCR जावा में थ्रेड संख्या बढ़�
 ### [जावा में इमेज से टेक्स्ट – पूर्ण OCR प्री‑प्रोसेसिंग गाइड](./image-to-text-java-complete-ocr-pre-processing-guide/)
 छवि को OCR के लिए तैयार करने के सभी चरणों को सीखें, जिससे सटीक टेक्स्ट निष्कर्षण हो।
 ### [जावा में TIFF OCR कैसे करें – बड़े TIFF फ़ाइलों को स्ट्रीम करें और टेक्स्ट टाइल्स निकालें](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+### [जावा में समानांतर OCR के लिए फिक्स्ड थ्रेड पूल बनाना](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
+जावा में समानांतर OCR संचालन के लिए फिक्स्ड थ्रेड पूल सेट अप करने की चरण-दर-चरण मार्गदर्शिका।
+### [जावा OCR के लिए GPU सक्षम करने का तरीका – पूर्ण ट्यूटोरियल](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
+जावा में Aspose.OCR के साथ GPU उपयोग करके तेज़ और सटीक OCR कैसे सक्षम करें, चरण-दर-चरण मार्गदर्शिका।
+### [जावा में OCR सटीकता सुधारें – पूर्ण Aspose OCR गाइड](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
+जावा में Aspose OCR के साथ OCR सटीकता को अधिकतम करने के लिए चरण-दर-चरण मार्गदर्शिका। तेज़ और विश्वसनीय पाठ पहचान के लिए अभी पढ़ें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

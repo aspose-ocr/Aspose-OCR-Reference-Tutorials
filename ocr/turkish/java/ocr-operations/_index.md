@@ -102,6 +102,10 @@ Java'da Aspose OCR kullanarak bir görüntüyü hızlıca metne dönüştürmeyi
 Java'da Aspose.OCR kullanarak PDF'leri aranabilir hâle getirme sürecini adım adım öğrenin.
 ### [Görüntüden Metin Çıkarma Java – OCR için Görüntü Yükleme](./extract-text-from-image-java-load-image-for-ocr/)
 Java'da Aspose OCR ile bir görüntüyü yükleyip metne dönüştürme adımlarını gösteren öğretici.
+### [Aspose OCR Java Örneği: Bölgeden Metin Çıkarma](./aspose-ocr-java-example-extract-text-from-a-region/)
+Java'da Aspose OCR ile belirli bir bölgeden metin çıkarma örneği.
+### [HEIC'den Metin Çıkarma – Tam Java Kılavuzu](./extract-text-from-heic-complete-java-guide/)
+Java'da Aspose.OCR kullanarak HEIC görüntülerinden metin çıkarma sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
