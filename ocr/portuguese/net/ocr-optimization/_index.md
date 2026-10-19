@@ -244,6 +244,8 @@ Demonstração em lote usando GPU para reconhecer texto em arquivos PNG com Aspo
 Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose OCR com C#.
 ### [Como melhorar o OCR – Extrair texto de imagens com Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Aprenda técnicas avançadas para otimizar o OCR e extrair texto de imagens com alta precisão usando Aspose.
+### [Como Corrigir Inclinação de Imagem e Melhorar a Precisão do OCR em C# – Guia Passo a Passo](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Aprenda a corrigir a inclinação de imagens e aumentar a precisão do OCR usando Aspose.OCR em C# com este guia passo a passo.
 
 ## Perguntas Frequentes
 

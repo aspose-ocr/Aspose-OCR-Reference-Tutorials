@@ -236,6 +236,7 @@ weight: 25
 
 ### [วิธีปรับปรุงความแม่นยำของ OCR ใน C# ด้วย Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 เรียนรู้เทคนิคการเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose OCR เพื่อผลลัพธ์ที่ดียิ่งขึ้น.
+### [วิธีทำ Deskew รูปภาพและเพิ่มความแม่นยำ OCR ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 
 ## คำถามที่พบบ่อย
 

@@ -502,6 +502,14 @@ Aspose.OCR を使用して C# アプリケーションで TIFF 画像をバッ�
 Aspose.OCR を使用して C# アプリケーションで検索可能な PDF を作成し、テキスト抽出とインデックス化を実現する完全ガイドです。
 ### [C# で PNG からテキストを認識する – 完全 OCR とスペルチェック ガイド](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
 Aspose.OCR を使用して C# アプリケーションで PNG 画像からテキストを抽出し、完全な OCR とスペルチェック手順を学びます。
+### [C#でOCRを実行する方法 – 画像からテキストを認識する](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Aspose.OCR を使用して C# アプリケーションで画像からテキストを認識する手順をステップバイステップで解説します。
+### [スキャンしたドキュメントから検索可能な PDF を作成 – 完全 C# ガイド](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Aspose.OCR と C# を使用して、スキャンした文書から検索可能な PDF を作成する手順をステップバイステップで解説します。
+### [C#で画像からテキストを抽出する – Aspose OCR を使用](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Aspose OCR を利用して C# アプリで画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C# で画像テキストを JSON に変換する Aspose OCR の例](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Aspose.OCR を使用して C# アプリケーションで画像内のテキストを取得し、JSON 形式で出力する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

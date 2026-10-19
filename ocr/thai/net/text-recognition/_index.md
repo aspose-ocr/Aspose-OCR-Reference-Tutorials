@@ -447,6 +447,13 @@ url: /th/net/text-recognition/
 
 ### [แปลงรูปภาพเป็น JSON – บทช่วยสอน OCR ด้วย C# สำหรับใบเสร็จ](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 เรียนรู้วิธีแปลงรูปภาพใบเสร็จเป็น JSON ด้วย Aspose.OCR ใน C# อย่างละเอียด
+### [วิธีทำ OCR ใน C# – จดจำข้อความจากรูปภาพ](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพด้วยขั้นตอนง่ายๆ
+### [สร้าง PDF ที่ค้นหาได้จากเอกสารสแกน – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากเอกสารสแกนโดยใช้ Aspose.OCR ใน C# ด้วยขั้นตอนละเอียดครบถ้วน
+### [ดึงข้อความจากรูปภาพใน C# – แปลงรูปภาพเป็นข้อความด้วย Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+### [ตัวอย่าง Aspose OCR – แปลงข้อความรูปภาพเป็น JSON ใน C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแปลงข้อความจากรูปภาพเป็นรูปแบบ JSON อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

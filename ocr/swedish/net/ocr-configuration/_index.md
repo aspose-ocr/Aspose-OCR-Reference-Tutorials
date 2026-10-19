@@ -89,6 +89,8 @@ Lär dig hur du konfigurerar GPU‑acceleration för Aspose.OCR i C# för snabba
 Lär dig hur du laddar ner och installerar OCR‑språkpaketet för ryska i Aspose.OCR för .NET.
 ### [Hur du inaktiverar OCR i C# – Offline Aspose OCR-guide](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Lär dig hur du stänger av OCR-funktionen i C#‑applikationer för offline-användning med Aspose OCR.
+### [Ladda bild för OCR i C# – Komplett Aspose OCR‑ och stavningskontrollguide](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Lär dig hur du laddar en bild och utför OCR samt stavningskontroll med Aspose OCR i C#‑applikationer.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

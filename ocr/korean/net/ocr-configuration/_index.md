@@ -128,6 +128,8 @@ C# 애플리케이션에서 Aspose.OCR의 GPU 가속을 설정하고 활용하�
 Aspose.OCR에서 러시아어 언어 팩을 다운로드하고 설치하는 전체 단계별 가이드.  
 ### [C#에서 OCR을 비활성화하는 방법 – 오프라인 Aspose OCR 가이드](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 C# 애플리케이션에서 Aspose OCR을 오프라인으로 사용하면서 OCR 기능을 비활성화하는 방법을 단계별로 안내합니다.  
+### [C#에서 OCR을 위한 이미지 로드 – 완전한 Aspose OCR 및 맞춤법 검사 가이드](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+C#에서 Aspose OCR을 사용해 이미지를 로드하고 맞춤법 검사를 수행하는 전체 가이드를 제공합니다.  
 
 
 

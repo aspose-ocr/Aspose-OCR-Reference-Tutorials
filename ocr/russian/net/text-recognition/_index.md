@@ -463,6 +463,14 @@ url: /ru/net/text-recognition/
 Узнайте, как обрабатывать множество изображений за один проход с помощью Aspose.OCR в C#, ускоряя извлечение текста.
 ### [Извлечь текст из TIFF с помощью Aspose OCR Engine – Полный пример](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Полный пример извлечения текста из TIFF‑изображений с использованием Aspose OCR Engine в .NET.
+### [Как выполнить OCR в C# – Распознать текст с изображения](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Узнайте, как с помощью Aspose.OCR реализовать OCR в C# для извлечения текста из изображений.
+### [Извлечь текст из изображения в C# – преобразование изображения в текст с помощью Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Узнайте, как с помощью Aspose.OCR извлечь текст из изображения в C# быстро и точно.
+### [Создать поисковый PDF из отсканированного документа – Полное руководство C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Узнайте, как с помощью Aspose.OCR преобразовать отсканированный документ в поисковый PDF в C#.
+### [aspose ocr example – Преобразовать текст изображения в JSON в C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Узнайте, как с помощью Aspose.OCR преобразовать распознанный текст изображения в формат JSON в C#.
 
 ### [Извлечение текста из изображения на C# – Полное руководство по OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
 Полное руководство по извлечению текста из изображений в C# с использованием Aspose.OCR, включая настройку и примеры кода.

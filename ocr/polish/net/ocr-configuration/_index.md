@@ -92,6 +92,8 @@ Dowiedz się, jak skonfigurować obsługę GPU w Aspose.OCR dla C#, aby przyspie
 Poznaj krok po kroku proces pobierania i instalacji pakietu językowego OCR dla języka rosyjskiego w Aspose.OCR.
 ### [Jak wyłączyć OCR w C# – Przewodnik offline Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Dowiedz się, jak wyłączyć funkcję OCR w aplikacji C# przy użyciu Aspose OCR w trybie offline.
+### [Ładowanie obrazu do OCR w C# – Kompletny przewodnik po Aspose OCR i sprawdzaniu pisowni](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Pełny przewodnik, jak załadować obraz i zastosować OCR oraz sprawdzanie pisowni przy użyciu Aspose OCR w C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

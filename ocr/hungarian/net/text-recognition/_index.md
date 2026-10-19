@@ -489,6 +489,14 @@ Ismerje meg, hogyan hozhat létre kereshető PDF-et C#-ban az Aspose.OCR segíts
 Fedezze fel, hogyan használhatja az Aspose.OCR-t C#-ban PNG képek szövegének felismerésére, beleértve a teljes OCR és a helyesírás-ellenőrzés lépéseit.
 ### [Kép konvertálása JSON formátumba – C# OCR útmutató nyugtákhoz](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Tanulja meg, hogyan konvertálja a nyugtákról készült képeket JSON-re az Aspose.OCR C# segítségével, lépésről-lépésre útmutatóval.
+### [Hogyan végezzünk OCR-t C#-ban – Szöveg felismerése képről](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének felismerésére lépésről-lépésre útmutatóval.
+### [Kereshető PDF létrehozása beolvasott dokumentumból – Teljes C# útmutató](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et beolvasott dokumentumokból C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+### [Szöveg kinyerése képből C#-ban – c# kép szöveggé alakítása az Aspose OCR segítségével](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Tanulja meg, hogyan használja az Aspose.OCR-t C#-ban a képek szöveggé alakításához lépésről-lépésre útmutatóval.
+### [Aspose OCR példa – Kép szövegének JSON formátumba konvertálása C#-ban](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Ismerje meg, hogyan konvertálhatja a képen lévő szöveget JSON formátumba C#-ban az Aspose OCR segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

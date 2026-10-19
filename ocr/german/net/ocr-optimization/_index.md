@@ -237,6 +237,8 @@ Demonstriert die GPU‑beschleunigte Stapelverarbeitung von PNG‑Bildern zur sc
 Erfahren Sie, wie Sie mit Aspose OCR in C# ein durchsuchbares PDF aus Bilddateien generieren.
 ### [Wie man OCR verbessert – Text aus Bildern mit Aspose extrahieren](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Erfahren Sie, wie Sie OCR‑Leistung steigern und Text aus Bildern effizient extrahieren können.
+### [Wie man ein Bild entzerrt und die OCR‑Genauigkeit in C# steigert – Schritt‑für‑Schritt‑Anleitung](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Erfahren Sie, wie Sie Bildverzerrungen korrigieren und die OCR‑Präzision in C# mit Aspose.OCR steigern.
 
 ## Häufig gestellte Fragen
 

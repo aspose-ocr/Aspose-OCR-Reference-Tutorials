@@ -129,6 +129,8 @@ weight: 24
 ### [Как загрузить пакет языков OCR для русского языка – Полное руководство](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 ### [Как отключить OCR в C# – Офлайн руководство по Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Пошаговое руководство по отключению OCR в приложениях C# без подключения к сети, используя Aspose OCR.
+### [Загрузка изображения для OCR в C# – Полное руководство по Aspose OCR и проверке орфографии](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Узнайте, как загрузить изображение, выполнить OCR и проверить орфографию с помощью Aspose OCR в C#.
 
 
 

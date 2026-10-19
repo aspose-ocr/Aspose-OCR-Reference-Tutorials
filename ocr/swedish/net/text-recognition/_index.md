@@ -494,6 +494,14 @@ Lär dig steg-för-steg hur du skapar en sökbar PDF i C# med en komplett guide.
 Lär dig steg-för-steg hur du känner igen text från PNG-filer i C# med fullständig OCR och stavningskontroll.
 ### [Konvertera bild till JSON – C# OCR‑handledning för kvitton](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Lär dig hur du konverterar en bild till JSON med C# OCR för att extrahera data från kvitton.
+### [Hur man utför OCR i C# – Känn igen text från bild](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bilder.
+### [Skapa sökbar PDF från skannat dokument – Komplett C#-guide](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET skapar en sökbar PDF från en skannad fil med en komplett C#-guide.
+### [Extrahera text från bild i C# – C# bild till text med Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Lär dig hur du med Aspose OCR i C# extraherar text från bilder på ett enkelt sätt.
+### [Aspose OCR-exempel – konvertera bildtext till JSON i C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Lär dig hur du med Aspose.OCR i C# konverterar text från en bild till JSON-format på ett enkelt sätt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -497,6 +497,14 @@ Kompletní průvodce vytvořením prohledávatelného PDF v C# pomocí Aspose.OC
 Kompletní průvodce rozpoznáváním textu z PNG souborů v C# s OCR a kontrolou pravopisu.
 ### [Převod obrázku na JSON – C# OCR tutoriál pro účtenky](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Naučte se převést obrázek účtenky na JSON pomocí Aspose.OCR v C# a získat strukturovaná data pro další zpracování.
+### [Jak provést OCR v C# – Rozpoznat text z obrázku](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Naučte se pomocí Aspose.OCR pro .NET snadno rozpoznat text z obrázku v C# a integrovat OCR do svých aplikací.
+### [Vytvořte prohledávatelný PDF ze skenovaného dokumentu – Kompletní průvodce C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF ze skenovaného dokumentu v C# a integrovat OCR do svých aplikací.
+### [Extrahovat text z obrázku v C# – c# obrázek na text pomocí Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Naučte se pomocí Aspose.OCR pro .NET snadno extrahovat text z obrázku v C# a integrovat OCR do svých aplikací.
+### [aspose ocr příklad – Převést text z obrázku do JSON v C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Naučte se pomocí Aspose.OCR převést rozpoznaný text z obrázku do formátu JSON v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

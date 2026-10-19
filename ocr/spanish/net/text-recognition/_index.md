@@ -508,6 +508,14 @@ Aprenda a extraer texto de archivos TIFF usando OCR por lotes en C#, con una gu�
 Aprenda a extraer texto de archivos PNG en C# con OCR y corrección ortográfica usando Aspose.OCR.
 ### [Convertir imagen a JSON – Tutorial OCR en C# para recibos](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Aprenda a convertir imágenes de recibos a JSON usando Aspose.OCR en C# con este tutorial paso a paso.
+### [Cómo realizar OCR en C# – Reconocer texto de una imagen](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Aprenda a usar Aspose.OCR en C# para reconocer texto en imágenes de forma sencilla y eficaz.
+### [Crear PDF buscable a partir de documento escaneado – Guía completa en C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Aprenda a generar PDFs buscables a partir de documentos escaneados usando Aspose.OCR en C# con esta guía paso a paso.
+### [Extraer texto de una imagen en C# – imagen a texto usando Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Aprenda a extraer texto de imágenes en C# utilizando Aspose OCR de manera sencilla y eficaz.
+### [Ejemplo de Aspose OCR – Convertir texto de imagen a JSON en C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Aprenda a convertir el texto extraído de una imagen a formato JSON usando Aspose OCR en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

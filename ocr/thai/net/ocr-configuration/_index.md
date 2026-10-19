@@ -97,6 +97,7 @@ weight: 24
 
 ### [วิธีปิดการใช้งาน OCR ใน C# – คู่มือ Aspose OCR แบบออฟไลน์](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 เรียนรู้วิธีปิดการทำงานของ OCR ในโค้ด C# เพื่อใช้ Aspose OCR แบบออฟไลน์โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
+### [โหลดภาพสำหรับ OCR ใน C# – คู่มือเต็ม Aspose OCR & ตรวจสอบการสะกด](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  

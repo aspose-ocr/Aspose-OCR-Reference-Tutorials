@@ -56,9 +56,8 @@ Entdecken Sie das enorme Potenzial von Aspose.OCR für .NET, indem Sie mühelos 
 ### [OCROperation with Folder in OCR Image Recognition](./ocr-operation-with-folder/)
 Entfesseln Sie die Leistungsfähigkeit der OCR-Bilderkennung in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus Bildern.
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
-Entfesseln Sie leistungsstarke OCR-Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
+Entfesseln Sie leistungsstarke OCR‑Funktionen mit Aspose.OCR für .NET. Extrahieren Sie nahtlos Text aus Bildern.
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
-Entfesseln Sie das Potenzial von Aspose.OCR für .NET. Führen Sie mühelos OCR-Bilderkennung mit Listen durch. Steigern Sie die Produktivität und Datenerfassung in Ihren Anwendungen.
 ### [Bilddatei laden & Belegtext mit GPU‑OCR in C# extrahieren](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Nutzen Sie GPU‑beschleunigte OCR, um Belegtexte aus Bilddateien in C# schnell zu extrahieren.
 ### [Durchsuchbare PDF in C# erstellen – OCR-Konvertierungsleitfaden](./create-searchable-pdf-in-c-ocr-conversion-guide/)
@@ -91,6 +90,8 @@ Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für C# aktivieren,
 Laden Sie das russische OCR‑Sprachpaket herunter und integrieren Sie es mühelos in Ihre .NET‑Anwendung.
 ### [Wie man OCR in C# deaktiviert – Offline‑Anleitung für Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Erfahren Sie, wie Sie die OCR‑Funktion in C# deaktivieren und offline mit Aspose OCR arbeiten.
+### [Bild für OCR in C# laden – Vollständiger Aspose OCR‑ und Rechtschreibprüfungs‑Leitfaden](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR in C# durch.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

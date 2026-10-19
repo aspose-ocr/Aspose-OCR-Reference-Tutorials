@@ -200,6 +200,8 @@ GPU 가속을 활용해 대량 PNG 이미지를 빠르게 OCR 처리하는 방�
 Aspose OCR을 사용해 C#에서 이미지 기반 PDF를 검색 가능하게 변환하는 방법을 단계별로 안내합니다.
 ### [OCR 개선 방법 – Aspose로 이미지에서 텍스트 추출](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Aspose를 사용하여 이미지에서 텍스트를 추출하고 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다.
+### [C#에서 이미지 기울기 보정 및 OCR 정확도 향상 – 단계별 가이드](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+이미지 기울기를 보정하고 전처리 필터를 적용하여 OCR 정확도를 크게 향상시키는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

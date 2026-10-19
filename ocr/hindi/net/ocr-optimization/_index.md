@@ -255,6 +255,8 @@ Aspose के साथ OCR की सटीकता बढ़ाएँ और 
 
 ### [C# में Aspose OCR के साथ OCR सटीकता कैसे सुधारें](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 Aspose OCR का उपयोग करके C# में OCR सटीकता बढ़ाने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+### [छवि को डेस्क्यू करें और C# में OCR सटीकता बढ़ाएँ – चरण‑दर‑चरण गाइड](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+C# में छवि को डेस्क्यू करके OCR की सटीकता बढ़ाने के चरण‑दर‑चरण मार्गदर्शन।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

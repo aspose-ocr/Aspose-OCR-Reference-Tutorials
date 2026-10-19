@@ -232,6 +232,8 @@ Découvrez comment exploiter le GPU pour traiter en lot des images PNG avec Aspo
 Générez un PDF consultable à partir d'images en utilisant Aspose OCR avec C#.
 ### [Comment améliorer l'OCR – Extraire du texte d'images avec Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Apprenez à optimiser votre OCR et à extraire du texte d'images avec Aspose pour des résultats précis et rapides.
+### [Comment redresser une image et améliorer la précision OCR en C# – Guide étape par étape](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Apprenez à corriger l’inclinaison des images et à optimiser la reconnaissance OCR avec Aspose.OCR en C#.
 
 ## Questions fréquemment posées
 

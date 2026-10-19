@@ -230,6 +230,8 @@ weight: 25
 了解如何使用 Aspose 提升 OCR 精度，從圖像中提取文字的最佳實踐。
 ### [如何使用 Aspose OCR 在 C# 中提升 OCR 準確度](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 學習在 C# 應用程式中使用 Aspose OCR 的技巧與最佳實踐，提升文字辨識的精確度與效能。
+### [如何在 C# 中去斜圖像並提升 OCR 準確度 – 步驟教學](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+本教學說明如何在 C# 使用 Aspose.OCR 去除圖像斜角，提升辨識精度，提供完整步驟與範例程式碼。
 
 ## 常見問題
 

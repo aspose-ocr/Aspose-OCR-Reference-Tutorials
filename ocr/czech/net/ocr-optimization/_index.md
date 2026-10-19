@@ -238,6 +238,8 @@ Naučte se, jak pomocí Aspose OCR v C# vytvořit prohledávatelný PDF dokument
 Ukázkový projekt, který využívá GPU akceleraci pro hromadné rozpoznávání textu z PNG souborů pomocí Aspose OCR.
 ### [Jak zlepšit OCR – Extrahovat text z obrázků s Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Naučte se optimalizovat OCR a zvýšit přesnost extrakce textu z obrázků s nástroji Aspose.
+### [Jak narovnat obrázek a zvýšit přesnost OCR v C# – krok za krokem](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Naučte se odstranit sklon obrázku a optimalizovat OCR pomocí Aspose.OCR v C# pro maximální přesnost.
 
 ## Často kladené otázky
 

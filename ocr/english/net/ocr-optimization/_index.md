@@ -232,6 +232,8 @@ Demonstrates GPU‑accelerated batch processing to recognize text from PNG image
 Learn how to generate searchable PDF files from images using Aspose OCR in C#.
 ### [How to Improve OCR – Extract Text from Images with Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Learn techniques to boost OCR accuracy and extract text from images using Aspose.OCR for .NET.
+### [How to Deskew Image and Boost OCR Accuracy in C# – Step‑by‑Step Guide](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Learn to deskew images in C# using Aspose.OCR, improving OCR accuracy with practical step‑by‑step instructions.
 
 ## Frequently Asked Questions
 

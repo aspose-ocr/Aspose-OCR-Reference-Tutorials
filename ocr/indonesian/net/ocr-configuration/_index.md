@@ -130,6 +130,8 @@ Panduan langkah demi langkah mengaktifkan GPU untuk meningkatkan kinerja OCR di 
 ### [Cara Mengunduh Paket Bahasa OCR untuk Rusia – Panduan Lengkap](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 ### [Cara Menonaktifkan OCR di C# – Panduan Offline Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Pelajari cara menonaktifkan fungsi OCR dalam aplikasi C# secara offline menggunakan Aspose OCR.
+### [Muat gambar untuk OCR di C# – Panduan Lengkap Aspose OCR & Pemeriksaan Ejaan](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Pelajari cara memuat gambar dan melakukan OCR serta pemeriksaan ejaan menggunakan Aspose OCR di C#.
 
 
 

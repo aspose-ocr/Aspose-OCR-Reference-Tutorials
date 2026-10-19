@@ -243,6 +243,7 @@ weight: 25
 
 ### [如何使用 Aspose OCR 在 C# 中提升 OCR 准确度](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 学习在 C# 项目中通过 Aspose OCR 的高级设置和预处理技术提升识别准确率。
+### [如何在 C# 中去倾斜图像并提升 OCR 准确度 – 步骤指南](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 
 ## 常见问题
 

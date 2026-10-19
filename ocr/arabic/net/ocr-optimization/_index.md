@@ -233,6 +233,8 @@ weight: 25
 تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR مع C# خطوة بخطوة.
 ### [كيفية تحسين OCR – استخراج النص من الصور باستخدام Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 دليل شامل لتحسين OCR واستخراج النص من الصور باستخدام Aspose خطوة بخطوة.
+### [كيفية تصحيح ميل الصورة وتعزيز دقة OCR في C# – دليل خطوة بخطوة](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+تعلم تصحيح ميل الصورة وتحسين دقة OCR باستخدام Aspose.OCR في C# خطوة بخطوة.
 
 ### [كيفية تحسين دقة OCR في C# باستخدام Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
 تعلم تقنيات تحسين دقة OCR في C# باستخدام Aspose OCR لنتائج أكثر دقة وسرعة.

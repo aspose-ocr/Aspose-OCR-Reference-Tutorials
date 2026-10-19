@@ -99,6 +99,7 @@ Learn how to verify the Aspose.OCR license flag in .NET to ensure proper licensi
 Enable GPU acceleration for Aspose.OCR in C# to boost performance and accuracy in OCR image recognition.
 ### [How to Disable OCR in C# – Offline Aspose OCR Guide](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Step-by-step guide to turn off OCR in C# apps using offline Aspose OCR configuration.
+### [load image for ocr in C# – Complete Aspose OCR & Spell‑Check Guide](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

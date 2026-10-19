@@ -237,6 +237,8 @@ Demonstration av GPU‑accelererad batch‑bearbetning för att känna igen text
 ### [Skapa sökbar PDF med Aspose OCR i C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 ### [Hur du förbättrar OCR – Extrahera text från bilder med Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Lär dig förbättra OCR‑noggrannheten och extrahera text från bilder med Aspose i en steg‑för‑steg‑guide.
+### [Hur man räta upp bild och förbättrar OCR‑noggrannhet i C# – Steg‑för‑steg‑guide](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Lär dig att räta upp bilder och öka OCR‑precisionen med Aspose.OCR i C# med vår detaljerade steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

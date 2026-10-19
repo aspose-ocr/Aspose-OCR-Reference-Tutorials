@@ -246,6 +246,8 @@ Demonstrasi batch akselerasi GPU untuk mengenali teks dari file PNG menggunakan 
 Panduan langkah demi langkah untuk menghasilkan PDF yang dapat dicari menggunakan Aspose OCR dalam proyek C# Anda.
 ### [Cara Meningkatkan OCR – Ekstrak Teks dari Gambar dengan Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Panduan langkah demi langkah untuk meningkatkan akurasi OCR dan mengekstrak teks dari gambar menggunakan Aspose.
+### [Cara Memperbaiki Kemiringan Gambar dan Meningkatkan Akurasi OCR di C# – Panduan Langkah‑per‑Langkah](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Pelajari cara menghilangkan kemiringan gambar dan meningkatkan akurasi OCR menggunakan Aspose.OCR di C# dengan contoh langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 
