@@ -525,6 +525,12 @@ Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt via een ASP.NET Core Mini
 Leer hoe u met Aspose OCR en C# tekst uit PNG‑bonnetjes haalt in deze stapsgewijze gids.
 ### [TIFF naar tekst converteren in C# – Complete batch-OCR-gids](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Leer hoe u met Aspose.OCR in C# TIFF-bestanden batchgewijs naar tekst converteert met deze volledige gids.
+### [c# OCR-tutorial – Tekst extraheren uit JPG-afbeeldingen](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Leer hoe u met Aspose OCR tekst uit JPG-afbeeldingen haalt in een C#-applicatie. Volg deze stapsgewijze handleiding voor snelle resultaten.
+### [Maak doorzoekbare PDF van afbeelding in C# – Stapsgewijze handleiding](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van een afbeelding in C#. Volg onze stapsgewijze handleiding voor snelle resultaten.
+### [Hoe maak je een ePub van gescande afbeeldingen – Stapsgewijze handleiding](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Leer hoe u met Aspose.OCR een ePub maakt van gescande afbeeldingen. Volg onze stapsgewijze handleiding voor snelle resultaten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

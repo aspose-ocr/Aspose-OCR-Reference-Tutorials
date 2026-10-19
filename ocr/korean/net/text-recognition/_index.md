@@ -526,6 +526,12 @@ ASP.NET Core Minimal API와 Aspose.OCR을 활용해 이미지에서 텍스트를
 Aspose OCR을 사용하여 C#으로 PNG 형식 영수증 이미지에서 텍스트를 정확히 추출하는 단계별 가이드입니다.
 ### [C#에서 TIFF를 텍스트로 변환 – 완전 배치 OCR 가이드](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Aspose.OCR를 사용하여 C#에서 TIFF 이미지를 일괄적으로 텍스트로 변환하는 전체 가이드를 확인하세요.
+### [c# OCR 튜토리얼 – JPG 이미지에서 텍스트 추출](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Aspose OCR을 활용해 C#에서 JPG 이미지의 텍스트를 손쉽게 추출하는 단계별 가이드를 제공합니다.
+### [C#에서 이미지로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Aspose.OCR를 사용해 C#에서 이미지를 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
+### [스캔 이미지에서 ePub 만들기 – 단계별 가이드](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+스캔한 이미지로 ePub 파일을 생성하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

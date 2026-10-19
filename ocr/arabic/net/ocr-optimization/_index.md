@@ -246,6 +246,8 @@ weight: 25
 تعلم خطوات تصحيح الميل للصور وتحسين دقة OCR باستخدام Aspose OCR في دليل شامل خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل برمجة كامل](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – دليل كامل Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+### [كيفية إلغاء ميل الصورة – دليل C# كامل لمعالجة ما قبل OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+دليل شامل يوضح خطوات تصحيح ميل الصور باستخدام C# لتحسين نتائج OCR قبل المعالجة.
 
 ## الأسئلة المتكررة
 

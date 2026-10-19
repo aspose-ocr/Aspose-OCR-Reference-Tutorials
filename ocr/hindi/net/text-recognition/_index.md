@@ -527,6 +527,12 @@ ASP.NET कोर मिनिमल API का उपयोग करके छ
 
 ### [C# में TIFF को टेक्स्ट में परिवर्तित करें – पूर्ण बैच OCR गाइड](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 C# में Aspose.OCR का उपयोग करके TIFF फ़ाइलों को टेक्स्ट में बदलने की पूरी चरण-दर-स्टेप बैच गाइड।
+### [c# OCR ट्यूटोरियल – JPG छवियों से टेक्स्ट निकालें](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Aspose.OCR का उपयोग करके JPG फ़ाइलों से टेक्स्ट निकालने के लिए चरण‑दर‑चरण मार्गदर्शिका। अपने .NET एप्लिकेशन को सशक्त बनाएं।
+### [C# में इमेज से सर्चेबल PDF बनाएं – चरण‑दर‑चरण गाइड](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Aspose.OCR का उपयोग करके इमेज को सर्चेबल PDF में बदलने की चरण‑दर‑क्रम प्रक्रिया सीखें। अपने .NET एप्लिकेशन को सशक्त बनाएं।
+### [स्कैन की गई छवियों से ePub बनाना – चरण‑दर‑चरण गाइड](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+स्कैन की गई छवियों से ePub फ़ाइल बनाने के लिए Aspose.OCR का उपयोग करके चरण‑दर‑चरण मार्गदर्शिका। अपने .NET एप्लिकेशन में सहज एकीकरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

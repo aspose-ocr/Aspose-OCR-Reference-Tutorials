@@ -249,6 +249,8 @@ Zlepšete přesnost OCR pomocí korekce sklonu obrázku a kompletního návodu p
 ### [Vytvořit prohledávatelný PDF pomocí Aspose OCR – Kompletní programovací průvodce](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [Předzpracování obrázku pro OCR – Kompletní průvodce Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Kompletní průvodce předzpracováním obrázku pro OCR v Aspose C#.
+### [Jak narovnat obrázek – Kompletní průvodce v C# pro předzpracování OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Naučte se, jak pomocí C# odstranit sklon obrázku před OCR a zlepšit přesnost rozpoznání.
 
 ## Často kladené otázky
 

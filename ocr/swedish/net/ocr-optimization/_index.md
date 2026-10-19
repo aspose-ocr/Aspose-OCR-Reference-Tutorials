@@ -249,6 +249,8 @@ Utnyttja GPU‑acceleration för att snabbt känna igen text i TIFF‑bilder med
 Lär dig använda deskew‑filter för att korrigera snedvridna bilder och öka OCR‑precisionen med Aspose OCR.
 ### [Skapa sökbar PDF med Aspose OCR – Komplett programmeringsguide](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Lär dig steg‑för‑steg hur du skapar sökbara PDF‑dokument med Aspose OCR i C#.
+### [Hur man räta upp bild – Komplett C#‑guide för OCR‑förbehandling](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Lär dig steg‑för‑steg hur du räta upp bilder med Aspose.OCR för .NET för att förbättra OCR‑noggrannheten.
 
 ## Vanliga frågor
 

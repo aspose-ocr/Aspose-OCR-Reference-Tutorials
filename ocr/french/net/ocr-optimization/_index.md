@@ -244,6 +244,8 @@ Apprenez à corriger l’inclinaison des images et à optimiser la précision de
 Apprenez à générer un PDF consultable à partir d’images en utilisant Aspose OCR avec un guide de programmation complet.
 ### [Prétraiter l'image pour l'OCR – Guide complet Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Apprenez à préparer vos images pour l'OCR avec Aspose en C#, incluant filtres et réglages avancés.
+### [Comment redresser une image – Guide complet C# pour le prétraitement OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Apprenez à corriger l’inclinaison des images avant l’OCR avec Aspose.OCR en C#, étape par étape.
 
 ## Questions fréquemment posées
 

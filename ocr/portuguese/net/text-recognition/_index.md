@@ -532,6 +532,12 @@ Aprenda a reconhecer texto em russo usando Aspose OCR em C#, com um guia passo a
 Aprenda a extrair texto de imagens usando ASP.NET Core Minimal API com um guia passo a passo completo.
 ### [Converter TIFF para Texto em C# – Guia Completo de OCR em Lote](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Aprenda a converter arquivos TIFF em texto usando Aspose.OCR em C#, com um guia completo para processamento em lote.
+### [Tutorial c# OCR – Extrair texto de imagens JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Aprenda a extrair texto de imagens JPG usando Aspose OCR em C#. Siga nosso guia passo a passo para integrar OCR em seus aplicativos.
+### [Criar PDF pesquisável a partir de imagem em C# – Guia passo a passo](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR em C#. Siga nosso tutorial passo a passo para integrar essa funcionalidade.
+### [Como criar ePub a partir de imagens escaneadas – Guia passo a passo](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Aprenda a gerar arquivos ePub a partir de imagens escaneadas usando Aspose.OCR em .NET. Siga nosso guia passo a passo para criar ePub facilmente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

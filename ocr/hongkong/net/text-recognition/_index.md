@@ -515,6 +515,12 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose OCR 從 PNG 收據圖像中提取文字的完整 C# 教學，涵蓋安裝、設定與範例程式碼。
 ### [在 C# 中將 TIFF 轉換為文字 – 完整批次 OCR 指南](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 使用 Aspose.OCR 在 C# 中批次將 TIFF 影像轉換為文字，提供完整步驟與範例程式碼。
+### [在 C# 中從圖像建立可搜尋 PDF – 步驟指南](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+學習如何使用 Aspose.OCR 在 C# 中將圖像轉換為可搜尋的 PDF，提升文件處理效率。
+### [C# OCR 教程 – 從 JPG 圖像提取文字](./c-ocr-tutorial-extract-text-from-jpg-images/)
+學習如何使用 Aspose OCR 在 C# 中從 JPG 圖像提取文字，提升您的 .NET 應用程式的文字辨識能力。
+### [如何從掃描圖像建立 ePub – 步驟指南](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+學習使用 Aspose.OCR 將掃描圖像轉換為 ePub 電子書的完整步驟指南，提升您的內容發佈流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

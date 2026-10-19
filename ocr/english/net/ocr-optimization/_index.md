@@ -244,6 +244,8 @@ Learn to deskew images and improve OCR results using Aspose.OCR for .NET in a st
 Create searchable PDFs from images using Aspose.OCR for .NET with a full programming guide.
 ### [Preprocess Image for OCR – Complete Aspose C# Guide](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Comprehensive guide to preprocess images for OCR using Aspose in C#, covering filters, deskew, and binarization for optimal results.
+### [How to Deskew Image – Complete C# Guide for OCR Pre‑processing](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Learn how to correct image skew using Aspose.OCR in C#. Follow our step‑by‑step guide to improve OCR accuracy with deskew preprocessing.
 
 ## Frequently Asked Questions
 

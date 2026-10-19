@@ -211,6 +211,8 @@ Aspose OCR을 사용해 PDF를 검색 가능하게 변환하고, 전체 프로�
 ### [이미지 기울기 보정 및 OCR 정확도 향상 방법 – 전체 Aspose OCR 가이드](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
 ### [OCR을 위한 이미지 전처리 – 완전한 Aspose C# 가이드](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Aspose.OCR를 사용해 이미지 전처리 과정을 단계별로 안내하며, OCR 정확도를 극대화하는 방법을 배웁니다.
+### [이미지 기울기 보정 방법 – OCR 전처리를 위한 완전 C# 가이드](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Aspose.OCR를 사용해 이미지 기울기를 보정하고 OCR 정확도를 높이는 단계별 C# 가이드를 제공합니다.
 
 ## 자주 묻는 질문
 

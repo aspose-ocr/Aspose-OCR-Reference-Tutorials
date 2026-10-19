@@ -249,6 +249,8 @@ Erfahren Sie, wie Sie Bildentzerrung anwenden, um die OCR‑Erkennungsrate mit A
 Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF programmatisch erzeugen – Schritt für Schritt Anleitung.
 ### [Bild für OCR vorverarbeiten – Vollständiger Aspose C# Leitfaden](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Erfahren Sie, wie Sie Bilder für die OCR mit Aspose in C# umfassend vorverarbeiten und die Erkennungsgenauigkeit steigern.
+### [Bild entzerren – Vollständiger C#‑Leitfaden für OCR‑Vorverarbeitung](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Erfahren Sie, wie Sie Bilder mit Aspose.OCR für .NET entzerren, um die OCR‑Genauigkeit zu steigern.
 
 ## Häufig gestellte Fragen
 

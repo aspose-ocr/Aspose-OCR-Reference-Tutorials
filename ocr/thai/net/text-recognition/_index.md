@@ -484,6 +484,11 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อดึงข้อความจากใบเสร็จรูป PNG อย่างแม่นยำและง่ายดาย
 ### [แปลง TIFF เป็นข้อความใน C# – คู่มือ OCR แบบแบตช์ครบวงจร](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 เรียนรู้วิธีแปลงไฟล์ TIFF เป็นข้อความด้วย Aspose.OCR ใน C# พร้อมขั้นตอนการประมวลผลแบบแบตช์อย่างครบถ้วน
+### [บทแนะนำ C# OCR – ดึงข้อความจากรูปภาพ JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อดึงข้อความจากไฟล์ JPG อย่างแม่นยำด้วยขั้นตอนง่ายๆ
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงรูปภาพเป็น PDF ที่ค้นหาได้อย่างง่ายดายตามขั้นตอนที่ชัดเจน
+### [วิธีสร้าง ePub จากรูปภาพสแกน – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

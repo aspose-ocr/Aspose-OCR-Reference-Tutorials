@@ -216,6 +216,8 @@ Khám phá cách loại bỏ nghiêng ảnh và cải thiện độ chính xác 
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR trong .NET, bao gồm các bước cấu hình và lưu tài liệu.
 ### [Tiền xử lý hình ảnh cho OCR – Hướng dẫn đầy đủ Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Khám phá cách tiền xử lý hình ảnh để cải thiện độ chính xác OCR với Aspose trong C#.
+### [Cách chỉnh nghiêng ảnh – Hướng dẫn C# đầy đủ cho tiền xử lý OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trước khi OCR, tăng độ chính xác với Aspose.OCR và C#.
 
 ## Câu hỏi thường gặp
 

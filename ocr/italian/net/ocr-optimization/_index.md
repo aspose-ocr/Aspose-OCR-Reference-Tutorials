@@ -254,6 +254,8 @@ Scopri come utilizzare Aspose OCR GPU per riconoscere testo da file TIFF usando 
 Impara a generare PDF ricercabili usando Aspose OCR con esempi di codice completi e consigli pratici.
 ### [Preelabora immagine per OCR – Guida completa Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Scopri come pre‑elaborare le immagini per migliorare l'OCR con Aspose in C#, includendo filtri, binarizzazione e correzione dell'orientamento.
+### [Come raddrizzare l'immagine – Guida completa C# per la pre‑elaborazione OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Scopri come rimuovere l'inclinazione dalle immagini con una guida C# completa, migliorando l'accuratezza dell'OCR.
 
 ## Domande Frequenti
 

@@ -532,6 +532,12 @@ url: /zh/net/text-recognition/
 ### [使用 ASP.NET Core Minimal API 从图像提取文本 – 完整指南](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
 ### [C# OCR 教程：使用 Aspose 从 PNG 收据中提取文本](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
 ### [在 C# 中将 TIFF 转换为文本 – 完整批量 OCR 指南](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+### [C# OCR 教程 – 从 JPG 图像提取文本](./c-ocr-tutorial-extract-text-from-jpg-images/)
+使用 Aspose OCR 在 C# 中轻松从 JPG 图像提取文本，提升您的 .NET 应用的 OCR 能力。
+### [C# 教程 – 从图像创建可搜索 PDF（逐步指南）](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+通过本分步指南，学习如何使用 Aspose.OCR 在 C# 中将图像转换为可搜索的 PDF 文档。
+### [如何从扫描图像创建 ePub – 步骤指南](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+使用 Aspose.OCR 将扫描图像转换为 ePub，提供分步指南，帮助您在 .NET 应用中实现电子书生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

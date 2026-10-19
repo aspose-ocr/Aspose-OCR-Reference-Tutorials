@@ -232,6 +232,8 @@ Aspose.OCR ile eğriltme hatasını giderip OCR doğruluğunu yükseltin. C# ör
 Aspose OCR ile aranabilir PDF oluşturmayı adım adım öğrenin ve uygulayın.
 ### [OCR için Görüntü Ön İşleme – Tam Aspose C# Kılavuzu](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Aspose OCR ile C# kullanarak görüntüleri ön işleyip OCR doğruluğunu artırın.
+### [Görüntüyü Düzleştirme – OCR Ön İşleme için Tam C# Rehberi](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Aspose.OCR kullanarak eğik görüntüleri düzleştirip OCR doğruluğunu artırın, adım adım C# örnekleriyle öğrenin.
 
 ## Sıkça Sorulan Sorular
 

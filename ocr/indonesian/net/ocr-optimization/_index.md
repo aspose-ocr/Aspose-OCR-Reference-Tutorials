@@ -258,6 +258,8 @@ Pelajari cara menghilangkan kemiringan gambar dengan filter deskew Aspose OCR un
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan contoh kode C#.
 ### [Pra-proses Gambar untuk OCR – Panduan Lengkap Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Pelajari cara mempersiapkan gambar dengan filter pra‑proses untuk meningkatkan akurasi OCR menggunakan Aspose OCR di C#.
+### [Cara Membetulkan Kemiringan Gambar – Panduan Lengkap C# untuk Pra‑pemrosesan OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose.OCR dengan C# untuk meningkatkan akurasi OCR.
 
 ## Pertanyaan yang Sering Diajukan
 

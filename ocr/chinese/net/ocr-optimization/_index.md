@@ -259,6 +259,9 @@ weight: 25
 ### [预处理图像用于 OCR – 完整 Aspose C# 指南](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 全面指南，教您使用 Aspose.C# 对图像进行预处理，以提升 OCR 识别准确率。
 
+### [如何去倾斜图像 – 完整的 C# OCR 预处理指南](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+本指南详细讲解在 C# 中使用 Aspose.OCR 进行图像去倾斜的步骤，提升 OCR 前处理效果。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

@@ -536,6 +536,12 @@ Pelajari cara mengekstrak teks dari file PNG berisi resi menggunakan Aspose OCR 
 ### [Mengonversi TIFF ke Teks dalam C# – Panduan OCR Batch Lengkap](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Panduan lengkap untuk mengonversi file TIFF menjadi teks menggunakan Aspose.OCR dalam batch dengan C#.
 
+### [Tutorial OCR C# – Ekstrak Teks dari Gambar JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Pelajari cara mengekstrak teks dari gambar JPG menggunakan Aspose OCR dalam aplikasi C#. Ikuti panduan langkah demi langkah kami.
+### [Buat PDF yang Dapat Dicari dari Gambar di C# – Panduan Langkah-demi-Langkah](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Cara Membuat ePub dari Gambar yang Dipindai – Panduan Langkah-demi-Langkah](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Pelajari cara mengonversi gambar hasil pemindaian menjadi file ePub dengan mudah menggunakan panduan langkah demi langkah kami.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

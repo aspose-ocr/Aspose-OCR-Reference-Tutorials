@@ -531,6 +531,12 @@ Apprenez à extraire du texte d'images en utilisant ASP.NET Core Minimal API, gu
 Apprenez à extraire du texte de reçus au format PNG en utilisant Aspose OCR avec C# dans vos applications .NET.
 ### [Convertir le TIFF en texte en C# – Guide complet d’OCR par lots](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Apprenez à convertir des fichiers TIFF en texte avec Aspose.OCR en C#, traitement par lots simple et efficace.
+### [Tutoriel C# OCR – Extraire du texte d'images JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Apprenez à extraire du texte d'images JPG en utilisant Aspose OCR avec C#. Suivez notre guide pas à pas pour intégrer l'OCR dans vos applications.
+### [Créer un PDF consultable à partir d’une image en C# – Guide étape par étape](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Transformez une image en PDF consultable avec Aspose.OCR en C#. Suivez notre guide détaillé pour générer facilement des PDF recherchables.
+### [Comment créer un ePub à partir d'images numérisées – Guide étape par étape](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Apprenez à transformer des images numérisées en fichiers ePub avec Aspose.OCR, grâce à un guide détaillé pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -520,6 +520,12 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από αποδείξεις PNG χρησιμοποιώντας Aspose OCR σε C# με βήμα‑βήμα οδηγίες.
 ### [Μετατροπή TIFF σε κείμενο σε C# – Πλήρης Οδηγός Batch OCR](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία TIFF σε κείμενο με Aspose OCR σε C#, χρησιμοποιώντας παρτίδα επεξεργασία για αποδοτική εξαγωγή.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία JPG χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [Δημιουργία αναζητήσιμου PDF από εικόνα σε C# – Οδηγός βήμα‑βήμα](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζηρίσιμα PDF με Aspose.OCR σε C#, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Δημιουργία ePub από σαρωμένες εικόνες – Οδηγός βήμα‑βήμα](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένες εικόνες σε αρχείο ePub με το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

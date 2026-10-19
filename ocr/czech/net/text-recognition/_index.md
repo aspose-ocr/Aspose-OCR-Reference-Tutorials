@@ -535,6 +535,12 @@ Kompletní návod, jak pomocí ASP.NET Core Minimal API extrahovat text z obráz
 Naučte se pomocí Aspose.OCR v C# extrahovat text z PNG účtenek a integrovat jej do vašich aplikací.
 ### [Převod TIFF na text v C# – Kompletní průvodce dávkovým OCR](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# hromadně převádět TIFF soubory na text s podrobným návodem.
+### [c# OCR tutoriál – Extrahujte text z JPG obrázků](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Naučte se v C# pomocí Aspose OCR extrahovat text z JPG obrázků a integrovat OCR do vašich .NET aplikací.
+### [Vytvořte prohledávatelný PDF z obrázku v C# – krok za krokem](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s textovým obsahem.
+### [Jak vytvořit ePub ze skenovaných obrázků – krok za krokem](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR převést skenované obrázky do formátu ePub a vytvořit interaktivní elektronické knihy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

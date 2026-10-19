@@ -533,6 +533,12 @@ Lär dig steg-för-steg hur du med Aspose OCR extraherar text från bilder i en 
 ### [c# OCR-handledning – Extrahera text från PNG-kvitton med Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
 Lär dig hur du med Aspose OCR i C# extraherar text från PNG‑kvitton för smidig datahantering.
 
+### [c# OCR-handledning – Extrahera text från JPG‑bilder](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Lär dig hur du med Aspose OCR extraherar text från JPG‑bilder i dina .NET‑applikationer med en enkel steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bild i C# – Steg‑för‑steg‑guide](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR skapar en sökbar PDF från en bild i C# med en enkel steg‑för‑steg‑guide.
+### [Hur man skapar ePub från skannade bilder – Steg‑för‑steg‑guide](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Lär dig skapa ePub-filer från skannade bilder med en enkel steg‑för‑steg‑guide i Aspose.OCR för .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

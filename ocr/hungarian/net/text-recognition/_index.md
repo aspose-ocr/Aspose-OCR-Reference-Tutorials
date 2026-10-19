@@ -524,6 +524,12 @@ Ismerje meg, hogyan nyerhet ki szöveget képekből ASP.NET Core Minimal API-val
 Ismerje meg, hogyan nyerhet ki szöveget PNG nyugtákról C#-ban az Aspose OCR használatával, lépésről-lépésre útmutatóval.
 ### [TIFF konvertálása szöveggé C#-ban – Teljes kötegelt OCR útmutató](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Tanulja meg, hogyan konvertálhat TIFF fájlokat szöveggé C#-ban tömeges OCR feldolgozással az Aspose.OCR segítségével.
+### [c# OCR oktatóanyag – Szöveg kinyerése JPG képekből](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Ismerje meg, hogyan nyerhet ki szöveget JPG képekből C#-ban az Aspose OCR segítségével.
+### [Kereshető PDF létrehozása képből C#‑ban – Lépésről‑lépésre útmutató](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan hozzunk létre ePub-ot beolvasott képekből – Lépés‑ről‑lépésre útmutató](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Ismerje meg, hogyan alakíthatja beolvasott képeket ePub formátummá az Aspose.OCR .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

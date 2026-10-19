@@ -530,6 +530,12 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج النص من إيصالات PNG باستخدام Aspose OCR في C# خطوة بخطوة.
 ### [تحويل TIFF إلى نص في C# – دليل OCR دفعي كامل](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 تعلم كيفية تحويل ملفات TIFF إلى نص باستخدام Aspose.OCR في C# مع معالجة دفعات كاملة للـ OCR.
+### [إنشاء ملف PDF قابل للبحث من صورة في C# – دليل خطوة بخطوة](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+تعلم كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR في بيئة C# خطوة بخطوة.
+### [دروس C# OCR – استخراج النص من صور JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+تعلم كيفية استخراج النص من صور JPG باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [كيفية إنشاء ePub من الصور الممسوحة ضوئياً – دليل خطوة بخطوة](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+تعلم خطوة بخطوة كيفية تحويل الصور الممسوحة ضوئياً إلى ملف ePub باستخدام Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

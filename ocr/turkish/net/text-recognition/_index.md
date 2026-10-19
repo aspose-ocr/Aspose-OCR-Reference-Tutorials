@@ -527,6 +527,12 @@ ASP.NET Core Minimal API kullanarak görüntülerden metin çıkarmayı adım ad
 ### [C# ile TIFF'i Metne Dönüştürme – Tam Toplu OCR Kılavuzu](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 C# kullanarak TIFF dosyalarını toplu olarak metne dönüştürmeyi adım adım öğrenin ve OCR sürecinizi otomatikleştirin.
 
+### [c# OCR eğitimi: JPG Görüntülerinden Metin Çıkarma](./c-ocr-tutorial-extract-text-from-jpg-images/)
+C# ve Aspose OCR kullanarak JPG formatındaki görüntülerden metin çıkarmayı adım adım öğrenin.
+### [C# ile Görüntüden Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+C# ve Aspose.OCR kullanarak görüntülerden arama yapılabilir PDF dosyaları oluşturmayı öğrenin. Adım adım kılavuzla süreci hızlıca tamamlayın.
+### [Tarama Görüntülerinden ePub Oluşturma – Adım Adım Kılavuz](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Tarama görüntülerinden ePub dosyası oluşturmayı adım adım öğrenin ve Aspose.OCR ile dijital yayınlarınızı kolayca üretin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

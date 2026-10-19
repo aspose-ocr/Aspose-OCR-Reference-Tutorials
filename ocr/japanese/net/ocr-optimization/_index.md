@@ -51,6 +51,9 @@ Aspose.OCR for .NET の可能性を最大限に引き出す準備はできてい
 
 Aspose.OCR for .NET で OCR 精度を向上させるために、[画像の前処理フィルタ](./preprocessing-filters-for-image/) をご確認ください。今すぐダウンロードして、認識前に画像を微調整する方法を学び、統合をスムーズにし、精度と効率を高めましょう。
 
+### [画像のデスキュー – OCR 前処理の完全 C# ガイド](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+C# で画像の傾きを補正し、OCR 前処理として最適化する手順をステップバイステップで解説します。
+
 ## スペルチェックによる結果修正
 
 [Aspose.OCR for .NET](./result-correction-with-spell-checking/) を活用して、結果修正とスペルチェックを行うチュートリアルです。辞書のカスタマイズ、スペルの修正、エラーのないテキスト認識を簡単に実現できます。Aspose.OCR で精度の高い世界へ飛び込みましょう。

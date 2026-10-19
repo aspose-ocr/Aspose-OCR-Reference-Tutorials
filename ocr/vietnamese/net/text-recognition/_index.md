@@ -525,6 +525,12 @@ Hướng dẫn chi tiết từng bước để trích xuất văn bản từ hì
 Hướng dẫn chi tiết từng bước để trích xuất văn bản từ biên lai PNG bằng Aspose OCR trong C#, bao gồm cài đặt và ví dụ thực tế.
 ### [Chuyển đổi TIFF sang Văn bản trong C# – Hướng dẫn OCR hàng loạt đầy đủ](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp TIFF thành văn bản bằng Aspose.OCR trong C#, hỗ trợ xử lý hàng loạt hiệu quả.
+### [Hướng dẫn OCR C# – Trích xuất văn bản từ hình ảnh JPG](./c-ocr-tutorial-extract-text-from-jpg-images/)
+Nâng cao dự án .NET của bạn với Aspose.OCR để trích xuất văn bản từ hình ảnh JPG một cách nhanh chóng và chính xác.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh trong C# – Hướng dẫn từng bước](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
+Biến hình ảnh thành PDF có thể tìm kiếm trong .NET với Aspose.OCR. Hướng dẫn chi tiết từng bước để tạo PDF dễ dàng.
+### [Cách tạo ePub từ hình ảnh đã quét – Hướng dẫn từng bước](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+Biến các hình ảnh quét thành ePub có thể đọc được bằng Aspose.OCR. Hướng dẫn chi tiết từng bước để tạo sách điện tử nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
