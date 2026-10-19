@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-04-26
-description: Aspose OCR kullanarak C#'de görüntüden metin çıkarın. JPG'den metin tanımayı,
-  JPG'yi metne dönüştürmeyi ve OCR için görüntüyü dakikalar içinde yüklemeyi öğrenin.
+date: 2026-01-10
+description: Aspose OCR kullanarak C#'de görüntüden metin çıkarın. Tarama belgesi
+  metnini toplu işleme ile nasıl dönüştüreceğinizi öğrenin ve sonuçları kaydedin.
 draft: false
 keywords:
 - extract text from image
-- recognize text from jpg
-- convert jpg to text
-- how to recognize text
-- load image for ocr
+- convert scanned document text
+- batch OCR processing
+- Aspose OCR
+- C# OCR tutorial
 language: tr
-og_description: Aspose OCR kullanarak görüntüden metin çıkarın. Bu öğreticide jpg'den
-  metin tanıma, jpg'yi metne dönüştürme ve OCR için görüntüyü yükleme nasıl yapılır
-  gösterilmektedir.
+og_description: Aspose OCR ile C#'da görüntüden metin çıkarın. Bu öğretici, toplu
+  işleme kullanarak taranmış belge metnini nasıl dönüştüreceğinizi gösterir.
 og_title: C#'ta Görüntüden Metin Çıkarma – Tam Aspose OCR Rehberi
 tags:
-- C#
 - OCR
+- C#
 - Aspose
 - Image Processing
-title: C#'ta Görüntüden Metin Çıkarma – Tam Aspose OCR Rehberi
+title: C#'ta Görüntüden Metin Çıkarma – Tam Aspose OCR Kılavuzu
 url: /tr/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
 
@@ -28,143 +27,224 @@ url: /tr/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görselden Metin Çıkarma C# – Tam Aspose OCR Rehberi
+# Görüntüden Metin Çıkarma – Tam Aspose OCR Kılavuzu
 
-Görselden **metin çıkarmak** istediğinizde, bunu büyük bir yapılandırma olmadan yapmanıza izin verecek kütüphanenin hangisi olduğunu bilemediniz mi? Yalnız değilsiniz. Birçok projede bir avuç JPG ekran görüntüsü alırız ve bir sonraki adım bu pikselleri aranabilir dizelere dönüştürmektir.  
+Hiç **görüntüden metin çıkarma** ihtiyacı duydunuz ama nereden başlayacağınızı bilemediniz mi? Yalnız değilsiniz; birçok geliştirici taranmış PDF'ler, çok sayfalı TIFF'ler veya fotoğraf tabanlı makbuzlarla çalışırken bu engelle karşılaşıyor. İyi haber, Aspose OCR ile sadece birkaç C# satırıyla **taran belge metnini dönüştürebilirsiniz**.
 
-Bu öğreticide, Aspose OCR’nin temiz C# API'sini kullanarak bir JPG dosyasından **metin tanıma**, **JPG'yi metne dönüştürme** ve **OCR için görsel yükleme** gösteren uygulamalı bir örnek üzerinden ilerleyeceğiz. Sonunda, çıkarılan metni konsola yazdıran, çalıştırmaya hazır bir programınız olacak.
-
-## Öğrenecekleriniz
-
-- Aspose OCR NuGet paketini nasıl kurup referanslayacağınızı.  
-- Görselden **metin çıkarma** dosyaları için gereken tam çağrı sırasını.  
-- Hızlı demolar için motoru değerlendirme moduna ayarlamanın neden önemli olduğunu.  
-- Desteklenmeyen görsel formatları gibi yaygın tuzakları ve bunlardan nasıl kaçınılacağını.  
-- OCR sonucunun orijinal resimle eşleştiğini nasıl doğrulayacağınızı.
-
-Önceden OCR deneyimi gerekmiyor—sadece temel bir C# geçmişi ve makinenizde .NET 6 veya daha yeni bir sürüm yüklü olması yeterli.
+Bu öğreticide gerçek bir senaryoyu adım adım inceleyeceğiz: çok sayfalı bir TIFF dosyasını alıp her sayfada toplu OCR çalıştırmak ve tüm sayfaların içeriğini tek bir metin dosyasına yazmak. Sonunda çalıştırmaya hazır bir konsol uygulamanız olacak, her adımın neden önemli olduğunu anlayacaksınız ve şifre korumalı görüntüler ya da özel dil paketleri gibi uç durumlar için akışı nasıl ayarlayacağınızı öğreneceksiniz.
 
 ## Önkoşullar
 
-| Gereksinim | Sebep |
-|-------------|--------|
-| .NET 6 SDK (veya daha yeni) | C# konsol uygulaması için çalışma zamanını sağlar. |
-| Visual Studio 2022 (veya VS Code) | Düzenlemeyi ve hata ayıklamayı zahmetsiz hâle getirir. |
-| Aspose.OCR NuGet paketi | OCR işlemini gerçekte yapan kütüphane. |
-| Örnek bir JPG görseli (`sample1.jpg`) | Motorun içine besleyeceğimiz dosya. |
+- .NET 6.0 SDK veya daha yeni (kod .NET Core ve .NET Framework ile de çalışır)  
+- Visual Studio 2022 (ya da tercih ettiğiniz herhangi bir editör)  
+- Bir Aspose OCR lisans dosyası (ya da ücretsiz deneme modunu kullanabilirsiniz)  
+- Referans alabileceğiniz bir klasöre yerleştirilmiş çok sayfalı bir görüntü dosyası (ör. `multipage.tif`)  
 
-Eğer bunlar zaten elinizdeyse, harika—direkt başlayalım.
+`Aspose.OCR` dışındaki ek NuGet paketlerine ihtiyaç yoktur; ilk adımda onu kuracağız.
 
-## 1. Adım – Aspose OCR Motorunu **Görselden Metin Çıkarma** için Kurma
+## 1. Adım – Aspose  OCR'yi Yükleyin ve Projeyi Ayarlayın
 
-İlk olarak bir `OcrEngine` örneğine ihtiyacımız var. Bu nesne kütüphanenin kalbidir; yapılandırmayı tutar ve ağır işi yapar.
+Başlamak için yeni bir konsol projesi oluşturun ve Aspose  OCR kütüphanesini ekleyin.
+
+```bash
+dotnet new console -n ImageTextExtractor
+cd ImageTextExtractor
+dotnet add package Aspose.OCR
+```
+
+> **Pro ipucu:** Bir lisans dosyanız (`Aspose.OCR.lic`) varsa, proje kök dizinine kopyalayın. Kütüphane çalışma zamanında otomatik olarak algılar.
+
+Bu adım neden gerekli? Paketi yüklemek, `BatchProcessor`, `OcrEngine` ve düşük seviyeli görüntü işleme detaylarını soyutlayan diğer kullanışlı sınıflara erişmenizi sağlar. Ayrıca Aspose'un sunduğu en yeni OCR algoritmalarını kullanmanızı garantiler.
+
+## 2. Adım – BatchProcessor ile Çok Sayfalı Görüntüyü Yükleyin
+
+`BatchProcessor`, tam da bu senaryo için tasarlanmıştır: çok sayfalı bir görüntünün her sayfasını manuel olarak bölmenize gerek kalmadan yinelemenizi sağlar.
 
 ```csharp
-using System;
 using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System.Text;
 
-class Program
+// Step 2: Initialize the batch processor with the path to your TIFF
+var batchProcessor = new BatchProcessor(@"YOUR_DIRECTORY\multipage.tif");
+
+// Verify that pages were loaded
+if (batchProcessor.Pages.Count == 0)
 {
-    static void Main()
+    Console.WriteLine("No pages found – double‑check the file path.");
+    return;
+}
+```
+
+`BatchProcessor`, tüm sayfaları belleğe okur ve `batchProcessor.Pages` üzerinden erişime açar. Her sayfa nesnesi kendi numarasını (`ocrPage.Number`) bilir; bu numarayı daha sonra net başlıklar oluşturmak için kullanacağız.
+
+## 3. Adım – Sonuçları Biriktirmek İçin StringBuilder Hazırlayın
+
+Her sayfanın OCR çıktısını başlıklarla ayırarak tek bir metin dosyasında toplamak istiyoruz. `StringBuilder`, bir döngü içinde string birleştirmenin en verimli yoludur.
+
+```csharp
+// Step 3: Create a StringBuilder to collect OCR results
+var extractedText = new StringBuilder();
+```
+
+Neden `StringBuilder`? Döngü içinde `+` ile string birleştirmek her yinelemede yeni bir string oluşturur ve performansı düşürür—özellikle büyük belgelerde.
+
+## 4. Adım – Her Sayfayı Döngüyle İşleyin, OCR Çalıştırın ve Sonuçları Ekleyin
+
+Şimdi öğreticinin özü: her sayfayı döngüye alıp metni tanıyın ve sayfa işaretleyicisiyle saklayın.
+
+```csharp
+// Step 4: Process each page individually
+foreach (var ocrPage in batchProcessor.Pages)
+{
+    // Create a fresh OcrEngine for every page – this isolates settings
+    var ocrEngine = new OcrEngine
     {
-        // Step 1: Create an OCR engine instance
-        OcrEngine ocrEngine = new OcrEngine();
+        Image = ocrPage
+    };
 
-        // Enable evaluation mode – no license file needed for this demo
-        ocrEngine.SetEvaluationMode();
+    // Perform recognition
+    ocrEngine.Recognize();
 
-        // Choose the language (Latin works for most English/Japanese‑Romanized texts)
-        ocrEngine.Language = Language.Latin;
+    // Append a clear header and the recognized text
+    extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+    extractedText.AppendLine(ocrEngine.Text);
+}
 ```
 
-**Neden Önemli:**  
-Motoru oluşturmak maliyetli değildir, ancak `SetEvaluationMode()` çağrısını unutursanız, lisans satın almamışsanız çalışma zamanı hatası alırsınız. Dili ayarlamak karakter setini daraltır, bu da doğruluğu artırır ve işleme süresini hızlandırır.
+**Neden her sayfa için yeni bir `OcrEngine`?** Bazı geliştiriciler tek bir motoru yeniden kullanıp `Image` özelliğini değiştirir, ancak bu dil ayarlarını veya önceki sonuçları tutabilir ve ince hatalara yol açar. Yeni bir motor oluşturmak temiz bir başlangıç garantiler.
 
-## 2. Adım – **OCR için Görsel Yükleme** – **JPG'den Metin Tanıma**
+### Yaygın Uç Durumları Ele Alma
 
-Şimdi motoru okumak istediğimiz dosyaya yönlendiriyoruz. `ImageStream.FromFile` yardımcı yöntemi, bir `FileStream`i manuel olarak açma ihtiyacını ortadan kaldırır.
+- **Boş sayfalar:** Bir sayfada tanınabilir metin yoksa, `ocrEngine.Text` boş bir string olur. “(Metin bulunamadı)” gibi bir yer tutucu eklemek isteyebilirsiniz.  
+- **Dil seçimi:** Varsayılan olarak Aspose OCR İngilizce kullanır. Almanca veya Fransızca işlemek için `ocrEngine.Language = Language.German;` gibi bir ayar yapın, `Recognize()` çağrısından önce.  
+- **Performans ipucu:** Çok büyük TIFF'lerde `ocrEngine.UseParallelProcessing = true;` etkinleştirerek birden fazla çekirdekten yararlanabilirsiniz.
+
+## 5. Adım – Birleştirilmiş Çıktıyı Metin Dosyasına Yazın
+
+Son olarak biriktirilmiş stringi diske kaydedin.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace YOUR_DIRECTORY with the actual folder path
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY\sample1.jpg");
+// Step 5: Save the result to a .txt file
+string outputPath = @"YOUR_DIRECTORY\multipage_result.txt";
+File.WriteAllText(outputPath, extractedText.ToString());
+
+Console.WriteLine($"OCR complete! Results saved to {outputPath}");
 ```
 
-**Köşe Durumu İpucu:**  
-Görseliniz PNG veya BMP formatındaysa, `FromFile` hâlâ çalışır, ancak OCR kalitesi değişkenlik gösterebilir. En iyi sonuçlar için yüksek çözünürlüklü JPG'ler (300 dpi veya daha yüksek) kullanın.  
+Oluşan `multipage_result.txt` aşağıdaki gibi görünecektir:
 
-## 3. Adım – OCR'i Gerçekleştir ve **JPG'yi Metne Dönüştür**
+```
+--- Page 1 ---
+This is the first page of the scanned document.
+It contains a title and some introductory text.
 
-Görsel yüklendikten sonra, tek bir `Recognize()` çağrısı geri kalanını yapar. Metot, çıkarılan dizeyi ve güven puanlarını içeren bir `RecognitionResult` döndürür.
+--- Page 2 ---
+Continuation of the report.
+Data tables and figures follow.
+```
+
+Artık **görüntüden metin çıkarma** işlemini gerçekleştirdiniz ve **taran belge metnini** aranabilir, düzenlenebilir bir formata etkili bir şekilde dönüştürdünüz.
+
+## Bonus – Görsel Genel Bakış (Resim Alt Metni)
+
+Aşağıda süreci gösteren basit bir akış diyagramı bulunmaktadır.  
+*Alt metin:* “Aspose OCR toplu işleme ile C#’ta görüntüden metin çıkarma sürecini gösteren diyagram”.
+
+![OCR Flow Diagram](placeholder-image-url.png)
+
+*(Bu öğreticiyi statik bir siteye yayınlıyorsanız, yer tutucuyu gerçek bir SVG veya PNG ile değiştirin.)*
+
+## Sıkça Sorulan Sorular
+
+**Bu PDF dosyalarıyla çalışır mı?**  
+Evet, Aspose OCR PDF sayfalarını görüntü olarak okuyabilir. Önce PDF'yi görüntülere dönüştürmeniz ya da `Aspose.PDF`'den `PdfDocument` kullanıp her sayfanın rasterleştirilmiş görüntüsünü `OcrEngine`'e beslemeniz gerekir.
+
+**TIFF dosyam şifre korumalıysa ne olur?**  
+`BatchProcessor` şifrelemeyi doğrudan desteklemez. OCR işlem hattına göndermeden önce `Aspose.Imaging` gibi bir kütüphane ile dosyayı çözmeniz gerekir.
+
+**Düz metin yerine JSON çıktı alabilir miyim?**  
+Kesinlikle. `StringBuilder` mantığını bir JSON serileştirici (ör. `System.Text.Json`) ile değiştirin ve her sayfanın metnini `pageNumber` anahtarı altında saklayın.
+
+## Tam Çalışan Örnek
+
+Aşağıda `Program.cs` içine kopyalayıp yapıştırabileceğiniz tam program yer alıyor. Tüm using yönergeleri, hata yönetimi ve yorumlar dahildir.
 
 ```csharp
-        // Step 3: Run the OCR engine
-        RecognitionResult recognitionResult = ocrEngine.Recognize();
+using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System;
+using System.IO;
+using System.Text;
 
-        // Step 4: Display the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(recognitionResult.Text);
+namespace ImageTextExtractor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Adjust these paths to match your environment
+            string inputImagePath = @"YOUR_DIRECTORY\multipage.tif";
+            string outputTextPath = @"YOUR_DIRECTORY\multipage_result.txt";
+
+            // 1️⃣ Load the multi‑page image
+            var batchProcessor = new BatchProcessor(inputImagePath);
+            if (batchProcessor.Pages.Count == 0)
+            {
+                Console.WriteLine("No pages detected – verify the file path.");
+                return;
+            }
+
+            // 2️⃣ Prepare a StringBuilder for the final output
+            var extractedText = new StringBuilder();
+
+            // 3️⃣ Process each page
+            foreach (var ocrPage in batchProcessor.Pages)
+            {
+                var ocrEngine = new OcrEngine
+                {
+                    Image = ocrPage,
+                    // Uncomment to change language:
+                    // Language = Language.German,
+                    // UseParallelProcessing = true
+                };
+
+                // Run OCR
+                ocrEngine.Recognize();
+
+                // Append header and text
+                extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+                // Guard against empty results
+                string pageText = string.IsNullOrWhiteSpace(ocrEngine.Text)
+                    ? "(No text detected on this page)"
+                    : ocrEngine.Text;
+                extractedText.AppendLine(pageText);
+            }
+
+            // 4️⃣ Write to file
+            File.WriteAllText(outputTextPath, extractedText.ToString());
+
+            Console.WriteLine($"✅ Extraction complete. File saved at: {outputTextPath}");
+        }
     }
 }
 ```
 
-**Arka planda neler oluyor?**  
-`Recognize()` bir dizi görsel ön işleme adımı—ikilileştirme, eğim düzeltme, segmentasyon—gerçekleştirir ve ardından veriyi Latin karakterleri üzerinde eğitilmiş bir sinir ağına gönderir. Dönen `Text` özelliği zaten Unicode kodlu olduğundan, bunu bir dosyaya, veritabanına yazabilir ya da başka bir servise yönlendirebilirsiniz.
+Programı şu şekilde çalıştırın:
 
-## Beklenen Çıktı
-
-Eğer `sample1.jpg` “Hello World” ifadesini içeriyorsa, konsol şu şekilde gösterir:
-
-```
-=== OCR Output ===
-Hello World
+```bash
+dotnet run
 ```
 
-Eğer görsel bulanıksa, ekstra karakterler veya daha düşük güven görünebilir. Bu durumda, kaynak görselin DPI değerini artırmayı veya yüklemeden önce bir keskinleştirme filtresi uygulamayı düşünün.
-
-## Profesyonel İpuçları ve Yaygın Tuzaklar
-
-- **Pro ipucu:** OCR çağrısını bir `try…catch` bloğu içinde sararak bozuk dosyaları nazikçe ele alın.  
-- **Tuzak:** Dili ayarlamayı unutmak, motorun varsayılan genel bir sete geçmesine neden olur ve bu da aksanlı karakterleri yanlış tanıyabilir.  
-- **Performans ipucu:** Birden fazla görsel için aynı `OcrEngine` örneğini yeniden kullanın; her seferinde yeni bir motor oluşturmak ek yük getirir.  
-- **PDF işlemek gerekirse?** Aspose OCR, `ImageStream.FromPdf` aracılığıyla PDF sayfalarını görsel olarak kabul edebilir, ancak ayrıca Aspose.PDF kütüphanesine de ihtiyacınız olacak.
-
-## 4. Adım – Çıkarma İşlemini Doğrulama ve Sonraki Adımlar
-
-OCR çıktısını yazdırdıktan sonra, muhtemelen sonucu orijinal görselle manuel olarak veya basit bir kontrol toplamı ile karşılaştırmak isteyeceksiniz. İşte sonucu daha sonra incelemek için bir metin dosyasına yazmanın hızlı bir yolu:
-
-```csharp
-        // Optional: Save the OCR result to a .txt file
-        System.IO.File.WriteAllText(@"YOUR_DIRECTORY\sample1_ocr.txt", recognitionResult.Text);
-        Console.WriteLine("Result saved to sample1_ocr.txt");
-```
-
-Artık **görselden metin çıkaran**, **jpg'den metin tanıyan** ve **jpg'yi metne dönüştüren** otomatik bir iş akışına sahipsiniz.
-
-## Sık Sorulan Sorular
-
-**S: Bu Linux'ta çalışır mı?**  
-**C:** Kesinlikle. Aspose OCR çapraz platformdur; sadece Linux için .NET çalışma zamanını kurun ve aynı kod değişmeden çalışır.
-
-**S: Latin dışı yazı sistemlerini tanıyabilir miyim?**  
-**C:** Evet—Aspose OCR, Kiril, Arap ve çeşitli Asya alfabelerini destekler. `ocrEngine.Language` değerini uygun enum ile değiştirin.
-
-**S: Yüzlerce dosyayı işlemek istersem?**  
-**C:** Mantığı bir `foreach` döngüsü içinde sarın ve motor örneğini yeniden kullanırken `Parallel.ForEach` ile paralelleştirmeyi düşünün.
+Konsolda başarı mesajı görmeli ve çıktı dosyası birleştirilmiş OCR sonuçlarını içermelidir.
 
 ## Sonuç
 
-Artık Aspose OCR kullanarak **görselden metin çıkaran**, **jpg'den metin tanıyan** ve sadece birkaç C# satırıyla **jpg'yi metne dönüştüren** tam, üretime hazır bir kod parçacığınız var. Temel adımlar—motoru örneklemek, görseli yüklemek, `Recognize()` çalıştırmak ve sonucu işlemek—hepsi kapsandı ve süreci sorunsuz tutmak için pratik ipuçlarını gördünüz.
+Aspose OCR kullanarak **görüntüden metin çıkarma** için pratik bir yol gösterdik; çok sayfalı taranmış dosyaları düz, aranabilir metne dönüştürdük. `BatchProcessor` ve sayfa başına temiz bir `OcrEngine` kurulumu sayesinde **taran belge metnini** güvenilir bir şekilde dönüştürürken kod tabanını basit ve sürdürülebilir tutabilirsiniz.
 
-Buradan sonra şunları keşfedebilirsiniz:
+Denemekten çekinmeyin: farklı diller deneyin, JSON çıktısına geçin veya bu mantığı anlık yükleme işleyen bir web API’sine entegre edin. Temel desen aynı kalır—yükle, tanı, biriktir ve kalıcı hale getir.
 
-- OCR çıktısını bir arama indeksine (ör. Elasticsearch) beslemek.  
-- Doğru `Language` enumunu otomatik seçmek için dil algılaması eklemek.  
-- Kodu bir ASP.NET Core API'ye entegre ederek diğer servislerin talep üzerine OCR istemesini sağlamak.
-
-Deneyin, görsel kalitesini ayarlayın ve metnin konsolda belirdiğini izleyin. İyi kodlamalar!  
-
-![görselden metin çıkarma örneği](/images/ocr-sample.png "OCR çıktısını gösteren ekran görüntüsü – görselden metin çıkarma")
+OCR, Aspose lisanslaması veya devasa belge gruplarıyla ilgili daha fazla sorunuz mu var? Aşağıya yorum bırakın ya da Aspose’un resmi dokümantasyonuna göz atarak daha derinlemesine bilgi edinin. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

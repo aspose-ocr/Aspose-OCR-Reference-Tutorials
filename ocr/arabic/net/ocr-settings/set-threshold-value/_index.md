@@ -9,11 +9,8 @@ url: /ar/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
-codes.
 
-Now ensure we keep all markdown formatting.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

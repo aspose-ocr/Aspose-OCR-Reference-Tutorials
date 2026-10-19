@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2026-04-26
+date: 2026-01-10
 description: Ekstrak teks dari gambar menggunakan Aspose OCR di C#. Pelajari cara
-  mengenali teks dari JPG, mengonversi JPG ke teks, dan memuat gambar untuk OCR dalam
-  hitungan menit.
+  mengonversi teks dokumen yang dipindai dengan pemrosesan batch dan menyimpan hasilnya.
 draft: false
 keywords:
 - extract text from image
-- recognize text from jpg
-- convert jpg to text
-- how to recognize text
-- load image for ocr
+- convert scanned document text
+- batch OCR processing
+- Aspose OCR
+- C# OCR tutorial
 language: id
-og_description: Ekstrak teks dari gambar menggunakan Aspose OCR. Tutorial ini menunjukkan
-  cara mengenali teks dari JPG, mengonversi JPG ke teks, dan memuat gambar untuk OCR.
+og_description: Ekstrak teks dari gambar dengan Aspose OCR di C#. Tutorial ini menunjukkan
+  cara mengonversi teks dokumen yang dipindai menggunakan pemrosesan batch.
 og_title: Ekstrak Teks dari Gambar di C# – Panduan Lengkap Aspose OCR
 tags:
-- C#
 - OCR
+- C#
 - Aspose
 - Image Processing
 title: Ekstrak Teks dari Gambar di C# – Panduan Lengkap Aspose OCR
@@ -28,143 +27,224 @@ url: /id/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ekstrak Teks dari Gambar di C# – Panduan Lengkap Aspose OCR
+# Ekstrak Teks dari Gambar – Panduan Lengkap Aspose OCR
 
-Pernah perlu **mengekstrak teks dari gambar** tetapi tidak yakin pustaka mana yang dapat melakukannya tanpa konfigurasi yang rumit? Anda tidak sendirian. Dalam banyak proyek kami mendapatkan beberapa screenshot JPG dan langkah selanjutnya adalah mengubah piksel‑piksel itu menjadi string yang dapat dicari.  
+Pernah perlu **mengekstrak teks dari gambar** tetapi tidak tahu harus mulai dari mana? Anda tidak sendirian; banyak pengembang mengalami kebingungan saat menangani PDF yang dipindai, TIFF multi‑halaman, atau kwitansi berbasis foto. Kabar baiknya, dengan Aspose OCR Anda dapat **mengonversi teks dokumen yang dipindai** hanya dengan beberapa baris kode C#.
 
-Dalam tutorial ini kami akan menunjukkan contoh langsung yang memperlihatkan **cara mengenali teks** dari file JPG, **mengonversi JPG ke teks**, dan **memuat gambar untuk OCR** menggunakan API C# bersih Aspose OCR. Pada akhir tutorial Anda akan memiliki program siap‑jalankan yang mencetak teks yang diekstrak ke konsol.
-
-## Apa yang Akan Anda Pelajari
-
-- Cara menginstal dan mereferensikan paket NuGet Aspose OCR.  
-- Urutan panggilan yang tepat untuk **mengekstrak teks dari gambar**.  
-- Mengapa mengatur mesin ke mode evaluasi penting untuk demo cepat.  
-- Kesalahan umum (misalnya, format gambar yang tidak didukung) dan cara menghindarinya.  
-- Cara memverifikasi bahwa hasil OCR cocok dengan gambar asli.
-
-Tidak diperlukan pengalaman sebelumnya dengan OCR—hanya latar belakang dasar C# dan .NET 6 atau yang lebih baru terpasang di mesin Anda.
+Dalam tutorial ini kita akan membahas skenario dunia nyata: mengambil TIFF multi‑halaman, menjalankan OCR batch pada setiap halaman, dan menulis satu file teks yang berisi konten semua halaman. Pada akhir tutorial Anda akan memiliki aplikasi konsol yang siap dijalankan, memahami mengapa setiap langkah penting, dan tahu cara menyesuaikan alur untuk kasus khusus seperti gambar yang dilindungi kata sandi atau paket bahasa khusus.
 
 ## Prasyarat
 
-| Prasyarat | Alasan |
-|-------------|--------|
-| .NET 6 SDK (atau lebih baru) | Menyediakan runtime untuk aplikasi konsol C#. |
-| Visual Studio 2022 (atau VS Code) | Memudahkan pengeditan dan debugging. |
-| Paket NuGet Aspose.OCR | Pustaka yang benar‑benarnya melakukan pekerjaan OCR. |
-| Contoh gambar JPG (`sample1.jpg`) | File yang akan kita berikan ke mesin. |
+- .NET 6.0 SDK atau yang lebih baru (kode ini juga bekerja dengan .NET Core dan .NET Framework)  
+- Visual Studio 2022 (atau editor lain pilihan Anda)  
+- File lisensi Aspose OCR (atau Anda dapat menggunakan mode evaluasi gratis)  
+- File gambar multi‑halaman (misalnya `multipage.tif`) yang ditempatkan di folder yang dapat Anda referensikan  
 
-Jika Anda sudah memiliki semua ini, bagus—langsung saja ke langkah berikutnya.
+Tidak ada paket NuGet tambahan yang diperlukan selain `Aspose.OCR`; kami akan menginstalnya pada langkah pertama.
 
-## Langkah 1 – Siapkan Aspose OCR Engine untuk **Mengekstrak Teks dari Gambar**
+## Langkah 1 – Instal Aspose OCR dan Siapkan Proyek
 
-Pertama kita memerlukan sebuah instance `OcrEngine`. Objek ini adalah inti pustaka; ia menyimpan konfigurasi dan melakukan pekerjaan berat.
+Untuk memulai, buat proyek konsol baru dan tambahkan pustaka Aspose OCR.
+
+```bash
+dotnet new console -n ImageTextExtractor
+cd ImageTextExtractor
+dotnet add package Aspose.OCR
+```
+
+> **Tips pro:** Jika Anda memiliki file lisensi (`Aspose.OCR.lic`), salin ke root proyek. Pustaka akan otomatis mendeteksinya saat runtime.
+
+Mengapa langkah ini? Menginstal paket memberi Anda akses ke `BatchProcessor`, `OcrEngine`, dan kelas berguna lainnya yang menyederhanakan penanganan gambar tingkat rendah. Ini juga memastikan Anda menggunakan algoritma OCR terbaru yang disediakan Aspose.
+
+## Langkah 2 – Muat Gambar Multi‑Halaman dengan BatchProcessor
+
+`BatchProcessor` dirancang khusus untuk skenario ini: mengiterasi setiap halaman gambar multi‑halaman tanpa harus memisahkan file secara manual.
 
 ```csharp
-using System;
 using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System.Text;
 
-class Program
+// Step 2: Initialize the batch processor with the path to your TIFF
+var batchProcessor = new BatchProcessor(@"YOUR_DIRECTORY\multipage.tif");
+
+// Verify that pages were loaded
+if (batchProcessor.Pages.Count == 0)
 {
-    static void Main()
+    Console.WriteLine("No pages found – double‑check the file path.");
+    return;
+}
+```
+
+`BatchProcessor` membaca semua halaman ke memori, menampilkannya melalui `batchProcessor.Pages`. Setiap objek halaman mengetahui nomor halamannya (`ocrPage.Number`) yang akan kita gunakan nanti untuk judul yang jelas.
+
+## Langkah 3 – Siapkan StringBuilder untuk Mengakumulasi Hasil
+
+Kita menginginkan satu file teks yang berisi output OCR semua halaman, dipisahkan oleh header. `StringBuilder` adalah cara paling efisien untuk menggabungkan string dalam loop.
+
+```csharp
+// Step 3: Create a StringBuilder to collect OCR results
+var extractedText = new StringBuilder();
+```
+
+Mengapa `StringBuilder`? Menggabungkan string dengan `+` di dalam loop akan membuat alokasi string baru pada setiap iterasi, yang menurunkan kinerja—terutama pada dokumen besar.
+
+## Langkah 4 – Iterasi Setiap Halaman, Jalankan OCR, dan Tambahkan Hasil
+
+Sekarang inti tutorial: melakukan loop pada setiap halaman, mengenali teks, dan menyimpannya dengan penanda halaman.
+
+```csharp
+// Step 4: Process each page individually
+foreach (var ocrPage in batchProcessor.Pages)
+{
+    // Create a fresh OcrEngine for every page – this isolates settings
+    var ocrEngine = new OcrEngine
     {
-        // Step 1: Create an OCR engine instance
-        OcrEngine ocrEngine = new OcrEngine();
+        Image = ocrPage
+    };
 
-        // Enable evaluation mode – no license file needed for this demo
-        ocrEngine.SetEvaluationMode();
+    // Perform recognition
+    ocrEngine.Recognize();
 
-        // Choose the language (Latin works for most English/Japanese‑Romanized texts)
-        ocrEngine.Language = Language.Latin;
+    // Append a clear header and the recognized text
+    extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+    extractedText.AppendLine(ocrEngine.Text);
+}
 ```
 
-**Mengapa ini penting:**  
-Membuat engine itu murah, tetapi lupa memanggil `SetEvaluationMode()` akan menyebabkan pengecualian runtime kecuali Anda telah membeli lisensi. Menetapkan bahasa mempersempit set karakter, yang meningkatkan akurasi dan mempercepat pemrosesan.
+**Mengapa membuat `OcrEngine` baru untuk setiap halaman?** Beberapa pengembang menggunakan satu engine dan mengubah properti `Image`‑nya, tetapi hal itu dapat mempertahankan pengaturan bahasa atau hasil sebelumnya, yang menyebabkan bug halus. Membuat engine baru menjamin kondisi bersih.
 
-## Langkah 2 – **Memuat Gambar untuk OCR** – **Mengenali Teks dari JPG**
+### Menangani Kasus Edge Umum
 
-Sekarang kita arahkan engine ke file yang ingin dibaca. Helper `ImageStream.FromFile` mengabstraksi kebutuhan untuk membuka `FileStream` secara manual.
+- **Halaman kosong:** Jika sebuah halaman tidak mengandung teks yang dapat dikenali, `ocrEngine.Text` akan menjadi string kosong. Anda mungkin ingin menyisipkan placeholder seperti “(Tidak ada teks terdeteksi)”.
+- **Pemilihan bahasa:** Secara default Aspose OCR menggunakan bahasa Inggris. Untuk memproses bahasa Jerman atau Prancis, setel `ocrEngine.Language = Language.German;` sebelum memanggil `Recognize()`.
+- **Tips kinerja:** Untuk TIFF yang sangat besar, Anda dapat mengaktifkan `ocrEngine.UseParallelProcessing = true;` untuk memanfaatkan beberapa core.
+
+## Langkah 5 – Tulis Output Gabungan ke File Teks
+
+Akhirnya, simpan string yang telah terakumulasi ke disk.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace YOUR_DIRECTORY with the actual folder path
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY\sample1.jpg");
+// Step 5: Save the result to a .txt file
+string outputPath = @"YOUR_DIRECTORY\multipage_result.txt";
+File.WriteAllText(outputPath, extractedText.ToString());
+
+Console.WriteLine($"OCR complete! Results saved to {outputPath}");
 ```
 
-**Tip kasus tepi:**  
-Jika gambar Anda berformat PNG atau BMP, `FromFile` tetap berfungsi, tetapi kualitas OCR dapat bervariasi. Untuk hasil terbaik, gunakan JPG beresolusi tinggi (300 dpi atau lebih).  
+File `multipage_result.txt` yang dihasilkan akan terlihat kira‑kira seperti ini:
 
-## Langkah 3 – Lakukan OCR dan **Mengonversi JPG ke Teks**
+```
+--- Page 1 ---
+This is the first page of the scanned document.
+It contains a title and some introductory text.
 
-Setelah gambar dimuat, satu panggilan ke `Recognize()` menyelesaikan sisanya. Metode ini mengembalikan `RecognitionResult` yang berisi string yang diekstrak dan skor kepercayaan.
+--- Page 2 ---
+Continuation of the report.
+Data tables and figures follow.
+```
+
+Sekarang Anda telah **mengekstrak teks dari gambar** dan secara efektif **mengonversi teks dokumen yang dipindai** menjadi format yang dapat dicari dan diedit.
+
+## Bonus – Gambaran Visual (Teks Alt)
+
+Berikut adalah diagram alur sederhana yang menggambarkan proses.  
+*Alt text:* “Diagram yang menunjukkan cara mengekstrak teks dari gambar menggunakan pemrosesan batch Aspose OCR di C#”.
+
+![Diagram alur OCR](placeholder-image-url.png)
+
+*(Jika Anda mempublikasikan tutorial ini di situs statis, ganti placeholder dengan SVG atau PNG yang sebenarnya.)*
+
+## Pertanyaan yang Sering Diajukan
+
+**Apakah ini bekerja dengan file PDF?**  
+Ya, Aspose OCR dapat membaca halaman PDF sebagai gambar. Anda hanya perlu mengonversi PDF ke gambar terlebih dahulu, atau menggunakan `PdfDocument` dari `Aspose.PDF` dan memberikan setiap gambar rasterisasi halaman ke `OcrEngine`.
+
+**Bagaimana jika TIFF saya dilindungi kata sandi?**  
+`BatchProcessor` tidak menangani enkripsi secara langsung. Dekripsi file menggunakan pustaka seperti `Aspose.Imaging` sebelum mengirimkannya ke pipeline OCR.
+
+**Bisakah saya menghasilkan JSON alih-alih teks biasa?**  
+Tentu saja. Ganti logika `StringBuilder` dengan serializer JSON (misalnya `System.Text.Json`) dan simpan teks setiap halaman di bawah kunci `pageNumber`.
+
+## Contoh Lengkap yang Berfungsi
+
+Berikut program lengkap yang dapat Anda salin‑tempel ke `Program.cs`. Termasuk semua directive `using`, penanganan error, dan komentar.
 
 ```csharp
-        // Step 3: Run the OCR engine
-        RecognitionResult recognitionResult = ocrEngine.Recognize();
+using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System;
+using System.IO;
+using System.Text;
 
-        // Step 4: Display the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(recognitionResult.Text);
+namespace ImageTextExtractor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Adjust these paths to match your environment
+            string inputImagePath = @"YOUR_DIRECTORY\multipage.tif";
+            string outputTextPath = @"YOUR_DIRECTORY\multipage_result.txt";
+
+            // 1️⃣ Load the multi‑page image
+            var batchProcessor = new BatchProcessor(inputImagePath);
+            if (batchProcessor.Pages.Count == 0)
+            {
+                Console.WriteLine("No pages detected – verify the file path.");
+                return;
+            }
+
+            // 2️⃣ Prepare a StringBuilder for the final output
+            var extractedText = new StringBuilder();
+
+            // 3️⃣ Process each page
+            foreach (var ocrPage in batchProcessor.Pages)
+            {
+                var ocrEngine = new OcrEngine
+                {
+                    Image = ocrPage,
+                    // Uncomment to change language:
+                    // Language = Language.German,
+                    // UseParallelProcessing = true
+                };
+
+                // Run OCR
+                ocrEngine.Recognize();
+
+                // Append header and text
+                extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+                // Guard against empty results
+                string pageText = string.IsNullOrWhiteSpace(ocrEngine.Text)
+                    ? "(No text detected on this page)"
+                    : ocrEngine.Text;
+                extractedText.AppendLine(pageText);
+            }
+
+            // 4️⃣ Write to file
+            File.WriteAllText(outputTextPath, extractedText.ToString());
+
+            Console.WriteLine($"✅ Extraction complete. File saved at: {outputTextPath}");
+        }
     }
 }
 ```
 
-**Apa yang terjadi di balik layar?**  
-`Recognize()` menjalankan serangkaian langkah pra‑pemrosesan gambar—binarisasi, koreksi kemiringan, segmentasi—sebelum mengirim data ke jaringan saraf yang dilatih pada karakter Latin. Properti `Text` yang dikembalikan sudah berformat Unicode, sehingga Anda dapat menuliskannya ke file, basis data, atau mengirimnya ke layanan lain.
+Jalankan program dengan:
 
-## Output yang Diharapkan
-
-Jika `sample1.jpg` berisi frasa “Hello World”, konsol akan menampilkan:
-
-```
-=== OCR Output ===
-Hello World
+```bash
+dotnet run
 ```
 
-Jika gambar blur, Anda mungkin melihat karakter tambahan atau kepercayaan yang lebih rendah. Dalam kasus tersebut, pertimbangkan meningkatkan DPI gambar sumber atau menerapkan filter penajaman sebelum memuatnya.
-
-## Tips Pro & Kesalahan Umum
-
-- **Tips pro:** Bungkus pemanggilan OCR dalam blok `try…catch` untuk menangani file yang rusak secara elegan.  
-- **Kesalahan:** Lupa menetapkan bahasa dapat membuat engine menggunakan set generik, yang mungkin salah mengenali karakter beraksen.  
-- **Tips performa:** Gunakan kembali instance `OcrEngine` yang sama untuk beberapa gambar; membuat engine baru setiap kali menambah beban.  
-- **Bagaimana jika saya perlu memproses PDF?** Aspose OCR dapat menerima halaman PDF sebagai gambar melalui `ImageStream.FromPdf`, tetapi Anda juga memerlukan pustaka Aspose.PDF.
-
-## Langkah 4 – Verifikasi Ekstraksi dan Langkah Selanjutnya
-
-Setelah Anda mencetak output OCR, Anda mungkin ingin membandingkannya dengan gambar asli secara manual atau melalui checksum sederhana. Berikut cara cepat menuliskan hasil ke file teks untuk ditinjau nanti:
-
-```csharp
-        // Optional: Save the OCR result to a .txt file
-        System.IO.File.WriteAllText(@"YOUR_DIRECTORY\sample1_ocr.txt", recognitionResult.Text);
-        Console.WriteLine("Result saved to sample1_ocr.txt");
-```
-
-Sekarang Anda memiliki alur kerja yang dapat digunakan kembali yang **mengekstrak teks dari gambar**, **mengenali teks dari jpg**, dan **mengonversi jpg ke teks** secara otomatis.
-
-## Pertanyaan yang Sering Diajukan
-
-**T: Apakah ini bekerja di Linux?**  
-J: Tentu saja. Aspose OCR bersifat lintas‑platform; cukup instal runtime .NET untuk Linux dan kode yang sama berjalan tanpa perubahan.
-
-**T: Bisakah saya mengenali skrip non‑Latin?**  
-J: Ya—Aspose OCR mendukung Cyrillic, Arab, dan beberapa alfabet Asia. Ganti `ocrEngine.Language` ke nilai enum yang sesuai.
-
-**T: Bagaimana jika saya perlu memproses ratusan file?**  
-J: Bungkus logika dalam loop `foreach` dan pertimbangkan paralelisasi dengan `Parallel.ForEach` sambil menggunakan kembali instance engine.
+Anda akan melihat pesan konsol yang mengonfirmasi keberhasilan, dan file output akan berisi hasil OCR yang digabungkan.
 
 ## Kesimpulan
 
-Anda kini memiliki potongan kode lengkap yang siap produksi untuk **mengekstrak teks dari gambar** menggunakan Aspose OCR, memungkinkan Anda **mengenali teks dari jpg**, dan menunjukkan cara **mengonversi jpg ke teks** hanya dengan beberapa baris C#. Langkah‑langkah utama—menginstansiasi engine, memuat gambar, menjalankan `Recognize()`, dan menangani hasil—semua telah dibahas, serta tip praktis untuk menjaga proses tetap lancar.
+Kami baru saja mendemonstrasikan cara praktis **mengekstrak teks dari gambar** menggunakan Aspose OCR, mengubah file hasil pindai multi‑halaman menjadi teks biasa yang dapat dicari. Dengan memanfaatkan `BatchProcessor` dan setup `OcrEngine` per halaman yang bersih, Anda dapat secara andal **mengonversi teks dokumen yang dipindai** sambil menjaga kode tetap sederhana dan mudah dipelihara.
 
-Dari sini Anda dapat mengeksplorasi:
+Silakan bereksperimen: coba bahasa yang berbeda, ubah output menjadi JSON, atau integrasikan logika ini ke dalam API web yang memproses unggahan secara real‑time. Pola intinya tetap sama—muat, kenali, akumulasi, dan simpan.
 
-- Menyalurkan output OCR ke indeks pencarian (misalnya, Elasticsearch).  
-- Menambahkan deteksi bahasa untuk secara otomatis memilih enum `Language` yang tepat.  
-- Mengintegrasikan kode ke dalam API ASP.NET Core sehingga layanan lain dapat meminta OCR sesuai permintaan.
-
-Cobalah, sesuaikan kualitas gambar, dan saksikan teks muncul di konsol Anda. Selamat coding!  
-
-![contoh mengekstrak teks dari gambar](/images/ocr-sample.png "Tangkapan layar menunjukkan output OCR – mengekstrak teks dari gambar")
+Masih ada pertanyaan tentang OCR, lisensi Aspose, atau menangani batch dokumen besar? Tinggalkan komentar di bawah atau lihat dokumentasi resmi Aspose untuk penjelasan lebih mendalam. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

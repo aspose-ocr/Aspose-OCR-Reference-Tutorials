@@ -1,27 +1,25 @@
 ---
 category: general
-date: 2026-04-26
+date: 2026-01-10
 description: Trích xuất văn bản từ hình ảnh bằng Aspose OCR trong C#. Tìm hiểu cách
-  nhận dạng văn bản từ jpg, chuyển đổi jpg thành văn bản và tải hình ảnh cho OCR trong
-  vài phút.
+  chuyển đổi văn bản tài liệu đã quét với xử lý hàng loạt và lưu kết quả.
 draft: false
 keywords:
 - extract text from image
-- recognize text from jpg
-- convert jpg to text
-- how to recognize text
-- load image for ocr
+- convert scanned document text
+- batch OCR processing
+- Aspose OCR
+- C# OCR tutorial
 language: vi
-og_description: Trích xuất văn bản từ hình ảnh bằng Aspose OCR. Hướng dẫn này chỉ
-  cách nhận dạng văn bản từ file jpg, chuyển đổi jpg sang văn bản và tải hình ảnh
-  để thực hiện OCR.
-og_title: Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về Aspose OCR
+og_description: Trích xuất văn bản từ hình ảnh bằng Aspose OCR trong C#. Hướng dẫn
+  này cho thấy cách chuyển đổi văn bản tài liệu đã quét bằng xử lý hàng loạt.
+og_title: Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR
 tags:
-- C#
 - OCR
+- C#
 - Aspose
 - Image Processing
-title: Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn toàn diện Aspose OCR
+title: Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về Aspose OCR
 url: /vi/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
 
@@ -29,143 +27,224 @@ url: /vi/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR
+# Trích xuất Văn bản từ Hình ảnh – Hướng dẫn đầy đủ Aspose OCR
 
-Bạn đã bao giờ cần **trích xuất văn bản từ hình ảnh** nhưng không chắc thư viện nào cho phép làm điều đó mà không phải cấu hình phức tạp? Bạn không phải là người duy nhất. Trong nhiều dự án, chúng ta nhận được một vài ảnh chụp màn hình JPG và bước tiếp theo là biến những pixel đó thành các chuỗi có thể tìm kiếm.  
+Bạn đã bao giờ cần **trích xuất văn bản từ hình ảnh** nhưng không biết bắt đầu từ đâu? Bạn không đơn độc; nhiều nhà phát triển gặp khó khăn khi làm việc với PDF đã quét, TIFF đa trang, hoặc biên lai chụp ảnh. Tin tốt là với Aspose OCR bạn có thể **chuyển đổi văn bản tài liệu đã quét** chỉ trong vài dòng C#.
 
-Trong hướng dẫn này, chúng ta sẽ thực hành một ví dụ thực tế cho thấy **cách nhận dạng văn bản** từ tệp JPG, **chuyển JPG thành văn bản**, và **tải ảnh để OCR** bằng API C# sạch sẽ của Aspose OCR. Khi hoàn thành, bạn sẽ có một chương trình sẵn sàng chạy và in văn bản đã trích xuất ra console.
+Trong tutorial này chúng ta sẽ đi qua một kịch bản thực tế: lấy một tệp TIFF đa trang, chạy OCR batch trên mỗi trang, và ghi một tệp văn bản duy nhất chứa nội dung của mọi trang. Khi hoàn thành, bạn sẽ có một ứng dụng console sẵn sàng chạy, hiểu tại sao mỗi bước quan trọng, và biết cách điều chỉnh quy trình cho các trường hợp đặc biệt như hình ảnh được bảo vệ bằng mật khẩu hoặc gói ngôn ngữ tùy chỉnh.
 
-## Bạn sẽ học được gì
+## Yêu cầu trước
 
-- Cách cài đặt và tham chiếu gói NuGet Aspose OCR.  
-- Trình tự chính xác các lời gọi cần thiết để **trích xuất văn bản từ hình ảnh**.  
-- Tại sao việc đặt engine ở chế độ evaluation lại quan trọng cho các demo nhanh.  
-- Những cạm bẫy thường gặp (ví dụ: định dạng ảnh không được hỗ trợ) và cách tránh chúng.  
-- Cách kiểm tra kết quả OCR có khớp với hình ảnh gốc hay không.
+- .NET 6.0 SDK hoặc phiên bản mới hơn (mã hoạt động với .NET Core và .NET Framework cũng được)  
+- Visual Studio 2022 (hoặc bất kỳ trình chỉnh sửa nào bạn thích)  
+- Tệp giấy phép Aspose OCR (hoặc bạn có thể dùng chế độ đánh giá miễn phí)  
+- Tệp hình ảnh đa trang (ví dụ, `multipage.tif`) đặt trong thư mục bạn có thể tham chiếu  
 
-Không yêu cầu kinh nghiệm trước về OCR—chỉ cần kiến thức cơ bản về C# và .NET 6 trở lên đã được cài đặt trên máy của bạn.
+Không cần thêm bất kỳ gói NuGet nào ngoài `Aspose.OCR`; chúng ta sẽ cài đặt nó ở bước đầu tiên.
 
-## Yêu cầu
+## Bước 1 – Cài đặt Aspose  OCR và Thiết lập Dự án
 
-| Yêu cầu | Lý do |
-|-------------|--------|
-| .NET 6 SDK (hoặc mới hơn) | Cung cấp môi trường chạy cho ứng dụng console C#. |
-| Visual Studio 2022 (hoặc VS Code) | Giúp việc chỉnh sửa và gỡ lỗi trở nên dễ dàng. |
-| Aspose.OCR NuGet package | Thư viện thực hiện công việc OCR. |
-| Một ảnh JPG mẫu (`sample1.jpg`) | Tệp sẽ được đưa vào engine. |
+Để bắt đầu, tạo một dự án console mới và thêm thư viện Aspose OCR.
 
-Nếu bạn đã có những thứ này, tuyệt vời—hãy bắt đầu ngay.
+```bash
+dotnet new console -n ImageTextExtractor
+cd ImageTextExtractor
+dotnet add package Aspose.OCR
+```
 
-## Bước 1 – Thiết lập Aspose OCR Engine để **Trích xuất văn bản từ hình ảnh**
+> **Mẹo chuyên nghiệp:** Nếu bạn có tệp giấy phép (`Aspose.OCR.lic`), sao chép nó vào thư mục gốc của dự án. Thư viện sẽ tự động tải nó lên khi chạy.
 
-Đầu tiên chúng ta cần một thể hiện của `OcrEngine`. Đối tượng này là trái tim của thư viện; nó chứa cấu hình và thực hiện các tác vụ nặng.
+Tại sao cần bước này? Cài đặt gói cho phép bạn truy cập vào `BatchProcessor`, `OcrEngine`, và các lớp tiện ích khác giúp trừu tượng hoá việc xử lý hình ảnh mức thấp. Nó cũng đảm bảo bạn đang sử dụng các thuật toán OCR mới nhất mà Aspose cung cấp.
+
+## Bước 2 – Tải Hình ảnh Đa Trang bằng BatchProcessor
+
+`BatchProcessor` được thiết kế riêng cho kịch bản này: lặp qua từng trang của một hình ảnh đa trang mà không cần bạn tự chia tệp.
 
 ```csharp
-using System;
 using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System.Text;
 
-class Program
+// Step 2: Initialize the batch processor with the path to your TIFF
+var batchProcessor = new BatchProcessor(@"YOUR_DIRECTORY\multipage.tif");
+
+// Verify that pages were loaded
+if (batchProcessor.Pages.Count == 0)
 {
-    static void Main()
+    Console.WriteLine("No pages found – double‑check the file path.");
+    return;
+}
+```
+
+`BatchProcessor` đọc tất cả các trang vào bộ nhớ, cung cấp chúng qua `batchProcessor.Pages`. Mỗi đối tượng trang biết số thứ tự của mình (`ocrPage.Number`) mà chúng ta sẽ dùng sau này để tạo tiêu đề rõ ràng.
+
+## Bước 3 – Chuẩn bị StringBuilder để Tổng hợp Kết quả
+
+Chúng ta muốn một tệp văn bản duy nhất chứa đầu ra OCR của mọi trang, được ngăn cách bằng tiêu đề. `StringBuilder` là cách hiệu quả nhất để nối chuỗi trong vòng lặp.
+
+```csharp
+// Step 3: Create a StringBuilder to collect OCR results
+var extractedText = new StringBuilder();
+```
+
+Tại sao lại dùng `StringBuilder`? Nối chuỗi bằng `+` trong vòng lặp sẽ tạo ra một chuỗi mới ở mỗi lần lặp, gây tốn bộ nhớ và làm giảm hiệu năng—đặc biệt với tài liệu lớn.
+
+## Bước 4 – Lặp Qua Mỗi Trang, Chạy OCR và Thêm Kết quả
+
+Bây giờ là phần cốt lõi của tutorial: lặp qua từng trang, nhận dạng văn bản, và lưu lại cùng một dấu hiệu trang.
+
+```csharp
+// Step 4: Process each page individually
+foreach (var ocrPage in batchProcessor.Pages)
+{
+    // Create a fresh OcrEngine for every page – this isolates settings
+    var ocrEngine = new OcrEngine
     {
-        // Step 1: Create an OCR engine instance
-        OcrEngine ocrEngine = new OcrEngine();
+        Image = ocrPage
+    };
 
-        // Enable evaluation mode – no license file needed for this demo
-        ocrEngine.SetEvaluationMode();
+    // Perform recognition
+    ocrEngine.Recognize();
 
-        // Choose the language (Latin works for most English/Japanese‑Romanized texts)
-        ocrEngine.Language = Language.Latin;
+    // Append a clear header and the recognized text
+    extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+    extractedText.AppendLine(ocrEngine.Text);
+}
 ```
 
-**Tại sao điều này quan trọng:**  
-Tạo engine rất nhẹ, nhưng nếu quên gọi `SetEvaluationMode()` sẽ gây ra ngoại lệ thời gian chạy trừ khi bạn đã mua giấy phép. Đặt ngôn ngữ giúp thu hẹp bộ ký tự, cải thiện độ chính xác và tăng tốc xử lý.
+**Tại sao lại tạo một `OcrEngine` mới cho mỗi trang?** Một số nhà phát triển tái sử dụng cùng một engine và thay đổi thuộc tính `Image`, nhưng điều này có thể giữ lại cài đặt ngôn ngữ hoặc kết quả trước, dẫn đến lỗi khó phát hiện. Tạo một engine mới đảm bảo môi trường sạch sẽ.
 
-## Bước 2 – **Tải ảnh để OCR** – **Nhận dạng văn bản từ JPG**
+### Xử lý các Trường hợp Cạnh thường gặp
 
-Bây giờ chúng ta chỉ định engine tới tệp muốn đọc. Trợ giúp `ImageStream.FromFile` trừu tượng hoá việc phải mở một `FileStream` thủ công.
+- **Trang trống:** Nếu một trang không chứa văn bản có thể nhận dạng, `ocrEngine.Text` sẽ là một chuỗi rỗng. Bạn có thể chèn một chỗ giữ chỗ như “(No text detected)”.
+- **Lựa chọn ngôn ngữ:** Mặc định Aspose OCR sử dụng tiếng Anh. Để xử lý tiếng Đức hoặc tiếng Pháp, đặt `ocrEngine.Language = Language.German;` trước khi gọi `Recognize()`.
+- **Mẹo hiệu năng:** Đối với các tệp TIFF rất lớn, bạn có thể bật `ocrEngine.UseParallelProcessing = true;` để tận dụng đa lõi CPU.
+
+## Bước 5 – Ghi Đầu ra Kết hợp vào Tệp Văn bản
+
+Cuối cùng, lưu chuỗi đã tổng hợp lên đĩa.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace YOUR_DIRECTORY with the actual folder path
-        ocrEngine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY\sample1.jpg");
+// Step 5: Save the result to a .txt file
+string outputPath = @"YOUR_DIRECTORY\multipage_result.txt";
+File.WriteAllText(outputPath, extractedText.ToString());
+
+Console.WriteLine($"OCR complete! Results saved to {outputPath}");
 ```
 
-**Mẹo trường hợp đặc biệt:**  
-Nếu ảnh của bạn ở định dạng PNG hoặc BMP, `FromFile` vẫn hoạt động, nhưng chất lượng OCR có thể khác nhau. Để có kết quả tốt nhất, hãy dùng JPG độ phân giải cao (300 dpi trở lên).  
+Tệp `multipage_result.txt` sẽ trông giống như sau:
 
-## Bước 3 – Thực hiện OCR và **Chuyển JPG thành Văn bản**
+```
+--- Page 1 ---
+This is the first page of the scanned document.
+It contains a title and some introductory text.
 
-Sau khi ảnh đã được tải, một lời gọi duy nhất tới `Recognize()` sẽ thực hiện phần còn lại. Phương thức trả về một `RecognitionResult` chứa chuỗi đã trích xuất và các điểm tin cậy.
+--- Page 2 ---
+Continuation of the report.
+Data tables and figures follow.
+```
+
+Bạn đã **trích xuất văn bản từ hình ảnh** và hiệu quả **chuyển đổi văn bản tài liệu đã quét** thành định dạng có thể tìm kiếm và chỉnh sửa.
+
+## Bonus – Tổng quan trực quan (Alt Text Hình ảnh)
+
+Dưới đây là một sơ đồ luồng đơn giản minh họa quy trình.  
+*Alt text:* “Sơ đồ cho thấy cách trích xuất văn bản từ hình ảnh bằng xử lý batch Aspose OCR trong C#”.
+
+![OCR Flow Diagram](placeholder-image-url.png)
+
+*(Nếu bạn đang xuất bản tutorial này trên một trang tĩnh, hãy thay thế placeholder bằng một file SVG hoặc PNG thực tế.)*
+
+## Frequently Asked Questions
+
+**Điều này có hoạt động với tệp PDF không?**  
+Có, Aspose OCR có thể đọc các trang PDF dưới dạng hình ảnh. Bạn chỉ cần chuyển PDF sang hình ảnh trước, hoặc sử dụng `PdfDocument` từ `Aspose.PDF` và truyền mỗi trang đã raster hoá cho `OcrEngine`.
+
+**Nếu TIFF của tôi được bảo vệ bằng mật khẩu thì sao?**  
+`BatchProcessor` không xử lý mã hoá trực tiếp. Hãy giải mã tệp bằng một thư viện như `Aspose.Imaging` trước khi đưa nó vào pipeline OCR.
+
+**Tôi có thể xuất ra JSON thay vì văn bản thuần không?**  
+Chắc chắn. Thay thế logic `StringBuilder` bằng một bộ serializer JSON (ví dụ, `System.Text.Json`) và lưu văn bản của mỗi trang dưới khóa `pageNumber`.
+
+## Full Working Example
+
+Dưới đây là chương trình hoàn chỉnh bạn có thể sao chép‑dán vào `Program.cs`. Nó bao gồm tất cả các chỉ thị using, xử lý lỗi, và chú thích.
 
 ```csharp
-        // Step 3: Run the OCR engine
-        RecognitionResult recognitionResult = ocrEngine.Recognize();
+using Aspose.OCR;
+using Aspose.OCR.Batch;
+using System;
+using System.IO;
+using System.Text;
 
-        // Step 4: Display the extracted text
-        Console.WriteLine("=== OCR Output ===");
-        Console.WriteLine(recognitionResult.Text);
+namespace ImageTextExtractor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Adjust these paths to match your environment
+            string inputImagePath = @"YOUR_DIRECTORY\multipage.tif";
+            string outputTextPath = @"YOUR_DIRECTORY\multipage_result.txt";
+
+            // 1️⃣ Load the multi‑page image
+            var batchProcessor = new BatchProcessor(inputImagePath);
+            if (batchProcessor.Pages.Count == 0)
+            {
+                Console.WriteLine("No pages detected – verify the file path.");
+                return;
+            }
+
+            // 2️⃣ Prepare a StringBuilder for the final output
+            var extractedText = new StringBuilder();
+
+            // 3️⃣ Process each page
+            foreach (var ocrPage in batchProcessor.Pages)
+            {
+                var ocrEngine = new OcrEngine
+                {
+                    Image = ocrPage,
+                    // Uncomment to change language:
+                    // Language = Language.German,
+                    // UseParallelProcessing = true
+                };
+
+                // Run OCR
+                ocrEngine.Recognize();
+
+                // Append header and text
+                extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+                // Guard against empty results
+                string pageText = string.IsNullOrWhiteSpace(ocrEngine.Text)
+                    ? "(No text detected on this page)"
+                    : ocrEngine.Text;
+                extractedText.AppendLine(pageText);
+            }
+
+            // 4️⃣ Write to file
+            File.WriteAllText(outputTextPath, extractedText.ToString());
+
+            Console.WriteLine($"✅ Extraction complete. File saved at: {outputTextPath}");
+        }
     }
 }
 ```
 
-**Điều gì đang diễn ra bên trong?**  
-`Recognize()` thực hiện một loạt các bước tiền xử lý ảnh—nhị phân hoá, hiệu chỉnh nghiêng, phân đoạn—trước khi đưa dữ liệu vào mạng nơ-ron đã được huấn luyện trên các ký tự Latin. Thuộc tính `Text` trả về đã được mã hoá Unicode, vì vậy bạn có thể ghi nó vào tệp, cơ sở dữ liệu, hoặc truyền cho dịch vụ khác.
+Chạy chương trình với:
 
-## Kết quả mong đợi
-
-Nếu `sample1.jpg` chứa cụm từ “Hello World”, console sẽ hiển thị:
-
-```
-=== OCR Output ===
-Hello World
+```bash
+dotnet run
 ```
 
-Nếu ảnh bị mờ, bạn có thể thấy các ký tự thừa hoặc độ tin cậy thấp hơn. Trong trường hợp đó, hãy cân nhắc tăng DPI của ảnh nguồn hoặc áp dụng bộ lọc làm nét trước khi tải.
+Bạn sẽ thấy thông báo console xác nhận thành công, và tệp đầu ra sẽ chứa các kết quả OCR đã được ghép lại.
 
-## Mẹo chuyên nghiệp & Những cạm bẫy thường gặp
+## Conclusion
 
-- **Mẹo chuyên nghiệp:** Bao quanh lời gọi OCR bằng khối `try…catch` để xử lý linh hoạt các tệp hỏng.  
-- **Cạm bẫy:** Quên đặt ngôn ngữ có thể khiến engine mặc định một bộ ký tự chung, dẫn đến nhận dạng sai các ký tự có dấu.  
-- **Mẹo hiệu năng:** Tái sử dụng cùng một thể hiện `OcrEngine` cho nhiều ảnh; tạo engine mới mỗi lần sẽ gây tốn tài nguyên.  
-- **Nếu tôi cần xử lý PDF thì sao?** Aspose OCR có thể chấp nhận các trang PDF dưới dạng ảnh qua `ImageStream.FromPdf`, nhưng bạn cũng cần thư viện Aspose.PDF.
+Chúng ta vừa trình bày một cách thực tế để **trích xuất văn bản từ hình ảnh** bằng Aspose OCR, biến bất kỳ tệp quét đa trang nào thành văn bản thuần, có thể tìm kiếm. Bằng cách tận dụng `BatchProcessor` và cấu hình `OcrEngine` sạch sẽ cho mỗi trang, bạn có thể đáng tin cậy **chuyển đổi văn bản tài liệu đã quét** trong khi giữ cho mã nguồn đơn giản và dễ bảo trì.
 
-## Bước 4 – Xác minh việc trích xuất và các bước tiếp theo
+Hãy thoải mái thử nghiệm: thay đổi ngôn ngữ, chuyển sang đầu ra JSON, hoặc tích hợp logic này vào một API web xử lý tải lên ngay lập tức. Mẫu cốt lõi vẫn giữ nguyên—tải, nhận dạng, tổng hợp, và lưu trữ.
 
-Sau khi in ra kết quả OCR, bạn có thể muốn so sánh nó với hình ảnh gốc một cách thủ công hoặc qua một checksum đơn giản. Dưới đây là cách nhanh chóng ghi kết quả vào tệp văn bản để xem lại sau:
-
-```csharp
-        // Optional: Save the OCR result to a .txt file
-        System.IO.File.WriteAllText(@"YOUR_DIRECTORY\sample1_ocr.txt", recognitionResult.Text);
-        Console.WriteLine("Result saved to sample1_ocr.txt");
-```
-
-Bây giờ bạn đã có một quy trình có thể tái sử dụng để **trích xuất văn bản từ hình ảnh**, **nhận dạng văn bản từ jpg**, và **chuyển jpg thành văn bản** một cách tự động.
-
-## Câu hỏi thường gặp
-
-**Q: Điều này có hoạt động trên Linux không?**  
-A: Hoàn toàn có. Aspose OCR là đa nền tảng; chỉ cần cài đặt runtime .NET cho Linux và mã nguồn vẫn chạy không thay đổi.
-
-**Q: Tôi có thể nhận dạng các script không phải Latin không?**  
-A: Có—Aspose OCR hỗ trợ Cyrillic, Arabic và một số bảng chữ cái châu Á. Chuyển `ocrEngine.Language` sang giá trị enum phù hợp.
-
-**Q: Nếu tôi cần xử lý hàng trăm tệp thì sao?**  
-A: Đặt logic vào vòng lặp `foreach` và cân nhắc song song hoá với `Parallel.ForEach` trong khi tái sử dụng thể hiện engine.
-
-## Kết luận
-
-Bạn đã có một đoạn mã hoàn chỉnh, sẵn sàng cho môi trường production để **trích xuất văn bản từ hình ảnh** bằng Aspose OCR, cho phép **nhận dạng văn bản từ jpg**, và cho thấy cách **chuyển jpg thành văn bản** chỉ với vài dòng C#. Các bước chính—khởi tạo engine, tải ảnh, chạy `Recognize()`, và xử lý kết quả—đều đã được trình bày, cùng với những mẹo thực tiễn giúp quá trình diễn ra suôn sẻ.
-
-Từ đây bạn có thể khám phá:
-
-- Đưa đầu ra OCR vào chỉ mục tìm kiếm (ví dụ: Elasticsearch).  
-- Thêm phát hiện ngôn ngữ để tự động chọn enum `Language` phù hợp.  
-- Tích hợp mã vào một API ASP.NET Core để các dịch vụ khác có thể yêu cầu OCR theo yêu cầu.
-
-Hãy thử, điều chỉnh chất lượng ảnh, và xem văn bản xuất hiện trên console của bạn. Chúc lập trình vui vẻ!  
-
-![extract text from image example](/images/ocr-sample.png "Screenshot showing OCR output – extract text from image")
+Có thêm câu hỏi về OCR, giấy phép Aspose, hoặc xử lý các lô tài liệu khổng lồ? Hãy để lại bình luận bên dưới hoặc tham khảo tài liệu chính thức của Aspose để tìm hiểu sâu hơn. Chúc lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

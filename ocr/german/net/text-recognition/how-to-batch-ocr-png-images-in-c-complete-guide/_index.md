@@ -1,26 +1,25 @@
 ---
 category: general
-date: 2026-04-26
-description: Wie man PNG‑Bilder schnell stapelweise per OCR verarbeitet. Erfahren
-  Sie, wie Sie Text aus PNG extrahieren, Bilder in Text umwandeln, erkannten Text
-  schreiben und ein PNG‑Verzeichnis mit Aspose OCR lesen.
+date: 2026-03-17
+description: Wie man PNG‑Bilder in C# schnell stapelweise OCR verarbeitet. Erfahren
+  Sie, wie Sie Text aus PNG‑Dateien extrahieren, PNG in Text konvertieren und Bilder
+  aus einem Verzeichnis mit einem einfachen Skript lesen.
 draft: false
 keywords:
 - how to batch OCR
-- extract text from png
-- convert images to text
-- write recognized text
-- read png directory
+- extract text png
+- convert png to text
+- read images from directory
 language: de
-og_description: Wie man PNG‑Bilder in C# stapelweise mit Aspose OCR verarbeitet. Dieser
-  Leitfaden zeigt, wie man Text aus PNG extrahiert, Bilder in Text umwandelt und den
-  erkannten Text effizient schreibt.
-og_title: Wie man PNG‑Bilder stapelweise mit OCR in C# verarbeitet – Schritt für Schritt
+og_description: Wie man PNG‑Bilder stapelweise mit OCR in C# verarbeitet – Schritt‑für‑Schritt‑Code.
+  Text aus PNG‑Dateien extrahieren, PNG in Text konvertieren und Bilder mühelos aus
+  einem Verzeichnis lesen.
+og_title: Wie man PNG‑Bilder stapelweise OCR in C# durchführt – Vollständiger Leitfaden
 tags:
 - OCR
 - C#
-- Aspose
-title: Wie man PNG‑Bilder stapelweise in C# OCRt – Vollständige Anleitung
+- Image Processing
+title: Wie man PNG‑Bilder stapelweise OCR in C# durchführt – Vollständiger Leitfaden
 url: /de/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
 
@@ -28,201 +27,167 @@ url: /de/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man PNG-Bilder in C# stapelweise OCR durchführt – Komplettanleitung
+# Wie man PNG-Bilder in C# stapelweise OCR durchführt – Vollständige Anleitung
 
-Haben Sie sich jemals gefragt, **wie man stapelweise OCR** für einen ganzen Ordner von PNG‑Dateien durchführt, ohne für jedes Bild ein separates Programm zu schreiben? Sie sind nicht der Einzige, der Dutzende von Screenshots, gescannte Quittungen oder Grafiken jongliert, die in durchsuchbaren Text umgewandelt werden müssen. In diesem Tutorial führen wir Sie durch eine praxisnahe Lösung, die **Text aus PNG extrahiert**, **Bilder in Text umwandelt** und **erkannten Text** in einzelne Dateien schreibt – und dabei das PNG‑Verzeichnis automatisch ausliest.
+Haben Sie sich jemals gefragt, **wie man stapelweise OCR** auf einen Ordner voller Screenshots anwendet, ohne jede Datei manuell zu öffnen? Sie sind nicht der Einzige – Entwickler fragen ständig, wie man große PNG‑Sammlungen stapelweise OCR durchführt, besonders wenn das Ziel ist, Text‑PNG‑Dateien für nachgelagerte Analysen zu extrahieren.  
 
-Am Ende dieses Leitfadens haben Sie eine sofort einsatzbereite C#‑Konsolen‑App, die beliebig viele Bilder in einem Durchgang verarbeitet. Keine zusätzlichen Skripte, kein manuelles Kopieren‑Einfügen – nur reiner Code, der die schwere Arbeit für Sie übernimmt.
+In diesem Tutorial führen wir ein sofort einsatzbereites C#‑Beispiel durch, das **Text‑PNG**‑Dateien extrahiert, **PNG in Text** konvertiert und Ihnen die beste Methode zeigt, **Bilder aus Verzeichnis zu lesen**. Am Ende haben Sie ein einzelnes Skript, das neben jedem Bild eine `.txt`‑Datei ablegt und Ihnen Stunden manuelles Kopieren‑Einfügen spart.
 
-## Was Sie benötigen
+## Was Sie erreichen werden
 
-- **.NET 6.0** oder höher (der Code funktioniert auch auf .NET Framework).  
-- **Aspose.OCR for .NET** NuGet‑Paket (die kostenlose Testversion funktioniert zum Testen).  
-- Ein Ordner mit einer Handvoll *.png*-Dateien, die Sie OCR‑verarbeiten möchten.  
-- Visual Studio 2022 oder jede andere C#‑IDE Ihrer Wahl.
+- Einen OCR‑Engine einmal initialisieren und für den gesamten Batch wiederverwenden.  
+- Jedes `*.png` in einem angegebenen Ordner scannen, ohne selbst eine Schleife zu schreiben.  
+- Jeden OCR‑Ergebnis in eine eigene Textdatei schreiben und dabei den ursprünglichen Dateinamen beibehalten.  
+- Häufige Randfälle wie leere Ordner oder Nicht‑Bild‑Dateien elegant behandeln.
 
-Wenn Sie das haben, können wir direkt mit der Implementierung beginnen.
+### Voraussetzungen
 
-## Schritt 1 – Bereiten Sie Ihre Eingabe‑ und Ausgabeverzeichnisse vor *(PNG‑Verzeichnis lesen)*
+- .NET 6.0 oder höher (der Code funktioniert auch auf .NET Core und .NET Framework).  
+- Eine OCR‑Bibliothek, die die Typen `OcrEngine`, `ImageStream` und `OcrResult` bereitstellt (z. B. das fiktive **FastOCR** SDK, das in den Snippets verwendet wird).  
+- Grundkenntnisse in C# – keine fortgeschrittenen Muster erforderlich.
 
-Das Erste, was wir tun, ist das Programm auf den Ordner zu verweisen, der die Bilder enthält, und festzulegen, wo die resultierenden *.txt*-Dateien abgelegt werden sollen. Die Verwendung von `Directory.GetFiles` liefert uns ein sauberes Enumerable aller PNG‑Dateien im Verzeichnis.
+---
+
+## Wie man PNG-Bilder stapelweise OCR durchführt – Überblick
+
+Unten finden Sie das **vollständige, ausführbare Programm**. Sie können es gerne in ein neues Konsolenprojekt kopieren, die Platzhalter‑Pfade ersetzen und **F5** drücken.
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using System.IO;
-
-// Define where the source PNGs are and where the OCR results will be saved
-string inputFolder = @"C:\MyProject\BatchImages";   // <-- change to your path
-string outputFolder = @"C:\MyProject\BatchOutput";
-
-// Ensure the output folder exists; create it if it doesn’t
-if (!Directory.Exists(outputFolder))
-{
-    Directory.CreateDirectory(outputFolder);
-}
-
-// Grab every *.png* file – this is the “read png directory” part
-IEnumerable<string> inputImageFiles = Directory.GetFiles(inputFolder, "*.png");
-```
-
-**Warum das wichtig ist:**  
-- Die Verwendung eines Wildcards (`*.png`) stellt sicher, dass nur Bilddateien verarbeitet werden und andere Dokumente ignoriert werden.  
-- Das Erstellen des Ausgabeverzeichnisses zur Laufzeit verhindert später eine `DirectoryNotFoundException`.
-
-> **Pro‑Tipp:** Wenn Sie weitere Formate unterstützen müssen (JPEG, BMP), erweitern Sie einfach das Suchmuster oder rufen Sie `Directory.EnumerateFiles` mit mehreren Erweiterungen auf.
-
-## Schritt 2 – Initialisieren Sie die OCR‑Engine *(Bilder in Text umwandeln)*
-
-Aspose.OCR liefert zwei Engine‑Typen: eine CPU‑basierte `OcrEngine` und eine GPU‑beschleunigte `GpuOcrEngine`. Für die meisten Stapelaufgaben ist die CPU‑Engine völlig ausreichend, aber Sie können den Klassennamen austauschen, wenn Sie über eine geeignete GPU verfügen.
-
-```csharp
-using Aspose.OCR;
-
-// Initialise the OCR engine – CPU version
-OcrEngine ocrEngine = new OcrEngine();   // Use new GpuOcrEngine() for GPU acceleration
-
-// Set the language to Latin (covers English, French, Spanish, etc.)
-ocrEngine.Language = Language.Latin;
-```
-
-**Warum das wichtig ist:**  
-- Die Angabe der Sprache verbessert die Genauigkeit erheblich, da die Engine weiß, welchen Zeichensatz sie erwarten soll.  
-- Der Wechsel zu `GpuOcrEngine` ist eine einzeilige Änderung, falls Sie bei großen Stapeln Leistungsengpässe feststellen.
-
-## Schritt 3 – Erstellen Sie einen Batch‑Recognizer
-
-Aspose stellt einen praktischen `BatchRecognizer` bereit, der ein Enumerable von Dateipfaden akzeptiert und die Ergebnisse einzeln zurückliefert. Dadurch wird vermieden, dass alle Bilder gleichzeitig in den Speicher geladen werden – ein entscheidendes Detail für große Ordner.
-
-```csharp
-// Build a batch recogniser that will use the previously configured engine
-BatchRecognizer batchRecognizer = new BatchRecognizer(ocrEngine);
-```
-
-**Warum das wichtig ist:**  
-- Der Batch‑Recognizer kapselt die Schleifenlogik, sodass wir uns darauf konzentrieren können, was mit jedem Ergebnis geschehen soll, anstatt wie man sicher iteriert.
-
-## Schritt 4 – OCR auf allen Bildern ausführen und die Ausgabe schreiben *(Erkannten Text schreiben)*
-
-Jetzt führen wir das OCR tatsächlich aus. Die Methode `Recognize` gibt ein `IEnumerable<RecognitionResult>` zurück, wobei jedes Ergebnis den extrahierten Text und weitere Metadaten enthält.
-
-```csharp
-// Perform OCR on the entire collection of PNG files
-IEnumerable<RecognitionResult> recognitionResults = batchRecognizer.Recognize(inputImageFiles);
-
-// Write each recognised text to a separate *.txt* file
-int fileIndex = 0;
-foreach (RecognitionResult result in recognitionResults)
-{
-    // Build a unique output filename – out_0.txt, out_1.txt, …
-    string outputPath = Path.Combine(outputFolder, $"out_{fileIndex++}.txt");
-
-    // Save the plain text to disk
-    File.WriteAllText(outputPath, result.Text);
-}
-```
-
-**Warum das wichtig ist:**  
-- Die Verwendung von `File.WriteAllText` stellt sicher, dass der Text standardmäßig mit UTF‑8‑Kodierung gespeichert wird, wodurch Sonderzeichen erhalten bleiben.  
-- Die inkrementelle Benennung (`out_0.txt`, `out_1.txt`) entspricht der Verarbeitungsreihenfolge, was beim Debuggen hilfreich ist.
-
-> **Randfall:** Wenn ein Bild nicht OCR‑verarbeitet werden kann (z. B. beschädigte Datei), ist `RecognitionResult.Text` leer. Sie können innerhalb der Schleife eine einfache Prüfung hinzufügen, um Fehler zu protokollieren:
-
-```csharp
-if (string.IsNullOrWhiteSpace(result.Text))
-{
-    Console.WriteLine($"Warning: No text extracted from {inputImageFiles.ElementAt(fileIndex - 1)}");
-}
-```
-
-## Schritt 5 – Alles zusammenführen – Vollständiges funktionierendes Beispiel
-
-Unten finden Sie das vollständige Programm, das Sie in ein neues Konsolenprojekt kopieren‑und‑einfügen können. Es enthält die `using`‑Direktiven, Ordner‑Validierung und eine kleine Konsolen‑UI, damit Sie wissen, wann der Stapel abgeschlossen ist.
-
-```csharp
-// ---------------------------------------------------------------
-// Batch OCR for PNG files using Aspose.OCR
-// ---------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.IO;
-using Aspose.OCR;
+using System.Linq;
+using FastOCR;               // <-- Replace with your actual OCR namespace
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Define input & output directories
-        string inputFolder = @"C:\MyProject\BatchImages";   // <-- adjust
-        string outputFolder = @"C:\MyProject\BatchOutput";
+        // -------------------------------------------------
+        // Step 1: Initialize the OCR engine (language = English)
+        // -------------------------------------------------
+        var ocrEngine = new OcrEngine();
+        ocrEngine.Config.Language = Language.English;
 
-        if (!Directory.Exists(inputFolder))
+        // -------------------------------------------------
+        // Step 2: Locate every PNG file in the input folder
+        // -------------------------------------------------
+        string inputFolder = @"YOUR_DIRECTORY\images";
+        string[] imagePaths = Directory.GetFiles(inputFolder, "*.png");
+
+        if (imagePaths.Length == 0)
         {
-            Console.WriteLine($"Error: Input folder does not exist -> {inputFolder}");
+            Console.WriteLine("No PNG files found – nothing to process.");
             return;
         }
 
-        if (!Directory.Exists(outputFolder))
-            Directory.CreateDirectory(outputFolder);
+        // -------------------------------------------------
+        // Step 3: Convert file paths to ImageStream objects
+        // -------------------------------------------------
+        var imageStreams = imagePaths
+            .Select(path => ImageStream.FromFile(path))
+            .ToList();
 
-        // 2️⃣ Gather all PNG files
-        IEnumerable<string> inputImageFiles = Directory.GetFiles(inputFolder, "*.png");
-        Console.WriteLine($"Found {inputImageFiles?.Count() ?? 0} PNG files to process.");
+        // -------------------------------------------------
+        // Step 4: Recognize text in the entire batch
+        // -------------------------------------------------
+        IReadOnlyList<OcrResult> ocrResults = ocrEngine.RecognizeBatch(imageStreams);
 
-        // 3️⃣ Initialise OCR engine (CPU) and set language
-        OcrEngine ocrEngine = new OcrEngine();   // Swap with GpuOcrEngine() if needed
-        ocrEngine.Language = Language.Latin;
+        // -------------------------------------------------
+        // Step 5: Write each result to a .txt file next to the image
+        // -------------------------------------------------
+        string outputFolder = @"YOUR_DIRECTORY\output";
+        Directory.CreateDirectory(outputFolder); // ensures the folder exists
 
-        // 4️⃣ Create batch recogniser
-        BatchRecognizer batchRecognizer = new BatchRecognizer(ocrEngine);
-
-        // 5️⃣ Run OCR and write results
-        IEnumerable<RecognitionResult> results = batchRecognizer.Recognize(inputImageFiles);
-        int index = 0;
-        foreach (RecognitionResult result in results)
+        for (int i = 0; i < ocrResults.Count; i++)
         {
-            string outPath = Path.Combine(outputFolder, $"out_{index++}.txt");
-            File.WriteAllText(outPath, result.Text);
+            string originalFileName = Path.GetFileNameWithoutExtension(imagePaths[i]);
+            string outputPath = Path.Combine(outputFolder, $"{originalFileName}.txt");
+            File.WriteAllText(outputPath, ocrResults[i].Text);
+            Console.WriteLine($"✅ {originalFileName}.txt created");
         }
 
-        Console.WriteLine($"✅ OCR complete! Text files saved to {outputFolder}");
+        Console.WriteLine("All done! Check the output folder for your text files.");
     }
 }
 ```
 
-**Erwartete Ausgabe:**  
-Beim Ausführen des Programms wird etwa Folgendes ausgegeben:
+> **Erwartete Ausgabe:** Für jedes `image01.png` finden Sie eine `image01.txt`‑Datei, die die erkannten Zeichen enthält. Die Konsole listet jede Datei auf, sobald sie geschrieben wird.
 
+![Diagramm zum stapelweisen OCR](how-to-batch-ocr-diagram.png "Diagramm, das das stapelweise OCR von PNG‑Bildern mit C# veranschaulicht")
+
+---
+
+## Schritt‑für‑Schritt‑Erklärung
+
+### 1. OCR‑Engine initialisieren – das Herz des Prozesses  
+
+Die Zeile `var ocrEngine = new OcrEngine();` erstellt eine einzelne Engine‑Instanz, die für den gesamten Batch wiederverwendet wird. Das Wiederverwenden der Engine ist **entscheidend**, weil die meisten OCR‑Bibliotheken beim Erzeugen schwere Ressourcen (wie Sprachmodelle) allokieren. Einmalige Initialisierung verbessert die Leistung erheblich – besonders wenn Sie Dutzende oder Hunderte von PNGs haben.
+
+> **Pro‑Tipp:** Wenn Sie eine andere Sprache als Englisch benötigen, setzen Sie `ocrEngine.Config.Language = Language.Spanish;` (oder ein beliebiges unterstütztes Enum).
+
+### 2. Bilder aus Verzeichnis lesen – jedes PNG finden  
+
+`Directory.GetFiles(@"YOUR_DIRECTORY\images", "*.png")` tut genau das, was das sekundäre Schlüsselwort *read images from directory* verspricht. Es gibt ein Array von absoluten Pfaden zurück, das wir später an die OCR‑Engine übergeben.  
+
+> **Warum nicht `SearchOption.AllDirectories` verwenden?** Wenn Ihre Bilder verschachtelt sind, können Sie zu `GetFiles(path, "*.png", SearchOption.AllDirectories)` wechseln. Denken Sie jedoch daran, dass tiefere Scans unerwünschte Dateien einbeziehen können, also filtern Sie entsprechend.
+
+### 3. Dateipfade in ImageStream‑Objekte konvertieren  
+
+Die meisten OCR‑SDKs erwarten einen Stream statt eines rohen Pfads. Der LINQ‑Ausdruck `Select(path => ImageStream.FromFile(path)).ToList()` erstellt eine **Liste von Streams**, die der Batch‑Erkenner in einem Aufruf verarbeiten kann. Dieser Schritt stellt außerdem sicher, dass Dateihandles nur einmal geöffnet werden, wodurch der I/O‑Overhead reduziert wird.
+
+> **Randfall:** Wenn eine Datei beschädigt ist, kann `ImageStream.FromFile` eine Ausnahme werfen. Wickeln Sie die Konvertierung in ein `try/catch`, falls Sie Resilienz benötigen.
+
+### 4. Text im gesamten Batch erkennen  
+
+`ocrEngine.RecognizeBatch(imageStreams)` ist der optimale Ansatz für *how to batch OCR*. Anstatt über jedes Bild zu iterieren und eine Einzelbild‑Methode aufzurufen, übergeben wir die gesamte Sammlung an die Engine. Intern kann die Bibliothek die Arbeit parallelisieren, was Ihnen auf Mehrkern‑Maschinen einen Geschwindigkeitsschub gibt.
+
+> **Tipp:** Wenn Ihre OCR‑Bibliothek keine Batch‑Methode bereitstellt, können Sie dennoch eine ähnliche Leistung erzielen, indem Sie `Parallel.ForEach` um den Einzelbild‑`Recognize`‑Aufruf herum verwenden.
+
+### 5. Jeden OCR‑Ergebnis schreiben – PNG in Text konvertieren  
+
+Die abschließende `for`‑Schleife schreibt `ocrResults[i].Text` in eine `.txt`‑Datei, deren Name das ursprüngliche PNG spiegelt. Das entspricht genau dem sekundären Schlüsselwort *convert PNG to text*. Der Aufruf `Path.Combine` stellt sicher, dass das Ausgabeverzeichnis existiert und verhindert Pfad‑Traversal‑Fehler.
+
+> **Häufiges Problem:** Wenn das Ausgabeverzeichnis nicht vorher erstellt wird, führt das zu einer `DirectoryNotFoundException`. Die Zeile `Directory.CreateDirectory(outputFolder);` löst das proaktiv.
+
+---
+
+## Umgang mit realen Variationen
+
+| Situation | Was zu ändern ist | Warum |
+|-----------|-------------------|-------|
+| **Leerer Eingabeordner** | Behalten Sie die frühe `if (imagePaths.Length == 0)`‑Abfrage bei | Verhindert einen unnötigen OCR‑Aufruf und gibt eine freundliche Meldung aus |
+| **Gemischte Dateitypen** | Verwenden Sie `Directory.EnumerateFiles(..., "*.*", SearchOption.TopDirectoryOnly).Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase))` | Stellt sicher, dass nur PNGs verarbeitet werden, was *extract text png* ohne Fehler erfüllt |
+| **Große Bilder ( > 5 MB )** | Skalieren Sie vor dem OCR‑Einspeisen herunter: `ImageStream.FromFile(path).Resize(1920, 1080)` (falls die API dies unterstützt) | Reduziert den Speicherbedarf und verbessert häufig die Erkennungsgenauigkeit |
+| **Andere OCR‑Sprache** | Setzen Sie `ocrEngine.Config.Language = Language.French;` | Passt die Engine an die Sprache der Quellbilder an |
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+**F: Funktioniert das mit JPEG‑ oder TIFF‑Dateien?**  
+A: Die Kernlogik bleibt gleich; ändern Sie einfach das Suchmuster zu `"*.jpg"` oder `"*.tif"` und stellen Sie sicher, dass die OCR‑Bibliothek diese Formate dekodieren kann.
+
+**F: Wie kann ich Tausende von Bildern verarbeiten, ohne dass der Speicher ausgeht?**  
+A: Ersetzen Sie den Batch‑Aufruf durch einen Streaming‑Ansatz – verarbeiten Sie beispielsweise jeweils 50 Bilder und geben Sie die Streams frei, bevor Sie den nächsten Block laden.
+
+**F: Ich benötige den OCR‑Vertrauenswert. Wo finde ich ihn?**  
+A: Die meisten `OcrResult`‑Objekte stellen eine `Confidence`‑Eigenschaft bereit. Sie können den Schreib‑Schritt erweitern:
+
+```csharp
+var result = ocrResults[i];
+string content = $"Confidence: {result.Confidence:P2}\n{result.Text}";
+File.WriteAllText(outputPath, content);
 ```
-Found 12 PNG files to process.
-✅ OCR complete! Text files saved to C:\MyProject\BatchOutput
-```
 
-Und Sie sehen `out_0.txt` … `out_11.txt` im Ausgabeverzeichnis, wobei jede Datei die reine Textversion des jeweiligen Bildes enthält.
+---
 
-## Häufige Fragen & Tipps
+## Abschluss
 
-| Frage | Antwort |
-|----------|--------|
-| *Kann ich auch Unterordner OCR‑verarbeiten?* | Ja – ersetzen Sie `Directory.GetFiles` durch `Directory.EnumerateFiles(inputFolder, "*.png", SearchOption.AllDirectories)`. |
-| *Was, wenn ich eine andere Sprache benötige?* | Setzen Sie `ocrEngine.Language = Language.Spanish;` (oder ein beliebiges unterstütztes Enum). |
-| *Wie gehe ich mit riesigen Stapeln (tausende Dateien) um?* | Erwägen Sie die Verarbeitung in Chunks oder die Verwendung von `Parallel.ForEach` mit einer gedrosselten Parallelitätsgrad, um Speicherüberlastungen zu vermeiden. |
-| *Ist die Ausgabe immer UTF‑8?* | `File.WriteAllText` verwendet standardmäßig UTF‑8 ohne BOM, was für die meisten latinbasierten Sprachen funktioniert. Für asiatische Schriften müssen Sie ggf. `Encoding.UTF8` explizit setzen. |
-| *Kann ich Vertrauenswerte erhalten?* | `RecognitionResult` stellt `Confidence` bereit – Sie können diesen zusammen mit dem Text protokollieren, um die Qualität zu kontrollieren. |
+Wir haben gerade **wie man stapelweise OCR** auf PNG‑Bilder in C# von Anfang bis Ende behandelt. Durch das Initialisieren einer einzelnen Engine, das Lesen von Bildern aus dem Verzeichnis, das Konvertieren in Streams, das Erkennen des gesamten Batches und schließlich das Schreiben jedes Ergebnisses in eine Textdatei haben Sie nun ein solides, produktionsreifes Muster für die Aufgaben **extract text PNG**, **convert PNG to text** und **read images from directory**.
 
-## Visuelle Übersicht *(Wie man stapelweise OCR durchführt – Diagramm)*
+Was kommt als Nächstes? Versuchen Sie, den OCR‑Anbieter zu wechseln, fügen Sie mehr‑threaded Nachverarbeitung hinzu (z. B. Rechtschreibprüfung) oder speisen Sie die `.txt`‑Dateien in einen Suchindex ein. Der Himmel ist die Grenze, sobald Sie den Batch‑Workflow gemeistert haben.
 
-![Wie der Batch‑OCR‑Workflow aussieht: Eingabeordner → OCR‑Engine → Batch‑Recognizer → Ausgabedateien](https://example.com/diagram-how-to-batch-ocr.png "Wie man stapelweise OCR")
-
-*Der Alt‑Text enthält das Haupt‑Keyword und erfüllt die SEO‑Bildanforderungen.*
-
-## Fazit
-
-Wir haben gerade **wie man stapelweise OCR** für ein Verzeichnis von PNG‑Dateien mit Aspose.OCR durchführt, vom Auslesen des PNG‑Verzeichnisses bis zum Schreiben jeder erkannten Textdatei, behandelt. Die Lösung ist vollständig eigenständig, funktioniert auf jeder modernen .NET‑Runtime und kann für GPU‑Beschleunigung, Mehrsprachunterstützung oder Parallelverarbeitung erweitert werden.
-
-Bereit für den nächsten Schritt? Versuchen Sie, `Language.Latin` durch eine andere Sprache zu ersetzen, oder integrieren Sie die Ausgabe in einen Suchindex, damit Ihre Dokumente sofort durchsuchbar werden. Der Himmel ist die Grenze, sobald Sie stapelweise OCR gemeistert haben.
-
-Viel Spaß beim Coden, und lassen Sie mich in den Kommentaren wissen, falls Sie auf Probleme stoßen!
+Haben Sie eine Variante, die Sie teilen möchten? Hinterlassen Sie einen Kommentar und happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

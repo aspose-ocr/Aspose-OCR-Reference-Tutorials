@@ -1,22 +1,20 @@
 ---
 category: general
-date: 2026-04-26
-description: 如何快速批次 OCR PNG 圖像。學習從 PNG 提取文字、將圖像轉換為文字、寫入識別文字，以及使用 Aspose OCR 讀取 PNG
-  目錄。
+date: 2026-03-17
+description: 如何在 C# 中快速批次 OCR PNG 圖像。學習提取 PNG 檔案中的文字、將 PNG 轉換為文字，並使用簡單腳本從資料夾讀取圖像。
 draft: false
 keywords:
 - how to batch OCR
-- extract text from png
-- convert images to text
-- write recognized text
-- read png directory
+- extract text png
+- convert png to text
+- read images from directory
 language: zh-hant
-og_description: 如何在 C# 中使用 Aspose OCR 批量 OCR PNG 圖像。本指南示範如何從 PNG 中擷取文字、將圖像轉換為文字，並高效寫入辨識出的文字。
-og_title: 如何在 C# 中批次 OCR PNG 圖片 – 逐步說明
+og_description: 如何在 C# 中使用逐步程式碼批次 OCR PNG 圖片。提取 PNG 檔案文字、將 PNG 轉換為文字，並輕鬆從目錄讀取圖像。
+og_title: 如何在 C# 中批量 OCR PNG 圖片 – 完整指南
 tags:
 - OCR
 - C#
-- Aspose
+- Image Processing
 title: 如何在 C# 中批次 OCR PNG 圖像 – 完整指南
 url: /zh-hant/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-guide/
 ---
@@ -27,199 +25,159 @@ url: /zh-hant/net/text-recognition/how-to-batch-ocr-png-images-in-c-complete-gui
 
 # 如何在 C# 中批量 OCR PNG 圖像 – 完整指南
 
-有沒有想過 **如何批量 OCR** 整個 PNG 檔案資料夾，而不必為每張圖片寫一個獨立的程式？你並不是唯一要處理數十張螢幕截圖、掃描收據或圖形，並將它們轉換成可搜尋文字的人。在本教學中，我們將一步步示範一個實作方案，能 **從 PNG 提取文字**、**將影像轉換為文字**，以及 **將辨識出的文字寫入個別檔案**——同時自動讀取 PNG 目錄。
+有沒有想過 **如何批量 OCR** 一個充滿螢幕截圖的資料夾，而不必手動開啟每個檔案？你並不是唯一的——開發者常常詢問如何批量 OCR 大量 PNG，特別是當目標是提取文字 PNG 檔案以供後續分析時。  
 
-閱讀完本指南後，你將擁有一個可直接執行的 C# 主控台應用程式，能一次處理任意數量的影像。無需額外腳本、無需手動複製貼上——只要純粹的程式碼為你完成繁重工作。
+在本教學中，我們將逐步說明一個可直接執行的 C# 範例，該範例 **提取文字 PNG** 檔案、**將 PNG 轉換為文字**，並向你展示最佳的 **從目錄讀取圖像** 方法。完成後，你將擁有一個腳本，會在每張圖像旁產生相應的 `.txt`，為你節省數小時的手動複製貼上。
 
-## 你需要的條件
+## 你將達成的目標
 
-- **.NET 6.0** 或更新版本（此程式碼在 .NET Framework 也能正常執行）。  
-- **Aspose.OCR for .NET** NuGet 套件（免費試用版可用於測試）。  
-- 一個包含若干 *.png* 檔案的資料夾，這些檔案是你想要 OCR 的對象。  
-- Visual Studio 2022 或任何你偏好的 C# IDE。
+- 初始化一次 OCR 引擎，並在整個批次中重複使用。  
+- 在指定資料夾中掃描每個 `*.png`，無需自行撰寫迴圈。  
+- 將每個 OCR 結果寫入各自的文字檔，保留原始檔名。  
+- 優雅地處理常見的例外情況，如空資料夾或非圖像檔案。
 
-如果你已具備上述條件，我們就可以直接進入實作階段。
+### 前置條件
 
-## 步驟 1 – 準備輸入與輸出資料夾 *(讀取 PNG 目錄)*
+- .NET 6.0 或更新版本（此程式碼同樣適用於 .NET Core 與 .NET Framework）。  
+- 提供 `OcrEngine`、`ImageStream` 與 `OcrResult` 類型的 OCR 函式庫（例如本範例中使用的虛構 **FastOCR** SDK）。  
+- 基本的 C# 知識——不需要進階模式。
 
-首先，我們要讓程式指向包含影像的資料夾，並決定最終 *.txt* 檔案的存放位置。使用 `Directory.GetFiles` 可以取得目錄中所有 PNG 檔案的乾淨可列舉集合。
+---
+
+## 如何批量 OCR PNG 圖像 – 概觀
+
+以下是 **完整、可執行的程式**。請隨意將其複製貼上至新的 Console 專案，替換佔位路徑，然後按下 **F5**。
 
 ```csharp
 using System;
-using System.Collections.Generic;
 using System.IO;
-
-// Define where the source PNGs are and where the OCR results will be saved
-string inputFolder = @"C:\MyProject\BatchImages";   // <-- change to your path
-string outputFolder = @"C:\MyProject\BatchOutput";
-
-// Ensure the output folder exists; create it if it doesn’t
-if (!Directory.Exists(outputFolder))
-{
-    Directory.CreateDirectory(outputFolder);
-}
-
-// Grab every *.png* file – this is the “read png directory” part
-IEnumerable<string> inputImageFiles = Directory.GetFiles(inputFolder, "*.png");
-```
-
-**為什麼這很重要：**  
-- 使用通配符 (`*.png`) 可確保只處理影像檔案，忽略其他雜項文件。  
-- 即時建立輸出資料夾可避免之後拋出 `DirectoryNotFoundException`。
-
-> **專業提示：** 若需支援其他格式（JPEG、BMP），只要擴充搜尋模式或使用 `Directory.EnumerateFiles` 並傳入多個副檔名即可。
-
-## 步驟 2 – 初始化 OCR 引擎 *(將影像轉換為文字)*
-
-Aspose.OCR 內建兩種引擎類型：基於 CPU 的 `OcrEngine` 與 GPU 加速的 `GpuOcrEngine`。對於大多數批次工作，CPU 引擎已足夠，但若你有支援的 GPU，僅需更換類別名稱即可。
-
-```csharp
-using Aspose.OCR;
-
-// Initialise the OCR engine – CPU version
-OcrEngine ocrEngine = new OcrEngine();   // Use new GpuOcrEngine() for GPU acceleration
-
-// Set the language to Latin (covers English, French, Spanish, etc.)
-ocrEngine.Language = Language.Latin;
-```
-
-**為什麼這很重要：**  
-- 指定語言可大幅提升準確度，因為引擎會根據預期的字元集進行辨識。  
-- 若在大批次處理時遇到效能瓶頸，只需一行程式碼即可切換至 `GpuOcrEngine`。
-
-## 步驟 3 – 建立批次辨識器
-
-Aspose 提供便利的 `BatchRecognizer`，可接受檔案路徑的可列舉集合，並逐一回傳結果。這樣可避免一次將所有影像載入記憶體——對於大型資料夾而言是關鍵細節。
-
-```csharp
-// Build a batch recogniser that will use the previously configured engine
-BatchRecognizer batchRecognizer = new BatchRecognizer(ocrEngine);
-```
-
-**為什麼這很重要：**  
-- 批次辨識器封裝了迴圈邏輯，讓我們只需關注如何處理每筆結果，而不必擔心安全的遍歷方式。
-
-## 步驟 4 – 對所有影像執行 OCR 並寫入輸出 *(寫入辨識文字)*
-
-現在我們真正執行 OCR。`Recognize` 方法會回傳 `IEnumerable<RecognitionResult>`，其中每筆結果都包含提取的文字及其他中繼資料。
-
-```csharp
-// Perform OCR on the entire collection of PNG files
-IEnumerable<RecognitionResult> recognitionResults = batchRecognizer.Recognize(inputImageFiles);
-
-// Write each recognised text to a separate *.txt* file
-int fileIndex = 0;
-foreach (RecognitionResult result in recognitionResults)
-{
-    // Build a unique output filename – out_0.txt, out_1.txt, …
-    string outputPath = Path.Combine(outputFolder, $"out_{fileIndex++}.txt");
-
-    // Save the plain text to disk
-    File.WriteAllText(outputPath, result.Text);
-}
-```
-
-**為什麼這很重要：**  
-- 使用 `File.WriteAllText` 可確保文字預設以 UTF‑8 編碼儲存，保留特殊字元。  
-- 遞增的命名方式（`out_0.txt`、`out_1.txt`）與處理順序相符，對除錯很有幫助。
-
-> **邊緣情況：** 若某張影像無法 OCR（例如檔案損毀），`RecognitionResult.Text` 會是空字串。你可以在迴圈內加入簡單檢查，以記錄失敗情形：
-
-```csharp
-if (string.IsNullOrWhiteSpace(result.Text))
-{
-    Console.WriteLine($"Warning: No text extracted from {inputImageFiles.ElementAt(fileIndex - 1)}");
-}
-```
-
-## 步驟 5 – 完整整合 – 完整可執行範例
-
-以下是完整程式碼，你可以直接複製貼上到新的主控台專案中。它包含 `using` 指令、資料夾驗證，以及一個小型的主控台 UI，讓你知道批次何時完成。
-
-```csharp
-// ---------------------------------------------------------------
-// Batch OCR for PNG files using Aspose.OCR
-// ---------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.IO;
-using Aspose.OCR;
+using System.Linq;
+using FastOCR;               // <-- Replace with your actual OCR namespace
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Define input & output directories
-        string inputFolder = @"C:\MyProject\BatchImages";   // <-- adjust
-        string outputFolder = @"C:\MyProject\BatchOutput";
+        // -------------------------------------------------
+        // Step 1: Initialize the OCR engine (language = English)
+        // -------------------------------------------------
+        var ocrEngine = new OcrEngine();
+        ocrEngine.Config.Language = Language.English;
 
-        if (!Directory.Exists(inputFolder))
+        // -------------------------------------------------
+        // Step 2: Locate every PNG file in the input folder
+        // -------------------------------------------------
+        string inputFolder = @"YOUR_DIRECTORY\images";
+        string[] imagePaths = Directory.GetFiles(inputFolder, "*.png");
+
+        if (imagePaths.Length == 0)
         {
-            Console.WriteLine($"Error: Input folder does not exist -> {inputFolder}");
+            Console.WriteLine("No PNG files found – nothing to process.");
             return;
         }
 
-        if (!Directory.Exists(outputFolder))
-            Directory.CreateDirectory(outputFolder);
+        // -------------------------------------------------
+        // Step 3: Convert file paths to ImageStream objects
+        // -------------------------------------------------
+        var imageStreams = imagePaths
+            .Select(path => ImageStream.FromFile(path))
+            .ToList();
 
-        // 2️⃣ Gather all PNG files
-        IEnumerable<string> inputImageFiles = Directory.GetFiles(inputFolder, "*.png");
-        Console.WriteLine($"Found {inputImageFiles?.Count() ?? 0} PNG files to process.");
+        // -------------------------------------------------
+        // Step 4: Recognize text in the entire batch
+        // -------------------------------------------------
+        IReadOnlyList<OcrResult> ocrResults = ocrEngine.RecognizeBatch(imageStreams);
 
-        // 3️⃣ Initialise OCR engine (CPU) and set language
-        OcrEngine ocrEngine = new OcrEngine();   // Swap with GpuOcrEngine() if needed
-        ocrEngine.Language = Language.Latin;
+        // -------------------------------------------------
+        // Step 5: Write each result to a .txt file next to the image
+        // -------------------------------------------------
+        string outputFolder = @"YOUR_DIRECTORY\output";
+        Directory.CreateDirectory(outputFolder); // ensures the folder exists
 
-        // 4️⃣ Create batch recogniser
-        BatchRecognizer batchRecognizer = new BatchRecognizer(ocrEngine);
-
-        // 5️⃣ Run OCR and write results
-        IEnumerable<RecognitionResult> results = batchRecognizer.Recognize(inputImageFiles);
-        int index = 0;
-        foreach (RecognitionResult result in results)
+        for (int i = 0; i < ocrResults.Count; i++)
         {
-            string outPath = Path.Combine(outputFolder, $"out_{index++}.txt");
-            File.WriteAllText(outPath, result.Text);
+            string originalFileName = Path.GetFileNameWithoutExtension(imagePaths[i]);
+            string outputPath = Path.Combine(outputFolder, $"{originalFileName}.txt");
+            File.WriteAllText(outputPath, ocrResults[i].Text);
+            Console.WriteLine($"✅ {originalFileName}.txt created");
         }
 
-        Console.WriteLine($"✅ OCR complete! Text files saved to {outputFolder}");
+        Console.WriteLine("All done! Check the output folder for your text files.");
     }
 }
 ```
 
-**預期輸出：**  
-執行程式時會印出類似以下內容：
+> **預期輸出：** 每個 `image01.png` 皆會產生一個 `image01.txt`，內含辨識出的字元。主控台會列出每個寫入的檔案。
 
+![批量 OCR 圖解](how-to-batch-ocr-diagram.png "說明如何使用 C# 批量 OCR PNG 圖像的圖示")
+
+---
+
+## 步驟說明
+
+### 1. 初始化 OCR 引擎 – 流程的核心  
+
+`var ocrEngine = new OcrEngine();` 這行程式碼會建立一個引擎實例，供整個批次重複使用。重複使用引擎是 **關鍵**，因為大多數 OCR 函式庫會在建構時分配大量資源（例如語言模型）。一次初始化即可大幅提升效能——尤其在處理數十或數百張 PNG 時。
+
+> **專業提示：** 若需要非英文語言，請設定 `ocrEngine.Config.Language = Language.Spanish;`（或任何支援的列舉值）。
+
+### 2. 從目錄讀取圖像 – 定位每個 PNG  
+
+`Directory.GetFiles(@"YOUR_DIRECTORY\images", "*.png")` 正好符合次要關鍵字 *從目錄讀取圖像* 的描述。它會回傳絕對路徑陣列，稍後我們會將其傳入 OCR 引擎。  
+
+> **為何不使用 `SearchOption.AllDirectories`？** 若圖像位於子目錄中，可改用 `GetFiles(path, "*.png", SearchOption.AllDirectories)`。但請記得較深層的掃描可能會帶入不需要的檔案，需自行過濾。
+
+### 3. 將檔案路徑轉換為 ImageStream 物件  
+
+大多數 OCR SDK 需要的是串流而非原始路徑。LINQ 表達式 `Select(path => ImageStream.FromFile(path)).ToList()` 會建立一個 **串流清單**，讓批次辨識器一次性使用。此步驟同時確保檔案只開啟一次，降低 I/O 負擔。  
+
+> **例外情況：** 若檔案損毀，`ImageStream.FromFile` 可能拋出例外。若需韌性，請將轉換包在 `try/catch` 中。
+
+### 4. 在整個批次中辨識文字  
+
+`ocrEngine.RecognizeBatch(imageStreams)` 正是 *如何批量 OCR* 的最佳做法。與其對每張圖像迴圈呼叫單圖方法，我們直接將整個集合交給引擎。函式庫在內部可能會平行化處理，於多核心機器上提升速度。  
+
+> **提示：** 若你的 OCR 函式庫未提供批次方法，仍可透過在單圖 `Recognize` 呼叫外層使用 `Parallel.ForEach` 來取得類似效能。
+
+### 5. 寫入每個 OCR 結果 – 將 PNG 轉換為文字  
+
+最後的 `for` 迴圈會將 `ocrResults[i].Text` 寫入與原始 PNG 同名的 `.txt` 檔案。這正是次要關鍵字 *將 PNG 轉換為文字* 所描述的行為。`Path.Combine` 呼叫確保輸出資料夾已存在，並防止路徑遍歷的錯誤。  
+
+> **常見陷阱：** 若未先建立輸出目錄，會拋出 `DirectoryNotFoundException`。使用 `Directory.CreateDirectory(outputFolder);` 可提前解決此問題。
+
+## 處理實務變化
+
+| 情況 | 要更改的地方 | 原因 |
+|-----------|----------------|-----|
+| **空的輸入資料夾** | 保留早期的 `if (imagePaths.Length == 0)` 防護 | 防止不必要的 OCR 呼叫，並提供友善訊息 |
+| **混合檔案類型** | 使用 `Directory.EnumerateFiles(..., "*.*", SearchOption.TopDirectoryOnly).Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase))` | 確保只處理 PNG，符合 *extract text png* 而不產生錯誤 |
+| **大型圖像（> 5 MB）** | 在送入 OCR 前先縮小：`ImageStream.FromFile(path).Resize(1920, 1080)`（若 API 支援） | 減少記憶體壓力，且通常提升辨識準確度 |
+| **不同的 OCR 語言** | 設定 `ocrEngine.Config.Language = Language.French;` | 使引擎與來源圖像的語言相符 |
+
+## 常見問題 (FAQ)
+
+**Q: 這能用於 JPEG 或 TIFF 檔案嗎？**  
+A: 核心邏輯保持不變，只需將搜尋模式改為 `"*.jpg"` 或 `"*.tif"`，並確保 OCR 函式庫能解碼這些格式。
+
+**Q: 如何在不耗盡記憶體的情況下處理數千張圖像？**  
+A: 將批次呼叫改為串流方式——一次處理例如 50 張圖像的區塊，處理完後釋放串流，再載入下一批。
+
+**Q: 我需要 OCR 信心分數。該在哪裡取得？**  
+A: 大多數 `OcrResult` 物件都有 `Confidence` 屬性。你可以擴充寫出步驟：
+
+```csharp
+var result = ocrResults[i];
+string content = $"Confidence: {result.Confidence:P2}\n{result.Text}";
+File.WriteAllText(outputPath, content);
 ```
-Found 12 PNG files to process.
-✅ OCR complete! Text files saved to C:\MyProject\BatchOutput
-```
 
-而且你會在輸出資料夾中看到 `out_0.txt` … `out_11.txt`，每個檔案都包含對應影像的純文字版本。
+## 總結
 
-## 常見問題與技巧
+我們剛剛完整說明了在 C# 中 **如何批量 OCR** PNG 圖像的全流程。透過初始化單一引擎、從目錄讀取圖像、將其轉換為串流、辨識整個批次，最後將每個結果寫入文字檔，你現在擁有一套穩固、可投入生產的模式，適用於 **提取文字 PNG**、**將 PNG 轉換為文字** 與 **從目錄讀取圖像** 等任務。
 
-| Question | Answer |
-|----------|--------|
-| *我可以同時 OCR 子資料夾嗎？* | 可以——將 `Directory.GetFiles` 改為 `Directory.EnumerateFiles(inputFolder, "*.png", SearchOption.AllDirectories)`。 |
-| *如果我需要其他語言呢？* | 設定 `ocrEngine.Language = Language.Spanish;`（或任何支援的列舉值）。 |
-| *如何處理巨量批次（上千個檔案）？* | 可考慮分批處理，或使用 `Parallel.ForEach` 並限制平行度，以免耗盡記憶體。 |
-| *輸出永遠是 UTF‑8 嗎？* | `File.WriteAllText` 預設為 UTF‑8（無 BOM），適用於大多數拉丁語系。對於亞洲文字可能需要明確設定 `Encoding.UTF8`。 |
-| *我可以取得信心分數嗎？* | `RecognitionResult` 提供 `Confidence` 屬性——你可以將其與文字一起記錄，以作品質控制。 |
+接下來可以怎麼做？嘗試更換 OCR 供應商、加入多執行緒的後處理（例如拼寫檢查），或將 `.txt` 檔案匯入搜尋索引。掌握批次工作流程後，想像空間無限。
 
-## 視覺概覽 *(批量 OCR 流程圖)*
-
-![批量 OCR 工作流程圖，顯示輸入資料夾 → OCR 引擎 → 批次辨識器 → 輸出 txt 檔案](https://example.com/diagram-how-to-batch-ocr.png "批量 OCR")
-
-*Alt 文字包含主要關鍵字，符合 SEO 圖片需求。*
-
-## 結語
-
-我們剛剛說明了 **如何批量 OCR** PNG 檔案目錄，從讀取 PNG 目錄到寫入每個辨識文字檔案。此解決方案完整自足，能在任何現代 .NET 執行環境上運作，且可擴充為 GPU 加速、多語言支援或平行處理。
-
-準備好進一步了嗎？試著將 `Language.Latin` 換成其他語言，或將輸出整合至搜尋索引，讓文件即時可搜尋。只要掌握了批次 OCR，想像空間無限。
-
-祝程式開發順利，若遇到任何問題，歡迎在留言中告訴我！
+有任何想法想分享嗎？留下評論吧，祝 coding 愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
