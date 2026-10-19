@@ -132,6 +132,12 @@ Ukázkový kód v Javě, který pomocí Aspose.OCR extrahuje text z určené obl
 
 ### [Extrahování textu z HEIC – Kompletní Java průvodce](./extract-text-from-heic-complete-java-guide/)
 Kompletní návod, jak pomocí Aspose.OCR pro Java extrahovat text z obrázků ve formátu HEIC.
+### [Provést OCR na PDF s Aspose OCR v Javě – Kompletní průvodce](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletní průvodce prováděním OCR na PDF souborech pomocí Aspose OCR v Javě, včetně nastavení a optimalizace.
+### [Vytvořit prohledávatelný PDF s Aspose OCR Java – Kompletní průvodce](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletní průvodce vytvořením prohledávatelných PDF pomocí Aspose OCR v Javě, včetně nastavení, optimalizace a praktických příkladů.
+### [Rozpoznání textu z obrázku pomocí Java – Kompletní Aspose OCR průvodce](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletní průvodce rozpoznáním textu z obrázků v Javě pomocí Aspose.OCR, včetně nastavení, optimalizace a praktických příkladů.
 
 ## Často kladené otázky
 

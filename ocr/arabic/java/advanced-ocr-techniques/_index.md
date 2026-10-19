@@ -151,6 +151,16 @@ url: /ar/java/advanced-ocr-techniques/
 تعلم كيفية إنشاء مجموعة مؤشرات ثابتة لتسريع عمليات التعرف الضوئي على الحروف المتوازية في تطبيقات Java باستخدام Aspose.OCR.
 ### [تحسين دقة OCR في Java – دليل كامل لـ Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 اكتشف طرق تحسين دقة OCR في Java باستخدام Aspose.OCR عبر دليل شامل يوضح الخطوات والتقنيات الفعّالة.
+### [التعرف على نص الصورة في Java مع تسريع GPU – الدرس الكامل](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+
+### [معالجة OCR المتوازية في Java – الدليل الكامل](./parallel-ocr-processing-in-java-complete-guide/)
+تعلم تنفيذ معالجة OCR المتوازية في Java لتسريع استخراج النص من الصور. دليل شامل خطوة بخطوة.
+
+### [كيفية الحصول على OCR في Java – دليل شامل لاستخراج النص الخام](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+تعلم خطوة بخطوة كيفية تنفيذ OCR في Java واستخراج النص الأصلي بدقة عالية.
+
+### [إنشاء PDF قابل للبحث باستخدام OCR في Java – الدليل الكامل](./create-searchable-pdf-with-java-ocr-complete-guide/)
+تعلم خطوة بخطوة كيفية إنشاء ملفات PDF قابلة للبحث باستخدام تقنية OCR في Java، مع شرح شامل وإعدادات متقدمة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

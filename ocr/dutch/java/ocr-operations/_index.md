@@ -139,6 +139,11 @@ Leer hoe u een afbeelding laadt en OCR toepast in Java met Aspose.OCR voor snell
 Leer hoe u met Aspose OCR voor Java tekst uit een specifiek gebied kunt extraheren.
 ### [Tekst uit HEIC extraheren – Complete Java-gids](./extract-text-from-heic-complete-java-guide/)
 Leer hoe u tekst uit HEIC‑afbeeldingen kunt extraheren met een volledige Java‑handleiding.
+### [Create searchable PDF with Aspose OCR Java – Complete Guide](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Leer stap‑voor‑stap hoe u met Aspose OCR voor Java een doorzoekbare PDF maakt en een doorzoekbare tekstlaag toevoegt.
+### [Tekst uit afbeelding herkennen met Java – volledige Aspose OCR-gids](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+### [OCR op PDF uitvoeren met Aspose OCR in Java – Complete gids](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en een doorzoekbare PDF maakt.
 
 ## Veelgestelde vragen
 

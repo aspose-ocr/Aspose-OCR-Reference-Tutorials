@@ -135,6 +135,12 @@ weight: 21
 Μάθετε πώς να φορτώνετε εικόνα σε Java και να εφαρμόζετε OCR με Aspose.OCR για εξαγωγή κειμένου.
 ### [Εξαγωγή Κειμένου από HEIC – Πλήρης Οδηγός Java](./extract-text-from-heic-complete-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο από αρχεία HEIC χρησιμοποιώντας Aspose.OCR σε Java, βήμα‑βήμα οδηγίες.
+### [αναγνώριση κειμένου από εικόνα με Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνα με Java χρησιμοποιώντας το Aspose OCR.
+### [perform ocr on pdf with Aspose OCR in Java – Complete Guide](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την εκτέλεση OCR σε αρχεία PDF με το Aspose OCR σε Java.
+### [Δημιουργία αναζητήσιμου PDF με Aspose OCR Java – Πλήρης Οδηγός](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο με Aspose OCR για Java, βήμα‑βήμα οδηγός πλήρους υλοποίησης.
 
 ## Συχνές Ερωτήσεις
 

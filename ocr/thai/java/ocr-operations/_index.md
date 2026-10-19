@@ -140,6 +140,12 @@ weight: 21
 
 ### [Extract Text from HEIC – Complete Java Guide](./extract-text-from-heic-complete-java-guide/)
 เรียนรู้วิธีสกัดข้อความจากไฟล์ HEIC ด้วย Aspose.OCR for Java อย่างละเอียดและครบถ้วน
+### [จดจำข้อความจากภาพด้วย Java – คู่มือ Aspose OCR ฉบับเต็ม](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Java โดยใช้ Aspose OCR อย่างละเอียดและแม่นยำ  
+### [ทำ OCR บน PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR Java – คู่มือเต็ม](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่ค้นหาได้โดยใช้ Aspose OCR สำหรับ Java อย่างละเอียดและครบถ้วน
 
 
 

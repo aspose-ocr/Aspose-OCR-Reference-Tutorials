@@ -141,6 +141,12 @@ Krok po kroku pokażemy, jak przy użyciu Aspose.OCR w Javie utworzyć przeszuki
 Szybki przewodnik, jak załadować obraz i wyodrębnić z niego tekst przy użyciu Aspose.OCR w Javie.
 ### [Wyodrębnianie tekstu z HEIC – Kompletny przewodnik Java](./extract-text-from-heic-complete-java-guide/)
 Pełny przewodnik po wyodrębnianiu tekstu z plików HEIC w Javie przy użyciu Aspose.OCR.
+### [Rozpoznawanie tekstu z obrazu w Javie – Pełny przewodnik Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspose OCR, zawierający wszystkie niezbędne kroki.
+### [Wykonywanie OCR na PDF przy użyciu Aspose OCR w Javie – Kompletny przewodnik](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletny przewodnik, jak zastosować OCR do plików PDF w Javie przy użyciu Aspose OCR, krok po kroku.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR Java – Kompletny przewodnik](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

@@ -161,6 +161,16 @@ Learn comprehensive techniques to boost OCR accuracy in Java using Aspose OCR, c
 Learn how to enable GPU acceleration for Aspose.OCR in Java to boost OCR performance and accuracy.
 ### [Create Fixed Thread Pool for Parallel OCR in Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
 Learn how to create a fixed thread pool to run OCR tasks in parallel, boosting performance in Java applications.
+### [recognize text image in Java with GPU acceleration – Full Tutorial](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Leverage GPU acceleration to boost OCR performance in Java with Aspose.OCR. Follow the full step‑by‑step tutorial for fast text extraction.
+### [Parallel OCR Processing in Java – Complete Guide](./parallel-ocr-processing-in-java-complete-guide/)
+Learn how to process multiple OCR tasks in parallel with Aspose.OCR for Java, boosting performance and efficiency.
+### [How to Get OCR in Java – Complete Guide to Extract Raw Text](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Complete guide to extract raw text using OCR in Java with Aspose.OCR, covering setup, configuration, and best practices.
+### [Extract Text from Form with Aspose OCR Java – Complete Guide](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Learn how to extract text from scanned forms using Aspose.OCR for Java, covering setup, region detection, and form-specific processing.
+### [Create Searchable PDF with Java OCR – Complete Guide](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Learn how to generate searchable PDFs from scanned documents using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
 
 ## Frequently Asked Questions
 

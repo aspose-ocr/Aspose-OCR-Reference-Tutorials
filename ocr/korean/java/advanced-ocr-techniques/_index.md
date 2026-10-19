@@ -163,6 +163,17 @@ Java용 Aspose.OCR에서 GPU 가속을 설정하여 OCR 성능을 극대화하�
 Java용 Aspose.OCR을 활용해 병렬 OCR 처리를 위해 고정 스레드 풀을 설정하고 효율적으로 텍스트를 추출하는 방법을 안내합니다.
 ### [Java용 Aspose.OCR에서 OCR 정확도 향상 – 완전 가이드](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Java용 Aspose.OCR을 활용해 OCR 정확도를 극대화하는 방법을 단계별로 안내합니다.
+### [GPU 가속을 이용한 Java 텍스트 이미지 인식 – 전체 튜토리얼](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+GPU 가속을 활용해 Java에서 텍스트 이미지 인식을 빠르고 정확하게 수행하는 전체 튜토리얼을 확인하세요.
+### [Java에서 병렬 OCR 처리 – 전체 가이드](./parallel-ocr-processing-in-java-complete-guide/)
+Java용 Aspose.OCR을 활용해 병렬 OCR 처리를 구현하고, 대용량 이미지의 텍스트 추출을 빠르게 수행하는 방법을 안내합니다.
+### [Java에서 OCR 얻는 방법 – 원시 텍스트 추출을 위한 완전 가이드](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Java용 Aspose.OCR을 사용해 원시 텍스트를 빠르고 정확하게 추출하는 전체 가이드를 확인하세요.
+### [Aspose OCR Java로 양식에서 텍스트 추출 – 전체 가이드](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java를 활용해 양식 이미지에서 텍스트를 정확히 추출하는 전체 가이드를 확인하세요.
+### [Java OCR을 사용하여 검색 가능한 PDF 만들기 – 전체 가이드](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Java용 Aspose.OCR을 활용해 검색 가능한 PDF를 생성하는 전체 과정을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -159,6 +159,16 @@ Apprenez à activer l'accélération GPU pour l'OCR avec Aspose.OCR en Java et a
 
 ### [Créer un pool de threads fixes pour l'OCR parallèle en Java](./create-fixed-thread-pool-for-parallel-ocr-in-java/)
 Apprenez à créer un pool de threads fixes afin d'exécuter l'OCR en parallèle, améliorant les performances de vos applications Java.
+### [Reconnaître le texte d'une image en Java avec accélération GPU – Tutoriel complet](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Apprenez à exploiter l'accélération GPU pour reconnaître du texte dans les images Java, améliorant la vitesse et la précision de l'OCR.
+### [Traitement OCR parallèle en Java – Guide complet](./parallel-ocr-processing-in-java-complete-guide/)
+Apprenez à exécuter plusieurs tâches OCR simultanément en Java pour accélérer le traitement d'images avec Aspose.OCR.
+### [Comment obtenir l'OCR en Java – Guide complet pour extraire le texte brut](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Apprenez à extraire le texte brut des images en Java avec Aspose.OCR grâce à ce guide complet et facile à suivre.
+### [Extraire du texte d'un formulaire avec Aspose OCR Java – Guide complet](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Apprenez à extraire le texte des formulaires avec Aspose OCR pour Java grâce à ce guide complet.
+### [Créer un PDF consultable avec Java OCR – Guide complet](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Apprenez à générer des PDF consultables en utilisant Aspose.OCR pour Java, avec un guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

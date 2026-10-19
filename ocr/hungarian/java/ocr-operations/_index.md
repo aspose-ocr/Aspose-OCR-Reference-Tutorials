@@ -122,6 +122,9 @@ Tanulja meg, hogyan töltsön be képet Java-ban és használja az Aspose.OCR-t 
 Ismerje meg, hogyan nyerhet ki szöveget egy meghatározott területből az Aspose OCR Java példában.
 ### [HEIC képből szöveg kinyerése – Teljes Java útmutató](./extract-text-from-heic-complete-java-guide/)
 Fedezd fel, hogyan nyerheted ki a szöveget HEIC formátumú képekből Java-val az Aspose.OCR segítségével.
+### [Képről szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+### [PDF OCR végrehajtása Aspose OCR-rel Java-ban – Teljes útmutató](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+### [Kereshető PDF létrehozása Aspose OCR Java-val – Teljes útmutató](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

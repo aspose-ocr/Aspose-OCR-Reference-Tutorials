@@ -141,6 +141,12 @@ Panduan memuat gambar dan mengekstrak teks menggunakan Aspose.OCR untuk Java.
 Pelajari cara mengekstrak teks dari area tertentu pada gambar menggunakan Aspose OCR untuk Java dengan contoh praktis.
 ### [Ekstrak Teks dari HEIC – Panduan Java Lengkap](./extract-text-from-heic-complete-java-guide/)
 Panduan lengkap mengekstrak teks dari file HEIC menggunakan Aspose.OCR untuk Java dengan langkah‑langkah praktis.
+### [Mengenali Teks Gambar dengan Java – Panduan Lengkap Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose OCR dengan Java, meliputi langkah‑langkah detail untuk hasil akurat.
+### [Melakukan OCR pada PDF dengan Aspose OCR di Java – Panduan Lengkap](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Panduan lengkap untuk melakukan OCR pada file PDF menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Membuat PDF yang Dapat Dicari dengan Aspose OCR Java – Panduan Lengkap](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
 
 ## Pertanyaan yang Sering Diajukan
 

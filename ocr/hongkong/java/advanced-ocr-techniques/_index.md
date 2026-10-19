@@ -47,6 +47,11 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 
 ### [在 Java 中使用固定執行緒池進行 PNG 並行 OCR](./fixed-thread-pool-java-parallel-ocr-for-png/)
 利用固定執行緒池在 Java 中同時處理多個 PNG 圖像的 OCR，提高辨識效能。
+### [在 Java 中使用 GPU 加速辨識文字圖像 – 完整教學](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+透過 GPU 加速，使用 Aspose.OCR for Java 高效辨識文字圖像，提升處理速度與精度。完整步驟教學。
+
+## [在 Java 中平行 OCR 處理 – 完整指南](./parallel-ocr-processing-in-java-complete-guide/)
+在此完整指南中，我們說明如何在 Java 中利用 Aspose.OCR 進行平行 OCR 處理，以加速大量影像的文字提取。
 
 ### [預處理影像以進行 OCR – 完整的 Java 指南提升對比度與文字提取](./preprocess-image-for-ocr-complete-java-guide-to-boost-contra/)
 透過本完整 Java 教程，學習如何預處理影像、提升對比度，從而改善 OCR 效能與文字提取準確度。
@@ -164,6 +169,12 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 在 Java 中使用 Aspose.OCR 啟用 GPU 加速，提升 OCR 效能的完整步驟指南。
 ### [在 Java 中提升 OCR 準確度 – 完整 Aspose OCR 指南](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 使用 Aspose.OCR for Java，透過最佳化設定與技巧提升 OCR 準確度，完整步驟指南。
+### [在 Java 中平行 OCR 處理 – 完整指南](./parallel-ocr-processing-in-java-complete-guide/)
+了解如何在 Java 中使用 Aspose.OCR 進行平行處理，提升大量影像 OCR 的效率與效能。
+### [在 Java 中獲取 OCR – 完整指南提取原始文字](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+本完整指南說明如何在 Java 中使用 Aspose.OCR 取得 OCR 功能，提取原始文字，步驟清晰易於實作。
+### [在 Aspose.OCR for Java 中從表單提取文字 – 完整指南](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+### [使用 Java OCR 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-with-java-ocr-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -128,6 +128,12 @@ weight: 21
 دليل يوضح كيفية استخراج النص من منطقة محددة في صورة باستخدام Aspose OCR للـ Java.
 ### [استخراج النص من HEIC – دليل Java كامل](./extract-text-from-heic-complete-java-guide/)
 دليل شامل يوضح كيفية استخراج النص من ملفات HEIC باستخدام Aspose.OCR للـ Java.
+### [إجراء OCR على ملفات PDF باستخدام Aspose OCR في Java – دليل كامل](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+دليل شامل يوضح كيفية تنفيذ OCR على مستندات PDF باستخدام Aspose OCR في Java خطوة بخطوة.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR Java – دليل كامل](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
+### [التعرف على نص الصورة باستخدام Java – دليل كامل لـ Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+دليل شامل يوضح كيفية التعرف على النص في الصور باستخدام Java مع Aspose OCR خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

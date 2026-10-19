@@ -137,6 +137,12 @@ weight: 21
 演示如何使用 Aspose OCR for Java 从图像的特定区域提取文本的完整示例。
 ### [从 HEIC 提取文本 – 完整 Java 指南](./extract-text-from-heic-complete-java-guide/)
 完整的 Java 示例，展示如何使用 Aspose.OCR 读取 HEIC 图像并提取其中的文本。
+### [在 Java 中使用 Aspose OCR 对 PDF 执行 OCR – 完整指南](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+完整示例演示如何在 Java 环境下使用 Aspose OCR 对 PDF 文件进行 OCR 识别并导出可搜索文档。
+### [使用 Aspose OCR Java 创建可搜索 PDF – 完整指南](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+完整示例展示如何使用 Aspose OCR for Java 将 PDF 转换为可搜索的文档并导出。
+### [使用 Java 识别图像文本 – 完整 Aspose OCR 指南](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+提供完整的 Java 示例，教您使用 Aspose OCR 识别图像文本并导出 OCR 结果。
 
 ## 常见问题
 

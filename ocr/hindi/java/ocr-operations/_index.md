@@ -143,6 +143,12 @@ Java में Aspose.OCR का उपयोग करके इमेज ल�
 Aspose OCR का उपयोग करके इमेज के विशिष्ट क्षेत्र से टेक्स्ट निकालने का चरण‑बाय‑चरण मार्गदर्शन।
 ### [HEIC से टेक्स्ट निकालें – पूर्ण Java गाइड](./extract-text-from-heic-complete-java-guide/)
 Aspose.OCR for Java का उपयोग करके HEIC इमेजेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
+### [Aspose OCR के साथ PDF पर OCR – पूर्ण गाइड (Java)](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Java में Aspose OCR का उपयोग करके PDF फ़ाइलों पर पूर्ण OCR प्रक्रिया सीखें, कोड उदाहरणों सहित।
+### [Aspose OCR Java के साथ खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java का उपयोग करके PDF को सर्चेबल बनाना सीखें, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

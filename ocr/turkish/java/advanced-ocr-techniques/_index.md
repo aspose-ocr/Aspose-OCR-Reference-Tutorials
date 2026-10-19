@@ -178,6 +178,16 @@ Java OCR'da GPU desteğini etkinleştirerek yüksek performanslı metin tanıma 
 Java'da paralel OCR işlemleri için sabit iş parçacığı havuzu oluşturarak performansı artırın. Adım adım kılavuz.
 ### [Java'da OCR Doğruluğunu Artırma – Tam Aspose OCR Kılavuzu](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Java projelerinizde OCR doğruluğunu artırmak için adım adım tam kılavuz. Aspose OCR ile yüksek hassasiyet elde edin.
+### [GPU Hızlandırmalı Java'da Metin Görüntüsü Tanıma – Tam Kılavuz](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+GPU desteğiyle Java'da metin görüntülerini hızlı ve doğru şekilde tanıyın. Adım adım tam kılavuz.
+### [Java'da Paralel OCR İşleme – Tam Kılavuz](./parallel-ocr-processing-in-java-complete-guide/)
+Java uygulamalarında paralel OCR işleme tekniklerini keşfedin, yüksek performans ve doğruluk elde edin.
+### [Java'da OCR Nasıl Alınır – Ham Metin Çıkarma Tam Kılavuzu](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Java'da OCR elde etmenin ve ham metni çıkarmanın adım adım tam rehberi. Hızlı ve doğru metin çıkarma için hemen indirin.
+### [Aspose OCR Java ile Formdan Metin Çıkarma – Tam Kılavuz](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java ile formlardan metin çıkarın. Adım adım tam kılavuz sayesinde hızlı ve doğru sonuç elde edin.
+### [Java OCR ile Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Java ve Aspose.OCR kullanarak aranabilir PDF'ler oluşturun. Adım adım tam kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

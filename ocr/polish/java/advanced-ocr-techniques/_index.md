@@ -164,7 +164,6 @@ Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpozna
 
 ### [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 Odblokuj płynnie wyodrębnianie tekstu z obrazów za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić skuteczną integrację.
-
 ### [Jak włączyć GPU dla OCR w Javie – Kompletny samouczek](./how-to-enable-gpu-for-java-ocr-complete-tutorial/)
 Dowiedz się, jak skonfigurować GPU, aby przyspieszyć OCR w aplikacjach Java przy użyciu Aspose.OCR.
 
@@ -173,6 +172,16 @@ Dowiedz się, jak skonfigurować stałą pulę wątków, aby przyspieszyć przet
 
 ### [Popraw dokładność OCR w Javie – Kompletny przewodnik Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Dowiedz się, jak zwiększyć dokładność OCR w aplikacjach Java, korzystając z pełnego przewodnika Aspose OCR.
+### [Rozpoznawanie obrazu tekstowego w Javie z przyspieszeniem GPU – pełny samouczek](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Poznaj, jak przyspieszyć OCR w Javie przy użyciu GPU, aby szybko i dokładnie wyodrębniać tekst z obrazów.
+### [Równoległe przetwarzanie OCR w Javie – Pełny przewodnik](./parallel-ocr-processing-in-java-complete-guide/)
+Poznaj, jak przyspieszyć przetwarzanie OCR w Javie, wykorzystując równoległe wątki do szybkiej i dokładnej ekstrakcji tekstu z wielu obrazów.
+### [Jak uzyskać OCR w Javie – Kompletny przewodnik po wyodrębnianiu surowego tekstu](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Poznaj kompletny przewodnik, jak w Javie uzyskać OCR i wyodrębnić surowy tekst z obrazów szybko i precyzyjnie.
+### [Wyodrębnianie tekstu z formularza przy użyciu Aspose OCR Java – Kompletny przewodnik](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Dowiedz się, jak wyodrębnić tekst z formularzy przy użyciu Aspose OCR w Javie, zapewniając wysoką dokładność i łatwą integrację.
+### [Tworzenie przeszukiwalnego PDF w Javie z OCR – Kompletny przewodnik](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Dowiedz się, jak w Javie przy użyciu Aspose.OCR stworzyć przeszukiwalny plik PDF, zapewniając wysoką jakość i szybkie przetwarzanie tekstu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

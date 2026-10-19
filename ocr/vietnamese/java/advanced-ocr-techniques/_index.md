@@ -156,6 +156,23 @@ Khám phá cách cấu hình GPU để tăng tốc OCR trong Java bằng Aspose.
 
 ### [Cải thiện độ chính xác OCR trong Java – Hướng dẫn đầy đủ Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Khám phá các kỹ thuật tối ưu để nâng cao độ chính xác OCR trong Java bằng Aspose OCR, hướng dẫn chi tiết và đầy đủ.
+### [Cách lấy OCR trong Java – Hướng dẫn đầy đủ để trích xuất văn bản thô](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Hướng dẫn chi tiết cách tích hợp OCR trong Java để trích xuất văn bản thô một cách nhanh chóng và chính xác.
+
+## [Nhận dạng hình ảnh văn bản trong Java với tăng tốc GPU – Hướng dẫn đầy đủ](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Khám phá cách nhận dạng văn bản trong hình ảnh bằng Java với hỗ trợ tăng tốc GPU, đạt hiệu suất và độ chính xác cao.
+
+## [Xử lý OCR song song trong Java – Hướng dẫn đầy đủ](./parallel-ocr-processing-in-java-complete-guide/)
+
+Khám phá cách thực hiện xử lý OCR song song trong Java để tăng tốc độ và hiệu suất nhận dạng văn bản trên nhiều hình ảnh đồng thời.
+
+## [Trích xuất văn bản từ biểu mẫu với Aspose OCR Java – Hướng dẫn đầy đủ](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+
+Hướng dẫn chi tiết cách sử dụng Aspose OCR cho Java để trích xuất văn bản từ các biểu mẫu, đảm bảo độ chính xác và hiệu quả cao.
+
+## [Tạo PDF có thể tìm kiếm bằng Java OCR – Hướng dẫn đầy đủ](./create-searchable-pdf-with-java-ocr-complete-guide/)
+
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng OCR trong Java, tối ưu độ chính xác và hiệu suất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
