@@ -254,8 +254,6 @@ GPU を活用し、C# で TIFF 画像から高速にテキストを抽出する�
 ### [Aspose OCR を使用して検索可能な PDF を作成 – 完全プログラミングガイド](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [OCR 用画像の前処理 – 完全な Aspose C# ガイド](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Aspose.OCR を使用して画像を前処理し、OCR の精度を最大化する方法をステップバイステップで解説します。
-### [画像のデスキュー – OCR 前処理の完全 C# ガイド](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
-C# で画像の傾きを補正し、OCR 前処理として最適化する手順をステップバイステップで解説します。
 
 ## よくある質問
 

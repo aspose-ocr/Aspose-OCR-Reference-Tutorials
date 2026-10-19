@@ -84,8 +84,6 @@ Fedezze fel, hogyan használhatja a GPU‑gyorsított OCR‑t C#‑ban a szöveg
 
 ### [Szöveg kinyerése képről – Teljes C# OCR útmutató zajcsökkentéssel](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Fedezze fel, hogyan csökkentheti a zajt és növelheti az OCR pontosságát egy átfogó C# útmutatóval a szöveg képről történő kinyeréséhez.
-### [Hogyan kiegyenesítsünk képet – Teljes C# útmutató az OCR előfeldolgozáshoz](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
-Ismerje meg, hogyan használhatja a deskew technikát C#‑ban az OCR előfeldolgozás során a pontosság növeléséhez.
 
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.

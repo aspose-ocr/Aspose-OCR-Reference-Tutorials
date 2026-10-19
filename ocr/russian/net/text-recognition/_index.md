@@ -515,8 +515,6 @@ url: /ru/net/text-recognition/
 Полное руководство по извлечению текста из PNG‑чеков в C# с использованием Aspose OCR.
 ### [Преобразование TIFF в текст в C# – Полное руководство по пакетному OCR](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 Полное руководство по пакетному конвертированию TIFF‑изображений в текст с использованием Aspose OCR в C#.
-### [Создать поисковый PDF из изображения в C# – пошаговое руководство](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
-Научитесь преобразовывать изображения в PDF с поддержкой поиска, используя Aspose.OCR в C#. Пошаговое руководство для .NET-разработчиков.
 ### [c# OCR учебник – извлечение текста из JPG‑изображений](./c-ocr-tutorial-extract-text-from-jpg-images/)
 Извлеките текст из JPG‑изображений с помощью Aspose.OCR в C#. Пошаговое руководство для .NET‑разработчиков.
 ### [Как создать ePub из отсканированных изображений – пошаговое руководство](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
