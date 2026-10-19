@@ -69,9 +69,6 @@ Aspose.OCR For .NET ट्यूटोरियल सूची का उपय
 Aspose OCR में फ़िल्टर लागू करके टेक्स्ट निष्कर्षण की सटीकता और गति को बढ़ाने के चरण‑दर‑चरण मार्गदर्शिका।
 
 ### [OCR इमेज रिकग्निशन में मल्टी‑पेज परिणाम को दस्तावेज़ के रूप में सहेजें](./save-multipage-result-as-document/)
-### [C# में Aspose OCR के साथ OCR सटीकता कैसे सुधारें](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
-Aspose OCR का उपयोग करके C# में OCR की सटीकता बढ़ाने के चरण‑दर‑सत्र मार्गदर्शन।
-
 ### [C# में असिंक्रोनस OCR कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 C# में असिंक्रोनस OCR लागू करने के विस्तृत चरणों को सीखें और प्रदर्शन व प्रतिक्रिया समय बढ़ाएँ।
 
@@ -256,6 +253,10 @@ Aspose OCR का उपयोग करके C# में खोज योग�
 ### [OCR को कैसे सुधारें – Aspose के साथ छवियों से टेक्स्ट निकालें](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Aspose के साथ OCR की सटीकता बढ़ाएँ और छवियों से तेज़ी से टेक्स्ट निकालें।
 
+### [C# में Aspose OCR के साथ OCR सटीकता कैसे सुधारें](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+Aspose OCR का उपयोग करके C# में OCR सटीकता बढ़ाने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+### [छवि को डेस्क्यू करें और C# में OCR सटीकता बढ़ाएँ – चरण‑दर‑चरण गाइड](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+C# में छवि को डेस्क्यू करके OCR की सटीकता बढ़ाने के चरण‑दर‑चरण मार्गदर्शन।
 ### [C# में OCR सटीकता सुधारने के लिए पूर्ण गाइड](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 C# में OCR की सटीकता बढ़ाने के लिए चरण‑दर‑चरण तकनीकें और सर्वोत्तम प्रथाएँ सीखें।
 

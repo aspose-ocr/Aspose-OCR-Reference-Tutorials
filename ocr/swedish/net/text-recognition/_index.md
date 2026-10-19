@@ -484,6 +484,24 @@ Lär dig hur du använder Aspose OCR i C# för att känna igen och extrahera kin
 Lär dig att bearbeta stora mängder bilder med OCR i C#, steg för steg för effektiv massutdrag av text.
 ### [Extrahera text från TIFF med Aspose OCR-motorn – Komplett exempel](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Lär dig hur du med Aspose OCR-motorn extraherar text från TIFF-filer i ett komplett steg‑för‑steg‑exempel.
+### [Extrahera text från bild i C# – Komplett OCR-guide](./extract-text-from-image-in-c-complete-ocr-guide/)
+Lär dig steg-för-steg hur du extraherar text från bilder i C# med en komplett OCR-guide.
+### [Extrahera text från TIFF med batch-OCR i C# – Komplett guide](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Lär dig steg-för-steg hur du extraherar text från TIFF-filer med batch-OCR i C# för effektiv bildbehandling.
+### [Skapa sökbar PDF i C# – Komplett guide](./create-searchable-pdf-in-c-complete-guide/)
+Lär dig steg-för-steg hur du skapar en sökbar PDF i C# med en komplett guide.
+### [Känn igen text från PNG i C# – Fullständig OCR‑ och stavningskontrollguide](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Lär dig steg-för-steg hur du känner igen text från PNG-filer i C# med fullständig OCR och stavningskontroll.
+### [Konvertera bild till JSON – C# OCR‑handledning för kvitton](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Lär dig hur du konverterar en bild till JSON med C# OCR för att extrahera data från kvitton.
+### [Hur man utför OCR i C# – Känn igen text från bild](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text från bilder.
+### [Skapa sökbar PDF från skannat dokument – Komplett C#-guide](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Lär dig hur du med Aspose.OCR för .NET skapar en sökbar PDF från en skannad fil med en komplett C#-guide.
+### [Extrahera text från bild i C# – C# bild till text med Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Lär dig hur du med Aspose OCR i C# extraherar text från bilder på ett enkelt sätt.
+### [Aspose OCR-exempel – konvertera bildtext till JSON i C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Lär dig hur du med Aspose.OCR i C# konverterar text från en bild till JSON-format på ett enkelt sätt.
 ### [Hur man använder Aspose OCR för att konvertera bild till text i C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
 Lär dig steg-för-steg hur du använder Aspose OCR i C# för att konvertera bilder till text.
 ### [Extrahera text från bild i C# – Konvertera till JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)

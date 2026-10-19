@@ -58,6 +58,8 @@ url: /zh/net/text-recognition/
 学习如何使用 Aspose OCR 将图像转换为 JSON 格式，轻松获取结构化识别结果。
 ### [如何使用 OCR 引擎解析 JSON（C#）— 完整分步指南](./how-to-parse-json-with-ocr-engine-c-complete-step-by-step-gu/)
 使用 Aspose.OCR 在 C# 中解析 OCR 引擎生成的 JSON，提供完整的分步指南，帮助您轻松获取结构化数据。
+### [将图像转换为 JSON – C# 收据 OCR 教程](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+使用 Aspose.OCR 在 C# 中将收据图像转换为 JSON 格式，提供完整的步骤指南。
 ### [OCR图像识别中的OCR检测区域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增强您的 .NET 应用程序，以实现高效的图像文本识别。探索 OCR 检测区域模式以获得精确结果。
 
@@ -486,6 +488,25 @@ url: /zh/net/text-recognition/
 通过本完整指南，学习在 C# 中批量执行 OCR，快速提取大量图像中的文本，提高处理效率。
 ### [使用 Aspose OCR 引擎从 TIFF 提取文本 – 完整示例](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 通过完整示例演示如何使用 Aspose OCR 引擎从 TIFF 图像中提取文本，实现高效的文字识别。
+### [在 C# 中从图像提取文本 – 完整 OCR 指南](./extract-text-from-image-in-c-complete-ocr-guide/)
+使用 Aspose.OCR 在 C# 中实现完整的图像文本提取指南，帮助您快速集成 OCR 功能。
+### [在 C# 中使用批量 OCR 从 TIFF 提取文本 – 完整指南](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+使用 Aspose.OCR 在 C# 中批量处理 TIFF 文件，轻松提取文本并集成到您的应用程序中。
+### [在 C# 中创建可搜索 PDF – 完整指南](./create-searchable-pdf-in-c-complete-guide/)
+使用 Aspose.OCR 在 C# 中创建可搜索的 PDF，提供完整的分步指南，帮助您轻松实现 PDF 文本搜索功能。
+### [在 C# 中从 PNG 识别文本 – 完整 OCR 与拼写检查指南](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+使用 Aspose.OCR 在 C# 中实现完整的 PNG 文本识别和拼写检查，帮助您快速集成 OCR 功能。
+### [如何在 C# 中执行 OCR – 从图像识别文本](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+使用 Aspose.OCR 在 C# 中轻松实现 OCR，从图像中提取文本并快速集成到您的应用程序。
+
+### [在 C# 中从图像提取文本 – 使用 Aspose OCR 将图像转为文本](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+使用 Aspose OCR 在 C# 中轻松实现图像转文本，快速提取并集成到您的应用程序。
+
+### [从扫描文档创建可搜索 PDF – 完整 C# 指南](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+使用 Aspose.OCR 在 C# 中将扫描文档转换为可搜索的 PDF，提供完整的实现步骤。
+
+### [Aspose OCR 示例 – 将图像文本转换为 JSON（C#）](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+使用 Aspose OCR 在 C# 中将图像文本转换为 JSON 格式，提供分步指南提升 OCR 效率。
 ### [在 C# 中使用 Aspose OCR 将图像转换为文本](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
 使用 Aspose.OCR 在 C# 中轻松将图像转换为可编辑文本，遵循我们的分步指南实现高效 OCR。
 ### [从 PNG 提取文本 – 完整的 C# 批量 OCR 教程](./extract-text-from-png-complete-c-batch-ocr-tutorial/)

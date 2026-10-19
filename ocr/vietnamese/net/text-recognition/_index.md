@@ -479,6 +479,24 @@ Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng chính xác
 Hướng dẫn chi tiết cách thực hiện OCR hàng loạt trong C# để trích xuất văn bản từ nhiều hình ảnh một cách hiệu quả.
 ### [Trích xuất văn bản từ TIFF bằng Aspose OCR Engine – Ví dụ hoàn chỉnh](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR để trích xuất văn bản từ tệp TIFF một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ hình ảnh trong C# – Hướng dẫn OCR toàn diện](./extract-text-from-image-in-c-complete-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ TIFF bằng Batch OCR trong C# – Hướng dẫn toàn diện](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR để trích xuất văn bản từ tệp TIFF bằng chế độ Batch OCR trong C#, nhanh chóng và hiệu quả.
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn toàn diện](./create-searchable-pdf-in-c-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để tạo PDF có thể tìm kiếm, giúp người dùng dễ dàng tra cứu nội dung.
+### [Nhận dạng văn bản từ PNG trong C# – Hướng dẫn OCR toàn diện & Kiểm tra chính tả](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp PNG và thực hiện kiểm tra chính tả một cách hiệu quả.
+### [Chuyển đổi hình ảnh sang JSON – Hướng dẫn OCR C# cho biên lai](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Biến đổi hình ảnh biên lai thành JSON nhanh chóng bằng Aspose.OCR trong C#.
+### [Cách thực hiện OCR trong C# – Nhận dạng văn bản từ hình ảnh](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Tạo PDF có thể tìm kiếm từ tài liệu quét – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để tạo PDF có thể tìm kiếm từ tài liệu quét, bao gồm các bước cấu hình và xuất kết quả.
+### [Trích xuất văn bản từ hình ảnh trong C# – chuyển ảnh sang văn bản bằng Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
+### [Ví dụ Aspose OCR – Chuyển đổi văn bản hình ảnh sang JSON trong C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để chuyển văn bản trong hình ảnh sang định dạng JSON một cách nhanh chóng.
 ### [Cách sử dụng Aspose OCR để chuyển đổi hình ảnh thành văn bản trong C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để chuyển đổi hình ảnh sang văn bản một cách nhanh chóng và chính xác.
 ### [Trích xuất văn bản từ PNG – Hướng dẫn OCR hàng loạt hoàn chỉnh bằng C#](./extract-text-from-png-complete-c-batch-ocr-tutorial/)

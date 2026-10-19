@@ -91,6 +91,10 @@ Desbloquea potentes capacidades OCR con Aspose.OCR para .NET. Extrae texto de im
 Aprende a descargar e instalar el paquete de idioma OCR para ruso y habilitar el reconocimiento multilingüe en Aspose.OCR.
 ### [Cómo habilitar GPU para OCR en C# – Guía paso a paso](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 Aprende a activar la aceleración GPU en Aspose.OCR usando C# para mejorar el rendimiento del reconocimiento de texto.
+### [Cómo desactivar OCR en C# – Guía offline de Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Desactiva la funcionalidad OCR en tus aplicaciones C# usando Aspose OCR sin conexión.
+### [Cargar imagen para OCR en C# – Guía completa de Aspose OCR y corrección ortográfica](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Aprende a cargar imágenes y aplicar OCR con Aspose, incluyendo verificación ortográfica, en aplicaciones C#.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

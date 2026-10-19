@@ -143,9 +143,6 @@ weight: 25
 ### [ดึงข้อความจากภาพใน C# – คู่มือ OCR ฉบับสมบูรณ์](./extract-text-from-image-in-c-complete-ocr-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพอย่างละเอียดและเพิ่มความแม่นยำของ OCR.
 
-### [วิธีปรับปรุงความแม่นยำ OCR ใน C# ด้วย Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
-เรียนรู้เทคนิคการเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose OCR ผ่านการปรับแต่งพรีโพรเซสซิ่งและการตั้งค่า
-
 ### [วิธีทำ OCR แบบอะซิงโครนัสใน C# – คู่มือขั้นตอนเต็ม](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
 เรียนรู้การทำ OCR แบบอะซิงโครนัสใน C# ด้วยขั้นตอนละเอียด เพื่อเพิ่มประสิทธิภาพและความเร็วของแอปพลิเคชันของคุณ
 
@@ -237,6 +234,9 @@ weight: 25
 ### [วิธีปรับปรุง OCR – ดึงข้อความจากภาพด้วย Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 เรียนรู้เทคนิคการเพิ่มประสิทธิภาพ OCR และการดึงข้อความจากภาพด้วย Aspose อย่างง่ายดาย.
 
+### [วิธีปรับปรุงความแม่นยำของ OCR ใน C# ด้วย Aspose OCR](./how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/)
+เรียนรู้เทคนิคการเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose OCR เพื่อผลลัพธ์ที่ดียิ่งขึ้น.
+### [วิธีทำ Deskew รูปภาพและเพิ่มความแม่นยำ OCR ใน C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 ### [วิธีปรับปรุงความแม่นยำ OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 เรียนรู้เทคนิคขั้นสูงเพื่อเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose.OCR อย่างละเอียดและเป็นขั้นตอน.
 

@@ -242,6 +242,8 @@ Scopri come eseguire il riconoscimento OCR su file PNG in batch usando l'acceler
 Impara a generare PDF ricercabili usando Aspose OCR in C#, trasformando immagini in documenti PDF con testo indicizzabile.
 ### [Come migliorare OCR – Estrarre testo dalle immagini con Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Scopri strategie avanzate per migliorare l'OCR e estrarre testo dalle immagini con Aspose.
+### [Come correggere l'inclinazione dell'immagine e migliorare l'accuratezza OCR in C# – Guida passo‑passo](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Scopri come raddrizzare le immagini e aumentare la precisione OCR con Aspose.OCR in C#, passo dopo passo.
 ### [Come migliorare l'accuratezza OCR in C# – Guida completa](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Scopri tecniche avanzate per aumentare la precisione OCR in C# con Aspose.OCR, includendo pre‑elaborazione, parametri e correzione.
 

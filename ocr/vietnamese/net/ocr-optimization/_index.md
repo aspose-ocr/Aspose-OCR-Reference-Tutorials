@@ -204,6 +204,8 @@ Hướng dẫn chi tiết cách tự động xoay và chỉnh nghiêng ảnh tr�
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR trong C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 ### [Cách cải thiện OCR – Trích xuất văn bản từ hình ảnh bằng Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Khám phá các kỹ thuật nâng cao để cải thiện độ chính xác OCR và trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET.
+### [Cách Định Góc Hình Ảnh và Tăng Độ Chính Xác OCR trong C# – Hướng Dẫn Từng Bước](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Khám phá cách chỉnh sửa góc ảnh và cải thiện độ chính xác OCR trong C# với hướng dẫn chi tiết từng bước.
 ### [Cách cải thiện độ chính xác OCR trong C# – Hướng dẫn đầy đủ](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Khám phá các kỹ thuật và bộ lọc để nâng cao độ chính xác OCR trong C# với Aspose.OCR, bao gồm tối ưu hoá tiền xử lý và kiểm tra chính tả.
 

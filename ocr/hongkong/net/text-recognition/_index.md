@@ -54,6 +54,8 @@ url: /zh-hant/net/text-recognition/
 ### [使用 Aspose OCR 將影像轉換為 JSON – 步驟說明指南](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 學習如何使用 Aspose OCR 將影像資料轉換為 JSON 格式，提供清晰的步驟指引。
 
+### [Aspose OCR 範例 – 將影像文字轉換為 JSON（C#）](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+使用 Aspose.OCR 在 C# 中將影像文字轉換為 JSON 格式，快速取得結構化辨識結果。
 ### [OCR影像辨識中的OCR偵測區域模式](./ocr-detect-areas-mode/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現高效的圖像文字識別。探索 OCR 偵測區域模式以獲得精確結果。
 
@@ -469,6 +471,22 @@ url: /zh-hant/net/text-recognition/
 本教學說明如何在 C# 應用程式中使用 Aspose OCR 進行中文文字的識別與提取。
 ### [使用 Aspose OCR 引擎從 TIFF 提取文字 – 完整範例](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 示範如何使用 Aspose.OCR 引擎從 TIFF 圖像中完整提取文字，提供步驟說明與範例程式碼。
+### [在 C# 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-in-c-complete-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 建立可搜尋的 PDF，涵蓋設定、執行與結果處理。
+### [在 C# 中從圖像提取文字 – 完整 OCR 指南](./extract-text-from-image-in-c-complete-ocr-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 從圖像中提取文字，涵蓋設定、執行與結果處理。
+### [在 C# 中使用批次 OCR 從 TIFF 提取文字 – 完整指南](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+示範如何在 C# 使用 Aspose.OCR 以批次方式從 TIFF 圖像提取文字，涵蓋設定、執行與結果處理。
+### [在 C# 中從 PNG 文字辨識 – 完整 OCR 與拼寫檢查指南](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+完整教學示範如何在 C# 使用 Aspose.OCR 從 PNG 圖像提取文字並進行拼寫檢查，涵蓋設定、執行與結果處理。
+### [將影像轉換為 JSON – C# 收據 OCR 教程](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+使用 Aspose.OCR 在 C# 中將收據影像轉換為 JSON 格式，提供完整步驟指南。
+### [如何在 C# 中執行 OCR – 從影像辨識文字](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+使用 Aspose.OCR 在 C# 中輕鬆執行 OCR，從影像中快速提取文字。
+### [從掃描文件建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+使用 Aspose.OCR 在 C# 中將掃描文件轉換為可搜尋的 PDF，完整步驟教學。
+### [從影像提取文字（C#） – 使用 Aspose OCR 的 C# 影像轉文字](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+使用 Aspose.OCR 在 C# 中輕鬆將影像轉換為文字，快速提取所需內容。
 ### [從掃描影像建立可搜尋 PDF – C# 教學](./create-searchable-pdf-from-scanned-image-c-guide/)
 使用 Aspose.OCR 在 C# 中將掃描的影像轉換為可搜尋的 PDF，提升文件可存取性與搜尋功能。
 ### [如何在 C# 中使用 Aspose OCR 將影像轉換為文字](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)

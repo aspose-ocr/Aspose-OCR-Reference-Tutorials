@@ -490,6 +490,23 @@ Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een gescande afbe
 ### [Tekst extraheren uit afbeelding in C# – Converteren naar JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
 Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt en deze omzet naar JSON- en XML-formaten voor eenvoudige verwerking.
 
+### [Tekst extraheren uit afbeelding in C# – Complete OCR-gids](./extract-text-from-image-in-c-complete-ocr-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt met een volledige stap‑voor‑stap OCR‑handleiding.
+### [Tekst extraheren uit TIFF met batch-OCR in C# – Complete gids](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit TIFF-bestanden haalt via batch‑OCR in deze volledige stap‑voor‑stap gids.
+### [Maak doorzoekbare PDF in C# – Complete gids](./create-searchable-pdf-in-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# doorzoekbare PDF's maakt met een volledige stap‑voor‑stap handleiding.
+### [Tekst herkennen uit PNG in C# – Complete OCR‑ en spellingscontrole‑gids](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+### [Afbeelding naar JSON converteren – C# OCR-tutorial voor bonnen](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Leer hoe u met Aspose.OCR in C# afbeeldingen van bonnen omzet naar JSON voor eenvoudige verwerking.
+### [Hoe OCR uit te voeren in C# – Tekst herkennen uit afbeelding](./how-to-perform-ocr-in-c-recognize-text-from-image/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen kunt extraheren en verwerken.
+### [Tekst extraheren uit afbeelding in C# – c# afbeelding naar tekst met Aspose OCR](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
+Ontdek hoe u met Aspose.OCR in C# tekst uit een afbeelding kunt halen en verwerken.
+### [Maak doorzoekbare PDF van een gescand document – Complete C#-gids](./create-searchable-pdf-from-scanned-document-complete-c-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een gescand document, stap voor stap.
+### [Aspose OCR-voorbeeld – Converteer afbeeldingstekst naar JSON in C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
+Leer hoe u met Aspose.OCR in C# tekst uit een afbeelding kunt omzetten naar JSON-formaat voor eenvoudige verwerking.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

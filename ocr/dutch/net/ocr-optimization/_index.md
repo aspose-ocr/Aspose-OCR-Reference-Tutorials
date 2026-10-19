@@ -246,6 +246,8 @@ Ontdek hoe je met GPU‑versnelling grote hoeveelheden PNG‑bestanden snel kunt
 Genereer een doorzoekbare PDF vanuit afbeeldingen met Aspose OCR en C#. Volg de stapsgewijze handleiding.
 ### [Hoe OCR te verbeteren – Tekst extraheren uit afbeeldingen met Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
 Leer hoe je OCR-prestaties kunt optimaliseren en nauwkeurige tekstextractie uit afbeeldingen met Aspose.
+### [Hoe afbeelding rechtzetten en OCR‑nauwkeurigheid verbeteren in C# – Stapsgewijze gids](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Leer hoe je afbeeldingen kantelt en OCR‑precisie verhoogt met een eenvoudige C#‑stap‑voor‑stap handleiding.
 ### [Hoe de OCR-nauwkeurigheid te verbeteren in C# – Complete gids](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Leer stap‑voor‑stap hoe je OCR‑nauwkeurigheid in C# optimaliseert met geavanceerde technieken en instellingen.
 
