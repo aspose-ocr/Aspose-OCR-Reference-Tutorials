@@ -240,6 +240,15 @@ weight: 25
 ### [วิธีปรับปรุงความแม่นยำ OCR ใน C# – คู่มือฉบับสมบูรณ์](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 เรียนรู้เทคนิคขั้นสูงเพื่อเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose.OCR อย่างละเอียดและเป็นขั้นตอน.
 
+### [Aspose OCR GPU: จดจำข้อความจากภาพ TIFF ด้วย C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+ใช้ Aspose OCR GPU เพื่อแปลงไฟล์ TIFF เป็นข้อความด้วย C# อย่างรวดเร็วและแม่นยำ
+
+### [วิธีการแก้ไขการเอียงของภาพและเพิ่มความแม่นยำ OCR – คู่มือ Aspose OCR ฉบับสมบูรณ์](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+เรียนรู้การทำ Deskew ภาพเพื่อปรับปรุงความแม่นยำ OCR ด้วย Aspose OCR ในขั้นตอนครบถ้วน
+
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพโดยใช้ Aspose OCR ด้วยขั้นตอนละเอียดและโค้ดตัวอย่างครบถ้วน
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

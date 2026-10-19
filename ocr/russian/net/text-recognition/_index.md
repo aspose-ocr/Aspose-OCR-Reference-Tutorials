@@ -494,6 +494,15 @@ url: /ru/net/text-recognition/
 Полное руководство по извлечению текста из PNG‑изображений в C# с использованием Aspose.OCR и проверкой орфографии.
 ### [Преобразовать изображение в JSON – Руководство по OCR на C# для чеков](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Научитесь конвертировать изображения чеков в JSON с помощью Aspose.OCR на C# для удобной обработки данных.
+### [Создание поискового PDF из изображения с OCR на C# – Полное руководство](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+Научитесь преобразовывать изображения в PDF с возможностью поиска, используя Aspose.OCR и C# в этом полном руководстве.
+### [Выполнить OCR на изображении с C# – Полное пошаговое руководство](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Освойте полное пошаговое руководство по выполнению OCR на изображениях с помощью Aspose.OCR и C# для точного распознавания текста.
+### [Как использовать Aspose OCR в C# – Полное руководство](./how-to-use-aspose-ocr-in-c-full-guide/)
+Полное руководство по использованию Aspose OCR в C# для точного распознавания текста и интеграции в ваши проекты.
+### [Как выполнить OCR в C# – Преобразовать изображение в текст с помощью Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Освойте полное руководство по выполнению OCR в C# и преобразованию изображений в текст с помощью Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

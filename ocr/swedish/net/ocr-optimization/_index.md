@@ -241,6 +241,12 @@ Lär dig förbättra OCR‑noggrannheten och extrahera text från bilder med Asp
 Lär dig att räta upp bilder och öka OCR‑precisionen med Aspose.OCR i C# med vår detaljerade steg‑för‑steg‑guide.
 ### [Hur du förbättrar OCR‑noggrannhet i C# – Komplett guide](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Lär dig steg‑för‑steg tekniker för att öka OCR‑noggrannheten i C# med Aspose.OCR, inklusive förbehandling och parametrar.
+### [Aspose OCR GPU: Läs text från TIFF‑bild med C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Utnyttja GPU‑acceleration för att snabbt känna igen text i TIFF‑bilder med Aspose OCR och C#.
+### [Hur man räta upp bild och förbättrar OCR‑noggrannhet – Komplett Aspose OCR‑guide](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Lär dig använda deskew‑filter för att korrigera snedvridna bilder och öka OCR‑precisionen med Aspose OCR.
+### [Skapa sökbar PDF med Aspose OCR – Komplett programmeringsguide](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Lär dig steg‑för‑steg hur du skapar sökbara PDF‑dokument med Aspose OCR i C#.
 
 ## Vanliga frågor
 

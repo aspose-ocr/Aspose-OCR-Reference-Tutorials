@@ -512,6 +512,15 @@ url: /ar/net/text-recognition/
 تعلم استخراج النص من ملفات PNG باستخدام C# و Aspose.OCR مع تدقيق إملائي شامل خطوة بخطوة.
 ### [تحويل الصورة إلى JSON – دليل OCR بلغة C# للإيصالات](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 تعلم كيفية تحويل الصور إلى تنسيق JSON باستخدام Aspose.OCR في C# لمعالجة الإيصالات بدقة وسهولة.
+### [إنشاء ملف PDF قابل للبحث من صورة باستخدام OCR في C# – دليل كامل](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
+### [إجراء OCR على صورة باستخدام C# – دليل كامل خطوة بخطوة](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على الحروف للصور باستخدام C# خطوة بخطوة مع Aspose.OCR.
+### [كيفية استخدام Aspose OCR في C# – دليل كامل](./how-to-use-aspose-ocr-in-c-full-guide/)
+اكتشف دليلًا شاملاً لاستخدام Aspose OCR في C# خطوة بخطوة لتحقيق التعرف الضوئي على الحروف بدقة عالية.
+### [كيفية إجراء OCR في C# – تحويل الصورة إلى نص باستخدام Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+تعلم كيفية تنفيذ OCR على الصور باستخدام C# وتحويلها إلى نص باستخدام Aspose OCR خطوة بخطوة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

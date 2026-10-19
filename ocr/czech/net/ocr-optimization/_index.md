@@ -242,6 +242,11 @@ Naučte se optimalizovat OCR a zvýšit přesnost extrakce textu z obrázků s n
 Naučte se odstranit sklon obrázku a optimalizovat OCR pomocí Aspose.OCR v C# pro maximální přesnost.
 ### [Jak zlepšit přesnost OCR v C# – Kompletní průvodce](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Zvyšte přesnost OCR v C# pomocí praktických tipů a technik. Kompletní průvodce pro vývojáře .NET.
+### [Aspose OCR GPU: Rozpoznání textu z TIFF obrázku pomocí C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z TIFF souborů pomocí Aspose OCR a C#.
+### [Jak narovnat obrázek a zvýšit přesnost OCR – Kompletní průvodce Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Zlepšete přesnost OCR pomocí korekce sklonu obrázku a kompletního návodu pro Aspose OCR.
+### [Vytvořit prohledávatelný PDF pomocí Aspose OCR – Kompletní programovací průvodce](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 
 ## Často kladené otázky
 

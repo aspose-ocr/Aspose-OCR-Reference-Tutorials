@@ -517,6 +517,14 @@ Naučte se pomocí Aspose.OCR v C# extrahovat arabský text z obrázků a integr
 Naučte se pomocí Aspose.OCR v C# vytvořit prohledávatelný PDF soubor ze skenovaného obrázku a integrovat jej do vašich .NET aplikací.
 ### [Extrahovat text z obrázku v C# – převést na JSON a XML](./extract-text-from-image-in-c-convert-to-json-xml/)
 Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z obrázku a převést výsledek do formátů JSON a XML.
+### [Vytvořte prohledávatelný PDF z obrázku pomocí OCR v C# – Kompletní průvodce](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s plným textovým obsahem.
+### [Proveďte OCR na obrázku v C# – Kompletní průvodce krok za krokem](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Naučte se pomocí Aspose.OCR v C# provést OCR na obrázku s podrobným krok‑za‑krokem návodem.
+### [Jak používat Aspose OCR v C# – Kompletní průvodce](./how-to-use-aspose-ocr-in-c-full-guide/)
+Naučte se, jak v C# využít Aspose OCR pro kompletní OCR řešení od načtení až po výstup.
+### [Jak provést OCR v C# – převést obrázek na text s Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Naučte se pomocí Aspose OCR v C# převést obrázek na text v několika jednoduchých krocích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

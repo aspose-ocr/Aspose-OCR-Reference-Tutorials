@@ -508,6 +508,14 @@ C# 애플리케이션에서 Aspose.OCR을 사용해 아랍어 텍스트를 정�
 C# 애플리케이션에서 Aspose.OCR을 사용해 스캔한 이미지에서 검색 가능한 PDF를 생성하는 단계별 가이드입니다.
 ### [C#에서 이미지에서 텍스트 추출 – JSON 및 XML로 변환](./extract-text-from-image-in-c-convert-to-json-xml/)
 C# 애플리케이션에서 Aspose.OCR을 사용해 이미지를 텍스트로 추출하고 결과를 JSON 및 XML 형식으로 변환하는 단계별 가이드.
+### [C#로 OCR을 이용해 이미지에서 검색 가능한 PDF 만들기 – 완전 가이드](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+이미지를 OCR로 처리해 검색 가능한 PDF 파일을 생성하는 방법을 단계별로 안내합니다.
+### [C#로 이미지에서 OCR 수행 – 완전 단계별 가이드](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+이미지를 OCR로 처리해 텍스트를 추출하고 구현하는 전체 과정을 단계별로 안내합니다.
+### [C#에서 OCR 수행 방법 – Aspose OCR로 이미지에서 텍스트 변환](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Aspose OCR을 사용해 C#에서 이미지를 텍스트로 변환하는 단계별 가이드를 제공합니다.
+### [C#에서 Aspose OCR 사용 방법 – 완전 가이드](./how-to-use-aspose-ocr-in-c-full-guide/)
+C#에서 Aspose OCR을 활용해 이미지 텍스트를 추출하고 처리하는 전체 과정을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

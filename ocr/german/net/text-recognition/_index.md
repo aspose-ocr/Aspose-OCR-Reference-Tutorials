@@ -495,6 +495,13 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# durchsuchbare PDFs erstellen und naht
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus PNG‑Dateien extrahieren und gleichzeitig Rechtschreibprüfung durchführen.
 ### [Bild in JSON konvertieren – C# OCR‑Tutorial für Belege](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Bilder von Belegen in JSON konvertieren und OCR‑Daten effizient nutzen.
+### [OCR auf Bild mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# OCR auf Bildern durchführen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Aspose OCR in C# verwendet – Vollständige Anleitung](./how-to-use-aspose-ocr-in-c-full-guide/)
+Erfahren Sie, wie Sie Aspose OCR in C# einsetzen – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Wie man OCR in C# durchführt – Bild in Text konvertieren mit Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Lernen Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln – Schritt‑für‑Schritt‑Anleitung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

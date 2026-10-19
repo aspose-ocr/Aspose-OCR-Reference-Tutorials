@@ -204,6 +204,11 @@ Aspose를 사용하여 이미지에서 텍스트를 추출하고 OCR 정확도�
 이미지 기울기를 보정하고 전처리 필터를 적용하여 OCR 정확도를 크게 향상시키는 방법을 단계별로 안내합니다.
 ### [C#에서 OCR 정확도를 향상시키는 방법 – 완전 가이드](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Aspose.OCR을 사용해 C#에서 OCR 정확도를 극대화하는 단계별 방법을 안내합니다.
+### [Aspose OCR GPU: C#로 TIFF 이미지에서 텍스트 인식](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Aspose OCR GPU를 활용해 C#에서 TIFF 형식 이미지의 텍스트를 고속으로 정확하게 추출하는 방법을 안내합니다.
+### [Aspose OCR로 검색 가능한 PDF 만들기 – 완전 프로그래밍 가이드](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Aspose OCR을 사용해 PDF를 검색 가능하게 변환하고, 전체 프로그래밍 단계와 코드 예제를 확인하세요.
+### [이미지 기울기 보정 및 OCR 정확도 향상 방법 – 전체 Aspose OCR 가이드](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
 
 ## 자주 묻는 질문
 

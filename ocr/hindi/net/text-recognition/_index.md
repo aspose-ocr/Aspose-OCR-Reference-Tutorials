@@ -506,6 +506,14 @@ C# में Aspose OCR का उपयोग करके अरबी टे�
 स्कैन की गई छवि को खोज योग्य PDF में बदलने के लिए C# में Aspose OCR का उपयोग करने की चरण-दर-स्टेप गाइड।
 ### [C# में इमेज से टेक्स्ट निकालें – JSON और XML में बदलें](./extract-text-from-image-in-c-convert-to-json-xml/)
 C# में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालें और उसे JSON व XML फ़ॉर्मेट में बदलें।
+### [C# के साथ छवि पर OCR करें – पूर्ण चरण‑दर‑चरण गाइड](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+C# में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑ चरण मार्गदर्शिका।
+
+### [C# में Aspose OCR का उपयोग कैसे करें – पूर्ण गाइड](./how-to-use-aspose-ocr-in-c-full-guide/)
+C# में Aspose OCR को लागू करने के सभी चरणों को जानें और इमेज से टेक्स्ट निकालने की पूरी गाइड प्राप्त करें।
+
+### [C# में OCR कैसे करें – Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

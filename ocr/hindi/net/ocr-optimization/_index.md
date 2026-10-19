@@ -260,6 +260,15 @@ C# में छवि को डेस्क्यू करके OCR की �
 ### [C# में OCR सटीकता सुधारने के लिए पूर्ण गाइड](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 C# में OCR की सटीकता बढ़ाने के लिए चरण‑दर‑चरण तकनीकें और सर्वोत्तम प्रथाएँ सीखें।
 
+### [Aspose OCR GPU: C# के साथ TIFF से टेक्स्ट इमेज पहचानें](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Aspose OCR GPU का उपयोग करके C# में TIFF फ़ाइल से तेज़ और सटीक टेक्स्ट निकालें।
+
+### [छवि को डेस्क्यू कैसे करें और OCR सटीकता बढ़ाएँ – पूर्ण Aspose OCR गाइड](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Aspose OCR के साथ छवि को डेस्क्यू करके पहचान की सटीकता बढ़ाने के चरण‑दर‑चरण निर्देश।
+
+### [Aspose OCR के साथ खोज योग्य PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Aspose OCR का उपयोग करके PDF को खोज योग्य बनाएं, कोड उदाहरण और चरण‑दर‑चरण निर्देशों के साथ।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

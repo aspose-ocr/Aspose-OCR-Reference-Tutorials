@@ -236,6 +236,12 @@ Apprenez à optimiser votre OCR et à extraire du texte d'images avec Aspose pou
 Apprenez à corriger l’inclinaison des images et à optimiser la reconnaissance OCR avec Aspose.OCR en C#.
 ### [Comment améliorer la précision OCR en C# – Guide complet](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Apprenez à augmenter la précision de l’OCR en C# grâce à des techniques avancées et des réglages optimaux.
+### [Aspose OCR GPU : Reconnaître du texte à partir d’une image TIFF avec C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Utilisez le GPU d’Aspose OCR pour extraire du texte d’un fichier TIFF en C#, améliorant les performances de reconnaissance.
+### [Comment redresser une image et améliorer la précision OCR – Guide complet Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Apprenez à corriger l’inclinaison des images et à optimiser la précision de l’OCR avec Aspose OCR grâce à ce guide complet.
+### [Créer un PDF consultable avec Aspose OCR – Guide complet de programmation](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Apprenez à générer un PDF consultable à partir d’images en utilisant Aspose OCR avec un guide de programmation complet.
 
 ## Questions fréquemment posées
 

@@ -244,6 +244,11 @@ Aspose の機能を活用し、OCR の精度と効率を向上させ、画像か
 
 ### [C# で OCR 精度を向上させる方法 – 完全ガイド](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 C# で OCR の精度を最大化するためのベストプラクティスと設定手順をステップバイステップで解説します。
+### [Aspose OCR GPU: C# を使用して TIFF 画像からテキストを認識する](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+GPU を活用し、C# で TIFF 画像から高速にテキストを抽出する手順を解説します。
+### [画像のデスキューと OCR 精度向上 – 完全 Aspose OCR ガイド](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+画像の傾きを補正し、OCR の認識精度を最大化する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して検索可能な PDF を作成 – 完全プログラミングガイド](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 
 ## よくある質問
 

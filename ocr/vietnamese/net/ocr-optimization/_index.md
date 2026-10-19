@@ -208,6 +208,12 @@ Khám phá các kỹ thuật nâng cao để cải thiện độ chính xác OCR
 Khám phá cách chỉnh sửa góc ảnh và cải thiện độ chính xác OCR trong C# với hướng dẫn chi tiết từng bước.
 ### [Cách cải thiện độ chính xác OCR trong C# – Hướng dẫn đầy đủ](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Khám phá các kỹ thuật và bộ lọc để nâng cao độ chính xác OCR trong C# với Aspose.OCR, bao gồm tối ưu hoá tiền xử lý và kiểm tra chính tả.
+### [Aspose OCR GPU: Nhận dạng hình ảnh văn bản từ TIFF bằng C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Khám phá cách sử dụng Aspose OCR GPU để nhận dạng văn bản từ tệp TIFF bằng C# với hiệu năng tăng tốc.
+### [Cách chỉnh nghiêng ảnh và tăng độ chính xác OCR – Hướng dẫn đầy đủ Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Khám phá cách loại bỏ nghiêng ảnh và cải thiện độ chính xác OCR với Aspose OCR trong hướng dẫn chi tiết này.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn lập trình đầy đủ](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR trong .NET, bao gồm các bước cấu hình và lưu tài liệu.
 
 ## Câu hỏi thường gặp
 

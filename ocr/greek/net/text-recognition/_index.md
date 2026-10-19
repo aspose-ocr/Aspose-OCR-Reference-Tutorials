@@ -502,6 +502,14 @@ url: /el/net/text-recognition/
 ### [Πώς να κάνετε OCR Αραβικά – Οδηγός C# για εξαγωγή αραβικού κειμένου](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
 ### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένη Ε εικόνα – Οδηγός C#](./create-searchable-pdf-from-scanned-image-c-guide/)
 Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF από σαρωμένη εικόνα με Aspose.OCR σε C# μέσω βήμα-βήμα οδηγού.
+### [Δημιουργία PDF με δυνατότητα αναζήτησης από εικόνα με OCR σε C# – Πλήρης Οδηγός](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+Μάθετε πώς να μετατρέψετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας Aspose.OCR σε C# με αυτόν τον πλήρη οδηγό.
+### [Εκτέλεση OCR σε εικόνα με C# – Πλήρης οδηγός βήμα‑βήμα](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Μάθετε πώς να εφαρμόσετε OCR σε εικόνα χρησιμοποιώντας C# με έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να εκτελέσετε OCR σε C# – Μετατροπή εικόνας σε κείμενο με Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Μάθετε πώς να εφαρμόσετε OCR σε εικόνα χρησιμοποιώντας C# και Aspose OCR για να μετατρέψετε εικόνες σε επεξεργάσιμο κείμενο.
+### [Πώς να χρησιμοποιήσετε το Aspose OCR σε C# – Πλήρης Οδηγός](./how-to-use-aspose-ocr-in-c-full-guide/)
+Μάθετε πώς να ενσωματώσετε το Aspose OCR σε εφαρμογές C# με αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

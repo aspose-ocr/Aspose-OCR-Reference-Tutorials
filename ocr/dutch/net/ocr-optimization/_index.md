@@ -250,6 +250,12 @@ Leer hoe je OCR-prestaties kunt optimaliseren en nauwkeurige tekstextractie uit 
 Leer hoe je afbeeldingen kantelt en OCR‑precisie verhoogt met een eenvoudige C#‑stap‑voor‑stap handleiding.
 ### [Hoe de OCR-nauwkeurigheid te verbeteren in C# – Complete gids](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Leer stap‑voor‑stap hoe je OCR‑nauwkeurigheid in C# optimaliseert met geavanceerde technieken en instellingen.
+### [Aspose OCR GPU: Tekst uit TIFF‑afbeelding herkennen met C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Gebruik de GPU-versnelling van Aspose OCR om tekst uit TIFF‑bestanden te extraheren met C# voor hoge prestaties.
+### [Hoe een afbeelding rechtzetten en OCR‑nauwkeurigheid verbeteren – Complete Aspose OCR‑gids](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Leer hoe je afbeeldingen kunt rechtzetten en OCR‑nauwkeurigheid kunt verhogen met deze volledige Aspose OCR‑handleiding.
+### [Maak doorzoekbare PDF met Aspose OCR – Complete programmeergids](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Leer stap‑voor‑stap hoe je met Aspose OCR doorzoekbare PDF‑bestanden genereert en opslaat via een volledige programmeergids.
 
 ## Veelgestelde vragen
 

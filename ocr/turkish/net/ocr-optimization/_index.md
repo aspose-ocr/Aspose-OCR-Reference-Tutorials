@@ -224,6 +224,12 @@ Aspose ile OCR doğruluğunu artırın ve görüntülerden metni etkili bir şek
 Aspose.OCR for .NET ile görüntüyü düzleştirerek OCR doğruluğunu artırın. Adım adım rehber.
 ### [C#'ta OCR Doğruluğunu Artırma – Tam Kılavuz](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 C# ile OCR doğruluğunu artırmak için adım adım teknikler, ön işleme ipuçları ve en iyi uygulamaları öğrenin.
+### [Aspose OCR GPU: C# ile TIFF Görüntüsünden Metin Tanıma](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Aspose OCR GPU kullanarak C# ile TIFF dosyalarından yüksek doğrulukta metin tanıma işlemini öğrenin.
+### [Görüntüyü Düzleştir ve OCR Doğruluğunu Artır – Tam Aspose OCR Rehberi](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Aspose.OCR ile eğriltme hatasını giderip OCR doğruluğunu yükseltin. C# örnekleriyle adım adım uygulayın.
+### [Aspose OCR ile Aranabilir PDF Oluşturma – Tam Programlama Rehberi](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Aspose OCR ile aranabilir PDF oluşturmayı adım adım öğrenin ve uygulayın.
 
 ## Sıkça Sorulan Sorular
 

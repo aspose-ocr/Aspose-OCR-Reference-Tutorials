@@ -251,6 +251,14 @@ Dowiedz się, jak zwiększyć skuteczność OCR i wyodrębnić tekst z obrazów 
 Dowiedz się, jak prostować obrazy i poprawić wyniki OCR w C# przy użyciu Aspose.OCR.
 ### [Jak poprawić dokładność OCR w C# – Kompletny przewodnik](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Kompletny przewodnik, jak zwiększyć precyzję OCR w C# poprzez optymalizację ustawień, filtrowanie obrazu i korektę wyników.
+### [Aspose OCR GPU: Rozpoznawanie tekstu z obrazu TIFF w C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Wykorzystaj GPU w Aspose.OCR dla .NET, aby szybko rozpoznawać tekst z plików TIFF przy użyciu C#.
+
+### [Jak prostować obraz i zwiększyć dokładność OCR – Kompletny przewodnik Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Zastosuj prostowanie obrazu, aby zwiększyć precyzję OCR w Aspose.OCR for .NET. Kompletny przewodnik krok po kroku.
+
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Kompletny przewodnik programistyczny](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełnym przewodniku programistycznym.
 
 ## Często zadawane pytania
 

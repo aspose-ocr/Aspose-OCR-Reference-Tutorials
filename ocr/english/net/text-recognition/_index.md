@@ -523,6 +523,14 @@ Learn how to extract Arabic text from images using Aspose OCR in C#. Follow our 
 Learn how to convert scanned images into searchable PDFs using Aspose.OCR in C#. Follow our step-by-step guide for seamless integration.
 ### [Extract text from image in C# – Convert to JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
 Learn how to extract text from images and convert the OCR results to JSON and XML using Aspose.OCR in C#.
+### [Create Searchable PDF from Image with OCR in C# – Complete Guide](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+Create a searchable PDF from an image using Aspose.OCR in C#. Follow our comprehensive guide to convert images to searchable PDFs effortlessly.
+### [Perform OCR on Image with C# – Complete Step‑by‑Step Guide](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Perform OCR on images using Aspose.OCR in C#. Follow this complete step‑by‑step guide to integrate OCR functionality into your .NET projects.
+### [How to Use Aspose OCR in C# – Full Guide](./how-to-use-aspose-ocr-in-c-full-guide/)
+Learn how to use Aspose OCR in C# with this comprehensive full guide. Follow step‑by‑step instructions to integrate OCR into your .NET projects.
+### [How to Perform OCR in C# – Convert Image to Text with Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Learn how to convert images to text using Aspose OCR in C#. Follow our step-by-step guide for seamless OCR integration.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

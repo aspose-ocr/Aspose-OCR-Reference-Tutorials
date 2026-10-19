@@ -507,6 +507,14 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xu�
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm từ hình ảnh đã quét bằng Aspose.OCR trong C#.
 ### [Trích xuất văn bản từ hình ảnh trong C# – Chuyển sang JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh và chuyển kết quả sang định dạng JSON và XML.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh với OCR trong C# – Hướng dẫn đầy đủ](./create-searchable-pdf-from-image-with-ocr-in-c-complete-guid/)
+Biến hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR trong C#. Hướng dẫn chi tiết từng bước để tạo PDF OCR nhanh chóng.
+### [Thực hiện OCR trên hình ảnh với C# – Hướng dẫn đầy đủ từng bước](./perform-ocr-on-image-with-c-complete-step-by-step-guide/)
+Thực hiện OCR trên hình ảnh bằng C# với Aspose.OCR, hướng dẫn chi tiết từng bước để nhận dạng ký tự nhanh chóng và chính xác.
+### [Cách sử dụng Aspose OCR trong C# – Hướng dẫn đầy đủ](./how-to-use-aspose-ocr-in-c-full-guide/)
+Hướng dẫn chi tiết từng bước cách sử dụng Aspose OCR trong C# để nhận dạng ký tự nhanh chóng và chính xác.
+### [Cách thực hiện OCR trong C# – Chuyển đổi hình ảnh thành văn bản với Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
+Thực hiện OCR trên hình ảnh bằng C# với Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi hình ảnh thành văn bản nhanh chóng và chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

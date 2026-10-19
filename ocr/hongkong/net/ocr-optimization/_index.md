@@ -234,6 +234,11 @@ weight: 25
 本教學說明如何在 C# 使用 Aspose.OCR 去除圖像斜角，提升辨識精度，提供完整步驟與範例程式碼。
 ### [如何在 C# 中提升 OCR 準確度 – 完整指南](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 深入探討在 C# 使用 Aspose.OCR 提升辨識精度的技巧與最佳實踐，完整步驟教學。
+### [Aspose OCR GPU：使用 C# 從 TIFF 圖像辨識文字](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+利用 Aspose.OCR GPU 加速，在 C# 中從 TIFF 檔案執行文字辨識，提高效能與準確度。
+### [如何去除圖像傾斜並提升 OCR 準確度 – 完整 Aspose OCR 指南](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+深入了解如何去除圖像傾斜、應用前處理濾鏡，提升 Aspose.OCR 的辨識精度。
+### [使用 Aspose OCR 建立可搜尋 PDF – 完整程式設計指南](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 
 ## 常見問題
 

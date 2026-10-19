@@ -236,6 +236,12 @@ Learn techniques to boost OCR accuracy and extract text from images using Aspose
 Learn to deskew images in C# using Aspose.OCR, improving OCR accuracy with practical step‑by‑step instructions.
 ### [How to Improve OCR Accuracy in C# – Complete Guide](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Learn techniques to boost OCR accuracy in C# using Aspose.OCR, covering preprocessing, language settings, and result correction.
+### [Aspose OCR GPU: Recognize Text Image from TIFF with C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Leverage GPU acceleration to recognize text from TIFF images using Aspose.OCR for .NET with C#.
+### [How to Deskew Image and Boost OCR Accuracy – Complete Aspose OCR Guide](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Learn to deskew images and improve OCR results using Aspose.OCR for .NET in a step‑by‑step guide.
+### [Create Searchable PDF with Aspose OCR – Complete Programming Guide](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Create searchable PDFs from images using Aspose.OCR for .NET with a full programming guide.
 
 ## Frequently Asked Questions
 

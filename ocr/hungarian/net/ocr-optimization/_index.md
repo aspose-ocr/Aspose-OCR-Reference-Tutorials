@@ -255,6 +255,15 @@ Ismerje meg, hogyan egyenesítheti a képet és javíthatja az OCR pontosságát
 ### [Hogyan javítsuk az OCR pontosságát C#‑ban – Teljes útmutató](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
 Fedezze fel, hogyan növelheti az OCR pontosságát C#‑ban részletes útmutatónk segítségével.
 
+### [Aspose OCR GPU: Szöveg felismerése TIFF képből C#-ban](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Fedezze fel, hogyan használhatja az Aspose OCR GPU-t C#-ban TIFF képek szövegfelismerésére.
+
+### [Hogyan kiegyenesítsünk képet és növeljük az OCR pontosságát – Teljes Aspose OCR útmutató](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Ismerje meg, hogyan lehet kiegyenesíteni a képet és javítani az OCR pontosságát az Aspose OCR teljes útmutatójával.
+
+### [Kereshető PDF létrehozása Aspose OCR-rel – Teljes programozási útmutató](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et az Aspose OCR segítségével lépésről‑lépésre útmutatóval.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  
