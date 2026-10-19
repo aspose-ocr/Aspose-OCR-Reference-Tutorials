@@ -1,0 +1,211 @@
+---
+category: general
+date: 2026-03-18
+description: Как выполнять OCR PDF в C# – научитесь конвертировать отсканированные
+  PDF, создавать поисковые PDF, добавлять водяные знаки в PDF и извлекать текст из
+  PDF с помощью простого рабочего процесса OcrEngine.
+draft: false
+keywords:
+- how to ocr pdf
+- convert scanned pdf
+- create searchable pdf
+- add watermark pdf
+- extract text from pdf
+language: ru
+og_description: Как выполнить OCR PDF в C#? Это руководство показывает, как конвертировать
+  отсканированный PDF, создать PDF с возможностью поиска, добавить водяной знак в
+  PDF и извлечь текст из PDF с помощью OcrEngine.
+og_title: Как распознать PDF с помощью OCR в C# – Быстрое, полное руководство
+tags:
+- OCR
+- PDF
+- C#
+- Document Processing
+title: Как выполнить OCR PDF в C# – Конвертировать отсканированные PDF
+url: /ru/python-java/general/how-to-ocr-pdf-in-c-convert-scanned-pdfs/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Как выполнить OCR PDF в C# – Конвертация отсканированных PDF
+
+Когда‑нибудь вам нужно было **how to OCR PDF**, но вы застряли на отсканированном файле, который отказывался сотрудничать? Вы не одиноки. Во многих реальных проектах — подумайте о цифровизации счетов или архивировании исторических отчётов — вы получаете кучу изображений, вложенных в PDF, и единственный способ сделать их поисковыми — запустить OCR.  
+
+Хорошие новости? Всего несколькими строками C# вы можете **convert scanned PDF** в **create searchable PDF**, добавить лёгкий водяной знак и даже извлечь сырый текст для дальнейшей обработки. Ниже вы увидите полностью готовый пример, который делает именно это.
+
+## Что покрывает этот учебник
+
+* Как использовать **how to OCR PDF** с классом `OcrEngine`.  
+* Преобразование отсканированного PDF в **create searchable PDF**.  
+* Добавление водяного знака на первой странице (**add watermark pdf**).  
+* Извлечение строк обычного текста из результата (**extract text from pdf**).  
+* Распространённые подводные камни — например, работа с многостраничными документами или обработка сканов низкого разрешения.
+
+Нет внешних ссылок на документацию, нет незавершённых фрагментов кода. Всё, что вам нужно, находится здесь.
+
+## Предварительные требования
+
+* .NET 6.0 или новее (код также компилируется с .NET 5).  
+* Ссылка на OCR‑библиотеку, предоставляющую `OcrEngine` и `ImageFormats` (например, `Aspose.OCR` или аналогичный пакет).  
+* Входной PDF с именем `input.pdf`, размещённый в папке, которой вы управляете.  
+* Базовое знакомство с консольными приложениями C#.
+
+Если у вас уже всё это есть, отлично — давайте начнём.
+
+## Шаг 1: Настройка проекта и импорт зависимостей
+
+Создайте новый консольный проект и добавьте OCR‑пакет через NuGet:
+
+```bash
+dotnet new console -n OcrPdfDemo
+cd OcrPdfDemo
+dotnet add package Aspose.OCR
+```
+
+Теперь откройте `Program.cs`. Вверху подключите необходимые пространства имён:
+
+```csharp
+using System;
+using Aspose.OCR;          // OcrEngine lives here
+using Aspose.OCR.Image;   // ImageFormats enum
+```
+
+*Почему это важно*: импорт правильных пространств имён позволяет компилятору найти `OcrEngine`. Пропуск этого шага вызовет ошибку `CS0246` и остановит сборку.
+
+## Шаг 2: Инициализация OCR‑движка
+
+Движок — сердце процесса. Вы создаёте его один раз и переиспользуете для каждой страницы.
+
+```csharp
+// Step 2: Initialize the OCR engine
+OcrEngine engine = new OcrEngine();
+```
+
+*Совет*: если вы планируете обрабатывать много PDF подряд, рассмотрите возможность повторного использования того же экземпляра `engine`, чтобы избежать повторных проверок лицензии.
+
+## Шаг 3: Загрузка исходного PDF
+
+Укажите движку, с каким файлом работать. Метод `SetImageFromFile` принимает любой источник изображения или PDF.
+
+```csharp
+// Step 3: Load the scanned PDF you want to OCR
+engine.SetImageFromFile(@"YOUR_DIRECTORY\input.pdf");
+```
+
+> **Почему этот шаг критичен** — Движку нужен растровый (bitmap) представление каждой страницы. Когда вы передаёте ему PDF, он внутренне растеризует каждую страницу с использованием DPI по умолчанию (обычно 300). Если исходный PDF уже содержит текст, движок просто пропустит его без изменений, экономя ваше время.
+
+## Шаг 4: Запуск OCR‑распознавания
+
+Теперь происходит основная работа. Метод `Recognize` сканирует каждую страницу, извлекает глифы и создаёт поисковый слой.
+
+```csharp
+// Step 4: Perform OCR on the loaded document
+engine.Recognize();
+```
+
+*Распространённый вопрос*: *Что если PDF содержит 50 страниц?*  
+`Recognize` по умолчанию обрабатывает весь документ. Для сред с ограниченной памятью вы можете задать `engine.PageIndex` и `engine.PageCount`, чтобы работать постранично.
+
+## Шаг 5: Сохранение поискового PDF (водяной знак на странице 1)
+
+Мы сохраним результат в виде PDF. Первая страница автоматически получит водяной знак, так как OCR‑библиотека по умолчанию добавляет наложение «Generated by Aspose.OCR». Если нужен пользовательский водяной знак, вы можете изменить свойство `engine.Watermark` перед сохранением.
+
+```csharp
+// Step 5: Save the OCR‑processed PDF with a watermark on page 1
+engine.Save(@"YOUR_DIRECTORY\output.pdf", ImageFormats.Pdf);
+```
+
+После этого вызова у вас будет **create searchable PDF**, в котором можно выделять, копировать и искать текст, как в любом нативном PDF.
+
+## Шаг 6: Извлечение обычного текста (необязательно, но полезно)
+
+Если вы также хотите **extract text from pdf** для индексации или дальнейшего анализа, движок предоставляет доступ к сырой строке.
+
+```csharp
+// Step 6: Pull the recognized text into a string
+string extractedText = engine.Text;
+Console.WriteLine("=== Extracted Text Start ===");
+Console.WriteLine(extractedText);
+Console.WriteLine("=== Extracted Text End ===");
+```
+
+Свойство `engine.Text` объединяет текст всех страниц, сохраняя разрывы строк. При необходимости вы можете разбить его по `\f` (form feed), чтобы получить гранулярность по страницам.
+
+## Полный рабочий пример
+
+Ниже приведена полная программа. Скопируйте её в `Program.cs`, замените `YOUR_DIRECTORY` на абсолютный или относительный путь и запустите `dotnet run`.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1️⃣ Initialize the OCR engine
+            OcrEngine engine = new OcrEngine();
+
+            // 2️⃣ Load the source PDF to be processed
+            // Make sure the file exists; otherwise you'll get a FileNotFoundException.
+            string inputPath = @"YOUR_DIRECTORY\input.pdf";
+            engine.SetImageFromFile(inputPath);
+
+            // 3️⃣ Perform OCR recognition on the loaded document
+            engine.Recognize();
+
+            // 4️⃣ Save the recognized document as a PDF (watermark appears on page 1)
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+            engine.Save(outputPath, ImageFormats.Pdf);
+
+            // 5️⃣ (Optional) Extract plain text for further use
+            string extractedText = engine.Text;
+            Console.WriteLine("=== Extracted Text Start ===");
+            Console.WriteLine(extractedText);
+            Console.WriteLine("=== Extracted Text End ===");
+
+            Console.WriteLine($"OCR complete! Searchable PDF saved to: {outputPath}");
+        }
+    }
+}
+```
+
+### Ожидаемый вывод
+
+Запуск программы выводит извлечённый текст в консоль и создаёт `output.pdf`. Откройте PDF в любом просмотрщике (Adobe Acrobat, Edge и т.д.) и попробуйте найти слово, которое было в оригинальном скане — вы увидите, что теперь оно доступно для поиска. Первая страница показывает водяной знак по умолчанию, подтверждая успешное выполнение шага **add watermark pdf**.
+
+## Часто задаваемые вопросы и особые случаи
+
+| Вопрос | Ответ |
+|----------|--------|
+| **Что если скан имеет низкое разрешение?** | Увеличьте DPI перед распознаванием: `engine.ImageInfo.DpiX = engine.ImageInfo.DpiY = 600;`. Это даст OCR‑движку больше деталей для работы. |
+| **Могу ли я выбрать пользовательский водяной знак?** | Да. Установите `engine.Watermark = "Confidential – Processed on " + DateTime.Now.ToShortDateString();` перед `Save`. |
+| **Как обрабатывать PDF, защищённые паролем?** | Используйте `engine.LoadPassword = "yourPassword";` перед `SetImageFromFile`. |
+| **Можно ли ограничить OCR определёнными страницами?** | Установите `engine.PageIndex = 2;` и `engine.PageCount = 5;`, чтобы обрабатывать только страницы 3‑7. |
+| **Что если нужно оставить оригинальные изображения нетронутыми?** | После OCR вы можете объединить оригинальный PDF с OCR‑слоем, используя PDF‑библиотеку (например, `Aspose.PDF`), чтобы сохранить качество изображений. |
+
+## Советы и лучшие практики
+
+* **Совет:** Запускайте OCR в фоновом потоке, если интегрируете это в UI‑приложение — иначе интерфейс замёрзнет.  
+* **Остерегайтесь:** PDF с смешанным растровым и векторным содержимым. Движок будет выполнять OCR только на растровых страницах; векторный текст останется автоматически выделяемым.  
+* **Оптимизация производительности:** Кешируйте данные языка OCR (`engine.Language = OcrLanguage.English;`), чтобы избежать повторной загрузки для каждого документа.
+
+## Заключение
+
+Теперь у вас есть полное решение «сквозного» процесса для **how to OCR PDF** в C#. Инициализируя `OcrEngine`, загружая отсканированный файл, распознавая текст, сохраняя **create searchable pdf**, добавляя водяной знак и при желании **extracting text from pdf**, вы можете превратить любой PDF, основанный на изображениях, в поисковый, индексируемый ресурс.
+
+Следующие шаги? Попробуйте связать этот процесс с системой управления документами или поэкспериментировать с разными языками (`engine.Language = OcrLanguage.French;`). Вы также можете исследовать пакетную обработку нескольких файлов в папке — просто пройдитесь по шагам в цикле, создавая новый экземпляр `engine` каждый раз.
+
+Удачной разработки, и пусть ваши PDF всегда будут поисковыми! 
+
+![Пример OCR PDF, показывающий входные и выходные файлы](https://example.com/ocr-pdf-demo.png "как выполнить OCR PDF")
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

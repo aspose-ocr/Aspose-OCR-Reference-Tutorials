@@ -10,29 +10,17 @@ url: /ru/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
 
- the PDF page to an image first (e.g., using Aspose.PDF) and then run OCR.
 
-Translate each.
 
-Next "## Conclusion" -> "## Заключение"
 
-Paragraph translate.
 
-Then line "---" keep.
 
-Then "**Last Updated:** 2026-02-12" keep date.
 
-"**Tested With:** Aspose.OCR 24.11 for Java" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode.
 
-We must ensure we keep all shortcodes exactly.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

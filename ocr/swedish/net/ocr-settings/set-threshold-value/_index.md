@@ -9,11 +9,8 @@ url: /sv/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
-ning". Keep heading as is but translate.
 
-All other text.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
