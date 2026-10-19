@@ -1,24 +1,27 @@
 ---
 category: general
-date: 2026-03-20
-description: Dowiedz się, jak rozpoznawać tekst z obrazu i efektywnie ładować obrazy
-  wysokiej rozdzielczości przy użyciu wsparcia GPU w Aspose OCR w języku C#. Dołączony
-  kod krok po kroku.
+date: 2026-01-13
+description: Dowiedz się, jak szybko rozpoznawać tekst z obrazu i wyodrębniać tekst
+  z paragonu przy użyciu Aspose OCR. Zawiera kroki ładowania obrazu do OCR oraz ustawiania
+  identyfikatora urządzenia GPU.
 draft: false
 keywords:
 - recognize text from image
-- load high resolution image
+- extract text from receipt
+- load image for ocr
+- set gpu device id
 language: pl
-og_description: dowiedz się, jak szybko rozpoznawać tekst z obrazu, ładując obrazy
-  o wysokiej rozdzielczości i korzystając z przyspieszenia GPU w Aspose OCR.
-og_title: rozpoznawaj tekst z obrazu – szybkie OCR na GPU w C#
-tags:
-- C#
-- OCR
-- Aspose
-- GPU acceleration
-title: Rozpoznawanie tekstu z obrazu za pomocą Aspose OCR – przewodnik C# przyspieszony
+og_description: Rozpoznawaj tekst z obrazu natychmiast za pomocą Aspose OCR. Postępuj
+  zgodnie z tym przewodnikiem krok po kroku, aby wczytać obraz do OCR, ustawić identyfikator
+  urządzenia GPU i wyodrębnić tekst z paragonu.
+og_title: Rozpoznawanie tekstu z obrazu – Kompletny przewodnik po C# z przyspieszeniem
   GPU
+tags:
+- Aspose OCR
+- C#
+- GPU computing
+title: Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – przyspieszony GPU tutorial
+  C#
 url: /pl/net/ocr-optimization/recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/
 ---
 
@@ -26,240 +29,164 @@ url: /pl/net/ocr-optimization/recognize-text-from-image-with-aspose-ocr-gpu-acce
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# rozpoznawanie tekstu z obrazu – szybkie OCR przyspieszone GPU w C#
+# rozpoznawanie tekstu z obrazu – Kompletny przewodnik C# przyspieszony GPU
 
-Czy kiedykolwiek potrzebowałeś **rozpoznawania tekstu z obrazu**, ale proces wydawał się wolny, szczególnie przy tych gigantycznych skanach TIFF z skanerów? Nie jesteś sam. W wielu rzeczywistych projektach — pomyśl o digitalizacji faktur czy archiwizacji dokumentów historycznych — wczytanie obrazu wysokiej rozdzielczości i następnie uruchomienie OCR może stać się wąskim gardłem wydajności.  
+Czy kiedykolwiek potrzebowałeś **rozpoznawać tekst z obrazu**, ale wersja CPU była wyjątkowo wolna? Może próbujesz **wyodrębnić tekst z paragonu** i opóźnienia psują doświadczenie użytkownika. Dobrą wiadomością jest to, że nie musisz godzić się na niską wydajność — pakiet GPU Aspose OCR może przyspieszyć proces, a kod zajmuje zaledwie kilka linii.
 
-Dobra wiadomość? Silnik GPU Aspose OCR pozwala przenieść ciężką pracę na kartę graficzną, zamieniając minuty w sekundy. W tym samouczku przeprowadzimy Cię krok po kroku przez **wczytywanie plików obrazu wysokiej rozdzielczości**, włączenie przyspieszenia GPU oraz wyciągnięcie rozpoznanego tekstu z obrazu — wszystko w czystym, gotowym do uruchomienia kodzie C#.
-
----
-
-## Czego się nauczysz
-
-- Jak zainstalować pakiet **Aspose.OCR.Gpu** z NuGet.  
-- Dlaczego włączenie `UseGpu = true` ma znaczenie przy dużych skanach.  
-- Jak prawidłowo **wczytywać pliki obrazu wysokiej rozdzielczości** bez wyczerpania pamięci.  
-- Jak mierzyć czas przetwarzania i weryfikować wynik.  
-- Porady dotyczące obsługi wielostronicowych TIFF‑ów, przejścia na CPU oraz typowych pułapek.
-
-Żadne zewnętrzne linki do dokumentacji nie są wymagane; wszystko, czego potrzebujesz, znajduje się tutaj.
+W tym samouczku przeprowadzimy Cię przez pełny, działający przykład, który pokazuje, jak **załadować obraz do OCR**, skonfigurować GPU za pomocą **set GPU device ID**, a na koniec pobrać wynik w postaci czystego tekstu. Po zakończeniu będziesz mieć gotowy fragment kodu, który działa na dowolnym nowoczesnym systemie Windows lub Linux z obsługiwaną kartą NVIDIA.
 
 ---
 
-## Wymagania wstępne
+## Czego będziesz potrzebować
 
-- .NET 6.0 lub nowszy (kod używa składni `using var`).  
-- System kompatybilny z GPU oraz najnowsze sterowniki (NVIDIA CUDA 12+ działa najlepiej).  
-- Plik licencji Aspose OCR (bezpłatna wersja próbna wystarczy do testów).  
-- Obraz TIFF wysokiej rozdzielczości (np. 300 DPI lub wyższy) o nazwie `high_res_page.tif`.
+- **.NET 6+** (lub .NET Framework 4.7.2+) – API działa z obiema wersjami.  
+- **Aspose.OCR** pakiet NuGet **plus** dodatek **Aspose.OCR.Gpu**.  
+- Karta graficzna NVIDIA z co najmniej 2 GB VRAM (demo ogranicza użycie do 1 GB).  
+- Przykładowy obraz, np. zeskanowany paragon (`receipt.jpg`).
 
----
-
-## Krok 1 – Instalacja pakietu Aspose.OCR.Gpu
-
-Zanim napiszesz jakikolwiek kod, dodaj bibliotekę OCR z obsługą GPU do swojego projektu. Otwórz konsolę Package Manager w Visual Studio i uruchom:
-
-```powershell
-Install-Package Aspose.OCR.Gpu
-```
-
-> **Pro tip:** Jeśli używasz .NET CLI, równoważne polecenie to `dotnet add package Aspose.OCR.Gpu`. Zapewnia to pobranie binarek specyficznych dla GPU, które zawierają natywne jądra CUDA.
+Jeśli już masz projekt, po prostu uruchom `dotnet add package Aspose.OCR` i `dotnet add package Aspose.OCR.Gpu`. Nie są wymagane dodatkowe biblioteki natywne; SDK dostarcza niezbędne pliki binarne CUDA.
 
 ---
 
-## Krok 2 – Konfiguracja opcji silnika OCR dla GPU
+## Implementacja krok po kroku
 
-Silnik musi wiedzieć, że ma szukać kompatybilnego GPU. Ustawienie `UseGpu = true` sprawia, że biblioteka automatycznie wybiera najlepsze urządzenie (lub przechodzi na CPU, jeśli żadne nie zostanie znalezione).
+### ## Jak rozpoznawać tekst z obrazu przy użyciu Aspose OCR i GPU
+
+Poniżej znajduje się **kompletny, samodzielny program**. Skopiuj‑wklej go do nowego projektu konsolowego i naciśnij `Ctrl+F5`.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using Aspose.OCR.Gpu;   // GPU‑accelerated namespace
 
-// Configure OCR options
-var ocrOptions = new OcrEngineOptions
-{
-    // Let Aspose select the optimal GPU; you can also specify DeviceId if needed
-    UseGpu = true
-};
-```
-
-**Dlaczego to ważne:** Przy dużych skanach GPU może równolegle przetwarzać tysiące pikseli jednocześnie, dramatycznie skracając `ProcessingTime`.
-
----
-
-## Krok 3 – Utworzenie silnika OCR i ustawienie języka
-
-Teraz tworzymy instancję silnika z wcześniej zdefiniowanymi opcjami. Ustawienie języka na angielski zwiększa dokładność dla tekstu opartego na alfabecie łacińskim.
-
-```csharp
-// Initialize the OCR engine with GPU options
-using var ocrEngine = new OcrEngine(ocrOptions);
-ocrEngine.Language = Language.English;
-```
-
-> **Edge case:** Jeśli Twoje dokumenty zawierają wiele języków, możesz przekazać listę oddzieloną przecinkami, np. `Language.English | Language.Spanish`. Silnik automatycznie wykryje każdy blok.
-
----
-
-## Krok 4 – Wczytanie obrazu wysokiej rozdzielczości do OCR
-
-Efektywne **wczytywanie obrazu wysokiej rozdzielczości** jest kluczowe. Klasa Aspose `Image` odczytuje plik do pamięci, ale możesz także strumieniować go, jeśli masz do czynienia z plikami o rozmiarze w gigabajtach.
-
-```csharp
-// Load the image from disk – replace the path with your actual file location
-var imagePath = @"YOUR_DIRECTORY/high_res_page.tif";
-var image = Image.FromFile(imagePath);
-```
-
-**Alternatywne podejście:** Dla ultra‑dużych TIFF‑ów rozważ użycie `Image.FromStream(File.OpenRead(imagePath))` w połączeniu z `image.SetResolution(300, 300)`, aby kontrolować DPI bez ładowania pełnego rastra.
-
----
-
-## Krok 5 – Wykonanie OCR i pobranie wyniku
-
-Gdy silnik i obraz są gotowe, faktyczne rozpoznanie odbywa się jednym wywołaniem. Metoda zwraca `OcrResult`, który zawiera zarówno wykryty tekst, jak i metryki wydajności.
-
-```csharp
-// Run OCR on the loaded image
-var ocrResult = ocrEngine.Recognize(image);
-```
-
-### Oczekiwany wynik
-
-Uruchomienie kodu na typowej stronie 300 DPI daje coś w rodzaju:
-
-```
-Detected text (1245 characters) in 312 ms
-```
-
-Dokładna liczba znaków i milisekundy będą się różnić w zależności od złożoności obrazu oraz modelu GPU, ale powinieneś zobaczyć czasy przetwarzania w granicach kilku setek milisekund dla jednej strony.
-
----
-
-## Krok 6 – Wyświetlenie rozpoznanego tekstu (opcjonalnie)
-
-Jeśli chcesz zobaczyć rzeczywisty wynik OCR, po prostu wypisz `ocrResult.Text` na konsolę lub do pliku logu.
-
-```csharp
-Console.WriteLine("--- OCR Text Start ---");
-Console.WriteLine(ocrResult.Text);
-Console.WriteLine("--- OCR Text End ---");
-```
-
-**Dlaczego może to być przydatne:** Analiza surowego tekstu pomaga zweryfikować, że znaki specjalne, podziały linii i formatowanie zostały zachowane — co jest niezbędne przy dalszym przetwarzaniu.
-
----
-
-## Krok 7 – Obsługa wielu stron i scenariuszy awaryjnych
-
-### Wielostronicowe TIFF‑y
-
-Jeśli plik źródłowy zawiera kilka stron, przeiteruj je:
-
-```csharp
-var multiPage = Image.FromFile(imagePath);
-foreach (var page in multiPage.GetPages())
-{
-    var result = ocrEngine.Recognize(page);
-    Console.WriteLine($"Page {page.Index}: {result.Text.Length} chars, {result.ProcessingTime} ms");
-}
-```
-
-### GPU niedostępne
-
-Czasami serwer może nie mieć kompatybilnego GPU. Aspose automatycznie przechodzi na CPU, ale możesz wykryć tryb:
-
-```csharp
-if (!ocrEngine.IsGpuEnabled)
-{
-    Console.WriteLine("GPU not detected – using CPU fallback. Consider installing CUDA drivers for better performance.");
-}
-```
-
----
-
-## Pełny działający przykład
-
-Poniżej znajduje się kompletny program, który możesz skopiować i wkleić do nowego projektu konsolowego. Zawiera wszystkie powyższe kroki i wypisuje zarówno długość tekstu, jak i upłynięty czas.
-
-```csharp
-// ------------------------------------------------------------
-// Full example: recognize text from image with GPU acceleration
-// ------------------------------------------------------------
-
-using System;
-using Aspose.OCR;
-using Aspose.OCR.Models;
-
-class Program
+class GpuOcrDemo
 {
     static void Main()
     {
-        // 1️⃣ Install Aspose.OCR.Gpu via NuGet before running this code.
+        // -------------------------------------------------
+        // Step 1: Initialize a GPU‑enabled OCR engine
+        // -------------------------------------------------
+        var ocrEngine = new GpuOcrEngine();
 
-        // 2️⃣ Configure OCR options to enable GPU
-        var ocrOptions = new OcrEngineOptions
-        {
-            UseGpu = true
-        };
+        // -------------------------------------------------
+        // Step 2: (Optional) Select the GPU device and limit memory usage
+        // -------------------------------------------------
+        ocrEngine.DeviceId = 0;        // set GPU device ID – first GPU in the system
+        ocrEngine.MaxMemoryMb = 1024;  // cap at 1 GB to avoid OOM on shared machines
 
-        // 3️⃣ Create the OCR engine and set language
-        using var ocrEngine = new OcrEngine(ocrOptions);
-        ocrEngine.Language = Language.English;
+        // -------------------------------------------------
+        // Step 3: Load the image you want to recognize
+        // -------------------------------------------------
+        var receiptImage = OcrImage.FromFile(@"YOUR_DIRECTORY/receipt.jpg");
 
-        // 4️⃣ Load a high‑resolution image (adjust the path accordingly)
-        var imagePath = @"YOUR_DIRECTORY/high_res_page.tif";
-        var image = Image.FromFile(imagePath);
+        // -------------------------------------------------
+        // Step 4: Perform OCR – here we extract text from receipt (English)
+        // -------------------------------------------------
+        var ocrResult = ocrEngine.Recognize(receiptImage, OcrLanguage.English);
 
-        // 5️⃣ Perform OCR
-        var ocrResult = ocrEngine.Recognize(image);
-
-        // 6️⃣ Output results
-        Console.WriteLine($"Detected text ({ocrResult.Text.Length} characters) in {ocrResult.ProcessingTime} ms");
-        Console.WriteLine("--- OCR Text Start ---");
-        Console.WriteLine(ocrResult.Text);
-        Console.WriteLine("--- OCR Text End ---");
-
-        // 7️⃣ Optional: check if GPU was actually used
-        if (!ocrEngine.IsGpuEnabled)
-        {
-            Console.WriteLine("Warning: GPU not enabled – falling back to CPU.");
-        }
+        // -------------------------------------------------
+        // Step 5: Output the recognized plain text
+        // -------------------------------------------------
+        System.Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-Zapisz plik jako `Program.cs`, uruchom `dotnet run`, a w konsoli powinien pojawić się czas przetwarzania.
+> **Pro tip:** Jeśli Twój komputer ma wiele GPU, zmień `DeviceId` na `1`, `2` itd., aby wybrać mniej obciążoną kartę. SDK zgłosi wyraźny `GpuDeviceNotFoundException`, jeśli podany identyfikator jest poza zakresem.
+
+### ### Krok 1: Załaduj obraz do OCR
+
+Wywołanie `OcrImage.FromFile` robi więcej niż tylko odczyt bitmapy — wstępnie przetwarza obraz (prostowanie, binaryzacja) na podstawie wewnętrznych heurystyk. Dlatego **load image for OCR** jest osobnym krokiem: możesz podmienić na `MemoryStream`, jeśli obraz znajduje się w bazie danych.
+
+```csharp
+var receiptImage = OcrImage.FromFile(@"C:\Invoices\receipt.jpg");
+```
+
+Jeśli potrzebujesz **rozpoznawać tekst z obrazu**, który już znajduje się w pamięci:
+
+```csharp
+using (var ms = new MemoryStream(File.ReadAllBytes(@"receipt.jpg")))
+{
+    var receiptImage = OcrImage.FromStream(ms);
+}
+```
+
+### ### Krok 2: Ustaw identyfikator urządzenia GPU i limity pamięci
+
+Zasoby GPU są ograniczone. Udostępniając `DeviceId` i `MaxMemoryMb`, Aspose pozwala bezpiecznie **set GPU device ID**, zapobiegając jednemu procesowi zajmowanie całej karty.
+
+```csharp
+ocrEngine.DeviceId = 0;        // first GPU
+ocrEngine.MaxMemoryMb = 1024; // 1 GB ceiling
+```
+
+Jeśli przekroczysz limit pamięci, silnik automatycznie przełączy się na pamięć systemową RAM, co jest wolniejsze, ale zapobiega awariom.
+
+### ### Krok 3: Wyodrębnij tekst z paragonu (rozpoznawanie tekstu z obrazu)
+
+Metoda `Recognize` wykonuje najcięższą pracę. Możesz podać dowolny język obsługiwany przez Aspose OCR; dla paragonów najczęściej wystarcza angielski, ale możesz także dodać `OcrLanguage.Spanish` lub własny pakiet językowy.
+
+```csharp
+var ocrResult = ocrEngine.Recognize(receiptImage, OcrLanguage.English);
+Console.WriteLine(ocrResult.Text);
+```
+
+**Oczekiwany wynik** (przykład):
+
+```
+Store: QuickMart
+Date: 2025-12-01
+Total: $23.45
+Thank you for shopping!
+```
 
 ---
 
-## Typowe pułapki i jak ich unikać
+## Wspólne warianty i przypadki brzegowe
 
-| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
-|-------|--------------------------|-------------|
-| **`ProcessingTime` > 2 sekundy** przy stronie 300 DPI | Brak sterownika GPU lub przestarzały | Zainstaluj najnowszy sterownik NVIDIA oraz toolkit CUDA |
-| **Wyjątek Out‑of‑memory** przy wczytywaniu TIFF‑u 600 DPI | Obraz zbyt duży dla RAM | Strumieniuj obraz lub zmniejsz rozdzielczość przy pomocy `image.SetResolution(300,300)` przed OCR |
-| **Zniekształcone znaki** w wyniku | Nieprawidłowe ustawienie języka | Ustaw `ocrEngine.Language` na język(y) dokumentu |
-| **`IsGpuEnabled` zwraca false** | Uruchomienie na serwerze bez GPU | Użyj pakietu tylko z CPU lub skonfiguruj wirtualny GPU (np. NVIDIA GRID) |
+| Sytuacja | Co zmienić | Dlaczego |
+|----------|------------|----------|
+| **Wiele paragonów na jednym obrazie** | Wywołaj `ocrEngine.Recognize` na każdym przyciętym regionie (użyj `OcrImage.Crop`) | Poprawia dokładność, ponieważ silnik widzi mniejszy, czystszy obszar. |
+| **Skanowanie o niskiej rozdzielczości (<150 dpi)** | Zwiększ rozdzielczość przy pomocy `receiptImage.Resize(2.0)` przed rozpoznaniem | Wyższa gęstość pikseli dostarcza GPU więcej danych do przetworzenia. |
+| **Paragony w języku innym niż angielski** | Przekaż `OcrLanguage.French` (lub własny plik `.traineddata`) | Modele specyficzne dla języka zmniejszają liczbę fałszywych trafień. |
+| **GPU niedostępne** | Użyj `OcrEngine` (CPU) w bloku try‑catch | Gwarantuje, że aplikacja działa na serwerach bez graficznego interfejsu. |
+
+```csharp
+try
+{
+    var gpuEngine = new GpuOcrEngine();
+    // configure GPU as shown earlier …
+    var result = gpuEngine.Recognize(receiptImage, OcrLanguage.English);
+    Console.WriteLine(result.Text);
+}
+catch (GpuDeviceNotFoundException)
+{
+    // Graceful fallback
+    var cpuEngine = new OcrEngine();
+    var result = cpuEngine.Recognize(receiptImage, OcrLanguage.English);
+    Console.WriteLine(result.Text);
+}
+```
 
 ---
 
-## Kolejne kroki i tematy pokrewne
+## Wskazówki dla OCR gotowego do produkcji
 
-- **Przetwarzanie wsadowe:** Połącz pętlę wielostronicową z async/await, aby równolegle wykonywać OCR na wielu plikach.  
-- **Post‑processing:** Użyj wyrażeń regularnych do czyszczenia podziałów linii lub wyodrębniania danych strukturalnych (dat, kwot).  
-- **Alternatywne biblioteki:** Porównaj Aspose OCR z Tesseract 4.0 lub Azure Computer Vision pod kątem koszt‑korzyść.  
-- **Dostrajanie GPU:** Eksperymentuj z `ocrOptions.GpuDeviceId`, jeśli posiadasz więcej niż jeden GPU.
+- **Przetwarzanie wsadowe:** Owiń pętlę rozpoznawania w `Parallel.ForEach`, ale ogranicz stopień równoległości do liczby strumieni GPU, które możesz przydzielić (zwykle 1‑2 na kartę).  
+- **Higiena pamięci:** Niezwłocznie zwalniaj obiekty `OcrImage` (`receiptImage.Dispose()`), szczególnie przy przetwarzaniu tysięcy paragonów.  
+- **Logowanie:** Zapisuj `ocrResult.Confidence` dla każdej linii; niska pewność może wywołać ręczny proces weryfikacji.  
+- **Bezpieczeństwo:** Przy obsłudze wrażliwych paragonów, przechowuj pliki obrazów w zaszyfrowanych folderach tymczasowych i usuwaj je po przetworzeniu.  
 
 ---
 
-## Zakończenie
+## Podsumowanie
 
-W tym przewodniku **rozpoznaliśmy tekst z obrazu** szybko, **wczytując obrazy wysokiej rozdzielczości** i wykorzystując przyspieszenie GPU Aspose OCR. Masz teraz kompletny, gotowy do uruchomienia program w C#, który mierzy wydajność, obsługuje dokumenty wielostronicowe i elegancko przechodzi w tryb CPU, gdy GPU nie jest dostępne.  
+Masz teraz **kompletny, działający przykład**, który pokazuje, jak **rozpoznawać tekst z obrazu** przy użyciu przyspieszenia GPU Aspose OCR, **załadować obraz do OCR**, **ustawić identyfikator urządzenia GPU**, a na koniec **wyodrębnić tekst z paragonu** w kilku zwięzłych krokach. Kod jest gotowy do skopiowania, a wyjaśnienia dostarczają wystarczającego kontekstu, aby dostosować go do scenariuszy wielojęzycznych, wielokartowych lub o wysokiej przepustowości.
 
-Wypróbuj go na własnych skanach — może to stos paragonów lub partia historycznych stron gazet — i zobacz, jak skromny GPU potrafi zamienić powolne zadanie OCR w praktycznie natychmiastową operację.  
+Gotowy na kolejne wyzwanie? Spróbuj podać strumień wideo na żywo do `GpuOcrEngine` w celu skanowania paragonów w czasie rzeczywistym lub zintegrować wynik z API księgowym. Nie ma granic, gdy połączysz szybki OCR GPU z czystym projektem w C#.
 
-Jeśli ten samouczek okazał się pomocny, rozważ nadanie gwiazdki repozytorium Aspose OCR na GitHubie, podzielenie się artykułem z zespołem lub wypróbowanie powyższych „pro tipów”. Szczęśliwego kodowania!
+*Miłego kodowania i niech Twój OCR będzie zawsze szybki!* 
+
+![zrzut ekranu demonstracji rozpoznawania tekstu z obrazu](placeholder-image.png "przykład rozpoznawania tekstu z obrazu")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
