@@ -1,0 +1,7 @@
+Title: recognize text from image in C# – step‑by‑step Aspose OCR guide
+Slug: recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide
+Category: text-recognition
+ProcessedDate: 2026-08-12T18:09:05.523465
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from png, convert image to text, c# image ocr, aspose ocr c#
+PRNumber: 199
