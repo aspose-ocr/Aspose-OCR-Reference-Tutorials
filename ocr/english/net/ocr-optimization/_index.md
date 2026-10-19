@@ -230,6 +230,8 @@ Learn how to automatically rotate and deskew images before OCR in C# using Aspos
 Demonstrates GPU‑accelerated batch processing to recognize text from PNG images using Aspose OCR for .NET.
 ### [Create Searchable PDF with Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Learn how to generate searchable PDF files from images using Aspose OCR in C#.
+### [How to Improve OCR – Extract Text from Images with Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Learn techniques to boost OCR accuracy and extract text from images using Aspose.OCR for .NET.
 
 ## Frequently Asked Questions
 

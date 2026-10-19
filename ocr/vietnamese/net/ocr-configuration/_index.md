@@ -126,6 +126,10 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận d�
 Hướng dẫn chi tiết cách xây dựng bộ xử lý kiểm tra chính tả sử dụng công nghệ AI của Aspose OCR trong .NET.
 ### [Kiểm tra cờ giấy phép trong Aspose OCR – Hướng dẫn nhanh để xác minh giấy phép](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Hướng dẫn nhanh cách kiểm tra trạng thái giấy phép Aspose OCR trong ứng dụng .NET của bạn.
+### [Cách bật GPU cho OCR trong C# – Hướng dẫn từng bước](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách cấu hình và sử dụng GPU để tăng tốc độ nhận dạng OCR trong ứng dụng C# với Aspose.OCR.
+### [Cách tải gói ngôn ngữ OCR cho tiếng Nga – Hướng dẫn đầy đủ](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Hướng dẫn chi tiết cách tải và cài đặt gói ngôn ngữ OCR cho tiếng Nga, bao gồm các bước cấu hình và sử dụng trong Aspose.OCR.
 
 
 

@@ -125,6 +125,9 @@ Pelajari cara mengenali teks Kannada dari gambar menggunakan Aspose OCR dalam ap
 Panduan lengkap membuat processor pemeriksa ejaan menggunakan Aspose OCR AI untuk meningkatkan akurasi teks dalam aplikasi Anda.
 ### [Periksa Bendera Lisensi di Aspose OCR – Panduan Cepat untuk Memverifikasi Lisensi](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Panduan singkat untuk memeriksa flag lisensi Aspose OCR dan memastikan lisensi Anda terdeteksi dengan benar.
+### [Cara mengaktifkan GPU untuk OCR di C# – Panduan Langkah‑per‑Langkah](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Panduan langkah demi langkah mengaktifkan GPU untuk meningkatkan kinerja OCR di aplikasi C# menggunakan Aspose.OCR.
+### [Cara Mengunduh Paket Bahasa OCR untuk Rusia – Panduan Lengkap](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 
 
 

@@ -245,6 +245,8 @@ Poznaj, jak używać Aspose.OCR w C# do automatycznego obracania i prostowania o
 ### [Rozpoznawanie tekstu z PNG przy użyciu Aspose OCR – Demo wsadowe przyspieszone GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 
 ### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR w C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+### [Jak poprawić OCR – wyodrębnić tekst z obrazów przy użyciu Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Dowiedz się, jak zwiększyć skuteczność OCR i wyodrębnić tekst z obrazów przy użyciu Aspose.OCR.
 
 ## Często zadawane pytania
 

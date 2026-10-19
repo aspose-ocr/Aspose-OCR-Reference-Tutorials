@@ -473,6 +473,20 @@ Převádějte obrázky účtenek s cyrilickým textem na editovatelný text pomo
 Naučte se, jak v C# převést výstup OCR do formátů JSON a XML a uložit jej jako JSON soubor.
 ### [c# OCR tutoriál – Extrahování arabského textu pomocí Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Naučte se v C# extrahovat arabský text z obrázků pomocí Aspose OCR a integrovat ho do vašich .NET aplikací.
+### [Jak používat Aspose pro OCR v C# – krok‑za‑krokem průvodce](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Naučte se, jak implementovat Aspose OCR v C# pomocí podrobného krok‑za‑krokem návodu pro přesné rozpoznávání textu.
+### [Jak používat Aspose – Extrahovat data z účtenek z obrázků v C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat informace z účtenek z obrázků a integrovat je do vašich aplikací.
+### [Vytvořit prohledávatelný PDF z TIF – převést obrázek na PDF, přidat metadata PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Naučte se převést TIF na prohledávatelný PDF, přidat metadata a optimalizovat soubory pomocí Aspose.OCR pro .NET.
+### [Jak používat OCR v C# – Extrahovat text z obrázků a souborů DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Naučte se, jak pomocí Aspose OCR v C# extrahovat text z obrázků a souborů DJVU a integrovat je do vašich aplikací.
+### [Rozpoznat čínský text pomocí Aspose OCR v C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Naučte se, jak pomocí Aspose OCR v C# rozpoznat čínský text a integrovat jej do svých aplikací.
+### [Jak provádět dávkové OCR v C# – Kompletní průvodce hromadným získáváním textu z obrázků](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Naučte se, jak pomocí Aspose.OCR v C# zpracovat velké množství obrázků najednou a extrahovat z nich text efektivně.
+### [Extrahovat text z TIFF pomocí Aspose OCR Engine – kompletní příklad](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Naučte se, jak pomocí Aspose OCR Engine extrahovat text z TIFF souborů v kompletním příkladu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

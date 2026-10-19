@@ -248,6 +248,8 @@ Aprende a extraer texto de imágenes en C# aplicando auto‑rotación y correcci
 ### [Reconocer texto de PNG con Aspose OCR – Demo por lotes con aceleración GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 Demostración de procesamiento por lotes de imágenes PNG usando Aspose OCR con aceleración GPU para un rendimiento superior.
 ### [Crear PDF buscable con Aspose OCR en C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+### [Cómo mejorar OCR – Extraer texto de imágenes con Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Aprende a optimizar el OCR y extraer texto de imágenes usando Aspose, con técnicas avanzadas y mejores resultados.
 
 ## Preguntas frecuentes
 

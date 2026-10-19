@@ -464,6 +464,26 @@ Converta imagens de recibos em texto usando OCR Cirílico com Aspose, obtendo re
 Aprenda a converter resultados de OCR para JSON e XML em C# e salvar o arquivo JSON usando Aspose.OCR.
 ### [Tutorial C# OCR – Extrair Texto Árabe com Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Aprenda a extrair texto em árabe de imagens usando Aspose.OCR em C#, com passo a passo detalhado para integração rápida.
+### [Como usar Aspose para OCR em C# – Guia passo a passo](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Aprenda a usar Aspose OCR em C# com este guia passo a passo, integrando facilmente recursos avançados de reconhecimento de texto.
+
+### [Criar PDF pesquisável a partir de TIF – Converter imagem em PDF, adicionar metadados ao PDF](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Aprenda a converter arquivos TIF em PDFs pesquisáveis, adicionando metadados ao PDF usando Aspose.OCR para .NET.
+
+### [Como usar Aspose – Extrair dados de recibos de imagens em C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Aprenda a extrair dados de recibos de imagens usando Aspose OCR em C#, integrando recursos avançados de reconhecimento de texto.
+
+### [Como usar OCR em C# – Extrair texto de imagens e arquivos DJVU](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Aprenda a usar OCR em C# para extrair texto de imagens e arquivos DJVU com este guia passo a passo.
+
+### [Reconhecer texto chinês usando Aspose OCR em C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Aprenda a reconhecer texto chinês com Aspose OCR em C#, integrando suporte a idiomas asiáticos em seus aplicativos.
+
+### [Como fazer OCR em lote no C# – Guia completo para extração de texto de imagens em massa](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Aprenda a processar grandes volumes de imagens com OCR em C#, extraindo texto de forma eficiente e automatizada.
+
+### [Extrair texto de TIFF com o Aspose OCR – Exemplo completo](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Aprenda a extrair texto de arquivos TIFF usando o Aspose OCR em um exemplo completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

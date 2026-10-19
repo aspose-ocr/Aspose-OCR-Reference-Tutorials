@@ -456,6 +456,26 @@ Aspose के साथ सायरिलिक रसीद छवियों
 C# का उपयोग करके OCR परिणाम को JSON फ़ाइल में लिखने और XML में बदलने की चरण-दर-स्टेप प्रक्रिया सीखें।
 ### [C# OCR ट्यूटोरियल – Aspose OCR के साथ अरबी टेक्स्ट निकालें](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Aspose OCR का उपयोग करके C# में अरबी टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका। अपने .NET एप्लिकेशन में अरबी OCR को सहजता से एकीकृत करें।
+### [C# में Aspose का उपयोग करके OCR कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+C# में Aspose OCR को लागू करने के लिए चरण‑दर‑चरण मार्गदर्शिका, जिससे आप आसानी से टेक्स्ट पहचान कर सकें।
+
+### [TIF से खोज योग्य PDF बनाएं – छवि को PDF में बदलें, PDF मेटाडेटा जोड़ें](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Aspose.OCR का उपयोग करके TIF छवि को खोज योग्य PDF में बदलें और PDF मेटाडेट को जोड़ें।
+
+### [C# में Aspose का उपयोग करके रसीद डेटा निकालें – छवियों से डेटा एक्सट्रैक्ट करें](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+C# में Aspose OCR का उपयोग करके छवियों से रसीद डेटा निकालने की चरण‑दर‑स्टेप मार्गदर्शिका।
+
+### [C# में OCR का उपयोग कैसे करें – छवियों और DJVU फ़ाइलों से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+C# में Aspose OCR का उपयोग करके छवियों और DJVU फ़ाइलों से टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
+
+### [C# में Aspose OCR का उपयोग करके चीनी टेक्स्ट पहचानें](./recognize-chinese-text-using-aspose-ocr-in-c/)
+C# में Aspose OCR के साथ चीनी भाषा के टेक्स्ट को पहचानने की चरण‑दर‑स्टेप गाइड।
+
+### [C# में बैच OCR कैसे करें – बड़े पैमाने पर छवि टेक्स्ट निष्कर्षण के लिए पूर्ण गाइड](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+C# में कई छवियों से टेक्स्ट निकालने के लिए बैच OCR लागू करने की चरण‑दर‑स्टेप गाइड।
+
+### [Aspose OCR इंजन के साथ TIFF से टेक्स्ट निकालें – पूर्ण उदाहरण](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Aspose OCR इंजन का उपयोग करके TIFF फ़ाइलों से टेक्स्ट निकालने की पूरी प्रक्रिया देखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

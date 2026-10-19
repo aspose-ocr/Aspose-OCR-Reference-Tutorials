@@ -218,6 +218,8 @@ C# uygulamanızda otomatik döndürme ve eğrilik düzeltme ile OCR doğruluğun
 ### [Aspose OCR ile PNG'den Metin Tanıma – GPU Hızlandırmalı Toplu Demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 Aspose OCR kullanarak PNG dosyalarından toplu olarak metin tanıma ve GPU hızlandırmasıyla performansı artırma.
 ### [C# ile Aspose OCR kullanarak Aranabilir PDF Oluşturma](./create-searchable-pdf-with-aspose-ocr-in-c/)
+### [OCR'ı Nasıl İyileştirirsiniz – Aspose ile Görüntülerden Metin Çıkarma](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Aspose ile OCR doğruluğunu artırın ve görüntülerden metni etkili bir şekilde çıkarın.
 
 ## Sıkça Sorulan Sorular
 

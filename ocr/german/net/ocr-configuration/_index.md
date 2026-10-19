@@ -85,6 +85,10 @@ Erfahren Sie, wie Sie mit Aspose OCR KI einen leistungsstarken Rechtschreibprüf
 
 ### [Lizenz-Flag in Aspose OCR prüfen – Schnellleitfaden zur Lizenzüberprüfung](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Erfahren Sie, wie Sie das Lizenz-Flag von Aspose OCR prüfen und sicherstellen, dass Ihre Anwendung korrekt lizenziert ist.
+### [Wie man GPU für OCR in C# aktiviert – Schritt‑für‑Schritt‑Anleitung](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für C# aktivieren, um die Texterkennung zu beschleunigen.
+### [Wie man das OCR-Sprachpaket für Russisch herunterlädt – Komplett‑Guide](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Laden Sie das russische OCR‑Sprachpaket herunter und integrieren Sie es mühelos in Ihre .NET‑Anwendung.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

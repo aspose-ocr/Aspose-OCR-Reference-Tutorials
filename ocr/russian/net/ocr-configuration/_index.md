@@ -124,6 +124,9 @@ weight: 24
 ### [Создание процессора проверки орфографии с Aspose OCR AI – Полное руководство](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Полное руководство по созданию процессора орфографической проверки с использованием AI‑модулей Aspose OCR.
 ### [Проверка флага лицензии в Aspose OCR – Быстрое руководство по проверке лицензирования](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+### [Как включить GPU для OCR в C# – пошаговое руководство](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+
+### [Как загрузить пакет языков OCR для русского языка – Полное руководство](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 
 
 

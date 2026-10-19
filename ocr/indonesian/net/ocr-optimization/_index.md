@@ -244,6 +244,8 @@ Pelajari cara otomatis memutar dan mengoreksi kemiringan gambar sebelum OCR deng
 Demonstrasi batch akselerasi GPU untuk mengenali teks dari file PNG menggunakan Aspose OCR, meningkatkan kecepatan pemrosesan secara signifikan.
 ### [Buat PDF yang Dapat Dicari dengan Aspose OCR di C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Panduan langkah demi langkah untuk menghasilkan PDF yang dapat dicari menggunakan Aspose OCR dalam proyek C# Anda.
+### [Cara Meningkatkan OCR – Ekstrak Teks dari Gambar dengan Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Panduan langkah demi langkah untuk meningkatkan akurasi OCR dan mengekstrak teks dari gambar menggunakan Aspose.
 
 ## Pertanyaan yang Sering Diajukan
 

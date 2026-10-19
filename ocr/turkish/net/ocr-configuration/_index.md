@@ -75,6 +75,10 @@ Aspose OCR kullanarak C# içinde Kannada dilindeki metinleri doğru şekilde tan
 Aspose OCR AI kullanarak tam özellikli bir yazım denetimi işlemcisi geliştirin ve .NET uygulamalarınızda metin doğruluğunu artırın.
 ### [Aspose OCR'de lisans bayrağını kontrol et – Lisans Doğrulama İçin Hızlı Kılavuz](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Aspose OCR lisansının etkin olup olmadığını kontrol etmek için bayrak değerini nasıl okuyacağınızı adım adım gösterir.
+### [C#'ta OCR için GPU'yu nasıl etkinleştiririz – Adım Adım Kılavuz](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Aspose.OCR ile C# uygulamalarında GPU hızlandırmasını etkinleştirerek OCR performansını artırın.
+### [Rusça OCR Dil Paketi Nasıl İndirilir – Tam Kılavuz](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Aspose.OCR için Rusça dil paketini indirme ve kurma adımlarını ayrıntılı olarak öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

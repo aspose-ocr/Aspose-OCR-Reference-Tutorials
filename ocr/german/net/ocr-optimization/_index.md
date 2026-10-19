@@ -235,6 +235,8 @@ Nutzen Sie die Auto‑Rotate‑ und Deskew‑Funktionen von Aspose.OCR, um Texte
 Demonstriert die GPU‑beschleunigte Stapelverarbeitung von PNG‑Bildern zur schnellen Texterkennung mit Aspose OCR.
 ### [Durchsuchbares PDF mit Aspose OCR in C# erstellen](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Erfahren Sie, wie Sie mit Aspose OCR in C# ein durchsuchbares PDF aus Bilddateien generieren.
+### [Wie man OCR verbessert – Text aus Bildern mit Aspose extrahieren](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Erfahren Sie, wie Sie OCR‑Leistung steigern und Text aus Bildern effizient extrahieren können.
 
 ## Häufig gestellte Fragen
 

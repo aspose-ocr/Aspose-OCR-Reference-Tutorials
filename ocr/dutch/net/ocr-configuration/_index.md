@@ -62,6 +62,8 @@ Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer sta
 Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer gemakkelijke tekst uit afbeeldingen.
 ### [OCRO-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-taalselectie/)
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
+### [Hoe OCR-taalpakket voor Russisch te downloaden – Complete gids](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Leer stap‑voor‑stap hoe je het OCR‑taalpakket voor het Russisch downloadt en installeert voor optimale herkenning.
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
 ### [Afbeeldingsbestand laden en bontekst extraheren met GPU OCR in C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
@@ -90,6 +92,8 @@ Leer hoe je met Aspose OCR Kannada‑teksten uit afbeeldingen kunt extraheren in
 Leer hoe je met Aspose OCR AI een spellingscontroleprocessor bouwt om tekst nauwkeurig te analyseren en te corrigeren in .NET‑toepassingen.
 ### [Controleer licentievlag in Aspose OCR – Snelle gids om licenties te verifiëren](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Leer hoe je de licentievlag controleert en verifieert dat Aspose OCR correct is gelicentieerd.
+### [Hoe GPU voor OCR in C# in te schakelen – Stapsgewijze handleiding](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Leer hoe je GPU-acceleratie inschakelt voor Aspose.OCR in C# om de verwerkingssnelheid te verhogen.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

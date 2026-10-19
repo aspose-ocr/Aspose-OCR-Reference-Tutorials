@@ -198,6 +198,8 @@ C#을 사용해 검색 가능한 PDF를 생성하는 전체 단계별 가이드�
 GPU 가속을 활용해 대량 PNG 이미지를 빠르게 OCR 처리하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose OCR로 검색 가능한 PDF 만들기](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Aspose OCR을 사용해 C#에서 이미지 기반 PDF를 검색 가능하게 변환하는 방법을 단계별로 안내합니다.
+### [OCR 개선 방법 – Aspose로 이미지에서 텍스트 추출](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Aspose를 사용하여 이미지에서 텍스트를 추출하고 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

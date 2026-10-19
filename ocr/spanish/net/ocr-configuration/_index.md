@@ -85,6 +85,12 @@ Aprende a extraer texto en idioma Kannada de imágenes usando Aspose OCR en C#.
 Aprende a crear un procesador de corrección ortográfica usando la IA de Aspose OCR, paso a paso, para mejorar la precisión del texto.
 ### [Comprobar la bandera de licencia en Aspose OCR – Guía rápida para verificar la licencia](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Aprende a validar rápidamente la licencia de Aspose OCR y asegurar que tu aplicación está correctamente licenciada.
+### [OCROperation con Selección de Idioma en Reconocimiento de Imágenes OCR](./ocr-operation-with-language-selection/)
+Desbloquea potentes capacidades OCR con Aspose.OCR para .NET. Extrae texto de imágenes de forma fluida.
+### [Cómo descargar el paquete de idioma OCR para ruso – Guía completa](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Aprende a descargar e instalar el paquete de idioma OCR para ruso y habilitar el reconocimiento multilingüe en Aspose.OCR.
+### [Cómo habilitar GPU para OCR en C# – Guía paso a paso](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Aprende a activar la aceleración GPU en Aspose.OCR usando C# para mejorar el rendimiento del reconocimiento de texto.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.
@@ -103,7 +109,6 @@ En conclusión, estos tutoriales de configuración de OCR ofrecen una comprensi�
 ## Tutoriales de configuración de OCR
 ### [OCROperación con carpeta en reconocimiento de imágenes OCR](./ocr-operation-with-folder/)
 Desbloquee el poder del reconocimiento de imágenes OCR en .NET con Aspose.OCR. Extraiga texto sin esfuerzo de las imágenes.
-### [OCROperación con selección de idioma en reconocimiento de imágenes OCR](./ocr-operation-with-language-selection/)
 ### [Cómo hacer OCR de una imagen en C# – Guía completa con soporte GPU](./how-to-ocr-image-in-c-complete-guide-with-gpu-support/)
 Aprenda a reconocer texto en imágenes usando C# y Aspose.OCR, aprovechando la aceleración GPU para un rendimiento óptimo.
 ### [Reconocer texto de una imagen con Aspose OCR – Guía completa en C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)

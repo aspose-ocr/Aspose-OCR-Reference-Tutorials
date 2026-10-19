@@ -119,6 +119,11 @@ weight: 24
 ### [使用 Aspose OCR AI 创建拼写检查处理器 – 完整指南](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 ### [检查 Aspose OCR 许可证标志 – 验证许可的快速指南](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 快速了解如何检查 Aspose.OCR 的许可证标志，以确认授权状态并避免未授权错误。
+### [在 C# 中启用 GPU 进行 OCR 的分步指南](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+详细步骤演示如何在 C# 项目中配置 Aspose.OCR 使用 GPU 加速，提高识别性能。  
+
+### [如何下载俄语 OCR 语言包 – 完整指南](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+一步步指导如何下载并安装俄语 OCR 语言包，以在 Aspose.OCR 中实现俄语文本识别。  
 
 
 

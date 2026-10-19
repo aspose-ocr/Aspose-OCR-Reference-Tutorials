@@ -72,6 +72,10 @@ Scopri come creare un processore di correzione ortografica usando l'AI di Aspose
 
 ### [Verifica del flag di licenza in Aspose OCR – Guida rapida per verificare la licenza](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Scopri come controllare il flag di licenza in Aspose OCR per assicurarti che la tua applicazione sia correttamente licenziata.
+### [Come abilitare GPU per OCR in C# – Guida passo‑passo](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Abilita il supporto GPU per l'OCR in C# con Aspose.OCR. Segui la guida passo‑passo per aumentare velocità e precisione.
+### [Come scaricare il pacchetto lingua OCR per il russo – Guida completa](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Scopri come scaricare e installare il pacchetto lingua OCR per il russo, passo dopo passo, per migliorare il riconoscimento multilingue.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

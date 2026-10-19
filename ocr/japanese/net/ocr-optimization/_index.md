@@ -237,6 +237,8 @@ Aspose.OCR を使用して画像を前処理し、OCR の精度を高める方�
 GPU を活用したバッチ処理で PNG 画像から高速にテキストを抽出するデモです。Aspose OCR の性能を体感できます。
 ### [C# で Aspose OCR を使用して検索可能 PDF を作成する](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Aspose OCR を活用し、C# で画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
+### [OCR を改善する方法 – Aspose で画像からテキストを抽出](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Aspose の機能を活用し、OCR の精度と効率を向上させ、画像から正確にテキストを抽出する手順を解説します。
 
 ## よくある質問
 

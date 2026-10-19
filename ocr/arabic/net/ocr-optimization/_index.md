@@ -233,6 +233,8 @@ weight: 25
 اكتشف كيفية معالجة مجموعة من ملفات PNG بسرعة باستخدام GPU مع Aspose OCR في مثال عملي.
 ### [إنشاء PDF قابل للبحث باستخدام Aspose OCR في C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR مع C# خطوة بخطوة.
+### [كيفية تحسين OCR – استخراج النص من الصور باستخدام Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+دليل شامل لتحسين OCR واستخراج النص من الصور باستخدام Aspose خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

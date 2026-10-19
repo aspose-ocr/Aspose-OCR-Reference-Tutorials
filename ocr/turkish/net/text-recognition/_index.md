@@ -464,6 +464,21 @@ Aspose kullanarak Kiril alfabesindeki fiş görüntülerini metne dönüştürme
 C# ile OCR sonuçlarını JSON ve XML formatına dönüştürüp JSON dosyası oluşturmayı adım adım öğrenin.
 ### [C# OCR Eğitimi – Aspose OCR ile Arapça Metin Çıkarma](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Aspose OCR kullanarak C# ile Arapça metinleri nasıl çıkaracağınızı adım adım öğrenin.
+### [C#'ta Aspose ile OCR Kullanımı – Adım Adım Kılavuz](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+C# uygulamalarınızda Aspose OCR'ı nasıl entegre edeceğinizi ve adım adım metin tanıma işlemlerini öğrenin.
+### [TIF'ten Aranabilir PDF Oluştur – Görüntüyü PDF'ye Dönüştür ve PDF Meta Verilerini Ekle](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+TIF dosyalarını aranabilir PDF'ye dönüştürün, PDF meta verilerini ekleyerek belge yönetimini kolaylaştırın.
+### [C#'ta Aspose Kullanımı – Görüntülerden Makbuz Verilerini Çıkarma](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+C# uygulamalarınızda Aspose kullanarak görüntülerden makbuz verilerini nasıl çıkaracağınızı adım adım öğrenin.
+### [C#'ta OCR Kullanımı – Görüntülerden ve DJVU Dosyalarından Metin Çıkarma](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+C# uygulamalarınızda OCR ile görüntü ve DJVU dosyalarından metin nasıl çıkarılır, adım adım öğrenin.
+### [C#'ta Aspose OCR ile Çince Metin Tanıma](./recognize-chinese-text-using-aspose-ocr-in-c/)
+C# uygulamalarınızda Aspose OCR kullanarak Çince metinleri tanıyın ve işleyin. Adım adım kılavuz.
+### [C#'ta Toplu OCR Nasıl Yapılır – Büyük Miktarda Görüntü Metni Çıkarma İçin Tam Kılavuz](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+C# ile birden çok görüntüden metin çıkararak toplu OCR işlemlerini adım adım öğrenin ve projelerinizi hızlandırın.
+### [Aspose OCR Motoru ile TIFF'ten Metin Çıkarma – Tam Örnek](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Aspose OCR motorunu kullanarak TIFF dosyalarından metin çıkarmayı adım adım öğrenin ve tam örnekle uygulayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

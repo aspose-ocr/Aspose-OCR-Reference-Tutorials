@@ -235,6 +235,8 @@ weight: 25
 Δείτε πώς να επεξεργαστείτε μαζικά PNG χρησιμοποιώντας GPU για γρήγορο OCR με Aspose OCR.
 ### [Δημιουργία αναζητήσιμου PDF με Aspose OCR σε C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με C#.
+### [Πώς να βελτιώσετε το OCR – Εξαγωγή κειμένου από εικόνες με το Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Μάθετε τεχνικές βελτίωσης του OCR και εξαγωγής κειμένου από εικόνες χρησιμοποιώντας το Aspose.OCR.
 
 ## Συχνές Ερωτήσεις
 

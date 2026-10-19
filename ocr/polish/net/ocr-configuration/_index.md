@@ -86,6 +86,10 @@ Dowiedz się, jak używać Aspose OCR w C# do rozpoznawania tekstu w języku Kan
 Pełny przewodnik tworzenia procesora sprawdzania pisowni przy użyciu Aspose OCR AI.
 ### [Sprawdź flagę licencji w Aspose OCR – szybki przewodnik weryfikacji licencji](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Dowiedz się, jak sprawdzić flagę licencji w Aspose OCR, aby upewnić się, że biblioteka jest prawidłowo licencjonowana.
+### [Jak włączyć GPU dla OCR w C# – przewodnik krok po kroku](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Dowiedz się, jak skonfigurować obsługę GPU w Aspose.OCR dla C#, aby przyspieszyć rozpoznawanie obrazu.
+### [Jak pobrać pakiet językowy OCR dla języka rosyjskiego – kompletny przewodnik](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Poznaj krok po kroku proces pobierania i instalacji pakietu językowego OCR dla języka rosyjskiego w Aspose.OCR.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

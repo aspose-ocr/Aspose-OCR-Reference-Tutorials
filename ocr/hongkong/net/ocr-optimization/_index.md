@@ -228,6 +228,8 @@ weight: 25
 展示如何利用 GPU 加速批次處理 PNG 圖像的文字辨識，提升效能與準確度。
 ### [使用 Aspose OCR 在 C# 中建立可搜尋 PDF](./create-searchable-pdf-with-aspose-ocr-in-c/)
 示範如何使用 Aspose OCR 於 C# 產生可搜尋的 PDF 文件，提升文件可讀性與搜尋功能。
+### [如何提升 OCR – 使用 Aspose 從圖像提取文字](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+了解如何使用 Aspose 提升 OCR 精度，從圖像中提取文字的最佳實踐。
 
 ## 常見問題
 

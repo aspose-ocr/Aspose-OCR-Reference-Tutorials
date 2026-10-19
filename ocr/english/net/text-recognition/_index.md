@@ -479,6 +479,20 @@ Convert Cyrillic receipt images to text using Aspose.OCR for .NET. Follow our gu
 Learn how to convert OCR output to JSON and XML in C#, and write the JSON file using Aspose.OCR for .NET.
 ### [c# ocr tutorial – Extract Arabic Text with Aspose OCR](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Extract Arabic text from images using Aspose OCR in C#. Follow our step-by-step guide to enhance your .NET applications.
+### [Recognize Chinese Text Using Aspose OCR in C#](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Learn how to recognize Chinese text using Aspose OCR in C#, with step‑by‑step guidance for accurate multilingual OCR.
+### [How to Use Aspose – Extract Receipt Data from Images in C#](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Learn how to extract receipt data from images using Aspose OCR in C#, with a step‑by‑step guide for accurate data capture.
+### [How to Use Aspose for OCR in C# – Step‑by‑Step Guide](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Learn how to implement Aspose OCR in C# with a detailed step‑by‑step guide for accurate text extraction.
+### [Create Searchable PDF from TIF – Convert Image to PDF, Add PDF Metadata](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Create a searchable PDF from TIF images, convert to PDF and add metadata using Aspose.OCR for .NET.
+### [How to Use OCR in C# – Extract Text from Images and DJVU Files](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Learn how to extract text from images and DJVU files using Aspose.OCR in C#, with a clear step‑by‑step guide.
+### [How to Batch OCR in C# – Complete Guide for Bulk Image Text Extraction](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Learn how to perform batch OCR in C# to extract text from multiple images efficiently with Aspose.OCR.
+### [Extract Text from TIFF with Aspose OCR Engine – Complete Example](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Learn how to extract text from TIFF files using Aspose OCR Engine with a comprehensive step‑by‑step example.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -240,6 +240,8 @@ Scopri come ruotare automaticamente le immagini e correggere l'inclinazione per 
 Scopri come eseguire il riconoscimento OCR su file PNG in batch usando l'accelerazione GPU con Aspose OCR.
 ### [Crea PDF ricercabile con Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Impara a generare PDF ricercabili usando Aspose OCR in C#, trasformando immagini in documenti PDF con testo indicizzabile.
+### [Come migliorare OCR – Estrarre testo dalle immagini con Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Scopri strategie avanzate per migliorare l'OCR e estrarre testo dalle immagini con Aspose.
 
 ## Domande Frequenti
 

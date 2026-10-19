@@ -480,6 +480,20 @@ Aspose.OCR for .NET を活用し、領収書画像からキリル文字テキス
 Aspose.OCR を使用して OCR 結果を JSON および XML に変換し、C# で JSON ファイルを書き出す手順を解説します。
 ### [C# OCR チュートリアル – Aspose OCR でアラビア語テキストを抽出](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Aspose.OCR を使用して .NET アプリケーションでアラビア語テキストを正確に抽出する手順を解説します。
+### [C#でAsposeを使用したOCRの使い方 – ステップバイステップガイド](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+Aspose.OCR を C# で活用し、画像からテキストを抽出する手順を詳しく解説します。初心者でも分かりやすいステップバイステップガイドです。
+### [C#でOCRを使用する方法 – 画像とDJVUファイルからテキストを抽出](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+Aspose.OCR を活用し、C# で画像や DJVU ファイルからテキストを抽出する手順をステップバイステップで解説します。
+### [TIF から検索可能な PDF を作成 – 画像を PDF に変換し、PDF メタデータを追加](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+Aspose.OCR for .NET を使用して TIF 画像から検索可能な PDF を作成し、画像を PDF に変換しながらメタデータを追加する手順を解説します。
+### [Aspose OCR エンジンで TIFF からテキストを抽出 – 完全例](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Aspose OCR エンジンを利用して、TIFF 画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C#でAsposeを使用して画像からレシートデータを抽出する方法](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+Aspose.OCR を活用し、C# アプリで画像からレシート情報を抽出する手順をステップバイステップで解説します。
+### [C#でAspose OCRを使用して中国語テキストを認識する](./recognize-chinese-text-using-aspose-ocr-in-c/)
+Aspose OCR を C# で活用し、中国語の画像からテキストを抽出する手順をステップバイステップで解説します。
+### [C#でバッチ OCR を実行する方法 – 大量画像テキスト抽出の完全ガイド](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+Aspose.OCR を使用して C# で大量の画像からテキストを一括抽出する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

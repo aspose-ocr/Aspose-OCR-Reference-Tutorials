@@ -236,6 +236,8 @@ Naučte se automaticky otáčet a vyrovnávat obrázky před OCR pomocí Aspose.
 Naučte se, jak pomocí Aspose OCR v C# vytvořit prohledávatelný PDF dokument z obrázků.
 ### [Rozpoznat text z PNG pomocí Aspose OCR – GPU‑akcelerovaný dávkový demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 Ukázkový projekt, který využívá GPU akceleraci pro hromadné rozpoznávání textu z PNG souborů pomocí Aspose OCR.
+### [Jak zlepšit OCR – Extrahovat text z obrázků s Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Naučte se optimalizovat OCR a zvýšit přesnost extrakce textu z obrázků s nástroji Aspose.
 
 ## Často kladené otázky
 

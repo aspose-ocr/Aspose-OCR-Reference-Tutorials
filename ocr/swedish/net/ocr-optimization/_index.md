@@ -235,6 +235,8 @@ Lär dig hur du automatiskt roterar och räta upp bilder för exakt OCR med C# o
 ### [Känn igen text från PNG med Aspose OCR – GPU‑accelererad batch‑demo](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 Demonstration av GPU‑accelererad batch‑bearbetning för att känna igen text i PNG‑bilder med Aspose OCR.
 ### [Skapa sökbar PDF med Aspose OCR i C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+### [Hur du förbättrar OCR – Extrahera text från bilder med Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Lär dig förbättra OCR‑noggrannheten och extrahera text från bilder med Aspose i en steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

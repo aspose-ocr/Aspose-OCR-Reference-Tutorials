@@ -44,7 +44,6 @@ Extrahování OCR znamená předání obrázku (nebo kolekce obrázků) do Aspos
 ### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
 Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
-Odemkněte potenciál Aspose.OCR pro .NET. Snadno provádějte rozpoznávání OCR obrázků pomocí seznamů. Zvyšte produktivitu a extrakci dat ve svých aplikacích.
 ### [Načíst soubor obrázku a extrahovat text účtenky pomocí GPU OCR v C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Ukážeme, jak využít GPU akceleraci v Aspose.OCR pro rychlé načtení obrázku a extrakci textu z účtenek v C#.
 ### [Vytvořit prohledávatelný PDF v C# – průvodce konverzí OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
@@ -71,6 +70,10 @@ Naučte se, jak pomocí Aspose OCR rozpoznat kannadský text z obrázku v C# apl
 Kompletní průvodce vytvořením procesoru pro kontrolu pravopisu pomocí Aspose OCR AI.
 ### [Zkontrolujte licenční příznak v Aspose OCR – Rychlý průvodce ověřením licence](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Rychle zjistěte, zda je Aspose OCR správně licencováno, a odstraňte problémy s licenčním příznakem.
+### [Jak povolit GPU pro OCR v C# – krok za krokem průvodce](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Naučte se, jak aktivovat GPU akceleraci pro OCR v C# aplikacích pomocí Aspose.OCR.
+### [Jak stáhnout OCR jazykový balíček pro ruštinu – kompletní průvodce](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Naučte se, jak stáhnout a nainstalovat jazykový balíček OCR pro ruštinu pro Aspose.OCR.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

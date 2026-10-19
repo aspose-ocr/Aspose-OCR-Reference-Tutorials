@@ -463,6 +463,20 @@ Aspose를 사용해 사이릴리크 문자 영수증 이미지를 텍스트로 �
 Aspose.OCR를 사용해 OCR 결과를 JSON 및 XML로 변환하고, C#에서 JSON 파일을 작성하는 방법을 단계별로 안내합니다.
 ### [C# OCR 튜토리얼 – Aspose OCR로 아랍어 텍스트 추출](./c-ocr-tutorial-extract-arabic-text-with-aspose-ocr/)
 Aspose OCR을 사용해 C#에서 아랍어 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose를 사용한 OCR 활용 방법 – 단계별 가이드](./how-to-use-aspose-for-ocr-in-c-step-by-step-guide/)
+C# 애플리케이션에서 Aspose OCR을 활용해 텍스트 인식을 구현하는 단계별 가이드를 확인하세요.
+### [TIF에서 검색 가능한 PDF 만들기 – 이미지 PDF로 변환, PDF 메타데이터 추가](./create-searchable-pdf-from-tif-convert-image-to-pdf-add-pdf/)
+TIF 이미지를 검색 가능한 PDF로 변환하고 메타데이터를 추가하는 방법을 단계별로 안내합니다.
+### [Aspose OCR 엔진으로 TIFF에서 텍스트 추출 – 완전 예제](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
+Aspose OCR 엔진을 사용해 TIFF 이미지에서 텍스트를 추출하는 전체 예제 가이드를 확인하세요.
+### [Aspose 사용 방법 – C#에서 이미지에서 영수증 데이터 추출](./how-to-use-aspose-extract-receipt-data-from-images-in-c/)
+C# 애플리케이션에서 Aspose를 활용해 이미지에서 영수증 데이터를 추출하는 단계별 가이드를 확인하세요.
+### [C#에서 OCR 사용 방법 – 이미지 및 DJVU 파일에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-images-and-djvu-files/)
+C# 애플리케이션에서 이미지와 DJVU 파일의 텍스트를 추출하는 단계별 가이드를 확인하세요.
+### [C#에서 Aspose OCR을 사용하여 중국어 텍스트 인식하기](./recognize-chinese-text-using-aspose-ocr-in-c/)
+C# 애플리케이션에서 Aspose OCR을 활용해 중국어 텍스트를 인식하는 단계별 가이드를 확인하세요.
+### [C#에서 배치 OCR 수행 방법 – 대량 이미지 텍스트 추출을 위한 완전 가이드](./how-to-batch-ocr-in-c-complete-guide-for-bulk-image-text-ext/)
+C#을 사용해 여러 이미지를 한 번에 OCR 처리하고 텍스트를 추출하는 단계별 완전 가이드를 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

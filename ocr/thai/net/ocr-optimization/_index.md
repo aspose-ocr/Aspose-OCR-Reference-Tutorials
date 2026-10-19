@@ -234,6 +234,9 @@ weight: 25
 ### [จดจำข้อความจาก PNG ด้วย Aspose OCR – การสาธิตแบบแบตช์เร่งด้วย GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
 
 
+### [วิธีปรับปรุง OCR – ดึงข้อความจากภาพด้วย Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+เรียนรู้เทคนิคการเพิ่มประสิทธิภาพ OCR และการดึงข้อความจากภาพด้วย Aspose อย่างง่ายดาย.
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

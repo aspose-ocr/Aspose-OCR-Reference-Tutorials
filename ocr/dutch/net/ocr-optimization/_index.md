@@ -244,6 +244,8 @@ Leer hoe je automatisch rotatie en kantcorrectie toepast bij OCR in C# voor nauw
 Ontdek hoe je met GPU‑versnelling grote hoeveelheden PNG‑bestanden snel kunt verwerken en tekst kunt extraheren met Aspose OCR.
 ### [Zoekbare PDF maken met Aspose OCR in C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Genereer een doorzoekbare PDF vanuit afbeeldingen met Aspose OCR en C#. Volg de stapsgewijze handleiding.
+### [Hoe OCR te verbeteren – Tekst extraheren uit afbeeldingen met Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Leer hoe je OCR-prestaties kunt optimaliseren en nauwkeurige tekstextractie uit afbeeldingen met Aspose.
 
 ## Veelgestelde vragen
 

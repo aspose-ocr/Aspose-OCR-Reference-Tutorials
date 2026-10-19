@@ -249,6 +249,8 @@ weight: 25
 ### [Создание поискового PDF с Aspose OCR на C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
 Создайте PDF с возможностью поиска текста, используя Aspose OCR в C#.
 
+### [Как улучшить OCR – извлечение текста из изображений с Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+
 ## Часто задаваемые вопросы
 
 **Q: Могу ли я извлекать текст из файлов изображений, содержащих несколько языков?**  

@@ -83,6 +83,10 @@ Lär dig hur du med Aspose OCR i C# kan känna igen Kannada‑text från en bild
 Skapa en stavningskontrollprocessor med Aspose OCR AI. En komplett guide för att implementera AI‑driven stavningskontroll i .NET‑applikationer.
 ### [Kontrollera licensflaggan i Aspose OCR – Snabbguide för att verifiera licens](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Lär dig hur du snabbt kontrollerar licensstatusen i Aspose OCR för att säkerställa korrekt licensiering.
+### [Hur du aktiverar GPU för OCR i C# – Steg‑för‑steg‑guide](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Lär dig hur du konfigurerar GPU‑acceleration för Aspose.OCR i C# för snabbare bildigenkänning.
+### [Hur du laddar ner OCR‑språkpaket för ryska – Komplett guide](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Lär dig hur du laddar ner och installerar OCR‑språkpaketet för ryska i Aspose.OCR för .NET.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

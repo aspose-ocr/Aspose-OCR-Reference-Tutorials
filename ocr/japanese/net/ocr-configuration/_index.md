@@ -46,6 +46,8 @@ Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を�
 Aspose.OCR で .NET の OCR 画像認識を活用し、フォルダー内の画像からテキストを簡単に抽出する方法を習得します。
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Aspose.OCR for .NET の強力な OCR 機能を活用し、画像からシームレスにテキストを抽出する方法を学びます。
+### [ロシア語用 OCR 言語パックのダウンロード方法 – 完全ガイド](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+ロシア語 OCR 言語パックの取得手順とインストール方法をステップバイステップで解説します。
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR 画像認識を手軽に実行し、アプリケーションの生産性とデータ抽出を向上させます。
 ### [C# で OCR を有効化する方法 – PDF を簡単にテキストへ変換](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
@@ -70,6 +72,7 @@ Aspose OCR を使用して C# アプリでカンナダ語画像のテキスト�
 ### [Aspose OCR AI を使用したスペルチェックプロセッサの作成 – 完全ガイド](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
 Aspose OCR AI を活用し、スペルチェックプロセッサを作成してテキストの正確性を向上させる完全ガイドです。
 ### [Aspose OCR のライセンスフラグを確認 – ライセンス検証クイックガイド](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+### [C# で OCR 用 GPU を有効化する方法 – ステップバイステップガイド](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  
