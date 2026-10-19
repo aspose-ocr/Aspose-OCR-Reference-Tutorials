@@ -45,7 +45,7 @@ tags:
 - Aspose OCR
 - Java
 - Image processing
-title: Learn how to recognize text from PNG images using Aspose OCR in Java
+title: Learn how to recognize text from PNG images using Aspose OCR in Java – Extract text efficiently
 url: /java/ocr-operations/how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/
 ---
 
@@ -219,6 +219,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
