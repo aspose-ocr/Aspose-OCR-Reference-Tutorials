@@ -1,8 +1,8 @@
 ---
-title: "Recognize PDF Text – OCR Operations with Aspose.OCR for Java"
+title: "Extract PDF Text – OCR Operations with Aspose.OCR for Java"
 linktitle: OCR Operations
 second_title: Aspose.OCR Java API
-description: "Learn how to recognize PDF text with Aspose.OCR for Java. Explore Detect Areas Mode, language selection, PDF and TIFF recognition, and improve OCR accuracy."
+description: "Learn how to extract PDF text with Aspose.OCR for Java. Explore Detect Areas Mode, language selection, PDF and TIFF recognition, and improve OCR accuracy."
 weight: 21
 url: /java/ocr-operations/
 date: 2025-12-10
@@ -40,7 +40,17 @@ Unleash the true potential of text extraction from images with the innovative De
 
 Whether you're dealing with complex images or need targeted text extraction, this tutorial has got you covered. Elevate your OCR game with Detect Areas Mode and unlock a new level of accuracy.
 
-[Explore Detect Areas Mode Tutorial](./perform-ocr-detect-areas-mode/)
+```java
+// Example: Detect Areas Mode
+OcrEngine engine = new OcrEngine();
+engine.setImage(new Image("sample.png"));
+engine.getImageProcessingOptions().setDetectAreasMode(true);
+engine.recognize();
+String text = engine.getText();
+System.out.println(text);
+```
+
+[Explore Detect Areas Mode Tutorial]({{< relref "perform-ocr-detect-areas-mode" >}})
 
 ## Performing OCR with Language Selection in Aspose.OCR
 
@@ -48,7 +58,7 @@ Precision is key when it comes to text extraction, and Aspose.OCR for Java under
 
 Whether it's multilingual documents or specific language requirements, this tutorial empowers you to extract text with pinpoint accuracy. Say goodbye to guesswork and hello to precision.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
+[Discover Language Selection Tutorial]({{< relref "perform-ocr-language-selection" >}})
 
 ## OCR Recognizing PDF Documents in Aspose.OCR for Java
 
@@ -56,7 +66,7 @@ Effortlessly unlock the power of OCR in Java with Aspose.OCR. Our tutorial on re
 
 No more struggling with PDF text extraction. Dive into the tutorial and equip yourself with the knowledge to effortlessly recognize text in PDF documents, ensuring a smooth workflow.
 
-[Get Started with PDF Recognition](./recognize-pdf/)
+[Get Started with PDF Recognition]({{< relref "recognize-pdf" >}})
 
 ## OCR Recognizing TIFF Images in Aspose.OCR for Java
 
@@ -64,28 +74,28 @@ Experience the next level of text recognition in Java with Aspose.OCR. Our tutor
 
 Say goodbye to manual text extraction from TIFF images. Let Aspose.OCR handle it for you. Dive into the tutorial and unlock powerful text recognition in Java.
 
-[TIFF Recognition Tutorial](./recognize-tiff/)
+[TIFF Recognition Tutorial]({{< relref "recognize-tiff" >}})
 
 In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys to unlock the full potential of OCR operations. Dive into each tutorial, explore the features, and elevate your text extraction capabilities. Say goodbye to manual efforts and embrace the precision and efficiency offered by Aspose.OCR for Java!
 
-## OCR Operations Tutorials
-### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
+## OCR operations tutorials
+### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
-### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
+### [Performing OCR with Language Selection in Aspose.OCR]({{< relref "perform-ocr-language-selection" >}})
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
-### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
+### [OCR Recognizing PDF Documents in Aspose.OCR for Java]({{< relref "recognize-pdf" >}})
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
-### [Create searchable pdf in Java – Step‑by‑Step Guide](./create-searchable-pdf-in-java-step-by-step-guide/)
-### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
+### [Create searchable pdf in Java – Step‑by‑Step Guide]({{< relref "create-searchable-pdf-in-java-step-by-step-guide" >}})
+### [OCR Recognizing TIFF Images in Aspose.OCR for Java]({{< relref "recognize-tiff" >}})
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
-### [How to Batch OCR in Java – Complete Guide to Extract Text from Images](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+### [How to Batch OCR in Java – Complete Guide to Extract Text from Images]({{< relref "how-to-batch-ocr-in-java-complete-guide-to-extract-text-from" >}})
 Learn how to batch process images with Aspose.OCR for Java, extracting text efficiently from multiple files in a single workflow.
-### [Run OCR on Image with Java – Complete Aspose OCR Guide](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+### [Run OCR on Image with Java – Complete Aspose OCR Guide]({{< relref "run-ocr-on-image-with-java-complete-aspose-ocr-guide" >}})
 Step‑by‑step guide to run OCR on images using Aspose.OCR for Java, covering setup, configuration, and best practices.
-### [Download all resources and language packs in C# – complete guide](./download-all-resources-and-language-packs-in-c-complete-guid/)
+### [Download all resources and language packs in C# – complete guide]({{< relref "download-all-resources-and-language-packs-in-c-complete-guid" >}})
 Download all Aspose OCR resources and language packs for C# in one comprehensive guide.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I convert a scanned PDF into a searchable PDF?**  
 A: Use the `recognize-pdf` tutorial to apply OCR, then save the document with a searchable text layer.
@@ -116,9 +126,9 @@ A: Process TIFF images in chunks or use multi‑threading to keep memory usage o
 {{< blocks/products/products-backtop-button >}}
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
-### [Convert Images to Text in Java – Batch OCR Processing Guide](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+### [Convert images to text in java – batch OCR processing guide]({{< relref "convert-images-to-text-in-java-batch-ocr-processing-guide" >}})
 Learn how to batch process images into searchable text using Aspose.OCR for Java.
-### [Create Searchable PDF with Aspose OCR – Step‑by‑Step Guide](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+### [Create searchable PDF with aspose OCR – step‑by‑Step guide]({{< relref "create-searchable-pdf-with-aspose-ocr-step-by-step-guide" >}})
 Step‑by‑step guide to create searchable PDFs using Aspose.OCR for Java, covering setup, OCR processing, and saving results.
 
 ### [Performing OCR with Language Selection in Aspose.OCR]({{< relref "perform-ocr-language-selection" >}})
@@ -129,7 +139,7 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java]({{< relref "recognize-tiff" >}})
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
-### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
 
 ### [Create searchable PDF from PNG – complete java guide]({{< relref "create-searchable-pdf-from-png-complete-java-guide" >}})
@@ -137,3 +147,4 @@ Convert PNG images into searchable PDFs with Aspose.OCR for Java in a few simple
 
 ### [Create searchable PDF from image with OCR – java tutorial]({{< relref "create-searchable-pdf-from-image-with-ocr-java-tutorial" >}})
 Convert images into searchable PDFs using Aspose.OCR for Java in a few simple steps.
+{{< /blocks/products/products-backtop-button >}}

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-09-22
-description: Learn how to get resources path java and configure download folder for
-  storing downloaded files location in your Java applications.
+description: Learn how to get the resources path in Java using the Aspose OCR API and configure the download folder for storing downloaded files in your Java applications.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -27,7 +26,7 @@ tags:
 - java
 - file handling
 - resources
-title: How to get resources path java and set download folder
+title: How to Get Resources Path in Java with Aspose OCR and Set Download Folder
 url: /java/ocr-basics/how-to-get-resources-path-java-and-set-download-folder/
 ---
 
@@ -171,19 +170,17 @@ public class Downloader {
 | `Resources.GetLocalPath()` | Retrieves the absolute path you will use for all downloads. |
 | `Files.createDirectories(downloadDir)` | Ensures the folder exists (configure download folder). |
 | `Files.newOutputStream(Paths.get(Resources.GetLocalPath(), fileName))` | Saves the incoming bytes to **store downloaded files location**. |
-| Buffer loop (`while ((bytesRead = in.read(buffer)) != -1)
+| Buffer loop (`while ((bytesRead = in.read(buffer)) != -1)` | Reads and writes file data efficiently. |
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Set Aspose OCR License and Verify It in Java](/ocr/english/java/ocr-basics/set-license/)
-- [How to Read Text from an Image in Java Using Aspose OCR – Complete Guide](/ocr/english/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
-- [How to Enable OCR in Java – Step‑by‑Step Guide](/ocr/english/java/ocr-basics/how-to-enable-ocr-in-java-step-by-step-guide/)
+- [How to Set Aspose OCR License and Verify It in Java]({{< relref "ocr/english/java/ocr-basics/set-license" >}})
+- [How to Read Text from an Image in Java Using Aspose OCR – Complete Guide]({{< relref "ocr/english/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide" >}})
+- [How to Enable OCR in Java – Step‑by‑Step Guide]({{< relref "ocr/english/java/ocr-basics/how-to-enable-ocr-in-java-step-by-step-guide" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

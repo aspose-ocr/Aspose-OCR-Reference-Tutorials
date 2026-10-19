@@ -1,8 +1,8 @@
 ---
-title: "Extract Text from Images – OCR Basics for Java"
+title: "Extract Text from Images with Aspose.OCR – OCR Basics for Java"
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
-description: "Learn how to extract text images using Aspose.OCR for Java. This guide shows how to set license, calculate skew, and improve OCR accuracy."
+description: "Learn how to extract text from images using the Aspose.OCR Java API. This guide shows how to set a license, calculate skew, and improve OCR accuracy."
 weight: 20
 url: /java/ocr-basics/
 date: 2025-12-08
@@ -113,7 +113,7 @@ Complete example showing how to extract OCR text in Java using Aspose OCR, cover
 Enable OCR in Java quickly with this step-by-step guide. Follow simple instructions to get Aspose.OCR up and running.
 ### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Learn how to extract Tamil text from images using Aspose OCR for Java in this step‑by‑step guide.
-### [Extract Text from Image in Java – Complete OCR Example](./extract-text-from-image-in-java-complete-ocr-example/)
+### [Extract text from image in java – complete OCR example](./extract-text-from-image-in-java-complete-ocr-example/)
 Full Java OCR walkthrough: load image, set license, configure engine, and extract text with Aspose.OCR.
 ### [How to get resources path java and set download folder](./how-to-get-resources-path-java-and-set-download-folder/)
 
@@ -126,6 +126,5 @@ Full Java OCR walkthrough: load image, set license, configure engine, and extrac
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

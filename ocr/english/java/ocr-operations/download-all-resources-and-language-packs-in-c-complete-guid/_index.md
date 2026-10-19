@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-09-22
-description: Download all resources in C# with a single call. Learn how to bulk download
+description: Download all resources in C# with Aspose.OCR using a single call. Learn how to bulk download
   language packs, auto download resources, and fetch specific language data.
 draft: false
 images:
@@ -30,7 +30,7 @@ tags:
 - resource management
 - language packs
 - C#
-title: Download all resources and language packs in C# – complete guide
+title: Download all resources and language packs with Aspose.OCR in C# – complete guide
 url: /java/ocr-operations/download-all-resources-and-language-packs-in-c-complete-guid/
 ---
 
@@ -263,17 +263,16 @@ OCR result: The quick brown fox jumps over the lazy dog.
 
 The program demonstrates **download all resources**, **how to bulk
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Download OCR Language Model in C# with Aspose – Full Guide](/ocr/english/net/ocr-configuration/download-ocr-language-model-in-c-with-aspose-full-guide/)
-- [How to Check OCR Language Support in C# – Complete Guide](/ocr/english/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide/)
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Download OCR Language Model in C# with Aspose – Full Guide]({{< relref "ocr/english/net/ocr-configuration/download-ocr-language-model-in-c-with-aspose-full-guide.md" >}})
+- [How to Check OCR Language Support in C# – Complete Guide]({{< relref "ocr/english/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide.md" >}})
+- [Extract image text C# with language selection using Aspose.OCR]({{< relref "ocr/english/net/ocr-configuration/ocr-operation-with-language-selection.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
