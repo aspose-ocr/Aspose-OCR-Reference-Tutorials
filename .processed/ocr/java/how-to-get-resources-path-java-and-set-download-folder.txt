@@ -1,0 +1,7 @@
+Title: How to get resources path java and set download folder
+Slug: how-to-get-resources-path-java-and-set-download-folder
+Category: ocr-basics
+ProcessedDate: 2026-09-23T02:31:48.330286
+SourceRepo: AI Search API
+Keywords: get resources path java, configure download folder, store downloaded files location
+PRNumber: 226

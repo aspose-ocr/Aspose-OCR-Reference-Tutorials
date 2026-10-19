@@ -10,11 +10,8 @@ url: /nl/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
 
-. Keep unchanged.
 
-Technical terms: Detect Areas Mode, OCR, API, etc remain English.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

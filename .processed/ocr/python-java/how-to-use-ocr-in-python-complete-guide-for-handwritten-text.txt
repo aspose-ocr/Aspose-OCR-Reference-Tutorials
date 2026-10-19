@@ -1,0 +1,7 @@
+Title: How to Use OCR in Python – Complete Guide for Handwritten Text
+Slug: how-to-use-ocr-in-python-complete-guide-for-handwritten-text
+Category: general
+ProcessedDate: 2026-06-26T00:08:13.499048
+SourceRepo: AI Search API
+Keywords: how to use ocr, extract handwritten text, recognize handwritten text, handwritten note ocr, run ocr on image
+PRNumber: 160

@@ -11,7 +11,6 @@ url: /it/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

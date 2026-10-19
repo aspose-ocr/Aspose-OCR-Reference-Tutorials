@@ -9,7 +9,7 @@ url: /it/net/ocr-configuration/ocr-operation-with-folder/
 weight: 11
 ---
 
- produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

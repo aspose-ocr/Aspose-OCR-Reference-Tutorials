@@ -1,0 +1,7 @@
+Title: Extract Text from Image in C# – Complete Aspose OCR Guide
+Slug: extract-text-from-image-in-c-complete-aspose-ocr-guide
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:22.957895
+SourceRepo: AI Search API
+Keywords: extract text from image, convert jpg to text, how to ocr image, c# image to text, load image for ocr
+PRNumber: 131

@@ -1,0 +1,7 @@
+Title: Java OCR Example – Load Image and Recognize Text with Aspose
+Slug: java-ocr-example-load-image-and-recognize-text-with-aspose
+Category: ocr-basics
+ProcessedDate: 2026-06-16T12:46:45.371676
+SourceRepo: AI Search API
+Keywords: java ocr example, load image ocr, recognize text java, recognize jpg text, extract text aspose
+PRNumber: 145
