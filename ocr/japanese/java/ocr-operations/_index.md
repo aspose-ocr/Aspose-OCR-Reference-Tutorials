@@ -136,6 +136,12 @@ Java で画像を読み込み、Aspose.OCR を使用してテキストを抽出�
 Aspose OCR for Java を使用して、画像の特定領域からテキストを抽出する方法をステップバイステップで解説します。
 ### [HEIC からテキストを抽出 – 完全 Java ガイド](./extract-text-from-heic-complete-java-guide/)
 HEIC 画像からテキストを抽出する完全な Java チュートリアルです。ステップバイステップで実装方法を解説します。
+### [Aspose OCR で PNG からテキストを認識 – 完全 Java ガイド](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Aspose OCR を使用して PNG 画像からテキストを認識する完全な Java ガイドです。ステップバイステップで実装方法を解説します。
+### [Java で画像の OCR を実行 – PNG からタイ語テキストを抽出](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Java と Aspose.OCR を使用して PNG 画像からタイ語テキストを抽出する完全ガイドです。
+### [Aspose OCR で PDF テキストを認識 – 完全 Java ガイド](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+### [Java で画像から検索可能な PDF を作成 – ステップバイステップ ガイド](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 
 ## よくある質問
 

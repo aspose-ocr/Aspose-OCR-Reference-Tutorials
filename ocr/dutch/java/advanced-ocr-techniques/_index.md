@@ -37,6 +37,10 @@ Ontdek de kracht van Aspose.OCR voor Java in onze gids over het uitvoeren van OC
 
 Bereid rechthoeken efficiënt voor voor OCR met Aspose.OCR voor Java met behulp van onze uitgebreide handleiding. Verbeter uw Java-applicaties door het volledige potentieel van tekstherkenning te benutten. Volg de stapsgewijze instructies voor een naadloze integratie en verbeterde OCR-mogelijkheden.
 
+## [Regio van belang definiëren in Java OCR – Complete gids](./define-region-of-interest-in-java-ocr-complete-guide/)
+
+Leer hoe u een regio van belang definieert voor OCR in Java met Aspose.OCR, zodat alleen specifieke delen van een afbeelding worden herkend.
+
 ## [Lijnen herkennen in Aspose.OCR voor Java](./recognize-lines/)
 
 Versterk uw Java-applicaties met Aspose.OCR voor nauwkeurige tekstherkenning. Deze tutorial begeleidt u bij eenvoudige integratie en hoge nauwkeurigheid bij het herkennen van lijnen. Verbeter uw projecten met de efficiëntie en betrouwbaarheid van Aspose.OCR.
@@ -160,6 +164,12 @@ Leer hoe u GPU-ondersteuning inschakelt voor Aspose.OCR in Java voor snellere en
 Leer hoe u een vaste threadpool maakt om OCR-taken parallel uit te voeren in Java met Aspose.OCR.
 ### [Verbeter OCR-nauwkeurigheid in Java – Complete Aspose OCR-gids](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Leer hoe u de OCR-nauwkeurigheid in Java kunt verbeteren met deze volledige Aspose OCR-gids.
+### [Herken afbeeldingstekst met Java OCR – GPU-versneld voorbeeld](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Voer OCR uit met GPU-versnelling in Java voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+### [OCR uitvoeren op afbeelding met Java – Tekst herkennen uit PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Voer OCR uit op PNG-afbeeldingen met Java en extraheer nauwkeurig tekst. Volg onze stap‑voor‑stap handleiding voor snelle resultaten.
+### [Afbeelding voorbewerken voor OCR – Verhoog de nauwkeurigheid van tekstextractie in Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Verbeter de OCR-prestaties door afbeeldingen voor te bewerken en zo de nauwkeurigheid van tekstextractie in Java te verhogen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -163,6 +163,14 @@ Java용 Aspose.OCR에서 GPU 가속을 설정하여 OCR 성능을 극대화하�
 Java용 Aspose.OCR을 활용해 병렬 OCR 처리를 위해 고정 스레드 풀을 설정하고 효율적으로 텍스트를 추출하는 방법을 안내합니다.
 ### [Java용 Aspose.OCR에서 OCR 정확도 향상 – 완전 가이드](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Java용 Aspose.OCR을 활용해 OCR 정확도를 극대화하는 방법을 단계별로 안내합니다.
+### [GPU 가속 예제로 Java OCR을 사용한 이미지 텍스트 인식](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+GPU 가속을 활용해 Java OCR로 이미지 텍스트를 빠르고 정확하게 추출하는 방법을 안내합니다.
+### [Java용 Aspose.OCR으로 PNG 이미지에서 OCR 수행](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Java용 Aspose.OCR을 사용해 PNG 형식 이미지에서 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [Java OCR에서 관심 영역 정의 – 완전 가이드](./define-region-of-interest-in-java-ocr-complete-guide/)
+Java OCR에서 관심 영역을 지정하여 텍스트 인식을 최적화하는 방법을 단계별로 안내합니다.
+### [Java용 OCR을 위한 이미지 전처리 – 텍스트 추출 정확도 향상](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+이미지 전처리를 통해 OCR 정확도를 높이고 텍스트 추출을 최적화하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

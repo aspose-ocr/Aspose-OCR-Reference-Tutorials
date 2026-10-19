@@ -141,6 +141,14 @@ Hướng dẫn cách tải hình ảnh và sử dụng Aspose.OCR cho Java để
 Hướng dẫn cách sử dụng Aspose OCR cho Java để trích xuất văn bản từ một khu vực cụ thể trong hình ảnh.
 ### [Trích xuất Văn bản từ HEIC – Hướng dẫn Java đầy đủ](./extract-text-from-heic-complete-java-guide/)
 Khám phá cách trích xuất văn bản từ tệp HEIC bằng Aspose.OCR cho Java, từ cấu hình đến xuất kết quả chính xác.
+### [Nhận dạng văn bản PDF với Aspose OCR trong Java – Hướng dẫn đầy đủ](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+Hướng dẫn chi tiết cách nhận dạng văn bản PDF bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Nhận dạng văn bản từ PNG với Aspose OCR – Hướng dẫn Java đầy đủ](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Khám phá cách nhận dạng văn bản từ ảnh PNG bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh với Java – Hướng dẫn từng bước](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java, bao gồm cấu hình và lưu trữ kết quả.
+### [Chạy OCR trên hình ảnh với Java – Trích xuất văn bản Thai từ PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Khám phá cách trích xuất văn bản Thai từ ảnh PNG bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

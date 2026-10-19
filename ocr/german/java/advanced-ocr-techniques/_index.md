@@ -37,6 +37,9 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.OCR für Java in unserem Leitfa
 
 Bereiten Sie mithilfe unseres umfassenden Leitfadens mit Aspose.OCR für Java effizient Rechtecke für OCR vor. Verbessern Sie Ihre Java-Anwendungen, indem Sie das volle Potenzial der Texterkennung ausschöpfen. Befolgen Sie die Schritt-für-Schritt-Anleitung für eine nahtlose Integration und ver­besserte OCR-Funktionen.
 
+### [Region of Interest in Java OCR definieren – Komplettleitfaden](./define-region-of-interest-in-java-ocr-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java gezielt Bildbereiche festlegen und nur dort Text extrahieren.
+
 ## [Erkennen von Linien in Aspose.OCR für Java](./recognize-lines/)
 
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Dieses Tutorial führt Sie durch die einfache Integration und die hohe Genauigkeit bei der Linienerkennung. Steigern Sie Ihre Projekte mit der Effizienz und Zuverlässigkeit von Aspose.OCR.
@@ -166,6 +169,11 @@ Erfahren Sie, wie Sie GPU-Beschleunigung in Aspose.OCR für Java aktivieren, um 
 Erfahren Sie, wie Sie mit einem festen Thread-Pool die OCR-Verarbeitung in Java parallelisieren und die Leistung steigern.
 ### [Verbessern Sie die OCR-Genauigkeit in Java – Komplettes Aspose OCR‑Handbuch](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Erfahren Sie, wie Sie die OCR‑Genauigkeit in Java mit Aspose OCR optimieren und zuverlässige Textergebnisse erzielen.
+### [Bildtext mit Java OCR erkennen – GPU‑beschleunigtes Beispiel](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Nutzen Sie GPU‑Beschleunigung, um Bildtext mit Aspose.OCR für Java schnell und präzise zu extrahieren.
+### [Durchführen von OCR für PNG‑Bild in Aspose.OCR für Java](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Erkennen Sie Text aus PNG‑Bildern mit Aspose.OCR für Java. Schritt‑für‑Schritt‑Anleitung für schnelle und präzise Textextraktion.
+### [Bild für OCR vorverarbeiten – Genauigkeit der Textextraktion in Java steigern](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

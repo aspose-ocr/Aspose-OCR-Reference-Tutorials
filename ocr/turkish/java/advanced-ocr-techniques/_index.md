@@ -178,6 +178,12 @@ Java OCR'da GPU desteğini etkinleştirerek yüksek performanslı metin tanıma 
 Java'da paralel OCR işlemleri için sabit iş parçacığı havuzu oluşturarak performansı artırın. Adım adım kılavuz.
 ### [Java'da OCR Doğruluğunu Artırma – Tam Aspose OCR Kılavuzu](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Java projelerinizde OCR doğruluğunu artırmak için adım adım tam kılavuz. Aspose OCR ile yüksek hassasiyet elde edin.
+### [Java ile Görüntü Üzerinde OCR Gerçekleştirme – PNG'den Metin Tanıma](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Java ve Aspose.OCR kullanarak PNG formatındaki görüntülerden metin çıkarın. Kolay adımlarla yüksek doğruluk elde edin.
+### [Java OCR ile Görüntü Metnini Tanıma – GPU Hızlandırmalı Örnek](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Java OCR kullanarak GPU hızlandırmalı görüntü metni tanıma örneğiyle yüksek performanslı OCR elde edin.
+### [Java OCR'da İlgi Alanı Tanımlama – Tam Kılavuz](./define-region-of-interest-in-java-ocr-complete-guide/)
+### [OCR için Görüntü Ön İşleme – Java'da Metin Çıkarma Doğruluğunu Artırın](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

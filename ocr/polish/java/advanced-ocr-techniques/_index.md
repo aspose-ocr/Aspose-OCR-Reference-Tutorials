@@ -173,6 +173,18 @@ Dowiedz się, jak skonfigurować stałą pulę wątków, aby przyspieszyć przet
 
 ### [Popraw dokładność OCR w Javie – Kompletny przewodnik Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Dowiedz się, jak zwiększyć dokładność OCR w aplikacjach Java, korzystając z pełnego przewodnika Aspose OCR.
+### [Definiowanie regionu zainteresowania w OCR Java – Kompletny przewodnik](./define-region-of-interest-in-java-ocr-complete-guide/)
+Krok po kroku naucz się definiować regiony zainteresowania, aby precyzyjnie wyodrębniać tekst przy użyciu Aspose.OCR w Javie.
+
+### [Wykonywanie OCR na obrazie w Javie – rozpoznawanie tekstu z PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Rozpoznawaj tekst z plików PNG w Javie przy użyciu Aspose.OCR, zapewniając szybką i dokładną ekstrakcję tekstu.
+
+### [Rozpoznawanie tekstu obrazu w Java OCR – przykład przyspieszony GPU](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Wykorzystaj przyspieszenie GPU w Aspose.OCR dla Java, aby szybko i dokładnie rozpoznawać tekst na obrazach. Idealny dla wymagających aplikacji.
+
+## [Przygotowanie obrazu do OCR – Zwiększ dokładność ekstrakcji tekstu w Javie](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+
+Dowiedz się, jak przygotować obrazy, aby maksymalnie zwiększyć precyzję rozpoznawania tekstu w Aspose.OCR dla Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

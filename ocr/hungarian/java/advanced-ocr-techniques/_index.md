@@ -171,6 +171,13 @@ Ismerje meg, hogyan hozhat létre fix szálkészletet a párhuzamos OCR-feldolgo
 Ismerje meg, hogyan használhatja a GPU-t az Aspose.OCR for Java-ban a gyorsabb és pontosabb szövegfelismeréshez.
 ### [Az OCR pontosságának javítása Java-ban – Teljes Aspose OCR útmutató](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Fedezze fel, hogyan javíthatja az OCR pontosságát Java-ban az Aspose OCR teljes útmutatójával.
+### [Érdeklődési terület meghatározása Java OCR-ben – Teljes útmutató](./define-region-of-interest-in-java-ocr-complete-guide/)
+Hatékonyan határozza meg az érdeklődési területet az OCR-hez Java-ban, és pontosan vonja ki a szöveget a kívánt képrészletekből.
+### [Képszöveg felismerése Java OCR‑val – GPU‑gyorsított példa](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+### [OCR végrehajtása képen Java-val – Szöveg felismerése PNG-ből](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Végezzen OCR-t PNG képen Java-val az Aspose.OCR segítségével, és pontosan ismerje fel a szöveget. Egyszerű integráció, nagy pontosság.
+### [Kép előfeldolgozása OCR-hez – Növelje a szövegkivonás pontosságát Java-ban](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Javítsa az OCR pontosságát a képek előfeldolgozásával Java-ban, és szerezzen pontosabb szövegkivonást.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

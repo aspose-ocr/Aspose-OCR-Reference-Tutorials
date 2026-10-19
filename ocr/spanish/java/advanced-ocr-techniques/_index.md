@@ -165,6 +165,14 @@ Aprenda a activar la aceleración GPU en Aspose.OCR para Java y mejore el rendim
 Aprenda a crear un pool de hilos fijos y ejecutar OCR en paralelo, mejorando el rendimiento de sus aplicaciones Java.
 ### [Mejorar la precisión del OCR en Java – Guía completa de Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Aprenda técnicas avanzadas para aumentar la exactitud del OCR en Java con Aspose OCR y optimice la extracción de texto.
+### [Reconocer texto de imagen con Java OCR – Ejemplo acelerado por GPU](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Aprenda a reconocer texto en imágenes usando Aspose.OCR para Java con aceleración GPU para un rendimiento superior.
+### [Realizar OCR en una imagen con Java – Reconocer texto de PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Aprenda a extraer texto de archivos PNG usando Aspose.OCR para Java con alta precisión y fácil integración.
+### [Definir región de interés en OCR Java – Guía completa](./define-region-of-interest-in-java-ocr-complete-guide/)
+Aprenda a definir regiones de interés para OCR en Java con Aspose.OCR, mejorando la precisión y el rendimiento.
+### [Preprocesar imagen para OCR – Mejorar la precisión de extracción de texto en Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Aprenda a preprocesar imágenes para OCR y aumentar la precisión de extracción de texto en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

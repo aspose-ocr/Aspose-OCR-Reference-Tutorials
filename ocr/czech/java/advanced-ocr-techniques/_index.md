@@ -35,7 +35,10 @@ Objevte sílu Aspose.OCR pro Java v našem průvodci prováděním OCR na konkr�
 
 ## [Příprava obdélníků pro OCR v Aspose.OCR](./prepare-rectangles-for-ocr/)
 
-Efektivně připravte obdélníky pro OCR pomocí Aspose.OCR pro Java pomocí našeho komplexního průvodce. Vylepšete své Java aplikace odemknutím plného potenciálu rozpoznávání textu. Postupujte podle pokynů krok za krokem pro bezproblémovou integraci a vylepšené možnosti OCR.
+Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Vylepšete své aplikace Java o efektivní funkce OCR.
+
+### [Definování oblasti zájmu v Java OCR – Kompletní průvodce](./define-region-of-interest-in-java-ocr-complete-guide/)
+Kompletní průvodce definováním oblasti zájmu pro OCR v Javě s Aspose.OCR, který zvyšuje přesnost a efektivitu rozpoznávání textu.
 
 ## [Rozpoznávání čar v Aspose.OCR pro Javu](./recognize-lines/)
 
@@ -161,6 +164,12 @@ Naučte se, jak aktivovat GPU akceleraci v Aspose.OCR pro Java a výrazně zrych
 Naučte se, jak vytvořit pevný thread pool pro paralelní zpracování OCR v Javě a zvýšit výkon rozpoznávání textu.
 ### [Zlepšení přesnosti OCR v Javě – Kompletní průvodce Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Zvyšte přesnost rozpoznávání textu v Javě pomocí podrobného průvodce Aspose OCR.
+### [Rozpoznání textu z obrázku v Java OCR – příklad s GPU akcelerací](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Využijte GPU akceleraci pro rychlé rozpoznávání textu v Java OCR. Příklady a kroky pro vysoký výkon.
+### [Provádění OCR na obrázku v Javě – Rozpoznání textu z PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Rozpoznávejte text z PNG souborů pomocí Aspose.OCR pro Java. Jednoduchá integrace a vysoká přesnost pro vaše projekty.
+### [Předzpracování obrázku pro OCR – Zvyšte přesnost extrakce textu v Javě](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Naučte se, jak předzpracovat obrázky pro OCR v Javě a výrazně zlepšit přesnost rozpoznávání textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
