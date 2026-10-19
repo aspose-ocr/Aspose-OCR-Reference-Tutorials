@@ -164,6 +164,12 @@ Leer hoe u GPU-ondersteuning inschakelt voor Aspose.OCR in Java voor snellere en
 Leer hoe u een vaste threadpool maakt om OCR-taken parallel uit te voeren in Java met Aspose.OCR.
 ### [Verbeter OCR-nauwkeurigheid in Java – Complete Aspose OCR-gids](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Leer hoe u de OCR-nauwkeurigheid in Java kunt verbeteren met deze volledige Aspose OCR-gids.
+### [Herken afbeeldingstekst met Java OCR – GPU-versneld voorbeeld](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Voer OCR uit met GPU-versnelling in Java voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+### [OCR uitvoeren op afbeelding met Java – Tekst herkennen uit PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Voer OCR uit op PNG-afbeeldingen met Java en extraheer nauwkeurig tekst. Volg onze stap‑voor‑stap handleiding voor snelle resultaten.
+### [Afbeelding voorbewerken voor OCR – Verhoog de nauwkeurigheid van tekstextractie in Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Verbeter de OCR-prestaties door afbeeldingen voor te bewerken en zo de nauwkeurigheid van tekstextractie in Java te verhogen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

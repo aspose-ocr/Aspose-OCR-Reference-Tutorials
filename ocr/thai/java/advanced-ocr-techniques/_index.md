@@ -151,6 +151,14 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีสร้าง Fixed Thread Pool เพื่อประมวลผล OCR พร้อมกันหลายภาพใน Java ด้วย Aspose.OCR
 ### [ปรับปรุงความแม่นยำของ OCR ใน Java – คำแนะนำเต็มของ Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 เรียนรู้เทคนิคการเพิ่มความแม่นยำของ OCR ใน Java ด้วย Aspose OCR อย่างละเอียดและครบถ้วน
+### [การจดจำข้อความในรูปภาพด้วย Java OCR – ตัวอย่างที่เร่งด้วย GPU](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ Java พร้อมการเร่งความเร็วด้วย GPU เพื่อแยกข้อความจากรูปภาพได้อย่างรวดเร็วและแม่นยำ
+### [การดำเนินการ OCR บนรูปภาพด้วย Java – จดจำข้อความจาก PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ Java เพื่อดำเนินการ OCR บนไฟล์ PNG และแยกข้อความได้อย่างแม่นยำและรวดเร็ว
+### [กำหนดพื้นที่สนใจใน OCR ของ Java – คู่มือฉบับสมบูรณ์](./define-region-of-interest-in-java-ocr-complete-guide/)
+เรียนรู้วิธีกำหนดพื้นที่สนใจสำหรับ OCR ใน Java ด้วย Aspose.OCR เพื่อการแยกข้อความที่แม่นยำและมีประสิทธิภาพ
+### [เตรียมภาพล่วงหน้าสำหรับ OCR – เพิ่มความแม่นยำในการสกัดข้อความใน Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+เรียนรู้วิธีการเตรียมภาพก่อนทำ OCR ใน Java เพื่อเพิ่มความแม่นยำของการสกัดข้อความอย่างมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

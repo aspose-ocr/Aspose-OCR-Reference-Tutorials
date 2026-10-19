@@ -149,6 +149,11 @@ Aspose OCR Java のスレッド数を最大に設定し、OCR 処理速度を向
 ### [Java で画像からテキストへ – 完全 OCR 前処理ガイド](./image-to-text-java-complete-ocr-pre-processing-guide/)
 画像の前処理手順を網羅し、Java で OCR の精度と速度を最大化する方法を解説します。
 ### [Java で TIFF を OCR する方法 – 大きな TIFF をストリームしテキストタイルを抽出](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+### [Java で画像の OCR を実行 – PNG からテキストを認識する](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Aspose.OCR for Java を使用して、PNG 画像からテキストを正確に抽出し、シームレスに統合できます。今すぐダウンロードして OCR 機能を強化しましょう。
+### [Java OCR で画像テキストを認識する – GPU 加速例](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+### [OCR 用に画像を前処理 – Java でテキスト抽出精度を向上させる](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+このチュートリアルでは、画像前処理手法を使用して OCR の精度を高め、Java アプリケーションでのテキスト抽出を最適化する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
