@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-09-19
-description: convert image to text in Java using Aspose OCR – a step‑by‑step guide
-  to read text from image, set image OCR, and recognize text image java efficiently.
+description: Learn how to convert image to text in Java using Aspose OCR – a step‑by‑step guide to read text from image, set image OCR, and recognize text efficiently.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,15 +13,13 @@ keywords:
 - recognize text image java
 language: en
 lastmod: 2026-09-19
-og_description: convert image to text in Java with Aspose OCR. Learn how to OCR Java
-  images, set image OCR, and read text from image in just a few lines of code.
+og_description: Learn how to convert image to text in Java with Aspose OCR. OCR Java images, set image OCR, and read text from image in just a few lines of code.
 og_image_alt: Diagram showing convert image to text workflow in Java
 og_title: Convert image to text in Java – complete Aspose OCR tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-09-19'
-  description: convert image to text in Java using Aspose OCR – a step‑by‑step guide
-    to read text from image, set image OCR, and recognize text image java efficiently.
+  description: Learn how to convert image to text in Java using Aspose OCR – a step‑by‑step guide to read text from image, set image OCR, and recognize text efficiently.
   headline: How to convert image to text in Java with Aspose OCR
   type: TechArticle
 tags:
@@ -239,11 +236,8 @@ Ready to go further? Consider:
 
 * Integrating the OCR output with Apache Lucene for searchable documents.
 * Processing multi‑page PDFs by converting each page to an image first.
-*
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
