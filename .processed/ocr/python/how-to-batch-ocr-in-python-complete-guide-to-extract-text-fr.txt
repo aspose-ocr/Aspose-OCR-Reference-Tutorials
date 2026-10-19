@@ -1,0 +1,7 @@
+Title: How to Batch OCR in Python – Complete Guide to Extract Text from Images
+Slug: how-to-batch-ocr-in-python-complete-guide-to-extract-text-fr
+Category: general
+ProcessedDate: 2026-06-29T03:46:08.765507
+SourceRepo: AI Search API
+Keywords: how to batch ocr, extract text from images, convert scanned pages to text, batch ocr processing
+PRNumber: 163

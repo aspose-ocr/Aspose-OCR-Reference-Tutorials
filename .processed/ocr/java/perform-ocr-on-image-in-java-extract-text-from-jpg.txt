@@ -1,0 +1,7 @@
+Title: Perform OCR on Image in Java – Extract Text from JPG
+Slug: perform-ocr-on-image-in-java-extract-text-from-jpg
+Category: ocr-basics
+ProcessedDate: 2026-07-24T22:32:41.392180
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from image, recognize text from jpg, read text from image java, load image for ocr
+PRNumber: 186

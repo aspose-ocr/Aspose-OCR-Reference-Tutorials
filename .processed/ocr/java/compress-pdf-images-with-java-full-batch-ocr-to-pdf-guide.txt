@@ -1,0 +1,7 @@
+Title: Compress PDF Images with Java – Full Batch OCR to PDF Guide
+Slug: compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-07-05T11:17:54.237982
+SourceRepo: AI Search API
+Keywords: compress pdf images, convert png to pdf, image preprocessing for ocr, recognize text jpg, batch ocr to pdf
+PRNumber: 168

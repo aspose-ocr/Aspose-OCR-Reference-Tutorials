@@ -1,0 +1,7 @@
+Title: Enable GPU Acceleration OCR – Complete C# Guide
+Slug: enable-gpu-acceleration-ocr-complete-c-guide
+Category: ocr-optimization
+ProcessedDate: 2026-06-19T14:51:13.799767
+SourceRepo: AI Search API
+Keywords: enable gpu acceleration ocr, set ocr language, recognize text from tif
+PRNumber: 148
