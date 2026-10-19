@@ -30,7 +30,7 @@ tags:
 - OCR
 - C#
 - Aspose
-title: How to OCR and extract text from images with Aspose.OCR in C#
+title: Recognize text from images using Aspose.OCR API in C#
 url: /net/text-recognition/how-to-recognize-text-from-image-with-aspose-ocr-in-c/
 ---
 
