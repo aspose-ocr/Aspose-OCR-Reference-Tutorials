@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-04-11
-description: Tanulja meg, hogyan javíthatja az OCR-t C#-ban, JPG-ből szöveg felismerésével,
-  a képek kiegyenesítésével és a zaj eltávolításával az Aspose OCR használatával.
+date: 2026-02-13
+description: Hogyan javítható az OCR az Aspose OCR-rel történő képből történő szövegkinyerés
+  segítségével – tanulja meg, hogyan korrigálja a kép dőlését, szűrje a zajt, növelje
+  a kontrasztot és fokozza az OCR pontosságát.
 draft: false
 keywords:
 - how to improve OCR
-- recognize text from jpg
 - extract text from image
 - how to deskew image
-- how to remove noise
+- recognize text from image
+- improve OCR accuracy
 language: hu
-og_description: Fedezze fel, hogyan javíthatja az OCR-t JPG-ből származó szöveg felismerésével,
-  a képek kiegyenesítésével és a zaj eltávolításával – teljes C# útmutató.
-og_title: Hogyan növelhető az OCR pontossága C#-ban az Aspose OCR segítségével
+og_description: 'Az OCR javításának módja egy világos megközelítéssel kezdődik: szöveg
+  kinyerése a képből, kiegyenesítés, zajcsökkentés és kontraszt növelése a megbízható
+  eredményekért.'
+og_title: Hogyan javítsuk az OCR pontosságát – Teljes C# útmutató
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-title: Hogyan javítható az OCR pontossága C#-ban az Aspose OCR használatával
+title: Hogyan növelhető az OCR pontossága C#-ban az Aspose OCR segítségével
 url: /hu/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
@@ -27,194 +28,181 @@ url: /hu/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan javítsuk az OCR pontosságát C#-ban az Aspose OCR-rel
+# Hogyan javítható az OCR pontossága C#-ban az Aspose OCR-rel
 
-Gondoltál már arra, **hogyan javítsd az OCR** eredményeket, amikor a szkenneléseid inkább absztrakt művészetnek tűnnek, mint olvasható szövegnek? Nem vagy egyedül. Sok valós projektben—gondolj számlákra, bizonylatokra vagy kézírásos jegyzetekre—az eredeti képek gyakran ferde, szemcsés vagy egyszerűen zajosak. A jó hír? Az Aspose OCR számos előfeldolgozási beállítást kínál, amelyek a káoszt tiszta, gép‑olvasható karakterekké alakítják. Ebben az útmutatóban egy teljes, futtatható példán keresztül mutatjuk be, hogyan **javítható az OCR** **JPG‑ből szöveg felismerésével**, a kép kiegyenesítésével és a nem kívánt zaj eltávolításával.
+Gondoltad már, **hogyan javítható az OCR**, amikor a szkennelt képek egy kusza kuszaságként jelennek meg? Nem vagy egyedül – a fejlesztők folyamatosan küzdenek ferde oldalakkal, zajos háttérrel és alacsony kontrasztú szöveggel. A jó hír? Néhány stratégiai finomítással drámaian növelheted a szövegkinyerés sikerességét.
 
-> *Pro tipp:* Ha kihagyod az előfeldolgozást, valószínűleg összevissza kimenetet kapsz, ami egy rejtélyes keresztrejtvényhez hasonlít. Kerüljük el ezt.
-
-![Hogyan javítsuk az OCR-t az Aspose OCR előfeldolgozással](https://example.com/ocr-preprocess.png "hogyan javítsd az OCR-t az Aspose OCR")
-
-## Mit fogsz megtanulni
-
-A következő néhány percben láthatod:
-
-1. Hogyan állítsd be az Aspose OCR motorját az optimális pontosság érdekében.  
-2. A pontos kód, amely **JPG‑ből szöveg felismeréséhez** szükséges.  
-3. Miért fontos az *AutoDeskew* és a *RemoveNoise* engedélyezése, és hogyan hangolhatod őket.  
-4. Hogyan **kép‑fájlból szöveget nyerj ki** anélkül, hogy egyedi szűrőt írnál.  
-5. Gyakori buktatók (hiányzó fájl, nem támogatott formátum) és gyors megoldások.
-
-A végére egyetlen C# konzolos alkalmazásod lesz, amely bármely JPG‑t képes feldolgozni, megtisztítani, és kiadja a kinyert karakterláncot—kész a további feldolgozáshoz vagy tároláshoz.
+Ebben az útmutatóban megmutatjuk, hogyan **javítható az OCR** az **image‑ből történő szövegkivonás** fájlok segítségével, egy **deskew** szűrő alkalmazásával, a zaj tisztításával, és végül az **image‑ből történő szövegfelismerés** használatával az Aspose.OCR for .NET segítségével. A végére egy azonnal futtatható C# példát kapsz, amely nem csak a szöveget vonja ki, hanem **javítja az OCR pontosságát** is.
 
 ## Előfeltételek
 
-- .NET 6.0 SDK vagy újabb (a példa a rövidség kedvéért top‑level utasításokat használ).  
-- Aspose.OCR NuGet csomag (`dotnet add package Aspose.OCR`).  
-- Egy minta JPG kép (neve `input.jpg`), amelyet az exe‑fájl ugyanabban a mappában helyezel el.  
-- Alapvető C# ismeretek—nincs szükség haladó koncepciókra.
+| Követelmény | Miért fontos |
+|-------------|----------------|
+| .NET 6.0 SDK (or later) | Modern nyelvi funkciók és jobb teljesítmény |
+| Visual Studio 2022 (or any IDE you like) | Kényelmes hibakeresés és IntelliSense |
+| Aspose.OCR for .NET NuGet package (`Aspose.OCR`) | Az motor, amely a nehéz munkát végzi |
+| A sample image (e.g., `skewed_noisy.jpg`) | Ezt fogjuk használni a deskew és a denoise bemutatására |
 
-Ha már van projekted, egyszerűen illeszd be a kódot; egyébként hozz létre egy új konzolos alkalmazást:
+Ha még nem adtad hozzá a NuGet csomagot, futtasd:
 
 ```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
 dotnet add package Aspose.OCR
 ```
 
-Most merüljünk el a kódban.
+Ennyi—nincs szükség extra natív könyvtárakra.
 
-## Hogyan javítsd az OCR-t: Előfeldolgozási beállítások áttekintése
+## Hogyan javítható az OCR pontossága – Motor beállítása
 
-A **hogyan javítsd az OCR‑t** lényege a `PreprocessSettings` objektumban rejlik. Gondolj rá úgy, mint egy mini‑képszerkesztőre, amely *mielőtt* a tényleges karakterfelismerő motor elindul. Az alábbiakban egy gyors áttekintést találsz a legnagyobb hatású jelzőkről:
+Az első lépés a **hogyan javítható az OCR** folyamatában egy `OcrEngine` példány létrehozása és annak megadása, hogy milyen nyelvet várjon. Az angol a leggyakoribb, de bármely `OcrLanguage` enum értékre cserélheted.
 
-| Beállítás                | Mit csinál                                            | Tipikus felhasználási eset |
-|--------------------------|-------------------------------------------------------|----------------------------|
-| `AutoDeskew`             | Mélytanulásos kiegyenesítő algoritmust alkalmaz.     | Enyhén ferde beolvasott oldalak. |
-| `AdaptiveThreshold`      | Növeli a kontrasztot gyenge fényviszonyú vagy kifakult képeken. | Régi bizonylatok kifakult tintával. |
-| `RemoveNoise`            | Gauss‑elmosás szűrőt futtat a szemcsék elnyomására.   | Okostelefon villanyfényt használó fényképek. |
-| `NoiseRemovalStrength`   | Az agresszivitást szabályozza (1 = alacsony, 3 = magas). | Finomhangolás a forrás szemcsézettsége alapján. |
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Preprocessing;
 
-Ezeknek a beállításoknak a engedélyezése lényegében a “titkos fűszer” a **hogyan javítsd az OCR‑t** tökéletlen bemeneteknél.
+// Initialize the OCR engine with English language
+var ocrEngine = new OcrEngine
+{
+    Language = OcrLanguage.English
+};
+```
 
-## Szöveg felismerése JPG‑ből az Aspose OCR-rel
+*Miért fontos:* A nyelv megadása szűkíti a motor által figyelembe veendő karakterkészletet, ami már egy szerény növekedést eredményez a **OCR pontosság javításában**.
 
-Az alábbiakban a teljes, futtatható program látható. Minden sor meg van magyarázva, hogy lásd *miért* létezik az adott rész, ne csak *mit* csinál.
+## Hogyan deskew-eljük a képet – Előfeldolgozó csővezeték felépítése
+
+A ferde oldalak klasszikus oka a hibás felismerésnek. Az Aspose.OCR egy `DeSkewFilter`-t tartalmaz, amely visszaforgatja a képet egy olvasható alapvonalra. Párosítsd egy zajcsökkentővel és egy kontrasztfokozóval a legjobb eredmény érdekében.
+
+```csharp
+ocrEngine.Preprocessor
+    .Add(new DeSkewFilter { MaxAngle = 15 })          // how to deskew image
+    .Add(new DeNoiseFilter { Strength = NoiseStrength.Medium })
+    .Add(new ContrastBoostFilter { Level = 1.5f });
+```
+
+*Magyarázat:*  
+- **DeSkewFilter** – Felismeri a domináns szövegsor tájolását és `MaxAngle` fokig elforgatja.  
+- **DeNoiseFilter** – Eltávolítja a szkennelés után gyakran megjelenő foltokat.  
+- **ContrastBoostFilter** – Kiemeli a halvány karaktereket, ami kulcsfontosságú a **image‑ből történő szövegfelismerés** számára.
+
+> **Pro tipp:** Ha a szkennelt képek folyamatosan egy ismert szöggel vannak elforgatva, állítsd alacsonyabbra a `MaxAngle`-t (pl. 5), hogy felgyorsítsd a feldolgozást.
+
+## Szöveg felismerése képből – OCR motor futtatása
+
+Most, hogy a kép tiszta, itt az ideje ténylegesen **image‑ből történő szövegkivonás**. A `RecognizeImage` metódus egy `OcrResult` objektumot ad vissza, amely a felismert szöveget és a bizalmi pontszámokat tartalmazza.
+
+```csharp
+// Path to your test image – replace with your own file if needed
+string imagePath = @"YOUR_DIRECTORY/skewed_noisy.jpg";
+
+// Perform OCR
+OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
+```
+
+*Ami megkapod:* az `ocrResult.Text` a sima szöveges kimenetet tartalmazza, míg az `ocrResult.Confidence` (ha engedélyezed) numerikus minőségi mutatót ad.
+
+## Kivont szöveg megjelenítése – Az eredmény ellenőrzése
+
+Egy gyors `Console.WriteLine` megmutatja, hogy a csővezeték valóban **javította-e az OCR pontosságát**. Gyakorlatban ezt egy adatbázisba, keresőindexbe vagy további feldolgozásba továbbítanád.
+
+```csharp
+Console.WriteLine("=== OCR Output ===");
+Console.WriteLine(ocrResult.Text);
+Console.WriteLine("==================");
+
+// Optional: print confidence if you enabled it
+// Console.WriteLine($"Confidence: {ocrResult.Confidence:P2}");
+```
+
+**Várt kimenet** (rövidítve a tömörség kedvéért):
+
+```
+=== OCR Output ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur...
+==================
+```
+
+Ha a szöveg összezavarodottnak tűnik, nézd át újra az előfeldolgozási lépéseket – esetleg növeld a `ContrastBoostFilter.Level` értékét, vagy próbálj ki egy erősebb `DeNoiseFilter`-t.
+
+## Haladó finomhangolások a **OCR pontosság javításához**
+
+Még egy szilárd csővezeték után is finomhangolhatsz néhány extra beállítást:
+
+| Beállítás | Mikor használjuk | Minta kód |
+|-----------|------------------|-----------|
+| `ocrEngine.PageSegmentationMode = PageSegmentationMode.SingleBlock` | Egyetlen szövegoszlopot tartalmazó dokumentumok | `ocrEngine.PageSegmentationMode = PageSegmentationMode.SingleBlock;` |
+| `ocrEngine.CharWhitelist = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"` | Ismered a karakterkészletet (pl. alfanumerikus azonosítók) | `ocrEngine.CharWhitelist = "0123456789";` |
+| `ocrEngine.CharBlacklist = "!@#$%^&*()"` | Eltávolítja a modellnek zavaró nemkívánatos szimbólumokat | `ocrEngine.CharBlacklist = "!@#$%^&*()";` |
+
+Ezeknek a beállításoknak a kipróbálása gyakran **5‑10 %**-os javulást eredményez a pontosságban speciális felhasználási eseteknél.
+
+## Gyakori buktatók és hogyan kerüld el őket
+
+1. **Túl agresszív deskew** – A `MaxAngle` 90°-ra állítása felfordíthatja a képet fejjel lefelé. Tartsd reális szinten (≤ 15°), hacsak nem tudod, hogy a forrás extrém.  
+2. **Túlzott zajcsökkentés** – A `Heavy` `NoiseStrength` törölheti a halvány karaktereket. Kezdd `Medium`-rel, majd állítsd.  
+3. **Rossz képformátum** – A JPEG tömörítés artefaktusokat hoz létre; a PNG vagy TIFF több részletet őriz meg.  
+4. **Hiányzó nyelvi csomag** – Ha nem‑angol szövegre van szükséged, telepítsd a megfelelő nyelvi DLL-eket az Aspose weboldaláról.
+
+Ezek gyors kezelése simább **hogyan javítható az OCR** munkafolyamatot eredményez.
+
+## Teljes működő példa
+
+Az alábbiakban a teljes, másolás‑beillesztésre kész programot találod, amely magában foglalja a megbeszélteket. Cseréld le a `YOUR_DIRECTORY`-t arra a mappára, amely a tesztképedet tartalmazza.
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.Settings;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Preprocessing;
 
-class PreprocessDemo
+namespace AsposeOcrDemo
 {
-    static void Main()
+    class Program
     {
-        // ------------------------------------------------------------
-        // Step 1: Create an OCR engine instance.
-        // ------------------------------------------------------------
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // ------------------------------------------------------------
-        // Step 2: Fine‑tune preprocessing to improve accuracy.
-        // ------------------------------------------------------------
-        ocrEngine.Settings.Preprocess = new PreprocessSettings
+        static void Main(string[] args)
         {
-            AutoDeskew = true,               // How to deskew image automatically.
-            AdaptiveThreshold = true,        // Improves contrast for better recognition.
-            RemoveNoise = true,              // How to remove noise before OCR.
-            NoiseRemovalStrength = 2         // Medium strength; adjust 1‑3 as needed.
-        };
+            // 1️⃣ Initialize OCR engine (how to improve OCR – set language)
+            var ocrEngine = new OcrEngine
+            {
+                Language = OcrLanguage.English,
+                // Optional: tighten segmentation for single‑column docs
+                // PageSegmentationMode = PageSegmentationMode.SingleBlock
+            };
 
-        // ------------------------------------------------------------
-        // Step 3: Load the JPG image you want to process.
-        // ------------------------------------------------------------
-        // If the file is missing, Aspose will throw a FileNotFoundException.
-        // Wrap it in a try/catch if you need graceful fallback.
-        ImageStream image;
-        try
-        {
-            image = ImageStream.FromFile("input.jpg");
+            // 2️⃣ Build preprocessing pipeline (how to deskew image + denoise + boost contrast)
+            ocrEngine.Preprocessor
+                .Add(new DeSkewFilter { MaxAngle = 15 })
+                .Add(new DeNoiseFilter { Strength = NoiseStrength.Medium })
+                .Add(new ContrastBoostFilter { Level = 1.5f });
+
+            // 3️⃣ Path to the image you want to process
+            string imagePath = @"YOUR_DIRECTORY/skewed_noisy.jpg";
+
+            // 4️⃣ Run OCR (recognize text from image)
+            OcrResult result = ocrEngine.RecognizeImage(imagePath);
+
+            // 5️⃣ Output the extracted text (extract text from image)
+            Console.WriteLine("=== OCR Result ===");
+            Console.WriteLine(result.Text);
+            Console.WriteLine("==================");
+
+            // Optional: Show confidence score if you enabled it in settings
+            // Console.WriteLine($"Confidence: {result.Confidence:P2}");
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error loading image: {ex.Message}");
-            return;
-        }
-
-        // ------------------------------------------------------------
-        // Step 4: Run the OCR engine on the preprocessed image.
-        // ------------------------------------------------------------
-        OcrResult ocrResult = ocrEngine.Recognize(image);
-
-        // ------------------------------------------------------------
-        // Step 5: Display the extracted text.
-        // ------------------------------------------------------------
-        Console.WriteLine("=== Extracted Text ===");
-        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-### Várható kimenet
-
-Ha az `input.jpg` a „Invoice #12345 – Total: $256.78” kifejezést tartalmazza, a konzol a következőt írja ki:
-
-```
-=== Extracted Text ===
-Invoice #12345 – Total: $256.78
-```
-
-Vedd észre, hogy a kimenet tiszta, a kötőjel és a dollárjel megtartva—pontosan ez, amit a **kép‑fájlból szöveg kinyerése** során vársz.
-
-## Kép kiegyenesítése előfeldolgozási beállításokkal
-
-Miért fontos a kiegyenesítés? Még egy 2‑fokos dőlés is összezavarhatja a karakter szegmentálási szakaszt, ami hibás betűket eredményez. Az `AutoDeskew` jelző egy konvolúciós neurális hálózatot használ a háttérben, amely meghatározza a domináns szöget és visszaforgatja a képet az alapvonalra.
-
-Ha nagyobb irányítást szeretnél, manuálisan beállíthatod a szöget:
-
-```csharp
-ocrEngine.Settings.Preprocess = new PreprocessSettings
-{
-    AutoDeskew = false,          // Turn off automatic detection.
-    // Manually specify a rotation angle (in degrees):
-    DeskewAngle = -1.8           // Positive = clockwise, negative = counter‑clockwise.
-};
-```
-
-> **Mikor használj manuális kiegyenesítést:** Ha tudod, hogy a kamera állandóan egy meghatározott mértékben dönti el a képeket (pl. egy rögzített szkenner), a szög kódba írása egy kis feldolgozási időt takarít meg.
-
-## Zaj eltávolítása a tisztább kinyeréshez
-
-A zaj véletlenszerű foltok vagy szemcsék formájában jelenik meg, különösen gyenge fényviszonyú fotókon. A `RemoveNoise` jelző egy bilaterális szűrőt alkalmaz, amely simítja a hátteret, miközben megőrzi a széleket (a tényleges karaktereket). A `NoiseRemovalStrength` tulajdonság lehetővé teszi az agresszivitás beállítását:
-
-| Erősség | Hatás |
-|----------|--------|
-| 1        | Enyhe simítás—alkalmas enyhén szemcsés képekre. |
-| 2        | Kiegyensúlyozott—a legtöbb okostelefon felvételnél működik. |
-| 3        | Erős simítás—használd, ha a kép rendkívül zajos, de vigyázz a vékony vonalak elmosódásával. |
-
-Ha olyan helyzettel találkozol, ahol a kis betűk nehezen olvashatóvá válnak erős simítás után, egyszerűen csökkentsd az erősséget vagy teljesen tiltsd le a szűrőt.
-
-## Szöveg kinyerése képből: JPG‑n túl
-
-Bár a demónk egy JPG‑re fókuszál, az Aspose OCR támogatja a PNG, BMP, TIFF és még a PDF oldalakat is. **Kép‑fájlból szöveg kinyeréséhez** a JPG‑n kívül egyszerűen változtasd meg a fájlkiterjesztést az `ImageStream.FromFile`‑ben. Többoldalas TIFF‑ek esetén ciklusba vonhatod az egyes oldalakat:
-
-```csharp
-for (int i = 0; i < tiffPageCount; i++)
-{
-    ImageStream page = ImageStream.FromFile($"input_{i}.tiff");
-    OcrResult result = ocrEngine.Recognize(page);
-    Console.WriteLine($"--- Page {i + 1} ---");
-    Console.WriteLine(result.Text);
-}
-```
-
-Ez a kódrészlet azt mutatja, hogyan skálázhatod ugyanazt a **hogyan javítsd az OCR‑t** munkafolyamatot, hogy egy egész köteg beolvasott dokumentumot kötegelt feldolgozz.
-
-## Gyakori buktatók és megoldások
-
-| Tünet                     | Valószínű ok                                                   | Gyors javítás |
-|---------------------------|----------------------------------------------------------------|----------------|
-| Üres kimenet              | A kép teljesen fehér a előfeldolgozás után (túl agresszív küszöb) | `NoiseRemovalStrength` csökkentése vagy `AdaptiveThreshold = false` beállítása. |
-| Elcsúszott karakterek    | Rossz nyelvi modell (alapértelmezett az angol)                 | `ocrEngine.Settings.Language = Language.English;` beállítása vagy egy egyedi nyelvi csomag betöltése. |
-| Összeomlás nagy fájloknál | Memóriahiány a nagy felbontású kép miatt                        | Átméretezés `ocrEngine.Settings.ImageResizeFactor = 0.5;` használatával a felismerés előtt. |
-| Nincs kimenet a forgatott szkenneléseknél | `AutoDeskew` véletlenül letiltva | `AutoDeskew = true` engedélyezése vagy a megfelelő `DeskewAngle` megadása. |
-
-Ezeknek a szem előtt tartása órákat takarít meg a hibakeresésben, amikor a **hogyan javítsd az OCR‑t** próbálod a termelési folyamatokban.
-
-## Bónusz: Finomhangolás a sebesség és pontosság között
-
-Ha naponta ezrek nyugtáit dolgozod fel, a sebesség lehet elsődleges. Kapcsold ki az `AdaptiveThreshold`‑t és állítsd `NoiseRemovalStrength = 1`‑re. Ezzel szemben, jogi dokumentumok esetén, ahol egyetlen hiányzó karakter is költséges lehet, tartsd bekapcsolva az összes jelzőt, és fontold meg a `NoiseRemovalStrength` 3‑ra növelését.
+Futtasd a programot a `dotnet run` paranccsal. A konzolon megjelenik a megtisztított szöveg, ami megerősíti, hogy sikeresen **javítottad az OCR-t** a képedhez.
 
 ## Összegzés
 
-Áttekintettük a teljes folyamatot a **hogyan javítsd az OCR‑t** C#‑ban az Aspose OCR használatával: a motor létrehozásától, az előfeldolgozás beállításáig (a *kép kiegyenesítése* és a *zaj eltávolítása* sarokkövei), JPG betöltéséig, szöveg felismeréséig és a szélsőséges esetek kezeléséig. A kód önálló, azonnal futtatható, és bemutatja a pontos lépéseket, amelyekre szükséged van a **JPG‑ből szöveg felismeréséhez** és a **kép‑fájlból szöveg kinyeréséhez**.
+Lépésről lépésre végigmentünk a **hogyan javítható az OCR** folyamatán: beállítottuk a nyelvet, deskew-eltük, zajcsökkentettük, kontrasztot növeltük, és végül **image‑ből történő szövegfelismerést** hajtottunk végre. Az előfeldolgozó csővezeték finomhangolásával megbízhatóan **image‑ből szöveget vonhatsz ki**, és észrevehető javulást láthatsz a **OCR pontosság javításának** eredményeiben.
 
-### Mi a következő?
+Készen állsz a következő kihívásra? Próbáld meg az OCR kimenetet egy helyesírás-ellenőrzőbe küldeni, vagy egy PDF csomagot ugyanazon a csővezetéken keresztül feldolgozni a `Parallel.ForEach` használatával a gyorsaság érdekében. Emellett felfedezheted az Aspose OCR Cloud API-t is, ha nagy mennyiségű képet kell feldolgoznod.
 
-- Kísérletezz más képformátumokkal (PNG, TIFF), hogy lásd, hogyan viselkednek ugyanazok a beállítások.  
-- Integráld az OCR kimenetet egy adatbázisba vagy
+Van kérdésed egy konkrét fájltípussal kapcsolatban, vagy szeretnéd látni, hogyan működik többoldalas TIFF-ekkel? Írj egy megjegyzést alább – szívesen segítek, hogy tovább növeld az OCR pontosságát!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

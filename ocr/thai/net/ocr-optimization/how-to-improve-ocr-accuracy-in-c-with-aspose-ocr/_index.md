@@ -1,25 +1,24 @@
 ---
 category: general
-date: 2026-04-11
-description: เรียนรู้วิธีปรับปรุง OCR ใน C# ด้วยการจดจำข้อความจากไฟล์ JPG, แก้ไขการเอียงของภาพ,
-  และกำจัดสัญญาณรบกวนโดยใช้ Aspose OCR.
+date: 2026-02-13
+description: วิธีปรับปรุง OCR ด้วยการดึงข้อความจากภาพโดยใช้ Aspose OCR – เรียนรู้วิธีการแก้ไขการเอียงของภาพ,
+  ลดสัญญาณรบกวน, เพิ่มคอนทราสต์และเพิ่มความแม่นยำของ OCR.
 draft: false
 keywords:
 - how to improve OCR
-- recognize text from jpg
 - extract text from image
 - how to deskew image
-- how to remove noise
+- recognize text from image
+- improve OCR accuracy
 language: th
-og_description: ค้นพบวิธีปรับปรุง OCR ด้วยการจดจำข้อความจากไฟล์ JPG, แก้ไขการเอียงของภาพ,
-  และกำจัดสัญญาณรบกวน—คู่มือ C# ฉบับสมบูรณ์
-og_title: วิธีเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose OCR
+og_description: 'วิธีปรับปรุง OCR เริ่มต้นด้วยแนวทางที่ชัดเจน: แยกข้อความจากภาพ, แก้ไขการเอียง,
+  ลดสัญญาณรบกวนและเพิ่มความคอนทราสต์เพื่อผลลัพธ์ที่เชื่อถือได้.'
+og_title: วิธีเพิ่มความแม่นยำของ OCR – คู่มือ C# ฉบับสมบูรณ์
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-title: วิธีเพิ่มความแม่นยำของ OCR ใน C# ด้วย Aspose OCR
+title: วิธีปรับปรุงความแม่นยำของ OCR ใน C# ด้วย Aspose OCR
 url: /th/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 ---
 
@@ -29,188 +28,181 @@ url: /th/net/ocr-optimization/how-to-improve-ocr-accuracy-in-c-with-aspose-ocr/
 
 # วิธีปรับปรุงความแม่นยำของ OCR ใน C# ด้วย Aspose OCR
 
-เคยสงสัยไหมว่า **how to improve OCR** จะได้ผลลัพธ์อย่างไรเมื่อสแกนของคุณดูเหมือนศิลปะเชิงนามธรรมมากกว่าข้อความที่อ่านได้? คุณไม่ได้เป็นคนเดียว ในหลายโครงการจริง—เช่น ใบแจ้งหนี้, ใบเสร็จ, หรือบันทึกมือ—ภาพต้นทางมักจะเอียง, มีเม็ดสี, หรือมีเสียงรบกวนมาก ข่าวดีคือ Aspose OCR มีตัวควบคุมการเตรียมข้อมูลหลายอย่างที่สามารถเปลี่ยนความยุ่งเหยิงนั้นให้เป็นอักขระที่เครื่องอ่านได้อย่างสะอาด ในบทแนะนำนี้เราจะเดินผ่านตัวอย่างที่สมบูรณ์และสามารถรันได้ซึ่งแสดง **how to improve OCR** โดย **recognize text from JPG**, การแก้เอียงภาพ, และการกำจัดสัญญาณรบกวนที่ไม่ต้องการ.
+เคยสงสัย **วิธีปรับปรุง OCR** เมื่อสแกนของคุณออกมาดูเหมือนเป็นกลุ่มข้อความสับสนหรือไม่? คุณไม่ได้เป็นคนเดียว—นักพัฒนาต้องต่อสู้กับหน้าที่เอียง, พื้นหลังที่มีเสียงรบกวน, และข้อความที่คอนทราสต์ต่ำ ข่าวดีคือ? ด้วยการปรับแต่งเชิงกลยุทธ์เล็กน้อย คุณสามารถเพิ่มอัตราความสำเร็จของการสกัดข้อความได้อย่างมาก
 
-> *เคล็ดลับ:* หากคุณข้ามการเตรียมข้อมูลล่วงหน้า คุณอาจจะได้ผลลัพธ์ที่เป็นอักขระผสมกันเหมือนกับปริศนาตารางคำไขว้ที่ซับซ้อน เรามาหลีกเลี่ยงกันเถอะ.
-
-![วิธีปรับปรุง OCR ด้วยการเตรียมข้อมูลล่วงหน้า Aspose OCR](https://example.com/ocr-preprocess.png "วิธีปรับปรุง OCR ด้วย Aspose OCR")
-
-## สิ่งที่คุณจะได้เรียนรู้
-
-1. วิธีตั้งค่าเครื่องมือ Aspose OCR ให้ได้ความแม่นยำสูงสุด.  
-2. โค้ดที่จำเป็นอย่างแม่นยำเพื่อ **recognize text from JPG** ไฟล์.  
-3. ทำไมการเปิดใช้งาน *AutoDeskew* และ *RemoveNoise* ถึงสำคัญและวิธีปรับแต่ง.  
-4. วิธี **extract text from image** ไฟล์โดยไม่ต้องเขียนฟิลเตอร์เอง.  
-5. ข้อผิดพลาดทั่วไป (ไฟล์หาย, ฟอร์แมตไม่รองรับ) และวิธีแก้ไขอย่างรวดเร็ว.
-
-เมื่อจบคุณจะมีแอปคอนโซล C# ตัวเดียวที่สามารถรับ JPG ใด ๆ ทำความสะอาดและแสดงสตริงที่สกัดออกมา—พร้อมสำหรับการประมวลผลต่อหรือการจัดเก็บ.
+ในบทแนะนำนี้ เราจะสาธิต **วิธีปรับปรุง OCR** โดย **สกัดข้อความจากไฟล์รูปภาพ**, ใช้ฟิลเตอร์ **deskew**, ทำความสะอาดสัญญาณรบกวน, และสุดท้าย **จดจำข้อความจากรูปภาพ** ด้วย Aspose.OCR for .NET เมื่อเสร็จคุณจะได้ตัวอย่าง C# ที่พร้อมรัน ไม่เพียงสกัดข้อความแต่ยัง **ปรับปรุงความแม่นยำของ OCR** อย่างทั่วถึง
 
 ## ข้อกำหนดเบื้องต้น
 
-- .NET 6.0 SDK หรือรุ่นที่ใหม่กว่า (ตัวอย่างใช้ top‑level statements เพื่อความกระชับ).  
-- แพ็คเกจ NuGet Aspose.OCR (`dotnet add package Aspose.OCR`).  
-- ภาพ JPG ตัวอย่าง (ชื่อ `input.jpg`) วางในโฟลเดอร์เดียวกับไฟล์ปฏิบัติการ.  
-- ความคุ้นเคยพื้นฐานกับ C#—ไม่ต้องการแนวคิดขั้นสูง.
+ก่อนที่เราจะดำเนินการต่อ โปรดตรวจสอบว่าคุณมี:
 
-หากคุณมีโปรเจกต์อยู่แล้ว เพียงวางโค้ดลงไป; หากไม่มีก็สร้างแอปคอนโซลใหม่:
+| Requirement | Why it matters |
+|-------------|----------------|
+| .NET 6.0 SDK (หรือใหม่กว่า) | ฟีเจอร์ภาษาใหม่และประสิทธิภาพที่ดีกว่า |
+| Visual Studio 2022 (หรือ IDE ที่คุณชอบ) | การดีบักและ IntelliSense ที่สะดวก |
+| Aspose.OCR for .NET NuGet package (`Aspose.OCR`) | ตัวเอนจินที่ทำงานหนัก |
+| ตัวอย่างรูปภาพ (เช่น `skewed_noisy.jpg`) | เราจะใช้เพื่อสาธิตการ deskew และ denoise |
+
+หากคุณยังไม่ได้เพิ่มแพ็กเกจ NuGet ให้รัน:
 
 ```bash
-dotnet new console -n OcrDemo
-cd OcrDemo
 dotnet add package Aspose.OCR
 ```
 
-## วิธีปรับปรุง OCR: ภาพรวมการตั้งค่า Preprocess
+เท่านี้—ไม่ต้องใช้ไลบรารีเนทีฟเพิ่มเติม
 
-หัวใจของ **how to improve OCR** อยู่ในอ็อบเจ็กต์ `PreprocessSettings`. คิดว่าเป็นเครื่องมือแก้ไขภาพขนาดเล็กที่ทำงาน *ก่อน* เอนจินการจดจำอักขระจริงทำงาน. ด้านล่างเป็นสรุปสั้น ๆ ของฟลักที่มีผลมากที่สุด:
+## วิธีปรับปรุงความแม่นยำของ OCR – ตั้งค่าเอนจิน
 
-| การตั้งค่า            | ทำอะไร                                                   | กรณีการใช้งานทั่วไป |
-|------------------------|----------------------------------------------------------|----------------------|
-| `AutoDeskew`           | ใช้อัลกอริธึมการแก้เอียงแบบ deep‑learning.               | หน้าสแกนที่เอียงเล็กน้อย. |
-| `AdaptiveThreshold`    | เพิ่มความคอนทราสต์ในภาพที่แสงน้อยหรือสีซีด.            | ใบเสร็จเก่าที่หมึกจาง. |
-| `RemoveNoise`          | ใช้ฟิลเตอร์ Gaussian‑blur เพื่อลดจุดรบกวน.            | ภาพถ่ายที่ถ่ายด้วยแฟลชสมาร์ทโฟน. |
-| `NoiseRemovalStrength`| ควบคุมความรุนแรง (1 = ต่ำ, 3 = สูง).                    | ปรับละเอียดตามความหยาบของแหล่งภาพ. |
+ขั้นตอนแรกของ **วิธีปรับปรุง OCR** คือการสร้างอินสแตนซ์ `OcrEngine` และบอกให้มันรู้ว่าคาดว่าจะใช้ภาษาอะไร ภาษาอังกฤษเป็นภาษาที่ใช้บ่อยที่สุด แต่คุณสามารถสลับเป็นค่า `OcrLanguage` ใดก็ได้
 
-การเปิดใช้ตัวเลือกเหล่านี้เป็นเหมือน “สูตรลับ” สำหรับ **how to improve OCR** บนข้อมูลที่ไม่สมบูรณ์.
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Preprocessing;
 
-## การจดจำข้อความจาก JPG ด้วย Aspose OCR
+// Initialize the OCR engine with English language
+var ocrEngine = new OcrEngine
+{
+    Language = OcrLanguage.English
+};
+```
 
-ด้านล่างเป็นโปรแกรมเต็มที่พร้อมรัน ทุกบรรทัดมีคำอธิบายเพื่อให้คุณเห็น *ทำไม* แต่ละส่วนจึงมีอยู่, ไม่ใช่แค่ *ทำอะไร*.
+*ทำไมถึงสำคัญ:* การระบุภาษาให้เอนจินจำกัดชุดอักขระที่ต้องพิจารณา ซึ่งจะให้การเพิ่มประสิทธิภาพเล็กน้อยใน **การปรับปรุงความแม่นยำของ OCR** แล้ว
+
+## วิธี Deskew รูปภาพ – สร้าง Pipeline การประมวลผลล่วงหน้า
+
+หน้าที่เอียงเป็นสาเหตุคลาสสิกของการจดจำที่ผิดพลาด Aspose.OCR มี `DeSkewFilter` ที่สามารถหมุนรูปกลับไปยังแนวฐานที่อ่านได้ นำมาคู่กับตัวลดสัญญาณรบกวนและตัวเพิ่มคอนทราสต์เพื่อผลลัพธ์ที่ดีที่สุด
+
+```csharp
+ocrEngine.Preprocessor
+    .Add(new DeSkewFilter { MaxAngle = 15 })          // how to deskew image
+    .Add(new DeNoiseFilter { Strength = NoiseStrength.Medium })
+    .Add(new ContrastBoostFilter { Level = 1.5f });
+```
+
+*คำอธิบาย:*  
+- **DeSkewFilter** – ตรวจจับทิศทางของบรรทัดข้อความหลักและหมุนสูงสุดถึง `MaxAngle` องศา  
+- **DeNoiseFilter** – ลบจุดรบกวนที่มักปรากฏหลังการสแกน  
+- **ContrastBoostFilter** – ทำให้ตัวอักษรที่อ่อนแอเด่นชัดขึ้น ซึ่งสำคัญสำหรับ **จดจำข้อความจากรูปภาพ**
+
+> **เคล็ดลับ:** หากสแกนของคุณถูกหมุนด้วยมุมที่ทราบล่วงหน้า ให้ตั้งค่า `MaxAngle` ให้ต่ำลง (เช่น 5) เพื่อเร่งการประมวลผล
+
+## จดจำข้อความจากรูปภาพ – รัน OCR Engine
+
+เมื่อรูปภาพสะอาดแล้ว ถึงเวลาที่จะ **สกัดข้อความจากรูปภาพ** จริง ๆ เมธอด `RecognizeImage` จะคืนค่าอ็อบเจกต์ `OcrResult` ที่มีสตริงที่ตรวจพบและคะแนนความเชื่อมั่น
+
+```csharp
+// Path to your test image – replace with your own file if needed
+string imagePath = @"YOUR_DIRECTORY/skewed_noisy.jpg";
+
+// Perform OCR
+OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
+```
+
+*สิ่งที่คุณจะได้:* `ocrResult.Text` มีผลลัพธ์เป็นข้อความธรรมดา ส่วน `ocrResult.Confidence` (หากเปิดใช้งาน) จะให้ตัวบ่งชี้คุณภาพเป็นตัวเลข
+
+## แสดงข้อความที่สกัด – ตรวจสอบผลลัพธ์
+
+การใช้ `Console.WriteLine` อย่างรวดเร็วจะทำให้คุณเห็นว่า pipeline ได้ **ปรับปรุงความแม่นยำของ OCR** หรือไม่ ในการใช้งานจริงคุณอาจส่งผลลัพธ์นี้ไปยังฐานข้อมูล, ดัชนีการค้นหา, หรือกระบวนการต่อไป
+
+```csharp
+Console.WriteLine("=== OCR Output ===");
+Console.WriteLine(ocrResult.Text);
+Console.WriteLine("==================");
+
+// Optional: print confidence if you enabled it
+// Console.WriteLine($"Confidence: {ocrResult.Confidence:P2}");
+```
+
+**ผลลัพธ์ที่คาดหวัง** (ตัดบางส่วนเพื่อความกระชับ):
+
+```
+=== OCR Output ===
+The quick brown fox jumps over the lazy dog.
+Lorem ipsum dolor sit amet, consectetur...
+==================
+```
+
+หากข้อความดูเป็นอักขระผสมกัน ให้กลับไปตรวจสอบขั้นตอนการประมวลผลล่วงหน้า—อาจเพิ่ม `ContrastBoostFilter.Level` หรือใช้ `DeNoiseFilter` ที่แรงกว่า
+
+## การปรับแต่งขั้นสูงเพื่อ **ปรับปรุงความแม่นยำของ OCR** ต่อไป
+
+แม้จะมี pipeline ที่ดีแล้ว คุณยังสามารถปรับค่าตัวแปรเพิ่มเติมได้:
+
+| Setting | When to use it | Sample code |
+|---------|----------------|-------------|
+| `ocrEngine.PageSegmentationMode = PageSegmentationMode.SingleBlock` | เอกสารที่มีคอลัมน์ข้อความเดียว | `ocrEngine.PageSegmentationMode = PageSegmentationMode.SingleBlock;` |
+| `ocrEngine.CharWhitelist = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"` | คุณรู้ชุดอักขระ (เช่น รหัสอัลฟานูเมอริก) | `ocrEngine.CharWhitelist = "0123456789";` |
+| `ocrEngine.CharBlacklist = "!@#$%^&*()"` | ต้องการลบสัญลักษณ์ที่ทำให้โมเดลสับสน | `ocrEngine.CharBlacklist = "!@#$%^&*()";` |
+
+การทดลองใช้ตัวเลือกเหล่านี้บ่อยครั้งจะให้การเพิ่ม **5‑10 %** ในความแม่นยำสำหรับกรณีการใช้งานเฉพาะ
+
+## ข้อผิดพลาดทั่วไปและวิธีหลีกเลี่ยง
+
+1. **การ deskew ที่รุนแรงเกินไป** – ตั้งค่า `MaxAngle` เป็น 90° อาจทำให้รูปภาพกลับหัว ควรตั้งค่าให้สมเหตุสมผล (≤ 15°) เว้นแต่คุณรู้แหล่งที่มามีความเอียงมาก  
+2. **การ denoise มากเกินไป** – `NoiseStrength` แบบ `Heavy` อาจลบอักขระที่อ่อนแอออกไป เริ่มต้นที่ `Medium` แล้วปรับตามต้องการ  
+3. **รูปแบบไฟล์ภาพไม่เหมาะสม** – การบีบอัด JPEG ทำให้เกิด artefacts; PNG หรือ TIFF จะรักษารายละเอียดได้ดีกว่า  
+4. **ขาด language pack** – หากต้องการข้อความที่ไม่ใช่ภาษาอังกฤษ ให้ติดตั้ง DLL ภาษาเหมาะจากเว็บไซต์ Aspose
+
+การจัดการกับปัญหาเหล่านี้อย่างรวดเร็วจะทำให้ workflow **วิธีปรับปรุง OCR** ราบรื่นยิ่งขึ้น
+
+## ตัวอย่างทำงานเต็มรูปแบบ
+
+ด้านล่างเป็นโปรแกรมครบชุดที่พร้อมคัดลอก‑วาง ใช้ทุกอย่างที่เราได้พูดถึงแล้ว แทนที่ `YOUR_DIRECTORY` ด้วยโฟลเดอร์ที่เก็บรูปภาพทดสอบของคุณ
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.Settings;
+using Aspose.OCR.Enums;
+using Aspose.OCR.Preprocessing;
 
-class PreprocessDemo
+namespace AsposeOcrDemo
 {
-    static void Main()
+    class Program
     {
-        // ------------------------------------------------------------
-        // Step 1: Create an OCR engine instance.
-        // ------------------------------------------------------------
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // ------------------------------------------------------------
-        // Step 2: Fine‑tune preprocessing to improve accuracy.
-        // ------------------------------------------------------------
-        ocrEngine.Settings.Preprocess = new PreprocessSettings
+        static void Main(string[] args)
         {
-            AutoDeskew = true,               // How to deskew image automatically.
-            AdaptiveThreshold = true,        // Improves contrast for better recognition.
-            RemoveNoise = true,              // How to remove noise before OCR.
-            NoiseRemovalStrength = 2         // Medium strength; adjust 1‑3 as needed.
-        };
+            // 1️⃣ Initialize OCR engine (how to improve OCR – set language)
+            var ocrEngine = new OcrEngine
+            {
+                Language = OcrLanguage.English,
+                // Optional: tighten segmentation for single‑column docs
+                // PageSegmentationMode = PageSegmentationMode.SingleBlock
+            };
 
-        // ------------------------------------------------------------
-        // Step 3: Load the JPG image you want to process.
-        // ------------------------------------------------------------
-        // If the file is missing, Aspose will throw a FileNotFoundException.
-        // Wrap it in a try/catch if you need graceful fallback.
-        ImageStream image;
-        try
-        {
-            image = ImageStream.FromFile("input.jpg");
+            // 2️⃣ Build preprocessing pipeline (how to deskew image + denoise + boost contrast)
+            ocrEngine.Preprocessor
+                .Add(new DeSkewFilter { MaxAngle = 15 })
+                .Add(new DeNoiseFilter { Strength = NoiseStrength.Medium })
+                .Add(new ContrastBoostFilter { Level = 1.5f });
+
+            // 3️⃣ Path to the image you want to process
+            string imagePath = @"YOUR_DIRECTORY/skewed_noisy.jpg";
+
+            // 4️⃣ Run OCR (recognize text from image)
+            OcrResult result = ocrEngine.RecognizeImage(imagePath);
+
+            // 5️⃣ Output the extracted text (extract text from image)
+            Console.WriteLine("=== OCR Result ===");
+            Console.WriteLine(result.Text);
+            Console.WriteLine("==================");
+
+            // Optional: Show confidence score if you enabled it in settings
+            // Console.WriteLine($"Confidence: {result.Confidence:P2}");
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error loading image: {ex.Message}");
-            return;
-        }
-
-        // ------------------------------------------------------------
-        // Step 4: Run the OCR engine on the preprocessed image.
-        // ------------------------------------------------------------
-        OcrResult ocrResult = ocrEngine.Recognize(image);
-
-        // ------------------------------------------------------------
-        // Step 5: Display the extracted text.
-        // ------------------------------------------------------------
-        Console.WriteLine("=== Extracted Text ===");
-        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-### ผลลัพธ์ที่คาดหวัง
-
-หาก `input.jpg` มีข้อความ “Invoice #12345 – Total: $256.78”, คอนโซลจะพิมพ์:
-
-```
-=== Extracted Text ===
-Invoice #12345 – Total: $256.78
-```
-
-สังเกตว่าผลลัพธ์สะอาด โดยมีเครื่องหมายขีดและสัญลักษณ์ดอลลาร์คงอยู่—ตรงกับที่คุณคาดหวังเมื่อ **extracting text from image** ไฟล์.
-
-## วิธีแก้เอียงภาพด้วยการตั้งค่า Preprocess
-
-ทำไมการแก้เอียงถึงสำคัญ? แม้เพียงการเอียง 2 องศาก็อาจทำให้ขั้นตอนการแยกอักขระสับสน ส่งผลให้ตัวอักษรถูกระบุผิดพลาด ฟลัก `AutoDeskew` ใช้เครือข่ายประสาทเทียมแบบคอนโวลูชันภายในเพื่อค้นหาองศาที่เด่นและหมุนภาพกลับสู่ฐาน.
-
-หากคุณต้องการการควบคุมมากขึ้น คุณสามารถตั้งค่าองศาเองได้:
-
-```csharp
-ocrEngine.Settings.Preprocess = new PreprocessSettings
-{
-    AutoDeskew = false,          // Turn off automatic detection.
-    // Manually specify a rotation angle (in degrees):
-    DeskewAngle = -1.8           // Positive = clockwise, negative = counter‑clockwise.
-};
-```
-
-> **เมื่อใดควรใช้การแก้เอียงด้วยตนเอง:** หากคุณทราบว่ากล้องเอียงภาพด้วยมุมคงที่ (เช่น สแกนเนอร์ที่ติดตั้ง), การกำหนดมุมแบบคงที่จะช่วยประหยัดเวลาในการประมวลผลเล็กน้อย.
-
-## วิธีกำจัดสัญญาณรบกวนเพื่อการสกัดที่สะอาดขึ้น
-
-สัญญาณรบกวนปรากฏเป็นจุดสุ่มหรือเม็ดสี โดยเฉพาะในภาพที่แสงน้อย ฟลัก `RemoveNoise` ใช้ฟิลเตอร์ bilateral ที่ทำให้พื้นหลังเรียบในขณะคงขอบ (อักขระจริง) คุณสมบัติ `NoiseRemovalStrength` ให้คุณปรับระดับความรุนแรง:
-
-| ระดับ | ผลกระทบ |
-|-------|----------|
-| 1     | การทำให้เรียบเบา—เหมาะกับภาพที่มีเม็ดสีเล็กน้อย. |
-| 2     | สมดุล—ทำงานได้กับการจับภาพจากสมาร์ทโฟนส่วนใหญ่. |
-| 3     | การทำให้เรียบหนัก—ใช้เมื่อภาพมีสัญญาณรบกวนมาก, แต่ระวังการเบลอเส้นบาง. |
-
-หากคุณพบสถานการณ์ที่ฟอนต์ขนาดเล็กกลายเป็นอ่านไม่ออกหลังการทำให้เรียบหนัก เพียงลดระดับหรือปิดฟิลเตอร์ทั้งหมด.
-
-## การสกัดข้อความจากภาพ: นอกเหนือจาก JPG
-
-แม้การสาธิตของเราจะเน้นที่ JPG, Aspose OCR รองรับ PNG, BMP, TIFF, และแม้แต่หน้า PDF. เพื่อ **extract text from image** ฟอร์แมตอื่น ๆ ที่ไม่ใช่ JPG เพียงเปลี่ยนส่วนขยายไฟล์ใน `ImageStream.FromFile`. สำหรับ TIFF หลายหน้า คุณสามารถวนลูปผ่านแต่ละหน้าได้:
-
-```csharp
-for (int i = 0; i < tiffPageCount; i++)
-{
-    ImageStream page = ImageStream.FromFile($"input_{i}.tiff");
-    OcrResult result = ocrEngine.Recognize(page);
-    Console.WriteLine($"--- Page {i + 1} ---");
-    Console.WriteLine(result.Text);
-}
-```
-
-โค้ดส่วนนั้นแสดงว่าคุณสามารถขยาย workflow **how to improve OCR** เดียวกันเพื่อประมวลผลเป็นชุดของเอกสารสแกนทั้งหมด.
-
-## ข้อผิดพลาดทั่วไป & วิธีแก้ไข
-
-| อาการ                     | สาเหตุที่เป็นไปได้                                            | วิธีแก้เร็ว |
-|---------------------------|--------------------------------------------------------------|-------------|
-| ผลลัพธ์เป็นค่าว่าง        | ภาพเป็นสีขาวทั้งหมดหลังการเตรียมข้อมูล (threshold มากเกินไป) | ลด `NoiseRemovalStrength` หรือกำหนด `AdaptiveThreshold = false`. |
-| อักขระผสมกัน             | โมเดลภาษาไม่ถูกต้อง (ค่าเริ่มต้นคืออังกฤษ)                 | กำหนด `ocrEngine.Settings.Language = Language.English;` หรือโหลดแพ็คภาษาแบบกำหนดเอง. |
-| แอปพังเมื่อไฟล์ใหญ่      | หน่วยความจำเต็มเนื่องจากภาพความละเอียดสูง                 | ลดขนาดด้วย `ocrEngine.Settings.ImageResizeFactor = 0.5;` ก่อนการจดจำ. |
-| ไม่มีผลลัพธ์สำหรับสแกนที่เอียง | `AutoDeskew` ถูกปิดโดยไม่ได้ตั้งใจ                              | เปิด `AutoDeskew = true` หรือระบุ `DeskewAngle` ที่ถูกต้อง. |
-
-การจำไว้เหล่านี้จะช่วยคุณประหยัดเวลาการดีบักหลายชั่วโมงเมื่อคุณพยายาม **how to improve OCR** ในสายการผลิต.
-
-## โบนัส: ปรับแต่งเพื่อความเร็ว vs. ความแม่นยำ
-
-หากคุณประมวลผลใบเสร็จหลายพันใบต่อวัน คุณอาจให้ความสำคัญกับความเร็ว ปิด `AdaptiveThreshold` และกำหนด `NoiseRemovalStrength = 1`. ในทางกลับกัน สำหรับเอกสารทางกฎหมายที่อักขระหนึ่งพลาดอาจมีค่าใช้จ่ายสูง ให้เปิดฟลักทั้งหมดและพิจารณาเพิ่ม `NoiseRemovalStrength` เป็น 3.
+รันโปรแกรมด้วย `dotnet run` คุณจะเห็นข้อความที่ทำความสะอาดแล้วแสดงบนคอนโซล ยืนยันว่าคุณได้ **ปรับปรุง OCR** สำหรับรูปภาพของคุณสำเร็จแล้ว
 
 ## สรุป
 
-เราได้ครอบคลุมการเดินทางทั้งหมดของ **how to improve OCR** ใน C# ด้วย Aspose OCR: ตั้งแต่การสร้างเอนจิน, การกำหนดค่าการเตรียมข้อมูล (หัวใจของ *how to deskew image* และ *how to remove noise*), การโหลด JPG, การจดจำข้อความ, และการจัดการกรณีขอบ. โค้ดเป็นอิสระ, รันได้ทันที, และแสดงขั้นตอนที่คุณต้องทำเพื่อ **recognize text from jpg** และ **extract text from image** ไฟล์.
+เราได้เดินผ่าน **วิธีปรับปรุง OCR** ทีละขั้นตอน: ตั้งค่าภาษา, deskew, denoise, boost contrast, และสุดท้าย **จดจำข้อความจากรูปภาพ** ด้วยการปรับ pipeline การประมวลผลล่วงหน้า คุณสามารถ **สกัดข้อความจากไฟล์รูปภาพ** ได้อย่างเชื่อถือได้และเห็นการเพิ่มขึ้นอย่างชัดเจนในคะแนน **การปรับปรุงความแม่นยำของ OCR**
 
-### ขั้นตอนต่อไป?
+พร้อมสำหรับความท้าทายต่อไปหรือยัง? ลองนำผลลัพธ์ OCR ไปตรวจสอบด้วย spell‑checker, หรือประมวลผลชุด PDF จำนวนมากด้วย `Parallel.ForEach` เพื่อความเร็ว คุณยังสามารถสำรวจ Aspose OCR Cloud API หากต้องการประมวลผลภาพในระดับใหญ่
 
-- ทดลองใช้ฟอร์แมตภาพอื่น (PNG, TIFF) เพื่อดูว่าการตั้งค่าเดียวกันทำงานอย่างไร.  
-- รวมผลลัพธ์ OCR เข้าไปในฐานข้อมูลหรือ
+มีคำถามเกี่ยวกับประเภทไฟล์เฉพาะหรืออยากเห็นวิธีทำงานกับ multi‑page TIFFs หรือไม่? แสดงความคิดเห็นด้านล่าง—ยินดีช่วยคุณผลักดันความแม่นยำของ OCR ให้สูงขึ้นต่อไป!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
