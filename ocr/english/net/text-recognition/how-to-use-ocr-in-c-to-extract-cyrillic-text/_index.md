@@ -32,7 +32,7 @@ tags:
 - Cyrillic
 - Image processing
 - PDF conversion
-title: How to use Aspose.OCR in C# to extract Cyrillic text
+title: Extract Cyrillic Text and Convert Images to PDF/HTML with Aspose.OCR in C#
 url: /net/text-recognition/how-to-use-ocr-in-c-to-extract-cyrillic-text/
 ---
 
@@ -182,6 +182,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
