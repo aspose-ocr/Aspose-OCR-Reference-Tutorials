@@ -53,7 +53,7 @@ tags:
 - C#
 - Aspose
 - Image processing
-title: How to extract text from image using Aspose.OCR in C#
+title: Extract text from image using Aspose.OCR API in C#
 url: /net/text-recognition/how-to-extract-text-from-image-using-aspose-ocr-in-c/
 ---
 
@@ -218,16 +218,16 @@ By following the steps in this tutorial, you have a solid foundation for any pro
 ---
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image with Aspose OCR – C# Quickstart](/ocr/english/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/)
+- [How to Extract Text from Image Using Aspose.OCR for .NET](ocr/english/net/text-recognition/get-recognition-result/)
+- [Extract image text C# with language selection using Aspose.OCR](ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Extract Text from Image with Aspose OCR – C# Quickstart](ocr/english/net/text-recognition/extract-text-from-image-with-aspose-ocr-c-quickstart/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
