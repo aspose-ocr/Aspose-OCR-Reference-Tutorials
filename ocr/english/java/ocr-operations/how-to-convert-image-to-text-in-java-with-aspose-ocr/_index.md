@@ -27,7 +27,7 @@ tags:
 - Java
 - Aspose
 - Image processing
-title: How to convert image to text in Java with Aspose OCR
+title: Learn to convert image to text in Java with Aspose OCR
 url: /java/ocr-operations/how-to-convert-image-to-text-in-java-with-aspose-ocr/
 ---
 
@@ -241,11 +241,12 @@ Ready to go further? Consider:
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Read Text from an Image in Java Using Aspose OCR – Complete Guide](/ocr/english/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
-- [image to text java: Convert Image to Text with Aspose.OCR](/ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
-- [How to OCR Image Text with Language Using Aspose.OCR](/ocr/english/java/ocr-operations/perform-ocr-language-selection/)
+- [How to Read Text from an Image in Java Using Aspose OCR – Complete Guide]({{< relref "/ocr/english/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/" >}})
+- [image to text java: Convert Image to Text with Aspose.OCR]({{< relref "/ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image/" >}})
+- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "/ocr/english/java/ocr-operations/perform-ocr-language-selection/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
