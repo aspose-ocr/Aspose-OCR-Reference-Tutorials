@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-25
-description: Create searchable PDF in Java using Aspose OCR. Learn how to convert
-  PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
+description: Create searchable PDF in Java using Aspose OCR for Java. Learn how to convert PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
 draft: false
 keywords:
 - create searchable pdf
@@ -10,19 +9,16 @@ keywords:
 - load pdf for ocr
 - ocr pdf with gpu
 language: en
-og_description: Create searchable PDF in Java using Aspose OCR. This tutorial shows
-  how to convert PDF to searchable PDF, load PDF for OCR, and use GPU acceleration.
-og_title: Create Searchable PDF with Java OCR – Complete Guide
+og_description: Create searchable PDF in Java using Aspose OCR for Java. This tutorial shows how to convert PDF to searchable PDF, load PDF for OCR, and use GPU acceleration.
+og_title: Create Searchable PDF with Aspose OCR for Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
-  description: Create searchable PDF in Java using Aspose OCR. Learn how to convert
-    PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
-  headline: Create Searchable PDF with Java OCR – Complete Guide
+  description: Create searchable PDF in Java using Aspose OCR for Java. Learn how to convert PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
+  headline: Create Searchable PDF with Aspose OCR for Java – Complete Guide
   type: TechArticle
-- description: Create searchable PDF in Java using Aspose OCR. Learn how to convert
-    PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
-  name: Create Searchable PDF with Java OCR – Complete Guide
+- description: Create searchable PDF in Java using Aspose OCR for Java. Learn how to convert PDF to searchable PDF, load PDF for OCR, and accelerate with GPU.
+  name: Create Searchable PDF with Aspose OCR for Java – Complete Guide
   steps:
   - name: Runs OCR on each page image.
     text: Runs OCR on each page image.
@@ -36,7 +32,7 @@ tags:
 - Java
 - PDF
 - Aspose
-title: Create Searchable PDF with Java OCR – Complete Guide
+title: Create Searchable PDF with Aspose OCR for Java – Complete Guide
 url: /java/advanced-ocr-techniques/create-searchable-pdf-with-java-ocr-complete-guide/
 ---
 
@@ -44,7 +40,7 @@ url: /java/advanced-ocr-techniques/create-searchable-pdf-with-java-ocr-complete-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF with Java OCR – Complete Guide
+# Create Searchable PDF with Aspose OCR for Java – Complete Guide
 
 Ever needed to **create searchable PDF** files from scanned documents but weren’t sure where to start? You’re not alone. Many developers hit the same wall when trying to turn image‑only PDFs into text‑searchable assets, especially when performance matters.
 
@@ -154,7 +150,7 @@ Behind the scenes, the engine:
 
 The result is a file that looks identical to the input but can be indexed by any PDF viewer.
 
-## Step 5: Retrieve Recognized Text and Verify Output
+## Step 5: retrieve recognized text and verify output
 
 Even though we already saved a searchable PDF, you might also want the raw text for logging or further processing:
 
@@ -185,7 +181,7 @@ Open the generated PDF in Adobe Reader or any viewer, press **Ctrl + F**, an
 
 > **Remember:** The line `engine.getEngineOptions().setThreadCount(Runtime.getRuntime().availableProcessors());` is crucial when you want to **ocr pdf with gpu** *and* fully exploit multi‑core CPUs. It tells the engine to spawn a worker per core, keeping the GPU busy while the CPU handles pre‑ and post‑processing.
 
-## Full Working Example
+## Full working example
 
 Below is the complete, ready‑to‑run Java program that incorporates every step we discussed. Replace the placeholder paths with your own directories.
 
@@ -234,14 +230,13 @@ What’s next? Try swapping `OcrLanguage.THAI` for `OcrLanguage.ENGLISH` or comb
 
 Got questions about performance tuning, licensing, or integrating this workflow into a Spring Boot service? Drop a comment below or check the Aspose OCR Java documentation for deeper dives. Happy coding, and enjoy turning those static scans into searchable treasures!
 
-
 ## Related Tutorials
 
 - [Recognize PDF Text – OCR Operations with Aspose.OCR for Java](/ocr/english/java/ocr-operations/)
 - [OCR Recognizing PDF Documents in Aspose.OCR for Java](/ocr/english/java/ocr-operations/recognize-pdf/)
 - [How to OCR PDF in .NET with Aspose.OCR](/ocr/english/net/text-recognition/recognize-pdf/)
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

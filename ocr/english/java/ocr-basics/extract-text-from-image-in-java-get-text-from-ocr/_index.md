@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-25
-description: Extract text from image in Java using OCR. Learn how to load image for
-  OCR, recognize text from photo, and get text from OCR with a simple code example.
+description: Extract text from image in Java using Aspose OCR. Learn how to load image for OCR, recognize text from photo, and get text from OCR with a simple code example.
 draft: false
 keywords:
 - extract text from image
@@ -11,9 +10,8 @@ keywords:
 - java image to text
 - load image for ocr
 language: en
-og_description: Extract text from image in Java with a step‑by‑step guide. Learn to
-  load image for OCR, recognize text from photo, and get text from OCR efficiently.
-og_title: Extract Text from Image in Java – Get Text from OCR
+og_description: Extract text from image in Java with Aspose OCR – a step‑by‑step guide. Learn to load image for OCR, recognize text from photo, and get text from OCR efficiently.
+og_title: Extract Text from Image in Java using Aspose OCR – Get Text from OCR
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
@@ -52,7 +50,7 @@ tags:
 - OCR
 - Java
 - Image Processing
-title: Extract Text from Image in Java – Get Text from OCR
+title: Extract Text from Image in Java using Aspose OCR – Get Text from OCR
 url: /java/ocr-basics/extract-text-from-image-in-java-get-text-from-ocr/
 ---
 
@@ -66,7 +64,7 @@ Ever needed to **extract text from image** but weren’t sure which Java library
 
 In this tutorial we’ll walk through a complete, ready‑to‑run example that shows you how to **load image for OCR**, configure the engine, and finally **recognize text from photo** so you can **get text from OCR** with just a few lines of code. No vague references—everything you need is right here.
 
-## What You’ll Learn
+## What you’ll learn
 
 * How to set up a lightweight OCR engine in Java.  
 * The exact steps to **load image for OCR** and handle different file paths.  
@@ -93,7 +91,7 @@ If you’ve got these, you’re good to go. Otherwise, grab the JDK from Oracle 
 
 ---
 
-## Step 1: Add the OCR Dependency
+## Step 1: add the OCR dependency
 
 First, tell your build tool to fetch the OCR engine. For Maven, drop this into `pom.xml`:
 
@@ -166,7 +164,7 @@ public class ExtractTextDemo {
 }
 ```
 
-### Why This Structure Works
+### Why this structure works
 
 * **Separate numbered blocks** make the flow easy to follow, especially when you’re scanning for where to **load image for OCR** or **recognize text from photo**.  
 * The `try/catch` around image loading and recognition ensures the program fails gracefully—useful when the file path is wrong or the OCR engine can’t find language data.  
@@ -174,7 +172,7 @@ public class ExtractTextDemo {
 
 ---
 
-## Step 3: Build and Run the Program
+## Step 3: build and run the program
 
 From the project root, execute:
 
@@ -199,7 +197,7 @@ That output confirms you successfully **extract text from image** and **get text
 
 ---
 
-## Step 4: Tweak the Workflow – From **Java Image to Text** in Real Projects
+## Step 4: tweak the workflow – from **Java image to text** in real projects
 
 While the demo is minimal, real‑world applications often need a bit more:
 
@@ -214,7 +212,7 @@ These variations keep the core idea—**recognize text from photo**—intact whi
 
 ---
 
-## Common Pitfalls & Pro Tips
+## Common pitfalls & pro tips
 
 1. **Wrong language setting** – If you forget step 2, the engine defaults to English, turning Cyrillic characters into gibberish. Always double‑check the language code.  
 2. **Image quality matters** – Low‑resolution or blurry photos will degrade accuracy. Pre‑process with contrast enhancement or binarization if needed.  
@@ -287,8 +285,9 @@ Running this program yields the same console output shown earlier. Feel free to 
 
 ## Conclusion
 
-We’ve walked through everything you need to **extract text from image** using Java: from adding the OCR dependency, to **load image for OCR**,
+We’ve walked through everything you need to **extract text from image** using Java: from adding the OCR dependency, to **load image for OCR**, configure language, run recognition, and handle resources safely.
 
+---
 
 ## Related Tutorials
 
@@ -298,5 +297,5 @@ We’ve walked through everything you need to **extract text from image** using 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-05-25
-description: Create searchable PDF from a scanned image using Aspose OCR Java. Learn
-  how to convert scanned image PDF, use OCR engine PDF features, and handle common
-  pitfalls.
+description: Create searchable PDF from a scanned image using Aspose OCR for Java. Learn how to convert scanned image PDF, use OCR engine PDF features, and handle common pitfalls.
 draft: false
 keywords:
 - create searchable pdf
@@ -12,47 +10,34 @@ keywords:
 - OCR engine pdf
 - aspose OCR java
 language: en
-og_description: Create searchable PDF in Java using Aspose OCR. This guide shows how
-  to convert scanned image PDF, use OCR engine PDF functions, and troubleshoot common
-  issues.
+og_description: Create searchable PDF in Java using Aspose OCR. This guide shows how to convert scanned image PDF, use OCR engine PDF functions, and troubleshoot common issues.
 og_title: Create searchable PDF with Aspose OCR Java – Step‑by‑Step
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
-  description: Create searchable PDF from a scanned image using Aspose OCR Java. Learn
-    how to convert scanned image PDF, use OCR engine PDF features, and handle common
-    pitfalls.
+  description: Create searchable PDF from a scanned image using Aspose OCR Java. Learn how to convert scanned image PDF, use OCR engine PDF features, and handle common pitfalls.
   headline: Create searchable PDF with Aspose OCR Java – Complete Guide
   type: TechArticle
-- description: Create searchable PDF from a scanned image using Aspose OCR Java. Learn
-    how to convert scanned image PDF, use OCR engine PDF features, and handle common
-    pitfalls.
+- description: Create searchable PDF from a scanned image using Aspose OCR Java. Learn how to convert scanned image PDF, use OCR engine PDF features, and handle common pitfalls.
   name: Create searchable PDF with Aspose OCR Java – Complete Guide
   steps:
   - name: 1. Image quality matters
-    text: If the scanned image is blurry or low‑contrast, OCR accuracy drops. Pre‑process
-      the image (deskew, increase contrast) with libraries like OpenCV before feeding
-      it to Aspose.
+    text: If the scanned image is blurry or low‑contrast, OCR accuracy drops. Pre‑process the image (deskew, increase contrast) with libraries like OpenCV before feeding it to Aspose.
   - name: 2. Multi‑page documents
-    text: 'For PDFs that contain multiple scanned pages, loop through each image and
-      call `saveToSearchablePdf` with the same output file name and `appendMode` set
-      to `true`. Example:'
+    text: 'For PDFs that contain multiple scanned pages, loop through each image and call `saveToSearchablePdf` with the same output file name and `appendMode` set to `true`. Example:'
   - name: 3. Language support
-    text: 'Aspose OCR auto‑detects language, but you can force a specific language
-      to improve speed:'
+    text: 'Aspose OCR auto‑detects language, but you can force a specific language to improve speed:'
   - name: 4. Memory considerations
-    text: Large images can consume a lot of RAM. Use `engine.getImage().setResolution(300)`
-      to downscale before OCR if memory becomes a bottleneck.
+    text: Large images can consume a lot of RAM. Use `engine.getImage().setResolution(300)` to downscale before OCR if memory becomes a bottleneck.
   - name: 5. Licensing
-    text: 'The demo runs in evaluation mode, which adds a watermark. To remove it,
-      apply your Aspose license:'
+    text: 'The demo runs in evaluation mode, which adds a watermark. To remove it, apply your Aspose license:'
   type: HowTo
 tags:
 - Java
 - OCR
 - PDF
 - Aspose
-title: Create searchable PDF with Aspose OCR Java – Complete Guide
+title: Create Searchable PDF using Aspose OCR for Java – Complete Guide
 url: /java/ocr-operations/create-searchable-pdf-with-aspose-ocr-java-complete-guide/
 ---
 
@@ -60,7 +45,7 @@ url: /java/ocr-operations/create-searchable-pdf-with-aspose-ocr-java-complete-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create searchable PDF with Aspose OCR Java – Complete Guide
+# Create Searchable PDF using Aspose OCR for Java – Complete Guide
 
 Ever needed to **create searchable PDF** from a scanned receipt but weren’t sure where to start? You're not the only one. Turning a static image into a PDF that you can actually search through is a game‑changing skill for anyone dealing with invoices, contracts, or any paper‑based workflow.
 
@@ -236,14 +221,13 @@ From here you can **convert scanned image PDF** batches, experiment with languag
 
 Got questions about **how to use OCR** in a different context, or need help troubleshooting a specific image? Drop a comment below, and happy coding!
 
-
 ## Related Tutorials
 
-- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java](/ocr/english/java/ocr-operations/)
-- [OCR Recognizing PDF Documents in Aspose.OCR for Java](/ocr/english/java/ocr-operations/recognize-pdf/)
-- [How to OCR PDF in .NET with Aspose.OCR](/ocr/english/net/text-recognition/recognize-pdf/)
+- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java]([{{< relref "ocr/english/java/ocr-operations/_index.md" >}}](/ocr/english/java/ocr-operations/))
+- [OCR Recognizing PDF Documents in Aspose.OCR for Java]([{{< relref "ocr/english/java/ocr-operations/recognize-pdf/_index.md" >}}](/ocr/english/java/ocr-operations/recognize-pdf/))
+- [How to OCR PDF in .NET with Aspose.OCR]([{{< relref "ocr/english/net/text-recognition/recognize-pdf/_index.md" >}}](/ocr/english/net/text-recognition/recognize-pdf/))
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-05-25
-description: How to get OCR in Java and extract raw text from images. Learn to turn
-  off spell correction, recognize handwritten text, and how to load image efficiently.
+description: How to get OCR in Java with Aspose.OCR and extract raw text from images. Learn to turn off spell correction, recognize handwritten text, and how to load image efficiently.
 draft: false
 keywords:
 - how to get ocr
@@ -39,7 +38,7 @@ tags:
 - OCR
 - Java
 - Aspose.OCR
-title: How to Get OCR in Java – Complete Guide to Extract Raw Text
+title: How to Get OCR in Java with Aspose.OCR – Complete Guide to Extract Raw Text
 url: /java/advanced-ocr-techniques/how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/
 ---
 
@@ -55,7 +54,7 @@ We’ll use Aspose.OCR for Java, but the concepts translate to any OCR SDK that 
 
 ---
 
-## What You’ll Learn
+## What you’ll learn
 
 - How to set up Aspose.OCR in a Java project  
 - The exact steps **how to get OCR** raw output  
@@ -71,7 +70,7 @@ Prerequisites are minimal: Java 8+ installed, a Maven‑compatible IDE (Intell
 
 ---
 
-## Step 1: Add Aspose.OCR to Your Project
+## Step 1: add Aspose.OCR to your project
 
 ### Maven Dependency
 
@@ -97,7 +96,7 @@ Once the dependency resolves, you’re ready to write code that actually **gets 
 
 ---
 
-## Step 2: Create the OCR Engine Instance
+## Step 2: create the OCR engine instance
 
 The engine is the heart of the process. Instantiating it is straightforward, but the real magic begins when you configure it.
 
@@ -114,7 +113,7 @@ Why do we need a dedicated `OcrEngine` object? It stores all runtime options, in
 
 ---
 
-## Step 3: Turn Off Spell Correction (If You Need Raw Output)
+## Step 3: turn off spell correction (If you need raw output)
 
 Most OCR libraries try to be helpful by correcting misspelled words automatically. That’s great for printed text but disastrous for raw data extraction. Here’s how to **turn off spell correction**:
 
@@ -127,7 +126,7 @@ When the flag is `false`, the engine returns exactly what it saw on the bitmap, 
 
 ---
 
-## Step 4: Load the Image – The Proper Way
+## Step 4: load the image – the proper way
 
 You might think `engine.getImage().loadFromFile("path")` is enough, but there are a few nuances:
 
@@ -154,7 +153,7 @@ If you’re dealing with a stream (e.g., uploading from a web form), replace `lo
 
 ---
 
-## Step 5: Perform the Recognition
+## Step 5: perform the recognition
 
 Now the moment of truth arrives—**how to get OCR** results. The `recognize()` method runs the internal pipeline, applying language models, segmentation, and (if enabled) spell correction. Since we disabled it, you’ll receive the untouched characters.
 
@@ -167,7 +166,7 @@ The `OcrResult` object holds more than just text; you can also retrieve confiden
 
 ---
 
-## Step 6: Output the Raw OCR Result
+## Step 6: output the raw OCR result
 
 Finally, print the result to the console. This is the simplest way to **extract raw text** for debugging or downstream processing.
 
@@ -192,7 +191,7 @@ Notice the extra spaces—those are intentional because the engine preserves the
 
 ---
 
-## Common Pitfalls & How to Avoid Them
+## Common pitfalls & how to avoid them
 
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
@@ -216,7 +215,7 @@ This tells the internal neural network to favor cursive patterns over printed gl
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 Below is the complete, self‑contained Java class that incorporates all the steps we discussed. Just replace `YOUR_DIRECTORY/handwritten.png` with the path to your own image and run it.
 
@@ -287,5 +286,8 @@ Give those a try, and feel free to drop your questions in the comments. Happy co
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
