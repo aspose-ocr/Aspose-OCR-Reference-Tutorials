@@ -97,6 +97,8 @@ Build a spell‑check processor using Aspose OCR AI in .NET. Follow the full gui
 Learn how to verify the Aspose.OCR license flag in .NET to ensure proper licensing.
 ### [How to enable gpu for OCR in C# – Step‑by‑Step Guide](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 Enable GPU acceleration for Aspose.OCR in C# to boost performance and accuracy in OCR image recognition.
+### [How to Disable OCR in C# – Offline Aspose OCR Guide](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Step-by-step guide to turn off OCR in C# apps using offline Aspose OCR configuration.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

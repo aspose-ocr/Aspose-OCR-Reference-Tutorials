@@ -87,6 +87,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 在 C# 中啟用 GPU 加速 OCR，逐步說明設定與最佳化方法。
 ### [如何下載俄文 OCR 語言包 – 完整指南](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 一步步說明如何取得並安裝俄文 OCR 語言包，以在 Aspose.OCR 中支援俄語文字辨識。
+### [如何在 C# 中停用 OCR – 離線 Aspose OCR 指南](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+說明如何在 C# 應用程式中關閉 OCR 功能，使用離線 Aspose OCR 方案。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

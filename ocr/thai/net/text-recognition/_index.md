@@ -433,6 +433,20 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อประมวลผล OCR แบบกลุ่มสำหรับภาพหลายไฟล์อย่างมีประสิทธิภาพ
 ### [ดึงข้อความจากไฟล์ TIFF ด้วย Aspose OCR Engine – ตัวอย่างครบถ้วน](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 เรียนรู้วิธีดึงข้อความจากไฟล์ TIFF อย่างละเอียดด้วย Aspose OCR Engine ผ่านตัวอย่างครบถ้วน
+### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือครบถ้วน](./create-searchable-pdf-in-c-complete-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้ใน C# ด้วย Aspose.OCR อย่างละเอียดในคู่มือครบถ้วน
+
+### [สกัดข้อความจากรูปภาพใน C# – คู่มือ OCR ครบถ้วน](./extract-text-from-image-in-c-complete-ocr-guide/)
+เรียนรู้วิธีสกัดข้อความจากรูปภาพด้วย C# โดยใช้ Aspose.OCR อย่างละเอียดในคู่มือ OCR ครบถ้วน
+
+### [สกัดข้อความจาก TIFF ด้วย Batch OCR ใน C# – คู่มือครบถ้วน](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ TIFF ด้วยการประมวลผลแบบกลุ่มใน C# โดยใช้ Aspose.OCR อย่างละเอียดในคู่มือครบถ้วนนี้
+
+### [จดจำข้อความจาก PNG ใน C# – คู่มือ OCR ครบถ้วนพร้อมตรวจสอบการสะกด](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+เรียนรู้วิธีจดจำข้อความจากไฟล์ PNG ด้วย C# พร้อมการตรวจสอบการสะกดโดยใช้ Aspose.OCR อย่างละเอียดในคู่มือครบถ้วน
+
+### [แปลงรูปภาพเป็น JSON – บทช่วยสอน OCR ด้วย C# สำหรับใบเสร็จ](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+เรียนรู้วิธีแปลงรูปภาพใบเสร็จเป็น JSON ด้วย Aspose.OCR ใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

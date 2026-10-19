@@ -127,6 +127,8 @@ weight: 24
 ### [Как включить GPU для OCR в C# – пошаговое руководство](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 
 ### [Как загрузить пакет языков OCR для русского языка – Полное руководство](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+### [Как отключить OCR в C# – Офлайн руководство по Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Пошаговое руководство по отключению OCR в приложениях C# без подключения к сети, используя Aspose OCR.
 
 
 

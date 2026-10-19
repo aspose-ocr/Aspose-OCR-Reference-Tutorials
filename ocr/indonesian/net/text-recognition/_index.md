@@ -487,6 +487,16 @@ Pelajari cara mengenali teks berbahasa Cina dengan Aspose OCR dalam aplikasi C# 
 Pelajari cara melakukan OCR secara batch di C# untuk mengekstrak teks dari banyak gambar secara efisien.
 ### [Ekstrak Teks dari TIFF dengan Mesin OCR Aspose – Contoh Lengkap](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Pelajari cara mengekstrak teks dari file TIFF menggunakan Aspose OCR Engine dengan contoh lengkap langkah demi langkah.
+### [Buat PDF yang Dapat Dicari di C# – Panduan Lengkap](./create-searchable-pdf-in-c-complete-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan C# dengan panduan lengkap, langkah demi langkah, untuk meningkatkan aplikasi Anda.
+### [Ekstrak Teks dari Gambar dalam C# – Panduan OCR Lengkap](./extract-text-from-image-in-c-complete-ocr-guide/)
+Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan OCR lengkap, langkah demi langkah, untuk meningkatkan aplikasi Anda.
+### [Ekstrak Teks dari TIFF dengan Batch OCR di C# – Panduan Lengkap](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Pelajari cara mengekstrak teks dari file TIFF secara batch menggunakan OCR di C#, langkah demi langkah untuk meningkatkan efisiensi aplikasi Anda.
+### [Mengenali Teks dari PNG di C# – Panduan Lengkap OCR & Pemeriksaan Ejaan](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Pelajari cara mengenali teks dari file PNG menggunakan C# dengan OCR lengkap dan pemeriksaan ejaan, langkah demi langkah untuk meningkatkan aplikasi Anda.
+### [Konversi Gambar ke JSON – Tutorial OCR C# untuk Resi](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Pelajari cara mengonversi gambar struk menjadi JSON menggunakan OCR di C#, langkah demi langkah untuk integrasi mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

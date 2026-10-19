@@ -130,6 +130,8 @@ Hướng dẫn nhanh cách kiểm tra trạng thái giấy phép Aspose OCR tron
 Hướng dẫn chi tiết cách cấu hình và sử dụng GPU để tăng tốc độ nhận dạng OCR trong ứng dụng C# với Aspose.OCR.
 ### [Cách tải gói ngôn ngữ OCR cho tiếng Nga – Hướng dẫn đầy đủ](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Hướng dẫn chi tiết cách tải và cài đặt gói ngôn ngữ OCR cho tiếng Nga, bao gồm các bước cấu hình và sử dụng trong Aspose.OCR.
+### [Cách tắt OCR trong C# – Hướng dẫn Offline Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Hướng dẫn tắt chức năng OCR trong ứng dụng C# khi làm việc offline với Aspose OCR.
 
 
 

@@ -74,6 +74,8 @@ Rychle zjistěte, zda je Aspose OCR správně licencováno, a odstraňte problé
 Naučte se, jak aktivovat GPU akceleraci pro OCR v C# aplikacích pomocí Aspose.OCR.
 ### [Jak stáhnout OCR jazykový balíček pro ruštinu – kompletní průvodce](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Naučte se, jak stáhnout a nainstalovat jazykový balíček OCR pro ruštinu pro Aspose.OCR.
+### [Jak zakázat OCR v C# – Offline průvodce Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nastavení a optimalizace výkonu.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

@@ -126,6 +126,8 @@ Aspose OCR 라이선스 플래그를 확인하고 올바르게 적용했는지 �
 C# 애플리케이션에서 Aspose.OCR의 GPU 가속을 설정하고 활용하는 방법을 단계별로 안내합니다.  
 ### [러시아어 OCR 언어 팩 다운로드 방법 – 완전 가이드](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Aspose.OCR에서 러시아어 언어 팩을 다운로드하고 설치하는 전체 단계별 가이드.  
+### [C#에서 OCR을 비활성화하는 방법 – 오프라인 Aspose OCR 가이드](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+C# 애플리케이션에서 Aspose OCR을 오프라인으로 사용하면서 OCR 기능을 비활성화하는 방법을 단계별로 안내합니다.  
 
 
 

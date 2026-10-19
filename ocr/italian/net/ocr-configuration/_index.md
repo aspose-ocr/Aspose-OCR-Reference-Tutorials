@@ -76,6 +76,8 @@ Scopri come controllare il flag di licenza in Aspose OCR per assicurarti che la 
 Abilita il supporto GPU per l'OCR in C# con Aspose.OCR. Segui la guida passo‑passo per aumentare velocità e precisione.
 ### [Come scaricare il pacchetto lingua OCR per il russo – Guida completa](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Scopri come scaricare e installare il pacchetto lingua OCR per il russo, passo dopo passo, per migliorare il riconoscimento multilingue.
+### [Come disabilitare OCR in C# – Guida offline Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Scopri come disattivare la funzionalità OCR in un'applicazione C# per operazioni offline con Aspose OCR.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

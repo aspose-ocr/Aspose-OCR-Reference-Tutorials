@@ -484,6 +484,16 @@ Lär dig hur du använder Aspose OCR i C# för att känna igen och extrahera kin
 Lär dig att bearbeta stora mängder bilder med OCR i C#, steg för steg för effektiv massutdrag av text.
 ### [Extrahera text från TIFF med Aspose OCR-motorn – Komplett exempel](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Lär dig hur du med Aspose OCR-motorn extraherar text från TIFF-filer i ett komplett steg‑för‑steg‑exempel.
+### [Extrahera text från bild i C# – Komplett OCR-guide](./extract-text-from-image-in-c-complete-ocr-guide/)
+Lär dig steg-för-steg hur du extraherar text från bilder i C# med en komplett OCR-guide.
+### [Extrahera text från TIFF med batch-OCR i C# – Komplett guide](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Lär dig steg-för-steg hur du extraherar text från TIFF-filer med batch-OCR i C# för effektiv bildbehandling.
+### [Skapa sökbar PDF i C# – Komplett guide](./create-searchable-pdf-in-c-complete-guide/)
+Lär dig steg-för-steg hur du skapar en sökbar PDF i C# med en komplett guide.
+### [Känn igen text från PNG i C# – Fullständig OCR‑ och stavningskontrollguide](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Lär dig steg-för-steg hur du känner igen text från PNG-filer i C# med fullständig OCR och stavningskontroll.
+### [Konvertera bild till JSON – C# OCR‑handledning för kvitton](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Lär dig hur du konverterar en bild till JSON med C# OCR för att extrahera data från kvitton.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

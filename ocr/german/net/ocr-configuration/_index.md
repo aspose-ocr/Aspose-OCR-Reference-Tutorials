@@ -89,6 +89,8 @@ Erfahren Sie, wie Sie das Lizenz-Flag von Aspose OCR prüfen und sicherstellen, 
 Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für C# aktivieren, um die Texterkennung zu beschleunigen.
 ### [Wie man das OCR-Sprachpaket für Russisch herunterlädt – Komplett‑Guide](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Laden Sie das russische OCR‑Sprachpaket herunter und integrieren Sie es mühelos in Ihre .NET‑Anwendung.
+### [Wie man OCR in C# deaktiviert – Offline‑Anleitung für Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Erfahren Sie, wie Sie die OCR‑Funktion in C# deaktivieren und offline mit Aspose OCR arbeiten.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

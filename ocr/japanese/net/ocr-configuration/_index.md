@@ -73,6 +73,7 @@ Aspose OCR を使用して C# アプリでカンナダ語画像のテキスト�
 Aspose OCR AI を活用し、スペルチェックプロセッサを作成してテキストの正確性を向上させる完全ガイドです。
 ### [Aspose OCR のライセンスフラグを確認 – ライセンス検証クイックガイド](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 ### [C# で OCR 用 GPU を有効化する方法 – ステップバイステップガイド](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+### [C# で OCR を無効にする方法 – オフライン Aspose OCR ガイド](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

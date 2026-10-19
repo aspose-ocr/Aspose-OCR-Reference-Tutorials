@@ -500,6 +500,14 @@ Aprenda a reconocer texto en chino con Aspose OCR en C#, integrando reconocimien
 Aprenda a procesar grandes volúmenes de imágenes con OCR en C#, extrayendo texto de forma eficiente y automatizada.
 ### [Extraer texto de TIFF con el motor OCR de Aspose – Ejemplo completo](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Aprenda a extraer texto de archivos TIFF usando Aspose OCR con un ejemplo completo paso a paso.
+### [Extraer texto de una imagen en C# – Guía completa de OCR](./extract-text-from-image-in-c-complete-ocr-guide/)
+Aprenda a extraer texto de imágenes usando C# con Aspose.OCR en esta guía completa paso a paso.
+### [Extraer texto de TIFF con OCR por lotes en C# – Guía completa](./extract-text-from-tiff-with-batch-ocr-in-c-complete-guide/)
+Aprenda a extraer texto de archivos TIFF usando OCR por lotes en C#, con una guía paso a paso para procesar múltiples imágenes eficientemente.
+### [Reconocer texto de PNG en C# – Guía completa de OCR y corrección ortográfica](./recognize-text-from-png-in-c-full-ocr-spell-check-guide/)
+Aprenda a extraer texto de archivos PNG en C# con OCR y corrección ortográfica usando Aspose.OCR.
+### [Convertir imagen a JSON – Tutorial OCR en C# para recibos](./convert-image-to-json-c-ocr-tutorial-for-receipts/)
+Aprenda a convertir imágenes de recibos a JSON usando Aspose.OCR en C# con este tutorial paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

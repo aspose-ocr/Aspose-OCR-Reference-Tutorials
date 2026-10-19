@@ -94,6 +94,8 @@ Leer hoe je met Aspose OCR AI een spellingscontroleprocessor bouwt om tekst nauw
 Leer hoe je de licentievlag controleert en verifieert dat Aspose OCR correct is gelicentieerd.
 ### [Hoe GPU voor OCR in C# in te schakelen – Stapsgewijze handleiding](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 Leer hoe je GPU-acceleratie inschakelt voor Aspose.OCR in C# om de verwerkingssnelheid te verhogen.
+### [Hoe OCR uitschakelen in C# – Offline Aspose OCR-gids](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Leer hoe je OCR-functionaliteit in C# kunt uitschakelen voor offline verwerking met Aspose OCR.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.
