@@ -1,49 +1,24 @@
 ---
 category: general
-date: 2026-05-25
-description: C#'ta Aspose OCR kullanarak görüntüden metin tanıma. OCR için görüntünün
-  nasıl yükleneceğini, OCR dilinin nasıl ayarlanacağını, OCR motorunun nasıl oluşturulacağını
-  ve TIFF'ten metnin nasıl çıkarılacağını öğrenin.
+date: 2026-02-09
+description: C#'ta özel bir sözlük kullanarak görüntüden metni tanımayı ve düz metni
+  çıkarmayı öğrenin. Adım adım kod ve ipuçları içerir.
 draft: false
 keywords:
 - recognize text from image
-- extract text from tiff
-- load image for OCR
-- set OCR language
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: tr
-og_description: Aspose OCR kullanarak C#'de görüntüden metin tanıma. Bu öğreticide
-  OCR motoru oluşturma, OCR için görüntü yükleme, OCR dilini ayarlama ve TIFF'ten
-  metin çıkarma gösterilmektedir.
-og_title: Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Rehberi
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: recognize text from image using Aspose OCR in C#. Learn how to load
-    image for OCR, set OCR language, create OCR engine and extract text from TIFF.
-  headline: recognize text from image with Aspose OCR – Complete C# Guide
-  type: TechArticle
-- questions:
-  - answer: Remove the `GpuDevice` line; the engine will automatically switch to CPU
-      mode. Performance will be slower but the results remain accurate.
-    question: What if my GPU isn’t detected?
-  - answer: Absolutely—`Image.FromFile` works with any format supported by System.Drawing,
-      so you can **load image for OCR** regardless of extension.
-    question: Can I process PNG or JPEG files?
-  - answer: Increase `ocrEngine.PreprocessOptions.Dpi` before calling `Recognize`.
-      Higher DPI gives the engine more pixels to work with, improving accuracy.
-    question: How do I handle low‑resolution scans?
-  - answer: The `GpuMemoryLimit` property caps GPU usage. If you hit the limit, the
-      engine will fallback to CPU for the remaining pages.
-    question: Is there a limit to the size of the TIFF?
-  type: FAQPage
+og_description: Aspose OCR ile C#'ta görüntüden metin tanıyın. Düz metni çıkarmak
+  ve daha yüksek doğruluk için özel bir sözlük eklemek amacıyla bu kılavuzu izleyin.
+og_title: görüntüden metin tanıma – Tam C# Öğreticisi
 tags:
 - OCR
 - C#
 - Aspose
-- GPU
-- Text Extraction
-title: Aspose OCR ile görüntüden metin tanıma – Tam C# Kılavuzu
+title: Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Rehberi
 url: /tr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -51,157 +26,173 @@ url: /tr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose OCR ile Görüntüden Metin Tanıma – Tam C# Kılavuzu
+# görüntüden metin tanıma – Tam C# Öğreticisi
 
-Görüntüden **görüntüden metin tanıma** ihtiyacı hiç duydunuz mu, ancak hangi kütüphanenin hem hız hem de doğruluk sağlayacağını bilemediniz mi? Yalnız değilsiniz. Birçok fatura‑işleme veya arşivleme projesinde en büyük sorun, TIFF dosyalarından temiz, aranabilir metin elde etmek ve özel bir ayrıştırıcı yazmadan bunu başarmaktır.
+Hiç **görüntüden metin tanıma** yapmanız gerekti, ancak sonuçların alan‑spesifik kelimeleri kaçırdığını gördünüz mü? Yalnız değilsiniz. Birçok projede—fatura tarama, rozet okuma veya sadece ekran görüntülerinden altyazı çekme—varsayılan OCR motoru kelime dağarcığınız hakkında yeterince akıllı değil.  
 
-Şöyle ki: Aspose OCR for .NET bu tüm süreci çocuk oyuncağı haline getiriyor. Bu kılavuzda ihtiyacınız olan her şeyi adım adım göstereceğiz—paketi kurma, **OCR motoru oluşturma**, bir TIFF yükleme, OCR dilini ayarlama ve sonunda **TIFF'ten metin çıkarma**. Sonunda, **görüntüden metin tanıma** dosyalarını anında işleyebilen hazır bir konsol uygulamanız olacak.
+İyi haber? **Özel bir sözlük** yükleyerek doğruluğu büyük ölçüde artırabilir ve elbette **düz metni** tek bir temiz adımda çıkarabilirsiniz. Bu öğreticide, bir sözlük dosyasını okumaktan OCR sonucunu yazdırmaya kadar tüm süreci Aspose.OCR kullanarak C# ile göstereceğiz.  
+
+Ayrıca “**özel sözlük nasıl eklenir**” sorusuna yanıt verecek, **metni nasıl çıkarırsınız** gösterecek ve sıkça yapılan hataları işaret ederek bir saat daha ayarlarla uğraşmamanızı sağlayacağız.
 
 ## Gereksinimler
 
-- .NET 6.0 veya üzeri (kod .NET Core ve .NET Framework ile de çalışır)
-- Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE)
-- Aspose.OCR NuGet paketi (GPU desteği `Aspose.OCR.Gpu` eklentisini gerektirir)
-- Ekstra hız istiyorsanız CUDA destekli bir GPU (isteğe bağlı ama önerilir)
+- **.NET 6+** (herhangi bir güncel çalışma zamanı yeterlidir)
+- **Aspose.OCR for .NET** NuGet paketi  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- **metin dosyası** (`custom_dictionary.txt`) – her satırda bir kelime olacak şekilde, beklediğiniz terimler burada bulunur.
+- **görüntü** (`input_image.png`) – tanımak istediğiniz metni içeren dosya.
 
-> **Pro tip:** GPU'nuz yoksa, sadece `GpuDevice` satırını kaldırın ve motor otomatik olarak CPU'ya geçecektir.
+Ek bir kütüphane, harici hizmet gerekmez. Sadece saf C# ve Aspose.
 
-## Adım 1: Aspose OCR'yi Kurun ve OCR Motoru Oluşturun
+## Adım 1: OCR Motorunu Başlat – Görüntüden Metin Tanıma
 
-İlk olarak, gerekli paketleri NuGet üzerinden ekleyin:
-
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu   # optional GPU support
-```
-
-Şimdi **OCR motoru oluşturabiliriz**. Bu nesne sürecin kalbidir; çalışacağı cihaz ve bellek limitleri gibi yapılandırmaları tutar.
+İlk yapmanız gereken bir `OcrEngine` oluşturmak. Bu nesne, daha sonra ekleyeceğimiz özel sözlük de dahil olmak üzere tüm yapılandırma seçeneklerini tutar.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.Gpu;   // GPU support
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Instantiate the OCR engine (GPU‑enabled)
-        var ocrEngine = new OcrEngine
-        {
-            // 0 = first GPU in the system; change if you have multiple cards
-            GpuDevice = new GpuDevice(0),
-            // Optional: cap GPU memory usage to 1024 MB
-            GpuMemoryLimit = 1024
-        };
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Neden önemli?** Motoru bir GPU'ya bağlayarak, özellikle yüksek çözünürlüklü TIFF'lerin büyük partileri için **görüntüden metin tanıma** süresini büyük ölçüde azaltırsınız.
+> **Neden önemli:**  
+> Bir motor örneği olmadan dil, DPI veya özel kelime listeleri gibi ayarlar için bir bağlamınız olmaz. `OcrEngine`, **görüntüden metin tanıma** işlemini gerçekleştirecek beyin gibidir.
 
-## Adım 2: OCR için Görüntüyü Yükle
+## Adım 2: Sözlük Dosyasını Oku – Özel Sözlük Nasıl Eklenir
 
-Sonra, **OCR için görüntüyü yüklememiz** gerekiyor. Aspose.OCR, `System.Drawing.Image` ile çalışır, bu yüzden GDI+ tarafından desteklenen herhangi bir format (çok sayfalı TIFF dahil) uygundur.
+Sonra, sözlük dosyasının içeriğini bir `HashSet<string>` içine **okumamız** gerekir. HashSet O(1) arama sağlar ve motorun iç kontrolleri için idealdir.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace the path with the location of your TIFF file
-        var imagePath = @"C:\Invoices\invoice_batch.tif";
-        Image image = Image.FromFile(imagePath);
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Eğer çok sayfalı bir TIFF ile çalışıyorsanız, `image.SelectActiveFrame` kullanarak sayfalar arasında döngü yapabilirsiniz, ancak çoğu senaryoda tek bir çağrı yeterlidir.
+> **İpucu:**  
+> Sözlük dosyasını UTF‑8 kodlamalı tutun ve boş satırlardan kaçının; bunlar boş string olarak algılanır ve motoru şaşırtabilir.
 
-## Adım 3: OCR Dilini Ayarla
+## Adım 3: Görüntüyü Yükle – Metni Nasıl Çıkarırsınız
 
-Motor, taradığınız dili sihirli bir şekilde bilmez. Tanıyıcıyı çalıştırmadan önce **OCR dilini ayarlayın**; aksi takdirde çok fazla bozuk çıktı alırsınız.
+Şimdi işlemek istediğimiz görüntüyü besliyoruz. Aspose, dosya işlemlerini soyutlamak için `ImageStream` kullanır.
 
 ```csharp
-        // Step 3: Tell the engine which language to expect
-        ocrEngine.Language = OcrLanguage.English; // change to .German, .French, etc. as needed
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Biliyor muydunuz?** Çalışma zamanında dilleri değiştirmek maliyetli değildir—sayfalar arasında bu özelliği değiştirerek karışık dilli bir belge bile işleyebilirsiniz.
+> **Köşe durumu:**  
+> Görüntünüz 2000 × 2000 pikselden büyükse, önce ölçek küçültmeyi düşünün. Çok büyük görüntüler doğruluğu artırmadan tanıma süresini uzatır.
 
-## Adım 4: Tanıma İşlemini Gerçekleştir – Görüntüden Metin Tanıma
+## Adım 4: OCR İşlemini Çalıştır – Düz Metni Çıkar
 
-Şimdi eğlenceli kısım: aslında **görüntüden metin tanıma**. `Recognize` yöntemi, tespit edilen tüm karakterleri içeren düz bir string döndürür.
-
-```csharp
-        // Step 4: Run OCR and capture the output
-        string recognizedText = ocrEngine.Recognize(image);
-```
-
-Eğer güven puanları veya sınırlama kutuları (bounding boxes) gerekiyorsa, `OcrResult` nesnesi döndüren aşırı yüklemeyi (overload) kullanabilirsiniz, ancak çoğu çıkarma görevinde düz string yeterlidir.
-
-## Adım 5: TIFF'ten Metin Çıkarma (ve çok sayfalı dosyaları işleme)
-
-Kaynak, birden fazla sayfa içeren bir TIFF ise, her çerçeve için adım 2‑4'ü tekrarlamak isteyeceksiniz. İşte **TIFF'ten metin çıkarma** işlemini sayfa sayfa yapan hızlı bir döngü:
+Her şey hazır olduğunda `Recognize` metodunu çağırın. Bu metod, ham ve temizlenmiş metni içeren bir `OcrResult` nesnesi döndürür.
 
 ```csharp
-        // Optional: process multi‑page TIFFs
-        var totalFrames = image.GetFrameCount(FrameDimension.Page);
-        for (int i = 0; i < totalFrames; i++)
-        {
-            image.SelectActiveFrame(FrameDimension.Page, i);
-            string pageText = ocrEngine.Recognize(image);
-            Console.WriteLine($"--- Page {i + 1} ---");
-            Console.WriteLine(pageText);
-        }
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-Yukarıdaki kod, her sayfa için çıkarılan metni yazdırır ve sonuçları bir veritabanına ya da arama indeksine yönlendirmeyi çok basit hâle getirir.
-
-## Adım 6: Çıkarılan Metni Görüntüle veya Sakla
-
-Son olarak, **çıkarılan metni görüntüleyelim** ve isteğe bağlı olarak daha sonraki işlem için bir dosyaya yazalım.
-
-```csharp
-        // Step 6: Output the result to console
-        Console.WriteLine("=== Full OCR Result ===");
-        Console.WriteLine(recognizedText);
-
-        // Optional: Save to a .txt file
-        System.IO.File.WriteAllText(@"C:\Invoices\extracted_text.txt", recognizedText);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Programı çalıştırdığınızda tanınan karakterler çıktılanacak ve kaynak TIFF'inizin yanına `extracted_text.txt` dosyası oluşturulacaktır.
+> **Gördükleriniz:**  
+> Konsol, satır sonlarını koruyan temiz bir metin yazdırır. Özel sözlüğünüzde “Aspose” ve “OCR” varsa, bu kelimeler görüntü hafif gürültülü olsa bile tam olarak tanımlandığınız gibi görünür.
+
+## Tam Çalışan Örnek
+
+Aşağıda **tam, kopyala‑yapıştır hazır** program yer alıyor. `YOUR_DIRECTORY` kısmını sözlük ve görüntüyü sakladığınız gerçek klasör yolu ile değiştirin.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**Beklenen çıktı** (görüntü “Welcome to Aspose OCR Demo” içeriyorsa)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+“Aspose” sözlüğünüzde yer alıyorsa, hafif bir bulanıklık olsa bile yazım mükemmel olur.
+
+## Sık Sorulan Sorular
+
+### **Sözlük dosyasını** farklı kodlamalarla nasıl okurum?
+`File.ReadAllLines(path, Encoding.UTF8)` (veya `Encoding.Unicode`) kullanarak dosyanın kodlamasını eşleştirin. Bu, gizli karakterlerin `HashSet` içine sızmasını önler.
+
+### OCR sonucu hâlâ sözlüğümdeki bir kelimeyi kaçırıyorsa ne yapmalıyım?
+Kelimenin büyük/küçük harf durumunun sözlük girdisiyle eşleştiğinden emin olun veya `ocrEngine.Configuration.IgnoreCase = true` ayarını yapın. Ayrıca en iyi sonuç için görüntü çözünürlüğünün en az 300 dpi olduğundan emin olun.
+
+### PDF yerine **düz metin çıkarabilir** miyim?
+Evet—Aspose.PDF her sayfayı bir görüntüye dönüştürüp aynı OCR boru hattına besleyebilir. İş akışı aynı; sadece bir PDF‑to‑image dönüşüm adımı eklemeniz gerekir.
+
+### Çalışma zamanında birden çok dil için **özel sözlük nasıl eklenir**?
+Kesinlikle. Dil başına ayrı bir `HashSet<string>` oluşturun ve her `Recognize` çağrısından önce `ocrEngine.Configuration.CustomDictionary` değerini değiştirin.
+
+## Daha İyi Doğruluk İçin İpuçları ve Püf Noktaları
+
+- **Görüntüyü ön‑işleyin**: Gri tonlamaya çevirin, kontrastı artırın veya hafif bir Gaussian bulanıklığı uygulayarak lekeleri giderin.
+- **Toplu işleme**: Yüzlerce görüntünüz varsa aynı `OcrEngine` örneğini yeniden kullanın; her seferinde yeniden başlatmak gereksiz yük oluşturur.
+- **Ham OCR verisini kaydedin**: `ocrResult.TextLines` satır‑satır güven skorlarını verir; bu, sonrası işleme veya düşük güvenilir sonuçları işaretleme için faydalıdır.
+
+## Sonraki Adımlar
+
+Artık **metni nasıl çıkarırsınız** ve **özel sözlük nasıl eklenir** bildiğinize göre aşağıdaki konulara göz atabilirsiniz:
+
+1. **ASP.NET Core ile bütünleştirme** – bir API uç noktası oluşturup görüntüyü alıp JSON‑formatlı OCR sonucu döndürün.  
+2. **Entity Framework ile birleştirme** – çıkarılan düz metni doğrudan aranabilir kayıtlar için bir veritabanına kaydedin.  
+3. **Dil algılama keşfi** – algılanan dil koduna göre sözlükleri otomatik değiştiren bir sistem geliştirin.
+
+Bu konular, bu kılavuzda oluşturduğunuz temelin üzerine inşa edilerek basit bir **görüntüden metin tanıma** kod parçasını üretim‑hazır bir servise dönüştürmenizi sağlar.
 
 ---
 
-## Yaygın Sorular & Özel Durumlar
-
-- **GPU'm algılanmazsa ne olur?**  
-  `GpuDevice` satırını kaldırın; motor otomatik olarak CPU moduna geçecektir. Performans daha yavaş olur ancak sonuçlar doğru kalır.
-
-- **PNG veya JPEG dosyalarını işleyebilir miyim?**  
-  Kesinlikle—`Image.FromFile` System.Drawing tarafından desteklenen herhangi bir formatta çalışır, bu yüzden uzantı ne olursa olsun **OCR için görüntüyü yükleyebilirsiniz**.
-
-- **Düşük çözünürlüklü taramaları nasıl ele alırım?**  
-  `Recognize` çağrısından önce `ocrEngine.PreprocessOptions.Dpi` değerini artırın. Daha yüksek DPI, motorun çalışacağı daha fazla piksel sağlar ve doğruluğu artırır.
-
-- **TIFF'in boyutu için bir limit var mı?**  
-  `GpuMemoryLimit` özelliği GPU kullanımını sınırlar. Limit aşılırsa, motor kalan sayfalar için CPU'ya geçecektir.
-
-## Sonuç
-
-Artık Aspose OCR kullanarak C# içinde **görüntüden metin tanıma** dosyaları için tam, üretime hazır bir kod parçacığınız var. Eğitim, **OCR motoru oluşturma**, **OCR için görüntüyü yükleme**, **OCR dilini ayarlama** ve **TIFF'ten metin çıkarma** konularını kapsadı—hepsi hız için GPU hızlandırmasından yararlanarak.
-
-Bundan sonra şunları yapabilirsiniz:
-
-- Farklı dillerle deney yapın (`OcrLanguage.Spanish`, `OcrLanguage.ChineseSimplified` vb.).
-- Çıktıyı aranabilir bir ElasticSearch indeksine entegre edin.
-- Veri kalitesini artırmak için son‑işleme (imla kontrolü, regex temizliği) ekleyin.
-
-Kendi fatura topluluğunuzda bir deneme yapın, bellek limitlerini ayarlayın ve OCR performansının nasıl yükseldiğini izleyin. İyi kodlamalar!
-
-## İlgili Eğitimler
-
-- [Aspose.OCR kullanarak dil seçimiyle C# görüntü metni çıkarma](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [OCR'da Dikdörtgen Hazırlayarak Görüntüden Metin Çıkarma](/ocr/english/net/ocr-optimization/prepare-rectangles/)
-- [Görüntüden Metin Çıkarma – Aspose.OCR ile Satır Tanıma](/ocr/english/net/image-and-drawing-recognition/recognize-line/)
+*İyi kodlamalar! Bir sorunla karşılaşırsanız aşağıya yorum bırakın ya da daha derin yapılandırma seçenekleri için Aspose.OCR belgelerine göz atın. Unutmayın, iyi hazırlanmış bir özel sözlük genellikle ortalama OCR’yi bıçak gibi keskin metin çıkarımına dönüştüren gizli sosdur.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

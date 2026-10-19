@@ -9,17 +9,11 @@ url: /tr/net/ocr-configuration/ocr-operation-with-folder/
 weight: 11
 ---
 
--25  
-**Test Edilen Versiyon:** Aspose.OCR 24.11 for .NET  
-**Yazar:** Aspose"
 
-Then closing shortcodes remain.
 
-Now produce final content with same shortcodes at top and bottom.
 
-Make sure not to translate shortcodes.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to perform OCR on image with Aspose OCR in Java
+Slug: how-to-perform-ocr-on-image-with-aspose-ocr-in-java
+Category: ocr-operations
+ProcessedDate: 2026-09-10T10:18:01.435920
+SourceRepo: AI Search API
+Keywords: perform ocr on image, recognize text from jpeg, extract text from image, convert image to text, load image for ocr
+PRNumber: 216

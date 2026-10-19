@@ -1,47 +1,25 @@
 ---
 category: general
-date: 2026-05-25
-description: Képből szöveg kinyerése C# és az Aspose OCR segítségével. Tanulja meg,
-  hogyan konvertálja a jpg-t szöveggé, hogyan töltse be a képet OCR-hez, és hogyan
-  érhet el gyorsan megbízható eredményeket.
+date: 2026-01-10
+description: Képről szöveg kinyerése Aspose OCR segítségével C#-ban. Tanulja meg,
+  hogyan konvertálja a beolvasott dokumentum szövegét kötegelt feldolgozással, és
+  mentse az eredményeket.
 draft: false
 keywords:
 - extract text from image
-- convert jpg to text
-- how to ocr image
-- c# image to text
-- load image for ocr
+- convert scanned document text
+- batch OCR processing
+- Aspose OCR
+- C# OCR tutorial
 language: hu
-og_description: Szöveg kinyerése képből C#-val. Ez az útmutató bemutatja, hogyan konvertáljunk
-  JPG-t szöveggé, hogyan töltsünk be képet OCR-hez, és hogyan kezeljünk többnyelvű
-  tartalmat.
-og_title: Képből szöveg kinyerése C#-ban – Aspose OCR útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: Extract text from image using C# and Aspose OCR. Learn how to convert
-    jpg to text, load image for OCR, and get reliable results fast.
-  headline: Extract Text from Image in C# – Complete Aspose OCR Guide
-  type: TechArticle
-- description: Extract text from image using C# and Aspose OCR. Learn how to convert
-    jpg to text, load image for OCR, and get reliable results fast.
-  name: Extract Text from Image in C# – Complete Aspose OCR Guide
-  steps:
-  - name: 6.1 Can I OCR a PNG or BMP?
-    text: Absolutely. The `Image.FromFile` method supports all formats that System.Drawing
-      recognizes, so just point the path to a `.png` or `.bmp` file and the rest of
-      the code stays identical.
-  - name: 6.2 What if the image is low‑resolution?
-    text: 'OCR accuracy drops dramatically below 300 dpi. A quick fix is to upscale
-      the image with `Graphics` before feeding it to the engine:'
-  - name: 6.3 Do I need a license for Aspose.OCR?
-    text: 'Aspose offers a free trial with a watermark. For production use, purchase
-      a license and add:'
-  type: HowTo
+og_description: Szöveg kinyerése képről az Aspose OCR-rel C#-ban. Ez az útmutató bemutatja,
+  hogyan lehet a beolvasott dokumentum szövegét kötegelt feldolgozással konvertálni.
+og_title: Szöveg kinyerése képből C#-ban – Teljes Aspose OCR útmutató
 tags:
-- C#
 - OCR
+- C#
 - Aspose
+- Image Processing
 title: Szöveg kinyerése képből C#-ban – Teljes Aspose OCR útmutató
 url: /hu/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
@@ -50,263 +28,224 @@ url: /hu/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép szövegének kinyerése C#‑ban – Teljes Aspose OCR útmutató
+# Kép szövegének kinyerése – Teljes Aspose OCR útmutató
 
-Gondolkodtál már azon, hogyan **extract text from image** egyszerű C# kóddal? Nem vagy egyedül. Akár nyugtákat digitalizálsz, táblákat szkennelsz, vagy csak kíváncsi vagy az OCR-re, a kép karaktereinek kinyerése hasznos képesség. Ebben az útmutatóban egy teljes, futtatható példán keresztül mutatjuk be, hogyan **extract text from image** a Aspose.OCR-rel, és kitérünk arra is, hogyan **convert jpg to text**, **load image for OCR**, és megválaszoljuk a klasszikus “**how to ocr image**” kérdést egyszer és mindenkorra.
+Valaha is szükséged volt **kép szövegének kinyerésére**, de nem tudtad, hol kezdj? Nem vagy egyedül; sok fejlesztő szembesül ezzel a problémával, amikor beolvasott PDF-ekkel, többoldalas TIFF-ekkel vagy fényképalapú nyugtákkal dolgozik. A jó hír, hogy az Aspose OCR segítségével **beolvasott dokumentum szövegét konvertálhatod** néhány C# sorral.
 
-A útmutató végére egy önálló konzolalkalmazásod lesz, amely JPEG fájlt olvas be, ukrán (vagy bármely más támogatott nyelvet) felismer, és kiírja az eredményt a konzolra. Nincs homályos hivatkozás, nincs hiányzó rész – csak egy teljes megoldás, amelyet másolhatsz‑beilleszthetsz és futtathatsz.
+Ebben az útmutatóban egy valós példán keresztül vezetünk végig: egy többoldalas TIFF betöltése, batch OCR futtatása minden oldalra, majd egyetlen szövegfájlba írása, amely az összes oldal tartalmát tartalmazza. A végére egy kész, futtatható konzolos alkalmazásod lesz, megérted, miért fontos minden lépés, és tudni fogod, hogyan finomhangold a folyamatot olyan széljegyekhez, mint a jelszóval védett képek vagy egyedi nyelvi csomagok.
 
----
+## Előfeltételek
 
-## Mit fogsz megtanulni
+- .NET 6.0 SDK vagy újabb (a kód .NET Core‑ral és .NET Framework‑kel is működik)  
+- Visual Studio 2022 (vagy bármely kedvelt szerkesztő)  
+- Aspose OCR licencfájl (vagy használhatod az ingyenes értékelő módot)  
+- Többoldalas kép fájl (például `multipage.tif`) egy hivatkozható mappában elhelyezve  
 
-* Hogyan telepítsd az Aspose.OCR NuGet csomagot.
-* A pontos kód, amelyre szükség van a **load image for OCR** C#‑ban.
-* Hogyan állítsd be a nyelvet, és ténylegesen **extract text from image**.
-* Trükkök a **convert jpg to text** hatékonyan.
-* Gyakori buktatók és azok elkerülése.
+Nem szükséges további NuGet csomag a `Aspose.OCR`‑n kívül; ezt az első lépésben telepítjük.
 
-Ha már van .NET fejlesztői környezeted beállítva, készen állsz a merülésre. Ellenkező esetben az alábbi előkövetelmények szekció felkészít.
+## 1. lépés – Aspose OCR telepítése és a projekt beállítása
 
----
-
-## Előkövetelmények
-
-| Requirement | Why it matters |
-|-------------|----------------|
-| .NET 6.0 SDK (or newer) | A konzolalkalmazás futtatásához szükséges runtime-et biztosítja. |
-| Visual Studio 2022 or VS Code | Könnyebbé teszi a szerkesztést és a hibakeresést. |
-| Internet connection (first run) | A NuGet-nek le kell töltenie az Aspose.OCR-t. |
-| A JPEG image you want to process (e.g., `ukrainian_sign.jpg`) | Az OCR motor forrásfájlja. |
-
-> **Pro tipp:** Ha Linuxon vagy macOS-en vagy, ugyanaz a kód működik a .NET CLI‑val (`dotnet new console`), így nyugodtan kihagyhatod a nehéz IDE‑t.
-
----
-
-## 1. lépés – Aspose.OCR telepítése NuGet‑en keresztül
-
-Open your terminal (or Package Manager Console) and run:
+Kezdjük egy új konzolos projekt létrehozásával, és húzzuk be az Aspose OCR könyvtárat.
 
 ```bash
+dotnet new console -n ImageTextExtractor
+cd ImageTextExtractor
 dotnet add package Aspose.OCR
 ```
 
-Ez az egyetlen sor letölti a legújabb Aspose.OCR binárisokat és az összes tranzitív függőséget. Kézi DLL‑kezelés nem szükséges.
+> **Pro tip:** Ha rendelkezel licencfájllal (`Aspose.OCR.lic`), másold a projekt gyökerébe. A könyvtár automatikusan betölti futásidőben.
 
----
+Miért ez a lépés? A csomag telepítése hozzáférést biztosít a `BatchProcessor`, `OcrEngine` és más hasznos osztályokhoz, amelyek elrejtik az alacsony szintű képfeldolgozást. Emellett garantálja, hogy a legújabb OCR algoritmusokat használod, amelyeket az Aspose biztosít.
 
-## 2. lépés – OCR motor létrehozása (a kinyerés szíve)
+## 2. lépés – Többoldalas kép betöltése a BatchProcessor segítségével
 
-Miután a könyvtár rendelkezésre áll, létrehozhatunk egy `OcrEngine` példányt. Ez az objektum felelős a **extracting text from image** adatokért.
+A `BatchProcessor` kifejezetten erre a forgatókönyvre készült: minden oldal iterálása egy többoldalas képen anélkül, hogy manuálisan kellene szétbontani a fájlokat.
 
 ```csharp
 using Aspose.OCR;
-using System.Drawing; // For Image class
-using System;
+using Aspose.OCR.Batch;
+using System.Text;
 
-// Initialize the OCR engine
-var ocrEngine = new OcrEngine();
-```
+// Step 2: Initialize the batch processor with the path to your TIFF
+var batchProcessor = new BatchProcessor(@"YOUR_DIRECTORY\multipage.tif");
 
-> **Miért fontos:** A motor magába foglalja az OCR algoritmusokat, nyelvi modelleket és konfigurációs beállításokat. Egyszeri példányosítása és több kép esetén való újrahasználata memóriahatékony és gyors.
-
----
-
-## 3. lépés – Kép betöltése OCR‑hez (és a nyelv beállítása)
-
-A következő lépés, hogy megmondjuk a motornak, melyik képet olvassa be. Itt jön képbe a **load image for OCR** kifejezés.
-
-```csharp
-// Path to the JPEG you want to process
-string imagePath = @"YOUR_DIRECTORY/ukrainian_sign.jpg";
-
-// Load the image into a System.Drawing.Image object
-Image inputImage = Image.FromFile(imagePath);
-
-// Optional: If you’re dealing with a different language, set it here
-ocrEngine.Language = OcrLanguage.Ukrainian; // Change as needed
-```
-
-> **Szélsőséges eset:** Ha a fájl nem létezik, az `Image.FromFile` `FileNotFoundException`‑t dob. A hívást érdemes try‑catch blokkba tenni a produkciós kódban.
-
----
-
-## 4. lépés – OCR végrehajtása és szöveg kinyerése
-
-Miután a kép betöltődött, a motor most már **extract text from image**. A `Recognize` metódus végzi a nehéz munkát.
-
-```csharp
-// Perform OCR – this returns the recognized string
-string recognizedText = ocrEngine.Recognize(inputImage);
-```
-
-Ha minden rendben megy, a `recognizedText` tartalmazni fogja a OCR motor által olvasott szöveg egyszerű szöveges reprezentációját.
-
----
-
-## 5. lépés – JPG konvertálása szöveggé (összeállítás)
-
-Az eddig felépített kód már **convert jpg to text**, de csomagoljuk be egy rendezett metódusba, amelyet többször is meghívhatsz.
-
-```csharp
-static string ConvertJpgToText(string filePath, OcrLanguage language = OcrLanguage.English)
+// Verify that pages were loaded
+if (batchProcessor.Pages.Count == 0)
 {
-    var engine = new OcrEngine { Language = language };
-    using var img = Image.FromFile(filePath);
-    return engine.Recognize(img);
+    Console.WriteLine("No pages found – double‑check the file path.");
+    return;
 }
 ```
 
-Most egyszerűen ezt teheted:
+A `BatchProcessor` az összes oldalt a memóriába olvassa, a `batchProcessor.Pages`‑en keresztül teszi elérhetővé. Minden oldalobjektum ismeri a számát (`ocrPage.Number`), amelyet később a tiszta fejléchez használunk.
+
+## 3. lépés – StringBuilder előkészítése az eredmények összegyűjtéséhez
+
+Egyetlen szövegfájlt szeretnénk, amely minden oldal OCR kimenetét tartalmazza, fejlécelválasztókkal. A `StringBuilder` a leghatékonyabb módja a karakterláncok összefűzésének egy ciklusban.
 
 ```csharp
-string result = ConvertJpgToText(@"YOUR_DIRECTORY/ukrainian_sign.jpg", OcrLanguage.Ukrainian);
-Console.WriteLine(result);
+// Step 3: Create a StringBuilder to collect OCR results
+var extractedText = new StringBuilder();
 ```
 
-**Várható kimenet** (rövidítve a tömörség kedvéért):
+Miért `StringBuilder`? A karakterláncok `+` operátorral történő összefűzése egy ciklusban minden iterációban új stringet allokál, ami teljesítménycsökkenést okoz – különösen nagy dokumentumok esetén.
 
-```
-Вітаємо! Це приклад тексту з українською мовою.
-```
+## 4. lépés – Minden oldal bejárása, OCR futtatása és az eredmények hozzáfűzése
 
-Ha a kép angol szöveget tartalmaz, módosítsd `OcrLanguage.English`‑re, és a megfelelő kimenetet fogod látni.
-
----
-
-## 6. lépés – Gyakori “How to OCR Image” kérdések kezelése
-
-### 6.1 OCR‑zhetek PNG‑t vagy BMP‑t?
-
-Természetesen. Az `Image.FromFile` metódus támogatja a System.Drawing által felismert összes formátumot, így csak a `.png` vagy `.bmp` fájlra mutasd az elérési utat, a kód többi része változatlan marad.
-
-### 6.2 Mi van, ha a kép alacsony felbontású?
-
-Az OCR pontossága drámaian csökken 300 dpi alatt. Egy gyors megoldás, hogy a képet `Graphics`‑szel felskálázzuk, mielőtt a motorba adnánk:
+Most jön a tutorial középpontja: minden oldal bejárása, szövegfelismerés, és az oldaljelzővel való tárolása.
 
 ```csharp
-using var original = Image.FromFile(imagePath);
-var upscale = new Bitmap(original, new Size(original.Width * 2, original.Height * 2));
-string text = ocrEngine.Recognize(upscale);
+// Step 4: Process each page individually
+foreach (var ocrPage in batchProcessor.Pages)
+{
+    // Create a fresh OcrEngine for every page – this isolates settings
+    var ocrEngine = new OcrEngine
+    {
+        Image = ocrPage
+    };
+
+    // Perform recognition
+    ocrEngine.Recognize();
+
+    // Append a clear header and the recognized text
+    extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+    extractedText.AppendLine(ocrEngine.Text);
+}
 ```
 
-### 6.3 Szükségem van licencre az Aspose.OCR‑hez?
+**Miért új `OcrEngine` minden oldalhoz?** Néhány fejlesztő egyetlen motor újrahasználását választja, és módosítja annak `Image` tulajdonságát, de ez megtarthatja a nyelvi beállításokat vagy korábbi eredményeket, ami finom hibákhoz vezethet. Egy friss motor példányosítása tiszta állapotot garantál.
 
-Az Aspose ingyenes próbaidőszakot kínál vízjellel. Produkciós használathoz vásárolj licencet és add hozzá:
+### Gyakori széljegyek kezelése
+
+- **Üres oldalak:** Ha egy oldal nem tartalmaz felismerhető szöveget, az `ocrEngine.Text` egy üres string lesz. Érdemes helyettesítőt beilleszteni, például “(No text detected)”.
+- **Nyelvválasztás:** Alapértelmezés szerint az Aspose OCR angolt használ. Német vagy francia feldolgozásához állítsd be `ocrEngine.Language = Language.German;` a `Recognize()` hívása előtt.
+- **Teljesítmény tipp:** Nagy TIFF-ek esetén engedélyezheted az `ocrEngine.UseParallelProcessing = true;` beállítást a többmagos feldolgozáshoz.
+
+## 5. lépés – Kombinált kimenet írása szövegfájlba
+
+Végül a felhalmozott karakterláncot mentjük le a lemezre.
 
 ```csharp
-License lic = new License();
-lic.SetLicense("Aspose.Total.lic");
+// Step 5: Save the result to a .txt file
+string outputPath = @"YOUR_DIRECTORY\multipage_result.txt";
+File.WriteAllText(outputPath, extractedText.ToString());
+
+Console.WriteLine($"OCR complete! Results saved to {outputPath}");
 ```
 
----
+Az eredményül kapott `multipage_result.txt` nagyjából így fog kinézni:
+
+```
+--- Page 1 ---
+This is the first page of the scanned document.
+It contains a title and some introductory text.
+
+--- Page 2 ---
+Continuation of the report.
+Data tables and figures follow.
+```
+
+Most már **kép szövegét kinyerted**, és hatékonyan **beolvasott dokumentum szövegét konvertáltad** kereshető, szerkeszthető formátumba.
+
+## Bónusz – Vizuális áttekintés (Kép alternatív szöveg)
+
+Alább egy egyszerű folyamatábra látható, amely szemlélteti a lépéseket.  
+*Alt text:* “Diagram showing how to extract text from image using Aspose OCR batch processing in C#”.
+
+![OCR folyamatábra](placeholder-image-url.png)
+
+*(Ha ezt az útmutatót statikus oldalon publikálod, cseréld le a helyőrzőt egy valódi SVG‑re vagy PNG‑re.)*
+
+## Gyakran Ismételt Kérdések
+
+**Működik ez PDF fájlokkal?**  
+Igen, az Aspose OCR képes PDF oldalakat képként olvasni. Először a PDF‑et képekké kell konvertálni, vagy használhatod az `Aspose.PDF`‑ből származó `PdfDocument`‑et, és minden oldal rasterizált képét átadhatod az `OcrEngine`‑nek.
+
+**Mi van, ha a TIFF jelszóval védett?**  
+A `BatchProcessor` közvetlenül nem kezeli a titkosítást. A fájlt előbb egy, például `Aspose.Imaging`‑et használó könyvtárral kell feloldani, mielőtt az OCR csővezetékhez adnád.
+
+**Kimenetet JSON‑ként is kaphatok a sima szöveg helyett?**  
+Természetesen. Cseréld le a `StringBuilder` logikát egy JSON sorosítóra (pl. `System.Text.Json`), és tárold minden oldal szövegét egy `pageNumber` kulcs alatt.
 
 ## Teljes működő példa
 
-Az alábbiakban egy teljes, azonnal futtatható konzolalkalmazás látható, amely bemutatja, hogyan **how to OCR image**, **load image for OCR**, és **convert jpg to text** egy rendezett csomagban.
+Itt a teljes program, amelyet egyszerűen beilleszthetsz a `Program.cs`‑be. Tartalmazza az összes `using` direktívát, hibakezelést és megjegyzéseket.
 
 ```csharp
-// Program.cs
 using Aspose.OCR;
+using Aspose.OCR.Batch;
 using System;
-using System.Drawing;
+using System.IO;
+using System.Text;
 
-namespace ImageToTextDemo
+namespace ImageTextExtractor
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // -------------------------------------------------
-            // 1️⃣  Verify arguments
-            // -------------------------------------------------
-            if (args.Length == 0)
+            // Adjust these paths to match your environment
+            string inputImagePath = @"YOUR_DIRECTORY\multipage.tif";
+            string outputTextPath = @"YOUR_DIRECTORY\multipage_result.txt";
+
+            // 1️⃣ Load the multi‑page image
+            var batchProcessor = new BatchProcessor(inputImagePath);
+            if (batchProcessor.Pages.Count == 0)
             {
-                Console.WriteLine("Usage: dotnet run <path-to-jpg>");
+                Console.WriteLine("No pages detected – verify the file path.");
                 return;
             }
 
-            string filePath = args[0];
+            // 2️⃣ Prepare a StringBuilder for the final output
+            var extractedText = new StringBuilder();
 
-            // -------------------------------------------------
-            // 2️⃣  Perform OCR (extract text from image)
-            // -------------------------------------------------
-            try
+            // 3️⃣ Process each page
+            foreach (var ocrPage in batchProcessor.Pages)
             {
-                string text = ConvertJpgToText(filePath, OcrLanguage.Ukrainian);
-                Console.WriteLine("=== Recognized Text ===");
-                Console.WriteLine(text);
+                var ocrEngine = new OcrEngine
+                {
+                    Image = ocrPage,
+                    // Uncomment to change language:
+                    // Language = Language.German,
+                    // UseParallelProcessing = true
+                };
+
+                // Run OCR
+                ocrEngine.Recognize();
+
+                // Append header and text
+                extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+                // Guard against empty results
+                string pageText = string.IsNullOrWhiteSpace(ocrEngine.Text)
+                    ? "(No text detected on this page)"
+                    : ocrEngine.Text;
+                extractedText.AppendLine(pageText);
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
-        }
 
-        /// <summary>
-        /// Converts a JPG (or any supported image) to plain text.
-        /// </summary>
-        /// <param name="filePath">Full path to the image file.</param>
-        /// <param name="language">OCR language – defaults to English.</param>
-        /// <returns>Recognized text.</returns>
-        static string ConvertJpgToText(string filePath, OcrLanguage language = OcrLanguage.English)
-        {
-            // Create and configure the OCR engine
-            var engine = new OcrEngine
-            {
-                Language = language
-            };
+            // 4️⃣ Write to file
+            File.WriteAllText(outputTextPath, extractedText.ToString());
 
-            // Load the image – this is the "load image for OCR" step
-            using var img = Image.FromFile(filePath);
-
-            // Run recognition and return the result
-            return engine.Recognize(img);
+            Console.WriteLine($"✅ Extraction complete. File saved at: {outputTextPath}");
         }
     }
 }
 ```
 
-**Hogyan futtasd**
+Futtasd a programot a következővel:
 
 ```bash
-dotnet run -- "C:\Images\ukrainian_sign.jpg"
+dotnet run
 ```
 
-A konzolon meg kell jelennie a kinyert szövegnek, ami megerősíti, hogy sikeresen **extract text from image** C#‑ban.
-
----
-
-## Gyakori buktatók és pro tippek
-
-| Issue | Why it happens | Fix |
-|-------|----------------|-----|
-| Blank output | A kép túl sötét vagy alacsony kontrasztú. | Előfeldolgozás `Bitmap`‑tel a fényerő növeléséhez. |
-| Wrong language | A `Language` tulajdonság alapértelmezett angol maradt. | Explicit módon állítsd be `ocrEngine.Language = OcrLanguage.Ukrainian;` (vagy a kívánt nyelvet). |
-| Out‑of‑memory error | Nagyon nagy képek betöltése felszabadítás nélkül. | Az `Image.FromFile`-t `using` blokkba helyezd (ahogy a példában látható). |
-| License watermark | Próba verzióval futtatás licenc nélkül. | A licencet már a `Main` elején alkalmazd. |
-
----
+A konzolon megjelenő üzenet megerősíti a sikeres futást, és a kimeneti fájl tartalmazni fogja az összefűzött OCR eredményeket.
 
 ## Összegzés
 
-Most már mindent lefedtünk, amire szükséged van a **extract text from image** C#‑ban – az Aspose.OCR telepítésétől, a **loading image for OCR**‑ig, a **convert jpg to text**‑ig és a többnyelvű helyzetek kezeléséig. A teljes mintaprogram összekapcsolja ezeket a részeket, megbízható alapot biztosítva bármely OCR‑hoz kapcsolódó projekthez.
+Most bemutattuk, hogyan **kép szövegét nyerheted ki** az Aspose OCR segítségével, átalakítva bármely többoldalas beolvasott fájlt egyszerű, kereshető szöveggé. A `BatchProcessor` és a tiszta per‑page `OcrEngine` használatával megbízhatóan **konvertálhatod a beolvasott dokumentum szövegét**, miközben a kód egyszerű és karbantartható marad.
 
-Ezután érdemes lehet:
+Nyugodtan kísérletezz: próbálj ki különböző nyelveket, válts JSON kimenetre, vagy integráld ezt a logikát egy web‑API‑ba, amely valós időben dolgozza fel a feltöltéseket. A fő minta változatlan – betöltés, felismerés, összegyűjtés és mentés.
 
-* **How to OCR image** adatfolyamok használata fájlok helyett (használd a `MemoryStream`‑et).
-* **c# image to text** utófeldolgozás hozzáadása, például helyesírás-ellenőrzés.
-* Az OCR lépés integrálása egy nagyobb folyamatba (pl. az eredmények adatbázisba mentése).
-
-Nyugodtan kísérletezz különböző nyelvekkel, képformátumokkal és előfeldolgozási trükkökkel. Az OCR annyira művészet, mint tudomány, és minél többet játszol vele, annál jobb eredményeket kapsz.
-
-Boldog kódolást, és legyenek a képeid mindig olvashatóak!
-
-## Kapcsolódó oktatóanyagok
-
-- [Kép szövegének kinyerése C#‑ban nyelvválasztással az Aspose.OCR használatával](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Kép szövegének kinyerése – OCR optimalizálás Aspose.OCR-rel .NET‑hez](/ocr/english/net/ocr-optimization/)
-- [Hogyan nyerjünk ki szöveget képből téglalapok előkészítésével az OCR‑ban](/ocr/english/net/ocr-optimization/prepare-rectangles/)
+További kérdéseid vannak az OCR‑rel, az Aspose licenceléssel vagy a hatalmas dokumentumkötegek kezelésével kapcsolatban? Hagyj egy megjegyzést alább, vagy nézd meg az Aspose hivatalos dokumentációját a mélyebb részletekért. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

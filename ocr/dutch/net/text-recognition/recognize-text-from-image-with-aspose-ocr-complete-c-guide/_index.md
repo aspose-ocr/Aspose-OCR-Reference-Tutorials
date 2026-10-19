@@ -1,49 +1,26 @@
 ---
 category: general
-date: 2026-05-25
-description: herken tekst van een afbeelding met Aspose OCR in C#. Leer hoe je een
-  afbeelding laadt voor OCR, de OCR-taal instelt, een OCR-engine maakt en tekst uit
-  een TIFF extraheert.
+date: 2026-02-09
+description: Leer hoe je tekst uit een afbeelding kunt herkennen en platte tekst kunt
+  extraheren met een aangepast woordenboek in C#. Inclusief stap‑voor‑stap code en
+  tips.
 draft: false
 keywords:
 - recognize text from image
-- extract text from tiff
-- load image for OCR
-- set OCR language
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: nl
-og_description: herken tekst van afbeelding met Aspose OCR in C#. Deze tutorial laat
-  zien hoe je een OCR‑engine maakt, een afbeelding laadt voor OCR, de OCR‑taal instelt
-  en tekst uit een TIFF extraheert.
-og_title: herken tekst uit afbeelding met Aspose OCR – Complete C#-gids
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: recognize text from image using Aspose OCR in C#. Learn how to load
-    image for OCR, set OCR language, create OCR engine and extract text from TIFF.
-  headline: recognize text from image with Aspose OCR – Complete C# Guide
-  type: TechArticle
-- questions:
-  - answer: Remove the `GpuDevice` line; the engine will automatically switch to CPU
-      mode. Performance will be slower but the results remain accurate.
-    question: What if my GPU isn’t detected?
-  - answer: Absolutely—`Image.FromFile` works with any format supported by System.Drawing,
-      so you can **load image for OCR** regardless of extension.
-    question: Can I process PNG or JPEG files?
-  - answer: Increase `ocrEngine.PreprocessOptions.Dpi` before calling `Recognize`.
-      Higher DPI gives the engine more pixels to work with, improving accuracy.
-    question: How do I handle low‑resolution scans?
-  - answer: The `GpuMemoryLimit` property caps GPU usage. If you hit the limit, the
-      engine will fallback to CPU for the remaining pages.
-    question: Is there a limit to the size of the TIFF?
-  type: FAQPage
+og_description: herken tekst uit een afbeelding in C# met Aspose OCR. Volg deze gids
+  om platte tekst te extraheren en voeg een aangepast woordenboek toe voor betere
+  nauwkeurigheid.
+og_title: herken tekst van afbeelding – volledige C#‑tutorial
 tags:
 - OCR
 - C#
 - Aspose
-- GPU
-- Text Extraction
-title: Tekst herkennen van afbeelding met Aspose OCR – Complete C#-gids
+title: herken tekst van afbeelding met Aspose OCR – Complete C#-gids
 url: /nl/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -51,157 +28,177 @@ url: /nl/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# tekst herkennen uit afbeelding met Aspose OCR – Complete C# Gids
+# tekst herkennen van afbeelding – Full C# Tutorial
 
-Heb je ooit **tekst herkennen uit afbeelding** moeten doen, maar wist je niet welke bibliotheek zowel snelheid als nauwkeurigheid biedt? Je bent niet de enige. In veel factuur‑verwerkings- of archiveringsprojecten is het grootste pijnpunt het verkrijgen van schone, doorzoekbare tekst uit TIFF‑bestanden zonder een aangepaste parser te schrijven.
+Heb je ooit **tekst herkennen van afbeelding** maar bleven de resultaten domeinspecifieke woorden missen? Je bent niet de enige. In veel projecten—factuurscanning, badge‑lezen, of gewoon bijschriften uit screenshots halen— is de standaard OCR‑engine gewoon niet slim genoeg met jouw vocabulaire.  
 
-Het punt is: Aspose OCR voor .NET maakt die hele pijplijn een eitje. In deze gids lopen we alles door wat je nodig hebt—het installeren van het pakket, **een OCR‑engine maken**, een TIFF laden, de OCR‑taal instellen, en uiteindelijk **tekst uit TIFF extraheren**. Aan het einde heb je een kant‑klaar console‑applicatie die **tekst herkennen uit afbeelding**‑bestanden in een handomdraai kan.
+Het goede nieuws? Door een **custom dictionary** te laden kun je de nauwkeurigheid drastisch verbeteren en natuurlijk **extract plain text** in één schone stap. In deze tutorial lopen we het volledige proces door, van het lezen van een woordenboekbestand tot het afdrukken van het OCR‑resultaat, met behulp van Aspose.OCR in C#.  
 
-## Vereisten
+We beantwoorden ook de blijvende vraag “**how to add custom dictionary**”, laten je **how to extract text** efficiënt zien, en wijzen op veelvoorkomende valkuilen zodat je geen uur meer verspilt met het aanpassen van instellingen.
 
-- .NET 6.0 of later (de code werkt ook met .NET Core en .NET Framework)
-- Visual Studio 2022 (of een IDE naar keuze)
-- Aspose.OCR NuGet‑pakket (GPU‑ondersteuning vereist de `Aspose.OCR.Gpu` add‑on)
-- Een GPU met CUDA‑ondersteuning als je extra snelheid wilt (optioneel maar aanbevolen)
+## Wat je nodig hebt
 
-> **Pro tip:** Als je geen GPU hebt, laat dan gewoon de `GpuDevice`‑regel weg en de engine schakelt automatisch terug naar de CPU.
+- **.NET 6+** (een recente runtime werkt)
+- **Aspose.OCR for .NET** NuGet‑pakket  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- Een **tekstbestand** (`custom_dictionary.txt`) met één woord per regel – dit zijn de termen die je verwacht te zien.
+- Een **afbeelding** (`input_image.png`) die de tekst bevat die je wilt herkennen.
 
-## Stap 1: Installeer Aspose OCR en Maak OCR‑Engine
+Geen extra bibliotheken, geen externe services. Alleen pure C# en Aspose.
 
-Eerst, voeg de benodigde pakketten toe via NuGet:
+## Stap 1: Initialiseer de OCR‑engine – Tekst herkennen van afbeelding
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu   # optional GPU support
-```
-
-Nu kunnen we **een OCR‑engine maken**. Dit object is het hart van het proces; het bevat configuratie zoals het apparaat waarop het draait en geheugenlimieten.
+Het eerste wat je doet is een `OcrEngine` opstarten. Dit object bevat alle configuratie‑opties, inclusief het aangepaste woordenboek dat we later zullen injecteren.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.Gpu;   // GPU support
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Instantiate the OCR engine (GPU‑enabled)
-        var ocrEngine = new OcrEngine
-        {
-            // 0 = first GPU in the system; change if you have multiple cards
-            GpuDevice = new GpuDevice(0),
-            // Optional: cap GPU memory usage to 1024 MB
-            GpuMemoryLimit = 1024
-        };
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Waarom dit belangrijk is:** Door de engine aan een GPU te binden, verkort je de tijd die nodig is om **tekst te herkennen uit afbeelding** drastisch, vooral bij grote batches van hoge‑resolutie TIFF‑bestanden.
+> **Waarom dit belangrijk is:**  
+> Zonder een engine‑instance heb je geen context voor instellingen zoals taal, DPI, of aangepaste woordenlijsten. Beschouw `OcrEngine` als het brein dat later **recognize text from image** zal uitvoeren.
 
-## Stap 2: Afbeelding Laden voor OCR
+## Stap 2: Lees het woordenboekbestand – Hoe een aangepast woordenboek toe te voegen
 
-Vervolgens moeten we **een afbeelding laden voor OCR**. Aspose.OCR werkt met `System.Drawing.Image`, dus elk formaat dat door GDI+ wordt ondersteund (inclusief multi‑page TIFF) is geschikt.
+Vervolgens moeten we de inhoud van het **dictionary file** inlezen in een `HashSet<string>`. Een hash‑set biedt O(1) opzoeking, wat perfect is voor de interne controles van de engine.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace the path with the location of your TIFF file
-        var imagePath = @"C:\Invoices\invoice_batch.tif";
-        Image image = Image.FromFile(imagePath);
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Als je met een multi‑page TIFF werkt, kun je door de pagina's loopen met `image.SelectActiveFrame`, maar voor de meeste scenario's is één enkele aanroep voldoende.
+> **Pro tip:**  
+> Houd het woordenboekbestand UTF‑8 gecodeerd en vermijd lege regels; deze worden behandeld als lege strings en kunnen de engine verwarren.
 
-## Stap 3: OCR‑Taal Instellen
+## Stap 3: Laad de afbeelding – Hoe tekst extraheren
 
-De engine weet niet vanzelf welke taal je scant. **Stel de OCR‑taal in** voordat je de herkenner uitvoert; anders krijg je veel onleesbare output.
+Nu voeren we de afbeelding die we willen verwerken in. Aspose gebruikt `ImageStream` om de bestandsafhandeling te abstraheren.
 
 ```csharp
-        // Step 3: Tell the engine which language to expect
-        ocrEngine.Language = OcrLanguage.English; // change to .German, .French, etc. as needed
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Wist je dat?** Het wisselen van talen tijdens runtime is goedkoop—je kunt zelfs een document met meerdere talen verwerken door deze eigenschap tussen pagina's te wijzigen.
+> **Randgeval:**  
+> Als je afbeelding groter is dan 2000 × 2000 pixels, overweeg dan eerst te verkleinen. Te grote afbeeldingen kunnen de herkenning vertragen zonder de nauwkeurigheid te verbeteren.
 
-## Stap 4: Voer de Herkenning Uit – Tekst Herkennen uit Afbeelding
+## Stap 4: Voer het OCR‑proces uit – Platte tekst extraheren
 
-Nu het leuke gedeelte: daadwerkelijk **tekst herkennen uit afbeelding**. De `Recognize`‑methode retourneert een eenvoudige string met alle gedetecteerde tekens.
-
-```csharp
-        // Step 4: Run OCR and capture the output
-        string recognizedText = ocrEngine.Recognize(image);
-```
-
-Als je vertrouwensscores of begrenzingskaders nodig hebt, kun je de overload gebruiken die een `OcrResult`‑object retourneert, maar voor de meeste extractietaken is de eenvoudige string voldoende.
-
-## Stap 5: Tekst Extraheren uit TIFF (en multi‑page bestanden afhandelen)
-
-Wanneer de bron een TIFF met meerdere pagina's is, wil je stappen 2‑4 voor elk frame herhalen. Hier is een snelle lus die **tekst uit TIFF** pagina voor pagina **extraheert**:
+Met alles voorbereid, roep `Recognize` aan. De methode retourneert een `OcrResult`‑object dat zowel ruwe als opgeschoonde tekst bevat.
 
 ```csharp
-        // Optional: process multi‑page TIFFs
-        var totalFrames = image.GetFrameCount(FrameDimension.Page);
-        for (int i = 0; i < totalFrames; i++)
-        {
-            image.SelectActiveFrame(FrameDimension.Page, i);
-            string pageText = ocrEngine.Recognize(image);
-            Console.WriteLine($"--- Page {i + 1} ---");
-            Console.WriteLine(pageText);
-        }
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-De bovenstaande code print de geëxtraheerde tekst voor elke pagina, waardoor het eenvoudig is om de resultaten naar een database of een zoekindex te sturen.
-
-## Stap 6: Toon of Sla de Geëxtraheerde Tekst Op
-
-Ten slotte, laten we **de geëxtraheerde tekst tonen** en optioneel naar een bestand schrijven voor latere verwerking.
-
-```csharp
-        // Step 6: Output the result to console
-        Console.WriteLine("=== Full OCR Result ===");
-        Console.WriteLine(recognizedText);
-
-        // Optional: Save to a .txt file
-        System.IO.File.WriteAllText(@"C:\Invoices\extracted_text.txt", recognizedText);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-Het uitvoeren van het programma moet de herkende tekens weergeven en `extracted_text.txt` naast je bron‑TIFF aanmaken.
+> **Wat je zult zien:**  
+> De console print een schone versie van de tekst met behoud van regeleinden. Als je aangepaste woordenboek “Aspose” en “OCR” bevat, verschijnen die woorden precies zoals je ze gedefinieerd hebt, zelfs als de afbeelding iets ruis bevat.
+
+## Volledig werkend voorbeeld
+
+Hieronder staat het **complete, copy‑and‑paste ready** program. Vervang `YOUR_DIRECTORY` door het daadwerkelijke mappad waar je het woordenboek en de afbeelding hebt opgeslagen.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**Verwachte output** (ervan uitgaande dat de afbeelding “Welcome to Aspose OCR Demo” bevat)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+Als “Aspose” in je custom dictionary stond, zal de spelling perfect zijn, zelfs als de afbeelding een lichte vervaging had.
+
+## Veelgestelde vragen
+
+### Hoe lees ik een **dictionary file** met verschillende encoderingen?
+
+Gebruik `File.ReadAllLines(path, Encoding.UTF8)` (of `Encoding.Unicode`) om overeen te komen met de codering van het bestand. Dit voorkomt dat verborgen tekens in de `HashSet` sluipen.
+
+### Wat als het OCR‑resultaat nog steeds een woord uit mijn woordenboek mist?
+
+Zorg ervoor dat de hoofdlettergevoeligheid van het woord overeenkomt met de woordenboekvermelding, of stel `ocrEngine.Configuration.IgnoreCase = true` in. Controleer ook dat de beeldresolutie minimaal 300 dpi is voor de beste resultaten.
+
+### Kan ik **plain text** extraheren uit een PDF in plaats van een afbeelding?
+
+Ja—Aspose.PDF kan elke pagina renderen naar een afbeelding, en die afbeeldingen vervolgens in dezelfde OCR‑pipeline voeren. De workflow is identiek; je voegt alleen een PDF‑naar‑afbeelding conversiestap toe.
+
+### Is er een manier om **how to add custom dictionary** tijdens runtime voor meerdere talen?
+
+Zeker. Maak een aparte `HashSet<string>` per taal en verwissel `ocrEngine.Configuration.CustomDictionary` vóór elke `Recognize`‑aanroep.
+
+## Tips & Tricks voor betere nauwkeurigheid
+
+- **Pre‑process de afbeelding**: Converteer naar grijstinten, verhoog het contrast, of pas een lichte Gaussian‑blur toe om vlekjes te verwijderen.
+- **Batchverwerking**: Als je tientallen afbeeldingen hebt, hergebruik dezelfde `OcrEngine`‑instance; elke keer opnieuw initialiseren voegt onnodige overhead toe.
+- **Log de ruwe OCR‑data**: `ocrResult.TextLines` geeft je regel‑voor‑regel vertrouwensscores, nuttig voor post‑processing of het markeren van resultaten met lage betrouwbaarheid.
+
+## Volgende stappen
+
+Nu je weet **how to extract text** en **how to add custom dictionary**, overweeg deze vervolgonderwerpen:
+
+1. **Integreren met ASP.NET Core** – expose een API‑endpoint die een afbeelding accepteert en OCR‑resultaten in JSON‑formaat teruggeeft.  
+2. **Combineren met Entity Framework** – sla de geëxtraheerde platte tekst direct op in een database voor doorzoekbare records.  
+3. **Verken taaldetectie** – wissel woordenboeken automatisch op basis van gedetecteerde taalcodes.
+
+Elk van deze bouwt voort op de basis die in deze gids is gelegd, waardoor je een eenvoudige **recognize text from image**‑snippet kunt omzetten in een productie‑klare service.
 
 ---
 
-## Veelgestelde Vragen & Randgevallen
-
-- **Wat als mijn GPU niet wordt gedetecteerd?**  
-  Verwijder de `GpuDevice`‑regel; de engine schakelt automatisch over naar CPU‑modus. De prestaties zullen trager zijn, maar de resultaten blijven nauwkeurig.
-
-- **Kan ik PNG‑ of JPEG‑bestanden verwerken?**  
-  Zeker—`Image.FromFile` werkt met elk formaat dat door System.Drawing wordt ondersteund, dus je kunt **een afbeelding laden voor OCR** ongeacht de extensie.
-
-- **Hoe ga ik om met scans met lage resolutie?**  
-  Verhoog `ocrEngine.PreprocessOptions.Dpi` vóór het aanroepen van `Recognize`. Een hogere DPI geeft de engine meer pixels om mee te werken, waardoor de nauwkeurigheid verbetert.
-
-- **Is er een limiet aan de grootte van de TIFF?**  
-  De eigenschap `GpuMemoryLimit` beperkt het GPU‑gebruik. Als je de limiet bereikt, schakelt de engine over naar CPU voor de resterende pagina's.
-
-## Conclusie
-
-Je hebt nu een volledige, productie‑klare code‑fragment dat **tekst herkent uit afbeelding**‑bestanden met Aspose OCR in C#. De tutorial behandelde hoe je **een OCR‑engine maakt**, **een afbeelding laadt voor OCR**, **de OCR‑taal instelt**, en **tekst uit TIFF extraheert**—alles terwijl je GPU‑versnelling benut voor snelheid.
-
-Van hieruit kun je:
-
-- Experimenteer met verschillende talen (`OcrLanguage.Spanish`, `OcrLanguage.ChineseSimplified`, enz.).
-- Integreer de output in een doorzoekbare ElasticSearch‑index.
-- Voeg post‑processing toe (spellingcontrole, regex‑opschoning) om de gegevenskwaliteit te verbeteren.
-
-Probeer het op je eigen factuurbatch, pas de geheugenlimieten aan, en zie de OCR‑prestaties stijgen. Veel programmeerplezier!
-
-## Gerelateerde Tutorials
-
-- [Afbeeldingstekst extraheren C# met taalkeuze met Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Hoe Tekst uit Afbeelding te Extraheren door Rechthoeken Voor te Bereiden in OCR](/ocr/english/net/ocr-optimization/prepare-rectangles/)
-- [Tekst uit Afbeelding Extraheren – Regel Herkennen met Aspose.OCR](/ocr/english/net/image-and-drawing-recognition/recognize-line/)
+*Happy coding! Als je een probleem tegenkomt, laat dan een reactie achter of raadpleeg de Aspose.OCR‑documentatie voor diepere configuratie‑opties. Onthoud, een goed samengesteld custom dictionary is vaak de geheime saus die middelmatige OCR verandert in haarscherpe tekstextractie.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

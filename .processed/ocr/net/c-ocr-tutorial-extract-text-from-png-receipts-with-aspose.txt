@@ -1,0 +1,7 @@
+Title: c# OCR tutorial: Extract Text from PNG Receipts with Aspose
+Slug: c-ocr-tutorial-extract-text-from-png-receipts-with-aspose
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:34.315055
+SourceRepo: AI Search API
+Keywords: c# ocr tutorial, load image file c#, recognize png text, read receipt ocr, perform ocr image
+PRNumber: 131

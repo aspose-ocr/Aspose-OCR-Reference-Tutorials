@@ -1,48 +1,23 @@
 ---
 category: general
-date: 2026-05-25
-description: التعرف على النص من الصورة باستخدام Aspose OCR في C#. تعلّم كيفية تحميل
-  الصورة للتعرف الضوئي على الأحرف، ضبط لغة OCR، إنشاء محرك OCR واستخراج النص من ملف
-  TIFF.
+date: 2026-02-09
+description: تعلم كيفية التعرف على النص من الصورة واستخراج النص العادي باستخدام قاموس
+  مخصص في C#. يتضمن كودًا خطوة بخطوة ونصائح.
 draft: false
 keywords:
 - recognize text from image
-- extract text from tiff
-- load image for OCR
-- set OCR language
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: ar
-og_description: التعرف على النص من الصورة باستخدام Aspose OCR في C#. يوضح هذا الدرس
-  كيفية إنشاء محرك OCR، تحميل الصورة للـ OCR، تعيين لغة الـ OCR، واستخراج النص من
-  ملف TIFF.
-og_title: التعرف على النص من الصورة باستخدام Aspose OCR – دليل C# الكامل
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: recognize text from image using Aspose OCR in C#. Learn how to load
-    image for OCR, set OCR language, create OCR engine and extract text from TIFF.
-  headline: recognize text from image with Aspose OCR – Complete C# Guide
-  type: TechArticle
-- questions:
-  - answer: Remove the `GpuDevice` line; the engine will automatically switch to CPU
-      mode. Performance will be slower but the results remain accurate.
-    question: What if my GPU isn’t detected?
-  - answer: Absolutely—`Image.FromFile` works with any format supported by System.Drawing,
-      so you can **load image for OCR** regardless of extension.
-    question: Can I process PNG or JPEG files?
-  - answer: Increase `ocrEngine.PreprocessOptions.Dpi` before calling `Recognize`.
-      Higher DPI gives the engine more pixels to work with, improving accuracy.
-    question: How do I handle low‑resolution scans?
-  - answer: The `GpuMemoryLimit` property caps GPU usage. If you hit the limit, the
-      engine will fallback to CPU for the remaining pages.
-    question: Is there a limit to the size of the TIFF?
-  type: FAQPage
+og_description: التعرف على النص من الصورة في C# باستخدام Aspose OCR. اتبع هذا الدليل
+  لاستخراج النص العادي وإضافة قاموس مخصص لتحسين الدقة.
+og_title: التعرف على النص من الصورة – دليل C# الكامل
 tags:
 - OCR
 - C#
 - Aspose
-- GPU
-- Text Extraction
 title: التعرف على النص من الصورة باستخدام Aspose OCR – دليل C# الكامل
 url: /ar/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
@@ -51,159 +26,173 @@ url: /ar/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التعرف على النص من الصورة باستخدام Aspose OCR – دليل C# كامل
+# التعرف على النص من الصورة – دليل C# الكامل
 
-هل احتجت يوماً إلى **التعرف على النص من الصورة** لكنك لم تكن متأكدًا أي مكتبة ستوفر لك السرعة والدقة معًا؟ لست وحدك. في العديد من مشاريع معالجة الفواتير أو الأرشفة، تكون النقطة الأكثر إزعاجًا هي استخراج نص نظيف وقابل للبحث من ملفات TIFF دون كتابة محلل مخصص.
+هل احتجت يوماً إلى **التعرف على النص من الصورة** لكن النتائج كانت تفتقد الكلمات الخاصة بمجالك؟ لست وحدك. في العديد من المشاريع—مسح الفواتير، قراءة البطاقات، أو مجرد استخراج العناوين من لقطات الشاشة—محرك OCR الافتراضي لا يكون ذكياً بما يكفي حول مفرداتك.  
 
-الأمر بسيط: Aspose OCR لـ .NET يجعل هذه السلسلة بأكملها سهلة للغاية. في هذا الدليل سنستعرض كل ما تحتاجه — تثبيت الحزمة، **إنشاء محرك OCR**، تحميل ملف TIFF، ضبط لغة OCR، وأخيرًا **استخراج النص من TIFF**. في النهاية ستحصل على تطبيق كونسول جاهز للتنفيذ يمكنه **التعرف على النص من ملفات الصورة** بسرعة البرق.
+الخبر السار؟ بتحميل **custom dictionary** يمكنك تحسين الدقة بشكل كبير، وبالطبع **extract plain text** في خطوة واحدة نظيفة. في هذا الدرس سنستعرض العملية بالكامل، من قراءة ملف القاموس إلى طباعة نتيجة OCR، باستخدام Aspose.OCR في C#.  
 
-## المتطلبات المسبقة
+سنجيب أيضاً على سؤال “**how to add custom dictionary**” المتكرر، ونظهر لك **how to extract text** بكفاءة، ونشير إلى الأخطاء الشائعة حتى لا تضيع ساعة أخرى في تعديل الإعدادات.
 
-- .NET 6.0 أو أحدث (الكود يعمل مع .NET Core و .NET Framework أيضًا)
-- Visual Studio 2022 (أو أي بيئة تطوير تفضلها)
-- حزمة Aspose.OCR عبر NuGet (دعم GPU يتطلب الإضافة `Aspose.OCR.Gpu`)
-- وحدة معالجة رسومية (GPU) تدعم CUDA إذا أردت السرعة الإضافية (اختياري لكن يُنصح به)
+## ما ستحتاجه
 
-> **نصيحة محترف:** إذا لم يكن لديك GPU، ما عليك سوى حذف سطر `GpuDevice` وسيتحول المحرك تلقائيًا إلى المعالج المركزي (CPU).
+- **.NET 6+** (أي بيئة تشغيل حديثة تعمل)
+- حزمة NuGet **Aspose.OCR for .NET**  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- **ملف نصي** (`custom_dictionary.txt`) يحتوي على كلمة واحدة في كل سطر – هذه هي المصطلحات التي تتوقع رؤيتها.
+- **صورة** (`input_image.png`) تحتوي على النص الذي تريد التعرف عليه.
 
-## الخطوة 1: تثبيت Aspose OCR وإنشاء محرك OCR
+لا توجد مكتبات إضافية، ولا خدمات خارجية. مجرد C# صافية وAspose.
 
-أولاً، أضف الحزم الضرورية عبر NuGet:
+## الخطوة 1: تهيئة محرك OCR – التعرف على النص من الصورة
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu   # optional GPU support
-```
-
-الآن يمكننا **إنشاء محرك OCR**. هذا الكائن هو قلب العملية؛ فهو يحمل الإعدادات مثل الجهاز الذي يعمل عليه وحدود الذاكرة.
+أول ما تفعله هو إنشاء كائن `OcrEngine`. هذا الكائن يحمل جميع خيارات التكوين، بما في ذلك القاموس المخصص الذي سنضيفه لاحقاً.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.Gpu;   // GPU support
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Instantiate the OCR engine (GPU‑enabled)
-        var ocrEngine = new OcrEngine
-        {
-            // 0 = first GPU in the system; change if you have multiple cards
-            GpuDevice = new GpuDevice(0),
-            // Optional: cap GPU memory usage to 1024 MB
-            GpuMemoryLimit = 1024
-        };
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**لماذا هذا مهم:** بربط المحرك بوحدة GPU، تقلل بشكل كبير الوقت المستغرق لـ **التعرف على النص من الصورة**، خاصةً عند معالجة دفعات كبيرة من ملفات TIFF عالية الدقة.
+> **لماذا هذا مهم:**  
+> بدون وجود مثال للمحرك لا يوجد سياق للإعدادات مثل اللغة، DPI، أو قوائم الكلمات المخصصة. فكر في `OcrEngine` كالعقل الذي سيتعرف لاحقاً على **التعرف على النص من الصورة**.
 
-## الخطوة 2: تحميل الصورة لـ OCR
+## الخطوة 2: قراءة ملف القاموس – How to Add Custom Dictionary
 
-بعد ذلك، نحتاج إلى **تحميل الصورة لـ OCR**. Aspose.OCR يعمل مع `System.Drawing.Image`، لذا أي تنسيق يدعمه GDI+ (بما في ذلك TIFF متعدد الصفحات) سيكون مناسبًا.
+بعد ذلك، نحتاج إلى **read dictionary file** محتويات إلى `HashSet<string>`. مجموعة التجزئة توفر بحث O(1)، وهو مثالي لفحوصات المحرك الداخلية.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace the path with the location of your TIFF file
-        var imagePath = @"C:\Invoices\invoice_batch.tif";
-        Image image = Image.FromFile(imagePath);
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-إذا كنت تتعامل مع TIFF متعدد الصفحات يمكنك التنقل بين الصفحات باستخدام `image.SelectActiveFrame`، لكن في معظم الحالات نداء واحد يكفي.
+> **نصيحة محترف:**  
+> احرص على أن يكون ملف القاموس مشفرًا بـ UTF‑8 وتجنب السطور الفارغة؛ سيتم التعامل معها كسلاسل فارغة وقد تربك المحرك.
 
-## الخطوة 3: ضبط لغة OCR
+## الخطوة 3: تحميل الصورة – How to Extract Text
 
-المحرك لا يعرف سحرًا أي لغة تقوم بمسحها. **ضبط لغة OCR** قبل تشغيل المعرّف؛ وإلا ستحصل على مخرجات مشوشة.
+الآن نقوم بتمرير الصورة التي نريد معالجتها. تستخدم Aspose `ImageStream` لتجريد التعامل مع الملفات.
 
 ```csharp
-        // Step 3: Tell the engine which language to expect
-        ocrEngine.Language = OcrLanguage.English; // change to .German, .French, etc. as needed
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **هل تعلم؟** تبديل اللغات أثناء التشغيل تكلفة منخفضة — يمكنك حتى معالجة مستند مختلط اللغات بتغيير هذه الخاصية بين الصفحات.
+> **حالة حافة:**  
+> إذا كانت صورتك أكبر من 2000 × 2000 بكسل، فكر في تصغيرها أولاً. الصور الضخمة قد تبطئ عملية التعرف دون تحسين الدقة.
 
-## الخطوة 4: تنفيذ التعرف – التعرف على النص من الصورة
+## الخطوة 4: تشغيل عملية OCR – Extract Plain Text
 
-الآن الجزء الممتع: **التعرف على النص من الصورة** فعليًا. طريقة `Recognize` تُعيد سلسلة نصية عادية تحتوي جميع الأحرف المكتشفة.
-
-```csharp
-        // Step 4: Run OCR and capture the output
-        string recognizedText = ocrEngine.Recognize(image);
-```
-
-إذا كنت تحتاج إلى درجات الثقة أو إطارات الحدود يمكنك استخدام النسخة التي تُعيد كائن `OcrResult`، لكن لمعظم مهام الاستخراج السلسلة النصية العادية كافية.
-
-## الخطوة 5: استخراج النص من TIFF (وتعامل مع الملفات متعددة الصفحات)
-
-عندما يكون المصدر TIFF يحتوي على عدة صفحات، ستحتاج إلى تكرار الخطوات 2‑4 لكل إطار. إليك حلقة سريعة **تستخرج النص من TIFF** صفحة بصفحة:
+بعد تجهيز كل شيء، استدعِ `Recognize`. تُعيد الطريقة كائن `OcrResult` يحتوي على النص الأصلي والنص المنقح.
 
 ```csharp
-        // Optional: process multi‑page TIFFs
-        var totalFrames = image.GetFrameCount(FrameDimension.Page);
-        for (int i = 0; i < totalFrames; i++)
-        {
-            image.SelectActiveFrame(FrameDimension.Page, i);
-            string pageText = ocrEngine.Recognize(image);
-            Console.WriteLine($"--- Page {i + 1} ---");
-            Console.WriteLine(pageText);
-        }
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-الكود أعلاه يطبع النص المستخرج لكل صفحة، مما يجعل من السهل توجيه النتائج إلى قاعدة بيانات أو فهرس بحث.
-
-## الخطوة 6: عرض أو حفظ النص المستخرج
-
-أخيرًا، لن **نعرض النص المستخرج** وربما نكتبه إلى ملف للمعالجة لاحقًا.
-
-```csharp
-        // Step 6: Output the result to console
-        Console.WriteLine("=== Full OCR Result ===");
-        Console.WriteLine(recognizedText);
-
-        // Optional: Save to a .txt file
-        System.IO.File.WriteAllText(@"C:\Invoices\extracted_text.txt", recognizedText);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-تشغيل البرنامج يجب أن يُظهر الأحرف التي تم التعرف عليها ويُنشئ ملف `extracted_text.txt` بجانب ملف TIFF المصدر.
+> **ما ستراه:**  
+> يطبع الطرفية نسخة نظيفة من النص مع الحفاظ على فواصل الأسطر. إذا كان القاموس المخصص يحتوي على “Aspose” و“OCR”، فستظهر تلك الكلمات بالضبط كما عرّفتها، حتى وإن كانت الصورة مشوشة قليلاً.
+
+## مثال كامل يعمل
+
+فيما يلي البرنامج **complete, copy‑and‑paste ready**. استبدل `YOUR_DIRECTORY` بالمسار الفعلي للمجلد الذي حفظت فيه القاموس والصورة.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**الناتج المتوقع** (بافتراض أن الصورة تحتوي على “Welcome to Aspose OCR Demo”)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+إذا كان “Aspose” موجوداً في القاموس المخصص، فستكون الإملائية مثالية حتى وإن كانت الصورة تحتوي على ضبابية خفيفة.
+
+## الأسئلة المتكررة
+
+### كيف يمكنني **read dictionary file** بترميزات مختلفة؟
+استخدم `File.ReadAllLines(path, Encoding.UTF8)` (أو `Encoding.Unicode`) لتطابق ترميز الملف. هذا يمنع الأحرف المخفية من التسلل إلى `HashSet`.
+
+### ماذا لو لا يزال نتيجة OCR تفتقد كلمة من القاموس؟
+تأكد من أن حالة الأحرف للكلمة تتطابق مع إدخال القاموس، أو اضبط `ocrEngine.Configuration.IgnoreCase = true`. كما يجب التحقق من أن دقة الصورة لا تقل عن 300 dpi للحصول على أفضل النتائج.
+
+### هل يمكنني **extract plain text** من PDF بدلاً من صورة؟
+نعم—يمكن لـ Aspose.PDF تحويل كل صفحة إلى صورة، ثم تمرير تلك الصور إلى نفس خط أنابيب OCR. سير العمل هو نفسه؛ فقط أضف خطوة تحويل PDF إلى صورة.
+
+### هل هناك طريقة لـ **how to add custom dictionary** في وقت التشغيل لعدة لغات؟
+بالتأكيد. أنشئ `HashSet<string>` منفصل لكل لغة وبدّل `ocrEngine.Configuration.CustomDictionary` قبل كل استدعاء `Recognize`.
+
+## نصائح وحيل لتحسين الدقة
+
+- **Pre‑process the image**: حوّلها إلى تدرج الرمادي، زد التباين، أو طبّق تمويه غاوسي خفيف لإزالة البقع.
+- **Batch processing**: إذا كان لديك عشرات الصور، أعد استخدام نفس مثال `OcrEngine`؛ إعادة التهيئة في كل مرة تضيف عبئًا غير ضروري.
+- **Log the raw OCR data**: `ocrResult.TextLines` يمنحك درجات الثقة سطرًا بسطر، مفيدة للمعالجة اللاحقة أو لتحديد النتائج ذات الثقة المنخفضة.
+
+## الخطوات التالية
+
+الآن بعد أن عرفت **how to extract text** و**how to add custom dictionary**، فكر في المواضيع التالية:
+
+1. **Integrate with ASP.NET Core** – إتاحة نقطة API تستقبل صورة وتعيد نتائج OCR بصيغة JSON.  
+2. **Combine with Entity Framework** – خزن النص المستخرج مباشرةً في قاعدة بيانات لتصبح سجلات قابلة للبحث.  
+3. **Explore language detection** – تبديل القواميس تلقائيًا بناءً على رموز اللغة المكتشفة.
+
+كل من هذه المواضيع يبني على الأساس الذي وضعناه في هذا الدليل، مما يتيح لك تحويل مقتطف بسيط لـ **recognize text from image** إلى خدمة جاهزة للإنتاج.
 
 ---
 
-## أسئلة شائعة وحالات خاصة
-
-- **ماذا لو لم يتم اكتشاف الـ GPU؟**  
-  احذف سطر `GpuDevice`؛ سيتحول المحرك تلقائيًا إلى وضع CPU. الأداء سيكون أبطأ لكن النتائج ستظل دقيقة.
-
-- **هل يمكنني معالجة ملفات PNG أو JPEG؟**  
-  بالتأكيد — `Image.FromFile` يعمل مع أي تنسيق يدعمه System.Drawing، لذا يمكنك **تحميل الصورة لـ OCR** بغض النظر عن الامتداد.
-
-- **كيف أتعامل مع المسحات منخفضة الدقة؟**  
-  زد قيمة `ocrEngine.PreprocessOptions.Dpi` قبل استدعاء `Recognize`. DPI أعلى يمنح المحرك المزيد من البكسلات للعمل معها، مما يحسن الدقة.
-
-- **هل هناك حد لحجم ملف TIFF؟**  
-  خاصية `GpuMemoryLimit` تحد من استهلاك الذاكرة على الـ GPU. إذا وصلت إلى الحد، سيتحول المحرك إلى CPU للصفحات المتبقية.
-
----
-
-## الخلاصة
-
-أصبح لديك الآن مقطع شفرة كامل وجاهز للإنتاج يمكنه **التعرف على النص من ملفات الصورة** باستخدام Aspose OCR في C#. غطى الدليل كيفية **إنشاء محرك OCR**، **تحميل الصورة لـ OCR**، **ضبط لغة OCR**، و**استخراج النص من TIFF** — كل ذلك مع الاستفادة من تسريع الـ GPU للسرعة.  
-
-من هنا يمكنك:
-
-- تجربة لغات مختلفة (`OcrLanguage.Spanish`, `OcrLanguage.ChineseSimplified`, إلخ).
-- دمج المخرجات في فهرس ElasticSearch قابل للبحث.
-- إضافة معالجة ما بعد الاستخراج (تدقيق إملائي، تنظيف regex) لتحسين جودة البيانات.
-
-جرّبه على دفعة الفواتير الخاصة بك، عدّل حدود الذاكرة، وشاهد أداء OCR يرتفع. Happy coding!
-
-## دروس ذات صلة
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/english/net/ocr-optimization/prepare-rectangles/)
-- [Extract Text from Image – Recognize Line with Aspose.OCR](/ocr/english/net/image-and-drawing-recognition/recognize-line/)
+*برمجة سعيدة! إذا واجهت أي مشكلة، اترك تعليقًا أدناه أو راجع وثائق Aspose.OCR للحصول على خيارات تكوين أعمق. تذكر، القاموس المخصص المصمم جيدًا هو غالبًا المكوّن السري الذي يحول OCR المتوسط إلى استخراج نص حاد كالشفرة.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

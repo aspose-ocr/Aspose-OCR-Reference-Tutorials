@@ -1,46 +1,26 @@
 ---
 category: general
-date: 2026-05-25
-description: Estrai il testo da un'immagine usando C# e Aspose OCR. Scopri come convertire
-  JPG in testo, caricare l'immagine per l'OCR e ottenere risultati affidabili rapidamente.
+date: 2026-01-10
+description: Estrai il testo dall'immagine usando Aspose OCR in C#. Scopri come convertire
+  il testo di documenti scansionati con l'elaborazione batch e salvare i risultati.
 draft: false
 keywords:
 - extract text from image
-- convert jpg to text
-- how to ocr image
-- c# image to text
-- load image for ocr
+- convert scanned document text
+- batch OCR processing
+- Aspose OCR
+- C# OCR tutorial
 language: it
-og_description: Estrai testo da un'immagine con C#. Questa guida mostra come convertire
-  jpg in testo, caricare l'immagine per OCR e gestire contenuti multilingue.
-og_title: Estrai testo da immagine in C# – Tutorial OCR di Aspose
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: Extract text from image using C# and Aspose OCR. Learn how to convert
-    jpg to text, load image for OCR, and get reliable results fast.
-  headline: Extract Text from Image in C# – Complete Aspose OCR Guide
-  type: TechArticle
-- description: Extract text from image using C# and Aspose OCR. Learn how to convert
-    jpg to text, load image for OCR, and get reliable results fast.
-  name: Extract Text from Image in C# – Complete Aspose OCR Guide
-  steps:
-  - name: 6.1 Can I OCR a PNG or BMP?
-    text: Absolutely. The `Image.FromFile` method supports all formats that System.Drawing
-      recognizes, so just point the path to a `.png` or `.bmp` file and the rest of
-      the code stays identical.
-  - name: 6.2 What if the image is low‑resolution?
-    text: 'OCR accuracy drops dramatically below 300 dpi. A quick fix is to upscale
-      the image with `Graphics` before feeding it to the engine:'
-  - name: 6.3 Do I need a license for Aspose.OCR?
-    text: 'Aspose offers a free trial with a watermark. For production use, purchase
-      a license and add:'
-  type: HowTo
+og_description: Estrai il testo da un'immagine con Aspose OCR in C#. Questo tutorial
+  mostra come convertire il testo di documenti scansionati utilizzando l'elaborazione
+  batch.
+og_title: Estrai testo da immagine in C# – Guida completa Aspose OCR
 tags:
-- C#
 - OCR
+- C#
 - Aspose
-title: Estrai il testo da un'immagine in C# – Guida completa all'OCR di Aspose
+- Image Processing
+title: Estrai il testo da un'immagine in C# – Guida completa a Aspose OCR
 url: /it/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-guide/
 ---
 
@@ -48,263 +28,224 @@ url: /it/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Estrai Testo da Immagine in C# – Guida Completa Aspose OCR
+# Estrai testo da immagine – Guida completa a Aspose OCR
 
-Ti sei mai chiesto come **extract text from image** usando puro codice C#? Non sei l'unico. Che tu stia digitalizzando ricevute, scansionando cartelli o semplicemente curioso dell'OCR, la capacità di estrarre caratteri da una foto è una competenza utile. In questo tutorial percorreremo un esempio completo e eseguibile che mostra esattamente come **extract text from image** con Aspose.OCR, e tratteremo anche come **convert jpg to text**, **load image for OCR**, e risponderemo una volta per tutte alla classica domanda “**how to ocr image**”.
+Hai mai dovuto **estrarre testo da immagine** ma non sapevi da dove cominciare? Non sei solo; molti sviluppatori si trovano di fronte a questo ostacolo quando lavorano con PDF scansionati, TIFF a più pagine o ricevute basate su foto. La buona notizia è che con Aspose OCR puoi **convertire il testo di documenti scansionati** in poche righe di C#.
 
-Alla fine di questa guida avrai un'app console autonoma che legge un file JPEG, riconosce l'ucraino (o qualsiasi altra lingua supportata) e stampa il risultato sulla console. Nessun riferimento vago, nessun pezzo mancante—solo una soluzione completa che puoi copiare‑incollare ed eseguire.
-
----
-
-## Cosa Imparerai
-
-* Come installare il pacchetto NuGet Aspose.OCR.
-* Il codice esatto necessario per **load image for OCR** in C#.
-* Come impostare la lingua e realmente **extract text from image**.
-* Trucchi per **convert jpg to text** in modo efficiente.
-* Problemi comuni e come evitarli.
-
-Se hai già un ambiente di sviluppo .NET configurato, sei pronto per immergerti. Altrimenti, la sezione dei prerequisiti qui sotto ti metterà al passo.
-
----
+In questo tutorial percorreremo uno scenario reale: prendere un TIFF a più pagine, eseguire OCR batch su ogni pagina e scrivere un unico file di testo che contenga il contenuto di tutte le pagine. Alla fine avrai un’app console pronta all’uso, comprenderai perché ogni passaggio è importante e saprai come modificare il flusso per casi particolari come immagini protette da password o pacchetti linguistici personalizzati.
 
 ## Prerequisiti
 
-| Requisito | Perché è importante |
-|-------------|----------------|
-| .NET 6.0 SDK (or newer) | Fornisce il runtime per l'app console. |
-| Visual Studio 2022 or VS Code | Rende più facile l'editing e il debug. |
-| Internet connection (first run) | NuGet deve scaricare Aspose.OCR. |
-| A JPEG image you want to process (e.g., `ukrainian_sign.jpg`) | Il file sorgente per il motore OCR. |
+- .NET 6.0 SDK o successivo (il codice funziona anche con .NET Core e .NET Framework)  
+- Visual Studio 2022 (o qualsiasi editor tu preferisca)  
+- Un file di licenza Aspose OCR (oppure puoi usare la modalità di valutazione gratuita)  
+- Un file immagine a più pagine (ad es., `multipage.tif`) collocato in una cartella a cui puoi fare riferimento  
 
-> **Consiglio:** Se sei su Linux o macOS, lo stesso codice funziona con la .NET CLI (`dotnet new console`), quindi sentiti libero di saltare l'IDE pesante.
+Non sono richiesti pacchetti NuGet aggiuntivi oltre a `Aspose.OCR`; lo installeremo nel primo passaggio.
 
----
+## Passo 1 – Installa Aspose OCR e configura il progetto
 
-## Passo 1 – Installa Aspose.OCR via NuGet
-
-Apri il tuo terminale (o la Console di Gestione Pacchetti) ed esegui:
+Per iniziare, crea un nuovo progetto console e aggiungi la libreria Aspose OCR.
 
 ```bash
+dotnet new console -n ImageTextExtractor
+cd ImageTextExtractor
 dotnet add package Aspose.OCR
 ```
 
-Quella singola riga scarica gli ultimi binari di Aspose.OCR e tutte le dipendenze transitive. Non è necessario gestire manualmente le DLL.
+> **Suggerimento:** Se disponi di un file di licenza (`Aspose.OCR.lic`), copialo nella radice del progetto. La libreria lo rileverà automaticamente a runtime.
 
----
+Perché questo passo? L’installazione del pacchetto ti dà accesso a `BatchProcessor`, `OcrEngine` e altre classi utili che astraggono la gestione a basso livello delle immagini. Garantisce inoltre che tu stia usando gli ultimi algoritmi OCR forniti da Aspose.
 
-## Passo 2 – Crea il Motore OCR (Il Cuore dell'Estrazione)
+## Passo 2 – Carica l’immagine a più pagine con BatchProcessor
 
-Ora che la libreria è a posto, possiamo creare un'istanza di `OcrEngine`. Questo oggetto è responsabile per **extracting text from image** dati.
+`BatchProcessor` è progettato proprio per questo scenario: iterare su ogni pagina di un’immagine a più pagine senza dover suddividere manualmente i file.
 
 ```csharp
 using Aspose.OCR;
-using System.Drawing; // For Image class
-using System;
+using Aspose.OCR.Batch;
+using System.Text;
 
-// Initialize the OCR engine
-var ocrEngine = new OcrEngine();
-```
+// Step 2: Initialize the batch processor with the path to your TIFF
+var batchProcessor = new BatchProcessor(@"YOUR_DIRECTORY\multipage.tif");
 
-> **Perché è importante:** Il motore incapsula gli algoritmi OCR, i modelli linguistici e le opzioni di configurazione. Instanziarlo una volta e riutilizzarlo su più immagini è sia efficiente in termini di memoria sia veloce.
-
----
-
-## Passo 3 – Carica Immagine per OCR (E Imposta la Lingua)
-
-Il passo successivo è indicare al motore quale immagine leggere. È qui che entra in gioco la frase **load image for OCR**.
-
-```csharp
-// Path to the JPEG you want to process
-string imagePath = @"YOUR_DIRECTORY/ukrainian_sign.jpg";
-
-// Load the image into a System.Drawing.Image object
-Image inputImage = Image.FromFile(imagePath);
-
-// Optional: If you’re dealing with a different language, set it here
-ocrEngine.Language = OcrLanguage.Ukrainian; // Change as needed
-```
-
-> **Caso limite:** Se il file non esiste, `Image.FromFile` lancia una `FileNotFoundException`. Avvolgi la chiamata in un blocco try‑catch per il codice di produzione.
-
----
-
-## Passo 4 – Esegui OCR ed Estrai Testo
-
-Con l'immagine caricata, il motore può ora **extract text from image**. Il metodo `Recognize` fa il lavoro pesante.
-
-```csharp
-// Perform OCR – this returns the recognized string
-string recognizedText = ocrEngine.Recognize(inputImage);
-```
-
-Se tutto va bene, `recognizedText` conterrà la rappresentazione in testo semplice di tutto ciò che il motore OCR è riuscito a leggere.
-
----
-
-## Passo 5 – Converti JPG in Testo (Mettendo Tutto Insieme)
-
-Il codice che abbiamo costruito finora già **convert jpg to text**, ma avvolgiamolo in un metodo ordinato che puoi chiamare ripetutamente.
-
-```csharp
-static string ConvertJpgToText(string filePath, OcrLanguage language = OcrLanguage.English)
+// Verify that pages were loaded
+if (batchProcessor.Pages.Count == 0)
 {
-    var engine = new OcrEngine { Language = language };
-    using var img = Image.FromFile(filePath);
-    return engine.Recognize(img);
+    Console.WriteLine("No pages found – double‑check the file path.");
+    return;
 }
 ```
 
-Ora puoi semplicemente fare:
+Il `BatchProcessor` legge tutte le pagine in memoria, esponendole tramite `batchProcessor.Pages`. Ogni oggetto pagina conosce il proprio numero (`ocrPage.Number`) che utilizzeremo più avanti per intestazioni chiare.
+
+## Passo 3 – Prepara un StringBuilder per accumulare i risultati
+
+Vogliamo un unico file di testo che contenga l’output OCR di tutte le pagine, separato da intestazioni. `StringBuilder` è il modo più efficiente per concatenare stringhe in un ciclo.
 
 ```csharp
-string result = ConvertJpgToText(@"YOUR_DIRECTORY/ukrainian_sign.jpg", OcrLanguage.Ukrainian);
-Console.WriteLine(result);
+// Step 3: Create a StringBuilder to collect OCR results
+var extractedText = new StringBuilder();
 ```
 
-**Output previsto** (troncato per brevità):
+Perché un `StringBuilder`? Concatenare stringhe con `+` all’interno di un ciclo creerebbe una nuova stringa ad ogni iterazione, penalizzando le prestazioni—soprattutto con documenti di grandi dimensioni.
 
-```
-Вітаємо! Це приклад тексту з українською мовою.
-```
+## Passo 4 – Itera su ogni pagina, esegui OCR e aggiungi i risultati
 
-Se l'immagine contiene testo in inglese, cambia `OcrLanguage.English` e vedrai l'output corrispondente.
-
----
-
-## Passo 6 – Gestire le Domande Comuni “How to OCR Image”
-
-### 6.1 Posso fare OCR su PNG o BMP?
-
-Assolutamente. Il metodo `Image.FromFile` supporta tutti i formati riconosciuti da System.Drawing, quindi basta puntare il percorso a un file `.png` o `.bmp` e il resto del codice rimane identico.
-
-### 6.2 E se l'immagine è a bassa risoluzione?
-
-L'accuratezza dell'OCR diminuisce drasticamente sotto i 300 dpi. Una soluzione rapida è aumentare la risoluzione dell'immagine con `Graphics` prima di passarla al motore:
+Ora il cuore del tutorial: scorrere ogni pagina, riconoscere il testo e memorizzarlo con un marcatore di pagina.
 
 ```csharp
-using var original = Image.FromFile(imagePath);
-var upscale = new Bitmap(original, new Size(original.Width * 2, original.Height * 2));
-string text = ocrEngine.Recognize(upscale);
+// Step 4: Process each page individually
+foreach (var ocrPage in batchProcessor.Pages)
+{
+    // Create a fresh OcrEngine for every page – this isolates settings
+    var ocrEngine = new OcrEngine
+    {
+        Image = ocrPage
+    };
+
+    // Perform recognition
+    ocrEngine.Recognize();
+
+    // Append a clear header and the recognized text
+    extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+    extractedText.AppendLine(ocrEngine.Text);
+}
 ```
 
-### 6.3 Ho bisogno di una licenza per Aspose.OCR?
+**Perché un nuovo `OcrEngine` per pagina?** Alcuni sviluppatori riutilizzano lo stesso engine cambiandone la proprietà `Image`, ma questo può mantenere impostazioni linguistiche o risultati precedenti, generando bug sottili. Creare un nuovo engine garantisce una base pulita.
 
-Aspose offre una prova gratuita con watermark. Per l'uso in produzione, acquista una licenza e aggiungi:
+### Gestione dei casi limite più comuni
+
+- **Pagine vuote:** Se una pagina non contiene testo riconoscibile, `ocrEngine.Text` sarà una stringa vuota. Potresti inserire un segnaposto come “(Nessun testo rilevato)”.
+- **Selezione della lingua:** Per impostazione predefinita Aspose OCR usa l’inglese. Per elaborare tedesco o francese, imposta `ocrEngine.Language = Language.German;` prima di chiamare `Recognize()`.
+- **Suggerimento di performance:** Per TIFF molto grandi, puoi abilitare `ocrEngine.UseParallelProcessing = true;` per sfruttare più core.
+
+## Passo 5 – Scrivi l’output combinato in un file di testo
+
+Infine, persisti la stringa accumulata su disco.
 
 ```csharp
-License lic = new License();
-lic.SetLicense("Aspose.Total.lic");
+// Step 5: Save the result to a .txt file
+string outputPath = @"YOUR_DIRECTORY\multipage_result.txt";
+File.WriteAllText(outputPath, extractedText.ToString());
+
+Console.WriteLine($"OCR complete! Results saved to {outputPath}");
 ```
 
----
+Il file risultante `multipage_result.txt` avrà un aspetto simile a questo:
 
-## Esempio Completo Funzionante
+```
+--- Page 1 ---
+This is the first page of the scanned document.
+It contains a title and some introductory text.
 
-Di seguito trovi un'app console completa, pronta‑da‑eseguire, che dimostra **how to OCR image**, **load image for OCR**, e **convert jpg to text** in un unico pacchetto ordinato.
+--- Page 2 ---
+Continuation of the report.
+Data tables and figures follow.
+```
+
+Ora hai **estratto testo da immagine** e hai effettivamente **convertito il testo di documenti scansionati** in un formato ricercabile e modificabile.
+
+## Bonus – Panoramica visiva (Testo alternativo)
+
+Di seguito trovi un semplice diagramma di flusso che illustra il processo.  
+*Testo alternativo:* “Diagramma che mostra come estrarre testo da immagine usando il batch processing di Aspose OCR in C#”.
+
+![OCR Flow Diagram](placeholder-image-url.png)
+
+*(Se pubblichi questo tutorial su un sito statico, sostituisci il segnaposto con un SVG o PNG reale.)*
+
+## Domande frequenti
+
+**Funziona con file PDF?**  
+Sì, Aspose OCR può leggere le pagine PDF come immagini. Devi solo convertire il PDF in immagini prima, oppure usare `PdfDocument` da `Aspose.PDF` e fornire l’immagine rasterizzata di ogni pagina a `OcrEngine`.
+
+**E se il mio TIFF è protetto da password?**  
+`BatchProcessor` non gestisce direttamente la crittografia. Decrittografa il file usando una libreria come `Aspose.Imaging` prima di passarlo al pipeline OCR.
+
+**Posso generare JSON invece del testo semplice?**  
+Assolutamente. Sostituisci la logica di `StringBuilder` con un serializzatore JSON (ad es., `System.Text.Json`) e memorizza il testo di ogni pagina sotto una chiave `pageNumber`.
+
+## Esempio completo funzionante
+
+Ecco il programma completo che puoi copiare‑incollare in `Program.cs`. Include tutti i `using`, la gestione degli errori e i commenti.
 
 ```csharp
-// Program.cs
 using Aspose.OCR;
+using Aspose.OCR.Batch;
 using System;
-using System.Drawing;
+using System.IO;
+using System.Text;
 
-namespace ImageToTextDemo
+namespace ImageTextExtractor
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // -------------------------------------------------
-            // 1️⃣  Verify arguments
-            // -------------------------------------------------
-            if (args.Length == 0)
+            // Adjust these paths to match your environment
+            string inputImagePath = @"YOUR_DIRECTORY\multipage.tif";
+            string outputTextPath = @"YOUR_DIRECTORY\multipage_result.txt";
+
+            // 1️⃣ Load the multi‑page image
+            var batchProcessor = new BatchProcessor(inputImagePath);
+            if (batchProcessor.Pages.Count == 0)
             {
-                Console.WriteLine("Usage: dotnet run <path-to-jpg>");
+                Console.WriteLine("No pages detected – verify the file path.");
                 return;
             }
 
-            string filePath = args[0];
+            // 2️⃣ Prepare a StringBuilder for the final output
+            var extractedText = new StringBuilder();
 
-            // -------------------------------------------------
-            // 2️⃣  Perform OCR (extract text from image)
-            // -------------------------------------------------
-            try
+            // 3️⃣ Process each page
+            foreach (var ocrPage in batchProcessor.Pages)
             {
-                string text = ConvertJpgToText(filePath, OcrLanguage.Ukrainian);
-                Console.WriteLine("=== Recognized Text ===");
-                Console.WriteLine(text);
+                var ocrEngine = new OcrEngine
+                {
+                    Image = ocrPage,
+                    // Uncomment to change language:
+                    // Language = Language.German,
+                    // UseParallelProcessing = true
+                };
+
+                // Run OCR
+                ocrEngine.Recognize();
+
+                // Append header and text
+                extractedText.AppendLine($"--- Page {ocrPage.Number} ---");
+                // Guard against empty results
+                string pageText = string.IsNullOrWhiteSpace(ocrEngine.Text)
+                    ? "(No text detected on this page)"
+                    : ocrEngine.Text;
+                extractedText.AppendLine(pageText);
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
-        }
 
-        /// <summary>
-        /// Converts a JPG (or any supported image) to plain text.
-        /// </summary>
-        /// <param name="filePath">Full path to the image file.</param>
-        /// <param name="language">OCR language – defaults to English.</param>
-        /// <returns>Recognized text.</returns>
-        static string ConvertJpgToText(string filePath, OcrLanguage language = OcrLanguage.English)
-        {
-            // Create and configure the OCR engine
-            var engine = new OcrEngine
-            {
-                Language = language
-            };
+            // 4️⃣ Write to file
+            File.WriteAllText(outputTextPath, extractedText.ToString());
 
-            // Load the image – this is the "load image for OCR" step
-            using var img = Image.FromFile(filePath);
-
-            // Run recognition and return the result
-            return engine.Recognize(img);
+            Console.WriteLine($"✅ Extraction complete. File saved at: {outputTextPath}");
         }
     }
 }
 ```
 
-**Come eseguirla**
+Esegui il programma con:
 
 ```bash
-dotnet run -- "C:\Images\ukrainian_sign.jpg"
+dotnet run
 ```
 
-Dovresti vedere il testo estratto stampato sulla console, confermando che hai estratto con successo **extract text from image** usando C#.
-
----
-
-## Problemi Comuni & Consigli Pro
-
-| Problema | Perché succede | Soluzione |
-|-------|----------------|-----|
-| Output vuoto | Immagine troppo scura o a basso contrasto. | Pre‑processare con `Bitmap` per aumentare la luminosità. |
-| Lingua errata | Proprietà `Language` lasciata al valore predefinito English. | Impostare esplicitamente `ocrEngine.Language = OcrLanguage.Ukrainian;` (o la tua lingua target). |
-| Errore out‑of‑memory | Immagini molto grandi caricate senza rilascio. | Avvolgere `Image.FromFile` in un blocco `using` (come mostrato). |
-| Watermark della licenza | Esecuzione in prova senza licenza. | Applicare una licenza acquistata all'inizio di `Main`. |
-
----
+Dovresti vedere il messaggio nella console che conferma il successo, e il file di output conterrà i risultati OCR concatenati.
 
 ## Conclusione
 
-Abbiamo appena coperto tutto ciò di cui hai bisogno per **extract text from image** in C#—dall'installazione di Aspose.OCR, **loading image for OCR**, alla **convert jpg to text** e alla gestione di scenari multilingue. Il programma di esempio completo unisce tutti i componenti, fornendoti una base affidabile per qualsiasi progetto legato all'OCR.
+Abbiamo appena dimostrato un modo pratico per **estrarre testo da immagine** usando Aspose OCR, trasformando qualsiasi file scansionato a più pagine in testo semplice e ricercabile. Sfruttando `BatchProcessor` e una configurazione pulita di `OcrEngine` per pagina, puoi convertire in modo affidabile il **testo di documenti scansionati** mantenendo il codice semplice e manutenibile.
 
-Successivamente, potresti esplorare:
+Sentiti libero di sperimentare: prova lingue diverse, passa a output JSON, o integra questa logica in un’API web che elabora upload al volo. Il modello di base rimane lo stesso—carica, riconosci, accumula e persisti.
 
-* **How to OCR image** stream invece di file (usa `MemoryStream`).
-* Aggiungere **c# image to text** post‑processing come il controllo ortografico.
-* Integrare il passo OCR in una pipeline più ampia (ad esempio, memorizzare i risultati in un database).
-
-Sentiti libero di sperimentare con diverse lingue, formati di immagine e trucchi di pre‑elaborazione. L'OCR è tanto un'arte quanto una scienza, e più ti diverti, migliori saranno i risultati.
-
-Buon coding, e che le tue immagini siano sempre leggibili!
-
-## Tutorial Correlati
-
-- [Estrai testo immagine C# con selezione della lingua usando Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Estrai Testo da Immagine – Ottimizzazione OCR con Aspose.OCR per .NET](/ocr/english/net/ocr-optimization/)
-- [Come Estrarre Testo da Immagine Preparando Rettangoli in OCR](/ocr/english/net/ocr-optimization/prepare-rectangles/)
+Hai altre domande su OCR, licenze Aspose o sulla gestione di grandi batch di documenti? Lascia un commento qui sotto o consulta la documentazione ufficiale di Aspose per approfondimenti. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

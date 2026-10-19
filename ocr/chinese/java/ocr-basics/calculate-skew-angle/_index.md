@@ -8,17 +8,11 @@ url: /zh/java/ocr-basics/calculate-skew-angle/
 weight: 11
 ---
 
-.
 
-Also keep bold formatting.
 
-Also keep the table.
 
-Let's start.
 
-We'll output the same structure.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

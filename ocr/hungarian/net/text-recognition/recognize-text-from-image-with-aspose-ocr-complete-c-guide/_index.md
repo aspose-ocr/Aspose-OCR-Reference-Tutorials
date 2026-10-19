@@ -1,49 +1,26 @@
 ---
 category: general
-date: 2026-05-25
-description: Szöveg felismerése képről az Aspose OCR használatával C#-ban. Tanulja
-  meg, hogyan töltsön be képet OCR-hez, állítsa be az OCR nyelvet, hozza létre az
-  OCR motorját, és nyerjen ki szöveget TIFF-fájlból.
+date: 2026-02-09
+description: Tanulja meg, hogyan ismerjen fel szöveget képről, és hogyan nyerjen ki
+  egyszerű szöveget egy egyedi szótár használatával C#‑ban. Lépésről‑lépésre kódot
+  és tippeket tartalmaz.
 draft: false
 keywords:
 - recognize text from image
-- extract text from tiff
-- load image for OCR
-- set OCR language
-- create OCR engine
+- extract plain text
+- read dictionary file
+- how to extract text
+- how to add custom dictionary
 language: hu
-og_description: Szöveg felismerése képről az Aspose OCR használatával C#-ban. Ez az
-  útmutató bemutatja, hogyan hozhatunk létre OCR-motort, töltsünk be képet OCR-hez,
-  állítsuk be az OCR nyelvet, és hogyan nyerhetünk ki szöveget TIFF-ből.
-og_title: Szöveg felismerése képről az Aspose OCR-rel – Teljes C# útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-05-25'
-  description: recognize text from image using Aspose OCR in C#. Learn how to load
-    image for OCR, set OCR language, create OCR engine and extract text from TIFF.
-  headline: recognize text from image with Aspose OCR – Complete C# Guide
-  type: TechArticle
-- questions:
-  - answer: Remove the `GpuDevice` line; the engine will automatically switch to CPU
-      mode. Performance will be slower but the results remain accurate.
-    question: What if my GPU isn’t detected?
-  - answer: Absolutely—`Image.FromFile` works with any format supported by System.Drawing,
-      so you can **load image for OCR** regardless of extension.
-    question: Can I process PNG or JPEG files?
-  - answer: Increase `ocrEngine.PreprocessOptions.Dpi` before calling `Recognize`.
-      Higher DPI gives the engine more pixels to work with, improving accuracy.
-    question: How do I handle low‑resolution scans?
-  - answer: The `GpuMemoryLimit` property caps GPU usage. If you hit the limit, the
-      engine will fallback to CPU for the remaining pages.
-    question: Is there a limit to the size of the TIFF?
-  type: FAQPage
+og_description: Szöveg felismerése képről C#-ban az Aspose OCR-rel. Kövesd ezt az
+  útmutatót a sima szöveg kinyeréséhez, és adj hozzá egy egyedi szótárat a jobb pontosság
+  érdekében.
+og_title: Képről szöveg felismerése – Teljes C# oktatóanyag
 tags:
 - OCR
 - C#
 - Aspose
-- GPU
-- Text Extraction
-title: Képről szöveg felismerése az Aspose OCR-rel – Teljes C# útmutató
+title: Szöveg felismerése képről az Aspose OCR segítségével – Teljes C# útmutató
 url: /hu/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
@@ -51,159 +28,177 @@ url: /hu/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# szöveg felismerése képről Aspose OCR‑rel – Teljes C# útmutató
+# szöveg felismerése képről – Full C# Tutorial
 
-Szükséged volt már **szöveg felismerésére képről**, de nem tudtad, melyik könyvtár biztosítja a sebességet és a pontosságot? Nem vagy egyedül. Sok számlakezelő vagy archiválási projektben a legnagyobb gond a tiszta, kereshető szöveg kinyerése a TIFF fájlokból anélkül, hogy saját elemzőt írnál.
+Valaha szükséged volt **recognize text from image**-re, de az eredmények folyamatosan hiányozták a domain‑specifikus szavakat? Nem vagy egyedül. Sok projektben—számlák beolvasása, jelvények olvasása, vagy egyszerűen feliratok kinyerése képernyőképekből—a alapértelmezett OCR motor egyszerűen nem elég okos a szókincsedhez.  
 
-A lényeg: az Aspose OCR for .NET ezt a teljes folyamatot egy könnyed feladatként teszi. Ebben az útmutatóban végigvezetünk mindenen: a csomag telepítésén, **OCR motor létrehozásán**, TIFF betöltésén, az OCR nyelvének beállításán, és végül **szöveg kinyerésén a TIFF‑ből**. A végére egy futtatható konzolalkalmazást kapsz, amely **szöveg felismerését képről** villámgyorsan elvégzi.
+A jó hír? Egy **custom dictionary** betöltésével drámaian javíthatod a pontosságot, és természetesen **extract plain text** egy tiszta lépésben. Ebben az útmutatóban végigvezetünk a teljes folyamaton, a szótárfájl beolvasásától az OCR eredmény kiírásáig, az Aspose.OCR használatával C#-ban.  
 
-## Előfeltételek
+Válaszolunk a felmerülő “**how to add custom dictionary**” kérdésre, megmutatjuk, hogyan **how to extract text** hatékonyan, és kiemeljük a gyakori buktatókat, hogy ne pazarolj egy órát a beállítások finomhangolására.
 
-- .NET 6.0 vagy újabb (a kód .NET Core‑dal és .NET Framework‑kel is működik)
-- Visual Studio 2022 (vagy bármely kedvelt IDE)
-- Aspose.OCR NuGet csomag (GPU támogatáshoz a `Aspose.OCR.Gpu` kiegészítő szükséges)
-- GPU CUDA támogatással, ha a plusz sebességet szeretnéd (opcionális, de ajánlott)
+## Amire szükséged lesz
 
-> **Pro tipp:** Ha nincs GPU-d, egyszerűen hagyd ki a `GpuDevice` sort, és a motor automatikusan CPU‑ra vált.
+- **.NET 6+** (bármely friss futtatókörnyezet működik)
+- **Aspose.OCR for .NET** NuGet csomag  
+  ```bash
+  dotnet add package Aspose.OCR
+  ```
+- Egy **text file** (`custom_dictionary.txt`) amely soronként egy szót tartalmaz – ezek azok a kifejezések, amiket vársz.
+- Egy **image** (`input_image.png`) amely a felismertetni kívánt szöveget tartalmaz.
 
-## 1. lépés: Aspose OCR telepítése és OCR motor létrehozása
+Nincs további könyvtár, nincs külső szolgáltatás. Csak tiszta C# és Aspose.
 
-Először add hozzá a szükséges csomagokat a NuGet‑en keresztül:
+## 1. lépés: OCR motor inicializálása – Szöveg felismerése képről
 
-```bash
-dotnet add package Aspose.OCR
-dotnet add package Aspose.OCR.Gpu   # optional GPU support
-```
-
-Most **létrehozhatjuk az OCR motort**. Ez az objektum a folyamat szíve; tartalmazza a konfigurációt, például a futtatási eszközt és a memória korlátokat.
+Az első dolog, amit csinálsz, egy `OcrEngine` példány létrehozása. Ez az objektum tartalmazza az összes konfigurációs beállítást, beleértve a később betöltendő custom dictionary-t.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.Gpu;   // GPU support
 using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
 
-class Program
+class CustomDictionaryDemo
 {
     static void Main()
     {
-        // Step 1: Instantiate the OCR engine (GPU‑enabled)
-        var ocrEngine = new OcrEngine
-        {
-            // 0 = first GPU in the system; change if you have multiple cards
-            GpuDevice = new GpuDevice(0),
-            // Optional: cap GPU memory usage to 1024 MB
-            GpuMemoryLimit = 1024
-        };
+        // Initialise the OCR engine – this is where recognition starts
+        OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Miért fontos:** Ha a motort GPU‑ra kötöd, drámaian csökkented a **szöveg felismerésének képről** igényelt időt, különösen nagy felbontású TIFF‑ek tömeges feldolgozásánál.
+> **Miért fontos:**  
+> Motor példány nélkül nincs kontextusod a nyelv, DPI vagy egyéni szószavak beállításaihoz. Tekintsd az `OcrEngine`-t úgy, mint az agyat, amely később **recognize text from image**.
 
-## 2. lépés: Kép betöltése OCR‑hez
+## 2. lépés: Szótárfájl beolvasása – How to Add Custom Dictionary
 
-Ezután **betölteni kell a képet OCR‑hez**. Az Aspose.OCR a `System.Drawing.Image`‑et használja, így bármely, a GDI+ által támogatott formátum (beleértve a többoldalas TIFF‑et) megfelelő.
+Ezután be kell **read dictionary file** tartalmat betölteni egy `HashSet<string>`-be. A hash set O(1) keresést biztosít, ami tökéletes a motor belső ellenőrzéseihez.
 
 ```csharp
-        // Step 2: Load the image you want to process
-        // Replace the path with the location of your TIFF file
-        var imagePath = @"C:\Invoices\invoice_batch.tif";
-        Image image = Image.FromFile(imagePath);
+        // Load a custom dictionary from a plain‑text file
+        // Each line in the file should contain a single word
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        
+        // Attach the dictionary to the OCR configuration
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
 ```
 
-Ha többoldalas TIFF‑et kezelsz, a `image.SelectActiveFrame` segítségével ciklizálhatsz az oldalak között, de a legtöbb esetben egy egyszerű hívás elegendő.
+> **Pro tipp:**  
+> Tartsd a szótárfájlt UTF‑8 kódolásúként, és kerüld az üres sorokat; ezek üres karakterláncként lesznek kezelve, és összezavarhatják a motort.
 
-## 3. lépés: OCR nyelv beállítása
+## 3. lépés: Kép betöltése – How to Extract Text
 
-A motor nem tudja magától, hogy milyen nyelvet olvas. **Állítsd be az OCR nyelvet** a felismerő futtatása előtt; különben csak összevissza karakterekkel kapod a kimenetet.
+Most betápláljuk a feldolgozni kívánt képet. Az Aspose a `ImageStream`-et használja a fájlkezelés absztrakciójához.
 
 ```csharp
-        // Step 3: Tell the engine which language to expect
-        ocrEngine.Language = OcrLanguage.English; // change to .German, .French, etc. as needed
+        // Load the image that contains the text you want to recognize
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
 ```
 
-> **Tudtad?** A nyelv futás közbeni váltása alacsony költségű – akár vegyes nyelvű dokumentumot is feldolgozhatsz, ha ezt a tulajdonságot oldalak között módosítod.
+> **Különleges eset:**  
+> Ha a képed nagyobb, mint 2000 × 2000 pixel, fontold meg először a lekicsinyítését. A túl nagy képek lassíthatják a felismerést anélkül, hogy javítanák a pontosságot.
 
-## 4. lépés: Felismerés végrehajtása – Szöveg felismerése képről
+## 4. lépés: OCR folyamat futtatása – Extract Plain Text
 
-Most jön a lényeg: **szöveg felismerése képről**. A `Recognize` metódus egy egyszerű stringet ad vissza, amely tartalmazza az összes detektált karaktert.
-
-```csharp
-        // Step 4: Run OCR and capture the output
-        string recognizedText = ocrEngine.Recognize(image);
-```
-
-Ha bizalmi pontszámokra vagy határoló dobozokra van szükséged, használhatod azt a túlterhelést, amely egy `OcrResult` objektumot ad vissza, de a legtöbb kinyerési feladathoz a sima string elegendő.
-
-## 5. lépés: Szöveg kinyerése a TIFF‑ből (többoldalas fájlok kezelése)
-
-Ha a forrás egy többoldalas TIFF, ismételd meg a 2‑4. lépéseket minden keretnél. Íme egy gyors ciklus, amely **kivonja a szöveget a TIFF‑ből** oldalanként:
+Minden előkészítve, hívd meg a `Recognize` metódust. A metódus egy `OcrResult` objektumot ad vissza, amely a nyers és a tisztított szöveget egyaránt tartalmazza.
 
 ```csharp
-        // Optional: process multi‑page TIFFs
-        var totalFrames = image.GetFrameCount(FrameDimension.Page);
-        for (int i = 0; i < totalFrames; i++)
-        {
-            image.SelectActiveFrame(FrameDimension.Page, i);
-            string pageText = ocrEngine.Recognize(image);
-            Console.WriteLine($"--- Page {i + 1} ---");
-            Console.WriteLine(pageText);
-        }
-```
+        // Run OCR – this is where the engine actually recognises text from image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
 
-A fenti kód minden oldalhoz kiírja a kinyert szöveget, így egyszerűen továbbítható adatbázisba vagy keresőindexbe.
-
-## 6. lépés: A kinyert szöveg megjelenítése vagy mentése
-
-Végül **jelenítsük meg a kinyert szöveget**, és opcionálisan írjuk ki egy fájlba a későbbi feldolgozáshoz.
-
-```csharp
-        // Step 6: Output the result to console
-        Console.WriteLine("=== Full OCR Result ===");
-        Console.WriteLine(recognizedText);
-
-        // Optional: Save to a .txt file
-        System.IO.File.WriteAllText(@"C:\Invoices\extracted_text.txt", recognizedText);
+        // Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
     }
 }
 ```
 
-A program futtatása kiírja a felismert karaktereket, és a forrás TIFF mellett létrehozza az `extracted_text.txt` fájlt.
+> **Ami látható lesz:**  
+> A konzol egy tiszta, sortöréseket megőrző változatot nyomtat a szövegről. Ha a custom dictionary tartalmazza a “Aspose” és “OCR” szavakat, azok pontosan úgy fognak megjelenni, ahogy definiáltad, még ha a kép kissé zajos is.
+
+## Teljes, működő példa
+
+Az alábbi **teljes, másolás‑beillesztésre kész** program. Cseréld le a `YOUR_DIRECTORY`-t a tényleges mappára, ahol a szótárat és a képet tárolod.
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Aspose.OCR;
+using Aspose.OCR.Models;
+
+class CustomDictionaryDemo
+{
+    static void Main()
+    {
+        // Step 1: Initialise the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
+
+        // Step 2: Load a custom dictionary and assign it to the engine configuration
+        HashSet<string> customDictionary = new HashSet<string>(
+            File.ReadAllLines(@"YOUR_DIRECTORY/custom_dictionary.txt"));
+        ocrEngine.Configuration.CustomDictionary = customDictionary;
+
+        // Step 3: Load the image that contains the text to be recognized
+        ImageStream image = ImageStream.FromFile(@"YOUR_DIRECTORY/input_image.png");
+
+        // Step 4: Run the OCR process on the image
+        OcrResult ocrResult = ocrEngine.Recognize(image);
+
+        // Step 5: Display the extracted plain text
+        Console.WriteLine("=== Extracted Text ===");
+        Console.WriteLine(ocrResult.PlainText);
+    }
+}
+```
+
+**Várható kimenet** (feltételezve, hogy a kép a “Welcome to Aspose OCR Demo” szöveget tartalmazza)  
+
+```
+=== Extracted Text ===
+Welcome to Aspose OCR Demo
+```
+
+Ha az “Aspose” a custom dictionary-ben van, a helyesírás tökéletes lesz még akkor is, ha a kép enyhe elmosódást mutat.
+
+## Gyakran Ismételt Kérdések
+
+### Hogyan **read dictionary file** különböző kódolásokkal?
+
+Használd a `File.ReadAllLines(path, Encoding.UTF8)` (vagy `Encoding.Unicode`) függvényt a fájl kódolásának megfelelően. Ez megakadályozza, hogy rejtett karakterek kerüljenek a `HashSet`-be.
+
+### Mi van, ha az OCR eredmény még mindig kihagy egy szót a szótáradból?
+
+Győződj meg róla, hogy a szó nagybetű- és kisbetű írásmódja megegyezik a szótárbejegyzéssel, vagy állítsd be a `ocrEngine.Configuration.IgnoreCase = true` értéket. Emellett ellenőrizd, hogy a kép felbontása legalább 300 dpi legyen a legjobb eredményért.
+
+### Kihúzhatok **extract plain text** PDF‑ből a képek helyett?
+
+Igen—az Aspose.PDF képes minden oldalt képpé renderelni, majd ezeket a képeket betáplálni ugyanabba az OCR folyamatba. A munkafolyamat azonos; csak egy PDF‑kép konverziós lépést kell hozzáadni.
+
+### Van mód **how to add custom dictionary** futásidőben több nyelvhez?
+
+Természetesen. Hozz létre egy külön `HashSet<string>`-et nyelvenként, és cseréld ki a `ocrEngine.Configuration.CustomDictionary`-t minden `Recognize` hívás előtt.
+
+## Tippek és trükkök a jobb pontosságért
+
+- **Pre‑process the image**: Konvertáld szürkeárnyalatúvá, növeld a kontrasztot, vagy alkalmazz enyhe Gaussian blur-t a szemcsék eltávolításához.
+- **Batch processing**: Ha tucatnyi képed van, használd újra ugyanazt a `OcrEngine` példányt; minden alkalommal újra inicializálni felesleges terhet jelent.
+- **Log the raw OCR data**: A `ocrResult.TextLines` soronkénti bizalmi pontszámokat ad, ami hasznos a post‑processinghez vagy az alacsony bizalomú eredmények jelzéséhez.
+
+## Következő lépések
+
+Most, hogy tudod, **how to extract text** és **how to add custom dictionary**, fontold meg ezeket a további témákat:
+
+1. **Integrate with ASP.NET Core** – egy API végpont kiépítése, amely képet fogad és JSON‑formátumú OCR eredményt ad vissza.  
+2. **Combine with Entity Framework** – a kinyert extract plain text közvetlenül adatbázisba mentése kereshető rekordokként.  
+3. **Explore language detection** – a szótárak automatikus váltása a felismert nyelvkódok alapján.
+
+Ezek mind a útmutatóban lefektetett alapokra épülnek, lehetővé téve, hogy egy egyszerű **recognize text from image** kódrészletet egy éles környezetben használható szolgáltatássá alakítsd.
 
 ---
 
-## Gyakori kérdések és speciális esetek
-
-- **Mi van, ha a GPU nem kerül felismerésre?**  
-  Távolítsd el a `GpuDevice` sort; a motor automatikusan CPU‑ra vált. A teljesítmény lassabb lesz, de az eredmények továbbra is pontosak.
-
-- **Feldolgozhatok PNG vagy JPEG fájlokat is?**  
-  Természetesen – a `Image.FromFile` bármely, a System.Drawing által támogatott formátummal működik, így **betöltheted a képet OCR‑hez** a kiterjesztéstől függetlenül.
-
-- **Hogyan kezeljem az alacsony felbontású beolvasásokat?**  
-  Növeld az `ocrEngine.PreprocessOptions.Dpi` értékét a `Recognize` hívása előtt. A magasabb DPI több pixelt biztosít a motor számára, ami javítja a pontosságot.
-
-- **Van korlátozás a TIFF méretére?**  
-  A `GpuMemoryLimit` tulajdonság korlátozza a GPU használatát. Ha elérted a határt, a motor a maradék oldalakat CPU‑ra váltja.
-
----
-
-## Összegzés
-
-Most már van egy komplett, termelés‑kész kódrészlet, amely **szöveg felismerését képről** valósítja meg Aspose OCR‑rel C#‑ban. Az útmutató bemutatta, hogyan **hozd létre az OCR motort**, **töltsd be a képet OCR‑hez**, **állítsd be az OCR nyelvet**, és **nyerd ki a szöveget a TIFF‑ből** – mindezt GPU‑gyorsítással a sebesség növelése érdekében.
-
-Innen tovább:
-
-- Kísérletezz különböző nyelvekkel (`OcrLanguage.Spanish`, `OcrLanguage.ChineseSimplified`, stb.).
-- Integráld a kimenetet egy kereshető ElasticSearch indexbe.
-- Adj hozzá utófeldolgozást (helyesírás‑ellenőrzés, regex tisztítás) a adatminőség javításához.
-
-Próbáld ki a saját számlacsomagodon, állítsd be a memória korlátokat, és figyeld, ahogy az OCR teljesítmény szárnyra kap. Boldog kódolást!
-
-## Kapcsolódó oktatóanyagok
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/english/net/ocr-optimization/prepare-rectangles/)
-- [Extract Text from Image – Recognize Line with Aspose.OCR](/ocr/english/net/image-and-drawing-recognition/recognize-line/)
+*Boldog kódolást! Ha elakadsz, hagyj megjegyzést alább, vagy nézd meg az Aspose.OCR dokumentációt a mélyebb konfigurációs lehetőségekért. Ne feledd, egy jól megtervezett custom dictionary gyakran a titkos összetevő, amely a középszerű OCR‑t éles szövegkinyeréssé varázsolja.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
