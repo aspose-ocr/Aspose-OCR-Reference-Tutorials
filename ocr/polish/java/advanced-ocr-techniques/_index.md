@@ -148,6 +148,13 @@ Dowiedz się, jak skonfigurować GPU, aby przyspieszyć rozpoznawanie tekstu w A
 Dowiedz się, jak w pełni wykorzystać Aspose.OCR do tworzenia przeszukiwalnych plików PDF w Javie.
 ### [Jak wyprostować obraz dla OCR – Przewodnik przetwarzania wstępnego w Javie](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Dowiedz się, jak wyprostować obrazy przed OCR w Javie, aby zwiększyć dokładność rozpoznawania tekstu.
+### [Rozpoznawanie tekstu z obrazu – OCR w Javie z przyspieszeniem GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Wykorzystaj przyspieszenie GPU, aby szybko i dokładnie rozpoznawać tekst z obrazów w Javie przy użyciu Aspose.OCR.
+### [Ustaw maksymalną liczbę wątków w Aspose.OCR dla Java – przyspiesz OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Zwiększ wydajność OCR, ustawiając maksymalną liczbę wątków w Aspose.OCR dla Java, co przyspiesza przetwarzanie obrazów.
+### [image to text java – Kompletny przewodnik przetwarzania wstępnego OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Poznaj techniki wstępnego przetwarzania obrazów, aby maksymalizować dokładność OCR w Javie przy użyciu Aspose.OCR.
+### [Wykonywanie OCR na TIFF – strumieniowanie dużych TIFF i wyodrębnianie fragmentów tekstu w Javie](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

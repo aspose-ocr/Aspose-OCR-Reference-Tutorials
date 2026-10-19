@@ -157,6 +157,14 @@ Pelajari cara mengenali teks tulisan tangan dengan akurasi tinggi menggunakan As
 Pelajari cara mengatur GPU untuk meningkatkan akurasi OCR dan mempercepat proses pengenalan teks dari gambar.
 ### [Cara Memperbaiki Kemiringan Gambar untuk OCR – Panduan Pra‑Pemrosesan Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Pelajari cara memperbaiki kemiringan gambar sebelum OCR menggunakan Java untuk meningkatkan akurasi ekstraksi teks.
+### [Mengenali Teks dari Gambar – OCR Java dengan Akselerasi GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Tingkatkan kecepatan OCR pada gambar dengan akselerasi GPU di Java. Ekstrak teks secara cepat dan akurat menggunakan Aspose.OCR.
+### [Mengatur Jumlah Thread Maksimum di Aspose OCR Java – Mempercepat OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Tingkatkan kecepatan OCR dengan mengatur jumlah thread maksimum di Aspose OCR untuk Java. Optimalkan kinerja aplikasi Anda.
+### [Mengubah Gambar menjadi Teks Java – Panduan Lengkap Pra‑Pemrosesan OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Panduan lengkap untuk mempersiapkan gambar sebelum OCR di Java, meningkatkan akurasi dan kecepatan ekstraksi teks.
+### [Cara OCR TIFF – Streaming TIFF Besar dan Mengekstrak Tile Teks di Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Ekstrak teks dari file TIFF berukuran besar secara efisien dengan streaming dan tile teks menggunakan Aspose.OCR untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

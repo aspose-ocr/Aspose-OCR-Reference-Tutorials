@@ -155,6 +155,13 @@ Tanulja meg, hogyan konfigurálja a GPU-t az OCR-hez, hogy gyorsan és pontosan 
 Készítsen kereshető PDF-et Java segítségével részletes lépésről-lépésre útmutatóval.
 ### [Kép dőlésének korrigálása OCR-hez – Java előfeldolgozási útmutató](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Tanulja meg, hogyan állítsa egyenesre a képeket az OCR pontosságának javítása érdekében Java-ban.
+### [Szöveg felismerése képről – Java OCR GPU gyorsítással](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+GPU gyorsítással javítja a Java OCR teljesítményét képek szövegének felismerésénél.
+### [Maximális szálak beállítása az Aspose OCR Java-ban – Az OCR felgyorsítása](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Állítsa be a maximális szálak számát az Aspose OCR Java-ban a teljesítmény növelése érdekében.
+### [Kép szöveggé Java – Teljes OCR előfeldolgozási útmutató](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Ismerje meg az OCR előfeldolgozási lépéseket Java-ban a szövegkivonás pontosságának növeléséhez.
+### [TIFF OCR – Nagy TIFF fájlok streamelése és szövegtáblák kinyerése Java-ban](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

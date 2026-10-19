@@ -152,6 +152,14 @@ Lernen Sie, wie Sie die GPU für Aspose.OCR konfigurieren, um Text aus Bildern s
 Erfahren Sie, wie Sie mit Aspose.OCR für Java durchsuchbare PDFs erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man ein Bild für OCR begradigt – Java-Vorverarbeitungsleitfaden](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Erfahren Sie, wie Sie Bilder in Java vor der OCR begradigen, um die Erkennungsgenauigkeit zu verbessern.
+### [Wie man TIFF OCR durchführt – Große TIFFs streamen und Textkacheln in Java extrahieren](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Nutzen Sie Aspose.OCR für Java, um große TIFF-Dateien zu streamen und Textkacheln effizient zu extrahieren.
+### [Texterkennung aus Bild – Java OCR mit GPU-Beschleunigung](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Nutzen Sie GPU-Beschleunigung, um Text aus Bildern mit Aspose.OCR für Java schnell und präzise zu extrahieren.
+### [Maximale Thread-Anzahl in Aspose OCR Java festlegen – OCR beschleunigen](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Steigern Sie die OCR-Leistung, indem Sie die maximale Thread-Anzahl in Aspose OCR für Java konfigurieren.
+### [Bild zu Text Java – Vollständiger OCR‑Vorverarbeitungs‑Leitfaden](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java die Bildvorverarbeitung optimieren, um die OCR‑Genauigkeit zu maximieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

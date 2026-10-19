@@ -147,6 +147,14 @@ Boost OCR accuracy for handwritten text with this comprehensive guide, covering 
 Enable GPU acceleration in Aspose.OCR for Java to speed up text recognition from images.
 ### [Create Searchable PDF with Java – Complete Guide](./create-searchable-pdf-with-java-complete-guide/)
 Learn how to generate searchable PDFs from images using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
+### [set max threads in Aspose OCR Java – Speed up OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Learn how to configure the maximum number of threads in Aspose.OCR for Java to boost OCR performance and speed up processing.
+### [recognize text from image – Java OCR with GPU Acceleration](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Accelerate OCR processing with GPU support in Java, boosting speed and accuracy for image text extraction.
+### [how to ocr tiff – Stream Large TIFFs and Extract Text Tiles in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Learn how to process large multi‑page TIFF files and extract text from individual tiles using Aspose.OCR for Java.
+### [image to text java – Complete OCR Pre‑Processing Guide](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Comprehensive guide to OCR pre‑processing in Java, covering image cleanup, deskewing, noise reduction, and preparation for accurate text extraction.
 
 ## Frequently Asked Questions
 

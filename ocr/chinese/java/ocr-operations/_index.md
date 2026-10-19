@@ -127,6 +127,12 @@ weight: 21
 ### [从图像中提取印地语文本 – Java OCR 示例](./extract-hindi-text-from-images-java-ocr-example/)
 ### [如何在 Java 中使用 Aspose OCR 执行 OCR – 步骤指南](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 完整的分步教程，演示在 Java 环境下使用 Aspose OCR 进行图像文字识别的全过程。
+### [Aspose OCR Java 示例 – 快速将图像转换为文本](./aspose-ocr-java-example-convert-image-to-text-fast/)
+演示如何使用 Aspose OCR for Java 高效地将图像转换为可编辑文本的完整示例。
+### [使用 Java OCR 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+详细演示如何使用 Aspose.OCR for Java 将 PDF 转换为可搜索的文档，包含完整代码示例和最佳实践。
+### [使用 Aspose OCR 从图像提取文本 – 加载图像进行 OCR](./extract-text-from-image-java-load-image-for-ocr/)
+演示如何在 Java 中加载图像并使用 Aspose OCR 提取文本的完整示例。
 
 ## 常见问题
 

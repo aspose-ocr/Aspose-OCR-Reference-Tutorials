@@ -126,6 +126,12 @@ Aspose OCR Java を使用して画像からテキストを抽出する方法を�
 ### [画像からヒンディー語テキストを抽出 – Java OCR 例](./extract-hindi-text-from-images-java-ocr-example/)
 Aspose.OCR for Java を使用して、画像内のヒンディー語テキストを抽出する手順をステップバイステップで解説します。
 ### [Aspose OCR を使用した Java の OCR 実行方法 – ステップバイステップガイド](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+### [Aspose OCR Java 例 – 画像を高速でテキストに変換](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Aspose OCR を使用して画像を迅速にテキストへ変換するシンプルな Java サンプルです。基本的な実装手順を解説します。
+### [Java OCR で検索可能な PDF を作成 – ステップバイステップガイド](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Java と Aspose.OCR を使用して、検索可能な PDF を作成する手順を詳しく解説します。
+### [画像からテキストを抽出する Java – OCR 用に画像をロード](./extract-text-from-image-java-load-image-for-ocr/)
+Java で画像を読み込み、Aspose.OCR を使用してテキストを抽出する基本的な手順を解説します。
 
 ## よくある質問
 

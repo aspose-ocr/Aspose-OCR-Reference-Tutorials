@@ -130,6 +130,12 @@ En komplett guide som visar hur du använder Aspose OCR för att känna igen tex
 En steg‑för‑steg‑guide för att extrahera hindi‑text från bilder med Aspose.OCR i Java.
 ### [Hur man utför OCR med Aspose OCR i Java – Steg‑för‑steg‑guide](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 En komplett steg‑för‑steg‑guide för att utföra OCR med Aspose OCR i Java.
+### [Aspose OCR Java‑exempel – Konvertera bild till text snabbt](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Snabb guide för att konvertera en bild till redigerbar text med Aspose OCR i Java.
+### [Skapa sökbar PDF med Java OCR – Steg‑för‑steg‑guide](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR för Java skapar en sökbar PDF‑fil steg för steg.
+### [Extrahera text från bild i Java – ladda bild för OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Snabb guide för att ladda en bild och extrahera text med Aspose OCR i Java.
 
 ## Vanliga frågor
 

@@ -145,6 +145,12 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Настройте GPU для ускорения OCR в Aspose.OCR для Java и распознавайте текст с изображений с высокой скоростью.
 
 ## [Создание поискового PDF с Java – Полное руководство](./create-searchable-pdf-with-java-complete-guide/)
+### [Распознавание текста из изображения – Java OCR с ускорением GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Воспользуйтесь ускорением GPU для быстрого распознавания текста из изображений в Java с помощью Aspose.OCR.
+### [Установка максимального количества потоков в Aspose OCR Java – ускорение OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+### [image to text java – Полное руководство по предобработке OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+### [Как выполнять OCR TIFF – Потоковая обработка больших TIFF и извлечение текстовых плиток в Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Узнайте, как обрабатывать большие TIFF‑файлы потоково и извлекать текстовые плитки с помощью Aspose.OCR для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

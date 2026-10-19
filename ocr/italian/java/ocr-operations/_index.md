@@ -131,6 +131,12 @@ Scopri come estrarre testo in lingua Hindi da immagini usando Aspose.OCR per Jav
 Scopri come eseguire l'OCR in Java con Aspose OCR passo‑passo, ottenendo risultati precisi e rapidi.
 ### [Creare PDF Ricercabile con Aspose.OCR – Guida Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 Scopri come trasformare PDF scansionati in PDF ricercabili usando Aspose.OCR per Java, passo‑passo per risultati precisi.
+### [Esempio Aspose OCR Java – Converti Immagine in Testo Rapido](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Scopri come convertire rapidamente un'immagine in testo usando Aspose OCR per Java, con un esempio pratico passo‑step.
+### [Crea PDF ricercabile con Java OCR – Guida passo‑passo](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Impara a generare PDF ricercabili usando Aspose.OCR per Java con istruzioni dettagliate passo‑passo.
+### [Estrai testo da immagine Java – Carica immagine per OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Impara a caricare un'immagine in Java e utilizzare Aspose.OCR per estrarre rapidamente il testo.
 
 ## Domande Frequenti
 

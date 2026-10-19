@@ -131,6 +131,12 @@ Odblokuj możliwość wyodrębniania tekstu w języku hindi z obrazów przy uży
 Kompletny przewodnik krok po kroku, jak zastosować Aspose OCR w Javie, aby uzyskać wysokiej jakości wyniki OCR.
 ### [Tworzenie przeszukiwalnego PDF przy użyciu Aspose.OCR – przewodnik Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 Utwórz przeszukiwalny PDF w Javie z Aspose.OCR, krok po kroku, aby dodać warstwę tekstu do dokumentów PDF.
+### [aspose ocr java example – Convert Image to Text Fast](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Szybko konwertuj obrazy na tekst przy użyciu Aspose.OCR w Javie, uzyskując wysoką dokładność i prostą integrację.
+### [Utwórz przeszukiwalny PDF przy użyciu Java OCR – przewodnik krok po kroku](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Krok po kroku pokażemy, jak przy użyciu Aspose.OCR w Javie utworzyć przeszukiwalny plik PDF z warstwą tekstową.
+### [Wyodrębnianie tekstu z obrazu w Javie – ładowanie obrazu do OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Szybki przewodnik, jak załadować obraz i wyodrębnić z niego tekst przy użyciu Aspose.OCR w Javie.
 
 ## Najczęściej zadawane pytania
 

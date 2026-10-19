@@ -164,6 +164,14 @@ GPU desteğiyle OCR performansını artırın ve görüntülerden hızlı ve do�
 Java kullanarak arama yapılabilir PDF oluşturun. Metni tanıyın ve PDF'yi düzenlenebilir hâle getirin. Hemen indirin.
 ### [OCR için Görüntüyü Düzeltme – Java Ön İşleme Kılavuzu](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Java ile OCR ön işleme adımlarında görüntüyü eğriltme (deskew) işlemini nasıl yapacağınızı öğrenin. Metin tanıma doğruluğunu artırın.
+### [Görüntüden Metin Tanıma – Java OCR ve GPU Hızlandırması](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Java OCR ile GPU hızlandırmalı görüntülerden metin çıkarın ve yüksek performans elde edin.
+### [Aspose OCR Java'da Maksimum İş Parçacığını Ayarlama – OCR'ı Hızlandırma](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Aspose OCR Java'da iş parçacığı sayısını ayarlayarak OCR performansını artırın. Hızlı ve verimli metin çıkarma için adım adım rehber.
+### [Java'da Görüntüden Metne – Tam OCR Ön İşleme Rehberi](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Java uygulamalarınızda OCR ön işleme adımlarını tam olarak öğrenin ve metin tanıma doğruluğunu artırın.
+### [TIFF'te OCR Nasıl Yapılır – Java'da Büyük TIFF'leri Akıtma ve Metin Döşemelerini Çıkarma](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Java'da büyük TIFF dosyalarını akıtıp metin döşemelerini çıkarmak için adım adım rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@ Desbloqueie o poder da extração de texto de imagens com Aspose.OCR para Java. 
 Desbloqueie a extração precisa de texto de imagens com Aspose.OCR para Java. Siga nosso guia passo a passo para OCR preciso com seleção de idioma.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Desbloqueie o poder do OCR em Java com Aspose.OCR. Reconheça texto em documentos PDF sem esforço. Impulsione suas aplicações com precisão e velocidade.
+### [Create searchable PDF with Java OCR – Step‑by‑step Guide](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Aprenda a criar PDFs pesquisáveis usando OCR em Java com este guia passo a passo, cobrindo configuração e melhores práticas.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Desbloqueie um poderoso reconhecimento de texto em Java com Aspose.OCR. Reconheça texto em imagens TIFF sem esforço. Baixe agora para uma experiência de OCR perfeita.
 ### [Como fazer OCR em lote no Java – Guia completo para extrair texto de imagens](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
@@ -132,6 +134,10 @@ Aprenda a extrair texto em Hindi de imagens usando Aspose.OCR para Java com um e
 Aprenda passo a passo a usar Aspose OCR em Java para extrair texto de imagens e PDFs com alta precisão.
 ### [Criar PDF pesquisável com Aspose.OCR – Guia Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 Aprenda a gerar PDFs pesquisáveis usando Aspose.OCR em Java, passo a passo, com dicas de configuração e melhores práticas.
+### [Exemplo Aspose OCR Java – Converter Imagem em Texto Rápido](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Aprenda a converter rapidamente imagens em texto usando Aspose OCR para Java com este exemplo prático.
+### [Extrair texto de imagem Java – carregar imagem para OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Aprenda a carregar imagens em Java e extrair texto usando Aspose.OCR, passo a passo para reconhecimento rápido e preciso.
 
 ## Perguntas Frequentes
 

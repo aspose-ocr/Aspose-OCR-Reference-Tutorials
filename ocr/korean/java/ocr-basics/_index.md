@@ -139,6 +139,9 @@ Aspose OCR을 사용하여 이미지에서 타밀어 텍스트를 정확하게 �
 ### [Java에서 이미지에 OCR 수행 – JPG에서 텍스트 추출](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 
 JPG 파일을 사용해 OCR을 수행하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 이미지에서 텍스트 인식 – 완전 OCR 튜토리얼](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+
+이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내하며, 설정, 전처리 및 인식까지 모두 다룹니다.
 
 ---
 

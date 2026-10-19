@@ -124,6 +124,8 @@ weight: 20
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose.OCR σε Java με βήμα‑βήμα οδηγίες.
 ### [Perform OCR on Image in Java – Extract Text from JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Εκτελέστε OCR σε εικόνα JPG με Java και εξάγετε το κείμενο γρήγορα. Ακολουθήστε τον βήμα‑βήμα οδηγό για ακριβή αποτελέσματα.
+### [Αναγνώριση κειμένου από εικόνα σε Java – Πλήρης Οδηγός OCR](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Μάθετε βήμα‑βήμα πώς να αναγνωρίζετε κείμενο από εικόνες σε Java χρησιμοποιώντας το Aspose.OCR, από την προετοιμασία μέχρι την εξαγωγή.
 
 ---
 

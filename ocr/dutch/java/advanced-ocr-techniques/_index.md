@@ -147,6 +147,13 @@ Leer hoe u afbeeldingen corrigeert voor OCR met Java, inclusief kantelfoutcorrec
 Leer hoe u tekst uit afbeeldingen haalt met Aspose OCR in Java, stap voor stap voor nauwkeurige extractie.
 ### [Detecteer taal van afbeelding met Aspose OCR – Java‑tutorial](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Leer hoe u de taal van een afbeelding detecteert met Aspose OCR in Java, voor automatische taalherkenning en nauwkeurige tekstextractie.
+### [Tekst herkennen van afbeelding – Java OCR met GPU-versnelling](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Versnel OCR in Java met GPU-ondersteuning voor snelle en nauwkeurige tekstherkenning uit afbeeldingen.
+### [max threads instellen in Aspose OCR Java – Versnel OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Stel het maximale aantal threads in voor Aspose OCR Java om de OCR-snelheid te verhogen.
+### [Afbeelding naar tekst Java – Complete OCR-preprocessengids](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Leer hoe u afbeeldingen optimaliseert vóór OCR in Java voor maximale nauwkeurigheid en snelheid.
+### [OCR uitvoeren op TIFF – Grote TIFF's streamen en teksttegels extraheren in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

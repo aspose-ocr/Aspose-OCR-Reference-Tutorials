@@ -134,6 +134,12 @@ Learn how to extract Hindi text from images using Aspose.OCR for Java, with code
 ### [How to Perform OCR with Aspose OCR in Java – Step‑by‑Step Guide](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Step‑by‑step guide to performing OCR with Aspose OCR in Java, covering setup, configuration, and best practices.
 ### [Create Searchable PDF with Aspose.OCR – Java Guide](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+### [Create searchable PDF with Java OCR – Step‑by‑step Guide](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Step‑by‑step guide to creating searchable PDFs using Aspose.OCR for Java, covering setup, OCR processing, and saving results.
+### [aspose ocr java example – Convert Image to Text Fast](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Fast Java example showing how to convert images to text using Aspose.OCR, covering setup and optimal performance.
+### [extract text from image java – load image for OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Learn how to load an image and extract its text using Aspose.OCR for Java in a simple, step‑by‑step tutorial.
 
 ## Frequently Asked Questions
 

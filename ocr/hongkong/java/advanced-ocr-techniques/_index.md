@@ -42,7 +42,6 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR 為您的 Java 應用程式提供精確的文字辨識功能。本教學將引導您輕鬆整合並實現高精度的線條識別。利用 Aspose.OCR 的效率和可靠性提升您的專案。
 
 ## [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
-使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
 ### [在 Aspose OCR GPU 中使用 Java 辨識文字影像](./recognize-text-image-using-aspose-ocr-gpu-java/)
 利用 Aspose OCR GPU 加速 Java 應用程式的文字影像辨識，實現高效能與高精度的 OCR 處理。
 
@@ -131,6 +130,35 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR for Java 進行影像校正，消除傾斜以提升 OCR 準確度，完整前處理步驟說明。
 ### [在 Java 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-with-java-complete-guide/)
 使用 Aspose.OCR for Java 在 Java 中將 PDF 轉換為可搜尋的文件，完整步驟說明，提升文件可讀性與搜尋功能。
+### [在 Aspose.OCR for Java 中對 BufferedImage 執行 OCR](./perform-ocr-buffered-image/)
+使用 Aspose.OCR for Java 輕鬆對 BufferedImage 執行 OCR。將文字無縫地從圖像中提取。立即下載以獲得多功能文字辨識體驗。
+
+### [在 Aspose.OCR for Java 中對來自 URL 的映像執行 OCR](./perform-ocr-image-from-url/)
+使用 Aspose.OCR 在 Java 中解鎖無縫圖像文字擷取。高精度 OCR，易於整合。
+
+### [在Aspose.OCR中對特定頁面執行OCR](./perform-ocr-on-page/)
+透過我們在特定頁面上執行 OCR 的逐步指南來釋放 Aspose.OCR for Java 的強大功能。輕鬆從圖像中提取文字並增強您的 Java 專案。
+
+### [在 Aspose.OCR 中為 OCR 準備矩形](./prepare-rectangles-for-ocr/)
+使用 Aspose.OCR for Java 釋放文字辨識的強大功能。請按照我們的逐步指南進行無縫整合。透過高效的 OCR 功能增強您的 Java 應用程式。
+
+### [在 Aspose.OCR for Java 中辨識線條](./recognize-lines/)
+使用 Aspose.OCR 為您的 Java 應用程式提供精確的文字辨識功能。集成方便，精度高。
+
+### [在 Aspose.OCR 中指定允許的字符](./specify-allowed-characters/)
+使用 Aspose.OCR for Java 無縫解鎖圖片中的文字擷取。請遵循我們的逐步指南以實現高效整合。
+
+### [使用 GPU 加速的 Java OCR 進行圖像文字辨識](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+利用 GPU 加速，使用 Aspose.OCR for Java 高效從圖像中提取文字，提升辨識速度與精度。
+
+### [在 Aspose OCR Java 中設定最大執行緒以加速 OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+透過設定最大執行緒數量，提升 Aspose OCR Java 的處理效能，加快文字辨識速度。
+
+### [在 Java 中將圖像轉換為文字 – 完整的 OCR 前處理指南](./image-to-text-java-complete-ocr-pre-processing-guide/)
+本指南深入探討 OCR 前處理步驟，提升圖像文字辨識的準確度與效能，適用於 Java 開發者。
+
+### [如何在 Java 中 OCR TIFF – 串流大型 TIFF 並提取文字瓦片](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+使用 Aspose.OCR for Java 串流處理大型 TIFF 檔案，並將圖像分割為文字瓦片以高效提取文字。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

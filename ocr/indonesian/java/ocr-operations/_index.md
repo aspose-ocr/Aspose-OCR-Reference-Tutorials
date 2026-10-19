@@ -131,6 +131,12 @@ Panduan lengkap mengenali teks dari gambar menggunakan Aspose OCR untuk Java, me
 Panduan singkat mengekstrak teks Hindi dari gambar menggunakan Aspose.OCR untuk Java dengan contoh kode lengkap.
 ### [Cara Melakukan OCR dengan Aspose OCR di Java – Panduan Langkah-demi-Langkah](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Panduan lengkap langkah demi langkah untuk mengimplementasikan OCR menggunakan Aspose OCR di Java, mulai dari konfigurasi hingga hasil akhir.
+### [Contoh Aspose OCR Java – Mengonversi Gambar ke Teks dengan Cepat](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Pelajari cara cepat mengonversi gambar menjadi teks menggunakan Aspose OCR untuk Java dengan contoh kode praktis.
+### [Membuat PDF yang Dapat Dicari dengan OCR Java – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Panduan lengkap langkah demi langkah untuk membuat PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
+### [Ekstrak teks dari gambar Java – memuat gambar untuk OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Panduan memuat gambar dan mengekstrak teks menggunakan Aspose.OCR untuk Java.
 
 ## Pertanyaan yang Sering Diajukan
 

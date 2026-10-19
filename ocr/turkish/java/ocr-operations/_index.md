@@ -96,6 +96,12 @@ Java ve Aspose.OCR kullanarak görsellerden Hint dilinde metin çıkarma adımla
 Java’da Aspose OCR kullanarak adım adım OCR işlemini nasıl gerçekleştireceğinizi öğrenin.
 ### [Aspose.OCR ile Aranabilir PDF Oluşturma – Java Rehberi](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 Aspose.OCR for Java kullanarak PDF dosyalarını aranabilir hale getirme adımlarını öğrenin.
+### [Aspose OCR Java Örneği – Görüntüyü Hızlıca Metne Dönüştür](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Java'da Aspose OCR kullanarak bir görüntüyü hızlıca metne dönüştürmeyi adım adım gösteren örnek öğretici.
+### [Java OCR ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Java'da Aspose.OCR kullanarak PDF'leri aranabilir hâle getirme sürecini adım adım öğrenin.
+### [Görüntüden Metin Çıkarma Java – OCR için Görüntü Yükleme](./extract-text-from-image-java-load-image-for-ocr/)
+Java'da Aspose OCR ile bir görüntüyü yükleyip metne dönüştürme adımlarını gösteren öğretici.
 
 ## Sıkça Sorulan Sorular
 

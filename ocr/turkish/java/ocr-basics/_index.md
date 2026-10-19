@@ -126,6 +126,9 @@ Java kullanarak PNG dosyalarından metin çıkarın. Aspose OCR ile adım adım 
 Java’da Aspose.OCR kullanarak görüntülerden metin çıkarma adımlarını öğrenin ve OCR doğruluğunu artırın.
 ### [Java’da Görüntü Üzerinde OCR Yapma – JPG’den Metin Çıkarma](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Java’da JPG görüntüsünden metin çıkarmak için adım‑adım rehber. Aspose.OCR ile hızlı ve doğru OCR işlemi yapın.
+### [Java’da Görüntüden Metin Tanıma – Tam OCR Eğitimi](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+
+Java’da Aspose.OCR ile görüntülerden metin çıkarmayı adım adım öğrenin ve tam OCR sürecini keşfedin.
 
 ---
 

@@ -144,6 +144,14 @@ Scopri come correggere l'inclinazione delle immagini prima dell'OCR in Java per 
 Scopri come impostare la GPU per migliorare le prestazioni OCR e riconoscere rapidamente il testo nelle immagini.
 ### [Creare PDF Ricercabile con Java – Guida Completa](./create-searchable-pdf-with-java-complete-guide/)
 Impara a generare PDF ricercabili in Java usando Aspose.OCR, con esempi passo passo per estrarre e incorporare testo.
+### [Riconoscimento del testo da immagine – OCR Java con accelerazione GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Sfrutta la potenza della GPU per accelerare l'OCR in Java, riconoscendo rapidamente il testo dalle immagini con alta precisione.
+### [Imposta il numero massimo di thread in Aspose OCR Java – Velocizza l'OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Imposta il numero massimo di thread per migliorare le prestazioni dell'OCR in Java con Aspose OCR.
+### [image to text java – Guida completa alla pre‑elaborazione OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Scopri come ottimizzare le immagini prima dell'OCR in Java per ottenere risultati più accurati e veloci.
+### [Come fare OCR su TIFF – Trasmetti grandi TIFF ed estrai riquadri di testo in Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Elabora file TIFF di grandi dimensioni in Java, sfruttando lo streaming per estrarre rapidamente le tessere di testo con Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

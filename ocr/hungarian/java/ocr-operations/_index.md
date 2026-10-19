@@ -115,6 +115,11 @@ Ismerd meg, hogyan tölts be képet Java-ban az Aspose.OCR használatával, és 
 Részletes útmutató az OCR végrehajtásához az Aspose OCR Java API-val, lépésről‑lépésre.
 ### [Kereshető PDF létrehozása az Aspose.OCR segítségével – Java útmutató](./create-searchable-pdf-with-aspose-ocr-java-guide/)
 Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR Java könyvtárral.
+### [Kereshető PDF létrehozása Java OCR-rel – Lépésről lépésre útmutató](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+### [Aspose OCR Java példa – Kép gyors szöveggé konvertálása](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Gyors útmutató a képek szöveggé alakításához az Aspose.OCR for Java segítségével, egyszerű kóddal és magas pontossággal.
+### [Képből szöveg kinyerése Java – kép betöltése OCR-hez](./extract-text-from-image-java-load-image-for-ocr/)
+Tanulja meg, hogyan töltsön be képet Java-ban és használja az Aspose.OCR-t a szöveg gyors kinyeréséhez.
 
 ## Gyakran Ismételt Kérdések
 

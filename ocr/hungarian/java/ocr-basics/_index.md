@@ -121,6 +121,8 @@ Gyorsan tanulja meg, hogyan nyerjen ki szöveget képekből az Aspose OCR Java h
 Ismerje meg, hogyan nyerhet ki szöveget képekből Java használatával az Aspose.OCR segítségével.
 ### [OCR végrehajtása képen Java-ban – Szöveg kinyerése JPG-ből](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Ismerje meg, hogyan használja az Aspose.OCR for Java könyvtárat JPG képek szövegének gyors és pontos kinyeréséhez.
+### [Képről szöveg felismerése Java-ban – Teljes OCR útmutató](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Ismerje meg lépésről‑lépésre, hogyan használja az Aspose.OCR-t a képek szövegének teljes körű felismerésére Java-ban.
 
 ---
 

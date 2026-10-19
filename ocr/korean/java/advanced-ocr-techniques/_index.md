@@ -148,6 +148,14 @@ GPU를 설정하여 OCR 성능을 향상시키고 이미지에서 텍스트를 �
 Java와 Aspose.OCR을 사용해 검색 가능한 PDF를 손쉽게 생성하고 텍스트 인식을 구현하는 완전 가이드입니다.
 ### [OCR을 위한 이미지 기울기 보정 – Java 전처리 가이드](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Java 전처리 단계에서 이미지 기울기를 보정하여 OCR 정확도를 높이는 방법을 단계별로 안내합니다.
+### [GPU 가속을 활용한 Java OCR로 이미지에서 텍스트 인식](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+GPU 가속을 활용한 Java OCR로 이미지 텍스트를 빠르고 정확하게 추출합니다. 고성능 인식을 원한다면 지금 확인하세요.
+### [Aspose OCR Java에서 최대 스레드 수 설정 – OCR 속도 향상](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Aspose OCR Java의 스레드 수를 최적화하여 OCR 처리 속도를 높이는 방법을 단계별로 안내합니다.
+### [이미지에서 텍스트 추출 Java – 완전한 OCR 전처리 가이드](./image-to-text-java-complete-ocr-pre-processing-guide/)
+이미지 전처리 단계별 가이드를 통해 Java에서 텍스트 추출 정확도를 높이고 OCR 성능을 최적화하세요.
+### [Java에서 대용량 TIFF 스트리밍 및 텍스트 타일 추출을 통한 OCR 방법](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Java용 Aspose.OCR을 사용해 대용량 TIFF 파일을 스트리밍하고 텍스트 타일을 추출하여 효율적으로 OCR을 수행합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

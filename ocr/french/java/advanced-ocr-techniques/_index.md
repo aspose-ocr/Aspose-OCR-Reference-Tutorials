@@ -150,6 +150,14 @@ Apprenez à générer des PDF contenant du texte sélectionnable à partir d'ima
 
 ### [Comment redresser une image pour l'OCR – Guide de prétraitement Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Apprenez à corriger l'inclinaison des images avant l'OCR en Java avec Aspose.OCR pour améliorer la précision.
+### [Reconnaître du texte à partir d'une image – OCR Java avec accélération GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Effectuez l'OCR d'images avec accélération GPU en Java, pour une extraction de texte ultra‑rapide et précise.
+### [Définir le nombre maximal de threads dans Aspose OCR Java – Accélérer l'OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Apprenez à configurer le nombre maximal de threads pour optimiser les performances d'Aspose OCR en Java et accélérer le traitement des images.
+### [Image à texte Java – Guide complet de pré‑traitement OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Effectuez le pré‑traitement complet des images avant l'OCR en Java avec Aspose.OCR, pour une extraction de texte optimale et rapide.
+### [Comment OCR un TIFF – Diffuser de grands TIFF et extraire des tuiles de texte en Java](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Traitez des fichiers TIFF volumineux en flux et extrayez les zones de texte avec Aspose.OCR pour Java, pour une reconnaissance rapide et précise.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

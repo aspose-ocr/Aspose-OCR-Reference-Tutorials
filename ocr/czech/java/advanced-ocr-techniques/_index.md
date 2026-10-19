@@ -147,6 +147,14 @@ Naučte se, jak nastavit GPU pro zrychlené OCR a rozpoznávat text z obrázků 
 Kompletní návod, jak v Javě vytvořit prohledávatelný PDF soubor pomocí Aspose.OCR, s podrobnými kroky a ukázkovým kódem.
 ### [Jak vyrovnat obrázek pro OCR – Průvodce předzpracováním v Javě](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Naučte se, jak vyrovnat (deskew) obrázky před OCR v Javě a zlepšit přesnost rozpoznávání textu.
+### [Rozpoznání textu z obrázku – Java OCR s akcelerací GPU](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+Využijte GPU akceleraci pro rychlé rozpoznání textu z obrázků v Javě pomocí Aspose.OCR.
+### [Nastavte maximální počet vláken v Aspose OCR Java – Zrychlete OCR](./set-max-threads-in-aspose-ocr-java-speed-up-ocr/)
+Zvyšte výkon OCR nastavením maximálního počtu vláken v Aspose OCR pro Java. Rychlejší zpracování obrázků a vyšší propustnost.
+### [image to text java – Kompletní průvodce předzpracováním OCR](./image-to-text-java-complete-ocr-pre-processing-guide/)
+Kompletní průvodce předzpracováním OCR v Javě – převod obrázku na text s optimalizací kvality.
+### [Jak provést OCR TIFF – Streamování velkých TIFF souborů a extrakce textových dlaždic v Javě](./how-to-ocr-tiff-stream-large-tiffs-and-extract-text-tiles-in/)
+Zpracujte velké TIFF soubory a extrahujte textové dlaždice pomocí Aspose.OCR pro Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
