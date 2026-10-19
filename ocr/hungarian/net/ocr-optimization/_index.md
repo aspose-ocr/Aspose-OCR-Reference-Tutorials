@@ -252,6 +252,8 @@ Fedezze fel, hogyan növelheti az OCR pontosságát és hatékonyságát az Aspo
 Fedezze fel, hogyan növelheti az OCR pontosságát C# kóddal az Aspose OCR használatával.
 ### [Hogyan korrigálja a kép dőlését és növelje az OCR pontosságát C#‑ban – Lépésről‑lépésre útmutató](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Ismerje meg, hogyan egyenesítheti a képet és javíthatja az OCR pontosságát C#‑ban az Aspose.OCR használatával.
+### [Hogyan javítsuk az OCR pontosságát C#‑ban – Teljes útmutató](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Fedezze fel, hogyan növelheti az OCR pontosságát C#‑ban részletes útmutatónk segítségével.
 
 ## Gyakran Ismételt Kérdések
 

@@ -248,6 +248,8 @@ Panduan langkah demi langkah untuk menghasilkan PDF yang dapat dicari menggunaka
 Panduan langkah demi langkah untuk meningkatkan akurasi OCR dan mengekstrak teks dari gambar menggunakan Aspose.
 ### [Cara Memperbaiki Kemiringan Gambar dan Meningkatkan Akurasi OCR di C# – Panduan Langkah‑per‑Langkah](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Pelajari cara menghilangkan kemiringan gambar dan meningkatkan akurasi OCR menggunakan Aspose.OCR di C# dengan contoh langkah demi langkah.
+### [Cara Meningkatkan Akurasi OCR di C# – Panduan Lengkap](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Pelajari teknik dan pengaturan untuk meningkatkan akurasi OCR di C# dengan Aspose.OCR, termasuk preprocessing, parameter, dan validasi hasil.
 
 ## Pertanyaan yang Sering Diajukan
 

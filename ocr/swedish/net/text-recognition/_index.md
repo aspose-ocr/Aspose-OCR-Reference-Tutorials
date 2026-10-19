@@ -502,6 +502,18 @@ Lär dig hur du med Aspose.OCR för .NET skapar en sökbar PDF från en skannad 
 Lär dig hur du med Aspose OCR i C# extraherar text från bilder på ett enkelt sätt.
 ### [Aspose OCR-exempel – konvertera bildtext till JSON i C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
 Lär dig hur du med Aspose.OCR i C# konverterar text från en bild till JSON-format på ett enkelt sätt.
+### [Hur man använder Aspose OCR för att konvertera bild till text i C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Lär dig steg-för-steg hur du använder Aspose OCR i C# för att konvertera bilder till text.
+### [Extrahera text från bild i C# – Konvertera till JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Lär dig hur du med Aspose.OCR i C# extraherar text från bilder och konverterar resultatet till JSON och XML.
+### [Extrahera text från PNG – Komplett C# batch-OCR-handledning](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# batchbearbetar PNG-filer för att extrahera text effektivt.
+### [Hur man använder OCR i C# – Extrahera hindi-text från bilder](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar hindi-text från bilder.
+### [Hur man OCR:ar arabiska – C#-guide för att extrahera arabisk text](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# extraherar arabisk text från bilder.
+### [Skapa sökbar PDF från skannad bild – C#-guide](./create-searchable-pdf-from-scanned-image-c-guide/)
+Lär dig steg-för-steg hur du med Aspose.OCR i C# skapar en sökbar PDF från en skannad bild.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

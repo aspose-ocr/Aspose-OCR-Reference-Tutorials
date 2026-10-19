@@ -239,6 +239,8 @@ Demonstration av GPU‑accelererad batch‑bearbetning för att känna igen text
 Lär dig förbättra OCR‑noggrannheten och extrahera text från bilder med Aspose i en steg‑för‑steg‑guide.
 ### [Hur man räta upp bild och förbättrar OCR‑noggrannhet i C# – Steg‑för‑steg‑guide](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Lär dig att räta upp bilder och öka OCR‑precisionen med Aspose.OCR i C# med vår detaljerade steg‑för‑steg‑guide.
+### [Hur du förbättrar OCR‑noggrannhet i C# – Komplett guide](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Lär dig steg‑för‑steg tekniker för att öka OCR‑noggrannheten i C# med Aspose.OCR, inklusive förbehandling och parametrar.
 
 ## Vanliga frågor
 

@@ -477,6 +477,18 @@ Ontdek hoe u Chinese tekst nauwkeurig kunt extraheren met Aspose OCR in C#.
 Leer hoe u met Aspose.OCR in C# grote aantallen afbeeldingen efficiënt kunt verwerken en tekst extraheren in batch.
 ### [Tekst extraheren uit TIFF met Aspose OCR-engine – Volledig voorbeeld](./extract-text-from-tiff-with-aspose-ocr-engine-complete-examp/)
 Leer hoe u met Aspose OCR tekst uit TIFF‑afbeeldingen kunt extraheren met een volledig voorbeeld.
+### [Hoe Aspose OCR te gebruiken om een afbeelding naar tekst te converteren in C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Leer stap voor stap hoe u met Aspose OCR in C# afbeeldingen omzet naar bewerkbare tekst.
+### [Tekst extraheren uit PNG – Complete C# batch OCR-tutorial](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Leer hoe u met Aspose.OCR in C# tekst uit PNG-bestanden batchgewijs kunt extraheren en verwerken.
+### [Hoe OCR in C# te gebruiken – Hindi-tekst uit afbeeldingen extraheren](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Leer hoe u met Aspose.OCR in C# Hindi-tekst nauwkeurig uit afbeeldingen kunt extraheren en integreren in uw .NET-applicaties.
+### [Hoe OCR Arabisch – C#-gids om Arabische tekst te extraheren](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Leer stap voor stap hoe u met Aspose.OCR in C# Arabische tekst uit afbeeldingen kunt extraheren en integreren in uw .NET-applicaties.
+### [Maak doorzoekbare PDF van gescande afbeelding – C#-gids](./create-searchable-pdf-from-scanned-image-c-guide/)
+Leer hoe u met Aspose.OCR in C# een doorzoekbare PDF maakt van een gescande afbeelding.
+### [Tekst extraheren uit afbeelding in C# – Converteren naar JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt en deze omzet naar JSON- en XML-formaten voor eenvoudige verwerking.
 
 ### [Tekst extraheren uit afbeelding in C# – Complete OCR-gids](./extract-text-from-image-in-c-complete-ocr-guide/)
 Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt met een volledige stap‑voor‑stap OCR‑handleiding.

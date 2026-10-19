@@ -249,6 +249,8 @@ Poznaj, jak używać Aspose.OCR w C# do automatycznego obracania i prostowania o
 Dowiedz się, jak zwiększyć skuteczność OCR i wyodrębnić tekst z obrazów przy użyciu Aspose.OCR.
 ### [Jak wyrównać obraz i zwiększyć dokładność OCR w C# – przewodnik krok po kroku](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Dowiedz się, jak prostować obrazy i poprawić wyniki OCR w C# przy użyciu Aspose.OCR.
+### [Jak poprawić dokładność OCR w C# – Kompletny przewodnik](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Kompletny przewodnik, jak zwiększyć precyzję OCR w C# poprzez optymalizację ustawień, filtrowanie obrazu i korektę wyników.
 
 ## Często zadawane pytania
 

@@ -240,6 +240,8 @@ Ukázkový projekt, který využívá GPU akceleraci pro hromadné rozpoznáván
 Naučte se optimalizovat OCR a zvýšit přesnost extrakce textu z obrázků s nástroji Aspose.
 ### [Jak narovnat obrázek a zvýšit přesnost OCR v C# – krok za krokem](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Naučte se odstranit sklon obrázku a optimalizovat OCR pomocí Aspose.OCR v C# pro maximální přesnost.
+### [Jak zlepšit přesnost OCR v C# – Kompletní průvodce](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Zvyšte přesnost OCR v C# pomocí praktických tipů a technik. Kompletní průvodce pro vývojáře .NET.
 
 ## Často kladené otázky
 

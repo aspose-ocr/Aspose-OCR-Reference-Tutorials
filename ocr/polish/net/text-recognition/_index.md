@@ -496,6 +496,18 @@ Stwórz przeszukiwalny PDF z zeskanowanego dokumentu w C# przy użyciu Aspose.OC
 Dowiedz się, jak w C# przy użyciu Aspose OCR przekształcić obraz w tekst w kilku prostych krokach.
 ### [Przykład Aspose OCR – konwersja tekstu obrazu do JSON w C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
 Użyj Aspose.OCR w C#, aby przekształcić tekst z obrazu w format JSON w kilku prostych krokach.
+### [Jak używać Aspose OCR do konwersji obrazu na tekst w C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Dowiedz się, jak w prosty sposób przekształcić obrazy w tekst przy użyciu Aspose OCR w języku C#.
+### [Wyodrębnij tekst z PNG – Kompletny samouczek OCR wsadowego w C#](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Naucz się wyodrębniać tekst z plików PNG w trybie wsadowym przy użyciu Aspose.OCR i C#, krok po kroku.
+### [Jak używać OCR w C# – wyodrębnić tekst hindi z obrazów](./how-to-use-ocr-in-c-extract-hindi-text/)
+Dowiedz się, jak w C# przy użyciu Aspose.OCR wyodrębnić tekst w języku hindi z obrazów.
+### [Jak wykonać OCR arabskiego – przewodnik C# do wyodrębniania tekstu arabskiego](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# wyodrębnić tekst arabski z obrazów, krok po kroku.
+### [Utwórz przeszukiwalny PDF ze skanowanego obrazu – przewodnik C#](./create-searchable-pdf-from-scanned-image-c-guide/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# przekształcić zeskanowany obraz w przeszukiwalny plik PDF.
+### [Wyodrębnij tekst z obrazu w C# – konwersja do JSON i XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Naucz się wyodrębniać tekst z obrazów w C# i konwertować wyniki OCR do formatów JSON oraz XML przy użyciu Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

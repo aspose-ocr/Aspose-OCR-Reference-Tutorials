@@ -491,6 +491,17 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose OCR για ακριβή αναγνώριση.
 ### [Παράδειγμα Aspose OCR – Μετατροπή κειμένου εικόνας σε JSON σε C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
 Μάθετε πώς να μετατρέψετε το κείμενο από εικόνα σε μορφή JSON χρησιμοποιώντας Aspose OCR με C#.
+### [Πώς να χρησιμοποιήσετε το Aspose OCR για μετατροπή εικόνας σε κείμενο σε C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο χρησιμοποιώντας το Aspose OCR με C# σε βήμα-βήμα οδηγό.
+### [Εξαγωγή κειμένου από PNG – Πλήρης σεμινάριο OCR παρτίδας C#](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG σε παρτίδα χρησιμοποιώντας Aspose.OCR με C# σε βήμα-βήμα οδηγό.
+### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή κειμένου Hindi από εικόνες](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Μάθετε πώς να εξάγετε κείμενο Hindi από εικόνες χρησιμοποιώντας το Aspose.OCR με C# σε βήμα-βήμα οδηγό.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Μετατροπή σε JSON & XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# και να το μετατρέψετε σε μορφές JSON και XML με το Aspose.OCR.
+### [Πώς να κάνετε OCR Αραβικά – Οδηγός C# για εξαγωγή αραβικού κειμένου](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένη Ε εικόνα – Οδηγός C#](./create-searchable-pdf-from-scanned-image-c-guide/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF από σαρωμένη εικόνα με Aspose.OCR σε C# μέσω βήμα-βήμα οδηγού.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

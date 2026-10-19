@@ -242,6 +242,9 @@ Aspose の機能を活用し、OCR の精度と効率を向上させ、画像か
 ### [C# で画像のデスキューと OCR 精度を向上させる方法 – ステップバイステップガイド](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 画像の傾きを補正し、OCR の認識精度を大幅に向上させる手順を解説します。
 
+### [C# で OCR 精度を向上させる方法 – 完全ガイド](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+C# で OCR の精度を最大化するためのベストプラクティスと設定手順をステップバイステップで解説します。
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  

@@ -246,6 +246,8 @@ Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose OCR com C#.
 Aprenda técnicas avançadas para otimizar o OCR e extrair texto de imagens com alta precisão usando Aspose.
 ### [Como Corrigir Inclinação de Imagem e Melhorar a Precisão do OCR em C# – Guia Passo a Passo](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Aprenda a corrigir a inclinação de imagens e aumentar a precisão do OCR usando Aspose.OCR em C# com este guia passo a passo.
+### [Como melhorar a precisão do OCR em C# – Guia completo](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Aprenda técnicas avançadas para aumentar a precisão do OCR em C# usando Aspose.OCR, incluindo pré‑processamento e ajustes de parâmetros.
 
 ## Perguntas Frequentes
 

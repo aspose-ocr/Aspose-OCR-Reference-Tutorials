@@ -505,6 +505,18 @@ Naučte se pomocí Aspose.OCR vytvořit prohledávatelný PDF ze skenovaného do
 Naučte se pomocí Aspose.OCR pro .NET snadno extrahovat text z obrázku v C# a integrovat OCR do svých aplikací.
 ### [aspose ocr příklad – Převést text z obrázku do JSON v C#](./aspose-ocr-example-convert-image-text-to-json-in-c/)
 Naučte se pomocí Aspose.OCR převést rozpoznaný text z obrázku do formátu JSON v C#.
+### [Jak použít Aspose OCR k převodu obrázku na text v C#](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+Naučte se, jak pomocí Aspose OCR převést obrázek na text v C# a integrovat OCR do svých .NET aplikací.
+### [Extrahovat text z PNG – Kompletní C# dávkový OCR tutoriál](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+Naučte se, jak pomocí Aspose.OCR v C# dávkově extrahovat text z PNG souborů a integrovat OCR do svých aplikací.
+### [Jak použít OCR v C# – Extrahovat hindský text z obrázků](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat hindský text z obrázků a integrovat podporu hindštiny do svých .NET aplikací.
+### [Jak použít OCR pro arabštinu – průvodce C# pro extrakci arabského textu](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+Naučte se pomocí Aspose.OCR v C# extrahovat arabský text z obrázků a integrovat podporu arabštiny do svých .NET aplikací.
+### [Vytvoření prohledávatného PDF ze skenovaného obrázku – průvodce C#](./create-searchable-pdf-from-scanned-image-c-guide/)
+Naučte se pomocí Aspose.OCR v C# vytvořit prohledávatelný PDF soubor ze skenovaného obrázku a integrovat jej do vašich .NET aplikací.
+### [Extrahovat text z obrázku v C# – převést na JSON a XML](./extract-text-from-image-in-c-convert-to-json-xml/)
+Naučte se, jak pomocí Aspose.OCR v C# extrahovat text z obrázku a převést výsledek do formátů JSON a XML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

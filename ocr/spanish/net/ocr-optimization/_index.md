@@ -252,6 +252,8 @@ Demostración de procesamiento por lotes de imágenes PNG usando Aspose OCR con 
 Aprende a optimizar el OCR y extraer texto de imágenes usando Aspose, con técnicas avanzadas y mejores resultados.
 ### [Cómo enderezar una imagen y mejorar la precisión del OCR en C# – Guía paso a paso](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
 Aprende a corregir la inclinación de imágenes y optimizar el OCR con Aspose.OCR en C# mediante pasos claros y ejemplos prácticos.
+### [Cómo mejorar la precisión del OCR en C# – Guía completa](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Aprende técnicas avanzadas para aumentar la exactitud del OCR en C# con Aspose.OCR, incluyendo preprocesamiento y ajustes de configuración.
 
 ## Preguntas frecuentes
 

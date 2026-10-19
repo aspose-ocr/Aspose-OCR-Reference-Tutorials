@@ -494,6 +494,18 @@ Aspose.OCR के साथ C# में छवि से टेक्स्ट 
 Aspose.OCR का उपयोग करके स्कैन किए गए दस्तावेज़ से खोज योग्य PDF बनाने की चरण-दर-चरण गाइड।
 ### [C# में छवि से टेक्स्ट निकालें – Aspose OCR का उपयोग करके](./extract-text-from-image-in-c-c-image-to-text-using-aspose-oc/)
 Aspose OCR के साथ C# में छवि से टेक्स्ट निकालने की आसान चरण-दर-स्टेज गाइड।
+### [C# में इमेज को टेक्स्ट में बदलने के लिए Aspose OCR का उपयोग कैसे करें](./how-to-use-aspose-ocr-to-convert-image-to-text-in-c/)
+C# में Aspose OCR का उपयोग करके इमेज को टेक्स्ट में बदलने की चरण-दर-स्टेप गाइड।
+### [PNG से टेक्स्ट निकालें – पूर्ण C# बैच OCR ट्यूटोरियल](./extract-text-from-png-complete-c-batch-ocr-tutorial/)
+C# में बैच प्रोसेसिंग के साथ PNG छवियों से टेक्स्ट निकालने के लिए पूर्ण चरण-दर-स्टेप गाइड।
+### [C# में OCR का उपयोग कैसे करें – छवियों से हिंदी टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-hindi-text-from-images/)
+C# में Aspose OCR का उपयोग करके छवियों से हिंदी टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
+### [अरबी OCR कैसे करें – C# गाइड अरबी टेक्स्ट निकालने के लिए](./how-to-ocr-arabic-c-guide-to-extract-arabic-text/)
+C# में Aspose OCR का उपयोग करके अरबी टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
+### [स्कैन की गई छवि से खोज योग्य PDF बनाएं – C# गाइड](./create-searchable-pdf-from-scanned-image-c-guide/)
+स्कैन की गई छवि को खोज योग्य PDF में बदलने के लिए C# में Aspose OCR का उपयोग करने की चरण-दर-स्टेप गाइड।
+### [C# में इमेज से टेक्स्ट निकालें – JSON और XML में बदलें](./extract-text-from-image-in-c-convert-to-json-xml/)
+C# में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालें और उसे JSON व XML फ़ॉर्मेट में बदलें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
