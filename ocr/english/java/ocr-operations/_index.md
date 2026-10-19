@@ -1,5 +1,5 @@
 ---
-title: "Extract PDF Text – OCR Operations with Aspose.OCR for Java"
+title: "Extract PDF Text Using Aspose.OCR for Java – OCR Operations"
 linktitle: OCR Operations
 second_title: Aspose.OCR Java API
 description: "Learn how to extract PDF text with Aspose.OCR for Java. Explore Detect Areas Mode, language selection, PDF and TIFF recognition, and improve OCR accuracy."
@@ -121,7 +121,6 @@ A: Process TIFF images in chunks or use multi‑threading to keep memory usage o
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
@@ -148,3 +147,5 @@ Convert PNG images into searchable PDFs with Aspose.OCR for Java in a few simple
 ### [Create searchable PDF from image with OCR – java tutorial]({{< relref "create-searchable-pdf-from-image-with-ocr-java-tutorial" >}})
 Convert images into searchable PDFs using Aspose.OCR for Java in a few simple steps.
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

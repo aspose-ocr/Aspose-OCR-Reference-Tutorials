@@ -26,7 +26,7 @@ tags:
 - java
 - file handling
 - resources
-title: How to Get Resources Path in Java with Aspose OCR and Set Download Folder
+title: How to Get Resources Path in Java with Aspose OCR API and Configure Download Folder
 url: /java/ocr-basics/how-to-get-resources-path-java-and-set-download-folder/
 ---
 
@@ -183,4 +183,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
