@@ -134,6 +134,8 @@ Hướng dẫn chi tiết cách tải và cài đặt gói ngôn ngữ OCR cho t
 Hướng dẫn tắt chức năng OCR trong ứng dụng C# khi làm việc offline với Aspose OCR.
 ### [Tải hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ Aspose OCR & Kiểm tra chính tả](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Hướng dẫn chi tiết cách tải hình ảnh và sử dụng Aspose OCR kết hợp kiểm tra chính tả trong C#.
+### [Tạo Engine OCR trong C# – Hướng Dẫn Đầy Đủ](./create-ocr-engine-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo engine OCR trong C# sử dụng Aspose.OCR, bao gồm cấu hình và ví dụ thực tế.
 
 
 

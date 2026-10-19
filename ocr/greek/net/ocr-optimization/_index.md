@@ -66,6 +66,8 @@ weight: 25
 Χρησιμοποιώντας το Aspose.OCR For .NET Tutorials Listing, μπορείτε να έχετε πρόσβαση σε πρόσθετους πόρους και να μένετε ενημερωμένοι για τις τελευταίες εξελίξεις στη βελτιστοποίηση OCR. Βυθιστείτε στον κόσμο της ακρίβειας και της αποδοτικότητας με τα μαθήματα Aspose.OCR for .NET.
 
 ## Μαθήματα Βελτιστοποίησης OCR
+### [Προεπεξεργασία εικόνας για OCR – Πλήρης οδηγός Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Μάθετε πώς να προετοιμάσετε εικόνες για OCR με πλήρη οδηγό σε C# χρησιμοποιώντας Aspose.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)
 Αποκτήστε το πλήρες δυναμικό του Aspose.OCR for .NET. Αποθηκεύστε άνετα πολυσέλιδα αποτελέσματα OCR ως έγγραφα με αυτόν τον ολοκληρωμένο βήμα‑βήμα οδηγό.
 ### [Πώς να διορθώσετε την κλίση εικόνας σε C# – Πλήρης οδηγός προεπεξεργασίας OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)

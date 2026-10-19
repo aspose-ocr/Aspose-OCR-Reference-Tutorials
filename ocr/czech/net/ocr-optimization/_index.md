@@ -247,6 +247,8 @@ Využijte GPU akceleraci pro rychlé rozpoznání textu z TIFF souborů pomocí 
 ### [Jak narovnat obrázek a zvýšit přesnost OCR – Kompletní průvodce Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
 Zlepšete přesnost OCR pomocí korekce sklonu obrázku a kompletního návodu pro Aspose OCR.
 ### [Vytvořit prohledávatelný PDF pomocí Aspose OCR – Kompletní programovací průvodce](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+### [Předzpracování obrázku pro OCR – Kompletní průvodce Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Kompletní průvodce předzpracováním obrázku pro OCR v Aspose C#.
 
 ## Často kladené otázky
 

@@ -95,6 +95,8 @@ Apprenez à extraire du texte en Kannada à partir d'images en C# avec Aspose OC
 Apprenez à créer un processeur de correction orthographique basé sur l'IA d'Aspose OCR pour améliorer la précision du texte extrait.
 ### [Vérifier le drapeau de licence dans Aspose OCR – Guide rapide pour valider la licence](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Apprenez à vérifier le statut de licence d'Aspose OCR via le drapeau de licence pour garantir le bon fonctionnement.
+### [Créer un moteur OCR en C# – Guide complet](./create-ocr-engine-in-c-complete-guide/)
+Apprenez à créer et configurer un moteur OCR en C# avec Aspose.OCR, du code initial aux options avancées.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 ### [Comment activer le GPU pour l'OCR en C# – Guide étape par étape](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)

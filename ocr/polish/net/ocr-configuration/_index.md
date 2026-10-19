@@ -94,6 +94,8 @@ Poznaj krok po kroku proces pobierania i instalacji pakietu językowego OCR dla 
 Dowiedz się, jak wyłączyć funkcję OCR w aplikacji C# przy użyciu Aspose OCR w trybie offline.
 ### [Ładowanie obrazu do OCR w C# – Kompletny przewodnik po Aspose OCR i sprawdzaniu pisowni](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Pełny przewodnik, jak załadować obraz i zastosować OCR oraz sprawdzanie pisowni przy użyciu Aspose OCR w C#.
+### [Utwórz silnik OCR w C# – Kompletny przewodnik](./create-ocr-engine-in-c-complete-guide/)
+Pełny przewodnik tworzenia silnika OCR w C# przy użyciu Aspose.OCR, krok po kroku od konfiguracji po przetwarzanie obrazów.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

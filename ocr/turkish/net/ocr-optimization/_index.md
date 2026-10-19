@@ -230,6 +230,8 @@ Aspose OCR GPU kullanarak C# ile TIFF dosyalarından yüksek doğrulukta metin t
 Aspose.OCR ile eğriltme hatasını giderip OCR doğruluğunu yükseltin. C# örnekleriyle adım adım uygulayın.
 ### [Aspose OCR ile Aranabilir PDF Oluşturma – Tam Programlama Rehberi](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Aspose OCR ile aranabilir PDF oluşturmayı adım adım öğrenin ve uygulayın.
+### [OCR için Görüntü Ön İşleme – Tam Aspose C# Kılavuzu](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Aspose OCR ile C# kullanarak görüntüleri ön işleyip OCR doğruluğunu artırın.
 
 ## Sıkça Sorulan Sorular
 

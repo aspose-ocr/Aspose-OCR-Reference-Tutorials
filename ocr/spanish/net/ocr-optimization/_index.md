@@ -260,6 +260,8 @@ Utiliza la aceleración GPU de Aspose OCR para extraer texto de archivos TIFF me
 Aprende a corregir la inclinación de imágenes y aplicar técnicas que aumentan la exactitud del OCR con Aspose OCR.
 ### [Crear PDF buscable con Aspose OCR – Guía completa de programación](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Aprende a crear PDFs buscables usando Aspose OCR con un ejemplo completo de programación en C#.
+### [Preprocesar imagen para OCR – Guía completa Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Aprende a aplicar filtros y técnicas de preprocesamiento para mejorar la precisión del OCR con Aspose en C#.
 
 ## Preguntas frecuentes
 

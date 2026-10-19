@@ -76,6 +76,7 @@ Aspose OCR AI を活用し、スペルチェックプロセッサを作成して
 ### [C# で OCR を無効にする方法 – オフライン Aspose OCR ガイド](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 ### [C# で OCR 用に画像をロード – 完全な Aspose OCR とスペルチェック ガイド](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 C# で画像をロードし、Aspose OCR とスペルチェック機能を組み合わせてテキスト抽出と校正を行う完全ガイドです。
+### [C# で OCR エンジンを作成する – 完全ガイド](./create-ocr-engine-in-c-complete-guide/)
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

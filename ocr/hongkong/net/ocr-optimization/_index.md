@@ -239,6 +239,8 @@ weight: 25
 ### [如何去除圖像傾斜並提升 OCR 準確度 – 完整 Aspose OCR 指南](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
 深入了解如何去除圖像傾斜、應用前處理濾鏡，提升 Aspose.OCR 的辨識精度。
 ### [使用 Aspose OCR 建立可搜尋 PDF – 完整程式設計指南](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+### [在 OCR 圖像辨識中前處理圖像 – 完整 Aspose C# 指南](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+完整的 C# 教學，說明如何使用 Aspose.OCR 前處理圖像，提升 OCR 準確度與效能。
 
 ## 常見問題
 

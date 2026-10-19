@@ -256,6 +256,8 @@ Pelajari cara menggunakan Aspose OCR GPU dengan C# untuk mengekstrak teks dari f
 Pelajari cara menghilangkan kemiringan gambar dengan filter deskew Aspose OCR untuk meningkatkan akurasi pengenalan teks secara signifikan.
 ### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Pemrograman Lengkap](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan contoh kode C#.
+### [Pra-proses Gambar untuk OCR – Panduan Lengkap Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑proses untuk meningkatkan akurasi OCR menggunakan Aspose OCR di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

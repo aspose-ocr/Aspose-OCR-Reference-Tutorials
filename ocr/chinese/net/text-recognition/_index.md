@@ -527,6 +527,11 @@ url: /zh/net/text-recognition/
 通过本完整指南，学习如何在 C# 中使用 Aspose OCR，实现高效的文字识别和图像处理。
 ### [在 C# 中执行 OCR – 使用 Aspose OCR 将图像转换为文本](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
 通过本完整指南，学习在 C# 中使用 Aspose OCR 将图像转换为可编辑文本，实现高效文字提取。
+### [如何在 C# 中使用 OCR – 从 JPG 识别中文文本](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+### [使用 Aspose OCR 进行俄文文本 OCR – 完整 C# 指南](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+### [使用 ASP.NET Core Minimal API 从图像提取文本 – 完整指南](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+### [C# OCR 教程：使用 Aspose 从 PNG 收据中提取文本](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+### [在 C# 中将 TIFF 转换为文本 – 完整批量 OCR 指南](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

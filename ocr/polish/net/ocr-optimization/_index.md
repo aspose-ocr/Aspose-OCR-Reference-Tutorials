@@ -259,6 +259,8 @@ Zastosuj prostowanie obrazu, aby zwiększyć precyzję OCR w Aspose.OCR for .NET
 
 ### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Kompletny przewodnik programistyczny](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełnym przewodniku programistycznym.
+### [Przetwarzanie obrazu przed OCR – Kompletny przewodnik Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Dowiedz się, jak zastosować pełne wstępne przetwarzanie obrazu w Aspose OCR przy użyciu C#.
 
 ## Często zadawane pytania
 

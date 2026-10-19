@@ -92,6 +92,8 @@ Laden Sie das russische OCR‑Sprachpaket herunter und integrieren Sie es mühel
 Erfahren Sie, wie Sie die OCR‑Funktion in C# deaktivieren und offline mit Aspose OCR arbeiten.
 ### [Bild für OCR in C# laden – Vollständiger Aspose OCR‑ und Rechtschreibprüfungs‑Leitfaden](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR in C# durch.
+### [Erstellen einer OCR-Engine in C# – Vollständiger Leitfaden](./create-ocr-engine-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR eine OCR-Engine in C# erstellen und konfigurieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

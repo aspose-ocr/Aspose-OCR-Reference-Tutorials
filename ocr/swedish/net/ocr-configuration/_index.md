@@ -58,7 +58,7 @@ Lås upp potentialen för OCR och .NET‑applikationer med Aspose.OCR. Lär dig 
 Lås upp kraften i OCR‑bildigenkänning i .NET med Aspose.OCR. Extrahera text enkelt från bilder.
 ### [OCROoperation med språkval i OCR-bildigenkänning](./ocr-operation-with-language-selection/)
 Lås upp kraftfulla OCR‑funktioner med Aspose.OCR för .NET. Extrahera text från bilder sömlöst.
-### [OCROoperation med lista i OCR-bildigenkänning](./ocr-operation-with-list/)
+### [OCROoperation med lista i OCR-bildigenning](./ocr-operation-with-list/)
 Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med listor utan ansträngning. Öka produktivitet och datautdragning i dina applikationer.
 ### [Skapa sökbar PDF i C# – OCR‑konverteringsguide](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Lås upp möjligheten att skapa sökbara PDF-filer med OCR i C# med Aspose.OCR.
@@ -91,6 +91,8 @@ Lär dig hur du laddar ner och installerar OCR‑språkpaketet för ryska i Aspo
 Lär dig hur du stänger av OCR-funktionen i C#‑applikationer för offline-användning med Aspose OCR.
 ### [Ladda bild för OCR i C# – Komplett Aspose OCR‑ och stavningskontrollguide](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Lär dig hur du laddar en bild och utför OCR samt stavningskontroll med Aspose OCR i C#‑applikationer.
+### [Skapa OCR‑motor i C# – Komplett guide](./create-ocr-engine-in-c-complete-guide/)
+Skapa en OCR‑motor i C# med en komplett steg‑för‑steg‑guide för Aspose.OCR.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

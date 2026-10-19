@@ -264,6 +264,9 @@ Ismerje meg, hogyan lehet kiegyenesíteni a képet és javítani az OCR pontoss�
 ### [Kereshető PDF létrehozása Aspose OCR-rel – Teljes programozási útmutató](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Ismerje meg, hogyan hozhat létre kereshető PDF-et az Aspose OCR segítségével lépésről‑lépésre útmutatóval.
 
+### [Képfeldolgozás OCR-hez – Teljes Aspose C# útmutató](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Ismerje meg, hogyan készítheti elő a képeket az OCR-hez a teljes Aspose C# útmutatóval, a legjobb szűrőkkel és beállításokkal.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

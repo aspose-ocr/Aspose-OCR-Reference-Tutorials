@@ -126,6 +126,8 @@ weight: 24
 一步步指导如何下载并安装俄语 OCR 语言包，以在 Aspose.OCR 中实现俄语文本识别。  
 ### [如何在 C# 中禁用 OCR – 离线 Aspose OCR 指南](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 ### [在 C# 中加载图像进行 OCR – 完整的 Aspose OCR 与拼写检查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+### [在 C# 中创建 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
+一步步教您在 C# 中构建并配置 Aspose.OCR 引擎，实现高效文本识别。  
 
 
 

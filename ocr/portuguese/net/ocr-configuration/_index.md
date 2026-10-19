@@ -83,6 +83,8 @@ Aprenda a baixar e instalar o pacote de idioma OCR para russo, permitindo reconh
 Desative o OCR em aplicações C# usando o Aspose OCR offline. Aprenda a desabilitar recursos e otimizar desempenho.
 ### [Carregar imagem para OCR em C# – Guia completo de Aspose OCR e verificação ortográfica](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Aprenda a carregar imagens e aplicar OCR com correção ortográfica usando Aspose.OCR em C# passo a passo.
+### [Criar Motor OCR em C# – Guia Completo](./create-ocr-engine-in-c-complete-guide/)
+Aprenda a criar e configurar um motor OCR em C# passo a passo com Aspose.OCR.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

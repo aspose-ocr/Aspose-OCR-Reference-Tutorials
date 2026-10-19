@@ -515,6 +515,16 @@ Leer hoe u met Aspose.OCR in C# OCR uitvoert op afbeeldingen, stap voor stap en 
 Leer stap voor stap hoe Aspose OCR in C# kunt inzetten voor nauwkeurige tekstherkenning en volledige integratie.
 ### [Hoe OCR uit te voeren in C# – Afbeelding omzetten naar tekst met Aspose OCR](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
 Leer hoe u met Aspose OCR in C# afbeeldingen naar tekst converteert, stap voor stap en volledig geautomatiseerd.
+### [Hoe OCR in C# te gebruiken – Chinees tekst herkennen vanuit JPG](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+Leer hoe u met Aspose.OCR en C# Chinese tekst uit JPG-afbeeldingen nauwkeurig kunt herkennen.
+### [OCR Russische tekst in C# – Complete gids met Aspose OCR](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+Leer hoe u met Aspose OCR en C# Russische tekst uit afbeeldingen haalt in deze volledige stap‑voor‑stap gids.
+### [Tekst extraheren uit afbeelding in ASP.NET Core Minimal API – Complete gids](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt via een ASP.NET Core Minimal API in deze volledige stap‑voor‑stap gids.
+### [c# OCR-tutorial: Tekst extraheren uit PNG-bonnetjes met Aspose](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+Leer hoe u met Aspose OCR en C# tekst uit PNG‑bonnetjes haalt in deze stapsgewijze gids.
+### [TIFF naar tekst converteren in C# – Complete batch-OCR-gids](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+Leer hoe u met Aspose.OCR in C# TIFF-bestanden batchgewijs naar tekst converteert met deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

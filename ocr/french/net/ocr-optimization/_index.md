@@ -242,6 +242,8 @@ Utilisez le GPU d’Aspose OCR pour extraire du texte d’un fichier TIFF en C#,
 Apprenez à corriger l’inclinaison des images et à optimiser la précision de l’OCR avec Aspose OCR grâce à ce guide complet.
 ### [Créer un PDF consultable avec Aspose OCR – Guide complet de programmation](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Apprenez à générer un PDF consultable à partir d’images en utilisant Aspose OCR avec un guide de programmation complet.
+### [Prétraiter l'image pour l'OCR – Guide complet Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Apprenez à préparer vos images pour l'OCR avec Aspose en C#, incluant filtres et réglages avancés.
 
 ## Questions fréquemment posées
 

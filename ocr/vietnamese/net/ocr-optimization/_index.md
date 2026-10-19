@@ -214,6 +214,8 @@ Khám phá cách sử dụng Aspose OCR GPU để nhận dạng văn bản từ 
 Khám phá cách loại bỏ nghiêng ảnh và cải thiện độ chính xác OCR với Aspose OCR trong hướng dẫn chi tiết này.
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn lập trình đầy đủ](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR trong .NET, bao gồm các bước cấu hình và lưu tài liệu.
+### [Tiền xử lý hình ảnh cho OCR – Hướng dẫn đầy đủ Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Khám phá cách tiền xử lý hình ảnh để cải thiện độ chính xác OCR với Aspose trong C#.
 
 ## Câu hỏi thường gặp
 

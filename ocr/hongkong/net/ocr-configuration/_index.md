@@ -91,6 +91,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 說明如何在 C# 應用程式中關閉 OCR 功能，使用離線 Aspose OCR 方案。
 ### [在 C# 中載入影像進行 OCR – 完整的 Aspose OCR 與拼寫檢查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 說明如何在 C# 中載入影像並使用 Aspose OCR 進行文字辨識與拼寫檢查的完整步驟。
+### [在 C# 中建立 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
+一步步教您在 C# 中建立完整的 OCR 引擎，涵蓋設定、語言選擇與最佳化技巧。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

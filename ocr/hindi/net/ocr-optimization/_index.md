@@ -269,6 +269,8 @@ Aspose OCR के साथ छवि को डेस्क्यू करक�
 ### [Aspose OCR के साथ खोज योग्य PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Aspose OCR का उपयोग करके PDF को खोज योग्य बनाएं, कोड उदाहरण और चरण‑दर‑चरण निर्देशों के साथ।
 
+### [OCR के लिए छवि पूर्व‑प्रसंस्करण – पूर्ण Aspose C# गाइड](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

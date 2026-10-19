@@ -83,6 +83,8 @@ Aspose.OCR için Rusça dil paketini indirme ve kurma adımlarını ayrıntılı
 Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı bırakacağınızı adım adım gösterir.
 ### [C#'ta OCR için görüntü yükleme – Tam Aspose OCR ve Yazım Denetimi Rehberi](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 C# ile görüntü yükleyerek OCR ve yazım denetimini birleştiren kapsamlı bir rehber.
+### [C#'ta OCR Motoru Oluşturma – Tam Kılavuz](./create-ocr-engine-in-c-complete-guide/)
+Aspose.OCR ile C# uygulamanızda tam OCR motoru oluşturmayı adım adım öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

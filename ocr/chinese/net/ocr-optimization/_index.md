@@ -256,6 +256,9 @@ weight: 25
 ### [使用 Aspose OCR 创建可搜索 PDF – 完整编程指南](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 本完整编程指南展示如何使用 Aspose OCR 将图像转换为可搜索的 PDF，涵盖关键步骤与最佳实践。
 
+### [预处理图像用于 OCR – 完整 Aspose C# 指南](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+全面指南，教您使用 Aspose.C# 对图像进行预处理，以提升 OCR 识别准确率。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

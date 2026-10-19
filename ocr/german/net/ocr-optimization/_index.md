@@ -247,6 +247,8 @@ Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus TIFF‑Bildern e
 Erfahren Sie, wie Sie Bildentzerrung anwenden, um die OCR‑Erkennungsrate mit Aspose OCR signifikant zu erhöhen.
 ### [Durchsuchbares PDF mit Aspose OCR erstellen – Vollständiger Programmierleitfaden](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF programmatisch erzeugen – Schritt für Schritt Anleitung.
+### [Bild für OCR vorverarbeiten – Vollständiger Aspose C# Leitfaden](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Erfahren Sie, wie Sie Bilder für die OCR mit Aspose in C# umfassend vorverarbeiten und die Erkennungsgenauigkeit steigern.
 
 ## Häufig gestellte Fragen
 

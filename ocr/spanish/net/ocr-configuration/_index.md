@@ -95,6 +95,8 @@ Aprende a activar la aceleración GPU en Aspose.OCR usando C# para mejorar el re
 Desactiva la funcionalidad OCR en tus aplicaciones C# usando Aspose OCR sin conexión.
 ### [Cargar imagen para OCR en C# – Guía completa de Aspose OCR y corrección ortográfica](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Aprende a cargar imágenes y aplicar OCR con Aspose, incluyendo verificación ortográfica, en aplicaciones C#.
+### [Crear motor OCR en C# – Guía completa](./create-ocr-engine-in-c-complete-guide/)
+Aprende a crear y configurar un motor OCR en C# paso a paso con Aspose.OCR.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

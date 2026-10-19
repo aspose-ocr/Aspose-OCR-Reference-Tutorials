@@ -77,6 +77,8 @@ Naučte se, jak stáhnout a nainstalovat jazykový balíček OCR pro ruštinu pr
 ### [Jak zakázat OCR v C# – Offline průvodce Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nastavení a optimalizace výkonu.
 ### [Načtení obrázku pro OCR v C# – Kompletní průvodce Aspose OCR a kontrolou pravopisu](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+### [Vytvořte OCR engine v C# – kompletní průvodce](./create-ocr-engine-in-c-complete-guide/)
+Kompletní průvodce vytvořením OCR enginu v C# pomocí Aspose.OCR pro přesné rozpoznávání textu.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

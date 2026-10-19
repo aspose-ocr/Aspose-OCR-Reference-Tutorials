@@ -254,6 +254,8 @@ Aproveite o poder da GPU com Aspose OCR para .NET e reconheça texto em arquivos
 Aprenda a remover a inclinação de imagens e melhorar a precisão do OCR usando Aspose OCR em um tutorial passo a passo.
 ### [Criar PDF pesquisável com Aspose OCR – Guia completo de programação](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Aprenda a gerar PDFs pesquisáveis usando Aspose OCR em um guia completo passo a passo.
+### [Pré‑processar Imagem para OCR – Guia Completo Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Aprenda a aplicar filtros avançados e melhorar a qualidade das imagens antes do OCR usando Aspose.OCR em C#.
 
 ## Perguntas Frequentes
 

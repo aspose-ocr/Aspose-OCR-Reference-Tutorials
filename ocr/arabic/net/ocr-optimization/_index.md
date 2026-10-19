@@ -245,6 +245,7 @@ weight: 25
 ### [كيفية تصحيح ميل الصورة وتعزيز دقة OCR – دليل Aspose OCR الكامل](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
 تعلم خطوات تصحيح الميل للصور وتحسين دقة OCR باستخدام Aspose OCR في دليل شامل خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل برمجة كامل](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – دليل كامل Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 
 ## الأسئلة المتكررة
 

@@ -242,6 +242,8 @@ Leverage GPU acceleration to recognize text from TIFF images using Aspose.OCR fo
 Learn to deskew images and improve OCR results using Aspose.OCR for .NET in a step‑by‑step guide.
 ### [Create Searchable PDF with Aspose OCR – Complete Programming Guide](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Create searchable PDFs from images using Aspose.OCR for .NET with a full programming guide.
+### [Preprocess Image for OCR – Complete Aspose C# Guide](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Comprehensive guide to preprocess images for OCR using Aspose in C#, covering filters, deskew, and binarization for optimal results.
 
 ## Frequently Asked Questions
 

@@ -505,6 +505,16 @@ url: /zh-hant/net/text-recognition/
 本完整指南教您在 C# 中使用 Aspose OCR，從設定到取得文字結果的全流程。
 ### [如何在 C# 中執行 OCR – 使用 Aspose OCR 將影像轉換為文字](./how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
 本指南說明如何使用 Aspose OCR 在 C# 中將影像轉換為文字，提供完整步驟與範例程式碼。
+### [如何在 C# 中使用 OCR – 從 JPG 識別中文文字](./how-to-use-ocr-in-c-recognize-chinese-text-from-jpg/)
+示範如何在 C# 使用 Aspose.OCR 從 JPG 圖片中辨識中文文字，包含安裝、設定與範例程式碼。
+### [OCR 俄文文字於 C# – 使用 Aspose OCR 完整指南](./ocr-russian-text-in-c-complete-guide-using-aspose-ocr/)
+完整的 C# 教學，示範如何使用 Aspose OCR 從影像中辨識俄文文字，涵蓋安裝、設定與範例程式碼。
+### [使用 ASP.NET Core Minimal API 從影像提取文字 – 完整指南](./extract-text-from-image-in-asp-net-core-minimal-api-complete/)
+完整的指南，示範如何在 ASP.NET Core Minimal API 中使用 Aspose OCR 提取影像文字，涵蓋設定與範例程式碼。
+### [C# OCR 教學：使用 Aspose 從 PNG 收據提取文字](./c-ocr-tutorial-extract-text-from-png-receipts-with-aspose/)
+使用 Aspose OCR 從 PNG 收據圖像中提取文字的完整 C# 教學，涵蓋安裝、設定與範例程式碼。
+### [在 C# 中將 TIFF 轉換為文字 – 完整批次 OCR 指南](./convert-tiff-to-text-in-c-complete-batch-ocr-guide/)
+使用 Aspose.OCR 在 C# 中批次將 TIFF 影像轉換為文字，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

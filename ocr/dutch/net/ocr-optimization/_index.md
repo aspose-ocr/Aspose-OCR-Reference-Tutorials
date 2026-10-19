@@ -256,6 +256,8 @@ Gebruik de GPU-versnelling van Aspose OCR om tekst uit TIFF‑bestanden te extra
 Leer hoe je afbeeldingen kunt rechtzetten en OCR‑nauwkeurigheid kunt verhogen met deze volledige Aspose OCR‑handleiding.
 ### [Maak doorzoekbare PDF met Aspose OCR – Complete programmeergids](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 Leer stap‑voor‑stap hoe je met Aspose OCR doorzoekbare PDF‑bestanden genereert en opslaat via een volledige programmeergids.
+### [Afbeelding voorbewerken voor OCR – Complete Aspose C#‑gids](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Leer hoe je afbeeldingen optimaliseert voor OCR met een volledige C#‑handleiding, inclusief filters en best practices.
 
 ## Veelgestelde vragen
 
