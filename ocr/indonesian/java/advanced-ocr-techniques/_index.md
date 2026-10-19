@@ -60,8 +60,6 @@ Buka kunci ekstraksi teks gambar yang lancar di Java dengan Aspose.OCR. OCR akur
 Buka kecanggihan Aspose.OCR untuk Java dengan panduan langkah demi langkah kami dalam melakukan OCR pada halaman tertentu. Ekstrak teks dengan mudah dari gambar dan tingkatkan proyek Java Anda.
 ### [Mempersiapkan Persegi Panjang untuk OCR di Aspose.OCR](./prepare-rectangles-for-ocr/)
 Buka kekuatan pengenalan teks dengan Aspose.OCR untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar. Tingkatkan aplikasi Java Anda dengan kemampuan OCR yang efisien.
-### [Mendefinisikan Region of Interest dalam OCR Java – Panduan Lengkap](./define-region-of-interest-in-java-ocr-complete-guide/)
-Pelajari cara menentukan wilayah minat untuk OCR di Java secara menyeluruh, meningkatkan akurasi ekstraksi teks.
 ### [Mengenali Garis di Aspose.OCR untuk Java](./recognize-lines/)
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Integrasi yang mudah, akurasi tinggi.
 ### [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)

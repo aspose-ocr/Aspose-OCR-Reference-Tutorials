@@ -66,8 +66,6 @@ Nutzen Sie mit Aspose.OCR die nahtlose Bildtextextraktion in Java. Hochpräzise 
 Nutzen Sie die Leistungsfähigkeit von Aspose.OCR für Java mit unserer Schritt-für-Schritt-Anleitung zur Durchführung von OCR auf bestimmten Seiten. Extrahieren Sie mühelos Text aus Bildern und verbessern Sie Ihre Java-Projekte.
 ### [Vorbereiten von Rechtecken für OCR in Aspose.OCR](./prepare-rectangles-for-ocr/)
 Nutzen Sie die Leistungsfähigkeit der Texterkennung mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration. Erweitern Sie Ihre Java-Anwendungen mit effizienten OCR-Funktionen.
-### [Region of Interest in Java OCR definieren – Komplettleitfaden](./define-region-of-interest-in-java-ocr-complete-guide/)
-Erfahren Sie, wie Sie mit Aspose.OCR für Java gezielt Bildbereiche festlegen und nur dort Text extrahieren.
 ### [Erkennen von Linien in Aspose.OCR für Java](./recognize-lines/)
 Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennung. Einfache Integration, hohe Genauigkeit.
 ### [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)

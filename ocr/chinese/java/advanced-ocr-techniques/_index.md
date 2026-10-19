@@ -64,8 +64,6 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 
 ### [在 Aspose.OCR 中为 OCR 准备矩形](./prepare-rectangles-for-ocr/)
 使用 Aspose.OCR for Java 释放文本识别的强大功能。请按照我们的分步指南进行无缝集成。通过高效的 OCR 功能增强您的 Java 应用程序。
-### [在 Java OCR 中定义感兴趣区域 – 完整指南](./define-region-of-interest-in-java-ocr-complete-guide/)
-使用 Aspose.OCR for Java 完整指南，定义感兴趣区域以提升 OCR 精度和效率。
 ### [在 Aspose.OCR for Java 中识别线条](./recognize-lines/)
 使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别能力。集成方便，精度高。
 

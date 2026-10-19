@@ -63,8 +63,6 @@ Odemkněte bezproblémovou extrakci textu obrázku v Javě pomocí Aspose.OCR. V
 Odemkněte sílu Aspose.OCR for Java pomocí našeho podrobného průvodce prováděním OCR na konkrétních stránkách. Extrahujte text bez námahy z obrázků a vylepšete své projekty Java.
 ### [Příprava obdélníků pro OCR v Aspose.OCR](./prepare-rectangles-for-ocr/)
 Odemkněte sílu rozpoznávání textu s Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci. Vylepšete své aplikace Java o efektivní funkce OCR.
-### [Definování oblasti zájmu v Java OCR – Kompletní průvodce](./define-region-of-interest-in-java-ocr-complete-guide/)
-Kompletní průvodce definováním oblasti zájmu pro OCR v Javě s Aspose.OCR, který zvyšuje přesnost a efektivitu rozpoznávání textu.
 ### [Rozpoznávání čar v Aspose.OCR pro Javu](./recognize-lines/)
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Snadná integrace, vysoká přesnost.
 ## [OCR ručně psaných poznámek – Oprava chyb s Aspose OCR](./ocr-handwritten-notes-fix-errors-with-aspose-ocr/)
