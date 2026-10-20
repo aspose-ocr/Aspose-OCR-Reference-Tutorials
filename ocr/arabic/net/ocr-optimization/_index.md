@@ -248,6 +248,10 @@ weight: 25
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – دليل كامل Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 ### [كيفية إلغاء ميل الصورة – دليل C# كامل لمعالجة ما قبل OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 دليل شامل يوضح خطوات تصحيح ميل الصور باستخدام C# لتحسين نتائج OCR قبل المعالجة.
+### [درجات الثقة في OCR باستخدام C# – دليل كامل](./ocr-confidence-scores-in-c-complete-guide/)
+تعرف على كيفية استخراج وتحليل درجات الثقة لنتائج OCR باستخدام Aspose.OCR في C# لتحسين الدقة واتخاذ قرارات أفضل.
+### [معالجة مسبقة للصورة لتقنية OCR في C# – دليل كامل لـ Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+اكتشف كيفية تحسين دقة OCR عبر تطبيق فلاتر ما قبل المعالجة على الصور باستخدام Aspose OCR في C#.
 
 ## الأسئلة المتكررة
 

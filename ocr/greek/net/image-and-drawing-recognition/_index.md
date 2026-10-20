@@ -76,6 +76,8 @@ weight: 22
 Ανακαλύψτε πώς να εντοπίζετε και να εξάγετε πίνακες από εικόνες με το Aspose OCR για .NET, βήμα‑βήμα σε C#.
 ### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
 Δημιουργήστε αρχείο Excel από εικόνα χρησιμοποιώντας Aspose.OCR και C#. Ο πλήρης οδηγός βήμα‑βήμα.
+### [Εξαγωγή Πινάκων από Εικόνα με Aspose OCR – Πλήρης Οδηγός C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Ανακαλύψτε πώς να εξάγετε πίνακες από εικόνες με Aspose OCR σε C#, βήμα‑βήμα οδηγίες.
 
 ## Frequently Asked Questions
 

@@ -536,6 +536,12 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج النص من صور JPG باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
 ### [كيفية إنشاء ePub من الصور الممسوحة ضوئياً – دليل خطوة بخطوة](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 تعلم خطوة بخطوة كيفية تحويل الصور الممسوحة ضوئياً إلى ملف ePub باستخدام Aspose.
+### [استخراج النص من صورة باستخدام Aspose OCR – السيريلي](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+تعلم كيفية استخراج النص السيريلي من الصور باستخدام Aspose OCR في .NET بدقة وسهولة.
+### [تحويل الصورة إلى ePub باستخدام C# – دليل شامل خطوة بخطوة](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل الصور إلى ملفات ePub باستخدام C# خطوة بخطوة باستخدام Aspose OCR.
+### [كيفية استخدام Aspose OCR لاستخراج النص من JPG دون اتصال](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+تعلم كيفية استخراج النص من ملفات JPG باستخدام Aspose OCR دون الحاجة إلى اتصال بالإنترنت.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

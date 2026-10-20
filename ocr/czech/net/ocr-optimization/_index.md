@@ -251,6 +251,10 @@ Zlepšete přesnost OCR pomocí korekce sklonu obrázku a kompletního návodu p
 Kompletní průvodce předzpracováním obrázku pro OCR v Aspose C#.
 ### [Jak narovnat obrázek – Kompletní průvodce v C# pro předzpracování OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Naučte se, jak pomocí C# odstranit sklon obrázku před OCR a zlepšit přesnost rozpoznání.
+### [Skóre důvěry OCR v C# – Kompletní průvodce](./ocr-confidence-scores-in-c-complete-guide/)
+Zjistěte, jak získat a interpretovat skóre důvěry OCR v C# pro lepší kontrolu kvality rozpoznání.
+### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Kompletní návod, jak předzpracovat obrázky v C# pro zvýšení přesnosti OCR pomocí Aspose.OCR.
 
 ## Často kladené otázky
 

@@ -251,6 +251,10 @@ Lär dig använda deskew‑filter för att korrigera snedvridna bilder och öka 
 Lär dig steg‑för‑steg hur du skapar sökbara PDF‑dokument med Aspose OCR i C#.
 ### [Hur man räta upp bild – Komplett C#‑guide för OCR‑förbehandling](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Lär dig steg‑för‑steg hur du räta upp bilder med Aspose.OCR för .NET för att förbättra OCR‑noggrannheten.
+### [OCR‑konfidenspoäng i C# – Komplett guide](./ocr-confidence-scores-in-c-complete-guide/)
+Lär dig hur du använder och tolkar OCR‑konfidenspoäng i Aspose.OCR för .NET för att förbättra igenkänningsprecisionen.
+### [Förbehandla bild för OCR i C# – Komplett Aspose OCR‑guide](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenkänning med Aspose OCR i C#.
 
 ## Vanliga frågor
 

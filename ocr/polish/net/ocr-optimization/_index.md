@@ -264,6 +264,12 @@ Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełny
 Dowiedz się, jak zastosować pełne wstępne przetwarzanie obrazu w Aspose OCR przy użyciu C#.
 ### [Jak prostować obraz – Kompletny przewodnik C# dla wstępnego przetwarzania OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed OCR, zwiększając dokładność rozpoznawania.
+### [Oceny pewności OCR w C# – kompletny przewodnik](./ocr-confidence-scores-in-c-complete-guide/)
+Dowiedz się, jak odczytywać i wykorzystywać współczynniki pewności OCR w aplikacjach C#, aby poprawić jakość rozpoznawania tekstu.
+
+### [Przetwarzanie obrazu przed OCR w C# – kompletny przewodnik Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Poznaj pełny proces wstępnego przetwarzania obrazu w C# przy użyciu Aspose OCR, aby zwiększyć dokładność rozpoznawania.
+
 
 ## Często zadawane pytania
 

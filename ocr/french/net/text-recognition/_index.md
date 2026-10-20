@@ -537,6 +537,12 @@ Apprenez à extraire du texte d'images JPG en utilisant Aspose OCR avec C#. Suiv
 Transformez une image en PDF consultable avec Aspose.OCR en C#. Suivez notre guide détaillé pour générer facilement des PDF recherchables.
 ### [Comment créer un ePub à partir d'images numérisées – Guide étape par étape](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Apprenez à transformer des images numérisées en fichiers ePub avec Aspose.OCR, grâce à un guide détaillé pas à pas.
+### [Extraire du texte d'une image avec Aspose OCR – Cyrillique](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Apprenez à extraire du texte cyrillique d'une image avec Aspose OCR, guide pas à pas pour vos applications .NET.
+### [Convertir une image en ePub en C# – Guide complet étape par étape](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Apprenez à transformer une image en fichier ePub avec C#, grâce à un guide détaillé pas à pas.
+### [Comment utiliser Aspose OCR pour extraire du texte d'un JPG hors ligne](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Apprenez à extraire du texte d'un fichier JPG sans connexion Internet avec Aspose OCR, grâce à un guide pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

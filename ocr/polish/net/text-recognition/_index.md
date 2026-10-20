@@ -538,6 +538,12 @@ Dowiedz się, jak w C# przy użyciu Aspose.OCR przekształcić obraz w przeszuka
 
 ### [Jak utworzyć ePub ze skanowanych obrazów – przewodnik krok po kroku](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Dowiedz się, jak w .NET przy użyciu Aspose.OCR przekształcić zeskanowane obrazy w plik ePub.
+### [Wyodrębnij tekst z obrazu przy użyciu Aspose OCR – cyrylica](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Dowiedz się, jak używać Aspose OCR do wyodrębniania tekstu cyrylicy z obrazów w aplikacjach .NET.
+### [Konwertuj obraz do ePub w C# – Kompletny przewodnik krok po kroku](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak w C# przekształcić obrazy w pliki ePub przy użyciu Aspose.OCR, krok po kroku.
+### [Jak używać Aspose OCR do wyodrębniania tekstu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Dowiedz się, jak offline wyodrębnić tekst z plików JPG przy użyciu Aspose OCR w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

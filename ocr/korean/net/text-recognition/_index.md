@@ -532,6 +532,12 @@ Aspose OCR을 활용해 C#에서 JPG 이미지의 텍스트를 손쉽게 추출�
 Aspose.OCR를 사용해 C#에서 이미지를 검색 가능한 PDF로 변환하는 방법을 단계별로 안내합니다.
 ### [스캔 이미지에서 ePub 만들기 – 단계별 가이드](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 스캔한 이미지로 ePub 파일을 생성하는 방법을 단계별로 안내합니다.
+### [JPG 이미지에서 오프라인으로 텍스트 추출하는 Aspose OCR 사용법](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+JPG 이미지에서 오프라인으로 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용해 이미지에서 키릴 문자 텍스트 추출](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+C#와 Aspose OCR을 활용해 이미지에서 키릴 문자 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지를 ePub으로 변환 – 완전 단계별 가이드](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+C#와 Aspose OCR을 활용해 이미지를 ePub 형식으로 변환하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -541,6 +541,12 @@ Naučte se v C# pomocí Aspose OCR extrahovat text z JPG obrázků a integrovat 
 Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s textovým obsahem.
 ### [Jak vytvořit ePub ze skenovaných obrázků – krok za krokem](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Naučte se pomocí Aspose.OCR převést skenované obrázky do formátu ePub a vytvořit interaktivní elektronické knihy.
+### [Extrahovat text z obrázku pomocí Aspose OCR – Cyrilice](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Naučte se extrahovat text v cyrilici z obrázků pomocí Aspose OCR ve vašich .NET aplikacích.
+### [Převod obrázku na ePub v C# – Kompletní průvodce krok za krokem](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Naučte se převést obrázek do formátu ePub pomocí C# a Aspose, krok za krokem s praktickými ukázkami.
+### [Jak použít Aspose OCR k extrakci textu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Naučte se, jak offline extrahovat text z JPG souborů pomocí Aspose OCR ve vašich .NET aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

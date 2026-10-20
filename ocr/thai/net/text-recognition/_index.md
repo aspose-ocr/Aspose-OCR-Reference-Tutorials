@@ -489,6 +489,11 @@ url: /th/net/text-recognition/
 ### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงรูปภาพเป็น PDF ที่ค้นหาได้อย่างง่ายดายตามขั้นตอนที่ชัดเจน
 ### [วิธีสร้าง ePub จากรูปภาพสแกน – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+### [ดึงข้อความจากรูปภาพด้วย Aspose OCR – Cyrillic](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+### [แปลงรูปภาพเป็น ePub ใน C# – คู่มือขั้นตอนเต็ม](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็นไฟล์ ePub ด้วย C# อย่างละเอียดและง่ายต่อการทำตาม
+### [วิธีใช้ Aspose OCR เพื่อดึงข้อความจาก JPG แบบออฟไลน์](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+เรียนรู้วิธีการใช้ Aspose OCR ดึงข้อความจากไฟล์ JPG โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

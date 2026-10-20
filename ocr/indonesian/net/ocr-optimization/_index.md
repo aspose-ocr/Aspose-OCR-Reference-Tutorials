@@ -260,6 +260,10 @@ Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR denga
 Pelajari cara mempersiapkan gambar dengan filter pra‑proses untuk meningkatkan akurasi OCR menggunakan Aspose OCR di C#.
 ### [Cara Membetulkan Kemiringan Gambar – Panduan Lengkap C# untuk Pra‑pemrosesan OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose.OCR dengan C# untuk meningkatkan akurasi OCR.
+### [Skor Kepercayaan OCR dalam C# – Panduan Lengkap](./ocr-confidence-scores-in-c-complete-guide/)
+Pelajari cara menampilkan dan menggunakan skor kepercayaan OCR di C# untuk meningkatkan akurasi dan validasi hasil pengenalan teks.
+### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR menggunakan Aspose.OCR di C# untuk hasil yang akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

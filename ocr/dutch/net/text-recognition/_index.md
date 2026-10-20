@@ -531,6 +531,12 @@ Leer hoe u met Aspose OCR tekst uit JPG-afbeeldingen haalt in een C#-applicatie.
 Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van een afbeelding in C#. Volg onze stapsgewijze handleiding voor snelle resultaten.
 ### [Hoe maak je een ePub van gescande afbeeldingen – Stapsgewijze handleiding](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Leer hoe u met Aspose.OCR een ePub maakt van gescande afbeeldingen. Volg onze stapsgewijze handleiding voor snelle resultaten.
+### [Tekst extraheren uit afbeelding met Aspose OCR – Cyrillisch](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Leer hoe u met Aspose OCR Cyrillische tekst uit afbeeldingen kunt extraheren en integreren in uw .NET-applicaties.
+### [Afbeelding converteren naar ePub in C# – Complete stapsgewijze handleiding](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose OCR afbeeldingen omzet naar ePub-bestanden in C#, met een volledige stap‑voor‑stap gids.
+### [Hoe Aspose OCR te gebruiken om tekst uit JPG offline te extraheren](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Leer stap voor stap hoe u met Aspose OCR offline tekst uit JPG‑bestanden kunt extraheren en integreren in uw .NET‑applicatie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

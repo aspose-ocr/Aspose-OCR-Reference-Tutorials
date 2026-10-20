@@ -204,9 +204,6 @@ weight: 25
 ### [如何在 C# 中对中文图像执行 OCR – 完整指南](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 本教程详细演示在 C# 使用 Aspose.OCR 对中文图像进行 OCR 的完整步骤，包括预处理、语言设置和结果保存。
 
-### [如何在 C# 中批量 OCR – 完整编程指南](./how-to-batch-ocr-in-c-complete-programming-guide/)
-本指南详细演示如何使用 Aspose.OCR for .NET 在 C# 中实现批量 OCR 处理，提升效率并管理多页图像。
-
 ### [使用 GPU 在图像上运行 OCR – C# Aspose OCR 指南](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 利用 GPU 加速 Aspose.OCR，实现高效图像文字识别，提升处理速度并保持高精度。
 
@@ -261,6 +258,15 @@ weight: 25
 
 ### [如何去倾斜图像 – 完整的 C# OCR 预处理指南](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 本指南详细讲解在 C# 中使用 Aspose.OCR 进行图像去倾斜的步骤，提升 OCR 前处理效果。
+
+### [C# 中的 OCR 置信度分数 – 完整指南](./ocr-confidence-scores-in-c-complete-guide/)
+了解如何在 Aspose.OCR for .NET 中获取并使用 OCR 置信度分数，以提升识别准确性并进行结果过滤。
+
+### [C# 中的 OCR 图像预处理 – 完整指南](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+学习如何在 C# 中使用 Aspose.OCR 对图像进行预处理，以提升 OCR 准确率并优化识别效果。
+
+### [C# 中的批量 OCR – 完整编程指南](./how-to-batch-ocr-in-c-complete-programming-guide/)
+学习如何在 C# 中使用 Aspose.OCR 批量处理图像，实现高效的 OCR 自动化流程。
 
 ## 常见问题
 

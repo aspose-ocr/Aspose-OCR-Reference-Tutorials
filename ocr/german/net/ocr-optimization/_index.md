@@ -251,6 +251,10 @@ Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF programmatisch erzeu
 Erfahren Sie, wie Sie Bilder für die OCR mit Aspose in C# umfassend vorverarbeiten und die Erkennungsgenauigkeit steigern.
 ### [Bild entzerren – Vollständiger C#‑Leitfaden für OCR‑Vorverarbeitung](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Erfahren Sie, wie Sie Bilder mit Aspose.OCR für .NET entzerren, um die OCR‑Genauigkeit zu steigern.
+### [OCR‑Vertrauenswerte in C# – Komplett‑Leitfaden](./ocr-confidence-scores-in-c-complete-guide/)
+Erfahren Sie, wie Sie OCR‑Vertrauenswerte in C# auswerten und die Erkennungsgenauigkeit gezielt verbessern.
+### [Bildvorverarbeitung für OCR in C# – Vollständiger Aspose OCR Leitfaden](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie Bilder in C# optimal vorverarbeiten, um die OCR‑Genauigkeit mit Aspose OCR zu maximieren.
 
 ## Häufig gestellte Fragen
 

@@ -205,9 +205,6 @@ weight: 25
 ### [วิธีทำ OCR บนภาพภาษาจีน – คู่มือ C# ฉบับสมบูรณ์](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 เรียนรู้ขั้นตอนการใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากภาพภาษาจีนอย่างแม่นยำและรวดเร็ว.
 
-### [วิธีทำ OCR แบบกลุ่มใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./how-to-batch-ocr-in-c-complete-programming-guide/)
-เรียนรู้วิธีประมวลผล OCR หลายไฟล์พร้อมกันใน C# ด้วย Aspose.OCR พร้อมตัวอย่างโค้ดเต็ม
-
 ### [ทำ OCR บนภาพด้วย GPU – คำแนะนำ C# Aspose OCR](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 เรียนรู้วิธีใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose.OCR ใน C#.
 
@@ -254,6 +251,14 @@ weight: 25
 
 ### [วิธีแก้ไขการเอียงของภาพ – คู่มือ C# ครบขั้นตอนสำหรับการเตรียม OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแก้ไขการเอียงของภาพและเพิ่มความแม่นยำของ OCR ด้วยขั้นตอนการเตรียมข้อมูลที่ครบถ้วน.
+
+### [คะแนนความเชื่อมั่น OCR ใน C# – คู่มือฉบับสมบูรณ์](./ocr-confidence-scores-in-c-complete-guide/)
+ทำความเข้าใจคะแนนความเชื่อมั่นของ OCR ใน C# และวิธีใช้เพื่อปรับปรุงความแม่นยำของผลลัพธ์
+
+### [เตรียมภาพสำหรับ OCR ใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีการเตรียมภาพก่อน OCR ด้วย Aspose.OCR ใน C# เพื่อเพิ่มความแม่นยำและประสิทธิภาพของการจดจำข้อความ
+
+### [วิธีทำ Batch OCR ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-batch-ocr-in-c-complete-programming-guide/)
 
 ## คำถามที่พบบ่อย
 

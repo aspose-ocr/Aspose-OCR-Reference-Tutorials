@@ -526,6 +526,12 @@ url: /el/net/text-recognition/
 Μάθετε πώς να μετατρέψετε εικόνες σε αναζηρίσιμα PDF με Aspose.OCR σε C#, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 ### [Δημιουργία ePub από σαρωμένες εικόνες – Οδηγός βήμα‑βήμα](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε σαρωμένες εικόνες σε αρχείο ePub με το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Απόσπαση κειμένου από εικόνα με Aspose OCR – Κυριλλικά](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Αποκτήστε κείμενο από εικόνες που περιέχουν κυριλλικούς χαρακτήρες χρησιμοποιώντας το Aspose OCR.
+### [Μετατροπή εικόνας σε ePub σε C# – Πλήρης οδηγός βήμα προς βήμα](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αρχεία ePub χρησιμοποιώντας C# και Aspose, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+### [Πώς να χρησιμοποιήσετε το Aspose OCR για εξαγωγή κειμένου από JPG εκτός σύνδεσης](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία JPG χωρίς σύνδεση, χρησιμοποιώντας το Aspose OCR σε .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

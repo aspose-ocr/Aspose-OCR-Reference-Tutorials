@@ -264,6 +264,10 @@ Aprende a crear PDFs buscables usando Aspose OCR con un ejemplo completo de prog
 Aprende a aplicar filtros y técnicas de preprocesamiento para mejorar la precisión del OCR con Aspose en C#.
 ### [Cómo enderezar una imagen – Guía completa en C# para preprocesamiento OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Aprende a corregir la inclinación de imágenes con Aspose.OCR en C#, mejorando la precisión del OCR mediante desalineación automática.
+### [Puntuaciones de confianza OCR en C# – Guía completa](./ocr-confidence-scores-in-c-complete-guide/)
+Aprende a obtener y usar los puntajes de confianza del OCR en C# para mejorar la precisión y filtrar resultados.
+### [Preprocesar imagen para OCR en C# – Guía completa de Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Aprende a aplicar filtros y técnicas de preprocesamiento en C# para mejorar la precisión del OCR con Aspose OCR.
 
 ## Preguntas frecuentes
 
