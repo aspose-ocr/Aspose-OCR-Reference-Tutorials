@@ -203,9 +203,9 @@ A: Yes, download a trial from the [Aspose.OCR trial download page](https://relea
 
 ## Related Tutorials
 
-- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "/ocr/java/ocr-basics/" >}})
-- [How to Set Aspose OCR License and Verify It in Java]({{< relref "/ocr/java/ocr-basics/set-license/" >}})
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/" >}})
+- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "java/ocr-basics" >}})
+- [How to Set Aspose OCR License and Verify It in Java]({{< relref "set-license" >}})
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "perform-ocr-detect-areas-mode" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
