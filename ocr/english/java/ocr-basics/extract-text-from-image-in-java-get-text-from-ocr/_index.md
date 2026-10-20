@@ -11,7 +11,7 @@ keywords:
 - load image for ocr
 language: en
 og_description: Extract text from image in Java with Aspose OCR – a step‑by‑step guide. Learn to load image for OCR, recognize text from photo, and get text from OCR efficiently.
-og_title: Extract Text from Image in Java using Aspose OCR – Get Text from OCR
+og_title: Extract Text from Image in Java using Aspose OCR API – Get Text from OCR
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
@@ -50,7 +50,7 @@ tags:
 - OCR
 - Java
 - Image Processing
-title: Extract Text from Image in Java using Aspose OCR – Get Text from OCR
+title: Extract Text from Image in Java using Aspose OCR API – Get Text from OCR
 url: /java/ocr-basics/extract-text-from-image-in-java-get-text-from-ocr/
 ---
 
@@ -291,11 +291,12 @@ We’ve walked through everything you need to **extract text from image** using 
 
 ## Related Tutorials
 
-- [recognize text image with Aspose OCR – Full Java OCR Tutorial](/ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-- [How to OCR Image Text with Language Using Aspose.OCR](/ocr/english/java/ocr-operations/perform-ocr-language-selection/)
-- [Convert Image to Text in Java using Aspose.OCR BufferedImage](/ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
+- [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
+- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "ocr/english/java/ocr-operations/perform-ocr-language-selection" >}})
+- [Convert Image to Text in Java using Aspose.OCR BufferedImage]({{< relref "ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

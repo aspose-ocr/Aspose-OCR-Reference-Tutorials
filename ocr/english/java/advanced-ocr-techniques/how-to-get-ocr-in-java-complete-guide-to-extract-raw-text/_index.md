@@ -38,7 +38,7 @@ tags:
 - OCR
 - Java
 - Aspose.OCR
-title: How to Get OCR in Java with Aspose.OCR – Complete Guide to Extract Raw Text
+title: Extract Raw Text with Aspose.OCR API in Java – Complete Guide
 url: /java/advanced-ocr-techniques/how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/
 ---
 
@@ -280,14 +280,12 @@ Give those a try, and feel free to drop your questions in the comments. Happy co
 
 ## Related Tutorials
 
-- [How to OCR Image Text with Language Using Aspose.OCR](/ocr/english/java/ocr-operations/perform-ocr-language-selection/)
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode/)
-- [recognize text image with Aspose OCR – Full Java OCR Tutorial](/ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "ocr/english/java/ocr-operations/perform-ocr-language-selection" >}})
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode" >}})
+- [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

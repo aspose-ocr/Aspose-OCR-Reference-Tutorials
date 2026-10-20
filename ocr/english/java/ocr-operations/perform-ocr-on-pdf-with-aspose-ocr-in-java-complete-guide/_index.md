@@ -42,7 +42,7 @@ tags:
 - Java
 - Aspose OCR
 - PDF processing
-title: How to Perform OCR on PDF with Aspose OCR in Java – Complete Guide
+title: How to Perform OCR on PDF with Aspose OCR API in Java – Complete Guide
 url: /java/ocr-operations/perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/
 ---
 
@@ -50,7 +50,7 @@ url: /java/ocr-operations/perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# perform ocr on pdf with Aspose OCR in Java – Complete Guide
+# Perform OCR on PDF with Aspose OCR API in Java – Complete Guide
 
 Ever needed to **perform OCR on PDF** files but weren’t sure which library would let you do it without a headache? You’re not alone—scanned PDFs are everywhere, from receipts to legal contracts, and pulling the text out can feel like cracking a safe. 
 
@@ -239,5 +239,6 @@ Happy coding, and may your PDFs always be searchable!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

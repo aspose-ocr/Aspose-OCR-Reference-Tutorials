@@ -39,7 +39,7 @@ tags:
 - OCR
 - Java
 - Aspose
-title: Recognize Text from Image with Java using Aspose OCR – Complete Guide
+title: Recognize Text from Image with Aspose OCR for Java – Complete Guide
 url: /java/ocr-operations/recognize-text-from-image-with-java-complete-aspose-ocr-guid/
 ---
 
@@ -200,12 +200,12 @@ Feel free to drop a comment if you run into any snags, or share how you customiz
 
 ## Related Tutorials
 
-- [recognize text image with Aspose OCR – Full Java OCR Tutorial](/ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode/)
-- [How to OCR Image Text with Language Using Aspose.OCR](/ocr/english/java/ocr-operations/perform-ocr-language-selection/)
+- {{< relref "/ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/" >}} – recognize text image with Aspose OCR – Full Java OCR Tutorial
+- {{< relref "/ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode/" >}} – Extract Text from Image Java with Aspose.OCR Detect Areas Mode
+- {{< relref "/ocr/english/java/ocr-operations/perform-ocr-language-selection/" >}} – How to OCR Image Text with Language Using Aspose.OCR
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

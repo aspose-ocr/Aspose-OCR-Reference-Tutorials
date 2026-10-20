@@ -1,5 +1,5 @@
 ---
-title: Implement Advanced OCR Techniques with Aspose.OCR for Java
+title: Implement Advanced OCR Techniques Using Aspose.OCR Java API
 linktitle: Advanced OCR Techniques
 second_title: Aspose.OCR Java API
 description: Learn how to implement OCR with Aspose.OCR for Java – extract text from URL images with high accuracy using advanced OCR techniques.
@@ -227,6 +227,7 @@ Learn how to efficiently process large documents with Aspose.OCR for Java, handl
 
 ### [Preprocess image OCR in java – boost accuracy & extract text](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Improve OCR results by preprocessing images in Java with Aspose.OCR, enhancing accuracy and extracting text efficiently.
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

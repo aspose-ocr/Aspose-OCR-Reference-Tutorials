@@ -1,5 +1,5 @@
 ---
-title: "Extract Text from Images with Aspose.OCR – OCR Basics for Java"
+title: "Extract Text from Images Using Aspose.OCR Java API – OCR Basics"
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
 description: "Learn how to extract text from images using the Aspose.OCR Java API. This guide shows how to set the license, calculate skew, and improve OCR accuracy."
@@ -139,6 +139,5 @@ Learn how to extract text from images using Aspose.OCR for Java in a simple step
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

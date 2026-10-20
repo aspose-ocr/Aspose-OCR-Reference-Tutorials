@@ -47,7 +47,7 @@ tags:
 - OCR
 - Java
 - GPU
-title: Perform OCR on Text Images in Java with GPU Acceleration using Aspose.OCR – Full Tutorial
+title: Recognize Text in Images with Aspose.OCR for Java – GPU‑Accelerated Full Tutorial
 url: /java/advanced-ocr-techniques/recognize-text-image-in-java-with-gpu-acceleration-full-tuto/
 ---
 
@@ -264,4 +264,5 @@ If you enjoyed this guide, check out our related tutorials on **java ocr tutoria
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

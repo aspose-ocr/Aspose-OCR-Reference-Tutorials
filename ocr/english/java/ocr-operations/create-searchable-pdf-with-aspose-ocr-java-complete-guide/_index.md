@@ -11,7 +11,7 @@ keywords:
 - aspose OCR java
 language: en
 og_description: Create searchable PDF in Java using Aspose OCR. This guide shows how to convert scanned image PDF, use OCR engine PDF functions, and troubleshoot common issues.
-og_title: Create searchable PDF with Aspose OCR Java – Step‑by‑Step
+og_title: Create searchable PDF with Aspose OCR Java API – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
@@ -37,7 +37,7 @@ tags:
 - OCR
 - PDF
 - Aspose
-title: Create Searchable PDF using Aspose OCR for Java – Complete Guide
+title: Create Searchable PDF with Aspose OCR Java API – Complete Guide
 url: /java/ocr-operations/create-searchable-pdf-with-aspose-ocr-java-complete-guide/
 ---
 
@@ -45,7 +45,7 @@ url: /java/ocr-operations/create-searchable-pdf-with-aspose-ocr-java-complete-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF using Aspose OCR for Java – Complete Guide
+# Create Searchable PDF with Aspose OCR Java API – Complete Guide
 
 Ever needed to **create searchable PDF** from a scanned receipt but weren’t sure where to start? You're not the only one. Turning a static image into a PDF that you can actually search through is a game‑changing skill for anyone dealing with invoices, contracts, or any paper‑based workflow.
 
@@ -223,11 +223,12 @@ Got questions about **how to use OCR** in a different context, or need help trou
 
 ## Related Tutorials
 
-- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java]([{{< relref "ocr/english/java/ocr-operations/_index.md" >}}](/ocr/english/java/ocr-operations/))
-- [OCR Recognizing PDF Documents in Aspose.OCR for Java]([{{< relref "ocr/english/java/ocr-operations/recognize-pdf/_index.md" >}}](/ocr/english/java/ocr-operations/recognize-pdf/))
-- [How to OCR PDF in .NET with Aspose.OCR]([{{< relref "ocr/english/net/text-recognition/recognize-pdf/_index.md" >}}](/ocr/english/net/text-recognition/recognize-pdf/))
+- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java]({{< relref "ocr/english/java/ocr-operations/_index.md" >}})
+- [OCR Recognizing PDF Documents in Aspose.OCR for Java]({{< relref "ocr/english/java/ocr-operations/recognize-pdf/_index.md" >}})
+- [How to OCR PDF in .NET with Aspose.OCR]({{< relref "ocr/english/net/text-recognition/recognize-pdf/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -38,7 +38,7 @@ tags:
 - OCR
 - Java
 - Aspose
-title: Implement Parallel OCR Processing in Java with Aspose OCR – Complete Guide
+title: Implement Parallel OCR Processing for Multi‑Page TIFF in Java with Aspose OCR – Complete Guide
 url: /java/advanced-ocr-techniques/parallel-ocr-processing-in-java-complete-guide/
 ---
 
@@ -218,12 +218,12 @@ Got questions or want to share your own performance tricks? Drop a comment below
 
 ## Related Tutorials
 
-- {{< relref "/ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/" >}}recognize text image with Aspose OCR – Full Java OCR Tutorial{{< /relref >}}
-- {{< relref "/ocr/english/java/ocr-basics/" >}}Extract Text Images – OCR Basics with Aspose.OCR for Java{{< /relref >}}
-- {{< relref "/ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image/" >}}Convert Image to Text in Java using Aspose.OCR BufferedImage{{< /relref >}}
+- [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "ocr/english/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
+- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "ocr/english/java/ocr-basics" >}})
+- [Convert Image to Text in Java using Aspose.OCR BufferedImage]({{< relref "ocr/english/java/advanced-ocr-techniques/perform-ocr-buffered-image" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

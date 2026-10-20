@@ -34,7 +34,7 @@ tags:
 - OCR
 - Java
 - Aspose
-title: How to Extract Text from Form using Aspose OCR for Java – Complete Guide
+title: How to Extract Text from Form with Aspose OCR Java API – Complete Guide
 url: /java/advanced-ocr-techniques/extract-text-from-form-with-aspose-ocr-java-complete-guide/
 ---
 
@@ -42,7 +42,7 @@ url: /java/advanced-ocr-techniques/extract-text-from-form-with-aspose-ocr-java-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Extract Text from Form using Aspose OCR for Java – Complete Guide
+# How to Extract Text from Form with Aspose OCR Java API – Complete Guide
 
 Ever needed to **extract text from form** but weren’t sure how to target just the fields you care about? You’re not alone—most developers hit the same wall when a scanned form comes with a noisy background or unwanted margins. The good news? With Aspose OCR for Java you can zero‑in on a specific rectangle, auto‑correct rotation, and pull out clean text in a handful of lines.
 
@@ -234,12 +234,12 @@ What’s next? Try expanding the ROI to capture multiple fields, experiment with
 
 ## Related Tutorials
 
-- [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/english/java/ocr-basics/)
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode/)
-- [How to OCR Image Text with Language Using Aspose.OCR](/ocr/english/java/ocr-operations/perform-ocr-language-selection/)
+- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "/ocr/english/java/ocr-basics/" >}})
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "/ocr/english/java/ocr-operations/perform-ocr-detect-areas-mode/" >}})
+- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "/ocr/english/java/ocr-operations/perform-ocr-language-selection/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

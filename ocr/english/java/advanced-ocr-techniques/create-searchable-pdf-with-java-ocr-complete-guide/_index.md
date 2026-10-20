@@ -10,7 +10,7 @@ keywords:
 - ocr pdf with gpu
 language: en
 og_description: Create searchable PDF in Java using Aspose OCR for Java. This tutorial shows how to convert PDF to searchable PDF, load PDF for OCR, and use GPU acceleration.
-og_title: Create Searchable PDF with Aspose OCR for Java – Complete Guide
+og_title: Convert PDFs to Searchable PDFs with Aspose OCR for Java – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-05-25'
@@ -32,7 +32,7 @@ tags:
 - Java
 - PDF
 - Aspose
-title: Create Searchable PDF with Aspose OCR for Java – Complete Guide
+title: Convert PDFs to Searchable PDFs with Aspose OCR for Java – Complete Guide
 url: /java/advanced-ocr-techniques/create-searchable-pdf-with-java-ocr-complete-guide/
 ---
 
@@ -40,7 +40,7 @@ url: /java/advanced-ocr-techniques/create-searchable-pdf-with-java-ocr-complete-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF with Aspose OCR for Java – Complete Guide
+# Convert PDFs to Searchable PDFs with Aspose OCR for Java – Complete Guide
 
 Ever needed to **create searchable PDF** files from scanned documents but weren’t sure where to start? You’re not alone. Many developers hit the same wall when trying to turn image‑only PDFs into text‑searchable assets, especially when performance matters.
 
@@ -232,11 +232,12 @@ Got questions about performance tuning, licensing, or integrating this workflow 
 
 ## Related Tutorials
 
-- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java](/ocr/english/java/ocr-operations/)
-- [OCR Recognizing PDF Documents in Aspose.OCR for Java](/ocr/english/java/ocr-operations/recognize-pdf/)
-- [How to OCR PDF in .NET with Aspose.OCR](/ocr/english/net/text-recognition/recognize-pdf/)
+- [Recognize PDF Text – OCR Operations with Aspose.OCR for Java]({{< relref "ocr/english/java/ocr-operations/_index.md" >}})
+- [OCR Recognizing PDF Documents in Aspose.OCR for Java]({{< relref "ocr/english/java/ocr-operations/recognize-pdf/_index.md" >}})
+- [How to OCR PDF in .NET with Aspose.OCR]({{< relref "ocr/english/net/text-recognition/recognize-pdf/_index.md" >}})
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
