@@ -217,9 +217,9 @@ A: Load your license file with `License license = new License(); license.setLice
 
 ## Related Tutorials
 
-- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "/ocr/java/ocr-basics/" >}})
-- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/" >}})
-- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "/ocr/java/ocr-operations/perform-ocr-language-selection/" >}})
+- [Extract Text Images – OCR Basics with Aspose.OCR for Java]({{< relref "java/ocr-basics" >}})
+- [Extract Text from Image Java with Aspose.OCR Detect Areas Mode]({{< relref "perform-ocr-detect-areas-mode" >}})
+- [How to OCR Image Text with Language Using Aspose.OCR]({{< relref "perform-ocr-language-selection" >}})
 
 
 
