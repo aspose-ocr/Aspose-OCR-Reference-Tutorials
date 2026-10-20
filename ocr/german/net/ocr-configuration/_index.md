@@ -94,6 +94,8 @@ Erfahren Sie, wie Sie die OCR‑Funktion in C# deaktivieren und offline mit Aspo
 Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR in C# durch.
 ### [Erstellen einer OCR-Engine in C# – Vollständiger Leitfaden](./create-ocr-engine-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR eine OCR-Engine in C# erstellen und konfigurieren.
+### [Aspose OCR-Version in C# abrufen – Komplettanleitung](./get-aspose-ocr-version-in-c-complete-guide/)
+Erfahren Sie, wie Sie die installierte Aspose.OCR-Version in C# ermitteln und prüfen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

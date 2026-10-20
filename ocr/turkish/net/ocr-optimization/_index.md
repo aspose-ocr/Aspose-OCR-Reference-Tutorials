@@ -234,6 +234,8 @@ Aspose OCR ile aranabilir PDF oluşturmayı adım adım öğrenin ve uygulayın.
 Aspose OCR ile C# kullanarak görüntüleri ön işleyip OCR doğruluğunu artırın.
 ### [Görüntüyü Düzleştirme – OCR Ön İşleme için Tam C# Rehberi](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Aspose.OCR kullanarak eğik görüntüleri düzleştirip OCR doğruluğunu artırın, adım adım C# örnekleriyle öğrenin.
+### [Aspose OCR C# Örneği – GPU'yu Etkinleştir, Bellek Sınırını Ayarla ve TIF Görüntülerini İşle](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Aspose.OCR for .NET ile GPU'yu etkinleştirin, bellek sınırı ayarlayın ve TIF görüntülerini işleyin.
 
 ## Sıkça Sorulan Sorular
 

@@ -131,6 +131,8 @@ C# 애플리케이션에서 Aspose OCR을 오프라인으로 사용하면서 OCR
 ### [C#에서 OCR을 위한 이미지 로드 – 완전한 Aspose OCR 및 맞춤법 검사 가이드](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 C#에서 Aspose OCR을 사용해 이미지를 로드하고 맞춤법 검사를 수행하는 전체 가이드를 제공합니다.  
 ### [C#에서 OCR 엔진 만들기 – 완전 가이드](./create-ocr-engine-in-c-complete-guide/)
+### [C#에서 Aspose OCR 버전 가져오기 – 완전 가이드](./get-aspose-ocr-version-in-c-complete-guide/)
+C# 코드에서 현재 사용 중인 Aspose OCR 라이브러리 버전을 확인하는 방법을 단계별로 안내합니다.  
 
 
 

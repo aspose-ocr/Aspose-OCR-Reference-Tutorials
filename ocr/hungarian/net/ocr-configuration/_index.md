@@ -134,6 +134,8 @@ Ismerje meg, hogyan kapcsolhatja ki az OCR funkciót C# alkalmazásban offline k
 Ismerje meg, hogyan töltsön be képet C#-ban, és alkalmazzon teljes körű OCR- és helyesírás-ellenőrző funkciókat az Aspose OCR segítségével.  
 ### [OCR motor létrehozása C#‑ban – Teljes útmutató](./create-ocr-engine-in-c-complete-guide/)
 Ismerje meg, hogyan hozhat létre saját OCR motort C#‑ban az Aspose.OCR segítségével, lépésről lépésre.  
+### [Az Aspose OCR verzió lekérése C#‑ban – Teljes útmutató](./get-aspose-ocr-version-in-c-complete-guide/)
+Ismerje meg, hogyan kérheti le az Aspose OCR könyvtár verziószámát C#‑ban, egyszerű kóddal.  
 
 
 

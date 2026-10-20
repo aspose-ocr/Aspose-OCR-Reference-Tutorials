@@ -61,6 +61,8 @@ Ismerje meg, hogyan lehet egyszerűen kiegyenesíteni a képet C#-ban az Aspose 
 Ismerje meg, hogyan lehet egyenesíteni a ferde képeket C#-ban az Aspose OCR teljes körű útmutatójával.
 ### [Hogyan korrigálja a ferde szöget képen az Aspose OCR segítségével – Teljes C# útmutató](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Ismerje meg, hogyan távolíthatja el a ferdeséget képekről az Aspose OCR és C# használatával, növelve a pontosságot.
+### [OCR elforgatott dokumentum oktatóanyag – automatikus ferde korrekció és forgatás javítása C#-ban](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Fedezze fel, hogyan javíthatja automatikusan az elforgatott dokumentumok ferdeségét és forgását C#-ban az Aspose.OCR segítségével.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

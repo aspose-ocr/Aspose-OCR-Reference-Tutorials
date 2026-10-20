@@ -56,7 +56,6 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل الصور إلى تنسيق JSON بسهولة باستخدام Aspose OCR مع C# لتعزيز قدرات التعرف الضوئي على الحروف.
 ### [وضع اكتشاف المناطق بتقنية التعرف الضوئي على الحروف (OCR) في التعرف على الصور بتقنية التعرف الضوئي على الحروف (OCR).](./ocr-detect-areas-mode/)
 ### [التعرف على PDF في التعرف على الصور OCR](./recognize-pdf/)
-أطلق العنان لإمكانات التعرف الضوئي على الحروف في .NET باستخدام Aspose.OCR. استخراج النص من ملفات PDF دون عناء. قم بتنزيل الآن للحصول على تجربة تكامل سلسة.
 ### [إنشاء ملف PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR في C# خطوة بخطوة.
 
@@ -536,6 +535,16 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج النص من صور JPG باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
 ### [كيفية إنشاء ePub من الصور الممسوحة ضوئياً – دليل خطوة بخطوة](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 تعلم خطوة بخطوة كيفية تحويل الصور الممسوحة ضوئياً إلى ملف ePub باستخدام Aspose.
+### [إجراء التعرف الضوئي على الحروف على ملف PDF باستخدام Aspose.OCR – دليل كامل بلغة C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على ملفات PDF باستخدام Aspose.OCR مع دليل شامل بلغة C#.
+### [إجراء التعرف الضوئي على الحروف على صورة باستخدام Aspose OCR – دليل هندي](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على الحروف للصور باستخدام Aspose OCR مع إرشادات باللغة الهندية.
+### [كيفية استخدام Aspose: تحويل الصورة إلى HTML باستخدام OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+تعلم كيفية تحويل الصور إلى ملفات HTML مع تضمين نصوص OCR باستخدام Aspose.OCR في .NET.
+### [إجراء التعرف الضوئي على الحروف على صورة واكتشاف الكلمات المكتوبة خطأ في C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+تعلم كيفية تنفيذ التعرف الضوئي على الصور واكتشاف الأخطاء الإملائية باستخدام Aspose.OCR في C#.
+### [التعرف الضوئي على ترجمات الفيديو في C# – دليل كامل](./video-subtitle-ocr-in-c-complete-guide/)
+اكتشف كيفية استخراج نص ترجمات الفيديو باستخدام Aspose.OCR في C# عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

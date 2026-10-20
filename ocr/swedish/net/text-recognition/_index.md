@@ -539,6 +539,17 @@ Lär dig hur du med Aspose OCR extraherar text från JPG‑bilder i dina .NET‑
 Lär dig hur du med Aspose.OCR skapar en sökbar PDF från en bild i C# med en enkel steg‑för‑steg‑guide.
 ### [Hur man skapar ePub från skannade bilder – Steg‑för‑steg‑guide](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Lär dig skapa ePub-filer från skannade bilder med en enkel steg‑för‑steg‑guide i Aspose.OCR för .NET.
+### [Utför OCR på PDF med Aspose.OCR – Komplett C#-guide](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR för att OCR:a PDF-filer i C#, för smidig textutvinning i dina .NET-applikationer.
+### [Utför OCR på bild med Aspose OCR – Hindi-guide](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Lär dig hur du utför OCR på en bild med Aspose OCR, med fokus på hindi-språket.
+### [Hur man använder Aspose: Konvertera bild till HTML med OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Lär dig konvertera en bild till HTML med OCR med Aspose i en steg-för-steg-guide.
+### [Utför OCR på bild och upptäck felstavade ord i C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Lär dig hur du med Aspose.OCR utför OCR på en bild och identifierar felstavade ord i C# för förbättrad textanalys.
+### [Video Undertext OCR i C# – Komplett guide](./video-subtitle-ocr-in-c-complete-guide/)
+Lär dig hur du använder Aspose.OCR i C# för att extrahera undertexter från video och konvertera dem till text.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

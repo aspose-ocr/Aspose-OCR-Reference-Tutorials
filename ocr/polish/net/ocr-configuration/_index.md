@@ -96,6 +96,8 @@ Dowiedz się, jak wyłączyć funkcję OCR w aplikacji C# przy użyciu Aspose OC
 Pełny przewodnik, jak załadować obraz i zastosować OCR oraz sprawdzanie pisowni przy użyciu Aspose OCR w C#.
 ### [Utwórz silnik OCR w C# – Kompletny przewodnik](./create-ocr-engine-in-c-complete-guide/)
 Pełny przewodnik tworzenia silnika OCR w C# przy użyciu Aspose.OCR, krok po kroku od konfiguracji po przetwarzanie obrazów.
+### [Uzyskaj wersję Aspose OCR w C# – Kompletny przewodnik](./get-aspose-ocr-version-in-c-complete-guide/)
+Dowiedz się, jak programowo sprawdzić wersję biblioteki Aspose.OCR w aplikacji C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

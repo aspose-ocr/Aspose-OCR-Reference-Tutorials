@@ -79,6 +79,8 @@ Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nasta
 ### [Načtení obrázku pro OCR v C# – Kompletní průvodce Aspose OCR a kontrolou pravopisu](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [Vytvořte OCR engine v C# – kompletní průvodce](./create-ocr-engine-in-c-complete-guide/)
 Kompletní průvodce vytvořením OCR enginu v C# pomocí Aspose.OCR pro přesné rozpoznávání textu.
+### [Získání verze Aspose OCR v C# – Kompletní průvodce](./get-aspose-ocr-version-in-c-complete-guide/)
+Zjistěte, jak získat verzi Aspose.OCR v C# a ověřit kompatibilitu knihovny během vývoje.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

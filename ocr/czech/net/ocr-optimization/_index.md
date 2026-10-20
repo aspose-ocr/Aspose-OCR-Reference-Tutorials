@@ -251,6 +251,8 @@ Zlepšete přesnost OCR pomocí korekce sklonu obrázku a kompletního návodu p
 Kompletní průvodce předzpracováním obrázku pro OCR v Aspose C#.
 ### [Jak narovnat obrázek – Kompletní průvodce v C# pro předzpracování OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Naučte se, jak pomocí C# odstranit sklon obrázku před OCR a zlepšit přesnost rozpoznání.
+### [Aspose OCR C# příklad – povolení GPU, nastavení limitu paměti a zpracování TIF obrázků](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Naučte se povolit GPU, nastavit limit paměti a zpracovat TIF soubory pomocí Aspose.OCR v C#.
 
 ## Často kladené otázky
 

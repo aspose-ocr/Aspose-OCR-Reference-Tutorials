@@ -100,6 +100,8 @@ Leer hoe je OCR-functionaliteit in C# kunt uitschakelen voor offline verwerking 
 Leer hoe je afbeeldingen laadt en OCR toepast met spell‑check in C# met Aspose.OCR voor optimale tekstherkenning.
 ### [Maak OCR-engine in C# – Complete gids](./create-ocr-engine-in-c-complete-guide/)
 Leer stap‑voor‑stap hoe je een OCR‑engine in C# maakt en configureert met Aspose.OCR voor optimale tekstherkenning.
+### [Aspose OCR‑versie ophalen in C# – Complete gids](./get-aspose-ocr-version-in-c-complete-guide/)
+Leer hoe je de huidige Aspose OCR‑versie in C# kunt opvragen en gebruiken in je .NET‑applicatie.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

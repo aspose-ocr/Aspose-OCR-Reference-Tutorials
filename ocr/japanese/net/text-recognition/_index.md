@@ -39,7 +39,7 @@ Aspose.OCR を使用して C# で画像の OCR 結果を JSON 形式で取得す
 
 ## OCR画像認識でPDFを認識する
 
-Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出し、アプリケーションにシームレスに統合します。このチュートリアルでは、PDF 内のテキストを認識し、シームレスで効率的な統合エクスペリエンスを保証するための包括的なガイドを提供します。
+Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 
 ## 画像から検索可能な PDF を作成 – 完全ガイド
 Aspose.OCR を使用して、画像から検索可能な PDF を作成する方法をステップバイステップで学びます。
@@ -544,6 +544,16 @@ Aspose OCR を使用して C# で JPG 画像からテキストを抽出する手
 Aspose.OCR を使用して C# で画像から検索可能な PDF を作成し、テキスト抽出と検索機能を実装する手順を解説します。
 ### [スキャン画像から ePub を作成する方法 – ステップバイステップガイド](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Aspose.OCR を使用してスキャン画像から ePub 電子書籍を作成する手順を詳しく解説します。
+### [Aspose OCRでPDFのOCRを実行する – 完全C#ガイド](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用して PDF からテキストを抽出し、C# で完全なガイドに従って実装方法を学びます。
+### [Aspose OCRで画像のOCRを実行する – ヒンディー語ガイド](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aspose OCR を使用して画像からテキストを抽出し、ヒンディー語のガイドに従って実装方法を学びます。
+### [Aspose の使用方法：OCR で画像を HTML に変換する](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aspose.OCR を利用して画像を HTML に変換し、テキスト抽出結果をウェブページ形式で取得する手順を解説します。
+### [画像の OCR を実行し、C# で誤字単語を検出する](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aspose.OCR を使用して画像からテキストを抽出し、C# でスペルチェックを行い、誤字を検出する手順を解説します。
+### [C# でのビデオ字幕 OCR – 完全ガイド](./video-subtitle-ocr-in-c-complete-guide/)
+Aspose.OCR を使用して動画の字幕を OCR し、C# で抽出する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -541,6 +541,16 @@ Naučte se v C# pomocí Aspose OCR extrahovat text z JPG obrázků a integrovat 
 Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s textovým obsahem.
 ### [Jak vytvořit ePub ze skenovaných obrázků – krok za krokem](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Naučte se pomocí Aspose.OCR převést skenované obrázky do formátu ePub a vytvořit interaktivní elektronické knihy.
+### [Provést OCR na obrázku s Aspose OCR – hindský průvodce](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Naučte se, jak pomocí Aspose OCR provést rozpoznávání textu v hindštině na obrázcích ve vašich .NET aplikacích.
+### [Provést OCR na PDF s Aspose.OCR – Kompletní průvodce C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose.OCR provést kompletní OCR na PDF v C# a integrovat výsledek do vašich aplikací.
+### [Jak použít Aspose: převod obrázku do HTML s OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Naučte se, jak pomocí Aspose.OCR převést obrázek na HTML a zachovat rozpoznaný text.
+### [Provést OCR na obrázku a detekovat překlepy v C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Naučte se, jak pomocí Aspose.OCR provést rozpoznání textu na obrázku a identifikovat překlepy ve vašich C# aplikacích.
+### [OCR titulků videa v C# – Kompletní průvodce](./video-subtitle-ocr-in-c-complete-guide/)
+Naučte se pomocí Aspose.OCR extrahovat a rozpoznávat titulky z videí v C# a integrovat výsledky do vašich aplikací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

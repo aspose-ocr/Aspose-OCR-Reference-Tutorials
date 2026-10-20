@@ -59,6 +59,8 @@ Aspose OCR을 사용해 C#에서 이미지를 손쉽게 기울기 보정하는 �
 Aspose OCR을 활용해 C#에서 이미지를 손쉽게 기울기 보정하는 전체 가이드를 확인하세요.
 ### [Aspose OCR로 이미지 디스케우하는 방법 – 완전 C# 가이드](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR를 사용해 이미지를 디스케우하고 C#으로 구현하는 전체 가이드를 확인하세요.
+### [OCR 회전 문서 튜토리얼 – C#에서 자동 기울기 및 회전 수정](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+C#에서 회전된 문서의 자동 기울기 보정 및 회전 수정을 수행하는 방법을 알아보세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

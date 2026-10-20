@@ -262,6 +262,9 @@ weight: 25
 ### [如何去倾斜图像 – 完整的 C# OCR 预处理指南](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 本指南详细讲解在 C# 中使用 Aspose.OCR 进行图像去倾斜的步骤，提升 OCR 前处理效果。
 
+### [Aspose OCR C# 示例 – 启用 GPU、设置内存限制并处理 TIF 图像](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+演示如何在 C# 中启用 GPU 加速、限制内存使用并处理 TIF 格式图像的 OCR 操作。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

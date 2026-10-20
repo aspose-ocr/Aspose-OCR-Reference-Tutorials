@@ -128,6 +128,7 @@ weight: 24
 ### [在 C# 中加载图像进行 OCR – 完整的 Aspose OCR 与拼写检查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [在 C# 中创建 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
 一步步教您在 C# 中构建并配置 Aspose.OCR 引擎，实现高效文本识别。  
+### [在 C# 中获取 Aspose OCR 版本 – 完整指南](./get-aspose-ocr-version-in-c-complete-guide/)
 
 
 

@@ -244,6 +244,8 @@ weight: 25
 ### [使用 Aspose OCR 建立可搜尋 PDF – 完整程式設計指南](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [在 OCR 圖像辨識中前處理圖像 – 完整 Aspose C# 指南](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 完整的 C# 教學，說明如何使用 Aspose.OCR 前處理圖像，提升 OCR 準確度與效能。
+### [Aspose OCR C# 範例 – 啟用 GPU、設定記憶體限制與處理 TIF 圖像](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+示範如何在 C# 中啟用 GPU 加速、設定記憶體上限，並處理 TIF 圖像以提升 OCR 效能。
 
 ## 常見問題
 

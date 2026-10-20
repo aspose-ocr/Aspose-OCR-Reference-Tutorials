@@ -489,6 +489,16 @@ url: /th/net/text-recognition/
 ### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./create-searchable-pdf-from-image-in-c-step-by-step-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงรูปภาพเป็น PDF ที่ค้นหาได้อย่างง่ายดายตามขั้นตอนที่ชัดเจน
 ### [วิธีสร้าง ePub จากรูปภาพสแกน – คู่มือขั้นตอนต่อขั้นตอน](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+### [ทำ OCR บน PDF ด้วย Aspose.OCR – คู่มือ C# ฉบับสมบูรณ์](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีทำ OCR บนไฟล์ PDF ด้วย Aspose.OCR ด้วยคำแนะนำขั้นตอนเต็มสำหรับ C#
+### [ทำ OCR บนรูปภาพด้วย Aspose OCR – คู่มือภาษา Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+เรียนรู้วิธีทำ OCR บนรูปภาพด้วย Aspose OCR สำหรับภาษา Hindi ด้วยคำแนะนำทีละขั้นตอน
+### [วิธีใช้ Aspose: แปลงรูปภาพเป็น HTML ด้วย OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+เรียนรู้วิธีแปลงรูปภาพเป็น HTML ด้วย OCR โดยใช้ Aspose อย่างละเอียดเพื่อเพิ่มความสามารถในการแสดงผลบนเว็บ
+### [ทำ OCR บนรูปภาพและตรวจจับคำที่สะกดผิดใน C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+เรียนรู้วิธีทำ OCR บนรูปภาพและตรวจจับคำที่สะกดผิดด้วย C# โดยใช้ Aspose.OCR
+### [OCR คำบรรยายวิดีโอใน C# – คู่มือฉบับสมบูรณ์](./video-subtitle-ocr-in-c-complete-guide/)
+เรียนรู้วิธีทำ OCR คำบรรยายวิดีโอด้วย C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อแปลงคำบรรยายเป็นข้อความ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

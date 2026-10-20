@@ -260,6 +260,8 @@ Leer stap‑voor‑stap hoe je met Aspose OCR doorzoekbare PDF‑bestanden gener
 Leer hoe je afbeeldingen optimaliseert voor OCR met een volledige C#‑handleiding, inclusief filters en best practices.
 ### [Hoe een afbeelding rechtzetten – Complete C#-gids voor OCR-preprocessing](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Leer hoe je afbeeldingen kantelt corrigeert met Aspose.OCR voor .NET om OCR‑nauwkeurigheid te verbeteren.
+### [Aspose OCR C#‑voorbeeld – GPU inschakelen, geheugenlimiet instellen & TIF‑afbeeldingen verwerken](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Leer hoe je GPU‑versnelling activeert, geheugenlimiet instelt en TIF‑bestanden verwerkt met Aspose OCR in C#.
 
 ## Veelgestelde vragen
 

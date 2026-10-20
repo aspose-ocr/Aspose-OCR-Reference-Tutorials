@@ -39,6 +39,8 @@ url: /el/net/text-recognition/
 
 ### [Πώς να κάνετε OCR PDF σε C# – Πλήρης οδηγός για εξαγωγή κειμένου από PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
 Μάθετε πώς να εξάγετε κείμενο από αρχεία PDF χρησιμοποιώντας Aspose.OCR σε C# με έναν ολοκληρωμένο οδηγό βήμα-βήμα.
+### [Εκτέλεση OCR σε PDF με Aspose.OCR – Πλήρης Οδηγός C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να εκτελείτε OCR σε αρχεία PDF χρησιμοποιώντας το Aspose.OCR με πλήρη οδηγό C# βήμα προς βήμα.
 
 ## Αναγνώριση πίνακα στην Αναγνώριση εικόνας OCR
 
@@ -526,6 +528,14 @@ url: /el/net/text-recognition/
 Μάθετε πώς να μετατρέψετε εικόνες σε αναζηρίσιμα PDF με Aspose.OCR σε C#, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 ### [Δημιουργία ePub από σαρωμένες εικόνες – Οδηγός βήμα‑βήμα](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε σαρωμένες εικόνες σε αρχείο ePub με το Aspose.OCR, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Εκτέλεση OCR σε εικόνα με Aspose OCR – Οδηγός Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Μάθετε πώς να εκτελέσετε OCR σε εικόνα με το Aspose OCR ακολουθώντας τον οδηγό στα Χίντι.
+### [Εκτέλεση OCR σε εικόνα και ανίχνευση ορθογραφικών λαθών σε C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Μάθετε πώς να εκτελείτε OCR σε εικόνα και να εντοπίζετε ορθογραφικά λάθη χρησιμοποιώντας C# και Aspose.OCR.
+### [Πώς να χρησιμοποιήσετε το Aspose: Μετατροπή εικόνας σε HTML με OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Μάθετε πώς να μετατρέψετε εικόνες σε HTML χρησιμοποιώντας το Aspose OCR σε βήμα-βήμα οδηγό.
+### [OCR υπότιτλων βίντεο σε C# – Πλήρης Οδηγός](./video-subtitle-ocr-in-c-complete-guide/)
+Μάθετε πώς να εξάγετε υπότιτλους βίντεο χρησιμοποιώντας Aspose.OCR σε C# με πλήρη βήμα-βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

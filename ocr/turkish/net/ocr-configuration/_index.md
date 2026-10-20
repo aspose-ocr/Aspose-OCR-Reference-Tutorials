@@ -85,6 +85,8 @@ Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı b�
 C# ile görüntü yükleyerek OCR ve yazım denetimini birleştiren kapsamlı bir rehber.
 ### [C#'ta OCR Motoru Oluşturma – Tam Kılavuz](./create-ocr-engine-in-c-complete-guide/)
 Aspose.OCR ile C# uygulamanızda tam OCR motoru oluşturmayı adım adım öğrenin.
+### [C#'ta Aspose OCR Sürümünü Alın – Tam Kılavuz](./get-aspose-ocr-version-in-c-complete-guide/)
+Aspose OCR kütüphanesinin sürüm bilgisini C# kodu ile nasıl alacağınızı adım adım gösterir.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

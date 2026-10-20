@@ -265,6 +265,9 @@ Ismerje meg, hogyan készítheti elő a képeket az OCR-hez a teljes Aspose C# �
 ### [Szöveg felismerése képről az Aspose OCR‑val – GPU‑gyorsított C# útmutató](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Fedezze fel, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyors szövegfelismeréshez képeken.
 
+### [Aspose OCR C# példa – GPU engedélyezése, memóriahatár beállítása és TIF képek feldolgozása](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Ismerje meg, hogyan használhatja a GPU-t, állíthatja be a memória korlátot és dolgozhat fel TIF képeket az Aspose OCR C# példában.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

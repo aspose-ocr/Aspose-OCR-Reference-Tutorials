@@ -218,6 +218,8 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OC
 Khám phá cách tiền xử lý hình ảnh để cải thiện độ chính xác OCR với Aspose trong C#.
 ### [Cách chỉnh nghiêng ảnh – Hướng dẫn C# đầy đủ cho tiền xử lý OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trước khi OCR, tăng độ chính xác với Aspose.OCR và C#.
+### [Ví dụ Aspose OCR C# – Bật GPU, Đặt giới hạn bộ nhớ & Xử lý ảnh TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Hướng dẫn bật GPU, giới hạn bộ nhớ và xử lý ảnh TIF bằng Aspose OCR trong C# để tăng tốc độ và hiệu suất OCR.
 
 ## Câu hỏi thường gặp
 

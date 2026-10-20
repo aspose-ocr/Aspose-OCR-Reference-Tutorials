@@ -60,6 +60,9 @@ Apprenez à redresser des images avec Aspose OCR en C#, pour améliorer la préc
 
 ### [Comment redresser une image en C# avec Aspose OCR – Guide complet](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Apprenez à redresser des images en C# avec Aspose OCR grâce à ce guide complet et pratique.
+### [Tutoriel de document OCR pivoté – Correction automatique de l'inclinaison et de la rotation en C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Apprenez à corriger automatiquement l'inclinaison et la rotation des documents OCR en C# avec Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

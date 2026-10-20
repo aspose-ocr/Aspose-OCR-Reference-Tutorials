@@ -97,6 +97,8 @@ Desactiva la funcionalidad OCR en tus aplicaciones C# usando Aspose OCR sin cone
 Aprende a cargar imágenes y aplicar OCR con Aspose, incluyendo verificación ortográfica, en aplicaciones C#.
 ### [Crear motor OCR en C# – Guía completa](./create-ocr-engine-in-c-complete-guide/)
 Aprende a crear y configurar un motor OCR en C# paso a paso con Aspose.OCR.
+### [Obtener la versión de Aspose OCR en C# – Guía completa](./get-aspose-ocr-version-in-c-complete-guide/)
+Descubre cómo obtener la versión de Aspose OCR en C# con ejemplos claros y paso a paso.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

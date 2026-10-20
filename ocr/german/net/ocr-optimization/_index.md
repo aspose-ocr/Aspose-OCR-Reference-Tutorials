@@ -251,6 +251,8 @@ Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF programmatisch erzeu
 Erfahren Sie, wie Sie Bilder für die OCR mit Aspose in C# umfassend vorverarbeiten und die Erkennungsgenauigkeit steigern.
 ### [Bild entzerren – Vollständiger C#‑Leitfaden für OCR‑Vorverarbeitung](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Erfahren Sie, wie Sie Bilder mit Aspose.OCR für .NET entzerren, um die OCR‑Genauigkeit zu steigern.
+### [Aspose OCR C# Beispiel – GPU aktivieren, Speicherlimit festlegen & TIF‑Bilder verarbeiten](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Erfahren Sie, wie Sie mit Aspose OCR GPU‑Beschleunigung aktivieren, das Speicherlimit setzen und TIF‑Bilder effizient verarbeiten.
 
 ## Häufig gestellte Fragen
 

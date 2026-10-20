@@ -264,6 +264,8 @@ Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełny
 Dowiedz się, jak zastosować pełne wstępne przetwarzanie obrazu w Aspose OCR przy użyciu C#.
 ### [Jak prostować obraz – Kompletny przewodnik C# dla wstępnego przetwarzania OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed OCR, zwiększając dokładność rozpoznawania.
+### [Przykład Aspose OCR w C# – Włącz GPU, Ustaw Limit Pamięci i Przetwarzaj Obrazy TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Dowiedz się, jak w Aspose OCR w C# włączyć akcelerację GPU, ustawić limit pamięci i przetwarzać obrazy w formacie TIF.
 
 ## Często zadawane pytania
 

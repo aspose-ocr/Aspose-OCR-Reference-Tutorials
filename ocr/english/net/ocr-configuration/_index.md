@@ -102,6 +102,8 @@ Step-by-step guide to turn off OCR in C# apps using offline Aspose OCR configura
 ### [load image for ocr in C# – Complete Aspose OCR & Spell‑Check Guide](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [Create OCR Engine in C# – Complete Guide](./create-ocr-engine-in-c-complete-guide/)
 Learn how to build and configure a custom OCR engine in C# using Aspose.OCR, covering setup, language selection, and performance tuning.
+### [Get Aspose OCR Version in C# – Complete Guide](./get-aspose-ocr-version-in-c-complete-guide/)
+Learn how to retrieve the Aspose OCR library version in C# with a complete guide.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

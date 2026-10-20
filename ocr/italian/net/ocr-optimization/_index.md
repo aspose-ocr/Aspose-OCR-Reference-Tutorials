@@ -256,6 +256,8 @@ Impara a generare PDF ricercabili usando Aspose OCR con esempi di codice complet
 Scopri come pre‑elaborare le immagini per migliorare l'OCR con Aspose in C#, includendo filtri, binarizzazione e correzione dell'orientamento.
 ### [Come raddrizzare l'immagine – Guida completa C# per la pre‑elaborazione OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Scopri come rimuovere l'inclinazione dalle immagini con una guida C# completa, migliorando l'accuratezza dell'OCR.
+### [Esempio Aspose OCR C# – Abilita GPU, Imposta Limite di Memoria e Processa Immagini TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Scopri come abilitare l'accelerazione GPU, limitare la memoria e gestire file TIF con Aspose.OCR per .NET.
 
 ## Domande Frequenti
 

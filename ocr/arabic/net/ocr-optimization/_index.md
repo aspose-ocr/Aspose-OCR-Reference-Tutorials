@@ -248,6 +248,8 @@ weight: 25
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – دليل كامل Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 ### [كيفية إلغاء ميل الصورة – دليل C# كامل لمعالجة ما قبل OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 دليل شامل يوضح خطوات تصحيح ميل الصور باستخدام C# لتحسين نتائج OCR قبل المعالجة.
+### [مثال Aspose OCR C# – تمكين GPU، ضبط حد الذاكرة ومعالجة صور TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+تعلم كيفية تمكين معالجة GPU، ضبط حد الذاكرة ومعالجة ملفات TIF باستخدام Aspose OCR في C#.
 
 ## الأسئلة المتكررة
 

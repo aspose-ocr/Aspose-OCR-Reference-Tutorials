@@ -537,6 +537,16 @@ Apprenez à extraire du texte d'images JPG en utilisant Aspose OCR avec C#. Suiv
 Transformez une image en PDF consultable avec Aspose.OCR en C#. Suivez notre guide détaillé pour générer facilement des PDF recherchables.
 ### [Comment créer un ePub à partir d'images numérisées – Guide étape par étape](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Apprenez à transformer des images numérisées en fichiers ePub avec Aspose.OCR, grâce à un guide détaillé pas à pas.
+### [Effectuer une OCR sur un PDF avec Aspose.OCR – Guide complet C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Apprenez à réaliser une OCR sur des PDF avec Aspose.OCR en suivant notre guide complet en C#.
+### [Effectuer une OCR sur une image avec Aspose OCR – Guide Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Apprenez à réaliser une OCR d'image avec Aspose OCR en suivant notre guide complet en hindi.
+### [Comment utiliser Aspose : convertir une image en HTML avec OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Apprenez à convertir des images en HTML en utilisant la reconnaissance OCR d’Aspose pour .NET.
+### [Effectuer une OCR sur une image et détecter les mots mal orthographiés en C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Apprenez à extraire du texte d’une image avec Aspose.OCR et à identifier les mots mal orthographiés en C#.
+### [OCR de sous-titres vidéo en C# – Guide complet](./video-subtitle-ocr-in-c-complete-guide/)
+Apprenez à extraire les sous-titres des vidéos avec Aspose.OCR en C# grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

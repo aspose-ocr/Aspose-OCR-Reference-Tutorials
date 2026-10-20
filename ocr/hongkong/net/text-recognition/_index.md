@@ -521,6 +521,15 @@ url: /zh-hant/net/text-recognition/
 學習如何使用 Aspose OCR 在 C# 中從 JPG 圖像提取文字，提升您的 .NET 應用程式的文字辨識能力。
 ### [如何從掃描圖像建立 ePub – 步驟指南](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 學習使用 Aspose.OCR 將掃描圖像轉換為 ePub 電子書的完整步驟指南，提升您的內容發佈流程。
+### [使用 Aspose OCR 在影像上執行 OCR – 印度語指南](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+學習如何使用 Aspose OCR 於影像上執行 OCR，並支援印度語文字的辨識。
+### [使用 Aspose OCR 在 PDF 上執行 OCR – 完整 C# 指南](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+學習如何使用 Aspose OCR 在 PDF 文件上執行 OCR，提供完整的 C# 實作步驟與範例。
+### [如何使用 Aspose：將影像轉換為 HTML 並使用 OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+### [在影像上執行 OCR 並偵測拼寫錯誤的單詞（C#）](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+學習如何使用 Aspose.OCR 在影像上執行 OCR，並利用內建功能偵測拼寫錯誤的單詞，示範 C# 實作步驟。
+### [在 C# 中執行影片字幕 OCR – 完整指南](./video-subtitle-ocr-in-c-complete-guide/)
+學習如何使用 Aspose.OCR 在 C# 中辨識影片字幕，提供完整步驟與範例，提升多媒體文字處理能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
