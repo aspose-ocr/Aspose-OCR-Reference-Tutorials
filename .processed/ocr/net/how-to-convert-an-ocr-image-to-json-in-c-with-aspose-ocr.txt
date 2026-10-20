@@ -1,0 +1,7 @@
+Title: How to convert an OCR image to JSON in C# with Aspose.OCR
+Slug: how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr
+Category: text-recognition
+ProcessedDate: 2026-09-07T06:57:46.636422
+SourceRepo: AI Search API
+Keywords: ocr image to json, extract text from image, convert image to text, recognize text from photo, load image for ocr
+PRNumber: 212

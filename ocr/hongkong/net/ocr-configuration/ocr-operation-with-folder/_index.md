@@ -8,19 +8,12 @@ url: /zh-hant/net/ocr-configuration/ocr-operation-with-folder/
 weight: 11
 ---
 
-.
 
-**Author:** Aspose => "作者：" same.
 
-Then closing shortcodes.
 
-Also include the backtop button shortcode unchanged.
 
-Now ensure we keep all markdown formatting: headings, lists, blockquote, tables.
 
-We need to keep code block placeholders unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

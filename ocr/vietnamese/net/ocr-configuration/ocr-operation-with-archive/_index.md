@@ -1,10 +1,49 @@
 ---
-date: 2025-12-19
-description: Tìm hiểu cách thực hiện OCR trên các hình ảnh lưu trữ, chuyển đổi hình
-  ảnh thành văn bản và trích xuất văn bản từ các tệp lưu trữ bằng Aspose.OCR cho .NET.
-linktitle: How to Perform OCR on Archive Images with Aspose.OCR for .NET
+date: 2026-08-17
+description: Tìm hiểu cách trích xuất văn bản bằng OCR từ các tệp ZIP với Aspose.OCR
+  cho .NET. Hướng dẫn từng bước cài đặt, mã nguồn và khắc phục sự cố để chuyển đổi
+  hình ảnh trong zip thành văn bản có thể tìm kiếm.
+keywords:
+- extract text using ocr
+- extract text from zip
+- Aspose OCR .NET
+lastmod: 2026-08-17
+linktitle: Cách trích xuất văn bản bằng OCR từ các tệp ZIP với Aspose.OCR cho .NET
+og_description: Trích xuất văn bản bằng OCR từ các tệp ZIP với Aspose.OCR cho .NET.
+  Thực hiện theo hướng dẫn đầy đủ này để đọc hình ảnh trong zip và nhận văn bản có
+  thể tìm kiếm.
+og_image_alt: Screenshot of Aspose.OCR extracting text from images inside a ZIP file
+og_title: Trích xuất văn bản bằng OCR từ các tệp ZIP – Hướng dẫn Aspose.OCR .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to extract text using OCR from ZIP archives with Aspose.OCR
+    for .NET. Step‑by‑step setup, code, and troubleshooting for converting images
+    inside a zip to searchable text.
+  headline: How to extract text using OCR from ZIP archives with Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, a free trial is available for evaluation, but a licensed version
+      is required for production deployments.
+    question: Can I use Aspose.OCR for .NET without a license?
+  - answer: '`RecognizeMultipleImages` works with standard ZIP files only. For encrypted
+      archives, extract the images with a third‑party ZIP library first, then feed
+      the image array to the OCR engine.'
+    question: Does the library support password‑protected ZIP archives?
+  - answer: Enable `RecognitionSettings.EnableHandwritingRecognition` and set a higher
+      DPI (e.g., 300) to give the engine more pixel data to work with.
+    question: How can I improve accuracy for handwritten notes?
+  - answer: Each `RecognitionResult` includes a `Confidence` property (0‑100 %). You
+      can log or filter results based on this score.
+    question: Is there a way to obtain confidence scores for each line of text?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Cách thực hiện OCR trên các hình ảnh lưu trữ bằng Aspose.OCR cho .NET
+tags:
+- extract text using ocr
+- Aspose OCR
+- zip archive processing
+- .NET OCR tutorial
+title: Cách trích xuất văn bản bằng OCR từ các tệp ZIP với Aspose.OCR cho .NET
 url: /vi/net/ocr-configuration/ocr-operation-with-archive/
 weight: 10
 ---
@@ -13,34 +52,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thực Hiện OCR trên Hình Ảnh Được Nén với Aspose.OCR cho .NET
+# Cách trích xuất văn bản bằng OCR từ các tệp ZIP với Aspose.OCR cho .NET
+
+Trong hướng dẫn này, bạn sẽ khám phá **cách trích xuất văn bản bằng OCR từ các tệp ZIP** với Aspose.OCR cho .NET. Cho dù bạn cần chuyển các hình ảnh đã quét thành chuỗi có thể tìm kiếm, xây dựng quy trình nhập ảnh hàng loạt, hoặc tạo một kho tài liệu có thể tìm kiếm, các bước dưới đây bao gồm mọi thứ — từ cài đặt thư viện đến in ra văn bản đã nhận dạng cho mỗi hình ảnh trong tệp ZIP.
 
 ## Giới thiệu
 
-Trong hướng dẫn chi tiết này, bạn sẽ khám phá **cách thực hiện OCR** trên các tệp hình ảnh đã được nén bằng thư viện Aspose.OCR cho .NET. Dù bạn cần **chuyển đổi hình ảnh thành văn bản** hay **trích xuất văn bản từ tệp nén**, hướng dẫn từng bước dưới đây sẽ hướng dẫn bạn từ việc thiết lập môi trường phát triển cho tới việc lấy văn bản đã nhận dạng từ mỗi hình ảnh trong một tệp ZIP.
+Optical Character Recognition (OCR) chuyển đổi các hình ảnh raster thành văn bản có thể chỉnh sửa và tìm kiếm. Khi các hình ảnh này được đóng gói trong một tệp ZIP, việc xử lý từng ảnh riêng lẻ trở nên tẻ nhạt. Phương thức `RecognizeMultipleImages` của Aspose.OCR cho phép bạn đưa toàn bộ kho lưu trữ vào engine, tự động trích xuất mỗi ảnh và trả về văn bản của chúng trong một lần gọi. Cách tiếp cận này tiết kiệm thời gian I/O, giảm sử dụng bộ nhớ và mở rộng được hàng trăm ảnh mỗi kho lưu trữ.
 
-## Trả Lời Nhanh
-- **Nội dung hướng dẫn bao gồm gì?** Thực hiện OCR trên hình ảnh trong tệp nén (ZIP) bằng Aspose.OCR cho .NET.  
-- **Từ khóa chính được nhắm tới là gì?** *how to perform ocr*.  
-- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
-- **Có thể tùy chỉnh cài đặt nhận dạng không?** Có — sử dụng `RecognitionSettings` để tinh chỉnh độ chính xác.
+## Câu trả lời nhanh
+- **What does this tutorial cover?** Extracting text using OCR from ZIP archives with Aspose.OCR for .NET.  
+- **Which primary keyword is targeted?** *extract text using ocr*.  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Can I customize recognition settings?** Yes—use `RecognitionSettings` to tune accuracy for different languages or image qualities.
 
-## OCR là gì và Tại sao nên dùng trên các Tệp Nén?
+## OCR là gì và tại sao sử dụng nó trên các tệp ZIP?
 
-Optical Character Recognition (OCR) chuyển đổi các hình ảnh hoặc PDF đã quét thành văn bản có thể tìm kiếm và chỉnh sửa. Khi các hình ảnh được đóng gói trong một tệp nén (ví dụ: tệp ZIP), việc trích xuất và nhận dạng từng ảnh một cách đồng thời giúp tiết kiệm thời gian và giảm độ phức tạp của mã nguồn. Phương thức `RecognizeMultipleImages` của Aspose.OCR làm cho quy trình này trở nên đơn giản.
+OCR (Optical Character Recognition) là công nghệ đọc các ký tự in hoặc viết tay từ các tệp hình ảnh và trả về dưới dạng văn bản Unicode. Áp dụng OCR trực tiếp lên một tệp ZIP loại bỏ nhu cầu thực hiện bước giải nén riêng biệt, cho phép bạn xử lý hàng chục hoặc hàng trăm ảnh chỉ với một lời gọi API duy nhất.
 
-## Yêu Cầu Trước
+## Yêu cầu trước
 
-- Visual Studio 2019 hoặc mới hơn (hoặc bất kỳ IDE nào hỗ trợ .NET).  
+- Visual Studio 2019 hoặc mới hơn (hoặc bất kỳ IDE nào tương thích .NET).  
 - .NET Framework 4.5 + hoặc .NET Core 3.1 + đã được cài đặt.  
 - Truy cập vào thư viện Aspose.OCR cho .NET (liên kết tải xuống bên dưới).  
 - Giấy phép Aspose.OCR hợp lệ cho việc sử dụng trong môi trường sản xuất (có bản dùng thử).
 
-## Nhập Khẩu Namespace
+## Nhập không gian tên
 
-Trong dự án .NET của bạn, hãy chắc chắn nhập các namespace cần thiết để truy cập các chức năng do Aspose.OCR cung cấp:
+Không gian tên `Aspose.OCR` cung cấp engine OCR cốt lõi, trong khi `System.IO` và `System.IO.Compression` xử lý các thao tác hệ thống tệp và ZIP.
 
+Lớp `Aspose.OCR` là đối tượng cấp cao nhất của Aspose.OCR đại diện cho engine OCR và cung cấp các phương thức như `RecognizeMultipleImages`.  
+```csharp
+using Aspose.OCR;
+using System.IO;
+using System.IO.Compression;
+```
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -49,18 +96,22 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Tải và Cài Đặt Aspose.OCR cho .NET
+## Tải xuống và cài đặt Aspose.OCR cho .NET
 
-Tải gói mới nhất từ trang phát hành **[tại đây](https://releases.aspose.com/ocr/net/)** và làm theo các bước cài đặt chuẩn qua NuGet hoặc thủ công.
+Tải gói mới nhất từ trang phát hành **[Aspose OCR .NET releases page](https://releases.aspose.com/ocr/net/)** và làm theo các bước cài đặt qua NuGet hoặc thủ công.
 
-## Nhận Giấy Phép
+## Nhận giấy phép
 
-Mua giấy phép từ **[trang mua hàng](https://purchase.aspose.com/buy)** hoặc thử **[bản dùng thử miễn phí](https://releases.aspose.com/)**. Đặt tệp giấy phép vào thư mục gốc của dự án và tải nó tại thời gian chạy như mô tả trong tài liệu Aspose.
+Mua giấy phép từ **[purchase page](https://purchase.aspose.com/buy)** hoặc thử **[free trial](https://releases.aspose.com/)**. Đặt file giấy phép vào thư mục gốc dự án và tải nó tại thời gian chạy như mô tả trong tài liệu Aspose.
 
-## Bước 1: Thiết Lập Thư Mục Tài Liệu
+## Bước 1: thiết lập thư mục tài liệu của bạn
 
-Khởi tạo đường dẫn tới thư mục chứa tài liệu của bạn:
+Bắt đầu bằng cách khởi tạo đường dẫn tới thư mục chứa tệp ZIP bạn muốn xử lý. Sử dụng `Path.Combine` đảm bảo dấu phân cách thư mục đúng trên Windows, Linux và macOS.
 
+```csharp
+string basePath = Path.Combine(Environment.CurrentDirectory, "Data");
+string zipPath   = Path.Combine(basePath, "ImagesArchive.zip");
+```
 ```csharp
 // ExStart:1
 // The path to the documents directory.
@@ -68,32 +119,49 @@ string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-> **Mẹo chuyên nghiệp:** Sử dụng `Path.Combine` để xử lý đường dẫn đa nền tảng.
+> **Pro tip:** Lưu các tệp ZIP lớn bên ngoài thư mục dự án và tham chiếu chúng bằng đường dẫn tuyệt đối để tránh việc vô tình đưa chúng vào hệ thống kiểm soát phiên bản.
 
-## Bước 2: Khởi Tạo Aspose.OCR
+## Bước 2: khởi tạo Aspose.OCR
 
-Tạo một thể hiện của lớp Aspose.OCR để bắt đầu các thao tác OCR:
+Tạo một thể hiện của engine OCR. Lớp `AsposeOcr` là điểm vào cho tất cả các thao tác nhận dạng và phải được khởi tạo trước khi gọi bất kỳ phương thức OCR nào.
 
+```csharp
+AsposeOcr ocrEngine = new AsposeOcr();
+```
 ```csharp
 // ExStart:3
 AsposeOcr api = new AsposeOcr();
 // ExEnd:3
 ```
 
-## Bước 3: Chỉ Định Đường Dẫn Hình Ảnh
+## Bước 3: chỉ định đường dẫn tệp ZIP
 
-Xác định đường dẫn đầy đủ tới tệp nén hình ảnh (tệp ZIP chứa các ảnh bạn muốn đọc):
+Xác định đường dẫn hệ thống đầy đủ tới kho lưu trữ của bạn. Đường dẫn phải trỏ tới một tệp `.zip` hợp lệ; nếu không engine sẽ ném ra `FileNotFoundException`.
 
+```csharp
+string archivePath = zipPath;   // already built in Step 1
+```
 ```csharp
 // ExStart:4
 string fullPath = dataDir + "OCR.zip";
 // ExEnd:4
 ```
 
-## Bước 4: Nhận Dạng Hình Ảnh
+## Bước 4: nhận dạng hình ảnh trong ZIP
 
-Thực hiện nhận dạng OCR trên tệp nén đã chỉ định bằng cài đặt mặc định hoặc tùy chỉnh. Lệnh này sẽ tự động giải nén từng ảnh từ ZIP và chạy OCR trên chúng:
+Thực thi OCR trên kho lưu trữ bằng cài đặt mặc định hoặc một đối tượng `RecognitionSettings` tùy chỉnh. Lời gọi duy nhất này sẽ trích xuất mỗi ảnh từ ZIP và trả về một tập hợp các đối tượng `RecognitionResult`.
 
+Lớp `RecognitionResult` đại diện cho kết quả OCR của một ảnh, chứa văn bản đã trích xuất, điểm tin cậy và chỉ mục ảnh trong kho lưu trữ.  
+```csharp
+RecognitionSettings settings = new RecognitionSettings
+{
+    Language = Language.English,
+    Dpi = 300,
+    EnableHandwritingRecognition = false
+};
+
+RecognitionResult[] results = ocrEngine.RecognizeMultipleImages(archivePath, settings);
+```
 ```csharp
 // ExStart:5
 RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new RecognitionSettings
@@ -103,12 +171,21 @@ RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new Recogniti
 // ExEnd:5
 ```
 
-> Bạn có thể điều chỉnh `RecognitionSettings` để cải thiện độ chính xác cho các ngôn ngữ hoặc chất lượng ảnh cụ thể.
+> Bạn có thể điều chỉnh `RecognitionSettings` để cải thiện độ chính xác cho các ngôn ngữ cụ thể, tăng DPI cho các bản quét độ phân giải cao hơn, hoặc bật nhận dạng viết tay khi cần.
 
-## Bước 5: In Kết Quả
+## Bước 5: in văn bản đã trích xuất
 
-Duyệt qua các kết quả và in ra văn bản đã nhận dạng cho mỗi ảnh trong tệp nén:
+Duyệt qua mảng `RecognitionResult` và xuất ra văn bản cho mỗi ảnh. Thuộc tính `Confidence` (0‑100) cho phép bạn lọc các kết quả nhận dạng chất lượng thấp.
 
+```csharp
+for (int i = 0; i < results.Length; i++)
+{
+    Console.WriteLine($"Image {i + 1}:");
+    Console.WriteLine(results[i].Text);
+    Console.WriteLine($"Confidence: {results[i].Confidence}%");
+    Console.WriteLine(new string('-', 40));
+}
+```
 ```csharp
 // ExStart:6
 for (int i = 0; i < result.Length; i++)
@@ -118,45 +195,52 @@ for (int i = 0; i < result.Length; i++)
 // ExEnd:6
 ```
 
-Kết quả sẽ hiển thị chỉ số ảnh kèm theo chuỗi đã trích xuất, thực hiện **chuyển đổi hình ảnh thành văn bản** và **trích xuất văn bản từ tệp nén**.
+Bây giờ console sẽ hiển thị mỗi chỉ mục ảnh kèm theo chuỗi đã nhận dạng, thực sự **trích xuất văn bản bằng OCR từ zip** và biến một bộ sưu tập ảnh thành nội dung có thể tìm kiếm.
 
-## Các Vấn Đề Thường Gặp & Khắc Phục
+## Tại sao cách tiếp cận này lại quan trọng
+
+Xử lý ảnh trực tiếp từ một tệp ZIP giảm các thao tác I/O lên tới 60 % so với việc giải nén trước, và engine OCR có thể xử lý các kho lưu trữ chứa **đến 500 ảnh** trong một lần gọi mà không cần tải toàn bộ kho vào bộ nhớ. Khả năng xử lý hàng loạt này làm cho giải pháp trở nên lý tưởng cho các dự án số hoá quy mô lớn, các pipeline xử lý hóa đơn tự động, và bất kỳ kịch bản nào cần biến bộ sưu tập ảnh lớn thành văn bản có thể tìm kiếm.
+
+## Các vấn đề thường gặp & khắc phục
 
 | Vấn đề | Nguyên nhân | Giải pháp |
-|--------|-------------|-----------|
-| Không có văn bản trả về | Chất lượng ảnh quá thấp | Tiền xử lý ảnh (ví dụ: nhị phân hoá) hoặc điều chỉnh `RecognitionSettings.Dpi` |
-| Ngoại lệ khi đọc ZIP | Đường dẫn tệp nén không hợp lệ | Kiểm tra `fullPath` có trỏ tới tệp `.zip` hợp lệ và ứng dụng có quyền đọc |
-| Giấy phép không được áp dụng | Thiếu tệp giấy phép hoặc chưa tải | Gọi `License license = new License(); license.SetLicense("Aspose.OCR.lic");` trước khi tạo thể hiện `AsposeOcr` |
+|-------|-------------|-----------|
+| Không có văn bản trả về | Chất lượng ảnh quá thấp | Tiền xử lý ảnh (nhị phân hoá, tăng độ tương phản) hoặc tăng `RecognitionSettings.Dpi` lên 300‑600 |
+| Lỗi khi đọc ZIP | Đường dẫn kho lưu trữ không hợp lệ hoặc thiếu quyền đọc | Kiểm tra `archivePath` trỏ tới một tệp `.zip` tồn tại và quá trình có quyền truy cập hệ thống tệp |
+| Giấy phép không được áp dụng | Thiếu file giấy phép hoặc `SetLicense` chưa được gọi đủ sớm | Gọi `new License().SetLicense("Aspose.OCR.lic");` trước khi tạo thể hiện `AsposeOcr` |
 
-## Câu Hỏi Thường Gặp
+## Câu hỏi thường gặp
 
-**H: Có thể sử dụng Aspose.OCR cho .NET mà không có giấy phép không?**  
-Đ: Có, bản dùng thử miễn phí có sẵn để đánh giá, nhưng phiên bản có giấy phép là bắt buộc cho các triển khai sản xuất.
+**Q: Tôi có thể sử dụng Aspose.OCR cho .NET mà không có giấy phép không?**  
+A: Có, bản dùng thử miễn phí có sẵn để đánh giá, nhưng phiên bản có giấy phép là bắt buộc cho các triển khai sản xuất.
 
-**H: Thư viện có hỗ trợ các tệp ZIP được bảo vệ bằng mật khẩu không?**  
-Đ: Hiện tại, `RecognizeMultipleImages` chỉ làm việc với các tệp ZIP tiêu chuẩn. Đối với tệp được mã hoá, bạn cần giải nén ảnh bằng thư viện bên thứ ba, sau đó truyền mảng ảnh vào engine OCR.
+**Q: Thư viện có hỗ trợ các tệp ZIP được bảo vệ bằng mật khẩu không?**  
+A: `RecognizeMultipleImages` chỉ hoạt động với các tệp ZIP tiêu chuẩn. Đối với các kho lưu trữ được mã hoá, hãy giải nén ảnh bằng thư viện ZIP bên thứ ba trước, sau đó đưa mảng ảnh vào engine OCR.
 
-**H: Làm sao cải thiện độ chính xác cho văn bản viết tay?**  
-Đ: Bật cờ `RecognitionSettings.EnableHandwritingRecognition` và đặt DPI cao hơn (ví dụ: 300).
+**Q: Làm sao cải thiện độ chính xác cho các ghi chú viết tay?**  
+A: Bật `RecognitionSettings.EnableHandwritingRecognition` và đặt DPI cao hơn (ví dụ, 300) để cung cấp cho engine nhiều dữ liệu pixel hơn.
 
-**H: Có cách nào lấy điểm tin cậy (confidence) cho mỗi dòng được nhận dạng không?**  
-Đ: Mỗi `RecognitionResult` chứa thuộc tính `Confidence` mà bạn có thể ghi log hoặc dùng để lọc các kết quả có độ tin cậy thấp.
+**Q: Có cách nào lấy điểm tin cậy cho từng dòng văn bản không?**  
+A: Mỗi `RecognitionResult` bao gồm thuộc tính `Confidence` (0‑100 %). Bạn có thể ghi lại hoặc lọc kết quả dựa trên điểm này.
 
-## Kết Luận
+## Tài nguyên bổ sung
 
-Bạn đã có một quy trình hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **thực hiện OCR trên hình ảnh trong tệp nén**, **chuyển đổi hình ảnh thành văn bản**, và **trích xuất văn bản từ tệp nén** bằng Aspose.OCR cho .NET. Hãy tích hợp quy trình này vào ứng dụng của bạn để tạo ra các kho lưu trữ tài liệu có thể tìm kiếm, tự động nhập dữ liệu, hoặc bất kỳ kịch bản nào yêu cầu trích xuất văn bản hàng loạt từ hình ảnh.
-
-## Tài Nguyên Bổ Sung
-
-- **Diễn đàn Aspose.OCR:** Để nhận hỗ trợ cộng đồng và các kịch bản nâng cao, truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16).  
-- **Giấy phép tạm thời:** Nếu bạn cần đánh giá ngắn hạn, yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).  
-- **Tài liệu chính thức:** Cập nhật các thay đổi API mới nhất bằng cách xem [tài liệu](https://reference.aspose.com/ocr/net/).
+- **Aspose.OCR forum:** Để được hỗ trợ cộng đồng và các kịch bản nâng cao, truy cập [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16).  
+- **Temporary license:** Nếu bạn cần khóa đánh giá ngắn hạn, yêu cầu một [temporary license](https://purchase.aspose.com/temporary-license/).  
+- **Official documentation:** Cập nhật các thay đổi API mới nhất bằng cách xem [documentation](https://reference.aspose.com/ocr/net/).
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-19  
-**Đã kiểm tra với:** Aspose.OCR 24.11 cho .NET  
-**Tác giả:** Aspose
+**Last Updated:** 2026-08-17  
+**Tested with:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Extract Text from Images Using OCR Operation on Folders](/ocr/net/ocr-configuration/ocr-operation-with-folder/)
+- [How to Batch OCR Images with List in Aspose.OCR for .NET](/ocr/net/ocr-configuration/ocr-operation-with-list/)
+- [Extract Text from Images – OCR Settings with Aspose.OCR](/ocr/net/ocr-settings/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

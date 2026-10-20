@@ -40,6 +40,24 @@ url: /th/net/skew-angle-calculation/
 ปลดปล่อยพลังของ Aspose.OCR สำหรับ .NET ซึ่งเป็นโซลูชันที่แข็งแกร่งสำหรับการจดจำรูปภาพ เรียนรู้วิธีการคำนวณมุมเอียงได้อย่างง่ายดาย
 ### [คำนวณมุมเอียงจาก URI ในการรับรู้ภาพ OCR](./calculate-skew-angle-from-uri/)
 สำรวจ Aspose.OCR สำหรับ .NET เพื่อคำนวณมุมเอียงในการจดจำรูปภาพ OCR ได้อย่างง่ายดาย ปรับปรุงโครงการของคุณด้วยความแม่นยำและมีประสิทธิภาพ
+### [วิธีการปรับแนวภาพสำหรับ OCR – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-for-ocr-complete-c-guide/)
+เรียนรู้วิธีปรับแนวภาพเพื่อ OCR อย่างละเอียดด้วย C# และ Aspose.OCR เพื่อเพิ่มความแม่นยำของการจดจำข้อความ
+### [วิธีทำให้ภาพตรง – คู่มือ C# ฉบับสมบูรณ์สำหรับการเตรียม OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+เรียนรู้วิธี Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
+### [วิธีการ Deskew ภาพใน C# – คู่มือการเตรียม OCR อย่างสมบูรณ์](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+เรียนรู้ขั้นตอนการ Deskew ภาพด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผล OCR อย่างครบถ้วน
+### [วิธีแก้ไขมุมเอียงของภาพ – คู่มือการเตรียมข้อมูล C# ครบถ้วนสำหรับ OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+### [การลบการเอียงจากภาพ – คู่มือการเตรียม OCR อย่างสมบูรณ์](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+
+### [วิธีแก้ไขมุมเอียงของภาพและทำความสะอาดสแกน – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+เรียนรู้วิธีแก้ไขมุมเอียงของภาพและทำความสะอาดสแกนด้วย C# อย่างละเอียดเพื่อเพิ่มความแม่นยำของ OCR
+### [วิธีการแก้ไขมุมเอียงของภาพใน C# – คู่มือฉบับสมบูรณ์โดยใช้ Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+เรียนรู้ขั้นตอนการแก้ไขมุมเอียงของภาพใน C# อย่างละเอียดด้วย Aspose OCR เพื่อเพิ่มความแม่นยำในการจดจำข้อความ
+
+### [วิธีแก้ไขมุมเอียงของภาพใน C# ด้วย Aspose OCR – คู่มือเต็ม](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+เรียนรู้วิธีการแก้ไขมุมเอียงของภาพใน C# ด้วย Aspose OCR อย่างละเอียดและครบถ้วน
+### [วิธีทำให้ภาพไม่เอียงด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+เรียนรู้ขั้นตอนการแก้ไขมุมเอียงของภาพด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
 ### [บทแนะนำเอกสารที่หมุน OCR – การแก้ไขมุมเอียงและการหมุนอัตโนมัติใน C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
 เรียนรู้วิธีจัดการเอกสารที่หมุนใน OCR ด้วยการแก้ไขมุมเอียงและการหมุนอัตโนมัติใน C# ด้วย Aspose.OCR
 {{< /blocks/products/pf/tutorial-page-section >}}

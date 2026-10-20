@@ -1,0 +1,7 @@
+Title: Create Searchable PDF with OCR – Full Guide
+Slug: create-searchable-pdf-with-ocr-full-guide
+Category: ocr-operations
+ProcessedDate: 2026-06-22T19:32:56.683895
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert scanned image pdf, ocr to searchable pdf, how to disable compression, pdf without compression
+PRNumber: 153
