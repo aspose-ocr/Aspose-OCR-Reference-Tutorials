@@ -1,10 +1,55 @@
 ---
-date: 2025-12-17
-description: Pelajari cara menghitung OCR dengan Aspose.OCR untuk .NET dan mengekstrak
-  teks dari gambar. Jelajahi tutorial tentang sudut kemiringan, pemilihan bahasa,
-  dan optimisasi.
-linktitle: Aspose.OCR for .NET Tutorials
-title: Cara Menghitung OCR dengan Aspose.OCR untuk .NET
+date: 2026-09-08
+description: Pelajari cara mengekstrak teks dari gambar dengan Aspose.OCR for .NET,
+  meningkatkan kecepatan OCR, mengonversi PDF ke gambar, memproses pra‑gambar untuk
+  OCR, dan mengaktifkan pengenalan tulisan tangan.
+keywords:
+- extract text from images
+- handwriting recognition ocr
+- convert pdf to image
+- preprocess images for ocr
+- improve ocr speed
+- extract text from pdf
+lastmod: 2026-09-08
+linktitle: Tutorial Aspose.OCR for .NET
+og_description: Pelajari cara mengekstrak teks dari gambar dengan Aspose.OCR for .NET,
+  meningkatkan kecepatan OCR, mengonversi PDF ke gambar, memproses pra‑gambar untuk
+  OCR, dan mengaktifkan pengenalan tulisan tangan.
+og_image_alt: 'Developer guide: extract text from images using Aspose.OCR for .NET'
+og_title: Ekstrak teks dari gambar dengan Aspose.OCR for .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to extract text from images with Aspose.OCR for .NET, improve
+    OCR speed, convert PDF to image, preprocess images for OCR, and enable handwriting
+    recognition.
+  headline: How to extract text from images with Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: Apply image preprocessing (de‑noise, binarization) and correct the skew
+      angle before recognition.
+    question: How can I improve OCR accuracy on low‑resolution images?
+  - answer: Yes—use the OCR language selection feature to specify a comma‑separated
+      list of languages.
+    question: Is it possible to recognize multiple languages in a single document?
+  - answer: Convert each PDF page to an image, correct skew, then run Aspose.OCR with
+      appropriate language settings.
+    question: What is the best way to extract text from PDFs that contain scanned
+      pages?
+  - answer: Absolutely. Instantiate separate OCR objects per thread or use the thread‑safe
+      static methods provided by Aspose.OCR.
+    question: Can I run OCR in a multi‑threaded environment?
+  - answer: Basic handwriting is supported, but results may vary; consider additional
+      preprocessing for better outcomes.
+    question: Does Aspose.OCR support handwriting recognition?
+  type: FAQPage
+tags:
+- extract text from images
+- Aspose.OCR
+- .NET OCR
+- handwriting recognition
+- PDF conversion
+title: Cara mengekstrak teks dari gambar dengan Aspose.OCR for .NET
 url: /id/net/
 weight: 10
 ---
@@ -13,81 +58,119 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menghitung OCR dengan Aspose.OCR untuk .NET
+# Cara mengekstrak teks dari gambar dengan Aspose.OCR untuk .NET
 
 ## Pendahuluan
 
-Jika Anda ingin **cara menghitung OCR** dengan akurat dalam proyek .NET Anda, Anda berada di tempat yang tepat. Dalam panduan ini kami akan membahas skenario paling umum—koreksi sudut miring, pengenalan gambar dan gambar gambar, ekstraksi teks, konfigurasi, dan penyetelan kinerja. Pada akhirnya Anda akan tahu persis **cara mengekstrak teks** dari berbagai sumber gambar dan **mengoptimalkan OCR** untuk kecepatan serta akurasi.
+Aspose.OCR for .NET adalah perpustakaan .NET yang mengekstrak teks cetak dan tulisan tangan dari gambar, PDF, dan dokumen yang dipindai. Jika Anda ingin **mengekstrak teks dari gambar** secara akurat dalam proyek .NET Anda, Anda berada di tempat yang tepat. Dalam panduan ini kami akan membahas skenario paling umum—koreksi sudut kemiringan, pengenalan gambar dan gambar teknik, ekstraksi teks, konfigurasi, dan penyetelan kinerja. Pada akhir Anda akan tahu persis **cara mengekstrak teks dari PDF**, cara **pra‑memproses gambar untuk OCR**, dan cara **meningkatkan kecepatan OCR** untuk beban kerja berskala besar. Kami juga akan membahas **pengenalan tulisan tangan OCR** dan praktik terbaik untuk pipeline **mengonversi PDF ke gambar**.
 
 ## Jawaban Cepat
-- **Apa langkah pertama untuk menghitung OCR?** Menyelaraskan gambar dan memperbaiki sudut miringnya.  
-- **Fitur mana yang mengekstrak teks dari gambar?** Modul Image and Drawing Recognition.  
+- **Apa langkah pertama untuk menghitung OCR?** Menyelaraskan gambar dan memperbaiki sudut kemiringannya.  
+- **Fitur mana yang mengekstrak teks dari gambar teknik?** Modul Image and Drawing Recognition.  
 - **Bagaimana cara meningkatkan kecepatan OCR?** Gunakan filter pra‑pemrosesan dan sesuaikan OCR Settings.  
 - **Apakah saya dapat memilih bahasa tertentu?** Ya—gunakan opsi pemilihan bahasa OCR.  
 - **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose yang valid diperlukan untuk penggunaan komersial.
 
-## Cara Menghitung OCR: Perhitungan Sudut Miring
+## Apa itu Aspose.OCR untuk .NET?
 
-Dokumen yang miring merupakan sumber umum kesalahan pengenalan. Bagian ini menunjukkan **cara menghitung OCR** dengan mendeteksi dan memperbaiki sudut miring sebelum memberi gambar ke mesin. Ikuti instruksi langkah‑demi‑langkah untuk memastikan baris teks benar‑benar horizontal, yang secara dramatis meningkatkan kualitas ekstraksi.
+Aspose.OCR for .NET adalah perpustakaan .NET yang mengekstrak teks cetak dan tulisan tangan dari gambar, PDF, dan dokumen yang dipindai. Ia mendukung lebih dari 30 format gambar, lebih dari 50 bahasa, dan dapat memproses file hingga 500 MB tanpa memuat seluruh dokumen ke memori, memungkinkan pekerjaan batch ber‑throughput tinggi dan pemrosesan gambar waktu nyata.
 
-## Pengenalan Gambar dan Gambar
+## Bagaimana koreksi sudut kemiringan meningkatkan akurasi OCR?
 
-Ekstraksi informasi tidak terbatas pada teks biasa. Dengan Aspose.OCR Anda juga dapat mengenali bentuk, diagram, dan anotasi tulisan tangan. Kemampuan ini penting ketika Anda perlu **mengekstrak teks dari gambar** yang berisi konten campuran seperti formulir atau gambar teknik.
+Memperbaiki sudut kemiringan menyelaraskan garis dasar teks dengan ekspektasi mesin OCR terhadap garis horizontal, yang dapat meningkatkan akurasi tingkat karakter sebesar 15‑20 % dibandingkan pemindaian mentah. Prosesnya melibatkan deteksi sudut, memutar kanvas, dan kemudian memberi gambar yang telah diperbaiki ke mesin.
+
+## Bagaimana cara mengekstrak teks dari PDF menggunakan Aspose.OCR?
+
+Konversi setiap halaman PDF menjadi gambar (misalnya PNG), terapkan koreksi kemiringan jika diperlukan, lalu jalankan mesin OCR pada gambar tersebut. Pendekatan dua langkah ini mempertahankan kesetiaan tata letak dan memungkinkan Anda mengekstrak teks yang dapat dicari dari PDF yang dipindai tanpa memerlukan perpustakaan PDF‑to‑text terpisah.
+
+## Cara meningkatkan kecepatan OCR dengan pra‑pemrosesan?
+
+Terapkan pra‑pemrosesan ringan seperti memotong ke wilayah yang diminati, mengonversi ke skala abu‑abu, dan menggunakan filter binarisasi cepat. Langkah‑langkah ini mengurangi jumlah data yang harus dianalisis mesin, seringkali memotong waktu pemrosesan sebesar 30‑40 % sambil mempertahankan akurasi.
+
+## Pengenalan Gambar dan Gambar Teknik
+
+Modul `Image and Drawing Recognition` dapat mengenali tidak hanya teks biasa tetapi juga bentuk, diagram, dan anotasi tulisan tangan. Ini memungkinkan Anda **mengekstrak teks dari gambar teknik** dan formulir campuran, mengubah skema teknik atau kwitansi beranotasi menjadi data yang dapat dicari. Mesin memisahkan gambar berbasis vektor dari teks raster, mengembalikan set hasil yang berbeda untuk masing‑masing.
 
 ## Pengenalan Teks
 
-Deteksi karakter yang akurat adalah inti dari setiap alur kerja OCR. Di sini kami membahas opsi untuk memperoleh pilihan pengenalan, hasil mentah, dan output berformat JSON. Anda akan belajar **cara mengekstrak teks** secara efisien dan cara menangani dokumen multibahasa menggunakan fitur pemilihan bahasa bawaan.
+Deteksi karakter yang akurat adalah inti dari setiap alur kerja OCR. Di sini kami membahas pilihan pengenalan, hasil mentah, dan output berformat JSON. Anda akan belajar **cara mengekstrak teks** secara efisien dan cara menangani dokumen multibahasa menggunakan fitur pemilihan bahasa bawaan.
 
 ## Konfigurasi OCR
 
-Mengonfigurasi mesin dengan benar dapat menghemat berjam‑jam debugging. Kami membahas penanganan arsip, pemrosesan folder, **pemilihan bahasa OCR**, dan operasi daftar yang memungkinkan Anda menyesuaikan jalannya OCR sesuai kebutuhan.
+Mengonfigurasi mesin dengan benar dapat menghemat jam debugging. Kami membahas penanganan arsip, pemrosesan folder, **pemilihan bahasa OCR**, dan operasi daftar yang memungkinkan Anda menyesuaikan jalannya OCR sesuai kebutuhan. Misalnya, Anda dapat menunjuk API ke seluruh direktori, menentukan daftar bahasa yang dipisahkan koma, dan membiarkan mesin secara otomatis iterasi setiap file.
 
-## Optimasi OCR
+## Optimisasi OCR
 
-Kinerja penting, terutama dengan batch besar. Panduan ini menjelaskan cara menyiapkan persegi panjang gambar, menerapkan filter pra‑pemrosesan, menjalankan pemeriksaan ejaan pada hasil, dan menyimpan output OCR multi‑halaman—semua cara terbukti **cara mengoptimalkan OCR** untuk akurasi dan kecepatan.
+Kinerja penting, terutama dengan batch besar. Panduan ini menjelaskan cara menyiapkan persegi panjang gambar, menerapkan filter pra‑pemrosesan, menjalankan pemeriksaan ejaan pada hasil, dan menyimpan output OCR multi‑halaman—semua cara terbukti untuk **mengoptimalkan OCR** baik dari segi akurasi maupun kecepatan. Dengan **pra‑memproses gambar untuk OCR** Anda juga akan melihat peningkatan yang nyata pada **kecepatan OCR**.
 
 ## Pengaturan OCR
 
-Penyetelan halus pada pengaturan memberi Anda kontrol atas akurasi, kecepatan, dan perilaku khusus. Pelajari parameter mana yang harus disesuaikan untuk kualitas gambar, bahasa, dan kompleksitas tata letak yang berbeda.
+Penyetelan halus memberi Anda kontrol atas akurasi, kecepatan, dan perilaku khusus. Pelajari parameter mana yang harus disesuaikan untuk kualitas gambar, bahasa, dan kompleksitas tata letak yang berbeda. Misalnya, mengaktifkan `EnableLayoutPreservation` mempertahankan struktur kolom saat mengonversi PDF yang dipindai menjadi PDF yang dapat dicari.
 
-Siap mengubah proyek OCR Anda? Selami setiap tutorial di bawah dan mulailah mengekstrak teks dengan percaya diri.
+## Mengapa pengenalan tulisan tangan penting
 
-## Tutorial Aspose.OCR untuk .NET
-### [Perhitungan Sudut Miring](./skew-angle-calculation/)
-Buka rahasia perhitungan sudut miring yang akurat dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Tingkatkan presisi dan efisiensi dengan mudah dalam proyek Anda.
-### [Pengenalan Gambar dan Gambar](./image-and-drawing-recognition/)
-Buka presisi pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah, baik itu baris, paragraf, atau seluruh aliran. Selami tutorial kami untuk panduan langkah‑demi‑langkah.
-### [Pengenalan Teks](./text-recognition/)
-Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang tepat. Temukan tutorial langkah‑demi‑langkah untuk memperoleh pilihan, hasil, dan format JSON dalam pengenalan gambar OCR.
-### [Konfigurasi OCR](./ocr-configuration/)
-Buka kemampuan OCR dalam aplikasi .NET dengan Aspose.OCR. Jelajahi tutorial untuk arsip, folder, pemilihan bahasa, dan operasi daftar. Tingkatkan ekstraksi teks aplikasi Anda dengan mulus.
-### [Optimasi OCR](./ocr-optimization/)
-Maksimalkan akurasi OCR dengan tutorial Aspose.OCR untuk .NET. Lakukan OCR pada gambar, siapkan persegi panjang, terapkan filter pra‑pemrosesan, koreksi hasil dengan pemeriksaan ejaan, dan simpan hasil multi‑halaman dengan mudah.
-### [Pengaturan OCR](./ocr-settings/)
-Buka kekuatan Aspose.OCR untuk .NET dengan Tutorial Pengaturan OCR kami. Pelajari cara meningkatkan akurasi, kecepatan, dan kustomisasi untuk pengenalan teks dalam gambar.
+Pengenalan tulisan tangan OCR memungkinkan Anda menangkap tanda tangan, catatan, dan entri formulir tulisan tangan yang sebaliknya akan diabaikan oleh mesin teks cetak murni. Mengaktifkan fitur ini, terutama bila digabungkan dengan filter pengurangan noise, dapat meningkatkan tingkat penangkapan data hingga 30 % dalam skenario seperti kontrak yang ditandatangani atau daftar periksa yang dikumpulkan di lapangan.
+
+## Kasus penggunaan umum
+
+- **Pemrosesan faktur:** Mengekstrak teks dari PDF yang dipindai, memperbaiki kemiringan, dan mengambil detail item baris.  
+- **Digitalisasi formulir:** Mengenali kotak centang, tanda tangan, dan catatan tulisan tangan.  
+- **Gambar teknik:** Mengambil nomor bagian dan anotasi dari diagram kompleks.  
+- **Arsip batch:** Menjalankan OCR pada ribuan gambar dengan pengaturan teroptimasi untuk menjaga waktu pemrosesan tetap rendah.
 
 ## Pertanyaan yang Sering Diajukan
 
-**Q: Bagaimana saya dapat meningkatkan akurasi OCR pada gambar beresolusi rendah?**  
-A: Terapkan pra‑pemrosesan gambar (pengurangan noise, binarisasi) dan perbaiki sudut miring sebelum pengenalan.
+**T: Bagaimana cara meningkatkan akurasi OCR pada gambar beresolusi rendah?**  
+J: Terapkan pra‑pemrosesan gambar (de‑noise, binarisasi) dan perbaiki sudut kemiringan sebelum pengenalan.
 
-**Q: Apakah memungkinkan mengenali banyak bahasa dalam satu dokumen?**  
-A: Ya—gunakan fitur pemilihan bahasa OCR untuk menentukan daftar bahasa yang dipisahkan koma.
+**T: Apakah memungkinkan mengenali banyak bahasa dalam satu dokumen?**  
+J: Ya—gunakan fitur pemilihan bahasa OCR untuk menentukan daftar bahasa yang dipisahkan koma.
 
-**Q: Apa cara terbaik untuk mengekstrak teks dari PDF yang berisi halaman ter‑scan?**  
-A: Konversi setiap halaman PDF menjadi gambar, perbaiki kemiringan, lalu jalankan Aspose.OCR dengan pengaturan bahasa yang sesuai.
+**T: Apa cara terbaik mengekstrak teks dari PDF yang berisi halaman yang dipindai?**  
+J: Konversi setiap halaman PDF menjadi gambar, perbaiki kemiringan, lalu jalankan Aspose.OCR dengan pengaturan bahasa yang sesuai.
 
-**Q: Bisakah saya menjalankan OCR dalam lingkungan multi‑thread?**  
-A: Tentu saja. Buat objek OCR terpisah per thread atau gunakan metode statis yang aman untuk thread yang disediakan oleh Aspose.OCR.
+**T: Dapatkah saya menjalankan OCR dalam lingkungan multi‑thread?**  
+J: Tentu saja. Instansiasi objek OCR terpisah per thread atau gunakan metode statis yang thread‑safe yang disediakan oleh Aspose.OCR.
 
-**Q: Apakah Aspose.OCR mendukung pengenalan tulisan tangan?**  
-A: Tulisan tangan dasar didukung, tetapi hasilnya dapat bervariasi; pertimbangkan pra‑pemrosesan tambahan untuk hasil yang lebih baik.
+**T: Apakah Aspose.OCR mendukung pengenalan tulisan tangan?**  
+J: Pengenalan tulisan tangan dasar didukung, tetapi hasilnya dapat bervariasi; pertimbangkan pra‑pemrosesan tambahan untuk hasil yang lebih baik.
+
+**T: Bagaimana cara mengekstrak teks dari PDF sambil mempertahankan tata letak?**  
+J: Gunakan OCR Settings untuk mengaktifkan preservasi tata letak dan keluarkan hasil sebagai PDF yang dapat dicari.
+
+**T: Langkah pra‑pemrosesan apa yang memberikan peningkatan kecepatan terbesar?**  
+J: Memotong ke wilayah yang diminati, mengonversi ke skala abu‑abu, dan menerapkan filter binarisasi sederhana biasanya memberikan waktu pemrosesan tercepat.
+
+## Tutorial Aspose.OCR untuk .NET
+### [Perhitungan Sudut Kemiringan](./skew-angle-calculation/)
+Ungkap rahasia perhitungan sudut kemiringan yang akurat dalam pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Tingkatkan presisi dan efisiensi secara mudah dalam proyek Anda.
+
+### [Pengenalan Gambar dan Gambar Teknik](./image-and-drawing-recognition/)
+Buka presisi pengenalan gambar OCR dengan Aspose.OCR untuk .NET. Ekstrak teks dari gambar dengan mudah, baik itu baris, paragraf, atau seluruh aliran. Selami tutorial kami untuk panduan langkah‑demi‑langkah.
+
+### [Pengenalan Teks](./text-recognition/)
+Tingkatkan aplikasi .NET Anda dengan pengenalan karakter yang tepat menggunakan Aspose.OCR. Temukan tutorial langkah‑demi‑langkah untuk memperoleh pilihan, hasil, dan format JSON dalam pengenalan gambar OCR.
+
+### [Konfigurasi OCR](./ocr-configuration/)
+Buka kemampuan OCR dalam aplikasi .NET dengan Aspose.OCR. Jelajahi tutorial untuk arsip, folder, pemilihan bahasa, dan operasi daftar. Tingkatkan ekstraksi teks aplikasi Anda secara mulus.
+
+### [Optimisasi OCR](./ocr-optimization/)
+Maksimalkan akurasi OCR dengan tutorial Aspose.OCR untuk .NET. Lakukan OCR pada gambar, siapkan persegi panjang, terapkan filter pra‑pemrosesan, perbaiki hasil dengan pemeriksaan ejaan, dan simpan hasil multipage dengan mudah.
+
+### [Pengaturan OCR](./ocr-settings/)
+Buka kekuatan Aspose.OCR untuk .NET dengan Tutorial Pengaturan OCR kami. Pelajari cara meningkatkan akurasi, kecepatan, dan kustomisasi untuk pengenalan teks dalam gambar.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-17  
+**Terakhir Diperbarui:** 2026-09-08  
 **Diuji Dengan:** Aspose.OCR for .NET 24.11  
 **Penulis:** Aspose  
+
+## Tutorial Terkait
+
+- [Ekstrak Teks dari Gambar – Optimisasi OCR dengan Aspose.OCR untuk .NET](/ocr/net/ocr-optimization/)
+- [Ekstrak Teks Gambar – Pengaturan OCR](/ocr/net/ocr-settings/)
+- [Pra‑proses Gambar OCR dengan Filter Aspose.OCR untuk .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

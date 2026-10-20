@@ -1,24 +1,25 @@
 ---
 category: general
-date: 2026-04-03
-description: Pelajari cara melakukan OCR di C# dan mengekstrak teks dari gambar menggunakan
-  Aspose OCR, dengan pemeriksaan ejaan untuk bahasa Rusia.
+date: 2026-03-13
+description: Cara melakukan OCR di C# dan mengekstrak teks dari gambar menggunakan
+  OcrEngine. Pelajari cara mengubah gambar menjadi teks dengan cepat melalui panduan
+  lengkap langkah demi langkah.
 draft: false
 keywords:
 - how to perform OCR
 - extract text from image
 - convert image to text
-- how to spell check
-- ocr russian language
+- read text from picture
+- how to extract text
 language: id
-og_description: Pelajari cara melakukan OCR di C# dan mengekstrak teks dari gambar
-  menggunakan Aspose OCR, dengan pemeriksaan ejaan untuk bahasa Rusia.
+og_description: Bagaimana melakukan OCR di C#? Panduan ini menunjukkan cara mengekstrak
+  teks dari gambar, mengonversi gambar menjadi teks, dan membaca teks dari gambar
+  menggunakan OcrEngine.
 og_title: Cara Melakukan OCR di C# – Ekstrak Teks dari Gambar
 tags:
 - OCR
 - C#
-- Aspose
-- SpellCheck
+- Image Processing
 title: Cara Melakukan OCR di C# – Ekstrak Teks dari Gambar
 url: /id/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 ---
@@ -29,181 +30,226 @@ url: /id/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 
 # Cara Melakukan OCR di C# – Ekstrak Teks dari Gambar
 
-Pernah bertanya‑tanya **cara melakukan OCR** pada foto catatan tulisan tangan? Mungkin Anda memiliki struk yang dipindai, tanda dalam bahasa asing, atau halaman PDF yang tidak dapat disalin‑tempel. Kabar baiknya? Dengan beberapa baris C# dan pustaka Aspose OCR Anda dapat mengubah gambar tersebut menjadi teks yang dapat diedit dalam sekejap.  
+Cara melakukan OCR di C# adalah pertanyaan umum bagi pengembang yang perlu **membaca teks dari file gambar**. Dalam panduan ini kami akan menunjukkan cara mengekstrak teks dari gambar menggunakan pustaka `OcrEngine`, mengubah foto menjadi string yang dapat dicari hanya dengan beberapa baris kode.  
 
-Dalam panduan ini kami tidak hanya akan menunjukkan **cara melakukan OCR**, tetapi juga akan membahas **ekstrak teks dari gambar**, **konversi gambar ke teks**, dan bahkan **cara memeriksa ejaan** hasilnya ketika Anda menangani dokumen berbahasa Rusia. Kedengarannya banyak? Tetap di sini – kami akan menjelaskan semuanya langkah demi langkah.
+Jika Anda pernah menatap faktur yang dipindai, catatan tulisan tangan, atau tangkapan layar dan bertanya *“bagaimana cara mengekstrak teks?”*, Anda berada di tempat yang tepat. Kami juga akan membahas cara mengonversi gambar ke teks untuk pemrosesan batch, sehingga Anda dapat mengotomatisasi seluruh alur kerja.
 
-## Apa yang Akan Anda Pelajari
+---
 
-Pada akhir tutorial ini Anda akan dapat:
+## Apa yang Anda Butuhkan
 
-* Menyiapkan Aspose OCR untuk dukungan bahasa Rusia.  
-* Memuat file gambar dan menjalankan optical character recognition untuk **ekstrak teks dari gambar**.  
-* Menggunakan pemeriksa ejaan bawaan untuk secara otomatis memperbaiki kata yang salah eja – jawaban sempurna untuk “**cara memeriksa ejaan**” output OCR.  
-* Mencetak string yang sudah dibersihkan ke konsol, siap untuk diproses lebih lanjut atau disimpan.
+Sebelum kita mulai, pastikan Anda memiliki:
 
-**Prasyarat** – Anda memerlukan:
+- **.NET 6.0 atau lebih baru** (API yang kami gunakan bekerja dengan .NET Standard 2.0+)
+- Paket NuGet **OcrEngine** (atau pustaka OCR kompatibel lain yang menyediakan properti `Language`, `Image`, `Recognize`, dan `Text`)
+- File gambar contoh, misalnya `hindi_page.jpg`, ditempatkan di folder yang dapat direferensikan dari kode
+- Pemahaman dasar tentang sintaks C# – tidak memerlukan trik lanjutan
 
-* .NET 6.0 atau yang lebih baru (kode ini juga bekerja dengan .NET Framework 4.8).  
-* Lisensi Aspose OCR yang valid atau kunci evaluasi sementara.  
-* File gambar yang berisi teks berbahasa Rusia (untuk demo kami akan menyebutnya `russian_note.jpg`).  
+Itu saja. Tanpa layanan eksternal, tanpa kunci API, hanya pustaka lokal yang melakukan pekerjaan berat.
 
-Jika ada yang belum familiar, jangan khawatir. Langkah‑langkah di bawah ini mencakup perintah NuGet yang tepat untuk mengunduh Aspose OCR, dan kode sepenuhnya mandiri.
+---
 
-![contoh cara melakukan OCR](/images/ocr-demo.png "contoh cara melakukan OCR di C#")
+## Implementasi Langkah‑per‑Langkah
 
-## Langkah 1 – Instal Aspose OCR dan Tambahkan Namespace
+Di bawah ini kami membagi proses menjadi bagian‑bagian logis. Setiap bagian memiliki judul yang jelas, cuplikan kode singkat, dan penjelasan **mengapa** langkah tersebut penting—bukan hanya **apa** yang dilakukannya.
 
-Hal pertama yang harus dilakukan adalah mendapatkan pustaka. Buka terminal di folder proyek Anda dan jalankan:
+### Cara Melakukan OCR – Langkah Inti
 
-```bash
-dotnet add package Aspose.OCR
-```
+Alur keseluruhan dapat diringkas dalam lima tindakan:
 
-Perintah itu mengunduh versi stabil terbaru (per April 2026 versi 22.9). Setelah paket dipulihkan, tambahkan directive `using` yang diperlukan di bagian atas file C# Anda:
+1. **Buat** instance mesin OCR
+2. **Pilih** bahasa yang ingin dikenali
+3. **Muat** gambar yang berisi teks
+4. **Jalankan** algoritma pengenalan
+5. **Baca** teks yang diekstrak
 
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
-```
+Itulah kerangka dasarnya; bagian‑bagian berikut akan mengembangkannya.
 
-*Tip pro:* Jika Anda menggunakan Visual Studio, IDE akan menyarankan penambahan ini secara otomatis setelah Anda mengetik nama kelas pertama.
+---
 
-## Langkah 2 – Inisialisasi OCR Engine untuk Bahasa Rusia
+### Ekstrak Teks dari Gambar – Buat Mesin
 
-Bagian **cara melakukan OCR** dimulai dengan membuat instance `OcrEngine`. Dengan menentukan `OcrLanguage.Russian` kami memberi tahu engine untuk memuat set karakter Cyrillic dan heuristik khusus bahasa.
+Pertama, kita memerlukan objek yang dapat berkomunikasi dengan mesin OCR.
 
 ```csharp
-// Step 2: Initialise OCR engine for Russian
-OcrEngine ocrEngine = new OcrEngine
+using System;
+using OcrLibrary;   // Replace with the actual namespace of your OCR package
+
+// Step 1: Create an OCR engine instance
+OcrEngine ocrEngine = new OcrEngine();
+```
+
+*Mengapa ini penting:* Menginstansiasi `OcrEngine` mengalokasikan semua buffer internal dan memuat DLL native yang diperlukan untuk analisis gambar. Melewatkan langkah ini akan membuat Anda tidak memiliki pengenal yang dapat dipanggil nanti.
+
+> **Tip pro:** Jika Anda berencana memproses banyak gambar secara berurutan, pertahankan instance `ocrEngine` yang sama tetap hidup. Ia akan menggunakan kembali model bahasa dan mempercepat pemanggilan berikutnya.
+
+---
+
+### Konversi Gambar ke Teks – Pilih Bahasa
+
+Akurasi OCR sangat bergantung pada model bahasa yang Anda berikan. Untuk Hindi, Tamil, atau skrip lain, atur properti `Language` sesuai.
+
+```csharp
+// Step 2: Select the language of the text to recognize (e.g., Hindi)
+ocrEngine.Language = Language.Hindi;   // You can also use Language.Tamil, Language.English, etc.
+```
+
+*Mengapa ini penting:* Mesin menggunakan set karakter dan model statistik khusus bahasa. Memberikan bahasa yang salah biasanya menghasilkan output yang berantakan, terutama untuk skrip non‑Latin.
+
+> **Kasus khusus:** Jika Anda memerlukan dukungan multi‑bahasa, beberapa pustaka memungkinkan Anda menetapkan daftar fallback, misalnya `ocrEngine.Language = Language.Multilingual;`.
+
+---
+
+### Baca Teks dari Gambar – Muat Gambar Sumber
+
+Sekarang kami mengarahkan mesin ke file yang berisi teks visual.
+
+```csharp
+// Step 3: Load the image that contains the text
+ocrEngine.Image = ImageStream.FromFile(@"C:\OCR\Samples\hindi_page.jpg");
+```
+
+*Mengapa ini penting:* `ImageStream.FromFile` mengubah file mentah menjadi format bitmap yang dapat dipahami inti OCR. Memberikan file yang rusak atau format yang tidak didukung (seperti SVG) akan menyebabkan pengecualian.
+
+> **Waspada:** Gambar berukuran besar dapat mengonsumsi banyak memori. Jika Anda memproses pemindaian resolusi tinggi, pertimbangkan menurunkan skala dengan `Image.Resize` sebelum mengirimkannya ke mesin.
+
+---
+
+### Konversi Gambar ke Teks – Jalankan Pengenalan
+
+Dengan mesin siap dan gambar dimuat, kami akhirnya memanggil proses OCR.
+
+```csharp
+// Step 4: Perform the OCR operation
+ocrEngine.Recognize();
+```
+
+*Mengapa ini penting:* `Recognize` memicu serangkaian langkah internal—pra‑pemrosesan, segmentasi, klasifikasi karakter, dan pasca‑pemrosesan. Pemanggilan ini bersifat blocking, artinya thread menunggu hingga teks siap.
+
+> **Catatan kinerja:** Pada desktop biasa, mengenali halaman 300 dpi memakan < 1 detik. Pada server, Anda mungkin ingin menjalankannya dalam tugas latar belakang agar UI tidak membeku.
+
+---
+
+### Cara Ekstrak Teks – Ambil Hasil
+
+Setelah pengenalan selesai, mesin menyimpan output teks polos di properti `Text`.
+
+```csharp
+// Step 5: Output the recognized text
+Console.WriteLine(ocrEngine.Text);
+```
+
+*Mengapa ini penting:* Properti `Text` memberikan string UTF‑8 bersih yang dapat Anda tulis ke file, masukkan ke basis data, atau teruskan ke pipeline NLP selanjutnya.
+
+> **Output yang diharapkan:** Untuk contoh halaman Hindi, Anda mungkin melihat sesuatu seperti  
+> `यह एक उदाहरण पाठ है जो OCR द्वारा पहचाना गया है।`  
+> (Output sebenarnya tergantung pada kualitas gambar dan model bahasa.)
+
+---
+
+## Pertimbangan Tambahan untuk Proyek Dunia Nyata
+
+Berikut beberapa skenario “bagaimana jika” yang kemungkinan akan Anda temui saat **mengekstrak teks dari gambar** dalam produksi.
+
+### Menangani Banyak Gambar dalam Loop
+
+Jika Anda perlu **mengonversi gambar ke teks** untuk puluhan file, bungkus langkah‑langkah tersebut dalam loop `foreach` dan gunakan kembali `ocrEngine` yang sama:
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\OCR\Batch\", "*.jpg");
+foreach (var file in files)
 {
-    Language = OcrLanguage.Russian   // Enables Russian language support
-};
+    ocrEngine.Image = ImageStream.FromFile(file);
+    ocrEngine.Recognize();
+    File.WriteAllText(Path.ChangeExtension(file, ".txt"), ocrEngine.Text);
+}
 ```
 
-Mengapa ini penting? Tanpa mengatur bahasa, engine secara default menggunakan bahasa Inggris dan akan salah menafsirkan banyak karakter Cyrillic, menghasilkan output yang berantakan. Mengonfigurasi bahasa secara eksplisit meningkatkan akurasi secara dramatis.
+### Menghadapi Scan Berkualitas Rendah
 
-## Langkah 3 – Muat Gambar dan **Konversi Gambar ke Teks**
+- **Pra‑proses** dengan binarisasi (`Image.Binarize()`), penghilangan noise, atau deskewing.
+- **Tingkatkan DPI** saat memindai (300 dpi adalah patokan aman).
+- **Pilih model bahasa** yang mendukung ligatur skrip (misalnya Devanagari untuk Hindi).
 
-Sekarang kami memuat gambar ke memori. Metode `Image.FromFile` bekerja dengan sebagian besar format umum (JPG, PNG, BMP). Setelah dimuat, kami memanggil `Recognize` untuk **konversi gambar ke teks**.
+### Membaca Teks dari Gambar di Web
+
+Ketika gambar berasal dari URL, unduh terlebih dahulu ke stream memori:
 
 ```csharp
-// Step 3: Load the image that contains Russian text
-Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
-
-// Step 4: Perform OCR – this is the core “how to perform OCR” call
-string rawText = ocrEngine.Recognize(sourceImage);
+using (HttpClient client = new())
+{
+    byte[] data = await client.GetByteArrayAsync(imageUrl);
+    using var ms = new MemoryStream(data);
+    ocrEngine.Image = ImageStream.FromStream(ms);
+    ocrEngine.Recognize();
+    Console.WriteLine(ocrEngine.Text);
+}
 ```
 
-Variabel `rawText` kini berisi output OCR mentah, yang mungkin masih mengandung typo atau karakter yang salah dikenali. Anda dapat mencetaknya untuk melihat apa yang ditangkap engine:
+### Keamanan Thread dan Paralelisme
+
+Sebagian besar pustaka OCR **tidak** thread‑safe secara default. Jika Anda berencana **membaca teks dari gambar** secara bersamaan, buat instance `OcrEngine` terpisah per thread, atau gunakan antrian produsen‑konsumen untuk menyerialkan akses.
+
+---
+
+## Contoh Lengkap yang Berfungsi
+
+Menggabungkan semuanya, berikut aplikasi konsol siap‑jalankan yang mendemonstrasikan **cara melakukan OCR**, **mengekstrak teks dari gambar**, dan **membaca teks dari gambar** dalam satu program terpadu.
 
 ```csharp
-Console.WriteLine("Raw OCR output:");
-Console.WriteLine(rawText);
-```
+using System;
+using OcrLibrary;               // Adjust to your OCR library's namespace
+using System.IO;
 
-## Langkah 4 – **Cara Memeriksa Ejaan** Hasil OCR
-
-OCR bahasa Rusia dapat berisik, terutama pada pemindaian beresolusi rendah. Aspose menyediakan kelas `SpellChecker` yang memahami kamus Rusia secara bawaan. Berikut cara menggunakannya:
-
-```csharp
-// Step 5: Initialise the spell checker
-SpellChecker spellChecker = new SpellChecker();
-
-// Step 6: Correct spelling mistakes in the recognized text
-string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
-```
-
-Metode `CheckAndCorrect` mengembalikan string baru di mana kata yang salah eja diganti dengan alternatif yang paling mungkin benar. Metode ini juga menghormati tanda baca, sehingga Anda tidak mendapatkan teks yang berantakan.
-
-*Kasus khusus:* Jika output OCR kosong (misalnya gambar sepenuhnya putih), `CheckAndCorrect` hanya akan mengembalikan string kosong. Sebaiknya Anda menambahkan pengecekan jika berencana menulis hasil ke file.
-
-## Langkah 5 – Tampilkan Hasil yang Sudah Dibersihkan
-
-Akhirnya, kami mencetak string yang telah dikoreksi. Dalam aplikasi dunia nyata Anda mungkin menulisnya ke basis data, API JSON, atau dokumen Word. Untuk demo ini, cukup menampilkan di konsol:
-
-```csharp
-// Step 7: Show the corrected result
-Console.WriteLine("\nCorrected text:");
-Console.WriteLine(correctedText);
-```
-
-Saat Anda menjalankan program, Anda akan melihat sesuatu seperti:
-
-```
-Raw OCR output:
-Привeт мир! Этo тeкcт c русcкoй оcнoвнoй.
-
-Corrected text:
-Привет мир! Это текст с русской основой.
-```
-
-Perhatikan bagaimana pemeriksa ejaan mengubah “Привeт” (e Latin ‘e’) menjadi Cyrillic yang tepat “Привет”. Itulah keajaiban **cara memeriksa ejaan** output OCR.
-
-## Contoh Lengkap yang Dapat Dijalankan
-
-Berikut adalah program lengkap yang dapat dijalankan, menggabungkan semua langkah. Salin‑tempel ke proyek konsol baru dan tekan **F5**.
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
-
-class SpellCheckDemo
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an OCR engine configured for Russian language
-        OcrEngine ocrEngine = new OcrEngine { Language = OcrLanguage.Russian };
+        // Initialize the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Load the image that contains the text to be recognized
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
+        // Choose the language (Hindi in this case)
+        ocrEngine.Language = Language.Hindi;
 
-        // Step 3: Perform OCR to extract raw text from the image
-        string rawText = ocrEngine.Recognize(sourceImage);
+        // Load the image file
+        string imagePath = @"C:\OCR\Samples\hindi_page.jpg";
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found: {imagePath}");
+            return;
+        }
 
-        // Optional: Show raw OCR output
-        System.Console.WriteLine("Raw OCR output:");
-        System.Console.WriteLine(rawText);
+        ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-        // Step 4: Initialise the spell checker
-        SpellChecker spellChecker = new SpellChecker();
+        // Run the recognition process
+        ocrEngine.Recognize();
 
-        // Step 5: Correct spelling mistakes in the recognized text
-        string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
+        // Output the extracted text
+        string result = ocrEngine.Text;
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(result);
 
-        // Step 6: Display the corrected result
-        System.Console.WriteLine("\nCorrected text:");
-        System.Console.WriteLine(correctedText);
+        // Optional: Save to a .txt file
+        string txtPath = Path.ChangeExtension(imagePath, ".txt");
+        File.WriteAllText(txtPath, result);
+        Console.WriteLine($"Text saved to {txtPath}");
     }
 }
 ```
 
-### Output yang Diharapkan
+**Apa yang akan Anda lihat:** Konsol mencetak kalimat Hindi yang diekstrak dari `hindi_page.jpg`, diikuti konfirmasi bahwa file teks telah dibuat. Jika gambar bersih, output akan hampir identik dengan teks tercetak aslinya.
 
-Menjalankan program dengan foto tulisan tangan Rusia yang jelas dan beresolusi tinggi biasanya menghasilkan kalimat yang bersih dan dapat dibaca manusia. Jika gambar blur, Anda mungkin masih mendapatkan kata‑kata yang sebagian benar, tetapi pemeriksa ejaan akan memperbaiki sebagian besar kesalahan yang jelas.
+---
 
-## Masalah Umum & Tips
+## Kesimpulan
 
-| Masalah | Mengapa Terjadi | Cara Memperbaiki / Menghindari |
-|---------|-----------------|-------------------------------|
-| **Karakter sampah** | DPI rendah atau latar belakang berisik | Praproses gambar (tingkatkan kontras, ubah ukuran menjadi ≥300 dpi) sebelum memberi ke `Recognize`. |
-| **Output kosong** | Path file salah atau format tidak didukung | Verifikasi path, dan gunakan `Image.FromFile` dalam blok `try/catch` untuk menampilkan error. |
-| **Pemeriksa ejaan tidak menemukan kesalahan** | Kata langka tidak ada di kamus | Perluas kamus dengan memuat daftar kata khusus via `spellChecker.AddUserDictionary("mywords.txt")`. |
-| **Lag performa pada batch besar** | OCR memakan CPU | Jalankan OCR pada thread latar belakang atau gunakan `Parallel.ForEach` untuk banyak gambar. |
-| **Pengecualian lisensi** | Menggunakan versi evaluasi melewati masa percobaan | Beli lisensi dan panggil `License license = new License(); license.SetLicense("Aspose.Total.lic");` sebelum membuat `OcrEngine`. |
+Anda kini tahu **cara melakukan OCR** di C# dari awal hingga akhir, cara **mengekstrak teks dari gambar**, **mengonversi gambar ke teks**, dan **membaca teks dari gambar** menggunakan alur kerja `OcrEngine` yang sederhana. Pola lima langkah—buat, atur bahasa, muat, kenali, baca—mencakup mayoritas kasus penggunaan, dan tip tambahan membantu Anda menangani pekerjaan batch, scan berkualitas rendah, serta sumber berbasis web.
 
-## Langkah Selanjutnya – Melampaui OCR Sederhana
+Siap untuk tantangan berikutnya? Coba ganti bahasa ke Inggris, gunakan halaman PDF yang dirender sebagai gambar, atau sambungkan output OCR ke pipeline indeks pencarian. Langit adalah batasnya setelah Anda menguasai dasar‑dasar OCR di C#.
 
-Setelah Anda menguasai **cara melakukan OCR**, pertimbangkan ekstensi berikut:
+Punya pertanyaan atau gambar sulit yang tidak mau bekerja? Tinggalkan komentar di bawah, dan mari kita selesaikan bersama. Selamat coding!  
 
-* **Pemrosesan batch** – Loop melalui folder gambar dan tulis setiap teks yang telah dikoreksi ke file `.txt`.  
-* **Konversi PDF** – Gunakan Aspose PDF untuk menyematkan teks yang diekstrak kembali ke PDF yang dapat dicari.  
-* **Deteksi bahasa** – Jika Anda harus menangani banyak bahasa, periksa hasil OCR terlebih dahulu dan ubah `OcrLanguage` sesuai kebutuhan.  
-* **Integrasi dengan Azure Cognitive Services** – Bandingkan hasil Aspose dengan API OCR Microsoft untuk pendekatan hibrida.
-
-Semua topik tersebut secara alami melibatkan kata kunci sekunder **extract text from image**, **convert image to text**, dan **how to spell check**, jadi
+![contoh cara melakukan OCR](images/ocr-example.png "contoh cara melakukan OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

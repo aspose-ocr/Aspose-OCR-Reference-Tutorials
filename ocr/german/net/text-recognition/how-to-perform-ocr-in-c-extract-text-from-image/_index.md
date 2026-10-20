@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-04-03
-description: Erfahren Sie, wie Sie OCR in C# durchführen und Text aus einem Bild mit
-  Aspose OCR extrahieren, mit Rechtschreibprüfung für die russische Sprache.
+date: 2026-03-13
+description: Wie man OCR in C# durchführt und Text aus einem Bild mit OcrEngine extrahiert.
+  Lernen Sie, Bilder schnell in Text umzuwandeln, mit einer vollständigen Schritt‑für‑Schritt‑Anleitung.
 draft: false
 keywords:
 - how to perform OCR
 - extract text from image
 - convert image to text
-- how to spell check
-- ocr russian language
+- read text from picture
+- how to extract text
 language: de
-og_description: Erfahren Sie, wie Sie OCR in C# durchführen und Text aus Bildern mit
-  Aspose OCR extrahieren, inklusive Rechtschreibprüfung für die russische Sprache.
-og_title: Wie man OCR in C# ausführt – Text aus Bild extrahieren
+og_description: Wie führt man OCR in C# durch? Dieser Leitfaden zeigt Ihnen, wie Sie
+  Text aus einem Bild extrahieren, ein Bild in Text umwandeln und Text aus einem Bild
+  mit OcrEngine lesen.
+og_title: Wie man OCR in C# durchführt – Text aus Bild extrahieren
 tags:
 - OCR
 - C#
-- Aspose
-- SpellCheck
-title: Wie man OCR in C# durchführt – Text aus Bild extrahieren
+- Image Processing
+title: Wie man OCR in C# ausführt – Text aus einem Bild extrahieren
 url: /de/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 ---
 
@@ -29,181 +29,224 @@ url: /de/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 
 # Wie man OCR in C# durchführt – Text aus Bild extrahieren
 
-Haben Sie sich jemals gefragt, **wie man OCR** auf einem Foto einer handschriftlichen Notiz anwendet? Vielleicht haben Sie einen gescannten Kassenbon, ein Schild in einer Fremdsprache oder eine PDF‑Seite, die sich nicht kopieren‑lassen, vor sich. Die gute Nachricht? Mit ein paar Zeilen C# und der Aspose OCR‑Bibliothek können Sie dieses Bild im Handumdrehen in editierbaren Text verwandeln.  
+Wie man OCR in C# durchführt, ist eine häufige Frage für Entwickler, die **Text aus Bild**‑Dateien lesen müssen. In diesem Leitfaden zeigen wir Ihnen, wie Sie Text aus einem Bild mit der `OcrEngine`‑Bibliothek extrahieren und Bilder mit nur wenigen Codezeilen in durchsuchbare Zeichenketten umwandeln.  
 
-In diesem Leitfaden zeigen wir Ihnen nicht nur **wie man OCR durchführt**, sondern gehen auch darauf ein, **Text aus Bild extrahieren**, **Bild zu Text konvertieren** und sogar **wie man die Rechtschreibung prüft**, wenn Sie mit russischsprachigen Dokumenten arbeiten. Klingt nach viel? Bleiben Sie dran – wir zerlegen alles Schritt für Schritt.
+Wenn Sie jemals auf einer gescannten Rechnung, einer handschriftlichen Notiz oder einem Screenshot gestarrt haben und sich gefragt haben *„Wie extrahiere ich Text?“*, dann sind Sie hier richtig. Wir gehen auch darauf ein, wie man Bild‑zu‑Text für die Stapelverarbeitung konvertiert, sodass Sie den gesamten Arbeitsablauf automatisieren können.
 
-## Was Sie lernen werden
+---
 
-Am Ende dieses Tutorials können Sie:
+## Was Sie benötigen
 
-* Aspose OCR für die Unterstützung der russischen Sprache einrichten.  
-* Eine Bilddatei laden und die optische Zeichenerkennung ausführen, um **Text aus Bild zu extrahieren**.  
-* Den integrierten Rechtschreibprüfer verwenden, um automatisch falsch geschriebene Wörter zu korrigieren – die perfekte Antwort auf “**wie man Rechtschreibung prüft**” bei OCR‑Ausgaben.  
-* Die bereinigte Zeichenkette in der Konsole ausgeben, bereit für weitere Verarbeitung oder Speicherung.
+- **.NET 6.0 oder höher** (die von uns verwendete API funktioniert mit .NET Standard 2.0+)
+- Das **OcrEngine** NuGet‑Paket (oder jede kompatible OCR‑Bibliothek, die die Eigenschaften `Language`, `Image`, `Recognize` und `Text` bereitstellt)
+- Eine Beispiel‑Bilddatei, z. B. `hindi_page.jpg`, in einem Ordner, den Sie im Code referenzieren können
+- Grundlegendes Verständnis der C#‑Syntax – keine fortgeschrittenen Tricks erforderlich
 
-**Voraussetzungen** – Sie benötigen:
+Das ist alles. Keine externen Dienste, keine API‑Schlüssel, nur eine lokale Bibliothek, die die schwere Arbeit übernimmt.
 
-* .NET 6.0 oder höher (der Code funktioniert auch mit .NET Framework 4.8).  
-* Eine gültige Aspose OCR‑Lizenz oder einen temporären Evaluierungsschlüssel.  
-* Eine Bilddatei, die russischen Text enthält (für das Demo nennen wir sie `russian_note.jpg`).  
+---
 
-Falls Ihnen das unbekannt vorkommt, keine Sorge. Die nachfolgenden Schritte enthalten den genauen NuGet‑Befehl, um Aspose OCR zu installieren, und der Code ist vollständig eigenständig.
+## Schritt‑für‑Schritt‑Implementierung
 
-![how to perform OCR example](/images/ocr-demo.png "how to perform OCR in C# example")
+Im Folgenden zerlegen wir den Prozess in logische Abschnitte. Jeder Abschnitt hat eine klare Überschrift, ein kurzes Code‑Snippet und eine Erklärung, **warum** der Schritt wichtig ist – nicht nur **was** er tut.
 
-## Schritt 1 – Aspose OCR installieren und Namespaces hinzufügen
+### Wie man OCR durchführt – Kernschritte
 
-Zuerst benötigen Sie die Bibliothek. Öffnen Sie ein Terminal in Ihrem Projektordner und führen Sie aus:
+Der gesamte Ablauf lässt sich in fünf Aktionen zusammenfassen:
 
-```bash
-dotnet add package Aspose.OCR
-```
+1. **Erstellen** Sie eine OCR‑Engine‑Instanz
+2. **Wählen** Sie die Sprache, die Sie erkennen möchten
+3. **Laden** Sie das Bild, das den Text enthält
+4. **Führen** Sie den Erkennungsalgorithmus aus
+5. **Lesen** Sie den extrahierten Text
 
-Dieser Befehl holt die neueste stabile Version (Stand April 2026 ist das 22.9). Nachdem das Paket wiederhergestellt wurde, fügen Sie die benötigten `using`‑Direktiven am Anfang Ihrer C#‑Datei hinzu:
+Das ist das Grundgerüst; die folgenden Abschnitte füllen es aus.
 
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
-```
+---
 
-*Pro‑Tipp:* Wenn Sie Visual Studio verwenden, schlägt die IDE diese Direktiven automatisch vor, sobald Sie den ersten Klassennamen eingeben.
+### Text aus Bild extrahieren – Engine erstellen
 
-## Schritt 2 – OCR‑Engine für russische Sprache initialisieren
-
-Der **how to perform OCR**‑Teil beginnt mit der Erstellung einer `OcrEngine`‑Instanz. Durch Angabe von `OcrLanguage.Russian` teilen wir der Engine mit, den kyrillischen Zeichensatz und sprachspezifische Heuristiken zu laden.
+Zuerst benötigen wir ein Objekt, das mit der OCR‑Engine kommunizieren kann.
 
 ```csharp
-// Step 2: Initialise OCR engine for Russian
-OcrEngine ocrEngine = new OcrEngine
+using System;
+using OcrLibrary;   // Replace with the actual namespace of your OCR package
+
+// Step 1: Create an OCR engine instance
+OcrEngine ocrEngine = new OcrEngine();
+```
+
+*Warum das wichtig ist:* Das Instanziieren von `OcrEngine` reserviert alle internen Puffer und lädt alle nativen DLLs, die für die Bildanalyse benötigt werden. Wenn Sie diesen Schritt überspringen, haben Sie später keinen Erkenner, den Sie aufrufen können.
+
+> **Pro‑Tipp:** Wenn Sie vorhaben, viele Bilder nacheinander zu verarbeiten, behalten Sie dieselbe `ocrEngine`‑Instanz bei. Sie wiederverwendet Sprachmodelle und beschleunigt nachfolgende Aufrufe.
+
+---
+
+### Bild zu Text konvertieren – Sprache auswählen
+
+Die OCR‑Genauigkeit hängt stark vom Sprachmodell ab, das Sie ihr geben. Für Hindi, Tamil oder jede andere Schrift setzen Sie die Eigenschaft `Language` entsprechend.
+
+```csharp
+// Step 2: Select the language of the text to recognize (e.g., Hindi)
+ocrEngine.Language = Language.Hindi;   // You can also use Language.Tamil, Language.English, etc.
+```
+
+*Warum das wichtig ist:* Die Engine verwendet sprachspezifische Zeichensätze und statistische Modelle. Die Angabe einer falschen Sprache führt häufig zu fehlerhaften Ausgaben, besonders bei nicht‑lateinischen Schriften.
+
+> **Sonderfall:** Wenn Sie Mehrsprachen‑Unterstützung benötigen, erlauben einige Bibliotheken das Setzen einer Ausweichliste, z. B. `ocrEngine.Language = Language.Multilingual;`.
+
+---
+
+### Text aus Bild lesen – Quellbild laden
+
+Jetzt richten wir die Engine auf die Datei, die den visuellen Text enthält.
+
+```csharp
+// Step 3: Load the image that contains the text
+ocrEngine.Image = ImageStream.FromFile(@"C:\OCR\Samples\hindi_page.jpg");
+```
+
+*Warum das wichtig ist:* `ImageStream.FromFile` konvertiert die Rohdatei in ein Bitmap‑Format, das der OCR‑Kern verstehen kann. Das Bereitstellen einer beschädigten oder nicht unterstützten Datei (wie SVG) führt zu einer Ausnahme.
+
+> **Achtung:** Große Bilder können viel Speicher verbrauchen. Wenn Sie hochauflösende Scans verarbeiten, sollten Sie sie vor dem Übergabe an die Engine mit `Image.Resize` verkleinern.
+
+---
+
+### Bild zu Text konvertieren – Erkennung ausführen
+
+Mit der bereitstehenden Engine und dem geladenen Bild rufen wir schließlich den OCR‑Prozess auf.
+
+```csharp
+// Step 4: Perform the OCR operation
+ocrEngine.Recognize();
+```
+
+*Warum das wichtig ist:* `Recognize` löst eine Reihe interner Schritte aus – Vorverarbeitung, Segmentierung, Zeichenklassifizierung und Nachverarbeitung. Der Aufruf ist blockierend, das heißt, der Thread wartet, bis der Text fertig ist.
+
+> **Leistungshinweis:** Auf einem typischen Desktop dauert das Erkennen einer 300 dpi‑Seite < 1 Sekunde. Auf einem Server sollten Sie dies in einer Hintergrundaufgabe ausführen, um UI‑Einbrüche zu vermeiden.
+
+---
+
+### Wie man Text extrahiert – Ergebnis abrufen
+
+Sobald die Erkennung abgeschlossen ist, speichert die Engine die reine Textausgabe in der Eigenschaft `Text`.
+
+```csharp
+// Step 5: Output the recognized text
+Console.WriteLine(ocrEngine.Text);
+```
+
+*Warum das wichtig ist:* Die Eigenschaft `Text` liefert Ihnen eine saubere UTF‑8‑Zeichenkette, die Sie in eine Datei schreiben, in eine Datenbank einspeisen oder an nachgelagerte NLP‑Pipelines weitergeben können.
+
+> **Erwartete Ausgabe:** Für die Beispiel‑Hindi‑Seite könnte etwas wie  
+> `यह एक उदाहरण पाठ है जो OCR द्वारा पहचाना गया है।`  
+> (Die genaue Ausgabe hängt von Bildqualität und Sprachmodell ab.)
+
+---
+
+## Zusätzliche Überlegungen für reale Projekte
+
+Im Folgenden finden Sie einige „Was‑wenn“‑Szenarien, denen Sie wahrscheinlich begegnen, wenn Sie in der Produktion **Text aus Bild extrahieren** wollen.
+
+### Mehrere Bilder in einer Schleife verarbeiten
+
+Wenn Sie **Bild zu Text konvertieren** für Dutzende von Dateien benötigen, verpacken Sie die Schritte in eine `foreach`‑Schleife und verwenden dieselbe `ocrEngine` erneut:
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\OCR\Batch\", "*.jpg");
+foreach (var file in files)
 {
-    Language = OcrLanguage.Russian   // Enables Russian language support
-};
+    ocrEngine.Image = ImageStream.FromFile(file);
+    ocrEngine.Recognize();
+    File.WriteAllText(Path.ChangeExtension(file, ".txt"), ocrEngine.Text);
+}
 ```
 
-Warum ist das wichtig? Ohne Angabe der Sprache verwendet die Engine standardmäßig Englisch und interpretiert viele kyrillische Zeichen falsch, was zu wirren Ausgaben führt. Durch explizite Konfiguration der Sprache wird die Genauigkeit dramatisch verbessert.
+### Umgang mit minderwertigen Scans
 
-## Schritt 3 – Bild laden und **Bild zu Text konvertieren**
+- **Vorverarbeiten** mit Binarisierung (`Image.Binarize()`), Rauschunterdrückung oder Entzerrung.
+- **DPI erhöhen** beim Scannen (300 dpi ist ein sicherer Ausgangspunkt).
+- **Ein Sprachmodell wählen**, das die Ligaturen der Schrift unterstützt (z. B. Devanagari für Hindi).
 
-Jetzt bringen wir das Bild in den Speicher. Die Methode `Image.FromFile` funktioniert mit den meisten gängigen Formaten (JPG, PNG, BMP). Nach dem Laden rufen wir `Recognize` auf, um **Bild zu Text zu konvertieren**.
+### Text aus Bild im Web lesen
+
+Wenn das Bild von einer URL stammt, laden Sie es zuerst in einen Memory‑Stream herunter:
 
 ```csharp
-// Step 3: Load the image that contains Russian text
-Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
-
-// Step 4: Perform OCR – this is the core “how to perform OCR” call
-string rawText = ocrEngine.Recognize(sourceImage);
+using (HttpClient client = new())
+{
+    byte[] data = await client.GetByteArrayAsync(imageUrl);
+    using var ms = new MemoryStream(data);
+    ocrEngine.Image = ImageStream.FromStream(ms);
+    ocrEngine.Recognize();
+    Console.WriteLine(ocrEngine.Text);
+}
 ```
 
-Die Variable `rawText` enthält nun die rohe OCR‑Ausgabe, die noch Tippfehler oder falsch erkannte Zeichen enthalten kann. Sie können sie ausgeben, um zu sehen, was die Engine erfasst hat:
+### Thread‑Sicherheit und Parallelität
 
-```csharp
-Console.WriteLine("Raw OCR output:");
-Console.WriteLine(rawText);
-```
+Die meisten OCR‑Bibliotheken sind **nicht** von Haus aus thread‑sicher. Wenn Sie **Text aus Bild** gleichzeitig lesen wollen, starten Sie separate `OcrEngine`‑Instanzen pro Thread oder verwenden eine Producer‑Consumer‑Warteschlange, um den Zugriff zu serialisieren.
 
-## Schritt 4 – **Wie man Rechtschreibung prüft** bei OCR‑Ergebnissen
-
-Russische OCR kann besonders bei niedrigauflösenden Scans unruhig sein. Aspose stellt eine `SpellChecker`‑Klasse bereit, die russische Wörterbücher out‑of‑the‑box versteht. So verwenden Sie sie:
-
-```csharp
-// Step 5: Initialise the spell checker
-SpellChecker spellChecker = new SpellChecker();
-
-// Step 6: Correct spelling mistakes in the recognized text
-string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
-```
-
-Die Methode `CheckAndCorrect` liefert einen neuen String, in dem falsch geschriebene Wörter durch die wahrscheinlichsten korrekten Alternativen ersetzt werden. Sie berücksichtigt zudem die Interpunktion, sodass Sie nicht mit einem zusammengezogenen Textblock enden.
-
-*Randfall:* Wenn die OCR‑Ausgabe leer ist (z. B. das Bild komplett weiß ist), gibt `CheckAndCorrect` einfach einen leeren String zurück. Es ist ratsam, dies abzufangen, falls Sie das Ergebnis in eine Datei schreiben wollen.
-
-## Schritt 5 – Bereinigtes Ergebnis anzeigen
-
-Abschließend geben wir den korrigierten String aus. In einer realen Anwendung würden Sie ihn vielleicht in eine Datenbank, eine JSON‑API oder ein Word‑Dokument schreiben. Für dieses Demo reicht ein Konsolendump:
-
-```csharp
-// Step 7: Show the corrected result
-Console.WriteLine("\nCorrected text:");
-Console.WriteLine(correctedText);
-```
-
-Wenn Sie das Programm ausführen, sollten Sie etwa Folgendes sehen:
-
-```
-Raw OCR output:
-Привeт мир! Этo тeкcт c русcкoй оcнoвнoй.
-
-Corrected text:
-Привет мир! Это текст с русской основой.
-```
-
-Beachten Sie, wie der Rechtschreibprüfer “Привeт” (gemischtes lateinisches ‘e’) in das korrekte kyrillische “Привет” umwandelt. Das ist die Magie von **wie man Rechtschreibung prüft** bei OCR‑Ausgaben.
+---
 
 ## Vollständiges funktionierendes Beispiel
 
-Unten finden Sie das komplette, ausführbare Programm, das alle Schritte zusammenführt. Kopieren Sie es in ein neues Konsolenprojekt und drücken Sie **F5**.
+Wenn wir alles zusammenfügen, erhalten Sie eine sofort ausführbare Konsolen‑App, die **wie man OCR durchführt**, **Text aus Bild extrahiert** und **Text aus Bild liest** in einem zusammenhängenden Programm demonstriert.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
+using System;
+using OcrLibrary;               // Adjust to your OCR library's namespace
+using System.IO;
 
-class SpellCheckDemo
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an OCR engine configured for Russian language
-        OcrEngine ocrEngine = new OcrEngine { Language = OcrLanguage.Russian };
+        // Initialize the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Load the image that contains the text to be recognized
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
+        // Choose the language (Hindi in this case)
+        ocrEngine.Language = Language.Hindi;
 
-        // Step 3: Perform OCR to extract raw text from the image
-        string rawText = ocrEngine.Recognize(sourceImage);
+        // Load the image file
+        string imagePath = @"C:\OCR\Samples\hindi_page.jpg";
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found: {imagePath}");
+            return;
+        }
 
-        // Optional: Show raw OCR output
-        System.Console.WriteLine("Raw OCR output:");
-        System.Console.WriteLine(rawText);
+        ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-        // Step 4: Initialise the spell checker
-        SpellChecker spellChecker = new SpellChecker();
+        // Run the recognition process
+        ocrEngine.Recognize();
 
-        // Step 5: Correct spelling mistakes in the recognized text
-        string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
+        // Output the extracted text
+        string result = ocrEngine.Text;
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(result);
 
-        // Step 6: Display the corrected result
-        System.Console.WriteLine("\nCorrected text:");
-        System.Console.WriteLine(correctedText);
+        // Optional: Save to a .txt file
+        string txtPath = Path.ChangeExtension(imagePath, ".txt");
+        File.WriteAllText(txtPath, result);
+        Console.WriteLine($"Text saved to {txtPath}");
     }
 }
 ```
 
-### Erwartete Ausgabe
+**Was Sie sehen sollten:** Die Konsole gibt den aus `hindi_page.jpg` extrahierten Hindi‑Satz aus, gefolgt von einer Bestätigung, dass die Textdatei erstellt wurde. Wenn das Bild sauber ist, wird die Ausgabe praktisch identisch zum originalen gedruckten Text sein.
 
-Das Ausführen des Programms mit einem klaren, hochauflösenden Foto russischer Handschrift liefert in der Regel einen sauberen, menschenlesbaren Satz. Ist das Bild unscharf, erhalten Sie möglicherweise nur teilweise korrekte Wörter, aber der Rechtschreibprüfer glättet die meisten offensichtlichen Fehler.
+---
 
-## Häufige Stolperfallen & Tipps
+## Fazit
 
-| Problem | Warum es passiert | Wie man es behebt / vermeidet |
-|---------|-------------------|------------------------------|
-| **Garbage‑Zeichen** | Niedrige DPI oder verrauschter Hintergrund | Bild vorverarbeiten (Kontrast erhöhen, Größe auf ≥300 dpi anpassen), bevor Sie `Recognize` aufrufen. |
-| **Leere Ausgabe** | Falscher Dateipfad oder nicht unterstütztes Format | Pfad überprüfen und `Image.FromFile` in einem `try/catch`‑Block verwenden, um Fehler sichtbar zu machen. |
-| **Rechtschreibprüfer übersieht Fehler** | Seltene Wörter fehlen im Wörterbuch | Wörterbuch erweitern, indem Sie eine benutzerdefinierte Wortliste laden via `spellChecker.AddUserDictionary("mywords.txt")`. |
-| **Leistungsprobleme bei großen Stapeln** | OCR ist CPU‑intensiv | OCR in einem Hintergrundthread ausführen oder `Parallel.ForEach` für mehrere Bilder nutzen. |
-| **Lizenz‑Ausnahme** | Nutzung der Evaluierungsversion nach Ablauf der Testphase | Lizenz erwerben und `License license = new License(); license.SetLicense("Aspose.Total.lic");` vor der Erstellung von `OcrEngine` aufrufen. |
+Sie wissen jetzt, **wie man OCR** in C# von Anfang bis Ende durchführt, wie man **Text aus Bild extrahiert**, **Bild zu Text konvertiert** und **Text aus Bild liest** mit einem einfachen `OcrEngine`‑Workflow. Das Fünf‑Schritte‑Muster – erstellen, Sprache setzen, laden, erkennen, lesen – deckt die meisten Anwendungsfälle ab, und die zusätzlichen Tipps helfen Ihnen, Stapelaufgaben, minderwertige Scans und webbasierte Quellen zu bewältigen.
 
-## Nächste Schritte – über einfaches OCR hinaus
+Bereit für die nächste Herausforderung? Versuchen Sie, die Sprache auf Englisch zu wechseln, eine als Bild gerenderte PDF‑Seite zu verarbeiten oder die OCR‑Ausgabe in eine Such‑Index‑Pipeline zu integrieren. Der Himmel ist die Grenze, sobald Sie die Grundlagen von OCR in C# beherrschen.
 
-Jetzt, wo Sie **wie man OCR durchführt** beherrschen, können Sie folgende Erweiterungen in Betracht ziehen:
+Haben Sie Fragen oder ein kniffliges Bild, das nicht mitmacht? Hinterlassen Sie unten einen Kommentar, und wir lösen das Problem gemeinsam. Viel Spaß beim Coden!  
 
-* **Batch‑Verarbeitung** – Durchlaufen Sie einen Ordner mit Bildern und schreiben Sie jeden korrigierten Text in eine `.txt`‑Datei.  
-* **PDF‑Konvertierung** – Verwenden Sie Aspose PDF, um den extrahierten Text wieder in ein durchsuchbares PDF einzubetten.  
-* **Spracherkennung** – Wenn Sie mehrere Sprachen unterstützen müssen, prüfen Sie zuerst das OCR‑Ergebnis und wechseln Sie `OcrLanguage` entsprechend.  
-* **Integration mit Azure Cognitive Services** – Vergleichen Sie Asposes Ergebnisse mit der Microsoft OCR‑API für einen hybriden Ansatz.
-
-All diese Themen beinhalten natürlich die sekundären Schlüsselwörter **extract text from image**, **convert image to text** und **how to spell check**, also
+![Beispiel für OCR durchführen](images/ocr-example.png "Beispiel für OCR durchführen")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

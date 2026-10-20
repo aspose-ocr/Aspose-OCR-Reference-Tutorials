@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-04-03
-description: Naučte se provádět OCR v C# a extrahovat text z obrázku pomocí Aspose
-  OCR, s kontrolou pravopisu pro ruštinu.
+date: 2026-03-13
+description: Jak provést OCR v C# a extrahovat text z obrázku pomocí OcrEngine. Naučte
+  se rychle převádět obrázek na text s kompletním krok‑za‑krokem průvodcem.
 draft: false
 keywords:
 - how to perform OCR
 - extract text from image
 - convert image to text
-- how to spell check
-- ocr russian language
+- read text from picture
+- how to extract text
 language: cs
-og_description: Naučte se provádět OCR v C# a extrahovat text z obrázku pomocí Aspose
-  OCR, s kontrolou pravopisu pro ruštinu.
-og_title: Jak provést OCR v C# – Extrahovat text z obrázku
+og_description: Jak provést OCR v C#? Tento průvodce vám ukáže, jak extrahovat text
+  z obrázku, převést obrázek na text a číst text z obrázku pomocí OcrEngine.
+og_title: Jak provést OCR v C# – extrahovat text z obrázku
 tags:
 - OCR
 - C#
-- Aspose
-- SpellCheck
+- Image Processing
 title: Jak provést OCR v C# – Extrahovat text z obrázku
 url: /cs/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 ---
@@ -27,181 +26,226 @@ url: /cs/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak provádět OCR v C# – Extrahovat text z obrázku
+# Jak provést OCR v C# – Extrahovat text z obrázku
 
-Už jste se někdy zamýšleli **jak provádět OCR** na fotografii ručně psané poznámky? Možná máte naskenovaný účtenku, ceduli v cizím jazyce nebo stránku PDF, která se nechce kopírovat‑vkládat. Dobrá zpráva? Několika řádky C# a knihovnou Aspose OCR můžete tu fotografii během chvilky proměnit v editovatelný text.
+Jak provést OCR v C# je častá otázka pro vývojáře, kteří potřebují **číst text z obrázku** souborů. V tomto průvodci vás provedeme extrahováním textu z obrázku pomocí knihovny `OcrEngine`, která převádí obrázky na prohledávatelné řetězce pomocí několika řádků kódu.  
 
-V tomto průvodci vám nejen ukážeme **jak provádět OCR**, ale také projdeme **extrahování textu z obrázku**, **převod obrázku na text** a dokonce **jak provést kontrolu pravopisu** výsledku, když pracujete s dokumenty v ruštině. Zní to jako hodně? Zůstaňte s námi – rozložíme vše krok po kroku.
+Pokud jste někdy zírali na naskenovanou fakturu, ručně psanou poznámku nebo snímek obrazovky a přemýšleli *„jak extrahovat text?“*, jste na správném místě. Také se dotkneme převodu obrázku na text pro dávkové zpracování, abyste mohli automatizovat celý pracovní postup.
 
-## Co se naučíte
+---
 
-* Nastavit Aspose OCR pro podporu ruského jazyka.  
-* Načíst soubor obrázku a spustit optické rozpoznávání znaků pro **extrahování textu z obrázku**.  
-* Použít vestavěný kontroler pravopisu k automatické opravě překlepů – dokonalá odpověď na otázku “**jak provést kontrolu pravopisu**” výstupu OCR.  
-* Vytisknout vyčištěný řetězec do konzole, připravený pro další zpracování nebo uložení.
+## Co budete potřebovat
 
-**Požadavky** – budete potřebovat:
+- **.NET 6.0 nebo novější** (API, které používáme, funguje s .NET Standard 2.0+)
+- **OcrEngine** NuGet balíček (nebo jakákoli kompatibilní OCR knihovna, která poskytuje vlastnosti `Language`, `Image`, `Recognize` a `Text`)
+- Vzorek souboru obrázku, např. `hindi_page.jpg`, umístěný ve složce, na kterou můžete odkazovat z kódu
+- Základní znalost syntaxe C# – žádné pokročilé triky nejsou potřeba
 
-* .NET 6.0 nebo novější (kód funguje také s .NET Framework 4.8).  
-* Platnou licenci Aspose OCR nebo dočasný evaluační klíč.  
-* Soubor obrázku, který obsahuje ruský text (pro ukázku budeme používat `russian_note.jpg`).  
+To je vše. Žádné externí služby, žádné API klíče, jen místní knihovna, která provádí těžkou práci.
 
-Pokud jsou některé z nich neznámé, žádný problém. Níže uvedené kroky obsahují přesný příkaz NuGet pro stažení Aspose OCR a kód je zcela samostatný.
+---
 
-![how to perform OCR example](/images/ocr-demo.png "how to perform OCR in C# example")
+## Implementace krok za krokem
 
-## Krok 1 – Instalace Aspose OCR a přidání jmenných prostorů
+Níže rozdělíme proces do logických částí. Každá sekce má jasný nadpis, krátký úryvek kódu a vysvětlení **proč** je krok důležitý – ne jen **co** dělá.
 
-Nejprve potřebujete knihovnu. Otevřete terminál ve složce projektu a spusťte:
+### Jak provést OCR – Základní kroky
 
-```bash
-dotnet add package Aspose.OCR
-```
+Celkový tok lze shrnout do pěti akcí:
 
-Tento příkaz stáhne nejnovější stabilní verzi (k dubnu 2026 je to 22.9). Po obnovení balíčku přidejte požadované `using` direktivy na začátek vašeho C# souboru:
+1. **Vytvořit** instanci OCR enginu
+2. **Vybrat** jazyk, který chcete rozpoznat
+3. **Načíst** obrázek obsahující text
+4. **Spustit** algoritmus rozpoznávání
+5. **Přečíst** extrahovaný text
 
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
-```
+To je kostra; následující sekce ji doplní.
 
-*Tip:* Pokud používáte Visual Studio, IDE vám tyto direktivy navrhne automaticky, jakmile napíšete první název třídy.
+---
 
-## Krok 2 – Inicializace OCR enginu pro ruský jazyk
+### Extrahovat text z obrázku – Vytvořit engine
 
-Část **jak provádět OCR** začíná vytvořením instance `OcrEngine`. Zadáním `OcrLanguage.Russian` říkáme enginu, aby načetl cyrilický znakový soubor a jazykově specifické heuristiky.
+Nejprve potřebujeme objekt, který umí komunikovat s OCR enginem.
 
 ```csharp
-// Step 2: Initialise OCR engine for Russian
-OcrEngine ocrEngine = new OcrEngine
+using System;
+using OcrLibrary;   // Replace with the actual namespace of your OCR package
+
+// Step 1: Create an OCR engine instance
+OcrEngine ocrEngine = new OcrEngine();
+```
+
+*Proč je to důležité:* Instanciace `OcrEngine` alokuje všechny vnitřní buffery a načte potřebné nativní DLL knihovny pro analýzu obrazu. Přeskočení tohoto kroku by vás nechalo bez rozpoznávače, který byste mohli později volat.
+
+> **Tip:** Pokud plánujete zpracovávat mnoho obrázků po sobě, udržujte stejnou instanci `ocrEngine` aktivní. Znovu používá jazykové modely a urychluje následné volání.
+
+---
+
+### Převést obrázek na text – Vybrat jazyk
+
+OCR přesnost silně závisí na jazykovém modelu, který mu poskytnete. Pro hindštinu, tamilštinu nebo jakýkoli jiný skript nastavte vlastnost `Language` odpovídajícím způsobem.
+
+```csharp
+// Step 2: Select the language of the text to recognize (e.g., Hindi)
+ocrEngine.Language = Language.Hindi;   // You can also use Language.Tamil, Language.English, etc.
+```
+
+*Proč je to důležité:* Engine používá jazykově specifické znakové sady a statistické modely. Poskytnutí špatného jazyka často vede k nečitelnému výstupu, zejména u ne‑latinských skriptů.
+
+> **Hraniční případ:** Pokud potřebujete podporu více jazyků, některé knihovny vám umožní nastavit seznam náhrad, např. `ocrEngine.Language = Language.Multilingual;`.
+
+---
+
+### Číst text z obrázku – Načíst zdrojový obrázek
+
+Nyní nasměrujeme engine na soubor, který obsahuje vizuální text.
+
+```csharp
+// Step 3: Load the image that contains the text
+ocrEngine.Image = ImageStream.FromFile(@"C:\OCR\Samples\hindi_page.jpg");
+```
+
+*Proč je to důležité:* `ImageStream.FromFile` převádí surový soubor do bitmapového formátu, který OCR jádro dokáže pochopit. Poskytnutí poškozeného nebo nepodporovaného formátu (např. SVG) způsobí výjimku.
+
+> **Pozor:** Velké obrázky mohou spotřebovat hodně paměti. Pokud zpracováváte skeny s vysokým rozlišením, zvažte zmenšení pomocí `Image.Resize` před předáním engine.
+
+---
+
+### Převést obrázek na text – Spustit rozpoznávání
+
+S připraveným enginem a načteným obrázkem nakonec spustíme proces OCR.
+
+```csharp
+// Step 4: Perform the OCR operation
+ocrEngine.Recognize();
+```
+
+*Proč je to důležité:* `Recognize` spouští sérii vnitřních kroků – předzpracování, segmentaci, klasifikaci znaků a následné zpracování. Volání je blokující, což znamená, že vlákno čeká, dokud není text připraven.
+
+> **Poznámka o výkonu:** Na typickém desktopu rozpoznání stránky s 300 dpi trvá < 1 sekundu. Na serveru můžete chtít spustit toto v úkolu na pozadí, aby nedocházelo k zamrznutí UI.
+
+---
+
+### Jak extrahovat text – Získat výsledek
+
+Jakmile rozpoznání skončí, engine ukládá výstup prostého textu do vlastnosti `Text`.
+
+```csharp
+// Step 5: Output the recognized text
+Console.WriteLine(ocrEngine.Text);
+```
+
+*Proč je to důležité:* Vlastnost `Text` vám poskytuje čistý řetězec UTF‑8, který můžete zapsat do souboru, vložit do databáze nebo předat do následných NLP pipeline.
+
+> **Očekávaný výstup:** Pro ukázkovou hindskou stránku můžete vidět něco jako  
+> `यह एक उदाहरण पाठ है जो OCR द्वारा पहचाना गया है।`  
+> (Přesný výstup závisí na kvalitě obrázku a jazykovém modelu.)
+
+---
+
+## Další úvahy pro reálné projekty
+
+Níže jsou některé scénáře „co‑když“, se kterými se pravděpodobně setkáte, když v produkci **extrahujete text z obrázku**.
+
+### Zpracování více obrázků ve smyčce
+
+Pokud potřebujete **převést obrázek na text** pro desítky souborů, zabalte kroky do smyčky `foreach` a znovu použijte stejný `ocrEngine`:
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\OCR\Batch\", "*.jpg");
+foreach (var file in files)
 {
-    Language = OcrLanguage.Russian   // Enables Russian language support
-};
+    ocrEngine.Image = ImageStream.FromFile(file);
+    ocrEngine.Recognize();
+    File.WriteAllText(Path.ChangeExtension(file, ".txt"), ocrEngine.Text);
+}
 ```
 
-Proč je to důležité? Bez nastavení jazyka engine výchozí nastavení používá angličtinu a bude špatně interpretovat mnoho cyrilických znaků, což vede k nečitelné výstupu. Explicitní nastavení jazyka výrazně zvyšuje přesnost.
+### Práce s nízkokvalitními skeny
 
-## Krok 3 – Načtení obrázku a **převod obrázku na text**
+- **Předzpracovat** binarizací (`Image.Binarize()`), odstraněním šumu nebo korekcí sklonu.
+- **Zvýšit DPI** při skenování (300 dpi je bezpečný výchozí bod).
+- **Vybrat jazykový model**, který podporuje ligatury skriptu (např. Devanagari pro hindštinu).
 
-Nyní načteme obrázek do paměti. Metoda `Image.FromFile` funguje s většinou běžných formátů (JPG, PNG, BMP). Po načtení zavoláme `Recognize` pro **převod obrázku na text**.
+### Čtení textu z obrázku na webu
+
+Když obrázek pochází z URL, nejprve jej stáhněte do paměťového proudu:
 
 ```csharp
-// Step 3: Load the image that contains Russian text
-Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
-
-// Step 4: Perform OCR – this is the core “how to perform OCR” call
-string rawText = ocrEngine.Recognize(sourceImage);
+using (HttpClient client = new())
+{
+    byte[] data = await client.GetByteArrayAsync(imageUrl);
+    using var ms = new MemoryStream(data);
+    ocrEngine.Image = ImageStream.FromStream(ms);
+    ocrEngine.Recognize();
+    Console.WriteLine(ocrEngine.Text);
+}
 ```
 
-Proměnná `rawText` nyní obsahuje surový výstup OCR, který může stále obsahovat překlepy nebo špatně rozpoznané znaky. Můžete jej vytisknout, abyste viděli, co engine zachytil:
+### Bezpečnost vláken a paralelismus
 
-```csharp
-Console.WriteLine("Raw OCR output:");
-Console.WriteLine(rawText);
-```
+Většina OCR knihoven **není** zcela bezpečná pro více vláken. Pokud plánujete **číst text z obrázku** souběžně, vytvořte samostatné instance `OcrEngine` pro každé vlákno, nebo použijte frontu producent‑spotřebitel k serializaci přístupu.
 
-## Krok 4 – **Jak provést kontrolu pravopisu** výsledku OCR
-
-Ruské OCR může být hlučné, zejména u skenů s nízkým rozlišením. Aspose poskytuje třídu `SpellChecker`, která rozumí ruským slovníkům ihned po instalaci. Zde je, jak ji použít:
-
-```csharp
-// Step 5: Initialise the spell checker
-SpellChecker spellChecker = new SpellChecker();
-
-// Step 6: Correct spelling mistakes in the recognized text
-string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
-```
-
-Metoda `CheckAndCorrect` vrací nový řetězec, kde jsou špatně napsaná slova nahrazena nejpravděpodobnějšími správnými alternativami. Respektuje také interpunkci, takže nedostanete zeď textu.
-
-*Hraniční případ:* Pokud je výstup OCR prázdný (např. obrázek je úplně bílý), `CheckAndCorrect` jednoduše vrátí prázdný řetězec. Je dobré se proti tomu chránit, pokud plánujete výsledek zapisovat do souboru.
-
-## Krok 5 – Zobrazení vyčištěného výsledku
-
-Nakonec vypíšeme opravený řetězec. V reálné aplikaci jej můžete zapisovat do databáze, JSON API nebo Word dokumentu. Pro tuto ukázku stačí výpis do konzole:
-
-```csharp
-// Step 7: Show the corrected result
-Console.WriteLine("\nCorrected text:");
-Console.WriteLine(correctedText);
-```
-
-Když spustíte program, měli byste vidět něco jako:
-
-```
-Raw OCR output:
-Привeт мир! Этo тeкcт c русcкoй оcнoвнoй.
-
-Corrected text:
-Привет мир! Это текст с русской основой.
-```
-
-Všimněte si, jak kontrola pravopisu změnila “Привeт” (smíšené latinské ‘e’) na správné cyrilické “Привет”. To je kouzlo **jak provést kontrolu pravopisu** výstupu OCR.
+---
 
 ## Kompletní funkční příklad
 
-Níže je kompletní spustitelný program, který spojuje všechny kroky. Zkopírujte jej do nového konzolového projektu a stiskněte **F5**.
+Spojením všeho dohromady zde máte připravenou konzolovou aplikaci, která demonstruje **jak provést OCR**, **extrahovat text z obrázku** a **číst text z obrázku** v jednom koherentním programu.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
+using System;
+using OcrLibrary;               // Adjust to your OCR library's namespace
+using System.IO;
 
-class SpellCheckDemo
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an OCR engine configured for Russian language
-        OcrEngine ocrEngine = new OcrEngine { Language = OcrLanguage.Russian };
+        // Initialize the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Load the image that contains the text to be recognized
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
+        // Choose the language (Hindi in this case)
+        ocrEngine.Language = Language.Hindi;
 
-        // Step 3: Perform OCR to extract raw text from the image
-        string rawText = ocrEngine.Recognize(sourceImage);
+        // Load the image file
+        string imagePath = @"C:\OCR\Samples\hindi_page.jpg";
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found: {imagePath}");
+            return;
+        }
 
-        // Optional: Show raw OCR output
-        System.Console.WriteLine("Raw OCR output:");
-        System.Console.WriteLine(rawText);
+        ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-        // Step 4: Initialise the spell checker
-        SpellChecker spellChecker = new SpellChecker();
+        // Run the recognition process
+        ocrEngine.Recognize();
 
-        // Step 5: Correct spelling mistakes in the recognized text
-        string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
+        // Output the extracted text
+        string result = ocrEngine.Text;
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(result);
 
-        // Step 6: Display the corrected result
-        System.Console.WriteLine("\nCorrected text:");
-        System.Console.WriteLine(correctedText);
+        // Optional: Save to a .txt file
+        string txtPath = Path.ChangeExtension(imagePath, ".txt");
+        File.WriteAllText(txtPath, result);
+        Console.WriteLine($"Text saved to {txtPath}");
     }
 }
 ```
 
-### Očekávaný výstup
+**Co byste měli vidět:** Konzole vypíše hindskou větu extrahovanou z `hindi_page.jpg`, následovanou potvrzením, že textový soubor byl vytvořen. Pokud je obrázek čistý, výstup bude prakticky identický s originálním tištěným textem.
 
-Spuštění programu s čistou, vysoké rozlišení fotografií ruského rukopisu obvykle poskytne čistou, čitelnou větu. Pokud je obrázek rozmazaný, můžete stále získat částečně správná slova, ale kontrola pravopisu vyhladí většinu zjevných chyb.
+---
 
-## Časté problémy a tipy
+## Závěr
 
-| Problém | Proč se to děje | Jak opravit / vyhnout se |
-|-------|----------------|--------------------|
-| **Špatné znaky** | Nízké DPI nebo špatné pozadí | Předzpracujte obrázek (zvyšte kontrast, změňte velikost na ≥300 dpi) před předáním do `Recognize`. |
-| **Prázdný výstup** | Špatná cesta k souboru nebo nepodporovaný formát | Ověřte cestu a použijte `Image.FromFile` uvnitř `try/catch` bloku pro zobrazení chyb. |
-| **Kontrola pravopisu neodhalí chyby** | Vzácná slova nejsou ve slovníku | Rozšiřte slovník načtením vlastního seznamu slov pomocí `spellChecker.AddUserDictionary("mywords.txt")`. |
-| **Zpoždění výkonu při velkých dávkách** | OCR je náročné na CPU | Spusťte OCR na pozadí nebo použijte `Parallel.ForEach` pro více obrázků. |
-| **Výjimka licence** | Použití evaluační verze po uplynutí zkušební doby | Zakupte licenci a zavolejte `License license = new License(); license.SetLicense("Aspose.Total.lic");` před vytvořením `OcrEngine`. |
+Nyní víte **jak provést OCR** v C# od začátku až do konce, jak **extrahovat text z obrázku**, **převést obrázek na text** a **číst text z obrázku** pomocí jednoduchého pracovního postupu `OcrEngine`. Pětikrokový vzor – vytvořit, nastavit jazyk, načíst, rozpoznat, přečíst – pokrývá většinu případů použití a další tipy vám pomohou zvládnout dávkové úlohy, nízkokvalitní skeny a zdroje z webu.
 
-## Další kroky – Pokročilejší OCR
+Jste připraveni na další výzvu? Zkuste změnit jazyk na angličtinu, předat stránku PDF převedenou na obrázek, nebo propojit výstup OCR do pipeline pro vyhledávací index. Možnosti jsou neomezené, jakmile ovládnete základy OCR v C#.
 
-Nyní, když jste zvládli **jak provádět OCR**, zvažte tyto rozšíření:
+Máte otázky nebo obtížný obrázek, který nespolupracuje? Zanechte komentář níže a pojďme to společně vyřešit. Šťastné kódování!  
 
-* **Dávkové zpracování** – Procházet složku s obrázky a zapisovat každý opravený text do souboru `.txt`.  
-* **Konverze PDF** – Použít Aspose PDF k vložení extrahovaného textu zpět do prohledávatelného PDF.  
-* **Detekce jazyka** – Pokud potřebujete zpracovávat více jazyků, nejprve prozkoumejte výstup OCR a podle toho přepněte `OcrLanguage`.  
-* **Integrace s Azure Cognitive Services** – Porovnat výsledky Aspose s OCR API od Microsoftu pro hybridní přístup.
-
-Všechny tyto témata přirozeně zahrnují sekundární klíčová slova **extract text from image**, **convert image to text**, a **how to spell check**, takže
+![jak provést OCR příklad](images/ocr-example.png "jak provést OCR příklad")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,25 +1,26 @@
 ---
 category: general
-date: 2026-04-03
-description: Tanulja meg, hogyan végezhet OCR-t C#-ban, és hogyan nyerhet ki szöveget
-  képből az Aspose OCR segítségével, orosz nyelvű helyesírás-ellenőrzéssel.
+date: 2026-03-13
+description: Hogyan hajtsunk végre OCR-t C#-ban, és nyerjünk ki szöveget képből az
+  OcrEngine segítségével. Tanulja meg, hogyan konvertálja gyorsan a képet szöveggé
+  egy teljes lépésről‑lépésre útmutatóval.
 draft: false
 keywords:
 - how to perform OCR
 - extract text from image
 - convert image to text
-- how to spell check
-- ocr russian language
+- read text from picture
+- how to extract text
 language: hu
-og_description: Tanulja meg, hogyan végezzen OCR-t C#-ban, és hogyan nyerjen ki szöveget
-  képből az Aspose OCR segítségével, orosz nyelv helyesírás-ellenőrzéssel.
-og_title: Hogyan hajtsunk végre OCR-t C#-ban – Szöveg kinyerése képből
+og_description: Hogyan végezzünk OCR-t C#-ban? Ez az útmutató megmutatja, hogyan lehet
+  szöveget kinyerni egy képből, képet szöveggé konvertálni, és szöveget olvasni egy
+  képről az OcrEngine segítségével.
+og_title: Hogyan végezzünk OCR-t C#-ban – Szöveg kinyerése képből
 tags:
 - OCR
 - C#
-- Aspose
-- SpellCheck
-title: Hogyan hajtsunk végre OCR-t C#-ban – Szöveg kinyerése képből
+- Image Processing
+title: Hogyan végezzünk OCR-t C#-ban – Szöveg kinyerése képből
 url: /hu/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 ---
 
@@ -29,181 +30,224 @@ url: /hu/net/text-recognition/how-to-perform-ocr-in-c-extract-text-from-image/
 
 # Hogyan hajtsunk végre OCR-t C#-ban – Szöveg kinyerése képből
 
-Valaha is elgondolkodtál **how to perform OCR** egy kézzel írott jegyzet fényképén? Lehet, hogy van egy beolvasott nyugta, egy idegen nyelvű tábla, vagy egy PDF‑oldal, amely nem engedi a másolást‑beillesztést. A jó hír? Néhány C#‑sorral és az Aspose OCR könyvtárral pillanatok alatt szerkeszthető szöveggé alakíthatod a képet.  
+Az, hogy hogyan hajtsunk végre OCR-t C#-ban, gyakori kérdés a fejlesztők körében, akiknek **szöveget kell olvasniuk képfájlokból**. Ebben az útmutatóban végigvezetünk a képről szöveg kinyerésén a `OcrEngine` könyvtár segítségével, néhány sor kóddal a képeket kereshető karakterláncokká alakítva.  
 
-Ebben az útmutatóban nemcsak **how to perform OCR**‑t mutatunk be, hanem végigvezetünk a **extract text from image**, **convert image to text**, és még a **how to spell check** lépéseken is, amikor orosz nyelvű dokumentumokkal dolgozol. Soknak tűnik? Maradj velünk – mindent lépésről‑lépésre bontunk le.
+Ha valaha is egy beolvasott számla, egy kézzel írt jegyzet vagy egy képernyőfotó előtt ültél, és azon tűnődtél, *„hogyan tudok szöveget kinyerni?”*, jó helyen vagy. Kitérünk arra is, hogyan konvertáljunk képet szöveggé kötegelt feldolgozáshoz, hogy automatizálhasd a teljes munkafolyamatot.
 
-## Mit fogsz megtanulni
+---
 
-A tutorial végére képes leszel:
+## Amire szükséged lesz
 
-* Az Aspose OCR beállítására orosz nyelvi támogatással.  
-* Képfájl betöltésére és optikai karakterfelismerés (OCR) futtatására a **extract text from image** céljából.  
-* A beépített helyesírás-ellenőrző használatára a hibás szavak automatikus javításához – a tökéletes válasz a “**how to spell check**” OCR‑kimenetre.  
-* A megtisztított szöveg kiírására a konzolra, készen állva a további feldolgozásra vagy tárolásra.
+- **.NET 6.0 vagy újabb** (az általunk használt API a .NET Standard 2.0+ verzióval működik)
+- A **OcrEngine** NuGet csomag (vagy bármely kompatibilis OCR könyvtár, amely elérhetővé teszi a `Language`, `Image`, `Recognize` és `Text` tulajdonságokat)
+- Egy minta képfájl, például `hindi_page.jpg`, egy olyan mappában elhelyezve, amelyre a kódból hivatkozhatsz
+- Alapvető C# szintaxis ismeret – nincs szükség haladó trükkökre
 
-**Előfeltételek** – szükséged lesz:
+Ennyi. Nincs külső szolgáltatás, nincs API kulcs, csak egy helyi könyvtár, amely elvégzi a nehéz munkát.
 
-* .NET 6.0 vagy újabb (a kód .NET Framework 4.8‑al is működik).  
-* Érvényes Aspose OCR licenc vagy egy ideiglenes értékelő kulcs.  
-* Egy olyan képfájl, amely orosz szöveget tartalmaz (a demóhoz `russian_note.jpg`‑nek hívjuk).  
+---
 
-Ha bármelyik ismeretlennek tűnik, ne aggódj. Az alábbi lépések tartalmazzák a pontos NuGet parancsot az Aspose OCR beszerzéséhez, és a kód teljesen önálló.
+## Lépésről‑lépésre megvalósítás
 
-![hogyan hajtsunk végre OCR példát](/images/ocr-demo.png "hogyan hajtsunk végre OCR C# példát")
+Alább a folyamatot logikai egységekre bontjuk. Minden szakasznak van egy egyértelmű címe, egy rövid kódrészlete, és egy magyarázat arra, **miért** fontos a lépés – nem csak **mit** csinál.
 
-## 1. lépés – Az Aspose OCR telepítése és névterek hozzáadása
+### Hogyan hajtsunk végre OCR-t – Alaplépések
 
-Először is szükséged van a könyvtárra. Nyiss egy terminált a projekt mappádban, és futtasd:
+Az általános folyamat öt műveletben összefoglalható:
 
-```bash
-dotnet add package Aspose.OCR
-```
+1. **Create** egy OCR motor példányt
+2. **Select** a nyelvet, amelyet fel szeretnél ismerni
+3. **Load** a szöveget tartalmazó képet
+4. **Run** a felismerési algoritmust
+5. **Read** a kinyert szöveget
 
-Ez a parancs a legújabb stabil verziót (2026. április állása szerint 22.9) tölti le. A csomag visszaállítása után add hozzá a szükséges `using` direktívákat a C#‑fájlod tetejéhez:
+Ez a váz; a következő szakaszok részletezik.
 
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
-```
+---
 
-*Pro tipp:* Ha Visual Studio‑t használsz, az IDE automatikusan felajánlja ezek hozzáadását, amint beírod az első osztály nevét.
+### Szöveg kinyerése képből – Motor létrehozása
 
-## 2. lépés – Az OCR motor inicializálása orosz nyelvre
-
-A **how to perform OCR** rész az `OcrEngine` példány létrehozásával kezdődik. Az `OcrLanguage.Russian` megadása azt mondja a motornak, hogy töltse be a cirill betűkészletet és a nyelvspecifikus heurisztikákat.
+Először is szükségünk van egy objektumra, amely tud kommunikálni az OCR motorral.
 
 ```csharp
-// Step 2: Initialise OCR engine for Russian
-OcrEngine ocrEngine = new OcrEngine
+using System;
+using OcrLibrary;   // Replace with the actual namespace of your OCR package
+
+// Step 1: Create an OCR engine instance
+OcrEngine ocrEngine = new OcrEngine();
+```
+
+*Miért fontos:* Az `OcrEngine` példányosítása lefoglalja az összes belső puffert és betölti a képelemzéshez szükséges natív DLL-eket. Ennek a lépésnek a kihagyása azt jelentené, hogy később nem lesz hívható felismerő.
+
+> **Pro tipp:** Ha sok képet szeretnél egymás után feldolgozni, tartsd életben ugyanazt a `ocrEngine` példányt. Újra felhasználja a nyelvi modelleket és felgyorsítja a későbbi hívásokat.
+
+---
+
+### Kép konvertálása szöveggé – Válaszd ki a nyelvet
+
+Az OCR pontossága erősen függ a használt nyelvi modelltől. Hindi, Tamil vagy bármely más írásrendszer esetén állítsd be ennek megfelelően a `Language` tulajdonságot.
+
+```csharp
+// Step 2: Select the language of the text to recognize (e.g., Hindi)
+ocrEngine.Language = Language.Hindi;   // You can also use Language.Tamil, Language.English, etc.
+```
+
+*Miért fontos:* A motor nyelvspecifikus karakterkészleteket és statisztikai modelleket használ. A rossz nyelv megadása gyakran torz kimenetet eredményez, különösen a nem latin írásrendszerek esetén.
+
+> **Különleges eset:** Ha többnyelvű támogatásra van szükséged, egyes könyvtárak lehetővé teszik egy tartaléklista beállítását, például `ocrEngine.Language = Language.Multilingual;`.
+
+---
+
+### Szöveg olvasása képből – Forráskép betöltése
+
+Most a motorra mutatunk arra a fájlra, amely a vizuális szöveget tartalmazza.
+
+```csharp
+// Step 3: Load the image that contains the text
+ocrEngine.Image = ImageStream.FromFile(@"C:\OCR\Samples\hindi_page.jpg");
+```
+
+*Miért fontos:* Az `ImageStream.FromFile` a nyers fájlt bitmap formátummá alakítja, amelyet az OCR mag megért. Hibás vagy nem támogatott formátum (például SVG) megadása kivételt okoz.
+
+> **Figyelem:** A nagy képek sok memóriát fogyaszthatnak. Ha nagy felbontású beolvasásokat dolgozol fel, fontold meg a `Image.Resize` használatát a motorhoz való átadás előtt.
+
+---
+
+### Kép konvertálása szöveggé – Felismerés futtatása
+
+Miután a motor készen áll és a kép betöltődött, végül meghívjuk az OCR folyamatot.
+
+```csharp
+// Step 4: Perform the OCR operation
+ocrEngine.Recognize();
+```
+
+*Miért fontos:* A `Recognize` egy sor belső lépést indít el – előfeldolgozás, szegmentálás, karakterosztályozás és utófeldolgozás. A hívás blokkoló, vagyis a szál addig vár, amíg a szöveg készen nem áll.
+
+> **Teljesítményjegyzet:** Egy tipikus asztali gépen egy 300 dpi oldal felismerése < 1 másodpercet vesz igénybe. Szerveren érdemes háttérfeladatban futtatni, hogy elkerüld a UI lefagyását.
+
+---
+
+### Hogyan nyerjünk ki szöveget – Az eredmény lekérése
+
+Miután a felismerés befejeződik, a motor a `Text` tulajdonságban tárolja a nyers szöveges kimenetet.
+
+```csharp
+// Step 5: Output the recognized text
+Console.WriteLine(ocrEngine.Text);
+```
+
+*Miért fontos:* A `Text` tulajdonság egy tiszta, UTF‑8 karakterláncot ad, amelyet fájlba írhatsz, adatbázisba táplálhatsz, vagy továbbadhatsz downstream NLP csővezetékeknek.
+
+> **Várható kimenet:** A minta Hindi oldal esetén valami ilyesmit láthatsz  
+> `यह एक उदाहरण पाठ है जो OCR द्वारा पहचाना गया है।`  
+> (A pontos kimenet a kép minőségétől és a nyelvi modelltől függ.)
+
+---
+
+## További szempontok valós projektekhez
+
+Az alábbiakban néhány „mi‑ha” szcenáriót találsz, amelyekkel valószínűleg szembe fogsz nézni, amikor **szöveget nyersz ki képből** a termelésben.
+
+### Több kép kezelése ciklusban
+
+Ha **képet kell szöveggé konvertálni** tucatnyi fájlhoz, csomagold a lépéseket egy `foreach` ciklusba, és használd újra ugyanazt a `ocrEngine`-t:
+
+```csharp
+string[] files = Directory.GetFiles(@"C:\OCR\Batch\", "*.jpg");
+foreach (var file in files)
 {
-    Language = OcrLanguage.Russian   // Enables Russian language support
-};
+    ocrEngine.Image = ImageStream.FromFile(file);
+    ocrEngine.Recognize();
+    File.WriteAllText(Path.ChangeExtension(file, ".txt"), ocrEngine.Text);
+}
 ```
 
-Miért fontos ez? Nyelv beállítása nélkül a motor alapértelmezés szerint angolt használ, és sok cirill karaktert félreértelmez, ami torz kimenetet eredményez. A nyelv explicit konfigurálása drámai módon javítja a pontosságot.
+### Alacsony minőségű beolvasások kezelése
 
-## 3. lépés – Kép betöltése és **Convert Image to Text**
+- **Pre‑process** binarizálással (`Image.Binarize()`), zajeltávolítással vagy kiegyenesítéssel.
+- **Increase DPI** a beolvasáskor (300 dpi egy biztonságos alapérték).
+- **Choose a language model** amely támogatja a script ligatúráit (pl. Devanagari a Hindihez).
 
-Most betöltjük a képet a memóriába. Az `Image.FromFile` metódus a legtöbb gyakori formátummal (JPG, PNG, BMP) működik. Betöltés után meghívjuk a `Recognize`‑t a **convert image to text** céljából.
+### Szöveg olvasása képből a weben
+
+Amikor a kép egy URL-ről érkezik, először töltsd le egy memóriafolyamba:
 
 ```csharp
-// Step 3: Load the image that contains Russian text
-Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
-
-// Step 4: Perform OCR – this is the core “how to perform OCR” call
-string rawText = ocrEngine.Recognize(sourceImage);
+using (HttpClient client = new())
+{
+    byte[] data = await client.GetByteArrayAsync(imageUrl);
+    using var ms = new MemoryStream(data);
+    ocrEngine.Image = ImageStream.FromStream(ms);
+    ocrEngine.Recognize();
+    Console.WriteLine(ocrEngine.Text);
+}
 ```
 
-A `rawText` változó most a nyers OCR‑kimenetet tartalmazza, amely még hibákat vagy félreolvasott karaktereket is tartalmazhat. Kiírhatod, hogy lásd, mit rögzített a motor:
+### Szálbiztonság és párhuzamosság
 
-```csharp
-Console.WriteLine("Raw OCR output:");
-Console.WriteLine(rawText);
-```
+A legtöbb OCR könyvtár **nem** szálbiztos alapból. Ha **szöveget szeretnél olvasni képből** párhuzamosan, indíts külön `OcrEngine` példányokat szálanként, vagy használj producer‑consumer sort a hozzáférés sorosításához.
 
-## 4. lépés – **How to Spell Check** az OCR eredményen
-
-Az orosz OCR gyakran zajos, különösen alacsony felbontású szkennelt anyagoknál. Az Aspose egy `SpellChecker` osztályt biztosít, amely alapból orosz szótárakat ismer. Így hívod meg:
-
-```csharp
-// Step 5: Initialise the spell checker
-SpellChecker spellChecker = new SpellChecker();
-
-// Step 6: Correct spelling mistakes in the recognized text
-string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
-```
-
-A `CheckAndCorrect` metódus egy új stringet ad vissza, ahol a helytelen szavak a legvalószínűbb helyes alternatívákkal vannak helyettesítve. A központozást is figyelembe veszi, így nem kapsz egy hatalmas, összefolyó szöveget.
-
-*Szélsőséges eset:* Ha az OCR‑kimenet üres (pl. a kép teljesen fehér), a `CheckAndCorrect` egyszerűen egy üres stringet ad vissza. Érdemes ezt ellenőrizni, ha a eredményt fájlba szeretnéd írni.
-
-## 5. lépés – A megtisztított eredmény megjelenítése
-
-Végül kiírjuk a javított stringet. Egy valós alkalmazásban adatbázisba, JSON API‑ba vagy Word dokumentumba is írhatod. A demóhoz egy konzol‑dump elegendő:
-
-```csharp
-// Step 7: Show the corrected result
-Console.WriteLine("\nCorrected text:");
-Console.WriteLine(correctedText);
-```
-
-A program futtatásakor valami ilyesmit kell látnod:
-
-```
-Raw OCR output:
-Привeт мир! Этo тeкcт c русcкoй оcнoвнoй.
-
-Corrected text:
-Привет мир! Это текст с русской основой.
-```
-
-Vedd észre, hogy a helyesírás-ellenőrző a “Привeт” (kevert latin ‘e’) szót a megfelelő cirill “Привет”‑re változtatta. Ez a **how to spell check** OCR‑kimenet varázsa.
+---
 
 ## Teljes működő példa
 
-Az alábbi a komplett, futtatható program, amely összekapcsolja az összes lépést. Másold be egy új konzol‑projektbe, és nyomd meg az **F5**‑öt.
+Mindent egybe rakva, itt egy kész‑a‑futtatni konzolos alkalmazás, amely bemutatja, hogyan **hajtsunk végre OCR-t**, **szöveget nyerjünk ki képből**, és **szöveget olvassunk képből** egy összefüggő programban.
 
 ```csharp
-using Aspose.OCR;
-using Aspose.OCR.SpellCheck;
-using System.Drawing;
+using System;
+using OcrLibrary;               // Adjust to your OCR library's namespace
+using System.IO;
 
-class SpellCheckDemo
+class Program
 {
     static void Main()
     {
-        // Step 1: Create an OCR engine configured for Russian language
-        OcrEngine ocrEngine = new OcrEngine { Language = OcrLanguage.Russian };
+        // Initialize the OCR engine
+        OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Load the image that contains the text to be recognized
-        Image sourceImage = Image.FromFile(@"YOUR_DIRECTORY/russian_note.jpg");
+        // Choose the language (Hindi in this case)
+        ocrEngine.Language = Language.Hindi;
 
-        // Step 3: Perform OCR to extract raw text from the image
-        string rawText = ocrEngine.Recognize(sourceImage);
+        // Load the image file
+        string imagePath = @"C:\OCR\Samples\hindi_page.jpg";
+        if (!File.Exists(imagePath))
+        {
+            Console.WriteLine($"Image not found: {imagePath}");
+            return;
+        }
 
-        // Optional: Show raw OCR output
-        System.Console.WriteLine("Raw OCR output:");
-        System.Console.WriteLine(rawText);
+        ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-        // Step 4: Initialise the spell checker
-        SpellChecker spellChecker = new SpellChecker();
+        // Run the recognition process
+        ocrEngine.Recognize();
 
-        // Step 5: Correct spelling mistakes in the recognized text
-        string correctedText = spellChecker.CheckAndCorrect(rawText, OcrLanguage.Russian);
+        // Output the extracted text
+        string result = ocrEngine.Text;
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(result);
 
-        // Step 6: Display the corrected result
-        System.Console.WriteLine("\nCorrected text:");
-        System.Console.WriteLine(correctedText);
+        // Optional: Save to a .txt file
+        string txtPath = Path.ChangeExtension(imagePath, ".txt");
+        File.WriteAllText(txtPath, result);
+        Console.WriteLine($"Text saved to {txtPath}");
     }
 }
 ```
 
-### Várható kimenet
+**Ami látnod kell:** A konzol kiírja a `hindi_page.jpg`-ból kinyert Hindi mondatot, majd egy megerősítést, hogy a szövegfájl létrejött. Ha a kép tiszta, a kimenet gyakorlatilag megegyezik az eredeti nyomtatott szöveggel.
 
-Ha a programot egy tiszta, nagy felbontású orosz kézírásos fényképpel futtatod, általában egy tiszta, ember által olvasható mondatot kapsz. Ha a kép elmosódott, előfordulhatnak részben helyes szavak, de a helyesírás-ellenőrző a legtöbb nyilvánvaló hibát kisimítja.
+---
 
-## Gyakori hibák és tippek
+## Következtetés
 
-| Probléma | Miért fordul elő | Hogyan javítsuk / kerüljük |
-|----------|------------------|---------------------------|
-| **Garbage characters** | Alacsony DPI vagy zajos háttér | Előfeldolgozás: kontraszt növelése, átméretezés ≥300 dpi, mielőtt a `Recognize`‑nek adnád. |
-| **Empty output** | Hibás fájlútvonal vagy nem támogatott formátum | Ellenőrizd az útvonalat, és használj `try/catch`‑et az `Image.FromFile` körül a hibák megjelenítéséhez. |
-| **Spell checker misses errors** | Ritka szavak nincsenek a szótárban | Bővítsd a szótárat egy egyéni szósállal: `spellChecker.AddUserDictionary("mywords.txt")`. |
-| **Performance lag on large batches** | Az OCR CPU‑igényes | Futtasd az OCR‑t háttérszálon, vagy használj `Parallel.ForEach`‑t több kép esetén. |
-| **License exception** | Értékelő verzió használata a próbaidőszak után | Vásárolj licencet, és hívd meg: `License license = new License(); license.SetLicense("Aspose.Total.lic");` az `OcrEngine` létrehozása előtt. |
+Most már tudod, hogyan **hajtsunk végre OCR-t** C#-ban az elejétől a végéig, hogyan **szöveget nyerjünk ki képből**, **képet konvertáljunk szöveggé**, és **szöveget olvassunk képből** egy egyszerű `OcrEngine` munkafolyamat segítségével. Az öt lépésből álló minta – létrehozás, nyelv beállítása, betöltés, felismerés, olvasás – lefedi a legtöbb felhasználási esetet, és a további tippek segítenek a kötegelt feladatok, alacsony minőségű beolvasások és web‑alapú források kezelésében.
 
-## Következő lépések – Túl a egyszerű OCR‑n
+Készen állsz a következő kihívásra? Próbáld meg a nyelvet angolra cserélni, egy PDF oldalt képként betáplálni, vagy az OCR kimenetet egy kereső‑index csővezetékbe láncolni. A lehetőségek határtalanok, ha már elsajátítottad az OCR alapjait C#-ban.
 
-Miután elsajátítottad a **how to perform OCR**‑t, gondolj ezekre a kiterjesztésekre:
+Van kérdésed vagy egy nehéz kép, ami nem működik? Írj egy megjegyzést alább, és oldjuk meg együtt. Boldog kódolást!  
 
-* **Batch processing** – Egy mappában lévő képek ciklikus feldolgozása, és minden javított szöveg `.txt` fájlba írása.  
-* **PDF conversion** – Az Aspose PDF használata a kinyert szöveg visszaágyazásához kereshető PDF‑be.  
-* **Language detection** – Ha több nyelvet kell kezelni, először vizsgáld meg az OCR‑eredményt, és ennek megfelelően állítsd be az `OcrLanguage`‑t.  
-* **Integration with Azure Cognitive Services** – Hasonlítsd össze az Aspose eredményeit a Microsoft OCR API‑val egy hibrid megközelítéshez.
-
-Mindezek a témák természetesen magukban foglalják a másodlagos kulcsszavakat **extract text from image**, **convert image to text**, és **how to spell check**, így
+![how to perform OCR example](images/ocr-example.png "how to perform OCR example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

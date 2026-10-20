@@ -1,27 +1,26 @@
 ---
 category: general
-date: 2026-04-03
-description: Tekst extraheren uit een afbeelding met Aspose OCR in C#. Leer hoe je
-  een gescande afbeelding converteert, een afbeeldingsbestand laadt in C# en tekst
-  uit een TIF asynchroon herkent.
+date: 2026-03-23
+description: Tekst extraheren uit afbeelding met Aspose OCR in C#. Leer hoe je een
+  afbeelding laadt voor OCR en een OCR‑engine asynchroon maakt.
 draft: false
 keywords:
 - extract text from image
-- convert scanned image
-- how to ocr image
-- load image file c#
-- recognize text from tif
+- load image for OCR
+- create OCR engine
+- asynchronous OCR C#
+- Aspose OCR guide
+- C# image processing
 language: nl
-og_description: Tekst extraheren uit afbeelding met Aspose OCR in C#. Deze gids laat
-  zien hoe je een gescande afbeelding converteert, een afbeeldingsbestand laadt in
-  C# en tekst herkent uit TIF met asynchrone oproepen.
-og_title: Tekst uit afbeelding extraheren in C# – Async OCR-tutorial
+og_description: Tekst extraheren uit afbeelding met Aspose OCR in C#. Deze tutorial
+  laat zien hoe je een afbeelding laadt voor OCR en een OCR-engine maakt voor asynchrone
+  herkenning.
+og_title: Tekst uit afbeelding extraheren – Asynchrone OCR-gids voor C#
 tags:
 - OCR
 - C#
 - Aspose
-- Async
-title: Tekst uit afbeelding extraheren in C# – Async OCR-tutorial
+title: Tekst uit afbeelding extraheren in C# – Async OCR‑tutorial
 url: /nl/net/text-recognition/extract-text-from-image-in-c-async-ocr-tutorial/
 ---
 
@@ -29,237 +28,200 @@ url: /nl/net/text-recognition/extract-text-from-image-in-c-async-ocr-tutorial/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tekst uit afbeelding extraheren in C# – Async OCR Tutorial
+# Tekst uit afbeelding extraheren – Complete C# Async OCR-gids
 
-Wilt u snel **tekst uit afbeelding** extraheren? Met Aspose OCR kunt u dit in C# doen met async‑aanroepen, en het hele proces is voltooid voordat u zelfs uw koffie heeft uitgeserveerd.  
-Als u zich ook afvraagt hoe u **convert scanned image**‑bestanden kunt omzetten of een afbeeldingsbestand in C# kunt laden zonder moeite, dan bent u op de juiste plek.
+Heb je ooit **tekst uit een afbeelding** moeten halen, maar wist je niet welke API je moest kiezen? Je bent niet de enige. In veel real‑world projecten—denk aan factuurscanners, kassabon‑apps of snelle‑kijk‑hulpmiddelen—is de mogelijkheid om tekst uit een foto te halen een dagelijkse vereiste.  
 
-In deze gids lopen we elke stap door — van het ophalen van een TIF van de schijf tot het terugkrijgen van schone, doorzoekbare tekst. Aan het einde kunt u **recognize text from TIF**‑bestanden herkennen, de nuances van het laden van verschillende afbeeldingsformaten begrijpen, en beschikken over een solide async‑patroon dat u in elk .NET‑project kunt hergebruiken.
+In deze tutorial laten we je precies zien hoe je **tekst uit een afbeelding** kunt extraheren met Aspose.OCR, van **afbeelding laden voor OCR** tot **OCR‑engine maken** en het proces asynchroon uitvoeren. Aan het einde heb je een kant‑klaar programma dat de herkende tekst naar de console schrijft, en begrijp je waarom elk onderdeel belangrijk is.
 
-## Wat u zult leren
+## Wat je zult leren
 
-* Hoe de Aspose OCR‑engine in te stellen voor asynchrone gebruik.  
-* De exacte code die u nodig heeft om **load image file C#**‑stijl te laden, inclusief foutafhandeling voor ontbrekende bestanden.  
-* Manieren om **convert scanned image** PDF’s of TIFF’s om te zetten naar een bitmap die Aspose kan lezen.  
-* Waarom async OCR (`RecognizeAsync`) sneller en schaalbaarder is dan de synchronische tegenhanger.  
-* Verwachte console‑output en hoe u kunt verifiëren dat de geëxtraheerde tekst overeenkomt met de bron.
+- Hoe je **OCR‑engine maakt** op een veilige manier met correcte disposals.  
+- De juiste manier om **afbeelding te laden voor OCR** met Aspose’s `ImageStream`.  
+- Hoe je `RecognizeAsync()` aanroept en succes of falen afhandelt.  
+- Tips voor het oplossen van veelvoorkomende valkuilen (ontbrekende fonts, niet‑ondersteunde formaten, enz.).  
+- Verwachte console‑output zodat je kunt verifiëren dat alles werkt.
 
-> **Pro tip:** Als u tientallen pagina’s verwerkt, houd de OCR‑engine actief tussen oproepen — elke keer een nieuwe instantie maken voegt onnodige overhead toe.
+### Vereisten
 
----
+- .NET 6.0 SDK of later (de code compileert zowel met .NET Core als .NET Framework).  
+- Visual Studio 2022 of een andere editor die C# begrijpt.  
+- Een Aspose.OCR NuGet‑pakket (`Aspose.OCR`) toegevoegd aan je project.  
+- Een voorbeeld‑PNG/JPG‑afbeelding (`input.png`) geplaatst in een map die je kunt refereren.
 
-## Tekst uit afbeelding asynchroon extraheren
+Er zijn geen extra bibliotheken nodig—Aspose doet het zware werk.
 
-Het hart van de oplossing bevindt zich in een async `Main`‑methode. Het gebruik van `await` houdt de UI‑thread vrij (of, in een console‑applicatie, maakt de thread‑pool vrij) terwijl de OCR‑engine het zware werk doet.
+![Voorbeeld van tekst uit afbeelding extraheren](https://example.com/ocr-result.png "Schermafbeelding die geëxtraheerde tekst toont – tekst uit afbeelding extraheren")
+
+## Stap 1 – Installeer Aspose.OCR en zet het project op
+
+Voordat we **OCR‑engine kunnen maken**, moet de bibliotheek beschikbaar zijn.
+
+```bash
+dotnet new console -n AsyncOcrDemo
+cd AsyncOcrDemo
+dotnet add package Aspose.OCR
+```
+
+> **Pro tip:** Houd je NuGet‑pakketten up‑to‑date. De nieuwste Aspose.OCR‑versie (vanaf maart 2026) bevat prestatie‑verbeteringen voor async‑aanroepen.
+
+## Stap 2 – Maak OCR‑engine (en zorg voor correcte disposals)
+
+Het eerste echte code‑blok laat zien hoe je **OCR‑engine maakt** binnen een `using`‑statement. Dit garandeert dat onbeheerste resources worden vrijgegeven, wat cruciaal is voor langdurige services.
 
 ```csharp
 using Aspose.OCR;
 using System;
-using System.Drawing;
 using System.Threading.Tasks;
 
 class AsyncDemo
 {
     static async Task Main()
     {
-        // 1️⃣ Create an instance of the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Load the image you want to recognize
-        Image inputImage = Image.FromFile(@"YOUR_DIRECTORY/input.tif");
-
-        // 3️⃣ Run asynchronous OCR recognition (returns a Task<string>)
-        string recognizedText = await ocrEngine.RecognizeAsync(inputImage);
-
-        // 4️⃣ Display the OCR result
-        Console.WriteLine("Async OCR result:");
-        Console.WriteLine(recognizedText);
+        // Step 2.1: Instantiate the OCR engine – this is where we **create OCR engine**
+        using (OcrEngine ocrEngine = new OcrEngine())
+        {
+            // The rest of the steps go here…
+        }
     }
 }
 ```
 
-**Why async?** De OCR‑bewerking kan netwerk‑I/O omvatten (als de engine cloud‑services gebruikt) of intensief CPU‑werk. `RecognizeAsync` maakt de aanroepende thread vrij, waardoor ander werk — zoals het verwerken van meer bestanden — kan doorgaan.
+**Waarom `using` gebruiken?**  
+`OcrEngine` omsluit native code; als je vergeet het te disposen, kun je geheugen‑ of bestands‑handles lekken, wat leidt tot intermitterende crashes bij het verwerken van veel afbeeldingen.
+
+## Stap 3 – Laad afbeelding voor OCR
+
+Nu **laden we de afbeelding voor OCR**. Aspose biedt `ImageStream.FromFile`, dat bitmap‑beheer abstraheert en met de meeste gangbare formaten werkt.
+
+```csharp
+// Step 3.1: Define the path to the picture you want to process
+string imagePath = "YOUR_DIRECTORY/input.png";
+
+// Step 3.2: Feed the image into the engine
+ocrEngine.Image = ImageStream.FromFile(imagePath);
+```
+
+> **Let op:** Als het pad onjuist is of het bestand corrupt, zal `RecognizeAsync()` `false` retourneren. Controleer altijd of het bestand bestaat voordat je de OCR‑methode aanroept.
+
+## Stap 4 – Voer asynchrone OCR‑herkenning uit
+
+Het aanroepen van `RecognizeAsync()` verplaatst de zware beeldanalyse naar een achtergrond‑thread, waardoor je UI responsief blijft of je web‑endpoint niet‑blokerend is.
+
+```csharp
+// Step 4.1: Perform the async recognition
+bool recognitionSucceeded = await ocrEngine.RecognizeAsync();
+```
+
+**Wat gebeurt er onder de motorkap?**  
+Aspose splitst de afbeelding in zones, voert een neuraal netwerk uit op elke zone, en voegt daarna de resultaten samen. De async‑versie wikkelt die pipeline simpelweg in een `Task`, zodat de .NET‑thread‑pool de uitvoering beheert.
+
+## Stap 5 – Haal de geëxtraheerde tekst op en toon deze
+
+Als de async‑aanroep slaagt, bevat de `Text`‑eigenschap nu de string die je wilde **tekst uit afbeelding extraheren**. Laten we deze afdrukken.
+
+```csharp
+// Step 5.1: Show the outcome
+if (recognitionSucceeded)
+    Console.WriteLine("Async OCR result:\n" + ocrEngine.Text);
+else
+    Console.WriteLine("Async recognition failed.");
+```
 
 ### Verwachte output
 
 ```
 Async OCR result:
-The quick brown fox jumps over the lazy dog.
+Hello, world!
+This is a sample image containing text.
 ```
 
-Als de afbeelding meerdere regels bevat, zal elke regel gescheiden worden door regeleinden. U kunt het resultaat naar een bestand sturen met `File.WriteAllText("output.txt", recognizedText);` als u permanente opslag nodig heeft.
+Als je het bovenstaande (of de inhoud van je eigen afbeelding) ziet, heb je succesvol **tekst uit afbeelding geëxtraheerd** met Aspose OCR.
 
----
+## Volledig, uitvoerbaar voorbeeld
 
-## Convert Scanned Image to a Usable Format
-
-Soms ontvangt u een gescande PDF of een multi‑page TIFF. Aspose OCR werkt het beste met een `System.Drawing.Image`, dus mogelijk moet u eerst converteren.
-
-```csharp
-using Aspose.OCR;
-using System.Drawing;
-using System.Drawing.Imaging;
-
-// Load a multi‑page TIFF and pick the first frame
-Image tiff = Image.FromFile(@"YOUR_DIRECTORY/multi_page.tif");
-tiff.SelectActiveFrame(FrameDimension.Page, 0); // Grab page 0
-
-// Optionally, change DPI for better accuracy
-var bitmap = new Bitmap(tiff);
-bitmap.SetResolution(300, 300); // 300 DPI is a sweet spot for OCR
-```
-
-**Why change DPI?** Een hogere resolutie geeft de OCR‑engine meer detail, waardoor mis‑herkenningen bij vage scans verminderen. Ga echter niet hoger dan 600 DPI — de meeste engines behalen geen extra nauwkeurigheid maar gebruiken wel meer geheugen.
-
----
-
-## Afbeeldingsbestand laden C# – Omgaan met verschillende formaten
-
-U zou in de verleiding kunnen komen om een `.tif`‑pad hard‑gecodeerd te gebruiken, maar een robuuste utility moet **any** afbeeldings type accepteren (`.png`, `.jpg`, `.bmp`). Hier is een kleine helper die de laadlogica abstraheert:
-
-```csharp
-static Image LoadImage(string path)
-{
-    if (!File.Exists(path))
-        throw new FileNotFoundException($"Image not found: {path}");
-
-    // Let .NET decide the correct decoder based on file header
-    using (var stream = File.OpenRead(path))
-    {
-        return Image.FromStream(stream);
-    }
-}
-```
-
-Gebruik het als volgt:
-
-```csharp
-Image img = LoadImage(@"YOUR_DIRECTORY/input.tif");
-string text = await ocrEngine.RecognizeAsync(img);
-```
-
-Nu hebt u het **load image file C#**‑scenario gedekt zonder u zorgen te maken over de exacte extensie.
-
----
-
-## Tekst herkennen uit TIF – Wat u moet weten
-
-TIF‑bestanden bevatten vaak meerdere pagina’s of gebruiken compressie die sommige bibliotheken in de war brengt. Twee zaken helpen u betrouwbare resultaten te krijgen:
-
-1. **Select the correct frame** – zoals eerder getoond met `SelectActiveFrame`.  
-2. **Normalize colors** – omzetten naar een 24‑bit RGB‑bitmap kan vreemde paletten elimineren.
-
-```csharp
-static Image PrepareTif(string tifPath, int pageIndex = 0)
-{
-    Image tif = Image.FromFile(tifPath);
-    tif.SelectActiveFrame(FrameDimension.Page, pageIndex);
-    // Convert to 24‑bit RGB to avoid palette issues
-    Bitmap rgb = new Bitmap(tif.Width, tif.Height, PixelFormat.Format24bppRgb);
-    using (Graphics g = Graphics.FromImage(rgb))
-    {
-        g.DrawImage(tif, 0, 0, tif.Width, tif.Height);
-    }
-    return rgb;
-}
-```
-
-Voer de geretourneerde `Image` direct in `RecognizeAsync` in en u zult betrouwbaar **recognize text from TIF** herkennen, zelfs wanneer de bron CCITT Group 4‑compressie gebruikt.
-
-## Volledig end‑to‑end voorbeeld
-
-Alles samenvoegen levert één enkel bestand op dat u in een console‑project kunt plaatsen en uitvoeren.
+Alle onderdelen samengevoegd, hier is het complete programma dat je kunt kopiëren‑plakken in `Program.cs` en uitvoeren.
 
 ```csharp
 using Aspose.OCR;
 using System;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
 using System.Threading.Tasks;
 
-class Program
+class AsyncDemo
 {
     static async Task Main()
     {
-        try
+        // Step 1: Create OCR engine (ensures proper disposal)
+        using (OcrEngine ocrEngine = new OcrEngine())
         {
-            // Step 1 – Initialize OCR engine (reuse if processing many files)
-            OcrEngine ocrEngine = new OcrEngine();
+            // Step 2: Load the image you want to process – this is how we **load image for OCR**
+            string imagePath = "YOUR_DIRECTORY/input.png";
+            ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-            // Step 2 – Load and prepare the image (handles TIF, PNG, JPG, etc.)
-            Image img = PrepareImage(@"YOUR_DIRECTORY/input.tif");
+            // Step 3: Run the asynchronous recognition – this is the core of **extract text from image**
+            bool recognitionSucceeded = await ocrEngine.RecognizeAsync();
 
-            // Step 3 – Run async recognition
-            string result = await ocrEngine.RecognizeAsync(img);
-
-            // Step 4 – Output the result
-            Console.WriteLine("Async OCR result:");
-            Console.WriteLine(result);
-
-            // Optional: Save to a text file
-            File.WriteAllText("ocr-output.txt", result);
+            // Step 4: Display the result or an error message
+            if (recognitionSucceeded)
+                Console.WriteLine("Async OCR result:\n" + ocrEngine.Text);
+            else
+                Console.WriteLine("Async recognition failed.");
         }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"Error: {ex.Message}");
-        }
-    }
-
-    // Helper that decides how to load based on extension
-    static Image PrepareImage(string path)
-    {
-        string ext = Path.GetExtension(path).ToLowerInvariant();
-        return ext switch
-        {
-            ".tif" or ".tiff" => PrepareTif(path),
-            _ => LoadImage(path)
-        };
-    }
-
-    static Image LoadImage(string path)
-    {
-        if (!File.Exists(path))
-            throw new FileNotFoundException($"Image not found: {path}");
-
-        using var stream = File.OpenRead(path);
-        return Image.FromStream(stream);
-    }
-
-    static Image PrepareTif(string tifPath, int page = 0)
-    {
-        Image tif = Image.FromFile(tifPath);
-        tif.SelectActiveFrame(FrameDimension.Page, page);
-        Bitmap rgb = new Bitmap(tif.Width, tif.Height, PixelFormat.Format24bppRgb);
-        using var g = Graphics.FromImage(rgb);
-        g.DrawImage(tif, 0, 0, tif.Width, tif.Height);
-        return rgb;
     }
 }
 ```
 
-**What you should see:** De console drukt de geëxtraheerde tekst af, en een bestand genaamd `ocr-output.txt` verschijnt naast het uitvoerbare bestand met dezelfde tekst.
+Voer het uit met:
+
+```bash
+dotnet run
+```
+
+Als alles correct is ingesteld, zal de console de geëxtraheerde tekst afdrukken.
 
 ## Veelgestelde vragen & randgevallen
 
-| Question | Answer |
-|----------|--------|
-| *Kan ik een PDF direct OCR‑en?* | Aspose OCR werkt op afbeeldingen, dus u moet eerst elke PDF‑pagina naar een afbeelding converteren (bijv. met Aspose.PDF of `PdfRenderer`). |
-| *Wat als de afbeelding enorm is?* | Schalen naar maximaal 2500 px breedte/hoogte vóór OCR; Aspose schaalt intern automatisch, maar u bespaart geheugen. |
-| *Is de async‑methode thread‑safe?* | Ja, maar hergebruik dezelfde `OcrEngine`‑instantie alleen als u `RecognizeAsync` niet gelijktijdig aanroept. Voor parallelle verwerking, maak aparte engines per taak. |
-| *Heb ik een licentie nodig?* | Aspose OCR biedt een gratis evaluatie met watermerken. Voor productie, koop een licentie en stel deze in via `License license = new License(); license.SetLicense("Aspose.OCR.lic");`. |
+### Wat als ik een JPEG in plaats van een PNG moet verwerken?
+
+`ImageStream.FromFile` detecteert automatisch het formaat, dus je kunt `imagePath` naar `photo.jpg` wijzen zonder code‑aanpassingen. Zorg er alleen voor dat de bestandsgrootte niet astronomisch is—Aspose raadt afbeeldingen onder de 5 MB aan voor optimale snelheid.
+
+### Kan ik de taal of tekenset wijzigen?
+
+Ja. Na het maken van de engine, stel `ocrEngine.Language = OcrLanguage.English;` in of een andere ondersteunde taal. Dit verbetert de nauwkeurigheid voor niet‑Latijnse scripts.
+
+### Hoe ga ik om met meerdere pagina’s (bijv. een multi‑page TIFF)?
+
+Aspose.OCR kan elke pagina afzonderlijk verwerken. Loop door de pagina’s, wijs elke toe aan `ocrEngine.Image`, en roep `RecognizeAsync()` voor elke iteratie aan. Verzamel de resultaten in een `StringBuilder` als je één enkele output‑string nodig hebt.
+
+### Wat als de async‑aanroep nooit terugkeert?
+
+Dat duidt meestal op een out‑of‑memory‑situatie of een corrupt beeld. Omring de aanroep met een `try/catch` en stel een timeout in met `Task.WhenAny`:
+
+```csharp
+var recognitionTask = ocrEngine.RecognizeAsync();
+if (await Task.WhenAny(recognitionTask, Task.Delay(5000)) == recognitionTask)
+{
+    // success path
+}
+else
+{
+    Console.WriteLine("Recognition timed out.");
+}
+```
+
+## Prestatie‑tips
+
+- **Herbruik de OCR‑engine** bij het verwerken van veel afbeeldingen in één batch; een nieuwe engine per bestand voegt overhead toe.  
+- **Verklein grote afbeeldingen** tot maximaal 2000 px breed voordat je ze aan de engine geeft; dit versnelt de analyse zonder nauwkeurigheid te schaden.  
+- **Schakel hardware‑versnelling in** (indien je licentie dit toestaat) door `ocrEngine.UseGpu = true;` te zetten.
 
 ## Conclusie
 
-U weet nu hoe u **extract text from image**‑bestanden in C# kunt gebruiken met de asynchrone API van Aspose OCR. Door het laden van afbeeldingen, optionele conversie van gescande afbeeldingen en de eigenaardigheden van TIF‑bestanden af te handelen, is de oplossing zowel robuust als klaar voor productie.  
+Je hebt nu een solide, end‑to‑end voorbeeld dat laat zien hoe je **tekst uit afbeelding** kunt extraheren met Aspose OCR in C#. Door te leren **afbeelding laden voor OCR**, **OCR‑engine maken**, en `RecognizeAsync()` uit te voeren, kun je betrouwbare tekst‑extractie integreren in desktop‑apps, web‑services of achtergrond‑workers.  
 
-Van hieruit kunt u:
+Klaar voor de volgende stap? Probeer een PDF te gebruiken, experimenteer met verschillende talen, of pipe de OCR‑output naar een zoekindex. De mogelijkheden zijn praktisch eindeloos, en met het async‑patroon blokkeer je je hoofdthread niet terwijl het zware werk op de achtergrond gebeurt.
 
-* **Convert scanned image** PDF’s naar PNG’s vóór OCR voor betere nauwkeurigheid.  
-* Verken **how to ocr image** streams direct vanuit een web‑API, waardoor tijdelijke bestanden overbodig worden.  
-* Batch‑verwerk tientallen bestanden door de `OcrEngine`‑instantie te hergebruiken binnen een `Parallel.ForEach`‑lus.  
-
-Probeer deze variaties en u zult snel zien waarom asynchrone OCR een game‑changer is voor document‑intensieve toepassingen. Veel programmeerplezier, en voel u vrij om een commentaar achter te laten als u tegen problemen aanloopt!
+Happy coding, en moge je afbeeldingen altijd scherp genoeg zijn voor nauwkeurige OCR!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

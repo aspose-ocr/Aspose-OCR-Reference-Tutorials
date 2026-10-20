@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-04-03
-description: 使用 Aspose OCR 於 C# 從圖像提取文字。學習如何轉換掃描圖像、在 C# 載入圖像檔案，並非同步辨識 TIF 文字。
+date: 2026-03-23
+description: 使用 Aspose OCR 於 C# 從圖像提取文字。了解如何載入圖像進行 OCR 以及非同步建立 OCR 引擎。
 draft: false
 keywords:
 - extract text from image
-- convert scanned image
-- how to ocr image
-- load image file c#
-- recognize text from tif
+- load image for OCR
+- create OCR engine
+- asynchronous OCR C#
+- Aspose OCR guide
+- C# image processing
 language: zh-hant
-og_description: 使用 Aspose OCR 在 C# 中從圖像提取文字。此指南示範如何轉換掃描圖像、載入圖像檔案（C#），以及使用非同步呼叫從 TIF
-  識別文字。
-og_title: 在 C# 中從圖像提取文字 – 非同步 OCR 教學
+og_description: 使用 Aspose OCR 於 C# 從圖像提取文字。本教學示範如何載入圖像進行 OCR，並建立 OCR 引擎以執行非同步辨識。
+og_title: 從圖片中提取文字 – C# 非同步 OCR 指南
 tags:
 - OCR
 - C#
 - Aspose
-- Async
-title: 在 C# 中從圖片提取文字 – 非同步 OCR 教學
+title: 在 C# 中從圖像提取文字 – 非同步 OCR 教學
 url: /zh-hant/net/text-recognition/extract-text-from-image-in-c-async-ocr-tutorial/
 ---
 
@@ -26,229 +25,200 @@ url: /zh-hant/net/text-recognition/extract-text-from-image-in-c-async-ocr-tutori
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從影像中提取文字（C#）– 非同步 OCR 教程
+# 從影像提取文字 – 完整 C# 非同步 OCR 指南
 
-需要快速 **從影像中提取文字** 嗎？使用 Aspose OCR，您可以在 C# 中透過非同步呼叫完成，整個過程在您還沒喝完咖啡前就結束了。  
-如果您同時想知道如何 **convert scanned image** 檔案或在 C# 中載入影像檔而不費吹灰之力，您來對地方了。
+有沒有曾經需要**從影像提取文字**，卻不確定該選哪個 API？你並不孤單。在許多實務專案中——例如發票掃描器、收據應用程式或快速檢視工具——從圖片中提取文字是日常需求。
 
-在本指南中，我們將逐步說明每個步驟——從磁碟中讀取 TIF 檔案到取得乾淨、可搜尋的文字。完成後，您將能夠 **recognize text from TIF** 檔案，了解載入不同影像格式的細節，並擁有一套可在任何 .NET 專案中重複使用的穩固非同步模式。
+在本教學中，我們將示範如何使用 Aspose.OCR **從影像提取文字**，涵蓋從 **load image for OCR** 到 **create OCR engine**，以及以非同步方式執行整個流程。完成後，你將擁有一個可直接執行的程式，會將辨識出的文字印到主控台，並了解每一步的意義。
 
-## 您將學到
+## 你將學會
 
-* 如何設定 Aspose OCR 引擎以供非同步使用。  
-* 取得以 **load image file C#** 方式載入影像檔的完整程式碼，並包含缺少檔案時的錯誤處理。  
-* 將 **convert scanned image** PDF 或 TIFF 轉換為 Aspose 可讀取的位圖的方法。  
-* 為何 async OCR (`RecognizeAsync`) 比同步版本更快且具可擴充性。  
-* 預期的主控台輸出以及如何驗證提取的文字與來源相符。  
+- 如何安全地 **create OCR engine** 並正確釋放資源。  
+- 使用 Aspose 的 `ImageStream` 正確 **load image for OCR**。  
+- 如何呼叫 `RecognizeAsync()` 並處理成功或失敗的結果。  
+- 常見問題的除錯技巧（缺少字型、不支援的格式等）。  
+- 預期的主控台輸出，讓你驗證程式是否正常運作。
 
-> **專業提示：** 若您一次處理數十頁，請在多次呼叫間保持 OCR 引擎持續運作——每次重新建立實例會增加不必要的開銷。
+### 前置條件
 
-## 非同步提取影像文字
+- .NET 6.0 SDK 或更新版本（程式碼同時支援 .NET Core 與 .NET Framework）。  
+- Visual Studio 2022 或任何能編寫 C# 的編輯器。  
+- 已於專案中加入 Aspose.OCR NuGet 套件（`Aspose.OCR`）。  
+- 放置於可參考資料夾中的範例 PNG/JPG 影像（`input.png`）。
 
-解決方案的核心在於一個非同步的 `Main` 方法。使用 `await` 可讓 UI 執行緒保持空閒（或在主控台應用程式中釋放執行緒池），同時 OCR 引擎執行繁重的工作。
+不需要額外的函式庫——Aspose 已處理所有繁重工作。
+
+![從影像提取文字範例](https://example.com/ocr-result.png "螢幕截圖顯示提取的文字 – 從影像提取文字")
+
+## 步驟 1 – 安裝 Aspose.OCR 並設定專案
+
+在我們能 **create OCR engine** 之前，必須先確保程式庫已可使用。
+
+```bash
+dotnet new console -n AsyncOcrDemo
+cd AsyncOcrDemo
+dotnet add package Aspose.OCR
+```
+
+> **專業提示：** 請保持 NuGet 套件為最新版本。截至 2026 年 3 月的最新 Aspose.OCR 版本已針對非同步呼叫進行效能優化。
+
+## 步驟 2 – 建立 OCR Engine（並確保正確釋放）
+
+第一段實作示範如何在 `using` 陳述式中 **create OCR engine**。這可保證釋放非受控資源，對長時間執行的服務尤為重要。
 
 ```csharp
 using Aspose.OCR;
 using System;
-using System.Drawing;
 using System.Threading.Tasks;
 
 class AsyncDemo
 {
     static async Task Main()
     {
-        // 1️⃣ Create an instance of the OCR engine
-        OcrEngine ocrEngine = new OcrEngine();
-
-        // 2️⃣ Load the image you want to recognize
-        Image inputImage = Image.FromFile(@"YOUR_DIRECTORY/input.tif");
-
-        // 3️⃣ Run asynchronous OCR recognition (returns a Task<string>)
-        string recognizedText = await ocrEngine.RecognizeAsync(inputImage);
-
-        // 4️⃣ Display the OCR result
-        Console.WriteLine("Async OCR result:");
-        Console.WriteLine(recognizedText);
+        // Step 2.1: Instantiate the OCR engine – this is where we **create OCR engine**
+        using (OcrEngine ocrEngine = new OcrEngine())
+        {
+            // The rest of the steps go here…
+        }
     }
 }
 ```
 
-**為何使用非同步？** OCR 操作可能涉及網路 I/O（若引擎使用雲端服務）或密集的 CPU 工作。`RecognizeAsync` 釋放呼叫執行緒，使其他工作（例如處理更多檔案）得以繼續。
+**為什麼要使用 `using`？**  
+`OcrEngine` 內部封裝原生程式碼；若忘記釋放，可能會造成記憶體或檔案句柄洩漏，進而在大量影像處理時發生間歇性崩潰。
+
+## 步驟 3 – 載入影像以供 OCR
+
+接下來我們要 **load image for OCR**。Aspose 提供的 `ImageStream.FromFile` 會抽象化位圖處理，且支援大多數常見格式。
+
+```csharp
+// Step 3.1: Define the path to the picture you want to process
+string imagePath = "YOUR_DIRECTORY/input.png";
+
+// Step 3.2: Feed the image into the engine
+ocrEngine.Image = ImageStream.FromFile(imagePath);
+```
+
+> **注意：** 若路徑錯誤或檔案損毀，`RecognizeAsync()` 會回傳 `false`。呼叫 OCR 方法前務必先確認檔案是否存在。
+
+## 步驟 4 – 執行非同步 OCR 辨識
+
+呼叫 `RecognizeAsync()` 會將繁重的影像分析工作交由背景執行緒處理，讓 UI 保持回應或 Web 端點不被阻塞。
+
+```csharp
+// Step 4.1: Perform the async recognition
+bool recognitionSucceeded = await ocrEngine.RecognizeAsync();
+```
+
+**底層發生了什麼？**  
+Aspose 會先將影像切割成多個區域，對每個區域執行神經網路辨識，最後合併結果。非同步版僅是將此流程包裝成 `Task`，交由 .NET 執行緒池管理。
+
+## 步驟 5 – 取得並顯示提取的文字
+
+若非同步呼叫成功，`Text` 屬性即包含了你想 **extract text from image** 的字串。現在把它印出來吧。
+
+```csharp
+// Step 5.1: Show the outcome
+if (recognitionSucceeded)
+    Console.WriteLine("Async OCR result:\n" + ocrEngine.Text);
+else
+    Console.WriteLine("Async recognition failed.");
+```
 
 ### 預期輸出
 
 ```
 Async OCR result:
-The quick brown fox jumps over the lazy dog.
+Hello, world!
+This is a sample image containing text.
 ```
 
-如果影像包含多行文字，每行會以換行字元分隔。若需要永久儲存，可使用 `File.WriteAllText("output.txt", recognizedText);` 將結果寫入檔案。
+如果看到上述內容（或是你自己的影像內容），即表示已成功 **extract text from image**，使用 Aspose OCR 完成文字提取。
 
-## 將掃描影像轉換為可用格式
+## 完整、可執行範例
 
-有時您會收到掃描的 PDF 或多頁 TIFF。Aspose OCR 最適合使用 `System.Drawing.Image`，因此可能需要先進行轉換。
-
-```csharp
-using Aspose.OCR;
-using System.Drawing;
-using System.Drawing.Imaging;
-
-// Load a multi‑page TIFF and pick the first frame
-Image tiff = Image.FromFile(@"YOUR_DIRECTORY/multi_page.tif");
-tiff.SelectActiveFrame(FrameDimension.Page, 0); // Grab page 0
-
-// Optionally, change DPI for better accuracy
-var bitmap = new Bitmap(tiff);
-bitmap.SetResolution(300, 300); // 300 DPI is a sweet spot for OCR
-```
-
-> **為何要變更 DPI？** 較高的解析度能提供 OCR 引擎更多細節，減少模糊掃描的誤辨識。只要不要超過 600 DPI——大多數引擎不會因此提升精度，卻會佔用更多記憶體。
-
-## 載入影像檔案 C# – 處理不同格式
-
-您可能會想硬編碼 `.tif` 路徑，但穩健的工具應接受 **any** 影像類型（`.png`、`.jpg`、`.bmp`）。以下是一個小型輔助函式，將載入邏輯抽象化：
-
-```csharp
-static Image LoadImage(string path)
-{
-    if (!File.Exists(path))
-        throw new FileNotFoundException($"Image not found: {path}");
-
-    // Let .NET decide the correct decoder based on file header
-    using (var stream = File.OpenRead(path))
-    {
-        return Image.FromStream(stream);
-    }
-}
-```
-
-使用方式如下：
-
-```csharp
-Image img = LoadImage(@"YOUR_DIRECTORY/input.tif");
-string text = await ocrEngine.RecognizeAsync(img);
-```
-
-現在您已涵蓋 **load image file C#** 的情境，無需擔心具體副檔名。
-
-## 從 TIF 辨識文字 – 必備知識
-
-TIF 檔案常包含多頁或使用某些壓縮方式，會讓部分函式庫感到困惑。以下兩點可協助您取得可靠結果：
-
-1. **Select the correct frame** – 如前所示使用 `SelectActiveFrame`。  
-2. **Normalize colors** – 轉換為 24 位元 RGB 位圖可消除異常調色盤。  
-
-```csharp
-static Image PrepareTif(string tifPath, int pageIndex = 0)
-{
-    Image tif = Image.FromFile(tifPath);
-    tif.SelectActiveFrame(FrameDimension.Page, pageIndex);
-    // Convert to 24‑bit RGB to avoid palette issues
-    Bitmap rgb = new Bitmap(tif.Width, tif.Height, PixelFormat.Format24bppRgb);
-    using (Graphics g = Graphics.FromImage(rgb))
-    {
-        g.DrawImage(tif, 0, 0, tif.Width, tif.Height);
-    }
-    return rgb;
-}
-```
-
-將回傳的 `Image` 直接傳入 `RecognizeAsync`，即使來源使用 CCITT Group 4 壓縮，您也能可靠地 **recognize text from TIF**。
-
-## 完整端對端範例
-
-將所有內容整合後，您會得到一個可直接放入主控台專案並執行的單一檔案。
+將所有片段組合起來，以下程式可直接貼到 `Program.cs` 並執行。
 
 ```csharp
 using Aspose.OCR;
 using System;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
 using System.Threading.Tasks;
 
-class Program
+class AsyncDemo
 {
     static async Task Main()
     {
-        try
+        // Step 1: Create OCR engine (ensures proper disposal)
+        using (OcrEngine ocrEngine = new OcrEngine())
         {
-            // Step 1 – Initialize OCR engine (reuse if processing many files)
-            OcrEngine ocrEngine = new OcrEngine();
+            // Step 2: Load the image you want to process – this is how we **load image for OCR**
+            string imagePath = "YOUR_DIRECTORY/input.png";
+            ocrEngine.Image = ImageStream.FromFile(imagePath);
 
-            // Step 2 – Load and prepare the image (handles TIF, PNG, JPG, etc.)
-            Image img = PrepareImage(@"YOUR_DIRECTORY/input.tif");
+            // Step 3: Run the asynchronous recognition – this is the core of **extract text from image**
+            bool recognitionSucceeded = await ocrEngine.RecognizeAsync();
 
-            // Step 3 – Run async recognition
-            string result = await ocrEngine.RecognizeAsync(img);
-
-            // Step 4 – Output the result
-            Console.WriteLine("Async OCR result:");
-            Console.WriteLine(result);
-
-            // Optional: Save to a text file
-            File.WriteAllText("ocr-output.txt", result);
+            // Step 4: Display the result or an error message
+            if (recognitionSucceeded)
+                Console.WriteLine("Async OCR result:\n" + ocrEngine.Text);
+            else
+                Console.WriteLine("Async recognition failed.");
         }
-        catch (Exception ex)
-        {
-            Console.Error.WriteLine($"Error: {ex.Message}");
-        }
-    }
-
-    // Helper that decides how to load based on extension
-    static Image PrepareImage(string path)
-    {
-        string ext = Path.GetExtension(path).ToLowerInvariant();
-        return ext switch
-        {
-            ".tif" or ".tiff" => PrepareTif(path),
-            _ => LoadImage(path)
-        };
-    }
-
-    static Image LoadImage(string path)
-    {
-        if (!File.Exists(path))
-            throw new FileNotFoundException($"Image not found: {path}");
-
-        using var stream = File.OpenRead(path);
-        return Image.FromStream(stream);
-    }
-
-    static Image PrepareTif(string tifPath, int page = 0)
-    {
-        Image tif = Image.FromFile(tifPath);
-        tif.SelectActiveFrame(FrameDimension.Page, page);
-        Bitmap rgb = new Bitmap(tif.Width, tif.Height, PixelFormat.Format24bppRgb);
-        using var g = Graphics.FromImage(rgb);
-        g.DrawImage(tif, 0, 0, tif.Width, tif.Height);
-        return rgb;
     }
 }
 ```
 
-**您應該會看到：** 主控台會印出提取的文字，且在執行檔旁會產生名為 `ocr-output.txt` 的檔案，內含相同的字串。
+執行方式：
 
-## 常見問題與邊緣情況
+```bash
+dotnet run
+```
 
-| Question | Answer |
-|----------|--------|
-| *我可以直接 OCR PDF 嗎？* | Aspose OCR 僅適用於影像，因此您必須先將每頁 PDF 轉換為影像（例如使用 Aspose.PDF 或 `PdfRenderer`）。 |
-| *如果影像太大怎麼辦？* | 在 OCR 前將尺寸縮小至最大 2500 px 的寬度/高度；Aspose 會在內部自動調整大小，但您可節省記憶體。 |
-| *非同步方法是否執行緒安全？* | 是的，但僅在未同時呼叫 `RecognizeAsync` 時才重複使用同一個 `OcrEngine` 實例。若進行平行處理，請為每個任務建立獨立的引擎。 |
-| *我需要授權嗎？* | Aspose OCR 提供帶有浮水印的免費評估版。正式環境請購買授權，並透過 `License license = new License(); license.SetLicense("Aspose.OCR.lic");` 設定。 |
+若一切設定正確，主控台會印出提取的文字。
+
+## 常見問題與特殊情況
+
+### 如果我要處理 JPEG 而不是 PNG，該怎麼做？
+
+`ImageStream.FromFile` 會自動偵測格式，所以只要把 `imagePath` 指向 `photo.jpg` 即可，無需修改程式碼。請留意檔案大小不宜過大——Aspose 建議影像尺寸不超過 5 MB，以獲得最佳速度。
+
+### 能否變更語言或字元集？
+
+可以。建立引擎後，設定 `ocrEngine.Language = OcrLanguage.English;`（或其他支援的語言）。對非拉丁文字系統特別有幫助，能提升辨識準確度。
+
+### 如何處理多頁（例如多頁 TIFF）？
+
+Aspose.OCR 可逐頁處理。遍歷每一頁，將其指派給 `ocrEngine.Image`，然後對每一次迭代呼叫 `RecognizeAsync()`。若需要單一字串輸出，可將結果收集至 `StringBuilder`。
+
+### 若非同步呼叫永遠不回傳怎麼辦？
+
+通常是記憶體不足或影像損毀所致。請將呼叫包在 `try/catch` 中，並使用 `Task.WhenAny` 設定逾時機制：
+
+```csharp
+var recognitionTask = ocrEngine.RecognizeAsync();
+if (await Task.WhenAny(recognitionTask, Task.Delay(5000)) == recognitionTask)
+{
+    // success path
+}
+else
+{
+    Console.WriteLine("Recognition timed out.");
+}
+```
+
+## 效能建議
+
+- **重複使用 OCR engine** 於批次處理多張影像時，可減少建立引擎的開銷。  
+- **將大型影像縮小至最大寬度 2000 px** 再送入引擎，可加速分析且不影響準確度。  
+- **啟用硬體加速**（若授權允許）只需設定 `ocrEngine.UseGpu = true;`。
 
 ## 結論
 
-您現在已了解如何在 C# 中使用 Aspose OCR 的非同步 API **extract text from image** 檔案。透過處理影像載入、掃描影像的可選轉換以及 TIF 檔案的特殊情況，此解決方案既穩健又可直接投入生產。  
+現在你已掌握一個完整的範例，示範如何在 C# 中使用 Aspose OCR **extract text from image**。透過學會 **load image for OCR**、**create OCR engine**，以及執行 `RecognizeAsync()`，你可以將可靠的文字提取功能整合至桌面應用、Web 服務或背景工作者中。
 
-接下來您可以：
+準備好進一步挑戰了嗎？試著改用 PDF、切換不同語言，或將 OCR 輸出導入搜尋索引。可能性幾乎無限，而使用非同步模式更能避免阻塞主執行緒，讓繁重工作在背後順暢完成。
 
-* **Convert scanned image** PDF 轉為 PNG 後再進行 OCR，可提升準確度。  
-* 探索 **how to ocr image** 直接從 Web API 串流的方式，省去暫存檔案的需求。  
-* 在 `Parallel.ForEach` 迴圈中重複使用 `OcrEngine` 實例，以批次處理數十個檔案。  
-
-試試看這些變化，您將快速體會非同步 OCR 為大量文件應用帶來的顛覆性效益。祝開發順利，如有任何問題，歡迎留下評論！
+祝程式開發順利，願你的影像總是足夠清晰，讓 OCR 精準無誤！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
