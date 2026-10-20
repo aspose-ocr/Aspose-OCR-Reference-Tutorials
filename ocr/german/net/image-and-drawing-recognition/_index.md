@@ -73,6 +73,14 @@ Entfesseln Sie das Potenzial von Aspose.OCR für .NET beim Erkennen von Zeilen i
 
 ### [OCR auf Bild in der OCR‑Bilderkennung durchführen](./perform-ocr-on-image/)
 Entdecken Sie die Magie von OCR mit Aspose.OCR für .NET und extrahieren Sie Text mühelos aus Bildern. Erkunden Sie das Tutorial für nahtlose Integration.
+### [Formulare aktivieren und Tabellen mit OCR in C# extrahieren – Komplett‑Leitfaden](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Erfahren Sie, wie Sie Formulare aktivieren und Tabellen mit OCR in C# extrahieren – vollständige Anleitung.
+### [Tabelle als CSV speichern in C# – Vollständiger Aspose OCR Leitfaden](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR Tabellen extrahieren und als CSV-Datei in C# speichern.
+### [Tabellen aus Bildern mit Aspose OCR extrahieren (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Erfahren Sie, wie Sie Tabellen aus Bilddateien mit Aspose OCR für .NET extrahieren und weiterverarbeiten.
+### [Excel aus Bild mit C# erstellen – Vollständiger Aspose OCR Leitfaden](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR und C# ein Excel‑Dokument aus Bilddaten generieren.
 
 ### [Tabellen aus Bild mit Aspose OCR extrahieren – Vollständiger C#‑Leitfaden](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Entdecken Sie, wie Sie Tabellen aus Bildern extrahieren und in strukturierte Daten umwandeln – Schritt‑für‑Schritt‑Anleitung in C#.

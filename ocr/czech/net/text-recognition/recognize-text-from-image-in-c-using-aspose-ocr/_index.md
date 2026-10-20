@@ -1,44 +1,24 @@
 ---
 category: general
-date: 2026-05-31
-description: Naučte se rozpoznávat text z obrázku v C# pomocí Aspose OCR, včetně toho,
-  jak extrahovat text z TIFF souborů a efektivně načítat obrázek pro OCR.
+date: 2026-02-24
+description: Rozpoznávejte text z obrázku pomocí Aspose OCR v C#. Naučte se, jak extrahovat
+  text z PNG, načíst model ONNX v C# a extrahovat text pomocí Aspose během několika
+  kroků.
 draft: false
 keywords:
 - recognize text from image
-- extract text from tiff
-- load image for OCR
-- Aspose OCR C#
-- GPU accelerated OCR
+- how to extract text from png
+- load onnx model c#
+- extract text using aspose
 language: cs
-og_description: Krok za krokem průvodce rozpoznáváním textu z obrázku pomocí Aspose
-  OCR, zahrnující extrakci z TIFF a správné načtení obrázku pro OCR.
-og_title: rozpoznat text z obrázku v C# pomocí Aspose OCR
-schemas:
-- author: Aspose
-  dateModified: '2026-05-31'
-  description: Learn how to recognize text from image in C# with Aspose OCR, including
-    how to extract text from tiff files and load image for OCR efficiently.
-  headline: recognize text from image in C# using Aspose OCR
-  type: TechArticle
-- questions:
-  - answer: Reduce its resolution before feeding it to the engine, or increase `GpuMemoryLimit`
-      if you have enough VRAM.
-    question: What if the image is huge (over 10 MB)?
-  - answer: Absolutely. Just reuse the same `OcrEngine` instance and assign a new
-      `ImageStream` each iteration.
-    question: Can I process multiple images in a loop?
-  - answer: '`OcrEngine` implements `IDisposable`. Wrap it in a `using` block for
-      clean resource management, especially when working with GPU resources.'
-    question: Do I need to dispose of anything?
-  - answer: Set `engine.Language = OcrLanguage.Spanish` (or any supported language)
-      before calling `Recognize()`.
-    question: What about languages other than English?
-  type: FAQPage
+og_description: Rychle rozpoznávejte text z obrázku. Tento průvodce ukazuje, jak extrahovat
+  text z PNG, načíst ONNX model v C# a použít Aspose OCR pro bezchybné výsledky.
+og_title: Rozpoznat text z obrázku v C# – Kompletní průvodce Aspose OCR
 tags:
-- OCR
+- Aspose OCR
 - C#
-- Aspose
+- ONNX
+- Image processing
 title: Rozpoznat text z obrázku v C# pomocí Aspose OCR
 url: /cs/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 ---
@@ -47,184 +27,212 @@ url: /cs/net/text-recognition/recognize-text-from-image-in-c-using-aspose-ocr/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# rozpoznání textu z obrázku v C# pomocí Aspose OCR
+# rozpoznat text z obrázku v C# pomocí Aspose OCR
 
-Už jste někdy potřebovali **rozpoznat text z obrázku**, ale nevedeli ste, kde v C# začít? Nejste sami — mnoho vývojářů narazí na tuto překážku při práci s naskenovanými dokumenty nebo více‑stránkovými TIFFy. V tomto průvodci vás provedeme kompletním, připraveným příkladem, který **rozpozná text z obrázku** pomocí knihovny Aspose OCR, a také vám ukážeme, jak **extrahovat text z tiff** a nejlepší způsob, jak **načíst obrázek pro OCR**, aniž byste si trhali vlasy.
+Už jste někdy potřebovali **rozpoznat text z obrázku**, ale nebyli jste si jisti, která knihovna zvládne vlastní font? Nejste v tom sami — mnoho vývojářů narazí na tento problém, když PNG obsahuje proprietární typ písma, který výchozí OCR enginy nečtou.  
 
-Probereme vše od instalace NuGet balíčku až po práci s akcelerací GPU a přepnutím na CPU, pokud je to potřeba. Na konci tohoto tutoriálu budete mít konzolovou aplikaci, která vypíše rozpoznaný text a dobu zpracování — žádné chybějící části, žádné vágní odkazy.
+V tomto tutoriálu vám ukážeme přesně **jak extrahovat text z png** pomocí Aspose OCR, načíst ONNX model ve stylu C# a nakonec **extrahovat text pomocí Aspose** přímo ve vašem IDE. Na konci budete mít připravenou konzolovou aplikaci, která vytiskne rozpoznaný řetězec do konzole.
 
-## Co si vytvoříte
+## Co se naučíte
 
-- Jednoduchou .NET konzolovou aplikaci, která načte obrázek (včetně více‑stránkového TIFF)  
-- OCR engine nastavený pro využití GPU, s elegantním přepnutím na CPU  
-- Extrakci prostého textu z obrázku, vytištěnou do konzole  
-- Informace o čase, abyste viděli dopad výkonu GPU vs. CPU  
+- Jak nainstalovat a odkazovat na NuGet balíček Aspose.OCR.  
+- Jak nasměrovat OCR engine na vlastní ONNX model (`načíst onnx model c#`).  
+- Jak spustit engine proti PNG souboru (`jak extrahovat text z png`).  
+- Tipy pro řešení běžných problémů (např. problémy s cestou k modelu, zvláštnosti formátu obrázku).  
 
-**Požadavky**
+Předchozí zkušenost s ONNX není vyžadována; stačí základní znalost C# a .NET.
 
-- .NET 6 SDK nebo novější (kód funguje s .NET Core i .NET Framework)  
-- Základní znalost C# a práce s příkazovým řádkem  
-- Připojení k internetu pro stažení NuGet balíčku Aspose.OCR  
+---
 
-Pokud máte vše připravené, pojďme na to.
+## Předpoklady
 
-![C# kód pro rozpoznání textu z obrázku pomocí Aspose OCR](image.png "C# kód pro rozpoznání textu z obrázku pomocí Aspose OCR")
+| Požadavek | Proč je důležitý |
+|-----------|-------------------|
+| .NET 6.0 SDK (nebo novější) | Poskytuje runtime pro konzolovou aplikaci. |
+| Visual Studio 2022 nebo VS Code | Usnadňuje úpravy a ladění. |
+| Aspose.OCR NuGet balíček (`Install-Package Aspose.OCR`) | Dodává třídu `OcrEngine` a související třídy. |
+| Vlastní ONNX model (`*.onnx`), který zná váš speciální font | Bez něj engine přejde na generický model a může postrádat znaky. |
+| Ukázkový PNG obrázek používající vlastní font | To je soubor, na který budeme OCR aplikovat. |
 
-## Krok 1 – Rozpoznání textu z obrázku: Nastavení OCR engine
+Pokud už tyto součásti máte, skvěle — přejděme rovnou kód.
 
-Nejprve potřebujeme instanci `OcrEngine`. Aspose OCR vám umožní vybrat zařízení pro zpracování — GPU pro rychlost, CPU jako záložní možnost. Engine také přijímá nápovědu pro limit paměti, což může být užitečné na sdílených strojích.
+---
+
+## Krok 1: Nastavte projekt a přidejte Aspose.OCR
+
+Aby vše bylo přehledné, vytvořte nový konzolový projekt:
+
+```bash
+dotnet new console -n AsposeOcrDemo
+cd AsposeOcrDemo
+dotnet add package Aspose.OCR
+```
+
+> **Pro tip:** Použijte přepínač `--framework net6.0`, pokud chcete projekt explicitně zamknout na .NET 6.
+
+Tento příkaz stáhne nejnovější Aspose OCR binárky a zpřístupní jmenný prostor `using Aspose.OCR;`.
+
+---
+
+## Krok 2: Načtěte ONNX model v C# (načíst onnx model c#)
+
+Nyní řekneme OCR engine, aby použil náš vlastní model. Vlastnost `OcrSettings.CustomModelPath` očekává absolutní nebo relativní cestu k souboru `.onnx`.
 
 ```csharp
 using System;
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using Aspose.OCR.Settings;
 
-class Program
+namespace AsposeOcrDemo
 {
-    static void Main()
+    class Program
     {
-        // Create the OCR engine and request GPU acceleration.
-        // If no compatible GPU is found, Aspose silently falls back to CPU.
-        OcrEngine engine = new OcrEngine
+        static void Main(string[] args)
         {
-            Device = OcrDevice.Gpu,      // Try GPU first
-            GpuMemoryLimit = 1024        // Optional: cap GPU memory usage (MB)
-        };
+            // -----------------------------------------------------------------
+            // 1️⃣ Create the OCR engine instance
+            // -----------------------------------------------------------------
+            OcrEngine ocrEngine = new OcrEngine();
+
+            // -----------------------------------------------------------------
+            // 2️⃣ Point the engine at your custom ONNX model
+            // -----------------------------------------------------------------
+            ocrEngine.Settings = new OcrSettings
+            {
+                // Replace with the real location of your model file
+                CustomModelPath = @"YOUR_DIRECTORY/my_special_font.onnx"
+            };
 ```
 
-**Proč je to důležité:**  
-Volba `OcrDevice.Gpu` může u velkých obrázků, zejména více‑stránkových TIFFů, ušetřit sekundy. `GpuMemoryLimit` zabraňuje tomu, aby vaše aplikace spotřebovala veškerou GPU paměť na sdílené pracovní stanici.
+> **Proč je to důležité:** Načtením vlastního ONNX modelu poskytnete engine znalost přesných tvarů glyfů, se kterými se setká, což dramaticky zvyšuje přesnost.
 
-## Krok 2 – Načtení obrázku pro OCR (včetně podpory TIFF)
+---
 
-Nyní předáme engine obrázek. `ImageStream.FromFile` od Aspose přijímá **jakýkoli** formát, který knihovna podporuje — TIFF, PNG, JPEG, atd. Tento krok přímo řeší požadavek **načíst obrázek pro OCR**.
+## Krok 3: Rozpoznat text z PNG obrázku (jak extrahovat text z png)
 
-```csharp
-        // Load the image you want to process.
-        // Replace the path with the actual location of your TIFF or other image.
-        engine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/sample_multi_page.tif");
-```
-
-**Tip:** Pokud pracujete s více‑stránkovým TIFFem, Aspose automaticky zachází s každou stránkou jako s odděleným rámcem a engine je zpracuje sekvenčně. Žádný další kód není potřeba.
-
-## Krok 3 – Spuštění rozpoznání a **extrakce textu z tiff**
-
-S připraveným enginem a načteným obrázkem spustíme operaci OCR. Metoda `Recognize` vrací `OcrResult`, který obsahuje prostý text, skóre důvěry a podrobnosti o čase.
+Po nastavení engine můžeme načíst PNG. Metoda `RecognizeImage` vrací `OcrResult`, který obsahuje čistý textový výstup.
 
 ```csharp
-        // Perform the OCR operation.
-        OcrResult result = engine.Recognize();
-```
+            // -----------------------------------------------------------------
+            // 3️⃣ Recognize text from the PNG that uses the custom font
+            // -----------------------------------------------------------------
+            string imagePath = @"YOUR_DIRECTORY/custom_font_image.png";
 
-**Zvládání okrajových případů:**  
-Pokud není GPU k dispozici, `engine.Recognize()` stále funguje, protože engine tiše přepne na CPU. Po rozpoznání můžete zkontrolovat `engine.Device`, pokud potřebujete zaznamenat, které zařízení bylo skutečně použito.
+            // The engine will automatically detect the image format.
+            OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
 
-## Krok 4 – Získání rozpoznaného prostého textu
-
-Extrahování textu je jednoduché — stačí přečíst vlastnost `Text`. Zde konečně **extrahujete text z tiff** (nebo jakéhokoli jiného obrázku) a předáte jej uživateli.
-
-```csharp
-        // Output the plain text that was extracted.
-        Console.WriteLine($"Text:\n{result.Text}");
-```
-
-Uvidíte surové znaky, přičemž zalomení řádků jsou zachována tak, jak jsou v původním obrázku. Pro strukturovanější výstup (např. JSON nebo CSV) můžete prozkoumat `result.Regions` a `result.Lines`, ale prostý text obvykle stačí pro rychlé skripty.
-
-## Krok 5 – Měření doby zpracování a ošetření přepnutí na GPU
-
-Výkon je důležitý, zejména když zpracováváte desítky stránek. Vlastnost `ProcessingTime` vám přesně řekne, jak dlouho OCR trvalo, ať už běželo na GPU nebo CPU.
-
-```csharp
-        // Show how long the recognition took.
-        Console.WriteLine($"Time elapsed: {result.ProcessingTime.TotalSeconds}s");
+            // -----------------------------------------------------------------
+            // 4️⃣ Show the result in the console
+            // -----------------------------------------------------------------
+            Console.WriteLine("=== Recognized Text ===");
+            Console.WriteLine(ocrResult.Text);
+        }
     }
 }
 ```
 
-**Proč by vás to mělo zajímat:**  
-Pokud si všimnete, že čas roste, můžete upravit `GpuMemoryLimit` nebo výslovně přepnout na CPU (`Device = OcrDevice.Cpu`). Naopak, výsledek pod sekundu u velkého TIFFu znamená, že akcelerace GPU dělá svou práci.
+### Očekávaný výstup
 
-## Kompletní, připravený příklad
+Pokud obrázek obsahuje frázi „Hello World“ vykreslenou ve vašem speciálním fontu, měla by konzole zobrazit:
 
-Zkopírujte níže uvedený kód do nového konzolového projektu (`dotnet new console -n OcrDemo`) a spusťte `dotnet add package Aspose.OCR`. Pak nahraďte `YOUR_DIRECTORY/sample_multi_page.tif` cestou k vašemu obrázku.
+```
+=== Recognized Text ===
+Hello World
+```
+
+Pokud uvidíte nesmyslné znaky, zkontrolujte, že soubor modelu odpovídá stylu písma a že PNG není poškozený.
+
+---
+
+## Krok 4: Běžné okrajové případy a jak je opravit
+
+### Cesta k modelu nebyla nalezena
+> *„Systém nemůže najít zadaný soubor.“*
+
+- Ujistěte se, že cesta používá dvojité zpětné lomítko (`\\`) ve Windows nebo verbatim řetězec (`@"C:\cesta\k\model.onnx"`).  
+- Ověřte, že soubor je zkopírován do výstupní složky (`<Project>/bin/Debug/net6.0/`). Můžete to přidat do svého `.csproj`:
+
+```xml
+<ItemGroup>
+  <None Update="my_special_font.onnx">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+```
+
+### Nízká přesnost u nízkorozlišovacích PNG
+- Před předáním engine upscaleujte obrázek alespoň na 300 DPI.  
+- Použijte `ocrEngine.Settings.Dpi = 300;`, aby Aspose provedl škálování interně.
+
+### Nepodporovaný formát obrázku
+Aspose OCR podporuje PNG, JPEG, BMP, TIFF a GIF. Pokud máte jiný formát, nejprve jej převeďte (např. pomocí `System.Drawing` nebo `ImageSharp`).
+
+---
+
+## Krok 5: Kompletní funkční příklad (veškerý kód na jednom místě)
+
+Níže je kompletní program připravený ke zkopírování a vložení. Nahraďte zástupné cesty vašimi skutečnými adresáři.
 
 ```csharp
+// ---------------------------------------------------------------
+// Full Example: recognize text from image using Aspose OCR
+// ---------------------------------------------------------------
 using System;
 using Aspose.OCR;
-using Aspose.OCR.Models;
+using Aspose.OCR.Settings;
 
-class Program
+namespace AsposeOcrDemo
 {
-    static void Main()
+    class Program
     {
-        // Step 1: Initialize the OCR engine with GPU preference.
-        OcrEngine engine = new OcrEngine
+        static void Main(string[] args)
         {
-            Device = OcrDevice.Gpu,
-            GpuMemoryLimit = 1024
-        };
+            // 1️⃣ Create the OCR engine
+            OcrEngine ocrEngine = new OcrEngine();
 
-        // Step 2: Load image for OCR (supports TIFF, PNG, JPEG, etc.).
-        engine.Image = ImageStream.FromFile(@"YOUR_DIRECTORY/sample_multi_page.tif");
+            // 2️⃣ Load your custom ONNX model (load onnx model c#)
+            ocrEngine.Settings = new OcrSettings
+            {
+                CustomModelPath = @"YOUR_DIRECTORY/my_special_font.onnx"
+            };
 
-        // Step 3: Run recognition – this will also **extract text from tiff**.
-        OcrResult result = engine.Recognize();
+            // 3️⃣ Recognize text from a PNG (how to extract text from png)
+            string imagePath = @"YOUR_DIRECTORY/custom_font_image.png";
+            OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
 
-        // Step 4: Retrieve and display the recognized plain text.
-        Console.WriteLine($"Text:\n{result.Text}");
-
-        // Step 5: Display how long the operation took.
-        Console.WriteLine($"Time elapsed: {result.ProcessingTime.TotalSeconds}s");
+            // 4️⃣ Output the recognized string (extract text using aspose)
+            Console.WriteLine("=== Recognized Text ===");
+            Console.WriteLine(ocrResult.Text);
+        }
     }
 }
 ```
 
-**Očekávaný výstup (zkrácený pro stručnost):**
+Program spusťte pomocí:
 
-```
-Text:
-Invoice #12345
-Date: 2026-05-01
-Total: $1,250.00
-...
-Time elapsed: 1.42s
+```bash
+dotnet run
 ```
 
-Pokud váš počítač nemá výkonnou GPU, může být uplynulý čas o několik sekund delší, ale text bude stále správně extrahován.
+Měli byste vidět rozpoznaný text vytištěný do konzole, což potvrzuje, že **rozpoznat text z obrázku** funguje od začátku do konce.
 
-## Časté otázky a úskalí
+---
 
-- **Co když je obrázek obrovský (více než 10 MB)?**  
-  Snižte jeho rozlišení před předáním enginu, nebo zvýšte `GpuMemoryLimit`, pokud máte dostatek VRAM.  
-- **Mohu zpracovávat více obrázků v cyklu?**  
-  Rozhodně. Stačí znovu použít stejnou instanci `OcrEngine` a při každé iteraci přiřadit nový `ImageStream`.  
-- **Musím něco uvolňovat?**  
-  `OcrEngine` implementuje `IDisposable`. Zabalte jej do `using` bloku pro čistou správu zdrojů, zejména při práci s GPU prostředky.  
+## Bonus: Vizuální pomůcka
 
-```csharp
-using (OcrEngine engine = new OcrEngine { Device = OcrDevice.Gpu })
-{
-    // ... same steps as before
-}
-```
+![Diagram showing the flow from PNG → Custom ONNX Model → Aspose OCR Engine → Console Output](https://example.com/ocr-flow.png "recognize text from image flow diagram")
 
-- **Co jazykové varianty kromě angličtiny?**  
-  Nastavte `engine.Language = OcrLanguage.Spanish` (nebo jakýkoli podporovaný jazyk) před voláním `Recognize()`.  
+*Alt text:* *diagram ukazující tok od PNG → Vlastní ONNX model → Aspose OCR engine → Výstup do konzole.*
+
+---
 
 ## Závěr
 
-Nyní máte kompletní, end‑to‑end řešení, které **rozpozná text z obrázku** v C# pomocí Aspose OCR. Tutoriál ukázal, jak **načíst obrázek pro OCR**, jak **extrahovat text z tiff**, a jak měřit výkon při elegantním přepínání mezi GPU a CPU.
+Nyní máte solidní, připravený recept na **rozpoznání textu z obrázku** v C# s Aspose OCR. Načtením vlastního ONNX modelu jste získali schopnost **extrahovat text z png** souborů, které používají specifické fonty, a viděli jste přesně **jak extrahovat text pomocí Aspose** bez jakýchkoli dalších komplikací.
 
-Odtud můžete:
+Co dál? Vyzkoušejte výměnu ONNX modelu za jiný jazyk, experimentujte s vícestránkovými TIFF, nebo integrujte OCR volání do webového API, abyste mohli zpracovávat nahrané soubory za běhu. Stejný vzor — vytvořit engine, nastavit `CustomModelPath`, zavolat `RecognizeImage` — platí ve všech těchto scénářích.
 
-- Experimentovat s různými formáty obrázků (BMP, PDF) a sledovat, jak je Aspose zpracuje.  
-- Prozkoumat `result.Regions` pro data o ohraničujících rámečcích, pokud potřebujete rozvržení‑citlivé informace.
-
-## Co byste se měli naučit dál?
-
-- [How to Use Aspose to Recognize Image from Stream in OCR Image Recognition](/ocr/english/net/image-and-drawing-recognition/recognize-image-from-stream/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
-- [Extract Text from Image – Recognize Line with Aspose.OCR](/ocr/english/net/image-and-drawing-recognition/recognize-line/)
+Máte otázky ohledně konverze modelu, ladění výkonu nebo licencování? Zanechte komentář níže a šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

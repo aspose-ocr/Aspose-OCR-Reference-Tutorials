@@ -1,46 +1,23 @@
 ---
 category: general
-date: 2026-05-31
-description: Aspose OCR を使用した C# でのバッチ OCR の方法。画像をテキストに変換し、画像からテキストを抽出し、複数ファイルを効率的に処理する方法を学びましょう。
+date: 2026-03-13
+description: Aspose.OCR を使用して TIFF ファイルからテキストを抽出する方法を学びながら、バッチ OCR を迅速かつ確実に実行する方法。ステップバイステップのチュートリアルをご覧ください。
 draft: false
 keywords:
 - how to batch OCR
-- convert images to text
-- extract text from images
-- OCR multiple files
-- batch OCR processing
+- extract text from tiff
+- Aspose OCR batch processing
+- C# OCR automation
+- GPU accelerated OCR
 language: ja
-og_description: Aspose OCR を使用した C# でのバッチ OCR の方法。画像をテキストに変換し、画像からテキストを抽出し、複数ファイルの
-  OCR を簡単に処理します。
-og_title: C#でバッチOCRを行う方法 – 完全プログラミングガイド
-schemas:
-- author: Aspose
-  dateModified: '2026-05-31'
-  description: How to batch OCR in C# with Aspose OCR. Learn to convert images to
-    text, extract text from images, and process multiple files efficiently.
-  headline: How to Batch OCR in C# – Complete Programming Guide
-  type: TechArticle
-- description: How to batch OCR in C# with Aspose OCR. Learn to convert images to
-    text, extract text from images, and process multiple files efficiently.
-  name: How to Batch OCR in C# – Complete Programming Guide
-  steps:
-  - name: '**.NET 6 SDK** (or later) installed – the latest runtime gives you better
-      performance and native support for async I/O.'
-    text: '**.NET 6 SDK** (or later) installed – the latest runtime gives you better
-      performance and native support for async I/O.'
-  - name: '**Visual Studio 2022** (Community Edition works fine) or any editor you
-      like.'
-    text: '**Visual Studio 2022** (Community Edition works fine) or any editor you
-      like.'
-  - name: 'The **Aspose.OCR** NuGet package. Install it via the Package Manager Console:'
-    text: 'The **Aspose.OCR** NuGet package. Install it via the Package Manager Console:'
-  type: HowTo
+og_description: C#でバッチOCRを実行し、Aspose.OCRを使用してTIFFファイルからテキストを抽出する方法を学びましょう。このガイドでは、セットアップ、コード、ベストプラクティスのヒントをカバーしています。
+og_title: C#でOCRをバッチ処理する方法 – 完全プログラミングガイド
 tags:
 - OCR
 - C#
 - Aspose
-- batch-processing
-title: C#でバッチOCRを行う方法 – 完全プログラミングガイド
+- Batch processing
+title: C#でOCRをバッチ処理する方法 – 完全プログラミングガイド
 url: /ja/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
 
@@ -48,136 +25,182 @@ url: /ja/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#でバッチOCRを行う方法 – 完全プログラミングガイド
+# C# でバッチ OCR を実行する方法 – 完全プログラミングガイド
 
-スキャンした画像が入ったフォルダー全体を、手動でファイルを開くことなく **バッチOCR** したいと思ったことはありませんか？ あなただけではありません。実務の多くのプロジェクト—たとえば請求書の自動化や歴史的写真のアーカイブ—では、**画像をテキストに変換** する必要があり、1枚ずつ処理するのは膨大な時間がかかります。
+膨大なスキャン済み請求書を、ファイルごとに別々のスクリプトを書かずに **バッチ OCR** したいと思ったことはありませんか？ あなただけではありません。実務プロジェクトの多くで問題になるのは OCR の精度そのものではなく、検索可能なテキストに変換しなければならない画像（主に TIFF）の量です。
 
-このチュートリアルでは、ソースディレクトリ内のすべての PNG、JPG、TIFF を取得し、Aspose OCR で処理し、対応する *.txt* ファイルを出力フォルダーに保存する、すぐに実行できる C# コンソール アプリの作成手順を解説します。最後まで読むと、**画像からテキストを抽出** する方法、**複数ファイルのOCR** の扱い方、そして後で必要になる **バッチOCR処理** の土台をしっかり身につけられます。
+このチュートリアルでは、Aspose.OCR の `BatchProcessor` を使って **バッチ OCR** を実行する方法と、**tiff からテキストを抽出** する方法を、シンプルでクリーンな一連の手順で解説します。最終的に、フォルダー全体を処理し、オプションで GPU 加速を利用し、結果のプレーンテキストを任意の場所に出力するコンソールアプリが完成します。
 
-## 学べること
+## 必要なもの
 
-- Aspose OCR NuGet パッケージを使用した .NET プロジェクトのセットアップ方法。  
-- **バッチOCR** 実行のためのソースフォルダーと出力フォルダーの定義方法。  
-- 対応画像タイプを列挙し、OCR エンジンに渡す手順。  
-- 認識したテキストを個別の *.txt* ファイルに書き出し、実質的に **画像をテキストに変換** する方法。  
-- フォルダーが存在しない、未対応フォーマット、パフォーマンス調整などの一般的な落とし穴への対処法。
+- **.NET 6+**（または従来のランタイムが必要なら .NET Framework 4.7.2）  
+- **Aspose.OCR for .NET** – `dotnet add package Aspose.OCR` で NuGet パッケージを取得できます。  
+- 読み取り対象の **TIFF** 画像が入ったフォルダー（本チュートリアルでは `Invoices` を例に使用）  
+- オプション: DirectX 11 または CUDA に対応した GPU（処理速度を上げたい場合）
 
-Aspose の事前経験は不要です。C# と Visual Studio の基本がわかっていればすぐに始められます。
+余計なサービスやクラウドキーは不要です。ローカルの C# プロジェクトと Aspose ライブラリだけで完結します。
 
----
+## 手順 1: プロジェクトを作成し Aspose.OCR をインストール
 
-![バッチOCR処理のフローを示す図（画像フォルダーからテキスト出力へ）](/images/batch-ocr-flow.png){alt="バッチOCRフローダイアグラム"}
+まず、コンソールアプリを作成します。
 
-## バッチOCRの設定 – プロジェクトのセットアップ
-
-コードに入る前に、以下を用意してください。
-
-1. **.NET 6 SDK**（またはそれ以降）をインストール – 最新のランタイムはパフォーマンスが向上し、async I/O のネイティブサポートが利用できます。  
-2. **Visual Studio 2022**（Community エディションで問題ありません）またはお好みのエディター。  
-3. **Aspose.OCR** NuGet パッケージ。Package Manager Console からインストールします：
-
-   ```powershell
-   Install-Package Aspose.OCR
-   ```
-
-以上です。このチュートリアルの残りは、パッケージが正しく参照されていることを前提に進めます。
-
-## ステップ2: ソースと出力フォルダーの準備（画像をテキストに変換）
-
-まず、原画像を格納するフォルダーと、生成された *.txt* ファイルを保存するフォルダーの 2 つが必要です。以下のコードは、出力フォルダーが存在しない場合に自動で作成します—手動で作業する必要はありません。
-
-```csharp
-// Define where the images live and where the text files will go
-string sourceFolder = @"C:\OCR\Batch";
-string outputFolder = @"C:\OCR\BatchTxt";
-
-// Ensure the output directory exists; CreateDirectory is idempotent
-Directory.CreateDirectory(outputFolder);
+```bash
+dotnet new console -n BatchOcrDemo
+cd BatchOcrDemo
+dotnet add package Aspose.OCR
 ```
 
-> **なぜ重要か:** `CreateDirectory` 呼び出しを省くと、最初のテキストファイルを書き込もうとした瞬間に `DirectoryNotFoundException` がスローされます。事前にディレクトリを作成しておくことで、バッチOCRプロセスの堅牢性が向上します。
+> **プロのコツ:** Windows 環境で GPU 加速を利用する場合は、最新のグラフィックドライバーがインストールされていることを確認してください。そうでないと `UseGpu = true` フラグは自動的に CPU にフォールバックします。
 
-## ステップ3: OCR用の画像ファイルを列挙（複数ファイル）
+## 手順 2: BatchProcessor の設定を作成
 
-次に、サポートしている形式に一致するすべてのファイルを取得します。LINQ を使うことでコードを簡潔に保ちつつ、可読性も確保できます。
-
-```csharp
-// Grab all PNG, JPG, and TIFF files from the source folder (non‑recursive)
-var imageFiles = Directory.EnumerateFiles(sourceFolder, "*.*", SearchOption.TopDirectoryOnly)
-    .Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
-                f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase));
-```
-
-> **ヒント:** 後で PDF や BMP を扱う必要が出たら、`Where` 句に条件を追加するだけです。フィルタを一箇所にまとめておくと、将来的な変更が楽になります。
-
-## ステップ4: 各画像でOCRエンジンを実行（バッチOCRの方法）
-
-本題です。各画像を Aspose OCR に渡し、認識されたテキストを取得します。以下のループはファイルごとに新しい `OcrEngine` インスタンスを生成するため、前の画像のメモリが次の画像処理前に解放されます。
-
-```csharp
-foreach (var imagePath in imageFiles)
-{
-    // Initialize the OCR engine with the current image
-    OcrEngine ocrEngine = new OcrEngine
-    {
-        Image = ImageStream.FromFile(imagePath)
-    };
-
-    // Perform recognition; Recognize() returns an OcrResult object
-    OcrResult ocrResult = ocrEngine.Recognize();
-
-    // Build the output .txt file path (same base name, .txt extension)
-    string textFilePath = Path.Combine(outputFolder,
-        Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-    // Persist the extracted text
-    File.WriteAllText(textFilePath, ocrResult.Text);
-
-    Console.WriteLine($"Processed {Path.GetFileName(imagePath)} → {Path.GetFileName(textFilePath)}");
-}
-```
-
-**何が起きているか？**  
-
-- `ImageStream.FromFile` は画像を Aspose が読み取れるストリームにロードします。  
-- `ocrEngine.Recognize()` が実際の OCR アルゴリズムを実行し、結果は `ocrResult.Text` の文字列として返ります。  
-- `File.WriteAllText` がその文字列をディスクに書き込み、実質的に **画像からテキストを抽出** します。
-
-### エッジケースの処理
-
-- **破損した画像** – 認識呼び出しを `try/catch` で囲み、失敗をログに残して次のファイルへ進めます。  
-- **大規模バッチ** – マルチコアマシンを使用している場合は、`Parallel.ForEach` で非同期に処理すると効果的です。  
-- **異なる言語** – `ocrEngine.Language = Language.English;` のように、`Recognize()` を呼び出す前に対象言語を設定します。
-
-## ステップ5: 抽出したテキストを保存（画像からテキストを抽出）
-
-前のスニペットですでに OCR 出力は保存していますが、ロジックをヘルパーメソッドに切り出してみましょう。これによりメインループがすっきりし、再利用性が高まります。
-
-```csharp
-static void SaveOcrResult(string outputFolder, string imagePath, string recognizedText)
-{
-    string textFilePath = Path.Combine(outputFolder,
-        Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-    File.WriteAllText(textFilePath, recognizedText);
-}
-```
-
-その後、インラインの `File.WriteAllText` 呼び出しを次のように置き換えます：
-
-```csharp
-SaveOcrResult(outputFolder, imagePath, ocrResult.Text);
-```
-
-> **なぜメソッドに分離するのか？** 認識処理と永続化処理を分離でき、トリミングやタイムスタンプ付加などの後処理を一箇所で実装できるようになります。
-
-## 完全動作例 – C#でのバッチOCR処理
-
-すべての部品を組み合わせた、すぐにコピー＆ペーストして新しいコンソール アプリ プロジェクトで実行できる自己完結型プログラムを示します。
+次に `BatchProcessor` を設定します。これが **バッチ OCR** の中心で、使用言語、前処理フィルタ、GPU の有無を指定します。
 
 ```csharp
 using Aspose.OCR;
+using Aspose.OCR.Batch;
+
+namespace BatchOcrDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 2: Configure the batch processor
+            // -------------------------------------------------
+            BatchProcessor batchProcessor = new BatchProcessor
+            {
+                // Primary language – English works for most invoices
+                Language = Language.English,
+
+                // Set to true if you have a compatible GPU; otherwise false
+                UseGpu = true,
+
+                // Optional pre‑processing to improve OCR accuracy
+                PreProcessingFilters = new FilterPipeline
+                {
+                    new DeskewFilter(),   // straightens tilted scans
+                    new DespeckleFilter() // removes speckles and noise
+                }
+            };
+```
+
+**なぜこの設定か？**  
+- `Language = Language.English` は英語モデルを使用するようエンジンに指示し、汎用モデルよりはるかに精度が高くなります。  
+- `UseGpu` は適切な GPU があれば処理時間を半分に短縮できますが、ノートパソコンなど GPU が無い環境では `false` のままで問題ありません。  
+- フィルタパイプラインは、人が行うようにページを整列させ、斑点を除去してから OCR エンジンに渡す流れを再現しています。
+
+## 手順 3: TIFF フォルダーをプロセッサに指定
+
+**バッチ OCR** の次のステップは、ライブラリにソースファイルの場所を教えることです。ワイルドカードがサポートされているので、`.tif` ファイルを一括で取得できます。
+
+```csharp
+            // -------------------------------------------------
+            // Step 3: Add the folder containing TIFF images
+            // -------------------------------------------------
+            // Replace YOUR_DIRECTORY with the actual path on your machine
+            batchProcessor.AddFolder(@"C:\Data\Invoices", "*.tif");
+```
+
+> **エッジケース:** 画像の拡張子が混在している場合（`.tiff`, `.tif`, `.png` など）、`AddFolder` を複数回呼び出すか、`*.*` を指定してコード内でフィルタリングしてください。
+
+## 手順 4: OCR 結果の出力先を選択
+
+「抽出したテキストはどこに保存されるのか？」と疑問に思うかもしれません。これが **バッチ OCR** の第3の柱で、出力先と形式を定義します。ここではプレーンテキストファイルを元画像と同じフォルダーに保存します。
+
+```csharp
+            // -------------------------------------------------
+            // Step 4: Define output folder and format
+            // -------------------------------------------------
+            batchProcessor.OutputFolder = @"C:\Data\Output";
+            batchProcessor.OutputFormat = OutputFormat.PlainText;
+```
+
+プレーンテキストの代わりに JSON や XML が欲しい場合は、`OutputFormat.PlainText` を `OutputFormat.Json` または `OutputFormat.Xml` に置き換えるだけです。ライブラリが自動で変換してくれます。
+
+## 手順 5: バッチジョブを実行し結果をレポート
+
+最後にジョブを開始します。`Execute` メソッドは全ファイルの処理が完了するまでブロックし、`ProcessedCount` で成功件数を確認できます。
+
+```csharp
+            // -------------------------------------------------
+            // Step 5: Execute the batch job
+            // -------------------------------------------------
+            batchProcessor.Execute();
+
+            // Simple verification output
+            Console.WriteLine($"\nBatch completed. Processed files: {batchProcessor.ProcessedCount}");
+            Console.WriteLine("Check C:\\Data\\Output for .txt files containing extracted text.");
+        }
+    }
+}
+```
+
+### 期待される出力
+
+プログラムを実行すると、コンソールに次のようなメッセージが表示されます。
+
+```
+Batch completed. Processed files: 42
+Check C:\Data\Output for .txt files containing extracted text.
+```
+
+`Output` フォルダーには、元の TIFF と同名の `.txt` ファイルが各画像ごとに作成されます（例: `Invoice_001.txt`）。任意のファイルを開くと、OCR が生成した生テキストが確認でき、検索インデックスや downstream のデータ抽出パイプラインにそのまま流し込めます。
+
+## よくある落とし穴の対処法
+
+### 1. GPU が利用できない
+
+`UseGpu = true` に設定しても対応デバイスが見つからない場合、Aspose は自動的に CPU にフォールバックします。明示的にハンドリングしたい場合は `DeviceNotFoundException` を捕捉してください。
+
+```csharp
+try
+{
+    batchProcessor.Execute();
+}
+catch (DeviceNotFoundException)
+{
+    Console.WriteLine("GPU not detected – switching to CPU mode.");
+    batchProcessor.UseGpu = false;
+    batchProcessor.Execute();
+}
+```
+
+### 2. 同一フォルダーに非 TIFF ファイルが混在している
+
+混在フォルダーを扱う場合は、プログラム側でフィルタリングします。
+
+```csharp
+var tiffFiles = Directory.GetFiles(@"C:\Data\Invoices", "*.*")
+                         .Where(f => f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase) ||
+                                     f.EndsWith(".tiff", StringComparison.OrdinalIgnoreCase));
+
+foreach (var file in tiffFiles)
+    batchProcessor.AddFile(file);
+```
+
+### 3. メモリを超える大容量ファイル
+
+ページ数が非常に多いマルチページ TIFF では、ストリーミングを有効にしてください。
+
+```csharp
+batchProcessor.EnableMemoryManagement = true; // reduces RAM footprint
+```
+
+## **tiff からテキストを抽出** する際の精度向上のプロチップ
+
+- **解像度が重要** – 300 dpi 以上を目指しましょう。これ以下だと文字が抜け落ちやすくなります。  
+- **カラー vs グレースケール** – カラースキャンは OCR 前にグレースケールに変換すると効果的です。`DeskewFilter` が内部で実施しますが、さらに速度を上げたい場合は `ColorDepthReductionFilter` を追加してください。  
+- **ポストプロセッシング** – プレーンテキスト取得後にスペルチェックや正規表現でクリーンアップすると、典型的な OCR の誤認（例: “0” と “O”）を修正できます。
+
+## 完全動作サンプル（コピペで使用可）
+
+以下はコンパイルして実行できるフルプログラムです。プレースホルダーのパスを自分の環境に合わせて置き換えてください。
+
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Batch;
 using System;
 using System.IO;
 using System.Linq;
@@ -188,89 +211,86 @@ namespace BatchOcrDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Define source & destination folders
-            string sourceFolder = @"C:\OCR\Batch";
-            string outputFolder = @"C:\OCR\BatchTxt";
-
-            // 2️⃣ Make sure the output folder exists
-            Directory.CreateDirectory(outputFolder);
-
-            // 3️⃣ Get all supported image files (convert images to text)
-            var imageFiles = Directory.EnumerateFiles(sourceFolder, "*.*", SearchOption.TopDirectoryOnly)
-                .Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                            f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
-                            f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase));
-
-            // 4️⃣ Process each image (how to batch OCR)
-            foreach (var imagePath in imageFiles)
+            // -------------------------------------------------
+            // Configure the batch processor (how to batch OCR)
+            // -------------------------------------------------
+            BatchProcessor batchProcessor = new BatchProcessor
             {
-                try
+                Language = Language.English,
+                UseGpu = true, // set false if no GPU
+                PreProcessingFilters = new FilterPipeline
                 {
-                    // Initialise OCR engine for the current file
-                    OcrEngine ocrEngine = new OcrEngine
-                    {
-                        Image = ImageStream.FromFile(imagePath)
-                    };
+                    new DeskewFilter(),
+                    new DespeckleFilter()
+                },
+                EnableMemoryManagement = true // helps with huge TIFFs
+            };
 
-                    // Run OCR – this extracts text from images
-                    OcrResult result = ocrEngine.Recognize();
+            // -------------------------------------------------
+            // Add source TIFF files
+            // -------------------------------------------------
+            string sourceFolder = @"C:\Data\Invoices";
+            batchProcessor.AddFolder(sourceFolder, "*.tif");
 
-                    // 5️⃣ Save the result (extract text from images)
-                    SaveOcrResult(outputFolder, imagePath, result.Text);
+            // -------------------------------------------------
+            // Optional: add only TIFFs if folder contains other images
+            // -------------------------------------------------
+            var extraTiffs = Directory.GetFiles(sourceFolder, "*.*")
+                                      .Where(f => f.EndsWith(".tiff", StringComparison.OrdinalIgnoreCase));
+            foreach (var file in extraTiffs)
+                batchProcessor.AddFile(file);
 
-                    Console.WriteLine($"✅ {Path.GetFileName(imagePath)} processed.");
-                }
-                catch (Exception ex)
-                {
-                    // Gracefully handle problematic files
-                    Console.WriteLine($"⚠️ Failed on {Path.GetFileName(imagePath)}: {ex.Message}");
-                }
+            // -------------------------------------------------
+            // Define where results go
+            // -------------------------------------------------
+            batchProcessor.OutputFolder = @"C:\Data\Output";
+            batchProcessor.OutputFormat = OutputFormat.PlainText;
+
+            // -------------------------------------------------
+            // Execute the batch job
+            // -------------------------------------------------
+            try
+            {
+                batchProcessor.Execute();
+                Console.WriteLine($"\nBatch completed. Processed files: {batchProcessor.ProcessedCount}");
+                Console.WriteLine("Check C:\\Data\\Output for .txt files containing extracted text.");
             }
-
-            Console.WriteLine("🎉 Batch OCR processing complete!");
-        }
-
-        // Helper to write the OCR output to a .txt file
-        static void SaveOcrResult(string outputFolder, string imagePath, string recognizedText)
-        {
-            string textFilePath = Path.Combine(outputFolder,
-                Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-            File.WriteAllText(textFilePath, recognizedText);
+            catch (DeviceNotFoundException)
+            {
+                Console.WriteLine("GPU not detected – falling back to CPU.");
+                batchProcessor.UseGpu = false;
+                batchProcessor.Execute();
+                Console.WriteLine($"Batch completed (CPU). Processed files: {batchProcessor.ProcessedCount}");
+            }
         }
     }
 }
 ```
 
-### 期待される出力
+コンパイルと実行:
 
-プログラムを実行すると、コンソールに次のような行が表示されます：
-
-```
-✅ invoice001.png processed.
-✅ receipt123.jpg processed.
-✅ map.tif processed.
-🎉 Batch OCR processing complete!
+```bash
+dotnet run
 ```
 
-同時に、`C:\OCR\BatchTxt` フォルダーには以下が作成されます：
+これで、**tiff からテキストを抽出** した結果が `.txt` ファイルとして整然と出力されます。
 
-- `invoice001.txt`
-- `receipt123.txt`
-- `map.txt`
+## 結論
 
-各ファイルには元画像のプレーンテキスト表現が格納されており、インデックス作成、検索、または下流の分析にすぐに利用できます。
+C# で **バッチ OCR** を最初から最後まで実装する方法を解説し、**tiff からテキストを抽出** する際に必要なすべてのポイントを網羅しました。主なポイントは次の通りです。
 
-## プロのコツと一般的な落とし穴（バッチOCR処理）
+1. 繰り返しコードを書かずに Aspose.OCR の `BatchProcessor` を活用する。  
+2. 前処理フィルタ（デスクュー、デスペックル）で精度を向上させる。  
+3. 可能なら GPU 加速を利用し、常に CPU フォールバックを用意する。  
+4. 結果を予測可能なフォルダー構造に保存し、 downstream ジョブが自動で取得できるようにする。
 
-- **メモリ管理:** Aspose OCR は各 `Recognize()` 呼び出し後に画像バッファを解放しますが、数千ファイルを処理する場合は `GC.Collect()` を適度に呼び出してメモリ使用量を抑えることを検討してください。  
-- **速度向上:** .NET 6 以降では `OcrEngine.RecognizeAsync()` を使用し、`Task` と組み合わせて複数タスクを同時に実行すると効果的です。
+ここからさらに進める例:
 
-## 次に学ぶべきことは？
+- プレーンテキストを **検索インデックス**（例: Elasticsearch）に投入し、請求書を検索可能にする。  
+- 出力を **JSON** に変換し、機械学習モデルで項目抽出を行う。  
+- 破損した TIFF や権限エラーに対する **エラーハンドリング** を追加する。
 
-- [Aspose.OCR for .NET でリストを使用したバッチOCR画像の処理方法](/ocr/english/net/ocr-configuration/ocr-operation-with-list/)
-- [フォルダー単位でのOCR操作で画像からテキストを抽出する方法](/ocr/english/net/ocr-configuration/ocr-operation-with-folder/)
-- [Aspose.OCR for .NET でアーカイブ画像に対してOCRを実行する方法](/ocr/english/net/ocr-configuration/ocr-operation-with-archive/)
+ぜひ試してみてください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

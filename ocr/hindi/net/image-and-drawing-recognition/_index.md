@@ -65,9 +65,15 @@ Aspose.OCR for .NET के साथ OCR जादू को अनलॉक क
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Aspose.OCR for .NET के साथ टेक्स्ट रिकग्निशन की संभावनाओं को अनलॉक करें। इमेज से टेक्स्ट को सहजता से पहचानें।
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
-Aspose.OCR for .NET की क्षमता को लाइन पहचानने में अनलॉक करें। इमेज से टेक्स्ट एक्सट्रैक्शन के लिए डेवलपर गाइड।
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
-Aspose.OCR for .NET के साथ OCR जादू को अनलॉक करें और इमेज से टेक्स्ट को सहजता से निकालें। सहज इंटीग्रेशन के लिए ट्यूटोरियल देखें।
+### [How to Enable Forms and Extract Tables with OCR in C# – Complete Guide](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Aspose.OCR के साथ फ़ॉर्म सक्षम करें और C# में टेबल्स को निकालें। पूर्ण गाइड।
+### [C# में टेबल को CSV के रूप में सहेजें – Aspose OCR पूर्ण गाइड](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके इमेज में टेबल को पहचानें और उसे CSV फ़ाइल में निर्यात करें।
+### [Aspose OCR (C#) का उपयोग करके इमेज से टेबल निकालें](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Aspose.OCR for .NET के साथ इमेज से टेबल निकालें। टेबल एक्सट्रैक्शन को सहजता से अनलॉक करें।
+### [C# के साथ इमेज से Excel बनाएं – पूर्ण Aspose OCR गाइड](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके इमेज से डेटा निकालें और C# में Excel फ़ाइल बनाएं।
 ### [Aspose OCR के साथ इमेज से टेबल निकालें – पूर्ण C# गाइड](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR का उपयोग करके इमेज में मौजूद टेबल को पहचानें और C# में एक्सट्रैक्ट करने का पूर्ण मार्गदर्शन।
 

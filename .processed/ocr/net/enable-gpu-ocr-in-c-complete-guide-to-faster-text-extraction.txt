@@ -1,0 +1,7 @@
+Title: Enable GPU OCR in C# – Complete Guide to Faster Text Extraction
+Slug: enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction
+Category: ocr-optimization
+ProcessedDate: 2026-06-16T11:22:48.538858
+SourceRepo: AI Search API
+Keywords: enable gpu ocr, recognize text from image c#
+PRNumber: 144

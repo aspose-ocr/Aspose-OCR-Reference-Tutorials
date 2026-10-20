@@ -1,46 +1,25 @@
 ---
 category: general
-date: 2026-05-31
-description: Jak provádět dávkové OCR v C# s Aspose OCR. Naučte se převádět obrázky
-  na text, extrahovat text z obrázků a efektivně zpracovávat více souborů.
+date: 2026-03-13
+description: Jak rychle a spolehlivě provádět hromadné OCR a zároveň se naučit, jak
+  extrahovat text z TIFF souborů pomocí Aspose.OCR. Postupujte podle tohoto návodu
+  krok za krokem.
 draft: false
 keywords:
 - how to batch OCR
-- convert images to text
-- extract text from images
-- OCR multiple files
-- batch OCR processing
+- extract text from tiff
+- Aspose OCR batch processing
+- C# OCR automation
+- GPU accelerated OCR
 language: cs
-og_description: Jak provádět dávkové OCR v C# pomocí Aspose OCR. Převádějte obrázky
-  na text, extrahujte text z obrázků a snadno zpracovávejte OCR více souborů.
+og_description: Naučte se provádět dávkové OCR v C# a extrahovat text z TIFF souborů
+  pomocí Aspose.OCR. Tento průvodce pokrývá nastavení, kód a tipy na osvědčené postupy.
 og_title: Jak provádět dávkové OCR v C# – Kompletní programovací průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-05-31'
-  description: How to batch OCR in C# with Aspose OCR. Learn to convert images to
-    text, extract text from images, and process multiple files efficiently.
-  headline: How to Batch OCR in C# – Complete Programming Guide
-  type: TechArticle
-- description: How to batch OCR in C# with Aspose OCR. Learn to convert images to
-    text, extract text from images, and process multiple files efficiently.
-  name: How to Batch OCR in C# – Complete Programming Guide
-  steps:
-  - name: '**.NET 6 SDK** (or later) installed – the latest runtime gives you better
-      performance and native support for async I/O.'
-    text: '**.NET 6 SDK** (or later) installed – the latest runtime gives you better
-      performance and native support for async I/O.'
-  - name: '**Visual Studio 2022** (Community Edition works fine) or any editor you
-      like.'
-    text: '**Visual Studio 2022** (Community Edition works fine) or any editor you
-      like.'
-  - name: 'The **Aspose.OCR** NuGet package. Install it via the Package Manager Console:'
-    text: 'The **Aspose.OCR** NuGet package. Install it via the Package Manager Console:'
-  type: HowTo
 tags:
 - OCR
 - C#
 - Aspose
-- batch-processing
+- Batch processing
 title: Jak provádět dávkové OCR v C# – Kompletní programovací průvodce
 url: /cs/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 ---
@@ -49,136 +28,182 @@ url: /cs/net/ocr-optimization/how-to-batch-ocr-in-c-complete-programming-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak provádět hromadné OCR v C# – Kompletní programovací průvodce
+# Jak provádět dávkové OCR v C# – Kompletní programovací průvodce
 
-Už jste se někdy zamýšleli **jak provádět hromadné OCR** celého adresáře naskenovaných obrázků, aniž byste museli otevírat každý soubor ručně? Nejste v tom sami. V mnoha reálných projektech – například automatizace faktur nebo archivace historických fotografií – potřebujete **převádět obrázky na text** hromadně a provádění toho po jednom je obrovská ztráta času.
+Už jste se někdy zamysleli **jak provádět dávkové OCR** hromady naskenovaných faktur, aniž byste museli psát samostatný skript pro každý soubor? Nejste v tom sami. V mnoha reálných projektech není problém samotná přesnost OCR, ale obrovské množství obrázků – často TIFFů – které je třeba převést na prohledávatelný text.  
 
-V tomto tutoriálu si projdeme připravenou C# konzolovou aplikaci, která vezme každý PNG, JPG nebo TIFF ve zdrojovém adresáři, spustí na něm Aspose OCR a uloží odpovídající soubor *.txt* do výstupního adresáře. Na konci budete umět **extrahovat text z obrázků**, zpracovávat **OCR více souborů** a budete mít solidní základ pro jakékoli **hromadné zpracování OCR**, které budete potřebovat.
+Tento tutoriál vám ukáže **jak provádět dávkové OCR** pomocí `BatchProcessor` z Aspose.OCR a zároveň vás naučí **extrahovat text z tiff** souborů v jednom čistém běhu. Na konci budete mít připravenou konzolovou aplikaci, která zpracuje celý adresář, využije volitelnou akceleraci GPU a uloží výsledky jako prostý text kamkoli potřebujete.
 
-## Co se naučíte
+## Co budete potřebovat
 
-- Nastavit .NET projekt s NuGet balíčkem Aspose OCR.  
-- Definovat zdrojové a cílové složky pro **hromadné OCR**.  
-- Vyjmenovat podporované typy obrázků a předat je OCR enginu.  
-- Zapsat rozpoznaný text do jednotlivých *.txt* souborů, čímž efektivně **převádíte obrázky na text**.  
-- Vyřešit běžné problémy jako chybějící složky, nepodporované formáty a optimalizace výkonu.
+- **.NET 6+** (nebo .NET Framework 4.7.2, pokud dáváte přednost klasickému runtime)  
+- **Aspose.OCR for .NET** – můžete získat NuGet balíček pomocí `dotnet add package Aspose.OCR`.  
+- Složka s **TIFF** obrázky, které chcete číst (v tutoriálu je použita složka `Invoices` jako příklad).  
+- Volitelně: GPU, která podporuje DirectX 11 nebo CUDA, pokud chcete urychlit zpracování.  
 
-Žádná předchozí zkušenost s Aspose není vyžadována; stačí základní znalost C# a Visual Studia.
+Žádné extra služby, žádné cloudové klíče – jen lokální C# projekt a knihovna Aspose.
 
----
+## Krok 1: Nastavte projekt a nainstalujte Aspose.OCR
 
-![Diagram toku hromadného OCR – jak provádět hromadné OCR](/images/batch-ocr-flow.png){alt="diagram toku hromadného OCR"}
+Nejprve vytvořte konzolovou aplikaci.
 
-## Jak provádět hromadné OCR – nastavení projektu
-
-Než se pustíme do kódu, ujistěte se, že máte:
-
-1. **.NET 6 SDK** (nebo novější) nainstalovaný – nejnovější runtime poskytuje lepší výkon a nativní podporu pro async I/O.  
-2. **Visual Studio 2022** (Community Edition stačí) nebo jakýkoli editor, který preferujete.  
-3. NuGet balíček **Aspose.OCR**. Nainstalujte jej pomocí Package Manager Console:
-
-   ```powershell
-   Install-Package Aspose.OCR
-   ```
-
-A to je vše. Zbytek tutoriálu předpokládá, že balíček je správně referencován.
-
-## Krok 2: Připravte zdrojové a cílové složky (převod obrázků na text)
-
-Nejprve potřebujeme dvě složky: jednu, která obsahuje surové obrázky, a druhou, kam se uloží vygenerované *.txt* soubory. Níže uvedený kód vytvoří cílovou složku, pokud ještě neexistuje – žádné ruční kroky nejsou potřeba.
-
-```csharp
-// Define where the images live and where the text files will go
-string sourceFolder = @"C:\OCR\Batch";
-string outputFolder = @"C:\OCR\BatchTxt";
-
-// Ensure the output directory exists; CreateDirectory is idempotent
-Directory.CreateDirectory(outputFolder);
+```bash
+dotnet new console -n BatchOcrDemo
+cd BatchOcrDemo
+dotnet add package Aspose.OCR
 ```
 
-> **Proč je to důležité:** Pokud vynecháte volání `CreateDirectory`, program vyhodí `DirectoryNotFoundException` v okamžiku, kdy se pokusí zapsat první textový soubor. Vyřešením to hned na začátku učiníte proces hromadného OCR odolnější.
+> **Tip:** Pokud používáte Windows a plánujete využít akceleraci GPU, ujistěte se, že máte nainstalován nejnovější grafický ovladač. Jinak se příznak `UseGpu = true` automaticky vrátí na CPU.
 
-## Krok 3: Vyjmenujte soubory obrázků pro OCR více souborů
+## Krok 2: Vytvořte konfiguraci BatchProcessoru
 
-Dále shromáždíme každý soubor, který odpovídá podporovaným formátům. Použití LINQ udržuje kód stručný a zároveň čitelný.
-
-```csharp
-// Grab all PNG, JPG, and TIFF files from the source folder (non‑recursive)
-var imageFiles = Directory.EnumerateFiles(sourceFolder, "*.*", SearchOption.TopDirectoryOnly)
-    .Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
-                f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase));
-```
-
-> **Tip:** Pokud později potřebujete zpracovávat PDF nebo BMP, stačí rozšířit podmínku v `Where`. Udržení filtru na jednom místě usnadní budoucí úpravy.
-
-## Krok 4: Spusťte OCR engine na každém obrázku (jak provádět hromadné OCR)
-
-Nyní k jádru věci: předat každý obrázek do Aspose OCR a získat rozpoznaný text. Smyčka níže vytvoří novou instanci `OcrEngine` pro každý soubor – tím se zajistí, že paměť z předchozího obrázku je uvolněna před zpracováním dalšího.
-
-```csharp
-foreach (var imagePath in imageFiles)
-{
-    // Initialize the OCR engine with the current image
-    OcrEngine ocrEngine = new OcrEngine
-    {
-        Image = ImageStream.FromFile(imagePath)
-    };
-
-    // Perform recognition; Recognize() returns an OcrResult object
-    OcrResult ocrResult = ocrEngine.Recognize();
-
-    // Build the output .txt file path (same base name, .txt extension)
-    string textFilePath = Path.Combine(outputFolder,
-        Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-    // Persist the extracted text
-    File.WriteAllText(textFilePath, ocrResult.Text);
-
-    Console.WriteLine($"Processed {Path.GetFileName(imagePath)} → {Path.GetFileName(textFilePath)}");
-}
-```
-
-**Co se děje?**  
-
-- `ImageStream.FromFile` načte obrázek do proudu, který Aspose dokáže číst.  
-- `ocrEngine.Recognize()` spustí samotný OCR algoritmus a vrátí řetězec v `ocrResult.Text`.  
-- `File.WriteAllText` zapíše tento řetězec na disk, čímž **extrahuje text z obrázků**.
-
-### Řešení okrajových případů
-
-- **Poškozené obrázky** – obalte volání rozpoznání do `try/catch` a zaznamenejte selhání, poté pokračujte dalším souborem.  
-- **Velké dávky** – zvažte asynchronní zpracování souborů pomocí `Parallel.ForEach`, pokud máte vícejádrový počítač.  
-- **Různé jazyky** – nastavte `ocrEngine.Language = Language.English;` nebo jiný podporovaný jazyk před voláním `Recognize()`.
-
-## Krok 5: Uložte extrahovaný text (extrahovat text z obrázků)
-
-Předchozí úryvek již ukládá výstup OCR, ale pojďme tuto logiku oddělit do pomocné metody. To učiní hlavní smyčku přehlednější a podpoří opakované použití.
-
-```csharp
-static void SaveOcrResult(string outputFolder, string imagePath, string recognizedText)
-{
-    string textFilePath = Path.Combine(outputFolder,
-        Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-    File.WriteAllText(textFilePath, recognizedText);
-}
-```
-
-Poté nahradíte inline volání `File.WriteAllText` tímto:
-
-```csharp
-SaveOcrResult(outputFolder, imagePath, ocrResult.Text);
-```
-
-> **Proč to extrahovat do metody?** Odděluje to odpovědnosti – rozpoznání vs. perzistence – a dává vám jedno místo, kde můžete přidat následné zpracování (např. ořezání bílých znaků nebo přidání časových razítek).
-
-## Kompletní funkční příklad – hromadné zpracování OCR v C#
-
-Sestavte všechny části dohromady, zde je samostatný program, který můžete zkopírovat do nového projektu Console App a spustit okamžitě.
+Nyní nakonfigurujeme `BatchProcessor`. Toto je jádro **jak provádět dávkové OCR** – řeknete Aspose, jaký jazyk očekávat, které předzpracovatelské filtry použít a zda využít GPU.
 
 ```csharp
 using Aspose.OCR;
+using Aspose.OCR.Batch;
+
+namespace BatchOcrDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // -------------------------------------------------
+            // Step 2: Configure the batch processor
+            // -------------------------------------------------
+            BatchProcessor batchProcessor = new BatchProcessor
+            {
+                // Primary language – English works for most invoices
+                Language = Language.English,
+
+                // Set to true if you have a compatible GPU; otherwise false
+                UseGpu = true,
+
+                // Optional pre‑processing to improve OCR accuracy
+                PreProcessingFilters = new FilterPipeline
+                {
+                    new DeskewFilter(),   // straightens tilted scans
+                    new DespeckleFilter() // removes speckles and noise
+                }
+            };
+```
+
+**Proč tato nastavení?**  
+- `Language = Language.English` říká enginu, aby použil model pro anglický jazyk, který je mnohem přesnější než obecný model.  
+- `UseGpu` může zkrátit dobu zpracování na polovinu na slušném GPU, ale je v pořádku nechat jej `false`, pokud používáte notebook bez GPU.  
+- Pipeline filtrů napodobuje to, co by udělal člověk: narovná stránku a odstraní šmouhy před předáním OCR enginu.
+
+## Krok 3: Nastavte procesor na vaši složku s TIFF soubory
+
+Další část **jak provádět dávkové OCR** je říci knihovně, kde se nacházejí zdrojové soubory. Zástupné znaky jsou podporovány, takže můžete najednou načíst všechny soubory `.tif`.
+
+```csharp
+            // -------------------------------------------------
+            // Step 3: Add the folder containing TIFF images
+            // -------------------------------------------------
+            // Replace YOUR_DIRECTORY with the actual path on your machine
+            batchProcessor.AddFolder(@"C:\Data\Invoices", "*.tif");
+```
+
+> **Hraniční případ:** Pokud mají vaše obrázky smíšené přípony (`.tiff`, `.tif`, `.png`), zavolejte `AddFolder` vícekrát nebo použijte `*.*` a filtrujte později v kódu.
+
+## Krok 4: Zvolte, kam se uloží výsledky OCR
+
+Možná se ptáte, „Kam se uloží extrahovaný text?“ To je třetí pilíř **jak provádět dávkové OCR** – definování výstupního umístění a formátu. Uložíme soubory s prostým textem vedle originálů.
+
+```csharp
+            // -------------------------------------------------
+            // Step 4: Define output folder and format
+            // -------------------------------------------------
+            batchProcessor.OutputFolder = @"C:\Data\Output";
+            batchProcessor.OutputFormat = OutputFormat.PlainText;
+```
+
+Pokud potřebujete místo prostého textu JSON nebo XML, stačí vyměnit `OutputFormat.PlainText` za `OutputFormat.Json` nebo `OutputFormat.Xml`. Knihovna provede konverzi za vás.
+
+## Krok 5: Spusťte dávkovou úlohu a nahlaste výsledky
+
+Nakonec spusťte úlohu. Metoda `Execute` blokuje, dokud není každý soubor zpracován, poté můžete zkontrolovat `ProcessedCount` pro potvrzení úspěchu.
+
+```csharp
+            // -------------------------------------------------
+            // Step 5: Execute the batch job
+            // -------------------------------------------------
+            batchProcessor.Execute();
+
+            // Simple verification output
+            Console.WriteLine($"\nBatch completed. Processed files: {batchProcessor.ProcessedCount}");
+            Console.WriteLine("Check C:\\Data\\Output for .txt files containing extracted text.");
+        }
+    }
+}
+```
+
+### Očekávaný výstup
+
+Když spustíte program, konzole vypíše něco jako:
+
+```
+Batch completed. Processed files: 42
+Check C:\Data\Output for .txt files containing extracted text.
+```
+
+Ve složce `Output` najdete jeden `.txt` soubor pro každý zdrojový TIFF, pojmenovaný podle původního obrázku (např. `Invoice_001.txt`). Otevřete libovolný soubor a uvidíte surový OCR text – ideální pro napájení vyhledávacího indexu nebo následného datového extrakčního pipeline.
+
+## Řešení běžných problémů
+
+### 1. GPU není k dispozici
+
+Pokud je `UseGpu = true`, ale nenajde se kompatibilní zařízení, Aspose tiše přejde na CPU. Pro explicitní zachycení můžete odchytit `DeviceNotFoundException`:
+
+```csharp
+try
+{
+    batchProcessor.Execute();
+}
+catch (DeviceNotFoundException)
+{
+    Console.WriteLine("GPU not detected – switching to CPU mode.");
+    batchProcessor.UseGpu = false;
+    batchProcessor.Execute();
+}
+```
+
+### 2. Soubory, které nejsou TIFF, ve stejné složce
+
+Když máte smíšenou složku, filtrujte programově:
+
+```csharp
+var tiffFiles = Directory.GetFiles(@"C:\Data\Invoices", "*.*")
+                         .Where(f => f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase) ||
+                                     f.EndsWith(".tiff", StringComparison.OrdinalIgnoreCase));
+
+foreach (var file in tiffFiles)
+    batchProcessor.AddFile(file);
+```
+
+### 3. Velké soubory přesahující paměť
+
+Pro obrovské vícestránkové TIFFy povolte streamování:
+
+```csharp
+batchProcessor.EnableMemoryManagement = true; // reduces RAM footprint
+```
+
+## Pro tipy pro vyšší přesnost při **extrahování textu z tiff**
+
+- **Rozlišení je důležité** – Cílem by mělo být 300 dpi nebo více. Pod tím může OCR engine vynechat znaky.  
+- **Barva vs. odstíny šedi** – Před OCR převádějte barevné skeny na odstíny šedi; `DeskewFilter` to již pod kapotou provádí, ale můžete přidat `ColorDepthReductionFilter` pro vyšší rychlost.  
+- **Post‑processing** – Po získání prostého textu spusťte kontrolu pravopisu nebo čištění pomocí regexu, abyste opravili běžné OCR nedostatky (např. “0” vs “O”).
+
+## Kompletní funkční příklad (připravený ke kopírování a vložení)
+
+Níže je celý program, který můžete zkompilovat a spustit. Stačí nahradit placeholder cesty vlastními adresáři.
+
+```csharp
+using Aspose.OCR;
+using Aspose.OCR.Batch;
 using System;
 using System.IO;
 using System.Linq;
@@ -189,89 +214,86 @@ namespace BatchOcrDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Define source & destination folders
-            string sourceFolder = @"C:\OCR\Batch";
-            string outputFolder = @"C:\OCR\BatchTxt";
-
-            // 2️⃣ Make sure the output folder exists
-            Directory.CreateDirectory(outputFolder);
-
-            // 3️⃣ Get all supported image files (convert images to text)
-            var imageFiles = Directory.EnumerateFiles(sourceFolder, "*.*", SearchOption.TopDirectoryOnly)
-                .Where(f => f.EndsWith(".png", StringComparison.OrdinalIgnoreCase) ||
-                            f.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
-                            f.EndsWith(".tif", StringComparison.OrdinalIgnoreCase));
-
-            // 4️⃣ Process each image (how to batch OCR)
-            foreach (var imagePath in imageFiles)
+            // -------------------------------------------------
+            // Configure the batch processor (how to batch OCR)
+            // -------------------------------------------------
+            BatchProcessor batchProcessor = new BatchProcessor
             {
-                try
+                Language = Language.English,
+                UseGpu = true, // set false if no GPU
+                PreProcessingFilters = new FilterPipeline
                 {
-                    // Initialise OCR engine for the current file
-                    OcrEngine ocrEngine = new OcrEngine
-                    {
-                        Image = ImageStream.FromFile(imagePath)
-                    };
+                    new DeskewFilter(),
+                    new DespeckleFilter()
+                },
+                EnableMemoryManagement = true // helps with huge TIFFs
+            };
 
-                    // Run OCR – this extracts text from images
-                    OcrResult result = ocrEngine.Recognize();
+            // -------------------------------------------------
+            // Add source TIFF files
+            // -------------------------------------------------
+            string sourceFolder = @"C:\Data\Invoices";
+            batchProcessor.AddFolder(sourceFolder, "*.tif");
 
-                    // 5️⃣ Save the result (extract text from images)
-                    SaveOcrResult(outputFolder, imagePath, result.Text);
+            // -------------------------------------------------
+            // Optional: add only TIFFs if folder contains other images
+            // -------------------------------------------------
+            var extraTiffs = Directory.GetFiles(sourceFolder, "*.*")
+                                      .Where(f => f.EndsWith(".tiff", StringComparison.OrdinalIgnoreCase));
+            foreach (var file in extraTiffs)
+                batchProcessor.AddFile(file);
 
-                    Console.WriteLine($"✅ {Path.GetFileName(imagePath)} processed.");
-                }
-                catch (Exception ex)
-                {
-                    // Gracefully handle problematic files
-                    Console.WriteLine($"⚠️ Failed on {Path.GetFileName(imagePath)}: {ex.Message}");
-                }
+            // -------------------------------------------------
+            // Define where results go
+            // -------------------------------------------------
+            batchProcessor.OutputFolder = @"C:\Data\Output";
+            batchProcessor.OutputFormat = OutputFormat.PlainText;
+
+            // -------------------------------------------------
+            // Execute the batch job
+            // -------------------------------------------------
+            try
+            {
+                batchProcessor.Execute();
+                Console.WriteLine($"\nBatch completed. Processed files: {batchProcessor.ProcessedCount}");
+                Console.WriteLine("Check C:\\Data\\Output for .txt files containing extracted text.");
             }
-
-            Console.WriteLine("🎉 Batch OCR processing complete!");
-        }
-
-        // Helper to write the OCR output to a .txt file
-        static void SaveOcrResult(string outputFolder, string imagePath, string recognizedText)
-        {
-            string textFilePath = Path.Combine(outputFolder,
-                Path.GetFileNameWithoutExtension(imagePath) + ".txt");
-
-            File.WriteAllText(textFilePath, recognizedText);
+            catch (DeviceNotFoundException)
+            {
+                Console.WriteLine("GPU not detected – falling back to CPU.");
+                batchProcessor.UseGpu = false;
+                batchProcessor.Execute();
+                Console.WriteLine($"Batch completed (CPU). Processed files: {batchProcessor.ProcessedCount}");
+            }
         }
     }
 }
 ```
 
-### Očekávaný výstup
+Zkompilujte a spusťte:
 
-Po spuštění programu vypíše konzole řádky podobné těmto:
-
-```
-✅ invoice001.png processed.
-✅ receipt123.jpg processed.
-✅ map.tif processed.
-🎉 Batch OCR processing complete!
+```bash
+dotnet run
 ```
 
-Mezitím složka `C:\OCR\BatchTxt` bude obsahovat:
+Nyní byste měli mít úhlednou sadu `.txt` souborů – každý je výsledkem **extrahování textu z tiff** pomocí plně automatizovaného dávkového procesu.
 
-- `invoice001.txt`
-- `receipt123.txt`
-- `map.txt`
+## Závěr
 
-Každý soubor obsahuje čistý textový ekvivalent svého zdrojového obrázku, připravený pro indexaci, vyhledávání nebo další analytiku.
+Prošli jsme **jak provádět dávkové OCR** v C# od začátku do konce, pokrývajíc vše, co potřebujete k efektivnímu **extrahování textu z tiff** souborů. Hlavní body jsou:
 
-## Profesionální tipy a běžné úskalí (zpracování hromadného OCR)
+1. Použijte `BatchProcessor` z Aspose.OCR, abyste se vyhnuli psaní opakujících se smyček.  
+2. Využijte předzpracovatelské filtry (deskew, despeckle) pro vyšší přesnost.  
+3. Povolit akceleraci GPU, pokud je to možné, ale vždy mít záložní CPU.  
+4. Ukládejte výsledky do předvídatelné struktury složek, aby je následné úlohy mohly automaticky načíst.
 
-- **Správa paměti:** Aspose OCR uvolňuje buffery obrázků po každém volání `Recognize()`, ale pokud zpracováváte tisíce souborů, zvažte občasné volání `GC.Collect()` pro udržení nízké paměťové stopy.  
-- **Zrychlení:** Použijte `OcrEngine.RecognizeAsync()` v .NET 6+ a spouštějte více úloh pomocí `Task`...
+Odtud můžete zkoumat:
 
-## Co byste se měli naučit dál?
+- Vložení prostého textu do **vyhledávacího indexu** (např. Elasticsearch) pro zpřístupnění faktur k vyhledávání.  
+- Převod výstupu na **JSON** a předání modelu strojového učení, který extrahuje položky.  
+- Přidání **zpracování chyb** pro poškozené TIFFy nebo problémy s oprávněními.
 
-- [Jak provádět hromadné OCR obrázků s List v Aspose.OCR pro .NET](/ocr/english/net/ocr-configuration/ocr-operation-with-list/)
-- [Extrahovat text z obrázků pomocí OCR operace na složkách](/ocr/english/net/ocr-configuration/ocr-operation-with-folder/)
-- [Jak provádět OCR na archivních obrázcích s Aspose.OCR pro .NET](/ocr/english/net/ocr-configuration/ocr-operation-with-archive/)
+Vyzkoušejte to,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

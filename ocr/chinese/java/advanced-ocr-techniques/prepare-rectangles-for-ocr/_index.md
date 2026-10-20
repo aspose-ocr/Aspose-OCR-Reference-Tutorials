@@ -9,13 +9,10 @@ url: /zh/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/
 weight: 13
 ---
 
- They are not inside markdown fences? In original they are just placeholders. Should keep them as is.
 
-Also there is a blockquote with > *We import...* we translated.
 
-Make sure to preserve markdown formatting: headings, lists, tables, blockquote, bold.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

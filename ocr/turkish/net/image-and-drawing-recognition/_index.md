@@ -53,7 +53,7 @@ Belirli bir satıra odaklanmanız gerekiyorsa—örneğin bir seri numarasını 
 
 Bu bölüm, **perform OCR on image** dosyalarının temel işlemini kapsar. Bu öğreticideki adımları izleyerek OCR motorunu nasıl yapılandıracağınızı, uygun dili nasıl seçeceğinizi ve desteklenen herhangi bir görüntü formatından temiz, aranabilir metin nasıl alacağınızı öğreneceksiniz.
 
-Sonuç olarak, Aspose.OCR for .NET, geliştiricilerin OCR görüntü tanımanın her yönünü—satırlardan paragraflara, tam görüntü akışlarına kadar—ustalaşmalarına yardımcı olan zengin bir öğretici seti sunar. Aşağıdaki bağlantıları keşfederek bugün sağlam metin çıkarma özellikleri oluşturmaya başlayın.
+Sonuç olarak, Aspose.OCR for .NET, geliştiricilerin OCR görüntü tanımanın her yönünü—satırlardan paragraflara, tam görüntü akışlarına kadar—ustalaşmalarına yardımcı olan zengin bir öğretici seti sunar. Aşağıdaki bağlantları keşfederek bugün sağlam metin çıkarma özellikleri oluşturmaya başlayın.
 
 ## Görüntü ve Çizim Tanıma Öğreticileri
 ### [OCR Görüntü Tanıma'da Satırlar İçin Dikdörtgenleri Alma](./get-rectangles-for-lines/)
@@ -68,6 +68,14 @@ Aspose.OCR for .NET ile metin tanıma potansiyelini açığa çıkarın. Görün
 Aspose.OCR for .NET'in OCR görüntü tanıma'da satırları tanıma potansiyelini ortaya çıkarın. Görüntülerden sorunsuz metin çıkarma için geliştirici rehberi.
 ### [OCR Görüntü Tanıma'da Görüntü Üzerinde OCR Gerçekleştirme](./perform-ocr-on-image/)
 Aspose.OCR for .NET ile OCR büyüsünü açın, görüntülerden zahmetsizce met çıkarın. Sorunsuz entegrasyon için öğreticiyi keşfedin.
+### [C# ile Formları Etkinleştirme ve OCR ile Tabloları Çıkarma – Tam Kılavuz](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+C# kullanarak OCR ile formları etkinleştirin ve tabloları kolayca çıkarın. Adım adım rehber.
+### [C# ile Tabloyu CSV Olarak Kaydet – Tam Aspose OCR Rehberi](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR for .NET kullanarak tablo verilerini CSV dosyasına dönüştürmeyi adım adım öğrenin.
+### [Aspose OCR (C#) ile Görüntülerden Tablo Çıkarma](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Aspose OCR kullanarak görüntülerdeki tablo yapılarını algılayın ve metin olarak çıkarın. C# kod örnekleriyle adım adım rehber.
+### [C# ile Görüntüden Excel Oluşturma – Tam Aspose OCR Rehberi](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Aspose.OCR for .NET kullanarak bir görüntüyü Excel dosyasına dönüştürmeyi adım adım öğrenin.
 ### [Aspose OCR ile Görüntüden Tablo Çıkarma – Tam C# Kılavuzu](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR ile görüntülerden tabloları zahmetsizce çıkarın. Adım adım C# rehberi.
 

@@ -68,6 +68,14 @@ Wykorzystaj potencjał rozpoznawania tekstu z Aspose.OCR dla .NET. Rozpoznawaj t
 Uwolnij potencjał Aspose.OCR dla .NET w rozpoznawaniu linii w OCR. Przewodnik dewelopera do płynnego wyodrębniania tekstu z obrazów.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Odkryj magię OCR z Aspose.OCR dla .NET i łatwo wyodrębniaj tekst z obrazów. Zapoznaj się z tutorialem dla bezproblemowej integracji.
+### [Jak włączyć formularze i wyodrębnić tabele przy użyciu OCR w C# – Kompletny przewodnik](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
+Pełny przewodnik, jak aktywować obsługę formularzy i wyodrębniać tabele z obrazów przy użyciu Aspose.OCR w C#.
+### [Zapisz tabelę jako CSV w C# – Kompletny przewodnik Aspose OCR](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Dowiedz się, jak wyeksportować wykryte tabele do pliku CSV przy użyciu Aspose.OCR w C#.
+### [Jak wyodrębnić tabele z obrazów przy użyciu Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Dowiedz się, jak wykrywać i wyodrębniać tabele z obrazów przy pomocy Aspose OCR w C#.
+### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Dowiedz się, jak przekształcić obraz w arkusz Excel przy użyciu Aspose.OCR i C# w kilku prostych krokach.
 ### [Wyodrębnianie tabel z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Poznaj, jak zidentyfikować i wyodrębnić tabele z obrazów przy użyciu Aspose OCR w C#, krok po kroku.
 
