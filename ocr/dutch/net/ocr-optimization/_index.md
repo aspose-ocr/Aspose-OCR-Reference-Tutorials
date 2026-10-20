@@ -260,6 +260,10 @@ Leer stap‑voor‑stap hoe je met Aspose OCR doorzoekbare PDF‑bestanden gener
 Leer hoe je afbeeldingen optimaliseert voor OCR met een volledige C#‑handleiding, inclusief filters en best practices.
 ### [Hoe een afbeelding rechtzetten – Complete C#-gids voor OCR-preprocessing](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Leer hoe je afbeeldingen kantelt corrigeert met Aspose.OCR voor .NET om OCR‑nauwkeurigheid te verbeteren.
+### [Hoe afbeelding rechtzetten met Aspose OCR – Complete C#‑gids](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Leer hoe je afbeeldingen kantcorrigeert met Aspose OCR in C# voor optimale OCR‑resultaten.
+### [Hoe batch-OCR uit te voeren in C# – Snelle manier om tekst uit PNG‑bestanden te extraheren](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Leer hoe je met Aspose.OCR meerdere PNG‑bestanden in één batch verwerkt en snel tekst extraheert met C#.
 
 ## Veelgestelde vragen
 

@@ -255,6 +255,10 @@ weight: 25
 ### [วิธีแก้ไขการเอียงของภาพ – คู่มือ C# ครบขั้นตอนสำหรับการเตรียม OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแก้ไขการเอียงของภาพและเพิ่มความแม่นยำของ OCR ด้วยขั้นตอนการเตรียมข้อมูลที่ครบถ้วน.
 
+### [วิธีทำ Batch OCR ใน C# – วิธีเร็วในการดึงข้อความจากไฟล์ PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+
+### [วิธีทำให้ภาพไม่เอียงด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

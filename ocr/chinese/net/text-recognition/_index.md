@@ -538,6 +538,12 @@ url: /zh/net/text-recognition/
 通过本分步指南，学习如何使用 Aspose.OCR 在 C# 中将图像转换为可搜索的 PDF 文档。
 ### [如何从扫描图像创建 ePub – 步骤指南](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 使用 Aspose.OCR 将扫描图像转换为 ePub，提供分步指南，帮助您在 .NET 应用中实现电子书生成。
+### [在 C# 中使用 Aspose 对图像进行 OCR – 完整分步指南](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+通过本完整分步指南，学习如何在 C# 项目中使用 Aspose 实现图像 OCR 识别，快速获取准确文本。
+### [在 C# 中识别图像文本 – 完整 Aspose OCR 指南](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+通过本完整指南，学习在 C# 项目使用 Aspose OCR 从图像中识别文本，快速实现高精度文字提取。
+### [在 C# 中 OCR PDF – 完整 Aspose OCR 教程](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+通过本完整教程，学习在 C# 中使用 Aspose OCR 对 PDF 进行 OCR，快速提取文本并实现无缝集成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

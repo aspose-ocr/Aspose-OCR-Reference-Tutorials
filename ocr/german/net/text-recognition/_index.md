@@ -517,6 +517,12 @@ Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus JPG‑Bildern extrahieren �
 Erfahren Sie, wie Sie mit Aspose.OCR in C# ein durchsuchbares PDF aus einem Bild erstellen – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
 ### [Erstellen Sie ein ePub aus gescannten Bildern – Schritt‑für‑Schritt‑Anleitung](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Lernen Sie, wie Sie mit Aspose.OCR ein ePub aus gescannten Bilddateien erstellen – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
+### [OCR auf Bild mit Aspose in C# ausführen – Vollständige Schritt‑für‑Schritt‑Anleitung](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# ein Bild vollständig schrittweise verarbeiten und Text extrahieren.
+### [Text aus Bild in C# erkennen – Vollständige Aspose OCR Anleitung](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man PDF in C# OCR‑t – Vollständiges Aspose OCR‑Tutorial](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# PDFs vollständig verarbeiten und Text extrahieren – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

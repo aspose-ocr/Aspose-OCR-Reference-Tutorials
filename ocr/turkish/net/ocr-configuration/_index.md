@@ -85,6 +85,8 @@ Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı b�
 C# ile görüntü yükleyerek OCR ve yazım denetimini birleştiren kapsamlı bir rehber.
 ### [C#'ta OCR Motoru Oluşturma – Tam Kılavuz](./create-ocr-engine-in-c-complete-guide/)
 Aspose.OCR ile C# uygulamanızda tam OCR motoru oluşturmayı adım adım öğrenin.
+### [Aspose OCR ile GPU bellek sınırını ayarlama – C# GPU Kılavuzu](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aspose OCR’da GPU bellek kullanımını sınırlayarak performansı yönetin ve C# uygulamanızda bellek yönetimini optimize edin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

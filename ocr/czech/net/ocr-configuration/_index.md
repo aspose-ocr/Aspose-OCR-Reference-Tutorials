@@ -79,6 +79,8 @@ Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nasta
 ### [Načtení obrázku pro OCR v C# – Kompletní průvodce Aspose OCR a kontrolou pravopisu](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [Vytvořte OCR engine v C# – kompletní průvodce](./create-ocr-engine-in-c-complete-guide/)
 Kompletní průvodce vytvořením OCR enginu v C# pomocí Aspose.OCR pro přesné rozpoznávání textu.
+### [Nastavte limit paměti GPU s Aspose OCR – průvodce C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Naučte se, jak omezit využití paměti GPU při používání Aspose OCR v C# aplikacích.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

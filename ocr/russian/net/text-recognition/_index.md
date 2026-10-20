@@ -518,6 +518,12 @@ url: /ru/net/text-recognition/
 ### [c# OCR учебник – извлечение текста из JPG‑изображений](./c-ocr-tutorial-extract-text-from-jpg-images/)
 Извлеките текст из JPG‑изображений с помощью Aspose.OCR в C#. Пошаговое руководство для .NET‑разработчиков.
 ### [Как создать ePub из отсканированных изображений – пошаговое руководство](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
+### [Как выполнить OCR в C# – Полное руководство Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Полное руководство по использованию Aspose.OCR в C# для распознавания PDF‑файлов шаг за шагом.
+### [Запуск OCR на изображении с Aspose в C# – Полное пошаговое руководство](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Полное руководство по использованию Aspose.OCR в C# для распознавания текста на изображениях шаг за шагом.
+### [Распознать текст с изображения в C# – Полное руководство Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Подробное пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

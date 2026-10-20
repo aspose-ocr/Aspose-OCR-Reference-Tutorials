@@ -134,6 +134,8 @@ Pelajari cara menonaktifkan fungsi OCR dalam aplikasi C# secara offline mengguna
 Pelajari cara memuat gambar dan melakukan OCR serta pemeriksaan ejaan menggunakan Aspose OCR di C#.
 ### [Buat Mesin OCR di C# – Panduan Lengkap](./create-ocr-engine-in-c-complete-guide/)
 Panduan lengkap membuat mesin OCR di C# menggunakan Aspose.OCR.
+### [Atur Batas Memori GPU dengan Aspose OCR – Panduan GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Pelajari cara membatasi penggunaan memori GPU saat menggunakan Aspose OCR dalam aplikasi C# untuk meningkatkan kinerja.
 
 
 

@@ -264,6 +264,11 @@ Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełny
 Dowiedz się, jak zastosować pełne wstępne przetwarzanie obrazu w Aspose OCR przy użyciu C#.
 ### [Jak prostować obraz – Kompletny przewodnik C# dla wstępnego przetwarzania OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed OCR, zwiększając dokładność rozpoznawania.
+### [Jak prostować obraz przy użyciu Aspose OCR – Kompletny przewodnik C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Dowiedz się, jak automatycznie prostować (deskew) obrazy w C# przy użyciu Aspose OCR, aby poprawić wyniki rozpoznawania tekstu.
+
+### [Jak wykonać batch OCR w C# – szybki sposób na wyodrębnianie tekstu z plików PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Poznaj metodę przetwarzania wsadowego PNG w C# przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst z wielu plików.
 
 ## Często zadawane pytania
 

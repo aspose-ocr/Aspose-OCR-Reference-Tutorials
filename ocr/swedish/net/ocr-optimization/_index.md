@@ -70,6 +70,8 @@ Lär dig steg‑för‑steg hur du räta upp bilder med Aspose.OCR för .NET fö
 Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR med Aspose i C#.
 ### [Resultatkorrektion med stavningskontroll i OCR Image Recognition](./result-correction-with-spell-checking/)
 Förbättra OCR‑noggrannheten med Aspose.OCR för .NET. Korrigera stavningar, anpassa ordböcker och uppnå felfri textigenkänning utan ansträngning.
+### [Räta upp bild med Aspose OCR – Komplett C#‑guide](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg‑för‑steg hur du använder Aspose OCR för att räta upp (deskew) bilder i C#, förbättra OCR‑noggrannheten.
 ### [Spara flersidigt resultat som dokument i OCR Image Recognition](./save-multipage-result-as-document/)
 Lås upp potentialen i Aspose.OCR för .NET. Spara enkelt flersidiga OCR‑resultat som dokument med denna omfattande steg‑för‑steg‑guide.
 ### [Utför OCR på bild med GPU‑acceleration – Komplett C#‑guide](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
@@ -251,6 +253,8 @@ Lär dig använda deskew‑filter för att korrigera snedvridna bilder och öka 
 Lär dig steg‑för‑steg hur du skapar sökbara PDF‑dokument med Aspose OCR i C#.
 ### [Hur man räta upp bild – Komplett C#‑guide för OCR‑förbehandling](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Lär dig steg‑för‑steg hur du räta upp bilder med Aspose.OCR för .NET för att förbättra OCR‑noggrannheten.
+### [Hur batch‑OCR i C# – Snabbt sätt att extrahera text från PNG‑filer](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Lär dig att bearbeta många PNG‑bilder samtidigt med Aspose.OCR i C# för snabb och exakt textutvinning.
 
 ## Vanliga frågor
 

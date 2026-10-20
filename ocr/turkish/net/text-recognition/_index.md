@@ -533,6 +533,12 @@ C# ve Aspose OCR kullanarak JPG formatındaki görüntülerden metin çıkarmay�
 C# ve Aspose.OCR kullanarak görüntülerden arama yapılabilir PDF dosyaları oluşturmayı öğrenin. Adım adım kılavuzla süreci hızlıca tamamlayın.
 ### [Tarama Görüntülerinden ePub Oluşturma – Adım Adım Kılavuz](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Tarama görüntülerinden ePub dosyası oluşturmayı adım adım öğrenin ve Aspose.OCR ile dijital yayınlarınızı kolayca üretin.
+### [C# ile PDF'yi OCR'lamak – Tam Aspose OCR Kılavuzu](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+C# kullanarak PDF dosyalarından metin çıkarmayı adım adım öğrenin ve Aspose OCR'ın tam gücünden faydalanın.
+### [C# ile Aspose kullanarak Görüntüde OCR Çalıştırma – Tam Adım‑Adım Kılavuz](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+C# ile Aspose OCR kullanarak bir görüntüde metin tanımayı adım adım öğrenin ve uygulamanıza entegre edin.
+### [C# ile Görüntüden Metin Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+C# kullanarak bir görüntüde metin tanımayı adım adım öğrenin ve Aspose OCR'ın tüm özelliklerini keşfedin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

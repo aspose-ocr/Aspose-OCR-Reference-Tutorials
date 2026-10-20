@@ -96,6 +96,8 @@ Dowiedz się, jak wyłączyć funkcję OCR w aplikacji C# przy użyciu Aspose OC
 Pełny przewodnik, jak załadować obraz i zastosować OCR oraz sprawdzanie pisowni przy użyciu Aspose OCR w C#.
 ### [Utwórz silnik OCR w C# – Kompletny przewodnik](./create-ocr-engine-in-c-complete-guide/)
 Pełny przewodnik tworzenia silnika OCR w C# przy użyciu Aspose.OCR, krok po kroku od konfiguracji po przetwarzanie obrazów.
+### [Ustaw limit pamięci GPU w Aspose OCR – przewodnik C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Dowiedz się, jak ograniczyć zużycie pamięci GPU w Aspose OCR przy użyciu C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

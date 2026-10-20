@@ -531,6 +531,10 @@ Nâng cao dự án .NET của bạn với Aspose.OCR để trích xuất văn b�
 Biến hình ảnh thành PDF có thể tìm kiếm trong .NET với Aspose.OCR. Hướng dẫn chi tiết từng bước để tạo PDF dễ dàng.
 ### [Cách tạo ePub từ hình ảnh đã quét – Hướng dẫn từng bước](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Biến các hình ảnh quét thành ePub có thể đọc được bằng Aspose.OCR. Hướng dẫn chi tiết từng bước để tạo sách điện tử nhanh chóng.
+### [Chạy OCR trên hình ảnh với Aspose trong C# – Hướng dẫn chi tiết từng bước](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Thực hiện OCR trên hình ảnh bằng Aspose trong C# qua hướng dẫn chi tiết, giúp bạn tích hợp nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Hướng dẫn toàn diện để nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#, bao gồm các bước cài đặt và triển khai.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

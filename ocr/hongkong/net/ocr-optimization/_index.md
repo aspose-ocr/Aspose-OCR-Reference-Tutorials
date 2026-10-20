@@ -244,6 +244,9 @@ weight: 25
 ### [使用 Aspose OCR 建立可搜尋 PDF – 完整程式設計指南](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [在 OCR 圖像辨識中前處理圖像 – 完整 Aspose C# 指南](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 完整的 C# 教學，說明如何使用 Aspose.OCR 前處理圖像，提升 OCR 準確度與效能。
+### [如何使用 Aspose OCR 進行圖像去斜 – 完整 C# 教學](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+本教學示範如何在 C# 中使用 Aspose OCR 的去斜功能，提升圖像辨識準確度，步驟完整易懂。
+### [如何在 C# 中批次 OCR – 快速提取 PNG 檔文字](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 
 ## 常見問題
 

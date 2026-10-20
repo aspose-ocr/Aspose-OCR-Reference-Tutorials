@@ -57,6 +57,8 @@ Leer hoe u met Aspose.OCR in C# afbeeldingen omzet naar JSON-resultaten. Volg de
 Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenning. Ontdek de OCR-modus voor detectiegebieden voor nauwkeurige resultaten.
 ### [Herken PDF in OCR-beeldherkenning](./recognize-pdf/)
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
+### [Hoe PDF OCR in C# – Complete Aspose OCR-tutorial](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden OCR't in C# met Aspose, inclusief volledige code‑voorbeelden en integratietips.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
 ### [Hoe OCR te gebruiken in C# – Russische tekst uit PNG extraheren](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
@@ -532,6 +534,12 @@ Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van een afbeelding in C#. V
 ### [Hoe maak je een ePub van gescande afbeeldingen – Stapsgewijze handleiding](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Leer hoe u met Aspose.OCR een ePub maakt van gescande afbeeldingen. Volg onze stapsgewijze handleiding voor snelle resultaten.
 
+### [Voer OCR uit op afbeelding met Aspose in C# – Volledige stapsgewijze handleiding](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Stap‑voor‑stap handleiding om met Aspose in C# OCR toe te passen op afbeeldingen en nauwkeurige tekst te extraheren.
+### [Hoe OCR uit te voeren in C# – Tekst extraheren uit afbeelding](./how-to-perform-ocr-in-c-extract-text-from-image/)
+Leer stap‑voor‑stap hoe u OCR toepast in C# om tekst uit afbeeldingen te extraheren met Aspose.
+### [Herken tekst van afbeelding in C# – Volledige Aspose OCR-gids](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Stap‑voor‑stap handleiding om met Aspose OCR tekst uit een afbeelding te halen in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

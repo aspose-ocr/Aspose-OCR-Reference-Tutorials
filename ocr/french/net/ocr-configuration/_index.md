@@ -112,6 +112,9 @@ Apprenez à charger des images et à effectuer la vérification orthographique a
 ### [Comment désactiver l'OCR en C# – Guide hors ligne Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode hors ligne avec Aspose OCR.
 
+### [Définir la limite de mémoire GPU avec Aspose OCR – Guide GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Apprenez à limiter l'utilisation de la mémoire GPU lors de l'exécution d'Aspose OCR en C# pour optimiser les performances.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.

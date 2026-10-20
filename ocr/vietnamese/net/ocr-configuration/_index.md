@@ -136,6 +136,8 @@ Hướng dẫn tắt chức năng OCR trong ứng dụng C# khi làm việc offl
 Hướng dẫn chi tiết cách tải hình ảnh và sử dụng Aspose OCR kết hợp kiểm tra chính tả trong C#.
 ### [Tạo Engine OCR trong C# – Hướng Dẫn Đầy Đủ](./create-ocr-engine-in-c-complete-guide/)
 Hướng dẫn chi tiết cách tạo engine OCR trong C# sử dụng Aspose.OCR, bao gồm cấu hình và ví dụ thực tế.
+### [Cài đặt giới hạn bộ nhớ GPU với Aspose OCR – Hướng dẫn C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Cài đặt giới hạn bộ nhớ GPU cho Aspose OCR trong C#. Hướng dẫn tối ưu hiệu suất GPU khi thực hiện nhận dạng hình ảnh.
 
 
 

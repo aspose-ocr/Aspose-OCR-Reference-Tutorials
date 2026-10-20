@@ -533,6 +533,12 @@ Aspose.OCR का उपयोग करके JPG फ़ाइलों से 
 Aspose.OCR का उपयोग करके इमेज को सर्चेबल PDF में बदलने की चरण‑दर‑क्रम प्रक्रिया सीखें। अपने .NET एप्लिकेशन को सशक्त बनाएं।
 ### [स्कैन की गई छवियों से ePub बनाना – चरण‑दर‑चरण गाइड](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 स्कैन की गई छवियों से ePub फ़ाइल बनाने के लिए Aspose.OCR का उपयोग करके चरण‑दर‑चरण मार्गदर्शिका। अपने .NET एप्लिकेशन में सहज एकीकरण सीखें।
+### [Aspose के साथ C# में इमेज पर OCR चलाएँ – पूर्ण चरण‑दर‑चरण गाइड](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप मार्गदर्शिका।
+### [C# में इमेज से टेक्स्ट पहचान – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप गाइड।
+### [C# में PDF को OCR कैसे करें – पूर्ण Aspose OCR ट्यूटोरियल](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Aspose OCR का उपयोग करके C# में PDF फ़ाइलों से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

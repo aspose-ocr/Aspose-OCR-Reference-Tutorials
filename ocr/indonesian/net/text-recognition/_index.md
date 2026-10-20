@@ -542,6 +542,12 @@ Pelajari cara mengekstrak teks dari gambar JPG menggunakan Aspose OCR dalam apli
 Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
 ### [Cara Membuat ePub dari Gambar yang Dipindai – Panduan Langkah-demi-Langkah](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Pelajari cara mengonversi gambar hasil pemindaian menjadi file ePub dengan mudah menggunakan panduan langkah demi langkah kami.
+### [Jalankan OCR pada Gambar dengan Aspose di C# – Panduan Lengkap Langkah demi Langkah](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Pelajari cara menjalankan OCR pada gambar menggunakan Aspose di C# dengan panduan lengkap langkah demi langkah untuk integrasi mudah.
+### [Mengenali teks dari gambar dalam C# – Panduan Lengkap Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara OCR PDF di C# – Tutorial Lengkap Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Pelajari cara melakukan OCR pada file PDF menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

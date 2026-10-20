@@ -554,6 +554,12 @@ Aprenda a generar PDFs buscables a partir de imágenes usando Aspose.OCR en C#, 
 
 ### [Cómo crear ePub a partir de imágenes escaneadas – Guía paso a paso](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Aprenda a generar archivos ePub a partir de imágenes escaneadas con Aspose.OCR en C#, siguiendo una guía paso a paso.
+### [Ejecutar OCR en una imagen con Aspose en C# – Guía completa paso a paso](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Aprenda a ejecutar OCR en imágenes usando Aspose con C#. Siga nuestra guía paso a paso para integrar reconocimiento de texto fácilmente.
+### [Reconocer texto de una imagen con Aspose en C# – Guía completa paso a paso](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Aprenda a reconocer texto en imágenes usando Aspose OCR con C#. Siga la guía paso a paso para integrar OCR fácilmente.
+### [Cómo hacer OCR de PDF en C# – Tutorial completo de Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Aprenda a realizar OCR en archivos PDF usando C# con Aspose OCR. Guía paso a paso para integrar reconocimiento de PDF fácilmente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

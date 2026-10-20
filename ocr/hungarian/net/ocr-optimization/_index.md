@@ -265,6 +265,12 @@ Ismerje meg, hogyan készítheti elő a képeket az OCR-hez a teljes Aspose C# �
 ### [Szöveg felismerése képről az Aspose OCR‑val – GPU‑gyorsított C# útmutató](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 Fedezze fel, hogyan használhatja a GPU‑t az Aspose OCR‑val C#‑ban a gyors szövegfelismeréshez képeken.
 
+### [Képek kiegyenesítése Aspose OCR‑rel – Teljes C# útmutató](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan lehet kiegyenesíteni a képeket az Aspose OCR segítségével C#‑ban, a teljes folyamatot bemutatva.
+
+### [Kötegelt OCR C#‑ban – Gyors mód PNG fájlok szövegének kinyeréséhez](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Ismerje meg, hogyan végezhet kötegelt OCR‑t C#‑ban PNG képeken, gyors és hatékony szövegkinyerés.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

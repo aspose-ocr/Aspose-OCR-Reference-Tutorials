@@ -234,6 +234,9 @@ Aspose OCR ile aranabilir PDF oluşturmayı adım adım öğrenin ve uygulayın.
 Aspose OCR ile C# kullanarak görüntüleri ön işleyip OCR doğruluğunu artırın.
 ### [Görüntüyü Düzleştirme – OCR Ön İşleme için Tam C# Rehberi](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Aspose.OCR kullanarak eğik görüntüleri düzleştirip OCR doğruluğunu artırın, adım adım C# örnekleriyle öğrenin.
+### [Aspose OCR ile Görüntüyü Düzleştirme – Tam C# Kılavuzu](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak görüntüleri eğriltme hatasından kurtulun ve C# ile tam adım adım düzleştirme işlemini öğrenin.
+### [C#'ta Toplu OCR Nasıl Yapılır – PNG Dosyalarından Metin Çıkarma İçin Hızlı Yöntem](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 
 ## Sıkça Sorulan Sorular
 

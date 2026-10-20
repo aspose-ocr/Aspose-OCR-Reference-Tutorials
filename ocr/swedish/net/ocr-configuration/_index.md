@@ -93,6 +93,7 @@ Lär dig hur du stänger av OCR-funktionen i C#‑applikationer för offline-anv
 Lär dig hur du laddar en bild och utför OCR samt stavningskontroll med Aspose OCR i C#‑applikationer.
 ### [Skapa OCR‑motor i C# – Komplett guide](./create-ocr-engine-in-c-complete-guide/)
 Skapa en OCR‑motor i C# med en komplett steg‑för‑steg‑guide för Aspose.OCR.
+### [Ställ in GPU-minnesgräns med Aspose OCR – C# GPU‑guide](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

@@ -544,6 +544,12 @@ Aspose OCR を使用して C# で JPG 画像からテキストを抽出する手
 Aspose.OCR を使用して C# で画像から検索可能な PDF を作成し、テキスト抽出と検索機能を実装する手順を解説します。
 ### [スキャン画像から ePub を作成する方法 – ステップバイステップガイド](./how-to-create-epub-from-scanned-images-step-by-step-guide/)
 Aspose.OCR を使用してスキャン画像から ePub 電子書籍を作成する手順を詳しく解説します。
+### [C# で PDF を OCR する – 完全 Aspose OCR チュートリアル](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
+Aspose を使用して C# で PDF を OCR し、テキスト抽出を行う完全ガイドです。手順に沿って簡単に実装できます。
+### [C# で Aspose を使用して画像の OCR を実行する – 完全ステップバイステップガイド](./run-ocr-on-image-with-aspose-in-c-full-step-by-step-guide/)
+Aspose を使用して C# で画像の OCR を実行する方法を、ステップバイステップで解説します。
+### [C# で画像からテキストを認識する – 完全 Aspose OCR ガイド](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
+Aspose を使用して C# で画像からテキストを認識する方法を、ステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
