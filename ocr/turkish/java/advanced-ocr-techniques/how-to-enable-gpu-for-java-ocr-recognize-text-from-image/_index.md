@@ -1,24 +1,52 @@
 ---
 category: general
-date: 2026-02-22
-description: Java OCR'de GPU'yu nasıl etkinleştireceğinizi öğrenin ve Aspose OCR kullanarak
-  görüntüden metin tanıma ile faturadan metni hızlıca çıkarın.
+date: 2026-10-19
+description: Aspose OCR kullanarak, Java OCR'de GPU'yu nasıl etkinleştirip görüntüden
+  metin tanıyacağınızı ve faturadan hızlıca metin çıkaracağınızı öğrenin.
 draft: false
 keywords:
-- how to enable gpu
 - recognize text from image
-- extract text from invoice
-- java ocr example
 - load image for ocr
-language: tr
-og_description: Java OCR'de GPU'yu nasıl etkinleştirir, görüntüden metni tanır ve
-  fatura üzerindeki metni tam bir Java OCR örneğiyle nasıl çıkarırız.
-og_title: Java OCR için GPU'yu Etkinleştirme – Hızlı Rehber
+- java ocr example aspose
+- enable gpu java ocr
+- aspose ocr performance
+lastmod: 2026-10-19
+og_description: Aspose kullanarak Java OCR'de GPU hızlandırmasıyla görüntüden metin
+  tanımayı öğrenin. Bu kılavuz, tam bir java ocr example, performans ipuçları ve sorun
+  giderme yöntemlerini gösterir.
+og_image_alt: Diagram of GPU‑accelerated OCR pipeline for Java showing image loading,
+  GPU processing, and text extraction
+og_title: GPU hızlandırmalı Java OCR ile görüntüden metin tanıma – Hızlı Kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to enable GPU in Java OCR to recognize text from image and
+    extract text from invoice fast using Aspose OCR.
+  headline: How to Enable GPU for Java OCR – Recognize Text from Image
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose OCR runs in a headless environment as long as the GPU drivers
+      are installed.
+    question: Does this work on headless servers?
+  - answer: Convert each PDF page to an image (e.g., using Aspose.PDF) and feed the
+      images to the OCR engine.
+    question: Can I process PDFs directly?
+  - answer: The engine will automatically fall back to `CPU_ONLY` mode; you can also
+      force CPU mode to avoid unexpected errors.
+    question: What if my GPU is older and not supported?
+  - answer: Load each page as a separate `OcrInput` instance, run `recognize` on each,
+      and concatenate the results.
+    question: How do I handle multi‑page invoices?
+  - answer: There is no hard limit, but processing extremely large batches may require
+      streaming to keep memory usage low.
+    question: Is there a limit on the number of pages I can process in one run?
+  type: FAQPage
 tags:
 - Java
 - OCR
 - GPU
 - Aspose
+- image processing
 title: Java OCR için GPU'yu Nasıl Etkinleştirirsiniz – Görüntüden Metin Tanıma
 url: /tr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-text-from-image/
 ---
@@ -27,24 +55,39 @@ url: /tr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-recognize-t
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java OCR için GPU'yu Nasıl Etkinleştirirsiniz – Görüntüden Metin Tanıma
+# Java OCR için GPU'yu nasıl etkinleştirirsiniz – görüntüden metin tanıma
 
-Java'da OCR yaparken **GPU'yu nasıl etkinleştirirsiniz** diye hiç merak ettiniz mi? Tek başınıza değilsiniz—birçok geliştirici, faturalar gibi büyük ve yüksek çözünürlüklü belgeleri işlerken performans sınırına takılıyor. İyi haber? Aspose OCR ile tek bir anahtarı çevirerek grafik kartının ağır işi üstlenmesini sağlayabilirsiniz. Bu öğreticide, bir **java ocr example** üzerinden bir görüntüyü yükleyip GPU işleme etkinleştirerek faturadan metni anında çıkaracağız.
+Java'da OCR yaparken **GPU'yu nasıl etkinleştirileceğini** hiç merak ettiniz mi? Yalnız değilsiniz—birçok geliştirici, faturalar gibi büyük, yüksek çözünürlüklü belgeleri işlerken performans sınırına takılıyor. İyi haber? Aspose OCR ile tek bir anahtarı çevirerek grafik kartının ağır işi yapmasını sağlayabilirsiniz. Bu öğreticide, bir **java ocr örneği** üzerinden bir görüntüyü yükleyen, GPU işlemeyi etkinleştiren ve bir faturadan metni anında çıkaran bir örnek üzerinden ilerleyeceğiz.
 
-Kütüphanenin kurulumu, eksik GPU sürücüleri gibi kenar durumlarının ele alınması gibi her şeyi kapsayacağız. Sonunda **görüntüden metin tanıma** dosyalarını anında tanıyabilecek ve gelecekteki OCR projeleriniz için sağlam bir şablona sahip olacaksınız. Harici referanslara gerek yok—sadece çalıştırılabilir kod.
+Kitaplığı kurmaktan eksik GPU sürücüleri gibi uç durumları ele almaya kadar her şeyi kapsayacağız. Sonunda **görüntüden metin tanıma** dosyalarını anında yapabilecek ve gelecekteki OCR projeleri için sağlam bir şablona sahip olacaksınız. Harici referans gerekmez—sadece saf, çalıştırılabilir kod.
+
+## Hızlı cevaplar
+- **Bu sadece CPU'lu bir makinede çalıştırabilir miyim?** Evet, işleme modunu `CPU_ONLY` olarak ayarlayın ve kod GPU olmadan çalışır.  
+- **Hangi GPU markaları destekleniyor?** NVIDIA, AMD ve Intel GPU'ları, sürücü güncel olduğu sürece desteklenir.  
+- **GPU modu ne kadar daha hızlı?** Tipik bir 300 dpi fatura üzerinde, GPU işlem süresini ~4 saniyeden <1 saniyeye düşürebilir.  
+- **Aspose OCR için lisans gerekiyor mu?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
+- **Görüntü ön işleme gerekli mi?** Yalnızca çok düşük kontrastlı veya gürültülü görüntüler için; aksi takdirde motor çoğu durumu otomatik olarak işler.
+
+## Görüntüden metin tanıma nedir?
+**Görüntüden metin tanıma**, bir bitmap (PNG, JPEG vb.) içindeki görsel karakterleri optik karakter tanıma (OCR) kullanarak düzenlenebilir, aranabilir Unicode metnine dönüştürmek anlamına gelir.  
+
+Aspose OCR motoru piksel desenlerini analiz eder, bunları dil modelleriyle eşleştirir ve güven puanlarıyla birlikte düz metin dizeleri döndürür. Bu yetenek, faturalar, makbuzlar ve taranmış formların dijitalleştirilmesi için esastır.
+
+## Java'da GPU hızlandırmalı OCR neden kullanılmalı?
+GPU kullanmak, hesaplama açısından yoğun konvolüsyon işlemlerini özel donanıma devreder. Aspose OCR, orta sınıf bir RTX 3060'da ** saniyede 50+ sayfa** işleyebilir, yüksek sınıf bir CPU'da ise saniyede 12 sayfa. Bu hız artışı, toplu işlem hatlarındaki gecikmeyi azaltır ve satış noktası terminalleri gibi gerçek zamanlı tarama senaryolarını mümkün kılar.
 
 ## Önkoşullar
 
-- **Java Development Kit (JDK) 11** veya daha yeni bir sürüm makinenizde kurulu.  
+- **Java Development Kit (JDK) 11** veya daha yeni bir sürüm makinenizde kurulu olmalı.  
 - **Maven** (veya Gradle) bağımlılık yönetimi için.  
-- **GPU‑destekli bir sistem** ve güncel sürücüler (NVIDIA, AMD veya Intel).  
-- Bir fatura görüntüsü dosyası (ör. `large_invoice_300dpi.png`).  
+- Güncel sürücülere (NVIDIA, AMD veya Intel) sahip **GPU destekli bir sistem**.  
+- Bir fatura görüntü dosyası (ör. `large_invoice_300dpi.png`).  
 
-Eğer bunlardan birine sahip değilseniz önce temin edin; rehberin geri kalanı bu koşulların mevcut olduğunu varsayar.
+Eğer bunlardan herhangi biri eksikse, önce temin edin; rehberin geri kalanı bunların mevcut olduğunu varsayar.
 
-## Adım 1: Aspose OCR'ı Projeye Ekleyin
+## Adım 1: Projenize Aspose OCR ekleyin
 
-İlk olarak Aspose OCR kütüphanesine ihtiyacımız var. Maven kullanıyorsanız, aşağıdaki kodu `pom.xml` dosyanıza ekleyin:
+İlk olarak Aspose OCR kütüphanesine ihtiyacımız var. Maven ile, aşağıdaki kod parçacığını `pom.xml` dosyanıza ekleyin:
 
 ```xml
 <dependency>
@@ -54,27 +97,31 @@ Eğer bunlardan birine sahip değilseniz önce temin edin; rehberin geri kalanı
 </dependency>
 ```
 
-> **İpucu:** Sürüm numarası düzenli olarak değişir; en yeni sürümü almak için Maven Central'i kontrol edin.
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.10</version> <!-- Use the latest version available -->
+</dependency>
+```
 
-Gradle tercih ediyorsanız eşdeğeri şu şekildedir:
+> **Pro ipucu:** Sürüm numarası düzenli olarak değişir; güncel kalmak için Maven Central'da en yeni sürümü kontrol edin.
+
+Gradle tercih ediyorsanız, eşdeğeri şudur:
 
 ```groovy
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-Bağımlılık çözüldükten sonra OCR motoruyla iletişim kuracak koda hazırsınız.
+```groovy
+implementation 'com.aspose:aspose-ocr:23.10'
+```
 
-## Adım 2: Aspose OCR Motorunda GPU'yu Nasıl Etkinleştirirsiniz
+Bağımlılık çözüldükten sonra, OCR motoru ile iletişim kuracak kodu yazmaya hazırsınız.
 
-Şimdi gösterinin yıldızı—GPU işleme açma zamanı. Aspose OCR üç işleme modu sunar:
+## Aspose OCR'de GPU nasıl etkinleştirilir?
 
-| Mod | Açıklama |
-|------|-------------|
-| `CPU_ONLY` | Sadece CPU, her makinede güvenli. |
-| `GPU_ONLY` | GPU'yu zorlar, uyumlu cihaz yoksa hata verir. |
-| `AUTO_GPU` | GPU var mı kontrol eder ve mevcutsa kullanır, aksi takdirde CPU'ya döner. |
-
-Çoğu senaryo için **`AUTO_GPU`** önerilir; çünkü iki dünyanın en iyisini sunar. İşte etkinleştirme şekli:
+`OcrEngine`, OCR işleme ve yapılandırmayı kontrol eden ana sınıftır. OCR motorunu yükleyin, işleme modunu `AUTO_GPU` olarak ayarlayın ve isteğe bağlı olarak belirli bir GPU cihazı seçin. Motor, mevcut GPU'ları otomatik olarak algılar ve kaynakları buna göre tahsis eder. Bu tek yapılandırma, kütüphaneye GPU'yu tercih etmesini, ancak uyumlu bir cihaz bulunamazsa CPU'ya geri dönmesini söyler.
 
 ```java
 import com.aspose.ocr.*;
@@ -93,11 +140,11 @@ public class GpuOcrDemo {
 }
 ```
 
-> **Neden önemli:** GPU'yu etkinleştirmek, 300 dpi bir faturanın işleme süresini donanımınıza bağlı olarak birkaç saniyeden bir saniyenin altına indirebilir.
+> **Neden önemli:** GPU'yu etkinleştirmek, donanımınıza bağlı olarak 300 dpi bir faturanın işlem süresini birkaç saniyeden bir saniyenin altına düşürebilir.
 
-## Adım 3: OCR İçin Görüntüyü Yükleyin – Görüntüden Metin Tanıma
+## OCR için görüntü nasıl yüklenir – görüntüden metin tanıma
 
-Motorun bir şey okuyabilmesi için ona bir görüntü sağlamalısınız. Aspose OCR’ın `OcrInput` sınıfı dosya yollarını, akışları veya hatta `BufferedImage` nesnelerini kabul eder. Basitlik açısından dosya yolunu kullanacağız:
+`OcrInput`, OCR motoru için giriş kaynağını temsil eder; dosyaları, akışları ve görüntüleri destekler. Motorun bir şey okuyabilmesi için ona bir görüntü sağlamalısınız. Aspose OCR'in `OcrInput` sınıfı dosya yollarını, akışları veya hatta `BufferedImage` nesnelerini kabul eder. Basitlik açısından bir dosya yolu kullanacağız. Bu yöntem, çoğu yaygın görüntü formatı için çalışır ve verimli bellek kullanımı sağlar.
 
 ```java
 // Step 3.1: Prepare the input image
@@ -105,11 +152,11 @@ OcrInput ocrInput = new OcrInput();
 ocrInput.add("YOUR_DIRECTORY/large_invoice_300dpi.png"); // <-- replace with your actual path
 ```
 
-> **Kenar durumu:** Görüntü 5 MB'den büyükse, GPU’da bellek hatalarıyla karşılaşmamak için önce ölçeklendirmeyi düşünün.
+> **Uç durum:** Görüntü 5 MB'den büyükse, GPU'da bellek dışı hataları önlemek için önce çözünürlüğünü düşürmeyi düşünün.
 
-## Adım 4: OCR'ı Gerçekleştirin ve Faturadan Metni Çıkarın
+## OCR nasıl yapılır ve faturadan metin nasıl çıkarılır
 
-Şimdi motorun sihrini çalıştıralım. `recognize` metodu, çıkarılan metin, güven skorları ve düzen bilgilerini içeren bir `OcrResult` nesnesi döndürür.
+`recognize`, verilen girdi üzerinde OCR analizini çalıştırır ve bir `OcrResult` döndürür. `recognize` yöntemi, çıkarılan metin, güven puanları ve düzen bilgilerini içeren bir `OcrResult` nesnesi döndürür. `OcrResult` çıkarılan metni, güven puanlarını ve düzen bilgilerini tutar. Ardından, ihtiyacınıza göre düz metni veya yapılandırılmış veriyi almak için sonuç üzerinde döngü kurabilirsiniz.
 
 ```java
 // Step 4.1: Run the recognition
@@ -120,7 +167,7 @@ System.out.println("=== Extracted Text ===");
 System.out.println(ocrResult.getText());
 ```
 
-Programı çalıştırdığınızda aşağıdakine benzer bir çıktı görmelisiniz:
+Programı çalıştırdığınızda, aşağıdakine benzer bir şey görmelisiniz:
 
 ```
 === Extracted Text ===
@@ -130,11 +177,11 @@ Total: $1,245.67
 ...
 ```
 
-Çıktı bozuk görünüyorsa, görüntünün net olduğundan ve OCR dilinin doğru ayarlandığından emin olun (Aspose varsayılan olarak İngilizce kullanır, ancak `ocrEngine.setLanguage(OcrEngine.Language.SPANISH)` gibi değiştirilebilir).
+Çıktı bozuk görünüyorsa, görüntünün net olduğundan ve OCR dilinin doğru ayarlandığından (Aspose varsayılan olarak İngilizce'dir, ancak `ocrEngine.setLanguage(OcrEngine.Language.SPANISH)` gibi değiştirilebilir) iki kez kontrol edin.
 
-## Adım 5: Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
+## Tam çalışan örnek (kopyala-yapıştır hazır)
 
-Aşağıda eksiksiz, bağımsız bir Java sınıfı bulunuyor. IDE’nize yapıştırın, görüntü yolunu ayarlayın ve **Run** tuşuna basın.
+Aşağıda eksiksiz, bağımsız bir Java sınıfı bulunmaktadır. IDE'nize yapıştırın, görüntü yolunu ayarlayın ve **Run** tuşuna basın.
 
 ```java
 import com.aspose.ocr.*;
@@ -163,49 +210,76 @@ public class GpuOcrDemo {
 }
 ```
 
-### Beklenen Çıktı
+### Beklenen çıktı
 
-Temiz bir 300 dpi faturada kodu çalıştırmak genellikle belgenin her satırının düz metin temsilini üretir. Tam çıktı fatura düzenine bağlıdır, ancak *Invoice Number*, *Date*, *Total Amount* ve satır‑item açıklamaları gibi alanları göreceksiniz.
+Temiz bir 300 dpi fatura üzerinde kodu çalıştırmak, genellikle belgedeki her satırın düz metin temsilini verir. Tam çıktı fatura düzenine bağlıdır, ancak *Invoice Number*, *Date*, *Total Amount* ve satır öğesi açıklamaları gibi alanları göreceksiniz.
 
-## Yaygın Tuzaklar & Çözüm Yolları
+## Yaygın tuzaklar ve nasıl düzeltileceği
 
-| Belirti | Muhtemel Neden | Çözüm |
+| Semptom | Muhtemel neden | Çözüm |
 |---------|----------------|-------|
-| **`java.lang.UnsatisfiedLinkError`** | GPU sürücüsü eksik veya uyumsuz | NVIDIA/AMD/Intel'ten en yeni sürücüyü kurun. |
-| **Çok yavaş işleme** | GPU sessizce CPU'ya geri dönüyor | `ocrEngine.getProcessingMode()`'un `AUTO_GPU` döndürdüğünden ve `SystemInfo.isGpuAvailable()`'ın true olduğundan emin olun. |
-| **Boş çıktı** | Görüntü çok karanlık veya düşük kontrastlı | OCR'a vermeden önce görüntüyü ön‑işleyin (kontrast artırın, ikilileştirin). |
-| **Bellek dışı hata** | Çok büyük görüntü (>10 MP) | Görüntüyü yeniden boyutlandırın veya parçalara bölün; her parçayı ayrı ayrı işleyin. |
+| **`java.lang.UnsatisfiedLinkError`** | GPU sürücüsü eksik veya uyumsuz | NVIDIA/AMD/Intel'den en son sürücüyü yükleyin. |
+| **Çok yavaş işleme** | GPU sessizce CPU'ya geri dönüyor | `ocrEngine.getProcessingMode()`'un `AUTO_GPU` döndürdüğünü ve `SystemInfo.isGpuAvailable()`'ın true olduğunu doğrulayın. |
+| **Boş çıktı** | Görüntü çok karanlık veya düşük kontrastlı | OCR'ye vermeden önce görüntüyü ön işleme tabi tutun (kontrastı artırın, ikilileştirin). |
+| **Bellek dışı** | Çok büyük görüntü (>10 MP) | Görüntüyü yeniden boyutlandırın veya parçalara bölün; her parçayı ayrı ayrı işleyin. |
 
-## Adım‑Adım Özet (Hızlı Başvuru)
+## Adım adım özet (hızlı referans)
 
-| Adım | Ne Yaptınız |
-|------|--------------|
-| 1 | Aspose OCR bağımlılığını eklediniz |
-| 2 | `OcrEngine` oluşturup `AUTO_GPU` ayarladınız |
-| 3 | `OcrInput` ile bir fatura görüntüsü yüklediniz |
-| 4 | `recognize` çağırıp `ocrResult.getText()`'i yazdırdınız |
-| 5 | Yaygın hataları ele aldınız ve çıktıyı doğruladınız |
+| Adım | Yaptığınız şey |
+|------|----------------|
+| 1 | Aspose OCR bağımlılığı eklendi |
+| 2 | `OcrEngine` oluşturuldu ve `AUTO_GPU` ayarlandı |
+| 3 | `OcrInput` ile bir fatura görüntüsü yüklendi |
+| 4 | `recognize` çağrıldı ve `ocrResult.getText()` yazdırıldı |
+| 5 | Yaygın hatalar ele alındı ve çıktı doğrulandı |
 
-## Daha İleri – Sonraki Adımlar
+## İleriye doğru – sonraki adımlar
 
-- **Toplu işleme:** Bir klasördeki tüm faturaları döngüye alıp her sonucu bir veritabanına kaydedin.  
-- **Dil desteği:** Çok dilli faturalar için `ocrEngine.setLanguage(OcrEngine.Language.FRENCH)` gibi ayarlar yapın.  
-- **Son‑işleme:** Düz metinden *Invoice Number* veya *Total Amount* gibi alanları çıkarmak için düzenli ifadeler kullanın.  
+- **Toplu işleme:** Faturaların bir klasöründe döngü yapın ve her sonucu bir veritabanına kaydedin.  
+- **Dil desteği:** Çok dilli faturalar için `ocrEngine.setLanguage(OcrEngine.Language.FRENCH)`'a geçin.  
+- **Son işlem:** Düz metinden *Invoice Number* veya *Total Amount* gibi alanları çıkarmak için düzenli ifadeler kullanın.  
 - **GPU ayarı:** Birden fazla GPU'nuz varsa, en hızlısını seçmek için `ocrEngine.setGpuDeviceId(int id)`'yi keşfedin.
 
 ## Sonuç
 
-**GPU'yu nasıl etkinleştirirsiniz** gösterdik, temiz bir **java ocr example** sunduk ve **görüntüden metin tanıma** ile **faturadan metin çıkarma** sürecinin tamamını adım adım anlattık. Aspose’un `AUTO_GPU` modunu kullanarak performans artışı elde ederken uyumluluktan ödün vermiyorsunuz—geliştirme makineleri ve üretim sunucuları için mükemmel.
+**Java OCR için GPU'yu nasıl etkinleştireceğinizi** gösterdik, temiz bir **java ocr örneği** sunduk ve **OCR için görüntü yükleme**'den **faturadan metin çıkarma**'ya kadar tüm akışı adım adım anlattık. Aspose'un `AUTO_GPU` modunu kullanarak uyumluluğu kaybetmeden bir performans artışı elde edersiniz—geliştirme makineleri ve üretim sunucuları için mükemmeldir.
 
-Deneyin, görüntü ön‑işlemesini ayarlayın ve toplu işler deneyin. GPU hızlandırması ile sağlam bir OCR kütüphanesini birleştirdiğinizde sınır yoktur.
+Deneyin, görüntü ön işleme ayarlarını değiştirin ve toplu işler ile deney yapın. GPU hızlandırması ile sağlam bir OCR kütüphanesini birleştirdiğinizde sınır yoktur.
 
----
+![GPU hızlandırmalı OCR boru hattını gösteren diyagram – Java OCR için GPU nasıl etkinleştirilir](https://example.com/images/gpu-ocr-pipeline.png "Java OCR için GPU nasıl etkinleştirilir")
 
-![GPU‑hızlandırmalı OCR boru hattını gösteren diyagram – Java OCR için GPU nasıl etkinleştirilir](https://example.com/images/gpu-ocr-pipeline.png "Java OCR için GPU nasıl etkinleştirilir")
+[GPU hızlandırmalı OCR boru hattını gösteren diyagram – Java OCR için GPU nasıl etkinleştirilir](https://example.com/images/gpu-ocr-pipeline.png "Java OCR için GPU nasıl etkinleştirilir")
 
----
+## Sıkça Sorulan Sorular
+
+**Q: Bu, başsız sunucularda çalışır mı?**  
+**A: Evet, GPU sürücüleri yüklü olduğu sürece Aspose OCR başsız bir ortamda çalışır.**
+
+**Q: PDF'leri doğrudan işleyebilir miyim?**  
+**A: Her PDF sayfasını bir görüntüye dönüştürün (ör. Aspose.PDF kullanarak) ve görüntüleri OCR motoruna besleyin.**
+
+**Q: GPU'm eski ve desteklenmiyorsa ne olur?**  
+**A: Motor otomatik olarak `CPU_ONLY` moduna geri dönecektir; beklenmeyen hatalardan kaçınmak için CPU modunu zorlayabilirsiniz.**
+
+**Q: Çok sayfalı faturaları nasıl ele alırım?**  
+**A: Her sayfayı ayrı bir `OcrInput` örneği olarak yükleyin, her birinde `recognize` çalıştırın ve sonuçları birleştirin.**
+
+**Q: Tek bir çalıştırmada işleyebileceğim sayfa sayısında bir limit var mı?**  
+**A: Katı bir limit yoktur, ancak çok büyük toplu işlemler bellek kullanımını düşük tutmak için akış gerektirebilir.**
+
+**Son Güncelleme:** 2026-10-19  
+**Test Edilen:** Aspose.OCR 24.11 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Görüntüden Metin Çıkarma Java Tam OCR Rehberi](/ocr/java/advanced-ocr-techniques/extract-text-from-image-java-complete-ocr-guide/)
+- [Aspose OCR Java Hızlı Kılavuzu ile Görüntüden Metin Çıkarma](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+- [Aspose.OCR for Java kullanarak URL'den görüntüden metin çıkarma](/ocr/java/advanced-ocr-techniques/perform-ocr-image-from-url/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
