@@ -148,6 +148,17 @@ url: /el/java/advanced-ocr-techniques/
 
 ## [Προεπεξεργασία εικόνας για OCR – Βελτιώστε την ακρίβεια εξαγωγής κειμένου σε Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Μάθετε πώς να προετοιμάσετε εικόνες για OCR, βελτιώνοντας την ακρίβεια της εξαγωγής κειμένου στις εφαρμογές Java.
+### [Προεπεξεργασία εικόνας για OCR – Βελτιώστε την ακρίβεια με την προεπεξεργασία](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Βελτιώστε την ακρίβεια του OCR προεπεξεργάζοντας εικόνες πριν την εξαγωγή κειμένου.
+
+### [Αναγνώριση κειμένου από εικόνα με Java – GPU OCR tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Εκμεταλλευτείτε την επιτάχυνση GPU για OCR σε εικόνες με Java, εξάγοντας κείμενο γρήγορα και με υψηλή ακρίβεια.
+
+### [Αναγνώριση κειμένου από εικόνες με Aspose OCR – Οδηγός Παράλληλης Επεξεργασίας σε Java](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Εκμεταλλευτείτε την παράλληλη επεξεργασία για γρήγορη εξαγωγή κειμένου από πολλές εικόνες με Aspose OCR σε Java.
+
+### [Εξαγωγή κειμένου από κρυπτογραφημένο PDF σε Java – Πλήρης Οδηγός](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Αποκτήστε πρόσβαση σε κρυπτογραφημένα PDF και εξάγετε κείμενο με Java, χρησιμοποιώντας Aspose.PDF για αξιόπιστη και ασφαλή επεξεργασία.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

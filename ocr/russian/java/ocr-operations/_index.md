@@ -139,6 +139,10 @@ weight: 21
 ### [Распознавание текста из PNG с Aspose OCR – Полный Java туториал](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [Выполнение OCR на изображении с Java – извлечение тайского текста из PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Полный пошаговый туториал по распознаванию тайского текста из PNG‑изображений с помощью Aspose.OCR в Java.
+### [Распознавание текста в ROI с Aspose OCR – Java Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Извлеките текст из выбранного региона изображения (ROI) с помощью Aspose OCR в Java. Пошаговый гид по настройке и использованию.
+### [Загрузка изображения для OCR с Aspose OCR Java – Полное руководство](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Подробный пошаговый туториал по загрузке изображений и их обработке OCR с использованием Aspose OCR для Java.
 
 ## Часто задаваемые вопросы
 

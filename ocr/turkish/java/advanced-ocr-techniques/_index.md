@@ -184,6 +184,14 @@ Java ve Aspose.OCR kullanarak PNG formatındaki görüntülerden metin çıkarı
 Java OCR kullanarak GPU hızlandırmalı görüntü metni tanıma örneğiyle yüksek performanslı OCR elde edin.
 ### [Java OCR'da İlgi Alanı Tanımlama – Tam Kılavuz](./define-region-of-interest-in-java-ocr-complete-guide/)
 ### [OCR için Görüntü Ön İşleme – Java'da Metin Çıkarma Doğruluğunu Artırın](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+### [Java ile Görüntüden Metin Tanıma – GPU OCR Öğreticisi](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Java ve GPU desteğiyle yüksek hızlı metin tanıma, görüntülerden metni hızlı ve doğru bir şekilde çıkarın.
+### [Aspose OCR ile Görüntülerden Metin Tanıma – Java Paralel Toplu Rehberi](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Aspose OCR ile Java’da paralel toplu işleme kullanarak görüntülerden hızlı ve doğru metin çıkarın.
+### [Java'da Şifreli PDF'den Metin Çıkarma – Tam Kılavuz](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Java kullanarak şifreli PDF dosyalarından metin çıkarın, güvenli ve doğru OCR işlemleriyle projelerinizi geliştirin.
+### [OCR için Görüntüyü Ön İşleme – Ön İşlemeyle Doğruluğu Artırma](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+OCR doğruluğunu artırmak için görüntüleri ön işleme teknikleriyle hazırlayın ve sonuçları iyileştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -149,6 +149,10 @@ Khám phá cách nhận dạng văn bản từ ảnh PNG bằng Aspose OCR trong
 Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java, bao gồm cấu hình và lưu trữ kết quả.
 ### [Chạy OCR trên hình ảnh với Java – Trích xuất văn bản Thai từ PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Khám phá cách trích xuất văn bản Thai từ ảnh PNG bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Nhận dạng văn bản trong ROI với Aspose OCR – Hướng dẫn Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Khám phá cách nhận dạng văn bản trong vùng quan tâm (ROI) bằng Aspose OCR trong Java, từ cấu hình đến trích xuất kết quả chính xác.
+### [Tải ảnh cho OCR với Aspose OCR Java – Hướng dẫn đầy đủ](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Hướng dẫn chi tiết cách tải ảnh và thực hiện OCR bằng Aspose OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

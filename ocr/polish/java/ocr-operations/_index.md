@@ -149,6 +149,10 @@ Kompletny przewodnik po rozpoznawaniu tekstu z plików PNG w Javie przy użyciu 
 Kompletny przewodnik, jak przekształcić obraz w przeszukiwalny plik PDF przy użyciu Aspose.OCR w Javie.
 ### [Uruchom OCR na obrazie w Javie – wyodrębnij tajski tekst z PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Odblokuj możliwość wyodrębniania tajskiego tekstu z plików PNG w Javie przy użyciu Aspose.OCR.
+### [Rozpoznawanie tekstu w ROI przy użyciu Aspose OCR – samouczek Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Odblokuj możliwość wyodrębniania tekstu z wybranego obszaru obrazu (ROI) przy użyciu Aspose OCR w Javie.
+### [Ładowanie obrazu do OCR z Aspose OCR Java – Kompletny przewodnik](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Pełny przewodnik po ładowaniu obrazów do OCR przy użyciu Aspose OCR dla Javy, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

@@ -152,6 +152,10 @@ Comprehensive guide to recognizing PDF text with Aspose OCR in Java, covering se
 Full Java guide for recognizing text from PNG images using Aspose OCR, covering setup, processing, and optimization.
 ### [Run OCR on Image with Java – Extract Thai Text from PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Extract Thai text from PNG images using Aspose.OCR for Java. Step‑by‑step guide to run OCR on images with Thai language support.
+### [recognize text in ROI with Aspose OCR – Java Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Learn how to extract text from a specific region of interest (ROI) in images using Aspose OCR for Java, with step‑by‑step guidance.
+### [Load Image for OCR with Aspose OCR Java – Complete Guide](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Complete guide to loading images for OCR using Aspose OCR for Java, covering setup, options, and best practices.
 
 ## Frequently Asked Questions
 

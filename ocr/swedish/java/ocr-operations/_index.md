@@ -149,6 +149,10 @@ En komplett guide som visar hur du använder Aspose OCR för att känna igen tex
 En steg‑för‑steg‑guide för att köra OCR på PNG‑bilder och extrahera thaitext med Aspose.OCR för Java.
 ### [Skapa sökbar PDF från bild med Java – Steg‑för‑steg‑guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 En detaljerad guide som visar hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java.
+### [Känna igen text i ROI med Aspose OCR – Java‑handledning](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Lär dig hur du extraherar text från ett specifikt område (ROI) i en bild med Aspose OCR för Java.
+### [Ladda bild för OCR med Aspose OCR Java – Fullständig guide](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+En komplett guide som visar hur du laddar en bild för OCR med Aspose OCR i Java.
 
 ## Vanliga frågor
 

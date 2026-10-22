@@ -146,6 +146,10 @@ Extrahieren Sie thailändischen Text aus PNG‑Bildern mit Aspose.OCR für Java.
 Erfahren Sie, wie Sie PDF‑Text mit Aspose OCR in Java vollständig erkennen und verarbeiten.
 ### [Erstellen Sie ein durchsuchbares PDF aus einem Bild mit Java – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Erfahren Sie, wie Sie aus einem Bild ein durchsuchbares PDF mit Aspose.OCR für Java erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Texterkennung im ROI mit Aspose OCR – Java‑Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Entdecken Sie, wie Sie mit Aspose OCR für Java Text in einem definierten ROI erkennen.
+### [Bild für OCR mit Aspose OCR Java laden – Vollständige Anleitung](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Lernen Sie, wie Sie Bilder in Java laden und mit Aspose OCR vollständig verarbeiten, um präzise Texterkennung zu erzielen.
 
 ## Häufig gestellte Fragen
 

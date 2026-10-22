@@ -145,6 +145,10 @@ weight: 21
 完整的 Java 示例，演示如何将图像转换为可搜索的 PDF 并导出结果。
 ### [使用 Java 对图像进行 OCR – 从 PNG 中提取泰文文本](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 完整的 Java 示例，演示如何使用 Aspose OCR 从 PNG 图像中提取泰文文本并导出结果。
+### [使用 Aspose OCR 在 ROI 中识别文本 – Java 教程](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+演示如何使用 Aspose OCR 在 Java 中对感兴趣区域（ROI）进行文本识别的完整教程。
+### [使用 Aspose OCR Java 加载图像进行 OCR – 完整指南](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+完整示例演示如何在 Java 中使用 Aspose OCR 加载图像并执行 OCR，获取文本并导出结果。
 
 ## 常见问题
 

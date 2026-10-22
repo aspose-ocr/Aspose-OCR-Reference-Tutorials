@@ -48,7 +48,18 @@ Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat
 ### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-with-java-complete-guide/)
 Buat PDF dapat dicari menggunakan Java dengan panduan lengkap kami, memanfaatkan Aspose.OCR untuk ekstraksi teks yang akurat.
 
-## Kesimpulan
+## [Mengenali teks dari gambar menggunakan Java – tutorial OCR GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Gunakan GPU untuk mempercepat OCR pada gambar dengan Java. Ikuti tutorial langkah demi langkah kami untuk hasil akurat dan cepat.
+
+## [Mengenali teks dari gambar dengan Aspose OCR – Panduan Batch Paralel Java](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Gunakan Aspose OCR untuk memproses banyak gambar secara paralel dalam batch dengan Java. Panduan langkah demi langkah untuk kinerja optimal.
+
+## [Ekstrak Teks dari PDF terenkripsi di Java – Panduan Lengkap](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Pelajari cara mengekstrak teks dari PDF yang terenkripsi menggunakan Java dengan panduan lengkap ini. Ikuti langkah demi langkah untuk hasil akurat.
+
+## [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Pra-pemrosesan](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+
+Pelajari cara pra‑pemrosesan gambar untuk meningkatkan akurasi OCR menggunakan Aspose.OCR pada Java.
 
 Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!
 ## Tutorial Teknik OCR Tingkat Lanjut

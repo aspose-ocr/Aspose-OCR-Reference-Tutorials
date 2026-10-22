@@ -150,6 +150,10 @@ Java में Aspose OCR का उपयोग करके PNG इमेज �
 इमेज को PDF में बदलें और OCR लागू करके सर्चेबल बनाएं। Java कोड उदाहरणों के साथ सरल चरण‑बद्ध मार्गदर्शन।
 ### [Java के साथ इमेज पर OCR चलाएँ – PNG से थाई टेक्स्ट निकालें](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Java में Aspose.OCR का उपयोग करके PNG इमेज से थाई भाषा का टेक्स्ट निकालें। कोड उदाहरणों के साथ।
+### [Aspose OCR के साथ ROI में टेक्स्ट पहचानें – Java ट्यूटोरियल](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aspose OCR का उपयोग करके ROI (Region of Interest) में टेक्स्ट पहचानें, Java कोड के साथ चरण‑बद्ध गाइड।
+### [Aspose OCR Java के साथ OCR के लिए इमेज लोड करें – पूर्ण गाइड](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 
 ## अक्सर पूछे जाने वाले सवाल
 

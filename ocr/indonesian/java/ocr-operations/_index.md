@@ -149,6 +149,10 @@ Panduan lengkap mengenali teks pada gambar PNG menggunakan Aspose OCR dengan Jav
 Panduan langkah‑demi‑langkah untuk membuat PDF yang dapat dicari dari gambar menggunakan Java dan Aspose.OCR.
 ### [Jalankan OCR pada Gambar dengan Java – Ekstrak Teks Thai dari PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Panduan lengkap mengekstrak teks Thai dari gambar PNG menggunakan Aspose.OCR dengan Java, langkah demi langkah untuk hasil akurat.
+### [Mengenali Teks dalam ROI dengan Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Ekstrak teks dari area ROI pada gambar menggunakan Aspose OCR di Java dengan panduan langkah demi langkah.
+### [Muat Gambar untuk OCR dengan Aspose OCR Java – Panduan Lengkap](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Panduan lengkap memuat gambar untuk OCR menggunakan Aspose OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

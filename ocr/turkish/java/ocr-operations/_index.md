@@ -114,6 +114,10 @@ Java'da Aspose OCR kullanarak PNG görüntülerinden metin tanımayı adım adı
 Java kullanarak görüntüden aranabilir PDF oluşturma sürecini adım adım öğrenin.
 ### [Java ile Görüntü Üzerinde OCR Çalıştırma – PNG'den Tay Metni Çıkarma](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Java ve Aspose.OCR kullanarak PNG dosyalarından Tay dili metnini adım adım çıkarın.
+### [Aspose OCR ile ROI içinde Metin Tanıma – Java Öğreticisi](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Java'da ROI (ilgi alanı) içinde metin tanımayı adım adım gösteren kapsamlı bir öğretici.
+### [Aspose OCR Java ile Görüntü Yükleme – Tam Kılavuz](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Java uygulamanızda Aspose OCR kullanarak bir görüntüyü nasıl yükleyip OCR işlemi yapacağınızı adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

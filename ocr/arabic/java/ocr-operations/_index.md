@@ -134,6 +134,9 @@ weight: 21
 دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 ### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [تشغيل OCR على صورة باستخدام Java – استخراج النص التايلاندي من PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+### [التعرف على النص في ROI باستخدام Aspose OCR – دليل Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+### [تحميل صورة للتعرف الضوئي على الأحرف باستخدام Aspose OCR Java – دليل كامل](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+دليل شامل يوضح كيفية تحميل صورة وإجراء OCR باستخدام Aspose OCR للـ Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

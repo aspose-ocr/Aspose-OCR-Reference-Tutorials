@@ -147,6 +147,10 @@ Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een vol
 Leer hoe u met Aspose.OCR in Java Thaise tekst uit PNG‑afbeeldingen kunt herkennen en extraheren.
 ### [Maak doorzoekbare PDF van afbeelding met Java – Stapsgewijze gids](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt vanuit een afbeelding in Java, stap voor stap.
+### [Tekst in ROI herkennen met Aspose OCR – Java‑tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Leer hoe u tekst binnen een specifiek gebied (ROI) kunt herkennen met Aspose OCR in Java.
+### [Afbeelding laden voor OCR met Aspose OCR Java – volledige gids](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Leer hoe u afbeeldingen kunt laden en voorbereiden voor OCR met Aspose OCR voor Java in een volledige gids.
 
 ## Veelgestelde vragen
 

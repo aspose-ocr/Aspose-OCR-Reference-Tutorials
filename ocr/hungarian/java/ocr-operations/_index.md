@@ -130,6 +130,8 @@ Fedezd fel, hogyan ismerheted fel a PDF-ek szövegét Aspose OCR segítségével
 Fedezd fel, hogyan ismerheted fel a PNG képek szövegét az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
 ### [OCR futtatása képen Java-val – Thai szöveg kinyerése PNG-ből](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Fedezd fel, hogyan nyerheted ki a thai nyelvű szöveget PNG képekből az Aspose.OCR Java segítségével.
+### [Szöveg felismerése ROI-ban az Aspose OCR-rel – Java útmutató](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+### [Kép betöltése OCR-hez az Aspose OCR Java-val – Teljes útmutató](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

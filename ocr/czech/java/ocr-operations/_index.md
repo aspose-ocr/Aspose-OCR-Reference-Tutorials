@@ -139,6 +139,10 @@ Kompletní návod, jak pomocí Aspose OCR v Javě rozpoznat a extrahovat text z 
 ### [Rozpoznání textu z PNG pomocí Aspose OCR – Kompletní Java průvodce](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [Spuštění OCR na obrázku v Javě – Extrahování thajského textu z PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Naučte se pomocí Aspose.OCR v Javě rozpoznat thajský text v PNG obrázcích a získat přesné výsledky.
+### [Rozpoznání textu v ROI pomocí Aspose OCR – Java tutoriál](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Naučte se rozpoznávat text v oblasti zájmu (ROI) pomocí Aspose OCR v Javě.
+### [Načtení obrázku pro OCR s Aspose OCR Java – Kompletní průvodce](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Naučte se, jak načíst obrázek a provést OCR pomocí Aspose OCR pro Java v podrobném průvodci krok za krokem.
 
 ## Často kladené otázky
 

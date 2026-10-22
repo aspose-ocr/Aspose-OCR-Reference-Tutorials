@@ -137,6 +137,11 @@ JPG इमेज से टेक्स्ट निकालने के ल�
 ### [Java में इमेज से टेक्स्ट पहचानें – पूर्ण OCR ट्यूटोरियल](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 Java में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें, सेटअप से लेकर उन्नत OCR तकनीकों तक।
 
+### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – पूर्ण जावा ट्यूटोरियल](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Aspose OCR का उपयोग करके जावा में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण गाइड।
+
+### [इमेज को टेक्स्ट में बदलें – जावा में Aspose OCR का पूर्ण उदाहरण](./convert-image-to-text-java-complete-aspose-ocr-example/)
+
 ---
 
 **अंतिम अपडेट:** 2025-12-08  

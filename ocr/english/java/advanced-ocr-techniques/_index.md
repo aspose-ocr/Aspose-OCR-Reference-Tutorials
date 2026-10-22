@@ -169,6 +169,14 @@ Learn how to perform OCR on PNG images using Aspose.OCR for Java, extracting tex
 Learn how to preprocess images to improve OCR accuracy in Java using Aspose.OCR, covering scaling, denoising, and binarization techniques.
 ### [Define Region of Interest in Java OCR – Complete Guide](./define-region-of-interest-in-java-ocr-complete-guide/)
 Learn how to define a region of interest for OCR in Java using Aspose.OCR, improving accuracy and extracting text from specific image areas.
+### [recognize text from image using Java – GPU OCR tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Leverage GPU acceleration to recognize text from images in Java using Aspose.OCR, achieving faster processing and high accuracy.
+### [recognize text from images with Aspose OCR – Java Parallel Batch Guide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Learn how to process multiple images concurrently using Aspose.OCR for Java, boosting OCR throughput with parallel batch execution.
+### [Extract Text from Encrypted PDF in Java – Complete Guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Learn how to decrypt PDF files and extract text using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
+### [Preprocess Image for OCR – Boost Accuracy with Preprocessing](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Boost OCR accuracy by preprocessing images before recognition with Aspose.OCR for Java.
 
 ## Frequently Asked Questions
 

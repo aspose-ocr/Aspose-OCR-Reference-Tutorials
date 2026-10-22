@@ -154,6 +154,14 @@ Aspose.OCR for Java を使用して、PNG 画像からテキストを正確に�
 ### [Java OCR で画像テキストを認識する – GPU 加速例](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
 ### [OCR 用に画像を前処理 – Java でテキスト抽出精度を向上させる](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 このチュートリアルでは、画像前処理手法を使用して OCR の精度を高め、Java アプリケーションでのテキスト抽出を最適化する方法を解説します。
+### [Java で画像からテキストを認識する – GPU OCR チュートリアル](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+GPU を活用した高速 OCR により、Java アプリで画像テキスト抽出を実現します。
+### [Aspose OCR を使用した画像からのテキスト認識 – Java 並列バッチ ガイド](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Aspose OCR を活用し、Java で画像を並列バッチ処理しながら高速にテキスト抽出する方法をステップバイステップで解説します。
+### [Java で暗号化された PDF からテキストを抽出する – 完全ガイド](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Java を使用して暗号化された PDF からテキストを安全に抽出する方法をステップバイステップで解説します。
+### [OCR 用画像前処理 – 前処理で精度を向上](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+画像を前処理して OCR の精度を向上させる方法をステップバイステップで解説します。Java で簡単に実装可能です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

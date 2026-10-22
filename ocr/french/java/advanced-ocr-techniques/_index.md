@@ -168,6 +168,18 @@ Reconnaissez rapidement le texte d'une image PNG avec Aspose.OCR pour Java. Guid
 Définissez la région d'intérêt pour l'OCR en Java avec Aspose.OCR. Guide complet pour une extraction précise et efficace du texte.
 ### [Prétraiter l'image pour l'OCR – Améliorer la précision d'extraction du texte en Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Optimisez la précision de l'extraction de texte en prétraitant vos images avec Aspose.OCR pour Java. Guide étape par étape.
+### [Prétraiter l'image pour l'OCR – Améliorer la précision grâce au prétraitement](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Optimisez la précision de l'OCR en prétraitant vos images avec Aspose.OCR pour Java. Suivez notre guide étape par étape.
+
+## [Reconnaître le texte à partir d'une image avec Java – Tutoriel OCR GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Exploitez la puissance du GPU pour extraire rapidement du texte d'images en Java avec Aspose.OCR. Suivez notre guide pas à pas.
+
+## [Reconnaître le texte à partir d'images avec Aspose OCR – Guide Java de traitement par lots parallèle](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Exploitez le traitement par lots parallèle en Java avec Aspose OCR pour extraire rapidement le texte de multiples images. Suivez notre guide pas à pas.
+
+## [Extraire du texte d'un PDF chiffré en Java – Guide complet](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Apprenez à extraire rapidement le texte d'un PDF protégé par mot de passe en Java avec Aspose.OCR. Suivez notre guide complet pas à pas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

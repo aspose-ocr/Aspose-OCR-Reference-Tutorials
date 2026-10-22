@@ -166,6 +166,13 @@ Strömma stora TIFF-bilder och extrahera textsegment med Aspose.OCR för Java f�
 Utför OCR på PNG-bilder med Java och extrahera text smidigt med Aspose.OCR.
 ### [Definiera intresseområde i Java OCR – Komplett guide](./define-region-of-interest-in-java-ocr-complete-guide/)
 Definiera ett intresseområde för OCR i Java med Aspose.OCR. Följ vår steg‑för‑steg‑guide för exakt textutvinning.
+### [Känn igen text från bilder med Aspose OCR – Java parallell batchguide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Utnyttja parallell batchbehandling för att snabbt känna igen text i flera bilder med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide.
+### [Extrahera text från krypterad PDF i Java – Komplett guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Extrahera text från krypterad PDF i Java med Aspose. Följ vår steg‑för‑steg‑guide för enkel och säker textextraktion.
+### [Förbehandla bild för OCR – Öka noggrannheten med förbehandling](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Förbättra OCR‑noggrannheten genom att förbehandla bilder innan igenkänning. Följ vår steg‑för‑steg‑guide för bästa resultat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

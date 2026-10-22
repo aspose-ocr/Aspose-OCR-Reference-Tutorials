@@ -142,6 +142,10 @@ Aspose OCR を使用して PNG 画像からテキストを認識する完全な 
 Java と Aspose.OCR を使用して PNG 画像からタイ語テキストを抽出する完全ガイドです。
 ### [Aspose OCR で PDF テキストを認識 – 完全 Java ガイド](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
 ### [Java で画像から検索可能な PDF を作成 – ステップバイステップ ガイド](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+### [Aspose OCR を使用した ROI 内テキスト認識 – Java チュートリアル](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+ROI（関心領域）内の画像テキストを抽出する手順を、Aspose OCR の Java API で詳しく解説します。
+### [Aspose OCR Java で画像をロードして OCR – 完全ガイド](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+画像のロードから OCR 実行まで、完全な手順を詳しく解説します。
 
 ## よくある質問
 

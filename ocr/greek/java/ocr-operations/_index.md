@@ -143,6 +143,10 @@ weight: 21
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες PNG με το Aspose OCR σε Java.
 ### [Εκτέλεση OCR σε εικόνα με Java – Εξαγωγή Ταϊλανδικού κειμένου από PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Μάθετε πώς να αναγνωρίζετε και να εξάγετε κείμενο ταϊλανδικής γλώσσας από αρχεία PNG χρησιμοποιώντας Aspose.OCR για Java.
+### [Αναγνώριση κειμένου σε ROI με Aspose OCR – Java Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Αναγνωρίστε κείμενο σε συγκεκριμένη περιοχή (ROI) με το Aspose OCR για Java, βήμα‑βήμα οδηγός για ακριβή εξαγωγή.
+### [Φόρτωση εικόνας για OCR με Aspose OCR Java – Πλήρης οδηγός](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Μάθετε πώς να φορτώνετε εικόνες για OCR χρησιμοποιώντας το Aspose OCR Java σε πλήρη οδηγό βήμα‑βήμα.
 
 ## Συχνές Ερωτήσεις
 

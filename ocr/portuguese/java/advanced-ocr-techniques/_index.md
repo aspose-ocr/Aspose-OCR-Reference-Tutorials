@@ -165,6 +165,14 @@ Aprenda a habilitar a GPU para acelerar o OCR com Aspose.OCR, reconhecendo texto
 Aprenda a criar PDFs pesquisáveis usando Aspose.OCR para Java. Guia completo passo a passo para gerar documentos com texto pesquisável.
 ### [Como corrigir inclinação de imagem para OCR – Guia de pré‑processamento Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Aprenda a corrigir a inclinação de imagens antes do OCR usando Aspose.OCR para Java, melhorando a precisão da extração de texto.
+### [Reconhecendo texto de imagem usando Java – tutorial de OCR com GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Aprenda a usar a GPU para acelerar o OCR em imagens com Aspose.OCR para Java, obtendo alta precisão e desempenho.
+### [Reconhecendo texto de imagens com Aspose OCR – Guia de Processamento Paralelo em Lote Java](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Aprenda a processar OCR em lote de forma paralela usando Aspose OCR para Java, aumentando a velocidade e a precisão da extração de texto.
+### [Extrair texto de PDF criptografado em Java – Guia completo](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Aprenda a extrair texto de PDFs protegidos usando Aspose.OCR para Java, com passos detalhados e alta precisão.
+### [Pré-processar imagem para OCR – Aumente a precisão com pré-processamento](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Aprenda a melhorar a precisão do OCR pré-processando imagens antes da extração de texto com Aspose.OCR para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

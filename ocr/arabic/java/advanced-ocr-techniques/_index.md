@@ -156,6 +156,13 @@ url: /ar/java/advanced-ocr-techniques/
 اكتشف كيفية استخراج النص من صور PNG باستخدام Aspose.OCR لـ Java. عملية سريعة ودقيقة.
 ### [تحديد منطقة الاهتمام في OCR لجافا – دليل شامل](./define-region-of-interest-in-java-ocr-complete-guide/)
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – تحسين دقة استخراج النص في Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+### [التعرف على النص من صورة باستخدام Java – دليل OCR باستخدام GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+استخدم GPU لتسريع عملية التعرف الضوئي على الحروف في Java واستخراج النص من الصور بكفاءة عالية.
+### [التعرف على النص من الصور باستخدام Aspose OCR – دليل الدفعة المتوازية لجافا](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+استخدم الدفعات المتوازية لمعالجة مجموعة من الصور بسرعة باستخدام Aspose OCR في Java واستخراج النص بكفاءة.
+### [استخراج النص من PDF مشفر في جافا – دليل كامل](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – تعزيز الدقة عبر المعالجة المسبقة](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+تعلم كيفية معالجة الصور مسبقًا لتحسين دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
