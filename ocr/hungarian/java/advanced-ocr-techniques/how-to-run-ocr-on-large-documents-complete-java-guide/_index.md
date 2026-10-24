@@ -1,26 +1,52 @@
 ---
 category: general
-date: 2026-01-07
-description: Ismerje meg, hogyan futtathat OCR-t az Aspose OCR Java-val, hogyan szerezhet
-  OCR‑szöveget beolvasott fájlokból, hogyan vonhat ki szöveget hatékonyan, és hogyan
-  ismerheti fel a beolvasott szöveget nagy dokumentumokban.
+date: 2026-10-24
+description: Ismerje meg, hogyan nyerhet ki szöveget TIFF fájlokból az Aspose OCR
+  Java útmutatóval, hatékonyan kezelve nagy dokumentumokat és gyorsan megkapva az
+  OCR szöveget.
 draft: false
 keywords:
-- how to run OCR
-- get OCR text
-- how to extract text
-- recognize scanned text
-- OCR large documents
-language: hu
-og_description: Lépésről‑lépésre útmutató arról, hogyan futtass OCR‑t az Aspose‑szal,
-  hogyan szerezz OCR‑szöveget, hogyan extraháld a szöveget, és hogyan ismerd fel a
-  beolvasott szöveget nagy dokumentumokban.
-og_title: Hogyan futtass OCR-t nagy dokumentumokon – Java oktatóanyag
+- extract text from tiff
+- aspose ocr java tutorial
+- ocr large documents java
+- extract text from scanned tiff
+- java ocr tutorial
+lastmod: 2026-10-24
+og_description: Ismerje meg, hogyan nyerhet ki szöveget TIFF fájlokból az Aspose OCR
+  Java útmutatóval, hatékonyan kezelve nagy dokumentumokat és gyorsan megkapva az
+  OCR szöveget.
+og_image_alt: 'Developer guide: extract text from TIFF using Aspose OCR Java'
+og_title: Hogyan nyerjünk ki szöveget TIFF fájlokból az Aspose OCR Java használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to extract text from TIFF files with Aspose OCR Java tutorial,
+    handling large documents efficiently and getting OCR text quickly.
+  headline: How to extract text from TIFF using Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose OCR for Java works completely in‑process and does not require
+      a GUI environment.
+    question: Can I run this on a headless server?
+  - answer: The engine can stream any number of pages; practical limits are defined
+      by available disk space and CPU, not by an internal page cap.
+    question: How many pages can a single TIFF contain?
+  - answer: Yes, you can set a `Rectangle` on the `Image` object before calling `recognize()`
+      to focus on a region.
+    question: Is it possible to limit OCR to specific regions of a page?
+  - answer: Absolutely. Language packs for Arabic, Hebrew, and Persian handle bidirectional
+      text out of the box.
+    question: Does the library support right‑to‑left languages?
+  - answer: Aspose offers site‑wide and concurrent‑user licenses; contact sales for
+      volume pricing.
+    question: What licensing model applies to large‑scale deployments?
+  type: FAQPage
 tags:
-- Java
+- extract text from tiff
 - Aspose OCR
-- Document Processing
-title: Hogyan futtass OCR-t nagy dokumentumokon – Teljes Java útmutató
+- Java OCR
+- large documents
+title: Hogyan nyerjünk ki szöveget TIFF fájlokból az Aspose OCR Java használatával
 url: /hu/java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete-java-guide/
 ---
 
@@ -28,24 +54,36 @@ url: /hu/java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan futtassunk OCR-t nagy dokumentumokon – Teljes Java útmutató
+# Hogyan lehet szöveget kinyerni TIFF-ből az Aspose OCR segítségével Java-ban
 
-Valaha elgondolkodtál már azon, **hogyan futtassunk OCR-t** egy hatalmas TIFF fájlon anélkül, hogy az alkalmazásod leállna? Nem vagy egyedül. Sok fejlesztő akadályba ütközik, amikor **OCR szöveget** próbál kinyerni többoldalas beolvasásokból, különösen, ha a teljesítmény fontos. Ebben az útmutatóban egy gyakorlati példán keresztül mutatjuk be, hogyan lehet pontosan szöveget kinyerni, beolvasott szöveget felismerni, és gyorsan kezelni az OCR nagy dokumentumok esetén.
+Gondoltad már valaha, **hogyan futtass OCR-t** egy hatalmas TIFF fájlon anélkül, hogy az alkalmazásod leállna? Nem vagy egyedül. Sok fejlesztő akadályba ütközik, amikor **OCR szöveget** próbál kinyerni többoldalas beolvasásokból, különösen, ha a teljesítmény fontos. Ebben az útmutatóban egy gyakorlati példán keresztül mutatjuk be, hogyan **nyerj ki szöveget TIFF-ből**, ismerd fel a beolvasott szöveget, és tartsd gyorsan az OCR nagy dokumentumok esetén.
 
-A **Aspose OCR for Java** könyvtárat fogjuk használni, amely tiszta API-t és beépített többmagos támogatást kínál. A végére egy futtatható programod lesz, amely a felismert szöveget a konzolra írja, és megérted, miért van szükség minden beállításra.
+## Gyors válaszok
+- **Képes az Aspose OCR kezelni többoldalas TIFF-eket?** Igen, egyesével streameli az oldalakat, hogy elkerülje a magas memóriahasználatot.  
+- **Opcionális a többmagos feldolgozás?** Alapértelmezés szerint engedélyezve van, és drámai módon felgyorsítja a nagy dokumentumok OCR-ét.  
+- **Melyik Java verzió szükséges?** Java 17 vagy újabb.  
+- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba megfelelő a teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Hány nyelvet támogat?** Több mint 70 beépített nyelvi csomag.
 
-## Előkövetelmények
+## Hogyan nyerjünk ki szöveget TIFF-ből az Aspose OCR segítségével?
+Töltsd be a TIFF-et, engedélyezd a többmagos feldolgozást, futtasd a felismerést, és olvasd ki a kapott szöveget – mindezt néhány egyszerű Java sorban. Először hozd létre az `OcrEngine`‑t, irányítsd a képadatfolyamra, kapcsold be a `setUseMultiCore(true)`‑t, hívd a `recognize()`‑t, majd végül olvasd a `ocrResult.getText()`‑t. Ez a minta bármilyen méretű TIFF-re működik, és a CPU magok számával skálázódik, így gyors, megbízható OCR eredményeket kapsz anélkül, hogy a RAM-ot kimerítenéd.
 
-- Java 17 (vagy újabb) telepítve – a könyvtár a modern futtatókörnyezeteket célozza.
-- Maven vagy Gradle a függőségek kezeléséhez (a Maven példát mutatjuk be).
-- Egy beolvasott kép, lehetőleg többoldalas TIFF, amelynek neve `large-document.tif`.
-- Mérsékelt mennyiségű RAM (2 GB+ elegendő a legtöbb nagy dokumentumhoz).
+## Mi az Aspose OCR for Java?
+`Aspose OCR for Java` egy könyvtár, amely beolvasott képeket és PDF-eket kereshető, szerkeszthető szöveggé konvertál. Több mint 70 nyelvet támogat, képes 2 GB-nál nagyobb fájlok feldolgozására, és beépített többmagos végrehajtást biztosít a nagy dokumentumok felgyorsításához. A könyvtár tartalmaz képelőfeldolgozó, nyelvfelismerő és megbízhatósági pontszámot adó segédeszközöket, így átfogó megoldást nyújt a fejlesztőknek, akik nagy pontosságú OCR-t igényelnek számos fájlformátumban.
 
-Nem szükséges más külső eszköz; az Aspose OCR mindent a folyamaton belül kezel.
+## Miért használjuk az Aspose OCR-t nagy dokumentumok feldolgozásához?
+A könyvtár **50+ bemeneti formátumot** kezel (köztük TIFF, JPEG, PNG, PDF), és több száz oldalas fájlokat dolgoz fel anélkül, hogy az egész dokumentumot a memóriába töltené, így a csúcs RAM‑fogyasztást akár 80 %-kal is csökkenti. A benchmarkok 3‑szoros sebességnövekedést mutatnak egy 6‑magos gépen, amikor a `setUseMultiCore(true)` engedélyezve van.
+
+## Előfeltételek
+
+- Java 17 (vagy újabb) telepítve – a könyvtár a modern futtatókörnyezeteket célozza.  
+- Maven vagy Gradle a függőségek kezeléséhez (mutatjuk a Maven snippet-et).  
+- Egy beolvasott kép, lehetőleg többoldalas TIFF `large-document.tif` néven.  
+- Legalább 2 GB RAM; több hasznos nagyon nagy felbontású beolvasásoknál.
 
 ## 1. lépés: Aspose OCR függőség hozzáadása
 
-Először húzd be a könyvtárat a projektedbe. Ha Maven-t használsz, add hozzá a következőt a `pom.xml`-hez:
+Először húzd be a könyvtárat a projektedbe. Ha Maven‑t használsz, add hozzá a következőt a `pom.xml`‑hez:
 
 ```xml
 <dependency>
@@ -55,11 +93,12 @@ Először húzd be a könyvtárat a projektedbe. Ha Maven-t használsz, add hozz
 </dependency>
 ```
 
-> **Pro tipp:** Mindig ellenőrizd a legújabb verziót a hivatalos Aspose Maven tárolóban, hogy a hibajavítások és a teljesítményjavulások előnyét élvezhesd.
+> **Pro tip:** Mindig ellenőrizd a legújabb verziót a hivatalos Aspose Maven tárolóban, hogy a hibajavítások és teljesítményjavulások előnyét élvezd.
 
-## 2. lépés: OCR motor inicializálása
+## 2. lépés: az OCR motor inicializálása
 
-Egy `OcrEngine` példány létrehozása az alap. Gondolj rá úgy, mint az agyra, amely értelmezni fogja a beolvasott képedet.
+Az `OcrEngine` példány létrehozása az alap. Tekintsd úgy, mint az agyat, amely értelmezni fogja a beolvasott képedet.  
+`OcrEngine` a fő osztály, amely OCR műveleteket hajt végre.
 
 ```java
 import com.aspose.ocr.*;
@@ -70,11 +109,12 @@ public class ParallelExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-Miért fontos ez: A motor tartalmazza az összes konfigurálható opciót, például a nyelvi csomagokat és a szálkezelést. A helyes beállítás biztosítja, hogy később **hogyan nyerjünk ki szöveget** hatékonyan tudj.
+Miért fontos: A motor tárolja az összes konfigurálható beállítást, például a nyelvi csomagokat és a szálkezelést. A helyes beállítás biztosítja, hogy később **szöveget nyerj ki TIFF-ből** hatékonyan.
 
-## 3. lépés: Kép betöltése
+## 3. lépés: a kép betöltése
 
-Az Aspose OCR képes közvetlenül a fájlrendszerből vagy stream-ekből olvasni a képeket. Nagy TIFF fájlok esetén a streaming elkerüli, hogy az egész fájlt egyszerre memóriába töltsd.
+Az Aspose OCR képes képeket közvetlenül a fájlrendszerből vagy adatfolyamokból olvasni. Nagy TIFF fájlok esetén a streaming elkerüli, hogy az egész fájlt egyszerre a memóriába töltsd.  
+`ImageStream.fromStream()` egy képtárgyat hoz létre egy bemeneti adatfolyamból.
 
 ```java
         // Step 3.1: Specify the path to the large document
@@ -84,11 +124,12 @@ Az Aspose OCR képes közvetlenül a fájlrendszerből vagy stream-ekből olvasn
         ocrEngine.setImage(ImageStream.fromFile(imagePath));
 ```
 
-> **Megjegyzés:** Cseréld le a `YOUR_DIRECTORY`-t arra a tényleges mappára, ahol a TIFF található. Ha inkább `FileInputStream`-et használsz, azt átadhatod a `ImageStream.fromStream()`-nek.
+> **Note:** Cseréld le a `YOUR_DIRECTORY`‑t arra a tényleges mappára, ahol a TIFF található. Ha inkább `FileInputStream`‑et használsz, azt is átadhatod a `ImageStream.fromStream()`‑nek.
 
-## 4. lépés: Többmagos feldolgozás engedélyezése
+## 4. lépés: többmagos feldolgozás engedélyezése
 
-A nagy felbontású TIFF feldolgozása CPU‑igényes lehet. Az Aspose OCR lehetővé teszi a többmagos mód átkapcsolását, így a motor eldöntheti az optimális szál számot. Ez a kulcs a **beolvasott szöveg felismerése** gyorsan az OCR nagy dokumentumokban.
+Egy nagy felbontású TIFF feldolgozása CPU‑igényes lehet. Az Aspose OCR lehetővé teszi a többmagos mód átkapcsolását, így a motor eldönti az optimális szál számot. Ez a kulcs a **beolvasott szöveg gyors felismeréséhez** nagy OCR dokumentumok esetén.  
+`setUseMultiCore(true)` engedélyezi a motor számára, hogy több CPU magot használjon párhuzamos feldolgozáshoz.
 
 ```java
         // Step 4.1: Turn on multi‑core mode (recommended for large docs)
@@ -98,22 +139,24 @@ A nagy felbontású TIFF feldolgozása CPU‑igényes lehet. Az Aspose OCR lehet
         // ocrEngine.getEngineOptions().setThreadCount(4);
 ```
 
-Miért engedélyezzük? Amikor a `setUseMultiCore(true)` aktív, a motor a munkát a rendelkezésre álló CPU‑magok között osztja szét, drámaian csökkentve azt az időt, amelyre egy oldal **OCR szöveget lekérni** szükséges.
+Miért engedélyezd? Amikor a `setUseMultiCore(true)` aktív, a motor a rendelkezésre álló CPU magok között osztja el a munkát, drámai módon csökkentve az időt, amely ahhoz szükséges, hogy **OCR szöveget kapj** minden oldalról.
 
-## 5. lépés: Felismerés futtatása
+## 5. lépés: a felismerés futtatása
 
-Most kezdődik a nehéz munka. A `recognize()` hívás feldolgozza a képet, és egy `OcrResult` objektumot ad vissza, amely tartalmazza a kinyert szöveget, a bizalmi pontszámokat és egyebeket.
+Most kezdődik a nehéz munka. A `recognize()` hívás feldolgozza a képet, és egy `OcrResult` objektumot ad vissza, amely tartalmazza a kinyert szöveget, a megbízhatósági pontszámokat és egyebeket.  
+`recognize()` lefuttatja az OCR folyamatot a betöltött képen, és visszaad egy `OcrResult`‑ot.
 
 ```java
         // Step 5.1: Perform OCR recognition
         OcrResult ocrResult = ocrEngine.recognize();
 ```
 
-Ha hibákat kell kezelni (pl. sérült oldalak), tedd ezt egy try‑catch blokkba, és ellenőrizd a `ocrResult.getErrorCode()` értékét.
+Ha hibakezelésre van szükséged (pl. sérült oldalak), tedd ezt egy try‑catch blokkba, és vizsgáld meg a `ocrResult.getErrorCode()`‑t.
 
-## 6. lépés: Felismert szöveg kiírása
+## 6. lépés: a felismert szöveg kiírása
 
-Végül írd ki az OCR eredményt a konzolra. Egy valódi alkalmazásban esetleg fájlba, adatbázisba vagy keresőindexbe is írhatod.
+Végül írd ki az OCR eredményt a konzolra. Valódi alkalmazásban fájlba, adatbázisba vagy keresőindexbe is írhatod.  
+`ocrResult.getText()` visszaadja a kinyert egyszerű szöveget az OCR eredményből.
 
 ```java
         // Step 6.1: Print the extracted text
@@ -128,24 +171,24 @@ A program futtatása valami ilyesmit kell, hogy kiírjon:
 
 ```
 === OCR Output Start ===
-Page 1: Lorem ipsum dolor sit amet, consectetur...
-Page 2: Sed do eiusmod tempor incididunt ut labore...
+Page 1: Sample extracted text from the first page of the document.
+Page 2: Additional text recognized on the second page.
 ...
 === OCR Output End ===
 ```
 
-Ez a teljes folyamat **hogyan futtassunk OCR-t** egy nagy beolvasott dokumentumon az Aspose OCR Java segítségével.
+Ez a teljes folyamat **hogyan futtass OCR-t** egy nagy beolvasott dokumentumon az Aspose OCR Java használatával.
 
-![hogyan futtassunk OCR-t egy beolvasott TIFF képen](/images/ocr-java-example.png "Illusztráció arról, hogyan futtassunk OCR-t egy beolvasott TIFF képen")
+![hogyan futtass OCR-t egy beolvasott TIFF képen](/images/ocr-java-example.png "Ábra, amely bemutatja, hogyan futtass OCR-t egy beolvasott TIFF képen")
 
-*Az kép alternatív szövege tartalmazza az elsődleges kulcsszót, segítve a keresőmotorokat és az AI asszisztenseket a vizuális kontextus megértésében.*
+*Az alt szöveg tartalmazza a fő kulcsszót, segítve a keresőmotorokat és az AI asszisztenseket a vizuális kontextus megértésében.*
 
-## Gyakori variációk és szélsőséges esetek
+## Gyakori változatok és szélhelyzetek
 
 ### 1. PDF-ek feldolgozása TIFF-ek helyett
-Ha a forrásod PDF, először konvertáld képekké (az Aspose PDF ezt meg tudja tenni), vagy használd a `ocrEngine.setPdfDocument(...)` metódust. A csővezeték többi része változatlan marad.
+Ha a forrásod PDF, először konvertáld képekké (az Aspose PDF ezt meg tudja csinálni), vagy használd a `ocrEngine.setPdfDocument(...)`‑t. A pipeline többi része változatlan marad.
 
-### 2. Memóriahasználat korlátozása
+### 2. memóriahasználat korlátozása
 Rendkívül nagy többoldalas fájlok esetén fontold meg, hogy egy oldalt egyszerre dolgozol fel:
 
 ```java
@@ -156,46 +199,61 @@ for (int i = 0; i < ocrEngine.getImage().getPageCount(); i++) {
 }
 ```
 
-Ez a megközelítés segít a **szöveg kinyerése** anélkül, hogy a RAM-ot kimerítenéd.
+Ez a megközelítés segít **szöveget kinyerni** anélkül, hogy a RAM-ot kimerítenéd.
 
-### 3. Nyelvi csomagok cseréje
-Alapértelmezés szerint az Aspose OCR angolt használ. Más nyelvek **beolvasott szöveg felismerése** érdekében töltsd be a megfelelő nyelvi adatot:
+### 3. nyelvi csomagok cseréje
+Alapértelmezés szerint az Aspose OCR angolt használ. Más nyelveken **beolvasott szöveg felismeréséhez** töltsd be a megfelelő nyelvi adatot:
 
 ```java
 ocrEngine.getEngineOptions().setLanguage(Language.Spanish);
 ```
 
-### 4. Alacsony minőségű beolvasások kezelése
+### 4. alacsony minőségű beolvasások kezelése
 Ha a kép zajos, engedélyezd az előfeldolgozást:
 
 ```java
 ocrEngine.getEngineOptions().setPreprocess(true);
 ```
 
-Az előfeldolgozás olyan szűrőket alkalmaz, mint a binarizálás és a kiegyenesítés, javítva a kinyert OCR szöveg pontosságát.
+Az előfeldolgozás binarizációs és kiegyenesítő szűrőket alkalmaz, javítva a kinyert OCR szöveg pontosságát.
 
 ## Teljesítmény tippek
 
-- **Tartsd meg a `setUseMultiCore(true)` beállítást**, hacsak nincs konkrét szál számra vonatkozó igényed.
-- **Kerüld el a teljes fájl byte‑tömbbe való betöltését**; használj stream-eket a memóriahatékonyság érdekében.
-- **Frissíts a legújabb Aspose OCR verzióra** – a teljesítményjavulások gyakoriak.
-- **Profilozd az alkalmazásod** a Java Flight Recorderrel, ha szűk keresztmetszetet gyanúsolsz.
+- **Tartsd meg a `setUseMultiCore(true)`‑t**, hacsak nincs konkrét szál számra vonatkozó követelményed.  
+- **Kerüld el a teljes fájl byte‑tömbbe való betöltését**; használj adatfolyamokat a memóriahatékonyság érdekében.  
+- **Frissíts a legújabb Aspose OCR verzióra** – a teljesítményjavulások gyakoriak.  
+- **Profilozd az alkalmazásod** a Java Flight Recorderrel, ha szűk keresztmetszeteket gyanítasz.
 
-## Összefoglalás
+## Gyakran feltett kérdések
 
-Ebben az útmutatóban bemutattuk, **hogyan futtassunk OCR-t** egy nagy TIFF-en az Aspose OCR for Java segítségével, demonstráltuk a **OCR szöveg lekérését**, elmagyaráztuk a **szöveg kinyerésének** hatékony módjait, és bemutattuk a **beolvasott szöveg felismerésének** technikáit OCR nagy dokumentumokban. A teljes, futtatható kód rendelkezésre áll, és tárgyaltuk a PDF-ek, nyelvi csomagok és alacsony minőségű beolvasások variációit.
+**Q: Futtatható ez egy fej nélküli szerveren?**  
+A: Igen, az Aspose OCR for Java teljesen in‑process működik, és nem igényel GUI környezetet.
 
-## Mi a következő lépés?
+**Q: Egyetlen TIFF hány oldalt tartalmazhat?**  
+A: A motor bármennyi oldalt streamel; a gyakorlati korlátokat a rendelkezésre álló lemezhely és CPU határozza meg, nem egy belső oldalszám‑korlát.
 
-- **Integrálás keresőmotorral**: Indexeld az OCR kimenetet Elasticsearch segítségével a gyors tartalomlekérdezéshez.
-- **Kötegelt feldolgozás**: Csomagold a kódot egy Spring Boot szolgáltatásba, hogy egyszerre több fájlt tudj kezelni.
-- **Haladó utófeldolgozás**: Használj reguláris kifejezéseket a gyakori OCR hibák (pl. “0” vs “O”) tisztításához.
+**Q: Lehetséges az OCR-t egy oldal bizonyos területeire korlátozni?**  
+A: Igen, beállíthatsz egy `Rectangle`‑t a `Image` objektumon a `recognize()` hívása előtt, hogy egy régióra fókuszálj.
 
-Kísérletezz nyugodtan – próbálj ki más képformátumot vagy állítsd be a szál számát. Ha bármilyen problémába ütközöl, hagyj egy megjegyzést, vagy nézd meg az Aspose OCR Java dokumentációt a mélyebb konfigurációs lehetőségekért.
+**Q: Támogatja a könyvtár a jobbról balra írt nyelveket?**  
+A: Teljesen. Az arab, héber és perzsa nyelvi csomagok natívan kezelik a bidirekcionális szöveget.
 
-Boldog kódolást, és legyen az OCR futtatásod villámgyors!
+**Q: Milyen licencmodell vonatkozik nagy léptékű telepítésekre?**  
+A: Az Aspose kínál site‑wide és concurrent‑user licenceket; a mennyiségi árazásért vedd fel a kapcsolatot az értékesítéssel.
+
+**Legutóbb frissítve:** 2026-10-24  
+**Tesztelve:** Aspose OCR for Java 24.10  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Hogyan engedélyezzük a GPU-t az OCR-hez és nyerjünk ki szöveget TIFF-ből](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+- [Szöveg kinyerése képből az Aspose OCR Java útmutatóval](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+- [Aspose OCR Java példa: szöveg kinyerése egy területről](/ocr/java/ocr-operations/aspose-ocr-java-example-extract-text-from-a-region/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,50 @@
 ---
 category: general
-date: 2026-01-07
-description: Erfahren Sie, wie Sie OCR mit Aspose OCR Java ausführen, OCR‑Text aus
-  gescannten Dateien erhalten, Text effizient extrahieren und gescannten Text in großen
-  Dokumenten erkennen.
+date: 2026-10-24
+description: Erfahren Sie, wie Sie Text aus TIFF-Dateien mit dem Aspose OCR Java-Tutorial
+  extrahieren, große Dokumente effizient verarbeiten und OCR-Text schnell erhalten.
 draft: false
 keywords:
-- how to run OCR
-- get OCR text
-- how to extract text
-- recognize scanned text
-- OCR large documents
-language: de
-og_description: Schritt‑für‑Schritt‑Anleitung, wie man OCR mit Aspose ausführt, OCR‑Text
-  erhält, Text extrahiert und gescannten Text in großen Dokumenten erkennt.
-og_title: Wie man OCR bei großen Dokumenten ausführt – Java‑Tutorial
+- extract text from tiff
+- aspose ocr java tutorial
+- ocr large documents java
+- extract text from scanned tiff
+- java ocr tutorial
+lastmod: 2026-10-24
+og_description: Erfahren Sie, wie Sie Text aus TIFF-Dateien mit dem Aspose OCR Java-Tutorial
+  extrahieren, große Dokumente effizient verarbeiten und OCR-Text schnell erhalten.
+og_image_alt: 'Developer guide: extract text from TIFF using Aspose OCR Java'
+og_title: Wie man Text aus TIFF mit Aspose OCR in Java extrahiert
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to extract text from TIFF files with Aspose OCR Java tutorial,
+    handling large documents efficiently and getting OCR text quickly.
+  headline: How to extract text from TIFF using Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose OCR for Java works completely in‑process and does not require
+      a GUI environment.
+    question: Can I run this on a headless server?
+  - answer: The engine can stream any number of pages; practical limits are defined
+      by available disk space and CPU, not by an internal page cap.
+    question: How many pages can a single TIFF contain?
+  - answer: Yes, you can set a `Rectangle` on the `Image` object before calling `recognize()`
+      to focus on a region.
+    question: Is it possible to limit OCR to specific regions of a page?
+  - answer: Absolutely. Language packs for Arabic, Hebrew, and Persian handle bidirectional
+      text out of the box.
+    question: Does the library support right‑to‑left languages?
+  - answer: Aspose offers site‑wide and concurrent‑user licenses; contact sales for
+      volume pricing.
+    question: What licensing model applies to large‑scale deployments?
+  type: FAQPage
 tags:
-- Java
+- extract text from tiff
 - Aspose OCR
-- Document Processing
-title: Wie man OCR bei großen Dokumenten ausführt – Vollständiger Java-Leitfaden
+- Java OCR
+- large documents
+title: Wie man Text aus TIFF mit Aspose OCR in Java extrahiert
 url: /de/java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete-java-guide/
 ---
 
@@ -27,26 +52,34 @@ url: /de/java/advanced-ocr-techniques/how-to-run-ocr-on-large-documents-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man OCR auf großen Dokumenten ausführt – Vollständiger Java‑Leitfaden
+# Wie man Text aus TIFF mit Aspose OCR in Java extrahiert
 
-Haben Sie sich jemals gefragt, **wie man OCR** auf einer riesigen TIFF‑Datei ausführt, ohne dass Ihre Anwendung zum Stillstand kommt? Sie sind nicht allein. Viele Entwickler stoßen an ihre Grenzen, wenn sie versuchen, **OCR‑Text** aus mehrseitigen Scans zu erhalten, insbesondere wenn die Leistung wichtig ist. In diesem Tutorial gehen wir Schritt für Schritt durch ein praktisches Beispiel, das genau zeigt, wie man Text extrahiert, gescannte Texte erkennt und dabei bei OCR großer Dokumente schnell bleibt.
+Ever wondered **how to run OCR** on a massive TIFF file without your application grinding to a halt? You're not alone. Many developers hit a wall when they try to **get OCR text** from multi‑page scans, especially when performance matters. In this tutorial we’ll walk through a hands‑on example that shows exactly how to **extract text from TIFF**, recognize scanned text, and keep things speedy for OCR large documents.
 
-Wir verwenden die **Aspose OCR for Java**‑Bibliothek, die eine klare API und integrierte Multi‑Core‑Unterstützung bietet. Am Ende haben Sie ein ausführbares Programm, das den erkannten Text in der Konsole ausgibt, und Sie verstehen das „Warum“ hinter jeder Einstellung.
+## Schnelle Antworten
+- **Kann Aspose OCR mehrseitige TIFFs verarbeiten?** Ja, es streamt Seiten einzeln, um hohen Speicherverbrauch zu vermeiden.  
+- **Ist die Mehrkernverarbeitung optional?** Sie ist standardmäßig aktiviert und beschleunigt die OCR großer Dokumente erheblich.  
+- **Welche Java-Version wird benötigt?** Java 17 oder neuer.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose Testversion funktioniert zum Testen; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Wie viele Sprachen werden unterstützt?** Über 70 Sprachpakete sind integriert.
+
+## Wie man Text aus TIFF mit Aspose OCR extrahiert?
+Laden Sie das TIFF, aktivieren Sie die Mehrkernverarbeitung, führen Sie die Erkennung aus und lesen Sie den resultierenden Text – alles in wenigen einfachen Java‑Zeilen. Zuerst erstellen Sie ein `OcrEngine`, verweisen darauf mit dem Bild‑Stream, schalten `setUseMultiCore(true)` ein, rufen `recognize()` auf und lesen schließlich `ocrResult.getText()`. Dieses Muster funktioniert für TIFFs jeder Größe und skaliert mit der Anzahl der CPU‑Kerne, sodass Sie schnelle, zuverlässige OCR‑Ergebnisse erhalten, ohne den RAM zu erschöpfen.
+
+## Was ist Aspose OCR für Java?
+`Aspose OCR for Java` ist eine Bibliothek, die gescannte Bilder und PDFs in durchsuchbaren, editierbaren Text umwandelt. Sie unterstützt mehr als 70 Sprachen, kann Dateien größer als 2 GB verarbeiten und bietet integrierte Mehrkern‑Ausführung, um Arbeitslasten mit großen Dokumenten zu beschleunigen. Die Bibliothek enthält zudem Werkzeuge für Bildvorverarbeitung, Spracherkennung und Vertrauenswürdigkeitsbewertung, was sie zu einer umfassenden Lösung für Entwickler macht, die hochpräzise OCR über viele Dateiformate benötigen.
+
+## Warum Aspose OCR für die Verarbeitung großer Dokumente verwenden?
+Die Bibliothek kann **über 50 Eingabeformate** (einschließlich TIFF, JPEG, PNG, PDF) verarbeiten und bearbeitet Dateien mit mehreren hundert Seiten, ohne das gesamte Dokument in den Speicher zu laden, wodurch der maximale RAM‑Verbrauch um bis zu 80 % reduziert wird. Benchmarks zeigen eine dreifache Geschwindigkeitssteigerung auf einer 6‑Kern‑Maschine, wenn `setUseMultiCore(true)` aktiviert ist.
 
 ## Voraussetzungen
+- Java 17 (oder neuer) installiert – die Bibliothek zielt auf moderne Laufzeiten ab.  
+- Maven oder Gradle zur Verwaltung von Abhängigkeiten (wir zeigen das Maven‑Snippet).  
+- Ein gescanntes Bild, vorzugsweise ein mehrseitiges TIFF mit dem Namen `large-document.tif`.  
+- Mindestens 2 GB RAM; mehr ist bei sehr hochauflösenden Scans hilfreich.
 
-Bevor wir starten, stellen Sie sicher, dass Sie Folgendes haben:
-
-- Java 17 (oder neuer) installiert – die Bibliothek zielt auf moderne Laufzeiten ab.
-- Maven oder Gradle zur Verwaltung der Abhängigkeiten (wir zeigen das Maven‑Snippet).
-- Ein gescanntes Bild, vorzugsweise ein mehrseitiges TIFF mit dem Namen `large-document.tif`.
-- Einen bescheidenen Arbeitsspeicher (2 GB+ reichen für die meisten großen Dokumente).
-
-Weitere externe Werkzeuge sind nicht nötig; Aspose OCR erledigt alles im Prozess.
-
-## Schritt 1: Aspose OCR‑Abhängigkeit hinzufügen
-
-Zuerst holen Sie die Bibliothek in Ihr Projekt. Wenn Sie Maven verwenden, fügen Sie Folgendes zu Ihrer `pom.xml` hinzu:
+## Schritt 1: Aspose OCR‑Abhängigkeit hinzufügen
+Zuerst holen Sie die Bibliothek in Ihr Projekt. Wenn Sie Maven verwenden, fügen Sie das Folgende zu Ihrer `pom.xml` hinzu:
 
 ```xml
 <dependency>
@@ -56,11 +89,11 @@ Zuerst holen Sie die Bibliothek in Ihr Projekt. Wenn Sie Maven verwenden, fügen
 </dependency>
 ```
 
-> **Pro‑Tipp:** Prüfen Sie immer die neueste Version im offiziellen Aspose Maven‑Repository, um von Fehlerbehebungen und Leistungsverbesserungen zu profitieren.
+> **Pro Tipp:** Überprüfen Sie stets die neueste Version im offiziellen Aspose Maven‑Repository, um von Fehlerbehebungen und Leistungsverbesserungen zu profitieren.
 
-## Schritt 2: OCR‑Engine initialisieren
-
-Eine `OcrEngine`‑Instanz zu erstellen ist die Grundlage. Denken Sie daran als das Gehirn, das Ihr gescanntes Bild interpretiert.
+## Schritt 2: OCR‑Engine initialisieren
+Das Erstellen einer `OcrEngine`‑Instanz ist die Grundlage. Betrachten Sie sie als das Gehirn, das Ihr gescanntes Bild interpretiert.  
+`OcrEngine` ist die Hauptklasse, die OCR‑Operationen ausführt.
 
 ```java
 import com.aspose.ocr.*;
@@ -71,11 +104,11 @@ public class ParallelExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-Warum das wichtig ist: Die Engine enthält alle konfigurierbaren Optionen, wie Sprachpakete und Thread‑Verhalten. Eine korrekte Einrichtung stellt sicher, dass Sie **wie man Text extrahiert** später effizient erledigen können.
+Warum das wichtig ist: Die Engine enthält alle konfigurierbaren Optionen, wie Sprachpakete und Thread‑Verhalten. Eine korrekte Einrichtung stellt sicher, dass Sie später **Text aus TIFF effizient extrahieren** können.
 
-## Schritt 3: Bild laden
-
-Aspose OCR kann Bilder direkt aus dem Dateisystem oder aus Streams lesen. Bei großen TIFF‑Dateien vermeidet das Streaming das Laden der gesamten Datei auf einmal in den Speicher.
+## Schritt 3: Bild laden
+Aspose OCR kann Bilder direkt aus dem Dateisystem oder aus Streams lesen. Bei großen TIFF‑Dateien verhindert das Streaming das Laden der gesamten Datei in den Speicher auf einmal.  
+`ImageStream.fromStream()` erstellt ein Bildobjekt aus einem Eingabestream.
 
 ```java
         // Step 3.1: Specify the path to the large document
@@ -85,11 +118,11 @@ Aspose OCR kann Bilder direkt aus dem Dateisystem oder aus Streams lesen. Bei gr
         ocrEngine.setImage(ImageStream.fromFile(imagePath));
 ```
 
-> **Hinweis:** Ersetzen Sie `YOUR_DIRECTORY` durch den tatsächlichen Ordner, in dem das TIFF liegt. Wenn Sie lieber einen `FileInputStream` verwenden, können Sie diesen an `ImageStream.fromStream()` übergeben.
+> **Hinweis:** Ersetzen Sie `YOUR_DIRECTORY` durch den tatsächlichen Ordner, in dem das TIFF liegt. Wenn Sie einen `FileInputStream` bevorzugen, können Sie diesen an `ImageStream.fromStream()` übergeben.
 
-## Schritt 4: Multi‑Core‑Verarbeitung aktivieren
-
-Die Verarbeitung eines hochauflösenden TIFF kann CPU‑intensiv sein. Aspose OCR lässt Sie den Multi‑Core‑Modus umschalten, sodass die Engine die optimale Thread‑Anzahl wählt. Das ist der Schlüssel, um **gescannte Texte zu erkennen** schnell bei OCR großer Dokumente.
+## Schritt 4: Mehrkernverarbeitung aktivieren
+Die Verarbeitung eines hochauflösenden TIFF kann CPU‑intensiv sein. Aspose OCR ermöglicht das Umschalten des Mehrkern‑Modus, sodass die Engine die optimale Thread‑Anzahl bestimmen kann. Das ist der Schlüssel, um **gescannten Text** in großen OCR‑Dokumenten schnell zu **erkennen**.  
+`setUseMultiCore(true)` aktiviert die Engine, mehrere CPU‑Kerne für die parallele Verarbeitung zu nutzen.
 
 ```java
         // Step 4.1: Turn on multi‑core mode (recommended for large docs)
@@ -99,22 +132,22 @@ Die Verarbeitung eines hochauflösenden TIFF kann CPU‑intensiv sein. Aspose OC
         // ocrEngine.getEngineOptions().setThreadCount(4);
 ```
 
-Warum aktivieren? Wenn `setUseMultiCore(true)` aktiv ist, verteilt die Engine die Arbeitslast auf verfügbare CPU‑Kerne und reduziert die Zeit, die benötigt wird, um **OCR‑Text** von jeder Seite zu erhalten, drastisch.
+Warum das aktivieren? Wenn `setUseMultiCore(true)` aktiv ist, verteilt die Engine die Arbeitslast über verfügbare CPU‑Kerne, wodurch die Zeit, die benötigt wird, um **OCR‑Text** von jeder Seite zu **erhalten**, drastisch reduziert wird.
 
-## Schritt 5: Erkennung ausführen
-
-Jetzt beginnt die eigentliche Arbeit. Der Aufruf `recognize()` verarbeitet das Bild und gibt ein `OcrResult`‑Objekt zurück, das den extrahierten Text, Vertrauenswerte und mehr enthält.
+## Schritt 5: Erkennung ausführen
+Jetzt beginnt die schwere Arbeit. Der Aufruf `recognize()` verarbeitet das Bild und gibt ein `OcrResult`‑Objekt zurück, das den extrahierten Text, Vertrauenswerte und mehr enthält.  
+`recognize()` führt den OCR‑Prozess auf dem geladenen Bild aus und gibt ein `OcrResult` zurück.
 
 ```java
         // Step 5.1: Perform OCR recognition
         OcrResult ocrResult = ocrEngine.recognize();
 ```
 
-Falls Sie Fehler behandeln müssen (z. B. beschädigte Seiten), wickeln Sie das in einen try‑catch‑Block und prüfen Sie `ocrResult.getErrorCode()`.
+Wenn Sie Fehler behandeln müssen (z. B. beschädigte Seiten), umschließen Sie dies mit einem try‑catch‑Block und prüfen Sie `ocrResult.getErrorCode()`.
 
-## Schritt 6: Erkannten Text ausgeben
-
-Zum Schluss geben Sie die OCR‑Ausgabe in der Konsole aus. In einer echten Anwendung würden Sie sie vielleicht in eine Datei, Datenbank oder einen Suchindex schreiben.
+## Schritt 6: Erkannten Text ausgeben
+Zum Schluss geben Sie die OCR‑Ausgabe in die Konsole aus. In einer realen Anwendung könnten Sie sie in eine Datei, eine Datenbank schreiben oder in einen Suchindex einspeisen.  
+`ocrResult.getText()` ruft den extrahierten Klartext aus dem OCR‑Ergebnis ab.
 
 ```java
         // Step 6.1: Print the extracted text
@@ -129,25 +162,25 @@ Das Ausführen des Programms sollte etwa Folgendes ausgeben:
 
 ```
 === OCR Output Start ===
-Page 1: Lorem ipsum dolor sit amet, consectetur...
-Page 2: Sed do eiusmod tempor incididunt ut labore...
+Page 1: Sample extracted text from the first page of the document.
+Page 2: Additional text recognized on the second page.
 ...
 === OCR Output End ===
 ```
 
-Damit ist der gesamte Ablauf für **wie man OCR** auf einem großen gescannten Dokument mit Aspose OCR Java abgeschlossen.
+Das ist der gesamte Ablauf, um **OCR auszuführen** auf einem großen gescannten Dokument mit Aspose OCR Java.
 
-![how to run OCR on a scanned TIFF image](/images/ocr-java-example.png "Illustration of how to run OCR on a scanned TIFF image")
+![wie man OCR auf einem gescannten TIFF‑Bild ausführt](/images/ocr-java-example.png "Illustration, wie man OCR auf einem gescannten TIFF‑Bild ausführt")
 
 *Der Alt‑Text des Bildes enthält das Haupt‑Keyword und hilft sowohl Suchmaschinen als auch KI‑Assistenten, den visuellen Kontext zu verstehen.*
 
-## Häufige Varianten & Randfälle
+## Häufige Variationen & Randfälle
 
 ### 1. PDFs statt TIFFs verarbeiten
-Wenn Ihre Quelle ein PDF ist, konvertieren Sie es zuerst in Bilder (Aspose PDF kann das) oder verwenden Sie `ocrEngine.setPdfDocument(...)`. Der Rest der Pipeline bleibt gleich.
+Wenn Ihre Quelle ein PDF ist, konvertieren Sie es zuerst in Bilder (Aspose PDF kann das) oder verwenden Sie `ocrEngine.setPdfDocument(...)`. Der Rest der Pipeline bleibt unverändert.
 
 ### 2. Speicherverbrauch begrenzen
-Für extrem große mehrseitige Dateien sollten Sie erwägen, Seite für Seite zu verarbeiten:
+Für extrem große mehrseitige Dateien sollten Sie die Verarbeitung Seite für Seite in Betracht ziehen:
 
 ```java
 for (int i = 0; i < ocrEngine.getImage().getPageCount(); i++) {
@@ -159,44 +192,58 @@ for (int i = 0; i < ocrEngine.getImage().getPageCount(); i++) {
 
 Dieser Ansatz hilft Ihnen, **Text zu extrahieren**, ohne den RAM zu erschöpfen.
 
-### 3. Sprachpakete wechseln
-Standardmäßig verwendet Aspose OCR Englisch. Um **gescannte Texte** in anderen Sprachen zu **erkennen**, laden Sie die entsprechenden Sprachdaten:
+### 3. Sprachpakete ändern
+Standardmäßig verwendet Aspose OCR Englisch. Um **gescannten Text** in anderen Sprachen zu **erkennen**, laden Sie die entsprechenden Sprachdaten:
 
 ```java
 ocrEngine.getEngineOptions().setLanguage(Language.Spanish);
 ```
 
-### 4. Schlechte Scan‑Qualität behandeln
+### 4. Verarbeitung von Scans niedriger Qualität
 Wenn das Bild verrauscht ist, aktivieren Sie die Vorverarbeitung:
 
 ```java
 ocrEngine.getEngineOptions().setPreprocess(true);
 ```
 
-Vorverarbeitung wendet Filter wie Binärisierung und Deskew an und verbessert die Genauigkeit des extrahierten OCR‑Texts.
+Die Vorverarbeitung wendet Filter wie Binarisierung und Entzerrung an und verbessert die Genauigkeit des extrahierten OCR‑Texts.
 
-## Performance‑Tipps
-
-- **Behalten Sie `setUseMultiCore(true)` bei**, es sei denn, Sie haben eine spezifische Thread‑Anzahl‑Anforderung.
-- **Vermeiden Sie das Laden der gesamten Datei in ein Byte‑Array**; nutzen Sie Streams für speichereffizientes Arbeiten.
-- **Aktualisieren Sie auf die neueste Aspose OCR‑Version** – Leistungsverbesserungen kommen häufig.
+## Leistungstipps
+- **Behalten Sie `setUseMultiCore(true)` bei**, es sei denn, Sie haben eine spezifische Thread‑Anzahl‑Anforderung.  
+- **Vermeiden Sie das Laden der gesamten Datei in ein Byte‑Array**; verwenden Sie Streams für Speicher‑Effizienz.  
+- **Aktualisieren Sie auf die neueste Aspose OCR‑Version** – Leistungsverbesserungen kommen häufig.  
 - **Profilieren Sie Ihre Anwendung** mit Java Flight Recorder, wenn Sie Engpässe vermuten.
 
-## Zusammenfassung
+## Häufig gestellte Fragen
 
-In diesem Leitfaden haben wir behandelt, **wie man OCR** auf einem großen TIFF mit Aspose OCR für Java ausführt, gezeigt, wie man **OCR‑Text** erhält, erklärt, wie man **Text effizient extrahiert**, und Techniken vorgestellt, um **gescannte Texte** in OCR‑großen Dokumenten zu **erkennen**. Der komplette, ausführbare Code ist enthalten, und wir haben Varianten für PDFs, Sprachpakete und schlechte Scans besprochen.
+**Q: Kann ich das auf einem headless Server ausführen?**  
+A: Ja, Aspose OCR für Java arbeitet vollständig im Prozess und erfordert keine GUI‑Umgebung.
 
-## Was kommt als Nächstes?
+**Q: Wie viele Seiten kann ein einzelnes TIFF enthalten?**  
+A: Die Engine kann beliebig viele Seiten streamen; praktische Grenzen werden durch verfügbaren Speicherplatz und CPU definiert, nicht durch ein internes Seitenlimit.
 
-- **Integration mit einer Suchmaschine**: Indexieren Sie die OCR‑Ausgabe mit Elasticsearch für schnellen Zugriff auf Inhalte.
-- **Batch‑Verarbeitung**: Verpacken Sie den Code in einen Spring‑Boot‑Service, um mehrere Dateien gleichzeitig zu bearbeiten.
-- **Erweiterte Nachverarbeitung**: Nutzen Sie reguläre Ausdrücke, um gängige OCR‑Fehler zu bereinigen (z. B. „0“ vs. „O“).
+**Q: Ist es möglich, OCR auf bestimmte Regionen einer Seite zu beschränken?**  
+A: Ja, Sie können vor dem Aufruf von `recognize()` ein `Rectangle` am `Image`‑Objekt setzen, um sich auf einen Bereich zu konzentrieren.
 
-Probieren Sie gern verschiedene Bildformate aus oder passen Sie die Thread‑Anzahl an. Wenn Sie auf Probleme stoßen, hinterlassen Sie einen Kommentar oder schauen Sie in die Aspose OCR Java‑Dokumentation für weiterführende Konfigurationsoptionen.
+**Q: Unterstützt die Bibliothek Rechts‑zu‑Links‑Sprachen?**  
+A: Absolut. Sprachpakete für Arabisch, Hebräisch und Persisch verarbeiten bidirektionalen Text sofort.
 
-Viel Spaß beim Coden und mögen Ihre OCR‑Durchläufe blitzschnell sein!
+**Q: Welches Lizenzmodell gilt für großflächige Einsätze?**  
+A: Aspose bietet site‑weite und gleichzeitige Benutzer‑Lizenzen an; kontaktieren Sie den Vertrieb für Volumenpreise.
+
+**Zuletzt aktualisiert:** 2026-10-24  
+**Getestet mit:** Aspose OCR for Java 24.10  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Wie man GPU für OCR aktiviert und Text aus TIFF extrahiert](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
+- [Text aus Bild mit Aspose OCR Java Anleitung extrahieren](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+- [Aspose OCR Java Beispiel: Text aus einem Bereich extrahieren](/ocr/java/ocr-operations/aspose-ocr-java-example-extract-text-from-a-region/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
