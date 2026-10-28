@@ -106,6 +106,9 @@ Esplora le capacità OCR avanzate con Aspose.OCR per .NET. Efficiente, preciso e
 ### [Lavorare con lingue diverse nel riconoscimento OCR di immagini](./working-with-different-languages/)  
 Sblocca la magia dell'OCR multilingue con Aspose.OCR per .NET. Estrai testo senza sforzo in varie lingue.  
 
+### [Esempio C# OCR cirillico – esegui OCR su testo cirillico](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Esegui il riconoscimento OCR su testi in alfabeto cirillico usando Aspose.OCR per .NET.  
+
 ## Come estrarre testo dalle immagini usando Aspose.OCR – Panoramica impostazioni comuni  
 
 Carica il tuo motore OCR, configura le impostazioni desiderate e chiama `Recognize` – questo è il flusso di lavoro principale in **meno di 10 righe di codice**. Padroneggiando le impostazioni comuni di seguito, puoi personalizzare il motore per velocità, precisione o supporto multilingue, a seconda delle esigenze del tuo progetto.  

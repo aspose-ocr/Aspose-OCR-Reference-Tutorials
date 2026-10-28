@@ -99,6 +99,8 @@ Aspose.OCR로 .NET에서 정밀 OCR을 활용하세요. 이미지에서 텍스�
 Aspose.OCR for .NET의 고급 OCR 기능을 탐색하세요. 효율적이고 정확하며 개발자 친화적입니다.  
 ### [OCR 이미지 인식에서 다양한 언어 작업](./working-with-different-languages/)  
 Aspose.OCR for .NET으로 다국어 OCR의 마법을 활용하세요. 다양한 언어에서 텍스트를 손쉽게 추출합니다.  
+### [C# 예제 OCR 키릴 문자 – 키릴 텍스트에 OCR 수행](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+C#을 사용해 키릴 문자 이미지에서 텍스트를 추출하는 방법을 보여줍니다.  
 
 ## Aspose.OCR을 사용한 이미지 텍스트 추출 – 일반 설정 개요  
 

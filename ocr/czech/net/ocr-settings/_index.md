@@ -99,6 +99,8 @@ Umožněte přesné OCR v .NET s Aspose.OCR. Rozpoznávejte text z obrázků bez
 Prozkoumejte pokročilé možnosti OCR s Aspose.OCR pro .NET. Efektivní, přesné a přátelské pro vývojáře.  
 ### [Práce s různými jazyky v OCR rozpoznávání obrázků](./working-with-different-languages/)  
 Odemkněte kouzlo vícejazykového OCR s Aspose.OCR pro .NET. Extrahujte text snadno v různých jazycích.  
+### [c# příklad OCR cyrilice – provést OCR na cyrilickém textu](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Ukázka, jak pomocí Aspose.OCR rozpoznat cyrilický text v C# aplikaci.  
 
 ## Jak extrahovat text z obrázků pomocí Aspose.OCR – Přehled běžných nastavení  
 

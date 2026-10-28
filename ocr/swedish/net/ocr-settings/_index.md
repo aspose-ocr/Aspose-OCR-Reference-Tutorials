@@ -87,6 +87,9 @@ Aspose.OCR levereras med språkpaket för **över 30 skript**, från latin till 
 Att ladda rätt paket (t.ex. `ocrEngine.Language = Language.French`) ökar noggrannheten på flerspråkiga dokument med **10‑25 %**, eftersom motorn använder skript‑specifika heuristiker.  
 
 ## OCR‑inställningshandledningar  
+### [c# example ocr cyrillic – perform OCR on Cyrillic text](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)
+
+
 ### [Spara resultat som dokument i OCR‑bildigenkänning](./save-result-as-document/)  
 Lås upp potentialen i Aspose.OCR för .NET. Känn enkelt igen text i bilder och spara resultat i olika dokumentformat.  
 ### [Ställ in trådräkning i OCR‑bildigenkänning](./set-threads-count/)  

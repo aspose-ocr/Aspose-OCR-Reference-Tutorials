@@ -100,6 +100,8 @@ Ontgrendel precieze OCR in .NET met Aspose.OCR. Herken moeiteloos tekst uit afbe
 Ontdek geavanceerde OCR‑mogelijkheden met Aspose.OCR voor .NET. Efficiënt, nauwkeurig en ontwikkelaar‑vriendelijk.  
 ### [Werken met verschillende talen in OCR‑beeldherkenning](./working-with-different-languages/)  
 Ontgrendel de magie van meertalige OCR met Aspose.OCR voor .NET. Extraheer moeiteloos tekst in verschillende talen.  
+### [c# voorbeeld OCR Cyrillisch – voer OCR uit op Cyrillische tekst](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Voorbeeldcode in C# om Cyrillische tekst te herkennen met Aspose.OCR, inclusief taalpakketconfiguratie en resultatenexport.  
 
 ## Hoe tekst uit afbeeldingen te extraheren met Aspose.OCR – Overzicht van veelvoorkomende instellingen  
 
