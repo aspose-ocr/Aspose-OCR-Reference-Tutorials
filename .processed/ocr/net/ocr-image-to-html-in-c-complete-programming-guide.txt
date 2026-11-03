@@ -1,0 +1,7 @@
+Title: OCR Image to HTML in C# – Complete Programming Guide
+Slug: ocr-image-to-html-in-c-complete-programming-guide
+Category: text-recognition
+ProcessedDate: 2026-06-22T18:56:15.673471
+SourceRepo: AI Search API
+Keywords: ocr image to html, extract text from png, generate html from image, convert png to html, convert image to html
+PRNumber: 152
