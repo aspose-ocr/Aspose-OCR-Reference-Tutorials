@@ -553,6 +553,12 @@ Learn how to OCR PDF files using Aspose OCR in C#. Follow this complete step‑b
 Learn how to run OCR on images using Aspose.OCR in C#. Follow this comprehensive step‑by‑step guide to integrate image text extraction into your .NET apps.
 ### [Recognize Text from Image in C# – Full Aspose OCR Guide](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 Learn how to recognize text from images using Aspose OCR in C#. Follow this comprehensive step‑by‑step guide for .NET integration.
+### [How to Use OCR in C# – Extract Plain Text from Images](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Learn how to extract plain text from images using Aspose.OCR in C#. Follow our step-by-step guide for quick integration.
+### [recognize image text in C# – Full Guide with JSON Export](./recognize-image-text-in-c-full-guide-with-json-export/)
+Learn how to recognize image text in C# using Aspose.OCR and export results as JSON in this comprehensive guide.
+### [Perform OCR on Image and Convert to EPUB – Full C# Guide](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Learn how to perform OCR on images and convert the extracted text into EPUB format using Aspose.OCR in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

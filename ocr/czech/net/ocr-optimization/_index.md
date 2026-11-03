@@ -256,6 +256,9 @@ Naučte se, jak pomocí Aspose OCR v C# odstranit sklon obrázku a zlepšit pře
 ### [Jak provést hromadné OCR v C# – Rychlý způsob extrakce textu z PNG souborů](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Rychlý průvodce hromadným zpracováním PNG souborů pomocí Aspose.OCR v C# pro efektivní extrakci textu.
 
+### [Zvýšení kontrastu obrázku v C# OCR – Kompletní průvodce](./boost-image-contrast-in-c-ocr-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# zvýšit kontrast obrázku pro lepší rozpoznání textu.
+
 ## Často kladené otázky
 
 **Q: Můžu extrahovat text z obrázkových souborů, které obsahují více jazyků?**  

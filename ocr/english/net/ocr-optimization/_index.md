@@ -87,6 +87,8 @@ Boost OCR accuracy by enhancing image contrast using Aspose.OCR in C#. Follow th
 Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# projects.
 ### [How to Use Filters in Aspose OCR – Boost Text Extraction](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Learn how to apply Aspose.OCR filters to improve text extraction accuracy and speed in your .NET applications.
+### [Boost Image Contrast in C# OCR – Complete Guide](./boost-image-contrast-in-c-ocr-complete-guide/)
+Learn how to enhance OCR accuracy by boosting image contrast using Aspose.OCR in C#. Follow the complete step‑by‑step guide.
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 Enhance OCR accuracy with Aspose.OCR for .NET. Correct spellings, customize dictionaries, and achieve error‑free text recognition effortlessly.
 ### [Save Multipage Result as Document in OCR Image Recognition](./save-multipage-result-as-document/)

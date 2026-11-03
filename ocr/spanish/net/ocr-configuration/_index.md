@@ -99,6 +99,10 @@ Aprende a cargar imágenes y aplicar OCR con Aspose, incluyendo verificación or
 Aprende a crear y configurar un motor OCR en C# paso a paso con Aspose.OCR.
 ### [Establecer límite de memoria GPU con Aspose OCR – Guía C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Aprende a limitar la memoria GPU usada por Aspose OCR en aplicaciones C# para optimizar el rendimiento.
+### [Extraer texto de imagen con Aspose OCR GPU – Guía completa en C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aprende a usar la aceleración GPU de Aspose OCR en C# para extraer texto de imágenes rápidamente.
+### [Cómo establecer la licencia en Aspose OCR – Guía completa en C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aprende a configurar la licencia de Aspose OCR en C# paso a paso para habilitar todas sus funciones.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

@@ -256,6 +256,8 @@ Erfahren Sie, wie Sie Bilder mit Aspose.OCR für .NET entzerren, um die OCR‑Ge
 Erfahren Sie, wie Sie mit Aspose OCR Bildschräglagen korrigieren und optimale OCR‑Ergebnisse in C# erzielen.
 ### [Batch-OCR in C# – Schneller Weg zum Extrahieren von Text aus PNG-Dateien](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Erfahren Sie, wie Sie mehrere PNG‑Dateien per Batch‑OCR in C# schnell verarbeiten und Text effizient extrahieren.
+### [Bildkontrast in C# OCR steigern – Komplett‑Guide](./boost-image-contrast-in-c-ocr-complete-guide/)
+Steigern Sie die OCR‑Genauigkeit, indem Sie den Bildkontrast in C# erhöhen – vollständige Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

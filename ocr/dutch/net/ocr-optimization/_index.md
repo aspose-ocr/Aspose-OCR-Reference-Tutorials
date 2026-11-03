@@ -264,6 +264,8 @@ Leer hoe je afbeeldingen kantelt corrigeert met Aspose.OCR voor .NET om OCR‑na
 Leer hoe je afbeeldingen kantcorrigeert met Aspose OCR in C# voor optimale OCR‑resultaten.
 ### [Hoe batch-OCR uit te voeren in C# – Snelle manier om tekst uit PNG‑bestanden te extraheren](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Leer hoe je met Aspose.OCR meerdere PNG‑bestanden in één batch verwerkt en snel tekst extraheert met C#.
+### [Verhoog beeldcontrast in C# OCR – Complete gids](./boost-image-contrast-in-c-ocr-complete-guide/)
+Leer hoe je met Aspose.OCR het contrast van afbeeldingen verbetert voor betere OCR‑resultaten in C#.
 
 ## Veelgestelde vragen
 

@@ -220,6 +220,8 @@ Khám phá cách tiền xử lý hình ảnh để cải thiện độ chính x�
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trước khi OCR, tăng độ chính xác với Aspose.OCR và C#.
 ### [Cách chỉnh nghiêng ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 ### [Cách thực hiện OCR hàng loạt trong C# – Phương pháp nhanh để trích xuất văn bản từ các tệp PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [Tăng độ tương phản hình ảnh trong OCR C# – Hướng dẫn toàn diện](./boost-image-contrast-in-c-ocr-complete-guide/)
+Hướng dẫn chi tiết cách nâng cao độ tương phản ảnh để cải thiện độ chính xác OCR trong C# với Aspose.OCR.
 
 ## Câu hỏi thường gặp
 

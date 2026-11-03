@@ -539,6 +539,13 @@ C# kullanarak PDF dosyalarından metin çıkarmayı adım adım öğrenin ve Asp
 C# ile Aspose OCR kullanarak bir görüntüde metin tanımayı adım adım öğrenin ve uygulamanıza entegre edin.
 ### [C# ile Görüntüden Metin Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 C# kullanarak bir görüntüde metin tanımayı adım adım öğrenin ve Aspose OCR'ın tüm özelliklerini keşfedin.
+### [C#'ta OCR Kullanımı – Görsellerden Düz Metin Çıkarma](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+C# ile Aspose.OCR kullanarak görüntülerden düz metin çıkarmayı adım adım öğrenin ve projelerinizde hızlı metin tanıma sağlayın.
+### [C#'ta Görüntü Metni Tanıma – JSON Dışa Aktarma ile Tam Rehber](./recognize-image-text-in-c-full-guide-with-json-export/)
+C# ve Aspose.OCR ile görüntülerden metni tanıyın, sonuçları JSON formatında dışa aktarın. Adım adım tam rehber.
+### [Görselde OCR İşlemi Yap ve EPUB'a Dönüştür – Tam C# Rehberi](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+C# ile görüntülerden OCR yapın ve elde edilen metni EPUB formatına dönüştürerek dijital yayın oluşturun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -136,6 +136,10 @@ Ismerje meg, hogyan töltsön be képet C#-ban, és alkalmazzon teljes körű OC
 Ismerje meg, hogyan hozhat létre saját OCR motort C#‑ban az Aspose.OCR segítségével, lépésről lépésre.  
 ### [GPU memória korlát beállítása az Aspose OCR‑val – C# GPU útmutató](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Tanulja meg, hogyan állíthatja be a GPU memória korlátot az Aspose OCR használatával C#‑ban.  
+### [Kép szövegének kinyerése Aspose OCR GPU-val – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR GPU-t C#-ban képek szövegének gyors kinyerésére.  
+### [Hogyan állítsuk be a licencet az Aspose OCR-ban – Teljes C# útmutató](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban a zökkenőmentes használathoz.  
 
 
 

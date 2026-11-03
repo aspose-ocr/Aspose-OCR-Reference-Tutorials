@@ -247,6 +247,8 @@ weight: 25
 ### [如何使用 Aspose OCR 進行圖像去斜 – 完整 C# 教學](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 本教學示範如何在 C# 中使用 Aspose OCR 的去斜功能，提升圖像辨識準確度，步驟完整易懂。
 ### [如何在 C# 中批次 OCR – 快速提取 PNG 檔文字](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [在 OCR 圖像辨識中提升圖像對比度（C# 完整指南）](./boost-image-contrast-in-c-ocr-complete-guide/)
+學習如何在 C# 中使用 Aspose.OCR 調整圖像對比度以提升辨識精度，完整步驟與範例代碼。
 
 ## 常見問題
 

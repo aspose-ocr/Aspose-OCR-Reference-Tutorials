@@ -545,6 +545,13 @@ Lär dig steg‑för‑steg hur du OCR:ar PDF-filer i C# med Aspose OCR för exa
 Lär dig hur du med Aspose OCR i C# bearbetar en bild steg för steg och får exakta resultat.
 ### [Känn igen text från bild i C# – Fullständig Aspose OCR-guide](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 Lär dig steg‑för‑steg hur du med Aspose OCR i C# extraherar text från en bild och får exakta resultat.
+### [Hur man använder OCR i C# – Extrahera vanlig text från bilder](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Lär dig hur du med Aspose.OCR i C# extraherar ren text från bilder med enkla steg.
+### [Känn igen bildtext i C# – Fullständig guide med JSON-export](./recognize-image-text-in-c-full-guide-with-json-export/)
+Lär dig hur du med Aspose.OCR i C# extraherar bildtext och exporterar resultatet som JSON i en komplett guide.
+### [Utför OCR på bild och konvertera till EPUB – Fullständig C#-guide](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Lär dig hur du med Aspose.OCR i C# utför OCR på en bild och konverterar resultatet till EPUB-format i en komplett guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

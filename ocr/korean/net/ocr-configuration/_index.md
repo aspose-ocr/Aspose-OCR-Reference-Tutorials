@@ -133,6 +133,10 @@ C#에서 Aspose OCR을 사용해 이미지를 로드하고 맞춤법 검사를 �
 ### [C#에서 OCR 엔진 만들기 – 완전 가이드](./create-ocr-engine-in-c-complete-guide/)
 ### [Aspose OCR으로 GPU 메모리 제한 설정 – C# GPU 가이드](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Aspose OCR을 사용해 C#에서 GPU 메모리 사용량을 제한하는 방법을 단계별로 안내합니다.  
+### [Aspose OCR GPU로 이미지에서 텍스트 추출 – 전체 C# 가이드](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.  
+### [Aspose OCR 라이선스 설정 – 전체 C# 가이드](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR 라이선스를 설정하고 C#에서 전체 가이드를 따라 적용하는 방법을 단계별로 설명합니다.  
 
 
 

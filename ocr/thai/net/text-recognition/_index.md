@@ -493,6 +493,12 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความจากรูปภาพใน C# – คู่มือเต็ม Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 ### [วิธี OCR PDF ใน C# – คู่มือเต็ม Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
 
+### [วิธีใช้ OCR ใน C# – ดึงข้อความธรรมดาจากรูปภาพ](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความธรรมดาจากรูปภาพอย่างง่ายดาย
+### [จดจำข้อความในรูปภาพด้วย C# – คู่มือเต็มพร้อมการส่งออกเป็น JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพและส่งออกผลลัพธ์เป็น JSON อย่างละเอียด
+### [ทำ OCR บนรูปภาพและแปลงเป็น EPUB – คู่มือเต็ม C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อทำ OCR บนรูปภาพและแปลงผลลัพธ์เป็นไฟล์ EPUB อย่างละเอียด
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

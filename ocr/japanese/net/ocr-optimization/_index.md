@@ -258,6 +258,8 @@ Aspose.OCR を使用して画像を前処理し、OCR の精度を最大化す�
 画像の傾きを自動補正し、正確なテキスト抽出を実現する手順を C# で詳しく解説します。
 ### [C# でバッチ OCR を実行する方法 – PNG ファイルからテキストを高速抽出](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 多数の PNG 画像を一括で処理し、テキスト抽出を高速化する手順を C# で解説します。
+### [C# OCR で画像コントラストを強化 – 完全ガイド](./boost-image-contrast-in-c-ocr-complete-guide/)
+画像のコントラストを調整し、OCR 精度を向上させる方法をステップバイステップで解説します。
 
 ## よくある質問
 

@@ -271,6 +271,9 @@ Ismerje meg, hogyan lehet kiegyenesíteni a képeket az Aspose OCR segítségév
 ### [Kötegelt OCR C#‑ban – Gyors mód PNG fájlok szövegének kinyeréséhez](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Ismerje meg, hogyan végezhet kötegelt OCR‑t C#‑ban PNG képeken, gyors és hatékony szövegkinyerés.
 
+### [Képkontraszt növelése C# OCR‑ben – Teljes útmutató](./boost-image-contrast-in-c-ocr-complete-guide/)
+Fedezze fel, hogyan növelheti a kép kontrasztját C#‑ban az Aspose.OCR használatával a jobb felismerési pontosság érdekében.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

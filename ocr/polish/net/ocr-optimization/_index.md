@@ -269,6 +269,8 @@ Dowiedz się, jak automatycznie prostować (deskew) obrazy w C# przy użyciu Asp
 
 ### [Jak wykonać batch OCR w C# – szybki sposób na wyodrębnianie tekstu z plików PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Poznaj metodę przetwarzania wsadowego PNG w C# przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst z wielu plików.
+### [Zwiększ kontrast obrazu w C# OCR – kompletny przewodnik](./boost-image-contrast-in-c-ocr-complete-guide/)
+Dowiedz się, jak zwiększyć kontrast obrazów w C# przy użyciu Aspose.OCR, aby poprawić dokładność rozpoznawania tekstu.
 
 ## Często zadawane pytania
 

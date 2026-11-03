@@ -540,6 +540,12 @@ Stap‑voor‑stap handleiding om met Aspose in C# OCR toe te passen op afbeeldi
 Leer stap‑voor‑stap hoe u OCR toepast in C# om tekst uit afbeeldingen te extraheren met Aspose.
 ### [Herken tekst van afbeelding in C# – Volledige Aspose OCR-gids](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 Stap‑voor‑stap handleiding om met Aspose OCR tekst uit een afbeelding te halen in C#.
+### [Hoe OCR te gebruiken in C# – Platte tekst uit afbeeldingen extraheren](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Leer stap voor stap hoe u met Aspose.OCR in C# platte tekst uit afbeeldingen haalt en eenvoudig in uw .NET-applicatie verwerkt.
+### [Afbeeldingstekst herkennen in C# – volledige gids met JSON-export](./recognize-image-text-in-c-full-guide-with-json-export/)
+Leer hoe u met Aspose.OCR in C# afbeeldingstekst herkent en de resultaten exporteert naar JSON.
+### [Voer OCR uit op afbeelding en converteer naar EPUB – Volledige C#-gids](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert op een afbeelding en het resultaat converteert naar een EPUB-bestand.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

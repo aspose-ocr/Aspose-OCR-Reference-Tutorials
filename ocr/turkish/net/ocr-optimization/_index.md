@@ -237,6 +237,8 @@ Aspose.OCR kullanarak eğik görüntüleri düzleştirip OCR doğruluğunu artı
 ### [Aspose OCR ile Görüntüyü Düzleştirme – Tam C# Kılavuzu](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR kullanarak görüntüleri eğriltme hatasından kurtulun ve C# ile tam adım adım düzleştirme işlemini öğrenin.
 ### [C#'ta Toplu OCR Nasıl Yapılır – PNG Dosyalarından Metin Çıkarma İçin Hızlı Yöntem](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [C# OCR'da Görüntü Kontrastını Artırma – Tam Kılavuz](./boost-image-contrast-in-c-ocr-complete-guide/)
+C# ile Aspose.OCR kullanarak görüntü kontrastını artırarak tanıma doğruluğunu nasıl yükselteceğinizi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

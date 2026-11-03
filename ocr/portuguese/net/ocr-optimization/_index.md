@@ -262,6 +262,8 @@ Aprenda a corrigir a inclinação de imagens usando Aspose.OCR em C#, melhorando
 Aprenda a remover a inclinação de imagens usando Aspose OCR em C#, melhorando a precisão do reconhecimento.
 ### [Como fazer OCR em lote em C# – Forma rápida de extrair texto de arquivos PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Aprenda a processar múltiplos arquivos PNG simultaneamente usando Aspose.OCR em C#, otimizando velocidade e precisão.
+### [Aumentar o Contraste da Imagem em C# OCR – Guia Completo](./boost-image-contrast-in-c-ocr-complete-guide/)
+Aprenda a melhorar o contraste das imagens antes do OCR usando Aspose.OCR para .NET e obter resultados mais precisos.
 
 ## Perguntas Frequentes
 

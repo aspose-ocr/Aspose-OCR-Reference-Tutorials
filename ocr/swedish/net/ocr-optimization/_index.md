@@ -255,6 +255,8 @@ Lär dig steg‑för‑steg hur du skapar sökbara PDF‑dokument med Aspose OCR
 Lär dig steg‑för‑steg hur du räta upp bilder med Aspose.OCR för .NET för att förbättra OCR‑noggrannheten.
 ### [Hur batch‑OCR i C# – Snabbt sätt att extrahera text från PNG‑filer](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Lär dig att bearbeta många PNG‑bilder samtidigt med Aspose.OCR i C# för snabb och exakt textutvinning.
+### [Öka bildkontrast i C# OCR – Komplett guide](./boost-image-contrast-in-c-ocr-complete-guide/)
+Lär dig hur du förbättrar bildkontrasten för bättre OCR‑resultat med Aspose.OCR i C#.
 
 ## Vanliga frågor
 

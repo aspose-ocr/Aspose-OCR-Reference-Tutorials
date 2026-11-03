@@ -135,6 +135,10 @@ weight: 24
 Полное руководство по созданию OCR‑движка в C# с использованием Aspose.OCR, включая настройку, обучение и интеграцию.
 ### [Установить ограничение памяти GPU с Aspose OCR – руководство C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Узнайте, как ограничить использование памяти GPU при работе с Aspose OCR в C# для повышения производительности.
+### [Извлечение текста из изображения с Aspose OCR GPU – Полное руководство на C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Полное руководство на C# по извлечению текста из изображения с использованием GPU‑ускорения Aspose OCR.
+### [Как установить лицензию в Aspose OCR – Полное руководство на C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Полное руководство по установке лицензии Aspose OCR в C#.
 
 
 

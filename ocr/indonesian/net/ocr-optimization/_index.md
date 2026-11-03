@@ -263,6 +263,8 @@ Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose.OCR dengan
 ### [Cara Deskew Gambar dengan Aspose OCR – Panduan Lengkap C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose OCR dengan contoh kode C# lengkap.
 ### [Cara Batch OCR di C# – Cara Cepat Mengekstrak Teks dari File PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [Meningkatkan Kontras Gambar dalam C# OCR – Panduan Lengkap](./boost-image-contrast-in-c-ocr-complete-guide/)
+Pelajari cara meningkatkan kontras gambar menggunakan C# untuk memperbaiki akurasi OCR dengan langkah‑langkah praktis.
 
 ## Pertanyaan yang Sering Diajukan
 

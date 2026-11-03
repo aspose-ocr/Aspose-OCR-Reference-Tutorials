@@ -536,6 +536,12 @@ Ismerje meg, hogyan OCR-ozhat PDF-fájlokat C#‑ban az Aspose OCR segítségév
 Ismerje meg, hogyan futtathat OCR-t képeken C#‑ban az Aspose könyvtárral, részletes, lépésről‑lépésre útmutatóval.
 ### [Szöveg felismerése képen C#‑ban – Teljes Aspose OCR útmutató](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 Ismerje meg, hogyan ismerhet fel szöveget képeken C#‑ban az Aspose OCR segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [Hogyan használjuk az OCR-t C#-ban – Egyszerű szöveg kinyerése képekből](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban egyszerű szöveg kinyerésére képekből, lépésről lépésre útmutatóval.
+### [Képszöveg felismerése C#-ban – Teljes útmutató JSON exporttal](./recognize-image-text-in-c-full-guide-with-json-export/)
+Ismerje meg, hogyan ismerhet fel képek szövegét C#-ban, és exportálhatja az eredményeket JSON formátumban egy átfogó útmutató segítségével.
+### [OCR végrehajtása képen és konvertálás EPUB formátumba – Teljes C# útmutató](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t képek OCR-hez, majd konvertálhatja a szöveget EPUB formátumba C#-ban, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

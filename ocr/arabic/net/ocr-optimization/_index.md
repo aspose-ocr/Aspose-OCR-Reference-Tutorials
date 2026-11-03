@@ -251,6 +251,7 @@ weight: 25
 ### [كيفية تصحيح ميل الصورة باستخدام Aspose OCR – دليل C# كامل](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 دليل شامل لتصحيح ميل الصورة باستخدام Aspose OCR في C#، يوضح إعداد الفلاتر وإزالة الانحراف لتحسين دقة التعرف.
 ### [كيفية تنفيذ OCR دفعيًا في C# – طريقة سريعة لاستخراج نص ملفات PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [زيادة تباين الصورة في C# OCR – دليل كامل](./boost-image-contrast-in-c-ocr-complete-guide/)
 
 ## الأسئلة المتكررة
 

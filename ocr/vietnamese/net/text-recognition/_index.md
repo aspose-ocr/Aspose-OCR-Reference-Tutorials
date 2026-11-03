@@ -535,6 +535,12 @@ Biến các hình ảnh quét thành ePub có thể đọc được bằng Aspos
 Thực hiện OCR trên hình ảnh bằng Aspose trong C# qua hướng dẫn chi tiết, giúp bạn tích hợp nhanh chóng và chính xác.
 ### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 Hướng dẫn toàn diện để nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#, bao gồm các bước cài đặt và triển khai.
+### [Cách sử dụng OCR trong C# – Trích xuất văn bản thuần từ hình ảnh](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Hướng dẫn chi tiết cách dùng Aspose.OCR trong C# để trích xuất văn bản thuần từ hình ảnh một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản hình ảnh trong C# – Hướng dẫn đầy đủ với xuất JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản hình ảnh và xuất kết quả dưới dạng JSON.
+### [Thực hiện OCR trên hình ảnh và chuyển sang EPUB – Hướng dẫn đầy đủ C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR trên hình ảnh và chuyển kết quả sang định dạng EPUB.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

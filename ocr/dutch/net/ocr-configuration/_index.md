@@ -102,6 +102,10 @@ Leer hoe je afbeeldingen laadt en OCR toepast met spell‑check in C# met Aspose
 Leer stap‑voor‑stap hoe je een OCR‑engine in C# maakt en configureert met Aspose.OCR voor optimale tekstherkenning.
 ### [GPU‑geheugenlimiet instellen met Aspose OCR – C# GPU‑gids](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Leer hoe je de GPU‑geheugenlimiet configureert voor optimale OCR‑prestaties in C# met Aspose OCR.
+### [Tekst extraheren uit afbeelding met Aspose OCR GPU – Volledige C#-gids](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Leer hoe je met Aspose OCR GPU en C# tekst uit afbeeldingen haalt met maximale prestaties.
+### [Hoe een licentie instellen in Aspose OCR – Complete C#-gids](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Leer hoe je een licentie configureert voor Aspose OCR in C# voor optimale prestaties.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

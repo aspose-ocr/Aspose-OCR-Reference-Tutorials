@@ -96,6 +96,10 @@ Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR
 Erfahren Sie, wie Sie mit Aspose.OCR eine OCR-Engine in C# erstellen und konfigurieren.
 ### [GPU‑Speicherlimit mit Aspose OCR festlegen – C# GPU‑Leitfaden](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Erfahren Sie, wie Sie das GPU‑Speicherlimit in Aspose OCR für C# konfigurieren, um die Leistung zu optimieren.
+### [Text aus Bild mit Aspose OCR GPU extrahieren – Vollständige C#‑Anleitung](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus Bildern schnell und präzise in C# zu extrahieren.
+### [Wie man die Lizenz in Aspose OCR setzt – Vollständige C#‑Anleitung](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz korrekt in C#‑Projekten aktivieren und nutzen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

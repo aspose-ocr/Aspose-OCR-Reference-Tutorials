@@ -542,6 +542,12 @@ url: /ar/net/text-recognition/
 تعلم كيفية تشغيل تقنية التعرف الضوئي على الحروف على صورة باستخدام Aspose في C# من خلال دليل شامل خطوة بخطوة.
 ### [التعرف على النص من صورة في C# – دليل كامل لـ Aspose OCR](./recognize-text-from-image-in-c-full-aspose-ocr-guide/)
 تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في C# من خلال دليل شامل خطوة بخطوة.
+### [كيفية استخدام OCR في C# – استخراج النص العادي من الصور](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+تعلم كيفية استخراج النص العادي من الصور باستخدام OCR في C# خطوة بخطوة مع Aspose.OCR.
+### [التعرف على نص الصورة في C# – دليل كامل مع تصدير JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
+تعلم خطوة بخطوة كيفية التعرف على نص الصورة في C# وتصديره بصيغة JSON باستخدام Aspose.OCR.
+### [تنفيذ OCR على صورة وتحويلها إلى EPUB – دليل كامل C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+تعلم كيفية استخدام Aspose.OCR في C# لاستخراج النص من الصور وتحويله إلى ملف EPUB بسهولة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

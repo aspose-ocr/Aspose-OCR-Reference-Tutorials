@@ -548,6 +548,13 @@ Pelajari cara menjalankan OCR pada gambar menggunakan Aspose di C# dengan pandua
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
 ### [Cara OCR PDF di C# – Tutorial Lengkap Aspose OCR](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
 Pelajari cara melakukan OCR pada file PDF menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Ekstrak Teks Biasa dari Gambar](./how-to-use-ocr-in-c-extract-plain-text-from-images/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks sederhana dari gambar dengan mudah.
+### [Mengenali Teks Gambar di C# – Panduan Lengkap dengan Ekspor JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
+Panduan lengkap mengenali teks gambar menggunakan C# dengan Aspose.OCR dan mengekspor hasilnya ke format JSON.
+### [Lakukan OCR pada Gambar dan Konversi ke EPUB – Panduan Lengkap C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
+Pelajari cara menggunakan Aspose.OCR di C# untuk melakukan OCR pada gambar dan mengonversinya menjadi file EPUB secara otomatis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
