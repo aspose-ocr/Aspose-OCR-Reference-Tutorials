@@ -60,6 +60,10 @@ url: /th/net/text-recognition/
 ### [รับผลลัพธ์เป็น JSON ในการรับรู้ภาพ OCR](./get-result-as-json/)
 ### [แปลงรูปภาพเป็น JSON ด้วย Aspose OCR C# Guide](./convert-image-to-json-with-aspose-ocr-c-guide/)
 เรียนรู้วิธีแปลงรูปภาพเป็น JSON ด้วย Aspose OCR ใน C# อย่างง่ายดายและรวดเร็ว
+### [ทำ OCR บนภาพเป็น JSON ด้วย C# และ Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+เรียนรู้วิธีแปลงภาพเป็นผลลัพธ์ OCR ในรูปแบบ JSON ด้วย C# และ Aspose อย่างง่ายดาย
+### [วิธีใช้ OCR ใน C# – ดึงข้อความจากภาพอย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อดึงข้อความจากภาพได้อย่างรวดเร็วและแม่นยำในไม่กี่ขั้นตอน
 ### [OCR ตรวจจับโหมดพื้นที่ในการจดจำภาพ OCR](./ocr-detect-areas-mode/)
 ### [รับรู้ PDF ในการรับรู้ภาพ OCR](./recognize-pdf/)
 ### [วิธีทำ OCR PDF ใน C# – คู่มือฉบับสมบูรณ์เพื่อดึงข้อความจาก PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
@@ -499,6 +503,12 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพและส่งออกผลลัพธ์เป็น JSON อย่างละเอียด
 ### [ทำ OCR บนรูปภาพและแปลงเป็น EPUB – คู่มือเต็ม C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อทำ OCR บนรูปภาพและแปลงผลลัพธ์เป็นไฟล์ EPUB อย่างละเอียด
+### [วิธีอ่านภาษาซิริลิก: แปลงภาพเป็นข้อความด้วย Aspose OCR](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+เรียนรู้วิธีแปลงภาพที่มีข้อความภาษาซิริลิกเป็นข้อความด้วย Aspose OCR อย่างง่ายดาย
+### [จดจำข้อความภาษาจีนจาก JPG ด้วย Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+### [สร้าง PDF ที่ค้นหาได้ – คู่มือ C# ครบสำหรับแปลงภาพเป็น PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพด้วย C# และ Aspose.OCR อย่างละเอียดในขั้นตอนเดียว
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

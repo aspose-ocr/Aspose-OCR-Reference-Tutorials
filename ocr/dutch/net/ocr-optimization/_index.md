@@ -266,6 +266,10 @@ Leer hoe je afbeeldingen kantcorrigeert met Aspose OCR in C# voor optimale OCR�
 Leer hoe je met Aspose.OCR meerdere PNG‑bestanden in één batch verwerkt en snel tekst extraheert met C#.
 ### [Verhoog beeldcontrast in C# OCR – Complete gids](./boost-image-contrast-in-c-ocr-complete-guide/)
 Leer hoe je met Aspose.OCR het contrast van afbeeldingen verbetert voor betere OCR‑resultaten in C#.
+### [Tekst extraheren uit afbeelding met Aspose OCR – Complete C#‑gids](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Leer stap‑voor‑stap hoe je met Aspose OCR en C# volledige tekstextractie uit afbeeldingen implementeert.
+### [Batch PDF OCR met GPU – Snelle tekstextractie gids](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Leer hoe je met GPU-versnelling batch‑PDF‑bestanden OCR‑t verwerkt voor razendsnelle tekstextractie.
 
 ## Veelgestelde vragen
 

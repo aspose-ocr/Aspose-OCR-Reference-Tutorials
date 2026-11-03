@@ -551,6 +551,16 @@ Lär dig hur du med Aspose.OCR i C# extraherar ren text från bilder med enkla s
 Lär dig hur du med Aspose.OCR i C# extraherar bildtext och exporterar resultatet som JSON i en komplett guide.
 ### [Utför OCR på bild och konvertera till EPUB – Fullständig C#-guide](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 Lär dig hur du med Aspose.OCR i C# utför OCR på en bild och konverterar resultatet till EPUB-format i en komplett guide.
+### [Hur man läser kyrilliska: Konvertera bild till text med Aspose OCR](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+Lär dig att extrahera kyrillisk text från bilder med Aspose OCR i .NET. En steg-för-steg-guide för konvertering till redigerbar text.
+### [Känn igen kinesisk text från JPG med Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+Lär dig hur du extraherar kinesisk text från JPG-bilder med Aspose OCR i .NET med en enkel steg-för-steg-guide.
+### [Skapa sökbar PDF – Komplett C#-guide för bild till PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+Lär dig hur du konverterar bilder till sökbara PDF-filer med Aspose.OCR i C#, steg för steg.
+### [Utför OCR på bild till JSON i C# med Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Lär dig hur du konverterar en bild till JSON med OCR i C# med Aspose, steg för steg.
+### [Hur man använder OCR i C# – Extrahera text från bild snabbt](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Lär dig snabbt hur du använder Aspose.OCR i C# för att extrahera text från bilder med några enkla steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

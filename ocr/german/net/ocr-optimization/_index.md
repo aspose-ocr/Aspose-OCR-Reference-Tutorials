@@ -258,6 +258,10 @@ Erfahren Sie, wie Sie mit Aspose OCR Bildschräglagen korrigieren und optimale O
 Erfahren Sie, wie Sie mehrere PNG‑Dateien per Batch‑OCR in C# schnell verarbeiten und Text effizient extrahieren.
 ### [Bildkontrast in C# OCR steigern – Komplett‑Guide](./boost-image-contrast-in-c-ocr-complete-guide/)
 Steigern Sie die OCR‑Genauigkeit, indem Sie den Bildkontrast in C# erhöhen – vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Batch-PDF-OCR mit GPU – Schnelltext‑Extraktions‑Leitfaden](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Nutzen Sie GPU‑Beschleunigung, um mehrere PDFs schnell zu OCR‑verarbeiten und Text effizient zu extrahieren.
+### [Text aus Bild extrahieren mit Aspose OCR – Vollständiger C#‑Leitfaden](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR und C# Text aus Bildern extrahieren – Schritt‑für‑Schritt‑Leitfaden.
 
 ## Häufig gestellte Fragen
 

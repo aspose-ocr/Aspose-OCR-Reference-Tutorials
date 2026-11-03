@@ -544,6 +544,16 @@ Aspose.OCR를 사용해 C#에서 이미지의 텍스트를 손쉽게 추출하�
 Aspose.OCR를 사용해 C#에서 이미지 텍스트를 인식하고 JSON으로 내보내는 방법을 단계별로 안내합니다.
 ### [이미지에서 OCR 수행 및 EPUB으로 변환 – 전체 C# 가이드](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 Aspose.OCR를 사용해 이미지에서 텍스트를 추출하고, 이를 EPUB 전자책 형식으로 변환하는 전체 C# 가이드를 확인하세요.
+### [키릴 문자 읽기: Aspose OCR을 사용하여 이미지에서 텍스트 변환](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+Aspose OCR을 활용해 키릴 문자 이미지에서 텍스트를 추출하는 단계별 가이드를 확인하세요.
+### [JPG에서 중국어 텍스트 인식: Aspose OCR 사용](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+Aspose OCR을 활용해 JPG 이미지에서 중국어 텍스트를 정확히 추출하는 단계별 가이드를 확인하세요.
+### [검색 가능한 PDF 만들기 – 이미지에서 PDF로 변환하는 완전한 C# 가이드](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+이미지를 PDF로 변환하여 검색 가능한 PDF를 생성하는 전체 C# 단계별 가이드를 확인하세요.
+### [C#와 Aspose를 사용해 이미지 OCR을 JSON으로 수행하기](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Aspose OCR을 활용해 이미지에서 텍스트를 인식하고 JSON 형식으로 결과를 얻는 단계별 가이드.
+### [C#에서 OCR 사용하기 – 이미지에서 텍스트 빠르게 추출](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Aspose OCR을 활용해 C#에서 이미지를 빠르게 텍스트로 변환하는 단계별 가이드를 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

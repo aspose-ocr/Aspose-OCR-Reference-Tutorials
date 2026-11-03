@@ -252,6 +252,10 @@ weight: 25
 دليل شامل لتصحيح ميل الصورة باستخدام Aspose OCR في C#، يوضح إعداد الفلاتر وإزالة الانحراف لتحسين دقة التعرف.
 ### [كيفية تنفيذ OCR دفعيًا في C# – طريقة سريعة لاستخراج نص ملفات PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 ### [زيادة تباين الصورة في C# OCR – دليل كامل](./boost-image-contrast-in-c-ocr-complete-guide/)
+### [دليل استخراج النص السريع باستخدام OCR للـ PDF على دفعات مع GPU](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+استخدم GPU لتسريع عملية OCR على ملفات PDF متعددة دفعات واستخراج النص بسرعة وكفاءة.
+### [استخراج النص من الصورة باستخدام Aspose OCR – دليل C# كامل](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

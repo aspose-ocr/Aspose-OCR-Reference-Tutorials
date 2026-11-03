@@ -100,15 +100,6 @@ weight: 25
 
 透過探索，使用 Aspose.OCR for .NET 提高 OCR 準確性[預處理過濾器](./preprocessing-filters-for-image/)。立即下載並了解如何在識別之前微調圖像。本教程確保無縫集成，提高準確性和效率。
 
-## OCR 影像辨識中的拼字檢查結果校正
-
-實現無與倫比的 OCR 準確性[Aspose.OCR for .NET](./result-correction-with-spell-checking/)。我們的拼字檢查結果校正教學讓您能夠輕鬆自訂字典、修正拼字並確保無錯誤的文字辨識。使用 Aspose.OCR 進入精確的世界。
-
-## 在 OCR 影像辨識中將多頁結果儲存為文檔
-
-使用 Aspose.OCR for .NET 輕鬆將多頁 OCR 結果儲存為文件。我們的[逐步指南](./save-multipage-result-as-document/)釋放文件創建的全部潛力。無縫整合 Aspose.OCR 並輕鬆將您的 OCR 結果轉換為多頁文件。
-
-使用 Aspose.OCR For .NET 教學列表，您可以存取其他資源並隨時了解 OCR 優化的最新進展。透過 Aspose.OCR for .NET 教學深入了解精確和高效的世界。
 ## OCR 最佳化教學
 ### [在 OCR 影像辨識中對 URL 中的影像執行 OCR](./perform-ocr-on-image-from-url/)
 探索與 Aspose.OCR for .NET 的無縫 OCR 整合。精確辨識圖像中的文字。
@@ -249,6 +240,9 @@ weight: 25
 ### [如何在 C# 中批次 OCR – 快速提取 PNG 檔文字](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 ### [在 OCR 圖像辨識中提升圖像對比度（C# 完整指南）](./boost-image-contrast-in-c-ocr-complete-guide/)
 學習如何在 C# 中使用 Aspose.OCR 調整圖像對比度以提升辨識精度，完整步驟與範例代碼。
+### [使用 Aspose OCR 從圖像提取文字 – 完整 C# 教學](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+一步步示範如何在 C# 中使用 Aspose OCR 從圖像提取文字，涵蓋設定、前處理與結果儲存。
+### [使用 GPU 批次 PDF OCR – 快速文字提取指南](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
 
 ## 常見問題
 

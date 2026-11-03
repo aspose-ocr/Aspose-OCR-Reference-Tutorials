@@ -271,6 +271,12 @@ weight: 25
 ### [提升图像对比度的 C# OCR 完整指南](./boost-image-contrast-in-c-ocr-complete-guide/)
 通过提升图像对比度来改善 OCR 识别效果的完整指南，适用于 C# 开发者。
 
+### [使用 GPU 的批量 PDF OCR – 快速文本提取指南](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+利用 GPU 加速批量 PDF OCR，实现高速文本提取，提升处理效率。
+
+### [使用 Aspose OCR 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+详细的 C# 示例，演示如何使用 Aspose OCR 从图像中提取文本并处理结果。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

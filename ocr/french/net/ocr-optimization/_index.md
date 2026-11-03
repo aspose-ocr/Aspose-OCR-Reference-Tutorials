@@ -253,6 +253,10 @@ Apprenez à corriger l’inclinaison des images avant l’OCR avec Aspose.OCR en
 Apprenez à corriger l’inclinaison des images avec Aspose OCR en C#, étape par étape pour des résultats précis.
 ### [Comment effectuer un OCR par lots en C# – Méthode rapide pour extraire le texte des fichiers PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Apprenez à traiter plusieurs fichiers PNG en une seule opération C# pour extraire rapidement le texte avec Aspose.OCR.
+### [OCR PDF par lots avec GPU – Guide d'extraction rapide de texte](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Utilisez le GPU pour accélérer l'OCR de PDF en lot, extrayant rapidement du texte avec Aspose.OCR pour .NET.
+### [Extraire du texte à partir d'une image avec Aspose OCR – Guide complet C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Guide complet en C# pour extraire du texte d'une image avec Aspose OCR, incluant configuration, prétraitement et sauvegarde des résultats.
 
 ## Questions fréquemment posées
 

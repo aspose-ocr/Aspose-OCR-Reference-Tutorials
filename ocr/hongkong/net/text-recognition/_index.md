@@ -533,6 +533,16 @@ url: /zh-hant/net/text-recognition/
 學習在 C# 中使用 Aspose.OCR 從圖像提取純文字的完整步驟，快速實現文字抽取功能。
 ### [在圖像上執行 OCR 並轉換為 EPUB – 完整 C# 指南](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 學習如何使用 Aspose.OCR 在 C# 中執行圖像文字辨識，並將結果匯出為 EPUB 電子書格式。
+### [如何閱讀西里爾字母：使用 Aspose OCR 將影像轉換為文字](./how-to-read-cyrillic-convert-image-to-text-with-aspose-ocr/)
+學習使用 Aspose OCR 讀取西里爾文字，將影像內容快速轉換為可編輯文字。
+### [使用 Aspose OCR 從 JPG 識別中文文字](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
+學習如何使用 Aspose OCR 從 JPG 圖像中準確識別中文文字，提升您的 .NET 應用程式功能。
+### [建立可搜尋 PDF – 完整 C# 圖像轉 PDF 指南](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+學習使用 Aspose.OCR 於 .NET 中將影像轉換為可搜尋的 PDF，完整的 C# 實作步驟指南。
+### [在 C# 中使用 Aspose 將影像執行 OCR 並輸出為 JSON](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+使用 Aspose.OCR 在 C# 中將影像轉換為 JSON 格式的 OCR 結果，快速整合至您的應用程式。
+### [如何在 C# 中使用 OCR – 快速從影像提取文字](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+學習在 C# 中使用 Aspose OCR，快速將影像內容轉換為文字，提升開發效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

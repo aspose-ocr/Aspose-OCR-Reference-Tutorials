@@ -260,6 +260,10 @@ Aspose.OCR を使用して画像を前処理し、OCR の精度を最大化す�
 多数の PNG 画像を一括で処理し、テキスト抽出を高速化する手順を C# で解説します。
 ### [C# OCR で画像コントラストを強化 – 完全ガイド](./boost-image-contrast-in-c-ocr-complete-guide/)
 画像のコントラストを調整し、OCR 精度を向上させる方法をステップバイステップで解説します。
+### [Aspose OCR を使用した画像からテキスト抽出 – 完全 C# ガイド](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR と C# を使って画像からテキストを抽出する手順を詳しく解説します。
+### [GPU を使用したバッチ PDF OCR – 高速テキスト抽出ガイド](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+GPU のパワーを活用して大量の PDF を高速に OCR し、テキスト抽出を効率化する方法をステップバイステップで解説します。
 
 ## よくある質問
 

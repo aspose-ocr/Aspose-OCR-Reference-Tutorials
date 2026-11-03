@@ -566,6 +566,12 @@ Aprenda a extraer texto sin formato de imágenes usando OCR en C# con Aspose.OCR
 Aprenda a reconocer texto en imágenes usando C# y exportar los resultados en JSON con Aspose.OCR.
 ### [Realizar OCR en una imagen y convertir a EPUB – Guía completa en C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 Aprenda a extraer texto de una imagen con OCR y generar un archivo EPUB usando C# y Aspose.OCR.
+### [Crear PDF buscable – Guía completa en C# para convertir imágenes a PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
+Aprenda a generar PDFs buscables a partir de imágenes usando Aspose.OCR y C# en unos simples pasos.
+### [Realizar OCR en Imagen a JSON en C# con Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
+Aprenda a extraer texto de una imagen y obtener los resultados en formato JSON usando Aspose.OCR y C#.
+### [Cómo usar OCR en C# – Extraer texto de una imagen rápidamente](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
+Aprenda a usar OCR en C# para extraer texto de imágenes de forma rápida y sencilla.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

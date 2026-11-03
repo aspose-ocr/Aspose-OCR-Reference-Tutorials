@@ -219,6 +219,10 @@ Aspose OCR를 사용해 이미지 기울기를 보정하고 정확한 텍스트 
 C#에서 PNG 파일을 대량으로 OCR 처리하여 텍스트를 빠르게 추출하는 단계별 가이드.
 ### [C# OCR에서 이미지 대비 향상 – 완전 가이드](./boost-image-contrast-in-c-ocr-complete-guide/)
 Aspose.OCR for .NET를 사용해 이미지 대비를 조정하여 OCR 정확도를 크게 향상시키는 방법을 단계별로 안내합니다.
+### [GPU를 활용한 배치 PDF OCR – 빠른 텍스트 추출 가이드](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+GPU 가속을 이용해 대량 PDF 파일을 빠르게 OCR 처리하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용한 이미지 텍스트 추출 – 완전한 C# 가이드](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR을 활용해 C#으로 이미지에서 텍스트를 정확히 추출하는 전체 과정과 코드 예제를 제공합니다.
 
 ## 자주 묻는 질문
 

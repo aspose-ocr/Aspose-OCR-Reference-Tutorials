@@ -282,6 +282,11 @@ C# का उपयोग करके कई PNG फ़ाइलों पर �
 
 ### [C# OCR में इमेज कंट्रास्ट बढ़ाएँ – पूर्ण गाइड](./boost-image-contrast-in-c-ocr-complete-guide/)
 C# में Aspose.OCR का उपयोग करके इमेज कंट्रास्ट बढ़ाने के चरण‑दर‑चरण निर्देश, सटीकता में सुधार।
+### [GPU के साथ बैच PDF OCR – तेज़ टेक्स्ट निष्कर्षण गाइड](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+GPU की शक्ति का उपयोग करके बड़ी संख्या में PDF फ़ाइलों को तेज़ी से OCR करें और पाठ निकालें।
+
+### [Aspose OCR के साथ छवि से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+C# में Aspose OCR का उपयोग करके छवि से सटीक रूप से पाठ निकालने के चरण‑दर‑चरण निर्देश।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

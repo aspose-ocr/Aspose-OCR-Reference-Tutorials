@@ -252,6 +252,10 @@ Learn how to correct image skew using Aspose.OCR in C#. Follow our step‑by‑s
 Learn to correct tilted images using Aspose.OCR in C#. Apply deskew filters to improve OCR accuracy with a step‑by‑step guide.
 ### [How to Batch OCR in C# – Fast Way to Extract Text PNG Files](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 Learn how to batch process PNG files with Aspose.OCR in C#, extracting text quickly and efficiently.
+### [Batch PDF OCR with GPU – Fast Text Extraction Guide](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Accelerate PDF OCR using GPU for rapid, high‑accuracy text extraction with Aspose.OCR for .NET.
+### [Extract Text from Image with Aspose OCR – Complete C# Guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Step‑by‑step C# guide to extract text from images using Aspose.OCR, covering setup, preprocessing, and result handling.
 
 ## Frequently Asked Questions
 

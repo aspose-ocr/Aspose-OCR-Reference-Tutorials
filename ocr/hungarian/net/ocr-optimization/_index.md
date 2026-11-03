@@ -274,6 +274,12 @@ Ismerje meg, hogyan végezhet kötegelt OCR‑t C#‑ban PNG képeken, gyors és
 ### [Képkontraszt növelése C# OCR‑ben – Teljes útmutató](./boost-image-contrast-in-c-ocr-complete-guide/)
 Fedezze fel, hogyan növelheti a kép kontrasztját C#‑ban az Aspose.OCR használatával a jobb felismerési pontosság érdekében.
 
+### [Kötegelt PDF OCR GPU-val – Gyors szövegkinyerési útmutató](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Fedezze fel, hogyan használhatja a GPU-t nagyméretű PDF-ek gyors OCR feldolgozásához .NET környezetben.
+
+### [Szöveg kinyerése képből az Aspose OCR-rel – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Részletes útmutató a C#-ban történő képből szöveg kinyeréshez az Aspose OCR használatával, lépésről‑lépésre példákkal.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

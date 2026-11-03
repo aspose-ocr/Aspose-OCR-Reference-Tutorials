@@ -222,6 +222,9 @@ Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trước 
 ### [Cách thực hiện OCR hàng loạt trong C# – Phương pháp nhanh để trích xuất văn bản từ các tệp PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
 ### [Tăng độ tương phản hình ảnh trong OCR C# – Hướng dẫn toàn diện](./boost-image-contrast-in-c-ocr-complete-guide/)
 Hướng dẫn chi tiết cách nâng cao độ tương phản ảnh để cải thiện độ chính xác OCR trong C# với Aspose.OCR.
+### [OCR PDF hàng loạt với GPU – Hướng dẫn trích xuất văn bản nhanh](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Sử dụng GPU để thực hiện OCR trên nhiều tệp PDF đồng thời, tăng tốc độ trích xuất văn bản đáng kể.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 
 ## Câu hỏi thường gặp
 
