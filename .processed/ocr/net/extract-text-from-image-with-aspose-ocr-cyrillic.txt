@@ -1,0 +1,7 @@
+Title: Extract Text from Image with Aspose OCR – Cyrillic
+Slug: extract-text-from-image-with-aspose-ocr-cyrillic
+Category: text-recognition
+ProcessedDate: 2026-05-31T19:26:29.264656
+SourceRepo: AI Search API
+Keywords: extract text from image, recognize cyrillic text, recognize cyrillic characters, convert image to cyrillic text
+PRNumber: 135

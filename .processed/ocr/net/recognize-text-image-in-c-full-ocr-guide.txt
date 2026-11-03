@@ -1,0 +1,7 @@
+Title: recognize text image in C# – Full OCR Guide
+Slug: recognize-text-image-in-c-full-ocr-guide
+Category: text-recognition
+ProcessedDate: 2026-06-07T02:47:18.025271
+SourceRepo: AI Search API
+Keywords: recognize text image, c# ocr example, extract text scan, convert scan to text, image to text c#
+PRNumber: 140

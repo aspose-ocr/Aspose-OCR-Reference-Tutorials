@@ -1,0 +1,7 @@
+Title: Extract Text from Encrypted PDF in Java – Complete Guide
+Slug: extract-text-from-encrypted-pdf-in-java-complete-guide
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-05-31T20:44:59.392052
+SourceRepo: AI Search API
+Keywords: extract text from encrypted pdf, convert pdf to text java, how to extract text from secured pdf
+PRNumber: 136

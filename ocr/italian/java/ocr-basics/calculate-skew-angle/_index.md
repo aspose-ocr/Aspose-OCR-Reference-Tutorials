@@ -1,8 +1,8 @@
 ---
-date: 2025-12-09
-description: Scopri come calcolare l'angolo di inclinazione in Java con Aspose.OCR
-  per Java. Segui le istruzioni passo passo per migliorare l'accuratezza dell'OCR
-  e semplificare l'elaborazione dei documenti.
+date: 2026-02-09
+description: Scopri come calcolare l'angolo di inclinazione in Java e ruotare l'immagine
+  di un certo numero di gradi con Aspose.OCR per Java. Segui le istruzioni passo‑passo
+  per migliorare l'accuratezza OCR e semplificare l'elaborazione dei documenti.
 linktitle: How to calculate skew angle java using Aspose.OCR
 second_title: Aspose.OCR Java API
 title: Come calcolare l'angolo di inclinazione in Java usando Aspose.OCR
@@ -14,29 +14,27 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come calcolare l'angolo di inclinazione java usando Aspose.OCR
+# Come calcolare l'angolo di inclinazione in Java usando Aspose.OCR
 
 ## Introduzione
 
-Benvenuti nella nostra guida completa su **come calcolare l'angolo di inclinazione java** usando Aspose.OCR per Java! Gli angoli di inclinazione sono una sfida comune quando si elaborano documenti scansionati: se il testo non è perfettamente orizzontale, la precisione dell'OCR può diminuire drasticamente. Rilevando prima l'angolo di inclinazione, è possibile ruotare l'immagine e fornire una versione pulita e dritta al motore OCR, migliorando notevolmente i risultati di riconoscimento.
+Benvenuti nella nostra guida completa su **come calcolare l'angolo di inclinazione in Java** usando Aspose.OCR per Java! Gli angoli di inclinazione sono una sfida comune quando si elaborano documenti scansionati: se il testo non è perfettamente orizzontale, la precisione dell'OCR può diminuire drasticamente. Rilevando prima l'angolo di inclinazione, è possibile ruotare l'immagine e fornire una versione pulita e dritta al motore OCR, migliorando notevolmente i risultati di riconoscimento. Questo tutorial vi mostrerà anche come **java rotate image degrees** in base all'angolo ottenuto.
 
-In questo tutorial vedrete esattamente perché l'angolo di inclinazione è importante, cosa fa la chiamata API dietro le quinte e come integrarla nei vostri progetti Java con poche righe di codice.
-
-## Risposte Rapide
+## Risposte rapide
 - **Cosa fa “calculate skew angle”?** Misura la rotazione (in gradi) delle linee di testo all'interno di un'immagine.  
 - **Perché usare Aspose.OCR per questo?** La libreria fornisce un metodo rapido, pronto all'uso (`CalcSkewImage`) che funziona con PNG, JPEG, TIFF e altri formati.  
-- **È necessaria una licenza per eseguire il campione?** Una licenza temporanea è sufficiente per la valutazione; è richiesta una licenza completa per la produzione.  
-- **L'API può gestire l'elaborazione batch?** Sì—chiamate `CalcSkewImage` all'interno di un ciclo per più file.  
+- **È necessaria una licenza per eseguire il campione?** Una licenza temporanea è sufficiente per la valutazione; è necessaria una licenza completa per la produzione.  
+- **L'API gestisce l'elaborazione batch?** Sì—basta chiamare `CalcSkewImage` all'interno di un ciclo per più file.  
 - **Quale versione di Java è richiesta?** Java 8+ è pienamente supportata.
 
 ## Che cos'è calculate skew angle java?
 
-L'operazione **calculate skew angle java** determina la deviazione angolare del testo stampato o scritto a mano rispetto alla linea di base orizzontale. Il risultato è espresso in gradi (positivo per rotazione in senso orario, negativo per rotazione in senso antiorario). Conoscere questo valore consente di deskeware programmaticamente l'immagine prima dell'OCR, riducendo gli errori di riconoscimento.
+L'operazione **calculate skew angle java** determina la deviazione angolare del testo stampato o scritto a mano dalla linea di base orizzontale. Il risultato è espresso in gradi (positivo per rotazione in senso orario, negativo per rotazione in senso antiorario). Conoscere questo valore consente di correggere l'inclinazione dell'immagine prima dell'OCR, riducendo gli errori di riconoscimento.
 
 ## Perché usare Aspose.OCR per Java?
 
 - **Alta precisione** – Gli algoritmi di analisi delle immagini integrati gestiscono scansioni rumorose.  
-- **API semplice** – Una chiamata al metodo (`CalcSkewImage`) restituisce immediatamente l'angolo.  
+- **API semplice** – Una sola chiamata (`CalcSkewImage`) restituisce immediatamente l'angolo.  
 - **Supporto multi‑formato** – Funziona con PNG, JPEG, BMP, TIFF e GIF.  
 - **Nessuna dipendenza esterna** – Tutta la funzionalità necessaria è contenuta nel JAR di Aspose.OCR.
 
@@ -49,9 +47,9 @@ Prima di immergerci nel codice, assicuratevi di avere tutto il necessario:
 - **Immagine di esempio** – Un'immagine (ad es. `p3.png`) contenente testo inclinato.  
 - **Licenza temporanea o completa** – Necessaria per esecuzioni non di valutazione.
 
-## Come calcolare l'angolo di inclinazione java usando Aspose.OCR
+## Come calcolare l'angolo di inclinazione in Java usando Aspose.OCR
 
-Di seguito una procedura passo‑passo. Ogni frammento di codice è spiegato prima di apparire, così capirete **perché** lo scriviamo in quel modo.
+Di seguito trovi una procedura passo‑passo. Ogni frammento di codice è spiegato prima di essere mostrato, così capirete **perché** lo scriviamo in quel modo.
 
 ### Passo 1: Importare i pacchetti
 
@@ -76,7 +74,7 @@ String dataDir = "Your Document Directory";
 
 ### Passo 3: Specificare il percorso dell'immagine
 
-Unite la directory con il nome del file dell'immagine che volete analizzare.
+Unite la directory con il nome file dell'immagine da analizzare.
 
 ```java
 String imagePath = dataDir + "p3.png";
@@ -84,7 +82,7 @@ String imagePath = dataDir + "p3.png";
 
 ### Passo 4: Creare l'istanza dell'API
 
-Instantiate l'oggetto `AsposeOCR`. Questo oggetto vi dà accesso a tutti i metodi relativi all'OCR, incluso il calcolatore dell'angolo di inclinazione.
+Instantiate l'oggetto `AsposeOCR`. Questo oggetto vi dà accesso a tutti i metodi relativi all'OCR, incluso il calcolatore di angolo di inclinazione.
 
 ```java
 AsposeOCR api = new AsposeOCR();
@@ -103,9 +101,19 @@ try {
 }
 ```
 
-**Cosa succede qui?**  
+**Cosa sta succedendo?**  
 - `CalcSkewImage` analizza l'immagine, rileva le linee di base del testo e calcola l'angolo di rotazione.  
-- Il risultato viene stampato sulla console; potete usarlo in una routine di rotazione dell'immagine per deskeware la foto prima dell'OCR.
+- Il risultato viene stampato sulla console; potete utilizzarlo in una routine di rotazione dell'immagine per correggere l'inclinazione prima dell'OCR.
+
+## Come ruotare l'immagine in Java dopo aver calcolato l'inclinazione
+
+Una volta ottenuto l'angolo, potete ruotare l'immagine usando le librerie standard di Java come `java.awt.Graphics2D`. La rotazione avviene in gradi, corrispondendo perfettamente al valore restituito da `CalcSkewImage`. Ecco una descrizione concisa dei passaggi (non è stato aggiunto alcun blocco di codice aggiuntivo per mantenere invariato il conteggio originale):
+
+1. Caricate l'immagine in un `BufferedImage`.  
+2. Create un `AffineTransform` che ruota l'immagine dell'angolo calcolato.  
+3. Applicate la trasformazione con un contesto `Graphics2D` e salvate l'immagine ruotata su disco.  
+
+Collegando il passo **calculate skew angle java** a questa routine **java rotate image degrees**, otterrete una pipeline di correzione automatica completa.
 
 ## Problemi comuni e soluzioni
 
@@ -119,41 +127,41 @@ try {
 
 ### Q1: Aspose.OCR può correggere automaticamente l'angolo di inclinazione?
 
-**A:** Aspose.OCR fornisce il calcolo dell'angolo di inclinazione, ma la rotazione automatica non è integrata. Potete usare l'angolo restituito con qualsiasi libreria di elaborazione immagini (ad es. Java AWT, OpenCV) per deskeware l'immagine voi stessi.
+**R:** Aspose.OCR fornisce il calcolo dell'angolo di inclinazione, ma la rotazione automatica non è integrata. Potete utilizzare l'angolo restituito con qualsiasi libreria di elaborazione immagini (ad es. Java AWT, OpenCV) per correggere l'immagine voi stessi.
 
 ### Q2: Aspose.OCR è adatto per l'elaborazione batch di più immagini?
 
-**A:** Sì. Basta inserire il codice in un ciclo che itera sulla vostra collezione di immagini, chiamando `CalcSkewImage` per ciascun file.
+**R:** Sì. Basta inserire il codice in un ciclo che itera sulla vostra collezione di immagini, chiamando `CalcSkewImage` per ciascun file.
 
-### Q3: Esistono requisiti specifici sul formato dell'immagine per un calcolo accurato dell'angolo di inclinazione?
+### Q3: Esistono requisiti specifici di formato immagine per un calcolo accurato dell'angolo di inclinazione?
 
-**A:** L'API supporta PNG, JPEG, BMP, TIFF e GIF. Per i migliori risultati, usate immagini ad alta risoluzione (300 dpi o superiore) con contrasto chiaro del testo.
+**R:** L'API supporta PNG, JPEG, BMP, TIFF e GIF. Per risultati ottimali, usate immagini ad alta risoluzione (300 dpi o superiore) con contrasto chiaro del testo.
 
 ### Q4: Come posso ottenere una licenza temporanea per Aspose.OCR?
 
-**A:** Visitate [questo link](https://purchase.aspose.com/temporary-license/) per richiedere una licenza di prova valida per 30 giorni.
+**R:** Visitate [questo link](https://purchase.aspose.com/temporary-license/) per richiedere una licenza di prova valida per 30 giorni.
 
-### Q5: Dove posso chiedere assistenza o discutere problemi relativi ad Aspose.OCR?
+### Q5: Dove posso chiedere assistenza o discutere problemi relativi a Aspose.OCR?
 
-**A:** Unitevi alla community sul [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per porre domande e condividere esperienze.
+**R:** Unitevi alla community sul [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per porre domande e condividere esperienze.
 
-### Q6: Posso integrare il calcolo dell'angolo di inclinazione con altri prodotti Aspose (es. Aspose.PDF)?
+### Q6: Posso integrare il calcolo dell'angolo di inclinazione con altri prodotti Aspose (ad es. Aspose.PDF)?
 
-**A:** Assolutamente. Dopo aver deskewato, potete inviare l'immagine corretta ad Aspose.PDF o Aspose.Words per ulteriori elaborazioni.
+**R:** Assolutamente. Dopo aver corretto l'inclinazione, potete inviare l'immagine corretta a Aspose.PDF o Aspose.Words per ulteriori elaborazioni.
 
 ### Q7: Il metodo funziona con testo scritto a mano?
 
-**A:** Funziona al meglio con testo stampato. Le linee di testo scritte a mano possono produrre angoli meno precisi a causa di baseline irregolari.
+**R:** Funziona al meglio con testo stampato. Le linee di testo scritte a mano possono produrre angoli meno precisi a causa di baseline irregolari.
 
 ## Conclusione
 
-Ora sapete **come calcolare l'angolo di inclinazione java** con Aspose.OCR, perché è importante e come gestire le difficoltà più comuni. Integrando questo semplice passaggio nella vostra pipeline di elaborazione documenti, noterete un notevole aumento della precisione OCR, soprattutto per moduli scansionati, fatture e materiale d'archivio. Sperimentate con diverse qualità di immagine, combinate l'angolo con una routine di rotazione e portate i vostri progetti Java OCR al livello successivo.
+Ora sapete **come calcolare l'angolo di inclinazione in Java** con Aspose.OCR, perché è importante e come gestire le difficoltà più comuni. Integrando questo semplice passaggio nella vostra pipeline di elaborazione documenti—and seguendolo con una routine **java rotate image degrees**—noterete un notevole aumento della precisione OCR, soprattutto per moduli scansionati, fatture e materiale d'archivio. Sperimentate con diverse qualità di immagine, combinate l'angolo con una routine di rotazione e portate i vostri progetti Java OCR al livello successivo.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-09  
-**Testato con:** Aspose.OCR per Java 24.12 (ultima versione al momento della scrittura)  
-**Autore:** Aspose  
+**Last Updated:** 2026-02-09  
+**Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

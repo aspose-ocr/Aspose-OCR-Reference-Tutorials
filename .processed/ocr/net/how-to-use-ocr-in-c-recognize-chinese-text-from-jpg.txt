@@ -1,0 +1,7 @@
+Title: How to Use OCR in C# – Recognize Chinese Text from JPG
+Slug: how-to-use-ocr-in-c-recognize-chinese-text-from-jpg
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:15.347256
+SourceRepo: AI Search API
+Keywords: how to use ocr, extract text from image, recognize text from jpg, recognize chinese characters, ocr chinese simplified
+PRNumber: 131
