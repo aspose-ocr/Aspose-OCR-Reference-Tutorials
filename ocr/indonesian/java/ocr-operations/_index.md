@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengenali Teks PDF dengan Aspose.OCR untuk Java
@@ -149,6 +151,20 @@ Panduan lengkap mengenali teks pada gambar PNG menggunakan Aspose OCR dengan Jav
 Panduan langkah‑demi‑langkah untuk membuat PDF yang dapat dicari dari gambar menggunakan Java dan Aspose.OCR.
 ### [Jalankan OCR pada Gambar dengan Java – Ekstrak Teks Thai dari PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Panduan lengkap mengekstrak teks Thai dari gambar PNG menggunakan Aspose.OCR dengan Java, langkah demi langkah untuk hasil akurat.
+### [Cara Mengaktifkan OCR di Java dengan Aspose – Panduan Langkah‑per‑Langkah](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Panduan lengkap untuk mengaktifkan OCR di aplikasi Java menggunakan Aspose, dengan langkah‑langkah praktis dan contoh kode.
+### [Buat PDF yang dapat dicari dari gambar dengan OCR Java](./create-searchable-pdf-from-image-with-java-ocr/)
+Panduan langkah demi langkah untuk mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
+### [Cara Menggunakan OCR di Java – Ekstrak Teks dari Gambar dengan Koreksi Ejaan](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Pelajari cara mengekstrak teks dari gambar menggunakan OCR di Java dan memperbaiki ejaan secara otomatis.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR di Java, langkah demi langkah.
+### [Mengenali Teks Gambar dengan Java – Panduan Lengkap Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose OCR dengan Java, meliputi langkah‑langkah detail untuk hasil akurat.
+### [Melakukan OCR pada PDF dengan Aspose OCR di Java – Panduan Lengkap](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Panduan lengkap untuk melakukan OCR pada file PDF menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Membuat PDF yang Dapat Dicari dengan Aspose OCR Java – Panduan Lengkap](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
 ### [Mengenali Teks dalam ROI dengan Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 Ekstrak teks dari area ROI pada gambar menggunakan Aspose OCR di Java dengan panduan langkah demi langkah.
 ### [Muat Gambar untuk OCR dengan Aspose OCR Java – Panduan Lengkap](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
@@ -177,12 +193,6 @@ J: Proses gambar TIFF dalam potongan-potongan atau gunakan multi-threading untuk
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Mengenali Teks Gambar dengan Aspose OCR – Tutorial OCR Java Lengkap](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Panduan lengkap mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil akurat.
 ### [Buat PDF yang Dapat Dicari dari PNG – Panduan Lengkap Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -194,3 +204,9 @@ Pelajari cara memproses banyak gambar sekaligus menjadi teks menggunakan Aspose.
 ### [Membuat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Langkah‑per‑Langkah](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan langkah‑langkah mudah.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

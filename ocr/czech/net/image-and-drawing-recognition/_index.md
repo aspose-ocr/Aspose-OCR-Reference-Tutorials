@@ -76,6 +76,8 @@ Naučte se, jak pomocí Aspose.OCR v C# převést rozpoznanou tabulku na CSV sou
 Naučte se, jak pomocí Aspose OCR v C# detekovat a extrahovat tabulky z obrázků do strukturovaných dat.
 ### [Vytvořit Excel z obrázku pomocí C# – Kompletní průvodce Aspose OCR](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
 Ukažte, jak pomocí Aspose.OCR a C# převést obrázek do Excelu a získat strukturovaná data.
+### [Extrahovat tabulky z obrázku pomocí Aspose OCR – Kompletní průvodce v C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose OCR extrahovat tabulky z obrázků v C# a převést je do strukturovaných formátů.
 
 ## Často kladené otázky
 

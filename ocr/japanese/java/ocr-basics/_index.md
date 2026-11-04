@@ -141,6 +141,9 @@ Aspose OCR を活用し、画像からテキストを抽出する手順をフル
 ### [画像をテキストに変換する Java – 完全な Aspose OCR 例](./convert-image-to-text-java-complete-aspose-ocr-example/)
 Aspose OCR を使って画像からテキストを抽出するフル実装例をステップバイステップで解説します。
 
+### [Java で画像からテキストを抽出 – OCR でテキスト取得](./extract-text-from-image-in-java-get-text-from-ocr/)
+Aspose.OCR for Java を使用して画像からテキストを抽出し、OCR 結果を取得する方法をステップバイステップで解説します。
+
 ---
 
 **Last Updated:** 2025-12-08  

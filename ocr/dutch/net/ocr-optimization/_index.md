@@ -260,6 +260,36 @@ Leer stap‑voor‑stap hoe je met Aspose OCR doorzoekbare PDF‑bestanden gener
 Leer hoe je afbeeldingen optimaliseert voor OCR met een volledige C#‑handleiding, inclusief filters en best practices.
 ### [Hoe een afbeelding rechtzetten – Complete C#-gids voor OCR-preprocessing](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Leer hoe je afbeeldingen kantelt corrigeert met Aspose.OCR voor .NET om OCR‑nauwkeurigheid te verbeteren.
+### [Hoe afbeelding rechtzetten met Aspose OCR – Complete C#‑gids](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Leer hoe je afbeeldingen kantcorrigeert met Aspose OCR in C# voor optimale OCR‑resultaten.
+### [Hoe batch-OCR uit te voeren in C# – Snelle manier om tekst uit PNG‑bestanden te extraheren](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Leer hoe je met Aspose.OCR meerdere PNG‑bestanden in één batch verwerkt en snel tekst extraheert met C#.
+### [Verhoog beeldcontrast in C# OCR – Complete gids](./boost-image-contrast-in-c-ocr-complete-guide/)
+Leer hoe je met Aspose.OCR het contrast van afbeeldingen verbetert voor betere OCR‑resultaten in C#.
+### [Tekst extraheren uit afbeelding met Aspose OCR – Complete C#‑gids](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Leer stap‑voor‑stap hoe je met Aspose OCR en C# volledige tekstextractie uit afbeeldingen implementeert.
+### [Batch PDF OCR met GPU – Snelle tekstextractie gids](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Leer hoe je met GPU-versnelling batch‑PDF‑bestanden OCR‑t verwerkt voor razendsnelle tekstextractie.
+### [GPU-versnelling inschakelen voor OCR in C# – Tekst extraheren uit bonnen](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Leer hoe je GPU-versnelling activeert in Aspose.OCR voor C# om snel tekst uit kassabonnen te halen.
+### [Hoe een afbeelding rechtzetten – Aspose OCR preprocessing‑gids](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Leer hoe je met Aspose.OCR afbeeldingen kunt rechtzetten om OCR‑nauwkeurigheid te verbeteren.
+### [Batch OCR-afbeeldingen in C# – Parallelle OCR van JPG-scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Verwerk meerdere JPG-scans gelijktijdig met batch‑OCR in C# voor snelle en nauwkeurige tekstextractie.
+### [GPU-geheugengebruik beperken in C# OCR – Complete gids](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Leer hoe je het GPU‑geheugenverbruik van Aspose.OCR in C# kunt beperken voor optimale prestaties en stabiliteit.
+### [Tekstafbeelding herkennen met Aspose OCR C# – Complete preprocess-gids](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt en preprocessing toepast voor maximale nauwkeurigheid.
+### [Hoe afbeelding kantcorrectie toepassen in C# – Complete OCR-gids](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Leer hoe je afbeeldingen kantcorrectie toepast met Aspose.OCR in C# voor optimale OCR-prestaties.
+### [Run OCR on Image – Complete C# Guide](./run-ocr-on-image-complete-c-guide/)
+Leer stap‑voor‑stap hoe je met Aspose.OCR in C# OCR op afbeeldingen uitvoert, van configuratie tot resultaatopslag.
+### [Hoe een afbeelding kantcorrectie toepassen in C# – Complete OCR-preprocessinggids](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Leer hoe je met Aspose.OCR kantcorrectie uitvoert om scheve afbeeldingen recht te zetten voor betere OCR‑resultaten.
+### [Afbeelding voorbewerken voor OCR in C# – Complete Aspose OCR-gids](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Leer hoe je afbeeldingen optimaliseert voor OCR met Aspose.OCR in C#, inclusief filters en instellingen.
+### [OCR‑vertrouwensscores in C# – Complete gids](./ocr-confidence-scores-in-c-complete-guide/)
+Leer hoe je OCR‑vertrouwensscores kunt analyseren en gebruiken om nauwkeurigheid te verbeteren met Aspose.OCR voor .NET.
 
 ## Veelgestelde vragen
 

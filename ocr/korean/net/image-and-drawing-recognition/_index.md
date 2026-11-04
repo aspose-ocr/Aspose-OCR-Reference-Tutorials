@@ -75,6 +75,8 @@ Aspose.OCR를 사용하여 이미지에서 추출한 표 데이터를 CSV 파일
 Aspose OCR을 활용해 이미지 내 표를 감지하고 텍스트로 변환하는 방법을 단계별로 안내합니다.
 ### [C#로 이미지에서 Excel 만들기 – 전체 Aspose OCR 가이드](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
 Aspose.OCR for .NET을 사용하여 이미지에서 데이터를 추출하고 Excel 파일로 변환하는 전체 가이드를 확인하세요.
+### [Aspose OCR을 사용하여 이미지에서 표 추출 – 완전한 C# 가이드](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR for .NET을 활용해 이미지에서 표를 인식하고 추출하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

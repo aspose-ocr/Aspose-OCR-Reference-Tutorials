@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconocer texto PDF con Aspose.OCR para Java
@@ -150,6 +152,20 @@ Aprende a extraer texto de PDFs usando Aspose OCR en Java con esta guía paso a 
 Aprende a generar un PDF buscable a partir de una imagen usando Aspose.OCR para Java en unos simples pasos.
 ### [Ejecutar OCR en Imagen con Java – Extraer Texto Tailandés de PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Desbloquea la extracción de texto tailandés de archivos PNG usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Cómo habilitar OCR en Java con Aspose – Guía paso a paso](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aprende a activar OCR en Java usando Aspose con una guía paso a paso para integrar reconocimiento de texto rápidamente.
+### [Crear PDF buscable a partir de una imagen con Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Crea un PDF buscable a partir de imágenes usando Aspose.OCR para Java. Sigue los pasos para generar documentos editables y con texto indexable.
+### [Cómo usar OCR en Java – Extraer texto de imagen con corrección ortográfica](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Desbloquea la extracción de texto de imágenes con corrección ortográfica usando Aspose.OCR en Java. Sigue la guía paso a paso.
+### [Crear PDF buscable a partir de una imagen – Guía paso a paso en Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Desbloquea la creación de PDFs buscables a partir de imágenes usando Aspose.OCR en Java. Sigue esta guía paso a paso.
+### [Reconocer texto de imagen con Java – Guía completa de Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Aprende paso a paso a extraer texto de imágenes usando Aspose OCR en Java, con ejemplos completos y mejores prácticas.
+### [Realizar OCR en PDF con Aspose OCR en Java – Guía completa](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Aprende paso a paso cómo aplicar OCR a archivos PDF usando Aspose OCR en Java y generar documentos buscables.
+### [Crear PDF buscable con Aspose OCR Java – Guía completa](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aprende paso a paso a generar PDFs buscables usando Aspose OCR en Java, con ejemplos y mejores prácticas.
 ### [Reconocer texto en ROI con Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 Desbloquea la extracción de texto en regiones de interés (ROI) usando Aspose OCR en Java. Sigue la guía paso a paso.
 ### [Cargar imagen para OCR con Aspose OCR Java – Tutorial completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
@@ -178,12 +194,6 @@ A: Procesa imágenes TIFF en fragmentos o usa multi‑threading para mantener el
 **Probado con:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Reconocer texto en imagen con Aspose OCR – Tutorial completo de OCR en Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Desbloquea la extracción completa de texto de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
 ### [Crear PDF buscable a partir de PNG – Guía completa en Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -195,3 +205,9 @@ Aprende a generar PDFs buscables usando Aspose OCR con instrucciones detalladas 
 ### [Convertir imágenes a texto en Java – Guía de procesamiento OCR por lotes](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Aprende a convertir múltiples imágenes a texto en Java usando procesamiento OCR por lotes con Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -131,6 +131,9 @@ weight: 20
 ### [Μετατροπή Εικόνας σε Κείμενο Java – Πλήρες Παράδειγμα Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
 Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο με ένα πλήρες παράδειγμα Aspose OCR για Java, από την άδεια μέχρι την εξαγωγή.
 
+### [Εξαγωγή Κειμένου από Εικόνα σε Java – Λήψη Κειμένου από OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε Java χρησιμοποιώντας το Aspose.OCR, βήμα‑βήμα οδηγός για γρήγορη ενσωμάτωση.
+
 ---
 
 **Last Updated:** 2025-12-08  

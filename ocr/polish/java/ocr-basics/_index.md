@@ -137,6 +137,8 @@ Poznaj, jak szybko wyodrębnić tekst z obrazów w Javie przy użyciu Aspose.OCR
 ### [Wykonaj OCR na obrazie w Javie – wyodrębnij tekst z JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 ### [Rozpoznawanie tekstu z obrazu w Javie – Kompletny samouczek OCR](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 Pełny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Aspose.OCR, od konfiguracji po zaawansowane techniki.
+### [Wyodrębnianie tekstu z obrazu w Javie – Pobierz tekst z OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Dowiedz się, jak wyodrębnić tekst z obrazów w Javie przy użyciu Aspose.OCR, obejmując konfigurację, przetwarzanie i pobieranie wyników OCR.
 ### [Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Kompletny samouczek Java](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
 Kompletny przewodnik Java, jak wyodrębnić tekst z obrazu przy użyciu Aspose OCR.
 

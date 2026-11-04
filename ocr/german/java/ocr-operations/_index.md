@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF-Text erkennen mit Aspose.OCR für Java
@@ -146,6 +148,20 @@ Extrahieren Sie thailändischen Text aus PNG‑Bildern mit Aspose.OCR für Java.
 Erfahren Sie, wie Sie PDF‑Text mit Aspose OCR in Java vollständig erkennen und verarbeiten.
 ### [Erstellen Sie ein durchsuchbares PDF aus einem Bild mit Java – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Erfahren Sie, wie Sie aus einem Bild ein durchsuchbares PDF mit Aspose.OCR für Java erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Durchsuchbares PDF aus Bild mit Java OCR erstellen](./create-searchable-pdf-from-image-with-java-ocr/)
+Ermöglicht das Erstellen durchsuchbarer PDFs aus Bildern mit Aspose.OCR für Java.
+### [Wie OCR in Java mit Aspose aktivieren – Schritt‑für‑Schritt‑Anleitung](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie OCR in Java mit Aspose aktivieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [OCR in Java verwenden – Text aus Bild mit Rechtschreibkorrektur extrahieren](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus Bildern extrahieren und dabei eine integrierte Rechtschreibkorrektur anwenden.
+### [Durchsuchbares PDF aus Bild erstellen – Schritt‑für‑Schritt Java‑Leitfaden](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java ein durchsuchbares PDF aus einem Bild erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [OCR auf PDF mit Aspose OCR in Java – Vollständiger Leitfaden](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Entfesseln Sie die Leistungsfähigkeit von OCR auf PDFs mit Aspose OCR in Java. Vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Durchsuchbares PDF mit Aspose OCR Java – Vollständiger Leitfaden](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Erstellen Sie ein durchsuchbares PDF mit Aspose OCR für Java – umfassende Schritt‑für‑Schritt‑Anleitung zur OCR‑Integration.
+### [Text aus Bild mit Java erkennen – Vollständiger Aspose OCR‑Leitfaden](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern vollständig erkennen und verarbeiten – Schritt für Schritt Anleitung.
 ### [Texterkennung im ROI mit Aspose OCR – Java‑Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 Entdecken Sie, wie Sie mit Aspose OCR für Java Text in einem definierten ROI erkennen.
 ### [Bild für OCR mit Aspose OCR Java laden – Vollständige Anleitung](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
@@ -174,12 +190,6 @@ A: Verarbeiten Sie TIFF‑Bilder in Teilen oder verwenden Sie Multithreading, um
 **Getestet mit:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Bildtext mit Aspose OCR erkennen – Vollständiges Java OCR‑Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von Bilddateien mit Aspose OCR in Java erklärt.
 ### [Erstellen Sie ein durchsuchbares PDF aus PNG – Vollständiger Java‑Leitfaden](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -191,3 +201,9 @@ Erfahren Sie, wie Sie mehrere Bilder in Java stapelweise in Text umwandeln und O
 ### [Durchsuchbares PDF mit Aspose OCR erstellen – Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Erstellen Sie ein durchsuchbares PDF mit Aspose OCR. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für einfache Umsetzung.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

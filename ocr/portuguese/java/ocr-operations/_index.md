@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconhecer Texto PDF com Aspose.OCR para Java
@@ -150,6 +152,20 @@ Aprenda a reconhecer texto em arquivos PNG usando Aspose OCR com um guia complet
 Aprenda a converter imagens em PDFs pesquisáveis usando Aspose.OCR para Java com instruções detalhadas passo a passo.
 ### [Executar OCR em Imagem com Java – Extrair Texto Tailandês de PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Aprenda a extrair texto em tailandês de arquivos PNG usando Aspose OCR com Java, passo a passo.
+### [Como habilitar OCR em Java com Aspose – Guia passo a passo](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aprenda a ativar o OCR em aplicações Java usando Aspose, com instruções detalhadas passo a passo.
+### [Criar PDF pesquisável a partir de imagem com Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR para Java, com passo a passo completo.
+### [Como usar OCR em Java – Extrair texto de imagem com correção ortográfica](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Aprenda a extrair texto de imagens em Java usando OCR e aplicar correção ortográfica para melhorar a precisão.
+### [Criar PDF pesquisável a partir de imagem – Guia passo a passo em Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Aprenda a transformar imagens em PDFs pesquisáveis usando Aspose.OCR para Java com instruções detalhadas passo a passo.
+### [Realizar OCR em PDF com Aspose OCR em Java – Guia Completo](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Desbloqueie o poder da extração de texto de PDFs com Aspose OCR em Java. Guia completo passo a passo.
+### [Criar PDF pesquisável com Aspose OCR Java – Guia Completo](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Desbloqueie o poder de criar PDFs pesquisáveis com Aspose OCR em Java. Guia completo passo a passo.
+### [Reconhecer texto de imagem com Java – Guia completo Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Aprenda a reconhecer texto em imagens usando Aspose OCR com Java, passo a passo, incluindo configuração e melhores práticas.
 ### [Reconhecer texto em ROI com Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 Aprenda a extrair texto de regiões de interesse (ROI) em imagens usando Aspose OCR com Java, passo a passo.
 ### [Carregar Imagem para OCR com Aspose OCR Java – Guia Completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
@@ -178,12 +194,6 @@ A: Processar imagens TIFF em blocos ou usar multithreading para manter o uso de 
 **Testado com:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Reconhecer texto em imagem com Aspose OCR – Tutorial completo de OCR em Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aprenda a reconhecer texto em imagens usando Aspose OCR com um tutorial completo em Java, cobrindo configuração e melhores práticas.
 ### [Criar PDF pesquisável a partir de PNG – Guia Java completo](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -195,3 +205,9 @@ Aprenda a processar múltiplas imagens em lote usando Aspose.OCR para Java e con
 ### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a criar PDFs pesquisáveis usando Aspose OCR com um guia passo a passo detalhado.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
