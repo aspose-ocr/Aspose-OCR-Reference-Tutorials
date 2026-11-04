@@ -155,6 +155,10 @@ Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget Java OCR-rel, lép
 Fedezd fel, hogyan tölts be képet OCR-hez, és nyerj ki szöveget egy meghatározott területről Java-ban.
 ### [Kereshető PDF létrehozása Aspose OCR-rel – Teljes Java útmutató](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Fedezd fel, hogyan hozhatsz létre kereshető PDF-et Aspose OCR-rel Java-ban, lépésről lépésre útmutatóval.
+### [Képről szöveg felismerése Aspose OCR-rel – Java útmutató](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Kép automatikus kiegyenesítése Java-ban – Teljes Aspose OCR útmutató](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Fedezd fel, hogyan kiegyenesítheted automatikusan a képeket az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
 
 ## Gyakran Ismételt Kérdések
 

@@ -161,6 +161,10 @@ weight: 21
 دليل يوضح كيفية تحميل صورة واستخدام Aspose.OCR لاستخراج النص من منطقة محددة في Java.
 ### [تشغيل OCR على مستند في Java – دليل كامل](./run-ocr-on-document-in-java-complete-guide/)
 ### [التعرف على النص من الصورة باستخدام Java OCR – دليل كامل](./recognize-text-from-image-with-java-ocr-complete-guide/)
+### [التعرف على نص الصورة باستخدام Aspose OCR – دليل Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
+### [تسوية تلقائية للصورة في Java – دليل كامل لـ Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية تصحيح انحراف الصور تلقائيًا باستخدام Aspose OCR في Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

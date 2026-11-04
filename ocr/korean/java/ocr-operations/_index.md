@@ -177,6 +177,9 @@ Java 애플리케이션에서 문서 전체에 OCR을 적용하는 단계별 전
 Java에서 Aspose OCR을 활용해 이미지 텍스트를 전체적으로 인식하는 단계별 가이드입니다.
 ### [이미지를 로드하여 OCR 수행, 영역별 텍스트 추출 – Java](./load-image-for-ocr-extract-text-from-region-java/)
 Java에서 이미지를 로드하고 특정 영역의 텍스트를 추출하는 단계별 가이드입니다.
+### [Aspose OCR을 사용한 이미지 텍스트 인식 – Java 가이드](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 방법을 상세히 설명합니다.
+### [Java에서 자동 기울기 보정 이미지 – 전체 Aspose OCR 가이드](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 
 ## 자주 묻는 질문
 

@@ -41,6 +41,9 @@ Efektywnie przygotowuj prostokąty do OCR za pomocą Aspose.OCR dla Java, korzys
 
 Wzmocnij swoje aplikacje Java za pomocą Aspose.OCR w celu precyzyjnego rozpoznawania tekstu. Ten samouczek przeprowadzi Cię przez łatwą integrację i wysoką dokładność rozpoznawania linii. Podnieś poziom swoich projektów dzięki wydajności i niezawodności Aspose.OCR.
 
+### [Jak wykrywać języki na obrazach w Javie – Kompletny przewodnik Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Wykryj języki w obrazach przy użyciu Aspose.OCR w Javie. Kompletny przewodnik zapewnia szybkie i dokładne rozpoznawanie języka.
+
 ## [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 
 ### [Jak używać OCR w Javie – wyodrębniać tekst z PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
@@ -105,7 +108,17 @@ Kompletny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Asp
 ### [Rozpoznawanie tekstu na obrazie w Javie przy użyciu Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
 Wykorzystaj moc GPU do szybkiego rozpoznawania tekstu w Javie dzięki Aspose OCR. Uzyskaj wysoką wydajność i dokładność.
 
-## Wniosek
+## [Rozpoznawanie tekstu z obrazu w Javie przyspieszonego OCR na GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Wykorzystaj przyspieszenie GPU do szybkiego i dokładnego rozpoznawania tekstu z obrazów w Javie.
+
+## [Rozpoznawanie tekstu z obrazu w Javie – Kompletny przewodnik Aspose OCR sprawdzania pisowni](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Sprawdź i popraw pisownię tekstu rozpoznanego z obrazów w Javie przy użyciu Aspose.OCR, zapewniając wysoką dokładność i wydajność.
+
+## [Wykonywanie OCR na ROI w Javie – Kompletny przewodnik Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Zastosuj OCR do wybranego obszaru obrazu w Javie, korzystając z pełnego przewodnika Aspose OCR.
+
+## [Utwórz przeszukiwalny PDF z obrazów w Javie – Kompletny przewodnik po wsadowym OCR](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Twórz przeszukiwalne pliki PDF z obrazów w Javie, wykorzystując wsadowe OCR Aspose.OCR, aby szybko i dokładnie konwertować dokumenty.
 
 Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
 ### [Jak włączyć GPU dla OCR w Javie – Szybkie rozpoznawanie tekstu z obrazu](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)

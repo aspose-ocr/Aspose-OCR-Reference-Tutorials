@@ -43,11 +43,9 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 ## [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
 
-แยกข้อความจากรูปภาพได้อย่างง่ายดายโดยการระบุอักขระที่อนุญาตด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการผสานรวมที่มีประสิทธิภาพ รับรองประสบการณ์การจดจำข้อความที่ราบรื่น ปรับปรุงแอปพลิเคชันของคุณด้วยความสามารถของ Aspose.OCR
+## [ดำเนินการ OCR บน ROI ใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
 
-## [วิธีใช้ OCR พร้อมการเร่งความเร็วด้วย GPU ใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
-
-เรียนรู้การใช้ OCR ด้วยการเร่งด้วย GPU ใน Java เพื่อความเร็วและความแม่นยำสูง ดาวน์โหลดตอนนี้เพื่อเพิ่มประสิทธิภาพแอปของคุณ
+## [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน Java – คู่มือ OCR แบบแบตช์ฉบับสมบูรณ์](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 
 ## [วิธีเปิดใช้งาน GPU ใน Java OCR – คู่มือขั้นตอนเต็ม](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
 
@@ -67,7 +65,6 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 เรียนรู้วิธีสร้างไฟล์ PDF ที่สามารถค้นหาและคัดลอกข้อความได้ใน Java ด้วย Aspose OCR อย่างละเอียดและง่ายต่อการทำตาม
 
-## บทช่วยสอนเทคนิค OCR ขั้นสูง
 ### [การแสดง OCR บน BufferedImage ใน Aspose.OCR สำหรับ Java](./perform-ocr-buffered-image/)
 ดำเนินการ OCR บน BufferedImage ได้อย่างง่ายดายด้วย Aspose.OCR สำหรับ Java แยกข้อความจากรูปภาพได้อย่างลงตัว ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์การรู้จำข้อความที่หลากหลาย
 
@@ -218,6 +215,14 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีการจดจำข้อความจากรูปภาพด้วย Aspose OCR สำหรับ Java อย่างละเอียดและครบถ้วน
 ### [กล่องขอบ OCR ใน Java – ดึงข้อความจากรูปภาพ](./ocr-bounding-box-in-java-extract-text-from-image/)
 เรียนรู้วิธีใช้ Aspose.OCR เพื่อดึงกล่องขอบและข้อความจากรูปภาพใน Java อย่างแม่นยำ
+
+### [วิธีตรวจจับภาษาจากรูปภาพด้วย Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./how-to-detect-languages-in-images-with-java-complete-aspose-ocr/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อระบุภาษาที่อยู่ในรูปภาพอย่างแม่นยำและง่ายดาย
+
+### [การจดจำข้อความจากรูปภาพใน Java ด้วย OCR เร่งความเร็วด้วย GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+
+### [การจดจำข้อความจากรูปภาพใน Java – คู่มือ Aspose OCR ตรวจสอบการสะกดฉบับสมบูรณ์](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อตรวจสอบการสะกดและจดจำข้อความจากรูปภาพอย่างแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

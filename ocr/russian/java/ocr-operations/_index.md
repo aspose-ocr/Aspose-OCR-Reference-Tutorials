@@ -169,6 +169,10 @@ weight: 21
 Пошаговый туториал по загрузке изображения и извлечению текста из выбранной области с помощью Aspose.OCR для Java.
 ### [Создание поискового PDF с Aspose OCR – Полное руководство на Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Подробный пошаговый гайд по созданию PDF с поисковым слоем с помощью Aspose OCR в Java.
+### [Распознавание текста на изображении с Aspose OCR – Руководство Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Подробный пошаговый гайд по распознаванию текста с изображений с помощью Aspose OCR в Java.
+### [Автоматическое исправление наклона изображения в Java – Полный гид по Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Полный гид по автоматическому исправлению наклона изображений в Java с использованием Aspose OCR.
 
 ## Часто задаваемые вопросы
 

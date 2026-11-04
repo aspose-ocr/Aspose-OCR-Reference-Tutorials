@@ -79,8 +79,10 @@ Odblokuj moc wyodrębniania tekstu z obrazów przy użyciu Aspose.OCR dla Javy. 
 Przykładowy kod w Javie pokazujący, jak wyodrębnić tekst z określonego regionu obrazu przy użyciu Aspose.OCR.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Odblokuj precyzyjne wyodrębnianie tekstu z obrazów przy użyciu Aspose.OCR dla Javy. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać dokładny OCR z wyborem języka.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Odblokuj moc OCR w Javie z Aspose.OCR. Rozpoznawaj tekst w dokumentach PDF bez wysiłku. Zwiększ swoje aplikacje dzięki precyzji i szybkości.
+
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Odblokuj potężne rozpoznawanie tekstu w Javie z Aspose.OCR. Bez wysiłku rozpoznawaj tekst w obrazach TIFF. Pobierz już teraz, aby cieszyć się płynnym doświadczeniem OCR.
 ### [Jak wykonać wsadowe OCR w Javie – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
@@ -179,6 +181,12 @@ Kompletny przewodnik, jak rozpoznać tekst na obrazach w Javie przy użyciu OCR,
 Łatwy przewodnik, jak wczytać obraz, określić obszar i wyodrębnić z niego tekst przy użyciu Aspose.OCR w Javie.
 ### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Kompletny przewodnik Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, zapewniając wysoką jakość i wydajność.
+
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR – przewodnik Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspose OCR.
+
+### [Automatyczne prostowanie obrazu w Javie – Kompletny przewodnik Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Dowiedz się, jak automatycznie prostować obrazy w Javie przy użyciu Aspose OCR, aby poprawić jakość OCR i uzyskać lepsze wyniki.
 
 ## Najczęściej zadawane pytania
 

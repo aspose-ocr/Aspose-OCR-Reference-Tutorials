@@ -176,6 +176,10 @@ Apprenez à exécuter l'OCR sur n'importe quel document en Java avec Aspose.OCR 
 Apprenez à extraire le texte d'images en Java grâce à un guide complet étape par étape.
 ### [Créer un PDF consultable avec Aspose OCR – Guide complet Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Apprenez à générer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Reconnaître le texte d'image avec Aspose OCR – Guide Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide pratique étape par étape.
+### [Redressement automatique d'image en Java – Guide complet Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Apprenez à corriger automatiquement l’inclinaison des images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 

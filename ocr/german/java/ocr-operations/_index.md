@@ -176,6 +176,10 @@ Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF in Java erstellen �
 Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Java OCR, Schritt für Schritt erklärt.
 ### [OCR auf Dokument in Java ausführen – Vollständige Anleitung](./run-ocr-on-document-in-java-complete-guide/)
 Führen Sie OCR auf Dokumenten in Java aus und erhalten Sie eine Schritt‑für‑Schritt‑Anleitung für optimale Texterkennung.
+### [Bildtext mit Aspose OCR erkennen – Java‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Entfesseln Sie die Bildtext‑Erkennung mit Aspose OCR in Java. Ein kompakter Leitfaden zum Extrahieren von Text aus Bildern.
+### [Auto Deskew Bild in Java – Vollständiger Aspose OCR Leitfaden](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie Bildneigungen automatisch korrigieren und OCR mit Aspose OCR in Java durchführen.
 
 ## Häufig gestellte Fragen
 

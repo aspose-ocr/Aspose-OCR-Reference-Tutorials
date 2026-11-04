@@ -180,6 +180,10 @@ Desbloquea la extracción completa de texto de imágenes con OCR en Java. Sigue 
 Desbloquea la extracción de texto de una zona específica de una imagen usando Aspose.OCR en Java.
 ### [Crear PDF buscable con Aspose OCR – Guía completa en Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Desbloquea la creación de PDFs buscables usando Aspose OCR en Java. Sigue esta guía paso a paso para obtener resultados precisos.
+### [Reconocer texto en imagen con Aspose OCR – Guía Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Aprende a extraer texto de imágenes con Aspose OCR en Java mediante esta guía paso a paso.
+### [Auto Enderezar Imagen en Java – Guía Completa de Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Desbloquea la corrección automática de inclinación de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
 
 ## Preguntas frecuentes
 

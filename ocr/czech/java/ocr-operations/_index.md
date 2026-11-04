@@ -168,6 +168,10 @@ Kompletní průvodce provedením OCR na dokumentech v Javě s Aspose.OCR, včetn
 Kompletní průvodce rozpoznáváním textu z obrázků v Javě s Aspose.OCR, včetně nastavení, kódu a optimalizace.
 ### [Načíst obrázek pro OCR, extrahovat text z oblasti – Java](./load-image-for-ocr-extract-text-from-region-java/)
 Naučte se načíst obrázek a pomocí Aspose.OCR v Javě extrahovat text z vybrané oblasti.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR – Java průvodce](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Kompletní průvodce rozpoznáním textu z obrázku v Javě pomocí Aspose OCR – krok za krokem pro maximální přesnost.
+### [Automatické vyrovnání obrazu v Javě – Kompletní průvodce Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Naučte se automaticky vyrovnat zkosené obrázky v Javě pomocí Aspose OCR a zlepšit přesnost rozpoznávání.
 
 ## Často kladené otázky
 

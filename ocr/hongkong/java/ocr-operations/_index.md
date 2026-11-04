@@ -177,6 +177,9 @@ weight: 21
 示範如何載入影像並使用 Aspose.OCR 於 Java 中從指定區域提取文字。
 ### [使用 Aspose OCR 建立可搜尋 PDF – 完整 Java 指南](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 完整教學示範如何使用 Aspose OCR 在 Java 中將 PDF 轉換為可搜尋的文件，提升文字檢索與編輯功能。
+### [使用 Aspose OCR 識別圖像文字 – Java 指南](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+完整的 Java 教學，示範如何使用 Aspose OCR 識別圖像文字並取得文字內容。
+### [在 Java 中自動校正影像 – 完整 Aspose OCR 教學](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 
 ## 常見問題
 

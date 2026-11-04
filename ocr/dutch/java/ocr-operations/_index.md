@@ -177,6 +177,9 @@ Leer stap‑voor‑stap hoe u tekst uit afbeeldingen herkent met Aspose OCR in J
 Leer hoe u een afbeelding laadt en tekst uit een specifiek gebied met Aspose.OCR in Java extraheert.
 ### [Maak doorzoekbare PDF met Aspose OCR – Complete Java-gids](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Leer stap‑voor‑stap hoe u met Aspose OCR een doorzoekbare PDF maakt in Java, van configuratie tot export.
+### [Tekst uit afbeelding herkennen met Aspose OCR – Java-gids](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+### [Afbeelding automatisch kantelen in Java – volledige Aspose OCR-gids](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Leer hoe u afbeeldingen automatisch kunt kantelen met Aspose OCR in Java voor optimale OCR‑resultaten.
 
 ## Veelgestelde vragen
 

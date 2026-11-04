@@ -172,6 +172,10 @@ weight: 21
 完整示例演示如何使用 Java OCR 从图像中提取文本并导出结果，涵盖配置、语言选择及性能优化。
 ### [加载图像进行 OCR 并从区域提取文本 – Java](./load-image-for-ocr-extract-text-from-region-java/)
 演示如何在 Java 中加载图像，使用 Aspose.OCR 仅提取指定区域的文本，实现精准的区域识别。
+### [使用 Aspose OCR 识别图像文本 – Java 指南](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+完整的 Java 示例，展示如何使用 Aspose OCR 从图像中识别文本并获取结果。
+### [使用 Aspose OCR 自动校正图像倾斜 – 完整 Java OCR 指南](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+完整的 Java 示例，展示如何使用 Aspose OCR 自动校正图像倾斜并提取文本。
 
 ## 常见问题
 

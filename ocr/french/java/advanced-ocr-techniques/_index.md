@@ -42,6 +42,29 @@ Préparez efficacement des rectangles pour l'OCR avec Aspose.OCR pour Java à l'
 Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Ce didacticiel vous guide à travers une intégration facile et une grande précision dans la reconnaissance des lignes. Élevez vos projets avec l’efficacité et la fiabilité d’Aspose.OCR.
 
 ## [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
+
+Débloquez l'extraction de texte à partir d'images de manière transparente avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace.
+
+## [Effectuer l'OCR sur une zone d'intérêt (ROI) en Java – Guide complet Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+
+Exploitez la puissance d'Aspose OCR pour Java afin d'effectuer l'OCR sur une zone d'intérêt, avec un guide complet pas à pas.
+
+## [Reconnaître du texte à partir d'une image en Java avec OCR accéléré par GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+
+Exploitez la puissance du GPU pour une OCR rapide et précise en Java. Extraire du texte d'images avec des performances accrues.
+
+## [Comment détecter les langues dans les images avec Java – Guide complet Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+
+Détectez automatiquement les langues présentes dans les images en Java grâce à Aspose OCR. Suivez notre guide complet pour une intégration fluide.
+
+## [Créer un PDF recherchable à partir d'images en Java – Guide complet d'OCR par lots](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+
+Transformez vos images en PDF consultable grâce à Aspose.OCR pour Java, avec un processus OCR par lots complet et efficace.
+
+## [Reconnaître du texte à partir d'une image en Java – Guide complet de vérification orthographique Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+
+Découvrez comment intégrer la vérification orthographique avec Aspose OCR pour Java afin d'améliorer la précision du texte reconnu.
+
 ### [Exécution d'OCR sur BufferedImage dans Aspose.OCR pour Java](./perform-ocr-buffered-image/)
 Effectuez facilement l'OCR sur BufferedImage avec Aspose.OCR pour Java. Extrayez le texte des images de manière transparente. Téléchargez-le maintenant pour une expérience de reconnaissance de texte polyvalente.
 

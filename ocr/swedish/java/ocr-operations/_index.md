@@ -181,6 +181,10 @@ En komplett guide som visar hur du använder Java OCR för att känna igen text 
 Lär dig hur du laddar en bild och extraherar text från ett specifikt område med Aspose.OCR i Java.
 ### [Skapa sökbar PDF med Aspose OCR – Komplett Java‑guide](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 En komplett guide som visar hur du skapar en sökbar PDF med Aspose OCR i Java.
+### [Känna igen text från bild med Aspose OCR – Java‑guide](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+En steg‑för‑steg‑guide för att känna igen text i bilder med Aspose OCR i Java.
+### [Automatisk räta upp bild i Java – Komplett Aspose OCR‑guide](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Lär dig hur du automatiskt räta upp bilder med Aspose OCR i Java för förbättrad OCR‑noggrannhet.
 
 ## Vanliga frågor
 

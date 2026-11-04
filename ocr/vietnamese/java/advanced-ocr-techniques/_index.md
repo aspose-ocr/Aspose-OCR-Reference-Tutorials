@@ -41,6 +41,9 @@ Chuẩn bị hiệu quả các hình chữ nhật cho OCR bằng Aspose.OCR cho 
 
 Trao quyền cho các ứng dụng Java của bạn với Aspose.OCR để nhận dạng văn bản chính xác. Hướng dẫn này hướng dẫn bạn cách tích hợp dễ dàng và độ chính xác cao trong việc nhận dạng đường. Nâng cao dự án của bạn với hiệu quả và độ tin cậy của Aspose.OCR.
 
+### [Nhận dạng văn bản từ hình ảnh trong Java bằng OCR tăng tốc GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Tận dụng sức mạnh GPU để thực hiện OCR nhanh chóng và chính xác trên hình ảnh trong Java, nâng cao hiệu suất dự án của bạn.
+
 ## [Chỉ định các ký tự được phép trong Aspose.OCR](./specify-allowed-characters/)
 ### [Thực hiện OCR trên BufferedImage trong Aspose.OCR cho Java](./perform-ocr-buffered-image/)
 Thực hiện OCR trên BufferedImage một cách dễ dàng với Aspose.OCR cho Java. Trích xuất văn bản từ hình ảnh một cách liền mạch. Tải xuống ngay để có trải nghiệm nhận dạng văn bản linh hoạt.
@@ -221,6 +224,15 @@ Tận dụng sức mạnh GPU để nhận dạng văn bản trong hình ảnh n
 Khám phá cách sử dụng Aspose OCR cho Java để nhận dạng văn bản trong hình ảnh một cách nhanh chóng và chính xác.
 ### [Hộp giới hạn OCR trong Java – Trích xuất văn bản từ hình ảnh](./ocr-bounding-box-in-java-extract-text-from-image/)
 Tận dụng hộp giới hạn OCR để trích xuất chính xác văn bản từ hình ảnh trong Java bằng Aspose.OCR.
+### [Nhận dạng văn bản từ hình ảnh trong Java bằng OCR tăng tốc GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Tận dụng sức mạnh GPU để thực hiện OCR nhanh chóng và chính xác trên hình ảnh trong Java, nâng cao hiệu suất dự án của bạn.
+### [Cách phát hiện ngôn ngữ trong hình ảnh bằng Java – Hướng dẫn đầy đủ Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Khám phá cách nhận diện ngôn ngữ trong hình ảnh bằng Aspose OCR cho Java, nâng cao khả năng xử lý đa ngôn ngữ cho dự án của bạn.
+### [Thực hiện OCR trên ROI trong Java – Hướng dẫn đầy đủ Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Thực hiện OCR trên vùng quan tâm (ROI) trong Java bằng Aspose OCR. Hướng dẫn chi tiết giúp trích xuất văn bản chính xác và nhanh chóng.
+### [Nhận dạng văn bản từ hình ảnh trong Java – Hướng dẫn đầy đủ kiểm tra chính tả Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Khám phá cách tích hợp kiểm tra chính tả khi nhận dạng văn bản từ hình ảnh trong Java bằng Aspose OCR, nâng cao độ chính xác và trải nghiệm người dùng.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh trong Java – Hướng dẫn OCR hàng loạt đầy đủ](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

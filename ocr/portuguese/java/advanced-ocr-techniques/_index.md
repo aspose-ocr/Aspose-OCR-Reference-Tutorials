@@ -220,6 +220,16 @@ Acelere o OCR de imagens em Java com GPU usando Aspose OCR. Extraia texto rapida
 Aprenda a reconhecer texto em imagens usando Aspose OCR para Java com este guia completo e passo a passo.
 ### [Caixa delimitadora de OCR em Java – Extrair texto da imagem](./ocr-bounding-box-in-java-extract-text-from-image/)
 Aprenda a obter caixas delimitadoras de texto usando Aspose.OCR para Java e extraia texto de imagens com precisão.
+### [Reconhecendo texto de imagem em Java com OCR acelerado por GPU](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Aproveite o poder da GPU para OCR em Java, obtendo reconhecimento de texto rápido e preciso em imagens.
+### [Reconhecer texto de imagem em Java – Guia completo de correção ortográfica Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Aprenda a usar o Aspose.OCR para Java com correção ortográfica, garantindo extração de texto precisa e correção automática de erros.
+### [Como Detectar Idiomas em Imagens com Java – Guia Completo Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Aprenda a identificar automaticamente o idioma de texto em imagens usando Aspose.OCR para Java, com alta precisão e fácil integração.
+### [Executando OCR em ROI em Java – Guia Completo Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Aprenda a extrair texto de regiões específicas de imagens em Java usando Aspose.OCR, com instruções passo a passo para alta precisão.
+### [Criar PDF pesquisável a partir de imagens em Java – Guia completo de OCR em lote](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Transforme imagens em PDFs pesquisáveis usando Aspose.OCR para Java, com processamento em lote rápido e preciso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

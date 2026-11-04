@@ -51,6 +51,10 @@ Lär dig hur du identifierar handskriven text och ökar OCR‑precisionen med As
 Lär dig att räta upp snedvridna bilder innan OCR med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för förbättrad textigenkänning.
 
 ## [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
+
+## [Känn igen text från bild i Java med GPU‑accelererad OCR](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Utnyttja GPU‑acceleration för snabb och exakt textigenkänning i Java med Aspose.OCR. Följ vår steg‑för‑steg‑guide för enkel integration.
+
 ### [Utför OCR på bild med Aspose OCR – Java steg‑för‑steg‑guide](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 Lär dig steg för steg hur du utför OCR på en bild med Aspose OCR i Java för exakt och snabb textutvinning.
 
@@ -205,6 +209,14 @@ Utnyttja GPU-acceleration för snabb och exakt textigenkänning i Java med Aspos
 Utnyttja Aspose OCR för Java för att exakt känna igen text i bilder med en komplett steg-för-steg-guide.
 ### [OCR-omslutningsruta i Java – Extrahera text från bild](./ocr-bounding-box-in-java-extract-text-from-image/)
 Utnyttja OCR-omslutningsrutor för att exakt extrahera text från bilder i Java med Aspose OCR.
+### [Hur man upptäcker språk i bilder med Java – Komplett Aspose OCR‑guide](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Lär dig att identifiera språk i bilder med Java och Aspose OCR i en komplett steg‑för‑steg‑guide.
+### [Utför OCR på ROI i Java – Fullständig Aspose OCR‑guide](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Extrahera text från ett specifikt område i bilden med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för enkel ROI‑OCR.
+### [Skapa sökbar PDF från bilder i Java – Komplett batch‑OCR‑guide](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Skapa en sökbar PDF från bildfiler med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för batch‑OCR och enkel PDF‑generering.
+### [Känn igen text från bild i Java – Komplett Aspose OCR‑stavningskontroll‑guide](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Lär dig att använda Aspose.OCR för stavningskontroll vid textigenkänning i Java. Följ vår steg‑för‑steg‑guide för exakt OCR med korrektur.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

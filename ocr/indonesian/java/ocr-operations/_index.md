@@ -179,6 +179,10 @@ Panduan lengkap menjalankan OCR pada dokumen menggunakan Aspose.OCR untuk Java, 
 Panduan lengkap untuk mengenali teks dari gambar menggunakan OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
 ### [Muat Gambar untuk OCR, Ekstrak Teks dari Wilayah – Java](./load-image-for-ocr-extract-text-from-region-java/)
 Panduan singkat memuat gambar, menerapkan OCR, dan mengekstrak teks dari area tertentu menggunakan Aspose.OCR untuk Java.
+### [Mengenali teks dari gambar dengan Aspose OCR – Panduan Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Panduan praktis untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail.
+### [Auto Deskew Gambar di Java – Panduan Lengkap Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Panduan lengkap untuk secara otomatis mengoreksi kemiringan gambar menggunakan Aspose OCR di Java.
 
 ## Pertanyaan yang Sering Diajukan
 

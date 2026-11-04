@@ -213,6 +213,20 @@ Aspose OCR जावा का उपयोग करके इमेज से 
 
 ### [जावा में OCR बाउंडिंग बॉक्स – इमेज से टेक्स्ट निकालें](./ocr-bounding-box-in-java-extract-text-from-image/)
 जावा में Aspose.OCR का उपयोग करके बाउंडिंग बॉक्स के साथ इमेज से टेक्स्ट निकालें। तेज़ और सटीक OCR के लिए चरण-दर-चरण मार्गदर्शिका।
+### [GPU‑त्वरित OCR के साथ जावा में छवि से पाठ पहचानना](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+GPU‑त्वरित OCR के साथ जावा में तेज़ी से छवि से पाठ निकालें। उच्च सटीकता और तेज़ प्रोसेसिंग के लिए अभी डाउनलोड करें।
+
+### [जावा में छवि से पाठ पहचान – पूर्ण Aspose OCR वर्तनी‑जाँच गाइड](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+जावा में Aspose OCR के साथ वर्तनी‑जाँच के साथ छवि से पाठ निकालें। तेज़ और सटीक परिणामों के लिए अभी डाउनलोड करें।
+
+### [जावा में Aspose OCR के साथ छवियों में भाषाओं का पता लगाना – पूर्ण गाइड](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+जावा में Aspose OCR का उपयोग करके छवियों में विभिन्न भाषाओं की पहचान करें। तेज़ और सटीक भाषा पहचान के लिए अभी डाउनलोड करें।
+
+### [जावा में ROI पर OCR निष्पादित करना – पूर्ण Aspose OCR गाइड](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+जावा में ROI (Region of Interest) पर OCR करने के लिए पूर्ण Aspose OCR गाइड। तेज़ और सटीक पाठ निष्कर्षण के लिए अभी डाउनलोड करें।
+
+### [जावा में छवियों से खोज योग्य PDF बनाना – पूर्ण बैच OCR गाइड](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+जावा में Aspose.OCR का उपयोग करके छवियों से खोज योग्य PDF बनाएं। बैच प्रोसेसिंग और उच्च सटीकता के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

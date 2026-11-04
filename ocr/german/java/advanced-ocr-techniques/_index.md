@@ -227,6 +227,16 @@ Nutzen Sie die GPU-Beschleunigung von Aspose OCR, um Text aus Bildern in Java sc
 Erfahren Sie, wie Sie mit Aspose OCR Java Text aus Bildern vollständig und präzise extrahieren – Schritt‑für‑Schritt‑Leitfaden.
 ### [OCR-Bounding-Box in Java – Text aus Bild extrahieren](./ocr-bounding-box-in-java-extract-text-from-image/)
 Erfahren Sie, wie Sie mit Aspose.OCR für Java Bounding Boxes nutzen, um Text präzise aus Bildern zu extrahieren.
+### [Texterkennung aus Bild in Java mit GPU‑beschleunigtem OCR](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Nutzen Sie GPU‑beschleunigtes OCR in Java, um Text aus Bildern blitzschnell und präzise zu extrahieren. Integrieren Sie die Lösung mühelos in Ihre Anwendungen.
+### [Erstellen von durchsuchbaren PDFs aus Bildern in Java – Vollständiger Batch‑OCR‑Leitfaden](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Erzeugen Sie mit Aspose.OCR für Java durchsuchbare PDFs aus Bilddateien im Batch‑Modus – schnell, präzise und einfach zu integrieren.
+### [Sprachen in Bildern mit Java erkennen – Vollständiger Aspose OCR Leitfaden](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Entdecken Sie, wie Sie mit Aspose OCR in Java die Sprache von Text in Bildern automatisch erkennen.
+### [Durchführen von OCR auf ROI in Java – Vollständiger Aspose OCR Leitfaden](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Nutzen Sie Aspose.OCR für Java, um OCR auf einem ROI (Region of Interest) durchzuführen und Text präzise aus ausgewählten Bildbereichen zu extrahieren.
+### [Texterkennung aus Bild in Java – Vollständiger Aspose OCR Rechtschreib‑Prüfungs‑Leitfaden](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Nutzen Sie Aspose OCR in Java, um Text aus Bildern zu erkennen und gleichzeitig eine umfassende Rechtschreibprüfung durchzuführen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

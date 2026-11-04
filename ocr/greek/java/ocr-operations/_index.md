@@ -171,6 +171,10 @@ weight: 21
 Φορτώστε εικόνα, ορίστε περιοχή και εξάγετε κείμενο με Aspose.OCR για Java.
 ### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Πλήρης Οδηγός Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
 Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF με Aspose OCR σε Java, βήμα‑βήμα οδηγίες για ακριβή OCR.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – Java guide](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε Java με αυτόν τον ολοκληρωμένο οδηγό.
+### [Αυτόματη διόρθωση κλίσης εικόνας σε Java – Πλήρης οδηγός Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Μάθετε πώς να ευθυγραμμίζετε αυτόματα εικόνες με κλίση χρησιμοποιώντας το Aspose OCR για Java.
 
 ## Συχνές Ερωτήσεις
 

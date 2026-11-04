@@ -215,6 +215,16 @@ Aspose.OCR для Java меняет правила игры, когда дело
 ### [Распознавание текста на изображении с Aspose OCR Java – Полное руководство](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 Полное руководство по распознаванию текста на изображениях с помощью Aspose OCR для Java, обеспечивая высокую точность и простую интеграцию.
 ### [OCR Bounding Box в Java – Извлечение текста из изображения](./ocr-bounding-box-in-java-extract-text-from-image/)
+### [Распознавание текста из изображения в Java с ускоренным GPU‑OCR](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
+Выполняйте ускоренное GPU‑OCR распознавание изображений в Java, получая высокую точность и производительность. Интегрируйте быстро и эффективно.
+### [Как определять языки на изображениях с помощью Java – Полное руководство по Aspose OCR](./how-to-detect-languages-in-images-with-java-complete-aspose/)
+Определяйте язык текста на изображениях в Java с помощью Aspose OCR, получая точные результаты и простую интеграцию.
+### [Выполнение OCR на ROI в Java – Полное руководство Aspose OCR](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
+Извлекайте текст из выбранных областей изображения в Java с помощью Aspose OCR, следуя полному пошаговому руководству.
+### [Создание поискового PDF из изображений в Java – Полное руководство по пакетному OCR](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+Создавайте поисковые PDF из изображений в Java с помощью пакетного OCR, обеспечивая высокую точность и эффективность.
+### [Распознавание текста из изображения в Java – Полное руководство по проверке орфографии Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+Проверьте орфографию распознанного текста в Java с помощью Aspose OCR, получая точные результаты и простую интеграцию.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
