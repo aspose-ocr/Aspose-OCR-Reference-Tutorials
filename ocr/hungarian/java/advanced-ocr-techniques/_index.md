@@ -224,6 +224,12 @@ Könnyedén nyerjen ki szöveget beolvasott képekről Java-ban az Aspose.OCR te
 Fedezze fel, hogyan növelheti az OCR pontosságát Java-ban részletes lépésekkel és tippekkel.
 ### [Kereshető PDF létrehozása Java-ban – Teljes Aspose OCR útmutató](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Készítsen kereshető PDF-et Java-val az Aspose OCR segítségével, lépésről‑lépésre útmutató a teljes folyamathoz.
+### [Szövegkép felismerése Java-ban az Aspose OCR + GPU segítségével](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Használja az Aspose OCR GPU gyorsítással a szövegkép pontos és gyors felismeréséhez Java alkalmazásokban.
+### [Képről szöveg felismerése az Aspose OCR Java-val – Teljes útmutató](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Részletes útmutató a képről történő szövegfelismeréshez az Aspose OCR Java-val, gyors és pontos eredményekért.
+### [OCR körülhatároló doboz Java-ban – Szöveg kinyerése képből](./ocr-bounding-box-in-java-extract-text-from-image/)
+Használja az Aspose.OCR for Java-t OCR körülhatároló dobozok létrehozásához és szöveg kinyeréséhez képekről, pontos és gyors eredményekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -223,6 +223,12 @@ Apprenez à extraire rapidement le texte d'un PDF protégé par mot de passe en 
 Apprenez à charger une image, appliquer la correction orthographique et exécuter l'OCR avec Aspose OCR pour Java.
 ### [Créer un PDF recherchable en Java – Guide complet Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Apprenez à générer un PDF consultable à partir d'images en Java avec Aspose.OCR. Suivez notre guide complet étape par étape.
+### [Reconnaître le texte d'une image en Java avec Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Exploitez la puissance du GPU pour reconnaître rapidement le texte des images en Java avec Aspose OCR.
+### [Reconnaître le texte d'une image avec Aspose OCR Java – Guide complet](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Apprenez à extraire rapidement le texte d'images en Java avec Aspose OCR grâce à ce guide complet.
+### [Boîte englobante OCR en Java – Extraire le texte d'une image](./ocr-bounding-box-in-java-extract-text-from-image/)
+Utilisez Aspose.OCR pour Java afin d'extraire le texte d'une image en récupérant les boîtes englobantes des caractères.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

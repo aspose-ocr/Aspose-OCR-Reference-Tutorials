@@ -213,6 +213,12 @@ Kompletní návod, jak načíst obrázek, opravit pravopis a provést OCR pomoc�
 Naučte se, jak zvýšit přesnost OCR v Javě pomocí Aspose.OCR s podrobným krok‑za‑krokem návodem.
 ### [Vytvoření prohledávatelného PDF v Javě – Kompletní průvodce Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Naučte se, jak v Javě vytvořit prohledávatelné PDF pomocí Aspose OCR s podrobným krok‑za‑krokem návodem.
+### [Rozpoznání textu na obrázku v Javě pomocí Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Využijte GPU akceleraci pro rychlé rozpoznávání textu na obrázcích v Javě s Aspose OCR.
+### [Rozpoznání textu z obrázku pomocí Aspose OCR Java – Kompletní průvodce](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Kompletní průvodce rozpoznáváním textu z obrázků v Javě s Aspose OCR.
+### [OCR ohraničující rámeček v Javě – Extrahujte text z obrázku](./ocr-bounding-box-in-java-extract-text-from-image/)
+Získejte souřadnice ohraničujícího rámečku a extrahujte text z obrázku pomocí Aspose.OCR v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

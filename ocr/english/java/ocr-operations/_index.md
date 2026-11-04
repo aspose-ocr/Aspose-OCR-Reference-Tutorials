@@ -203,6 +203,8 @@ A: Process TIFF images in chunks or use multi‑threading to keep memory usage o
 
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+### [load image for OCR, extract text from region – Java]({{< relref "load-image-for-ocr-extract-text-from-region-java" >}})
+Learn how to load an image and extract text from a specific region using Aspose.OCR for Java.
 ### [Convert images to text in java – batch OCR processing guide]({{< relref "convert-images-to-text-in-java-batch-ocr-processing-guide" >}})
 Learn how to batch process images into searchable text using Aspose.OCR for Java.
 ### [Create searchable PDF with aspose OCR – step‑by‑Step guide]({{< relref "create-searchable-pdf-with-aspose-ocr-step-by-step-guide" >}})
@@ -218,6 +220,13 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+
+### [Run OCR on Document in Java – Complete Guide]({{< relref "run-ocr-on-document-in-java-complete-guide" >}})
+Comprehensive guide to running OCR on documents using Aspose.OCR for Java, covering setup, processing, and best practices.
+### [recognize text from image with Java OCR – Complete Guide]({{< relref "recognize-text-from-image-with-java-ocr-complete-guide" >}})
+Complete guide to extracting text from images using Java OCR with Aspose, covering setup, processing steps, and optimization tips.
+### [Create Searchable PDF with Aspose OCR – Complete Java Guide]({{< relref "create-searchable-pdf-with-aspose-ocr-complete-java-guide" >}})
+Step‑by‑step guide to creating searchable PDFs using Aspose OCR for Java, covering setup, OCR processing, and optimization.
 
 ### [Apply Aspose OCR License in Java – Remove OCR Watermark]({{< relref "apply-aspose-ocr-license-in-java-remove-ocr-watermark" >}})
 Learn to apply an Aspose OCR license in Java and eliminate the OCR watermark for clean results.

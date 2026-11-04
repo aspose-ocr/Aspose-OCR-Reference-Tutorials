@@ -155,6 +155,13 @@ JPG 파일을 사용해 OCR을 수행하고 텍스트를 추출하는 방법을 
 ### [Java에서 OCR 수행 방법 – 이미지에서 텍스트 추출을 위한 완전 가이드](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 
 Java와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 단계별 가이드입니다.
+### [Java OCR 예제 – 이미지 로드 및 Aspose로 텍스트 인식](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+
+Aspose를 사용해 Java에서 이미지를 로드하고 텍스트를 인식하는 단계별 예제입니다.
+
+### [Java에서 이미지 OCR 수행 – 완전 단계별 가이드](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+
+Aspose.OCR을 사용해 Java에서 이미지를 로드하고 OCR을 수행하는 전체 과정을 단계별로 안내합니다.
 
 ---
 

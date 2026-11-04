@@ -163,6 +163,14 @@ weight: 21
 Μάθετε πώς να φορτώνετε εικόνες για OCR χρησιμοποιώντας το Aspose OCR Java σε πλήρη οδηγό βήμα‑βήμα.
 ### [Εφαρμογή άδειας Aspose OCR σε Java – Αφαίρεση υδατογραφήματος OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Μάθετε πώς να εφαρμόσετε την άδεια Aspose OCR σε Java και να αφαιρέσετε το υδατογράφημα OCR από τα αποτελέσματα.
+### [Εκτέλεση OCR σε Έγγραφο με Java – Πλήρης Οδηγός](./run-ocr-on-document-in-java-complete-guide/)
+Μάθετε πώς να εφαρμόσετε OCR σε έγγραφα Java με πλήρη βήμα‑βήμα οδηγίες για ακριβή εξαγωγή κειμένου.
+### [recognize text from image with Java OCR – Complete Guide](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Πλήρης οδηγός για την αναγνώριση κειμένου από εικόνα με Java OCR, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Φόρτωση εικόνας για OCR, εξαγωγή κειμένου από περιοχή – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Φορτώστε εικόνα, ορίστε περιοχή και εξάγετε κείμενο με Aspose.OCR για Java.
+### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Πλήρης Οδηγός Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF με Aspose OCR σε Java, βήμα‑βήμα οδηγίες για ακριβή OCR.
 
 ## Συχνές Ερωτήσεις
 

@@ -129,6 +129,10 @@ weight: 20
 ### [تحويل الصورة إلى نص Java – مثال كامل Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
 تعلم كيفية تحويل الصور إلى نص باستخدام Aspose OCR في Java مع مثال كامل خطوة بخطوة.
 ### [كيفية تنفيذ OCR في Java – دليل شامل لاستخراج النص من الصور](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+### [مثال Java OCR – تحميل صورة والتعرف على النص باستخدام Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+تعلم كيفية تحميل صورة واستخدام Aspose.OCR في Java للتعرف على النص واستخراجه بسهولة.
+### [إجراء OCR على صورة في Java – دليل خطوة بخطوة كامل](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+اكتشف كيفية تنفيذ OCR على صورة باستخدام Aspose.OCR في Java من خلال دليل شامل خطوة بخطوة.
 
 ---
 

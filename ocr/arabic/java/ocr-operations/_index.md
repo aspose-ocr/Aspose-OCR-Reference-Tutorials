@@ -155,6 +155,12 @@ weight: 21
 دليل شامل يوضح كيفية تحميل صورة وإجراء OCR باستخدام Aspose OCR للـ Java خطوة بخطوة.
 ### [تطبيق ترخيص Aspose OCR في Java – إزالة العلامة المائية للـ OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 دليل خطوة بخطوة لتطبيق ترخيص Aspose OCR في Java وإزالة العلامة المائية من النص المستخرج.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل Java كامل](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR في Java، خطوة بخطوة مع أمثلة عملية.
+### [تحميل صورة للتعرف الضوئي على الأحرف، استخراج النص من منطقة – Java](./load-image-for-ocr-extract-text-from-region-java/)
+دليل يوضح كيفية تحميل صورة واستخدام Aspose.OCR لاستخراج النص من منطقة محددة في Java.
+### [تشغيل OCR على مستند في Java – دليل كامل](./run-ocr-on-document-in-java-complete-guide/)
+### [التعرف على النص من الصورة باستخدام Java OCR – دليل كامل](./recognize-text-from-image-with-java-ocr-complete-guide/)
 
 ## الأسئلة المتكررة
 

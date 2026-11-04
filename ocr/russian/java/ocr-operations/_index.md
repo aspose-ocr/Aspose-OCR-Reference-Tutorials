@@ -161,6 +161,14 @@ weight: 21
 Подробный пошаговый туториал по загрузке изображений и их обработке OCR с использованием Aspose OCR для Java.
 ### [Применение лицензии Aspose OCR в Java – Удаление водяного знака OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Узнайте, как установить лицензию Aspose OCR в Java и избавиться от водяного знака OCR в результирующих документах.
+### [Запуск OCR на документе в Java – Полное руководство](./run-ocr-on-document-in-java-complete-guide/)
+Полный пошаговый гайд по запуску OCR для документов в Java с использованием Aspose.OCR.
+### [Распознавание текста на изображении с Java OCR – Полное руководство](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Полный пошаговый гайд по распознаванию текста на изображениях с использованием Java OCR.
+### [Загрузка изображения для OCR, извлечение текста из области – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Пошаговый туториал по загрузке изображения и извлечению текста из выбранной области с помощью Aspose.OCR для Java.
+### [Создание поискового PDF с Aspose OCR – Полное руководство на Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Подробный пошаговый гайд по созданию PDF с поисковым слоем с помощью Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 

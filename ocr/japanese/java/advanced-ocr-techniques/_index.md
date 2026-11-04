@@ -200,6 +200,11 @@ Aspose OCR for Java を使用して画像を読み込み、スペル補正を行
 Aspose.OCR for Java を活用し、OCR の精度を最大化するための詳細な手順とベストプラクティスを解説します。
 ### [Java で検索可能な PDF を作成 – 完全 Aspose OCR ガイド](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Aspose.OCR for Java を使用して、検索可能な PDF を作成し、テキスト抽出と保存をシームレスに実現する完全ガイドです。
+### [Java で Aspose OCR + GPU を使用してテキスト画像を認識する](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+### [Aspose OCR Java で画像からテキストを認識する – 完全ガイド](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Aspose OCR Java を活用し、画像からテキストを正確に抽出する手順を詳しく解説します。簡単に統合できる完全ガイドです。
+### [Java で OCR バウンディングボックスを使用して画像からテキストを抽出する](./ocr-bounding-box-in-java-extract-text-from-image/)
+Aspose.OCR for Java を利用し、画像内のバウンディングボックスを取得してテキスト抽出する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

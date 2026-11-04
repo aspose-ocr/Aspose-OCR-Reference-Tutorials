@@ -173,6 +173,14 @@ Lär dig hur du extraherar text från ett specifikt område (ROI) i en bild med 
 En komplett guide som visar hur du laddar en bild för OCR med Aspose OCR i Java.
 ### [Applicera Aspose OCR-licens i Java – Ta bort OCR‑vattenstämpel](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Lär dig hur du applicerar en Aspose OCR‑licens i Java för att ta bort vattenstämpeln från OCR‑resultaten.
+### [Kör OCR på dokument i Java – Komplett guide](./run-ocr-on-document-in-java-complete-guide/)
+En fullständig guide som visar hur du kör OCR på dokument i Java med Aspose.OCR, inklusive kodexempel och bästa praxis.
+### [Känna igen text från bild med Java OCR – Komplett guide](./recognize-text-from-image-with-java-ocr-complete-guide/)
+En komplett guide som visar hur du använder Java OCR för att känna igen text i bilder.
+### [Ladda bild för OCR, extrahera text från område – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Lär dig hur du laddar en bild och extraherar text från ett specifikt område med Aspose.OCR i Java.
+### [Skapa sökbar PDF med Aspose OCR – Komplett Java‑guide](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+En komplett guide som visar hur du skapar en sökbar PDF med Aspose OCR i Java.
 
 ## Vanliga frågor
 

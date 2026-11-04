@@ -160,6 +160,14 @@ Naučte se rozpoznávat text v oblasti zájmu (ROI) pomocí Aspose OCR v Javě.
 ### [Načtení obrázku pro OCR s Aspose OCR Java – Kompletní průvodce](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Naučte se, jak načíst obrázek a provést OCR pomocí Aspose OCR pro Java v podrobném průvodci krok za krokem.
 ### [Aplikace licence Aspose OCR v Javě – odebrání vodoznaku OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+### [Vytvoření prohledávatelného PDF pomocí Aspose OCR – Kompletní průvodce pro Javu](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Kompletní návod, jak pomocí Aspose OCR v Javě vytvořit prohledávatelný PDF soubor s OCR vrstvou.
+### [Spuštění OCR na dokumentu v Javě – Kompletní průvodce](./run-ocr-on-document-in-java-complete-guide/)
+Kompletní průvodce provedením OCR na dokumentech v Javě s Aspose.OCR, včetně nastavení, kódu a optimalizace.
+### [Rozpoznání textu z obrázku pomocí Java OCR – Kompletní průvodce](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Kompletní průvodce rozpoznáváním textu z obrázků v Javě s Aspose.OCR, včetně nastavení, kódu a optimalizace.
+### [Načíst obrázek pro OCR, extrahovat text z oblasti – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Naučte se načíst obrázek a pomocí Aspose.OCR v Javě extrahovat text z vybrané oblasti.
 
 ## Často kladené otázky
 

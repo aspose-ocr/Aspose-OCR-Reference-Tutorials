@@ -99,6 +99,12 @@ Dowiedz się, jak efektywnie przetwarzać duże dokumenty przy użyciu Aspose.OC
 Dowiedz się, jak wstępnie przetwarzać obrazy przed OCR w Javie, aby zwiększyć dokładność rozpoznawania i skutecznie wyodrębniać tekst.
 ### [Rozpoznawanie tekstu z obrazu w Javie – samouczek GPU OCR](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
 
+### [Rozpoznawanie tekstu z obrazu w Aspose OCR dla Java – Kompletny przewodnik](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Aspose OCR. Szczegółowe instrukcje i przykłady.
+
+### [Rozpoznawanie tekstu na obrazie w Javie przy użyciu Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Wykorzystaj moc GPU do szybkiego rozpoznawania tekstu w Javie dzięki Aspose OCR. Uzyskaj wysoką wydajność i dokładność.
+
 ## Wniosek
 
 Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
@@ -227,6 +233,10 @@ Dowiedz się, jak wyodrębnić tekst ze skanowanego obrazu w Javie przy użyciu 
 Zwiększ precyzję OCR w Javie dzięki praktycznym wskazówkom i technikom optymalizacji. Kompletny przewodnik krok po kroku.
 ### [Tworzenie przeszukiwalnego PDF w Javie – Kompletny przewodnik Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Dowiedz się, jak w Javie wygenerować przeszukiwalny plik PDF przy użyciu Aspose OCR, krok po kroku, z pełną kontrolą ustawień.
+### [Rozpoznawanie tekstu na obrazie w Javie przy użyciu Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Wykorzystaj moc GPU do szybkiego rozpoznawania tekstu w Javie dzięki Aspose OCR. Uzyskaj wysoką wydajność i dokładność.
+### [OCR Bounding Box w Javie – Wyodrębnianie tekstu z obrazu](./ocr-bounding-box-in-java-extract-text-from-image/)
+Zidentyfikuj i wyodrębnij tekst z obrazu, wykorzystując ramki ograniczające OCR w Aspose.OCR dla Java. Proste i skuteczne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

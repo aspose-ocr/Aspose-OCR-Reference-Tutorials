@@ -146,6 +146,10 @@ Kompletny przewodnik Java, jak wyodrębnić tekst z obrazu przy użyciu Aspose O
 Pełny przykład w Javie, pokazujący konwersję obrazu na tekst przy użyciu Aspose OCR.
 ### [Jak wykonać OCR w Javie – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 Kompletny przewodnik, jak używać Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący konfigurację, korekcję pochylenia i optymalizację wyników.
+### [Przykład OCR w Javie – Wczytaj obraz i rozpoznaj tekst przy użyciu Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+
+### [Wykonaj OCR na obrazie w Javie – Kompletny przewodnik krok po kroku](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Pełny przewodnik, jak w Javie załadować obraz i przeprowadzić OCR przy użyciu Aspose.OCR, krok po kroku.
 
 ---
 

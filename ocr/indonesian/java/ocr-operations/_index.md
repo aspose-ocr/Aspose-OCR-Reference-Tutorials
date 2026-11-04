@@ -171,6 +171,14 @@ Ekstrak teks dari area ROI pada gambar menggunakan Aspose OCR di Java dengan pan
 Panduan lengkap memuat gambar untuk OCR menggunakan Aspose OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
 ### [Terapkan Lisensi Aspose OCR di Java – Hapus Watermark OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Cara mengaktifkan lisensi Aspose OCR di Java untuk menghilangkan watermark OCR pada hasil.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Java Lengkap](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, langkah demi langkah untuk hasil optimal.
+### [Jalankan OCR pada Dokumen di Java – Panduan Lengkap](./run-ocr-on-document-in-java-complete-guide/)
+Panduan lengkap menjalankan OCR pada dokumen menggunakan Aspose.OCR untuk Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Mengenali Teks dari Gambar dengan OCR Java – Panduan Lengkap](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Muat Gambar untuk OCR, Ekstrak Teks dari Wilayah – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Panduan singkat memuat gambar, menerapkan OCR, dan mengekstrak teks dari area tertentu menggunakan Aspose.OCR untuk Java.
 
 ## Pertanyaan yang Sering Diajukan
 

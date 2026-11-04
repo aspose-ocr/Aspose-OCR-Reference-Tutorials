@@ -212,6 +212,12 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Java OCR – คู่มือเต็มรูปแบบ](./create-searchable-pdf-with-java-ocr-complete-guide/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java ในคู่มือเต็มรูปแบบนี้
+### [การจดจำข้อความจากรูปภาพใน Java ด้วย Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+ใช้ Aspose OCR พร้อม GPU เพื่อเร่งความเร็วการจดจำข้อความจากรูปภาพใน Java อย่างแม่นยำและมีประสิทธิภาพ
+### [การจดจำข้อความจากรูปภาพด้วย Aspose OCR Java – คู่มือฉบับสมบูรณ์](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+เรียนรู้วิธีการจดจำข้อความจากรูปภาพด้วย Aspose OCR สำหรับ Java อย่างละเอียดและครบถ้วน
+### [กล่องขอบ OCR ใน Java – ดึงข้อความจากรูปภาพ](./ocr-bounding-box-in-java-extract-text-from-image/)
+เรียนรู้วิธีใช้ Aspose.OCR เพื่อดึงกล่องขอบและข้อความจากรูปภาพใน Java อย่างแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

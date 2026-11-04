@@ -169,6 +169,14 @@ Aspose OCR을 활용해 ROI(관심 영역)에서 텍스트를 정확히 추출�
 이미지를 로드하고 Aspose OCR Java로 OCR을 적용하는 전체 단계별 가이드를 제공합니다.
 ### [Java에서 Aspose OCR 라이선스 적용 – OCR 워터마크 제거](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Java 애플리케이션에 Aspose OCR 라이선스를 적용하고 워터마크를 제거하는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 검색 가능한 PDF 만들기 – 전체 Java 가이드](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Aspose OCR을 활용해 Java에서 검색 가능한 PDF를 생성하는 전체 단계별 가이드입니다.
+### [Java에서 문서에 OCR 수행 – 전체 가이드](./run-ocr-on-document-in-java-complete-guide/)
+Java 애플리케이션에서 문서 전체에 OCR을 적용하는 단계별 전체 가이드입니다.
+### [Java OCR을 사용한 이미지 텍스트 인식 – 전체 가이드](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Java에서 Aspose OCR을 활용해 이미지 텍스트를 전체적으로 인식하는 단계별 가이드입니다.
+### [이미지를 로드하여 OCR 수행, 영역별 텍스트 추출 – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Java에서 이미지를 로드하고 특정 영역의 텍스트를 추출하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

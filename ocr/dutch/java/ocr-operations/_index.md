@@ -169,6 +169,14 @@ Leer hoe u tekst binnen een specifiek gebied (ROI) kunt herkennen met Aspose OCR
 Leer hoe u afbeeldingen kunt laden en voorbereiden voor OCR met Aspose OCR voor Java in een volledige gids.
 ### [Aspose OCR-licentie toepassen in Java – OCR-watermerk verwijderen](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Leer hoe u de Aspose OCR-licentie in Java installeert om het OCR-watermerk te verwijderen en onbeperkte OCR-functionaliteit te krijgen.
+### [OCR uitvoeren op document in Java – volledige gids](./run-ocr-on-document-in-java-complete-guide/)
+Leer hoe u OCR toepast op documenten in Java met een stap‑voor‑stap volledige gids.
+### [Tekst uit afbeelding herkennen met Java OCR – volledige gids](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Leer stap‑voor‑stap hoe u tekst uit afbeeldingen herkent met Aspose OCR in Java, van configuratie tot optimale resultaten.
+### [Afbeelding laden voor OCR, tekst uit regio extraheren – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Leer hoe u een afbeelding laadt en tekst uit een specifiek gebied met Aspose.OCR in Java extraheert.
+### [Maak doorzoekbare PDF met Aspose OCR – Complete Java-gids](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Leer stap‑voor‑stap hoe u met Aspose OCR een doorzoekbare PDF maakt in Java, van configuratie tot export.
 
 ## Veelgestelde vragen
 

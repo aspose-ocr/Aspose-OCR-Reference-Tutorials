@@ -172,6 +172,14 @@ Aspose OCR का उपयोग करके ROI (Region of Interest) मे�
 Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [Java में Aspose OCR लाइसेंस लागू करें – OCR वॉटरमार्क हटाएँ](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Java एप्लिकेशन में Aspose OCR लाइसेंस सेट करके वॉटरमार्क हटाने की प्रक्रिया सीखें।
+### [Java में दस्तावेज़ पर OCR चलाएँ – पूर्ण गाइड](./run-ocr-on-document-in-java-complete-guide/)
+Java में दस्तावेज़ पर OCR चलाने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java OCR के साथ इमेज से टेक्स्ट पहचानें – पूर्ण गाइड](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Java OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [इमेज लोड करें OCR के लिए, क्षेत्र से टेक्स्ट निकालें – Java](./load-image-for-ocr-extract-text-from-region-java/)
+इमेज को लोड करके, निर्दिष्ट क्षेत्र से टेक्स्ट निकालने की प्रक्रिया Java में Aspose.OCR के साथ सीखें।
+### [Aspose OCR के साथ सर्चेबल PDF बनाएं – पूर्ण Java गाइड](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Aspose OCR का उपयोग करके Java में सर्चेबल PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

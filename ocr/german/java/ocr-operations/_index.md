@@ -76,6 +76,8 @@ Zusammenfassend haben Sie mit unserer Aspose.OCR für Java Tutorials‑Auflistun
 ## OCR‑Operationen‑Tutorials
 ### [OCR mit Detect Areas Mode in Aspose.OCR durchführen](./perform-ocr-detect-areas-mode/)
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
+### [Bild laden für OCR, Text aus Region extrahieren – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Laden Sie ein Bild, definieren Sie einen Bereich und extrahieren Sie Text mit Aspose.OCR für Java – Schritt für Schritt.
 ### [OCR mit Sprachauswahl in Aspose.OCR durchführen](./perform-ocr-language-selection/)
 Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
 ### [OCR-Erkennung von PDF‑Dokumenten in Aspose.OCR für Java](./recognize-pdf/)
@@ -168,6 +170,12 @@ Entdecken Sie, wie Sie mit Aspose OCR für Java Text in einem definierten ROI er
 Lernen Sie, wie Sie Bilder in Java laden und mit Aspose OCR vollständig verarbeiten, um präzise Texterkennung zu erzielen.
 ### [Aspose OCR-Lizenz in Java anwenden – OCR-Wasserzeichen entfernen](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Erfahren Sie, wie Sie die Aspose OCR‑Lizenz in Java aktivieren und das Wasserzeichen aus OCR‑Ergebnissen entfernen.
+### [Durchsuchbares PDF erstellen mit Aspose OCR – Vollständiger Java‑Leitfaden](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR ein durchsuchbares PDF in Java erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Bildtext mit Java OCR erkennen – Vollständige Anleitung](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Java OCR, Schritt für Schritt erklärt.
+### [OCR auf Dokument in Java ausführen – Vollständige Anleitung](./run-ocr-on-document-in-java-complete-guide/)
+Führen Sie OCR auf Dokumenten in Java aus und erhalten Sie eine Schritt‑für‑Schritt‑Anleitung für optimale Texterkennung.
 
 ## Häufig gestellte Fragen
 

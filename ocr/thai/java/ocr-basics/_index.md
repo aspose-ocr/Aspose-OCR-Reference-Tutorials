@@ -129,6 +129,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ตัวอย่างเต็มขั้นตอนการแปลงภาพเป็นข้อความด้วย Aspose OCR บน Java ตั้งแต่การตั้งค่าไปจนถึงการเพิ่มความแม่นยำ
 ### [วิธีทำ OCR ใน Java – คู่มือเต็มสำหรับสกัดข้อความจากรูปภาพ](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 คู่มือครบถ้วนสำหรับการทำ OCR ด้วย Java เพื่อสกัดข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
+### [ตัวอย่าง Java OCR – โหลดภาพและจดจำข้อความด้วย Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+### [ทำ OCR บนภาพใน Java – คู่มือขั้นตอนเต็ม](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 
 ---
 

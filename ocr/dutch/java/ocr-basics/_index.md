@@ -132,6 +132,9 @@ Volledige stap‑voor‑stap gids om tekst uit afbeeldingen te halen met Aspose 
 Volledige stap‑voor‑stap gids om afbeeldingen naar tekst te converteren met Aspose OCR in Java.
 ### [Hoe OCR uit te voeren in Java – Complete gids voor het extraheren van tekst uit afbeeldingen](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 Leer stap‑voor‑stap hoe je OCR implementeert in Java om tekst nauwkeurig uit afbeeldingen te halen.
+### [Java OCR‑voorbeeld – Afbeelding laden en tekst herkennen met Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+### [OCR uitvoeren op afbeelding in Java – Complete stapsgewijze gids](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Leer stap voor stap hoe je met Aspose.OCR in Java een afbeelding laadt en OCR uitvoert voor nauwkeurige tekstherkenning.
 
 ---
 

@@ -126,6 +126,10 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 ### [将图像转换为文本 Java – 完整 Aspose OCR 示例](./convert-image-to-text-java-complete-aspose-ocr-example/)
 ### [如何在 Java 中执行 OCR – 完整指南，提取图像文本](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 通过本完整指南学习在 Java 中使用 Aspose.OCR 提取图像中的文本，实现高效 OCR 处理。
+### [Java OCR 示例 – 加载图像并使用 Aspose 进行文本识别](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+演示如何使用 Aspose.OCR for Java 加载图像并进行文本识别的完整示例。
+### [在 Java 中执行图像 OCR – 完整分步指南](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+通过本完整分步指南，学习如何在 Java 中加载图像并使用 Aspose.OCR 完成文本识别。
 
 ---
 

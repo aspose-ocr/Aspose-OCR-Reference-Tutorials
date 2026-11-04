@@ -215,6 +215,12 @@ Khám phá cách trích xuất văn bản từ hình ảnh quét trong Java bằ
 Khám phá các kỹ thuật nâng cao để tăng độ chính xác OCR trong Java bằng Aspose.OCR, hướng dẫn chi tiết từng bước.
 ### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn Aspose OCR toàn diện](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR trong Java, bao gồm các bước cấu hình và tối ưu hóa hiệu suất.
+### [Nhận dạng văn bản trong hình ảnh bằng Java sử dụng Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Tận dụng sức mạnh GPU để nhận dạng văn bản trong hình ảnh nhanh chóng với Aspose OCR cho Java.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR Java – Hướng dẫn toàn diện](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Khám phá cách sử dụng Aspose OCR cho Java để nhận dạng văn bản trong hình ảnh một cách nhanh chóng và chính xác.
+### [Hộp giới hạn OCR trong Java – Trích xuất văn bản từ hình ảnh](./ocr-bounding-box-in-java-extract-text-from-image/)
+Tận dụng hộp giới hạn OCR để trích xuất chính xác văn bản từ hình ảnh trong Java bằng Aspose.OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

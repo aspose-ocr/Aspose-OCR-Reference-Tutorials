@@ -217,6 +217,14 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 本完整指南說明如何透過 Aspose.OCR for Java 優化設定與技巧，提升文字辨識的準確率與效能。
 ### [在 Java 中建立可搜尋 PDF – 完整 Aspose OCR 指南](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 使用 Aspose.OCR for Java 完整指南，建立可搜尋的 PDF，提升文件可存取性與搜尋功能。
+### [使用 Aspose OCR + GPU 在 Java 中識別文字圖像](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+使用 Aspose OCR 搭配 GPU 加速，在 Java 中高效識別文字圖像，提升 OCR 性能。
+
+### [使用 Aspose OCR for Java 從圖像辨識文字 – 完整指南](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+完整指南教您在 Java 中使用 Aspose OCR 高效辨識圖像文字，提升 OCR 效能。
+
+### [在 Java 中使用 OCR 邊框 – 從圖像提取文字](./ocr-bounding-box-in-java-extract-text-from-image/)
+使用 Aspose.OCR for Java 透過 OCR 邊框從圖像中提取文字，提升文字辨識精度與效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -171,6 +171,14 @@ Odblokuj możliwość wyodrębniania tekstu z wybranego obszaru obrazu (ROI) prz
 Pełny przewodnik po ładowaniu obrazów do OCR przy użyciu Aspose OCR dla Javy, krok po kroku.
 ### [Zastosowanie licencji Aspose OCR w Javie – usunięcie znaku wodnego OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Dowiedz się, jak zastosować licencję Aspose OCR w Javie, aby usunąć znak wodny OCR i uzyskać czyste wyniki.
+### [Uruchamianie OCR na dokumencie w Javie – Pełny przewodnik](./run-ocr-on-document-in-java-complete-guide/)
+Kompletny przewodnik, jak uruchomić OCR na dokumentach w Javie, krok po kroku, zapewniając wysoką dokładność i wydajność.
+### [Rozpoznawanie tekstu na obrazie przy użyciu Java OCR – Pełny przewodnik](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Kompletny przewodnik, jak rozpoznać tekst na obrazach w Javie przy użyciu OCR, krok po kroku, z praktycznymi przykładami.
+### [Załaduj obraz do OCR, wyodrębnij tekst z regionu – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Łatwy przewodnik, jak wczytać obraz, określić obszar i wyodrębnić z niego tekst przy użyciu Aspose.OCR w Javie.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Kompletny przewodnik Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, zapewniając wysoką jakość i wydajność.
 
 ## Najczęściej zadawane pytania
 

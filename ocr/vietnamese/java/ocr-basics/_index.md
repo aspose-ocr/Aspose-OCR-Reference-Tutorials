@@ -97,8 +97,10 @@ Hãy nhớ, hành trình không dừng lại ở đây—Aspose.OCR còn cung c�
 ## Các tutorial Cơ bản OCR
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
 Mở khóa tiềm năng của Aspose.OCR cho Java với hướng dẫn từng bước này. Thiết lập giấy phép một cách dễ dàng và nâng cao khả năng OCR của bạn.
+
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 Nâng cao độ chính xác OCR với Aspose.OCR cho Java. Học cách tính góc nghiêng từng bước. Cải thiện xử lý tài liệu một cách dễ dàng.
+
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Mở khóa sức mạnh của Aspose.OCR cho Java. Học cách trích xuất văn bản từ hình ảnh một cách liền mạch trong hướng dẫn chi tiết này. Tải ngay để nhận dạng văn bản hiệu quả.
 ### [Nhận dạng văn bản từ PNG trong Java – Hướng dẫn Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
@@ -134,6 +136,12 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để trích x
 Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để chuyển ảnh sang văn bản, bao gồm cài đặt, tiền xử lý và tối ưu kết quả.
 ### [Cách thực hiện OCR trong Java – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 Hướng dẫn toàn diện cách thực hiện OCR trong Java, trích xuất văn bản từ hình ảnh một cách chi tiết và hiệu quả.
+
+### [Ví dụ OCR Java – Tải ảnh và nhận dạng văn bản với Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Hướng dẫn cách tải ảnh và sử dụng Aspose.OCR để nhận dạng văn bản trong Java.
+
+### [Thực hiện OCR trên hình ảnh trong Java – Hướng dẫn chi tiết từng bước](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách tải ảnh, cấu hình Aspose.OCR và nhận dạng văn bản trong Java một cách dễ dàng.
 
 ---
 

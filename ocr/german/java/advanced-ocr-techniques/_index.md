@@ -221,6 +221,12 @@ Erfahren Sie, wie Sie mit Aspose OCR für Java Bilder laden, Rechtschreibkorrekt
 Erfahren Sie, wie Sie die OCR‑Genauigkeit in Java erhöhen und optimale Texterkennung erzielen – Schritt‑für‑Schritt‑Anleitung.
 ### [Erstellen durchsuchbares PDF in Java – Vollständige Aspose OCR‑Anleitung](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR für Java durchsuchbare PDFs erstellen – Schritt‑für‑Schritt‑Anleitung.
+### [Texterkennung von Bildern in Java mit Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Nutzen Sie die GPU-Beschleunigung von Aspose OCR, um Text aus Bildern in Java schnell und präzise zu extrahieren.
+### [Texterkennung von Bildern mit Aspose OCR Java – Komplettanleitung](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Erfahren Sie, wie Sie mit Aspose OCR Java Text aus Bildern vollständig und präzise extrahieren – Schritt‑für‑Schritt‑Leitfaden.
+### [OCR-Bounding-Box in Java – Text aus Bild extrahieren](./ocr-bounding-box-in-java-extract-text-from-image/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java Bounding Boxes nutzen, um Text präzise aus Bildern zu extrahieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

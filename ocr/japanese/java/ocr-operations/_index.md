@@ -167,6 +167,14 @@ ROI（関心領域）内の画像テキストを抽出する手順を、Aspose O
 画像のロードから OCR 実行まで、完全な手順を詳しく解説します。
 ### [Java で Aspose OCR ライセンスを適用 – OCR ウォーターマークを削除](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Aspose OCR のライセンスを Java アプリに適用し、OCR 透かしを除去してクリーンな出力を得る手順を解説します。
+### [Java でドキュメントの OCR を実行 – 完全ガイド](./run-ocr-on-document-in-java-complete-guide/)
+Java アプリケーションでドキュメント全体に OCR を適用し、テキスト抽出と検索可能 PDF 変換を行う完全ガイドです。
+### [Java OCR で画像テキストを認識 – 完全ガイド](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Java OCR を使用して画像からテキストを認識する完全なガイドです。ステップバイステップで実装方法を解説します。
+### [画像をロードして OCR を実行し、領域からテキストを抽出 – Java](./load-image-for-ocr-extract-text-from-region-java/)
+画像を読み込み、指定領域のテキストを抽出する Java 用 Aspose.OCR の手順を解説します。
+### [Aspose OCR で検索可能 PDF を作成 – 完全 Java ガイド](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Aspose OCR を使用して検索可能な PDF を作成する完全な Java ガイドです。ステップバイステップで実装方法を解説します。
 
 ## よくある質問
 

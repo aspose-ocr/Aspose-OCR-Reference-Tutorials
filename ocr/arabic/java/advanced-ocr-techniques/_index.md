@@ -61,7 +61,7 @@ url: /ar/java/advanced-ocr-techniques/
 ### [تنفيذ التعرف الضوئي على الحروف (OCR) على صفحة معينة في Aspose.OCR](./perform-ocr-on-page/)
 أطلق العنان لقوة Aspose.OCR لـ Java من خلال دليلنا خطوة بخطوة حول إجراء التعرف الضوئي على الحروف على صفحات محددة. استخرج النص بسهولة من الصور وقم بتحسين مشاريع Java الخاصة بك.
 ### [تحضير المستطيلات للتعرف الضوئي على الحروف في Aspose.OCR](./prepare-rectangles-for-ocr/)
-أطلق العنان لقوة التعرف على النص باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتحسين تطبيقات Java الخاصة بك باستخدام إمكانيات التعرف الضوئي على الحروف (OCR) الفعالة.
+أطلق العنان لقوة التعرف على النص باستخدام Aspose.OCR لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتحسين تطبيقات Java الخاصةك باستخدام إمكانيات التعرف الضوئي على الحروف (OCR) الفعالة.
 ### [التعرف على الخطوط في Aspose.OCR لجافا](./recognize-lines/)
 قم بتمكين تطبيقات Java الخاصة بك باستخدام Aspose.OCR للتعرف الدقيق على النص. سهولة التكامل، ودقة عالية.
 ### [تحديد الأحرف المسموح بها في Aspose.OCR](./specify-allowed-characters/)
@@ -200,6 +200,12 @@ url: /ar/java/advanced-ocr-techniques/
 ### [مثال Aspose OCR لجافا – دليل كامل لتحميل الصورة، تصحيح الإملاء، ومعالجة OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
 ### [تحسين دقة OCR في جافا – دليل كامل](./improve-ocr-accuracy-in-java-complete-guide/)
 ### [إنشاء ملف PDF قابل للبحث في جافا – دليل كامل لـ Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+### [التعرف على نص الصورة في Java باستخدام Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+استفد من وحدة GPU لتسريع التعرف على النص في الصور باستخدام Aspose OCR في Java. تحسين الأداء واستخراج النص بدقة عالية.
+### [التعرف على النص من الصورة باستخدام Aspose OCR Java – دليل شامل](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+دليل كامل يوضح خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose OCR في Java بدقة وسرعة.
+### [مربع حدود OCR في جافا – استخراج النص من الصورة](./ocr-bounding-box-in-java-extract-text-from-image/)
+اكتشف كيفية استخراج النص من الصور باستخدام مربعات حدود OCR في جافا، مع تحسين الدقة وسهولة التكامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

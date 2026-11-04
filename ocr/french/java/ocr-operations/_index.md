@@ -70,8 +70,6 @@ Dites adieu à l’extraction manuelle de texte à partir d’images TIFF. Laiss
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
-En conclusion, avec notre liste de tutoriels Aspose.OCR pour Java, vous avez les clés pour exploiter tout le potentiel des opérations OCR. Explorez chaque tutoriel, découvrez les fonctionnalités et améliorez vos capacités d’extraction de texte. Dites adieu aux efforts manuels et adoptez la précision et l’efficacité offertes par Aspose.OCR pour Java !
-
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Débloquez la puissance de l’extraction de texte à partir d’images avec Aspose.OCR pour Java. Un tutoriel complet sur l’OCR avec Detect Areas Mode.
@@ -170,6 +168,14 @@ Apprenez à extraire du texte d'une zone d'intérêt (ROI) dans une image en Jav
 Apprenez à charger des images pour l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Appliquer la licence Aspose OCR en Java – Supprimer le filigrane OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Apprenez à appliquer votre licence Aspose OCR en Java pour éliminer le filigrane OCR des documents générés.
+### [Charger une image pour l'OCR, extraire le texte d'une région – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Apprenez à charger une image, définir une zone et extraire le texte avec Aspose.OCR en Java.
+### [Exécuter l'OCR sur un document en Java – Guide complet](./run-ocr-on-document-in-java-complete-guide/)
+Apprenez à exécuter l'OCR sur n'importe quel document en Java avec Aspose.OCR grâce à ce guide complet étape par étape.
+### [Reconnaître le texte d'image avec Java OCR – Guide complet](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Apprenez à extraire le texte d'images en Java grâce à un guide complet étape par étape.
+### [Créer un PDF consultable avec Aspose OCR – Guide complet Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Apprenez à générer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 

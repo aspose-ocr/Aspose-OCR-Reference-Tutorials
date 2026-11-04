@@ -135,6 +135,13 @@ Java'da ROI (ilgi alanı) içinde metin tanımayı adım adım gösteren kapsaml
 Java uygulamanızda Aspose OCR kullanarak bir görüntüyü nasıl yükleyip OCR işlemi yapacağınızı adım adım öğrenin.
 ### [Java'da Aspose OCR Lisansını Uygulama – OCR Filigranını Kaldır](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Java uygulamanızda Aspose OCR lisansını ayarlayarak OCR filigranını kaldırın ve temiz çıktılar elde edin.
+### [Java OCR ile Görüntüden Metin Tanıma – Tam Kılavuz](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Java OCR kullanarak bir görüntüden metin tanıma sürecini adım adım öğrenin ve tam bir kılavuzla uygulayın.
+### [Java'da Belge Üzerinde OCR Çalıştırma – Tam Kılavuz](./run-ocr-on-document-in-java-complete-guide/)
+### [OCR için Görüntü Yükleme, Bölgeden Metin Çıkarma – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Java kullanarak bir görüntüyü yükleyin, belirli bir bölgeden metin çıkarın ve OCR sonuçlarını alın.
+### [Aspose OCR ile Aranabilir PDF Oluşturma – Tam Java Kılavuzu](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Aspose OCR kullanarak Java'da tam adımlı bir rehberle aranabilir PDF oluşturmayı öğrenin.
 
 ## Sıkça Sorulan Sorular
 

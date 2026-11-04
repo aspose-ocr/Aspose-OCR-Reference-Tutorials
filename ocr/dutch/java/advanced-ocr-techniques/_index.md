@@ -222,6 +222,12 @@ Leer hoe u een afbeelding laadt, spellingscorrectie toepast en OCR verwerkt met 
 Leer hoe u de OCR-nauwkeurigheid in Java verbetert met Aspose.OCR. Volg onze stapsgewijze gids voor optimale resultaten.
 ### [Zoekbare PDF maken in Java – Complete Aspose OCR-gids](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Leer hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt met volledige stapsgewijze instructies.
+### [Tekst in afbeelding herkennen in Java met Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Gebruik de GPU-versnelling om tekst uit afbeeldingen te herkennen met Aspose OCR in Java. Verbeter de snelheid en nauwkeurigheid van uw OCR-toepassingen.
+### [Tekst uit afbeelding herkennen met Aspose OCR Java – Complete gids](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Leer hoe u met Aspose OCR voor Java tekst uit afbeeldingen kunt herkennen met een volledige stapsgewijze handleiding.
+### [OCR-bounding box in Java – Tekst extraheren uit afbeelding](./ocr-bounding-box-in-java-extract-text-from-image/)
+Gebruik OCR-bounding boxes om tekst nauwkeurig uit afbeeldingen te halen met Aspose.OCR voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

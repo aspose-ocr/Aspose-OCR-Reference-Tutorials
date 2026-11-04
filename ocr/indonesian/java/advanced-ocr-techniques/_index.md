@@ -235,6 +235,12 @@ Tingkatkan akurasi OCR di Java dengan panduan lengkap kami, mencakup teknik dan 
 
 ### [Buat PDF yang Dapat Dicari di Java – Panduan Lengkap Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 Buat PDF yang dapat dicari dari gambar menggunakan Aspose OCR untuk Java. Ikuti panduan lengkap kami untuk hasil yang akurat.
+### [Mengenali Gambar Teks di Java menggunakan Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
+Manfaatkan GPU untuk meningkatkan kecepatan OCR pada gambar teks di Java dengan Aspose OCR. Ekstrak teks dengan akurasi tinggi secara efisien.
+### [Mengenali Teks dari Gambar dengan Aspose OCR Java – Panduan Lengkap](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR untuk Java dengan panduan lengkap, meningkatkan akurasi dan kecepatan OCR.
+### [Kotak Pembatas OCR di Java – Ekstrak Teks dari Gambar](./ocr-bounding-box-in-java-extract-text-from-image/)
+Ekstrak teks dari gambar dengan menggunakan kotak pembatas OCR di Java. Tingkatkan akurasi dan kecepatan pengenalan teks.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
