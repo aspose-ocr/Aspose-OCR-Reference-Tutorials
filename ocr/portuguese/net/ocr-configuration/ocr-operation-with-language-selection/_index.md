@@ -9,17 +9,11 @@ url: /pt/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
- any markdown links: keep same.
 
-Check for any code fences: there are none except placeholders.
 
-We need to translate "Extract image text C# with language selection using Aspose.OCR" etc.
 
-Let's translate.
 
-Be careful with "step-by-step in order - do not skip sections". Provide full translation.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

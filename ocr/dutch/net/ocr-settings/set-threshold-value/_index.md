@@ -10,13 +10,10 @@ url: /nl/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
-:** Aspose" keep.
 
-Then closing shortcodes.
 
-Make sure we keep all shortcodes and placeholders exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
