@@ -273,6 +273,10 @@ Naučte se omezit využití GPU paměti při OCR v C# a optimalizovat výkon apl
 Kompletní průvodce předzpracováním obrazu pro rozpoznání textu pomocí Aspose OCR v C#. Zvyšte přesnost OCR aplikací.
 ### [Jak vyrovnat obrázek v C# – Kompletní OCR průvodce](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# odstranit sklon obrázku a zlepšit přesnost rozpoznání textu.
+### [Spustit OCR na obrázku – Kompletní průvodce C#](./run-ocr-on-image-complete-c-guide/)
+Kompletní průvodce pro spuštění OCR na obrázku v C#, včetně nastavení, filtrů a ukládání výsledků.
+### [Jak narovnat obrázek v C# – Kompletní průvodce předzpracováním OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Naučte se, jak v C# odstranit sklon obrázku před OCR pomocí Aspose.OCR a zlepšit přesnost rozpoznání.
 
 ## Často kladené otázky
 

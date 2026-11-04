@@ -272,6 +272,9 @@ Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenk
 Lär dig hur du begränsar GPU‑minnesanvändning i C#‑OCR för att optimera prestanda och undvika minnesproblem.
 ### [Hur du räta upp en bild i C# – Komplett OCR‑guide](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Lär dig hur du räta upp bilder i C# för förbättrad OCR‑noggrannhet med en komplett guide.
+### [Kör OCR på bild – Komplett C#‑guide](./run-ocr-on-image-complete-c-guide/)
+Lär dig steg‑för‑steg hur du kör OCR på en bild med en komplett C#‑guide för Aspose.OCR.
+### [Hur man räta upp en bild i C# – Komplett guide för OCR‑förbehandling](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 
 ## Vanliga frågor
 

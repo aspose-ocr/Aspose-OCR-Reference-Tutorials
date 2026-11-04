@@ -288,6 +288,11 @@ Dowiedz się, jak przetwarzać wiele skanów JPG jednocześnie w C# przy użyciu
 Pełny przewodnik po technikach wstępnego przetwarzania obrazu w C# z Aspose OCR, zwiększający dokładność rozpoznawania tekstu.
 ### [Jak prostować obraz w C# – Kompletny przewodnik OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
+### [Uruchom OCR na obrazie – Kompletny przewodnik C#](./run-ocr-on-image-complete-c-guide/)
+Pełny przewodnik C# pokazujący, jak wykonać OCR na obrazie przy użyciu Aspose.OCR, od konfiguracji po zapis wyników.
+
+### [Jak wyrównać obraz w C# – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania znaków.
 
 ## Często zadawane pytania
 

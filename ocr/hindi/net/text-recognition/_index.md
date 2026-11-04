@@ -578,6 +578,18 @@ Aspose.OCR का उपयोग करके C# में चीनी टे�
 Aspose OCR का उपयोग करके छवि से खोज योग्य PDF बनाना सीखें, C# में चरण‑दर‑स्टेप मार्गदर्शिका।
 ### [C# में बैच OCR कैसे करें – स्कैन से टेक्स्ट निकालें](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 C# में कई स्कैन की छवियों को एक साथ OCR करके टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
+### [C# में अरबी टेक्स्ट को OCR करने की पूरी गाइड](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Aspose.OCR के साथ C# में अरबी टेक्स्ट को पहचानने के लिए चरण-दर-स्टेप मार्गदर्शिका।
+### [Aspose OCR उदाहरण – C# के लिए चरण‑दर‑क्रम गाइड](./aspose-ocr-example-step-by-step-guide-for-c/)
+Aspose OCR का उपयोग करके C# में OCR लागू करने के लिए विस्तृत चरण‑दर‑क्रम मार्गदर्शिका।
+### [Aspose OCR के साथ खोज योग्य PDF बनाएं – PDF पर OCR चलाएँ](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Aspose OCR का उपयोग करके PDF को खोज योग्य बनाएं और OCR प्रक्रिया को लागू करें। चरण‑दर‑क्रम मार्गदर्शिका।
+### [ASP.NET Core में OCR कैसे करें – पूरी गाइड](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+ASP.NET Core में OCR लागू करने के लिए पूर्ण चरण‑दर‑क्रम मार्गदर्शिका। Aspose.OCR के साथ तेज़ और सटीक टेक्स्ट पहचान सीखें।
+### [Aspose OCR के साथ PNG से टेक्स्ट निकालें – पूर्ण C# गाइड](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Aspose OCR का उपयोग करके PNG इमेज से टेक्स्ट निकालने के लिए विस्तृत C# चरण‑दर‑क्रम मार्गदर्शिका।
+### [कोरियन भाषा OCR Aspose के साथ: छवि को PDF में बदलें और C# में टेक्स्ट निकालें](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Aspose OCR का उपयोग करके C# में कोरियन भाषा की छवि को PDF में बदलें और टेक्स्ट निकालें। चरण‑दर‑क्रम मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

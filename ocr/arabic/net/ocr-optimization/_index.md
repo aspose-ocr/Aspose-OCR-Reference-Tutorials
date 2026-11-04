@@ -266,6 +266,10 @@ weight: 25
 ### [التعرف على نص الصورة باستخدام Aspose OCR C# – دليل شامل للمعالجة المسبقة](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 دليل شامل يوضح كيفية تحسين دقة OCR عبر خطوات المعالجة المسبقة باستخدام Aspose OCR في C#.
 ### [كيفية تصحيح ميل الصورة في C# – دليل OCR كامل](./how-to-deskew-image-in-c-complete-ocr-guide/)
+### [تشغيل OCR على صورة – دليل C# كامل](./run-ocr-on-image-complete-c-guide/)
+دليل شامل لتطبيق OCR على الصور باستخدام C# مع Aspose.OCR، خطوة بخطوة من التحميل إلى حفظ النتائج.
+### [كيفية تصحيح ميل الصورة في C# – دليل كامل لمعالجة ما قبل OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+تعلم كيفية إزالة ميل الصورة قبل OCR باستخدام Aspose.OCR في C# خطوة بخطوة لتحسين الدقة.
 
 ## الأسئلة المتكررة
 

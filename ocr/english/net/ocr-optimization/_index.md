@@ -268,6 +268,10 @@ Comprehensive guide to preprocessing images for OCR using Aspose OCR in C#, boos
 Learn how to limit GPU memory usage in C# OCR applications using Aspose.OCR for .NET for optimal performance.
 ### [How to Deskew Image in C# – Complete OCR Guide](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Learn to correct image skew using Aspose.OCR in C#. Follow our step‑by‑step guide to improve OCR accuracy.
+### [Run OCR on Image – Complete C# Guide](./run-ocr-on-image-complete-c-guide/)
+Step‑by‑step C# guide to run OCR on images using Aspose.OCR, covering setup, preprocessing, and result handling.
+### [How to Deskew Image in C# – Complete OCR Pre‑Processing Guide](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Learn to correct image skew using Aspose.OCR in C#, improving OCR accuracy with step‑by‑step preprocessing.
 
 ## Frequently Asked Questions
 

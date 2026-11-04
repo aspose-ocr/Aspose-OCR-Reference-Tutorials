@@ -256,6 +256,10 @@ weight: 25
 ### [使用 Aspose OCR C# 識別文字圖像 – 完整前處理指南](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 ### [如何在 C# 中校正圖像傾斜 – 完整 OCR 指南](./how-to-deskew-image-in-c-complete-ocr-guide/)
 學習使用 Aspose.OCR for .NET 於 C# 中去除圖像傾斜，提升 OCR 準確度的完整步驟。
+### [在 OCR 圖像辨識中執行圖像 OCR – 完整 C# 教學](./run-ocr-on-image-complete-c-guide/)
+完整的 C# 教學，示範如何在 Aspose.OCR for .NET 中執行圖像 OCR，涵蓋設定、前處理與結果儲存。
+### [如何在 C# 中去斜圖像 – 完整 OCR 前處理指南](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+示範如何在 Aspose.OCR for .NET 中使用去斜濾鏡提升圖像辨識精度，完整步驟教學。
 
 ## 常見問題
 

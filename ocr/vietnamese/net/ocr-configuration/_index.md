@@ -144,6 +144,8 @@ Khám phá cách sử dụng Aspose OCR GPU để trích xuất văn bản từ 
 Hướng dẫn chi tiết cách áp dụng giấy phép Aspose OCR trong dự án C# để kích hoạt đầy đủ tính năng.
 ### [Cách thực hiện OCR trong C# – Hướng dẫn đa ngôn ngữ](./how-to-perform-ocr-in-c-multi-language-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản đa ngôn ngữ từ hình ảnh.
+### [Chuyển hình ảnh thành văn bản C# – Aspose OCR với tải xuống bị vô hiệu hoá](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Hướng dẫn sử dụng Aspose OCR trong C# để chuyển hình ảnh thành văn bản mà không cho phép tải xuống kết quả.
 
 
 

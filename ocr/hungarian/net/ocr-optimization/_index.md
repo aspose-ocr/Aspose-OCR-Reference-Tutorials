@@ -300,6 +300,11 @@ Ismerje meg, hogyan alkalmazzon teljes körű előfeldolgozási lépéseket az A
 ### [Képek kiegyenesítése C#‑ban – Teljes OCR útmutató](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Fedezze fel, hogyan lehet a képeket egyenesre állítani C#‑ban az Aspose.OCR segítségével, a pontosság növelése érdekében.
 
+### [OCR futtatása képen – Teljes C# útmutató](./run-ocr-on-image-complete-c-guide/)
+Fedezze fel a teljes C# útmutatót az OCR képen történő futtatásához az Aspose.OCR for .NET segítségével.
+
+### [Képek kiegyenesítése C#‑ban – Teljes OCR előfeldolgozási útmutató](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

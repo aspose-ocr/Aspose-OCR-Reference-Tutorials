@@ -583,6 +583,18 @@ url: /ar/net/text-recognition/
 تعلم كيفية تحويل الصور إلى تنسيق JSON باستخدام Aspose OCR في C# خطوة بخطوة.
 ### [كيفية تنفيذ OCR دفعي في C# – استخراج النص من المسح الضوئي](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 تعلم كيفية معالجة مجموعة من الصور الممسوحة ضوئياً باستخدام Aspose.OCR في C# لاستخراج النص بكفاءة.
+### [التعرف على النص من PNG باستخدام Aspose OCR – دليل كامل C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+دليل خطوة بخطوة للتعرف على النص من ملفات PNG باستخدام Aspose OCR في C#.
+### [كيفية التعرف الضوئي على النص العربي في C# – دليل كامل](./how-to-ocr-arabic-text-in-c-complete-guide/)
+تعلم خطوة بخطوة كيفية استخدام Aspose.OCR في C# للتعرف على النص العربي بدقة وسهولة.
+### [مثال Aspose OCR – دليل خطوة بخطوة للغة C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+دليل شامل يوضح كيفية استخدام Aspose OCR في C# خطوة بخطوة لاستخراج النص من الصور.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – تشغيل OCR على PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+تعلم كيفية إنشاء ملف PDF قابل للبحث وتشغيل OCR باستخدام Aspose OCR.
+### [كيفية تنفيذ OCR في ASP.NET Core – دليل كامل](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+دليل شامل يوضح كيفية تنفيذ تقنية التعرف الضوئي على الحروف في تطبيقات ASP.NET Core خطوة بخطوة.
+### [التعرف الضوئي على النص الكوري باستخدام Aspose: تحويل الصورة إلى PDF واستخراج النص في C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+تعلم كيفية تحويل صورة إلى PDF واستخدام Aspose OCR لاستخراج النص الكوري في تطبيق C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

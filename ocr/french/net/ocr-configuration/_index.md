@@ -101,6 +101,8 @@ Apprenez à créer et configurer un moteur OCR en C# avec Aspose.OCR, du code in
 Apprenez à exploiter le GPU d'Aspose OCR pour extraire rapidement du texte d'images avec un guide complet en C#.
 ### [Comment définir la licence dans Aspose OCR – Guide complet C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Apprenez à configurer la licence Aspose OCR dans votre projet C# pour activer toutes les fonctionnalités.
+### [Image en texte C# – Aspose OCR avec téléchargement désactivé](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Apprenez à extraire du texte d'images en C# avec Aspose OCR tout en désactivant le téléchargement.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 ### [Comment activer le GPU pour l'OCR en C# – Guide étape par étape](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)

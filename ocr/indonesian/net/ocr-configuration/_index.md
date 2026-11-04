@@ -142,6 +142,8 @@ Pelajari cara menggunakan Aspose OCR GPU untuk mengekstrak teks dari gambar deng
 Panduan lengkap untuk mengatur lisensi Aspose OCR dalam aplikasi C#, memastikan fungsionalitas penuh tanpa batasan percobaan.
 ### [Cara Melakukan OCR di C# – Panduan Multi‑Bahasa](./how-to-perform-ocr-in-c-multi-language-guide/)
 Panduan lengkap melakukan OCR di C# dengan dukungan banyak bahasa secara mudah.
+### [gambar ke teks C# – Aspose OCR dengan unduhan dinonaktifkan](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan opsi menonaktifkan unduhan.
 
 
 

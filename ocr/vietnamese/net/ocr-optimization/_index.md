@@ -236,6 +236,9 @@ Hướng dẫn chi tiết cách tiền xử lý ảnh để nhận dạng văn b
 Hướng dẫn chi tiết cách giới hạn bộ nhớ GPU khi thực hiện OCR bằng C#, giúp tối ưu hiệu suất và tránh quá tải tài nguyên.
 ### [Cách Xoay Nghiêng Hình Ảnh trong C# – Hướng Dẫn OCR Toàn Diện](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Hướng dẫn chi tiết cách loại bỏ nghiêng của ảnh trước khi OCR bằng Aspose.OCR trong C#.
+### [Chạy OCR trên hình ảnh – Hướng dẫn C# đầy đủ](./run-ocr-on-image-complete-c-guide/)
+Hướng dẫn chi tiết cách thực hiện OCR trên hình ảnh bằng C# với Aspose.OCR, bao gồm cài đặt và ví dụ thực tế.
+### [Cách chỉnh nghiêng hình ảnh trong C# – Hướng dẫn tiền xử lý OCR đầy đủ](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 
 ## Câu hỏi thường gặp
 

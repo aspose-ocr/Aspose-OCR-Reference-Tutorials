@@ -588,6 +588,18 @@ Pelajari cara mengekstrak teks dari gambar menggunakan C# dengan panduan langkah
 Pelajari cara melakukan OCR pada file PDF menggunakan Aspose OCR dengan panduan lengkap langkah demi langkah.
 ### [Cara Batch OCR di C# – Ekstrak Teks dari Scan](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 Pelajari cara melakukan OCR batch di C# untuk mengekstrak teks dari banyak file scan secara efisien.
+### [Cara OCR Teks Arab di C# – Panduan Lengkap](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Pelajari cara melakukan OCR teks Arab di C# dengan panduan lengkap, langkah demi langkah.
+### [Contoh Aspose OCR – Panduan Langkah‑per‑Langkah untuk C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Pelajari contoh penggunaan Aspose OCR dalam C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Jalankan OCR pada PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Pelajari cara mengubah PDF menjadi PDF yang dapat dicari dengan Aspose OCR, menjalankan proses OCR secara otomatis pada dokumen PDF Anda.
+### [Cara Melakukan OCR di ASP.NET Core – Panduan Lengkap](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Pelajari cara melakukan OCR di ASP.NET Core dengan panduan lengkap langkah demi langkah untuk integrasi mudah.
+### [Mengenali Teks dari PNG dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Pelajari cara mengenali teks dari file PNG menggunakan Aspose OCR dalam panduan lengkap C#.
+### [OCR Bahasa Korea dengan Aspose: Konversi Gambar ke PDF dan Ekstrak Teks di C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Pelajari cara melakukan OCR bahasa Korea, mengonversi gambar ke PDF, dan mengekstrak teks menggunakan Aspose di C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

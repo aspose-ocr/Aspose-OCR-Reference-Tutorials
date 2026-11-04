@@ -93,6 +93,8 @@ Aspose OCR GPU desteğiyle C# kullanarak görüntülerden yüksek hızlı metin 
 Aspose OCR için lisans dosyasını nasıl ayarlayacağınızı adım adım gösteren kapsamlı C# rehberi.
 ### [C#'ta OCR Nasıl Yapılır – Çok Dilli Kılavuz](./how-to-perform-ocr-in-c-multi-language-guide/)
 Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğrenin.
+### [görüntüden metne c# – Aspose OCR ile indirme devre dışı](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aspose OCR kullanarak indirme özelliği devre dışı bırakılmış bir şekilde C# ile görüntüden metin çıkarma örneği.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

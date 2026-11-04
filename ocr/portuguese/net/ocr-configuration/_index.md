@@ -93,6 +93,8 @@ Desbloqueie o potencial do OCR acelerado por GPU com Aspose.OCR em C#. Guia comp
 Aprenda a configurar a licença do Aspose OCR em C# passo a passo para habilitar todos os recursos.
 ### [Como Realizar OCR em C# – Guia Multilíngue](./how-to-perform-ocr-in-c-multi-language-guide/)
 Desbloqueie o OCR multilíngue em C# com Aspose.OCR, aprendendo a reconhecer texto em vários idiomas de forma eficaz.
+### [Imagem para texto C# – Aspose OCR com download desativado](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aprenda a converter imagens em texto usando Aspose OCR em C# com a opção de download desativada.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

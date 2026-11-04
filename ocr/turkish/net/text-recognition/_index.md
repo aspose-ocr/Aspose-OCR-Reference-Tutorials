@@ -581,6 +581,18 @@ C# ile Çince metinleri tanıma sürecini adım adım öğrenin ve Aspose.OCR'un
 Görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin ve Aspose OCR'un C# ile sunduğu tüm avantajları keşfedin.
 ### [C#'ta Toplu OCR Nasıl Yapılır – Taramalardan Metin Çıkarma](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 C# ile birden fazla taramayı işleyerek toplu OCR gerçekleştirin ve metinleri hızlıca çıkarın.
+### [C# ile Arapça Metni OCR'lamak – Tam Kılavuz](./how-to-ocr-arabic-text-in-c-complete-guide/)
+C# kullanarak Arapça metinleri doğru bir şekilde OCR'lamak ve sonuçları elde etmek için adım adım rehber.
+### [Aspose OCR Örneği – C# için Adım Adım Kılavuz](./aspose-ocr-example-step-by-step-guide-for-c/)
+C# kullanarak Aspose OCR ile metin tanıma sürecini adım adım öğrenin ve uygulayın.
+### [Aspose OCR ile Arama Yapılabilir PDF Oluşturma – PDF Üzerinde OCR Çalıştırma](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Aspose OCR kullanarak PDF dosyalarını arama yapılabilir hale getirin ve OCR işlemini doğrudan PDF üzerinde çalıştırın.
+### [ASP.NET Core'da OCR Nasıl Yapılır – Tam Kılavuz](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+ASP.NET Core projelerinde OCR'ı adım adım uygulayarak metin tanımayı kolayca gerçekleştirin.
+### [Aspose OCR ile PNG'den Metin Tanıma – Tam C# Kılavuzu](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+C# kullanarak PNG dosyalarından metin çıkarmayı adım adım öğrenin ve Aspose OCR'ın tüm özelliklerinden faydalanın.
+### [Korece Dil OCR'ı Aspose ile: Görüntüyü PDF'ye Dönüştür ve C#'ta Metin Çıkar](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+C# kullanarak Aspose OCR ile Korece metni PDF'ye dönüştürüp metni çıkarın. Adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

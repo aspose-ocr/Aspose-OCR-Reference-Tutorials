@@ -599,6 +599,23 @@ Learn how to recognize Chinese text using Aspose.OCR in C#. Follow this comprehe
 Learn how to extract text from images using Aspose.OCR in C#. Follow this step‑by‑step guide for accurate OCR results.
 ### [How to Batch OCR in C# – Extract Text from Scans](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 Learn how to batch process OCR in C# to extract text from multiple scanned documents quickly and efficiently.
+### [How to OCR Arabic Text in C# – Complete Guide](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Learn how to recognize Arabic text using Aspose.OCR in C#. Follow our step‑by‑step guide for accurate Arabic OCR integration.
+
+### [Recognize Text from PNG with Aspose OCR – Complete C# Guide](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Learn how to recognize text from PNG images using Aspose OCR in C#. Follow our step‑by‑step guide for accurate results.
+
+### [Aspose OCR Example – Step‑by‑Step Guide for C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Step‑by‑step guide to implement Aspose OCR in C# applications, covering setup, usage, and best practices.
+
+### [Create Searchable PDF with Aspose OCR – Run OCR on PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Learn how to convert PDFs into searchable documents using Aspose OCR's Run OCR feature in .NET.
+
+### [How to Perform OCR in ASP.NET Core – Full Guide](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Learn how to perform OCR in ASP.NET Core using Aspose.OCR. Follow our comprehensive step‑by‑step guide for accurate text extraction.
+
+### [Korean Language OCR with Aspose: Convert Image to PDF and Extract Text in C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Learn how to perform Korean OCR using Aspose, convert images to searchable PDFs, and extract text in C# applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -139,6 +139,8 @@ GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 �
 Aspose OCR 라이선스를 설정하고 C#에서 전체 가이드를 따라 적용하는 방법을 단계별로 설명합니다.  
 ### [C#에서 OCR 수행 방법 – 다중 언어 가이드](./how-to-perform-ocr-in-c-multi-language-guide/)
 C#를 사용해 다양한 언어 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.  
+### [이미지에서 텍스트 변환 C# – 다운로드 비활성화된 Aspose OCR](./image-to-text-c-aspose-ocr-with-disabled-download/)
+다운로드 기능을 비활성화한 상태에서 Aspose OCR을 사용해 이미지를 텍스트로 변환하는 방법을 단계별로 안내합니다.  
 
 
 

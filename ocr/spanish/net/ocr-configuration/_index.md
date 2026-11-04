@@ -105,6 +105,8 @@ Aprende a usar la aceleración GPU de Aspose OCR en C# para extraer texto de im�
 Aprende a configurar la licencia de Aspose OCR en C# paso a paso para habilitar todas sus funciones.
 ### [Cómo realizar OCR en C# – Guía multilingüe](./how-to-perform-ocr-in-c-multi-language-guide/)
 Aprende a ejecutar OCR en C# con soporte para múltiples idiomas, paso a paso, usando Aspose.OCR.
+### [Imagen a texto C# – Aspose OCR con descarga deshabilitada](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aprende a convertir imágenes a texto en C# usando Aspose OCR sin permitir la descarga del archivo.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

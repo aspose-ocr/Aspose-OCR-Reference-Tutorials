@@ -255,6 +255,10 @@ C# ile OCR işlemlerinde GPU bellek tüketimini kontrol etmeyi ve sınırlamayı
 Aspose OCR C# kullanarak görüntülerdeki metni tanıma ve ön işleme adımlarını adım adım öğrenin.
 ### [C#'ta Görüntüyü Düzleştirme – Tam OCR Rehberi](./how-to-deskew-image-in-c-complete-ocr-guide/)
 C# kullanarak eğimli görüntüleri düzleştirerek OCR doğruluğunu artırın. Adım adım kılavuz.
+### [Görüntüde OCR Çalıştırma – Tam C# Rehberi](./run-ocr-on-image-complete-c-guide/)
+Aspose.OCR for .NET kullanarak C# ile tam bir görüntüde OCR çalıştırma rehberi.
+### [C# ile Görüntüyü Düzleştirme – Tam OCR Ön İşleme Rehberi](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Aspose.OCR for .NET ile eğriltme hatasını giderin, görüntüyü düzleştirerek OCR doğruluğunu artırın.
 
 ## Sıkça Sorulan Sorular
 

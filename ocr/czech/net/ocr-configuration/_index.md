@@ -87,6 +87,8 @@ Naučte se využít GPU akceleraci v Aspose OCR pro rychlé rozpoznání textu z
 Naučte se, jak nastavit licenci Aspose OCR ve své C# aplikaci.
 ### [Jak provést OCR v C# – Vícejazyčný průvodce](./how-to-perform-ocr-in-c-multi-language-guide/)
 Naučte se, jak provádět OCR v C# s podporou více jazyků a zvýšit přesnost rozpoznávání.
+### [Obrázek na text C# – Aspose OCR s vypnutým stahováním](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Ukazuje, jak pomocí Aspose OCR převést obrázek na text v C# a zakázat možnost stažení souboru.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

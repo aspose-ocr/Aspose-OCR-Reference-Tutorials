@@ -142,6 +142,8 @@ Ismerje meg, hogyan használhatja az Aspose OCR GPU-t C#-ban képek szövegének
 Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban a zökkenőmentes használathoz.  
 ### [Hogyan végezzünk OCR-t C#‑ban – Többnyelvű útmutató](./how-to-perform-ocr-in-c-multi-language-guide/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismerésére, lépésről lépésre útmutatóval.  
+### [kép szöveggé C# – Aspose OCR letöltés letiltásával](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Bemutatja, hogyan használja az Aspose OCR-t C#-ban a letöltés letiltásával a képek szöveggé alakításához.  
 
 
 

@@ -135,6 +135,7 @@ weight: 24
 详细步骤演示在 .NET 项目中使用 Aspose OCR 设置许可证的完整 C# 示例。  
 ### [在 C# 中执行 OCR – 多语言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
 了解如何在 C# 中使用 Aspose.OCR 进行多语言文本识别，涵盖语言设置、示例代码和最佳实践。  
+### [图像转文本 C# – Aspose OCR（禁用下载）](./image-to-text-c-aspose-ocr-with-disabled-download/)
 
 
 

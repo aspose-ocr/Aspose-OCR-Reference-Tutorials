@@ -90,6 +90,8 @@ Scopri come utilizzare la GPU con Aspose OCR in C# per estrarre testo da immagin
 Scopri come impostare correttamente la licenza Aspose OCR in C# per sbloccare tutte le funzionalità.
 ### [Come eseguire OCR in C# – Guida multilingua](./how-to-perform-ocr-in-c-multi-language-guide/)
 Scopri come eseguire OCR in C# supportando più lingue con Aspose.OCR.
+### [Immagine a testo C# – Aspose OCR con download disabilitato](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Scopri come trasformare immagini in testo con Aspose OCR in C#, mantenendo il download disabilitato per maggiore sicurezza.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

@@ -107,6 +107,8 @@ Kompletny przewodnik C# wykorzystujący GPU do wyodrębniania tekstu z obrazów 
 Kompletny przewodnik C# pokazujący, jak skonfigurować i zastosować licencję Aspose OCR w aplikacjach .NET.
 ### [Jak wykonać OCR w C# – Przewodnik wielojęzyczny](./how-to-perform-ocr-in-c-multi-language-guide/)
 Dowiedz się, jak w C# wykorzystać Aspose.OCR do rozpoznawania tekstu w wielu językach.
+### [Obraz na tekst C# – Aspose OCR z wyłączonym pobieraniem](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Dowiedz się, jak wyłączyć możliwość pobierania przy konwersji obrazu na tekst w C# przy użyciu Aspose OCR.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

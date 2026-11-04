@@ -587,6 +587,18 @@ Lär dig steg-för-steg hur du extraherar text från en bild i C# med Aspose.OCR
 ### [Känn igen kinesisk text i C# – Komplett OCR-guide](./recognize-chinese-text-in-c-complete-ocr-guide/)
 Lär dig steg-för-steg hur du med Aspose.OCR för .NET kan känna igen kinesisk text i C# för en komplett OCR-lösning.
 ### [Hur batch-OCR i C# – Extrahera text från skanningar](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+### [Hur du OCR:ar arabisk text i C# – Komplett guide](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Lär dig steg-för-steg hur du OCR:ar arabisk text i C# med Aspose.OCR för .NET.
+### [Aspose OCR‑exempel – Steg‑för‑steg‑guide för C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Lär dig hur du använder Aspose OCR i C# med en detaljerad steg‑för‑steg‑guide.
+### [Skapa sökbar PDF med Aspose OCR – Kör OCR på PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Lär dig hur du skapar en sökbar PDF genom att köra OCR på en PDF med Aspose OCR i .NET.
+### [Hur du utför OCR i ASP.NET Core – Komplett guide](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Lär dig steg-för-steg hur du implementerar OCR i ASP.NET Core med Aspose.OCR för .NET.
+### [Känn igen text från PNG med Aspose OCR – Komplett C#-guide](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du känner igen text i PNG-filer med Aspose OCR i C# för snabba och exakta resultat.
+### [Koreansk språk-OCR med Aspose: Konvertera bild till PDF och extrahera text i C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Lär dig hur du med Aspose OCR på C# konverterar en bild till PDF och extraherar koreansk text.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

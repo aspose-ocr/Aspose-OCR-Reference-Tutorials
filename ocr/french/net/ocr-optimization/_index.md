@@ -80,6 +80,8 @@ Apprenez à appliquer les filtres d'Aspose OCR pour améliorer la précision et 
 ### [Prétraiter l'image OCR en C# – Guide complet étape par étape](./preprocess-image-ocr-in-c-complete-step-by-step-guide/)
 Apprenez à appliquer les filtres de prétraitement sur les images en C# pour améliorer la précision OCR, avec un guide détaillé pas à pas.
 
+### [Comment redresser une image en C# – Guide complet de prétraitement OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Apprenez à redresser les images avant l'OCR avec Aspose.OCR en C#, améliorant la précision de reconnaissance.
 ### [Correction des résultats avec vérification orthographique dans la reconnaissance d'images OCR](./result-correction-with-spell-checking/)
 Améliorez la précision de l’OCR avec Aspose.OCR pour .NET. Corrigez les fautes, personnalisez les dictionnaires et obtenez une reconnaissance de texte sans erreur en toute simplicité.
 
@@ -272,6 +274,8 @@ Apprenez à restreindre la consommation de mémoire GPU lors de l'exécution d'O
 Apprenez à appliquer tous les filtres de prétraitement pour optimiser la reconnaissance de texte d'images avec Aspose OCR en C#.
 ### [Comment redresser une image en C# – Guide complet OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Apprenez à corriger l’inclinaison des images en C# avec Aspose.OCR pour améliorer la précision de la reconnaissance.
+### [Exécuter l'OCR sur une image – Guide complet C#](./run-ocr-on-image-complete-c-guide/)
+Guide complet en C# pour exécuter l'OCR sur une image avec Aspose.OCR, incluant le code et les meilleures pratiques.
 
 ## Questions fréquemment posées
 

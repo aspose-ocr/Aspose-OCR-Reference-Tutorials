@@ -282,6 +282,10 @@ Leer hoe je het GPU‑geheugenverbruik van Aspose.OCR in C# kunt beperken voor o
 Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt en preprocessing toepast voor maximale nauwkeurigheid.
 ### [Hoe afbeelding kantcorrectie toepassen in C# – Complete OCR-gids](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Leer hoe je afbeeldingen kantcorrectie toepast met Aspose.OCR in C# voor optimale OCR-prestaties.
+### [Run OCR on Image – Complete C# Guide](./run-ocr-on-image-complete-c-guide/)
+Leer stap‑voor‑stap hoe je met Aspose.OCR in C# OCR op afbeeldingen uitvoert, van configuratie tot resultaatopslag.
+### [Hoe een afbeelding kantcorrectie toepassen in C# – Complete OCR-preprocessinggids](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Leer hoe je met Aspose.OCR kantcorrectie uitvoert om scheve afbeeldingen recht te zetten voor betere OCR‑resultaten.
 
 ## Veelgestelde vragen
 

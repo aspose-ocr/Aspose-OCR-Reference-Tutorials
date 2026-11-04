@@ -278,6 +278,10 @@ Scopri come limitare la memoria GPU durante l'esecuzione di OCR con Aspose.OCR i
 Scopri come ottimizzare l'OCR con filtri avanzati in C#, migliorando precisione e velocità nella riconoscimento del testo dalle immagini.
 ### [Come raddrizzare l'immagine in C# – Guida OCR completa](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Scopri come raddrizzare le immagini in C# per migliorare l'accuratezza OCR con Aspose.OCR, passo‑passo e con esempi pratici.
+### [Esegui OCR su Immagine – Guida Completa C#](./run-ocr-on-image-complete-c-guide/)
+Scopri come eseguire OCR su un'immagine con una guida completa in C#, includendo configurazioni avanzate e salvataggio dei risultati.
+### [Come raddrizzare un'immagine in C# – Guida completa alla pre‑elaborazione OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Scopri come raddrizzare le immagini in C# prima dell'OCR, migliorando la precisione con filtri di correzione dell'inclinazione.
 
 ## Domande Frequenti
 

@@ -533,6 +533,18 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลงรูปภาพเป็น JSON อย่างละเอียดด้วย Aspose OCR ใน C# พร้อมขั้นตอนครบถ้วนเพื่อการประมวลผลที่แม่นยำ
 ### [วิธีทำ Batch OCR ใน C# – ดึงข้อความจากการสแกน](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 เรียนรู้วิธีทำ OCR เป็นชุดใน C# เพื่อดึงข้อความจากไฟล์สแกนหลายไฟล์อย่างมีประสิทธิภาพ
+### [วิธี OCR ข้อความภาษาอาหรับใน C# – คู่มือเต็ม](./how-to-ocr-arabic-text-in-c-complete-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อแปลงข้อความภาษาอาหรับจากรูปภาพเป็นข้อความดิจิทัลอย่างแม่นยำ
+### [จดจำข้อความจาก PNG ด้วย Aspose OCR – คู่มือเต็ม C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน C# ด้วยคำแนะนำทีละขั้นตอนเพื่อผลลัพธ์ที่แม่นยำ
+### [ตัวอย่าง Aspose OCR – คู่มือขั้นตอนต่อขั้นตอนสำหรับ C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# ด้วยตัวอย่างครบถ้วนและคำแนะนำทีละขั้นตอนเพื่อการจดจำข้อความที่แม่นยำ
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – รัน OCR บน PDF](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้โดยใช้ Aspose OCR และรันการรับรู้ข้อความบนไฟล์ PDF อย่างง่ายดาย
+### [วิธีทำ OCR ใน ASP.NET Core – คู่มือเต็ม](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน ASP.NET Core เพื่อทำ OCR อย่างครบถ้วนและแม่นยำในแอปพลิเคชันของคุณ
+### [OCR ภาษาเกาหลีด้วย Aspose: แปลงรูปภาพเป็น PDF และสกัดข้อความใน C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อแปลงรูปภาพเป็น PDF และสกัดข้อความภาษาเกาหลีอย่างแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

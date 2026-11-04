@@ -276,6 +276,10 @@ GPU メモリ使用量を最適化し、OCR 処理の安定性とパフォーマ
 Aspose OCR C# を使用してテキスト画像を認識し、前処理手順を完全に解説します。精度向上のベストプラクティスを学びましょう。
 ### [C# で画像をデスキューする方法 – 完全 OCR ガイド](./how-to-deskew-image-in-c-complete-ocr-guide/)
 Aspose.OCR for .NET を使用して画像の傾きを補正し、OCR の精度を向上させる手順をステップバイステップで解説します。
+### [画像で OCR を実行する – 完全 C# ガイド](./run-ocr-on-image-complete-c-guide/)
+Aspose.OCR for .NET で画像から OCR を実行する完全な C# 手順をステップバイステップで解説します。
+### [C# で画像をデスキューする方法 – 完全 OCR 前処理ガイド](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Aspose.OCR for .NET を使用し、画像の歪みを補正して OCR 精度を向上させる手順を解説します。
 
 ## よくある質問
 

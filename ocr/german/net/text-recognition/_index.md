@@ -563,6 +563,18 @@ Erfahren Sie, wie Sie mit Aspose OCR PDFs vollständig verarbeiten und Text extr
 Erfahren Sie, wie Sie mit Aspose.OCR in C# ein durchsuchbares PDF aus einem Bild erstellen – Schritt‑für‑Schritt‑Anleitung.
 ### [Batch-OCR in C# – Text aus Scans extrahieren](./how-to-batch-ocr-in-c-extract-text-from-scans/)
 Erfahren Sie, wie Sie mit Aspose.OCR mehrere Scans in C# stapelweise verarbeiten und Text effizient extrahieren.
+### [Wie man arabischen Text in C# OCRt – Komplettanleitung](./how-to-ocr-arabic-text-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR arabischen Text in C# erkennen und verarbeiten – Schritt‑für‑Schritt‑Anleitung.
+### [Text aus PNG mit Aspose OCR erkennen – Komplettanleitung für C#](./recognize-text-from-png-with-aspose-ocr-complete-c-guide/)
+Lernen Sie, wie Sie mit Aspose OCR in C# Text aus PNG‑Dateien extrahieren – eine umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Aspose OCR Beispiel – Schritt‑für‑Schritt‑Anleitung für C#](./aspose-ocr-example-step-by-step-guide-for-c/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# ein komplettes Beispiel implementieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Durchsuchbares PDF mit Aspose OCR erstellen – OCR auf PDF ausführen](./create-searchable-pdf-with-aspose-ocr-run-ocr-on-pdf/)
+Erfahren Sie, wie Sie mit Aspose OCR PDFs durchsuchbar machen, indem Sie OCR auf PDF-Dateien anwenden.
+### [Wie man OCR in ASP.NET Core durchführt – Komplettanleitung](./how-to-perform-ocr-in-asp-net-core-full-guide/)
+Erfahren Sie, wie Sie OCR in ASP.NET Core implementieren – Schritt‑für‑Schritt‑Anleitung.
+### [Koreanische Sprach‑OCR mit Aspose: Bild in PDF konvertieren und Text in C# extrahieren](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
+Erfahren Sie, wie Sie mit Aspose OCR koreanischen Text aus Bildern extrahieren, in PDF konvertieren und in C# verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
