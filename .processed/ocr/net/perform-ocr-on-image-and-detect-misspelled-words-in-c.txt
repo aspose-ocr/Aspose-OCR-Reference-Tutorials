@@ -1,0 +1,7 @@
+Title: Perform OCR on Image and Detect Misspelled Words in C#
+Slug: perform-ocr-on-image-and-detect-misspelled-words-in-c
+Category: text-recognition
+ProcessedDate: 2026-06-03T23:27:24.929696
+SourceRepo: AI Search API
+Keywords: perform ocr on image, extract text from image, detect misspelled words, get spelling suggestions, how to extract text
+PRNumber: 139

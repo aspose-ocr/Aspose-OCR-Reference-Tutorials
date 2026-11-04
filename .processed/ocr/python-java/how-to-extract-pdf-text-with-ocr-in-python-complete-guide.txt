@@ -1,0 +1,7 @@
+Title: How to Extract PDF Text with OCR in Python – Complete Guide
+Slug: how-to-extract-pdf-text-with-ocr-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-19T16:20:28.360557
+SourceRepo: AI Search API
+Keywords: how to extract pdf, extract text from pdf, recognize text from image, ocr python example, read pdf with ocr
+PRNumber: 151

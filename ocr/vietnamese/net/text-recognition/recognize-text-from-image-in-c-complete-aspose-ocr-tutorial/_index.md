@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-05-06
-description: Tìm hiểu cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong C#.
-  Trích xuất văn bản từ biên lai, tải hình ảnh cho OCR và xem ví dụ đầy đủ về Aspose
-  OCR.
+date: 2026-03-28
+description: Học cách nhận dạng văn bản từ hình ảnh và trích xuất văn bản từ bản quét
+  trong C# bằng Aspose OCR với tốc độ tăng tốc GPU. Hướng dẫn OCR nhanh, chính xác.
 draft: false
 keywords:
 - recognize text from image
-- extract text from receipt
-- load image for OCR
-- Aspose OCR example
+- extract text from scan
+- c# read image file
+- aspose ocr tutorial c#
 language: vi
-og_description: Học cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR, trích xuất
-  văn bản từ biên lai và tải hình ảnh để OCR trong hướng dẫn ngắn gọn, từng bước.
+og_description: Tìm hiểu cách nhận dạng văn bản từ hình ảnh và trích xuất văn bản
+  từ bản quét trong C# bằng Aspose OCR với tốc độ tăng tốc GPU. Hướng dẫn OCR nhanh,
+  chính xác.
 og_title: Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
+- GPU acceleration
 title: Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR
 url: /vi/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/
 ---
@@ -28,218 +28,202 @@ url: /vi/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 
 # Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ Aspose OCR
 
-Bạn đã bao giờ cần **recognize text from image** nhưng không chắc thư viện nào nên chọn? Bạn không phải là người duy nhất—nhiều nhà phát triển gặp cùng một khó khăn khi họ cố gắng lấy số từ biên lai hoặc quét một mẫu. Tin tốt là Aspose OCR làm cho toàn bộ quá trình trở nên dễ dàng, và trong hướng dẫn này chúng tôi sẽ dẫn bạn qua một **complete Aspose OCR example** cho phép bạn **extract text from receipt** các hình ảnh chỉ trong vài dòng C#.
+Bạn đã bao giờ cần **nhận dạng văn bản từ hình ảnh** nhưng không chắc thư viện nào sẽ cho cả tốc độ và độ chính xác? Bạn không phải là người duy nhất—các nhà phát triển thường hỏi, “Làm sao tôi có thể trích xuất văn bản từ bản quét mà không phải viết mạng nơ-ron tùy chỉnh?” Tin tốt là Aspose OCR thực hiện phần công việc nặng, và với phần mở rộng GPU bạn có thể tăng tốc quá trình.
 
-Trong vài phút tới, bạn sẽ học cách **load image for OCR**, xác định vùng chính xác chứa tổng số tiền, chạy engine, và cuối cùng hiển thị kết quả. Không có tham chiếu mơ hồ đến tài liệu bên ngoài, không thiếu bất kỳ phần nào—mọi thứ bạn cần để copy‑paste và chạy đều có ở đây. Một chút thiết lập, một vài bước, và bạn sẽ có thể recognize text from image files ngay lập tức.
+Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước những gì bạn cần để bắt đầu: từ cài đặt các gói NuGet phù hợp, đến tải một tệp TIFF hoặc JPEG, bật hỗ trợ GPU, và cuối cùng lấy chuỗi đã nhận dạng ra khỏi tệp. Khi kết thúc, bạn sẽ có thể **c# read image file** đối tượng và chuyển bất kỳ tài liệu quét nào thành văn bản có thể tìm kiếm chỉ với vài dòng mã.
 
 > **Bạn sẽ nhận được gì**  
-> * Một ứng dụng console C# có thể chạy được, nhận dạng văn bản từ các tệp hình ảnh.  
-> * Hiểu tại sao bạn có thể muốn giới hạn OCR trong một hình chữ nhật cụ thể (tốc độ và độ chính xác).  
-> * Mẹo xử lý các trường hợp khó gặp thường gặp như biên lai mờ hoặc quét bị xoay.  
+> * Một ứng dụng console C# hoạt động, nhận dạng văn bản từ các tệp hình ảnh.  
+> * Hiểu tại sao tăng tốc GPU quan trọng đối với các bản quét lớn.  
+> * Mẹo xử lý các lỗi thường gặp khi bạn **extract text from scan**.
 
 ---
 
-## Yêu cầu trước
+## Yêu cầu trước – Những gì bạn cần trước khi bắt đầu
 
-Trước khi chúng ta bắt đầu, hãy chắc chắn rằng bạn đã có:
-
-| Yêu cầu | Lý do quan trọng |
+| Requirement | Why it matters |
 |-------------|----------------|
-| .NET 6.0 SDK (or later) | Aspose OCR được cung cấp dưới dạng thư viện .NET Standard 2.0 / .NET 5+, vì vậy bất kỳ runtime mới nào cũng hoạt động. |
-| Visual Studio 2022 (or VS Code) | Một IDE thoải mái giúp tăng tốc gỡ lỗi, nhưng bất kỳ trình soạn thảo nào có thể biên dịch C# cũng được. |
-| **Aspose.OCR for .NET** NuGet package | Đây là thư viện cốt lõi thực sự nhận dạng văn bản từ hình ảnh. |
-| A sample receipt image (`receipt.jpg`) | Chúng tôi sẽ sử dụng tệp này để minh họa **extract text from receipt**. |
+| .NET 6.0 SDK (or later) | Aspose OCR nhắm tới .NET Standard 2.0+, vì vậy các runtime mới đảm bảo tính tương thích. |
+| Visual Studio 2022 (or any IDE you like) | Giúp việc gỡ lỗi và quản lý gói trở nên dễ dàng. |
+| NuGet packages **Aspose.OCR** and **Aspose.OCR.GPU** | Engine OCR cốt lõi nằm trong `Aspose.OCR`; các API dành cho GPU nằm trong `Aspose.OCR.GPU`. |
+| A sample image (e.g., `large_scan.tif`) | Chúng tôi sẽ minh họa trên một tệp TIFF đa megabyte, cho thấy sự tăng tốc hiệu năng. |
 
-Bạn có thể cài đặt gói NuGet bằng lệnh sau:
+Bạn có thể cài đặt các gói bằng NuGet CLI:
 
 ```bash
 dotnet add package Aspose.OCR
+dotnet add package Aspose.OCR.GPU
 ```
 
-Khi đã xong, bạn đã sẵn sàng để bắt đầu **load image for OCR**.
+> **Mẹo chuyên nghiệp:** Nếu bạn đang dùng Windows và thích giao diện GUI, mở **NuGet Package Manager** trong Visual Studio và tìm kiếm “Aspose OCR”.
 
-## Bước 1: Load the image for OCR
+---
 
-Điều đầu tiên bạn cần làm là chỉ định engine tới tệp bạn muốn phân tích. Đây là nơi từ khóa phụ **load image for OCR** xuất hiện một cách tự nhiên.
+## Bước 1 – Tải tệp hình ảnh (c# read image file)
+
+Điều đầu tiên cần làm là đọc hình ảnh vào bộ nhớ. Aspose OCR làm việc với `System.Drawing.Image`, vì vậy bạn sẽ cần một tham chiếu tới `System.Drawing.Common` nếu bạn đang dùng .NET Core.
 
 ```csharp
-using Aspose.OCR;
-using System.Drawing;
-
-// Create the OCR engine instance
-var ocrEngine = new OcrEngine();
-
-// Load the receipt image – replace the path with your own file location
-ocrEngine.SetImage(@"C:\Images\receipt.jpg");
-```
-
-> **Mẹo chuyên nghiệp:** Nếu hình ảnh của bạn nằm trong thư mục dự án, bạn có thể sử dụng đường dẫn tương đối như `ocrEngine.SetImage("receipt.jpg");`. Chỉ cần chắc chắn rằng tệp được sao chép vào thư mục đầu ra (`Copy to Output Directory = PreserveNewest`).
-
-Phương thức `SetImage` chấp nhận bất kỳ định dạng nào mà System.Drawing có thể giải mã (JPEG, PNG, BMP, v.v.), vì vậy bạn không bị giới hạn chỉ một loại tệp.
-
-## Bước 2: Định nghĩa vùng quan tâm – **extract text from receipt**
-
-Quét toàn bộ hình ảnh sẽ lãng phí vòng CPU và có thể tạo ra nhiễu. Bằng cách cho Aspose OCR biết chính xác vị trí tổng số tiền, bạn tăng tốc độ và độ chính xác. Đây là phần mà chúng ta **extract text from receipt**.
-
-```csharp
-// Define a rectangle that covers the total amount on the receipt
-// (x, y, width, height) – adjust these numbers for your own layout
-var roi = new Rectangle(150, 500, 300, 80);
-ocrEngine.SetRegionOfInterest(roi);
-```
-
-> **Tại sao lại là hình chữ nhật?**  
-> Engine OCR hoạt động trên lưới pixel. Khi bạn giới hạn nó trong một vùng, nó sẽ bỏ qua mọi thứ khác—không còn ký tự lẻ lùng từ logo cửa hàng hay dòng tiêu đề.
-
-Nếu bạn không chắc về tọa độ chính xác, bạn có thể sử dụng bất kỳ trình xem ảnh nào hiển thị vị trí pixel (ví dụ: Paint.NET) để ước lượng các số.
-
-## Bước 3: Chạy engine – **recognize text from image** (từ khóa chính)
-
-Bây giờ phép màu xảy ra. Bạn yêu cầu Aspose thực sự đọc các pixel bên trong hình chữ nhật bạn vừa định nghĩa.
-
-```csharp
-// Perform the recognition
-OcrResult result = ocrEngine.Recognize();
-```
-
-`OcrResult` chứa văn bản thô, điểm tin cậy và thậm chí các hộp bao quanh cho mỗi từ. Đối với bản demo nhanh, chúng ta sẽ chỉ in ra văn bản thuần.
-
-```csharp
-Console.WriteLine("Total amount detected: " + result.Text);
-```
-
-Khi bạn chạy chương trình, bạn sẽ thấy một cái gì đó như sau:
-
-```
-Total amount detected: $23.45
-```
-
-Nếu đầu ra bị rối loạn, hãy kiểm tra lại tọa độ ROI hoặc thử tăng độ phân giải hình ảnh.
-
-## Bước 4: Xử lý kết quả – tinh chỉnh **Aspose OCR example**
-
-Một giải pháp mạnh mẽ làm nhiều hơn chỉ đổ chuỗi ra console. Dưới đây là một helper nhỏ giúp loại bỏ khoảng trắng, xóa các dấu ngắt dòng lẻ lùng, và xác thực rằng giá trị đã trích xuất trông giống một khoản tiền.
-
-```csharp
-static string CleanAmount(string raw)
-{
-    // Remove any non‑numeric characters except dot and comma
-    var cleaned = new string(raw
-        .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-        .ToArray());
-
-    // Normalize decimal separator to dot
-    cleaned = cleaned.Replace(',', '.');
-
-    // If we end up with an empty string, return a friendly message
-    return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
-}
-
-// ...
-
-string amount = CleanAmount(result.Text);
-Console.WriteLine($"Parsed amount: ${amount}");
-```
-
-Helper này minh họa một **Aspose OCR example** thực tế mà bạn có thể tích hợp vào bất kỳ hệ thống lập hoá đơn nào lớn hơn.
-
-## Bước 5: Chương trình đầy đủ có thể chạy – bản demo **extract text from receipt** tối ưu
-
-Kết hợp mọi thứ lại với nhau cho bạn một tệp duy nhất, có thể copy‑paste. Lưu nó dưới tên `Program.cs` và chạy `dotnet run`.
-
-```csharp
-// Program.cs
-using Aspose.OCR;
 using System;
-using System.Drawing;
-using System.Linq;
+using System.Drawing;               // For Image class
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
 
-class Program
+class GpuExample
 {
     static void Main()
     {
-        // 1️⃣ Load the image for OCR
+        // 👉 Load the image you want to recognize (any supported format)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+```
+
+> **Tại sao lại cần bước này?**  
+> Việc tải tệp cung cấp cho engine OCR một bitmap mà nó có thể phân tích.  
+> Sử dụng `Image.FromFile` đảm bảo hình ảnh được giải mã hoàn toàn, điều này cần thiết cho việc phân đoạn ký tự chính xác.
+
+---
+
+## Bước 2 – Khởi tạo Engine OCR và Bật GPU
+
+Bây giờ bitmap đã sẵn sàng, tạo một thể hiện `OcrEngine`. Mặc định engine chạy trên CPU, điều này đủ cho các ảnh chụp màn hình nhỏ. Đối với các bản quét lớn—ví dụ PDF 300 dpi—bật GPU sẽ giảm thời gian xử lý đáng kể.
+
+```csharp
+        // 👉 Create the OCR engine and enable GPU acceleration for better performance
         var ocrEngine = new OcrEngine();
-        ocrEngine.SetImage(@"C:\Images\receipt.jpg");   // <-- adjust path
 
-        // 2️⃣ Define the region that holds the total amount
-        var roi = new Rectangle(150, 500, 300, 80);
-        ocrEngine.SetRegionOfInterest(roi);
+        // The UseGpu method toggles GPU mode. Pass true to enable.
+        ocrEngine.UseGpu(true);
+```
 
-        // 3️⃣ Run the engine – recognize text from image
-        OcrResult result = ocrEngine.Recognize();
+> **Điều gì đang diễn ra bên trong?**  
+> Khi `UseGpu(true)` được gọi, Aspose tải các kernel dựa trên CUDA (nếu có GPU tương thích). Quy trình OCR—tiền xử lý, phân đoạn, phân loại—sau đó chạy trên card đồ họa, tận dụng hàng ngàn lõi thay vì chỉ một vài luồng CPU.  
+> 
+> **Trường hợp đặc biệt:** Nếu runtime không tìm thấy GPU phù hợp, `UseGpu(true)` sẽ tự động quay lại chế độ CPU mà không thông báo. Bạn có thể kiểm tra chế độ thực tế bằng `ocrEngine.IsGpuEnabled`.
 
-        // 4️⃣ Clean up the output
-        string amount = CleanAmount(result.Text);
-        Console.WriteLine($"Total amount detected: ${amount}");
-    }
+---
 
-    // Helper that sanitises the OCR output
-    static string CleanAmount(string raw)
-    {
-        var cleaned = new string(raw
-            .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-            .ToArray());
+## Bước 3 – Nhận dạng văn bản từ hình ảnh
 
-        cleaned = cleaned.Replace(',', '.');
-        return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
+Với engine đã sẵn sàng, việc nhận dạng thực tế chỉ là một lời gọi phương thức duy nhất. Kết quả là một chuỗi văn bản thuần mà bạn có thể ghi log, lưu trữ, hoặc đưa vào chỉ mục tìm kiếm.
+
+```csharp
+        // 👉 Run the recognition and capture the extracted text
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // Display the output
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-**Kết quả mong đợi**
+**Kết quả mong đợi** (rút gọn để ngắn gọn):
 
 ```
-Total amount detected: $23.45
+=== Recognized Text ===
+Invoice #12345
+Date: 2026-03-01
+Total Amount: $1,250.00
+...
 ```
 
-Nếu hình ảnh biên lai tối hơn hoặc văn bản bị nghiêng, bạn có thể thấy một cái gì đó như `Total amount detected: 23,45`. Phương thức `CleanAmount` sẽ chuẩn hoá nó thành định dạng thập phân tiêu chuẩn.
+Nếu bản quét chứa nhiều ngôn ngữ, bạn có thể đặt `ocrEngine.Language` trước khi gọi `Recognize`. Mặc định nó tự động phát hiện tiếng Anh.
 
-## Những cạm bẫy thường gặp khi bạn **recognize text from image**
+---
 
-### 1. Tọa độ ROI sai
+## Bước 4 – Xác minh kết quả và Xử lý các vấn đề thường gặp
 
-Nếu hình chữ nhật quá nhỏ, engine sẽ cắt bỏ ký tự; nếu quá lớn bạn lại tái tạo nhiễu. Sử dụng công cụ trực quan để tinh chỉnh các số, hoặc phát hiện ranh giới biên lai một cách lập trình bằng thư viện xử lý ảnh đơn giản (ví dụ: OpenCV).
-
-### 2. Quét độ phân giải thấp
-
-Độ chính xác OCR giảm đáng kể dưới 150 dpi. Nếu bạn kiểm soát quá trình quét, hãy hướng tới ít nhất 300 dpi. Nếu bạn bị kẹt với tệp độ phân giải thấp, thử `ocrEngine.SetResolution(300);` trước khi gọi `Recognize()`.
-
-### 3. Biên lai bị nghiêng hoặc xoay
-
-Aspose OCR có thể tự động xoay, nhưng bạn phải bật tính năng này:
+Việc nhận dạng hiếm khi hoàn hảo, đặc biệt với các bản quét nhiễu. Dưới đây là một vài kiểm tra nhanh bạn có thể thêm:
 
 ```csharp
-ocrEngine.SetAutoRotate(true);
+        // Simple validation: ensure we got something non‑empty
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text was detected. Check image quality or try disabling GPU.");
+        }
+        else
+        {
+            // Optional: write to a .txt file for later processing
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
 ```
 
-### 4. Cài đặt ngôn ngữ
+**Tại sao cần thêm điều này?**  
+Các pipeline tăng tốc GPU đôi khi bỏ qua các bước tiền xử lý giúp với hình ảnh độ tương phản thấp. Quay lại CPU (`ocrEngine.UseGpu(false)`) có thể cải thiện độ chính xác cho các tệp có vấn đề.
 
-Ngôn ngữ mặc định là tiếng Anh. Nếu biên lai của bạn chứa các bảng chữ cái khác, hãy đặt ngôn ngữ một cách rõ ràng:
+---
+
+## Bước 5 – Ví dụ Hoàn chỉnh (Sẵn sàng Sao chép‑Dán)
+
+Dưới đây là chương trình hoàn chỉnh, sẵn sàng biên dịch. Chỉ cần thay thế `YOUR_DIRECTORY` bằng thư mục chứa hình ảnh của bạn.
 
 ```csharp
-ocrEngine.Language = OcrLanguage.French; // or any supported language
+using System;
+using System.Drawing;               // System.Drawing.Common for .NET Core
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
+
+class GpuExample
+{
+    static void Main()
+    {
+        // 1️⃣ Load the image (c# read image file)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+
+        // 2️⃣ Initialise OCR engine and enable GPU
+        var ocrEngine = new OcrEngine();
+        ocrEngine.UseGpu(true);               // Turn on GPU acceleration
+
+        // 3️⃣ Recognise text from image
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // 4️⃣ Output and simple validation
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
+
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text detected – consider checking image quality or disabling GPU.");
+        }
+        else
+        {
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
+    }
+}
 ```
 
-## Trường hợp đặc biệt & biến thể – mở rộng **Aspose OCR example**
+Lưu lại dưới tên `Program.cs`, chạy `dotnet run`, và bạn sẽ thấy văn bản đã trích xuất được in ra console và lưu vào `output.txt`.
 
-* **Multiple fields:** Muốn trích xuất ngày và số tiền thuế nữa? Chỉ cần lặp lại bước ROI với một hình chữ nhật mới và gọi `Recognize()` lại (hoặc tái sử dụng engine sau khi đặt lại ROI).  
-* **Batch processing:** Đặt logic trong vòng lặp `foreach (var file in Directory.GetFiles(@"C:\Receipts"))` để tự động xử lý hàng chục tệp.  
-* **Async execution:** Phương thức `Recognize` là đồng bộ, nhưng bạn có thể chuyển sang một luồng nền bằng `Task.Run` nếu đang xây dựng ứng dụng UI.  
+---
 
-## Tham chiếu hình ảnh
+## Câu hỏi thường gặp (FAQ)
 
-![ví dụ nhận dạng văn bản từ hình ảnh](/images/ocr-demo.png "Ảnh chụp màn hình hiển thị kết quả Aspose OCR – recognize text from image")
+**Q: Điều này có hoạt động trên Linux không?**  
+A: Có. Aspose OCR hỗ trợ đa nền tảng, nhưng bạn cần gói `libgdiplus` để hỗ trợ `System.Drawing` trên Linux. Cài đặt bằng `apt-get install libgdiplus`.
 
-*Ảnh chụp màn hình minh họa đầu ra console sau khi chạy chương trình đầy đủ.*
+**Q: GPU của tôi không được nhận dạng—bây giờ sao?**  
+A: Kiểm tra xem driver NVIDIA và bộ công cụ CUDA đã được cài đặt chưa. Bạn cũng có thể gọi `ocrEngine.IsGpuSupported` để phát hiện hỗ trợ một cách lập trình.
+
+**Q: Tôi có thể trích xuất văn bản từ PDF đa trang không?**  
+A: Đầu tiên chuyển mỗi trang thành hình ảnh (`Aspose.PDF` hoặc `PdfSharp` có thể hỗ trợ), sau đó đưa mỗi hình ảnh vào vòng lặp OCR như trên.
+
+**Q: Độ chính xác của Aspose OCR so với Tesseract như thế nào?**  
+A: Trong hầu hết các benchmark, Aspose OCR bằng hoặc vượt qua độ chính xác của Tesseract, đặc biệt trên các bản quét độ phân giải thấp, đồng thời cung cấp API đơn giản hơn và hỗ trợ GPU tích hợp.
+
+---
 
 ## Kết luận
 
-Chúng ta vừa **recognize text from image** bằng Aspose OCR, đã đi qua cách **load image for OCR**, và xây dựng một quy trình thực tế **extract text from receipt** mà bạn có thể tích hợp vào bất kỳ dự án .NET nào. Toàn bộ **Aspose OCR example** chỉ vài dòng, nhưng đã bao phủ các kịch bản phổ biến nhất: chọn ROI, làm sạch kết quả, và xử lý các cạm bẫy thường gặp.
+Bây giờ bạn đã có một **ví dụ đầy đủ, có thể chạy** cho thấy cách **recognize text from image** các tệp bằng Aspose OCR với tăng tốc GPU. Bằng cách làm theo các bước trên, bạn có thể tin cậy **extract text from scan** tài liệu, tích hợp kết quả vào cơ sở dữ liệu, hoặc đưa vào các pipeline AI tiếp theo.
 
-Bước tiếp theo? Hãy thử thay thế hình chữ nhật bằng một quy trình phát hiện động, thử nghiệm với các ngôn ngữ khác nhau, hoặc tích hợp kết quả vào cơ sở dữ liệu để theo dõi chi phí tự động. Không có giới hạn, và với nền tảng hiện có, bạn sẽ dễ dàng mở rộng.
+Sẵn sàng cho thử thách tiếp theo? Hãy thử xử lý một loạt hình ảnh song song, thử nghiệm các gói ngôn ngữ, hoặc kết hợp đầu ra OCR với xử lý ngôn ngữ tự nhiên để tự động phân loại hoá đơn. Không có giới hạn—chúc lập trình vui!
 
-Có câu hỏi hoặc một biên lai khó xử lý?
+![nhận dạng văn bản từ hình ảnh](/images/ocr-sample.png "ví dụ nhận dạng văn bản từ hình ảnh")
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

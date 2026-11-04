@@ -8,9 +8,7 @@ url: /zh-hant/net/ocr-settings/save-result-as-document/
 weight: 10
 ---
 
-Now produce final content with same shortcodes.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,24 +1,23 @@
 ---
 category: general
-date: 2026-05-06
-description: Naučte se rozpoznávat text z obrázku pomocí Aspose OCR v C#. Extrahujte
-  text z účtenky, načtěte obrázek pro OCR a podívejte se na kompletní příklad Aspose
-  OCR.
+date: 2026-03-28
+description: Naučte se rozpoznávat text z obrázku a extrahovat text ze skenu v C#
+  pomocí Aspose OCR s akcelerací GPU. Rychlý, přesný průvodce OCR.
 draft: false
 keywords:
 - recognize text from image
-- extract text from receipt
-- load image for OCR
-- Aspose OCR example
+- extract text from scan
+- c# read image file
+- aspose ocr tutorial c#
 language: cs
-og_description: Naučte se rozpoznávat text z obrázku pomocí Aspose OCR, extrahovat
-  text z účtenky a načíst obrázek pro OCR v stručném, krok za krokem průvodci.
-og_title: Rozpoznat text z obrázku v C# – kompletní tutoriál Aspose OCR
+og_description: Naučte se rozpoznávat text z obrázku a extrahovat text ze skenu v
+  C# pomocí Aspose OCR s akcelerací GPU. Rychlý, přesný průvodce OCR.
+og_title: Rozpoznání textu z obrázku v C# – Kompletní tutoriál Aspose OCR
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
-title: Rozpoznání textu z obrázku v C# – kompletní tutoriál Aspose OCR
+- GPU acceleration
+title: Rozpoznání textu z obrázku v C# – Kompletní tutoriál Aspose OCR
 url: /cs/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/
 ---
 
@@ -26,214 +25,186 @@ url: /cs/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# rozpoznání textu z obrázku v C# – Kompletní tutoriál Aspose OCR
+# rozpoznání textu z obrázku v C# – kompletní tutoriál Aspose OCR
 
-Chtěli jste někdy **rozpoznat text z obrázku**, ale nebyli jste si jisti, kterou knihovnu zvolit? Nejste v tom sami – mnoho vývojářů narazí na stejnou překážku, když se snaží získat čísla z účtenky nebo naskenovat formulář. Dobrou zprávou je, že Aspose OCR celý proces učiní hračkou, a v tomto tutoriálu vás provedeme **kompletním příkladem Aspose OCR**, který vám umožní **extrahovat text z účtenky** na obrázcích pomocí několika řádků C#.
+Už jste někdy potřebovali **rozpoznat text z obrázku**, ale nebyli jste si jisti, která knihovna vám poskytne jak rychlost, tak přesnost? Nejste jediní—vývojáři se neustále ptají: „Jak mohu extrahovat text ze skenu, aniž bych psal vlastní neuronovou síť?“ Dobrou zprávou je, že Aspose OCR dělá těžkou práci, a s jeho GPU rozšířením můžete proces turbo‑zrychlit.
 
-V následujících několika minutách se naučíte, jak **načíst obrázek pro OCR**, definovat přesnou oblast, kde se nachází celková částka, spustit engine a nakonec zobrazit výsledek. Žádné vágní odkazy na externí dokumentaci, žádné chybějící části – vše, co potřebujete zkopírovat a spustit, je zde. Trochu nastavení, pár kroků a budete schopni rozpoznávat text z obrázkových souborů za běhu.
+V tomto průvodci vás provedeme vším, co potřebujete k zahájení: od instalace správných NuGet balíčků, přes načtení TIFF nebo JPEG, povolení GPU podpory, až po získání rozpoznaného řetězce ze souboru. Na konci budete schopni **c# read image file** objekty a převést jakýkoli naskenovaný dokument na prohledávatelný text během několika řádků kódu.
 
-> **Co si odnesete**  
-> * Spustitelná C# konzolová aplikace, která rozpoznává text z obrázkových souborů.  
-> * Porozumění tomu, proč můžete chtít omezit OCR na konkrétní obdélník (rychlost a přesnost).  
-> * Tipy pro řešení běžných okrajových případů, jako jsou rozmazané účtenky nebo natočené skeny.  
+> **Co získáte**  
+> * Fungující C# konzolová aplikace, která rozpoznává text z obrazových souborů.  
+> * Porozumění tomu, proč je akcelerace GPU důležitá pro velké skeny.  
+> * Tipy pro řešení běžných úskalí při **extract text from scan**.  
 
-## Požadavky
-
-Before we dive in, make sure you have:
+## Prerequisites – What You Need Before You Start
 
 | Požadavek | Proč je důležité |
 |-------------|----------------|
-| .NET 6.0 SDK (nebo novější) | Aspose OCR je distribuován jako knihovna .NET Standard 2.0 / .NET 5+, takže funguje s jakýmkoli aktuálním runtime. |
-| Visual Studio 2022 (nebo VS Code) | Pohodlné IDE urychluje ladění, ale stačí libovolný editor, který umí kompilovat C#. |
-| **Aspose.OCR for .NET** NuGet package | Toto je hlavní knihovna, která skutečně rozpoznává text z obrázku. |
-| Vzorek obrázku účtenky (`receipt.jpg`) | Tento soubor použijeme k demonstraci **extrahování textu z účtenky**. |
+| .NET 6.0 SDK (or later) | Aspose OCR cílí na .NET Standard 2.0+, takže aktuální runtime zaručují kompatibilitu. |
+| Visual Studio 2022 (or any IDE you like) | Usnadňuje ladění a správu balíčků. |
+| NuGet packages **Aspose.OCR** and **Aspose.OCR.GPU** | Jádro OCR enginu žije v `Aspose.OCR`; GPU‑specifické API jsou v `Aspose.OCR.GPU`. |
+| A sample image (e.g., `large_scan.tif`) | Ukážeme to na multi‑megabyte TIFF, který demonstruje nárůst výkonu. |
 
-You can install the NuGet package with the following command:
+Balíčky můžete nainstalovat pomocí NuGet CLI:
 
 ```bash
 dotnet add package Aspose.OCR
+dotnet add package Aspose.OCR.GPU
 ```
 
-Jakmile je to hotovo, můžete začít načítat obrázek pro OCR.
+> **Pro tip:** Pokud jste na Windows a dáváte přednost GUI, otevřete **NuGet Package Manager** ve Visual Studiu a vyhledejte „Aspose OCR“.
 
-## Krok 1: Načtení obrázku pro OCR
+## Step 1 – Load the Image File (c# read image file)
 
-Prvním krokem je nasměrovat engine na soubor, který chcete analyzovat. Zde se přirozeně objevuje sekundární klíčové slovo **load image for OCR**.
+Prvním krokem je načíst obrázek do paměti. Aspose OCR pracuje s `System.Drawing.Image`, takže pokud používáte .NET Core, budete potřebovat odkaz na `System.Drawing.Common`.
 
 ```csharp
-using Aspose.OCR;
-using System.Drawing;
-
-// Create the OCR engine instance
-var ocrEngine = new OcrEngine();
-
-// Load the receipt image – replace the path with your own file location
-ocrEngine.SetImage(@"C:\Images\receipt.jpg");
-```
-
-> **Tip:** Pokud se váš obrázek nachází ve složce projektu, můžete použít relativní cestu jako `ocrEngine.SetImage("receipt.jpg");`. Jen se ujistěte, že soubor je zkopírován do výstupního adresáře (`Copy to Output Directory = PreserveNewest`).
-
-Metoda `SetImage` přijímá jakýkoli formát, který dokáže dekódovat System.Drawing (JPEG, PNG, BMP, atd.), takže nejste omezeni na jediný typ souboru.
-
-## Krok 2: Definování oblasti zájmu – **extract text from receipt**
-
-Skenování celého obrázku plýtvá cykly CPU a může zavést šum. Když Aspose OCR řeknete přesně, kde se nachází celková částka, zvýšíte jak rychlost, tak přesnost. Toto je část, kde **extract text from receipt**.
-
-```csharp
-// Define a rectangle that covers the total amount on the receipt
-// (x, y, width, height) – adjust these numbers for your own layout
-var roi = new Rectangle(150, 500, 300, 80);
-ocrEngine.SetRegionOfInterest(roi);
-```
-
-> **Proč obdélník?**  
-> OCR engine pracuje na pixelové mřížce. Když ho omezíte na oblast, ignoruje vše ostatní – žádné další znaky z loga obchodu nebo záhlaví.
-
-Pokud si nejste jisti přesnými souřadnicemi, můžete použít libovolný prohlížeč obrázků, který zobrazuje pozice pixelů (např. Paint.NET), a odhadnout čísla.
-
-## Krok 3: Spuštění engine – **recognize text from image** (primární klíčové slovo)
-
-Nyní se děje magie. Říkáte Aspose, aby skutečně přečetl pixely uvnitř právě definovaného obdélníku.
-
-```csharp
-// Perform the recognition
-OcrResult result = ocrEngine.Recognize();
-```
-
-`OcrResult` obsahuje surový text, skóre důvěry a dokonce ohraničující rámečky pro každé slovo. Pro rychlou ukázku jednoduše vytiskneme čistý text.
-
-```csharp
-Console.WriteLine("Total amount detected: " + result.Text);
-```
-
-Při spuštění programu byste měli vidět něco jako:
-
-```
-Total amount detected: $23.45
-```
-
-Pokud výstup vypadá poškozeně, dvakrát zkontrolujte souřadnice ROI nebo zkuste zvýšit rozlišení obrázku.
-
-## Krok 4: Zpracování výsledku – vylepšení **Aspose OCR example**
-
-Robustní řešení dělá víc než jen vypíše řetězec do konzole. Níže je malý pomocník, který ořízne mezery, odstraní nadbytečné zalomení řádků a ověří, že extrahovaná hodnota vypadá jako částka.
-
-```csharp
-static string CleanAmount(string raw)
-{
-    // Remove any non‑numeric characters except dot and comma
-    var cleaned = new string(raw
-        .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-        .ToArray());
-
-    // Normalize decimal separator to dot
-    cleaned = cleaned.Replace(',', '.');
-
-    // If we end up with an empty string, return a friendly message
-    return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
-}
-
-// ...
-
-string amount = CleanAmount(result.Text);
-Console.WriteLine($"Parsed amount: ${amount}");
-```
-
-Tento pomocník ukazuje realistický **Aspose OCR example**, který můžete vložit do libovolného většího fakturačního systému.
-
-## Krok 5: Plně spustitelný program – ultimátní demo **extract text from receipt**
-
-Spojením všeho dohromady získáte jeden soubor připravený ke kopírování a vložení. Uložte jej jako `Program.cs` a spusťte `dotnet run`.
-
-```csharp
-// Program.cs
-using Aspose.OCR;
 using System;
-using System.Drawing;
-using System.Linq;
+using System.Drawing;               // For Image class
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
 
-class Program
+class GpuExample
 {
     static void Main()
     {
-        // 1️⃣ Load the image for OCR
+        // 👉 Load the image you want to recognize (any supported format)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+```
+
+> **Proč tento krok?**  
+> Načtení souboru poskytne OCR enginu bitmapu, kterou může analyzovat. Použití `Image.FromFile` zajistí, že obrázek je plně dekódován, což je nezbytné pro přesnou segmentaci znaků.
+
+## Step 2 – Initialise the OCR Engine and Enable GPU
+
+Nyní, když máte bitmapu, vytvořte instanci `OcrEngine`. Ve výchozím nastavení engine běží na CPU, což stačí pro malé screenshoty. Pro velké skeny — např. 300 dpi PDF — zapnutí GPU dramaticky zkrátí dobu zpracování.
+
+```csharp
+        // 👉 Create the OCR engine and enable GPU acceleration for better performance
         var ocrEngine = new OcrEngine();
-        ocrEngine.SetImage(@"C:\Images\receipt.jpg");   // <-- adjust path
 
-        // 2️⃣ Define the region that holds the total amount
-        var roi = new Rectangle(150, 500, 300, 80);
-        ocrEngine.SetRegionOfInterest(roi);
+        // The UseGpu method toggles GPU mode. Pass true to enable.
+        ocrEngine.UseGpu(true);
+```
 
-        // 3️⃣ Run the engine – recognize text from image
-        OcrResult result = ocrEngine.Recognize();
+> **Co se děje pod kapotou?**  
+> Když se zavolá `UseGpu(true)`, Aspose načte CUDA‑založené kernely (pokud je k dispozici kompatibilní GPU). OCR pipeline — předzpracování, segmentace, klasifikace — pak běží na grafické kartě, využívající tisíce jader místo několika CPU vláken.  
+> **Edge case:** Pokud runtime nenajde vhodné GPU, `UseGpu(true)` tiše přepne zpět do režimu CPU. Skutečný režim můžete ověřit pomocí `ocrEngine.IsGpuEnabled`.
 
-        // 4️⃣ Clean up the output
-        string amount = CleanAmount(result.Text);
-        Console.WriteLine($"Total amount detected: ${amount}");
-    }
+## Step 3 – Recognise Text from Image
 
-    // Helper that sanitises the OCR output
-    static string CleanAmount(string raw)
-    {
-        var cleaned = new string(raw
-            .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-            .ToArray());
+S připraveným enginem je samotné rozpoznání jediným voláním metody. Výsledkem je prostý textový řetězec, který můžete logovat, ukládat nebo předat do vyhledávacího indexu.
 
-        cleaned = cleaned.Replace(',', '.');
-        return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
+```csharp
+        // 👉 Run the recognition and capture the extracted text
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // Display the output
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-**Očekávaný výstup**
+**Očekávaný výstup** (zkráceně):
 
 ```
-Total amount detected: $23.45
+=== Recognized Text ===
+Invoice #12345
+Date: 2026-03-01
+Total Amount: $1,250.00
+...
 ```
 
-Pokud je obrázek účtenky tmavší nebo je text nakloněný, můžete vidět něco jako `Total amount detected: 23,45`. Metoda `CleanAmount` to normalizuje na standardní desetinný formát.
+Pokud sken obsahuje více jazyků, můžete před voláním `Recognize` nastavit `ocrEngine.Language`. Ve výchozím nastavení automaticky detekuje angličtinu.
 
-## Časté úskalí při **recognize text from image**
+## Step 4 – Verify Results and Handle Common Issues
 
-### 1. Špatné souřadnice ROI
-Pokud je obdélník příliš malý, engine ořízne znaky; pokud je příliš velký, znovu zavede šum. Použijte vizuální nástroj k doladění čísel, nebo programově detekujte hranice účtenky pomocí jednoduché knihovny pro zpracování obrazu (např. OpenCV).
-
-### 2. Skeny s nízkým rozlišením
-Přesnost OCR dramaticky klesá pod 150 dpi. Pokud řídíte proces skenování, cílte alespoň na 300 dpi. Pokud máte soubor s nízkým rozlišením, zkuste `ocrEngine.SetResolution(300);` před voláním `Recognize()`.
-
-### 3. Šikmé nebo otočené účtenky
-Aspose OCR může automaticky otáčet, ale musíte to povolit:
+Rozpoznání zřídka bývá dokonalé, zejména u špinavých skenů. Zde je několik rychlých kontrol, které můžete přidat:
 
 ```csharp
-ocrEngine.SetAutoRotate(true);
+        // Simple validation: ensure we got something non‑empty
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text was detected. Check image quality or try disabling GPU.");
+        }
+        else
+        {
+            // Optional: write to a .txt file for later processing
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
 ```
 
-### 4. Nastavení jazyka
-Výchozí jazyk je angličtina. Pokud vaše účtenka obsahuje jiné abecedy, nastavte jazyk explicitně:
+**Proč to přidat?**  
+GPU‑akcelerované pipeline někdy přeskočí předzpracovatelské kroky, které pomáhají u obrázků s nízkým kontrastem. Přepnutí zpět na CPU (`ocrEngine.UseGpu(false)`) může zlepšit přesnost u problematických souborů.
+
+## Step 5 – Full Working Example (Copy‑Paste Ready)
+
+Níže je kompletní program, připravený ke kompilaci. Stačí nahradit `YOUR_DIRECTORY` složkou, kde máte obrázek.
 
 ```csharp
-ocrEngine.Language = OcrLanguage.French; // or any supported language
+using System;
+using System.Drawing;               // System.Drawing.Common for .NET Core
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
+
+class GpuExample
+{
+    static void Main()
+    {
+        // 1️⃣ Load the image (c# read image file)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+
+        // 2️⃣ Initialise OCR engine and enable GPU
+        var ocrEngine = new OcrEngine();
+        ocrEngine.UseGpu(true);               // Turn on GPU acceleration
+
+        // 3️⃣ Recognise text from image
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // 4️⃣ Output and simple validation
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
+
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text detected – consider checking image quality or disabling GPU.");
+        }
+        else
+        {
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
+    }
+}
 ```
 
-## Okrajové případy a varianty – rozšíření **Aspose OCR example**
+Uložte tento soubor jako `Program.cs`, spusťte `dotnet run` a měly by se vám na konzoli vypsat extrahované texty a uložit do `output.txt`.
 
-* **Multiple fields:** Chcete také získat datum a částku DPH? Jednoduše zopakujte krok ROI s novým obdélníkem a znovu zavolejte `Recognize()` (nebo použijte stejný engine po resetování ROI).  
-* **Batch processing:** Zabalte logiku do smyčky `foreach (var file in Directory.GetFiles(@"C:\Receipts"))`, aby se automaticky zpracovalo desítky souborů.  
-* **Async execution:** Metoda `Recognize` je synchronní, ale můžete ji přesunout na vlákno na pozadí pomocí `Task.Run`, pokud vytváříte UI aplikaci.
+## Frequently Asked Questions (FAQ)
 
-## Vizuální reference
+**Q: Does this work on Linux?**  
+A: Yes. Aspose OCR is cross‑platform, but you need the `libgdiplus` package for `System.Drawing` support on Linux. Install it via `apt-get install libgdiplus`.
 
-![příklad rozpoznání textu z obrázku](/images/ocr-demo.png "Snímek obrazovky ukazující výsledek Aspose OCR – rozpoznání textu z obrázku")
+**Q: My GPU isn’t recognized—what now?**  
+A: Verify that the NVIDIA driver and CUDA toolkit are installed. You can also call `ocrEngine.IsGpuSupported` to programmatically detect support.
 
-*Snímek obrazovky ukazuje výstup konzole po spuštění kompletního programu.*
+**Q: Can I extract text from a multi‑page PDF?**  
+A: Convert each page to an image first (`Aspose.PDF` or `PdfSharp` can help), then feed each image into the OCR loop shown above.
 
-## Závěr
+**Q: How accurate is Aspose OCR compared to Tesseract?**  
+A: In most benchmarks Aspose OCR matches or exceeds Tesseract’s accuracy, especially on low‑resolution scans, while offering a simpler API and built‑in GPU acceleration.
 
-Právě jsme **recognize text from image** pomocí Aspose OCR, prošli jsme, jak **load image for OCR**, a vytvořili praktický workflow **extract text from receipt**, který můžete vložit do libovolného .NET projektu. Kompletní **Aspose OCR example** má jen několik řádků, přesto pokrývá nejčastější scénáře: výběr ROI, čištění výsledku a řešení typických úskalí.
+## Conclusion
 
-Další kroky? Zkuste nahradit obdélník dynamickým detekčním algoritmem, experimentujte s různými jazyky nebo integrujte výstup do databáze pro automatické sledování výdajů. Možnosti jsou neomezené a s tímto základem, který nyní máte, bude rozšiřování snadné.
+Nyní máte **kompletní, spustitelný příklad**, který ukazuje, jak **rozpoznat text z obrázku** pomocí Aspose OCR s GPU akcelerací. Dodržením výše uvedených kroků můžete spolehlivě **extract text from scan** dokumenty, integrovat výsledek do databází nebo jej předat do downstream AI pipeline.
 
-Máte otázky nebo obtížnou účtenku, která odmítá spolupracovat?
+Jste připraveni na další výzvu? Zkuste zpracovat dávku obrázků paralelně, experimentujte s jazykovými balíčky nebo kombinujte OCR výstup s natural‑language processing pro automatické kategorizování faktur. Možnosti jsou neomezené — šťastné kódování!
+
+![rozpoznat text z obrázku](/images/ocr-sample.png "příklad rozpoznání textu z obrázku")
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-05-06
-description: Apprenez à reconnaître le texte à partir d’une image avec Aspose OCR
-  en C#. Extrayez le texte d’un reçu, chargez l’image pour l’OCR et consultez un exemple
-  complet d’Aspose OCR.
+date: 2026-03-28
+description: Apprenez à reconnaître le texte à partir d’une image et à extraire le
+  texte d’un scan en C# en utilisant Aspose OCR avec accélération GPU. Guide OCR rapide
+  et précis.
 draft: false
 keywords:
 - recognize text from image
-- extract text from receipt
-- load image for OCR
-- Aspose OCR example
+- extract text from scan
+- c# read image file
+- aspose ocr tutorial c#
 language: fr
-og_description: Apprenez à reconnaître le texte d’une image avec Aspose OCR, à extraire
-  le texte d’un reçu et à charger une image pour l’OCR grâce à un guide concis, étape
-  par étape.
-og_title: reconnaître du texte à partir d'une image en C# – Tutoriel complet Aspose
+og_description: Apprenez à reconnaître le texte à partir d’une image et à extraire
+  le texte d’un scan en C# avec Aspose OCR et l’accélération GPU. Guide OCR rapide
+  et précis.
+og_title: Reconnaître du texte à partir d'une image en C# – Tutoriel complet Aspose
   OCR
 tags:
+- Aspose OCR
 - C#
-- OCR
-- Aspose
+- GPU acceleration
 title: Reconnaître du texte à partir d'une image en C# – Tutoriel complet Aspose OCR
 url: /fr/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr-tutorial/
 ---
@@ -30,212 +30,184 @@ url: /fr/net/text-recognition/recognize-text-from-image-in-c-complete-aspose-ocr
 
 # Reconnaître du texte à partir d'une image en C# – Tutoriel complet Aspose OCR
 
-Vous avez déjà eu besoin de **reconnaître du texte à partir d'une image** mais vous ne saviez pas quelle bibliothèque choisir ? Vous n'êtes pas le seul—de nombreux développeurs rencontrent le même problème lorsqu'ils essaient d'extraire des chiffres d'un reçu ou de numériser un formulaire. La bonne nouvelle, c'est qu'Aspose OCR rend tout le processus très simple, et dans ce tutoriel nous vous guiderons à travers un **exemple complet Aspose OCR** qui vous permet de **extraire du texte d'un reçu** en quelques lignes de C#.
+Vous avez déjà eu besoin de **reconnaître du texte à partir d'une image** mais vous n'étiez pas sûr de la bibliothèque qui vous offrirait à la fois vitesse et précision ? Vous n'êtes pas le seul—les développeurs demandent constamment, « Comment extraire du texte d'un scan sans écrire un réseau neuronal personnalisé ? » La bonne nouvelle, c'est qu'Aspose OCR fait le gros du travail, et avec son extension GPU vous pouvez turbo‑charger le processus.
 
-Dans les prochaines minutes, vous apprendrez comment **charger une image pour l'OCR**, définir la région exacte contenant le montant total, exécuter le moteur, puis afficher le résultat. Pas de références vagues à des documents externes, pas de pièces manquantes—tout ce dont vous avez besoin pour copier‑coller et exécuter se trouve ici. Un peu de configuration, quelques étapes, et vous pourrez reconnaître du texte à partir de fichiers image en temps réel.
+Dans ce guide, nous passerons en revue tout ce dont vous avez besoin pour être opérationnel : de l'installation des bons packages NuGet, au chargement d'un TIFF ou JPEG, en passant par l'activation du support GPU, jusqu'à l'extraction de la chaîne reconnue du fichier. À la fin, vous pourrez **c# read image file** objets et transformer n'importe quel document numérisé en texte consultable en quelques lignes de code.
 
 > **Ce que vous en retirerez**  
-> * Une application console C# exécutable qui reconnaît du texte à partir de fichiers image.  
-> * Compréhension des raisons pour lesquelles vous pourriez vouloir limiter l'OCR à un rectangle spécifique (vitesse et précision).  
-> * Astuces pour gérer les cas limites courants comme les reçus flous ou les scans inclinés.  
+> * Une application console C# fonctionnelle qui reconnaît du texte à partir de fichiers image.  
+> * Une compréhension de pourquoi l'accélération GPU est importante pour les gros scans.  
+> * Des astuces pour gérer les pièges courants lorsque vous **extract text from scan**.
 
----
+## Prérequis – Ce dont vous avez besoin avant de commencer
 
-## Prérequis
-
-| Requirement | Why it matters |
+| Exigence | Pourquoi c'est important |
 |-------------|----------------|
-| .NET 6.0 SDK (or later) | Aspose OCR est fourni en tant que bibliothèque .NET Standard 2.0 / .NET 5+, donc tout runtime récent fonctionne. |
-| Visual Studio 2022 (or VS Code) | Un IDE confortable accélère le débogage, mais tout éditeur capable de compiler du C# convient. |
-| **Aspose.OCR for .NET** NuGet package | C’est la bibliothèque principale qui reconnaît réellement le texte à partir d'une image. |
-| A sample receipt image (`receipt.jpg`) | Nous utiliserons ce fichier pour démontrer **extract text from receipt**. |
+| .NET 6.0 SDK (ou version ultérieure) | Aspose OCR cible .NET Standard 2.0+, donc les runtimes récents garantissent la compatibilité. |
+| Visual Studio 2022 (ou tout IDE de votre choix) | Facilite le débogage et la gestion des packages. |
+| NuGet packages **Aspose.OCR** and **Aspose.OCR.GPU** | Le moteur OCR principal se trouve dans `Aspose.OCR` ; les API spécifiques au GPU sont dans `Aspose.OCR.GPU`. |
+| A sample image (e.g., `large_scan.tif`) | Nous démontrerons sur un TIFF de plusieurs mégaoctets, qui met en avant le gain de performance. |
 
-Vous pouvez installer le package NuGet avec la commande suivante :
+Vous pouvez installer les packages avec le CLI NuGet :
 
 ```bash
 dotnet add package Aspose.OCR
+dotnet add package Aspose.OCR.GPU
 ```
 
-Une fois cela fait, vous êtes prêt à commencer à charger l'image pour l'OCR.
+> **Conseil pro** : Si vous êtes sous Windows et que vous préférez l'interface graphique, ouvrez le **Gestionnaire de packages NuGet** dans Visual Studio et recherchez « Aspose OCR ».
 
-## Étape 1 : Charger l'image pour l'OCR
+## Étape 1 – Charger le fichier image (c# read image file)
 
-La première chose à faire est d'indiquer au moteur le fichier que vous souhaitez analyser. C'est ici que le mot‑clé secondaire **load image for OCR** apparaît naturellement.
+La première chose à faire est de lire l'image en mémoire. Aspose OCR travaille avec `System.Drawing.Image`, vous aurez donc besoin d'une référence à `System.Drawing.Common` si vous êtes sur .NET Core.
 
 ```csharp
-using Aspose.OCR;
-using System.Drawing;
-
-// Create the OCR engine instance
-var ocrEngine = new OcrEngine();
-
-// Load the receipt image – replace the path with your own file location
-ocrEngine.SetImage(@"C:\Images\receipt.jpg");
-```
-
-> **Conseil pro :** Si votre image se trouve dans le dossier du projet, vous pouvez utiliser un chemin relatif comme `ocrEngine.SetImage("receipt.jpg");`. Assurez‑vous simplement que le fichier est copié dans le répertoire de sortie (`Copy to Output Directory = PreserveNewest`).
-
-La méthode `SetImage` accepte tout format que System.Drawing peut décoder (JPEG, PNG, BMP, etc.), vous n'êtes donc pas limité à un seul type de fichier.
-
-## Étape 2 : Définir la région d'intérêt – **extract text from receipt**
-
-Analyser l'image entière gaspille des cycles CPU et peut introduire du bruit. En indiquant à Aspose OCR exactement où se trouve le montant total, vous améliorez à la fois la vitesse et la précision. C’est la partie où nous **extract text from receipt**.
-
-```csharp
-// Define a rectangle that covers the total amount on the receipt
-// (x, y, width, height) – adjust these numbers for your own layout
-var roi = new Rectangle(150, 500, 300, 80);
-ocrEngine.SetRegionOfInterest(roi);
-```
-
-> **Pourquoi un rectangle ?**  
-> Le moteur OCR fonctionne sur une grille de pixels. Lorsque vous le limitez à une région, il ignore tout le reste—plus de caractères parasites provenant du logo du magasin ou de la ligne d’en‑tête.
-
-Si vous n'êtes pas sûr des coordonnées exactes, vous pouvez utiliser n'importe quel visualiseur d'image affichant les positions des pixels (par ex., Paint.NET) pour estimer les chiffres.
-
-## Étape 3 : Exécuter le moteur – **recognize text from image** (mot‑clé principal)
-
-Maintenant, la magie opère. Vous indiquez à Aspose de réellement lire les pixels à l'intérieur du rectangle que vous venez de définir.
-
-```csharp
-// Perform the recognition
-OcrResult result = ocrEngine.Recognize();
-```
-
-`OcrResult` contient le texte brut, les scores de confiance, et même les boîtes englobantes pour chaque mot. Pour une démonstration rapide, nous n'afficherons que le texte brut.
-
-```csharp
-Console.WriteLine("Total amount detected: " + result.Text);
-```
-
-Lorsque vous exécutez le programme, vous devriez voir quelque chose comme :
-
-```
-Total amount detected: $23.45
-```
-
-Si la sortie semble illisible, revérifiez les coordonnées de la ROI ou essayez d'augmenter la résolution de l'image.
-
-## Étape 4 : Gérer le résultat – peaufiner le **Aspose OCR example**
-
-Une solution robuste fait plus que simplement afficher la chaîne dans la console. Ci‑dessous se trouve un petit helper qui supprime les espaces, élimine les sauts de ligne parasites, et valide que la valeur extraite ressemble à un montant monétaire.
-
-```csharp
-static string CleanAmount(string raw)
-{
-    // Remove any non‑numeric characters except dot and comma
-    var cleaned = new string(raw
-        .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-        .ToArray());
-
-    // Normalize decimal separator to dot
-    cleaned = cleaned.Replace(',', '.');
-
-    // If we end up with an empty string, return a friendly message
-    return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
-}
-
-// ...
-
-string amount = CleanAmount(result.Text);
-Console.WriteLine($"Parsed amount: ${amount}");
-```
-
-Le helper montre un **Aspose OCR example** réaliste que vous pouvez intégrer dans n'importe quel système de facturation plus grand.
-
-## Étape 5 : Programme complet exécutable – la démonstration ultime **extract text from receipt**
-
-En rassemblant tout, vous obtenez un seul fichier copiable‑collable. Enregistrez‑le sous `Program.cs` et exécutez `dotnet run`.
-
-```csharp
-// Program.cs
-using Aspose.OCR;
 using System;
-using System.Drawing;
-using System.Linq;
+using System.Drawing;               // For Image class
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
 
-class Program
+class GpuExample
 {
     static void Main()
     {
-        // 1️⃣ Load the image for OCR
+        // 👉 Load the image you want to recognize (any supported format)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+```
+
+> **Pourquoi cette étape ?**  
+> Le chargement du fichier fournit au moteur OCR un bitmap qu'il peut analyser. Utiliser `Image.FromFile` garantit que l'image est entièrement décodée, ce qui est essentiel pour une segmentation précise des caractères.
+
+## Étape 2 – Initialiser le moteur OCR et activer le GPU
+
+Maintenant que le bitmap est en main, créez une instance `OcrEngine`. Par défaut, le moteur s'exécute sur le CPU, ce qui suffit pour de petites captures d'écran. Pour les scans volumineux—imaginez des PDF à 300 dpi—activer le GPU réduit considérablement le temps de traitement.
+
+```csharp
+        // 👉 Create the OCR engine and enable GPU acceleration for better performance
         var ocrEngine = new OcrEngine();
-        ocrEngine.SetImage(@"C:\Images\receipt.jpg");   // <-- adjust path
 
-        // 2️⃣ Define the region that holds the total amount
-        var roi = new Rectangle(150, 500, 300, 80);
-        ocrEngine.SetRegionOfInterest(roi);
+        // The UseGpu method toggles GPU mode. Pass true to enable.
+        ocrEngine.UseGpu(true);
+```
 
-        // 3️⃣ Run the engine – recognize text from image
-        OcrResult result = ocrEngine.Recognize();
+> **Que se passe-t-il en coulisses ?**  
+> Lorsque `UseGpu(true)` est appelé, Aspose charge les kernels basés sur CUDA (si un GPU compatible est présent). Le pipeline OCR—pré‑traitement, segmentation, classification—s'exécute alors sur la carte graphique, exploitant des milliers de cœurs au lieu de quelques threads CPU.  
+> **Cas particulier** : Si le runtime ne trouve pas de GPU adapté, `UseGpu(true)` revient silencieusement en mode CPU. Vous pouvez vérifier le mode réel avec `ocrEngine.IsGpuEnabled`.
 
-        // 4️⃣ Clean up the output
-        string amount = CleanAmount(result.Text);
-        Console.WriteLine($"Total amount detected: ${amount}");
-    }
+## Étape 3 – Reconnaître le texte à partir de l'image
 
-    // Helper that sanitises the OCR output
-    static string CleanAmount(string raw)
-    {
-        var cleaned = new string(raw
-            .Where(c => char.IsDigit(c) || c == '.' || c == ',')
-            .ToArray());
+Avec le moteur prêt, la reconnaissance proprement dite se fait en un seul appel de méthode. Le résultat est une chaîne en texte brut que vous pouvez consigner, stocker ou injecter dans un index de recherche.
 
-        cleaned = cleaned.Replace(',', '.');
-        return string.IsNullOrWhiteSpace(cleaned) ? "N/A" : cleaned;
+```csharp
+        // 👉 Run the recognition and capture the extracted text
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // Display the output
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-**Sortie attendue**
+**Sortie attendue** (truncée pour plus de concision) :
 
 ```
-Total amount detected: $23.45
+=== Recognized Text ===
+Invoice #12345
+Date: 2026-03-01
+Total Amount: $1,250.00
+...
 ```
 
-Si l'image du reçu est plus sombre ou le texte est incliné, vous pourriez voir quelque chose comme `Total amount detected: 23,45`. La méthode `CleanAmount` normalise cela en un format décimal standard.
+Si le scan contient plusieurs langues, vous pouvez définir `ocrEngine.Language` avant d'appeler `Recognize`. Par défaut, il détecte automatiquement l'anglais.
 
-## Pièges courants lorsque vous **recognize text from image**
+## Étape 4 – Vérifier les résultats et gérer les problèmes courants
 
-### 1. Coordonnées ROI incorrectes
-Si le rectangle est trop petit, le moteur coupera des caractères ; s'il est trop grand, vous réintroduirez du bruit. Utilisez un outil visuel pour affiner les chiffres, ou détectez programmatiquement les limites du reçu avec une bibliothèque de traitement d'image simple (par ex., OpenCV).
-
-### 2. Scans à basse résolution
-La précision de l'OCR chute drastiquement en dessous de 150 dpi. Si vous contrôlez le processus de numérisation, visez au moins 300 dpi. Si vous êtes coincé avec un fichier basse résolution, essayez `ocrEngine.SetResolution(300);` avant d'appeler `Recognize()`.
-
-### 3. Reçus inclinés ou tournés
-Aspose OCR peut auto‑tourner, mais vous devez l'activer :
+La reconnaissance est rarement parfaite, surtout avec des scans bruyants. Voici quelques vérifications rapides que vous pouvez ajouter :
 
 ```csharp
-ocrEngine.SetAutoRotate(true);
+        // Simple validation: ensure we got something non‑empty
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text was detected. Check image quality or try disabling GPU.");
+        }
+        else
+        {
+            // Optional: write to a .txt file for later processing
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
 ```
 
-### 4. Paramètres de langue
-La langue par défaut est l'anglais. Si votre reçu contient d'autres alphabets, définissez la langue explicitement :
+**Pourquoi ajouter cela ?**  
+Les pipelines accélérés par GPU sautent parfois les étapes de pré‑traitement qui aident avec les images à faible contraste. Revenir au CPU (`ocrEngine.UseGpu(false)`) peut améliorer la précision pour les fichiers problématiques.
+
+## Étape 5 – Exemple complet fonctionnel (prêt à copier‑coller)
+
+Voici le programme complet, prêt à être compilé. Remplacez simplement `YOUR_DIRECTORY` par le dossier contenant votre image.
 
 ```csharp
-ocrEngine.Language = OcrLanguage.French; // or any supported language
+using System;
+using System.Drawing;               // System.Drawing.Common for .NET Core
+using Aspose.OCR;
+using Aspose.OCR.GPU;                // GPU extension namespace
+
+class GpuExample
+{
+    static void Main()
+    {
+        // 1️⃣ Load the image (c# read image file)
+        var imagePath = @"YOUR_DIRECTORY\large_scan.tif";
+        Image image = Image.FromFile(imagePath);
+
+        // 2️⃣ Initialise OCR engine and enable GPU
+        var ocrEngine = new OcrEngine();
+        ocrEngine.UseGpu(true);               // Turn on GPU acceleration
+
+        // 3️⃣ Recognise text from image
+        string recognizedText = ocrEngine.Recognize(image);
+
+        // 4️⃣ Output and simple validation
+        Console.WriteLine("=== Recognized Text ===");
+        Console.WriteLine(recognizedText);
+
+        if (string.IsNullOrWhiteSpace(recognizedText))
+        {
+            Console.WriteLine("⚠️ No text detected – consider checking image quality or disabling GPU.");
+        }
+        else
+        {
+            System.IO.File.WriteAllText("output.txt", recognizedText);
+        }
+    }
+}
 ```
 
-## Cas limites & variations – étendre le **Aspose OCR example**
+Enregistrez-le sous `Program.cs`, exécutez `dotnet run`, et vous devriez voir le texte extrait affiché dans la console et enregistré dans `output.txt`.
 
-* **Multiple fields :** Vous voulez extraire également la date et le montant de la taxe ? Répétez simplement l'étape ROI avec un nouveau rectangle et appelez `Recognize()` à nouveau (ou réutilisez le même moteur après avoir réinitialisé la ROI).  
-* **Traitement par lots :** Enveloppez la logique dans une boucle `foreach (var file in Directory.GetFiles(@"C:\Receipts"))` pour gérer automatiquement des dizaines de fichiers.  
-* **Exécution asynchrone :** La méthode `Recognize` est synchrone, mais vous pouvez la déléguer à un thread d'arrière‑plan avec `Task.Run` si vous créez une application UI.  
+## Questions fréquemment posées (FAQ)
 
-## Référence visuelle
+**Q : Cela fonctionne-t-il sous Linux ?**  
+R : Oui. Aspose OCR est multiplateforme, mais vous avez besoin du package `libgdiplus` pour le support `System.Drawing` sous Linux. Installez‑le via `apt-get install libgdiplus`.
 
-![exemple de reconnaissance de texte à partir d'image](/images/ocr-demo.png "Screenshot showing Aspose OCR result – recognize text from image")
+**Q : Mon GPU n’est pas reconnu—que faire ?**  
+R : Vérifiez que le pilote NVIDIA et le toolkit CUDA sont installés. Vous pouvez également appeler `ocrEngine.IsGpuSupported` pour détecter le support de manière programmatique.
 
-*La capture d'écran montre la sortie console après l'exécution du programme complet.*
+**Q : Puis‑je extraire du texte d’un PDF multi‑pages ?**  
+R : Convertissez chaque page en image d’abord (`Aspose.PDF` ou `PdfSharp` peuvent aider), puis alimentez chaque image dans la boucle OCR présentée ci‑dessus.
+
+**Q : Quelle est la précision d’Aspose OCR comparée à Tesseract ?**  
+R : Dans la plupart des benchmarks, Aspose OCR égalise ou dépasse la précision de Tesseract, surtout sur les scans basse résolution, tout en offrant une API plus simple et une accélération GPU intégrée.
 
 ## Conclusion
 
-Nous venons de **recognize text from image** avec Aspose OCR, nous avons parcouru comment **load image for OCR**, et construit un flux de travail pratique **extract text from receipt** que vous pouvez intégrer dans n'importe quel projet .NET. L'exemple complet **Aspose OCR example** ne compte que quelques lignes, mais il couvre les scénarios les plus courants : sélection de la ROI, nettoyage du résultat, et gestion des pièges typiques.
+Vous disposez maintenant d’un **exemple complet et exécutable** qui montre comment **reconnaître du texte à partir d’une image** en utilisant Aspose OCR avec accélération GPU. En suivant les étapes ci‑dessus, vous pouvez de manière fiable **extract text from scan** des documents, intégrer le résultat dans des bases de données, ou le transmettre à des pipelines d’IA en aval.
 
-Prochaines étapes ? Essayez de remplacer le rectangle par une routine de détection dynamique, expérimentez avec différentes langues, ou intégrez la sortie dans une base de données pour le suivi automatique des dépenses. Le ciel est la limite, et avec les bases que vous avez maintenant, vous trouverez facile d'étendre.
+Prêt pour le prochain défi ? Essayez de traiter un lot d’images en parallèle, expérimentez les packs de langues, ou combinez la sortie OCR avec le traitement du langage naturel pour auto‑catégoriser les factures. Le ciel est la limite—bon codage !
 
-Des questions ou un reçu difficile qui refuse de coopérer ?
+![reconnaître du texte à partir d'une image](/images/ocr-sample.png "exemple de reconnaissance de texte à partir d'une image")
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
