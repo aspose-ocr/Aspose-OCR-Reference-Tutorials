@@ -1,0 +1,7 @@
+Title: Structured Text OCR in Python with Aspose – Complete Guide
+Slug: structured-text-ocr-in-python-with-aspose-complete-guide
+Category: general
+ProcessedDate: 2026-06-29T03:46:12.907986
+SourceRepo: AI Search API
+Keywords: structured text ocr, how to ocr image, ocr post processing, aspose ocr python, load image ocr
+PRNumber: 163

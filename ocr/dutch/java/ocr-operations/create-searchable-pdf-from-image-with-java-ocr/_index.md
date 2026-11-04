@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-05-06
+date: 2026-04-26
 description: Maak een doorzoekbare PDF van een afbeelding met Aspose OCR in Java.
-  Leer hoe je een afbeelding naar PDF converteert, spellingscorrectie inschakelt en
-  OCR‑GPU gebruikt voor snelle resultaten.
+  Leer hoe je een afbeelding naar PDF converteert, een afbeelding OCR't naar PDF,
+  en snel tekst uit een afbeelding haalt.
 draft: false
 keywords:
 - create searchable pdf
 - convert image to pdf
-- enable spell correction
-- use ocr gpu
-- process image ocr
+- ocr image to pdf
+- extract text from image
+- how to set language
 language: nl
-og_description: Maak een doorzoekbare PDF van een afbeelding met Aspose OCR in Java.
-  Deze gids laat zien hoe je een afbeelding naar PDF converteert, spellingscorrectie
-  inschakelt en OCR‑GPU gebruikt.
+og_description: Maak een doorzoekbare PDF van een afbeelding met Aspose OCR. Deze
+  gids laat zien hoe je een afbeelding naar PDF converteert, een afbeelding OCR't
+  naar PDF, en tekst uit een afbeelding extraheert.
 og_title: Maak doorzoekbare PDF van afbeelding met Java OCR
 tags:
-- OCR
 - Java
+- OCR
 - PDF
-title: Maak doorzoekbare PDF van afbeelding met Java OCR
+title: Maak een doorzoekbare PDF van een afbeelding met Java OCR
 url: /nl/java/ocr-operations/create-searchable-pdf-from-image-with-java-ocr/
 ---
 
@@ -28,198 +28,166 @@ url: /nl/java/ocr-operations/create-searchable-pdf-from-image-with-java-ocr/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Maak doorzoekbare PDF van afbeelding met Java OCR
+# Create searchable PDF from image with Java OCR
 
-Heb je ooit een **doorzoekbare PDF** moeten maken van een gescande foto, maar wist je niet waar je moest beginnen? Je bent niet de enige—de meeste ontwikkelaars lopen tegen die muur aan wanneer ze voor het eerst met op afbeeldingen gebaseerde PDF's werken. Gelukkig kun je met Aspose OCR for Java **afbeelding naar PDF converteren**, de tekst omzetten naar selecteerbare inhoud, en zelfs spellingscorrectie toevoegen voor een gepolijst resultaat.
+Heb je ooit een **create searchable PDF** moeten maken van een gescande factuur, maar wist je niet waar je moest beginnen? Je bent niet de enige—veel ontwikkelaars lopen tegen dit obstakel aan wanneer ze een PDF willen die je daadwerkelijk kunt doorzoeken. Het goede nieuws? Met Aspose OCR for Java kun je **convert image to PDF**, OCR on the fly uitvoeren, en eindigen met een nette doorzoekbare file in slechts een paar regels code.
 
-In deze tutorial lopen we stap voor stap door een compleet, kant‑klaar voorbeeld dat laat zien hoe je **OCR GPU** kunt gebruiken wanneer die beschikbaar is, hoe je **image OCR** efficiënt verwerkt, en waarom het inschakelen van spellingscorrectie belangrijk is voor downstream zoeken. Aan het einde heb je een één‑klik‑oplossing om een doorzoekbare PDF te genereren die je kunt distribueren naar gebruikers of archiveren voor compliance.
-
-> **Pro tip:** Als je op een machine zonder GPU werkt, valt de code netjes terug op CPU, zodat je niets hoeft te herschrijven.
-
----
+In deze tutorial lopen we het volledige proces door: een afbeelding laden, de engine vertellen welke taal verwacht wordt, OCR uitvoeren, en uiteindelijk een **searchable PDF** opslaan. Aan het einde weet je ook hoe je handmatig **extract text from image** kunt doen, taalinstellingen kunt aanpassen, en een paar veelvoorkomende randgevallen kunt afhandelen. Geen externe services, geen obscure command‑line tools—alleen pure Java.
 
 ## Wat je nodig hebt
 
-- **Java 8+** (de code compileert met JDK 8 en nieuwer)
-- **Aspose OCR for Java** bibliotheek (download de nieuwste JAR van de Aspose‑site)
-- Een **invoertekst afbeelding** (JPEG, PNG, TIFF, enz.) die je wilt omzetten naar een doorzoekbare PDF
-- (Optioneel) Een **GPU** met CUDA‑ondersteuning als je de snelste herkenning wilt
+- Java 17 of later (de API werkt ook met oudere releases, maar 17 is de ideale versie).  
+- Aspose OCR for Java library – je kunt de nieuwste JAR ophalen van Maven Central (`com.aspose:aspose-ocr:23.10`).  
+- Een afbeeldingsbestand dat leesbare tekst bevat (een PNG, JPG of TIFF werkt).  
+- Een beetje geduld met de IDE—IntelliJ IDEA of VS Code volstaat.
 
-Geen extra frameworks, geen Maven/Gradle‑toverkunst—slechts één JAR op de classpath en je bent klaar om te gaan.
+Als je deze al hebt, geweldig! Zo niet, dan zorgt het Maven‑fragment hieronder dat je snel aan de slag kunt:
 
----
+```xml
+<!-- Add to your pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.10</version>
+</dependency>
+```
 
-## Stap 1: Initialiseert de OCR‑engine – Het hart van het proces  
+Nu de basis gelegd is, laten we in de code duiken.
 
-Eerst maken we een `OcrEngine`‑instantie aan en wijzen we het bronbestand toe. Dit object is de werkpaard dat de afbeelding leest, het neurale netwerk draait, en ons de tekst teruggeeft.
+## Stap 1: Initialiseer de OCR-engine – het hart van **create searchable pdf**
+
+Voordat er een conversie plaatsvindt, moet je een `OcrEngine`‑instance maken. Beschouw het als het brein dat de pixels leest en ze omzet in tekens.
 
 ```java
 import com.aspose.ocr.*;
 
-public class QuickStart {
+public class PdfExportDemo {
     public static void main(String[] args) throws Exception {
-        // Initialise the OCR engine
+        // Step 1: Initialize the OCR engine
         OcrEngine ocrEngine = new OcrEngine();
-
-        // Load the image you want to convert
-        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/input.jpg"));
 ```
 
-*Waarom dit belangrijk is:* De engine één keer initialiseren en hergebruiken voorkomt de overhead van herhaaldelijk native libraries laden—een kleine prestatie‑winst die zich opstapelt wanneer je tientallen bestanden batch‑verwerkt.
+*Waarom dit belangrijk is:* De engine bevat alle herkenningsinstellingen (taal, nauwkeurigheidsmodus, enz.). Eenmalig instantiëren en hergebruiken voor meerdere afbeeldingen is efficiënter dan elke keer een nieuwe engine te maken voor elk bestand.
 
----
+## Stap 2: **How to set language** – verbeter de nauwkeurigheid voor Frans, Duits of elk script
 
-## Stap 2: Kies het verwerkingsapparaat – Gebruik OCR GPU wanneer mogelijk  
-
-Als je werkstation een compatibele GPU heeft, kun je Aspose laten draaien op die hardware. Anders schakelt de engine automatisch over naar CPU.
+Als je de taal van het brondocument kent, geef dit dan aan de OCR-engine. Dit versnelt de verwerking en vermindert foutieve herkenningen.
 
 ```java
-        // Prefer GPU; fall back to CPU if no compatible device is found
-        ocrEngine.getDevice().setDeviceType(OcrDeviceType.GPU);
+        // Step 2: (Optional) Specify the language to improve text extraction
+        ocrEngine.getRecognitionSettings().setLanguage(OcrLanguage.FRENCH);
 ```
 
-*Wat is het voordeel?* GPU‑versnelling kan seconden per pagina schelen, vooral bij scans met hoge resolutie. De fallback zorgt ervoor dat dezelfde code overal werkt, daarom raden we **use OCR GPU** als standaardinstelling aan.
+Je kunt `OcrLanguage.FRENCH` vervangen door `ENGLISH`, `SPANISH`, `GERMAN`, enz. Als je het niet zeker weet, laat de regel dan weg en laat Aspose raden—maar verwacht een lichte daling in nauwkeurigheid.
 
----
+## Stap 3: Laad de afbeelding die je wilt **convert image to pdf**
 
-## Stap 3: Versnel de scan – Maak gebruik van alle CPU‑kernen  
-
-Zelfs wanneer de GPU bezet is, kunnen de omliggende pre‑processing stappen parallel worden uitgevoerd. Het instellen van het aantal threads op het aantal beschikbare processors geeft de engine de kans om meerdere stukken tegelijk te verwerken.
+De `setImage`‑methode accepteert een bestandspad, `InputStream` of zelfs een `java.awt.Image`‑object. Als je een byte‑array hebt (bijvoorbeeld van een web‑upload), wikkel deze dan in een `ByteArrayInputStream` en geef hem direct door.
 
 ```java
-        // Use all logical cores for preprocessing and language detection
-        ocrEngine.setThreadCount(Runtime.getRuntime().availableProcessors());
+        // Step 3: Load the image that contains the text to be recognized
+        ocrEngine.setImage("YOUR_DIRECTORY/french_invoice.png");
 ```
 
-*Opmerking:* Op een laptop met 4 kernen start dit vier threads; op een workstation met 16 kernen profiteer je van het volledige potentieel. Houd er wel rekening mee dat meer threads meer geheugen verbruiken.
+## Stap 4: Voer OCR uit en **ocr image to pdf** in één oproep
 
----
-
-## Stap 4: Reinig de afbeelding – Pre‑processing filters  
-
-Een wazige of ruisende scan levert rommelige tekst op. Het toevoegen van een paar ingebouwde filters verbetert de nauwkeurigheid drastisch.
+Aspose maakt deze stap moeiteloos: `recognizeToPdf` draait de herkenningsengine en schrijft in één keer een doorzoekbare PDF.
 
 ```java
-        // Deskew the image so text lines are horizontal
-        ocrEngine.getPreprocessing().add(new DeskewFilter());
-
-        // Remove speckles and background noise
-        ocrEngine.getPreprocessing().add(new NoiseRemovalFilter());
+        // Step 4: Recognize the text and save it as a searchable PDF
+        ocrEngine.recognizeToPdf("YOUR_DIRECTORY/french_invoice_searchable.pdf");
 ```
 
-*Waarom deze filters?* `DeskewFilter` corrigeert rotatie die vaak optreedt wanneer een document scheef door een scanner wordt gevoerd. `NoiseRemovalFilter` verwijdert losse pixels die anders als tekens zouden worden geïnterpreteerd. Zie het als het geven van een schoon vel papier aan de OCR‑engine.
+Onder de motorkap maakt de bibliotheek een onzichtbare tekstlaag die uitgelijnd is met de oorspronkelijke afbeelding. Wanneer je het resulterende bestand opent in Adobe Reader, kun je een woord in het zoekvak typen en direct naar de bijbehorende locatie springen.
 
----
-
-## Stap 5: Schakel slimme functies in – Spellingscorrectie & automatische taaldetectie  
-
-Als je met meertalige documenten werkt, of gewoon minder typefouten wilt, zet dan de ingebouwde spellingscontrole aan en laat de engine de taal raden.
+## Stap 5: Verifieer het resultaat – hoe ziet de output eruit?
 
 ```java
-        // Activate spell correction to fix common OCR mistakes
-        ocrEngine.getSettings().setEnableSpellCorrection(true);
-
-        // Let the engine automatically detect the language of the input
-        ocrEngine.getSettings().setAutoDetectLanguage(true);
-```
-
-*Wanneer is dit nuttig?* Stel dat je scan zowel Engelse als Spaanse secties bevat. De auto‑detectie schakelt de juiste woordenboeken in, terwijl spellingscorrectie verkeerd gelezen tekens zoals “0” voor “O” opruimt. Deze stap is essentieel om een **doorzoekbare PDF** te produceren die daadwerkelijk correcte resultaten oplevert.
-
----
-
-## Stap 6: Sla het resultaat op – Converteer afbeelding naar PDF en maak het doorzoekbaar  
-
-Tot slot vragen we de engine om een PDF te schrijven waarin de originele afbeelding achter een onzichtbare tekstlaag zit. Dit is de klassieke **convert image to PDF** workflow, maar nu is de PDF doorzoekbaar.
-
-```java
-        // Generate a searchable PDF – the text layer sits behind the original image
-        ocrEngine.save("YOUR_DIRECTORY/output-searchable.pdf", OcrSaveFormat.PDF_SEARCHABLE);
-
-        System.out.println("Searchable PDF generated successfully.");
+        // Step 5: Inform the user that the PDF has been created
+        System.out.println("Searchable PDF generated.");
     }
 }
 ```
 
-Het uitvoerbestand (`output-searchable.pdf`) kan in elke PDF‑viewer worden geopend; je kunt de tekst selecteren, kopiëren en zoeken alsof het een native PDF is. Geen extra tools nodig.
+Voer het programma uit en open vervolgens `french_invoice_searchable.pdf`. Probeer te zoeken naar een woord waarvan je weet dat het in de factuur voorkomt (bijv. “Total”). Als de markering op de juiste plek terechtkomt, heb je succesvol **create searchable pdf** voltooid.  
+![Create searchable PDF example](example.png)<!-- alt text includes primary keyword -->
 
----
+### Expected output
 
-## Volledig werkend voorbeeld – Plak‑en‑run  
+```
+Searchable PDF generated.
+```
 
-Hieronder staat het volledige programma, klaar om te compileren. Vervang `YOUR_DIRECTORY` door de map die `input.jpg` bevat.
+En een PDF‑bestand in `YOUR_DIRECTORY` dat je kunt delen, indexeren of archiveren.
+
+## Stap 6: Haal ruwe tekst uit de afbeelding (optioneel)
+
+Soms heb je de platte tekst nodig voor verdere verwerking—misschien om een database te vullen of een sentimentanalyse uit te voeren. Aspose laat je de herkende tekst direct ophalen:
 
 ```java
-import com.aspose.ocr.*;
+        // Optional: Get the extracted text as a String
+        String extractedText = ocrEngine.getText();
+        System.out.println("Extracted text:");
+        System.out.println(extractedText);
+```
 
-public class QuickStart {
+Dit fragment toont **extract text from image** zonder een PDF te maken. Handig wanneer je alleen om de inhoud geeft, niet om de visuele lay-out.
+
+## Meerdere pagina's of afbeeldingen verwerken
+
+Wat als je bron een multi‑page TIFF of een map met JPEG's is? Je kunt over de bestanden itereren en `recognizeToPdf` voor elk aanroepen, en vervolgens de PDF's samenvoegen met Aspose PDF of een andere bibliotheek. Hier is een snel patroon:
+
+```java
+import java.io.File;
+import com.aspose.pdf.*;
+
+public class MultiPageDemo {
     public static void main(String[] args) throws Exception {
-        // Step 1: Create the OCR engine and load the source image
-        OcrEngine ocrEngine = new OcrEngine();
-        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/input.jpg"));
+        OcrEngine engine = new OcrEngine();
+        File folder = new File("YOUR_DIRECTORY/images");
+        Document finalDoc = new Document();
 
-        // Step 2: Select the processing device (GPU if available, otherwise CPU)
-        ocrEngine.getDevice().setDeviceType(OcrDeviceType.GPU);
-
-        // Step 3: Use all available CPU cores to speed up recognition
-        ocrEngine.setThreadCount(Runtime.getRuntime().availableProcessors());
-
-        // Step 4: Add preprocessing filters to improve image quality
-        ocrEngine.getPreprocessing().add(new DeskewFilter());
-        ocrEngine.getPreprocessing().add(new NoiseRemovalFilter());
-
-        // Step 5: Enable spell correction and automatic language detection
-        ocrEngine.getSettings().setEnableSpellCorrection(true);
-        ocrEngine.getSettings().setAutoDetectLanguage(true);
-
-        // Step 6: Perform OCR and save the result as a searchable PDF
-        ocrEngine.save("YOUR_DIRECTORY/output-searchable.pdf", OcrSaveFormat.PDF_SEARCHABLE);
-
-        System.out.println("Searchable PDF generated successfully.");
+        for (File img : folder.listFiles((d, n) -> n.matches(".*\\.(png|jpg|tif)"))) {
+            engine.setImage(img.getAbsolutePath());
+            // Save each page as a temporary PDF
+            String tempPdf = img.getName() + ".pdf";
+            engine.recognizeToPdf(tempPdf);
+            // Append to final document
+            Document pageDoc = new Document(tempPdf);
+            finalDoc.getPages().add(pageDoc.getPages().get_Item(1));
+        }
+        finalDoc.save("YOUR_DIRECTORY/combined_searchable.pdf");
+        System.out.println("All pages merged into searchable PDF.");
     }
 }
 ```
 
-**Verwachte output:** Wanneer je het programma uitvoert zie je de console‑regel *“Searchable PDF generated successfully.”* Het openen van `output-searchable.pdf` in Adobe Reader laat je een woord uit de originele afbeelding in het zoekvak typen en direct naar die locatie springen.
+**Pro tip:** Verwijder de tijdelijke PDF's na het samenvoegen om de werkomgeving netjes te houden.
+
+## Veelvoorkomende valkuilen en hoe ze te vermijden
+
+- **Low‑resolution images:** OCR‑nauwkeurigheid daalt drastisch onder 150 dpi. Upscale of vraag een scan met hogere resolutie aan indien mogelijk.  
+- **Skewed pages:** Een gedraaide afbeelding kan de engine verwarren. Gebruik `ocrEngine.getImagePreprocessingSettings().setDeskew(true)` om lichte scheefstand automatisch te corrigeren.  
+- **Unsupported language:** Zorg ervoor dat de door jou ingestelde taal is opgenomen in je Aspose OCR‑licentie; anders valt de engine terug op Engels.  
+- **Large files:** Het verwerken van een 30‑MB TIFF kan veel geheugen vergen. Overweeg om het op te splitsen in kleinere delen of het JVM‑heap te vergroten (`-Xmx2g`).
+
+## Volgende stappen – waar nu heen
+
+Nu je de basis van **create searchable pdf** onder de knie hebt, wil je misschien verkennen:
+
+- **Batch conversion:** Combineer het multi‑page‑patroon met een scheduler om binnenkomende scans 's nachts te verwerken.  
+- **Metadata injection:** Gebruik Aspose PDF om titel, auteur of aangepaste tags toe te voegen aan de doorzoekbare PDF.  
+- **Digital signatures:** Beveilig de PDF met een certificaat na OCR, zodat deze voldoet aan de eisen voor juridische documenten.  
+
+Al deze uitbreidingen bouwen nog steeds voort op de kernconcepten die we hebben behandeld: het initialiseren van de OCR-engine, optioneel de taal instellen, de afbeelding laden, en `recognizeToPdf` aanroepen.
 
 ---
 
-## Veelgestelde vragen & randgevallen  
+### TL;DR
 
-- **Wat als de GPU niet wordt gedetecteerd?**  
-  De aanroep `setDeviceType(OcrDeviceType.GPU)` gooit geen fout; hij instrueert de engine alleen om eerst de GPU te proberen. Als dat mislukt, valt de engine stilletjes terug op CPU.
+We hebben een volledig, uitvoerbaar voorbeeld doorgenomen dat laat zien hoe je een **create searchable PDF** maakt van een afbeelding met Aspose OCR for Java. De stappen omvatten het initialiseren van de engine, optioneel de taal instellen (antwoord op “how to set language”), de afbeelding laden, OCR uitvoeren, een doorzoekbare PDF opslaan, en optioneel platte tekst extraheren. We hebben ook het verwerken van meerdere pagina's, veelvoorkomende valkuilen en ideeën voor verdere automatisering behandeld.
 
-- **Kan ik meerdere afbeeldingen in één run verwerken?**  
-  Ja. Plaats de code in een lus, wijzig de bestandsnaam per iteratie, en hergebruik dezelfde `OcrEngine`‑instantie om het geheugenverbruik laag te houden.
-
-- **Mijn PDF is enorm—hoe verklein ik die?**  
-  Na OCR kun je Aspose’s PDF‑optimalisatie‑API’s gebruiken, of simpelweg de bronafbeelding verkleinen voordat je deze aan de engine geeft (`ImageStream.fromFile(...).setResolution(150)` voor 150 DPI).
-
-- **Ik moet de originele afbeeldingsresolutie behouden voor wettelijke compliance.**  
-  Het `PDF_SEARCHABLE`‑formaat behoudt de originele bitmap exact; de onzichtbare tekstlaag wordt er bovenop gelegd zonder de visuele kwaliteit te wijzigen.
-
----
-
-## Visuele samenvatting  
-
-![create searchable pdf example](placeholder-image.png "create searchable pdf example")
-
-*Alt‑tekst:* *create searchable pdf example – Java OCR engine turning a scanned JPG into a searchable PDF.*
-
----
-
-## Conclusie  
-
-Je hebt nu een **complete, end‑to‑end oplossing** om elke afbeelding om te zetten naar een **doorzoekbare PDF** met Aspose OCR for Java. Door **image to PDF** te **converteren**, **spellingscorrectie in te schakelen**, en **OCR GPU** te gebruiken wanneer mogelijk, krijg je snelle, nauwkeurige en doorzoekbare resultaten die op elk platform werken.
-
-Wat nu? Probeer te experimenteren met:
-
-- **Verschillende outputformaten** (`PDF`, `DOCX`, `HTML`) om te zien hoe de tekstlaag zich gedraagt.
-- **Aangepaste woordenboeken** als je domeinspecifieke terminologie verwerkt.
-- **Batchverwerking** om duizenden scans automatisch af te handelen.
-
-Voel je vrij om het aantal threads aan te passen, filters te wisselen, of je eigen pre‑processing pipeline toe te voegen. Het kernpatroon blijft hetzelfde: laden → pre‑processen → configureren → OCR → opslaan.
-
-Happy coding, en moge je PDF's altijd doorzoekbaar zijn!
+Probeer het met je eigen bonnetjes, contracten of handgeschreven notities—zet die statische afbeeldingen om in volledig doorzoekbare documenten in enkele seconden. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

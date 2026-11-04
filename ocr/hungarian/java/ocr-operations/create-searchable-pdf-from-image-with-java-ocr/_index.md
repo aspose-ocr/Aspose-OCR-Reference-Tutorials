@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-05-06
+date: 2026-04-26
 description: Készíts kereshető PDF-et egy képből az Aspose OCR Java használatával.
-  Tanulja meg, hogyan konvertálja a képet PDF-be, engedélyezze a helyesírási javítást,
-  és használja az OCR GPU-t a gyors eredményekért.
+  Tanulja meg, hogyan konvertáljon képet PDF-be, OCR-rel alakítsa a képet PDF-be,
+  és gyorsan nyerjen ki szöveget a képből.
 draft: false
 keywords:
 - create searchable pdf
 - convert image to pdf
-- enable spell correction
-- use ocr gpu
-- process image ocr
+- ocr image to pdf
+- extract text from image
+- how to set language
 language: hu
-og_description: Készítsen kereshető PDF-et egy képből az Aspose OCR Java használatával.
-  Ez az útmutató bemutatja, hogyan konvertálja a képet PDF-be, hogyan engedélyezze
-  a helyesírási javítást, és hogyan használja az OCR GPU-t.
-og_title: Készíts kereshető PDF-et képből Java OCR-rel
+og_description: Készítsen kereshető PDF-et egy képből az Aspose OCR segítségével.
+  Ez az útmutató bemutatja, hogyan konvertálhatja a képet PDF‑be, hogyan OCR‑zhatja
+  a képet PDF‑be, és hogyan nyerhet ki szöveget a képből.
+og_title: Kereshető PDF létrehozása képből Java OCR segítségével
 tags:
-- OCR
 - Java
+- OCR
 - PDF
 title: Kereshető PDF létrehozása képből Java OCR-rel
 url: /hu/java/ocr-operations/create-searchable-pdf-from-image-with-java-ocr/
@@ -30,176 +30,164 @@ url: /hu/java/ocr-operations/create-searchable-pdf-from-image-with-java-ocr/
 
 # Kereshető PDF létrehozása képből Java OCR-rel
 
-Valaha szükséged volt **kereshető PDF** létrehozására egy beolvasott képből, de nem tudtad, hol kezdj? Nem vagy egyedül – a legtöbb fejlesztő ezzel a problémával találkozik, amikor először foglalkozik képalapú PDF‑ekkel. Szerencsére az Aspose OCR for Java‑val **konvertálhatod a képet PDF‑be**, a szöveget választható tartalommá alakíthatod, és még helyesírási javítást is hozzáadhatsz a kifinomult eredményhez.
+Valaha szükséged volt **kereshető PDF** létrehozására egy beolvasott számlából, de nem tudtad, hol kezdjed? Nem vagy egyedül – sok fejlesztő szembesül ezzel a problémával, amikor olyan PDF-et szeretne, amelyben tényleg keresni lehet. A jó hír? Az Aspose OCR for Java-val **képet PDF‑re konvertálhatsz**, futtathatsz OCR-t menet közben, és néhány kódsorral egy rendezett kereshető fájlt kapsz.
 
-Ebben a bemutatóban egy teljes, azonnal futtatható példán keresztül mutatjuk be, hogyan **használhatod az OCR GPU‑t**, ha elérhető, hogyan **feldolgozhatod hatékonyan a képet OCR‑rel**, és miért fontos a helyesírási javítás engedélyezése a későbbi kereséshez. A végére egy egykattintásos megoldást kapsz, amellyel kereshető PDF‑et generálhatsz, amelyet felhasználóknak szállíthatsz vagy archiválhatsz megfelelőség céljából.
-
-> **Pro tipp:** Ha olyan gépen futtatod, amelynek nincs GPU-ja, a kód elegánsan visszatér a CPU‑ra, így nem kell semmit átírnod.
-
----
+Ebben az útmutatóban végigvezetünk a teljes folyamaton: kép betöltése, a motor tájékoztatása a várt nyelvről, OCR végrehajtása, és végül egy **kereshető PDF** mentése. A végére megtanulod, hogyan **extract text from image** manuálisan, hogyan állíthatod be a nyelvet, és hogyan kezelhetsz néhány gyakori edge case‑et. Nincs külső szolgáltatás, nincs rejtélyes parancssori eszköz – csak tiszta Java.
 
 ## Amire szükséged lesz
 
-- **Java 8+** (a kód JDK 8‑kal és újabb verziókkal fordítható)
-- **Aspose OCR for Java** könyvtár (töltsd le a legújabb JAR‑t az Aspose weboldaláról)
-- Egy **bemeneti kép** (JPEG, PNG, TIFF stb.), amelyet kereshető PDF‑é szeretnél alakítani
-- (Opcionális) **GPU** CUDA‑támogatással, ha a lehető leggyorsabb felismerést szeretnéd
+- Java 17 vagy újabb (az API régebbi kiadásokkal is működik, de a 17 a legoptimálisabb).  
+- Aspose OCR for Java könyvtár – a legújabb JAR‑t a Maven Central‑ból szerezheted be (`com.aspose:aspose-ocr:23.10`).  
+- Egy képfájl, amely olvasható szöveget tartalmaz (PNG, JPG vagy TIFF megfelelő).  
+- Egy kis adag IDE‑türelem – az IntelliJ IDEA vagy a VS Code megfelel.
 
-Nincs szükség extra keretrendszerekre, Maven/Gradle varázslatra – csak egy JAR a classpath‑on, és már indulhat a munka.
+Ha már megvannak ezek, nagyszerű! Ha nem, az alábbi Maven‑kódrészlet elindít:
 
-## 1. lépés: Az OCR motor inicializálása – A folyamat szíve  
+```xml
+<!-- Add to your pom.xml -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.10</version>
+</dependency>
+```
 
-Először létrehozunk egy `OcrEngine` példányt, és a forrásfájlra mutatunk. Ez az objektum a munkavégző, amely beolvassa a képet, futtatja a neurális hálót, és visszaadja a szöveget.
+Most, hogy az alapok megvannak, merüljünk el a kódban.
+
+## 1. lépés: Az OCR motor inicializálása – a **create searchable pdf** szíve
+
+Mielőtt bármilyen konverzió megtörténne, létre kell hoznod egy `OcrEngine` példányt. Gondolj rá úgy, mint egy agyra, amely a pixeleket karakterekké alakítja.
 
 ```java
 import com.aspose.ocr.*;
 
-public class QuickStart {
+public class PdfExportDemo {
     public static void main(String[] args) throws Exception {
-        // Initialise the OCR engine
+        // Step 1: Initialize the OCR engine
         OcrEngine ocrEngine = new OcrEngine();
-
-        // Load the image you want to convert
-        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/input.jpg"));
 ```
 
-*Miért fontos:* A motor egyszeri inicializálása és újrahasználata elkerüli a natív könyvtárak többszöri betöltésének költségét – egy apró teljesítményelőny, amely sok fájl kötegelt feldolgozásakor összeadódik.
+*Why this matters:* A motor tárolja az összes felismerési beállítást (nyelv, pontossági mód stb.). Egyszeri példányosítása és többszöri újrahasználata több képnél hatékonyabb, mint minden fájlhoz új motor létrehozása.
 
-## 2. lépés: A feldolgozó eszköz kiválasztása – Használd az OCR GPU‑t, ha lehetséges  
+## 2. lépés: **How to set language** – a pontosság javítása francia, német vagy bármely írásrendszer esetén
 
-Ha a munkaállomásod kompatibilis GPU‑val rendelkezik, megmondhatod az Aspose‑nak, hogy a nehéz feladatot arra bízza. Ellenkező esetben a motor automatikusan CPU‑ra vált.
+Ha ismered a forrásdokumentum nyelvét, add meg az OCR motor számára. Ez felgyorsítja a feldolgozást és csökkenti a hibás felismeréseket.
 
 ```java
-        // Prefer GPU; fall back to CPU if no compatible device is found
-        ocrEngine.getDevice().setDeviceType(OcrDeviceType.GPU);
+        // Step 2: (Optional) Specify the language to improve text extraction
+        ocrEngine.getRecognitionSettings().setLanguage(OcrLanguage.FRENCH);
 ```
 
-*Mi a haszon?* A GPU‑gyorsítás másodperceket spórolhat minden egyes oldalon, különösen nagy felbontású beolvasásoknál. A visszaesés biztosítja, hogy ugyanaz a kód mindenhol működjön, ezért ajánljuk a **use OCR GPU** beállítást alapértelmezettként.
+A `OcrLanguage.FRENCH` helyett használhatod az `ENGLISH`, `SPANISH`, `GERMAN` stb. értékeket. Ha nem vagy biztos, hagyd ki a sort, és hagyd, hogy az Aspose kitalálja – de számíts egy kis pontosságcsökkenésre.
 
-## 3. lépés: A beolvasás felgyorsítása – Használd ki az összes CPU magot  
+## 3. lépés: Töltsd be a képet, amelyet **convert image to pdf** szeretnél
 
-Még ha a GPU is le van terhelve, a környező előfeldolgozó lépések párhuzamosíthatók. A szálak számának beállítása a rendelkezésre álló processzorok számával lehetővé teszi, hogy a motor egyszerre több darabot dolgozzon fel.
+A `setImage` metódus elfogad fájlútvonalat, `InputStream`‑et vagy akár egy `java.awt.Image` objektumot is. Ha byte‑tömböd van (például egy webes feltöltésből), csomagold be egy `ByteArrayInputStream`‑be, és add át közvetlenül.
 
 ```java
-        // Use all logical cores for preprocessing and language detection
-        ocrEngine.setThreadCount(Runtime.getRuntime().availableProcessors());
+        // Step 3: Load the image that contains the text to be recognized
+        ocrEngine.setImage("YOUR_DIRECTORY/french_invoice.png");
 ```
 
-*Megjegyzés:* Egy 4‑magos laptop négy szálat indít; egy 16‑magos munkaállomás a teljes előnyt élvezi. Csak tartsd szem előtt, hogy több szál nagyobb memóriahasználatot jelent.
+## 4. lépés: OCR végrehajtása és **ocr image to pdf** egy hívásban
 
-## 4. lépés: A kép tisztítása – Előfeldolgozó szűrők  
-
-Egy homályos vagy zajos beolvasás szemét szöveget eredményez. Néhány beépített szűrő hozzáadása drámai módon javítja a pontosságot.
+Az Aspose ezt a lépést könnyűvé teszi: a `recognizeToPdf` lefuttatja a felismerő motort és egy lépésben egy kereshető PDF‑et ír ki.
 
 ```java
-        // Deskew the image so text lines are horizontal
-        ocrEngine.getPreprocessing().add(new DeskewFilter());
-
-        // Remove speckles and background noise
-        ocrEngine.getPreprocessing().add(new NoiseRemovalFilter());
+        // Step 4: Recognize the text and save it as a searchable PDF
+        ocrEngine.recognizeToPdf("YOUR_DIRECTORY/french_invoice_searchable.pdf");
 ```
 
-*Miért ezek a szűrők?* A `DeskewFilter` korrigálja a forgatást, amely gyakran előfordul, ha a dokumentumot szögben helyezik a szkennerbe. A `NoiseRemovalFilter` eltávolítja a szóró pixeleket, amelyek egyébként karakterként lennének értelmezve. Olyan, mintha a OCR motor egy tiszta papírlapra olvasna.
+A háttérben a könyvtár egy láthatatlan szövegréteget hoz létre, amely az eredeti képpel igazodik. Amikor megnyitod a kész fájlt az Adobe Readerben, beírhatsz egy szót a keresőmezőbe, és azonnal a megfelelő helyre ugrik.
 
-## 5. lépés: Okos funkciók bekapcsolása – Helyesírás-ellenőrzés és automatikus nyelvfelismerés engedélyezése  
-
-Ha többnyelvű dokumentumokkal dolgozol, vagy egyszerűen kevesebb hibát szeretnél, kapcsold be a beépített helyesírás-ellenőrzőt, és engedd, hogy a motor kitalálja a nyelvet.
+## 5. lépés: Az eredmény ellenőrzése – hogyan néz ki a kimenet?
 
 ```java
-        // Activate spell correction to fix common OCR mistakes
-        ocrEngine.getSettings().setEnableSpellCorrection(true);
-
-        // Let the engine automatically detect the language of the input
-        ocrEngine.getSettings().setAutoDetectLanguage(true);
-```
-
-*Mikor hasznos?* Tegyük fel, hogy a beolvasás tartalmaz angol és spanyol szakaszokat is. Az automatikus felismerés futás közben váltogatja a szótárakat, míg a helyesírás-ellenőrzés kijavítja a „0”‑t „O”‑ra hasonló hibákat. Ez a lépés elengedhetetlen egy **kereshető PDF** előállításához, amely valóban helyes eredményeket ad.
-
-## 6. lépés: Az eredmény mentése – Kép konvertálása PDF‑be és kereshetővé tétele  
-
-Végül megkérjük a motort, hogy írjon ki egy PDF‑et, ahol az eredeti kép egy láthatatlan szövegréteg mögött helyezkedik el. Ez a klasszikus **convert image to PDF** munkafolyamat, de a PDF most már kereshető.
-
-```java
-        // Generate a searchable PDF – the text layer sits behind the original image
-        ocrEngine.save("YOUR_DIRECTORY/output-searchable.pdf", OcrSaveFormat.PDF_SEARCHABLE);
-
-        System.out.println("Searchable PDF generated successfully.");
+        // Step 5: Inform the user that the PDF has been created
+        System.out.println("Searchable PDF generated.");
     }
 }
 ```
 
-A kimeneti fájl (`output-searchable.pdf`) bármely PDF‑olvasóval megnyitható; a szöveget kiválaszthatod, másolhatod és keresheted, mintha natív PDF‑ről lenne szó. Külön eszközök nem szükségesek.
+Futtasd a programot, majd nyisd meg a `french_invoice_searchable.pdf`‑t. Próbálj meg keresni egy olyan szót, amely biztosan szerepel a számlán (pl. „Total”). Ha a kiemelés a megfelelő helyen jelenik meg, sikeresen **create searchable pdf**‑t hoztál létre.  
+![Create searchable PDF example](example.png)<!-- alt text includes primary keyword -->
 
-## Teljes működő példa – Másolj és futtasd  
+### Várható kimenet
 
-Az alábbi kódrészlet a teljes program, készen áll a fordításra. Cseréld le a `YOUR_DIRECTORY`‑t arra a mappára, amelyik a `input.jpg`‑t tartalmazza.
+```
+Searchable PDF generated.
+```
+
+És egy PDF‑fájl a `YOUR_DIRECTORY`‑ben, amelyet megoszthatsz, indexelhetsz vagy archiválhatsz.
+
+## 6. lépés: Nyers szöveg kinyerése a képből (opcionális)
+
+Néha a tiszta szövegre van szükség további feldolgozáshoz – például adatbázisba való betöltéshez vagy érzelemelemzéshez. Az Aspose lehetővé teszi a felismert szöveg közvetlen lekérését:
 
 ```java
-import com.aspose.ocr.*;
+        // Optional: Get the extracted text as a String
+        String extractedText = ocrEngine.getText();
+        System.out.println("Extracted text:");
+        System.out.println(extractedText);
+```
 
-public class QuickStart {
+Ez a kódrészlet bemutatja a **extract text from image** műveletet PDF létrehozása nélkül. Hasznos, ha csak a tartalom érdekel, nem a vizuális elrendezés.
+
+## Több oldal vagy kép kezelése
+
+Mi van, ha a forrás egy többoldalas TIFF vagy JPEG‑ek mappája? Végig iterálhatsz a fájlokon, meghívhatod a `recognizeToPdf`‑et minden egyesre, majd összeolvashatod a PDF‑eket az Aspose PDF‑vel vagy bármely más könyvtárral. Íme egy gyors minta:
+
+```java
+import java.io.File;
+import com.aspose.pdf.*;
+
+public class MultiPageDemo {
     public static void main(String[] args) throws Exception {
-        // Step 1: Create the OCR engine and load the source image
-        OcrEngine ocrEngine = new OcrEngine();
-        ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/input.jpg"));
+        OcrEngine engine = new OcrEngine();
+        File folder = new File("YOUR_DIRECTORY/images");
+        Document finalDoc = new Document();
 
-        // Step 2: Select the processing device (GPU if available, otherwise CPU)
-        ocrEngine.getDevice().setDeviceType(OcrDeviceType.GPU);
-
-        // Step 3: Use all available CPU cores to speed up recognition
-        ocrEngine.setThreadCount(Runtime.getRuntime().availableProcessors());
-
-        // Step 4: Add preprocessing filters to improve image quality
-        ocrEngine.getPreprocessing().add(new DeskewFilter());
-        ocrEngine.getPreprocessing().add(new NoiseRemovalFilter());
-
-        // Step 5: Enable spell correction and automatic language detection
-        ocrEngine.getSettings().setEnableSpellCorrection(true);
-        ocrEngine.getSettings().setAutoDetectLanguage(true);
-
-        // Step 6: Perform OCR and save the result as a searchable PDF
-        ocrEngine.save("YOUR_DIRECTORY/output-searchable.pdf", OcrSaveFormat.PDF_SEARCHABLE);
-
-        System.out.println("Searchable PDF generated successfully.");
+        for (File img : folder.listFiles((d, n) -> n.matches(".*\\.(png|jpg|tif)"))) {
+            engine.setImage(img.getAbsolutePath());
+            // Save each page as a temporary PDF
+            String tempPdf = img.getName() + ".pdf";
+            engine.recognizeToPdf(tempPdf);
+            // Append to final document
+            Document pageDoc = new Document(tempPdf);
+            finalDoc.getPages().add(pageDoc.getPages().get_Item(1));
+        }
+        finalDoc.save("YOUR_DIRECTORY/combined_searchable.pdf");
+        System.out.println("All pages merged into searchable PDF.");
     }
 }
 ```
 
-**Várható kimenet:** A program futtatásakor a konzolon megjelenik a *„Searchable PDF generated successfully.”* sor. Az `output-searchable.pdf` megnyitása az Adobe Reader‑ben lehetővé teszi, hogy a képen lévő szóból beírj egy keresett kifejezést, és az azonnal a megfelelő helyre ugrik.
+**Pro tip:** A merge után töröld a temporális PDF‑eket, hogy a munkaterület tiszta maradjon.
 
-## Gyakori kérdések és szélsőséges esetek  
+## Gyakori buktatók és hogyan kerüld el őket
 
-- **Mi van, ha a GPU nem kerül felismerésre?**  
-  A `setDeviceType(OcrDeviceType.GPU)` hívás nem dob kivételt; csak azt utasítja a motort, hogy először próbálja meg a GPU‑t. Ha ez nem sikerül, a motor csendben visszatér a CPU‑ra.
+- **Low‑resolution images:** Az OCR pontossága drámaian csökken 150 dpi alatt. Ha lehetséges, növeld a felbontást vagy kérj nagyobb felbontású beolvasást.  
+- **Skewed pages:** Egy elforgatott kép összezavarhatja a motort. Használd a `ocrEngine.getImagePreprocessingSettings().setDeskew(true)`‑t a enyhe ferdeség automatikus korrigálásához.  
+- **Unsupported language:** Győződj meg róla, hogy a beállított nyelv szerepel az Aspose OCR licencben; különben a motor visszaesik angolra.  
+- **Large files:** Egy 30 MB-os TIFF feldolgozása memóriaigényes lehet. Fontold meg a fájl kisebb darabokra bontását vagy a JVM heap növelését (`-Xmx2g`).
 
-- **Feldolgozhatok több képet egy futtatás során?**  
-  Igen. A kódot egy ciklusba helyezheted, minden iterációban megváltoztatva a fájlnevet, és ugyanazt az `OcrEngine` példányt újrahasználva alacsony memóriaigény mellett.
+## Következő lépések – merre tovább
 
-- **A PDF‑em hatalmas – hogyan tudom lecsökkenteni?**  
-  OCR után használhatod az Aspose PDF optimalizáló API‑kat, vagy egyszerűen lecsökkentheted a forráskép felbontását a motorba való betáplálás előtt (`ImageStream.fromFile(...).setResolution(150)` 150 DPI‑ra).
+Most, hogy elsajátítottad a **create searchable pdf** alapjait, érdemes lehet:
 
-- **Meg kell őriznem az eredeti kép felbontását jogi megfelelés miatt.**  
-  A `PDF_SEARCHABLE` formátum pontosan megőrzi az eredeti bitmapet; a láthatatlan szövegréteg felül kerül anélkül, hogy a vizuális minőséget befolyásolná.
+- **Batch conversion:** Kombináld a többoldalas mintát egy ütemezővel, hogy éjszakánként feldolgozza a bejövő beolvasásokat.  
+- **Metadata injection:** Használd az Aspose PDF‑t cím, szerző vagy egyedi címkék hozzáadásához a kereshető PDF‑hez.  
+- **Digital signatures:** Az OCR után tanúsítvánnyal biztosítsd a PDF‑et, ezzel megfelelve a jogi dokumentumok előírásainak.  
 
-## Vizuális összefoglaló  
+Mindezek a kiterjesztések továbbra is az általunk lefedett alapfogalmakra épülnek: az OCR motor inicializálása, opcionális nyelvbeállítás, kép betöltése és a `recognizeToPdf` meghívása.
 
-![create searchable pdf example](placeholder-image.png "create searchable pdf example")
+---
 
-*Alt szöveg:* *kereshető pdf példa – Java OCR motor, amely egy beolvasott JPG‑t kereshető PDF‑vé alakít.*
+### TL;DR
 
-## Következtetés  
+Egy teljes, futtatható példán keresztül bemutattuk, hogyan **create searchable PDF** készíthető egy képből az Aspose OCR for Java használatával. A lépések: motor inicializálása, opcionális nyelv beállítása (a “how to set language” kérdésre válaszolva), kép betöltése, OCR végrehajtása, kereshető PDF mentése, és opcionálisan a tiszta szöveg kinyerése. Kitértünk többoldalas kezelést, gyakori buktatókat és ötleteket a további automatizáláshoz.
 
-Most már rendelkezel egy **teljes, vég‑től‑végig megoldással**, amely bármely képet **kereshető PDF‑vé** alakít az Aspose OCR for Java segítségével. A **kép konvertálása PDF‑be**, a **helyesírás-ellenőrzés engedélyezése** és a **OCR GPU használata** (ha lehetséges) gyors, pontos és kereshető eredményeket biztosít, amelyek platformfüggetlenül működnek.
-
-Mi a következő? Próbálj ki:
-
-- **Különböző kimeneti formátumokat** (`PDF`, `DOCX`, `HTML`), hogy lásd, hogyan viselkedik a szövegréteg.
-- **Egyedi szótárakat**, ha domain‑specifikus zsargont dolgozol fel.
-- **Kötegelt feldolgozást**, hogy automatikusan több ezer beolvasást kezelj.
-
-Nyugodtan módosítsd a szálak számát, cseréld ki a szűrőket, vagy építs be saját előfeldolgozó csővezetékedet. A fő minta változatlan marad: betöltés → előfeldolgozás → konfigurálás → OCR → mentés.
-
-Boldog kódolást, és legyenek a PDF‑jeid mindig kereshetők!
+Próbáld ki saját nyugtáiddal, szerződéseiddel vagy kézírásos jegyzeteiddel – alakítsd át ezeket a statikus képeket teljesen kereshető dokumentumokká néhány másodperc alatt. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

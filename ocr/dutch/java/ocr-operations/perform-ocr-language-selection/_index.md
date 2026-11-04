@@ -10,19 +10,13 @@ url: /nl/java/ocr-operations/perform-ocr-language-selection/
 weight: 11
 ---
 
-02-12" keep same.
 
-"**Tested With:** Aspose.OCR 24.11 for Java" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode unchanged.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: Create OCR Engine in C# – Complete Guide
+Slug: create-ocr-engine-in-c-complete-guide
+Category: ocr-configuration
+ProcessedDate: 2026-05-25T11:40:37.948687
+SourceRepo: AI Search API
+Keywords: create ocr engine
+PRNumber: 131

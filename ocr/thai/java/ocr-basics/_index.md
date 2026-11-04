@@ -100,6 +100,27 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เพิ่มความแม่นยำของ OCR ด้วย Aspose.OCR for Java เรียนรู้การคำนวณมุมเอียงแบบละเอียด ปรับปรุงการประมวลผลเอกสารได้อย่างง่ายดาย
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
+### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [สกัดข้อความจากภาพ – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
+
+### [ข้อความจากภาพใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+คู่มือฉบับสมบูรณ์สำหรับการอ่านข้อความจากภาพใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสูง
+### [รับข้อความ OCR ใน Java – ตัวอย่าง Aspose OCR ฉบับสมบูรณ์](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+ตัวอย่างเต็มขั้นตอนการดึงข้อความ OCR ใน Java ด้วย Aspose OCR ตั้งแต่การตั้งค่าไปจนถึงการประมวลผลขั้นสุด
+### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
+เรียนรู้วิธีเปิดใช้งาน OCR ใน Java อย่างละเอียด ด้วยขั้นตอนที่ชัดเจนเพื่อเริ่มต้นการจดจำข้อความ
+### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+เรียนรู้วิธีสกัดข้อความภาษาตามิลจากรูปภาพด้วย Aspose OCR อย่างละเอียด
+### [สกัดข้อความจากภาพใน Java – ตัวอย่าง OCR ครบถ้วน](./extract-text-from-image-in-java-complete-ocr-example/)
+
+### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ Java อย่างรวดเร็ว](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+### [สกัดข้อความจากภาพใน Java – บทเรียน OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ภาพด้วย Aspose.OCR ใน Java อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับปรุงความแม่นยำ
+### [ทำ OCR บนรูปภาพใน Java – สกัดข้อความจาก JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+ทำ OCR บนไฟล์ JPG ด้วย Java ใช้ Aspose.OCR เพื่อสกัดข้อความจากรูปภาพอย่างแม่นยำ
+### [จดจำข้อความจากภาพใน Java – คู่มือ OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+เรียนรู้ขั้นตอนเต็มรูปแบบในการใช้ Aspose.OCR กับ Java เพื่อจดจำข้อความจากภาพอย่างแม่นยำและปรับแต่งการทำงาน
 
 ---
 

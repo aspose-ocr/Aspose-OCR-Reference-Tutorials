@@ -1,7 +1,7 @@
 ---
-date: 2025-12-21
+date: 2026-02-25
 description: Dowiedz się, jak wyodrębniać tekst z obrazów przy użyciu Aspose.OCR dla
-  .NET, umożliwiając rozpoznawanie obrazów OCR oparte na folderze.
+  .NET, umożliwiając rozpoznawanie OCR obrazów w oparciu o foldery.
 linktitle: OCROperation with Folder in OCR Image Recognition
 second_title: Aspose.OCR .NET API
 title: Wyodrębnij tekst z obrazów przy użyciu operacji OCR na folderach
@@ -15,36 +15,43 @@ weight: 11
 
 # Wyodrębnianie tekstu z obrazów przy użyciu operacji OCR na folderach
 
-## Wprowadzenie
+## Introduction
 
-Witamy w świecie Rozpoznawania Znaków Optycznych (OCR) z **Aspose.OCR for .NET**! Jeśli potrzebujesz **wyodrębnić tekst z obrazów** masowo — na przykład z całego folderu zeskanowanych dokumentów — ten tutorial przeprowadzi Cię przez praktyczne, rzeczywiste rozwiązanie. Omówimy wszystko, od konfiguracji projektu po wypisanie rozpoznanego tekstu, abyś mógł szybko zintegrować OCR oparty na folderach w swoich aplikacjach C#.
+Witamy w świecie rozpoznawania znaków optycznych (OCR) z **Aspose.OCR for .NET**! Jeśli potrzebujesz **wyodrębnić tekst z obrazów** masowo — na przykład całego folderu zeskanowanych dokumentów — ten samouczek poprowadzi Cię przez praktyczne, rzeczywiste rozwiązanie. Omówimy wszystko, od konfiguracji projektu po wypisanie rozpoznanego tekstu, abyś mógł szybko zintegrować OCR oparty na folderach w swoich aplikacjach C#. Na koniec zobaczysz, jak to podejście pozwala **konwertować obrazy na tekst**, **wyodrębniać tekst ze zeskanowanych dokumentów** oraz **czytać tekst z obrazu w C#** przy użyciu kilku linijek kodu.
 
-## Szybkie odpowiedzi
-- **Co uczy ten tutorial?** Jak wyodrębnić tekst z obrazów przechowywanych w folderze przy użyciu Aspose.OCR.  
-- **Jakie języki i platforma?** C# z .NET (Framework lub .NET Core).  
-- **Kluczowy wymóg?** Biblioteka Aspose.OCR for .NET (link do pobrania poniżej).  
-- **Ile linii kodu?** Tylko siedem zwięzłych bloków kodu.  
-- **Czy mogę konwertować obrazy na tekst?** Tak — ten przykład dokładnie to pokazuje.
+## Quick Answers
+- **What does this tutorial teach?** How to extract text from images stored in a folder using Aspose.OCR.  
+- **Which language & platform?** C# with .NET (Framework or .NET Core).  
+- **Key prerequisite?** Aspose.OCR for .NET library (download link below).  
+- **How many lines of code?** Only seven concise code blocks.  
+- **Can I convert images to text?** Yes—this example shows exactly that.
 
-## Co to jest „wyodrębnianie tekstu z obrazów”?
-Wyodrębnianie tekstu z obrazów oznacza użycie technologii OCR do odczytania znaków osadzonych w zdjęciach, plikach PDF lub zeskanowanych dokumentach i przekształcenia ich w edytowalne, przeszukiwalne ciągi znaków. Aspose.OCR dostarcza solidny silnik, który obsługuje wiele formatów obrazów i języków.
+## What is “extract text from images”?
 
-## Dlaczego używać Aspose.OCR do OCR opartego na folderach?
-- **Wysoka dokładność** dzięki wbudowanemu wykrywaniu języka.  
-- **Przetwarzanie wsadowe** za pomocą `RecognizeMultipleImages`, idealne dla folderów.  
-- **Proste API**, które naturalnie pasuje do projektów C#.  
-- **Skalowalne** – działa zarówno na komputerach stacjonarnych, jak i w środowiskach serwerowych.
+Wyodrębnianie tekstu z obrazów oznacza użycie technologii OCR do odczytania znaków osadzonych w zdjęciach, plikach PDF lub zeskanowanych dokumentach i przekształcenia ich w edytowalne, przeszukiwalne ciągi znaków. Aspose.OCR dostarcza solidny silnik obsługujący wiele formatów obrazów i języków.
 
-## Wymagania wstępne
+## Why use Aspose.OCR for folder‑based OCR?
+- **High accuracy** with built‑in language detection.  
+- **Batch processing** via `RecognizeMultipleImages`, perfect for folders.  
+- **Simple API** that fits naturally into C# projects.  
+- **Scalable** – works on both desktop and server environments.
 
-- Podstawowa biegłość w programowaniu w C# i .NET.  
-- Visual Studio (dowolna aktualna edycja).  
-- **Biblioteka Aspose.OCR for .NET** – pobierz ją [tutaj](https://releases.aspose.com/ocr/net/).  
-- Zrozumienie koncepcji OCR (opcjonalne, ale pomocne).
+## Common Use Cases
+- Digitalizacja biblioteki zeskanowanych faktur lub paragonów.  
+- Konwersja archiwalnych plików PNG/JPEG na tekst przeszukiwalny w celu indeksacji.  
+- Automatyzacja wprowadzania danych poprzez odczyt tekstu z etykiet produktów.  
+- Tworzenie funkcji wyszukiwania w dokumentach, która wymaga **extract text scanned documents** w czasie rzeczywistym.
 
-## Importowanie przestrzeni nazw
+## Prerequisites
 
-Dodaj wymagane dyrektywy `using` na początku pliku C#, aby kompilator wiedział, gdzie znaleźć klasy OCR.
+- Basic proficiency in C# and .NET development.  
+- Visual Studio (any recent edition).  
+- **Aspose.OCR for .NET** library – download it [here](https://releases.aspose.com/ocr/net/).  
+- An understanding of OCR concepts (optional but helpful).
+
+## Import Namespaces
+
+Add the required `using` directives at the top of your C# file so the compiler knows where to find the OCR classes.
 
 ```csharp
 using System;
@@ -54,10 +61,10 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Przewodnik krok po kroku
+## Step‑by‑Step Guide
 
-### Krok 1: Ustaw katalog dokumentów
-Zdefiniuj folder, w którym znajdują się obrazy do przetworzenia.
+### Step 1: Set Document Directory
+Define the folder that holds the images you want to process.
 
 ```csharp
 // ExStart:1   
@@ -65,28 +72,28 @@ Zdefiniuj folder, w którym znajdują się obrazy do przetworzenia.
 string dataDir = "Your Document Directory";
 ```
 
-> **Pro tip:** Używaj ścieżki bezwzględnej lub `Path.Combine`, aby uniknąć problemów z separatorem ścieżek na różnych systemach operacyjnych.
+> **Pro tip:** Use an absolute path or `Path.Combine` to avoid path‑separator issues on different OSes.
 
-### Krok 2: Zainicjalizuj Aspose.OCR
-Utwórz instancję silnika OCR.
+### Step 2: Initialize Aspose.OCR
+Create an instance of the OCR engine.
 
 ```csharp
 // Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-### Krok 3: Określ ścieżkę do obrazów
-Wskaż API konkretny podfolder zawierający pliki obrazów.
+### Step 3: Specify Image Path
+Point the API to the specific sub‑folder that contains your image files.
 
 ```csharp
 // Image Path
 string fullPath = dataDir + "OCR";
 ```
 
-> **Why this matters:** Metoda `RecognizeMultipleImages` oczekuje ścieżki do folderu, a nie do pojedynczego pliku.
+> **Why this matters:** The `RecognizeMultipleImages` method expects a folder path, not a single file.
 
-### Krok 4: Rozpoznaj obrazy
-Uruchom OCR na każdym obrazie w folderze. Możesz dostosować `RecognitionSettings`, jeśli potrzebujesz podpowiedzi językowych lub specyficznego przetwarzania wstępnego.
+### Step 4: Recognize Images
+Run OCR on every image inside the folder. You can customize `RecognitionSettings` if you need language hints or specific preprocessing.
 
 ```csharp
 // Recognize image           
@@ -96,8 +103,8 @@ RecognitionResult[] result = api.RecognizeMultipleImages(fullPath, new Recogniti
 });
 ```
 
-### Krok 5: Wypisz wyniki
-Iteruj po zwróconej tablicy `RecognitionResult` i wypisz wyodrębniony tekst.
+### Step 5: Print Results
+Iterate through the returned `RecognitionResult` array and output the extracted text.
 
 ```csharp
 // Print result
@@ -107,46 +114,53 @@ for (int i = 0; i < result.Length; i++)
 }
 ```
 
-> **Common pitfall:** Zapomnienie o sprawdzeniu `result.Length` może spowodować `IndexOutOfRangeException`, gdy folder jest pusty. Zawsze najpierw waliduj zawartość folderu.
+> **Common pitfall:** Forgetting to check `result.Length` can cause an `IndexOutOfRangeException` when the folder is empty. Always validate the folder content first.
 
-### Krok 6: Komunikat zakończenia
-Zasygnalizuj pomyślne wykonanie.
+### Step 6: Completion Message
+Signal successful execution.
 
 ```csharp
 // ExEnd:1
 Console.WriteLine("OCROperationWithFolder executed successfully");
 ```
 
-## Częste problemy i rozwiązania
+## Tips and Best Practices
 
-| Problem | Przyczyna | Rozwiązanie |
-|---------|-----------|-------------|
-| Brak zwróconego wyniku | Nieprawidłowa lub pusta ścieżka folderu | Zweryfikuj, że `fullPath` wskazuje właściwy katalog i zawiera obsługiwane formaty obrazów (PNG, JPEG, TIFF). |
-| Zniekształcone znaki | Nieprawidłowe ustawienia języka | Przekaż skonfigurowane `RecognitionSettings` z właściwym kodem ISO w polu `Language`. |
-| Opóźnienia przy dużej liczbie obrazów | Przetwarzanie sekwencyjne w wątku UI | Uruchom OCR w tle lub użyj wzorców async, aby UI pozostało responsywne. |
+- **Batch size:** If you are processing thousands of files, consider splitting the folder into smaller batches to keep memory usage predictable.  
+- **Language hints:** Supplying the correct language code in `RecognitionSettings` dramatically improves accuracy, especially for non‑Latin scripts.  
+- **Async processing:** Wrap the OCR call in a `Task.Run` or use async/await to keep UI threads responsive.  
+- **File validation:** Before calling `RecognizeMultipleImages`, filter the directory for supported extensions (`.png`, `.jpg`, `.jpeg`, `.tif`, `.tiff`).  
 
-## Najczęściej zadawane pytania
+## Common Issues & Solutions
 
-**Q: Czy mogę używać Aspose.OCR for .NET w projektach komercyjnych?**  
-A: Tak, Aspose.OCR for .NET jest produktem komercyjnym. Informacje o licencjonowaniu znajdziesz [tutaj](https://purchase.aspose.com/buy).
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| No output returned | Folder path incorrect or empty | Verify `fullPath` points to the right directory and contains supported image formats (PNG, JPEG, TIFF). |
+| Garbled characters | Wrong language settings | Pass a configured `RecognitionSettings` with `Language` set to the appropriate ISO code. |
+| Performance lag on many images | Processing sequentially on UI thread | Run OCR on a background thread or use async patterns to keep the UI responsive. |
 
-**Q: Czy dostępna jest darmowa wersja próbna?**  
-A: Tak, darmową wersję próbną możesz przetestować [tutaj](https://releases.aspose.com/).
+## Frequently Asked Questions
 
-**Q: Gdzie mogę znaleźć dokumentację?**  
-A: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/ocr/net/).
+**Q: Can I use Aspose.OCR for .NET in commercial projects?**  
+A: Yes, Aspose.OCR for .NET is a commercial product. For licensing information, visit [here](https://purchase.aspose.com/buy).
 
-**Q: Jak uzyskać tymczasową licencję?**  
-A: Tymczasowe licencje można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+**Q: Is there a free trial available?**  
+A: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
-**Q: Potrzebuję wsparcia lub mam pytania?**  
-A: Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) dla wsparcia społeczności.
+**Q: Where can I find the documentation?**  
+A: The documentation is available [here](https://reference.aspose.com/ocr/net/).
+
+**Q: How can I get temporary licensing?**  
+A: Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+
+**Q: Need support or have questions?**  
+A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community support.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-21  
-**Testowano z:** Aspose.OCR 24.11 for .NET  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
