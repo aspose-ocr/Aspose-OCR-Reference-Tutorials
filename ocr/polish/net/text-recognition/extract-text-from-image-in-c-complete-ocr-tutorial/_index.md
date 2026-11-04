@@ -1,62 +1,26 @@
 ---
 category: general
-date: 2026-06-06
-description: Wyodrębnij tekst z obrazu przy użyciu OCR w C#. Dowiedz się, jak załadować
-  obraz do OCR, rozpoznać zeskanowany dokument i uzyskać dokładne wyniki w kilka minut.
+date: 2026-05-06
+description: Wyodrębnij tekst z obrazu przy użyciu Aspose OCR z obsługą GPU. Dowiedz
+  się, jak szybko wyodrębniać tekst w samouczku OCR w C#, który obejmuje konfigurację,
+  kod i najlepsze praktyki.
 draft: false
 keywords:
 - extract text from image
-- load image for OCR
-- recognize scanned document
-- c# OCR tutorial
+- how to extract text
+- c# ocr tutorial
+- Aspose OCR GPU
+- C# image processing
 language: pl
-og_description: Wyodrębnij tekst z obrazu za pomocą C#. Ten samouczek pokazuje, jak
-  wczytać obraz do OCR, rozpoznać zeskanowany dokument i opanować tutorial OCR w C#
-  krok po kroku.
-og_title: Wyodrębnianie tekstu z obrazu w C# – Pełny przewodnik po OCR
-schemas:
-- author: Aspose
-  dateModified: '2026-06-06'
-  description: Extract text from image using C# OCR. Learn how to load image for OCR,
-    recognize scanned document, and get accurate results in minutes.
-  headline: Extract Text from Image in C# – Complete OCR Tutorial
-  type: TechArticle
-- description: Extract text from image using C# OCR. Learn how to load image for OCR,
-    recognize scanned document, and get accurate results in minutes.
-  name: Extract Text from Image in C# – Complete OCR Tutorial
-  steps:
-  - name: Save the code as `Program.cs` inside a new console project.
-    text: Save the code as `Program.cs` inside a new console project.
-  - name: Open a terminal at the project root.
-    text: Open a terminal at the project root.
-  - name: Run `dotnet add package Aspose.OCR` (if you haven’t already).
-    text: Run `dotnet add package Aspose.OCR` (if you haven’t already).
-  - name: 'Build and execute:'
-    text: 'Build and execute:'
-  type: HowTo
-- questions:
-  - answer: Yes—most OCR libraries let you load a PDF page as an image stream or expose
-      a `PdfDocument` API. Convert each page to an image first, then follow the same
-      steps.
-    question: Can I process PDFs directly?
-  - answer: The `ImageStream.FromFile` method supports JPEG, PNG, BMP, and TIFF out
-      of the box. No extra conversion required.
-    question: What if my image is in PNG format?
-  - answer: Handwriting is a tougher nut to crack. Look for a library that offers
-      a “handwriting” model, or pre‑process the image with binarization and noise
-      removal before feeding it to the engine.
-    question: How do I improve accuracy for handwritten notes?
-  - answer: 'Absolutely. Most engines expose a `Rect` or `Region` property where you
-      can limit OCR to a bounding box—great for forms with fixed fields. --- ## Next
-      Steps & Related Topics Now that you’ve mastered the basics of **extract text
-      from image** with a **c# OCR tutorial**, consider exploring: - **Batch p'
-    question: Is there a way to extract text in a specific region?
-  type: FAQPage
+og_description: Wyodrębnij tekst z obrazu za pomocą Aspose OCR w C#. Ten przewodnik
+  pokazuje, jak szybko wyodrębniać tekst przy użyciu przyspieszenia GPU oraz odpowiada,
+  jak wyodrębniać tekst krok po kroku.
+og_title: Wyodrębnianie tekstu z obrazu w C# – Kompletny poradnik OCR
 tags:
 - OCR
 - C#
-- Image Processing
-title: Wyodrębnianie tekstu z obrazu w C# – Kompletny poradnik OCR
+- Aspose
+title: Wyodrębnianie tekstu z obrazu w C# – Kompletny samouczek OCR
 url: /pl/net/text-recognition/extract-text-from-image-in-c-complete-ocr-tutorial/
 ---
 
@@ -66,127 +30,117 @@ url: /pl/net/text-recognition/extract-text-from-image-in-c-complete-ocr-tutorial
 
 # Wyodrębnianie tekstu z obrazu w C# – Kompletny samouczek OCR
 
-Zastanawiałeś się kiedyś, jak **wyodrębnić tekst z obrazu** przy użyciu zaledwie kilku linii C#? Nie jesteś sam. Wielu programistów napotyka problem, gdy muszą wyciągnąć słowa z zaszumionego, pochyłego skanu, a tradycyjne triki „kopiuj‑wklej” po prostu nie działają.  
+Czy kiedykolwiek potrzebowałeś **wyodrębnić tekst z obrazu**, ale nie byłeś pewien, która biblioteka zapewni Ci szybkość *i* dokładność? Nie jesteś sam — wielu programistów napotyka ten problem przy budowaniu pipeline'ów do digitalizacji dokumentów. Dobra wiadomość? Z Aspose OCR możesz wyciągnąć tekst z praktycznie dowolnego bitmapa, a przy kilku linijkach kodu będziesz mieć przyspieszenie GPU działające w tle.
 
-W tym przewodniku przeprowadzimy Cię przez praktyczny **c# OCR tutorial**, który pokaże, jak **load image for OCR**, włączyć inteligentne przetwarzanie wstępne i w końcu **recognize scanned document** z krystaliczną precyzją. Po zakończeniu będziesz mieć działający program, który możesz wstawić do dowolnego projektu .NET.
+W tym **samouczku OCR w C#** przejdziemy przez wszystko, co musisz wiedzieć: od instalacji pakietu NuGet, konfiguracji trybu GPU, po obsługę wielostronicowych plików TIFF. Po zakończeniu będziesz w stanie pewnie odpowiedzieć na klasyczne pytanie „jak wyodrębnić tekst”, a także będziesz mieć gotowy przykład, który możesz wkleić do dowolnego projektu .NET.
 
-## Co obejmuje ten samouczek
+## Czego się nauczysz
 
-- Instalacja pakietu NuGet Aspose.OCR (lub kompatybilnego)  
-- Tworzenie i konfigurowanie instancji silnika OCR  
-- **Load image for OCR** – obsługa ścieżek plików, strumieni i typowych pułapek  
-- Włączenie automatycznego przetwarzania wstępnego w celu korekcji pochylenia, odszumienia i problemów z kontrastem  
-- **Recognize scanned document** – pobieranie wyniku w postaci zwykłego tekstu  
-- Pełny kod źródłowy, który możesz skopiować‑wkleić i uruchomić od razu  
+- Dokładne kroki **jak wyodrębnić tekst** z pliku obrazu przy użyciu Aspose OCR.  
+- Jak włączyć przyspieszenie GPU dla ogromnych zysków wydajnościowych.  
+- Typowe pułapki (np. brak sterowników CUDA) i szybkie rozwiązania.  
+- Sposoby rozszerzenia rozwiązania o przetwarzanie wsadowe lub różne formaty obrazów.
 
-Wcześniejsze doświadczenie z OCR nie jest wymagane; wystarczy podstawowa znajomość C# i Visual Studio (lub ulubionego IDE).  
-
-> **Dlaczego to ważne?** Automatyzacja wyodrębniania tekstu otwiera drzwi do przetwarzania faktur, przeszukiwalnych PDF‑ów, redukcji wprowadzania danych, a nawet zestawów danych gotowych dla AI.  
-
-![extract text from image using C# OCR](/images/extract-text-from-image-csharp.png "extract text from image")
+> **Pro tip:** Jeśli pracujesz na maszynie deweloperskiej bez dedykowanego GPU, możesz nadal uruchamiać kod w trybie CPU — po prostu ustaw `UseGpu = false`. Reszta samouczka pozostaje bez zmian.
 
 ## Wymagania wstępne
 
-- .NET 6.0 SDK lub nowszy (kod działa również z .NET Framework 4.8)  
-- Visual Studio 2022 (edycja Community działa bez problemu)  
-- Pakiet NuGet `Aspose.OCR` (lub dowolna biblioteka udostępniająca `OcrEngine`, `OcrResult` itd.)  
+| Wymaganie | Dlaczego jest ważne |
+|-----------|----------------------|
+| .NET 6.0 lub nowszy (lub .NET Framework 4.7.2+) | Aspose OCR celuje w nowoczesne środowiska uruchomieniowe. |
+| Visual Studio 2022 (lub dowolne IDE, które preferujesz) | Przydatne do debugowania i integracji z NuGet. |
+| NVIDIA GPU z CUDA 11+ (opcjonalne, ale zalecane) | Wymagane dla ustawienia `UseGpu = true`. |
+| Pakiet NuGet Aspose.OCR (`Aspose.OCR` i `Aspose.OCR.Gpu`) | Dostarcza silnik OCR oraz wsparcie GPU. |
 
-Jeśli nie zainstalowałeś jeszcze pakietu, uruchom:
+Jeśli którekolwiek z powyższych brakuje, zobaczysz błędy kompilacji lub wyjątki w czasie wykonywania — nie panikuj, samouczek wyjaśnia, jak się z tym uporać.
+
+## Krok 1: Zainstaluj pakiety Aspose OCR
+
+Otwórz folder projektu w terminalu i uruchom:
 
 ```bash
 dotnet add package Aspose.OCR
+dotnet add package Aspose.OCR.Gpu
 ```
 
-To pojedyncze polecenie pobiera wszystkie natywne biblioteki potrzebne do wysokowydajnego OCR.
+Te dwa pakiety dostarczają podstawową funkcjonalność OCR oraz opcjonalną warstwę przyspieszenia GPU. Po instalacji zobaczysz odwołania do zestawów w pliku `.csproj`.
 
----
+## Krok 2: Skonfiguruj ustawienia OCR dla GPU
 
-## Krok 1: Utwórz instancję silnika OCR
-
-Pierwszą rzeczą, którą robisz, jest uruchomienie silnika, który wykona ciężką pracę. Traktuj `OcrEngine` jako mózg operacji — po jego uruchomieniu możesz podawać mu obrazy i żądać tekstu.
+Teraz tworzymy obiekt `OcrEngineSettings` i informujemy silnik, aby używał GPU. To właśnie tutaj magia **wyodrębniania tekstu z obrazu** zyskuje przyspieszenie wydajności.
 
 ```csharp
-using Aspose.OCR;          // Namespace for OCR classes
-using Aspose.OCR.Image;    // For ImageStream helper
+using Aspose.OCR;
+using Aspose.OCR.Gpu;   // Required for GPU acceleration
 
-// Step 1: Create an OCR engine instance
-OcrEngine ocrEngine = new OcrEngine();
+// Configure OCR to run on the first available GPU (device ID 0)
+var ocrSettings = new OcrEngineSettings
+{
+    UseGpu = true,          // Turn on GPU acceleration
+    GpuDeviceId = 0         // Optional: specify which GPU to use
+};
 ```
 
-> **Wskazówka:** Trzymaj silnik jako singleton, jeśli przetwarzasz wiele obrazów w partii; ponownie wykorzystuje wewnętrzne zasoby i przyspiesza działanie.
+> **Dlaczego to ważne:** Włączenie GPU przenosi ciężkie operacje (przetwarzanie pikseli, wnioskowanie sieci neuronowej) z CPU na kartę graficzną, często skracając czas przetwarzania z sekund do milisekund.
 
-## Krok 2: Włącz automatyczne przetwarzanie wstępne
+Jeśli nie masz kompatybilnego GPU, po prostu ustaw `UseGpu = false`, a silnik automatycznie przełączy się na tryb CPU bez żadnych zmian w kodzie.
 
-Skanowanie w rzeczywistym świecie rzadko jest idealne. Są pochyłe, zaszumione lub o słabym kontraście. Włączenie `AutoPreprocess` nakazuje silnikowi automatycznie prostować, odszumiać i regulować kontrast, zanim jeszcze przyjrzy się znakom.
+## Krok 3: Zainicjalizuj silnik OCR
+
+Mając gotowe ustawienia, utwórz instancję `OcrEngine`. Obiekt ten przechowuje konfigurację i będzie ponownie używany dla każdego przetwarzanego obrazu.
 
 ```csharp
-// Step 2: Enable automatic preprocessing (deskew, denoise, contrast adjustment)
-ocrEngine.Config.AutoPreprocess = true;
+// Create the OCR engine with the previously defined settings
+var ocrEngine = new OcrEngine(ocrSettings);
 ```
 
-Dlaczego to ważne? Bez przetwarzania wstępnego silnik OCR może pomylić „8” z „B” lub całkowicie pominąć linię. Automatyczny krok oszczędza Ci pisania własnego kodu do czyszczenia obrazu.
+Możesz się zastanawiać, dlaczego oddzielamy ustawienia od silnika. Odpowiedź brzmi elastyczność — wymieniając `ocrSettings`, możesz ponownie używać tej samej instancji `ocrEngine` przy wielu plikach, przełączając się w locie między GPU a CPU, jeśli zajdzie taka potrzeba.
 
-## Krok 3: Ustaw język rozpoznawania
+## Krok 4: Rozpoznaj tekst z obrazu
 
-Większość bibliotek OCR dostarcza pakiety językowe. Tutaj ustawiamy angielski, ale możesz przełączyć na `OcrLanguage.French`, `OcrLanguage.Spanish` itd., w zależności od dokumentu.
+Oto sedno procesu **jak wyodrębnić tekst**. Wywołujemy `RecognizeImage` i przekazujemy ścieżkę do pliku, który chcemy przeanalizować. Metoda zwraca obiekt `OcrResult` zawierający wyodrębniony ciąg znaków oraz wyniki pewności.
 
 ```csharp
-// Step 3: Set the language for recognition
-ocrEngine.Language = OcrLanguage.English;
+// Replace with the actual path to your image file
+string imagePath = @"C:\Images\sample_multi_page.tif";
+
+// Perform OCR – this will extract text from the image
+OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
 ```
 
-Jeśli Twój zeskanowany dokument zawiera mieszane języki, możesz uruchomić silnik dwa razy lub użyć modelu wielojęzycznego — coś do dalszego zbadania.
+> **Przypadek brzegowy:** Jeśli obraz jest wielostronicowym plikiem TIFF, Aspose OCR automatycznie przetwarza każdą stronę i łączy wyniki. Jeśli potrzebujesz wyników per strona, sprawdź `ocrResult.PageResults`.
 
-## Krok 4: Load Image for OCR
+## Krok 5: Wyświetl lub zapisz wyodrębniony tekst
 
-Teraz **load image for OCR**. Pomocnicza metoda `ImageStream.FromFile` odczytuje plik w formacie zrozumiałym dla silnika. Upewnij się, że ścieżka wskazuje na rzeczywisty plik; ścieżki względne działają, gdy uruchamiasz z folderu projektu.
-
-```csharp
-// Step 4: Load the image to be processed
-ocrEngine.Image = ImageStream.FromFile("YOUR_DIRECTORY/skewed_noisy.jpg");
-```
-
-> **Częsty błąd:** Użycie ścieżki z odstępami bez cudzysłowów może spowodować `FileNotFoundException`. Zawsze sprawdzaj, czy plik istnieje przy pomocy `File.Exists` przed przekazaniem go do silnika.
-
-## Krok 5: Wykonaj rozpoznawanie OCR
-
-Po skonfigurowaniu wszystkiego, w końcu **recognize scanned document** zawartość. Metoda `Recognize` wykonuje ciężką pracę i zwraca obiekt `OcrResult`, który zawiera wyodrębniony tekst oraz wyniki pewności.
+Na koniec wypisz wynik na konsolę, zapisz go do pliku lub przekaż do innego systemu. W tym samouczku po prostu go wydrukujemy.
 
 ```csharp
-// Step 5: Perform OCR recognition
-OcrResult ocrResult = ocrEngine.Recognize();
-```
-
-Jeśli potrzebujesz poziomu pewności dla każdej linii, możesz sprawdzić `ocrResult.Confidence` (liczba zmiennoprzecinkowa od 0 do 1). Niska pewność? Rozważ dostosowanie ustawień przetwarzania wstępnego lub podanie obrazu o wyższej rozdzielczości.
-
-## Krok 6: Wyświetl rozpoznany tekst
-
-Najprostszym sposobem weryfikacji sukcesu jest wypisanie tekstu na konsolę. W prawdziwej aplikacji prawdopodobnie zapiszesz go do pliku, bazy danych lub przekażesz do innej usługi.
-
-```csharp
-// Step 6: Output the recognized text
+// Show the extracted text in the console
+Console.WriteLine("=== OCR Output ===");
 Console.WriteLine(ocrResult.Text);
 ```
 
-Uruchomienie programu powinno wypisać coś w rodzaju:
+Gdy uruchomisz program, powinieneś zobaczyć coś w stylu:
 
 ```
-The quick brown fox jumps over the lazy dog.
+=== OCR Output ===
+Invoice #12345
+Date: 04/30/2026
+Total: $1,250.00
+...
 ```
 
-Nawet jeśli oryginalny obraz był nieco krzywy lub zaszumiony, automatyczne przetwarzanie wstępne powinno go wystarczająco oczyścić, aby uzyskać czysty wynik.
+To moment, w którym pomyślnie **wyodrębniłeś tekst z obrazu** przy użyciu Aspose OCR.
 
----
+## Pełny działający przykład
 
-## Pełny kod źródłowy – gotowy przykład do uruchomienia
-
-Poniżej znajduje się kompletny program, który możesz skopiować do nowego projektu konsolowego (`dotnet new console`). Zawiera wszystkie powyższe kroki oraz odrobinę obsługi błędów, aby samouczek był solidny.
+Poniżej znajduje się kompletny, gotowy do uruchomienia program konsolowy, który łączy wszystkie elementy. Skopiuj‑wklej go do nowego pliku `Program.cs` i naciśnij **F5**.
 
 ```csharp
+// Program.cs
 using System;
-using System.IO;
 using Aspose.OCR;
-using Aspose.OCR.Image;
+using Aspose.OCR.Gpu;   // Required for GPU acceleration
 
 namespace ExtractTextFromImageDemo
 {
@@ -194,113 +148,59 @@ namespace ExtractTextFromImageDemo
     {
         static void Main(string[] args)
         {
-            // Validate input argument
-            if (args.Length == 0)
+            // 1️⃣ Configure OCR settings (GPU enabled)
+            var ocrSettings = new OcrEngineSettings
             {
-                Console.WriteLine("Usage: dotnet run <image-path>");
-                return;
-            }
+                UseGpu = true,          // Turn on GPU acceleration
+                GpuDeviceId = 0         // Optional: specify which GPU to use
+            };
 
-            string imagePath = args[0];
+            // 2️⃣ Initialize the OCR engine with those settings
+            var ocrEngine = new OcrEngine(ocrSettings);
 
-            if (!File.Exists(imagePath))
-            {
-                Console.WriteLine($"Error: File not found at '{imagePath}'");
-                return;
-            }
+            // 3️⃣ Path to the image you want to process
+            string imagePath = @"YOUR_DIRECTORY\sample_multi_page.tif";
 
-            try
-            {
-                // Step 1: Create OCR engine
-                OcrEngine ocrEngine = new OcrEngine();
+            // 4️⃣ Perform OCR – this extracts the text
+            OcrResult ocrResult = ocrEngine.RecognizeImage(imagePath);
 
-                // Step 2: Enable auto‑preprocess (deskew, denoise, contrast)
-                ocrEngine.Config.AutoPreprocess = true;
-
-                // Step 3: Choose language (English in this case)
-                ocrEngine.Language = OcrLanguage.English;
-
-                // Step 4: Load image for OCR
-                ocrEngine.Image = ImageStream.FromFile(imagePath);
-
-                // Step 5: Recognize scanned document
-                OcrResult result = ocrEngine.Recognize();
-
-                // Step 6: Output the extracted text
-                Console.WriteLine("\n--- Extracted Text ---\n");
-                Console.WriteLine(result.Text);
-                Console.WriteLine("\n--- End of Output ---\n");
-
-                // Optional: Show confidence if you need it
-                Console.WriteLine($"Overall confidence: {result.Confidence:P2}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"OCR failed: {ex.Message}");
-            }
+            // 5️⃣ Output the result
+            Console.WriteLine("=== OCR Output ===");
+            Console.WriteLine(ocrResult.Text);
         }
     }
 }
 ```
 
-### Jak uruchomić
+### Oczekiwany wynik
 
-1. Zapisz kod jako `Program.cs` w nowym projekcie konsolowym.  
-2. Otwórz terminal w katalogu głównym projektu.  
-3. Uruchom `dotnet add package Aspose.OCR` (jeśli jeszcze tego nie zrobiłeś).  
-4. Zbuduj i uruchom:  
+Uruchomienie programu na wyraźnie wydrukowanej fakturze daje tekstową reprezentację pól faktury. Jeśli obraz jest rozmyty lub język nie jest obsługiwany, `ocrResult.Text` może zawierać nieczytelne znaki — dostosuj wstępne przetwarzanie obrazu (np. binaryzację) lub przełącz się na inny model językowy, aby uzyskać lepszą dokładność.
 
-   ```bash
-   dotnet run "C:\Images\invoice_scanned.jpg"
-   ```
+## Częste pytania i rozwiązywanie problemów
 
-Powinieneś zobaczyć wyodrębniony tekst wypisany na konsoli, wraz z ogólnym procentem pewności.
+**Q: Moja aplikacja wywala się komunikatem „CUDA driver not found”.**  
+A: Sprawdź, czy zainstalowano CUDA 11+ oraz czy sterownik GPU odpowiada wersji CUDA. Możesz także uruchomić `nvidia-smi` w wierszu poleceń, aby potwierdzić, że sterownik jest widoczny.
 
----
+**Q: Jak przetworzyć cały folder obrazów?**  
+A: Umieść wywołanie `RecognizeImage` wewnątrz pętli `foreach (var file in Directory.GetFiles(folder, "*.tif"))`. Pamiętaj, aby ponownie używać tej samej instancji `ocrEngine` dla lepszej wydajności.
 
-## Najczęściej zadawane pytania (FAQ)
+**Q: Czy mogę wyodrębnić tekst z plików PDF?**  
+A: Nie bezpośrednio przy użyciu Aspose OCR, ale najpierw możesz skonwertować strony PDF na obrazy (korzystając z Aspose.PDF lub innej biblioteki), a następnie podać te obrazy do potoku OCR.
 
-**Q: Czy mogę przetwarzać PDF‑y bezpośrednio?**  
-A: Tak — większość bibliotek OCR pozwala załadować stronę PDF jako strumień obrazu lub udostępnia API `PdfDocument`. Najpierw skonwertuj każdą stronę na obraz, a potem postępuj zgodnie z tymi samymi krokami.
+**Q: Co zrobić, jeśli potrzebuję wyodrębnić tekst w języku innym niż angielski?**  
+A: Ustaw `ocrEngine.Language = OcrLanguage.Spanish` (lub dowolny obsługiwany język) przed wywołaniem `RecognizeImage`.
 
-**Q: Co jeśli mój obraz jest w formacie PNG?**  
-A: Metoda `ImageStream.FromFile` obsługuje JPEG, PNG, BMP i TIFF od razu. Nie wymaga dodatkowej konwersji.
+## Rozszerzanie samouczka
 
-**Q: Jak poprawić dokładność dla odręcznych notatek?**  
-A: Odręczne pismo jest trudniejsze do rozpoznania. Poszukaj biblioteki oferującej model „handwriting”, lub przetwórz obraz wstępnie przy użyciu binaryzacji i usuwania szumów przed przekazaniem go do silnika.
-
-**Q: Czy istnieje sposób na wyodrębnienie tekstu z określonego obszaru?**  
-A: Oczywiście. Większość silników udostępnia właściwość `Rect` lub `Region`, gdzie możesz ograniczyć OCR do prostokątnego obszaru — przydatne przy formularzach z stałymi polami.
-
----
-
-## Kolejne kroki i powiązane tematy
-
-Teraz, gdy opanowałeś podstawy **extract text from image** za pomocą **c# OCR tutorial**, rozważ dalsze eksploracje:
-
-- **Batch processing** – iteruj po katalogu obrazów i zapisz każdy wynik do pliku CSV.  
-- **PDF generation** – połącz wyodrębniony tekst z biblioteką PDF, aby tworzyć przeszukiwalne PDF‑y.  
-- **Machine‑learning post‑processing** – użyj sprawdzaczy pisowni lub modeli językowych, aby oczyścić błędy OCR.  
-
-Każdy z nich opiera się na podstawowych koncepcjach, które omówiliśmy: ładowanie obrazu do OCR, konfigurowanie silnika i rozpoznawanie zeskanowanego dokumentu.
-
----
+- **Przetwarzanie wsadowe:** Połącz kod z `Parallel.ForEach` dla przetwarzania wielordzeniowego, gdy GPU nie jest dostępne.  
+- **Post‑processing:** Użyj wyrażeń regularnych do czyszczenia numerów telefonów, dat lub wartości pieniężnych.  
+- **Integracja:** Przekaż wyodrębniony ciąg znaków do bazy danych lub indeksu Azure Cognitive Search, aby uzyskać przeszukiwalne dokumenty.
 
 ## Zakończenie
 
-Przeszliśmy właśnie przez kompletny, pełny przykład, który pokazuje, jak **extract text from image** w C#. Od utworzenia `OcrEngine` po wypisanie końcowego ciągu, każdy wiersz kodu jest wyjaśniony i gotowy do uruchomienia.  
+Masz teraz solidny **samouczek OCR w C#**, który dokładnie pokazuje **jak wyodrębnić tekst** z obrazu, wykorzystuje przyspieszenie GPU i elegancko obsługuje pliki wielostronicowe. Postępując zgodnie z powyższymi krokami, możesz zintegrować Aspose OCR z dowolnym projektem .NET i w krótkim czasie zamienić obrazy w tekst możliwy do przeszukiwania i edycji.
 
-Jeśli zastosujesz się do kroków, będziesz w stanie przekształcić zaszumione skany, paragony lub odręczne notatki w przeszukiwalny, edytowalny tekst w kilka sekund. Eksperymentuj dalej — dostosowuj flagi przetwarzania wstępnego, zmieniaj języki lub podawaj silnikowi partię plików. Świat automatycznego przetwarzania dokumentów jest do odkrycia.  
-
-Masz więcej pytań lub ciekawy przypadek użycia do podzielenia się? Dodaj komentarz poniżej i powodzenia w kodowaniu!
-
-## Co warto nauczyć się dalej?
-
-Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każde źródło zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
-
-- [Wyodrębnianie tekstu z obrazu przy użyciu Aspose.OCR .NET](/ocr/english/net/image-and-drawing-recognition/)
-- [Wyodrębnianie tekstu z obrazu w C# z wyborem języka przy użyciu Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Wyodrębnianie tekstu z obrazu – optymalizacja OCR z Aspose.OCR dla .NET](/ocr/english/net/ocr-optimization/)
+Gotowy na kolejne wyzwanie? Spróbuj wyłączyć flagę GPU, aby zobaczyć różnicę w wydajności, lub eksperymentuj z różnymi formatami obrazów, takimi jak PNG czy JPEG. Nie ma granic — powodzenia w kodowaniu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

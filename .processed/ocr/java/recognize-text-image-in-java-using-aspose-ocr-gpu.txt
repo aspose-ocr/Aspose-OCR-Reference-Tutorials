@@ -1,0 +1,7 @@
+Title: recognize text image in Java using Aspose OCR + GPU
+Slug: recognize-text-image-in-java-using-aspose-ocr-gpu
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-16T12:46:18.229349
+SourceRepo: AI Search API
+Keywords: recognize text image, set gpu device, extract text jpg, how to recognize text, read text picture
+PRNumber: 145
