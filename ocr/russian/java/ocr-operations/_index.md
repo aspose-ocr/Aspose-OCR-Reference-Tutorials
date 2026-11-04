@@ -149,6 +149,12 @@ weight: 21
 Узнайте, как извлечь текст из изображения в Java с помощью Aspose.OCR и автоматически исправлять орфографические ошибки.
 ### [Создание поискового PDF из изображения – пошаговое руководство Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Подробный пошаговый туториал по созданию searchable PDF из изображений с помощью Aspose.OCR для Java.
+### [Распознавание текста с изображения на Java – Полный гид по Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Подробный пошаговый туториал по распознаванию текста с изображений в Java с использованием Aspose OCR.
+### [Выполнение OCR на PDF с Aspose OCR в Java – Полное руководство](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Полный пошаговый гид по применению OCR к PDF‑файлам с помощью Aspose OCR в Java.
+### [Создание поискового PDF с Aspose OCR Java – Полное руководство](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Полный пошаговый гид по созданию PDF с поисковым слоем с помощью Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 

@@ -158,6 +158,11 @@ Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt vanuit een afbeel
 Leer hoe u OCR in Java toepast om tekst uit afbeeldingen te halen en automatisch spellingscorrectie toe te passen.
 ### [Create Searchable PDF from Image – Step‑by‑Step Java Guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Leer hoe u een doorzoekbare PDF maakt van een afbeelding met een stapsgewijze Java‑handleiding.
+### [Create searchable PDF with Aspose OCR Java – Complete Guide](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Leer stap‑voor‑stap hoe u met Aspose OCR voor Java een doorzoekbare PDF maakt en een doorzoekbare tekstlaag toevoegt.
+### [Tekst uit afbeelding herkennen met Java – volledige Aspose OCR-gids](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+### [OCR op PDF uitvoeren met Aspose OCR in Java – Complete gids](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en een doorzoekbare PDF maakt.
 
 ## Veelgestelde vragen
 

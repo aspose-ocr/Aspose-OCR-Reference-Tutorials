@@ -159,6 +159,12 @@ Panduan langkah demi langkah untuk mengonversi gambar menjadi PDF yang dapat dic
 Pelajari cara mengekstrak teks dari gambar menggunakan OCR di Java dan memperbaiki ejaan secara otomatis.
 ### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR di Java, langkah demi langkah.
+### [Mengenali Teks Gambar dengan Java – Panduan Lengkap Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose OCR dengan Java, meliputi langkah‑langkah detail untuk hasil akurat.
+### [Melakukan OCR pada PDF dengan Aspose OCR di Java – Panduan Lengkap](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Panduan lengkap untuk melakukan OCR pada file PDF menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Membuat PDF yang Dapat Dicari dengan Aspose OCR Java – Panduan Lengkap](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
 
 ## Pertanyaan yang Sering Diajukan
 

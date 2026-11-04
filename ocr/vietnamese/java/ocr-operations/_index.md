@@ -159,6 +159,12 @@ Biến hình ảnh thành PDF có thể tìm kiếm nhanh chóng bằng Aspose.O
 Khám phá cách sử dụng OCR trong Java để trích xuất văn bản từ hình ảnh và tự động sửa lỗi chính tả, nâng cao độ chính xác.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn Java từng bước](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Khám phá cách tạo PDF có thể tìm kiếm từ hình ảnh bằng Aspose.OCR cho Java, hướng dẫn chi tiết từng bước.
+### [Thực hiện OCR trên PDF với Aspose OCR trong Java – Hướng dẫn đầy đủ](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để thực hiện OCR trên tài liệu PDF, bao gồm cấu hình và xuất kết quả.
+### [Tạo PDF có thể tìm kiếm với Aspose OCR Java – Hướng dẫn đầy đủ](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR cho Java, bao gồm cấu hình, xử lý và lưu kết quả.
+### [Nhận dạng văn bản từ hình ảnh với Java – Hướng dẫn Aspose OCR đầy đủ](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để nhận dạng văn bản từ hình ảnh, bao gồm cấu hình và xuất kết quả.
 
 ## Câu hỏi Thường gặp
 

@@ -198,6 +198,16 @@ Lakukan OCR secara batch di Java menggunakan pemrosesan paralel untuk meningkatk
 Lakukan OCR di Java dengan deteksi bahasa otomatis, mengekstrak teks secara akurat dalam berbagai bahasa.
 ### [Cara Meningkatkan OCR dengan Pra-pemrosesan Lanjutan di Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 Terapkan teknik pra-pemrosesan canggih untuk meningkatkan akurasi dan kecepatan OCR di aplikasi Java Anda.
+### [Mengenali Gambar Teks di Java dengan Akselerasi GPU – Tutorial Lengkap](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Pelajari cara mengenali teks pada gambar menggunakan Java dengan akselerasi GPU untuk performa tinggi. Ikuti tutorial lengkap kami.
+### [Pemrosesan OCR Paralel di Java – Panduan Lengkap](./parallel-ocr-processing-in-java-complete-guide/)
+Pelajari cara memproses OCR secara paralel di Java untuk meningkatkan kecepatan dan efisiensi ekstraksi teks dari gambar.
+### [Cara Mendapatkan OCR di Java – Panduan Lengkap untuk Mengekstrak Teks Mentah](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Pelajari cara mengintegrasikan OCR di Java dan mengekstrak teks mentah secara efisien dengan panduan lengkap kami.
+### [Ekstrak Teks dari Formulir dengan Aspose OCR Java – Panduan Lengkap](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Pelajari cara mengekstrak teks dari formulir menggunakan Aspose OCR untuk Java dalam panduan lengkap ini.
+### [Membuat PDF yang Dapat Dicari dengan OCR Java – Panduan Lengkap](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan OCR di Java, lengkap dengan contoh kode dan langkah-langkah integrasi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

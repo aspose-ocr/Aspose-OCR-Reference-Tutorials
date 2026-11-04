@@ -201,6 +201,16 @@ Java OCR kullanarak paralel işleme ile görüntülerden hızlı ve doğru metin
 Aspose OCR ile birden fazla dili içeren görüntülerden metni doğru bir şekilde çıkarın. Java projelerinizde çok dilli OCR'ı keşfedin.
 ### [OCR'da Kontrastı Artırma – Tam Java Ön İşleme Kılavuzu](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 Java ile OCR performansını artırmak için görüntü kontrastını nasıl iyileştireceğinizi adım adım öğrenin.
+### [GPU Hızlandırmalı Java'da Metin Görüntüsü Tanıma – Tam Kılavuz](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+GPU desteğiyle Java'da metin görüntülerini hızlı ve doğru şekilde tanıyın. Adım adım tam kılavuz.
+### [Java'da Paralel OCR İşleme – Tam Kılavuz](./parallel-ocr-processing-in-java-complete-guide/)
+Java uygulamalarında paralel OCR işleme tekniklerini keşfedin, yüksek performans ve doğruluk elde edin.
+### [Java'da OCR Nasıl Alınır – Ham Metin Çıkarma Tam Kılavuzu](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Java'da OCR elde etmenin ve ham metni çıkarmanın adım adım tam rehberi. Hızlı ve doğru metin çıkarma için hemen indirin.
+### [Aspose OCR Java ile Formdan Metin Çıkarma – Tam Kılavuz](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java ile formlardan metin çıkarın. Adım adım tam kılavuz sayesinde hızlı ve doğru sonuç elde edin.
+### [Java OCR ile Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Java ve Aspose.OCR kullanarak aranabilir PDF'ler oluşturun. Adım adım tam kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

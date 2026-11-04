@@ -149,6 +149,12 @@ Naučte se převést obrázek na prohledávatelný PDF pomocí Aspose.OCR v Jav�
 Naučte se, jak pomocí Aspose.OCR v Javě extrahovat text z obrázku a automaticky opravit pravopisné chyby pro vyšší přesnost.
 ### [Vytvoření prohledávatelného PDF z obrázku – krok za krokem průvodce pro Javu](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Naučte se, jak pomocí Aspose.OCR převést obrázek na prohledávatelný PDF soubor v Javě, krok po kroku.
+### [Provést OCR na PDF s Aspose OCR v Javě – Kompletní průvodce](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletní průvodce prováděním OCR na PDF souborech pomocí Aspose OCR v Javě, včetně nastavení a optimalizace.
+### [Vytvořit prohledávatelný PDF s Aspose OCR Java – Kompletní průvodce](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletní průvodce vytvořením prohledávatelných PDF pomocí Aspose OCR v Javě, včetně nastavení, optimalizace a praktických příkladů.
+### [Rozpoznání textu z obrázku pomocí Java – Kompletní Aspose OCR průvodce](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletní průvodce rozpoznáním textu z obrázků v Javě pomocí Aspose.OCR, včetně nastavení, optimalizace a praktických příkladů.
 
 ## Často kladené otázky
 

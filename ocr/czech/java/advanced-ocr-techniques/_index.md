@@ -184,6 +184,18 @@ Zrychlete rozpoznávání textu z obrázků pomocí paralelního zpracování v 
 ### [Jak zvýšit kontrast v OCR – Kompletní průvodce předzpracováním v Javě](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 Naučte se, jak pomocí Java vylepšit kontrast obrázků pro přesnější OCR a optimalizovat předzpracování.
 
+### [Rozpoznání textu na obrázku v Javě s GPU akcelerací – kompletní tutoriál](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Využijte GPU akceleraci pro rychlé a přesné rozpoznávání textu na obrázcích v Javě. Kompletní průvodce krok za krokem.
+
+### [Jak získat OCR v Javě – Kompletní průvodce extrakcí surového textu](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Kompletní návod, jak v Javě získat OCR a extrahovat surový text s vysokou přesností.
+
+### [Extrahování textu z formuláře pomocí Aspose OCR pro Java – Kompletní průvodce](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Naučte se, jak pomocí Aspose OCR pro Java extrahovat text z formulářových polí a automatizovat zpracování dokumentů.
+
+### [Vytvoření prohledávatelného PDF pomocí Java OCR – Kompletní průvodce](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR pro Java vytvořit prohledávatelný PDF soubor s vysokou přesností a efektivitou.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

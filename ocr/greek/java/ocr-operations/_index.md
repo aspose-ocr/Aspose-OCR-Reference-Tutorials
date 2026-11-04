@@ -151,6 +151,12 @@ weight: 21
 Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF με το Aspose.OCR για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Μάθετε πώς να μετατρέψετε εικόνα σε αναζητήσιμο PDF χρησιμοποιώντας το Aspose.OCR για Java.
+### [αναγνώριση κειμένου από εικόνα με Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνα με Java χρησιμοποιώντας το Aspose OCR.
+### [perform ocr on pdf with Aspose OCR in Java – Complete Guide](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την εκτέλεση OCR σε αρχεία PDF με το Aspose OCR σε Java.
+### [Δημιουργία αναζητήσιμου PDF με Aspose OCR Java – Πλήρης Οδηγός](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο με Aspose OCR για Java, βήμα‑βήμα οδηγός πλήρους υλοποίησης.
 
 ## Συχνές Ερωτήσεις
 

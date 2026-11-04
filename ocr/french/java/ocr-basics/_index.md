@@ -88,7 +88,7 @@ R : Pré‑traitez l’image (binarisation, suppression du bruit) et exécutez
 R : Convertissez d’abord les pages PDF en images (à l’aide d’Aspose.PDF ou de tout outil de conversion PDF‑vers‑image), puis exécutez Aspose.OCR sur les images obtenues.
 
 **Q : Quelles langues sont prises en charge dès l’installation ?**  
-R : Plus de 30 langues, dont l’anglais, l’espagnol, le chinois, l’arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
+R : Plus de 30 langues, dont l’anglais, l'espagnol, le chinois, l'arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
 
 ## Conclusion
 
@@ -131,6 +131,8 @@ Apprenez à extraire du texte d'images en Java avec Aspose.OCR grâce à ce tuto
 Apprenez à exécuter l’OCR sur un fichier JPG avec Aspose.OCR pour Java et à récupérer le texte en quelques lignes de code.
 ### [Reconnaître du texte à partir d’une image en Java – Tutoriel OCR complet](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 Apprenez à extraire du texte d’une image en Java avec un guide complet couvrant la configuration, le pré‑traitement et la reconnaissance OCR.
+### [Extraire du texte d’une image en Java – Obtenir du texte via OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Apprenez à extraire du texte d’une image en Java en utilisant Aspose.OCR, avec un guide étape par étape pour récupérer le texte OCR.
 
 ---
 

@@ -160,6 +160,12 @@ Java OCR का उपयोग करके इमेज को सर्चे
 Java में OCR का उपयोग करके इमेज से टेक्स्ट निकालें और स्पेल‑करेक्शन के साथ सटीकता बढ़ाएँ।
 ### [इमेज से सर्चेबल PDF बनाएं – चरण‑दर‑चरण जावा गाइड](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 इमेज को सर्चेबल PDF में बदलने की पूरी प्रक्रिया, जावा कोड उदाहरणों के साथ।
+### [Java के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
+### [Aspose OCR के साथ PDF पर OCR – पूर्ण गाइड (Java)](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Java में Aspose OCR का उपयोग करके PDF फ़ाइलों पर पूर्ण OCR प्रक्रिया सीखें, कोड उदाहरणों सहित।
+### [Aspose OCR Java के साथ खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java का उपयोग करके PDF को सर्चेबल बनाना सीखें, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

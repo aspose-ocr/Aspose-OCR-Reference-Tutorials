@@ -160,6 +160,12 @@ Crea un PDF buscable a partir de imágenes usando Aspose.OCR para Java. Sigue lo
 Desbloquea la extracción de texto de imágenes con corrección ortográfica usando Aspose.OCR en Java. Sigue la guía paso a paso.
 ### [Crear PDF buscable a partir de una imagen – Guía paso a paso en Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Desbloquea la creación de PDFs buscables a partir de imágenes usando Aspose.OCR en Java. Sigue esta guía paso a paso.
+### [Reconocer texto de imagen con Java – Guía completa de Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Aprende paso a paso a extraer texto de imágenes usando Aspose OCR en Java, con ejemplos completos y mejores prácticas.
+### [Realizar OCR en PDF con Aspose OCR en Java – Guía completa](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Aprende paso a paso cómo aplicar OCR a archivos PDF usando Aspose OCR en Java y generar documentos buscables.
+### [Crear PDF buscable con Aspose OCR Java – Guía completa](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aprende paso a paso a generar PDFs buscables usando Aspose OCR en Java, con ejemplos y mejores prácticas.
 
 ## Preguntas frecuentes
 

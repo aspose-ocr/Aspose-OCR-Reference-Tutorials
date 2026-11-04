@@ -159,6 +159,12 @@ Odblokuj możliwość konwersji obrazu do przeszukiwalnego PDF przy użyciu Aspo
 Odblokuj możliwość wyodrębniania tekstu z obrazów w Javie z automatyczną korektą pisowni, zwiększając dokładność wyników OCR.
 ### [Tworzenie przeszukiwalnego PDF z obrazu – przewodnik krok po kroku w Javie](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Krok po kroku pokażemy, jak przy użyciu Aspose.OCR w Javie przekształcić obraz w przeszukiwalny plik PDF.
+### [Rozpoznawanie tekstu z obrazu w Javie – Pełny przewodnik Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspose OCR, zawierający wszystkie niezbędne kroki.
+### [Wykonywanie OCR na PDF przy użyciu Aspose OCR w Javie – Kompletny przewodnik](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletny przewodnik, jak zastosować OCR do plików PDF w Javie przy użyciu Aspose OCR, krok po kroku.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR Java – Kompletny przewodnik](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

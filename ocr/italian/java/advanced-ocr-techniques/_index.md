@@ -184,6 +184,16 @@ Scopri come velocizzare l'OCR su immagini usando l'elaborazione parallela in Jav
 Scopri come riconoscere testo in più lingue da un'unica immagine usando Aspose OCR per Java.
 ### [Come migliorare il contrasto nell'OCR – Guida completa al pre‑processing Java](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 Scopri come aumentare il contrasto delle immagini per migliorare l'accuratezza OCR con una guida passo passo in Java.
+### [Riconoscimento di immagini di testo in Java con accelerazione GPU – Tutorial completo](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Esegui il riconoscimento del testo nelle immagini usando Java con accelerazione GPU per prestazioni elevate.
+### [Elaborazione OCR parallela in Java – Guida completa](./parallel-ocr-processing-in-java-complete-guide/)
+Scopri come eseguire l'elaborazione OCR in parallelo con Java per migliorare le prestazioni e la velocità di estrazione del testo.
+### [Come ottenere OCR in Java – Guida completa per estrarre testo grezzo](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Scopri come ottenere OCR in Java e estrarre testo grezzo con una guida completa passo passo.
+### [Estrai testo da un modulo con Aspose OCR per Java – Guida completa](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Scopri come estrarre testo da moduli usando Aspose OCR per Java con questa guida passo passo.
+### [Creare PDF ricercabile con Java OCR – Guida completa](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Impara a generare PDF ricercabili in Java usando Aspose.OCR, con istruzioni passo passo per una conversione precisa e veloce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

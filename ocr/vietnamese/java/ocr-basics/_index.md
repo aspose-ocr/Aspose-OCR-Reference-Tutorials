@@ -126,6 +126,8 @@ Khám phá cách trích xuất văn bản từ hình ảnh trong Java bằng Asp
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong Java để nhận dạng và trích xuất văn bản từ tệp JPG.
 ### [Nhận dạng văn bản từ hình ảnh trong Java – Hướng dẫn OCR toàn diện](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose.OCR trong Java, bao gồm cài đặt, tiền xử lý và tối ưu độ chính xác.
+### [Trích xuất văn bản từ hình ảnh trong Java – Lấy văn bản từ OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Trích xuất nhanh văn bản từ hình ảnh trong Java bằng OCR. Học cách lấy nội dung chính xác và hiệu quả.
 
 ---
 

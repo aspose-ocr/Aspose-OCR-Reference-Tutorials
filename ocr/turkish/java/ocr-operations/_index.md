@@ -124,6 +124,11 @@ Java ve Aspose.OCR kullanarak bir görüntüyü aranabilir PDF'ye dönüştürme
 Java ile Aspose.OCR kullanarak görüntüden metin çıkarın ve otomatik yazım düzeltmesi uygulayın.
 ### [Görüntüden Aranabilir PDF Oluşturma – Adım Adım Java Rehberi](./create-searchable-pdf-from-image-step-by-step-java-guide/)
 Java ile bir görüntüyü OCR ile işleyerek aranabilir PDF dosyasına dönüştürmeyi adım adım öğrenin.
+### [Java ile Görüntü Metni Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Java kullanarak Aspose OCR ile görüntülerden metin çıkarma sürecini adım adım öğrenin.
+### [Aspose OCR ile PDF Üzerinde OCR – Tam Java Kılavuzu](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+### [Aspose OCR Java ile Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Java uygulamanızda Aspose OCR kullanarak PDF'leri aranabilir hâle getirmenin adım adım tam rehberi.
 
 ## Sıkça Sorulan Sorular
 
