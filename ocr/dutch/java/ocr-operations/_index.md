@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Herken PDF-tekst met Aspose.OCR voor Java
@@ -27,6 +29,7 @@ Bent u klaar om uw tekst‑extractie naar een hoger niveau te tillen? **Herken P
 - **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose‑licentie is vereist voor commerciële implementaties.
 
 ## Wat is “herken pdf tekst”?
+
 Het herkennen van PDF‑tekst houdt in dat elke pagina van een PDF wordt gescand, OCR‑algoritmen worden toegepast en een doorzoekbare laag wordt gecreëerd die de visuele weergave koppelt aan daadwerkelijke tekens. Aspose.OCR voor Java automatiseert dit proces en levert hoogwaardige resultaten zonder handmatige tussenkomst.
 
 ## Waarom Aspose.OCR voor Java gebruiken?
@@ -147,6 +150,19 @@ Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een vol
 Leer hoe u met Aspose.OCR in Java Thaise tekst uit PNG‑afbeeldingen kunt herkennen en extraheren.
 ### [Maak doorzoekbare PDF van afbeelding met Java – Stapsgewijze gids](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt vanuit een afbeelding in Java, stap voor stap.
+### [Hoe OCR in Java met Aspose inschakelen – Stapsgewijze handleiding](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Leer stap voor stap hoe u OCR in Java activeert met Aspose en uw documenten automatisch laat herkennen.
+### [Maak doorzoekbare PDF van afbeelding met Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt vanuit een afbeelding, stap voor stap.
+### [Hoe OCR te gebruiken in Java – Tekst uit afbeelding extraheren met spellingscorrectie](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Leer hoe u OCR in Java toepast om tekst uit afbeeldingen te halen en automatisch spellingscorrectie toe te passen.
+### [Create Searchable PDF from Image – Step‑by‑Step Java Guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Leer hoe u een doorzoekbare PDF maakt van een afbeelding met een stapsgewijze Java‑handleiding.
+### [Create searchable PDF with Aspose OCR Java – Complete Guide](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Leer stap‑voor‑stap hoe u met Aspose OCR voor Java een doorzoekbare PDF maakt en een doorzoekbare tekstlaag toevoegt.
+### [Tekst uit afbeelding herkennen met Java – volledige Aspose OCR-gids](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+### [OCR op PDF uitvoeren met Aspose OCR in Java – Complete gids](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en een doorzoekbare PDF maakt.
 
 ## Veelgestelde vragen
 
@@ -171,12 +187,6 @@ A: Verwerk TIFF‑afbeeldingen in delen of gebruik multithreading om het geheuge
 **Getest met:** Aspose.OCR for Java 24.12  
 **Auteur:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR-tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
 ### [Maak doorzoekbare PDF van PNG – Complete Java-gids](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -188,3 +198,9 @@ Ontgrendel de kracht van batch OCR om meerdere afbeeldingen in Java naar tekst t
 ### [Maak doorzoekbare PDF met Aspose OCR – Stapsgewijze gids](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR een doorzoekbare PDF maakt in een eenvoudige stap‑voor‑stap handleiding.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

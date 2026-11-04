@@ -121,6 +121,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ทำ OCR บนไฟล์ JPG ด้วย Java ใช้ Aspose.OCR เพื่อสกัดข้อความจากรูปภาพอย่างแม่นยำ
 ### [จดจำข้อความจากภาพใน Java – คู่มือ OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 เรียนรู้ขั้นตอนเต็มรูปแบบในการใช้ Aspose.OCR กับ Java เพื่อจดจำข้อความจากภาพอย่างแม่นยำและปรับแต่งการทำงาน
+### [Extract Text from Image in Java – Get Text from OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+เรียนรู้วิธีสกัดข้อความจากภาพใน Java ด้วย Aspose.OCR เพื่อดึงข้อความอย่างแม่นยำและรวดเร็ว
 
 ---
 

@@ -50,6 +50,11 @@ Aspose.OCR for .NET के साथ OCR की दुनिया में प
 ## OCR इमेज रिकग्निशन में छवि के लिए प्री‑प्रोसेसिंग फ़िल्टर
 Aspose.OCR for .NET के साथ OCR सटीकता बढ़ाने के लिए [प्री‑प्रोसेसिंग फ़िल्टर](./preprocessing-filters-for-image/) का अन्वेषण करें। अभी डाउनलोड करें और पहचान से पहले अपनी छवियों को कैसे फाइन‑ट्यून किया जाए, जानें। यह ट्यूटोरियल सहज एकीकरण सुनिश्चित करता है, सटीकता और दक्षता को बढ़ाता है।
 
+### [Aspose OCR C# के साथ टेक्स्ट इमेज पहचान – पूर्ण प्री‑प्रोसेस गाइड](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aspose OCR का उपयोग करके C# में इमेज प्री‑प्रोसेसिंग और टेक्स्ट पहचान के सभी चरणों को सीखें।
+### [C# में इमेज को डेस्क्यू कैसे करें – पूर्ण OCR प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Aspose.OCR के साथ C# में इमेज को डेस्क्यू करने और OCR की सटीकता बढ़ाने के चरण‑दर‑चरण मार्गदर्शन।
+
 ## OCR इमेज रिकग्निशन में स्पेल‑चेकिंग के साथ परिणाम सुधार
 [Aspose.OCR for .NET](./result-correction-with-spell-checking/) के साथ बेजोड़ OCR सटीकता प्राप्त करें। स्पेल‑चेकिंग के साथ परिणाम सुधार पर हमारा ट्यूटोरियल आपको शब्दकोश अनुकूलित करने, वर्तनी सुधारने, और त्रुटि‑रहित पाठ पहचान सुनिश्चित करने की शक्ति देता है। Aspose.OCR के साथ सटीकता की दुनिया में प्रवेश करें।
 
@@ -271,6 +276,38 @@ Aspose OCR का उपयोग करके PDF को खोज योग्
 ### [छवि को डेस्क्यू कैसे करें – OCR प्री‑प्रोसेसिंग के लिए पूर्ण C# गाइड](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 छवि को सीधा करने के लिए चरण‑दर‑चरण C# कोड, OCR की सटीकता बढ़ाने हेतु डेस्क्यू फ़िल्टर लागू करें।
 
+### [Aspose OCR के साथ इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR का उपयोग करके इमेज को डेस्क्यू करने और सटीक OCR परिणाम प्राप्त करने के लिए पूर्ण C# कोड उदाहरण।
+
+### [C# में बैच OCR कैसे करें – PNG फ़ाइलों से तेज़ी से टेक्स्ट निकालें](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+C# का उपयोग करके कई PNG फ़ाइलों पर तेज़ी से OCR लागू करें और टेक्स्ट को बैच में निकालें।
+
+### [C# OCR में इमेज कंट्रास्ट बढ़ाएँ – पूर्ण गाइड](./boost-image-contrast-in-c-ocr-complete-guide/)
+C# में Aspose.OCR का उपयोग करके इमेज कंट्रास्ट बढ़ाने के चरण‑दर‑चरण निर्देश, सटीकता में सुधार।
+### [GPU के साथ बैच PDF OCR – तेज़ टेक्स्ट निष्कर्षण गाइड](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+GPU की शक्ति का उपयोग करके बड़ी संख्या में PDF फ़ाइलों को तेज़ी से OCR करें और पाठ निकालें।
+
+### [Aspose OCR के साथ छवि से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+C# में Aspose OCR का उपयोग करके छवि से सटीक रूप से पाठ निकालने के चरण‑दर‑चरण निर्देश।
+
+### [C# में GPU त्वरण के साथ OCR सक्षम करें – रसीदों से टेक्स्ट निकालें](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+GPU त्वरण का उपयोग करके तेज़ OCR के साथ रसीदों से सटीक रूप से पाठ निकालें।
+
+### [छवि को डेस्क्यू कैसे करें – Aspose OCR प्री‑प्रोसेसिंग गाइड](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aspose OCR के प्री‑प्रोसेसिंग विकल्पों का उपयोग करके छवि को डेस्क्यू करने की प्रक्रिया सीखें।
+
+### [C# में बैच OCR छवियां – JPG स्कैन की समानांतर OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+C# में बैच में JPG स्कैन की समानांतर OCR करके तेज़ी से टेक्स्ट निकालें।
+### [Aspose OCR C# के साथ टेक्स्ट इमेज पहचान – पूर्ण प्री‑प्रोसेस गाइड](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aspose OCR का उपयोग करके C# में इमेज प्री‑प्रोसेसिंग और टेक्स्ट पहचान के सभी चरणों को सीखें।
+
+### [C# OCR में GPU मेमोरी उपयोग को सीमित करना – पूर्ण गाइड](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+C# में Aspose.OCR के साथ GPU मेमोरी उपयोग को नियंत्रित करने के चरण‑दर‑चरण निर्देश।
+
+### [C# में इमेज को डेस्क्यू कैसे करें – पूर्ण OCR गाइड](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Aspose.OCR for .NET का उपयोग करके C# में इमेज को डेस्क्यू करने और OCR सटीकता बढ़ाने के चरण‑दर‑चरण मार्गदर्शन।
+### [छवि पर OCR चलाएँ – पूर्ण C# गाइड](./run-ocr-on-image-complete-c-guide/)
+Aspose.OCR for .NET के साथ C# में छवि पर OCR कैसे चलाएँ, चरण‑दर‑चरण सीखें।
 ### [C# में OCR कॉन्फिडेंस स्कोर – पूर्ण गाइड](./ocr-confidence-scores-in-c-complete-guide/)
 Aspose.OCR for .NET में OCR कॉन्फिडेंस स्कोर कैसे प्राप्त करें और परिणाम की सटीकता को बेहतर बनाएं, इस विस्तृत गाइड में जानें।
 

@@ -94,6 +94,16 @@ Erfahren Sie, wie Sie die OCR‑Funktion in C# deaktivieren und offline mit Aspo
 Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR in C# durch.
 ### [Erstellen einer OCR-Engine in C# – Vollständiger Leitfaden](./create-ocr-engine-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR eine OCR-Engine in C# erstellen und konfigurieren.
+### [GPU‑Speicherlimit mit Aspose OCR festlegen – C# GPU‑Leitfaden](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Erfahren Sie, wie Sie das GPU‑Speicherlimit in Aspose OCR für C# konfigurieren, um die Leistung zu optimieren.
+### [Text aus Bild mit Aspose OCR GPU extrahieren – Vollständige C#‑Anleitung](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus Bildern schnell und präzise in C# zu extrahieren.
+### [Wie man die Lizenz in Aspose OCR setzt – Vollständige C#‑Anleitung](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz korrekt in C#‑Projekten aktivieren und nutzen.
+### [Wie man OCR in C# ausführt – Mehrsprachiger Leitfaden](./how-to-perform-ocr-in-c-multi-language-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR mehrsprachige OCR in C# implementieren und Texte aus Bildern in verschiedenen Sprachen extrahieren.
+### [Bild zu Text C# – Aspose OCR mit deaktiviertem Download](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln und den Download deaktivieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

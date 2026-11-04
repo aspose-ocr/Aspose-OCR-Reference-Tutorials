@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αναγνώριση Κειμένου PDF με Aspose.OCR για Java
@@ -143,6 +145,18 @@ weight: 21
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες PNG με το Aspose OCR σε Java.
 ### [Εκτέλεση OCR σε εικόνα με Java – Εξαγωγή Ταϊλανδικού κειμένου από PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Μάθετε πώς να αναγνωρίζετε και να εξάγετε κείμενο ταϊλανδικής γλώσσας από αρχεία PNG χρησιμοποιώντας Aspose.OCR για Java.
+### [Πώς να χρησιμοποιήσετε το OCR σε Java – Εξαγωγή κειμένου από εικόνα με διόρθωση ορθογραφίας](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε Java με το Aspose.OCR και να εφαρμόσετε αυτόματη διόρθωση ορθογραφίας.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα – Οδηγός Βήμα‑Βήμα Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμο PDF με το Aspose.OCR για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Μάθετε πώς να μετατρέψετε εικόνα σε αναζητήσιμο PDF χρησιμοποιώντας το Aspose.OCR για Java.
+### [αναγνώριση κειμένου από εικόνα με Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνα με Java χρησιμοποιώντας το Aspose OCR.
+### [perform ocr on pdf with Aspose OCR in Java – Complete Guide](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την εκτέλεση OCR σε αρχεία PDF με το Aspose OCR σε Java.
+### [Δημιουργία αναζητήσιμου PDF με Aspose OCR Java – Πλήρης Οδηγός](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο με Aspose OCR για Java, βήμα‑βήμα οδηγός πλήρους υλοποίησης.
 
 ## Συχνές Ερωτήσεις
 
@@ -160,19 +174,8 @@ A: Απόλυτα. Μπορείτε να κάνετε βρόχο σε μια σ�
 
 **Q: Υπάρχουν επιδόσεις που πρέπει να ληφθούν υπόψη για μεγάλα αρχεία TIFF;**  
 A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα ή χρησιμοποιήστε πολυνηματική εκτέλεση για να διατηρήσετε τη χρήση μνήμης σε βέλτιστο επίπεδο.
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-10  
-**Δοκιμασμένο με:** Aspose.OCR for Java 24.12  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+### [Πώς να ενεργοποιήσετε το OCR σε Java με το Aspose – Οδηγός βήμα‑βήμα](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Μάθετε πώς να ενεργοποιήσετε το OCR σε εφαρμογές Java με το Aspose, ακολουθώντας έναν αναλυτικό βήμα‑βήμα οδηγό.
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
 ### [Δημιουργία Αναζητήσιμου PDF από PNG – Πλήρης Οδηγός Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -184,3 +187,9 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 ### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

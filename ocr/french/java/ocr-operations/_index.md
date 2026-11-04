@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconnaître le texte PDF avec Aspose.OCR pour Java
@@ -46,7 +48,7 @@ Que vous travailliez avec des images complexes ou que vous ayez besoin d’une e
 
 ## Performing OCR with Language Selection in Aspose.OCR
 
-La précision est essentielle lorsqu’il s’agit d’extraction de texte, et Aspose.OCR pour Java le comprend parfaitement. Plongez dans le tutoriel Language Selection, où nous vous guidons à travers le processus d’obtention d’un OCR précis en sélectionnant la bonne langue. Suivez nos instructions pas à pas pour garantir que votre extraction de texte répond aux normes les plus élevées.
+La précision est essentielle lorsqu’il s’agit d'extraction de texte, et Aspose.OCR pour Java le comprend parfaitement. Plongez dans le tutoriel Language Selection, où nous vous guidons à travers le processus d’obtention d’un OCR précis en sélectionnant la bonne langue. Suivez nos instructions pas à pas pour garantir que votre extraction de texte répond aux normes les plus élevées.
 
 Qu’il s’agisse de documents multilingues ou d’exigences linguistiques spécifiques, ce tutoriel vous permet d’extraire le texte avec une précision chirurgicale. Dites adieu aux approximations et bonjour à la précision.
 
@@ -148,6 +150,20 @@ Apprenez à extraire du texte d'images PNG en Java avec Aspose OCR grâce à ce 
 Apprenez à transformer une image en PDF consultable en Java grâce à Aspose.OCR, avec un guide détaillé pas à pas.
 ### [Exécuter l'OCR sur une image avec Java – Extraire du texte thaï à partir d'un PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Apprenez à extraire du texte thaï d'images PNG en Java avec Aspose.OCR grâce à ce guide détaillé.
+### [Comment activer l’OCR en Java avec Aspose – Guide étape par étape](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Apprenez à activer facilement l’OCR dans vos applications Java grâce à Aspose, avec des instructions claires et détaillées.
+### [Créer un PDF consultable à partir d'une image avec Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Transformez une image en PDF consultable en Java avec Aspose.OCR. Suivez notre guide pas à pas pour générer rapidement des PDF recherchables.
+### [Comment utiliser l’OCR en Java – Extraire du texte d’image avec correction orthographique](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Apprenez à extraire du texte d'images en Java avec Aspose.OCR et à corriger automatiquement les fautes d'orthographe.
+### [Créer un PDF consultable à partir d’une image – Guide Java étape par étape](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Apprenez à transformer une image en PDF consultable avec Aspose.OCR pour Java, grâce à un guide détaillé pas à pas.
+### [Créer un PDF consultable avec Aspose OCR Java – Guide complet](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Apprenez à créer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet.
+### [Effectuer l'OCR sur PDF avec Aspose OCR en Java – Guide complet](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Apprenez à réaliser l'OCR sur des fichiers PDF en Java avec Aspose OCR grâce à ce guide complet.
+### [Reconnaître le texte d'image avec Java – Guide complet Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Guide complet pour extraire du texte d'images en Java avec Aspose OCR, incluant configuration et meilleures pratiques.
 
 ## Foire aux questions
 
@@ -177,13 +193,6 @@ R : Traitez les images TIFF par blocs ou utilisez le multithreading pour optimi
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Reconnaître le texte d'image avec Aspose OCR – Tutoriel complet Java OCR](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Créer un PDF consultable à partir d’une image avec OCR – Tutoriel Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
@@ -195,3 +204,9 @@ Apprenez à convertir des images en texte avec un traitement OCR par lots en Jav
 ### [Créer un PDF consultable avec Aspose OCR – Guide étape par étape](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Apprenez à créer des PDF consultables avec Aspose OCR grâce à un guide complet étape par étape.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

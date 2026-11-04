@@ -248,6 +248,28 @@ weight: 25
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – دليل كامل Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 ### [كيفية إلغاء ميل الصورة – دليل C# كامل لمعالجة ما قبل OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 دليل شامل يوضح خطوات تصحيح ميل الصور باستخدام C# لتحسين نتائج OCR قبل المعالجة.
+### [كيفية تصحيح ميل الصورة باستخدام Aspose OCR – دليل C# كامل](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+دليل شامل لتصحيح ميل الصورة باستخدام Aspose OCR في C#، يوضح إعداد الفلاتر وإزالة الانحراف لتحسين دقة التعرف.
+### [كيفية تنفيذ OCR دفعيًا في C# – طريقة سريعة لاستخراج نص ملفات PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [زيادة تباين الصورة في C# OCR – دليل كامل](./boost-image-contrast-in-c-ocr-complete-guide/)
+### [دليل استخراج النص السريع باستخدام OCR للـ PDF على دفعات مع GPU](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+استخدم GPU لتسريع عملية OCR على ملفات PDF متعددة دفعات واستخراج النص بسرعة وكفاءة.
+### [استخراج النص من الصورة باستخدام Aspose OCR – دليل C# كامل](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [تمكين تسريع GPU للتعرف الضوئي على الأحرف في C# – استخراج النص من الإيصالات](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+استفد من تسريع GPU لتحسين أداء OCR واستخراج النص من الإيصالات بسرعة ودقة.
+### [كيفية تصحيح ميل الصورة – دليل ما قبل المعالجة لـ Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+تعلم كيفية تصحيح ميل الصور باستخدام فلاتر ما قبل المعالجة في Aspose OCR لتحسين دقة التعرف.
+### [معالجة دفعة من صور OCR في C# – OCR متوازي لمسحات JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+### [تقليل استخدام ذاكرة GPU في OCR باستخدام C# – دليل شامل](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+دليل شامل لتقليل استهلاك ذاكرة GPU أثناء تشغيل OCR في C# باستخدام Aspose.OCR.
+### [التعرف على نص الصورة باستخدام Aspose OCR C# – دليل شامل للمعالجة المسبقة](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+دليل شامل يوضح كيفية تحسين دقة OCR عبر خطوات المعالجة المسبقة باستخدام Aspose OCR في C#.
+### [كيفية تصحيح ميل الصورة في C# – دليل OCR كامل](./how-to-deskew-image-in-c-complete-ocr-guide/)
+### [تشغيل OCR على صورة – دليل C# كامل](./run-ocr-on-image-complete-c-guide/)
+دليل شامل لتطبيق OCR على الصور باستخدام C# مع Aspose.OCR، خطوة بخطوة من التحميل إلى حفظ النتائج.
+### [كيفية تصحيح ميل الصورة في C# – دليل كامل لمعالجة ما قبل OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+تعلم كيفية إزالة ميل الصورة قبل OCR باستخدام Aspose.OCR في C# خطوة بخطوة لتحسين الدقة.
 ### [درجات الثقة في OCR باستخدام C# – دليل كامل](./ocr-confidence-scores-in-c-complete-guide/)
 تعرف على كيفية استخراج وتحليل درجات الثقة لنتائج OCR باستخدام Aspose.OCR في C# لتحسين الدقة واتخاذ قرارات أفضل.
 ### [معالجة مسبقة للصورة لتقنية OCR في C# – دليل كامل لـ Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)

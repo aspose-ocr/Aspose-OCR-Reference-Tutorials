@@ -100,7 +100,7 @@ weight: 25
 通过预处理图像提升 OCR 准确率，使用 Aspose.OCR 实现高效文本识别。
 
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-使用 Aspose.OCR for .NET 提升 OCR 准确度。纠正拼写、定制词典，轻松实现零错误的文本识别。
+使用 Aspose.OCR for .NET 提升 OCR 精度。纠正拼写、定制词典，轻松实现零错误的文本识别。
 
 
 
@@ -259,6 +259,43 @@ weight: 25
 ### [如何去倾斜图像 – 完整的 C# OCR 预处理指南](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 本指南详细讲解在 C# 中使用 Aspose.OCR 进行图像去倾斜的步骤，提升 OCR 前处理效果。
 
+### [使用 Aspose OCR 对图像去倾斜 – 完整 C# 指南](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+了解如何使用 Aspose OCR 在 C# 中对图像进行去倾斜处理，提高 OCR 精度的完整步骤指南。
+
+### [如何在 C# 中批量 OCR – 快速提取 PNG 文件文本](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+本教程展示如何使用 Aspose.OCR for .NET 在 C# 中批量处理 PNG 图像，实现快速文本提取。
+
+### [提升图像对比度的 C# OCR 完整指南](./boost-image-contrast-in-c-ocr-complete-guide/)
+通过提升图像对比度来改善 OCR 识别效果的完整指南，适用于 C# 开发者。
+
+### [使用 GPU 的批量 PDF OCR – 快速文本提取指南](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+利用 GPU 加速批量 PDF OCR，实现高速文本提取，提升处理效率。
+
+### [使用 Aspose OCR 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+详细的 C# 示例，演示如何使用 Aspose OCR 从图像中提取文本并处理结果。
+
+### [如何去倾斜图像 – Aspose OCR 预处理指南](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+了解如何使用 Aspose OCR 的预处理功能去除图像倾斜，提高 OCR 准确率的完整指南。
+
+### [在 C# 中启用 GPU 加速进行 OCR – 从收据提取文本](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+
+### [批量 OCR 图像（C#）– 并行处理 JPG 扫描](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+本教程演示如何使用 Aspose.OCR for .NET 在 C# 中并行处理多个 JPG 扫描图像，实现批量 OCR 提高效率。
+
+### [使用 Aspose OCR C# 识别文本图像 – 完整预处理指南](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+本指南详细介绍如何在 C# 中使用 Aspose OCR 进行图像预处理，以提升文本识别准确率。
+
+### [在 C# OCR 中限制 GPU 内存使用 – 完整指南](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+了解如何在使用 Aspose.OCR for .NET 时控制 GPU 内存占用，提升性能并防止资源耗尽的完整步骤指南。
+
+### [在 C# 中去倾斜图像 – 完整 OCR 指南](./how-to-deskew-image-in-c-complete-ocr-guide/)
+学习如何在 C# 中使用 Aspose.OCR 对图像进行去倾斜处理，提升 OCR 识别准确率的完整指南。
+
+### [在图像上运行 OCR – 完整 C# 指南](./run-ocr-on-image-complete-c-guide/)
+通过本完整 C# 指南，学习如何在图像上执行 OCR，涵盖加载、预处理、识别和结果保存的全部步骤。
+
+### [如何在 C# 中去倾斜图像 – 完整 OCR 预处理指南](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+通过本完整指南，学习在 C# 中使用 Aspose.OCR 对图像进行去倾斜预处理，提高 OCR 准确率。
 ### [C# 中的 OCR 置信度分数 – 完整指南](./ocr-confidence-scores-in-c-complete-guide/)
 了解如何在 Aspose.OCR for .NET 中获取并使用 OCR 置信度分数，以提升识别准确性并进行结果过滤。
 

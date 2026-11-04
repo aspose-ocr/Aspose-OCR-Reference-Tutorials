@@ -45,9 +45,6 @@ Kompletní průvodce definováním oblasti zájmu pro OCR v Javě s Aspose.OCR, 
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Tento tutoriál vás provede snadnou integrací a vysokou přesností při rozpoznávání čar. Zvyšte své projekty pomocí efektivity a spolehlivosti Aspose.OCR.
 
 ## [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
-
-Bez námahy extrahujte text z obrázků zadáním povolených znaků pomocí Aspose.OCR pro Java. Postupujte podle našeho podrobného průvodce pro účinnou integraci, která zajistí bezproblémové rozpoznávání textu. Vylepšete své Java aplikace pomocí funkcí Aspose.OCR.
-
 ### [Jak používat OCR s GPU akcelerací v Javě – krok za krokem průvodce](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Využijte GPU akceleraci pro rychlé OCR v Javě. Tento podrobný průvodce ukazuje, jak implementovat a optimalizovat rozpoznávání textu s vysokou rychlostí.
 
@@ -170,6 +167,34 @@ Využijte GPU akceleraci pro rychlé rozpoznávání textu v Java OCR. Příklad
 Rozpoznávejte text z PNG souborů pomocí Aspose.OCR pro Java. Jednoduchá integrace a vysoká přesnost pro vaše projekty.
 ### [Předzpracování obrázku pro OCR – Zvyšte přesnost extrakce textu v Javě](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Naučte se, jak předzpracovat obrázky pro OCR v Javě a výrazně zlepšit přesnost rozpoznávání textu.
+### [Jak provádět hromadné OCR v Javě s paralelním zpracováním](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Zrychlete rozpoznávání textu hromadným OCR v Javě s paralelním zpracováním pro maximální výkon.
+### [Rozpoznání textu z obrázku pomocí GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Zrychlete OCR pomocí GPU v Aspose OCR pro Java a extrahujte text z obrázků s vysokou rychlostí.
+### [Jak provést OCR v Javě – automatické rozpoznání jazyka a extrakce textu](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Naučte se, jak v Javě provádět OCR s automatickým rozpoznáním jazyka a extrahovat text rychle a přesně.
+### [Jak zlepšit OCR pomocí pokročilého předzpracování v Javě](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Zvyšte přesnost OCR v Javě pomocí pokročilých technik předzpracování obrázků.
+### [Jak používat Aspose OCR pro obrázky s více jazyky](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Naučte se, jak rozpoznávat text v obrázcích obsahujících více jazyků pomocí Aspose OCR pro Java.
+### [Průvodce Aspose OCR GPU: Zrychlete extrakci textu z PNG obrázků](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Zvyšte rychlost rozpoznávání textu v PNG souborech pomocí GPU akcelerace v Aspose.OCR.
+### [Rozpoznávání textu z obrázku pomocí Java OCR – Průvodce paralelním zpracováním](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Zrychlete rozpoznávání textu z obrázků pomocí paralelního zpracování v Java OCR. Vysoká rychlost a přesnost.
+### [Jak zvýšit kontrast v OCR – Kompletní průvodce předzpracováním v Javě](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Naučte se, jak pomocí Java vylepšit kontrast obrázků pro přesnější OCR a optimalizovat předzpracování.
+
+### [Rozpoznání textu na obrázku v Javě s GPU akcelerací – kompletní tutoriál](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Využijte GPU akceleraci pro rychlé a přesné rozpoznávání textu na obrázcích v Javě. Kompletní průvodce krok za krokem.
+
+### [Jak získat OCR v Javě – Kompletní průvodce extrakcí surového textu](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Kompletní návod, jak v Javě získat OCR a extrahovat surový text s vysokou přesností.
+
+### [Extrahování textu z formuláře pomocí Aspose OCR pro Java – Kompletní průvodce](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Naučte se, jak pomocí Aspose OCR pro Java extrahovat text z formulářových polí a automatizovat zpracování dokumentů.
+
+### [Vytvoření prohledávatelného PDF pomocí Java OCR – Kompletní průvodce](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Naučte se, jak pomocí Aspose.OCR pro Java vytvořit prohledávatelný PDF soubor s vysokou přesností a efektivitou.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

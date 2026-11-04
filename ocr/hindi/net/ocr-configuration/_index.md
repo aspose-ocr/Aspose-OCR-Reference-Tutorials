@@ -79,6 +79,16 @@ Aspose OCR को ऑफ़लाइन मोड में C# एप्लि�
 C# में इमेज लोड करके OCR और स्पेल‑चेक कैसे करें, इसका पूरा मार्गदर्शन।
 ### [C# में OCR इंजन बनाएं – पूर्ण गाइड](./create-ocr-engine-in-c-complete-guide/)
 C# में Aspose.OCR का उपयोग करके OCR इंजन सेटअप और कॉन्फ़िगर करने की पूरी प्रक्रिया सीखें।
+### [Aspose OCR के साथ GPU मेमोरी सीमा सेट करें – C# GPU गाइड](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aspose OCR में GPU मेमोरी सीमा कैसे सेट करें, C# कोड के साथ विस्तृत गाइड।
+### [Aspose OCR GPU के साथ इमेज से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aspose OCR GPU का उपयोग करके इमेज से तेज़ी से टेक्स्ट निकालने के लिए पूर्ण C# कोड उदाहरण और चरण‑बद्ध मार्गदर्शन।
+### [Aspose OCR में लाइसेंस सेट करने का तरीका – पूर्ण C# गाइड](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR के लिए लाइसेंस सेट करने के चरण‑बद्ध निर्देश और पूर्ण C# कोड उदाहरण।
+### [C# में OCR कैसे करें – बहु‑भाषा गाइड](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR का उपयोग करके C# में कई भाषाओं के साथ इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [इमेज से टेक्स्ट C# – Aspose OCR (डाउनलोड अक्षम)](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aspose OCR का उपयोग करके C# में इमेज को टेक्स्ट में बदलें, जबकि डाउनलोड फ़ीचर को निष्क्रिय रखें।
 
 ### कॉमन यूज़ केस
 - **टेक्स्ट इमेज निकालें** स्कैन किए गए इनवॉइस से टेक्स्ट निकालें ताकि ऑटोमेटेड अकाउंटिंग हो सके।

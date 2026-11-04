@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznání textu PDF pomocí Aspose.OCR pro Java
@@ -139,6 +141,20 @@ Kompletní návod, jak pomocí Aspose OCR v Javě rozpoznat a extrahovat text z 
 ### [Rozpoznání textu z PNG pomocí Aspose OCR – Kompletní Java průvodce](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [Spuštění OCR na obrázku v Javě – Extrahování thajského textu z PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Naučte se pomocí Aspose.OCR v Javě rozpoznat thajský text v PNG obrázcích a získat přesné výsledky.
+### [Jak povolit OCR v Javě s Aspose – krok za krokem průvodce](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Naučte se, jak v Javě aktivovat OCR pomocí Aspose, krok po kroku, včetně nastavení a ukázek kódu.
+### [Vytvořit prohledávatelný PDF z obrázku pomocí Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Naučte se převést obrázek na prohledávatelný PDF pomocí Aspose.OCR v Javě.
+### [Jak používat OCR v Javě – Extrahovat text z obrázku s korekcí pravopisu](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Naučte se, jak pomocí Aspose.OCR v Javě extrahovat text z obrázku a automaticky opravit pravopisné chyby pro vyšší přesnost.
+### [Vytvoření prohledávatelného PDF z obrázku – krok za krokem průvodce pro Javu](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.OCR převést obrázek na prohledávatelný PDF soubor v Javě, krok po kroku.
+### [Provést OCR na PDF s Aspose OCR v Javě – Kompletní průvodce](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletní průvodce prováděním OCR na PDF souborech pomocí Aspose OCR v Javě, včetně nastavení a optimalizace.
+### [Vytvořit prohledávatelný PDF s Aspose OCR Java – Kompletní průvodce](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletní průvodce vytvořením prohledávatelných PDF pomocí Aspose OCR v Javě, včetně nastavení, optimalizace a praktických příkladů.
+### [Rozpoznání textu z obrázku pomocí Java – Kompletní Aspose OCR průvodce](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletní průvodce rozpoznáním textu z obrázků v Javě pomocí Aspose.OCR, včetně nastavení, optimalizace a praktických příkladů.
 
 ## Často kladené otázky
 
@@ -163,12 +179,6 @@ A: Zpracovávejte TIFF obrázky po částech nebo použijte vícevláknové zpra
 **Testováno s:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní Java OCR tutoriál](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 ### [Jak narovnat obrázek — krok‑za‑krokem průvodce předzpracováním OCR](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 
@@ -190,3 +200,9 @@ Umožňuje hromadně převádět obrázky na text pomocí Aspose.OCR v Javě.
 ### [Vytvoření prohledávatelného PDF pomocí Aspose OCR – průvodce krok za krokem](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Naučte se, jak pomocí Aspose OCR převést PDF na prohledávatelný formát v několika jednoduchých krocích.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

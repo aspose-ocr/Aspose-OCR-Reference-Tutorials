@@ -100,6 +100,16 @@ Leer hoe je OCR-functionaliteit in C# kunt uitschakelen voor offline verwerking 
 Leer hoe je afbeeldingen laadt en OCR toepast met spell‑check in C# met Aspose.OCR voor optimale tekstherkenning.
 ### [Maak OCR-engine in C# – Complete gids](./create-ocr-engine-in-c-complete-guide/)
 Leer stap‑voor‑stap hoe je een OCR‑engine in C# maakt en configureert met Aspose.OCR voor optimale tekstherkenning.
+### [GPU‑geheugenlimiet instellen met Aspose OCR – C# GPU‑gids](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Leer hoe je de GPU‑geheugenlimiet configureert voor optimale OCR‑prestaties in C# met Aspose OCR.
+### [Tekst extraheren uit afbeelding met Aspose OCR GPU – Volledige C#-gids](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Leer hoe je met Aspose OCR GPU en C# tekst uit afbeeldingen haalt met maximale prestaties.
+### [Hoe een licentie instellen in Aspose OCR – Complete C#-gids](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Leer hoe je een licentie configureert voor Aspose OCR in C# voor optimale prestaties.
+### [Hoe OCR uit te voeren in C# – Meertalige gids](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ontgrendel meertalige OCR-mogelijkheden in C# met Aspose.OCR. Leer stap‑voor‑stap tekst uit verschillende talen te extraheren.
+### [Afbeelding naar tekst C# – Aspose OCR met uitgeschakelde download](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt terwijl je de downloadfunctionaliteit uitschakelt.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

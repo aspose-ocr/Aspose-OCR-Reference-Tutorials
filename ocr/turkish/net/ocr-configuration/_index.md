@@ -85,6 +85,16 @@ Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı b�
 C# ile görüntü yükleyerek OCR ve yazım denetimini birleştiren kapsamlı bir rehber.
 ### [C#'ta OCR Motoru Oluşturma – Tam Kılavuz](./create-ocr-engine-in-c-complete-guide/)
 Aspose.OCR ile C# uygulamanızda tam OCR motoru oluşturmayı adım adım öğrenin.
+### [Aspose OCR ile GPU bellek sınırını ayarlama – C# GPU Kılavuzu](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aspose OCR’da GPU bellek kullanımını sınırlayarak performansı yönetin ve C# uygulamanızda bellek yönetimini optimize edin.
+### [Aspose OCR GPU ile Görüntüden Metin Çıkarma – Tam C# Kılavuzu](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aspose OCR GPU desteğiyle C# kullanarak görüntülerden yüksek hızlı metin çıkarın.
+### [Aspose OCR'da Lisans Ayarlama – Tam C# Kılavuzu](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR için lisans dosyasını nasıl ayarlayacağınızı adım adım gösteren kapsamlı C# rehberi.
+### [C#'ta OCR Nasıl Yapılır – Çok Dilli Kılavuz](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğrenin.
+### [görüntüden metne c# – Aspose OCR ile indirme devre dışı](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aspose OCR kullanarak indirme özelliği devre dışı bırakılmış bir şekilde C# ile görüntüden metin çıkarma örneği.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

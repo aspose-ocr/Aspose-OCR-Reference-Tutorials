@@ -82,6 +82,16 @@ Scopri come disattivare la funzionalità OCR in un'applicazione C# per operazion
 Scopri come caricare immagini per OCR in C# con Aspose OCR e integra la correzione ortografica in modo completo.
 ### [Crea motore OCR in C# – Guida completa](./create-ocr-engine-in-c-complete-guide/)
 Scopri come creare e configurare un motore OCR in C# con Aspose.OCR, passo dopo passo, per estrarre testo da immagini.
+### [Imposta il limite di memoria GPU con Aspose OCR – Guida C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Scopri come limitare l'uso della memoria GPU in Aspose OCR usando C# per ottimizzare le prestazioni.
+### [Estrai testo da immagine con Aspose OCR GPU – Guida completa C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Scopri come utilizzare la GPU con Aspose OCR in C# per estrarre testo da immagini in modo rapido ed efficiente.
+### [Come impostare la licenza in Aspose OCR – Guida completa C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Scopri come impostare correttamente la licenza Aspose OCR in C# per sbloccare tutte le funzionalità.
+### [Come eseguire OCR in C# – Guida multilingua](./how-to-perform-ocr-in-c-multi-language-guide/)
+Scopri come eseguire OCR in C# supportando più lingue con Aspose.OCR.
+### [Immagine a testo C# – Aspose OCR con download disabilitato](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Scopri come trasformare immagini in testo con Aspose OCR in C#, mantenendo il download disabilitato per maggiore sicurezza.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  
