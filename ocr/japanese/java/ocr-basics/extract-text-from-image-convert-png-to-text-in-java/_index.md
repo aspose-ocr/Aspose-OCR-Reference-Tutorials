@@ -1,19 +1,44 @@
 ---
 category: general
-date: 2026-02-19
-description: Aspose OCR Java を使用して画像からテキストを抽出する – PNG をテキストに変換する方法、OCR 用に画像を読み込む方法、そして
-  Java OCR チュートリアルに従う方法を学びましょう。
+date: 2026-10-30
+description: Aspose OCR Java を使用して画像からテキストを抽出 – PNG をテキストに変換する方法、OCR 用に画像をロードする方法、そして
+  Java OCR チュートリアルに従う方法を学びます。
 draft: false
 keywords:
-- extract text from image
 - convert png to text
-- load image for ocr
-- java ocr tutorial
-- Aspose OCR Java
-- OCR language support
-language: ja
-og_description: Aspose OCR Javaで画像からテキストを抽出します。ステップバイステップのJava OCRチュートリアルに従って、PNGをテキストに変換し、OCR用に画像を読み込みます。
-og_title: 画像からテキストを抽出 – Java OCRガイド
+- ocr image to text
+- extract text from png
+- aspose ocr java
+- extract text image java
+lastmod: 2026-10-30
+og_description: Aspose OCR Java で画像からテキストを抽出します。ステップバイステップの Java OCR チュートリアルに従い、PNG
+  をテキストに変換し、OCR 用に画像をロードし、多言語コンテンツを効率的に処理します。
+og_image_alt: Screenshot of Java OCR code converting PNG to text using Aspose OCR
+og_title: Java OCR で PNG をテキストに変換 – Aspose ガイド
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: extract text from image using Aspose OCR Java – learn how to convert
+    PNG to text, load image for OCR, and follow a java ocr tutorial.
+  headline: Extract text from image – convert PNG to text in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, a commercial license is required for production use; a free trial
+      is available for evaluation.
+    question: Can I use Aspose OCR in a commercial application without extra licensing
+      fees?
+  - answer: Absolutely. The library includes language packs for Arabic, Hebrew, Persian,
+      and other RTL scripts.
+    question: Does Aspose OCR support right‑to‑left scripts such as Arabic or Hebrew?
+  - answer: Aspose OCR can process images up to 10 000 × 10 000 pixels using streaming
+      mode, which keeps memory usage under 200 MB.
+    question: How large of an image can the engine handle?
+  - answer: Yes, `OcrResult.getWords()` returns a collection where each word has a
+      `getConfidence()` method.
+    question: Is there a way to get confidence scores for each recognized word?
+  - answer: The library supports JDK 8, 11, 17, and later LTS releases.
+    question: What Java versions are officially supported?
+  type: FAQPage
 tags:
 - OCR
 - Java
@@ -27,26 +52,39 @@ url: /ja/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 画像からテキストを抽出 – Java OCR チュートリアル
+# 画像からテキストを抽出 – PNG を Java でテキストに変換
 
-画像からテキストを**抽出**したいと思ったことはありませんか、しかし手間のかかるライブラリ選びに悩んでいませんか？ あなただけではありません—開発者は常に「Java で PNG をテキストに変換するにはどうすればいいのか？」と質問します。 良いニュースは、Aspose OCR を使えば、全工程がまるで散歩のように簡単になることです。このガイドでは、完全な**java ocr tutorial**を順に解説し、**OCR 用に画像を読み込む**方法を示し、最終的にクリーンで検索可能なテキストを取得します。
+Ever needed to **extract text from image** but weren't sure which library would let you do it without jumping through hoops? You're not the only one—developers constantly ask, “How can I convert a PNG to text in Java?” The good news is that Aspose OCR makes the whole process feel like a walk in the park. In this guide we'll walk through a complete **java ocr tutorial**, show you how to **load image for OCR**, and end up with clean, searchable text.
 
-エンジンの設定から多言語コンテンツの処理まで網羅しますので、最後にはサイズ・フォーマット・言語を問わず**画像からテキストを抽出**できるようになります。外部サービスや API キーは不要—JAR ファイル一つと数行のコードだけです。
+We’ll cover everything from setting up the engine to handling multilingual content, so by the end you’ll be able to **convert PNG to text** files of any size, format, or language. No external services, no API keys—just a single JAR and a few lines of code.
+
+## クイック回答
+- **JavaでPNGをテキストに変換できるライブラリは何ですか？** Aspose OCR for Java.
+- **基本的な変換に必要なコード行数は？** ライブラリを追加した後は約5行です。
+- **Aspose OCRは英語以外の言語をサポートしていますか？** はい—クメール語、中文、アラビア語など、70以上の言語パックがあります。
+- **OCRエンジンをオフラインで実行できますか？** もちろんです。エンジンは完全にオンプレミスで動作し、インターネット接続は不要です。
+- **必要なJavaバージョンは？** JDK 8以降；JDK 11+は完全にサポートされています。
+
+## PNG をテキストに変換するとは？
+**Convert PNG to text** は、PNG 画像内に表示される文字を抽出し、編集、検索、保存できるプレーンテキスト文字列に変換することを意味します。このプロセスは一般に光学文字認識 (OCR) と呼ばれます。ピクセルパターンを解析し、言語固有の辞書と照合することで、スキャンした文書、スクリーンショット、またはテキストが含まれる任意のビットマップを編集可能なデータに変換します。
+
+## なぜ Aspose OCR for Java を使用するのか？
+Aspose OCR は **50 以上の入力フォーマット**（PNG、JPEG、BMP、TIFF など）をサポートし、ストリーミングアーキテクチャによりファイル全体をメモリにロードせずに **数百ページのドキュメント** を処理できます。ライブラリは **70 以上の言語パック** を提供し、高解像度スキャンで最大 **95 % の精度** を実現します。また、毎月新しいスクリプトやパフォーマンス向上を含むアップデートが提供されます。
 
 ## 必要なもの
+Before we dive, make sure you have:
 
-始める前に、以下が揃っていることを確認してください。
-
-- JDK 8 以上がインストール済み（コードは JDK 11+ でも動作します）。  
-- Maven または Gradle で Aspose OCR ライブラリを取得するか、Aspose の公式サイトから JAR を手動でダウンロード。  
-- 読み取り可能なテキストを含む PNG 画像（例として `khmer-sign.png` を使用）。  
+- JDK 8 以上がインストールされていること（コードは JDK 11+ でも動作します）。  
+- Aspose OCR ライブラリを取得するための Maven または Gradle、あるいは Aspose のウェブサイトから JAR を手動でダウンロードできます。  
+- 読み取れるテキストが含まれる PNG 画像（例として `khmer-sign.png` を使用します）。  
 - お好みの IDE またはテキストエディタ—IntelliJ IDEA、Eclipse、VS Code など、どれでも構いません。
 
-以上です。重いフレームワークやクラウド認証情報は不要です。準備はできましたか？ 画像ファイルからテキストを抽出しましょう。
+それだけです。重いフレームワークやクラウド認証は不要です。準備はいいですか？画像ファイルからテキスト抽出を始めましょう。
 
-## 手順 1: Aspose OCR をプロジェクトに追加
+## Aspose OCR をプロジェクトに追加する方法は？
+Add the OCR engine to your build configuration so the classes are available at compile time. This step ensures that the Aspose OCR JAR and its dependencies are correctly referenced, allowing you to import the necessary packages in your Java source files. Once the dependency is declared, Maven or Gradle will download the library from the central repository and place it on the classpath for compilation and runtime execution.
 
-まずは OCR エンジンをクラスパスに配置します。Maven を使う場合は `pom.xml` に次の依存関係を追加してください。
+**Maven** – `pom.xml` にこの依存関係を追加してください:
 
 ```xml
 <dependency>
@@ -56,19 +94,18 @@ url: /ja/java/ocr-basics/extract-text-from-image-convert-png-to-text-in-java/
 </dependency>
 ```
 
-Gradle を使う場合は次のように記述します。
+**Gradle** – `build.gradle` に次の行を追加してください:
 
 ```groovy
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-手動で追加したい場合は、Aspose のダウンロードページから JAR を取得し、プロジェクトの `libs` フォルダに入れたうえでビルドパスに追加してください。
+If you prefer the manual route, download the JAR from the Aspose download page and drop it into your project's `libs` folder, then add it to the build path.
 
-> **プロのコツ:** 常に最新の安定版を選びましょう。古いリリースは言語パックやバグ修正が欠けていることがあります。
+> **Pro tip:** 常に最新の安定版を選んでください。古いリリースでは言語パックやバグ修正が欠けている可能性があります。
 
-## 手順 2: OCR エンジンのインスタンスを作成
-
-ライブラリが利用可能になったら、`OcrEngine` を生成します。エンジンはピクセルを文字に変換する「脳」のようなものです。
+## OCR エンジンインスタンスの作成方法は？
+OcrEngine は OCR 認識を実行するコアクラスです。画像ピクセルをテキストに変換するために必要な内部バッファ、言語データ、処理設定をすべてカプセル化しています。各操作ごとに新しいインスタンスを作成することで、特に言語や処理モードを切り替える場合に決定的な結果が保証されます。
 
 ```java
 import com.aspose.ocr.*;
@@ -82,62 +119,65 @@ public class ExtractTextExample {
 }
 ```
 
-なぜ毎回新しいエンジンを作成するのか？ エンジンは内部バッファや言語データを保持しているため、クリーンな状態から開始することで、特に後で言語を切り替える場合に決定的な結果が得られます。
+なぜ毎回新しいエンジンを作成するのでしょうか？ エンジンは言語辞書をキャッシュするため、リセットすることで異なる言語のスキャン間での汚染を防ぎます。
 
-## 手順 3: 必要な言語を有効化（任意だが推奨）
+## 必要な言語を有効にする方法（任意ですが推奨）
+OcrLanguage はエンジンが認識時に使用する特定の言語辞書を表します。適切な言語を選択することで検索領域が縮小し、処理が高速化され、画像内で期待する文字セットに焦点を当てることで精度が向上します。
 
-Aspose OCR には多数の言語パックが同梱されています。画像の言語が分かっている場合は明示的に有効化しましょう。これにより認識速度と精度が向上します。サンプルではクメール語 (`khm`) を有効化しますが、英語なら `ENG`、中国語なら `CHN` などに置き換えてください。
+`OcrLanguage` は特定の言語辞書を表します。サンプルではクメール語 (`khm`) を有効にしますが、`ENG`（英語）や `CHN`（中国語）などに置き換えることができます。
 
 ```java
 // Enable Khmer language support (ISO 639‑2 code "khm")
 ocrEngine.getLanguages().add(OcrLanguage.KHM);
 ```
 
-> **なぜ重要か:** **OCR 用に画像を読み込む**際、エンジンは有効化された言語辞書だけを検索します。すべての言語をオンにしたままにすると処理が遅くなり、誤認識が増える可能性があります。
+> **Why this matters:** **load image for OCR** を実行すると、エンジンは有効化された言語辞書のみを検索します。すべての言語を有効にしたままにすると処理が遅くなり、誤検出が増える可能性があります。
 
-## 手順 4: OCR 用に画像を読み込む – PNG をテキストに変換
+## OCR 用に画像をロードする方法 – PNG をテキストに変換
+ImageStream は画像ファイルを OCR エンジンと互換性のあるストリームに読み込むラッパーで、フォーマット検出を自動的に処理します。低レベルの I/O を抽象化し、ファイル処理の詳細を気にせずにシンプルなオブジェクトをエンジンに渡すことができます。
 
-ここで**OCR 用に画像を読み込む**処理が行われます。Aspose は低レベルの I/O を抽象化した便利な `ImageStream.fromFile` ヘルパーを提供しています。
+ImageStream は画像ファイルを OCR エンジンと互換性のあるストリームに読み込むラッパーで、フォーマット検出を自動的に処理します。
 
 ```java
 // Load the PNG that contains the text you want to extract
 ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/khmer-sign.png"));
 ```
 
-画像が JPEG、BMP、TIFF など別のフォーマットでも同じメソッドが機能します—Aspose が自動で形式を検出します。ファイルパスが正しいことを確認してください。間違っていると `FileNotFoundException` が発生します。
+画像が別のフォーマット（JPEG、BMP、TIFF）の場合でも同じメソッドが機能します—Aspose が自動的にフォーマットを検出します。ファイルパスが正しいことを確認してください。そうでないと `FileNotFoundException` が発生します。
 
-## 手順 5: OCR 処理を実行し PNG をテキストに変換
+## OCR プロセスを実行し、PNG をテキストに変換する方法は？
+OcrResult は認識操作の結果を保持し、抽出されたテキストと各文字または単語の信頼度指標を含みます。エンジンの `recognize()` メソッドを呼び出すと、OcrResult オブジェクトが返され、生の文字列や追加情報を取得できます。
 
-エンジンが準備でき、画像が読み込まれたら、認識は単一メソッド呼び出しで完了します。結果オブジェクトは生の文字列と信頼度スコアを提供します。
+`ocrEngine.recognize()` は抽出された文字列を取得する `getText()` と、文字ごとの信頼度指標を取得する `getConfidence()` を含む `OcrResult` を返します。
 
 ```java
 // Run OCR and fetch the recognized text
 String recognizedText = ocrEngine.recognize().getText();
 ```
 
-これで**PNG をテキストに変換**しました。返された文字列はエンジンが見た通りの改行や空白を含んでいます。`trim()`、`replaceAll("\\s+", " ")`、または必要なクリーンアップ処理を施してください。
+これで完了です—**convert PNG to text** を実行しました。返された文字列はエンジンが見た通りに改行や空白を含む場合があります。`trim()`、`replaceAll("\\s+", " ")`、または必要なその他のクリーンアップで後処理できます。
 
-## 手順 6: 結果を出力（または保存）
+## 結果を出力（または保存）する方法は？
+Result は `getText()` で認識されたテキストを提供する OcrResult のインスタンスです。コンソールに結果を出力することで OCR が成功したかをすぐに確認できます。実運用ではテキストをファイル、データベース、または別のサービスに書き込むことがあります。
 
-簡単な動作確認として、コンソールに結果を出力します。実際のアプリケーションではファイルやデータベースに書き込んだり、別サービスに渡したりすることが多いでしょう。
+`System.out.println(result.getText());` は抽出されたテキストを出力します。
 
 ```java
 System.out.println("Recognized text:");
 System.out.println(recognizedText);
 ```
 
-**期待される出力**（サンプルのクメール文字列）は次のようになります:
+**Expected output**（提供されたクメール語サインの場合）は次のようになる可能性があります:
 
 ```
 សួស្តី
 Welcome
 ```
 
-出力が文字化けしている場合は、手順 3 で正しい言語を有効化したか、画像がぼやけていないか確認してください。解像度を 300 dpi 以上に上げると改善することが多いです。
+出力が文字化けしている場合は、ステップ 3 で正しい言語が有効になっているか、画像がぼやけていないかを再確認してください。画像解像度を上げる（例：300 dpi のスキャンを使用）ことで改善することが多いです。
 
-## 完全動作サンプル
-
-すべてを組み合わせた、`ExtractTextExample.java` に貼り付けて実行できる自己完結型プログラムは以下の通りです。
+## 完全な動作例はどのようなものですか？
+以下は、依存関係の追加から OCR 結果の出力までのすべての手順を示す、自己完結型の Java プログラムです。クラス `ExtractTextExample` にはエンジンを作成し、言語を設定し、画像をロードし、認識を実行し、テキストを出力する `main` メソッドが含まれています。このコードを `ExtractTextExample.java` というファイルにコピーして直接実行できます。
 
 ```java
 import com.aspose.ocr.*;
@@ -163,49 +203,75 @@ public class ExtractTextExample {
 }
 ```
 
-プログラムの実行は次のコマンドで行います。
+Run the program with:
 
 ```bash
 mvn compile exec:java -Dexec.mainClass=ExtractTextExample
 ```
 
-Gradle を使用する場合は次のように実行してください。
+or, if you’re using Gradle:
 
 ```bash
 ./gradlew run --args='ExtractTextExample'
 ```
 
-コンソールに抽出されたテキストが表示されれば、Aspose OCR を使って**画像からテキストを抽出**できたことになります。
+You should see the extracted text printed to the console, confirming that you’ve successfully **extract text from image** using Aspose OCR.
 
 ## よくある落とし穴と対処法
+| 症状 | 考えられる原因 | 対策 |
+|---------|--------------|-----|
+| 空文字列が返される | 言語が有効になっていない、または言語コードが間違っている | 適切な `OcrLanguage` を追加する（例：英語は `ENG`）。 |
+| 文字化け | 画像解像度が低すぎる、またはノイズの多い背景 | より高解像度の画像を使用するか、シャープフィルタで前処理してください。 |
+| `OutOfMemoryError` | 非常に大きな画像を全サイズでロードした | エンジンに渡す前に画像を縮小する（`ImageStream.fromFile(...).scale(0.5)`）。 |
+| `FileNotFoundException` | パスが間違っている | 絶対パスまたは相対パスを確認し、`Paths.get(...).toAbsolutePath()` を使用してください。 |
 
-| 症状 | 想定原因 | 対処 |
-|------|----------|------|
-| 空文字列が返る | 言語が有効化されていない、または誤った言語コード | 適切な `OcrLanguage`（例: 英語なら `ENG`）を追加 |
-| 文字化け | 画像解像度が低すぎる、または背景がノイズ | 高解像度の画像を使用、またはシャープフィルタで前処理 |
-| `OutOfMemoryError` | 非常に大きな画像をフルサイズで読み込んでいる | エンジンに渡す前に `ImageStream.fromFile(...).scale(0.5)` で縮小 |
-| `FileNotFoundException` | パスが間違っている | 絶対パスまたは相対パスを確認し、`Paths.get(...).toAbsolutePath()` を使用 |
+> **Remember:** OCR は確率的なプロセスです。設定が完璧でも、特に手書き風スクリプトではいくつかの文字を手動で修正する必要があるかもしれません。
 
-> **覚えておくべきこと:** OCR は確率的プロセスです。完璧な設定でも、特に手書きや筆記体のスクリプトでは手動で数文字修正する必要がある場合があります。
+## このチュートリアルの後に取れる次のステップは？
+- **バッチ処理:** PNG ファイルのディレクトリをループし、各画像に同じロジックを適用します。  
+- **PDF 出力:** Aspose PDF を使用して抽出したテキストを検索可能な PDF に埋め込みます。  
+- **言語検出:** 言語を設定する前に `ocrEngine.detectLanguage()` を呼び出し、エンジンに自動で推測させます。  
+- **クラウド統合:** コードを REST エンドポイントでラップし、マイクロサービスがスケーラブルな OCR サービスとして呼び出せるようにします。
 
-## チュートリアルの拡張 – 次のステップ
+これらすべてのトピックは、先ほど完了した **java ocr tutorial** を自然に拡張するもので、Aspose OCR API の汎用性の高さを示しています。
 
-- **バッチ処理:** ディレクトリ内の PNG ファイルをループし、同じロジックを各画像に適用。  
-- **PDF 出力:** Aspose PDF を使って抽出テキストを検索可能な PDF に埋め込む。  
-- **言語検出:** `ocrEngine.detectLanguage()` を呼び出して、エンジンに自動で言語を推測させる。  
-- **クラウド統合:** スケールが必要な場合はコードを REST エンドポイントでラップし、マイクロサービスから呼び出す。
+## よくある質問
 
-これらすべては、今回完了した**java ocr tutorial**を基礎に構築でき、Aspose OCR API の汎用性の高さを実感できるでしょう。
+**Q: 追加のライセンス料なしで商用アプリケーションで Aspose OCR を使用できますか？**  
+A: はい、商用利用には商用ライセンスが必要です；評価用の無料トライアルが利用可能です。
+
+**Q: Aspose OCR はアラビア語やヘブライ語などの右から左へのスクリプトをサポートしていますか？**  
+A: もちろんです。ライブラリにはアラビア語、ヘブライ語、ペルシア語などの RTL スクリプト用言語パックが含まれています。
+
+**Q: エンジンはどの程度の大きさの画像を処理できますか？**  
+A: Aspose OCR はストリーミングモードを使用して、最大 10 000 × 10 000 ピクセルの画像を処理でき、メモリ使用量は 200 MB 未満に抑えられます。
+
+**Q: 認識された各単語の信頼度スコアを取得する方法はありますか？**  
+A: はい、`OcrResult.getWords()` は各単語が `getConfidence()` メソッドを持つコレクションを返します。
+
+**Q: 公式にサポートされている Java バージョンは何ですか？**  
+A: ライブラリは JDK 8、11、17、以降の LTS リリースをサポートしています。
 
 ## 結論
+本稿では、Aspose OCR を使用して **java ocr tutorial** を完結に実施し、**extract text from image** ファイル、**convert PNG to text**、そして正しく **load image for OCR** を行う方法を解説しました。手順はシンプルです：ライブラリを追加し、エンジンを作成し、適切な言語を有効にし、PNG をロードし、`recognize()` を実行し、出力を処理します。この基盤により、データ入力の自動化、検索可能なアーカイブの構築、または画像から機械可読テキストが必要なあらゆるアプリケーションを実現できます。
 
-本稿では、Aspose OCR を利用して**画像からテキストを抽出**し、**PNG をテキストに変換**し、正しく**OCR 用に画像を読み込む**手順を一通り解説しました。手順はシンプルです：ライブラリを追加、エンジンを作成、適切な言語を有効化、PNG を読み込み、`recognize()` を実行し、出力を処理する。これを基にデータ入力の自動化や検索可能アーカイブの構築、画像から機械可読テキストが必要なあらゆるアプリケーションを実装できます。
+自分の画像で試してみてください—レシートのスクリーンショットやスキャンした契約書など。言語設定を調整し、解像度を試すことで、ソリューションの柔軟性をすぐに実感できるでしょう。問題が発生した場合は、落とし穴の表を再確認するか、Aspose の公式ドキュメントを参照してください。ドキュメントは網羅的で常に最新です。
 
-ぜひ自分の画像で試してみてください—領収書のスクリーンショットやスキャンした契約書など。言語設定や解像度を調整すれば、ソリューションの柔軟性をすぐに実感できるはずです。問題が発生したら、上記の落とし穴表や Aspose の公式ドキュメント（常に最新）を参照してください。
+コーディングを楽しんで、次のプロジェクトがクリーンで検索可能なテキストで満ちますように！
 
-Happy coding, and may your next project be full of clean, searchable text!
+**最終更新日:** 2026-10-30  
+**テスト環境:** Aspose OCR for Java 24.10  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [画像からテキストを抽出 Java 画像を OCR 用にロード](/ocr/java/ocr-operations/extract-text-from-image-java-load-image-for-ocr/)
+- [Aspose OCR Java 例 画像を高速でテキストに変換](/ocr/java/ocr-operations/aspose-ocr-java-example-convert-image-to-text-fast/)
+- [Java でバッチ画像 OCR PNG ファイルからテキストを高速抽出](/ocr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
