@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận dạng Văn bản PDF với Aspose.OCR cho Java
@@ -149,6 +151,10 @@ Khám phá cách nhận dạng văn bản từ ảnh PNG bằng Aspose OCR trong
 Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR cho Java, bao gồm cấu hình và lưu trữ kết quả.
 ### [Chạy OCR trên hình ảnh với Java – Trích xuất văn bản Thai từ PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Khám phá cách trích xuất văn bản Thai từ ảnh PNG bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Cách bật OCR trong Java với Aspose – Hướng dẫn từng bước](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Hướng dẫn chi tiết cách kích hoạt OCR trong Java bằng Aspose, bao gồm cài đặt, cấu hình và thực thi các bước cơ bản.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh với Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Biến hình ảnh thành PDF có thể tìm kiếm nhanh chóng bằng Aspose.OCR cho Java, nâng cao khả năng truy xuất và chỉnh sửa tài liệu.
 
 ## Câu hỏi Thường gặp
 
@@ -173,12 +179,6 @@ A: Xử lý các hình ảnh TIFF theo từng phần hoặc sử dụng đa lu�
 **Đã kiểm tra với:** Aspose.OCR cho Java 24.12  
 **Tác giả:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Nhận dạng hình ảnh văn bản với Aspose OCR – Hướng dẫn OCR Java đầy đủ](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Khám phá cách nhận dạng toàn diện hình ảnh văn bản bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
 ### [Tạo PDF có thể tìm kiếm từ PNG – Hướng dẫn Java đầy đủ](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -190,3 +190,9 @@ Mở khóa khả năng chuyển đổi hàng loạt hình ảnh thành văn bả
 ### [Tạo PDF có thể tìm kiếm với Aspose OCR – Hướng dẫn từng bước](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Mở khóa khả năng tạo PDF có thể tìm kiếm nhanh chóng bằng Aspose OCR, hướng dẫn chi tiết từng bước để chuyển đổi tài liệu.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

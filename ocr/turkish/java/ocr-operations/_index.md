@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Metnini Aspose.OCR for Java ile Tanıma
@@ -114,6 +116,10 @@ Java'da Aspose OCR kullanarak PNG görüntülerinden metin tanımayı adım adı
 Java kullanarak görüntüden aranabilir PDF oluşturma sürecini adım adım öğrenin.
 ### [Java ile Görüntü Üzerinde OCR Çalıştırma – PNG'den Tay Metni Çıkarma](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Java ve Aspose.OCR kullanarak PNG dosyalarından Tay dili metnini adım adım çıkarın.
+### [Java'da Aspose ile OCR Nasıl Etkinleştirilir – Adım Adım Kılavuz](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Java uygulamanıza Aspose OCR ekleyerek metin tanımayı adım adım etkinleştirin ve hızlı sonuçlar alın.
+### [Java OCR ile Görüntüden Aranabilir PDF Oluşturma](./create-searchable-pdf-from-image-with-java-ocr/)
+Java ve Aspose.OCR kullanarak bir görüntüyü aranabilir PDF'ye dönüştürmeyi adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 
@@ -138,12 +144,6 @@ A: TIFF görüntülerini parçalar halinde işleyin veya bellek kullanımını o
 **Test Edilen:** Aspose.OCR for Java 24.12  
 **Yazar:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR ile Görüntü Metni Tanıma – Tam Java OCR Öğreticisi](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Java'da Aspose OCR kullanarak görüntüden metin tanıma sürecini adım adım öğrenin.
 ### [Aspose OCR Java ile Görüntüyü Metne Dönüştürme – Adım Adım Kılavuz](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
@@ -202,3 +202,9 @@ Java ile birden çok görüntüyü toplu olarak OCR ile metne dönüştürün, v
 ### [Aspose OCR ile Aranabilir PDF Oluşturma – Adım Adım Kılavuz](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR kullanarak PDF dosyalarını aranabilir hâle getirin, adım adım talimatlarla hızlı ve doğru sonuçlar elde edin.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

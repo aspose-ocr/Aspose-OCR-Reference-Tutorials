@@ -9,7 +9,9 @@ date: 2025-12-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Use OCR: Advanced Techniques with Aspose.OCR for Java
@@ -169,6 +171,14 @@ Learn how to perform OCR on PNG images using Aspose.OCR for Java, extracting tex
 Learn how to preprocess images to improve OCR accuracy in Java using Aspose.OCR, covering scaling, denoising, and binarization techniques.
 ### [Define Region of Interest in Java OCR – Complete Guide](./define-region-of-interest-in-java-ocr-complete-guide/)
 Learn how to define a region of interest for OCR in Java using Aspose.OCR, improving accuracy and extracting text from specific image areas.
+### [How to Improve OCR with Advanced Preprocessing in Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Boost OCR accuracy by applying advanced image preprocessing techniques in Java with Aspose.OCR.
+### [How to Batch OCR in Java with Parallel Processing](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Learn how to process multiple images concurrently using Aspose.OCR for Java with parallel processing for faster batch OCR.
+### [How to Perform OCR in Java – Auto‑Detect Language and Extract Text](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Automatically detect language and extract text from images using Aspose.OCR for Java. Simple integration for multilingual OCR.
+### [Recognize Text from Image with GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Leverage GPU acceleration in Aspose OCR for Java to quickly recognize text from images with high performance.
 
 ## Frequently Asked Questions
 
@@ -193,12 +203,6 @@ A: Yes, each `OcrEngine` instance is thread‑safe, allowing parallel processing
 **Tested With:** Aspose.OCR 24.12 for Java  
 **Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ## [How to Enable GPU for OCR in Java – Recognize Text from Image Fast](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
 
 ### [extract text from image with Java – Read VIN from Photo](./extract-text-from-image-with-java-read-vin-from-photo/)
@@ -221,3 +225,9 @@ Learn how to efficiently process large documents with Aspose.OCR for Java, handl
 ### [Preprocess image OCR in java – boost accuracy & extract text](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Improve OCR results by preprocessing images in Java with Aspose.OCR, enhancing accuracy and extracting text efficiently.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

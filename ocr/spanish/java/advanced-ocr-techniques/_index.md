@@ -72,6 +72,8 @@ Desbloquee el poder de Aspose.OCR para Java con nuestra guía paso a paso sobre 
 Desbloquee el poder del reconocimiento de texto con Aspose.OCR para Java. Siga nuestra guía paso a paso para una integración perfecta. Mejore sus aplicaciones Java con capacidades de OCR eficientes.
 ### [Reconocer líneas en Aspose.OCR para Java](./recognize-lines/)
 Potencia tus aplicaciones Java con Aspose.OCR para un reconocimiento de texto preciso. Fácil integración, alta precisión.
+### [Reconocer texto de imagen con GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Reconozca texto de imágenes usando la GPU con Aspose OCR para Java, obteniendo mayor velocidad y precisión.
 ### [Especificación de caracteres permitidos en Aspose.OCR](./specify-allowed-characters/)
 Desbloquee la extracción de texto de imágenes sin problemas con Aspose.OCR para Java. Siga nuestra guía paso a paso para una integración eficiente.
 ### [Detección automática de idioma en OCR Java – Guía paso a paso](./automatic-language-detection-in-java-ocr-step-by-step-guide/)
@@ -173,6 +175,12 @@ Aprenda a extraer texto de archivos PNG usando Aspose.OCR para Java con alta pre
 Aprenda a definir regiones de interés para OCR en Java con Aspose.OCR, mejorando la precisión y el rendimiento.
 ### [Preprocesar imagen para OCR – Mejorar la precisión de extracción de texto en Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Aprenda a preprocesar imágenes para OCR y aumentar la precisión de extracción de texto en Java.
+### [Cómo realizar OCR por lotes en Java con procesamiento paralelo](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Aprenda a procesar múltiples imágenes simultáneamente usando OCR en Java con procesamiento paralelo para mayor velocidad y eficiencia.
+### [Cómo realizar OCR en Java – Detección automática de idioma y extracción de texto](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Aprenda a detectar automáticamente el idioma y extraer texto de imágenes en Java con Aspose.OCR.
+### [Cómo mejorar OCR con preprocesamiento avanzado en Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Aprenda a mejorar la precisión del OCR en Java mediante técnicas avanzadas de preprocesamiento de imágenes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

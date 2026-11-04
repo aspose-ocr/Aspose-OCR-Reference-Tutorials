@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for Java 로 PDF 텍스트 인식
@@ -147,6 +149,10 @@ Aspose OCR을 활용해 Java에서 PNG 이미지의 텍스트를 전체적으로
 Aspose OCR을 사용해 Java에서 PNG 이미지의 태국어 텍스트를 추출하는 단계별 가이드.
 ### [Java로 이미지에서 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Java와 Aspose.OCR을 사용해 이미지를 검색 가능한 PDF로 변환하는 전체 과정
+### [Aspose와 Java에서 OCR 활성화하기 – 단계별 가이드](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aspose를 사용해 Java 애플리케이션에서 OCR을 설정하고 사용하는 방법을 단계별로 안내합니다.
+### [Java OCR로 이미지에서 검색 가능한 PDF 만들기](./create-searchable-pdf-from-image-with-java-ocr/)
+이미지를 OCR 처리해 검색 가능한 PDF로 변환하는 단계별 가이드를 제공합니다.
 
 ## 자주 묻는 질문
 
@@ -171,12 +177,6 @@ A: TIFF 이미지를 청크 단위로 처리하거나 멀티스레딩을 사용�
 **테스트 환경:** Aspose.OCR for Java 24.12  
 **작성자:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR을 사용한 텍스트 이미지 인식 – 전체 Java OCR 튜토리얼](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aspose OCR을 활용해 Java에서 텍스트 이미지 전체 인식 과정을 단계별로 안내합니다.
 ### [PNG에서 검색 가능한 PDF 만들기 – 완전 Java 가이드](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -187,3 +187,9 @@ PNG 이미지를 OCR로 처리해 검색 가능한 PDF로 변환하는 전체 Ja
 Java에서 다수의 이미지를 한 번에 텍스트로 변환하는 배치 OCR 처리 방법을 안내합니다.
 ### [Aspose OCR로 검색 가능한 PDF 만들기 – 단계별 가이드](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznání textu PDF pomocí Aspose.OCR pro Java
@@ -139,6 +141,10 @@ Kompletní návod, jak pomocí Aspose OCR v Javě rozpoznat a extrahovat text z 
 ### [Rozpoznání textu z PNG pomocí Aspose OCR – Kompletní Java průvodce](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [Spuštění OCR na obrázku v Javě – Extrahování thajského textu z PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Naučte se pomocí Aspose.OCR v Javě rozpoznat thajský text v PNG obrázcích a získat přesné výsledky.
+### [Jak povolit OCR v Javě s Aspose – krok za krokem průvodce](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Naučte se, jak v Javě aktivovat OCR pomocí Aspose, krok po kroku, včetně nastavení a ukázek kódu.
+### [Vytvořit prohledávatelný PDF z obrázku pomocí Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Naučte se převést obrázek na prohledávatelný PDF pomocí Aspose.OCR v Javě.
 
 ## Často kladené otázky
 
@@ -163,12 +169,6 @@ A: Zpracovávejte TIFF obrázky po částech nebo použijte vícevláknové zpra
 **Testováno s:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Rozpoznání textu z obrázku pomocí Aspose OCR – Kompletní Java OCR tutoriál](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 ### [Jak narovnat obrázek — krok‑za‑krokem průvodce předzpracováním OCR](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
 
@@ -190,3 +190,9 @@ Umožňuje hromadně převádět obrázky na text pomocí Aspose.OCR v Javě.
 ### [Vytvoření prohledávatelného PDF pomocí Aspose OCR – průvodce krok za krokem](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Naučte se, jak pomocí Aspose OCR převést PDF na prohledávatelný formát v několika jednoduchých krocích.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -170,6 +170,14 @@ Využijte GPU akceleraci pro rychlé rozpoznávání textu v Java OCR. Příklad
 Rozpoznávejte text z PNG souborů pomocí Aspose.OCR pro Java. Jednoduchá integrace a vysoká přesnost pro vaše projekty.
 ### [Předzpracování obrázku pro OCR – Zvyšte přesnost extrakce textu v Javě](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Naučte se, jak předzpracovat obrázky pro OCR v Javě a výrazně zlepšit přesnost rozpoznávání textu.
+### [Jak provádět hromadné OCR v Javě s paralelním zpracováním](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Zrychlete rozpoznávání textu hromadným OCR v Javě s paralelním zpracováním pro maximální výkon.
+### [Rozpoznání textu z obrázku pomocí GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Zrychlete OCR pomocí GPU v Aspose OCR pro Java a extrahujte text z obrázků s vysokou rychlostí.
+### [Jak provést OCR v Javě – automatické rozpoznání jazyka a extrakce textu](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Naučte se, jak v Javě provádět OCR s automatickým rozpoznáním jazyka a extrahovat text rychle a přesně.
+### [Jak zlepšit OCR pomocí pokročilého předzpracování v Javě](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Zvyšte přesnost OCR v Javě pomocí pokročilých technik předzpracování obrázků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

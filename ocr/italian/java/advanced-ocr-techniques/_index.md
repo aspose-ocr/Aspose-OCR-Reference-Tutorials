@@ -168,6 +168,14 @@ Esegui l'OCR su file PNG con Java, estraendo testo con alta precisione e semplic
 Impara a impostare la regione di interesse per l'OCR in Java, migliorando precisione e velocità dell'estrazione del testo.
 ### [Preelaborare l'immagine per OCR – Incrementare la precisione dell'estrazione del testo in Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Preelabora le immagini prima dell'OCR per migliorare la precisione dell'estrazione del testo in Java con Aspose.OCR.
+### [Come eseguire OCR in batch in Java con elaborazione parallela](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Scopri come elaborare più immagini contemporaneamente con OCR in Java usando il parallelismo per massimizzare le prestazioni.
+### [Riconoscere il testo da un'immagine con GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Scopri come utilizzare la GPU per accelerare il riconoscimento del testo da immagini con Aspose OCR per Java.
+### [Come eseguire OCR in Java – Rilevamento automatico della lingua ed estrazione del testo](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Scopri come eseguire OCR in Java con rilevamento automatico della lingua e estrazione del testo in modo semplice ed efficiente.
+### [Come migliorare l'OCR con preelaborazione avanzata in Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Scopri tecniche di preelaborazione avanzata per ottimizzare l'OCR in Java, migliorando precisione e velocità.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

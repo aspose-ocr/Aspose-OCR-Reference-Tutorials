@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التعرف على نص PDF باستخدام Aspose.OCR للـ Java
@@ -134,6 +136,10 @@ weight: 21
 دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 ### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [تشغيل OCR على صورة باستخدام Java – استخراج النص التايلاندي من PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+### [كيفية تمكين OCR في Java باستخدام Aspose – دليل خطوة بخطوة](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+دليل خطوة بخطوة يوضح كيفية تفعيل OCR في Java باستخدام مكتبة Aspose لتحقيق استخراج نص فعال.
+### [إنشاء PDF قابل للبحث من صورة باستخدام OCR في Java](./create-searchable-pdf-from-image-with-java-ocr/)
+دليل خطوة بخطوة لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR للـ Java.
 
 ## الأسئلة المتكررة
 
@@ -158,12 +164,6 @@ weight: 21
 **تم الاختبار مع:** Aspose.OCR للـ Java 24.12  
 **المؤلف:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [التعرف على نص الصورة باستخدام Aspose OCR – دليل OCR كامل للـ Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث من PNG – دليل Java كامل](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -173,3 +173,9 @@ weight: 21
 ### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

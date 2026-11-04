@@ -148,6 +148,14 @@ url: /el/java/advanced-ocr-techniques/
 
 ## [Προεπεξεργασία εικόνας για OCR – Βελτιώστε την ακρίβεια εξαγωγής κειμένου σε Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Μάθετε πώς να προετοιμάσετε εικόνες για OCR, βελτιώνοντας την ακρίβεια της εξαγωγής κειμένου στις εφαρμογές Java.
+### [Πώς να εκτελέσετε OCR σε Java – Αυτόματη ανίχνευση γλώσσας και εξαγωγή κειμένου](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Μάθετε πώς να εκτελείτε OCR σε Java με αυτόματη ανίχνευση γλώσσας και εξαγωγή κειμένου, βελτιώνοντας την ακρίβεια και την απόδοση.
+### [Πώς να εκτελέσετε μαζικό OCR σε Java με παράλληλη επεξεργασία](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων OCR ταυτόχρονα σε Java, αξιοποιώντας την παράλληλη επεξεργασία για υψηλή απόδοση.
+### [Αναγνώριση κειμένου από εικόνα με GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία σε Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Μάθετε πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία εικόνας σε Java, αυξάνοντας την ακρίβεια και την απόδοση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

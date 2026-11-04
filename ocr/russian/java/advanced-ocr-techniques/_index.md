@@ -165,6 +165,18 @@ Aspose.OCR для Java меняет правила игры, когда дело
 ### [Предобработка изображения для OCR – Повышение точности извлечения текста в Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Узнайте, как предобрабатывать изображения для OCR в Java, чтобы значительно улучшить точность извлечения текста.
 
+### [Как выполнить OCR в Java — автоматическое определение языка и извлечение текста](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Узнайте, как автоматически определять язык текста и извлекать его из изображений в Java с помощью Aspose.OCR.
+
+### [Как выполнять пакетный OCR в Java с параллельной обработкой](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Узнайте, как ускорить пакетную обработку изображений в Java, используя параллельные потоки и Aspose.OCR.
+
+### [Распознавание текста из изображения с помощью GPU в Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Узнайте, как ускорить OCR, используя GPU в Aspose OCR для Java, и быстро извлекать текст из изображений.
+
+### [Как улучшить OCR с помощью продвинутой предобработки в Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Узнайте, как использовать продвинутые методы предобработки изображений для повышения точности OCR в Java с Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

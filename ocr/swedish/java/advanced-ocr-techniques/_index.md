@@ -56,6 +56,9 @@ Lär dig steg för steg hur du utför OCR på en bild med Aspose OCR i Java för
 
 Extrahera text från bilder utan ansträngning genom att ange tillåtna tecken med Aspose.OCR för Java. Följ vår steg-för-steg-guide för effektiv integration, vilket säkerställer en sömlös textigenkänningsupplevelse. Förbättra dina Java-applikationer med Aspose.OCR-funktioner.
 
+## [Hur man utför batch-OCR i Java med parallell bearbetning](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Utför batch-OCR i Java med parallell bearbetning för snabb och effektiv textutvinning. Optimera dina projekt med Aspose.OCR.
+
 ## [Känn igen bildtext med Java OCR – GPU‑accelererat exempel](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
 Utnyttja GPU‑acceleration för snabb bildtextigenkänning med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide.
 
@@ -166,6 +169,13 @@ Strömma stora TIFF-bilder och extrahera textsegment med Aspose.OCR för Java f�
 Utför OCR på PNG-bilder med Java och extrahera text smidigt med Aspose.OCR.
 ### [Definiera intresseområde i Java OCR – Komplett guide](./define-region-of-interest-in-java-ocr-complete-guide/)
 Definiera ett intresseområde för OCR i Java med Aspose.OCR. Följ vår steg‑för‑steg‑guide för exakt textutvinning.
+### [Utför OCR på bild med GPU Aspose OCR för Java](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Utnyttja GPU-acceleration för snabb och exakt textigenkänning i Java med Aspose OCR.
+### [Hur man utför OCR i Java – Autodetektera språk och extrahera text](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Utför OCR i Java med automatisk språkdetektering och extrahera text effektivt. Få hög noggrannhet med Aspose.OCR.
+### [Hur man förbättrar OCR med avancerad förbehandling i Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Förbättra OCR‑noggrannheten i Java med avancerade förbehandlingsmetoder. Följ vår steg‑för‑steg‑guide för optimal textigenkänning.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

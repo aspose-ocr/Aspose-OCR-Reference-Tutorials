@@ -159,6 +159,14 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีกำหนดพื้นที่สนใจสำหรับ OCR ใน Java ด้วย Aspose.OCR เพื่อการแยกข้อความที่แม่นยำและมีประสิทธิภาพ
 ### [เตรียมภาพล่วงหน้าสำหรับ OCR – เพิ่มความแม่นยำในการสกัดข้อความใน Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 เรียนรู้วิธีการเตรียมภาพก่อนทำ OCR ใน Java เพื่อเพิ่มความแม่นยำของการสกัดข้อความอย่างมีประสิทธิภาพ
+### [วิธีทำ Batch OCR ใน Java ด้วยการประมวลผลแบบขนาน](./how-to-batch-ocr-in-java-with-parallel-processing/)
+เรียนรู้วิธีทำ OCR หลายไฟล์พร้อมกันใน Java ด้วยการประมวลผลแบบขนานเพื่อเพิ่มประสิทธิภาพและความเร็ว
+### [การจดจำข้อความจากภาพด้วย GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+ใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose OCR ใน Java เพิ่มประสิทธิภาพและความแม่นยำ
+### [วิธีทำ OCR ใน Java – ตรวจจับภาษาอัตโนมัติและแยกข้อความ](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+เรียนรู้วิธีทำ OCR ใน Java พร้อมการตรวจจับภาษาที่อัตโนมัติและการดึงข้อความจากรูปภาพอย่างแม่นยำ
+### [วิธีปรับปรุง OCR ด้วยการประมวลผลล่วงหน้าขั้นสูงใน Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+เพิ่มประสิทธิภาพการจดจำข้อความด้วยเทคนิคการเตรียมภาพขั้นสูงสำหรับ Java ด้วย Aspose.OCR
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

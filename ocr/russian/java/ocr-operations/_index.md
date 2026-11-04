@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Распознавание текста PDF с помощью Aspose.OCR для Java
@@ -139,6 +141,10 @@ weight: 21
 ### [Распознавание текста из PNG с Aspose OCR – Полный Java туториал](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 ### [Выполнение OCR на изображении с Java – извлечение тайского текста из PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Полный пошаговый туториал по распознаванию тайского текста из PNG‑изображений с помощью Aspose.OCR в Java.
+### [Как включить OCR в Java с Aspose – пошаговое руководство](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Подробное руководство по включению OCR в Java с использованием Aspose, шаг за шагом.
+### [Создание поискового PDF из изображения с помощью Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Пошаговое руководство по преобразованию изображения в PDF с поисковым слоем с использованием Aspose.OCR для Java.
 
 ## Часто задаваемые вопросы
 
@@ -163,13 +169,6 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 **Тестировано с:** Aspose.OCR for Java 24.12  
 **Автор:** Aspose  
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Распознавание текста на изображении с Aspose OCR – Полный Java OCR туториал](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
 ### [Пакетное OCR изображений в Java – Быстрое извлечение текста из PNG‑файлов](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
@@ -193,3 +192,9 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 ### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

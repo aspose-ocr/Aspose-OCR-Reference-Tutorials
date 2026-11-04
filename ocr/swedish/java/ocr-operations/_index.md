@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Känn igen PDF-text med Aspose.OCR för Java
@@ -149,6 +151,10 @@ En komplett guide som visar hur du använder Aspose OCR för att känna igen tex
 En steg‑för‑steg‑guide för att köra OCR på PNG‑bilder och extrahera thaitext med Aspose.OCR för Java.
 ### [Skapa sökbar PDF från bild med Java – Steg‑för‑steg‑guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 En detaljerad guide som visar hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java.
+### [Hur du aktiverar OCR i Java med Aspose – Steg‑för‑steg‑guide](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Lär dig hur du enkelt aktiverar OCR i Java med Aspose genom en detaljerad steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bild med Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg‑för‑steg‑instruktioner för optimal OCR‑resultat.
 
 ## Vanliga frågor
 
@@ -173,12 +179,6 @@ A: Bearbeta TIFF‑bilder i delar eller använd multi‑threading för att håll
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Skapa sökbar PDF med Aspose OCR – Steg‑för‑steg‑guide](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Lär dig hur du skapar en sökbar PDF med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
 ### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR-handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
@@ -190,3 +190,9 @@ Lär dig steg‑för‑steg hur du konverterar bildfiler till sökbara PDF‑dok
 ### [Konvertera bilder till text i Java – Batch‑OCR‑behandlingsguide](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Lär dig hur du batch‑processar bildfiler till text med Aspose.OCR för Java för hög effektivitet.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

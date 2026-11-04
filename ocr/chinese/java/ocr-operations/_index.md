@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR for Java 识别 PDF 文本
@@ -145,6 +147,10 @@ weight: 21
 完整的 Java 示例，演示如何将图像转换为可搜索的 PDF 并导出结果。
 ### [使用 Java 对图像进行 OCR – 从 PNG 中提取泰文文本](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 完整的 Java 示例，演示如何使用 Aspose OCR 从 PNG 图像中提取泰文文本并导出结果。
+### [如何在 Java 中使用 Aspose 启用 OCR – 步骤式指南](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+本教程提供在 Java 项目中启用 Aspose OCR 的完整步骤，帮助您快速实现文本识别。
+### [使用 Java OCR 将图像转换为可搜索 PDF](./create-searchable-pdf-from-image-with-java-ocr/)
+演示如何使用 Aspose.OCR for Java 将图像转换为带可搜索文本层的 PDF，实现快速搜索和编辑。
 
 ## 常见问题
 
@@ -169,12 +175,6 @@ A: 将 TIFF 图像分块处理或使用多线程，以保持内存使用的最�
 **测试环境:** Aspose.OCR for Java 24.12  
 **作者:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [使用 Aspose OCR 识别图像文本 – 完整 Java OCR 教程](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 完整的 Java 示例，演示如何使用 Aspose OCR 识别图像中的文本并导出结果。
 ### [使用 OCR 将图像创建可搜索 PDF – Java 教程](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
@@ -185,3 +185,9 @@ A: 将 TIFF 图像分块处理或使用多线程，以保持内存使用的最�
 使用 Aspose.OCR for Java 批量处理图像并提取文本，提高效率并保持高准确率。
 ### [使用 Aspose OCR 创建可搜索 PDF – 步骤指南](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

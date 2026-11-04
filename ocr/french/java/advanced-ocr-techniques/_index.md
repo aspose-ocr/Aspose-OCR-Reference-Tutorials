@@ -58,7 +58,6 @@ Libérez la puissance de la reconnaissance de texte avec Aspose.OCR pour Java. S
 Renforcez vos applications Java avec Aspose.OCR pour une reconnaissance de texte précise. Intégration facile, haute précision.
 
 ### [Spécification des caractères autorisés dans Aspose.OCR](./specify-allowed-characters/)
-Débloquez l'extraction de texte à partir d'images de manière transparente avec Aspose.OCR pour Java. Suivez notre guide étape par étape pour une intégration efficace.
 ### [Comment activer le GPU pour l'OCR en Java – Guide complet](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Apprenez à activer l'accélération GPU pour l'OCR avec Aspose.OCR en Java, améliorant la vitesse et la précision de la reconnaissance de texte.
 
@@ -168,6 +167,15 @@ Reconnaissez rapidement le texte d'une image PNG avec Aspose.OCR pour Java. Guid
 Définissez la région d'intérêt pour l'OCR en Java avec Aspose.OCR. Guide complet pour une extraction précise et efficace du texte.
 ### [Prétraiter l'image pour l'OCR – Améliorer la précision d'extraction du texte en Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Optimisez la précision de l'extraction de texte en prétraitant vos images avec Aspose.OCR pour Java. Guide étape par étape.
+### [Comment réaliser une OCR par lots en Java avec traitement parallèle](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Apprenez à exécuter l'OCR sur de multiples images en Java en utilisant le traitement parallèle pour accélérer les performances.
+### [Reconnaître le texte d'une image avec GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Exploitez la puissance du GPU pour accélérer la reconnaissance de texte d'images avec Aspose OCR en Java.
+### [Comment effectuer l'OCR en Java – Détection automatique de la langue et extraction du texte](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Apprenez à détecter automatiquement la langue d'une image et à extraire le texte avec Aspose.OCR pour Java.
+### [Comment améliorer l'OCR avec un prétraitement avancé en Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Apprenez à optimiser la précision de l'OCR en Java grâce à des techniques de prétraitement avancées pour des images de meilleure qualité.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

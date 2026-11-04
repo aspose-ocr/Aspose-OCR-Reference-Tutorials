@@ -165,13 +165,17 @@ Aprenda a habilitar a GPU para acelerar o OCR com Aspose.OCR, reconhecendo texto
 Aprenda a criar PDFs pesquisáveis usando Aspose.OCR para Java. Guia completo passo a passo para gerar documentos com texto pesquisável.
 ### [Como corrigir inclinação de imagem para OCR – Guia de pré‑processamento Java](./how-to-deskew-image-for-ocr-java-pre-processing-guide/)
 Aprenda a corrigir a inclinação de imagens antes do OCR usando Aspose.OCR para Java, melhorando a precisão da extração de texto.
+### [Como fazer OCR em lote em Java com processamento paralelo](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Aprenda a processar múltiplas imagens simultaneamente usando OCR em Java com paralelismo para alta performance.
+### [Reconhecer texto de imagem com GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Acelere a extração de texto usando GPU com Aspose OCR para Java, obtendo alta performance e precisão.
+### [Como fazer OCR em Java – Detecção automática de idioma e extração de texto](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Aprenda a executar OCR em Java detectando automaticamente o idioma da imagem e extraindo o texto com alta precisão.
+### [Como melhorar o OCR com pré-processamento avançado em Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Aprenda técnicas avançadas de pré-processamento para aumentar a precisão do OCR em Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-
-{{< blocks/products/products-backtop-button >}}
-

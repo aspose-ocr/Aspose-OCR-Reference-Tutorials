@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconocer texto PDF con Aspose.OCR para Java
@@ -150,6 +152,10 @@ Aprende a extraer texto de PDFs usando Aspose OCR en Java con esta guía paso a 
 Aprende a generar un PDF buscable a partir de una imagen usando Aspose.OCR para Java en unos simples pasos.
 ### [Ejecutar OCR en Imagen con Java – Extraer Texto Tailandés de PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Desbloquea la extracción de texto tailandés de archivos PNG usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Cómo habilitar OCR en Java con Aspose – Guía paso a paso](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aprende a activar OCR en Java usando Aspose con una guía paso a paso para integrar reconocimiento de texto rápidamente.
+### [Crear PDF buscable a partir de una imagen con Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Crea un PDF buscable a partir de imágenes usando Aspose.OCR para Java. Sigue los pasos para generar documentos editables y con texto indexable.
 
 ## Preguntas frecuentes
 
@@ -174,12 +180,6 @@ A: Procesa imágenes TIFF en fragmentos o usa multi‑threading para mantener el
 **Probado con:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Reconocer texto en imagen con Aspose OCR – Tutorial completo de OCR en Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Desbloquea la extracción completa de texto de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
 ### [Crear PDF buscable a partir de PNG – Guía completa en Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -191,3 +191,9 @@ Aprende a generar PDFs buscables usando Aspose OCR con instrucciones detalladas 
 ### [Convertir imágenes a texto en Java – Guía de procesamiento OCR por lotes](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Aprende a convertir múltiples imágenes a texto en Java usando procesamiento OCR por lotes con Aspose.OCR.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

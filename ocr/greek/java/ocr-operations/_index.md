@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αναγνώριση Κειμένου PDF με Aspose.OCR για Java
@@ -160,6 +162,10 @@ A: Απόλυτα. Μπορείτε να κάνετε βρόχο σε μια σ�
 
 **Q: Υπάρχουν επιδόσεις που πρέπει να ληφθούν υπόψη για μεγάλα αρχεία TIFF;**  
 A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα ή χρησιμοποιήστε πολυνηματική εκτέλεση για να διατηρήσετε τη χρήση μνήμης σε βέλτιστο επίπεδο.
+### [Πώς να ενεργοποιήσετε το OCR σε Java με το Aspose – Οδηγός βήμα‑βήμα](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Μάθετε πώς να ενεργοποιήσετε το OCR σε εφαρμογές Java με το Aspose, ακολουθώντας έναν αναλυτικό βήμα‑βήμα οδηγό.
+### [Δημιουργία αναζητήσιμου PDF από εικόνα με Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμα PDF χρησιμοποιώντας το Aspose.OCR για Java.
 
 ---
 
@@ -167,12 +173,6 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 **Δοκιμασμένο με:** Aspose.OCR for Java 24.12  
 **Συγγραφέας:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες με το Aspose OCR σε Java.
 ### [Δημιουργία Αναζητήσιμου PDF από PNG – Πλήρης Οδηγός Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -184,3 +184,9 @@ A: Επεξεργαστείτε τις εικόνες TIFF σε τμήματα �
 ### [Δημιουργία Αναζητήσιμου PDF με Aspose OCR – Οδηγός Βήμα‑βήμα](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε PDF σε αναζητήσιμο PDF χρησιμοποιώντας Aspose OCR με αναλυτικές οδηγίες βήμα‑βήμα.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

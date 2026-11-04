@@ -147,6 +147,9 @@ weight: 21
 ### [จดจำข้อความ PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
 ### [รัน OCR บนภาพด้วย Java – ดึงข้อความภาษาไทยจาก PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อสกัดข้อความภาษาไทยจากไฟล์ PNG อย่างแม่นยำและง่ายดาย
+### [วิธีเปิดใช้งาน OCR ใน Java ด้วย Aspose – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้โดยใช้ Aspose.OCR สำหรับ Java
 
 
 
