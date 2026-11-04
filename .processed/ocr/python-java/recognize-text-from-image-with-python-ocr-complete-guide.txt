@@ -1,0 +1,7 @@
+Title: recognize text from image with Python OCR – Complete Guide
+Slug: recognize-text-from-image-with-python-ocr-complete-guide
+Category: general
+ProcessedDate: 2026-06-16T13:50:59.202215
+SourceRepo: AI Search API
+Keywords: recognize text from image, extract text from receipt, improve ocr accuracy
+PRNumber: 146

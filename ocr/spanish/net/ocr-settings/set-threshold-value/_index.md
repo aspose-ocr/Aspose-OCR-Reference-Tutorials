@@ -10,11 +10,8 @@ url: /es/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
- Quick Answers" etc.
 
-Translate.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

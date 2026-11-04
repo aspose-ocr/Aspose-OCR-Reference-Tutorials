@@ -1,0 +1,7 @@
+Title: How to Improve OCR – Complete Guide to Boost Accuracy
+Slug: how-to-improve-ocr-complete-guide-to-boost-accuracy
+Category: general
+ProcessedDate: 2026-07-15T10:31:10.909320
+SourceRepo: AI Search API
+Keywords: how to improve ocr, extract text image, correct ocr errors, improve ocr accuracy, run ocr image
+PRNumber: 176

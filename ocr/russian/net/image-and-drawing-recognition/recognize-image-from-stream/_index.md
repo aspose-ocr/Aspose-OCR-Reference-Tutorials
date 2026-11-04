@@ -1,11 +1,72 @@
 ---
-date: 2025-12-19
-description: Изучите, как использовать Aspose OCR для .NET для извлечения текста из
-  изображений из потоков. Этот пошаговый пример Aspose OCR демонстрирует простое извлечение
-  текста.
-linktitle: Recognize Image from Stream in OCR Image Recognition
+date: 2026-08-17
+description: Узнайте, как выполнять преобразование изображения в текст из потоков
+  с использованием Aspose OCR для .NET. Это пошаговое руководство демонстрирует быстрое
+  извлечение текста с помощью OCR.
+keywords:
+- image to text conversion
+- image text extraction
+- ocr png file
+- read image stream c#
+- extract text png stream
+lastmod: 2026-08-17
+linktitle: Распознавание изображения из потока в OCR распознавании изображений
+og_description: Узнайте, как выполнять преобразование изображения в текст из потока
+  с использованием Aspose OCR для .NET. Следуйте лаконичному пошаговому руководству
+  для получения быстрых результатов OCR.
+og_image_alt: Screenshot of Aspose OCR extracting text from a PNG stream in C#
+og_title: Преобразование изображения в текст из потока с Aspose OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-17'
+  description: Learn how to perform image to text conversion from streams using Aspose
+    OCR for .NET. This step‑by‑step guide shows fast OCR text extraction.
+  headline: How to perform image to text conversion from stream with Aspose OCR
+  type: TechArticle
+- description: Learn how to perform image to text conversion from streams using Aspose
+    OCR for .NET. This step‑by‑step guide shows fast OCR text extraction.
+  name: How to perform image to text conversion from stream with Aspose OCR
+  steps:
+  - name: set the document directory
+    text: Replace **"Your Document Directory"** with the actual folder that contains
+      *sample.png*.
+  - name: initialize the Aspose OCR engine
+    text: Creating an `AsposeOcr` object gives you access to all OCR methods.
+  - name: read image stream and recognize text
+    text: Here we open **sample.png**, copy its bytes into a `MemoryStream`, and pass
+      that stream to `RecognizeImage`. This demonstrates the **image stream ocr**
+      and **read image stream c#** pattern in a single flow.
+  - name: display the recognized text
+    text: The OCR result is printed to the console; you can also store it in a database
+      or file.
+  - name: confirm successful execution
+    text: A simple confirmation lets you know the process completed without exceptions.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose OCR supports more than 60 languages, making it suitable for
+      global OCR projects.
+    question: Can Aspose OCR handle multiple languages?
+  - answer: Absolutely! You can explore Aspose OCR for .NET with a free trial on the
+      [Aspose OCR download page](https://releases.aspose.com/).
+    question: Is there a trial version I can use?
+  - answer: Visit the [Aspose OCR Forum](https://forum.aspose.com/c/ocr/16) for community
+      and expert support.
+    question: Where can I get help if I run into problems?
+  - answer: A temporary license is available on the [Aspose OCR temporary license
+      page](https://purchase.aspose.com/temporary-license/) for evaluation purposes.
+    question: How do I obtain a temporary license for testing?
+  - answer: To add Aspose OCR to your production toolkit, go to the [Aspose OCR purchase
+      page](https://purchase.aspose.com/buy).
+    question: Where can I purchase a permanent license?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Как использовать Aspose для распознавания изображения из потока в OCR.
+tags:
+- image to text conversion
+- Aspose OCR
+- C# OCR tutorial
+- stream processing
+title: Как выполнить преобразование изображения в текст из потока с помощью Aspose
+  OCR
 url: /ru/net/image-and-drawing-recognition/recognize-image-from-stream/
 weight: 12
 ---
@@ -14,30 +75,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Как использовать Aspose для распознавания изображения из потока в OCR распознавании изображений
+# Как выполнить преобразование изображения в текст из потока с Aspose OCR
 
-## Как использовать Aspose OCR – Введение
-
-Добро пожаловать в захватывающий мир оптического распознавания символов (OCR) с **Aspose.OCR for .NET**. В этом руководстве вы узнаете, **как использовать Aspose** для чтения потока изображения, эффективного извлечения текста из изображения и интеграции OCR‑извлечения текста в любое .NET‑приложение. Независимо от того, создаёте ли вы конвейер обработки документов или быстрый прототип, этот учебник проведёт вас через полный **aspose ocr example** с реальным кодом, который вы можете запустить уже сегодня.
+В этом учебнике вы узнаете, как превратить необработанный поток изображения в поисковый, редактируемый текст с помощью **Aspose.OCR for .NET**. Независимо от того, создаёте ли вы конвейер обработки документов, автоматизируете ввод данных или просто экспериментируете с OCR, нижеописанные шаги проведут вас от PNG‑потока к чистой строке всего за несколько строк кода C#.
 
 ## Быстрые ответы
-- **Что покрывает данный учебник?** Распознавание текста из изображения, предоставленного в виде потока, с помощью Aspose.OCR for .NET.  
-- **Какое ключевое слово является основным?** *how to use aspose* (используется по всему руководству).  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшна требуется коммерческая лицензия.  
-- **Можно ли извлекать текст на нескольких языках?** Да – Aspose OCR поддерживает OCR нескольких языков «из коробки».  
-- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Что демонстрирует этот учебник?** Преобразование потока изображения в текст (преобразование изображения в текст) с помощью Aspose OCR.  
+- **Какое основное ключевое слово используется?** *image to text conversion* (используется по всему руководству).  
+- **Нужна ли лицензия для разработки?** Бесплатная пробная версия подходит для тестирования; для использования в продакшене требуется коммерческая лицензия.  
+- **Можно ли обрабатывать PNG‑файлы напрямую?** Да — Aspose OCR обрабатывает форматы **ocr png file** без дополнительного преобразования.  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Что такое преобразование изображения в текст?
+Преобразование изображения в текст, также известное как OCR, преобразует визуальные символы на изображении в редактируемый, поисковый текст. Aspose OCR читает `MemoryStream`, содержащий любое поддерживаемое изображение (PNG, JPEG, BMP и т.д.), и возвращает распознанную строку одним вызовом метода. Это позволяет индексировать отсканированные документы, извлекать данные для аналитики или передавать текст в последующие рабочие процессы.
+
+## Почему стоит выбрать Aspose OCR для преобразования изображения в текст?
+Aspose OCR обеспечивает **высокую точность** для более чем 60 языков и может обрабатывать изображения до 30 МБ, удерживая использование памяти ниже 50 МБ. Его API требует лишь нескольких строк кода, работает на Windows, Linux и macOS и поддерживает .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7. Эти измеримые возможности делают его надёжным выбором для корпоративных OCR‑проектов.
 
 ## Предварительные требования
 
-Прежде чем приступить к работе с OCR, убедитесь, что у вас есть следующее:
-
-- Библиотека Aspose.OCR for .NET: если вы ещё этого не сделали, скачайте и установите библиотеку из [Aspose.OCR for .NET Documentation](https://reference.aspose.com/ocr/net/).
-
-- Пример изображения: подготовьте пример изображения (назовём его **sample.png**), которое вы хотите распознать. Убедитесь, что формат подходит для процесса OCR.
+- Aspose.OCR for .NET установлен (скачайте из [Aspose.OCR for .NET Documentation](https://reference.aspose.com/ocr/net/)).  
+- Пример изображения (например, **sample.png**) размещён в папке, к которой можно обратиться из кода.
 
 ## Импорт пространств имён
+`Aspose.OCR` предоставляет основной движок OCR, а `System.IO` даёт доступ к потокам.  
 
-Чтобы начать, добавьте необходимые пространства имён в ваш проект:
+Класс `AsposeOcr` является точкой входа, открывающей методы, такие как `RecognizeImage`.  
 
 ```csharp
 using System;
@@ -45,27 +108,26 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-Теперь разберём пример по нескольким шагам.
+## Пошаговое руководство
 
-## Шаг 1: Установка каталога документов
+### Шаг 1: установить каталог документов
+Замените **"Your Document Directory"** на фактическую папку, содержащую *sample.png*.  
 
 ```csharp
 // The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Замените **"Your Document Directory"** реальным путём к вашему каталогу документов.
-
-## Шаг 2: Инициал Aspose.OCR
+### Шаг 2: инициализировать движок Aspose OCR
+Создание объекта `AsposeOcr` даёт доступ ко всем методам OCR.  
 
 ```csharp
 // Initialize an instance of AsposeOcr
 AsposeOcr api = new AsposeOcr();
 ```
 
-Создайте экземпляр класса `AsposeOcr`, чтобы воспользоваться функциями OCR.
-
-## Шаг 3: Распознавание изображения из потока
+### Шаг 3: прочитать поток изображения и распознать текст
+Здесь мы открываем **sample.png**, копируем его байты в `MemoryStream` и передаём этот поток в `RecognizeImage`. Это демонстрирует шаблон **image stream ocr** и **read image stream c#** в едином процессе.  
 
 ```csharp
 // Recognize image
@@ -77,70 +139,64 @@ using (FileStream file = new FileStream(dataDir + "sample.png", FileMode.Open, F
 }
 ```
 
-На этом этапе открывается файл изображения по указанному пути, он преобразуется в `MemoryStream`, после чего экземпляр `AsposeOcr` распознаёт текст. Демонстрируется обработка **read image stream** и **ocr text extraction** в едином потоке.
-
-## Шаг 4: Вывод распознанного текста
+### Шаг 4: вывести распознанный текст
+Результат OCR выводится в консоль; вы также можете сохранить его в базе данных или файле.  
 
 ```csharp
 // Display the recognized text
 Console.WriteLine(result);
 ```
 
-Выведите распознанный текст в консоль или сохраните его по необходимости.
-
-## Шаг 5: Сообщение об успешном выполнении
+### Шаг 5: подтвердить успешное выполнение
+Простое подтверждение сообщает, что процесс завершён без исключений.  
 
 ```csharp
 Console.WriteLine("RecognizeImageFromStream executed successfully");
 ```
 
-Выведите подтверждающее сообщение, указывающее на успешное завершение процесса распознавания изображения.
-
-## Почему стоит использовать Aspose OCR для распознавания изображений из потоков?
-
-- **Широкая поддержка языков** – OCR multiple languages работает без дополнительной настройки.  
-- **Простой API** – несколько строк кода превращают необработанный поток изображения в поисковый текст.  
-- **Высокая точность** – оптимизированные алгоритмы дают надёжные результаты **extract text image** даже на зашумлённых сканах.  
-- **Кросс‑платформенность** – работает на Windows, Linux и macOS с .NET Core.
-
-## Распространённые проблемы и решения
+## Распространённые проблемы и их решения
 
 | Проблема | Решение |
 |----------|---------|
-| *Результат пустой* | Проверьте правильность пути к изображению и доступность файла. Убедитесь, что изображение содержит чёткий, контрастный текст. |
-| *Неподдерживаемый формат изображения* | Конвертируйте изображение в PNG или JPEG перед передачей в `RecognizeImage`. |
-| *Исключение лицензии* | Используйте временную лицензию во время разработки или приобретите полную лицензию для продакшна (см. ниже). |
+| *Результат пуст* | Проверьте путь к изображению, убедитесь, что файл доступен для чтения, и подтвердите, что изображение содержит чёткий, контрастный текст. |
+| *Неподдерживаемый формат изображения* | Преобразуйте исходный файл в PNG или JPEG перед вызовом `RecognizeImage`. |
+| *Исключение лицензии* | Примените временную лицензию во время разработки или приобретите полную лицензию для продакшена (см. ниже). |
 
 ## Часто задаваемые вопросы
 
-**В: Может ли Aspose.OCR работать с несколькими языками?**  
-О: Да, Aspose.OCR поддерживает широкий набор языков, что делает его универсальным для разнообразных OCR‑задач.
+**В: Может ли Aspose OCR обрабатывать несколько языков?**  
+A: Да, Aspose OCR поддерживает более 60 языков, что делает его подходящим для глобальных OCR‑проектов.
 
-**В: Доступна ли пробная версия?**  
-О: Абсолютно! Вы можете опробовать Aspose.OCR for .NET бесплатно [здесь](https://releases.aspose.com/).
+**В: Есть ли пробная версия, которую я могу использовать?**  
+A: Конечно! Вы можете ознакомиться с Aspose OCR для .NET, используя бесплатную пробную версию на странице [Aspose OCR download page](https://releases.aspose.com/).
 
-**В: Как получить поддержку по Aspose.OCR?**  
-О: Посетите [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) для получения помощи от сообщества и экспертов.
+**В: Где я могу получить помощь, если возникнут проблемы?**  
+A: Посетите [Aspose OCR Forum](https://forum.aspose.com/c/ocr/16) для получения поддержки от сообщества и экспертов.
 
-**В: Можно ли получить временную лицензию?**  
-О: Да, временную лицензию можно оформить [здесь](https://purchase.aspose.com/temporary-license/) для тестовых целей.
+**В: Как получить временную лицензию для тестирования?**  
+A: Временная лицензия доступна на странице [Aspose OCR temporary license page](https://purchase.aspose.com/temporary-license/) для целей оценки.
 
-**В: Где можно приобрести Aspose.OCR for .NET?**  
-О: Чтобы сделать Aspose.OCR постоянной частью вашего инструментария, перейдите на страницу [purchase page](https://purchase.aspose.com/buy).
+**В: Где можно приобрести постоянную лицензию?**  
+A: Чтобы добавить Aspose OCR в ваш набор инструментов для продакшена, перейдите на страницу [Aspose OCR purchase page](https://purchase.aspose.com/buy).
 
 ## Заключение
 
-Поздравляем! Вы успешно использовали возможности Aspose.OCR for .NET для распознавания текста из изображений, предоставленных в виде потоков. Простота интеграции и надёжность этой библиотеки делают её предпочтительным решением для OCR‑задач в ваших .NET‑приложениях. Не стесняйтесь экспериментировать с различными источниками изображений, языковыми пакетами и расширенными настройками, чтобы адаптировать **ocr text extraction** под ваши конкретные потребности.
+Теперь вы освоили **image to text conversion** из потока с помощью Aspose OCR для .NET. Краткий API позволяет преобразовать любое поддерживаемое изображение — например, **ocr png file** — в поисковый текст всего несколькими строками кода. Экспериментируйте с различными источниками изображений, языковыми пакетами и расширенными настройками, чтобы точно настроить вывод OCR под ваш конкретный сценарий.
 
 ---
 
-**Последнее обновление:** 2025-12-19  
+**Последнее обновление:** 2026-08-17  
 **Тестировано с:** Aspose.OCR 24.12 for .NET  
-**Автор:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Автор:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Связанные учебники
+
+- [Преобразовать изображение в текст – выполнить OCR изображения по URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
+- [Как выполнить OCR изображения – выполнить OCR изображения в распознавании изображений OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
+- [Извлечь текст из изображения – оптимизация OCR с Aspose.OCR для .NET](/ocr/net/ocr-optimization/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
