@@ -1,0 +1,7 @@
+Title: Perform OCR on Image in Python – Complete Guide
+Slug: perform-ocr-on-image-in-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-22T20:35:05.563870
+SourceRepo: AI Search API
+Keywords: perform ocr on image, recognize text from png, load image for ocr, use ocr engine
+PRNumber: 155

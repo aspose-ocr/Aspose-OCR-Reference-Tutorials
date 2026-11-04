@@ -1,0 +1,7 @@
+Title: How to OCR Arabic Text in C# – Complete Guide
+Slug: how-to-ocr-arabic-text-in-c-complete-guide
+Category: text-recognition
+ProcessedDate: 2026-05-28T16:24:19.756954
+SourceRepo: AI Search API
+Keywords: how to ocr arabic, recognize arabic text, extract text from image, recognize text from png, load image for ocr
+PRNumber: 133

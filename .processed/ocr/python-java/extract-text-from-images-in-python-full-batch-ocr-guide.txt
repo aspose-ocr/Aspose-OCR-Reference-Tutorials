@@ -1,0 +1,7 @@
+Title: Extract Text from Images in Python – Full Batch OCR Guide
+Slug: extract-text-from-images-in-python-full-batch-ocr-guide
+Category: general
+ProcessedDate: 2026-06-19T16:20:24.619639
+SourceRepo: AI Search API
+Keywords: extract text from images, convert scanned images to text, recognize text from pictures, list image files python
+PRNumber: 151

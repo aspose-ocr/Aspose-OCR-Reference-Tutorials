@@ -1,0 +1,7 @@
+Title: Convert TIFF to Text in C# – Complete Batch OCR Guide
+Slug: convert-tiff-to-text-in-c-complete-batch-ocr-guide
+Category: text-recognition
+ProcessedDate: 2026-05-25T11:40:41.620024
+SourceRepo: AI Search API
+Keywords: convert tiff to text, extract text from tiff, batch image to text conversion, convert scanned images txt
+PRNumber: 131
